@@ -1,2 +1,2 @@
 # rss-translator
-RSS 英译中
+RSS 订阅源英译中，自用
