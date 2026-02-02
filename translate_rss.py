@@ -58,8 +58,8 @@ def translate_feed(feed_config, cache):
         language='zh-CN'
     )
     
-    # 只处理最新 20 条
-    for entry in feed.entries[:20]:
+    # 只处理最新 10 条
+    for entry in feed.entries[:10]:
         title = translate_text(entry.get('title', ''), cache)
         
         # 处理内容
