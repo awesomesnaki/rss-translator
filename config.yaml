@@ -1,0 +1,9 @@
+feeds:
+  - name: "Daring Fireball"
+    url: "https://daringfireball.net/feeds/main"
+  - name: "Paul Graham: Essays"
+    url: "http://www.aaronsw.com/2002/feeds/pgessays.rss"
+  - name: "Simon Willison's Weblog"
+    url: "https://simonwillison.net/atom/everything/"
+  # 按这个格式添加更多源
+```
