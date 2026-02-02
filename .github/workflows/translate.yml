@@ -2,34 +2,32 @@ name: Translate RSS
 
 on:
   schedule:
-    # 每 6 小时运行一次（可自行调整）
-    - cron: '0 */6 * * *'
-  workflow_dispatch:  # 允许手动触发
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
 
 jobs:
   translate:
     runs-on: ubuntu-latest
-    
     permissions:
       contents: write
       pages: write
       id-token: write
-    
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
-      
+          python-version: "3.11"
+
       - name: Install dependencies
         run: pip install -r requirements.txt
-      
+
       - name: Run translation
         run: python translate_rss.py
-      
+
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
@@ -37,36 +35,3 @@ jobs:
           git add -A
           git diff --quiet && git diff --staged --quiet || git commit -m "Update translated feeds"
           git push
-```
-
----
-
-### 第三步：开启 GitHub Pages
-
-1. 进入仓库 → `Settings` → 左侧找到 `Pages`
-2. Source 选 `Deploy from a branch`
-3. Branch 选 `main`，文件夹选 `/ (root)`
-4. 点 Save
-
-等几分钟，你的 feed 就能通过这个地址访问：
-```
-https://你的用户名.github.io/仓库名/feeds/hacker-news.xml
-```
-
----
-
-### 第四步：手动触发第一次运行
-
-1. 进入仓库 → `Actions` 标签
-2. 左侧点 `Translate RSS`
-3. 右侧点 `Run workflow` → `Run workflow`
-
-等运行完成，`feeds` 文件夹里就会出现翻译好的 xml 文件。
-
----
-
-### 第五步：丢进 Reeder
-
-把完整链接复制到 Reeder 里订阅：
-```
-https://你的用户名.github.io/rss-translator/feeds/hacker-news.xml
