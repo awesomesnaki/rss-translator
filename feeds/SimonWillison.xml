@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Tue, 03 Feb 2026 02:31:10 +0000</lastBuildDate><item><title>引用布兰登·桑德森</title><link>https://simonwillison.net/2026/Feb/3/brandon-sanderson/#atom-everything</link><description>&lt;blockquote cite="https://www.youtube.com/watch?v=mb3uK-_QkOo&amp;amp;t=832s"&gt;&lt;p&gt;这就是数据与大型语言模型之间的区别——至少是目前正在运行的这些模型。数据创作艺术是因为它渴望成长，渴望成为某种存在，渴望理解。艺术是我们成为理想自我的途径。[...]
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Tue, 03 Feb 2026 06:36:10 +0000</lastBuildDate><item><title>一月赞助者专属通讯已发布</title><link>https://simonwillison.net/2026/Feb/3/january/#atom-everything</link><description>&lt;p&gt;我刚刚发送了&lt;a href="https://github.com/sponsors/simonw/"&gt;仅供赞助者阅读的月度通讯一月刊&lt;/a&gt;。如果您已是赞助者（或立即开启赞助），可以&lt;a href="https://github.com/simonw-private/monthly/blob/main/2026-01-january.md"&gt;点击此处查看&lt;/a&gt;。本期一月通讯内容包括：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2026年大语言模型发展预测&lt;/li&gt;
+&lt;li&gt;编程智能体持续引发关注&lt;/li&gt;
+&lt;li&gt;Clawdbot/Moltbot/OpenClaw实现现象级传播&lt;/li&gt;
+&lt;li&gt;鸮鹦鹉繁殖季迎来强势开局&lt;/li&gt;
+&lt;li&gt;沙盒环境新增多项选择&lt;/li&gt;
+&lt;li&gt;浏览器成为编程智能体集群的"Hello World"&lt;/li&gt;
+&lt;li&gt;Sam Altman探讨软件工程的杰文斯悖论&lt;/li&gt;
+&lt;li&gt;模型发布与多元附加内容&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;您可通过&lt;a href="https://gist.github.com/simonw/13e595a236218afce002e9aeafd75cd0"&gt;十二月通讯副本&lt;/a&gt;预览往期内容。每月支付10美元即可提前一个月获取付费资讯！&lt;/p&gt;
+&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/newsletter"&gt;通讯简报&lt;/a&gt;&lt;/p&gt;</description><pubDate>Tue, 03 Feb 2026 06:36:10 +0000</pubDate></item><item><title>引用布兰登·桑德森</title><link>https://simonwillison.net/2026/Feb/3/brandon-sanderson/#atom-everything</link><description>&lt;blockquote cite="https://www.youtube.com/watch?v=mb3uK-_QkOo&amp;amp;t=832s"&gt;&lt;p&gt;这就是数据与大型语言模型之间的区别——至少是目前正在运行的这些模型。数据创作艺术是因为它渴望成长，渴望成为某种存在，渴望理解。艺术是我们成为理想自我的途径。[...]
 
 书籍、绘画、电影剧本并非艺术的唯一形式。它们固然重要，但在某种意义上，它们更像是收据或文凭。你写的书、创作的画、谱写的音乐固然重要且富有艺术性，但它们更是你完成学习过程的证明。因为归根结底，你本身就是艺术品。艺术创作带来的最重要改变，是发生在你内心的蜕变。最重要的情感，是你在书写故事时、在捧起完成作品时体验到的悸动。我不在乎人工智能能否创造出比人类更优秀的作品，因为它永远不会被自己的创作所改变。
 
@@ -1394,19 +1406,4 @@ Paul Kinlan is a web platform developer advocate at Google and recently turned h
 &lt;p&gt;设计师应当用原型设计取代流程依赖。人工智能使原型制作比以往更易上手且省时高效。&lt;/p&gt;
 &lt;p&gt;这场演讲让我联想到，AI辅助编程如何大幅降低构建&lt;em&gt;错误方案&lt;/em&gt;的成本。过去若设计方向出错，可能浪费数月开发时间，代价极其高昂。如今若错误方向仅耗费数日，我们就能更大胆地探索问题空间，积极试错。&lt;/p&gt;
 &lt;p&gt;作为长期的原型设计狂热者，这个观点简直是为我量身定制！&lt;p&gt;&lt;small&gt;&lt;/small&gt;来源&lt;a href="https://twitter.com/jenny_wen/status/2014479445738893649"&gt;@jenny_wen&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/design"&gt;设计&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/prototyping"&gt;原型设计&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式AI&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;AI辅助编程&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/vibe-coding"&gt;氛围编程&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Sat, 24 Jan 2026 23:31:03 +0000</pubDate></item><item><title>引用孙茉莉的话</title><link>https://simonwillison.net/2026/Jan/24/jasmine-sun/#atom-everything</link><description>&lt;blockquote cite="https://jasmi.news/p/claude-code"&gt;&lt;p&gt;&lt;strong&gt;如果你告诉朋友现在可以瞬间创建任何应用，他们大概会说："酷！现在我得先想个点子。"
-
-然后他们就会忘记这件事，永远什么也造不出来。问题不在于你的朋友极度缺乏创造力，而在于大多数人的问题并非以软件形式呈现，甚至当问题确实存在时，多数人也意识不到。
-
-程序员被训练成将一切都视为软件形态的问题：如果你重复某项任务三次，就该写个脚本来自动化处理。
-
-"把上周所有IMG_*.jpg文件重命名为hawaii2025_*.jpg"，他们对着终端输入指令，而我们其他人还在痛苦地点击复制粘贴。对那些从未被教导去发现的解决方案，我们视而不见，只会要求更快的马匹，却从未梦想过汽车。
-
-——
-贾思敏·孙
-
-标签：
-氛围编程、编码智能体、克劳德代码、生成式人工智能、人工智能、大语言模型&lt;/strong&gt; Then they will forget about it, and never build a thing. The problem is not that your friend is horribly uncreative. It’s that most people’s problems are not software-shaped, and most won’t notice even when they are. [...]&lt;/p&gt;
-&lt;p&gt;Programmers are trained to see everything as a software-shaped problem: if you do a task three times, you should probably automate it with a script. &lt;em&gt;Rename every IMG_*.jpg file from the last week to hawaii2025_*.jpg&lt;/em&gt;, they tell their terminal, while the rest of us painfully click and copy-paste. We are blind to the solutions we were never taught to see, asking for faster horses and never dreaming of cars.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class="cite"&gt;— &lt;a href="https://jasmi.news/p/claude-code"&gt;Jasmine Sun&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/vibe-coding"&gt;vibe-coding&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sat, 24 Jan 2026 21:34:35 +0000</pubDate></item></channel></rss>
+&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/design"&gt;设计&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/prototyping"&gt;原型设计&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式AI&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;AI辅助编程&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/vibe-coding"&gt;氛围编程&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Sat, 24 Jan 2026 23:31:03 +0000</pubDate></item></channel></rss>
