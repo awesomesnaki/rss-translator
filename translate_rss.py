@@ -4,10 +4,18 @@ import os
 import time
 import hashlib
 import json
+import re
 from pathlib import Path
-from deep_translator import GoogleTranslator
+from bs4 import BeautifulSoup, NavigableString
 from feedgenerator import Rss201rev2Feed
 from datetime import datetime, timezone
+from openai import OpenAI
+
+# DeepSeek API 配置（从环境变量读取，不会暴露在代码里）
+client = OpenAI(
+    api_key=os.environ.get("DEEPSEEK_API_KEY"),
+    base_url="https://api.deepseek.com"
+)
 
 def load_config():
     with open('config.yaml', 'r', encoding='utf-8') as f:
@@ -27,24 +35,126 @@ def save_cache(cache):
 def get_hash(text):
     return hashlib.md5(text.encode()).hexdigest()
 
-def translate_text(text, cache):
+def translate_with_deepseek(text):
+    """调用 DeepSeek API 翻译"""
     if not text or not text.strip():
+        return text
+    
+    try:
+        response = client.chat.completions.create(
+            model="deepseek-chat",
+            messages=[
+                {
+                    "role": "system",
+                    "content": "你是一个专业翻译。请将用户提供的英文翻译成流畅自然的中文。只输出翻译结果，不要添加任何解释或额外内容。保持原文的语气和风格。"
+                },
+                {
+                    "role": "user",
+                    "content": text
+                }
+            ],
+            temperature=0.3,
+            max_tokens=4096
+        )
+        return response.choices[0].message.content.strip()
+    except Exception as e:
+        print(f"DeepSeek API 调用失败: {e}")
+        return text
+
+def translate_text(text, cache):
+    """翻译纯文本，带缓存"""
+    if not text or not text.strip():
+        return text
+    
+    # 清理多余空白，但保留段落结构
+    text = re.sub(r'[ \t]+', ' ', text)  # 多个空格/tab 合并
+    text = re.sub(r'\n\s*\n', '\n\n', text)  # 多个空行合并
+    text = text.strip()
+    
+    if not text:
         return text
     
     text_hash = get_hash(text)
     if text_hash in cache:
         return cache[text_hash]
     
-    try:
-        # 截断过长文本（Google Translate 限制 5000 字符）
-        truncated = text[:4500] if len(text) > 4500 else text
-        translated = GoogleTranslator(source='auto', target='zh-CN').translate(truncated)
-        cache[text_hash] = translated
-        time.sleep(0.5)  # 避免请求过快
-        return translated
-    except Exception as e:
-        print(f"翻译失败: {e}")
-        return text
+    translated = translate_with_deepseek(text)
+    cache[text_hash] = translated
+    time.sleep(0.3)  # 避免请求过快
+    return translated
+
+def translate_html_content(html_content, cache):
+    """
+    翻译 HTML 内容，保留标签结构
+    只翻译文本节点，不动 HTML 标签
+    """
+    if not html_content or not html_content.strip():
+        return html_content
+    
+    soup = BeautifulSoup(html_content, 'html.parser')
+    
+    # 收集所有需要翻译的文本节点
+    text_nodes = []
+    for element in soup.descendants:
+        if isinstance(element, NavigableString):
+            text = str(element).strip()
+            if text and element.parent.name not in ['script', 'style', 'code', 'pre']:
+                text_nodes.append(element)
+    
+    # 批量翻译（减少 API 调用次数）
+    # 将短文本合并翻译，长文本单独翻译
+    batch = []
+    batch_nodes = []
+    BATCH_LIMIT = 2000  # 字符限制
+    
+    for node in text_nodes:
+        text = str(node).strip()
+        if not text:
+            continue
+            
+        if len(text) > BATCH_LIMIT:
+            # 长文本单独翻译
+            if batch:
+                # 先处理之前的批次
+                combined = "\n|||SPLIT|||\n".join(batch)
+                translated_combined = translate_text(combined, cache)
+                translated_parts = translated_combined.split("|||SPLIT|||")
+                for i, part in enumerate(translated_parts):
+                    if i < len(batch_nodes):
+                        batch_nodes[i].replace_with(NavigableString(part.strip()))
+                batch = []
+                batch_nodes = []
+            
+            # 翻译长文本
+            translated = translate_text(text, cache)
+            node.replace_with(NavigableString(translated))
+        else:
+            # 累积短文本
+            if sum(len(t) for t in batch) + len(text) > BATCH_LIMIT:
+                # 批次满了，先翻译
+                if batch:
+                    combined = "\n|||SPLIT|||\n".join(batch)
+                    translated_combined = translate_text(combined, cache)
+                    translated_parts = translated_combined.split("|||SPLIT|||")
+                    for i, part in enumerate(translated_parts):
+                        if i < len(batch_nodes):
+                            batch_nodes[i].replace_with(NavigableString(part.strip()))
+                batch = [text]
+                batch_nodes = [node]
+            else:
+                batch.append(text)
+                batch_nodes.append(node)
+    
+    # 处理剩余批次
+    if batch:
+        combined = "\n|||SPLIT|||\n".join(batch)
+        translated_combined = translate_text(combined, cache)
+        translated_parts = translated_combined.split("|||SPLIT|||")
+        for i, part in enumerate(translated_parts):
+            if i < len(batch_nodes):
+                batch_nodes[i].replace_with(NavigableString(part.strip()))
+    
+    return str(soup)
 
 def translate_feed(feed_config, cache):
     print(f"处理: {feed_config['name']}")
@@ -69,7 +179,8 @@ def translate_feed(feed_config, cache):
         elif 'summary' in entry:
             content = entry.summary
         
-        translated_content = translate_text(content, cache)
+        # 翻译 HTML 内容（保留标签结构）
+        translated_content = translate_html_content(content, cache)
         
         # 获取发布时间
         pub_date = None
@@ -86,6 +197,13 @@ def translate_feed(feed_config, cache):
     return translated_feed
 
 def main():
+    # 检查 API key
+    if not os.environ.get("DEEPSEEK_API_KEY"):
+        print("错误: 未设置 DEEPSEEK_API_KEY 环境变量")
+        print("本地运行: export DEEPSEEK_API_KEY='你的key'")
+        print("GitHub Actions: 在仓库 Settings > Secrets 中添加")
+        return
+    
     config = load_config()
     cache = load_cache()
     
