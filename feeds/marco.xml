@@ -1,0 +1,1649 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Marco.org (中文)</title><link>https://marco.org/</link><description>我是马尔科·阿门特，Overcast的开发者，科技播客与撰稿人，以及咖啡爱好者。</description><language>zh-CN</language><lastBuildDate>Fri, 30 May 2025 15:33:22 +0000</lastBuildDate><item><title>退守安全</title><link>https://marco.org/2025/05/30/retreat</link><description>&lt;p style="margin-top: 1em; margin-bottom: 1em;"&gt;&lt;a href="https://marco.org/2015/06/11/live-with-phil"&gt;&lt;img src="https://marco.org/media/2015/06/tts2015-schiller6.jpg"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;十年前，苹果公司的菲尔·席勒在约翰·格鲁伯的《脱口秀》WWDC现场活动中登台，为这个略显疲惫的社区带来了一场开放、真诚、充满人情味的访谈，令苹果爱好者和开发者们惊喜不已。
+
+我当时这样写道：
+
+苹果公司和菲尔·席勒本人这样做都冒着巨大风险。他们能同意接受采访，本身就是送给这个长期爱好者社群的一份厚礼——随着公司规模扩大，许多成员都感到自己的热情未被充分重视。
+
+[...]
+
+菲尔的亮相温暖、真诚、信息丰富且引人入胜。
+
+充满了人情味。
+
+而让公司及其决策显得更有人情味——尤其是对开发者而言（请记住，开发者关系事务全由菲尔负责）——或许值得冒这样的公关风险。
+
+由此开启了苹果高管连续十年在WWDC期间接受《脱口秀》访谈的传统，事实证明这对苹果而言是绝佳且出乎意料安全的公关策略。
+
+从未有高管说过不该说的话（他们都是专业人士），从未引发任何轰动性或负面新闻报道，而苹果的热情粉丝和开发者们则感受到了被关注、被倾听和被重视。
+
+*     *     *
+
+出于未说明的原因，苹果今年决定不再参与，终结了我们社区这项备受喜爱的传统——我不禁怀疑这个传统可能一去不复返。（毕竟这期间发生了太多变化。）
+
+也许苹果有充分的理由。
+
+也许没有。几周后我们就能看到他们今年的WWDC公关策略如何展开。
+
+在缺乏其他信息的情况下，人们很容易推测：苹果不再希望其高管在可能涉及尖锐问题、未经编排剪辑、展现真实人性的访谈环境中接受采访，也不再认为有必要通过这种方式向我们的社区和开发者表达感谢。
+
+我希望事实并非如此，或者这种状况不会持续太久。
+
+这将是我自2009年以来首次缺席WWDC（当然不包括2020年的线上会议）。考虑到我对自身与苹果关系的认知，以及他们对开发者的态度……&lt;a href="https://daringfireball.net/thetalkshow/"&gt;The Talk Show&lt;/a&gt; Live WWDC event and giving an open, human, honest interview to a somewhat &lt;a href="https://marco.org/2015/01/04/apple-lost-functional-high-ground"&gt;jaded&lt;/a&gt; community.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://marco.org/2015/06/11/live-with-phil"&gt;I wrote this in response&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Both Apple and Phil Schiller himself took a huge risk in doing this. That they agreed at all is a noteworthy gift to this community of long-time enthusiasts, many of whom have felt under-appreciated as the company has grown.&lt;/p&gt;
+&lt;p&gt;[…]&lt;/p&gt;
+&lt;p&gt;Phil’s appearance on the show was warm, genuine, informative, and entertaining.&lt;/p&gt;
+&lt;p&gt;It was human.&lt;/p&gt;
+&lt;p&gt;And humanizing the company and its decisions, especially to developers — remember, developer relations is all under Phil — might be worth the PR risk.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This started a &lt;em&gt;ten-year&lt;/em&gt; run of interviews by Apple executives on The Talk Show every year at WWDC that proved to be great, surprisingly safe PR for Apple.&lt;/p&gt;
+&lt;p&gt;No executive ever said something they shouldn’t have (they’re pros), no sensational or negative news stories ever resulted from them, and Apple’s enthusiastic fans and developers felt seen, heard, and appreciated.&lt;/p&gt;
+&lt;p style="text-align: center; color: #ccc;"&gt;*     *     *&lt;/p&gt;
+&lt;p&gt;For unspecified reasons, &lt;a href="https://daringfireball.net/linked/2025/05/29/the-talk-show-live-tickets-2025"&gt;Apple has declined to participate this year&lt;/a&gt;, ending what had become a beloved tradition in our community — and I can’t help but suspect that it won’t come back. (&lt;a href="https://marco.org/2021/06/03/developer-relations"&gt;A lot has changed&lt;/a&gt; in the meantime.)&lt;/p&gt;
+&lt;p&gt;Maybe Apple has good reasons. &lt;a href="https://daringfireball.net/2025/03/something_is_rotten_in_the_state_of_cupertino"&gt;Maybe not&lt;/a&gt;. We’ll see what their WWDC PR strategy looks like in a couple of weeks.&lt;/p&gt;
+&lt;p&gt;In the absence of any other information, it’s easy to assume that Apple no longer wants its executives to be interviewed in a human, unscripted, unedited context that may contain hard questions, and that Apple no longer feels it necessary to show their appreciation to our community and developers in this way.&lt;/p&gt;
+&lt;p&gt;I hope that’s either not the case, or it doesn’t stay the case for long.&lt;/p&gt;
+&lt;p&gt;This will be the first WWDC I’m not attending since 2009 (excluding the remote 2020 one, of course). Given &lt;a href="https://www.relay.fm/radar/312"&gt;my realizations about my relationship with Apple&lt;/a&gt; and &lt;a href="https://www.relay.fm/radar/318"&gt;how they view developers&lt;/a&gt;也许苹果的高管们也在这么做。&lt;/p&gt;
+&lt;p&gt;Maybe Apple’s leaders are doing that, too.&lt;/p&gt;</description><pubDate>Fri, 30 May 2025 15:33:22 +0000</pubDate></item><item><title>十年阴云：新的开端</title><link>https://marco.org/2024/07/16/overcast-rewrite</link><description>&lt;p&gt;&lt;center style="margin-top: 1.5em; margin-bottom: 1.5em;"&gt;&lt;a href="https://marco.org/media/2024/overcast-rewrite-list.png"&gt;&lt;img src="https://marco.org/media/2024/overcast-rewrite-list.png" style="border: 1px solid #eee; border-radius: 8px; margin-right: 2%;"/&gt;&lt;/a&gt; &lt;a href="https://marco.org/media/2024/overcast-rewrite-nowplaying.png"&gt;&lt;img src="https://marco.org/media/2024/overcast-rewrite-nowplaying.png" style="border: 1px solid #eee; border-radius: 8px; margin-left: 2%;"/&gt;&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;今天是&lt;strong&gt;Overcast 1.0&lt;/strong&gt;发布十周年纪念日，我很高兴推出 iOS 应用大部分功能的重写与重新设计版本，它将承载 Overcast 走向下一个十年——甚至更久。&lt;a href="https://marco.org/2014/07/16/overcast"&gt;比起博客文章，更喜欢播客？&lt;/a&gt;欢迎收听 ATP 第 596 期节目&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;了解更多！&lt;a href="https://atp.fm/596"&gt;新版亮点&lt;/a&gt;速度大幅提升，&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;响应更迅捷，运行更稳定，使用更便捷。&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;采用现代化设计，&lt;/strong&gt;针对当前手机尺寸优化，控件触手可及。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;全面优化体验，&lt;/strong&gt;包括支持撤销大幅跳转、新增播放列表优先级选项、更简洁的导航等多项改进。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;不变之处&lt;/strong&gt;核心功能保留。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Overcast 依然是那个 Overcast！&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;音频引擎如初。&lt;/strong&gt;它始终是 Overcast 的精髓所在，在音质、静音跳过和音量标准化方面仍引领行业。（更多优化即将到来！）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;独立运营不变。&lt;/strong&gt;我仍是单人团队，无外部投资或控股，仅服务于&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;我的用户。&lt;/strong&gt;原则坚守如故。&lt;em&gt;我始终致力于打造最佳播客应用，绝不辜负您的时间、注意力与隐私。&lt;/em&gt;移除功能&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;取消流媒体播放。&lt;/strong&gt;目前多数大型播客采用动态广告插入技术，易导致流媒体播放出现故障。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;1&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;完整下载后再播放&lt;/strong&gt;能显著&lt;sup id="fnref:pMYQjMdU5streambugs"&gt;&lt;a href="https://marco.org/rss#fn:pMYQjMdU5streambugs" rel="footnote"&gt;提升稳定性。&lt;/a&gt;&lt;/sup&gt;点击未下载剧集将开启播放界面，先完成下载&lt;em&gt;再开始&lt;/em&gt;播放。操作逻辑与旧版流媒体播放相似，但改为下载完成后启动播放，而非缓冲部分内容后立即播放。&lt;/p&gt;
+&lt;p&gt;在当前高速网络环境下，通常仅需额外等待数秒。&lt;em&gt;近期我将推出更智能的选项，加强对单集选择性下载的控制，为不开启自动下载的用户提供更优体验。&lt;/em&gt;未来计划&lt;/p&gt;
+&lt;p&gt;旧版缺失功能将陆续回归，包括快捷指令支持、存储管理与 OPML 功能。这些暂未包含在新版中，但即将回归。&lt;/p&gt;
+&lt;p&gt;增加剧集下载与删除的更多选项。&lt;/p&gt;
+&lt;h3&gt;为 Apple Watch 应用升级全新高速同步引擎。（当前 Watch 应用仍延续旧版设计。）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The last few missing features from the old app, such as Shortcuts support, storage management, and OPML. These are absent now, but will return soon.&lt;/li&gt;
+&lt;li&gt;More options for downloading and deleting episodes.&lt;/li&gt;
+&lt;li&gt;Upgrading the Apple Watch app to the new, faster sync engine. (The Watch app is currently unchanged from the previous one.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;当然，还有更多功能，包括过去十年中大家最期待的一些特性。
+
+完成这次重写是一项艰巨的任务。感谢大家在我推进这项清单时的耐心等待！
+
+为什么？
+
+Overcast 的核心代码大多已有十年历史，这使得它难以跟上时代步伐，无法轻松采用新的 iOS 功能或添加新特性，尤其对于单人开发来说更是如此。
+
+这就是为什么多年来没有太多新功能或变化。
+
+你们看到了，我也看到了。我无法像我希望的那样更好地服务我的用户。
+
+为了让 Overcast 拥有未来，它需要为第二个十年奠定现代基础。过去 18 个月，我使用 Swift、SwiftUI、Blackbird 和现代 Swift 并发技术重建了应用的大部分内容。
+
+现在，开发速度正在快速提升。我的响应更迅速，迭代更快，最终让应用变得更好得多。
+
+非常感谢大家陪伴 Overcast 走过第一个十年。
+
+期待下一个十年。
+
+动态广告插入（DAI）会将广告拼接进每次下载中，且无法保证两次下载的广告数量或时长相同。例如，如果一集的前半部分下载完成，然后下载失败，接着通过另一个请求下载后半部分，合并后的音频可能会在中间点前后跳跃，导致内容丢失或重复。
+
+↩︎&lt;/p&gt;
+&lt;p&gt;Getting this rewrite out the door was a monumental task. Thank you for your patience as I work through this list!&lt;/p&gt;
+&lt;h3&gt;Why?&lt;/h3&gt;
+&lt;p&gt;Most of Overcast’s core code was 10 years old, which made it cumbersome or impossible to easily move with the times, adopt new iOS functionality, or add new features, especially as one person.&lt;/p&gt;
+&lt;p&gt;That’s why there haven’t been many new features or changes in years.&lt;/p&gt;
+&lt;p&gt;You saw it, and I saw it. I wasn’t able to serve my customers as well as I wanted.&lt;/p&gt;
+&lt;p&gt;For Overcast to have a future, it needed a modern foundation for its second decade. I’ve spent the past 18 months rebuilding most of the app with Swift, SwiftUI, &lt;a href="https://github.com/marcoarment/Blackbird"&gt;Blackbird&lt;/a&gt;, and modern Swift concurrency.&lt;/p&gt;
+&lt;p&gt;Now, development is rapidly accelerating. I’m more responsive, iterating more quickly, and ultimately making the app &lt;em&gt;much&lt;/em&gt; better.&lt;/p&gt;
+&lt;p&gt;Thank you all so much for the first decade of Overcast.&lt;/p&gt;
+&lt;p&gt;Here’s to the next one.&lt;/p&gt;
+&lt;div class="footnotes"&gt;
+&lt;hr/&gt;
+&lt;ol&gt;
+&lt;li id="fn:pMYQjMdU5streambugs"&gt;
+&lt;p&gt;Dynamic ad insertion (DAI) splices ads into each download, and no two downloads are guaranteed to have the same number or duration of ads. So, for example, if the first half of an episode downloads, then the download fails, and it downloads the second half with another request, the combined audio may jump forward or back at the halfway mark, losing or repeating content. &lt;a href="https://marco.org/rss#fnref:pMYQjMdU5streambugs" rev="footnote"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description><pubDate>Tue, 16 Jul 2024 12:57:40 +0000</pubDate></item><item><title>《阴天》改版：第一部分</title><link>https://marco.org/2022/03/25/overcast-redesign-2022</link><description>&lt;p&gt;&lt;center style="margin-top: 1.5em; margin-bottom: 1.5em;"&gt;&lt;a href="https://marco.org/media/2022/03/ocredesign2022-1-after.png"&gt;&lt;img src="https://marco.org/media/2022/03/ocredesign2022-1-after.png" style="border: 1px solid #eee; border-radius: 8px; margin-right: 1.5%;"/&gt;&lt;/a&gt;&lt;a href="https://marco.org/media/2022/03/ocredesign2022-2-after.png"&gt;&lt;img src="https://marco.org/media/2022/03/ocredesign2022-2-after.png" style="border: 1px solid #eee; border-radius: 8px; margin-right: 1.5%;"/&gt;&lt;/a&gt;&lt;a href="https://marco.org/media/2022/03/ocredesign2022-3-after.png"&gt;&lt;img src="https://marco.org/media/2022/03/ocredesign2022-3-after.png" style="border: 1px solid #eee; border-radius: 8px;"/&gt;&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://overcast.fm/"&gt;Overcast最新版本（2022.2）带来了近八年来最大规模的设计革新，新增了众多用户呼声最高的功能，并进行了大量底层优化。我对这次更新深感自豪。
+
+作为此次全面重设计的第一阶段，我重点改造了主屏幕、播放列表界面、字体排版与间距布局（计划在后续更新中重构正在播放与单播客展示界面）。
+
+主屏幕现已焕然一新：
+主屏幕改版前后对比（左为旧版，右为新版）。
+
+播放列表如今拥有鲜明的视觉标识，带来更美观便捷的导航体验。每个列表支持自定义配色，还能从超过3000枚SF Symbols图标库中选取专属标识，既契合现代iOS设计语言，也与Overcast内部其他图标保持和谐统一。
+
+用户现在可以通过拖拽操作手动调整播放列表顺序。
+
+近期播放与新发布节目现可展示在主屏幕，实现快速访问——这与小组件和CarPlay的使用逻辑一脉相承。
+
+播客节目现在支持置顶显示于主屏幕列表顶端。
+
+已置顶的播客同样支持拖拽手动排序。
+
+我还重新设计了原有的“播客”与“已播放播客”堆叠式分区，使其更贴合用户的实际需求。现在播客列表顶部的切换按钮提供三种模式：含最新剧目的播客、全部关注播客、以及非活跃播客（指未关注或长期未更新剧目的播客）。
+
+播放列表界面在保留原有框架的基础上，进行了现代化设计精修：
+播放列表界面改版前后对比（左为旧版，右为新版）。
+
+此处可以清晰看到，我将系统默认的旧金山字体替换为圆体变体，既提升了文字可读性，也更契合应用的整体气质。
+
+本次更新还加入了多项备受期待的功能：
+截至目前，Overcast用户诉求最高的功能当属“标记为已播放”。&lt;/a&gt;’s latest update (2022.2) brings the largest redesign in its nearly-eight-year history, plus many of the most frequently requested features and lots of under-the-hood improvements. I’m pretty proud of this one.&lt;/p&gt;
+&lt;p&gt;For this first and largest phase of the redesign, I focused on the home screen, playlist screen, typography, and spacing. (I plan to revamp the now-playing and individual-podcast screens in a later update.)&lt;/p&gt;
+&lt;p&gt;The home screen is radically different:&lt;/p&gt;
+&lt;p&gt;&lt;center style="margin-top: 1.5em; margin-bottom: 1.5em;"&gt;&lt;a href="https://marco.org/media/2022/03/ocredesign2022-1-before.png"&gt;&lt;img src="https://marco.org/media/2022/03/ocredesign2022-1-before.png" style="border: 1px solid #eee; border-radius: 8px; margin-right: 2%;"/&gt;&lt;/a&gt; &lt;a href="https://marco.org/media/2022/03/ocredesign2022-1-after.png"&gt;&lt;img src="https://marco.org/media/2022/03/ocredesign2022-1-after.png" style="border: 1px solid #eee; border-radius: 8px; margin-left: 2%;"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;small&gt;Home screen, before (left) and after (right).&lt;/small&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Playlists now have strong visual identities for nicer and easier navigation. Each playlist has a customizable color, and a custom icon can be selected from over 3,000 &lt;a href="https://developer.apple.com/sf-symbols/"&gt;SF Symbols&lt;/a&gt; to match modern iOS design and the other icons within Overcast.&lt;/p&gt;
+&lt;p&gt;And playlists can be manually reordered with drag-and-drop.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;Recently played and newly published episodes can now be displayed on the home screen for quick access, much like the widget and CarPlay experience.&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Podcasts can now be pinned to the top of the home-screen list.&lt;/p&gt;
+&lt;p&gt;Pinned podcasts can also be manually reordered with drag-and-drop.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I’ve also rethought the old stacked “Podcasts” and “Played Podcasts” sections to better match people’s needs and expectations. Now, the toggle atop the podcast list switches between three modes: podcasts with current episodes, all followed podcasts, and inactive podcasts (those that you don’t follow and therefore won’t get any more episodes from, or haven’t posted a new episode in a long time).&lt;/p&gt;
+&lt;p&gt;The playlist screen’s structure remains mostly the same, while refining the design for the modern era:&lt;/p&gt;
+&lt;p&gt;&lt;center style="margin-top: 1.5em; margin-bottom: 1.5em;"&gt;&lt;a href="https://marco.org/media/2022/03/ocredesign2022-2-before.png"&gt;&lt;img src="https://marco.org/media/2022/03/ocredesign2022-2-before.png" style="border: 1px solid #eee; border-radius: 8px; margin-right: 2%;"/&gt;&lt;/a&gt; &lt;a href="https://marco.org/media/2022/03/ocredesign2022-2-after.png"&gt;&lt;img src="https://marco.org/media/2022/03/ocredesign2022-2-after.png" style="border: 1px solid #eee; border-radius: 8px; margin-left: 2%;"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;small&gt;Playlist screen, before (left) and after (right).&lt;/small&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;Here, it’s more apparent that I’ve replaced the system San Francisco font with an alternate variant, San Francisco Rounded, to increase legibility and better match the personality of the app.&lt;/p&gt;
+&lt;p&gt;I’ve also added highly demanded features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;By far, Overcast’s most-requested feature is a &lt;strong&gt;Mark as Played&lt;/strong&gt;功能现已上线：单集旁新增勾选按钮，左侧滑动操作也可实现标记。
+
+用户呼声第二高的功能是查看所有已标星单集。现在可以创建专属播放列表，包括：
+
+标星内容
+已下载内容
+播放中内容
+
+浅色与深色主题均可从现代iOS UI调色板中自定义色调，其中包含测试者们最爱的几款色彩：
+
+应用各处还进行了大量优化与漏洞修复，包括：
+
+通知与后台下载的可靠性大幅提升。
+单集下载内容现可单独删除或重新下载。
+链接可在Safari浏览器中打开（详见"细节优化"）。
+超大播放列表与收藏集的性能显著提升。
+修复了单集时长检测、CarPlay列表、Mac端应用共享等多项漏洞。本次更新优化之多，难以尽述。
+
+衷心感谢所有参与测试这个重大版本更新的朋友们。
+
+一如既往，
+Overcast
+在App Store提供免费下载。
+
+快去下载吧！&lt;/li&gt;
+&lt;li&gt;The second-most-requested feature is a way to view all starred episodes. Special playlists for &lt;strong&gt;Starred&lt;/strong&gt;, &lt;strong&gt;Downloaded&lt;/strong&gt;, and &lt;strong&gt;In Progress&lt;/strong&gt; can now be created.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;center style="margin-top: 1.5em; margin-bottom: 1.5em;"&gt;&lt;a href="https://marco.org/media/2022/03/ocredesign2022-3a.png"&gt;&lt;img src="https://marco.org/media/2022/03/ocredesign2022-3a.png" style="border: 1px solid #eee; border-top-left-radius: 8px; border-top-right-radius: 8px; margin-right: 2%;"/&gt;&lt;/a&gt; &lt;a href="https://marco.org/media/2022/03/ocredesign2022-3b.png"&gt;&lt;img src="https://marco.org/media/2022/03/ocredesign2022-3b.png" style="border: 1px solid #eee; border-top-left-radius: 8px; border-top-right-radius: 8px; margin-left: 2%;"/&gt;&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;The light and dark themes now each have a customizable tint color from the modern iOS UI-color palette, including these favorites from beta testers:&lt;/p&gt;
+&lt;p&gt;&lt;center style="margin-top: 1.5em; margin-bottom: 1.5em;"&gt;&lt;img src="https://marco.org/media/2022/03/ocredesign2022-theme-light1.png" style="border: 1px solid #eee; border-radius: 6px; margin-right: 0.5%;"/&gt;&lt;img src="https://marco.org/media/2022/03/ocredesign2022-theme-light2.png" style="border: 1px solid #eee; border-radius: 6px; margin-right: 0.5%;"/&gt;&lt;img src="https://marco.org/media/2022/03/ocredesign2022-theme-light3.png" style="border: 1px solid #eee; border-radius: 6px; margin-right: 0.5%;"/&gt;&lt;img src="https://marco.org/media/2022/03/ocredesign2022-theme-light4.png" style="border: 1px solid #eee; border-radius: 6px; margin-right: 0.5%;"/&gt;&lt;img src="https://marco.org/media/2022/03/ocredesign2022-theme-light5.png" style="border: 1px solid #eee; border-radius: 6px;"/&gt;&lt;img src="https://marco.org/media/2022/03/ocredesign2022-theme-dark1.png" style="border: 1px solid #444; border-radius: 6px; margin-right: 0.5%;"/&gt;&lt;img src="https://marco.org/media/2022/03/ocredesign2022-theme-dark2.png" style="border: 1px solid #444; border-radius: 6px; margin-right: 0.5%;"/&gt;&lt;img src="https://marco.org/media/2022/03/ocredesign2022-theme-dark3.png" style="border: 1px solid #444; border-radius: 6px; margin-right: 0.5%;"/&gt;&lt;img src="https://marco.org/media/2022/03/ocredesign2022-theme-dark4.png" style="border: 1px solid #444; border-radius: 6px; margin-right: 0.5%;"/&gt;&lt;img src="https://marco.org/media/2022/03/ocredesign2022-theme-dark5.png" style="border: 1px solid #444; border-radius: 6px;"/&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;And throughout the app, I’ve made tons of tweaks and bug fixes, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Notifications and background downloads are now much more reliable.&lt;/li&gt;
+&lt;li&gt;Episode downloads can now be individually deleted or re-downloaded.&lt;/li&gt;
+&lt;li&gt;Links can now be opened in Safari. (under Nitpicky Details)&lt;/li&gt;
+&lt;li&gt;Performance is now significantly better with very large playlists and collections.&lt;/li&gt;
+&lt;li&gt;Fixed bugs with episode-duration detection, CarPlay lists, Mac-app sharing, and much more. So much is better in this update that I can’t even remember it all.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thank you so much to everyone who helped me beta-test this massive update.&lt;/p&gt;
+&lt;p&gt;As always, &lt;a href="https://overcast.fm/"&gt;Overcast&lt;/a&gt; is free in the App Store. &lt;a href="https://itunes.apple.com/us/app/overcast-podcast-player/id888422857?ls=1&amp;amp;mt=8"&gt;Go get it&lt;/a&gt;!&lt;/p&gt;</description><pubDate>Fri, 25 Mar 2022 14:57:51 +0000</pubDate></item><item><title>史蒂夫·乔布斯离世十年后</title><link>https://marco.org/2021/10/05/steve-jobs-ten-years</link><description>&lt;p&gt;失去史蒂夫对我的影响，可能比它应有的程度更深，因为我从未见过他，也从未与他有过任何通信。但失去他是毁灭性的——不仅是对我的世界，也是对这个世界。他是一种虚拟的父亲形象：我总是希望史蒂夫或许会注意到我做的某件事。我们都希望得到他的关注和认可，这驱使我们做出更好的工作——即使是我们这些从未在苹果工作过的人。没有人能取代他的这个角色。没有人可以。但作为一个与他没有私人关系、无需哀悼的局外人，最令人沮丧的是想到世界错过了他的多少工作。他不是在漫长而完整的一生之后被带走的——他是在鼎盛时期被带走的。他本可以为世界贡献更多。&lt;/p&gt;
+&lt;p&gt;But losing him was devastating — not just to &lt;em&gt;my&lt;/em&gt; world, but &lt;em&gt;the&lt;/em&gt; world.&lt;/p&gt;
+&lt;p&gt;He was a sort of virtual father figure: I was always hoping that maybe Steve would notice something I did.&lt;/p&gt;
+&lt;p&gt;We all wanted his attention and approval, and that drove us to do better work — even those of us who never worked at Apple.&lt;/p&gt;
+&lt;p&gt;Nobody replaced him in this role. Nobody can.&lt;/p&gt;
+&lt;p&gt;But as an outsider who had no personal relationship with him to mourn, it has been most depressing to consider how much of his work the world missed out on.&lt;/p&gt;
+&lt;p&gt;He wasn’t taken from us after a long, complete life — he was taken in his prime.&lt;/p&gt;
+&lt;p&gt;He had so much more to offer the world.&lt;/p&gt;</description><pubDate>Tue, 05 Oct 2021 21:10:47 +0000</pubDate></item><item><title>App Store的未来</title><link>https://marco.org/2021/09/13/future-of-the-app-store</link><description>&lt;p&gt;在经历了开发者集体诉讼和解、韩国法律、日本公平贸易委员会公告以及苹果诉Epic案判决等一系列风波后，我认为最可能的长期结果与现状不会有太大差别——这其实是件好事。
+
+关于外部购买渠道，我认为最终会形成这样的格局：
+
+苹果仍将要求应用内发生的所有合规交易必须使用其应用内购买系统。所有类型的应用都将被允许通过链接跳转至浏览器使用其他支付方式。大多数应用将被要求同时提供应用内购买与外部支付选项并列的选择。
+
+1. 仅"阅读器类应用"可豁免此项要求。
+
+2. 苹果将制定大量关于外部购买渠道的展示方式、描述规范和行为准则的规则，其中许多规则不会公开且会频繁变动。应用审核团队将以极其严苛、反复无常、任性琐碎且带有惩罚性的方式执行这些规则。
+
+3. 苹果不会要求应用内购买与外部购买渠道的价格保持一致。
+
+这些为数不多但至关重要的修正将遏制苹果最恶劣的行为，并有望缓解大部分监管压力。
+
+最终局面与现状相比不会有太大变化：
+
+多数大型媒体应用（符合"阅读器应用"定义）将不再提供应用内购买，但终于能通过应用链接至其网站进行交易。许多游戏会同时提供两种购买渠道，通过外部渠道提供折扣、额外宝石、附加战利品箱等诱惑性设计，以优化面向儿童的赌博式游戏盈利（这类游戏的佣金至今仍是苹果"服务收入"的最大来源）。
+
+最重要的是，许多过去无法实现的产品、服务和商业模式将成为可能，这将催生更多应用、更充分竞争，让资金流向更广泛的领域。&lt;a href="https://www.apple.com/newsroom/2021/08/apple-us-developers-agree-to-app-store-updates/"&gt;developer class-action settlement&lt;/a&gt;, the &lt;a href="https://www.theverge.com/2021/8/31/22643800/apple-google-south-korea-app-store-payment-legislation-passes"&gt;South Korean law&lt;/a&gt;, the &lt;a href="https://www.apple.com/newsroom/2021/09/japan-fair-trade-commission-closes-app-store-investigation/"&gt;JFTC announcement&lt;/a&gt;, and the &lt;a href="https://stratechery.com/2021/the-apple-v-epic-decision/"&gt;Apple v. Epic decision&lt;/a&gt;, I think the most likely long-term outcome isn’t very different from the status quo — and that’s a good thing.&lt;/p&gt;
+&lt;h3&gt;Allowing external purchases&lt;/h3&gt;
+&lt;p&gt;Here’s what I think we’ll end up with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Apple will still require apps to use their IAP system for any &lt;a href="https://marco.org/2020/09/11/app-review-changes"&gt;qualifying&lt;/a&gt; purchases that occur in the apps themselves.&lt;/li&gt;
+&lt;li&gt;All app types will be allowed to link out to a browser for other purchase methods.&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Most apps will be required to &lt;em&gt;also&lt;/em&gt; offer IAP side-by-side with any external methods.&lt;sup id="fnref:pCglbWcMI3"&gt;&lt;a href="https://marco.org/rss#fn:pCglbWcMI3" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Only “Reader apps” will be exempt from this requirement.&lt;sup id="fnref:pCglbWcMI2"&gt;&lt;a href="https://marco.org/rss#fn:pCglbWcMI2" rel="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;Apple will have &lt;em&gt;many&lt;/em&gt; rules regarding the display, descriptions, and behavior of external purchases, many of which will be unpublished and ever-changing. App Review will be &lt;em&gt;extremely&lt;/em&gt; harsh, inconsistent, capricious, petty, and punitive with their enforcement.&lt;sup id="fnref:pCglbWcMI4"&gt;&lt;a href="https://marco.org/rss#fn:pCglbWcMI4" rel="footnote"&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;Apple won’t require price-matching between IAP and external purchases.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These few but important corrections reduce Apple’s worst behavior and should relieve most regulatory pressure.&lt;/p&gt;
+&lt;p&gt;The result won’t look much different than the status quo:&lt;/p&gt;
+&lt;p&gt;Most big media apps (qualifying as “reader” apps) won’t offer IAP, but will finally be allowed to link to their websites from their apps and offer purchases there.&lt;/p&gt;
+&lt;p&gt;Many games will offer both IAP and external purchases, with the external choice offering a discount, bonus gems, extra loot boxes, or other manipulative tricks to optimize the profitability of casino games for children (commissions from which have been the largest portion of Apple’s “services revenue” to date).&lt;/p&gt;
+&lt;p&gt;Most importantly, many products, services, and business models will become possible that previously weren’t, leading to more apps, more competition, and more money going to more places.&lt;/p&gt;
+&lt;p&gt;外部购买方式将变得几乎与应用内购买一样便捷（尤其是在允许使用Apple Pay的情况下），支付处理商将通过跨应用共享凭证来减轻手动输入信用卡信息的负担。苹果及其众多支持者所担忧的支付欺诈末日场景大多不会发生，部分原因是应用审核机制会阻止大多数明显的欺诈案例，同时也因为家长通常不会将信用卡交给不值得信任的孩子；对于所有年龄段的购买者而言，大多数信用卡本身提供的防欺诈保护比应用商店更强大，对非自愿扣款的追索也更便捷。
+
+我不期待侧载或替代应用商店成为可能，这让我感到宽慰，因为这不是我想要的iOS未来。在评估这类想法时，我只问自己："Facebook会怎么做？"Facebook拥有全球十大应用中的四个。如果侧载成为可能，Facebook可以将Instagram、WhatsApp、Facebook应用和Messenger从苹果应用商店下架，要求用户通过侧载直接从Facebook安装这些极其流行的应用。而所有人都会照做。
+
+大多数人使用Facebook旗下的应用并非因为应用本身优秀，而是因为它们能实现生活中的重要需求。社交压力、家庭压力和网络锁定效应使大多数用户不会寻求有意义的替代品。如果需要，人们愿意克服一些障碍。很快，Facebook就能让绕过应用审核的应用安装在全世界大多数iPhone上。
+
+操作系统的技术限制会阻止最恶劣的滥用行为，但他们仍有许多可操作空间。我们无需过多想象——长期以来，他们已经在应用中尝试了多种黑客手段、变通方案、隐私侵犯以及其他不道德且具有技术侵入性的行为，以监控用户在其应用外的行为，并在后台运行得比用户预期或期望的更久。&lt;/p&gt;
+&lt;p&gt;The payment-fraud doomsday scenarios argued by Apple and many fans mostly won’t happen, in part because App Review will prevent most obvious cases, but also because parents don’t typically offer their credit cards to untrustworthy children; and for buyers of all ages, most credit cards themselves provide stronger fraud prevention and easier recourse from unwanted charges than the App Store ever has.&lt;/p&gt;
+&lt;h3&gt;No side-loading&lt;/h3&gt;
+&lt;p&gt;I don’t expect side-loading or alternative app stores to become possible, and I’m relieved, because that is &lt;em&gt;not&lt;/em&gt; a future I want for iOS.&lt;/p&gt;
+&lt;p&gt;When evaluating such ideas, I merely ask myself:&lt;/p&gt;
+&lt;p&gt;“What would Facebook do?”&lt;/p&gt;
+&lt;p&gt;Facebook owns four of the top ten apps in the world. If side-loading became possible, Facebook could remove Instagram, WhatsApp, the Facebook app, and Messenger from Apple’s App Store, requiring customers to install these extremely popular apps directly from Facebook via side-loading.&lt;/p&gt;
+&lt;p&gt;And everyone would.&lt;/p&gt;
+&lt;p&gt;Most people use a Facebook-owned app not because it’s a good app, but because it’s a means to an important end in their life. Social pressure, family pressure, and network lock-in prevent most users from seeking meaningful alternatives. People would jump through a few hoops if they had to.&lt;/p&gt;
+&lt;p&gt;Facebook would soon have apps that bypassed App Review installed on the majority of iPhones in the world.&lt;/p&gt;
+&lt;p&gt;Technical limitations of the OS would prevent the most egregious abuses, but there’s a &lt;em&gt;lot&lt;/em&gt; they could still do. We don’t need to do much imagining — they already &lt;em&gt;have&lt;/em&gt; attempted multiple hacks, workarounds, privacy invasions, and other unscrupulous and technically invasive behavior with their apps over time to surveil user behavior outside of their app and stay running longer in the background than users intend or expect.&lt;/p&gt;
+&lt;p&gt;操作系统或许会随时间演进，减少部分漏洞，但仅靠技术手段无法解决所有问题。&lt;/p&gt;
+&lt;p&gt;若失去应用审核机制的约束，Facebook旗下应用将变得比现在更肆无忌惮。&lt;/p&gt;
+&lt;p&gt;作为iOS用户和爱好者，我绝不希望看到这种局面。&lt;/p&gt;
+&lt;h3&gt;禁止第三方应用商店&lt;/h3&gt;
+&lt;p&gt;第三方商店可能带来更糟的后果。Facebook或许不会提供分散的侧载应用，而是推出一个整合平台：&lt;/p&gt;
+&lt;p&gt;Facebook应用商店。&lt;/p&gt;
+&lt;p&gt;Instagram、WhatsApp、Facebook主应用和Messenger都可能成为该平台独占应用。&lt;/p&gt;
+&lt;p&gt;全球大多数iOS用户将迅速安装该商店，随后Facebook会利用其在社交账户、数据统计、应用安装广告、广告归因等领域的优势，通过利诱（甚至胁迫）迫使大量开发者在保留苹果商店上架的同时，进驻Facebook应用商店。&lt;/p&gt;
+&lt;p&gt;或许我的应用必须嵌入Facebook SDK才能入驻，而他们将借此监控我的用户。&lt;/p&gt;
+&lt;p&gt;或许我需要购买应用安装广告，才能在那个商店的搜索中&lt;em&gt;获得曝光。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;或许每次应用更新时，我都得向Facebook支付"推广费"，才能触达超过极小比例的现有用户。&lt;/p&gt;
+&lt;p&gt;而Facebook很可能不是唯一能在iOS生态中崛起的应用商店。&lt;/p&gt;
+&lt;p&gt;亚马逊几乎必然将其劣质"Appstore"移植到iOS，不过这个平台或许难成气候。&lt;/p&gt;
+&lt;p&gt;谷歌可能将Play商店引入iOS，提供统一SDK以实现跨平台开发，这会使所有应用都带着安卓应用的质感，进一步边缘化本已处境艰难的原生应用。&lt;a href="https://allenpike.com/2021/gravity-of-cross-platform-apps"&gt;拥有众多知名IP的媒体集团（如迪士尼）或许&lt;/a&gt;各自&lt;/p&gt;
+&lt;p&gt;都会为旗下热门应用开设专属商店。自营商店意味着可以无限推广自家应用，哪个巨头能抗拒这种诱惑？&lt;em&gt;each&lt;/em&gt; have their own app stores for their high-profile apps. Running your own store means you can promote all of your own apps as much as you want. What giant corporation would resist?&lt;/p&gt;
+&lt;p&gt;别忘了游戏！Epic和Steam会带着自己的游戏商店登陆iOS。微软和任天堂可能也会跟进。&lt;/p&gt;
+&lt;p&gt;你可能需要在iPhone上安装七个不同的应用商店，才能用上现在这些应用和游戏——而且还没有App Review来把关。&lt;/p&gt;
+&lt;p&gt;大多数开发者可能得开始向多个应用商店提交应用，每个商店都有自己的规则、元数据、技术要求、功能、审核延迟、支付处理、统计数据、崩溃报告、广告、推广方式和用户评价。&lt;/p&gt;
+&lt;p&gt;作为用户，多应用商店的世界听起来烦人又混乱；作为开发者，这让我害怕。&lt;/p&gt;
+&lt;p&gt;苹果的App Store是我们熟悉的魔鬼。而可能出现的其他可行替代方案会更糟。&lt;/p&gt;
+&lt;h3&gt;航向修正&lt;/h3&gt;
+&lt;p&gt;苹果的运营方式并不完美，但也不是民主制度。&lt;/p&gt;
+&lt;p&gt;我很喜欢Yvonne Gonzalez Rogers法官在苹果诉Epic案判决中的这段话，&lt;a href="https://stratechery.com/2021/the-apple-v-epic-decision/"&gt;本·汤普森的优秀文章（推荐一读）引用了这段：&lt;/a&gt;：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;苹果除了主张自身权利外，没有为这些行为提供任何正当理由。当它的行为损害竞争并导致&lt;a href="https://en.wikipedia.org/wiki/Supracompetitive_pricing"&gt;超高定价&lt;/a&gt;和利润时，苹果就是错的。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我在这里将“entitlement”理解为不含贬义——苹果&lt;em&gt;有权&lt;/em&gt;按照自己的意愿运营平台，政府干预仅适用于解决损害商业或社会大规模利益的市场层面问题。&lt;/p&gt;
+&lt;p&gt;作为开发者，我希望看到苹果对iOS的控制有所改变。但若要进行更大调整，很可能会损害iOS对用户和开发者的诸多优点。&lt;/p&gt;
+&lt;p&gt;Gonzalez Rogers法官说得对：我们需要小幅修正航向，以解决最严重的反竞争行为，但苹果运营iOS的大部分方式最好还是交给苹果自己。&lt;/p&gt;
+&lt;div class="footnotes"&gt;
+&lt;hr/&gt;
+&lt;ol&gt;
+&lt;li id="fn:pCglbWcMI3"&gt;
+&lt;p&gt;如果韩国法律成立，应用内购买可能不再是强制要求——但仅限于韩国。有了这个例外，我预计其他规则在全球范围内仍将按原样执行。&lt;a href="https://marco.org/rss#fnref:pCglbWcMI3" rev="footnote"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:pCglbWcMI2"&gt;
+&lt;p&gt;&lt;a href="https://developer.apple.com/app-store/review/guidelines/"&gt;苹果将“阅读器”应用定义为“允许用户访问先前购买的内容或内容订阅（具体包括：杂志、报纸、书籍、音频、音乐和视频）”。这涵盖了许多与苹果服务存在竞争关系的应用，如Netflix、Spotify和Kindle。当这些应用被迫向苹果支付30%的抽成时，会引发监管机构和立法者的反垄断担忧。
+
+应用审核团队设有更高级别的队列，用于管理层对争议规则或边缘案例进行审查。外部通常可以通过应用连续数日或数周处于“审核中”状态来识别这类情况，且最终往往会接到“比尔”的电话通知。我预计任何提供外部购买功能的应用，极有可能被升级至更缓慢、更繁琐的审核流程，这可能导致大多数小型开发者认为不值得为此耗费精力。
+
+基于多重考量（包括上述原因），我暂无计划为Overcast添加外部购买功能——但最主要的原因是，就我的需求而言，苹果的应用内购买系统已足够令人满意。&lt;/a&gt; as “[allowing] a user to access previously purchased content or content subscriptions (specifically: magazines, newspapers, books, audio, music, and video).”&lt;/p&gt;
+&lt;p&gt;This includes many apps that Apple’s services compete with, such as Netflix, Spotify, and Kindle, that raise anticompetitive concerns among regulators and legislators when forced to give Apple 30%. &lt;a href="https://marco.org/rss#fnref:pCglbWcMI2" rev="footnote"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:pCglbWcMI4"&gt;
+&lt;p&gt;App Review has higher-level queues for managerial review of controversial rules or edge cases, typically identifiable from the outside by an app stuck with “In Review” status for days or weeks, and often ending in &lt;a href="https://www.cnbc.com/2019/06/21/how-apples-app-review-process-for-the-app-store-works.html"&gt;a phone call from “Bill”&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I’d expect any app offering external purchases to have a very high chance of being escalated to a slower, more pain-in-the-ass review process, possibly causing it not to be worthwhile for most small developers to deal with.&lt;/p&gt;
+&lt;p&gt;I have no plans to add external purchases to &lt;a href="https://overcast.fm/"&gt;Overcast&lt;/a&gt; for multiple reasons, including this — but mostly because, for my purposes, I’m satisfied with Apple’s IAP system. &lt;a href="https://marco.org/rss#fnref:pCglbWcMI4" rev="footnote"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description><pubDate>Mon, 13 Sep 2021 21:18:11 +0000</pubDate></item><item><title>开发者关系</title><link>https://marco.org/2021/06/03/developer-relations</link><description>&lt;p&gt;苹果公司的高管们仍在矢口否认两个显而易见的事实：我们的应用为iOS系统创造了远超苹果抽成佣金的价值；我们的用户中有相当一部分是冲着我们自身的品牌与营销而来，而非通过应用商店导流。苹果持续否认这些事实，不仅是罔顾真相的欺瞒，更是对我们所有努力的公然蔑视——这不仅侮辱了开发者，也侮辱了苹果用户的判断力。
+
+问题的核心并非30%或15%的抽成比例，不是强制支付系统的禁令，不是禁止告知用户官网渠道的规则，也不是苹果层出不穷的限制条款（至少今天不谈这些）。这关乎苹果管理层如何看待我们开发者及其劳动成果。
+
+*     *     *
+
+应用商店本不该通过高额交易抽成来"反哺"苹果其他部门。现代社会已深度依赖移动应用，任何手机厂商都必须构建健康的应用生态作为入场筹码——没有应用生态的手机根本无人问津。如今若没有我们开发的应用，iPhone对绝大多数用户将毫无价值。
+
+如果苹果执意坚持那套古怪的企业会计说辞，那么真正为应用商店、公共API接口、开发者工具等资源"铺路"的，恰恰是硬件业务的巨额利润。正如硬件利润本应投入iPhone软硬件研发以吸引用户，强制抽成、年费和搜索广告收入不过是锦上添花。硬件利润早已支付了"道路建设费"，而苹果却在利用垄断地位重复收费。
+
+这就是生意。苹果有很多标签，但"慷慨"绝不在其中。&lt;a href="https://www.apple.com/newsroom/2021/06/apple-developers-grow-app-store-ecosystem-billings-and-sales-by-24-percent-in-2020/"&gt;continue&lt;/a&gt;
+&lt;a href="https://www.theverge.com/2020/6/18/21296180/apple-hey-email-app-basecamp-rejection-response-controversy-antitrust-regulation#kmmNsE"&gt;to&lt;/a&gt;
+&lt;a href="https://www.imore.com/tim-cook-says-apple-would-still-collect-commission-alternative-app-store-payments"&gt;deny&lt;/a&gt;
+&lt;a href="https://www.macrumors.com/2021/05/21/tim-cook-epic-apple-trial/"&gt;developers&lt;/a&gt;
+of two obvious truths:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;That our apps provide substantial value to iOS beyond the purchase commissions collected by Apple.&lt;/li&gt;
+&lt;li&gt;That any portion of our customers came to our apps from our own marketing or reputation, rather than the App Store.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For Apple to continue to deny these is dishonest, factually wrong, and extremely insulting — not only to our efforts, but to the intelligence of all Apple developers and customers.&lt;/p&gt;
+&lt;p&gt;This isn’t about the 30%, or the 15%, or the prohibition of other payment systems, or the rules against telling our customers about our websites, or Apple’s many other restrictions. (Not today, at least.)&lt;/p&gt;
+&lt;p&gt;It’s about what Apple’s leadership thinks of us and our work.&lt;/p&gt;
+&lt;p style="text-align: center; color: #ccc;"&gt;*     *     *&lt;/p&gt;
+&lt;p&gt;It isn’t the App Store’s responsibility to the rest of Apple to “pay its way” by leveraging hefty fees on certain types of transactions. Modern society has come to rely so heavily on mobile apps that any phone manufacturer must ensure that such a healthy ecosystem exists as table stakes for anyone to buy their phones.&lt;/p&gt;
+&lt;p&gt;Without our apps, the iPhone has little value to most of its customers today.&lt;/p&gt;
+&lt;p&gt;If Apple wishes to continue advancing bizarre corporate-accounting arguments, the massive profits from the hardware business are what therefore truly “pay the way” of the App Store, public APIs, developer tools, and other app-development resources, just as the hardware profits must fund the development of Apple’s own hardware, software, and services that make the iPhone appeal to customers.&lt;/p&gt;
+&lt;p&gt;The forced App Store commissions, annual developer fees, and App Store Search Ads income are all just gravy. The “way” is already paid by the hardware — but Apple uses their position of power to double-dip.&lt;/p&gt;
+&lt;p&gt;And that’s just business. Apple’s a lot of things, and “generous” isn’t one.&lt;/p&gt;
+&lt;p&gt;但苹果却霸凌和洗脑开发者，让我们以为需要对其感恩戴德，只因它允许我们为其平台创造数十亿美元的价值——这不仅是贪婪吝啬、道德沦丧，更是对我们深深的侮辱。
+
+*     *     *
+
+苹果进一步延伸其价值论调，通过宣称对iOS用户与所选应用间的客户关系负有责任并拥有所有权，来为其强制抽成辩护。
+
+这种论调只有在一种情况下才说得通——且即便如此也颇为牵强——即用户通过浏览应用商店发现此前从未听闻的应用，并完全基于应用商店的影响而决定安装。
+
+但在更常见的情况下——对大多数应用安装而言，这确实是更普遍的情形——用户通过名称搜索特定应用，或基于开发者自身的营销推广或口碑点击链接或广告时，苹果在客户获取过程中并未扮演实质角色，其"应得"报酬不应超过内容分发网络和标准化信用卡支付处理商所收取的费用。
+
+认为应用商店为任何知名应用贡献了主要客户群的想法纯属幻想。
+
+推动iOS平台所有商业活动的并非应用商店，而是整个计算机世界和现代社会——这是一个由多方共建的共生生态系统，苹果仅是其中一员。世界早已朝着这个方向发展，即便没有苹果参与，也会有其他角色填补空缺。应用商店不过是一个平台强制的分发网关，其"促进"交易的作用与网页浏览器、网络服务提供商、移动运营商、服务器托管公司或信用卡支付处理商并无二致。
+
+苹果若继续罔顾事实，不仅是侮辱大众，更近乎痴人说梦。
+
+*     *     *
+
+下周的全球开发者大会上，这些人又将试图向我们讲述另一套说辞。&lt;/p&gt;
+&lt;p style="text-align: center; color: #ccc;"&gt;*     *     *&lt;/p&gt;
+&lt;p&gt;Apple further extends the value argument, and defends their justification for forced commissions, by claiming responsibility for and ownership of the customer relationship between all iOS users and each app they choose to use.&lt;/p&gt;
+&lt;p&gt;This argument only makes sense — and even then, only somewhat — when apps are installed by a customer browsing the App Store, finding an app they hadn’t previously heard of, and choosing to install it based on App Store influence alone.&lt;/p&gt;
+&lt;p&gt;But in the common case — and for most app installations, the &lt;em&gt;much more&lt;/em&gt; common case — of searching for a specific app by name or following a link or ad based on its developer’s own marketing or reputation, Apple has served no meaningful role in the customer acquisition and “deserves” nothing more from the transaction than what a CDN and commodity credit-card processor would charge.&lt;/p&gt;
+&lt;p&gt;The idea that the App Store is responsible for most customers of any reasonably well-known app is a fantasy.&lt;/p&gt;
+&lt;p&gt;It isn’t the App Store that has enabled all of the commerce on iOS — it’s the entire world of computing and modern society, created by a symbiotic ecosystem in which Apple played one part alongside many others. The world was already moving in this direction, and had Apple not played its part, someone else would’ve. The App Store is merely one platform’s forced distribution gateway, “facilitating” the commerce no more and no less than a web browser, an ISP or cellular carrier, a server-hosting company, or a credit-card processor.&lt;/p&gt;
+&lt;p&gt;For Apple to continue to claim otherwise is beyond insulting, and borders on delusion.&lt;/p&gt;
+&lt;p style="text-align: center; color: #ccc;"&gt;*     *     *&lt;/p&gt;
+&lt;p&gt;At WWDC next week, these same people are going to try to tell us a different story.&lt;/p&gt;
+&lt;p&gt;他们会告诉我们，我们有多么出色，我们的工作有多么重要，他们有多么重视我们。对于成千上万创造了我们喜爱的伟大产品和平台的苹果员工来说，包括数百位主持会议和负责实验室的工程师，这些话是真诚而真实的。
+
+但领导层已经向我们展示了他们的真实面目，他们对我们真正的看法，以及他们对我们工作的重视程度。
+
+请原谅我比喻或措辞上的一些粗糙之处——我的写作技巧已经相当生疏了——对于任何回应的人，我也会同样回报这份宽容。&lt;/p&gt;
+&lt;p&gt;But the leaders have already shown us who they really are, what they really think of us, and how much they value our work.&lt;/p&gt;
+&lt;p&gt;&lt;center style="font-size: 0.75em; margin-top: 3em; margin-left: auto; margin-right: auto;"&gt;
+Please forgive some sloppiness in my metaphors or phrasing — my writing skills are pretty rusty — and I’ll return the favor to anyone who responds.
+&lt;/center&gt;&lt;/p&gt;</description><pubDate>Thu, 03 Jun 2021 18:14:59 +0000</pubDate></item><item><title>应用内购买规则</title><link>https://marco.org/2020/09/11/app-review-changes</link><description>&lt;p&gt;关于今日对《3.1.3 其他购买方式》条款的更新总结如下：
+
+应用内所有购买必须使用苹果应用内购买系统。
+
+以下情况除外：若购买的商品或服务需在应用外使用，则禁止使用应用内购买。
+
+但若这些应用外使用的商品或服务属于杂志、报纸、书籍、音频、音乐或视频，则必须使用应用内购买。
+
+若应用仅用于"阅读"先前已购买的杂志、报纸、书籍、音频、音乐或视频，且应用内未提及任何购买选项，则无需使用应用内购买。
+
+但若应用提供账号创建功能，则必须使用应用内购买。
+
+若仅提供免费账号创建，则无需使用应用内购买。
+
+但若在应用内提供免费账户的付费升级，则必须使用应用内购买。
+
+对于应用外创建的账户，可提供付费升级且无需使用应用内购买。
+
+若销售人际"体验服务"，无需使用应用内购买。
+
+但若"体验服务"涉及三人及以上，或非实时体验，则必须仅使用应用内购买。
+
+若购买内容涉及服务、功能或游戏道具，必须仅使用应用内购买。
+
+若为多平台运营，可在应用外提供购买渠道，但不得在应用内提及。
+
+若通过其他途径获取用户联系方式，可告知应用外购买信息，但禁止在应用内提示。
+
+即使直接向用户销售应用或服务，也必须使用应用内购买。
+
+若仅向企业或团体销售供其员工或学生使用，仍需使用应用内购买，但可同时提供自有支付方式。
+
+若购买群体为家庭用户，或员工/学生属于"消费者"范畴，则必须仅使用应用内购买。
+
+以上理解是否正确？&lt;a href="https://techcrunch.com/2020/09/11/apple-revises-app-store-rules-to-permit-game-streaming-apps-clarify-in-app-purchases-and-more/"&gt;today’s changes&lt;/a&gt; to &lt;a href="https://developer.apple.com/app-store/review/guidelines/"&gt;3.1.3 Other Purchase Methods&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;Your app must use Apple’s in-app-purchase (IAP) system for all purchases made in the app.&lt;/p&gt;
+&lt;p&gt;Unless they’re purchases for goods or services that are consumed outside the app, in which case you are prohibited from using IAP.&lt;/p&gt;
+&lt;p&gt;Unless those goods or services consumed outside the app are magazines, newspapers, books, audio, music, or video, in which case, you are required to use IAP.&lt;/p&gt;
+&lt;p&gt;But if your app only “reads” &lt;em&gt;previously&lt;/em&gt; purchased magazines, newspapers, books, audio, music, or video, and doesn’t mention the possibility of purchases anywhere in the app, you don’t need to use IAP.&lt;/p&gt;
+&lt;p&gt;Unless you offer account creation, in which case, you are required to use IAP.&lt;/p&gt;
+&lt;p&gt;Unless you only offer &lt;em&gt;free&lt;/em&gt; account creation, in which case, you don’t need to use IAP.&lt;/p&gt;
+&lt;p&gt;But if you offer paid upgrades from free accounts within the app, you are required to use IAP.&lt;/p&gt;
+&lt;p&gt;Except for accounts that were created outside the app, which can offer paid account upgrades and don’t need to use IAP.&lt;/p&gt;
+&lt;p&gt;If you’re selling “experiences” between people, you don’t need to use IAP.&lt;/p&gt;
+&lt;p&gt;Unless those “experiences” include three or more people, or aren’t consumed live, in which case, you are required to use only IAP.&lt;/p&gt;
+&lt;p&gt;If your purchase is for services, features, or game items, you are required to use only IAP.&lt;/p&gt;
+&lt;p&gt;Unless you operate on multiple platforms, in which case, you can also offer purchasing outside the app. But you can’t tell anyone about it.&lt;/p&gt;
+&lt;p&gt;Unless you get their contact info somewhere else, in which case, you can tell them about it, but not in the app.&lt;/p&gt;
+&lt;p&gt;You are required to use IAP even if you sell your app or service directly to other people.&lt;/p&gt;
+&lt;p&gt;Unless you only sell it to businesses or groups for their employees or students to use, in which case, you still must use IAP, but you can include your own payment method as well.&lt;/p&gt;
+&lt;p&gt;Unless those groups are families, or unless those employees or students are somehow “consumers”, in which case, you must only use IAP.&lt;/p&gt;
+&lt;p&gt;Do I have that right?&lt;/p&gt;
+&lt;p style="text-align: center; color: #ccc;"&gt;*     *     *&lt;/p&gt;
+&lt;p&gt;那么，有没有一种方案能既清晰、公平、合理，又能始终如一地执行呢？&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;应用可以在其内部提供其他支付方式，只要条款明确且不误导客户，并且可以根据其优劣选择是否实施应用内购买。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这样一来，反垄断和监管压力将烟消云散，开发者关系也将得到显著修复，苹果可以重新将时间、资源、公关和政治资本投入到提升产品质量和客户满意度上。&lt;/p&gt;</description><pubDate>Fri, 11 Sep 2020 20:08:06 +0000</pubDate></item><item><title>推出Voice Boost 2：重塑播客音质新体验</title><link>https://marco.org/2020/01/31/voiceboost2</link><description>&lt;p&gt;《Overcast》的最新更新包含了一项我特别引以为傲的功能，它耗时一年多才完成。
+
+Voice Boost 2 是一个全新的音频引擎，具备专业级、母带品质的响度标准化功能。
+
+2014年我首次推出《Overcast》时，Voice Boost 就是其主打功能之一：它结合了动态压缩和均衡处理，能让许多节目听起来更舒适，并统一所有节目的音量。这使得业余制作的播客（包括许多我喜爱的节目）在嘈杂环境中（比如车内）也能清晰收听——否则你可能需要把音量调得极高才能听清安静部分，而当有人大声说话时，耳朵又会受不了。
+
+Voice Boost 2 延续了初代的目标，但采用了更精密复杂的方法，实现了更稳定的效果和显著提升的音质。
+
+目标
+当初编写初代 Voice Boost 时，我对音频处理只有基础认知。它只是苹果 AudioUnits 的单一配置，对所有播客都套用固定参数，无视其音频特性。这是个有效但粗糙的工具，依赖激进的电平压缩和强烈的均衡来掩盖压缩痕迹。
+
+此后我剪辑了 500 多期播客，深入掌握了专业母带处理技术，并对音频信号处理有了更深刻的理解。
+
+我决心开发一个更优秀、更智能、更精细的 Voice Boost，运用所有积累的经验，并设定了这些音频目标：
+效果应更精妙：主要实现音量统一，辅以略微柔和的音色。
+它能分析输入音频，仅施加必要处理以达到稳定音量，尽可能减少对优质音频的修改。
+无论输入音频的动态范围如何，都应呈现优质且稳定的听感。
+音质应足够出色，甚至能无损播放高品质音乐。&lt;a href="https://overcast.fm/"&gt;Overcast&lt;/a&gt; includes a feature that I’m especially proud of that took over a year to build.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Voice Boost 2&lt;/strong&gt; is an all-new audio engine that includes professional-grade, mastering-quality loudness normalization.&lt;/p&gt;
+&lt;p&gt;When I &lt;a href="https://marco.org/2014/07/16/overcast"&gt;first introduced Overcast in 2014&lt;/a&gt;, Voice Boost was one of its headlining features:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Voice Boost&lt;/strong&gt; is a combination of dynamic compression and equalization that can make many shows more listenable and normalize volume across all shows. This makes amateur-produced podcasts (including many of my favorites) more listenable in loud environments, like cars, where you’d otherwise need to crank the volume so loudly to hear the quiet parts that you’d blow your ears out when the loudest person spoke.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Voice Boost 2 achieves the same goal as the original Voice Boost, but with dramatically more sophisticated methods, leading to more consistent results and &lt;em&gt;much&lt;/em&gt; better sound quality.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Goals&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;When I wrote the original Voice Boost with only a rudimentary understanding of audio processing, it was a single configuration of Apple’s AudioUnits that applied a fixed set of parameters to all podcasts, regardless of their audio characteristics. It was an effective but blunt tool, relying on aggressive &lt;a href="https://en.wikipedia.org/wiki/Dynamic_range_compression"&gt;level compression&lt;/a&gt; and a strong &lt;a href="https://en.wikipedia.org/wiki/Equalization_%28audio%29"&gt;EQ&lt;/a&gt; to make the compression less noticeable.&lt;/p&gt;
+&lt;p&gt;Since then, I’ve edited over 500 podcasts, learned a &lt;em&gt;lot&lt;/em&gt; more about how to master them properly, and developed a much better understanding of &lt;a href="https://en.wikipedia.org/wiki/Audio_signal_processing"&gt;audio signal processing&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I set out to develop a better, smarter, and more refined Voice Boost that took advantage of everything I’d learned, with these audio goals:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The effect should be much more subtle: mostly just consistent volume, plus &lt;em&gt;slightly&lt;/em&gt; smoother tone.&lt;/li&gt;
+&lt;li&gt;It should analyze the input audio and apply &lt;em&gt;just&lt;/em&gt; enough processing to achieve a consistent volume level, modifying already-good audio as little as possible.&lt;/li&gt;
+&lt;li&gt;It should sound good, and consistent, regardless of the volume dynamics of its input.&lt;/li&gt;
+&lt;li&gt;Quality should be so good that I can even play high-quality &lt;em&gt;music&lt;/em&gt; through it&lt;sup id="fnref:pXIBPcnShtrey"&gt;&lt;a href="https://marco.org/rss#fn:pXIBPcnShtrey" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;并且不会注意到任何伪影。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;以及这些技术目标：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;就像智能速度和最初的语音增强功能一样，它必须作为一个流式处理过程工作，可以随意轻松地开启和关闭，无需先扫描整个文件或提前查看很远。&lt;/li&gt;
+&lt;li&gt;代码必须是纯C语言，具有高度优化和向量化的代码，这样就不会对旧手机造成严重的电量消耗，并且有可能在更低功耗的设备上运行。&lt;/li&gt;
+&lt;li&gt;我必须从头开始编写每个组件，不使用AudioUnits，因为我想理解并控制一切，确保最高的性能和音质，并避免苹果平台特定的API限制。&lt;sup id="fnref:pXIBPcnShpubapi"&gt;&lt;a href="https://marco.org/rss#fn:pXIBPcnShpubapi" rel="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;它必须是模块化且易于定制的，就像音频编辑器中的通道条一样，这样我就可以在开发和测试期间调整处理过程，将来提供用户定制选项，并使用相同的引擎为自己构建一个模块化的播客预制作工具，以节省我每周工作流程中的时间（我已经使用了一年多）。&lt;sup id="fnref:pXIBPcnShvb2tool"&gt;&lt;a href="https://marco.org/rss#fn:pXIBPcnShvb2tool" rel="footnote"&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;实时LUFS标准化&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;由于语音增强主要涉及高质量的音频分析和响度标准化，我直接采用了最高标准，实现了&lt;a href="https://en.wikipedia.org/wiki/LKFS"&gt;ITU BS.1770–4标准&lt;/a&gt;这为我们提供了&lt;strong&gt;LUFS&lt;/strong&gt;测量，见于高端音频编辑器中。&lt;/p&gt;
+&lt;p&gt;Overcast现在使用这种广播标准的感知响度算法，以全质量测量和调整播客音量，无需预处理。&lt;/p&gt;
+&lt;p&gt;语音增强2将所有播客标准化为–14 LUFS——我选择这个级别是因为它与Siri和大多数iOS逐向导航语音的音量非常匹配，所以当你在开车时听播客时，导航中断不会那么刺耳。&lt;/p&gt;
+&lt;p&gt;大多数专业制作的播客已经以相似的音量级别进行母带处理，因此语音增强2不会通过激进的处理过度压缩它们——它只会应用必要的校正，使它们音量一致。&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;关于削波和失真的简要教程&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;接下来要聊得更硬核一些，但请耐心听我解释。（没错，比国际电联的广播响度标准还要硬核。）
+
+根据输入音频的响度测量结果，较安静播客需要被放大以达到目标响度。但感知响度并非输入音频流的峰值——它更接近于平均值。听起来安静的音频仍可能短暂出现响亮峰值。
+
+在提升数字音频音量时，最大挑战在于避免峰值期间的"削波"——即防止信号任何部分超过0分贝的音量上限。（这是负向标度，也解释了上文与分贝标度密切相关的LUFS值为何为负值。）
+
+下图展示了信号应达到的最高水平，绿色圆点代表可被播客应用处理的独立音频样本，随后数模转换器会将其转换为平滑的绿色音频曲线：
+
+只要音频不超过顶部0分贝线，听起来就正常。若音量提升稍有过量，部分样本就会猛烈撞击上限并停滞于此，导致平滑曲线顶部缺失：
+
+而这种声音效果
+
+极其糟糕。
+
+但我不能简单将所有样本限制在阈值之下就草草了事——这种粗暴限制器会改变音频曲线的实际形态，导致数模转换器产生原本不存在的杂讯。
+
+每张图片底部展示了频率分解情况：未削波信号（左）仅显示约2100赫兹的原始频率，而基础限制器（右）会引入大量多余频率。
+
+这就是失真。（若对此感兴趣，
+
+可在此深入了解音频采样理论
+
+前瞻限制器
+
+要避免可闻失真，就需要前瞻限制器。它能预判即将到来的音频信号，在响亮峰值逼近时平缓降低音量增益，待峰值过后再恢复提升，&lt;/p&gt;
+&lt;p&gt;Given a loudness measurement for the incoming audio, quieter podcasts need to be amplified to reach the target. But perceived loudness isn’t the peak of the incoming audio stream — it’s more of an average. Quiet-sounding audio can still have brief moments of loud peaks.&lt;/p&gt;
+&lt;p&gt;When increasing the volume of digital audio, the biggest challenge is not “clipping” during the peaks — not having any part of the signal pass above the volume ceiling of 0 dB. (It’s a negative scale. This is also why the LUFS value above, which is closely related to the decibel scale used here, is negative.)&lt;/p&gt;
+&lt;p&gt;Here’s the highest the signal should go, showing the individual audio samples (green dots) that can be processed by a podcast app before the DAC transforms them into audio (smooth green line):&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;a href="http://www.marco.org/media/2020/01/samples-unclipped.png"&gt;&lt;img src="http://www.marco.org/media/2020/01/samples-unclipped.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It’ll sound right as long as the audio doesn’t cross above that top line (0 dB). Increase the volume even slightly too far, and some of the samples just slam into it and stay there, losing the tops of their smooth curves:&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;a href="http://www.marco.org/media/2020/01/samples-clipped.png"&gt;&lt;img src="http://www.marco.org/media/2020/01/samples-clipped.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;And that sounds &lt;strong&gt;terrible.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;But I can’t just cap all the samples right below the limit and call it a day — that’s called a brickwall limiter — because then the shape of the audio line will actually represent different frequencies, telling the DAC to add noise that wasn’t really there.&lt;/p&gt;
+&lt;p&gt;Here, the bottom of each image shows the frequency breakdown:&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;a href="http://www.marco.org/media/2020/01/samples-distortion.png"&gt;&lt;img src="http://www.marco.org/media/2020/01/samples-distortion.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The unclipped signal (left) shows only its original frequency of about 2100 Hz, but a basic brickwall limiter (right) results in the unwanted introduction of a bunch of extra frequencies.&lt;/p&gt;
+&lt;p&gt;That’s distortion. (If this is interesting to you, &lt;a href="https://people.xiph.org/~xiphmont/demo/neil-young.html"&gt;learn more about audio sampling theory here&lt;/a&gt;.)&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Lookahead limiter&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Avoiding audible distortion requires a lookahead limiter, which looks… ahead (😎) at the audio coming down the pipeline, and smoothly ramps the volume amplification down as a loud peak is approaching, then back up again afterward, &lt;em&gt;just&lt;/em&gt;足以避免削波和可闻失真，但处理速度之快让你难以察觉。
+
+在Voice Boost 2完整的32位音频处理流程中，最后阶段是一个前瞻限制器，其配置确保无论输入何种音频都不会产生削波。
+
+这为音量处理提供了极大的灵活性，同时不牺牲音质。
+
+Voice Boost 2还包含动态压缩器，但随着时间推移，我不断降低其强度，因为我发现它的必要性在降低。通过出色的前瞻限制器进行适当的LUFS处理，可以实现极佳的音量标准化，几乎无需后续压缩。
+
+真峰值检测
+
+还有一种可能引发削波的情况需要防范。
+
+数字音频由代表声波（绿线）上时间点（绿点）的采样点表示。但采样点并不总是恰好落在声波的峰值处：
+
+测量波形峰值的常见方法是找到最大绝对采样值。按此方法，上方波形的峰值分别约为-6 dB和-1.5 dB。
+
+但这些波形的实际峰值振幅是-1 dB！简单的限制器可能仍会输出削波音频，因为它未能检测到真实峰值。
+
+Voice Boost 2的限制器执行真峰值检测，而非简单测量采样峰值，从而避免此类削波并进一步减少失真。
+
+为所有人提供母带级处理
+
+Voice Boost 2是一个母带级音频处理流程，可实时为播客应用广播标准响度标准化、轻度压缩与均衡，以及真峰值前瞻限制器，同时不牺牲音质或电池续航。
+
+在iPhone SE上运行时，其CPU占用率低于1%。&lt;sup id="fnref:pXIBPcnShms"&gt;&lt;a href="https://marco.org/rss#fn:pXIBPcnShms" rel="footnote"&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;After Voice Boost 2’s complete 32-bit audio processing pipeline, the last stage is a lookahead limiter, configured such that it &lt;em&gt;can’t&lt;/em&gt; clip, no matter what audio comes through.&lt;/p&gt;
+&lt;p&gt;This gives vast flexibility in volume processing without sacrificing quality.&lt;/p&gt;
+&lt;p&gt;Voice Boost 2 also incorporates a dynamics compressor, but over time, I’ve kept reducing its strength as I’ve found it less necessary. Proper LUFS processing with a great lookahead limiter provides excellent volume normalization with almost no compression needed afterward.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;True-peak detection&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;There’s one more way to introduce clipping that needs to be guarded against.&lt;/p&gt;
+&lt;p&gt;Digital audio is represented by samples that represent a point in time (green dots, again) on a sound wave (green line). But the sampled points don’t always land at the exact peaks of those waves:&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;a href="http://www.marco.org/media/2020/01/samples-truepeak.png"&gt;&lt;img src="http://www.marco.org/media/2020/01/samples-truepeak.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The most common way to measure the peak of a waveform is to find the greatest absolute sample value. By this method, the top waveform peaks here would measure about –6 dB and –1.5 dB, respectively.&lt;/p&gt;
+&lt;p&gt;But the actual peak amplitudes of these waves is –1 dB! A simple limiter could still output clipped audio because it’s not seeing the true peaks.&lt;/p&gt;
+&lt;p&gt;Voice Boost 2’s limiter performs true-peak detection, rather than simply measuring sample peaks, to avoid this type of clipping and further reduce distortion.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Mastering-quality processing for everyone&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Voice Boost 2 is a mastering-quality audio-processing pipeline that applies broadcast-standard loudness normalization, light compression and EQ, and a true-peak lookahead limiter to your podcasts, in real time, without sacrificing quality or battery life.&lt;/p&gt;
+&lt;p&gt;And it runs at less than 1% CPU usage on an iPhone SE.&lt;sup id="fnref:pXIBPcnShbench"&gt;&lt;a href="https://marco.org/rss#fn:pXIBPcnShbench" rel="footnote"&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;我打算在未来的更新中向用户开放部分自定义选项，但首先需要开发并推出最佳默认设置，以确保应用简洁易用。现在它已面向所有人开放，我仍会根据反馈微调默认设置。不过，在测试阶段我已经将设置优化得更通用，因此需要自定义的地方反而更少了。
+
+Voice Boost 2 在实现更稳定、更柔和的目标后，特意保持了低调。应用中没有过多宣传，甚至没有标注“Voice Boost 2”。它依然是 Voice Boost——只是现在更出色了。
+
+如果我的工作到位，你几乎不会察觉到它的存在。你甚至不会知道口袋里的播客正在被重新优化。
+
+但我知道。少数真正在意的人也会知道。这对我来说就足够了。
+
+Voice Boost 2 已包含在今日的更新（2020.1 版）中，同时还有以下新功能：
+
+AirPlay 2：
+在 iOS 13.1 及以上系统中，Overcast 现在可以更灵敏地播放到 HomePods 和其他 AirPlay 2 设备，并支持完整的智能加速和语音增强功能。
+
+跳过片头/片尾：
+新增针对每个播客的设置，可以跳过每集开头和/或结尾的指定秒数。
+
+私有订阅源的片段分享。
+回想起来，之前的限制并无必要，因此我取消了这一限制。
+
+恢复 iOS 12 兼容性。
+过早地仅支持 iOS 13 是个错误。你可以在《Under The Radar》第 181 期和第 183 期节目中了解原因。
+
+和往常一样，Overcast 的所有用户均可免费使用这些功能。
+
+那些精彩的 Trey Anastasio 原声演出音量相当低。
+
+目前这只是一个命令行工具。你并不需要它。（但如果你真的需要……或许将来会有。）
+
+这一切都在毫秒间完成。
+
+在启用智能加速的情况下，以 1 倍速播放。&lt;sup id="fnref:pXIBPcnShdeess"&gt;&lt;a href="https://marco.org/rss#fn:pXIBPcnShdeess" rel="footnote"&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Having achieved its goals of being more consistent and less aggressive, Voice Boost 2 is intentionally transparent. It’s not promoted more in the app or even labeled “Voice Boost 2”. It’s still Voice Boost — just better now.&lt;/p&gt;
+&lt;p&gt;If I did my job well, you’ll hardly notice it at all. You’ll have no idea that your podcasts are being remastered in your pocket.&lt;/p&gt;
+&lt;p&gt;But I’ll know. And the handful of you who &lt;em&gt;really&lt;/em&gt; care will know. And that’s enough for me.&lt;/p&gt;
+&lt;p&gt;Voice Boost 2 is in today’s update (2020.1), along with these new features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AirPlay 2:&lt;/strong&gt; Overcast can now play to HomePods and other AirPlay 2 devices much more responsively, with full-blown Smart Speed and Voice Boost, on iOS 13.1 and above.&lt;sup id="fnref:pXIBPcnShap2"&gt;&lt;a href="https://marco.org/rss#fn:pXIBPcnShap2" rel="footnote"&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Skip intros/outros:&lt;/strong&gt; There’s a new per-podcast setting to skip a given number of seconds from the start and/or end of its episodes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Clip-sharing from private feeds.&lt;/strong&gt; In retrospect, this restriction was unnecessary, so I lifted it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Restored iOS 12 compatibility.&lt;/strong&gt; Going 13-only so soon was a mistake. Hear why on &lt;a href="https://overcast.fm/+FgnaXsFSI"&gt;Under The Radar 181&lt;/a&gt; and &lt;a href="https://overcast.fm/+FgnZdP74w"&gt;183&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As usual, all of this is free for everyone in &lt;a href="https://overcast.fm/"&gt;Overcast&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="footnotes"&gt;
+&lt;hr/&gt;
+&lt;ol&gt;
+&lt;li id="fn:pXIBPcnShtrey"&gt;
+&lt;p&gt;Those awesome &lt;a href="https://www.livephish.com/browse/music/trey-anastasio"&gt;Trey Anastasio acoustic shows&lt;/a&gt; are pretty quiet. &lt;a href="https://marco.org/rss#fnref:pXIBPcnShtrey" rev="footnote"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:pXIBPcnShpubapi"&gt;
+&lt;p&gt;Apple doesn’t make all of their audio APIs available on all platforms: some are Mac-only and never came to iOS, and watchOS has an even smaller subset than iOS. The more I can accomplish in my own code, the less I depend on Apple’s choices for which APIs they make available to developers. &lt;a href="https://marco.org/rss#fnref:pXIBPcnShpubapi" rev="footnote"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:pXIBPcnShvb2tool"&gt;
+&lt;p&gt;It’s just a command-line tool for now. You don’t want it. (But if you do… someday, maybe.) &lt;a href="https://marco.org/rss#fnref:pXIBPcnShvb2tool" rev="footnote"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:pXIBPcnShms"&gt;
+&lt;p&gt;This all happens in milliseconds. &lt;a href="https://marco.org/rss#fnref:pXIBPcnShms" rev="footnote"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:pXIBPcnShbench"&gt;
+&lt;p&gt;At 1X, with Smart Speed enabled.&lt;/p&gt;
+&lt;p&gt;智能调速功能其实在语音增强2.0版本中已完全重构，不过它的变化没那么有趣。它承担着与之前相同的工作，但效率大幅提升，并在启用语音增强时能利用已测得的响度值进行优化。
+
+举例来说，我原本在语音增强2.0中内置了齿音消除器，但随着其他处理环节的改进，这个功能逐渐变得不再必要，所以目前并未启用。
+
+我认为智能调速在这里是个重要突破——据我所知，还没有其他播客应用能通过AirPlay 2实现静音跳过功能。
+
+（同样罕见的还有LUFS标准化处理和真峰值前瞻限制器技术。）&lt;a href="https://marco.org/rss#fnref:pXIBPcnShbench" rev="footnote"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:pXIBPcnShdeess"&gt;
+&lt;p&gt;For instance, I also built a de-esser into Voice Boost 2, but it slowly became unnecessary as I improved the other processing, so it’s not currently enabled. &lt;a href="https://marco.org/rss#fnref:pXIBPcnShdeess" rev="footnote"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:pXIBPcnShap2"&gt;
+&lt;p&gt;Smart Speed is a big deal here, I think — I’m not aware of any other podcast apps with silence-skipping over AirPlay 2.&lt;/p&gt;
+&lt;p&gt;(Or LUFS normalization, or true-peak lookahead limiters.) &lt;a href="https://marco.org/rss#fnref:pXIBPcnShap2" rev="footnote"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description><pubDate>Fri, 31 Jan 2020 18:46:32 +0000</pubDate></item><item><title>Mac笔记本的低功耗模式：再次论证其必要性</title><link>https://marco.org/2020/01/13/macos-low-power-mode-redux</link><description>&lt;p&gt;鉴于今日传闻称&lt;a href="https://www.macrumors.com/2020/01/13/pro-mode-macos-catalina-beta/"&gt;可能即将推出一种&lt;/a&gt;效果似乎背道而驰的专业模式，&lt;sup id="fnref:pC1P8vIzHpromode"&gt;&lt;a href="https://marco.org/rss#fn:pC1P8vIzHpromode" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;我想再次阐述为macOS引入低功耗模式的理由——并解释为何&lt;strong&gt;当下&lt;/strong&gt;正是最佳时机。&lt;/p&gt;
+&lt;p&gt;现代硬件不断挑战散热与功耗极限，试图在最小化噪音与发热、最大化性能与续航之间取得平衡。&lt;/p&gt;
+&lt;p&gt;软件同样参与其中，它努力维持后台更新、内容索引与照片分析，确保我们需要时一切就绪，同时又不会因过度占用资源而明显影响性能或电池续航。&lt;/p&gt;
+&lt;p&gt;苹果用户通常无法自主调节这些平衡，它们大多在设计阶段就已固定，难以适应变化的环境或用户需求的优先级调整。&lt;/p&gt;
+&lt;p&gt;唯一的例外是iOS的低功耗模式，它似乎大获成功：通过一个简单的开关切换至不同平衡模式，用户能在预知需求时大幅延长电池续航。&lt;sup id="fnref:pC1P8vIzHldm"&gt;&lt;a href="https://marco.org/rss#fn:pC1P8vIzHldm" rel="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mac笔记本同样需要低功耗模式。&lt;/strong&gt;我对其潜力深信不疑，因为多年来我一直在自己的笔记本上（以某种方式）使用类似功能，体验&lt;strong&gt;堪称卓越。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;自2015年起，&lt;a href="https://marco.org/2015/06/07/disabling-turbo-boost"&gt;我多数时间都通过&lt;/a&gt;Turbo Boost Switcher Pro&lt;a href="https://www.rugarciap.com/turbo-boost-switcher-for-os-x/"&gt;禁用&lt;/a&gt;英特尔睿频加速技术。&lt;/p&gt;
+&lt;p&gt;2018年，&lt;a href="https://marco.org/2018/07/31/mac-low-power-mode"&gt;我曾首次倡议为macOS引入低功耗模式，&lt;/a&gt;并列举了一系列可能的优化方案，最终得出结论：在大多数任务中，禁用睿频加速仍是提升电池续航最具性价比的调整，且不会引起明显的性能损失。&lt;sup id="fnref:pC1P8vIzHmlpm"&gt;&lt;a href="https://marco.org/rss#fn:pC1P8vIzHmlpm" rel="footnote"&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;近年来，随着英特尔在更小尺寸中塞入更多核心与更高主频，并将散热极限推向新高度，这种调整带来的收益愈发显著。以下是我对&lt;a href="https://marco.org/2019/11/13/mbp16"&gt;16英寸MacBook Pro&lt;/a&gt;八核机型的一些散热测试数据：&lt;/p&gt;
+&lt;p&gt;.turboboosttable {
+ margin: 2em auto;
+ border-collapse: collapse;
+}
+.turboboosttable th, .turboboosttable td { text-align: center; border: 1px solid #f4f4f4; padding: 0.5em; }
+.turboboosttable th { width: 15%; }
+.turboboosttable th.lcol { text-align: right; }
+.turboboosttable th.notbold { font-weight: normal; }
+.turboboosttable th { background-color: #f4f4f4; }
+.turboboosttable .lightslash { opacity: 0.33; }
+.turboboosttable td.noturbo { background-color: #f8f8f8; }
+.turboboosttable .perfminus { color: #a00; }
+.turboboosttable .perfplus { color: #0a0; }&lt;/p&gt;
+&lt;h3&gt;16英寸MacBook Pro（2019年末款，2.4 GHz 8核i9处理器）&lt;/h3&gt;
+&lt;table class="turboboosttable"&gt;
+&lt;tr&gt;
+&lt;th class="lcol"&gt; &lt;/th&gt;
+&lt;th&gt;功耗&lt;/th&gt;
+&lt;th&gt;温度&lt;/th&gt;
+&lt;th&gt;Geekbench 5单核/多核&lt;/th&gt;
+&lt;th&gt;xcodebuild编译&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th class="lcol notbold"&gt;正常模式&lt;/th&gt;
+&lt;td&gt;82W&lt;/td&gt;
+&lt;td&gt;90°C&lt;/td&gt;
+&lt;td&gt;1260&lt;span class="lightslash"&gt;/&lt;/span&gt;7386&lt;/td&gt;
+&lt;td&gt;39秒&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th class="lcol notbold"&gt;关闭睿频&lt;/th&gt;
+&lt;td class="noturbo"&gt;31W&lt;div class="perfplus"&gt;−62%&lt;/div&gt;&lt;/td&gt;
+&lt;td class="noturbo"&gt;65°C&lt;/td&gt;
+&lt;td class="noturbo"&gt;669&lt;span class="lightslash"&gt;/&lt;/span&gt;5206&lt;div class="perfminus"&gt;−46&lt;span class="lightslash"&gt;/&lt;/span&gt;29%&lt;/div&gt;&lt;/td&gt;
+&lt;td class="noturbo"&gt;62秒&lt;div class="perfminus"&gt;+59%&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;关闭睿频加速后，CPU峰值功耗直降62%，温度也随之大幅降低。这带来两大显著优势：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;风扇始终静不可闻&lt;/strong&gt;启用睿频时，每当系统持续高负载运行，风扇就会烦人地加速旋转。关闭该功能后，几乎听不到风扇声响。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;机身温度显著降低&lt;/strong&gt;睿频模式会让笔记本变得烫手，无法舒适地放在膝上使用，散发的热量甚至会导致手心出汗。关闭该功能后，笔记本仅保持适度温热而非&lt;strong&gt;发烫&lt;/strong&gt;，手掌也能保持干爽舒适。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;虽然未对16英寸机型进行系统化电池测试（因其耗时且难以进行对用户真正有用的受控测试），但根据实际使用观察，关闭睿频带来的续航提升与以往笔记本相似：&lt;strong&gt;电池续航显著延长&lt;/strong&gt;预估增幅可达30%至50%。&lt;/p&gt;
+&lt;p&gt;这当然会牺牲部分性能，但需注意：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;多数工作场景中难以察觉差异&lt;/li&gt;
+&lt;li&gt;并行工作负载受到的影响远小于单线程任务，而现代重负载任务大多已实现并行化处理。&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;这台八核笔记本的性能足以与我的iMac Pro媲美！对大多数人（包括我自己）而言，它的性能在多数场景中都过剩，因此我可以牺牲部分性能来换取其他优势。&lt;/p&gt;
+&lt;p&gt;如果双手出汗影响打字、航班途中电量耗尽，或是风扇噪音干扰录音，再快的笔记本也难称实用。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;当我需要极致性能时，&lt;a href="https://www.rugarciap.com/turbo-boost-switcher-for-os-x/"&gt;Turbo Boost Switcher Pro&lt;/a&gt;能通过菜单栏快速切换模式，操作极其便捷。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在绝大多数使用场景中，关闭Turbo Boost的16英寸MacBook Pro&lt;strong&gt;才是更理想的选择。&lt;/strong&gt;它仍能流畅处理所有任务（包括Xcode重度开发），同时保持静音凉爽，续航表现更是惊人。&lt;/p&gt;
+&lt;p&gt;但恐怕这样的日子即将结束。&lt;/p&gt;
+&lt;p&gt;Turbo Boost Switcher Pro依赖的内核扩展虽被保留在苹果最新安全框架中，却永远无法更新——当macOS Catalina首次加载时，系统已&lt;/p&gt;
+&lt;p&gt;警告其“与未来macOS版本不兼容”。&lt;a href="https://forum.promise.com/thread/sanlink3-t1-catalina-10-15-mac-support/"&gt;我预感这将是最后一年能&lt;/a&gt;同时&lt;strong&gt;运行最新系统并自由关闭Turbo Boost，此后所有笔记本体验都将大打折扣。&lt;/strong&gt;苹果啊，请官方推出这个功能：为macOS增加低功耗模式，在用户更重视散热、静音与续航的场景下自动禁用Turbo Boost。&lt;/p&gt;
+&lt;p&gt;我推测“专业模式”并非提升峰值性能，而是通过增强散热来维持高Turbo Boost频率的持久运行。&lt;/p&gt;
+&lt;div class="footnotes"&gt;
+&lt;hr/&gt;
+&lt;ol&gt;
+&lt;li id="fn:pC1P8vIzHpromode"&gt;
+&lt;p&gt;↩︎&lt;a href="https://marco.org/rss#fnref:pC1P8vIzHpromode" rev="footnote"&gt;iOS的低功耗模式大获成功后，苹果甚至在iOS 13中新增低数据模式，实现对数据消耗的类似管控（Mac用户可通过优秀的&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:pC1P8vIzHldm"&gt;
+&lt;p&gt;TripMode&lt;a href="https://www.tripmode.ch/"&gt;实现相近功能）。&lt;/a&gt;↩︎&lt;a href="https://marco.org/rss#fnref:pC1P8vIzHldm" rev="footnote"&gt;正如&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:pC1P8vIzHmlpm"&gt;
+&lt;p&gt;先前所述&lt;a href="https://marco.org/2018/07/31/mac-low-power-mode"&gt;，禁用独立显卡与照片分析也应成为Mac低功耗模式的核心功能。&lt;/a&gt;↩︎&lt;a href="https://marco.org/rss#fnref:pC1P8vIzHmlpm" rev="footnote"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description><pubDate>Tue, 14 Jan 2020 01:21:06 +0000</pubDate></item><item><title>16英寸MacBook Pro</title><link>https://marco.org/2019/11/13/mbp16</link><description>&lt;p style="text-align: center; margin-top: 2em; margin-bottom: 2em;"&gt;&lt;img class="extrawide" src="http://www.marco.org/media/2019/11/mbp16-overview.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;用上新款16英寸MacBook Pro的第一天，我就对它非常乐观。🎧更多内容请收听今天的《意外科技播客》！两年前，我写过一份修复MacBook Pro的愿望清单，而16英寸版实际上并未实现其中大部分愿望。但时间和科技进步正慢慢让苹果摆脱困境：接口没有变化。我们仍然需要转接头。但USB-C正逐渐普及，转接头的质量也在缓慢——非常缓慢地——提升。触控栏仍是标配。但新增的实体Esc键消除了它的一大缺陷，触控栏与顶排按键间距的增加也应能减少误触。电源适配器依然缺少以往的便利设计。仍然没有线缆管理、安全断开或充电指示灯。但第三方正慢慢填补部分空缺。耳机插孔仍在右侧（错误的一侧），尽管大多数单边耳机线是从左耳罩接入。但有线耳机的需求正随时间推移而减少。若能解决这些问题固然好，但正如我当时所写，与一个巨大问题相比，这些都显得微不足道：蝶式键盘。MacBook Pro必须回归剪刀式结构。如果苹果只对下一代MacBook Pro做一项改变，那必须是这个。这比清单上任何其他事情都重要得多。[…]妙控键盘的剪刀式结构手感相似，但键程略长，且具备以往键盘的全部可靠性和耐用性。[…]妙控键盘只需一项改动就能完美适配MacBook Pro：通过将左右方向键恢复为半高设计，回归"倒T形"方向键排列。这种排列更自然且不易出错，因为我们可以通过触摸"T形"来定位手指，这对于远离基准行的高频使用按键至关重要。这正是他们所做的，我简直欣喜若狂。&lt;em&gt;very&lt;/em&gt; optimistic about it.&lt;/p&gt;
+&lt;p style="text-align: center; color: #800; font-weight: bold; padding: 0.5em; background-color: #fee; border-radius: 0.5em; border: 1px solid #fdd; width: 80%; margin: 2em auto;"&gt;🎧  &lt;a href="https://atp.fm/352"&gt;Hear more on today’s Accidental Tech Podcast!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Two years ago, I wrote &lt;a href="https://marco.org/2017/11/24/fixing-the-macbook-pro"&gt;a wishlist to fix the MacBook Pro&lt;/a&gt;, and the 16-inch &lt;em&gt;doesn’t&lt;/em&gt; actually deliver most of it. But time and technological progress are slowly getting Apple off the hook:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;The ports are unchanged.&lt;/strong&gt; We’ll still need dongles. But USB-C is gradually becoming more common, and dongles are slowly — &lt;em&gt;very&lt;/em&gt; slowly — getting less shitty.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The Touch Bar isn’t optional.&lt;/strong&gt; But a new hardware Esc key removes one of its biggest drawbacks, and accidental input should be reduced by the increased spacing between the Touch Bar and the top row of keys.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The power brick still lacks its previous conveniences.&lt;/strong&gt; There’s still no cable management, safety breakaway, or charging LED. But third parties are slowly filling &lt;a href="https://www.moshi.com/en/product/integra-usb-c-charge-cable-with-smart-led/jet-silver"&gt;some of these gaps&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The headphone jack is still on the right (wrong) side,&lt;/strong&gt; despite most single-sided headphone cables entering the left earcup. But the need for wired headphones is decreasing over time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Addressing those would be nice, but as I wrote then, they paled in comparison to one huge issue: the butterfly keyboard.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;The MacBook Pro must return to scissor keyswitches.&lt;/strong&gt; If Apple only changes one thing about the next MacBook Pro, it should be this. It’s far more important than anything else on this list. […]&lt;/p&gt;
+&lt;p&gt;The &lt;a href="https://www.apple.com/shop/product/MLA22LL/A/magic-keyboard-us-english"&gt;Magic Keyboard’s&lt;/a&gt; scissor switches feel similar, but with a bit more travel, and all of the reliability and resilience of previous keyboard generations. […]&lt;/p&gt;
+&lt;p&gt;The Magic Keyboard only needs one change to be perfect for the MacBook Pro: returning to the “inverted-T” arrow-key arrangement by making the left- and right-arrow keys half-height again. This arrangement is much more natural and less error-prone because we can align our fingers by feeling the “T” shape, a crucial affordance for such frequently used keys that are so far from the home row.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;That’s exactly what they’ve done, and I couldn’t be happier.&lt;/p&gt;
+&lt;p&gt;新款16英寸MacBook Pro在其他大多数方面都是一台出色的电脑，但过去几年的MacBook Pro也是如此。它们曾是快速、强大、高效的工作站……但蝶式键盘毁掉了一切。
+
+现在不同了。
+
+我简直欣喜若狂。看看这绝妙的键盘！独立的Esc键！倒T形方向键！1毫米的键程！键与键之间有足够的间距让手指准确定位！而且按键很可能在多年内保持100%的灵敏度！
+
+五年前，没人会觉得这些值得一提，如果你在评测中提到这些，读者甚至会怀疑你神志不清。
+
+五年前，笔记本键盘
+
+挺好用
+
+。大家对自己用的键盘基本满意，它们能正常工作，我们从来不需要讨论或思考它们。
+
+今天，我们终于开始回归那个世界。
+
+蝶式键盘是个异类——它和我们用过的所有键盘都大相径庭，而且大多不是好的方面。
+
+新键盘和最近推出的桌面妙控键盘非常相似，我预计它会像妙控键盘一样广受欢迎。它的键程和间距略小，但整体手感非常相似——而且和蝶式键盘完全不同。
+
+我绝对
+
+爱死
+
+它了——不是因为它是世界上最神奇的键盘，而是因为它好到让人完全忘记它的存在。它又让人感觉
+
+正常
+
+了。
+
+16英寸MacBook Pro还有很多令人喜爱之处。屏幕和电池更大了，但尺寸和重量几乎没有增加。它的速度几乎和我的iMac Pro一样快，新的散热设计可以维持更高的性能。扬声器和麦克风有了巨大、意想不到的改进。
+
+我并没有得到我想要的一切。但我的许多愿望清单项目超出了苹果可能
+
+永远
+
+会做的范围，而且所有这些都
+
+重要得多。&lt;/p&gt;
+&lt;p&gt;Not anymore.&lt;/p&gt;
+&lt;p style="text-align: center; margin-top: 2em; margin-bottom: 2em;"&gt;&lt;img src="http://www.marco.org/media/2019/11/mbp16-esc.jpg"/&gt;&lt;/p&gt;
+&lt;p style="text-align: center; margin-top: 2em; margin-bottom: 2em;"&gt;&lt;img src="http://www.marco.org/media/2019/11/mbp16-arrows.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;I’m on cloud nine. Look at this glorious keyboard! An Esc key! Inverted-T arrow keys! A millimeter of key travel! Enough spacing between the keys for our fingers to accurately orient themselves! And keystrokes will probably work, 100% of the time, for years!&lt;/p&gt;
+&lt;p&gt;Five years ago, nobody would’ve considered any of these noteworthy, and readers would’ve suspected you weren’t of sound mind if you included them in a review.&lt;/p&gt;
+&lt;p&gt;Five years ago, laptop keyboards were &lt;em&gt;fine&lt;/em&gt;. Everyone was pretty much satisfied with the ones they had, they worked, and we never had to talk or think about them.&lt;/p&gt;
+&lt;p&gt;Today, finally, we begin heading back to that world.&lt;/p&gt;
+&lt;p style="text-align: center; margin-top: 2em; margin-bottom: 2em;"&gt;&lt;img src="http://www.marco.org/media/2019/11/mbp16-graph.png"/&gt;&lt;/p&gt;
+&lt;p&gt;The butterfly keyboard was an anomaly — it was a huge departure from everything else we’d ever used, mostly not in good ways.&lt;/p&gt;
+&lt;p&gt;The new keyboard is very similar to the recent desktop Magic Keyboard, and I expect it to have a wide appeal, just as the Magic Keyboard does. It has slightly less travel and spacing, but the overall feeling is very similar — and it’s nothing at all like the butterfly keyboard.&lt;/p&gt;
+&lt;p&gt;I absolutely &lt;em&gt;love&lt;/em&gt; it — not because it’s the most amazing keyboard in the world, but because it’s completely forgettable in the best possible way. It just feels &lt;em&gt;normal&lt;/em&gt; again.&lt;/p&gt;
+&lt;p&gt;There’s a lot more to love about the 16-inch MacBook Pro. The screen and battery are bigger, but the size and weight barely increased. It’s almost as fast as my iMac Pro, and the new thermals can sustain higher performance. The speakers and microphone got huge, unexpected improvements.&lt;/p&gt;
+&lt;p&gt;And I didn’t get everything I wanted. But many of my wishlist items fall outside of what Apple is likely to &lt;em&gt;ever&lt;/em&gt; do, and all of them are &lt;em&gt;much&lt;/em&gt;比让电脑的主要输入设备功能正常、可接受且可靠更不重要。现在我们终于有闲情逸致去抱怨那些不那么迫切的愿望了。
+
+最大的变化在于，我终于不再觉得它在处处与我作对。它的设计不再充满恶意。这是一台似乎并不讨厌成为电脑的电脑。我不再害怕在公共场合使用它，也不会因为它用起来难受而刻意回避。蝴蝶键盘则恰恰相反——它从未改善，我也从未习惯，如今终于摆脱了它。
+
+继出色的iMac Pro、更新的Mac Mini以及即将推出的Mac Pro之后，16英寸MacBook Pro的发布终结了Mac系列长期被忽视且充满傲慢设计的痛苦篇章。苹果终于扭转了航向。
+
+我们使用时间尚短，还未能进行全面测试。随着时间推移，可能会发现一些缺陷或不足——这类问题通常会出现（也一直存在）。但坦率地说，就算它每周自燃两次，也依然是我2015年以来最喜爱的苹果笔记本电脑。幸运的是，在初步使用中并没有发现什么明显问题。
+
+新款MacBook Pro没有重大的星号标注或限制条件。它就是一台出色的电脑，仅此而已。能再次说出这句话的感觉——
+
+实在太好了。
+
+多年来第一次，我们可以毫无保留地看到：苹果和我们一样热爱电脑。
+
+🎧
+
+更多细节与讨论尽在本期播客！&lt;/p&gt;
+&lt;p&gt;The biggest change is that I finally don’t feel like it’s constantly fighting me. Its design doesn’t feel spiteful. It’s a computer that doesn’t seem to hate being a computer. I’m not afraid to use it in the world, and I’m not avoiding using it because it’s unpleasant. The butterfly keyboard was the opposite, it never got better, I never got used to it, and good riddance to it.&lt;/p&gt;
+&lt;p&gt;Following in the footsteps of the fantastic iMac Pro, updated Mac Mini, and upcoming Mac Pro, the release of the 16-inch MacBook Pro ends a painful chapter of neglect and hubristic design of the Mac. Apple has finally turned the ship around.&lt;/p&gt;
+&lt;p&gt;We haven’t had long enough to fully test it yet. There may be flaws or shortcomings discovered over time — there usually are (and always have been). But frankly, it could catch fire twice a week and it would still be my favorite laptop Apple has made since 2015. Fortunately, upon initial usage, nothing bad really jumps out.&lt;/p&gt;
+&lt;p&gt;The new MacBook Pro has no massive asterisks or qualifications. It’s a great computer, period, and it feels &lt;em&gt;so good&lt;/em&gt; to be able to say that again.&lt;/p&gt;
+&lt;p&gt;For the first time in years, without any major exceptions, we can see that Apple loves computers as much as we do.&lt;/p&gt;
+&lt;p style="text-align: center; color: #800; font-weight: bold; padding: 0.5em; background-color: #fee; border-radius: 0.5em; border: 1px solid #fdd; width: 80%; margin: 2em auto;"&gt;🎧  &lt;a href="https://atp.fm/352"&gt;Much more detail and discussion in the podcast!&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 13 Nov 2019 13:30:08 +0000</pubDate></item><item><title>阴天夏日更新</title><link>https://marco.org/2019/07/21/overcast-summer-update</link><description>&lt;p&gt;今日&lt;a href="https://apps.apple.com/us/app/overcast-podcast-player/id888422857"&gt;阴天更新&lt;/a&gt;（2019年6月）带来了一些很棒的新功能。&lt;/p&gt;
+&lt;p&gt;但首先，我需要降低大家对今年秋季iOS 13、watchOS 6和macOS Catalina更新的期待。夏天过半，我的进展远不如预期，因为被必需的系统改动、我自身的技术和设计债务，以及异常粗糙的测试版搞得焦头烂额。&lt;/p&gt;
+&lt;p&gt;与其在第一天就发布一个大型iOS更新、一个独立的Watch应用和一个Mac应用，这些可能会在接下来的一年里逐步推出。&lt;/p&gt;
+&lt;p&gt;幸运的是，在此期间我并没有停止改进应用。&lt;/p&gt;
+&lt;h3&gt;每个播客的个性化设置，更长的片段&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;你现在可以为每个播客设置下载与流媒体播放以及自动删除行为，&lt;/strong&gt;这是过去几年最常被要求的功能之一。（抱歉花了这么长时间——由于一些无趣的原因，这需要大量的服务器端工作。）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;我还将&lt;a href="https://marco.org/2019/04/27/overcast-clip-sharing"&gt;片段分享&lt;/a&gt;的长度限制提高到了90秒。&lt;/strong&gt;当我首次推出这个功能时，我不得不猜测它会如何被使用和接受，60秒似乎是一个不错的限制。实际上，有时这&lt;em&gt;有点&lt;/em&gt;太短，无法捕捉一个完整的想法。90秒应该会更好——大多数片段不需要那么长，但当你需要时，有足够的空间会很不错。&lt;/p&gt;
+&lt;h3&gt;“为你推荐”取代Twitter&lt;/h3&gt;
+&lt;p&gt;自2014年1.0版本以来，Overcast一直有一个基于Twitter的社交推荐功能，这在当时是有道理的：我没有任何流行度数据来生成推荐，而且社交网络比今天更友好。&lt;/p&gt;
+&lt;p&gt;但五年后，只有10%的活跃用户在Overcast中连接了Twitter账户，而只有0.2%的新播客订阅是通过Twitter推荐实际添加的。&lt;/p&gt;
+&lt;p&gt;这个功能不仅对那10%启用它的人没有提供太多价值，而且Overcast的其他90%客户根本没有获得个性化推荐。&lt;/p&gt;
+&lt;p&gt;在此期间，我积累了五年的流行度数据，于是尝试编写自己的推荐引擎。效果不错——甚至更胜一筹。如今，Overcast已搭载了这套数据驱动的推荐系统，并彻底移除了Twitter集成功能。在"添加播客"界面新增的"为你推荐"板块中，节目推荐将基于你的订阅列表，以及同好听众们的订阅偏好，无需借助社交网络就能提供更精准的推荐。最关键的是，这套系统将惠及Overcast的每一位用户。
+
+*     *     *
+
+一如既往，Overcast在应用商店提供免费下载。欢迎体验。&lt;em&gt;better&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Overcast now offers its own data-driven recommendation engine,&lt;/strong&gt; and I’ve removed Twitter integration entirely.&lt;/p&gt;
+&lt;p&gt;Podcasts in the new “Suggestions for You” section of the Add Podcast screen are based on the shows you subscribe to, and what else their subscribers subscribe to, which gives much better recommendations without involving any social networks.&lt;/p&gt;
+&lt;p&gt;Most importantly, it works for &lt;em&gt;all&lt;/em&gt; of Overcast’s customers.&lt;/p&gt;
+&lt;p style="text-align: center; color: #ccc;"&gt;*     *     *&lt;/p&gt;
+&lt;p&gt;As always, &lt;a href="https://apps.apple.com/us/app/overcast-podcast-player/id888422857"&gt;Overcast is free in the App Store&lt;/a&gt;. Give it a try.&lt;/p&gt;</description><pubDate>Sun, 21 Jul 2019 20:14:44 +0000</pubDate></item><item><title>苹果正在倾听</title><link>https://marco.org/2019/06/09/apple-is-listening</link><description>&lt;p&gt;2017年初，苹果公司发生了重大转变。此前几年，其产品线经历了剧烈动荡，尤其是Mac系列。对专业级Mac用户而言，那段日子颇为艰难。
+
+2013年推出的"垃圾桶"Mac Pro仅能满足前代"刨丝器"塔式机部分需求，因缺乏关键升级路径而迅速老化，其散热方案更导致GPU故障率居高不下——这一切都源于这款本不该妥协的Mac机型，竟将尺寸与外观置于性能与扩展性之上。
+
+随后几年间，Mac Pro逐渐沦为令苹果难堪的过时败笔，公司似乎毫无更新计划，用户感到被忽视与抛弃。苹果或许从中汲取了教训，但更大的警示还在后头。
+
+2016年末发布的新款MacBook Pro让苹果措手不及：Touch Bar触控栏、仅保留USB-C接口的激进设计、高昂售价以及备受争议的蝶式键盘，招致严厉批评、两极评价与高故障率。这次打击尤为沉重——Mac Pro虽属小众高端专业设备，但广受欢迎的MacBook Pro才是Mac生态的命脉。
+
+截至2016年底，苹果不仅让macOS深陷漏洞频出、缺乏维护的泥潭，更将全线"专业级"Mac产品替换为充满争议的受限设备。这些产品似乎更热衷于炫耀工业设计实力，而非真正满足用户需求。
+
+这家唯一能为我们的操作系统制造电脑的公司，似乎已无力打造优秀设备。每次更新都可能移除或破坏我们依赖的功能。最新设计充满惩罚性意味，全然不见对计算技术的礼赞。
+
+然而2017年4月，苹果毫无征兆地召开了Mac Pro圆桌会议。&lt;/p&gt;
+&lt;p&gt;They had encountered significant turbulence in the product line over the preceding years, especially Macs. It was a rough time to be a pro Mac user.&lt;/p&gt;
+&lt;p&gt;The “trash can” 2013 Mac Pro addressed only a fraction of the needs solved by the previous “cheese grater” towers, aged quickly without critical upgrade paths, and suffered from high GPU-failure rates from its cooling solution — all because its design prioritized size and appearance over performance and versatility in the one Mac model that should never make that tradeoff.&lt;/p&gt;
+&lt;p&gt;Over the next few years, it became clear that the Mac Pro was an embarrassing, outdated flop that Apple seemed to have little intention of ever updating, leaving its customers feeling unheard and abandoned. I think Apple learned a small lesson from it, but they learned a much bigger one a few years later.&lt;/p&gt;
+&lt;p&gt;The current MacBook Pro generation launched in late 2016, and I think Apple was truly caught completely by surprise when the new Touch Bar, sparse USB-C-only port offerings, high prices, and highly polarizing butterfly keyboard were met with harsh criticism, mixed reviews, and high failure rates. This one &lt;em&gt;really&lt;/em&gt; hurt: while the Mac Pro is a niche machine for the highest-end and most-specialized needs, the popular MacBook Pro is the lifeblood of the Mac.&lt;/p&gt;
+&lt;p&gt;By the end of 2016, in addition to the generally buggy, neglected state macOS seemed to be perpetually stuck in, Apple had replaced its entire “pro” Mac lineup with controversial, limiting products that seemed optimized to flex Apple’s industrial-design muscles rather than actually addressing their customers’ needs.&lt;/p&gt;
+&lt;p&gt;The only company that can make computers for our OS seemed incapable of making good computers anymore. Each update threatened to remove or break things we needed or loved. Their newest designs felt punitive, rather than feeling like a celebration of computing.&lt;/p&gt;
+&lt;p&gt;Then, in April 2017, out of nowhere, Apple held &lt;a href="https://daringfireball.net/2017/04/the_mac_pro_lives"&gt;a Mac Pro roundtable discussion&lt;/a&gt;他们向媒体宣布，正处于全面重新设计Mac Pro的早期阶段。一年后的后续简报承诺新款Mac Pro将于2019年发布，并公布了苹果内部成立的"专业工作流团队"——由真正的专业用户组成，为专业硬件和软件的发展方向提供指导。这听起来像是他们从完全不听取用户意见，转变为建立了制度化的倾听机制。此后发布的新设计Mac产品都表现卓越。
+
+我正在用来撰写本文的2017年末款iMac Pro，是我迄今为止拥有过最出色的Mac。它功能全面、性能惊人、外观精美且运行安静。其优秀程度让我可能再也不需要Mac Pro了——如果这就是唯一的新"Mac Pro"，我大体上也能接受。
+
+2018年末的Mac Mini取代了那款可怜、敷衍、被忽视的陈旧产品，成为一台实用而强大的迷你版Mac Pro。苹果本可以任其消亡，或用一款接口匮乏的华而不实之作替代，但他们却打造出如此出色的电脑，以至于我为此专门开设并终结了一个YouTube迷你频道来评测它。
+
+上周终于揭晓的2019款Mac Pro，看起来绝对堪称杀手级产品——这是塔式Mac Pro首个真正的继任者，而上一代实质性更新还要追溯到近十年前的2010年。它体型庞大、速度惊人且具备近乎夸张的可升级性——这正是Mac Pro应有的特质，远超我们所有人的预期。新款Mac Pro确实是对计算艺术的礼赞。
+
+比任何硬件发布更重要的是，macOS系统本身近期也经历了巨大的工程改进。十年来首次，Mac成为WWDC开发者大会的核心焦点，强大的新API正准备引领新一轮软件浪潮。平心而论，这个故事尚未完结。Mac Pro尚未正式上市（且价格将非常昂贵）……&lt;sup id="fnref:p8ZSWN7zM1"&gt;&lt;a href="https://marco.org/rss#fn:p8ZSWN7zM1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://techcrunch.com/2018/04/05/apples-2019-imac-pro-will-be-shaped-by-workflows/"&gt;The follow-up briefing a year later&lt;/a&gt; promised that the new Mac Pro would be released in 2019, and publicized the existence of a “Pro Workflow Team” of real pro users working inside Apple to inform the direction of their pro hardware and software.&lt;/p&gt;
+&lt;p&gt;It sounded like they’d gone from not listening to their customers at all to an institutionalized &lt;em&gt;process&lt;/em&gt; of listening. And the newly designed Macs released since then have been &lt;em&gt;great&lt;/em&gt;.&lt;sup id="fnref:p8ZSWN7zM3"&gt;&lt;a href="https://marco.org/rss#fn:p8ZSWN7zM3" rel="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;The late-2017 iMac Pro, which I’m using to write this, is the best Mac I’ve ever owned by far. It’s versatile, incredibly powerful, beautiful, and silent. It’s so good that I’ll probably never really need a Mac Pro again,&lt;sup id="fnref:p8ZSWN7zM2"&gt;&lt;a href="https://marco.org/rss#fn:p8ZSWN7zM2" rel="footnote"&gt;3&lt;/a&gt;&lt;/sup&gt; and if this was the only new “Mac Pro”, I’d be mostly fine with that.&lt;/p&gt;
+&lt;p&gt;The late-2018 Mac Mini replaced a pitiful, punitive, neglected relic with a practical, powerful mini-Mac-Pro. Apple could’ve let it die, or replaced it with a tiny, no-port marvel of uselessness, but instead, they made a computer so good that &lt;a href="https://marco.org/2018/11/06/mac-mini-2018-review"&gt;I started and ended a YouTube mini-career&lt;/a&gt; just to review it.&lt;/p&gt;
+&lt;p&gt;And the &lt;a href="https://www.apple.com/mac-pro/"&gt;2019 Mac Pro&lt;/a&gt;, finally unveiled last week, looks to be absolutely &lt;em&gt;killer&lt;/em&gt; — it’s the first true successor to the tower Mac Pro, which saw its last real update almost a &lt;em&gt;decade&lt;/em&gt; ago in 2010.&lt;sup id="fnref:p8ZSWN7zM4"&gt;&lt;a href="https://marco.org/rss#fn:p8ZSWN7zM4" rel="footnote"&gt;4&lt;/a&gt;&lt;/sup&gt; It’s big, bulky, ludicrously fast, and almost obscenely upgradeable — &lt;em&gt;exactly&lt;/em&gt; what a Mac Pro needs to be, and far better than any of us expected.&lt;/p&gt;
+&lt;p&gt;The new Mac Pro is, truly, a celebration of computing.&lt;/p&gt;
+&lt;p&gt;Even more importantly than any hardware releases, macOS itself has also seen massive engineering effort recently. For the first time in a decade, the Mac was a major focus of WWDC, with great new APIs poised to usher in a huge wave of fresh software.&lt;/p&gt;
+&lt;p&gt;To be fair, this story hasn’t ended yet. The Mac Pro isn’t actually out yet (and will be &lt;em&gt;very&lt;/em&gt;昂贵），他们仍需通过下一代产品解决MacBook Pro存在的问题（传闻令人期待），而六千美元以下独立苹果显示器的缺失，确实削弱了Mac Pro的产品叙事。
+
+但这是我多年来首次感到乐观。
+
+很难判断苹果何时在倾听。他们言辞简洁、发声稀少，只在准备就绪时开口，期间绝口不提任何进展——即便当所有人对某条产品线如着火般疾呼时。他们虽取得巨大进步，却常伴随着"果敢"的损失且永不逆转，因此因永久性改动而陷入的漫长沉默，与因修复方案尚未就绪导致的漫长沉默并无二致。
+
+但自2017年初以来，明显出现了向好的重大战略转向，如今他们的表态再清晰不过：苹果正在重新倾听，他们依然宝刀未老，Mac王者归来。
+
+根据后续信息推测，这个项目很可能是在举行圆桌会议前极短时间内启动的。
+
+↩︎  
+我将2018款MacBook Air排除在外，因为它更像是计划外的过渡产品——原本无Touch Bar的13英寸MacBook"Escape"似乎旨在取代它——这款机型在2016代产品周期中被仓促推出，而非全新设计的首发之作。即便如此，除蝶式键盘这一重大缺陷外，它整体表现相当出色。
+
+↩︎  
+这未必意味着我不会购买。
+
+↩︎  
+2010/“2012”款Mac Pro性能卓越且升级空间巨大，至今仍在广泛使用，满足着"垃圾桶"继任者无法实现或缺乏吸引力的需求。
+
+↩︎  
+MacBook Pro亦是如此。开发者——苹果认定的最大专业用户群体——常用配置是15英寸MacBook Pro外接显示器，而目前优质解决方案已然缺失。对于开发者而言，售价约1500美元的iMac同款5K独立显示器，远比面向专业视频调色师的6000美元XDR参考显示器更具实用价值。
+
+↩︎&lt;em&gt;six thousand dollars&lt;/em&gt; really hurts the Mac Pro story.&lt;sup id="fnref:p8ZSWN7zM5"&gt;&lt;a href="https://marco.org/rss#fn:p8ZSWN7zM5" rel="footnote"&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;But I’m optimistic for the first time in years.&lt;/p&gt;
+&lt;p&gt;It’s hard to tell when Apple is listening. They speak concisely, infrequently, and only when they’re ready, saying absolutely &lt;em&gt;nothing&lt;/em&gt; in the meantime, even when we’re all screaming about a product line as if it’s on fire. They make great progress, but often with &lt;a href="https://www.theverge.com/circuitbreaker/2016/6/21/11991302/iphone-no-headphone-jack-user-hostile-stupid"&gt;courageous&lt;/a&gt; losses that never get reversed, so an extended silence because we’re stuck with a change forever is indistinguishable from an extended silence because the fix isn’t ready yet.&lt;/p&gt;
+&lt;p&gt;But there has clearly been a major shift in direction for the better since early 2017, and they couldn’t be more clear now:&lt;/p&gt;
+&lt;p&gt;Apple is listening again, they’ve still &lt;em&gt;got&lt;/em&gt; it, and the Mac is back.&lt;/p&gt;
+&lt;div class="footnotes"&gt;
+&lt;hr/&gt;
+&lt;ol&gt;
+&lt;li id="fn:p8ZSWN7zM1"&gt;
+&lt;p&gt;Based on what we’ve learned since, they had likely started the project a &lt;em&gt;very&lt;/em&gt; short time before holding the roundtable. &lt;a href="https://marco.org/rss#fnref:p8ZSWN7zM1" rev="footnote"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:p8ZSWN7zM3"&gt;
+&lt;p&gt;I’m excluding the 2018 MacBook Air because it feels like a stopgap that wasn’t originally planned to exist — the no-Touch-Bar 13” MacBook “Escape” seemed intended to replace it — that was rushed into the 2016-era generation mid-cycle, rather than being the first of a new design. Even so, with the large exception of the butterfly keyboard, it’s quite good. &lt;a href="https://marco.org/rss#fnref:p8ZSWN7zM3" rev="footnote"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:p8ZSWN7zM2"&gt;
+&lt;p&gt;This doesn’t necessarily mean I won’t buy one. &lt;a href="https://marco.org/rss#fnref:p8ZSWN7zM2" rev="footnote"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:p8ZSWN7zM4"&gt;
+&lt;p&gt;The 2010/“2012” Mac Pro was so good, and so upgradeable, that it’s &lt;em&gt;still&lt;/em&gt; in surprisingly widespread use today for needs that weren’t possible or compelling on the “trashcan” successor. &lt;a href="https://marco.org/rss#fnref:p8ZSWN7zM4" rev="footnote"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:p8ZSWN7zM5"&gt;
+&lt;p&gt;And the MacBook Pro. A very common setup for developers — Apple’s largest identified segment of pro users — is a 15” MacBook Pro connected to an external monitor, for which a good solution no longer exists. Developers would be much better served by a $1,500-ish standalone version of the iMac’s 5K display than a $6,000 XDR reference monitor for professional video colorists. &lt;a href="https://marco.org/rss#fnref:p8ZSWN7zM5" rev="footnote"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description><pubDate>Mon, 10 Jun 2019 01:07:58 +0000</pubDate></item><item><title>Overcast 剪辑分享</title><link>https://marco.org/2019/04/27/overcast-clip-sharing</link><description>&lt;p&gt;分享播客从来不是件容易事，但我一直努力走在前面。自2014年1.0版本起，Overcast就支持公开分享单集链接，并可选显示推特好友推荐。
+
+播客分享长期受限于音频和链接，但如今社交网络更依赖图像与视频，尤其是Instagram。现在播客需要视频片段才能更便捷地传播。
+
+我见过某些播客网络或托管平台推出的视频片段工具，但它们从未向所有人开放，也无法覆盖所有节目。因此人们大多选择不分享播客片段——这完全可以理解，因为操作实在太困难了。
+
+直到现在。
+
+▶️
+
+↩️
+
+Stephen Hackett在Unco发表的这番见解，最终启发我找到了解决方案：让所有播客的创作者和听众都能轻松制作视频片段。
+
+通过今日发布的2019.4版本更新，现在你可以分享任意公开播客的音频或视频片段（每段最长1分钟），只需点击右上角的分享按钮。
+
+你可以生成音频片段，或根据当前Overcast主题设置制作竖屏、横屏及方形视频。
+
+为助力播客传播，我不想强加Overcast品牌标识——并非所有人都愿意在推广节目时为特定播客应用做宣传。因此"通过Overcast分享"徽标是可选项，你还可以自主添加Apple播客徽标。
+
+最后，我希望将这种应用无关性延伸至Overcast的分享链接。虽然这个设计仍需大幅现代化改造，但我已进行了小幅革新：
+
+现在，未登录访客在Overcast公开分享页面能看到其他播客应用的徽标，以及Apple播客目录中所有节目的RSS订阅入口。
+
+对我来说，推广其他应用并让非Overcast用户也能受益于其分享功能至关重要，因为相较于让开放生态的播客应用获得更多用户，我们正面临着更严峻的挑战。&lt;a href="https://itunes.apple.com/app/overcast-podcast-player/id888422857"&gt;Overcast&lt;/a&gt;, with publicly shareable episode links and optional recommendations from your Twitter friends since version 1.0 in 2014.&lt;/p&gt;
+&lt;p&gt;Podcast sharing has been limited to audio and links, but today’s social networks are more reliant on images and video, especially Instagram. Podcasts need video clips to be shared more easily today.&lt;/p&gt;
+&lt;p&gt;I’ve seen some video clips from tools specific to certain podcast networks or hosts, but they were never available to everyone, or for every show. So people mostly just haven’t shared podcast clips, understandably, because it has been too hard.&lt;/p&gt;
+&lt;p&gt;Not anymore.&lt;/p&gt;
+&lt;p style="text-align: center; margin-bottom: 2em;"&gt;
+&lt;video id="shareclipvideo" poster="http://www.marco.org/media/2019/04/shareclip.png" preload="none" style="border: 2px solid #eee; border-radius: 12px;"&gt;
+&lt;source src="http://www.marco.org/media/2019/04/shareclip-hevc.m4v" type='video/mp4; codecs="hev1.1.6.l93.b0"'/&gt;
+&lt;source src="http://www.marco.org/media/2019/04/shareclip-h264.m4v" type='video/mp4; codecs="avc1.42e01e"'/&gt;
+&lt;source src="http://www.marco.org/media/2019/04/shareclip.webm" type='video/webm; codecs="vp8.0"'/&gt;
+&lt;img src="http://www.marco.org/media/2019/04/shareclip.png" style="border: 1px solid #eee; border-radius: 12px;"/&gt;
+&lt;/video&gt;&lt;br/&gt;
+&lt;a href="https://marco.org/rss" id="shareclippp" style="color: #aaa; text-decoration: none;"&gt;▶️&lt;/a&gt;
+&lt;a href="https://marco.org/rss" style="color: #aaa; text-decoration: none;"&gt;↩️&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://overcast.fm/+LzqSd770Y/44:22"&gt;This remark on Unco&lt;/a&gt; by &lt;a href="https://www.relay.fm/people/stephenhackett"&gt;Stephen Hackett&lt;/a&gt; inspired me to finally solve this problem in a way that worked easily, for all podcasts, for both podcasters and listeners to use.&lt;/p&gt;
+&lt;p&gt;With today’s 2019.4 update&lt;sup id="fnref:pccjB7nMq1"&gt;&lt;a href="https://marco.org/rss#fn:pccjB7nMq1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;, you can now share audio or &lt;strong&gt;video&lt;/strong&gt; clips, up to a minute each, from any public podcast. Simply tap the share button in the upper-right corner.&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;
+&lt;img src="http://www.marco.org/media/2019/04/shareclip-step1.png" style="border-radius: 6px; border: 2px solid #eee; margin-right: 2%;"/&gt;&lt;img src="http://www.marco.org/media/2019/04/shareclip-step2.png" style="border-radius: 6px; border: 2px solid #eee; margin-right: 2%;"/&gt;&lt;img src="http://www.marco.org/media/2019/04/shareclip-step3.png" style="border-radius: 6px; border: 2px solid #eee;"/&gt;
+&lt;/p&gt;
+&lt;p&gt;You can generate an audio clip, or &lt;strong&gt;portrait, landscape, or square video,&lt;/strong&gt; using your current Overcast theme setting.&lt;/p&gt;
+&lt;p&gt;In order to help spread podcasts further, I didn’t want to be heavy-handed in the Overcast branding — not everyone wants to advertise for one specific podcast app when promoting their shows. So the “Shared with Overcast” badge is optional, and if you’d like, you can also add an Apple Podcasts badge.&lt;/p&gt;
+&lt;p&gt;Finally, I wanted to extend the same app-agnosticism to Overcast’s share links. While this design still needs a lot of modernization, I’ve done a small refresh:&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;
+&lt;a href="https://overcast.fm/+HfJiJmHrg"&gt;&lt;img src="http://www.marco.org/media/2019/04/shareclip-pagerefresh.png" style="border-radius: 6px; border: 2px solid #eee; margin-right: 2%;"/&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;Now, for non-logged-in visitors, Overcast’s public sharing pages display badges for other podcast apps and the RSS feed for any podcast listed in Apple Podcasts.&lt;/p&gt;
+&lt;p&gt;It’s important for me to promote other apps like this, and to make it easy even for other people’s customers to benefit from Overcast’s sharing features, because &lt;a href="https://daringfireball.net/2019/04/not_all_shows_are_podcasts"&gt;there are much bigger threats&lt;/a&gt; than letting other open-ecosystem podcast apps get a few more users.&lt;/p&gt;
+&lt;p&gt;要让播客保持开放与自由，我们就不能给那些封闭的专有服务留下可乘之机。&lt;sup id="fnref:pccjB7nMq2"&gt;&lt;a href="https://marco.org/rss#fn:pccjB7nMq2" rel="footnote"&gt;反之，我们越是丰富开放播客生态的内容、功能和易用性，那些"围墙花园"就越难吸引用户。&lt;/a&gt;&lt;/sup&gt;用户最常反映的问题之一是播客难以分享。希望Overcast新推出的片段分享功能能改变现状，其他应用也能尽快跟进类似功能。&lt;/p&gt;
+&lt;p&gt;所以&lt;/p&gt;
+&lt;p&gt;快去下载Overcast&lt;a href="https://itunes.apple.com/app/overcast-podcast-player/id888422857"&gt;开始分享你钟爱的精彩片段吧。这当然对我有益，但更重要的是，能帮你喜爱的节目赢得更多听众，并巩固这个基于开放标准的精彩播客世界。&lt;/a&gt;就像&lt;/p&gt;
+&lt;div class="footnotes"&gt;
+&lt;hr/&gt;
+&lt;ol&gt;
+&lt;li id="fn:pccjB7nMq1"&gt;
+&lt;p&gt;Slopes&lt;a href="https://getslopes.com/"&gt;和&lt;/a&gt;Castro&lt;a href="http://supertop.co/castro/"&gt;那样，我已改用基于日期的版本编号——2019.4代表2019年第四次更新，下个版本将是2019.5——部分原因是版本号已不再重要，但主要是因为我既不想把已开发的功能拖延到重大版本更新，也不愿再纠结版本号是否名副其实。&lt;/a&gt;↩︎&lt;a href="https://marco.org/rss#fnref:pccjB7nMq1" rev="footnote"&gt;YouTube能统治视频领域，是因为它在当时技术门槛极高的媒介中实现了操作简易化。若有专有服务将播客的某个难点变得极其易用，它就可能迅速崛起。&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:pccjB7nMq2"&gt;
+&lt;p&gt;我担忧的其他主要短板包括：小型节目获取赞助的困难（"播客界的AdSense"），以及内容创作与发布的复杂性（"播客界的Tumblr"）。这或许正是Spotify收购Anchor的原因。&lt;/p&gt;
+&lt;p&gt;↩︎&lt;a href="https://marco.org/rss#fnref:pccjB7nMq2" rev="footnote"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description><pubDate>Sat, 27 Apr 2019 16:41:33 +0000</pubDate></item><item><title>阴天 5.1 版，带即时搜索功能</title><link>https://marco.org/2019/01/28/overcast-instant-search</link><description>&lt;p style="text-align: center; margin-bottom: 2em;"&gt;
+&lt;video id="instantsearchvideo" loop="loop" poster="http://www.marco.org/media/2019/01/instantsearch.png" style="border: 1px solid #eee; border-radius: 12px;"&gt;
+&lt;source src="http://www.marco.org/media/2019/01/instantsearch-hevc.m4v" type='video/mp4; codecs="hev1.1.6.l93.b0"'/&gt;
+&lt;source src="http://www.marco.org/media/2019/01/instantsearch-h264.m4v" type='video/mp4; codecs="avc1.42e01e"'/&gt;
+&lt;source src="http://www.marco.org/media/2019/01/instantsearch.webm" type='video/webm; codecs="vp8.0"'/&gt;
+&lt;img src="http://www.marco.org/media/2019/01/instantsearch.png" style="border: 1px solid #eee; border-radius: 12px;"/&gt;
+&lt;/video&gt;&lt;br/&gt;
+&lt;a href="https://marco.org/rss" id="instantsearchpp" style="color: #aaa; text-decoration: none;"&gt;用户在播客应用中的首要操作是添加播客，大多数活跃的Overcast用户每月至少会新增两个播客节目。超过80%的播客是通过搜索功能添加到Overcast的，其中绝大多数是直接搜索特定播客名称（而非"商业"等泛关键词）。优秀的搜索功能是任何播客应用至关重要的差异化特性。
+
+如果目标播客需要翻越长列表才能找到，这显然不够理想——我追求的是输入最少字符后，目标结果能即刻出现在首位。通过分析多年的流行度统计数据和匿名搜索记录，我持续优化着这一体验。
+
+即时搜索是Overcast搜索功能演进的新里程碑。它结合了小型本地缓存与高度优化的搜索服务，能在您输入时——哪怕仅输入一个字母——立即呈现最相关的结果。这项核心高频功能的飞跃性提升令人欣喜，开发过程充满乐趣，我为此深感自豪。
+
+欢迎亲身体验！Overcast已在App Store免费上架。若更新后即时搜索未能立即生效，可能是缓存尚未完全下载。该缓存每周仅通过Wi-Fi更新，容量不足5MB。
+
+↩︎&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;The &lt;em&gt;first&lt;/em&gt; thing someone does in a podcast app is add some podcasts, and most active &lt;a href="https://itunes.apple.com/app/overcast-podcast-player/id888422857"&gt;Overcast&lt;/a&gt; users add at least two new podcasts each month.&lt;/p&gt;
+&lt;p&gt;Over 80% of podcasts are added to Overcast by searching, with the vast majority as searches for a specific podcast by name (rather than searching for generic keywords, such as “business”).&lt;/p&gt;
+&lt;p&gt;Good search is a critical, differentiating feature of any podcast app.&lt;/p&gt;
+&lt;p&gt;I’m not satisfied if the podcast you’re looking for is somewhere in the middle of a long list — I want it to be the first one, displayed quickly, after typing the fewest characters possible. I’ve been building toward this by analyzing years of popularity statistics and anonymous search data.&lt;/p&gt;
+&lt;p&gt;Instant Search is the next step in Overcast’s search evolution. It combines a small local cache with a highly optimized search service to give the most relevant results &lt;em&gt;immediately&lt;/em&gt; as you type, even after only a single letter.&lt;sup id="fnref:p2xPEWvo61"&gt;&lt;a href="https://marco.org/rss#fn:p2xPEWvo61" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;It’s a dramatic, delightful improvement to a critical, frequently used feature. This was a lot of fun to build, and I’m proud of it.&lt;/p&gt;
+&lt;p&gt;See for yourself! &lt;a href="https://itunes.apple.com/app/overcast-podcast-player/id888422857"&gt;Overcast is free on the App Store&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="footnotes"&gt;
+&lt;hr/&gt;
+&lt;ol&gt;
+&lt;li id="fn:p2xPEWvo61"&gt;
+&lt;p&gt;If Instant Search isn’t instant right after you update, the cache hasn’t fully downloaded yet. It’s downloaded weekly, only on Wi-Fi, and is less than 5 MB. &lt;a href="https://marco.org/rss#fnref:p2xPEWvo61" rev="footnote"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description><pubDate>Mon, 28 Jan 2019 18:14:38 +0000</pubDate></item><item><title>2018款iPad Pro</title><link>https://marco.org/2018/11/09/ipad-pro-2018-review</link><description>&lt;p&gt;观看我的视频评测，了解新款两种尺寸的iPad Pro。我没有试图面面俱到，而是聚焦于对我最重要的方面：11英寸与12.9英寸之间的尺寸选择，从一个频繁使用10.5英寸智能键盘的用户视角看智能键盘夹，新款Apple Pencil，以及为什么“完成工作”对我来说并不重要。&lt;/p&gt;
+&lt;div class="fixed-aspect-wrapper"&gt;
+&lt;div class="fixed-aspect-padder"&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=BBD_48AY0Zc"&gt;Watch my video review&lt;/a&gt; of the new iPad Pro in both sizes.&lt;/p&gt;
+&lt;p&gt;Rather than try to be comprehensive, I focused on what matters most to me: size choice between the 11” and 12.9”, the Smart Keyboard Folio from my perspective as a frequent 10.5” Smart Keyboard user, the new Pencil, and why “getting work done” isn’t important to me.&lt;/p&gt;</description><pubDate>Fri, 09 Nov 2018 20:18:04 +0000</pubDate></item><item><title>2018款Mac Mini</title><link>https://marco.org/2018/11/06/mac-mini-2018-review</link><description>&lt;p&gt;.reviewgraph { margin-top: 2em; margin-bottom: 2em; } 
+h2 { margin-top: 2em; }
+
+/* 感谢 https://stackoverflow.com/a/46272114 */
+.fixed-aspect-wrapper {
+ width: 100%; /* 期望宽度 */
+ padding: 0;
+}
+.fixed-aspect-padder {
+ height: 0;
+ padding: 0 0 56.25%; /* 期望宽高比: (高度 / 宽度) */
+ position: relative;
+ margin: 0;
+ width: auto;
+}
+.whatever-needs-the-fixed-aspect {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+}&lt;/p&gt;
+&lt;div class="fixed-aspect-wrapper"&gt;
+&lt;div class="fixed-aspect-padder"&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p style="text-align: center; margin-bottom: 1.5em;"&gt;
+&lt;b&gt;&lt;a href="https://www.youtube.com/watch?v=0ixJLLbP8Is"&gt;观看视频评测&lt;/a&gt;&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;我几乎很少想起我的Mac Mini，但它在我家扮演着至关重要的角色，既是我们的&lt;a href="https://rogueamoeba.com/audiohijack/"&gt;家庭影院混音器&lt;/a&gt;、&lt;a href="https://www.plex.tv/"&gt;Plex&lt;/a&gt;服务器、&lt;a href="https://www.fujitsu.com/us/products/computing/peripheral/scanners/scansnap/"&gt;ScanSnap&lt;/a&gt;服务器、苹果照片备份中心，也是我们&lt;a href="https://www.backblaze.com/atp.html"&gt;NAS&lt;/a&gt;的&lt;a href="https://www.synology.com/en-us"&gt;Backblaze&lt;/a&gt;主机。&lt;sup id="fnref:pQF3OuDFd1"&gt;&lt;a href="https://marco.org/rss#fn:pQF3OuDFd1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;它背面的每个接口几乎都在使用中，24小时不间断运行，稳定可靠且完全静音。&lt;/p&gt;
+&lt;p&gt;直到上周，我还以为这会是苹果制造的最后一款Mac Mini。&lt;/p&gt;
+&lt;p&gt;当更新版Mac Mini即将上市的传闻开始流传时，我做了最坏的打算：就算真的推出，也只会是个搭载低速超低功耗处理器、接口寥寥无几的小盒子，为了追求小巧而牺牲多功能性。&lt;/p&gt;
+&lt;p&gt;考虑到2014年那次让关键性能大幅退步却无实质改进的Mac Mini更新，这种担忧并非没有道理。当时以及后续&lt;strong&gt;四年&lt;/strong&gt;未更新的情况都清晰表明，苹果对Mac Mini及其用户群极不重视。&lt;/p&gt;
+&lt;p&gt;但现在不同了。&lt;/p&gt;
+&lt;p&gt;2018款Mac Mini真的来了，而且惊艳夺目。&lt;/p&gt;
+&lt;p&gt;它几乎没有退步之处，却在几乎所有方面都更出色，终于将Mac Mini带入了现代纪元。&lt;/p&gt;
+&lt;p style="text-align: center; margin-top: 1.5em; margin-bottom: 1.5em;"&gt;
+&lt;img src="http://www.marco.org/media/2018/11/macmini-ports.jpg" style="border: 1px solid #ccc;"/&gt;
+&lt;br/&gt;
+&lt;small&gt;接口！令人赞叹的丰富接口！&lt;/small&gt;
+&lt;/p&gt;
+&lt;p&gt;首要亮点——在当下尤其是对于这款产品而言至关重要——是它相比前代&lt;em&gt;毫不逊色&lt;/em&gt;的功能性与多用途性，包括琳琅满目的接口配置。如果旧款能满足你的需求，新款不仅能完美胜任，还能以更快的速度、更少的转接设备实现更优表现。&lt;sup id="fnref:pQF3OuDFd2"&gt;&lt;a href="https://marco.org/rss#fn:pQF3OuDFd2" rel="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;新款Mac Mini尺寸与旧款相同，这是正确的取舍。我认识的Mac Mini用户中，没人真正需要它变得更小，反而很多人不希望它减少接口或降低性能。
+
+Mac Mini的核心价值在于极致多功能性，能够满足其他Mac因形态差异和设计取向而无法覆盖的多样化边缘需求。它应该是实用工具，而非设计宣言（虽然我已厌倦千篇一律的深空灰，但不得不承认新配色确实惊艳）。
+
+起售价涨至800美元令人遗憾，但部分原因是配置全面升级：处理器性能大幅提升，架构更先进（搭载T2芯片等重大革新），全系标配固态硬盘。不过从绝对值来看，这仍是款昂贵的产品。
+
+我评测的顶配版本（6核i7/32GB内存/1TB固态硬盘）售价达2499美元（其中固态硬盘占很大成本）。若在几年前，这样的价格对Mac Mini而言堪称疯狂，但如今它已能瞄准更高端的市场。与同等配置的iMac和MacBook Pro相比，定价总体合理。
+
+除一点不足外，这完全能成为专业级桌面工作站。
+
+性能测试最让我震撼的是其惊人的运行速度。虽然测试的是最高配CPU，但表现确实令人惊叹。
+
+Geekbench跑分表现强劲：i7版本单核性能5912分，超越当前所有Mac机型；多核成绩约24740分，仅次于iMac Pro和2013款12核Mac Pro。
+
+"性能堪比专业级Mac"本不是我對Mac Mini更新的预期，但现实确实如此。
+
+随着近年来CPU进步速度显著放缓，苹果通过其他途径提升性能：T2芯片在多个领域表现出色……&lt;/p&gt;
+&lt;p&gt;The point of the Mac Mini is to be as versatile as possible, addressing lots of diverse and edge-case needs that the other Macs can’t with their vastly different form factors and more opinionated designs. The Mac Mini needs to be a utility product, not a design statement. (Although, even as someone tired of space-gray everything, I have to admit that the Mini looks fantastic in its new color.)&lt;/p&gt;
+&lt;p&gt;The base price has increased to $800, and that’s not great. It’s partly justifiable because it’s much higher-end than before — the processors are &lt;strong&gt;much&lt;/strong&gt; better, the architecture is higher-end and includes big advances like the T2, and all-SSD is standard — but it’s still an expensive product in absolute terms.&lt;/p&gt;
+&lt;p&gt;Apple lent me a high-end configuration for review — 6-core i7, 32 GB RAM, 1 TB SSD — which would cost $2499 (much of which is the SSD). This would’ve sounded crazy to spend on a Mac Mini a few years ago, but when it’s specced up like this, it’s targeting a much higher-end market than the previous model could. Compared to similarly specced iMacs and MacBook Pros, the pricing is generally reasonable.&lt;/p&gt;
+&lt;p&gt;And this can truly be a pro desktop, with just one exception.&lt;/p&gt;
+&lt;h2&gt;Benchmarks&lt;/h2&gt;
+&lt;p&gt;The big story to me is how incredibly &lt;strong&gt;fast&lt;/strong&gt; this thing is. Granted, I’m testing the fastest CPU offered, but &lt;strong&gt;damn&lt;/strong&gt;.&lt;/p&gt;
+&lt;p class="reviewgraph" style="text-align: center;"&gt;
+&lt;a href="http://www.marco.org/media/2018/11/macmini-geekbench.png"&gt;&lt;img src="http://www.marco.org/media/2018/11/macmini-geekbench.png"/&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.geekbench.com/"&gt;Geekbench&lt;/a&gt; results are very strong. The i7 Mac Mini scored better on single-core performance than &lt;a href="https://browser.geekbench.com/mac-benchmarks"&gt;every other Mac today (!)&lt;/a&gt; at 5912, and its multi-core score of nearly 24,740 beats every Mac to date except the iMac Pro and the old 12-core 2013 Mac Pro.&lt;/p&gt;
+&lt;p&gt;“Performance-competitive with pro Macs” was not high on my prediction list for a Mac Mini update, but here we are.&lt;/p&gt;
+&lt;p class="reviewgraph" style="text-align: center;"&gt;
+&lt;a href="http://www.marco.org/media/2018/11/macmini-xcode.png"&gt;&lt;img src="http://www.marco.org/media/2018/11/macmini-xcode.png"/&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;As the rate of CPU advancement has slowed dramatically over the last few years, Apple has found other ways to improve performance. The T2 is great for lots of &lt;a href="https://techcrunch.com/2018/10/30/apple-t2-security-chip-microphone-eavesdropping/"&gt;安全功能是我如今购买新Mac的必备理由——但这里展现的是它作为极速固态硬盘控制器的强大实力。
+
+这款Mac Mini编译我的应用Overcast时，速度远超我那台顶配的13英寸MacBook Pro，几乎追平10核iMac Pro！虽然仅凭6核处理器无法全程满载运行——它会在固态硬盘与内存间高速调度时突发性满负荷——但作为开发机其表现堪称神速。
+
+Blackmagick磁盘速度测试显示，其原始固态硬盘性能与迄今所有T2芯片Mac完全一致，较四年前的Mac Mini则是巨大飞跃。
+
+鉴于很多用户将Mac Mini用作媒体服务器或Plex服务器，我使用Handbrake进行了H.265转码测试。该测试会使所有CPU核心满载，结果果然与核心数成正比：6核Mac Mini远超4核MacBook Pro，而10核iMac Pro则更胜一筹。
+
+但若应用支持T2芯片的硬件HEVC编码器，速度还能大幅提升。由于所有T2芯片性能一致，从2018款MacBook Air到iMac Pro，所有T2设备都能以相同速度进行HEVC编码，且全程静音运行——因为它们几乎不占用CPU资源。
+
+我未能察觉Handbrake编码与T2硬件加速编码视频间的画质差异。
+
+唯一短板在于英特尔集成显卡。日常使用绰绰有余，但若工作需要强大GPU性能，选择iMac或15英寸MacBook Pro更为合适，或考虑外接显卡方案。
+
+多款Mac产品线依赖英特尔集成显卡来满足物理结构与散热需求，但英特尔近年来在提供适合Mac的CPU-GPU组合方案上表现极不稳定。&lt;/a&gt; reasons — I wouldn’t buy a new Mac these days without it — but what you’re seeing here is its strength as a ridiculously fast SSD controller.&lt;/p&gt;
+&lt;p&gt;This Mac Mini builds my app, &lt;a href="https://overcast.fm/"&gt;Overcast&lt;/a&gt;, &lt;strong&gt;much&lt;/strong&gt; faster than my maxed-out 13-inch MacBook Pro, and about as quickly as my 10-core iMac Pro! Obviously, to achieve this result with only 6 cores, it’s not maxing out the CPU 100% of the time — it hits it in bursts while juggling a lot between the SSD and memory — but the result is that it’s incredibly fast as a development machine.&lt;/p&gt;
+&lt;p class="reviewgraph" style="text-align: center;"&gt;
+&lt;a href="http://www.marco.org/media/2018/11/macmini-blackmagic.png"&gt;&lt;img src="http://www.marco.org/media/2018/11/macmini-blackmagic.png"/&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;The &lt;a href="https://itunes.apple.com/us/app/blackmagic-disk-speed-test/id425264550"&gt;Blackmagick Disk Speed Test&lt;/a&gt; shows that the raw SSD performance is effectively identical to the other T2 Macs shipped to date, and a huge improvement over the four-year-old Mac Mini.&lt;/p&gt;
+&lt;p class="reviewgraph" style="text-align: center;"&gt;
+&lt;a href="http://www.marco.org/media/2018/11/macmini-ffmpeg.png"&gt;&lt;img src="http://www.marco.org/media/2018/11/macmini-ffmpeg.png"/&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;A lot of people use Mac Minis as media or Plex servers, so I ran an H.265 transcoding test with &lt;code&gt;ffmpeg&lt;/code&gt;. This maxes out all CPU cores, so the results predictably scale with the core count: the 6-core Mac Mini was much faster than the 4-core MacBook Pro, but the 10-core iMac Pro beat them both.&lt;/p&gt;
+&lt;p&gt;But if an app supports the T2’s hardware HEVC encoder,&lt;sup id="fnref:pQF3OuDFdhevc"&gt;&lt;a href="https://marco.org/rss#fn:pQF3OuDFdhevc" rel="footnote"&gt;3&lt;/a&gt;&lt;/sup&gt; it can go &lt;strong&gt;much&lt;/strong&gt; faster. And since every T2 so far performs identically, all T2 machines — from the 2018 MacBook Air to the iMac Pro — encode HEVC this way at the same speed, and all in complete silence because they’re barely touching the CPU.&lt;/p&gt;
+&lt;p&gt;I wasn’t able to notice any quality differences between the videos encoded with &lt;code&gt;x265&lt;/code&gt; and the T2’s hardware acceleration.&lt;/p&gt;
+&lt;p class="reviewgraph" style="text-align: center;"&gt;
+&lt;a href="http://www.marco.org/media/2018/11/macmini-opencl.png"&gt;&lt;img src="http://www.marco.org/media/2018/11/macmini-opencl.png"/&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;The only spec that lets it down is the Intel GPU. It’s fast enough for common tasks, but if your workload benefits from a strong GPU, you’re better off going for an iMac or a 15-inch MacBook Pro, or considering an eGPU setup.&lt;/p&gt;
+&lt;p&gt;Many Mac lines rely on Intel’s integrated GPUs to fit their physical and thermal needs, and Intel has been incredibly inconsistent over the last few years in delivering updated CPU-GPU combinations that would be suitable for many Macs.&lt;/p&gt;
+&lt;p&gt;我们常因某些Mac产品线缺乏更新而责怪英特尔的CPU路线图（或苹果的漠不关心），但英特尔的GPU供应往往是更严重的问题。这是英特尔的错，却是苹果的难题——而苹果将这一难题直接转嫁给了用户。&lt;/p&gt;
+&lt;p&gt;但仅此而已——除了价格，这是唯一的缺点。GPU表现糟糕，其他方面都很出色。&lt;/p&gt;
+&lt;p&gt;如果你不需要强大的GPU——说实话，大多数Mac Mini的使用场景都不需要——那么即便基础配置，它也是一款可靠的全能Mac选择。若升级配置，它更像是一台迷你Mac Pro。&lt;/p&gt;
+&lt;p&gt;一些零散的笔记，抱歉借用了&lt;a href="https://daringfireball.net/2018/11/the_2018_ipad_pros"&gt;格鲁伯的&lt;/a&gt;格式：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;空闲时非常安静。i7型号在高负载下风扇噪音确实明显可闻：与现代MacBook Pro相当，但更安静一些。&lt;/p&gt;
+&lt;p&gt;有趣的是，我&lt;a href="https://marco.org/2018/07/31/mac-low-power-mode"&gt;关闭了睿频加速&lt;/a&gt;以模拟基础i3型号的散热表现，无论怎样操作都无法让风扇噪音明显增大。那些在高负载下优先考虑静音的用户或许应该选择i3型号。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;这是首款非iMac的桌面Mac，能够以全画质连接5K显示器，无需双线缆或其他不可靠的变通方案。我们终于有了iMac之外的5K视网膜Mac选择！遗憾的是，目前仍没有出色的独立5K显示器。（LG UltraFine并非理想之选。）&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;又可以升级内存了！我&lt;strong&gt;从未&lt;/strong&gt;预料到这一点，相信这是&lt;strong&gt;长久以来&lt;/strong&gt;苹果产品在直接迭代中首次变得&lt;strong&gt;更具&lt;/strong&gt;升级与维护空间。&lt;/p&gt;
+&lt;p&gt;如果可能，我仍建议直接从苹果购买合适内存容量的版本，因为第三方内存历来存在可靠性问题且责任难以界定，但若你需要升级，现在机会回来了。（内部的安全螺丝——TR6规格？——仍需&lt;a href="https://www.ifixit.com/"&gt;iFixit&lt;/a&gt;专用工具才能处理。）&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;难以置信Mac Mini如此出色，甚至无法说"再次"因为它从未如此优秀过&lt;/h2&gt;
+&lt;p&gt;新款Mac Mini本可能糟糕得多。回顾过去，它曾多次显得不受重视、被冷落，甚至堪称惩罚性产品——这与苹果另一款无头台式机Mac Pro的情况如出一辙。曾几何时，苹果似乎对制造Mac（尤其是台式机）失去了兴趣。
+
+去年，随着绝对惊艳的iMac Pro问世，苹果向我们展示了潜在的新方向。它堪称完美——既是对Mac及其专业桌面用户的情书，也标志着公司对Mac的态度发生了积极转变。
+
+直到现在，我们仍不确定iMac Pro的成功是否只是侥幸。但如今我们有了另一个佐证：苹果最近推出的两款台式机都令人惊叹。鉴于此，我相信明年的新款Mac Pro问世时，苹果定会不负众望。
+
+新款Mac Mini是一次出色的更新，出乎意料地降临到这款我们认为永远不会再更新的产品上。
+
+当然，鉴于苹果在Mac Mini上的历史记录，这次更新后可能再无下文。这要么是苹果重新重视Mac Mini、开启定期更新系列的第一章，要么就是Mac Mini的绝唱，几年后我们都将囤积这款产品。目前尚不得而知。
+
+但就今天而言，这是一次出色的更新，一款能满足多种潜在需求的优秀全能机型，更是一台绝妙的小型电脑。
+
+我通过iSCSI实现此功能，但不推荐这样做。几乎每次macOS更新都会导致其损坏，需要新的200多美元的iSCSI启动器——这正是我的Mac Mini仍运行Sierra系统的原因。不久的将来，我打算直接将一些大型外置硬盘连接到Mac Mini，不再使用NAS。
+
+除非你使用光纤音频、音频输入或SD卡读卡器。（糟糕，我正使用光纤输入输出。）
+
+可以通过指定
+
+而非
+
+来实现。我还需要
+
+才能使任一编解码器输出的MP4文件在macOS上可播放。
+
+Compressor
+
+在编码8位HEVC时使用T2的HEVC加速功能，但10位编码时不使用。&lt;/p&gt;
+&lt;p&gt;Last year, with the introduction of the absolutely stellar iMac Pro, Apple showed us a glimpse of a potential new direction. It was downright perfect — a love letter to the Mac and its pro desktop users, and a clear turnaround in the way the company views the Mac for the better.&lt;/p&gt;
+&lt;p&gt;We didn’t know until now whether the iMac Pro’s greatness was a fluke. But now we have another data point: the last two desktops out of Apple have been incredible. After this, I have faith that they’re going to do the new Mac Pro justice when it finally ships next year.&lt;/p&gt;
+&lt;p&gt;The new Mac Mini is a great update, out of nowhere, to a product we thought would never be updated again.&lt;/p&gt;
+&lt;p&gt;Of course, with Apple’s track record on the Mac Mini, it may never be updated after this. This is either the first in a series of regular updates with which Apple proves that they care about the Mac Mini again, or it’s the last Mac Mini that will ever exist and we’ll all be hoarding them in a few years. We can’t know yet.&lt;/p&gt;
+&lt;p&gt;But today, this is a great update, a wonderful all-arounder for lots of potential needs, and just a fantastic little computer.&lt;/p&gt;
+&lt;div class="footnotes"&gt;
+&lt;hr/&gt;
+&lt;ol&gt;
+&lt;li id="fn:pQF3OuDFd1"&gt;
+&lt;p&gt;I do this via iSCSI, but I wouldn’t recommend it. It breaks and requires a new $200+ iSCSI initiator with almost every macOS update — which is why my Mac Mini still runs Sierra. In the near future, I’ll just directly attach some giant external hard drives to the Mac Mini and stop using the NAS. &lt;a href="https://marco.org/rss#fnref:pQF3OuDFd1" rev="footnote"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:pQF3OuDFd2"&gt;
+&lt;p&gt;Unless you used optical audio, audio input, or the SD-card reader. (Shit, I use optical in and out.) &lt;a href="https://marco.org/rss#fnref:pQF3OuDFd2" rev="footnote"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:pQF3OuDFdhevc"&gt;
+&lt;p&gt;&lt;code&gt;ffmpeg&lt;/code&gt; can do it by specifying &lt;code&gt;-c:v hevc_videotoolbox&lt;/code&gt; instead of &lt;code&gt;-c:v x265&lt;/code&gt;. I also needed &lt;code&gt;-vtag hvc1&lt;/code&gt; for the output MP4s with either codec to be playable on macOS.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://itunes.apple.com/us/app/compressor/id424390742"&gt;Compressor&lt;/a&gt; uses the T2’s HEVC acceleration when encoding 8-bit HEVC, but not 10-bit. &lt;a href="https://marco.org/rss#fnref:pQF3OuDFdhevc" rev="footnote"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description><pubDate>Tue, 06 Nov 2018 11:01:39 +0000</pubDate></item><item><title>为什么在信息图表上读取时间很困难</title><link>https://marco.org/2018/10/09/infograph-legibility</link><description>&lt;p&gt;.watchimg, .roundwatch {
+ border-width: 0;
+ max-width: 30%;
+ margin-left: 0.5%;
+ margin-right: 0.5%;
+}
+
+.roundwatch {
+ max-width: 26%;
+ border: 8px solid #000;
+ border-radius: 20%;
+ border-color: #000;
+ background-color: #000;
+}
+p.roundwatches { margin-top: 1.5em; margin-bottom: 1.5em; }
+p.roundwatches small { opacity: 0.5; }&lt;/p&gt;
+&lt;p&gt;快，现在几点了？&lt;/p&gt;
+&lt;p class="roundwatches" style="text-align: center;"&gt;
+&lt;img class="roundwatch" src="http://www.marco.org/media/2018/10/watch-infograph-default.jpg"/&gt;
+&lt;/p&gt;
+&lt;p&gt;如果你需要比平时多花一点时间才能看清苹果手表新款默认表盘"信息图表"上的时间，别担心，不止你一个人这样：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://daringfireball.net/2018/09/apple_watch_series_4"&gt;约翰·格鲁伯觉得它"过于杂乱"&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://sixcolors.com/post/2018/10/apple-watch-series-4-review-the-invisible-redesign/"&gt;杰森·斯内尔认为它"美观且功能丰富"，但缺少小时数字&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://9to5mac.com/2018/10/04/customizing-infograph-apple-watch-series-4/"&gt;扎克·霍尔移除了几乎所有元素以提升易读性&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://david-smith.org/blog/2018/10/05/considering-low-contrast-complications/"&gt;大卫·史密斯甚至自己编写了复杂功能组件（！）来增强对比度&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;我虽然把自己的表盘调到了尚可接受的程度，但"实用型"表盘&lt;em&gt;在快速瞥视读时方面&lt;/em&gt;依然具有压倒性的易读优势：&lt;/p&gt;
+&lt;p class="roundwatches" style="text-align: center;"&gt;
+&lt;img class="roundwatch" src="http://www.marco.org/media/2018/10/watch-infograph-mine.png" title="My Infograph configuration"/&gt;
+&lt;img class="roundwatch" src="http://www.marco.org/media/2018/10/watch-utility-mine.png" title="My Utility configuration"/&gt;
+&lt;br/&gt;&lt;small&gt;信息图表表盘，实用型表盘&lt;/small&gt;
+&lt;/p&gt;
+&lt;p&gt;信息图表表盘存在两大核心问题：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;表盘中央的复杂功能组件降低了表盘与指针的对比度，常常导致指针难以辨认。虽然通过自定义设置可以避免这个问题，但默认配置本应更为克制。&lt;/li&gt;
+&lt;li&gt;辨别当前小时需要耗费过多认知精力（因而耗时）。这纯粹是设计缺陷。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;虽然带有1-12数字显示的模拟表盘读时更快捷，但许多人更偏爱使用线条、圆点或其他形状作为小时标记的简洁设计（钟表界称这些为"时标"）。&lt;/p&gt;
+&lt;p&gt;事实上，设计具有高可读性的时标表盘完全可行，且能呈现多样风格。以下是一些经典与现代的典范：&lt;sup id="fnref:pMiV5VkCX1"&gt;&lt;a href="https://marco.org/rss#fn:pMiV5VkCX1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p class="roundwatches" style="text-align: center;"&gt;
+&lt;img class="watchimg" src="http://www.marco.org/media/2018/10/watch-classic1-submariner.jpg" title="Rolex Submariner"/&gt;
+&lt;img class="watchimg" src="http://www.marco.org/media/2018/10/watch-classic2-nautilus.jpg" title="Patek Philippe Nautilus"/&gt;
+&lt;img class="watchimg" src="http://www.marco.org/media/2018/10/watch-classic3-saxonia.jpg" title="A. Lange &amp;amp; Sohne Saxonia"/&gt;
+&lt;img class="watchimg" src="http://www.marco.org/media/2018/10/watch-modern1-cocktailtime.jpg" title="Seiko Presage SARY085"/&gt;
+&lt;img class="watchimg" src="http://www.marco.org/media/2018/10/watch-modern2-da44.jpg" title="Damasko DA44"/&gt;
+&lt;img class="watchimg" src="http://www.marco.org/media/2018/10/watch-modern3-metro.jpg" title="Nomos Metro"/&gt;
+&lt;/p&gt;
+&lt;p&gt;纵观各类品牌、风格与价位，几个关键设计原则清晰可见：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;12点位置（通常包括3/6/9点）的时标更为突出&lt;/li&gt;
+&lt;li&gt;小时时标尺寸远大于分钟刻度&lt;/li&gt;
+&lt;li&gt;时针尖端几乎触及时标边缘&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;所有这些设计都通过尽可能快速、轻松地识别当前指示的小时（并最小化差一错误的机会）来提高可读性，首先通过12点标记帮助眼睛定位当前旋转方向，然后通过最小化时针与其所指示刻度之间的距离来实现。&lt;/p&gt;
+&lt;p&gt;Apple Watch的模拟表盘&lt;em&gt;全部&lt;/em&gt;未能遵循这些原则：&lt;sup id="fnref:pMiV5VkCX2"&gt;&lt;a href="https://marco.org/rss#fn:pMiV5VkCX2" rel="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p class="roundwatches" style="text-align: center;"&gt;
+&lt;img class="roundwatch" src="http://www.marco.org/media/2018/10/watch-color.png" title="Color"/&gt;
+&lt;img class="roundwatch" src="http://www.marco.org/media/2018/10/watch-simple.png" title="Simple"/&gt;
+&lt;img class="roundwatch" src="http://www.marco.org/media/2018/10/watch-explorer.png" title="Explorer (no numbers)"/&gt;
+&lt;br/&gt;&lt;small&gt;彩色、简约、探险家&lt;/small&gt;
+&lt;/p&gt;
+&lt;p&gt;彩色、简约和探险家表盘具有易于区分的小时刻度，但探险家表盘的刻度距离时针稍远。&lt;/p&gt;
+&lt;p&gt;它们都没有突出的12点标记来辅助定位。&lt;/p&gt;
+&lt;p&gt;探险家表盘完全省略了分钟标记，而简约表盘令人困惑地使用30秒标记代替分钟轨道，使得读时更加困难。我从未见过其他手表将亚分钟标记设计得与分钟标记完全相同。&lt;/p&gt;
+&lt;p class="roundwatches" style="text-align: center;"&gt;
+&lt;img class="roundwatch" src="http://www.marco.org/media/2018/10/watch-activity-analog.png" title="Activity Analog"/&gt;
+&lt;img class="roundwatch" src="http://www.marco.org/media/2018/10/watch-utility-minimal.png" title="Utility (no numbers)"/&gt;
+&lt;img class="roundwatch" src="http://www.marco.org/media/2018/10/watch-infograph-minimal.png" title="Infograph"/&gt;
+&lt;br/&gt;&lt;small&gt;活动模拟、实用型和无复杂功能的图文&lt;/small&gt;
+&lt;/p&gt;
+&lt;p&gt;活动模拟表盘的小时刻度模糊且远离时针，中央的活动圆环在进展过程中迅速削弱了指针与表盘的对比度。&lt;/p&gt;
+&lt;p&gt;实用型表盘（在未配置数字时）通过粗体小时刻度略微提高了可读性，但这些刻度仍然太小且距离时针太远，并且12点刻度没有特殊区分。&lt;/p&gt;
+&lt;p&gt;图文表盘类似，但更糟糕：其小时刻度更加模糊，使用30秒标记代替分钟标记，且默认的日历显示会覆盖顶部三个刻度。（至少你能分辨出哪边是上方。）&lt;/p&gt;
+&lt;p&gt;即使几乎没有复杂功能，图文表盘的基本设计也存在时间可读性差的问题。&lt;/p&gt;
+&lt;p&gt;当按照苹果似乎预期的方式使用时，快速读时变得非常困难，以至于许多人实际上建议将&lt;em&gt;数字&lt;/em&gt;时间设置为中央复杂功能，这样一来指针反而成了累赘，我们也不应再假装这是一个模拟表盘了。&lt;/p&gt;
+&lt;p class="roundwatches" style="text-align: center;"&gt;
+&lt;img alt="Infograph with digital time" class="roundwatch" src="http://www.marco.org/media/2018/10/watch-infograph-digital.jpg"/&gt;
+&lt;/p&gt;
+&lt;p&gt;苹果提供了丰富的表盘选择固然很好，但大多数表盘充其量只是昙花一现的新奇设计。Apple Watch问世三年历经四代更新，我认识的几乎所有用户至今仍在反复使用那几个"经典款"表盘。
+
+若你需要数字显示且支持复杂功能，模块化表盘是唯一可靠的选择（Series 4用户可选择图文模块表盘）。
+
+若你需要带数字刻度的模拟表盘，实用型表盘是唯一选择。若想要不带数字的刻度表盘——这可能是全球最主流的腕表风格——目前并没有理想方案。
+
+纵观苹果已推出的表盘设计，初看选择丰富，实则风格局限。我们被限制在苹果设计的少数优质表盘中，因为第三方开发者无权创建自定义表盘。
+
+Apple Watch是科技奇迹，本质是微型计算机，理论上可以呈现任何视觉内容。既然没有机械或物理限制，任何人都能设计出可行的表盘方案，这种创造力、风格与实用性的结合远非单家公司能够企及。
+
+但苹果封锁了这种可能。当腕表时尚本应迎来个性化表达与创新爆发时，现实却是同质化加剧——会议室里越来越多人佩戴着相同款式、使用相同表盘的智能手表。
+
+苹果，请打开这扇门。
+
+你甚至能辨认出Apple Watch指针造型源自哪款经典腕表，这绝非巧合。
+
+注1：针对提供多种时分针样式的表盘，我选择了无数字时标的最佳版本，并关闭了多数复杂功能。
+
+注2：特别致敬我最爱的数字表盘——太阳刻度盘。&lt;/p&gt;
+&lt;p&gt;If you want digital time with a good deal of complications, Modular is your only good choice (or Infograph Modular on the Series 4).&lt;sup id="fnref:pMiV5VkCX3"&gt;&lt;a href="https://marco.org/rss#fn:pMiV5VkCX3" rel="footnote"&gt;3&lt;/a&gt;&lt;/sup&gt; If you want analog time with numerals, Utility is the only good option. If you want indices instead of numerals — probably the most popular analog watch style in the world — I don’t think there &lt;em&gt;is&lt;/em&gt; a good option.&lt;/p&gt;
+&lt;p&gt;By now, we’ve seen Apple’s design range that they’re willing to ship as Watch faces, and while it seems broad at first glance, it’s actually pretty narrow.&lt;/p&gt;
+&lt;p&gt;And we’re restricted to the handful of good watch faces that Apple makes, because other developers aren’t allowed to make custom Watch faces.&lt;/p&gt;
+&lt;p&gt;The Apple Watch is an amazing feat of technology. It’s a &lt;em&gt;computer&lt;/em&gt;. It can display &lt;em&gt;anything&lt;/em&gt;. With no mechanical or physical limitations to hold us back, &lt;em&gt;any&lt;/em&gt; watch-face design from &lt;em&gt;anyone&lt;/em&gt; could plausibly be built, enabling a range of creativity, style, and usefulness that no single company could ever design on its own.&lt;/p&gt;
+&lt;p&gt;But they won’t let us. In a time when personal expression and innovation in watch fashion should be booming, they’re instead being eroded, as everyone in the room is increasingly wearing the same watch with the same two faces.&lt;/p&gt;
+&lt;p&gt;Open this door, Apple.&lt;/p&gt;
+&lt;div class="footnotes"&gt;
+&lt;hr/&gt;
+&lt;ol&gt;
+&lt;li id="fn:pMiV5VkCX1"&gt;
+&lt;p&gt;You can even see which model the Apple Watch’s hand shape comes from, which &lt;a href="https://www.hodinkee.com/articles/jony-ive-apple-watch-collector-hodinkee-magazine"&gt;is not a coincidence&lt;/a&gt;. &lt;a href="https://marco.org/rss#fnref:pMiV5VkCX1" rev="footnote"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:pMiV5VkCX2"&gt;
+&lt;p&gt;For Apple Watch faces offering multiple hour/minute styles, I selected the best one that didn’t have hour numerals, and most complications were disabled. &lt;a href="https://marco.org/rss#fnref:pMiV5VkCX2" rev="footnote"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:pMiV5VkCX3"&gt;
+&lt;p&gt;Special shout-out to my favorite digital face, &lt;a href="https://www.instagram.com/p/BoDR0MijPP8/?taken-by=marcoarment"&gt;Solar&lt;/a&gt;. &lt;a href="https://marco.org/rss#fnref:pMiV5VkCX3" rev="footnote"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description><pubDate>Tue, 09 Oct 2018 18:34:42 +0000</pubDate></item><item><title>阴天5：手表、Siri、搜索与重新设计！</title><link>https://marco.org/2018/09/17/overcast5</link><description>&lt;p&gt;.screenshot1 {
+ border: 1px solid #ccc;
+ max-width: 95%;
+}
+.screenshot3 {
+ border: 1px solid #ccc;
+ max-width: 30%;
+ margin-left: 1%;
+ margin-right: 1%;
+}
+small { opacity: 0.5; }
+p.screenshots { margin-top: 1.5em; margin-bottom: 1.5em; }&lt;/p&gt;
+&lt;p class="screenshots" style="text-align: center;"&gt;&lt;img class="extrawide" src="http://www.marco.org/media/2018/09/overcast5-phone.jpg"/&gt;&lt;br/&gt;
+&lt;small&gt;抱歉电量不足。今天太忙了。&lt;/small&gt;
+&lt;/p&gt;
+&lt;p&gt;这一切要从watchOS的音量控件说起。&lt;/p&gt;
+&lt;p&gt;要知道，&lt;a href="https://overcast.fm/"&gt;Overcast&lt;/a&gt;之前的Apple Watch应用实在糟糕。虽然我尽力利用了watchOS 1-4的功能，但始终无法满足用户真正的需求：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;脱离iPhone的独立播客播放功能&lt;/strong&gt;。我曾通过一些蹩脚的变通方案短暂提供过这个功能，但&lt;a href="https://marco.org/2017/08/10/removed-send-to-watch"&gt;最终不得不取消&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;手表端的音量控制&lt;/strong&gt;——随着AirPods的普及，这项功能愈发重要。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;正因如此，当六月苹果在watchOS 5发布会上公布了我愿望清单里&lt;a href="https://marco.org/2017/09/24/what-watch-podcast-apps-need"&gt;打造优秀播客应用所需的大部分系统改进&lt;/a&gt;时，我几乎要欢呼雀跃。&lt;/p&gt;
+&lt;p&gt;经过一个忙碌的夏天，Overcast终于重新支持Apple Watch独立播放功能，而且这次体验真的很棒！&lt;/p&gt;
+&lt;p class="screenshots" style="text-align: center;"&gt;&lt;img class="extrawide" src="http://www.marco.org/media/2018/09/overcast5-watch.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;当然还不完美：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;不支持蜂窝网络。&lt;/strong&gt;苹果尚未在watchOS中提供良好的蜂窝音频流媒体方案，而现有的糟糕方案并不实用。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;播客传输到手表的速度很慢。&lt;/strong&gt;Overcast会压缩文件以减少传输时间，但传输时机（及速度）完全由watchOS为保护电量严格控制。传输过程仍可能无限期等待或静默失败。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;像我这样的程序员无法接受事物仅仅因为&lt;em&gt;缓慢&lt;/em&gt;就束手无策，因此我决定让传输速度变得无关紧要——如果传输发生在用户睡眠时，谁会在意速度呢！&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;手表自动同步&lt;/strong&gt;功能会抓住一切机会，自动将你最新的播客推送到Apple Watch。&lt;sup id="fnref:plLbts5im1"&gt;&lt;a href="https://marco.org/rss#fn:plLbts5im1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;你仍可通过单集节目的队列按钮（&lt;span style="color: #fc7e0f;"&gt;≡&lt;sup&gt;+&lt;/sup&gt;&lt;/span&gt;）手动发送节目，但根据我的测试，这从未成为必要。只需戴上手表出发，它早已为你备好充足的播客内容——无需任何手动同步操作，也不必忍受缓慢的传输等待。&lt;/p&gt;
+&lt;p&gt;Overcast 5.0.1 更新将在几天后发布，它让手表传输功能更加可靠。（抱歉，5.0 版本审核通过后，我找到了更好的方法。）
+
+还有
+
+手表表冠音量控制！
+
+终于，在 Apple Watch 上使用 Overcast 的最佳方式不再是删除它，让“正在播放”应用取而代之。
+
+这就是我另一半夏季工作量的开始。
+
+watchOS 音量小部件的自定义选项极少：只能调整圆圈的颜色。我无法将线条宽度稍微调窄，以匹配 Overcast 其他部分的细线美学风格。但那种 iOS 7 时代的细线美学看起来已经过时了，我早就想进行一次设计更新了。
+
+我决定开始逐屏现代化应用的设计。一个夏天无法完成所有工作，所以我从最需要改进的屏幕开始：“正在播放”。
+
+这是 Overcast 4 中之前的“正在播放”屏幕。
+
+之前设计的最大问题是中央的艺术作品区域，它是一个可滚动的“页面”集合，左侧屏幕外是速度和效果控制，右侧屏幕外是剧集说明。
+
+从来没有人发现它们。
+
+我几乎每天都会收到用户的邮件，询问速度控制在哪里，因为他们设置过一次后就再也找不到了，或者说如果应用提供速度控制，他们会更喜欢它。界面中唯一的提示是滚动区域下方的三个“页面点”，但这远远不够。
+
+新设计保持了相同的可滚动页面，但现在它们变成了明显、有触感的卡片。
+
+在我的测试中，每个人都立刻明白了这些卡片。
+
+换句话说，就像你通过中间一个手机形状的窗口来导航：
+
+这种设计不仅更容易被发现，还让我能在屏幕上放置更多控件，并且放在更容易触及的区域。与之前的设计不同，我还可以在所有设备上放置相同的控件，从 iPhone SE 到 iPad Pro。
+
+为一个音乐或播客应用设计一个美观、简洁、功能齐全的“正在播放”屏幕，并且&lt;/p&gt;
+&lt;p&gt;And &lt;strong&gt;Watch-crown volume control!&lt;/strong&gt; Finally, the best way to use Overcast from your Apple Watch isn’t to delete it, letting the Now Playing app show up instead.&lt;/p&gt;
+&lt;p&gt;That’s where the other half of my summer workload began.&lt;/p&gt;
+&lt;p&gt;The watchOS volume widget offers minimal customization: just the color of the circle. I couldn’t make the line width a little narrower to match the rest of Overcast’s thin-line aesthetic. But that iOS 7-era thin-line aesthetic looked dated, and I’d wanted a design refresh for a while.&lt;/p&gt;
+&lt;p&gt;I decided to start modernizing the app’s design, screen by screen. I couldn’t do it all in one summer, so I started with the screen that needed the most help: Now Playing.&lt;/p&gt;
+&lt;p class="screenshots" style="text-align: center;"&gt;
+&lt;a href="http://www.marco.org/media/2018/09/overcast4.png"&gt;&lt;img class="screenshot3" src="http://www.marco.org/media/2018/09/overcast4.png"/&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;small&gt;The previous Now Playing screen in Overcast 4.&lt;/small&gt;
+&lt;/p&gt;
+&lt;p&gt;The biggest problem of the previous design was the center artwork area, a scrollable set of “pages” that had speed and effects controls offscreen to the left, and the episode notes offscreen to the right.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Nobody ever found them.&lt;/strong&gt; I’ve been getting emails almost &lt;em&gt;every&lt;/em&gt; day from people asking where the speed controls were because they set them once and couldn’t find them again, or saying how they’d really like my app more if it offered speed controls. The only indication in the interface was three “page dots” below the scrollable area, but that wasn’t enough.&lt;/p&gt;
+&lt;p&gt;The new design maintains the same scrollable pages, but now as obvious, tactile &lt;strong&gt;cards.&lt;/strong&gt; In my testing, everyone figured these out immediately.&lt;/p&gt;
+&lt;p class="screenshots" style="text-align: center;"&gt;&lt;a href="http://www.marco.org/media/2018/09/overcast5-np1-effects.png"&gt;&lt;img class="screenshot3" src="http://www.marco.org/media/2018/09/overcast5-np1-effects.png"/&gt;&lt;/a&gt;&lt;a href="http://www.marco.org/media/2018/09/overcast5-np2-nowplaying.png"&gt;&lt;img class="screenshot3" src="http://www.marco.org/media/2018/09/overcast5-np2-nowplaying.png"/&gt;&lt;/a&gt;&lt;a href="http://www.marco.org/media/2018/09/overcast5-np3-shownotes.png"&gt;&lt;img class="screenshot3" src="http://www.marco.org/media/2018/09/overcast5-np3-shownotes.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Put differently, it’s like you’re navigating this through a phone-shaped window in the middle:&lt;/p&gt;
+&lt;p class="screenshots" style="text-align: center;"&gt;
+&lt;a href="http://www.marco.org/media/2018/09/overcast5-nowplaying-combo.png"&gt;&lt;img class="screenshot1" src="http://www.marco.org/media/2018/09/overcast5-nowplaying-combo.png"/&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;/p&gt;
+&lt;p&gt;This design is not only more discoverable, but it allows me to fit more controls on screen, and in more reachable areas. Unlike the previous design, I can also fit the same controls on all devices, from the iPhone SE to the iPad Pro.&lt;/p&gt;
+&lt;p&gt;Designing a good Now Playing screen for a music or podcast app that’s nice, clean, &lt;em&gt;and&lt;/em&gt;要让功能易于发现是极其困难的。我认为我终于找到了一个良好的平衡点。
+
+我为各章节（若有）设置了独立的卡片，显示时长和内置进度条。我还终于改进了睡眠定时器，摒弃了难看的提示框，为其设计了便捷输入的界面，并以更实用的方式显示剩余时间：
+
+整个应用还有许多其他改进。部分亮点包括：
+
+搜索
+在主屏幕搜索你的播客和当前剧集，或进入播客页面搜索其全部存档。
+
+播客页面微调
+（更多改进即将推出。）
+
+Siri捷径
+支持，这是当然的。
+
+此外还有一些小修复和改进：
+
+CarPlay性能大幅提升，尤其适合拥有大量收藏的用户。
+
+播客现在会显示预估的更新频率（每日、每周等），如果能够推断的话。
+
+图片点击加载
+现在会一次性加载同一域名的所有图片。
+
+大量错误修复和性能改进。
+
+Overcast 5需要iOS 12和watchOS 5，一如既往，它是免费的。
+
+更新你的设备，然后去下载
+Overcast
+！
+
+目前自动同步最多20个剧集。随着我优化资源使用的平衡，这个数字可能会改变。
+
+自动同步至手表
+默认开启，可在“细节设置”中关闭。
+
+↩︎&lt;/p&gt;
+&lt;p&gt;I’ve given chapters (when present) their own card with durations and inline progress bars. I’ve also finally revamped the sleep timer to ditch the ugly alert sheet, give it a proper UI for fast input, and show the remaining time in more useful ways:&lt;/p&gt;
+&lt;p class="screenshots" style="text-align: center;"&gt;
+&lt;a href="http://www.marco.org/media/2018/09/overcast5-np-chapters.png"&gt;&lt;img class="screenshot3" src="http://www.marco.org/media/2018/09/overcast5-np-chapters.png"/&gt;&lt;/a&gt;
+&lt;a href="http://www.marco.org/media/2018/09/overcast5-np-sleeptimer.png"&gt;&lt;img class="screenshot3" src="http://www.marco.org/media/2018/09/overcast5-np-sleeptimer.png"/&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;There are lots of other improvements throughout the app as well. Some of the highlights:&lt;/p&gt;
+&lt;p class="screenshots" style="text-align: center;"&gt;
+&lt;a href="http://www.marco.org/media/2018/09/overcast5-ft-search.png"&gt;&lt;img class="screenshot3" src="http://www.marco.org/media/2018/09/overcast5-ft-search.png"/&gt;&lt;/a&gt;
+&lt;a href="http://www.marco.org/media/2018/09/overcast5-ft-podcast.png"&gt;&lt;img class="screenshot3" src="http://www.marco.org/media/2018/09/overcast5-ft-podcast.png"/&gt;&lt;/a&gt;
+&lt;a href="http://www.marco.org/media/2018/09/overcast5-ft-siri.png"&gt;&lt;img class="screenshot3" src="http://www.marco.org/media/2018/09/overcast5-ft-siri.png"/&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Search&lt;/strong&gt; your podcasts and current episodes from the main screen, or go into a podcast’s screen to search its entire archive.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Refreshed the podcast screen&lt;/strong&gt; a little. (More to come.)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Siri Shortcuts&lt;/strong&gt; support, of course.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Plus smaller fixes and improvements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CarPlay performance is much better, especially for people with large collections.&lt;/li&gt;
+&lt;li&gt;Podcasts now display their estimated release frequency (daily, weekly, etc.) if it can be inferred.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://marco.org/2018/04/27/overcast42"&gt;Tap-to-load on images&lt;/a&gt; now loads all images from the same domain at once.&lt;/li&gt;
+&lt;li&gt;Tons of bug fixes and performance improvements.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Overcast 5 requires iOS 12 and watchOS 5, and as always, it’s free.&lt;/p&gt;
+&lt;p&gt;Update your devices, then go get &lt;a href="https://overcast.fm/"&gt;Overcast&lt;/a&gt;!&lt;/p&gt;
+&lt;div class="footnotes"&gt;
+&lt;hr/&gt;
+&lt;ol&gt;
+&lt;li id="fn:plLbts5im1"&gt;
+&lt;p&gt;Up to 20 episodes are auto-synced today. This number will change as I refine the balance of resource usage. &lt;strong&gt;Auto-Sync to Watch&lt;/strong&gt; is on by default and can be turned off in Nitpicky Details. &lt;a href="https://marco.org/rss#fnref:plLbts5im1" rev="footnote"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description><pubDate>Mon, 17 Sep 2018 19:27:02 +0000</pubDate></item><item><title>Mac 上的低电量模式</title><link>https://marco.org/2018/07/31/mac-low-power-mode</link><description>&lt;p&gt;随着越来越多飞机配备电源插座，笔记本电脑的电池续航对我而言已不那么重要。但有时也会运气不佳，就像我最近一次八小时白天的航班那样。苹果宣称的"最长10小时续航"并不适用于我的工作场景——通常是Xcode编程、网页浏览和社交媒体消遣的混合使用，因此我深知必须严格省电。
+
+有时你只需要低功耗模式：这是苹果几年前在iOS中加入的功能，通过牺牲全性能表现和后台任务来延长电池续航。Mac笔记本目前没有类似功能，但确实应该配备。它可以实现以下功能：
+
+在15英寸机型上禁用独立显卡（除非硬件需求必须启用）
+暂停照片同步与分析
+暂停聚焦索引
+降低时光机备份频率
+不下载或安装软件更新
+不在iTunes中下载新内容
+缩短屏幕自动变暗的等待时间
+允许第三方应用检测低功耗模式并精简后台操作至仅必要任务
+
+而最关键的是：
+降低处理器最大功耗或禁用睿频加速技术
+
+早在2015年，我就尝试过禁用睿频加速，发现虽然性能降低约三分之一，但电池续航也提升了相近幅度。此后我一直使用Turbo Boost Switcher Pro，在电池供电时自动禁用睿频加速，效果显著：正是依靠关闭睿频加速，我才撑过了那次八小时飞行。
+
+最近几天，我测试了2018款13英寸MacBook Pro（搭载出色的2.7GHz i7处理器）和2015款2.2GHz 15英寸机型，使用Volta软件（可禁用睿频加速和/或设置CPU功耗限制）来探索电池续航的极限。
+
+本次测试基于上次的"高强度"脚本，但改用Overcast当前代码库（规模更大且包含Swift代码）进行数分钟间隔测试。绿色标注为改进项，红色标注为性能降低项：&lt;/p&gt;
+&lt;p&gt;Apple’s “Up to 10 hours” claim doesn’t apply to my work,&lt;sup id="fnref:pfKDuWxMd1"&gt;&lt;a href="https://marco.org/rss#fn:pfKDuWxMd1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt; which is usually a mix of Xcode, web browsing, and social time-wasting, so I knew I’d have to seriously conserve power.&lt;/p&gt;
+&lt;p&gt;Sometimes, you just need Low Power Mode: the switch added to iOS a few years ago to conserve battery life when you need it, at the expense of full performance and background tasks.&lt;/p&gt;
+&lt;p&gt;There’s no such feature on Mac laptops, but there should be. It could:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Disable the discrete GPU on 15-inch models unless required for hardware reasons&lt;sup id="fnref:pfKDuWxMd2"&gt;&lt;a href="https://marco.org/rss#fn:pfKDuWxMd2" rel="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;Pause Photos syncing and analysis&lt;/li&gt;
+&lt;li&gt;Pause Spotlight indexing&lt;/li&gt;
+&lt;li&gt;Reduce the frequency of Time Machine backups&lt;/li&gt;
+&lt;li&gt;Don’t download or install software updates&lt;/li&gt;
+&lt;li&gt;Don’t download new content in iTunes&lt;/li&gt;
+&lt;li&gt;Auto-dim the screen after a shorter time&lt;/li&gt;
+&lt;li&gt;Let third-party apps detect Low Power Mode and reduce their background operations to only essential work&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And the big one:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Reduce the processor’s maximum wattage or disable &lt;a href="https://en.wikipedia.org/wiki/Intel_Turbo_Boost"&gt;Turbo Boost&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Back in 2015, I &lt;a href="https://marco.org/2015/06/07/disabling-turbo-boost"&gt;experimented with disabling Turbo Boost&lt;/a&gt; and discovered that it reduced performance by about a third, but also boosted battery life by almost as much. Since then, I’ve been running &lt;a href="https://www.rugarciap.com/turbo-boost-switcher-for-os-x/"&gt;Turbo Boost Switcher Pro&lt;/a&gt; to automatically disable Turbo Boost when I’m running on battery power, and it has been wonderful: I made it through that 8-hour flight only because Turbo Boost was off.&lt;/p&gt;
+&lt;p&gt;Over the last few days, I’ve run battery tests on my 2018 13-inch MacBook Pro with the (awesome) 2.7 GHz i7 and my 2015 2.2 GHz 15-inch&lt;sup id="fnref:pfKDuWxMd3"&gt;&lt;a href="https://marco.org/rss#fn:pfKDuWxMd3" rel="footnote"&gt;3&lt;/a&gt;&lt;/sup&gt; to see how far I could push the battery life using &lt;a href="http://volta.garymathews.com/"&gt;Volta&lt;/a&gt;, which can disable Turbo Boost and/or set wattage limits on the CPU.&lt;/p&gt;
+&lt;p&gt;My test was based on the “Heavy” script &lt;a href="https://marco.org/2015/06/07/disabling-turbo-boost"&gt;from last time&lt;/a&gt;, but using &lt;code&gt;xcodebuild&lt;/code&gt; every few minutes with Overcast’s current codebase (which is larger and includes some Swift). Improvements are in green and performance reductions are in red:&lt;/p&gt;
+&lt;p&gt;.turboboosttable {
+ margin: 2em auto;
+ border-collapse: collapse;
+}
+.turboboosttable th, .turboboosttable td { text-align: center; border: 1px solid #f4f4f4; padding: 0.5em; }
+.turboboosttable th { width: 15%; }
+.turboboosttable th.lcol { text-align: right; }
+.turboboosttable th.notbold { font-weight: normal; }
+.turboboosttable th { background-color: #f4f4f4; }
+.turboboosttable .lightslash { opacity: 0.33; }
+.turboboosttable td.noturbo { background-color: #f8f8f8; }
+.turboboosttable .perfminus { color: #a00; }
+.turboboosttable .perfplus { color: #0a0; }&lt;/p&gt;
+&lt;h3&gt;15英寸2015款MacBook Pro（2.2 GHz四核i7）&lt;/h3&gt;
+&lt;table class="turboboosttable"&gt;
+&lt;tr&gt;
+&lt;th class="lcol"&gt; &lt;/th&gt;
+&lt;th&gt;电池续航&lt;/th&gt;
+&lt;th&gt;Geekbench单核/多核&lt;/th&gt;
+&lt;th&gt;xcodebuild编译&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th class="lcol notbold"&gt;正常模式&lt;/th&gt;
+&lt;td&gt;3小时36分&lt;/td&gt;
+&lt;td&gt;3963&lt;span class="lightslash"&gt;/&lt;/span&gt;13864&lt;/td&gt;
+&lt;td&gt;43.9秒&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th class="lcol notbold"&gt;关闭睿频&lt;/th&gt;
+&lt;td class="noturbo"&gt;5小时06分&lt;div class="perfplus"&gt;+42%&lt;/div&gt;&lt;/td&gt;
+&lt;td class="noturbo"&gt;2796&lt;span class="lightslash"&gt;/&lt;/span&gt;9917&lt;div class="perfminus"&gt;−29%&lt;span class="lightslash"&gt;/&lt;/span&gt;−28%&lt;/div&gt;&lt;/td&gt;
+&lt;td class="noturbo"&gt;63.4秒&lt;div class="perfminus"&gt;+44%&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;h3&gt;13英寸2018款MacBook Pro（2.7 GHz四核i7）&lt;/h3&gt;
+&lt;table class="turboboosttable"&gt;
+&lt;tr&gt;
+&lt;th class="lcol"&gt; &lt;/th&gt;
+&lt;th&gt;电池续航&lt;/th&gt;
+&lt;th&gt;Geekbench单核/多核&lt;/th&gt;
+&lt;th&gt;xcodebuild编译&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th class="lcol notbold"&gt;正常模式&lt;/th&gt;
+&lt;td&gt;3小时09分&lt;/td&gt;
+&lt;td&gt;5412&lt;span class="lightslash"&gt;/&lt;/span&gt;18983&lt;/td&gt;
+&lt;td&gt;34.3秒&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th class="lcol notbold"&gt;28瓦模式&lt;/th&gt;
+&lt;td&gt;3小时28分&lt;div class="perfplus"&gt;+10%&lt;/div&gt;&lt;/td&gt;
+&lt;td&gt;5401&lt;span class="lightslash"&gt;/&lt;/span&gt;16326&lt;div class="perfminus"&gt;−0%&lt;span class="lightslash"&gt;/&lt;/span&gt;−14%&lt;/div&gt;&lt;/td&gt;
+&lt;td&gt;37.4秒&lt;div class="perfminus"&gt;+9%&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th class="lcol notbold"&gt;18瓦模式&lt;/th&gt;
+&lt;td&gt;4小时05分&lt;div class="perfplus"&gt;+29%&lt;/div&gt;&lt;/td&gt;
+&lt;td&gt;5248&lt;span class="lightslash"&gt;/&lt;/span&gt;14133&lt;div class="perfminus"&gt;−3%&lt;span class="lightslash"&gt;/&lt;/span&gt;−26%&lt;/div&gt;&lt;/td&gt;
+&lt;td&gt;43.5秒&lt;div class="perfminus"&gt;+27%&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th class="lcol notbold"&gt;12瓦模式&lt;/th&gt;
+&lt;td&gt;4小时44分&lt;div class="perfplus"&gt;+50%&lt;/div&gt;&lt;/td&gt;
+&lt;td&gt;4818&lt;span class="lightslash"&gt;/&lt;/span&gt;11835&lt;div class="perfminus"&gt;−11%&lt;span class="lightslash"&gt;/&lt;/span&gt;−38%&lt;/div&gt;&lt;/td&gt;
+&lt;td&gt;48.2秒&lt;div class="perfminus"&gt;+41%&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th class="lcol notbold"&gt;关闭睿频&lt;/th&gt;
+&lt;td class="noturbo"&gt;5小时05分&lt;div class="perfplus"&gt;+61%&lt;/div&gt;&lt;/td&gt;
+&lt;td class="noturbo"&gt;3624&lt;span class="lightslash"&gt;/&lt;/span&gt;13324&lt;div class="perfminus"&gt;−33%&lt;span class="lightslash"&gt;/&lt;/span&gt;−30%&lt;/div&gt;&lt;/td&gt;
+&lt;td class="noturbo"&gt;48.9秒&lt;div class="perfminus"&gt;+43%&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th class="lcol notbold"&gt;6瓦模式&lt;/th&gt;
+&lt;td&gt;6小时24分&lt;div class="perfplus"&gt;+103%&lt;/div&gt;&lt;/td&gt;
+&lt;td&gt;4065&lt;span class="lightslash"&gt;/&lt;/span&gt;7596&lt;div class="perfminus"&gt;−25%&lt;span class="lightslash"&gt;/&lt;/span&gt;−60%&lt;/div&gt;&lt;/td&gt;
+&lt;td&gt;76.1秒&lt;div class="perfminus"&gt;+121%&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;这款新13英寸机型相比&lt;a href="https://marco.org/2017/11/14/best-laptop-ever"&gt;史上最佳笔记本电脑&lt;/a&gt;的显著提速令人惊叹，这主要归功于CPU和固态硬盘的重大升级。&lt;/p&gt;
+&lt;p&gt;有趣的是（但并不意外），将功耗降至6瓦（无风扇12英寸MacBook的热设计极限）时，其Geekbench性能表现与&lt;a href="https://browser.geekbench.com/macs/422"&gt;顶配版12英寸MacBook&lt;/a&gt;几乎完全一致。虽然这是极端选项，但若有机会我仍会偶尔采用——编译时间约增加一倍的同时，电池续航也实现了翻倍。&lt;/p&gt;
+&lt;p&gt;这种比例关系适用于大多数其他配置：电池续航的提升幅度与高负载性能的损失幅度基本相当。当我需要最大化运行时间时，会欣然接受这种权衡。&lt;/p&gt;
+&lt;p&gt;性价比最高的方案仍是直接关闭睿频。虽然单线程性能比限制功耗时受损更明显，但能保持更优的多线程性能和更稳定的散热表现，且电池增益相对于性能损失的比例更高。&lt;/p&gt;
+&lt;p&gt;而Volta虽然提供瓦数限制和Turbo禁用功能，但安装未签名的内核扩展需要关闭系统完整性保护，这点我实在不推荐。Turbo Boost Switcher虽无瓦数控制功能，却能与系统完整性保护兼容使用签名扩展，其专业版还具备更便捷的自动切换功能。
+
+目前，我将继续愉快地使用Turbo Boost Switcher Pro来选择性提升电池续航，并推荐给有同样需求的朋友。
+
+但我最期待的是macOS能内置真正的低功耗模式，通过CPU降频和软件优化实现更显著的节能效果。
+
+究竟谁能让MacBook Pro续航达到10小时？官网宣传页上的使用场景——摄影、编程、视频编辑、3D图形和游戏——在实际使用中连一半时间都难以达到。
+
+↩︎
+
+听说15英寸机型在连接外接显示器时必须启用独立显卡。其他情况下是否启用则由软件决定，gfxCardStatus可在特定条件下覆盖此设置。
+
+↩︎
+
+这台设备并非全新，所以对比不算完美，但电池在测试前仅循环充电90次。
+
+↩︎&lt;/p&gt;
+&lt;p&gt;For now, I’m going to continue to happily run &lt;a href="https://www.rugarciap.com/turbo-boost-switcher-for-os-x/"&gt;Turbo Boost Switcher Pro&lt;/a&gt; to selectively give myself better battery life, and I recommend it for anyone else with the same need.&lt;/p&gt;
+&lt;p&gt;But what I ultimately want is for a true Low Power Mode built into macOS that could provide this sort of CPU throttling &lt;em&gt;and&lt;/em&gt; software changes, which would ultimately achieve even greater gains.&lt;/p&gt;
+&lt;div class="footnotes"&gt;
+&lt;hr/&gt;
+&lt;ol&gt;
+&lt;li id="fn:pfKDuWxMd1"&gt;
+&lt;p&gt;Whose work &lt;em&gt;does&lt;/em&gt; get 10 hours out of a MacBook Pro? None of the use-cases on &lt;a href="https://www.apple.com/macbook-pro/"&gt;the marketing page&lt;/a&gt; — Photography, Coding, Video Editing, 3D Graphics, and Gaming — are likely to achieve even half of that in practice. &lt;a href="https://marco.org/rss#fnref:pfKDuWxMd1" rev="footnote"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:pfKDuWxMd2"&gt;
+&lt;p&gt;I’ve heard that 15-inch models are wired such that the discrete GPU is required when external displays are connected. Otherwise, whether it’s used or not is a software decision, and &lt;a href="https://gfx.io/"&gt;gfxCardStatus&lt;/a&gt; can override it in certain conditions. &lt;a href="https://marco.org/rss#fnref:pfKDuWxMd2" rev="footnote"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:pfKDuWxMd3"&gt;
+&lt;p&gt;It’s not brand new, so it’s not a perfect comparison, but the battery only had 90 cycles before this test. &lt;a href="https://marco.org/rss#fnref:pfKDuWxMd3" rev="footnote"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description><pubDate>Tue, 31 Jul 2018 19:12:17 +0000</pubDate></item><item><title>阴天4.2：隐私保护升级</title><link>https://marco.org/2018/04/27/overcast42</link><description>&lt;p&gt;&lt;a href="https://itunes.apple.com/us/app/overcast-podcast-player/id888422857?ls=1&amp;amp;mt=8&amp;amp;at=11lIuy&amp;amp;ct=marcoorg"&gt;Overcast 4.2现已发布，它在两大领域增强了隐私保护：
+
+**默认启用匿名同步**
+自2014年起，Overcast就提供匿名同步账户功能。这类账户功能完整，但无需邮箱或密码，因此无法登录网页端。登录令牌会通过iCloud存储，以便在设备恢复、升级或跨设备使用时访问账户。
+
+此前登录界面会优先推荐邮箱登录。但经过四年的观察、用户反馈和使用数据分析，我现在认为这是错误的做法。仅有不到10%的用户使用网页端，而iCloud令牌同步方案已能满足绝大多数用户的跨设备登录需求。
+
+**您的个人数据不是我的商机——而是责任风险**。我尽可能减少数据收集，甚至已停止记录IP地址。既然不需要您的邮箱信息，我确实不愿获取。
+
+目前Overcast账户中68%绑定了邮箱。为最大限度减少此类情况，我对账户处理机制进行了重大调整：
+
+在Overcast 4.2中，登录界面现已默认突出推荐匿名账户。若iCloud中已存有账户，系统会弹出对话框询问是否使用。首次启动4.2版本时，邮箱账户用户将收到迁移至匿名账户的提示。现在您可以随时在邮箱账户与匿名账户间自由切换。
+
+**拦截广告追踪图片**
+多数播客应用会在后台自动下载节目。播客发布商能获取的用户数据仅限IP地址和应用名称，IP地址仅能推算大致区域，无法获取更多信息。
+
+他们无法确切知道您的身份、收听状态、收听时间、收听进度或是否跳过某些片段。但某些大型播客制作方正**极力**试图改变这种现状。
+
+而我选择不这样做。&lt;/a&gt;. It enhances privacy in two major areas:&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Anonymous sync by default&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Overcast has offered anonymous sync accounts since 2014. They’re fully functional, but they lack email addresses or passwords, so they can’t log into the website. A login token is stored in iCloud so the account can be accessed after a restore or upgrade, or from other devices you own.&lt;/p&gt;
+&lt;p&gt;Previously, the login screen pushed email logins. But with four years of perspective, feedback, and usage data, I now think that’s the wrong move. Only a single-digit percentage of customers use the website, and the iCloud token-sync method solves cross-device logins for almost everyone.&lt;/p&gt;
+&lt;p&gt;Your personal data isn’t my business — it’s a &lt;a href="https://en.wikipedia.org/wiki/General_Data_Protection_Regulation"&gt;liability&lt;/a&gt;. I want as little as possible. I don’t even log IP addresses anymore.&lt;/p&gt;
+&lt;p&gt;If I don’t need your email address, I really don’t want it.&lt;/p&gt;
+&lt;p&gt;68% of Overcast accounts have email addresses today. To reduce that as much as possible, I’ve made major changes to account handling:&lt;/p&gt;
+&lt;p style="text-align: center; margin-top: 1.5em; margin-bottom: 2em;"&gt;
+&lt;a href="http://www.marco.org/media/2018/04/overcast41-login.png"&gt;&lt;img src="http://www.marco.org/media/2018/04/overcast41-login.png" style="border: 1px solid #eee; margin-right: 5%;"/&gt;&lt;/a&gt;&lt;a href="http://www.marco.org/media/2018/04/overcast42-login.png"&gt;&lt;img src="http://www.marco.org/media/2018/04/overcast42-login.png" style="border: 1px solid #eee;"/&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;small&gt;The previous login screen (left) and the new one.&lt;/small&gt;
+&lt;/p&gt;
+&lt;p&gt;In Overcast 4.2, the login screen now prominently encourages anonymous accounts by default.&lt;/p&gt;
+&lt;p&gt;If you already have an account in iCloud, it’ll pop up a dialog box over this screen asking if you want to use it.&lt;/p&gt;
+&lt;p&gt;And the first time you launch 4.2, people with email-based accounts will be encouraged to migrate them to anonymous accounts:&lt;/p&gt;
+&lt;p style="text-align: center; margin-top: 1.5em; margin-bottom: 2em;"&gt;
+&lt;img src="http://www.marco.org/media/2018/04/overcast42-migration.png" style="border: 1px solid #eee;"/&gt;&lt;br/&gt;
+&lt;small&gt;The migration prompt that shows on the first run.&lt;/small&gt;
+&lt;/p&gt;
+&lt;p&gt;Finally, you can now change your account between email-based and anonymous whenever you want.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Blocking ad-tracking images&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;In most podcast apps, podcasts are downloaded automatically in the background. The only data sent to a podcast’s publisher about you or your behavior is your IP address and the app’s name. The IP address lets them derive your approximate region, but not much else.&lt;/p&gt;
+&lt;p&gt;They don’t know exactly who you are, whether you listened, when you listened, how far you listened, or whether you skipped certain parts.&lt;/p&gt;
+&lt;p&gt;Some large podcast producers are trying &lt;em&gt;very&lt;/em&gt; hard to change that.&lt;/p&gt;
+&lt;p&gt;I’m not.&lt;/p&gt;
+&lt;p&gt;大数据毁了互联网，我不会让它再毁掉播客。出版商从苹果那里获得的数据已经足够他们制定广告价格和内容决策了——他们不需要从我客户那里获取更多数据。播客在当前模式下蓬勃发展，为许多人赚取了巨额利润，已经超过十年。我们早已拥有所需的所有数据。
+
+出版商试图绕过当前模式限制的一种方法，是在每期节目的HTML节目说明中嵌入远程图片或不可见的"跟踪像素"。在大多数应用中显示时，这些图片会自动从分析服务器加载，从而记录和跟踪更多关于你的信息。
+
+在Overcast 4.2中，就像邮件应用一样（出于同样的原因），远程图片默认不会加载。一个可点击的占位符会显示每张图片的加载来源，你可以决定是否加载它。
+
+我相信我已经以最安全的方式实现了这一功能——实际上我使用严格的内容安全策略来显示节目说明——并且我很乐意听取任何发现能在节目说明中注入自动加载远程图片或执行任意JavaScript方法的人的意见。
+
+错误修复
+
+Overcast 4.2还包括一系列小修复，以及两个重大修复：
+
+修复了因极大播客封面图导致的主要速度下降和高电池消耗问题。
+
+现在支持密码保护订阅源中的密码保护剧集。
+
+立即在App Store获取！&lt;a href="https://techcrunch.com/2017/12/14/apple-launches-its-podcast-analytics-service-into-beta/"&gt;get enough from Apple&lt;/a&gt; to inform ad rates and make content decisions — they don’t need more data from my customers. Podcasting has thrived, grown, and made tons of money for tons of people under the current model for over a decade. We already have all the data we need.&lt;/p&gt;
+&lt;p&gt;One of the ways publishers try to get around the limitations of the current model is by embedding remote images or invisible “tracking pixels” in each episode’s HTML show notes. When displayed in most apps, the images are automatically loaded from an analytics server, which can then record and track more information about you.&lt;/p&gt;
+&lt;p style="text-align: center; margin-top: 1.5em; margin-bottom: 2em;"&gt;
+&lt;a href="http://www.marco.org/media/2018/04/overcast42-remote-image.png"&gt;&lt;img src="http://www.marco.org/media/2018/04/overcast42-remote-image.png" style="border: 1px solid #eee;"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In Overcast 4.2, much like Mail (and for the same reason), remote images don’t load by default. A tappable placeholder shows you where each image will load from, and you can decide whether to load it or not.&lt;/p&gt;
+&lt;p&gt;I believe I’ve done this in the most secure way possible — I’m actually displaying the show notes using a strict &lt;a href="https://en.wikipedia.org/wiki/Content_Security_Policy"&gt;Content Security Policy&lt;/a&gt; — and I would &lt;strong&gt;love&lt;/strong&gt; to hear from anyone who finds a way to inject auto-loading remote images or execute arbitrary JavaScript in show notes.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Bug fixes&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Overcast 4.2 also includes a bunch of minor fixes, and two big ones:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed the major slowdowns and high battery usage that resulted from extremely large podcast artwork.&lt;/li&gt;
+&lt;li&gt;Password-protected &lt;em&gt;episodes&lt;/em&gt; are now supported on password-protected feeds.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://itunes.apple.com/us/app/overcast-podcast-player/id888422857?ls=1&amp;amp;mt=8&amp;amp;at=11lIuy&amp;amp;ct=marcoorg"&gt;Get it now in the App Store&lt;/a&gt;!&lt;/p&gt;</description><pubDate>Fri, 27 Apr 2018 18:56:21 +0000</pubDate></item></channel></rss>
