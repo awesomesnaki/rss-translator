@@ -1,5 +1,158 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Tue, 03 Feb 2026 22:44:50 +0000</lastBuildDate><item><title>Deno 沙盒环境介绍</title><link>https://simonwillison.net/2026/Feb/3/introducing-deno-sandbox/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://deno.com/blog/introducing-deno-sandbox"&gt;Deno沙盒发布&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;Deno团队推出了一款新的托管沙盒产品。它实际上与Deno本身无关——这是他们Deno Deploy SaaS平台的一部分。因此，你甚至不需要使用JavaScript来访问它——你可以使用他们的&lt;a href="https://pypi.org/project/deno-sandbox/"&gt;deno-sandbox&lt;/a&gt;Python库在托管沙盒中创建和执行代码，如下所示：
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Wed, 04 Feb 2026 14:59:47 +0000</lastBuildDate><item><title>通过go-to-wheel工具，将Go语言编译的二进制文件（如sqlite-scanner）打包成Python wheel包，并通过PyPI进行分发。</title><link>https://simonwillison.net/2026/Feb/4/distributing-go-binaries/#atom-everything</link><description>&lt;p&gt;最近我一直在探索用Go语言构建小巧、快速且自包含的二进制应用程序。我很喜欢它通常只有一种明确的实现方式，生成的代码简洁易读——而且大语言模型也很擅长编写这类代码。唯一的难点在于分发，但事实证明，将Go二进制文件发布到PyPI意味着任何Go二进制程序都可以通过一行命令轻松调用。
+
+sqlite-scanner是我新开发的Go命令行工具，用于扫描文件系统中的SQLite数据库文件。
+
+它的工作原理是检查文件的前16个字节是否完全匹配SQLite的魔数序列。它可以递归搜索一个或多个文件夹，通过启动并发goroutine来加速扫描过程。工具会以纯文本、JSON或换行分隔的JSON格式实时输出扫描结果，并可选显示文件大小。
+
+要试用它，你可以从GitHub releases下载发行版——然后经历macOS的繁琐步骤来执行这个“不安全”的二进制文件。或者你也可以克隆代码仓库并用Go编译。又或者……你可以直接这样运行二进制文件：
+
+默认情况下，这将在当前目录中搜索SQLite数据库。你也可以传入一个或多个目录作为参数：
+
+添加参数可获得JSON输出，添加可包含文件大小，或使用换行分隔的JSON格式。以下是一个演示：
+
+如果你尚未使用uv工具，也可以通过pip安装sqlite-scanner，然后运行。
+
+若要通过uv获取永久副本，请使用。
+
+Python包的工作原理
+
+这样做的价值在于，pip、uv和PyPI将协同工作，为你的操作系统和架构识别正确的编译二进制文件。
+
+这主要通过文件名实现。如果你访问sqlite-scanner的PyPI下载页面，会看到以下文件：
+
+当我在苹果芯片的Mac笔记本上运行或时，Python的打包机制会确保我获取到对应的变体。
+
+以下是wheel文件（扩展名为.zip）中的内容：
+
+除了二进制文件外，最重要的文件是，其中包含以下代码：
+
+def get_binary_path():
+    """返回捆绑二进制文件的路径。"""
+    binary = os.path.join(os.path.dirname(__file__), "bin")&lt;code&gt;uvx package-name&lt;/code&gt; call away.&lt;/p&gt;
+&lt;h4 id="sqlite-scanner"&gt;sqlite-scanner&lt;/h4&gt;
+&lt;p&gt;&lt;a href="https://github.com/simonw/sqlite-scanner"&gt;sqlite-scanner&lt;/a&gt; is my new Go CLI tool for scanning a filesystem for SQLite database files.&lt;/p&gt;
+&lt;p&gt;It works by checking if the first 16 bytes of the file exactly match the SQLite magic number sequence &lt;code&gt;SQLite format 3\x00&lt;/code&gt;. It can search one or more folders recursively, spinning up concurrent goroutines to accelerate the scan. It streams out results as it finds them in plain text, JSON or newline-delimited JSON. It can optionally display the file sizes as well.&lt;/p&gt;
+&lt;p&gt;To try it out you can download a release from the &lt;a href="https://github.com/simonw/sqlite-scanner/releases"&gt;GitHub releases&lt;/a&gt; - and then &lt;a href="https://support.apple.com/en-us/102445"&gt;jump through macOS hoops&lt;/a&gt; to execute an "unsafe" binary. Or you can clone the repo and compile it with Go. Or... you can run the binary like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;uvx sqlite-scanner
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;By default this will search your current directory for SQLite databases. You can pass one or more directories as arguments:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;uvx sqlite-scanner ~ /tmp
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Add &lt;code&gt;--json&lt;/code&gt; for JSON output, &lt;code&gt;--size&lt;/code&gt; to include file sizes or &lt;code&gt;--jsonl&lt;/code&gt; for newline-delimited JSON. Here's a demo:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;uvx sqlite-scanner ~ --jsonl --size
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img alt="running that command produces a sequence of JSON objects, each with a path and a size key" src="https://static.simonwillison.net/static/2025/sqlite-scanner-demo.gif"/&gt;&lt;/p&gt;
+&lt;p&gt;If you haven't been uv-pilled yet you can instead install &lt;code&gt;sqlite-scanner&lt;/code&gt; using &lt;code&gt;pip install sqlite-scanner&lt;/code&gt; and then run &lt;code&gt;sqlite-scanner&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;To get a permanent copy with &lt;code&gt;uv&lt;/code&gt; use &lt;code&gt;uv tool install sqlite-scanner&lt;/code&gt;.&lt;/p&gt;
+&lt;h4 id="how-the-python-package-works"&gt;How the Python package works&lt;/h4&gt;
+&lt;p&gt;The reason this is worth doing is that &lt;code&gt;pip&lt;/code&gt;, &lt;code&gt;uv&lt;/code&gt; and &lt;a href="https://pypi.org/"&gt;PyPI&lt;/a&gt; will work together to identify the correct compiled binary for your operating system and architecture.&lt;/p&gt;
+&lt;p&gt;This is driven by file names. If you visit &lt;a href="https://pypi.org/project/sqlite-scanner/#files"&gt;the PyPI downloads for sqlite-scanner&lt;/a&gt; you'll see the following files:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sqlite_scanner-0.1.1-py3-none-win_arm64.whl&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sqlite_scanner-0.1.1-py3-none-win_amd64.whl&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sqlite_scanner-0.1.1-py3-none-musllinux_1_2_x86_64.whl&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sqlite_scanner-0.1.1-py3-none-musllinux_1_2_aarch64.whl&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sqlite_scanner-0.1.1-py3-none-manylinux_2_17_x86_64.whl&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sqlite_scanner-0.1.1-py3-none-manylinux_2_17_aarch64.whl&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sqlite_scanner-0.1.1-py3-none-macosx_11_0_arm64.whl&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sqlite_scanner-0.1.1-py3-none-macosx_10_9_x86_64.whl&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When I run &lt;code&gt;pip install sqlite-scanner&lt;/code&gt; or &lt;code&gt;uvx sqlite-scanner&lt;/code&gt; on my Apple Silicon Mac laptop Python's packaging magic ensures I get that &lt;code&gt;macosx_11_0_arm64.whl&lt;/code&gt; variant.&lt;/p&gt;
+&lt;p&gt;Here's &lt;a href="https://tools.simonwillison.net/zip-wheel-explorer?url=https%3A%2F%2Ffiles.pythonhosted.org%2Fpackages%2F88%2Fb1%2F17a716635d2733fec53ba0a8267f85bd6b6cf882c6b29301bc711fba212c%2Fsqlite_scanner-0.1.1-py3-none-macosx_11_0_arm64.whl#sqlite_scanner/__init__.py"&gt;what's in the wheel&lt;/a&gt;, which is a zip file with a &lt;code&gt;.whl&lt;/code&gt; extension.&lt;/p&gt;
+&lt;p&gt;In addition to the &lt;code&gt;bin/sqlite-scanner&lt;/code&gt; the most important file is &lt;code&gt;sqlite_scanner/__init__.py&lt;/code&gt; which includes the following:&lt;/p&gt;
+&lt;pre&gt;&lt;span class="pl-k"&gt;def&lt;/span&gt; &lt;span class="pl-en"&gt;get_binary_path&lt;/span&gt;():
+    &lt;span class="pl-s"&gt;"""Return the path to the bundled binary."""&lt;/span&gt;
+    &lt;span class="pl-s1"&gt;binary&lt;/span&gt; &lt;span class="pl-c1"&gt;=&lt;/span&gt; &lt;span class="pl-s1"&gt;os&lt;/span&gt;.&lt;span class="pl-c1"&gt;path&lt;/span&gt;.&lt;span class="pl-c1"&gt;join&lt;/span&gt;(&lt;span class="pl-s1"&gt;os&lt;/span&gt;.&lt;span class="pl-c1"&gt;path&lt;/span&gt;.&lt;span class="pl-c1"&gt;dirname&lt;/span&gt;(&lt;span class="pl-s1"&gt;__file__&lt;/span&gt;), &lt;span class="pl-s"&gt;"bin"&lt;/span&gt;, &lt;span class="pl-s"&gt;"sqlite-scanner"
+# 确保Unix系统上二进制文件可执行
+if sys.platform != "win32":
+    current_mode = os.stat(binary).st_mode
+    if not current_mode &amp;amp; stat.S_IXUSR:
+        os.chmod(binary, current_mode | stat.S_IXUSR | stat.S_IXGRP | stat.S_IXOTH)
+    return binary
+
+def main():
+    """执行捆绑的二进制文件。"""
+    binary = get_binary_path()
+    if sys.platform == "win32":
+        # Windows系统使用subprocess正确处理信号
+        sys.exit(subprocess.call([binary] + sys.argv[1:]))
+    else:
+        # Unix系统使用exec替换进程
+        os.execvp(binary, [binary] + sys.argv[1:])
+
+该方法（同样通过__main__.py调用）会在Python包被执行时定位并运行二进制文件，利用wheel中定义的入口点实现。这意味着我们可以将其作为依赖项使用。
+
+虽然使用PyPI作为Go二进制文件的分发平台略显取巧，但已有诸多先例。我的理由是：这意味着我们现在可以将Go二进制文件作为其他Python包的依赖项——这确实非常实用！任何跨平台Go二进制文件的功能现在都能整合到Python包中。Python非常擅长运行子进程，这为我们打开了一扇新大门，可以将各种实用技巧融入Python工具。
+
+为演示此功能，我构建了datasette-scan——这是一个新的Datasette插件，它依赖sqlite-scanner，并利用该Go二进制文件扫描文件夹中的SQLite数据库，将其附加到Datasette实例。以下是使用方法（借助pipx甚至无需预先安装任何软件）来探索Downloads文件夹中的所有SQLite数据库：
+
+~
+查看代码会发现，它在pyproject.toml中声明了对sqlite-scanner的依赖，并在其scan_directories()函数中通过subprocess.run()调用该二进制文件。
+
+最近我还在探索将此模式应用于其他非Go二进制文件——这里有个最新脚本依赖static-ffmpeg来确保脚本运行时ffmpeg可用。
+
+使用go-to-wheel从Go包构建Python wheel
+在亲自尝试此模式几次后，我意识到需要工具来自动化此流程。我首先与Claude进行了构思探讨。&lt;/span&gt;)
+ 
+    &lt;span class="pl-c"&gt;# Ensure binary is executable on Unix&lt;/span&gt;
+    &lt;span class="pl-k"&gt;if&lt;/span&gt; &lt;span class="pl-s1"&gt;sys&lt;/span&gt;.&lt;span class="pl-c1"&gt;platform&lt;/span&gt; &lt;span class="pl-c1"&gt;!=&lt;/span&gt; &lt;span class="pl-s"&gt;"win32"&lt;/span&gt;:
+        &lt;span class="pl-s1"&gt;current_mode&lt;/span&gt; &lt;span class="pl-c1"&gt;=&lt;/span&gt; &lt;span class="pl-s1"&gt;os&lt;/span&gt;.&lt;span class="pl-c1"&gt;stat&lt;/span&gt;(&lt;span class="pl-s1"&gt;binary&lt;/span&gt;).&lt;span class="pl-c1"&gt;st_mode&lt;/span&gt;
+        &lt;span class="pl-k"&gt;if&lt;/span&gt; &lt;span class="pl-c1"&gt;not&lt;/span&gt; (&lt;span class="pl-s1"&gt;current_mode&lt;/span&gt; &lt;span class="pl-c1"&gt;&amp;amp;&lt;/span&gt; &lt;span class="pl-s1"&gt;stat&lt;/span&gt;.&lt;span class="pl-c1"&gt;S_IXUSR&lt;/span&gt;):
+            &lt;span class="pl-s1"&gt;os&lt;/span&gt;.&lt;span class="pl-c1"&gt;chmod&lt;/span&gt;(&lt;span class="pl-s1"&gt;binary&lt;/span&gt;, &lt;span class="pl-s1"&gt;current_mode&lt;/span&gt; &lt;span class="pl-c1"&gt;|&lt;/span&gt; &lt;span class="pl-s1"&gt;stat&lt;/span&gt;.&lt;span class="pl-c1"&gt;S_IXUSR&lt;/span&gt; &lt;span class="pl-c1"&gt;|&lt;/span&gt; &lt;span class="pl-s1"&gt;stat&lt;/span&gt;.&lt;span class="pl-c1"&gt;S_IXGRP&lt;/span&gt; &lt;span class="pl-c1"&gt;|&lt;/span&gt; &lt;span class="pl-s1"&gt;stat&lt;/span&gt;.&lt;span class="pl-c1"&gt;S_IXOTH&lt;/span&gt;)
+ 
+    &lt;span class="pl-k"&gt;return&lt;/span&gt; &lt;span class="pl-s1"&gt;binary&lt;/span&gt;
+ 
+ 
+&lt;span class="pl-k"&gt;def&lt;/span&gt; &lt;span class="pl-en"&gt;main&lt;/span&gt;():
+    &lt;span class="pl-s"&gt;"""Execute the bundled binary."""&lt;/span&gt;
+    &lt;span class="pl-s1"&gt;binary&lt;/span&gt; &lt;span class="pl-c1"&gt;=&lt;/span&gt; &lt;span class="pl-en"&gt;get_binary_path&lt;/span&gt;()
+ 
+    &lt;span class="pl-k"&gt;if&lt;/span&gt; &lt;span class="pl-s1"&gt;sys&lt;/span&gt;.&lt;span class="pl-c1"&gt;platform&lt;/span&gt; &lt;span class="pl-c1"&gt;==&lt;/span&gt; &lt;span class="pl-s"&gt;"win32"&lt;/span&gt;:
+        &lt;span class="pl-c"&gt;# On Windows, use subprocess to properly handle signals&lt;/span&gt;
+        &lt;span class="pl-s1"&gt;sys&lt;/span&gt;.&lt;span class="pl-c1"&gt;exit&lt;/span&gt;(&lt;span class="pl-s1"&gt;subprocess&lt;/span&gt;.&lt;span class="pl-c1"&gt;call&lt;/span&gt;([&lt;span class="pl-s1"&gt;binary&lt;/span&gt;] &lt;span class="pl-c1"&gt;+&lt;/span&gt; &lt;span class="pl-s1"&gt;sys&lt;/span&gt;.&lt;span class="pl-c1"&gt;argv&lt;/span&gt;[&lt;span class="pl-c1"&gt;1&lt;/span&gt;:]))
+    &lt;span class="pl-k"&gt;else&lt;/span&gt;:
+        &lt;span class="pl-c"&gt;# On Unix, exec replaces the process&lt;/span&gt;
+        &lt;span class="pl-s1"&gt;os&lt;/span&gt;.&lt;span class="pl-c1"&gt;execvp&lt;/span&gt;(&lt;span class="pl-s1"&gt;binary&lt;/span&gt;, [&lt;span class="pl-s1"&gt;binary&lt;/span&gt;] &lt;span class="pl-c1"&gt;+&lt;/span&gt; &lt;span class="pl-s1"&gt;sys&lt;/span&gt;.&lt;span class="pl-c1"&gt;argv&lt;/span&gt;[&lt;span class="pl-c1"&gt;1&lt;/span&gt;:])&lt;/pre&gt;
+&lt;p&gt;That &lt;code&gt;main()&lt;/code&gt; method - also called from &lt;code&gt;sqlite_scanner/__main__.py&lt;/code&gt; - locates the binary and executes it when the Python package itself is executed, using the &lt;code&gt;sqlite-scanner = sqlite_scanner:main&lt;/code&gt; entry point defined in the wheel.&lt;/p&gt;
+&lt;h4 id="which-means-we-can-use-it-as-a-dependency"&gt;Which means we can use it as a dependency&lt;/h4&gt;
+&lt;p&gt;Using PyPI as a distribution platform for Go binaries feels a tiny bit abusive, albeit &lt;a href="https://simonwillison.net/2022/May/23/bundling-binary-tools-in-python-wheels/"&gt;there is plenty of precedent&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I’ll justify it by pointing out that this means &lt;strong&gt;we can use Go binaries as dependencies&lt;/strong&gt; for other Python packages now.&lt;/p&gt;
+&lt;p&gt;That's genuinely useful! It means that any functionality which is available in a cross-platform Go binary can now be subsumed into a Python package. Python is really good at running subprocesses so this opens up a whole world of useful tricks that we can bake into our Python tools.&lt;/p&gt;
+&lt;p&gt;To demonstrate this, I built &lt;a href="https://github.com/simonw/datasette-scan"&gt;datasette-scan&lt;/a&gt; - a new Datasette plugin which depends on &lt;code&gt;sqlite-scanner&lt;/code&gt; and then uses that Go binary to scan a folder for SQLite databases and attach them to a Datasette instance.&lt;/p&gt;
+&lt;p&gt;Here's how to use that (without even installing anything first, thanks &lt;code&gt;uv&lt;/code&gt;) to explore any SQLite databases in your Downloads folder:&lt;/p&gt;
+&lt;div class="highlight highlight-source-shell"&gt;&lt;pre&gt;uv run --with datasette-scan datasette scan &lt;span class="pl-k"&gt;~&lt;/span&gt;/Downloads&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;If you peek at the code you'll see it &lt;a href="https://github.com/simonw/datasette-scan/blob/1a2b6d1e6b04c8cd05f5676ff7daa877efd99f08/pyproject.toml#L14"&gt;depends on sqlite-scanner&lt;/a&gt; in &lt;code&gt;pyproject.toml&lt;/code&gt; and calls it using &lt;code&gt;subprocess.run()&lt;/code&gt; against &lt;code&gt;sqlite_scanner.get_binary_path()&lt;/code&gt; in its own &lt;a href="https://github.com/simonw/datasette-scan/blob/1a2b6d1e6b04c8cd05f5676ff7daa877efd99f08/datasette_scan/__init__.py#L38-L58"&gt;scan_directories() function&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I've been exploring this pattern for other, non-Go binaries recently - here's &lt;a href="https://github.com/simonw/tools/blob/main/python/livestream-gif.py"&gt;a recent script&lt;/a&gt; that depends on &lt;a href="https://pypi.org/project/static-ffmpeg/"&gt;static-ffmpeg&lt;/a&gt; to ensure that &lt;code&gt;ffmpeg&lt;/code&gt; is available for the script to use.&lt;/p&gt;
+&lt;h4 id="building-python-wheels-from-go-packages-with-go-to-wheel"&gt;Building Python wheels from Go packages with go-to-wheel&lt;/h4&gt;
+&lt;p&gt;After trying this pattern myself a couple of times I realized it would be useful to have a tool to automate the process.&lt;/p&gt;
+&lt;p&gt;I first &lt;a href="https://claude.ai/share/2d9ced56-b3e8-4651-83cc-860b9b419187"&gt;brainstormed with Claude&lt;/a&gt;为了确认没有现成的工具能完成这个任务，我进行了搜索。结果指向了&lt;a href="https://www.maturin.rs/bindings.html#bin"&gt;maturin bin&lt;/a&gt;这款工具，它帮助通过Python wheel分发Rust项目；还有&lt;a href="https://github.com/Bing-su/pip-binary-factory"&gt;pip-binary-factory&lt;/a&gt;它能打包各种其他项目，但并未找到能精准解决我问题的工具。&lt;/p&gt;
+&lt;p&gt;于是，我&lt;a href="https://gisthost.github.io/?41f04e4eb823b1ceb888d9a28c2280dd/index.html"&gt;借助Claude Code在网页上构建了第一个版本&lt;/a&gt;，然后在我的笔记本电脑上，结合更多Claude Code和一点OpenAI Codex的帮助，对代码进行了本地优化，只为增添一些变化。&lt;/p&gt;
+&lt;p&gt;完整的文档位于&lt;a href="https://github.com/simonw/go-to-wheel"&gt;simonw/go-to-wheel&lt;/a&gt;仓库中。我已将该工具发布到PyPI，现在你可以通过以下方式运行它：&lt;/p&gt;
+&lt;div class="highlight highlight-source-shell"&gt;&lt;pre&gt;uvx go-to-wheel --help&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;你在PyPI上&lt;code&gt;sqlite-scanner&lt;/code&gt;看到的&lt;a href="https://pypi.org/project/sqlite-scanner/"&gt;这个包&lt;/a&gt;是通过&lt;code&gt;go-to-wheel&lt;/code&gt;类似这样的方式构建的：&lt;/p&gt;
+&lt;div class="highlight highlight-source-shell"&gt;&lt;pre&gt;uvx go-to-wheel &lt;span class="pl-k"&gt;~&lt;/span&gt;/dev/sqlite-scanner \
+  --set-version-var main.version \
+  --version 0.1.1 \
+  --readme README.md \
+  --author &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;'&lt;/span&gt;Simon Willison&lt;span class="pl-pds"&gt;'&lt;/span&gt;&lt;/span&gt; \
+  --url https://github.com/simonw/sqlite-scanner \
+  --description &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;'&lt;/span&gt;扫描目录中的SQLite数据库&lt;span class="pl-pds"&gt;'&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;这会在&lt;code&gt;dist/&lt;/code&gt;文件夹中创建一组wheel文件。我通过以下方式测试了其中一个：&lt;/p&gt;
+&lt;div class="highlight highlight-source-shell"&gt;&lt;pre&gt;uv run --with dist/sqlite_scanner-0.1.1-py3-none-macosx_11_0_arm64.whl \
+  sqlite-scanner --version&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;当它正确输出版本号时，我确信一切按计划进行，于是使用&lt;code&gt;twine upload&lt;/code&gt;将整套wheel文件推送到PyPI，操作如下：&lt;/p&gt;
+&lt;div class="highlight highlight-source-shell"&gt;&lt;pre&gt;uvx twine upload dist/&lt;span class="pl-k"&gt;*&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;我只需粘贴之前保存的PyPI API令牌，就完成了所有步骤。&lt;/p&gt;
+&lt;h4 id="i-expect-to-use-this-pattern-a-lot"&gt;我预计会频繁使用这种模式&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;sqlite-scanner&lt;/code&gt;这显然是为了验证更广泛模式的概念证明——Python完全有能力自行递归遍历目录结构，寻找以特定字节前缀开头的文件！&lt;/p&gt;
+&lt;p&gt;话虽如此，我认为这种模式&lt;em&gt;有很多&lt;/em&gt;值得称道之处。Go是Python的绝佳补充——它速度快，编译为小巧独立的二进制文件，拥有出色的并发支持和丰富的库生态系统。&lt;/p&gt;
+&lt;p&gt;Go与Python相似之处在于它拥有强大的标准库。Go尤其擅长HTTP工具开发——过去我曾多次利用Go优秀的&lt;code&gt;net/http/httputil.ReverseProxy&lt;/code&gt;处理器&lt;/p&gt;
+&lt;p&gt;构建HTTP代理。&lt;a href="https://github.com/wazero/wazero"&gt;我还在尝试&lt;/a&gt;wazero&lt;a href="https://github.com/simonw/research/tree/main/wasm-repl-cli"&gt;，这是Go强大且成熟的零依赖WebAssembly运行时，作为我持续寻找运行不受信任代码的理想沙箱的一部分。&lt;/a&gt;这是我使用该库的&lt;/p&gt;
+&lt;p&gt;能够将Go二进制文件无缝集成到Python项目中，而终端用户完全无需考虑Go的存在——一切都能顺利运行——这感觉像是为我工具箱增添了一个宝贵工具。
+
+标签：go、打包、项目、pypi、python、sqlite、datasette、AI辅助编程、uv&lt;code&gt;pip install&lt;/code&gt; and everything Just Works - feels like a valuable addition to my toolbox.&lt;/p&gt;
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/go"&gt;go&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/packaging"&gt;packaging&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/projects"&gt;projects&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/pypi"&gt;pypi&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/python"&gt;python&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/sqlite"&gt;sqlite&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/datasette"&gt;datasette&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/uv"&gt;uv&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 04 Feb 2026 14:59:47 +0000</pubDate></item><item><title>Deno 沙盒环境介绍</title><link>https://simonwillison.net/2026/Feb/3/introducing-deno-sandbox/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://deno.com/blog/introducing-deno-sandbox"&gt;Deno沙盒发布&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;Deno团队推出了一款新的托管沙盒产品。它实际上与Deno本身无关——这是他们Deno Deploy SaaS平台的一部分。因此，你甚至不需要使用JavaScript来访问它——你可以使用他们的&lt;a href="https://pypi.org/project/deno-sandbox/"&gt;deno-sandbox&lt;/a&gt;Python库在托管沙盒中创建和执行代码，如下所示：
 &lt;div class="highlight highlight-source-shell"&gt;&lt;pre&gt;&lt;span class="pl-k"&gt;export&lt;/span&gt; DENO_DEPLOY_TOKEN=&lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;... API令牌 ...&lt;span class="pl-pds"&gt;"&lt;/span&gt;&lt;/span&gt;
 uv run --with deno-sandbox python&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;然后：&lt;/p&gt;
@@ -1420,22 +1573,4 @@ Paul Kinlan is a web platform developer advocate at Google and recently turned h
 &lt;p&gt;My biggest complaint about &lt;code&gt;&amp;lt;iframe sandbox&amp;gt;&lt;/code&gt; remains how thinly documented it is, especially across different browsers. Paul's post has all sorts of useful details on that which I've not encountered elsewhere, including a complex &lt;a href="https://aifoc.us/the-browser-is-the-sandbox/#the-double-iframe-technique"&gt;double-iframe technique&lt;/a&gt; to help apply network rules to the inner of the two frames.&lt;/p&gt;
 &lt;p&gt;Thanks to this post I also learned about the &lt;code&gt;&amp;lt;input type="file" webkitdirectory&amp;gt;&lt;/code&gt; tag which turns out to work on Firefox, Safari &lt;em&gt;and&lt;/em&gt;Chrome允许浏览器一次性对完整目录文件进行只读访问。我让Claude快速搭建了一个&lt;a href="https://tools.simonwillison.net/webkitdirectory"&gt;webkitdirectory演示程序&lt;/a&gt;来测试这个功能，未来肯定会将其用于项目中。&lt;/p&gt;
 &lt;p&gt;&lt;img alt='Screenshot of a dark-themed file explorer application. Top stats bar shows: 12179 TOTAL FILES, 2079 FOLDERS, 244 MB TOTAL SIZE, 97 FILE TYPES in cyan text. Search bar with placeholder "Search files..." and "All types" dropdown. Left panel labeled "File tree" (showing 12179) displays folder hierarchy: datasette &amp;gt; .claude &amp;gt; skills &amp;gt; building-datasette-plugins containing HOOKS.md (10.7 KB, selected/highlighted), INTERNALS.md (10.1 KB), SKILL.md (3.7 KB), TESTING.md (8.4 KB), settings.local.json (280 B); also shows .eggs folder with pytest_runner-6.0.1-py3.9.egg. Right panel "File preview" shows selected file details: Name: HOOKS.md, Path: datasette/.claude/skills/building-datasette-plugins/HOOKS.md, Size: 10.7 KB, Type: text/markdown, Last modified: 12/20/2025, 9:28:59 AM. Preview content shows: "# Plugin Hooks Reference" followed by "All hooks use the @hookimpl decorator. Accept only the parameters you need." then "## Database Connection Hooks" and "### prepare_connection(conn, database, datasette)" with description "Called when a new SQLite connection is created. Use to register custom SQL functions." Bottom section "File type distribution" shows horizontal bar chart: .py (4439), .no ext (3358), .dat (1068), .pyc (925), .txt (332), .mo (321), .po (321), .html (249).' src="https://static.simonwillison.net/static/2026/webkit-file-tree.jpg"/&gt;
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/browsers"&gt;浏览器&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/javascript"&gt;JavaScript&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/sandboxing"&gt;沙盒机制&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式AI&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai-agents"&gt;AI智能体&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/coding-agents"&gt;编程助手&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/claude-code"&gt;Claude代码工具&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Sun, 25 Jan 2026 23:51:32 +0000</pubDate></item><item><title>卡卡波摄像头：拉基乌拉岛直播</title><link>https://simonwillison.net/2026/Jan/25/kakapo-cam/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.doc.govt.nz/our-work/kakapo-recovery/what-we-do/kakapo-cam-rakiura-live-stream/"&gt;鸮鹦鹉直播：拉基乌拉实时巢穴动态&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;本年度繁殖季重要更新&lt;a href="https://simonwillison.net/2026/Jan/8/llm-predictions-for-2026/#1-year-k-k-p-parrots-will-have-an-outstanding-breeding-season"&gt;新西兰保育部正在直播23岁鸮鹦鹉拉基乌拉的巢穴实况！&lt;/a&gt;您看到的是拉基乌拉位于桃金娘树下的巨大树洞巢穴。自2008年至今的七个繁殖季，这位"传奇母亲"始终选择此处筑巢。因其稳定的归巢习性，保育团队逐年改造巢穴结构，增设监测舱口，确保巢穴安全干燥。
-&lt;blockquote&gt;
-&lt;p&gt;拉基乌拉于2002年2月19日孵化于豪努阿胡岛，得名于鸮鹦鹉种群发源地斯图尔特岛的毛利语称谓。她已成功孕育九只后代（三雌六雄），孙辈更是不计其数。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;今年首枚卵产于1月22日下午4时30分（新西兰时间），巢穴直播随即开启。通过自主编写的直播抓取脚本，我们已捕捉到包含鸟卵影像的加速视频。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;直播平台：YouTube
-技术工具：Claude Code编写的livestream-gif.py脚本
-信源：MetaFilter
-标签：youtube, kakapo, conservation, claude-code&lt;/p&gt;
-&lt;p&gt;Rakiura has nine living descendants, three females and six males, across six breeding seasons. In 2008 came Tōitiiti, in 2009 Tamahou and Te Atapō, in 2011 Tia and Tūtoko, in 2014 Taeatanga and Te Awa, in 2019 Mati-mā and Tautahi. She also has many grandchicks.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;She laid her first egg of the season at 4:30pm NZ time on 22nd January. The livestream went live shortly afterwards, once she committed to this nest.&lt;/p&gt;
-&lt;p&gt;The stream is &lt;a href="https://www.youtube.com/watch?v=BfGL7A2YgUY"&gt;on YouTube&lt;/a&gt;. I &lt;a href="https://gisthost.github.io/?dc78322de89a2191c593215f109c65d7/index.html"&gt;used Claude Code&lt;/a&gt; to write &lt;a href="https://tools.simonwillison.net/python/#livestream-gifpy"&gt;a livestream-gif.py script&lt;/a&gt; and used that to capture this sped-up video of the last few hours of footage, within which you can catch a glimpse of the egg!&lt;/p&gt;
-&lt;video controls="controls" loop="loop" style="width: 100%;"&gt;
-&lt;source src="https://static.simonwillison.net/static/2026/kakapo-timelapse.mp4" type="video/mp4"/&gt;
-&lt;/video&gt;
-&lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href="https://www.metafilter.com/211927/The-only-parrot-to-have-a-polygynous-lek-breeding-system-sits-on-an-egg"&gt;MetaFilter&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/youtube"&gt;youtube&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/kakapo"&gt;kakapo&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/conservation"&gt;conservation&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sun, 25 Jan 2026 04:53:01 +0000</pubDate></item></channel></rss>
+&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/browsers"&gt;浏览器&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/javascript"&gt;JavaScript&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/sandboxing"&gt;沙盒机制&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式AI&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai-agents"&gt;AI智能体&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/coding-agents"&gt;编程助手&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/claude-code"&gt;Claude代码工具&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Sun, 25 Jan 2026 23:51:32 +0000</pubDate></item></channel></rss>
