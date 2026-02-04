@@ -1,5 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Tue, 03 Feb 2026 06:36:10 +0000</lastBuildDate><item><title>一月赞助者专属通讯已发布</title><link>https://simonwillison.net/2026/Feb/3/january/#atom-everything</link><description>&lt;p&gt;我刚刚发送了&lt;a href="https://github.com/sponsors/simonw/"&gt;仅供赞助者阅读的月度通讯一月刊&lt;/a&gt;。如果您已是赞助者（或立即开启赞助），可以&lt;a href="https://github.com/simonw-private/monthly/blob/main/2026-01-january.md"&gt;点击此处查看&lt;/a&gt;。本期一月通讯内容包括：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Tue, 03 Feb 2026 22:44:50 +0000</lastBuildDate><item><title>Deno 沙盒环境介绍</title><link>https://simonwillison.net/2026/Feb/3/introducing-deno-sandbox/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://deno.com/blog/introducing-deno-sandbox"&gt;Deno沙盒发布&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;Deno团队推出了一款新的托管沙盒产品。它实际上与Deno本身无关——这是他们Deno Deploy SaaS平台的一部分。因此，你甚至不需要使用JavaScript来访问它——你可以使用他们的&lt;a href="https://pypi.org/project/deno-sandbox/"&gt;deno-sandbox&lt;/a&gt;Python库在托管沙盒中创建和执行代码，如下所示：
+&lt;div class="highlight highlight-source-shell"&gt;&lt;pre&gt;&lt;span class="pl-k"&gt;export&lt;/span&gt; DENO_DEPLOY_TOKEN=&lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;... API令牌 ...&lt;span class="pl-pds"&gt;"&lt;/span&gt;&lt;/span&gt;
+uv run --with deno-sandbox python&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;然后：&lt;/p&gt;
+&lt;pre&gt;&lt;span class="pl-k"&gt;from&lt;/span&gt; &lt;span class="pl-s1"&gt;deno_sandbox&lt;/span&gt; &lt;span class="pl-k"&gt;import&lt;/span&gt; &lt;span class="pl-v"&gt;DenoDeploy&lt;/span&gt;
+
+&lt;span class="pl-s1"&gt;sdk&lt;/span&gt; &lt;span class="pl-c1"&gt;=&lt;/span&gt; &lt;span class="pl-en"&gt;DenoDeploy&lt;/span&gt;()
+
+&lt;span class="pl-k"&gt;with&lt;/span&gt; &lt;span class="pl-s1"&gt;sdk&lt;/span&gt;.&lt;span class="pl-c1"&gt;sandbox&lt;/span&gt;.&lt;span class="pl-c1"&gt;create&lt;/span&gt;() &lt;span class="pl-k"&gt;as&lt;/span&gt; &lt;span class="pl-s1"&gt;sb&lt;/span&gt;:
+    &lt;span class="pl-c"&gt;# 运行shell命令&lt;/span&gt;
+    &lt;span class="pl-s1"&gt;process&lt;/span&gt; &lt;span class="pl-c1"&gt;=&lt;/span&gt; &lt;span class="pl-s1"&gt;sb&lt;/span&gt;.&lt;span class="pl-c1"&gt;spawn&lt;/span&gt;(
+        &lt;span class="pl-s"&gt;"echo"&lt;/span&gt;, &lt;span class="pl-s1"&gt;args&lt;/span&gt;&lt;span class="pl-c1"&gt;=&lt;/span&gt;[&lt;span class="pl-s"&gt;"Hello from the sandbox!"&lt;/span&gt;]
+    )
+    &lt;span class="pl-s1"&gt;process&lt;/span&gt;.&lt;span class="pl-c1"&gt;wait&lt;/span&gt;()
+    &lt;span class="pl-c"&gt;# 写入和读取文件&lt;/span&gt;
+    &lt;span class="pl-s1"&gt;sb&lt;/span&gt;.&lt;span class="pl-c1"&gt;fs&lt;/span&gt;.&lt;span class="pl-c1"&gt;write_text_file&lt;/span&gt;(
+        &lt;span class="pl-s"&gt;"/tmp/example.txt"&lt;/span&gt;, &lt;span class="pl-s"&gt;"Hello, World!"&lt;/span&gt;
+    )
+    &lt;span class="pl-en"&gt;print&lt;/span&gt;(&lt;span class="pl-s1"&gt;sb&lt;/span&gt;.&lt;span class="pl-c1"&gt;fs&lt;/span&gt;.&lt;span class="pl-c1"&gt;read_text_file&lt;/span&gt;(
+        &lt;span class="pl-s"&gt;"/tmp/example.txt"&lt;/span&gt;
+    ))&lt;/pre&gt;
+&lt;p&gt;还有一个JavaScript客户端库。底层API尚未文档化，但似乎&lt;a href="https://tools.simonwillison.net/zip-wheel-explorer?package=deno-sandbox#deno_sandbox/sandbox.py--L187"&gt;使用WebSockets&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;这个系统有很多值得称道的地方。沙盒实例最多可拥有4GB内存，配备2个vCPU，10GB临时存储，可以挂载持久卷，并且可以使用快照快速启动预配置的自定义镜像。会话最长可持续30分钟，按CPU时间、内存GB-小时和卷存储使用量计费。&lt;/p&gt;
+&lt;p&gt;创建沙盒时，你可以配置允许访问的网络域。&lt;/p&gt;
+&lt;p&gt;我最喜欢的功能是它处理API密钥的方式。&lt;/p&gt;
+&lt;pre&gt;&lt;span class="pl-k"&gt;with&lt;/span&gt; &lt;span class="pl-s1"&gt;sdk&lt;/span&gt;.&lt;span class="pl-c1"&gt;sandboxes&lt;/span&gt;.&lt;span class="pl-c1"&gt;create&lt;/span&gt;(
+    &lt;span class="pl-s1"&gt;allowNet&lt;/span&gt;&lt;span class="pl-c1"&gt;=&lt;/span&gt;[&lt;span class="pl-s"&gt;"api.openai.com"&lt;/span&gt;],
+    &lt;span class="pl-s1"&gt;secrets&lt;/span&gt;&lt;span class="pl-c1"&gt;=&lt;/span&gt;{
+        &lt;span class="pl-s"&gt;"OPENAI_API_KEY"&lt;/span&gt;: {
+            &lt;span class="pl-s"&gt;"hosts"&lt;/span&gt;: [&lt;span class="pl-s"&gt;"api.openai.com"&lt;/span&gt;],
+            &lt;span class="pl-s"&gt;"value"&lt;/span&gt;: &lt;span class="pl-s1"&gt;os&lt;/span&gt;.&lt;span class="pl-c1"&gt;environ&lt;/span&gt;.&lt;span class="pl-c1"&gt;get&lt;/span&gt;(&lt;span class="pl-s"&gt;"OPENAI_API_KEY"&lt;/span&gt;),
+        }
+    },
+) &lt;span class="pl-k"&gt;as&lt;/span&gt; &lt;span class="pl-s1"&gt;sandbox&lt;/span&gt;:
+    &lt;span class="pl-c"&gt;# ... $OPENAI_API_KEY 可用&lt;/span&gt;&lt;/pre&gt;
+&lt;p&gt;在容器内部，&lt;code&gt;$OPENAI_API_KEY&lt;/code&gt;该值被设置为类似这样的形式：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;DENO_SECRET_PLACEHOLDER_b14043a2f578cba...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;发往&lt;code&gt;api.openai.com&lt;/code&gt;的API调用会经过一个代理，该代理知道这些占位符并将其替换为原始密钥。&lt;/p&gt;
+&lt;p&gt;这样，密钥本身对沙盒内的代码不可用，从而限制了恶意代码（例如来自提示注入）窃取这些密钥的能力。&lt;/p&gt;
+&lt;p&gt;从&lt;a href="https://news.ycombinator.com/item?id=46874097#46874959"&gt;Hacker News的一条评论&lt;/a&gt;中，我了解到Fly有一个名为&lt;a href="https://github.com/superfly/tokenizer"&gt;tokenizer&lt;/a&gt;的项目，实现了相同的模式。这已加入我在沙盒环境中使用的技巧清单！&lt;p&gt;&lt;small&gt;&lt;/small&gt;通过&lt;a href="https://news.ycombinator.com/item?id=46874097"&gt;Hacker News&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/python"&gt;python&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/sandboxing"&gt;sandboxing&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/security"&gt;security&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/deno"&gt;deno&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/fly"&gt;fly&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Tue, 03 Feb 2026 22:44:50 +0000</pubDate></item><item><title>一月赞助者专属通讯已发布</title><link>https://simonwillison.net/2026/Feb/3/january/#atom-everything</link><description>&lt;p&gt;我刚刚发送了&lt;a href="https://github.com/sponsors/simonw/"&gt;仅供赞助者阅读的月度通讯一月刊&lt;/a&gt;。如果您已是赞助者（或立即开启赞助），可以&lt;a href="https://github.com/simonw-private/monthly/blob/main/2026-01-january.md"&gt;点击此处查看&lt;/a&gt;。本期一月通讯内容包括：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;2026年大语言模型发展预测&lt;/li&gt;
 &lt;li&gt;编程智能体持续引发关注&lt;/li&gt;
@@ -1397,13 +1438,4 @@ Paul Kinlan is a web platform developer advocate at Google and recently turned h
 &lt;source src="https://static.simonwillison.net/static/2026/kakapo-timelapse.mp4" type="video/mp4"/&gt;
 &lt;/video&gt;
 &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href="https://www.metafilter.com/211927/The-only-parrot-to-have-a-polygynous-lek-breeding-system-sits-on-an-egg"&gt;MetaFilter&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/youtube"&gt;youtube&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/kakapo"&gt;kakapo&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/conservation"&gt;conservation&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sun, 25 Jan 2026 04:53:01 +0000</pubDate></item><item><title>别迷信“过程”</title><link>https://simonwillison.net/2026/Jan/24/dont-trust-the-process/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.youtube.com/watch?v=4u94juYwLLM"&gt;别再“迷信流程”&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;去年九月在柏林Hatch大会上，Anthropic设计主管（前Figma设计总监）温珍妮发表了一场颇具颠覆性的主题演讲。
-&lt;p&gt;&lt;img alt="Don't &amp;quot;Trust the process&amp;quot; slide, speaker shown on the left" src="https://static.simonwillison.net/static/2026/dont-trust-process.jpg"/&gt;&lt;/p&gt;
-&lt;p&gt;她指出，传统设计流程——从用户调研到人物画像，再到用户旅程和线框图...在正式开发前必须完成所有步骤——可能已不适应现今时代。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;核心观点&lt;/strong&gt;：当人人都能创造万物时，关键在于你选择和筛选创作内容的能力。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;设计师应当用原型设计取代流程依赖。人工智能使原型制作比以往更易上手且省时高效。&lt;/p&gt;
-&lt;p&gt;这场演讲让我联想到，AI辅助编程如何大幅降低构建&lt;em&gt;错误方案&lt;/em&gt;的成本。过去若设计方向出错，可能浪费数月开发时间，代价极其高昂。如今若错误方向仅耗费数日，我们就能更大胆地探索问题空间，积极试错。&lt;/p&gt;
-&lt;p&gt;作为长期的原型设计狂热者，这个观点简直是为我量身定制！&lt;p&gt;&lt;small&gt;&lt;/small&gt;来源&lt;a href="https://twitter.com/jenny_wen/status/2014479445738893649"&gt;@jenny_wen&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/design"&gt;设计&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/prototyping"&gt;原型设计&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式AI&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;AI辅助编程&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/vibe-coding"&gt;氛围编程&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Sat, 24 Jan 2026 23:31:03 +0000</pubDate></item></channel></rss>
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/youtube"&gt;youtube&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/kakapo"&gt;kakapo&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/conservation"&gt;conservation&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sun, 25 Jan 2026 04:53:01 +0000</pubDate></item></channel></rss>
