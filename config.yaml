@@ -5,4 +5,12 @@ feeds:
     url: "http://www.aaronsw.com/2002/feeds/pgessays.rss"
   - name: "SimonWillison"
     url: "https://simonwillison.net/atom/everything/"
+  - name: "marco"
+    url: "https://marco.org/rss"
+  - name: "dereksivers"
+    url: "https://sive.rs/en.atom"
+  - name: "kaushikgopal"
+    url: "https://kau.sh/feed.xml"
+  - name: "astralcodexten"
+    url: "https://www.astralcodexten.com/feed"
   # 按这个格式添加更多源
