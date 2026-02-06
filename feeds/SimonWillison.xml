@@ -1,5 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Thu, 05 Feb 2026 00:23:38 +0000</lastBuildDate><item><title>聚焦《世界概况》，深情告别</title><link>https://simonwillison.net/2026/Feb/5/the-world-factbook/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.cia.gov/stories/story/spotlighting-the-world-factbook-as-we-bid-a-fond-farewell/"&gt;聚焦《世界概况》的告别时刻&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;今日从中央情报局传来令人扼腕的消息：
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Fri, 06 Feb 2026 00:42:22 +0000</lastBuildDate><item><title>引用卡雷尔·杜斯特林克的话</title><link>https://simonwillison.net/2026/Feb/6/karel-doosterlinck/#atom-everything</link><description>&lt;blockquote cite="https://twitter.com/kareldoostrlnck/status/2019477361557926281"&gt;&lt;p&gt;当我想在不熟悉的代码库中快速实现一次性实验时，我会让Codex进行全面的尽职调查。Codex会探索相关的Slack频道，阅读相关讨论，从这些讨论中获取实验分支，并为我的实验精选有用的更改。所有这些都会被总结成一套详尽的笔记，并附有每条信息来源的链接。利用这些笔记，Codex会搭建实验框架，并做出许多超参数决策，这些决策如果没有更多努力，我是不可能做出的。
+
+---
+
+Karel D'Oosterlinck
+
+，我花了10,000美元用Codex在OpenAI自动化我的研究
+
+标签：
+codex-cli
+,
+coding-agents
+,
+ai-assisted-programming
+,
+generative-ai
+,
+openai
+,
+ai
+,
+llms&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class="cite"&gt;— &lt;a href="https://twitter.com/kareldoostrlnck/status/2019477361557926281"&gt;Karel D'Oosterlinck&lt;/a&gt;, I spent $10,000 to automate my research at OpenAI with Codex&lt;/p&gt;
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/codex-cli"&gt;codex-cli&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/openai"&gt;openai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 06 Feb 2026 00:42:22 +0000</pubDate></item><item><title>米切尔·哈希莫夫：我的人工智能应用之旅</title><link>https://simonwillison.net/2026/Feb/5/ai-adoption-journey/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://mitchellh.com/writing/my-ai-adoption-journey"&gt;Mitchell Hashimoto：我的AI应用之旅&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;文中包含一些非常规但极其实用的技巧，能帮助你将编程助手真正融入工作流并切实提升效率。我特别欣赏以下几点：
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://mitchellh.com/writing/my-ai-adoption-journey#step-2-reproduce-your-own-work"&gt;复现自己的工作成果&lt;/a&gt;- 在学习使用编程助手时，Mitchell曾经历这样一个阶段：先手动完成任务，再刻意训练助手复现相同解决方案：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我确实把每项工作都做了两遍。先手动完成，然后引导助手在无法参考我手动方案的前提下，产出质量与功能完全一致的结果。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://mitchellh.com/writing/my-ai-adoption-journey#step-3-end-of-day-agents"&gt;每日收工助手&lt;/a&gt;- 在精力耗尽时让助手接手工作：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;为了提升效率，我开始尝试新模式：&lt;strong&gt;每天预留最后30分钟启动一个或多个助手。&lt;/strong&gt;我的设想是：&lt;em&gt;或许&lt;/em&gt;当我自己无法继续工作时，助手仍能取得&lt;em&gt;实质性进展&lt;/em&gt;从而提升整体效率。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://mitchellh.com/writing/my-ai-adoption-journey#step-4-outsource-the-slam-dunks"&gt;外包确定性任务&lt;/a&gt;- 当你确认助手能胜任某项任务时，就交由它处理，自己则专注于更有挑战性的工作。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;small&gt;&lt;/small&gt;来源：&lt;a href="https://news.ycombinator.com/item?id=46903558"&gt;Hacker News&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式AI&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;AI辅助编程&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/mitchell-hashimoto"&gt;mitchell-hashimoto&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/coding-agents"&gt;编程助手&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 05 Feb 2026 23:39:07 +0000</pubDate></item><item><title>作品4.6与法典5.3</title><link>https://simonwillison.net/2026/Feb/5/two-new-models/#atom-everything</link><description>&lt;p&gt;今天两大新模型相继发布，间隔仅约15分钟。
+
+Anthropic推出了Opus 4.6版本，其宣传图如下：
+
+OpenAI发布了GPT-5.3-Codex，不过目前仅通过其Codex应用程序提供，尚未开放API接口。其宣传图如下：
+
+我提前体验了这两款模型，但说实话很难找到独特的报道角度——它们表现都非常出色，可之前的Codex 5.2和Opus 4.5同样优秀。我一直在寻找前代模型无法处理而新版能轻松胜任的任务，但至今没有明显发现。
+
+目前关于新模型能力最令人信服的案例，来自Anthropic的尼古拉斯·卡里尼对Opus 4.6的介绍，以及他演示的"用并行Claude团队构建C编译器"项目——这相当于Anthropic版的Cursor FastRender项目。
+
+标签：llm-release、anthropic、generative-ai、openai、pelican-riding-a-bicycle、ai、llms、parallel-agents、c、nicholas-carlini&lt;/p&gt;
+&lt;p&gt;Anthropic &lt;a href="https://www.anthropic.com/news/claude-opus-4-6"&gt;released Opus 4.6&lt;/a&gt;. Here's &lt;a href="https://gist.github.com/simonw/a6806ce41b4c721e240a4548ecdbe216"&gt;its pelican&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Slightly wonky bicycle frame but an excellent pelican, very clear beak and pouch, nice feathers." src="https://static.simonwillison.net/static/2026/opus-4.6-pelican.png"/&gt;&lt;/p&gt;
+&lt;p&gt;OpenAI &lt;a href="https://openai.com/index/introducing-gpt-5-3-codex/"&gt;release GPT-5.3-Codex&lt;/a&gt;, albeit only via their Codex app, not yet in their API. Here's &lt;a href="https://gist.github.com/simonw/bfc4a83f588ac762c773679c0d1e034b"&gt;its pelican&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Not nearly as good - the bicycle is a bit mangled, the pelican not nearly as well rendered - it's more of a line drawing." src="https://static.simonwillison.net/static/2026/codex-5.3-pelican.png"/&gt;&lt;/p&gt;
+&lt;p&gt;I've had a bit of preview access to both of these models and to be honest I'm finding it hard to find a good angle to write about them - they're both &lt;em&gt;really good&lt;/em&gt;, but so were their predecessors Codex 5.2 and Opus 4.5. I've been having trouble finding tasks that those previous models couldn't handle but the new ones are able to ace.&lt;/p&gt;
+&lt;p&gt;The most convincing story about capabilities of the new model so far is Nicholas Carlini from Anthropic talking about Opus 4.6 and &lt;a href="https://www.anthropic.com/engineering/building-c-compiler"&gt;Building a C compiler with a team of parallel Claudes&lt;/a&gt; - Anthropic's version of Cursor's &lt;a href="https://simonwillison.net/2026/Jan/23/fastrender/"&gt;FastRender project&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/llm-release"&gt;llm-release&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/anthropic"&gt;anthropic&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/openai"&gt;openai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/pelican-riding-a-bicycle"&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/parallel-agents"&gt;parallel-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/c"&gt;c&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/nicholas-carlini"&gt;nicholas-carlini&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 05 Feb 2026 20:29:20 +0000</pubDate></item><item><title>聚焦《世界概况》，深情告别</title><link>https://simonwillison.net/2026/Feb/5/the-world-factbook/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.cia.gov/stories/story/spotlighting-the-world-factbook-as-we-bid-a-fond-farewell/"&gt;聚焦《世界概况》的告别时刻&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;今日从中央情报局传来令人扼腕的消息：
 &lt;blockquote&gt;
 &lt;p&gt;中情局历史最悠久、最具辨识度的情报出版物《世界概况》已悄然落幕。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -773,83 +832,4 @@ Dan Shapiro proposes a five level model of AI-assisted programming, inspired by 
 &lt;p&gt;I'm hoping they come out of stealth soon because I can't really share more details than this.
 
 
-    &lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Wed, 28 Jan 2026 21:44:29 +0000</pubDate></item><item><title>一人一代理，从零打造浏览器。</title><link>https://simonwillison.net/2026/Jan/27/one-human-one-agent-one-browser/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://emsh.cat/one-human-one-agent-one-browser/"&gt;一人一智能体，从零打造浏览器&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;embedding-shapes开发者&lt;a href="https://emsh.cat/cursor-implied-success-without-evidence/"&gt;对Cursor公司&lt;/a&gt;FastRender浏览器项目&lt;a href="https://simonwillison.net/2026/Jan/23/fastrender/"&gt;的过度炒作感到&lt;/a&gt;极为恼火
-&lt;p&gt;——该项目动用数千个并行智能体生成约160万行Rust代码——这激发了他们亲自尝试用编码智能体构建网页浏览器。&lt;a href="https://github.com/embedding-shapes/one-agent-one-browser"&gt;成果就是&lt;/a&gt;“单智能体单浏览器”项目&lt;em&gt;，其表现&lt;/em&gt;确实&lt;/p&gt;
-&lt;p&gt;令人惊叹。他们花费三天时间驱动单个Codex CLI智能体，构建出2万行Rust代码，成功实现了不依赖任何Rust库的HTML+CSS渲染——尽管（合理地）调用了Windows、macOS和Linux系统的图像与文字渲染框架。&lt;a href="https://github.com/embedding-shapes/one-agent-one-browser/releases/tag/0.1.0"&gt;我安装了&lt;/a&gt;1MB的macOS二进制版本&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;chmod 755 ~/Downloads/one-agent-one-browser-macOS-ARM64 
-~/Downloads/one-agent-one-browser-macOS-ARM64 https://simonwillison.net/
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;并针对我的博客进行测试：&lt;/p&gt;
-&lt;p&gt;&lt;img alt="My blog rendered in a window. Everything is in the right place, the CSS gradients look good, the feed subscribe SVG icon is rendered correctly but there's a missing PNG image." src="https://static.simonwillison.net/static/2026/one-agent-simonwillison.jpg"/&gt;&lt;/p&gt;
-&lt;p&gt;结果如下：&lt;/p&gt;
-&lt;p&gt;它甚至渲染了我的SVG订阅图标！页面缺失了一个PNG图像，这似乎是间歇性错误（项目本身包含PNG渲染代码）。&lt;a href="https://github.com/embedding-shapes/one-agent-one-browser/blob/0.1.0/src/layout/flex.rs"&gt;代码可读性也很高——这是&lt;/a&gt;弹性盒布局的实现部分&lt;/p&gt;
-&lt;p&gt;。&lt;/p&gt;
-&lt;p&gt;我曾认为“构建网页浏览器”是检验编码智能体能力的理想命题，且需要复杂多智能体协作框架（如Cursor项目所示）及数百万行代码才能实现。&lt;/p&gt;
-&lt;p&gt;事实证明：一位优秀工程师驱动单个智能体，配合三天时间与2万行Rust代码，就足以打造出非常扎实的基础渲染器！&lt;a href="https://simonwillison.net/2026/Jan/8/llm-predictions-for-2026/#3-years-someone-will-build-a-new-browser-using-mainly-ai-assisted-coding-and-it-won-t-even-be-a-surprise"&gt;我将升级对&lt;/a&gt;2029年的预测&lt;em&gt;：届时我们将看到&lt;/em&gt;生产级&lt;p&gt;&lt;small&gt;&lt;/small&gt;网页浏览器由小型团队借助AI辅助构建完成。&lt;a href="https://news.ycombinator.com/item?id=46779522"&gt;消息来源&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;黑客新闻展示&lt;a href="https://simonwillison.net/tags/browsers"&gt;标签：&lt;/a&gt;浏览器&lt;a href="https://simonwillison.net/tags/predictions"&gt;、&lt;/a&gt;预测&lt;a href="https://simonwillison.net/tags/ai"&gt;、&lt;/a&gt;人工智能&lt;a href="https://simonwillison.net/tags/rust"&gt;、&lt;/a&gt;Rust语言&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;、&lt;/a&gt;生成式AI&lt;a href="https://simonwillison.net/tags/llms"&gt;、&lt;/a&gt;大语言模型&lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;、&lt;/a&gt;AI辅助编程&lt;a href="https://simonwillison.net/tags/coding-agents"&gt;、&lt;/a&gt;编码智能体&lt;a href="https://simonwillison.net/tags/codex-cli"&gt;、&lt;/a&gt;Codex命令行工具&lt;a href="https://simonwillison.net/tags/browser-challenge"&gt;、&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Tue, 27 Jan 2026 16:58:08 +0000</pubDate></item><item><title>Kimi K2.5：视觉智能体</title><link>https://simonwillison.net/2026/Jan/27/kimi-k25/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.kimi.com/blog/kimi-k2-5.html"&gt;Kimi K2.5：视觉智能体&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;Kimi K2 于&lt;a href="https://simonwillison.net/2025/Jul/11/kimi-k2/"&gt;七月&lt;/a&gt;作为万亿参数开源权重大语言模型发布。随后在&lt;a href="https://simonwillison.net/2025/Nov/6/kimi-k2-thinking/"&gt;十一月&lt;/a&gt;推出了具备推理能力的 Kimi K2 Thinking。如今其能力进一步扩展至多模态：K2 系列仅支持文本，而全新的 2.5 版本已能处理图像输入：
-&lt;blockquote&gt;
-&lt;p&gt;Kimi K2.5 基于 K2 架构，通过约 15 万亿视觉与文本混合标记的持续预训练实现进化。作为原生多模态模型，K2.5 在编程与视觉能力上达到顶尖水平，并开创了自主智能体集群范式。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;所谓“自主智能体集群范式”意味着其长序列工具调用能力得到增强，并经过训练可将任务分解为多个智能体并行处理：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;面对复杂任务时，Kimi K2.5 能自主调度最多 100 个子智能体组成的集群，通过高达 1500 次工具调用执行并行工作流。相比单智能体模式，执行效率最高提升 4.5 倍。该智能体集群完全由 Kimi K2.5 自动创建与编排，无需预设子智能体或工作流程。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;我通过&lt;a href="https://openrouter.ai/moonshotai/kimi-k2.5"&gt;OpenRouter 聊天界面&lt;/a&gt;要求其“生成鹈鹕骑自行车的 SVG 图像”，结果&lt;a href="https://gist.github.com/simonw/32a85e337fbc6ee935d10d89726c0476"&gt;相当出色&lt;/a&gt;：&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Cartoon illustration of a white pelican with a large orange beak and yellow throat pouch riding a green bicycle with yellow feet on the pedals, set against a light blue sky with soft bokeh circles and a green grassy hill. The bicycle frame is a little questionable. The pelican is quite good. The feet do not quite align with the pedals, which are floating clear of the frame." src="https://static.simonwillison.net/static/2026/kimi-k2.5-pelican.png"/&gt;&lt;/p&gt;
-&lt;p&gt;为进行更有趣的测试，我通过以下提示验证其多智能体规划能力：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“我需要开发一个 Datasette 插件，提供向 S3 存储桶上传文件的界面，并将文件信息存储至 SQLite 表。请将此需求分解为十个适合并行编码智能体执行的任务。”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这是&lt;a href="https://gist.github.com/simonw/ee2583b2eb5706400a4737f56d57c456"&gt;完整响应&lt;/a&gt;。它列出了十个切实可行的任务，并分析了任务间的依赖关系。作为对比，相同提示在&lt;a href="https://claude.ai/share/df9258e7-97ba-4362-83da-76d31d96196f"&gt;Claude Opus 4.5&lt;/a&gt;与&lt;a href="https://chatgpt.com/share/6978d48c-3f20-8006-9c77-81161f899104"&gt;GPT-5.2 Thinking&lt;/a&gt;上的表现可供参考。&lt;/p&gt;
-&lt;p&gt;其&lt;a href="https://huggingface.co/moonshotai/Kimi-K2.5"&gt;Hugging Face 存储库&lt;/a&gt;容量达 595GB。该模型采用 Kimi 略显特殊的“修订版 MIT 许可证”，其中附加了如下条款：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我们唯一的修改条款是：若该软件（或其任何衍生作品）被用于您的任何月活跃用户数超过1亿、或月收入超过2000万美元（或其他货币等值）的商业产品或服务中，您须在该产品或服务的用户界面上显著展示“Kimi K2.5”标识。
-
-考虑到模型规模，预计本地运行方案可能需要采用MLX框架并搭配两台配备512GB内存的M3 Ultra Mac Studio设备（单台价值约1万美元）。该配置已通过前期万亿参数K2模型的验证。
-
-消息来源：Hacker News
-
-标签：人工智能、大语言模型、Hugging Face、视觉大模型、LLM工具调用、AI智能体、骑自行车的鹈鹕、LLM发布、中国AI领域、Moonshot、并行智能体、Kimi、非标准许可证&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Given the model's size, I expect one way to run it locally would be with MLX and a pair of $10,000 512GB RAM M3 Ultra Mac Studios. That setup has &lt;a href="https://twitter.com/awnihannun/status/1943723599971443134"&gt;been demonstrated to work&lt;/a&gt; with previous trillion parameter K2 models.
-
-    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href="https://news.ycombinator.com/item?id=46775961"&gt;Hacker News&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/hugging-face"&gt;hugging-face&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/vision-llms"&gt;vision-llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llm-tool-use"&gt;llm-tool-use&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-agents"&gt;ai-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/pelican-riding-a-bicycle"&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llm-release"&gt;llm-release&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-in-china"&gt;ai-in-china&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/moonshot"&gt;moonshot&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/parallel-agents"&gt;parallel-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/kimi"&gt;kimi&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/janky-licenses"&gt;janky-licenses&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Tue, 27 Jan 2026 15:07:41 +0000</pubDate></item><item><title>让代码助手写出优质Python测试的技巧</title><link>https://simonwillison.net/2026/Jan/26/tests/#atom-everything</link><description>&lt;p&gt;有人在Hacker News上问我，关于让编程助手写出高质量测试有什么建议。以下是我的回答：
-
-我主要使用Python，这很有帮助，因为训练数据中有大量优秀的pytest测试范例，包括使用fixture库模拟外部HTTP API、快照测试等巧妙模式。
-
-我可以说“用pytest-httpx模拟端点”，Claude就能理解我的意思。
-
-关注测试质量很重要。最常见的反模式是大量重复的测试设置代码——虽然测试中的重复逻辑比实现代码更容易容忍，但仍值得改进。
-
-“用pytest.mark.parametrize重构这些测试”和“将通用设置提取到pytest fixture中”是很好的解决方案。
-
-不过，让编程助手产出好测试的最佳方式是确保它在已有良好测试模式的项目中工作。编程助手会自动学习现有模式，无需额外提示。
-
-我发现，一旦项目有了清晰的基础测试，助手新增的测试往往能保持同等质量。这就像在大型团队项目中工作——保持代码整洁意味着当人们寻找测试范例时，会获得正确的指引。
-
-最后我经常用这招：随时展示现有项目范例——让助手参考示例是最快展示你偏好的方式。
-
-标签：
-测试，
-编程助手，
-python，
-生成式AI，
-人工智能，
-大语言模型，
-黑客新闻，
-pytest&lt;a href="https://news.ycombinator.com/item?id=46765460#46765823"&gt;asked&lt;/a&gt; on Hacker News if I had any tips for getting coding agents to write decent quality tests. Here's what I said:&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;I work in Python which helps a lot because there are a TON of good examples of pytest tests floating around in the training data, including things like usage of fixture libraries for mocking external HTTP APIs and snapshot testing and other neat patterns.&lt;/p&gt;
-&lt;p&gt;Or I can say "use pytest-httpx to mock the endpoints" and Claude knows what I mean.&lt;/p&gt;
-&lt;p&gt;Keeping an eye on the tests is important. The most common anti-pattern I see is large amounts of duplicated test setup code - which isn't a huge deal, I'm much more more tolerant of duplicated logic in tests than I am in implementation, but it's still worth pushing back on.&lt;/p&gt;
-&lt;p&gt;"Refactor those tests to use pytest.mark.parametrize" and "extract the common setup into a pytest fixture" work really well there.&lt;/p&gt;
-&lt;p&gt;Generally though the best way to get good tests out of a coding agent is to make sure it's working in a project with an existing test suite that uses good patterns. Coding agents pick the existing patterns up without needing any extra prompting at all.&lt;/p&gt;
-&lt;p&gt;I find that once a project has clean basic tests the new tests added by the agents tend to match them in quality. It's similar to how working on large projects with a team of other developers work - keeping the code clean means when people look for examples of how to write a test they'll be pointed in the right direction.&lt;/p&gt;
-&lt;p&gt;One last tip I use a lot is this:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;Clone datasette/datasette-enrichments
-from GitHub to /tmp and imitate the
-testing patterns it uses
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;I do this all the time with different existing projects I've written - the quickest way to show an agent how you like something to be done is to have it look at an example.&lt;/p&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/testing"&gt;testing&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/python"&gt;python&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/hacker-news"&gt;hacker-news&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/pytest"&gt;pytest&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 26 Jan 2026 23:55:29 +0000</pubDate></item></channel></rss>
+    &lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Wed, 28 Jan 2026 21:44:29 +0000</pubDate></item></channel></rss>
