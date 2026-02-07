@@ -1,5 +1,153 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Fri, 06 Feb 2026 23:41:31 +0000</lastBuildDate><item><title>引用汤姆·戴尔的话</title><link>https://simonwillison.net/2026/Feb/6/tom-dale/#atom-everything</link><description>&lt;blockquote cite="https://twitter.com/tomdale/status/2019828626972131441"&gt;&lt;p&gt;不知为何这周成了临界点，与我交谈过的几乎每位软件工程师都正经历某种程度的心理健康危机。
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Sat, 07 Feb 2026 15:40:48 +0000</lastBuildDate><item><title>StrongDM的AI团队如何在不看代码的情况下构建重要软件</title><link>https://simonwillison.net/2026/Feb/7/software-factory/#atom-everything</link><description>&lt;p&gt;上周我提到过一个团队演示，他们实现了丹·夏皮罗所说的"暗黑工厂"级AI应用——人类甚至无需查看编码智能体生成的代码。该团队来自StrongDM公司，他们刚刚首次公开描述了如何在"软件工厂与智能体时刻"中开展工作：
+
+我们构建了"软件工厂"：这是一种非交互式开发模式，由需求规格和场景驱动智能体编写代码、运行测试框架并自动收敛，全程无需人工审核。[...]
+
+以禅语或箴言形式呈现：
+为何由我动手？（潜台词：这该由模型代劳）
+
+以规则形式呈现：
+代码必须不由人类编写
+代码必须不经人类审核
+
+最终以实践形式呈现：
+若团队每位人类工程师当日令牌开销未达1000美元，则说明你的软件工厂尚有改进空间
+
+我认为其中最耐人寻味的无疑是"代码必须不经人类审核"。当我们都清楚大语言模型多么容易犯非人类错误时，这怎么可能成为合理策略？
+
+近来我注意到许多开发者开始认同"2025年11月拐点"——当Claude Opus 4.5和GPT 5.2出现时，编码智能体在遵循指令和执行复杂编码任务方面的可靠性发生了质变。StrongDM的AI团队其实早在2025年7月就已成立，其契机是更早的Claude Sonnet 3.5带来的转折：
+
+催化剂是2024年末观察到的转变：随着Claude 3.5第二次版本迭代（2024年10月），长周期智能体编码工作流开始累积正确性而非错误。到2024年12月，通过Cursor的"YOLO模式"已能清晰见证模型在长周期编码任务中的卓越表现。
+
+这个新团队创立时便立下"杜绝手工编码"的准则——这在2025年7月堪称激进，但据我观察，截至2026年1月已有大量资深开发者开始采纳这种模式。&lt;a href="https://simonwillison.net/2026/Jan/28/the-five-levels/"&gt;I hinted at&lt;/a&gt; a demo I had seen from a team implementing what Dan Shapiro called &lt;a href="https://www.danshapiro.com/blog/2026/01/the-five-levels-from-spicy-autocomplete-to-the-software-factory/"&gt;the Dark Factory&lt;/a&gt; level of AI adoption, where no human even looks at the code the coding agents are producing. That team was part of StrongDM, and they've just shared the first public description of how they are working in &lt;a href="https://factory.strongdm.ai"&gt;Software Factories and the Agentic Moment&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We built a &lt;strong&gt;Software Factory&lt;/strong&gt;: non-interactive development where specs + scenarios drive agents that write code, run harnesses, and converge without human review. [...]&lt;/p&gt;
+&lt;p&gt;In kōan or mantra form:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Why am I doing this? (implied: the model should be doing this instead)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In rule form:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Code &lt;strong&gt;must not be&lt;/strong&gt; written by humans&lt;/li&gt;
+&lt;li&gt;Code &lt;strong&gt;must not be&lt;/strong&gt; reviewed by humans&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Finally, in practical form:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If you haven't spent at least &lt;strong&gt;$1,000 on tokens today&lt;/strong&gt; per human engineer, your software factory has room for improvement&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I think the most interesting of these, without a doubt, is "Code &lt;strong&gt;must not be&lt;/strong&gt; reviewed by humans". How could that &lt;em&gt;possibly&lt;/em&gt; be a sensible strategy when we all know how prone LLMs are to making &lt;a href="https://simonwillison.net/2025/Mar/2/kellan-elliott-mccrea/"&gt;inhuman mistakes&lt;/a&gt;?&lt;/p&gt;
+&lt;p&gt;I've seen many developers recently acknowledge the &lt;a href="https://simonwillison.net/2026/Jan/4/inflection/"&gt;November 2025 inflection point&lt;/a&gt;, where Claude Opus 4.5 and GPT 5.2 appeared to turn the corner on how reliably a coding agent could follow instructions and take on complex coding tasks. StrongDM's AI team was founded in July 2025 based on an earlier inflection point relating to Claude Sonnet 3.5:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The catalyst was a transition observed in late 2024: with the second revision of Claude 3.5 (October 2024), long-horizon agentic coding workflows began to compound correctness rather than error.&lt;/p&gt;
+&lt;p&gt;By December of 2024, the model's long-horizon coding performance was unmistakable via Cursor's &lt;a href="https://forum.cursor.com/t/yolo-mode-is-amazing/36262"&gt;YOLO mode&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Their new team started with the rule "no hand-coded software" - radical for July 2025, but something I'm seeing significant numbers of experienced developers start to adopt as of January 2026.&lt;/p&gt;
+&lt;p&gt;他们很快遇到了一个显而易见的问题：如果不亲手编写任何代码，如何确保代码真正有效？让智能体编写测试只能在不作弊的前提下提供帮助。
+
+这或许是当前软件开发中最关键的问题：当代码实现和测试用例都由编程智能体代劳时，如何证明你正在开发的软件确实能正常运行？
+
+StrongDM的解决方案灵感来源于场景测试理论。他们这样描述其方法：
+
+我们重新定义了"场景"一词，用它来代表端到端的"用户故事"。这些场景通常存储在代码库之外，类似于模型训练中的"保留集"，能够被大语言模型直观理解并进行灵活验证。
+
+由于我们开发的软件本身具有智能体特性，我们将成功标准从布尔判定转变为概率化实证评估。我们使用"满意度"来量化验证结果：在所有场景观察到的运行轨迹中，有多少比例可能满足用户需求？
+
+将场景视为保留集——用于评估软件却不让编程智能体接触——这个构想令人着迷。它模拟了外部质量保证团队进行的严格测试，这种传统软件质量保障方式虽然成本高昂却极为有效。
+
+这引出了StrongDM的"数字孪生宇宙"概念，也是演示中最令我印象深刻的部分。
+
+他们正在开发的软件用于管理跨平台服务的用户权限。这本身就值得关注——安全软件本应是最不可能使用未经审查的大语言模型代码构建的领域！
+
+数字孪生宇宙是我们软件所依赖第三方服务的行为克隆体。我们构建了Okta、Jira、Slack、Google文档、Google云端硬盘和Google表格的数字孪生，完整复现了它们的应用程序接口、边界情况和可观测行为。&lt;code&gt;assert true&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;This feels like the most consequential question in software development right now: how can you &lt;a href="https://simonwillison.net/2025/Dec/18/code-proven-to-work/"&gt;prove that software you are producing works&lt;/a&gt; if both the implementation and the tests are being written for you by coding agents?&lt;/p&gt;
+&lt;p&gt;StrongDM's answer was inspired by &lt;a href="https://en.wikipedia.org/wiki/Scenario_testing"&gt;Scenario testing&lt;/a&gt; (Cem Kaner, 2003). As StrongDM describe it:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We repurposed the word &lt;strong&gt;scenario&lt;/strong&gt; to represent an end-to-end "user story", often stored outside the codebase (similar to a "holdout" set in model training), which could be intuitively understood and flexibly validated by an LLM.&lt;/p&gt;
+&lt;p&gt;Because much of the software we grow itself has an agentic component, we transitioned from boolean definitions of success ("the test suite is green") to a probabilistic and empirical one. We use the term &lt;strong&gt;satisfaction&lt;/strong&gt; to quantify this validation: of all the observed trajectories through all the scenarios, what fraction of them likely satisfy the user?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;That idea of treating scenarios as holdout sets - used to evaluate the software but not stored where the coding agents can see them - is &lt;em&gt;fascinating&lt;/em&gt;. It imitates aggressive testing by an external QA team - an expensive but highly effective way of ensuring quality in traditional software.&lt;/p&gt;
+&lt;p&gt;Which leads us to StrongDM's concept of a &lt;strong&gt;Digital Twin Universe&lt;/strong&gt; - the part of the demo I saw that made the strongest impression on me.&lt;/p&gt;
+&lt;p&gt;The software they were building helped manage user permissions across a suite of connected services. This in itself was notable - security software is the last thing you would expect to be built using unreviewed LLM code!&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[The Digital Twin Universe is] behavioral clones of the third-party services our software depends on. We built twins of Okta, Jira, Slack, Google Docs, Google Drive, and Google Sheets, replicating their APIs, edge cases, and observable behaviors.&lt;/p&gt;
+&lt;p&gt;借助数字孪生单元，我们能够以远超生产限制的规模和速率进行验证。我们可以测试那些在真实服务中危险或无法实施的故障模式。每小时运行数千种场景，既不会触及速率限制、触发滥用检测，也不会累积API成本。
+
+如何克隆Okta、Jira、Slack等系统的核心功能？答案是编码智能体！
+
+据我理解，其诀窍在于将某个服务的完整公开API文档导入智能体框架，让它构建一个自包含的Go二进制文件来模拟该API。随后还能在此基础上构建简化版用户界面，以完善整个模拟系统。
+
+通过拥有这些服务的独立克隆体——不受速率限制或使用配额约束——他们的模拟测试大军得以
+
+肆意驰骋
+
+。场景测试转化为智能体脚本，在新系统构建过程中持续执行。
+
+这张Slack克隆体的截图也清晰展示了测试流程：模拟Okta用户流即将接入不同模拟系统的动态过程。
+
+快速构建Slack核心功能的可用克隆体，彰显了新一代编码智能体工具的颠覆性潜力：
+
+创建高保真度的重量级SaaS应用克隆体虽技术可行，却始终受经济成本制约。历代工程师或许
+
+渴望
+
+拥有完整的CRM内存副本用于测试，但最终都自我否定了构建提案。
+
+技术方案页面
+
+同样值得关注。除数字孪生宇宙外，他们还提出了
+
+基因输注
+
+（让智能体从现有系统提取模式并移植到新场景）、
+
+语义移植
+
+（直接跨语言移植代码）以及
+
+金字塔摘要
+
+（提供多层级摘要，使智能体能快速枚举简版概要，并按需深入细节信息）等创新概念。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;How do you clone the important parts of Okta, Jira, Slack and more? With coding agents!&lt;/p&gt;
+&lt;p&gt;As I understood it the trick was effectively to dump the full public API documentation of one of those services into their agent harness and have it build an imitation of that API, as a self-contained Go binary. They could then have it build a simplified UI over the top to help complete the simulation.&lt;/p&gt;
+&lt;p&gt;With their own, independent clones of those services - free from rate-limits or usage quotas - their army of simulated testers could go &lt;em&gt;wild&lt;/em&gt;. Their scenario tests became scripts for agents to constantly execute against the new systems as they were being built.&lt;/p&gt;
+&lt;p&gt;This screenshot of their Slack twin also helps illustrate how the testing process works, showing a stream of simulated Okta users who are about to need access to different simulated systems.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Screenshot of a Slack-like interface titled &amp;quot;DTU Slack&amp;quot; showing a thread view (Thread — C4B9FBB97) with &amp;quot;Focus first&amp;quot; and &amp;quot;Leave&amp;quot; buttons. The left sidebar lists channels including # org-general (182), # general (0) (shared×2), # it-support (0), # channel-0002 (0) (shared×2), # channel-0003 (0) through # channel-0020 (0), # org-finance (1), and a DMs section with a &amp;quot;Start&amp;quot; button. A &amp;quot;Create&amp;quot; button appears at the top of the sidebar. The main thread shows approximately 9 automated introduction messages from users with Okta IDs (e.g. @okta-u-423438-00001, @okta-u-423438-00002, etc.), all timestamped 2025-11-12Z between 18:50:31 and 18:51:51. Each message follows the format &amp;quot;Hi team! I'm [Name], joining as Employee in general. Key skills: [fictional skill phrases]. Excited to contribute!&amp;quot; All users have red/orange &amp;quot;O&amp;quot; avatar icons." src="https://static.simonwillison.net/static/2026/strong-dm-slack.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;This ability to quickly spin up a useful clone of a subset of Slack helps demonstrate how disruptive this new generation of coding agent tools can be:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Creating a high fidelity clone of a significant SaaS application was always possible, but never economically feasible. Generations of engineers may have &lt;em&gt;wanted&lt;/em&gt; a full in-memory replica of their CRM to test against, but self-censored the proposal to build it.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The &lt;a href="https://factory.strongdm.ai/techniques"&gt;techniques page&lt;/a&gt; is worth a look too. In addition to the Digital Twin Universe they introduce terms like &lt;strong&gt;&lt;a href="https://factory.strongdm.ai/techniques/gene-transfusion"&gt;Gene Transfusion&lt;/a&gt;&lt;/strong&gt; for having agents extract patterns from existing systems and reuse them elsewhere, &lt;strong&gt;&lt;a href="https://factory.strongdm.ai/techniques/semport"&gt;Semports&lt;/a&gt;&lt;/strong&gt; for directly porting code from one language to another and &lt;strong&gt;&lt;a href="https://factory.strongdm.ai/techniques/pyramid-summaries"&gt;Pyramid Summaries&lt;/a&gt;&lt;/strong&gt; for providing multiple levels of summary such that an agent can enumerate the short ones quickly and zoom in on more detailed information as it is needed.&lt;/p&gt;
+&lt;p&gt;StrongDM AI 也发布了一些软件——以一种恰如其分的非传统方式。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/strongdm/attractor"&gt;github.com/strongdm/attractor&lt;/a&gt;是&lt;strong&gt;Attractor&lt;/strong&gt;，他们软件工厂核心的非交互式编码代理。只不过这个仓库本身根本不包含任何代码——只有三个 Markdown 文件，极其详细地描述了软件规范，以及 README 中的一条说明：你应该把这些规范输入到你选择的编码代理中！&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/strongdm/cxdb"&gt;github.com/strongdm/cxdb&lt;/a&gt;则是一个更传统的发布，包含 16,000 行 Rust 代码、9,500 行 Go 代码和 6,700 行 TypeScript 代码。这是他们的“AI 上下文存储”——一个用于在不可变的 DAG 中存储对话历史和工具输出的系统。&lt;/p&gt;
+&lt;p&gt;它类似于我的 LLM 工具的&lt;a href="https://llm.datasette.io/en/stable/logging.html#sql-schema"&gt;SQLite 日志机制&lt;/a&gt;但要复杂得多。我可能得从这里面“基因移植”一些想法出来！&lt;/p&gt;
+&lt;h4 id="a-glimpse-of-the-future-"&gt;未来的惊鸿一瞥？&lt;/h4&gt;
+&lt;p&gt;去年十月，我作为受邀嘉宾小组的一员访问了 StrongDM AI 团队。&lt;/p&gt;
+&lt;p&gt;Justin McCarthy、Jay Taylor 和 Navan Chauhan 三人团队才组建了三个月，但他们已经有了编码代理工具的工作演示、半打服务的数字孪生宇宙克隆，以及一群模拟测试代理在运行场景。而这还是在 Opus 4.5/GPT 5.2 发布之前——这些发布在一个月后让代理编码的可靠性显著提升。&lt;/p&gt;
+&lt;p&gt;这感觉像是窥见了软件开发的一种潜在未来：软件工程师从编写代码转向构建并半监控那些编写代码的系统。黑暗工厂。&lt;/p&gt;
+&lt;h4 id="wait-1-000-day-per-engineer-"&gt;等等，每个工程师每天 1,000 美元？&lt;/h4&gt;
+&lt;p&gt;我在本文最初发布的版本中略过了这个细节，但它值得认真关注。&lt;/p&gt;
+&lt;p&gt;如果这些模式真会让每位工程师的月度预算增加两万美元，那它们对我的吸引力就大打折扣了。这更像是在探讨商业模式：能否打造出足够盈利的产品线，来支撑这种高成本的软件开发方式？
+
+当任何竞争对手都可能通过几小时的智能编码工作克隆你的最新功能时，构建可持续的软件业务也变得截然不同。
+
+我希望这些模式的实施成本能大幅降低。我个人发现每月200美元的Claude Max套餐已足够支持我尝试各种智能体模式——当然，我也没有让一群QA测试员24小时连轴转！
+
+我认为即使对于不打算在代币成本上投入数千美元的团队和个人，StrongDM的经验也极具借鉴意义。我特别关注的是：如何让智能体自主验证代码的可行性，而无需人工逐行审查。
+
+标签：
+人工智能、
+生成式人工智能、
+大语言模型、
+AI辅助编程、
+编码智能体、
+并行智能体&lt;/p&gt;
+&lt;p&gt;Building sustainable software businesses also looks very different when any competitor can potentially clone your newest features with a few hours of coding agent work.&lt;/p&gt;
+&lt;p&gt;I hope these patterns can be put into play with a much lower spend. I've personally found the $200/month Claude Max plan gives me plenty of space to experiment with different agent patterns, but I'm also not running a swarm of QA testers 24/7!&lt;/p&gt;
+&lt;p&gt;I think there's a lot to learn from StrongDM even for teams and individuals who aren't going to burn thousands of dollars on token costs. I'm particularly invested in the question of what it takes to have agents prove that their code works without needing to review every line of code they produce.&lt;/p&gt;
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/parallel-agents"&gt;parallel-agents&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sat, 07 Feb 2026 15:40:48 +0000</pubDate></item><item><title>引用汤姆·戴尔的话</title><link>https://simonwillison.net/2026/Feb/6/tom-dale/#atom-everything</link><description>&lt;blockquote cite="https://twitter.com/tomdale/status/2019828626972131441"&gt;&lt;p&gt;不知为何这周成了临界点，与我交谈过的几乎每位软件工程师都正经历某种程度的心理健康危机。
 
 [...] 许多人以为我指的是失业焦虑，但这只是表象之一。我目睹着软件从稀缺转向过剩所引发的近乎狂躁的状态。围绕智能体使用的强迫性行为。面对变革时间压缩产生的解离性惊愕。这不一定是恐惧，而是在历史拐点中生存所承受的认知超载。
 
@@ -688,34 +836,4 @@ Python工具捕获网络摄像头流
 &lt;p&gt;The billion dollar question right now is whether we can figure out how to build a &lt;em&gt;safe&lt;/em&gt; version of this system. The demand is very clearly here, and the &lt;a href="https://simonwillison.net/2025/Dec/10/normalization-of-deviance/"&gt;Normalization of Deviance&lt;/a&gt; dictates that people will keep taking bigger and bigger risks until something terrible happens.&lt;/p&gt;
 &lt;p&gt;The most promising direction I've seen around this remains the &lt;a href="https://simonwillison.net/2025/Apr/11/camel/"&gt;CaMeL proposal&lt;/a&gt;虽然DeepMind提出了相关概念，但那是十个月前的事了，至今我仍未见到对其所描述模式的令人信服的实现。&lt;/p&gt;
 &lt;p&gt;需求确实存在。人们已经见识到不受限制的个人数字助理能做什么。&lt;/p&gt;
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/tailscale"&gt;Tailscale&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/prompt-injection"&gt;提示注入&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/claude"&gt;Claude&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/ai-agents"&gt;AI代理&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;人工智能伦理&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/lethal-trifecta"&gt;致命三重奏&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/skills"&gt;技能&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/peter-steinberger"&gt;彼得·斯坦伯格&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/openclaw"&gt;OpenClaw&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 30 Jan 2026 16:43:23 +0000</pubDate></item><item><title>咱们得聊聊AI作为艺术创作编程工具这事儿。</title><link>https://simonwillison.net/2026/Jan/30/a-programming-tool-for-the-arts/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.tiktok.com/@chris_ashworth/video/7600801037292768525"&gt;我们得聊聊AI作为艺术领域的编程工具。克里斯·阿什沃思是QLab的创始人兼CEO，这款macOS软件专为现场戏剧演出提供"基于提示的多媒体播放"功能，旨在实现灯光和音频的自动化控制。最近我开始在TikTok上关注他，他经常分享自己的事业和戏剧自动化相关内容——克里斯在巴尔的摩创立了Voxel剧院，这里既是QLab的演出场地，也是教学中心和研究实验室（这是剧院的专题报道），这些视频让我这个门外汉得以窥见一个迷人的新世界。
-
-他最新发布的TikTok视频讲述了自己的"克劳德·奥普斯时刻"：借助克劳德代码，他为某个非常小众的项目开发了定制灯光设计应用，短短几天就完成了原本根本抽不出时间打造的工具。克里斯全职从事艺术工作，对生成式AI始终保持着理性的怀疑态度。有趣的是，我们看到他在这种矛盾中逐步认识到，这项技术确实能为所服务的社群打造出有价值的应用工具。
-
-过去两年里，我至少一直对这类技术持温和的怀疑态度。每次接触时都觉得它是垃圾，既不感兴趣也不实用。[...]但作为程序员，如果听说某项技术正在改变编程，就必须时不时去了解下。几周前我终于去尝试了，结果完全不同。简直令人震惊。[...]&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-Chris Ashworth is the creator and CEO of &lt;a href="https://en.wikipedia.org/wiki/QLab"&gt;QLab&lt;/a&gt;, a macOS software package for “cue-based, multimedia playback” which is designed to automate lighting and audio for live theater productions.
-&lt;p&gt;I recently started following him on TikTok where he posts about his business and theater automation in general - Chris founded &lt;a href="https://voxel.org/faq/"&gt;the Voxel&lt;/a&gt; theater in Baltimore which QLab use as a combined performance venue, teaching hub and research lab (here's &lt;a href="https://bmoreart.com/2024/09/the-voxel-is-a-cutting-edge-theater-experiment.html"&gt;a profile of the theater&lt;/a&gt;), and the resulting videos offer a fascinating glimpse into a world I know virtually nothing about.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.tiktok.com/@chris_ashworth/video/7600801037292768525"&gt;This latest TikTok&lt;/a&gt; describes his Claude Opus moment, after he used Claude Code to build a custom lighting design application for a &lt;em&gt;very&lt;/em&gt; niche project and put together a useful application in just a few days that he would never have been able to spare the time for otherwise.&lt;/p&gt;
-&lt;p&gt;Chris works full time in the arts and comes at generative AI from a position of rational distrust. It's interesting to see him working through that tension to acknowledge that there are valuable applications here to build tools for the community he serves.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;I have been at least gently skeptical about all this stuff for the last two years. Every time I checked in on it, I thought it was garbage, wasn't interested in it, wasn't useful. [...] But as a programmer, if you hear something like, this is changing programming, it's important to go check it out once in a while. So I went and checked it out a few weeks ago. And it's different. It's astonishing. [...]&lt;/p&gt;
-&lt;p&gt;通过这次实践我明白了一件事：它无法让你从根本上变成一个比现在更优秀的程序员。它能做的，是让原本糟糕的程序员更快地产出糟糕的程序。而根据我目前的测试，它也能让优秀的程序员更快地创作出优秀的程序。[...] 我看到有些程序员说："我交付的代码自己都没检查过，也看不懂。"这让我不寒而栗，我认为这很可怕。但如果你有能力理解它生成的代码，并对其进行指导、设计、编辑、删除和质量把控，那效果会令人惊叹。[...]
-
-我看到的积极一面——也是我认为值得接受的——是这款应用程序如果让我以职业程序员身份来开发，永远不可能有时间完成。因为它的受众只有三个人。[...] 要我耗费二十年为艺术家设计软件的经验，去为三个人开发如此精致的应用程序，这绝对不值得。而现在我只用了几天就完成了。[...]
-
-我知道很多人非常抵触这项技术，某种程度上我也在其中。但我们必须承认，这是一个改变职业生涯的时刻。其实我很讨厌自己这么说，因为过去两年我都不相信这一点。[...] 这就像拥有满屋子的电动工具。我不会让未经训练的人进入这样的房间，因为他们可能会切掉手指。但如果懂得使用工具的人同时拥有手动工具、电锯、电钻和车床，他们就能以更快的速度完成大量工作。
-
-标签：
-戏剧，
-人工智能，
-生成式人工智能，
-大语言模型，
-AI辅助编程，
-抖音，
-人工智能伦理，
-编程助手，
-Claude代码&lt;/p&gt;
-&lt;p&gt;The positive thing I see here, and I think is worth coming to terms with, is this is an application that I would never have had time to write as a professional programmer. Because the audience is three people. [...] There's no way it was worth it to me to spend my energy of 20 years designing and implementing software for artists to build an app for three people that is this level of polish. And it took me a few days. [...]&lt;/p&gt;
-&lt;p&gt;I know there are a lot of people who really hate this technology, and in some ways I'm among them. But I think we've got to come to terms with this is a career-changing moment. And I really hate that I'm saying that because I didn't believe it for the last two years. [...] It's like having a room full of power tools. I wouldn't want to send an untrained person into a room full of power tools because they might chop off their fingers. But if someone who knows how to use tools has the option to have both hand tools and a power saw and a power drill and a lathe, there's a lot of work they can do with those tools at a lot faster speed.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/theatre"&gt;theatre&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/tiktok"&gt;tiktok&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;ai-ethics&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 30 Jan 2026 03:51:53 +0000</pubDate></item></channel></rss>
+&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/tailscale"&gt;Tailscale&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/prompt-injection"&gt;提示注入&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/claude"&gt;Claude&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/ai-agents"&gt;AI代理&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;人工智能伦理&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/lethal-trifecta"&gt;致命三重奏&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/skills"&gt;技能&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/peter-steinberger"&gt;彼得·斯坦伯格&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/openclaw"&gt;OpenClaw&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 30 Jan 2026 16:43:23 +0000</pubDate></item></channel></rss>
