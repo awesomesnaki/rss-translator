@@ -1,5 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Fri, 06 Feb 2026 00:42:22 +0000</lastBuildDate><item><title>引用卡雷尔·杜斯特林克的话</title><link>https://simonwillison.net/2026/Feb/6/karel-doosterlinck/#atom-everything</link><description>&lt;blockquote cite="https://twitter.com/kareldoostrlnck/status/2019477361557926281"&gt;&lt;p&gt;当我想在不熟悉的代码库中快速实现一次性实验时，我会让Codex进行全面的尽职调查。Codex会探索相关的Slack频道，阅读相关讨论，从这些讨论中获取实验分支，并为我的实验精选有用的更改。所有这些都会被总结成一套详尽的笔记，并附有每条信息来源的链接。利用这些笔记，Codex会搭建实验框架，并做出许多超参数决策，这些决策如果没有更多努力，我是不可能做出的。
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Fri, 06 Feb 2026 23:41:31 +0000</lastBuildDate><item><title>引用汤姆·戴尔的话</title><link>https://simonwillison.net/2026/Feb/6/tom-dale/#atom-everything</link><description>&lt;blockquote cite="https://twitter.com/tomdale/status/2019828626972131441"&gt;&lt;p&gt;不知为何这周成了临界点，与我交谈过的几乎每位软件工程师都正经历某种程度的心理健康危机。
+
+[...] 许多人以为我指的是失业焦虑，但这只是表象之一。我目睹着软件从稀缺转向过剩所引发的近乎狂躁的状态。围绕智能体使用的强迫性行为。面对变革时间压缩产生的解离性惊愕。这不一定是恐惧，而是在历史拐点中生存所承受的认知超载。
+
+——
+汤姆·戴尔
+
+标签：
+人工智能伦理，
+职业生涯，
+编程智能体，
+生成式人工智能，
+人工智能，
+大语言模型&lt;/p&gt;
+&lt;p&gt;[...] Many people assuming I meant job loss anxiety but that's just one presentation. I'm seeing near-manic episodes triggered by watching software shift from scarce to abundant. Compulsive behaviors around agent usage. Dissociative awe at the temporal compression of change. It's not fear necessarily just the cognitive overload from living in an inflection point.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class="cite"&gt;— &lt;a href="https://twitter.com/tomdale/status/2019828626972131441"&gt;Tom Dale&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;ai-ethics&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/careers"&gt;careers&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 06 Feb 2026 23:41:31 +0000</pubDate></item><item><title>在WebAssembly中运行Pydantic的Monty Rust沙盒化Python子集</title><link>https://simonwillison.net/2026/Feb/6/pydantic-monty/#atom-everything</link><description>&lt;p&gt;这标题真是术语满满！现在大家都在为运行不可信代码构建沙箱，而Pydantic的最新尝试——Monty——在Rust中实现了一种自定义类Python语言（Python子集），并同时提供Rust库和Python包两种使用方式。我成功将其运行在WebAssembly环境中，实现了“沙箱中的沙箱”。
+
+以下是他们对Monty的描述：
+Monty避免了使用完整容器沙箱运行LLM生成代码所带来的成本、延迟、复杂性和各种繁琐操作。相反，它让你能安全运行嵌入智能体中的LLM编写的Python代码，启动时间仅需个位数微秒而非数百毫秒。
+
+Monty的功能：
+- 运行合理的Python代码子集——足以让智能体表达其意图
+- 完全隔离宿主环境：文件系统、环境变量和网络访问均通过开发者可控的外部函数调用实现
+- 调用宿主函数——仅限你授权访问的功能
+
+快速体验方式是通过uv工具：
+然后在Python交互式环境中粘贴以下代码（需启用顶层await）：
+```python
+import pydantic_monty
+code = pydantic_monty.Monty('print("hello " + str(4 * 5))')
+await pydantic_monty.run_monty_async(code)
+```
+
+Monty目前仅支持极小的Python子集——甚至还不支持类声明！但针对其目标使用场景，这实际上不成问题。为LLM提供此类工具的妙处在于，它们非常擅长根据错误信息进行迭代调整。编码智能体可以运行Python代码，收到不支持类的错误提示后，就能尝试其他实现方式。
+
+我想在浏览器中尝试这个功能，于是在Claude Code网页版中创建了代码研究任务，以下列指令启动：
+克隆 https://github.com/pydantic/monty&lt;a href="https://simonwillison.net/2026/Jan/8/llm-predictions-for-2026/#1-year-we-re-finally-going-to-solve-sandboxing"&gt;building sandboxes&lt;/a&gt; for running untrusted code right now, and Pydantic's latest attempt, &lt;a href="https://github.com/pydantic/monty"&gt;Monty&lt;/a&gt;, provides a custom Python-like language (a subset of Python) in Rust and makes it available as both a Rust library and a Python package. I got it working in WebAssembly, providing a sandbox-in-a-sandbox.&lt;/p&gt;
+&lt;p&gt;Here's &lt;a href="https://github.com/pydantic/monty"&gt;how they describe Monty&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Monty avoids the cost, latency, complexity and general faff of using full container based sandbox for running LLM generated code.&lt;/p&gt;
+&lt;p&gt;Instead, it let's you safely run Python code written by an LLM embedded in your agent, with startup times measured in single digit microseconds not hundreds of milliseconds.&lt;/p&gt;
+&lt;p&gt;What Monty &lt;strong&gt;can&lt;/strong&gt; do:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Run a reasonable subset of Python code - enough for your agent to express what it wants to do&lt;/li&gt;
+&lt;li&gt;Completely block access to the host environment: filesystem, env variables and network access are all implemented via external function calls the developer can control&lt;/li&gt;
+&lt;li&gt;Call functions on the host - only functions you give it access to [...]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;A quick way to try it out is via &lt;a href="https://github.com/astral-sh/uv"&gt;uv&lt;/a&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;uv run --with pydantic-monty python -m asyncio
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then paste this into the Python interactive prompt - the &lt;code&gt;-m asyncio&lt;/code&gt; enables top-level await:&lt;/p&gt;
+&lt;pre&gt;&lt;span&gt;import&lt;/span&gt; &lt;span&gt;pydantic_monty&lt;/span&gt;
+&lt;span&gt;code&lt;/span&gt; &lt;span&gt;=&lt;/span&gt; &lt;span&gt;pydantic_monty&lt;/span&gt;.&lt;span&gt;Monty&lt;/span&gt;(&lt;span&gt;'print("hello " + str(4 * 5))'&lt;/span&gt;)
+&lt;span&gt;await&lt;/span&gt; &lt;span&gt;pydantic_monty&lt;/span&gt;.&lt;span&gt;run_monty_async&lt;/span&gt;(&lt;span&gt;code&lt;/span&gt;)&lt;/pre&gt;
+&lt;p&gt;Monty supports a &lt;em&gt;very&lt;/em&gt; small subset of Python - it doesn't even support class declarations yet!&lt;/p&gt;
+&lt;p&gt;But, given its target use-case, that's not actually a problem.&lt;/p&gt;
+&lt;p&gt;The neat thing about providing tools like this for LLMs is that they're really good at iterating against error messages. A coding agent can run some Python code, get an error message telling it that classes aren't supported and then try again with a different approach.&lt;/p&gt;
+&lt;p&gt;I wanted to try this in a browser, so I fired up &lt;a href="https://simonwillison.net/2025/Nov/6/async-code-research/"&gt;a code research task&lt;/a&gt; in Claude Code for web and kicked it off with the following:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Clone &lt;a href="https://github.com/pydantic/monty"&gt;https://github.com/pydantic/monty&lt;/a&gt;将代码编译到 /tmp 目录，并研究如何将其打包成可在 Pyodide 中加载的 Python WebAssembly wheel 文件。该 wheel 文件需与构建脚本、以及通过 pytest playwright 测试的脚本一同提交至代码仓库——这些测试脚本会从 CDN 加载 Pyodide，并通过本地 "python -m http.server" 加载 wheel 文件，以验证其正常运行。
+
+随后需要额外构建一个独立于 Pyodide 的 WASM 文件，使其也能在浏览器中直接运行。同时需配套编写 playwright 测试来验证其功能，并创建两个 HTML 演示文件：demo.html 与 pyodide-demo.html。这两个文件应参考 https://tools.simonwillison.net/micropython 的实现方式（可通过 curl 下载该代码进行研究），其中一个直接加载 WASM 构建文件，另一个则加载 Pyodide 并调用 WASM wheel。由于这些文件将通过 GitHub Pages 提供服务，且 HTML 文件与 wheel/WASM 文件位于同一目录，因此可以使用相对路径进行加载。
+
+以下是完整的开发记录与最终研究报告。
+
+目前我已将 Monty Rust 代码编译成两种形态的 WebAssembly：一种是可直接通过 JavaScript 加载调用的捆绑包，另一种是可在 Pyodide 中加载的 wheel 文件——后者使得在浏览器中的 WebAssembly 环境里，能通过 Pyodide 的 Python 接口进行调用。
+
+这两个演示已部署在 GitHub Pages 上：
+- Monty WASM 演示：通过 JavaScript 直接加载 Rust WASM 模块的交互界面。
+- Monty Pyodide 演示：提供相同交互界面，但改为加载 Pyodide 后安装 Monty WASM wheel 的实现方式。
+
+作为沙盒技术的鉴赏者——选择越多越好！——Pydantic 推出的这个新方案完全符合我的期待。它体积小巧、运行高效、具备良好的跨平台性（得益于 Rust 与 WebAssembly），并能严格限制内存使用、CPU 时间以及磁盘网络访问权限。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Then a little later:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I want an additional WASM file that works independently of Pyodide, which is also usable in a web browser - build that too along with playwright tests that show it working. Also build two HTML files - one called demo.html and one called pyodide-demo.html - these should work similar to &lt;a href="https://tools.simonwillison.net/micropython"&gt;https://tools.simonwillison.net/micropython&lt;/a&gt; (download that code with curl to inspect it) - one should load the WASM build, the other should load Pyodide and have it use the WASM wheel. These will be served by GitHub Pages so they can load the WASM and wheel from a relative path since the .html files will be served from the same folder as the wheel and WASM file&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Here's &lt;a href="https://gisthost.github.io/?22d88e6367d7e002c4fb383c213c2df2/page-001.html"&gt;the transcript&lt;/a&gt;, and the &lt;a href="https://github.com/simonw/research/tree/main/monty-wasm-pyodide"&gt;final research report&lt;/a&gt; it produced.&lt;/p&gt;
+&lt;p&gt;I now have the Monty Rust code compiled to WebAssembly in two different shapes - as a &lt;code&gt;.wasm&lt;/code&gt; bundle you can load and call from JavaScript, and as a &lt;code&gt;monty-wasm-pyodide/pydantic_monty-0.0.3-cp313-cp313-emscripten_4_0_9_wasm32.whl&lt;/code&gt; wheel file which can be loaded into &lt;a href="https://pyodide.org/"&gt;Pyodide&lt;/a&gt; and then called from Python in Pyodide in WebAssembly in a browser.&lt;/p&gt;
+&lt;p&gt;Here are those two demos, hosted on GitHub Pages:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href="https://simonw.github.io/research/monty-wasm-pyodide/demo.html"&gt;Monty WASM demo&lt;/a&gt; - a UI over JavaScript that loads the Rust WASM module directly.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://simonw.github.io/research/monty-wasm-pyodide/pyodide-demo.html"&gt;Monty Pyodide demo&lt;/a&gt; - this one provides an identical interface but here the code is &lt;a href="https://github.com/simonw/research/blob/3add1ffec70b530711fa237d91f546da5bcf1f1c/monty-wasm-pyodide/pyodide-demo.html#L257-L280"&gt;loading Pyodide and then installing the Monty WASM wheel&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="Screenshot of a web app titled &amp;quot;Monty via Pyodide&amp;quot; with description &amp;quot;Run Monty (a sandboxed Python interpreter by Pydantic) inside Pyodide (CPython compiled to WebAssembly). This loads the pydantic-monty wheel and uses its full Python API. Code is saved in the URL for sharing.&amp;quot; A green banner reads &amp;quot;Code executed successfully!&amp;quot; Below are example buttons labeled &amp;quot;Basic&amp;quot;, &amp;quot;Inputs&amp;quot;, &amp;quot;Reuse&amp;quot;, &amp;quot;Error Handling&amp;quot;, &amp;quot;Fibonacci&amp;quot;, and &amp;quot;Classes&amp;quot;. A code editor labeled &amp;quot;Python Code (runs inside Monty sandbox via Pyodide):&amp;quot; contains: &amp;quot;import pydantic_monty\n\n# Create interpreter with input variables\nm = pydantic_monty.Monty('x + y', inputs=['x', 'y'])\n\n# Run with different inputs\nresult1 = m.run(inputs={&amp;quot;x&amp;quot;: 10, &amp;quot;y&amp;quot;: 20})\nprint(f&amp;quot;10 + 20 = {result1}&amp;quot;)\n\nresult2 = m.run(inputs={&amp;quot;x&amp;quot;: 100, &amp;quot;y&amp;quot;: 200})&amp;quot; with &amp;quot;Run Code&amp;quot; and &amp;quot;Clear&amp;quot; buttons. The Output section shows &amp;quot;10 + 20 = 30&amp;quot; and &amp;quot;100 + 200 = 300&amp;quot; with a &amp;quot;Copy&amp;quot; button. Footer reads &amp;quot;Executed in 4.0ms&amp;quot;." src="https://static.simonwillison.net/static/2026/monty-pyodide.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;As a connoisseur of sandboxes - the more options the better! - this new entry from Pydantic ticks a lot of my boxes. It's small, fast, widely available (thanks to Rust and WebAssembly) and provides strict limits on memory usage, CPU time and access to disk and network.&lt;/p&gt;
+&lt;p&gt;这也是一个绝佳的契机，可以再做一个演示，展示如今将C或Rust这类编译代码转换成WebAssembly是多么容易，它既能在浏览器中运行，也能在Pyodide环境下执行。&lt;/p&gt;
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/javascript"&gt;javascript&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/python"&gt;python&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/sandboxing"&gt;sandboxing&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/rust"&gt;rust&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/webassembly"&gt;webassembly&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/pyodide"&gt;pyodide&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/pydantic"&gt;pydantic&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 06 Feb 2026 22:31:31 +0000</pubDate></item><item><title>Heroku 最新动态</title><link>https://simonwillison.net/2026/Feb/6/an-update-on-heroku/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.heroku.com/blog/an-update-on-heroku/"&gt;Heroku近况更新&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;Heroku官方博客上出现这个不祥的标题，是的，这是个坏消息。
+&lt;blockquote&gt;
+&lt;p&gt;从今天起，Heroku将转向以稳定性、安全性、可靠性和技术支持为核心的持续性工程模式。该平台仍将保持生产就绪状态并获得积极支持，但工作重心将转向维持服务质量与卓越运营，而非开发新功能。我们理解此类调整可能引发疑问，因此希望向客户明确说明这意味着什么。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;根据上下文推测，"持续性工程模式"（这绝非行业通用术语）大概意味着他们只维持基础运行。&lt;/p&gt;
+&lt;p&gt;这份企业通告实在令人沮丧。"我们希望向客户明确说明这意味着什么"——然后紧接着&lt;em&gt;并未阐明&lt;/em&gt;这对客户意味着什么。&lt;/p&gt;
+&lt;p&gt;他们为何如此决策？以下是官方解释：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我们将把产品与工程资源集中投入能创造最大长期客户价值的领域，包括帮助企业在安全可信的环境中构建部署企业级人工智能。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我的博客是唯一还运行在Heroku上的项目。看来最好在Salesforce彻底失去兴趣前迁移出去（或许该选Fly）。&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/salesforce"&gt;salesforce&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/heroku"&gt;heroku&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/fly"&gt;fly&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Fri, 06 Feb 2026 18:44:21 +0000</pubDate></item><item><title>引用卡雷尔·杜斯特林克的话</title><link>https://simonwillison.net/2026/Feb/6/karel-doosterlinck/#atom-everything</link><description>&lt;blockquote cite="https://twitter.com/kareldoostrlnck/status/2019477361557926281"&gt;&lt;p&gt;当我想在不熟悉的代码库中快速实现一次性实验时，我会让Codex进行全面的尽职调查。Codex会探索相关的Slack频道，阅读相关讨论，从这些讨论中获取实验分支，并为我的实验精选有用的更改。所有这些都会被总结成一套详尽的笔记，并附有每条信息来源的链接。利用这些笔记，Codex会搭建实验框架，并做出许多超参数决策，这些决策如果没有更多努力，我是不可能做出的。
 
 ---
 
@@ -617,219 +718,4 @@ Claude代码&lt;/p&gt;
 &lt;p&gt;The positive thing I see here, and I think is worth coming to terms with, is this is an application that I would never have had time to write as a professional programmer. Because the audience is three people. [...] There's no way it was worth it to me to spend my energy of 20 years designing and implementing software for artists to build an app for three people that is this level of polish. And it took me a few days. [...]&lt;/p&gt;
 &lt;p&gt;I know there are a lot of people who really hate this technology, and in some ways I'm among them. But I think we've got to come to terms with this is a career-changing moment. And I really hate that I'm saying that because I didn't believe it for the last two years. [...] It's like having a room full of power tools. I wouldn't want to send an untrained person into a room full of power tools because they might chop off their fingers. But if someone who knows how to use tools has the option to have both hand tools and a power saw and a power drill and a lathe, there's a lot of work they can do with those tools at a lot faster speed.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/theatre"&gt;theatre&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/tiktok"&gt;tiktok&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;ai-ethics&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 30 Jan 2026 03:51:53 +0000</pubDate></item><item><title>Datasette 1.0a24</title><link>https://simonwillison.net/2026/Jan/29/datasette-10a24/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://docs.datasette.io/en/latest/changelog.html#a24-2026-01-29"&gt;Datasette 1.0a24&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;今早发布了新的Datasette alpha版本。主要新特性：
-&lt;ul&gt;
-&lt;li&gt;Datasette的&lt;code&gt;Request&lt;/code&gt;对象现已支持通过新增的&lt;code&gt;multipart/form-data&lt;/code&gt;await request.form(files=True)&lt;a href="https://docs.datasette.io/en/latest/internals.html#internals-formdata"&gt;方法处理&lt;/a&gt;文件上传功能。我计划利用此特性开发&lt;code&gt;datasette-files&lt;/code&gt;支持为数据行附加文件的插件&lt;/li&gt;
-&lt;li&gt;。&lt;a href="https://docs.datasette.io/en/latest/contributing.html#setting-up-a-development-environment"&gt;针对Datasette本体的&lt;/a&gt;推荐开发环境&lt;a href="https://github.com/astral-sh/uv"&gt;现已采用&lt;/a&gt;uv&lt;code&gt;uv run pytest&lt;/code&gt;工具链。关键在于，克隆Datasette后可直接运行&lt;a href="https://til.simonwillison.net/uv/dependency-groups"&gt;测试而无需手动创建虚拟环境或预先安装依赖，这得益于&lt;/a&gt;dev依赖组模式&lt;/li&gt;
-&lt;li&gt;的引入。&lt;code&gt;?_extra=render_cell&lt;/code&gt;新增&lt;a href="https://docs.datasette.io/en/latest/plugin_hooks.html#render-cell-row-value-column-table-database-datasette-request"&gt;参数，支持在表格与行数据JSON页面中返回&lt;/a&gt;render_cell()插件钩子&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;的执行结果，这将为未来实现新的JavaScript UI功能奠定基础。&lt;a href="https://docs.datasette.io/en/latest/changelog.html#a24-2026-01-29"&gt;更多细节&lt;/a&gt;详见发布说明&lt;em&gt;。此外我投入大量精力修复了CI中偶发失败的&lt;/em&gt;不稳定测试——目前&lt;p&gt;认为&lt;a href="https://simonwillison.net/tags/projects"&gt;这些问题已全部解决。&lt;/a&gt;标签：&lt;a href="https://simonwillison.net/tags/python"&gt;项目&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/datasette"&gt;python&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/annotated-release-notes"&gt;datasette&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/uv"&gt;注解版发布说明&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Thu, 29 Jan 2026 17:21:51 +0000</pubDate></item><item><title>为具有激进缓存策略的网站添加动态功能</title><link>https://simonwillison.net/2026/Jan/28/dynamic-features-static-site/#atom-everything</link><description>&lt;p&gt;我的博客采用了强力缓存策略：它部署在Cloudflare后面，缓存头设置为15分钟，这保证了即使面对任何页面的最大流量高峰也能稳定运行。最近，我在全页缓存的基础上添加了几个动态功能。以下是这些功能的实现方式。
-
-**仅对我可见的编辑链接**
-
-这是一个基于Django的网站，我通过Django后台进行管理。
-
-我有四种类型的内容：文章、链接帖子（即博客书签）、引文和笔记。每种内容都有不同的模型，因此对应不同的Django管理区域。
-
-我希望在公开页面上有一个仅对我可见的“编辑”链接。
-
-按钮看起来像这样：
-
-我通过一小段JavaScript代码解决了这个按钮的条件显示问题。这段代码会检查`localStorage`中是否设置了`ADMIN`键，如果设置了，就会根据数据属性显示编辑链接：
-
-```javascript
-document.addEventListener('DOMContentLoaded', () =&amp;gt; {
-  if (window.localStorage.getItem('ADMIN')) {
-    document.querySelectorAll('.edit-page-link').forEach(el =&amp;gt; {
-      const url = el.getAttribute('data-admin-url');
-      if (url) {
-        const a = document.createElement('a');
-        a.href = url;
-        a.className = 'edit-link';
-        a.innerHTML = '&amp;lt;svg&amp;gt;...&amp;lt;/svg&amp;gt; Edit';
-        el.appendChild(a);
-        el.style.display = 'block';
-      }
-    });
-  }
-});
-```
-
-如果你想看到我的编辑链接，可以运行这段JavaScript代码：
-
-```javascript
-localStorage.setItem('ADMIN', '1');
-```
-
-我的Django管理后台有一个自定义复选框，我可以通过点击它来在自己的浏览器中开启或关闭这个选项。
-
-**标签内的随机导航**
-
-那些管理编辑链接是一个非常简单的模式。更有趣的是我最近添加的一个功能：在标签内随机导航。
-
-这是一个展示随机标签导航功能的动画GIF（你可以在这里尝试）：
-
-在我的博客的任何标签页上，你可以点击“随机”按钮跳转到该标签下的随机文章。这个随机按钮会保留在页面顶部，你可以继续点击它，在同一标签下跳转到其他随机内容。&lt;/p&gt;
-&lt;h4 id="edit-links-that-are-visible-only-to-me"&gt;Edit links that are visible only to me&lt;/h4&gt;
-&lt;p&gt;This is a Django site and I manage it through the Django admin.&lt;/p&gt;
-&lt;p&gt;I have &lt;a href="https://github.com/simonw/simonwillisonblog/blob/b8066f870a94d149f5e8cee6e787d3377c0b9507/blog/models.py#L254-L449"&gt;four types of content&lt;/a&gt; - entries, link posts (aka blogmarks), quotations and notes. Each of those has a different model and hence a different Django admin area.&lt;/p&gt;
-&lt;p&gt;I wanted an "edit" link on the public pages that was only visible to me.&lt;/p&gt;
-&lt;p&gt;The button looks like this:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Entry footer - it says Posted 27th January 2026 at 9:44 p.m. followed by a square Edit button with an icon." src="https://static.simonwillison.net/static/2026/edit-link.jpg"/&gt;&lt;/p&gt;
-&lt;p&gt;I solved conditional display of this button with &lt;code&gt;localStorage&lt;/code&gt;. I have a &lt;a href="https://github.com/simonw/simonwillisonblog/blob/b8066f870a94d149f5e8cee6e787d3377c0b9507/templates/base.html#L89-L105"&gt;tiny bit of JavaScript&lt;/a&gt; which checks to see if the &lt;code&gt;localStorage&lt;/code&gt; key &lt;code&gt;ADMIN&lt;/code&gt; is set and, if it is, displays an edit link based on a data attribute:&lt;/p&gt;
-&lt;div class="highlight highlight-source-js"&gt;&lt;pre&gt;&lt;span class="pl-smi"&gt;document&lt;/span&gt;&lt;span class="pl-kos"&gt;.&lt;/span&gt;&lt;span class="pl-en"&gt;addEventListener&lt;/span&gt;&lt;span class="pl-kos"&gt;(&lt;/span&gt;&lt;span class="pl-s"&gt;'DOMContentLoaded'&lt;/span&gt;&lt;span class="pl-kos"&gt;,&lt;/span&gt; &lt;span class="pl-kos"&gt;(&lt;/span&gt;&lt;span class="pl-kos"&gt;)&lt;/span&gt; &lt;span class="pl-c1"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="pl-kos"&gt;{&lt;/span&gt;
-  &lt;span class="pl-k"&gt;if&lt;/span&gt; &lt;span class="pl-kos"&gt;(&lt;/span&gt;&lt;span class="pl-smi"&gt;window&lt;/span&gt;&lt;span class="pl-kos"&gt;.&lt;/span&gt;&lt;span class="pl-c1"&gt;localStorage&lt;/span&gt;&lt;span class="pl-kos"&gt;.&lt;/span&gt;&lt;span class="pl-en"&gt;getItem&lt;/span&gt;&lt;span class="pl-kos"&gt;(&lt;/span&gt;&lt;span class="pl-s"&gt;'ADMIN'&lt;/span&gt;&lt;span class="pl-kos"&gt;)&lt;/span&gt;&lt;span class="pl-kos"&gt;)&lt;/span&gt; &lt;span class="pl-kos"&gt;{&lt;/span&gt;
-    &lt;span class="pl-smi"&gt;document&lt;/span&gt;&lt;span class="pl-kos"&gt;.&lt;/span&gt;&lt;span class="pl-en"&gt;querySelectorAll&lt;/span&gt;&lt;span class="pl-kos"&gt;(&lt;/span&gt;&lt;span class="pl-s"&gt;'.edit-page-link'&lt;/span&gt;&lt;span class="pl-kos"&gt;)&lt;/span&gt;&lt;span class="pl-kos"&gt;.&lt;/span&gt;&lt;span class="pl-en"&gt;forEach&lt;/span&gt;&lt;span class="pl-kos"&gt;(&lt;/span&gt;&lt;span class="pl-s1"&gt;el&lt;/span&gt; &lt;span class="pl-c1"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="pl-kos"&gt;{&lt;/span&gt;
-      &lt;span class="pl-k"&gt;const&lt;/span&gt; &lt;span class="pl-s1"&gt;url&lt;/span&gt; &lt;span class="pl-c1"&gt;=&lt;/span&gt; &lt;span class="pl-s1"&gt;el&lt;/span&gt;&lt;span class="pl-kos"&gt;.&lt;/span&gt;&lt;span class="pl-en"&gt;getAttribute&lt;/span&gt;&lt;span class="pl-kos"&gt;(&lt;/span&gt;&lt;span class="pl-s"&gt;'data-admin-url'&lt;/span&gt;&lt;span class="pl-kos"&gt;)&lt;/span&gt;&lt;span class="pl-kos"&gt;;&lt;/span&gt;
-      &lt;span class="pl-k"&gt;if&lt;/span&gt; &lt;span class="pl-kos"&gt;(&lt;/span&gt;&lt;span class="pl-s1"&gt;url&lt;/span&gt;&lt;span class="pl-kos"&gt;)&lt;/span&gt; &lt;span class="pl-kos"&gt;{&lt;/span&gt;
-        &lt;span class="pl-k"&gt;const&lt;/span&gt; &lt;span class="pl-s1"&gt;a&lt;/span&gt; &lt;span class="pl-c1"&gt;=&lt;/span&gt; &lt;span class="pl-smi"&gt;document&lt;/span&gt;&lt;span class="pl-kos"&gt;.&lt;/span&gt;&lt;span class="pl-en"&gt;createElement&lt;/span&gt;&lt;span class="pl-kos"&gt;(&lt;/span&gt;&lt;span class="pl-s"&gt;'a'&lt;/span&gt;&lt;span class="pl-kos"&gt;)&lt;/span&gt;&lt;span class="pl-kos"&gt;;&lt;/span&gt;
-        &lt;span class="pl-s1"&gt;a&lt;/span&gt;&lt;span class="pl-kos"&gt;.&lt;/span&gt;&lt;span class="pl-c1"&gt;href&lt;/span&gt; &lt;span class="pl-c1"&gt;=&lt;/span&gt; &lt;span class="pl-s1"&gt;url&lt;/span&gt;&lt;span class="pl-kos"&gt;;&lt;/span&gt;
-        &lt;span class="pl-s1"&gt;a&lt;/span&gt;&lt;span class="pl-kos"&gt;.&lt;/span&gt;&lt;span class="pl-c1"&gt;className&lt;/span&gt; &lt;span class="pl-c1"&gt;=&lt;/span&gt; &lt;span class="pl-s"&gt;'edit-link'&lt;/span&gt;&lt;span class="pl-kos"&gt;;&lt;/span&gt;
-        &lt;span class="pl-s1"&gt;a&lt;/span&gt;&lt;span class="pl-kos"&gt;.&lt;/span&gt;&lt;span class="pl-c1"&gt;innerHTML&lt;/span&gt; &lt;span class="pl-c1"&gt;=&lt;/span&gt; &lt;span class="pl-s"&gt;'&amp;lt;svg&amp;gt;...&amp;lt;/svg&amp;gt; Edit'&lt;/span&gt;&lt;span class="pl-kos"&gt;;&lt;/span&gt;
-        &lt;span class="pl-s1"&gt;el&lt;/span&gt;&lt;span class="pl-kos"&gt;.&lt;/span&gt;&lt;span class="pl-en"&gt;appendChild&lt;/span&gt;&lt;span class="pl-kos"&gt;(&lt;/span&gt;&lt;span class="pl-s1"&gt;a&lt;/span&gt;&lt;span class="pl-kos"&gt;)&lt;/span&gt;&lt;span class="pl-kos"&gt;;&lt;/span&gt;
-        &lt;span class="pl-s1"&gt;el&lt;/span&gt;&lt;span class="pl-kos"&gt;.&lt;/span&gt;&lt;span class="pl-c1"&gt;style&lt;/span&gt;&lt;span class="pl-kos"&gt;.&lt;/span&gt;&lt;span class="pl-c1"&gt;display&lt;/span&gt; &lt;span class="pl-c1"&gt;=&lt;/span&gt; &lt;span class="pl-s"&gt;'block'&lt;/span&gt;&lt;span class="pl-kos"&gt;;&lt;/span&gt;
-      &lt;span class="pl-kos"&gt;}&lt;/span&gt;
-    &lt;span class="pl-kos"&gt;}&lt;/span&gt;&lt;span class="pl-kos"&gt;)&lt;/span&gt;&lt;span class="pl-kos"&gt;;&lt;/span&gt;
-  &lt;span class="pl-kos"&gt;}&lt;/span&gt;
-&lt;span class="pl-kos"&gt;}&lt;/span&gt;&lt;span class="pl-kos"&gt;)&lt;/span&gt;&lt;span class="pl-kos"&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;If you want to see my edit links you can run this snippet of JavaScript:&lt;/p&gt;
-&lt;div class="highlight highlight-source-js"&gt;&lt;pre&gt;&lt;span class="pl-s1"&gt;localStorage&lt;/span&gt;&lt;span class="pl-kos"&gt;.&lt;/span&gt;&lt;span class="pl-en"&gt;setItem&lt;/span&gt;&lt;span class="pl-kos"&gt;(&lt;/span&gt;&lt;span class="pl-s"&gt;'ADMIN'&lt;/span&gt;&lt;span class="pl-kos"&gt;,&lt;/span&gt; &lt;span class="pl-s"&gt;'1'&lt;/span&gt;&lt;span class="pl-kos"&gt;)&lt;/span&gt;&lt;span class="pl-kos"&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;My Django admin dashboard has &lt;a href="https://github.com/simonw/simonwillisonblog/blob/b8066f870a94d149f5e8cee6e787d3377c0b9507/templates/admin/index.html#L18-L39"&gt;a custom checkbox&lt;/a&gt; I can click to turn this option on and off in my own browser:&lt;/p&gt;
-&lt;p&gt;&lt;img alt='Screenshot of a Tools settings panel with a teal header reading "Tools" followed by three linked options: "Bulk Tag Tool - Add tags to multiple items at once", "Merge Tags - Merge multiple tags into one", "SQL Dashboard - Run SQL queries against the database", and a checked checkbox labeled "Show "Edit" links on public pages"' src="https://static.simonwillison.net/static/2026/edit-toggle.jpg"/&gt;&lt;/p&gt;
-&lt;h4 id="random-navigation-within-a-tag"&gt;Random navigation within a tag&lt;/h4&gt;
-&lt;p&gt;Those admin edit links are a very simple pattern. A more interesting one is a feature I added recently for navigating randomly within a tag.&lt;/p&gt;
-&lt;p&gt;Here's an animated GIF showing those random tag navigations in action (&lt;a href="https://simonwillison.net/tag/ai-ethics/"&gt;try it here&lt;/a&gt;):&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Animated demo. Starts on the ai-ethics tag page where a new Random button sits next to the feed icon. Clicking that button jumps to a post with that tag and moves the button into the site header - clicking it multiple times jumps to more random items." src="https://static.simonwillison.net/static/2026/random-by-tag.gif"/&gt;&lt;/p&gt;
-&lt;p&gt;On any of my blog's tag pages you can click the "Random" button to bounce to a random post with that tag. That random button then persists in the header of the page and you can click it to continue bouncing to random items in that same tag.&lt;/p&gt;
-&lt;p&gt;一篇帖子可以有多个标签，因此需要一些持久性的魔法来记住你正在浏览哪个标签，并在页眉中显示相关的按钮。
-
-这再次使用了`localStorage`。点击随机按钮时，会将标签和当前时间戳记录到`localStorage`的`randomTag`键中，然后将用户重定向到`/random/TAG/`页面，该页面会随机选择一篇帖子并重定向到那里。
-
-每当新页面加载时，JavaScript会检查`randomTag`键是否有一个在过去5秒内记录的值。如果是，该随机按钮就会被添加到页眉中。
-
-这意味着，只要页面在用户点击按钮后的5秒内加载，随机标签导航就会在页面上持续显示。
-
-你可以在这里查看相关代码。
-
-至于提示部分，我完全使用Claude Code for web构建了随机标签功能，并通过我的iPhone进行提示。我从`/random/TAG/`端点开始（完整记录）：
-
-构建`/random/TAG/`——一个页面，随机选择一篇带有该标签的帖子（可以是条目、博客标记、笔记或引用），并发送302重定向到该帖子，标记为不缓存，以便Cloudflare不缓存它。
-
-使用联合查询构建一个列表，包含每个内容类型（代表四种类型之一的表的字符串）和每个带有该标签的项目的主键，然后随机排序并返回第一个。
-
-然后将类型和ID扩展为一个对象，加载它并重定向到URL。
-
-包括测试——它应该通过设置一个包含每种内容类型的标签来工作，然后循环调用该端点，直到返回四种类型中的每一种，或者达到1000次循环，此时失败并报错。
-
-然后：
-
-我不喜欢那个解决方案，我的一些标签有数千个项目。
-
-我们能用一个CTE做点什么聪明的事吗？
-
-这是我们最终得到的“用CTE做点聪明事”的解决方案。
-
-对于“随机帖子”按钮（记录）：
-
-查看最近的提交，然后修改`/tags/xxx/`页面，使其有一个“随机帖子”按钮，看起来不错并链接到`/random/xxx/`页面。
-
-然后：&lt;/p&gt;
-&lt;p&gt;Once again, this uses &lt;code&gt;localStorage&lt;/code&gt;. Any click to a random button records both the tag and the current timestamp to the &lt;code&gt;random_tag&lt;/code&gt; key in &lt;code&gt;localStorage&lt;/code&gt; before redirecting the user to the &lt;code&gt;/random/name-of-tag/&lt;/code&gt; page, which selects a random post and redirects them there.&lt;/p&gt;
-&lt;p&gt;Any time a new page loads, JavaScript checks if that &lt;code&gt;random_tag&lt;/code&gt; key has a value that was recorded within the past 5 seconds. If so, that random button is appended to the header.&lt;/p&gt;
-&lt;p&gt;This means that, provided the page loads within 5 seconds of the user clicking the button, the random tag navigation will persist on the page.&lt;/p&gt;
-&lt;p&gt;You can &lt;a href="https://github.com/simonw/simonwillisonblog/blob/b8066f870a94d149f5e8cee6e787d3377c0b9507/templates/base.html#L106-L147"&gt;see the code for that here&lt;/a&gt;.&lt;/p&gt;
-&lt;h4 id="and-the-prompts"&gt;And the prompts&lt;/h4&gt;
-&lt;p&gt;I built the random tag feature entirely using Claude Code for web, prompted from my iPhone. I started with the &lt;code&gt;/random/TAG/&lt;/code&gt; endpoint (&lt;a href="https://gistpreview.github.io/?2e7de58a779271aa5eb6f4abcd412d72/index.html"&gt;full transcript&lt;/a&gt;):&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Build /random/TAG/ - a page which picks a random post (could be an entry or blogmark or note or quote) that has that tag and sends a 302 redirect to it, marked as no-cache so Cloudflare does not cache it&lt;/p&gt;
-&lt;p&gt;Use a union to build a list of every content type (a string representing the table out of the four types) and primary key for every item tagged with that tag, then order by random and return the first one&lt;/p&gt;
-&lt;p&gt;Then inflate the type and ID into an object and load it and redirect to the URL&lt;/p&gt;
-&lt;p&gt;Include tests - it should work by setting up a tag with one of each of the content types and then running in a loop calling that endpoint until it has either returned one of each of the four types or it hits 1000 loops at which point fail with an error&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Then:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;I do not like that solution, some of my tags have thousands of items&lt;/p&gt;
-&lt;p&gt;Can we do something clever with a CTE?&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Here's the &lt;a href="https://github.com/simonw/simonwillisonblog/blob/b8066f870a94d149f5e8cee6e787d3377c0b9507/blog/views.py#L737-L762"&gt;something clever with a CTE&lt;/a&gt; solution we ended up with.&lt;/p&gt;
-&lt;p&gt;For the "Random post" button (&lt;a href="https://gistpreview.github.io/?d2d3abe380080ceb9e7fb854fa197bff/index.html"&gt;transcript&lt;/a&gt;):&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Look at most recent commit, then modify the /tags/xxx/ page to have a "Random post" button which looks good and links to the /random/xxx/ page&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Then:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;将其置于订阅图标之前而非之后。仅当标签拥有超过5篇帖子时才显示。
-
-最后，实现将随机标签按钮持久化在页眉中的方案：
-
-回顾最近两次提交。修改为：在标签页点击随机按钮时，将随机标签及时间戳存入localStorage的random_tag字段。在所有使用基础项目模板的页面视图中，添加JavaScript代码检查该localStorage值，并确保时间戳在5秒内。若符合条件，则在顶部导航栏添加一个"随机[标签名]"按钮（样式与原随机按钮相同），点击后将更新localStorage时间戳并跳转至/random/标签名/页面。通过这种方式，在标签页点击"随机"按钮后，用户将进入可连续点击、持续随机浏览该主题内容的体验。
-
-标签：缓存、django、javascript、localstorage、人工智能、cloudflare、生成式人工智能、大语言模型、AI辅助编程&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;And finally, the &lt;code&gt;localStorage&lt;/code&gt; implementation that persists a random tag button in the header (&lt;a href="https://gistpreview.github.io/?8405b84f8e53738c8d4377b2e41dcdef/page-001.html"&gt;transcript&lt;/a&gt;):&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Review the last two commits. Make it so clicking the Random button on a tag page sets a localStorage value for random_tag with that tag and a timestamp. On any other page view that uses the base item template add JS that checks for that localStorage value and makes sure the timestamp is within 5 seconds. If it is within 5 seconds it adds a "Random name-of-tag" button to the little top navigation bar, styled like the original Random button, which bumps the localStorage timestamp and then sends the user to /random/name-of-tag/ when they click it. In this way clicking "Random" on a tag page will send the user into an experience where they can keep clicking to keep surfing randomly in that topic.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/caching"&gt;caching&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/django"&gt;django&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/javascript"&gt;javascript&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/localstorage"&gt;localstorage&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/cloudflare"&gt;cloudflare&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 28 Jan 2026 22:10:08 +0000</pubDate></item><item><title>五个层次：从辛辣的自动补全到黑暗工厂</title><link>https://simonwillison.net/2026/Jan/28/the-five-levels/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.danshapiro.com/blog/2026/01/the-five-levels-from-spicy-autocomplete-to-the-software-factory/"&gt;五级模型：从"辣味自动补全"到"暗黑工厂"
-丹·夏皮罗借鉴自动驾驶的五级（实为六级，从零开始计数）分类体系，提出了AI辅助编程的五级模型。
-
-第一级：辣味自动补全
-即初代GitHub Copilot模式，或从ChatGPT复制粘贴代码片段。
-
-第二级：编程实习生
-AI负责编写非关键代码片段和模板，但需经过人工全面审查。
-
-第三级：初级开发员
-与AI模型结对编程，仍需逐行审查所有代码。
-
-第四级：开发员
-大部分代码由AI生成，人类转变为全职代码审查员。
-
-第五级：工程团队
-人类角色更接近工程经理或产品/项目负责人，专注于需求规划和方案设计，具体工作由智能体完成。
-
-最终形态：暗黑软件工厂
-如同机器人运作的无人工厂——之所以黑暗，是因为机器人无需照明。
-
-关于第五级，丹·夏皮罗这样描述：
-"在第五级，这已不再是传统意义上的汽车。你不再运行他人编写的软件，软件开发流程也发生了本质变化。它成为将需求规格转化为软件的黑箱系统。"
-
-为何称为"暗黑"？或许你听说过发那科暗黑工厂——那个由机器人自主运作的工厂。之所以黑暗，是因为那里既不需要也不欢迎人类。
-
-我认识少数正在实践这种模式的团队。他们规模极小，不足五人，所取得的成就近乎不可思议——而这很可能就是我们的未来。
-
-我曾与一个践行此模式的团队深入交流，其运作模式令人着迷。核心特征如下：
-
-• AI生成的代码永不接受人工审查，甚至无人查看
-• 系统目标在于自我验证，大量编码智能体的工作集中于测试、工具开发、系统模拟和演示运行
-• 人类的核心职责是设计系统架构——探索能提升智能体效能的新模式，并验证所构建软件的健壮性与有效性&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-Dan Shapiro proposes a five level model of AI-assisted programming, inspired by the five (or rather six, it's zero-indexed) &lt;a href="https://www.nhtsa.gov/sites/nhtsa.gov/files/2022-05/Level-of-Automation-052522-tag.pdf"&gt;levels of driving automation&lt;/a&gt;.
-&lt;ol start="0"&gt;
-&lt;li&gt;&lt;strong&gt;Spicy autocomplete&lt;/strong&gt;, aka original GitHub Copilot or copying and pasting snippets from ChatGPT.&lt;/li&gt;
-&lt;li&gt;The &lt;strong&gt;coding intern&lt;/strong&gt;, writing unimportant snippets and boilerplate with full human review.&lt;/li&gt;
-&lt;li&gt;The &lt;strong&gt;junior developer&lt;/strong&gt;, pair programming with the model but still reviewing every line.&lt;/li&gt;
-&lt;li&gt;The &lt;strong&gt;developer&lt;/strong&gt;. Most code is generated by AI, and you take on the role of full-time code reviewer.&lt;/li&gt;
-&lt;li&gt;The &lt;strong&gt;engineering team&lt;/strong&gt;. You're more of an engineering manager or product/program/project manager. You collaborate on specs and plans, the agents do the work.&lt;/li&gt;
-&lt;li&gt;The &lt;strong&gt;dark software factory&lt;/strong&gt;, like a factory run by robots where the lights are out because robots don't need to see.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Dan says about that last category:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;At level 5, it's not really a car any more. You're not really running anybody else's software any more. And your software process isn't really a software process any more. It's a black box that turns specs into software.&lt;/p&gt;
-&lt;p&gt;Why Dark? Maybe you've heard of the Fanuc Dark Factory, &lt;a href="https://www.organizedergi.com/News/5493/robots-the-maker-of-robots-in-fanuc-s-dark-factory"&gt;the robot factory staffed by robots&lt;/a&gt;. It's dark, because it's a place where humans are neither needed nor welcome.&lt;/p&gt;
-&lt;p&gt;I know a handful of people who are doing this. They're small teams, less than five people. And what they're doing is nearly unbelievable -- and it will likely be our future.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;I've talked to one team that's doing the pattern hinted at here. It was &lt;em&gt;fascinating&lt;/em&gt;. The key characteristics:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Nobody reviews AI-produced code, ever. They don't even look at it.&lt;/li&gt;
-&lt;li&gt;The goal of the system is to prove that the system works. A huge amount of the coding agent work goes into testing and tooling and simulating related systems and running demos.&lt;/li&gt;
-&lt;li&gt;The role of the humans is to design that system - to find new patterns that can help the agents work more effectively and demonstrate that the software they are building is robust and effective.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;这是一个很小的团队，但他们仅用几个月时间构建出的成果在我看来相当令人信服。其中几位成员拥有20年以上开发高可靠性系统经验的软件工程师，因此他们的视角绝非天真。
-
-我期待他们能尽快结束保密状态，因为目前我无法透露更多细节。
-
-标签：人工智能、生成式人工智能、大语言模型、AI辅助编程、编程智能体&lt;/p&gt;
-&lt;p&gt;I'm hoping they come out of stealth soon because I can't really share more details than this.
-
-
-    &lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Wed, 28 Jan 2026 21:44:29 +0000</pubDate></item></channel></rss>
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/theatre"&gt;theatre&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/tiktok"&gt;tiktok&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;ai-ethics&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 30 Jan 2026 03:51:53 +0000</pubDate></item></channel></rss>
