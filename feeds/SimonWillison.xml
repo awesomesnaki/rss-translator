@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Sat, 07 Feb 2026 23:57:57 +0000</lastBuildDate><item><title>担保</title><link>https://simonwillison.net/2026/Feb/7/vouch/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/mitchellh/vouch"&gt;担保&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;随着开源项目贡献门槛大幅降低，米切尔·哈希莫尼推出新系统应对海量无价值AI生成PR的冲击。
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Sun, 08 Feb 2026 02:25:53 +0000</lastBuildDate><item><title>引用托马斯·普塔切克的话</title><link>https://simonwillison.net/2026/Feb/8/thomas-ptacek/#atom-everything</link><description>&lt;blockquote cite="https://twitter.com/tqbf/status/2019493645888462993"&gt;&lt;p&gt;橙色网站上的人们对此嗤之以鼻，认为这只是广告宣传，没什么实质内容。但我接触的漏洞研究人员并不觉得这是个玩笑。作为曾经的漏洞研究者，我想说：别低估大语言模型在这方面的能力。
+
+Axios报道：Anthropic的Claude Opus 4.6在开源项目中发现了500个零日漏洞
+
+我认为漏洞研究可能是最适合大语言模型解决的软件工程问题。它具有模式驱动、海量公开操作模式库、闭环系统、工具链刺激响应推动进展、搜索问题等特点。
+
+前沿实验室的模型卡片里就记录着漏洞研究成果。这些公司资金雄厚，甚至能影响经济走向。资金可以买来漏洞研究成果，凭什么认为他们需要造假呢？
+
+——
+托马斯·普塔切克
+
+标签：
+托马斯-普塔切克，
+Anthropic，
+Claude，
+安全，
+生成式AI，
+人工智能，
+大语言模型，
+开源&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.axios.com/2026/02/05/anthropic-claude-opus-46-software-hunting"&gt;Axios: Anthropic's Claude Opus 4.6 uncovers 500 zero-day flaws in open-source&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I think vulnerability research might be THE MOST LLM-amenable software engineering problem. Pattern-driven. Huge corpus of operational public patterns. Closed loops. Forward progress from stimulus/response tooling. Search problems.&lt;/p&gt;
+&lt;p&gt;Vulnerability research outcomes are in THE MODEL CARDS for frontier labs. Those companies have so much money they're literally distorting the economy. Money buys vuln research outcomes. Why would you think they were faking any of this?&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class="cite"&gt;— &lt;a href="https://twitter.com/tqbf/status/2019493645888462993"&gt;Thomas Ptacek&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/thomas-ptacek"&gt;thomas-ptacek&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/anthropic"&gt;anthropic&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude"&gt;claude&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/security"&gt;security&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/open-source"&gt;open-source&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sun, 08 Feb 2026 02:25:53 +0000</pubDate></item><item><title>担保</title><link>https://simonwillison.net/2026/Feb/7/vouch/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/mitchellh/vouch"&gt;担保&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;随着开源项目贡献门槛大幅降低，米切尔·哈希莫尼推出新系统应对海量无价值AI生成PR的冲击。
 &lt;p&gt;&lt;a href="https://twitter.com/mitchellh/status/2020252149117313349"&gt;他表示&lt;/a&gt;：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;核心理念简明：未获担保用户无法向项目提交贡献。劣质用户可被明确“标记”，实质封禁。担保与标记机制通过GitHub议题讨论区评论或CLI由贡献者执行。&lt;/p&gt;
@@ -654,20 +678,4 @@ I talked to Cade Metz for this New York Times piece on OpenClaw and Moltbook. Ca
 &lt;/ul&gt;
 &lt;p&gt;这是它在本地主机上提供的Web用户界面的截图：&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Screenshot of the OpenClaw Gateway Dashboard web interface. Header shows &amp;quot;OpenCLAW GATEWAY DASHBOARD&amp;quot; with a green &amp;quot;Health OK&amp;quot; indicator. Left sidebar contains navigation sections: Chat (Chat highlighted), Control (Overview, Channels, Instances, Sessions, Cron Jobs), Agent (Skills, Nodes), Settings (Config, Debug, Logs), and Resources (Docs). Main content area displays &amp;quot;Chat&amp;quot; with subtitle &amp;quot;Direct gateway chat session for quick interventions.&amp;quot; and &amp;quot;telegram:6580064359&amp;quot; identifier. A user message at 4:08 PM reads &amp;quot;Show me a detailed list of all your available configured tools&amp;quot;. The assistant response states: &amp;quot;Here's the full list of tools I have available in this OpenClaw session (as configured). These are the only ones I can call programmatically:&amp;quot; followed by categorized tools: &amp;quot;File &amp;amp; workspace&amp;quot; (read — Read a file (text or image). Supports offset/limit for large files; write — Create/overwrite a file (creates parent dirs); edit — Precise in-place edit by exact string replacement), &amp;quot;Shell / processes&amp;quot; (exec — Run a shell command (optionally PTY, backgrounding, timeouts); process — Manage running exec sessions (list/poll/log/write/kill/etc.)), &amp;quot;Web&amp;quot; (web_search — Search the web (Brave Search API); web_fetch — Fetch a URL and extract readable content (markdown/text); browser — Control a browser (open/navigate/snapshot/screenshot/act/etc.)), &amp;quot;UI / rendering&amp;quot; (canvas — Present/eval/snapshot a Canvas surface (for node canvases/UI rendering)), and &amp;quot;Devices / nodes&amp;quot; (cut off). Bottom shows message input with placeholder &amp;quot;Message (↵ to send, Shift+↵ for line breaks, paste images)&amp;quot; and &amp;quot;New session&amp;quot; and coral &amp;quot;Send&amp;quot; buttons." src="https://static.simonwillison.net/static/2026/openclaw-web-ui.jpg"/&gt;
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;，&lt;a href="https://simonwillison.net/tags/docker"&gt;Docker&lt;/a&gt;，&lt;a href="https://simonwillison.net/tags/til"&gt;今日新知&lt;/a&gt;，&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;，&lt;a href="https://simonwillison.net/tags/llms"&gt;大型语言模型&lt;/a&gt;，&lt;a href="https://simonwillison.net/tags/ai-agents"&gt;AI代理&lt;/a&gt;，&lt;a href="https://simonwillison.net/tags/openclaw"&gt;OpenClaw&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Sun, 01 Feb 2026 23:59:13 +0000</pubDate></item><item><title>引用安德烈·卡帕西</title><link>https://simonwillison.net/2026/Jan/31/andrej-karpathy/#atom-everything</link><description>&lt;blockquote cite="https://twitter.com/karpathy/status/2017703360393318587"&gt;&lt;p&gt;2019年，OpenAI最初在32块TPU v3芯片上训练GPT-2，耗时168小时（7天）。当时TPU v3每小时成本为8美元，总费用约4.3万美元。该模型在DCLM论文提出的综合评估指标CORE上获得0.256525分（涵盖ARC/MMLU等22项测试）。
-
-随着近期多项改进整合至nanochat（多数源自modded-nanogpt仓库），如今在单台8×H100节点上仅需3.04小时（约73美元）即可获得更高CORE分数。相比七年前，训练成本降低600倍——这意味着训练GPT-2的成本正以每年约2.5倍的速度下降。
-
-——
-安德烈·卡帕西
-
-标签：
-安德烈·卡帕西，
-GPT-2，
-生成式人工智能，
-人工智能，
-大语言模型，
-OpenAI&lt;/p&gt;
-&lt;p&gt;As of the last few improvements merged into nanochat (many of them originating in modded-nanogpt repo), I can now reach a higher CORE score in 3.04 hours (~$73) on a single 8XH100 node. This is a 600X cost reduction over 7 years, i.e. the cost to train GPT-2 is falling approximately 2.5X every year.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class="cite"&gt;— &lt;a href="https://twitter.com/karpathy/status/2017703360393318587"&gt;Andrej Karpathy&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/andrej-karpathy"&gt;andrej-karpathy&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/gpt-2"&gt;gpt-2&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/openai"&gt;openai&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sat, 31 Jan 2026 21:44:02 +0000</pubDate></item></channel></rss>
+&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;，&lt;a href="https://simonwillison.net/tags/docker"&gt;Docker&lt;/a&gt;，&lt;a href="https://simonwillison.net/tags/til"&gt;今日新知&lt;/a&gt;，&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;，&lt;a href="https://simonwillison.net/tags/llms"&gt;大型语言模型&lt;/a&gt;，&lt;a href="https://simonwillison.net/tags/ai-agents"&gt;AI代理&lt;/a&gt;，&lt;a href="https://simonwillison.net/tags/openclaw"&gt;OpenClaw&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Sun, 01 Feb 2026 23:59:13 +0000</pubDate></item></channel></rss>
