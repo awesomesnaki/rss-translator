@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Sun, 08 Feb 2026 02:25:53 +0000</lastBuildDate><item><title>引用托马斯·普塔切克的话</title><link>https://simonwillison.net/2026/Feb/8/thomas-ptacek/#atom-everything</link><description>&lt;blockquote cite="https://twitter.com/tqbf/status/2019493645888462993"&gt;&lt;p&gt;橙色网站上的人们对此嗤之以鼻，认为这只是广告宣传，没什么实质内容。但我接触的漏洞研究人员并不觉得这是个玩笑。作为曾经的漏洞研究者，我想说：别低估大语言模型在这方面的能力。
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Sun, 08 Feb 2026 17:25:07 +0000</lastBuildDate><item><title>卡卡波马克杯，凯伦·詹姆斯设计</title><link>https://simonwillison.net/2026/Feb/8/kakapo-mug/#atom-everything</link><description>&lt;p&gt;朋友兼邻居凯伦·詹姆斯送了我一个鸮鹦鹉马克杯。杯身绘有一只神气活现的鸮鹦鹉和四只雏鸟（庆祝2026年繁殖季），甚至还点缀着芮木浆果图案！我实在太喜欢了。
+
+标签：鸮鹦鹉，艺术&lt;a href="https://www.etsy.com/shop/KarenJamesMakes"&gt;Karen James&lt;/a&gt; made me a Kākāpō mug. It has a charismatic Kākāpō, four Kākāpō chicks (in celebration of the &lt;a href="https://simonwillison.net/2026/Jan/8/llm-predictions-for-2026/#1-year-k-k-p-parrots-will-have-an-outstanding-breeding-season"&gt;2026 breeding season&lt;/a&gt;) and even has some &lt;a href="https://www.theguardian.com/world/2026/jan/13/nz-kakapo-mating-season"&gt;rimu fruit&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="A simply spectacular sgraffito ceramic mug with a bold, charismatic Kākāpō parrot taking up most of the visible space. It has a yellow beard and green feathers." src="https://static.simonwillison.net/static/2026/kakapo-mug-1.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Another side of the mug, two cute grey Kākāpō chicks are visible and three red rimu fruit that look like berries, one on the floor and two hanging from wiry branches." src="https://static.simonwillison.net/static/2026/kakapo-mug-2.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;I love it so much.&lt;/p&gt;
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/kakapo"&gt;kakapo&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/art"&gt;art&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sun, 08 Feb 2026 17:25:07 +0000</pubDate></item><item><title>引用托马斯·普塔切克的话</title><link>https://simonwillison.net/2026/Feb/8/thomas-ptacek/#atom-everything</link><description>&lt;blockquote cite="https://twitter.com/tqbf/status/2019493645888462993"&gt;&lt;p&gt;橙色网站上的人们对此嗤之以鼻，认为这只是广告宣传，没什么实质内容。但我接触的漏洞研究人员并不觉得这是个玩笑。作为曾经的漏洞研究者，我想说：别低估大语言模型在这方面的能力。
 
 Axios报道：Anthropic的Claude Opus 4.6在开源项目中发现了500个零日漏洞
 
@@ -126,46 +132,33 @@ StrongDM的解决方案灵感来源于场景测试理论。他们这样描述其
 &lt;p&gt;The software they were building helped manage user permissions across a suite of connected services. This in itself was notable - security software is the last thing you would expect to be built using unreviewed LLM code!&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[The Digital Twin Universe is] behavioral clones of the third-party services our software depends on. We built twins of Okta, Jira, Slack, Google Docs, Google Drive, and Google Sheets, replicating their APIs, edge cases, and observable behaviors.&lt;/p&gt;
-&lt;p&gt;借助数字孪生单元，我们能够以远超生产限制的规模和速率进行验证。我们可以测试那些在真实服务中危险或无法实施的故障模式。每小时运行数千种场景，既不会触及速率限制、触发滥用检测，也不会累积API成本。
+&lt;p&gt;借助DTU，我们能够以远超生产限制的规模和速率进行验证。我们可以测试那些针对真实服务既危险又无法实施的故障模式。每小时运行数千个场景，既不会触及速率限制、触发滥用检测，也不会累积API成本。
 
-如何克隆Okta、Jira、Slack等系统的核心功能？答案是编码智能体！
+如何克隆Okta、Jira、Slack等系统的核心部分？答案是：借助编码智能体！
 
 据我理解，其诀窍在于将某个服务的完整公开API文档导入智能体框架，让它构建一个自包含的Go二进制文件来模拟该API。随后还能在此基础上构建简化版用户界面，以完善整个模拟系统。
 
-通过拥有这些服务的独立克隆体——不受速率限制或使用配额约束——他们的模拟测试大军得以
+最新动态：DTU创建者Jay Taylor在Hacker News上分享了更多背景信息，并透露了一项关键提示策略：
 
-肆意驰骋
+"我最初获得了一个关键洞见，由此形成了一套可复现的策略，确保DTU与官方标准SaaS服务之间保持高度保真度。"
 
-。场景测试转化为智能体脚本，在新系统构建过程中持续执行。
+通过建立独立于原服务的克隆系统——摆脱速率限制和使用配额——他们的模拟测试大军得以展开无拘无束的测试。场景测试脚本成为智能体持续验证新建系统的行动指南。
 
-这张Slack克隆体的截图也清晰展示了测试流程：模拟Okta用户流即将接入不同模拟系统的动态过程。
+这张Slack孪生系统的截图生动展示了测试流程：模拟Okta用户流即将接入不同模拟系统的实时画面。
 
-快速构建Slack核心功能的可用克隆体，彰显了新一代编码智能体工具的颠覆性潜力：
+快速构建Slack核心功能克隆体的能力，充分展现了新一代编码智能体工具的颠覆性潜力：
 
-创建高保真度的重量级SaaS应用克隆体虽技术可行，却始终受经济成本制约。历代工程师或许
+创建高保真度的重量级SaaS应用克隆体在技术上始终可行，但经济层面从未具备可行性。历代工程师或许都曾渴望建立完整的CRM内存副本用于测试，却始终自我否定了构建提案。
 
-渴望
-
-拥有完整的CRM内存副本用于测试，但最终都自我否定了构建提案。
-
-技术方案页面
-
-同样值得关注。除数字孪生宇宙外，他们还提出了
-
-基因输注
-
-（让智能体从现有系统提取模式并移植到新场景）、
-
-语义移植
-
-（直接跨语言移植代码）以及
-
-金字塔摘要
-
-（提供多层级摘要，使智能体能快速枚举简版概要，并按需深入细节信息）等创新概念。&lt;/p&gt;
+他们的技术文档页面同样值得关注。除了数字孪生宇宙概念，还引入了"基因输注"等创新术语。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;How do you clone the important parts of Okta, Jira, Slack and more? With coding agents!&lt;/p&gt;
 &lt;p&gt;As I understood it the trick was effectively to dump the full public API documentation of one of those services into their agent harness and have it build an imitation of that API, as a self-contained Go binary. They could then have it build a simplified UI over the top to help complete the simulation.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: DTU creator Jay Taylor posted some extra context about this &lt;a href="https://news.ycombinator.com/item?id=46924426#46931812"&gt;on Hacker News&lt;/a&gt; sharing a key prompting strategy:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I did have an initial key insight which led to a repeatable strategy to ensure a high level of fidelity between DTU vs. the official canonical SaaS services:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Use the top popular publicly available reference SDK client libraries as compatibility targets, with the goal always being 100% compatibility.&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;With their own, independent clones of those services - free from rate-limits or usage quotas - their army of simulated testers could go &lt;em&gt;wild&lt;/em&gt;. Their scenario tests became scripts for agents to constantly execute against the new systems as they were being built.&lt;/p&gt;
 &lt;p&gt;This screenshot of their Slack twin also helps illustrate how the testing process works, showing a stream of simulated Okta users who are about to need access to different simulated systems.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Screenshot of a Slack-like interface titled &amp;quot;DTU Slack&amp;quot; showing a thread view (Thread — C4B9FBB97) with &amp;quot;Focus first&amp;quot; and &amp;quot;Leave&amp;quot; buttons. The left sidebar lists channels including # org-general (182), # general (0) (shared×2), # it-support (0), # channel-0002 (0) (shared×2), # channel-0003 (0) through # channel-0020 (0), # org-finance (1), and a DMs section with a &amp;quot;Start&amp;quot; button. A &amp;quot;Create&amp;quot; button appears at the top of the sidebar. The main thread shows approximately 9 automated introduction messages from users with Okta IDs (e.g. @okta-u-423438-00001, @okta-u-423438-00002, etc.), all timestamped 2025-11-12Z between 18:50:31 and 18:51:51. Each message follows the format &amp;quot;Hi team! I'm [Name], joining as Employee in general. Key skills: [fictional skill phrases]. Excited to contribute!&amp;quot; All users have red/orange &amp;quot;O&amp;quot; avatar icons." src="https://static.simonwillison.net/static/2026/strong-dm-slack.jpg"/&gt;&lt;/p&gt;
@@ -173,32 +166,54 @@ StrongDM的解决方案灵感来源于场景测试理论。他们这样描述其
 &lt;blockquote&gt;
 &lt;p&gt;Creating a high fidelity clone of a significant SaaS application was always possible, but never economically feasible. Generations of engineers may have &lt;em&gt;wanted&lt;/em&gt; a full in-memory replica of their CRM to test against, but self-censored the proposal to build it.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;The &lt;a href="https://factory.strongdm.ai/techniques"&gt;techniques page&lt;/a&gt; is worth a look too. In addition to the Digital Twin Universe they introduce terms like &lt;strong&gt;&lt;a href="https://factory.strongdm.ai/techniques/gene-transfusion"&gt;Gene Transfusion&lt;/a&gt;&lt;/strong&gt; for having agents extract patterns from existing systems and reuse them elsewhere, &lt;strong&gt;&lt;a href="https://factory.strongdm.ai/techniques/semport"&gt;Semports&lt;/a&gt;&lt;/strong&gt; for directly porting code from one language to another and &lt;strong&gt;&lt;a href="https://factory.strongdm.ai/techniques/pyramid-summaries"&gt;Pyramid Summaries&lt;/a&gt;&lt;/strong&gt; for providing multiple levels of summary such that an agent can enumerate the short ones quickly and zoom in on more detailed information as it is needed.&lt;/p&gt;
-&lt;p&gt;StrongDM AI 也发布了一些软件——以一种恰如其分的非传统方式。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/strongdm/attractor"&gt;github.com/strongdm/attractor&lt;/a&gt;是&lt;strong&gt;Attractor&lt;/strong&gt;，他们软件工厂核心的非交互式编码代理。只不过这个仓库本身根本不包含任何代码——只有三个 Markdown 文件，极其详细地描述了软件规范，以及 README 中的一条说明：你应该把这些规范输入到你选择的编码代理中！&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/strongdm/cxdb"&gt;github.com/strongdm/cxdb&lt;/a&gt;则是一个更传统的发布，包含 16,000 行 Rust 代码、9,500 行 Go 代码和 6,700 行 TypeScript 代码。这是他们的“AI 上下文存储”——一个用于在不可变的 DAG 中存储对话历史和工具输出的系统。&lt;/p&gt;
-&lt;p&gt;它类似于我的 LLM 工具的&lt;a href="https://llm.datasette.io/en/stable/logging.html#sql-schema"&gt;SQLite 日志机制&lt;/a&gt;但要复杂得多。我可能得从这里面“基因移植”一些想法出来！&lt;/p&gt;
-&lt;h4 id="a-glimpse-of-the-future-"&gt;未来的惊鸿一瞥？&lt;/h4&gt;
-&lt;p&gt;去年十月，我作为受邀嘉宾小组的一员访问了 StrongDM AI 团队。&lt;/p&gt;
-&lt;p&gt;Justin McCarthy、Jay Taylor 和 Navan Chauhan 三人团队才组建了三个月，但他们已经有了编码代理工具的工作演示、半打服务的数字孪生宇宙克隆，以及一群模拟测试代理在运行场景。而这还是在 Opus 4.5/GPT 5.2 发布之前——这些发布在一个月后让代理编码的可靠性显著提升。&lt;/p&gt;
-&lt;p&gt;这感觉像是窥见了软件开发的一种潜在未来：软件工程师从编写代码转向构建并半监控那些编写代码的系统。黑暗工厂。&lt;/p&gt;
-&lt;h4 id="wait-1-000-day-per-engineer-"&gt;等等，每个工程师每天 1,000 美元？&lt;/h4&gt;
-&lt;p&gt;我在本文最初发布的版本中略过了这个细节，但它值得认真关注。&lt;/p&gt;
-&lt;p&gt;如果这些模式真会让每位工程师的月度预算增加两万美元，那它们对我的吸引力就大打折扣了。这更像是在探讨商业模式：能否打造出足够盈利的产品线，来支撑这种高成本的软件开发方式？
+&lt;p&gt;The &lt;a href="https://factory.strongdm.ai/techniques"&gt;techniques page&lt;/a&gt; is worth a look too. In addition to the Digital Twin Universe they introduce terms like &lt;strong&gt;&lt;a href="https://factory.strongdm.ai/techniques/gene-transfusion"&gt;Gene Transfusion&lt;/a&gt;&lt;/strong&gt;让智能体从现有系统中提取模式并在其他地方复用，  
+**Semports**  
+用于直接将代码从一种语言移植到另一种语言，  
+**Pyramid Summaries**  
+提供多层级摘要，使智能体能快速浏览简短版本，并在需要时深入查看更详细信息。  
 
-当任何竞争对手都可能通过几小时的智能编码工作克隆你的最新功能时，构建可持续的软件业务也变得截然不同。
+StrongDM AI 还以非传统的方式发布了一些软件。  
+**github.com/strongdm/attractor**  
+是 **Attractor**，他们软件工厂的核心非交互式编码智能体。但这个仓库本身没有任何代码——只有三个 Markdown 文件，详细描述了软件规范，并在 README 中注明：你应该将这些规范输入你选择的编码智能体！  
 
-我希望这些模式的实施成本能大幅降低。我个人发现每月200美元的Claude Max套餐已足够支持我尝试各种智能体模式——当然，我也没有让一群QA测试员24小时连轴转！
+**github.com/strongdm/cxdb**  
+则是一个更传统的发布，包含 16,000 行 Rust 代码、9,500 行 Go 代码和 6,700 行 TypeScript 代码。这是他们的“AI 上下文存储”——一个用于在不可变有向无环图中存储对话历史和工具输出的系统。  
+它类似于我的 LLM 工具的 **SQLite 日志机制**，但复杂得多。我可能需要从中汲取一些灵感！  
 
-我认为即使对于不打算在代币成本上投入数千美元的团队和个人，StrongDM的经验也极具借鉴意义。我特别关注的是：如何让智能体自主验证代码的可行性，而无需人工逐行审查。
+**未来的缩影？**  
+去年十月，我作为受邀嘉宾之一拜访了 StrongDM AI 团队。  
+Justin McCarthy、Jay Taylor 和 Navan Chauhan 三人团队仅成立三个月，就已经展示了他们的编码智能体框架、多个服务的数字孪生克隆，以及模拟测试智能体运行场景的演示。而这些演示是在 Opus 4.5/GPT 5.2 发布之前进行的——一个月后，这些版本使智能体编码的可靠性显著提升。  
+这仿佛瞥见了软件开发的一种潜在未来：软件工程师从编写代码转向构建并半监控那些生成代码的系统。  
+**黑暗工厂**。  
+
+等等，每个工程师每天 1,000 美元？&lt;strong&gt;&lt;a href="https://factory.strongdm.ai/techniques/semport"&gt;Semports&lt;/a&gt;&lt;/strong&gt; for directly porting code from one language to another and &lt;strong&gt;&lt;a href="https://factory.strongdm.ai/techniques/pyramid-summaries"&gt;Pyramid Summaries&lt;/a&gt;&lt;/strong&gt; for providing multiple levels of summary such that an agent can enumerate the short ones quickly and zoom in on more detailed information as it is needed.&lt;/p&gt;
+&lt;p&gt;StrongDM AI also released some software - in an appropriately unconventional manner.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/strongdm/attractor"&gt;github.com/strongdm/attractor&lt;/a&gt; is &lt;strong&gt;Attractor&lt;/strong&gt;, the non-interactive coding agent at the heart of their software factory. Except the repo itself contains no code at all - just three markdown files describing the spec for the software in meticulous detail, and a note in the README that you should feed those specs into your coding agent of choice!&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/strongdm/cxdb"&gt;github.com/strongdm/cxdb&lt;/a&gt; is a more traditional release, with 16,000 lines of Rust, 9,500 of Go and 6,700 of TypeScript. This is their "AI Context Store" - a system for storing conversation histories and tool outputs in an immutable DAG.&lt;/p&gt;
+&lt;p&gt;It's similar to my LLM tool's &lt;a href="https://llm.datasette.io/en/stable/logging.html#sql-schema"&gt;SQLite logging mechanism&lt;/a&gt; but a whole lot more sophisticated. I may have to gene transfuse some ideas out of this one!&lt;/p&gt;
+&lt;h4 id="a-glimpse-of-the-future-"&gt;A glimpse of the future?&lt;/h4&gt;
+&lt;p&gt;I visited the StrongDM AI team back in October as part of a small group of invited guests.&lt;/p&gt;
+&lt;p&gt;The three person team of Justin McCarthy, Jay Taylor and Navan Chauhan had formed just three months earlier, and they already had working demos of their coding agent harness, their Digital Twin Universe clones of half a dozen services and a swarm of simulated test agents running through scenarios. And this was prior to the Opus 4.5/GPT 5.2 releases that made agentic coding significantly more reliable a month after those demos.&lt;/p&gt;
+&lt;p&gt;It felt like a glimpse of one potential future of software development, where software engineers move from building the code to building and then semi-monitoring the systems that build the code. The Dark Factory.&lt;/p&gt;
+&lt;h4 id="wait-1-000-day-per-engineer-"&gt;Wait, $1,000/day per engineer?&lt;/h4&gt;
+&lt;p&gt;我在最初发布的版本中略过了这个细节，但它确实值得认真关注。
+
+如果这些模式真的会让你的预算每月为每位工程师增加两万美元，那它们对我的吸引力就大大降低了。到那时，这更像是一种商业模式验证：你能否创造出足够盈利的产品线，来负担以这种方式开发软件所产生的巨大开销？
+
+当任何竞争对手都可能通过几小时的智能体编码工作就克隆出你的最新功能时，构建可持续的软件业务也会呈现出截然不同的面貌。
+
+我希望这些模式能够以低得多的成本投入实践。我个人发现每月200美元的Claude Max套餐为我提供了充足的空间来试验不同的智能体模式，当然我也不是24小时不间断地运行着一群质量保证测试员！
+
+我认为即使对于那些不会在代币成本上花费数千美元的团队和个人来说，StrongDM也有很多值得学习的地方。我特别关注的问题是：如何让智能体证明它们编写的代码有效，而无需逐行审查它们生成的每一行代码。
 
 标签：
-人工智能、
-生成式人工智能、
-大语言模型、
-AI辅助编程、
-编码智能体、
+人工智能，
+生成式人工智能，
+大语言模型，
+人工智能辅助编程，
+编码智能体，
 并行智能体&lt;/p&gt;
+&lt;p&gt;If these patterns really do add $20,000/month per engineer to your budget they're far less interesting to me. At that point this becomes more of a business model exercise: can you create a profitable enough line of products that you can afford the enormous overhead of developing software in this way?&lt;/p&gt;
 &lt;p&gt;Building sustainable software businesses also looks very different when any competitor can potentially clone your newest features with a few hours of coding agent work.&lt;/p&gt;
 &lt;p&gt;I hope these patterns can be put into play with a much lower spend. I've personally found the $200/month Claude Max plan gives me plenty of space to experiment with different agent patterns, but I'm also not running a swarm of QA testers 24/7!&lt;/p&gt;
 &lt;p&gt;I think there's a lot to learn from StrongDM even for teams and individuals who aren't going to burn thousands of dollars on token costs. I'm particularly invested in the question of what it takes to have agents prove that their code works without needing to review every line of code they produce.&lt;/p&gt;
@@ -667,15 +682,4 @@ I talked to Cade Metz for this New York Times piece on OpenClaw and Moltbook. Ca
 &lt;p&gt;很高兴能在文章里加入"大部分都是胡言乱语"这句话！&lt;/p&gt;
 &lt;p&gt;趣闻：凯德曾发邮件让我核实几个要点。其中一条说"你对聊天机器人像经典科幻小说里那样互相诱导用机器方式交谈很感兴趣"——我回复说"感兴趣"这个词不够准确，因为我在过去的其他项目中见过类似情况，建议改成"觉得有趣"，他们最终采纳了这个说法！&lt;/p&gt;
 &lt;p&gt;摄影师杰森跟我相处了一小时。在这个过程中我学到了很多新闻摄影的知识——比如行业有严格的道德准则，除了基础色彩校正外禁止任何数码修改。&lt;/p&gt;
-&lt;p&gt;因此他花了大量时间寻找自然光线、阴影和反射的最佳角度，来获得理想画面。&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/journalism"&gt;新闻业&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/new-york-times"&gt;纽约时报&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/photography"&gt;摄影&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/slop"&gt;胡言乱语&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/ai-agents"&gt;智能体&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/press-quotes"&gt;媒体引述&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/openclaw"&gt;openclaw&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Mon, 02 Feb 2026 16:42:46 +0000</pubDate></item><item><title>今日所学：在Docker中运行OpenClaw</title><link>https://simonwillison.net/2026/Feb/1/openclaw-in-docker/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://til.simonwillison.net/llms/openclaw-docker"&gt;今日新知：在Docker中运行OpenClaw&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;我一直在&lt;a href="https://openclaw.ai/"&gt;OpenClaw&lt;/a&gt;通过Docker在我的Mac上运行。以下是我持续记录的第一部分，涵盖如何设置以及用于管理它的命令。
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://til.simonwillison.net/llms/openclaw-docker#use-their-docker-compose-configuration"&gt;使用他们的Docker Compose配置&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://til.simonwillison.net/llms/openclaw-docker#answering-all-of-those-questions"&gt;回答所有这些问题&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://til.simonwillison.net/llms/openclaw-docker#running-administrative-commands"&gt;运行管理命令&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://til.simonwillison.net/llms/openclaw-docker#setting-up-a-telegram-bot"&gt;设置Telegram机器人&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://til.simonwillison.net/llms/openclaw-docker#accessing-the-web-ui"&gt;访问Web用户界面&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://til.simonwillison.net/llms/openclaw-docker#running-commands-as-root"&gt;以root身份运行命令&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;这是它在本地主机上提供的Web用户界面的截图：&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Screenshot of the OpenClaw Gateway Dashboard web interface. Header shows &amp;quot;OpenCLAW GATEWAY DASHBOARD&amp;quot; with a green &amp;quot;Health OK&amp;quot; indicator. Left sidebar contains navigation sections: Chat (Chat highlighted), Control (Overview, Channels, Instances, Sessions, Cron Jobs), Agent (Skills, Nodes), Settings (Config, Debug, Logs), and Resources (Docs). Main content area displays &amp;quot;Chat&amp;quot; with subtitle &amp;quot;Direct gateway chat session for quick interventions.&amp;quot; and &amp;quot;telegram:6580064359&amp;quot; identifier. A user message at 4:08 PM reads &amp;quot;Show me a detailed list of all your available configured tools&amp;quot;. The assistant response states: &amp;quot;Here's the full list of tools I have available in this OpenClaw session (as configured). These are the only ones I can call programmatically:&amp;quot; followed by categorized tools: &amp;quot;File &amp;amp; workspace&amp;quot; (read — Read a file (text or image). Supports offset/limit for large files; write — Create/overwrite a file (creates parent dirs); edit — Precise in-place edit by exact string replacement), &amp;quot;Shell / processes&amp;quot; (exec — Run a shell command (optionally PTY, backgrounding, timeouts); process — Manage running exec sessions (list/poll/log/write/kill/etc.)), &amp;quot;Web&amp;quot; (web_search — Search the web (Brave Search API); web_fetch — Fetch a URL and extract readable content (markdown/text); browser — Control a browser (open/navigate/snapshot/screenshot/act/etc.)), &amp;quot;UI / rendering&amp;quot; (canvas — Present/eval/snapshot a Canvas surface (for node canvases/UI rendering)), and &amp;quot;Devices / nodes&amp;quot; (cut off). Bottom shows message input with placeholder &amp;quot;Message (↵ to send, Shift+↵ for line breaks, paste images)&amp;quot; and &amp;quot;New session&amp;quot; and coral &amp;quot;Send&amp;quot; buttons." src="https://static.simonwillison.net/static/2026/openclaw-web-ui.jpg"/&gt;
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;，&lt;a href="https://simonwillison.net/tags/docker"&gt;Docker&lt;/a&gt;，&lt;a href="https://simonwillison.net/tags/til"&gt;今日新知&lt;/a&gt;，&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;，&lt;a href="https://simonwillison.net/tags/llms"&gt;大型语言模型&lt;/a&gt;，&lt;a href="https://simonwillison.net/tags/ai-agents"&gt;AI代理&lt;/a&gt;，&lt;a href="https://simonwillison.net/tags/openclaw"&gt;OpenClaw&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Sun, 01 Feb 2026 23:59:13 +0000</pubDate></item></channel></rss>
+&lt;p&gt;因此他花了大量时间寻找自然光线、阴影和反射的最佳角度，来获得理想画面。&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/journalism"&gt;新闻业&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/new-york-times"&gt;纽约时报&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/photography"&gt;摄影&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/slop"&gt;胡言乱语&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/ai-agents"&gt;智能体&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/press-quotes"&gt;媒体引述&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/openclaw"&gt;openclaw&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Mon, 02 Feb 2026 16:42:46 +0000</pubDate></item></channel></rss>
