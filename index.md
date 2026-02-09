@@ -1,6 +1,6 @@
 # RSS 中文翻译源
 
-更新时间: 2026-02-09 01:50 UTC
+更新时间: 2026-02-09 04:50 UTC
 
 ## 订阅链接
 
@@ -11,6 +11,7 @@
 - dereksivers: `feeds/dereksivers.xml`
 - kaushikgopal: `feeds/kaushikgopal.xml`
 - astralcodexten: `feeds/astralcodexten.xml`
+- thinkingoutloud: `feeds/thinkingoutloud.xml`
 
 将上面的 xml 文件链接替换为完整 URL 即可订阅。
 
