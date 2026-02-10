@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Wed, 04 Feb 2026 01:40:24 +0000</lastBuildDate><item><title>OpenAI的Codex</title><link>https://simonwillison.net/2026/Feb/2/introducing-the-codex-app/</link><description>&lt;p&gt;西蒙·威尔逊：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 10 Feb 2026 01:43:40 +0000</lastBuildDate><item><title>[赞助商] WorkOS Pipes：无需重建OAuth即可实现第三方集成</title><link>https://workos.com/docs/pipes?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q12026&amp;utm_content=no_rebuild</link><description>&lt;p&gt;将用户账户与第三方API连接总是涉及相同的繁琐流程：OAuth授权、令牌存储、刷新逻辑以及各平台的特殊处理。
+
+WorkOS Pipes
+
+彻底消除了这些负担。用户通过
+
+嵌入式组件
+
+即可连接GitHub、Slack、Google、Salesforce等支持的服务。当您需要时，后端可直接从Pipes API获取有效访问令牌，而凭证存储与令牌刷新均由Pipes自动处理。
+
+用WorkOS Pipes简化集成流程
+
+。
+
+★&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://workos.com/docs/pipes?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q12026&amp;amp;utm_content=product_name_link"&gt;WorkOS Pipes&lt;/a&gt; removes that overhead. Users connect services like GitHub, Slack, Google, Salesforce, and other supported providers through a &lt;a href="https://workos.com/docs/widgets/pipes?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q12026&amp;amp;utm_content=drop_in_widget"&gt;drop-in widget&lt;/a&gt;. Your backend requests a valid access token from the Pipes API when needed, while Pipes handles credential storage and token refresh.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://workos.com/docs/pipes?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q12026&amp;amp;utm_content=simplify_integrations_cta"&gt;Simplify integrations with WorkOS Pipes&lt;/a&gt;.&lt;/p&gt;
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/feeds/sponsors/2026/02/workos_pipes_ship_third-party_2" title="Permanent link to ‘WorkOS Pipes: Ship Third-Party Integrations Without Rebuilding OAuth’"&gt; ★ &lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Tue, 10 Feb 2026 01:43:40 +0000</pubDate></item><item><title>OpenAI的Codex</title><link>https://simonwillison.net/2026/Feb/2/introducing-the-codex-app/</link><description>&lt;p&gt;西蒙·威尔逊：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;OpenAI刚刚为其Codex编程助手发布了新的macOS应用。我获得了几天预览体验——这款应用相当扎实，在Codex CLI助手功能基础上提供了美观的界面，并新增了一些有趣特性，最突出的是对技能库的原生支持，以及运行定时任务的自动化功能。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -482,14 +501,4 @@ agents. Maybe, just maybe, postpone the movie premiere?&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/linked/2026/01/27/mg-cook-melania" title="Permanent link to ‘‘Aside From That, Mr. Cook, What Did You Think of the Movie?’’"&gt; ★ &lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Tue, 27 Jan 2026 23:02:49 +0000</pubDate></item><item><title>随便</title><link>https://nymag.com/intelligencer/article/donald-trump-addresses-health-hand-bruise-stroke-mri-greenland.html</link><description>&lt;p&gt;本·特里斯为《纽约杂志》撰稿：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;弗雷德·特朗普于1999年去世，享年93岁。特朗普说，他有一颗"无法停止的心脏"，在他漫长的一生中几乎没有任何健康问题。"他有一个问题，"特朗普说。"在某个年龄，大约86、87岁时，他开始出现，他们叫什么来着？"他指着自己的额头，看向他的新闻秘书，寻求那个他想不起来的词。&lt;/p&gt;
-&lt;p&gt;"阿尔茨海默病，"莱维特说。&lt;/p&gt;
-&lt;p&gt;"像是阿尔茨海默病那种东西，"特朗普说。"嗯，我没有。"&lt;/p&gt;
-&lt;p&gt;"你会考虑这个问题吗？"我问。&lt;/p&gt;
-&lt;p&gt;"不，我根本不会考虑。你知道为什么吗？"他说。"因为不管是什么，我的态度就是顺其自然。"&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/01/27/whatever" title="Permanent link to ‘‘Whatever’’"&gt;★&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Tue, 27 Jan 2026 22:48:42 +0000</pubDate></item></channel></rss>
+&lt;/div&gt;</description><pubDate>Tue, 27 Jan 2026 23:02:49 +0000</pubDate></item></channel></rss>
