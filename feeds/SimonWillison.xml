@@ -1,5 +1,291 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Mon, 09 Feb 2026 23:56:51 +0000</lastBuildDate><item><title>面向文件原生智能体系统的结构化情境工程</title><link>https://simonwillison.net/2026/Feb/9/structured-context-engineering-for-file-native-agentic-systems/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://arxiv.org/abs/2602.05447"&gt;面向文件原生智能体系统的结构化上下文工程&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;Damon McMillan发表新论文，探索涉及大规模SQL架构（高达10,000张表）的LLM上下文挑战性任务，涵盖不同模型与文件格式：
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Tue, 10 Feb 2026 17:45:29 +0000</lastBuildDate><item><title>隆重推出Showboat与Rodney，让智能体们展示他们的杰作。</title><link>https://simonwillison.net/2026/Feb/10/showboat-and-rodney/#atom-everything</link><description>&lt;p&gt;与编码智能体协作的一个关键挑战在于，既要让它们测试自己构建的软件，又要向监督者（即我们）展示软件成果。这超越了自动化测试的范畴——我们需要能直观呈现进展、帮助我们清晰了解智能体所产软件实际功能的载体。为此，我刚刚发布了两款新工具：
+
+**Showboat** 与 **Rodney**。
+
+**验证代码实际运行效果**  
+Showboat：智能体通过构建文档来演示其工作成果  
+Rodney：专为配合Showboat设计的CLI浏览器自动化工具  
+
+测试驱动开发固然有效，但我们仍需要人工测试环节。值得一提的是，这两款工具我都是在手机上完成的开发。
+
+**验证代码实际运行效果**  
+我最近撰文探讨过，软件工程师的核心职责并非编写代码，而是**交付可运行的代码**。其中至关重要的一环，就是向自己和他人证明我们负责的代码能够按预期运行。
+
+随着编码智能体逐渐成为软件开发流程的核心组成部分，这项工作变得愈发重要且充满挑战。智能体产出的代码越多，能减少人工测试时间的工具就越显珍贵。
+
+**StrongDM软件工厂模式**最引人深思的一点在于，他们如何在坚持“代码禁止人工审查”政策的同时，确保软件经过充分测试并实现价值交付。其解决方案部分依赖于运行“场景测试”的高成本QA智能体集群。这种模式虽令人着迷，但若能避免，我并不愿在QA机器人上投入数千美元！
+
+我需要的工具，既要让智能体清晰展示工作成果，又要最大限度减少其成果造假的可能性。
+
+**Showboat：智能体通过构建文档来演示其工作成果**  
+Showboat正是我为解决这一问题而打造的工具。它是一个CLI工具（基于Go的二进制程序，也可选择用Python封装）。&lt;a href="https://github.com/simonw/showboat"&gt;Showboat&lt;/a&gt; and &lt;a href="https://github.com/simonw/rodney"&gt;Rodney&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://simonwillison.net/2026/Feb/10/showboat-and-rodney/#proving-code-actually-works"&gt;Proving code actually works&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://simonwillison.net/2026/Feb/10/showboat-and-rodney/#showboat-agents-build-documents-to-demo-their-work"&gt;Showboat: Agents build documents to demo their work&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://simonwillison.net/2026/Feb/10/showboat-and-rodney/#rodney-cli-browser-automation-designed-to-work-with-showboat"&gt;Rodney: CLI browser automation designed to work with Showboat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://simonwillison.net/2026/Feb/10/showboat-and-rodney/#test-driven-development-helps-but-we-still-need-manual-testing"&gt;Test-driven development helps, but we still need manual testing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://simonwillison.net/2026/Feb/10/showboat-and-rodney/#i-built-both-of-these-tools-on-my-phone"&gt;I built both of these tools on my phone&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="proving-code-actually-works"&gt;Proving code actually works&lt;/h4&gt;
+&lt;p&gt;I recently wrote about how the job of a software engineer isn't to write code, it's to &lt;em&gt;&lt;a href="https://simonwillison.net/2025/Dec/18/code-proven-to-work/"&gt;deliver code that works&lt;/a&gt;&lt;/em&gt;. A big part of that is proving to ourselves and to other people that the code we are responsible for behaves as expected.&lt;/p&gt;
+&lt;p&gt;This becomes even more important - and challenging - as we embrace coding agents as a core part of our software development process.&lt;/p&gt;
+&lt;p&gt;The more code we churn out with agents, the more valuable tools are that reduce the amount of manual QA time we need to spend.&lt;/p&gt;
+&lt;p&gt;One of the most interesting things about &lt;a href="https://simonwillison.net/2026/Feb/7/software-factory/"&gt;the StrongDM software factory model&lt;/a&gt; is how they ensure that their software is well tested and delivers value despite their policy that "code must not be reviewed by humans". Part of their solution involves expensive swarms of QA agents running through "scenarios" to exercise their software. It's fascinating, but I don't want to spend thousands of dollars on QA robots if I can avoid it!&lt;/p&gt;
+&lt;p&gt;I need tools that allow agents to clearly demonstrate their work to me, while minimizing the opportunities for them to cheat about what they've done.&lt;/p&gt;
+&lt;h4 id="showboat-agents-build-documents-to-demo-their-work"&gt;Showboat: Agents build documents to demo their work&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/simonw/showboat"&gt;Showboat&lt;/a&gt;&lt;/strong&gt; is the tool I built to help agents demonstrate their work to me.&lt;/p&gt;
+&lt;p&gt;It's a CLI tool (a Go binary, optionally &lt;a href="https://simonwillison.net/2026/Feb/4/distributing-go-binaries/"&gt;wrapped in Python&lt;/a&gt;（为便于安装）该工具能帮助智能体构建Markdown文档，直观展示其新开发代码的功能。
+
+虽然并非设计给人类直接运行，但以下是运行方法：
+
+如何使用curl和jq
+
+"
+如何结合使用curl和jq
+"
+
+执行
+'
+curl -s https://api.github.com/repos/simonw/rodney | jq .description
+'
+
+'
+以及curl徽标，用于演示图像命令：
+'
+
+'
+curl -o curl-logo.png https://curl.se/logo/curl-logo.png &amp;amp;&amp;amp; echo curl-logo.png
+'
+
+在VS Code中打开并预览Markdown的效果如下：
+
+这是演示文档在Gist中的链接。
+
+通过一系列命令，可以逐步构建Markdown文档，这些命令的输出会自动附加在已执行命令之后。
+
+命令较为特殊——它会从命令输出中查找图像文件路径，将该图像复制到当前文件夹并在文档中引用。
+
+这基本就是全部功能！还包含命令用于在出错时删除最近添加的章节，命令用于重新运行文档以检查内容是否变更（我对该功能的设计尚未完全信服），以及命令用于逆向解析创建文档时使用的CLI指令。
+
+相当简洁——仅172行Go代码。
+
+我使用工具进行打包，这意味着您无需预先安装即可直接运行：
+
+该命令至关重要：它旨在为编码智能体提供使用此工具所需的全部信息。这是完整的帮助文本。
+
+这意味着您可以打开Claude Code并输入：
+
+至此完成！这段文本的作用类似于技能模块。您的智能体通过阅读帮助文本，就能运用Showboat的所有功能来创建展示所需内容的文档。&lt;/p&gt;
+&lt;p&gt;It's not designed for humans to run, but here's how you would run it anyway:&lt;/p&gt;
+&lt;div class="highlight highlight-source-shell"&gt;&lt;pre&gt;showboat init demo.md &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;'&lt;/span&gt;How to use curl and jq&lt;span class="pl-pds"&gt;'&lt;/span&gt;&lt;/span&gt;
+showboat note demo.md &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;Here's how to use curl and jq together.&lt;span class="pl-pds"&gt;"&lt;/span&gt;&lt;/span&gt;
+showboat &lt;span class="pl-c1"&gt;exec&lt;/span&gt; demo.md bash &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;'&lt;/span&gt;curl -s https://api.github.com/repos/simonw/rodney | jq .description&lt;span class="pl-pds"&gt;'&lt;/span&gt;&lt;/span&gt;
+showboat note demo.md &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;'&lt;/span&gt;And the curl logo, to demonstrate the image command:&lt;span class="pl-pds"&gt;'&lt;/span&gt;&lt;/span&gt;
+showboat image demo.md &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;'&lt;/span&gt;curl -o curl-logo.png https://curl.se/logo/curl-logo.png &amp;amp;&amp;amp; echo curl-logo.png&lt;span class="pl-pds"&gt;'&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Here's what the result looks like if you open it up in VS Code and preview the Markdown:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Screenshot showing a Markdown file &amp;quot;demo.md&amp;quot; side-by-side with its rendered preview. The Markdown source (left) shows: &amp;quot;# How to use curl and jq&amp;quot;, italic timestamp &amp;quot;2026-02-10T01:12:30Z&amp;quot;, prose &amp;quot;Here's how to use curl and jq together.&amp;quot;, a bash code block with &amp;quot;curl -s https://api.github.com/repos/simonw/rodney | jq .description&amp;quot;, output block showing '&amp;quot;CLI tool for interacting with the web&amp;quot;', text &amp;quot;And the curl logo, to demonstrate the image command:&amp;quot;, a bash {image} code block with &amp;quot;curl -o curl-logo.png https://curl.se/logo/curl-logo.png &amp;amp;&amp;amp; echo curl-logo.png&amp;quot;, and a Markdown image reference &amp;quot;2056e48f-2026-02-10&amp;quot;. The rendered preview (right) displays the formatted heading, timestamp, prose, styled code blocks, and the curl logo image in dark teal showing &amp;quot;curl://&amp;quot; with circuit-style design elements." src="https://static.simonwillison.net/static/2026/curl-demo.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;Here's that &lt;a href="https://gist.github.com/simonw/fb0b24696ed8dd91314fe41f4c453563#file-demo-md"&gt;demo.md file in a Gist&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;So a sequence of &lt;code&gt;showboat init&lt;/code&gt;, &lt;code&gt;showboat note&lt;/code&gt;, &lt;code&gt;showboat exec&lt;/code&gt; and &lt;code&gt;showboat image&lt;/code&gt; commands constructs a Markdown document one section at a time, with the output of those &lt;code&gt;exec&lt;/code&gt; commands automatically added to the document directly following the commands that were run.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;image&lt;/code&gt; command is a little special - it looks for a file path to an image in the output of the command and copies that image to the current folder and references it in the file.&lt;/p&gt;
+&lt;p&gt;That's basically the whole thing! There's a &lt;code&gt;pop&lt;/code&gt; command to remove the most recently added section if something goes wrong, a &lt;code&gt;verify&lt;/code&gt; command to re-run the document and check nothing has changed (I'm not entirely convinced by the design of that one) and a &lt;code&gt;extract&lt;/code&gt; command that reverse-engineers the CLI commands that were used to create the document.&lt;/p&gt;
+&lt;p&gt;It's pretty simple - just 172 lines of Go.&lt;/p&gt;
+&lt;p&gt;I packaged it up with my &lt;a href="https://github.com/simonw/go-to-wheel"&gt;go-to-wheel&lt;/a&gt; tool which means you can run it without even installing it first like this:&lt;/p&gt;
+&lt;div class="highlight highlight-source-shell"&gt;&lt;pre&gt;uvx showboat --help&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;That &lt;code&gt;--help&lt;/code&gt; command is really important: it's designed to provide a coding agent with &lt;em&gt;everything it needs to know&lt;/em&gt; in order to use the tool. Here's &lt;a href="https://github.com/simonw/showboat/blob/main/help.txt"&gt;that help text in full&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This means you can pop open Claude Code and tell it:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Run "uvx showboat --help" and then use showboat to create a demo.md document describing the feature you just built&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;And that's it! The &lt;code&gt;--help&lt;/code&gt; text acts &lt;a href="https://simonwillison.net/2025/Oct/16/claude-skills/"&gt;a bit like a Skill&lt;/a&gt;. Your agent can read the help text and use every feature of Showboat to create a document that demonstrates whatever it is you need demonstrated.&lt;/p&gt;
+&lt;p&gt;有个有趣的小技巧：如果你让Claude生成Showboat演示文档，可以在VS Code中打开它，当智能体运行演示时，你能实时看到预览窗格的动态更新。这有点像同事通过屏幕共享向你讲解他们的最新成果。
+
+最后来看几个实例。以下是我让Claude使用Showboat创建的文档，用于展示我在其他项目中开发的功能：
+
+**shot-scraper：完整功能演示**
+完整演示了我的浏览器自动化工具shot-scraper的全套功能，主要为了测试命令行操作。
+
+**sqlite-history-json命令行演示**
+展示了我为新的Python库sqlite-history-json添加的命令行功能。
+
+**row-state-sql命令行演示**
+展示了我在同一项目中新增的另一个命令。
+
+**带备注的变更分组演示**
+展示了另一项功能：同一事务中的变更组可以附加备注说明。
+
+**krunsh：将Shell命令传输到临时libkrun微虚拟机**
+这是个特别复杂的案例——我成功让Claude Code在QEMU模拟的Linux环境中运行libkrun微虚拟机，而这个环境又运行在Claude的gVisor沙箱内。
+
+经过频繁使用Showboat后，我已完全确信其实用价值。
+
+（不过我也发现智能体会"作弊"！由于演示文件是Markdown格式，智能体有时会直接编辑文件而非使用Showboat，这可能导致命令输出与实际执行结果不符。相关讨论可参见这个issue。）
+
+**Rodney：专为Showboat设计的命令行浏览器自动化工具**
+我的许多项目都涉及网页界面。智能体经常为这些项目构建全新页面，我希望在演示中能看到这些内容。
+
+Showboat的截图功能专为智能体设计，允许他们在演示过程中捕获屏幕图像。该功能最初使用我的shot-scraper工具或Playwright实现。&lt;/p&gt;
+&lt;p&gt;And finally, some examples. Here are documents I had Claude create using Showboat to help demonstrate features I was working on in other projects:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href="https://github.com/simonw/showboat-demos/blob/main/shot-scraper/README.md"&gt;shot-scraper: A Comprehensive Demo&lt;/a&gt; runs through the full suite of features of my &lt;a href="https://shot-scraper.datasette.io/"&gt;shot-scraper&lt;/a&gt; browser automation tool, mainly to exercise the &lt;code&gt;showboat image&lt;/code&gt; command.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://github.com/simonw/sqlite-history-json/blob/main/demos/cli.md"&gt;sqlite-history-json CLI demo&lt;/a&gt; demonstrates the CLI feature I added to my new &lt;a href="https://github.com/simonw/sqlite-history-json"&gt;sqlite-history-json&lt;/a&gt; Python library.
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/simonw/sqlite-history-json/blob/main/demos/row-state-sql.md"&gt;row-state-sql CLI Demo&lt;/a&gt; shows a new &lt;code&gt;row-state-sql&lt;/code&gt; command I added to that same project.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/simonw/sqlite-history-json/blob/main/demos/change-grouping.md"&gt;Change grouping with Notes&lt;/a&gt; demonstrates another feature where groups of changes within the same transaction can have a note attached to them.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://github.com/simonw/research/blob/main/libkrun-go-cli-tool/demo.md"&gt;krunsh: Pipe Shell Commands to an Ephemeral libkrun MicroVM&lt;/a&gt; is a particularly convoluted example where I managed to get Claude Code for web to run a libkrun microVM inside a QEMU emulated Linux environment inside the Claude gVisor sandbox.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I've now used Showboat often enough that I've convinced myself of its utility.&lt;/p&gt;
+&lt;p&gt;(I've also seen agents cheat! Since the demo file is Markdown the agent will sometimes edit that file directly rather than using Showboat, which could result in command outputs that don't reflect what actually happened. Here's &lt;a href="https://github.com/simonw/showboat/issues/12"&gt;an issue about that&lt;/a&gt;.)&lt;/p&gt;
+&lt;h4 id="rodney-cli-browser-automation-designed-to-work-with-showboat"&gt;Rodney: CLI browser automation designed to work with Showboat&lt;/h4&gt;
+&lt;p&gt;Many of the projects I work on involve web interfaces. Agents often build entirely new pages for these, and I want to see those represented in the demos.&lt;/p&gt;
+&lt;p&gt;Showboat's image feature was designed to allow agents to capture screenshots as part of their demos, originally using my &lt;a href="https://shot-scraper.datasette.io/"&gt;shot-scraper tool&lt;/a&gt; or &lt;a href="https://www.playwright.dev"&gt;Playwright&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Showboat格式受益于命令行工具。我本想寻找一个能通过命令行管理多轮浏览器会话的好方案，但没找到满意的，于是决定尝试构建新工具。
+
+Claude Opus 4.6指引我发现了Rod——这个用于与Chrome DevTools协议交互的Go库。它非常出色，几乎封装了所有自动化Chrome操作的功能，并且是一个独立的库，编译后仅几MB大小。
+
+Rod唯一缺少的就是命令行界面。
+
+我最初将其构建为异步报告原型，这让我确信值得将其独立成一个项目。
+
+我将其命名为Rodney，既致敬它所基于的Rod库，又影射英剧《只有傻瓜和马》——当然也因为PyPI上这个包名尚未被占用。
+
+你可以通过以下方式运行Rodney，或这样安装：
+（也可以从发布页面直接获取Go二进制文件。）
+
+以下是一个简单的使用示例：
+# 在后台启动Chrome
+'Array.from(document.links).map(el =&amp;gt; el.href).slice(0, 5)'
+'a[href="/for"]'
+
+终端中的效果如图所示：
+与Showboat一样，这个工具并非为人类使用设计！目标是让编码智能体能通过运行命令，就能看到开始使用所需的所有信息。你可以在GitHub仓库中查看完整的帮助输出。
+
+以下是我用Showboat创建的三个Rodney演示：
+1. Rodney的原始功能集，包括页面截图和执行JavaScript
+2. Rodney在开发过程中构建的新无障碍测试功能展示
+3. 使用这些功能对页面进行基础无障碍审计。Claude Opus 4.6对"使用showboat和rodney对https://latest.datasette.io/fixtures进行无障碍审计"这个提示的响应令我印象深刻——完整记录在此。
+
+测试驱动开发固然重要，但我们仍需要人工测试
+作为长期对"测试优先、追求全覆盖"开发理念持怀疑态度的从业者（虽然我也认可测试的必要性）……&lt;/p&gt;
+&lt;p&gt;Claude Opus 4.6 pointed me to the &lt;a href="https://github.com/go-rod/rod"&gt;Rod&lt;/a&gt; Go library for interacting with the Chrome DevTools protocol. It's fantastic - it provides a comprehensive wrapper across basically everything you can do with automated Chrome, all in a self-contained library that compiles to a few MBs.&lt;/p&gt;
+&lt;p&gt;All Rod was missing was a CLI.&lt;/p&gt;
+&lt;p&gt;I built the first version &lt;a href="https://github.com/simonw/research/blob/main/go-rod-cli/README.md"&gt;as an asynchronous report prototype&lt;/a&gt;, which convinced me it was worth spinning out into its own project.&lt;/p&gt;
+&lt;p&gt;I called it Rodney as a nod to the Rod library it builds on and a reference to &lt;a href="https://en.wikipedia.org/wiki/Only_Fools_and_Horses"&gt;Only Fools and Horses&lt;/a&gt; - and because the package name was available on PyPI.&lt;/p&gt;
+&lt;p&gt;You can run Rodney using &lt;code&gt;uvx rodney&lt;/code&gt; or install it like this:&lt;/p&gt;
+&lt;div class="highlight highlight-source-shell"&gt;&lt;pre&gt;uv tool install rodney&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;(Or grab a Go binary &lt;a href="https://github.com/simonw/rodney/releases/"&gt;from the releases page&lt;/a&gt;.)&lt;/p&gt;
+&lt;p&gt;Here's a simple example session:&lt;/p&gt;
+&lt;div class="highlight highlight-source-shell"&gt;&lt;pre&gt;rodney start &lt;span class="pl-c"&gt;&lt;span class="pl-c"&gt;#&lt;/span&gt; starts Chrome in the background&lt;/span&gt;
+rodney open https://datasette.io/
+rodney js &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;'&lt;/span&gt;Array.from(document.links).map(el =&amp;gt; el.href).slice(0, 5)&lt;span class="pl-pds"&gt;'&lt;/span&gt;&lt;/span&gt;
+rodney click &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;'&lt;/span&gt;a[href="/for"]&lt;span class="pl-pds"&gt;'&lt;/span&gt;&lt;/span&gt;
+rodney js location.href
+rodney js document.title
+rodney screenshot datasette-for-page.png
+rodney stop&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Here's what that looks like in the terminal:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=";~ % rodney start
+Chrome started (PID 91462)
+Debug URL: ws://127.0.0.1:64623/devtools/browser/cac6988e-8153-483b-80b9-1b75c611868d
+~ % rodney open https://datasette.io/
+Datasette: An open source multi-tool for exploring and publishing data
+~ % rodney js 'Array.from(document.links).map(el =&amp;gt; el.href).slice(0, 5)'
+[
+&amp;quot;https://datasette.io/for&amp;quot;,
+&amp;quot;https://docs.datasette.io/en/stable/&amp;quot;,
+&amp;quot;https://datasette.io/tutorials&amp;quot;,
+&amp;quot;https://datasette.io/examples&amp;quot;,
+&amp;quot;https://datasette.io/plugins&amp;quot;
+]
+~ % rodney click 'a[href=&amp;quot;/for&amp;quot;]'
+Clicked
+~ % rodney js location.href
+https://datasette.io/for
+~ % rodney js document.title
+Use cases for Datasette
+~ % rodney screenshot datasette-for-page.png
+datasette-for-page.png
+~ % rodney stop
+Chrome stopped" src="https://static.simonwillison.net/static/2026/rodney-demo.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;As with Showboat, this tool is not designed to be used by humans! The goal is for coding agents to be able to run &lt;code&gt;rodney --help&lt;/code&gt; and see everything they need to know to start using the tool. You can see &lt;a href="https://github.com/simonw/rodney/blob/main/help.txt"&gt;that help output&lt;/a&gt; in the GitHub repo.&lt;/p&gt;
+&lt;p&gt;Here are three demonstrations of Rodney that I created using Showboat:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href="https://github.com/simonw/showboat-demos/blob/main/rodney/README.md"&gt;Rodney's original feature set&lt;/a&gt;, including screenshots of pages and executing JavaScript.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://github.com/simonw/rodney/blob/main/notes/accessibility-features/README.md"&gt;Rodney's new accessibility testing features&lt;/a&gt;, built during development of those features to show what they could do.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://github.com/simonw/showboat-demos/blob/main/datasette-database-page-accessibility-audit/README.md"&gt;Using those features to run a basic accessibility audit of a page&lt;/a&gt;. I was impressed at how well Claude Opus 4.6 responded to the prompt "Use showboat and rodney to perform an accessibility audit of &lt;a href="https://latest.datasette.io/fixtures"&gt;https://latest.datasette.io/fixtures&lt;/a&gt;" - &lt;a href="https://gisthost.github.io/?dce6b2680db4b05c04469ed8f251eb34/index.html"&gt;transcript here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="test-driven-development-helps-but-we-still-need-manual-testing"&gt;Test-driven development helps, but we still need manual testing&lt;/h4&gt;
+&lt;p&gt;After being a career-long skeptic of the test-first, maximum test coverage school of software development (I like &lt;a href="https://simonwillison.net/2022/Oct/29/the-perfect-commit/#tests"&gt;tests included&lt;/a&gt;（改用开发模式）最近我开始采用测试优先流程，以此强制智能体只编写解决当前问题所必需的代码。
+
+我的许多Python编码智能体会话都以相同的方式开始：
+
+告诉智能体如何运行测试，同时也暗示了该项目存在测试且测试很重要。智能体在编写自己的测试之前会先阅读现有测试，因此拥有一个模式良好的简洁测试套件，能增加它们编写出高质量测试的可能性。
+
+前沿模型都理解"红/绿TDD"意味着它们应该先编写测试，运行测试并观察失败，然后编写代码使其通过——这是一个便捷的捷径。
+
+我发现这极大地提高了代码质量，并增加了智能体在最少提示指导下产出正确结果的可能性。
+
+但任何从事过测试工作的人都知道，自动化测试通过并不意味着软件实际能正常工作！这正是Showboat和Rodney工具背后的动机——在亲眼看到功能运行之前，我从不信任任何特性。
+
+在构建Showboat之前，我经常在智能体会话中添加"手动"测试步骤，例如：
+
+这两个工具我都是在手机上构建的
+
+Showboat和Rodney最初都是通过Claude iPhone应用为网页项目创建的Claude Code工具。它们大部分持续的功能开发也是以同样方式完成的。
+
+我现在在手机上完成如此多的编码工作仍让我有些惊讶，但我估计如今提交到GitHub的大部分代码都是由那个iPhone应用驱动的编码智能体为我编写的。
+
+我最初设计这两个工具是为了在异步编码智能体环境中使用，比如网页版的Claude Code。到目前为止效果非常好。
+
+标签：
+go
+,
+项目
+,
+测试
+,
+markdown
+,
+人工智能
+,
+生成式人工智能
+,
+大语言模型
+,
+AI辅助编程
+,
+编码智能体
+,
+异步编码智能体&lt;/p&gt;
+&lt;p&gt;Many of my Python coding agent sessions start the same way:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Run the existing tests with "uv run pytest". Build using red/green TDD.&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Telling the agents how to run the tests doubles as an indicator that tests on this project exist and matter. Agents will read existing tests before writing their own so having a clean test suite with good patterns makes it more likely they'll write good tests of their own.&lt;/p&gt;
+&lt;p&gt;The frontier models all understand that "red/green TDD" means they should write the test first, run it and watch it fail and then write the code to make it pass - it's a convenient shortcut.&lt;/p&gt;
+&lt;p&gt;I find this greatly increases the quality of the code and the likelihood that the agent will produce the right thing with the smallest amount of prompts to guide it.&lt;/p&gt;
+&lt;p&gt;But anyone who's worked with tests will know that just because the automated tests pass doesn't mean the software actually works! That’s the motivation behind Showboat and Rodney - I never trust any feature until I’ve seen it running with my own eye.&lt;/p&gt;
+&lt;p&gt;Before building Showboat I'd often add a “manual” testing step to my agent sessions, something like:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Once the tests pass, start a development server and exercise the new feature using curl&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id="i-built-both-of-these-tools-on-my-phone"&gt;I built both of these tools on my phone&lt;/h4&gt;
+&lt;p&gt;Both Showboat and Rodney started life as Claude Code for web projects created via the Claude iPhone app. Most of the ongoing feature work for them happened in the same way.&lt;/p&gt;
+&lt;p&gt;I'm still a little startled at how much of my coding work I get done on my phone now, but I'd estimate that the majority of code I ship to GitHub these days was written for me by coding agents driven via that iPhone app.&lt;/p&gt;
+&lt;p&gt;I initially designed these two tools for use in asynchronous coding agent environments like Claude Code for the web. So far that's working out really well.&lt;/p&gt;
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/go"&gt;go&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/projects"&gt;projects&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/testing"&gt;testing&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/markdown"&gt;markdown&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/async-coding-agents"&gt;async-coding-agents&lt;/a&gt;&lt;/p&gt;</description><pubDate>Tue, 10 Feb 2026 17:45:29 +0000</pubDate></item><item><title>面向文件原生智能体系统的结构化情境工程</title><link>https://simonwillison.net/2026/Feb/9/structured-context-engineering-for-file-native-agentic-systems/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://arxiv.org/abs/2602.05447"&gt;面向文件原生智能体系统的结构化上下文工程&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;Damon McMillan发表新论文，探索涉及大规模SQL架构（高达10,000张表）的LLM上下文挑战性任务，涵盖不同模型与文件格式：
 &lt;blockquote&gt;
 &lt;p&gt;我们以SQL生成为程序化智能体操作的代理指标，对结构化数据的上下文工程展开系统性研究，涵盖11种模型、4种格式（YAML、Markdown、JSON、面向令牌的对象标记法[TOON]）以及10至10,000张表的架构，累计完成9,649次实验。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -553,33 +839,57 @@ def main():
 &lt;p&gt;I've been exploring this pattern for other, non-Go binaries recently - here's &lt;a href="https://github.com/simonw/tools/blob/main/python/livestream-gif.py"&gt;a recent script&lt;/a&gt; that depends on &lt;a href="https://pypi.org/project/static-ffmpeg/"&gt;static-ffmpeg&lt;/a&gt; to ensure that &lt;code&gt;ffmpeg&lt;/code&gt; is available for the script to use.&lt;/p&gt;
 &lt;h4 id="building-python-wheels-from-go-packages-with-go-to-wheel"&gt;Building Python wheels from Go packages with go-to-wheel&lt;/h4&gt;
 &lt;p&gt;After trying this pattern myself a couple of times I realized it would be useful to have a tool to automate the process.&lt;/p&gt;
-&lt;p&gt;I first &lt;a href="https://claude.ai/share/2d9ced56-b3e8-4651-83cc-860b9b419187"&gt;brainstormed with Claude&lt;/a&gt;为了确认没有现成的工具能完成这个任务，我进行了搜索。结果指向了&lt;a href="https://www.maturin.rs/bindings.html#bin"&gt;maturin bin&lt;/a&gt;这款工具，它帮助通过Python wheel分发Rust项目；还有&lt;a href="https://github.com/Bing-su/pip-binary-factory"&gt;pip-binary-factory&lt;/a&gt;它能打包各种其他项目，但并未找到能精准解决我问题的工具。&lt;/p&gt;
-&lt;p&gt;于是，我&lt;a href="https://gisthost.github.io/?41f04e4eb823b1ceb888d9a28c2280dd/index.html"&gt;借助Claude Code在网页上构建了第一个版本&lt;/a&gt;，然后在我的笔记本电脑上，结合更多Claude Code和一点OpenAI Codex的帮助，对代码进行了本地优化，只为增添一些变化。&lt;/p&gt;
-&lt;p&gt;完整的文档位于&lt;a href="https://github.com/simonw/go-to-wheel"&gt;simonw/go-to-wheel&lt;/a&gt;仓库中。我已将该工具发布到PyPI，现在你可以通过以下方式运行它：&lt;/p&gt;
+&lt;p&gt;I first &lt;a href="https://claude.ai/share/2d9ced56-b3e8-4651-83cc-860b9b419187"&gt;brainstormed with Claude&lt;/a&gt;为了确认没有现成的工具能实现这个功能，我进行了搜索。结果指向了 maturin bin（它帮助通过 Python wheel 分发 Rust 项目）和 pip-binary-factory（它能打包各种其他项目），但并没有找到能完全解决我具体问题的工具。
+
+于是，我让 Claude Code 在网页上构建了第一个版本，然后在我的笔记本电脑上，借助更多 Claude Code 和一点 OpenAI Codex 的帮助，对代码进行了本地优化，只是为了增加一些多样性。
+
+完整的文档在 simonw/go-to-wheel 仓库中。我已经将这个工具发布到了 PyPI，所以现在你可以通过以下方式运行它：
+
+你在 PyPI 上看到的这个包，是这样构建的：
+
+~ 'Simon Willison' '扫描目录中的 SQLite 数据库'
+
+这会在 dist 文件夹中创建一组 wheel 文件。我这样测试了其中一个：
+
+当它输出了正确的版本号时，我确信一切按计划进行，于是我用以下方式将整组 wheel 文件推送到 PyPI：
+
+* 我必须粘贴我之前保存的 PyPI API 令牌。
+
+我预计会经常使用这种模式。这显然是为更广泛的模式提供一个概念验证——Python 完全能够自己递归地爬取目录结构，寻找以特定字节前缀开头的文件！
+
+话虽如此，我认为这种模式有很多可取之处。Go 是 Python 的一个很好的补充——它速度快，编译成小巧的自包含二进制文件，拥有出色的并发支持和丰富的库生态系统。
+
+Go 与 Python 相似之处在于它有一个强大的标准库。Go 特别擅长 HTTP 工具——我过去曾使用 Go 优秀的 handler 构建过几个 HTTP 代理。
+
+我还在试验 wazero，这是 Go 的一个健壮且成熟的零依赖 WebAssembly 运行时，作为我持续寻找运行不受信任代码的理想沙箱的一部分。
+
+这是我用那个库的最新实验。
+
+能够将 Go 二进制文件无缝集成到 Python 项目中，而最终用户完全不需要考虑 Go——他们&lt;a href="https://www.maturin.rs/bindings.html#bin"&gt;maturin bin&lt;/a&gt; which helps distribute Rust projects using Python wheels, and &lt;a href="https://github.com/Bing-su/pip-binary-factory"&gt;pip-binary-factory&lt;/a&gt; which bundles all sorts of other projects, but did not identify anything that addressed the exact problem I was looking to solve.&lt;/p&gt;
+&lt;p&gt;So I &lt;a href="https://gisthost.github.io/?41f04e4eb823b1ceb888d9a28c2280dd/index.html"&gt;had Claude Code for web build the first version&lt;/a&gt;, then refined the code locally on my laptop with the help of more Claude Code and a little bit of OpenAI Codex too, just to mix things up.&lt;/p&gt;
+&lt;p&gt;The full documentation is in the &lt;a href="https://github.com/simonw/go-to-wheel"&gt;simonw/go-to-wheel&lt;/a&gt; repository. I've published that tool to PyPI so now you can run it using:&lt;/p&gt;
 &lt;div class="highlight highlight-source-shell"&gt;&lt;pre&gt;uvx go-to-wheel --help&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;你在PyPI上&lt;code&gt;sqlite-scanner&lt;/code&gt;看到的&lt;a href="https://pypi.org/project/sqlite-scanner/"&gt;这个包&lt;/a&gt;是通过&lt;code&gt;go-to-wheel&lt;/code&gt;类似这样的方式构建的：&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;sqlite-scanner&lt;/code&gt; package you can &lt;a href="https://pypi.org/project/sqlite-scanner/"&gt;see on PyPI&lt;/a&gt; was built using &lt;code&gt;go-to-wheel&lt;/code&gt; like this:&lt;/p&gt;
 &lt;div class="highlight highlight-source-shell"&gt;&lt;pre&gt;uvx go-to-wheel &lt;span class="pl-k"&gt;~&lt;/span&gt;/dev/sqlite-scanner \
   --set-version-var main.version \
   --version 0.1.1 \
   --readme README.md \
   --author &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;'&lt;/span&gt;Simon Willison&lt;span class="pl-pds"&gt;'&lt;/span&gt;&lt;/span&gt; \
   --url https://github.com/simonw/sqlite-scanner \
-  --description &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;'&lt;/span&gt;扫描目录中的SQLite数据库&lt;span class="pl-pds"&gt;'&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;这会在&lt;code&gt;dist/&lt;/code&gt;文件夹中创建一组wheel文件。我通过以下方式测试了其中一个：&lt;/p&gt;
+  --description &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;'&lt;/span&gt;Scan directories for SQLite databases&lt;span class="pl-pds"&gt;'&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This created a set of wheels in the &lt;code&gt;dist/&lt;/code&gt; folder. I tested one of them like this:&lt;/p&gt;
 &lt;div class="highlight highlight-source-shell"&gt;&lt;pre&gt;uv run --with dist/sqlite_scanner-0.1.1-py3-none-macosx_11_0_arm64.whl \
   sqlite-scanner --version&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;当它正确输出版本号时，我确信一切按计划进行，于是使用&lt;code&gt;twine upload&lt;/code&gt;将整套wheel文件推送到PyPI，操作如下：&lt;/p&gt;
+&lt;p&gt;When that spat out the correct version number I was confident everything had worked as planned, so I pushed the whole set of wheels to PyPI using &lt;code&gt;twine upload&lt;/code&gt; like this:&lt;/p&gt;
 &lt;div class="highlight highlight-source-shell"&gt;&lt;pre&gt;uvx twine upload dist/&lt;span class="pl-k"&gt;*&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;我只需粘贴之前保存的PyPI API令牌，就完成了所有步骤。&lt;/p&gt;
-&lt;h4 id="i-expect-to-use-this-pattern-a-lot"&gt;我预计会频繁使用这种模式&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;sqlite-scanner&lt;/code&gt;这显然是为了验证更广泛模式的概念证明——Python完全有能力自行递归遍历目录结构，寻找以特定字节前缀开头的文件！&lt;/p&gt;
-&lt;p&gt;话虽如此，我认为这种模式&lt;em&gt;有很多&lt;/em&gt;值得称道之处。Go是Python的绝佳补充——它速度快，编译为小巧独立的二进制文件，拥有出色的并发支持和丰富的库生态系统。&lt;/p&gt;
-&lt;p&gt;Go与Python相似之处在于它拥有强大的标准库。Go尤其擅长HTTP工具开发——过去我曾多次利用Go优秀的&lt;code&gt;net/http/httputil.ReverseProxy&lt;/code&gt;处理器&lt;/p&gt;
-&lt;p&gt;构建HTTP代理。&lt;a href="https://github.com/wazero/wazero"&gt;我还在尝试&lt;/a&gt;wazero&lt;a href="https://github.com/simonw/research/tree/main/wasm-repl-cli"&gt;，这是Go强大且成熟的零依赖WebAssembly运行时，作为我持续寻找运行不受信任代码的理想沙箱的一部分。&lt;/a&gt;这是我使用该库的&lt;/p&gt;
-&lt;p&gt;能够将Go二进制文件无缝集成到Python项目中，而终端用户完全无需考虑Go的存在——一切都能顺利运行——这感觉像是为我工具箱增添了一个宝贵工具。
-
-标签：go、打包、项目、pypi、python、sqlite、datasette、AI辅助编程、uv&lt;code&gt;pip install&lt;/code&gt; and everything Just Works - feels like a valuable addition to my toolbox.&lt;/p&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/go"&gt;go&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/packaging"&gt;packaging&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/projects"&gt;projects&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/pypi"&gt;pypi&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/python"&gt;python&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/sqlite"&gt;sqlite&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/datasette"&gt;datasette&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/uv"&gt;uv&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 04 Feb 2026 14:59:47 +0000</pubDate></item><item><title>Deno 沙盒环境介绍</title><link>https://simonwillison.net/2026/Feb/3/introducing-deno-sandbox/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://deno.com/blog/introducing-deno-sandbox"&gt;Deno沙盒发布&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;Deno团队推出了一款新的托管沙盒产品。它实际上与Deno本身无关——这是他们Deno Deploy SaaS平台的一部分。因此，你甚至不需要使用JavaScript来访问它——你可以使用他们的&lt;a href="https://pypi.org/project/deno-sandbox/"&gt;deno-sandbox&lt;/a&gt;Python库在托管沙盒中创建和执行代码，如下所示：
+&lt;p&gt;I had to paste in a PyPI API token I had saved previously.&lt;/p&gt;
+&lt;h4 id="i-expect-to-use-this-pattern-a-lot"&gt;I expect to use this pattern a lot&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;sqlite-scanner&lt;/code&gt; is very clearly meant as a proof-of-concept for this wider pattern - Python is very much capable of recursively crawling a directory structure looking for files that start with a specific byte prefix on its own!&lt;/p&gt;
+&lt;p&gt;That said, I think there's a &lt;em&gt;lot&lt;/em&gt; to be said for this pattern. Go is a great complement to Python - it's fast, compiles to small self-contained binaries, has excellent concurrency support and a rich ecosystem of libraries.&lt;/p&gt;
+&lt;p&gt;Go is similar to Python in that it has a strong standard library. Go is particularly good for HTTP tooling - I've built several HTTP proxies in the past using Go's excellent &lt;code&gt;net/http/httputil.ReverseProxy&lt;/code&gt; handler.&lt;/p&gt;
+&lt;p&gt;I've also been experimenting with &lt;a href="https://github.com/wazero/wazero"&gt;wazero&lt;/a&gt;, Go's robust and mature zero dependency WebAssembly runtime as part of my ongoing quest for the ideal sandbox for running untrusted code. &lt;a href="https://github.com/simonw/research/tree/main/wasm-repl-cli"&gt;Here's my latest experiment&lt;/a&gt; with that library.&lt;/p&gt;
+&lt;p&gt;Being able to seamlessly integrate Go binaries into Python projects without the end user having to think about Go at all - they &lt;code&gt;pip install&lt;/code&gt;一切都能顺畅运行——感觉像是工具箱里又添了件利器。&lt;/p&gt;
+&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/go"&gt;go&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/packaging"&gt;打包&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/projects"&gt;项目&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/pypi"&gt;pypi&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/python"&gt;python&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/sqlite"&gt;sqlite&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/datasette"&gt;datasette&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;AI辅助编程&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/uv"&gt;uv&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 04 Feb 2026 14:59:47 +0000</pubDate></item><item><title>Deno 沙盒环境介绍</title><link>https://simonwillison.net/2026/Feb/3/introducing-deno-sandbox/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://deno.com/blog/introducing-deno-sandbox"&gt;Deno沙盒发布&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;Deno团队推出了一款新的托管沙盒产品。它实际上与Deno本身无关——这是他们Deno Deploy SaaS平台的一部分。因此，你甚至不需要使用JavaScript来访问它——你可以使用他们的&lt;a href="https://pypi.org/project/deno-sandbox/"&gt;deno-sandbox&lt;/a&gt;Python库在托管沙盒中创建和执行代码，如下所示：
 &lt;div class="highlight highlight-source-shell"&gt;&lt;pre&gt;&lt;span class="pl-k"&gt;export&lt;/span&gt; DENO_DEPLOY_TOKEN=&lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;... API令牌 ...&lt;span class="pl-pds"&gt;"&lt;/span&gt;&lt;/span&gt;
 uv run --with deno-sandbox python&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;然后：&lt;/p&gt;
@@ -632,21 +942,4 @@ uv run --with deno-sandbox python&lt;/pre&gt;&lt;/div&gt;
 &lt;li&gt;模型发布与多元附加内容&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;您可通过&lt;a href="https://gist.github.com/simonw/13e595a236218afce002e9aeafd75cd0"&gt;十二月通讯副本&lt;/a&gt;预览往期内容。每月支付10美元即可提前一个月获取付费资讯！&lt;/p&gt;
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/newsletter"&gt;通讯简报&lt;/a&gt;&lt;/p&gt;</description><pubDate>Tue, 03 Feb 2026 06:36:10 +0000</pubDate></item><item><title>引用布兰登·桑德森</title><link>https://simonwillison.net/2026/Feb/3/brandon-sanderson/#atom-everything</link><description>&lt;blockquote cite="https://www.youtube.com/watch?v=mb3uK-_QkOo&amp;amp;t=832s"&gt;&lt;p&gt;这就是数据与大型语言模型之间的区别——至少是目前正在运行的这些模型。数据创作艺术是因为它渴望成长，渴望成为某种存在，渴望理解。艺术是我们成为理想自我的途径。[...]
-
-书籍、绘画、电影剧本并非艺术的唯一形式。它们固然重要，但在某种意义上，它们更像是收据或文凭。你写的书、创作的画、谱写的音乐固然重要且富有艺术性，但它们更是你完成学习过程的证明。因为归根结底，你本身就是艺术品。艺术创作带来的最重要改变，是发生在你内心的蜕变。最重要的情感，是你在书写故事时、在捧起完成作品时体验到的悸动。我不在乎人工智能能否创造出比人类更优秀的作品，因为它永远不会被自己的创作所改变。
-
-——  
-布兰登·桑德森  
-经由  
-吉多·范罗苏姆  
-标签：  
-人工智能伦理，  
-生成式人工智能，  
-艺术，  
-人工智能，  
-大语言模型，  
-吉多·范罗苏姆&lt;/p&gt;
-&lt;p&gt;The book, the painting, the film script is not the only art. It's important, but in a way it's a receipt. It's a diploma. The book you write, the painting you create, the music you compose is important and artistic, but it's also a mark of proof that you have done the work to learn, because in the end of it all, you are the art. The most important change made by an artistic endeavor is the change it makes in you. The most important emotions are the ones you feel when writing that story and holding the completed work. I don't care if the AI can create something that is better than what we can create, because it cannot be changed by that creation.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class="cite"&gt;— &lt;a href="https://www.youtube.com/watch?v=mb3uK-_QkOo&amp;amp;t=832s"&gt;Brandon Sanderson&lt;/a&gt;, via &lt;a href="https://x.com/gvanrossum/status/2018491452771418402"&gt;Guido van Rossum&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;ai-ethics&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/art"&gt;art&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/guido-van-rossum"&gt;guido-van-rossum&lt;/a&gt;&lt;/p&gt;</description><pubDate>Tue, 03 Feb 2026 02:31:10 +0000</pubDate></item></channel></rss>
+&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/newsletter"&gt;通讯简报&lt;/a&gt;&lt;/p&gt;</description><pubDate>Tue, 03 Feb 2026 06:36:10 +0000</pubDate></item></channel></rss>
