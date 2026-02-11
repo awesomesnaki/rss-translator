@@ -1,5 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Tue, 10 Feb 2026 17:45:29 +0000</lastBuildDate><item><title>隆重推出Showboat与Rodney，让智能体们展示他们的杰作。</title><link>https://simonwillison.net/2026/Feb/10/showboat-and-rodney/#atom-everything</link><description>&lt;p&gt;与编码智能体协作的一个关键挑战在于，既要让它们测试自己构建的软件，又要向监督者（即我们）展示软件成果。这超越了自动化测试的范畴——我们需要能直观呈现进展、帮助我们清晰了解智能体所产软件实际功能的载体。为此，我刚刚发布了两款新工具：
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Wed, 11 Feb 2026 18:56:14 +0000</lastBuildDate><item><title>GLM-5：从氛围编程到智能体工程</title><link>https://simonwillison.net/2026/Feb/11/glm-5/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://z.ai/blog/glm-5"&gt;GLM-5：从氛围编程到智能体工程&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;这是一个&lt;em&gt;庞大的&lt;/em&gt;新模型：7540亿参数，&lt;a href="https://huggingface.co/zai-org/GLM-5"&gt;在Hugging Face上占用1.51TB空间，&lt;/a&gt;规模是&lt;a href="https://huggingface.co/zai-org/GLM-4.7"&gt;GLM-4.7&lt;/a&gt;的两倍（后者为3680亿参数/717GB，4.5和4.6版本也接近该规模）。
+&lt;p&gt;有趣的是，Z.ai对使用大语言模型构建系统的专业软件工程师提出了新定义——近期"智能体工程"一词已在多个场景出现，最引人注目的倡导者包括&lt;a href="https://twitter.com/karpathy/status/2019137879310836075"&gt;安德烈·卡帕西&lt;/a&gt;与&lt;a href="https://addyosmani.com/blog/agentic-engineering/"&gt;艾迪·奥斯马尼&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;我通过&lt;a href="https://openrouter.ai/"&gt;OpenRouter&lt;/a&gt;向GLM-5输入"生成鹈鹕骑自行车的SVG图像"指令，获得了&lt;a href="https://gist.github.com/simonw/cc4ca7815ae82562e89a9fdd99f0725d"&gt;一只精致的鹈鹕搭配着令人失望的自行车骨架&lt;/a&gt;：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="The pelican is good and has a well defined beak. The bicycle frame is a wonky red triangle. Nice sun and motion lines." src="https://static.simonwillison.net/static/2026/glm-5-pelican.png"/&gt;
+&lt;p&gt;&lt;small&gt;&lt;/small&gt;来源：&lt;a href="https://news.ycombinator.com/item?id=46977210"&gt;黑客新闻&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/definitions"&gt;定义&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;AI辅助编程&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/pelican-riding-a-bicycle"&gt;鹈鹕骑自行车&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llm-release"&gt;大语言模型发布&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/vibe-coding"&gt;氛围编程&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/openrouter"&gt;OpenRouter&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai-in-china"&gt;中国人工智能&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Wed, 11 Feb 2026 18:56:14 +0000</pubDate></item><item><title>cysqlite - 一款新的SQLite驱动程序</title><link>https://simonwillison.net/2026/Feb/11/cysqlite/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://charlesleifer.com/blog/cysqlite---a-new-sqlite-driver/"&gt;cysqlite - 一款全新的SQLite驱动
+
+查尔斯·莱弗自2018年以来持续维护着pysqlite3——这是Python标准库模块的分支版本，能显著简化升级版SQLite的运行部署。
+
+与此同时，他几乎耗费同等时间从头开发了基于Cython重构的cysqlite，如今终于进入可供试用的阶段。
+
+相较于原模块最显著的变革在于事务处理机制。查尔斯详尽阐述了他对原实现方案的不适——该库提供的两种变体均无法精准对应SQLite自身的自动提交机制。
+
+特别令人振奋的是对自定义虚拟表的支持，这项我期待已久的功能终于得以实现。
+
+该库提供由C语言编译的Python扩展模块，这意味着通常无法在Pyodide环境中使用。我通过Claude Code工具成功构建出cysqlite-0.1.4-cp311-cp311-emscripten_3_1_46_wasm32.whl——这个688KB的wheel文件包含库的WASM构建版本，可通过以下方式载入Pyodide：
+
+import micropip
+await micropip.install("https://simonw.github.io/research/cysqlite-wasm-wheel/cysqlite-0.1.4-cp311-cp311-emscripten_3_1_46_wasm32.whl")
+import cysqlite
+print(cysqlite.connect(":memory:").execute("select sqlite_version()").fetchone())
+
+（同时了解到此类wheel文件必须针对Pyodide版本对应的emscripten进行构建——我的实验性wheel可在Pyodide 0.25.1运行，但在0.27.5版本会报错）
+
+您可以在全新打造的Pyodide REPL中试用这个wheel文件，这是我为移动设备优化的Pyodide托管控制台替代方案。
+
+我还通过Claude构建了演示页面，可在浏览器中执行原始测试套件并展示结果：
+
+消息来源：lobste.rs
+标签：python, sqlite, charles-leifer, webassembly, pyodide, ai-assisted-programming, claude-code&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+Charles Leifer has been maintaining &lt;a href="https://github.com/coleifer/pysqlite3"&gt;pysqlite3&lt;/a&gt; - a fork of the Python standard library's &lt;code&gt;sqlite3&lt;/code&gt; module that makes it much easier to run upgraded SQLite versions - since 2018.
+&lt;p&gt;He's been working on a ground-up &lt;a href="https://cython.org/"&gt;Cython&lt;/a&gt; rewrite called &lt;a href="https://github.com/coleifer/cysqlite"&gt;cysqlite&lt;/a&gt; for almost as long, but it's finally at a stage where it's ready for people to try out.&lt;/p&gt;
+&lt;p&gt;The biggest change from the &lt;code&gt;sqlite3&lt;/code&gt; module involves transactions. Charles explains his discomfort with the &lt;code&gt;sqlite3&lt;/code&gt; implementation at length - that library provides two different variants neither of which exactly match the autocommit mechanism in SQLite itself.&lt;/p&gt;
+&lt;p&gt;I'm particularly excited about the support for &lt;a href="https://cysqlite.readthedocs.io/en/latest/api.html#tablefunction"&gt;custom virtual tables&lt;/a&gt;, a feature I'd love to see in &lt;code&gt;sqlite3&lt;/code&gt; itself.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;cysqlite&lt;/code&gt; provides a Python extension compiled from C, which means it normally wouldn't be available in Pyodide. I &lt;a href="https://github.com/simonw/research/tree/main/cysqlite-wasm-wheel"&gt;set Claude Code on it&lt;/a&gt; and it built me &lt;a href="https://github.com/simonw/research/blob/main/cysqlite-wasm-wheel/cysqlite-0.1.4-cp311-cp311-emscripten_3_1_46_wasm32.whl"&gt;cysqlite-0.1.4-cp311-cp311-emscripten_3_1_46_wasm32.whl&lt;/a&gt;, a 688KB wheel file with a WASM build of the library that can be loaded into Pyodide like this:&lt;/p&gt;
+&lt;pre&gt;&lt;span class="pl-k"&gt;import&lt;/span&gt; &lt;span class="pl-s1"&gt;micropip&lt;/span&gt;
+&lt;span class="pl-k"&gt;await&lt;/span&gt; &lt;span class="pl-s1"&gt;micropip&lt;/span&gt;.&lt;span class="pl-c1"&gt;install&lt;/span&gt;(
+    &lt;span class="pl-s"&gt;"https://simonw.github.io/research/cysqlite-wasm-wheel/cysqlite-0.1.4-cp311-cp311-emscripten_3_1_46_wasm32.whl"&lt;/span&gt;
+)
+&lt;span class="pl-k"&gt;import&lt;/span&gt; &lt;span class="pl-s1"&gt;cysqlite&lt;/span&gt;
+&lt;span class="pl-en"&gt;print&lt;/span&gt;(&lt;span class="pl-s1"&gt;cysqlite&lt;/span&gt;.&lt;span class="pl-c1"&gt;connect&lt;/span&gt;(&lt;span class="pl-s"&gt;":memory:"&lt;/span&gt;).&lt;span class="pl-c1"&gt;execute&lt;/span&gt;(
+    &lt;span class="pl-s"&gt;"select sqlite_version()"&lt;/span&gt;
+).&lt;span class="pl-c1"&gt;fetchone&lt;/span&gt;())&lt;/pre&gt;
+&lt;p&gt;(I also learned that wheels like this have to be built for the emscripten version used by that edition of Pyodide - my experimental wheel loads in Pyodide 0.25.1 but fails in 0.27.5 with a &lt;code&gt;Wheel was built with Emscripten v3.1.46 but Pyodide was built with Emscripten v3.1.58&lt;/code&gt; error.)&lt;/p&gt;
+&lt;p&gt;You can try my wheel in &lt;a href="https://7ebbff98.tools-b1q.pages.dev/pyodide-repl"&gt;this new Pyodide REPL&lt;/a&gt; i had Claude build as a mobile-friendly alternative to Pyodide's &lt;a href="https://pyodide.org/en/stable/console.html"&gt;own hosted console&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I also had Claude build &lt;a href="https://simonw.github.io/research/cysqlite-wasm-wheel/demo.html"&gt;this demo page&lt;/a&gt; that executes the original test suite in the browser and displays the results:&lt;/p&gt;
+&lt;p&gt;&lt;img alt='Screenshot of the cysqlite WebAssembly Demo page with a dark theme. Title reads "cysqlite — WebAssembly Demo" with subtitle "Testing cysqlite compiled to WebAssembly via Emscripten, running in Pyodide in the browser." Environment section shows Pyodide 0.25.1, Python 3.11.3, cysqlite 0.1.4, SQLite 3.51.2, Platform Emscripten-3.1.46-wasm32-32bit, Wheel file cysqlite-0.1.4-cp311-cp311-emscripten_3_1_46_wasm32.wh (truncated). A green progress bar shows "All 115 tests passed! (1 skipped)" at 100%, with Passed: 115, Failed: 0, Errors: 0, Skipped: 1, Total: 116. Test Results section lists TestBackup 1/1 passed, TestBlob 6/6 passed, TestCheckConnection 4/4 passed, TestDataTypesTableFunction 1/1 passed, all with green badges.' src="https://static.simonwillison.net/static/2026/cysqlite-tests.jpg"/&gt;
+&lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href="https://lobste.rs/s/gipvta/cysqlite_new_sqlite_driver"&gt;lobste.rs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/python"&gt;python&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/sqlite"&gt;sqlite&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/charles-leifer"&gt;charles-leifer&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/webassembly"&gt;webassembly&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/pyodide"&gt;pyodide&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Wed, 11 Feb 2026 17:34:40 +0000</pubDate></item><item><title>隆重推出Showboat与Rodney，让智能体们展示他们的杰作。</title><link>https://simonwillison.net/2026/Feb/10/showboat-and-rodney/#atom-everything</link><description>&lt;p&gt;与编码智能体协作的一个关键挑战在于，既要让它们测试自己构建的软件，又要向监督者（即我们）展示软件成果。这超越了自动化测试的范畴——我们需要能直观呈现进展、帮助我们清晰了解智能体所产软件实际功能的载体。为此，我刚刚发布了两款新工具：
 
 **Showboat** 与 **Rodney**。
 
@@ -889,57 +937,4 @@ Go 与 Python 相似之处在于它有一个强大的标准库。Go 特别擅长
 &lt;p&gt;Go is similar to Python in that it has a strong standard library. Go is particularly good for HTTP tooling - I've built several HTTP proxies in the past using Go's excellent &lt;code&gt;net/http/httputil.ReverseProxy&lt;/code&gt; handler.&lt;/p&gt;
 &lt;p&gt;I've also been experimenting with &lt;a href="https://github.com/wazero/wazero"&gt;wazero&lt;/a&gt;, Go's robust and mature zero dependency WebAssembly runtime as part of my ongoing quest for the ideal sandbox for running untrusted code. &lt;a href="https://github.com/simonw/research/tree/main/wasm-repl-cli"&gt;Here's my latest experiment&lt;/a&gt; with that library.&lt;/p&gt;
 &lt;p&gt;Being able to seamlessly integrate Go binaries into Python projects without the end user having to think about Go at all - they &lt;code&gt;pip install&lt;/code&gt;一切都能顺畅运行——感觉像是工具箱里又添了件利器。&lt;/p&gt;
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/go"&gt;go&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/packaging"&gt;打包&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/projects"&gt;项目&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/pypi"&gt;pypi&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/python"&gt;python&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/sqlite"&gt;sqlite&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/datasette"&gt;datasette&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;AI辅助编程&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/uv"&gt;uv&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 04 Feb 2026 14:59:47 +0000</pubDate></item><item><title>Deno 沙盒环境介绍</title><link>https://simonwillison.net/2026/Feb/3/introducing-deno-sandbox/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://deno.com/blog/introducing-deno-sandbox"&gt;Deno沙盒发布&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;Deno团队推出了一款新的托管沙盒产品。它实际上与Deno本身无关——这是他们Deno Deploy SaaS平台的一部分。因此，你甚至不需要使用JavaScript来访问它——你可以使用他们的&lt;a href="https://pypi.org/project/deno-sandbox/"&gt;deno-sandbox&lt;/a&gt;Python库在托管沙盒中创建和执行代码，如下所示：
-&lt;div class="highlight highlight-source-shell"&gt;&lt;pre&gt;&lt;span class="pl-k"&gt;export&lt;/span&gt; DENO_DEPLOY_TOKEN=&lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;... API令牌 ...&lt;span class="pl-pds"&gt;"&lt;/span&gt;&lt;/span&gt;
-uv run --with deno-sandbox python&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;然后：&lt;/p&gt;
-&lt;pre&gt;&lt;span class="pl-k"&gt;from&lt;/span&gt; &lt;span class="pl-s1"&gt;deno_sandbox&lt;/span&gt; &lt;span class="pl-k"&gt;import&lt;/span&gt; &lt;span class="pl-v"&gt;DenoDeploy&lt;/span&gt;
-
-&lt;span class="pl-s1"&gt;sdk&lt;/span&gt; &lt;span class="pl-c1"&gt;=&lt;/span&gt; &lt;span class="pl-en"&gt;DenoDeploy&lt;/span&gt;()
-
-&lt;span class="pl-k"&gt;with&lt;/span&gt; &lt;span class="pl-s1"&gt;sdk&lt;/span&gt;.&lt;span class="pl-c1"&gt;sandbox&lt;/span&gt;.&lt;span class="pl-c1"&gt;create&lt;/span&gt;() &lt;span class="pl-k"&gt;as&lt;/span&gt; &lt;span class="pl-s1"&gt;sb&lt;/span&gt;:
-    &lt;span class="pl-c"&gt;# 运行shell命令&lt;/span&gt;
-    &lt;span class="pl-s1"&gt;process&lt;/span&gt; &lt;span class="pl-c1"&gt;=&lt;/span&gt; &lt;span class="pl-s1"&gt;sb&lt;/span&gt;.&lt;span class="pl-c1"&gt;spawn&lt;/span&gt;(
-        &lt;span class="pl-s"&gt;"echo"&lt;/span&gt;, &lt;span class="pl-s1"&gt;args&lt;/span&gt;&lt;span class="pl-c1"&gt;=&lt;/span&gt;[&lt;span class="pl-s"&gt;"Hello from the sandbox!"&lt;/span&gt;]
-    )
-    &lt;span class="pl-s1"&gt;process&lt;/span&gt;.&lt;span class="pl-c1"&gt;wait&lt;/span&gt;()
-    &lt;span class="pl-c"&gt;# 写入和读取文件&lt;/span&gt;
-    &lt;span class="pl-s1"&gt;sb&lt;/span&gt;.&lt;span class="pl-c1"&gt;fs&lt;/span&gt;.&lt;span class="pl-c1"&gt;write_text_file&lt;/span&gt;(
-        &lt;span class="pl-s"&gt;"/tmp/example.txt"&lt;/span&gt;, &lt;span class="pl-s"&gt;"Hello, World!"&lt;/span&gt;
-    )
-    &lt;span class="pl-en"&gt;print&lt;/span&gt;(&lt;span class="pl-s1"&gt;sb&lt;/span&gt;.&lt;span class="pl-c1"&gt;fs&lt;/span&gt;.&lt;span class="pl-c1"&gt;read_text_file&lt;/span&gt;(
-        &lt;span class="pl-s"&gt;"/tmp/example.txt"&lt;/span&gt;
-    ))&lt;/pre&gt;
-&lt;p&gt;还有一个JavaScript客户端库。底层API尚未文档化，但似乎&lt;a href="https://tools.simonwillison.net/zip-wheel-explorer?package=deno-sandbox#deno_sandbox/sandbox.py--L187"&gt;使用WebSockets&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;这个系统有很多值得称道的地方。沙盒实例最多可拥有4GB内存，配备2个vCPU，10GB临时存储，可以挂载持久卷，并且可以使用快照快速启动预配置的自定义镜像。会话最长可持续30分钟，按CPU时间、内存GB-小时和卷存储使用量计费。&lt;/p&gt;
-&lt;p&gt;创建沙盒时，你可以配置允许访问的网络域。&lt;/p&gt;
-&lt;p&gt;我最喜欢的功能是它处理API密钥的方式。&lt;/p&gt;
-&lt;pre&gt;&lt;span class="pl-k"&gt;with&lt;/span&gt; &lt;span class="pl-s1"&gt;sdk&lt;/span&gt;.&lt;span class="pl-c1"&gt;sandboxes&lt;/span&gt;.&lt;span class="pl-c1"&gt;create&lt;/span&gt;(
-    &lt;span class="pl-s1"&gt;allowNet&lt;/span&gt;&lt;span class="pl-c1"&gt;=&lt;/span&gt;[&lt;span class="pl-s"&gt;"api.openai.com"&lt;/span&gt;],
-    &lt;span class="pl-s1"&gt;secrets&lt;/span&gt;&lt;span class="pl-c1"&gt;=&lt;/span&gt;{
-        &lt;span class="pl-s"&gt;"OPENAI_API_KEY"&lt;/span&gt;: {
-            &lt;span class="pl-s"&gt;"hosts"&lt;/span&gt;: [&lt;span class="pl-s"&gt;"api.openai.com"&lt;/span&gt;],
-            &lt;span class="pl-s"&gt;"value"&lt;/span&gt;: &lt;span class="pl-s1"&gt;os&lt;/span&gt;.&lt;span class="pl-c1"&gt;environ&lt;/span&gt;.&lt;span class="pl-c1"&gt;get&lt;/span&gt;(&lt;span class="pl-s"&gt;"OPENAI_API_KEY"&lt;/span&gt;),
-        }
-    },
-) &lt;span class="pl-k"&gt;as&lt;/span&gt; &lt;span class="pl-s1"&gt;sandbox&lt;/span&gt;:
-    &lt;span class="pl-c"&gt;# ... $OPENAI_API_KEY 可用&lt;/span&gt;&lt;/pre&gt;
-&lt;p&gt;在容器内部，&lt;code&gt;$OPENAI_API_KEY&lt;/code&gt;该值被设置为类似这样的形式：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;DENO_SECRET_PLACEHOLDER_b14043a2f578cba...
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;发往&lt;code&gt;api.openai.com&lt;/code&gt;的API调用会经过一个代理，该代理知道这些占位符并将其替换为原始密钥。&lt;/p&gt;
-&lt;p&gt;这样，密钥本身对沙盒内的代码不可用，从而限制了恶意代码（例如来自提示注入）窃取这些密钥的能力。&lt;/p&gt;
-&lt;p&gt;从&lt;a href="https://news.ycombinator.com/item?id=46874097#46874959"&gt;Hacker News的一条评论&lt;/a&gt;中，我了解到Fly有一个名为&lt;a href="https://github.com/superfly/tokenizer"&gt;tokenizer&lt;/a&gt;的项目，实现了相同的模式。这已加入我在沙盒环境中使用的技巧清单！&lt;p&gt;&lt;small&gt;&lt;/small&gt;通过&lt;a href="https://news.ycombinator.com/item?id=46874097"&gt;Hacker News&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/python"&gt;python&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/sandboxing"&gt;sandboxing&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/security"&gt;security&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/deno"&gt;deno&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/fly"&gt;fly&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Tue, 03 Feb 2026 22:44:50 +0000</pubDate></item><item><title>一月赞助者专属通讯已发布</title><link>https://simonwillison.net/2026/Feb/3/january/#atom-everything</link><description>&lt;p&gt;我刚刚发送了&lt;a href="https://github.com/sponsors/simonw/"&gt;仅供赞助者阅读的月度通讯一月刊&lt;/a&gt;。如果您已是赞助者（或立即开启赞助），可以&lt;a href="https://github.com/simonw-private/monthly/blob/main/2026-01-january.md"&gt;点击此处查看&lt;/a&gt;。本期一月通讯内容包括：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;2026年大语言模型发展预测&lt;/li&gt;
-&lt;li&gt;编程智能体持续引发关注&lt;/li&gt;
-&lt;li&gt;Clawdbot/Moltbot/OpenClaw实现现象级传播&lt;/li&gt;
-&lt;li&gt;鸮鹦鹉繁殖季迎来强势开局&lt;/li&gt;
-&lt;li&gt;沙盒环境新增多项选择&lt;/li&gt;
-&lt;li&gt;浏览器成为编程智能体集群的"Hello World"&lt;/li&gt;
-&lt;li&gt;Sam Altman探讨软件工程的杰文斯悖论&lt;/li&gt;
-&lt;li&gt;模型发布与多元附加内容&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;您可通过&lt;a href="https://gist.github.com/simonw/13e595a236218afce002e9aeafd75cd0"&gt;十二月通讯副本&lt;/a&gt;预览往期内容。每月支付10美元即可提前一个月获取付费资讯！&lt;/p&gt;
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/newsletter"&gt;通讯简报&lt;/a&gt;&lt;/p&gt;</description><pubDate>Tue, 03 Feb 2026 06:36:10 +0000</pubDate></item></channel></rss>
+&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/go"&gt;go&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/packaging"&gt;打包&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/projects"&gt;项目&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/pypi"&gt;pypi&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/python"&gt;python&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/sqlite"&gt;sqlite&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/datasette"&gt;datasette&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;AI辅助编程&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/uv"&gt;uv&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 04 Feb 2026 14:59:47 +0000</pubDate></item></channel></rss>
