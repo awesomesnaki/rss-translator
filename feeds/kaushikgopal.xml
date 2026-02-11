@@ -37,7 +37,7 @@ spike an alternative).&lt;/li&gt;
 to find a satisfying solution. I’ve been using a thin shell script for this and
 it’s worked well.&lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="https://kau.sh/feed.xml#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;You can find the
-&lt;a href="https://github.com/kaushikgopal/dotfiles/blob/master/bin/tmux-subagent"&gt;source&lt;/a&gt;
+&lt;a href="https://gist.github.com/kaushikgopal/3a67f71052cf10276315162012dcac1c"&gt;source&lt;/a&gt;
 here.&lt;/p&gt;
 &lt;figure&gt;
 &lt;img src="https://kau.sh/agent-forking.webp"/&gt;
@@ -148,9 +148,9 @@ The solution
 &lt;span&gt;&lt;/span&gt;
 &lt;/video&gt;
 &lt;p&gt;Feel free to take a look at the Bash
-&lt;a href="https://github.com/kaushikgopal/dotfiles/blob/master/bin/tmux-subagent"&gt;script here&lt;/a&gt;.
+&lt;a href="https://gist.github.com/kaushikgopal/3a67f71052cf10276315162012dcac1c"&gt;script here&lt;/a&gt;.
 You can also see my
-&lt;a href="https://github.com/kaushikgopal/dotfiles/blob/master/.tmux.conf"&gt;tmux.conf&lt;/a&gt; but
+&lt;a href="https://gist.github.com/kaushikgopal/2327b09ae1a194704d62da48d135dd35"&gt;tmux.conf&lt;/a&gt; but
 there’s nothing special in there, and the subagent script should work with most
 configurations.&lt;/p&gt;
 &lt;p&gt;The script is conceptually pretty simple:&lt;/p&gt;
@@ -1752,7 +1752,7 @@ Claude Code在智能体编程的入门体验上做得非常出色。打开它，
 &lt;div class="callout-content"&gt;
 &lt;p&gt;Claude’s &lt;code&gt;/init&lt;/code&gt; makes it easy to add clear repo instructions.
 Build your own and use it with any agent to add or improve on an existing AGENTS.md
-&lt;a href="https://github.com/kaushikgopal/dotfiles/blob/master/.ai/commands/initialize.md"&gt;Here’s the one I came up with&lt;/a&gt;.&lt;/p&gt;
+&lt;a href="https://gist.github.com/kaushikgopal/92e3a2fe89d602f6cdd94969c771989e"&gt;Here’s the one I came up with&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Claude Code really nailed the onboarding experience for agentic coding. Open it, type &lt;code&gt;/init&lt;/code&gt;, and you get a &lt;code&gt;CLAUDE.md&lt;/code&gt; that delivers better results than a repo without proper system instructions (or an &lt;code&gt;AGENTS.md&lt;/code&gt;).&lt;/p&gt;
@@ -1793,7 +1793,7 @@ Claude 还会做一些其他事情，比如指示其内部代理工具（BatchTo
 我在为 Firefox 扩展进行氛围工程以保持其可维护性时使用了这个提示。
 
 ↩︎&lt;/span&gt;&lt;/span&gt;&lt;span style="display: flex;"&gt;&lt;span&gt;&lt;span style="color: #66d9ef;"&gt;-&lt;/span&gt; Be sure to prefix the file with the following text:
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can write your own and get the same result. I use a &lt;a href="https://github.com/kaushikgopal/dotfiles/blob/master/.ai/commands/initialize.md"&gt;custom &lt;code&gt;/initialize&lt;/code&gt;&lt;/a&gt; on new repos to get up and running fast.&lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="https://kau.sh/feed.xml#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt; I tweaked it to work across different coding agents and sprinkled in a few tips I collected along the way.&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can write your own and get the same result. I use a &lt;a href="https://gist.github.com/kaushikgopal/92e3a2fe89d602f6cdd94969c771989e"&gt;custom &lt;code&gt;/initialize&lt;/code&gt;&lt;/a&gt; on new repos to get up and running fast.&lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="https://kau.sh/feed.xml#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt; I tweaked it to work across different coding agents and sprinkled in a few tips I collected along the way.&lt;/p&gt;
 &lt;p&gt;It should create a relevant &lt;code&gt;AGENTS.md&lt;/code&gt;; if one exists, it updates it. Save this prompt as a custom command and use it with any tool — Gemini CLI, Codex, Amp, Firebender, etc. You aren’t stuck with any single tool.&lt;/p&gt;
 &lt;p&gt;One more tip: a reasoning model works best for these types of commands.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;I must say: the more time I spend with these tools, the more “emperor‑has‑no‑clothes” moments I have.&lt;/em&gt; Some of the ways these things work are deceptively simple.&lt;/p&gt;
@@ -2596,7 +2596,7 @@ About the add-on itself
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/figure&gt;
-&lt;p&gt;现在我把这个功能搬到了命令行，于是“造”出了&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="https://kau.sh/feed.xml#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;a href="https://github.com/kaushikgopal/dotfiles/blob/master/bin/usbi"&gt;&lt;code&gt;usbi&lt;/code&gt;&lt;/a&gt;这个检测USB连接速度的脚本&lt;/p&gt;
+&lt;p&gt;现在我把这个功能搬到了命令行，于是“造”出了&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="https://kau.sh/feed.xml#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;a href="https://gist.github.com/kaushikgopal/7e1555569cd5bb3138cb5ca67bb7a4ae"&gt;&lt;code&gt;usbi&lt;/code&gt;&lt;/a&gt;这个检测USB连接速度的脚本&lt;/p&gt;
 更多
 &lt;p&gt;脚本通过解析macOS的&lt;code&gt;system_profiler SPUSBHostDataType&lt;/code&gt;&lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="https://kau.sh/feed.xml#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;指令实现，原始输出信息密集难以阅读：&lt;/p&gt;
 &lt;figure&gt;
