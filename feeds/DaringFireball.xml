@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 10 Feb 2026 01:43:40 +0000</lastBuildDate><item><title>[赞助商] WorkOS Pipes：无需重建OAuth即可实现第三方集成</title><link>https://workos.com/docs/pipes?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q12026&amp;utm_content=no_rebuild</link><description>&lt;p&gt;将用户账户与第三方API连接总是涉及相同的繁琐流程：OAuth授权、令牌存储、刷新逻辑以及各平台的特殊处理。
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Wed, 11 Feb 2026 21:04:07 +0000</lastBuildDate><item><title>苹果创作者工作室使用限制</title><link>https://arstechnica.com/gadgets/2026/01/seven-things-to-know-about-how-apples-creator-studio-subscriptions-work/</link><description>&lt;p&gt;一月底，安德鲁·坎宁安在Ars Technica上写道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;苹果还概述了依赖外部服务的生成式AI功能的一些使用限制。苹果表示，用户“至少”可以生成50张图片、50个演示文稿（每个8到10张幻灯片），并在Keynote中为700张幻灯片生成演讲者备注。可能可以使用更多，但这取决于“查询的复杂性、服务器可用性和网络可用性”。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href="https://mastodon.social/@stroughtonsmith/116008952067084300"&gt;史蒂文·特劳顿-史密斯&lt;/a&gt;上周，在用OpenAI的Codex创建了一个完整的应用程序后：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;整个应用程序只占用了我每周Codex使用限制的7%。相比之下，在Keynote中制作一个（糟糕的）幻灯片演示文稿就占用了我在苹果创作者工作室每月使用限制的47%👀&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这感觉有点不对劲，至少差了一个数量级（也许是两个？），创建一个完整的好应用程序的成本远低于在Keynote中创建一个糟糕的幻灯片演示文稿。情况应该反过来才对。&lt;/p&gt;
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/02/11/apple-creator-studio-usage-restrictions" title="Permanent link to ‘Apple Creator Studio Usage Restrictions’"&gt;★&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Wed, 11 Feb 2026 21:04:07 +0000</pubDate></item><item><title>[赞助商] WorkOS Pipes：无需重建OAuth即可实现第三方集成</title><link>https://workos.com/docs/pipes?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q12026&amp;utm_content=no_rebuild</link><description>&lt;p&gt;将用户账户与第三方API连接总是涉及相同的繁琐流程：OAuth授权、令牌存储、刷新逻辑以及各平台的特殊处理。
 
 WorkOS Pipes
 
@@ -481,24 +492,4 @@ civilization,” while armed brutes try to tear it down by force.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/linked/2026/01/27/ceo-captured" title="Permanent link to ‘‘A CEO, Captured’’"&gt;★&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Tue, 27 Jan 2026 23:06:55 +0000</pubDate></item><item><title>“除此之外，库克先生，您觉得这部电影怎么样？”</title><link>https://spyglass.org/tim-cook-captured/</link><description>&lt;p&gt;蒂姆·库克被俘获了。对于他过去一年左右的行为，实在没有其他解释。但或许这一切在本周末达到了高潮，当时库克去白宫参加了一场特别的私人放映会，观看纪录片《梅拉尼娅》。是的，就是那个梅拉尼娅。这件事本身或许没什么大不了的。我的意思是，出于一系列原因，这可能会引发问题，我稍后会谈到，但这就是我们现在的世界。然后一声枪响——让参加那场电影放映会变成了一种声明……
-
-当库克与迈克·泰森、托尼·罗宾斯等“贵宾”一起享用爆米花和香槟时，明尼苏达州的街道上却是一片混乱。就在几小时前，37岁的ICU护士亚历克斯·普雷蒂被ICE特工枪杀。也许，只是也许，推迟电影首映会更好？&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Tim Cook is captured. There is simply no other explanation for his
-actions over the past year or so. But it perhaps culminated this
-weekend when Cook went to a special private showing of &lt;a href="https://en.wikipedia.org/wiki/Melania_(film)?ref=spyglass.org"&gt;the
-documentary &lt;em&gt;Melania&lt;/em&gt;&lt;/a&gt; at the White House. Yes, &lt;em&gt;that&lt;/em&gt;
-&lt;a href="https://en.wikipedia.org/wiki/Melania_Trump?ref=spyglass.org"&gt;Melania&lt;/a&gt;. That in and of itself would have probably been
-fine. I mean, it’s potentially problematic for a host of reasons
-that I’ll get to, but such is our world right now. Then one shot — a gunshot — turned attending that movie screening into a
-statement...&lt;/p&gt;
-&lt;p&gt;While Cook was enjoying his popcorn and champagne with the likes
-of Mike Tyson, Tony Robbins, and other “VIPs”, it was complete and
-utter chaos on the streets of Minnesota. Just hours earlier, Alex
-Pretti, a 37-year-old ICU nurse, was shot and killed by ICE
-agents. Maybe, just maybe, postpone the movie premiere?&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/01/27/mg-cook-melania" title="Permanent link to ‘‘Aside From That, Mr. Cook, What Did You Think of the Movie?’’"&gt; ★ &lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Tue, 27 Jan 2026 23:02:49 +0000</pubDate></item></channel></rss>
+&lt;/div&gt;</description><pubDate>Tue, 27 Jan 2026 23:06:55 +0000</pubDate></item></channel></rss>
