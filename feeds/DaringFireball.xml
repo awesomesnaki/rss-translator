@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Wed, 11 Feb 2026 21:04:07 +0000</lastBuildDate><item><title>苹果创作者工作室使用限制</title><link>https://arstechnica.com/gadgets/2026/01/seven-things-to-know-about-how-apples-creator-studio-subscriptions-work/</link><description>&lt;p&gt;一月底，安德鲁·坎宁安在Ars Technica上写道：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Thu, 12 Feb 2026 17:24:34 +0000</lastBuildDate><item><title>古尔曼：新版Siri可能再次推迟发布</title><link>https://www.bloomberg.com/news/articles/2026-02-11/apple-s-ios-26-4-siri-update-runs-into-snags-in-internal-testing-ios-26-5-27</link><description>&lt;p&gt;彭博社记者马克·古尔曼报道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;据知情人士透露，苹果公司原计划将这些新功能纳入iOS 26.4系统——该系统更新定于三月发布——但现在正努力将这些功能分散到未来的版本中。这可能意味着部分功能至少要推迟到五月发布的iOS 26.5，甚至九月发布的iOS 27。[...]&lt;/p&gt;
+&lt;p&gt;近日，苹果已指示工程师使用即将推出的iOS 26.5系统测试新的Siri功能，这意味着相关功能可能至少推迟了一个版本发布。该更新的内部版本现已包含说明新增Siri增强功能的提示。其中一项功能尤其可能推迟：即Siri调用个人数据的扩展能力。这项技术将允许用户让语音助手搜索旧短信，查找朋友分享的播客并立即播放。&lt;/p&gt;
+&lt;p&gt;iOS 26.5的内部迭代版本还包含一个设置开关，允许员工启用该功能的"预览版"。这表明苹果正在考虑警告用户初始版本可能不完整或运行不稳定——类似于新操作系统的测试版处理方式。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;一年前古尔曼开始报道个性化Siri功能推迟的消息时，其报道被证实完全准确。如果这些功能要随iOS 26.4推出，目前内部版本应该已相当完善。若当前内部版本状态不佳，则很难想象它们能如期出现在iOS 26.4中。而一旦开始讨论iOS 26.5（更不用说26.6），我们将&lt;em&gt;非常&lt;/em&gt;接近苹果全球开发者大会，届时苹果的宣传重心将转向第27代操作系统。&lt;/p&gt;
+&lt;p&gt;某些情况&lt;a href="https://daringfireball.net/2025/03/something_is_rotten_in_the_state_of_cupertino"&gt;似乎仍然不太对劲&lt;/a&gt;。&lt;/p&gt;
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/02/12/gurman-new-siri-might-be-delayed-again" title="Permanent link to ‘Gurman: New Siri Might Be Delayed Again’"&gt;★&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Thu, 12 Feb 2026 17:24:34 +0000</pubDate></item><item><title>更多MacOS 26.3 Finder列视图的愚蠢之处</title><link>https://lapcatsoftware.com/articles/2026/2/4.html</link><description>&lt;p&gt;杰夫·约翰逊：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在今天的macOS 26.3更新中，苹果对我一个月前在博客中提到的问题实施了一个“修复”。&lt;a href="https://lapcatsoftware.com/articles/2026/1/4.html"&gt;macOS Tahoe破坏了Finder的列视图&lt;/a&gt;。（在约翰·格鲁伯和&lt;a href="https://support.apple.com/guide/applestyleguide/c-apsgb744e4a3/1.0/web/1.0#apdef2437a79d084"&gt;苹果风格指南&lt;/a&gt;的要求下，我现在使用“列视图”而不是“列视图”这个术语。）具体来说，问题出在系统设置中始终显示滚动条的功能上。[...]&lt;/p&gt;
+&lt;p&gt;没有了路径栏，列现在更高了，但垂直滚动条的高度保持不变，导致垂直间隙，滚动条底部与列底部之间留下了荒谬的空间，看起来既愚蠢又业余。&lt;/p&gt;
+&lt;p&gt;难道苹果内部也没有人测试过这个配置吗？还是他们根本不在乎？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;从某种意义上说，Finder中列视图与始终显示滚动条设置的整个问题是一件小事。在早期版本的MacOS 26中，它简直是坏的——你根本无法调整列的大小。所以现在它不再坏了。但正如约翰逊所说，它看起来既愚蠢又业余。&lt;/p&gt;
+&lt;p&gt;这是苹果过去一直努力追求在所有设置中达到像素级完美的细节。现在是“&lt;em&gt;随便吧，够好了&lt;/em&gt;”，而不是“&lt;em&gt;&lt;a href="https://www.folklore.org/How_to_Hire_Insanely_Great_Employees.html"&gt;疯狂地伟大&lt;/a&gt;&lt;/em&gt;”。&lt;/p&gt;
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/02/12/more-macos-263-finder-column-view-silliness" title="Permanent link to ‘More MacOS 26.3 Finder Column View Silliness’"&gt;★&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Thu, 12 Feb 2026 17:13:31 +0000</pubDate></item><item><title>苹果创作者工作室使用限制</title><link>https://arstechnica.com/gadgets/2026/01/seven-things-to-know-about-how-apples-creator-studio-subscriptions-work/</link><description>&lt;p&gt;一月底，安德鲁·坎宁安在Ars Technica上写道：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;苹果还概述了依赖外部服务的生成式AI功能的一些使用限制。苹果表示，用户“至少”可以生成50张图片、50个演示文稿（每个8到10张幻灯片），并在Keynote中为700张幻灯片生成演讲者备注。可能可以使用更多，但这取决于“查询的复杂性、服务器可用性和网络可用性”。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -464,32 +484,4 @@ in that exchange.&lt;/p&gt;
 &lt;p&gt;Horwitz was with The Wall Street Journal for a long time; his is &lt;a href="https://daringfireball.net/linked/2025/02/28/meta-ultra-violence"&gt;a byline&lt;/a&gt; worth &lt;a href="https://daringfireball.net/linked/2020/05/27/wsj-facebook-divisiveness"&gt;paying attention to&lt;/a&gt;.&lt;/p&gt;
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/linked/2026/01/27/horwitz-zuck-meta-teen-sexbots" title="Permanent link to ‘Court Filing Claims Zuckerberg Blocked Curbs at Meta on Sex-Talking Chatbots for Minors’"&gt; ★ &lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Wed, 28 Jan 2026 00:17:02 +0000</pubDate></item><item><title>《道德沦丧者的隐秘恐惧》</title><link>https://www.theatlantic.com/ideas/2026/01/the-neighbors-defending-minnesota-from-ice/685769/?gift=Je3D9AQS-C17lUTOnl2W8L893jn-xkg4gA0ahaD_Ltw</link><description>&lt;p&gt;《大西洋月刊》记者亚当·瑟沃尔在明尼阿波利斯街头报道《明尼苏达州证明MAGA错了》：
-道德败坏者内心最隐秘的恐惧，在于美德其实俯拾皆是，而他们自己才是孤立的存在。在明尼苏达州，MAGA意识形态的所有基石同时被证伪。勇敢的是明尼苏达人，而非ICE和边境巡逻队的武装暴徒。明尼苏达人证明了他们的社区具有社会凝聚力——这种凝聚力源于多样性，而非无视多样性。在这个被社交媒体割裂的世界里，空虚者试图用所谓"先天优越"的谎言填补孤独灵魂，而明尼苏达人却寻获并珍视彼此。当武装暴徒企图用暴力摧毁"西方文明"时，明尼苏达人守护了其中所有值得存续的价值。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The secret fear of the morally depraved is that virtue is actually
-common, and that they’re the ones who are alone. In Minnesota, all
-of the ideological cornerstones of MAGA have been proved false at
-once. Minnesotans, not the armed thugs of ICE and the Border
-Patrol, are brave. Minnesotans have shown that their community is
-socially cohesive — because of its diversity and not in spite of
-it. Minnesotans have found and loved one another in a world
-atomized by social media, where empty men have tried to fill their
-lonely soul with lies about their own inherent superiority.
-Minnesotans have preserved everything worthwhile about “Western
-civilization,” while armed brutes try to tear it down by force.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/01/27/serwer-minnesota-ice" title="Permanent link to ‘‘The Secret Fear of the Morally Depraved’’"&gt; ★ &lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Tue, 27 Jan 2026 23:36:54 +0000</pubDate></item><item><title>“被俘获的CEO”</title><link>https://om.co/2026/01/27/a-ceo-captured/</link><description>&lt;p&gt;奥姆·马利克：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;库克并不愚蠢，也并非邪恶。他只是身陷囹圄。市场预期的铁钳将他扭曲成了自己从未想成为的模样——那个在白宫觥筹交错时，护士们正垂死挣扎的人。&lt;/p&gt;
-&lt;p&gt;在&lt;em&gt;《锅匠，裁缝，士兵，间谍》&lt;/em&gt;中，罗伊·布兰德刻画了一个愤世嫉俗、信仰崩塌、腐败滋生的英国社会：“你替我安抚良心，我为你开捷豹。”今日硅谷亦复如是。它曾坚信能改变世界，如今只盼世界别动摇它的股价。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a href="https://www.threads.com/@ajgruber/post/DUBBiHyDtmu"&gt;艾米·简·格鲁伯&lt;/a&gt;：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;若有机会见到蒂姆·库克，我想问他迈克·泰森是否喜欢那部电影。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/01/27/ceo-captured" title="Permanent link to ‘‘A CEO, Captured’’"&gt;★&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Tue, 27 Jan 2026 23:06:55 +0000</pubDate></item></channel></rss>
+&lt;/div&gt;</description><pubDate>Wed, 28 Jan 2026 00:17:02 +0000</pubDate></item></channel></rss>
