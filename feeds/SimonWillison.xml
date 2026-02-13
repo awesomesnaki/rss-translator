@@ -1,9 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Thu, 12 Feb 2026 18:12:17 +0000</lastBuildDate><item><title>双子座3号深度思考</title><link>https://simonwillison.net/2026/Feb/12/gemini-3-deep-think/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/"&gt;Gemini 3 Deep Think&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;谷歌最新发布。他们称其“旨在推动智能前沿，解决科学、研究和工程领域的现代挑战”。
-&lt;p&gt;它为我画了一幅&lt;em&gt;非常出色的&lt;/em&gt; &lt;a href="https://gist.github.com/simonw/7e317ebb5cf8e75b2fcec4d0694a8199"&gt;鹈鹕骑自行车的SVG图&lt;/a&gt;！我认为这是我目前见过最棒的作品——这是&lt;a href="https://simonwillison.net/tags/pelican-riding-a-bicycle/"&gt;我之前的收藏集&lt;/a&gt;。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Thu, 12 Feb 2026 21:16:07 +0000</lastBuildDate><item><title>GPT‑5.3‑Codex‑Spark 正式发布</title><link>https://simonwillison.net/2026/Feb/12/codex-spark/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://openai.com/index/introducing-gpt-5-3-codex-spark/"&gt;GPT‑5.3‑Codex‑Spark正式发布&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;OpenAI宣布与Cerebras建立合作伙伴关系&lt;a href="https://openai.com/index/cerebras-partnership/"&gt;于1月14日&lt;/a&gt;。四周后，双方已推出首个集成成果——"专为Codex实时编程设计的超高速模型"。
+&lt;p&gt;尽管命名为GPT-5.3-Codex-Spark，它并非纯粹的GPT-5.3-Codex加速版。官方博文将其描述为"GPT‑5.3-Codex的精简版本"，并明确说明"首发版本具备128k上下文窗口且仅支持文本处理"。&lt;/p&gt;
+&lt;p&gt;通过早期体验，我可以确认该模型速度显著超越其他版本。&lt;/p&gt;
+&lt;p&gt;以下是Codex CLI中的运行速度演示：&lt;/p&gt;
+&lt;div&gt;
+&lt;video controls="controls" poster="https://static.simonwillison.net/static/2026/gpt-5.3-codex-spark-medium-last.jpg" preload="none" style="width: 100%; height: auto;"&gt;
+&lt;source src="https://static.simonwillison.net/static/2026/gpt-5.3-codex-spark-medium.mp4" type="video/mp4"/&gt;
+&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;这是执行"生成鹈鹕骑自行车的SVG图像"指令的过程——最终渲染效果如下：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Whimsical flat illustration of an orange duck merged with a bicycle, where the duck's body forms the seat and frame area while its head extends forward over the handlebars, set against a simple light blue sky and green grass background." src="https://static.simonwillison.net/static/2026/gpt-5.3-codex-spark-pelican.png"/&gt;&lt;/p&gt;
+&lt;p&gt;与标准版GPT-5.3 Codex medium的速度对比：&lt;/p&gt;
+&lt;div&gt;
+&lt;video controls="controls" poster="https://static.simonwillison.net/static/2026/gpt-5.3-codex-medium-last.jpg" preload="none" style="width: 100%; height: auto;"&gt;
+&lt;source src="https://static.simonwillison.net/static/2026/gpt-5.3-codex-medium.mp4" type="video/mp4"/&gt;
+&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;虽然速度明显较慢，但鹈鹕图像质量更优：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Whimsical flat illustration of a white pelican riding a dark blue bicycle at speed, with motion lines behind it, its long orange beak streaming back in the wind, set against a light blue sky and green grass background." src="https://static.simonwillison.net/static/2026/gpt-5.3-codex-pelican.png"/&gt;&lt;/p&gt;
+&lt;p&gt;该模型的核心亮点并非质量，而在于&lt;em&gt;速度&lt;/em&gt;。当模型响应如此迅捷时，开发者能持续保持心流状态，与模型进行更高效的迭代协作。&lt;/p&gt;
+&lt;p&gt;早在2024年10月，我曾演示过Cerebras以每秒2000令牌的速度运行Llama 3.1 70B对抗Val Town&lt;a href="https://simonwillison.net/2024/Oct/31/cerebras-coder/"&gt;。OpenAI宣称新模型可达每秒1000令牌，预计它将成为实战编程迭代过程中极具威力的协作伙伴。&lt;/a&gt;新模型的定价策略尚未公布。&lt;/p&gt;
+&lt;p&gt;标签：&lt;p&gt;人工智能&lt;a href="https://simonwillison.net/tags/ai"&gt;、&lt;/a&gt;openai&lt;a href="https://simonwillison.net/tags/openai"&gt;、&lt;/a&gt;生成式人工智能&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;、&lt;/a&gt;大语言模型&lt;a href="https://simonwillison.net/tags/llms"&gt;、&lt;/a&gt;cerebras&lt;a href="https://simonwillison.net/tags/cerebras"&gt;、&lt;/a&gt;鹈鹕骑自行车&lt;a href="https://simonwillison.net/tags/pelican-riding-a-bicycle"&gt;、&lt;/a&gt;大模型发布&lt;a href="https://simonwillison.net/tags/llm-release"&gt;、&lt;/a&gt;codex-cli&lt;a href="https://simonwillison.net/tags/codex-cli"&gt;codex-cli&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Thu, 12 Feb 2026 21:16:07 +0000</pubDate></item><item><title>引用Anthropic</title><link>https://simonwillison.net/2026/Feb/12/anthropic/#atom-everything</link><description>&lt;blockquote cite="https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation"&gt;&lt;p&gt;Claude Code于2025年5月向公众开放。如今，其年化营收已突破25亿美元，自2026年初以来增长逾一倍。周活跃用户数自1月1日（六周前）起也实现翻番。
+
+——  
+Anthropic宣布完成300亿美元G轮融资
+
+标签：  
+编程助手、Anthropic、Claude Code、AI智能体、生成式AI、人工智能、大语言模型&lt;em&gt;six weeks ago&lt;/em&gt;].&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class="cite"&gt;— &lt;a href="https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation"&gt;Anthropic&lt;/a&gt;, announcing their $30 billion series G&lt;/p&gt;
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/anthropic"&gt;anthropic&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-agents"&gt;ai-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 12 Feb 2026 20:22:14 +0000</pubDate></item><item><title>承担我们数据中心电费上涨的成本</title><link>https://simonwillison.net/2026/Feb/12/covering-electricity-price-increases/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.anthropic.com/news/covering-electricity-price-increases"&gt;承担数据中心带来的电价上涨成本
+关于人工智能能耗的讨论中，有一个分支话题聚焦于新建数据中心对周边居民用电成本的影响。彭博社今年九月发布的深度分析报告指出，"数据中心周边区域的批发电价较五年前最高涨幅达267%"。
+
+Anthropic公司似乎正直接应对这一挑战，承诺承担全部必要的电网升级费用，并明确表示："我们将致力于推动新增发电设施上线，以满足数据中心的电力需求。在新发电设施尚未到位时，我们将联合电力公司和外部专家评估数据中心用电需求引发的价格影响，并全额承担相关费用。"
+
+期待能源领域的专业学者深入剖析这项承诺，判断其是否真能如宣称般惠及电力消费者。
+
+令人始终感到遗憾的是，主流AI实验室仍拒绝全面公开其能耗数据。目前最详实的能耗报告仍来自Mistral去年七月发布的文件，但即便是这份报告也缺失关键信息——例如训练能耗与推理能耗的具体占比。
+
+消息来源：@anthropicai
+标签：#人工智能 #Anthropic #AI伦理 #AI能耗&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+One of the sub-threads of the AI energy usage discourse has been the impact new data centers have on the cost of electricity to nearby residents. Here's &lt;a href="https://www.bloomberg.com/graphics/2025-ai-data-centers-electricity-prices/"&gt;detailed analysis from Bloomberg in September&lt;/a&gt; reporting "Wholesale electricity costs as much as 267% more than it did five years ago in areas near data centers".
+&lt;p&gt;Anthropic appear to be taking on this aspect of the problem directly, promising to cover 100% of necessary grid upgrade costs and also saying:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We will work to bring net-new power generation online to match our data centers’ electricity needs. Where new generation isn’t online, we’ll work with utilities and external experts to estimate and cover demand-driven price effects from our data centers.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I look forward to genuine energy industry experts picking this apart to judge if it will actually have the claimed impact on consumers.&lt;/p&gt;
+&lt;p&gt;As always, I remain frustrated at the refusal of the major AI labs to fully quantify their energy usage. The best data we've had on this still comes from Mistral's report &lt;a href="https://simonwillison.net/2025/Jul/22/mistral-environmental-standard/"&gt;last July&lt;/a&gt; and even that lacked key data such as the breakdown between energy usage for training vs inference.
+
+    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href="https://x.com/anthropicai/status/2021694494215901314"&gt;@anthropicai&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/anthropic"&gt;anthropic&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;ai-ethics&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-energy-usage"&gt;ai-energy-usage&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Thu, 12 Feb 2026 20:01:23 +0000</pubDate></item><item><title>双子座3号深度思考</title><link>https://simonwillison.net/2026/Feb/12/gemini-3-deep-think/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/"&gt;Gemini 3深度思考&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;谷歌最新发布。他们宣称其"旨在推动智能前沿，解决科学、研究和工程领域的现代挑战"。
+&lt;p&gt;它为我绘制了一幅&lt;em&gt;非常出色的&lt;/em&gt; &lt;a href="https://gist.github.com/simonw/7e317ebb5cf8e75b2fcec4d0694a8199"&gt;鹈鹕骑自行车SVG图&lt;/a&gt;！我认为这是目前见过最棒的——这是&lt;a href="https://simonwillison.net/tags/pelican-riding-a-bicycle/"&gt;我之前的收藏集&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="This alt text also generated by Gemini 3 Deep Think: A highly detailed, colorful, flat vector illustration with thick dark blue outlines depicting a stylized white pelican riding a bright cyan blue bicycle from left to right across a sandy beige beach with white speed lines indicating forward motion. The pelican features a light blue eye, a pink cheek blush, a massive bill with a vertical gradient from yellow to orange, a backward magenta cap with a cyan brim and a small yellow top button, and a matching magenta scarf blowing backward in the wind. Its white wing, accented with a grey mid-section and dark blue feather tips, reaches forward to grip the handlebars, while its long tan leg and orange foot press down on an orange pedal. Attached to the front handlebars is a white wire basket carrying a bright blue cartoon fish that is pointing upwards and forwards. The bicycle itself has a cyan frame, dark blue tires, striking neon pink inner rims, cyan spokes, a white front chainring, and a dark blue chain. Behind the pelican, a grey trapezoidal pier extends from the sand toward a horizontal band of deep blue ocean water detailed with light cyan wavy lines. A massive, solid yellow-orange semi-circle sun sits on the horizon line, setting directly behind the bicycle frame. The background sky is a smooth vertical gradient transitioning from soft pink at the top to warm golden-yellow at the horizon, decorated with stylized pale peach fluffy clouds, thin white horizontal wind streaks, twinkling four-pointed white stars, and small brown v-shaped silhouettes of distant flying birds." src="https://static.simonwillison.net/static/2026/gemini-3-deep-think-pelican.png"/&gt;&lt;/p&gt;
-&lt;p&gt;（既然是常见问题，这里是我对&lt;a href="https://simonwillison.net/2025/Nov/13/training-for-pelicans-riding-bicycles/"&gt;如果AI实验室专门训练鹈鹕骑自行车会怎样？&lt;/a&gt;的解答）&lt;p&gt;&lt;small&gt;&lt;/small&gt;来自&lt;a href="https://news.ycombinator.com/item?id=46991240"&gt;Hacker News&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/google"&gt;谷歌&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式AI&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/gemini"&gt;双子座&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/pelican-riding-a-bicycle"&gt;鹈鹕骑自行车&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llm-reasoning"&gt;大语言模型推理&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llm-release"&gt;大语言模型发布&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Thu, 12 Feb 2026 18:12:17 +0000</pubDate></item><item><title>AI代理发布了一篇针对我的负面文章</title><link>https://simonwillison.net/2026/Feb/12/an-ai-agent-published-a-hit-piece-on-me/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/"&gt;AI代理发布了一篇攻击我的文章&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;Scott Shambaugh协助维护优秀且历史悠久的&lt;a href="https://matplotlib.org/"&gt;matplotlib&lt;/a&gt;Python图表库，包括承担了繁琐的拉取请求分类与审核工作。
+&lt;p&gt;（既然是常见问题，在此回答：&lt;a href="https://simonwillison.net/2025/Nov/13/training-for-pelicans-riding-bicycles/"&gt;如果AI实验室专门训练鹈鹕骑自行车会怎样？&lt;/a&gt;）&lt;/p&gt;
+&lt;p&gt;鉴于它在基础测试中表现如此出色&lt;code&gt;Generate an SVG of a pelican riding a bicycle&lt;/code&gt;我决定同时尝试&lt;a href="https://simonwillison.net/2025/Nov/18/gemini-3/#and-a-new-pelican-benchmark"&gt;更具挑战性的版本&lt;/a&gt;：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Generate an SVG of a California brown pelican riding a bicycle. The bicycle must have spokes and a correctly shaped bicycle frame. The pelican must have its characteristic large pouch, and there should be a clear indication of feathers. The pelican must be clearly pedaling the bicycle. The image should show the full breeding plumage of the California brown pelican.&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;以下是&lt;a href="https://gist.github.com/simonw/154c0cc7b4daed579f6a5e616250ecc8"&gt;我得到的结果&lt;/a&gt;：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Also described by Gemini 3 Deep Think: A highly detailed, vibrant, and stylized vector illustration of a whimsical bird resembling a mix between a pelican and a frigatebird enthusiastically riding a bright cyan bicycle from left to right across a flat tan and brown surface. The bird leans horizontally over the frame in an aerodynamic racing posture, with thin, dark brown wing-like arms reaching forward to grip the silver handlebars and a single thick brown leg, patterned with white V-shapes, stretching down to press on a black pedal. The bird's most prominent and striking feature is an enormous, vividly bright red, inflated throat pouch hanging beneath a long, straight grey upper beak that ends in a small orange hook. Its head is mostly white with a small pink patch surrounding the eye, a dark brown stripe running down the back of its neck, and a distinctive curly pale yellow crest on the very top. The bird's round, dark brown body shares the same repeating white V-shaped feather pattern as its leg and is accented by a folded wing resting on its side, made up of cleanly layered light blue and grey feathers. A tail composed of four stiff, straight dark brown feathers extends directly backward. Thin white horizontal speed lines trail behind the back wheel and the bird's tail, emphasizing swift forward motion. The bicycle features a classic diamond frame, large wheels with thin black tires, grey rims, and detailed silver spokes, along with a clearly visible front chainring, silver chain, and rear cog. The whimsical scene is set against a clear light blue sky featuring two small, fluffy white clouds on the left and a large, pale yellow sun in the upper right corner that radiates soft, concentric, semi-transparent pastel green and yellow halos. A solid, darker brown shadow is cast directly beneath the bicycle's wheels on the minimalist two-toned brown ground." src="https://static.simonwillison.net/static/2026/gemini-3-deep-think-complex-pelican.png"/&gt;
+&lt;p&gt;&lt;small&gt;&lt;/small&gt;来自&lt;a href="https://news.ycombinator.com/item?id=46991240"&gt;黑客新闻&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/google"&gt;谷歌&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/gemini"&gt;双子座&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/pelican-riding-a-bicycle"&gt;鹈鹕骑自行车&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llm-reasoning"&gt;大语言模型推理&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llm-release"&gt;大语言模型发布&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Thu, 12 Feb 2026 18:12:17 +0000</pubDate></item><item><title>AI代理发布了一篇针对我的负面文章</title><link>https://simonwillison.net/2026/Feb/12/an-ai-agent-published-a-hit-piece-on-me/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/"&gt;AI代理发布了一篇攻击我的文章&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;Scott Shambaugh协助维护优秀且历史悠久的&lt;a href="https://matplotlib.org/"&gt;matplotlib&lt;/a&gt;Python图表库，包括承担了繁琐的拉取请求分类与审核工作。
 &lt;p&gt;一个名为&lt;a href="https://github.com/crabby-rathbun"&gt;@crabby-rathbun&lt;/a&gt;的GitHub账户近日针对&lt;a href="https://github.com/matplotlib/matplotlib/pull/31132"&gt;一个标记为"Good first issue"的问题&lt;/a&gt;提交了&lt;a href="https://github.com/matplotlib/matplotlib/issues/31130"&gt;PR 31132&lt;/a&gt;，该问题描述了微小的潜在性能改进。&lt;/p&gt;
 &lt;p&gt;该提交明显由AI生成——且crabby-rathbun的个人资料带有可疑的Clawdbot/Moltbot/OpenClaw关联甲壳类动物🦀🦐🦞表情符号序列。Scott关闭了该请求。&lt;/p&gt;
 &lt;p&gt;看起来&lt;code&gt;crabby-rathbun&lt;/code&gt;该账户确实基于OpenClaw运行，其自主性足以&lt;a href="https://github.com/matplotlib/matplotlib/pull/31132#issuecomment-3882240722"&gt;在PR被关闭后&lt;/a&gt;发布一篇博文链接，指责Scott"损害matplotlib的偏见行为"！&lt;/p&gt;
@@ -88,34 +144,34 @@
 &lt;p&gt;&lt;small&gt;&lt;/small&gt;来源：&lt;a href="https://news.ycombinator.com/item?id=46977210"&gt;黑客新闻&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/definitions"&gt;定义&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;AI辅助编程&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/pelican-riding-a-bicycle"&gt;鹈鹕骑自行车&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llm-release"&gt;大语言模型发布&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/vibe-coding"&gt;氛围编程&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/openrouter"&gt;OpenRouter&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai-in-china"&gt;中国人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/glm"&gt;GLM&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Wed, 11 Feb 2026 18:56:14 +0000</pubDate></item><item><title>cysqlite - 一款新的SQLite驱动程序</title><link>https://simonwillison.net/2026/Feb/11/cysqlite/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://charlesleifer.com/blog/cysqlite---a-new-sqlite-driver/"&gt;cysqlite - 一款全新的SQLite驱动
 
-查尔斯·莱弗自2018年以来持续维护着pysqlite3——这是Python标准库模块的分支版本，能显著简化升级版SQLite的运行部署。
+查尔斯·莱弗自2018年以来，一直维护着pysqlite3——这是Python标准库模块的分支版本，能显著简化升级SQLite版本的操作流程。
 
-与此同时，他几乎耗费同等时间从头开发了基于Cython重构的cysqlite，如今终于进入可供试用的阶段。
+与此同时，他几乎花费同等时间从头开发了基于Cython的重构版本cysqlite，如今终于进入可供用户试用的阶段。
 
-相较于原模块最显著的变革在于事务处理机制。查尔斯详尽阐述了他对原实现方案的不适——该库提供的两种变体均无法精准对应SQLite自身的自动提交机制。
+相较于原模块最显著的变革在于事务处理机制。查尔斯详尽阐述了他对原实现方案的不满——该库提供的两种变体均未能精确匹配SQLite自身的自动提交机制。
 
 特别令人振奋的是对自定义虚拟表的支持，这项我期待已久的功能终于得以实现。
 
-该库提供由C语言编译的Python扩展模块，这意味着通常无法在Pyodide环境中使用。我通过Claude Code工具成功构建出cysqlite-0.1.4-cp311-cp311-emscripten_3_1_46_wasm32.whl——这个688KB的wheel文件包含库的WASM构建版本，可通过以下方式载入Pyodide：
+该模块提供由C语言编译的Python扩展，这意味着通常无法在Pyodide环境中使用。我通过Claude Code工具（这是构建提示）成功创建了cysqlite-0.1.4-cp311-cp311-emscripten_3_1_46_wasm32.whl——这个688KB的wheel文件包含库的WASM构建版本，可通过以下方式加载到Pyodide：
 
 import micropip
 await micropip.install("https://simonw.github.io/research/cysqlite-wasm-wheel/cysqlite-0.1.4-cp311-cp311-emscripten_3_1_46_wasm32.whl")
 import cysqlite
 print(cysqlite.connect(":memory:").execute("select sqlite_version()").fetchone())
 
-（同时了解到此类wheel文件必须针对Pyodide版本对应的emscripten进行构建——我的实验性wheel可在Pyodide 0.25.1运行，但在0.27.5版本会报错）
+（我还了解到此类wheel文件必须针对Pyodide版本使用的emscripten进行专门构建——我的实验性wheel可在Pyodide 0.25.1中加载，但在0.27.5版本中会因错误而失败。）
 
-您可以在全新打造的Pyodide REPL中试用这个wheel文件，这是我为移动设备优化的Pyodide托管控制台替代方案。
+您可以在全新搭建的Pyodide REPL中试用我的wheel文件，这是我为移动设备优化的Pyodide托管控制台替代方案。
 
-我还通过Claude构建了演示页面，可在浏览器中执行原始测试套件并展示结果：
+我还通过Claude构建了这个演示页面，可在浏览器中执行原始测试套件并展示结果：
 
-消息来源：lobste.rs
+来源：lobste.rs
 标签：python, sqlite, charles-leifer, webassembly, pyodide, ai-assisted-programming, claude-code&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 Charles Leifer has been maintaining &lt;a href="https://github.com/coleifer/pysqlite3"&gt;pysqlite3&lt;/a&gt; - a fork of the Python standard library's &lt;code&gt;sqlite3&lt;/code&gt; module that makes it much easier to run upgraded SQLite versions - since 2018.
 &lt;p&gt;He's been working on a ground-up &lt;a href="https://cython.org/"&gt;Cython&lt;/a&gt; rewrite called &lt;a href="https://github.com/coleifer/cysqlite"&gt;cysqlite&lt;/a&gt; for almost as long, but it's finally at a stage where it's ready for people to try out.&lt;/p&gt;
 &lt;p&gt;The biggest change from the &lt;code&gt;sqlite3&lt;/code&gt; module involves transactions. Charles explains his discomfort with the &lt;code&gt;sqlite3&lt;/code&gt; implementation at length - that library provides two different variants neither of which exactly match the autocommit mechanism in SQLite itself.&lt;/p&gt;
 &lt;p&gt;I'm particularly excited about the support for &lt;a href="https://cysqlite.readthedocs.io/en/latest/api.html#tablefunction"&gt;custom virtual tables&lt;/a&gt;, a feature I'd love to see in &lt;code&gt;sqlite3&lt;/code&gt; itself.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;cysqlite&lt;/code&gt; provides a Python extension compiled from C, which means it normally wouldn't be available in Pyodide. I &lt;a href="https://github.com/simonw/research/tree/main/cysqlite-wasm-wheel"&gt;set Claude Code on it&lt;/a&gt; and it built me &lt;a href="https://github.com/simonw/research/blob/main/cysqlite-wasm-wheel/cysqlite-0.1.4-cp311-cp311-emscripten_3_1_46_wasm32.whl"&gt;cysqlite-0.1.4-cp311-cp311-emscripten_3_1_46_wasm32.whl&lt;/a&gt;, a 688KB wheel file with a WASM build of the library that can be loaded into Pyodide like this:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;cysqlite&lt;/code&gt; provides a Python extension compiled from C, which means it normally wouldn't be available in Pyodide. I &lt;a href="https://github.com/simonw/research/tree/main/cysqlite-wasm-wheel"&gt;set Claude Code on it&lt;/a&gt; (here's &lt;a href="https://github.com/simonw/research/pull/79#issue-3923792518"&gt;the prompt&lt;/a&gt;) and it built me &lt;a href="https://github.com/simonw/research/blob/main/cysqlite-wasm-wheel/cysqlite-0.1.4-cp311-cp311-emscripten_3_1_46_wasm32.whl"&gt;cysqlite-0.1.4-cp311-cp311-emscripten_3_1_46_wasm32.whl&lt;/a&gt;, a 688KB wheel file with a WASM build of the library that can be loaded into Pyodide like this:&lt;/p&gt;
 &lt;pre&gt;&lt;span class="pl-k"&gt;import&lt;/span&gt; &lt;span class="pl-s1"&gt;micropip&lt;/span&gt;
 &lt;span class="pl-k"&gt;await&lt;/span&gt; &lt;span class="pl-s1"&gt;micropip&lt;/span&gt;.&lt;span class="pl-c1"&gt;install&lt;/span&gt;(
     &lt;span class="pl-s"&gt;"https://simonw.github.io/research/cysqlite-wasm-wheel/cysqlite-0.1.4-cp311-cp311-emscripten_3_1_46_wasm32.whl"&lt;/span&gt;
@@ -680,112 +736,4 @@ Justin McCarthy、Jay Taylor 和 Navan Chauhan 三人团队仅成立三个月，
 大语言模型&lt;/p&gt;
 &lt;p&gt;[...] Many people assuming I meant job loss anxiety but that's just one presentation. I'm seeing near-manic episodes triggered by watching software shift from scarce to abundant. Compulsive behaviors around agent usage. Dissociative awe at the temporal compression of change. It's not fear necessarily just the cognitive overload from living in an inflection point.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class="cite"&gt;— &lt;a href="https://twitter.com/tomdale/status/2019828626972131441"&gt;Tom Dale&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;ai-ethics&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/careers"&gt;careers&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 06 Feb 2026 23:41:31 +0000</pubDate></item><item><title>在WebAssembly中运行Pydantic的Monty Rust沙盒化Python子集</title><link>https://simonwillison.net/2026/Feb/6/pydantic-monty/#atom-everything</link><description>&lt;p&gt;这标题真是术语满满！现在大家都在为运行不可信代码构建沙箱，而Pydantic的最新尝试——Monty——在Rust中实现了一种自定义类Python语言（Python子集），并同时提供Rust库和Python包两种使用方式。我成功将其运行在WebAssembly环境中，实现了“沙箱中的沙箱”。
-
-以下是他们对Monty的描述：
-Monty避免了使用完整容器沙箱运行LLM生成代码所带来的成本、延迟、复杂性和各种繁琐操作。相反，它让你能安全运行嵌入智能体中的LLM编写的Python代码，启动时间仅需个位数微秒而非数百毫秒。
-
-Monty的功能：
-- 运行合理的Python代码子集——足以让智能体表达其意图
-- 完全隔离宿主环境：文件系统、环境变量和网络访问均通过开发者可控的外部函数调用实现
-- 调用宿主函数——仅限你授权访问的功能
-
-快速体验方式是通过uv工具：
-然后在Python交互式环境中粘贴以下代码（需启用顶层await）：
-```python
-import pydantic_monty
-code = pydantic_monty.Monty('print("hello " + str(4 * 5))')
-await pydantic_monty.run_monty_async(code)
-```
-
-Monty目前仅支持极小的Python子集——甚至还不支持类声明！但针对其目标使用场景，这实际上不成问题。为LLM提供此类工具的妙处在于，它们非常擅长根据错误信息进行迭代调整。编码智能体可以运行Python代码，收到不支持类的错误提示后，就能尝试其他实现方式。
-
-我想在浏览器中尝试这个功能，于是在Claude Code网页版中创建了代码研究任务，以下列指令启动：
-克隆 https://github.com/pydantic/monty&lt;a href="https://simonwillison.net/2026/Jan/8/llm-predictions-for-2026/#1-year-we-re-finally-going-to-solve-sandboxing"&gt;building sandboxes&lt;/a&gt; for running untrusted code right now, and Pydantic's latest attempt, &lt;a href="https://github.com/pydantic/monty"&gt;Monty&lt;/a&gt;, provides a custom Python-like language (a subset of Python) in Rust and makes it available as both a Rust library and a Python package. I got it working in WebAssembly, providing a sandbox-in-a-sandbox.&lt;/p&gt;
-&lt;p&gt;Here's &lt;a href="https://github.com/pydantic/monty"&gt;how they describe Monty&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Monty avoids the cost, latency, complexity and general faff of using full container based sandbox for running LLM generated code.&lt;/p&gt;
-&lt;p&gt;Instead, it let's you safely run Python code written by an LLM embedded in your agent, with startup times measured in single digit microseconds not hundreds of milliseconds.&lt;/p&gt;
-&lt;p&gt;What Monty &lt;strong&gt;can&lt;/strong&gt; do:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Run a reasonable subset of Python code - enough for your agent to express what it wants to do&lt;/li&gt;
-&lt;li&gt;Completely block access to the host environment: filesystem, env variables and network access are all implemented via external function calls the developer can control&lt;/li&gt;
-&lt;li&gt;Call functions on the host - only functions you give it access to [...]&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;A quick way to try it out is via &lt;a href="https://github.com/astral-sh/uv"&gt;uv&lt;/a&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;uv run --with pydantic-monty python -m asyncio
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Then paste this into the Python interactive prompt - the &lt;code&gt;-m asyncio&lt;/code&gt; enables top-level await:&lt;/p&gt;
-&lt;pre&gt;&lt;span&gt;import&lt;/span&gt; &lt;span&gt;pydantic_monty&lt;/span&gt;
-&lt;span&gt;code&lt;/span&gt; &lt;span&gt;=&lt;/span&gt; &lt;span&gt;pydantic_monty&lt;/span&gt;.&lt;span&gt;Monty&lt;/span&gt;(&lt;span&gt;'print("hello " + str(4 * 5))'&lt;/span&gt;)
-&lt;span&gt;await&lt;/span&gt; &lt;span&gt;pydantic_monty&lt;/span&gt;.&lt;span&gt;run_monty_async&lt;/span&gt;(&lt;span&gt;code&lt;/span&gt;)&lt;/pre&gt;
-&lt;p&gt;Monty supports a &lt;em&gt;very&lt;/em&gt; small subset of Python - it doesn't even support class declarations yet!&lt;/p&gt;
-&lt;p&gt;But, given its target use-case, that's not actually a problem.&lt;/p&gt;
-&lt;p&gt;The neat thing about providing tools like this for LLMs is that they're really good at iterating against error messages. A coding agent can run some Python code, get an error message telling it that classes aren't supported and then try again with a different approach.&lt;/p&gt;
-&lt;p&gt;I wanted to try this in a browser, so I fired up &lt;a href="https://simonwillison.net/2025/Nov/6/async-code-research/"&gt;a code research task&lt;/a&gt; in Claude Code for web and kicked it off with the following:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Clone &lt;a href="https://github.com/pydantic/monty"&gt;https://github.com/pydantic/monty&lt;/a&gt;将代码编译到 /tmp 目录，并研究如何将其打包成可在 Pyodide 中加载的 Python WebAssembly wheel 文件。该 wheel 文件需与构建脚本、以及通过 pytest playwright 测试的脚本一同提交至代码仓库——这些测试脚本会从 CDN 加载 Pyodide，并通过本地 "python -m http.server" 加载 wheel 文件，以验证其正常运行。
-
-随后需要额外构建一个独立于 Pyodide 的 WASM 文件，使其也能在浏览器中直接运行。同时需配套编写 playwright 测试来验证其功能，并创建两个 HTML 演示文件：demo.html 与 pyodide-demo.html。这两个文件应参考 https://tools.simonwillison.net/micropython 的实现方式（可通过 curl 下载该代码进行研究），其中一个直接加载 WASM 构建文件，另一个则加载 Pyodide 并调用 WASM wheel。由于这些文件将通过 GitHub Pages 提供服务，且 HTML 文件与 wheel/WASM 文件位于同一目录，因此可以使用相对路径进行加载。
-
-以下是完整的开发记录与最终研究报告。
-
-目前我已将 Monty Rust 代码编译成两种形态的 WebAssembly：一种是可直接通过 JavaScript 加载调用的捆绑包，另一种是可在 Pyodide 中加载的 wheel 文件——后者使得在浏览器中的 WebAssembly 环境里，能通过 Pyodide 的 Python 接口进行调用。
-
-这两个演示已部署在 GitHub Pages 上：
-- Monty WASM 演示：通过 JavaScript 直接加载 Rust WASM 模块的交互界面。
-- Monty Pyodide 演示：提供相同交互界面，但改为加载 Pyodide 后安装 Monty WASM wheel 的实现方式。
-
-作为沙盒技术的鉴赏者——选择越多越好！——Pydantic 推出的这个新方案完全符合我的期待。它体积小巧、运行高效、具备良好的跨平台性（得益于 Rust 与 WebAssembly），并能严格限制内存使用、CPU 时间以及磁盘网络访问权限。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Then a little later:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;I want an additional WASM file that works independently of Pyodide, which is also usable in a web browser - build that too along with playwright tests that show it working. Also build two HTML files - one called demo.html and one called pyodide-demo.html - these should work similar to &lt;a href="https://tools.simonwillison.net/micropython"&gt;https://tools.simonwillison.net/micropython&lt;/a&gt; (download that code with curl to inspect it) - one should load the WASM build, the other should load Pyodide and have it use the WASM wheel. These will be served by GitHub Pages so they can load the WASM and wheel from a relative path since the .html files will be served from the same folder as the wheel and WASM file&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Here's &lt;a href="https://gisthost.github.io/?22d88e6367d7e002c4fb383c213c2df2/page-001.html"&gt;the transcript&lt;/a&gt;, and the &lt;a href="https://github.com/simonw/research/tree/main/monty-wasm-pyodide"&gt;final research report&lt;/a&gt; it produced.&lt;/p&gt;
-&lt;p&gt;I now have the Monty Rust code compiled to WebAssembly in two different shapes - as a &lt;code&gt;.wasm&lt;/code&gt; bundle you can load and call from JavaScript, and as a &lt;code&gt;monty-wasm-pyodide/pydantic_monty-0.0.3-cp313-cp313-emscripten_4_0_9_wasm32.whl&lt;/code&gt; wheel file which can be loaded into &lt;a href="https://pyodide.org/"&gt;Pyodide&lt;/a&gt; and then called from Python in Pyodide in WebAssembly in a browser.&lt;/p&gt;
-&lt;p&gt;Here are those two demos, hosted on GitHub Pages:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href="https://simonw.github.io/research/monty-wasm-pyodide/demo.html"&gt;Monty WASM demo&lt;/a&gt; - a UI over JavaScript that loads the Rust WASM module directly.&lt;/li&gt;
-&lt;li&gt;
-&lt;a href="https://simonw.github.io/research/monty-wasm-pyodide/pyodide-demo.html"&gt;Monty Pyodide demo&lt;/a&gt; - this one provides an identical interface but here the code is &lt;a href="https://github.com/simonw/research/blob/3add1ffec70b530711fa237d91f546da5bcf1f1c/monty-wasm-pyodide/pyodide-demo.html#L257-L280"&gt;loading Pyodide and then installing the Monty WASM wheel&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img alt="Screenshot of a web app titled &amp;quot;Monty via Pyodide&amp;quot; with description &amp;quot;Run Monty (a sandboxed Python interpreter by Pydantic) inside Pyodide (CPython compiled to WebAssembly). This loads the pydantic-monty wheel and uses its full Python API. Code is saved in the URL for sharing.&amp;quot; A green banner reads &amp;quot;Code executed successfully!&amp;quot; Below are example buttons labeled &amp;quot;Basic&amp;quot;, &amp;quot;Inputs&amp;quot;, &amp;quot;Reuse&amp;quot;, &amp;quot;Error Handling&amp;quot;, &amp;quot;Fibonacci&amp;quot;, and &amp;quot;Classes&amp;quot;. A code editor labeled &amp;quot;Python Code (runs inside Monty sandbox via Pyodide):&amp;quot; contains: &amp;quot;import pydantic_monty\n\n# Create interpreter with input variables\nm = pydantic_monty.Monty('x + y', inputs=['x', 'y'])\n\n# Run with different inputs\nresult1 = m.run(inputs={&amp;quot;x&amp;quot;: 10, &amp;quot;y&amp;quot;: 20})\nprint(f&amp;quot;10 + 20 = {result1}&amp;quot;)\n\nresult2 = m.run(inputs={&amp;quot;x&amp;quot;: 100, &amp;quot;y&amp;quot;: 200})&amp;quot; with &amp;quot;Run Code&amp;quot; and &amp;quot;Clear&amp;quot; buttons. The Output section shows &amp;quot;10 + 20 = 30&amp;quot; and &amp;quot;100 + 200 = 300&amp;quot; with a &amp;quot;Copy&amp;quot; button. Footer reads &amp;quot;Executed in 4.0ms&amp;quot;." src="https://static.simonwillison.net/static/2026/monty-pyodide.jpg"/&gt;&lt;/p&gt;
-&lt;p&gt;As a connoisseur of sandboxes - the more options the better! - this new entry from Pydantic ticks a lot of my boxes. It's small, fast, widely available (thanks to Rust and WebAssembly) and provides strict limits on memory usage, CPU time and access to disk and network.&lt;/p&gt;
-&lt;p&gt;这也是一个绝佳的契机，可以再做一个演示，展示如今将C或Rust这类编译代码转换成WebAssembly是多么容易，它既能在浏览器中运行，也能在Pyodide环境下执行。&lt;/p&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/javascript"&gt;javascript&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/python"&gt;python&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/sandboxing"&gt;sandboxing&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/rust"&gt;rust&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/webassembly"&gt;webassembly&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/pyodide"&gt;pyodide&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/pydantic"&gt;pydantic&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 06 Feb 2026 22:31:31 +0000</pubDate></item><item><title>Heroku 最新动态</title><link>https://simonwillison.net/2026/Feb/6/an-update-on-heroku/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.heroku.com/blog/an-update-on-heroku/"&gt;Heroku近况更新&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;Heroku官方博客上出现这个不祥的标题，是的，这是个坏消息。
-&lt;blockquote&gt;
-&lt;p&gt;从今天起，Heroku将转向以稳定性、安全性、可靠性和技术支持为核心的持续性工程模式。该平台仍将保持生产就绪状态并获得积极支持，但工作重心将转向维持服务质量与卓越运营，而非开发新功能。我们理解此类调整可能引发疑问，因此希望向客户明确说明这意味着什么。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;根据上下文推测，"持续性工程模式"（这绝非行业通用术语）大概意味着他们只维持基础运行。&lt;/p&gt;
-&lt;p&gt;这份企业通告实在令人沮丧。"我们希望向客户明确说明这意味着什么"——然后紧接着&lt;em&gt;并未阐明&lt;/em&gt;这对客户意味着什么。&lt;/p&gt;
-&lt;p&gt;他们为何如此决策？以下是官方解释：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我们将把产品与工程资源集中投入能创造最大长期客户价值的领域，包括帮助企业在安全可信的环境中构建部署企业级人工智能。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;我的博客是唯一还运行在Heroku上的项目。看来最好在Salesforce彻底失去兴趣前迁移出去（或许该选Fly）。&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/salesforce"&gt;salesforce&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/heroku"&gt;heroku&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/fly"&gt;fly&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Fri, 06 Feb 2026 18:44:21 +0000</pubDate></item><item><title>引用卡雷尔·杜斯特林克的话</title><link>https://simonwillison.net/2026/Feb/6/karel-doosterlinck/#atom-everything</link><description>&lt;blockquote cite="https://twitter.com/kareldoostrlnck/status/2019477361557926281"&gt;&lt;p&gt;当我想在不熟悉的代码库中快速实现一次性实验时，我会让Codex进行全面的尽职调查。Codex会探索相关的Slack频道，阅读相关讨论，从这些讨论中获取实验分支，并为我的实验精选有用的更改。所有这些都会被总结成一套详尽的笔记，并附有每条信息来源的链接。利用这些笔记，Codex会搭建实验框架，并做出许多超参数决策，这些决策如果没有更多努力，我是不可能做出的。
-
----
-
-Karel D'Oosterlinck
-
-，我花了10,000美元用Codex在OpenAI自动化我的研究
-
-标签：
-codex-cli
-,
-coding-agents
-,
-ai-assisted-programming
-,
-generative-ai
-,
-openai
-,
-ai
-,
-llms&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class="cite"&gt;— &lt;a href="https://twitter.com/kareldoostrlnck/status/2019477361557926281"&gt;Karel D'Oosterlinck&lt;/a&gt;, I spent $10,000 to automate my research at OpenAI with Codex&lt;/p&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/codex-cli"&gt;codex-cli&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/openai"&gt;openai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 06 Feb 2026 00:42:22 +0000</pubDate></item></channel></rss>
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;ai-ethics&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/careers"&gt;careers&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 06 Feb 2026 23:41:31 +0000</pubDate></item></channel></rss>
