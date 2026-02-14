@@ -1,5 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Thu, 12 Feb 2026 21:16:07 +0000</lastBuildDate><item><title>GPT‑5.3‑Codex‑Spark 正式发布</title><link>https://simonwillison.net/2026/Feb/12/codex-spark/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://openai.com/index/introducing-gpt-5-3-codex-spark/"&gt;GPT‑5.3‑Codex‑Spark正式发布&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;OpenAI宣布与Cerebras建立合作伙伴关系&lt;a href="https://openai.com/index/cerebras-partnership/"&gt;于1月14日&lt;/a&gt;。四周后，双方已推出首个集成成果——"专为Codex实时编程设计的超高速模型"。
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Fri, 13 Feb 2026 23:59:51 +0000</lastBuildDate><item><title>Anthropic的公益使命</title><link>https://simonwillison.net/2026/Feb/13/anthropic-public-benefit-mission/#atom-everything</link><description>&lt;p&gt;有人问，Anthropic是否有类似OpenAI历年IRS使命声明的文件。Anthropic是一家“公益公司”而非非营利组织，因此无需每年向IRS提交公开文件。但当我询问Claude时，它搜索并找到了Zach Stein-Perlman分享的Google Drive文件夹，其中包含他从特拉华州获取的公司注册证书文件！Anthropic的文件远不如OpenAI的有趣。2021年的最早文件写道：“本公司将推动的具体公益是负责任地开发和维护先进人工智能，以促进人类文化、社会和技术的进步。”而此后直至2024年的所有文件都使用了更新版本：“本公司将推动的具体公益是负责任地开发和维护先进人工智能，以谋求人类的长远利益。”标签：ai-ethics, anthropic, ai&lt;a href="https://news.ycombinator.com/item?id=47008560#47008978"&gt;asked&lt;/a&gt; if there was an Anthropic equivalent to &lt;a href="https://simonwillison.net/2026/Feb/13/openai-mission-statement/"&gt;OpenAI's IRS mission statements over time&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Anthropic are a "public benefit corporation" but not a non-profit, so they don't have the same requirements to file public documents with the IRS every year.&lt;/p&gt;
+&lt;p&gt;But when I asked Claude it ran a search and dug up this &lt;a href="https://drive.google.com/drive/folders/1ImqXYv9_H2FTNAujZfu3EPtYFD4xIlHJ"&gt;Google Drive folder&lt;/a&gt; where Zach Stein-Perlman shared Certificate of Incorporation documents he &lt;a href="https://ailabwatch.substack.com/p/anthropics-certificate-of-incorporation"&gt;obtained from the State of Delaware&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;Anthropic's are much less interesting that OpenAI's. The earliest document from 2021 states:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The specific public benefit that the Corporation will promote is to responsibly develop and maintain advanced Al for the cultural, social and technological improvement of humanity.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Every subsequent document up to 2024 uses an updated version which says:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The specific public benefit that the Corporation will promote is to responsibly develop and maintain advanced AI for the long term benefit of humanity.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;ai-ethics&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/anthropic"&gt;anthropic&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 13 Feb 2026 23:59:51 +0000</pubDate></item><item><title>OpenAI使命宣言的演变历程</title><link>https://simonwillison.net/2026/Feb/13/openai-mission-statement/#atom-everything</link><description>&lt;p&gt;作为一家美国501(c)(3)非营利组织，OpenAI每年都必须向美国国税局提交纳税申报表。申报表中有一个必填项是"简要描述组织的使命或最重要活动"——这具有实际法律效力，因为国税局可以据此评估该组织是否恪守使命，从而决定其是否应继续保持非营利免税资格。
+
+您可以在ProPublica优秀的"非营利组织探索者"平台上按年度浏览OpenAI的税务申报文件。我整理了2016年至2024年的使命声明，并借助Claude Code伪造提交日期将其转换为Git仓库，以Gist形式分享——这意味着该Gist的修订页面完整展示了他们自开始报税以来的每次修改记录！
+
+观察这些逐年演变非常有趣。最初的2016年使命声明如下（是的，原文中"OpenAIs"确实缺少所有格撇号）：
+
+OpenAIs的目标是以最可能造福全人类的方式推进数字智能发展，不受盈利需求的束缚。我们认为人工智能技术将塑造21世纪的发展轨迹，希望帮助世界构建安全的AI技术，并确保AI的益处能尽可能广泛而均衡地惠及全人类。我们正努力作为更广泛社区的一部分来构建AI，并愿意在此过程中公开分享我们的计划与能力。
+
+2018年，他们删除了"作为更广泛社区的一部分构建AI，并愿意在此过程中公开分享计划与能力"的表述。
+
+2020年，他们从"造福全人类"中删除了"全"字。不过仍保留着"不受盈利需求束缚"的声明。&lt;a href="https://en.wikipedia.org/wiki/501(c)(3)_organization"&gt;501(c)(3)&lt;/a&gt; the OpenAI non-profit has to file a tax return each year with the IRS. One of the required fields on that tax return is to "Briefly describe the organization’s mission or most significant activities" - this has actual legal weight to it as the IRS can use it to evaluate if the organization is sticking to its mission and deserves to maintain its non-profit tax-exempt status.&lt;/p&gt;
+&lt;p&gt;You can browse OpenAI's &lt;a href="https://projects.propublica.org/nonprofits/organizations/810861541"&gt;tax filings by year&lt;/a&gt; on ProPublica's excellent &lt;a href="https://projects.propublica.org/nonprofits/"&gt;Nonprofit Explorer&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I went through and extracted that mission statement for 2016 through 2024, then had Claude Code &lt;a href="https://gisthost.github.io/?7a569df89f43f390bccc2c5517718b49/index.html"&gt;help me&lt;/a&gt; fake the commit dates to turn it into a git repository and share that as a Gist - which means that Gist's &lt;a href="https://gist.github.com/simonw/e36f0e5ef4a86881d145083f759bcf25/revisions"&gt;revisions page&lt;/a&gt; shows every edit they've made since they started filing their taxes!&lt;/p&gt;
+&lt;p&gt;It's really interesting seeing what they've changed over time.&lt;/p&gt;
+&lt;p&gt;The original 2016 mission reads as follows (and yes, the apostrophe in "OpenAIs" is missing &lt;a href="https://projects.propublica.org/nonprofits/organizations/810861541/201703459349300445/full"&gt;in the original&lt;/a&gt;):&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;OpenAIs goal is to advance digital intelligence in the way that is most likely to benefit humanity as a whole, unconstrained by a need to generate financial return. We think that artificial intelligence technology will help shape the 21st century, and we want to help the world build safe AI technology and ensure that AI's benefits are as widely and evenly distributed as possible. Were trying to build AI as part of a larger community, and we want to openly share our plans and capabilities along the way.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In 2018 they dropped the part about "trying to build AI as part of a larger community, and we want to openly share our plans and capabilities along the way."&lt;/p&gt;
+&lt;p&gt;&lt;img alt='Git diff showing the 2018 revision deleting the final two sentences: "Were trying to build AI as part of a larger community, and we want to openly share our plans and capabilities along the way."' src="https://static.simonwillison.net/static/2026/mission-3.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;In 2020 they dropped the words "as a whole" from "benefit humanity as a whole". They're still "unconstrained by a need to generate financial return" though.&lt;/p&gt;
+&lt;p&gt;&lt;img alt='Git diff showing the 2020 revision dropping "as a whole" from "benefit humanity as a whole" and changing "We think" to "OpenAI believes"' src="https://static.simonwillison.net/static/2026/mission-5.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;2021年出现了一些有趣的变化。虽然他们依然不受盈利需求的束缚，但首次提及"通用人工智能"（取代了"数字智能"）。他们的表述也更为自信：从"最可能造福人类"转变为直接宣称"造福人类"。
+
+此前他们希望"帮助世界构建安全的人工智能技术"，而现在他们决定亲自实现这一目标："公司的目标是开发并负责任地部署安全的人工智能技术"。
+
+2022年仅修改了一个关键措辞：在"构建……（人工智能）造福人类"前增加了"安全地"。他们依然未受盈利需求的制约！
+
+2023年没有变化……但到了2024年，他们几乎删除了全部原有表述，简化为：
+
+OpenAI的使命是确保通用人工智能惠及全人类。
+
+他们将"人类"扩展为"全人类"，但不再提及安全性要求。我猜他们终于可以开始专注于实现盈利需求了！
+
+更新：我找到了Anthropic公司发布的类似文件，但内容乏味得多。
+
+标签：人工智能，openai，人工智能伦理，propublica&lt;/p&gt;
+&lt;p&gt;They previously wanted to "help the world build safe AI technology", but now they're going to do that themselves: "the companys goal is to develop and responsibly deploy safe AI technology".&lt;/p&gt;
+&lt;p&gt;&lt;img alt='Git diff showing the 2021 revision replacing "goal is to advance digital intelligence" with "mission is to build general-purpose artificial intelligence", changing "most likely to benefit" to just "benefits", and replacing "help the world build safe AI technology" with "the companys goal is to develop and responsibly deploy safe AI technology"' src="https://static.simonwillison.net/static/2026/mission-6.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;2022 only changed one significant word: they added "safely" to "build ... (AI) that safely benefits humanity". They're still unconstrained by those financial returns!&lt;/p&gt;
+&lt;p&gt;&lt;img alt='Git diff showing the 2022 revision adding "(AI)" and the word "safely" so it now reads "that safely benefits humanity", and changing "the companys" to "our"' src="https://static.simonwillison.net/static/2026/mission-7.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;No changes in 2023... but then in 2024 they deleted almost the entire thing, reducing it to simply:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;OpenAIs mission is to ensure that artificial general intelligence benefits all of humanity.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;They've expanded "humanity" to "all of humanity", but there's no mention of safety any more and I guess they can finally start focusing on that need to generate financial returns!&lt;/p&gt;
+&lt;p&gt;&lt;img alt='Git diff showing the 2024 revision deleting the entire multi-sentence mission statement and replacing it with just "OpenAIs mission is to ensure that artificial general intelligence benefits all of humanity."' src="https://static.simonwillison.net/static/2026/mission-9.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: I found loosely equivalent but much less interesting documents &lt;a href="https://simonwillison.net/2026/Feb/13/anthropic-public-benefit-mission/"&gt;from Anthropic&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/openai"&gt;openai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;ai-ethics&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/propublica"&gt;propublica&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 13 Feb 2026 23:38:29 +0000</pubDate></item><item><title>GPT‑5.3‑Codex‑Spark 正式发布</title><link>https://simonwillison.net/2026/Feb/12/codex-spark/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://openai.com/index/introducing-gpt-5-3-codex-spark/"&gt;GPT‑5.3‑Codex‑Spark正式发布&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;OpenAI宣布与Cerebras建立合作伙伴关系&lt;a href="https://openai.com/index/cerebras-partnership/"&gt;于1月14日&lt;/a&gt;。四周后，双方已推出首个集成成果——"专为Codex实时编程设计的超高速模型"。
 &lt;p&gt;尽管命名为GPT-5.3-Codex-Spark，它并非纯粹的GPT-5.3-Codex加速版。官方博文将其描述为"GPT‑5.3-Codex的精简版本"，并明确说明"首发版本具备128k上下文窗口且仅支持文本处理"。&lt;/p&gt;
 &lt;p&gt;通过早期体验，我可以确认该模型速度显著超越其他版本。&lt;/p&gt;
 &lt;p&gt;以下是Codex CLI中的运行速度演示：&lt;/p&gt;
@@ -563,177 +622,4 @@ AI辅助编程
 、
 大语言模型&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class="cite"&gt;— &lt;a href="https://crawshaw.io/blog/eight-more-months-of-agents"&gt;David Crawshaw&lt;/a&gt;, Eight more months of agents&lt;/p&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sat, 07 Feb 2026 21:31:44 +0000</pubDate></item><item><title>StrongDM的AI团队如何在不看代码的情况下构建重要软件</title><link>https://simonwillison.net/2026/Feb/7/software-factory/#atom-everything</link><description>&lt;p&gt;上周我提到过一个团队演示，他们实现了丹·夏皮罗所说的"暗黑工厂"级AI应用——人类甚至无需查看编码智能体生成的代码。该团队来自StrongDM公司，他们刚刚首次公开描述了如何在"软件工厂与智能体时刻"中开展工作：
-
-我们构建了"软件工厂"：这是一种非交互式开发模式，由需求规格和场景驱动智能体编写代码、运行测试框架并自动收敛，全程无需人工审核。[...]
-
-以禅语或箴言形式呈现：
-为何由我动手？（潜台词：这该由模型代劳）
-
-以规则形式呈现：
-代码必须不由人类编写
-代码必须不经人类审核
-
-最终以实践形式呈现：
-若团队每位人类工程师当日令牌开销未达1000美元，则说明你的软件工厂尚有改进空间
-
-我认为其中最耐人寻味的无疑是"代码必须不经人类审核"。当我们都清楚大语言模型多么容易犯非人类错误时，这怎么可能成为合理策略？
-
-近来我注意到许多开发者开始认同"2025年11月拐点"——当Claude Opus 4.5和GPT 5.2出现时，编码智能体在遵循指令和执行复杂编码任务方面的可靠性发生了质变。StrongDM的AI团队其实早在2025年7月就已成立，其契机是更早的Claude Sonnet 3.5带来的转折：
-
-催化剂是2024年末观察到的转变：随着Claude 3.5第二次版本迭代（2024年10月），长周期智能体编码工作流开始累积正确性而非错误。到2024年12月，通过Cursor的"YOLO模式"已能清晰见证模型在长周期编码任务中的卓越表现。
-
-这个新团队创立时便立下"杜绝手工编码"的准则——这在2025年7月堪称激进，但据我观察，截至2026年1月已有大量资深开发者开始采纳这种模式。&lt;a href="https://simonwillison.net/2026/Jan/28/the-five-levels/"&gt;I hinted at&lt;/a&gt; a demo I had seen from a team implementing what Dan Shapiro called &lt;a href="https://www.danshapiro.com/blog/2026/01/the-five-levels-from-spicy-autocomplete-to-the-software-factory/"&gt;the Dark Factory&lt;/a&gt; level of AI adoption, where no human even looks at the code the coding agents are producing. That team was part of StrongDM, and they've just shared the first public description of how they are working in &lt;a href="https://factory.strongdm.ai"&gt;Software Factories and the Agentic Moment&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;We built a &lt;strong&gt;Software Factory&lt;/strong&gt;: non-interactive development where specs + scenarios drive agents that write code, run harnesses, and converge without human review. [...]&lt;/p&gt;
-&lt;p&gt;In kōan or mantra form:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Why am I doing this? (implied: the model should be doing this instead)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In rule form:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Code &lt;strong&gt;must not be&lt;/strong&gt; written by humans&lt;/li&gt;
-&lt;li&gt;Code &lt;strong&gt;must not be&lt;/strong&gt; reviewed by humans&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Finally, in practical form:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;If you haven't spent at least &lt;strong&gt;$1,000 on tokens today&lt;/strong&gt; per human engineer, your software factory has room for improvement&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;I think the most interesting of these, without a doubt, is "Code &lt;strong&gt;must not be&lt;/strong&gt; reviewed by humans". How could that &lt;em&gt;possibly&lt;/em&gt; be a sensible strategy when we all know how prone LLMs are to making &lt;a href="https://simonwillison.net/2025/Mar/2/kellan-elliott-mccrea/"&gt;inhuman mistakes&lt;/a&gt;?&lt;/p&gt;
-&lt;p&gt;I've seen many developers recently acknowledge the &lt;a href="https://simonwillison.net/2026/Jan/4/inflection/"&gt;November 2025 inflection point&lt;/a&gt;, where Claude Opus 4.5 and GPT 5.2 appeared to turn the corner on how reliably a coding agent could follow instructions and take on complex coding tasks. StrongDM's AI team was founded in July 2025 based on an earlier inflection point relating to Claude Sonnet 3.5:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The catalyst was a transition observed in late 2024: with the second revision of Claude 3.5 (October 2024), long-horizon agentic coding workflows began to compound correctness rather than error.&lt;/p&gt;
-&lt;p&gt;By December of 2024, the model's long-horizon coding performance was unmistakable via Cursor's &lt;a href="https://forum.cursor.com/t/yolo-mode-is-amazing/36262"&gt;YOLO mode&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Their new team started with the rule "no hand-coded software" - radical for July 2025, but something I'm seeing significant numbers of experienced developers start to adopt as of January 2026.&lt;/p&gt;
-&lt;p&gt;他们很快遇到了一个显而易见的问题：如果不亲手编写任何代码，如何确保代码真正有效？让智能体编写测试只能在不作弊的前提下提供帮助。
-
-这或许是当前软件开发中最关键的问题：当代码实现和测试用例都由编程智能体代劳时，如何证明你正在开发的软件确实能正常运行？
-
-StrongDM的解决方案灵感来源于场景测试理论。他们这样描述其方法：
-
-我们重新定义了"场景"一词，用它来代表端到端的"用户故事"。这些场景通常存储在代码库之外，类似于模型训练中的"保留集"，能够被大语言模型直观理解并进行灵活验证。
-
-由于我们开发的软件本身具有智能体特性，我们将成功标准从布尔判定转变为概率化实证评估。我们使用"满意度"来量化验证结果：在所有场景观察到的运行轨迹中，有多少比例可能满足用户需求？
-
-将场景视为保留集——用于评估软件却不让编程智能体接触——这个构想令人着迷。它模拟了外部质量保证团队进行的严格测试，这种传统软件质量保障方式虽然成本高昂却极为有效。
-
-这引出了StrongDM的"数字孪生宇宙"概念，也是演示中最令我印象深刻的部分。
-
-他们正在开发的软件用于管理跨平台服务的用户权限。这本身就值得关注——安全软件本应是最不可能使用未经审查的大语言模型代码构建的领域！
-
-数字孪生宇宙是我们软件所依赖第三方服务的行为克隆体。我们构建了Okta、Jira、Slack、Google文档、Google云端硬盘和Google表格的数字孪生，完整复现了它们的应用程序接口、边界情况和可观测行为。&lt;code&gt;assert true&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;This feels like the most consequential question in software development right now: how can you &lt;a href="https://simonwillison.net/2025/Dec/18/code-proven-to-work/"&gt;prove that software you are producing works&lt;/a&gt; if both the implementation and the tests are being written for you by coding agents?&lt;/p&gt;
-&lt;p&gt;StrongDM's answer was inspired by &lt;a href="https://en.wikipedia.org/wiki/Scenario_testing"&gt;Scenario testing&lt;/a&gt; (Cem Kaner, 2003). As StrongDM describe it:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;We repurposed the word &lt;strong&gt;scenario&lt;/strong&gt; to represent an end-to-end "user story", often stored outside the codebase (similar to a "holdout" set in model training), which could be intuitively understood and flexibly validated by an LLM.&lt;/p&gt;
-&lt;p&gt;Because much of the software we grow itself has an agentic component, we transitioned from boolean definitions of success ("the test suite is green") to a probabilistic and empirical one. We use the term &lt;strong&gt;satisfaction&lt;/strong&gt; to quantify this validation: of all the observed trajectories through all the scenarios, what fraction of them likely satisfy the user?&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;That idea of treating scenarios as holdout sets - used to evaluate the software but not stored where the coding agents can see them - is &lt;em&gt;fascinating&lt;/em&gt;. It imitates aggressive testing by an external QA team - an expensive but highly effective way of ensuring quality in traditional software.&lt;/p&gt;
-&lt;p&gt;Which leads us to StrongDM's concept of a &lt;strong&gt;Digital Twin Universe&lt;/strong&gt; - the part of the demo I saw that made the strongest impression on me.&lt;/p&gt;
-&lt;p&gt;The software they were building helped manage user permissions across a suite of connected services. This in itself was notable - security software is the last thing you would expect to be built using unreviewed LLM code!&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;[The Digital Twin Universe is] behavioral clones of the third-party services our software depends on. We built twins of Okta, Jira, Slack, Google Docs, Google Drive, and Google Sheets, replicating their APIs, edge cases, and observable behaviors.&lt;/p&gt;
-&lt;p&gt;借助DTU，我们能够以远超生产限制的规模和速率进行验证。我们可以测试那些针对真实服务既危险又无法实施的故障模式。每小时运行数千个场景，既不会触及速率限制、触发滥用检测，也不会累积API成本。
-
-如何克隆Okta、Jira、Slack等系统的核心部分？答案是：借助编码智能体！
-
-据我理解，其诀窍在于将某个服务的完整公开API文档导入智能体框架，让它构建一个自包含的Go二进制文件来模拟该API。随后还能在此基础上构建简化版用户界面，以完善整个模拟系统。
-
-最新动态：DTU创建者Jay Taylor在Hacker News上分享了更多背景信息，并透露了一项关键提示策略：
-
-"我最初获得了一个关键洞见，由此形成了一套可复现的策略，确保DTU与官方标准SaaS服务之间保持高度保真度。"
-
-通过建立独立于原服务的克隆系统——摆脱速率限制和使用配额——他们的模拟测试大军得以展开无拘无束的测试。场景测试脚本成为智能体持续验证新建系统的行动指南。
-
-这张Slack孪生系统的截图生动展示了测试流程：模拟Okta用户流即将接入不同模拟系统的实时画面。
-
-快速构建Slack核心功能克隆体的能力，充分展现了新一代编码智能体工具的颠覆性潜力：
-
-创建高保真度的重量级SaaS应用克隆体在技术上始终可行，但经济层面从未具备可行性。历代工程师或许都曾渴望建立完整的CRM内存副本用于测试，却始终自我否定了构建提案。
-
-他们的技术文档页面同样值得关注。除了数字孪生宇宙概念，还引入了"基因输注"等创新术语。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;How do you clone the important parts of Okta, Jira, Slack and more? With coding agents!&lt;/p&gt;
-&lt;p&gt;As I understood it the trick was effectively to dump the full public API documentation of one of those services into their agent harness and have it build an imitation of that API, as a self-contained Go binary. They could then have it build a simplified UI over the top to help complete the simulation.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: DTU creator Jay Taylor posted some extra context about this &lt;a href="https://news.ycombinator.com/item?id=46924426#46931812"&gt;on Hacker News&lt;/a&gt; sharing a key prompting strategy:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;I did have an initial key insight which led to a repeatable strategy to ensure a high level of fidelity between DTU vs. the official canonical SaaS services:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Use the top popular publicly available reference SDK client libraries as compatibility targets, with the goal always being 100% compatibility.&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;With their own, independent clones of those services - free from rate-limits or usage quotas - their army of simulated testers could go &lt;em&gt;wild&lt;/em&gt;. Their scenario tests became scripts for agents to constantly execute against the new systems as they were being built.&lt;/p&gt;
-&lt;p&gt;This screenshot of their Slack twin also helps illustrate how the testing process works, showing a stream of simulated Okta users who are about to need access to different simulated systems.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Screenshot of a Slack-like interface titled &amp;quot;DTU Slack&amp;quot; showing a thread view (Thread — C4B9FBB97) with &amp;quot;Focus first&amp;quot; and &amp;quot;Leave&amp;quot; buttons. The left sidebar lists channels including # org-general (182), # general (0) (shared×2), # it-support (0), # channel-0002 (0) (shared×2), # channel-0003 (0) through # channel-0020 (0), # org-finance (1), and a DMs section with a &amp;quot;Start&amp;quot; button. A &amp;quot;Create&amp;quot; button appears at the top of the sidebar. The main thread shows approximately 9 automated introduction messages from users with Okta IDs (e.g. @okta-u-423438-00001, @okta-u-423438-00002, etc.), all timestamped 2025-11-12Z between 18:50:31 and 18:51:51. Each message follows the format &amp;quot;Hi team! I'm [Name], joining as Employee in general. Key skills: [fictional skill phrases]. Excited to contribute!&amp;quot; All users have red/orange &amp;quot;O&amp;quot; avatar icons." src="https://static.simonwillison.net/static/2026/strong-dm-slack.jpg"/&gt;&lt;/p&gt;
-&lt;p&gt;This ability to quickly spin up a useful clone of a subset of Slack helps demonstrate how disruptive this new generation of coding agent tools can be:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Creating a high fidelity clone of a significant SaaS application was always possible, but never economically feasible. Generations of engineers may have &lt;em&gt;wanted&lt;/em&gt; a full in-memory replica of their CRM to test against, but self-censored the proposal to build it.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;The &lt;a href="https://factory.strongdm.ai/techniques"&gt;techniques page&lt;/a&gt; is worth a look too. In addition to the Digital Twin Universe they introduce terms like &lt;strong&gt;&lt;a href="https://factory.strongdm.ai/techniques/gene-transfusion"&gt;Gene Transfusion&lt;/a&gt;&lt;/strong&gt;让智能体从现有系统中提取模式并在其他地方复用，  
-**Semports**  
-用于直接将代码从一种语言移植到另一种语言，  
-**Pyramid Summaries**  
-提供多层级摘要，使智能体能快速浏览简短版本，并在需要时深入查看更详细信息。  
-
-StrongDM AI 还以非传统的方式发布了一些软件。  
-**github.com/strongdm/attractor**  
-是 **Attractor**，他们软件工厂的核心非交互式编码智能体。但这个仓库本身没有任何代码——只有三个 Markdown 文件，详细描述了软件规范，并在 README 中注明：你应该将这些规范输入你选择的编码智能体！  
-
-**github.com/strongdm/cxdb**  
-则是一个更传统的发布，包含 16,000 行 Rust 代码、9,500 行 Go 代码和 6,700 行 TypeScript 代码。这是他们的“AI 上下文存储”——一个用于在不可变有向无环图中存储对话历史和工具输出的系统。  
-它类似于我的 LLM 工具的 **SQLite 日志机制**，但复杂得多。我可能需要从中汲取一些灵感！  
-
-**未来的缩影？**  
-去年十月，我作为受邀嘉宾之一拜访了 StrongDM AI 团队。  
-Justin McCarthy、Jay Taylor 和 Navan Chauhan 三人团队仅成立三个月，就已经展示了他们的编码智能体框架、多个服务的数字孪生克隆，以及模拟测试智能体运行场景的演示。而这些演示是在 Opus 4.5/GPT 5.2 发布之前进行的——一个月后，这些版本使智能体编码的可靠性显著提升。  
-这仿佛瞥见了软件开发的一种潜在未来：软件工程师从编写代码转向构建并半监控那些生成代码的系统。  
-**黑暗工厂**。  
-
-等等，每个工程师每天 1,000 美元？&lt;strong&gt;&lt;a href="https://factory.strongdm.ai/techniques/semport"&gt;Semports&lt;/a&gt;&lt;/strong&gt; for directly porting code from one language to another and &lt;strong&gt;&lt;a href="https://factory.strongdm.ai/techniques/pyramid-summaries"&gt;Pyramid Summaries&lt;/a&gt;&lt;/strong&gt; for providing multiple levels of summary such that an agent can enumerate the short ones quickly and zoom in on more detailed information as it is needed.&lt;/p&gt;
-&lt;p&gt;StrongDM AI also released some software - in an appropriately unconventional manner.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/strongdm/attractor"&gt;github.com/strongdm/attractor&lt;/a&gt; is &lt;strong&gt;Attractor&lt;/strong&gt;, the non-interactive coding agent at the heart of their software factory. Except the repo itself contains no code at all - just three markdown files describing the spec for the software in meticulous detail, and a note in the README that you should feed those specs into your coding agent of choice!&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/strongdm/cxdb"&gt;github.com/strongdm/cxdb&lt;/a&gt; is a more traditional release, with 16,000 lines of Rust, 9,500 of Go and 6,700 of TypeScript. This is their "AI Context Store" - a system for storing conversation histories and tool outputs in an immutable DAG.&lt;/p&gt;
-&lt;p&gt;It's similar to my LLM tool's &lt;a href="https://llm.datasette.io/en/stable/logging.html#sql-schema"&gt;SQLite logging mechanism&lt;/a&gt; but a whole lot more sophisticated. I may have to gene transfuse some ideas out of this one!&lt;/p&gt;
-&lt;h4 id="a-glimpse-of-the-future-"&gt;A glimpse of the future?&lt;/h4&gt;
-&lt;p&gt;I visited the StrongDM AI team back in October as part of a small group of invited guests.&lt;/p&gt;
-&lt;p&gt;The three person team of Justin McCarthy, Jay Taylor and Navan Chauhan had formed just three months earlier, and they already had working demos of their coding agent harness, their Digital Twin Universe clones of half a dozen services and a swarm of simulated test agents running through scenarios. And this was prior to the Opus 4.5/GPT 5.2 releases that made agentic coding significantly more reliable a month after those demos.&lt;/p&gt;
-&lt;p&gt;It felt like a glimpse of one potential future of software development, where software engineers move from building the code to building and then semi-monitoring the systems that build the code. The Dark Factory.&lt;/p&gt;
-&lt;h4 id="wait-1-000-day-per-engineer-"&gt;Wait, $1,000/day per engineer?&lt;/h4&gt;
-&lt;p&gt;我在最初发布的版本中略过了这个细节，但它确实值得认真关注。
-
-如果这些模式真的会让你的预算每月为每位工程师增加两万美元，那它们对我的吸引力就大大降低了。到那时，这更像是一种商业模式验证：你能否创造出足够盈利的产品线，来负担以这种方式开发软件所产生的巨大开销？
-
-当任何竞争对手都可能通过几小时的智能体编码工作就克隆出你的最新功能时，构建可持续的软件业务也会呈现出截然不同的面貌。
-
-我希望这些模式能够以低得多的成本投入实践。我个人发现每月200美元的Claude Max套餐为我提供了充足的空间来试验不同的智能体模式，当然我也不是24小时不间断地运行着一群质量保证测试员！
-
-我认为即使对于那些不会在代币成本上花费数千美元的团队和个人来说，StrongDM也有很多值得学习的地方。我特别关注的问题是：如何让智能体证明它们编写的代码有效，而无需逐行审查它们生成的每一行代码。
-
-标签：
-人工智能，
-生成式人工智能，
-大语言模型，
-人工智能辅助编程，
-编码智能体，
-并行智能体&lt;/p&gt;
-&lt;p&gt;If these patterns really do add $20,000/month per engineer to your budget they're far less interesting to me. At that point this becomes more of a business model exercise: can you create a profitable enough line of products that you can afford the enormous overhead of developing software in this way?&lt;/p&gt;
-&lt;p&gt;Building sustainable software businesses also looks very different when any competitor can potentially clone your newest features with a few hours of coding agent work.&lt;/p&gt;
-&lt;p&gt;I hope these patterns can be put into play with a much lower spend. I've personally found the $200/month Claude Max plan gives me plenty of space to experiment with different agent patterns, but I'm also not running a swarm of QA testers 24/7!&lt;/p&gt;
-&lt;p&gt;I think there's a lot to learn from StrongDM even for teams and individuals who aren't going to burn thousands of dollars on token costs. I'm particularly invested in the question of what it takes to have agents prove that their code works without needing to review every line of code they produce.&lt;/p&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/parallel-agents"&gt;parallel-agents&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sat, 07 Feb 2026 15:40:48 +0000</pubDate></item><item><title>引用汤姆·戴尔的话</title><link>https://simonwillison.net/2026/Feb/6/tom-dale/#atom-everything</link><description>&lt;blockquote cite="https://twitter.com/tomdale/status/2019828626972131441"&gt;&lt;p&gt;不知为何这周成了临界点，与我交谈过的几乎每位软件工程师都正经历某种程度的心理健康危机。
-
-[...] 许多人以为我指的是失业焦虑，但这只是表象之一。我目睹着软件从稀缺转向过剩所引发的近乎狂躁的状态。围绕智能体使用的强迫性行为。面对变革时间压缩产生的解离性惊愕。这不一定是恐惧，而是在历史拐点中生存所承受的认知超载。
-
-——
-汤姆·戴尔
-
-标签：
-人工智能伦理，
-职业生涯，
-编程智能体，
-生成式人工智能，
-人工智能，
-大语言模型&lt;/p&gt;
-&lt;p&gt;[...] Many people assuming I meant job loss anxiety but that's just one presentation. I'm seeing near-manic episodes triggered by watching software shift from scarce to abundant. Compulsive behaviors around agent usage. Dissociative awe at the temporal compression of change. It's not fear necessarily just the cognitive overload from living in an inflection point.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class="cite"&gt;— &lt;a href="https://twitter.com/tomdale/status/2019828626972131441"&gt;Tom Dale&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;ai-ethics&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/careers"&gt;careers&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 06 Feb 2026 23:41:31 +0000</pubDate></item></channel></rss>
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sat, 07 Feb 2026 21:31:44 +0000</pubDate></item></channel></rss>
