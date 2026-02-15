@@ -6,7 +6,7 @@
  &lt;h1&gt;
  &lt;span class="cf-error-type"&gt;错误&lt;/span&gt;
  &lt;span class="cf-error-code"&gt;1102&lt;/span&gt;
- &lt;small class="heading-ray-id"&gt;Ray ID: 9ce12a032edaf2e9-IAD • 2026-02-15 01:52:08 UTC&lt;/small&gt;
+ &lt;small class="heading-ray-id"&gt;Ray ID: 9ce2d7d09cf982a4-IAD • 2026-02-15 06:45:32 UTC&lt;/small&gt;
  &lt;/h1&gt;
  &lt;h2 class="cf-subheadline"&gt;Worker超出资源限制&lt;/h2&gt;
  &lt;/div&gt;
@@ -17,11 +17,11 @@
  &lt;div class="cf-columns two"&gt;
  &lt;div class="cf-column"&gt;
  &lt;h2&gt;发生了什么？&lt;/h2&gt;
- &lt;p&gt;您请求访问一个位于&lt;a href="https://www.cloudflare.com/5xx-error-landing?utm_source=error_100x" target="_blank"&gt;Cloudflare&lt;/a&gt;网络上的网站（kau.sh）。在渲染页面时发生了未知错误。&lt;/p&gt;
+ &lt;p&gt;您请求访问位于&lt;a href="https://www.cloudflare.com/5xx-error-landing?utm_source=error_100x" target="_blank"&gt;Cloudflare&lt;/a&gt;网络上的网站（kau.sh）的某个页面。在渲染页面时发生了未知错误。&lt;/p&gt;
  &lt;/div&gt;
 
  &lt;div class="cf-column"&gt;
- &lt;h2&gt;我该怎么办？&lt;/h2&gt;
+ &lt;h2&gt;我能做什么？&lt;/h2&gt;
  &lt;p&gt;&lt;strong&gt;如果您是该网站的所有者：&lt;/strong&gt;&lt;br /&gt;请参考&lt;a href="https://developers.cloudflare.com/workers/observability/errors/" target="_blank"&gt;Workers - 错误与异常&lt;/a&gt;并检查kau.sh的Workers日志。&lt;/p&gt;
  &lt;/div&gt;
 
@@ -30,12 +30,12 @@
 
  &lt;div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300"&gt;
  &lt;p class="text-13"&gt;
- &lt;span class="cf-footer-item sm:block sm:mb-1"&gt;Cloudflare Ray ID: &lt;strong class="font-semibold"&gt;9ce12a032edaf2e9-IAD&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class="cf-footer-item sm:block sm:mb-1"&gt;Cloudflare Ray ID: &lt;strong class="font-semibold"&gt;9ce2d7d09cf982a4-IAD&lt;/strong&gt;&lt;/span&gt;
  &lt;span class="cf-footer-separator sm:hidden"&gt;•&lt;/span&gt;
  &lt;span class="cf-footer-item hidden sm:block sm:mb-1" id="cf-footer-item-ip"&gt;
- 您的IP：
+ 您的IP:
  &lt;button class="cf-footer-ip-reveal-btn" id="cf-footer-ip-reveal" type="button"&gt;点击显示&lt;/button&gt;
- &lt;span class="hidden" id="cf-footer-ip"&gt;172.203.30.208&lt;/span&gt;
+ &lt;span class="hidden" id="cf-footer-ip"&gt;172.190.93.128&lt;/span&gt;
  &lt;span class="cf-footer-separator sm:hidden"&gt;•&lt;/span&gt;
  &lt;/span&gt;
  &lt;span class="cf-footer-item sm:block sm:mb-1"&gt;&lt;span&gt;性能与安全由&lt;/span&gt; &lt;a href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" rel="noopener noreferrer" target="_blank"&gt;Cloudflare&lt;/a&gt;提供&lt;/span&gt;
@@ -45,4 +45,4 @@
  &lt;/div&gt;
 
  &lt;/div&gt;
- &lt;/div&gt;</description><language>zh-CN</language><lastBuildDate>Sun, 15 Feb 2026 01:52:21 +0000</lastBuildDate></channel></rss>
+ &lt;/div&gt;</description><language>zh-CN</language><lastBuildDate>Sun, 15 Feb 2026 06:45:46 +0000</lastBuildDate></channel></rss>
