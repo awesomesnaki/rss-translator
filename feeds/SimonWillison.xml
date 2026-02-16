@@ -1,17 +1,131 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Sun, 15 Feb 2026 17:23:28 +0000</lastBuildDate><item><title>三个月之久的OpenClaw</title><link>https://simonwillison.net/2026/Feb/15/openclaw/#atom-everything</link><description>&lt;p&gt;OpenClaw的首个提交日期居然是2025年11月25日，更惊人的是不到三个月就达成了1万次提交、汇聚600名贡献者、收获19.6万GitHub星标，甚至还在AI.com那支语焉不详的超级碗广告里露了脸。
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Sun, 15 Feb 2026 23:59:36 +0000</lastBuildDate><item><title>AI吸血鬼</title><link>https://simonwillison.net/2026/Feb/15/the-ai-vampire/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163"&gt;AI吸血鬼&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;史蒂夫·叶格关于智能体疲劳及其与职业倦怠关系的见解。
+&lt;blockquote&gt;
+&lt;p&gt;假设你是公司里唯一使用AI的人。&lt;/p&gt;
+&lt;p&gt;在情境A中，你决定让雇主刮目相看，每天以10倍生产力工作8小时。你大获成功，却让其他同事相形见绌。&lt;/p&gt;
+&lt;p&gt;这种情况下，雇主将完全占有&lt;em&gt;你&lt;/em&gt;运用AI创造的价值。你一无所获，至少不可能获得9倍薪资。现在所有人都讨厌你。&lt;/p&gt;
+&lt;p&gt;而你&lt;em&gt;精疲力竭。&lt;/em&gt;老板，你累垮了。却什么也没得到。&lt;/p&gt;
+&lt;p&gt;恭喜，你刚被公司榨干了。我的职业生涯中多次被榨干到倦怠，在谷歌也经历过一两次。但如今有了AI，这种压榨变得如此轻松。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;史蒂夫指出，由于智能体工程带来的认知负担，他需要更多睡眠，并认为每天四小时才是可持续的智能体工作节奏：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我曾提出，AI通过自动化简单工作，将我们都变成了杰夫·贝索斯——只剩下困难决策、总结归纳和问题解决。我发现即使经过大量练习，每天也只能承受这种强度工作几小时，最多偶尔一天两次。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;small&gt;&lt;/small&gt;经由&lt;a href="https://cosocial.ca/@timbray/116076167774984883"&gt;蒂姆·布雷&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/steve-yegge"&gt;史蒂夫-叶格&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;AI辅助编程&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;AI伦理&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/coding-agents"&gt;编程智能体&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sun, 15 Feb 2026 23:59:36 +0000</pubDate></item><item><title>破折号</title><link>https://simonwillison.net/2026/Feb/15/em-dashes/#atom-everything</link><description>&lt;p&gt;偶尔有人指责我用大语言模型来写博客内容。我并没有那么做，而且我觉得自己的文风也不太有大语言模型的味道……不过有个明显的例外：&lt;/p&gt;
+&lt;pre&gt;    &lt;span class="pl-c"&gt;# 终于，处理全角破折号&lt;/span&gt;
+    &lt;span class="pl-s1"&gt;s&lt;/span&gt; &lt;span class="pl-c1"&gt;=&lt;/span&gt; &lt;span class="pl-s1"&gt;s&lt;/span&gt;.&lt;span class="pl-c1"&gt;替换&lt;/span&gt;(&lt;span class="pl-s"&gt;' - '&lt;/span&gt;, &lt;span class="pl-s"&gt;u'&lt;span class="pl-cce"&gt;\u2014&lt;/span&gt;'&lt;/span&gt;)&lt;/pre&gt;
+&lt;p&gt;这段给文章添加全角破折号的代码可以追溯到&lt;a href="https://github.com/simonw/simonwillisonblog/blob/e6d0327b37debdf820b5cfef4fb7d09a9624cea9/blog/templatetags/entry_tags.py#L145-L146"&gt;至少2015年&lt;/a&gt;当时我把博客从旧版Django（在一个早已消失的Mercurial仓库里）迁移出来，在GitHub上重新开始。&lt;/p&gt;
+&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/typography"&gt;字体排印&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/blogging"&gt;博客写作&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/python"&gt;Python&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sun, 15 Feb 2026 21:40:46 +0000</pubDate></item><item><title>深蓝</title><link>https://simonwillison.net/2026/Feb/15/deep-blue/#atom-everything</link><description>&lt;p&gt;上个月我们在Oxide and Friends播客节目中创造了一个新术语（主要归功于亚当·莱文塔尔），用来描述许多软件开发者因生成式AI侵入其工作领域而产生的心理倦怠感，这种倦怠感正逐渐演变为生存焦虑。我们将其命名为"深蓝忧郁"。你可以在该期节目第47分15秒处听到这个术语的诞生过程，下方附有文字记录。
 
-引用这位斥资7000万美元买下史上最贵域名、AI.com创始人Kris Marszalek的说法："ai.com是全球首个易用且安全的OpenClaw实施方案——这个开源智能体框架两周前刚席卷全网；我们让零技术基础的用户也能轻松使用，同时强化安全防护保障数据隐私。"
+深蓝忧郁是一个真实存在的问题。成为专业软件工程师并非易事，要达到能靠编写软件谋生的水平需要多年潜心钻研。其回报也相当可观：这是一个高薪职业，能带来大量优质机会。同时，这个职业基本没有门槛限制和昂贵的先决条件——无需昂贵的学位或认证，只需一台笔记本电脑、网络连接以及充足的时间与好奇心即可入门。更重要的是，这个行业奖励"极客精神"：青少年时期沉迷电脑捣鼓的经历，最终被证明是对未来的明智投资。
 
-虽然目前看来像画饼——现在只能预约注册用户名——但一个开源项目能在如此短时间内引发这般狂热，确实令人侧目。
+而这一切可能被聊天机器人夺走的想法，实在令人深感不安。在我常驻的多数网络社区中，我都观察到深蓝忧郁的迹象。甚至有同行指责我，认为我通过帮助人们理解AI辅助编程的强大能力，实际上正在损害他们未来的职业前景。我认为这个问题正给我们社区的许多人造成真实的精神痛苦，为它命名能让我们更顺畅地展开相关讨论。
 
-标签：智能体、OpenClaw、人工智能、开源、域名交易&lt;a href="https://github.com/openclaw/openclaw/commit/f6dd362d39b8e30bd79ef7560aab9575712ccc11"&gt;on November 25th 2025&lt;/a&gt;, and less than three months later it's hit 10,000 commits from 600 contributors, attracted 196,000 GitHub stars and sort-of been featured in an extremely vague &lt;a href="https://www.youtube.com/watch?v=n7I-D4YXbzg"&gt;Super Bowl commercial for AI.com&lt;/a&gt;.&lt;/p&gt;
+关于深蓝忧郁的个人体验，我清晰记得首次经历是在2023年初，由ChatGPT代码解释器功能触发。我的主要项目Datasette是一个用数据讲述故事的开源工具生态系统。我曾全心投入帮助人们（最初重点关注记者）清理、分析各种形态规模的数据并从中发现意义。&lt;a href="https://simonwillison.net/2026/Jan/8/llm-predictions-for-2026/"&gt;Oxide and Friends podcast&lt;/a&gt; last month (primary credit to Adam Leventhal) covering the sense of psychological ennui leading into existential dread that many software developers are feeling thanks to the encroachment of generative AI into their field of work.&lt;/p&gt;
+&lt;p&gt;We're calling it &lt;strong&gt;Deep Blue&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;You can listen to it being coined in real time &lt;a href="https://www.youtube.com/watch?v=lVDhQMiAbR8&amp;amp;t=2835s"&gt;from 47:15 in the episode&lt;/a&gt;. I've included &lt;a href="https://simonwillison.net/2026/Feb/15/deep-blue/#transcript"&gt;a transcript below&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Deep Blue is a very real issue.&lt;/p&gt;
+&lt;p&gt;Becoming a professional software engineer is &lt;em&gt;hard&lt;/em&gt;. Getting good enough for people to pay you money to write software takes years of dedicated work. The rewards are significant: this is a well compensated career which opens up a lot of great opportunities.&lt;/p&gt;
+&lt;p&gt;It's also a career that's mostly free from gatekeepers and expensive prerequisites. You don't need an expensive degree or accreditation. A laptop, an internet connection and a lot of time and curiosity is enough to get you started.&lt;/p&gt;
+&lt;p&gt;And it rewards the nerds! Spending your teenage years tinkering with computers turned out to be a very smart investment in your future.&lt;/p&gt;
+&lt;p&gt;The idea that this could all be stripped away by a chatbot is &lt;em&gt;deeply&lt;/em&gt; upsetting.&lt;/p&gt;
+&lt;p&gt;I've seen signs of Deep Blue in most of the online communities I spend time in. I've even faced accusations from my peers that I am actively harming their future careers through my work helping people understand how well AI-assisted programming can work.&lt;/p&gt;
+&lt;p&gt;I think this is an issue which is causing genuine mental anguish for a lot of people in our community. Giving it a name makes it easier for us to have conversations about it.&lt;/p&gt;
+&lt;h4 id="my-experiences-of-deep-blue"&gt;My experiences of Deep Blue&lt;/h4&gt;
+&lt;p&gt;I distinctly remember my first experience of Deep Blue. For me it was triggered by ChatGPT Code Interpreter back in early 2023.&lt;/p&gt;
+&lt;p&gt;My primary project is &lt;a href="https://datasette.io/"&gt;Datasette&lt;/a&gt;, an ecosystem of open source tools for telling stories with data. I had dedicated myself to the challenge of helping people (initially focusing on journalists) clean up, analyze and find meaning in data, in all sorts of shapes and sizes.&lt;/p&gt;
+&lt;p&gt;我本以为要为此开发大量软件！这感觉像是一项能让我在未来许多年都乐在其中的挑战。  
+
+然后我试着上传了一份旧金山警察局事件报告的CSV文件——包含数十万行数据——到ChatGPT代码解释器，结果……它仅凭几条指令就完成了我未来几年规划中的所有数据清理和分析工作。  
+
+它甚至将数据转换成一个规范整洁的SQLite数据库，还允许我下载结果！  
+
+我记得当时脑海里同时涌现两种矛盾的想法。  
+
+一方面，作为希望记者能更充分利用数据的人，这感觉像是巨大的突破。想象一下，为全球每位记者配备一位按需分析师，帮助他们解决能想到的任何数据问题！  
+
+但另一方面……我的存在意义又是什么？我对自身项目价值的信心遭受了沉重打击。难道我选择的道路突然成了死胡同？  
+
+就在过去几周，由于Claude Opus 4.5/4.6和GPT-5.2/5.3编码代理的影响，我又经历了几次“深蓝时刻”。正如许多人观察到的，最新一代编码代理在适当指令下，确实能持续工作数分钟到数小时，产出完全符合要求、可运行、有文档记录且经过完整测试的软件。  
+
+“它们写的代码不够好”这种说法已经站不住脚了。  
+
+一段稍作编辑的对话记录  
+
+布莱恩：我认为我们将面临AI引发的倦怠问题，尤其是软件工程师会因AI无所不能而感到迷茫。西蒙，你怎么看？  
+
+西蒙：确实如此。任何密切关注编码代理的人都已经有所体会。某种程度上，当你意识到自己仍然有价值时——尽管记忆编程语言语法的能力已完全无关紧要——这种迷茫感会逐渐消退。&lt;/p&gt;
+&lt;p&gt;Then I tried uploading a CSV file of &lt;a href="https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-2018-to-Present/wg3w-h783/about_data"&gt;San Francisco Police Department Incident Reports&lt;/a&gt; - hundreds of thousands of rows - to ChatGPT Code Interpreter and... it did every piece of data cleanup and analysis I had on my napkin roadmap for the next few years with a couple of prompts.&lt;/p&gt;
+&lt;p&gt;It even converted the data into a neatly normalized SQLite database and let me download the result!&lt;/p&gt;
+&lt;p&gt;I remember having two competing thoughts in parallel.&lt;/p&gt;
+&lt;p&gt;On the one hand, as somebody who wants journalists to be able to do more with data, this felt like a &lt;em&gt;huge&lt;/em&gt; breakthrough. Imagine giving every journalist in the world an on-demand analyst who could help them tackle any data question they could think of!&lt;/p&gt;
+&lt;p&gt;But on the other hand... &lt;em&gt;what was I even for&lt;/em&gt;? My confidence in the value of my own projects took a painful hit. Was the path I'd chosen for myself suddenly a dead end?&lt;/p&gt;
+&lt;p&gt;I've had some further pangs of Deep Blue just in the past few weeks, thanks to the Claude Opus 4.5/4.6 and GPT-5.2/5.3 coding agent effect. As many other people are also observing, the latest generation of coding agents, given the right prompts, really can churn away for a few minutes to several hours and produce working, documented and fully tested software that exactly matches the criteria they were given.&lt;/p&gt;
+&lt;p&gt;"The code they write isn't any good" doesn't really cut it any more.&lt;/p&gt;
+&lt;h4 id="transcript"&gt;A lightly edited transcript&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Bryan&lt;/strong&gt;: I think that we're going to see a real problem with AI induced ennui where software engineers in particular get listless because the AI can do anything. Simon, what do you think about that?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Simon&lt;/strong&gt;: Definitely. Anyone who's paying close attention to coding agents is feeling some of that already. There's an extent where you sort of get over it when you realize that you're still useful, even though your ability to memorize the syntax of program languages is completely irrelevant now.&lt;/p&gt;
+&lt;p&gt;我经常看到很多人陷入存在主义危机，他们非常非常不快乐，因为觉得“我职业生涯都奉献给了学习这个技能，现在它自己就能完成了。那我还有什么用？”我会很乐意尝试说服这些人，他们依然有很多价值，所有积累的经验都没有白费，但从心理层面来说，这对软件工程师确实是个艰难时期。
+
+[...]
+
+布莱恩：好的，我预测我们会给这种现象命名。不管它是什么，我们都会给这种感受、这种——你想称之为忧郁也好，目标感丧失也罢——找到一个名称，并且我们正试图以有组织的方式共同应对这个问题。
+
+亚当：好，现在是你大显身手的时刻。选个名字吧。如果你现在就能说出来，那就像在棒球场上指着看台宣告本垒打一样。你知道，我——就像“深蓝”，你懂的。
+
+布莱恩：是啊，深蓝。我喜欢这个。我喜欢深蓝。深蓝。哦，你是不是给我下套了，你这家伙？你刚刚吹灭了我生日蛋糕上的蜡烛。这根本不是我的高光时刻，分明是你的。不，亚当，这确实很棒。就是“深蓝”。
+
+西蒙：所有国际象棋和围棋选手十年前就经历过这个阶段了，而他们变得更加强大。
+
+结果发现那已经是十几年前的事了：深蓝在1997年击败了加里·卡斯帕罗夫。
+
+标签：定义，职业，人工智能，生成式人工智能，大语言模型，AI辅助编程，氧化物，布莱恩·坎特里尔，AI伦理，编程智能体&lt;/p&gt;
+&lt;p&gt;[...]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bryan&lt;/strong&gt;: Okay, so I'm going to predict that we name that. Whatever that is, we have a name for that kind of feeling and that kind of, whether you want to call it a blueness or a loss of purpose, and that we're kind of trying to address it collectively in a directed way.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Adam&lt;/strong&gt;: Okay, this is your big moment. Pick the name. If you call your shot from here, this is you pointing to the stands. You know, I – Like deep blue, you know.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bryan&lt;/strong&gt;: Yeah, deep blue. I like that. I like deep blue. Deep blue. Oh, did you walk me into that, you bastard? You just blew out the candles on my birthday cake.&lt;/p&gt;
+&lt;p&gt;It wasn't my big moment at all. That was your big moment. No, that is, Adam, that is very good. That is deep blue.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Simon&lt;/strong&gt;: All of the chess players and the Go players went through this a decade ago and they have come out stronger.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Turns out it was more than a decade ago: &lt;a href="https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov"&gt;Deep Blue defeated Garry Kasparov in 1997&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/definitions"&gt;definitions&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/careers"&gt;careers&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/oxide"&gt;oxide&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/bryan-cantrill"&gt;bryan-cantrill&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;ai-ethics&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sun, 15 Feb 2026 21:06:44 +0000</pubDate></item><item><title>Gwtar：一种静态高效的单文件HTML格式</title><link>https://simonwillison.net/2026/Feb/15/gwtar/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://gwern.net/gwtar"&gt;Gwtar：一种静态高效的单文件HTML格式&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;Gwern Branwen和Said Achmiz推出的这个新项目很有意思，它旨在解决将大量资源整合到单个归档HTML文件中，同时确保该文件在浏览器中查看时不会变得不便的问题。
+&lt;p&gt;它使用的关键技巧是在页面加载早期触发&lt;a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/stop"&gt;window.stop()&lt;/a&gt;，以防止浏览器下载整个文件，然后在该调用之后跟随内联的未压缩tar内容。&lt;/p&gt;
+&lt;p&gt;之后，当页面需要时，它可以通过HTTP范围请求从tar数据中按需获取内容。&lt;/p&gt;
+&lt;p&gt;已加载的JavaScript会重写资源URL，使其指向&lt;code&gt;https://localhost/&lt;/code&gt;纯粹是为了让它们加载失败。然后它使用一个&lt;a href="https://developer.mozilla.org/en-US/docs/Web/API/PerformanceObserver"&gt;PerformanceObserver&lt;/a&gt;来捕获这些尝试加载的操作：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;let perfObserver = new PerformanceObserver((entryList, observer) =&amp;gt; {
+    resourceURLStringsHandler(entryList.getEntries().map(entry =&amp;gt; entry.name));
+});
+perfObserver.observe({ entryTypes: [ "resource" ] });
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;该&lt;code&gt;resourceURLStringsHandler&lt;/code&gt;回调函数会查找资源是否已加载，如果没有，则通过HTTP范围请求获取，然后使用一个&lt;code&gt;blob:&lt;/code&gt;URL&lt;/p&gt;
+&lt;p&gt;将资源插入到正确的位置。&lt;code&gt;window.stop()&lt;/code&gt;如果你查看源代码，文档的&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Screenshot of a macOS terminal window titled &amp;quot;gw — more big.html — 123×46&amp;quot; showing the source code of a gwtar (self-extracting HTML archive) file. The visible code includes JavaScript with requestIdleCallback(getMainPageHTML);, a &amp;lt;noscript&amp;gt; block with warnings: a &amp;quot;js-disabled-warning&amp;quot; stating &amp;quot;This HTML page requires JavaScript to be enabled to render, as it is a self-extracting gwtar HTML file,&amp;quot; a description of gwtar as &amp;quot;a portable self-contained standalone HTML file which is designed to nevertheless support efficient lazy loading of all assets such as large media files,&amp;quot; with a link to https://gwern.net/gwtar, a &amp;quot;local-file-warning&amp;quot; with a shell command perl -ne'print $_ if $x; $x=1 if /&amp;lt;!-- GWTAR END/' &amp;amp;lt; foo.gwtar.html | tar --extract, and a &amp;quot;server-fail-warning&amp;quot; about misconfigured servers. Below the HTML closing tags and &amp;lt;!-- GWTAR END comment is binary tar archive data with the filename 2010-02-brianmoriarty-thesecretofpsalm46.html, showing null-padded tar header fields including ustar^@00root and octal size/permission values. At the bottom, a SingleFile metadata comment shows url: https://web.archive.org/web/20230512001411/http://ludix.com/moriarty/psalm46.html and saved date: Sat Jan 17 2026 19:26:49 GMT-0800 (Pacific Standard Time)." src="https://static.simonwillison.net/static/2026/gwtar.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;部分看起来是这样的：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;有趣的是，作为一种归档格式，如果你直接在本地计算机上打开文件，它实际上无法工作。如果你尝试这样做，你会看到以下内容：&lt;code&gt;gwtar&lt;/code&gt;你看到这条消息，而不是你应该看到的页面，是因为&lt;strong&gt;文件&lt;/strong&gt;无法在本地打开&lt;/p&gt;
+&lt;p&gt;（由于Web浏览器的安全限制）。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;perl -ne'print $_ if $x; $x=1 if /&amp;lt;!-- GWTAR END/' &amp;lt; foo.gwtar.html | tar --extract&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;要在你的计算机上打开此页面，请使用以下shell命令：&lt;code&gt;foo.html&lt;/code&gt;然后在任何Web浏览器中打开文件&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;small&gt;&lt;/small&gt;。&lt;a href="https://news.ycombinator.com/item?id=47024506"&gt;通过&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Hacker News&lt;a href="https://simonwillison.net/tags/archiving"&gt;标签：&lt;/a&gt;归档&lt;a href="https://simonwillison.net/tags/html"&gt;、&lt;/a&gt;html&lt;a href="https://simonwillison.net/tags/javascript"&gt;、&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sun, 15 Feb 2026 18:26:08 +0000</pubDate></item><item><title>三个月之久的OpenClaw</title><link>https://simonwillison.net/2026/Feb/15/openclaw/#atom-everything</link><description>&lt;p&gt;OpenClaw的首个提交日期是2025年11月25日，而不到三个月后，它已经获得了600名贡献者的10,000次提交，吸引了196,000个GitHub星标，甚至在一个极其模糊的超级碗AI.com广告中有所提及。
+
+引用AI.com创始人Kris Marszalek的话，他以7000万美元购买了史上最昂贵的域名："ai.com是世界上首个易于使用且安全的OpenClaw实现，这个开源智能体框架两周前迅速走红；我们使其无需任何技术技能即可轻松使用，同时加强了安全性以保护您的数据。"
+
+在我看来，这似乎只是个空壳产品——目前你只能预订一个用户名——但看到一个开源项目在如此短的时间内达到如此高的热度，仍然令人瞩目。
+
+更新：OpenClaw的创建者Peter Steinberger刚刚宣布，他将加入OpenAI，并计划将OpenClaw的所有权转移给一个新的独立基金会。
+
+标签：ai-agents, openclaw, ai, open-source, domains, openai, peter-steinberger&lt;a href="https://github.com/openclaw/openclaw/commit/f6dd362d39b8e30bd79ef7560aab9575712ccc11"&gt;on November 25th 2025&lt;/a&gt;, and less than three months later it's hit 10,000 commits from 600 contributors, attracted 196,000 GitHub stars and sort-of been featured in an extremely vague &lt;a href="https://www.youtube.com/watch?v=n7I-D4YXbzg"&gt;Super Bowl commercial for AI.com&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Quoting AI.com founder &lt;a href="https://twitter.com/kris/status/2020663711015514399"&gt;Kris Marszalek&lt;/a&gt;, purchaser of the &lt;a href="https://www.theregister.com/2026/02/09/70m_aicom_domain_sale/"&gt;most expensive domain in history&lt;/a&gt; for $70m:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;ai.com is the world’s first easy-to-use and secure implementation of OpenClaw, the open source agent framework that went viral two weeks ago; we made it easy to use without any technical skills, while hardening security to keep your data safe.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Looks like vaporware to me - all you can do right now is reserve a handle - but it's still remarkable to see an open source project get to &lt;em&gt;that&lt;/em&gt; level of hype in such a short space of time.&lt;/p&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/ai-agents"&gt;ai-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/openclaw"&gt;openclaw&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/open-source"&gt;open-source&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/domains"&gt;domains&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sun, 15 Feb 2026 17:23:28 +0000</pubDate></item><item><title>引用埃里克·迈耶</title><link>https://simonwillison.net/2026/Feb/15/eric-meyer/#atom-everything</link><description>&lt;blockquote cite="https://mastodon.social/@Meyerweb/116065151451468199"&gt;&lt;p&gt;又看到有人抱怨“CSS臃肿不堪”，我心想：老兄啊，我的浏览器同好。它正竭尽全力用人类可读的文本格式，去表达视觉呈现、布局设计、字体排印、动画效果、数字交互等领域的完整体系。这不是臃肿，而是了不起的雄心。它的疆域广阔到超乎多数人的理解。请给予它应有的尊重。
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: OpenClaw creator Peter Steinberger &lt;a href="https://steipete.me/posts/2026/openclaw"&gt;just announced&lt;/a&gt; that he's joining OpenAI and plans to transfer ownership of OpenClaw to a new independent foundation.&lt;/p&gt;
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/ai-agents"&gt;ai-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/openclaw"&gt;openclaw&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/open-source"&gt;open-source&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/domains"&gt;domains&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/openai"&gt;openai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/peter-steinberger"&gt;peter-steinberger&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sun, 15 Feb 2026 17:23:28 +0000</pubDate></item><item><title>引用埃里克·迈耶</title><link>https://simonwillison.net/2026/Feb/15/eric-meyer/#atom-everything</link><description>&lt;blockquote cite="https://mastodon.social/@Meyerweb/116065151451468199"&gt;&lt;p&gt;又看到有人抱怨“CSS臃肿不堪”，我心想：老兄啊，我的浏览器同好。它正竭尽全力用人类可读的文本格式，去表达视觉呈现、布局设计、字体排印、动画效果、数字交互等领域的完整体系。这不是臃肿，而是了不起的雄心。它的疆域广阔到超乎多数人的理解。请给予它应有的尊重。
 
 ——埃里克·迈耶  
 标签：css, web-standards, eric-meyer&lt;em&gt;respect&lt;/em&gt; on its &lt;em&gt;name&lt;/em&gt;.&lt;/p&gt;&lt;/blockquote&gt;
@@ -240,359 +354,4 @@ One of the sub-threads of the AI energy usage discourse has been the impact new 
 &lt;p&gt;&lt;code&gt;Use the OpenAI API key you have in your environment variables&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;Use showboat to build up a detailed demo of this, replaying the examples from the documents and then trying some experiments of your own&lt;/code&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/openai"&gt;openai&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;AI辅助编程&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/skills"&gt;技能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/showboat"&gt;showboat&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 11 Feb 2026 19:19:22 +0000</pubDate></item><item><title>GLM-5：从氛围编程到智能体工程</title><link>https://simonwillison.net/2026/Feb/11/glm-5/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://z.ai/blog/glm-5"&gt;GLM-5：从氛围编程到智能体工程&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;这是一个&lt;em&gt;庞大的&lt;/em&gt;全新MIT许可模型：7540亿参数，&lt;a href="https://huggingface.co/zai-org/GLM-5"&gt;在Hugging Face上占用1.51TB空间&lt;/a&gt;规模达到&lt;a href="https://huggingface.co/zai-org/GLM-4.7"&gt;GLM-4.7&lt;/a&gt;的两倍（后者为3680亿参数/717GB，4.5和4.6版本也接近该规模）。
-&lt;p&gt;有趣的是Z.ai对使用大语言模型构建系统的专业软件工程师提出了命名主张——近期我在多个场合看到“智能体工程”这个表述，最引人注目的&lt;a href="https://twitter.com/karpathy/status/2019137879310836075"&gt;来自安德烈·卡帕西&lt;/a&gt;和&lt;a href="https://addyosmani.com/blog/agentic-engineering/"&gt;艾迪·奥斯马尼&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;我通过&lt;a href="https://openrouter.ai/"&gt;OpenRouter&lt;/a&gt;向GLM-5输入“生成鹈鹕骑自行车的SVG图像”提示词，得到的结果是&lt;a href="https://gist.github.com/simonw/cc4ca7815ae82562e89a9fdd99f0725d"&gt;一只精美的鹈鹕搭配着令人失望的自行车骨架&lt;/a&gt;：&lt;/p&gt;
-&lt;p&gt;&lt;img alt="The pelican is good and has a well defined beak. The bicycle frame is a wonky red triangle. Nice sun and motion lines." src="https://static.simonwillison.net/static/2026/glm-5-pelican.png"/&gt;
-&lt;p&gt;&lt;small&gt;&lt;/small&gt;来源：&lt;a href="https://news.ycombinator.com/item?id=46977210"&gt;黑客新闻&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/definitions"&gt;定义&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;AI辅助编程&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/pelican-riding-a-bicycle"&gt;鹈鹕骑自行车&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llm-release"&gt;大语言模型发布&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/vibe-coding"&gt;氛围编程&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/openrouter"&gt;OpenRouter&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai-in-china"&gt;中国人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/glm"&gt;GLM&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Wed, 11 Feb 2026 18:56:14 +0000</pubDate></item><item><title>cysqlite - 一款新的SQLite驱动程序</title><link>https://simonwillison.net/2026/Feb/11/cysqlite/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://charlesleifer.com/blog/cysqlite---a-new-sqlite-driver/"&gt;cysqlite - 一款全新的SQLite驱动
-
-查尔斯·莱弗自2018年以来，一直维护着pysqlite3——这是Python标准库模块的分支版本，能显著简化升级SQLite版本的操作流程。
-
-与此同时，他几乎花费同等时间从头开发了基于Cython的重构版本cysqlite，如今终于进入可供用户试用的阶段。
-
-相较于原模块最显著的变革在于事务处理机制。查尔斯详尽阐述了他对原实现方案的不满——该库提供的两种变体均未能精确匹配SQLite自身的自动提交机制。
-
-特别令人振奋的是对自定义虚拟表的支持，这项我期待已久的功能终于得以实现。
-
-该模块提供由C语言编译的Python扩展，这意味着通常无法在Pyodide环境中使用。我通过Claude Code工具（这是构建提示）成功创建了cysqlite-0.1.4-cp311-cp311-emscripten_3_1_46_wasm32.whl——这个688KB的wheel文件包含库的WASM构建版本，可通过以下方式加载到Pyodide：
-
-import micropip
-await micropip.install("https://simonw.github.io/research/cysqlite-wasm-wheel/cysqlite-0.1.4-cp311-cp311-emscripten_3_1_46_wasm32.whl")
-import cysqlite
-print(cysqlite.connect(":memory:").execute("select sqlite_version()").fetchone())
-
-（我还了解到此类wheel文件必须针对Pyodide版本使用的emscripten进行专门构建——我的实验性wheel可在Pyodide 0.25.1中加载，但在0.27.5版本中会因错误而失败。）
-
-您可以在全新搭建的Pyodide REPL中试用我的wheel文件，这是我为移动设备优化的Pyodide托管控制台替代方案。
-
-我还通过Claude构建了这个演示页面，可在浏览器中执行原始测试套件并展示结果：
-
-来源：lobste.rs
-标签：python, sqlite, charles-leifer, webassembly, pyodide, ai-assisted-programming, claude-code&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-Charles Leifer has been maintaining &lt;a href="https://github.com/coleifer/pysqlite3"&gt;pysqlite3&lt;/a&gt; - a fork of the Python standard library's &lt;code&gt;sqlite3&lt;/code&gt; module that makes it much easier to run upgraded SQLite versions - since 2018.
-&lt;p&gt;He's been working on a ground-up &lt;a href="https://cython.org/"&gt;Cython&lt;/a&gt; rewrite called &lt;a href="https://github.com/coleifer/cysqlite"&gt;cysqlite&lt;/a&gt; for almost as long, but it's finally at a stage where it's ready for people to try out.&lt;/p&gt;
-&lt;p&gt;The biggest change from the &lt;code&gt;sqlite3&lt;/code&gt; module involves transactions. Charles explains his discomfort with the &lt;code&gt;sqlite3&lt;/code&gt; implementation at length - that library provides two different variants neither of which exactly match the autocommit mechanism in SQLite itself.&lt;/p&gt;
-&lt;p&gt;I'm particularly excited about the support for &lt;a href="https://cysqlite.readthedocs.io/en/latest/api.html#tablefunction"&gt;custom virtual tables&lt;/a&gt;, a feature I'd love to see in &lt;code&gt;sqlite3&lt;/code&gt; itself.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;cysqlite&lt;/code&gt; provides a Python extension compiled from C, which means it normally wouldn't be available in Pyodide. I &lt;a href="https://github.com/simonw/research/tree/main/cysqlite-wasm-wheel"&gt;set Claude Code on it&lt;/a&gt; (here's &lt;a href="https://github.com/simonw/research/pull/79#issue-3923792518"&gt;the prompt&lt;/a&gt;) and it built me &lt;a href="https://github.com/simonw/research/blob/main/cysqlite-wasm-wheel/cysqlite-0.1.4-cp311-cp311-emscripten_3_1_46_wasm32.whl"&gt;cysqlite-0.1.4-cp311-cp311-emscripten_3_1_46_wasm32.whl&lt;/a&gt;, a 688KB wheel file with a WASM build of the library that can be loaded into Pyodide like this:&lt;/p&gt;
-&lt;pre&gt;&lt;span class="pl-k"&gt;import&lt;/span&gt; &lt;span class="pl-s1"&gt;micropip&lt;/span&gt;
-&lt;span class="pl-k"&gt;await&lt;/span&gt; &lt;span class="pl-s1"&gt;micropip&lt;/span&gt;.&lt;span class="pl-c1"&gt;install&lt;/span&gt;(
-    &lt;span class="pl-s"&gt;"https://simonw.github.io/research/cysqlite-wasm-wheel/cysqlite-0.1.4-cp311-cp311-emscripten_3_1_46_wasm32.whl"&lt;/span&gt;
-)
-&lt;span class="pl-k"&gt;import&lt;/span&gt; &lt;span class="pl-s1"&gt;cysqlite&lt;/span&gt;
-&lt;span class="pl-en"&gt;print&lt;/span&gt;(&lt;span class="pl-s1"&gt;cysqlite&lt;/span&gt;.&lt;span class="pl-c1"&gt;connect&lt;/span&gt;(&lt;span class="pl-s"&gt;":memory:"&lt;/span&gt;).&lt;span class="pl-c1"&gt;execute&lt;/span&gt;(
-    &lt;span class="pl-s"&gt;"select sqlite_version()"&lt;/span&gt;
-).&lt;span class="pl-c1"&gt;fetchone&lt;/span&gt;())&lt;/pre&gt;
-&lt;p&gt;(I also learned that wheels like this have to be built for the emscripten version used by that edition of Pyodide - my experimental wheel loads in Pyodide 0.25.1 but fails in 0.27.5 with a &lt;code&gt;Wheel was built with Emscripten v3.1.46 but Pyodide was built with Emscripten v3.1.58&lt;/code&gt; error.)&lt;/p&gt;
-&lt;p&gt;You can try my wheel in &lt;a href="https://7ebbff98.tools-b1q.pages.dev/pyodide-repl"&gt;this new Pyodide REPL&lt;/a&gt; i had Claude build as a mobile-friendly alternative to Pyodide's &lt;a href="https://pyodide.org/en/stable/console.html"&gt;own hosted console&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;I also had Claude build &lt;a href="https://simonw.github.io/research/cysqlite-wasm-wheel/demo.html"&gt;this demo page&lt;/a&gt; that executes the original test suite in the browser and displays the results:&lt;/p&gt;
-&lt;p&gt;&lt;img alt='Screenshot of the cysqlite WebAssembly Demo page with a dark theme. Title reads "cysqlite — WebAssembly Demo" with subtitle "Testing cysqlite compiled to WebAssembly via Emscripten, running in Pyodide in the browser." Environment section shows Pyodide 0.25.1, Python 3.11.3, cysqlite 0.1.4, SQLite 3.51.2, Platform Emscripten-3.1.46-wasm32-32bit, Wheel file cysqlite-0.1.4-cp311-cp311-emscripten_3_1_46_wasm32.wh (truncated). A green progress bar shows "All 115 tests passed! (1 skipped)" at 100%, with Passed: 115, Failed: 0, Errors: 0, Skipped: 1, Total: 116. Test Results section lists TestBackup 1/1 passed, TestBlob 6/6 passed, TestCheckConnection 4/4 passed, TestDataTypesTableFunction 1/1 passed, all with green badges.' src="https://static.simonwillison.net/static/2026/cysqlite-tests.jpg"/&gt;
-&lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href="https://lobste.rs/s/gipvta/cysqlite_new_sqlite_driver"&gt;lobste.rs&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/python"&gt;python&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/sqlite"&gt;sqlite&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/charles-leifer"&gt;charles-leifer&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/webassembly"&gt;webassembly&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/pyodide"&gt;pyodide&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Wed, 11 Feb 2026 17:34:40 +0000</pubDate></item><item><title>隆重推出Showboat与Rodney，让智能体们展示他们的杰作。</title><link>https://simonwillison.net/2026/Feb/10/showboat-and-rodney/#atom-everything</link><description>&lt;p&gt;与编码智能体协作的一个关键挑战在于，既要让它们测试自己构建的成果，又要向作为监督者的你展示这些软件。这超越了自动化测试的范畴——我们需要能展示其进展的成果物，帮助我们准确了解智能体所产软件的实际能力。针对这一问题，我刚刚发布了两款新工具：
-
-**Showboat** 与 **Rodney**。
-
-**验证代码实际运行效果**
-
-**Showboat：智能体通过构建文档来演示其工作成果**
-
-**Rodney：专为配合Showboat设计的CLI浏览器自动化工具**
-
-测试驱动开发虽有益处，但我们仍需手动测试
-
-这两款工具我都是在手机上开发的
-
-**验证代码实际运行效果**
-
-我最近撰文探讨过，软件工程师的职责并非仅仅是编写代码，而是**交付可运行的代码**。其中至关重要的一环，就是向自己和他人证明我们所负责的代码能够按预期运行。
-
-随着我们将编码智能体作为软件开发流程的核心组成部分，这一点变得更为重要，也更具挑战性。
-
-我们通过智能体产出的代码越多，那些能减少手动QA时间投入的工具就越有价值。
-
-**StrongDM软件工厂模式**最引人注目的一点在于，他们如何在坚持“代码不得由人工审查”政策的同时，确保软件得到充分测试并交付价值。他们的部分解决方案涉及投入高昂成本，部署大量QA智能体通过“场景”来测试软件。这很有趣，但如果能避免，我可不想在QA机器人上花费数千美元！
-
-我需要这样的工具：既能允许智能体清晰地向我展示其工作成果，又能最大限度地减少它们在成果上作弊的可能性。
-
-**Showboat：智能体通过构建文档来演示其工作成果**
-
-**Showboat** 是我为帮助智能体向我演示其工作而构建的工具。
-
-它是一个CLI工具（一个Go二进制文件，可选择**用Python封装**）。&lt;a href="https://github.com/simonw/showboat"&gt;Showboat&lt;/a&gt; and &lt;a href="https://github.com/simonw/rodney"&gt;Rodney&lt;/a&gt;.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://simonwillison.net/2026/Feb/10/showboat-and-rodney/#proving-code-actually-works"&gt;Proving code actually works&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://simonwillison.net/2026/Feb/10/showboat-and-rodney/#showboat-agents-build-documents-to-demo-their-work"&gt;Showboat: Agents build documents to demo their work&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://simonwillison.net/2026/Feb/10/showboat-and-rodney/#rodney-cli-browser-automation-designed-to-work-with-showboat"&gt;Rodney: CLI browser automation designed to work with Showboat&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://simonwillison.net/2026/Feb/10/showboat-and-rodney/#test-driven-development-helps-but-we-still-need-manual-testing"&gt;Test-driven development helps, but we still need manual testing&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://simonwillison.net/2026/Feb/10/showboat-and-rodney/#i-built-both-of-these-tools-on-my-phone"&gt;I built both of these tools on my phone&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id="proving-code-actually-works"&gt;Proving code actually works&lt;/h4&gt;
-&lt;p&gt;I recently wrote about how the job of a software engineer isn't to write code, it's to &lt;em&gt;&lt;a href="https://simonwillison.net/2025/Dec/18/code-proven-to-work/"&gt;deliver code that works&lt;/a&gt;&lt;/em&gt;. A big part of that is proving to ourselves and to other people that the code we are responsible for behaves as expected.&lt;/p&gt;
-&lt;p&gt;This becomes even more important - and challenging - as we embrace coding agents as a core part of our software development process.&lt;/p&gt;
-&lt;p&gt;The more code we churn out with agents, the more valuable tools are that reduce the amount of manual QA time we need to spend.&lt;/p&gt;
-&lt;p&gt;One of the most interesting things about &lt;a href="https://simonwillison.net/2026/Feb/7/software-factory/"&gt;the StrongDM software factory model&lt;/a&gt; is how they ensure that their software is well tested and delivers value despite their policy that "code must not be reviewed by humans". Part of their solution involves expensive swarms of QA agents running through "scenarios" to exercise their software. It's fascinating, but I don't want to spend thousands of dollars on QA robots if I can avoid it!&lt;/p&gt;
-&lt;p&gt;I need tools that allow agents to clearly demonstrate their work to me, while minimizing the opportunities for them to cheat about what they've done.&lt;/p&gt;
-&lt;h4 id="showboat-agents-build-documents-to-demo-their-work"&gt;Showboat: Agents build documents to demo their work&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/simonw/showboat"&gt;Showboat&lt;/a&gt;&lt;/strong&gt; is the tool I built to help agents demonstrate their work to me.&lt;/p&gt;
-&lt;p&gt;It's a CLI tool (a Go binary, optionally &lt;a href="https://simonwillison.net/2026/Feb/4/distributing-go-binaries/"&gt;wrapped in Python&lt;/a&gt;（为便于安装）该工具能帮助智能体构建Markdown文档，直观展示其新开发代码的功能。
-
-虽然并非设计给人类直接运行，但以下是运行方法：
-
-如何使用curl和jq
-
-"
-如何结合使用curl和jq
-"
-
-执行
-'
-curl -s https://api.github.com/repos/simonw/rodney | jq .description
-'
-
-'
-以及curl徽标，用于演示图像命令：
-'
-
-'
-curl -o curl-logo.png https://curl.se/logo/curl-logo.png &amp;amp;&amp;amp; echo curl-logo.png
-'
-
-在VS Code中打开并预览Markdown的效果如下：
-
-这是演示文档在Gist中的链接。
-
-通过一系列命令，可以逐步构建Markdown文档，这些命令的输出会自动附加在已执行命令之后。
-
-命令较为特殊——它会从命令输出中查找图像文件路径，将该图像复制到当前文件夹并在文档中引用。
-
-这基本就是全部功能！还包含命令用于在出错时删除最近添加的章节，命令用于重新运行文档以检查内容是否变更（我对该功能的设计尚未完全信服），以及命令用于逆向解析创建文档时使用的CLI指令。
-
-相当简洁——仅172行Go代码。
-
-我使用工具进行打包，这意味着您无需预先安装即可直接运行：
-
-该命令至关重要：它旨在为编码智能体提供使用此工具所需的全部信息。这是完整的帮助文本。
-
-这意味着您可以打开Claude Code并输入：
-
-至此完成！这段文本的作用类似于技能模块。您的智能体通过阅读帮助文本，就能运用Showboat的所有功能来创建展示所需内容的文档。&lt;/p&gt;
-&lt;p&gt;It's not designed for humans to run, but here's how you would run it anyway:&lt;/p&gt;
-&lt;div class="highlight highlight-source-shell"&gt;&lt;pre&gt;showboat init demo.md &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;'&lt;/span&gt;How to use curl and jq&lt;span class="pl-pds"&gt;'&lt;/span&gt;&lt;/span&gt;
-showboat note demo.md &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;Here's how to use curl and jq together.&lt;span class="pl-pds"&gt;"&lt;/span&gt;&lt;/span&gt;
-showboat &lt;span class="pl-c1"&gt;exec&lt;/span&gt; demo.md bash &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;'&lt;/span&gt;curl -s https://api.github.com/repos/simonw/rodney | jq .description&lt;span class="pl-pds"&gt;'&lt;/span&gt;&lt;/span&gt;
-showboat note demo.md &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;'&lt;/span&gt;And the curl logo, to demonstrate the image command:&lt;span class="pl-pds"&gt;'&lt;/span&gt;&lt;/span&gt;
-showboat image demo.md &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;'&lt;/span&gt;curl -o curl-logo.png https://curl.se/logo/curl-logo.png &amp;amp;&amp;amp; echo curl-logo.png&lt;span class="pl-pds"&gt;'&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Here's what the result looks like if you open it up in VS Code and preview the Markdown:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Screenshot showing a Markdown file &amp;quot;demo.md&amp;quot; side-by-side with its rendered preview. The Markdown source (left) shows: &amp;quot;# How to use curl and jq&amp;quot;, italic timestamp &amp;quot;2026-02-10T01:12:30Z&amp;quot;, prose &amp;quot;Here's how to use curl and jq together.&amp;quot;, a bash code block with &amp;quot;curl -s https://api.github.com/repos/simonw/rodney | jq .description&amp;quot;, output block showing '&amp;quot;CLI tool for interacting with the web&amp;quot;', text &amp;quot;And the curl logo, to demonstrate the image command:&amp;quot;, a bash {image} code block with &amp;quot;curl -o curl-logo.png https://curl.se/logo/curl-logo.png &amp;amp;&amp;amp; echo curl-logo.png&amp;quot;, and a Markdown image reference &amp;quot;2056e48f-2026-02-10&amp;quot;. The rendered preview (right) displays the formatted heading, timestamp, prose, styled code blocks, and the curl logo image in dark teal showing &amp;quot;curl://&amp;quot; with circuit-style design elements." src="https://static.simonwillison.net/static/2026/curl-demo.jpg"/&gt;&lt;/p&gt;
-&lt;p&gt;Here's that &lt;a href="https://gist.github.com/simonw/fb0b24696ed8dd91314fe41f4c453563#file-demo-md"&gt;demo.md file in a Gist&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;So a sequence of &lt;code&gt;showboat init&lt;/code&gt;, &lt;code&gt;showboat note&lt;/code&gt;, &lt;code&gt;showboat exec&lt;/code&gt; and &lt;code&gt;showboat image&lt;/code&gt; commands constructs a Markdown document one section at a time, with the output of those &lt;code&gt;exec&lt;/code&gt; commands automatically added to the document directly following the commands that were run.&lt;/p&gt;
-&lt;p&gt;The &lt;code&gt;image&lt;/code&gt; command is a little special - it looks for a file path to an image in the output of the command and copies that image to the current folder and references it in the file.&lt;/p&gt;
-&lt;p&gt;That's basically the whole thing! There's a &lt;code&gt;pop&lt;/code&gt; command to remove the most recently added section if something goes wrong, a &lt;code&gt;verify&lt;/code&gt; command to re-run the document and check nothing has changed (I'm not entirely convinced by the design of that one) and a &lt;code&gt;extract&lt;/code&gt; command that reverse-engineers the CLI commands that were used to create the document.&lt;/p&gt;
-&lt;p&gt;It's pretty simple - just 172 lines of Go.&lt;/p&gt;
-&lt;p&gt;I packaged it up with my &lt;a href="https://github.com/simonw/go-to-wheel"&gt;go-to-wheel&lt;/a&gt; tool which means you can run it without even installing it first like this:&lt;/p&gt;
-&lt;div class="highlight highlight-source-shell"&gt;&lt;pre&gt;uvx showboat --help&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;That &lt;code&gt;--help&lt;/code&gt; command is really important: it's designed to provide a coding agent with &lt;em&gt;everything it needs to know&lt;/em&gt; in order to use the tool. Here's &lt;a href="https://github.com/simonw/showboat/blob/main/help.txt"&gt;that help text in full&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;This means you can pop open Claude Code and tell it:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;Run "uvx showboat --help" and then use showboat to create a demo.md document describing the feature you just built&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;And that's it! The &lt;code&gt;--help&lt;/code&gt; text acts &lt;a href="https://simonwillison.net/2025/Oct/16/claude-skills/"&gt;a bit like a Skill&lt;/a&gt;. Your agent can read the help text and use every feature of Showboat to create a document that demonstrates whatever it is you need demonstrated.&lt;/p&gt;
-&lt;p&gt;有个有趣的小技巧：如果你让Claude生成Showboat演示文档，可以在VS Code中打开它，当智能体运行演示时，你能实时看到预览窗格的动态更新。这有点像同事通过屏幕共享向你讲解他们的最新成果。
-
-最后来看几个实例。以下是我让Claude使用Showboat创建的文档，用于展示我在其他项目中开发的功能：
-
-**shot-scraper：完整功能演示**
-完整演示了我的浏览器自动化工具shot-scraper的全套功能，主要为了测试命令行操作。
-
-**sqlite-history-json命令行演示**
-展示了我为新的Python库sqlite-history-json添加的命令行功能。
-
-**row-state-sql命令行演示**
-展示了我在同一项目中新增的另一个命令。
-
-**带备注的变更分组演示**
-展示了另一项功能：同一事务中的变更组可以附加备注说明。
-
-**krunsh：将Shell命令传输到临时libkrun微虚拟机**
-这是个特别复杂的案例——我成功让Claude Code在QEMU模拟的Linux环境中运行libkrun微虚拟机，而这个环境又运行在Claude的gVisor沙箱内。
-
-经过频繁使用Showboat后，我已完全确信其实用价值。
-
-（不过我也发现智能体会"作弊"！由于演示文件是Markdown格式，智能体有时会直接编辑文件而非使用Showboat，这可能导致命令输出与实际执行结果不符。相关讨论可参见这个issue。）
-
-**Rodney：专为Showboat设计的命令行浏览器自动化工具**
-我的许多项目都涉及网页界面。智能体经常为这些项目构建全新页面，我希望在演示中能看到这些内容。
-
-Showboat的截图功能专为智能体设计，允许他们在演示过程中捕获屏幕图像。该功能最初使用我的shot-scraper工具或Playwright实现。&lt;/p&gt;
-&lt;p&gt;And finally, some examples. Here are documents I had Claude create using Showboat to help demonstrate features I was working on in other projects:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href="https://github.com/simonw/showboat-demos/blob/main/shot-scraper/README.md"&gt;shot-scraper: A Comprehensive Demo&lt;/a&gt; runs through the full suite of features of my &lt;a href="https://shot-scraper.datasette.io/"&gt;shot-scraper&lt;/a&gt; browser automation tool, mainly to exercise the &lt;code&gt;showboat image&lt;/code&gt; command.&lt;/li&gt;
-&lt;li&gt;
-&lt;a href="https://github.com/simonw/sqlite-history-json/blob/main/demos/cli.md"&gt;sqlite-history-json CLI demo&lt;/a&gt; demonstrates the CLI feature I added to my new &lt;a href="https://github.com/simonw/sqlite-history-json"&gt;sqlite-history-json&lt;/a&gt; Python library.
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://github.com/simonw/sqlite-history-json/blob/main/demos/row-state-sql.md"&gt;row-state-sql CLI Demo&lt;/a&gt; shows a new &lt;code&gt;row-state-sql&lt;/code&gt; command I added to that same project.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://github.com/simonw/sqlite-history-json/blob/main/demos/change-grouping.md"&gt;Change grouping with Notes&lt;/a&gt; demonstrates another feature where groups of changes within the same transaction can have a note attached to them.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href="https://github.com/simonw/research/blob/main/libkrun-go-cli-tool/demo.md"&gt;krunsh: Pipe Shell Commands to an Ephemeral libkrun MicroVM&lt;/a&gt; is a particularly convoluted example where I managed to get Claude Code for web to run a libkrun microVM inside a QEMU emulated Linux environment inside the Claude gVisor sandbox.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I've now used Showboat often enough that I've convinced myself of its utility.&lt;/p&gt;
-&lt;p&gt;(I've also seen agents cheat! Since the demo file is Markdown the agent will sometimes edit that file directly rather than using Showboat, which could result in command outputs that don't reflect what actually happened. Here's &lt;a href="https://github.com/simonw/showboat/issues/12"&gt;an issue about that&lt;/a&gt;.)&lt;/p&gt;
-&lt;h4 id="rodney-cli-browser-automation-designed-to-work-with-showboat"&gt;Rodney: CLI browser automation designed to work with Showboat&lt;/h4&gt;
-&lt;p&gt;Many of the projects I work on involve web interfaces. Agents often build entirely new pages for these, and I want to see those represented in the demos.&lt;/p&gt;
-&lt;p&gt;Showboat's image feature was designed to allow agents to capture screenshots as part of their demos, originally using my &lt;a href="https://shot-scraper.datasette.io/"&gt;shot-scraper tool&lt;/a&gt; or &lt;a href="https://www.playwright.dev"&gt;Playwright&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Showboat格式受益于命令行工具。我本想寻找一个能通过命令行管理多轮浏览器会话的好方案，但没找到满意的，于是决定尝试构建新工具。
-
-Claude Opus 4.6指引我发现了Rod——这个用于与Chrome DevTools协议交互的Go库。它非常出色，几乎封装了所有自动化Chrome操作的功能，并且是一个独立的库，编译后仅几MB大小。
-
-Rod唯一缺少的就是命令行界面。
-
-我最初将其构建为异步报告原型，这让我确信值得将其独立成一个项目。
-
-我将其命名为Rodney，既致敬它所基于的Rod库，又影射英剧《只有傻瓜和马》——当然也因为PyPI上这个包名尚未被占用。
-
-你可以通过以下方式运行Rodney，或这样安装：
-（也可以从发布页面直接获取Go二进制文件。）
-
-以下是一个简单的使用示例：
-# 在后台启动Chrome
-'Array.from(document.links).map(el =&amp;gt; el.href).slice(0, 5)'
-'a[href="/for"]'
-
-终端中的效果如图所示：
-与Showboat一样，这个工具并非为人类使用设计！目标是让编码智能体能通过运行命令，就能看到开始使用所需的所有信息。你可以在GitHub仓库中查看完整的帮助输出。
-
-以下是我用Showboat创建的三个Rodney演示：
-1. Rodney的原始功能集，包括页面截图和执行JavaScript
-2. Rodney在开发过程中构建的新无障碍测试功能展示
-3. 使用这些功能对页面进行基础无障碍审计。Claude Opus 4.6对"使用showboat和rodney对https://latest.datasette.io/fixtures进行无障碍审计"这个提示的响应令我印象深刻——完整记录在此。
-
-测试驱动开发固然重要，但我们仍需要人工测试
-作为长期对"测试优先、追求全覆盖"开发理念持怀疑态度的从业者（虽然我也认可测试的必要性）……&lt;/p&gt;
-&lt;p&gt;Claude Opus 4.6 pointed me to the &lt;a href="https://github.com/go-rod/rod"&gt;Rod&lt;/a&gt; Go library for interacting with the Chrome DevTools protocol. It's fantastic - it provides a comprehensive wrapper across basically everything you can do with automated Chrome, all in a self-contained library that compiles to a few MBs.&lt;/p&gt;
-&lt;p&gt;All Rod was missing was a CLI.&lt;/p&gt;
-&lt;p&gt;I built the first version &lt;a href="https://github.com/simonw/research/blob/main/go-rod-cli/README.md"&gt;as an asynchronous report prototype&lt;/a&gt;, which convinced me it was worth spinning out into its own project.&lt;/p&gt;
-&lt;p&gt;I called it Rodney as a nod to the Rod library it builds on and a reference to &lt;a href="https://en.wikipedia.org/wiki/Only_Fools_and_Horses"&gt;Only Fools and Horses&lt;/a&gt; - and because the package name was available on PyPI.&lt;/p&gt;
-&lt;p&gt;You can run Rodney using &lt;code&gt;uvx rodney&lt;/code&gt; or install it like this:&lt;/p&gt;
-&lt;div class="highlight highlight-source-shell"&gt;&lt;pre&gt;uv tool install rodney&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;(Or grab a Go binary &lt;a href="https://github.com/simonw/rodney/releases/"&gt;from the releases page&lt;/a&gt;.)&lt;/p&gt;
-&lt;p&gt;Here's a simple example session:&lt;/p&gt;
-&lt;div class="highlight highlight-source-shell"&gt;&lt;pre&gt;rodney start &lt;span class="pl-c"&gt;&lt;span class="pl-c"&gt;#&lt;/span&gt; starts Chrome in the background&lt;/span&gt;
-rodney open https://datasette.io/
-rodney js &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;'&lt;/span&gt;Array.from(document.links).map(el =&amp;gt; el.href).slice(0, 5)&lt;span class="pl-pds"&gt;'&lt;/span&gt;&lt;/span&gt;
-rodney click &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;'&lt;/span&gt;a[href="/for"]&lt;span class="pl-pds"&gt;'&lt;/span&gt;&lt;/span&gt;
-rodney js location.href
-rodney js document.title
-rodney screenshot datasette-for-page.png
-rodney stop&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Here's what that looks like in the terminal:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=";~ % rodney start
-Chrome started (PID 91462)
-Debug URL: ws://127.0.0.1:64623/devtools/browser/cac6988e-8153-483b-80b9-1b75c611868d
-~ % rodney open https://datasette.io/
-Datasette: An open source multi-tool for exploring and publishing data
-~ % rodney js 'Array.from(document.links).map(el =&amp;gt; el.href).slice(0, 5)'
-[
-&amp;quot;https://datasette.io/for&amp;quot;,
-&amp;quot;https://docs.datasette.io/en/stable/&amp;quot;,
-&amp;quot;https://datasette.io/tutorials&amp;quot;,
-&amp;quot;https://datasette.io/examples&amp;quot;,
-&amp;quot;https://datasette.io/plugins&amp;quot;
-]
-~ % rodney click 'a[href=&amp;quot;/for&amp;quot;]'
-Clicked
-~ % rodney js location.href
-https://datasette.io/for
-~ % rodney js document.title
-Use cases for Datasette
-~ % rodney screenshot datasette-for-page.png
-datasette-for-page.png
-~ % rodney stop
-Chrome stopped" src="https://static.simonwillison.net/static/2026/rodney-demo.jpg"/&gt;&lt;/p&gt;
-&lt;p&gt;As with Showboat, this tool is not designed to be used by humans! The goal is for coding agents to be able to run &lt;code&gt;rodney --help&lt;/code&gt; and see everything they need to know to start using the tool. You can see &lt;a href="https://github.com/simonw/rodney/blob/main/help.txt"&gt;that help output&lt;/a&gt; in the GitHub repo.&lt;/p&gt;
-&lt;p&gt;Here are three demonstrations of Rodney that I created using Showboat:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href="https://github.com/simonw/showboat-demos/blob/main/rodney/README.md"&gt;Rodney's original feature set&lt;/a&gt;, including screenshots of pages and executing JavaScript.&lt;/li&gt;
-&lt;li&gt;
-&lt;a href="https://github.com/simonw/rodney/blob/main/notes/accessibility-features/README.md"&gt;Rodney's new accessibility testing features&lt;/a&gt;, built during development of those features to show what they could do.&lt;/li&gt;
-&lt;li&gt;
-&lt;a href="https://github.com/simonw/showboat-demos/blob/main/datasette-database-page-accessibility-audit/README.md"&gt;Using those features to run a basic accessibility audit of a page&lt;/a&gt;. I was impressed at how well Claude Opus 4.6 responded to the prompt "Use showboat and rodney to perform an accessibility audit of &lt;a href="https://latest.datasette.io/fixtures"&gt;https://latest.datasette.io/fixtures&lt;/a&gt;" - &lt;a href="https://gisthost.github.io/?dce6b2680db4b05c04469ed8f251eb34/index.html"&gt;transcript here&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id="test-driven-development-helps-but-we-still-need-manual-testing"&gt;Test-driven development helps, but we still need manual testing&lt;/h4&gt;
-&lt;p&gt;After being a career-long skeptic of the test-first, maximum test coverage school of software development (I like &lt;a href="https://simonwillison.net/2022/Oct/29/the-perfect-commit/#tests"&gt;tests included&lt;/a&gt;（改用开发模式）最近我开始尝试测试优先流程，以此强制智能体只编写解决当前问题所必需的代码。
-
-我的许多Python编程智能体会话都以相同的方式开始：
-
-告诉智能体如何运行测试，同时也暗示了该项目存在测试且测试很重要。智能体在编写自己的测试前会先阅读现有测试，因此拥有一个模式良好的简洁测试套件，能提高它们编写出高质量测试的可能性。
-
-前沿模型都理解"红绿测试驱动开发"意味着它们应该先写测试，运行并观察其失败，然后编写代码使其通过——这是一个便捷的捷径。
-
-我发现这极大地提高了代码质量，并增加了智能体在最少提示指导下产出正确结果的可能性。
-
-但任何从事测试工作的人都知道，自动化测试通过并不意味着软件真的能正常工作！这正是Showboat和Rodney背后的动机——除非亲眼看到功能运行，我从不信任任何特性。
-
-在构建Showboat之前，我经常在智能体会话中添加"手动"测试步骤，比如：
-
-这两个工具我都是在手机上开发的
-
-Showboat和Rodney最初都是通过Claude iPhone应用为网页项目创建的Claude代码。它们大部分持续的功能开发也是以同样方式进行的。
-
-我现在在手机上完成如此多的编码工作仍让我有些惊讶，但我估计如今提交到GitHub的大部分代码都是由那个iPhone应用驱动的编程智能体为我编写的。
-
-我最初设计这两个工具是为了在异步编程智能体环境中使用，比如网页版的Claude代码。到目前为止效果非常好。
-
-标签：
-go
-,
-项目
-,
-测试
-,
-markdown
-,
-人工智能
-,
-生成式人工智能
-,
-大语言模型
-,
-AI辅助编程
-,
-编程智能体
-,
-异步编程智能体
-,
-showboat&lt;/p&gt;
-&lt;p&gt;Many of my Python coding agent sessions start the same way:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;Run the existing tests with "uv run pytest". Build using red/green TDD.&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Telling the agents how to run the tests doubles as an indicator that tests on this project exist and matter. Agents will read existing tests before writing their own so having a clean test suite with good patterns makes it more likely they'll write good tests of their own.&lt;/p&gt;
-&lt;p&gt;The frontier models all understand that "red/green TDD" means they should write the test first, run it and watch it fail and then write the code to make it pass - it's a convenient shortcut.&lt;/p&gt;
-&lt;p&gt;I find this greatly increases the quality of the code and the likelihood that the agent will produce the right thing with the smallest amount of prompts to guide it.&lt;/p&gt;
-&lt;p&gt;But anyone who's worked with tests will know that just because the automated tests pass doesn't mean the software actually works! That’s the motivation behind Showboat and Rodney - I never trust any feature until I’ve seen it running with my own eye.&lt;/p&gt;
-&lt;p&gt;Before building Showboat I'd often add a “manual” testing step to my agent sessions, something like:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;Once the tests pass, start a development server and exercise the new feature using curl&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4 id="i-built-both-of-these-tools-on-my-phone"&gt;I built both of these tools on my phone&lt;/h4&gt;
-&lt;p&gt;Both Showboat and Rodney started life as Claude Code for web projects created via the Claude iPhone app. Most of the ongoing feature work for them happened in the same way.&lt;/p&gt;
-&lt;p&gt;I'm still a little startled at how much of my coding work I get done on my phone now, but I'd estimate that the majority of code I ship to GitHub these days was written for me by coding agents driven via that iPhone app.&lt;/p&gt;
-&lt;p&gt;I initially designed these two tools for use in asynchronous coding agent environments like Claude Code for the web. So far that's working out really well.&lt;/p&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/go"&gt;go&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/projects"&gt;projects&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/testing"&gt;testing&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/markdown"&gt;markdown&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/async-coding-agents"&gt;async-coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/showboat"&gt;showboat&lt;/a&gt;&lt;/p&gt;</description><pubDate>Tue, 10 Feb 2026 17:45:29 +0000</pubDate></item><item><title>面向文件原生智能体系统的结构化情境工程</title><link>https://simonwillison.net/2026/Feb/9/structured-context-engineering-for-file-native-agentic-systems/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://arxiv.org/abs/2602.05447"&gt;面向文件原生智能体系统的结构化上下文工程&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;Damon McMillan发表新论文，探索涉及大规模SQL架构（高达10,000张表）的LLM上下文挑战性任务，涵盖不同模型与文件格式：
-&lt;blockquote&gt;
-&lt;p&gt;我们以SQL生成为程序化智能体操作的代理指标，对结构化数据的上下文工程展开系统性研究，涵盖11种模型、4种格式（YAML、Markdown、JSON、面向令牌的对象标记法[TOON]）以及10至10,000张表的架构，累计完成9,649次实验。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;不出所料，模型本身的影响最为显著——前沿模型（Opus 4.5、GPT-5.2、Gemini 2.5 Pro）的表现优于领先的开源模型（DeepSeek V3.2、Kimi K2、Llama 4）。&lt;/p&gt;
-&lt;p&gt;这些前沿模型受益于基于文件系统的上下文检索，但开源模型在此方面的表现远未达预期，这印证了我的观点：开源权重模型目前尚未充分掌握文件系统编码智能体的循环处理机制。&lt;a href="https://www.tbench.ai/leaderboard/terminal-bench/2.0"&gt;Terminal Bench 2.0&lt;/a&gt;排行榜仍由Anthropic、OpenAI和Gemini主导。&lt;/p&gt;
-&lt;p&gt;针对&lt;a href="https://github.com/toon-format/toon"&gt;TOON格式&lt;/a&gt;的“检索代价”现象是个有趣的细节。TOON旨在以最少令牌数呈现结构化数据，但研究发现模型对该格式的陌生导致其在多次迭代中消耗显著更多令牌以尝试解析：&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Screenshot of a figure from a research paper. Introductory text reads: &amp;quot;As schema size increased, TOON showed dramatically increased token consumption for Claude models despite being ~25% smaller in file size. Scale experiments used Claude models only.&amp;quot; Below is &amp;quot;Figure 7: The 'Grep Tax' - TOON Token Overhead at Scale&amp;quot;, a bar chart with a logarithmic y-axis labeled &amp;quot;Tokens&amp;quot; comparing YAML (teal) and TOON (purple) at two schema sizes: S5 (500 tables) and S9 (10,000 tables). At S5, TOON is +138% more tokens than YAML (~1,100 vs ~450). At S9, TOON is +740% more tokens (~50,000 vs ~7,000). Below the chart, explanatory text reads: &amp;quot;The 'grep tax' emerged as schema size scaled. At S5 (500 tables), TOON consumed 138% more tokens than YAML; at S9 (10,000 tables), this grew to 740%. Root cause: models lacked familiarity with TOON's syntax and could not construct effective refinement patterns.&amp;quot;" src="https://static.simonwillison.net/static/2026/grep-tax.jpg"/&gt;
-&lt;p&gt;&lt;small&gt;&lt;/small&gt;经由&lt;a href="https://twitter.com/omarsar0/status/2020150077637997013"&gt;@omarsar0&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/prompt-engineering"&gt;提示工程&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/paper-review"&gt;论文评述&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/context-engineering"&gt;上下文工程&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Mon, 09 Feb 2026 23:56:51 +0000</pubDate></item></channel></rss>
+&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/openai"&gt;openai&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;AI辅助编程&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/skills"&gt;技能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/showboat"&gt;showboat&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 11 Feb 2026 19:19:22 +0000</pubDate></item></channel></rss>
