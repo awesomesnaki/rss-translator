@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Sun, 15 Feb 2026 23:59:36 +0000</lastBuildDate><item><title>AI吸血鬼</title><link>https://simonwillison.net/2026/Feb/15/the-ai-vampire/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163"&gt;AI吸血鬼&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;史蒂夫·叶格关于智能体疲劳及其与职业倦怠关系的见解。
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Mon, 16 Feb 2026 16:38:57 +0000</lastBuildDate><item><title>罗德尼与克劳德桌面版代码</title><link>https://simonwillison.net/2026/Feb/16/rodney-claude-code/#atom-everything</link><description>&lt;p&gt;我是Claude Code网页版的重度用户，这是Anthropic公司推出的云端版本Claude Code——虽然名字起得不怎么样，但产品本身非常出色。所有操作都在他们管理的容器环境中运行，这大大降低了我珍视的电脑遭受任何损害的风险。
+
+我完全不用网页界面（这也是我不喜欢这个名字的原因），只通过他们原生的iPhone和Mac桌面应用来访问。
+
+桌面应用有个特别让我欣赏的功能：它能让你看到Claude通过其工具正在“查看”的图像。效果是这样的：
+
+这意味着你可以在它处理任务时实时获得视觉预览，无需等到它把代码推送到GitHub后再自己尝试。
+
+触发上面截图的提示词是：
+
+我设计的Rodney工具，其--help输出包含了编码智能体使用该工具所需了解的全部信息。
+
+Claude的iPhone应用目前还不支持显示已打开的图片，所以我刚刚在Twitter的讨论串里提交了这个功能请求。
+
+标签：anthropic, claude, ai, claude-code, llms, async-coding-agents, coding-agents, generative-ai, projects, ai-assisted-programming&lt;a href="https://code.claude.com/docs/en/claude-code-on-the-web"&gt;Claude Code on the web&lt;/a&gt;, Anthropic's excellent but poorly named cloud version of Claude Code where everything runs in a container environment managed by them, greatly reducing the risk of anything bad happening to a computer I care about.&lt;/p&gt;
+&lt;p&gt;I don't use the web interface at all (hence my dislike of the name) - I access it exclusively through their native iPhone and Mac desktop apps.&lt;/p&gt;
+&lt;p&gt;Something I particularly appreciate about the desktop app is that it lets you see images that Claude is "viewing" via its &lt;code&gt;Read /path/to/image&lt;/code&gt; tool. Here's what that looks like:&lt;/p&gt;
+&lt;p&gt;&lt;img alt='Screenshot of a Claude Code session in Claude Desktop. Claude says: The debug page looks good - all items listed with titles and descriptions. Now let me check the nav
+menu -  Analyzed menu image file - Bash uvx rodney open "http://localhost:8765/" 2&amp;gt;&amp;amp;1 &amp;amp;&amp;amp; uvx rodney click "details.nav-menu summary" 2&amp;gt;&amp;amp;1 &amp;amp;% sleep 0.5 &amp;amp;&amp;amp; uvx rodney screenshot /tmp/menu.png 2&amp;gt;&amp;amp;1 Output reads: Datasette: test, Clicked, /tmp/menu.png - then it says Read /tmp/menu.png and reveals a screenshot of the Datasette interface with the nav menu open, showing only "Debug" and "Log out" options. Claude continues: The menu now has just "Debug" and “Log out" — much cleaner. Both pages look good. Let me clean up the server and run the remaining tests.' src="https://static.simonwillison.net/static/2026/rodney-claude-desktop.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;This means you can get a visual preview of what it's working on while it's working, without waiting for it to push code to GitHub for you to try out yourself later on.&lt;/p&gt;
+&lt;p&gt;The prompt I used to trigger the above screenshot was:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Run "uvx rodney --help" and then use Rodney to manually test the new pages and menu - look at screenshots from it and check you think they look OK&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I designed &lt;a href="https://simonwillison.net/2026/Feb/10/showboat-and-rodney/#rodney-cli-browser-automation-designed-to-work-with-showboat"&gt;Rodney&lt;/a&gt; to have &lt;a href="https://github.com/simonw/rodney/blob/main/help.txt"&gt;--help output&lt;/a&gt; that provides everything a coding agent needs to know in order to use the tool.&lt;/p&gt;
+&lt;p&gt;The Claude iPhone app doesn't display opened images yet, so I &lt;a href="https://twitter.com/simonw/status/2023432616066879606"&gt;requested it as a feature&lt;/a&gt; just now in a thread on Twitter.&lt;/p&gt;
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/anthropic"&gt;anthropic&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude"&gt;claude&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/async-coding-agents"&gt;async-coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/projects"&gt;projects&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 16 Feb 2026 16:38:57 +0000</pubDate></item><item><title>AI吸血鬼</title><link>https://simonwillison.net/2026/Feb/15/the-ai-vampire/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163"&gt;AI吸血鬼&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;史蒂夫·叶格关于智能体疲劳及其与职业倦怠关系的见解。
 &lt;blockquote&gt;
 &lt;p&gt;假设你是公司里唯一使用AI的人。&lt;/p&gt;
 &lt;p&gt;在情境A中，你决定让雇主刮目相看，每天以10倍生产力工作8小时。你大获成功，却让其他同事相形见绌。&lt;/p&gt;
@@ -321,37 +347,4 @@ One of the sub-threads of the AI energy usage discourse has been the impact new 
 &lt;p&gt;Built in-house and known internally as the “Manosphere Report,” the tool uses large language models (LLMs) to transcribe and summarize new episodes of dozens of podcasts.&lt;/p&gt;
 &lt;p&gt;“The Manosphere Report gave us a really fast and clear signal that this was not going over well with that segment of the President’s base,” said Seward. “There was a direct link between seeing that and then diving in to actually cover it.”&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class="cite"&gt;— &lt;a href="https://www.niemanlab.org/2026/02/how-the-new-york-times-uses-a-custom-ai-tool-to-track-the-manosphere/"&gt;Andrew Deck for Niemen Lab&lt;/a&gt;, How The New York Times uses a custom AI tool to track the “manosphere”&lt;/p&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/new-york-times"&gt;new-york-times&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/journalism"&gt;journalism&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/data-journalism"&gt;data-journalism&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 11 Feb 2026 20:59:03 +0000</pubDate></item><item><title>OpenAI API 使用技巧</title><link>https://simonwillison.net/2026/Feb/11/skills-in-openai-api/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://developers.openai.com/cookbook/examples/skills_in_api"&gt;OpenAI API中的技能应用&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;OpenAI对技能的采用持续深入。现在您可以直接通过其&lt;a href="https://developers.openai.com/api/docs/guides/tools-shell/"&gt;shell工具&lt;/a&gt;在OpenAI API中使用技能。虽然您可以先将技能打包为zip文件上传，但我认为更简洁的交互方式是通过JSON请求以内联base64编码的zip数据形式发送技能，正如&lt;a href="https://github.com/simonw/research/blob/main/openai-api-skills/openai_inline_skills.py"&gt;此脚本&lt;/a&gt;所示：
-&lt;pre&gt;&lt;span class="pl-s1"&gt;r&lt;/span&gt; &lt;span class="pl-c1"&gt;=&lt;/span&gt; &lt;span class="pl-en"&gt;OpenAI&lt;/span&gt;().&lt;span class="pl-c1"&gt;responses&lt;/span&gt;.&lt;span class="pl-c1"&gt;create&lt;/span&gt;(
-    &lt;span class="pl-s1"&gt;model&lt;/span&gt;&lt;span class="pl-c1"&gt;=&lt;/span&gt;&lt;span class="pl-s"&gt;"gpt-5.2"&lt;/span&gt;,
-    &lt;span class="pl-s1"&gt;tools&lt;/span&gt;&lt;span class="pl-c1"&gt;=&lt;/span&gt;[
-      {
-        &lt;span class="pl-s"&gt;"type"&lt;/span&gt;: &lt;span class="pl-s"&gt;"shell"&lt;/span&gt;,
-        &lt;span class="pl-s"&gt;"environment"&lt;/span&gt;: {
-          &lt;span class="pl-s"&gt;"type"&lt;/span&gt;: &lt;span class="pl-s"&gt;"container_auto"&lt;/span&gt;,
-          &lt;span class="pl-s"&gt;"skills"&lt;/span&gt;: [
-            {
-              &lt;span class="pl-s"&gt;"type"&lt;/span&gt;: &lt;span class="pl-s"&gt;"inline"&lt;/span&gt;,
-              &lt;span class="pl-s"&gt;"name"&lt;/span&gt;: &lt;span class="pl-s"&gt;"wc"&lt;/span&gt;,
-              &lt;span class="pl-s"&gt;"description"&lt;/span&gt;: &lt;span class="pl-s"&gt;"统计文件中的字数。"&lt;/span&gt;,
-              &lt;span class="pl-s"&gt;"source"&lt;/span&gt;: {
-                &lt;span class="pl-s"&gt;"type"&lt;/span&gt;: &lt;span class="pl-s"&gt;"base64"&lt;/span&gt;,
-                &lt;span class="pl-s"&gt;"media_type"&lt;/span&gt;: &lt;span class="pl-s"&gt;"application/zip"&lt;/span&gt;,
-                &lt;span class="pl-s"&gt;"data"&lt;/span&gt;: &lt;span class="pl-s1"&gt;b64_encoded_zip_file&lt;/span&gt;,
-              },
-            }
-          ],
-        },
-      }
-    ],
-    &lt;span class="pl-s1"&gt;input&lt;/span&gt;&lt;span class="pl-c1"&gt;=&lt;/span&gt;&lt;span class="pl-s"&gt;"使用wc技能统计其自身SKILL.md文件中的字数。"&lt;/span&gt;,
-)
-&lt;span class="pl-en"&gt;print&lt;/span&gt;(&lt;span class="pl-s1"&gt;r&lt;/span&gt;.&lt;span class="pl-c1"&gt;output_text&lt;/span&gt;)&lt;/pre&gt;
-&lt;p&gt;我在构建这个示例脚本前，首先让Claude Code的网页版工具&lt;a href="https://simonwillison.net/2026/Feb/10/showboat-and-rodney/"&gt;Showboat&lt;/a&gt;为我探索API并生成&lt;a href="https://github.com/simonw/research/blob/main/openai-api-skills/README.md"&gt;这份报告&lt;/a&gt;。这项研究项目的初始提示是：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;Run uvx showboat --help - you will use this tool later&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Fetch https://developers.openai.com/cookbook/examples/skills_in_api.md to /tmp with curl, then read it&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Use the OpenAI API key you have in your environment variables&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Use showboat to build up a detailed demo of this, replaying the examples from the documents and then trying some experiments of your own&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/openai"&gt;openai&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;AI辅助编程&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/skills"&gt;技能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/showboat"&gt;showboat&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 11 Feb 2026 19:19:22 +0000</pubDate></item></channel></rss>
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/new-york-times"&gt;new-york-times&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/journalism"&gt;journalism&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/data-journalism"&gt;data-journalism&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 11 Feb 2026 20:59:03 +0000</pubDate></item></channel></rss>
