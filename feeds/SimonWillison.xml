@@ -1,5 +1,262 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Mon, 16 Feb 2026 16:38:57 +0000</lastBuildDate><item><title>罗德尼与克劳德桌面版代码</title><link>https://simonwillison.net/2026/Feb/16/rodney-claude-code/#atom-everything</link><description>&lt;p&gt;我是Claude Code网页版的重度用户，这是Anthropic公司推出的云端版本Claude Code——虽然名字起得不怎么样，但产品本身非常出色。所有操作都在他们管理的容器环境中运行，这大大降低了我珍视的电脑遭受任何损害的风险。
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Tue, 17 Feb 2026 00:43:45 +0000</lastBuildDate><item><title>Showboat平台新增两款工具：Chartroom与datasette-showboat</title><link>https://simonwillison.net/2026/Feb/17/chartroom-and-datasette-showboat/#atom-everything</link><description>&lt;p&gt;我&lt;a href="https://simonwillison.net/2026/Feb/10/showboat-and-rodney/"&gt;一周前介绍了 Showboat&lt;/a&gt;——这是一款 CLI 工具，能帮助编程代理创建展示其编写代码的 Markdown 文档。我每天都在发掘它的新用法，并且刚刚发布了两款新工具，以充分发挥 Showboat 模式的优势。&lt;a href="https://github.com/simonw/chartroom"&gt;Chartroom&lt;/a&gt;是一款与 Showboat 配合良好的 CLI 图表工具，而&lt;a href="https://github.com/simonw/datasette-showboat"&gt;datasette-showboat&lt;/a&gt;则能让 Showboat 的新远程发布功能将文档逐步推送到 Datasette 实例中。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://simonwillison.net/2026/Feb/17/chartroom-and-datasette-showboat/#showboat-remote-publishing"&gt;Showboat 远程发布&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://simonwillison.net/2026/Feb/17/chartroom-and-datasette-showboat/#datasette-showboat"&gt;datasette-showboat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://simonwillison.net/2026/Feb/17/chartroom-and-datasette-showboat/#chartroom"&gt;Chartroom&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://simonwillison.net/2026/Feb/17/chartroom-and-datasette-showboat/#how-i-built-chartroom"&gt;我如何构建 Chartroom&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://simonwillison.net/2026/Feb/17/chartroom-and-datasette-showboat/#the-burgeoning-showboat-ecosystem"&gt;蓬勃发展的 Showboat 生态系统&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="showboat-remote-publishing"&gt;Showboat 远程发布&lt;/h4&gt;
+&lt;p&gt;我通常会在 Claude Code for web 中使用 Showboat（参见&lt;a href="https://simonwillison.net/2026/Feb/16/rodney-claude-code/"&gt;今早的笔记&lt;/a&gt;）。过去几天里，我在多个不同项目中都使用了它，每个项目的提示词大致如下：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Use "uvx showboat --help" to perform a very thorough investigation of what happens if you use the Python sqlite-chronicle and sqlite-history-json libraries against the same SQLite database table&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这是&lt;a href="https://github.com/simonw/research/blob/main/sqlite-chronicle-vs-history-json/demo.md"&gt;生成的文档&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;只需告诉 Claude Code 运行&lt;code&gt;uvx showboat --help&lt;/code&gt;就足以让它学会使用该工具——其&lt;a href="https://github.com/simonw/showboat/blob/main/help.txt"&gt;帮助文本&lt;/a&gt;被设计成一种临时的技能文档。&lt;/p&gt;
+&lt;p&gt;这种方法的唯一缺点是，在完成之前我无法&lt;em&gt;查看&lt;/em&gt;新的 Showboat 文档。我必须等待 Claude 提交文档及嵌入的截图，并将其推送到 GitHub 仓库的分支中，然后才能通过 GitHub 界面查看。&lt;/p&gt;
+&lt;p&gt;一段时间以来，我一直在想，如果能拥有一个自己的远程 Web 服务器，让 Claude 实例在工作过程中提交更新，那该多好。今天早上我突然意识到，Showboat 可能是实现这一目标的理想机制……&lt;/p&gt;
+&lt;p&gt;Showboat&lt;a href="https://github.com/simonw/showboat/releases/tag/v0.6.0"&gt;v0.6.0&lt;/a&gt;新增了一个“远程”功能。这对工具用户来说几乎是透明的，只需通过环境变量进行配置。&lt;/p&gt;
+&lt;p&gt;设置如下变量：&lt;/p&gt;
+&lt;div class="highlight highlight-source-shell"&gt;&lt;pre&gt;&lt;span class="pl-k"&gt;export&lt;/span&gt; SHOWBOAT_REMOTE_URL=https://www.example.com/submit&lt;span class="pl-k"&gt;?&lt;/span&gt;token=xyz&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;此后，每次运行&lt;code&gt;showboat init&lt;/code&gt;或&lt;code&gt;showboat note&lt;/code&gt;或&lt;code&gt;showboat exec&lt;/code&gt;或&lt;code&gt;showboat image&lt;/code&gt;命令时，除了更新 Showboat Markdown 文件本身，生成的文档片段还会通过 POST 请求发送到该 API 端点。&lt;/p&gt;
+&lt;p&gt;更多&lt;a href="https://github.com/simonw/showboat/blob/v0.6.0/README.md#remote-document-streaming"&gt;完整细节请参阅 Showboat 的 README&lt;/a&gt;——这是一个非常简单的 API 格式，使用常规的 POST 表单变量或多部分表单上传来处理&lt;code&gt;showboat image&lt;/code&gt;附带的图像。&lt;/p&gt;
+&lt;h4 id="datasette-showboat"&gt;datasette-showboat  
+构建一个接收Showboat更新的网络应用并不复杂，但我需要一个易于部署且能与我个人生态系统良好兼容的方案。  
+
+于是我让Claude Code编写了一个Datasette插件，作为Showboat的远程端点。实际上，我在开发Showboat远程功能的同时就在构建这个插件，这是一个典型的并行智能体协作案例。  
+
+datasette-showboat是一个Datasette插件，它添加了两个端点：一个用于查看文档，另一个用于接收来自Showboat的更新。  
+
+快速体验方法如下：  
+点击控制台显示的"以root身份登录"链接，然后访问http://127.0.0.1:8001/-/showboat查看界面。  
+
+接着设置指向此实例的环境变量：  
+export "http://127.0.0.1:8001/-/showboat/receive?token=secret123"  
+
+按此方式运行Showboat：  
+"Showboat功能演示"  
+
+刷新页面后您将看到：  
+点击进入文档，启动Claude Code、Codex或您选择的智能体并输入指令：  
+
+该命令会分配UUID和标题，并将它们发送到Datasette。  
+
+最精彩的部分是它完全兼容网页版Claude Code。在任意服务器上运行此插件（具体部署留给读者实践——我使用Fly.io托管），并在Claude环境中设置该环境变量，此后每当您调用Showboat时，创建的文档都会实时传输到您的服务器并可供查看。  
+
+我专门为Showboat开发了Rodney——一个CLI浏览器自动化工具。它能轻松加载网页、通过点击或注入JavaScript进行交互，并截取屏幕截图嵌入Showboat文档以展示操作效果。&lt;/h4&gt;
+&lt;p&gt;It's simple enough to build a webapp to receive these updates from Showboat, but I needed one that I could easily deploy and would work well with the rest of my personal ecosystem.&lt;/p&gt;
+&lt;p&gt;So I had Claude Code write me a Datasette plugin that could act as a Showboat remote endpoint. I actually had this building at the same time as the Showboat remote feature, a neat example of running &lt;a href="https://simonwillison.net/2025/Oct/5/parallel-coding-agents/"&gt;parallel agents&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/simonw/datasette-showboat"&gt;datasette-showboat&lt;/a&gt;&lt;/strong&gt; is a Datasette plugin that adds a &lt;code&gt;/-/showboat&lt;/code&gt; endpoint to Datasette for viewing documents and a &lt;code&gt;/-/showboat/receive&lt;/code&gt; endpoint for receiving updates from Showboat.&lt;/p&gt;
+&lt;p&gt;Here's a very quick way to try it out:&lt;/p&gt;
+&lt;div class="highlight highlight-source-shell"&gt;&lt;pre&gt;uvx --with datasette-showboat --prerelease=allow \
+  datasette showboat.db --create \
+  -s plugins.datasette-showboat.database showboat \
+  -s plugins.datasette-showboat.token secret123 \
+  --root --secret cookie-secret-123&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Click on the sign in as root link that shows up in the console, then navigate to &lt;a href="http://127.0.0.1:8001/-/showboat"&gt;http://127.0.0.1:8001/-/showboat&lt;/a&gt; to see the interface.&lt;/p&gt;
+&lt;p&gt;Now set your environment variable to point to this instance:&lt;/p&gt;
+&lt;div class="highlight highlight-source-shell"&gt;&lt;pre&gt;&lt;span class="pl-k"&gt;export&lt;/span&gt; SHOWBOAT_REMOTE_URL=&lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;http://127.0.0.1:8001/-/showboat/receive?token=secret123&lt;span class="pl-pds"&gt;"&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;And run Showboat like this:&lt;/p&gt;
+&lt;div class="highlight highlight-source-shell"&gt;&lt;pre&gt;uvx showboat init demo.md &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;Showboat Feature Demo&lt;span class="pl-pds"&gt;"&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Refresh that page and you should see this:&lt;/p&gt;
+&lt;p&gt;&lt;img alt='Title: Showboat. Remote viewer for Showboat documents. Showboat Feature Demo 2026-02-17 00:06 · 6 chunks, UUID. To send showboat output to this server, set the SHOWBOAT_REMOTE_URL environment variable: export SHOWBOAT_REMOTE_URL="http://127.0.0.1:8001/-/showboat/receive?token=your-token"' src="https://static.simonwillison.net/static/2026/datasette-showboat-documents.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;Click through to the document, then start Claude Code or Codex or your agent of choice and prompt:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Run 'uvx showboat --help' and then use showboat to add to the existing demo.md document with notes and exec and image to demonstrate the tool - fetch a placekitten for the image demo.&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The &lt;code&gt;init&lt;/code&gt; command assigns a UUID and title and sends those up to Datasette.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Animated demo - in the foreground a terminal window runs Claude Code, which executes various Showboat commands. In the background a Firefox window where the Showboat Feature Demo adds notes then some bash commands, then a placekitten image." src="https://static.simonwillison.net/static/2026/datasette-showboat.gif"/&gt;&lt;/p&gt;
+&lt;p&gt;The best part of this is that it works in Claude Code for web. Run the plugin on a server somewhere (an exercise left up to the reader - I use &lt;a href="https://fly.io/"&gt;Fly.io&lt;/a&gt; to host mine) and set that &lt;code&gt;SHOWBOAT_REMOTE_URL&lt;/code&gt; environment variable in your Claude environment, then any time you tell it to use Showboat the document it creates will be transmitted to your server and viewable in real time.&lt;/p&gt;
+&lt;p&gt;I built &lt;a href="https://simonwillison.net/2026/Feb/10/showboat-and-rodney/#rodney-cli-browser-automation-designed-to-work-with-showboat"&gt;Rodney&lt;/a&gt;, a CLI browser automation tool, specifically to work with Showboat. It makes it easy to have a Showboat document load up web pages, interact with them via clicks or injected JavaScript and captures screenshots to embed in the Showboat document and show the effects.&lt;/p&gt;
+&lt;p&gt;这对于使用Claude Code进行网页界面开发来说极其有用，特别是结合新的远程发布功能后。我今天早上才把这些功能调试好，就已经有好几次会话中，Claude Code发布了工作进度的截图，让我能在它继续工作的同时，直接在Claude会话中提供反馈。
+
+Chartroom
+
+几天前我又想到一个扩展Showboat生态系统的方法：如果Showboat文档能轻松嵌入图表会怎样？
+
+我有时会启动Claude Code进行数据分析任务，经常让它下载SQLite数据库，然后运行查询以从数据中发现有趣的信息。
+
+通过一个能生成PNG图像的简单CLI工具，我可以让Claude使用Showboat构建包含嵌入式图表的文档，以帮助说明其发现。
+
+Chartroom
+
+正是这样的工具。它本质上是优秀的
+
+matplotlib
+
+Python库的轻量级封装，专为编码代理设计，用于创建可嵌入Showboat文档的图表。
+
+以下是渲染简单条形图的方法：
+
+echo
+
+'
+name,value
+Alice,42
+Bob,28
+Charlie,35
+Diana,51
+Eve,19
+'
+
+|
+'
+Sales by Person
+'
+
+'
+Sales
+'
+
+它还能绘制折线图、条形图、散点图和直方图——正如
+
+这个演示文档
+
+所示，该文档是使用Showboat构建的。
+
+Chartroom还能生成替代文本。如果在上述命令中添加
+
+，它将输出图表的替代文本而非图像：
+
+echo
+
+'
+name,value
+Alice,42
+Bob,28
+Charlie,35
+Diana,51
+Eve,19
+'
+
+|
+'
+Sales by Person
+'
+
+'
+Sales
+'
+
+输出：
+
+或者您可以使用
+
+或
+
+直接获取带有替代文本的图像标签：
+
+![
+
+]
+
+(
+/Users/simon/chart-7.png
+)
+
+我在Showboat的
+
+v0.5.0
+
+版本中添加了对带有替代文本的Markdown图像的支持，以配合Chartroom的这一功能。
+
+最后，Chartroom支持不同的
+
+matplotlib样式
+
+。我让Claude构建了一个Showboat文档来集中展示这些样式——您可以在
+
+demo/styles.md
+
+查看。
+
+我是如何构建Chartroom的
+
+我使用我的
+
+click-app
+
+开始了Chartroom仓库的开发。&lt;/p&gt;
+&lt;h3 id="chartroom"&gt;Chartroom&lt;/h3&gt;
+&lt;p&gt;A few days ago I had another idea for a way to extend the Showboat ecosystem: what if Showboat documents could easily include charts?&lt;/p&gt;
+&lt;p&gt;I sometimes fire up Claude Code for data analysis tasks, often telling it to download a SQLite database and then run queries against it to figure out interesting things from the data.&lt;/p&gt;
+&lt;p&gt;With a simple CLI tool that produced PNG images I could have Claude use Showboat to build a document with embedded charts to help illustrate its findings.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/simonw/chartroom"&gt;Chartroom&lt;/a&gt;&lt;/strong&gt; is exactly that. It's effectively a thin wrapper around the excellent &lt;a href="https://matplotlib.org/"&gt;matplotlib&lt;/a&gt; Python library, designed to be used by coding agents to create charts that can be embedded in Showboat documents.&lt;/p&gt;
+&lt;p&gt;Here's how to render a simple bar chart:&lt;/p&gt;
+&lt;div class="highlight highlight-source-shell"&gt;&lt;pre&gt;&lt;span class="pl-c1"&gt;echo&lt;/span&gt; &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;'&lt;/span&gt;name,value&lt;/span&gt;
+&lt;span class="pl-s"&gt;Alice,42&lt;/span&gt;
+&lt;span class="pl-s"&gt;Bob,28&lt;/span&gt;
+&lt;span class="pl-s"&gt;Charlie,35&lt;/span&gt;
+&lt;span class="pl-s"&gt;Diana,51&lt;/span&gt;
+&lt;span class="pl-s"&gt;Eve,19&lt;span class="pl-pds"&gt;'&lt;/span&gt;&lt;/span&gt; &lt;span class="pl-k"&gt;|&lt;/span&gt; uvx chartroom bar --csv \
+  --title &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;'&lt;/span&gt;Sales by Person&lt;span class="pl-pds"&gt;'&lt;/span&gt;&lt;/span&gt; --ylabel &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;'&lt;/span&gt;Sales&lt;span class="pl-pds"&gt;'&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;a href="https://raw.githubusercontent.com/simonw/chartroom/8812afc02e1310e9eddbb56508b06005ff2c0ed5/demo/1f6851ec-2026-02-14.png" rel="noopener noreferrer nofollow" target="_blank"&gt;&lt;img alt="A chart of those numbers, with a title and y-axis label" src="https://raw.githubusercontent.com/simonw/chartroom/8812afc02e1310e9eddbb56508b06005ff2c0ed5/demo/1f6851ec-2026-02-14.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It can also do line charts, bar charts, scatter charts, and histograms - as seen in &lt;a href="https://github.com/simonw/chartroom/blob/0.2.1/demo/README.md"&gt;this demo document&lt;/a&gt; that was built using Showboat.&lt;/p&gt;
+&lt;p&gt;Chartroom can also generate alt text. If you add &lt;code&gt;-f alt&lt;/code&gt; to the above it will output the alt text for the chart instead of the image:&lt;/p&gt;
+&lt;div class="highlight highlight-source-shell"&gt;&lt;pre&gt;&lt;span class="pl-c1"&gt;echo&lt;/span&gt; &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;'&lt;/span&gt;name,value&lt;/span&gt;
+&lt;span class="pl-s"&gt;Alice,42&lt;/span&gt;
+&lt;span class="pl-s"&gt;Bob,28&lt;/span&gt;
+&lt;span class="pl-s"&gt;Charlie,35&lt;/span&gt;
+&lt;span class="pl-s"&gt;Diana,51&lt;/span&gt;
+&lt;span class="pl-s"&gt;Eve,19&lt;span class="pl-pds"&gt;'&lt;/span&gt;&lt;/span&gt; &lt;span class="pl-k"&gt;|&lt;/span&gt; uvx chartroom bar --csv \
+  --title &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;'&lt;/span&gt;Sales by Person&lt;span class="pl-pds"&gt;'&lt;/span&gt;&lt;/span&gt; --ylabel &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;'&lt;/span&gt;Sales&lt;span class="pl-pds"&gt;'&lt;/span&gt;&lt;/span&gt; -f alt&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Outputs:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Sales by Person. Bar chart of value by name — Alice: 42, Bob: 28, Charlie: 35, Diana: 51, Eve: 19
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Or you can use &lt;code&gt;-f html&lt;/code&gt; or &lt;code&gt;-f markdown&lt;/code&gt; to get the image tag with alt text directly:&lt;/p&gt;
+&lt;div class="highlight highlight-text-md"&gt;&lt;pre&gt;&lt;span class="pl-s"&gt;![&lt;/span&gt;Sales by Person. Bar chart of value by name — Alice: 42, Bob: 28, Charlie: 35, Diana: 51, Eve: 19&lt;span class="pl-s"&gt;]&lt;/span&gt;&lt;span class="pl-s"&gt;(&lt;/span&gt;&lt;span class="pl-corl"&gt;/Users/simon/chart-7.png&lt;/span&gt;&lt;span class="pl-s"&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;I added support for Markdown images with alt text to Showboat in &lt;a href="https://github.com/simonw/showboat/releases/tag/v0.5.0"&gt;v0.5.0&lt;/a&gt;, to complement this feature of Chartroom.&lt;/p&gt;
+&lt;p&gt;Finally, Chartroom has support for different &lt;a href="https://matplotlib.org/stable/gallery/style_sheets/style_sheets_reference.html"&gt;matplotlib styles&lt;/a&gt;. I had Claude build a Showboat document to demonstrate these all in one place - you can see that at &lt;a href="https://github.com/simonw/chartroom/blob/main/demo/styles.md"&gt;demo/styles.md&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 id="how-i-built-chartroom"&gt;How I built Chartroom&lt;/h4&gt;
+&lt;p&gt;I started the Chartroom repository with my &lt;a href="https://github.com/simonw/click-app"&gt;click-app&lt;/a&gt;我们正在构建一个Python CLI工具，该工具使用matplotlib生成包含图表的PNG图像。它将具有多个子命令，对应不同的图表类型，并通过命令行选项进行控制。所有使用所需信息都将通过单一的"chartroom --help"输出提供。
+
+该工具将接受来自文件或标准输入的CSV、TSV或JSON格式数据，类似于sqlite-utils处理数据的方式——可克隆simonw/sqlite-utils到/tmp目录作为参考。同时克隆matplotlib/matplotlib以供参考。
+
+它还将支持通过"--sql path/to/sqlite.db 'select ...'"参数从SQLite数据库读取数据，该查询将以只读模式执行。
+
+请先提出澄清性问题（注意不要使用已损坏的"ask user"工具），并生成一份规范供我批准。
+
+批准后，请使用红绿测试驱动开发方法，通过"uv run pytest"运行测试进行开发。
+
+在构建过程中，请使用"uvx showboat --help"工具维护demo/README.md文档——每完成一个新图表类型，请提交测试代码、实现代码、根目录README更新，以及包含新图表类型内嵌图像演示的新版demo/README.md文档（图像文件名应采用由showboat image命令管理的UUID格式，并存储在demo/文件夹中）。
+
+确保"uv build"能够正常运行且不报错关于额外目录的问题，同时确保dist/和uv.lock文件被列入gitignore。
+
+这项工作大部分已完成。其余部分可在后续的PR中查看。
+
+不断发展的Showboat生态系统
+
+Showboat工具系列目前包含：
+
+Showboat本体、
+用于浏览器自动化的Rodney、
+用于图表生成的Chartroom、
+以及用于将远程Showboat文档流式传输到Datasette的datasette-showboat。
+
+我很欣赏这些工具能够基于一套非常宽松的约定协同工作。任何能输出图像路径的工具，Showboat都能将其图像包含在文档中。任何能输出文本的工具都能与Showboat配合使用。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We are building a Python CLI tool which uses matplotlib to generate a PNG image containing a chart. It will have multiple sub commands for different chart types, controlled by command line options. Everything you need to know to use it will be available in the single "chartroom --help" output.&lt;/p&gt;
+&lt;p&gt;It will accept data from files or standard input as CSV or TSV or JSON, similar to how sqlite-utils accepts data - clone simonw/sqlite-utils to /tmp for reference there. Clone matplotlib/matplotlib for reference as well&lt;/p&gt;
+&lt;p&gt;It will also accept data from --sql path/to/sqlite.db "select ..." which runs in read-only mode&lt;/p&gt;
+&lt;p&gt;Start by asking clarifying questions - do not use the ask user tool though it is broken - and generate a spec for me to approve&lt;/p&gt;
+&lt;p&gt;Once approved proceed using red/green TDD running tests with "uv run pytest"&lt;/p&gt;
+&lt;p&gt;Also while building maintain a demo/README.md document using the "uvx showboat --help" tool - each time you get a new chart type working commit the tests, implementation, root level
+README update and a new version of that demo/README.md document with an inline image demo of the new chart type (which should be a UUID image filename managed by the showboat image command and should be stored in the demo/ folder&lt;/p&gt;
+&lt;p&gt;Make sure "uv build" runs cleanly without complaining about extra directories but also ensure dist/ and uv.lock are in gitignore&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This got most of the work done. You can see the rest &lt;a href="https://github.com/simonw/chartroom/pulls?q=is%3Apr+is%3Aclosed"&gt;in the PRs&lt;/a&gt; that followed.&lt;/p&gt;
+&lt;h4 id="the-burgeoning-showboat-ecosystem"&gt;The burgeoning Showboat ecosystem&lt;/h4&gt;
+&lt;p&gt;The Showboat family of tools now consists of &lt;a href="https://github.com/simonw/showboat"&gt;Showboat&lt;/a&gt; itself, &lt;a href="https://github.com/simonw/rodney"&gt;Rodney&lt;/a&gt; for browser automation, &lt;a href="https://github.com/simonw/chartroom"&gt;Chartroom&lt;/a&gt; for charting and &lt;a href="https://github.com/simonw/datasette-showboat"&gt;datasette-showboat&lt;/a&gt; for streaming remote Showboat documents to Datasette.&lt;/p&gt;
+&lt;p&gt;I'm enjoying how these tools can operate together based on a very loose set of conventions. If a tool can output a path to an image Showboat can include that image in a document. Any tool that can output text can be used with Showboat.&lt;/p&gt;
+&lt;p&gt;我几乎肯定会构建更多符合这种模式的工具。它们开发起来非常快！
+
+Showboat远程流的环境变量机制也是个有趣的技巧——目前我只用它把文档流式传输到其他地方，但这本质上是一种webhook扩展机制，很可能用于我尚未想到的各种用途。
+
+标签：
+项目、人工智能、Datasette、生成式AI、大语言模型、AI辅助编程、编码代理、Claude Code、Showboat&lt;/p&gt;
+&lt;p&gt;The environment variable mechanism for Showboat's remote streaming is a fun hack too - so far I'm just using it to stream documents somewhere else, but it's effectively a webhook extension mechanism that could likely be used for all sorts of things I haven't thought of yet.&lt;/p&gt;
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/projects"&gt;projects&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/datasette"&gt;datasette&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/showboat"&gt;showboat&lt;/a&gt;&lt;/p&gt;</description><pubDate>Tue, 17 Feb 2026 00:43:45 +0000</pubDate></item><item><title>罗德尼与克劳德桌面版代码</title><link>https://simonwillison.net/2026/Feb/16/rodney-claude-code/#atom-everything</link><description>&lt;p&gt;我是Claude Code网页版的重度用户，这是Anthropic公司推出的云端版本Claude Code——虽然名字起得不怎么样，但产品本身非常出色。所有操作都在他们管理的容器环境中运行，这大大降低了我珍视的电脑遭受任何损害的风险。
 
 我完全不用网页界面（这也是我不喜欢这个名字的原因），只通过他们原生的iPhone和Mac桌面应用来访问。
 
@@ -327,24 +584,4 @@ One of the sub-threads of the AI energy usage discourse has been the impact new 
 &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/open-source"&gt;开源&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai-agents"&gt;AI智能体&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;AI伦理&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/openclaw"&gt;OpenClaw&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai-misuse"&gt;AI滥用&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Thu, 12 Feb 2026 17:45:05 +0000</pubDate></item><item><title>监督者，而非监工</title><link>https://simonwillison.net/2026/Feb/12/supervisor/#atom-everything</link><description>&lt;p&gt;在我关于Showboat项目的帖子中，我用了“overseer”这个词来指代管理编码代理的人。后来发现这个词与奴隶制和种植园管理有关联。这确实令人不适！我已经把帖子里的这个词改成了“supervisor”，以后也会继续使用这个说法。
 
 标签：语言&lt;a href="https://simonwillison.net/2026/Feb/10/showboat-and-rodney/"&gt;post about my Showboat project&lt;/a&gt; I used the term "overseer" to refer to the person who manages a coding agent. It turns out that's a term tied to &lt;a href="https://en.wikipedia.org/wiki/Plantations_in_the_American_South#Overseer"&gt;slavery and plantation management&lt;/a&gt;. So that's gross! I've edited that post to use "supervisor" instead, and I'll be using that going forward.&lt;/p&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/language"&gt;language&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 12 Feb 2026 16:47:04 +0000</pubDate></item><item><title>引自尼曼实验室的安德鲁·德克</title><link>https://simonwillison.net/2026/Feb/11/manosphere-report/#atom-everything</link><description>&lt;blockquote cite="https://www.niemanlab.org/2026/02/how-the-new-york-times-uses-a-custom-ai-tool-to-track-the-manosphere/"&gt;&lt;p&gt;一份直接发送至记者邮箱的AI生成报告，成为《纽约时报》报道的重要工具。这也是保守派媒体开始反对政府的最初信号之一[...]
-
-这款内部开发、代号为"男性圈层报告"的工具，利用大语言模型对数十档播客的新节目进行转录和摘要分析。
-
-"男性圈层报告让我们快速清晰地意识到，总统的部分基本盘对此并不买账，"苏厄德表示，"看到这份报告后，我们立即跟进并展开深入报道。"
-
-——  
-安德鲁·德克为尼曼实验室撰稿  
-《纽约时报如何运用定制AI工具追踪"男性圈层"动态》
-
-标签：  
-生成式人工智能  
-纽约时报  
-新闻业  
-人工智能  
-数据新闻  
-大语言模型&lt;/p&gt;
-&lt;p&gt;Built in-house and known internally as the “Manosphere Report,” the tool uses large language models (LLMs) to transcribe and summarize new episodes of dozens of podcasts.&lt;/p&gt;
-&lt;p&gt;“The Manosphere Report gave us a really fast and clear signal that this was not going over well with that segment of the President’s base,” said Seward. “There was a direct link between seeing that and then diving in to actually cover it.”&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class="cite"&gt;— &lt;a href="https://www.niemanlab.org/2026/02/how-the-new-york-times-uses-a-custom-ai-tool-to-track-the-manosphere/"&gt;Andrew Deck for Niemen Lab&lt;/a&gt;, How The New York Times uses a custom AI tool to track the “manosphere”&lt;/p&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/new-york-times"&gt;new-york-times&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/journalism"&gt;journalism&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/data-journalism"&gt;data-journalism&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 11 Feb 2026 20:59:03 +0000</pubDate></item></channel></rss>
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/language"&gt;language&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 12 Feb 2026 16:47:04 +0000</pubDate></item></channel></rss>

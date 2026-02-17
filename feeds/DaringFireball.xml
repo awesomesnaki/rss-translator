@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sun, 15 Feb 2026 23:39:14 +0000</lastBuildDate><item><title>WorkOS 管道</title><link>https://workos.com/docs/pipes?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q12026&amp;utm_content=no_rebuild</link><description>&lt;p&gt;感谢WorkOS上周对DF的赞助。将用户账户与第三方API连接总是涉及相同的繁琐流程：OAuth授权、令牌存储、刷新逻辑以及各平台的特殊处理。WorkOS Pipes消除了这些负担。用户通过即插即用的小部件即可连接GitHub、Slack、Google、Salesforce等支持的服务。您的后端只需在需要时从Pipes API获取有效访问令牌，而凭证存储和令牌刷新均由Pipes自动处理。仅此而已。
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 17 Feb 2026 00:01:00 +0000</lastBuildDate><item><title>[赞助商] 动手实践工作坊：快速修复——Sentry平台上的iOS崩溃报告、追踪与日志分析</title><link>https://sentry.io/resources/ios-workshop-jan-2026/?utm_source=daringfireball&amp;utm_medium=paid-display&amp;utm_campaign=general-fy27q1-evergreen&amp;utm_content=static-ad-mobilerss-trysentry</link><description>&lt;p&gt;了解如何将iOS应用中的卡顿、崩溃与用户体验联系起来。本次点播课程涵盖以下内容：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;配置Sentry以发现高优先级移动问题，同时避免警报疲劳。&lt;/li&gt;
+&lt;li&gt;利用日志和面包屑追溯崩溃发生的过程。&lt;/li&gt;
+&lt;li&gt;通过追踪功能定位性能瓶颈的根源。&lt;/li&gt;
+&lt;li&gt;使用大小分析工具监控并缩减iOS应用体积。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://sentry.io/resources/ios-workshop-jan-2026/?utm_source=daringfireball&amp;amp;utm_medium=paid-display&amp;amp;utm_campaign=general-fy27q1-evergreen&amp;amp;utm_content=static-ad-mobilerss-trysentry"&gt;点击此处观看&lt;/a&gt;。&lt;/p&gt;
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/feeds/sponsors/2026/02/hands-on_workshop_fix_it_faste" title="Permanent link to ‘Hands-On Workshop: Fix It Faster — Crash Reporting, Tracing, and Logs for iOS in Sentry’"&gt;★&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Tue, 17 Feb 2026 00:01:00 +0000</pubDate></item><item><title>WorkOS 管道</title><link>https://workos.com/docs/pipes?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q12026&amp;utm_content=no_rebuild</link><description>&lt;p&gt;感谢WorkOS上周对DF的赞助。将用户账户与第三方API连接总是涉及相同的繁琐流程：OAuth授权、令牌存储、刷新逻辑以及各平台的特殊处理。WorkOS Pipes消除了这些负担。用户通过即插即用的小部件即可连接GitHub、Slack、Google、Salesforce等支持的服务。您的后端只需在需要时从Pipes API获取有效访问令牌，而凭证存储和令牌刷新均由Pipes自动处理。仅此而已。
 
 用WorkOS Pipes简化您的集成流程
 
@@ -379,63 +389,4 @@ political parties, from Conservatives to Anarchists — is designed
 to make lies sound truthful and murder respectable, and to give an
 appearance of solidity to pure wind.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;明尼苏达州更冷，但库比蒂诺的风更大。&lt;/p&gt;</description><pubDate>Wed, 28 Jan 2026 22:00:24 +0000</pubDate></item><item><title>库克就“明尼阿波利斯事件”致信员工</title><link>https://www.macrumors.com/2026/01/27/tim-cook-responds-after-minneapolis-shootings/</link><description>&lt;p&gt;蒂姆·库克在公司内部备忘录中写道（该备忘录由马克·古尔曼首次发布）：
-
-团队：
-
-明尼阿波利斯发生的事件让我心碎，我为所有受影响的家庭、社区和每个人祈祷，并致以最深切的同情。
-
-现在是缓和局势的时候了。我相信，当我们践行最高理想，无论对方是谁、来自何方，都以尊严和尊重相待，并拥抱我们共同的人性时，美国才是最强大的。这是苹果公司一直倡导的理念。本周我与总统进行了很好的交流，我分享了我的观点，并感谢他愿意就我们共同关心的问题进行对话。
-
-我知道这对许多人来说是非常情绪化和具有挑战性的时刻。我为我们的团队深切关心公司以外的世界而感到自豪。这种同理心是苹果公司最大的优势之一，我相信这也是我们所有人都珍视的品质。
-
-感谢大家所做的一切。
-
-蒂姆
-
-“事件”这个词在这里承载了太多含义，用以描述明尼阿波利斯已经发生和正在发生的一切。
-
-特朗普在这个特定“问题”上的“开放态度”体现在：他撤换了格雷格·博维诺——那位身材矮小、模仿希姆莱风格的边境巡逻队“总指挥”，此人曾顽固坚称，在亚历克斯·普雷蒂被杀案中，真正的受害者是开枪的边境巡逻队特工——取而代之的是“边境沙皇”汤姆·霍曼，此人曾从联邦调查局卧底探员那里收受5万美元现金贿赂，以换取在特朗普连任后授予政府合同的承诺。
-
-扎克·霍尔在Twitter/X上写道：
-
-库克花了三天时间，在一份非公开声明中没有提及亚历克斯·普雷蒂的名字；又花了20天，在另一份非公开声明中没有提及蕾妮·古德的名字。[……]
-
-2020年，蒂姆·库克在苹果官网首页写道：“此刻，我们国家的灵魂和数百万人的心中都刻着深深的痛苦。为了团结一致，我们必须相互支持，并认识到乔治·弗洛伊德的无谓杀害以及更久远的种族主义历史所引发的恐惧、伤害和愤怒。”&lt;a href="https://www.bloomberg.com/news/articles/2026-01-28/apple-s-cook-calls-for-deescalation-after-latest-ice-shooting"&gt;Mark Gurman&lt;/a&gt;):&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Team, &lt;br/&gt;
-I’m heartbroken by the events in Minneapolis, and my prayers and
-deepest sympathies are with the families, with the communities,
-and with everyone that’s been affected.&lt;/p&gt;
-&lt;p&gt;This is a time for deescalation. I believe America is strongest
-when we live up to our highest ideals, when we treat everyone with
-dignity and respect no matter who they are or where they’re from,
-and when we embrace our shared humanity. This is something Apple
-has always advocated for. I had a good conversation with the
-president this week where I shared my views, and I appreciate his
-openness to engaging on issues that matter to us all.&lt;/p&gt;
-&lt;p&gt;I know this is very emotional and challenging for so many. I am
-proud of how deeply our teams care about the world beyond our
-walls. That empathy is one of Apple’s greatest strengths and it is
-something I believe we all cherish.&lt;/p&gt;
-&lt;p&gt;Thank you for all that you do. &lt;br/&gt;
-Tim&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;“Events” is doing a lot of work there, to describe what has happened and is happening in Minneapolis.&lt;/p&gt;
-&lt;p&gt;Trump’s “openness” on this particular “issue” has been to &lt;a href="https://www.theatlantic.com/politics/2026/01/greg-bovino-demoted-minneapolis-border-patrol/685770/"&gt;replace Greg Bovino&lt;/a&gt; — the &lt;a href="https://www.thetimes.com/us/american-politics/article/gregory-bovino-coat-border-patrol-j29xxmzmj"&gt;diminutive Himmler-cosplaying&lt;/a&gt; “commander at large” of Border Control, who insisted, adamantly, &lt;a href="https://www.politico.com/news/2026/01/25/bovino-border-patrol-agents-minneapolis-victims-00745702"&gt;that the real victims in Alex Pretti’s murder were the Border Patrol agents&lt;/a&gt; who shot him — &lt;a href="https://www.bbc.com/news/articles/cjw1pn4lwjqo"&gt;with “border czar” Tom Homan&lt;/a&gt;, a man who took a &lt;a href="https://www.ms.now/news/tom-homan-cash-contracts-trump-doj-investigation-rcna232568"&gt;$50,000 cash bribe from undercover FBI agents&lt;/a&gt; in exchange for a promise to award them government contracts if Trump were reelected.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://x.com/apollozac/status/2016346258772770826"&gt;Zac Hall, on Twitter/X&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Cook took three days to not name Alex Pretti in his not public
-statement and 20 days to not name Renée Good in his not public
-statement. [...]&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.apple.com/speaking-up-on-racism/"&gt;2020 Tim Cook on Apple’s homepage&lt;/a&gt;: “Right now, there is a
-pain deeply etched in the soul of our nation and in the hearts of
-millions. To stand together, we must stand up for one another, and
-recognize the fear, hurt, and outrage rightly provoked by the
-senseless killing of George Floyd and a much longer history of
-racism.”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;与2020年相比，这次传递的信息（以及媒介——这次苹果官网上没有任何内容，更不用说其主页了）截然不同，针对的是我认为更为令人震惊和不安的杀戮事件。&lt;/p&gt;
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/01/28/tim-cook-memo" title="Permanent link to ‘Tim Cook Wrote a Memo on the ‘Events in Minneapolis’’"&gt; ★ &lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Wed, 28 Jan 2026 19:13:41 +0000</pubDate></item></channel></rss>
+&lt;p&gt;明尼苏达州更冷，但库比蒂诺的风更大。&lt;/p&gt;</description><pubDate>Wed, 28 Jan 2026 22:00:24 +0000</pubDate></item></channel></rss>
