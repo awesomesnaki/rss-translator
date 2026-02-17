@@ -1,5 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 17 Feb 2026 00:01:00 +0000</lastBuildDate><item><title>[赞助商] 动手实践工作坊：快速修复——Sentry平台上的iOS崩溃报告、追踪与日志分析</title><link>https://sentry.io/resources/ios-workshop-jan-2026/?utm_source=daringfireball&amp;utm_medium=paid-display&amp;utm_campaign=general-fy27q1-evergreen&amp;utm_content=static-ad-mobilerss-trysentry</link><description>&lt;p&gt;了解如何将iOS应用中的卡顿、崩溃与用户体验联系起来。本次点播课程涵盖以下内容：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 17 Feb 2026 18:49:55 +0000</lastBuildDate><item><title>★苹果发布iOS 26采用率，与过去几年基本持平</title><link>https://daringfireball.net/2026/02/apple_releases_ios_26_adoption_rates</link><description>&lt;p&gt;&lt;a href="https://daringfireball.net/linked/2026/02/17/how-to-force-restart-an-iphone"&gt;说到iOS 26，这里是MacRumors的乔·罗西尼奥尔带来的报道：
+
+苹果公司近日公布了iOS 26和iPadOS 26的最新装机数据，揭示了运行这两个系统版本的iPhone和iPad数量。根据苹果官方说明，这些数据基于2026年2月12日在App Store产生交易行为的设备统计，具体如下：
+
+- 近四年发布的iPhone中，74%已升级至iOS 26
+- 所有iPhone设备中，66%运行iOS 26系统
+- 近四年发布的iPad中，66%已升级至iPadOS 26
+- 所有iPad设备中，57%运行iPadOS 26系统
+
+与此前数据对比，苹果曾基于2025年1月21日App Store交易设备统计的iOS 18装机情况为：
+- 近四年发布的iPhone中，76%运行iOS 18
+- 所有iPhone设备中，68%运行iOS 18
+- 近四年发布的iPad中，63%运行iPadOS 18
+- 所有iPad设备中，53%运行iPadOS 18
+
+通过互联网档案馆（说真的，没有它我们该怎么办？），这里还有苹果两年前公布的iOS 17数据（统计日期为2024年2月4日）：
+- 近四年发布的iPhone中，76%运行iOS 17
+- 所有iPhone设备中，66%运行iOS 17
+- 近四年发布的iPad中，61%运行iPadOS 17
+- 所有iPad设备中，53%运行iPadOS 17
+
+这些正是我三周前追踪那些荒谬报道时等待的关键数据——当时有基于StatCounter明显虚假数据的报道声称iOS 26装机率低得离谱。我当时就指出：&lt;/a&gt; iOS 26, here’s &lt;a href="https://www.macrumors.com/2026/02/13/apple-shares-ios-26-adoption-stats/"&gt;Joe Rossignol reporting for MacRumors&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Apple has shared updated &lt;a href="https://developer.apple.com/support/app-store/"&gt;iOS 26 and iPadOS 26 adoption
+figures&lt;/a&gt;, revealing how many iPhones and iPads are running
+those software versions. These adoption numbers are based on
+iPhones and iPads that transacted on the App Store on February 12,
+2026, according to Apple. The statistics are as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;74% of all iPhones introduced in the last four years are running
+iOS 26.&lt;/li&gt;
+&lt;li&gt;66% of all iPhones are running iOS 26.&lt;/li&gt;
+&lt;li&gt;66% of all iPads introduced in the last four years are running
+iPadOS 26.&lt;/li&gt;
+&lt;li&gt;57% of all iPads are running iPadOS 26.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here is how that compares to the &lt;a href="https://www.macrumors.com/2025/01/24/ios-18-adoption-rate/"&gt;iOS 18 adoption figures&lt;/a&gt; that
+Apple shared based on iPhones and iPads that transacted on the App
+Store on January 21, 2025:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;76% of all iPhones introduced in the last four years were
+running iOS 18.&lt;/li&gt;
+&lt;li&gt;68% of all iPhones were running iOS 18.&lt;/li&gt;
+&lt;li&gt;63% of all iPads introduced in the last four years were running
+iPadOS 18.&lt;/li&gt;
+&lt;li&gt;53% of all iPads were running iPadOS 18.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Via the Internet Archive (seriously, what would we do without them?), &lt;a href="https://web.archive.org/web/20240206013405/https://developer.apple.com/support/app-store/"&gt;here are the numbers Apple released for iOS 17 two years ago&lt;/a&gt;, with data collected on 4 February 2024:&lt;sup id="fnr1-2026-02-17"&gt;&lt;a href="https://daringfireball.net/#fn1-2026-02-17"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;76% of all iPhones introduced in the last four years were
+running iOS 17.&lt;/li&gt;
+&lt;li&gt;66% of all iPhones were running iOS 17.&lt;/li&gt;
+&lt;li&gt;61% of all iPads introduced in the last four years were running
+iPadOS 17.&lt;/li&gt;
+&lt;li&gt;53% of all iPads were running iPadOS 17.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These are the numbers I was waiting for &lt;a href="https://daringfireball.net/linked/2026/01/29/apples-own-ios-adoption-numbers"&gt;when I followed up three weeks ago&lt;/a&gt; about the silly stories, &lt;a href="https://daringfireball.net/2026/01/ios_26_adoption_rate_is_not_bizarrely_low"&gt;based on obviously bogus data from StatCounter&lt;/a&gt;, that iOS 26’s adoption rate was absurdly low. &lt;a href="https://daringfireball.net/2026/01/ios_26_adoption_rate_is_not_bizarrely_low"&gt;I wrote then&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;显而易见的是，苹果公司正在放缓iOS 26自动更新的推送节奏。多年来，苹果通过设备初始化时的默认设置引导用户启用自动更新选项，其中就包含重大新版本的系统升级。但苹果通常不会在9月发布.0正式版后立即推送大版本自动更新，而是会等待两个月左右。今年第二波推送比往年推迟了约两周，现在甚至出现了第三波推送——时间点落在一月中旬。这与往年的节奏明显不同，但主动权始终掌握在苹果手中。绝大多数苹果设备用户只会在自动更新机制触发时升级大版本系统。而今年iOS 26的自动更新推送速度，确实比近年来的iOS 17和18更缓慢。这完全情有可原！毕竟相比前两代系统，iOS 26的改动幅度更大，系统漏洞也更多。
+
+至少从苹果官方应用商店的数据来看，iOS 26的安装率与iOS 18、17同期基本持平。
+
+纵观近三年数据，唯一明显的趋势其实与iPhone无关：无论是新款机型还是全系机型，iPad系统的升级率都在持续攀升。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;At least according to Apple’s own numbers from the App Store, iOS 26 adoption is pretty much exactly in line with the rates for iOS 18 and 17.&lt;/p&gt;
+&lt;div class="footnotes"&gt;
+&lt;hr/&gt;
+&lt;ol&gt;
+&lt;li id="fn1-2026-02-17"&gt;
+&lt;p&gt;Looking at these last three years, the only real trend has nothing to do with the iPhone. It’s that the adoption rate for iPads — in both categories, recent models and all models — is trending upward. &lt;a class="footnoteBackLink" href="https://daringfireball.net/#fnr1-2026-02-17" title="Jump back to footnote 1 in the text."&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description><pubDate>Tue, 17 Feb 2026 18:49:55 +0000</pubDate></item><item><title>如何强制重启 iPhone</title><link>https://support.apple.com/guide/iphone/force-restart-iphone-iph8903c3ee6/ios</link><description>&lt;p&gt;苹果技术支持：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;若iPhone无响应且无法&lt;a href="https://support.apple.com/guide/iphone/turn-iphone-on-or-off-iph841379c3d/26/ios/26#iph6c6b41f36"&gt;通过关机重启&lt;/a&gt;，请尝试强制重启。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;按下并快速松开调高音量按钮。&lt;/li&gt;
+&lt;li&gt;按下并快速松开调低音量按钮。&lt;/li&gt;
+&lt;li&gt;长按侧边按钮。&lt;/li&gt;
+&lt;li&gt;当苹果标志出现时，松开侧边按钮。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;今早我将iPhone 17 Pro升级至&lt;a href="https://www.macrumors.com/guide/ios-26-3-features/"&gt;iOS 26.3&lt;/a&gt;（直接从iOS 26.2正式版升级，跳过了26.3测试版），中午时分设备卡在锁屏界面。同时长按侧边按钮和音量键并未出现预期的“滑动关机”“医疗急救卡”和“紧急呼叫”界面。&lt;/p&gt;
+&lt;p&gt;但上述强制重启方法确实有效。我知道这个操作但忘记了具体步骤。幸好当时正坐在Mac电脑前，能用其他设备查询方法。若当时身边只有（卡住的）iPhone，处境就会很棘手，因此这个方法值得牢记。&lt;/p&gt;
+&lt;p&gt;第三步“长按侧边按钮”需要持续数秒屏幕才会熄灭。我将操作流程简记为三步：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;点按调高音量键。&lt;/li&gt;
+&lt;li&gt;点按调低音量键。&lt;/li&gt;
+&lt;li&gt;保持耐心长按侧边键，直至苹果标志出现。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/02/17/how-to-force-restart-an-iphone" title="Permanent link to ‘How to Force Restart an iPhone’"&gt;★&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Tue, 17 Feb 2026 17:20:01 +0000</pubDate></item><item><title>[赞助商] 动手实践工作坊：快速修复——Sentry平台上的iOS崩溃报告、追踪与日志分析</title><link>https://sentry.io/resources/ios-workshop-jan-2026/?utm_source=daringfireball&amp;utm_medium=paid-display&amp;utm_campaign=general-fy27q1-evergreen&amp;utm_content=static-ad-mobilerss-trysentry</link><description>&lt;p&gt;了解如何将iOS应用中的卡顿、崩溃与用户体验联系起来。本次点播课程涵盖以下内容：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;配置Sentry以发现高优先级移动问题，同时避免警报疲劳。&lt;/li&gt;
 &lt;li&gt;利用日志和面包屑追溯崩溃发生的过程。&lt;/li&gt;
@@ -298,95 +391,4 @@ call from an unknown caller to add them to Contacts.&lt;/p&gt;
 &lt;p&gt;每月2美元或每年15美元。对于如此出色的应用来说，这简直是物超所值。&lt;/p&gt;
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/linked/2026/01/28/aeronaut" title="Permanent link to ‘Aeronaut 1.0’"&gt;★&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Wed, 28 Jan 2026 22:58:24 +0000</pubDate></item><item><title>布鲁斯·斯普林斯汀：《明尼阿波利斯街头》</title><link>https://brucespringsteen.net/news/2026/streets-of-minneapolis/</link><description>&lt;p&gt;布鲁斯·斯普林斯汀：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;这首歌写于周六，昨日录制完成，今日为回应明尼阿波利斯市正在遭受的国家恐怖主义而发布。谨以此歌献给明尼阿波利斯人民，献给我们无辜的移民邻居，并纪念亚历克斯·普雷蒂与蕾妮·古德。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;歌词中最有力的一句：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;他们声称是正当防卫，&lt;br/&gt;只是别相信你的眼睛。&lt;br/&gt;以我们的血肉之躯，以这些哨声与手机&lt;br/&gt;对抗米勒与诺姆的肮脏谎言。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a href="https://bsky.app/profile/marisakabas.bsky.social/post/3mdjdmowr622r"&gt;哨声&lt;/a&gt;、手机与&lt;a href="https://youtu.be/m3otpjno0UQ?t=300"&gt;飞鸟&lt;/a&gt;。&lt;/p&gt;
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/01/28/springsteen-streets-of-minneapolis" title="Permanent link to ‘Bruce Springsteen: ‘Streets of Minneapolis’’"&gt;★&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Wed, 28 Jan 2026 22:53:27 +0000</pubDate></item><item><title>★政治与英语语言，2026年1月版</title><link>https://daringfireball.net/2026/01/politics_and_the_english_language_january_2026_edition</link><description>&lt;p&gt;帕特里克·麦吉（去年畅销书《苹果在中国》作者，五月曾做客《脱口秀》节目）在推特/X上评论蒂姆·库克关于“明尼阿波利斯事件”的全公司备忘录：这完全是一篇刻意为之的懦弱空文。这类语言正是奥威尔笔下政客的典型特征——陈词滥调自动堆砌，阻隔任何真实思考的穿透。
-
-我曾多次推荐乔治·奥威尔1946年的开创性文章《政治与英语》。这次引用另一段落：我们这个时代的政治文章多半是拙劣之作。若非如此，通常会发现作者是某种叛逆者，表达个人观点而非“党派路线”。任何正统思想，无论何种色彩，似乎都要求一种死气沉沉、模仿套用的文风。宣传册、社论、宣言、白皮书及次官演讲中的政治术语，固然因党派而异，但共同点在于：几乎找不到鲜活生动、独具匠心的表达。当你看到某个疲惫的应声虫在讲台上机械重复那些熟套短语——兽行、暴虐、铁蹄、血染的暴政、世界自由人民、肩并肩站在一起……&lt;em&gt;&lt;a href="https://bookshop.org/p/books/apple-in-china-the-capture-of-the-world-s-greatest-company-patrick-mcgee/496b96d06a984e01?ean=9781668053379&amp;amp;next=t&amp;amp;next=t&amp;amp;affiliate=56320"&gt;Apple in China&lt;/a&gt;&lt;/em&gt;, and &lt;a href="https://daringfireball.net/thetalkshow/2025/05/29/ep-423"&gt;guest on The Talk Show in May&lt;/a&gt;), &lt;a href="https://x.com/patrickmcgee_/status/2016344451036413984"&gt;commenting on Twitter/X&lt;/a&gt; re: &lt;a href="https://daringfireball.net/linked/2026/01/28/tim-cook-memo"&gt;Tim Cook’s company-wide memo&lt;/a&gt; regarding the “events in Minneapolis”:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;This literally says nothing, via intention and cowardice.&lt;/p&gt;
-&lt;p&gt;It’s the kind of language Orwell attributed to politicians, when
-ready-made phrases assemble themselves and prevent any real
-thought from breaking through.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;I have &lt;a href="https://daringfireball.net/linked/2014/07/21/orwell-politics-english-language"&gt;previously linked&lt;/a&gt; to George Orwell’s seminal 1946 essay, “&lt;a href="https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/"&gt;Politics and the English Language&lt;/a&gt;”. This time I’ll quote a different passage:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;In our time it is broadly true that political writing is bad
-writing. Where it is not true, it will generally be found that the
-writer is some kind of rebel, expressing his private opinions and
-not a “party line”. Orthodoxy, of whatever colour, seems to demand
-a lifeless, imitative style. The political dialects to be found in
-pamphlets, leading articles, manifestos, White papers and the
-speeches of undersecretaries do, of course, vary from party to
-party, but they are all alike in that one almost never finds in
-them a fresh, vivid, homemade turn of speech. When one watches
-some tired hack on the platform mechanically repeating the
-familiar phrases — &lt;em&gt;bestial, atrocities, iron heel, bloodstained
-tyranny, free peoples of the world, stand shoulder to shoulder&lt;/em&gt;——人们常常有一种奇怪的感觉，觉得自己不是在观看一个活生生的人，而是在观看某种傀儡：这种感觉在灯光照到演讲者的眼镜上、把镜片变成空白圆盘、仿佛后面没有眼睛的瞬间，会突然变得更加强烈。这并非完全是幻想。一个使用那种措辞的演讲者，已经在某种程度上把自己变成了一台机器。适当的噪音正从他的喉部发出，但他的大脑并未参与其中，不像他自己选择措辞时那样。如果他的演讲是他习惯了一遍又一遍重复的内容，他可能几乎意识不到自己在说什么，就像人们在教堂里念诵回应祷文时一样。而这种意识降低的状态，即使不是不可或缺的，至少也有利于政治上的顺从。
-
-在我们这个时代，政治演讲和写作在很大程度上是在为不可辩护的事情辩护。诸如英国在印度统治的延续、俄国的大清洗和流放、对日本投掷原子弹等事情，确实可以被辩护，但只能通过大多数人不愿面对的、过于残酷的论点，而这些论点与政党公开宣称的目标并不相符。因此，政治语言不得不主要由委婉语、循环论证和纯粹的模糊不清构成。无防御的村庄遭到空中轰炸，居民被驱赶到乡下，牲畜被机枪扫射，棚屋被燃烧弹点燃：这被称为
-
-绥靖
-
-。数百万农民被剥夺农场，只能携带随身物品沿路跋涉：这被称为
-
-人口迁移
-
-或
-
-边界调整
-
-。人们未经审判被监禁多年，或被从后颈枪决，或被送往北极伐木营死于坏血病：这被称为
-
-清除不可靠分子&lt;/p&gt;
-&lt;p&gt;In our time, political speech and writing are largely the defence
-of the indefensible. Things like the continuance of British rule
-in India, the Russian purges and deportations, the dropping of the
-atom bombs on Japan, can indeed be defended, but only by arguments
-which are too brutal for most people to face, and which do not
-square with the professed aims of the political parties. Thus
-political language has to consist largely of euphemism,
-question-begging and sheer cloudy vagueness. Defenceless villages
-are bombarded from the air, the inhabitants driven out into the
-countryside, the cattle machine-gunned, the huts set on fire with
-incendiary bullets: this is called &lt;em&gt;pacification&lt;/em&gt;. Millions of
-peasants are robbed of their farms and sent trudging along the
-roads with no more than they can carry: this is called &lt;em&gt;transfer
-of population&lt;/em&gt; or &lt;em&gt;rectification of frontiers&lt;/em&gt;. People are
-imprisoned for years without trial, or shot in the back of the
-neck or sent to die of scurvy in Arctic lumber camps: this is
-called &lt;em&gt;elimination of unreliable elements&lt;/em&gt;这种措辞方式，正是为了指称事物而不唤起人们心中的具体形象。  
-
-现在来看库克的备忘录。  
-
-库克避开了奥威尔所描述的大多数弊病。他使用简短常见的词汇，避免陈腐的隐喻，且大多采用主动语态而非被动语态。他的祈祷与同情"献给所有受影响的人"。但究竟谁受到了影响？如何受影响？被谁影响？无数事例涌上心头，却无一出自库克的备忘录。比如两名明尼阿波利斯市民在光天化日下，被失控的ICE特工近距离射中头部与背部，这无疑是极其恶劣的"受影响"。  
-
-一个五岁男孩——他本身是美国出生的公民——当ICE探员逮捕其父、以他为诱饵引诱其他家庭成员、并将他关押在千里之外德克萨斯州臭名昭著的拘留中心时，他也"受影响"了。  
-
-这样的名单很长，每个故事都灼痛人心。但库克除了"所有受影响的人"外未提及任何具体细节。确实，这种措辞方式正是为了指称事物而不唤起人们心中的具体形象。  
-
-"现在是局势降级的时候了"，库克写道。但由谁来降级？是那些围困明尼阿波利斯、残害市民的蒙面联邦特工？还是塞斯·迈耶斯所说的"动用最伤人武器——竖中指"的数千名抗议家园被占领的守法公民？若不指明要求哪一方改变行动路线，库克对"降级"的呼吁就毫无意义，而"双方都有责任"则是所有软弱说辞中最苍白无力的。  
-
-使用语言不是为了阐明观点，而是为了制造已阐明观点的假象同时回避实质——这才是真正的罪过。正如奥威尔在结尾段落所言：  
-
-政治语言——各党派虽有措辞差异，从保守党到无政府主义者皆然——旨在使谎言听来真实，使谋杀显得正当，给空洞的言论赋予坚实的外表。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Now consider &lt;a href="https://daringfireball.net/linked/2026/01/28/tim-cook-memo"&gt;Cook’s memo&lt;/a&gt;. Cook avoids most of the sins Orwell describes. He uses short, common words. He eschews hackneyed metaphors. He uses the active, not passive, voice — for the most part. His prayers and sympathies are “with everyone that’s been affected.” Who, exactly, has been affected? Affected how? By whom? Numerous examples come to mind, but not from Cook’s memo. Two Minneapolitans were affected, quite adversely, by being shot in the head and back at point blank range, in broad daylight, by unhinged ICE goons. &lt;a href="https://www.snopes.com/news/2026/01/22/minnesota-5-year-old-ice-bait/"&gt;A five-year-old boy&lt;/a&gt; — himself a U.S.-born citizen — was affected when ICE agents apprehended his father, used the boy as bait to lure other family members, and is now being held in a &lt;a href="https://www.cnn.com/2025/12/09/politics/migrant-families-ice-detention-facility-texas"&gt;notorious&lt;/a&gt; detention center in Texas, a thousand miles away.&lt;/p&gt;
-&lt;p&gt;The list is long, the stories searing. But Cook mentions nothing more specific than “everyone that’s been affected”. Such phraseology is needed if one wants to name things without calling up mental pictures of them, indeed.&lt;/p&gt;
-&lt;p&gt;“This is a time for deescalation,” Cook wrote. But by whom? The masked federal agents laying siege to Minneapolis, brutalizing its citizenry? Or the &lt;a href="https://www.cbc.ca/news/world/minneapolis-clergy-arrest-protest-9.7058754"&gt;thousands of law-abiding citizens&lt;/a&gt; protesting the occupation of their neighborhoods, who are, &lt;a href="https://youtu.be/m3otpjno0UQ?t=300"&gt;in the words of Seth Meyers&lt;/a&gt;, “deploying the most hurtful weapon of all, the bird”? Cook’s call for “deescalation” is meaningless without specifying which side he’s calling upon to change course, and there’s no weaker sauce than the weak sauce of “both sides”. Using words, not to make a point, but to &lt;em&gt;avoid&lt;/em&gt; making a point while creating the illusion of having made one, is the true sin. From Orwell’s closing paragraph:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Political language — and with variations this is true of all
-political parties, from Conservatives to Anarchists — is designed
-to make lies sound truthful and murder respectable, and to give an
-appearance of solidity to pure wind.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;明尼苏达州更冷，但库比蒂诺的风更大。&lt;/p&gt;</description><pubDate>Wed, 28 Jan 2026 22:00:24 +0000</pubDate></item></channel></rss>
+&lt;/div&gt;</description><pubDate>Wed, 28 Jan 2026 22:58:24 +0000</pubDate></item></channel></rss>
