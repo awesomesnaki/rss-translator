@@ -544,28 +544,28 @@ OpenAI的使命是确保通用人工智能惠及全人类。
 &lt;p&gt;They've expanded "humanity" to "all of humanity", but there's no mention of safety any more and I guess they can finally start focusing on that need to generate financial returns!&lt;/p&gt;
 &lt;p&gt;&lt;img alt='Git diff showing the 2024 revision deleting the entire multi-sentence mission statement and replacing it with just "OpenAIs mission is to ensure that artificial general intelligence benefits all of humanity."' src="https://static.simonwillison.net/static/2026/mission-9.jpg"/&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: I found loosely equivalent but much less interesting documents &lt;a href="https://simonwillison.net/2026/Feb/13/anthropic-public-benefit-mission/"&gt;from Anthropic&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/openai"&gt;openai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;ai-ethics&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/propublica"&gt;propublica&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 13 Feb 2026 23:38:29 +0000</pubDate></item><item><title>GPT‑5.3‑Codex‑Spark 正式发布</title><link>https://simonwillison.net/2026/Feb/12/codex-spark/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://openai.com/index/introducing-gpt-5-3-codex-spark/"&gt;GPT‑5.3‑Codex‑Spark正式发布&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;OpenAI宣布与Cerebras建立合作伙伴关系&lt;a href="https://openai.com/index/cerebras-partnership/"&gt;于1月14日&lt;/a&gt;。四周后，双方已推出首个集成成果——"专为Codex实时编程设计的超高速模型"。
-&lt;p&gt;尽管命名为GPT-5.3-Codex-Spark，它并非纯粹的GPT-5.3-Codex加速版。官方博文将其描述为"GPT‑5.3-Codex的精简版本"，并明确说明"首发版本具备128k上下文窗口且仅支持文本处理"。&lt;/p&gt;
-&lt;p&gt;通过早期体验，我可以确认该模型速度显著超越其他版本。&lt;/p&gt;
-&lt;p&gt;以下是Codex CLI中的运行速度演示：&lt;/p&gt;
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/openai"&gt;openai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;ai-ethics&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/propublica"&gt;propublica&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 13 Feb 2026 23:38:29 +0000</pubDate></item><item><title>GPT‑5.3‑Codex‑Spark 正式发布</title><link>https://simonwillison.net/2026/Feb/12/codex-spark/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://openai.com/index/introducing-gpt-5-3-codex-spark/"&gt;GPT‑5.3‑Codex‑Spark正式发布&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;OpenAI宣布与Cerebras建立合作&lt;a href="https://openai.com/index/cerebras-partnership/"&gt;于1月14日&lt;/a&gt;。四周后双方即推出首个融合成果——专为Codex实时编程设计的“超高速模型”。
+&lt;p&gt;虽命名为GPT-5.3-Codex-Spark，它并非GPT-5.3-Codex的单纯加速版。官方博文称其为“GPT‑5.3-Codex的精简版本”，并明确“首发版本支持128k上下文窗口且仅限文本处理”。&lt;/p&gt;
+&lt;p&gt;我曾提前体验该模型，其响应速度确实远超其他版本。&lt;/p&gt;
+&lt;p&gt;在Codex命令行界面中的运行效果如下：&lt;/p&gt;
 &lt;div&gt;
 &lt;video controls="controls" poster="https://static.simonwillison.net/static/2026/gpt-5.3-codex-spark-medium-last.jpg" preload="none" style="width: 100%; height: auto;"&gt;
 &lt;source src="https://static.simonwillison.net/static/2026/gpt-5.3-codex-spark-medium.mp4" type="video/mp4"/&gt;
 &lt;/video&gt;
 &lt;/div&gt;
-&lt;p&gt;这是执行"生成鹈鹕骑自行车的SVG图像"指令的过程——最终渲染效果如下：&lt;/p&gt;
+&lt;p&gt;这是执行“生成鹈鹕骑自行车的SVG图像”指令后的渲染结果：&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Whimsical flat illustration of an orange duck merged with a bicycle, where the duck's body forms the seat and frame area while its head extends forward over the handlebars, set against a simple light blue sky and green grass background." src="https://static.simonwillison.net/static/2026/gpt-5.3-codex-spark-pelican.png"/&gt;&lt;/p&gt;
-&lt;p&gt;与标准版GPT-5.3 Codex medium的速度对比：&lt;/p&gt;
+&lt;p&gt;对比标准版GPT-5.3 Codex medium的速度：&lt;/p&gt;
 &lt;div&gt;
 &lt;video controls="controls" poster="https://static.simonwillison.net/static/2026/gpt-5.3-codex-medium-last.jpg" preload="none" style="width: 100%; height: auto;"&gt;
 &lt;source src="https://static.simonwillison.net/static/2026/gpt-5.3-codex-medium.mp4" type="video/mp4"/&gt;
 &lt;/video&gt;
 &lt;/div&gt;
-&lt;p&gt;虽然速度明显较慢，但鹈鹕图像质量更优：&lt;/p&gt;
+&lt;p&gt;虽然生成速度明显较慢，但鹈鹕图像精细度更佳：&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Whimsical flat illustration of a white pelican riding a dark blue bicycle at speed, with motion lines behind it, its long orange beak streaming back in the wind, set against a light blue sky and green grass background." src="https://static.simonwillison.net/static/2026/gpt-5.3-codex-pelican.png"/&gt;&lt;/p&gt;
-&lt;p&gt;该模型的核心亮点并非质量，而在于&lt;em&gt;速度&lt;/em&gt;。当模型响应如此迅捷时，开发者能持续保持心流状态，与模型进行更高效的迭代协作。&lt;/p&gt;
-&lt;p&gt;早在2024年10月，我曾演示过Cerebras以每秒2000令牌的速度运行Llama 3.1 70B对抗Val Town&lt;a href="https://simonwillison.net/2024/Oct/31/cerebras-coder/"&gt;。OpenAI宣称新模型可达每秒1000令牌，预计它将成为实战编程迭代过程中极具威力的协作伙伴。&lt;/a&gt;新模型的定价策略尚未公布。&lt;/p&gt;
-&lt;p&gt;标签：&lt;p&gt;人工智能&lt;a href="https://simonwillison.net/tags/ai"&gt;、&lt;/a&gt;openai&lt;a href="https://simonwillison.net/tags/openai"&gt;、&lt;/a&gt;生成式人工智能&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;、&lt;/a&gt;大语言模型&lt;a href="https://simonwillison.net/tags/llms"&gt;、&lt;/a&gt;cerebras&lt;a href="https://simonwillison.net/tags/cerebras"&gt;、&lt;/a&gt;鹈鹕骑自行车&lt;a href="https://simonwillison.net/tags/pelican-riding-a-bicycle"&gt;、&lt;/a&gt;大模型发布&lt;a href="https://simonwillison.net/tags/llm-release"&gt;、&lt;/a&gt;codex-cli&lt;a href="https://simonwillison.net/tags/codex-cli"&gt;codex-cli&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Thu, 12 Feb 2026 21:16:07 +0000</pubDate></item><item><title>引用Anthropic</title><link>https://simonwillison.net/2026/Feb/12/anthropic/#atom-everything</link><description>&lt;blockquote cite="https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation"&gt;&lt;p&gt;Claude Code于2025年5月向公众开放。如今，其年化营收已突破25亿美元，自2026年初以来增长逾一倍。周活跃用户数自1月1日（六周前）起也实现翻番。
+&lt;p&gt;此模型的核心亮点并非生成质量，而在于&lt;em&gt;极致速度&lt;/em&gt;。当模型响应如此迅捷时，开发者可保持心流状态，与模型进行高效迭代创作。&lt;/p&gt;
+&lt;p&gt;早在2024年10月&lt;a href="https://simonwillison.net/2024/Oct/31/cerebras-coder/"&gt;，我便演示过Cerebras以每秒2000令牌的速度运行Llama 3.1 70B对抗Val Town。OpenAI宣称新模型达每秒1000令牌，预计将成为实战编程迭代中极具威力的协作伙伴。&lt;/a&gt;新模型的定价策略尚未公布。&lt;/p&gt;
+&lt;p&gt;标签：&lt;p&gt;人工智能&lt;a href="https://simonwillison.net/tags/ai"&gt;、&lt;/a&gt;openai&lt;a href="https://simonwillison.net/tags/openai"&gt;、&lt;/a&gt;生成式AI&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;、&lt;/a&gt;大语言模型&lt;a href="https://simonwillison.net/tags/llms"&gt;、&lt;/a&gt;cerebras&lt;a href="https://simonwillison.net/tags/cerebras"&gt;、&lt;/a&gt;鹈鹕骑自行车&lt;a href="https://simonwillison.net/tags/pelican-riding-a-bicycle"&gt;、&lt;/a&gt;大模型发布&lt;a href="https://simonwillison.net/tags/llm-release"&gt;、&lt;/a&gt;codex命令行工具&lt;a href="https://simonwillison.net/tags/codex-cli"&gt;、&lt;/a&gt;推理速度&lt;a href="https://simonwillison.net/tags/inference-speed"&gt;inference-speed&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Thu, 12 Feb 2026 21:16:07 +0000</pubDate></item><item><title>引用Anthropic</title><link>https://simonwillison.net/2026/Feb/12/anthropic/#atom-everything</link><description>&lt;blockquote cite="https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation"&gt;&lt;p&gt;Claude Code于2025年5月向公众开放。如今，其年化营收已突破25亿美元，自2026年初以来增长逾一倍。周活跃用户数自1月1日（六周前）起也实现翻番。
 
 ——  
 Anthropic宣布完成300亿美元G轮融资
