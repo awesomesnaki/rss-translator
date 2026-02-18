@@ -1,5 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Tue, 17 Feb 2026 23:58:58 +0000</lastBuildDate><item><title>隆重推出克劳德·索内特 4.6</title><link>https://simonwillison.net/2026/Feb/17/claude-sonnet-46/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.anthropic.com/news/claude-sonnet-4-6"&gt;Claude Sonnet 4.6 正式发布&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;Sonnet 4.6 今日上线，Anthropic 宣称其性能表现接近&lt;a href="https://simonwillison.net/2025/Nov/24/claude-opus/"&gt;去年11月发布的 Opus 4.5&lt;/a&gt;，同时保持 Sonnet 系列定价（输入每百万token 3美元/输出每百万token 15美元），而 Opus 系列为5美元/25美元。官方&lt;a href="https://www-cdn.anthropic.com/78073f739564e986ff3e28522761a7a0b4484f84.pdf"&gt;系统说明文档&lt;/a&gt;已同步公开。
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Wed, 18 Feb 2026 17:07:31 +0000</lastBuildDate><item><title>我们期待已久的人工智能颠覆终于来了。</title><link>https://simonwillison.net/2026/Feb/18/the-ai-disruption/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.nytimes.com/2026/02/18/opinion/ai-software.html?unlocked_article_code=1.NFA.UkLv.r-XczfzYRdXJ&amp;amp;smid=url-share"&gt;我们期待已久的人工智能颠覆终于到来
+
+保罗·福特在《纽约时报》发表的最新评论文章。作为保罗的作品，文中充满值得引用的精辟见解不足为奇，但有几个片段尤其让我印象深刻。
+
+保罗描述了
+
+"十一月时刻"
+
+这个被众多程序员共同见证的转折点，并着重展现了Claude Code让尘封已久的业余项目重获新生的能力：
+
+[Claude Code]一直是个得力的编程助手，但去年十一月它突然有了质的飞跃。从那时起，我陆续完成了那些在文件夹里躺了十年甚至更久的业余项目。看着旧想法重获新生令人愉悦，所以我保持着稳定的节奏。大概每天花费半小时，加上Claude运行一小时。
+
+去年十一月对我和许多科技从业者来说都是巨大的惊喜。此前的人工智能编程工具虽然有用，但总是磕磕绊绊、笨拙不堪。现在，这个机器人能连续运行整整一小时，创建出完整的设计网站和应用程序——或许仍有瑕疵，但已足够可信。我甚至花了整整一次心理咨询的时间来讨论这件事。
+
+作为知名咨询公司（Postlight）的前任首席执行官，他完全有能力评估这项技术的潜在影响：
+
+当你看着大型语言模型轻松解决某些棘手又昂贵的问题——比如将数据从旧平台迁移到现代平台——你会感到时代正在剧变。我曾是一家软件服务公司的首席执行官，这让我成为专业的软件成本估算师。几周前当我重构自己杂乱无章的个人网站时，我意识到：要是请别人来做这项工作，我原本愿意支付2.5万美元。当朋友请我转换一个庞大棘手的数据集时，我下载数据、清理数据、优化呈现方式使其易于探索。若在以往，这项服务我会收取35万美元。&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+New opinion piece from Paul Ford in the New York Times. Unsurprisingly for a piece by Paul it's packed with quoteworthy snippets, but a few stood out for me in particular.
+&lt;p&gt;Paul describes the &lt;a href="https://simonwillison.net/2026/Jan/4/inflection/"&gt;November moment&lt;/a&gt; that so many other programmers have observed, and highlights Claude Code's ability to revive old side projects:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[Claude Code] was always a helpful coding assistant, but in November it suddenly got much better, and ever since I’ve been knocking off side projects that had sat in folders for a decade or longer. It’s fun to see old ideas come to life, so I keep a steady flow. Maybe it adds up to a half-hour a day of my time, and an hour of Claude’s.&lt;/p&gt;
+&lt;p&gt;November was, for me and many others in tech, a great surprise. Before, A.I. coding tools were often useful, but halting and clumsy. Now, the bot can run for a full hour and make whole, designed websites and apps that may be flawed, but credible. I spent an entire session of therapy talking about it.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;And as the former CEO of a respected consultancy firm (Postlight) he's well positioned to evaluate the potential impact:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;When you watch a large language model slice through some horrible, expensive problem — like migrating data from an old platform to a modern one — you feel the earth shifting. I was the chief executive of a software services firm, which made me a professional software cost estimator. When I rebooted my messy personal website a few weeks ago, I realized: I would have paid $25,000 for someone else to do this. When a friend asked me to convert a large, thorny data set, I downloaded it, cleaned it up and made it pretty and easy to explore. In the past I would have charged $350,000.&lt;/p&gt;
+&lt;p&gt;最后一个价格是2021年的全价零售——这意味着需要一个产品经理、一名设计师、两名工程师（其中一位资深），以及四到六个月的设计、编码和测试。再加上维护。定制软件的价格高得惊人。然而今天，当一切条件都具备，我的提示词奏效时，我可以在周末和晚上，以每月200美元的Claude订阅费为代价，完成价值数十万美元的工作（对我来说是乐趣）。
+
+他还巧妙地捕捉到了探索这项技术时固有的社群张力：
+
+所有我爱的人都讨厌这东西，所有我讨厌的人都爱它。然而，很可能正是最初吸引我投身科技的那些性格缺陷，让我对此异常兴奋。
+
+标签：
+纽约时报，
+保罗·福特，
+职业，
+人工智能，
+生成式人工智能，
+大语言模型，
+AI辅助编程，
+AI伦理，
+编码代理，
+Claude代码&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;He also neatly captures the inherent community tension involved in exploring this technology:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;All of the people I love hate this stuff, and all the people I hate love it. And yet, likely because of the same personality flaws that drew me to technology in the first place, I am annoyingly excited.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/new-york-times"&gt;new-york-times&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/paul-ford"&gt;paul-ford&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/careers"&gt;careers&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;ai-ethics&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 18 Feb 2026 17:07:31 +0000</pubDate></item><item><title>引用马丁·福勒</title><link>https://simonwillison.net/2026/Feb/18/martin-fowler/#atom-everything</link><description>&lt;blockquote cite="https://martinfowler.com/fragments/2026-02-18.html"&gt;&lt;p&gt;大语言模型正在吞噬专业技能。随着驾驭大语言模型的能力比掌握具体平台细节更重要，对专业前端和后端开发人员的需求将会减少。这会提升"通才型专家"的地位吗？还是说大语言模型批量生成代码的能力，反而会让它们绕过而非消除技术壁垒？
+
+——  
+马丁·福勒  
+（摘自Thoughtworks软件发展未来闭门会精要，  
+经HN转载）  
+
+标签：  
+martin-fowler,  
+careers,  
+generative-ai,  
+ai,  
+llms,  
+ai-assisted-programming&lt;a href="https://martinfowler.com/articles/expert-generalist.html"&gt;Expert Generalists&lt;/a&gt;? Or will the ability of LLMs to write lots of code mean they code around the silos rather than eliminating them?&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class="cite"&gt;— &lt;a href="https://martinfowler.com/fragments/2026-02-18.html"&gt;Martin Fowler&lt;/a&gt;, tidbits from the Thoughtworks Future of Software Development Retreat, &lt;a href="https://news.ycombinator.com/item?id=47062534"&gt;via HN&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/martin-fowler"&gt;martin-fowler&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/careers"&gt;careers&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 18 Feb 2026 16:50:07 +0000</pubDate></item><item><title>隆重推出克劳德·索内特 4.6</title><link>https://simonwillison.net/2026/Feb/17/claude-sonnet-46/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.anthropic.com/news/claude-sonnet-4-6"&gt;Claude Sonnet 4.6 正式发布&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;Sonnet 4.6 今日上线，Anthropic 宣称其性能表现接近&lt;a href="https://simonwillison.net/2025/Nov/24/claude-opus/"&gt;去年11月发布的 Opus 4.5&lt;/a&gt;，同时保持 Sonnet 系列定价（输入每百万token 3美元/输出每百万token 15美元），而 Opus 系列为5美元/25美元。官方&lt;a href="https://www-cdn.anthropic.com/78073f739564e986ff3e28522761a7a0b4484f84.pdf"&gt;系统说明文档&lt;/a&gt;已同步公开。
 &lt;p&gt;Sonnet 4.6 的知识截止日期为2025年8月，优于 Opus 4.6 的2025年5月与 Haiku 4.5 的2025年2月。Opus 与 Sonnet 默认支持20万输入token，测试版可扩展至100万token（需更高费用）。&lt;/p&gt;
 &lt;p&gt;我刚刚发布了&lt;a href="https://github.com/simonw/llm-anthropic/releases/tag/0.24"&gt;llm-anthropic 0.24 版本&lt;/a&gt;，同步支持 Sonnet 4.6 与 Opus 4.6。本次更新&lt;a href="https://github.com/simonw/llm-anthropic/pull/65"&gt;主要借助 Claude Code 完成&lt;/a&gt;——新模型在自适应思维机制与取消前缀支持方面存在诸多细节调整，具体可参阅&lt;a href="https://platform.claude.com/docs/en/about-claude/models/migration-guide"&gt;Anthropic 迁移指南&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;以下是&lt;a href="https://gist.github.com/simonw/b185576a95e9321b441f0a4dfc0e297c"&gt;我通过提示词&lt;/a&gt;获得的SVG图像注释：&lt;/p&gt;
@@ -663,24 +726,4 @@ perfObserver.observe({ entryTypes: [ "resource" ] });
 &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/browsers"&gt;浏览器&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/css"&gt;CSS&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/javascript"&gt;JavaScript&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/web-standards"&gt;网络标准&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/webassembly"&gt;WebAssembly&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/jake-archibald"&gt;Jake-Archibald&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sun, 15 Feb 2026 04:33:22 +0000</pubDate></item><item><title>引用鲍里斯·切尔尼的话</title><link>https://simonwillison.net/2026/Feb/14/boris/#atom-everything</link><description>&lt;blockquote cite="https://twitter.com/bcherny/status/2022762422302576970"&gt;&lt;p&gt;总得有人去引导Claude、与客户沟通、协调团队、决定下一步开发方向。工程领域正在变革，优秀工程师的重要性前所未有。
 —&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class="cite"&gt;鲍里斯·切尔尼&lt;a href="https://twitter.com/bcherny/status/2022762422302576970"&gt;，Claude Code创造者，谈为何Anthropic仍在招聘开发者&lt;/a&gt;标签：&lt;/p&gt;
-&lt;p&gt;职业发展&lt;a href="https://simonwillison.net/tags/careers"&gt;、&lt;/a&gt;Anthropic&lt;a href="https://simonwillison.net/tags/anthropic"&gt;、&lt;/a&gt;人工智能&lt;a href="https://simonwillison.net/tags/ai"&gt;、&lt;/a&gt;Claude代码&lt;a href="https://simonwillison.net/tags/claude-code"&gt;、&lt;/a&gt;大语言模型&lt;a href="https://simonwillison.net/tags/llms"&gt;、&lt;/a&gt;编码智能体&lt;a href="https://simonwillison.net/tags/coding-agents"&gt;、&lt;/a&gt;AI辅助编程&lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;、&lt;/a&gt;生成式人工智能&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sat, 14 Feb 2026 23:59:09 +0000</pubDate></item><item><title>引用Thoughtworks</title><link>https://simonwillison.net/2026/Feb/14/thoughtworks/#atom-everything</link><description>&lt;blockquote cite="https://www.thoughtworks.com/content/dam/thoughtworks/documents/report/tw_future%20_of_software_development_retreat_%20key_takeaways.pdf"&gt;&lt;p&gt;这次研讨会对"AI将取代初级开发者"的说法提出了质疑。初级开发者如今创造的价值比以往任何时候都更高——AI工具能帮助他们更快度过初期产出低于投入的适应阶段，他们就像未来生产力的看涨期权。而且相比资深工程师，他们更擅长运用AI工具，因为没有形成阻碍新技术采纳的思维定势。
-
-真正令人担忧的是那些在长达十年的招聘热潮中成长起来的中级工程师，他们可能尚未掌握在新环境中蓬勃发展所需的核心能力。这个群体构成了行业的主体，但对他们进行再培训确实困难重重。研讨会探讨了学徒制、轮岗项目和终身学习体系能否弥补这一差距，但也承认目前尚无机构能彻底解决这个问题。
-
-——Thoughtworks一场关于"软件工程未来"的闭门研讨会成果
-
-标签：AI辅助编程、职业发展、人工智能&lt;/p&gt;
-&lt;p&gt;The real concern is mid-level engineers who came up during the decade-long hiring boom and may not have developed the fundamentals needed to thrive in the new environment. This population represents the bulk of the industry by volume, and retraining them is genuinely difficult. The retreat discussed whether apprenticeship models, rotation programs and lifelong learning structures could address this gap, but acknowledged that no organization has solved it yet.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class="cite"&gt;— &lt;a href="https://www.thoughtworks.com/content/dam/thoughtworks/documents/report/tw_future%20_of_software_development_retreat_%20key_takeaways.pdf"&gt;Thoughtworks&lt;/a&gt;, findings from a retreat concerning "the future of software engineering", conducted under Chatham House rules&lt;/p&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/careers"&gt;careers&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sat, 14 Feb 2026 04:54:41 +0000</pubDate></item><item><title>Anthropic的公益使命</title><link>https://simonwillison.net/2026/Feb/13/anthropic-public-benefit-mission/#atom-everything</link><description>&lt;p&gt;有人问，Anthropic是否有类似OpenAI历年IRS使命声明的文件。Anthropic是一家“公益公司”而非非营利组织，因此无需每年向IRS提交公开文件。但当我询问Claude时，它搜索并找到了Zach Stein-Perlman分享的Google Drive文件夹，其中包含他从特拉华州获取的公司注册证书文件！Anthropic的文件远不如OpenAI的有趣。2021年的最早文件写道：“本公司将推动的具体公益是负责任地开发和维护先进人工智能，以促进人类文化、社会和技术的进步。”而此后直至2024年的所有文件都使用了更新版本：“本公司将推动的具体公益是负责任地开发和维护先进人工智能，以谋求人类的长远利益。”标签：ai-ethics, anthropic, ai&lt;a href="https://news.ycombinator.com/item?id=47008560#47008978"&gt;asked&lt;/a&gt; if there was an Anthropic equivalent to &lt;a href="https://simonwillison.net/2026/Feb/13/openai-mission-statement/"&gt;OpenAI's IRS mission statements over time&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Anthropic are a "public benefit corporation" but not a non-profit, so they don't have the same requirements to file public documents with the IRS every year.&lt;/p&gt;
-&lt;p&gt;But when I asked Claude it ran a search and dug up this &lt;a href="https://drive.google.com/drive/folders/1ImqXYv9_H2FTNAujZfu3EPtYFD4xIlHJ"&gt;Google Drive folder&lt;/a&gt; where Zach Stein-Perlman shared Certificate of Incorporation documents he &lt;a href="https://ailabwatch.substack.com/p/anthropics-certificate-of-incorporation"&gt;obtained from the State of Delaware&lt;/a&gt;!&lt;/p&gt;
-&lt;p&gt;Anthropic's are much less interesting that OpenAI's. The earliest document from 2021 states:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The specific public benefit that the Corporation will promote is to responsibly develop and maintain advanced Al for the cultural, social and technological improvement of humanity.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Every subsequent document up to 2024 uses an updated version which says:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The specific public benefit that the Corporation will promote is to responsibly develop and maintain advanced AI for the long term benefit of humanity.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;ai-ethics&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/anthropic"&gt;anthropic&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 13 Feb 2026 23:59:51 +0000</pubDate></item></channel></rss>
+&lt;p&gt;职业发展&lt;a href="https://simonwillison.net/tags/careers"&gt;、&lt;/a&gt;Anthropic&lt;a href="https://simonwillison.net/tags/anthropic"&gt;、&lt;/a&gt;人工智能&lt;a href="https://simonwillison.net/tags/ai"&gt;、&lt;/a&gt;Claude代码&lt;a href="https://simonwillison.net/tags/claude-code"&gt;、&lt;/a&gt;大语言模型&lt;a href="https://simonwillison.net/tags/llms"&gt;、&lt;/a&gt;编码智能体&lt;a href="https://simonwillison.net/tags/coding-agents"&gt;、&lt;/a&gt;AI辅助编程&lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;、&lt;/a&gt;生成式人工智能&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sat, 14 Feb 2026 23:59:09 +0000</pubDate></item></channel></rss>
