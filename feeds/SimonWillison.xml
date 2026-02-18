@@ -1,5 +1,128 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Tue, 17 Feb 2026 14:49:04 +0000</lastBuildDate><item><title>引用自《ROUGH DRAFT 8/2/66》</title><link>https://simonwillison.net/2026/Feb/17/rough-draft-8266/#atom-everything</link><description>&lt;blockquote cite="https://www.neatorama.com/2026/02/11/The-Original-Drafts-for-Star-Treks-Opening-Narration/"&gt;&lt;p&gt;这是星际飞船"企业号"的故事。这艘巨型星舰被指派执行为期五年的银河系巡逻任务，它探访地球殖民地、规范星际贸易、探索奇异的新世界与文明。这些是它的航程……也是它的冒险。
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Tue, 17 Feb 2026 23:58:58 +0000</lastBuildDate><item><title>隆重推出克劳德·索内特 4.6</title><link>https://simonwillison.net/2026/Feb/17/claude-sonnet-46/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.anthropic.com/news/claude-sonnet-4-6"&gt;Claude Sonnet 4.6 正式发布&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;Sonnet 4.6 今日上线，Anthropic 宣称其性能表现接近&lt;a href="https://simonwillison.net/2025/Nov/24/claude-opus/"&gt;去年11月发布的 Opus 4.5&lt;/a&gt;，同时保持 Sonnet 系列定价（输入每百万token 3美元/输出每百万token 15美元），而 Opus 系列为5美元/25美元。官方&lt;a href="https://www-cdn.anthropic.com/78073f739564e986ff3e28522761a7a0b4484f84.pdf"&gt;系统说明文档&lt;/a&gt;已同步公开。
+&lt;p&gt;Sonnet 4.6 的知识截止日期为2025年8月，优于 Opus 4.6 的2025年5月与 Haiku 4.5 的2025年2月。Opus 与 Sonnet 默认支持20万输入token，测试版可扩展至100万token（需更高费用）。&lt;/p&gt;
+&lt;p&gt;我刚刚发布了&lt;a href="https://github.com/simonw/llm-anthropic/releases/tag/0.24"&gt;llm-anthropic 0.24 版本&lt;/a&gt;，同步支持 Sonnet 4.6 与 Opus 4.6。本次更新&lt;a href="https://github.com/simonw/llm-anthropic/pull/65"&gt;主要借助 Claude Code 完成&lt;/a&gt;——新模型在自适应思维机制与取消前缀支持方面存在诸多细节调整，具体可参阅&lt;a href="https://platform.claude.com/docs/en/about-claude/models/migration-guide"&gt;Anthropic 迁移指南&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;以下是&lt;a href="https://gist.github.com/simonw/b185576a95e9321b441f0a4dfc0e297c"&gt;我通过提示词&lt;/a&gt;获得的SVG图像注释：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;uvx --with llm-anthropic llm 'Generate an SVG of a pelican riding a bicycle' -m claude-sonnet-4.6
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img alt="The pelican has a jaunty top hat with a red band. There is a string between the upper and lower beaks for some reason. The bicycle frame is warped in the wrong way." src="https://static.simonwillison.net/static/2026/pelican-sonnet-4.6.png"/&gt;&lt;/p&gt;
+&lt;p&gt;第二次尝试时依然出现了高礼帽。看来 Sonnet 4.6 对高礼帽情有独钟！&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;!-- Hat (fun accessory) --&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;作为对比，这是去年&lt;/p&gt;
+&lt;p&gt;11月 Opus 4.5 为我绘制的鹈鹕&lt;a href="https://simonwillison.net/atom/everything/(https:/simonwillison.net/2025/Nov/24/claude-opus/)"&gt;：&lt;/a&gt;而这是 Anthropic 当前最佳版本——今年&lt;/p&gt;
+&lt;p&gt;&lt;img alt="The pelican is cute and looks pretty good. The bicycle is not great - the frame is wrong and the pelican is facing backwards when the handlebars appear to be forwards.There is also something that looks a bit like an egg on the handlebars." src="https://static.simonwillison.net/static/2025/claude-opus-4.5-pelican.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;2月5日由 Opus 4.6 绘制的鹈鹕&lt;a href="https://simonwillison.net/2026/Feb/5/two-new-models/"&gt;：&lt;/a&gt;Opus 4.6 呈现的喙部/喉囊最为精准，但 Sonnet 4.6 添加的高礼帽确实别具趣味。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Slightly wonky bicycle frame but an excellent pelican, very clear beak and pouch, nice feathers." src="https://static.simonwillison.net/static/2026/opus-4.6-pelican.png"/&gt;&lt;/p&gt;
+&lt;p&gt;消息来源：&lt;p&gt;&lt;small&gt;&lt;/small&gt;Hacker News&lt;a href="https://news.ycombinator.com/item?id=47050488"&gt;标签：&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;人工智能&lt;a href="https://simonwillison.net/tags/ai"&gt;、&lt;/a&gt;生成式AI&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;、&lt;/a&gt;大语言模型&lt;a href="https://simonwillison.net/tags/llms"&gt;、&lt;/a&gt;语言模型&lt;a href="https://simonwillison.net/tags/llm"&gt;、&lt;/a&gt;Anthropic&lt;a href="https://simonwillison.net/tags/anthropic"&gt;、&lt;/a&gt;Claude&lt;a href="https://simonwillison.net/tags/claude"&gt;、&lt;/a&gt;大模型定价&lt;a href="https://simonwillison.net/tags/llm-pricing"&gt;、&lt;/a&gt;骑自行车的鹈鹕&lt;a href="https://simonwillison.net/tags/pelican-riding-a-bicycle"&gt;、&lt;/a&gt;大模型发布&lt;a href="https://simonwillison.net/tags/llm-release"&gt;、&lt;/a&gt;Claude代码工具&lt;a href="https://simonwillison.net/tags/claude-code"&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Tue, 17 Feb 2026 23:58:58 +0000</pubDate></item><item><title>罗德尼 v0.4.0</title><link>https://simonwillison.net/2026/Feb/17/rodney/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/simonw/rodney/releases/tag/v0.4.0"&gt;Rodney v0.4.0
+自从我上周宣布以来，这款浏览器自动化CLI工具收到了大量PR。以下是刚刚发布的v0.4.0版本更新说明：
+
+错误现在使用退出码2，这意味着退出码1仅用于检查失败。#15
+
+新增运行JavaScript测试的命令，若测试失败则返回退出码1。#19
+
+新增支持目录范围会话的`/`标志。#14
+
+新增`和`命令。#17
+
+新增`选项使浏览器窗口可见。感谢Antonio Cuni。#13
+
+新增`命令以调试已运行的Chrome实例。感谢Peter Fraenkel。#12
+
+新增`环境变量以支持自定义状态目录。感谢Senko Rašić。#11
+
+新增`标志以忽略证书错误。感谢Jakub Zgoliński。#10
+
+Windows支持：通过构建标签助手避免在Windows上使用`。感谢adm1neca。#18
+
+测试现在除了Linux外，还在`和`上运行。
+
+我一直在使用Showboat创建新功能的演示——以下是针对rodney assert、rodney reload --hard、rodney exit codes和rodney start --local的演示。
+
+`命令非常简洁：你现在可以在shell脚本中使用Rodney通过多个步骤测试Web应用，脚本大致如下（改编自README）：
+
+#!/bin/bash
+set -e
+check() {
+  if ! "$@"; then
+    echo "FAIL: $*"
+    export FAIL=1
+  fi
+}
+rodney start --local
+rodney goto "https://example.com"
+# 断言元素存在
+rodney assert "h1"
+# 断言关键元素可见
+rodney assert "h1" "#main-content"
+# 断言JS表达式
+rodney js 'document.title' 'Example Domain'
+rodney js 'document.querySelectorAll("p").length' '2'
+# 断言可访问性要求
+rodney a11y
+if [ -n "$FAIL" ]; then
+  echo "Some checks failed"
+  exit 1
+fi
+echo "All checks passed"
+
+标签：browsers, projects, testing, annotated-release-notes, rodney&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+My &lt;a href="https://github.com/simonw/rodney"&gt;Rodney&lt;/a&gt; CLI tool for browser automation attracted quite the flurry of PRs since I announced it &lt;a href="https://simonwillison.net/2026/Feb/10/showboat-and-rodney/#rodney-cli-browser-automation-designed-to-work-with-showboat"&gt;last week&lt;/a&gt;. Here are the release notes for the just-released v0.4.0:
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Errors now use exit code 2, which means exit code 1 is just for for check failures. &lt;a href="https://github.com/simonw/rodney/pull/15"&gt;#15&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New &lt;code&gt;rodney assert&lt;/code&gt; command for running JavaScript tests, exit code 1 if they fail. &lt;a href="https://github.com/simonw/rodney/issues/19"&gt;#19&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New directory-scoped sessions with &lt;code&gt;--local&lt;/code&gt;/&lt;code&gt;--global&lt;/code&gt; flags. &lt;a href="https://github.com/simonw/rodney/pull/14"&gt;#14&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New &lt;code&gt;reload --hard&lt;/code&gt; and &lt;code&gt;clear-cache&lt;/code&gt; commands. &lt;a href="https://github.com/simonw/rodney/pull/17"&gt;#17&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New &lt;code&gt;rodney start --show&lt;/code&gt; option to make the browser window visible. Thanks, &lt;a href="https://github.com/antocuni"&gt;Antonio Cuni&lt;/a&gt;. &lt;a href="https://github.com/simonw/rodney/paull/13"&gt;#13&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New &lt;code&gt;rodney connect PORT&lt;/code&gt; command to debug an already-running Chrome instance. Thanks, &lt;a href="https://github.com/pnf"&gt;Peter Fraenkel&lt;/a&gt;. &lt;a href="https://github.com/simonw/rodney/pull/12"&gt;#12&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New &lt;code&gt;RODNEY_HOME&lt;/code&gt; environment variable to support custom state directories. Thanks, &lt;a href="https://github.com/senko"&gt;Senko Rašić&lt;/a&gt;. &lt;a href="https://github.com/simonw/rodney/pull/11"&gt;#11&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New &lt;code&gt;--insecure&lt;/code&gt; flag to ignore certificate errors. Thanks, &lt;a href="https://github.com/zgolus"&gt;Jakub Zgoliński&lt;/a&gt;. &lt;a href="https://github.com/simonw/rodney/pull/10"&gt;#10&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Windows support: avoid &lt;code&gt;Setsid&lt;/code&gt; on Windows via build-tag helpers. Thanks, &lt;a href="https://github.com/adm1neca"&gt;adm1neca&lt;/a&gt;. &lt;a href="https://github.com/simonw/rodney/pull/18"&gt;#18&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tests now run on &lt;code&gt;windows-latest&lt;/code&gt; and &lt;code&gt;macos-latest&lt;/code&gt; in addition to Linux.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I've been using &lt;a href="https://github.com/simonw/showboat"&gt;Showboat&lt;/a&gt; to create demos of new features - here those are for &lt;a href="https://github.com/simonw/rodney/tree/v0.4.0/notes/assert-command-demo"&gt;rodney assert&lt;/a&gt;, &lt;a href="https://github.com/simonw/rodney/tree/v0.4.0/notes/clear-cache-demo"&gt;rodney reload --hard&lt;/a&gt;, &lt;a href="https://github.com/simonw/rodney/tree/v0.4.0/notes/error-codes-demo"&gt;rodney exit codes&lt;/a&gt;, and &lt;a href="https://github.com/simonw/rodney/tree/v0.4.0/notes/local-sessions-demo"&gt;rodney start --local&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;rodney assert&lt;/code&gt; command is pretty neat: you can now Rodney to test a web app through multiple steps in a shell script that looks something like this (adapted from &lt;a href="https://github.com/simonw/rodney/blob/v0.4.0/README.md#combining-checks-in-a-shell-script"&gt;the README&lt;/a&gt;):&lt;/p&gt;
+&lt;div class="highlight highlight-source-shell"&gt;&lt;pre&gt;&lt;span class="pl-c"&gt;&lt;span class="pl-c"&gt;#!&lt;/span&gt;/bin/bash&lt;/span&gt;
+&lt;span class="pl-c1"&gt;set&lt;/span&gt; -euo pipefail
+
+FAIL=0
+
+&lt;span class="pl-en"&gt;check&lt;/span&gt;() {
+    &lt;span class="pl-k"&gt;if&lt;/span&gt; &lt;span class="pl-k"&gt;!&lt;/span&gt; &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;&lt;span class="pl-smi"&gt;$@&lt;/span&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;&lt;/span&gt;&lt;span class="pl-k"&gt;;&lt;/span&gt; &lt;span class="pl-k"&gt;then&lt;/span&gt;
+        &lt;span class="pl-c1"&gt;echo&lt;/span&gt; &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;FAIL: &lt;span class="pl-smi"&gt;$*&lt;/span&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;&lt;/span&gt;
+        FAIL=1
+    &lt;span class="pl-k"&gt;fi&lt;/span&gt;
+}
+
+rodney start
+rodney open &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;https://example.com&lt;span class="pl-pds"&gt;"&lt;/span&gt;&lt;/span&gt;
+rodney waitstable
+
+&lt;span class="pl-c"&gt;&lt;span class="pl-c"&gt;#&lt;/span&gt; Assert elements exist&lt;/span&gt;
+check rodney exists &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;h1&lt;span class="pl-pds"&gt;"&lt;/span&gt;&lt;/span&gt;
+
+&lt;span class="pl-c"&gt;&lt;span class="pl-c"&gt;#&lt;/span&gt; Assert key elements are visible&lt;/span&gt;
+check rodney visible &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;h1&lt;span class="pl-pds"&gt;"&lt;/span&gt;&lt;/span&gt;
+check rodney visible &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;#main-content&lt;span class="pl-pds"&gt;"&lt;/span&gt;&lt;/span&gt;
+
+&lt;span class="pl-c"&gt;&lt;span class="pl-c"&gt;#&lt;/span&gt; Assert JS expressions&lt;/span&gt;
+check rodney assert &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;'&lt;/span&gt;document.title&lt;span class="pl-pds"&gt;'&lt;/span&gt;&lt;/span&gt; &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;'&lt;/span&gt;Example Domain&lt;span class="pl-pds"&gt;'&lt;/span&gt;&lt;/span&gt;
+check rodney assert &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;'&lt;/span&gt;document.querySelectorAll("p").length&lt;span class="pl-pds"&gt;'&lt;/span&gt;&lt;/span&gt; &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;'&lt;/span&gt;2&lt;span class="pl-pds"&gt;'&lt;/span&gt;&lt;/span&gt;
+
+&lt;span class="pl-c"&gt;&lt;span class="pl-c"&gt;#&lt;/span&gt; Assert accessibility requirements&lt;/span&gt;
+check rodney ax-find --role navigation
+
+rodney stop
+
+&lt;span class="pl-k"&gt;if&lt;/span&gt; [ &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;&lt;span class="pl-smi"&gt;$FAIL&lt;/span&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;&lt;/span&gt; &lt;span class="pl-k"&gt;-ne&lt;/span&gt; 0 ]&lt;span class="pl-k"&gt;;&lt;/span&gt; &lt;span class="pl-k"&gt;then&lt;/span&gt;
+    &lt;span class="pl-c1"&gt;echo&lt;/span&gt; &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;Some checks failed&lt;span class="pl-pds"&gt;"&lt;/span&gt;&lt;/span&gt;
+    &lt;span class="pl-c1"&gt;exit&lt;/span&gt; 1
+&lt;span class="pl-k"&gt;fi&lt;/span&gt;
+&lt;span class="pl-c1"&gt;echo&lt;/span&gt; &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;All checks passed&lt;span class="pl-pds"&gt;"&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/browsers"&gt;browsers&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/projects"&gt;projects&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/testing"&gt;testing&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/annotated-release-notes"&gt;annotated-release-notes&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/rodney"&gt;rodney&lt;/a&gt;&lt;/p&gt;</description><pubDate>Tue, 17 Feb 2026 23:02:33 +0000</pubDate></item><item><title>引用自《ROUGH DRAFT 8/2/66》</title><link>https://simonwillison.net/2026/Feb/17/rough-draft-8266/#atom-everything</link><description>&lt;blockquote cite="https://www.neatorama.com/2026/02/11/The-Original-Drafts-for-Star-Treks-Opening-Narration/"&gt;&lt;p&gt;这是星际飞船"企业号"的故事。这艘巨型星舰被指派执行为期五年的银河系巡逻任务，它探访地球殖民地、规范星际贸易、探索奇异的新世界与文明。这些是它的航程……也是它的冒险。
 
 —
 
@@ -23,7 +146,9 @@
 &lt;blockquote&gt;
 &lt;p&gt;2026年鸮鹦鹉繁殖季的第二只雏鸟今晨在Te Kākahu岛的Ako巢穴中诞生：编号Hine Taumai-A1-2026。这枚鸟蛋于两日前从Anchor巢穴转移而来，是Ako首次成功孵化的雏鸟，视频中这只雏鸟仅出生数小时。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;该贴文&lt;a href="https://bsky.app/profile/digs.bsky.social/post/3mf25glzt2c2b"&gt;附有&lt;/a&gt;鸮鹦鹉母子的视频。&lt;p&gt;&lt;small&gt;&lt;/small&gt;消息来源：&lt;a href="https://www.metafilter.com/212231/Happy-Valen-Kkp-Tines"&gt;MetaFilter&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;该贴文&lt;a href="https://bsky.app/profile/digs.bsky.social/post/3mf25glzt2c2b"&gt;附有&lt;/a&gt;鸮鹦鹉母子的视频。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="A beautiful charismatic green Kākāp feeding a little grey chick" src="https://static.simonwillison.net/static/2026/kakapo-plus-chick.jpg"/&gt;
+&lt;p&gt;&lt;small&gt;&lt;/small&gt;消息来源：&lt;a href="https://www.metafilter.com/212231/Happy-Valen-Kkp-Tines"&gt;MetaFilter&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/kakapo"&gt;鸮鹦鹉&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Tue, 17 Feb 2026 14:09:43 +0000</pubDate></item><item><title>引用迪米特里斯·帕帕伊里奥普洛斯</title><link>https://simonwillison.net/2026/Feb/17/dimitris-papailiopoulos/#atom-everything</link><description>&lt;blockquote cite="https://twitter.com/dimitrispapail/status/2023080289828831349"&gt;&lt;p&gt;但真正让我在智识层面感到有趣的，是另一件事。
 
 如今我几乎拥有一个魔法盒——只需投入问题，就能近乎零人力成本地获得初步答案。在此之前，探索新想法时，我要么自己笨拙地拼凑尝试，要么请学生做个简短实验来验证方向是否可行；若发现确有价值，我们再深入探究。而现在，这个快速验证的步骤——即判断某个问题是否值得深挖——已不再需要占用他人的时间。整个过程只需我、Claude代码助手，以及数日的GPU运算时间。
@@ -358,21 +483,21 @@ Claude Code
 ,
 Showboat&lt;/p&gt;
 &lt;p&gt;The environment variable mechanism for Showboat's remote streaming is a fun hack too - so far I'm just using it to stream documents somewhere else, but it's effectively a webhook extension mechanism that could likely be used for all sorts of things I haven't thought of yet.&lt;/p&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/charting"&gt;charting&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/projects"&gt;projects&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/datasette"&gt;datasette&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/showboat"&gt;showboat&lt;/a&gt;&lt;/p&gt;</description><pubDate>Tue, 17 Feb 2026 00:43:45 +0000</pubDate></item><item><title>罗德尼与克劳德桌面版代码</title><link>https://simonwillison.net/2026/Feb/16/rodney-claude-code/#atom-everything</link><description>&lt;p&gt;我是Claude Code网页版的重度用户，这是Anthropic公司推出的云端版本Claude Code——虽然名字起得不怎么样，但产品本身非常出色。所有操作都在他们管理的容器环境中运行，这大大降低了我珍视的电脑遭受任何损害的风险。
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/charting"&gt;charting&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/projects"&gt;projects&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/datasette"&gt;datasette&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/showboat"&gt;showboat&lt;/a&gt;&lt;/p&gt;</description><pubDate>Tue, 17 Feb 2026 00:43:45 +0000</pubDate></item><item><title>罗德尼与克劳德桌面版代码</title><link>https://simonwillison.net/2026/Feb/16/rodney-claude-code/#atom-everything</link><description>&lt;p&gt;我是Claude Code网页版的深度用户，这是Anthropic公司推出的云端版Claude Code（虽然命名不太贴切）。它所有操作都在他们管理的容器环境中运行，极大降低了对我重要电脑造成损害的风险。
 
-我完全不用网页界面（这也是我不喜欢这个名字的原因），只通过他们原生的iPhone和Mac桌面应用来访问。
+我完全不使用网页界面（这也是我不喜欢这个名字的原因）——只通过他们原生的iPhone和Mac桌面应用来访问。
 
-桌面应用有个特别让我欣赏的功能：它能让你看到Claude通过其工具正在“查看”的图像。效果是这样的：
+桌面应用有个特别让我欣赏的功能：它能让你看到Claude通过其工具正在"查看"的图像。效果如下：
 
-这意味着你可以在它处理任务时实时获得视觉预览，无需等到它把代码推送到GitHub后再自己尝试。
+这意味着你可以在它工作时实时预览处理内容，无需等到它把代码推送到GitHub后再自行尝试。
 
-触发上面截图的提示词是：
+触发上述截图的提示词是：
 
-我设计的Rodney工具，其--help输出包含了编码智能体使用该工具所需了解的全部信息。
+我设计的Rodney工具，其--help输出包含了编码代理使用该工具所需了解的全部信息。
 
-Claude的iPhone应用目前还不支持显示已打开的图片，所以我刚刚在Twitter的讨论串里提交了这个功能请求。
+Claude的iPhone应用目前还不支持显示已打开的图片，所以我刚刚在Twitter的讨论串中提出了这个功能请求。
 
-标签：anthropic, claude, ai, claude-code, llms, async-coding-agents, coding-agents, generative-ai, projects, ai-assisted-programming&lt;a href="https://code.claude.com/docs/en/claude-code-on-the-web"&gt;Claude Code on the web&lt;/a&gt;, Anthropic's excellent but poorly named cloud version of Claude Code where everything runs in a container environment managed by them, greatly reducing the risk of anything bad happening to a computer I care about.&lt;/p&gt;
+标签：anthropic, claude, ai, claude-code, llms, async-coding-agents, coding-agents, generative-ai, projects, ai-assisted-programming, rodney&lt;a href="https://code.claude.com/docs/en/claude-code-on-the-web"&gt;Claude Code on the web&lt;/a&gt;, Anthropic's excellent but poorly named cloud version of Claude Code where everything runs in a container environment managed by them, greatly reducing the risk of anything bad happening to a computer I care about.&lt;/p&gt;
 &lt;p&gt;I don't use the web interface at all (hence my dislike of the name) - I access it exclusively through their native iPhone and Mac desktop apps.&lt;/p&gt;
 &lt;p&gt;Something I particularly appreciate about the desktop app is that it lets you see images that Claude is "viewing" via its &lt;code&gt;Read /path/to/image&lt;/code&gt; tool. Here's what that looks like:&lt;/p&gt;
 &lt;p&gt;&lt;img alt='Screenshot of a Claude Code session in Claude Desktop. Claude says: The debug page looks good - all items listed with titles and descriptions. Now let me check the nav
@@ -384,7 +509,7 @@ menu -  Analyzed menu image file - Bash uvx rodney open "http://localhost:8765/"
 &lt;/blockquote&gt;
 &lt;p&gt;I designed &lt;a href="https://simonwillison.net/2026/Feb/10/showboat-and-rodney/#rodney-cli-browser-automation-designed-to-work-with-showboat"&gt;Rodney&lt;/a&gt; to have &lt;a href="https://github.com/simonw/rodney/blob/main/help.txt"&gt;--help output&lt;/a&gt; that provides everything a coding agent needs to know in order to use the tool.&lt;/p&gt;
 &lt;p&gt;The Claude iPhone app doesn't display opened images yet, so I &lt;a href="https://twitter.com/simonw/status/2023432616066879606"&gt;requested it as a feature&lt;/a&gt; just now in a thread on Twitter.&lt;/p&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/anthropic"&gt;anthropic&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude"&gt;claude&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/async-coding-agents"&gt;async-coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/projects"&gt;projects&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 16 Feb 2026 16:38:57 +0000</pubDate></item><item><title>AI吸血鬼</title><link>https://simonwillison.net/2026/Feb/15/the-ai-vampire/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163"&gt;AI吸血鬼&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;史蒂夫·叶格关于智能体疲劳及其与职业倦怠关系的见解。
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/anthropic"&gt;anthropic&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude"&gt;claude&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/async-coding-agents"&gt;async-coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/projects"&gt;projects&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/rodney"&gt;rodney&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 16 Feb 2026 16:38:57 +0000</pubDate></item><item><title>AI吸血鬼</title><link>https://simonwillison.net/2026/Feb/15/the-ai-vampire/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163"&gt;AI吸血鬼&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;史蒂夫·叶格关于智能体疲劳及其与职业倦怠关系的见解。
 &lt;blockquote&gt;
 &lt;p&gt;假设你是公司里唯一使用AI的人。&lt;/p&gt;
 &lt;p&gt;在情景A中，你决定让雇主刮目相看，每天以10倍生产力工作8小时。你大获成功，却让其他同事相形见绌。&lt;/p&gt;
@@ -558,73 +683,4 @@ perfObserver.observe({ entryTypes: [ "resource" ] });
 &lt;blockquote&gt;
 &lt;p&gt;The specific public benefit that the Corporation will promote is to responsibly develop and maintain advanced AI for the long term benefit of humanity.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;ai-ethics&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/anthropic"&gt;anthropic&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 13 Feb 2026 23:59:51 +0000</pubDate></item><item><title>OpenAI使命宣言的演变历程</title><link>https://simonwillison.net/2026/Feb/13/openai-mission-statement/#atom-everything</link><description>&lt;p&gt;作为一家美国501(c)(3)非营利组织，OpenAI每年都必须向美国国税局提交纳税申报表。申报表中有一个必填项是"简要描述组织的使命或最重要活动"——这具有实际法律效力，因为国税局可以据此评估该组织是否恪守使命，从而决定其是否应继续保持非营利免税资格。
-
-您可以在ProPublica优秀的"非营利组织探索者"平台上按年度浏览OpenAI的税务申报文件。我整理了2016年至2024年的使命声明，并借助Claude Code伪造提交日期将其转换为Git仓库，以Gist形式分享——这意味着该Gist的修订页面完整展示了他们自开始报税以来的每次修改记录！
-
-观察这些逐年演变非常有趣。最初的2016年使命声明如下（是的，原文中"OpenAIs"确实缺少所有格撇号）：
-
-OpenAIs的目标是以最可能造福全人类的方式推进数字智能发展，不受盈利需求的束缚。我们认为人工智能技术将塑造21世纪的发展轨迹，希望帮助世界构建安全的AI技术，并确保AI的益处能尽可能广泛而均衡地惠及全人类。我们正努力作为更广泛社区的一部分来构建AI，并愿意在此过程中公开分享我们的计划与能力。
-
-2018年，他们删除了"作为更广泛社区的一部分构建AI，并愿意在此过程中公开分享计划与能力"的表述。
-
-2020年，他们从"造福全人类"中删除了"全"字。不过仍保留着"不受盈利需求束缚"的声明。&lt;a href="https://en.wikipedia.org/wiki/501(c)(3)_organization"&gt;501(c)(3)&lt;/a&gt; the OpenAI non-profit has to file a tax return each year with the IRS. One of the required fields on that tax return is to "Briefly describe the organization’s mission or most significant activities" - this has actual legal weight to it as the IRS can use it to evaluate if the organization is sticking to its mission and deserves to maintain its non-profit tax-exempt status.&lt;/p&gt;
-&lt;p&gt;You can browse OpenAI's &lt;a href="https://projects.propublica.org/nonprofits/organizations/810861541"&gt;tax filings by year&lt;/a&gt; on ProPublica's excellent &lt;a href="https://projects.propublica.org/nonprofits/"&gt;Nonprofit Explorer&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;I went through and extracted that mission statement for 2016 through 2024, then had Claude Code &lt;a href="https://gisthost.github.io/?7a569df89f43f390bccc2c5517718b49/index.html"&gt;help me&lt;/a&gt; fake the commit dates to turn it into a git repository and share that as a Gist - which means that Gist's &lt;a href="https://gist.github.com/simonw/e36f0e5ef4a86881d145083f759bcf25/revisions"&gt;revisions page&lt;/a&gt; shows every edit they've made since they started filing their taxes!&lt;/p&gt;
-&lt;p&gt;It's really interesting seeing what they've changed over time.&lt;/p&gt;
-&lt;p&gt;The original 2016 mission reads as follows (and yes, the apostrophe in "OpenAIs" is missing &lt;a href="https://projects.propublica.org/nonprofits/organizations/810861541/201703459349300445/full"&gt;in the original&lt;/a&gt;):&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;OpenAIs goal is to advance digital intelligence in the way that is most likely to benefit humanity as a whole, unconstrained by a need to generate financial return. We think that artificial intelligence technology will help shape the 21st century, and we want to help the world build safe AI technology and ensure that AI's benefits are as widely and evenly distributed as possible. Were trying to build AI as part of a larger community, and we want to openly share our plans and capabilities along the way.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;In 2018 they dropped the part about "trying to build AI as part of a larger community, and we want to openly share our plans and capabilities along the way."&lt;/p&gt;
-&lt;p&gt;&lt;img alt='Git diff showing the 2018 revision deleting the final two sentences: "Were trying to build AI as part of a larger community, and we want to openly share our plans and capabilities along the way."' src="https://static.simonwillison.net/static/2026/mission-3.jpg"/&gt;&lt;/p&gt;
-&lt;p&gt;In 2020 they dropped the words "as a whole" from "benefit humanity as a whole". They're still "unconstrained by a need to generate financial return" though.&lt;/p&gt;
-&lt;p&gt;&lt;img alt='Git diff showing the 2020 revision dropping "as a whole" from "benefit humanity as a whole" and changing "We think" to "OpenAI believes"' src="https://static.simonwillison.net/static/2026/mission-5.jpg"/&gt;&lt;/p&gt;
-&lt;p&gt;2021年出现了一些有趣的变化。虽然他们依然不受盈利需求的束缚，但首次提及"通用人工智能"（取代了"数字智能"）。他们的表述也更为自信：从"最可能造福人类"转变为直接宣称"造福人类"。
-
-此前他们希望"帮助世界构建安全的人工智能技术"，而现在他们决定亲自实现这一目标："公司的目标是开发并负责任地部署安全的人工智能技术"。
-
-2022年仅修改了一个关键措辞：在"构建……（人工智能）造福人类"前增加了"安全地"。他们依然未受盈利需求的制约！
-
-2023年没有变化……但到了2024年，他们几乎删除了全部原有表述，简化为：
-
-OpenAI的使命是确保通用人工智能惠及全人类。
-
-他们将"人类"扩展为"全人类"，但不再提及安全性要求。我猜他们终于可以开始专注于实现盈利需求了！
-
-更新：我找到了Anthropic公司发布的类似文件，但内容乏味得多。
-
-标签：人工智能，openai，人工智能伦理，propublica&lt;/p&gt;
-&lt;p&gt;They previously wanted to "help the world build safe AI technology", but now they're going to do that themselves: "the companys goal is to develop and responsibly deploy safe AI technology".&lt;/p&gt;
-&lt;p&gt;&lt;img alt='Git diff showing the 2021 revision replacing "goal is to advance digital intelligence" with "mission is to build general-purpose artificial intelligence", changing "most likely to benefit" to just "benefits", and replacing "help the world build safe AI technology" with "the companys goal is to develop and responsibly deploy safe AI technology"' src="https://static.simonwillison.net/static/2026/mission-6.jpg"/&gt;&lt;/p&gt;
-&lt;p&gt;2022 only changed one significant word: they added "safely" to "build ... (AI) that safely benefits humanity". They're still unconstrained by those financial returns!&lt;/p&gt;
-&lt;p&gt;&lt;img alt='Git diff showing the 2022 revision adding "(AI)" and the word "safely" so it now reads "that safely benefits humanity", and changing "the companys" to "our"' src="https://static.simonwillison.net/static/2026/mission-7.jpg"/&gt;&lt;/p&gt;
-&lt;p&gt;No changes in 2023... but then in 2024 they deleted almost the entire thing, reducing it to simply:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;OpenAIs mission is to ensure that artificial general intelligence benefits all of humanity.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;They've expanded "humanity" to "all of humanity", but there's no mention of safety any more and I guess they can finally start focusing on that need to generate financial returns!&lt;/p&gt;
-&lt;p&gt;&lt;img alt='Git diff showing the 2024 revision deleting the entire multi-sentence mission statement and replacing it with just "OpenAIs mission is to ensure that artificial general intelligence benefits all of humanity."' src="https://static.simonwillison.net/static/2026/mission-9.jpg"/&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: I found loosely equivalent but much less interesting documents &lt;a href="https://simonwillison.net/2026/Feb/13/anthropic-public-benefit-mission/"&gt;from Anthropic&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/openai"&gt;openai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;ai-ethics&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/propublica"&gt;propublica&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 13 Feb 2026 23:38:29 +0000</pubDate></item><item><title>GPT‑5.3‑Codex‑Spark 正式发布</title><link>https://simonwillison.net/2026/Feb/12/codex-spark/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://openai.com/index/introducing-gpt-5-3-codex-spark/"&gt;GPT‑5.3‑Codex‑Spark正式发布&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;OpenAI宣布与Cerebras建立合作&lt;a href="https://openai.com/index/cerebras-partnership/"&gt;于1月14日&lt;/a&gt;。四周后双方即推出首个融合成果——专为Codex实时编程设计的“超高速模型”。
-&lt;p&gt;虽命名为GPT-5.3-Codex-Spark，它并非GPT-5.3-Codex的单纯加速版。官方博文称其为“GPT‑5.3-Codex的精简版本”，并明确“首发版本支持128k上下文窗口且仅限文本处理”。&lt;/p&gt;
-&lt;p&gt;我曾提前体验该模型，其响应速度确实远超其他版本。&lt;/p&gt;
-&lt;p&gt;在Codex命令行界面中的运行效果如下：&lt;/p&gt;
-&lt;div&gt;
-&lt;video controls="controls" poster="https://static.simonwillison.net/static/2026/gpt-5.3-codex-spark-medium-last.jpg" preload="none" style="width: 100%; height: auto;"&gt;
-&lt;source src="https://static.simonwillison.net/static/2026/gpt-5.3-codex-spark-medium.mp4" type="video/mp4"/&gt;
-&lt;/video&gt;
-&lt;/div&gt;
-&lt;p&gt;这是执行“生成鹈鹕骑自行车的SVG图像”指令后的渲染结果：&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Whimsical flat illustration of an orange duck merged with a bicycle, where the duck's body forms the seat and frame area while its head extends forward over the handlebars, set against a simple light blue sky and green grass background." src="https://static.simonwillison.net/static/2026/gpt-5.3-codex-spark-pelican.png"/&gt;&lt;/p&gt;
-&lt;p&gt;对比标准版GPT-5.3 Codex medium的速度：&lt;/p&gt;
-&lt;div&gt;
-&lt;video controls="controls" poster="https://static.simonwillison.net/static/2026/gpt-5.3-codex-medium-last.jpg" preload="none" style="width: 100%; height: auto;"&gt;
-&lt;source src="https://static.simonwillison.net/static/2026/gpt-5.3-codex-medium.mp4" type="video/mp4"/&gt;
-&lt;/video&gt;
-&lt;/div&gt;
-&lt;p&gt;虽然生成速度明显较慢，但鹈鹕图像精细度更佳：&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Whimsical flat illustration of a white pelican riding a dark blue bicycle at speed, with motion lines behind it, its long orange beak streaming back in the wind, set against a light blue sky and green grass background." src="https://static.simonwillison.net/static/2026/gpt-5.3-codex-pelican.png"/&gt;&lt;/p&gt;
-&lt;p&gt;此模型的核心亮点并非生成质量，而在于&lt;em&gt;极致速度&lt;/em&gt;。当模型响应如此迅捷时，开发者可保持心流状态，与模型进行高效迭代创作。&lt;/p&gt;
-&lt;p&gt;早在2024年10月&lt;a href="https://simonwillison.net/2024/Oct/31/cerebras-coder/"&gt;，我便演示过Cerebras以每秒2000令牌的速度运行Llama 3.1 70B对抗Val Town。OpenAI宣称新模型达每秒1000令牌，预计将成为实战编程迭代中极具威力的协作伙伴。&lt;/a&gt;新模型的定价策略尚未公布。&lt;/p&gt;
-&lt;p&gt;标签：&lt;p&gt;人工智能&lt;a href="https://simonwillison.net/tags/ai"&gt;、&lt;/a&gt;openai&lt;a href="https://simonwillison.net/tags/openai"&gt;、&lt;/a&gt;生成式AI&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;、&lt;/a&gt;大语言模型&lt;a href="https://simonwillison.net/tags/llms"&gt;、&lt;/a&gt;cerebras&lt;a href="https://simonwillison.net/tags/cerebras"&gt;、&lt;/a&gt;鹈鹕骑自行车&lt;a href="https://simonwillison.net/tags/pelican-riding-a-bicycle"&gt;、&lt;/a&gt;大模型发布&lt;a href="https://simonwillison.net/tags/llm-release"&gt;、&lt;/a&gt;codex命令行工具&lt;a href="https://simonwillison.net/tags/codex-cli"&gt;、&lt;/a&gt;推理速度&lt;a href="https://simonwillison.net/tags/inference-speed"&gt;inference-speed&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Thu, 12 Feb 2026 21:16:07 +0000</pubDate></item></channel></rss>
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;ai-ethics&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/anthropic"&gt;anthropic&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 13 Feb 2026 23:59:51 +0000</pubDate></item></channel></rss>
