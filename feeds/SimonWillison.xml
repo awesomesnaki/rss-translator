@@ -1,5 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Thu, 19 Feb 2026 01:25:33 +0000</lastBuildDate><item><title>LadybirdBrowser/ladybird：放弃Swift采用</title><link>https://simonwillison.net/2026/Feb/19/ladybird/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/LadybirdBrowser/ladybird/commit/e87f889e31afbb5fa32c910603c7f5e781c97afd"&gt;Ladybird浏览器项目放弃采用Swift语言&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;返回&lt;a href="https://simonwillison.net/2024/Aug/11/ladybird-set-to-adopt-swift/"&gt;2024年8月&lt;/a&gt;Ladybird浏览器项目曾宣布计划采用Swift作为其内存安全语言
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Thu, 19 Feb 2026 05:44:29 +0000</lastBuildDate><item><title>尝试为我的博客和新闻简报引入赞助</title><link>https://simonwillison.net/2026/Feb/19/sponsorship/#atom-everything</link><description>&lt;p&gt;长久以来，我一直抗拒在博客上接受赞助的想法。我珍视自己作为独立声音的可信度，不愿冒险损害这一声誉。
+
+后来我了解到特洛伊·亨特处理赞助的方式，他最早在2016年就写过相关文章。特洛伊只在页面横幅中设置简单的文字行——没有JavaScript，没有cookie，既不影响用户体验，又能为赞助商提供价值。这种方式我可以接受！
+
+以这种方式接受赞助，既能帮助我保持独立性，又能弥补我不从事全职工作的机会成本。
+
+初期我将按周出售赞助位。赞助商将获得我博客上不显眼的横幅展示，同时他们的赞助信息也会出现在我的新闻通讯顶部。
+
+我不会为换取赞助而撰写特定内容。希望合作的赞助商能够理解，我作为独立声音的可信度正是吸引读者的关键原因，损害这份信任对双方都没有好处。
+
+弗里曼与福里斯特团队帮助我设立并售出了首批赞助位。同时感谢西奥·布朗协助我完善这套赞助方案。
+
+标签：新闻通讯、博客写作、特洛伊·亨特&lt;/p&gt;
+&lt;p&gt;Then I learned about Troy Hunt's &lt;a href="https://www.troyhunt.com/sponsorship/"&gt;approach to sponsorship&lt;/a&gt;, which he first wrote about &lt;a href="https://www.troyhunt.com/im-now-offering-sponsorship-of-this-blog/"&gt;in 2016&lt;/a&gt;. Troy runs with a simple text row in the page banner - no JavaScript, no cookies, unobtrusive while providing value to the sponsor. I can live with that!&lt;/p&gt;
+&lt;p&gt;Accepting sponsorship in this way helps me maintain my independence while offsetting the opportunity cost of not taking a full-time job.&lt;/p&gt;
+&lt;p&gt;To start with I'm selling sponsorship by the week. Sponsors get that unobtrusive banner across my blog and also their sponsored message at the top of &lt;a href="https://simonw.substack.com/"&gt;my newsletter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Screenshot of my blog's homepage. Below the Simon Willison's Weblog heading and list of tags is a new blue page-wide banner reading &amp;quot;Sponsored by: Teleport - Secure, Govern, and Operate Al at Engineering Scale. Learn more&amp;quot;." src="https://static.simonwillison.net/static/2026/sponsor-banner.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;I &lt;strong&gt;will not write content in exchange for sponsorship&lt;/strong&gt;. I hope the sponsors I work with understand that my credibility as an independent voice is a key reason I have an audience, and compromising that trust would be bad for everyone.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.freemanandforrest.com/"&gt;Freeman &amp;amp; Forrest&lt;/a&gt; helped me set up and sell my first slots. Thanks also to &lt;a href="https://t3.gg/"&gt;Theo Browne&lt;/a&gt; for helping me think through my approach.&lt;/p&gt;
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/newsletter"&gt;newsletter&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/blogging"&gt;blogging&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/troy-hunt"&gt;troy-hunt&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 19 Feb 2026 05:44:29 +0000</pubDate></item><item><title>SWE-bench 2026年2月排行榜更新</title><link>https://simonwillison.net/2026/Feb/19/swe-bench/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.swebench.com/"&gt;SWE-bench 2026年2月排行榜更新
+
+SWE-bench是各大实验室在发布模型时热衷引用的基准测试之一。其官方排行榜更新频率不高，但近期他们针对当前一代模型进行了全面测试，这值得关注，因为看到这种非实验室自行报告的基准测试结果总是件好事。
+
+最新结果来自他们的"纯Bash"基准测试，该测试使用其mini-swe-bench代理程序（约9000行Python代码，这是他们使用的提示词）对SWE-bench编码问题数据集进行测试——该数据集包含从12个开源仓库提取的2294个真实案例：django/django（850例）、sympy/sympy（386例）、scikit-learn/scikit-learn（229例）、sphinx-doc/sphinx（187例）、matplotlib/matplotlib（184例）、pytest-dev/pytest（119例）、pydata/xarray（110例）、astropy/astropy（95例）、pylint-dev/pylint（57例）、psf/requests（44例）、mwaskom/seaborn（22例）、pallets/flask（11例）。
+
+以下是前十名模型的表现：
+
+有趣的是，Claude Opus 4.5击败了Opus 4.6，虽然仅领先约一个百分点。4.5 Opus位居榜首，其次是Gemini 3 Flash，然后是MiniMax M2.5——这是中国实验室MiniMax上周发布的2290亿参数模型。GLM-5、Kimi K2.5和DeepSeek V3.2是另外三个进入前十的中国模型。
+
+OpenAI的GPT-5.2以第六名成为其表现最佳的模型，但值得注意的是，他们最好的编码模型GPT-5.3-Codex并未出现——可能是因为尚未在OpenAI API中提供。
+
+该基准测试对所有模型使用相同的系统提示词，这对公平比较很重要，但也意味着不同测试框架或优化提示词的质量未在此衡量。
+
+上图是SWE-bench网站的截图，但他们的图表未在柱状图上显示具体百分比数值。我成功使用Chrome版Claude添加了这些数据——这是操作记录。我的提示词序列包括：使用Chrome版Claude打开https://www.swebench.com/，点击"比较结果"，然后选择"选择前十名"。&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+SWE-bench is one of the benchmarks that the labs love to list in their model releases. The official leaderboard is infrequently updated but they just did a full run of it against the current generation of models, which is notable because it's always good to see benchmark results like this that &lt;em&gt;weren't&lt;/em&gt; self-reported by the labs.
+&lt;p&gt;The fresh results are for their "Bash Only" benchmark, which runs their &lt;a href="https://github.com/SWE-agent/mini-swe-agent"&gt;mini-swe-bench&lt;/a&gt; agent (~9,000 lines of Python, &lt;a href="https://github.com/SWE-agent/mini-swe-agent/blob/v2.2.1/src/minisweagent/config/benchmarks/swebench.yaml"&gt;here are the prompts&lt;/a&gt; they use) against the &lt;a href="https://huggingface.co/datasets/princeton-nlp/SWE-bench"&gt;SWE-bench&lt;/a&gt; dataset of coding problems - 2,294 real-world examples pulled from 12 open source repos: &lt;a href="https://github.com/django/django"&gt;django/django&lt;/a&gt; (850), &lt;a href="https://github.com/sympy/sympy"&gt;sympy/sympy&lt;/a&gt; (386), &lt;a href="https://github.com/scikit-learn/scikit-learn"&gt;scikit-learn/scikit-learn&lt;/a&gt; (229), &lt;a href="https://github.com/sphinx-doc/sphinx"&gt;sphinx-doc/sphinx&lt;/a&gt; (187), &lt;a href="https://github.com/matplotlib/matplotlib"&gt;matplotlib/matplotlib&lt;/a&gt; (184), &lt;a href="https://github.com/pytest-dev/pytest"&gt;pytest-dev/pytest&lt;/a&gt; (119), &lt;a href="https://github.com/pydata/xarray"&gt;pydata/xarray&lt;/a&gt; (110), &lt;a href="https://github.com/astropy/astropy"&gt;astropy/astropy&lt;/a&gt; (95), &lt;a href="https://github.com/pylint-dev/pylint"&gt;pylint-dev/pylint&lt;/a&gt; (57), &lt;a href="https://github.com/psf/requests"&gt;psf/requests&lt;/a&gt; (44), &lt;a href="https://github.com/mwaskom/seaborn"&gt;mwaskom/seaborn&lt;/a&gt; (22), &lt;a href="https://github.com/pallets/flask"&gt;pallets/flask&lt;/a&gt; (11).&lt;/p&gt;
+&lt;p&gt;Here's how the top ten models performed:&lt;/p&gt;
+&lt;p&gt;&lt;img alt='Bar chart showing "% Resolved" by "Model". Bars in descending order: Claude 4.5 Opus (high reasoning) 76.8%, Gemini 3 Flash (high reasoning) 75.8%, MiniMax M2.5 (high reasoning) 75.8%, Claude Opus 4.6 75.6%, GLM-5 (high reasoning) 72.8%, GPT-5.2 (high reasoning) 72.8%, Claude 4.5 Sonnet (high reasoning) 72.8%, Kimi K2.5 (high reasoning) 71.4%, DeepSeek V3.2 (high reasoning) 70.8%, Claude 4.5 Haiku (high reasoning) 70.0%, and a partially visible final bar at 66.6%.' src="https://static.simonwillison.net/static/2026/swbench-feb-2026.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;It's interesting to see Claude Opus 4.5 beat Opus 4.6, though only by about a percentage point. 4.5 Opus is top, then Gemini 3 Flash, then MiniMax M2.5 - a 229B model released &lt;a href="https://www.minimax.io/news/minimax-m25"&gt;last week&lt;/a&gt; by Chinese lab MiniMax. GLM-5, Kimi K2.5 and DeepSeek V3.2 are three more Chinese models that make the top ten as well.&lt;/p&gt;
+&lt;p&gt;OpenAI's GPT-5.2 is their highest performing model at position 6, but it's worth noting that their best coding model, GPT-5.3-Codex, is not represented - maybe because it's not yet available in the OpenAI API.&lt;/p&gt;
+&lt;p&gt;This benchmark uses the same system prompt for every model, which is important for a fair comparison but does mean that the quality of the different harnesses or optimized prompts is not being measured here.&lt;/p&gt;
+&lt;p&gt;The chart above is a screenshot from the SWE-bench website, but their charts don't include the actual percentage values visible on the bars. I successfully used Claude for Chrome to add these - &lt;a href="https://claude.ai/share/81a0c519-c727-4caa-b0d4-0d866375d0da"&gt;transcript here&lt;/a&gt;. My prompt sequence included:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Use claude in chrome to open https://www.swebench.com/&lt;/p&gt;
+&lt;p&gt;Click on "Compare results" and then select "Select top 10"&lt;/p&gt;
+&lt;p&gt;看到那些柱状图了吗？我想让它们在每个柱子上显示百分比，这样我就能截取更好的截图，请按这个要求修改页面。
+
+我对这个效果感到惊喜——Claude向页面注入了自定义JavaScript代码，在现有图表上方绘制了额外的标签。
+
+通过
+@KLieret
+
+标签：
+基准测试，
+Django，
+人工智能，
+OpenAI，
+生成式AI，
+大语言模型，
+Anthropic，
+Claude，
+编码助手，
+中国AI发展，
+Minimax&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I'm impressed at how well this worked - Claude injected custom JavaScript into the page to draw additional labels on top of the existing chart.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Screenshot of a Claude AI conversation showing browser automation. A thinking step reads &amp;quot;Pivoted strategy to avoid recursion issues with chart labeling &amp;gt;&amp;quot; followed by the message &amp;quot;Good, the chart is back. Now let me carefully add the labels using an inline plugin on the chart instance to avoid the recursion issue.&amp;quot; A collapsed &amp;quot;Browser_evaluate&amp;quot; section shows a browser_evaluate tool call with JavaScript code using Chart.js canvas context to draw percentage labels on bars: meta.data.forEach((bar, index) =&amp;gt; { const value = dataset.data[index]; if (value !== undefined &amp;amp;&amp;amp; value !== null) { ctx.save(); ctx.textAlign = 'center'; ctx.textBaseline = 'bottom'; ctx.fillStyle = '#333'; ctx.font = 'bold 12px sans-serif'; ctx.fillText(value.toFixed(1) + '%', bar.x, bar.y - 5); A pending step reads &amp;quot;Let me take a screenshot to see if it worked.&amp;quot; followed by a completed &amp;quot;Done&amp;quot; step, and the message &amp;quot;Let me take a screenshot to check the result.&amp;quot;" src="https://static.simonwillison.net/static/2026/claude-chrome-draw-on-chart.jpg"/&gt;
+&lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href="https://twitter.com/KLieret/status/2024176335782826336"&gt;@KLieret&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/benchmarks"&gt;benchmarks&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/django"&gt;django&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/openai"&gt;openai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/anthropic"&gt;anthropic&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude"&gt;claude&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-in-china"&gt;ai-in-china&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/minimax"&gt;minimax&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Thu, 19 Feb 2026 04:48:47 +0000</pubDate></item><item><title>LadybirdBrowser/ladybird：放弃Swift采用</title><link>https://simonwillison.net/2026/Feb/19/ladybird/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/LadybirdBrowser/ladybird/commit/e87f889e31afbb5fa32c910603c7f5e781c97afd"&gt;Ladybird浏览器项目放弃采用Swift语言&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;返回&lt;a href="https://simonwillison.net/2024/Aug/11/ladybird-set-to-adopt-swift/"&gt;2024年8月&lt;/a&gt;Ladybird浏览器项目曾宣布计划采用Swift作为其内存安全语言
 &lt;p&gt;截至&lt;a href="https://github.com/LadybirdBrowser/ladybird/commit/e87f889e31afbb5fa32c910603c7f5e781c97afd"&gt;本次提交&lt;/a&gt;项目方似乎改变了主意：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;全面放弃Swift采用计划&lt;/strong&gt;&lt;/p&gt;
@@ -688,7 +756,7 @@ perfObserver.observe({ entryTypes: [ "resource" ] });
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;该&lt;code&gt;resourceURLStringsHandler&lt;/code&gt;回调函数会查找资源是否已加载，如果没有，则通过HTTP范围请求获取，然后使用一个&lt;code&gt;blob:&lt;/code&gt;URL&lt;/p&gt;
 &lt;p&gt;将资源插入到正确的位置。&lt;code&gt;window.stop()&lt;/code&gt;如果你查看源代码，文档的&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Screenshot of a macOS terminal window titled &amp;quot;gw — more big.html — 123×46&amp;quot; showing the source code of a gwtar (self-extracting HTML archive) file. The visible code includes JavaScript with requestIdleCallback(getMainPageHTML);, a &amp;lt;noscript&amp;gt; block with warnings: a &amp;quot;js-disabled-warning&amp;quot; stating &amp;quot;This HTML page requires JavaScript to be enabled to render, as it is a self-extracting gwtar HTML file,&amp;quot; a description of gwtar as &amp;quot;a portable self-contained standalone HTML file which is designed to nevertheless support efficient lazy loading of all assets such as large media files,&amp;quot; with a link to https://gwern.net/gwtar, a &amp;quot;local-file-warning&amp;quot; with a shell command perl -ne'print $_ if $x; $x=1 if /&amp;lt;!-- GWTAR END/' &amp;amp;lt; foo.gwtar.html | tar --extract, and a &amp;quot;server-fail-warning&amp;quot; about misconfigured servers. Below the HTML closing tags and &amp;lt;!-- GWTAR END comment is binary tar archive data with the filename 2010-02-brianmoriarty-thesecretofpsalm46.html, showing null-padded tar header fields including ustar^@00root and octal size/permission values. At the bottom, a SingleFile metadata comment shows url: https://web.archive.org/web/20230512001411/http://ludix.com/moriarty/psalm46.html and saved date: Sat Jan 17 2026 19:26:49 GMT-0800 (Pacific Standard Time)." src="https://static.simonwillison.net/static/2026/gwtar.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Screenshot of a macOS terminal window titled &amp;quot;gw — more big.html — 123×46&amp;quot; showing the source code of a gwtar (self-extracting HTML archive) file. The visible code includes JavaScript with requestIdleCallback(getMainPageHTML);, a noscript block with warnings: a &amp;quot;js-disabled-warning&amp;quot; stating &amp;quot;This HTML page requires JavaScript to be enabled to render, as it is a self-extracting gwtar HTML file,&amp;quot; a description of gwtar as &amp;quot;a portable self-contained standalone HTML file which is designed to nevertheless support efficient lazy loading of all assets such as large media files,&amp;quot; with a link to https://gwern.net/gwtar, a &amp;quot;local-file-warning&amp;quot; with a shell command perl -ne'print $_ if $x; $x=1 if /&amp;lt;!-- GWTAR END/' &amp;amp;lt; foo.gwtar.html | tar --extract, and a &amp;quot;server-fail-warning&amp;quot; about misconfigured servers. Below the HTML closing tags and &amp;lt;!-- GWTAR END comment is binary tar archive data with the filename 2010-02-brianmoriarty-thesecretofpsalm46.html, showing null-padded tar header fields including ustar^@00root and octal size/permission values. At the bottom, a SingleFile metadata comment shows url: https://web.archive.org/web/20230512001411/http://ludix.com/moriarty/psalm46.html and saved date: Sat Jan 17 2026 19:26:49 GMT-0800 (Pacific Standard Time)." src="https://static.simonwillison.net/static/2026/gwtar.jpg"/&gt;&lt;/p&gt;
 &lt;p&gt;部分看起来是这样的：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;有趣的是，作为一种归档格式，如果你直接在本地计算机上打开文件，它实际上无法工作。如果你尝试这样做，你会看到以下内容：&lt;code&gt;gwtar&lt;/code&gt;你看到这条消息，而不是你应该看到的页面，是因为&lt;strong&gt;文件&lt;/strong&gt;无法在本地打开&lt;/p&gt;
@@ -712,19 +780,4 @@ perfObserver.observe({ entryTypes: [ "resource" ] });
 &lt;/blockquote&gt;
 &lt;p&gt;Looks like vaporware to me - all you can do right now is reserve a handle - but it's still remarkable to see an open source project get to &lt;em&gt;that&lt;/em&gt; level of hype in such a short space of time.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: OpenClaw creator Peter Steinberger &lt;a href="https://steipete.me/posts/2026/openclaw"&gt;just announced&lt;/a&gt; that he's joining OpenAI and plans to transfer ownership of OpenClaw to a new independent foundation.&lt;/p&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/ai-agents"&gt;ai-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/openclaw"&gt;openclaw&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/open-source"&gt;open-source&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/domains"&gt;domains&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/openai"&gt;openai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/peter-steinberger"&gt;peter-steinberger&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sun, 15 Feb 2026 17:23:28 +0000</pubDate></item><item><title>引用埃里克·迈耶</title><link>https://simonwillison.net/2026/Feb/15/eric-meyer/#atom-everything</link><description>&lt;blockquote cite="https://mastodon.social/@Meyerweb/116065151451468199"&gt;&lt;p&gt;又看到有人抱怨“CSS臃肿不堪”，我心想：老兄啊，我的浏览器同好。它正竭尽全力用人类可读的文本格式，去表达视觉呈现、布局设计、字体排印、动画效果、数字交互等领域的完整体系。这不是臃肿，而是了不起的雄心。它的疆域广阔到超乎多数人的理解。请给予它应有的尊重。
-
-——埃里克·迈耶  
-标签：css, web-standards, eric-meyer&lt;em&gt;respect&lt;/em&gt; on its &lt;em&gt;name&lt;/em&gt;.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class="cite"&gt;— &lt;a href="https://mastodon.social/@Meyerweb/116065151451468199"&gt;Eric Meyer&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/css"&gt;css&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/web-standards"&gt;web-standards&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/eric-meyer"&gt;eric-meyer&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sun, 15 Feb 2026 13:36:20 +0000</pubDate></item><item><title>生成式与代理式AI如何将关注焦点从技术债转向认知债</title><link>https://simonwillison.net/2026/Feb/15/cognitive-debt/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://margaretstorey.com/blog/2026/02/09/cognitive-debt/"&gt;生成式AI与智能体AI如何将关注点从技术债转向认知债&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;玛格丽特-安妮·斯托里的这篇文章是目前对&lt;strong&gt;认知债&lt;/strong&gt;这一概念的最佳阐释。
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;认知债&lt;/em&gt;这一术语近期逐渐&lt;a href="https://www.media.mit.edu/publications/your-brain-on-chatgpt/"&gt;流行&lt;/a&gt;起来，它传达的核心观点是：因追求速度而产生的债务会沉淀在开发者脑中，影响他们的实际体验以及“快速推进”或实施变更的能力。即使AI智能体生成的代码易于理解，相关开发人员仍可能完全迷失方向，无法理解程序预期功能、自身意图的实现逻辑或可能的修改路径。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;玛格丽特-安妮通过指导学生团队的亲身经历进一步阐释：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;但到第7-8周时，某小组陷入僵局。他们哪怕进行微小改动都会引发意外故障。当我与他们复盘时，团队起初归咎于技术债：混乱的代码、糟糕的架构、仓促的实现。但随着深入分析，真正的问题浮出水面：团队无人能解释当初为何做出特定设计决策，也说不清系统各部分应如何协同运作。代码或许确实混乱，但更严重的是系统设计理念和团队共识已支离破碎甚至完全消失。他们积累认知债的速度远超技术债，最终导致项目瘫痪。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;我在自己某些更具野心的氛围编码相关项目中也亲历过这种情况。我曾尝试通过提示词直接生成完整新功能而不审查实现过程，虽然效果出奇地好，却逐渐在自己的项目中迷失方向。&lt;/p&gt;
-&lt;p&gt;我再也无法在脑中构建关于项目能力边界与运作机制的清晰模型，这意味着每个新增功能都变得更难推演，最终导致我失去规划后续方向的决策信心。&lt;p&gt;&lt;small&gt;&lt;/small&gt;经由&lt;a href="https://martinfowler.com/fragments/2026-02-13.html"&gt;马丁·福勒&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/definitions"&gt;概念解析&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;AI辅助编程&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/vibe-coding"&gt;氛围式编程&lt;/a&gt;,&lt;a href="https://simonwillison.net/tags/cognitive-debt"&gt;认知负债&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Sun, 15 Feb 2026 05:20:11 +0000</pubDate></item></channel></rss>
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/ai-agents"&gt;ai-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/openclaw"&gt;openclaw&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/open-source"&gt;open-source&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/domains"&gt;domains&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/openai"&gt;openai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/peter-steinberger"&gt;peter-steinberger&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sun, 15 Feb 2026 17:23:28 +0000</pubDate></item></channel></rss>
