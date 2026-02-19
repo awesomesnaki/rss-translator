@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Thu, 19 Feb 2026 05:44:29 +0000</lastBuildDate><item><title>尝试为我的博客和新闻简报引入赞助</title><link>https://simonwillison.net/2026/Feb/19/sponsorship/#atom-everything</link><description>&lt;p&gt;长久以来，我一直抗拒在博客上接受赞助的想法。我珍视自己作为独立声音的可信度，不愿冒险损害这一声誉。
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Thu, 19 Feb 2026 17:58:37 +0000</lastBuildDate><item><title>双子座 3.1 Pro</title><link>https://simonwillison.net/2026/Feb/19/gemini-31-pro/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"&gt;Gemini 3.1 Pro&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;Gemini 3.1系列的首款模型，定价与Gemini 3 Pro相同（20万tokens内输入每百万2美元、输出每百万12美元，20万至100万tokens区间为4美元/18美元）。其基准测试成绩与Claude Opus 4.6非常接近，价格却不到后者的一半。
+&lt;p&gt;官方公告中特别强调其SVG动画生成性能较Gemini 3 Pro有所提升！&lt;/p&gt;
+&lt;p&gt;我尝试在Google AI Studio中输入"生成一只鹈鹕骑自行车的SVG图"&lt;a href="https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221ugF9fBfLGxnNoe8_rLlluzo9NSPJDWuF%22%5D,%22action%22:%22open%22,%22userId%22:%22106366615678321494423%22,%22resourceKeys%22:%7B%7D%7D&amp;amp;usp=sharing"&gt;结果它思考了323.9秒（&lt;/a&gt;思考过程追踪在此&lt;a href="https://gist.github.com/simonw/03a755865021739a3659943a22c125ba#thinking-trace"&gt;）才生成这张图：&lt;/a&gt;很高兴看到自行车架两侧的腿都被清晰描绘（这应该&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Whimsical flat-style illustration of a pelican wearing a blue and white baseball cap, riding a red bicycle with yellow-rimmed wheels along a road. The pelican has a large orange bill and a green scarf. A small fish peeks out of a brown basket on the handlebars. The background features a light blue sky with a yellow sun, white clouds, and green hills." src="https://static.simonwillison.net/static/2026/gemini-3.1-pro-pelican.png"/&gt;&lt;/p&gt;
+&lt;p&gt;能让马斯克满意&lt;a href="https://twitter.com/elonmusk/status/2023833496804839808"&gt;），车篮里的鱼是个巧妙细节，我特别欣赏&lt;/a&gt;SVG代码中&lt;a href="https://gist.github.com/simonw/03a755865021739a3659943a22c125ba#response"&gt;的这段注释：&lt;/a&gt;我已将两个新模型ID&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;!-- Black Flight Feathers on Wing Tip --&amp;gt;
+&amp;lt;path d="M 420 175 C 440 182, 460 187, 470 190 C 450 210, 430 208, 410 198 Z" fill="#374151" /&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;添加到&lt;a href="https://github.com/simonw/llm-gemini/issues/121"&gt;我的LLM工具&lt;/a&gt;llm-gemini插件&lt;code&gt;gemini-3.1-pro-preview&lt;/code&gt;中。那个"自定义工具"版本&lt;code&gt;gemini-3.1-pro-preview-customtools&lt;/code&gt;在此说明&lt;a href="https://github.com/simonw/llm-gemini"&gt;——据说在某些场景下能提供比默认模型更佳的工具调用性能。&lt;/a&gt;当前模型响应速度&lt;a href="https://llm.datasette.io/"&gt;极其&lt;/a&gt;缓慢：回复简单"你好"耗时104秒，其他测试还遇到"错误：当前模型需求过高，流量高峰通常为临时现象，请稍后重试"或"错误：操作未能在截止时间前完成"等报错。推测这只是发布日的初期问题。&lt;a href="https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview#gemini-31-pro-preview-customtools"&gt;看来上周的&lt;/a&gt;Deep Think发布&lt;/p&gt;
+&lt;p&gt;已让我们初窥3.1系列的实力：&lt;em&gt;上周我们发布了Gemini 3 Deep Think重大更新，以应对科学、研究和工程领域的现代挑战。今日，我们正式推出实现这些突破的核心智能升级版：Gemini 3.1 Pro。&lt;/em&gt;标签：&lt;/p&gt;
+&lt;p&gt;谷歌&lt;a href="https://simonwillison.net/2026/Feb/12/gemini-3-deep-think/"&gt;、&lt;/a&gt;可缩放矢量图形&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;、&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;人工智能&lt;a href="https://simonwillison.net/tags/google"&gt;、&lt;/a&gt;生成式人工智能&lt;a href="https://simonwillison.net/tags/svg"&gt;、&lt;/a&gt;大语言模型&lt;a href="https://simonwillison.net/tags/ai"&gt;、&lt;/a&gt;语言模型&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;、&lt;/a&gt;双子座&lt;a href="https://simonwillison.net/tags/llms"&gt;、&lt;/a&gt;骑自行车的鹈鹕&lt;a href="https://simonwillison.net/tags/llm"&gt;、&lt;/a&gt;大模型发布&lt;a href="https://simonwillison.net/tags/gemini"&gt;&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/pelican-riding-a-bicycle"&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llm-release"&gt;llm-release&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 19 Feb 2026 17:58:37 +0000</pubDate></item><item><title>尝试为我的博客和新闻简报引入赞助</title><link>https://simonwillison.net/2026/Feb/19/sponsorship/#atom-everything</link><description>&lt;p&gt;长久以来，我一直抗拒在博客上接受赞助的想法。我珍视自己作为独立声音的可信度，不愿冒险损害这一声誉。
 
 后来我了解到特洛伊·亨特处理赞助的方式，他最早在2016年就写过相关文章。特洛伊只在页面横幅中设置简单的文字行——没有JavaScript，没有cookie，既不影响用户体验，又能为赞助商提供价值。这种方式我可以接受！
 
@@ -20,49 +34,65 @@
 &lt;p&gt;&lt;a href="https://www.freemanandforrest.com/"&gt;Freeman &amp;amp; Forrest&lt;/a&gt; helped me set up and sell my first slots. Thanks also to &lt;a href="https://t3.gg/"&gt;Theo Browne&lt;/a&gt; for helping me think through my approach.&lt;/p&gt;
 &lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/newsletter"&gt;newsletter&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/blogging"&gt;blogging&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/troy-hunt"&gt;troy-hunt&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 19 Feb 2026 05:44:29 +0000</pubDate></item><item><title>SWE-bench 2026年2月排行榜更新</title><link>https://simonwillison.net/2026/Feb/19/swe-bench/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.swebench.com/"&gt;SWE-bench 2026年2月排行榜更新
 
-SWE-bench是各大实验室在发布模型时热衷引用的基准测试之一。其官方排行榜更新频率不高，但近期他们针对当前一代模型进行了全面测试，这值得关注，因为看到这种非实验室自行报告的基准测试结果总是件好事。
+SWE-bench是各大实验室热衷在模型发布时引用的基准测试之一。其官方排行榜虽不常更新，但近期对当前一代模型进行了全面测试，这值得关注——毕竟能看到非实验室自行上报的基准测试结果总是件好事。
 
-最新结果来自他们的"纯Bash"基准测试，该测试使用其mini-swe-bench代理程序（约9000行Python代码，这是他们使用的提示词）对SWE-bench编码问题数据集进行测试——该数据集包含从12个开源仓库提取的2294个真实案例：django/django（850例）、sympy/sympy（386例）、scikit-learn/scikit-learn（229例）、sphinx-doc/sphinx（187例）、matplotlib/matplotlib（184例）、pytest-dev/pytest（119例）、pydata/xarray（110例）、astropy/astropy（95例）、pylint-dev/pylint（57例）、psf/requests（44例）、mwaskom/seaborn（22例）、pallets/flask（11例）。
+最新结果来自他们的"纯Bash"基准测试，该测试使用其迷你SWE-bench智能体（约9000行Python代码，所用提示词见此链接）对SWE-bench编码问题数据集进行测评。该数据集包含从12个开源仓库提取的2294个真实案例：django/django（850例）、sympy/sympy（386例）、scikit-learn/scikit-learn（229例）、sphinx-doc/sphinx（187例）、matplotlib/matplotlib（184例）、pytest-dev/pytest（119例）、pydata/xarray（110例）、astropy/astropy（95例）、pylint-dev/pylint（57例）、psf/requests（44例）、mwaskom/seaborn（22例）、pallets/flask（11例）。
 
-以下是前十名模型的表现：
+更正说明：纯Bash基准测试实际针对的是SWE-bench Verified数据集，而非原始SWE-bench。Verified是由OpenAI资助、人工精选的500个样本子集（详见说明文档）。可通过Hugging Face上的SWE-bench Verified数据集（仅2.1MB Parquet格式文件）便捷浏览，使用Datasette Lite工具可查得各仓库样本数缩减为：django/django（231例）、sympy/sympy（75例）、sphinx-doc/sphinx（44例）、matplotlib/matplotlib（34例）、scikit-learn/scikit-learn（32例）、astropy/astropy（22例）、pydata/xarray（22例）、pytest-dev/pytest（19例）、pylint-dev/pylint（10例）、psf/requests（8例）、mwaskom/seaborn（2例）、pallets/flask（1例）。
 
-有趣的是，Claude Opus 4.5击败了Opus 4.6，虽然仅领先约一个百分点。4.5 Opus位居榜首，其次是Gemini 3 Flash，然后是MiniMax M2.5——这是中国实验室MiniMax上周发布的2290亿参数模型。GLM-5、Kimi K2.5和DeepSeek V3.2是另外三个进入前十的中国模型。
+前十名模型表现如下：
 
-OpenAI的GPT-5.2以第六名成为其表现最佳的模型，但值得注意的是，他们最好的编码模型GPT-5.3-Codex并未出现——可能是因为尚未在OpenAI API中提供。
-
-该基准测试对所有模型使用相同的系统提示词，这对公平比较很重要，但也意味着不同测试框架或优化提示词的质量未在此衡量。
-
-上图是SWE-bench网站的截图，但他们的图表未在柱状图上显示具体百分比数值。我成功使用Chrome版Claude添加了这些数据——这是操作记录。我的提示词序列包括：使用Chrome版Claude打开https://www.swebench.com/，点击"比较结果"，然后选择"选择前十名"。&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+有趣的是，Claude Opus 4.5以约1个百分点的优势击败了Opus 4.6。4.5 Opus位居榜首，其次是Gemini 3 Flash，第三名是上周由中国实验室MiniMax发布的2290亿参数模型MiniMax M2.5。GLM-5、Kimi K2.5和DeepSeek V3.2这三款中国模型也进入了前十行列。&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 SWE-bench is one of the benchmarks that the labs love to list in their model releases. The official leaderboard is infrequently updated but they just did a full run of it against the current generation of models, which is notable because it's always good to see benchmark results like this that &lt;em&gt;weren't&lt;/em&gt; self-reported by the labs.
 &lt;p&gt;The fresh results are for their "Bash Only" benchmark, which runs their &lt;a href="https://github.com/SWE-agent/mini-swe-agent"&gt;mini-swe-bench&lt;/a&gt; agent (~9,000 lines of Python, &lt;a href="https://github.com/SWE-agent/mini-swe-agent/blob/v2.2.1/src/minisweagent/config/benchmarks/swebench.yaml"&gt;here are the prompts&lt;/a&gt; they use) against the &lt;a href="https://huggingface.co/datasets/princeton-nlp/SWE-bench"&gt;SWE-bench&lt;/a&gt; dataset of coding problems - 2,294 real-world examples pulled from 12 open source repos: &lt;a href="https://github.com/django/django"&gt;django/django&lt;/a&gt; (850), &lt;a href="https://github.com/sympy/sympy"&gt;sympy/sympy&lt;/a&gt; (386), &lt;a href="https://github.com/scikit-learn/scikit-learn"&gt;scikit-learn/scikit-learn&lt;/a&gt; (229), &lt;a href="https://github.com/sphinx-doc/sphinx"&gt;sphinx-doc/sphinx&lt;/a&gt; (187), &lt;a href="https://github.com/matplotlib/matplotlib"&gt;matplotlib/matplotlib&lt;/a&gt; (184), &lt;a href="https://github.com/pytest-dev/pytest"&gt;pytest-dev/pytest&lt;/a&gt; (119), &lt;a href="https://github.com/pydata/xarray"&gt;pydata/xarray&lt;/a&gt; (110), &lt;a href="https://github.com/astropy/astropy"&gt;astropy/astropy&lt;/a&gt; (95), &lt;a href="https://github.com/pylint-dev/pylint"&gt;pylint-dev/pylint&lt;/a&gt; (57), &lt;a href="https://github.com/psf/requests"&gt;psf/requests&lt;/a&gt; (44), &lt;a href="https://github.com/mwaskom/seaborn"&gt;mwaskom/seaborn&lt;/a&gt; (22), &lt;a href="https://github.com/pallets/flask"&gt;pallets/flask&lt;/a&gt; (11).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Correction&lt;/strong&gt;: &lt;em&gt;The Bash only benchmark runs against SWE-bench Verified, not original SWE-bench. Verified is a manually curated subset of 500 samples &lt;a href="https://openai.com/index/introducing-swe-bench-verified/"&gt;described here&lt;/a&gt;, funded by OpenAI. Here's &lt;a href="https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified"&gt;SWE-bench Verified&lt;/a&gt; on Hugging Face - since it's just 2.1MB of Parquet it's easy to browse &lt;a href="https://lite.datasette.io/?parquet=https%3A%2F%2Fhuggingface.co%2Fdatasets%2Fprinceton-nlp%2FSWE-bench_Verified%2Fresolve%2Fmain%2Fdata%2Ftest-00000-of-00001.parquet#/data/test-00000-of-00001?_facet=repo"&gt;using Datasette Lite&lt;/a&gt;, which cuts those numbers down to django/django (231), sympy/sympy (75), sphinx-doc/sphinx (44), matplotlib/matplotlib (34), scikit-learn/scikit-learn (32), astropy/astropy (22), pydata/xarray (22), pytest-dev/pytest (19), pylint-dev/pylint (10), psf/requests (8), mwaskom/seaborn (2), pallets/flask (1)&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Here's how the top ten models performed:&lt;/p&gt;
 &lt;p&gt;&lt;img alt='Bar chart showing "% Resolved" by "Model". Bars in descending order: Claude 4.5 Opus (high reasoning) 76.8%, Gemini 3 Flash (high reasoning) 75.8%, MiniMax M2.5 (high reasoning) 75.8%, Claude Opus 4.6 75.6%, GLM-5 (high reasoning) 72.8%, GPT-5.2 (high reasoning) 72.8%, Claude 4.5 Sonnet (high reasoning) 72.8%, Kimi K2.5 (high reasoning) 71.4%, DeepSeek V3.2 (high reasoning) 70.8%, Claude 4.5 Haiku (high reasoning) 70.0%, and a partially visible final bar at 66.6%.' src="https://static.simonwillison.net/static/2026/swbench-feb-2026.jpg"/&gt;&lt;/p&gt;
 &lt;p&gt;It's interesting to see Claude Opus 4.5 beat Opus 4.6, though only by about a percentage point. 4.5 Opus is top, then Gemini 3 Flash, then MiniMax M2.5 - a 229B model released &lt;a href="https://www.minimax.io/news/minimax-m25"&gt;last week&lt;/a&gt; by Chinese lab MiniMax. GLM-5, Kimi K2.5 and DeepSeek V3.2 are three more Chinese models that make the top ten as well.&lt;/p&gt;
-&lt;p&gt;OpenAI's GPT-5.2 is their highest performing model at position 6, but it's worth noting that their best coding model, GPT-5.3-Codex, is not represented - maybe because it's not yet available in the OpenAI API.&lt;/p&gt;
+&lt;p&gt;OpenAI的GPT-5.2是他们排名第6位的最高性能模型，但值得注意的是，他们最优秀的编程模型GPT-5.3-Codex并未出现在榜单中——或许是因为该模型尚未在OpenAI API中开放使用。
+
+该基准测试为每个模型使用相同的系统提示，这对公平比较至关重要，但也意味着不同测试框架或优化提示的质量差异在此未被衡量。
+
+上方图表截取自SWE-bench网站，但其图表原本不显示柱状图上的具体百分比数值。我成功通过Chrome版Claude添加了这些数据——
+
+操作记录如下。我的提示序列包括：
+
+使用Chrome版Claude打开https://www.swebench.com/
+点击"比较结果"后选择"选取前十名"
+看到那些柱状图了吗？我希望每根柱子上都能显示百分比以便截取更清晰的图表，请按此要求修改页面
+
+这项操作的效果令我印象深刻——Claude向页面注入了自定义JavaScript代码，在现有图表上叠加绘制了额外标签。
+
+经由
+@KLieret
+标签：
+基准测试
+、
+django
+、
+人工智能
+、
+openai
+、
+生成式人工智能
+、
+大语言模型
+、
+anthropic
+、
+claude
+、
+编程智能体
+、
+中国人工智能
+、
+minimax&lt;/p&gt;
 &lt;p&gt;This benchmark uses the same system prompt for every model, which is important for a fair comparison but does mean that the quality of the different harnesses or optimized prompts is not being measured here.&lt;/p&gt;
 &lt;p&gt;The chart above is a screenshot from the SWE-bench website, but their charts don't include the actual percentage values visible on the bars. I successfully used Claude for Chrome to add these - &lt;a href="https://claude.ai/share/81a0c519-c727-4caa-b0d4-0d866375d0da"&gt;transcript here&lt;/a&gt;. My prompt sequence included:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Use claude in chrome to open https://www.swebench.com/&lt;/p&gt;
 &lt;p&gt;Click on "Compare results" and then select "Select top 10"&lt;/p&gt;
-&lt;p&gt;看到那些柱状图了吗？我想让它们在每个柱子上显示百分比，这样我就能截取更好的截图，请按这个要求修改页面。
-
-我对这个效果感到惊喜——Claude向页面注入了自定义JavaScript代码，在现有图表上方绘制了额外的标签。
-
-通过
-@KLieret
-
-标签：
-基准测试，
-Django，
-人工智能，
-OpenAI，
-生成式AI，
-大语言模型，
-Anthropic，
-Claude，
-编码助手，
-中国AI发展，
-Minimax&lt;/p&gt;
+&lt;p&gt;See those bar charts? I want them to display the percentage on each bar so I can take a better screenshot, modify the page like that&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;I'm impressed at how well this worked - Claude injected custom JavaScript into the page to draw additional labels on top of the existing chart.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Screenshot of a Claude AI conversation showing browser automation. A thinking step reads &amp;quot;Pivoted strategy to avoid recursion issues with chart labeling &amp;gt;&amp;quot; followed by the message &amp;quot;Good, the chart is back. Now let me carefully add the labels using an inline plugin on the chart instance to avoid the recursion issue.&amp;quot; A collapsed &amp;quot;Browser_evaluate&amp;quot; section shows a browser_evaluate tool call with JavaScript code using Chart.js canvas context to draw percentage labels on bars: meta.data.forEach((bar, index) =&amp;gt; { const value = dataset.data[index]; if (value !== undefined &amp;amp;&amp;amp; value !== null) { ctx.save(); ctx.textAlign = 'center'; ctx.textBaseline = 'bottom'; ctx.fillStyle = '#333'; ctx.font = 'bold 12px sans-serif'; ctx.fillText(value.toFixed(1) + '%', bar.x, bar.y - 5); A pending step reads &amp;quot;Let me take a screenshot to see if it worked.&amp;quot; followed by a completed &amp;quot;Done&amp;quot; step, and the message &amp;quot;Let me take a screenshot to check the result.&amp;quot;" src="https://static.simonwillison.net/static/2026/claude-chrome-draw-on-chart.jpg"/&gt;
@@ -765,19 +795,4 @@ perfObserver.observe({ entryTypes: [ "resource" ] });
 &lt;p&gt;要在你的计算机上打开此页面，请使用以下shell命令：&lt;code&gt;foo.html&lt;/code&gt;然后在任何Web浏览器中打开文件&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;small&gt;&lt;/small&gt;。&lt;a href="https://news.ycombinator.com/item?id=47024506"&gt;通过&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Hacker News&lt;a href="https://simonwillison.net/tags/archiving"&gt;标签：&lt;/a&gt;归档&lt;a href="https://simonwillison.net/tags/html"&gt;、&lt;/a&gt;html&lt;a href="https://simonwillison.net/tags/javascript"&gt;、&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sun, 15 Feb 2026 18:26:08 +0000</pubDate></item><item><title>三个月之久的OpenClaw</title><link>https://simonwillison.net/2026/Feb/15/openclaw/#atom-everything</link><description>&lt;p&gt;OpenClaw的首个提交日期是2025年11月25日，而不到三个月后，它已经获得了600名贡献者的10,000次提交，吸引了196,000个GitHub星标，甚至在一个极其模糊的超级碗AI.com广告中有所提及。
-
-引用AI.com创始人Kris Marszalek的话，他以7000万美元购买了史上最昂贵的域名："ai.com是世界上首个易于使用且安全的OpenClaw实现，这个开源智能体框架两周前迅速走红；我们使其无需任何技术技能即可轻松使用，同时加强了安全性以保护您的数据。"
-
-在我看来，这似乎只是个空壳产品——目前你只能预订一个用户名——但看到一个开源项目在如此短的时间内达到如此高的热度，仍然令人瞩目。
-
-更新：OpenClaw的创建者Peter Steinberger刚刚宣布，他将加入OpenAI，并计划将OpenClaw的所有权转移给一个新的独立基金会。
-
-标签：ai-agents, openclaw, ai, open-source, domains, openai, peter-steinberger&lt;a href="https://github.com/openclaw/openclaw/commit/f6dd362d39b8e30bd79ef7560aab9575712ccc11"&gt;on November 25th 2025&lt;/a&gt;, and less than three months later it's hit 10,000 commits from 600 contributors, attracted 196,000 GitHub stars and sort-of been featured in an extremely vague &lt;a href="https://www.youtube.com/watch?v=n7I-D4YXbzg"&gt;Super Bowl commercial for AI.com&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Quoting AI.com founder &lt;a href="https://twitter.com/kris/status/2020663711015514399"&gt;Kris Marszalek&lt;/a&gt;, purchaser of the &lt;a href="https://www.theregister.com/2026/02/09/70m_aicom_domain_sale/"&gt;most expensive domain in history&lt;/a&gt; for $70m:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;ai.com is the world’s first easy-to-use and secure implementation of OpenClaw, the open source agent framework that went viral two weeks ago; we made it easy to use without any technical skills, while hardening security to keep your data safe.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Looks like vaporware to me - all you can do right now is reserve a handle - but it's still remarkable to see an open source project get to &lt;em&gt;that&lt;/em&gt; level of hype in such a short space of time.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: OpenClaw creator Peter Steinberger &lt;a href="https://steipete.me/posts/2026/openclaw"&gt;just announced&lt;/a&gt; that he's joining OpenAI and plans to transfer ownership of OpenClaw to a new independent foundation.&lt;/p&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/ai-agents"&gt;ai-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/openclaw"&gt;openclaw&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/open-source"&gt;open-source&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/domains"&gt;domains&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/openai"&gt;openai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/peter-steinberger"&gt;peter-steinberger&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sun, 15 Feb 2026 17:23:28 +0000</pubDate></item></channel></rss>
+&lt;p&gt;Hacker News&lt;a href="https://simonwillison.net/tags/archiving"&gt;标签：&lt;/a&gt;归档&lt;a href="https://simonwillison.net/tags/html"&gt;、&lt;/a&gt;html&lt;a href="https://simonwillison.net/tags/javascript"&gt;、&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sun, 15 Feb 2026 18:26:08 +0000</pubDate></item></channel></rss>
