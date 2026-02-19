@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Wed, 18 Feb 2026 00:08:45 +0000</lastBuildDate><item><title>苹果公司邀请媒体3月4日参加纽约、伦敦和上海特别"体验"活动</title><link>https://www.macrumors.com/2026/02/16/apple-announces-special-event-in-new-york/</link><description>&lt;p&gt;哈特利·查尔顿，MacRumors：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Wed, 18 Feb 2026 21:15:10 +0000</lastBuildDate><item><title>保罗·福特：“人工智能颠覆已至，其乐无穷”</title><link>https://www.nytimes.com/2026/02/18/opinion/ai-software.html?unlocked_article_code=1.NFA.djaw.TBlAp8kE_N-i</link><description>&lt;p&gt;保罗·福特在《纽约时报》的专栏文章中写道：我爱的人都讨厌这些东西，而我讨厌的人都爱它。然而，很可能是因为当初吸引我投身科技领域的性格缺陷，我竟对此感到一种恼人的兴奋。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;All of the people I love hate this stuff, and all the people I hate love it. And yet, likely because of the same personality flaws that drew me to technology in the first place, I am annoyingly excited.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/02/18/ford-ai-fun" title="Permanent link to ‘Paul Ford: ‘The A.I. Disruption Has Arrived, and It Sure Is Fun’’"&gt; ★ &lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Wed, 18 Feb 2026 21:15:10 +0000</pubDate></item><item><title>苹果公司邀请媒体3月4日参加纽约、伦敦和上海特别"体验"活动</title><link>https://www.macrumors.com/2026/02/16/apple-announces-special-event-in-new-york/</link><description>&lt;p&gt;哈特利·查尔顿，MacRumors：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;苹果邀请了部分媒体成员在全球三大主要城市参加活动。活动仅被描述为一次“特别的苹果体验”，没有透露更多具体内容。邀请函采用了由黄、绿、蓝三色圆盘构成的3D苹果标志设计。&lt;/p&gt;
 &lt;p&gt;值得注意的是，苹果特意使用了“体验”一词，而非“活动”。与苹果园区全程直播的大型活动不同，3月4日在其他城市举办的活动规模可能较小。&lt;/p&gt;
@@ -389,29 +395,4 @@ Arcade&lt;/a&gt;始终是帮助人们暂时逃离焦虑信息流的绝佳方式�
 &lt;p&gt;本次Ollie's Arcade拓展项目虽已达成基础筹款目标，现正接近解锁追加游戏的延伸目标。iOS平台游戏浩如烟海，但真正免广告、免订阅的佳作却凤毛麟角。若您认同精心制作、价格合理的一次性付费游戏值得支持，欢迎加入我们（&lt;a href="https://www.macstories.net/news/the-iconfactory-launches-kickstarter-to-expand-ollies-arcade-with-frenzic/"&gt;及&lt;/a&gt; &lt;a href="https://sixcolors.com/link/2026/01/the-iconfactory-wants-to-bring-fun-back-to-your-fingers/"&gt;众多支持者&lt;/a&gt;）共同助力这个Kickstarter项目&lt;/p&gt;
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/linked/2026/01/29/kickstarter-for-ollies-arcade-expansion" title="Permanent link to ‘Kickstarter for Ollie’s Arcade Expansion’"&gt;★&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Thu, 29 Jan 2026 15:01:43 +0000</pubDate></item><item><title>iOS 26电话应用中的经典视图与统一视图对比</title><link>https://tidbits.com/2025/11/10/comparing-the-classic-and-unified-views-in-ios-26s-phone-app/</link><description>&lt;p&gt;亚当·恩斯特去年十一月在TidBITS上提到：你知道吗？现在无论处于哪个通话界面，只需向左滑动任意通话记录，就会浮现一个蓝色时钟图标，让你可以设置一小时后再拨、今晚回电、明日提醒或自定义时间的回拨提醒（左下图为轻微修饰示意图）。这些提醒会显示在通话列表顶部，也会出现在你的默认提醒事项列表中。你还可以长按联系人相关的通话记录，通过其他方式联系对方（右下图）；若是陌生来电，长按即可将其添加到通讯录。
-
-在读到恩斯特的文章之前，我确实不知道这些功能。
-
-自从苹果在WWDC上首次展示电话应用的全新统一界面以来，我多次看到一种批评（需要说明的是，这种批评并非来自恩斯特）：苹果将新界面与经典界面同时作为选项提供，这种做法似乎不太妥当。"苹果什么时候给过用户这样的选择权？"
-
-我认为苹果过去其实经常提供这类选项。初代iPhone上的音乐应用（该应用曾一度命名为"iPod"）允许用户自定义底部所有标签页。苹果所有优秀的Mac应用（主要是基于AppKit开发的）至今仍允许用户自定义整个工具栏。问题不在于苹果现在为电话应用提供了两种截然不同的界面，而在于苹果已经不再让用户根据自身需求和喜好深度定制应用——证明就是如今竟有这么多人觉得，为电话应用提供两种视觉与操作模式的选择显得如此反常。
-
-总体而言，我喜欢电话应用的新统一布局。但更让我欣赏的是，苹果为不喜欢新布局的用户保留了选择权，并且两种模式可以在应用内通过极其明显、易于发现（甚至可以说难以忽视）的方式直接切换。无需在设置应用中深入两三级菜单，在电话应用的主界面就能直接切换。正是这样的细节让我保持乐观。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Did you know that, regardless of view, you can now swipe left on
-any call to reveal a blue clock icon that lets you create a
-reminder to call back in 1 hour, tonight, tomorrow, or at any
-custom time (below left, slightly doctored)? Reminders appear at
-the top of the Calls list and in your default Reminders list. You
-can also touch and hold a call associated with a contact to
-connect with them in other ways (below right), or touch and hold a
-call from an unknown caller to add them to Contacts.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;I did not know this, until I read Engst’s article.&lt;/p&gt;
-&lt;p&gt;One criticism I’ve seen a few times (but to be clear, not from Engst) ever since Apple debuted the new Unified interface for the Phone app back at WWDC, is that it’s somehow wrong that Apple offers it as an option alongside the Classic interface. “&lt;em&gt;When does Apple ever offer options like this?&lt;/em&gt;”&lt;/p&gt;
-&lt;p&gt;I’d argue that Apple &lt;em&gt;used&lt;/em&gt; to offer options like this all the time. The Music app on the original iPhone (which app was actually named “iPod” for a while) let you customize all the tabs at the bottom. All of Apple’s good Mac apps (the AppKit ones, primarily) still let you &lt;a href="https://support.apple.com/guide/mac-help/customize-toolbars-mchlb294260e/mac"&gt;customize the entire toolbar&lt;/a&gt;. The problem isn’t that Apple now offers two very different interfaces for the Phone app. The problem is that Apple stopped offering users ways to significantly tailor apps to their own needs and tastes — and the proof that they stopped is that so many people now think it’s so strange that they’re offering two options for how the Phone app should look and work.&lt;/p&gt;
-&lt;p&gt;Overall, I like the new Unified layout in the Phone app. But what I love is there remains an option for those who don’t, and that you can switch between the two in a very obvious, easily discoverable (dare I say, hard to miss) way right in the app itself. No need to dig two or three levels deep into the Settings app. You can just switch right there in the main screen of the Phone app itself. It’s things like this that keep me &lt;a href="https://bsky.app/profile/sdw.bsky.social/post/3mdjaglq52c2m"&gt;optimistic&lt;/a&gt;苹果在用户界面设计领域依然能创造出卓越的新作品。&lt;em&gt;new&lt;/em&gt; work in UI design.&lt;/p&gt;
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/01/28/comparing-the-classic-and-unified-views-in-ios-26s-phone-app" title="Permanent link to ‘Comparing the Classic and Unified Views in iOS 26’s Phone App’"&gt; ★ &lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Thu, 29 Jan 2026 00:10:30 +0000</pubDate></item></channel></rss>
+&lt;/div&gt;</description><pubDate>Thu, 29 Jan 2026 15:01:43 +0000</pubDate></item></channel></rss>
