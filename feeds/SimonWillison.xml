@@ -1,5 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Fri, 20 Feb 2026 07:13:19 +0000</lastBuildDate><item><title>引用塔里克·希帕尔的话</title><link>https://simonwillison.net/2026/Feb/20/thariq-shihipar/#atom-everything</link><description>&lt;blockquote cite="https://twitter.com/trq212/status/2024574133011673516"&gt;&lt;p&gt;像Claude Code这样的长期运行的智能体产品之所以可行，得益于提示缓存技术。这项技术使我们能够复用之前往返交互中的计算，显著降低了延迟和成本。[...]
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Fri, 20 Feb 2026 17:12:55 +0000</lastBuildDate><item><title>ggml.ai加入Hugging Face，共同推动本地人工智能的持续发展。</title><link>https://simonwillison.net/2026/Feb/20/ggmlai-joins-hugging-face/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/ggml-org/llama.cpp/discussions/19759"&gt;ggml.ai加入Hugging Face，共同推动本地AI的长期发展
+
+我通常不会报道这类收购新闻，但这次有些想法不吐不快。
+
+乔治·格加诺夫对本地模型领域的影响怎么强调都不为过。早在2023年3月，他发布的llama.cpp让消费级硬件运行本地大语言模型成为可能。当时的原始说明文档写道：
+
+"主要目标是在MacBook上运行4位量化模型......这是用一个晚上快速实现的——我不确定它是否能正常工作。"
+
+我曾在《大语言模型迎来Stable Diffusion时刻》一文中记录当时的试用体验：
+
+"昨晚我用它在笔记本电脑上运行了70亿参数的LLaMA模型，今早又升级到130亿参数版本——这个版本被Facebook宣称可与GPT-3媲美。"
+
+Meta最初发布的LLaMA依赖PyTorch及其FairScale扩展来实现多GPU运行，且需要CUDA和英伟达硬件。乔治的工作将这一技术门槛大幅降低，开启了持续蓬勃发展的本地模型运动。
+
+Hugging Face早已凭借极具影响力的Transformers库成为当今大多数LLM发布的核心支撑。他们已证明自己是开源项目的优秀管理者，这让我对llama.cpp及相关项目的未来充满信心。
+
+公告中的这段内容尤其令人期待：
+
+"未来我们将共同致力于以下目标：实现与transformers库的'一键式'无缝集成。该框架已成为AI模型定义的'黄金标准'，提升transformers与ggml生态系统的兼容性对扩展模型支持范围和质量控制至关重要。"&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+I don't normally cover acquisition news like this, but I have some thoughts.
+&lt;p&gt;It's hard to overstate the impact Georgi Gerganov has had on the local model space. Back in March 2023 his release of &lt;a href="https://github.com/ggml-org/llama.cpp"&gt;llama.cpp&lt;/a&gt; made it possible to run a local LLM on consumer hardware. The &lt;a href="https://github.com/ggml-org/llama.cpp/blob/775328064e69db1ebd7e19ccb59d2a7fa6142470/README.md?plain=1#L7"&gt;original README&lt;/a&gt; said:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The main goal is to run the model using 4-bit quantization on a MacBook. [...] This was hacked in an evening - I have no idea if it works correctly.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I wrote about trying llama.cpp out at the time in &lt;a href="https://simonwillison.net/2023/Mar/11/llama/#llama-cpp"&gt;Large language models are having their Stable Diffusion moment&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I used it to run the 7B LLaMA model on my laptop last night, and then this morning upgraded to the 13B model—the one that Facebook claim is competitive with GPT-3.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Meta's &lt;a href="https://github.com/meta-llama/llama/tree/llama_v1"&gt;original LLaMA release&lt;/a&gt; depended on PyTorch and their &lt;a href="https://github.com/facebookresearch/fairscale"&gt;FairScale&lt;/a&gt; PyTorch extension for running on multiple GPUs, and required CUDA and NVIDIA hardware. Georgi's work opened that up to a much wider range of hardware and kicked off the local model movement that has continued to grow since then.&lt;/p&gt;
+&lt;p&gt;Hugging Face are already responsible for the incredibly influential &lt;a href="https://github.com/huggingface/transformers"&gt;Transformers&lt;/a&gt; library used by the majority of LLM releases today. They've proven themselves a good steward for that open source project, which makes me optimistic for the future of llama.cpp and related projects.&lt;/p&gt;
+&lt;p&gt;This section from the announcement looks particularly promising:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Going forward, our joint efforts will be geared towards the following objectives:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Towards seamless "single-click" integration with the &lt;a href="https://github.com/huggingface/transformers"&gt;transformers&lt;/a&gt; library. The &lt;code&gt;transformers&lt;/code&gt; framework has established itself as the 'source of truth' for AI model definitions. Improving the compatibility between the transformers and the ggml ecosystems is essential for wider model support and quality control.&lt;/li&gt;
+&lt;li&gt;基于GGML的软件需要更好的封装和用户体验。随着本地推理逐渐成为云推理具有竞争力的替代方案，简化普通用户部署和使用本地模型的方式至关重要。我们将致力于让llama.cpp无处不在、触手可及，并继续与优秀的下游项目保持合作。
+
+考虑到Transformer的影响力，这种深度整合可能催生与GGML生态系统开箱即用的模型版本。这对本地模型生态将是重大突破。
+
+看到对"GGML软件封装和用户体验"的投资也令人振奋。目前这类工作主要由Ollama和LM Studio等工具承担。去年ggml-org发布的LlamaBarn——"一款在macOS菜单栏运行本地大语言模型的应用程序"——让我期待该团队能继续投入，打造出更多高质量的开源工具，毕竟他们是最适合提供这类解决方案的团队。
+
+消息来源：@ggerganov
+标签：开源、transformers、人工智能、生成式AI、羊驼模型、本地大模型、大语言模型、抱抱脸、llama-cpp&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Given the influence of Transformers, this closer integration could lead to model releases that are compatible with the GGML ecosystem out of the box. That would be a big win for the local model ecosystem.&lt;/p&gt;
+&lt;p&gt;I'm also excited to see investment in "packaging and user experience of ggml-based software". This has mostly been left to tools like &lt;a href="https://ollama.com"&gt;Ollama&lt;/a&gt; and &lt;a href="https://lmstudio.ai"&gt;LM Studio&lt;/a&gt;. ggml-org released &lt;a href="https://github.com/ggml-org/LlamaBarn"&gt;LlamaBarn&lt;/a&gt; last year - "a macOS menu bar app for running local LLMs" - and I'm hopeful that further investment in this area will result in more high quality open source tools for running local models from the team best placed to deliver them.
+
+    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href="https://twitter.com/ggerganov/status/2024839991482777976"&gt;@ggerganov&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/open-source"&gt;open-source&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/transformers"&gt;transformers&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llama"&gt;llama&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/local-llms"&gt;local-llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/hugging-face"&gt;hugging-face&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llama-cpp"&gt;llama-cpp&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Fri, 20 Feb 2026 17:12:55 +0000</pubDate></item><item><title>引用塔里克·希帕尔的话</title><link>https://simonwillison.net/2026/Feb/20/thariq-shihipar/#atom-everything</link><description>&lt;blockquote cite="https://twitter.com/trq212/status/2024574133011673516"&gt;&lt;p&gt;像Claude Code这样的长期运行的智能体产品之所以可行，得益于提示缓存技术。这项技术使我们能够复用之前往返交互中的计算，显著降低了延迟和成本。[...]
 
 在Claude Code项目中，我们整个技术框架都围绕提示缓存构建。较高的提示缓存命中率不仅能降低成本，还让我们能为订阅计划设置更宽松的速率限制。因此我们会监控提示缓存命中率，当该数值过低时会触发严重事件警报。
 
@@ -731,78 +780,4 @@ menu -  Analyzed menu image file - Bash uvx rodney open "http://localhost:8765/"
 &lt;pre&gt;    &lt;span class="pl-c"&gt;# 终于，处理全角破折号&lt;/span&gt;
     &lt;span class="pl-s1"&gt;s&lt;/span&gt; &lt;span class="pl-c1"&gt;=&lt;/span&gt; &lt;span class="pl-s1"&gt;s&lt;/span&gt;.&lt;span class="pl-c1"&gt;替换&lt;/span&gt;(&lt;span class="pl-s"&gt;' - '&lt;/span&gt;, &lt;span class="pl-s"&gt;u'&lt;span class="pl-cce"&gt;\u2014&lt;/span&gt;'&lt;/span&gt;)&lt;/pre&gt;
 &lt;p&gt;这段给文章添加全角破折号的代码可以追溯到&lt;a href="https://github.com/simonw/simonwillisonblog/blob/e6d0327b37debdf820b5cfef4fb7d09a9624cea9/blog/templatetags/entry_tags.py#L145-L146"&gt;至少2015年&lt;/a&gt;当时我把博客从旧版Django（在一个早已消失的Mercurial仓库里）迁移出来，在GitHub上重新开始。&lt;/p&gt;
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/typography"&gt;字体排印&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/blogging"&gt;博客写作&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/python"&gt;Python&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sun, 15 Feb 2026 21:40:46 +0000</pubDate></item><item><title>深蓝</title><link>https://simonwillison.net/2026/Feb/15/deep-blue/#atom-everything</link><description>&lt;p&gt;上个月我们在Oxide and Friends播客节目中创造了一个新术语（主要归功于亚当·莱文塔尔），用来描述许多软件开发者因生成式AI侵入其工作领域而产生的心理倦怠感，这种倦怠感正逐渐演变为生存焦虑。我们将其命名为"深蓝忧郁"。你可以在该期节目第47分15秒处听到这个术语的诞生过程，下方附有文字记录。
-
-深蓝忧郁是一个真实存在的问题。成为专业软件工程师并非易事，要达到能靠编写软件谋生的水平需要多年潜心钻研。其回报也相当可观：这是一个高薪职业，能带来大量优质机会。同时，这个职业基本没有门槛限制和昂贵的先决条件——无需昂贵的学位或认证，只需一台笔记本电脑、网络连接以及充足的时间与好奇心即可入门。更重要的是，这个行业奖励"极客精神"：青少年时期沉迷电脑捣鼓的经历，最终被证明是对未来的明智投资。
-
-而这一切可能被聊天机器人夺走的想法，实在令人深感不安。在我常驻的多数网络社区中，我都观察到深蓝忧郁的迹象。甚至有同行指责我，认为我通过帮助人们理解AI辅助编程的强大能力，实际上正在损害他们未来的职业前景。我认为这个问题正给我们社区的许多人造成真实的精神痛苦，为它命名能让我们更顺畅地展开相关讨论。
-
-关于深蓝忧郁的个人体验，我清晰记得首次经历是在2023年初，由ChatGPT代码解释器功能触发。我的主要项目Datasette是一个用数据讲述故事的开源工具生态系统。我曾全心投入帮助人们（最初重点关注记者）清理、分析各种形态规模的数据并从中发现意义。&lt;a href="https://simonwillison.net/2026/Jan/8/llm-predictions-for-2026/"&gt;Oxide and Friends podcast&lt;/a&gt; last month (primary credit to Adam Leventhal) covering the sense of psychological ennui leading into existential dread that many software developers are feeling thanks to the encroachment of generative AI into their field of work.&lt;/p&gt;
-&lt;p&gt;We're calling it &lt;strong&gt;Deep Blue&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;You can listen to it being coined in real time &lt;a href="https://www.youtube.com/watch?v=lVDhQMiAbR8&amp;amp;t=2835s"&gt;from 47:15 in the episode&lt;/a&gt;. I've included &lt;a href="https://simonwillison.net/2026/Feb/15/deep-blue/#transcript"&gt;a transcript below&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Deep Blue is a very real issue.&lt;/p&gt;
-&lt;p&gt;Becoming a professional software engineer is &lt;em&gt;hard&lt;/em&gt;. Getting good enough for people to pay you money to write software takes years of dedicated work. The rewards are significant: this is a well compensated career which opens up a lot of great opportunities.&lt;/p&gt;
-&lt;p&gt;It's also a career that's mostly free from gatekeepers and expensive prerequisites. You don't need an expensive degree or accreditation. A laptop, an internet connection and a lot of time and curiosity is enough to get you started.&lt;/p&gt;
-&lt;p&gt;And it rewards the nerds! Spending your teenage years tinkering with computers turned out to be a very smart investment in your future.&lt;/p&gt;
-&lt;p&gt;The idea that this could all be stripped away by a chatbot is &lt;em&gt;deeply&lt;/em&gt; upsetting.&lt;/p&gt;
-&lt;p&gt;I've seen signs of Deep Blue in most of the online communities I spend time in. I've even faced accusations from my peers that I am actively harming their future careers through my work helping people understand how well AI-assisted programming can work.&lt;/p&gt;
-&lt;p&gt;I think this is an issue which is causing genuine mental anguish for a lot of people in our community. Giving it a name makes it easier for us to have conversations about it.&lt;/p&gt;
-&lt;h4 id="my-experiences-of-deep-blue"&gt;My experiences of Deep Blue&lt;/h4&gt;
-&lt;p&gt;I distinctly remember my first experience of Deep Blue. For me it was triggered by ChatGPT Code Interpreter back in early 2023.&lt;/p&gt;
-&lt;p&gt;My primary project is &lt;a href="https://datasette.io/"&gt;Datasette&lt;/a&gt;, an ecosystem of open source tools for telling stories with data. I had dedicated myself to the challenge of helping people (initially focusing on journalists) clean up, analyze and find meaning in data, in all sorts of shapes and sizes.&lt;/p&gt;
-&lt;p&gt;我本以为要为此开发大量软件！这感觉像是一项能让我在未来许多年都乐在其中的挑战。  
-
-然后我试着上传了一份旧金山警察局事件报告的CSV文件——包含数十万行数据——到ChatGPT代码解释器，结果……它仅凭几条指令就完成了我未来几年规划中的所有数据清理和分析工作。  
-
-它甚至将数据转换成一个规范整洁的SQLite数据库，还允许我下载结果！  
-
-我记得当时脑海里同时涌现两种矛盾的想法。  
-
-一方面，作为希望记者能更充分利用数据的人，这感觉像是巨大的突破。想象一下，为全球每位记者配备一位按需分析师，帮助他们解决能想到的任何数据问题！  
-
-但另一方面……我的存在意义又是什么？我对自身项目价值的信心遭受了沉重打击。难道我选择的道路突然成了死胡同？  
-
-就在过去几周，由于Claude Opus 4.5/4.6和GPT-5.2/5.3编码代理的影响，我又经历了几次“深蓝时刻”。正如许多人观察到的，最新一代编码代理在适当指令下，确实能持续工作数分钟到数小时，产出完全符合要求、可运行、有文档记录且经过完整测试的软件。  
-
-“它们写的代码不够好”这种说法已经站不住脚了。  
-
-一段稍作编辑的对话记录  
-
-布莱恩：我认为我们将面临AI引发的倦怠问题，尤其是软件工程师会因AI无所不能而感到迷茫。西蒙，你怎么看？  
-
-西蒙：确实如此。任何密切关注编码代理的人都已经有所体会。某种程度上，当你意识到自己仍然有价值时——尽管记忆编程语言语法的能力已完全无关紧要——这种迷茫感会逐渐消退。&lt;/p&gt;
-&lt;p&gt;Then I tried uploading a CSV file of &lt;a href="https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-2018-to-Present/wg3w-h783/about_data"&gt;San Francisco Police Department Incident Reports&lt;/a&gt; - hundreds of thousands of rows - to ChatGPT Code Interpreter and... it did every piece of data cleanup and analysis I had on my napkin roadmap for the next few years with a couple of prompts.&lt;/p&gt;
-&lt;p&gt;It even converted the data into a neatly normalized SQLite database and let me download the result!&lt;/p&gt;
-&lt;p&gt;I remember having two competing thoughts in parallel.&lt;/p&gt;
-&lt;p&gt;On the one hand, as somebody who wants journalists to be able to do more with data, this felt like a &lt;em&gt;huge&lt;/em&gt; breakthrough. Imagine giving every journalist in the world an on-demand analyst who could help them tackle any data question they could think of!&lt;/p&gt;
-&lt;p&gt;But on the other hand... &lt;em&gt;what was I even for&lt;/em&gt;? My confidence in the value of my own projects took a painful hit. Was the path I'd chosen for myself suddenly a dead end?&lt;/p&gt;
-&lt;p&gt;I've had some further pangs of Deep Blue just in the past few weeks, thanks to the Claude Opus 4.5/4.6 and GPT-5.2/5.3 coding agent effect. As many other people are also observing, the latest generation of coding agents, given the right prompts, really can churn away for a few minutes to several hours and produce working, documented and fully tested software that exactly matches the criteria they were given.&lt;/p&gt;
-&lt;p&gt;"The code they write isn't any good" doesn't really cut it any more.&lt;/p&gt;
-&lt;h4 id="transcript"&gt;A lightly edited transcript&lt;/h4&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Bryan&lt;/strong&gt;: I think that we're going to see a real problem with AI induced ennui where software engineers in particular get listless because the AI can do anything. Simon, what do you think about that?&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Simon&lt;/strong&gt;: Definitely. Anyone who's paying close attention to coding agents is feeling some of that already. There's an extent where you sort of get over it when you realize that you're still useful, even though your ability to memorize the syntax of program languages is completely irrelevant now.&lt;/p&gt;
-&lt;p&gt;我经常看到很多人陷入存在主义危机，他们非常非常不快乐，因为觉得“我职业生涯都奉献给了学习这个技能，现在它自己就能完成了。那我还有什么用？”我会很乐意尝试说服这些人，他们依然有很多价值，所有积累的经验都没有白费，但从心理层面来说，这对软件工程师确实是个艰难时期。
-
-[...]
-
-布莱恩：好的，我预测我们会给这种现象命名。不管它是什么，我们都会给这种感受、这种——你想称之为忧郁也好，目标感丧失也罢——找到一个名称，并且我们正试图以有组织的方式共同应对这个问题。
-
-亚当：好，现在是你大显身手的时刻。选个名字吧。如果你现在就能说出来，那就像在棒球场上指着看台宣告本垒打一样。你知道，我——就像“深蓝”，你懂的。
-
-布莱恩：是啊，深蓝。我喜欢这个。我喜欢深蓝。深蓝。哦，你是不是给我下套了，你这家伙？你刚刚吹灭了我生日蛋糕上的蜡烛。这根本不是我的高光时刻，分明是你的。不，亚当，这确实很棒。就是“深蓝”。
-
-西蒙：所有国际象棋和围棋选手十年前就经历过这个阶段了，而他们变得更加强大。
-
-结果发现那已经是十几年前的事了：深蓝在1997年击败了加里·卡斯帕罗夫。
-
-标签：定义，职业，人工智能，生成式人工智能，大语言模型，AI辅助编程，氧化物，布莱恩·坎特里尔，AI伦理，编程智能体&lt;/p&gt;
-&lt;p&gt;[...]&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Bryan&lt;/strong&gt;: Okay, so I'm going to predict that we name that. Whatever that is, we have a name for that kind of feeling and that kind of, whether you want to call it a blueness or a loss of purpose, and that we're kind of trying to address it collectively in a directed way.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Adam&lt;/strong&gt;: Okay, this is your big moment. Pick the name. If you call your shot from here, this is you pointing to the stands. You know, I – Like deep blue, you know.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Bryan&lt;/strong&gt;: Yeah, deep blue. I like that. I like deep blue. Deep blue. Oh, did you walk me into that, you bastard? You just blew out the candles on my birthday cake.&lt;/p&gt;
-&lt;p&gt;It wasn't my big moment at all. That was your big moment. No, that is, Adam, that is very good. That is deep blue.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Simon&lt;/strong&gt;: All of the chess players and the Go players went through this a decade ago and they have come out stronger.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Turns out it was more than a decade ago: &lt;a href="https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov"&gt;Deep Blue defeated Garry Kasparov in 1997&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/definitions"&gt;definitions&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/careers"&gt;careers&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/oxide"&gt;oxide&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/bryan-cantrill"&gt;bryan-cantrill&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;ai-ethics&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sun, 15 Feb 2026 21:06:44 +0000</pubDate></item></channel></rss>
+&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/typography"&gt;字体排印&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/blogging"&gt;博客写作&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/python"&gt;Python&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sun, 15 Feb 2026 21:40:46 +0000</pubDate></item></channel></rss>
