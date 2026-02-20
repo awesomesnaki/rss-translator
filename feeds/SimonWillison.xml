@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Thu, 19 Feb 2026 17:58:37 +0000</lastBuildDate><item><title>双子座 3.1 Pro</title><link>https://simonwillison.net/2026/Feb/19/gemini-31-pro/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"&gt;Gemini 3.1 Pro&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;Gemini 3.1系列的首款模型，定价与Gemini 3 Pro相同（20万tokens内输入每百万2美元/输出每百万12美元，20万至100万tokens区间为4美元/18美元）。其基准测试成绩与Claude Opus 4.6非常接近，但价格不到后者的一半。
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Fri, 20 Feb 2026 07:13:19 +0000</lastBuildDate><item><title>引用塔里克·希帕尔的话</title><link>https://simonwillison.net/2026/Feb/20/thariq-shihipar/#atom-everything</link><description>&lt;blockquote cite="https://twitter.com/trq212/status/2024574133011673516"&gt;&lt;p&gt;像Claude Code这样的长期运行的智能体产品之所以可行，得益于提示缓存技术。这项技术使我们能够复用之前往返交互中的计算，显著降低了延迟和成本。[...]
+
+在Claude Code项目中，我们整个技术框架都围绕提示缓存构建。较高的提示缓存命中率不仅能降低成本，还让我们能为订阅计划设置更宽松的速率限制。因此我们会监控提示缓存命中率，当该数值过低时会触发严重事件警报。
+
+——
+
+Thariq Shihipar
+
+标签：
+提示工程,
+Anthropic,
+Claude Code,
+AI智能体,
+生成式AI,
+人工智能,
+大语言模型&lt;/p&gt;
+&lt;p&gt;At Claude Code, we build our entire harness around prompt caching. A high prompt cache hit rate decreases costs and helps us create more generous rate limits for our subscription plans, so we run alerts on our prompt cache hit rate and declare SEVs if they're too low.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class="cite"&gt;— &lt;a href="https://twitter.com/trq212/status/2024574133011673516"&gt;Thariq Shihipar&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/prompt-engineering"&gt;prompt-engineering&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/anthropic"&gt;anthropic&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-agents"&gt;ai-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 20 Feb 2026 07:13:19 +0000</pubDate></item><item><title>双子座 3.1 Pro</title><link>https://simonwillison.net/2026/Feb/19/gemini-31-pro/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"&gt;Gemini 3.1 Pro&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;Gemini 3.1系列的首款模型，定价与Gemini 3 Pro相同（20万tokens内输入每百万2美元/输出每百万12美元，20万至100万tokens区间为4美元/18美元）。其基准测试成绩与Claude Opus 4.6非常接近，但价格不到后者的一半。
 &lt;p&gt;官方公告中特别强调了它相比Gemini 3 Pro在SVG动画性能上的提升！&lt;/p&gt;
 &lt;p&gt;我在Google AI Studio里尝试了“生成一只鹈鹕骑自行车的SVG”&lt;a href="https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221ugF9fBfLGxnNoe8_rLlluzo9NSPJDWuF%22%5D,%22action%22:%22open%22,%22userId%22:%22106366615678321494423%22,%22resourceKeys%22:%7B%7D%7D&amp;amp;usp=sharing"&gt;它思考了323.9秒（&lt;/a&gt;思考过程追踪在此&lt;a href="https://gist.github.com/simonw/03a755865021739a3659943a22c125ba#thinking-trace"&gt;）最终生成这个：&lt;/a&gt;很高兴看到自行车架两侧的腿都被清晰描绘（这应该&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Whimsical flat-style illustration of a pelican wearing a blue and white baseball cap, riding a red bicycle with yellow-rimmed wheels along a road. The pelican has a large orange bill and a green scarf. A small fish peeks out of a brown basket on the handlebars. The background features a light blue sky with a yellow sun, white clouds, and green hills." src="https://static.simonwillison.net/static/2026/gemini-3.1-pro-pelican.png"/&gt;&lt;/p&gt;
@@ -17,18 +35,19 @@
 &lt;blockquote&gt;
 &lt;p&gt;转发了这段视频&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Google's Gemini Lead Jeff Dean &lt;a href="https://x.com/JeffDean/status/2024525132266688757"&gt;tweeted this video&lt;/a&gt;一只动画鹈鹕骑着自行车，外加一只青蛙骑着前轮大后轮小的老式自行车，一只长颈鹿开着微型汽车，一只鸵鸟穿着轮滑鞋，一只乌龟在滑板上做尖翻动作，还有一只腊肠狗驾驶着加长豪华轿车。&lt;/p&gt;
+&lt;p&gt;Google's Gemini Lead Jeff Dean &lt;a href="https://x.com/JeffDean/status/2024525132266688757"&gt;tweeted this video&lt;/a&gt;一只动画鹈鹕骑着自行车，外加一只青蛙蹬着前轮大后轮小的老式自行车，一只长颈鹿开着迷你汽车，一只鸵鸟踩着轮滑鞋，一只乌龟在滑板上做尖翻动作，还有一条腊肠狗驾驶着加长豪华轿车。&lt;/p&gt;
 &lt;video controls="controls" poster="https://static.simonwillison.net/static/2026/gemini-animated-pelicans.jpg" preload="none"&gt;
 &lt;source src="https://static.simonwillison.net/static/2026/gemini-animated-pelicans.mp4" type="video/mp4"/&gt;
 &lt;/video&gt;
-&lt;p&gt;&lt;strong&gt;更新2&lt;/strong&gt;：我使用了&lt;code&gt;llm-gemini&lt;/code&gt;来运行我的&lt;a href="https://simonwillison.net/2025/Nov/18/gemini-3/#and-a-new-pelican-benchmark"&gt;更详细的鹈鹕提示&lt;/a&gt;，并得到了&lt;a href="https://gist.github.com/simonw/a3bdd4ec9476ba9e9ba7aa61b46d8296"&gt;这个结果&lt;/a&gt;：&lt;/p&gt;
+&lt;p&gt;我一直在说，希望人工智能实验室能突出展示他们新模型能做而旧模型做不到的事情，所以Gemini团队的这个视频值得高分。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;更新2&lt;/strong&gt;：我用了&lt;code&gt;llm-gemini&lt;/code&gt;来运行我的&lt;a href="https://simonwillison.net/2025/Nov/18/gemini-3/#and-a-new-pelican-benchmark"&gt;更详细的鹈鹕提示&lt;/a&gt;，得到了&lt;a href="https://gist.github.com/simonw/a3bdd4ec9476ba9e9ba7aa61b46d8296"&gt;这个结果&lt;/a&gt;：&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Flat-style illustration of a brown pelican riding a teal bicycle with dark blue-rimmed wheels against a plain white background. Unlike the previous image's white cartoon pelican, this pelican has realistic brown plumage with detailed feather patterns, a dark maroon head, yellow eye, and a large pink-tinged pouch bill. The bicycle is a simpler design without a basket, and the scene lacks the colorful background elements like the sun, clouds, road, hills, cap, and scarf from the first illustration, giving it a more minimalist feel." src="https://static.simonwillison.net/static/2026/gemini-3.1-pro-pelican-2.png"/&gt;&lt;/p&gt;
 &lt;p&gt;来自SVG评论：&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;!-- Pouch Gradient (Breeding Plumage: Red to Olive/Green) --&amp;gt;
 ...
 &amp;lt;!-- Neck Gradient (Breeding Plumage: Chestnut Nape, White/Yellow Front) --&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/google"&gt;谷歌&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/svg"&gt;SVG&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llms"&gt;大型语言模型&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llm"&gt;LLM&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/gemini"&gt;Gemini&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/pelican-riding-a-bicycle"&gt;骑自行车的鹈鹕&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llm-release"&gt;LLM发布&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 19 Feb 2026 17:58:37 +0000</pubDate></item><item><title>尝试为我的博客和新闻简报引入赞助</title><link>https://simonwillison.net/2026/Feb/19/sponsorship/#atom-everything</link><description>&lt;p&gt;长久以来，我一直抗拒在博客上接受赞助的想法。我珍视自己作为独立声音的可信度，不愿冒险损害这一声誉。
+&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/google"&gt;谷歌&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/svg"&gt;SVG&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llm"&gt;大语言模型&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/gemini"&gt;双子座&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/pelican-riding-a-bicycle"&gt;骑自行车的鹈鹕&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llm-release"&gt;大语言模型发布&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 19 Feb 2026 17:58:37 +0000</pubDate></item><item><title>尝试为我的博客和新闻简报引入赞助</title><link>https://simonwillison.net/2026/Feb/19/sponsorship/#atom-everything</link><description>&lt;p&gt;长久以来，我一直抗拒在博客上接受赞助的想法。我珍视自己作为独立声音的可信度，不愿冒险损害这一声誉。
 
 后来我了解到特洛伊·亨特处理赞助的方式，他最早在2016年就写过相关文章。特洛伊只在页面横幅中设置简单的文字行——没有JavaScript，没有cookie，既不影响用户体验，又能为赞助商提供价值。这种方式我可以接受！
 
@@ -786,24 +805,4 @@ menu -  Analyzed menu image file - Bash uvx rodney open "http://localhost:8765/"
 &lt;p&gt;&lt;strong&gt;Simon&lt;/strong&gt;: All of the chess players and the Go players went through this a decade ago and they have come out stronger.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Turns out it was more than a decade ago: &lt;a href="https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov"&gt;Deep Blue defeated Garry Kasparov in 1997&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/definitions"&gt;definitions&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/careers"&gt;careers&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/oxide"&gt;oxide&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/bryan-cantrill"&gt;bryan-cantrill&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;ai-ethics&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sun, 15 Feb 2026 21:06:44 +0000</pubDate></item><item><title>Gwtar：一种静态高效的单文件HTML格式</title><link>https://simonwillison.net/2026/Feb/15/gwtar/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://gwern.net/gwtar"&gt;Gwtar：一种静态高效的单文件HTML格式&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;Gwern Branwen和Said Achmiz推出的这个新项目很有意思，它旨在解决将大量资源整合到单个归档HTML文件中，同时确保该文件在浏览器中查看时不会变得不便的问题。
-&lt;p&gt;它使用的关键技巧是在页面加载早期触发&lt;a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/stop"&gt;window.stop()&lt;/a&gt;，以防止浏览器下载整个文件，然后在该调用之后跟随内联的未压缩tar内容。&lt;/p&gt;
-&lt;p&gt;之后，当页面需要时，它可以通过HTTP范围请求从tar数据中按需获取内容。&lt;/p&gt;
-&lt;p&gt;已加载的JavaScript会重写资源URL，使其指向&lt;code&gt;https://localhost/&lt;/code&gt;纯粹是为了让它们加载失败。然后它使用一个&lt;a href="https://developer.mozilla.org/en-US/docs/Web/API/PerformanceObserver"&gt;PerformanceObserver&lt;/a&gt;来捕获这些尝试加载的操作：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;let perfObserver = new PerformanceObserver((entryList, observer) =&amp;gt; {
-    resourceURLStringsHandler(entryList.getEntries().map(entry =&amp;gt; entry.name));
-});
-perfObserver.observe({ entryTypes: [ "resource" ] });
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;该&lt;code&gt;resourceURLStringsHandler&lt;/code&gt;回调函数会查找资源是否已加载，如果没有，则通过HTTP范围请求获取，然后使用一个&lt;code&gt;blob:&lt;/code&gt;URL&lt;/p&gt;
-&lt;p&gt;将资源插入到正确的位置。&lt;code&gt;window.stop()&lt;/code&gt;如果你查看源代码，文档的&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Screenshot of a macOS terminal window titled &amp;quot;gw — more big.html — 123×46&amp;quot; showing the source code of a gwtar (self-extracting HTML archive) file. The visible code includes JavaScript with requestIdleCallback(getMainPageHTML);, a noscript block with warnings: a &amp;quot;js-disabled-warning&amp;quot; stating &amp;quot;This HTML page requires JavaScript to be enabled to render, as it is a self-extracting gwtar HTML file,&amp;quot; a description of gwtar as &amp;quot;a portable self-contained standalone HTML file which is designed to nevertheless support efficient lazy loading of all assets such as large media files,&amp;quot; with a link to https://gwern.net/gwtar, a &amp;quot;local-file-warning&amp;quot; with a shell command perl -ne'print $_ if $x; $x=1 if /&amp;lt;!-- GWTAR END/' &amp;amp;lt; foo.gwtar.html | tar --extract, and a &amp;quot;server-fail-warning&amp;quot; about misconfigured servers. Below the HTML closing tags and &amp;lt;!-- GWTAR END comment is binary tar archive data with the filename 2010-02-brianmoriarty-thesecretofpsalm46.html, showing null-padded tar header fields including ustar^@00root and octal size/permission values. At the bottom, a SingleFile metadata comment shows url: https://web.archive.org/web/20230512001411/http://ludix.com/moriarty/psalm46.html and saved date: Sat Jan 17 2026 19:26:49 GMT-0800 (Pacific Standard Time)." src="https://static.simonwillison.net/static/2026/gwtar.jpg"/&gt;&lt;/p&gt;
-&lt;p&gt;部分看起来是这样的：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;有趣的是，作为一种归档格式，如果你直接在本地计算机上打开文件，它实际上无法工作。如果你尝试这样做，你会看到以下内容：&lt;code&gt;gwtar&lt;/code&gt;你看到这条消息，而不是你应该看到的页面，是因为&lt;strong&gt;文件&lt;/strong&gt;无法在本地打开&lt;/p&gt;
-&lt;p&gt;（由于Web浏览器的安全限制）。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;perl -ne'print $_ if $x; $x=1 if /&amp;lt;!-- GWTAR END/' &amp;lt; foo.gwtar.html | tar --extract&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;要在你的计算机上打开此页面，请使用以下shell命令：&lt;code&gt;foo.html&lt;/code&gt;然后在任何Web浏览器中打开文件&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;small&gt;&lt;/small&gt;。&lt;a href="https://news.ycombinator.com/item?id=47024506"&gt;通过&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Hacker News&lt;a href="https://simonwillison.net/tags/archiving"&gt;标签：&lt;/a&gt;归档&lt;a href="https://simonwillison.net/tags/html"&gt;、&lt;/a&gt;html&lt;a href="https://simonwillison.net/tags/javascript"&gt;、&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sun, 15 Feb 2026 18:26:08 +0000</pubDate></item></channel></rss>
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/definitions"&gt;definitions&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/careers"&gt;careers&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/oxide"&gt;oxide&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/bryan-cantrill"&gt;bryan-cantrill&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;ai-ethics&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sun, 15 Feb 2026 21:06:44 +0000</pubDate></item></channel></rss>
