@@ -15,4 +15,6 @@ feeds:
     url: "https://www.astralcodexten.com/feed"
   - name: "thinkingoutloud"
     url: "https://newsletter.jantegze.com/feed"
+  - name: "AnthropicNews"
+    url: "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml"
   # 按这个格式添加更多源
