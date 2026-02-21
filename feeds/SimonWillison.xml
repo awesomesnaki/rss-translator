@@ -1,5 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Fri, 20 Feb 2026 17:12:55 +0000</lastBuildDate><item><title>ggml.ai加入Hugging Face，共同推动本地人工智能的持续发展。</title><link>https://simonwillison.net/2026/Feb/20/ggmlai-joins-hugging-face/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/ggml-org/llama.cpp/discussions/19759"&gt;ggml.ai加入Hugging Face，共同推动本地AI的长期发展
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Sat, 21 Feb 2026 01:30:21 +0000</lastBuildDate><item><title>引用蒂博·索蒂奥的话</title><link>https://simonwillison.net/2026/Feb/21/thibault-sottiaux/#atom-everything</link><description>&lt;blockquote cite="https://twitter.com/thsottiaux/status/2024947946849186064"&gt;&lt;p&gt;我们已将GPT-5.3-Codex-Spark的运行速度提升约30%，目前每秒可处理超过1200个标记。
+—
+蒂博·索蒂奥
+，OpenAI
+标签：
+openai
+、
+llms
+、
+ai
+、
+generative-ai&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class="cite"&gt;— &lt;a href="https://twitter.com/thsottiaux/status/2024947946849186064"&gt;Thibault Sottiaux&lt;/a&gt;, OpenAI&lt;/p&gt;
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/openai"&gt;openai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sat, 21 Feb 2026 01:30:21 +0000</pubDate></item><item><title>安德烈·卡帕西谈到了“爪子”。</title><link>https://simonwillison.net/2026/Feb/21/claws/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://twitter.com/karpathy/status/2024987174077432126"&gt;安德烈·卡帕西谈论“Claws”&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;安德烈·卡帕西在推特上发布了一篇关于购买Mac Mini（“苹果店员告诉我它们卖得超火，大家都搞不懂状况”）来折腾Claws的迷你文章：
+&lt;blockquote&gt;
+&lt;p&gt;我对运行OpenClaw确实有点顾虑[...] 但我真心喜欢这个概念。我认为就像LLM智能体是在LLM之上构建的新层级一样，Claws如今又成了LLM智能体之上的新层级，将任务编排、调度、上下文管理、工具调用和某种持久性提升到了新高度。&lt;/p&gt;
+&lt;p&gt;环顾四周，鉴于高层理念已很清晰，现在开始涌现许多小型Claws项目。例如快速浏览发现NanoClaw就很有意思——其核心引擎仅约4000行代码（既能装进我脑子也能被AI智能体理解，感觉可管理、可审查、够灵活等），且默认在容器中运行所有任务。[...]&lt;/p&gt;
+&lt;p&gt;类似的还有很多——比如nanobot、zeroclaw、ironclaw、picoclaw（这些前缀真有趣）。[...]&lt;/p&gt;
+&lt;p&gt;虽然还不完全确定最终会搭建什么架构，但Claws无疑是AI技术栈中惊艳而激动人心的新层级。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;安德烈总能敏锐捕捉新兴术语（参见&lt;a href="https://simonwillison.net/2025/Mar/19/vibe-coding/"&gt;氛围编程&lt;/a&gt;、&lt;a href="https://simonwillison.net/2026/Feb/11/glm-5/"&gt;智能体工程&lt;/a&gt;），我认为这次他也说对了："&lt;strong&gt;Claw&lt;/strong&gt;"正在成为整个类OpenClaw智能体系统的专业术语——这类AI智能体通常运行在个人硬件上，通过消息协议通信，既能执行直接指令也能调度任务。&lt;/p&gt;
+&lt;p&gt;甚至还有专属表情符号🦞&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/definitions"&gt;定义&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/andrej-karpathy"&gt;安德烈·卡帕西&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai-agents"&gt;AI智能体&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/openclaw"&gt;OpenClaw&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Sat, 21 Feb 2026 00:37:45 +0000</pubDate></item><item><title>将TILs、版本发布、博物馆、工具和研究添加到我的博客中</title><link>https://simonwillison.net/2026/Feb/20/beats/#atom-everything</link><description>&lt;p&gt;我一直想在博客里添加其他线上活动的动态提示。最近我开启了一个名为"beats"的新功能（灵感来自故事节奏，命名真不容易！），它为我的网站新增了五种内容类型，都对应着我在其他平台的活动。
+
+这是beats的展示效果：
+
+这三条来自2025年12月30日的归档页面。
+
+Beats是带有徽章的小型内嵌链接，可以嵌入网站各处的内容时间线视图，包括首页、搜索和归档页面。
+
+目前有五种beats类型：
+
+Releases（发布）
+是我众多开源项目的GitHub版本发布，通过GitHub Actions构建的JSON文件导入。
+
+TILs（今日新知）
+来自我的TIL博客，通过针对该网站Datasette实例的JSON和HTTP SQL查询导入。
+
+Museums（博物馆）
+是我niche-museums.com博客的新文章，从这个自定义JSON源导入。
+
+Tools（工具）
+是我在tools.simonwillison.net网站上即兴编写的HTML和JavaScript工具，如《构建HTML工具的实用模式》所述。
+
+Research（研究）
+用于AI生成的研究项目，托管在我的simonw/research仓库，详见《使用Claude Code和Codex等异步编程代理进行代码研究项目》。
+
+为了实现这五种自定义数据集成，好消息是这类集成项目正是编程代理的强项。我仅用了一个上午就基本完成了这个功能，期间还并行处理了其他多项工作。
+
+虽然我没有现成的研究项目结构化数据源，但这并不成问题——我直接给Claude Code提供了列出所有项目的原始Markdown README链接，它立即生成了解析正则表达式。由于数据源和接收端都由我掌控，即使这种脆弱的解决方案存在风险我也能接受，毕竟这比处理不可控的外部数据源要安全得多。&lt;/p&gt;
+&lt;p&gt;Here's what beats look like:&lt;/p&gt;
+&lt;p&gt;&lt;img alt='Screenshot of a fragment of a page showing three entries from 30th Dec 2025. First: [RELEASE] "datasette-turnstile 0.1a0 — Configurable CAPTCHAs for Datasette paths usin…" at 7:23 pm. Second: [TOOL] "Software Heritage Repository Retriever — Download archived Git repositories f…" at 11:41 pm. Third: [TIL] "Downloading archived Git repositories from archive.softwareheritage.org — …" at 11:43 pm.' src="https://static.simonwillison.net/static/2026/three-beats.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;Those three are from &lt;a href="https://simonwillison.net/2025/Dec/30/"&gt;the 30th December 2025&lt;/a&gt; archive page.&lt;/p&gt;
+&lt;p&gt;Beats are little inline links with badges that fit into different content timeline views around my site, including the homepage, search and archive pages.&lt;/p&gt;
+&lt;p&gt;There are currently five types of beats:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href="https://simonwillison.net/elsewhere/release/"&gt;Releases&lt;/a&gt; are GitHub releases of my many different open source projects, imported from &lt;a href="https://github.com/simonw/simonw/blob/main/releases_cache.json"&gt;this JSON file&lt;/a&gt; that was constructed &lt;a href="https://simonwillison.net/2020/Jul/10/self-updating-profile-readme/"&gt;by GitHub Actions&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://simonwillison.net/elsewhere/til/"&gt;TILs&lt;/a&gt; are the posts from my &lt;a href="https://til.simonwillison.net/"&gt;TIL blog&lt;/a&gt;, imported using &lt;a href="https://github.com/simonw/simonwillisonblog/blob/f883b92be23892d082de39dbada571e406f5cfbf/blog/views.py#L1169"&gt;a SQL query over JSON and HTTP&lt;/a&gt; against the Datasette instance powering that site.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://simonwillison.net/elsewhere/museum/"&gt;Museums&lt;/a&gt; are new posts on my &lt;a href="https://www.niche-museums.com/"&gt;niche-museums.com&lt;/a&gt; blog, imported from &lt;a href="https://github.com/simonw/museums/blob/909bef71cc8d336bf4ac1f13574db67a6e1b3166/plugins/export.py"&gt;this custom JSON feed&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://simonwillison.net/elsewhere/tool/"&gt;Tools&lt;/a&gt; are HTML and JavaScript tools I've vibe-coded on my &lt;a href="https://tools.simonwillison.net/"&gt;tools.simonwillison.net&lt;/a&gt; site, as described in &lt;a href="https://simonwillison.net/2025/Dec/10/html-tools/"&gt;Useful patterns for building HTML tools&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://simonwillison.net/elsewhere/research/"&gt;Research&lt;/a&gt; is for AI-generated research projects, hosted in my &lt;a href="https://github.com/simonw/research"&gt;simonw/research repo&lt;/a&gt; and described in &lt;a href="https://simonwillison.net/2025/Nov/6/async-code-research/"&gt;Code research projects with async coding agents like Claude Code and Codex&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That's five different custom integrations to pull in all of that data. The good news is that this kind of integration project is the kind of thing that coding agents &lt;em&gt;really&lt;/em&gt; excel at. I knocked most of the feature out in a single morning while working in parallel on various other things.&lt;/p&gt;
+&lt;p&gt;I didn't have a useful structured feed of my Research projects, and it didn't matter because I gave Claude Code a link to &lt;a href="https://raw.githubusercontent.com/simonw/research/refs/heads/main/README.md"&gt;the raw Markdown README&lt;/a&gt; that lists them all and it &lt;a href="https://github.com/simonw/simonwillisonblog/blob/f883b92be23892d082de39dbada571e406f5cfbf/blog/importers.py#L77-L80"&gt;spun up a parser regex&lt;/a&gt;. Since I'm responsible for both the source and the destination I'm fine with a brittle solution that would be too risky against a source that I don't control myself.&lt;/p&gt;
+&lt;p&gt;Claude还处理了所有与我网站可能繁琐的UI集成工作，确保新内容在我所有不同类型的页面上都能正常显示，并被我的分面搜索引擎正确处理。
+
+使用Claude Artifacts进行原型设计
+我实际上是在常规Claude（而非Claude Code）中为beats功能制作了初始概念原型——利用了它现在能够从GitHub克隆公共仓库的功能。我最初是这样开始的：
+
+然后在头脑风暴会议中又提到：
+
+经过几次迭代后，我们得到了这个原型设计，这足以让我相信这个概念具有可行性，值得交给完整的Claude Code for web去实现。
+
+如果你想了解后续构建过程，最有趣的PR包括：实现了核心功能的Beats #592，以及添加了博物馆内容类型的Add Museums Beat importer #595。
+
+标签：
+博客、博物馆、人工智能、今日学习、生成式人工智能、大语言模型、AI辅助编程、Claude Artifacts、Claude Code&lt;a href="https://simonwillison.net/2017/Oct/5/django-postgresql-faceted-search/"&gt;faceted search engine&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 id="prototyping-with-claude-artifacts"&gt;Prototyping with Claude Artifacts&lt;/h4&gt;
+&lt;p&gt;I actually prototyped the initial concept for beats in regular Claude - not Claude Code - taking advantage of the fact that it can clone public repos from GitHub these days. I started with:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Clone simonw/simonwillisonblog and tell me about the models and views&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;And then later in the brainstorming session said:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;use the templates and CSS in this repo to create a new artifact with all HTML and CSS inline that shows me my homepage with some of those inline content types mixed in&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;After some iteration we got to &lt;a href="https://gisthost.github.io/?c3f443cc4451cf8ce03a2715a43581a4/preview.html"&gt;this artifact mockup&lt;/a&gt;, which was enough to convince me that the concept had legs and was worth handing over to full &lt;a href="https://code.claude.com/docs/en/claude-code-on-the-web"&gt;Claude Code for web&lt;/a&gt; to implement.&lt;/p&gt;
+&lt;p&gt;If you want to see how the rest of the build played out the most interesting PRs are &lt;a href="https://github.com/simonw/simonwillisonblog/pull/592"&gt;Beats #592&lt;/a&gt; which implemented the core feature and &lt;a href="https://github.com/simonw/simonwillisonblog/pull/595/changes"&gt;Add Museums Beat importer #595&lt;/a&gt; which added the Museums content type.&lt;/p&gt;
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/blogging"&gt;blogging&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/museums"&gt;museums&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/til"&gt;til&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-artifacts"&gt;claude-artifacts&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 20 Feb 2026 23:47:10 +0000</pubDate></item><item><title>Taalas以每秒17,000个令牌的速度运行Llama 3.1 8B模型。</title><link>https://simonwillison.net/2026/Feb/20/taalas/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://taalas.com/the-path-to-ubiquitous-ai/"&gt;Taalas以每秒17,000个令牌的速度运行Llama 3.1 8B模型
+
+这家新成立的加拿大硬件初创公司刚刚发布了首款产品——基于Llama 3.1 8B模型（2024年7月版本）的定制硬件实现，能以惊人的每秒17,000个令牌速度运行。
+
+本想附上演示视频，但其运行速度之快让动态画面看起来更像静态截图。您可以在chatjimmy.ai亲自体验。
+
+他们将这款"硅基羊驼"芯片描述为"采用激进的量化策略，融合3位与6位参数"。下一代产品将采用4位量化——看来他们研发新模型的周期相当漫长！
+
+消息来源：Hacker News
+标签：人工智能、生成式AI、羊驼模型、大语言模型&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+This new Canadian hardware startup just announced their first product - a custom hardware implementation of the Llama 3.1 8B model (from &lt;a href="https://simonwillison.net/2024/Jul/23/introducing-llama-31/"&gt;July 2024&lt;/a&gt;) that can run at a staggering 17,000 tokens/second.
+&lt;p&gt;I was going to include a video of their demo but it's so fast it would look more like a screenshot. You can try it out at &lt;a href="https://chatjimmy.ai"&gt;chatjimmy.ai&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;They describe their Silicon Llama as “aggressively quantized, combining 3-bit and 6-bit parameters.” Their next generation will use 4-bit - presumably they have quite a long lead time for baking out new models!
+
+    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href="https://news.ycombinator.com/item?id=47086181"&gt;Hacker News&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llama"&gt;llama&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Fri, 20 Feb 2026 22:10:04 +0000</pubDate></item><item><title>ggml.ai加入Hugging Face，共同推动本地人工智能的持续发展。</title><link>https://simonwillison.net/2026/Feb/20/ggmlai-joins-hugging-face/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/ggml-org/llama.cpp/discussions/19759"&gt;ggml.ai加入Hugging Face，共同推动本地AI的长期发展
 
 我通常不会报道这类收购新闻，但这次有些想法不吐不快。
 
@@ -66,7 +173,19 @@ AI智能体,
 大语言模型&lt;/p&gt;
 &lt;p&gt;At Claude Code, we build our entire harness around prompt caching. A high prompt cache hit rate decreases costs and helps us create more generous rate limits for our subscription plans, so we run alerts on our prompt cache hit rate and declare SEVs if they're too low.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class="cite"&gt;— &lt;a href="https://twitter.com/trq212/status/2024574133011673516"&gt;Thariq Shihipar&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/prompt-engineering"&gt;prompt-engineering&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/anthropic"&gt;anthropic&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-agents"&gt;ai-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 20 Feb 2026 07:13:19 +0000</pubDate></item><item><title>双子座 3.1 Pro</title><link>https://simonwillison.net/2026/Feb/19/gemini-31-pro/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"&gt;Gemini 3.1 Pro&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;Gemini 3.1系列的首款模型，定价与Gemini 3 Pro相同（20万tokens内输入每百万2美元/输出每百万12美元，20万至100万tokens区间为4美元/18美元）。其基准测试成绩与Claude Opus 4.6非常接近，但价格不到后者的一半。
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/prompt-engineering"&gt;prompt-engineering&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/anthropic"&gt;anthropic&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-agents"&gt;ai-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 20 Feb 2026 07:13:19 +0000</pubDate></item><item><title>恢复丢失的代码</title><link>https://simonwillison.net/2026/Feb/19/recovering-lost-code/#atom-everything</link><description>&lt;p&gt;终于到了并行智能体精神错乱的阶段——我竟然弄丢了一整个功能模块。明明昨天还在的，现在却找不到对应的分支、工作树、云实例或代码检出记录。
+
+……找到了！原来我之前一直在某个随机原型上捣鼓代码，结果电脑突然崩溃重启，代码全丢了……不过所有内容都还保存在会话日志里，Claude Code 能从中提取出来，重新构建出丢失的功能模块。
+
+标签：
+并行智能体，
+编程智能体，
+Claude Code，
+生成式人工智能，
+人工智能，
+大语言模型&lt;/p&gt;
+&lt;p&gt;... found it! Turns out I'd been hacking on a random prototype in &lt;code&gt;/tmp&lt;/code&gt; and then my computer crashed and rebooted and I lost the code... but it's all still there in &lt;code&gt;~/.claude/projects/&lt;/code&gt; session logs and Claude Code can extract it out and spin up the missing feature again.&lt;/p&gt;
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/parallel-agents"&gt;parallel-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 19 Feb 2026 23:48:35 +0000</pubDate></item><item><title>双子座 3.1 Pro</title><link>https://simonwillison.net/2026/Feb/19/gemini-31-pro/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"&gt;Gemini 3.1 Pro&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;Gemini 3.1系列的首款模型，定价与Gemini 3 Pro相同（20万tokens内输入每百万2美元/输出每百万12美元，20万至100万tokens区间为4美元/18美元）。其基准测试成绩与Claude Opus 4.6非常接近，但价格不到后者的一半。
 &lt;p&gt;官方公告中特别强调了它相比Gemini 3 Pro在SVG动画性能上的提升！&lt;/p&gt;
 &lt;p&gt;我在Google AI Studio里尝试了“生成一只鹈鹕骑自行车的SVG”&lt;a href="https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221ugF9fBfLGxnNoe8_rLlluzo9NSPJDWuF%22%5D,%22action%22:%22open%22,%22userId%22:%22106366615678321494423%22,%22resourceKeys%22:%7B%7D%7D&amp;amp;usp=sharing"&gt;它思考了323.9秒（&lt;/a&gt;思考过程追踪在此&lt;a href="https://gist.github.com/simonw/03a755865021739a3659943a22c125ba#thinking-trace"&gt;）最终生成这个：&lt;/a&gt;很高兴看到自行车架两侧的腿都被清晰描绘（这应该&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Whimsical flat-style illustration of a pelican wearing a blue and white baseball cap, riding a red bicycle with yellow-rimmed wheels along a road. The pelican has a large orange bill and a green scarf. A small fish peeks out of a brown basket on the handlebars. The background features a light blue sky with a yellow sun, white clouds, and green hills." src="https://static.simonwillison.net/static/2026/gemini-3.1-pro-pelican.png"/&gt;&lt;/p&gt;
@@ -448,336 +567,4 @@ Nathan Baschez在推特上分享道：我目前减少"认知负债"（灵感来�
 &lt;p&gt;Here's &lt;a href="https://gemini.google.com/share/cce6da8e5083"&gt;what it produced&lt;/a&gt;:&lt;/p&gt;
 &lt;p&gt;&lt;img alt="A six-panel comic strip illustrating a tool called &amp;quot;Showboat&amp;quot; for live-streaming document building. Panel 1, titled &amp;quot;THE OLD WAY: Building docs was a lonely voyage. You finished it all before anyone saw it.&amp;quot;, shows a sad bearded man on a wooden boat labeled &amp;quot;THE LOCALHOST&amp;quot; holding papers and saying &amp;quot;Almost done... then I have to export and email the HTML...&amp;quot;. Panel 2, titled &amp;quot;THE UPGRADE: Just set the environment variable!&amp;quot;, shows the same man excitedly plugging in a device with a speech bubble reading &amp;quot;ENV VAR: SHOWBOAT_REMOTE_URL&amp;quot; and the sound effect &amp;quot;*KA-CHUNK!*&amp;quot;. Panel 3, titled &amp;quot;init establishes the uplink and generates a unique UUID beacon.&amp;quot;, shows the man typing at a keyboard with a terminal reading &amp;quot;$ showboat init 'Live Demo'&amp;quot;, a satellite dish transmitting to a floating label &amp;quot;UUID: 550e84...&amp;quot;, and a monitor reading &amp;quot;WAITING FOR STREAM...&amp;quot;. Panel 4, titled &amp;quot;Every note and exec is instantly beamed to the remote viewer!&amp;quot;, shows the man coding with sound effects &amp;quot;*HAMMER!*&amp;quot;, &amp;quot;ZAP!&amp;quot;, &amp;quot;ZAP!&amp;quot;, &amp;quot;BANG!&amp;quot; as red laser beams shoot from a satellite dish to a remote screen displaying &amp;quot;NOTE: Step 1...&amp;quot; and &amp;quot;SUCCESS&amp;quot;. Panel 5, titled &amp;quot;Even image files are teleported in real-time!&amp;quot;, shows a satellite dish firing a cyan beam with the sound effect &amp;quot;*FOOMP!*&amp;quot; toward a monitor displaying a bar chart. Panel 6, titled &amp;quot;You just build. The audience gets the show live.&amp;quot;, shows the man happily working at his boat while a crowd of cheering people watches a projected screen reading &amp;quot;SHOWBOAT LIVE STREAM: Live Demo&amp;quot;, with a label &amp;quot;UUID: 550e84...&amp;quot; and one person in the foreground eating popcorn." src="https://static.simonwillison.net/static/2026/nano-banana-diff.jpg"/&gt;&lt;/p&gt;
 &lt;p&gt;Good enough to publish with the release notes? I don't think so. I'm sharing it here purely to demonstrate the idea. Creating assets like this as a personal tool for thinking about novel ways to explain a feature feels worth exploring further.&lt;/p&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/nano-banana"&gt;nano-banana&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/gemini"&gt;gemini&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/cognitive-debt"&gt;cognitive-debt&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/text-to-image"&gt;text-to-image&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/showboat"&gt;showboat&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;&lt;/p&gt;</description><pubDate>Tue, 17 Feb 2026 04:51:58 +0000</pubDate></item><item><title>Qwen3.5：迈向原生多模态智能体</title><link>https://simonwillison.net/2026/Feb/17/qwen35/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://qwen.ai/blog?id=qwen3.5"&gt;通义千问3.5：迈向原生多模态智能体&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;阿里巴巴的通义千问刚刚发布了Qwen 3.5系列的前两款模型——一款开放权重，一款专有模型。两者均支持视觉输入的多模态能力。
-&lt;p&gt;开放权重版本采用混合专家架构，命名为Qwen3.5-397B-A17B。值得注意的是，通义千问特别强调了该架构在服务效率方面的优势：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;该模型基于创新混合架构，融合线性注意力（通过门控增量网络）与稀疏混合专家系统，实现了卓越的推理效率：虽然包含3970亿总参数，但每次前向传播仅激活170亿参数，在保持能力的同时优化了速度与成本。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;该模型在Hugging Face平台占用&lt;a href="https://huggingface.co/Qwen/Qwen3.5-397B-A17B"&gt;807GB存储空间&lt;/a&gt;，而Unsloth平台提供了&lt;a href="https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF"&gt;从94.2GB（1位量化）到462GB（Q8_K_XL量化）不等的多种小型GGUF格式版本&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;这是通过&lt;a href="https://simonwillison.net/tags/pelican-riding-a-bicycle/"&gt;OpenRouter托管模型&lt;/a&gt;生成的&lt;a href="https://openrouter.ai/qwen/qwen3.5-397b-a17b"&gt;"鹈鹕骑自行车"&lt;/a&gt;图像&lt;a href="https://gist.github.com/simonw/625546cf6b371f9c0040e64492943b82"&gt;（&lt;/a&gt;生成记录&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Pelican is quite good although the neck lacks an outline for some reason. Bicycle is very basic with an incomplete frame" src="https://static.simonwillison.net/static/2026/qwen3.5-397b-a17b.png"/&gt;&lt;/p&gt;
-&lt;p&gt;）：&lt;a href="https://twitter.com/JustinLin610/status/2023340126479569140"&gt;专有托管模型名为Qwen3.5 Plus 2026-02-15，其命名略显令人困惑。通义千问研究员&lt;/a&gt;林俊旸解释道&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;：&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Qwen3-Plus是397B模型的托管API版本。由于基础模型原生支持256K上下文长度，Qwen3.5-Plus可扩展至100万token上下文。此外还支持搜索与代码解释器功能，用户可在通义千问聊天界面通过自动模式使用这些功能。&lt;a href="https://gist.github.com/simonw/9507dd47483f78dc1195117735273e20"&gt;这是该模型生成的&lt;/a&gt;"鹈鹕骑自行车"&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Similar quality pelican. The bicycle is taller and has a better frame shape. They are visually quite similar." src="https://static.simonwillison.net/static/2026/qwen3.5-plus-02-15.png"/&gt;
-&lt;p&gt;图像，其质量与开放权重版本相当：&lt;a href="https://simonwillison.net/tags/ai"&gt;标签：&lt;/a&gt;人工智能&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;、&lt;/a&gt;生成式AI&lt;a href="https://simonwillison.net/tags/llms"&gt;、&lt;/a&gt;大语言模型&lt;a href="https://simonwillison.net/tags/vision-llms"&gt;、&lt;/a&gt;视觉大模型&lt;a href="https://simonwillison.net/tags/qwen"&gt;、&lt;/a&gt;通义千问&lt;a href="https://simonwillison.net/tags/pelican-riding-a-bicycle"&gt;、&lt;/a&gt;鹈鹕骑自行车&lt;a href="https://simonwillison.net/tags/llm-release"&gt;、&lt;/a&gt;大模型发布&lt;a href="https://simonwillison.net/tags/openrouter"&gt;、&lt;/a&gt;OpenRouter&lt;a href="https://simonwillison.net/tags/ai-in-china"&gt;、&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Tue, 17 Feb 2026 04:30:57 +0000</pubDate></item><item><title>Showboat平台新增两款工具：Chartroom与datasette-showboat</title><link>https://simonwillison.net/2026/Feb/17/chartroom-and-datasette-showboat/#atom-everything</link><description>&lt;p&gt;我&lt;a href="https://simonwillison.net/2026/Feb/10/showboat-and-rodney/"&gt;一周前介绍了 Showboat&lt;/a&gt;——这是一款 CLI 工具，能帮助编程代理创建展示其编写代码的 Markdown 文档。我每天都在发掘它的新用法，并且刚刚发布了两款新工具，以充分发挥 Showboat 模式的优势。&lt;a href="https://github.com/simonw/chartroom"&gt;Chartroom&lt;/a&gt;是一款与 Showboat 配合良好的 CLI 图表工具，而&lt;a href="https://github.com/simonw/datasette-showboat"&gt;datasette-showboat&lt;/a&gt;则能让 Showboat 的新远程发布功能将文档逐步推送到 Datasette 实例中。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://simonwillison.net/2026/Feb/17/chartroom-and-datasette-showboat/#showboat-remote-publishing"&gt;Showboat 远程发布&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://simonwillison.net/2026/Feb/17/chartroom-and-datasette-showboat/#datasette-showboat"&gt;datasette-showboat&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://simonwillison.net/2026/Feb/17/chartroom-and-datasette-showboat/#chartroom"&gt;Chartroom&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://simonwillison.net/2026/Feb/17/chartroom-and-datasette-showboat/#how-i-built-chartroom"&gt;我如何构建 Chartroom&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://simonwillison.net/2026/Feb/17/chartroom-and-datasette-showboat/#the-burgeoning-showboat-ecosystem"&gt;蓬勃发展的 Showboat 生态系统&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id="showboat-remote-publishing"&gt;Showboat 远程发布&lt;/h4&gt;
-&lt;p&gt;我通常会在 Claude Code for web 中使用 Showboat（参见&lt;a href="https://simonwillison.net/2026/Feb/16/rodney-claude-code/"&gt;今早的笔记&lt;/a&gt;）。过去几天里，我在多个不同项目中都使用了它，每个项目的提示词大致如下：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;Use "uvx showboat --help" to perform a very thorough investigation of what happens if you use the Python sqlite-chronicle and sqlite-history-json libraries against the same SQLite database table&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这是&lt;a href="https://github.com/simonw/research/blob/main/sqlite-chronicle-vs-history-json/demo.md"&gt;生成的文档&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;只需告诉 Claude Code 运行&lt;code&gt;uvx showboat --help&lt;/code&gt;就足以让它学会使用该工具——其&lt;a href="https://github.com/simonw/showboat/blob/main/help.txt"&gt;帮助文本&lt;/a&gt;被设计成一种临时的技能文档。&lt;/p&gt;
-&lt;p&gt;这种方法的唯一缺点是，在完成之前我无法&lt;em&gt;查看&lt;/em&gt;新的 Showboat 文档。我必须等待 Claude 提交文档及嵌入的截图，并将其推送到 GitHub 仓库的分支中，然后才能通过 GitHub 界面查看。&lt;/p&gt;
-&lt;p&gt;一段时间以来，我一直在想，如果能拥有一个自己的远程 Web 服务器，让 Claude 实例在工作过程中提交更新，那该多好。今天早上我突然意识到，Showboat 可能是实现这一目标的理想机制……&lt;/p&gt;
-&lt;p&gt;Showboat&lt;a href="https://github.com/simonw/showboat/releases/tag/v0.6.0"&gt;v0.6.0&lt;/a&gt;新增了一个“远程”功能。这对工具用户来说几乎是透明的，只需通过环境变量进行配置。&lt;/p&gt;
-&lt;p&gt;设置如下变量：&lt;/p&gt;
-&lt;div class="highlight highlight-source-shell"&gt;&lt;pre&gt;&lt;span class="pl-k"&gt;export&lt;/span&gt; SHOWBOAT_REMOTE_URL=https://www.example.com/submit&lt;span class="pl-k"&gt;?&lt;/span&gt;token=xyz&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;此后，每次运行&lt;code&gt;showboat init&lt;/code&gt;或&lt;code&gt;showboat note&lt;/code&gt;或&lt;code&gt;showboat exec&lt;/code&gt;或&lt;code&gt;showboat image&lt;/code&gt;命令时，除了更新 Showboat Markdown 文件本身，生成的文档片段还会通过 POST 请求发送到该 API 端点。&lt;/p&gt;
-&lt;p&gt;更多&lt;a href="https://github.com/simonw/showboat/blob/v0.6.0/README.md#remote-document-streaming"&gt;完整细节请参阅 Showboat 的 README&lt;/a&gt;——这是一个非常简单的 API 格式，使用常规的 POST 表单变量或多部分表单上传来处理&lt;code&gt;showboat image&lt;/code&gt;附带的图像。&lt;/p&gt;
-&lt;h4 id="datasette-showboat"&gt;datasette-showboat  
-构建一个接收Showboat更新的网络应用并不复杂，但我需要一个易于部署且能与我个人生态系统良好兼容的方案。  
-
-于是我让Claude Code编写了一个Datasette插件，作为Showboat的远程端点。实际上，我在开发Showboat远程功能的同时就在构建这个插件，这是一个典型的并行智能体协作案例。  
-
-datasette-showboat是一个Datasette插件，它添加了两个端点：一个用于查看文档，另一个用于接收来自Showboat的更新。  
-
-快速体验方法如下：  
-点击控制台显示的"以root身份登录"链接，然后访问http://127.0.0.1:8001/-/showboat查看界面。  
-
-接着设置指向此实例的环境变量：  
-export "http://127.0.0.1:8001/-/showboat/receive?token=secret123"  
-
-按此方式运行Showboat：  
-"Showboat功能演示"  
-
-刷新页面后您将看到：  
-点击进入文档，启动Claude Code、Codex或您选择的智能体并输入指令：  
-
-该命令会分配UUID和标题，并将它们发送到Datasette。  
-
-最精彩的部分是它完全兼容网页版Claude Code。在任意服务器上运行此插件（具体部署留给读者实践——我使用Fly.io托管），并在Claude环境中设置该环境变量，此后每当您调用Showboat时，创建的文档都会实时传输到您的服务器并可供查看。  
-
-我专门为Showboat开发了Rodney——一个CLI浏览器自动化工具。它能轻松加载网页、通过点击或注入JavaScript进行交互，并截取屏幕截图嵌入Showboat文档以展示操作效果。&lt;/h4&gt;
-&lt;p&gt;It's simple enough to build a webapp to receive these updates from Showboat, but I needed one that I could easily deploy and would work well with the rest of my personal ecosystem.&lt;/p&gt;
-&lt;p&gt;So I had Claude Code write me a Datasette plugin that could act as a Showboat remote endpoint. I actually had this building at the same time as the Showboat remote feature, a neat example of running &lt;a href="https://simonwillison.net/2025/Oct/5/parallel-coding-agents/"&gt;parallel agents&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/simonw/datasette-showboat"&gt;datasette-showboat&lt;/a&gt;&lt;/strong&gt; is a Datasette plugin that adds a &lt;code&gt;/-/showboat&lt;/code&gt; endpoint to Datasette for viewing documents and a &lt;code&gt;/-/showboat/receive&lt;/code&gt; endpoint for receiving updates from Showboat.&lt;/p&gt;
-&lt;p&gt;Here's a very quick way to try it out:&lt;/p&gt;
-&lt;div class="highlight highlight-source-shell"&gt;&lt;pre&gt;uvx --with datasette-showboat --prerelease=allow \
-  datasette showboat.db --create \
-  -s plugins.datasette-showboat.database showboat \
-  -s plugins.datasette-showboat.token secret123 \
-  --root --secret cookie-secret-123&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Click on the sign in as root link that shows up in the console, then navigate to &lt;a href="http://127.0.0.1:8001/-/showboat"&gt;http://127.0.0.1:8001/-/showboat&lt;/a&gt; to see the interface.&lt;/p&gt;
-&lt;p&gt;Now set your environment variable to point to this instance:&lt;/p&gt;
-&lt;div class="highlight highlight-source-shell"&gt;&lt;pre&gt;&lt;span class="pl-k"&gt;export&lt;/span&gt; SHOWBOAT_REMOTE_URL=&lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;http://127.0.0.1:8001/-/showboat/receive?token=secret123&lt;span class="pl-pds"&gt;"&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;And run Showboat like this:&lt;/p&gt;
-&lt;div class="highlight highlight-source-shell"&gt;&lt;pre&gt;uvx showboat init demo.md &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;Showboat Feature Demo&lt;span class="pl-pds"&gt;"&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Refresh that page and you should see this:&lt;/p&gt;
-&lt;p&gt;&lt;img alt='Title: Showboat. Remote viewer for Showboat documents. Showboat Feature Demo 2026-02-17 00:06 · 6 chunks, UUID. To send showboat output to this server, set the SHOWBOAT_REMOTE_URL environment variable: export SHOWBOAT_REMOTE_URL="http://127.0.0.1:8001/-/showboat/receive?token=your-token"' src="https://static.simonwillison.net/static/2026/datasette-showboat-documents.jpg"/&gt;&lt;/p&gt;
-&lt;p&gt;Click through to the document, then start Claude Code or Codex or your agent of choice and prompt:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;Run 'uvx showboat --help' and then use showboat to add to the existing demo.md document with notes and exec and image to demonstrate the tool - fetch a placekitten for the image demo.&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;The &lt;code&gt;init&lt;/code&gt; command assigns a UUID and title and sends those up to Datasette.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Animated demo - in the foreground a terminal window runs Claude Code, which executes various Showboat commands. In the background a Firefox window where the Showboat Feature Demo adds notes then some bash commands, then a placekitten image." src="https://static.simonwillison.net/static/2026/datasette-showboat.gif"/&gt;&lt;/p&gt;
-&lt;p&gt;The best part of this is that it works in Claude Code for web. Run the plugin on a server somewhere (an exercise left up to the reader - I use &lt;a href="https://fly.io/"&gt;Fly.io&lt;/a&gt; to host mine) and set that &lt;code&gt;SHOWBOAT_REMOTE_URL&lt;/code&gt; environment variable in your Claude environment, then any time you tell it to use Showboat the document it creates will be transmitted to your server and viewable in real time.&lt;/p&gt;
-&lt;p&gt;I built &lt;a href="https://simonwillison.net/2026/Feb/10/showboat-and-rodney/#rodney-cli-browser-automation-designed-to-work-with-showboat"&gt;Rodney&lt;/a&gt;, a CLI browser automation tool, specifically to work with Showboat. It makes it easy to have a Showboat document load up web pages, interact with them via clicks or injected JavaScript and captures screenshots to embed in the Showboat document and show the effects.&lt;/p&gt;
-&lt;p&gt;这对于使用Claude Code进行网页界面开发来说极其有用，特别是结合新的远程发布功能后。我今天早上才把这些功能调试好，就已经有好几次会话中，Claude Code发布了工作进度的截图，让我能在它继续工作的同时，直接在Claude会话中提供反馈。
-
-Chartroom
-
-几天前我又想到一个扩展Showboat生态系统的方法：如果Showboat文档能轻松嵌入图表会怎样？
-
-我有时会启动Claude Code进行数据分析任务，经常让它下载SQLite数据库，然后运行查询以从数据中发现有趣的信息。
-
-通过一个能生成PNG图像的简单CLI工具，我可以让Claude使用Showboat构建包含嵌入式图表的文档，以帮助说明其发现。
-
-Chartroom
-
-正是这样的工具。它本质上是优秀的
-
-matplotlib
-
-Python库的轻量级封装，专为编码代理设计，用于创建可嵌入Showboat文档的图表。
-
-以下是渲染简单条形图的方法：
-
-echo
-
-'
-name,value
-Alice,42
-Bob,28
-Charlie,35
-Diana,51
-Eve,19
-'
-
-|
-'
-Sales by Person
-'
-
-'
-Sales
-'
-
-它还能绘制折线图、条形图、散点图和直方图——正如
-
-这个演示文档
-
-所示，该文档是使用Showboat构建的。
-
-Chartroom还能生成替代文本。如果在上述命令中添加
-
-，它将输出图表的替代文本而非图像：
-
-echo
-
-'
-name,value
-Alice,42
-Bob,28
-Charlie,35
-Diana,51
-Eve,19
-'
-
-|
-'
-Sales by Person
-'
-
-'
-Sales
-'
-
-输出：
-
-或者您可以使用
-
-或
-
-直接获取带有替代文本的图像标签：
-
-![
-
-]
-
-(
-/Users/simon/chart-7.png
-)
-
-我在Showboat的
-
-v0.5.0
-
-版本中添加了对带有替代文本的Markdown图像的支持，以配合Chartroom的这一功能。
-
-最后，Chartroom支持不同的
-
-matplotlib样式
-
-。我让Claude构建了一个Showboat文档来集中展示这些样式——您可以在
-
-demo/styles.md
-
-查看。
-
-我是如何构建Chartroom的
-
-我使用我的
-
-click-app
-
-开始了Chartroom仓库的开发。&lt;/p&gt;
-&lt;h3 id="chartroom"&gt;Chartroom&lt;/h3&gt;
-&lt;p&gt;A few days ago I had another idea for a way to extend the Showboat ecosystem: what if Showboat documents could easily include charts?&lt;/p&gt;
-&lt;p&gt;I sometimes fire up Claude Code for data analysis tasks, often telling it to download a SQLite database and then run queries against it to figure out interesting things from the data.&lt;/p&gt;
-&lt;p&gt;With a simple CLI tool that produced PNG images I could have Claude use Showboat to build a document with embedded charts to help illustrate its findings.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/simonw/chartroom"&gt;Chartroom&lt;/a&gt;&lt;/strong&gt; is exactly that. It's effectively a thin wrapper around the excellent &lt;a href="https://matplotlib.org/"&gt;matplotlib&lt;/a&gt; Python library, designed to be used by coding agents to create charts that can be embedded in Showboat documents.&lt;/p&gt;
-&lt;p&gt;Here's how to render a simple bar chart:&lt;/p&gt;
-&lt;div class="highlight highlight-source-shell"&gt;&lt;pre&gt;&lt;span class="pl-c1"&gt;echo&lt;/span&gt; &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;'&lt;/span&gt;name,value&lt;/span&gt;
-&lt;span class="pl-s"&gt;Alice,42&lt;/span&gt;
-&lt;span class="pl-s"&gt;Bob,28&lt;/span&gt;
-&lt;span class="pl-s"&gt;Charlie,35&lt;/span&gt;
-&lt;span class="pl-s"&gt;Diana,51&lt;/span&gt;
-&lt;span class="pl-s"&gt;Eve,19&lt;span class="pl-pds"&gt;'&lt;/span&gt;&lt;/span&gt; &lt;span class="pl-k"&gt;|&lt;/span&gt; uvx chartroom bar --csv \
-  --title &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;'&lt;/span&gt;Sales by Person&lt;span class="pl-pds"&gt;'&lt;/span&gt;&lt;/span&gt; --ylabel &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;'&lt;/span&gt;Sales&lt;span class="pl-pds"&gt;'&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;a href="https://raw.githubusercontent.com/simonw/chartroom/8812afc02e1310e9eddbb56508b06005ff2c0ed5/demo/1f6851ec-2026-02-14.png" rel="noopener noreferrer nofollow" target="_blank"&gt;&lt;img alt="A chart of those numbers, with a title and y-axis label" src="https://raw.githubusercontent.com/simonw/chartroom/8812afc02e1310e9eddbb56508b06005ff2c0ed5/demo/1f6851ec-2026-02-14.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;It can also do line charts, bar charts, scatter charts, and histograms - as seen in &lt;a href="https://github.com/simonw/chartroom/blob/0.2.1/demo/README.md"&gt;this demo document&lt;/a&gt; that was built using Showboat.&lt;/p&gt;
-&lt;p&gt;Chartroom can also generate alt text. If you add &lt;code&gt;-f alt&lt;/code&gt; to the above it will output the alt text for the chart instead of the image:&lt;/p&gt;
-&lt;div class="highlight highlight-source-shell"&gt;&lt;pre&gt;&lt;span class="pl-c1"&gt;echo&lt;/span&gt; &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;'&lt;/span&gt;name,value&lt;/span&gt;
-&lt;span class="pl-s"&gt;Alice,42&lt;/span&gt;
-&lt;span class="pl-s"&gt;Bob,28&lt;/span&gt;
-&lt;span class="pl-s"&gt;Charlie,35&lt;/span&gt;
-&lt;span class="pl-s"&gt;Diana,51&lt;/span&gt;
-&lt;span class="pl-s"&gt;Eve,19&lt;span class="pl-pds"&gt;'&lt;/span&gt;&lt;/span&gt; &lt;span class="pl-k"&gt;|&lt;/span&gt; uvx chartroom bar --csv \
-  --title &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;'&lt;/span&gt;Sales by Person&lt;span class="pl-pds"&gt;'&lt;/span&gt;&lt;/span&gt; --ylabel &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;'&lt;/span&gt;Sales&lt;span class="pl-pds"&gt;'&lt;/span&gt;&lt;/span&gt; -f alt&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Outputs:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;Sales by Person. Bar chart of value by name — Alice: 42, Bob: 28, Charlie: 35, Diana: 51, Eve: 19
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Or you can use &lt;code&gt;-f html&lt;/code&gt; or &lt;code&gt;-f markdown&lt;/code&gt; to get the image tag with alt text directly:&lt;/p&gt;
-&lt;div class="highlight highlight-text-md"&gt;&lt;pre&gt;&lt;span class="pl-s"&gt;![&lt;/span&gt;Sales by Person. Bar chart of value by name — Alice: 42, Bob: 28, Charlie: 35, Diana: 51, Eve: 19&lt;span class="pl-s"&gt;]&lt;/span&gt;&lt;span class="pl-s"&gt;(&lt;/span&gt;&lt;span class="pl-corl"&gt;/Users/simon/chart-7.png&lt;/span&gt;&lt;span class="pl-s"&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;I added support for Markdown images with alt text to Showboat in &lt;a href="https://github.com/simonw/showboat/releases/tag/v0.5.0"&gt;v0.5.0&lt;/a&gt;, to complement this feature of Chartroom.&lt;/p&gt;
-&lt;p&gt;Finally, Chartroom has support for different &lt;a href="https://matplotlib.org/stable/gallery/style_sheets/style_sheets_reference.html"&gt;matplotlib styles&lt;/a&gt;. I had Claude build a Showboat document to demonstrate these all in one place - you can see that at &lt;a href="https://github.com/simonw/chartroom/blob/main/demo/styles.md"&gt;demo/styles.md&lt;/a&gt;.&lt;/p&gt;
-&lt;h4 id="how-i-built-chartroom"&gt;How I built Chartroom&lt;/h4&gt;
-&lt;p&gt;I started the Chartroom repository with my &lt;a href="https://github.com/simonw/click-app"&gt;click-app&lt;/a&gt;我们正在构建一个Python CLI工具，该工具使用matplotlib生成包含图表的PNG图像。它将具有多个子命令，对应不同的图表类型，并通过命令行选项进行控制。所有使用所需信息都将通过单一的"chartroom --help"输出提供。
-
-该工具将接受来自文件或标准输入的CSV、TSV或JSON格式数据，类似于sqlite-utils处理数据的方式——可克隆simonw/sqlite-utils到/tmp目录作为参考。同时克隆matplotlib/matplotlib以供参考。
-
-它还将支持通过"--sql path/to/sqlite.db 'select ...'"参数从SQLite数据库读取数据，该查询将以只读模式执行。
-
-请先提出澄清性问题（注意不要使用已损坏的"ask user"工具），并生成一份规范供我批准。
-
-批准后，请使用红绿测试驱动开发方法，通过"uv run pytest"运行测试进行开发。
-
-在构建过程中，请使用"uvx showboat --help"工具维护demo/README.md文档——每完成一个新图表类型，请提交测试代码、实现代码、根目录README更新，以及包含新图表类型内嵌图像演示的新版demo/README.md文档（图像文件名应采用由showboat image命令管理的UUID格式，并存储在demo/文件夹中）。
-
-确保"uv build"能够正常运行且不报错关于额外目录的问题，同时确保dist/和uv.lock文件被列入gitignore。
-
-这项工作大部分已完成。其余部分可在后续的PR中查看。
-
-不断发展的Showboat生态系统
-
-Showboat工具系列目前包含：
-
-Showboat本体、
-用于浏览器自动化的Rodney、
-用于图表生成的Chartroom、
-以及用于将远程Showboat文档流式传输到Datasette的datasette-showboat。
-
-我很欣赏这些工具能够基于一套非常宽松的约定协同工作。任何能输出图像路径的工具，Showboat都能将其图像包含在文档中。任何能输出文本的工具都能与Showboat配合使用。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;We are building a Python CLI tool which uses matplotlib to generate a PNG image containing a chart. It will have multiple sub commands for different chart types, controlled by command line options. Everything you need to know to use it will be available in the single "chartroom --help" output.&lt;/p&gt;
-&lt;p&gt;It will accept data from files or standard input as CSV or TSV or JSON, similar to how sqlite-utils accepts data - clone simonw/sqlite-utils to /tmp for reference there. Clone matplotlib/matplotlib for reference as well&lt;/p&gt;
-&lt;p&gt;It will also accept data from --sql path/to/sqlite.db "select ..." which runs in read-only mode&lt;/p&gt;
-&lt;p&gt;Start by asking clarifying questions - do not use the ask user tool though it is broken - and generate a spec for me to approve&lt;/p&gt;
-&lt;p&gt;Once approved proceed using red/green TDD running tests with "uv run pytest"&lt;/p&gt;
-&lt;p&gt;Also while building maintain a demo/README.md document using the "uvx showboat --help" tool - each time you get a new chart type working commit the tests, implementation, root level
-README update and a new version of that demo/README.md document with an inline image demo of the new chart type (which should be a UUID image filename managed by the showboat image command and should be stored in the demo/ folder&lt;/p&gt;
-&lt;p&gt;Make sure "uv build" runs cleanly without complaining about extra directories but also ensure dist/ and uv.lock are in gitignore&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;This got most of the work done. You can see the rest &lt;a href="https://github.com/simonw/chartroom/pulls?q=is%3Apr+is%3Aclosed"&gt;in the PRs&lt;/a&gt; that followed.&lt;/p&gt;
-&lt;h4 id="the-burgeoning-showboat-ecosystem"&gt;The burgeoning Showboat ecosystem&lt;/h4&gt;
-&lt;p&gt;The Showboat family of tools now consists of &lt;a href="https://github.com/simonw/showboat"&gt;Showboat&lt;/a&gt; itself, &lt;a href="https://github.com/simonw/rodney"&gt;Rodney&lt;/a&gt; for browser automation, &lt;a href="https://github.com/simonw/chartroom"&gt;Chartroom&lt;/a&gt; for charting and &lt;a href="https://github.com/simonw/datasette-showboat"&gt;datasette-showboat&lt;/a&gt; for streaming remote Showboat documents to Datasette.&lt;/p&gt;
-&lt;p&gt;I'm enjoying how these tools can operate together based on a very loose set of conventions. If a tool can output a path to an image Showboat can include that image in a document. Any tool that can output text can be used with Showboat.&lt;/p&gt;
-&lt;p&gt;我几乎肯定会构建更多符合这种模式的工具。它们非常容易快速完成！
-
-Showboat远程流的环境变量机制也是个有趣的技巧——目前我只用它来将文档流式传输到其他地方，但这本质上是一个webhook扩展机制，很可能用于我尚未想到的各种用途。
-
-标签：
-图表
-,
-项目
-,
-人工智能
-,
-Datasette
-,
-生成式人工智能
-,
-大语言模型
-,
-AI辅助编程
-,
-编码代理
-,
-Claude Code
-,
-Showboat&lt;/p&gt;
-&lt;p&gt;The environment variable mechanism for Showboat's remote streaming is a fun hack too - so far I'm just using it to stream documents somewhere else, but it's effectively a webhook extension mechanism that could likely be used for all sorts of things I haven't thought of yet.&lt;/p&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/charting"&gt;charting&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/projects"&gt;projects&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/datasette"&gt;datasette&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/showboat"&gt;showboat&lt;/a&gt;&lt;/p&gt;</description><pubDate>Tue, 17 Feb 2026 00:43:45 +0000</pubDate></item><item><title>罗德尼与克劳德桌面版代码</title><link>https://simonwillison.net/2026/Feb/16/rodney-claude-code/#atom-everything</link><description>&lt;p&gt;我是Claude Code网页版的深度用户，这是Anthropic公司推出的云端版Claude Code（虽然命名不太贴切）。它所有操作都在他们管理的容器环境中运行，极大降低了对我重要电脑造成损害的风险。
-
-我完全不使用网页界面（这也是我不喜欢这个名字的原因）——只通过他们原生的iPhone和Mac桌面应用来访问。
-
-桌面应用有个特别让我欣赏的功能：它能让你看到Claude通过其工具正在"查看"的图像。效果如下：
-
-这意味着你可以在它工作时实时预览处理内容，无需等到它把代码推送到GitHub后再自行尝试。
-
-触发上述截图的提示词是：
-
-我设计的Rodney工具，其--help输出包含了编码代理使用该工具所需了解的全部信息。
-
-Claude的iPhone应用目前还不支持显示已打开的图片，所以我刚刚在Twitter的讨论串中提出了这个功能请求。
-
-标签：anthropic, claude, ai, claude-code, llms, async-coding-agents, coding-agents, generative-ai, projects, ai-assisted-programming, rodney&lt;a href="https://code.claude.com/docs/en/claude-code-on-the-web"&gt;Claude Code on the web&lt;/a&gt;, Anthropic's excellent but poorly named cloud version of Claude Code where everything runs in a container environment managed by them, greatly reducing the risk of anything bad happening to a computer I care about.&lt;/p&gt;
-&lt;p&gt;I don't use the web interface at all (hence my dislike of the name) - I access it exclusively through their native iPhone and Mac desktop apps.&lt;/p&gt;
-&lt;p&gt;Something I particularly appreciate about the desktop app is that it lets you see images that Claude is "viewing" via its &lt;code&gt;Read /path/to/image&lt;/code&gt; tool. Here's what that looks like:&lt;/p&gt;
-&lt;p&gt;&lt;img alt='Screenshot of a Claude Code session in Claude Desktop. Claude says: The debug page looks good - all items listed with titles and descriptions. Now let me check the nav
-menu -  Analyzed menu image file - Bash uvx rodney open "http://localhost:8765/" 2&amp;gt;&amp;amp;1 &amp;amp;&amp;amp; uvx rodney click "details.nav-menu summary" 2&amp;gt;&amp;amp;1 &amp;amp;% sleep 0.5 &amp;amp;&amp;amp; uvx rodney screenshot /tmp/menu.png 2&amp;gt;&amp;amp;1 Output reads: Datasette: test, Clicked, /tmp/menu.png - then it says Read /tmp/menu.png and reveals a screenshot of the Datasette interface with the nav menu open, showing only "Debug" and "Log out" options. Claude continues: The menu now has just "Debug" and “Log out" — much cleaner. Both pages look good. Let me clean up the server and run the remaining tests.' src="https://static.simonwillison.net/static/2026/rodney-claude-desktop.jpg"/&gt;&lt;/p&gt;
-&lt;p&gt;This means you can get a visual preview of what it's working on while it's working, without waiting for it to push code to GitHub for you to try out yourself later on.&lt;/p&gt;
-&lt;p&gt;The prompt I used to trigger the above screenshot was:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;Run "uvx rodney --help" and then use Rodney to manually test the new pages and menu - look at screenshots from it and check you think they look OK&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;I designed &lt;a href="https://simonwillison.net/2026/Feb/10/showboat-and-rodney/#rodney-cli-browser-automation-designed-to-work-with-showboat"&gt;Rodney&lt;/a&gt; to have &lt;a href="https://github.com/simonw/rodney/blob/main/help.txt"&gt;--help output&lt;/a&gt; that provides everything a coding agent needs to know in order to use the tool.&lt;/p&gt;
-&lt;p&gt;The Claude iPhone app doesn't display opened images yet, so I &lt;a href="https://twitter.com/simonw/status/2023432616066879606"&gt;requested it as a feature&lt;/a&gt; just now in a thread on Twitter.&lt;/p&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/anthropic"&gt;anthropic&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude"&gt;claude&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/async-coding-agents"&gt;async-coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/projects"&gt;projects&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/rodney"&gt;rodney&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 16 Feb 2026 16:38:57 +0000</pubDate></item><item><title>AI吸血鬼</title><link>https://simonwillison.net/2026/Feb/15/the-ai-vampire/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163"&gt;AI吸血鬼&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;史蒂夫·叶格关于智能体疲劳及其与职业倦怠关系的见解。
-&lt;blockquote&gt;
-&lt;p&gt;假设你是公司里唯一使用AI的人。&lt;/p&gt;
-&lt;p&gt;在情景A中，你决定让雇主刮目相看，每天以10倍生产力工作8小时。你大获成功，却让其他同事相形见绌。&lt;/p&gt;
-&lt;p&gt;这种情况下，雇主将完全占有&lt;em&gt;你&lt;/em&gt;运用AI创造的价值。你一无所获，至少不可能获得9倍薪资。而现在所有人都讨厌你。&lt;/p&gt;
-&lt;p&gt;而且你&lt;em&gt;精疲力竭。&lt;/em&gt;老板，你累坏了。却什么也没得到。&lt;/p&gt;
-&lt;p&gt;恭喜，你刚被公司榨干了。我的职业生涯中多次被榨干到倦怠，甚至在谷歌也经历过一两次。但如今有了AI，这种压榨变得如此轻松。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;史蒂夫指出，由于智能体工程带来的认知负担，他需要更多睡眠，并注意到每天四小时的智能体工作才是更现实的节奏：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我曾提出，AI通过自动化简单工作，将我们都变成了杰夫·贝索斯，把所有困难决策、总结和问题解决留给我们。我发现即使经过大量练习，每天也只能承受这种强度工作几小时，最多偶尔一天两次。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;small&gt;&lt;/small&gt;经由&lt;a href="https://cosocial.ca/@timbray/116076167774984883"&gt;蒂姆·布雷&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/steve-yegge"&gt;史蒂夫-叶格&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;AI辅助编程&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;AI伦理&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/coding-agents"&gt;编程智能体&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/cognitive-debt"&gt;认知负债&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sun, 15 Feb 2026 23:59:36 +0000</pubDate></item><item><title>破折号</title><link>https://simonwillison.net/2026/Feb/15/em-dashes/#atom-everything</link><description>&lt;p&gt;偶尔有人指责我用大语言模型来写博客内容。我并没有那么做，而且我觉得自己的文风也不太有大语言模型的味道……不过有个明显的例外：&lt;/p&gt;
-&lt;pre&gt;    &lt;span class="pl-c"&gt;# 终于，处理全角破折号&lt;/span&gt;
-    &lt;span class="pl-s1"&gt;s&lt;/span&gt; &lt;span class="pl-c1"&gt;=&lt;/span&gt; &lt;span class="pl-s1"&gt;s&lt;/span&gt;.&lt;span class="pl-c1"&gt;替换&lt;/span&gt;(&lt;span class="pl-s"&gt;' - '&lt;/span&gt;, &lt;span class="pl-s"&gt;u'&lt;span class="pl-cce"&gt;\u2014&lt;/span&gt;'&lt;/span&gt;)&lt;/pre&gt;
-&lt;p&gt;这段给文章添加全角破折号的代码可以追溯到&lt;a href="https://github.com/simonw/simonwillisonblog/blob/e6d0327b37debdf820b5cfef4fb7d09a9624cea9/blog/templatetags/entry_tags.py#L145-L146"&gt;至少2015年&lt;/a&gt;当时我把博客从旧版Django（在一个早已消失的Mercurial仓库里）迁移出来，在GitHub上重新开始。&lt;/p&gt;
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/typography"&gt;字体排印&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/blogging"&gt;博客写作&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/python"&gt;Python&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sun, 15 Feb 2026 21:40:46 +0000</pubDate></item></channel></rss>
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/nano-banana"&gt;nano-banana&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/gemini"&gt;gemini&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/cognitive-debt"&gt;cognitive-debt&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/text-to-image"&gt;text-to-image&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/showboat"&gt;showboat&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;&lt;/p&gt;</description><pubDate>Tue, 17 Feb 2026 04:51:58 +0000</pubDate></item></channel></rss>
