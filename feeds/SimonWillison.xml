@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Sat, 21 Feb 2026 01:30:21 +0000</lastBuildDate><item><title>引用蒂博·索蒂奥的话</title><link>https://simonwillison.net/2026/Feb/21/thibault-sottiaux/#atom-everything</link><description>&lt;blockquote cite="https://twitter.com/thsottiaux/status/2024947946849186064"&gt;&lt;p&gt;我们已将GPT-5.3-Codex-Spark的运行速度提升约30%，目前每秒可处理超过1200个标记。
-—
-蒂博·索蒂奥
-，OpenAI
-标签：
-openai
-、
-llms
-、
-ai
-、
-generative-ai&lt;/p&gt;&lt;/blockquote&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Sat, 21 Feb 2026 01:30:21 +0000</lastBuildDate><item><title>引用蒂博·索蒂奥的话</title><link>https://simonwillison.net/2026/Feb/21/thibault-sottiaux/#atom-everything</link><description>&lt;blockquote cite="https://twitter.com/thsottiaux/status/2024947946849186064"&gt;&lt;p&gt;我们已将GPT-5.3-Codex-Spark的运行速度提升约30%，目前每秒可处理超过1200个词元。  
+——  
+Thibault Sottiaux  
+OpenAI  
+标签：  
+openai, llms, ai, generative-ai, llm-performance&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class="cite"&gt;— &lt;a href="https://twitter.com/thsottiaux/status/2024947946849186064"&gt;Thibault Sottiaux&lt;/a&gt;, OpenAI&lt;/p&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/openai"&gt;openai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sat, 21 Feb 2026 01:30:21 +0000</pubDate></item><item><title>安德烈·卡帕西谈到了“爪子”。</title><link>https://simonwillison.net/2026/Feb/21/claws/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://twitter.com/karpathy/status/2024987174077432126"&gt;安德烈·卡帕西谈论“Claws”&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;安德烈·卡帕西在推特上发布了一篇关于购买Mac Mini（“苹果店员告诉我它们卖得超火，大家都搞不懂状况”）来折腾Claws的迷你文章：
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/openai"&gt;openai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llm-performance"&gt;llm-performance&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sat, 21 Feb 2026 01:30:21 +0000</pubDate></item><item><title>安德烈·卡帕西谈到了“爪子”。</title><link>https://simonwillison.net/2026/Feb/21/claws/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://twitter.com/karpathy/status/2024987174077432126"&gt;安德烈·卡帕西谈论“Claws”&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;安德烈·卡帕西在推特上发布了一篇关于购买Mac Mini（“苹果店员告诉我它们卖得超火，大家都搞不懂状况”）来折腾Claws的迷你文章：
 &lt;blockquote&gt;
 &lt;p&gt;我对运行OpenClaw确实有点顾虑[...] 但我真心喜欢这个概念。我认为就像LLM智能体是在LLM之上构建的新层级一样，Claws如今又成了LLM智能体之上的新层级，将任务编排、调度、上下文管理、工具调用和某种持久性提升到了新高度。&lt;/p&gt;
 &lt;p&gt;环顾四周，鉴于高层理念已很清晰，现在开始涌现许多小型Claws项目。例如快速浏览发现NanoClaw就很有意思——其核心引擎仅约4000行代码（既能装进我脑子也能被AI智能体理解，感觉可管理、可审查、够灵活等），且默认在容器中运行所有任务。[...]&lt;/p&gt;
@@ -93,20 +87,20 @@ Research（研究）
 &lt;p&gt;If you want to see how the rest of the build played out the most interesting PRs are &lt;a href="https://github.com/simonw/simonwillisonblog/pull/592"&gt;Beats #592&lt;/a&gt; which implemented the core feature and &lt;a href="https://github.com/simonw/simonwillisonblog/pull/595/changes"&gt;Add Museums Beat importer #595&lt;/a&gt; which added the Museums content type.&lt;/p&gt;
 &lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/blogging"&gt;blogging&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/museums"&gt;museums&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/til"&gt;til&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-artifacts"&gt;claude-artifacts&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 20 Feb 2026 23:47:10 +0000</pubDate></item><item><title>Taalas以每秒17,000个令牌的速度运行Llama 3.1 8B模型。</title><link>https://simonwillison.net/2026/Feb/20/taalas/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://taalas.com/the-path-to-ubiquitous-ai/"&gt;Taalas以每秒17,000个令牌的速度运行Llama 3.1 8B模型
 
-这家新成立的加拿大硬件初创公司刚刚发布了首款产品——基于Llama 3.1 8B模型（2024年7月版本）的定制硬件实现，能以惊人的每秒17,000个令牌速度运行。
+这家新成立的加拿大硬件初创公司刚刚发布了首款产品——基于Llama 3.1 8B模型（2024年7月版本）的定制硬件实现，能够以惊人的每秒17,000个令牌速度运行。
 
-本想附上演示视频，但其运行速度之快让动态画面看起来更像静态截图。您可以在chatjimmy.ai亲自体验。
+本想附上演示视频，但其运行速度之快让视频看起来更像静态截图。您可以在chatjimmy.ai亲自体验。
 
-他们将这款"硅基羊驼"芯片描述为"采用激进的量化策略，融合3位与6位参数"。下一代产品将采用4位量化——看来他们研发新模型的周期相当漫长！
+他们将这款"硅基羊驼"描述为"采用激进的量化策略，融合3位与6位参数"。下一代产品将采用4位量化——看来他们研发新模型的周期相当长呢！
 
 消息来源：Hacker News
-标签：人工智能、生成式AI、羊驼模型、大语言模型&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+标签：人工智能、生成式AI、羊驼模型、大语言模型、大模型性能&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 This new Canadian hardware startup just announced their first product - a custom hardware implementation of the Llama 3.1 8B model (from &lt;a href="https://simonwillison.net/2024/Jul/23/introducing-llama-31/"&gt;July 2024&lt;/a&gt;) that can run at a staggering 17,000 tokens/second.
 &lt;p&gt;I was going to include a video of their demo but it's so fast it would look more like a screenshot. You can try it out at &lt;a href="https://chatjimmy.ai"&gt;chatjimmy.ai&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;They describe their Silicon Llama as “aggressively quantized, combining 3-bit and 6-bit parameters.” Their next generation will use 4-bit - presumably they have quite a long lead time for baking out new models!
 
     &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href="https://news.ycombinator.com/item?id=47086181"&gt;Hacker News&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llama"&gt;llama&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Fri, 20 Feb 2026 22:10:04 +0000</pubDate></item><item><title>ggml.ai加入Hugging Face，共同推动本地人工智能的持续发展。</title><link>https://simonwillison.net/2026/Feb/20/ggmlai-joins-hugging-face/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/ggml-org/llama.cpp/discussions/19759"&gt;ggml.ai加入Hugging Face，共同推动本地AI的长期发展
+&lt;p&gt;Tags: &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llama"&gt;llama&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llm-performance"&gt;llm-performance&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Fri, 20 Feb 2026 22:10:04 +0000</pubDate></item><item><title>ggml.ai加入Hugging Face，共同推动本地人工智能的持续发展。</title><link>https://simonwillison.net/2026/Feb/20/ggmlai-joins-hugging-face/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/ggml-org/llama.cpp/discussions/19759"&gt;ggml.ai加入Hugging Face，共同推动本地AI的长期发展
 
 我通常不会报道这类收购新闻，但这次有些想法不吐不快。
 
