@@ -46,7 +46,7 @@ def translate_with_deepseek(text):
             messages=[
                 {
                     "role": "system",
-                    "content": "你是一个专业翻译。请将用户提供的英文翻译成流畅自然的中文。只输出翻译结果，不要添加任何解释或额外内容。不要添加任何markdown格式符号（如**、*、#、-等）。保持原文的语气和风格。"
+                    "content": "你是一个专业翻译。请将用户提供的英文内容翻译成流畅自然的中文。\n要求：\n1. 只输出翻译结果\n2. 完整保留所有HTML标签（如<p>、<strong>、<a>、<em>、<figure>等），只翻译标签内的文字\n3. 不要添加任何markdown格式符号（如**、*、#等）\n4. 保留所有链接URL和图片路径不变\n5. 保持原文的语气和风格"
                 },
                 {
                     "role": "user",
@@ -54,7 +54,7 @@ def translate_with_deepseek(text):
                 }
             ],
             temperature=0.3,
-            max_tokens=4096
+            max_tokens=8192
         )
         return response.choices[0].message.content.strip()
     except Exception as e:
@@ -83,33 +83,69 @@ def translate_text(text, cache):
     time.sleep(0.3)  # 避免请求过快
     return translated
 
+def translate_html_direct(html_content, cache):
+    """调用 API 翻译一段 HTML，保留标签结构"""
+    if not html_content or not html_content.strip():
+        return html_content
+
+    content_hash = get_hash(html_content.strip())
+    if content_hash in cache:
+        return cache[content_hash]
+
+    translated = translate_with_deepseek(html_content)
+    cache[content_hash] = translated
+    time.sleep(0.3)
+    return translated
+
 def translate_html_content(html_content, cache):
     """
-    翻译 HTML 内容，保留标签结构
-    只翻译文本节点，不动 HTML 标签
+    整段翻译 HTML 内容，让 LLM 保留标签结构。
+    短内容直接翻译，超长内容按段落分组翻译。
     """
     if not html_content or not html_content.strip():
         return html_content
 
+    # 先查整段缓存
+    content_hash = get_hash(html_content.strip())
+    if content_hash in cache:
+        return cache[content_hash]
+
+    # 短内容（<=3000字符），直接整段翻译
+    if len(html_content) <= 3000:
+        translated = translate_html_direct(html_content, cache)
+        cache[content_hash] = translated
+        return translated
+
+    # 长内容：按顶层元素分组，每组不超过 3000 字符
     soup = BeautifulSoup(html_content, 'html.parser')
+    top_elements = list(soup.children)
 
-    # 收集所有需要翻译的文本节点
-    text_nodes = []
-    for element in soup.descendants:
-        if isinstance(element, NavigableString):
-            text = str(element).strip()
-            if text and element.parent.name not in ['script', 'style', 'code', 'pre']:
-                text_nodes.append(element)
+    groups = []
+    current = []
+    current_len = 0
 
-    # 逐个翻译每个文本节点
-    for node in text_nodes:
-        text = str(node).strip()
-        if not text:
-            continue
-        translated = translate_text(text, cache)
-        node.replace_with(NavigableString(translated))
+    for el in top_elements:
+        el_str = str(el)
+        if current_len + len(el_str) > 3000 and current:
+            groups.append(current)
+            current = [el]
+            current_len = len(el_str)
+        else:
+            current.append(el)
+            current_len += len(el_str)
+    if current:
+        groups.append(current)
 
-    return str(soup)
+    # 翻译每个分组
+    translated_parts = []
+    for group in groups:
+        group_html = "".join(str(el) for el in group)
+        translated_group = translate_html_direct(group_html, cache)
+        translated_parts.append(translated_group)
+
+    result = "".join(translated_parts)
+    cache[content_hash] = result
+    return result
 
 def translate_feed(feed_config, cache):
     print(f"处理: {feed_config['name']}")
@@ -123,8 +159,8 @@ def translate_feed(feed_config, cache):
         language='zh-CN'
     )
     
-    # 只处理最新 20 条
-    for entry in feed.entries[:20]:
+    # 只处理最新 10 条
+    for entry in feed.entries[:10]:
         title = translate_text(entry.get('title', ''), cache)
         
         # 处理内容
