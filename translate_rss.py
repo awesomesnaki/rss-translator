@@ -46,7 +46,7 @@ def translate_with_deepseek(text):
             messages=[
                 {
                     "role": "system",
-                    "content": "你是一个专业翻译。请将用户提供的英文翻译成流畅自然的中文。只输出翻译结果，不要添加任何解释或额外内容。保持原文的语气和风格。"
+                    "content": "你是一个专业翻译。请将用户提供的英文翻译成流畅自然的中文。只输出翻译结果，不要添加任何解释或额外内容。不要添加任何markdown格式符号（如**、*、#、-等）。保持原文的语气和风格。"
                 },
                 {
                     "role": "user",
@@ -90,9 +90,9 @@ def translate_html_content(html_content, cache):
     """
     if not html_content or not html_content.strip():
         return html_content
-    
+
     soup = BeautifulSoup(html_content, 'html.parser')
-    
+
     # 收集所有需要翻译的文本节点
     text_nodes = []
     for element in soup.descendants:
@@ -100,60 +100,15 @@ def translate_html_content(html_content, cache):
             text = str(element).strip()
             if text and element.parent.name not in ['script', 'style', 'code', 'pre']:
                 text_nodes.append(element)
-    
-    # 批量翻译（减少 API 调用次数）
-    # 将短文本合并翻译，长文本单独翻译
-    batch = []
-    batch_nodes = []
-    BATCH_LIMIT = 2000  # 字符限制
-    
+
+    # 逐个翻译每个文本节点
     for node in text_nodes:
         text = str(node).strip()
         if not text:
             continue
-            
-        if len(text) > BATCH_LIMIT:
-            # 长文本单独翻译
-            if batch:
-                # 先处理之前的批次
-                combined = "\n|||SPLIT|||\n".join(batch)
-                translated_combined = translate_text(combined, cache)
-                translated_parts = translated_combined.split("|||SPLIT|||")
-                for i, part in enumerate(translated_parts):
-                    if i < len(batch_nodes):
-                        batch_nodes[i].replace_with(NavigableString(part.strip()))
-                batch = []
-                batch_nodes = []
-            
-            # 翻译长文本
-            translated = translate_text(text, cache)
-            node.replace_with(NavigableString(translated))
-        else:
-            # 累积短文本
-            if sum(len(t) for t in batch) + len(text) > BATCH_LIMIT:
-                # 批次满了，先翻译
-                if batch:
-                    combined = "\n|||SPLIT|||\n".join(batch)
-                    translated_combined = translate_text(combined, cache)
-                    translated_parts = translated_combined.split("|||SPLIT|||")
-                    for i, part in enumerate(translated_parts):
-                        if i < len(batch_nodes):
-                            batch_nodes[i].replace_with(NavigableString(part.strip()))
-                batch = [text]
-                batch_nodes = [node]
-            else:
-                batch.append(text)
-                batch_nodes.append(node)
-    
-    # 处理剩余批次
-    if batch:
-        combined = "\n|||SPLIT|||\n".join(batch)
-        translated_combined = translate_text(combined, cache)
-        translated_parts = translated_combined.split("|||SPLIT|||")
-        for i, part in enumerate(translated_parts):
-            if i < len(batch_nodes):
-                batch_nodes[i].replace_with(NavigableString(part.strip()))
-    
+        translated = translate_text(text, cache)
+        node.replace_with(NavigableString(translated))
+
     return str(soup)
 
 def translate_feed(feed_config, cache):
