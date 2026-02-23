@@ -1,5 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Sun, 22 Feb 2026 15:53:43 +0000</lastBuildDate><item><title>我是如何看待Codex的</title><link>https://simonwillison.net/2026/Feb/22/how-i-think-about-codex/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.linkedin.com/pulse/how-i-think-codex-gabriel-chua-ukhic"&gt;我如何看待Codex&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Sun, 22 Feb 2026 23:58:43 +0000</lastBuildDate><item><title>克劳德C编译器：它揭示了软件的未来</title><link>https://simonwillison.net/2026/Feb/22/ccc/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.modular.com/blog/the-claude-c-compiler-what-it-reveals-about-the-future-of-software"&gt;Claude C 编译器：它揭示了软件的未来&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;2月5日，Anthropic 的 Nicholas Carlini 撰写了一篇关于一个项目的文章，该项目旨在利用&lt;a href="https://www.anthropic.com/engineering/building-c-compiler"&gt;并行 Claude 实例&lt;/a&gt;，在全新的 Opus 4.6 之上构建一个 C 编译器。&lt;/p&gt;
+&lt;p&gt;Chris Lattner（Swift、LLVM、Clang、Mojo 的创始人）比大多数人都更了解 C 编译器。他刚刚发布了这份代码审查报告。&lt;/p&gt;
+&lt;p&gt;让我印象深刻的几点：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;优秀的软件依赖于判断力、沟通和清晰的抽象。AI 放大了这一点。&lt;/li&gt;
+&lt;li&gt;AI 编码是实现的自动化，因此设计和维护变得更加重要。&lt;/li&gt;
+&lt;li&gt;手动重写和翻译工作正在成为 AI 原生的任务，自动化了一大类工程工作。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Chris 对 CCC（Claude C 编译器）总体上印象深刻：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;总的来说，CCC 看起来不像一个实验性的研究编译器，而更像一个合格的教科书式实现，就像一个强大的本科生团队在项目早期、经过多年完善之前可能会构建的那种系统。仅此一点就非同寻常。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;不过，它距离成为一个可用于生产的编译器还有很长的路要走：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;一些设计选择表明，其优化方向是倾向于通过测试，而不是像人类那样构建通用的抽象。[...] 这些缺陷具有启发性而非令人惊讶，表明当前的 AI 系统擅长组合已知技术并针对可衡量的成功标准进行优化，但在生产质量系统所需的开放式泛化方面存在困难。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;该项目还引出了一个深刻的开放性问题，即代理工程如何与开源和专有代码的许可及知识产权相互作用：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果基于数十年公开可用代码训练的 AI 系统能够重现熟悉的结构、模式甚至特定的实现，那么学习和复制之间的界限究竟在哪里？&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/c"&gt;c&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/compilers"&gt;compilers&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/open-source"&gt;open-source&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/anthropic"&gt;anthropic&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude"&gt;claude&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/nicholas-carlini"&gt;nicholas-carlini&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sun, 22 Feb 2026 23:58:43 +0000</pubDate></item><item><title>伦敦证券交易所：树莓派控股有限公司</title><link>https://simonwillison.net/2026/Feb/22/raspberry-pi-openclaw/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.londonstockexchange.com/stock/RPI/raspberry-pi-holdings-plc/company-page"&gt;伦敦证券交易所：树莓派控股有限公司&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;一张引人注目的图表，显示了英国树莓派控股公司股票在周二飙升的情况：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="树莓派股价线图，显示了从11月24日到2月16日的三个月每日视图。价格从约325向下趋势至260附近的低点，然后急剧飙升。一个工具提示高亮显示“树莓派：415.00，2026年2月16日”。Y轴范围从240到420。" src="https://static.simonwillison.net/static/2026/raspberry-pi-plc.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;《每日电讯报》&lt;a href="https://finance.yahoo.com/news/british-computer-maker-soars-ai-141836041.html"&gt;将这股热潮归因于围绕OpenClaw的兴奋&lt;/a&gt;：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;树莓派的股价在两天内飙升了30%，社交媒体上热议该公司的微型计算机可用于驱动一款流行的人工智能聊天机器人。&lt;/p&gt;
+&lt;p&gt;用户们已转向使用树莓派的小型计算机来运行一项名为OpenClaw的技术，&lt;a href="https://www.telegraph.co.uk/business/2026/02/07/i-built-a-whatsapp-bot-and-now-it-runs-my-entire-life/"&gt;这是一款病毒式传播的人工智能个人助手&lt;/a&gt;。自周末以来，大量关于此做法的帖子已被浏览数百万次。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;路透社&lt;a href="https://finance.yahoo.com/news/raspberry-pi-soars-40-ceo-151342904.html"&gt;也将其归因于首席执行官埃本·厄普顿的股票购买&lt;/a&gt;：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;树莓派股价周二一度上涨42%，创下连续两日最大涨幅纪录。此前，首席执行官埃本·厄普顿购买了这家受挫的英国计算机硬件公司的股票，止住了长达数月的跌势。同时，关于其产品可能受益于低成本人工智能项目的讨论日益增多。&lt;/p&gt;
+&lt;p&gt;两位伦敦交易员表示，此次飙升背后的驱动因素尚不清楚，尽管此举是在一份文件披露厄普顿于周一以每股约282便士的价格购买了价值约13,224英镑的股票之后发生的。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/raspberry-pi"&gt;raspberry-pi&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-agents"&gt;ai-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/openclaw"&gt;openclaw&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sun, 22 Feb 2026 23:54:39 +0000</pubDate></item><item><title>我是如何看待Codex的</title><link>https://simonwillison.net/2026/Feb/22/how-i-think-about-codex/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.linkedin.com/pulse/how-i-think-codex-gabriel-chua-ukhic"&gt;我如何看待Codex&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Gabriel Chua（OpenAI亚太区开发者体验工程师）阐述了他对“Codex”这一术语背后令人困惑的术语的理解，该术语在OpenAI生态系统中可以指代许多不同的事物：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;简单来说，Codex是OpenAI的软件工程代理，可通过多种界面访问。代理是模型加上指令和工具，封装在一个可以代表你执行任务的运行时中。[...]&lt;/p&gt;
@@ -93,41 +131,4 @@
     &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/prompt-engineering"&gt;prompt-engineering&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/anthropic"&gt;anthropic&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-agents"&gt;ai-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 20 Feb 2026 07:13:19 +0000</pubDate></item><item><title>恢复丢失的代码</title><link>https://simonwillison.net/2026/Feb/19/recovering-lost-code/#atom-everything</link><description>&lt;p&gt;已经进入了并行智能体精神错乱的阶段，我丢失了整个功能模块——我记得昨天明明还在，但现在怎么也找不到包含它的分支、工作树、云实例或代码签出版本。&lt;/p&gt;
 &lt;p&gt;……找到了！原来我一直在&lt;code&gt;/tmp&lt;/code&gt;目录里捣鼓某个随机原型，结果电脑崩溃重启后代码就丢失了……不过所有内容都还保存在&lt;code&gt;~/.claude/projects/&lt;/code&gt;的会话日志里，Claude Code能够从中提取出来，重新启动那个丢失的功能。&lt;/p&gt;
 
-    &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/parallel-agents"&gt;parallel-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 19 Feb 2026 23:48:35 +0000</pubDate></item><item><title>双子座 3.1 专业版</title><link>https://simonwillison.net/2026/Feb/19/gemini-31-pro/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"&gt;Gemini 3.1 Pro&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这是Gemini 3.1系列的首个模型，定价与Gemini 3 Pro相同（在20万tokens以内，输入每百万2美元，输出每百万12美元；在20万到100万tokens之间，价格为4美元/18美元）。这还不到Claude Opus 4.6价格的一半，而基准测试得分却与该模型非常相似。&lt;/p&gt;
-&lt;p&gt;在公告中，他们吹嘘其SVG动画性能相比Gemini 3 Pro有所提升！&lt;/p&gt;
-&lt;p&gt;我尝试在&lt;a href="https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221ugF9fBfLGxnNoe8_rLlluzo9NSPJDWuF%22%5D,%22action%22:%22open%22,%22userId%22:%22106366615678321494423%22,%22resourceKeys%22:%7B%7D%7D&amp;amp;usp=sharing"&gt;Google AI Studio&lt;/a&gt;中输入“生成一只鹈鹕骑自行车的SVG”，它思考了323.9秒（&lt;a href="https://gist.github.com/simonw/03a755865021739a3659943a22c125ba#thinking-trace"&gt;思考过程在此&lt;/a&gt;），然后生成了这个：&lt;/p&gt;
-&lt;p&gt;&lt;img alt="一幅异想天开的扁平风格插图：一只鹈鹕戴着蓝白相间的棒球帽，骑着红色自行车行驶在路上，车轮有黄色轮圈。鹈鹕长着橙色的大喙，围着绿色围巾。车把上的棕色篮子里探出一条小鱼。背景是淡蓝色的天空，有黄色的太阳、白云和绿色的山丘。" src="https://static.simonwillison.net/static/2026/gemini-3.1-pro-pelican.png"/&gt;&lt;/p&gt;
-&lt;p&gt;很高兴看到车架两侧的腿被清晰地描绘出来（这应该能&lt;a href="https://twitter.com/elonmusk/status/2023833496804839808"&gt;让埃隆满意&lt;/a&gt;），篮子里的鱼是个不错的点缀，我也很欣赏&lt;a href="https://gist.github.com/simonw/03a755865021739a3659943a22c125ba#response"&gt;SVG代码&lt;/a&gt;中的这条注释：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;!-- 翼尖的黑色飞羽 --&amp;gt;
-&amp;lt;path d="M 420 175 C 440 182, 460 187, 470 190 C 450 210, 430 208, 410 198 Z" fill="#374151" /&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;我已经将两个新的模型ID &lt;code&gt;gemini-3.1-pro-preview&lt;/code&gt; 和 &lt;code&gt;gemini-3.1-pro-preview-customtools&lt;/code&gt; &lt;a href="https://github.com/simonw/llm-gemini/issues/121"&gt;添加&lt;/a&gt;到了我为&lt;a href="https://llm.datasette.io/"&gt;LLM&lt;/a&gt;开发的&lt;a href="https://github.com/simonw/llm-gemini"&gt;llm-gemini插件&lt;/a&gt;中。那个“自定义工具”版本&lt;a href="https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview#gemini-31-pro-preview-customtools"&gt;在此处有描述&lt;/a&gt;——显然在某些情况下，它可能比默认模型提供更好的工具性能。&lt;/p&gt;
-&lt;p&gt;该模型目前看起来&lt;em&gt;极其&lt;/em&gt;缓慢——它花了104秒才回应一个简单的“hi”，我的其他一些测试还遇到了“错误：此模型当前需求很高。需求激增通常是暂时的。请稍后再试。”或“错误：操作未能在截止时间前完成”的错误。我猜这只是发布当天的磨合问题。&lt;/p&gt;&lt;p&gt;听起来上周的&lt;a href="https://simonwillison.net/2026/Feb/12/gemini-3-deep-think/"&gt;Deep Think 发布&lt;/a&gt;是我们首次接触到 3.1 系列：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;上周，我们发布了 Gemini 3 Deep Think 的重大更新，以应对科学、研究和工程领域的现代挑战。今天，我们发布使这些突破成为可能的升级版核心智能：Gemini 3.1 Pro。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;更新&lt;/strong&gt;：在去年十一月的&lt;a href="https://simonwillison.net/2025/nov/13/training-for-pelicans-riding-bicycles/"&gt;《如果AI实验室训练鹈鹕骑自行车会怎样？》&lt;/a&gt;一文中，我曾说过：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;如果最终出现一个模型能生成一张出色的鹈鹕骑自行车的SVG图，我敢打赌我会用它测试各种生物骑着各种交通工具的样子。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;谷歌的 Gemini 负责人 Jeff Dean &lt;a href="https://x.com/JeffDean/status/2024525132266688757"&gt;在推特上发布了这个视频&lt;/a&gt;，其中有一只骑自行车的动画鹈鹕，还有一只青蛙骑在高轮自行车上、一只长颈鹿开着小汽车、一只鸵鸟穿着轮滑鞋、一只乌龟在做滑板尖翻，以及一只腊肠犬开着一辆加长豪华轿车。&lt;/p&gt;
-&lt;video controls="controls" poster="https://static.simonwillison.net/static/2026/gemini-animated-pelicans.jpg" preload="none"&gt;
-&lt;source src="https://static.simonwillison.net/static/2026/gemini-animated-pelicans.mp4" type="video/mp4"/&gt;
-&lt;/video&gt;
-&lt;p&gt;我一直在说，我希望AI实验室能突出展示他们新模型能做而旧模型做不到的事情，所以Gemini团队的这个视频值得高分。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;更新 2&lt;/strong&gt;：我使用 &lt;code&gt;llm-gemini&lt;/code&gt; 运行了我的&lt;a href="https://simonwillison.net/2025/Nov/18/gemini-3/#and-a-new-pelican-benchmark"&gt;更详细的鹈鹕提示词&lt;/a&gt;，得到了&lt;a href="https://gist.github.com/simonw/a3bdd4ec9476ba9e9ba7aa61b46d8296"&gt;这个结果&lt;/a&gt;：&lt;/p&gt;
-&lt;p&gt;&lt;img alt="一幅扁平风格的插图，描绘了一只棕色鹈鹕骑着一辆青绿色自行车，车轮有深蓝色轮圈，背景是纯白色。与之前图片中的白色卡通鹈鹕不同，这只鹈鹕拥有逼真的棕色羽毛和细致的羽毛图案，头部呈深栗色，眼睛黄色，还有一个带粉色调的大喉囊喙。自行车设计更简单，没有篮子，场景也缺少第一幅插图中的彩色背景元素，如太阳、云朵、道路、山丘、帽子和围巾，使其更具极简主义风格。" src="https://static.simonwillison.net/static/2026/gemini-3.1-pro-pelican-2.png"/&gt;&lt;/p&gt;
-&lt;p&gt;来自SVG注释：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;!-- 喉囊渐变（繁殖羽色：红色到橄榄绿/绿色） --&amp;gt;
-...
-&amp;lt;!-- 颈部渐变（繁殖羽色：栗色颈背，白色/黄色前部） --&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/google"&gt;谷歌&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/svg"&gt;SVG&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llm"&gt;大语言模型&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/gemini"&gt;Gemini&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/pelican-riding-a-bicycle"&gt;骑自行车的鹈鹕&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llm-release"&gt;大语言模型发布&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 19 Feb 2026 17:58:37 +0000</pubDate></item><item><title>尝试为我的博客和新闻简报引入赞助</title><link>https://simonwillison.net/2026/Feb/19/sponsorship/#atom-everything</link><description>&lt;p&gt;长久以来，我一直抗拒在博客上接受赞助的想法。我珍视自己作为独立声音的可信度，不愿冒险损害这一声誉。&lt;/p&gt;
-&lt;p&gt;后来，我了解到特洛伊·亨特（Troy Hunt）的&lt;a href="https://www.troyhunt.com/sponsorship/"&gt;赞助方式&lt;/a&gt;，他最初在&lt;a href="https://www.troyhunt.com/im-now-offering-sponsorship-of-this-blog/"&gt;2016年&lt;/a&gt;就此撰文。特洛伊采用的方式是在页面横幅中放置一行简单的文字——没有JavaScript，没有Cookie，既低调不扰人，又能为赞助商提供价值。这种方式我可以接受！&lt;/p&gt;
-&lt;p&gt;以这种方式接受赞助，有助于我保持独立性，同时弥补我不从事全职工作的机会成本。&lt;/p&gt;
-&lt;p&gt;开始时，我将按周出售赞助位。赞助商将获得我博客上那个低调的横幅，以及他们赞助的信息会出现在&lt;a href="https://simonw.substack.com/"&gt;我的新闻简报&lt;/a&gt;的顶部。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="我的博客主页截图。在'Simon Willison's Weblog'标题和标签列表下方，有一个新的蓝色全页横幅，上面写着'赞助商：Teleport - 在工程规模上安全地治理和运营AI。了解更多'。" src="https://static.simonwillison.net/static/2026/sponsor-banner.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;我&lt;strong&gt;不会为换取赞助而撰写内容&lt;/strong&gt;。我希望与我合作的赞助商能够理解，我作为独立声音的可信度是我拥有受众的关键原因，损害这种信任对所有人都不利。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.freemanandforrest.com/"&gt;Freeman &amp;amp; Forrest&lt;/a&gt;帮助我设置并售出了第一批赞助位。同时感谢&lt;a href="https://t3.gg/"&gt;西奥·布朗（Theo Browne）&lt;/a&gt;帮助我理清思路。&lt;/p&gt;
-
-    &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/newsletter"&gt;newsletter&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/blogging"&gt;blogging&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/troy-hunt"&gt;troy-hunt&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 19 Feb 2026 05:44:29 +0000</pubDate></item></channel></rss>
+    &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/parallel-agents"&gt;parallel-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 19 Feb 2026 23:48:35 +0000</pubDate></item></channel></rss>
