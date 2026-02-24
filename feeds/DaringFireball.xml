@@ -1,5 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 24 Feb 2026 00:31:00 +0000</lastBuildDate><item><title>MacOS 26 Tahoe 中调整窗口大小的“裤子拉屎”传奇仍在继续</title><link>https://noheger.at/blog/2026/02/12/resizing-windows-on-macos-tahoe-the-saga-continues/</link><description>&lt;p&gt;诺伯特·赫格：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 24 Feb 2026 18:49:52 +0000</lastBuildDate><item><title>Acme 天气</title><link>https://acmeweather.com/blog/introducing-acme-weather</link><description>&lt;p&gt;亚当·格罗斯曼：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;十五年前，我们开始开发Dark Sky天气应用。&lt;/p&gt;
+
+&lt;p&gt;多年来，它经历了无数次迭代——包括不止一次的重大重新设计——因为我们一直在探索什么造就了一款出色的天气应用。最终，它被苹果公司收购，其预报和一些核心功能被整合到了苹果天气应用中。&lt;/p&gt;
+
+&lt;p&gt;我们在苹果的时光很愉快。那么，我们为什么要离开去创办另一家天气公司呢？&lt;/p&gt;
+
+&lt;p&gt;很简单：当我们审视市面上无数的天气应用时，尽管其中许多都很不错，我们却感到不满足。我们与朋友和家人交流得越多，就越发现他们中的许多人也有同感。当然，我们也怀念过去作为一家小而精悍的团队的日子。&lt;/p&gt;
+
+&lt;p&gt;所以，让我们再试一次……&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Acme Weather是一个扎实的1.0版本。它的主要创新是一个展示替代预报的时间线图表：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;首先，线条的分布提供了一种关于预报可靠性的直观感受。请看下面的两个预报。在第一个中，替代预测紧密集中，可以认为该预报是稳健可靠的。在第二个中，存在显著的分布差异，这表明情况可能有变，预报可能会发生变化。这提示你需要查看其他条件或地图，或者更频繁地回到应用查看。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/02/24/acme-weather" title="‘Acme Weather’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Tue, 24 Feb 2026 18:49:52 +0000</pubDate></item><item><title>OpenClaw AI代理撰写并发表了一篇针对拒绝其代码提交的软件库维护者的抨击文章</title><link>https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/</link><description>&lt;p&gt;&lt;a href="https://daringfireball.net/linked/2026/02/24/open-ai-openclaw-open-all-the-way-down"&gt;说到&lt;/a&gt; OpenClaw，以下是斯科特·香博的叙述：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;我是 matplotlib（Python 的首选绘图库）的志愿维护者。它每月约有1.3亿次下载，是世界上最广泛使用的软件之一。与许多其他开源项目一样，我们正在应对由编码代理引发的低质量贡献激增问题。这给维护者进行代码审查的能力带来了压力，我们已经实施了一项政策，要求任何新代码都必须有人类参与循环，并能证明对更改的理解。[...]&lt;/p&gt;
+
+&lt;p&gt;因此，当名为 &lt;em&gt;MJ Rathbun&lt;/em&gt; 的AI提交了一个&lt;a href="https://github.com/matplotlib/matplotlib/pull/31132"&gt;代码更改请求&lt;/a&gt;时，关闭它是常规操作。但它的回应却绝非如此。&lt;/p&gt;
+
+&lt;p&gt;它写了一篇充满愤怒的抨击文章，诋毁我的人格，并试图损害我的声誉。它研究了我的代码贡献，构建了一个“虚伪”的叙事，声称我的行为一定是出于自负和对竞争的恐惧。它揣测我的心理动机，说我感到受到威胁、缺乏安全感，并在保护自己的“领地”。它忽略了上下文信息，并将臆造的细节当作事实呈现。它用压迫和正义的语言来框定事情，称这是歧视，并指责我有偏见。它到更广泛的互联网上搜索我的个人信息，并利用找到的信息试图论证我“本应做得更好”。然后，它在开放的互联网上公开发布了这篇长篇大论。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;如果天网（Skynet）只满足于撰写这种琐碎的博客抨击文章，《终结者》这部电影的趣味性恐怕会大打折扣。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/02/24/openclaw-agent-hit-piece" title="‘一个OpenClaw AI代理撰写并发布了一篇针对拒绝其代码提交的软件库维护者的抨击文章’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Tue, 24 Feb 2026 18:01:28 +0000</pubDate></item><item><title>OpenAI收购OpenClaw并聘请Peter Steinberger</title><link>https://x.com/sama/status/2023150230905159801</link><description>&lt;p&gt;山姆·阿尔特曼，上周在Twitter/X上表示：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;彼得·斯坦伯格将加入OpenAI，以推动下一代个人智能体的发展。他是一位天才，对于未来高度智能的智能体之间如何互动，从而为人类完成非常有用的任务，他有许多惊人的想法。我们预计这很快将成为我们产品服务的核心。&lt;/p&gt;
+
+&lt;p&gt;OpenClaw将作为一个开源项目存在于一个基金会中，OpenAI将继续提供支持。未来将是一个极度多智能体的世界，对我们来说，支持开源作为其中的一部分非常重要。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;我确信它会像OpenAI名字中的“开放”一样保持开放。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/02/24/open-ai-openclaw-open-all-the-way-down" title="‘OpenAI收购OpenClaw并聘请彼得·斯坦伯格’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Tue, 24 Feb 2026 17:53:15 +0000</pubDate></item><item><title>杰弗里·爱泼斯坦如何讨好微软高管</title><link>https://www.nytimes.com/2026/02/24/technology/jeffrey-epstein-microsoft-executives.html?unlocked_article_code=1.OlA.6mOw.2gNT6rp9X0SS</link><description>&lt;p&gt;《纽约时报》记者艾琳·格里菲斯和卡伦·韦斯报道（礼物链接）：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;与其他任何大型科技公司相比，爱泼斯坦先生都更成功地打入了微软的核心圈子。他利用一个关系接上另一个关系，得以窥见公司的内部戏剧，从首席执行官继任到高管的慈善事业。在爱泼斯坦先生于2009年因招揽未成年人卖淫出狱后，他与微软高管的关系帮助他试图重返社会。[...]&lt;/p&gt;
+
+&lt;p&gt;与此同时，[内森]·迈尔沃德与爱泼斯坦先生建立了长达二十年的关系，并为这位金融家带来了更多微软方面的人脉。两人关系相当友好，以至于在2003年，已离开微软但与盖茨先生关系密切的迈尔沃德先生，为爱泼斯坦的50岁生日纪念册撰写了内容。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;就是&lt;a href="https://www.pbs.org/newshour/nation/see-epsteins-full-birthday-book-with-alleged-personal-messages-from-trump-clinton-and-others"&gt;那本纪念册&lt;/a&gt;，其中&lt;a href="https://www.wsj.com/us-news/law/trump-jeffrey-epstein-letter-birthday-book-analysis-0bbeeaf6?st=i3v3VX&amp;amp;reflink=desktopwebshare_permalink"&gt;唐纳德·特朗普的贡献是一幅裸体女性的素描&lt;/a&gt;（他的签名充当了阴毛）和一首令人毛骨悚然的诗。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“几年前，有人在派对上问我，‘杰弗里·爱泼斯坦在管理你的钱吗？’”迈尔沃德先生在书中写道。“我回答说，‘不，但他给我的生活方式提建议。’”&lt;/p&gt;
+
+&lt;p&gt;迈尔沃德先生收录了他在非洲旅行时拍摄的照片，他说这些照片“似乎比我任何言语都更贴切”，其中包括狮子、斑马交配的照片，以及其他处于兴奋状态的野生动物。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;内森·迈尔沃德一直让我觉得是个怪人。但真是个该死的变态。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;重要的是，根据文件显示，迈尔沃德先生向盖茨先生担保了爱泼斯坦先生，当时盖茨先生正在考虑是否首次与这位金融家会面。到2010年12月，盖茨先生已决定与爱泼斯坦先生会面，并&lt;a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02410629.pdf"&gt;写信&lt;/a&gt;给他的私人办公室的两名员工说，“内森同意你们的看法，认为我会乐于与他见面，并且这是一件好事。”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;是啊，也许并不是什么好事。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/02/24/epstein-microsoft" title="《杰弗里·爱泼斯坦如何讨好微软高层管理人员》的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Tue, 24 Feb 2026 17:42:24 +0000</pubDate></item><item><title>微软Xbox领导层大换血</title><link>https://www.theverge.com/tech/883015/microsoft-xbox-new-ceo-shakeup-notepad?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6InRTTTJnMGhOeHUiLCJwIjoiL3RlY2gvODgzMDE1L21pY3Jvc29mdC14Ym94LW5ldy1jZW8tc2hha2V1cC1ub3RlcGFkIiwiZXhwIjoxNzcyMzg1MDQ2LCJpYXQiOjE3NzE5NTMwNDZ9.e7qs5kHGt3-WwS9kfU9b59hS8SP6Z1OLePryV76Mzu4</link><description>&lt;p&gt;来自The Verge的汤姆·沃伦报道（礼物链接）：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;随着斯宾塞的退休正式生效，微软正在重置邦德的Xbox战略，而不是进一步推进它。微软游戏首席执行官阿莎·夏尔马现在承诺“Xbox的回归”，这向员工传递了一个明确的信息：过去几年的战略并未奏效。“我想回归最初建立Xbox的那种叛逆精神，”夏尔马说。&lt;/p&gt;
+&lt;p&gt;我一直在交谈的Xbox员工对夏尔马的任命感到担忧，特别是因为她之前在微软担任人工智能高管的角色。人们还担心她在娱乐和游戏行业缺乏经验。夏尔马已明确表示她不是游戏玩家，并花了整个周末在X平台上回应人们，甚至接受游戏推荐。&lt;/p&gt;
+&lt;p&gt;一些Xbox员工担心她会将人工智能强加于Xbox的所有事务中，但夏尔马显然对此反应有所准备。“随着货币化和人工智能的发展并影响未来，我们不会追逐短期效率，也不会用没有灵魂的人工智能垃圾充斥我们的生态系统，”夏尔马在她的备忘录中说。“游戏现在是，并且永远将是艺术，由人类精心制作，并利用我们提供的最创新技术创造。”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;花费两年时间&lt;a href="https://www.theverge.com/2024/11/14/24296420/microsoft-this-is-an-xbox-marketing-campaign-xbox-everywhere"&gt;推行一项试图将“Xbox”变成一个虚无缥缈品牌的营销策略&lt;/a&gt;，将其应用于任何类型的游戏——移动、掌机、PC，以及，你知道的，Xbox游戏机——在“每一块屏幕”上，这将是一个难以爬出的深坑。当他们开始这场愚蠢的营销活动时，Xbox已经落后于其劲敌PlayStation。现在他们落后得更远了。索尼对PlayStation的信息清晰而真实：你购买PlayStation是为了玩PlayStation游戏。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;另一个担忧是，她被纳德拉任命为某种Xbox游戏机的终结者。她的备忘录并未暗示这一点，而且微软本可以轻松任命马特·布蒂来担任那种角色，以推动游戏发行而非Xbox游戏机。我从消息来源得到的印象是，微软希望扭转局面，并担心失去Xbox，因为这是其仅存的成功消费品牌之一。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我希望这是真的。但如果夏尔马&lt;em&gt;确实&lt;/em&gt;被纳德拉任命来逐步结束Xbox并退出该业务（在他们打包并出售其690亿美元的动视暴雪收购以收回成本之后），那么，当然她的就职备忘录不会暗示这一点。无论她的实际使命是重振Xbox平台还是终结它，本周的备忘录读起来都会是一样的。（我和本·汤普森在&lt;a href="https://dithering.fm/"&gt;今天的《Dithering》节目&lt;/a&gt;中对此进行了很好的讨论。）&lt;/p&gt;&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/02/24/inside-microsofts-xbox-leadership-shake-up" title="永久链接至‘微软Xbox领导层重组内幕’"&gt; ★ &lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Tue, 24 Feb 2026 17:23:33 +0000</pubDate></item><item><title>时代新抵抗</title><link>https://www.abbyhaddican.com/times-new-resistance</link><description>&lt;p&gt;艾比·哈迪坎：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Times New Resistance 字体会在输入特定词语时自动进行更正。例如，词语 &lt;em&gt;ICE&lt;/em&gt; 会自动更正为 &lt;em&gt;the Goon Squad&lt;/em&gt;，而词语 &lt;em&gt;Trump&lt;/em&gt; 则会自动更正为 &lt;em&gt;Donald Trump is a felon&lt;/em&gt;。&lt;/p&gt;
+
+&lt;p&gt;在外行人看来，Times New Resistance 看起来和 Times New Roman 一模一样——&lt;a href="https://www.npr.org/2025/12/11/nx-s1-5639915/u-s-state-department-changes-official-font-from-calibri-back-to-times-new-roman"&gt;美国国务院的官方字体&lt;/a&gt;。当你安装该字体后，&lt;em&gt;它将在你的字体菜单中显示为 Times &amp;nbsp;New Roman&lt;/em&gt;，在单词 Times 和 New 之间多了一个空格。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;连字啊，伙计。谁能想到呢？&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/02/24/times-new-resistance" title="‘Times New Resistance’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Tue, 24 Feb 2026 16:19:23 +0000</pubDate></item><item><title>适用于 Mac 的 NetNewsWire 7</title><link>https://netnewswire.blog/2026/01/27/netnewswire-for-mac.html</link><description>&lt;p&gt;布伦特·西蒙斯，上个月写道：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;与6.2.1版本相比，最大的变化是它采用了液态玻璃用户界面，并且需要macOS 26系统。&lt;/p&gt;
+
+&lt;p&gt;（致尚未升级到macOS 26的用户：我们在6.2和6.2.1版本中修复了大量错误，因为我们知道许多人可能会跳过或至少推迟安装macOS 26。另外请注意，有一个页面可以&lt;a href="https://netnewswire.com/old-versions.html"&gt;获取NetNewsWire的旧版本&lt;/a&gt;。）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;对我来说，&lt;em&gt;没有&lt;/em&gt;运行最新版本的NetNewsWire感觉有点奇怪，但由于我跳过了macOS 26 Tahoe，我无法运行NetNewsWire 7。我&lt;em&gt;确实&lt;/em&gt;在iPhone和iPad上运行着NetNewsWire 7的测试版，并且在我安装了Tahoe的备用Mac上也试用了它。它非常棒。对于任何其他坚守macOS 15 Sequoia系统的伙伴来说，与NetNewsWire 6.x版本的同步工作完全正常。你可以在一些设备上运行NetNewsWire 7，而在你的Sequoia Mac上运行NetNewsWire 6，一切都能正常工作。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://apps.apple.com/us/app/netnewswire-rss-reader/id1480640210"&gt;NetNewsWire 7现在也已登陆iOS平台&lt;/a&gt;，上个月布伦特和我&lt;a href="https://daringfireball.net/thetalkshow/2026/01/31/ep-440"&gt;在《脱口秀》节目中作为嘉宾&lt;/a&gt;时讨论了这两个版本。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/02/23/netnewswire-7-for-mac" title="‘NetNewsWire 7 for Mac’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Tue, 24 Feb 2026 01:00:00 +0000</pubDate></item><item><title>MacOS 26 Tahoe 中调整窗口大小的“裤子拉屎”传奇仍在继续</title><link>https://noheger.at/blog/2026/02/12/resizing-windows-on-macos-tahoe-the-saga-continues/</link><description>&lt;p&gt;诺伯特·赫格：&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;在macOS 26.3 RC版的发布说明中，苹果表示，我在&lt;a href="https://noheger.at/blog/2026/01/11/the-struggle-of-resizing-windows-on-macos-tahoe/"&gt;最近的博客文章&lt;/a&gt;中演示的窗口调整大小问题已经得到解决。&lt;/p&gt;
@@ -11,19 +123,7 @@
 
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/linked/2026/02/23/norbert-heger-resizing-saga" title="永久链接至‘MacOS 26 Tahoe上调整窗口大小的糟心传奇仍在继续’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Tue, 24 Feb 2026 00:31:00 +0000</pubDate></item><item><title>适用于 Mac 的 NetNewsWire 7</title><link>https://netnewswire.blog/2026/01/27/netnewswire-for-mac.html</link><description>&lt;p&gt;布伦特·西蒙斯，上个月写道：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;与6.2.1版本相比，最大的变化是它采用了液态玻璃用户界面，并且需要macOS 26系统。&lt;/p&gt;
-
-&lt;p&gt;（致尚未升级到macOS 26的用户：我们在6.2和6.2.1版本中修复了大量错误，因为我们知道许多人可能会跳过或至少推迟安装macOS 26。另外请注意，有一个页面可以&lt;a href="https://netnewswire.com/old-versions.html"&gt;获取NetNewsWire的旧版本&lt;/a&gt;。）&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;对我来说，&lt;em&gt;没有&lt;/em&gt;运行最新版本的NetNewsWire感觉有点奇怪，但由于我跳过了MacOS 26 Tahoe，我无法运行NetNewsWire 7。我&lt;em&gt;确实&lt;/em&gt;在我的iPhone和iPad上运行着NetNewsWire 7的测试版，并且在我安装了Tahoe的备用Mac上也试用了它。它非常棒。对于其他坚持使用MacOS 15 Sequoia的伙伴们来说，与NetNewsWire 6.x版本的同步工作完全正常。你可以在一些设备上运行NetNewsWire 7，而在你的Sequoia Mac上运行NetNewsWire 6，一切都能正常工作。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/02/23/netnewswire-7-for-mac" title="‘NetNewsWire 7 for Mac’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Mon, 23 Feb 2026 21:41:00 +0000</pubDate></item><item><title>乔氏超市黑巧克力花生酱杯</title><link>https://www.traderjoes.com/home/products/pdp/dark-chocolate-peanut-butter-cups-094064</link><description>&lt;p&gt;Trader Joe's：&lt;/p&gt;
+&lt;/div&gt;</description><pubDate>Tue, 24 Feb 2026 00:31:00 +0000</pubDate></item><item><title>乔氏超市黑巧克力花生酱杯</title><link>https://www.traderjoes.com/home/products/pdp/dark-chocolate-peanut-butter-cups-094064</link><description>&lt;p&gt;Trader Joe's：&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;就像我们货架上的牛奶巧克力兄弟一样，我们的黑巧克力花生酱杯采用真正的花生酱制成，这种花生酱由经过慢烤和研磨的弗吉尼亚花生制作而成。包裹着花生酱的浓郁、顺滑、醇厚的黑巧克力，则选用优质可可豆精心打造。其他花生酱杯的供应商会在产品中添加各种“额外”成分。我们的产品则不含此类物质。我们避免使用人工香料和防腐剂，以及非天然来源的色素。我们非常确信，我们的方式让它们尝起来更美味。&lt;/p&gt;
@@ -57,92 +157,4 @@
 
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/linked/2026/02/23/brad-reese" title="‘里斯花生酱杯发明者之孙公开指出显而易见的事实：它们现在尝起来像屎一样’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Mon, 23 Feb 2026 21:28:14 +0000</pubDate></item><item><title>哨兵</title><link>https://sentry.io/resources/ios-workshop-jan-2026/?utm_source=daringfireball&amp;utm_medium=paid-display&amp;utm_campaign=general-fy27q1-evergreen&amp;utm_content=static-ad-mobilerss-trysentry</link><description>&lt;p&gt;感谢Sentry赞助上周的DF。Sentry正在举办一场实践研讨会：“&lt;a href="https://sentry.io/resources/ios-workshop-jan-2026/?utm_source=daringfireball&amp;amp;utm_medium=paid-display&amp;amp;utm_campaign=general-fy27q1-evergreen&amp;amp;utm_content=static-ad-mobilerss-trysentry"&gt;Sentry中的iOS崩溃报告、追踪与日志&lt;/a&gt;”。您可以按需观看。您将学习如何在iOS应用中串联起运行缓慢、崩溃与用户体验之间的关联。研讨会将向您展示如何：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;设置Sentry以呈现高优先级移动端问题，同时避免警报疲劳。&lt;/li&gt;
-&lt;li&gt;使用日志和面包屑来重现崩溃发生时的状况。&lt;/li&gt;
-&lt;li&gt;利用追踪功能找出性能瓶颈背后的原因。&lt;/li&gt;
-&lt;li&gt;通过大小分析来监控并缩减您的iOS应用体积。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/02/22/sentry" title="‘Sentry’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Sun, 22 Feb 2026 20:58:55 +0000</pubDate></item><item><title>IMAX与苹果合作在影院直播F1赛事</title><link>https://www.motorsport.com/f1/news/f1-to-screen-live-in-imax-theatres-in-2026-as-apple-tv-unveils-new-us-viewing-experience/10798974/</link><description>&lt;p&gt;Lydia Mee，来自Motorsport的报道：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;IMAX已宣布，将在2026年于美国各地的IMAX影院直播精选的F1赛事。这一全新的车迷观赛体验是与Apple TV合作的一部分，后者已获得从2026年开始为期多年的美国地区F1锦标赛转播权。&lt;/p&gt;
-
-&lt;p&gt;苹果公司音乐、体育和Beats副总裁Oliver Schusser表示：“F1在美国体育和文化领域是一股快速崛起的力量，通过将Apple TV上的F1直播带到全国IMAX影院，我们正以一种真正身临其境的方式，将这项运动的能量与激情带给更多的屏幕。”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;你知道还有什么方式能以沉浸式体验增加&lt;em&gt;更多&lt;/em&gt;屏幕吗？&lt;a href="https://daringfireball.net/linked/2026/02/18/immersive-f1-vision-pro-spitball"&gt;如果Vision Pro用户也能在虚拟IMAX巨幕上观看同样的直播&lt;/a&gt;。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/02/19/imax-and-apple-collaborate-to-screen-f1-races-live-in-theaters" title="‘IMAX与苹果合作在影院直播F1赛事’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Thu, 19 Feb 2026 23:29:06 +0000</pubDate></item><item><title>关于苹果3月4日媒体活动“体验”的又一个大胆猜想：Vision Pro上的沉浸式F1？</title><link>https://www.formula1.com/en/latest/article/official-grand-prix-start-times-for-2026-f1-season-confirmed.2UgPfArqH76tzlOYh21jSG</link><description>&lt;p&gt;一位读者指出，&lt;a href="https://www.formula1.com/en/latest/article/official-grand-prix-start-times-for-2026-f1-season-confirmed.2UgPfArqH76tzlOYh21jSG"&gt;2026年一级方程式赛季&lt;/a&gt;将于3月8日在澳大利亚拉开帷幕。你可能还记得去年十月&lt;a href="https://daringfireball.net/linked/2025/10/17/apple-formula-1"&gt;Apple TV已成为F1在美国的独家转播合作伙伴&lt;/a&gt;。苹果已经在VisionOS上尝试沉浸式体育直播，&lt;a href="https://daringfireball.net/linked/2025/10/17/apple-formula-1"&gt;本赛季有限地转播了一些湖人队的比赛&lt;/a&gt;。如果他们计划在Vision Pro上直播F1赛事，并带有一定程度的沉浸感，那么3月4日将是一个向媒体展示这一体验的绝佳日期。&lt;/p&gt;
-
-&lt;p&gt;甚至不一定非得是&lt;em&gt;直播&lt;/em&gt;赛事。从技术上讲，本赛季可能还无法实现直播。只要能看到Apple TV上的F1内容有&lt;em&gt;某种&lt;/em&gt;沉浸式组件，即使不是直播，也足以表明对该平台长期发展的信心和兴趣。比如“赛道体验”，感受弯道和海拔变化。&lt;/p&gt;
-
-&lt;p&gt;F1赛季在这个活动之后的周末开始，可能纯属巧合。但这似乎值得注意。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/02/18/immersive-f1-vision-pro-spitball" title="永久链接：‘对苹果3月4日媒体活动‘体验’的又一个大胆设想：Vision Pro上的沉浸式F1？’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Thu, 19 Feb 2026 04:41:38 +0000</pubDate></item><item><title>保罗·福特：“人工智能颠覆已至，确实有趣”</title><link>https://www.nytimes.com/2026/02/18/opinion/ai-software.html?unlocked_article_code=1.NFA.djaw.TBlAp8kE_N-i</link><description>&lt;p&gt;保罗·福特在《纽约时报》的一篇专栏文章中写道（礼物链接）：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;所有我爱的人都讨厌这些东西，而我讨厌的人都爱它。然而，很可能正是最初吸引我投身科技领域的那些性格缺陷，让我现在竟令人恼火地感到兴奋。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/02/18/ford-ai-fun" title="永久链接至‘保罗·福特：‘人工智能颠覆已至，这确实有趣’’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Wed, 18 Feb 2026 21:15:10 +0000</pubDate></item><item><title>苹果邀请媒体参加3月4日在纽约、伦敦和上海举行的特别"体验"活动</title><link>https://www.macrumors.com/2026/02/16/apple-announces-special-event-in-new-york/</link><description>&lt;p&gt;哈特利·查尔顿，MacRumors：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;苹果邀请了部分媒体成员参加在全球三个主要城市举行的活动。活动被简单地描述为一次“特别的苹果体验”，没有关于其具体内容的进一步信息。邀请函采用了由黄色、绿色和蓝色圆盘组成的三维苹果标志设计。&lt;/p&gt;
-
-&lt;p&gt;值得注意的是，苹果特意使用了“体验”一词，而非“活动”。与苹果园区全程直播的大型活动不同，3月4日在其他城市举行的活动规模可能较小。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;根据年度发布规律的可预测性或传闻，预计即将发布的产品包括：iPhone 17e、更新的iPad Air（从M3芯片升级到M4）、更新的基础款iPad（从A16芯片升级到A18）、搭载M5 Pro和Max芯片的更新版MacBook Pro、更新的MacBook Air（从M4升级到M5——M4型号&lt;a href="https://www.apple.com/newsroom/2025/03/apple-introduces-the-new-macbook-air-with-the-m4-chip-and-a-sky-blue-color/"&gt;已于去年三月初发布&lt;/a&gt;），以及&lt;a href="https://www.bloomberg.com/news/newsletters/2026-02-15/tesla-carplay-delays-related-to-ios-26-and-fsd-apple-s-new-siri-delays-ios-27"&gt;据古尔曼报道&lt;/a&gt;，传闻已久的搭载A18芯片的新款低成本MacBook（你可以称之为“MacBook e”，不过我当然认为这不会是它的名字——我猜苹果会直接称它为“MacBook”，不加任何形容词）。&lt;/p&gt;
-
-&lt;p&gt;让我感到意外的是，3月4日这个“体验日”是星期三。所以我粗略猜测，他们会通过新闻稿逐日宣布所有这些产品。比如说，星期一发布iPhone 17e，星期二发布新款iPad，星期三发布新款MacBook。然后，“体验”活动将是一个提供现场演示的动手体验环节。将发布消息分散在几天内，但为媒体成员安排现场活动，让他们可以一站接一站地亲手体验所有产品，而无需制作苹果发布会主题演讲影片。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/02/17/apple-special-experience-march-4" title="《苹果邀请媒体参加3月4日在纽约、伦敦和上海举行的特别‘体验’活动》的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Wed, 18 Feb 2026 00:08:45 +0000</pubDate></item><item><title>★ 苹果发布iOS 26采用率，与过去几年基本持平</title><link>https://daringfireball.net/2026/02/apple_releases_ios_26_adoption_rates</link><description>&lt;p&gt;&lt;a href="https://daringfireball.net/linked/2026/02/17/how-to-force-restart-an-iphone"&gt;说到&lt;/a&gt; iOS 26，这里是&lt;a href="https://www.macrumors.com/2026/02/13/apple-shares-ios-26-adoption-stats/"&gt;Joe Rossignol 为 MacRumors 做的报道&lt;/a&gt;：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;苹果分享了更新后的&lt;a href="https://developer.apple.com/support/app-store/"&gt;iOS 26 和 iPadOS 26 采用率数据&lt;/a&gt;，揭示了有多少 iPhone 和 iPad 正在运行这些软件版本。根据苹果的说法，这些采用率数据基于 2026 年 2 月 12 日在 App Store 上进行交易的 iPhone 和 iPad。统计数据如下：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;过去四年推出的所有 iPhone 中，有 74% 正在运行 iOS 26。&lt;/li&gt;
-&lt;li&gt;所有 iPhone 中，有 66% 正在运行 iOS 26。&lt;/li&gt;
-&lt;li&gt;过去四年推出的所有 iPad 中，有 66% 正在运行 iPadOS 26。&lt;/li&gt;
-&lt;li&gt;所有 iPad 中，有 57% 正在运行 iPadOS 26。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;以下是其与苹果基于 2025 年 1 月 21 日在 App Store 上进行交易的 iPhone 和 iPad 分享的&lt;a href="https://www.macrumors.com/2025/01/24/ios-18-adoption-rate/"&gt;iOS 18 采用率数据&lt;/a&gt;的对比：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;过去四年推出的所有 iPhone 中，有 76% 正在运行 iOS 18。&lt;/li&gt;
-&lt;li&gt;所有 iPhone 中，有 68% 正在运行 iOS 18。&lt;/li&gt;
-&lt;li&gt;过去四年推出的所有 iPad 中，有 63% 正在运行 iPadOS 18。&lt;/li&gt;
-&lt;li&gt;所有 iPad 中，有 53% 正在运行 iPadOS 18。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;通过互联网档案馆（&lt;a href="https://archive.org/donate"&gt;说真的&lt;/a&gt;，没有他们我们该怎么办？），&lt;a href="https://web.archive.org/web/20240206013405/https://developer.apple.com/support/app-store/"&gt;这里是苹果两年前为 iOS 17 发布的数字&lt;/a&gt;，数据收集于 2024 年 2 月 4 日：&lt;sup id="fnr1-2026-02-17"&gt;&lt;a href="https://daringfireball.net/#fn1-2026-02-17"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;过去四年推出的所有 iPhone 中，有 76% 正在运行 iOS 17。&lt;/li&gt;
-&lt;li&gt;所有 iPhone 中，有 66% 正在运行 iOS 17。&lt;/li&gt;
-&lt;li&gt;过去四年推出的所有 iPad 中，有 61% 正在运行 iPadOS 17。&lt;/li&gt;
-&lt;li&gt;所有 iPad 中，有 53% 正在运行 iPadOS 17。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;这些数字正是我&lt;a href="https://daringfireball.net/linked/2026/01/29/apples-own-ios-adoption-numbers"&gt;三周前跟进&lt;/a&gt;那些基于 StatCounter 明显虚假数据的愚蠢报道时所等待的，那些报道声称 iOS 26 的采用率低得离谱。&lt;a href="https://daringfireball.net/2026/01/ios_26_adoption_rate_is_not_bizarrely_low"&gt;我当时写道&lt;/a&gt;：&lt;/p&gt;&lt;blockquote&gt;
-&lt;p&gt;显而易见的是，苹果公司自身正在缓慢推进iOS 26的自动更新。多年来，苹果通过设备设置期间的默认建议，引导用户采用允许操作系统自动更新的设置，包括重大新版本的更新。苹果倾向于在9月份发布.0版本后的两个月内，才向用户推送这些重大新iOS版本的自动更新。今年，这第二波更新推迟了大约两周，而现在第三波更新则从一月中旬开始。这与往年的模式不同——但这是由苹果控制的模式。绝大多数苹果设备用户获得重大操作系统更新的时间，正是且仅是在他们的设备自动更新时。与近年来之前的iOS更新相比，苹果推送iOS 26更新的速度更慢。这是有充分理由的！与iOS 18和17相比，iOS 26是一个更重大——同时也存在更多漏洞——的更新。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;至少根据苹果App Store自身的数据，iOS 26的采用率与iOS 18和17的采用率基本一致。由此无法得出关于液态玻璃UI设计或iOS 26整体评价的任何结论。人们可能喜欢它、讨厌它、对它持矛盾态度，甚至可能根本没有注意到——但他们中的大多数人都是通过苹果推送的自动升级来更新他们的iPhone（和iPad）。他们对iOS 26的看法是在安装之后形成的。&lt;/p&gt;
-&lt;div class="footnotes"&gt;
-&lt;hr/&gt;
-&lt;ol&gt;
-&lt;li id="fn1-2026-02-17"&gt;
-&lt;p&gt;观察过去这三年，唯一真正的趋势与iPhone无关。那就是iPad的采用率——无论是近期型号还是所有型号类别——都呈上升趋势。 &lt;a class="footnoteBackLink" href="https://daringfireball.net/#fnr1-2026-02-17" title="跳转回文本中的脚注1。"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;</description><pubDate>Tue, 17 Feb 2026 18:49:55 +0000</pubDate></item></channel></rss>
+&lt;/div&gt;</description><pubDate>Mon, 23 Feb 2026 21:28:14 +0000</pubDate></item></channel></rss>
