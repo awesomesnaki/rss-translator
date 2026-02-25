@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Tue, 24 Feb 2026 16:10:06 +0000</lastBuildDate><item><title>go-size-analyzer</title><link>https://simonwillison.net/2026/Feb/24/go-size-analyzer/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/Zxilly/go-size-analyzer"&gt;go-size-analyzer&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Wed, 25 Feb 2026 01:07:10 +0000</lastBuildDate><item><title>线性演练</title><link>https://simonwillison.net/guides/agentic-engineering-patterns/linear-walkthroughs/#atom-everything</link><description>&lt;p&gt;&lt;em&gt;&lt;a href="https://simonwillison.net/guides/agentic-engineering-patterns/"&gt;智能体工程模式&lt;/a&gt; &amp;gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;有时，让一个编码智能体为你提供代码库的结构化讲解会很有用。&lt;/p&gt;
+&lt;p&gt;也许是你需要快速上手的现有代码，也许是你自己写但已忘记细节的代码，又或者你完全是凭感觉（vibe coded）写出来的，现在需要理解它实际上是如何工作的。&lt;/p&gt;
+&lt;p&gt;配备合适智能体工具的前沿模型可以构建详细的讲解，帮助你理解代码的工作原理。&lt;/p&gt;
+&lt;h2&gt;使用 Showboat 和 Present 的示例&lt;/h2&gt;
+&lt;p&gt;我最近在 Mac 上使用 Claude Code 和 Opus 4.6，凭感觉编写了一个 SwiftUI 幻灯片演示应用。&lt;/p&gt;
+&lt;p&gt;我当时在谈论 2025 年 11 月到 2026 年 2 月间前沿模型的进展，并且我喜欢在演讲中至少包含一个噱头（一个 &lt;a href="https://simonwillison.net/2019/Dec/10/better-presentations/"&gt;STAR 时刻&lt;/a&gt;——Something They'll Always Remember，他们总会记住的东西）。这次我决定，噱头就是在演示结束时揭示，幻灯片机制本身就是一个展示凭感觉编码能做到什么的例子。&lt;/p&gt;
+&lt;p&gt;我把代码&lt;a href="https://github.com/simonw/present"&gt;发布到 GitHub&lt;/a&gt;，然后意识到我完全不知道它是如何工作的——我完全是靠提示让它凭空出现的（&lt;a href="https://gisthost.github.io/?bfbc338977ceb71e298e4d4d5ac7d63c"&gt;部分对话记录在此&lt;/a&gt;），根本没注意它写了什么代码。&lt;/p&gt;
+&lt;p&gt;于是，我启动了一个新的 Claude Code for Web 实例，指向我的代码仓库，并给出提示：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;阅读源代码，然后规划一个线性的代码讲解，详细解释所有内容是如何工作的&lt;/p&gt;
+&lt;p&gt;然后运行“uvx showboat –help”来了解 showboat——使用 showboat 在仓库中创建一个 walkthrough.md 文件，并在其中构建讲解，使用 showboat note 添加注释，使用 showboat exec 加上 sed、grep、cat 或任何你需要的工具来包含你正在讨论的代码片段&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href="https://github.com/simonw/showboat"&gt;Showboat&lt;/a&gt; 是我构建的一个工具，用于帮助编码智能体编写展示其工作的文档。你可以查看&lt;a href="https://github.com/simonw/showboat/blob/main/help.txt"&gt;这里的 showboat --help 输出&lt;/a&gt;，其设计目的是为模型提供使用该工具所需的一切信息。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;showboat note&lt;/code&gt; 命令向文档添加 Markdown 内容。&lt;code&gt;showboat exec&lt;/code&gt; 命令接受一个 shell 命令，执行它，然后将命令及其输出都添加到文档中。&lt;/p&gt;
+&lt;p&gt;通过告诉它使用“sed 或 grep 或 cat 或任何你需要的工具来包含你正在讨论的代码片段”，我确保 Claude Code 不会手动将代码片段复制到文档中，因为那样可能会引入幻觉或错误的风险。&lt;/p&gt;&lt;p&gt;这个方法效果极佳。这是&lt;a href="https://github.com/simonw/present/blob/main/walkthrough.md"&gt;Claude Code 与 Showboat 共同创建的文档&lt;/a&gt;，它详细讲解了所有六个 &lt;code&gt;.swift&lt;/code&gt; 文件，并对代码的工作原理提供了清晰且可操作的说明。&lt;/p&gt;
+&lt;p&gt;仅仅通过阅读这份文档，我就对 SwiftUI 应用的结构有了深入的了解，并吸收了一些关于 Swift 语言本身的扎实细节。&lt;/p&gt;
+&lt;p&gt;如果你担心大型语言模型可能会降低你学习新技能的速度，我强烈建议你采用类似这样的模式。即使是一个大约 40 分钟凭感觉编码的玩具项目，也能成为探索新生态系统并学到一些有趣新技巧的机会。&lt;/p&gt;
+&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/vibe-coding"&gt;vibe-coding&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/swift"&gt;swift&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/showboat"&gt;showboat&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/agentic-engineering"&gt;agentic-engineering&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 25 Feb 2026 01:07:10 +0000</pubDate></item><item><title>go-size-analyzer</title><link>https://simonwillison.net/2026/Feb/24/go-size-analyzer/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/Zxilly/go-size-analyzer"&gt;go-size-analyzer&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Go 生态系统的工具链&lt;em&gt;确实&lt;/em&gt;非常出色。我刚了解到这个工具，它可以通过美观的树状图来可视化分析 Go 二进制文件的大小及其捆绑的依赖项。&lt;/p&gt;
 &lt;p&gt;你可以在本地安装并运行此工具，但它也编译成了 WebAssembly 版本，并托管在 &lt;a href="https://gsa.zxilly.dev/"&gt;gsa.zxilly.dev&lt;/a&gt;——这意味着你可以在浏览器中直接打开已编译的 Go 二进制文件并进行分析。&lt;/p&gt;
 &lt;p&gt;我用我编译的一个 8.1MB 的 macOS 版 Go 工具 &lt;a href="https://github.com/simonw/showboat"&gt;Showboat&lt;/a&gt; 试了一下，得到了这个结果：&lt;/p&gt;
@@ -54,13 +72,13 @@
 &lt;p&gt;指南和章节是我对在博客上发布“常青”内容这一挑战的回应。我一直在尝试寻找实现这一目标的方法。这种形式感觉可能会持续下去。&lt;/p&gt;
 &lt;p&gt;如果您对实现细节感兴趣，可以在&lt;a href="https://github.com/simonw/simonwillisonblog/blob/b9cd41a0ac4a232b2a6c90ca3fff9ae465263b02/blog/models.py#L262-L280"&gt;Guide&lt;/a&gt;、&lt;a href="https://github.com/simonw/simonwillisonblog/blob/b9cd41a0ac4a232b2a6c90ca3fff9ae465263b02/blog/models.py#L349-L405"&gt;Chapter&lt;/a&gt;和&lt;a href="https://github.com/simonw/simonwillisonblog/blob/b9cd41a0ac4a232b2a6c90ca3fff9ae465263b02/blog/models.py#L408-L423"&gt;ChapterChange&lt;/a&gt;模型以及&lt;a href="https://github.com/simonw/simonwillisonblog/blob/b9cd41a0ac4a232b2a6c90ca3fff9ae465263b02/blog/views.py#L775-L923"&gt;相关的Django视图&lt;/a&gt;中找到代码，其中几乎全部是由Claude Opus 4.6通过我的iPhone访问Claude Code for web编写完成的。&lt;/p&gt;
 &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/blogging"&gt;blogging&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/design-patterns"&gt;design-patterns&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/projects"&gt;projects&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/writing"&gt;writing&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/vibe-coding"&gt;vibe-coding&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/agentic-engineering"&gt;agentic-engineering&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 23 Feb 2026 17:43:02 +0000</pubDate></item><item><title>如今写代码的成本很低</title><link>https://simonwillison.net/guides/agentic-engineering-patterns/code-is-cheap/#atom-everything</link><description>&lt;p&gt;&lt;em&gt;&lt;a href="https://simonwillison.net/guides/agentic-engineering-patterns/"&gt;智能体工程模式&lt;/a&gt; &amp;gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;采用智能体工程实践的最大挑战，在于适应一个事实带来的后果：&lt;em&gt;现在写代码很便宜&lt;/em&gt;。&lt;/p&gt;
-&lt;p&gt;代码一直以来都很昂贵。产出几百行干净、经过测试的代码，需要大多数软件开发者一整天甚至更多时间。我们许多工程习惯，无论是宏观还是微观层面，都是围绕着这个核心约束建立起来的。&lt;/p&gt;
-&lt;p&gt;在宏观层面，我们花费大量时间进行设计、评估和项目规划，以确保我们昂贵的编码时间能被尽可能高效地利用。产品功能想法的评估标准是，&lt;em&gt;相对于所花费的时间&lt;/em&gt;，它们能提供多少价值——一个功能需要数倍地赚回其开发成本才算值得！&lt;/p&gt;
-&lt;p&gt;在微观层面，我们每天做出数百个决策，都基于可用时间和预期的权衡。如果重构那个函数能让它稍微更优雅，但会增加一个小时的编码时间，我该做吗？写文档呢？为这个边界情况添加测试值得吗？我能证明为这个功能构建调试界面是合理的吗？&lt;/p&gt;
-&lt;p&gt;编码智能体极大地降低了向计算机输入代码的成本，这颠覆了我们现有的、关于哪些权衡是合理的&lt;em&gt;大量&lt;/em&gt;个人和组织直觉。&lt;/p&gt;
-&lt;p&gt;运行并行智能体的能力使这种评估变得更加困难，因为现在一名人类工程师可以同时在多个地方实现、重构、测试和编写代码文档。&lt;/p&gt;
-&lt;h2&gt;好代码仍然有成本&lt;/h2&gt;
+&lt;p&gt;采用智能体工程实践的最大挑战，在于适应一个事实带来的后果：&lt;em&gt;现在写代码很便宜了&lt;/em&gt;。&lt;/p&gt;
+&lt;p&gt;代码一直以来都很昂贵。产出几百行干净、经过测试的代码，对大多数软件开发者来说需要一整天甚至更长时间。我们许多工程习惯，无论是宏观还是微观层面，都是围绕这个核心约束建立起来的。&lt;/p&gt;
+&lt;p&gt;在宏观层面，我们花费大量时间进行设计、评估和项目规划，以确保我们昂贵的编码时间能被尽可能高效地利用。产品功能想法的评估标准是它们能提供多少价值&lt;em&gt;以换取那些时间&lt;/em&gt;——一个功能需要数倍地赚回其开发成本才算值得！&lt;/p&gt;
+&lt;p&gt;在微观层面，我们每天做出数百个决策，这些决策都基于可用时间和预期的权衡。如果重构那个函数能让它稍微更优雅，但会增加一个小时的编码时间，我该做吗？写文档呢？为这个边界情况写个测试值得吗？我能证明为这个功能构建一个调试界面是合理的吗？&lt;/p&gt;
+&lt;p&gt;编码智能体极大地降低了向计算机输入代码的成本，这颠覆了我们现有的关于哪些权衡是合理的&lt;em&gt;大量&lt;/em&gt;个人和组织直觉。&lt;/p&gt;
+&lt;p&gt;运行并行智能体的能力使这种评估变得更加困难，因为现在一个人类工程师可以同时在多个地方实现、重构、测试和编写代码文档。&lt;/p&gt;
+&lt;h2 id="good-code"&gt;好代码仍然有成本&lt;/h2&gt;
 &lt;p&gt;交付新代码的价格已经下降到几乎免费……但交付&lt;em&gt;好&lt;/em&gt;代码的成本仍然比那要高得多。&lt;/p&gt;
 &lt;p&gt;我所说的“好代码”是指：&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;代码能运行。它能实现预期功能，没有错误。&lt;/li&gt;
@@ -105,28 +123,4 @@
 &lt;p&gt;这是我从 &lt;a href="https://claude.ai/share/2b9b952a-149b-4864-afb0-46f59b90b458"&gt;Claude&lt;/a&gt; 和 &lt;a href="https://chatgpt.com/share/699beb6f-adc8-8006-a706-6bbfdcdca538"&gt;ChatGPT&lt;/a&gt; 得到的结果。通常我会使用像 Claude Code 或 OpenAI Codex 这样的编码智能体，但这个例子足够简单，Claude 和 ChatGPT 都可以使用其默认的代码环境来实现它。&lt;/p&gt;
 &lt;p&gt;（我确实必须在 ChatGPT 的提示后附加"使用你的代码环境"。当我尝试不加这句话时，它只编写了代码和测试而没有实际执行它们。）&lt;/p&gt;
     
-        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/tdd"&gt;tdd&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/testing"&gt;testing&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/agentic-engineering"&gt;agentic-engineering&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 23 Feb 2026 07:12:28 +0000</pubDate></item><item><title>克劳德C编译器：它揭示了软件的未来</title><link>https://simonwillison.net/2026/Feb/22/ccc/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.modular.com/blog/the-claude-c-compiler-what-it-reveals-about-the-future-of-software"&gt;Claude C 编译器：它揭示了软件的未来&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;2月5日，Anthropic 的 Nicholas Carlini 撰写了一篇关于一个项目的文章，该项目旨在利用&lt;a href="https://www.anthropic.com/engineering/building-c-compiler"&gt;并行 Claude 实例&lt;/a&gt;，在全新的 Opus 4.6 之上构建一个 C 编译器。&lt;/p&gt;
-&lt;p&gt;Chris Lattner（Swift、LLVM、Clang、Mojo 的创造者）比大多数人都更了解 C 编译器。他刚刚发布了对此代码的评述。&lt;/p&gt;
-&lt;p&gt;一些让我印象深刻的观点：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;优秀的软件依赖于判断力、沟通和清晰的抽象。AI 放大了这一点。&lt;/li&gt;
-&lt;li&gt;AI 编码是实现的自动化，因此设计和维护变得更加重要。&lt;/li&gt;
-&lt;li&gt;手动重写和翻译工作正在成为 AI 原生的任务，自动化了一大类工程工作。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Chris 对 CCC（Claude C 编译器）总体上印象深刻：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;总的来说，CCC 看起来不像一个实验性的研究编译器，而更像一个合格的教科书式实现，就像一个强大的本科生团队在项目初期、经过多年完善之前可能会构建的那种系统。仅此一点就非同寻常。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;不过，它距离成为一个可用于生产的编译器还有很长的路要走：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;一些设计选择表明，其优化方向是倾向于通过测试，而不是像人类那样构建通用的抽象。[...] 这些缺陷具有启发性而非令人惊讶，表明当前的 AI 系统擅长组合已知技术并针对可衡量的成功标准进行优化，但在生产质量系统所需的开放式泛化方面存在困难。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;该项目还引出了关于智能体工程如何与开源和专有代码的许可及知识产权相互作用的深层开放性问题：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;如果基于数十年公开可用代码训练的 AI 系统能够重现熟悉的结构、模式甚至特定的实现，那么学习和复制之间的界限究竟在哪里？&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/c"&gt;c&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/compilers"&gt;compilers&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/open-source"&gt;open-source&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/anthropic"&gt;anthropic&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude"&gt;claude&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/nicholas-carlini"&gt;nicholas-carlini&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/agentic-engineering"&gt;agentic-engineering&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sun, 22 Feb 2026 23:58:43 +0000</pubDate></item></channel></rss>
+        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/tdd"&gt;tdd&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/testing"&gt;testing&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/agentic-engineering"&gt;agentic-engineering&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 23 Feb 2026 07:12:28 +0000</pubDate></item></channel></rss>

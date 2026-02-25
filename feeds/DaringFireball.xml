@@ -1,5 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 24 Feb 2026 18:49:52 +0000</lastBuildDate><item><title>Acme 天气</title><link>https://acmeweather.com/blog/introducing-acme-weather</link><description>&lt;p&gt;亚当·格罗斯曼：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Wed, 25 Feb 2026 01:00:30 +0000</lastBuildDate><item><title>[赞助商] 动手实践工作坊：快速修复——Sentry 中的 iOS 崩溃报告、追踪与日志</title><link>https://sentry.io/resources/ios-workshop-jan-2026/?utm_source=daringfireball&amp;utm_medium=paid-display&amp;utm_campaign=general-fy27q1-evergreen&amp;utm_content=static-ad-mobilerss-trysentry</link><description>&lt;p&gt;了解如何将iOS应用中的卡顿、崩溃与用户体验联系起来。本次点播课程涵盖以下内容：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;设置Sentry，在不引发警报疲劳的情况下发现高优先级移动端问题。&lt;/li&gt;
+&lt;li&gt;使用日志和面包屑功能重构崩溃发生的过程。&lt;/li&gt;
+&lt;li&gt;通过追踪功能定位性能瓶颈背后的原因。&lt;/li&gt;
+&lt;li&gt;利用大小分析功能监控并缩减iOS应用体积。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href="https://sentry.io/resources/ios-workshop-jan-2026/?utm_source=daringfireball&amp;amp;utm_medium=paid-display&amp;amp;utm_campaign=general-fy27q1-evergreen&amp;amp;utm_content=static-ad-mobilerss-trysentry"&gt;在此观看&lt;/a&gt;。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/feeds/sponsors/2026/02/hands-on_workshop_fix_it_faste_1" title="‘实战工作坊：更快修复——Sentry中的iOS崩溃报告、追踪与日志’永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Wed, 25 Feb 2026 01:00:30 +0000</pubDate></item><item><title>升级版：《流动玻璃的变幻沙洲》</title><link>https://www.relay.fm/upgrade/604</link><description>&lt;p&gt;杰森·斯内尔与迈克·赫利：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;我们深入探讨了《六色》苹果年度报告卡2025年的结果，并就每个类别补充了我们的个人见解。杰森选择扮演淘气鬼的角色，而迈克则试图给出满分五颗星之外的超高分。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;《升级》始终是一档优秀的播客，而他们每年“杰森讨论本年苹果报告卡”的那期节目一直是我的最爱之一。但这次当杰森对macOS 26 Tahoe开始“耍宝”时，我真想伸手过去掐住他的脖子。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/02/24/upgrade-shifting-sands" title="永久链接至‘升级：液态玻璃的流沙’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Tue, 24 Feb 2026 23:29:21 +0000</pubDate></item><item><title>苹果在2025年：六色报告卡</title><link>https://sixcolors.com/post/2026/02/2025reportcard/</link><description>&lt;p&gt;杰森·斯内尔：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;又到了我们一年一度回顾苹果过去一年表现的时候了，这次我们通过作家、编辑、开发者、播客主以及其他花费大量时间思考苹果的人们的视角来看待。这里的核心理念是获取关于过去一年的广泛情绪感知——即“房间里的氛围”。（通过查看以往的调查结果，我们甚至可以看到这种情绪在整个十年间是如何变化的。）&lt;/p&gt;
+
+&lt;p&gt;这是我第十一年向精心挑选的群体展示这项调查。他们被提示了14个不同的与苹果相关的主题，并被要求以1分（最差）到5分（最好）的尺度进行评分，并可选择为每个类别提供文字评论。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;我还需要稍加润色，但按照传统，我很快就会发布我自己的成绩单。与此同时，阅读斯内尔的总结和平均评分总是很有启发性。你绝对猜不到苹果在2025年哪个类别上不及格。（剧透：全球影响力。）&lt;/p&gt;
+
+&lt;p&gt;关于macOS 26 Tahoe，以下是两位约翰的评论：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Tahoe是Mac历史上最糟糕的用户界面更新。每一项改动要么是方向错误，要么是执行不力，或者两者兼而有之。Mac之所以还能用，仅仅是因为Tahoe缺乏野心：它主要改变了界面元素的外观和尺寸，而不是对Mac用户界面的结构进行根本性改变。谢天谢地。Tahoe所体现的糟糕想法，揭示了一个已经放弃了最基本人机交互原则的苹果设计团队。” ——约翰·西拉库萨&lt;/p&gt;
+
+&lt;p&gt;“Tahoe是整个macOS历史上最严重的倒退。有很多理由让我们更喜欢macOS而非其任何竞争对手，但自1984年的System 1以来，最一致的理由就是其用户界面的优越性。Tahoe的新用户界面没有任何一点比其前代更好……计算机与人类交互的基本原则——这些原则是苹果自身数十年间锻造出来的——已被完全忽视。” ——约翰·格鲁伯&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;西拉库萨和我在写这些评论时没有交换过一句话。（如果我们有交流，我会把‘计算机与人类交互’换成‘人机交互’。）&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/02/24/apple-in-2025-the-six-colors-report-card" title="‘Apple in 2025: The Six Colors Report Card’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Tue, 24 Feb 2026 21:49:10 +0000</pubDate></item><item><title>苹果将于今年晚些时候在休斯顿开始生产Mac Mini。</title><link>https://www.apple.com/newsroom/2026/02/apple-accelerates-us-manufacturing-with-mac-mini-production/</link><description>&lt;p&gt;苹果新闻发布室：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;苹果公司今日宣布大幅扩展其在休斯顿的工厂运营，首次将Mac mini的未来生产转移至美国。该公司还将在该工厂扩大先进人工智能服务器的制造，并计划于今年晚些时候在其新的先进制造中心提供实践培训。总体而言，苹果在休斯顿的运营将创造数千个工作岗位。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;另请参阅：&lt;/strong&gt;《华尔街日报》的Rolfe Winkler报道（&lt;a href="https://www.wsj.com/tech/inside-apples-push-to-build-an-all-american-chip-0cf39c16?st=p1eZog"&gt;礼物链接&lt;/a&gt;，&lt;a href="https://apple.news/AmOmQKHZFSA291qvy0Ezzkg"&gt;News+链接&lt;/a&gt;）："&lt;a href="https://www.wsj.com/tech/inside-apples-push-to-build-an-all-american-chip-0cf39c16?st=p1eZog"&gt;揭秘苹果打造全美产芯片的推动力&lt;/a&gt;"。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/02/24/apple-will-begin-manufacturing-mac-minis-in-houston-later-this-year" title="‘苹果将于今年晚些时候开始在休斯顿生产Mac Mini’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Tue, 24 Feb 2026 19:35:12 +0000</pubDate></item><item><title>PageMaker先驱保罗·布雷纳德去世，享年78岁</title><link>https://www.geekwire.com/2026/pagemaker-pioneer-paul-brainerd-1947-2026-aldus-founder-devoted-his-second-chapter-to-the-planet/</link><description>&lt;p&gt;托德·毕晓普在GeekWire上写道：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href="https://www.historylink.org/File/7657"&gt;保罗·布雷纳德&lt;/a&gt;于周日在他位于华盛顿州班布里奇岛的家中去世，享年78岁。他生前已与帕金森病共存多年。布雷纳德后来创造了“桌面出版”这一术语，并将奥多比公司的PageMaker打造成个人电脑时代具有定义性的软件之一。&lt;/p&gt;
+
+&lt;p&gt;他留下了两项遗产。第一是一款软件，它将印刷页面的力量交到了数百万从未操作过排版机的人手中。第二是他对太平洋西北地区环境保护和慈善事业长达三十年的投入，他以与推动桌面出版革命同样的热情投身于此。&lt;/p&gt;
+
+&lt;p&gt;本周，朋友和同事们回忆起布雷纳德，认为他是一位安静、体贴、注重细节且标准严苛的领导者。他坚持PageMaker必须使用正确的弯引号而非直引号，并对诸如字距调整（特定字母对之间的精确间距）等细微之处精益求精。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;PageMaker领先其时代多年，对于点燃桌面出版革命至关重要。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/02/24/paul-brainerd-rip" title="‘PageMaker先驱保罗·布雷纳德去世，享年78岁’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Tue, 24 Feb 2026 19:27:07 +0000</pubDate></item><item><title>联邦贸易委员会主席致信苹果公司，抱怨苹果新闻未收录MAGA“新闻”来源</title><link>https://www.macrumors.com/2026/02/12/tim-cook-faces-ftc-warning-apple-news/</link><description>&lt;p&gt;蒂姆·哈德威克于2月12日为MacRumors报道：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;在一封&lt;a href="https://www.ft.com/content/0c25de53-4668-4ddf-9e28-f8c4fc34940e"&gt;由《金融时报》看到的&lt;/a&gt;致苹果公司首席执行官蒂姆·库克的信中，联邦贸易委员会主席安德鲁·弗格森引用了近期媒体对保守派媒体监督机构媒体研究中心（MRC）一份报告的报道，该报告声称苹果在其内容选择中推广了“左倾媒体”。&lt;/p&gt;
+
+&lt;p&gt;媒体研究中心的这份报告称，在一月份，苹果新闻“在2026年1月1日至1月31日期间，其早间版的前20篇文章中，避免使用任何右倾媒体”。报告中点名的媒体包括福克斯新闻、纽约邮报、每日邮报、布莱巴特新闻和网关专家。&lt;/p&gt;
+
+&lt;p&gt;报告进一步声称，苹果新闻更青睐诸如华盛顿邮报、美联社、路透社和华尔街日报等媒体——这些出版物传统上被认为是中间派或无党派的。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;我会说，它们更传统上被认为是可信的新闻来源，而非宣传机构。无论如何，当你把午餐钱——或者，比如说，一个刻有你公司标志的24K金奖杯——交给恶霸时，他们总会回来索要更多。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/02/24/ftc-apple-news" title="永久链接：‘FTC主席致信苹果，抱怨MAGA‘新闻’来源未在苹果新闻中得到体现’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Tue, 24 Feb 2026 19:18:42 +0000</pubDate></item><item><title>史蒂夫·乔布斯档案馆：《致年轻创造者的信》</title><link>https://letters.stevejobsarchive.com/laurene-powell-jobs</link><description>&lt;p&gt;劳伦·鲍威尔·乔布斯，在史蒂夫·乔布斯档案馆最新出版物的引言中写道：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;对史蒂夫而言，里尔克的《给青年诗人的信》是重要的书籍之一。书中这句话让我深受触动：“暂时去活出你的问题。也许这样，不知不觉地，在未来的某一天，你会逐渐活进答案里。”&lt;/p&gt;
+
+&lt;p&gt;这是一个活出你问题的时刻。当答案最终来临时，其美妙之处在于它们能让我们提出新的、更好的问题。生活就是去了解我们还有多少需要学习。在这卷书中，我们邀请了不同领域的杰出创作者，分享他们对你们在研究员项目开始之年所提问题的一些答案。你们将读到关于奋斗与成功、错误与里程碑的坦诚故事。他们在反思中分享的智慧，正是通过提出你们现在所问的这类问题而锻造出来的。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;为这本文集留出一些时间吧。你也可以通过&lt;a href="https://books.apple.com/us/book/letters-to-a-young-creator/id6759349977"&gt;Apple Books的电子书&lt;/a&gt;或从SJA出版物页面的&lt;a href="https://stevejobsarchive.com/publications"&gt;EPUB下载&lt;/a&gt;获取它。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/02/24/sja-letters-to-a-young-creator" title="永久链接至‘史蒂夫·乔布斯档案馆：《给青年创作者的信》’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Tue, 24 Feb 2026 19:11:17 +0000</pubDate></item><item><title>Acme 天气</title><link>https://acmeweather.com/blog/introducing-acme-weather</link><description>&lt;p&gt;亚当·格罗斯曼：&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;十五年前，我们开始开发Dark Sky天气应用。&lt;/p&gt;
@@ -47,114 +142,4 @@
 
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/linked/2026/02/24/open-ai-openclaw-open-all-the-way-down" title="‘OpenAI收购OpenClaw并聘请彼得·斯坦伯格’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Tue, 24 Feb 2026 17:53:15 +0000</pubDate></item><item><title>杰弗里·爱泼斯坦如何讨好微软高管</title><link>https://www.nytimes.com/2026/02/24/technology/jeffrey-epstein-microsoft-executives.html?unlocked_article_code=1.OlA.6mOw.2gNT6rp9X0SS</link><description>&lt;p&gt;《纽约时报》记者艾琳·格里菲斯和卡伦·韦斯报道（礼物链接）：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;与其他任何大型科技公司相比，爱泼斯坦先生都更成功地打入了微软的核心圈子。他利用一个关系接上另一个关系，得以窥见公司的内部戏剧，从首席执行官继任到高管的慈善事业。在爱泼斯坦先生于2009年因招揽未成年人卖淫出狱后，他与微软高管的关系帮助他试图重返社会。[...]&lt;/p&gt;
-
-&lt;p&gt;与此同时，[内森]·迈尔沃德与爱泼斯坦先生建立了长达二十年的关系，并为这位金融家带来了更多微软方面的人脉。两人关系相当友好，以至于在2003年，已离开微软但与盖茨先生关系密切的迈尔沃德先生，为爱泼斯坦的50岁生日纪念册撰写了内容。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;就是&lt;a href="https://www.pbs.org/newshour/nation/see-epsteins-full-birthday-book-with-alleged-personal-messages-from-trump-clinton-and-others"&gt;那本纪念册&lt;/a&gt;，其中&lt;a href="https://www.wsj.com/us-news/law/trump-jeffrey-epstein-letter-birthday-book-analysis-0bbeeaf6?st=i3v3VX&amp;amp;reflink=desktopwebshare_permalink"&gt;唐纳德·特朗普的贡献是一幅裸体女性的素描&lt;/a&gt;（他的签名充当了阴毛）和一首令人毛骨悚然的诗。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“几年前，有人在派对上问我，‘杰弗里·爱泼斯坦在管理你的钱吗？’”迈尔沃德先生在书中写道。“我回答说，‘不，但他给我的生活方式提建议。’”&lt;/p&gt;
-
-&lt;p&gt;迈尔沃德先生收录了他在非洲旅行时拍摄的照片，他说这些照片“似乎比我任何言语都更贴切”，其中包括狮子、斑马交配的照片，以及其他处于兴奋状态的野生动物。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;内森·迈尔沃德一直让我觉得是个怪人。但真是个该死的变态。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;重要的是，根据文件显示，迈尔沃德先生向盖茨先生担保了爱泼斯坦先生，当时盖茨先生正在考虑是否首次与这位金融家会面。到2010年12月，盖茨先生已决定与爱泼斯坦先生会面，并&lt;a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02410629.pdf"&gt;写信&lt;/a&gt;给他的私人办公室的两名员工说，“内森同意你们的看法，认为我会乐于与他见面，并且这是一件好事。”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;是啊，也许并不是什么好事。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/02/24/epstein-microsoft" title="《杰弗里·爱泼斯坦如何讨好微软高层管理人员》的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Tue, 24 Feb 2026 17:42:24 +0000</pubDate></item><item><title>微软Xbox领导层大换血</title><link>https://www.theverge.com/tech/883015/microsoft-xbox-new-ceo-shakeup-notepad?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6InRTTTJnMGhOeHUiLCJwIjoiL3RlY2gvODgzMDE1L21pY3Jvc29mdC14Ym94LW5ldy1jZW8tc2hha2V1cC1ub3RlcGFkIiwiZXhwIjoxNzcyMzg1MDQ2LCJpYXQiOjE3NzE5NTMwNDZ9.e7qs5kHGt3-WwS9kfU9b59hS8SP6Z1OLePryV76Mzu4</link><description>&lt;p&gt;来自The Verge的汤姆·沃伦报道（礼物链接）：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;随着斯宾塞的退休正式生效，微软正在重置邦德的Xbox战略，而不是进一步推进它。微软游戏首席执行官阿莎·夏尔马现在承诺“Xbox的回归”，这向员工传递了一个明确的信息：过去几年的战略并未奏效。“我想回归最初建立Xbox的那种叛逆精神，”夏尔马说。&lt;/p&gt;
-&lt;p&gt;我一直在交谈的Xbox员工对夏尔马的任命感到担忧，特别是因为她之前在微软担任人工智能高管的角色。人们还担心她在娱乐和游戏行业缺乏经验。夏尔马已明确表示她不是游戏玩家，并花了整个周末在X平台上回应人们，甚至接受游戏推荐。&lt;/p&gt;
-&lt;p&gt;一些Xbox员工担心她会将人工智能强加于Xbox的所有事务中，但夏尔马显然对此反应有所准备。“随着货币化和人工智能的发展并影响未来，我们不会追逐短期效率，也不会用没有灵魂的人工智能垃圾充斥我们的生态系统，”夏尔马在她的备忘录中说。“游戏现在是，并且永远将是艺术，由人类精心制作，并利用我们提供的最创新技术创造。”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;花费两年时间&lt;a href="https://www.theverge.com/2024/11/14/24296420/microsoft-this-is-an-xbox-marketing-campaign-xbox-everywhere"&gt;推行一项试图将“Xbox”变成一个虚无缥缈品牌的营销策略&lt;/a&gt;，将其应用于任何类型的游戏——移动、掌机、PC，以及，你知道的，Xbox游戏机——在“每一块屏幕”上，这将是一个难以爬出的深坑。当他们开始这场愚蠢的营销活动时，Xbox已经落后于其劲敌PlayStation。现在他们落后得更远了。索尼对PlayStation的信息清晰而真实：你购买PlayStation是为了玩PlayStation游戏。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;另一个担忧是，她被纳德拉任命为某种Xbox游戏机的终结者。她的备忘录并未暗示这一点，而且微软本可以轻松任命马特·布蒂来担任那种角色，以推动游戏发行而非Xbox游戏机。我从消息来源得到的印象是，微软希望扭转局面，并担心失去Xbox，因为这是其仅存的成功消费品牌之一。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;我希望这是真的。但如果夏尔马&lt;em&gt;确实&lt;/em&gt;被纳德拉任命来逐步结束Xbox并退出该业务（在他们打包并出售其690亿美元的动视暴雪收购以收回成本之后），那么，当然她的就职备忘录不会暗示这一点。无论她的实际使命是重振Xbox平台还是终结它，本周的备忘录读起来都会是一样的。（我和本·汤普森在&lt;a href="https://dithering.fm/"&gt;今天的《Dithering》节目&lt;/a&gt;中对此进行了很好的讨论。）&lt;/p&gt;&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/02/24/inside-microsofts-xbox-leadership-shake-up" title="永久链接至‘微软Xbox领导层重组内幕’"&gt; ★ &lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Tue, 24 Feb 2026 17:23:33 +0000</pubDate></item><item><title>时代新抵抗</title><link>https://www.abbyhaddican.com/times-new-resistance</link><description>&lt;p&gt;艾比·哈迪坎：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Times New Resistance 字体会在输入特定词语时自动进行更正。例如，词语 &lt;em&gt;ICE&lt;/em&gt; 会自动更正为 &lt;em&gt;the Goon Squad&lt;/em&gt;，而词语 &lt;em&gt;Trump&lt;/em&gt; 则会自动更正为 &lt;em&gt;Donald Trump is a felon&lt;/em&gt;。&lt;/p&gt;
-
-&lt;p&gt;在外行人看来，Times New Resistance 看起来和 Times New Roman 一模一样——&lt;a href="https://www.npr.org/2025/12/11/nx-s1-5639915/u-s-state-department-changes-official-font-from-calibri-back-to-times-new-roman"&gt;美国国务院的官方字体&lt;/a&gt;。当你安装该字体后，&lt;em&gt;它将在你的字体菜单中显示为 Times &amp;nbsp;New Roman&lt;/em&gt;，在单词 Times 和 New 之间多了一个空格。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;连字啊，伙计。谁能想到呢？&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/02/24/times-new-resistance" title="‘Times New Resistance’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Tue, 24 Feb 2026 16:19:23 +0000</pubDate></item><item><title>适用于 Mac 的 NetNewsWire 7</title><link>https://netnewswire.blog/2026/01/27/netnewswire-for-mac.html</link><description>&lt;p&gt;布伦特·西蒙斯，上个月写道：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;与6.2.1版本相比，最大的变化是它采用了液态玻璃用户界面，并且需要macOS 26系统。&lt;/p&gt;
-
-&lt;p&gt;（致尚未升级到macOS 26的用户：我们在6.2和6.2.1版本中修复了大量错误，因为我们知道许多人可能会跳过或至少推迟安装macOS 26。另外请注意，有一个页面可以&lt;a href="https://netnewswire.com/old-versions.html"&gt;获取NetNewsWire的旧版本&lt;/a&gt;。）&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;对我来说，&lt;em&gt;没有&lt;/em&gt;运行最新版本的NetNewsWire感觉有点奇怪，但由于我跳过了macOS 26 Tahoe，我无法运行NetNewsWire 7。我&lt;em&gt;确实&lt;/em&gt;在iPhone和iPad上运行着NetNewsWire 7的测试版，并且在我安装了Tahoe的备用Mac上也试用了它。它非常棒。对于任何其他坚守macOS 15 Sequoia系统的伙伴来说，与NetNewsWire 6.x版本的同步工作完全正常。你可以在一些设备上运行NetNewsWire 7，而在你的Sequoia Mac上运行NetNewsWire 6，一切都能正常工作。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://apps.apple.com/us/app/netnewswire-rss-reader/id1480640210"&gt;NetNewsWire 7现在也已登陆iOS平台&lt;/a&gt;，上个月布伦特和我&lt;a href="https://daringfireball.net/thetalkshow/2026/01/31/ep-440"&gt;在《脱口秀》节目中作为嘉宾&lt;/a&gt;时讨论了这两个版本。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/02/23/netnewswire-7-for-mac" title="‘NetNewsWire 7 for Mac’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Tue, 24 Feb 2026 01:00:00 +0000</pubDate></item><item><title>MacOS 26 Tahoe 中调整窗口大小的“裤子拉屎”传奇仍在继续</title><link>https://noheger.at/blog/2026/02/12/resizing-windows-on-macos-tahoe-the-saga-continues/</link><description>&lt;p&gt;诺伯特·赫格：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;在macOS 26.3 RC版的发布说明中，苹果表示，我在&lt;a href="https://noheger.at/blog/2026/01/11/the-struggle-of-resizing-windows-on-macos-tahoe/"&gt;最近的博客文章&lt;/a&gt;中演示的窗口调整大小问题已经得到解决。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;你绝对猜不到在RC（候选发布）版本和实际发布的26.3版本之间发生了什么。&lt;/p&gt;
-
-&lt;p&gt;开玩笑的，你肯定猜得到。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/02/23/norbert-heger-resizing-saga" title="永久链接至‘MacOS 26 Tahoe上调整窗口大小的糟心传奇仍在继续’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Tue, 24 Feb 2026 00:31:00 +0000</pubDate></item><item><title>乔氏超市黑巧克力花生酱杯</title><link>https://www.traderjoes.com/home/products/pdp/dark-chocolate-peanut-butter-cups-094064</link><description>&lt;p&gt;Trader Joe's：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;就像我们货架上的牛奶巧克力兄弟一样，我们的黑巧克力花生酱杯采用真正的花生酱制成，这种花生酱由经过慢烤和研磨的弗吉尼亚花生制作而成。包裹着花生酱的浓郁、顺滑、醇厚的黑巧克力，则选用优质可可豆精心打造。其他花生酱杯的供应商会在产品中添加各种“额外”成分。我们的产品则不含此类物质。我们避免使用人工香料和防腐剂，以及非天然来源的色素。我们非常确信，我们的方式让它们尝起来更美味。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Trader Joe's 所言属实，并且还顺带讽刺了一下别人。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/02/23/trader-joes-dark-chocolate-peanut-butter-cups" title="‘Trader Joe’s 黑巧克力花生酱杯’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Mon, 23 Feb 2026 21:40:48 +0000</pubDate></item><item><title>Reese's花生酱杯发明者之孙公开直言不讳：现在的味道糟透了</title><link>https://apnews.com/article/reeses-peanut-butter-cups-hershey-chocolate-1a66ec75247fd146888b7a747a740cd3</link><description>&lt;p&gt;&lt;a href="https://www.linkedin.com/posts/bradreesecom_reeses-brandstewardship-corporateaccountability-activity-7428545969430016001-zOL7/"&gt;布拉德·里斯上周在领英上写道&lt;/a&gt;：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;我的祖父，H. B. 里斯（他发明了里斯花生酱杯），将里斯品牌建立在一个简单而持久的架构之上：牛奶巧克力 + 花生酱。这不是一个风味概念，也不是一个营销构想。这是一个真实的、有形的产品标识，消费者已经信任了一个世纪。&lt;/p&gt;
-
-&lt;p&gt;但今天，里斯的标识正在被改写，不是由讲故事的人，而是由配方决策——在多个里斯产品中，用复合涂层替代牛奶巧克力，用花生酱风味奶油替代花生酱。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href="https://apnews.com/article/reeses-peanut-butter-cups-hershey-chocolate-1a66ec75247fd146888b7a747a740cd3"&gt;美联社&lt;/a&gt;报道：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;好时公司周三表示，里斯花生酱杯的制作方式一如既往，使用的是牛奶巧克力和花生酱，其花生酱由公司自己用烤花生以及糖和盐等其他几种原料制成。但好时公司也表示，一些里斯产品的成分有所不同。&lt;/p&gt;
-
-&lt;p&gt;该公司表示：“随着我们不断发展和扩大里斯产品线，我们会调整产品配方，以便制作出里斯粉丝们喜爱并期待的新形状、新尺寸和创新产品，同时始终保护里斯独特和特别的核心：巧克力与花生酱的完美结合。”&lt;/p&gt;
-
-&lt;p&gt;布拉德·里斯认为好时公司做得太过分了。他说他最近扔掉了一袋里斯迷你心形巧克力，这是为情人节推出的新产品。包装上注明，这些心形糖果是由“巧克力糖果和花生酱奶油”制成，而不是牛奶巧克力和花生酱。&lt;/p&gt;
-
-&lt;p&gt;“那根本没法吃，”里斯在接受美联社采访时说。“你必须明白，我以前每天都吃里斯产品。这对我来说非常令人痛心。”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;“质量劣化”现象很久以前就降临到了里斯花生酱杯（以及好时公司生产的几乎所有其他产品）上。无论是“牛奶巧克力”还是“花生酱”，都需要给它们加上引号。不妨将其味道——以及配料表——与例如&lt;a href="https://www.justins.com/products/milk-chocolate-peanut-butter-cups/"&gt;贾斯汀&lt;/a&gt;（他们也生产&lt;a href="https://www.justins.com/products/dark-chocolate-peanut-butter-cups/"&gt;黑巧克力版本&lt;/a&gt;）的花生酱杯进行比较和对比。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/02/23/brad-reese" title="‘里斯花生酱杯发明者之孙公开指出显而易见的事实：它们现在尝起来像屎一样’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Mon, 23 Feb 2026 21:28:14 +0000</pubDate></item></channel></rss>
+&lt;/div&gt;</description><pubDate>Tue, 24 Feb 2026 17:53:15 +0000</pubDate></item></channel></rss>
