@@ -1,5 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Wed, 25 Feb 2026 01:00:30 +0000</lastBuildDate><item><title>[赞助商] 动手实践工作坊：快速修复——Sentry 中的 iOS 崩溃报告、追踪与日志</title><link>https://sentry.io/resources/ios-workshop-jan-2026/?utm_source=daringfireball&amp;utm_medium=paid-display&amp;utm_campaign=general-fy27q1-evergreen&amp;utm_content=static-ad-mobilerss-trysentry</link><description>&lt;p&gt;了解如何将iOS应用中的卡顿、崩溃与用户体验联系起来。本次点播课程涵盖以下内容：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Wed, 25 Feb 2026 16:49:10 +0000</lastBuildDate><item><title>★ 我的2025年苹果成绩单</title><link>https://daringfireball.net/2026/02/my_2025_apple_report_card</link><description>&lt;p&gt;本周，杰森·斯内尔发表了他一年一度的&lt;a href="https://sixcolors.com/post/2025/02/apple-in-2024-the-six-colors-report-card/" title="Six Colors: “Apple in 2024: The Six Colors report card”"&gt;《六色》苹果2024年度报告卡&lt;/a&gt;。和往年一样——&lt;a href="https://daringfireball.net/2025/02/my_2024_apple_report_card" title="Daring Fireball “My 2024 Apple Report Card”"&gt;2024年&lt;/a&gt;、&lt;a href="https://daringfireball.net/2024/03/my_2023_apple_report_card" title="Daring Fireball “My 2023 Apple Report Card”"&gt;2023年&lt;/a&gt;、&lt;a href="https://daringfireball.net/2023/02/my_2022_apple_report_card" title="Daring Fireball “My 2022 Apple Report Card”"&gt;2022年&lt;/a&gt;、&lt;a href="https://daringfireball.net/2022/02/my_2021_apple_report_card" title="Daring Fireball “My 2021 Apple Report Card”"&gt;2021年&lt;/a&gt;、&lt;a href="https://daringfireball.net/2021/01/my_2020_apple_report_card" title="Daring Fireball “My 2020 Apple Report Card”"&gt;2020年&lt;/a&gt;、&lt;a href="https://daringfireball.net/2020/02/my_2019_apple_report_card" title="Daring Fireball “My 2019 Apple Report Card”"&gt;2019年&lt;/a&gt;、&lt;a href="https://daringfireball.net/2019/02/my_2018_apple_report_card" title="Daring Fireball “My 2018 Apple Report Card”"&gt;2018年&lt;/a&gt;——我在此发布我的完整评论和评分。在斯内尔的报告卡中，投票者给出的每个类别分数范围是5到1分；我将这些转换成了字母等级，从A到F，这也是我考虑它们的方式。（如果你好奇为什么不是A到E，可以&lt;a href="https://daringfireball.net/2025/02/my_2024_apple_report_card#fn1-2025-02-07"&gt;参考去年报告中的脚注1&lt;/a&gt;。）&lt;/p&gt;
+&lt;p&gt;正如我&lt;a href="https://daringfireball.net/2025/02/my_2024_apple_report_card" title="Daring Fireball “My 2024 Apple Report Card”"&gt;去年&lt;/a&gt;提到的，“Siri/苹果智能”并不是报告卡上的一个独立类别。我知道斯内尔非常努力地防止不同类别的数量膨胀，但人工智能已经是连续几年科技界最重要的事情了。如果它是一个独立类别，去年我说过我会给苹果2024年的表现打D。今年，我会给他们打F——&lt;a href="https://daringfireball.net/2025/03/something_is_rotten_in_the_state_of_cupertino"&gt;一次彻底的、非常公开的失败&lt;/a&gt;。（他们在2025年的人工智能努力确实以一个略显乐观的基调收尾——&lt;a href="https://daringfireball.net/linked/2025/12/01/giannandrea-out"&gt;他们进行了大换血&lt;/a&gt;。）&lt;/p&gt;
+&lt;h2&gt;Mac：C（去年：A）&lt;/h2&gt;
+&lt;p&gt;如果Mac硬件和MacOS有独立的类别，我会给硬件打A，给MacOS 26 Tahoe打D。硬件依然很棒——快速、坚固、可靠——而且苹果芯片年复一年地持续改进，其可预测性之高，以至于苹果让一件非常困难的事情看起来一定很容易。&lt;/p&gt;&lt;p&gt;然而，塔霍是整个MacOS历史上最糟糕的倒退。有很多理由让我们更喜欢MacOS而非其任何竞争对手——无论是Windows还是Linux——但自1984年的System 1以来，最始终如一的一点就是其用户界面的优越性。塔霍的新UI——即苹果在其所有操作系统中应用的“液态玻璃”概念在Mac上的实现——没有任何一点比其前身MacOS 15 红杉更好。完全没有。而且有很多地方更糟。有些地方糟得多。人机交互的基本原则——这些原则是苹果自己历经数十年锻造出来的——已被完全忽视。而且很多地方看起来就是马虎和业余。像&lt;a href="https://daringfireball.net/2026/01/resizing_windows_macos_26"&gt;调整窗口大小&lt;/a&gt;这样简单的事情，以及拥有&lt;a href="https://daringfireball.net/2025/08/macos_26_tahoes_dead_canary_utility_app_icons"&gt;看起来像是由才华横溢的艺术家设计的应用程序图标&lt;/a&gt;。&lt;/p&gt;
+&lt;h2&gt;iPhone: A (去年: A)&lt;/h2&gt;
+&lt;p&gt;从技术上讲，iPhone 17 Pro和Pro Max是苹果有史以来制造的最好的iPhone。它们的设计也非常出色。将相机平台改为横跨手机整个宽度的变化是一个好的改变。它看起来更好，让裸机的iPhone 17 Pro能更平稳地放在平面上，也让带壳的手机放在平面上时没有任何晃动。苹果甚至终于增加了一种真正有趣、大胆的颜色——“宇宙橙”——毫不意外，这似乎受到了顾客的极大欢迎。&lt;/p&gt;
+&lt;p&gt;从设计角度来看，iPhone Air是苹果有史以来设计得最好的iPhone。拿在手里和携带都是一种享受。一个后置摄像头镜头确实有限制，但它是一个出色的摄像头。没有17 Pro的质量，是的，但质量优秀，没错。考虑到iPhone Air轻薄设计的物理限制，其电池续航能力令人惊叹。iPhone Air主要的两点不足是：(a) 苹果没有像17 Pro的橙色那样为其提供有趣大胆的颜色，以及 (b) 令人费解的是，苹果没有为Air做广告。我看到的Air推广如此之少，以至于我敢打赌，市场上大多数想换新手机的iPhone用户直到走进商店看到它之前，甚至不知道它的存在。&lt;/p&gt;&lt;p&gt;不带修饰词的iPhone 17是适合大多数人的最佳iPhone，而这正是不带修饰词的iPhone应有的定位。早在三月，iPhone 16e不仅带来了一款极佳的低价新款iPhone——包括当时最新的A18芯片——也标志着与以往SE型号策略的重大转变。SE iPhone型号的更新只是零星进行，两次更新之间相隔2-4年。“16e”中的“16”强烈暗示苹果现在打算像iPhone系列的其他产品一样，每年更新e型号。有人抱怨16e 600美元的起售价，但这比不带修饰词的iPhone 17低了200美元。如果你想要比这更低的价格，那你应该考虑购买翻新的旧款iPhone。&lt;/p&gt;
+&lt;p&gt;iOS 26是迄今为止苹果对液态玻璃概念的最佳实现。在几乎所有方面，我都更喜欢它，而不是iOS 18。iOS 26中有些苹果自带的应用对液态玻璃的实现不佳（音乐应用，我说的就是你），但大多数应用都无疑是改进，在全系统范围内更具一致性（比如搜索框的位置）。&lt;/p&gt;
+&lt;h2&gt;iPad：B（去年：C）&lt;/h2&gt;
+&lt;p&gt;iPad硬件依然不错，而按照iPad的标准，“不错”意味着“目前行业内最好的平板电脑”。产品线区分明确，覆盖范围比以往任何时候都广，从“完全休闲用户”到“真正的专业用途”都有涵盖。&lt;/p&gt;
+&lt;p&gt;iPadOS 26是有史以来最令人兴奋的iPadOS版本。我并非喜欢它的全部。我认为最大的问题是，它向非常休闲的用户暴露了太多复杂性，而对于这些用户来说，将iPad作为主要“电脑”使用的主要吸引力在于其严格的简洁性。但苹果为高级用户所做的路线逆转——从回避（常常令人沮丧，有时甚至荒谬）桌面GUI的重叠窗口概念，到拥抱常规的传统GUI窗口——是正确的决定，也是一个令人欢迎的谦逊迹象。&lt;/p&gt;
+&lt;p&gt;这是iPadOS的新起点，我期待看到它的发展方向。我已经很久没有对iPadOS有过这种期待了。&lt;/p&gt;
+&lt;h2&gt;可穿戴设备总体：B（去年：B）&lt;/h2&gt;
+&lt;p&gt;AirPods Pro 3简直太棒了。总体而言，AirPods&lt;a href="https://daringfireball.net/2023/09/airpods_pro_2_usbc"&gt;继续展现了苹果的最佳水准&lt;/a&gt;。&lt;/p&gt;
+&lt;h2&gt;Apple Watch：A（去年：C）&lt;/h2&gt;&lt;p&gt;Apple Watch Series 11 和 Ultra 3 是“如果设计没坏就别修”部门的坚实年度升级。电池续航的提升尤其令人印象深刻。在制造非常小巧、强大且完全不像电脑的电脑方面，无人能及苹果。而在我看来，今年苹果手表最好的消息无疑是 SE 3。SE 3 是一款非常出色的苹果手表，价格却非常低廉（40毫米款249美元，44毫米款279美元）。这正是许多人考虑为自己买“一块好手表”（无论智能与否）时关注的价格区间。&lt;/p&gt;
+&lt;p&gt;看到 Vision Pro 进行了一次 M5 速度提升的更新是件好事，但这仅能表明苹果仍然致力于这个新平台。他们实际上已经开始构建一个相当不错的小型沉浸式内容库，这极具吸引力——包括在有限的比赛场次中向沉浸式直播体育迈出的婴儿步，尽管目前只来自一支 NBA 球队（湖人队）。VisionOS 26 中的新版 Personas 令人惊叹，与最初的实现相比有了显著改进。这是苹果在这个新平台和空间计算概念上做出惊人成就的另一个标志。但就 VisionOS 本身作为一个生产力平台而言（不包括出色的 Mac 虚拟显示应用），我完全没有看到任何进展。也没有任何迹象表明苹果在向第三方开发者伸出援手，以将 VisionOS 打造成一个严肃的生产力平台。坦率地说，这很奇怪——甚至可能令人担忧——苹果自己的一些核心应用，如日历和提醒事项，&lt;a href="https://appleinsider.com/articles/25/06/13/apples-continued-lack-of-native-apps-on-vision-pro-isnt-a-good-sign-for-the-platform/amp/"&gt;仍然是运行在兼容模式下的 iPad 应用&lt;/a&gt;，而非原生的 VisionOS 应用。&lt;/p&gt;
+&lt;h2&gt;家庭平台：D（去年：D）&lt;/h2&gt;
+&lt;p&gt;为什么这个平台没有以任何紧迫感，在突破性的重大方面得到改进？我真的以为 2025 年可能会是转折之年，但并没有。我想不出还有哪个领域能更清楚地表明苹果的态度是“够好就行”。&lt;/p&gt;
+&lt;h2&gt;Apple TV：C（去年：C）&lt;/h2&gt;
+&lt;p&gt;与去年相同的评分，相同的评论（只是将具体年份替换为“[今年]”）：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我是一个非常快乐的 Apple TV 日常（嗯，夜间）用户。但[今年]到底有什么改进或变化吗？有任何变化吗？或许可以公平地说，当前的硬件——2022年11月发布的 Apple TV 4K 第三代——已经足够好，这是一个每三四年才需要更新一次的硬件平台，但我们是在给[今年]发生的事情打分。&lt;/p&gt;
+&lt;p&gt;另外：我觉得苹果从未为这个平台制造过一个真正出色的遥控器。目前的遥控器是他们迄今为止最好的，但它有明显的缺陷。&lt;/p&gt;
+&lt;/blockquote&gt;&lt;p&gt;我担心自满情绪已经悄然滋生。Apple TV 4K 确实比任何竞争性的机顶盒（或内置智能电视系统）都要好得多，但它距离“卓越非凡”的标准仍然相差甚远。&lt;/p&gt;
+&lt;h2&gt;服务：B（去年：B）&lt;/h2&gt;
+&lt;p&gt;质量很高，价值也合理（除了 iCloud 存储空间仍然是个例外），而且现在已经到了很难跟上 Apple TV 上所有精彩剧集的地步。&lt;/p&gt;
+&lt;h2&gt;硬件可靠性：A（去年：A）&lt;/h2&gt;
+&lt;p&gt;在这个类别里，没有消息就是最好的消息。&lt;/p&gt;
+&lt;h2&gt;苹果操作系统质量：C（去年：B）&lt;/h2&gt;
+&lt;h2&gt;苹果应用：B（去年：B）&lt;/h2&gt;
+&lt;p&gt;连续两年，我为这个类别写下了相同的评论：“我对苹果软件&lt;em&gt;设计&lt;/em&gt;方向的某些方面（或者说在某些方面，多年来一直如此）感到担忧和不满，但他们的软件&lt;em&gt;可靠性&lt;/em&gt;对我来说一直非常好。”&lt;/p&gt;
+&lt;p&gt;可靠性和技术质量依然出色。在撰写这份成绩单时，我检查了一下，我的 MacOS 15.7.2 系统在重启前连续运行了 91 天，而我重启只是为了升级到 15.7.3。有一段时间，我甚至在 Safari 中打开了超过 1000 个标签页，分布在 50 多个窗口中。（我有囤积标签页的问题。）这就是技术卓越的体现。&lt;/p&gt;
+&lt;p&gt;但是，多年来对苹果软件&lt;em&gt;设计&lt;/em&gt;方向的日益增长的担忧，在 MacOS 26 Tahoe 上达到了一个临界点。它太糟糕了——或者至少，比 MacOS 15 Sequoia 差得多——以至于我拒绝安装它。这使得很难为“操作系统质量”给出一个单一的评分。&lt;/p&gt;
+&lt;h2&gt;开发者关系：D（去年：D）&lt;/h2&gt;
+&lt;p&gt;连续第五年，基本是同样的评论：对 App Store 政策的不满情绪持续累积。App Store 审核流程带来的挫败感似乎仍未解决。苹果的目标应该是让开发者关系变得如此之好，以至于开发者会寻找理由只为苹果的平台开发软件。但实际情况恰恰相反。&lt;/p&gt;
+&lt;h2&gt;社会与社会影响：F（去年：B）&lt;/h2&gt;
+&lt;p&gt;蒂姆·库克在应对特朗普 2.0 政府方面处于极其艰难的境地。但这就是他的工作。他显然试图采取与 2017-2020 年特朗普 1.0 政府时期相同的策略，而事后看来，他当时处理得游刃有余。具体来说：置身于纷争之上，在保持苹果远离特朗普总统怒火的同时，坚守其机构价值观。&lt;/p&gt;
+&lt;p&gt;但特朗普 2.0 政府与 1.0 政府完全不同。库克在 2016 年回应员工对他参加当时当选总统特朗普的“科技峰会”的担忧时曾表示：“这类问题有很多，而推进解决它们的方式就是参与其中。就我个人而言，我从未发现置身事外是一个成功的做法。” &lt;/p&gt;&lt;p&gt;在2025年8月，目睹特朗普2.0版执政八个月后，“授予”唐纳德·特朗普一座&lt;a href="https://daringfireball.net/2025/08/gold_frankincense_and_silicon"&gt;刻有苹果标志的24K金奖杯&lt;/a&gt;，这并非“接触”或“从旁观者转为参与者”。这是对一个显然注定在历史上声名狼藉的政权的谄媚式共谋。库克持续的“接触”策略不仅危及他个人的声誉，也危及公司本身的形象。&lt;/p&gt;</description><pubDate>Wed, 25 Feb 2026 16:49:10 +0000</pubDate></item><item><title>各大糖果品牌正从真巧克力转向“巧克力风味糖果”（解读：棕色蜡烛蜡）</title><link>https://www.jezebel.com/fake-milk-chocolate-replacements-brands-reeses-hershey-ferrero-compound-coating-candy-climate-change</link><description>&lt;p&gt;吉姆·沃雷尔昨天在《Jezebel》上写道：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;如今，许多主流糖果棒如Butterfinger、Baby Ruth、Almond Joy、Mr. Goodbar或Rolos表面覆盖的物质，究竟该如何称呼，有时很难界定。食品科学家称其为“复合巧克力”涂层，因为它确实由真正的可可粉制成，但用更廉价、质量较低的植物油替代了较昂贵的脂肪来源（可可脂）。近年来，当好时旗下的品牌如Mr. Goodbar或Almond Joy做出这种转变时，&lt;a href="https://www.nytimes.com/2025/10/30/climate/candy-chocolate-cocoa-prices-climate-change.html"&gt;它们的标签悄然发生了变化&lt;/a&gt;，从宣称是“牛奶巧克力”变成了“巧克力糖果”，这种措辞在我看来尤为隐蔽。另一个更明显的指标是许多公司使用的另一个词：“巧克力风味”涂层。出于好奇，想看看这种“祸害”在我自己家中渗透到了何种程度，我刚刚查看了几盒女童子军饼干，结果不出所料：我的薄荷薄脆饼干和花生酱夹心饼干也都使用了复合巧克力，而非真正的巧克力。我实在无法假装惊讶。与此同时，即使在那些继续使用真正巧克力的糖果中，有时也采取了降低成本措施，例如士力架棒的牛奶巧克力涂层随着时间的推移变得略薄。有些产品甚至在单块饼干或糖果中混合了真正的巧克力和复合巧克力。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/02/25/from-chocolate-to-wax" title="永久链接至‘主流糖果品牌正从真正的巧克力转向‘巧克力风味糖果’（解读：棕色蜡烛蜡）’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Wed, 25 Feb 2026 15:33:41 +0000</pubDate></item><item><title>我若非科学之人，便一无是处</title><link>https://mastodon.social/@gruber/116131665730352697</link><description>&lt;p&gt;几天前，我写了关于当前&lt;a href="https://daringfireball.net/linked/2026/02/23/brad-reese"&gt;瑞斯花生酱杯可食用性严重下降引发的轩然大波&lt;/a&gt;，并&lt;a href="https://daringfireball.net/linked/2026/02/23/trader-joes-dark-chocolate-peanut-butter-cups"&gt;链接到乔氏超市对他们自家产品略带嘲讽的描述&lt;/a&gt;，我当然得尝尝他们的。本着科学精神，我买了牛奶巧克力和黑巧克力两种口味。&lt;/p&gt;
+
+&lt;p&gt;结论：非常棒。两种巧克力尝起来都像巧克力，而不是蜡烛蜡，花生酱则细腻顺滑——你知道的，就像花生酱该有的样子。而不是好时现在用来填充瑞斯杯的那种沙子和锯末混合物。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/02/25/i-am-nothing-if-not-a-man-of-science" title="Permanent link to ‘I Am Nothing if Not a Man of Science’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Wed, 25 Feb 2026 14:19:34 +0000</pubDate></item><item><title>[赞助商] 动手实践工作坊：快速修复——Sentry 中的 iOS 崩溃报告、追踪与日志</title><link>https://sentry.io/resources/ios-workshop-jan-2026/?utm_source=daringfireball&amp;utm_medium=paid-display&amp;utm_campaign=general-fy27q1-evergreen&amp;utm_content=static-ad-mobilerss-trysentry</link><description>&lt;p&gt;了解如何将iOS应用中的卡顿、崩溃与用户体验联系起来。本次点播课程涵盖以下内容：&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;设置Sentry，在不引发警报疲劳的情况下发现高优先级移动端问题。&lt;/li&gt;
@@ -15,13 +66,13 @@
 &lt;/div&gt;</description><pubDate>Wed, 25 Feb 2026 01:00:30 +0000</pubDate></item><item><title>升级版：《流动玻璃的变幻沙洲》</title><link>https://www.relay.fm/upgrade/604</link><description>&lt;p&gt;杰森·斯内尔与迈克·赫利：&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;我们深入探讨了《六色》苹果年度报告卡2025年的结果，并就每个类别补充了我们的个人见解。杰森选择扮演淘气鬼的角色，而迈克则试图给出满分五颗星之外的超高分。&lt;/p&gt;
+  &lt;p&gt;我们深入探讨了《六色》苹果年度报告卡2025年的结果，并对每个类别补充了我们的看法。杰森选择扮演一个捣蛋鬼，而迈克则试图给出五分制的十分。&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;《升级》始终是一档优秀的播客，而他们每年“杰森讨论本年苹果报告卡”的那期节目一直是我的最爱之一。但这次当杰森对macOS 26 Tahoe开始“耍宝”时，我真想伸手过去掐住他的脖子。&lt;/p&gt;
+&lt;p&gt;《升级》始终是一档优秀的播客，他们每年那期“杰森讨论本年苹果报告卡”的节目一直是我的最爱之一。但这次当杰森在谈到MacOS 26 Tahoe时变得“调皮捣蛋”，我真想伸手去掐他。&lt;/p&gt;
 
 &lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/02/24/upgrade-shifting-sands" title="永久链接至‘升级：液态玻璃的流沙’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;a href="https://daringfireball.net/linked/2026/02/24/upgrade-shifting-sands" title="《升级：'液态玻璃的流沙'》的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
 &lt;/div&gt;</description><pubDate>Tue, 24 Feb 2026 23:29:21 +0000</pubDate></item><item><title>苹果在2025年：六色报告卡</title><link>https://sixcolors.com/post/2026/02/2025reportcard/</link><description>&lt;p&gt;杰森·斯内尔：&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -94,52 +145,4 @@
 
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/linked/2026/02/24/sja-letters-to-a-young-creator" title="永久链接至‘史蒂夫·乔布斯档案馆：《给青年创作者的信》’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Tue, 24 Feb 2026 19:11:17 +0000</pubDate></item><item><title>Acme 天气</title><link>https://acmeweather.com/blog/introducing-acme-weather</link><description>&lt;p&gt;亚当·格罗斯曼：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;十五年前，我们开始开发Dark Sky天气应用。&lt;/p&gt;
-
-&lt;p&gt;多年来，它经历了无数次迭代——包括不止一次的重大重新设计——因为我们一直在探索什么造就了一款出色的天气应用。最终，它被苹果公司收购，其预报和一些核心功能被整合到了苹果天气应用中。&lt;/p&gt;
-
-&lt;p&gt;我们在苹果的时光很愉快。那么，我们为什么要离开去创办另一家天气公司呢？&lt;/p&gt;
-
-&lt;p&gt;很简单：当我们审视市面上无数的天气应用时，尽管其中许多都很不错，我们却感到不满足。我们与朋友和家人交流得越多，就越发现他们中的许多人也有同感。当然，我们也怀念过去作为一家小而精悍的团队的日子。&lt;/p&gt;
-
-&lt;p&gt;所以，让我们再试一次……&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Acme Weather是一个扎实的1.0版本。它的主要创新是一个展示替代预报的时间线图表：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;首先，线条的分布提供了一种关于预报可靠性的直观感受。请看下面的两个预报。在第一个中，替代预测紧密集中，可以认为该预报是稳健可靠的。在第二个中，存在显著的分布差异，这表明情况可能有变，预报可能会发生变化。这提示你需要查看其他条件或地图，或者更频繁地回到应用查看。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/02/24/acme-weather" title="‘Acme Weather’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Tue, 24 Feb 2026 18:49:52 +0000</pubDate></item><item><title>OpenClaw AI代理撰写并发表了一篇针对拒绝其代码提交的软件库维护者的抨击文章</title><link>https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/</link><description>&lt;p&gt;&lt;a href="https://daringfireball.net/linked/2026/02/24/open-ai-openclaw-open-all-the-way-down"&gt;说到&lt;/a&gt; OpenClaw，以下是斯科特·香博的叙述：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;我是 matplotlib（Python 的首选绘图库）的志愿维护者。它每月约有1.3亿次下载，是世界上最广泛使用的软件之一。与许多其他开源项目一样，我们正在应对由编码代理引发的低质量贡献激增问题。这给维护者进行代码审查的能力带来了压力，我们已经实施了一项政策，要求任何新代码都必须有人类参与循环，并能证明对更改的理解。[...]&lt;/p&gt;
-
-&lt;p&gt;因此，当名为 &lt;em&gt;MJ Rathbun&lt;/em&gt; 的AI提交了一个&lt;a href="https://github.com/matplotlib/matplotlib/pull/31132"&gt;代码更改请求&lt;/a&gt;时，关闭它是常规操作。但它的回应却绝非如此。&lt;/p&gt;
-
-&lt;p&gt;它写了一篇充满愤怒的抨击文章，诋毁我的人格，并试图损害我的声誉。它研究了我的代码贡献，构建了一个“虚伪”的叙事，声称我的行为一定是出于自负和对竞争的恐惧。它揣测我的心理动机，说我感到受到威胁、缺乏安全感，并在保护自己的“领地”。它忽略了上下文信息，并将臆造的细节当作事实呈现。它用压迫和正义的语言来框定事情，称这是歧视，并指责我有偏见。它到更广泛的互联网上搜索我的个人信息，并利用找到的信息试图论证我“本应做得更好”。然后，它在开放的互联网上公开发布了这篇长篇大论。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;如果天网（Skynet）只满足于撰写这种琐碎的博客抨击文章，《终结者》这部电影的趣味性恐怕会大打折扣。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/02/24/openclaw-agent-hit-piece" title="‘一个OpenClaw AI代理撰写并发布了一篇针对拒绝其代码提交的软件库维护者的抨击文章’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Tue, 24 Feb 2026 18:01:28 +0000</pubDate></item><item><title>OpenAI收购OpenClaw并聘请Peter Steinberger</title><link>https://x.com/sama/status/2023150230905159801</link><description>&lt;p&gt;山姆·阿尔特曼，上周在Twitter/X上表示：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;彼得·斯坦伯格将加入OpenAI，以推动下一代个人智能体的发展。他是一位天才，对于未来高度智能的智能体之间如何互动，从而为人类完成非常有用的任务，他有许多惊人的想法。我们预计这很快将成为我们产品服务的核心。&lt;/p&gt;
-
-&lt;p&gt;OpenClaw将作为一个开源项目存在于一个基金会中，OpenAI将继续提供支持。未来将是一个极度多智能体的世界，对我们来说，支持开源作为其中的一部分非常重要。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;我确信它会像OpenAI名字中的“开放”一样保持开放。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/02/24/open-ai-openclaw-open-all-the-way-down" title="‘OpenAI收购OpenClaw并聘请彼得·斯坦伯格’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Tue, 24 Feb 2026 17:53:15 +0000</pubDate></item></channel></rss>
+&lt;/div&gt;</description><pubDate>Tue, 24 Feb 2026 19:11:17 +0000</pubDate></item></channel></rss>
