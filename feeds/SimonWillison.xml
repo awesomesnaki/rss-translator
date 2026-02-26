@@ -92,16 +92,17 @@
         &lt;span class="pl-k"&gt;case&lt;/span&gt; &lt;span class="pl-s"&gt;"&lt;/span&gt;&lt;span class="pl-s"&gt;/prev&lt;/span&gt;&lt;span class="pl-s"&gt;"&lt;/span&gt;&lt;span class="pl-kos"&gt;:&lt;/span&gt;
             state&lt;span class="pl-c1"&gt;&lt;span class="pl-c1"&gt;?&lt;/span&gt;&lt;/span&gt;&lt;span class="pl-kos"&gt;.&lt;/span&gt;&lt;span class="pl-en"&gt;goToPrevious&lt;/span&gt;&lt;span class="pl-kos"&gt;(&lt;/span&gt;&lt;span class="pl-kos"&gt;)&lt;/span&gt;
             &lt;span class="pl-k"&gt;return&lt;/span&gt; &lt;span class="pl-en"&gt;jsonResponse&lt;/span&gt;&lt;span class="pl-kos"&gt;(&lt;/span&gt;&lt;span class="pl-s"&gt;"&lt;/span&gt;&lt;span class="pl-s"&gt;ok&lt;/span&gt;&lt;span class="pl-s"&gt;"&lt;/span&gt;&lt;span class="pl-kos"&gt;)&lt;/span&gt;
-&lt;span class="pl-kos"&gt;&lt;/span&gt;&lt;span class="pl-kos"&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;使用GET请求进行状态变更会带来一些有趣的CSRF漏洞。不过对于这个特定应用，我并不太在意。&lt;/p&gt;
+&lt;span class="pl-kos"&gt;&lt;/span&gt;&lt;span class="pl-kos"&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;使用GET请求进行此类状态变更会带来一些有趣的CSRF漏洞。不过对于这个特定应用，我并不太在意。&lt;/p&gt;
 &lt;h4 id="expanding-our-horizons"&gt;拓展视野&lt;/h4&gt;
 &lt;p&gt;如今这类氛围编程故事比比皆是。我认为这个故事值得分享有几个原因：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Swift这门我不熟悉的语言，在这里绝对是正确选择。我想要一个全屏应用，既能嵌入网页内容，又能通过网络控制。Swift完全满足了我的需求。&lt;/li&gt;
 &lt;li&gt;当我最终查看代码时，它简洁明了，完全符合我的需求，没有一丝多余。&lt;/li&gt;
-&lt;li&gt;这真正解决了我的实际问题。我一直想要一种将演示文稿作为页面序列呈现的好方法，现在终于实现了。&lt;/li&gt;
+&lt;li&gt;这确实解决了我面临的实际问题。我一直想要一种将演示文稿作为页面序列呈现的好方法，现在终于实现了。&lt;/li&gt;
+&lt;li&gt;我甚至一次都没打开过Xcode！&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;这并不意味着原生Mac开发者已经过时。我仍然运用了大量自己积累的技术知识（以及我已经安装了Xcode等工具的事实）才取得这个成果，而专业人士本可以在相同时间内构建出更优秀的解决方案。&lt;/p&gt;
-&lt;p&gt;这很好地说明了我们这些拥有软件工程经验的人，如何能够朝着有趣的方向拓展视野。我不再害怕Swift了！下次我需要开发小型个人macOS应用时，我知道用现有工具集完全可以实现。&lt;/p&gt;
+&lt;p&gt;这并不意味着原生Mac开发者已经过时。我仍然运用了大量自己积累的技术知识（以及我已经安装了Xcode等工具的事实）才取得这个成果，而真正懂行的人用相同时间本可以构建出更优秀的解决方案。&lt;/p&gt;
+&lt;p&gt;这个例子很好地展示了我们这些拥有软件工程经验的人，如何朝着有趣的方向拓展自己的视野。我现在不再害怕Swift了！下次我需要开发小型个人macOS应用时，我知道用现有的工具集完全可以实现。&lt;/p&gt;
 &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/macos"&gt;macos&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/vibe-coding"&gt;vibe-coding&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/swift"&gt;swift&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/agentic-engineering"&gt;agentic-engineering&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 25 Feb 2026 16:46:19 +0000</pubDate></item><item><title>引用凯兰·埃利奥特-麦克雷</title><link>https://simonwillison.net/2026/Feb/25/kellan-elliott-mccrea/#atom-everything</link><description>&lt;blockquote cite="https://laughingmeme.org/2026/02/09/code-has-always-been-the-easy-part.html"&gt;&lt;p&gt;对于在过去几十年里因为这是一份好工作，或者因为他们喜欢编程而进入科技行业的人来说，此刻感到一种真切的失落感也是合理的。然而，这种失落感对于像我这样年纪、因为沉迷于科技赋予我们的能动感而进入这个行业的人来说，在情感上可能难以理解。作为一种技术，网络在客观上曾经是糟糕的，但也确实令人惊叹，而且没有人是因为觉得用Perl编程在美学上令人愉悦而投身其中的。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class="cite"&gt;&amp;mdash; &lt;a href="https://laughingmeme.org/2026/02/09/code-has-always-been-the-easy-part.html"&gt;Kellan Elliott-McCrea&lt;/a&gt;, 代码&lt;em&gt;一直&lt;/em&gt;都是容易的部分&lt;/p&gt;
 
