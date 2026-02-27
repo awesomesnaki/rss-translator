@@ -1,5 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Fri, 27 Feb 2026 01:30:25 +0000</lastBuildDate><item><title>苹果公布F1转播细节，并宣布与Netflix达成出人意料的合作</title><link>https://sixcolors.com/post/2026/02/apple-announces-f1-details-and-a-surprising-netflix-partnership/</link><description>&lt;p&gt;杰森·斯内尔在Six Colors网站上写道：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Fri, 27 Feb 2026 18:12:53 +0000</lastBuildDate><item><title>★ iOS 26 电话应用中一个有时被隐藏的设置，控制着你点击通话时的操作</title><link>https://daringfireball.net/2026/02/sometimes_hidden_setting_phone_app</link><description>&lt;p&gt;去年12月，亚当·恩斯特在他几周前为TidBITS撰写的&lt;a href="https://tidbits.com/2025/11/10/comparing-the-classic-and-unified-views-in-ios-26s-phone-app/"&gt;探索iOS 26电话应用中新的统一视图与旧的经典视图模式差异&lt;/a&gt;专题报道之后，写了&lt;a href="https://tidbits.com/2025/12/07/hidden-setting-controls-what-happens-when-you-tap-a-call-in-the-phone-app/"&gt;这篇有趣的后续文章&lt;/a&gt;。这也是对我一个月前&lt;a href="https://daringfireball.net/linked/2026/01/28/comparing-the-classic-and-unified-views-in-ios-26s-phone-app"&gt;链接恩斯特原始专题报道&lt;/a&gt;的一个很好的跟进，同时也是我近期关于良好UI设计基本原则主题的延续。&lt;/p&gt;
+&lt;p&gt;恩斯特后续文章的要旨是，统一视图与经典模式之间的一个主要区别在于，当你点击最近通话列表中的某一行时会发生什么。在经典模式下，点击列表中的某一行会向该号码发起新的电话呼叫。每行右侧有一个小的“ⓘ”按钮，你可以点击它来显示该来电者的联系人信息。这就是电话应用一直以来的工作方式。在新的iOS 26统一模式下，这种行为被颠倒了：点击该行会显示该来电者的联系人信息，而你需要点击该行右侧一个带有电话图标的小按钮来立即发起呼叫。&lt;/p&gt;
+&lt;p&gt;恩斯特非常喜欢统一视图的这一方面，因为旧的行为使得仅仅通过点击列表中的某一行就很容易意外发起呼叫。我也曾多次以同样的方式意外拨出电话，并且出于同样的原因喜欢新的统一行为。经典模式下“点击行内几乎任何地方即可开始通话”的行为，是原始iPhone某些决策的遗留产物，这些决策在过去20年间并未经得起考验。对于最初的iPhone，苹果公司仍然固守——可能正确地！——认为iPhone首先是一部蜂窝电话，发起电话呼叫应该是一个主要的一键操作。如今没有人认为iPhone主要是一部电话，而且仅仅通过点击滚动列表中的某一行就启动一个操作，这根本不符合iOS的风格。你不会通过点击电子邮件来回复它。你会点击回复按钮。电话呼叫在这方面尤其有害，因为接收方也会被打扰——这不仅对&lt;em&gt;你&lt;/em&gt;来说是不便，也是对别人的打扰，因此也会让你感到尴尬。&lt;/p&gt;
+&lt;p&gt;接下来事情就变得奇怪了。&lt;/p&gt;&lt;p&gt;在“设置”→“应用”→“电话”中，有一个偏好设置选项叫“点击最近通话进行呼叫”。如果你开启这个选项，那么在使用新的统一视图时，你就能获得“点击行内任意位置即可呼叫联系人”的行为。&lt;em&gt;但此选项仅在电话应用中使用统一视图时，才会出现在设置应用中。&lt;/em&gt;如果你在电话应用中切换到经典视图，这个选项就会从设置应用中完全消失。它不是变灰不可用，而是直接不见了。如果你还没看过，去读读&lt;a href="https://tidbits.com/2025/12/07/hidden-setting-controls-what-happens-when-you-tap-a-call-in-the-phone-app/"&gt;Engst描述此事的文章&lt;/a&gt;——他有截图说明了这个设置有时隐藏的状态。&lt;/p&gt;
+&lt;p&gt;我等你。&lt;/p&gt;
+&lt;p&gt;Engst和我在本周早些时候&lt;a href="https://daringfireball.net/thetalkshow/2026/02/25/ep-441"&gt;他做客The Talk Show节目时&lt;/a&gt;详细讨论了这个问题。尤其是在节目中和他深入探讨之后，我想我明白了苹果的想法，也明白了为什么他们的解决方案感觉如此不对劲。&lt;/p&gt;
+&lt;p&gt;起初，我认为解决方案就是让这个选项一直可用，无论你在电话应用中使用的是经典布局还是统一布局。为什么不让喜欢经典布局的用户也能关闭旧的“点击行内任意位置呼叫联系人”的行为呢？但进一步思考后，这里有个问题。如果你只是希望电话应用保持一贯的工作方式，你会希望经典视图也默认采用旧的行内点击行为。苹果想要向用户推广的，既是一个新布局，也是一种新的行内点击行为。所以，当你在电话应用中切换到统一视图时，苹果也希望你体验新的行内点击行为，即你需要专门点击行内的小电话图标按钮来呼叫联系人，而点击行内其他任何地方则会打开联系人详情视图。&lt;/p&gt;
+&lt;p&gt;这里存在冲突。如果一个单一的开关同时适用于两种视图，你就不能让两种视图默认采用不同的行内点击行为。&lt;/p&gt;
+&lt;p&gt;苹果对这个困境的解决方案——仅在电话应用当前视图选项为统一视图时，才在设置中显示“点击最近通话进行呼叫”选项——是懒惰的。结果就是，这非常令人困惑。没人会预料到这样一个选项只会在设置中&lt;em&gt;有时&lt;/em&gt;出现。你几乎需要理解我在这篇文章中写的所有内容，才能明白这个选项为什么以及何时可见。这意味着几乎没有一个使用iPhone的人会理解它。没人会预料到一个应用（电话）中的切换开关会控制另一个应用（设置）中某个开关的可见性。&lt;/p&gt;
+&lt;p&gt;对于这个问题，我认为最合适的解决方案是，将经典视图和统一视图之间的选择，镜像到“设置”→“应用”→“电话”中。将目前仅在电话应用的筛选菜单中可用的这同一小块用户界面，同时显示在电话应用&lt;em&gt;和&lt;/em&gt;“设置”→“应用”→“电话”中：&lt;/p&gt;&lt;p&gt;&lt;img alt="iOS 26电话应用过滤菜单中显示‘经典/统一’选项的截图。" src="https://daringfireball.net/misc/2026/02/phone-26-classic-or-unified.png" width="335"/&gt;&lt;/p&gt;
+&lt;p&gt;如果你在一个地方更改了它，这个更改应该立即反映在另一个地方。在应用内和设置应用内同时提供相同的设置选项是完全可以的。&lt;/p&gt;
+&lt;p&gt;然后，在设置应用中，“点击最近通话以呼叫”选项可以仅在选择了“统一”视图时，出现在“经典/统一”切换器的下方。从经典切换到统一，这个开关就会出现。从统一切换回经典，它就会消失。（或者，它也可以变灰，以指示在选择了经典视图时该选项不可用。）描述该选项的说明文字甚至可以明确指出，这是一个仅在统一视图下可用的选项。&lt;sup id="fnr1-2026-02-27"&gt;&lt;a href="https://daringfireball.net/#fn1-2026-02-27"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;如果“经典/统一”切换开关在设置应用中也得到镜像，这种困惑就会消除。这将清楚地表明为什么“点击最近通话以呼叫”只在你使用统一视图时出现——因为你选择使用统一（或经典）视图的选项就在那里。&lt;/p&gt;
+&lt;div class="footnotes"&gt;
+&lt;hr/&gt;
+&lt;ol&gt;
+&lt;li id="fn1-2026-02-27"&gt;
+&lt;p&gt;或者，苹果可以为经典和统一视图分别提供“点击最近通话以呼叫”选项。对于经典视图，它默认开启（这是自2007年以来的默认行为）；对于统一视图，则默认关闭（这是现代iOS惯用的正确行为）。在这种情况下，该选项的说明文字*需要*解释这是针对每种布局的独立设置，或者切换开关的标签可以是“在经典视图中点击最近通话以呼叫”和“在统一视图中点击最近通话以呼叫”。但无论如何，都需要明确它们是独立的开关。不过，这已经变得更复杂了。我认为更简单的做法是，在经典布局中保持经典的点击行内行为，并仅在统一视图下提供此设置。 &lt;a class="footnoteBackLink" href="https://daringfireball.net/#fnr1-2026-02-27" title="跳转回正文中的脚注1。"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description><pubDate>Fri, 27 Feb 2026 18:12:53 +0000</pubDate></item><item><title>你真笨</title><link>https://spyglass.org/netflix-warner-bros-paramount-deal/</link><description>&lt;p&gt;MG Siegler在Spyglass上写道：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;当然，Netflix本可以承受这样的成本。它是一家价值4000亿美元的公司（好吧，至少在这笔交易之前是这样）——是迪士尼的两倍！派拉蒙Skydance？它们价值110亿美元。是的，它们为收购华纳兄弟探索公司支付的金额几乎正好比自身价值高出1000亿美元。是的，这很疯狂。但说真的，这是杠杆作用。&lt;/p&gt;
+
+&lt;p&gt;需要明确的是，Netflix原本也打算通过举债来支付这笔交易，但它们有清晰的路径来偿还这些债务。它们拥有一个优秀且不断增长的业务。它们不需要依靠世界上最富有的人之一作为后盾，而这个人恰好是CEO的父亲。派拉蒙到底打算如何偿还这笔债务？我忍不住想用&lt;a href="https://knowyourmeme.com/memes/profit?ref=spyglass.org"&gt;派拉蒙的另一个IP来回答&lt;/a&gt;：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;第一步&lt;/li&gt;
+&lt;li&gt;第二步&lt;/li&gt;
+&lt;li&gt;????&lt;/li&gt;
+&lt;li&gt;盈利！！！&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/02/27/tudumb" title="‘TUDUMB’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Fri, 27 Feb 2026 16:32:49 +0000</pubDate></item><item><title>Block公司裁员4,000人（员工总数10,000人）</title><link>https://www.cnbc.com/2026/02/26/block-laying-off-about-4000-employees-nearly-half-of-its-workforce.html</link><description>&lt;p&gt;CNBC:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Block公司周四表示将裁员超过4000人，约占其员工总数的一半。该股在盘后交易中飙升了24%。&lt;/p&gt;
+&lt;p&gt;“今天我们与团队分享了一个艰难的决定，”Block联合创始人兼首席执行官杰克·多西在一封&lt;a href="https://s29.q4cdn.com/628966176/files/doc_financials/2025/q4/Q4-2025-Shareholder-Letter_Block.pdf"&gt;致股东的信&lt;/a&gt;中写道。“我们将把Block的规模缩减近一半，从超过1万人减少到略低于6000人，这意味着超过4000人被要求离职或进入协商程序。” [...]&lt;/p&gt;
+&lt;p&gt;其他公司如Pinterest、CrowdStrike和Chegg最近也&lt;a href="https://www.cnbc.com/2025/10/27/chegg-slashes-45percent-of-workforce-blames-new-realities-of-ai.html"&gt;宣布了裁员&lt;/a&gt;，并直接将裁员归因于人工智能正在重塑其劳动力结构。&lt;/p&gt;
+&lt;p&gt;在&lt;a href="https://x.com/jack/status/2027129697092731343?s=20"&gt;一篇X帖子&lt;/a&gt;中，多西表示他面临着两种选择：要么在几个月或几年内“随着这种转变的展开”逐步裁员，要么“现在就采取行动”。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href="https://s29.q4cdn.com/628966176/files/doc_financials/2025/q4/Q4-2025-Shareholder-Letter_Block.pdf"&gt;多西致股东的信&lt;/a&gt;使用了规范的大小写；而他&lt;a href="https://x.com/jack/status/2027129697092731343?s=20"&gt;发布在Twitter/X上的员工备忘录&lt;/a&gt;则完全使用小写。这清楚地表明了他尊重谁。多西在那份员工备忘录中写道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我们做出这个决定并非因为我们陷入了困境。我们的业务很强大。毛利润持续增长，我们服务的客户越来越多，盈利能力也在改善。但有些事情已经改变了。我们已经看到，我们正在创造和使用的情报工具，加上更小、更扁平化的团队，正在促成一种新的工作方式，这从根本上改变了构建和运营一家公司的意义。而且这种变化正在加速。&lt;/p&gt;
+&lt;p&gt;我有两个选择：要么随着这种转变的展开，在几个月或几年内逐步削减，要么诚实地面对我们的现状并立即采取行动。我选择了后者。一轮又一轮的裁员会破坏士气、分散注意力，并损害客户和股东对我们领导能力的信任。我宁愿现在就采取一个艰难而明确的行动，并从一个我们坚信的立场上重新开始，也不愿为了达到同样的结果而缓慢地减少人员。&lt;/p&gt;
+&lt;/blockquote&gt;&lt;p&gt;人工智能将在许多行业中取代大量工作岗位。&lt;a href="https://en.wikipedia.org/wiki/John_Henry_(folklore)"&gt;世事如此&lt;/a&gt;。但对于这些科技公司——以Block为例——这只是一个方便的托词，用以掩盖过去5到10年间&lt;a href="https://x.com/BamaBonds/status/2027142091596288314"&gt;荒谬的过度招聘&lt;/a&gt;。无论你对埃隆·马斯克有何看法，但他关于推特养着大量冗余员工的判断绝对正确。这场清算迟早会来，而“人工智能”只是一个方便的替罪羊。&lt;/p&gt;
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/02/27/block-layoffs" title="永久链接至‘Block裁员4,000人（员工总数10,000）’"&gt; ★ &lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Fri, 27 Feb 2026 15:33:15 +0000</pubDate></item><item><title>苹果公布F1转播细节，并宣布与Netflix达成出人意料的合作</title><link>https://sixcolors.com/post/2026/02/apple-announces-f1-details-and-a-surprising-netflix-partnership/</link><description>&lt;p&gt;杰森·斯内尔在Six Colors网站上写道：&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;周四最令人惊讶的公告或许是，在视频节目方面关系一直相当疏远的苹果和Netflix，&lt;a href="https://www.netflix.com/tudum/articles/formula-1-apple-netflix-drive-to-survive"&gt;已达成协议，将交换一些与一级方程式相关的内容&lt;/a&gt;。一级方程式在美国日益增长的人气，或许在很大程度上要归功于Netflix纪录片系列《极速求生》的巨大成功。该系列的最新一季将于周五首播，并将在Netflix和Apple TV上同步首映。作为交换，苹果很可能也将非独家地允许Netflix在五月转播加拿大大奖赛。（在此必须插入一个愿望：希望苹果和Netflix能冰释前嫌，让TV应用支持Netflix内容的“立即观看”功能。）&lt;/p&gt;
@@ -65,26 +116,4 @@
 
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/linked/2026/02/26/kalshi-mrbeast-editor-inside-trading" title="‘预测‘市场’Kalshi指控MrBeast编辑进行内幕交易’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Thu, 26 Feb 2026 17:36:26 +0000</pubDate></item><item><title>研究公司称播客在口语收听时间上已超过调幅/调频谈话广播</title><link>https://www.edisonresearch.com/podcasts-lead-am-fm-in-spoken-word-listening-marking-a-first/</link><description>&lt;p&gt;爱迪生研究公司：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;2015年，AM/FM广播占据了美国人收听口语类音频总时长的75%。AM/FM广播不仅是当时最主要的口语类音频收听平台，其份额甚至比播客高出整整65个百分点——当时播客仅占收听时长的10%。然而，随着时间的推移，季度复季度，年复一年，用于收听AM/FM广播口语类音频的时间已显著下降，并转移到了播客上。截至2025年第四季度，收听口语类音频的时间中，播客已占40%，而AM/FM广播占39%。广播不仅未能以显著优势领先播客，如今在口语类音频收听方面，它已落后于这个按需点播平台。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;在Daring Fireball上阅读此文的各位，看到这个数据时（&lt;a href="https://techcrunch.com/2026/02/25/americans-now-listen-to-podcasts-more-often-than-talk-radio-study-shows/"&gt;来自TechCrunch&lt;/a&gt;），想必和我的想法一样：&lt;em&gt;这竟然直到2025年才发生？&lt;/em&gt;但这恰恰表明，总体而言，媒体消费习惯的改变需要多么漫长的时间。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/02/26/podcasts-pass-talk-radio" title="永久链接至‘研究公司称播客在口语类音频收听时长上已超越AM/FM谈话广播’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Thu, 26 Feb 2026 17:27:04 +0000</pubDate></item><item><title>纽约州起诉Valve公司，称其“开箱”机制涉嫌赌博</title><link>https://www.reuters.com/legal/government/new-york-sues-video-game-developer-valve-says-its-loot-boxes-are-gambling-2026-02-25/</link><description>&lt;p&gt;路透社：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;纽约州总检察长对视频游戏开发商Valve提起诉讼，指控其通过使用“开箱”机制推广非法赌博，并可能导致儿童成瘾。Valve旗下拥有《反恐精英》、《军团要塞》和《Dota》等知名游戏系列。在周三向曼哈顿州法院提交的诉状中，总检察长莱蒂西亚·詹姆斯表示，Valve的开箱系统构成了“典型的赌博行为”，违反了该州宪法和刑法，因为高价值物品通常难以获得，而许多物品仅值几分钱。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/02/26/new-york-sues-valve" title="‘纽约起诉Valve，称其‘开箱’系统属于赌博’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Thu, 26 Feb 2026 17:14:58 +0000</pubDate></item><item><title>“氢弹：弗兰克·劳埃德·赖特的一个字体之谜”</title><link>https://www.inconspicuous.info/p/h-bomb-a-frank-lloyd-wright-typographic</link><description>&lt;p&gt;重新悬挂标牌时，“注意你的P和Q”应该改为“注意你的H和S”。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/02/25/h-bomb-wright" title="永久链接至‘H-Bomb：弗兰克·劳埃德·赖特的字体之谜’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Wed, 25 Feb 2026 23:53:00 +0000</pubDate></item></channel></rss>
+&lt;/div&gt;</description><pubDate>Thu, 26 Feb 2026 17:36:26 +0000</pubDate></item></channel></rss>
