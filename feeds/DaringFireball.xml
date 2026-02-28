@@ -1,8 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Fri, 27 Feb 2026 18:12:53 +0000</lastBuildDate><item><title>★ iOS 26 电话应用中一个有时被隐藏的设置，控制着你点击通话时的操作</title><link>https://daringfireball.net/2026/02/sometimes_hidden_setting_phone_app</link><description>&lt;p&gt;去年12月，亚当·恩斯特在他几周前为TidBITS撰写的&lt;a href="https://tidbits.com/2025/11/10/comparing-the-classic-and-unified-views-in-ios-26s-phone-app/"&gt;探索iOS 26电话应用中新的统一视图与旧的经典视图模式差异&lt;/a&gt;专题报道之后，写了&lt;a href="https://tidbits.com/2025/12/07/hidden-setting-controls-what-happens-when-you-tap-a-call-in-the-phone-app/"&gt;这篇有趣的后续文章&lt;/a&gt;。这也是对我一个月前&lt;a href="https://daringfireball.net/linked/2026/01/28/comparing-the-classic-and-unified-views-in-ios-26s-phone-app"&gt;链接恩斯特原始专题报道&lt;/a&gt;的一个很好的跟进，同时也是我近期关于良好UI设计基本原则主题的延续。&lt;/p&gt;
-&lt;p&gt;恩斯特后续文章的要旨是，统一视图与经典模式之间的一个主要区别在于，当你点击最近通话列表中的某一行时会发生什么。在经典模式下，点击列表中的某一行会向该号码发起新的电话呼叫。每行右侧有一个小的“ⓘ”按钮，你可以点击它来显示该来电者的联系人信息。这就是电话应用一直以来的工作方式。在新的iOS 26统一模式下，这种行为被颠倒了：点击该行会显示该来电者的联系人信息，而你需要点击该行右侧一个带有电话图标的小按钮来立即发起呼叫。&lt;/p&gt;
-&lt;p&gt;恩斯特非常喜欢统一视图的这一方面，因为旧的行为使得仅仅通过点击列表中的某一行就很容易意外发起呼叫。我也曾多次以同样的方式意外拨出电话，并且出于同样的原因喜欢新的统一行为。经典模式下“点击行内几乎任何地方即可开始通话”的行为，是原始iPhone某些决策的遗留产物，这些决策在过去20年间并未经得起考验。对于最初的iPhone，苹果公司仍然固守——可能正确地！——认为iPhone首先是一部蜂窝电话，发起电话呼叫应该是一个主要的一键操作。如今没有人认为iPhone主要是一部电话，而且仅仅通过点击滚动列表中的某一行就启动一个操作，这根本不符合iOS的风格。你不会通过点击电子邮件来回复它。你会点击回复按钮。电话呼叫在这方面尤其有害，因为接收方也会被打扰——这不仅对&lt;em&gt;你&lt;/em&gt;来说是不便，也是对别人的打扰，因此也会让你感到尴尬。&lt;/p&gt;
-&lt;p&gt;接下来事情就变得奇怪了。&lt;/p&gt;&lt;p&gt;在“设置”→“应用”→“电话”中，有一个偏好设置选项叫“点击最近通话进行呼叫”。如果你开启这个选项，那么在使用新的统一视图时，你就能获得“点击行内任意位置即可呼叫联系人”的行为。&lt;em&gt;但此选项仅在电话应用中使用统一视图时，才会出现在设置应用中。&lt;/em&gt;如果你在电话应用中切换到经典视图，这个选项就会从设置应用中完全消失。它不是变灰不可用，而是直接不见了。如果你还没看过，去读读&lt;a href="https://tidbits.com/2025/12/07/hidden-setting-controls-what-happens-when-you-tap-a-call-in-the-phone-app/"&gt;Engst描述此事的文章&lt;/a&gt;——他有截图说明了这个设置有时隐藏的状态。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Fri, 27 Feb 2026 19:28:44 +0000</lastBuildDate><item><title>西弗吉尼亚州的反苹果CSAM诉讼将帮助儿童性侵者逍遥法外</title><link>https://www.techdirt.com/2026/02/25/west-virginias-anti-apple-csam-lawsuit-would-help-child-predators-walk-free/</link><description>&lt;p&gt;迈克·马斯尼克为Techdirt撰文写道：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;再读一遍这段话。如果西弗吉尼亚州胜诉——如果真的有法院命令苹果开始扫描iCloud中的儿童性虐待材料——那么这些强制扫描标记出的每张图像都将成为&lt;em&gt;政府在没有搜查令、缺乏合理理由情况下进行无证搜查所获得的证据&lt;/em&gt;。根据宪法第四修正案的非法证据排除规则，辩护律师将有权走进法庭要求排除这些证据。他们必将赢得这项动议。这甚至算不上什么复杂的法律论证。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/02/27/west-virginia-apple-csam" title="《西弗吉尼亚州反苹果儿童性虐待材料诉讼将助长儿童侵害者逍遥法外》永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Fri, 27 Feb 2026 19:28:44 +0000</pubDate></item><item><title>如何屏蔽“升级到塔霍”提醒和系统设置指示器</title><link>https://robservatory.com/block-the-upgrade-to-tahoe-alerts-and-system-settings-indicator/</link><description>&lt;p&gt;&lt;a href="https://robservatory.com/block-the-upgrade-to-tahoe-alerts-and-system-settings-indicator/"&gt;Rob Griffiths 在 The Robservatory 上写道&lt;/a&gt;：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;所以，我的笔记本电脑上安装了 macOS Tahoe，但我目前仍将桌面 Mac 保持在 macOS Sequoia。这意味着我经常有幸看到像这样美妙的通知。或者说，在我找到阻止它们的方法之前是这样的，至少可以一次性阻止 90 天。[...]&lt;/p&gt;
+&lt;p&gt;秘诀是什么？使用&lt;a href="https://support.apple.com/guide/deployment/intro-to-device-management-profiles-depc0aadd3fe/web"&gt;设备管理描述文件&lt;/a&gt;，它可以让你在组织内的 Mac 上强制执行策略，即使这个“组织”只是你桌上的一台 Mac。其中一个可用的策略是能够一次性阻止与主要 macOS 更新相关的活动长达 90 天（策略允许的最长时间），这看起来正是我需要的。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我大约一周前按照 Griffiths 的说明操作，从那以后就一直享受着没有红色标记的系统设置图标。而且 Tahoe 升级甚至不会出现在“通用”→“软件更新”中。安装此描述文件后，&lt;a href="https://daringfireball.net/2025/11/software_update_tahoe_confusing"&gt;点击任何可用更新旁边的“ⓘ”按钮后出现的混乱界面&lt;/a&gt;，不会导致你意外升级到 26 Tahoe。&lt;/p&gt;
+&lt;p&gt;我一直等到看到从 Sequoia 15.7.3 到 15.7.4 的待处理更新，才链接到 Griffiths 的帖子，只是为了确认它仍然有效。&lt;a href="https://daringfireball.net/misc/2026/02/no-tahoe-software-update-via-profile.png"&gt;看这里&lt;/a&gt;。我的“软件更新”面板看起来就像 Tahoe 根本不存在一样。一杯清凉的冰水，&lt;a href="https://www.youtube.com/watch?v=Vp18clQ1tjE"&gt;无需造访地狱&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;不过，我对 Griffiths 的说明有一个小小的澄清。他写道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;4/. &lt;em&gt;可选步骤：&lt;/em&gt; 我不想推迟常规更新，只想推迟主要的操作系统更新，所以我把“可选（根据你的喜好设置）”部分改成了这样：&lt;/p&gt;
+&lt;p&gt;&lt;!-- Optional (set to your taste) --&gt;
+      forceDelayedSoftwareUpdates&lt;/p&gt;
+&lt;p&gt;这样，除了主要的操作系统更新外，我仍然会收到其他更新的通知，以防 Apple 为 macOS Sequoia 发布任何进一步的更新。记得保存更改，然后退出编辑器。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;起初，我对这一步感到困惑，只编辑了 &lt;code&gt;&amp;lt;!-- Optional (set to your taste) --&amp;gt;&lt;/code&gt; 后面的第一行，将下一行的 &lt;code&gt;&amp;lt;true/&amp;gt;&lt;/code&gt; 改为 &lt;code&gt;&amp;lt;false/&amp;gt;&lt;/code&gt;。但 Griffiths 的意思是，并且为了获得我想要的行为所必需的，是删除 plist 文件中该部分的另外两行。我不想推迟像从 15.7.3 到 15.7.4 这样的更新。&lt;/p&gt;
+&lt;p&gt;编辑前：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;!-- 可选（根据您的喜好设置） --&amp;gt;
+&amp;lt;key&amp;gt;forceDelayedSoftwareUpdates&amp;lt;/key&amp;gt;&amp;lt;true/&amp;gt;
+&amp;lt;key&amp;gt;enforcedSoftwareUpdateMinorOSDeferredInstallDelay&amp;lt;/key&amp;gt;&amp;lt;integer&amp;gt;30&amp;lt;/integer&amp;gt;
+&amp;lt;key&amp;gt;enforcedSoftwareUpdateNonOSDeferredInstallDelay&amp;lt;/key&amp;gt;&amp;lt;integer&amp;gt;30&amp;lt;/integer&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;修改后：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;!-- 可选（根据您的喜好设置） --&amp;gt;
+&amp;lt;key&amp;gt;forceDelayedSoftwareUpdates&amp;lt;/key&amp;gt;&amp;lt;false/&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;我敢打赌，这也是大多数和我一样坚守在 macOS 15 Sequoia 系统的用户想要的行为。&lt;/p&gt;
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/02/27/how-to-block-the-upgrade-to-tahoe-alerts-and-system-settings-indicator" title="永久链接至‘如何屏蔽‘升级到 Tahoe’的提醒和系统设置指示器’"&gt; ★ &lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Fri, 27 Feb 2026 18:45:16 +0000</pubDate></item><item><title>★ iOS 26 电话应用中一个有时被隐藏的设置，控制着你点击通话时的操作</title><link>https://daringfireball.net/2026/02/sometimes_hidden_setting_phone_app</link><description>&lt;p&gt;早在去年12月，亚当·恩斯特就他在TidBITS几周前的专题报道&lt;a href="https://tidbits.com/2025/11/10/comparing-the-classic-and-unified-views-in-ios-26s-phone-app/"&gt;探讨iOS 26电话应用中新的统一视图与旧的经典视图模式之间的差异&lt;/a&gt;，撰写了&lt;a href="https://tidbits.com/2025/12/07/hidden-setting-controls-what-happens-when-you-tap-a-call-in-the-phone-app/"&gt;这篇有趣的后续文章&lt;/a&gt;。它也是对我&lt;a href="https://daringfireball.net/linked/2026/01/28/comparing-the-classic-and-unified-views-in-ios-26s-phone-app/"&gt;一个月前链接&lt;/a&gt;到恩斯特原始专题报道的一个很好的跟进，同时也是我近期关于良好UI设计基本原则主题的延续。&lt;/p&gt;
+&lt;p&gt;恩斯特后续文章的要旨是，统一模式和经典模式之间的一个主要区别在于，当你在最近通话列表中点击一行时会发生什么。在经典模式下，点击列表中的一行会向该号码发起新的电话呼叫。每行右侧有一个小的“ⓘ”按钮，你可以点击它来显示该来电者的联系信息。这就是电话应用一直以来的工作方式。在新的iOS 26统一模式下，这种行为被颠倒了：点击该行会显示该来电者的联系信息，而你需要点击该行右侧一个带有电话图标的小按钮来立即发起呼叫。&lt;/p&gt;
+&lt;p&gt;恩斯特非常喜欢统一视图的这一方面，因为旧的行为使得仅通过点击列表中的一行就很容易意外发起呼叫。我也曾以同样的方式拨打过许多这样的意外电话，因此出于同样的原因，我更喜欢新的统一行为。经典模式下“点击行内几乎任何地方即可开始通话”的行为，是初代iPhone某些决策的遗留产物，这些决策在过去20年间并未经得起考验。对于初代iPhone，苹果公司仍然——可能正确地！——固守于iPhone首先是一部蜂窝电话的思维定势，发起电话呼叫应该是一个主要的一键操作。如今没有人再把iPhone主要看作是一部电话，而且仅仅通过点击滚动列表中的一行就启动一个操作，这本身就不符合iOS的风格。你不会通过点击电子邮件来回复它。你会点击回复按钮。电话呼叫在这方面尤其有害，因为接收方也会被打断——这不仅对&lt;em&gt;你&lt;/em&gt;来说是不便，也是对别人的打扰，因此也会让你感到尴尬。&lt;/p&gt;
+&lt;p&gt;接下来就是奇怪的地方了。&lt;/p&gt;&lt;p&gt;在“设置”→“应用”→“电话”中，有一个偏好设置选项叫“点击最近通话进行呼叫”。如果你开启这个选项，那么在使用新的统一视图时，你就能获得“点击行内任意位置即可呼叫联系人”的行为。&lt;em&gt;但此选项仅在电话应用中使用统一视图时，才会出现在设置应用中。&lt;/em&gt;如果你在电话应用中切换到经典视图，这个选项就会从设置应用中完全消失。它不是变灰不可用，而是直接不见了。如果你还没看过，去读读&lt;a href="https://tidbits.com/2025/12/07/hidden-setting-controls-what-happens-when-you-tap-a-call-in-the-phone-app/"&gt;Engst描述此事的文章&lt;/a&gt;——他有截图说明了这个设置有时隐藏的状态。&lt;/p&gt;
 &lt;p&gt;我等你。&lt;/p&gt;
 &lt;p&gt;Engst和我在本周早些时候&lt;a href="https://daringfireball.net/thetalkshow/2026/02/25/ep-441"&gt;他做客The Talk Show节目时&lt;/a&gt;详细讨论了这个问题。尤其是在节目中和他深入探讨之后，我想我明白了苹果的想法，也明白了为什么他们的解决方案感觉如此不对劲。&lt;/p&gt;
 &lt;p&gt;起初，我认为解决方案就是让这个选项一直可用，无论你在电话应用中使用的是经典布局还是统一布局。为什么不让喜欢经典布局的用户也能关闭旧的“点击行内任意位置呼叫联系人”的行为呢？但进一步思考后，这里有个问题。如果你只是希望电话应用保持一贯的工作方式，你会希望经典视图也默认采用旧的行内点击行为。苹果想要向用户推广的，既是一个新布局，也是一种新的行内点击行为。所以，当你在电话应用中切换到统一视图时，苹果也希望你体验新的行内点击行为，即你需要专门点击行内的小电话图标按钮来呼叫联系人，而点击行内其他任何地方则会打开联系人详情视图。&lt;/p&gt;
@@ -100,20 +135,4 @@
 
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/linked/2026/02/26/steve-jobs-in-exile" title="永久链接至‘史蒂夫·乔布斯在流放中’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Thu, 26 Feb 2026 18:04:33 +0000</pubDate></item><item><title>微软为Windows记事本新增更多Markdown功能</title><link>https://blogs.windows.com/windows-insider/2026/01/21/notepad-and-paint-updates-begin-rolling-out-to-windows-insiders/</link><description>&lt;p&gt;&lt;a href="https://daringfireball.net/linked/2025/06/06/markdown-support-in-windows-notepad"&gt;仍然&lt;/a&gt;觉得Markdown现在成了记事本的一个编辑模式，这对我来说有点荒谬。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/02/26/additional-markdown-features-added-to-windows-notepad" title="Permanent link to ‘Microsoft Adds Additional Markdown Features to Windows Notepad’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Thu, 26 Feb 2026 17:50:08 +0000</pubDate></item><item><title>预测“市场”Kalshi指控MrBeast编辑进行内幕交易</title><link>https://www.npr.org/2026/02/25/nx-s1-5726050/kalshi-insider-trading-enforcement-actions</link><description>&lt;p&gt;美国国家公共电台记者博比·艾林报道：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;预测市场平台Kalshi的官员周三表示，YouTube最大创作者MrBeast旗下的一名编辑因涉嫌内幕交易，已被该平台暂停交易资格并上报至联邦监管机构。这是该公司首次公开披露对这款热门应用中市场操纵行为的调查结果。&lt;/p&gt;
-
-&lt;p&gt;该公司称，这名MrBeast员工（&lt;a href="https://kalshi-public-docs.s3.amazonaws.com/regulatory/notices/Notice%20of%20Disciplinary%20Action%20(2.25.2026)%20(1).pdf"&gt;Kalshi在监管文件中确认为阿尔乔姆·卡普图尔&lt;/a&gt;）在与该主播相关的市场上交易了约4000美元。据公司官员透露，Kalshi调查人员发现，卡普图尔在对这位YouTuber视频的低概率预测投注中取得了“近乎完美的交易成功率”，使得这些押注显得十分可疑。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;只要认清这些事物的本质——它们是预测&lt;em&gt;赌场&lt;/em&gt;，而非预测&lt;em&gt;市场&lt;/em&gt;——问题便一目了然。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/02/26/kalshi-mrbeast-editor-inside-trading" title="‘预测‘市场’Kalshi指控MrBeast编辑进行内幕交易’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Thu, 26 Feb 2026 17:36:26 +0000</pubDate></item></channel></rss>
+&lt;/div&gt;</description><pubDate>Thu, 26 Feb 2026 18:04:33 +0000</pubDate></item></channel></rss>
