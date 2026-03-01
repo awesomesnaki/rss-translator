@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Sat, 28 Feb 2026 23:09:39 +0000</lastBuildDate><item><title>交互式解释</title><link>https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/#atom-everything</link><description>&lt;p&gt;&lt;em&gt;&lt;a href="https://simonwillison.net/guides/agentic-engineering-patterns/"&gt;智能体工程模式&lt;/a&gt; &amp;gt;&lt;/em&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Sun, 01 Mar 2026 11:21:45 +0000</lastBuildDate><item><title>引用 claude.com/import-memory</title><link>https://simonwillison.net/2026/Mar/1/claude-import-memory/#atom-everything</link><description>&lt;blockquote cite="https://claude.com/import-memory"&gt;&lt;p&gt;&lt;code&gt;我正在迁移到另一项服务，需要导出我的数据。请列出你存储的关于我的所有记忆，以及你从过往对话中了解到的关于我的任何背景信息。将所有内容输出在单个代码块中，以便我轻松复制。将每个条目格式化为：[保存日期，如可用] - 记忆内容。请确保涵盖以下所有方面——尽可能逐字保留我的原话：我给你的关于如何回应的指示（语气、格式、风格、“总是做X”、“绝不做Y”）。个人详情：姓名、地点、工作、家庭、兴趣。项目、目标和反复出现的话题。我使用的工具、语言和框架。我对你行为的偏好和纠正。任何上述未涵盖的其他存储背景信息。不要总结、分组或省略任何条目。在代码块之后，请确认这是完整集合还是仍有遗漏。&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class="cite"&gt;&amp;mdash; &lt;a href="https://claude.com/import-memory"&gt;claude.com/import-memory&lt;/a&gt;, Anthropic的“将你的记忆导入Claude”功能是一个提示&lt;/p&gt;
+
+    &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/prompt-engineering"&gt;提示工程&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llm-memory"&gt;llm-记忆&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/anthropic"&gt;anthropic&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude"&gt;claude&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sun, 01 Mar 2026 11:21:45 +0000</pubDate></item><item><title>交互式解释</title><link>https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/#atom-everything</link><description>&lt;p&gt;&lt;em&gt;&lt;a href="https://simonwillison.net/guides/agentic-engineering-patterns/"&gt;智能体工程模式&lt;/a&gt; &amp;gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;当我们无法理解智能体编写的代码如何工作时，我们就背负上了&lt;strong&gt;认知债务&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;对于很多事情来说，这无关紧要：如果代码只是从数据库获取一些数据并以JSON格式输出，其实现细节可能足够简单，我们无需关心。我们可以试用新功能，对其工作原理做出非常可靠的猜测，然后快速浏览一下代码以确认。&lt;/p&gt;
 &lt;p&gt;然而，细节往往确实很重要。如果我们应用程序的核心变成了一个我们不完全理解的“黑匣子”，我们就无法再自信地对其进行推理，这使得规划新功能变得更加困难，并最终像累积的技术债务一样拖慢我们的进度。&lt;/p&gt;
@@ -237,26 +240,4 @@ async function ocrMissingAltText() {
 &lt;p&gt;因此，OpenAI的广告项目部分只是为了覆盖服务那90%或更多不付费用户的成本（并在广告商中抢占早期领先地位，以及学习这种模式如何运作），但从更战略性的角度看，它也是为了能够向这些用户提供最新、最强大（即最昂贵）的模型，希望这能加深他们的参与度。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class="cite"&gt;&amp;mdash; &lt;a href="https://www.ben-evans.com/benedictevans/2026/2/19/how-will-openai-compete-nkg2x"&gt;Benedict Evans&lt;/a&gt;, OpenAI将如何竞争？&lt;/p&gt;
 
-    &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/openai"&gt;openai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/chatgpt"&gt;chatgpt&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/benedict-evans"&gt;benedict-evans&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 26 Feb 2026 03:44:56 +0000</pubDate></item><item><title>tldraw 问题：将测试迁移至闭源仓库</title><link>https://simonwillison.net/2026/Feb/25/closed-tests/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/tldraw/tldraw/issues/8082"&gt;tldraw 议题：将测试移至闭源仓库&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;过去几个月变得非常明显的是，一套全面的测试套件足以从头开始构建任何开源库的全新实现，甚至可能使用不同的语言。&lt;/p&gt;
-&lt;p&gt;这对采用商业商业模式的开源项目来说，蕴含着令人担忧的影响。这里有一个回应的例子：出色的协作绘图库 tldraw（参见&lt;a href="https://simonwillison.net/2023/Nov/16/tldrawdraw-a-ui/"&gt;之前的报道&lt;/a&gt;）正在将其测试套件转移到一个私有仓库——这显然是对&lt;a href="https://blog.cloudflare.com/vinext/"&gt;Cloudflare 利用 AI 在一周内将 Next.js 移植到使用 Vite 的项目&lt;/a&gt;的回应。&lt;/p&gt;
-&lt;p&gt;他们还提交了一个玩笑性质的议题，现已关闭：&lt;a href="https://github.com/tldraw/tldraw/issues/8092"&gt;将源代码翻译为繁体中文&lt;/a&gt;：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;当前的 tldraw 代码库是英文的，这使得外部 AI 编码代理很容易复制。我们必须捍卫我们的知识产权。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;值得注意的是，tldraw 在技术上并非开源——其&lt;a href="https://github.com/tldraw/tldraw?tab=License-1-ov-file#readme"&gt;自定义许可证&lt;/a&gt;规定，如果你想在“生产环境”中使用它，需要商业许可。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;更新&lt;/strong&gt;：好吧，这有点尴尬，结果我发现我链接的那个关于移除测试的议题&lt;a href="https://github.com/tldraw/tldraw/issues/8082#issuecomment-3964650501"&gt;也是个玩笑&lt;/a&gt;：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;抱歉各位，这个议题更像是个玩笑（我可以这么做吗？），但我会保持议题开放，因为这里有一些讨论。手机打字&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;将我们的测试移到另一个仓库会使我们的开发复杂化并减慢速度，而速度对我们来说比以往任何时候都更重要&lt;/li&gt;
-&lt;li&gt;更多的画布更好，我确信我们的决策启发了其他产品，这很好&lt;/li&gt;
-&lt;li&gt;tldraw 本身最终可能成为 tldraw 的一个 vibe coded 替代品&lt;/li&gt;
-&lt;li&gt;价值在于能够为用户/客户做出新的、好的产品决策，无论你选择如何创建代码&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-    &lt;p&gt;&lt;small&gt;Via &lt;a href="https://twitter.com/steveruizok/status/2026581824428753211"&gt;@steveruizok&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-
-
-    &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/open-source"&gt;open-source&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/cloudflare"&gt;cloudflare&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;ai-ethics&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 25 Feb 2026 21:06:53 +0000</pubDate></item></channel></rss>
+    &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/openai"&gt;openai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/chatgpt"&gt;chatgpt&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/benedict-evans"&gt;benedict-evans&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 26 Feb 2026 03:44:56 +0000</pubDate></item></channel></rss>
