@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Fri, 27 Feb 2026 22:49:32 +0000</lastBuildDate><item><title>求求你们，求求你们，求求你们别再使用通行密钥来加密用户数据了。</title><link>https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://blog.timcappalli.me/p/passkeys-prf-warning/"&gt;求求了，求求了，求求你们别再使用通行密钥来加密用户数据了&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Sat, 28 Feb 2026 23:09:39 +0000</lastBuildDate><item><title>交互式解释</title><link>https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/#atom-everything</link><description>&lt;p&gt;&lt;em&gt;&lt;a href="https://simonwillison.net/guides/agentic-engineering-patterns/"&gt;智能体工程模式&lt;/a&gt; &amp;gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;当我们无法理解智能体编写的代码如何工作时，我们就背负上了&lt;strong&gt;认知债务&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;对于很多事情来说，这无关紧要：如果代码只是从数据库获取一些数据并以JSON格式输出，其实现细节可能足够简单，我们无需关心。我们可以试用新功能，对其工作原理做出非常可靠的猜测，然后快速浏览一下代码以确认。&lt;/p&gt;
+&lt;p&gt;然而，细节往往确实很重要。如果我们应用程序的核心变成了一个我们不完全理解的“黑匣子”，我们就无法再自信地对其进行推理，这使得规划新功能变得更加困难，并最终像累积的技术债务一样拖慢我们的进度。&lt;/p&gt;
+&lt;p&gt;我们如何偿还认知债务？通过增进我们对代码工作原理的理解。&lt;/p&gt;
+&lt;p&gt;我最喜欢的方法之一是构建&lt;strong&gt;交互式解释&lt;/strong&gt;。&lt;/p&gt;
+&lt;h2 id="understanding-word-clouds"&gt;理解词云&lt;/h2&gt;
+&lt;p&gt;在&lt;a href="https://minimaxir.com/2026/02/ai-agent-coding/"&gt;《一个AI智能体编码怀疑论者尝试AI智能体编码，细节详尽》&lt;/a&gt;一文中，Max Woolf提到他用提示词&lt;code&gt;创建一个Rust应用，能够根据给定的长输入文本生成“词云”数据可视化&lt;/code&gt;来测试LLMs的Rust能力。&lt;/p&gt;
+&lt;p&gt;这激发了我的想象力：我一直想知道词云是如何工作的，所以我启动了一个&lt;a href="https://simonwillison.net/2025/Nov/6/async-code-research/"&gt;异步研究项目&lt;/a&gt;——&lt;a href="https://github.com/simonw/research/pull/91#issue-4002426963"&gt;初始提示在此&lt;/a&gt;，&lt;a href="https://github.com/simonw/research/tree/main/rust-wordcloud"&gt;代码和报告在此&lt;/a&gt;——来探索这个想法。&lt;/p&gt;
+&lt;p&gt;效果非常好：Claude Code for web为我构建了一个Rust CLI工具，可以生成像这样的图片：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="一个词云，包含许多单词，颜色和大小各异，较大的单词在中间。" src="https://raw.githubusercontent.com/simonw/research/refs/heads/main/rust-wordcloud/wordcloud.png"/&gt;&lt;/p&gt;
+&lt;p&gt;但它实际上是如何工作的呢？&lt;/p&gt;
+&lt;p&gt;Claude的报告说它使用了“&lt;strong&gt;阿基米德螺旋布局&lt;/strong&gt;，并带有每个单词的随机角度偏移，以实现自然外观的布局”。这对我帮助不大！&lt;/p&gt;
+&lt;p&gt;我请求对代码库进行&lt;a href="https://simonwillison.net/guides/agentic-engineering-patterns/linear-walkthroughs/"&gt;线性走查&lt;/a&gt;，这帮助我更详细地理解了Rust代码——这是&lt;a href="https://github.com/simonw/research/blob/main/rust-wordcloud/walkthrough.md"&gt;那份走查记录&lt;/a&gt;（以及&lt;a href="https://github.com/simonw/research/commit/2cb8c62477173ef6a4c2e274be9f712734df6126"&gt;提示词&lt;/a&gt;）。这帮助我理解了Rust代码的结构，但我仍然对那个“阿基米德螺旋布局”部分实际上如何工作缺乏直观的理解。&lt;/p&gt;&lt;p&gt;于是我要求一个&lt;strong&gt;动画解释&lt;/strong&gt;。我的做法是，将现有&lt;code&gt;walkthrough.md&lt;/code&gt;文档的链接粘贴到一个Claude Code会话中，并附上以下内容：&lt;/p&gt;
+&lt;p&gt;&lt;div&gt;&lt;textarea&gt;使用curl将 https://raw.githubusercontent.com/simonw/research/refs/heads/main/rust-wordcloud/walkthrough.md 获取到 /tmp 目录，以便你能阅读整个文档
+
+受此启发，构建一个 animated-word-cloud.html 页面——该页面接受粘贴的文本（文本会持久化在URL的`#fragment`中，这样当页面加载时如果`#`部分有内容，就会自动使用该文本作为输入并提交），当你提交文本时，它会使用该文档中描述的算法生成一个词云，但以动画形式呈现，以使算法尽可能清晰易懂。包含一个动画滑块，可以暂停、调整速度，甚至在暂停时逐帧步进。在任何阶段，都可以将当前可见的进行中的词云下载为PNG图片。&lt;/textarea&gt;&lt;/div&gt;
+你可以&lt;a href="https://tools.simonwillison.net/animated-word-cloud"&gt;在这里体验结果&lt;/a&gt;。这是一个动画GIF演示：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="词语一个接一个地出现在词云上，有小方框显示算法试图放置它们的位置——如果这些方框与现有词语重叠，它会再次尝试。" src="https://static.simonwillison.net/static/2026/animated-word-cloud-demo.gif"/&gt;&lt;/p&gt;
+&lt;p&gt;这次使用的是Claude Opus 4.6，事实证明它在构建解释性动画方面品味相当不错。&lt;/p&gt;
+&lt;p&gt;如果你仔细观察动画，可以看到对于每个词语，它都会尝试通过显示一个方框将其放置在页面上的某个位置，然后检查该方框是否与现有词语相交。如果是，它会继续尝试寻找合适的位置，从中心向外螺旋移动。&lt;/p&gt;
+&lt;p&gt;我发现这个动画确实帮助我理解了算法的工作原理。&lt;/p&gt;
+&lt;p&gt;我一直是动画和交互界面的粉丝，它们有助于解释不同的概念。一个好的编码代理可以按需生成这些内容，以帮助解释代码——无论是它自己编写的代码还是他人编写的代码。&lt;/p&gt;</description><pubDate>Sat, 28 Feb 2026 23:09:39 +0000</pubDate></item><item><title>求求你们，求求你们，求求你们别再使用通行密钥来加密用户数据了。</title><link>https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://blog.timcappalli.me/p/passkeys-prf-warning/"&gt;求求了，求求了，求求你们别再使用通行密钥来加密用户数据了&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;因为用户&lt;em&gt;总是&lt;/em&gt;会丢失他们的通行密钥，并且可能不明白他们的数据已被这些密钥不可逆转地加密，再也无法恢复。&lt;/p&gt;
 &lt;p&gt;蒂姆·卡帕利：&lt;/p&gt;
 &lt;blockquote&gt;
@@ -43,159 +65,156 @@
 &lt;p&gt;我将结果&lt;a href="https://tools.simonwillison.net/unicode-binary-search"&gt;部署到了我的 tools.simonwillison.net 网站&lt;/a&gt;，在此之前，我先调整了它，使其通过范围请求查询一个存储在 S3 桶中、由 Cloudflare 提供前端服务并启用了 CORS 的 76.6MB 文件。&lt;/p&gt;
 &lt;p&gt;这个演示玩起来很有趣——输入一个像 &lt;code&gt;ø&lt;/code&gt; 这样的单个字符，或者像 &lt;code&gt;1F99C&lt;/code&gt; 这样的十六进制码点指示符，它就会通过二分查找遍历这个大文件，并向你展示它沿途采取的步骤：&lt;/p&gt;&lt;p&gt;&lt;img alt="一个名为Unicode Explore的网页工具的动态演示。我输入&amp;符号并点击搜索。下方框内显示了一系列HTTP二分查找请求，经过17步找到结果，传输了3,864字节，并告诉我&amp;符号是基本拉丁语中其他标点符号的U+0026" src="https://static.simonwillison.net/static/2026/unicode-explore.gif"/&gt;
 &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/algorithms"&gt;算法&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/http"&gt;http&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/research"&gt;研究&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/tools"&gt;工具&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/unicode"&gt;unicode&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;人工智能辅助编程&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/vibe-coding"&gt;氛围编程&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/http-range-requests"&gt;http范围请求&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Fri, 27 Feb 2026 17:50:54 +0000</pubDate></item><item><title>囤积你擅长的事情</title><link>https://simonwillison.net/guides/agentic-engineering-patterns/hoard-things-you-know-how-to-do/#atom-everything</link><description>&lt;p&gt;&lt;em&gt;&lt;a href="https://simonwillison.net/guides/agentic-engineering-patterns/"&gt;智能体工程模式&lt;/a&gt; &amp;gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;我关于如何高效使用编码智能体的许多技巧，其实是我职业生涯中一些有用建议的延伸，即使在没有智能体时也是如此。这里有一个很好的例子：&lt;strong&gt;囤积你已知如何完成的事情&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;构建软件技能的一个重要部分是理解什么是可能的、什么是不可能的，并且至少对如何完成这些事情有一个粗略的想法。&lt;/p&gt;
-&lt;p&gt;这些问题可以很宽泛，也可以相当冷门。一个网页能否仅用JavaScript运行OCR操作？iPhone应用能否在未运行时与蓝牙设备配对？我们能否在Python中处理一个100GB的JSON文件，而无需先将整个文件加载到内存中？&lt;/p&gt;
+&lt;p&gt;我关于如何高效使用编码智能体的许多技巧，其实是我职业生涯中一些有用建议的延伸，即使没有智能体时这些建议也很有用。这里有一个很好的例子：&lt;strong&gt;囤积你掌握的方法&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;构建软件技能的一个重要部分是理解什么是可能的、什么是不可能的，并且至少对如何实现这些事情有一个粗略的想法。&lt;/p&gt;
+&lt;p&gt;这些问题可能很宽泛，也可能相当冷僻。一个网页能否仅用JavaScript运行OCR操作？iPhone应用在不运行时能否与蓝牙设备配对？我们能否在Python中处理一个100GB的JSON文件，而不需要先将整个文件加载到内存中？&lt;/p&gt;
 &lt;p&gt;你掌握的这类问题的答案越多，你就越有可能发现机会，以他人可能未曾想到的方式运用技术来解决问题。&lt;/p&gt;
 &lt;p&gt;知道某件事在理论上是可能的，与亲眼见过它被实现是不同的。作为一名软件专业人士，需要培养的一项关键资产就是大量收集这类问题的答案，最好有可运行的代码作为例证。&lt;/p&gt;
-&lt;p&gt;我通过多种不同的方式来囤积这类解决方案。我的&lt;a href="https://simonwillison.net"&gt;博客&lt;/a&gt;和&lt;a href="https://til.simonwillison.net"&gt;TIL博客&lt;/a&gt;里塞满了关于我如何搞定某些事情的笔记。我在&lt;a href="https://github.com/simonw"&gt;GitHub上有超过一千个代码仓库&lt;/a&gt;，收集了为不同项目编写的代码，其中很多是用于演示关键想法的小型概念验证。&lt;/p&gt;
-&lt;p&gt;最近，我开始使用LLM来帮助扩展我对有趣问题的代码解决方案收藏。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://tools.simonwillison.net"&gt;tools.simonwillison.net&lt;/a&gt;是我最大的LLM辅助工具和原型集合。我用它来收集我称之为&lt;a href="https://simonwillison.net/2025/Dec/10/html-tools/"&gt;HTML工具&lt;/a&gt;的东西——即嵌入JavaScript和CSS、用于解决特定问题的单个HTML页面。&lt;/p&gt;
-&lt;p&gt;我的&lt;a href="https://github.com/simonw/research"&gt;simonw/research&lt;/a&gt;仓库则包含更大、更复杂的例子，在这些项目中，我挑战一个编码智能体去研究一个问题，并带回可运行的代码以及详细说明其发现的书面报告。&lt;/p&gt;
-&lt;h2&gt;重组你囤积的东西&lt;/h2&gt;
-&lt;p&gt;为什么要收集所有这些材料？除了帮助你构建和扩展自身能力之外，你在此过程中生成的资产会成为编码智能体极其强大的输入。&lt;/p&gt;
+&lt;p&gt;我通过多种不同的方式来囤积这类解决方案。我的&lt;a href="https://simonwillison.net"&gt;博客&lt;/a&gt;和&lt;a href="https://til.simonwillison.net"&gt;TIL博客&lt;/a&gt;里塞满了关于我如何搞定某些事情的笔记。我拥有&lt;a href="https://github.com/simonw"&gt;超过一千个GitHub仓库&lt;/a&gt;，收集了为不同项目编写的代码，其中很多是展示关键想法的小型概念验证。&lt;/p&gt;
+&lt;p&gt;最近，我开始使用LLM来帮助扩展我针对有趣问题的代码解决方案集。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://tools.simonwillison.net"&gt;tools.simonwillison.net&lt;/a&gt;是我最大的LLM辅助工具和原型集合。我用它来收集我称之为&lt;a href="https://simonwillison.net/2025/Dec/10/html-tools/"&gt;HTML工具&lt;/a&gt;的东西——即嵌入JavaScript和CSS并解决特定问题的单个HTML页面。&lt;/p&gt;
+&lt;p&gt;我的&lt;a href="https://github.com/simonw/research"&gt;simonw/research&lt;/a&gt;仓库包含更大、更复杂的示例，在这些示例中，我挑战编码智能体去研究一个问题，并带回可运行的代码和一份详细说明其发现的书面报告。&lt;/p&gt;
+&lt;h2 id="recombining-things-from-your-hoard"&gt;重组你的囤积物&lt;/h2&gt;
+&lt;p&gt;为什么要收集所有这些材料？除了帮助你构建和扩展自己的能力之外，你在此过程中生成的资产会成为编码智能体极其强大的输入。&lt;/p&gt;
 &lt;p&gt;我最喜欢的提示模式之一，就是告诉智能体通过组合两个或多个现有的工作示例来构建新东西。&lt;/p&gt;&lt;p&gt;一个帮助我明确认识到这种方法有多有效的项目，是我添加到工具集合中的第一个工具——一个基于浏览器的&lt;a href="https://tools.simonwillison.net/ocr"&gt;OCR工具&lt;/a&gt;，&lt;a href="https://simonwillison.net/2024/Mar/30/ocr-pdfs-images/"&gt;这里有更详细的描述&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;我想要一个简单、基于浏览器的工具，用于对PDF文件中的页面进行OCR识别——特别是那些完全由扫描图像组成、完全没有提供文本版本的PDF。&lt;/p&gt;
 &lt;p&gt;我之前尝试过在浏览器中运行&lt;a href="https://tesseract.projectnaptha.com/"&gt;Tesseract.js OCR库&lt;/a&gt;，发现它功能非常强大。该库提供了成熟的Tesseract OCR引擎的WebAssembly版本，让你可以从JavaScript调用它来从图像中提取文本。&lt;/p&gt;
 &lt;p&gt;但我不想处理图像，我想处理PDF。然后我想起来，我也用过Mozilla的&lt;a href="https://mozilla.github.io/pdf.js/"&gt;PDF.js&lt;/a&gt;库，它可以将PDF的单个页面转换成渲染后的图像。&lt;/p&gt;
 &lt;p&gt;我的笔记里有这两个库的JavaScript代码片段。&lt;/p&gt;
-&lt;p&gt;以下是我输入给模型（当时是Claude 3 Opus）的完整提示，它结合了我的两个例子，并描述了我正在寻找的解决方案：&lt;/p&gt;&lt;blockquote&gt;
-&lt;p&gt;这段代码展示了如何打开PDF并将其每页转换为图像：
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="cp"&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
-&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;html&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;head&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;title&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;PDF转图像&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;title&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt; &lt;span class="na"&gt;src&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;style&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;image-container&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;img&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
-&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="k"&gt;margin-bottom&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;image-container&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
-&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="k"&gt;margin&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="k"&gt;font-size&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;14&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="k"&gt;color&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mh"&gt;#888&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;style&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;head&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;body&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;input&lt;/span&gt; &lt;span class="na"&gt;type&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"file"&lt;/span&gt; &lt;span class="na"&gt;id&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"fileInput"&lt;/span&gt; &lt;span class="na"&gt;accept&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;".pdf"&lt;/span&gt; &lt;span class="p"&gt;/&amp;gt;&lt;/span&gt;
-  &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;div&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"image-container"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;div&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;p&gt;以下是我输入给模型（当时是Claude 3 Opus）的完整提示，它结合了我的两个例子，并描述了我正在寻找的解决方案：&lt;/p&gt;&lt;div&gt;&lt;textarea&gt;这段代码展示了如何打开PDF并将其每页转换为图像：
+```html
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;PDF转图像&lt;/title&gt;
+  &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"&gt;&lt;/script&gt;
+  &lt;style&gt;
+    .image-container img {
+      margin-bottom: 10px;
+    }
+    .image-container p {
+      margin: 0;
+      font-size: 14px;
+      color: #888;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;input type="file" id="fileInput" accept=".pdf" /&gt;
+  &lt;div class="image-container"&gt;&lt;/div&gt;
 
-  &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="kd"&gt;const&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;desiredWidth&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;800&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="kd"&gt;const&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;fileInput&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nb"&gt;document&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;getElementById&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'fileInput'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="kd"&gt;const&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;imageContainer&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nb"&gt;document&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;querySelector&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'.image-container'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+  &lt;script&gt;
+  const desiredWidth = 800;
+    const fileInput = document.getElementById('fileInput');
+    const imageContainer = document.querySelector('.image-container');
 
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nx"&gt;fileInput&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;addEventListener&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'change'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;handleFileUpload&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+    fileInput.addEventListener('change', handleFileUpload);
 
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nx"&gt;pdfjsLib&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;GlobalWorkerOptions&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;workerSrc&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.worker.min.js'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.worker.min.js';
 
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="k"&gt;async&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;handleFileUpload&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;event&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
-&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="kd"&gt;const&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;file&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;event&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;target&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;files&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="p"&gt;];&lt;/span&gt;
-&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="kd"&gt;const&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;imageIterator&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;convertPDFToImages&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;file&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+    async function handleFileUpload(event) {
+      const file = event.target.files[0];
+      const imageIterator = convertPDFToImages(file);
 
-&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="k"&gt;for&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;await&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;const&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;imageURL&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;size&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;of&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;imageIterator&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
-&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="kd"&gt;const&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;imgElement&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nb"&gt;document&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;createElement&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'img'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="nx"&gt;imgElement&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;src&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;imageURL&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="nx"&gt;imageContainer&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;appendChild&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;imgElement&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+      for await (const { imageURL, size } of imageIterator) {
+        const imgElement = document.createElement('img');
+        imgElement.src = imageURL;
+        imageContainer.appendChild(imgElement);
 
-&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="kd"&gt;const&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;sizeElement&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nb"&gt;document&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;createElement&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'p'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="nx"&gt;sizeElement&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;textContent&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="sb"&gt;`大小: &lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nx"&gt;formatSize&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;size&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="sb"&gt;`&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="nx"&gt;imageContainer&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;appendChild&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;sizeElement&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+        const sizeElement = document.createElement('p');
+        sizeElement.textContent = `大小：${formatSize(size)}`;
+        imageContainer.appendChild(sizeElement);
+      }
+    }
 
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="k"&gt;async&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;convertPDFToImages&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;file&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
-&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="k"&gt;try&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
-&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="kd"&gt;const&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;pdf&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;await&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;pdfjsLib&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;getDocument&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;URL&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;createObjectURL&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;file&lt;/span&gt;&lt;span class="p"&gt;)).&lt;/span&gt;&lt;span class="nx"&gt;promise&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="kd"&gt;const&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;numPages&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;pdf&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;numPages&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    async function* convertPDFToImages(file) {
+      try {
+        const pdf = await pdfjsLib.getDocument(URL.createObjectURL(file)).promise;
+        const numPages = pdf.numPages;
 
-&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;for&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;let&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;i&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;1&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;i&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;numPages&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;i&lt;/span&gt;&lt;span class="o"&gt;++&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
-&lt;span class="w"&gt;          &lt;/span&gt;&lt;span class="kd"&gt;const&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;page&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;await&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;pdf&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;getPage&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;i&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;span class="w"&gt;          &lt;/span&gt;&lt;span class="kd"&gt;const&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;viewport&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;page&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;getViewport&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;scale&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;});&lt;/span&gt;
-&lt;span class="w"&gt;          &lt;/span&gt;&lt;span class="kd"&gt;const&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;canvas&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nb"&gt;document&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;createElement&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'canvas'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;span class="w"&gt;          &lt;/span&gt;&lt;span class="kd"&gt;const&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;context&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;canvas&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;getContext&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'2d'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;span class="w"&gt;          &lt;/span&gt;&lt;span class="nx"&gt;canvas&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;width&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;desiredWidth&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="w"&gt;          &lt;/span&gt;&lt;span class="nx"&gt;canvas&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;height&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;desiredWidth&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;viewport&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;width&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;viewport&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;height&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="w"&gt;          &lt;/span&gt;&lt;span class="kd"&gt;const&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;renderContext&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
-&lt;span class="w"&gt;            &lt;/span&gt;&lt;span class="nx"&gt;canvasContext&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;context&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;span class="w"&gt;            &lt;/span&gt;&lt;span class="nx"&gt;viewport&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;page&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;getViewport&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;scale&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;desiredWidth&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;viewport&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;width&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}),&lt;/span&gt;
-&lt;span class="w"&gt;          &lt;/span&gt;&lt;span class="p"&gt;};&lt;/span&gt;
-&lt;span class="w"&gt;          &lt;/span&gt;&lt;span class="k"&gt;await&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;page&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;render&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;renderContext&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;promise&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="w"&gt;          &lt;/span&gt;&lt;span class="kd"&gt;const&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;imageURL&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;canvas&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;toDataURL&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'image/jpeg'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0.8&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;span class="w"&gt;          &lt;/span&gt;&lt;span class="kd"&gt;const&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;size&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;calculateSize&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;imageURL&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;span class="w"&gt;          &lt;/span&gt;&lt;span class="k"&gt;yield&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;imageURL&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;size&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;};&lt;/span&gt;
-&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;catch&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;error&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
-&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="nx"&gt;console&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;error&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'错误:'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;error&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+        for (let i = 1; i &lt;= numPages; i++) {
+          const page = await pdf.getPage(i);
+          const viewport = page.getViewport({ scale: 1 });
+          const canvas = document.createElement('canvas');
+          const context = canvas.getContext('2d');
+          canvas.width = desiredWidth;
+          canvas.height = (desiredWidth / viewport.width) * viewport.height;
+          const renderContext = {
+            canvasContext: context,
+            viewport: page.getViewport({ scale: desiredWidth / viewport.width }),
+          };
+          await page.render(renderContext).promise;
+          const imageURL = canvas.toDataURL('image/jpeg', 0.8);
+          const size = calculateSize(imageURL);
+          yield { imageURL, size };
+        }
+      } catch (error) {
+        console.error('错误：', error);
+      }
+    }
 
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;calculateSize&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;imageURL&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
-&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="kd"&gt;const&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;base64Length&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;imageURL&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;length&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;'data:image/jpeg;base64,'&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;length&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="kd"&gt;const&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;sizeInBytes&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nb"&gt;Math&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;ceil&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;base64Length&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0.75&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="k"&gt;return&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;sizeInBytes&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+    function calculateSize(imageURL) {
+      const base64Length = imageURL.length - 'data:image/jpeg;base64,'.length;
+      const sizeInBytes = Math.ceil(base64Length * 0.75);
+      return sizeInBytes;
+    }
 
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;formatSize&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;size&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
-&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="kd"&gt;const&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;sizeInKB&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;size&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;1024&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;toFixed&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mf"&gt;2&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="k"&gt;return&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="sb"&gt;`&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nx"&gt;sizeInKB&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="sb"&gt; KB`&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;body&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;html&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-这段代码展示了如何对图像进行OCR：
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="k"&gt;async&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;ocrMissingAltText&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="c1"&gt;// 加载Tesseract&lt;/span&gt;
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="kd"&gt;var&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;s&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nb"&gt;document&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;createElement&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;"script"&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nx"&gt;s&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;src&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;"https://unpkg.com/tesseract.js@v2.1.0/dist/tesseract.min.js"&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nb"&gt;document&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;head&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;appendChild&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;s&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+    function formatSize(size) {
+      const sizeInKB = (size / 1024).toFixed(2);
+      return `${sizeInKB} KB`;
+    }
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+```
+这段代码展示了如何对图像进行OCR识别：
+```javascript
+async function ocrMissingAltText() {
+    // 加载Tesseract
+    var s = document.createElement("script");
+    s.src = "https://unpkg.com/tesseract.js@v2.1.0/dist/tesseract.min.js";
+    document.head.appendChild(s);
 
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nx"&gt;s&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;onload&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;async&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;=&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
-&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="kd"&gt;const&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;images&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nb"&gt;document&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;getElementsByTagName&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;"img"&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="kd"&gt;const&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;worker&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;Tesseract&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;createWorker&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt;
-&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="k"&gt;await&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;worker&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;load&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt;
-&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="k"&gt;await&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;worker&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;loadLanguage&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;"eng"&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="k"&gt;await&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;worker&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;initialize&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;"eng"&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="nx"&gt;ocrButton&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;innerText&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;"正在运行OCR..."&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    s.onload = async () =&gt; {
+      const images = document.getElementsByTagName("img");
+      const worker = Tesseract.createWorker();
+      await worker.load();
+      await worker.loadLanguage("eng");
+      await worker.initialize("eng");
+      ocrButton.innerText = "正在运行OCR...";
 
-&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="c1"&gt;// 遍历输出div中的所有图像&lt;/span&gt;
-&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="k"&gt;for&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;const&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;img&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;of&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;images&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
-&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="kd"&gt;const&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;altTextarea&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;img&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;parentNode&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;querySelector&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;".textarea-alt"&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="c1"&gt;// 检查alt文本区域是否为空&lt;/span&gt;
-&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;if&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;altTextarea&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;value&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;===&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;""&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
-&lt;span class="w"&gt;          &lt;/span&gt;&lt;span class="kd"&gt;const&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;imageUrl&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;img&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;src&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="w"&gt;          &lt;/span&gt;&lt;span class="kd"&gt;var&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
-&lt;span class="w"&gt;            &lt;/span&gt;&lt;span class="nx"&gt;data&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;text&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;},&lt;/span&gt;
-&lt;span class="w"&gt;          &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;await&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;worker&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;recognize&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;imageUrl&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;span class="w"&gt;          &lt;/span&gt;&lt;span class="nx"&gt;altTextarea&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;value&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;text&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;// 将OCR结果设置到alt文本区域&lt;/span&gt;
-&lt;span class="w"&gt;          &lt;/span&gt;&lt;span class="nx"&gt;progressBar&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;value&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;+=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;1&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+      // 遍历输出div中的所有图像
+      for (const img of images) {
+        const altTextarea = img.parentNode.querySelector(".textarea-alt");
+        // 检查alt文本区域是否为空
+        if (altTextarea.value === "") {
+          const imageUrl = img.src;
+          var {
+            data: { text },
+          } = await worker.recognize(imageUrl);
+          altTextarea.value = text; // 将OCR结果设置到alt文本区域
+          progressBar.value += 1;
+        }
+      }
 
-&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="k"&gt;await&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;worker&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;terminate&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt;
-&lt;span class="w"&gt;      &lt;/span&gt;&lt;span class="nx"&gt;ocrButton&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;innerText&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;"OCR完成"&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;};&lt;/span&gt;
-&lt;span class="w&lt;p&gt;这简直完美无缺！模型直接生成了一个概念验证页面，完全满足了我的需求。&lt;/p&gt;
-&lt;p&gt;我最终&lt;a href="https://gist.github.com/simonw/6a9f077bf8db616e44893a24ae1d36eb"&gt;与它进行了几次迭代&lt;/a&gt;才得到最终结果，但只花了几分钟就构建了一个真正有用的工具，从那以后我一直受益于此。&lt;/p&gt;
-&lt;h2&gt;编码智能体让这一切更加强大&lt;/h2&gt;
-&lt;p&gt;我在2024年3月构建了那个OCR示例，那是在Claude Code首次发布近一年前。编码智能体使得积累有效示例变得更加有价值。&lt;/p&gt;
+      await worker.terminate();
+      ocrButton.innerText = "OCR完成";
+    };
+  }
+```
+请使用这些示例来整合一个包含嵌入式HTML、CSS和JavaScript的单一HTML页面，该页面提供一个大的正方形区域，用户可以将PDF文件拖放到该区域上，当用户这样做时，PDF的每一页都会被转换为JPEG格式并显示在页面下方，然后使用tesseract运行OCR，并将结果显示在每个图像下方的文本区域块中。&lt;/textarea&gt;&lt;/div&gt;&lt;p&gt;这简直完美无缺！模型直接生成了一个概念验证页面，完全满足了我的需求。&lt;/p&gt;
+&lt;p&gt;我最终&lt;a href="https://gist.github.com/simonw/6a9f077bf8db616e44893a24ae1d36eb"&gt;与它进行了几次迭代&lt;/a&gt;才得到最终结果，但只花了几分钟就构建了一个真正有用的工具，从那以后我一直从中受益。&lt;/p&gt;
+&lt;h2 id="coding-agents-make-this-even-more-powerful"&gt;编码智能体让这一切更加强大&lt;/h2&gt;
+&lt;p&gt;我是在2024年3月构建那个OCR示例的，那是在Claude Code首次发布前近一年。编码智能体使得囤积可运行的示例变得更有价值。&lt;/p&gt;
 &lt;p&gt;如果你的编码智能体可以访问互联网，你可以让它做这样的事情：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;使用curl获取&lt;code&gt;https://tools.simonwillison.net/ocr&lt;/code&gt;和&lt;code&gt;https://tools.simonwillison.net/gemini-bbox&lt;/code&gt;的源代码，并构建一个新工具，让你可以从PDF中选择一页，并将其传递给Gemini，以返回该页面上插图的边界框。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;（我指定了&lt;code&gt;curl&lt;/code&gt;，因为Claude Code默认使用WebFetch工具，该工具会总结页面内容而不是返回原始HTML。）&lt;/p&gt;
-&lt;p&gt;编码智能体非常擅长搜索，这意味着你可以在自己的机器上运行它们，并告诉它们在哪里可以找到你希望它们做的事情的示例：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;向&lt;code&gt;~/dev/ecosystem/datasette-oauth&lt;/code&gt;项目添加模拟HTTP测试，灵感来源于&lt;code&gt;~/dev/ecosystem/llm-mistral&lt;/code&gt;项目的做法。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;通常这就足够了——智能体会启动一个搜索子智能体进行调查，并仅提取完成任务所需的细节。&lt;/p&gt;
-&lt;p&gt;由于我的大部分研究代码都是公开的，我经常告诉编码智能体将我的仓库克隆到&lt;code&gt;/tmp&lt;/code&gt;目录，并将其用作输入：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;从GitHub克隆&lt;code&gt;simonw/research&lt;/code&gt;到&lt;code&gt;/tmp&lt;/code&gt;，找到将Rust编译为WebAssembly的示例，然后利用这些示例为此项目构建一个演示HTML页面。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这里的关键思想是，编码智能体意味着我们只需要&lt;em&gt;一次&lt;/em&gt;弄清楚一个有用的技巧。如果这个技巧随后在某个地方有工作代码示例记录，我们的智能体就可以参考该示例，并用它来解决未来任何类似的项目。&lt;/p&gt;
+&lt;p&gt;&lt;div&gt;&lt;textarea&gt;使用curl获取`https://tools.simonwillison.net/ocr`和`https://tools.simonwillison.net/gemini-bbox`的源代码，并构建一个新工具，让你可以从PDF中选择一页并将其传递给Gemini，以返回该页面上插图的边界框。&lt;/textarea&gt;&lt;/div&gt;
+（我在那里指定了&lt;code&gt;curl&lt;/code&gt;，因为Claude Code默认使用WebFetch工具，该工具会总结页面内容而不是返回原始HTML。）&lt;/p&gt;
+&lt;p&gt;编码智能体非常擅长搜索，这意味着你可以在自己的机器上运行它们，并告诉它们去哪里找你希望它们做的事情的示例：
+&lt;div&gt;&lt;textarea&gt;为`~/dev/ecosystem/datasette-oauth`项目添加模拟HTTP测试，灵感来自`~/dev/ecosystem/llm-mistral`项目的做法。&lt;/textarea&gt;&lt;/div&gt;
+通常这就足够了——智能体会启动一个搜索子智能体来调查并提取完成任务所需的细节。&lt;/p&gt;
+&lt;p&gt;由于我的大部分研究代码都是公开的，我经常告诉编码智能体将我的仓库克隆到&lt;code&gt;/tmp&lt;/code&gt;目录并将其用作输入：
+&lt;div&gt;&lt;textarea&gt;从GitHub克隆`simonw/research`到`/tmp`目录，找到将Rust编译为WebAssembly的示例，然后用它来为这个项目构建一个演示HTML页面。&lt;/textarea&gt;&lt;/div&gt;
+这里的关键思想是，编码智能体意味着我们只需要&lt;em&gt;一次&lt;/em&gt;弄明白一个有用的技巧。如果这个技巧随后在某个地方被记录下来并附有可运行的代码示例，我们的智能体就可以参考该示例，并用它来解决未来任何类似的项目。&lt;/p&gt;
 &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/agentic-engineering"&gt;agentic-engineering&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 26 Feb 2026 20:33:27 +0000</pubDate></item><item><title>引用安德烈·卡帕西的话</title><link>https://simonwillison.net/2026/Feb/26/andrej-karpathy/#atom-everything</link><description>&lt;blockquote cite="https://twitter.com/karpathy/status/2026731645169185220"&gt;&lt;p&gt;很难描述过去两个月里，AI 给编程带来了多大的改变：这种改变并非以“常规进展”的方式逐渐发生，而是特别集中在去年十二月。这其中有许多值得注意的细节，但在我看来，编码智能体在十二月之前基本上无法有效工作，而自十二月起则基本可以了——模型的质量、长期连贯性和持久性都有了显著提升，它们能够攻克庞大而长期的任务，其程度足以对默认的编程工作流程造成极大的颠覆。[...]&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class="cite"&gt;&amp;mdash; &lt;a href="https://twitter.com/karpathy/status/2026731645169185220"&gt;Andrej Karpathy&lt;/a&gt;&lt;/p&gt;
 
@@ -239,22 +258,4 @@
     &lt;p&gt;&lt;small&gt;Via &lt;a href="https://twitter.com/steveruizok/status/2026581824428753211"&gt;@steveruizok&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
 
 
-    &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/open-source"&gt;open-source&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/cloudflare"&gt;cloudflare&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;ai-ethics&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 25 Feb 2026 21:06:53 +0000</pubDate></item><item><title>Claude 代码远程控制</title><link>https://simonwillison.net/2026/Feb/25/claude-code-remote-control/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://code.claude.com/docs/en/remote-control"&gt;Claude Code 远程控制&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-昨天推出了新的 Claude Code 功能：你现在可以在电脑上运行一个“远程控制”会话，然后使用 Claude Code 的网页界面（网页版、iOS 版和原生桌面应用）向该会话发送指令。
-&lt;p&gt;目前它还有点不稳定。我最初尝试时遇到了错误“您的账户未启用远程控制功能。请联系您的管理员。”（但我&lt;em&gt;就是&lt;/em&gt;我的管理员？）——然后我退出并重新登录 Claude Code 终端应用，它就开始工作了：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;claude remote-control
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;你一次只能在一台机器上运行一个会话。如果你升级了 Claude iOS 应用，它会在 Code 标签页中显示为“远程控制会话（Mac）”。&lt;/p&gt;
-&lt;p&gt;它似乎不支持 &lt;code&gt;--dangerously-skip-permissions&lt;/code&gt; 标志（我将其传递给 &lt;code&gt;claude remote-control&lt;/code&gt;，它没有拒绝该选项，但似乎也没有效果）——这意味着你必须批准它采取的每一个新操作。&lt;/p&gt;
-&lt;p&gt;我还设法让它进入了一种状态，即我尝试的每个指令都会遇到 API 500 错误。&lt;/p&gt;
-&lt;p style="text-align: center;"&gt;&lt;img alt="“远程控制会话”（Mac:dev:817b）聊天界面的截图。用户消息：“在音乐应用中播放 Olivia Rodrigo 的 vampire”。响应显示一个 API 错误：500 {&amp;quot;type&amp;quot;:&amp;quot;error&amp;quot;,&amp;quot;error&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;api_error&amp;quot;,&amp;quot;message&amp;quot;:&amp;quot;Internal server error&amp;quot;},&amp;quot;request_id&amp;quot;:&amp;quot;req_011CYVBLH9yt2ze2qehrX8nk&amp;quot;}，带有一个“重试”按钮。下方，助手回复：“我将使用 AppleScript 在音乐应用中播放 Olivia Rodrigo 的‘Vampire’。”一个 Bash 命令面板打开，显示一个 osascript 命令：osascript -e 'tell application &amp;quot;Music&amp;quot; activate set searchResults to search playlist &amp;quot;Library&amp;quot; for &amp;quot;vampire Olivia Rodrigo&amp;quot; if (count of searchResults) &amp;gt; 0 then play item 1 of searchResults else return &amp;quot;Song not found in library&amp;quot; end if end tell'" src="https://static.simonwillison.net/static/2026/vampire-remote.jpg"/&gt;&lt;/p&gt;
-&lt;p&gt;在机器上重启程序也会导致现有会话开始返回神秘的 API 错误，而不是清晰地说明会话已终止。&lt;/p&gt;
-&lt;p&gt;我预计他们会相对较快地解决所有这些问题。有趣的是，可以将此与 OpenClaw 等解决方案进行对比，后者的主要卖点之一就是能够从手机控制你的个人设备。&lt;/p&gt;
-&lt;p&gt;Claude Code 仍然没有记录在案的机制来按计划运行任务，而这是 Claw 类软件的另一个杀手级功能。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;更新&lt;/strong&gt;：我话说得太早了：今天Anthropic还宣布了&lt;a href="https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-cowork"&gt;在Cowork中安排重复任务&lt;/a&gt;，这是Claude Code的&lt;a href="https://simonwillison.net/2026/Jan/12/claude-cowork/"&gt;通用智能体兄弟产品&lt;/a&gt;。这其中确实包含一个重要限制：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;计划任务仅在您的计算机处于唤醒状态且Claude桌面应用程序处于打开状态时运行。如果任务计划运行时您的计算机处于睡眠状态或应用程序已关闭，Cowork将跳过该任务，并在您的计算机唤醒或您再次打开桌面应用程序后自动运行。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;我真心希望他们正在开发Cowork云端产品。
-
-    &lt;p&gt;&lt;small&gt;&lt;/small&gt;通过&lt;a href="https://twitter.com/claudeai/status/2026418433911603668"&gt;@claudeai&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/applescript"&gt;applescript&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/anthropic"&gt;anthropic&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/claude"&gt;claude&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/openclaw"&gt;openclaw&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Wed, 25 Feb 2026 17:33:24 +0000</pubDate></item></channel></rss>
+    &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/open-source"&gt;open-source&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/cloudflare"&gt;cloudflare&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;ai-ethics&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 25 Feb 2026 21:06:53 +0000</pubDate></item></channel></rss>
