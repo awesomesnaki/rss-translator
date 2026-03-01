@@ -12,16 +12,17 @@
 &lt;p&gt;&lt;img alt="一个词云，包含许多单词，颜色和大小各异，较大的单词在中间。" src="https://raw.githubusercontent.com/simonw/research/refs/heads/main/rust-wordcloud/wordcloud.png"/&gt;&lt;/p&gt;
 &lt;p&gt;但它实际上是如何工作的呢？&lt;/p&gt;
 &lt;p&gt;Claude的报告说它使用了“&lt;strong&gt;阿基米德螺旋布局&lt;/strong&gt;，并带有每个单词的随机角度偏移，以实现自然外观的布局”。这对我帮助不大！&lt;/p&gt;
-&lt;p&gt;我请求对代码库进行&lt;a href="https://simonwillison.net/guides/agentic-engineering-patterns/linear-walkthroughs/"&gt;线性走查&lt;/a&gt;，这帮助我更详细地理解了Rust代码——这是&lt;a href="https://github.com/simonw/research/blob/main/rust-wordcloud/walkthrough.md"&gt;那份走查记录&lt;/a&gt;（以及&lt;a href="https://github.com/simonw/research/commit/2cb8c62477173ef6a4c2e274be9f712734df6126"&gt;提示词&lt;/a&gt;）。这帮助我理解了Rust代码的结构，但我仍然对那个“阿基米德螺旋布局”部分实际上如何工作缺乏直观的理解。&lt;/p&gt;&lt;p&gt;于是我要求一个&lt;strong&gt;动画解释&lt;/strong&gt;。我的做法是，将现有&lt;code&gt;walkthrough.md&lt;/code&gt;文档的链接粘贴到一个Claude Code会话中，并附上以下内容：&lt;/p&gt;
-&lt;p&gt;&lt;div&gt;&lt;textarea&gt;使用curl将 https://raw.githubusercontent.com/simonw/research/refs/heads/main/rust-wordcloud/walkthrough.md 获取到 /tmp 目录，以便你能阅读整个文档
+&lt;p&gt;我请求对代码库进行&lt;a href="https://simonwillison.net/guides/agentic-engineering-patterns/linear-walkthroughs/"&gt;线性走查&lt;/a&gt;，这帮助我更详细地理解了Rust代码——这是&lt;a href="https://github.com/simonw/research/blob/main/rust-wordcloud/walkthrough.md"&gt;那份走查记录&lt;/a&gt;（以及&lt;a href="https://github.com/simonw/research/commit/2cb8c62477173ef6a4c2e274be9f712734df6126"&gt;提示词&lt;/a&gt;）。这帮助我理解了Rust代码的结构，但我仍然对那个“阿基米德螺旋布局”部分实际上如何工作缺乏直观的理解。&lt;/p&gt;&lt;p&gt;于是我请求生成一个&lt;strong&gt;动画解释&lt;/strong&gt;。我的做法是，将现有&lt;code&gt;walkthrough.md&lt;/code&gt;文档的链接粘贴到Claude Code会话中，并附上以下内容：&lt;/p&gt;
+&lt;p&gt;&lt;div&gt;&lt;textarea&gt;使用curl获取 https://raw.githubusercontent.com/simonw/research/refs/heads/main/rust-wordcloud/walkthrough.md 到 /tmp 目录，以便你能阅读全文
 
-受此启发，构建一个 animated-word-cloud.html 页面——该页面接受粘贴的文本（文本会持久化在URL的`#fragment`中，这样当页面加载时如果`#`部分有内容，就会自动使用该文本作为输入并提交），当你提交文本时，它会使用该文档中描述的算法生成一个词云，但以动画形式呈现，以使算法尽可能清晰易懂。包含一个动画滑块，可以暂停、调整速度，甚至在暂停时逐帧步进。在任何阶段，都可以将当前可见的进行中的词云下载为PNG图片。&lt;/textarea&gt;&lt;/div&gt;
-你可以&lt;a href="https://tools.simonwillison.net/animated-word-cloud"&gt;在这里体验结果&lt;/a&gt;。这是一个动画GIF演示：&lt;/p&gt;
-&lt;p&gt;&lt;img alt="词语一个接一个地出现在词云上，有小方框显示算法试图放置它们的位置——如果这些方框与现有词语重叠，它会再次尝试。" src="https://static.simonwillison.net/static/2026/animated-word-cloud-demo.gif"/&gt;&lt;/p&gt;
-&lt;p&gt;这次使用的是Claude Opus 4.6，事实证明它在构建解释性动画方面品味相当不错。&lt;/p&gt;
-&lt;p&gt;如果你仔细观察动画，可以看到对于每个词语，它都会尝试通过显示一个方框将其放置在页面上的某个位置，然后检查该方框是否与现有词语相交。如果是，它会继续尝试寻找合适的位置，从中心向外螺旋移动。&lt;/p&gt;
+受此启发，构建一个animated-word-cloud.html页面——该页面接受粘贴的文本（文本会保存在URL的`#fragment`中，这样加载带有该`#`的页面时就会使用该文本作为输入并自动提交），当你提交文本时，它会使用该文档中描述的算法生成词云，但以动画形式呈现，以使算法更易于理解。包含一个动画滑块，可以暂停、调整速度，甚至在暂停时逐帧步进。在任何阶段，都可以将当前可见的进行中的词云下载为PNG图片。&lt;/textarea&gt;&lt;/div&gt;
+你可以&lt;ahref="https://tools.simonwillison.net/animated-word-cloud"&gt;在这里体验结果&lt;/a&gt;。这是一个动画GIF演示：&lt;/p&gt;
+&lt;p&gt;&lt;imgalt="词云上的单词逐个出现，并显示小方框指示算法尝试放置它们的位置——如果这些方框与现有单词重叠，它会再次尝试。"src="https://static.simonwillison.net/static/2026/animated-word-cloud-demo.gif"/&gt;&lt;/p&gt;
+&lt;p&gt;这是使用Claude Opus 4.6完成的，事实证明它在构建解释性动画方面品味相当不错。&lt;/p&gt;
+&lt;p&gt;如果你仔细观察动画，可以看到对于每个单词，它都会尝试通过显示一个方框将其放置在页面上的某个位置，然后检查该方框是否与现有单词相交。如果是，它会继续尝试寻找合适的位置，从中心向外螺旋移动。&lt;/p&gt;
 &lt;p&gt;我发现这个动画确实帮助我理解了算法的工作原理。&lt;/p&gt;
-&lt;p&gt;我一直是动画和交互界面的粉丝，它们有助于解释不同的概念。一个好的编码代理可以按需生成这些内容，以帮助解释代码——无论是它自己编写的代码还是他人编写的代码。&lt;/p&gt;</description><pubDate>Sat, 28 Feb 2026 23:09:39 +0000</pubDate></item><item><title>求求你们，求求你们，求求你们别再使用通行密钥来加密用户数据了。</title><link>https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://blog.timcappalli.me/p/passkeys-prf-warning/"&gt;求求了，求求了，求求你们别再使用通行密钥来加密用户数据了&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;我一直是动画和交互式界面的粉丝，它们有助于解释不同的概念。一个好的编码代理可以按需生成这些内容，以帮助解释代码——无论是它自己的代码还是他人编写的代码。&lt;/p&gt;
+&lt;p&gt;标签：&lt;ahref="https://simonwillison.net/tags/explorables"&gt;explorables&lt;/a&gt;, &lt;ahref="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;ahref="https://simonwillison.net/tags/cognitive-debt"&gt;cognitive-debt&lt;/a&gt;, &lt;ahref="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;ahref="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;ahref="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;ahref="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;ahref="https://simonwillison.net/tags/agentic-engineering"&gt;agentic-engineering&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sat, 28 Feb 2026 23:09:39 +0000</pubDate></item><item><title>求求你们，求求你们，求求你们别再使用通行密钥来加密用户数据了。</title><link>https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://blog.timcappalli.me/p/passkeys-prf-warning/"&gt;求求了，求求了，求求你们别再使用通行密钥来加密用户数据了&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;因为用户&lt;em&gt;总是&lt;/em&gt;会丢失他们的通行密钥，并且可能不明白他们的数据已被这些密钥不可逆转地加密，再也无法恢复。&lt;/p&gt;
 &lt;p&gt;蒂姆·卡帕利：&lt;/p&gt;
 &lt;blockquote&gt;
