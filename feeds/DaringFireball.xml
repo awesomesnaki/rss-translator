@@ -1,5 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 03 Mar 2026 00:20:21 +0000</lastBuildDate><item><title>[赞助商] npx workos：一款直接将身份验证写入代码库的AI代理</title><link>https://workos.com/docs/authkit/cli-installer?utm_source=tldrdev&amp;utm_medium=newsletter&amp;utm_campaign=q12026</link><description>&lt;p&gt;npx workos &lt;a href="https://youtu.be/kU88lUqdduQ?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q12026"&gt;发布了一款AI助手&lt;/a&gt;，它由Claude驱动，能够读取你的项目、检测你的框架，并将完整的身份验证集成直接写入你现有的代码库。它不是一个模板生成器。它会读取你的代码，理解你的技术栈，并编写出适合的集成方案。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 03 Mar 2026 18:11:32 +0000</lastBuildDate><item><title>苹果推出M5 Pro与M5 Max芯片，并重新命名其M系列CPU核心</title><link>https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/</link><description>&lt;p&gt;苹果新闻稿：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;苹果今日宣布推出 M5 Pro 和 M5 Max，这是全球最先进的专业笔记本电脑芯片，为全新的 MacBook Pro 提供动力。这些芯片采用全新的苹果定制融合架构打造。这一创新设计将两个芯片裸片集成到一个单一的系统级芯片中，其中包含强大的 CPU、可扩展的 GPU、媒体引擎、统一内存控制器、神经网络引擎以及 Thunderbolt 5 功能。M5 Pro 和 M5 Max 采用了全新的 18 核 CPU 架构。它包括六个最高性能的核心设计，现在被称为超级核心，这是全球最快的 CPU 核心。与这些核心并列的是 12 个全新的性能核心，针对高能效、多线程工作负载进行了优化。[...]&lt;/p&gt;
+&lt;p&gt;业界领先的超级核心最初是作为 M5 中的性能核心引入的，现在所有基于 M5 的产品——MacBook Air、14 英寸 MacBook Pro、iPad Pro 和 Apple Vision Pro——中的该核心都采用了超级核心这一名称。这是最高性能的核心设计，拥有全球最快的单线程性能，其部分驱动力来自于增加的前端带宽、全新的缓存层级和增强的分支预测。&lt;/p&gt;
+&lt;p&gt;M5 Pro 和 M5 Max 还引入了一个全新的性能核心，该核心经过优化，可为专业工作负载提供更高的能效和多线程性能。与超级核心相结合，这些芯片的多线程性能比 M1 Pro 和 M1 Max 高出多达 2.5 倍。超级核心和性能核心为 MacBook Pro 带来了巨大的性能提升，使其能够轻松处理最耗费 CPU 资源的专业工作负载，例如分析复杂数据或运行要求苛刻的模拟。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这有点令人困惑，但我想——在今天上午与苹果代表进行媒体简报会后——我已经弄清楚了。从 M1 到 M4，有两种 CPU 核心类型：能效核心和性能核心。当常规 M5 芯片在 10 月首次亮相时，苹果继续为其两种核心类型使用相同的名称：能效核心和性能核心。但从今天起，他们正在重新命名这些核心，并引入第三种他们称之为“性能”的核心类型。他们正在为一个全新的 CPU 核心类型重用旧的“性能”名称。所以你可以明白我为什么说这很令人困惑。&lt;/p&gt;
+&lt;p&gt;现在 M5 系列 CPU 中有三种核心类型。能效核心仍然是“能效核心”，但它们只存在于基础款 M5 中。以前被称为“性能”核心的现在被称为“超级”核心，它们存在于所有 M5 芯片中。新的核心类型——比超级核心更节能，比能效核心性能更强——则采用了旧的名称“性能核心”。以下是核心数量的表格形式，其中 15 核和 18 核 M5 Pro 变体有单独的行：&lt;/p&gt;Markdown 表格：
+|        | 效率 | 性能 | 超级 |
+| ------ | :--------: | :---------: | :---: |
+| M5     |     6      | — |   4   |
+| M5 Pro | — |     10      |   5   |
+| M5 Pro | — |     12      |   6   |
+| M5 Max | — |     12      |   6   |
+
+&lt;div class="article"&gt;
+&lt;table width="400"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th align="center"&gt;效率&lt;/th&gt;
+&lt;th align="center"&gt;性能&lt;/th&gt;
+&lt;th align="center"&gt;超级&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;M5&lt;/td&gt;
+&lt;td align="center"&gt;6&lt;/td&gt;
+&lt;td align="center"&gt;—&lt;/td&gt;
+&lt;td align="center"&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;M5 Pro&lt;/td&gt;
+&lt;td align="center"&gt;—&lt;/td&gt;
+&lt;td align="center"&gt;10&lt;/td&gt;
+&lt;td align="center"&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;M5 Pro&lt;/td&gt;
+&lt;td align="center"&gt;—&lt;/td&gt;
+&lt;td align="center"&gt;12&lt;/td&gt;
+&lt;td align="center"&gt;6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;M5 Max&lt;/td&gt;
+&lt;td align="center"&gt;—&lt;/td&gt;
+&lt;td align="center"&gt;12&lt;/td&gt;
+&lt;td align="center"&gt;6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p&gt;另一种理解方式是，普通的 M5 芯片中有常规的效率核心，而在 M5 Pro 和 M5 Max 中，有一种新的、性能更高的效率核心被称为“性能”核心。问题在于，旧的 M1–M4 命名很清晰——一种 CPU 核心类型速度快但针对效率进行了优化，所以他们称之为“效率”核心；另一种核心类型效率高但针对性能进行了优化，所以他们称之为“性能”核心。现在，新的“性能”核心类型是 Pro 和 Max 芯片中针对效率优化的 CPU 核心，尽管名字如此，它们却并非性能最强的核心。&lt;/p&gt;
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/03/03/apple-debuts-m5-pro-and-m5-max" title="永久链接至‘Apple Debuts M5 Pro and M5 Max, and Renames Its M-Series CPU Cores’"&gt; ★ &lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Tue, 03 Mar 2026 18:11:32 +0000</pubDate></item><item><title>[赞助商] npx workos：一款直接将身份验证写入代码库的AI代理</title><link>https://workos.com/docs/authkit/cli-installer?utm_source=tldrdev&amp;utm_medium=newsletter&amp;utm_campaign=q12026</link><description>&lt;p&gt;npx workos &lt;a href="https://youtu.be/kU88lUqdduQ?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q12026"&gt;发布了一款AI助手&lt;/a&gt;，它由Claude驱动，能够读取你的项目、检测你的框架，并将完整的身份验证集成直接写入你现有的代码库。它不是一个模板生成器。它会读取你的代码，理解你的技术栈，并编写出适合的集成方案。&lt;/p&gt;
 
 &lt;p&gt;然后，&lt;a href="https://workos.com/?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q12026"&gt;WorkOS&lt;/a&gt;助手会进行类型检查和构建，并将任何错误反馈给它自己进行修复。&lt;/p&gt;
 
@@ -7,16 +63,16 @@
 
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/feeds/sponsors/2026/03/npx_workos_an_ai_agent_that_wr" title="Permanent link to ‘npx workos: An AI Agent That Writes Auth Directly Into Your Codebase’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Tue, 03 Mar 2026 00:20:21 +0000</pubDate></item><item><title>★ HazeOver — 用于高亮最前端窗口的Mac实用工具</title><link>https://daringfireball.net/2026/03/hazeover</link><description>&lt;p&gt;去年12月，&lt;a href="https://daringfireball.net/linked/2025/12/03/alan-app"&gt;我曾链接到&lt;/a&gt;泰勒·霍尔的一个有点噱头性质的项目&lt;a href="https://tyler.io/2025/11/26/alan/"&gt;Alan.app&lt;/a&gt;——一个简单的Mac实用工具，它会在当前活动窗口周围绘制一个粗体矩形框。Alan.app允许你设置框的粗细和颜色。我用了大约一个小时就放弃了。它确实解决了在近期MacOS版本中难以瞬间识别活动窗口这个严重（且日益恶化）的问题，但Alan.app实现方式的粗糙，使其成为那种“治疗比疾病本身更糟糕”的案例。最终，我宁愿忍受几乎无法区分的活动窗口状态，也不愿每天看着Alan.app那粗糙的活动窗口框。Alan.app让我觉得有趣的地方在于，它作为一个“抗议应用”的有效性。Alan.app粗糙解决方案的荒谬性，突显了根本问题的荒谬性——竟然有人会&lt;em&gt;考虑&lt;/em&gt;运行Alan.app（或者说霍尔有动力去创建并发布它），这本身就说明了近期MacOS版本的窗口化用户界面有多糟糕。&lt;/p&gt;
-&lt;p&gt;事实证明，有一款应用试图以一种优雅的方式解决这个问题，你可能真的愿意长期使用它。它叫&lt;a href="https://hazeover.com/"&gt;HazeOver&lt;/a&gt;，开发者马克西姆·阿纳诺夫在十年前首次发布。它&lt;a href="https://apps.apple.com/us/app/hazeover-distraction-dimmer/id430798174?mt=12"&gt;在Mac App Store售价5美元&lt;/a&gt;，也包含在&lt;a href="https://go.setapp.com/stp130?refAppID=212&amp;amp;stc=index"&gt;SetApp订阅服务&lt;/a&gt;中，并且可以从其网站&lt;a href="https://hazeover.com/"&gt;免费试用&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;HazeOver的做法是通过调暗所有背景窗口来突出活动窗口。仅此而已。但它把这个简单的任务完成得非常出色，并且显著改善了MacOS的日常可用性。不仅仅是MacOS 26 Tahoe——所有近期版本的MacOS都存在一个设计问题，使得难以瞬间区分最前面（即关键）窗口和背景窗口。&lt;sup id="fnr1-2026-03-02"&gt;&lt;a href="https://daringfireball.net/#fn1-2026-03-02"&gt;1&lt;/a&gt;&lt;/sup&gt; 让所有背景窗口稍微变暗一点，效果就大不相同。&lt;/p&gt;
-&lt;p&gt;DF的长期读者&lt;a href="https://www.faisal.com/"&gt;费萨尔·贾瓦达特&lt;/a&gt;在我链接到Alan.app后，于12月初给我发了一条消息，建议我试试HazeOver。我一直拖到12月30日才尝试HazeOver，并且从那以后一直在使用它。一开始我做的一件事是，&lt;em&gt;没有&lt;/em&gt;将HazeOver设置为登录时自动启动。这样，每次我重启或注销后，都会回到默认的MacOS 15 Sequoia界面，那里的背景窗口不会被调暗。我想看看当HazeOver不运行时，我是否会想念它。每次我都注意到了，并且确实想念它。我现在已将其设置为登录时自动启动。&lt;/p&gt;&lt;p&gt;HazeOver的默认设置对我来说有点过于强烈。默认情况下，它会将背景窗口调暗35%。我已将其调低至仅10%，这对我来说已经足够明显了。我理解为什么HazeOver的默认调暗效果如此强烈——它旨在突出HazeOver正在做什么。但当你习惯之后，你可能会发现，就像我一样，一点点效果就大有不同。（Jawdat告诉我，他把自己机器上的设置降到了12%。）我还调整了HazeOver的动画设置，从默认的"缓出，0.3秒"改为"缓入缓出，0.1秒"——我希望窗口切换感觉&lt;em&gt;快、快、快&lt;/em&gt;。&lt;/p&gt;
+&lt;/div&gt;</description><pubDate>Tue, 03 Mar 2026 00:20:21 +0000</pubDate></item><item><title>★ HazeOver — 用于高亮最前端窗口的Mac实用工具</title><link>https://daringfireball.net/2026/03/hazeover</link><description>&lt;p&gt;去年12月，&lt;a href="https://daringfireball.net/linked/2025/12/03/alan-app"&gt;我曾链接到&lt;/a&gt;泰勒·霍尔的一个有点噱头性质的项目&lt;a href="https://tyler.io/2025/11/26/alan/"&gt;Alan.app&lt;/a&gt;——一个简单的Mac实用工具，它会在当前活动窗口周围画一个粗矩形框。Alan.app允许你设置框的粗细和颜色。我用了一个小时左右就放弃了。它确实解决了在近期MacOS版本中难以瞬间识别活动窗口这个严重（且日益恶化）的问题，但Alan.app实现方式的粗糙，使其成为那种“治疗比疾病本身更糟糕”的案例。最终，我宁愿忍受几乎无法区分的活动窗口状态，也不愿每天看着Alan.app那粗糙的活动窗口框。Alan.app让我觉得有趣的地方在于，它作为一个抗议性应用的有效性。Alan.app粗糙解决方案的荒谬性，突显了根本问题的荒谬性——竟然有人会&lt;em&gt;考虑&lt;/em&gt;运行Alan.app（或者说霍尔有动力去创建并发布它），这本身就说明了近期MacOS版本的窗口化UI有多糟糕。&lt;/p&gt;
+&lt;p&gt;事实证明，存在一个应用试图以一种优雅的方式解决这个问题，而且你可能真的愿意长期使用它。它叫&lt;a href="https://hazeover.com/"&gt;HazeOver&lt;/a&gt;，开发者马克西姆·阿纳诺夫在十年前首次发布。它&lt;a href="https://apps.apple.com/us/app/hazeover-distraction-dimmer/id430798174?mt=12"&gt;在Mac App Store售价5美元&lt;/a&gt;，也&lt;a href="https://go.setapp.com/stp130?refAppID=212&amp;amp;stc=index"&gt;包含在SetApp订阅服务中&lt;/a&gt;，并且可以在其网站&lt;a href="https://hazeover.com/"&gt;免费试用&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;HazeOver的做法是通过调暗所有背景窗口来突出活动窗口。就这样。但它以从容不迫的方式完成了这个简单的任务，并且显著改善了MacOS的日常可用性。不仅仅是MacOS 26 Tahoe——所有近期版本的MacOS都因设计问题而难以瞬间区分最前面（即关键）窗口和背景窗口。&lt;sup id="fnr1-2026-03-02"&gt;&lt;a href="https://daringfireball.net/#fn1-2026-03-02"&gt;1&lt;/a&gt;&lt;/sup&gt; 让所有背景窗口稍微变暗一点，效果就大不相同。&lt;/p&gt;
+&lt;p&gt;DF的长期读者&lt;a href="https://www.faisal.com/"&gt;费萨尔·贾瓦达特&lt;/a&gt;在我链接到Alan.app之后，于12月初给我发了一条消息，建议我试试HazeOver。我一直拖到12月30日才尝试HazeOver，并且从那以后一直在使用它。一开始我做的一件事是&lt;em&gt;没有&lt;/em&gt;将HazeOver设置为登录时自动启动。这样，每次我重启或注销后，都会回到默认的MacOS 15 Sequoia界面，那里的背景窗口不会被调暗。我想看看当HazeOver不运行时，我是否会想念它。每次我都注意到了，并且确实想念它。我现在已将其设置为登录时自动启动。&lt;/p&gt;&lt;p&gt;HazeOver的默认设置对我来说有点过于强烈。默认情况下，它会将背景窗口调暗35%。我已将其调低至仅10%，这对我来说已经足够明显了。我理解为什么HazeOver的默认调暗程度如此强烈——它强调了HazeOver正在做什么。（此外，有些人选择使用HazeOver来避免被背景窗口内容分散注意力——在这种情况下，你可能希望从默认设置增加调暗程度，而不是减少。）但当你习惯之后，你可能会发现，就像我一样，一点点效果就大有裨益。（Jawdat告诉我，他在自己的机器上已降至12%。）我还调整了HazeOver的动画设置，从默认的"缓出，0.3秒"改为"缓入缓出，0.1秒"——我希望切换窗口的感觉&lt;em&gt;快、快、快&lt;/em&gt;。&lt;/p&gt;
 &lt;p&gt;强烈推荐，并且&lt;a href="https://apps.apple.com/us/app/hazeover-distraction-dimmer/id430798174?mt=12"&gt;仅售5美元&lt;/a&gt;，堪称真正的实惠。&lt;/p&gt;
 &lt;div class="footnotes"&gt;
 &lt;hr/&gt;
 &lt;ol&gt;
 &lt;li id="fn1-2026-03-02"&gt;
-&lt;p&gt;HazeOver网站上还有一个链接指向针对MacOS 26 Tahoe特定更新的测试版。需要明确的是，目前在App Store中可用的正式发布版本在Tahoe上运行良好。但测试版拥有一个Liquid Glass风格的系统设置窗口，并解决了在Tahoe上菜单栏有时显得过暗的边缘情况。&lt;a class="footnoteBackLink" href="https://daringfireball.net/#fnr1-2026-03-02" title="跳转回正文中的脚注1。"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;HazeOver网站上还有一个链接指向针对MacOS 26 Tahoe特定更新的测试版。需要明确的是，目前在App Store中可用的当前发布版本在Tahoe上运行良好。但测试版拥有一个Liquid Glass风格的设置窗口，并解决了在Tahoe上菜单栏有时显得过于暗淡的边缘情况。 &lt;a class="footnoteBackLink" href="https://daringfireball.net/#fnr1-2026-03-02" title="跳转回正文中的脚注1。"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;</description><pubDate>Mon, 02 Mar 2026 23:41:11 +0000</pubDate></item><item><title>无名英雄：Flickr的URL方案</title><link>https://unsung.aresluna.org/unsung-heroes-flickrs-urls-scheme/</link><description>&lt;p&gt;马辛·维查里在《无名英雄》（一个极其出色且有趣的博客）中写道：&lt;/p&gt;
@@ -153,20 +209,4 @@ URL 过滤器：«&lt;em&gt;留空则应用于所有 URL&lt;/em&gt;» &lt;br/&gt
 
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/linked/2026/03/02/seasonal-color-updates-apple-cases-and-bands" title="‘苹果iPhone保护壳和Apple Watch表带季节性色彩更新’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Mon, 02 Mar 2026 17:52:59 +0000</pubDate></item><item><title>苹果推出搭载M4芯片的新款iPad Air</title><link>https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-ipad-air-powered-by-m4/</link><description>&lt;p&gt;苹果新闻稿：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;苹果今日宣布推出新款 &lt;a href="https://www.apple.com/ipad-air/"&gt;iPad Air&lt;/a&gt;，搭载 M4 芯片并提供更多内存，在相同的起售价下为用户带来性能的巨大飞跃。凭借更快的 CPU 和 GPU，iPad Air 提升了编辑和游戏等任务的处理能力，并通过更快的神经网络引擎、更高的内存带宽以及比上一代多 50% 的统一系统内存，成为强大的人工智能设备。搭载 M4 芯片的 iPad Air 比搭载 M3 芯片的 iPad Air 快达 30%，比搭载 M1 芯片的 iPad Air 快达 2.3 倍。新款 iPad Air 还配备了苹果最新的硅连接芯片 N1 和 C1X，提供快速的无线和蜂窝网络连接——并支持 Wi-Fi 7——使用户能够在任何地方工作和创作。[...]&lt;/p&gt;
-
-&lt;p&gt;新款 iPad Air 的起售价与之前相同，11 英寸型号仅为 599 美元，13 英寸型号为 799 美元，性价比极高。对于教育领域，11 英寸 iPad Air 起售价为 549 美元，13 英寸型号起售价为 749 美元。顾客可以从 3 月 4 日星期三开始预购 iPad Air，并于 3 月 11 日星期三开始正式发售。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;看来我关于苹果本周会按产品线分开发布（例如周一发布 iPhone 17e，周二发布 iPad，周三发布 MacBook）的理论是站不住脚了。或许不带形容词的 iPad 基础款更新不会在本周到来？&lt;/p&gt;
-
-&lt;p&gt;除了从 M3 升级到 M4 带来的速度提升，这一代 iPad Air 与上一代几乎没有区别。甚至连颜色都相同（深空灰色、蓝色、紫色和星光色）。&lt;a href="https://www.apple.com/ipad/compare/?modelList=ipad-pro-11-m5,ipad-air-11-m4,ipad-air-11-m3"&gt;这里是苹果 iPad 对比页面的链接&lt;/a&gt;，预设为并排显示当前的 M5 iPad Pro、新款 M4 iPad Air 和旧款 M3 iPad Air。&lt;/p&gt;
-
-&lt;p&gt;一个有趣的技术规格：新款 M4 iPad Air 机型配备了 12 GB 内存，高于去年 M3 机型的 8 GB。而对于 M5 iPad Pro 机型，内存与存储容量挂钩：256/512 GB 的 iPad Pro 配备 12 GB 内存；1/2 TB 的机型则配备 16 GB 内存。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/03/02/apple-introduces-new-ipad-air-with-m4" title="‘Apple Introduces New iPad Air With M4’ 的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Mon, 02 Mar 2026 17:40:30 +0000</pubDate></item></channel></rss>
+&lt;/div&gt;</description><pubDate>Mon, 02 Mar 2026 17:52:59 +0000</pubDate></item></channel></rss>
