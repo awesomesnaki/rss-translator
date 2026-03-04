@@ -1,5 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Tue, 03 Mar 2026 23:59:04 +0000</lastBuildDate><item><title>引用唐纳德·克努斯的话</title><link>https://simonwillison.net/2026/Mar/3/donald-knuth/#atom-everything</link><description>&lt;blockquote cite="https://www-cs-faculty.stanford.edu/~knuth/papers/claude-cycles.pdf"&gt;&lt;p&gt;震惊！太震惊了！我昨天得知，我研究了好几周的一个开放性问题，刚刚被三周前发布的Claude Opus 4.6——Anthropic的混合推理模型——解决了！看来我不得不找个时间修正一下我对“生成式AI”的看法了。得知我的猜想有一个漂亮的解决方案，并且庆祝自动推理和创造性问题解决领域的这一戏剧性进步，这真是一件令人欣喜的事。&lt;/p&gt;&lt;/blockquote&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Wed, 04 Mar 2026 17:34:42 +0000</lastBuildDate><item><title>反模式：应避免的做法</title><link>https://simonwillison.net/guides/agentic-engineering-patterns/anti-patterns/#atom-everything</link><description>&lt;p&gt;&lt;em&gt;&lt;a href="https://simonwillison.net/guides/agentic-engineering-patterns/"&gt;智能体工程模式&lt;/a&gt; &amp;gt;&lt;/em&gt;&lt;/p&gt;
+    &lt;p&gt;在我们这个奇特的智能体工程新世界里，存在一些行为属于反模式。&lt;/p&gt;
+&lt;h2 id="inflicting-unreviewed-code-on-collaborators"&gt;将未经审查的代码强加给协作者&lt;/h2&gt;
+&lt;p&gt;这种反模式很常见，并且非常令人沮丧。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;不要提交你自己没有审查过的代码的拉取请求&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;如果你打开一个包含数百（或数千）行由智能体为你生成的代码的PR，而你自己没有做工作去确保这些代码是功能性的，那么你就是在把实际工作委托给其他人。&lt;/p&gt;
+&lt;p&gt;他们自己也可以去提示一个智能体。你到底提供了什么价值？&lt;/p&gt;
+&lt;p&gt;如果你把代码提交审查，你需要确信它已经准备好让别人花时间来处理。最初的审查是你的责任，而不是你应该外包给别人的事情。&lt;/p&gt;
+&lt;p&gt;一个好的智能体工程拉取请求具有以下特点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;代码能工作，并且你确信它能工作。&lt;a href="https://simonwillison.net/2025/Dec/18/code-proven-to-work/"&gt;你的工作是交付能工作的代码&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;变更足够小，可以高效地审查，不会给审查者带来过多的额外认知负担。几个小的PR胜过一个大PR，而且用编码智能体为你处理Git操作，将代码拆分成独立的提交很容易。&lt;/li&gt;
+&lt;li&gt;PR包含额外的上下文来帮助解释变更。这个变更服务于什么更高层次的目标？在这里链接到相关的问题或规范很有用。&lt;/li&gt;
+&lt;li&gt;智能体会写出看起来很令人信服的拉取请求描述。这些你也需要审查！期望别人去阅读你自己没有读过和验证过的文字是很无礼的。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;考虑到将未经审查的代码丢给别人是如此容易，我建议包含某种形式的证据，证明你自己已经投入了额外的努力。关于你如何手动测试的笔记、对特定实现选择的评论，甚至是功能正常运行的截图和视频，都能&lt;em&gt;极大地&lt;/em&gt;证明审查者的时间不会浪费在深挖细节上。&lt;/p&gt;
+    
+        &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;ai-ethics&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/agentic-engineering"&gt;agentic-engineering&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/code-review"&gt;code-review&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 04 Mar 2026 17:34:42 +0000</pubDate></item><item><title>Qwen之地，暗流涌动。</title><link>https://simonwillison.net/2026/Mar/4/qwen/#atom-everything</link><description>&lt;p&gt;我还没能及时撰写关于Qwen 3.5的文章，这是阿里巴巴通义千问团队在过去几周发布的一个真正卓越的开源模型系列。鉴于该团队在过去24小时内有一些非常高调的成员离职，我希望3.5系列不会成为Qwen的绝唱。&lt;/p&gt;
+&lt;p&gt;这一切始于林俊旸（&lt;a href="https://twitter.com/JustinLin610"&gt;@JustinLin610&lt;/a&gt;）的&lt;a href="https://twitter.com/JustinLin610/status/2028865835373359513"&gt;这条推文&lt;/a&gt;：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我卸任了。再见，我亲爱的千问。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;林俊旸是构建Qwen的首席研究员，也是推动他们从2024年起发布开源模型的关键人物。&lt;/p&gt;
+&lt;p&gt;据我所知，这次辞职的一个触发因素是阿里巴巴内部的一次重组，一位从谷歌Gemini团队新聘用的研究员被任命负责Qwen，但我尚未确认这一细节。&lt;/p&gt;
+&lt;p&gt;更多信息可在&lt;a href="https://www.36kr.com/p/3708425301749891"&gt;36kr.com的这篇文章&lt;/a&gt;中找到。这里是&lt;a href="https://en.wikipedia.org/wiki/36Kr"&gt;关于36Kr的维基百科&lt;/a&gt;，证实了它是一个成立于2010年、在报道中国科技行业方面有良好记录的可信媒体来源。&lt;/p&gt;
+&lt;p&gt;文章是中文的——以下是通过谷歌翻译的一些引述：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;北京时间3月4日下午1点左右，通义实验室召开紧急全员会议，阿里巴巴集团CEO吴泳铭向千问员工坦言。&lt;/p&gt;
+&lt;p&gt;十二小时前（北京时间3月4日凌晨0点11分），阿里巴巴千问大模型技术负责人林俊旸在X上突然宣布离职。林俊旸是推动阿里巴巴开源AI模型的关键人物，也是阿里巴巴最年轻的P10员工之一。在行业哗然中，千问团队的许多成员也无法接受团队核心人物的突然离开。&lt;/p&gt;
+&lt;p&gt;"在资源远少于竞争对手的情况下，俊旸的领导力是取得今天成果的核心因素之一，"多位千问成员告诉36Kr。[...]&lt;/p&gt;
+&lt;p&gt;关于林俊旸的去向，会议并未得出新的结论。然而，下午2点左右，林俊旸再次在微信朋友圈发文称："千问的兄弟们，按原计划继续，没问题"，并未明确确认他是否会回归。[...]&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;那篇文章还列出了其他几位显然也已辞职的关键成员：&lt;/p&gt;&lt;blockquote&gt;
+&lt;p&gt;随着林俊阳的离职，通义千问团队的其他几位成员也宣布了离职，其中包括负责通义千问模型各子领域的核心负责人，例如：&lt;/p&gt;
+&lt;p&gt;惠彬源：领导通义千问代码开发，是Qwen-Coder系列模型的主要负责人，负责从预训练到后训练的整个智能体训练流程，近期还参与了机器人研究。&lt;/p&gt;
+&lt;p&gt;余博文：领导通义千问后训练研究，毕业于中国科学院大学，领导开发了Qwen-Instruct系列模型。&lt;/p&gt;
+&lt;p&gt;李开心：通义千问3.5/VL/Coder的核心贡献者，拥有新加坡国立大学博士学位。&lt;/p&gt;
+&lt;p&gt;除了上述人员，许多年轻的研究人员也在同一天辞职。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;基于以上情况，在我看来一切仍然充满变数。阿里巴巴CEO出席“紧急全员会议”表明，公司理解这些离职的重要性，或许仍有可能留住部分即将离开的人才。&lt;/p&gt;
+&lt;h4 id="qwen-3-5-is-exceptional"&gt;通义千问3.5表现卓越&lt;/h4&gt;
+&lt;p&gt;这个故事在当前尤其令人痛心，因为通义千问3.5模型看起来&lt;em&gt;异常&lt;/em&gt;出色。&lt;/p&gt;
+&lt;p&gt;我还没有花足够的时间深入研究它们，但这个新模型家族的规模令人印象深刻。他们从&lt;a href="https://simonwillison.net/2026/Feb/17/qwen35/"&gt;2月17日的Qwen3.5-397B-A17B&lt;/a&gt;开始——这是一个807GB的模型——随后又发布了&lt;a href="https://huggingface.co/collections/Qwen/qwen35"&gt;一系列更小的兄弟模型&lt;/a&gt;，包括122B、35B、27B、9B、4B、2B、0.8B等尺寸。&lt;/p&gt;
+&lt;p&gt;我听到关于27B和35B模型在编码任务上的积极反馈，它们仍然可以在32GB/64GB的Mac上运行。我也尝试了9B、4B和2B模型，考虑到它们微小的体积，我发现它们的效果显著。那个2B模型只有4.57GB——量化后甚至小到1.27GB——却是一个完整的推理和多模态（视觉）模型。&lt;/p&gt;
+&lt;p&gt;如果通义千问团队现在解散，那将是一个真正的悲剧，因为他们已经证明了自己有能力持续找到新方法，在越来越小的模型上取得高质量的结果。&lt;/p&gt;
+&lt;p&gt;如果那些核心的通义千问团队成员要么开创一番新事业，要么加入另一个研究实验室，我期待看到他们下一步会做什么。&lt;/p&gt;
+&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/qwen"&gt;qwen&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-in-china"&gt;ai-in-china&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 04 Mar 2026 15:50:03 +0000</pubDate></item><item><title>引用唐纳德·克努斯的话</title><link>https://simonwillison.net/2026/Mar/3/donald-knuth/#atom-everything</link><description>&lt;blockquote cite="https://www-cs-faculty.stanford.edu/~knuth/papers/claude-cycles.pdf"&gt;&lt;p&gt;震惊！太震惊了！我昨天得知，我研究了好几周的一个开放性问题，刚刚被三周前发布的Claude Opus 4.6——Anthropic的混合推理模型——解决了！看来我不得不找个时间修正一下我对“生成式AI”的看法了。得知我的猜想有一个漂亮的解决方案，并且庆祝自动推理和创造性问题解决领域的这一戏剧性进步，这真是一件令人欣喜的事。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class="cite"&gt;&amp;mdash; &lt;a href="https://www-cs-faculty.stanford.edu/~knuth/papers/claude-cycles.pdf"&gt;Donald Knuth&lt;/a&gt;, Claude's Cycles&lt;/p&gt;
 
     &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/november-2025-inflection"&gt;november-2025-inflection&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude"&gt;claude&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/donald-knuth"&gt;donald-knuth&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llm-reasoning"&gt;llm-reasoning&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/anthropic"&gt;anthropic&lt;/a&gt;&lt;/p&gt;</description><pubDate>Tue, 03 Mar 2026 23:59:04 +0000</pubDate></item><item><title>双子座 3.1 闪电精简版</title><link>https://simonwillison.net/2026/Mar/3/gemini-31-flash-lite/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/"&gt;Gemini 3.1 Flash-Lite&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -166,25 +212,4 @@
 &lt;/blockquote&gt;
 &lt;p&gt;这篇文章中一句随口提及的话启发了我&lt;a href="https://github.com/simonw/research/tree/main/rust-wordcloud#readme"&gt;让Claude Code构建一个Rust词云命令行工具&lt;/a&gt;，而它愉快地照做了。&lt;/p&gt;
 
-    &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/python"&gt;python&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/rust"&gt;rust&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/max-woolf"&gt;max-woolf&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/agentic-engineering"&gt;agentic-engineering&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/november-2025-inflection"&gt;november-2025-inflection&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 27 Feb 2026 20:43:41 +0000</pubDate></item><item><title>免费Claude Max面向（大型项目）开源维护者</title><link>https://simonwillison.net/2026/Feb/27/claude-max-oss-six-months/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://claude.com/contact-sales/claude-for-oss"&gt;为（大型项目）开源维护者提供免费的Claude Max&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Anthropic现在为开源维护者免费提供其价值200美元/月的Claude Max 20x计划...为期六个月...但您需要满足以下条件：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;维护者：&lt;/strong&gt; 您是一个拥有5000+ GitHub星标&lt;em&gt;或&lt;/em&gt;100万+月NPM下载量的公共仓库的主要维护者或核心团队成员。您在过去3个月内进行过提交、发布或PR审查。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;不完全符合条件？&lt;/strong&gt; 如果您维护着生态系统默默依赖的项目，也请申请并告诉我们具体情况。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;细则中还提到：“申请将滚动审核。我们最多接受10,000名贡献者”。&lt;/p&gt;
-
-&lt;p&gt;&lt;small&gt;Via &lt;a href="https://news.ycombinator.com/item?id=47178371"&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/open-source"&gt;open-source&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/anthropic"&gt;anthropic&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude"&gt;claude&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 27 Feb 2026 18:08:22 +0000</pubDate></item><item><title>Unicode浏览器：基于fetch() HTTP范围请求的二分查找实现</title><link>https://simonwillison.net/2026/Feb/27/unicode-explorer/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://tools.simonwillison.net/unicode-binary-search"&gt;使用 fetch() HTTP 范围请求进行二分查找的 Unicode 探索器&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-这是我今天早上在手机上构建的一个小原型，作为 HTTP 范围请求的实验，也是使用 LLM 来满足好奇心的一个通用示例。
-&lt;p&gt;我收集&lt;a href="https://simonwillison.net/tags/http-range-requests/"&gt;HTTP 范围请求技巧&lt;/a&gt;已经有一段时间了，我决定自己用它们构建一些有趣的东西，利用二分查找来处理一个大文件，并做一些有用的事情。&lt;/p&gt;
-&lt;p&gt;于是我和&lt;a href="https://claude.ai/share/47860666-cb20-44b5-8cdb-d0ebe363384f"&gt;Claude 进行了头脑风暴&lt;/a&gt;。挑战在于为二分查找想出一个用例，其中数据可以自然地以有利于二分查找的方式进行排序。&lt;/p&gt;
-&lt;p&gt;Claude 的建议之一是查找 Unicode 码点的信息，这意味着要搜索许多 MB 的元数据。&lt;/p&gt;
-&lt;p&gt;我让 Claude 为我写了一个规范，准备喂给 Claude Code——&lt;a href="https://github.com/simonw/research/pull/90#issue-4001466642"&gt;可以在这里看到&lt;/a&gt;——然后针对我的&lt;a href="https://github.com/simonw/research"&gt;simonw/research&lt;/a&gt;仓库，启动了一个&lt;a href="https://simonwillison.net/2025/Nov/6/async-code-research/"&gt;异步研究项目&lt;/a&gt;，使用 Claude Code for web 来将其转化为可运行的代码。&lt;/p&gt;
-&lt;p&gt;这是&lt;a href="https://github.com/simonw/research/tree/main/unicode-explorer-binary-search#readme"&gt;最终的报告和代码&lt;/a&gt;。我学到的一个有趣的事情是，范围请求技巧与 HTTP 压缩不兼容，因为它们会扰乱字节偏移量的计算。我在 &lt;code&gt;fetch()&lt;/code&gt; 调用中添加了 &lt;code&gt;'Accept-Encoding': 'identity'&lt;/code&gt;，但这实际上并不必要，因为 Cloudflare 和其他 CDN 如果检测到 &lt;code&gt;content-range&lt;/code&gt; 头，会自动跳过压缩。&lt;/p&gt;
-&lt;p&gt;我将结果&lt;a href="https://tools.simonwillison.net/unicode-binary-search"&gt;部署到了我的 tools.simonwillison.net 网站&lt;/a&gt;，在此之前，我先调整了它，使其通过范围请求查询一个存储在 S3 桶中、由 Cloudflare 提供前端服务并启用了 CORS 的 76.6MB 文件。&lt;/p&gt;
-&lt;p&gt;这个演示玩起来很有趣——输入一个像 &lt;code&gt;ø&lt;/code&gt; 这样的单个字符，或者像 &lt;code&gt;1F99C&lt;/code&gt; 这样的十六进制码点指示符，它就会通过二分查找遍历这个大文件，并向你展示它沿途采取的步骤：&lt;/p&gt;&lt;p&gt;&lt;img alt="一个名为Unicode Explore的网页工具的动态演示。我输入&amp;符号并点击搜索。下方框内显示了一系列HTTP二分查找请求，经过17步找到结果，传输了3,864字节，并告诉我&amp;符号是基本拉丁语中其他标点符号的U+0026" src="https://static.simonwillison.net/static/2026/unicode-explore.gif"/&gt;
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/algorithms"&gt;算法&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/http"&gt;http&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/research"&gt;研究&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/tools"&gt;工具&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/unicode"&gt;unicode&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;人工智能辅助编程&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/vibe-coding"&gt;氛围编程&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/http-range-requests"&gt;http范围请求&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Fri, 27 Feb 2026 17:50:54 +0000</pubDate></item></channel></rss>
+    &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/python"&gt;python&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/rust"&gt;rust&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/max-woolf"&gt;max-woolf&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/agentic-engineering"&gt;agentic-engineering&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/november-2025-inflection"&gt;november-2025-inflection&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 27 Feb 2026 20:43:41 +0000</pubDate></item></channel></rss>
