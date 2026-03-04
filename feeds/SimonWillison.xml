@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Mon, 02 Mar 2026 16:35:10 +0000</lastBuildDate><item><title>使用WebAssembly和Gifsicle的GIF优化工具</title><link>https://simonwillison.net/guides/agentic-engineering-patterns/gif-optimization/#atom-everything</link><description>&lt;p&gt;&lt;em&gt;&lt;a href="https://simonwillison.net/guides/agentic-engineering-patterns/"&gt;智能体工程模式&lt;/a&gt; &amp;gt;&lt;/em&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Tue, 03 Mar 2026 23:59:04 +0000</lastBuildDate><item><title>引用唐纳德·克努斯的话</title><link>https://simonwillison.net/2026/Mar/3/donald-knuth/#atom-everything</link><description>&lt;blockquote cite="https://www-cs-faculty.stanford.edu/~knuth/papers/claude-cycles.pdf"&gt;&lt;p&gt;震惊！太震惊了！我昨天得知，我研究了好几周的一个开放性问题，刚刚被三周前发布的Claude Opus 4.6——Anthropic的混合推理模型——解决了！看来我不得不找个时间修正一下我对“生成式AI”的看法了。得知我的猜想有一个漂亮的解决方案，并且庆祝自动推理和创造性问题解决领域的这一戏剧性进步，这真是一件令人欣喜的事。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class="cite"&gt;&amp;mdash; &lt;a href="https://www-cs-faculty.stanford.edu/~knuth/papers/claude-cycles.pdf"&gt;Donald Knuth&lt;/a&gt;, Claude's Cycles&lt;/p&gt;
+
+    &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/november-2025-inflection"&gt;november-2025-inflection&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude"&gt;claude&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/donald-knuth"&gt;donald-knuth&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llm-reasoning"&gt;llm-reasoning&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/anthropic"&gt;anthropic&lt;/a&gt;&lt;/p&gt;</description><pubDate>Tue, 03 Mar 2026 23:59:04 +0000</pubDate></item><item><title>双子座 3.1 闪电精简版</title><link>https://simonwillison.net/2026/Mar/3/gemini-31-flash-lite/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/"&gt;Gemini 3.1 Flash-Lite&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这是谷歌最新推出的模型，是其经济型Flash-Lite系列的一次更新。其输入价格为每百万令牌0.25美元，输出价格为每百万令牌1.5美元，仅为Gemini 3.1 Pro价格的八分之一。&lt;/p&gt;
+&lt;p&gt;它支持四种不同的思维层级，因此我让它输出了&lt;a href="https://gist.github.com/simonw/99fb28dc11d0c24137d4ff8a33978a9e"&gt;四种不同的鹈鹕&lt;/a&gt;：&lt;/p&gt;
+&lt;div&gt;
+    &lt;div style="text-align: center;"&gt;
+      &lt;div style="overflow: hidden; border-radius: 4px;"&gt;
+        &lt;img alt="一幅极简矢量风格插图，描绘了一只风格化的鸟在骑自行车。" src="https://static.simonwillison.net/static/2026/gemini-3.1-flash-lite-minimal.png" style="width: 100%; height: 100%; display: block;" /&gt;
+      &lt;/div&gt;
+      &lt;p style="margin: 4px 0 0; font-size: 16px; color: #333;"&gt;极简&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div style="text-align: center;"&gt;
+      &lt;div style="overflow: hidden; border-radius: 4px;"&gt;
+        &lt;img alt="一幅极简图形，描绘了一只浅蓝色的圆形小鸟，眼睛是一个黑点，背着一个黄色背包，在一条平坦的灰色线条上骑着一辆黑色自行车。" src="https://static.simonwillison.net/static/2026/gemini-3.1-flash-lite-low.png" style="width: 100%; height: 100%; display: block;" /&gt;
+      &lt;/div&gt;
+      &lt;p style="margin: 4px 0 0; font-size: 16px; color: #333;"&gt;低&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div style="text-align: center;"&gt;
+      &lt;div style="overflow: hidden; border-radius: 4px;"&gt;
+        &lt;img alt="一幅极简数字插图，描绘了一只浅蓝色的鸟背着一个黄色背包在骑自行车。" src="https://static.simonwillison.net/static/2026/gemini-3.1-flash-lite-medium.png" style="width: 100%; height: 100%; display: block;" /&gt;
+      &lt;/div&gt;
+      &lt;p style="margin: 4px 0 0; font-size: 16px; color: #333;"&gt;中&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div style="text-align: center;"&gt;
+      &lt;div style="overflow: hidden; border-radius: 4px;"&gt;
+        &lt;img alt="一幅极简、风格化的线条画，描绘了一只鸟状生物，长着黄色的喙，骑着一辆由简单几何线条构成的自行车。" src="https://static.simonwillison.net/static/2026/gemini-3.1-flash-lite-high.png" style="width: 100%; height: 100%; display: block;" /&gt;
+      &lt;/div&gt;
+      &lt;p style="margin: 4px 0 0; font-size: 16px; color: #333;"&gt;高&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+    &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/google"&gt;google&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llm"&gt;llm&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/gemini"&gt;gemini&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llm-pricing"&gt;llm-pricing&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/pelican-riding-a-bicycle"&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llm-release"&gt;llm-release&lt;/a&gt;&lt;/p&gt;</description><pubDate>Tue, 03 Mar 2026 21:53:54 +0000</pubDate></item><item><title>使用WebAssembly和Gifsicle的GIF优化工具</title><link>https://simonwillison.net/guides/agentic-engineering-patterns/gif-optimization/#atom-everything</link><description>&lt;p&gt;&lt;em&gt;&lt;a href="https://simonwillison.net/guides/agentic-engineering-patterns/"&gt;智能体工程模式&lt;/a&gt; &amp;gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;我喜欢在线上写作中加入动画GIF演示，通常使用&lt;a href="https://www.cockos.com/licecap/"&gt;LICEcap&lt;/a&gt;录制。&lt;a href="https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/"&gt;交互式解释&lt;/a&gt;章节中有一个例子。&lt;/p&gt;
 &lt;p&gt;这些GIF文件可能相当大。我尝试过几种优化GIF文件大小的工具，最喜欢的是Eddie Kohler开发的&lt;a href="https://github.com/kohler/gifsicle"&gt;Gifsicle&lt;/a&gt;。它通过识别帧中未变化的区域并仅存储差异来压缩GIF，并且可以选择减少GIF调色板或应用可见的有损压缩以进一步减小文件大小。&lt;/p&gt;
 &lt;p&gt;Gifsicle是用C语言编写的，默认界面是命令行工具。我想要一个Web界面，以便可以在浏览器中访问它，并直观地预览和比较不同的设置。&lt;/p&gt;
@@ -154,158 +187,4 @@
 &lt;p&gt;这是&lt;a href="https://github.com/simonw/research/tree/main/unicode-explorer-binary-search#readme"&gt;最终的报告和代码&lt;/a&gt;。我学到的一个有趣的事情是，范围请求技巧与 HTTP 压缩不兼容，因为它们会扰乱字节偏移量的计算。我在 &lt;code&gt;fetch()&lt;/code&gt; 调用中添加了 &lt;code&gt;'Accept-Encoding': 'identity'&lt;/code&gt;，但这实际上并不必要，因为 Cloudflare 和其他 CDN 如果检测到 &lt;code&gt;content-range&lt;/code&gt; 头，会自动跳过压缩。&lt;/p&gt;
 &lt;p&gt;我将结果&lt;a href="https://tools.simonwillison.net/unicode-binary-search"&gt;部署到了我的 tools.simonwillison.net 网站&lt;/a&gt;，在此之前，我先调整了它，使其通过范围请求查询一个存储在 S3 桶中、由 Cloudflare 提供前端服务并启用了 CORS 的 76.6MB 文件。&lt;/p&gt;
 &lt;p&gt;这个演示玩起来很有趣——输入一个像 &lt;code&gt;ø&lt;/code&gt; 这样的单个字符，或者像 &lt;code&gt;1F99C&lt;/code&gt; 这样的十六进制码点指示符，它就会通过二分查找遍历这个大文件，并向你展示它沿途采取的步骤：&lt;/p&gt;&lt;p&gt;&lt;img alt="一个名为Unicode Explore的网页工具的动态演示。我输入&amp;符号并点击搜索。下方框内显示了一系列HTTP二分查找请求，经过17步找到结果，传输了3,864字节，并告诉我&amp;符号是基本拉丁语中其他标点符号的U+0026" src="https://static.simonwillison.net/static/2026/unicode-explore.gif"/&gt;
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/algorithms"&gt;算法&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/http"&gt;http&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/research"&gt;研究&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/tools"&gt;工具&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/unicode"&gt;unicode&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;人工智能辅助编程&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/vibe-coding"&gt;氛围编程&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/http-range-requests"&gt;http范围请求&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Fri, 27 Feb 2026 17:50:54 +0000</pubDate></item><item><title>囤积你擅长的事情</title><link>https://simonwillison.net/guides/agentic-engineering-patterns/hoard-things-you-know-how-to-do/#atom-everything</link><description>&lt;p&gt;&lt;em&gt;&lt;a href="https://simonwillison.net/guides/agentic-engineering-patterns/"&gt;智能体工程模式&lt;/a&gt; &amp;gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;我关于如何高效使用编码智能体的许多技巧，其实是我职业生涯中一些有用建议的延伸，即使没有智能体时这些建议也很有用。这里有一个很好的例子：&lt;strong&gt;囤积你掌握的方法&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;构建软件技能的一个重要部分是理解什么是可能的、什么是不可能的，并且至少对如何实现这些事情有一个粗略的想法。&lt;/p&gt;
-&lt;p&gt;这些问题可能很宽泛，也可能相当冷僻。一个网页能否仅用JavaScript运行OCR操作？iPhone应用在不运行时能否与蓝牙设备配对？我们能否在Python中处理一个100GB的JSON文件，而不需要先将整个文件加载到内存中？&lt;/p&gt;
-&lt;p&gt;你掌握的这类问题的答案越多，你就越有可能发现机会，以他人可能未曾想到的方式运用技术来解决问题。&lt;/p&gt;
-&lt;p&gt;知道某件事在理论上是可能的，与亲眼见过它被实现是不同的。作为一名软件专业人士，需要培养的一项关键资产就是大量收集这类问题的答案，最好有可运行的代码作为例证。&lt;/p&gt;
-&lt;p&gt;我通过多种不同的方式来囤积这类解决方案。我的&lt;a href="https://simonwillison.net"&gt;博客&lt;/a&gt;和&lt;a href="https://til.simonwillison.net"&gt;TIL博客&lt;/a&gt;里塞满了关于我如何搞定某些事情的笔记。我拥有&lt;a href="https://github.com/simonw"&gt;超过一千个GitHub仓库&lt;/a&gt;，收集了为不同项目编写的代码，其中很多是展示关键想法的小型概念验证。&lt;/p&gt;
-&lt;p&gt;最近，我开始使用LLM来帮助扩展我针对有趣问题的代码解决方案集。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://tools.simonwillison.net"&gt;tools.simonwillison.net&lt;/a&gt;是我最大的LLM辅助工具和原型集合。我用它来收集我称之为&lt;a href="https://simonwillison.net/2025/Dec/10/html-tools/"&gt;HTML工具&lt;/a&gt;的东西——即嵌入JavaScript和CSS并解决特定问题的单个HTML页面。&lt;/p&gt;
-&lt;p&gt;我的&lt;a href="https://github.com/simonw/research"&gt;simonw/research&lt;/a&gt;仓库包含更大、更复杂的示例，在这些示例中，我挑战编码智能体去研究一个问题，并带回可运行的代码和一份详细说明其发现的书面报告。&lt;/p&gt;
-&lt;h2 id="recombining-things-from-your-hoard"&gt;重组你的囤积物&lt;/h2&gt;
-&lt;p&gt;为什么要收集所有这些材料？除了帮助你构建和扩展自己的能力之外，你在此过程中生成的资产会成为编码智能体极其强大的输入。&lt;/p&gt;
-&lt;p&gt;我最喜欢的提示模式之一，就是告诉智能体通过组合两个或多个现有的工作示例来构建新东西。&lt;/p&gt;&lt;p&gt;一个帮助我明确认识到这种方法有多有效的项目，是我添加到工具集合中的第一个工具——一个基于浏览器的&lt;a href="https://tools.simonwillison.net/ocr"&gt;OCR工具&lt;/a&gt;，&lt;a href="https://simonwillison.net/2024/Mar/30/ocr-pdfs-images/"&gt;这里有更详细的描述&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;我想要一个简单、基于浏览器的工具，用于对PDF文件中的页面进行OCR识别——特别是那些完全由扫描图像组成、完全没有提供文本版本的PDF。&lt;/p&gt;
-&lt;p&gt;我之前尝试过在浏览器中运行&lt;a href="https://tesseract.projectnaptha.com/"&gt;Tesseract.js OCR库&lt;/a&gt;，发现它功能非常强大。该库提供了成熟的Tesseract OCR引擎的WebAssembly版本，让你可以从JavaScript调用它来从图像中提取文本。&lt;/p&gt;
-&lt;p&gt;但我不想处理图像，我想处理PDF。然后我想起来，我也用过Mozilla的&lt;a href="https://mozilla.github.io/pdf.js/"&gt;PDF.js&lt;/a&gt;库，它可以将PDF的单个页面转换成渲染后的图像。&lt;/p&gt;
-&lt;p&gt;我的笔记里有这两个库的JavaScript代码片段。&lt;/p&gt;
-&lt;p&gt;以下是我输入给模型（当时是Claude 3 Opus）的完整提示，它结合了我的两个例子，并描述了我正在寻找的解决方案：&lt;/p&gt;&lt;div&gt;&lt;textarea&gt;这段代码展示了如何打开PDF并将其每页转换为图像：
-```html
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-  &lt;title&gt;PDF转图像&lt;/title&gt;
-  &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"&gt;&lt;/script&gt;
-  &lt;style&gt;
-    .image-container img {
-      margin-bottom: 10px;
-    }
-    .image-container p {
-      margin: 0;
-      font-size: 14px;
-      color: #888;
-    }
-  &lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;input type="file" id="fileInput" accept=".pdf" /&gt;
-  &lt;div class="image-container"&gt;&lt;/div&gt;
-
-  &lt;script&gt;
-  const desiredWidth = 800;
-    const fileInput = document.getElementById('fileInput');
-    const imageContainer = document.querySelector('.image-container');
-
-    fileInput.addEventListener('change', handleFileUpload);
-
-    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.worker.min.js';
-
-    async function handleFileUpload(event) {
-      const file = event.target.files[0];
-      const imageIterator = convertPDFToImages(file);
-
-      for await (const { imageURL, size } of imageIterator) {
-        const imgElement = document.createElement('img');
-        imgElement.src = imageURL;
-        imageContainer.appendChild(imgElement);
-
-        const sizeElement = document.createElement('p');
-        sizeElement.textContent = `大小：${formatSize(size)}`;
-        imageContainer.appendChild(sizeElement);
-      }
-    }
-
-    async function* convertPDFToImages(file) {
-      try {
-        const pdf = await pdfjsLib.getDocument(URL.createObjectURL(file)).promise;
-        const numPages = pdf.numPages;
-
-        for (let i = 1; i &lt;= numPages; i++) {
-          const page = await pdf.getPage(i);
-          const viewport = page.getViewport({ scale: 1 });
-          const canvas = document.createElement('canvas');
-          const context = canvas.getContext('2d');
-          canvas.width = desiredWidth;
-          canvas.height = (desiredWidth / viewport.width) * viewport.height;
-          const renderContext = {
-            canvasContext: context,
-            viewport: page.getViewport({ scale: desiredWidth / viewport.width }),
-          };
-          await page.render(renderContext).promise;
-          const imageURL = canvas.toDataURL('image/jpeg', 0.8);
-          const size = calculateSize(imageURL);
-          yield { imageURL, size };
-        }
-      } catch (error) {
-        console.error('错误：', error);
-      }
-    }
-
-    function calculateSize(imageURL) {
-      const base64Length = imageURL.length - 'data:image/jpeg;base64,'.length;
-      const sizeInBytes = Math.ceil(base64Length * 0.75);
-      return sizeInBytes;
-    }
-
-    function formatSize(size) {
-      const sizeInKB = (size / 1024).toFixed(2);
-      return `${sizeInKB} KB`;
-    }
-  &lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-```
-这段代码展示了如何对图像进行OCR识别：
-```javascript
-async function ocrMissingAltText() {
-    // 加载Tesseract
-    var s = document.createElement("script");
-    s.src = "https://unpkg.com/tesseract.js@v2.1.0/dist/tesseract.min.js";
-    document.head.appendChild(s);
-
-    s.onload = async () =&gt; {
-      const images = document.getElementsByTagName("img");
-      const worker = Tesseract.createWorker();
-      await worker.load();
-      await worker.loadLanguage("eng");
-      await worker.initialize("eng");
-      ocrButton.innerText = "正在运行OCR...";
-
-      // 遍历输出div中的所有图像
-      for (const img of images) {
-        const altTextarea = img.parentNode.querySelector(".textarea-alt");
-        // 检查alt文本区域是否为空
-        if (altTextarea.value === "") {
-          const imageUrl = img.src;
-          var {
-            data: { text },
-          } = await worker.recognize(imageUrl);
-          altTextarea.value = text; // 将OCR结果设置到alt文本区域
-          progressBar.value += 1;
-        }
-      }
-
-      await worker.terminate();
-      ocrButton.innerText = "OCR完成";
-    };
-  }
-```
-请使用这些示例来整合一个包含嵌入式HTML、CSS和JavaScript的单一HTML页面，该页面提供一个大的正方形区域，用户可以将PDF文件拖放到该区域上，当用户这样做时，PDF的每一页都会被转换为JPEG格式并显示在页面下方，然后使用tesseract运行OCR，并将结果显示在每个图像下方的文本区域块中。&lt;/textarea&gt;&lt;/div&gt;&lt;p&gt;这简直完美无缺！模型直接生成了一个概念验证页面，完全满足了我的需求。&lt;/p&gt;
-&lt;p&gt;我最终&lt;a href="https://gist.github.com/simonw/6a9f077bf8db616e44893a24ae1d36eb"&gt;与它进行了几次迭代&lt;/a&gt;才得到最终结果，但只花了几分钟就构建了一个真正有用的工具，从那以后我一直从中受益。&lt;/p&gt;
-&lt;h2 id="coding-agents-make-this-even-more-powerful"&gt;编码智能体让这一切更加强大&lt;/h2&gt;
-&lt;p&gt;我是在2024年3月构建那个OCR示例的，那是在Claude Code首次发布近一年前。编码智能体使得囤积可运行的示例变得更有价值。&lt;/p&gt;
-&lt;p&gt;如果你的编码智能体可以访问互联网，你可以让它做这样的事情：&lt;/p&gt;
-&lt;p&gt;&lt;div&gt;&lt;textarea&gt;使用curl获取`https://tools.simonwillison.net/ocr`和`https://tools.simonwillison.net/gemini-bbox`的源代码，并构建一个新工具，让你可以从PDF中选择一个页面并将其传递给Gemini，以返回该页面上插图的边界框。&lt;/textarea&gt;&lt;/div&gt;
-（我在那里指定了&lt;code&gt;curl&lt;/code&gt;，因为Claude Code默认使用WebFetch工具，该工具会总结页面内容而不是返回原始HTML。）&lt;/p&gt;
-&lt;p&gt;编码智能体非常擅长搜索，这意味着你可以在自己的机器上运行它们，并告诉它们去哪里找到你希望它们做的事情的示例：
-&lt;div&gt;&lt;textarea&gt;为`~/dev/ecosystem/datasette-oauth`项目添加模拟HTTP测试，灵感来自`~/dev/ecosystem/llm-mistral`项目的做法。&lt;/textarea&gt;&lt;/div&gt;
-通常这就足够了——智能体会启动一个搜索子智能体来调查并提取完成任务所需的细节。&lt;/p&gt;
-&lt;p&gt;由于我的大部分研究代码都是公开的，我经常告诉编码智能体将我的仓库克隆到&lt;code&gt;/tmp&lt;/code&gt;目录并将其用作输入：
-&lt;div&gt;&lt;textarea&gt;从GitHub克隆`simonw/research`到`/tmp`目录，找到将Rust编译为WebAssembly的示例，然后用它来为这个项目构建一个演示HTML页面。&lt;/textarea&gt;&lt;/div&gt;
-这里的关键思想是，编码智能体意味着我们只需要&lt;em&gt;一次&lt;/em&gt;弄明白一个有用的技巧。如果这个技巧随后在某个地方被记录下来并附有可运行的代码示例，我们的智能体就可以参考该示例，并用它来解决未来任何类似的项目。&lt;/p&gt;
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/agentic-engineering"&gt;agentic-engineering&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 26 Feb 2026 20:33:27 +0000</pubDate></item><item><title>引用安德烈·卡帕西的话</title><link>https://simonwillison.net/2026/Feb/26/andrej-karpathy/#atom-everything</link><description>&lt;blockquote cite="https://twitter.com/karpathy/status/2026731645169185220"&gt;&lt;p&gt;很难描述过去两个月里，AI 给编程带来了多大的改变：这种改变并非以“常规进展”的方式逐渐发生，而是特别集中在去年十二月。这其中有许多值得注意的细节，但在我看来，编码智能体在十二月之前基本上无法有效工作，而自十二月起则基本可以了——模型的质量、长期连贯性和持久性都有了显著提升，它们能够攻克庞大而长期的任务，其程度足以对默认的编程工作流程造成极大的颠覆。[...]&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class="cite"&gt;&amp;mdash; &lt;a href="https://twitter.com/karpathy/status/2026731645169185220"&gt;Andrej Karpathy&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/andrej-karpathy"&gt;andrej-karpathy&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/agentic-engineering"&gt;agentic-engineering&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/november-2025-inflection"&gt;november-2025-inflection&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 26 Feb 2026 19:03:27 +0000</pubDate></item></channel></rss>
+&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/algorithms"&gt;算法&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/http"&gt;http&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/research"&gt;研究&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/tools"&gt;工具&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/unicode"&gt;unicode&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;人工智能辅助编程&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/vibe-coding"&gt;氛围编程&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/http-range-requests"&gt;http范围请求&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Fri, 27 Feb 2026 17:50:54 +0000</pubDate></item></channel></rss>
