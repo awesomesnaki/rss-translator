@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Wed, 04 Mar 2026 17:34:42 +0000</lastBuildDate><item><title>反模式：应避免的做法</title><link>https://simonwillison.net/guides/agentic-engineering-patterns/anti-patterns/#atom-everything</link><description>&lt;p&gt;&lt;em&gt;&lt;a href="https://simonwillison.net/guides/agentic-engineering-patterns/"&gt;智能体工程模式&lt;/a&gt; &amp;gt;&lt;/em&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Thu, 05 Mar 2026 16:49:33 +0000</lastBuildDate><item><title>编码代理能否通过“净室”实现代码来重新许可开源？</title><link>https://simonwillison.net/2026/Mar/5/chardet/#atom-everything</link><description>&lt;p&gt;过去几个月的情况表明，编码代理在构建一种奇特的“净室”代码实现版本方面表现得异常出色。&lt;/p&gt;
+&lt;p&gt;这种模式最著名的例子是康柏公司在&lt;a href="https://en.wikipedia.org/wiki/Compaq#Introduction_of_Compaq_Portable"&gt;1982年&lt;/a&gt;创建了IBM BIOS的净室克隆版本。他们让一组工程师对BIOS进行逆向工程以创建规范，然后将该规范交给另一组工程师从头构建一个新版本。&lt;/p&gt;
+&lt;p&gt;这个过程过去需要多个工程师团队花费数周或数月才能完成。而编码代理可以在几小时内完成一个版本——我在去年12月就针对&lt;a href="https://simonwillison.net/2025/Dec/15/porting-justhtml/"&gt;JustHTML&lt;/a&gt;尝试了这种模式的一个变体。&lt;/p&gt;
+&lt;p&gt;关于这一点，无论是从伦理上还是法律上，都存在&lt;em&gt;很多&lt;/em&gt;悬而未决的问题。这些问题似乎在历史悠久的&lt;a href="https://github.com/chardet/chardet"&gt;chardet&lt;/a&gt; Python库中达到了顶点。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;chardet&lt;/code&gt;由Mark Pilgrim在&lt;a href="https://pypi.org/project/chardet/1.0/"&gt;2006年&lt;/a&gt;创建，并以LGPL协议发布。Mark于2011年从公共互联网生活中退休，chardet的维护工作由其他人接手，其中最著名的是Dan Blanchard，他负责了自&lt;a href="https://pypi.org/project/chardet/1.1/"&gt;2012年7月1.1版本&lt;/a&gt;以来的每一次发布。&lt;/p&gt;
+&lt;p&gt;两天前，Dan发布了&lt;a href="https://github.com/chardet/chardet/releases/tag/7.0.0"&gt;chardet 7.0.0&lt;/a&gt;，并在发布说明中附带了以下说明：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;从头开始、采用MIT许可证重写的chardet。相同的包名，相同的公共API——可完全替代chardet 5.x/6.x。只是速度更快、准确性更高！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;昨天，Mark Pilgrim开启了议题&lt;a href="https://github.com/chardet/chardet/issues/327"&gt;#327：无权重新许可此项目&lt;/a&gt;：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[...] 首先，我要感谢当前的维护者以及多年来为改进这个项目做出贡献的每一个人。这真是一个自由软件的成功故事。&lt;/p&gt;
+&lt;p&gt;然而，我注意到，在&lt;a href="https://github.com/chardet/chardet/releases/tag/7.0.0"&gt;7.0.0&lt;/a&gt;版本中，维护者声称有权“重新许可”该项目。他们并没有这样的权利；这样做明确违反了LGPL协议。经过修改的许可代码，必须以相同的LGPL许可证发布。他们声称这是“完全重写”是无关紧要的，因为他们充分接触了原始许可代码（即这不是一个“净室”实现）。在其中加入一个花哨的代码生成器并不会赋予他们任何额外的权利。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Dan的&lt;a href="https://github.com/chardet/chardet/issues/327#issuecomment-4005195078"&gt;长篇回复&lt;/a&gt;中包括：&lt;/p&gt;&lt;blockquote&gt;
+&lt;p&gt;你说得对，我确实对原始代码库有深入的了解：我已经维护它超过十年了。传统的净室方法要求在了解原始代码的人员和编写新实现的人员之间建立严格的隔离，而这里并不存在这种隔离。&lt;/p&gt;
+&lt;p&gt;然而，净室方法的目的在于确保最终代码不是原始作品的衍生作品。它是一种手段，而非目的本身。在这种情况下，我可以通过直接测量而非仅依赖流程保证来证明最终结果是相同的——新代码在结构上独立于旧代码。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Dan 接着展示了 &lt;a href="https://github.com/jplag/JPlag"&gt;JPlag&lt;/a&gt; 工具的分析结果——该工具自称是“最先进的源代码抄袭与串通检测工具”——结果显示新的 7.0.0 版本与先前版本的最大相似度为 1.29%，与 1.1 版本的相似度为 0.64%。其他发布版本之间的相似度则在 80-93% 的范围内。&lt;/p&gt;
+&lt;p&gt;随后他分享了其流程的关键细节，并强调了我的观点：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;为了完全透明，以下是重写过程的实施方式。我运用了 &lt;a href="https://github.com/obra/superpowers"&gt;superpowers&lt;/a&gt; 头脑风暴技能，基于我对重写的以下要求，创建了一份 &lt;a href="https://github.com/chardet/chardet/commit/f51f523506a73f89f0f9538fd31be458d007ab93"&gt;设计文档&lt;/a&gt;，明确了架构和方法 [...]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;然后，我在一个空仓库中开始工作，无法访问旧的源代码树，并明确指示 Claude 不要基于任何 LGPL/GPL 许可的代码进行创作&lt;/strong&gt;。随后，我使用 Claude 对结果的每一部分进行了审查、测试和迭代。 [...]&lt;/p&gt;
+&lt;p&gt;我理解这是一个新的且令人不安的领域，在长期存在的开源项目重写中使用 AI 工具引发了合理的问题。但这里的证据很清楚：7.0 是一个独立作品，并非 LGPL 许可代码库的衍生作品。MIT 许可证合法地适用于它。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;由于重写是使用 Claude Code 进行的，仓库中留下了大量有趣的记录。&lt;a href="https://github.com/chardet/chardet/blob/925bccbc85d1b13292e7dc782254fd44cc1e7856/docs/plans/2026-02-25-chardet-rewrite-plan.md"&gt;2026-02-25-chardet-rewrite-plan.md&lt;/a&gt; 尤其详细，逐步记录了重写过程的每个阶段——从测试开始，然后充实计划的替换代码。&lt;/p&gt;
+&lt;p&gt;有几个转折点使得这个案例特别难以明确裁定：&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;丹已经沉浸在chardet项目中超过十年，显然深受原始代码库的强烈影响。&lt;/li&gt;
+&lt;li&gt;有一个例子是，Claude Code在工作时参考了代码库的部分内容，如&lt;a href="https://github.com/chardet/chardet/blob/925bccbc85d1b13292e7dc782254fd44cc1e7856/docs/plans/2026-02-25-chardet-rewrite-plan.md#task-3-encoding-registry"&gt;计划&lt;/a&gt;所示——它查看了&lt;a href="https://github.com/chardet/chardet/blob/f0676c0d6a4263827924b78a62957547fca40052/chardet/metadata/charsets.py"&gt;metadata/charsets.py&lt;/a&gt;，这是一个列出字符集及其属性的文件，以数据类字典的形式表达。&lt;/li&gt;
+&lt;li&gt;更复杂的是：Claude本身很可能在其海量训练数据中包含了chardet作为训练材料——尽管我们无法完全确认这一点。一个基于某个代码库训练出来的模型，能否产生在道德或法律上站得住脚的“净室实现”？&lt;/li&gt;
+&lt;li&gt;正如&lt;a href="https://github.com/chardet/chardet/issues/36"&gt;2014年的这个议题&lt;/a&gt;（丹首次公开考虑更改许可证的地方）所讨论的，马克·皮尔格林的原始代码是从Mozilla的MPL许可的字符检测库手动从C移植到Python的。&lt;/li&gt;
+&lt;li&gt;新发布的chardet使用了与旧版本相同的PyPI包名，这一事实有多重要？如果以新名称发布是否会更具辩护性？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;我不知道这件事最终会如何发展。我个人倾向于认为这次重写是合法的，但双方的观点都完全可信。&lt;/p&gt;
+&lt;p&gt;我将此视为一个更大问题的缩影：关于使用编码代理对现有成熟代码进行全新实现的问题。这个问题首先冲击了开源世界，但我预计它很快也会在商业世界中以类似康柏的案例形式出现。&lt;/p&gt;
+&lt;p&gt;一旦商业公司意识到他们严密持有的知识产权受到威胁，我预计我们将看到一些资金雄厚的诉讼。&lt;/p&gt;
+&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/licensing"&gt;许可&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/mark-pilgrim"&gt;马克·皮尔格林&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/open-source"&gt;开源&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;人工智能辅助编程&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;人工智能伦理&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;编码代理&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 05 Mar 2026 16:49:33 +0000</pubDate></item><item><title>反模式：应避免的做法</title><link>https://simonwillison.net/guides/agentic-engineering-patterns/anti-patterns/#atom-everything</link><description>&lt;p&gt;&lt;em&gt;&lt;a href="https://simonwillison.net/guides/agentic-engineering-patterns/"&gt;智能体工程模式&lt;/a&gt; &amp;gt;&lt;/em&gt;&lt;/p&gt;
     &lt;p&gt;在我们这个奇特的智能体工程新世界里，存在一些行为属于反模式。&lt;/p&gt;
 &lt;h2 id="inflicting-unreviewed-code-on-collaborators"&gt;将未经审查的代码强加给协作者&lt;/h2&gt;
 &lt;p&gt;这种反模式很常见，并且非常令人沮丧。&lt;/p&gt;
@@ -200,16 +236,4 @@
     &lt;p&gt;&lt;small&gt;Via &lt;a href="https://lobste.rs/s/tf8j5h/please_stop_using_passkeys_for"&gt;lobste.rs&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
 
 
-    &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/security"&gt;security&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/usability"&gt;usability&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/passkeys"&gt;passkeys&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 27 Feb 2026 22:49:32 +0000</pubDate></item><item><title>一位对AI代理编码持怀疑态度的人尝试了AI代理编码，过程极其详尽</title><link>https://simonwillison.net/2026/Feb/27/ai-agent-coding-in-excessive-detail/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://minimaxir.com/2026/02/ai-agent-coding/"&gt;一位AI智能体编码怀疑论者尝试AI智能体编码，事无巨细&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这是又一篇属于“好吧，编码智能体在11月变强了”类型的文章，作者是马克斯·伍尔夫，非常值得你花时间阅读。他描述了一系列编码智能体项目，一个比一个更雄心勃勃——从简单的YouTube元数据抓取器开始，最终演变成这样：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;将Python的&lt;a href="https://scikit-learn.org/stable/"&gt;scikit-learn&lt;/a&gt;——数据科学和机器学习库的黄金标准——移植到Rust，并包含其所有功能，这听起来很狂妄。&lt;/p&gt;
-&lt;p&gt;但讽刺的是，这确实是个好主意，所以我决定无论如何都要尝试一下。借助智能体的帮助，我现在正在开发&lt;code&gt;rustlearn&lt;/code&gt;（一个极端的占位名称），这是一个Rust库，它不仅实现了标准机器学习算法（如&lt;a href="https://en.wikipedia.org/wiki/Logistic_regression"&gt;逻辑回归&lt;/a&gt;和&lt;a href="https://en.wikipedia.org/wiki/K-means_clustering"&gt;k均值聚类&lt;/a&gt;）的快速实现，还包含了上述算法的快速实现：即使对于更简单的算法，我上面描述的三步流程仍然有效，足以超越scikit-learn的实现。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;马克斯还捕捉到了试图向现有的怀疑论听众解释这些模型变得有多好时的那种挫败感：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Opus 4.6/Codex 5.3真正恼人的一点是，你不可能公开说“Opus 4.5（以及其后发布的模型）比仅仅几个月前发布的编码大语言模型好了一个数量级”而不听起来像一个炒作AI、制造点击诱饵的人，但这却是我个人挫败感背后反直觉的真相。我一直在尝试通过给它一些复杂的任务来“搞垮”这个该死的模型，这些任务即使以我的编码资历也需要数月才能完成，但Opus和Codex却总能正确完成。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这篇文章中一句随口提及的话启发了我&lt;a href="https://github.com/simonw/research/tree/main/rust-wordcloud#readme"&gt;让Claude Code构建一个Rust词云命令行工具&lt;/a&gt;，而它愉快地照做了。&lt;/p&gt;
-
-    &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/python"&gt;python&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/rust"&gt;rust&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/max-woolf"&gt;max-woolf&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/agentic-engineering"&gt;agentic-engineering&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/november-2025-inflection"&gt;november-2025-inflection&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 27 Feb 2026 20:43:41 +0000</pubDate></item></channel></rss>
+    &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/security"&gt;security&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/usability"&gt;usability&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/passkeys"&gt;passkeys&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 27 Feb 2026 22:49:32 +0000</pubDate></item></channel></rss>
