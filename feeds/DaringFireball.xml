@@ -1,11 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sat, 07 Mar 2026 22:53:37 +0000</lastBuildDate><item><title>‘npx workos’</title><link>https://workos.com/docs/authkit/cli-installer?utm_source=tldrdev&amp;utm_medium=newsletter&amp;utm_campaign=q12026</link><description>&lt;p&gt;再次感谢WorkOS赞助本周的DF。&lt;code&gt;npx workos&lt;/code&gt;是一个CLI工具，充满了酷炫的ASCII艺术，它能&lt;a href="https://youtu.be/kU88lUqdduQ?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q12026"&gt;启动一个AI代理&lt;/a&gt;，该代理由Claude驱动，会读取你的项目，检测你的框架，并将一个完整的身份验证集成直接写入你现有的代码库。它不是一个模板生成器。它会读取你的代码，理解你的技术栈，并编写一个合适的集成。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sun, 08 Mar 2026 17:59:09 +0000</lastBuildDate><item><title>编码代理能否通过“洁净室”代码实现来重新许可开源？</title><link>https://simonwillison.net/2026/Mar/5/chardet/</link><description>&lt;p&gt;西蒙·威利森：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;关于此事，无论是从伦理还是法律层面，都存在&lt;em&gt;许多&lt;/em&gt;悬而未决的问题。这些问题似乎正在历史悠久的&lt;a href="https://github.com/chardet/chardet"&gt;chardet&lt;/a&gt; Python库中达到顶点。&lt;code&gt;chardet&lt;/code&gt;由马克·皮尔格林于&lt;a href="https://pypi.org/project/chardet/1.0/"&gt;2006年&lt;/a&gt;创建，并以LGPL协议发布。马克于2011年从公共互联网生活中隐退，&lt;code&gt;chardet&lt;/code&gt;的维护工作由他人接手，其中最主要的是丹·布兰查德，他负责了自&lt;a href="https://pypi.org/project/chardet/1.1/"&gt;2012年7月1.1版&lt;/a&gt;以来的每一次发布。&lt;/p&gt;
+
+&lt;p&gt;两天前，丹发布了&lt;a href="https://github.com/chardet/chardet/releases/tag/7.0.0"&gt;chardet 7.0.0&lt;/a&gt;，并在发布说明中附上了以下注释：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;这是一个从零开始、采用MIT许可证重写的chardet。包名相同，公共API相同——可作为chardet 5.x/6.x的直接替代品。只是速度更快，准确性更高！&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;昨天，马克·皮尔格林提出了&lt;a href="https://github.com/chardet/chardet/issues/327"&gt;#327号议题：无权重新许可此项目&lt;/a&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;一场引人入胜的争议，这也是我&lt;a href="https://daringfireball.net/search/mark+pilgrim"&gt;时隔许久&lt;/a&gt;第一次看到皮尔格林的公开帖子。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/03/08/willison-chardet-licensing-dispute" title="‘编码代理能否通过‘净室’代码实现来重新许可开源项目？’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Sun, 08 Mar 2026 17:59:09 +0000</pubDate></item><item><title>唐纳德·高德纳谈Claude Opus解决计算机科学问题</title><link>https://www-cs-faculty.stanford.edu/~knuth/papers/claude-cycles.pdf</link><description>&lt;p&gt;唐纳德·克努斯，这位可爱的人物，通过发布TeX排版的PDF文件来有效地进行博客写作：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;震惊！震惊！我昨天得知，我研究了几周的一个开放性问题，刚刚被Claude Opus 4.6解决了——这是三周前发布的Anthropic混合推理模型！看来我不得不找个时间修正一下我对“生成式人工智能”的看法了。得知我的猜想有一个漂亮的解决方案，并且庆祝自动推理和创造性问题解决领域的这一戏剧性进展，真是令人欣喜。我将尝试在这篇笔记中简要讲述这个故事。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;（&lt;a href="https://simonwillison.net/2026/Mar/3/donald-knuth/"&gt;来自西蒙·威尔逊&lt;/a&gt;。）&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/03/08/knuth-claude" title="‘唐纳德·克努斯谈Claude Opus解决计算机科学问题’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Sun, 08 Mar 2026 17:49:08 +0000</pubDate></item><item><title>史蒂夫·勒梅登上苹果领导层页面</title><link>https://www.apple.com/leadership/steve-lemay/</link><description>&lt;p&gt;&lt;em&gt;奥比旺·勒梅，请帮助我们，你是我们唯一的希望。&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;（此外，正如乔·罗西尼奥尔&lt;a href="https://www.macrumors.com/2026/03/07/apple-adds-three-executives-to-leadership-page/"&gt;所指出的&lt;/a&gt;，&lt;a href="https://www.apple.com/leadership/eddy-cue/"&gt;埃迪·库伊&lt;/a&gt;也更新了头像。）&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/03/08/lemay-leadership-page" title="‘史蒂夫·勒梅登上苹果领导层页面’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Sun, 08 Mar 2026 15:28:36 +0000</pubDate></item><item><title>‘npx workos’</title><link>https://workos.com/docs/authkit/cli-installer?utm_source=tldrdev&amp;utm_medium=newsletter&amp;utm_campaign=q12026</link><description>&lt;p&gt;再次感谢WorkOS赞助本周的DF。&lt;code&gt;npx workos&lt;/code&gt;是一个CLI工具，充满了酷炫的ASCII艺术，它能&lt;a href="https://youtu.be/kU88lUqdduQ?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q12026"&gt;启动一个AI代理&lt;/a&gt;，该代理由Claude驱动，会读取你的项目，检测你的框架，并将一个完整的身份验证集成直接写入你现有的代码库。它不是一个模板生成器。它会读取你的代码，理解你的技术栈，并编写一个合适的集成。&lt;/p&gt;
 
 &lt;p&gt;然后，&lt;a href="https://workos.com/?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q12026"&gt;WorkOS&lt;/a&gt;代理会进行类型检查和构建，并将任何错误反馈给自己进行修复。&lt;a href="https://workos.com/docs/authkit/cli-installer?utm_source=tldrdev&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q12026"&gt;亲自看看它是如何工作的&lt;/a&gt;。&lt;/p&gt;
 
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/linked/2026/03/07/npx-workos" title="‘npx workos’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Sat, 07 Mar 2026 22:53:37 +0000</pubDate></item><item><title>Daring Fireball 每周赞助机会</title><link>https://daringfireball.net/feeds/sponsors/</link><description>&lt;p&gt;自&lt;a href="https://daringfireball.net/feeds/sponsors/archive"&gt;2007年&lt;/a&gt;开始销售以来，每周赞助一直是Daring Fireball最主要的收入来源。我认为它们之所以成功，是因为能让各方都满意。它们带来了可观的收入。每周只有一位赞助商，而且赞助商的内容总是与至少相当一部分DF读者相关，因此你们作为读者，永远不会感到厌烦，反而常常会对它们产生兴趣。从赞助商的角度来看，这些赞助效果显著。我最喜欢的一点是，许多赞助商在看到效果后，会&lt;a href="https://daringfireball.net/feeds/sponsors/archive"&gt;再次回来赞助后续的周次&lt;/a&gt;。&lt;/p&gt;
+&lt;/div&gt;</description><pubDate>Sat, 07 Mar 2026 21:53:37 +0000</pubDate></item><item><title>Daring Fireball 每周赞助机会</title><link>https://daringfireball.net/feeds/sponsors/</link><description>&lt;p&gt;自&lt;a href="https://daringfireball.net/feeds/sponsors/archive"&gt;2007年&lt;/a&gt;开始销售以来，每周赞助一直是Daring Fireball最主要的收入来源。我认为它们之所以成功，是因为能让各方都满意。它们带来了可观的收入。每周只有一位赞助商，而且赞助商的内容总是与至少相当一部分DF读者相关，因此你们作为读者，永远不会感到厌烦，反而常常会对它们产生兴趣。从赞助商的角度来看，这些赞助效果显著。我最喜欢的一点是，许多赞助商在看到效果后，会&lt;a href="https://daringfireball.net/feeds/sponsors/archive"&gt;再次回来赞助后续的周次&lt;/a&gt;。&lt;/p&gt;
 
 &lt;p&gt;最近，赞助销售非常火爆。从现在到六月底，只剩下三周的空档。&lt;s&gt;但其中有一个空档就在下周，从本周一开始：&lt;/s&gt;&lt;/p&gt;
 
@@ -21,7 +55,7 @@
 
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/linked/2026/03/06/daring-fireball-weekly-sponsorship-openings" title="‘Daring Fireball 每周赞助空档’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Fri, 06 Mar 2026 21:59:49 +0000</pubDate></item><item><title>谷歌威胁情报小组揭秘Coruna：一个来源神秘的强大iOS漏洞利用工具包</title><link>https://cloud.google.com/blog/topics/threat-intelligence/coruna-powerful-ios-exploit-kit</link><description>&lt;p&gt;谷歌威胁情报小组，本周早些时候：&lt;/p&gt;
+&lt;/div&gt;</description><pubDate>Fri, 06 Mar 2026 20:59:49 +0000</pubDate></item><item><title>谷歌威胁情报小组揭秘Coruna：一个来源神秘的强大iOS漏洞利用工具包</title><link>https://cloud.google.com/blog/topics/threat-intelligence/coruna-powerful-ios-exploit-kit</link><description>&lt;p&gt;谷歌威胁情报小组，本周早些时候：&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;谷歌威胁情报小组已识别出一个针对运行 iOS 版本 13.0（发布于2019年9月）至版本 17.2.1（发布于2023年12月）的苹果 iPhone 机型的新型强大漏洞利用工具包。该漏洞利用工具包被其开发者命名为“科鲁尼亚”，包含了五个完整的 iOS 漏洞利用链，总计 23 个漏洞利用。该漏洞利用工具包的核心技术价值在于其全面的 iOS 漏洞利用集合，其中最先进的漏洞利用采用了非公开的利用技术和绕过缓解措施的方法。&lt;/p&gt;
@@ -31,7 +65,7 @@
 
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/linked/2026/03/06/google-threat-intelligence-group-coruna" title="永久链接至‘谷歌威胁情报小组关于科鲁尼亚——一个来源神秘的强大 iOS 漏洞利用工具包’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Fri, 06 Mar 2026 20:32:47 +0000</pubDate></item><item><title>我们不满的窗口镀铬</title><link>https://pxlnv.com/blog/window-chrome-of-our-discontent/</link><description>&lt;p&gt;尼克·希尔在Pixel Envy撰文，以Pages（从2009年至今）为例，阐述了苹果如何通过让窗口装饰和工具栏图标越来越隐形，来推进其“更专注于你的内容”的理念：&lt;/p&gt;
+&lt;/div&gt;</description><pubDate>Fri, 06 Mar 2026 19:32:47 +0000</pubDate></item><item><title>我们不满的窗口镀铬</title><link>https://pxlnv.com/blog/window-chrome-of-our-discontent/</link><description>&lt;p&gt;尼克·希尔在Pixel Envy撰文，以Pages（从2009年至今）为例，阐述了苹果如何通过让窗口装饰和工具栏图标越来越隐形，来推进其“更专注于你的内容”的理念：&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;也许苹果有一些用户研究得出了相反的结论，但我看不出淡化界面与文档之间的界限如何能对用户有益。根据我的使用经验，这并没有让我在使用这些应用时减少分心。事实上，效果往往适得其反。我认为解决方案并非退回到十年前的设计语言。然而，我认为苹果应该考虑探索其可以改变的各种变量，以区分工具栏内的工具，并更清晰地区分窗口装饰和文档。&lt;/p&gt;
@@ -43,7 +77,7 @@
 
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/linked/2026/03/06/window-chrome-of-our-discontent" title="Permanent link to ‘‘The Window Chrome of Our Discontent’’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Fri, 06 Mar 2026 20:21:12 +0000</pubDate></item><item><title>The Verge 在“Epic 诉 Google”案胜诉后采访蒂姆·斯威尼</title><link>https://www.theverge.com/23996474/epic-tim-sweeney-interview-win-google-antitrust-lawsuit-district-court</link><description>&lt;p&gt;The Verge:&lt;/p&gt;
+&lt;/div&gt;</description><pubDate>Fri, 06 Mar 2026 19:21:12 +0000</pubDate></item><item><title>The Verge 在“Epic 诉 Google”案胜诉后采访蒂姆·斯威尼</title><link>https://www.theverge.com/23996474/epic-tim-sweeney-interview-win-google-antitrust-lawsuit-district-court</link><description>&lt;p&gt;The Verge:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;肖恩·霍利斯特：&lt;em&gt;您认为苹果和谷歌案件之间的区别是什么？&lt;/em&gt;&lt;/p&gt;
@@ -63,7 +97,7 @@
 
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/linked/2026/03/06/verge-sweeney-interview" title="《The Verge在‘Epic诉谷歌’案胜利后采访蒂姆·斯威尼》的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Fri, 06 Mar 2026 18:09:10 +0000</pubDate></item><item><title>蒂姆·斯威尼已签署协议，放弃在2032年前批评谷歌应用商店的权利。</title><link>https://www.theverge.com/news/889595/tim-sweeney-signed-away-his-right-to-criticize-google-until-2032</link><description>&lt;p&gt;肖恩·霍利斯特为The Verge撰文写道：&lt;/p&gt;
+&lt;/div&gt;</description><pubDate>Fri, 06 Mar 2026 17:09:10 +0000</pubDate></item><item><title>蒂姆·斯威尼已签署协议，放弃在2032年前批评谷歌应用商店的权利。</title><link>https://www.theverge.com/news/889595/tim-sweeney-signed-away-his-right-to-criticize-google-until-2032</link><description>&lt;p&gt;肖恩·霍利斯特为The Verge撰文写道：&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;但谷歌终于让蒂姆·斯威尼闭上了嘴。这一点明确写在了&lt;a href="https://www.theverge.com/policy/889252/google-app-store-fee-reduction-20-percent-epic-v-google"&gt;他与谷歌的和解协议&lt;/a&gt;的具有约束力的条款清单中。&lt;/p&gt;
@@ -79,7 +113,7 @@
 
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/linked/2026/03/06/sweeney-google-gag" title="‘蒂姆·斯威尼签署协议放弃在2032年前批评谷歌Play商店的权利’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Fri, 06 Mar 2026 17:36:16 +0000</pubDate></item><item><title>MacBook Neo的定价，回望过去与展望未来</title><link>https://x.com/ethan_is_online/status/2029331836137291941?s=42</link><description>&lt;p&gt;伊桑·W·安德森在Twitter/X上写道：&lt;/p&gt;
+&lt;/div&gt;</description><pubDate>Fri, 06 Mar 2026 16:36:16 +0000</pubDate></item><item><title>MacBook Neo的定价，回望过去与展望未来</title><link>https://x.com/ethan_is_online/status/2029331836137291941?s=42</link><description>&lt;p&gt;伊桑·W·安德森在Twitter/X上写道：&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;我绘制了最贵的麦当劳汉堡和最便宜的MacBook随时间变化的价格曲线。这项分析预测，最快到2081年，最贵的汉堡将比最便宜的笔记本电脑还要贵。&lt;/p&gt;
@@ -89,46 +123,4 @@
 
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/linked/2026/03/06/macbook-neos-price-past-and-future" title="《MacBook Neo的价格，回顾过去与展望未来》的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Fri, 06 Mar 2026 15:50:39 +0000</pubDate></item><item><title>“每一次都是全新的游戏”</title><link>https://johnmccoy.org/2026/03/05/never-the-same-game-twice/</link><description>&lt;p&gt;约翰·麦考伊：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;大约从1970年到1980年，总部位于马萨诸塞州塞勒姆的帕克兄弟公司（现为孩之宝旗下品牌）出版了一系列游戏，其创新且充满想象力的设计从波普艺术、欧普艺术以及麦迪逊大道的广告中汲取灵感。它们的盒子、棋盘和组件都反映了当时最前沿的印刷和塑料成型技术。这些游戏机智、滑稽又古怪。当时美国游戏市场的其他主要参与者是米尔顿-布拉德利公司，其艺术风格倾向于卡通化、老套和平面的设计；以及理想公司，其游戏（如&lt;em&gt;捕鼠器&lt;/em&gt;）主要是为了展示其新颖的塑料组件。&lt;/p&gt;
-
-&lt;p&gt;帕克兄弟的设计以其风格和精致度脱颖而出，即使作为一个年幼的书呆子，我也能看出它的特别之处。事实上，我相信它们是我在七岁时，对整个平面设计概念的启蒙。这并不是说这些游戏在好玩或引人入胜的意义上是&lt;em&gt;好&lt;/em&gt;的；它们中有很多只是基本“绕棋盘竞速”类型的换皮版本，这种类型自&lt;em&gt;威格利叔叔游戏&lt;/em&gt;以来就一直很流行。但它们看起来令人惊叹，而且它们&lt;em&gt;与众不同&lt;/em&gt;。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这些游戏大多很烂，但它们看起来酷毙了。这帖子勾起了我许多回忆。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/03/06/mccoy-parker-bros" title="永久链接至‘’永不重复的游戏‘’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Fri, 06 Mar 2026 15:44:02 +0000</pubDate></item><item><title>史蒂夫·乔布斯关于低价Mac的另一句名言</title><link>https://technologizer.com/2008/10/22/the-case-for-a-mac-netbook/index.html</link><description>&lt;p&gt;史蒂夫·乔布斯，在&lt;a href="https://seekingalpha.com/article/100980-apple-f4q08-qtr-end-9-27-08-earnings-call-transcript?page=-1"&gt;2008年10月&lt;/a&gt;苹果的季度财报电话会议上说：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;有些客户我们选择不去服务。我们不知道如何制造一台不是垃圾的500美元电脑，而我们的DNA不允许我们推出那样的产品。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;哈里·麦克拉肯在当时写道：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;既然&lt;em&gt;那个&lt;/em&gt;已经说清楚了，最近人们一直在问的关于苹果&lt;a href="http://gigaom.com/2008/10/02/3-reasons-why-well-see-an-apple-netbook-soon/"&gt;是否会&lt;/a&gt;或&lt;a href="http://www.scripting.com/stories/2008/10/22/whyILikeNetbooks.html"&gt;是否应该&lt;/a&gt;发布一款类似上网本的Mac的问题就很有趣了。无论苹果公司最终是否真的会推出一款小巧、廉价、简单的Mac笔记本，光是想想这种可能性就很有意思。而且我得出的结论是，这样一台机器&lt;em&gt;可能&lt;/em&gt;正在开发中，其方式符合苹果的风格以及公司目前的产品线。我这不是在预测。但这是一种可能的情景。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;从那时到现在，苹果制造了许多500美元的“电脑”。但它们是iPad，而不是Mac。我认为MacBook Neo背后的部分动力在于承认，尽管iPad非常受欢迎，也有很多人将其用作比手机更大的主要计算设备，但仍然有很多其他人以及很多使用场景需要一台个人电脑。而对苹果来说，那意味着Mac。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/03/06/jobs-500-computer" title="永久链接至‘另一则关于低价Mac的史蒂夫·乔布斯语录’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Fri, 06 Mar 2026 15:22:21 +0000</pubDate></item><item><title>史蒂夫·乔布斯在2007年谈苹果对个人电脑市场份额的追求：“我们绝不能生产垃圾产品。”</title><link>https://www.youtube.com/watch?v=U37Ds3RvyoM</link><description>&lt;p&gt;2007年8月，苹果公司在无限循环园区市政厅礼堂举行了一场Mac活动。发布了&lt;a href="https://www.apple.com/newsroom/2007/08/07Apple-Unveils-New-iMac/"&gt;新款iMac&lt;/a&gt;、&lt;a href="https://www.apple.com/newsroom/2007/08/07Apple-Introduces-iLife-08/"&gt;iLife ’08&lt;/a&gt;（包含iPhoto和iMovie的重大更新）以及&lt;a href="https://www.apple.com/newsroom/2007/08/07Apple-Introduces-iWork-08/"&gt;iWork ’08&lt;/a&gt;（包括首次亮相的Numbers 1.0）。信不信由你，那时候，在这类市政厅活动的最后，苹果高管们会坐在凳子上接受媒体提问。在这场活动中，史蒂夫·乔布斯身边坐着蒂姆·库克和菲尔·席勒。当时还在CNet的莫莉·伍德问道：“那么，我想一劳永逸地问一下，你们的目标是在市场份额上超越PC吗？”&lt;/p&gt;
-
-&lt;p&gt;观众——连同库克、乔布斯和席勒——都笑了。然后乔布斯回答了。你应该看看那段视频——只有两分钟——但以下是他所说的：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;我可以告诉你我们的目标是什么。我们的目标是制造世界上最好的个人电脑，制造我们自豪地销售并愿意推荐给家人和朋友的产品。我们希望以尽可能低的价格做到这一点。但我必须告诉你，我们行业里有些东西，我们不会自豪地出货，也不会自豪地推荐给家人和朋友。我们做不到。我们就是不能出货垃圾。&lt;/p&gt;
-
-&lt;p&gt;所以，由于我们是谁，有些门槛我们无法跨越。但我们想制造业内最好的个人电脑。我们认为业内有一个非常重要的群体也想要这个。你会发现我们的产品通常&lt;em&gt;不是&lt;/em&gt;溢价销售的。你去给竞争对手的产品定价，加上那些必须添加才能让它们有用的功能，你会发现有些情况下它们比我们的产品更贵。区别在于我们不提供被阉割的劣质产品。我们根本不提供那种类型的产品。但如果你把这些放到一边，将我们与竞争对手比较，我认为我们的表现相当不错。过去18个月里，很多人一直在这样做，并且这么说。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;史蒂夫·乔布斯会&lt;em&gt;爱上&lt;/em&gt;MacBook Neo的。它的一切，甚至包括苹果负责芯片设计这一事实。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/03/05/steve-jobs-we-just-cant-ship-junk" title="永久链接至‘史蒂夫·乔布斯在2007年谈苹果对PC市场份额的追求：‘我们就是不能出货垃圾’’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Thu, 05 Mar 2026 19:43:16 +0000</pubDate></item></channel></rss>
+&lt;/div&gt;</description><pubDate>Fri, 06 Mar 2026 14:50:39 +0000</pubDate></item></channel></rss>
