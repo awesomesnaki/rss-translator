@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Thu, 12 Mar 2026 00:46:59 +0000</lastBuildDate><item><title>杰森·斯内尔下周将参加《危险边缘》节目</title><link>https://sixcolors.com/post/2026/03/ill-take-beach-reading-for-1000-ken/</link><description>&lt;p&gt;杰森·斯内尔：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Thu, 12 Mar 2026 15:32:04 +0000</lastBuildDate><item><title>软件本体感知</title><link>https://unsung.aresluna.org/software-proprioception/</link><description>&lt;p&gt;马辛·维查里：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;当软件能够感知其硬件的尺寸和特性时，你就能在软件中实现一些有趣的功能。[...]&lt;/p&gt;
+
+&lt;p&gt;这里的规则或许可以看作是“展示，而非告知”的一个变体。我们可以称之为“指向，而非描述”。（描述操作步骤意味着需要认知努力去阅读和理解文字。而一个指向某物的箭头应该更容易被处理。）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;几周前，我刚刚学到了“本体感觉”这个词，它指的是即使闭上眼睛，你也能将指尖准确放在鼻尖上的能力。这个词也完美地描述了这种硬件与软件的集成。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/03/12/software-proprioception" title="‘软件本体感觉’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Thu, 12 Mar 2026 15:32:04 +0000</pubDate></item><item><title>杰森·斯内尔下周将参加《危险边缘》节目</title><link>https://sixcolors.com/post/2026/03/ill-take-beach-reading-for-1000-ken/</link><description>&lt;p&gt;杰森·斯内尔：&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;所以现在情况是：Six Colors 已经有三位《危险边缘！》玩家作为撰稿人了。&lt;/p&gt;
@@ -19,11 +31,11 @@
 
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/linked/2026/03/11/web-kit-v-webkit" title="永久链接至‘另一篇档案文章：‘Web Kit’ vs. ‘WebKit’’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Thu, 12 Mar 2026 00:26:22 +0000</pubDate></item><item><title>键盘快捷键的修饰键顺序</title><link>https://daringfireball.net/2026/03/modifier_key_order_for_keyboard_shortcuts</link><description>&lt;p&gt;&lt;a href="https://leancrew.com/all-this/2017/11/modifier-key-order/"&gt;Dr. Drang 在2017年&lt;/a&gt;写道：&lt;/p&gt;
+&lt;/div&gt;</description><pubDate>Thu, 12 Mar 2026 00:26:22 +0000</pubDate></item><item><title>键盘快捷键的修饰键顺序</title><link>https://daringfireball.net/2026/03/modifier_key_order_for_keyboard_shortcuts</link><description>&lt;p&gt;&lt;a href="https://leancrew.com/all-this/2017/11/modifier-key-order/"&gt;Dr. Drang 在2017年时写道&lt;/a&gt;：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;如果你像我昨天那样撰写关于Mac键盘快捷键的内容，你应该知道如何正确地表述。就像英语中&lt;a href="https://dictionary.cambridge.org/grammar/british-grammar/adjectives-order"&gt;形容词有正确的顺序&lt;/a&gt;一样，列出快捷键中的修饰键也有一个正确的顺序。&lt;/p&gt;
-&lt;p&gt;我还没有找到这方面的任何文档，但苹果偏好的顺序在他们菜单中显示修饰键的方式以及键盘快捷键设置中的显示方式中是很明确的。&lt;/p&gt;
-&lt;p&gt;这个顺序类似于你在键盘左下角看到它们的顺序。Control (⌃)、Option (⌥) 和 Command (⌘) 总是按照这个顺序排列。奇怪的是 Shift (⇧) 键，它悄悄地插在 Command 键的前面。&lt;/p&gt;
+&lt;p&gt;如果你像我昨天那样撰写关于Mac键盘快捷键的内容，你应该知道如何正确地表述。正如英语中&lt;a href="https://dictionary.cambridge.org/grammar/british-grammar/adjectives-order"&gt;形容词有固定的顺序&lt;/a&gt;一样，在列出快捷键中的修饰键时也有一个固定的顺序。&lt;/p&gt;
+&lt;p&gt;我还没有找到这方面的任何官方文档，但苹果偏好的顺序在他们菜单中显示修饰键的方式以及键盘快捷键设置中的显示方式上是很明确的。&lt;/p&gt;
+&lt;p&gt;这个顺序类似于你在键盘左下角看到它们的顺序。Control (⌃)、Option (⌥) 和 Command (⌘) 总是按照这个顺序排列。比较特别的是 Shift (⇧) 键，它插在 Command 键的前面。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;也许这在2017年没有文档记录，但至少从2022年起（&lt;a href="https://web.archive.org/web/20221112144101/https://support.apple.com/guide/applestyleguide/k-apsgf9067ae8/web#apdbee268aa29e04"&gt;根据互联网档案馆&lt;/a&gt;），苹果在他们优秀的《苹果风格指南》中，&lt;a href="https://support.apple.com/guide/applestyleguide/k-apsgf9067ae8/web#apdbee268aa29e04"&gt;在“key, keys”条目下&lt;/a&gt;，已经记录了键盘快捷键中修饰键的正确顺序：&lt;/p&gt;
 &lt;blockquote&gt;
@@ -33,41 +45,41 @@
 &lt;li&gt;Option-三指轻扫&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;这个风格指南条目里有很多有用的信息，包括解释了为什么“缩小”的快捷键是 ⌘-（使用“-/_”键上两个符号中&lt;em&gt;较低&lt;/em&gt;的那个），而“放大”的快捷键是 ⌘+（使用“=/+”键上两个符号中&lt;em&gt;较高&lt;/em&gt;的那个）：&lt;/p&gt;
+&lt;p&gt;这个风格指南条目里包含了各种有用的信息，包括解释了为什么“缩小”的快捷键是 ⌘-（使用“-/_”键上两个符号中&lt;em&gt;靠下的&lt;/em&gt;那个），而“放大”的快捷键是 ⌘+（使用“=/+”键上两个符号中&lt;em&gt;靠上的&lt;/em&gt;那个）：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;如果键上的某个字符能为命令的操作提供助记符，你可以用该字符来标识该键。&lt;/p&gt;
+&lt;p&gt;如果按键上的某个字符能为命令的操作提供助记符，你可以用该字符来标识该键。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;既然说到这里，我有个个人很在意的地方。当你用修饰键名称写出键盘快捷键时，你用连字符连接它们：Command-R。但是当使用修饰键符号时，你绝对&lt;em&gt;不应该&lt;/em&gt;包含连字符。⌘C 是正确的，⌘-C 是错误的。一方面，看看菜单栏中的快捷键——自1984年以来，“复制”的快捷键就一直显示为 ⌘C。另一方面，考虑一下大多数应用程序用于“放大”和“缩小”的上述快捷键：⌘+ 和 ⌘-。如果这两个用连字符连接起来都会显得很奇怪，但“缩小”的快捷键尤其会让人困惑：Command-Hyphen-Hyphen？&lt;/p&gt;
-&lt;p&gt;（不过，你如何用文字写出这些呢？苹果使用“Command-Plus Sign (+)”和“Command-Minus Sign (-)”。而我，我会直接用“Command-Plus”和“Command-Minus”。）&lt;/p&gt;&lt;p&gt;别理会Drang的&lt;a href="https://leancrew.com/all-this/2017/11/last-thoughts-on-modifier-keys/"&gt;后续文章&lt;/a&gt;，或者&lt;a href="https://sixcolors.com/link/2017/11/the-order-of-modifier-keys-on-the-mac/"&gt;Jason Snell的这篇&lt;/a&gt;。正确的顺序是Fn、Control、Option、Shift、Command——无论你用的是文字还是符号。&lt;/p&gt;</description><pubDate>Thu, 12 Mar 2026 00:15:20 +0000</pubDate></item><item><title>苹果在其最新款MacBook键盘上将多个关键功能键的标签从文字改为了图形符号。</title><link>https://x.com/ClassicII_MrMac/status/2028869838870069447</link><description>&lt;p&gt;“Mr. Macintosh”上周在Twitter/X上写道：&lt;/p&gt;
+&lt;p&gt;既然说到这里，我也提一个我个人很在意的小问题。当你用修饰键的名称写出一个键盘快捷键时，你用连字符连接它们：Command-R。但是当使用修饰键符号时，你绝对&lt;em&gt;不应该&lt;/em&gt;包含连字符。⌘C 是正确的，⌘-C 是错误的。一方面，看看菜单栏中的快捷键——自1984年以来，“复制”的快捷键就一直显示为 ⌘C。另一方面，考虑一下大多数应用程序用于“放大”和“缩小”的上述快捷键：⌘+ 和 ⌘-。如果这两个用连字符连接起来都会显得很奇怪，但“缩小”的写法尤其会让人困惑：Command-Hyphen-Hyphen？&lt;/p&gt;
+&lt;p&gt;（不过，用文字怎么写出来呢？苹果用的是“Command-Plus Sign (+)”和“Command-Minus Sign (-)”。至于我，我会直接用“Command-Plus”和“Command-Minus”。）&lt;/p&gt;&lt;p&gt;别理会Drang的&lt;a href="https://leancrew.com/all-this/2017/11/last-thoughts-on-modifier-keys/"&gt;后续文章&lt;/a&gt;，或者&lt;a href="https://sixcolors.com/link/2017/11/the-order-of-modifier-keys-on-the-mac/"&gt;Jason Snell的这篇&lt;/a&gt;。正确的顺序是Fn、Control、Option、Shift、Command——无论你用的是文字还是符号。&lt;/p&gt;</description><pubDate>Thu, 12 Mar 2026 00:15:20 +0000</pubDate></item><item><title>苹果在其最新款美国版MacBook键盘上将多个关键功能键的标签从文字改为了图形符号。</title><link>https://x.com/ClassicII_MrMac/status/2028869838870069447</link><description>&lt;p&gt;“Mr. Macintosh”上周在Twitter/X上写道：&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;一个小变化：&lt;/p&gt;
 
-&lt;p&gt;看起来苹果更新了新款M5 16英寸MacBook Pro的键盘。退格键、回车键、Shift键和Tab键上的文字标签被移除了，取而代之的是符号。&lt;/p&gt;
+&lt;p&gt;看起来苹果更新了新款M5 16英寸MacBook Pro的键盘。退格键、回车键、Shift键和Tab键上的文字标签消失了，取而代之的是符号。&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;所有新款MacBook键盘都采用了这一相同变化，包括M5 Air和A18 Pro MacBook Neo。我对此并不感冒。我喜欢那些按键上的文字。但我愿意承认，这可能只是因为我从大约10岁起就开始使用苹果键盘，而那些按键上&lt;a href="https://en.wikipedia.org/wiki/Apple_IIe"&gt;一直有文字&lt;/a&gt;。iOS 26将软件键盘上的“return”一词改为了“⏎”字形（并且移除了空格键上的“space”一词——回想起来，似乎没必要标注）。&lt;/p&gt;
+&lt;p&gt;所有新款MacBook键盘都采用了同样的变化，包括M5 Air和A18 Pro MacBook Neo。我对此并不感冒。我喜欢那些按键上的文字。但我愿意承认，这可能只是因为我从大约10岁起就开始使用苹果键盘，而&lt;a href="https://en.wikipedia.org/wiki/Apple_IIe"&gt;那些按键上&lt;/a&gt;一直&lt;a href="https://en.wikipedia.org/wiki/Apple_IIc"&gt;有文字&lt;/a&gt;。iOS 26将软件键盘上的“return”一词改为了“⏎”符号（并且移除了空格键上的“space”一词——事后看来，似乎没必要标注）。&lt;/p&gt;
 
-&lt;p&gt;Esc键仍然标有“esc”，修饰键（Fn、Control、Option和Command）仍然在字形下方或旁边显示名称。我怀疑这是因为文档——&lt;a href="https://support.apple.com/en-us/102650"&gt;包括苹果自己的文档&lt;/a&gt;——经常使用这些键的名称（Option-Shift-Command-K），而不是字形（⌥⇧⌘K）。就在最近几年，苹果才开始加入Control（⌃）和Option（⌥）的字形——直到不久前，这些键还只标有名称。他们在&lt;a href="https://support.apple.com/en-us/111951"&gt;2017年&lt;/a&gt;到&lt;a href="https://support.apple.com/en-us/111932"&gt;2018年&lt;/a&gt;之间添加了⌃和⌥字形。而在2018年那次变化之前，苹果还在Option键上添加了“alt”标签——这个视觉上的“瑕疵”存在时间如此之长，甚至可以追溯到&lt;a href="https://www.flickr.com/photos/gruber/albums/72157604797968156/"&gt;我自己心爱的键盘&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;Esc键仍然标有“esc”，修饰键（Fn、Control、Option和Command）仍然在符号下方或旁边显示名称。我怀疑这是因为文档——&lt;a href="https://support.apple.com/en-us/102650"&gt;包括苹果自己的&lt;/a&gt;——经常使用这些键的名称（Option-Shift-Command-K），而不是符号（⌥⇧⌘K）。就在最近几年，苹果才开始在Control（⌃）和Option（⌥）键上添加符号——直到不久前，这些键还只标有名称。他们在&lt;a href="https://support.apple.com/en-us/111951"&gt;2017年&lt;/a&gt;到&lt;a href="https://support.apple.com/en-us/111932"&gt;2018年&lt;/a&gt;之间添加了⌃和⌥符号。而在2018年那次改变之前，苹果还在Option键上添加了“alt”标签——这个视觉上的“败笔”存在时间如此之长，甚至可以追溯到&lt;a href="https://www.flickr.com/photos/gruber/albums/72157604797968156/"&gt;我自己心爱的键盘&lt;/a&gt;。&lt;/p&gt;
 
-&lt;p&gt;在美国以外，苹果长期以来一直在这些键帽上使用字形。从文字到字形的变化，在这里才是新的。&lt;/p&gt;
+&lt;p&gt;在美国以外，苹果长期以来一直在这些键帽上使用符号。从文字到符号的转变，只是在这里（美国）才是新的。&lt;/p&gt;
 
 &lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/03/11/macbook-keyboards-words-to-glyphs" title="永久链接至‘苹果在其最新MacBook键盘上将多个键帽标签从文字改为字形’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;a href="https://daringfireball.net/linked/2026/03/11/macbook-keyboards-words-to-glyphs" title="永久链接至‘苹果已在其最新款美国MacBook键盘上将多个键帽标签从文字改为符号’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
 &lt;/div&gt;</description><pubDate>Wed, 11 Mar 2026 23:06:05 +0000</pubDate></item><item><title>Halide联合创始人塞巴斯蒂安·德·威特于一月加入苹果设计团队</title><link>https://9to5mac.com/2026/01/28/halide-cofounder-sebastiaan-de-with-joins-apples-design-team/</link><description>&lt;p&gt;1月28日，9to5Mac的记者钱斯·米勒报道：&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;a href="https://halide.cam/"&gt;Halide&lt;/a&gt;和&lt;a href="https://www.lux.camera/"&gt;Lux&lt;/a&gt;的联合创始人兼设计师塞巴斯蒂安·德·维特今天&lt;a href="https://www.threads.com/@sdw/post/DUEeAwFksRt"&gt;宣布&lt;/a&gt;，他将加入苹果公司的人机界面设计团队。这标志着德·维特重返苹果，他此前曾作为自由职业者为该公司工作，参与过包括“查找”、“MobileMe”和“iCloud”在内的项目。&lt;/p&gt;
+  &lt;p&gt;&lt;a href="https://halide.cam/"&gt;Halide&lt;/a&gt;和&lt;a href="https://www.lux.camera/"&gt;Lux&lt;/a&gt;的联合创始人兼设计师塞巴斯蒂安·德·维特&lt;a href="https://www.threads.com/@sdw/post/DUEeAwFksRt"&gt;今天宣布&lt;/a&gt;，他将加入苹果公司的人机界面设计团队。这标志着德·维特重返苹果，他此前曾以自由职业者身份为该公司工作，参与过包括“查找”、“MobileMe”和“iCloud”在内的项目。&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;我上一次在Daring Fireball上提到德·维特还是在去年六月，正值WWDC前夕，&lt;a href="https://daringfireball.net/linked/2025/06/03/sdw-physicality-new-age"&gt;当时我链接到了&lt;/a&gt;他那篇图文并茂、精彩绝伦的文章《&lt;a href="https://www.lux.camera/physicality-the-new-age-of-ui/"&gt;实体感：用户界面的新时代&lt;/a&gt;》，他在文中推测了苹果可能的发展方向。现在，既然知道他已加入苹果的设计团队，非常值得你花时间重温一下德·维特的这篇文章。我对他文章的评论现在看来也依然站得住脚——尤其是我担心，以透明感为中心的视觉风格似乎不太适合窗口层层叠叠的macOS。&lt;/p&gt;
+&lt;p&gt;我上一次在Daring Fireball上提到德·维特还是在六月份，正值WWDC前夕，&lt;a href="https://daringfireball.net/linked/2025/06/03/sdw-physicality-new-age"&gt;当时我链接到了&lt;/a&gt;他那篇图文并茂、精彩绝伦的文章《&lt;a href="https://www.lux.camera/physicality-the-new-age-of-ui/"&gt;实体感：用户界面的新时代&lt;/a&gt;》，他在文中推测了苹果可能的发展方向。现在知道他已加入苹果设计团队，非常值得你花时间重读德·维特的这篇文章。我对他文章的评论也依然站得住脚——尤其是我担心，以透明感为中心的视觉风格似乎不太适合窗口层层叠叠的macOS。&lt;/p&gt;
 
-&lt;p&gt;当德·维特发表他的文章时，那只是关于苹果可能走向的一个设想。如今，我们已经看到并体验了“液态玻璃”，他的文章更能作为“液态玻璃”应朝哪个方向发展的路线图。&lt;/p&gt;
+&lt;p&gt;当德·维特发表他的文章时，那只是对苹果可能发展方向的一种设想。如今我们已经看到并正在体验“液态玻璃”，他的文章更能作为“液态玻璃”应朝何处发展的路线图。&lt;/p&gt;
 
 &lt;p&gt;另外值得指出的是，尽管德·维特离开并加入了苹果，Lux公司依然发展强劲。开发者本·桑多夫斯基最近发布了&lt;a href="https://www.lux.camera/mark-iii-looks/"&gt;即将推出的Halide Mark III版本的预览&lt;/a&gt;。&lt;/p&gt;
 
 &lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/03/11/de-with-apple-design-team" title="永久链接至‘Halide联合创始人塞巴斯蒂安·德·维特于一月加入苹果设计团队’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;a href="https://daringfireball.net/linked/2026/03/11/de-with-apple-design-team" title="《Halide联合创始人塞巴斯蒂安·德·维特于一月加入苹果设计团队》的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
 &lt;/div&gt;</description><pubDate>Wed, 11 Mar 2026 23:00:00 +0000</pubDate></item><item><title>来自DF档案：《还有橙子》</title><link>https://daringfireball.net/2006/06/and_oranges</link><description>&lt;p&gt;&lt;a href="https://daringfireball.net/linked/2026/03/08/willison-chardet-licensing-dispute"&gt;马克·皮尔格林&lt;/a&gt;本周在Daring Fireball上的重现，促使我重读了这篇二十年前写的文章。我认为它至今依然站得住脚。&lt;/p&gt;
 
 &lt;p&gt;特别是这一段，似乎尤其适用于Tahoe：&lt;/p&gt;
@@ -199,14 +211,4 @@
 &lt;p&gt;Analogue是开发者克里斯蒂安·泰希纳推出的一个相对较新的应用。它使用苹果的Log成像管线，这主要是苹果为视频拍摄设计的。但Analogue将Log管线同时用于视频&lt;em&gt;和&lt;/em&gt;静态照片拍摄。这样做的一个副作用是静态照片会有点“放大”，因为视频拍摄管线会轻微裁剪整个传感器。出于同样的原因，Analogue的“全画幅”宽高比是16:9，而不是4:3。但好处是，Analogue使用&lt;a href="https://aftershoot.com/blog/lut/"&gt;LUT&lt;/a&gt;进行图像处理/色彩分级，并且可以无损地进行。这能产生令人愉悦的、类似胶片的图像。我一直在我的iPhone 17 Pro上大量使用Analogue拍摄。可惜的是，Analogue无法在17e上运行，因为17e不支持Log拍摄。事实上，Analogue&lt;em&gt;仅&lt;/em&gt;在15 Pro、16 Pro和17 Pro机型上可用，因为只有这些iPhone支持“专业”成像管线。即使是配备了A19 Pro芯片、售价1200美元的iPhone Air也不支持。 &lt;a class="footnoteBackLink" href="https://daringfireball.net/#fnr2-2026-03-09" title="跳转回正文中的脚注 2。"&gt;↩︎︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</description><pubDate>Mon, 09 Mar 2026 21:57:35 +0000</pubDate></item><item><title>MacBook Neo 壁纸现已适用于 MacOS Tahoe 系统的所有 Mac 机型</title><link>https://www.macrumors.com/2026/03/09/macos-tahoe-26-4-beta-4-neo-wallpapers/</link><description>&lt;p&gt;Juli Clover，MacRumors：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;这些壁纸采用带有彩色渐变的泡泡风格线条，提供Mac紫色、Mac蓝色、Mac粉色和Mac黄色。其设计和颜色拼出了“Mac”一词。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;他们打动我了。我现在就要升级到Tahoe系统。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/03/09/neo-wallpapers" title="‘MacBook Neo壁纸现已在MacOS Tahoe中为所有Mac提供’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Mon, 09 Mar 2026 19:37:58 +0000</pubDate></item></channel></rss>
+&lt;/div&gt;</description><pubDate>Mon, 09 Mar 2026 21:57:35 +0000</pubDate></item></channel></rss>
