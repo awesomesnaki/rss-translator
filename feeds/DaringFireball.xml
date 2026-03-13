@@ -1,5 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Thu, 12 Mar 2026 15:32:04 +0000</lastBuildDate><item><title>软件本体感知</title><link>https://unsung.aresluna.org/software-proprioception/</link><description>&lt;p&gt;马辛·维查里：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Fri, 13 Mar 2026 00:18:06 +0000</lastBuildDate><item><title>口音</title><link>https://mahdi.jp/apps/accents</link><description>&lt;p&gt;马赫迪·布查特尼亚：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Accents 是一款应用程序，可让你在任何 Mac 上使用 iMac/MacBook Neo 的强调色。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;苹果公司设定默认强调色仅限特定 Mac 硬件的做法是个有趣的点子。但真正体现 Mac 精神的是，像布查特尼亚这样聪明的开发者，能够通过 Accents 这样简单的工具，让任何 Mac 上的任何用户都能使用这些强调色。（&lt;a href="https://mjtsai.com/blog/2026/03/12/hardware-exclusive-mac-accent-colors/"&gt;经由 Michael Tsai&lt;/a&gt;。）&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/03/12/accents" title="‘Accents’ 的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Fri, 13 Mar 2026 00:18:06 +0000</pubDate></item><item><title>苹果平台安全指南新增关于MacBook Neo屏幕摄像头指示灯的简要说明</title><link>https://support.apple.com/guide/security/mac-on-screen-camera-indicator-light-sec75a2d237d/1/web/1</link><description>&lt;p&gt;苹果平台安全指南：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;MacBook Neo 将系统软件与 A18 Pro 芯片内的专用硅元件相结合，为摄像头数据流提供额外的安全保障。该架构旨在防止任何不受信任的软件——即使在 macOS 中拥有 root 或内核权限——在未同时点亮屏幕上的摄像头指示灯的情况下启用摄像头。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;我相信，这就是说明的全部内容。其中并未包含关于具体如何实现这一点的任何技术细节。在阅读平台安全指南中的这条新说明之前，我以为摄像头使用的唯一可见指示是菜单栏中的绿色摄像头图标。但在 Neo 上，&lt;a href="https://daringfireball.net/misc/2026/03/neo-camera-indicator-menu-bar-default.jpeg"&gt;显示屏的右上角&lt;/a&gt;还有一个绿点。那个绿点是安全的摄像头使用指示器，它可见于菜单栏时间旁边，并且在菜单栏隐藏时（例如在&lt;a href="https://daringfireball.net/misc/2026/03/neo-camera-indicator-full-screen.png"&gt;我从全屏模式下的 Photo Booth 刚刚截取的这张屏幕截图&lt;/a&gt;中）仍然可见。苹果在平台安全指南的这条说明中阐述的是，如果 Neo 的摄像头正在被使用，显示屏的那个角落保证会亮起绿点。&lt;/p&gt;
+
+&lt;p&gt;我直到今天才注意到这个绿点的原因之一是，由于 Tahoe 系统的透明菜单栏以及我正在评测的柑橘色 Neo 默认的黄绿色桌面壁纸，一个绿点并不显眼。如果你在系统设置 → 辅助功能 → 显示中启用“减少透明度”，&lt;a href="https://daringfireball.net/misc/2026/03/neo-camera-indicator-menu-bar-reduce-trans.jpeg"&gt;它会变得醒目得多&lt;/a&gt;，这会使菜单栏呈现传统的实体外观。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/03/12/macbook-neo-on-screen-camera-indicator" title="‘苹果平台安全指南新增关于 MacBook Neo 屏幕摄像头指示器的简要说明’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Thu, 12 Mar 2026 23:48:59 +0000</pubDate></item><item><title>艾迪·库伊表示，Apple TV上的F1赛事收视率有所上升</title><link>https://www.hollywoodreporter.com/tv/tv-news/apple-tv-formula-1-ratings-eddy-cue-strong-start-1236529359/</link><description>&lt;p&gt;《好莱坞报道》记者亚历克斯·韦普林报道：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;流媒体平台苹果公司服务高级副总裁埃迪·库伊向《好莱坞报道》透露，上周澳大利亚大奖赛的收视率较2025年同期（该赛事当时在ESPN播出）有所提升，这显示出该平台的强劲势头。&lt;/p&gt;
+
+&lt;p&gt;库伊表示：“2026赛季F1赛事在Apple TV上取得了强势开局，车迷反响积极，首个周末的收视率实现同比增长，超出了F1和苹果双方的预期。”&lt;/p&gt;
+
+&lt;p&gt;正如苹果一贯的做法，该公司拒绝透露任何具体数字，不过去年澳大利亚大奖赛在ESPN的平均收视人数为110万。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;所以我们虽然不知道具体的收视人数，但知道它高于110万。这算是个半贝索斯式的数字。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/03/12/f1-apple-tv-ratings-are-up" title="永久链接至‘埃迪·库伊称Apple TV上的F1赛事开播收视率上升’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Thu, 12 Mar 2026 23:41:07 +0000</pubDate></item><item><title>MacBook Neo 拆解</title><link>https://www.youtube.com/watch?v=5k7Lv7f-5CQ</link><description>&lt;p&gt;Tech Re-Nu 在 YouTube 上表示：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;至此，我们得到了一台完全拆解的笔记本电脑。我们在不到10分钟内完成了这项工作，对于一台苹果笔记本电脑来说，这绝对令人惊叹。我不得不说，我们从未见过任何一款 Mac 能像这台一样看起来如此易于维修和模块化。没有粘性胶带，没有棘手的粘合剂，模块化部件，部件数量也极少，没有铰链盖之类的东西。它的设计就是超级直接、优雅。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Neo 使其成本更低的那些方面，也使其结构更简单，因而更易于维修。苹果的 iPhone、iPad 以及使用大量胶水和胶带、并以难以拆卸的方式将组件封装在一起的高端 MacBook，其设计并非出于恶意或疏忽。它们之所以如此，是因为这是让设备变得更小、更轻薄的必要条件。通过允许 Neo 变得稍厚、稍重一些，它也简单了许多。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/03/12/macbook-neo-teardown" title="‘MacBook Neo 拆解’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Thu, 12 Mar 2026 18:51:48 +0000</pubDate></item><item><title>软件本体感知</title><link>https://unsung.aresluna.org/software-proprioception/</link><description>&lt;p&gt;马辛·维查里：&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;当软件能够感知其硬件的尺寸和特性时，你就能在软件中实现一些有趣的功能。[...]&lt;/p&gt;
@@ -80,135 +126,4 @@
 
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/linked/2026/03/11/de-with-apple-design-team" title="《Halide联合创始人塞巴斯蒂安·德·维特于一月加入苹果设计团队》的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Wed, 11 Mar 2026 23:00:00 +0000</pubDate></item><item><title>来自DF档案：《还有橙子》</title><link>https://daringfireball.net/2006/06/and_oranges</link><description>&lt;p&gt;&lt;a href="https://daringfireball.net/linked/2026/03/08/willison-chardet-licensing-dispute"&gt;马克·皮尔格林&lt;/a&gt;本周在Daring Fireball上的重现，促使我重读了这篇二十年前写的文章。我认为它至今依然站得住脚。&lt;/p&gt;
-
-&lt;p&gt;特别是这一段，似乎尤其适用于Tahoe：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;我对那些声称对Mac OS X非常满意的Mac用户深表怀疑。在我看来，真正的Mac用户是那些拥有更高标准、甚至高到不可思议标准的人，他们使用Mac并非因为它很棒，而是因为它比其他所有选择都稍好一些。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/03/11/df-archive-and-oranges" title="‘来自DF档案：‘与橙子’’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Wed, 11 Mar 2026 19:02:11 +0000</pubDate></item><item><title>★ MacBook Neo</title><link>https://daringfireball.net/2026/03/the_macbook_neo</link><description>&lt;p&gt;就在十多年前，&lt;a href="https://daringfireball.net/2015/09/the_iphones_6s#:~:text=BENCHMARKS"&gt;评测当时新出的iPhone 6S&lt;/a&gt;时，我就能看出芯片风向的转变。与上一年相比，iPhone 6S中的A9 CPU比iPhone 6中的A8快了1.6倍。这令人印象深刻。但真正让我震惊的是将6S的GeekBench分数与MacBook进行比较。2015年的A9，其基准测试成绩与2013年的一款两年机龄的MacBook Air相当。更令人印象深刻的是，&lt;em&gt;它在单核性能上超越了当时新出的、没有形容词修饰的12英寸MacBook&lt;/em&gt;（大约快了1.1倍），而在多核性能上仅慢了3%。这是与&lt;a href="https://www.apple.com/newsroom/2015/03/09Apple-Unveils-All-New-MacBook/"&gt;搭载1.1 GHz双核英特尔酷睿M处理器的入门款1300美元MacBook&lt;/a&gt;相比，而不是与搭载1.2 GHz酷睿M的1600美元型号相比。但是，即便如此——iPhone 6S的性能超越了全新的1300美元MacBook，并与1600美元的型号打平。我称其为“令人震惊”。迹象已经非常明显：Mac的未来似乎注定要从英特尔的x86芯片转向苹果自家的基于ARM的芯片。&lt;/p&gt;
-&lt;p&gt;如今，在苹果M系列芯片首次亮相五年多之后，我们迎来了&lt;a href="https://www.apple.com/newsroom/2026/03/say-hello-to-macbook-neo/"&gt;MacBook Neo&lt;/a&gt;：一款售价600美元的笔记本电脑，它使用了A18 Pro，字面意义上与2024年iPhone 16 Pro型号的SoC相同。从苹果芯片转型之初就很清楚，苹果的M系列芯片远优于x86——能效比更高，性能本身也更好，还有创新的（并且五年后仍未被超越的）&lt;a href="https://developer.apple.com/videos/play/wwdc2020/10686/"&gt;统一内存架构&lt;/a&gt;——但MacBook Neo证明了苹果的A系列芯片已经足够强大，足以驱动一台出色的消费级MacBook。&lt;/p&gt;
-&lt;p&gt;我认为事实是，苹果的A系列芯片在很长一段时间内就已经有能力可靠地为Mac提供动力了。2020年夏天的&lt;a href="https://en.wikipedia.org/wiki/Developer_Transition_Kit"&gt;苹果芯片开发者过渡套件&lt;/a&gt;，就是运行A12Z芯片的Mac Mini机箱，而这些芯片最初是为iPad Pro设计的。&lt;sup id="fnr1-2026-03-10"&gt;&lt;a href="https://daringfireball.net/#fn1-2026-03-10"&gt;1&lt;/a&gt;&lt;/sup&gt;但我认为苹果甚至在那之前就可以开始在Mac中使用A系列芯片。那会是可信的，但会有妥协。等到现在才推出，其优势简直是压倒性的。你无法在600-700美元的价格区间内买到任何一款在性能、显示质量、音频质量或制造质量上能与MacBook Neo竞争的x86 PC笔记本电脑。软件质量就更不用说了。&lt;/p&gt;&lt;p&gt;2007年的初代iPhone是我用过最惊艳的设备。它很可能也将成为我未来会用到的最惊艳的设备。它在诸多方面都领先于时代。但从性能角度看，它并非桌面级电脑。在计算机行业，二十年是很长的时间，而最能证明这一点的莫过于苹果的“手机芯片”在所有可衡量指标上都超越了英特尔的x86平台——它们更快、更凉爽、更小巧，甚至可能成本更低。而且它们肯定没有更贵。&lt;/p&gt;
-&lt;p&gt;自上周以来，我一直在测试一台柑橘色、售价700美元的MacBook Neo&lt;sup id="fnr2-2026-03-10"&gt;&lt;a href="https://daringfireball.net/#fn2-2026-03-10"&gt;2&lt;/a&gt;&lt;/sup&gt;——这是配备Touch ID和512 GB存储的型号。我将其设置为全新状态，而不是从现有Mac恢复我主要的MacOS工作设置，并且尽可能多地使用内置软件和默认设置。我只在需要时才添加第三方软件或更改设置。并且我尽可能多地用它来完成我的工作。我原本预计这会很顺利，但实际上，体验远远超出了我的预期。天啊，我甚至对运行MacOS 26 Tahoe（Neo所需的系统）的抱怨都没有我预想的那么多。&lt;/p&gt;
-&lt;p&gt;仅凭技术规格来评估苹果电脑的性能从来都不是一个好主意。使用Neo的经历就证明了这一点。8 GB的内存并不算多。而且我非常看重内存——我的个人工作站仍然是一台2021年的M1 Max MacBook Pro，配备64 GB内存（当时可用的最大容量）。但仅仅使用Neo，完全不考虑其内存限制，我没有注意到任何卡顿。我没有关闭那些原本不会关闭的应用，也没有关闭那些原本不会关闭的Safari标签页。我只是在工作——在我输入这句话时，有整整十几个应用在运行——一切都感觉非常流畅。&lt;/p&gt;
-&lt;p&gt;那么，我能否像在我的MacBook Pro上那样，在这台机器上打开几百个Safari标签页而不感到影响呢？不，可能不行。但那是非典型情况。在典型的生产力使用场景中，Neo不仅仅是够用——它表现得很好。&lt;/p&gt;
-&lt;p&gt;显示屏明亮而清晰。规格显示其最大亮度为500尼特，与MacBook Air相同。实际使用中，感觉确实如此。（500尼特也与我个人M1 MacBook Pro的最大SDR亮度相匹配。）侧置扬声器的声音非常好——响亮而清晰。我得说，对于一台600美元的笔记本电脑来说，这声音好得令人难以置信。电池续航很长（而且我几乎所有的测试都是在Neo未连接电源的情况下进行的）。键盘手感与我习惯的完全一样，只不过因为键帽是全新的，感觉甚至比我那台已经用了四年的MacBook Pro的键盘还要好，后者的最常用键帽&lt;a href="https://mjtsai.com/blog/2024/05/08/shiny-macbook-keys/"&gt;现在已经有点光滑了&lt;/a&gt;。&lt;/p&gt;&lt;p&gt;还有触控板。让我来歌颂一下MacBook Neo的触控板。Neo的触控板是整个Neo的缩影。它并非像苹果之前所做的那样——允许沃尔玛等第三方零售商以低于700美元的价格销售2020年的8GB M1 MacBook Air（&lt;a href="https://daringfireball.net/linked/2024/03/15/macbook-air-walmart"&gt;从两年前开始&lt;/a&gt;）——将旧组件降价出售，而是从头开始设计，旨在成为一款低成本的MacBook。&lt;/p&gt;
-&lt;p&gt;十年前，苹果开始从采用机械点击机制的触控板转向妙控板，后者通过触觉反馈（用苹果的话说，就是Taptic Engine）来模拟点击。而且，使用妙控板时，你可以使用用力点按（即重按）来执行特殊操作。默认情况下，如果在配备妙控板的Mac上启用了“用力点按和触觉反馈”，那么一次用力的点按将执行“查询”操作——例如，在Safari中对一个单词执行此操作，你会得到一个弹出窗口，显示词典应用对该单词的定义。这是上下文菜单中“在词典中查询”命令的快捷方式，也可以通过&lt;a href="https://support.apple.com/en-us/102650"&gt;键盘快捷键Control-Command-D&lt;/a&gt;来查询当前选中的文本或鼠标指针当前悬停的文本——这是所有合格的Mac应用中都有效的标准功能。&lt;/p&gt;
-&lt;p&gt;Neo的触控板是机械式的。它真的会发出咔哒声，即使机器处于关机状态也是如此。&lt;sup id="fnr3-2026-03-10"&gt;&lt;a href="https://daringfireball.net/#fn3-2026-03-10"&gt;3&lt;/a&gt;&lt;/sup&gt; 显然，这是一种节省成本的措施。但Neo的触控板在任何方面都感觉不到廉价。你可以在任何地方点击它——顶部、底部、中间、角落——点击感都很到位。多指&lt;a href="https://support.apple.com/en-us/102482"&gt;手势&lt;/a&gt;（最常见的是双指滑动滚动）——都能正常工作。它的感觉像妙控板一样好吗？不，可能没有。但我总是忘记这个触控板有任何不同或特别之处。它感觉就是正常的。这简直令人难以置信。系统设置的触控板面板中缺少“用力点按和触觉反馈”选项，所以如果你习惯了那个功能，可能会想念它。但对于任何不习惯那个妙控板功能的人来说——这包括从未使用过MacBook的人（也许是Neo的主要受众），以及大多数长期使用Mac的普通用户（可能是次要受众）——很难说他们会注意到这个触控板与MacBook Air中的触控板有什么不同，除了它稍微小一点。但这种小，只是与Neo相比Air略小的机身尺寸成比例的感觉。这是一个更便宜的触控板，但感觉一点也不廉价。太棒了！&lt;/p&gt;
-&lt;h2&gt;那么，有什么缺点呢？&lt;/h2&gt;&lt;p&gt;你可以使用&lt;a href="https://www.apple.com/mac/compare/?modelList=MacBook-Neo-A18-Pro,MacBook-Air-M5,MacBook-Air-M1"&gt;苹果官网的这个比较页面&lt;/a&gt;（已存档，供日后参考，&lt;a href="https://daringfireball.net/misc/2026/03/MacBook-Neo-(A18-Pro)-vs-MacBook-Air-(M5)-vs-MacBook-Air-(M1).pdf"&gt;此处为PDF版本&lt;/a&gt;）来查看Neo相较于当前起售价1100美元的M5 MacBook Air以及沃尔玛曾以600-650美元价格销售的、已有5年历史（老到仍采用英特尔时代的楔形设计）的M1 MacBook Air，所缺失或不同的全部功能列表。我个人注意到并感到困扰的地方有：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Neo缺少环境光传感器。它在系统设置→显示器中仍然提供“自动调节亮度”的选项，且该选项默认开启，但我不明白在没有环境光传感器的情况下它是如何工作的。无论其工作原理如何，效果都不好。随着我家中光照条件的变化——从白天到夜晚，从阴天到晴天——我发现自己需要手动调节显示屏亮度。直到我开始在Neo上手动调节亮度时，我才意识到，我已经好几年（也许十年）没有在MacBook上手动调节过亮度了。我并不是说我&lt;em&gt;从不&lt;/em&gt;调节MacBook Air或Pro的亮度，但我做得如此之少，以至于我完全记不清哪个功能键控制亮度。使用Neo几天后，我清楚地知道了它们的位置：F1和F2。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;嗯，就这些。这就是我在过去六天将Neo作为工作和阅读主力电脑使用时，唯一让我感到烦恼的地方。每天我需要手动调高或调低显示屏亮度一两次。
-这实在是一个短得惊人的列表。只有一项，而且只是轻微的不便。&lt;/p&gt;
-&lt;p&gt;我还注意到其他一些缺失的功能，但我并不在意。Neo没有摄像头硬件指示灯。“摄像头正在使用”的指示仅存在于菜单栏中。这一省略存在隐私/安全方面的隐患。根据苹果的说法，MacBook、iPhone和iPad上用于指示摄像头正在使用的硬件指示灯&lt;a href="https://news.ycombinator.com/item?id=23799821"&gt;无法被软件绕过&lt;/a&gt;。如果摄像头开启，那个灯就会亮起，任何软件都无法禁用它。由于Neo唯一的摄像头使用指示在菜单栏中，这显然有可能被软件绕过。虽然不是什么大问题，但值得注意。&lt;/p&gt;
-&lt;p&gt;Neo的网络摄像头不支持人物居中或俯拍模式。但就我个人而言，我从未使用过人物居中或俯拍模式，所以我不觉得缺少它们有什么影响。你的情况可能不同。但摄像头是1080p的，在我看来效果相当不错。而且我得说，对于一台600美元的笔记本电脑来说，它的摄像头效果真是棒极了。&lt;/p&gt;&lt;p&gt;Neo没有刘海。相反，它的整个显示屏周围有一圈比MacBook Air和Pro更大的黑色边框。我认为这是Neo的一个优势，而不是劣势。我至今没有习惯MacBook的刘海，而Neo的显示屏边框完全不会困扰我。&lt;/p&gt;
-&lt;p&gt;还有那个只支持USB 2速度的第二个USB-C端口。这确实很糟糕。但如果苹果十年前能卖只有一个端口的MacBook，那么今天他们也能卖一个第二个端口很烂的型号。我敢打赌，这将是第二代Neo会改进的地方之一，但这并不妨碍我今天推荐这一代——甚至我自己也会买一台。如果你知道自己需要多个高速USB端口（或雷雳端口），那你需要的是MacBook Air或Pro。&lt;/p&gt;
-&lt;p&gt;Neo随附的充电器只有可怜的20瓦——和iPad Air配的是同款不起眼的充电器。我希望它是30瓦的（就像M1 MacBook Air配的那样），但也许它好歹还配了充电器，我们就该庆幸了。如果你将Neo插入更强大的电源适配器（使用任一USB-C端口），它的充电速度会更快。&lt;sup id="fnr4-2026-03-10"&gt;&lt;a href="https://daringfireball.net/#fn4-2026-03-10"&gt;4&lt;/a&gt;&lt;/sup&gt; 包装盒里的USB-C线是白色的，与Neo的颜色不匹配，而且只有1.5米长。MacBook Air和Pro随附的是2米长的MagSafe线。不过，再次强调：它只要600美元！&lt;/p&gt;
-&lt;h2&gt;我心中的重量问题&lt;/h2&gt;
-&lt;p&gt;Neo并非一款纤薄的超轻机型。它的重量是2.7磅（1.23公斤）——与13英寸M5 MacBook Air完全相同。Neo的显示屏为13.0英寸，占地面积比13.6英寸的Air小，但Air更薄。我不确定这是否算一个缺点。这只是屏幕较小的Mac笔记本电脑的正常重量。而十年前的MacBook "One"则是一个设计宣言。&lt;a href="https://support.apple.com/en-us/112442"&gt;它的重量仅略高于2磅&lt;/a&gt;（0.92公斤），厚度从1.35厘米逐渐收薄至仅0.35厘米。Neo的厚度是1.27厘米，M5 Air是1.13厘米。事实上，2015款MacBook的极致纤薄可能催生了纯触觉反馈的妙控板。妙控板首次出现在那款MacBook和2015年初的MacBook Pro上——对于MacBook Pro来说，它是一个不错的附加功能，但对于MacBook One的楔形机身前端来说，它可能是唯一能放得下的触控板。&lt;/p&gt;
-&lt;p&gt;如果让我选择，我希望苹果能推出一款新的纤薄超轻MacBook。不是取代Neo，而是在Neo之外增加一个型号。苹果对"Air"这个名字的不一致使用让情况变得复杂，但MacBook Neo显然类似于iPhone 17e；MacBook Air类似于iPhone 17（大多数人的默认型号）；MacBook Pro类似于iPhone 17 Pro。我希望苹果能推出一款类似于iPhone Air的MacBook——极致纤薄且性能惊人。&lt;/p&gt;&lt;p&gt;十年前那款MacBook "One"最大的缺点，除了令人费解地只配备了一个USB-C接口（这也是它唯一的充电方式）之外，就是英特尔酷睿M芯片糟糕的性能。这些芯片足够小、功耗足够低，能够塞进MacBook轻薄无风扇的机身里，但它们慢得要命。对于一款价格不菲的笔记本电脑来说，这是一个巨大的妥协。如今，性能、能效比和芯片物理尺寸这些问题，都因苹果自研芯片而迎刃而解。我愿意花两倍于Neo的价格，购买一台规格相似（但内存更大、I/O接口更好）、重量在2.0磅（约0.9公斤）或以下的MacBook。我买这样一台MacBook，不是为了取代我的14英寸MacBook Pro，而是为了取代我2018年的11英寸iPad Pro，作为我在家"随手带着走"的备用电脑。&lt;sup id="fnr5-2026-03-10"&gt;&lt;a href="https://daringfireball.net/#fn5-2026-03-10"&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;就目前而言，我可能会为了同样的目的购买一台Neo，哪怕它有2.7磅（约1.22公斤）重。配上妙控键盘的iPad Pro既昂贵又笨重。iPad Air也是如此。我的2018款iPad Pro，装在妙控键盘保护套里，重达2.36磅（1.07公斤）。这还是11英寸型号，配着一个局促、小于标准尺寸的键盘。比起用那台iPad做任何事，我对这台MacBook Neo要满意得多。是的，我的iPad现在确实老了。但换一台新的iPad Pro，也需要换一个新的妙控键盘。iPad Pro加妙控键盘的组合，11英寸起价1300美元，13英寸起价1650美元。如果我换成iPad Air，11英寸成本为870美元，13英寸为1120美元。13英寸的iPad配上妙控键盘后，重量甚至比2.7磅的13英寸MacBook Neo还要&lt;em&gt;略重&lt;/em&gt;一点。11英寸的iPad配上键盘，重量约为2.3磅（约1.04公斤）。既然我觉得macOS用起来更愉快、效率更高，何必还要费那个劲呢？过去十年，我的三设备生活方式一直是：一台MacBook Pro（在家时固定在书桌的Studio Display上，旅行时放在公文包里）；我的iPhone；以及一台带妙控键盘的iPad Pro，用于在家里的其他地方使用。过去一周测试MacBook Neo时，我一次都没碰过我的iPad，也一次都没希望这台Neo是台iPad。而且有很多次，我非常庆幸它是一台Mac。&lt;/p&gt;&lt;p&gt;而我只需花700美元就能买到一台，就像这台一样。这比11英寸的iPad Air加上妙控键盘还要便宜170美元。而且Neo配备了全尺寸键盘，运行的是macOS，而不是那个带有有限macOS窗口界面模仿的iOS版本。我绝不是想说MacBook Neo是iPad的终结者，但对于像我这样不用Apple Pencil画画、确实需要键盘打字，并且只想要一台小巧、简单、高度便携且性能强大的电脑在家里使用的人来说，它是一个绝佳的iPad替代品。对于许多从PC转过来的用户来说，MacBook Neo将是一台出色的入门级Macintosh。但对于许多像我这样拥有昂贵桌面工作站作为主力机的长期Mac用户来说，它也将是一台出色的&lt;em&gt;备用&lt;/em&gt;Mac。&lt;/p&gt;
-&lt;p&gt;Neo是后乔尼·艾夫时代苹果的结晶。MacBook "One"是一种设计宣言，也是一款深受相对小众群体喜爱的半高端产品。而Neo是一款面向大众市场的设备，其构思、设计和工程目标都是将Mac用户群扩展到更广泛的受众。它同样是一种设计宣言，但属于另一种——强调实用性高于一切。它真是一件该死的可爱工具，而且还很有趣。&lt;/p&gt;
-&lt;p&gt;我就直说了吧：我想我已经对iPad没兴趣了。既然苹果现在推出了一款起价仅600美元的顶级Mac笔记本电脑，何必再费心考虑iPad呢？愿MacBook Neo长寿到其名字变得不再贴切。&lt;/p&gt;&lt;div class="footnotes"&gt;
-&lt;hr/&gt;
-&lt;ol&gt;
-&lt;li id="fn1-2026-03-10"&gt;
-&lt;p&gt;&lt;a href="https://daringfireball.net/2026/03/599_not_a_piece_of_junk_macbook_neo"&gt;上周我写道&lt;/a&gt;，MacBook Neo 是苹果首款配备多个 USB 端口的 A 系列芯片产品——针对关于 Neo 第二个 USB-C 端口仅支持 USB 2.0 速度的抱怨——有几位读者提到了&lt;a href="https://en.wikipedia.org/wiki/Developer_Transition_Kit"&gt;苹果芯片开发者过渡套件&lt;/a&gt;。那些机器有两个 USB-C 3.1 端口、两个 USB-A 3.0 端口、&lt;em&gt;以及&lt;/em&gt;一个 HDMI 端口。但苹果并未将其作为产品出售——开发者是从苹果那里借用的，并且在首批真正的苹果芯片 Mac 发货后不久，&lt;a href="https://www.macrumors.com/2021/02/05/apple-dtk-credit-for-developers-increased/"&gt;苹果就要求归还&lt;/a&gt;。如果苹果当时出售它们，价格会超过 600 美元。那些额外的 I/O 端口涉及了 A12Z SoC 之外的大量工程工作。 &lt;a class="footnoteBackLink" href="https://daringfireball.net/#fnr1-2026-03-10" title="跳转回正文中的脚注 1。"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id="fn2-2026-03-10"&gt;
-&lt;p&gt;Neo 的柑橘色是一种迷人的配色。我展示过的每个人都喜欢它。但它究竟是偏绿的黄色，还是偏黄的绿色？在日光下，它看起来更像偏绿的黄色。但在夜晚，它看起来更像偏黄的绿色。默认情况下，系统设置 → 外观中的 macOS 强调色会默认匹配 Neo 硬件的颜色——这是苹果&lt;a href="https://512pixels.net/2012/12/imac/"&gt;沿用了几十年&lt;/a&gt;的一个有趣技巧。对于柑橘色，&lt;a href="https://daringfireball.net/misc/2026/03/macbook-neo-citrus-appearance-color.png"&gt;在我看来&lt;/a&gt;，那个特殊的强调色看起来绿色多于黄色。 &lt;a class="footnoteBackLink" href="https://daringfireball.net/#fnr2-2026-03-10" title="跳转回正文中的脚注 2。"&gt;↩︎︎&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id="fn3-2026-03-10"&gt;
-&lt;p&gt;妙控板上的触觉“咔嗒”声是如此逼真，以至于当你尝试点击一台已关机的 MacBook Air 或 Pro，或者一个已关闭的独立妙控板时，感觉&lt;em&gt;真的&lt;/em&gt;很奇怪……什么反应都没有。连一丝咔嗒的迹象都没有。完全死寂。这很恶心，就像戳一只死去的宠物。 &lt;a class="footnoteBackLink" href="https://daringfireball.net/#fnr3-2026-03-10" title="跳转回正文中的脚注 3。"&gt;↩︎︎&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id="fn4-2026-03-10"&gt;
-&lt;p&gt;我最喜欢的电源适配器是&lt;a href="https://nomadgoods.com/products/ac-adapter-65w-usb-c-slim"&gt;Nomad 这款 55 美元的双端口 65 瓦“纤薄”充电器&lt;/a&gt;。它小巧、轻便，平放式设计有助于它在酒店以及机场、咖啡店等公共场所的松动墙壁插座上保持连接。Nomad 还销售一款更小的单端口 40 瓦型号，以及一款更大的 100 瓦型号。但对我来说，65 瓦型号恰到好处。上面的链接指向 Nomad 的网站；&lt;a href="https://www.amazon.com/NOMAD-65W-Slim-Power-Adapter/dp/B0CYP6KPPB/?tag=df-amzn-20"&gt;这里是一个能让我赚点佣金的亚马逊联盟链接&lt;/a&gt;。 &lt;a class="footnoteBackLink" href="https://daringfireball.net/#fnr4-2026-03-10" title="跳转回正文中的脚注 4。"&gt;↩︎︎&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id="fn5-2026-03-10"&gt;
-&lt;p&gt;与十年前 2.0 磅重的 MacBook “One” 相比，2.7 磅重的 Neo 有一个优势——你可以用一只手抬起 Neo 的屏幕盖，它就直接打开了。而对于旧的 MacBook，其底座太轻了，以至于当你只想打开显示屏时，整个机器往往会被抬起来。 &lt;a class="footnoteBackLink" href="https://daringfireball.net/#fnr5-2026-03-10" title="跳转回正文中的脚注 5。"&gt;↩︎︎&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;</description><pubDate>Tue, 10 Mar 2026 22:48:40 +0000</pubDate></item><item><title>[赞助商] 决赛入围者</title><link>https://www.finalist.works/finalist-36/</link><description>&lt;p&gt;您的一整天尽在一屏掌握。Finalist是一款iOS/macOS日程规划应用，它能整合您的日历、提醒事项和健康数据，确保无一遗漏。&lt;/p&gt;
-
-&lt;p&gt;最新版本现已发布，新增了子任务、日历书签、日记中的HealthKit集成，以及可从锁屏界面触发的语音每日简报功能。&lt;/p&gt;
-
-&lt;p&gt;让它与您现有的工具协同工作。它会默默补足您当前设置中的缺失环节。App Store提供免费试用，并可购买终身许可。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/feeds/sponsors/2026/03/finalist" title="Permanent link to ‘Finalist’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Mon, 09 Mar 2026 22:44:03 +0000</pubDate></item><item><title>★ iPhone 17e</title><link>https://daringfireball.net/2026/03/the_iphone_17e</link><description>&lt;p&gt;多年来，我在这里写作时，经常使用“速度提升”这个词来描述某种类型的硬件更新：现有产品的新版本，其中新内容主要是更快的组件，尤其是CPU和GPU，但产品的许多部分，包括外壳，都保持不变。我整个星期都在思考这个问题，因为我在测试iPhone 17e时，发现17e是优秀速度提升的典范。但这其实是个有趣的术语，因为在现实生活中，道路上的减速带是让你慢下来的东西。但在计算机硬件中，它关乎的是更快或做得更多，哪怕只是稍微提升。&lt;/p&gt;
-&lt;p&gt;关于“bump”这个词和iPhone 17e，我觉得还有一点挺有意思：它是苹果产品线中唯一一款没有相机平台——也就是那个凸起——的iPhone。镜头本身确实略微突出，但它只是一个镜头，不是一个平台，这让人回想起昔日的iPhone，&lt;a href="https://support.apple.com/en-us/111868"&gt;比如&lt;/a&gt;2018年的&lt;a href="https://daringfireball.net/2018/10/the_iphone_xr"&gt;iPhone XR&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;速度提升型的硬件更新从来不会更新每一个组件。那不是速度提升。只有&lt;em&gt;部分&lt;/em&gt;组件会得到更新。在一个好的速度提升更新中，被升级的部分是旧型号中最欠缺的部分。&lt;a href="https://daringfireball.net/2025/02/the_iphone_16e"&gt;我去年对iPhone 16e的评测&lt;/a&gt;相当热情洋溢，但我指出了一个主要的遗漏：MagSafe。当然，与产品线中更高价位的型号相比，16e还有其他妥协之处，但MagSafe是16e缺失的一个真正让我困扰的功能。我不确定有哪篇16e的评测没有将MagSafe的缺失列为16e最大的缺点。&lt;/p&gt;&lt;p&gt;苹果一年前对省略MagSafe的解释是，他们为16e锁定的客户群是那些从用了4年、5年甚至6年的旧款iPhone升级而来的用户，因此他们已经习惯了通过插入线缆来给手机充电。我能理解这一点。去年购买iPhone 16e的人不会想念MagSafe，因为他们从未拥有过具备此功能的手机。但是，对于我们这些一直在使用带MagSafe的iPhone的人来说，16e缺少MagSafe是引导朋友和家人不要购买它的主要原因。而且这不仅仅是充电的问题。我在很多地方、以多种方式使用MagSafe。我的床边有一个&lt;a href="https://nomadgoods.com/products/stand-one-4th-gen-carbide"&gt;基座&lt;/a&gt;，书桌键盘旁还有一个。我的汽车仪表板上有一个MagSafe支架（我的车太旧了，远早于CarPlay时代）。我还有一些MagSafe配件，比如&lt;a href="https://www.moft.us/products/iphone-stand-wallet-magsafe-compatible"&gt;Moft的这款卡扣式支架&lt;/a&gt;，&lt;a href="https://daringfireball.net/linked/2025/07/11/moft-snap-on-iphone-stand-wallet"&gt;我去年夏天推荐过它&lt;/a&gt;，以及像&lt;a href="https://www.amazon.com/Anker-Ultra-Slim-Certified-Ultra-Fast-MagSafe-Compatible/dp/B0F8HXYD46?th=1"&gt;Anker这款&lt;/a&gt;这样的便携MagSafe电池包（这类电池包是绝佳的旅行物品——在酒店里它们可以兼作床头充电器）。我不带MagSafe卡包，也不用PopSocket式的附件，但很多人用。MagSafe就是很棒，而16e缺少它是最大的不推荐理由。仅仅因为目标用户不会&lt;em&gt;想念它&lt;/em&gt;——因为他们的旧手机没有——并不意味着他们不会因为新手机没有而&lt;em&gt;错过&lt;/em&gt;它。&lt;/p&gt;
-&lt;p&gt;好吧，这一切都结束了。17e配备了MagSafe，并支持高达15W的感应充电。（iPhone Air支持高达20W的充电，而17和17 Pro型号则高达25W。）苹果本可以就此打住——仅仅增加MagSafe——那么17e就已经是一次成功的年度更新了。&lt;/p&gt;
-&lt;p&gt;但那只会是一次……&lt;em&gt;呃&lt;/em&gt;……磁力升级，而不是速度升级。苹果还将SoC从A18升级到了A19，这是标准版iPhone 17的当前一代芯片。从年度对比来看，这并非巨大的飞跃，但更快就是更快，更新就是更好。（配备A19的599美元iPhone 17e，在单核CPU性能上的基准测试成绩，比配备一年前的A18 Pro的599美元MacBook Neo还要快。）&lt;/p&gt;&lt;p&gt;A19芯片的升级为相机带来了更好的图像处理流程，这使得17e能够提供苹果的"新一代人像模式"，相比16e此前的人像模式有明显提升。但相机硬件本身——前后置的镜头和传感器——与去年相比并无变化。根据&lt;a href="https://halide.cam/"&gt;Halide&lt;/a&gt;应用的技术参数报告功能显示，其相机技术规格与16e完全相同。这是一款不错的相机，但并非顶级水准。就像去年的16e一样，相机在弱光环境下的局限性最为明显。尽管如此，以下两点依然成立：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;17e的相机是目前苹果在售iPhone中最弱的。（其画质远不及同样采用单镜头的iPhone Air相机。）&lt;/li&gt;
-&lt;li&gt;对于考虑购买17e的用户而言，这很可能是他们拥有过的最好的相机，相比他们当前可能已使用多年的旧手机是巨大进步。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;17e的相机系统仍仅限于苹果最初的&lt;a href="https://support.apple.com/guide/iphone/use-photographic-styles-iph629d2cd37/ios"&gt;摄影风格&lt;/a&gt;；而采用A19芯片的其他新款iPhone——17、17 Pro和Air——都提供了大幅改进的"最新一代"摄影风格。实际上，这意味着17e的系统相机应用仅提供这些风格：标准、高对比度、鲜亮、暖色和冷色。去年在iPhone 16系列首发的第二代摄影风格提供了更丰富的风格选择和更精细的控制，所有处理都是非破坏性的。举个明显的例子：新一代摄影风格提供了多种黑白风格。使用这些黑白风格拍摄后，你仍可在照片应用中改为彩色风格，因为这些风格并未固化到文件中。但初代摄影风格——即17e所限用的版本——会将拍摄时选择的风格固化到HEIC（或JPEG）文件中。你可以在后期应用非破坏性的&lt;em&gt;滤镜&lt;/em&gt;，包括黑白滤镜，但这些滤镜相比新一代摄影风格过于简单——而且与新的摄影风格不同，你无法在相机应用的取景器中实时预览旧版滤镜效果。如果你在意这些功能，应该多花200美元购买常规版iPhone 17，或是仍在售的iPhone 16，这两款机型在相机硬件&lt;em&gt;和&lt;/em&gt;软件方面都比17e更优秀。如果你完全不在意这些，那么17e可能就是适合你的iPhone。&lt;/p&gt;&lt;p&gt;这里是苹果一如既往出色的产品对比页面链接，&lt;a href="https://www.apple.com/iphone/compare/?modelList=iphone-16e,iphone-17e,iphone-17"&gt;包含16e、17e与17的对比&lt;/a&gt;。（为留存记录，此处提供该对比页面的&lt;a href="https://daringfireball.net/misc/2026/03/iPhone-16e-vs-iPhone-17e-vs-iPhone-17.pdf"&gt;PDF存档版本&lt;/a&gt;。）除了新增MagSafe功能外，从去年的16e到新款17e，另一个最大的变化是基础存储容量从128GB提升至256GB（而起售价仍保持在600美元不变）。这很不错。此外，除了白色和黑色，现在还多了第三种颜色选择——“柔粉色”。最后，17e升级采用了Ceramic Shield 2前玻璃面板，苹果宣称其抗刮擦性能提升了3倍。这同样是个不错的改进。&lt;/p&gt;
-&lt;p&gt;以上就是17e相较于16e的主要升级内容。但这些已经足够了。回顾旧的iPhone SE机型，苹果通常每3到5年才更新一次硬件。而新的e系列机型似乎已与其他按代编号的机型一样，进入了每年更新的周期。&lt;sup id="fnr1-2026-03-09"&gt;&lt;a href="https://daringfireball.net/#fn1-2026-03-09"&gt;1&lt;/a&gt;&lt;/sup&gt; 增加MagSafe、从A18芯片升级到A19、提升基础存储容量以及新增配色方案，这确实是一次扎实的提速升级。&lt;/p&gt;
-&lt;p&gt;另一种审视17e的方式是将其与基础款iPhone 17进行对比。如果你选择17e，会错过什么——或者说，多花200美元购买iPhone 17，你能获得什么？&lt;/p&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;基础款iPhone 17配备了ProMotion显示屏，支持高达120Hz的动态刷新率，并具备全天候显示功能。它的屏幕也更明亮（SDR亮度为1000尼特对比800尼特，HDR亮度为1600尼特对比1200尼特）。iPhone 17是首款搭载ProMotion的基础款iPhone，并且它还拥有稍大的显示屏（6.3英寸对比6.1英寸），尽管17仅比17e高了2毫米，宽度则完全相同——屏幕尺寸的增加主要得益于更窄的显示屏边框。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;iPhone 17配备了苹果第二代超宽带芯片，以实现精准的“查找”支持。例如，如果你使用“查找”应用追踪一个AirTag，iPhone 17支持一项很酷的功能，可以精确引导你找到设备，距离精度可达几分之一英尺。iPhone 17e则不支持该功能——它只允许你进行传统的“查找”操作，比如让丢失的设备播放声音，并在地图上显示其位置。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;相机控制：在我个人的iPhone 17 Pro上，我只使用相机控制按钮来启动相机应用，以及在相机（和其他相机应用，如&lt;a href="https://notbor.ing/product/camera"&gt;!Camera&lt;/a&gt;、&lt;a href="https://apps.apple.com/us/app/analogue/id6748702405"&gt;Analogue&lt;/a&gt;,&lt;sup id="fnr2-2026-03-09"&gt;&lt;a href="https://daringfireball.net/#fn2-2026-03-09"&gt;2&lt;/a&gt;&lt;/sup&gt;和&lt;a href="https://halide.cam/"&gt;Halide&lt;/a&gt;）中作为快门按钮。我不使用它来调整控制参数，因为这太繁琐了。但我非常喜欢它作为一个专用的启动器和快门按钮。即使现在，在将17e作为主力机使用了几天之后，我仍然会试图在17e上调用它来启动相机应用。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;iPhone 17拥有巧妙的&lt;a href="https://support.apple.com/guide/iphone/view-live-activities-in-the-dynamic-island-iph28f50d10d/ios"&gt;灵动岛&lt;/a&gt;；而17e则是一个普通的刘海屏。灵动岛是个不错的功能，但尽管我个人手机（2022年随14 Pro首次亮相）上拥有它已有3.5年，在我将17e作为主力机使用的大半周时间里，我并没有特别想念它。实际上，在最初撰写这一段时，我不得不再次确认17e没有灵动岛，因为在最初几天的测试中，我根本没有注意到这一点。但后来我外出办事需要打优步，同时听着播客，这时我注意到了灵动岛的缺失——没有已呼叫优步的实时状态更新，也没有快速点击返回&lt;a href="https://overcast.fm/"&gt;Overcast&lt;/a&gt;的按钮。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;最后，但绝非最不重要的一点是，iPhone 17拥有明显更好的相机硬件：1倍主摄像头更出色；它提供了17e完全不具备的0.5倍超广角镜头；并且&lt;a href="https://www.businessworld.in/article/exclusive-jon-mccormack-on-how-apple-reinvented-the-selfie-for-the-iphone-17-575523"&gt;全新的前置摄像头也远胜一筹&lt;/a&gt;。&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;对于200美元来说，这确实是相当多的提升。但对于那些将价格视为最高优先级的用户来说，这些改进中没有任何一点能成为我不推荐17e的理由。拥有256GB的存储空间，即使是基础款的17e也值得毫不犹豫地推荐。去年16e缺少MagSafe功能，对苹果来说今年加上它是顺理成章的事，同样，128GB的寒酸基础存储空间也是如此。我认为对于明年的iPhone 18e来说，没有什么功能能与MagSafe相提并论。（我的首选会是第二代超宽带芯片——我希望看到精确定位功能能尽快应用到苹果销售的所有产品上。）&lt;/p&gt;
-&lt;p&gt;经过几天的测试，5G蜂窝信号接收强劲，电池续航持久。我在费城市中心的不同地点进行了几次Speedtest测速，每次下载速度都超过500 Mbps，上传速度在40-50 Mbps左右。苹果自家的C1X调制解调器确实非常出色。&lt;/p&gt;
-&lt;p&gt;以下是苹果目前销售的iPhone型号价格表：&lt;/p&gt;
-&lt;table class="table-8C47AFED-145E-4785-BA79-3587CDB4548E" width="550"&gt;
-&lt;thead&gt;
-&lt;th&gt;iPhone&lt;/th&gt;&lt;th&gt;SoC&lt;/th&gt;&lt;th&gt;128 GB&lt;/th&gt;&lt;th&gt;256 GB&lt;/th&gt;&lt;th&gt;512 GB&lt;/th&gt;&lt;th&gt;1 TB&lt;/th&gt;&lt;th&gt;2 TB&lt;/th&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;17e&lt;/td&gt;&lt;td&gt;A19&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;$600&lt;/td&gt;&lt;td&gt;$800&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;16&lt;/td&gt;&lt;td&gt;A18&lt;/td&gt;&lt;td&gt;$700&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;16 Plus&lt;/td&gt;&lt;td&gt;A18&lt;/td&gt;&lt;td&gt;$800&lt;/td&gt;&lt;td&gt;$900&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;17&lt;/td&gt;&lt;td&gt;A19&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;$800&lt;/td&gt;&lt;td&gt;$1000&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Air (17)&lt;/td&gt;&lt;td&gt;A19 Pro&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;$1000&lt;/td&gt;&lt;td&gt;$1200&lt;/td&gt;&lt;td&gt;$1400&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;17 Pro&lt;/td&gt;&lt;td&gt;A19 Pro&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;$1100&lt;/td&gt;&lt;td&gt;$1300&lt;/td&gt;&lt;td&gt;$1500&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;17 Pro Max&lt;/td&gt;&lt;td&gt;A19 Pro&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;$1200&lt;/td&gt;&lt;td&gt;$1400&lt;/td&gt;&lt;td&gt;$1600&lt;/td&gt;&lt;td&gt;$2000&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;这是一个非常有吸引力的产品阵容，而17e从容地巩固了最低价位点：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;好选择：iPhone 17e&lt;/li&gt;
-&lt;li&gt;更好选择：iPhone 17&lt;/li&gt;
-&lt;li&gt;最佳选择：iPhone 17 Pro 或 iPhone Air，具体取决于你如何定义“最佳”。&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;上周在纽约苹果为媒体举办的动手"体验"活动上，主要焦点虽然是MacBook Neo，但我也有机会聊了聊17e。苹果的产品营销人员倾向于将17e与iPhone 11和12进行比较。这些正是大多数潜在17e买家正在升级的机型。如果他们真的升级到17e，会注意到以下几点：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;电池续航大幅提升。不仅比用了4-5年的iPhone 11或12强，甚至超过了那些旧款iPhone出厂时的新电池。苹果的"流媒体视频"测试显示，&lt;a href="https://www.apple.com/iphone/compare/?modelList=iphone-17e,iphone-12,iphone-11"&gt;将17e与12对比&lt;/a&gt;，续航从11小时提升到了21小时。而且如果他们&lt;em&gt;确实&lt;/em&gt;是从一部电池用了四五年、经历了数百次充电循环的手机升级，感受会更加明显。&lt;/li&gt;
-&lt;li&gt;屏幕明显更亮（800尼特对比625尼特）。&lt;/li&gt;
-&lt;li&gt;相机大幅改进。即使他们对摄影不那么认真，17e的相机也明显优于五年前的机型。&lt;/li&gt;
-&lt;li&gt;所有操作都会感觉更快。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;坦白说，我不确定发布一年的iPhone 16如今的目标用户是谁，尤其是考虑到苹果现在只提供128GB存储版本。是那些预算紧张但又真心想要超广角0.5倍副摄像头的人吗？仍在售的16 Plus的潜在吸引力则更为明显：如果你想要大屏iPhone，它比17 Pro Max便宜得多。而且，与普通版iPhone 16不同，16 Plus提供256GB版本。但说到这里，我会建议任何考虑购买256GB存储、售价900美元的iPhone 16 Plus的人，不妨多花100美元选择iPhone Air。如果苹果直接淘汰这两款16机型，整个产品线会显得更连贯、更清晰。我怀疑苹果正处在彻底改变策略的边缘，不再以低价销售两三年前的iPhone，而是通过每年提升性能来更新整个产品线。&lt;/p&gt;&lt;div class="footnotes"&gt;
-&lt;hr/&gt;
-&lt;ol&gt;
-&lt;li id="fn1-2026-03-09"&gt;
-&lt;p&gt;苹果打算多久更新一次iPhone Air仍有待观察，这款手机的名称中明显缺少“17”这个数字。 &lt;a class="footnoteBackLink" href="https://daringfireball.net/#fnr1-2026-03-09" title="跳转回正文中的脚注 1。"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id="fn2-2026-03-09"&gt;
-&lt;p&gt;Analogue是开发者克里斯蒂安·泰希纳推出的一个相对较新的应用。它使用苹果的Log成像管线，这主要是苹果为视频拍摄设计的。但Analogue将Log管线同时用于视频&lt;em&gt;和&lt;/em&gt;静态照片拍摄。这样做的一个副作用是静态照片会有点“放大”，因为视频拍摄管线会轻微裁剪整个传感器。出于同样的原因，Analogue的“全画幅”宽高比是16:9，而不是4:3。但好处是，Analogue使用&lt;a href="https://aftershoot.com/blog/lut/"&gt;LUT&lt;/a&gt;进行图像处理/色彩分级，并且可以无损地进行。这能产生令人愉悦的、类似胶片的图像。我一直在我的iPhone 17 Pro上大量使用Analogue拍摄。可惜的是，Analogue无法在17e上运行，因为17e不支持Log拍摄。事实上，Analogue&lt;em&gt;仅&lt;/em&gt;在15 Pro、16 Pro和17 Pro机型上可用，因为只有这些iPhone支持“专业”成像管线。即使是配备了A19 Pro芯片、售价1200美元的iPhone Air也不支持。 &lt;a class="footnoteBackLink" href="https://daringfireball.net/#fnr2-2026-03-09" title="跳转回正文中的脚注 2。"&gt;↩︎︎&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;</description><pubDate>Mon, 09 Mar 2026 21:57:35 +0000</pubDate></item></channel></rss>
+&lt;/div&gt;</description><pubDate>Wed, 11 Mar 2026 23:00:00 +0000</pubDate></item></channel></rss>

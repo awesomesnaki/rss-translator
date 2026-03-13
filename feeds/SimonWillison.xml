@@ -1,10 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Thu, 12 Mar 2026 16:28:07 +0000</lastBuildDate><item><title>引用莱斯·奥查德的话</title><link>https://simonwillison.net/2026/Mar/12/les-orchard/#atom-everything</link><description>&lt;blockquote cite="https://blog.lmorchard.com/2026/03/11/grief-and-the-ai-split/"&gt;&lt;p&gt;我认为正在发生的是：AI辅助编程正在暴露开发者之间一直存在但或许不那么明显的分歧。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Thu, 12 Mar 2026 20:08:55 +0000</lastBuildDate><item><title>MALUS - 洁净室即服务</title><link>https://simonwillison.net/2026/Mar/12/malus/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://malus.sh/"&gt;MALUS - 洁净室即服务&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;对当前氛围移植与许可证漂白风潮的辛辣讽刺（&lt;a href="https://simonwillison.net/2026/Mar/5/chardet/"&gt;前情提要&lt;/a&gt;）：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;终于，从开源许可证义务中解放了。&lt;/p&gt;
+&lt;p&gt;我们的专有人工智能机器人能独立地从零开始重建任何开源项目。结果如何？&lt;strong&gt;法律层面截然不同的代码&lt;/strong&gt;，附带对企业友好的许可证。无需署名。没有著佐权。毫无问题。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我承认我花了一点时间才确认这是个玩笑。简直过于一针见血了。&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;Via &lt;a href="https://news.ycombinator.com/item?id=47350424"&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/open-source"&gt;open-source&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;ai-ethics&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 12 Mar 2026 20:08:55 +0000</pubDate></item><item><title>编码之后：我们所知的计算机编程的终结</title><link>https://simonwillison.net/2026/Mar/12/coding-after-coders/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.nytimes.com/2026/03/12/magazine/ai-coding-programming-jobs-claude-chatgpt.html?unlocked_article_code=1.SlA.DBan.wbQDi-hptjj6"&gt;编码者之后：我们所知的计算机编程的终结&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这是克莱夫·汤普森为《纽约时报杂志》撰写的一篇关于人工智能辅助开发的精彩文章，他采访了来自谷歌、亚马逊、微软、苹果等公司的70多名软件开发人员，以及其他个人，包括阿尼尔·达什、托马斯·普塔切克、史蒂夫·耶格和我自己。&lt;/p&gt;
+&lt;p&gt;我认为这篇文章准确而清晰地捕捉了我们行业当前的状况，并且用词适合更广泛的受众。&lt;/p&gt;
+&lt;p&gt;几周前我和克莱夫聊过。以下是我在文章中被引用的那段话。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;鉴于人工智能容易产生幻觉，让智能体将代码推送到现实世界可能显得鲁莽。但软件开发人员指出，编码有一个独特的品质：他们可以将人工智能与现实联系起来，因为他们可以要求智能体测试代码，看它是否能正确运行。“我觉得程序员很轻松，”科技企业家、关于如何使用人工智能编码的有影响力博主西蒙·威尔逊说。“如果你是律师，你就完蛋了，对吧？”除了在法庭上彻底蒙羞之外，没有其他方法可以自动检查人工智能撰写的法律简报是否存在幻觉。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这篇文章确实提出了一个问题，即这对我们所选择的职业的未来意味着什么，但受访开发者的普遍态度是乐观的——甚至提到了杰文斯悖论可能总体上增加需求的可能性。&lt;/p&gt;
+&lt;p&gt;一个批评的声音来自一位苹果工程师：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;确实有少数程序员表示，他们为亲手打造工作的消亡感到惋惜。“我相信亲手工作可以是有趣的、有成就感的、引人入胜的，而让计算机为你做这些，就剥夺了这些，”一位苹果工程师告诉我。（他要求匿名，以免因批评苹果拥抱人工智能而惹上麻烦。）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这个匿名的请求尖锐地提醒我们，公司内部的动态可能压制了数量未知的关于这个话题的声音。&lt;/p&gt;
+&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/new-york-times"&gt;new-york-times&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/careers"&gt;careers&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/press-quotes"&gt;press-quotes&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/deep-blue"&gt;deep-blue&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 12 Mar 2026 19:23:44 +0000</pubDate></item><item><title>引用莱斯·奥查德的话</title><link>https://simonwillison.net/2026/Mar/12/les-orchard/#atom-everything</link><description>&lt;blockquote cite="https://blog.lmorchard.com/2026/03/11/grief-and-the-ai-split/"&gt;&lt;p&gt;我认为正在发生的是：AI辅助编程正在暴露开发者之间一直存在但或许不那么明显的分歧。&lt;/p&gt;
 &lt;p&gt;在AI出现之前，两个阵营每天都在做同样的事情。手动编写代码。使用相同的编辑器、相同的语言、相同的拉取请求工作流。热爱工艺的人和只想让东西跑起来的人并肩而坐，交付相同的产品，看起来毫无区别。工作背后的&lt;em&gt;动机&lt;/em&gt;是不可见的，因为过程是相同的。&lt;/p&gt;
-&lt;p&gt;现在，道路出现了分叉。你可以让机器编写代码，专注于指导构建什么；或者你可以坚持手工打造。突然间，你最初进入这个领域的原因变得可见，因为两个阵营在那个分叉点上做出了不同的选择。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;现在，路上出现了一个分叉。你可以让机器编写代码，专注于指导构建什么；或者你可以坚持手工打造。突然间，你最初进入这个领域的原因变得可见了，因为两个阵营在那个分叉点上做出了不同的选择。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class="cite"&gt;&amp;mdash; &lt;a href="https://blog.lmorchard.com/2026/03/11/grief-and-the-ai-split/"&gt;Les Orchard&lt;/a&gt;, 《悲伤与AI分歧》&lt;/p&gt;
 
-    &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/les-orchard"&gt;les-orchard&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/careers"&gt;careers&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 12 Mar 2026 16:28:07 +0000</pubDate></item><item><title>排序算法</title><link>https://simonwillison.net/2026/Mar/11/sorting-algorithms/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://tools.simonwillison.net/sort-algorithms"&gt;排序算法&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+    &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/les-orchard"&gt;les-orchard&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/careers"&gt;careers&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/deep-blue"&gt;deep-blue&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 12 Mar 2026 16:28:07 +0000</pubDate></item><item><title>排序算法</title><link>https://simonwillison.net/2026/Mar/11/sorting-algorithms/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://tools.simonwillison.net/sort-algorithms"&gt;排序算法&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 今天用Claude构建的动画演示：我一直很喜欢排序算法的动画演示，所以我决定在手机上使用Claude Artifacts功能制作一些，然后添加了Python的timsort算法，最后增加了一个同时运行所有算法的功能。这是&lt;a href="https://claude.ai/share/2c09f6f7-57ed-47eb-af2e-fc39ddc4c39f"&gt;完整的提示词序列&lt;/a&gt;：
 &lt;blockquote&gt;
 &lt;p&gt;最常见排序算法的交互式动画演示&lt;/p&gt;
@@ -101,30 +124,4 @@ Radim Marek 介绍了于 2025 年 9 月 &lt;a href="https://www.postgresql.org/d
 &lt;p&gt;现在，OpenAI也推出了类似的优惠：为核心维护者提供六个月的ChatGPT Pro（价格与Claude Max相同，每月200美元），包含Codex以及“有条件地访问Codex安全功能”。&lt;/p&gt;
 &lt;p&gt;与Anthropic不同，OpenAI没有明确说明他们关注的具体指标，但&lt;a href="https://openai.com/form/codex-for-oss/"&gt;申请表格&lt;/a&gt;确实要求提供“诸如GitHub星标数、月度下载量，或该项目为何对生态系统至关重要等信息”。&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;Via &lt;a href="https://twitter.com/openaidevs/status/2029998191043911955"&gt;@openaidevs&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/open-source"&gt;开源&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/openai"&gt;openai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/codex-cli"&gt;codex-cli&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sat, 07 Mar 2026 18:13:39 +0000</pubDate></item><item><title>引用艾莉·皮乔夫斯基的话</title><link>https://simonwillison.net/2026/Mar/6/ally-piechowski/#atom-everything</link><description>&lt;blockquote cite="https://piechowski.io/post/how-i-audit-a-legacy-rails-codebase/"&gt;&lt;p&gt;&lt;strong&gt;面向开发者的问题：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;“你最不敢碰的是哪个部分？”&lt;/li&gt;
-&lt;li&gt;“你上次在周五部署是什么时候？”&lt;/li&gt;
-&lt;li&gt;“过去90天里，生产环境中有什么问题是测试没发现的？”&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;面向首席技术官/工程经理的问题：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;“哪个功能已经被阻塞超过一年了？”&lt;/li&gt;
-&lt;li&gt;“你现在有实时的错误可见性吗？”&lt;/li&gt;
-&lt;li&gt;“上一个花费时间远超预估的功能是什么？”&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;面向业务相关方的问题：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;“有没有哪些功能被悄悄关闭后就再也没恢复过？”&lt;/li&gt;
-&lt;li&gt;“有没有哪些事情你已经不再向客户承诺了？”&lt;/li&gt;
-&lt;/ul&gt;&lt;/blockquote&gt;
-&lt;p class="cite"&gt;&amp;mdash; &lt;a href="https://piechowski.io/post/how-i-audit-a-legacy-rails-codebase/"&gt;Ally Piechowski&lt;/a&gt;, 《如何审计Rails代码库》&lt;/p&gt;
-
-    &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/technical-debt"&gt;技术债务&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/software-engineering"&gt;软件工程&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/rails"&gt;rails&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 06 Mar 2026 21:58:33 +0000</pubDate></item><item><title>Anthropic与五角大楼</title><link>https://simonwillison.net/2026/Mar/6/anthropic-and-the-pentagon/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.schneier.com/blog/archives/2026/03/anthropic-and-the-pentagon.html"&gt;Anthropic与五角大楼&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;布鲁斯·施奈尔和内森·E·桑德斯的这篇文章，是我见过的关于近期及当前五角大楼/OpenAI/Anthropic合同情况最深思熟虑、最接地气的报道。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;AI模型正日益商品化。顶级产品的性能大致相当，彼此之间几乎没有什么区别。特别是Anthropic、OpenAI和谷歌的最新模型，往往每隔几个月就在质量上实现小幅度的相互超越。[...]&lt;/p&gt;
-&lt;p&gt;在这类市场中，品牌形象至关重要。Anthropic及其首席执行官达里奥·阿莫代伊正将自己定位为道德且值得信赖的AI提供商。这对消费者和企业客户都具有市场价值。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/bruce-schneier"&gt;bruce-schneier&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/openai"&gt;openai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/anthropic"&gt;anthropic&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;ai-ethics&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 06 Mar 2026 17:26:50 +0000</pubDate></item></channel></rss>
+&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/open-source"&gt;开源&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/openai"&gt;openai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/codex-cli"&gt;codex-cli&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sat, 07 Mar 2026 18:13:39 +0000</pubDate></item></channel></rss>
