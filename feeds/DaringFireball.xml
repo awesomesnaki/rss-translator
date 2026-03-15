@@ -1,5 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sat, 14 Mar 2026 17:22:05 +0000</lastBuildDate><item><title>Ars Technica 解雇记者本杰·爱德华兹，因其发布包含AI捏造引用的报道</title><link>https://futurism.com/artificial-intelligence/ars-technica-fires-reporter-ai-quotes</link><description>&lt;p&gt;玛吉·哈里森·杜普雷为《未来主义》撰文：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sun, 15 Mar 2026 00:37:30 +0000</lastBuildDate><item><title>马特·穆伦维格记录了一起极其狡猾的苹果账户钓鱼骗局</title><link>https://ma.tt/2026/03/gone-almost-phishin/</link><description>&lt;p&gt;马特·穆伦维格：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;上个月的一个晚上，我的苹果手表、iPhone和Mac都亮起了一条提示我重置密码的消息。这完全是凭空出现的；我并没有做任何会引发此提示的操作。我甚至在所有设备上都开启了&lt;a href="https://support.apple.com/en-us/105120"&gt;锁定模式&lt;/a&gt;。但这无济于事。有人正在对我的账户滥用苹果官方的密码重置流程——这是一种&lt;a href="https://krebsonsecurity.com/2024/03/recent-mfa-bombing-attacks-targeting-apple-users/"&gt;克雷布斯在2024年就记录过的技术&lt;/a&gt;。我忽略了这些提示，但舞台已经搭好。&lt;/p&gt;
+
+&lt;p&gt;这次攻击令人印象深刻的是下一步：骗子们竟然自己联系了苹果客服，冒充我本人，并创建了一个真实的案例，声称我丢失了手机，需要更新我的电话号码。这生成了一个真实的案例ID，并触发了真正的苹果邮件发送到我的收件箱，这些邮件&lt;em&gt;签名正确&lt;/em&gt;，来自苹果的实际服务器。这些都是合法的；世界上没有任何过滤器能拦截它们。&lt;/p&gt;
+
+&lt;p&gt;接着，“来自苹果客服的亚历山大”打来了电话。他冷静、专业且&lt;em&gt;谨慎&lt;/em&gt;。他最初的几步是可靠的安全建议：检查你的账户，确认没有更改，考虑更新你的密码。他表现得如此之好，以至于我实际上还感谢了他工作出色。&lt;/p&gt;
+
+&lt;p&gt;当然，那正是他进入攻击下一阶段的时候。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这次攻击之所以如此卑劣，是因为其中部分内容确实是来自苹果的真实邮件。而且由于攻击者是发起客服事件的一方，当他们致电穆伦维格时，他们知道苹果发送的合法邮件中的案例ID。&lt;/p&gt;
+
+&lt;p&gt;让穆伦维格意识到这是一场骗局的迹象之一是，他知道自己并未发起任何相关操作，因此他从一开始就保持着警惕。另一个迹象是，骗子给他发了一条短信，链接指向域名“audit-apple.com”（该域名现已失效）。这个域名在我看来显然很假。但对大多数人呢？大多数人根本不知道&lt;code&gt;whatever-apple.com&lt;/code&gt;与&lt;code&gt;whatever.apple.com&lt;/code&gt;&lt;em&gt;完全&lt;/em&gt;不同。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/03/14/mullenweg-apple-account-phishing" title="永久链接至‘马特·穆伦维格记录一起极其狡猾的苹果账户钓鱼骗局’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Sun, 15 Mar 2026 00:37:30 +0000</pubDate></item><item><title>iFixit的MacBook Neo拆解</title><link>https://www.ifixit.com/News/116152/macbook-neo-is-the-most-repairable-macbook-in-14-years</link><description>&lt;p&gt;iFixit：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;苹果有史以来最实惠的笔记本电脑，是否也是其最易维修的型号之一？多年来，打开一台MacBook通常意味着要与胶水和深藏的部件作斗争。&lt;/p&gt;
+
+&lt;p&gt;但Neo脱颖而出，它配备了日益完善的即日维修手册、不那么痛苦的键盘维修，以及一个采用螺丝固定的电池托盘，这让iFixit办公室一片欢呼。这款笔记本电脑证明，产品可以同时做到更实惠&lt;em&gt;且&lt;/em&gt;更易维修。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;我认为这个结论是颠倒的。我怀疑MacBook Neo之所以更易维修，并非&lt;em&gt;尽管&lt;/em&gt;其价格更低，而恰恰&lt;em&gt;是因为&lt;/em&gt;其价格更低。它的设计和工程旨在使其组装更容易，从而成本更低。而那些使其更容易组装的方面，也使其更容易拆卸。&lt;/p&gt;
+
+&lt;p&gt;关于Neo 2.7磅的重量：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;我们都有些好奇，为什么更便宜、功能更少的Neo与MacBook Air M3重量相同，两款13英寸笔记本电脑的重量都在1.24公斤左右。考虑到Neo据称使用了更轻的机身，而且，呃，尺寸更小，这就尤其令人费解。&lt;/p&gt;
+
+&lt;p&gt;我们的发现如下：Neo的机身实际上只比Air的机身轻一点点。它的机身、键盘和底盖加起来只比Air的轻8克。但Neo的屏幕重了48克，而支撑其触控板的那一大块金属就占了笔记本电脑总重量的7%！Neo的整个触控板组件重量也几乎是M3 MacBook Air的两倍。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/03/14/ifixits-macbook-neo-teardown" title="‘iFixit’s MacBook Neo Teardown’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Sat, 14 Mar 2026 22:06:02 +0000</pubDate></item><item><title>PC制造商尚未准备好迎接MacBook Neo</title><link>https://www.theverge.com/report/894090/macbook-neo-pc-windows-laptop-competition-asus-footinmouth</link><description>&lt;p&gt;安东尼奥·G·迪·贝内代托，《边缘》杂志：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;不知何故，PC制造商们仍然没有预见到这一点。以下是[华硕首席财务官尼克·吴]对MacBook Neo的描述，特别是其8GB内存限制：&lt;/p&gt;
+
+&lt;p&gt;“我认为苹果在定位这款产品时，可能更侧重于内容消费。这与主流笔记本的使用场景有些不同，因为在这种情况下，Neo感觉更像是一款平板电脑——因为平板电脑主要用于内容消费。”&lt;/p&gt;
+
+&lt;p&gt;等等。我们能先停一下吗？[...]&lt;/p&gt;
+
+&lt;p&gt;MacBook Neo性价比的证明就在数据中。在&lt;a href="https://www.theverge.com/tech/891741/apple-macbook-neo-a18-pro-review#:~:text=Geekbench%206%20CPU%20Single"&gt;单核基准测试&lt;/a&gt;中——这最能准确衡量你在电脑上进行的各种日常任务——Neo的A18 Pro芯片击败了各种Windows笔记本电脑，包括华硕自家售价2400美元的&lt;a href="https://www.theverge.com/tech/867548/asus-zenbook-duo-2026-intel-panther-lake-review"&gt;Zenbook Duo&lt;/a&gt;中搭载的新旗舰&lt;a href="https://www.theverge.com/tech/867214/intel-core-ultra-x9-panther-lake-388h-laptop-cpu-review"&gt;英特尔Panther Lake芯片&lt;/a&gt;。对于更繁重的任务，比如照片和视频编辑或玩图形要求更高的游戏，Zenbook Duo是否比MacBook Neo更强大？是的，这也是我评测那款双屏笔记本电脑时喜欢它的部分原因。但Zenbook Duo的价格也是它的四倍。而且，再说一次，对于大多数常见任务，Neo即使只有8GB内存也能与之匹敌。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;那种认为因为它是“一款iPhone芯片”，所以Neo无法胜任例如编辑4K视频的想法是完全无知的。你知道什么电脑完全能够编辑4K视频吗？iPhone。所以，当然，能够在iPhone上实现流畅4K视频编辑的同一款芯片，在Mac上也能做到同样的事情。&lt;/p&gt;
+
+&lt;p&gt;看着MacBook Neo，就认为一款拥有类似iPad规格的苹果笔记本电脑，其能力也必然类似iPad，这是愚蠢的。任何觉得iPad在工作中有局限性的人——我就是其中之一！——受限的原因并非硬件。而是因为iPadOS的设计并非为了适应我们的工作方式。MacBook Neo是一款功能完备、性能强劲的Macintosh。它确实是。如果PC制造商认为它类似于装在笔记本外壳里的iPad，那他们比我想象的还要愚蠢，而我长期以来一直认为他们中的大多数都相当愚蠢。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/03/14/pc-makers-are-not-ready-for-the-macbook-neo" title="PC制造商尚未准备好迎接MacBook Neo的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Sat, 14 Mar 2026 20:02:36 +0000</pubDate></item><item><title>Ars Technica 解雇记者本杰·爱德华兹，因其发布包含AI捏造引用的报道</title><link>https://futurism.com/artificial-intelligence/ars-technica-fires-reporter-ai-quotes</link><description>&lt;p&gt;玛吉·哈里森·杜普雷为《未来主义》撰文：&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;本月早些时候，Ars在发现文章包含虚假引述并归咎于一位真实人物后，撤回了该报道。这篇文章——记述了一起病毒式传播事件，其中一个人工智能代理&lt;a href="https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/"&gt;似乎发表了一篇攻击性文章&lt;/a&gt;，针对一位名叫斯科特·香博的人类工程师——最初于2月13日发表。在香博指出他从未说过那些归咎于他的引述后，Ars的主编肯·费舍尔在一篇&lt;a href="https://arstechnica.com/staff/2026/02/editors-note-retraction-of-article-containing-fabricated-quotations/"&gt;编者按&lt;/a&gt;中道歉，他确认文章包含了“由AI工具生成的虚假引述，并归咎于一个并未说过这些话的消息来源”，并将此错误定性为“我们标准的严重失误”。他补充说，经过进一步审查，该错误似乎是一个“孤立事件”。&lt;/p&gt;
@@ -101,44 +157,4 @@
 
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/linked/2026/03/13/software-bonkers" title="永久链接至‘软件狂想曲’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Fri, 13 Mar 2026 14:54:52 +0000</pubDate></item><item><title>“悲伤与人工智能的分裂”</title><link>https://blog.lmorchard.com/2026/03/11/grief-and-the-ai-split/</link><description>&lt;p&gt;莱斯·奥查德：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;我于1982年开始编程。自那时起，我学习的每一种语言都是一种达到目的的手段——一种让计算机去做我想让它们做的事情的新方法。AI辅助编码感觉就像是这一进程中的最新一步。不是断裂，只是梯子上的又一个横档。&lt;/p&gt;
-
-&lt;p&gt;但我试图轻松看待这一点。因为梯子本身正在改变，它所倚靠的建筑也在改变，如果我说我确切知道它将走向何方，那我就是在撒谎。&lt;/p&gt;
-
-&lt;p&gt;我所知道的是：当我构思并构建的东西真正运行时，我仍然能获得同样的满足感。代码的生成方式与过去不同，但当它运行并完成任务的那一刻呢？在我超过40年的编程生涯中，这一点从未改变。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;我一直在思考一个与奥查德在此文中写到的不同的分歧。（显而易见的事实是，AI代码生成革命正在沿着多个轴线制造多重分歧。）&lt;/p&gt;
-
-&lt;p&gt;我所看到的分歧是：那些身为工匠的开发人员欣喜若狂，因为他们的生产力正在飙升，而他们的工艺水平保持不变——甚至可能有所提高。他们比以往任何时候都更快地完成更多工作。这是一次与从汇编代码过渡到高级编程语言同样巨大、甚至更巨大的阶跃式变化。而那些水平不高的开发人员也欣喜若狂，因为这就像为他们从未享受过、甚至从未真正理解的任务提供了一个自动驾驶开关。这个行业充斥着水平不高的开发人员，因为在过去15-20年里，随着对软件的需求远远超过了那些因为热爱编写代码和创造软件而想成为程序员的人才供给，这些职位被那些仅仅因为这是高需求、高薪工作而进入这个行业的人所填补。优秀的程序员会在工作之外为了乐趣而创造软件。水平不高的程序员在工作之余写软件取乐的可能性，就像垃圾工在休息日去捡垃圾一样低。&lt;/p&gt;
-
-&lt;p&gt;奥查德的精彩文章探讨了那些有才华、考虑周全的工匠型开发人员队伍内部的一种哲学分歧。而我所说的这种分歧，自从程序员需求爆炸以来就一直存在，但AI代码生成工具正在将其变成一道广阔的鸿沟。最优秀的程序员比以往任何时候都更明显地成为最优秀的。最差的程序员则从每天拉几坨屎，变成了喷出名副其实的、热气腾腾、臭气熏天的屎山，同时为他们提高的生产力而自豪地微笑。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/03/13/grief-and-the-ai-split" title="Permanent link to ‘‘Grief and the AI Split’’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Fri, 13 Mar 2026 14:21:54 +0000</pubDate></item><item><title>口音</title><link>https://mahdi.jp/apps/accents</link><description>&lt;p&gt;马赫迪·布查特尼亚：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Accents 是一款应用程序，可让你在任何 Mac 上使用 iMac/MacBook Neo 的强调色。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;苹果公司设定默认强调色仅限特定 Mac 硬件的做法是个有趣的点子。但真正体现 Mac 精神的是，像布查特尼亚这样聪明的开发者，能够通过 Accents 这样简单的工具，让任何 Mac 上的任何用户都能使用这些强调色。（&lt;a href="https://mjtsai.com/blog/2026/03/12/hardware-exclusive-mac-accent-colors/"&gt;经由 Michael Tsai&lt;/a&gt;。）&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/03/12/accents" title="‘Accents’ 的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Fri, 13 Mar 2026 00:18:06 +0000</pubDate></item><item><title>苹果平台安全指南新增关于MacBook Neo屏幕摄像头指示灯的简要说明</title><link>https://support.apple.com/guide/security/mac-on-screen-camera-indicator-light-sec75a2d237d/1/web/1</link><description>&lt;p&gt;苹果平台安全指南：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;MacBook Neo 将系统软件与 A18 Pro 芯片内的专用硅元件相结合，为摄像头数据流提供额外的安全保障。该架构旨在防止任何不受信任的软件——即使在 macOS 中拥有 root 或内核权限——在未同时点亮屏幕上的摄像头指示灯的情况下启用摄像头。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;我相信，这就是说明的全部内容。其中并未包含关于具体如何实现这一点的任何技术细节。在阅读平台安全指南中的这条新说明之前，我以为摄像头使用的唯一可见指示是菜单栏中的绿色摄像头图标。但在 Neo 上，&lt;a href="https://daringfireball.net/misc/2026/03/neo-camera-indicator-menu-bar-default.jpeg"&gt;显示屏的右上角&lt;/a&gt;还有一个绿点。那个绿点是安全的摄像头使用指示器，它可见于菜单栏时间旁边，并且在菜单栏隐藏时（例如在&lt;a href="https://daringfireball.net/misc/2026/03/neo-camera-indicator-full-screen.png"&gt;我从全屏模式下的 Photo Booth 刚刚截取的这张屏幕截图&lt;/a&gt;中）仍然可见。苹果在平台安全指南的这条说明中阐述的是，如果 Neo 的摄像头正在被使用，显示屏的那个角落保证会亮起绿点。&lt;/p&gt;
-
-&lt;p&gt;我直到今天才注意到这个绿点的原因之一是，由于 Tahoe 系统的透明菜单栏以及我正在评测的柑橘色 Neo 默认的黄绿色桌面壁纸，一个绿点并不显眼。如果你在系统设置 → 辅助功能 → 显示中启用“减少透明度”，&lt;a href="https://daringfireball.net/misc/2026/03/neo-camera-indicator-menu-bar-reduce-trans.jpeg"&gt;它会变得醒目得多&lt;/a&gt;，这会使菜单栏呈现传统的实体外观。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/03/12/macbook-neo-on-screen-camera-indicator" title="‘苹果平台安全指南新增关于 MacBook Neo 屏幕摄像头指示器的简要说明’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Thu, 12 Mar 2026 23:48:59 +0000</pubDate></item></channel></rss>
+&lt;/div&gt;</description><pubDate>Fri, 13 Mar 2026 14:54:52 +0000</pubDate></item></channel></rss>
