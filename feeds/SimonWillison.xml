@@ -1,5 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Sun, 15 Mar 2026 22:41:57 +0000</lastBuildDate><item><title>什么是代理工程？</title><link>https://simonwillison.net/guides/agentic-engineering-patterns/what-is-agentic-engineering/#atom-everything</link><description>&lt;p&gt;&lt;em&gt;&lt;a href="https://simonwillison.net/guides/agentic-engineering-patterns/"&gt;智能体工程模式&lt;/a&gt; &amp;gt;&lt;/em&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Mon, 16 Mar 2026 14:01:41 +0000</lastBuildDate><item><title>编程代理如何工作</title><link>https://simonwillison.net/guides/agentic-engineering-patterns/how-coding-agents-work/#atom-everything</link><description>&lt;p&gt;&lt;em&gt;&lt;a href="https://simonwillison.net/guides/agentic-engineering-patterns/"&gt;智能体工程模式&lt;/a&gt; &amp;gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;与任何工具一样，了解&lt;a href="https://simonwillison.net/guides/agentic-engineering-patterns/what-is-agentic-engineering/"&gt;编码智能体&lt;/a&gt;的内部工作原理，可以帮助你更好地决定如何应用它们。&lt;/p&gt;
+&lt;p&gt;编码智能体是一种软件，它充当大语言模型的&lt;strong&gt;控制框架&lt;/strong&gt;，通过不可见的提示词驱动的额外能力来扩展该大语言模型，这些能力被实现为可调用的工具。&lt;/p&gt;
+&lt;h2 id="large-language-models"&gt;大语言模型&lt;/h2&gt;
+&lt;p&gt;任何编码智能体的核心都是一个大语言模型，或称LLM。这些模型有诸如GPT-5.4、Claude Opus 4.6、Gemini 3.1 Pro或Qwen3.5-35B-A3B之类的名称。&lt;/p&gt;
+&lt;p&gt;LLM是一种可以补全文本句子的机器学习模型。给模型短语"the cat sat on the "，它（几乎肯定）会建议"mat"作为句子的下一个词。&lt;/p&gt;
+&lt;p&gt;随着这些模型变得更大，并在越来越多的数据上进行训练，它们可以补全更复杂的句子——比如"a python function to download a file from a URL is def download_file(url): "。&lt;/p&gt;
+&lt;p&gt;LLM实际上并不直接处理单词——它们处理的是标记。一段文本被转换成一个整数标记序列，所以"the cat sat on the "变成了&lt;code&gt;[3086, 9059, 10139, 402, 290, 220]&lt;/code&gt;。这一点值得理解，因为LLM提供商根据处理的标记数量收费，并且它们一次能考虑的标记数量是有限的。&lt;/p&gt;
+&lt;p&gt;你可以在&lt;a href="https://platform.openai.com/tokenizer"&gt;platform.openai.com/tokenizer&lt;/a&gt;上使用OpenAI标记生成器来实验看看这是如何工作的。&lt;/p&gt;
+&lt;p&gt;输入到LLM的内容称为&lt;strong&gt;提示词&lt;/strong&gt;。LLM返回的文本称为&lt;strong&gt;补全&lt;/strong&gt;，有时也称为&lt;strong&gt;响应&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;当今许多模型是&lt;strong&gt;多模态&lt;/strong&gt;的，这意味着它们可以接受不仅仅是文本作为输入。&lt;strong&gt;视觉大语言模型&lt;/strong&gt;可以接受图像作为输入的一部分，这意味着你可以给它们输入草图、照片或截图。一个常见的误解是这些图像会经过一个单独的OCR或图像分析过程，但实际上这些输入也被转换成了更多的整数标记，并以与文本相同的方式进行处理。&lt;/p&gt;
+&lt;h2 id="chat-templated-prompts"&gt;聊天模板化提示词&lt;/h2&gt;
+&lt;p&gt;最初的LLM是作为补全引擎工作的——用户需要提供一个提示词，然后由模型进行补全，就像上面展示的两个例子那样。&lt;/p&gt;
+&lt;p&gt;这并不特别用户友好，因此模型大多转而使用&lt;strong&gt;聊天模板化提示词&lt;/strong&gt;，它将与模型的交流表示为一种模拟对话。&lt;/p&gt;
+&lt;p&gt;这实际上只是一种特殊格式的补全提示词，看起来像这样。&lt;/p&gt;&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;用户：写一个Python函数从URL下载文件
+助手：
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;这个提示的自然延续是让助手（由LLM代表）用一些Python代码来回答用户的问题。&lt;/p&gt;
+&lt;p&gt;LLM是无状态的：每次执行提示时，它们都从同一张白纸开始。&lt;/p&gt;
+&lt;p&gt;为了维持对话的模拟，与模型对话的软件需要维护自己的状态，并在用户每次输入新的聊天提示时重放整个现有的对话：&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;用户：写一个Python函数从URL下载文件
+助手：def download_url(url):
+    return urllib.request.urlopen(url).read()
+用户：改用requests库
+助手：
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;由于提供商对输入和输出令牌都收费，这意味着随着对话变长，每个提示会变得更昂贵，因为输入令牌的数量每次都在增长。&lt;/p&gt;
+&lt;h2 id="token-caching"&gt;令牌缓存&lt;/h2&gt;
+&lt;p&gt;大多数模型提供商通过&lt;strong&gt;缓存的输入令牌&lt;/strong&gt;的较低费率来部分抵消这一点——在短时间内处理过的常见令牌前缀可以按较低费率收费，因为底层基础设施可以缓存并重用处理该输入所需的许多昂贵计算。&lt;/p&gt;
+&lt;p&gt;编码代理的设计考虑到了这种优化——它们避免修改早期的对话内容，以确保尽可能高效地使用缓存。&lt;/p&gt;
+&lt;h2 id="calling-tools"&gt;调用工具&lt;/h2&gt;
+&lt;p&gt;LLM&lt;strong&gt;代理&lt;/strong&gt;的定义性特征是代理可以调用&lt;strong&gt;工具&lt;/strong&gt;。但什么是工具？&lt;/p&gt;
+&lt;p&gt;工具是代理框架提供给LLM使用的函数。&lt;/p&gt;
+&lt;p&gt;在提示本身层面，它看起来像这样：&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;系统：如果你需要获取天气信息，请在回合结束时使用&amp;lt;tool&amp;gt;get_weather(city_name)&amp;lt;/tool&amp;gt;
+用户：旧金山的天气怎么样？
+助手：
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;这里助手可能会用以下文本回应：&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&amp;lt;tool&amp;gt;get_weather("San Francisco")&amp;lt;/tool&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;然后模型框架软件从响应中提取该函数调用请求——可能使用正则表达式——并执行该工具。&lt;/p&gt;
+&lt;p&gt;接着它将结果返回给模型，并构建一个看起来像这样的提示：&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;系统：如果你需要获取天气信息，请在回合结束时使用&amp;lt;tool&amp;gt;get_weather(city_name)&amp;lt;/tool&amp;gt;
+用户：旧金山的天气怎么样？
+助手：&amp;lt;tool&amp;gt;get_weather("San Francisco")&amp;lt;/tool&amp;gt;
+用户：&amp;lt;tool-result&amp;gt;61°，局部多云&amp;lt;/tool-result&amp;gt;
+助手：
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;现在，LLM可以利用该工具的结果来帮助生成用户问题的答案。&lt;/p&gt;
+&lt;p&gt;大多数编码智能体定义了十几个或更多的工具供其调用。其中最强大的工具允许代码执行——例如，用于执行终端命令的&lt;code&gt;Bash()&lt;/code&gt;工具，或用于运行Python代码的&lt;code&gt;Python()&lt;/code&gt;工具。&lt;/p&gt;
+&lt;h2 id="the-system-prompt"&gt;系统提示词&lt;/h2&gt;
+&lt;p&gt;在前面的例子中，我包含了一条标记为"system"的初始消息，它告知LLM可用的工具以及如何调用它。&lt;/p&gt;
+&lt;p&gt;编码智能体通常以这样的系统提示词开始每次对话，它不会显示给用户，但会提供指示，告诉模型应该如何行为。&lt;/p&gt;
+&lt;p&gt;这些系统提示词可能长达数百行。这里是&lt;a href="https://github.com/openai/codex/blob/rust-v0.114.0/codex-rs/core/templates/model_instructions/gpt-5.2-codex_instructions_template.md"&gt;截至2026年3月的OpenAI Codex系统提示词&lt;/a&gt;，它是一个有用且清晰的例子，展示了使这些编码智能体工作的指令类型。&lt;/p&gt;
+&lt;h2 id="reasoning"&gt;推理&lt;/h2&gt;
+&lt;p&gt;2025年的重大新进展之一是在前沿模型系列中引入了&lt;strong&gt;推理&lt;/strong&gt;功能。&lt;/p&gt;
+&lt;p&gt;推理，有时在用户界面中呈现为&lt;strong&gt;思考&lt;/strong&gt;，是指模型在向用户呈现回复之前，花费额外时间生成文本，来讨论问题及其潜在解决方案。&lt;/p&gt;
+&lt;p&gt;这看起来类似于一个人大声思考，并具有类似的效果。关键的是，它允许模型花费更多时间（以及更多令牌）来处理问题，以期获得更好的结果。&lt;/p&gt;
+&lt;p&gt;推理对于调试代码问题特别有用，因为它为模型提供了导航更复杂代码路径的机会，混合工具调用，并利用推理阶段来追溯函数调用，找到问题的潜在根源。&lt;/p&gt;
+&lt;p&gt;许多编码智能体包含了调整推理努力程度的选项，鼓励模型在更困难的问题上花费更多时间进行思考。&lt;/p&gt;
+&lt;h2 id="llm-system-prompt-tools-in-a-loop"&gt;LLM + 系统提示词 + 工具循环&lt;/h2&gt;
+&lt;p&gt;信不信由你，这就是构建一个编码智能体所需的大部分内容！&lt;/p&gt;
+&lt;p&gt;如果你想更深入地理解这些东西是如何工作的，一个有用的练习是尝试从头开始构建你自己的智能体。在现有的LLM API之上，用几十行代码就可以实现一个简单的工具循环。&lt;/p&gt;
+&lt;p&gt;一个&lt;em&gt;好的&lt;/em&gt;工具循环比那要复杂得多，但其基本机制却出人意料地简单明了。&lt;/p&gt;&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/coding-agents"&gt;编程代理&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/agentic-engineering"&gt;代理工程&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 16 Mar 2026 14:01:41 +0000</pubDate></item><item><title>什么是代理工程？</title><link>https://simonwillison.net/guides/agentic-engineering-patterns/what-is-agentic-engineering/#atom-everything</link><description>&lt;p&gt;&lt;em&gt;&lt;a href="https://simonwillison.net/guides/agentic-engineering-patterns/"&gt;智能体工程模式&lt;/a&gt; &amp;gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;我使用&lt;strong&gt;智能体工程&lt;/strong&gt;这个术语来描述在编码智能体的辅助下开发软件的实践。&lt;/p&gt;
 &lt;p&gt;什么是&lt;strong&gt;编码智能体&lt;/strong&gt;？它们是既能编写又能执行代码的智能体。流行的例子包括&lt;a href="https://code.claude.com/"&gt;Claude Code&lt;/a&gt;、&lt;a href="https://openai.com/codex/"&gt;OpenAI Codex&lt;/a&gt;和&lt;a href="https://geminicli.com/"&gt;Gemini CLI&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;什么是&lt;strong&gt;智能体&lt;/strong&gt;？明确定义这个术语是一个挑战，至少从&lt;a href="https://simonwillison.net/2024/Oct/12/michael-wooldridge/"&gt;20世纪90年代&lt;/a&gt;起就一直困扰着AI研究人员，但我最终接受的定义（至少在像GPT-5、Gemini和Claude这样的大语言模型领域）是这样的：&lt;/p&gt;
@@ -260,19 +323,4 @@
 &lt;p&gt;现在，路上出现了一个分叉。你可以让机器编写代码，专注于指导构建什么；或者你可以坚持手工打造。突然间，你最初进入这个领域的原因变得可见了，因为两个阵营在那个分叉点上做出了不同的选择。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class="cite"&gt;&amp;mdash; &lt;a href="https://blog.lmorchard.com/2026/03/11/grief-and-the-ai-split/"&gt;Les Orchard&lt;/a&gt;, 《悲伤与AI分歧》&lt;/p&gt;
 
-    &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/les-orchard"&gt;les-orchard&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/careers"&gt;careers&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/deep-blue"&gt;deep-blue&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 12 Mar 2026 16:28:07 +0000</pubDate></item><item><title>排序算法</title><link>https://simonwillison.net/2026/Mar/11/sorting-algorithms/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://tools.simonwillison.net/sort-algorithms"&gt;排序算法&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-今天用Claude构建的动画演示：我一直很喜欢排序算法的动画演示，所以我决定在手机上使用Claude Artifacts功能制作一些，然后添加了Python的timsort算法，最后增加了一个同时运行所有算法的功能。这是&lt;a href="https://claude.ai/share/2c09f6f7-57ed-47eb-af2e-fc39ddc4c39f"&gt;完整的提示词序列&lt;/a&gt;：
-&lt;blockquote&gt;
-&lt;p&gt;最常见排序算法的交互式动画演示&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这给了我冒泡排序、选择排序、插入排序、归并排序、快速排序和堆排序。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;添加timsort，从GitHub上的python/cpython克隆库中查找详细信息&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;让我们添加Python的&lt;a href="https://en.wikipedia.org/wiki/Timsort"&gt;Timsort&lt;/a&gt;！现在的常规Claude聊天可以从GitHub克隆仓库了。在记录中你可以看到它克隆了仓库，然后查阅了&lt;a href="https://github.com/python/cpython/blob/d19de375a204c74ab5f3a28ec42335bae139033d/Objects/listsort.txt"&gt;Objects/listsort.txt&lt;/a&gt;和&lt;a href="https://github.com/python/cpython/blob/d19de375a204c74ab5f3a28ec42335bae139033d/Objects/listobject.c"&gt;Objects/listobject.c&lt;/a&gt;。（我应该指出，当我让GPT-5.4 Thinking审查Claude的实现时，&lt;a href="https://chatgpt.com/share/69b1fc93-f360-8006-b8b7-22c3da639367"&gt;它指出了其中的问题&lt;/a&gt;，并说这段代码"是一个简化的、受Timsort启发的自适应归并排序"。）&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我不喜欢按钮的深色配色方案，改进一下&lt;/p&gt;
-&lt;p&gt;同时添加一个"全部运行"按钮，以网格形式同时显示所有算法的较小动画图表，并让它们同时运行&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;它提出了一个我更喜欢的新配色方案，"改进一下"是个有趣的提示词，现在"全部运行"按钮产生了这样的效果：&lt;/p&gt;&lt;p&gt;&lt;img alt='一个名为"所有算法竞速"的动画排序算法竞赛可视化界面，包含SIZE（50）和SPEED（100）控制滑块、停止和随机重排按钮，以及一个"返回单视图"按钮。图例显示了比较（粉色）、交换（橙色）、基准点（红色）和已排序（紫色）指示器。七个算法在卡片面板中同时竞赛：冒泡排序（排序中… — 比较次数：312，交换次数：250）、选择排序（排序中… — 比较次数：550，交换次数：12）、插入排序（排序中… — 比较次数：295，交换次数：266）、归并排序（第3名 — 比较次数：225，交换次数：225）、快速排序（第2名 — 比较次数：212，交换次数：103）、堆排序（排序中… — 比较次数：358，交换次数：203）以及Timsort（第1名 — 比较次数：215，交换次数：332）。已完成的算法（Timsort、快速排序、归并排序）显示为完全排序的紫色条形图，并用紫色边框高亮显示。' src="https://static.simonwillison.net/static/2026/sorts-32-colors-lossy.gif"/&gt;
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/algorithms"&gt;算法&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/computer-science"&gt;计算机科学&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/javascript"&gt;JavaScript&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/sorting"&gt;排序&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/explorables"&gt;可探索项目&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/claude"&gt;Claude&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/vibe-coding"&gt;氛围编程&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><pubDate>Wed, 11 Mar 2026 22:58:06 +0000</pubDate></item></channel></rss>
+    &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/les-orchard"&gt;les-orchard&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/careers"&gt;careers&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/deep-blue"&gt;deep-blue&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 12 Mar 2026 16:28:07 +0000</pubDate></item></channel></rss>
