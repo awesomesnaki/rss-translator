@@ -1,5 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Mon, 16 Mar 2026 14:01:41 +0000</lastBuildDate><item><title>编程代理如何工作</title><link>https://simonwillison.net/guides/agentic-engineering-patterns/how-coding-agents-work/#atom-everything</link><description>&lt;p&gt;&lt;em&gt;&lt;a href="https://simonwillison.net/guides/agentic-engineering-patterns/"&gt;智能体工程模式&lt;/a&gt; &amp;gt;&lt;/em&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Mon, 16 Mar 2026 23:41:17 +0000</lastBuildDate><item><title>介绍 Mistral Small 4</title><link>https://simonwillison.net/2026/Mar/16/mistral-small-4/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://mistral.ai/news/mistral-small-4"&gt;介绍 Mistral Small 4&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Mistral 今天发布了一个重磅新版本（尽管名字叫“小”）——这是一个采用 Apache 2 许可证的 119B 参数（混合专家模型，激活参数 6B）的新模型，他们是这样描述的：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Mistral Small 4 是首个将我们旗舰模型能力——用于推理的 Magistral、用于多模态的 Pixtral 以及用于智能体编码的 Devstral——统一到一个单一、多功能模型中的 Mistral 模型。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;它支持 &lt;code&gt;reasoning_effort="none"&lt;/code&gt; 或 &lt;code&gt;reasoning_effort="high"&lt;/code&gt;，后者能提供“与之前 Magistral 模型相当的详细程度”。&lt;/p&gt;
+&lt;p&gt;这个新模型在 &lt;a href="https://huggingface.co/mistralai/Mistral-Small-4-119B-2603/tree/main"&gt;Hugging Face 上大小为 242GB&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;我通过 Mistral API 使用 &lt;a href="https://github.com/simonw/llm-mistral"&gt;llm-mistral&lt;/a&gt; &lt;a href="https://gist.github.com/simonw/3dec228577559f15f26204a3cc550583"&gt;试了一下&lt;/a&gt;：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;llm install llm-mistral
+llm mistral refresh
+llm -m mistral/mistral-small-2603 "生成一只鹈鹕骑自行车的 SVG 图像"
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img alt="自行车是颠倒且扭曲的，鹈鹕是一系列灰色曲线，有一个三角形的喙。" src="https://static.simonwillison.net/static/2026/mistral-small-4.png" /&gt;&lt;/p&gt;
+&lt;p&gt;我在他们的 &lt;a href="https://docs.mistral.ai/api/endpoint/chat#operation-chat_completion_v1_chat_completions_post"&gt;API 文档&lt;/a&gt; 中没找到设置推理强度的办法，希望这个功能能尽快推出。&lt;/p&gt;
+&lt;p&gt;同样来自 Mistral 今天发布、符合他们 -stral 命名惯例的还有 &lt;a href="https://mistral.ai/news/leanstral"&gt;Leanstral&lt;/a&gt;，这是一个专门调优以帮助输出 &lt;a href="https://lean-lang.org/"&gt;Lean 4&lt;/a&gt; 形式化可验证编码语言的开源权重模型。我完全没有探索过 Lean，所以无法可靠地评估它，但看到他们以这种方式针对一种特定语言，这很有趣。&lt;/p&gt;
+&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llm"&gt;llm&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/mistral"&gt;mistral&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/pelican-riding-a-bicycle"&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llm-reasoning"&gt;llm-reasoning&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llm-release"&gt;llm-release&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 16 Mar 2026 23:41:17 +0000</pubDate></item><item><title>在Codex中使用子代理和自定义代理</title><link>https://simonwillison.net/2026/Mar/16/codex-subagents/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://developers.openai.com/codex/subagents"&gt;在 Codex 中使用子代理和自定义代理&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在经历了数周的功能标志预览后，OpenAI Codex 的子代理功能于今日正式宣布全面可用。&lt;/p&gt;
+&lt;p&gt;它们与 Claude Code 的实现非常相似，提供了默认的“探索者”、“工作者”和“默认”子代理。我不太清楚“工作者”和“默认”之间的区别，但根据他们的 CSV 示例，我认为“工作者”旨在并行运行大量小任务。&lt;/p&gt;
+&lt;p&gt;Codex 还允许您在 &lt;code&gt;~/.codex/agents/&lt;/code&gt; 目录中将自定义代理定义为 TOML 文件。这些代理可以拥有自定义指令，并被分配使用特定的模型——如果您想要&lt;a href="https://simonwillison.net/2026/Feb/12/codex-spark/"&gt;一些原始速度&lt;/a&gt;，甚至可以包括 &lt;code&gt;gpt-5.3-codex-spark&lt;/code&gt;。然后，可以通过名称来引用它们，如文档中的这个示例提示所示：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;调查设置模态框为何保存失败。让 browser_debugger 重现问题，code_mapper 追踪负责的代码路径，一旦故障模式明确，由 ui_fixer 实施最小的修复。&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;子代理模式目前在编码代理中得到广泛支持。以下是多个不同平台的相关文档：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://developers.openai.com/codex/subagents/"&gt;OpenAI Codex 子代理&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://code.claude.com/docs/en/sub-agents"&gt;Claude Code 子代理&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://geminicli.com/docs/core/subagents/"&gt;Gemini CLI 子代理&lt;/a&gt;（实验性）&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://docs.mistral.ai/mistral-vibe/agents-skills#agent-selection"&gt;Mistral Vibe 子代理&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://opencode.ai/docs/agents/"&gt;OpenCode 代理&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://code.visualstudio.com/docs/copilot/agents/subagents"&gt;Visual Studio Code 中的子代理&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://cursor.com/docs/subagents"&gt;Cursor 子代理&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;p&gt;&lt;small&gt;来自 &lt;a href="https://twitter.com/OpenAIDevs/status/2033636701848174967"&gt;@OpenAIDevs&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+
+
+    &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/openai"&gt;openai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/codex-cli"&gt;codex-cli&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/parallel-agents"&gt;parallel-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/agentic-engineering"&gt;agentic-engineering&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 16 Mar 2026 23:03:56 +0000</pubDate></item><item><title>引用Anthropic对齐科学团队的一名成员</title><link>https://simonwillison.net/2026/Mar/16/blackmail/#atom-everything</link><description>&lt;blockquote cite="https://www.newyorker.com/news/annals-of-inquiry/the-pentagon-went-to-war-with-anthropic-whats-really-at-stake?_sp=9a6e0ff7-2bfd-46f8-a9e1-3941ef2003b5.1773495048769"&gt;&lt;p&gt;&lt;a href="https://simonwillison.net/2025/Jun/20/agentic-misalignment/"&gt;这项勒索演练&lt;/a&gt;的意义在于，能向政策制定者描述一些东西——一些足够直观、能让人产生共鸣的结果，让那些从未思考过此问题的人在实践中切实感受到对齐风险的存在。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class="cite"&gt;&amp;mdash; &lt;a href="https://www.newyorker.com/news/annals-of-inquiry/the-pentagon-went-to-war-with-anthropic-whats-really-at-stake?_sp=9a6e0ff7-2bfd-46f8-a9e1-3941ef2003b5.1773495048769"&gt;Anthropic公司对齐科学团队的一名成员&lt;/a&gt;，向Gideon Lewis-Kraus所述&lt;/p&gt;
+
+    &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;ai-ethics&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/anthropic"&gt;anthropic&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude"&gt;claude&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 16 Mar 2026 21:38:55 +0000</pubDate></item><item><title>引用吉列尔梅·兰博的话</title><link>https://simonwillison.net/2026/Mar/16/guilherme-rambo/#atom-everything</link><description>&lt;blockquote cite="https://daringfireball.net/2026/03/apple_enclaves_neo_camera_indicator"&gt;&lt;p&gt;小知识：MacBook Neo 中基于软件的摄像头指示灯运行在芯片的安全隔离区¹部分，因此其安全性几乎与硬件指示灯相当。在实际应用中，这意味着即使是内核级漏洞也无法在屏幕指示灯不亮起的情况下开启摄像头。它运行在与内核分离的特权环境中，并直接将指示灯信号传送到屏幕硬件上。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class="cite"&gt;&amp;mdash; &lt;a href="https://daringfireball.net/2026/03/apple_enclaves_neo_camera_indicator"&gt;Guilherme Rambo&lt;/a&gt;，在发给 John Gruber 的短信中&lt;/p&gt;
+
+    &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/hardware"&gt;硬件&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/apple"&gt;苹果&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/privacy"&gt;隐私&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/john-gruber"&gt;john-gruber&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 16 Mar 2026 20:34:13 +0000</pubDate></item><item><title>数据分析的编码代理</title><link>https://simonwillison.net/2026/Mar/16/coding-agents-for-data-analysis/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://simonw.github.io/nicar-2026-coding-agents/"&gt;用于数据分析的编码智能体&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+这是我为NICAR 2026研讨会“用于数据分析的编码智能体”准备的讲义——这是一个面向数据新闻工作者的三小时课程，旨在展示如何利用Claude Code和OpenAI Codex等工具来探索、分析和清理数据。
+&lt;p&gt;以下是目录：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://simonw.github.io/nicar-2026-coding-agents/coding-agents.html"&gt;编码智能体&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://simonw.github.io/nicar-2026-coding-agents/warmup.html"&gt;热身：ChatGPT和Claude&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://simonw.github.io/nicar-2026-coding-agents/setup.html"&gt;设置Claude Code和Codex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://simonw.github.io/nicar-2026-coding-agents/asking-questions.html"&gt;针对数据库提问&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://simonw.github.io/nicar-2026-coding-agents/exploring-data.html"&gt;使用智能体探索数据&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://simonw.github.io/nicar-2026-coding-agents/cleaning-trees.html"&gt;清理数据：解码社区代码&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://simonw.github.io/nicar-2026-coding-agents/visualizations.html"&gt;使用智能体创建可视化图表&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://simonw.github.io/nicar-2026-coding-agents/scraping.html"&gt;使用智能体抓取数据&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我使用GitHub Codespaces和OpenAI Codex来运行这个研讨会，因为这样可以轻松（且成本低廉）地分发一个预算受限的Codex API密钥，供参与者在课程中使用。参与者最终消耗了价值23美元的Codex代币。&lt;/p&gt;
+&lt;p&gt;所有练习都使用了Python和SQLite，其中一些还使用了Datasette。&lt;/p&gt;
+&lt;p&gt;研讨会的一个亮点是，当我们&lt;a href="https://simonw.github.io/nicar-2026-coding-agents/visualizations.html#javascript-visualizations"&gt;运行Datasette&lt;/a&gt;时，让它从一个&lt;code&gt;viz/&lt;/code&gt;文件夹提供静态内容，然后让Claude Code直接在该文件夹中开始“氛围编码”，创建新的交互式可视化图表。这是它使用Leaflet和&lt;a href="https://github.com/Leaflet/Leaflet.heat"&gt;Leaflet.heat&lt;/a&gt;为我的树木数据库创建的热力图，&lt;a href="https://gist.github.com/simonw/985ae2a6a3cd3df3fd375eb58dabea0f"&gt;源代码在此&lt;/a&gt;。&lt;/p&gt;&lt;p&gt;&lt;img alt="一张“树木SQL地图”网页应用的截图，标题为“树木SQL地图”，副标题为“运行查询并将所有返回的点渲染为热力图。默认查询目标约为200,000棵树。”下方是一个包含“/trees/-/query.json”的输入框、一个“运行查询”按钮，以及一个SQL查询编辑器，其中显示文本“SELECT cast(Latitude AS float) AS latitude, cast(Longitude AS float) AS longitude, CASE WHEN DBH IS NULL OR DBH = '' THEN 0.3 WHEN cast(DBH AS float) &amp;lt;= 0 THEN 0.3 WHEN cast(DBH AS float) &amp;gt;= 80 THEN 1.0”（查询被截断）。一条状态信息显示“已加载1,000行并将1,000个点绘制为热力图。”下方是一张旧金山的Leaflet/OpenStreetMap交互式地图，显示了树木位置的热力图叠加层，蓝绿色簇集中在里士满区、日落区等区域。地图包含缩放控件和“Leaflet | © OpenStreetMap贡献者”的署名。" src="https://static.simonwillison.net/static/2026/tree-sql-map.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;我设计这份讲义时，也考虑到了那些无法亲自参加会议的人。通常情况是，针对数据记者的材料同样适用于任何有数据需要探索的人。&lt;/p&gt;
+&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/data-journalism"&gt;数据新闻&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/geospatial"&gt;地理空间&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/python"&gt;python&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/speaking"&gt;演讲&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/sqlite"&gt;sqlite&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/datasette"&gt;datasette&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/github-codespaces"&gt;github-codespaces&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/nicar"&gt;nicar&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;编码代理&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/codex-cli"&gt;codex-cli&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/leaflet"&gt;leaflet&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 16 Mar 2026 20:12:32 +0000</pubDate></item><item><title>编程代理如何工作</title><link>https://simonwillison.net/guides/agentic-engineering-patterns/how-coding-agents-work/#atom-everything</link><description>&lt;p&gt;&lt;em&gt;&lt;a href="https://simonwillison.net/guides/agentic-engineering-patterns/"&gt;智能体工程模式&lt;/a&gt; &amp;gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;与任何工具一样，了解&lt;a href="https://simonwillison.net/guides/agentic-engineering-patterns/what-is-agentic-engineering/"&gt;编码智能体&lt;/a&gt;的内部工作原理，可以帮助你更好地决定如何应用它们。&lt;/p&gt;
 &lt;p&gt;编码智能体是一种软件，它充当大语言模型的&lt;strong&gt;控制框架&lt;/strong&gt;，通过不可见的提示词驱动的额外能力来扩展该大语言模型，这些能力被实现为可调用的工具。&lt;/p&gt;
 &lt;h2 id="large-language-models"&gt;大语言模型&lt;/h2&gt;
@@ -269,58 +330,4 @@
 &lt;/blockquote&gt;
 &lt;p&gt;OpenAI 和 Gemini 都对超过特定阈值的提示词数量&lt;a href="https://www.llm-prices.com/#sel=gemini-3-1-pro-preview-200k%2Cgpt-5.4-272k%2Cgemini-3-1-pro-preview%2Cgpt-5.4"&gt;收取更高费用&lt;/a&gt;——Gemini 3.1 Pro 的阈值是 20 万，GPT-5.4 的阈值是 27.2 万。&lt;/p&gt;
 
-    &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/anthropic"&gt;anthropic&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude"&gt;claude&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llm-pricing"&gt;llm-pricing&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/long-context"&gt;long-context&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 13 Mar 2026 18:29:13 +0000</pubDate></item><item><title>引用克雷格·莫德的话</title><link>https://simonwillison.net/2026/Mar/13/craig-mod/#atom-everything</link><description>&lt;blockquote cite="https://craigmod.com/essays/software_bonkers/"&gt;&lt;p&gt;简单来说：这是一团糟，市面上没有现成的会计软件能满足我的需求。因此，在忍受了多年的痛苦之后，我终于在上周坐下来，开始自己动手构建一个。我花了大约五天时间。我现在正在使用我有史以来用过的最好的会计软件。它速度极快。完全本地运行。能处理多种货币，并自动获取每日（历史）汇率。它能接收我扔给它的任何CSV文件，并根据需要在我的仪表板中呈现数据。它了解美国和日本的税务要求，并能将我的开支和医疗账单以适合我的会计师的格式整理好。我输入过去的报税记录供它学习。我把1099表格、K1表格和医院的PDF文件都丢进去，它就能根据需要对这些文件进行分类、整理和打包。它能核对国际电汇，考虑到汇率的小幅波动和转账完成所需的时间。它会在我对开支进行分类时学习，并在未来自动进行分类。对数据进行抽查很容易。如果我发现了异常，我可以直接与Claude对话，我们一起头脑风暴出一个批量解决方案，这常常让我免于手动修改数百条条目。并且往往会产生一个新的、小的功能调整。这款软件感觉是有机的、可塑的，其形态完美贴合我的手型，能够适应我扔给它的任何数据块。感觉就像用光剑在丛林中披荆斩棘。&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class="cite"&gt;&amp;mdash; &lt;a href="https://craigmod.com/essays/software_bonkers/"&gt;Craig Mod&lt;/a&gt;, Software Bonkers&lt;/p&gt;
-
-    &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/vibe-coding"&gt;氛围编程&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;AI辅助编程&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式AI&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;AI&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;LLMs&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 13 Mar 2026 17:14:29 +0000</pubDate></item><item><title>Shopify/liquid：性能：解析+渲染速度提升53%，内存分配减少61%</title><link>https://simonwillison.net/2026/Mar/13/liquid/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/Shopify/liquid/pull/2056"&gt;Shopify/liquid: 性能：解析+渲染速度提升53%，内存分配减少61%&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这是Shopify首席执行官Tobias Lütke针对Liquid提交的PR。Liquid是Shopify的开源Ruby模板引擎，最初由Tobi在&lt;a href="https://simonwillison.net/2005/Nov/6/liquid/"&gt;2005年&lt;/a&gt;创建时，某种程度上受到了Django的启发。&lt;/p&gt;
-&lt;p&gt;Tobi使用&lt;a href="https://github.com/karpathy/autoresearch"&gt;autoresearch&lt;/a&gt;的一个变体发现了数十个新的性能微优化。autoresearch是Andrej Karpathy的新系统，它让一个编码代理运行数百个半自主实验，以寻找训练&lt;a href="https://github.com/karpathy/nanochat"&gt;nanochat&lt;/a&gt;的新有效技术。&lt;/p&gt;
-&lt;p&gt;Tobi的实现始于两天前，使用了这个&lt;a href="https://github.com/Shopify/liquid/blob/2543fdc1a101f555db208fb0deeb2e3bf1ae9e36/auto/autoresearch.md"&gt;autoresearch.md&lt;/a&gt;提示文件和一个&lt;a href="https://github.com/Shopify/liquid/blob/2543fdc1a101f555db208fb0deeb2e3bf1ae9e36/auto/autoresearch.sh"&gt;autoresearch.sh&lt;/a&gt;脚本，供代理运行以执行测试套件并报告基准分数。&lt;/p&gt;
-&lt;p&gt;该PR现在列出了来自大约120个自动化实验的&lt;a href="https://github.com/Shopify/liquid/pull/2056/commits"&gt;93次提交&lt;/a&gt;。PR描述详细列出了有效的改动——一些例子：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;用&lt;code&gt;String#byteindex&lt;/code&gt;替换了StringScanner分词器。&lt;/strong&gt; 单字节的&lt;code&gt;byteindex&lt;/code&gt;搜索比基于正则表达式的&lt;code&gt;skip_until&lt;/code&gt;快约40%。仅此一项就将解析时间减少了约12%。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;纯字节的&lt;code&gt;parse_tag_token&lt;/code&gt;。&lt;/strong&gt; 消除了为每个&lt;code&gt;{% %}&lt;/code&gt;标签（878次）调用的昂贵的&lt;code&gt;StringScanner#string=&lt;/code&gt;重置操作。手动进行字节扫描以提取标签名称和标记比通过StringScanner重置和重新扫描更快。[...]&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;缓存了小整数的&lt;code&gt;to_s&lt;/code&gt;。&lt;/strong&gt; 为0-999预计算了冻结字符串，避免了每次渲染中的267次&lt;code&gt;Integer#to_s&lt;/code&gt;内存分配。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;所有这些改动加起来，在基准测试上实现了53%的性能提升——对于一个由数百名贡献者持续优化了20年的代码库来说，这确实令人印象深刻。&lt;/p&gt;
-&lt;p&gt;我认为这说明了几个有趣的观点：&lt;/p&gt;&lt;ul&gt;
-&lt;li&gt;拥有一个健壮的测试套件——在这个案例中是974个单元测试——对于使用编码智能体来说是&lt;em&gt;巨大的解锁&lt;/em&gt;。如果没有首先拥有一个经过反复测试的测试套件，这种研究工作是不可能完成的。&lt;/li&gt;
-&lt;li&gt;自动研究模式——即智能体先构思大量潜在的改进方案，然后逐一进行实验——确实非常有效。&lt;/li&gt;
-&lt;li&gt;如果你为智能体提供一个基准测试脚本，“让它更快”就变成了一个可操作的目标。&lt;/li&gt;
-&lt;li&gt;CEO们又可以写代码了！Tobi 一直比大多数人更亲力亲为，但这对于一个拥有7500多名员工的公司领导者来说，其贡献远比任何人预期的都要大得多。在过去的几个月里，我多次看到这种模式上演：编码智能体让那些身处高干扰角色的人能够再次高效地处理代码工作。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;这是 Tobi 过去一年的&lt;a href="https://github.com/tobi"&gt;GitHub 贡献图&lt;/a&gt;，显示了在&lt;a href="https://simonwillison.net/tags/november-2025-inflection/"&gt;2025年11月拐点&lt;/a&gt;之后（那时编码智能体变得非常出色）的显著增长。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="过去一年有1,658次贡献——在6月、8月、9月、10月和11月零星分布，然后在12月、1月和2月显著增加。" src="https://static.simonwillison.net/static/2026/tobi-contribs.jpg"/&gt;&lt;/p&gt;
-&lt;p&gt;他使用了&lt;a href="https://github.com/badlogic/pi-mono"&gt;Pi&lt;/a&gt;作为编码智能体，并与 David Cortés 合作发布了一个新的&lt;a href="https://github.com/davebcn87/pi-autoresearch"&gt;pi-autoresearch&lt;/a&gt;插件，该插件在一个&lt;code&gt;autoresearch.jsonl&lt;/code&gt;文件中维护状态，&lt;a href="https://github.com/Shopify/liquid/blob/3182b7c1b3758b0f5fe2d0fcc71a48bbcb11c946/autoresearch.jsonl"&gt;就像这个一样&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href="https://x.com/tobi/status/2032212531846971413"&gt;@tobi&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/django"&gt;django&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/performance"&gt;performance&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/rails"&gt;rails&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ruby"&gt;ruby&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/andrej-karpathy"&gt;andrej-karpathy&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/agentic-engineering"&gt;agentic-engineering&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/november-2025-inflection"&gt;november-2025-inflection&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/tobias-lutke"&gt;tobias-lutke&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 13 Mar 2026 03:44:34 +0000</pubDate></item><item><title>MALUS - 洁净室即服务</title><link>https://simonwillison.net/2026/Mar/12/malus/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://malus.sh/"&gt;MALUS - 洁净室即服务&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;对当前氛围移植与许可证漂白风潮的辛辣讽刺（&lt;a href="https://simonwillison.net/2026/Mar/5/chardet/"&gt;前情提要&lt;/a&gt;）：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;终于，从开源许可证义务中解放了。&lt;/p&gt;
-&lt;p&gt;我们的专有人工智能机器人能独立地从零开始重建任何开源项目。结果如何？&lt;strong&gt;法律层面截然不同的代码&lt;/strong&gt;，附带对企业友好的许可证。无需署名。没有著佐权。毫无问题。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;我承认我花了一点时间才确认这是个玩笑。简直过于一针见血了。&lt;/p&gt;
-
-&lt;p&gt;&lt;small&gt;Via &lt;a href="https://news.ycombinator.com/item?id=47350424"&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/open-source"&gt;open-source&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;ai-ethics&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 12 Mar 2026 20:08:55 +0000</pubDate></item><item><title>编码之后：我们所知的计算机编程的终结</title><link>https://simonwillison.net/2026/Mar/12/coding-after-coders/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.nytimes.com/2026/03/12/magazine/ai-coding-programming-jobs-claude-chatgpt.html?unlocked_article_code=1.SlA.DBan.wbQDi-hptjj6"&gt;编码者之后：我们所知的计算机编程的终结&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这是克莱夫·汤普森为《纽约时报杂志》撰写的一篇关于人工智能辅助开发的精彩文章，他采访了来自谷歌、亚马逊、微软、苹果等公司的70多名软件开发人员，以及其他个人，包括阿尼尔·达什、托马斯·普塔切克、史蒂夫·耶格和我自己。&lt;/p&gt;
-&lt;p&gt;我认为这篇文章准确而清晰地捕捉了我们行业当前的状况，并且用词适合更广泛的受众。&lt;/p&gt;
-&lt;p&gt;几周前我和克莱夫聊过。以下是我在文章中被引用的那段话。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;鉴于人工智能容易产生幻觉，让智能体将代码推送到现实世界可能显得鲁莽。但软件开发人员指出，编码有一个独特的品质：他们可以将人工智能与现实联系起来，因为他们可以要求智能体测试代码，看它是否能正确运行。“我觉得程序员很轻松，”科技企业家、关于如何使用人工智能编码的有影响力博主西蒙·威尔逊说。“如果你是律师，你就完蛋了，对吧？”除了在法庭上彻底蒙羞之外，没有其他方法可以自动检查人工智能撰写的法律简报是否存在幻觉。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这篇文章确实提出了一个问题，即这对我们所选择的职业的未来意味着什么，但受访开发者的普遍态度是乐观的——甚至提到了杰文斯悖论可能总体上增加需求的可能性。&lt;/p&gt;
-&lt;p&gt;一个批评的声音来自一位苹果工程师：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;确实有少数程序员表示，他们为亲手打造工作的消亡感到惋惜。“我相信亲手工作可以是有趣的、有成就感的、引人入胜的，而让计算机为你做这些，就剥夺了这些，”一位苹果工程师告诉我。（他要求匿名，以免因批评苹果拥抱人工智能而惹上麻烦。）&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这个匿名的请求尖锐地提醒我们，公司内部的动态可能压制了数量未知的关于这个话题的声音。&lt;/p&gt;
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/new-york-times"&gt;new-york-times&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/careers"&gt;careers&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/press-quotes"&gt;press-quotes&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/deep-blue"&gt;deep-blue&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 12 Mar 2026 19:23:44 +0000</pubDate></item><item><title>引用莱斯·奥查德的话</title><link>https://simonwillison.net/2026/Mar/12/les-orchard/#atom-everything</link><description>&lt;blockquote cite="https://blog.lmorchard.com/2026/03/11/grief-and-the-ai-split/"&gt;&lt;p&gt;我认为正在发生的是：AI辅助编程正在暴露开发者之间一直存在但或许不那么明显的分歧。&lt;/p&gt;
-&lt;p&gt;在AI出现之前，两个阵营每天都在做同样的事情。手动编写代码。使用相同的编辑器、相同的语言、相同的拉取请求工作流。热爱工艺的人和只想让东西跑起来的人并肩而坐，交付相同的产品，看起来毫无区别。工作背后的&lt;em&gt;动机&lt;/em&gt;是不可见的，因为过程是相同的。&lt;/p&gt;
-&lt;p&gt;现在，路上出现了一个分叉。你可以让机器编写代码，专注于指导构建什么；或者你可以坚持手工打造。突然间，你最初进入这个领域的原因变得可见了，因为两个阵营在那个分叉点上做出了不同的选择。&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class="cite"&gt;&amp;mdash; &lt;a href="https://blog.lmorchard.com/2026/03/11/grief-and-the-ai-split/"&gt;Les Orchard&lt;/a&gt;, 《悲伤与AI分歧》&lt;/p&gt;
-
-    &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/les-orchard"&gt;les-orchard&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/careers"&gt;careers&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/deep-blue"&gt;deep-blue&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 12 Mar 2026 16:28:07 +0000</pubDate></item></channel></rss>
+    &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/anthropic"&gt;anthropic&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude"&gt;claude&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llm-pricing"&gt;llm-pricing&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/long-context"&gt;long-context&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 13 Mar 2026 18:29:13 +0000</pubDate></item></channel></rss>
