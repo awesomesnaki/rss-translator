@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kaushik Gopal's Website (中文)</title><link>https://kau.sh/</link><description>近期内容 - Kaushik Gopal 的网站</description><language>zh-CN</language><lastBuildDate>Fri, 20 Feb 2026 21:04:46 +0000</lastBuildDate><item><title>代理流动性 - OpenCode是编码领域的OpenClaw</title><link>https://kau.sh/blog/opencode-openclaw/</link><description>&lt;p&gt;&lt;a href="https://openclaw.ai/"&gt;OpenClaw&lt;/a&gt; 如此受欢迎的原因之一，在于你能够多么流畅地与你的智能体聊天并操作它们。掏出手机，在 WhatsApp 上快速发送一条消息，你就能开始工作了。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kaushik Gopal's Website (中文)</title><link>https://kau.sh/</link><description>近期内容 - Kaushik Gopal 的网站</description><language>zh-CN</language><lastBuildDate>Tue, 17 Mar 2026 20:00:00 +0000</lastBuildDate><item><title>以下是我选择使用Opencode的理由</title><link>https://kau.sh/blog/opencode-reasons/</link><description>&lt;p&gt;以下是我使用&lt;a href="https://opencode.ai/"&gt;Opencode&lt;/a&gt;的理由清单。&lt;/p&gt;
+&lt;h2 id="1-switch-between-models-on-the-fly"&gt;
+1. 随时切换模型
+&lt;a class="heading-anchor" href="https://kau.sh/feed.xml#1-switch-between-models-on-the-fly"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;我经常&lt;a href="https://kau.sh/tags/ai-model-choice/"&gt;尝试&lt;/a&gt;最新推出的尖端模型。我会根据任务主动切换模型，并且使用得足够多，以至于能分辨出它们之间的差异。Opencode 让我可以在任务中途或对话过程中流畅地切换模型。&lt;/p&gt;
+&lt;h2 id="2-client-server-architecture-aka-built-in-remote-control"&gt;
+2. 客户端-服务器架构（即内置远程控制）
+&lt;a class="heading-anchor" href="https://kau.sh/feed.xml#2-client-server-architecture-aka-built-in-remote-control"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;我在&lt;a href="https://kau.sh/blog/opencode-openclaw/"&gt;更详细的文章&lt;/a&gt;中写过这个和智能体流动性，但简而言之：Opencode 内置了客户端/服务器架构。所以我只需在一台机器上启动一个 opencode 服务器，通过 &lt;code&gt;tailscale serve&lt;/code&gt; 将其暴露出来，就可以在手机或其他机器上开始使用它。&lt;/p&gt;
+&lt;h2 id="3-subagent--mode-features"&gt;
+3. 子智能体 + 模式功能
+&lt;a class="heading-anchor" href="https://kau.sh/feed.xml#3-subagent--mode-features"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;我在播客中&lt;a href="https://fragmentedpodcast.com/episodes/305/"&gt;详细讨论过&lt;/a&gt;这一点，但 Opencode 拥有最好的子智能体和模式实现。你可以将一个子智能体定义切换为主要模式，然后从那里操作其他子智能体。这让编排器类型的任务变得超级简单。&lt;/p&gt;
+&lt;h2 id="4-opinionated-ux"&gt;
+4. 有主见的用户体验
+&lt;a class="heading-anchor" href="https://kau.sh/feed.xml#4-opinionated-ux"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;我喜欢 OpenCode 对其用户体验有明确的立场。他们不试图成为 Claude Code 或 Codex。在这个过程中，他们形成了一些非常好的用户体验模式，比如带有进行中文件更改、上下文/成本、已连接 MCP 等的侧边栏。这是我第一次不需要担心自定义 statusline.sh 或自己构建一个。&lt;/p&gt;
+&lt;h2 id="5-highly-customizable-via-plugins"&gt;
+5. 通过插件“高度”可定制
+&lt;a class="heading-anchor" href="https://kau.sh/feed.xml#5-highly-customizable-via-plugins"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://opencode.ai/docs/plugins/"&gt;插件&lt;/a&gt;生态系统高度可定制。其程度达到你可以添加新功能、与外部服务集成，甚至修改 OpenCode 的默认行为。当我愚蠢地考虑分叉时，出色的&lt;a href="https://blog.fsck.com/"&gt;Jesse Vincent&lt;/a&gt;向我提到了这一点。&lt;/p&gt;
+&lt;h1 id="whats-missing"&gt;
+不足之处
+&lt;a class="heading-anchor" href="https://kau.sh/feed.xml#whats-missing"&gt;#&lt;/a&gt;
+&lt;/h1&gt;&lt;p&gt;并非一切都是彩虹和阳光。Anomaly——OpenCode背后的团队——规模&lt;a href="https://x.com/anomalyco/following"&gt;很小&lt;/a&gt;。这一点有时会显现出来，因为确实存在&lt;a href="https://github.com/anomalyco/opencode/issues/11225"&gt;一些&lt;/a&gt;&lt;a href="https://github.com/anomalyco/opencode/issues/5359#issuecomment-3640185560"&gt;漏洞&lt;/a&gt;，并且&lt;a href="https://github.com/anomalyco/opencode/issues/17982"&gt;某些&lt;/a&gt;功能&lt;a href="https://github.com/anomalyco/opencode/issues/1905"&gt;缺失&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;但我要说……过去两个月里，没有任何问题阻止我使用它，而且是&lt;strong&gt;专门&lt;/strong&gt;使用它。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://opencode.ai/download"&gt;去试试看吧&lt;/a&gt;。我认识的许多认真的AI编码者都非常喜欢它，并且正在转向使用它。&lt;/p&gt;</description><pubDate>Tue, 17 Mar 2026 20:00:00 +0000</pubDate></item><item><title>代理流动性 - OpenCode是编码领域的OpenClaw</title><link>https://kau.sh/blog/opencode-openclaw/</link><description>&lt;p&gt;&lt;a href="https://openclaw.ai/"&gt;OpenClaw&lt;/a&gt; 如此受欢迎的原因之一，在于你能够多么流畅地与你的智能体聊天并操作它们。掏出手机，在 WhatsApp 上快速发送一条消息，你就能开始工作了。&lt;/p&gt;
 &lt;p&gt;随着我们在 2026 年更加关注智能体编排&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="https://kau.sh/feed.xml#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;，我认为一个重要的方面将是&lt;strong&gt;访问流畅性&lt;/strong&gt;。你如何从任何设备、终端或 IDE 跳转到你的智能体上下文，并直接开始编码？&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://code.claude.com/docs/en/claude-code-on-the-web#moving-tasks-between-web-and-terminal"&gt;Claude Code&lt;/a&gt; 以一种有限的方式支持这一点，而像 &lt;a href="https://cursor.com/blog/agent-web"&gt;Cursor&lt;/a&gt; 和 Codex 这样的其他工具则采用了基于云的方法。&lt;/p&gt;
 &lt;p&gt;对于这种“随时随地”的智能体编码，我找到的最佳选择是一个开源方案——OpenCode。&lt;/p&gt;
@@ -574,37 +605,4 @@ Firefox 提供 uBlock Origin 的最佳体验
 &lt;/h2&gt;
 &lt;p&gt;uBlock Origin 被广泛认为是现有最有效的内容拦截器。其创建者 gorhill 已明确表示&lt;a href="https://github.com/gorhill/uBlock/wiki/uBlock-Origin-works-best-on-Firefox"&gt;uBlock Origin 在 Firefox 上运行最佳&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;因此，虽然使用像 Brave 这样的浏览器比使用 Chrome 或其他缺乏全面拦截器的浏览器要好，但它并不等同于 Firefox + uBlock Origin。&lt;/p&gt;
-&lt;p&gt;Brave 在基于 Chromium 的基础上为您提供了强大的、大部分自动的拦截功能，但这最终受到谷歌 MV3 决策的限制。Firefox + uBlock Origin 则在一个不受 MV3 束缚的引擎上为您提供了一个功能齐全、用户可控的拦截器，如果您关心对加载内容和谁能看到您的流量拥有长期、最大程度的控制，这一点至关重要。&lt;/p&gt;</description><pubDate>Fri, 14 Nov 2025 04:38:50 +0000</pubDate></item><item><title>认知负担</title><link>https://kau.sh/blog/cognitive-burden/</link><description>&lt;p&gt;我常听到反对AI工具的一种论调：“它做得并不比我更好或更快，那我到底为什么要用它？”&lt;/p&gt;
-&lt;p&gt;答案很简单：认知负担。&lt;/p&gt;
-&lt;p&gt;AI带给我的最大启发是，我意识到自己能完成更多工作，并非因为我&lt;em&gt;更快&lt;/em&gt;，而是因为我不再为不必要的繁琐事务绞尽脑汁。即使花费更长时间或需要更多迭代，我完成时也不会那么筋疲力尽。正是这个顿悟时刻让我彻底信服。&lt;/p&gt;
-&lt;p&gt;更多内容&lt;/p&gt;
-&lt;h1 id="on-writing"&gt;
-关于写作
-&lt;a class="heading-anchor" href="https://kau.sh/feed.xml#on-writing"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;p&gt;举个简单的例子：写技术&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="https://kau.sh/feed.xml#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;文章时，我会先列出要点。有时我会加入一些自己喜欢的措辞或幽默元素。然后，一个根据我的写作风格训练的自定义智能体会用我的口吻生成初稿。&lt;/p&gt;
-&lt;p&gt;生成初稿后，我仍然会逐字审阅。&lt;/p&gt;
-&lt;p&gt;反对者可能会问：“既然你还是要逐字审阅，那为什么不从一开始就自己写这篇文章呢？”&lt;/p&gt;
-&lt;p&gt;因为不必费力地推敲和串联一堆介词来起草整篇文章，整个过程变得&lt;em&gt;极其&lt;/em&gt;轻松愉快。我已经抓住了要点并加入了自己的创意点缀；剩下的交给AI处理。以远少于以往的&lt;em&gt;精力&lt;/em&gt;，我能更快地发布文章——这不是因为绝对速度更快，而是因为它操作轻便，让我能专注于那些使文章独具我个人特色的部分。&lt;/p&gt;
-&lt;p&gt;认知负担 ↓。&lt;/p&gt;
-&lt;h1 id="on-coding"&gt;
-关于编程
-&lt;a class="heading-anchor" href="https://kau.sh/feed.xml#on-coding"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;p&gt;大约两年前，我在一次员工会议上反驳了我们的CEO：“我们工程师浪费的大部分时间并不在写代码上。而是在会议、设计讨论、与产品经理协作、细化需求上——这才是我们应该首先聚焦AI应用的地方。”&lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="https://kau.sh/feed.xml#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;我当时也忽略了同样的要点。是的，我享受精心编写每一行代码的过程，并且本身并不觉得这个过程是负担，但它确实需要付出认知代价。我甚至可以说，在需要停下来休息充电之前，我仍然能比当今某些大语言模型更快地构建一个功能（考虑到质量和迭代）。而现在，我通常能同时推进3-4个功能（连同必要的文档、测试以及多个变体）。&lt;/p&gt;
-&lt;p&gt;是的，我的生产力更高了。当然，我交付的速度可能也更快了。但这是相关性，而非因果关系。速度是副产品。真正的驱动力是更少的认知负担，这让我能承担更多。&lt;/p&gt;
-&lt;p&gt;作为一名产品工程师，更让我振奋的是，我现在将更多时间真正花在了&lt;strong&gt;构建一个好产品&lt;/strong&gt;上。&lt;/p&gt;&lt;p&gt;并非我不知道如何编写每一个&lt;code&gt;if&lt;/code&gt;语句；只是……这不再有趣了。
-&lt;a href="https://world.hey.com/dhh/coding-should-be-a-vibe-50908f49"&gt;其他人&lt;/a&gt;感受不同。这很好！各有所好。&lt;/p&gt;
-&lt;p&gt;对我来说，那是一个让我信服AI的顿悟时刻。减轻认知负担让我更有效率；其他一切都随之而来。&lt;/p&gt;
-&lt;div class="footnotes"&gt;
-&lt;hr/&gt;
-&lt;ol&gt;
-&lt;li id="fn:1"&gt;
-&lt;p&gt;我仍然从头开始撰写那些较小的个人帖子。我这样做主要是因为它能帮助我在写下每个字时发展我的想法——这是多年来在这里写作形成的一种肌肉记忆。 &lt;a class="footnote-backref" href="https://kau.sh/feed.xml#fnref:1"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id="fn:2"&gt;
-&lt;p&gt;事后看来，考虑到我&lt;a href="https://kau.sh/tags/ai-coding-agent/"&gt;最近的热情&lt;/a&gt;，这也许不是我最好的论点之一。公平地说，虽然我承认我的反对是错误的，但我认为当时的领导者们也没有完全整合出正确的推理。 &lt;a class="footnote-backref" href="https://kau.sh/feed.xml#fnref:2"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;</description><pubDate>Tue, 04 Nov 2025 22:24:00 +0000</pubDate></item></channel></rss>
+&lt;p&gt;Brave 在基于 Chromium 的基础上为您提供了强大的、大部分自动的拦截功能，但这最终受到谷歌 MV3 决策的限制。Firefox + uBlock Origin 则在一个不受 MV3 束缚的引擎上为您提供了一个功能齐全、用户可控的拦截器，如果您关心对加载内容和谁能看到您的流量拥有长期、最大程度的控制，这一点至关重要。&lt;/p&gt;</description><pubDate>Fri, 14 Nov 2025 04:38:50 +0000</pubDate></item></channel></rss>
