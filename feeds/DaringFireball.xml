@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Wed, 18 Mar 2026 23:40:00 +0000</lastBuildDate><item><title>脱口秀：“波格专题”</title><link>https://daringfireball.net/thetalkshow/2026/03/18/ep-443</link><description>&lt;p&gt;特别嘉宾大卫·波格讨论了他出色且令人惊叹地全面的新书《苹果：第一个50年》。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Thu, 19 Mar 2026 17:31:15 +0000</lastBuildDate><item><title>Hacker News 关于 Shubham Bose 的《49MB 网页》的讨论</title><link>https://news.ycombinator.com/item?id=47390945</link><description>&lt;p&gt;我长期坚持且如今比以往任何时候都更加确信的一个最具争议的观点是，网络浏览器支持JavaScript是一个可怕的错误。问题不在于它们本应选择另一种语言，而在于它们根本不应该支持脚本。这个决定将网页——原本设计为文档——转变成了嵌入式的计算机程序。&lt;/p&gt;
+
+&lt;p&gt;如果没有脚本，就不会有49MB的网页。也不会有监控追踪的工业复合体。页面上的文字是可见的。页面中嵌入的图像和视频是可见的。你能看到它们。JavaScript是不可见的。这让人觉得做一些完全不应该做的事情似乎没问题。&lt;/p&gt;
+
+&lt;p&gt;在我昨天评论Bose的《49MB网页》的文章中，我重申了我同样长期持有的论点：拥有印刷版的出版物在其网站上做的事情，是它们一百万年也不会在印刷版上做的。《纽约时报》使用JavaScript呈现弹窗、阻碍阅读实际文章文本的方式，相当于它们在印刷版中用贴有广告标签的胶带把页面粘在一起。它们不会那样做。但在其网站的每一页上，它们却用JavaScript做着同样的事情。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/03/19/hacker-news-49mb-web-page" title="指向‘Hacker News对Shubham Bose的《49MB网页》的讨论’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Thu, 19 Mar 2026 17:31:15 +0000</pubDate></item><item><title>★ AppleScript：“将MarsEdit文档保存为文本文件”</title><link>https://daringfireball.net/2026/03/applescript_save_marsedit_document_to_text_file</link><description>&lt;p&gt;&lt;a href="https://gist.github.com/gruber/66e87fc6011d3f648cdab17dcc22a874"&gt;这是我本周写的一个简单AppleScript&lt;/a&gt;——它解决了我一个持续了，天哪，20年的小烦恼。我发布到Daring Fireball的几乎所有条目都经过&lt;a href="https://redsweater.com/marsedit/"&gt;MarsEdit&lt;/a&gt;，这是Red Sweater Software（我的朋友&lt;a href="https://danielpunkass.micro.blog/"&gt;Daniel Jalkut&lt;/a&gt;）开发的优秀Mac博客客户端。MarsEdit有一个内置的“本地草稿”功能，你可以在MarsEdit自身的库中保存未发布的草稿。虽然不常发生，但我偶尔会留下一些写了一半但没发布、又不想丢弃的帖子。但我并不真的想把它们留在MarsEdit里。我希望它们保存为文本文件。对我来说，这些文本文件会放在Dropbox的一个文件夹里。对其他人来说，也许他们会放在iCloud Drive里。&lt;/p&gt;
+&lt;p&gt;我较长的帖子是在&lt;a href="https://www.barebones.com/products/bbedit/"&gt;BBEdit&lt;/a&gt;里写的，然后在准备发布时复制到MarsEdit文档中。我较短的帖子——也就是大部分帖子——通常完全在MarsEdit里撰写。任何我可能回头处理的废弃草稿，我大概都想在BBEdit里撰写，因为它们被废弃的原因是需要写得更长。或者需要更短。但无论如何，它们需要更多思考，而BBEdit是我进行最专注思考的地方。&lt;/p&gt;
+&lt;p&gt;MarsEdit没有内置的方法将文档窗口保存为文本文件。只有它内置的“保存为本地草稿”功能。我不仅怀疑，而且&lt;em&gt;确信&lt;/em&gt;写一个AppleScript来为MarsEdit添加“另存为文本文件…”功能会相对容易，我可以通过&lt;a href="https://redsweater.com/fastscripts/"&gt;FastScripts&lt;/a&gt;在MarsEdit内部调用它，FastScripts是系统级的脚本菜单工具，&lt;em&gt;同样&lt;/em&gt;来自Red Sweater/Jalkut，而且，使用FastScripts，我甚至可以为脚本分配标准的键盘快捷键Option-Command-S。（&lt;a href="https://daringfireball.net/2026/03/modifier_key_order_for_keyboard_shortcuts"&gt;或者应该是&lt;/a&gt;Command-Option-S？）&lt;/p&gt;
+&lt;p&gt;它会处理这样一个窗口：&lt;/p&gt;
+&lt;p&gt;&lt;a class="noborder" href="https://daringfireball.net/misc/2026/03/marsedit-document-window.png"&gt;
+&lt;img alt="本文档在MarsEdit中的文档窗口截图。有点元。" src="https://daringfireball.net/misc/2026/03/marsedit-document-window.png" width="500"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;然后弹出一个系统保存对话框，提示你输入文件名（默认使用MarsEdit文档中“标题”字段的内容，如果有的话）和保存文本文件的位置。AppleScript甚至方便地记住了你上次保存文件的位置，所以下次调用时，它会默认到上次保存文件的地方，脚本无需做任何工作来记住这一点。保存的文本文件看起来像这样：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;标题：AppleScript：'将MarsEdit文档保存为文本文件'
+博客：★ Daring Fireball
+编辑时间：2026年3月19日星期四 下午12:16:29
+标签：AppleScript, MarsEdit
+网址别名：AppleScript: 'Save MarsEdit Document to Text File'
+摘要：
+---
+
+[这是我本周写的一个简单AppleScript][s]——它解决了我一个持续了，天哪，20年的小烦恼。我发布到Daring Fireball的几乎每篇文章都会经过[MarsEdit]，这款出色的Mac博客客户端来自Red Sweater Software（我的朋友[Daniel Jalkut]）。...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;就是这样。如果你使用MarsEdit，也许这个脚本会对你有帮助。我选择了MarsEdit中&lt;em&gt;我&lt;/em&gt;使用的文档字段（标题、标签、摘要等）。一个可能令人困惑的地方是，虽然MarsEdit有一个名为“Slug”的可选文档字段，但我并不使用它。由于历史原因，我使用Movable Type的“Keyword”字段来存放每篇文章URL别名所需的词。所以，在我的文本文件中，标注“Slug:”后面的文字实际上来自MarsEdit的Keyword字段。而且我把MarsEdit真正的Slug字段隐藏了，因为我在Movable Type中并不使用这个名称的字段。一如既往，你的情况可能有所不同。但这&lt;em&gt;对我来说&lt;/em&gt;完全合理。&lt;/p&gt;
+&lt;p&gt;总之，这个脚本帮我清理了29个草稿，其中一些已经存放了好几年，一直在MarsEdit里让我心烦。现在我的MarsEdit“本地草稿”库空了，那些草稿安全地存放在Dropbox的文本文件里。当工作流程中有东西让你心烦时，你应该想办法解决它。为什么我没有在几年前就写出（并分享）这个脚本，这真是个千古之谜。&lt;/p&gt;</description><pubDate>Thu, 19 Mar 2026 16:46:37 +0000</pubDate></item><item><title>脱口秀：“波格专题”</title><link>https://daringfireball.net/thetalkshow/2026/03/18/ep-443</link><description>&lt;p&gt;特别嘉宾大卫·波格讨论了他出色且令人惊叹地全面的新书《苹果：第一个50年》。&lt;/p&gt;
 
 &lt;p&gt;&lt;audio controls="controls" preload="none" src="https://traffic.libsyn.com/secure/daringfireball/thetalkshow-443-david-pogue.mp3"&gt;&lt;/p&gt;
 
@@ -102,24 +127,4 @@
 
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/linked/2026/03/17/fox-sports-wbc-immersive" title="‘福克斯体育将以沉浸式3D转播美国对委内瑞拉的世界棒球经典赛决赛——但不在Vision Pro上’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Tue, 17 Mar 2026 19:26:12 +0000</pubDate></item><item><title>三星仅三个月后便停产其Galaxy Z三折叠手机</title><link>https://www.theverge.com/tech/895879/samsung-galaxy-z-trifold-discontinued-stock-sold-out</link><description>&lt;p&gt;杰斯·韦瑟贝德，The Verge：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;三星正准备在美国推出其首款三屏折叠手机不到三个月后，就将其下架。一位未具名的三星发言人告诉&lt;a href="https://www.bloomberg.com/news/articles/2026-03-17/samsung-to-stop-selling-2-899-trifold-phone-after-three-months"&gt;彭博社&lt;/a&gt;，售价&lt;a href="https://www.theverge.com/news/835525/samsung-z-trifold-announcement-us-availability"&gt;2899美元的Galaxy Z TriFold&lt;/a&gt;将首先在韩国停止销售，待剩余库存清空后，在美国也将停售。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;也许&lt;a href="https://daringfireball.net/linked/2025/10/29/samsung-trifold-phone"&gt;剃须刀上装五个刀片&lt;/a&gt;确实太多了？&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/03/17/samsung-trifold" title="‘三星在仅三个月后即停产其Galaxy Z TriFold’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Tue, 17 Mar 2026 13:49:53 +0000</pubDate></item><item><title>小发现者壁纸</title><link>https://512pixels.net/2026/03/lil-finder-5k-wallpapers/</link><description>&lt;p&gt;斯蒂芬·哈克特：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;我当时正像往常一样过我的日子，然后&lt;a href="https://mastodon.social/@jamesthomson"&gt;詹姆斯·汤姆森&lt;/a&gt;——&lt;a href="https://tla.systems/"&gt;PCalc和其他优秀应用程序&lt;/a&gt;的开发者——把这些图片发给了我，并说我可以分享它们。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;另外，对于你们当中拥有3D打印机的人，这里还有&lt;a href="https://512pixels.net/2026/03/3d-print-lil-finder/"&gt;一些有趣的东西&lt;/a&gt;。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/03/17/lil-finder-guy-wallpapers" title="‘小Finder家伙壁纸’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Tue, 17 Mar 2026 13:41:21 +0000</pubDate></item></channel></rss>
+&lt;/div&gt;</description><pubDate>Tue, 17 Mar 2026 19:26:12 +0000</pubDate></item></channel></rss>
