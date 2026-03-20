@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Thu, 19 Mar 2026 21:09:32 +0000</lastBuildDate><item><title>StopTheMadness Pro 和 StopTheScript Safari 扩展</title><link>https://mastodon.social/@lapcatsoftware/116252960395480568</link><description>&lt;p&gt;杰夫·约翰逊，链接到我那篇《&lt;a href="https://daringfireball.net/2026/03/your_frustration_is_the_product"&gt;你的挫败感就是产品&lt;/a&gt;》的文章：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Fri, 20 Mar 2026 16:46:01 +0000</lastBuildDate><item><title>Bluesky一年前筹集了1亿美元，但不知为何现在才披露</title><link>https://bsky.social/about/blog/03-19-2026-series-b</link><description>&lt;p&gt;Bluesky:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2025年4月，Bluesky完成了由Bain Capital Crypto领投的1亿美元B轮融资，参与方包括Alumni Ventures、Anthos Capital、Bloomberg Beta、Knight Foundation和True Ventures。在此后的几个月里，我们专注于扩大团队规模，以应对AT协议（atproto）和Bluesky应用的快速增长。随着我们进入一个领导层更新和进一步增长的新时代，我们很高兴能分享更多信息。&lt;/p&gt;
+
+&lt;p&gt;本轮融资由Bluesky创始人杰伊·格拉伯主导，&lt;a href="https://bsky.social/about/blog/03-09-2026-a-new-chapter-for-bluesky"&gt;他最近已转任首席创新官&lt;/a&gt;，专注于构建开放社交基础设施的未来。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;本月早些时候，我没有就格拉伯卸任CEO一事发表评论，因为我觉得这没什么大不了的。我自Bluesky成立之初就一直&lt;a href="https://daringfireball.net/2025/03/bluesky_being_right_points"&gt;看好它&lt;/a&gt;，但最近我对它并不感到兴奋。我并不认为它变得更糟了，但它的增长已经停滞，使其处于&lt;em&gt;鬼城&lt;/em&gt;与&lt;em&gt;繁荣之城&lt;/em&gt;之间的尴尬境地。对于许多产品/服务/企业/出版物来说，一种持续但不算火爆的流行度是可以接受的。小众市场可以运作，甚至可能蓬勃发展。《Daring Fireball》显然就是一个小众出版物。但对于社交网络而言，过去二十年的证据表明，任何不够火爆的情况都是一个问题。&lt;/p&gt;
+
+&lt;p&gt;但是，对于一笔在11个月后才宣布的1亿美元融资轮，我们到底该怎么看？这是司空见惯的事，只是我不知何故从未注意到有公司会将一轮大规模融资保密一年之久？还是说这确实如我所想的那样奇怪？我一直认为，大额融资轮是公司希望立即宣传，而不是隐藏的事情。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/03/20/bluesky-100m" title="‘Bluesky一年前融资1亿美元，但出于某种原因现在才披露’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Fri, 20 Mar 2026 16:46:01 +0000</pubDate></item><item><title>Quiche 浏览器</title><link>https://quiche.industries/browser/</link><description>&lt;p&gt;Quiche浏览器是一款相当令人惊叹的应用，它出自独立开发者&lt;a href="https://nckh.com/"&gt;Greg de J.&lt;/a&gt;/&lt;a href="https://quiche.industries/"&gt;Quiche Industries&lt;/a&gt;之手（这域名真是绝了）。Quiche浏览器是一款非常强大、设计精美、外观惊艳的网页浏览器，专为iPhone打造。仅仅是iPhone版本——尽管iPad版本目前正处于测试阶段。去年夏天，我把它切换成了我的默认iPhone网页浏览器，本以为只会用一两天就回到Safari，结果我坚持用了好几个星期。我确实回到了Safari，但那是一次非常接近的选择。如此接近，以至于今天，我要再给它一次机会。（而且，在我与Quiche为期一个月的“热恋”中，我如此着迷，以至于欣然订阅了每年27美元的Quiche Plus，以支持这样一款卓越的应用。）&lt;/p&gt;
+
+&lt;p&gt;开箱即用，Quiche浏览器的用户界面和功能集的每一个方面都经过了明显的深思熟虑和精心设计。但它&lt;em&gt;也&lt;/em&gt;支持丰富的设置来调整设计。你可以自定义工具栏的外观样式、工具栏的位置、工具栏上的按钮。Quiche为iOS带来了非常类似于Mac上AppKit的“自定义工具栏”功能，但如果说有什么不同的话，Quiche实现的功能&lt;em&gt;更&lt;/em&gt;具可定制性。整个应用中的排版都非常精美。它不支持Safari扩展，但它有自己的内置内容拦截器。当然，它还内置了对世界上最好的搜索引擎Kagi的支持。&lt;/p&gt;
+
+&lt;p&gt;今天让我再次想起Quiche浏览器的是&lt;a href="https://mastodon.social/@quicheindustries/116258944005087995"&gt;开发者在Mastodon上发布的这条推文&lt;/a&gt;：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;我开发Quiche浏览器的众多原因之一，就是为了在我的工具栏里获得一个按网站关闭JavaScript的开关。&lt;/p&gt;
+
+&lt;p&gt;但如今，我甚至想把JavaScript在所有地方都禁用，只在需要的地方启用。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;一个简单的、只需轻点一下的“JS”按钮，你可以在任何网站上切换它。几个月前我试驾Quiche时错过了这个按钮。每个浏览器都应该有这个按钮。它极大地改善了许多网站的体验，这几乎令人难以置信。&lt;/p&gt;
+
+&lt;p&gt;仅仅这个“JS”按钮并不是你应该尝试Quiche的原因。而是它的整体。它考虑得如此周到。其外观和功能极其现代，但又以老派的方式，通过&lt;em&gt;精湛的工艺&lt;/em&gt;，极度专注于为你——用户——服务。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/03/20/quiche-browser" title="‘Quiche Browser’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Fri, 20 Mar 2026 15:38:27 +0000</pubDate></item><item><title>StopTheMadness Pro 和 StopTheScript Safari 扩展</title><link>https://mastodon.social/@lapcatsoftware/116252960395480568</link><description>&lt;p&gt;杰夫·约翰逊，链接到我那篇《&lt;a href="https://daringfireball.net/2026/03/your_frustration_is_the_product"&gt;你的挫败感就是产品&lt;/a&gt;》的文章：&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;我的浏览器扩展 &lt;a href="https://underpassapp.com/StopTheMadness/"&gt;StopTheMadness Pro&lt;/a&gt; 可以阻止视频自动播放，并在所有网站上隐藏“使用 Google 登录”的选项。它还能在许多网站上隐藏粘性视频和通知请求。&lt;/p&gt;
@@ -105,26 +137,4 @@
 
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/linked/2026/03/18/the-talk-show-443" title="永久链接至‘The Talk Show: ‘The Pogue Feature’’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Wed, 18 Mar 2026 23:40:00 +0000</pubDate></item><item><title>★ “你的挫败感就是产品”</title><link>https://daringfireball.net/2026/03/your_frustration_is_the_product</link><description>&lt;p&gt;Shubham Bose，《&lt;a href="https://thatshubham.com/blog/news-audit"&gt;49MB的网页&lt;/a&gt;》：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我打开《纽约时报》想浏览四条新闻标题，却迎来了422个网络请求和49兆字节的数据。页面足足花了两分钟才稳定下来。然后你就不难理解，为什么每个理智的技术人士都会在他们所有亲人的设备上安装广告拦截器了。&lt;/p&gt;
-&lt;p&gt;如今，各大顶级出版商的情况都是如此。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这是对当前网络现状一次绝对毁灭性的解构。我恳请你在这里暂停一下，去阅读Bose那篇图文并茂的完整文章。我会等你。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;即使是那些注重质量的出版商，其网站也在做着一些他们在印刷版中&lt;em&gt;绝不会&lt;/em&gt;做的事情。Bose从《纽约时报》开始，但也提到了《卫报》，其网页充斥着如此多的广告和模态窗口，以至于在移动设备上，其默认布局有时只给文章内容留下11%的屏幕空间。那仅仅是四行文章文本。&lt;/p&gt;
-&lt;p&gt;Bose写道：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;可视性和页面停留时间是当今非常重要的指标。每一个糟糕的用户体验决策都源于这个单一事实。你在页面上被困得越久，出版商能收取的每千次展示费用就越高。你的挫败感就是产品。难怪工程师和设计师做出的每一个用户体验决策都是为了优化这一点。而你，作为读者，被迫因为这种优化而去交互、等待、点击、多次滚动。这不仅是在错误的方向上迈出的一步，而且其设计本身就是对抗性的。&lt;/p&gt;
-&lt;p&gt;软件对读者的尊重远远不够。出版商被一个拍卖系统的激励机制所挟持，这个系统不仅鼓励，而且奖励那些黑暗模式。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;我唯一的不同意见在于，读者&lt;em&gt;根本&lt;/em&gt;没有得到尊重。我目前对MacBook Neo的测试之一，就是尽可能以默认状态使用它，只在必要时更改默认设置和添加第三方软件。因此，我一直在Neo上不使用任何内容拦截扩展来浏览网页。我已经很久没有长时间这样做了。我阅读的大多数带有广告的网站已经变得如此糟糕，几乎到了无法用言语形容的地步。&lt;/p&gt;&lt;p&gt;即便安装了内容拦截器（最近我一直在用并很喜欢&lt;a href="https://apps.apple.com/us/app/ublock-origin-lite/id6745342698"&gt;Safari上的uBlock Origin Lite&lt;/a&gt;），许多新闻网站仍然每隔几段就穿插些垃圾内容，比如请求订阅他们的新闻简报，或者链接到他们网站上的其他文章——这些文章通常与你正试图阅读的那篇毫无关系。还有那些该死的自动播放视频，天啊。你读了两段，就有一个弹窗打断你。再读两段，又来一次打断。一直持续到文章结束。我们访问他们的网站是为了读一篇该死的文章。如果我们想看视频，我们会去YouTube。这就像去一家餐厅点了个芝士汉堡，结果他们派了一支军乐队到你桌边，在你耳边吹喇叭，还用水枪喷你，同时试图向你推销毛巾。&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;地球上没有任何印刷出版物会这样做。&lt;/em&gt; 同样是这些出版物——《纽约时报》、《卫报》、《华尔街日报》、《大西洋月刊》、《纽约客》——的印刷版就完全不会做这种事。《纽约客》的印刷版对读者注意力的尊重以及对其所发表文章神圣性的维护，简直到了极致。但在他们的网站上读文章，你会在随机的段落之间看到自动播放的视频。而且这些视频与你正在阅读的文章毫无关系。我的意思是，如果每个网站都能像《纽约客》那样设计得如此尊重读者，那我们就太幸运了，但即便是他们的网站——相对而言，算是“好的”之一——对读者的尊重程度，也仅仅只是其印刷版的一小部分。&lt;/p&gt;
-&lt;p&gt;在没有运行广告拦截内容拦截器的情况下，当今最令人抓狂的设计模式之一，就是在同一篇文章中每隔几段就重复显示完全相同的广告。你很难在Apple News（一种网络的山寨简化版）上找到一篇&lt;em&gt;不&lt;/em&gt;这么做的文章。完全相同的广告——在同一篇文章中出现6次、7次、8次。到底有多少30多岁的金发白人女性需要助听器？这太疯狂了。&lt;/p&gt;
-&lt;p&gt;人们在网络上花费的时间越来越少，因为网站的体验正变得越来越差，但网站的发布者却几乎是在试图通过添加越来越多对读者充满敌意的垃圾内容来摆脱这个困境，而这些内容正是让人们离开的原因。&lt;a href="https://daringfireball.net/misc/2026/03/guardian-screenshot-shubham-bose.png"&gt;Bose截取的《卫报》截图&lt;/a&gt;中，整个屏幕只有11%显示文章正文，这相当于一个电视频道每小时只播放7分钟的实际电视内容，而将另外53分钟用于播放付费广告和同一频道其他节目的宣传。几乎没有人会看这样的频道。但不知何故，这种策略对网站来说却被认为是可持续的。&lt;/p&gt;网络是唯一一种其最高决策者憎恶这一媒介并试图驱离用户的媒体。正如博斯所指出的，“如今许多网站通过不断推送‘应用’来主动干扰读者访问。&lt;em&gt;我不明白这种让每个人都下载你应用的痴迷从何而来。&lt;/em&gt;”这种痴迷源于那些根本不理解也不享受网络的人，却发现自己运营着大型网站。
-
-为这些网站做出决策的人，就像是&lt;em&gt;试图&lt;/em&gt;撞击冰山的远洋客轮船长。</description><pubDate>Wed, 18 Mar 2026 23:39:57 +0000</pubDate></item><item><title>如何按国家或地区识别您的苹果键盘布局</title><link>https://support.apple.com/en-us/102743</link><description>&lt;p&gt;这个支持页面是关于&lt;a href="https://daringfireball.net/linked/2026/03/11/macbook-keyboards-words-to-glyphs"&gt;苹果近期对其美国键盘键帽标识所做更改&lt;/a&gt;的一个引人入胜的注脚。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/03/18/how-to-identify-your-apple-keyboard" title="永久链接至‘如何按国家或地区识别您的苹果键盘布局’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Wed, 18 Mar 2026 21:29:03 +0000</pubDate></item></channel></rss>
+&lt;/div&gt;</description><pubDate>Wed, 18 Mar 2026 23:40:00 +0000</pubDate></item></channel></rss>
