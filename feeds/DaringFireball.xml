@@ -1,18 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Fri, 20 Mar 2026 16:46:01 +0000</lastBuildDate><item><title>Bluesky一年前筹集了1亿美元，但不知为何现在才披露</title><link>https://bsky.social/about/blog/03-19-2026-series-b</link><description>&lt;p&gt;Bluesky:&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Fri, 20 Mar 2026 21:00:09 +0000</lastBuildDate><item><title>谷歌搜索现用AI改写新闻标题</title><link>https://www.theverge.com/tech/896490/google-replace-news-headlines-in-search-canary-coal-mine-experiment?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjI0Q05IV0dlS3EiLCJwIjoiL3RlY2gvODk2NDkwL2dvb2dsZS1yZXBsYWNlLW5ld3MtaGVhZGxpbmVzLWluLXNlYXJjaC1jYW5hcnktY29hbC1taW5lLWV4cGVyaW1lbnQiLCJleHAiOjE3NzQ0NzIwOTAsImlhdCI6MTc3NDA0MDA5MH0.3exwHWG6qdR5YeFLjzS1qvUy3tgfASQhbFZDTbHrkKE&amp;utm_medium=gift-link</link><description>&lt;p&gt;肖恩·霍利斯特，The Verge（礼物链接）：&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;2025年4月，Bluesky完成了由Bain Capital Crypto领投的1亿美元B轮融资，参与方包括Alumni Ventures、Anthos Capital、Bloomberg Beta、Knight Foundation和True Ventures。在此后的几个月里，我们专注于扩大团队规模，以应对AT协议（atproto）和Bluesky应用的快速增长。随着我们进入一个领导层更新和进一步增长的新时代，我们很高兴能分享更多信息。&lt;/p&gt;
+  &lt;p&gt;在&lt;a href="https://www.theverge.com/tech/865168/google-says-ai-news-headlines-are-feature-not-experiment"&gt;其Google Discover新闻源中做了类似的事情&lt;/a&gt;之后，它也开始在传统的“10个蓝色链接”中篡改标题了。我们已经发现了多个例子，谷歌将我们撰写的标题替换为我们没有写过的标题，有时在此过程中改变了其含义。&lt;/p&gt;
 
-&lt;p&gt;本轮融资由Bluesky创始人杰伊·格拉伯主导，&lt;a href="https://bsky.social/about/blog/03-09-2026-a-new-chapter-for-bluesky"&gt;他最近已转任首席创新官&lt;/a&gt;，专注于构建开放社交基础设施的未来。&lt;/p&gt;
+&lt;p&gt;例如，谷歌将我们的标题“&lt;a href="https://www.theverge.com/ai-artificial-intelligence/654223/cheat-on-everything-ai"&gt;我使用了‘一切皆可作弊’AI工具，但它并没有帮助我在任何事情上作弊&lt;/a&gt;”缩减为仅仅五个字：“‘一切皆可作弊’AI工具”。这&lt;em&gt;几乎&lt;/em&gt;听起来像是在为我们完全不推荐的产品背书。&lt;/p&gt;
+
+&lt;p&gt;谷歌发言人詹妮弗·库茨、马洛里·德莱昂和内德·阿德里安斯告诉The Verge，我们看到的是一个“小型”且“范围狭窄”的实验，尚未获准全面推出。他们不愿透露这个实验实际上有多“小”。在过去的几个月里，多名The Verge员工都看到过我们从未撰写过的标题出现在谷歌搜索结果中——这些标题不符合我们的编辑风格，并且没有任何迹象表明谷歌替换了我们选择的文字。谷歌表示，它也在调整其他网站在搜索中的显示方式，不仅仅是新闻网站。&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;本月早些时候，我没有就格拉伯卸任CEO一事发表评论，因为我觉得这没什么大不了的。我自Bluesky成立之初就一直&lt;a href="https://daringfireball.net/2025/03/bluesky_being_right_points"&gt;看好它&lt;/a&gt;，但最近我对它并不感到兴奋。我并不认为它变得更糟了，但它的增长已经停滞，使其处于&lt;em&gt;鬼城&lt;/em&gt;与&lt;em&gt;繁荣之城&lt;/em&gt;之间的尴尬境地。对于许多产品/服务/企业/出版物来说，一种持续但不算火爆的流行度是可以接受的。小众市场可以运作，甚至可能蓬勃发展。《Daring Fireball》显然就是一个小众出版物。但对于社交网络而言，过去二十年的证据表明，任何不够火爆的情况都是一个问题。&lt;/p&gt;
-
-&lt;p&gt;但是，对于一笔在11个月后才宣布的1亿美元融资轮，我们到底该怎么看？这是司空见惯的事，只是我不知何故从未注意到有公司会将一轮大规模融资保密一年之久？还是说这确实如我所想的那样奇怪？我一直认为，大额融资轮是公司希望立即宣传，而不是隐藏的事情。&lt;/p&gt;
+&lt;p&gt;这已经远远超出了“哗众取宠”的范畴。这简直是&lt;em&gt;&lt;a href="https://www.youtube.com/watch?v=L3EAYi4Z1U8"&gt;《大白鲨3》&lt;/a&gt;&lt;/em&gt;那种完全不知所云的境地。我的老天爷。&lt;/p&gt;
 
 &lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/03/20/bluesky-100m" title="‘Bluesky一年前融资1亿美元，但出于某种原因现在才披露’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;a href="https://daringfireball.net/linked/2026/03/20/google-search-is-now-using-ai-to-rewrite-headlines" title="‘Google Search Is Now Using AI to Rewrite Headlines’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Fri, 20 Mar 2026 21:00:09 +0000</pubDate></item><item><title>或许Bluesky透露11个月前获得1亿美元投资的行为，实际上是一种透明度的体现。</title><link>https://bsky.app/profile/flooey.org/post/3mhiznh4d7c2j</link><description>&lt;p&gt;关于&lt;a href="https://daringfireball.net/linked/2026/03/20/bluesky-100m"&gt;我早前那篇对Bluesky在融资结束近一年后才宣布获得1亿美元融资表示困惑/不适的帖子&lt;/a&gt;，我与Adam Vartanian在Bluesky上（果然如此）进行了一番有趣的交流，&lt;a href="https://bsky.app/profile/flooey.org/post/3mhjb73bz7c2g"&gt;他在那里写道&lt;/a&gt;：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;如果你看到新闻报道说一家公司“已筹集”了资金，但没有注明融资轮次何时结束，那它很可能发生在过去某个时间。Bluesky实际上不同寻常地披露了一个距今如此遥远的日期。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;我一直在想，我肯定漏掉了这件事的某些信息，而这感觉起来肯定就是那个被漏掉的关键点。如果属实，那么如今一家公司在种子轮融资实际结束很久后才宣布，这并不罕见。Bluesky这个案例的不同寻常之处在于，当他们最终宣布时，也透露了那个早已过去的结束日期。事实上，这是一种透明之举，至少与当今许多其他风投支持的公司相比是如此。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/03/20/bluesky-funding-transparency" title="永久链接至‘或许Bluesky披露11个月前1亿美元投资的行为，实际上是一种透明之举’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Fri, 20 Mar 2026 20:49:07 +0000</pubDate></item><item><title>Bluesky一年前筹集了1亿美元，但不知为何现在才披露</title><link>https://bsky.social/about/blog/03-19-2026-series-b</link><description>&lt;p&gt;Bluesky:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2025年4月，Bluesky完成了由Bain Capital Crypto领投的1亿美元B轮融资，参投方包括Alumni Ventures、Anthos Capital、Bloomberg Beta、Knight Foundation和True Ventures。此后数月，我们专注于扩充团队，以应对AT协议（atproto）和Bluesky应用的快速增长。随着我们进入领导层更迭和进一步发展的新阶段，我们期待分享更多信息。&lt;/p&gt;
+&lt;p&gt;本轮融资由Bluesky创始人杰伊·格拉伯主导，&lt;a href="https://bsky.social/about/blog/03-09-2026-a-new-chapter-for-bluesky"&gt;他最近已转任首席创新官&lt;/a&gt;，专注于构建开放社交基础设施的未来。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我之前没有就格拉伯本月早些时候卸任CEO一事发表评论，是因为我没太把它当回事。我自Bluesky成立之初就一直&lt;a href="https://daringfireball.net/2025/03/bluesky_being_right_points"&gt;看好它&lt;/a&gt;，但最近对它并不感到兴奋。我并不认为它变得更糟了，但其增长已经停滞，使其陷入在&lt;em&gt;鬼城&lt;/em&gt;与&lt;em&gt;繁荣之城&lt;/em&gt;之间的尴尬境地。对于许多产品/服务/企业/出版物而言，一种持续但非爆发式的流行是可以接受的。小众市场可以运作，甚至可能蓬勃发展。Daring Fireball显然就是一个小众出版物。但对于社交网络而言，过去二十年的证据表明，任何非爆发式的增长都是一个问题。&lt;/p&gt;
+&lt;p&gt;但是，对于一笔11个月后才宣布的1亿美元融资轮，我们到底该怎么看？这是司空见惯的事，只是我不知何故从未注意到有公司将一轮大规模融资保密一年之久？还是这确实如我所想的那样奇怪？我一直认为，大额融资轮是公司希望立即宣传而非隐藏的事情。&lt;a href="https://www.techmeme.com/260319/p45#a260319p45"&gt;Techmeme上的这组链接汇总&lt;/a&gt;表明，并非只有我一人有此疑问。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;更新，2小时后：&lt;/strong&gt; 我现在从一个消息灵通人士那里听到的解释是，这&lt;em&gt;确实&lt;/em&gt;不寻常。但基本上，这是一系列独特事件在独特时间（2024年大选后，Bluesky经历了一波不错的增长）发生在独特公司身上的结果。所以：是的，很奇怪。但可能无需为此感到恐慌。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第二次更新：&lt;/strong&gt; 在Bluesky上（当然），与亚当·瓦尔塔尼安有一个有趣的讨论串，&lt;a href="https://bsky.app/profile/flooey.org/post/3mhjb73bz7c2g"&gt;他在其中表示&lt;/a&gt;：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果你看到新闻报道说一家公司“已经筹集了”一些资金，但没有注明融资轮结束的日期，那它很可能发生在过去某个时间。Bluesky实际上不寻常之处在于，它披露了一个距今如此遥远的日期。&lt;/p&gt;
+&lt;/blockquote&gt;&lt;p&gt;我一直在想，我肯定是错过了什么，而这感觉恰恰就是那个被错过的东西。如果属实，公司在融资完成很久后才宣布种子轮融资并不罕见。但Bluesky这次的不同寻常之处在于，当他们最终宣布时，也透露了融资完成的具体日期。事实上，这至少与当今许多其他风投支持的公司相比，是一种透明度的体现。&lt;/p&gt;
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/03/20/bluesky-100m" title="指向‘Bluesky一年前融资1亿美元，但不知为何现在才披露’的永久链接"&gt; ★ &lt;/a&gt;
 &lt;/div&gt;</description><pubDate>Fri, 20 Mar 2026 16:46:01 +0000</pubDate></item><item><title>Quiche 浏览器</title><link>https://quiche.industries/browser/</link><description>&lt;p&gt;Quiche浏览器是一款相当令人惊叹的应用，它出自独立开发者&lt;a href="https://nckh.com/"&gt;Greg de J.&lt;/a&gt;/&lt;a href="https://quiche.industries/"&gt;Quiche Industries&lt;/a&gt;之手（这域名真是绝了）。Quiche浏览器是一款非常强大、设计精美、外观惊艳的网页浏览器，专为iPhone打造。仅仅是iPhone版本——尽管iPad版本目前正处于测试阶段。去年夏天，我把它切换成了我的默认iPhone网页浏览器，本以为只会用一两天就回到Safari，结果我坚持用了好几个星期。我确实回到了Safari，但那是一次非常接近的选择。如此接近，以至于今天，我要再给它一次机会。（而且，在我与Quiche为期一个月的“热恋”中，我如此着迷，以至于欣然订阅了每年27美元的Quiche Plus，以支持这样一款卓越的应用。）&lt;/p&gt;
 
 &lt;p&gt;开箱即用，Quiche浏览器的用户界面和功能集的每一个方面都经过了明显的深思熟虑和精心设计。但它&lt;em&gt;也&lt;/em&gt;支持丰富的设置来调整设计。你可以自定义工具栏的外观样式、工具栏的位置、工具栏上的按钮。Quiche为iOS带来了非常类似于Mac上AppKit的“自定义工具栏”功能，但如果说有什么不同的话，Quiche实现的功能&lt;em&gt;更&lt;/em&gt;具可定制性。整个应用中的排版都非常精美。它不支持Safari扩展，但它有自己的内置内容拦截器。当然，它还内置了对世界上最好的搜索引擎Kagi的支持。&lt;/p&gt;
@@ -106,35 +130,4 @@
 
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/linked/2026/03/19/hacker-news-49mb-web-page" title="指向‘Hacker News对Shubham Bose的《49MB网页》的讨论’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Thu, 19 Mar 2026 17:31:15 +0000</pubDate></item><item><title>★ AppleScript：“将MarsEdit文档保存为文本文件”</title><link>https://daringfireball.net/2026/03/applescript_save_marsedit_document_to_text_file</link><description>&lt;p&gt;&lt;a href="https://gist.github.com/gruber/66e87fc6011d3f648cdab17dcc22a874"&gt;这是我本周写的一个简单的AppleScript&lt;/a&gt;——它解决了一个困扰我，天哪，长达20年的小烦恼。我发布到Daring Fireball的几乎所有条目都会经过&lt;a href="https://redsweater.com/marsedit/"&gt;MarsEdit&lt;/a&gt;，这是Red Sweater Software（我的朋友&lt;a href="https://danielpunkass.micro.blog/"&gt;Daniel Jalkut&lt;/a&gt;）开发的优秀Mac博客客户端。MarsEdit有一个内置的“本地草稿”功能，你可以在MarsEdit自身的库中保存未发布的草稿。虽然不常发生，但我偶尔会留下一些写了一半但没发布、又不想丢弃的帖子。不过，我并不真的想把它们留在MarsEdit里。我希望它们被保存为文本文件。对我来说，这些文本文件会放在Dropbox的一个文件夹里。对其他人来说，也许他们会放在iCloud Drive里。&lt;/p&gt;
-&lt;p&gt;我较长的帖子是在&lt;a href="https://www.barebones.com/products/bbedit/"&gt;BBEdit&lt;/a&gt;中撰写的，然后在准备发布时将它们复制到MarsEdit文档中。我的短帖子——也就是大部分帖子——通常完全在MarsEdit中撰写。任何我可能回头处理的废弃草稿，我大概都希望在BBEdit中撰写，因为它们被废弃的原因是需要写得更长。或者需要更短。但无论如何，它们需要更多思考，而BBEdit是我进行最专注思考的地方。&lt;/p&gt;
-&lt;p&gt;MarsEdit没有内置的方法将文档窗口保存为文本文件。只有其内置的“保存为本地草稿”功能。我不仅仅是怀疑，而是&lt;em&gt;确信&lt;/em&gt;，写一个AppleScript来为MarsEdit添加“另存为文本文件…”功能会相对容易，我可以通过&lt;a href="https://redsweater.com/fastscripts/"&gt;FastScripts&lt;/a&gt;在MarsEdit内部调用它，FastScripts是系统级的脚本菜单实用工具，&lt;em&gt;同样&lt;/em&gt;来自Red Sweater/Jalkut。而且，使用FastScripts，我甚至可以为脚本分配标准的键盘快捷键Option-Command-S。（&lt;a href="https://daringfireball.net/2026/03/modifier_key_order_for_keyboard_shortcuts"&gt;或者应该是&lt;/a&gt;Command-Option-S？）&lt;/p&gt;
-&lt;p&gt;它会处理这样一个窗口：&lt;/p&gt;
-&lt;p&gt;&lt;a class="noborder" href="https://daringfireball.net/misc/2026/03/marsedit-document-window.png"&gt;
-&lt;img alt="本文的MarsEdit文档窗口截图。有点元。" src="https://daringfireball.net/misc/2026/03/marsedit-document-window.png" width="500"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;然后通过系统保存对话框提示你输入文件名（默认使用MarsEdit文档中“标题”字段的内容，如果有的话）和保存文本文件的位置。AppleScript甚至能方便地记住你上次保存文件的位置，所以下次调用时，它会默认指向同一个文件夹，而脚本本身无需做任何工作来记住这一点。生成的文本文件看起来像这样：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;标题：AppleScript：'将MarsEdit文档保存为文本文件'
-博客：★ Daring Fireball
-编辑时间：2026年3月19日星期四 下午12:16:29
-标签：AppleScript, MarsEdit
-网址别名：AppleScript: 'Save MarsEdit Document to Text File'
-摘要：
----
-
-[这是我本周写的一个简单AppleScript][s]——它解决了我一个持续了，天哪，20年的小烦恼。我发布到Daring Fireball的几乎每篇文章都会经过[MarsEdit]，这款出色的Mac博客客户端来自Red Sweater Software（我的朋友[Daniel Jalkut]）。...
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;就是这样。如果你使用MarsEdit，也许这个脚本能帮到你。我选择了MarsEdit中&lt;em&gt;我&lt;/em&gt;使用的文档字段（标题、标签、摘要等）。一个可能令人困惑的地方是，虽然MarsEdit有一个名为“网址别名”的可选文档字段，但我并不使用它。由于历史原因，我使用Movable Type的“关键词”字段来存放每篇文章URL别名所需的词汇。所以，在我的文本文件中，标注“网址别名：”后面的文字实际上来自MarsEdit的关键词字段。而且我隐藏了MarsEdit实际的网址别名字段，因为我在Movable Type中不使用这个名称的字段。一如既往，你的情况可能有所不同。但这&lt;em&gt;对我来说&lt;/em&gt;完全合理。&lt;/p&gt;
-&lt;p&gt;总之，这个脚本帮我清理了29个草稿，其中一些已经存在MarsEdit里好几年了，一直让我心烦。现在我的MarsEdit“本地草稿”库是空的，那些草稿安全地存放在Dropbox的文本文件里。当工作流程中的某些事情让你烦恼时，你应该想办法解决它。为什么我几年前没有写（并分享）这个脚本，这真是个千古之谜。&lt;/p&gt;</description><pubDate>Thu, 19 Mar 2026 16:46:37 +0000</pubDate></item><item><title>脱口秀：“波格专题”</title><link>https://daringfireball.net/thetalkshow/2026/03/18/ep-443</link><description>&lt;p&gt;特别嘉宾大卫·波格讨论了他出色且令人惊叹地全面的新书《苹果：第一个50年》。&lt;/p&gt;
-
-&lt;p&gt;&lt;audio controls="controls" preload="none" src="https://traffic.libsyn.com/secure/daringfireball/thetalkshow-443-david-pogue.mp3"&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;赞助商：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://notion.com/talkshow"&gt;Notion&lt;/a&gt;：团队与AI智能体协同工作、事半功倍的AI工作空间。&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://squarespace.com/talkshow"&gt;Squarespace&lt;/a&gt;：使用优惠码 &lt;strong&gt;talkshow&lt;/strong&gt;，首次购买网站或域名可享九折优惠。&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://factormeals.com/talkshow50off"&gt;Factor&lt;/a&gt;：轻松享受健康饮食。使用优惠码 &lt;strong&gt;talkshow50off&lt;/strong&gt;，首单可享五折，并获赠一年免费早餐。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/03/18/the-talk-show-443" title="永久链接至‘The Talk Show: ‘The Pogue Feature’’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Wed, 18 Mar 2026 23:40:00 +0000</pubDate></item></channel></rss>
+&lt;/div&gt;</description><pubDate>Thu, 19 Mar 2026 17:31:15 +0000</pubDate></item></channel></rss>
