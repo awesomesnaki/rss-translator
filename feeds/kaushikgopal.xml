@@ -52,7 +52,7 @@ thdxr 在 &lt;a href="https://x.com/thdxr/status/2031073582747357397"&gt;twitter
 工作原理
 &lt;a class="heading-anchor" href="https://kau.sh/feed.xml#how-it-works"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;核心理念是：从参与者音轨中取一段语音，与主录音进行比较，找到它们最佳匹配的位置。那个位置就是时间偏移量。&lt;/p&gt;&lt;p&gt;关键在于选择&lt;em&gt;哪一段&lt;/em&gt;语音来使用。Podsync并非只押注于单一区域，而是为每条音轨寻找几个强有力的候选片段（优先选择较长的连续语音块），并逐一与主音轨进行比对。对于较长的候选片段，它会从起始、中间和结尾部分进行采样。置信度最高的匹配胜出；如果第二个独立区域也指向相同的偏移量，这种相互印证将作为决胜因素纳入考量。&lt;/p&gt;
+&lt;p&gt;核心理念是：从参与者音轨中取一段语音，与主录音进行比较，找到它们最佳匹配的位置。那个位置就是时间偏移量。&lt;/p&gt;&lt;p&gt;关键在于选择&lt;em&gt;哪一段&lt;/em&gt;语音来使用。Podsync并非只押注于单一区域，而是为每条音轨寻找几个强有力的候选片段（优先选择较长的连续语音块），并逐一与主音轨进行比对。对于较长的候选片段，它会从开头、中间和结尾进行采样。置信度最高的匹配胜出；如果第二个独立区域也指向相同的偏移量，这种相互印证将作为平局决胜的依据。&lt;/p&gt;
 &lt;p&gt;找到偏移量后，Podsync会对每条音轨进行填充或修剪，以与主音轨对齐并匹配其长度（同时输出一些关于偏移量的信息）。&lt;/p&gt;
 &lt;h2 id="what-it-looks-like"&gt;
 使用示例
@@ -63,17 +63,17 @@ thdxr 在 &lt;a href="https://x.com/thdxr/status/2031073582747357397"&gt;twitter
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display: flex;"&gt;&lt;span&gt;&lt;span style="color: #ae81ff;"&gt;&lt;/span&gt; --tracks &lt;span style="color: #e6db74;"&gt;"304-iury-src-cleaned.wav"&lt;/span&gt; &lt;span style="color: #ae81ff;"&gt;\
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display: flex;"&gt;&lt;span&gt;&lt;span style="color: #ae81ff;"&gt;&lt;/span&gt; --tracks &lt;span style="color: #e6db74;"&gt;"304-kg-src-logic-cleaned.wav"&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;将输出结果拖入我的数字音频工作站，从0:00开始。搞定。&lt;/p&gt;
-&lt;p&gt;我甚至编写了一个代理技能，你只需将其指向你的代理工具链，它就会&lt;a href="https://github.com/kaushikgopal/podsync/tree/master/.agents/skills/podsync"&gt;为你处理所有步骤&lt;/a&gt;：&lt;/p&gt;
+&lt;p&gt;我甚至编写了一个智能体技能，你只需将其指向你的智能体框架，它就会&lt;a href="https://github.com/kaushikgopal/podsync/tree/master/.agents/skills/podsync-voice-tracks"&gt;为你处理所有步骤&lt;/a&gt;：&lt;/p&gt;
 &lt;figure class="borderless"&gt;
 &lt;img alt="Podsync输出显示两条音轨以置信度1.00同步且无漂移" class="borderless" src="https://kau.sh/podsync-output.webp"/&gt;
 &lt;/figure&gt;
 &lt;p&gt;过去每期节目需要10-15分钟的对齐工作，现在只需一条命令。&lt;/p&gt;
 &lt;h2 id="addendum"&gt;
-附言
+补充说明
 &lt;a class="heading-anchor" href="https://kau.sh/feed.xml#addendum"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;Marco，如果你读到这篇文章，仍然很期待看到你的实现方案！&lt;/p&gt;
-&lt;p&gt;据我理解，他的解决方案更侧重于纠正&lt;em&gt;漂移&lt;/em&gt;，而非精确获取偏移量。在实践中，我发现漂移问题并不严重。它确实存在，但程度轻微，而且我通常会对播客的每一秒进行编辑，所以手动处理也足够容易。我甚至曾有一个分支版本，通过在静默点进行拼接来纠正漂移，但这带来的复杂性超过了其帮助。&lt;div class="footnotes"&gt;
+&lt;p&gt;Marco，如果你读到这篇文章，我仍然很想看看你的实现方案！&lt;/p&gt;
+&lt;p&gt;据我理解，他的解决方案更侧重于纠正&lt;em&gt;漂移&lt;/em&gt;，而非精确获取偏移量。实际上，我发现漂移问题并不严重。它确实存在，但程度轻微，而且我通常会对播客的每一秒进行编辑，所以手动处理也足够容易。我甚至有一个分支版本，通过在静音点进行拼接来纠正漂移，但这带来的复杂性超过了其帮助。&lt;/p&gt;&lt;div class="footnotes"&gt;
 &lt;hr/&gt;
 &lt;ol&gt;
 &lt;li id="fn:1"&gt;

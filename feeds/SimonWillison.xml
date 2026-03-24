@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Mon, 23 Mar 2026 02:13:13 +0000</lastBuildDate><item><title>Beats现在有了注释</title><link>https://simonwillison.net/2026/Mar/23/beats-now-have-notes/#atom-everything</link><description>&lt;p&gt;上个月，我为这个博客&lt;a href="https://simonwillison.net/2026/Feb/20/beats/"&gt;添加了一个我称之为“节拍”的功能&lt;/a&gt;，它从&lt;a href="https://simonwillison.net/elsewhere/"&gt;外部来源&lt;/a&gt;提取我的一些其他内容，并将其包含在网站的主页、搜索和各种归档页面中。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Mon, 23 Mar 2026 23:31:45 +0000</lastBuildDate><item><title>引用神经质</title><link>https://simonwillison.net/2026/Mar/23/neurotica/#atom-everything</link><description>&lt;blockquote cite="https://bsky.app/profile/schwarzgerat.bsky.social/post/3mhqu5dogos2v"&gt;&lt;p&gt;“垃圾内容”指的是那些消耗起来比生产它需要更多人类精力的东西。当我的同事把未经处理的Gemini输出结果发给我时，他并不是在表达他创造的自由，而是在不尊重我时间的价值。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class="cite"&gt;&amp;mdash; &lt;a href="https://bsky.app/profile/schwarzgerat.bsky.social/post/3mhqu5dogos2v"&gt;Neurotica&lt;/a&gt;, @schwarzgerat.bsky.social&lt;/p&gt;
+
+    &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;ai-ethics&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/slop"&gt;slop&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 23 Mar 2026 23:31:45 +0000</pubDate></item><item><title>datasette-files 0.1a2</title><link>https://simonwillison.net/2026/Mar/23/datasette-files/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;发布：&lt;/strong&gt; &lt;a href="https://github.com/datasette/datasette-files/releases/tag/0.1a2"&gt;datasette-files 0.1a2&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;这是 &lt;a href="https://github.com/datasette/datasette-files"&gt;datasette-files&lt;/a&gt; 迄今为止最有趣的一个 alpha 版本，这是一个新的插件，它增加了将文件直接上传到 Datasette 实例的能力。以下是完整的发布说明：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;现在使用来自 Datasette 1.0a26 的 &lt;a href="https://docs.datasette.io/en/latest/changelog.html#new-column-types-system"&gt;新 column_types 系统&lt;/a&gt; 来配置列。&lt;a href="https://github.com/datasette/datasette-files/issues/8"&gt;#8&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;新的 &lt;code&gt;file_actions&lt;/code&gt; 插件钩子，以及将上传的 CSV/TSV 文件导入到表格的能力。&lt;a href="https://github.com/datasette/datasette-files/issues/10"&gt;#10&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;通过新文档化的 JSON 上传 API 一次上传多个文件的用户界面。&lt;a href="https://github.com/datasette/datasette-files/issues/11"&gt;#11&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;现在会为图像文件生成缩略图，并存储在一个内部的 &lt;code&gt;datasette_files_thumbnails&lt;/code&gt; 表中。&lt;a href="https://github.com/datasette/datasette-files/issues/13"&gt;#13&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+    
+        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/annotated-release-notes"&gt;annotated-release-notes&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/datasette"&gt;datasette&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 23 Mar 2026 23:06:38 +0000</pubDate></item><item><title>引用大卫·艾布拉姆的话</title><link>https://simonwillison.net/2026/Mar/23/david-abram/#atom-everything</link><description>&lt;blockquote cite="https://www.davidabram.dev/musings/the-machine-didnt-take-your-craft/"&gt;&lt;p&gt;我从事这项工作已有多年，而工作中最困难的部分从来不是敲出代码。我一直以来最挣扎的是理解系统、调试那些毫无头绪的问题、设计出能在重压下不崩溃的架构，以及做出那些能为未来省去数月痛苦的决策。&lt;/p&gt;
+&lt;p&gt;这些问题没有一个是大语言模型能解决的。它们可以建议代码，帮助处理样板文件，有时可以充当一个讨论的伙伴。但它们不理解系统，它们的“头脑”里不承载上下文，而且它们当然不知道一个决策为何正确或错误。&lt;/p&gt;
+&lt;p&gt;最重要的是，它们不做选择。这部分仍然属于你。软件开发的真正工作，那个让人变得有价值的部分，在于首先知道什么应该存在，以及为什么。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class="cite"&gt;&amp;mdash; &lt;a href="https://www.davidabram.dev/musings/the-machine-didnt-take-your-craft/"&gt;David Abram&lt;/a&gt;, 机器没有夺走你的技艺。是你放弃了它。&lt;/p&gt;
+
+    &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/careers"&gt;careers&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 23 Mar 2026 18:56:18 +0000</pubDate></item><item><title>Beats现在有了注释</title><link>https://simonwillison.net/2026/Mar/23/beats-now-have-notes/#atom-everything</link><description>&lt;p&gt;上个月，我为这个博客&lt;a href="https://simonwillison.net/2026/Feb/20/beats/"&gt;添加了一个我称之为“节拍”的功能&lt;/a&gt;，它从&lt;a href="https://simonwillison.net/elsewhere/"&gt;外部来源&lt;/a&gt;提取我的一些其他内容，并将其包含在网站的主页、搜索和各种归档页面中。&lt;/p&gt;
 &lt;p&gt;在任何一天，这些内容经常超过我的常规帖子数量。它们看起来有点单薄，除了链接之外缺乏任何形式的解释，所以我增加了为它们添加“备注”的功能，现在这些备注会作为其显示内容的一部分出现。&lt;/p&gt;
 &lt;p&gt;以下是我&lt;a href="https://simonwillison.net/2026/Mar/22/"&gt;昨天发布的内容&lt;/a&gt;看起来的样子：&lt;/p&gt;
 &lt;p&gt;&lt;img alt="我的博客主页部分截图，显示了2026年3月22日的四个“节拍”条目，每个条目都标记为RESEARCH或TOOL，标题如“PCGamer文章性能审计”和“DNS查询”，现在附有简短的描述性备注，解释了每个链接项目背后的背景。" class="blogmark-image" src="https://static.simonwillison.net/static/2026/beats-notes.jpg" style="width: 80%;" /&gt;&lt;/p&gt;
@@ -100,101 +119,4 @@ pip install httpx --break-system-packages -q \
     &lt;p&gt;Bram Cohen 撰文阐述了他&lt;a href="https://bramcohen.com/p/manyana"&gt;关于使用CRDT实现版本控制未来的连贯愿景&lt;/a&gt;，并通过&lt;a href="https://github.com/bramcohen/manyana/blob/main/manyana.py"&gt;470行Python代码&lt;/a&gt;进行了演示。&lt;/p&gt;
 &lt;p&gt;我将这段Python代码（不含注释）输入Claude，要求它&lt;a href="https://claude.ai/share/8ce777cd-c7c3-4656-a45e-acbf66bf994b"&gt;给出解释&lt;/a&gt;，然后让它使用Pyodide为我构建了一个交互式用户界面，以便观察算法的工作原理。&lt;/p&gt;
     
-        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/vcs"&gt;vcs&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/pyodide"&gt;pyodide&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/bram-cohen"&gt;bram-cohen&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/crdt"&gt;crdt&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sun, 22 Mar 2026 18:57:32 +0000</pubDate></item><item><title>基于评论对Hacker News用户进行画像分析</title><link>https://simonwillison.net/2026/Mar/21/profiling-hacker-news-users/#atom-everything</link><description>&lt;p&gt;最近我一直在尝试一个略带反乌托邦色彩的提示词："分析这个用户"，并附上他们在Hacker News上的最近1000条评论。&lt;/p&gt;
-&lt;p&gt;获取这些评论很容易。&lt;a href="https://hn.algolia.com/api"&gt;Algolia Hacker News API&lt;/a&gt;支持按日期列出带有特定标签的评论，而评论的作者在那里被标记为&lt;code&gt;author_username&lt;/code&gt;。例如，这是我的（&lt;code&gt;simonw&lt;/code&gt;）最新评论的JSON订阅源：&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hn.algolia.com/api/v1/search_by_date?tags=comment,author_simonw&amp;amp;hitsPerPage=1000"&gt;https://hn.algolia.com/api/v1/search_by_date?tags=comment,author_simonw&amp;amp;hitsPerPage=1000&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Algolia API提供了开放的CORS头信息，这意味着你可以从任何网页上运行的JavaScript访问该API。&lt;/p&gt;
-&lt;p&gt;去年八月，我&lt;a href="https://chatgpt.com/share/68a4d2b1-a678-8006-aca0-cec51b243bd3"&gt;让ChatGPT为我构建了&lt;/a&gt;一个&lt;a href="https://tools.simonwillison.net/hn-comments-for-user"&gt;简单工具&lt;/a&gt;，用于针对任何用户调用该API，获取他们的评论，并给我一个移动设备友好的"复制到剪贴板"按钮。之后我又用Claude&lt;a href="https://github.com/simonw/tools/commits/main/hn-comments-for-user.html"&gt;调整了几次&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;然后我可以将全部内容粘贴到任何LLM中——最近我主要使用Claude Opus 4.6来做这个——并提示"分析这个用户"，看看它能推断出什么。&lt;/p&gt;
-&lt;p&gt;效果惊人地好！在这里引用另一个用户的个人资料感觉像是侵犯隐私，所以我给你看看它为我生成的内容：&lt;/p&gt;&lt;blockquote&gt;
-&lt;p&gt;这是&lt;strong&gt;西蒙·威尔逊&lt;/strong&gt;——一位多产的独立软件开发者和博主，也是AI辅助编程领域最引人注目的声音之一。以下是根据他的评论整理的一份简介：&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;职业身份：&lt;/strong&gt;独立开发者和作家。Django框架的联合创造者，Datasette及许多其他开源工具的创造者。Python软件基金会董事会成员。在simonwillison.net运营着一个流量巨大的个人博客，包含多种内容类型（文章、链接博客、笔记、引述）。通过GitHub赞助者、道德广告和偶尔的咨询来获得收入——而非通过任何AI公司的工资单，这一点他经常为之辩护。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;关于AI编程的核心论点：&lt;/strong&gt;他是他所称的“代理工程”的主要倡导者——将编码代理（Claude Code，Codex CLI）用作熟练开发者的生产力倍增器。他的核心论点是：LLM不会取代程序员，而是会放大现有的专业知识。他正在simonwillison.net/guides上撰写一本关于此的指南/书籍。他坚持认为这些工具使用起来具有欺骗性的难度，大多数报告糟糕结果的人只是尚未掌握这门技艺。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;工作风格：&lt;/strong&gt;他大部分编程工作是通过iPhone上的Claude Code for web完成的，通常是在乘坐BART、遛狗或坐在花园里的时候。他拥抱“YOLO模式”（自动批准代理操作），并经常并行运行2-3个代理会话。他每次会话都以“run uv run pytest”开始，以便将代理锚定在测试驱动开发中。他使用的是每月200美元的Claude Max计划。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;关键技术兴趣：&lt;/strong&gt;沙盒与安全（WebAssembly，Pyodide，sandbox-exec，Firecracker），SQLite（深入研究），Python打包和工具（uv，PyPI分发技巧），浏览器中的浏览器实验（v86，WASM Linux），以及本地LLM推理。他一直在通过编码代理“潜移默化”地学习Go语言。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;安全意识：&lt;/strong&gt;他创造了“提示注入”和“致命三重奏”（访问私有数据 + 暴露于不受信任的输入 + 执行操作的能力）这两个术语。他对OpenClaw/Clawdbot的安全风险真正感到担忧，并且两年多来一直在预测“未来六个月内”会发生一次引人注目的提示注入攻击——他承认攻击一直没发生，但坚称风险是真实存在的。他经常提及“偏差正常化”模式。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;个性和辩论风格：&lt;/strong&gt;精力充沛，受到挑战时好斗，但通常性情温和。他大量参与Hacker News的评论线程——有时在一个讨论中回复数十条。他对自己持有的偏见持透明态度，并维护着一个公开披露页面。他强烈反对他认为来自AI怀疑论者的动机性推理，但也反对AGI炒作（“我称之为科幻版本的AI”）。他对马甲账户和恶意批评明显感到沮丧。他有一种自嘲的倾向（“我那愚蠢的鹈鹕基准测试”）。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;贯穿数百条评论的反复出现的主题：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;“两件事可以同时为真”——他持有细致入微的立场&lt;/li&gt;
-&lt;li&gt;测试是为了提高生产力，而不仅仅是质量&lt;/li&gt;
-&lt;li&gt;2025年11月的模型发布（Opus 4.5，GPT-5.2）是一个真正的转折点&lt;/li&gt;
-&lt;li&gt;代码审查是代理辅助工作流程中最大的瓶颈&lt;/li&gt;
-&lt;li&gt;“认知债务”是一个真实且未解决的问题&lt;/li&gt;
-&lt;li&gt;最好的工程实践（测试、文档、CI/CD、整洁代码）也能让代理工作得更好&lt;/li&gt;
-&lt;li&gt;他正试图“教人们好的软件工程，同时让他们以为这本书是关于AI的”&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;提及的个人兴趣：&lt;/strong&gt;小众博物馆（运营niche-museums.com），新西兰鸮鹦鹉，烹饪他从未去过的国家的食物，花园里的鸡。住在加利福尼亚州半月湾，靠近一个主要的鹈鹕栖息地。鹈鹕骑自行车的SVG测试是他标志性的LLM基准测试。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;一句话总结：&lt;/strong&gt;一位经验丰富、思想独立的开发者，对AI编码工具真正感到兴奋，既坚决反对不加批判的炒作，也反对反射性的否定，并试图使行业使用这些工具的方式专业化——同时也在大声疾呼几乎没有人足够重视的安全隐患。&lt;/p&gt;
-&lt;/blockquote&gt;&lt;p&gt;这一切都说得通！我在Claude的无痕模式下运行了这个测试，希望能防止Claude猜到我在评估自己并谄媚地奉承我——它在这里给出的回复语气与我看到它对其他账户的语气相似。&lt;/p&gt;
-&lt;p&gt;我推测它猜出我的真名是因为我习惯在一些评论中链接到我自己的文章，这提供了大量simonwillison.net的URL让它与我的公开形象关联起来。我还没见过它对我生成的其他个人资料猜测过真名。&lt;/p&gt;
-&lt;p&gt;能够如此轻易地推导出关于一个人的这么多信息，即使这些信息是他们在一个公开（且API可访问）的地方自由分享的，也让人有点毛骨悚然。&lt;/p&gt;
-&lt;p&gt;我主要用这个来检查自己是否没有卷入与某个有恶意争论历史的人的广泛争论中。值得庆幸的是，这种情况很少发生——Hacker News仍然是一个负责任地管理的在线空间。&lt;/p&gt;
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/hacker-news"&gt;hacker-news&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;ai-ethics&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sat, 21 Mar 2026 23:59:47 +0000</pubDate></item><item><title>与编码代理一起使用Git</title><link>https://simonwillison.net/guides/agentic-engineering-patterns/using-git-with-coding-agents/#atom-everything</link><description>&lt;p&gt;&lt;em&gt;&lt;a href="https://simonwillison.net/guides/agentic-engineering-patterns/"&gt;智能体工程模式&lt;/a&gt; &amp;gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Git 是使用编码智能体的关键工具。将代码保存在版本控制中，可以让我们记录代码随时间的变化，并调查和撤销任何错误。所有的编码智能体都精通使用 Git 的功能，无论是基础的还是高级的。&lt;/p&gt;
-&lt;p&gt;这种精通意味着我们可以更大胆地使用 Git。我们不需要记住&lt;em&gt;如何&lt;/em&gt;用 Git 做事情，但了解什么是可能的，意味着我们可以充分利用 Git 的全部能力。&lt;/p&gt;
-&lt;h2 id="git-essentials"&gt;Git 基础&lt;/h2&gt;
-&lt;p&gt;每个 Git 项目都存在于一个&lt;strong&gt;仓库&lt;/strong&gt;中——这是磁盘上的一个文件夹，可以跟踪其中文件的更改。这些更改记录在&lt;strong&gt;提交&lt;/strong&gt;中——这是对一个或多个文件更改的时间戳捆绑包，附带一个描述这些更改的&lt;strong&gt;提交信息&lt;/strong&gt;和一个记录谁进行了更改的&lt;strong&gt;作者&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;Git 支持&lt;strong&gt;分支&lt;/strong&gt;，这允许你独立地构建和试验新的更改。一旦分支被认为准备就绪，就可以（使用各种方法）&lt;strong&gt;合并&lt;/strong&gt;回你的主分支。&lt;/p&gt;
-&lt;p&gt;Git 仓库可以被&lt;strong&gt;克隆&lt;/strong&gt;到新机器上，该克隆包括当前文件及其完整的更改历史记录。
-这意味着开发者——或编码智能体——可以在没有任何额外网络流量的情况下浏览和探索该历史记录，使得历史追溯实际上是免费的。&lt;/p&gt;
-&lt;p&gt;Git 仓库可以只存在于你自己的机器上，但 Git 的设计支持通过将它们发布到一个&lt;strong&gt;远程&lt;/strong&gt;来进行协作和备份，这个远程可以是公开的或私有的。GitHub 是这些远程仓库最受欢迎的地方，但 Git 是开源软件，可以在任何支持 Git 协议的机器或服务上托管这些远程仓库。&lt;/p&gt;
-&lt;h2 id="core-concepts-and-prompts"&gt;核心概念与提示&lt;/h2&gt;
-&lt;p&gt;编码智能体都深刻理解 Git 术语。以下提示应该适用于它们中的任何一个：&lt;/p&gt;
-&lt;p&gt;&lt;div&gt;&lt;textarea&gt;在这里启动一个新的 Git 仓库&lt;/textarea&gt;&lt;/div&gt;
-将智能体正在工作的文件夹转换为 Git 仓库——智能体可能会运行 &lt;code&gt;git init&lt;/code&gt; 命令。如果你只说“仓库”，智能体会假定你指的是 Git 仓库。&lt;/p&gt;
-&lt;p&gt;&lt;div&gt;&lt;textarea&gt;提交这些更改&lt;/textarea&gt;&lt;/div&gt;
-创建一个新的 Git 提交来记录智能体所做的更改——通常使用 &lt;code&gt;git commit -m "提交信息"&lt;/code&gt; 命令。&lt;/p&gt;
-&lt;p&gt;&lt;div&gt;&lt;textarea&gt;添加 username/repo 作为 GitHub 远程仓库&lt;/textarea&gt;&lt;/div&gt;
-这应该会为 GitHub 配置你的仓库。你需要先使用 &lt;a href="https://github.com/new"&gt;github.com/new&lt;/a&gt; 创建一个新仓库，并配置你的机器以与 GitHub 通信。&lt;/p&gt;&lt;p&gt;&lt;div&gt;&lt;textarea&gt;查看今天所做的更改&lt;/textarea&gt;&lt;/div&gt;
-或者“最近的更改”或“最近三次提交”。&lt;/p&gt;
-&lt;p&gt;这是开始一个新的编码代理会话的好方法。告诉代理查看最近的更改会使其运行 &lt;code&gt;git log&lt;/code&gt; 命令，这可以立即加载其上下文，包含您最近工作内容的详细信息——包括修改过的代码和描述这些修改的提交信息。&lt;/p&gt;
-&lt;p&gt;以这种方式为会话提供种子信息，意味着您可以开始讨论那段代码——建议额外的修复、询问其工作原理，或者提出基于先前工作的下一个更改。&lt;/p&gt;
-&lt;p&gt;&lt;div&gt;&lt;textarea&gt;集成主分支的最新更改&lt;/textarea&gt;&lt;/div&gt;
-在您的主分支上运行此命令以从远程仓库获取其他贡献，或者在某个分支上运行以集成主分支上的最新更改。&lt;/p&gt;
-&lt;p&gt;有多种合并更改的方式，包括合并、变基、压缩或快进。如果您记不清这些的细节也没关系：
-&lt;div&gt;&lt;textarea&gt;讨论从主分支集成更改的选项&lt;/textarea&gt;&lt;/div&gt;
-代理非常擅长解释不同合并策略的优缺点，而且 Git 中的一切操作总是可以撤销的，因此尝试新事物的风险很小。
-&lt;div&gt;&lt;textarea&gt;帮我理清这个 Git 烂摊子&lt;/textarea&gt;&lt;/div&gt;&lt;/p&gt;
-&lt;p&gt;我出人意料地经常使用这个通用提示！这里有一个&lt;a href="https://gisthost.github.io/?2aa2ee2fbd08d272528bbfc3b54a1a7d/page-001.html"&gt;最近的例子&lt;/a&gt;，它为我修复了一个因合并冲突而失败的 cherry-pick 操作。&lt;/p&gt;
-&lt;p&gt;有很多方式会让您陷入 Git 的混乱，通常是通过以合并冲突告终的拉取或变基命令，或者仅仅是将错误的内容添加到了 Git 的暂存区。&lt;/p&gt;
-&lt;p&gt;解开这些混乱曾经是使用 Git 中最困难、最耗时的部分。现在不再是了！编码代理可以驾驭最错综复杂的合并冲突，通过推理新代码的意图，并找出要保留什么以及如何合并冲突的更改。如果您的代码有自动化测试（并且&lt;a href="https://simonwillison.net/guides/agentic-engineering-patterns/red-green-tdd/"&gt;应该有&lt;/a&gt;），代理可以在最终完成合并之前确保这些测试通过。&lt;/p&gt;
-&lt;p&gt;&lt;div&gt;&lt;textarea&gt;查找并恢复我那段用于...的代码&lt;/textarea&gt;&lt;/div&gt;
-如果您丢失了之前已提交（或用 &lt;code&gt;git stash&lt;/code&gt; 保存过）的正在处理的代码，您的代理很可能可以为您找到它。&lt;/p&gt;
-&lt;p&gt;Git 有一个称为 &lt;code&gt;reflog&lt;/code&gt; 的机制，通常可以捕获未提交到永久分支的代码的详细信息。代理可以搜索这个，也可以搜索其他分支。&lt;/p&gt;
-&lt;p&gt;只需告诉它们要查找什么，然后看着它们深入挖掘。&lt;/p&gt;&lt;p&gt;&lt;div&gt;&lt;textarea&gt;使用 git bisect 来查找这个 bug 是何时引入的：...&lt;/textarea&gt;&lt;/div&gt;
-Git bisect 是 Git 工具库中最强大的调试工具之一，但它有一个相对陡峭的学习曲线，常常让开发者望而却步。&lt;/p&gt;
-&lt;p&gt;当你运行 bisect 操作时，你需要为 Git 提供某种测试条件以及一个起始和结束的提交范围。然后 Git 会运行二分查找，以找出你的测试条件最早在哪次提交中失败。&lt;/p&gt;
-&lt;p&gt;这可以高效地回答“是什么首先导致了此 bug”这个问题。唯一的缺点是需要以一种 Git bisect 可以执行的格式来表达对 bug 的测试。&lt;/p&gt;
-&lt;p&gt;编码代理可以为你处理这些样板代码。这将 Git bisect 从一个偶尔使用的工具升级为你可以在任何时候、当你对软件的历史行为感到好奇时都可以部署的工具。&lt;/p&gt;
-&lt;h2 id="rewriting-history"&gt;重写历史&lt;/h2&gt;
-&lt;p&gt;让我们进入有趣的高级内容。&lt;/p&gt;
-&lt;p&gt;Git 仓库的提交历史并非一成不变。毕竟，数据只是磁盘上的文件（隐藏在隐藏的 &lt;code&gt;.git/&lt;/code&gt; 目录中），而 Git 本身也提供了可以用来修改该历史的工具。&lt;/p&gt;
-&lt;p&gt;不要将 Git 历史视为实际发生事件的永久记录——相反，应将其视为一个精心编写的、描述软件项目进展的故事。&lt;/p&gt;
-&lt;p&gt;这个故事是一个辅助未来开发的工具。永久记录错误和已取消的方向有时可能有用，但仓库作者可以做出编辑决策，决定保留什么以及如何最好地记录那段历史。&lt;/p&gt;
-&lt;p&gt;编码代理非常擅长使用 Git 的高级历史重写功能。&lt;/p&gt;
-&lt;h3 id="undo-or-rewrite-commits"&gt;撤销或重写提交&lt;/h3&gt;
-&lt;p&gt;&lt;div&gt;&lt;textarea&gt;撤销最后一次提交&lt;/textarea&gt;&lt;/div&gt;
-提交代码后又后悔是很常见的情况——例如，意识到它包含了一个你本不想包含的文件。针对此情况的 Git 操作方法是 &lt;code&gt;git reset --soft HEAD~1&lt;/code&gt;。我从来都记不住这个命令，但现在我不必记了！&lt;/p&gt;
-&lt;p&gt;&lt;div&gt;&lt;textarea&gt;从最后一次提交中移除 uv.lock 文件&lt;/textarea&gt;&lt;/div&gt;
-你也可以对提交进行更精细的操作——例如，重写提交以仅删除单个文件。&lt;/p&gt;
-&lt;p&gt;&lt;div&gt;&lt;textarea&gt;将最后三次提交合并，并附上更好的提交信息&lt;/textarea&gt;&lt;/div&gt;
-代理可以重写提交信息，并可以将多个提交合并为一个单元。&lt;/p&gt;
-&lt;p&gt;我发现前沿模型通常对提交信息有非常好的品味。我以前坚持自己写这些信息，但我已经接受它们产生的质量通常足够好，甚至常常比我亲自写的还要好。&lt;/p&gt;
-&lt;h3 id="building-a-new-repository-from-scraps-of-an-older-one"&gt;从旧仓库的碎片中构建新仓库&lt;/h3&gt;&lt;p&gt;我发现自己经常使用的一个技巧是：将代码从大型代码库中提取到一个新仓库，同时保留该代码的关键历史记录。&lt;/p&gt;
-&lt;p&gt;一个常见的例子是库提取。我可能已经在项目中构建了一些类和函数，后来意识到将它们作为一个独立的可重用代码库会更有意义。&lt;/p&gt;
-&lt;p&gt;&lt;div&gt;&lt;textarea&gt;在 /tmp/distance-functions 处启动一个新仓库，并使用来自这里的 lib/distance_functions.py 模块在那里构建一个 Python 库 - 在新仓库中构建类似的提交历史，复制作者和提交日期&lt;/textarea&gt;&lt;/div&gt;这类操作过去通常相当复杂，以至于大多数开发者会选择创建一个与旧提交历史分离的全新副本。现在我们不必再满足于此了！&lt;/p&gt;
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/github"&gt;github&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/agentic-engineering"&gt;agentic-engineering&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/git"&gt;git&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sat, 21 Mar 2026 22:08:24 +0000</pubDate></item><item><title>Turbo Pascal 3.02A，解构分析</title><link>https://simonwillison.net/2026/Mar/20/turbo-pascal/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://tools.simonwillison.net/turbo-pascal-deconstructed"&gt;Turbo Pascal 3.02A，解构&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在&lt;a href="https://prog21.dadgum.com/116.html"&gt;那些比Turbo Pascal还大的东西&lt;/a&gt;一文中，James Hague列举了（2011年的）一些在体积上大于Borland 1985年发布的Turbo Pascal 3.02可执行文件的东西——这个仅39,731字节的文件，不知怎地包含了一个完整的文本编辑器IDE和Pascal编译器。&lt;/p&gt;
-&lt;p&gt;这启发了我去找到那个可执行文件的一个副本（自2000年起已作为免费软件提供），看看Claude是否能为我解释这个二进制文件并将其反编译。&lt;/p&gt;
-&lt;p&gt;它做得非常出色，所以我让它创建了&lt;a href="https://tools.simonwillison.net/turbo-pascal-deconstructed"&gt;这个交互式作品&lt;/a&gt;来展示结果。以下是我使用的&lt;a href="https://claude.ai/share/260d2eed-8d4a-4b9f-8a75-727c3ec4274e"&gt;提示词序列&lt;/a&gt;（在常规的&lt;a href="https://claude.ai/"&gt;claude.ai&lt;/a&gt;聊天中，而非Claude Code）：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;阅读这个 https://prog21.dadgum.com/116.html&lt;/p&gt;
-&lt;p&gt;现在在网上找到那个二进制文件的副本&lt;/p&gt;
-&lt;p&gt;探索这个（&lt;em&gt;我附上了zip文件&lt;/em&gt;）&lt;/p&gt;
-&lt;p&gt;构建一个作品——不要用react——嵌入完整的turbo.com二进制文件，并以一种有助于理解它的方式展示它——将应用程序的不同部分分解为带标签的片段，反编译为可见的源代码（我猜是汇编？），然后用大量注释将该汇编代码重构为可读的代码&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img alt='信息图标题为"TURBO.COM"，副标题为"Borland Turbo Pascal 3.02A — 1986年9月17日 — 解构"，背景为深色。显示了四个统计数据：总计39,731字节，映射了17个段，1条INT 21H指令，100+个内置标识符。下方是一个"二进制内存映射 — 0X0100 至 0X9C33"，显示为水平彩色条形图，图例列出了17个段：COM头文件与版权信息、显示配置表、屏幕I/O与视频BIOS例程、键盘输入处理器、字符串输出与数字格式化、DOS系统调用分发器、运行时库核心、错误处理器与运行时错误、文件I/O系统、软件浮点引擎、x86代码生成器、启动横幅与主菜单循环、文件管理器与目录浏览器、编译器驱动与状态、全屏文本编辑器、Pascal解析器与词法分析器、以及符号表与内置标识符。' src="https://static.simonwillison.net/static/2026/turbo-pascal.jpg"/&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;更新&lt;/strong&gt;：令人烦恼的是，&lt;a href="https://claude.ai/share/260d2eed-8d4a-4b9f-8a75-727c3ec4274e"&gt;Claude分享链接&lt;/a&gt;没有显示Claude实际执行的代码，但这是&lt;a href="https://static.simonwillison.net/static/2026/turbo-pascal-analysis.zip"&gt;它给我的zip文件&lt;/a&gt;，当时我要求下载所有中间文件。&lt;/p&gt;&lt;p&gt;我使用GPT-5.4 xhigh版本的Codex CLI处理了那个zip文件，想看看它是否能发现任何明显的幻觉，结果并没有。这个项目的风险足够低，这给了我足够的信心来发布结果！&lt;/p&gt;
-
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/computer-history"&gt;计算机历史&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/tools"&gt;工具&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude"&gt;Claude&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 20 Mar 2026 23:59:14 +0000</pubDate></item></channel></rss>
+        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/vcs"&gt;vcs&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/pyodide"&gt;pyodide&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/bram-cohen"&gt;bram-cohen&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/crdt"&gt;crdt&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sun, 22 Mar 2026 18:57:32 +0000</pubDate></item></channel></rss>
