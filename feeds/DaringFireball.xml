@@ -1,5 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 24 Mar 2026 00:05:06 +0000</lastBuildDate><item><title>[赞助商] npx workos：从身份验证集成到环境管理，零点击运维</title><link>https://workos.com/docs/authkit/cli-installer?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q12026</link><description>&lt;p&gt;&lt;code&gt;npx workos@latest&lt;/code&gt; 启动了一个&lt;a href="https://youtu.be/icUycAMC1h0?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q12026"&gt;由 Claude 驱动的 AI 智能体&lt;/a&gt;，它能读取你的项目、检测你的框架，并将完整的身份验证集成写入你的代码库。无需注册。它会创建一个环境，填入你的密钥，你可以在准备好后随时认领你的账户。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Wed, 25 Mar 2026 01:09:10 +0000</lastBuildDate><item><title>Claude 现已能掌控您的 Mac</title><link>https://claude.com/blog/dispatch-and-computer-use</link><description>&lt;p&gt;Claude：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;在 Claude Cowork 和 Claude Code 中，您现在可以启用 Claude 来使用您的计算机完成任务。当 Claude 无法访问所需工具时，它会指向、点击并导航您屏幕上的内容来自行执行任务。它可以自动打开文件、使用浏览器并运行开发工具——无需任何设置。&lt;/p&gt;
+
+&lt;p&gt;此功能现已面向 Claude Pro 和 Max 订阅者提供研究预览。它与&lt;a href="https://support.claude.com/en/articles/13947068-assign-tasks-to-claude-from-anywhere-in-cowork"&gt;Dispatch&lt;/a&gt;配合使用效果尤佳，后者允许您从手机向 Claude 分配任务。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;我认为，如果您在您实际的 Mac 电脑上尝试此功能，使用您所有实际的数据和文件，那简直是疯了。但在我亲自尝试之前，我也曾认为使用许多前沿 AI 功能的人是疯子。值得注意的是，Anthropic 在苹果公司之前就在 Mac 上推出了代理式 AI，而苹果公司&lt;a href="https://daringfireball.net/2025/03/apple_is_delaying_the_more_personalized_siri_apple_intelligence_features"&gt;最初&lt;/a&gt;承诺一年前就会推出此功能。&lt;/p&gt;
+
+&lt;p&gt;Claude Mac 客户端本身仍然是一个笨拙迟缓的 Electron 应用。如果 Claude Code 真的那么好，我不明白他们为什么不通过用它来打造一个哪怕只是勉强过得去的原生 Mac 应用来证明这一点。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/03/24/claude-control-mac" title="‘Claude Can Now Take Control of Your Mac’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Wed, 25 Mar 2026 01:09:10 +0000</pubDate></item><item><title>华尔街日报：OpenAI计划推出桌面版“超级应用”</title><link>https://www.wsj.com/tech/openai-plans-launch-of-desktop-superapp-to-refocus-simplify-user-experience-9e19931d?st=25wiu1</link><description>&lt;p&gt;Berber Jin上周为《华尔街日报》报道（赠阅链接）：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;OpenAI正计划将其ChatGPT应用、编码平台Codex和浏览器整合成一个桌面“超级应用”，此举旨在简化用户体验，并&lt;a href="https://www.wsj.com/tech/ai/openai-chatgpt-side-projects-16b3a825?mod=article_inline"&gt;继续致力于&lt;/a&gt;聚焦工程和商业客户。&lt;/p&gt;
+
+&lt;p&gt;应用部门主管Fidji Simo将监督这一变革，并专注于帮助公司的销售团队推广新产品。OpenAI发言人表示，目前负责公司计算业务的OpenAI总裁Greg Brockman将协助Simo监督产品改造及相关组织调整。&lt;/p&gt;
+
+&lt;p&gt;这一战略转变标志着与去年的重大转折，当时OpenAI推出了一系列独立产品，这些产品并不总能引起用户共鸣，有时还导致公司内部缺乏重点。OpenAI高管希望，将产品统一到一个应用下，能够精简资源，以应对竞争对手Anthropic的成功挑战。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这听起来像是一场正在酝酿的彻底灾难。苹果将Safari、信息和Xcode合并成一个“超级应用”会有任何意义吗？不，完全没有。OpenAI将ChatGPT、Codex，尤其是Atlas合并在一起同样毫无道理。我使用并非常喜欢ChatGPT，正是因为它的Mac客户端是一款如此出色的Mac应用。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.linkedin.com/in/fidjisimo/"&gt;Simo通过Shopify和Instacart加入OpenAI&lt;/a&gt;，因此她将OpenAI现有的产品优先文化——即打造精心设计的原生应用——视为问题而非可依托的优势，这并不令我意外。如果这个“超级应用”计划属实，它将摧毁迄今为止ChatGPT和Codex的所有优点。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/03/24/openai-superapp" title="《华尔街日报：OpenAI计划推出桌面“超级应用”》的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Wed, 25 Mar 2026 01:00:49 +0000</pubDate></item><item><title>OpenAI正在关闭Sora</title><link>https://x.com/soraofficialapp/status/2036546752535470382</link><description>&lt;p&gt;Sora，在Twitter/X上表示：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;我们即将告别Sora应用。致所有使用Sora进行创作、分享并围绕它建立社区的人们：谢谢你们。你们用Sora创造的作品意义非凡，我们也知道这个消息令人失望。&lt;/p&gt;
+
+&lt;p&gt;我们将很快分享更多信息，包括应用和API的时间线，以及如何保存您作品的细节。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Sora大概有那么一两周还挺有趣的。但是，与上面所说的相反，任何人用Sora创造的东西都无关紧要。它只是一场非常（非常）昂贵的玩乐。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/03/24/openai-is-closing-sora" title="‘OpenAI Is Closing Sora’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Wed, 25 Mar 2026 00:49:07 +0000</pubDate></item><item><title>iOS 26.4</title><link>https://www.macrumors.com/guide/ios-26-4-features/</link><description>&lt;p&gt;一如既往，MacRumors的Juli Clover对一切新变化进行了全面的梳理。对我来说，这是一个明显的变化：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;App Store合并了应用和购买历史记录，并为应用更新设置了专门的版块。现在需要点击两次才能进入应用更新，而不是像以前那样在个人资料页面底部直接显示。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;起初，这额外的一次点击让我有点恼火，但让“更新”拥有自己的版块确实更有道理。我手动更新应用，因为我喜欢阅读那些花时间记录变化的开发者发布的更新说明，同时我也喜欢一遍又一遍地阅读那些不这么做的开发者写的“错误修复和性能改进”。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/03/24/ios-264" title="‘iOS 26.4’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Wed, 25 Mar 2026 00:40:01 +0000</pubDate></item><item><title>继谷歌在Pixel手机上推出类似功能后，三星宣布Galaxy S26系列将支持隔空投送功能。</title><link>https://news.samsung.com/us/samsung-airdrop-quick-share-galaxy-s26-series/</link><description>&lt;p&gt;三星：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;三星将为 Galaxy S26 系列引入 AirDrop 支持，让用户能通过 Quick Share 更轻松地在设备间分享内容。&lt;/p&gt;
+
+&lt;p&gt;该功能将从 3 月 23 日起开始推送，首先在韩国推出，随后将扩展到更多地区，包括欧洲、香港、日本、拉丁美洲、北美、东南亚和台湾。AirDrop 支持将首先在 Galaxy S26 系列上提供，未来扩展到更多设备的计划将在稍后公布。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;我推测，但不确定，三星使用的是与&lt;a href="https://blog.google/products/android/quick-share-airdrop/"&gt;谷歌去年 11 月为其 Pixel 10 手机宣布的&lt;/a&gt;相同的逆向工程实现的 AirDrop，并且谷歌曾&lt;a href="https://security.googleblog.com/2025/11/android-quick-share-support-for-airdrop-security.html"&gt;提供了一些技术细节&lt;/a&gt;来证明该实现的安全性。一个月前，&lt;a href="https://support.google.com/pixelphone/thread/409524163"&gt;谷歌将支持扩展到了 Pixel 9 系列&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;迄今为止，苹果对此未作任何评论。我感觉，在不破坏现有苹果设备间 AirDrop 兼容性的前提下，他们对此无能为力。如果 AirDrop——这个从未打算成为公共协议的功能——成为了事实上的标准，而 FaceTime——这个&lt;a href="https://www.youtube.com/watch?v=JOxf9tEXEKQ"&gt;史蒂夫·乔布斯在 2010 年推出时一时冲动宣布将成为官方标准&lt;/a&gt;的功能（&lt;a href="https://news.ycombinator.com/item?id=14175122"&gt;让苹果的法律和工程团队都完全措手不及&lt;/a&gt;）——却从未成为标准，那会有点讽刺。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/03/24/samsung-android-airdrop" title="‘Following Google’s Lead With Pixel Phones, Samsung Announces AirDrop Support With Galaxy S26 Phones’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Tue, 24 Mar 2026 21:39:04 +0000</pubDate></item><item><title>★ 如何应对 macOS 26 Tahoe 中的那些菜单项图标</title><link>https://daringfireball.net/2026/03/what_to_do_about_those_menu_item_icons_in_macos_26_tahoe</link><description>&lt;p&gt;&lt;a href="https://mastodon.social/@stroughtonsmith/116262411548746327"&gt;史蒂文·特劳顿-史密斯&lt;/a&gt;，在上周末写道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;给 macOS Tahoe 系统中讨厌菜单图标的人提供一个方法：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;defaults write -g NSMenuEnableActionImages -bool NO
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;它甚至能保留你确实想要图标的少数情况，比如窗口缩放/调整大小。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;应用此设置后，您无需重启或注销，但需要退出并重新启动当前正在运行的任何应用程序才能使其生效。&lt;/p&gt;
+&lt;p&gt;如果这能隐藏掉 Tahoe 系统中&lt;a href="https://daringfireball.net/linked/2026/01/05/hard-to-justify-tahoe-icons"&gt;这些被诅咒的小玩意儿&lt;/a&gt;，&lt;a href="https://daringfireball.net/linked/2026/01/06/nielsen-icons-in-menus"&gt;它们遍布在苹果系统应用的菜单栏项目上&lt;/a&gt;，那么这个隐藏偏好设置简直就是地狱里的一壶冰水。然而，遗憾的是，目前它更像是半杯温水。不过，在地狱里口渴时，这仍然相当受欢迎。&lt;/p&gt;
+&lt;p&gt;问题是，虽然苹果的一些系统应用全面遵守此设置，但其他应用只是零星地遵守，还有一些则完全忽略它。苹果的 AppKit 应用——真正的 Mac 应用——最有可能遵守它。在访达、备忘录、照片、预览和文本编辑中，它几乎能消除所有菜单项图标，只留下少数大多有用的图标。（在随机的不一致中：预览仍然为“文件 → 打印”命令显示一个图标——一个愚蠢的打印机图标，没错——但上面列出的其他应用都没有为打印命令显示图标。）&lt;/p&gt;
+&lt;p&gt;邮件和日历应用的情况更零散。日历隐藏了大多数菜单项图标，但在文件菜单中保留了一些。邮件更像是半对半，哪些菜单项仍然显示图标似乎没有明显的规律。在邮箱菜单中，几乎所有项目的图标都被移除了；在信息菜单中，即使设置了隐藏图标，大多数项目仍保留其图标。&lt;/p&gt;
+&lt;p&gt;Safari 则令人心碎。它是我最喜欢、最常用的应用之一，通常也是苹果展示优秀 Mac 应用典范的最佳例子之一。但启用此设置后，只有少数看似随机的菜单项图标被隐藏。例如，这是 Safari v26.3.1 中的文件菜单，在应用此设置前后的对比：&lt;/p&gt;
+&lt;p&gt;&lt;a class="noborder" href="https://daringfireball.net/misc/2026/03/safari-tahoe-file-menu-before-after.png"&gt;
+&lt;img alt="MacOS 26.3 Tahoe 上 Safari 文件菜单的截图，更改隐藏的 `NSMenuEnableActionImages` 偏好设置前后。在更改前的截图中，每个菜单项都有一个图标。在更改后的图片中，唯一没有图标的项目是关闭窗口、关闭所有窗口、另存为…和导出为 PDF…命令。" src="https://daringfireball.net/misc/2026/03/safari-tahoe-file-menu-before-after.png" width="550"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;那么，在应用了一个本应隐藏几乎所有菜单项图标的设置后，Safari 的“文件”菜单中，18个菜单项里仍有15个显示图标——而那3个被隐藏的菜单项毫无规律可循。Safari 的其他菜单同样不遵守此设置。正如我所说，这令人心碎。&lt;/p&gt;
+&lt;p&gt;（不过，在 Safari 中并非全无希望——该设置确实移除了 Safari 上下文菜单中的图标。）&lt;/p&gt;
+&lt;p&gt;苹果的非 AppKit（Catalyst/UIKit/SwiftUI）Mac 应用在这方面大多无可救药。信息、地图和日志应用除了“窗口”菜单外，都保留了所有图标。iPhone 镜像应用在其“编辑”和“窗口”菜单中隐藏了图标，但在“显示”菜单中却保留了所有图标。&lt;/p&gt;
+&lt;p&gt;所以情况好坏参半。但即使是好坏参半，也比看到&lt;em&gt;所有&lt;/em&gt;这些乏味、丑陋、分散注意力的图标要好。苹果应该修复这些应用，让它们都能完全支持这个全局偏好设置（这就是 Troughton-Smith 命令行咒语中 &lt;code&gt;-g&lt;/code&gt; 开关的&lt;a href="https://macos-defaults.com/"&gt;含义&lt;/a&gt;），并且应该在系统设置应用中将其作为一个适当的、可见的开关选项公开。当然，在 MacOS 27 中，苹果应该从这些应用中移除大部分图标，只留下少数几个确实能为菜单项增加清晰度的图标。通过&lt;em&gt;只&lt;/em&gt;在图标能增加清晰度的命令旁精心添加图标，就能实现一个比过去更好而非更糟的 MacOS 菜单栏，这个结果正等待着我们去实现。&lt;/p&gt;
+&lt;p&gt;我最喜欢的例子：旋转图像的命令，比如预览应用中的“工具”→“向左旋转”和“向右旋转”命令，以及照片应用中的“图像”→“顺时针旋转”和“逆时针旋转”命令。&lt;sup id="fnr1-2026-03-24"&gt;&lt;a href="https://daringfireball.net/#fn1-2026-03-24"&gt;1&lt;/a&gt;&lt;/sup&gt; 经验法则应该是：如果仅凭图标就能提供足够线索来&lt;em&gt;替代&lt;/em&gt;命令名称，那么菜单项就应该有图标。对于这些旋转命令来说，这一点非常正确，而且图标有助于减少思考哪个方向是顺时针的认知负担。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;那么，第三方 Mac 应用呢？我认为最好的解决方案是，第三方应用不要跟随苹果的引导，对于已针对 MacOS 26 Tahoe 新外观更新的应用，应省略菜单项图标。这正是&lt;a href="https://indieweb.social/@brentsimmons/115846213935605782"&gt;Brent Simmons 在 NetNewsWire 7 中所做的&lt;/a&gt;，他使用了&lt;a href="https://github.com/Ranchero-Software/NetNewsWire/blob/main/Modules/RSCore/Sources/RSCoreObjC/NSMenuItem%2BRSCore.m"&gt;他作为开源发布的代码&lt;/a&gt;。Rogue Amoeba Software 也采用了同样的技术来改进他们在 Tahoe 系统上运行的应用套件，&lt;a href="https://weblog.rogueamoeba.com/2026/01/10/removing-tahoes-unwanted-menu-icons/"&gt;并发布了这篇博客文章&lt;/a&gt;，附有前后对比的截图来解释他们的想法。&lt;/p&gt;&lt;p&gt;没有人认为图标从未提升过菜单项的清晰度。但大多数情况下，菜单命令应当被阅读。如果少数特殊菜单项通过包含图标得以改进，那就只包含这些。它们会脱颖而出，进一步改善清晰度。苹果在Mac OS 26 Tahoe上对其自家应用采用的“几乎每个菜单项都有图标”方法，部分问题在于——正如&lt;a href="https://tonsky.me/blog/tahoe-icons/"&gt;Nikita Prokopov&lt;/a&gt;和&lt;a href="https://blog.jim-nielsen.com/2025/icons-in-menus/"&gt;Jim Nielsen&lt;/a&gt;大量记录的那样——整体效果是增加了视觉混乱，降低了清晰度。但这种混乱的一个副作用是，它降低了那些图标确实有用的菜单项的有效性（再次强调，比如旋转命令，或“窗口→移动与调整大小”子菜单中的项目）。如果每个菜单项都有图标，那么图标的存在就永远不会显得特别。如果只有特殊菜单项有图标，那么图标的存在就总是特别的。&lt;sup id="fnr2-2026-03-24"&gt;&lt;a href="https://daringfireball.net/#fn2-2026-03-24"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;&lt;div class="footnotes"&gt;
+&lt;hr/&gt;
+&lt;ol&gt;
+&lt;li id="fn1-2026-03-24"&gt;
+&lt;p&gt;不言而喻，预览和照片应用中的这些命令应该使用相同的术语。要么两者都使用“向左旋转/向右旋转”，要么都使用“顺时针旋转/逆时针旋转”。我个人更喜欢“顺时针/逆时针”，但真正令人不快的是这种不一致性。在苹果第一方Mac软件一致性达到鼎盛的时期，苹果的应用程序实际上就是一部活生生的《人机界面指南》。如果你要在自己的应用程序中添加一个旋转命令，并且不确定是应该称之为“向右旋转”还是“顺时针旋转”，你只需查看苹果在其自家应用中的做法，就能确信自己使用了正确的术语，做对了事情。&lt;a class="footnoteBackLink" href="https://daringfireball.net/#fnr1-2026-03-24" title="跳转回正文中的脚注 1。"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn2-2026-03-24"&gt;
+&lt;p&gt;&lt;a href="https://www.barebones.com/products/bbedit/"&gt;BBEdit&lt;/a&gt; 就是一个很好的例子。BBEdit可以免费永久使用其完整功能集的一个有限（但强大！）子集。其完整功能集需要通过一次性购买每个主要发行版本来解锁。但完整功能集提供30天的试用期——每次发布新的主要版本时，试用期都会重置。在试用期内，属于付费功能的菜单命令可以使用，但会标有“★”图标。（在我看来，这是一个非常棒的图标选择。）例如，这里是BBEdit在试用模式下&lt;a href="https://daringfireball.net/misc/2026/03/bbedit-text-menu-icons.png"&gt;文本&lt;/a&gt;和&lt;a href="https://daringfireball.net/misc/2026/03/bbedit-go-menu-icons.png"&gt;前往&lt;/a&gt;菜单的截图。试用期结束后，这些命令会被禁用，但仍保留在菜单中可见，并仍然标有那些星形图标。这样，在免费试用期内，用户可以看到他们正在使用的哪些命令在试用结束后需要付费；而在试用结束后，他们可以看到哪些功能被锁定了。（购买许可证后，这些星形图标就会消失。）&lt;a class="footnoteBackLink" href="https://daringfireball.net/#fnr2-2026-03-24" title="跳转回正文中的脚注 2。"&gt;↩︎︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description><pubDate>Tue, 24 Mar 2026 19:36:58 +0000</pubDate></item><item><title>[赞助商] npx workos：从身份验证集成到环境管理，零点击运维</title><link>https://workos.com/docs/authkit/cli-installer?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q12026</link><description>&lt;p&gt;&lt;code&gt;npx workos@latest&lt;/code&gt; 启动了一个&lt;a href="https://youtu.be/icUycAMC1h0?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q12026"&gt;由 Claude 驱动的 AI 智能体&lt;/a&gt;，它能读取你的项目、检测你的框架，并将完整的身份验证集成写入你的代码库。无需注册。它会创建一个环境，填入你的密钥，你可以在准备好后随时认领你的账户。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href="https://workos.com/blog/agent-experience?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q12026"&gt;但 CLI 的功能远不止安装&lt;/a&gt;。WorkOS Skills 让你的编码智能体成为 WorkOS 专家。&lt;code&gt;workos seed&lt;/code&gt; 将你的环境定义为代码。&lt;code&gt;workos doctor&lt;/code&gt; 发现并修复配置错误。一旦你完成身份验证，你的智能体就可以直接从终端管理用户、组织和环境。告别点击式运维。&lt;/p&gt;
 
@@ -27,64 +122,4 @@
 
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/linked/2026/03/23/web-ad-industry-is-fucked-up" title="《来自DF档案，十年前：‘这个行业糟透了’》的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Mon, 23 Mar 2026 18:09:32 +0000</pubDate></item><item><title>HTML评论：第05期</title><link>https://thehtml.review/05/</link><description>&lt;p&gt;在我最近对网页设计现状的&lt;a href="https://daringfireball.net/linked/2026/03/19/hacker-news-49mb-web-page"&gt;忧虑&lt;/a&gt;与&lt;a href="https://daringfireball.net/2026/03/your_frustration_is_the-product"&gt;惊愕&lt;/a&gt;之中，读到这个是多么令人愉快的事。&lt;/p&gt;
-
-&lt;p&gt;套用理查三世的话来说：&lt;em&gt;一匹马，一匹马！用我的王国换那些拥有《HTML评论》中艺术家开发者般信念的原生应用开发者。&lt;/em&gt;&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/03/23/html-review-issue-05" title="永久链接至‘The HTML Review: Issue 05’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Mon, 23 Mar 2026 17:40:05 +0000</pubDate></item><item><title>Mux — 面向开发者的视频API</title><link>https://www.mux.com/?utm_campaign=fireball&amp;utm_source=DF</link><description>&lt;p&gt;感谢Mux赞助上周的DF。视频不仅仅是用来观看的；它承载着大量的情境和数据。Mux让视频的部署和扩展变得轻而易举，无论是嵌入网站、平台还是AI工作流。解锁视频的内在价值：利用转录文本、片段和故事板来构建摘要、翻译、内容审核、标签等功能。&lt;/p&gt;
-
-&lt;p&gt;Mux负责维护Video.js，这是网络上最受欢迎的开源视频播放器。Video.js v10是一次完整的架构重建，其测试版现已上线&lt;a href="https://videojs.org/"&gt;videojs.org&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;Mux是备受Patreon、Substack和Synthesia信赖的视频基础设施。立即免费开始使用，无需信用卡。使用代码&lt;strong&gt;FIREBALL&lt;/strong&gt;可额外获得50美元信用额度。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/03/22/mux" title="‘Mux — 开发者视频API’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Sun, 22 Mar 2026 17:35:00 +0000</pubDate></item><item><title>“很好，我很高兴他死了。”</title><link>https://truthsocial.com/@realDonaldTrump/116268334535345382</link><description>&lt;p&gt;美国现任总统在其博客上写道：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;罗伯特·穆勒刚刚去世。很好，我很高兴他死了。他再也不能伤害无辜的人了！总统 唐纳德·J·特朗普&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;当老年人进一步陷入痴呆时，他们会失去得体感，只是想到什么就说什么。（他们也会感到困惑，认为需要“签署”他们的短信和社交媒体帖子。）尽管你可以对特朗普的诚实度有各种看法，但在这里，他只是极其直率。让我们把他那篇“很好，我很高兴他死了”的帖子收藏起来，等到特朗普自己最终倒下时——无论是因为被汉堡噎住还是其他什么最终要了他命的事情——全世界善良的人们欢欣庆祝的时候，再拿出来看看。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/03/22/trump-glad" title="永久链接至‘很好，我很高兴他死了。’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Sun, 22 Mar 2026 17:18:10 +0000</pubDate></item><item><title>半吉字节的广告</title><link>https://stuartbreckenridge.net/2026-03-19-pc-gamer-recommends-rss-readers-in-a-37mb-article/</link><description>&lt;p&gt;斯图尔特·布雷肯里奇在PC Gamer上查看一个网页时写道：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;第三，这个网页的初始加载量高达37MB。但这还不是最糟糕的部分。在我开始写这篇帖子的五分钟内，网站已经下载了&lt;em&gt;近半GB的新广告&lt;/em&gt;。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这种做法如此不负责任且不专业，简直令人难以置信。网络浏览器应该对此进行防御。为什么不默认将页面加载量限制在，比如说，5 MB？并要求在下载任何额外内容前获得明确同意？&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/03/22/half-a-gigabyte-of-ads" title="‘半GB广告’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Sun, 22 Mar 2026 16:41:09 +0000</pubDate></item><item><title>路透社：亚马逊计划在Fire Phone失败十多年后重返智能手机市场</title><link>https://www.reuters.com/technology/amazon-plans-smartphone-comeback-more-than-decade-after-fire-phone-flop-2026-03-20/</link><description>&lt;p&gt;路透社记者格雷格·本辛格报道：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;据四位知情人士透露，这项代号为“Transformer”的最新尝试正在其设备与服务部门内部开发。知情人士表示，这款手机被视为一款潜在的移动个性化设备，可以与家庭语音助手Alexa同步，并作为全天候连接亚马逊客户的渠道。[...]&lt;/p&gt;
-&lt;p&gt;知情人士称，按照设想，这款新手机的个性化功能将使从亚马逊网站购物、观看Prime Video、收听Prime Music或从Grubhub等合作伙伴处订餐变得前所未有的简单。他们要求匿名，因为他们未被授权讨论内部事务。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这个宣传的问题在于，用我们已有的手机从亚马逊网站购物、观看Prime Video、收听Prime Music或从Grubhub订餐，根本一点也不难。所有这些事情都简单得离谱。我的意思是，我明白。在一部亚马逊手机上，你的亚马逊账户将成为系统的主要身份标识。所以那些亚马逊服务都能开箱即用。但是，除非你向他们推销的是解决问题的方法，否则你无法让人们放弃他们已经习惯（并且在手机，尤其是iPhone的情况下，已经享受其中）的东西。没有人觉得用自己已有的手机购物或使用亚马逊服务是个问题。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;知情人士表示，“Transformer”项目的一个关键重点是将人工智能功能集成到设备中。这可能消除对传统应用商店的需求，传统应用商店要求下载应用程序并注册后才能使用。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这简直是胡说八道。无论亚马逊的人工智能集成有多好，它都无法取代人们已经在使用的应用程序。如果你用WhatsApp，你就需要WhatsApp应用。如果你想在Netflix上看视频，你就需要Netflix应用。如果你刷Instagram和TikTok，你就需要那些应用。如果亚马逊试图推出一款没有任何这些应用的手机——更不用说没有&lt;em&gt;所有&lt;/em&gt;这些应用了——这款新的“Transformer”手机将比十年前的Fire手机更像个大笑话。而我们至今仍在嘲笑那款愚蠢的Fire手机。这意味着他们无法消除“传统应用商店”。&lt;/p&gt;
-&lt;p&gt;人们并没有吵着要取消应用商店。人们喜欢应用商店。如果亚马逊或任何其他公司打算推出一款新型的“AI优先”手机来打破iPhone/Android的双头垄断，它必须提供一些极具吸引力的东西。路透社对Transformer的描述中没有任何内容符合这一点。&lt;em&gt;而且&lt;/em&gt;，亚马逊并不拥有市场领先的人工智能技术。目前这感觉像是OpenAI、Anthropic和谷歌之间的三方游戏。&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/03/21/reuters-amazon-phone" title="永久链接至‘路透社：亚马逊计划在Fire Phone失败十余年后重返智能手机市场’"&gt; ★ &lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Sun, 22 Mar 2026 00:52:58 +0000</pubDate></item><item><title>谷歌搜索现用AI改写新闻标题</title><link>https://www.theverge.com/tech/896490/google-replace-news-headlines-in-search-canary-coal-mine-experiment?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjI0Q05IV0dlS3EiLCJwIjoiL3RlY2gvODk2NDkwL2dvb2dsZS1yZXBsYWNlLW5ld3MtaGVhZGxpbmVzLWluLXNlYXJjaC1jYW5hcnktY29hbC1taW5lLWV4cGVyaW1lbnQiLCJleHAiOjE3NzQ0NzIwOTAsImlhdCI6MTc3NDA0MDA5MH0.3exwHWG6qdR5YeFLjzS1qvUy3tgfASQhbFZDTbHrkKE&amp;utm_medium=gift-link</link><description>&lt;p&gt;肖恩·霍利斯特，The Verge（礼物链接）：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;在&lt;a href="https://www.theverge.com/tech/865168/google-says-ai-news-headlines-are-feature-not-experiment"&gt;其Google Discover新闻源中做了类似的事情&lt;/a&gt;之后，它也开始在传统的“10个蓝色链接”中篡改标题了。我们已经发现了多个例子，谷歌将我们撰写的标题替换为我们没有写过的标题，有时在此过程中改变了其含义。&lt;/p&gt;
-
-&lt;p&gt;例如，谷歌将我们的标题“&lt;a href="https://www.theverge.com/ai-artificial-intelligence/654223/cheat-on-everything-ai"&gt;我使用了‘一切皆可作弊’AI工具，但它并没有帮助我在任何事情上作弊&lt;/a&gt;”缩减为仅仅五个字：“‘一切皆可作弊’AI工具”。这&lt;em&gt;几乎&lt;/em&gt;听起来像是在为我们完全不推荐的产品背书。&lt;/p&gt;
-
-&lt;p&gt;谷歌发言人詹妮弗·库茨、马洛里·德莱昂和内德·阿德里安斯告诉The Verge，我们看到的是一个“小型”且“范围狭窄”的实验，尚未获准全面推出。他们不愿透露这个实验实际上有多“小”。在过去的几个月里，多名The Verge员工都看到过我们从未撰写过的标题出现在谷歌搜索结果中——这些标题不符合我们的编辑风格，并且没有任何迹象表明谷歌替换了我们选择的文字。谷歌表示，它也在调整其他网站在搜索中的显示方式，不仅仅是新闻网站。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这已经远远超出了“哗众取宠”的范畴。这简直是&lt;em&gt;&lt;a href="https://www.youtube.com/watch?v=L3EAYi4Z1U8"&gt;《大白鲨3》&lt;/a&gt;&lt;/em&gt;那种完全不知所云的境地。我的老天爷。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/03/20/google-search-is-now-using-ai-to-rewrite-headlines" title="‘Google Search Is Now Using AI to Rewrite Headlines’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Fri, 20 Mar 2026 21:00:09 +0000</pubDate></item></channel></rss>
+&lt;/div&gt;</description><pubDate>Mon, 23 Mar 2026 18:09:32 +0000</pubDate></item></channel></rss>

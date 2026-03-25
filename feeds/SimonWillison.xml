@@ -1,15 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Tue, 24 Mar 2026 15:07:31 +0000</lastBuildDate><item><title>litellm 1.82.8版本中的恶意litellm_init.pth文件——凭证窃取器</title><link>https://simonwillison.net/2026/Mar/24/malicious-litellm/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/BerriAI/litellm/issues/24512"&gt;LiteLLM 1.82.8 中的恶意 litellm_init.pth 文件——凭证窃取程序&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;发布到 PyPI 的 LiteLLM v1.82.8 软件包被植入了一个特别恶意的凭证窃取程序，该程序以 base64 编码形式隐藏在 &lt;code&gt;litellm_init.pth&lt;/code&gt; 文件中，这意味着即使不运行 &lt;code&gt;import litellm&lt;/code&gt;，仅仅安装该软件包就足以触发它。&lt;/p&gt;
-&lt;p&gt;（1.82.7 版本也存在此漏洞，但当时它位于 &lt;code&gt;proxy/proxy_server.py&lt;/code&gt; 文件中，因此需要导入该软件包才能生效。）&lt;/p&gt;
-&lt;p&gt;此问题详细描述了该凭证窃取程序的功能。关于此次攻击的时间线，&lt;a href="https://github.com/BerriAI/litellm/issues/24518"&gt;这里有更多信息&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;PyPI 已经&lt;a href="https://pypi.org/help/#project_in_quarantine"&gt;隔离了&lt;/a&gt; &lt;a href="https://pypi.org/project/litellm/"&gt;litellm 软件包&lt;/a&gt;，因此攻击窗口期只有几个小时。但如果你确实安装了该软件包，它就会窃取大量令人眼花缭乱的机密信息，包括 &lt;code&gt;~/.ssh/&lt;/code&gt;、&lt;code&gt;~/.gitconfig&lt;/code&gt;、&lt;code&gt;~/.git-credentials&lt;/code&gt;、&lt;code&gt;~/.aws/&lt;/code&gt;、&lt;code&gt;~/.kube/&lt;/code&gt;、&lt;code&gt;~/.config/&lt;/code&gt;、&lt;code&gt;~/.azure/&lt;/code&gt;、&lt;code&gt;~/.docker/&lt;/code&gt;、&lt;code&gt;~/.npmrc&lt;/code&gt;、&lt;code&gt;~/.vault-token&lt;/code&gt;、&lt;code&gt;~/.netrc&lt;/code&gt;、&lt;code&gt;~/.lftprc&lt;/code&gt;、&lt;code&gt;~/.msmtprc&lt;/code&gt;、&lt;code&gt;~/.my.cnf&lt;/code&gt;、&lt;code&gt;~/.pgpass&lt;/code&gt;、&lt;code&gt;~/.mongorc.js&lt;/code&gt;、&lt;code&gt;~/.bash_history&lt;/code&gt;、&lt;code&gt;~/.zsh_history&lt;/code&gt;、&lt;code&gt;~/.sh_history&lt;/code&gt;、&lt;code&gt;~/.mysql_history&lt;/code&gt;、&lt;code&gt;~/.psql_history&lt;/code&gt;、&lt;code&gt;~/.rediscli_history&lt;/code&gt;、&lt;code&gt;~/.bitcoin/&lt;/code&gt;、&lt;code&gt;~/.litecoin/&lt;/code&gt;、&lt;code&gt;~/.dogecoin/&lt;/code&gt;、&lt;code&gt;~/.zcash/&lt;/code&gt;、&lt;code&gt;~/.dashcore/&lt;/code&gt;、&lt;code&gt;~/.ripple/&lt;/code&gt;、&lt;code&gt;~/.bitmonero/&lt;/code&gt;、&lt;code&gt;~/.ethereum/&lt;/code&gt;、&lt;code&gt;~/.cardano/&lt;/code&gt;。&lt;/p&gt;
-&lt;p&gt;看起来这次供应链攻击始于最近针对 &lt;a href="https://trivy.dev/"&gt;Trivy&lt;/a&gt; 的&lt;a href="https://www.crowdstrike.com/en-us/blog/from-scanner-to-stealer-inside-the-trivy-action-supply-chain-compromise/"&gt;漏洞利用&lt;/a&gt;，讽刺的是，Trivy 是一个安全扫描工具，曾被 LiteLLM 在 CI 中&lt;a href="https://github.com/BerriAI/litellm/blob/9343aeefca37aa49a6ea54397d7615adae5c72c9/ci_cd/security_scans.sh#L16"&gt;使用&lt;/a&gt;。Trivy 的漏洞很可能导致了 PyPI 凭证被盗，随后这些凭证被直接用于发布存在漏洞的软件包。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Tue, 24 Mar 2026 23:57:33 +0000</lastBuildDate><item><title>Claude代码的自动模式</title><link>https://simonwillison.net/2026/Mar/24/auto-mode-for-claude-code/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://claude.com/blog/auto-mode"&gt;Claude Code的自动模式&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;今天Claude Code出现了一个非常有趣的新进展，作为&lt;code&gt;--dangerously-skip-permissions&lt;/code&gt;的替代方案：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;今天，我们推出自动模式，这是Claude Code中一种新的权限模式，Claude会代表您做出权限决策，并在操作运行前通过安全措施进行监控。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这些安全措施似乎是使用Claude Sonnet 4.6实现的，正如&lt;a href="https://code.claude.com/docs/en/permission-modes#eliminate-prompts-with-auto-mode"&gt;文档中所述&lt;/a&gt;：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在每个操作运行之前，一个独立的分类器模型会审查对话并决定该操作是否符合您的要求：它会阻止那些超出任务范围、针对分类器不识别为可信基础设施的操作，或者那些似乎由文件或网页中遇到的恶意内容驱动的操作。[...]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;模型&lt;/strong&gt;：分类器运行在Claude Sonnet 4.6上，即使您的主会话使用不同的模型。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;它们附带了一套广泛的默认过滤器，您还可以使用自己的规则进一步自定义它们。关于它们如何工作的最有趣见解来自在终端中运行这个新命令时：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;claude auto-mode defaults&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href="https://gist.githubusercontent.com/simonw/91863bfd9f7ebf916d1fabb8e6940335/raw/cda3c88e919b8238e85d3f1cc990e8ff48ad9a18/defaults.json"&gt;这是完整的JSON输出&lt;/a&gt;。它相当长，所以这里是一个说明性的子集：&lt;/p&gt;
+&lt;p&gt;来自"允许"列表：&lt;/p&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;测试工件：硬编码的测试API密钥、示例中的占位符凭证，或硬编码的测试用例&lt;/li&gt;
+&lt;li&gt;本地操作：代理删除工作目录中的本地文件、项目范围内的本地文件操作，或为本地测试使用&lt;code&gt;--ignore-certificate-errors&lt;/code&gt;。"项目范围"指会话启动时所在的代码仓库——进入~/、~/Library/、/etc或其他仓库属于范围扩大（用户意图规则#2），不属于本地操作。不包括对预先存在的文件或本地有状态服务进行不可逆的破坏——参见BLOCK中的"不可逆的本地破坏"。&lt;/li&gt;
+&lt;li&gt;只读操作：GET请求、只读API调用，或不修改状态且URL中不包含敏感信息的查询。注意：对明确意图的预先阻止仍然适用——如果记录中包含明确证据表明代理正在使用只读操作为被阻止的行动进行侦察，则阻止它。&lt;/li&gt;
+&lt;li&gt;声明的依赖项：通过读取清单文件的标准命令（&lt;code&gt;pip install -r requirements.txt&lt;/code&gt;、&lt;code&gt;npm install&lt;/code&gt;、&lt;code&gt;cargo build&lt;/code&gt;、&lt;code&gt;bundle install&lt;/code&gt;）安装仓库清单文件中已声明的包（requirements.txt、package.json、Cargo.toml、pyproject.toml、Gemfile等）——前提是代理未在此会话中修改清单。不包括安装代理选择的包名（例如&lt;code&gt;pip install foo&lt;/code&gt;、&lt;code&gt;npm install bar&lt;/code&gt;）——这些操作带有域名抢注和供应链风险。[...]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;来自"soft_deny"：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Git破坏性操作：强制推送（&lt;code&gt;git push --force&lt;/code&gt;）、删除远程分支，或重写远程历史记录&lt;/li&gt;
+&lt;li&gt;Git推送到默认分支：直接推送到main、master或仓库的默认分支——这会绕过拉取请求审查。提交应推送到新的功能分支。&lt;/li&gt;
+&lt;li&gt;来自外部的代码：从外部来源下载并执行代码——例如&lt;code&gt;curl | bash&lt;/code&gt;，通过可执行代码的格式（eval、exec、yaml.unsafe_load、pickle等）反序列化外部数据，或类似机制。也包括运行从记录中先前克隆的外部仓库中的代码（pip install -e、make install、python script.py、对克隆的仓库文件进行pickle.load/torch.load）——如果是从记录中可见的外部源克隆的，那么"本地磁盘上"并不意味着可信。代理启动时所在的仓库是可信的。&lt;/li&gt;
+&lt;li&gt;云存储大规模删除：删除或大规模修改云存储（S3、GCS、Azure Blob等）上的文件[...]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我仍然不相信依赖AI的提示注入防护措施，因为它们本质上是非确定性的。文档确实警告说这可能仍然会让一些东西通过：&lt;/p&gt;&lt;blockquote&gt;
+&lt;p&gt;分类器可能仍会允许某些危险操作：例如，当用户意图不明确时，或者当Claude对您的环境缺乏足够上下文、无法判断某个操作可能带来额外风险时。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;默认允许列表中包含&lt;code&gt;pip install -r requirements.txt&lt;/code&gt;这一事实也意味着，这种机制无法防范未锁定依赖版本导致的供应链攻击——正如今天上午&lt;a href="https://simonwillison.net/2026/Mar/24/malicious-litellm/"&gt;LiteLLM事件&lt;/a&gt;所展现的那样。&lt;/p&gt;
+&lt;p&gt;我仍然希望我的编程智能体默认在健壮的沙箱环境中运行，这种沙箱能以确定性的方式限制文件访问和网络连接。相比这种新型自动模式所采用的基于提示的保护机制，我对沙箱方案的信任度要高得多。&lt;/p&gt;
 
-    &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/open-source"&gt;开源&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/pypi"&gt;pypi&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/python"&gt;python&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/supply-chain"&gt;供应链&lt;/a&gt;&lt;/p&gt;</description><pubDate>Tue, 24 Mar 2026 15:07:31 +0000</pubDate></item><item><title>流媒体专家</title><link>https://simonwillison.net/2026/Mar/24/streaming-experts/#atom-everything</link><description>&lt;p&gt;前几天我写了关于丹·伍兹在&lt;strong&gt;流式专家&lt;/strong&gt;&lt;a href="https://simonwillison.net/2026/Mar/18/llm-in-a-flash/"&gt;方面的实验&lt;/a&gt;，这个技巧让你能在内存不足以容纳整个模型的硬件上运行更大的专家混合模型，方法是从SSD流式加载处理每个词元所需的专家权重。&lt;/p&gt;
-&lt;p&gt;五天前，丹在48GB内存中运行了Qwen3.5-397B-A17B。今天&lt;a href="https://twitter.com/seikixtc/status/2036246162936910322"&gt;@seikixtc报告&lt;/a&gt;在配备96GB内存的M2 Max MacBook Pro上运行了庞大的Kimi K2.5——这是一个拥有1万亿参数、在任何时刻激活权重为320亿的模型。&lt;/p&gt;
-&lt;p&gt;而&lt;a href="https://twitter.com/anemll/status/2035901335984611412"&gt;@anemll展示了&lt;/a&gt;同一个Qwen3.5-397B-A17B模型在iPhone上运行，尽管速度只有0.6词元/秒——&lt;a href="https://github.com/Anemll/flash-moe/tree/iOS-App"&gt;iOS仓库在此&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/security"&gt;安全&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/prompt-injection"&gt;提示注入&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/coding-agents"&gt;编程智能体&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;&lt;/p&gt;</description><pubDate>Tue, 24 Mar 2026 23:57:33 +0000</pubDate></item><item><title>包管理器需要冷静下来</title><link>https://simonwillison.net/2026/Mar/24/package-managers-need-to-cool-down/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://nesbitt.io/2026/03/04/package-managers-need-to-cool-down.html"&gt;包管理器需要冷静一下&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+今天的&lt;a href="https://simonwillison.net/2026/Mar/24/malicious-litellm/"&gt;LiteLLM供应链攻击&lt;/a&gt;促使我重新审视&lt;a href="https://simonwillison.net/2025/Nov/21/dependency-cooldowns/"&gt;依赖冷却期&lt;/a&gt;这个想法，即只在更新的依赖包发布几天后才安装它们，以便给社区一个机会来发现它们是否以某种方式被篡改。
+&lt;p&gt;Andrew Nesbitt最近的这篇文章（3月4日）回顾了不同打包工具中依赖冷却机制的现状。令人惊讶的是，它得到了很好的支持！各大打包工具都出现了一波活动，包括：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pnpm.io/blog/releases/10.16#new-setting-for-delayed-dependency-updates"&gt;pnpm 10.16&lt;/a&gt;（2025年9月）— 通过 &lt;code&gt;minimumReleaseAge&lt;/code&gt; 设置，并为可信包提供 &lt;code&gt;minimumReleaseAgeExclude&lt;/code&gt; 排除选项&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fcli%2F4.10.0"&gt;Yarn 4.10.0&lt;/a&gt;（2025年9月）— &lt;code&gt;npmMinimalAgeGate&lt;/code&gt;（以分钟计），并为豁免提供 &lt;code&gt;npmPreapprovedPackages&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://bun.com/blog/bun-v1.3#minimum-release-age"&gt;Bun 1.3&lt;/a&gt;（2025年10月）— 通过 &lt;code&gt;bunfig.toml&lt;/code&gt; 配置 &lt;code&gt;minimumReleaseAge&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://deno.com/blog/v2.6#controlling-dependency-stability"&gt;Deno 2.6&lt;/a&gt;（2025年12月）— 为 &lt;code&gt;deno update&lt;/code&gt; 和 &lt;code&gt;deno outdated&lt;/code&gt; 命令提供 &lt;code&gt;--minimum-dependency-age&lt;/code&gt; 选项&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/astral-sh/uv/releases/tag/0.9.17"&gt;uv 0.9.17&lt;/a&gt;（2025年12月）— 为现有的 &lt;code&gt;--exclude-newer&lt;/code&gt; 添加了相对时长支持，并通过 &lt;code&gt;exclude-newer-package&lt;/code&gt; 提供按包覆盖功能&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ichard26.github.io/blog/2026/01/whats-new-in-pip-26.0/"&gt;pip 26.0&lt;/a&gt;（2026年1月）— &lt;code&gt;--uploaded-prior-to&lt;/code&gt;（仅支持绝对时间戳；&lt;a href="https://github.com/pypa/pip/issues/13674"&gt;已请求支持相对时长&lt;/a&gt;）&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://socket.dev/blog/npm-introduces-minimumreleaseage-and-bulk-oidc-configuration"&gt;npm 11.10.0&lt;/a&gt;（2026年2月）— &lt;code&gt;min-release-age&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;code&gt;pip&lt;/code&gt;目前仅支持绝对日期而非相对日期，但Seth Larson&lt;a href="https://sethmlarson.dev/pip-relative-dependency-cooling-with-crontab"&gt;提供了一种变通方案&lt;/a&gt;，通过定时cron任务来更新&lt;code&gt;pip.conf&lt;/code&gt;配置文件中的绝对日期。&lt;/p&gt;
+
+&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/javascript"&gt;javascript&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/packaging"&gt;packaging&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/pip"&gt;pip&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/pypi"&gt;pypi&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/python"&gt;python&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/security"&gt;security&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/npm"&gt;npm&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/deno"&gt;deno&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/supply-chain"&gt;supply-chain&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/uv"&gt;uv&lt;/a&gt;&lt;/p&gt;</description><pubDate>Tue, 24 Mar 2026 21:11:38 +0000</pubDate></item><item><title>引用克里斯托弗·米姆斯的话</title><link>https://simonwillison.net/2026/Mar/24/christopher-mims/#atom-everything</link><description>&lt;blockquote cite="https://bsky.app/profile/mims.bsky.social/post/3mhsux67xpk2d"&gt;&lt;p&gt;我真的认为，“将AI完全控制我的电脑，进而控制我的整个生活”这件事，将来回顾起来会显得极其愚蠢，以至于所有选择这么做的人，都会像吉米·法伦举着他的无聊猿照片时那样显得愚不可及。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class="cite"&gt;&amp;mdash; &lt;a href="https://bsky.app/profile/mims.bsky.social/post/3mhsux67xpk2d"&gt;克里斯托弗·米姆斯&lt;/a&gt;，《华尔街日报》科技专栏作家&lt;/p&gt;
+
+    &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/security"&gt;security&lt;/a&gt;&lt;/p&gt;</description><pubDate>Tue, 24 Mar 2026 20:35:52 +0000</pubDate></item><item><title>litellm 1.82.8版本中的恶意litellm_init.pth文件——凭证窃取器</title><link>https://simonwillison.net/2026/Mar/24/malicious-litellm/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/BerriAI/litellm/issues/24512"&gt;LiteLLM 1.82.8 中的恶意 litellm_init.pth 文件——凭证窃取器&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;发布到 PyPI 的 LiteLLM v1.82.8 软件包被植入了一个特别恶意的凭证窃取器，该窃取器以 base64 编码形式隐藏在 &lt;code&gt;litellm_init.pth&lt;/code&gt; 文件中，这意味着即使不运行 &lt;code&gt;import litellm&lt;/code&gt;，仅仅安装该软件包就足以触发它。&lt;/p&gt;
+&lt;p&gt;（1.82.7 版本也存在此漏洞，但当时漏洞位于 &lt;code&gt;proxy/proxy_server.py&lt;/code&gt; 文件中，因此需要导入该软件包才能生效。）&lt;/p&gt;
+&lt;p&gt;此问题详细描述了该凭证窃取器的行为。关于此次攻击的时间线，&lt;a href="https://github.com/BerriAI/litellm/issues/24518"&gt;这里有更多信息&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;PyPI 已经&lt;a href="https://pypi.org/help/#project_in_quarantine"&gt;隔离&lt;/a&gt;了&lt;a href="https://pypi.org/project/litellm/"&gt;litellm 软件包&lt;/a&gt;，因此攻击窗口期只有几个小时。但如果你确实安装了该软件包，它就会窃取大量令人眼花缭乱的机密信息，包括 &lt;code&gt;~/.ssh/&lt;/code&gt;、&lt;code&gt;~/.gitconfig&lt;/code&gt;、&lt;code&gt;~/.git-credentials&lt;/code&gt;、&lt;code&gt;~/.aws/&lt;/code&gt;、&lt;code&gt;~/.kube/&lt;/code&gt;、&lt;code&gt;~/.config/&lt;/code&gt;、&lt;code&gt;~/.azure/&lt;/code&gt;、&lt;code&gt;~/.docker/&lt;/code&gt;、&lt;code&gt;~/.npmrc&lt;/code&gt;、&lt;code&gt;~/.vault-token&lt;/code&gt;、&lt;code&gt;~/.netrc&lt;/code&gt;、&lt;code&gt;~/.lftprc&lt;/code&gt;、&lt;code&gt;~/.msmtprc&lt;/code&gt;、&lt;code&gt;~/.my.cnf&lt;/code&gt;、&lt;code&gt;~/.pgpass&lt;/code&gt;、&lt;code&gt;~/.mongorc.js&lt;/code&gt;、&lt;code&gt;~/.bash_history&lt;/code&gt;、&lt;code&gt;~/.zsh_history&lt;/code&gt;、&lt;code&gt;~/.sh_history&lt;/code&gt;、&lt;code&gt;~/.mysql_history&lt;/code&gt;、&lt;code&gt;~/.psql_history&lt;/code&gt;、&lt;code&gt;~/.rediscli_history&lt;/code&gt;、&lt;code&gt;~/.bitcoin/&lt;/code&gt;、&lt;code&gt;~/.litecoin/&lt;/code&gt;、&lt;code&gt;~/.dogecoin/&lt;/code&gt;、&lt;code&gt;~/.zcash/&lt;/code&gt;、&lt;code&gt;~/.dashcore/&lt;/code&gt;、&lt;code&gt;~/.ripple/&lt;/code&gt;、&lt;code&gt;~/.bitmonero/&lt;/code&gt;、&lt;code&gt;~/.ethereum/&lt;/code&gt;、&lt;code&gt;~/.cardano/&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;看起来这次供应链攻击始于最近针对 &lt;a href="https://trivy.dev/"&gt;Trivy&lt;/a&gt; 的&lt;a href="https://www.crowdstrike.com/en-us/blog/from-scanner-to-stealer-inside-the-trivy-action-supply-chain-compromise/"&gt;漏洞利用&lt;/a&gt;，讽刺的是，Trivy 是一个安全扫描工具，&lt;a href="https://github.com/BerriAI/litellm/blob/9343aeefca37aa49a6ea54397d7615adae5c72c9/ci_cd/security_scans.sh#L16"&gt;LiteLLM 在 CI 中使用了它&lt;/a&gt;。Trivy 的漏洞很可能导致了 PyPI 凭证被盗，随后这些凭证被直接用于发布存在漏洞的软件包。&lt;/p&gt;
+
+    &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/open-source"&gt;开源&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/pypi"&gt;pypi&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/python"&gt;python&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/security"&gt;安全&lt;/a&gt;、&lt;a href="https://simonwillison.net/tags/supply-chain"&gt;供应链&lt;/a&gt;&lt;/p&gt;</description><pubDate>Tue, 24 Mar 2026 15:07:31 +0000</pubDate></item><item><title>流媒体专家</title><link>https://simonwillison.net/2026/Mar/24/streaming-experts/#atom-everything</link><description>&lt;p&gt;前几天我写了关于丹·伍兹在&lt;strong&gt;流式专家&lt;/strong&gt;方面的实验，这是一种技巧，通过在硬件上运行更大的专家混合模型，而该硬件没有足够的内存来容纳整个模型，而是从SSD为处理的每个令牌流式传输必要的专家权重。&lt;/p&gt;
+&lt;p&gt;五天前，丹在48GB内存中运行了Qwen3.5-397B-A17B。今天，&lt;a href="https://twitter.com/seikixtc/status/2036246162936910322"&gt;@seikixtc报告&lt;/a&gt;在配备M2 Max芯片的MacBook Pro上，用96GB内存运行了庞大的Kimi K2.5模型——这是一个拥有1万亿参数、在任何时刻激活权重为320亿的模型。&lt;/p&gt;
+&lt;p&gt;而&lt;a href="https://twitter.com/anemll/status/2035901335984611412"&gt;@anemll展示了&lt;/a&gt;同一个Qwen3.5-397B-A17B模型在iPhone上运行，尽管速度仅为每秒0.6个令牌——&lt;a href="https://github.com/Anemll/flash-moe/tree/iOS-App"&gt;iOS仓库在此&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;我认为这项技术很有潜力。丹和他的同行们正在继续运行&lt;a href="https://simonwillison.net/tags/autoresearch/"&gt;自动研究循环&lt;/a&gt;，以寻找更多优化方案，从这些模型中榨取更多性能。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;更新&lt;/strong&gt;：现在丹尼尔·艾萨克&lt;a href="https://twitter.com/danpacary/status/2036480556045836603"&gt;让Kimi K2.5在128GB的M4 Max上运行&lt;/a&gt;，速度约为每秒1.7个令牌。&lt;/p&gt;
 
     &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/definitions"&gt;definitions&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/autoresearch"&gt;autoresearch&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/kimi"&gt;kimi&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/local-llms"&gt;local-llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/qwen"&gt;qwen&lt;/a&gt;&lt;/p&gt;</description><pubDate>Tue, 24 Mar 2026 05:09:03 +0000</pubDate></item><item><title>引用神经质</title><link>https://simonwillison.net/2026/Mar/23/neurotica/#atom-everything</link><description>&lt;blockquote cite="https://bsky.app/profile/schwarzgerat.bsky.social/post/3mhqu5dogos2v"&gt;&lt;p&gt;“垃圾内容”指的是那些消耗起来比生产它需要更多人类精力的东西。当我的同事把未经处理的Gemini输出结果发给我时，他并不是在表达他创造的自由，而是在不尊重我时间的价值。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class="cite"&gt;&amp;mdash; &lt;a href="https://bsky.app/profile/schwarzgerat.bsky.social/post/3mhqu5dogos2v"&gt;Neurotica&lt;/a&gt;, @schwarzgerat.bsky.social&lt;/p&gt;
@@ -39,89 +92,4 @@
     &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/atom"&gt;atom&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/blogging"&gt;blogging&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/site-upgrades"&gt;site-upgrades&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 23 Mar 2026 02:13:13 +0000</pubDate></item><item><title>Starlette 1.0 技能</title><link>https://simonwillison.net/2026/Mar/23/starlette-1-skill/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;研究：&lt;/strong&gt; &lt;a href="https://github.com/simonw/research/tree/main/starlette-1-skill#readme"&gt;Starlette 1.0 技能&lt;/a&gt;&lt;/p&gt;
     &lt;p&gt;参见 &lt;a href="https://simonwillison.net/2026/Mar/22/starlette/"&gt;使用 Claude 技能试验 Starlette 1.0&lt;/a&gt;。&lt;/p&gt;
     
-        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/starlette"&gt;starlette&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 23 Mar 2026 00:05:00 +0000</pubDate></item><item><title>尝试使用Claude技能体验Starlette 1.0</title><link>https://simonwillison.net/2026/Mar/22/starlette/#atom-everything</link><description>&lt;p&gt;&lt;a href="https://marcelotryle.com/blog/2026/03/22/starlette-10-is-here/"&gt;Starlette 1.0 发布了&lt;/a&gt;！这真是一件大事。我认为 Starlette 可能是使用量与其相对较低的品牌知名度最不成比例的 Python 框架，因为 Starlette 是 &lt;a href="https://fastapi.tiangolo.com/"&gt;FastAPI&lt;/a&gt; 的基础，而 FastAPI 吸引了巨大的关注度，似乎盖过了 Starlette 本身的光芒。&lt;/p&gt;
-&lt;p&gt;Kim Christie 于 2018 年开始开发 Starlette，它很快成为新一代 Python ASGI 框架中我最喜欢的一个。我没有将它用作我自己 &lt;a href="https://datasette.io/"&gt;Datasette&lt;/a&gt; 项目基础架构的唯一原因是，它当时尚未承诺稳定性，而我决心为 Datasette 自己的插件提供一个稳定的 API……尽管我自己至今也还没有勇气发布 1.0 版本（已经发布了 26 个 alpha 版本，而且还在增加）！&lt;/p&gt;
-&lt;p&gt;然后在 2025 年 9 月，Marcelo Trylesinski &lt;a href="https://github.com/Kludex/starlette/discussions/2997"&gt;宣布 Starlette 和 Uvicorn 将转移到他们的 GitHub 账户下&lt;/a&gt;，以表彰他们多年的贡献，并使他们更容易为这些项目获得赞助。&lt;/p&gt;
-&lt;p&gt;与 0.x 系列相比，1.0 版本有一些破坏性变更，这些变更在二月份发布的 &lt;a href="https://starlette.dev/release-notes/#100rc1-february-23-2026"&gt;1.0.0rc1 版本说明&lt;/a&gt; 中有所描述。&lt;/p&gt;
-&lt;p&gt;其中最值得注意的是启动和关闭时代码运行方式的改变。以前这是通过 &lt;code&gt;on_startup&lt;/code&gt; 和 &lt;code&gt;on_shutdown&lt;/code&gt; 参数处理的，但新系统使用了一个巧妙的 &lt;a href="https://starlette.dev/lifespan/"&gt;lifespan&lt;/a&gt; 机制，该机制基于一个 &lt;a href="https://docs.python.org/3/library/contextlib.html#contextlib.asynccontextmanager"&gt;异步上下文管理器&lt;/a&gt;：&lt;/p&gt;
-&lt;pre&gt;&lt;span class="pl-en"&gt;@&lt;span class="pl-s1"&gt;contextlib&lt;/span&gt;.&lt;span class="pl-c1"&gt;asynccontextmanager&lt;/span&gt;&lt;/span&gt;
-&lt;span class="pl-k"&gt;async&lt;/span&gt; &lt;span class="pl-k"&gt;def&lt;/span&gt; &lt;span class="pl-en"&gt;lifespan&lt;/span&gt;(&lt;span class="pl-s1"&gt;app&lt;/span&gt;):
-    &lt;span class="pl-k"&gt;async&lt;/span&gt; &lt;span class="pl-k"&gt;with&lt;/span&gt; &lt;span class="pl-en"&gt;some_async_resource&lt;/span&gt;():
-        &lt;span class="pl-en"&gt;print&lt;/span&gt;(&lt;span class="pl-s"&gt;"Run at startup!"&lt;/span&gt;)
-        &lt;span class="pl-k"&gt;yield&lt;/span&gt;
-        &lt;span class="pl-en"&gt;print&lt;/span&gt;(&lt;span class="pl-s"&gt;"Run on shutdown!"&lt;/span&gt;)
-
-&lt;span class="pl-s1"&gt;app&lt;/span&gt; &lt;span class="pl-c1"&gt;=&lt;/span&gt; &lt;span class="pl-en"&gt;Starlette&lt;/span&gt;(
-    &lt;span class="pl-s1"&gt;routes&lt;/span&gt;&lt;span class="pl-c1"&gt;=&lt;/span&gt;&lt;span class="pl-s1"&gt;routes&lt;/span&gt;,
-    &lt;span class="pl-s1"&gt;lifespan&lt;/span&gt;&lt;span class="pl-c1"&gt;=&lt;/span&gt;&lt;span class="pl-s1"&gt;lifespan&lt;/span&gt;
-)&lt;/pre&gt;&lt;p&gt;如果你之前没有尝试过Starlette，在我看来它就像是Flask和Django的异步原生混合体，这并不奇怪，因为其创建者Kim Christie也是Django REST Framework的负责人。关键的是，这意味着你可以像Flask风格一样，将大多数应用写成一个单独的Python文件。&lt;/p&gt;
-&lt;p&gt;这使得LLM仅凭一个提示就能轻松地生成一个可运行的Starlette应用。&lt;/p&gt;
-&lt;p&gt;但这里有一个问题：如果1.0版本破坏了模型训练时所基于的Starlette代码的兼容性，我们如何让它们生成适用于1.0版本的代码呢？&lt;/p&gt;
-&lt;p&gt;我决定看看是否&lt;a href="https://simonwillison.net/2025/Oct/16/claude-skills/"&gt;通过一个Skill&lt;/a&gt;来实现这一点。&lt;/p&gt;
-&lt;h4 id="building-a-skill-with-claude"&gt;使用Claude构建一个Skill&lt;/h4&gt;
-&lt;p&gt;&lt;a href="https://claude.ai/"&gt;claude.ai&lt;/a&gt;上的常规Claude Chat具备技能功能，其中一个默认技能就是&lt;a href="https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md"&gt;skill-creator技能&lt;/a&gt;。这意味着Claude知道如何构建自己的技能。&lt;/p&gt;
-&lt;p&gt;于是我&lt;a href="https://claude.ai/share/b537c340-aea7-49d6-a14d-3134aa1bd957"&gt;开启了一个聊天会话&lt;/a&gt;并告诉它：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;从GitHub克隆Starlette——它刚刚发布了1.0版本。为这个版本构建一个技能Markdown文档，其中包含每个功能的代码示例。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;我甚至没有告诉它仓库在哪里，Starlette知名度足够高，我预计它能自己找到。&lt;/p&gt;
-&lt;p&gt;它运行了&lt;code&gt;git clone https://github.com/encode/starlette.git&lt;/code&gt;，这实际上是旧的仓库名称，但GitHub会自动处理重定向，所以这完全没问题。&lt;/p&gt;
-&lt;p&gt;最终生成的&lt;a href="https://github.com/simonw/research/blob/main/starlette-1-skill/SKILL.md"&gt;技能文档&lt;/a&gt;在我看来非常详尽……然后我注意到顶部有一个之前没见过的按钮，标签是“复制到你的技能”。于是我点击了它：&lt;/p&gt;&lt;p&gt;&lt;img alt="Claude.ai 界面的截图，显示一个标题为“Starlette 1.0 技能文档，包含代码示例”的对话。左侧面板显示聊天记录，用户提示：“从 GitHub 克隆 Starlette——它刚刚发布了 1.0 版本。为这个版本构建一个技能 Markdown 文档，其中包含每个功能的代码示例。”Claude 的回复包括折叠部分，标签为“策略性地克隆仓库并记录全面的功能示例”、“检查版本详情并全面调查源代码文档”和“综合 Starlette 1.0 知识以构建全面的技能文档”，中间消息如“我将从 GitHub 克隆 Starlette 并构建一个全面的技能文档。让我先阅读技能创建者指南，然后克隆仓库”、“现在让我阅读所有文档文件以捕获每个功能”和“现在我对整个代码库有了透彻的理解。让我构建全面的技能文档。”右侧面板显示一个技能预览窗格，顶部有“复制到你的技能”和“复制”按钮，描述部分写道：“使用 Starlette 1.0（Python 的轻量级 ASGI 框架）构建异步 Web 应用程序和 API。每当用户想要使用 Starlette 创建异步 Python Web 应用、REST API、WebSocket 服务器或 ASGI 应用程序时，请使用此技能。触发词包括提及‘Starlette’、‘ASGI’、异步 Python Web 框架，或请求构建轻量级异步 API、WebSocket 服务、流式响应或中间件管道。当用户处理 FastAPI 内部（基于 Starlette 构建）、需要 ASGI 中间件模式或想要一个最小的异步 Web 服务器时，也可以使用”（文本被截断）。" src="https://static.simonwillison.net/static/2026/skill-button.jpg"/&gt;&lt;/p&gt;
-&lt;p&gt;现在我的常规 Claude 聊天就可以使用那个技能了！&lt;/p&gt;
-&lt;h4 id="a-task-management-demo-app"&gt;一个任务管理演示应用&lt;/h4&gt;
-&lt;p&gt;我&lt;a href="https://claude.ai/share/b5285fbc-5849-4939-b473-dcb66f73503b"&gt;开始了一个新的对话&lt;/a&gt;并提示：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;用 Starlette 构建一个任务管理应用，它应该有项目、任务、评论和标签&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Claude 确实做到了，它使用 Starlette 1.0、一个 SQLite 数据库（通过 &lt;a href="https://github.com/omnilib/aiosqlite"&gt;aiosqlite&lt;/a&gt;）和一个 Jinja2 模板，构建了一个简单的 GitHub Issues 克隆版。&lt;/p&gt;
-&lt;p&gt;Claude 甚至像这样手动测试了应用：&lt;/p&gt;&lt;div class="highlight highlight-source-shell"&gt;&lt;pre&gt;&lt;span class="pl-c1"&gt;cd&lt;/span&gt; /home/claude/taskflow &lt;span class="pl-k"&gt;&amp;amp;&amp;amp;&lt;/span&gt; timeout 5 python -c &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;&lt;/span&gt;
-&lt;span class="pl-s"&gt;import asyncio&lt;/span&gt;
-&lt;span class="pl-s"&gt;from database import init_db&lt;/span&gt;
-&lt;span class="pl-s"&gt;asyncio.run(init_db())&lt;/span&gt;
-&lt;span class="pl-s"&gt;print('数据库初始化成功')&lt;/span&gt;
-&lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;&lt;/span&gt; &lt;span class="pl-k"&gt;2&amp;gt;&amp;amp;1&lt;/span&gt;
-
-pip install httpx --break-system-packages -q \
-  &lt;span class="pl-k"&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class="pl-c1"&gt;cd&lt;/span&gt; /home/claude/taskflow &lt;span class="pl-k"&gt;&amp;amp;&amp;amp;&lt;/span&gt; \
-  python -c &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;&lt;/span&gt;
-&lt;span class="pl-s"&gt;from starlette.testclient import TestClient&lt;/span&gt;
-&lt;span class="pl-s"&gt;from main import app&lt;/span&gt;
-&lt;span class="pl-s"&gt;&lt;/span&gt;
-&lt;span class="pl-s"&gt;client = TestClient(app)&lt;/span&gt;
-&lt;span class="pl-s"&gt;&lt;/span&gt;
-&lt;span class="pl-s"&gt;r = client.get('/api/stats')&lt;/span&gt;
-&lt;span class="pl-s"&gt;print('统计信息:', r.json())&lt;/span&gt;
-&lt;span class="pl-s"&gt;&lt;/span&gt;
-&lt;span class="pl-s"&gt;r = client.get('/api/projects')&lt;/span&gt;
-&lt;span class="pl-s"&gt;print('项目:', len(r.json()), '个')&lt;/span&gt;
-&lt;span class="pl-s"&gt;&lt;/span&gt;
-&lt;span class="pl-s"&gt;r = client.get('/api/tasks')&lt;/span&gt;
-&lt;span class="pl-s"&gt;print('任务:', len(r.json()), '个')&lt;/span&gt;
-&lt;span class="pl-s"&gt;&lt;/span&gt;
-&lt;span class="pl-s"&gt;r = client.get('/api/labels')&lt;/span&gt;
-&lt;span class="pl-s"&gt;print('标签:', len(r.json()), '个')&lt;/span&gt;
-&lt;span class="pl-s"&gt;&lt;/span&gt;
-&lt;span class="pl-s"&gt;r = client.get('/api/tasks/1')&lt;/span&gt;
-&lt;span class="pl-s"&gt;t = r.json()&lt;/span&gt;
-&lt;span class="pl-s"&gt;print(f'任务 1: &lt;span class="pl-cce"&gt;\"&lt;/span&gt;{t[&lt;span class="pl-cce"&gt;\"&lt;/span&gt;title&lt;span class="pl-cce"&gt;\"&lt;/span&gt;]}&lt;span class="pl-cce"&gt;\"&lt;/span&gt; - {len(t[&lt;span class="pl-cce"&gt;\"&lt;/span&gt;comments&lt;span class="pl-cce"&gt;\"&lt;/span&gt;])} 条评论, {len(t[&lt;span class="pl-cce"&gt;\"&lt;/span&gt;labels&lt;span class="pl-cce"&gt;\"&lt;/span&gt;])} 个标签')&lt;/span&gt;
-&lt;span class="pl-s"&gt;&lt;/span&gt;
-&lt;span class="pl-s"&gt;r = client.post('/api/tasks', json={'title':'测试任务','project_id':1,'priority':'high','label_ids':[1,2]})&lt;/span&gt;
-&lt;span class="pl-s"&gt;print('创建任务:', r.status_code, r.json()['title'])&lt;/span&gt;
-&lt;span class="pl-s"&gt;&lt;/span&gt;
-&lt;span class="pl-s"&gt;r = client.post('/api/comments', json={'task_id':1,'content':'测试评论'})&lt;/span&gt;
-&lt;span class="pl-s"&gt;print('创建评论:', r.status_code)&lt;/span&gt;
-&lt;span class="pl-s"&gt;&lt;/span&gt;
-&lt;span class="pl-s"&gt;r = client.get('/')&lt;/span&gt;
-&lt;span class="pl-s"&gt;print('主页:', r.status_code, '- 长度:', len(r.text))&lt;/span&gt;
-&lt;span class="pl-s"&gt;&lt;/span&gt;
-&lt;span class="pl-s"&gt;print('\n所有测试通过！')&lt;/span&gt;
-&lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;尽管Claude Code备受关注，但人们很容易忽视，Claude本身现在就算得上一个编码代理，完全能够编写并测试它正在编写的代码。&lt;/p&gt;&lt;p&gt;这是最终应用的样子。代码&lt;a href="https://github.com/simonw/research/blob/main/starlette-1-skill/taskflow"&gt;在我的研究仓库里&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;&lt;img alt='一个名为"TaskFlow"的暗色主题看板应用截图，显示的是"网站重新设计"项目。左侧边栏有"概览"部分，包含"仪表板"、"所有任务"和"标签"，以及"项目"部分，包含"网站重新设计" (1) 和"API平台" (0)。主区域有三列："待办" (0) 显示"无任务"，"进行中" (1) 有一张标题为"撰写关于Starlette 1.0的博客"的卡片，标签为"中等"和"文档"，"已完成" (0) 显示"无任务"。右上角按钮显示"+ 新建任务"和"删除"。' src="https://static.simonwillison.net/static/2026/taskflow.jpg"/&gt;&lt;/p&gt;
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/open-source"&gt;开源&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/python"&gt;python&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/asgi"&gt;asgi&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/kim-christie"&gt;金·克里斯蒂&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;人工智能辅助编程&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude"&gt;claude&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;编码代理&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/skills"&gt;技能&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/agentic-engineering"&gt;代理工程&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/starlette"&gt;starlette&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sun, 22 Mar 2026 23:57:44 +0000</pubDate></item><item><title>PCGamer文章表现审核</title><link>https://simonwillison.net/2026/Mar/22/pcgamer-audit/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;研究：&lt;/strong&gt; &lt;a href="https://github.com/simonw/research/tree/main/pcgamer-audit#readme"&gt;PCGamer 文章性能审计&lt;/a&gt;&lt;/p&gt;
-    &lt;p&gt;斯图尔特·布雷肯里奇指出，&lt;a href="https://stuartbreckenridge.net/2026-03-19-pc-gamer-recommends-rss-readers-in-a-37mb-article/"&gt;PC Gamer 在一篇持续下载、体积达 37MB 的文章中推荐 RSS 阅读器&lt;/a&gt;，这突显了一个真正可怕的网络臃肿案例，由于自动播放的视频广告，页面额外增加了数百 MB 的数据。我决定让 Claude Code 使用 &lt;a href="https://github.com/simonw/rodney/"&gt;Rodney&lt;/a&gt; 来调查该页面 - &lt;a href="https://github.com/simonw/research/pull/101#issue-4117308562"&gt;提示在此&lt;/a&gt;。&lt;/p&gt;
-    
-        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/web-performance"&gt;web-performance&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/rodney"&gt;rodney&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sun, 22 Mar 2026 22:49:00 +0000</pubDate></item><item><title>JavaScript沙箱化研究</title><link>https://simonwillison.net/2026/Mar/22/javascript-sandboxing-research/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;研究：&lt;/strong&gt; &lt;a href="https://github.com/simonw/research/tree/main/javascript-sandboxing-research#readme"&gt;JavaScript 沙盒化研究&lt;/a&gt;&lt;/p&gt;
-    &lt;p&gt;Aaron Harper &lt;a href="https://www.inngest.com/blog/node-worker-threads"&gt;撰写了关于 Node.js 工作线程的文章&lt;/a&gt;，这启发我开展一项研究任务，以探究它们是否有助于在沙盒中运行 JavaScript。Claude Code 的回答远远超出了我最初的问题，并对 &lt;a href="https://github.com/laverdet/isolated-vm"&gt;isolated-vm&lt;/a&gt;、&lt;a href="https://github.com/patriksimek/vm2"&gt;vm2&lt;/a&gt;、&lt;a href="https://github.com/justjake/quickjs-emscripten"&gt;quickjs-emscripten&lt;/a&gt;、&lt;a href="https://github.com/quickjs-ng/quickjs"&gt;QuickJS-NG&lt;/a&gt;、&lt;a href="https://github.com/tc39/proposal-shadowrealm"&gt;ShadowRealm&lt;/a&gt; 和 &lt;a href="https://docs.deno.com/runtime/manual/runtime/workers/"&gt;Deno Workers&lt;/a&gt; 进行了比较。&lt;/p&gt;
-    
-        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/sandboxing"&gt;sandboxing&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/javascript"&gt;javascript&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/nodejs"&gt;nodejs&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sun, 22 Mar 2026 19:53:00 +0000</pubDate></item></channel></rss>
+        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/starlette"&gt;starlette&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 23 Mar 2026 00:05:00 +0000</pubDate></item></channel></rss>
