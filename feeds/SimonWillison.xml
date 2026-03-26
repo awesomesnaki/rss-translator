@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Wed, 25 Mar 2026 17:21:04 +0000</lastBuildDate><item><title>LiteLLM 黑客事件：你是那 47,000 人中的一员吗？</title><link>https://simonwillison.net/2026/Mar/25/litellm-hack/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://futuresearch.ai/blog/litellm-hack-were-you-one-of-the-47000/"&gt;LiteLLM 攻击事件：你是那 47,000 人中的一员吗？&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Daniel Hnyk 利用 &lt;a href="https://console.cloud.google.com/bigquery?p=bigquery-public-data&amp;amp;d=pypi"&gt;BigQuery PyPI 数据集&lt;/a&gt;，确定了在 &lt;a href="https://simonwillison.net/2026/Mar/24/malicious-litellm/"&gt;被利用的 LiteLLM 软件包&lt;/a&gt; 于 PyPI 上存活的 46 分钟内，其下载次数。&lt;/p&gt;
-&lt;p&gt;他们还识别出 2,337 个依赖 LiteLLM 的软件包——其中 88% 没有以能够避开受攻击版本的方式固定版本。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Wed, 25 Mar 2026 21:57:05 +0000</lastBuildDate><item><title>datasette-files-s3 0.1a1</title><link>https://simonwillison.net/2026/Mar/25/datasette-files-s3/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;发布：&lt;/strong&gt; &lt;a href="https://github.com/datasette/datasette-files-s3/releases/tag/0.1a1"&gt;datasette-files-s3 0.1a1&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;这是 &lt;a href="https://github.com/datasette/datasette-files"&gt;datasette-files&lt;/a&gt; 的一个后端，它增加了使用 S3 存储桶存储和检索文件的能力。此版本添加了 &lt;a href="https://github.com/datasette/datasette-files-s3/blob/main/README.md#credentials-broker-response"&gt;一种机制&lt;/a&gt;，用于定期从 URL 获取 S3 配置，这意味着我们可以使用有时间限制的 IAM 凭证，这些凭证被限制在存储桶内的特定前缀下。&lt;/p&gt;
+    
+        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/s3"&gt;s3&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/datasette"&gt;datasette&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 25 Mar 2026 21:57:05 +0000</pubDate></item><item><title>关于放慢节奏的思考</title><link>https://simonwillison.net/2026/Mar/25/thoughts-on-slowing-the-fuck-down/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://news.ycombinator.com/item?id=47517539"&gt;关于放慢节奏的思考&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Mario Zechner 创建了 OpenClaw 所使用的 &lt;a href="https://github.com/badlogic/pi-mono"&gt;Pi 智能体框架&lt;/a&gt;，这使他对当前智能体工程趋势的看法具有相当的可信度。他对此并不看好：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我们基本上已经放弃了所有的纪律和自主性，陷入了一种成瘾状态，你的最高目标是在最短的时间内产出最大量的代码。后果如何，见鬼去吧。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;智能体和人类都会犯错，但智能体的错误积累速度要快得多：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;人类是一个瓶颈。一个人不可能在几小时内拉出 20,000 行代码。即使一个人以很高的频率制造出这样的烂摊子，他一天内能在一个代码库中引入的烂摊子也是有限的。[...]&lt;/p&gt;
+&lt;p&gt;对于一支协调有序的智能体大军来说，没有瓶颈，也没有人类的痛苦。这些看似微小无害的烂摊子突然以不可持续的速度复合增长。你已经把自己移出了循环，所以你甚至不知道所有无辜的烂摊子已经形成了一个代码库怪物。当你感到痛苦时，为时已晚。[...]&lt;/p&gt;
+&lt;p&gt;你他妈的根本不知道发生了什么，因为你把自己的所有能动性都委托给了你的智能体。你让它们自由奔跑，而它们是复杂性的贩卖者。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我认为 Mario 在这点上完全正确。智能体让我们移动得&lt;em&gt;快得多&lt;/em&gt;，但这种速度也意味着，那些我们通常需要数周时间考虑的变化，现在在几小时内就落地了。&lt;/p&gt;
+&lt;p&gt;让代码库的演变超出我们清晰推理的能力范围，实在是太容易了。&lt;a href="https://simonwillison.net/tags/cognitive-debt/"&gt;认知债务&lt;/a&gt;是真实存在的。&lt;/p&gt;
+&lt;p&gt;Mario 建议放慢速度：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;给自己时间去思考你实际上在构建什么以及为什么。给自己一个机会说，去他妈的，我们不需要这个。根据你实际审查代码的能力，为你每天允许这个铁疙瘩生成的代码量设定限制。&lt;/p&gt;
+&lt;p&gt;任何定义你系统整体形态的东西，比如架构、API 等等，请手动编写。[...]&lt;/p&gt;
+&lt;/blockquote&gt;&lt;p&gt;我并不确信手写是解决这个问题的最佳方式，但毫无疑问，我们现在需要一种新的自律，来在速度和思维缜密性之间找到新的平衡，因为如今敲代码已远不再是编写软件的瓶颈。&lt;/p&gt;
+
+&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/cognitive-debt"&gt;cognitive-debt&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/agentic-engineering"&gt;agentic-engineering&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 25 Mar 2026 21:47:17 +0000</pubDate></item><item><title>datasette-llm 0.1a1</title><link>https://simonwillison.net/2026/Mar/25/datasette-llm/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;发布：&lt;/strong&gt; &lt;a href="https://github.com/datasette/datasette-llm/releases/tag/0.1a1"&gt;datasette-llm 0.1a1&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;基础插件的新版本发布，该插件使得来自 &lt;a href="https://llm.datasette.io/"&gt;LLM&lt;/a&gt; 的模型可供其他 Datasette 插件使用，例如 &lt;a href="https://github.com/datasette/datasette-enrichments-llm"&gt;datasette-enrichments-llm&lt;/a&gt;。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;新增 &lt;a href="https://github.com/datasette/datasette-llm/blob/main/README.md#register_llm_purposes"&gt;&lt;code&gt;register_llm_purposes()&lt;/code&gt; 插件钩子&lt;/a&gt; 和用于检索已注册用途字符串的 &lt;code&gt;get_purposes()&lt;/code&gt; 函数。&lt;a href="https://github.com/datasette/datasette-llm/issues/1"&gt;#1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;该插件的职责之一是配置哪些模型用于哪些用途，例如，你可以在一个地方指定“数据增强使用 GPT-5.4-nano，而 SQL 查询辅助则使用 Sonnet 4.6”。&lt;/p&gt;
+&lt;p&gt;依赖此插件的插件可以使用 &lt;code&gt;model = await llm.model(purpose="enrichment")&lt;/code&gt; 来指明它们希望针对模型执行的提示的用途。这些插件现在也可以使用新的 &lt;code&gt;register_llm_purposes()&lt;/code&gt; 钩子来注册这些用途字符串，这意味着未来的插件可以在一个地方列出这些用途，以支持诸如为用途分配模型的管理界面等功能。&lt;/p&gt;
+    
+        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/annotated-release-notes"&gt;annotated-release-notes&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llm"&gt;llm&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/datasette"&gt;datasette&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/plugins"&gt;plugins&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 25 Mar 2026 21:24:31 +0000</pubDate></item><item><title>LiteLLM 黑客事件：你是那 47,000 人中的一员吗？</title><link>https://simonwillison.net/2026/Mar/25/litellm-hack/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://futuresearch.ai/blog/litellm-hack-were-you-one-of-the-47000/"&gt;LiteLLM 攻击事件：你是那 47,000 名受害者之一吗？&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Daniel Hnyk 利用 &lt;a href="https://console.cloud.google.com/bigquery?p=bigquery-public-data&amp;amp;d=pypi"&gt;BigQuery PyPI 数据集&lt;/a&gt; 来确定在 &lt;a href="https://simonwillison.net/2026/Mar/24/malicious-litellm/"&gt;被利用的 LiteLLM 软件包&lt;/a&gt; 于 PyPI 上存活的 46 分钟期间，其下载量是多少。答案是，在两个受影响的发布版本（1.82.7 和 1.82.8）中，共有 46,996 次下载。&lt;/p&gt;
+&lt;p&gt;他们还识别出 2,337 个依赖 LiteLLM 的软件包，其中 88% 没有通过锁定版本的方式来避免使用受攻击的版本。&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;Via &lt;a href="https://twitter.com/hnykda/status/2036834100342825369"&gt;@hnykda&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/packaging"&gt;packaging&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/pypi"&gt;pypi&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/python"&gt;python&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/security"&gt;security&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/supply-chain"&gt;supply-chain&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 25 Mar 2026 17:21:04 +0000</pubDate></item><item><title>Claude代码的自动模式</title><link>https://simonwillison.net/2026/Mar/24/auto-mode-for-claude-code/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://claude.com/blog/auto-mode"&gt;Claude Code的自动模式&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;今天Claude Code出现了一个非常有趣的新进展，作为&lt;code&gt;--dangerously-skip-permissions&lt;/code&gt;的替代方案：&lt;/p&gt;
@@ -71,26 +103,4 @@
     &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/definitions"&gt;definitions&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/autoresearch"&gt;autoresearch&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/kimi"&gt;kimi&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/local-llms"&gt;local-llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/qwen"&gt;qwen&lt;/a&gt;&lt;/p&gt;</description><pubDate>Tue, 24 Mar 2026 05:09:03 +0000</pubDate></item><item><title>引用神经质</title><link>https://simonwillison.net/2026/Mar/23/neurotica/#atom-everything</link><description>&lt;blockquote cite="https://bsky.app/profile/schwarzgerat.bsky.social/post/3mhqu5dogos2v"&gt;&lt;p&gt;“垃圾内容”指的是那些消耗起来比生产它需要更多人类精力的东西。当我的同事把未经处理的Gemini输出结果发给我时，他并不是在表达他创造的自由，而是在不尊重我时间的价值。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class="cite"&gt;&amp;mdash; &lt;a href="https://bsky.app/profile/schwarzgerat.bsky.social/post/3mhqu5dogos2v"&gt;Neurotica&lt;/a&gt;, @schwarzgerat.bsky.social&lt;/p&gt;
 
-    &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;ai-ethics&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/slop"&gt;slop&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 23 Mar 2026 23:31:45 +0000</pubDate></item><item><title>datasette-files 0.1a2</title><link>https://simonwillison.net/2026/Mar/23/datasette-files/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;发布：&lt;/strong&gt; &lt;a href="https://github.com/datasette/datasette-files/releases/tag/0.1a2"&gt;datasette-files 0.1a2&lt;/a&gt;&lt;/p&gt;
-    &lt;p&gt;这是 &lt;a href="https://github.com/datasette/datasette-files"&gt;datasette-files&lt;/a&gt; 迄今为止最有趣的一个 alpha 版本，这是一个新的插件，它增加了将文件直接上传到 Datasette 实例的能力。以下是完整的发布说明：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;现在使用来自 Datasette 1.0a26 的 &lt;a href="https://docs.datasette.io/en/latest/changelog.html#new-column-types-system"&gt;新 column_types 系统&lt;/a&gt; 来配置列。&lt;a href="https://github.com/datasette/datasette-files/issues/8"&gt;#8&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;新的 &lt;code&gt;file_actions&lt;/code&gt; 插件钩子，以及将上传的 CSV/TSV 文件导入到表格的能力。&lt;a href="https://github.com/datasette/datasette-files/issues/10"&gt;#10&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;通过新文档化的 JSON 上传 API 一次上传多个文件的用户界面。&lt;a href="https://github.com/datasette/datasette-files/issues/11"&gt;#11&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;现在会为图像文件生成缩略图，并存储在一个内部的 &lt;code&gt;datasette_files_thumbnails&lt;/code&gt; 表中。&lt;a href="https://github.com/datasette/datasette-files/issues/13"&gt;#13&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-    
-        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/annotated-release-notes"&gt;annotated-release-notes&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/datasette"&gt;datasette&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 23 Mar 2026 23:06:38 +0000</pubDate></item><item><title>引用大卫·艾布拉姆的话</title><link>https://simonwillison.net/2026/Mar/23/david-abram/#atom-everything</link><description>&lt;blockquote cite="https://www.davidabram.dev/musings/the-machine-didnt-take-your-craft/"&gt;&lt;p&gt;我从事这项工作已有多年，而工作中最困难的部分从来不是敲出代码。我一直以来最挣扎的是理解系统、调试那些毫无头绪的问题、设计出能在重压下不崩溃的架构，以及做出那些能为未来省去数月痛苦的决策。&lt;/p&gt;
-&lt;p&gt;这些问题没有一个是大语言模型能解决的。它们可以建议代码，帮助处理样板文件，有时可以充当一个讨论的伙伴。但它们不理解系统，它们的“头脑”里不承载上下文，而且它们当然不知道一个决策为何正确或错误。&lt;/p&gt;
-&lt;p&gt;最重要的是，它们不做选择。这部分仍然属于你。软件开发的真正工作，那个让人变得有价值的部分，在于首先知道什么应该存在，以及为什么。&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class="cite"&gt;&amp;mdash; &lt;a href="https://www.davidabram.dev/musings/the-machine-didnt-take-your-craft/"&gt;David Abram&lt;/a&gt;, 机器没有夺走你的技艺。是你放弃了它。&lt;/p&gt;
-
-    &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/careers"&gt;careers&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 23 Mar 2026 18:56:18 +0000</pubDate></item><item><title>Beats现在有了注释</title><link>https://simonwillison.net/2026/Mar/23/beats-now-have-notes/#atom-everything</link><description>&lt;p&gt;上个月，我为这个博客&lt;a href="https://simonwillison.net/2026/Feb/20/beats/"&gt;添加了一个我称之为“节拍”的功能&lt;/a&gt;，它从&lt;a href="https://simonwillison.net/elsewhere/"&gt;外部来源&lt;/a&gt;提取我的一些其他内容，并将其包含在网站的主页、搜索和各种归档页面中。&lt;/p&gt;
-&lt;p&gt;在任何一天，这些内容经常超过我的常规帖子数量。它们看起来有点单薄，除了链接之外缺乏任何形式的解释，所以我增加了为它们添加“备注”的功能，现在这些备注会作为其显示内容的一部分出现。&lt;/p&gt;
-&lt;p&gt;以下是我&lt;a href="https://simonwillison.net/2026/Mar/22/"&gt;昨天发布的内容&lt;/a&gt;看起来的样子：&lt;/p&gt;
-&lt;p&gt;&lt;img alt="我的博客主页部分截图，显示了2026年3月22日的四个“节拍”条目，每个条目都标记为RESEARCH或TOOL，标题如“PCGamer文章性能审计”和“DNS查询”，现在附有简短的描述性备注，解释了每个链接项目背后的背景。" class="blogmark-image" src="https://static.simonwillison.net/static/2026/beats-notes.jpg" style="width: 80%;" /&gt;&lt;/p&gt;
-&lt;p&gt;我还更新了&lt;a href="https://simonwillison.net/atom/everything/"&gt;/atom/everything/&lt;/a&gt; Atom订阅源，以包含我已附加备注的任何节拍。&lt;/p&gt;
-
-    &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/atom"&gt;atom&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/blogging"&gt;blogging&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/site-upgrades"&gt;site-upgrades&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 23 Mar 2026 02:13:13 +0000</pubDate></item></channel></rss>
+    &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;ai-ethics&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/slop"&gt;slop&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 23 Mar 2026 23:31:45 +0000</pubDate></item></channel></rss>
