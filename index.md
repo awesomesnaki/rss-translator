@@ -1,6 +1,6 @@
 # RSS 中文翻译源
 
-更新时间: 2026-03-27 07:01 UTC
+更新时间: 2026-03-27 13:29 UTC
 
 ## 订阅链接
 
@@ -13,6 +13,11 @@
 - astralcodexten: `feeds/astralcodexten.xml`
 - thinkingoutloud: `feeds/thinkingoutloud.xml`
 - AnthropicNews: `feeds/AnthropicNews.xml`
+- appaddict: `feeds/appaddict.xml`
+- indieapp: `feeds/indieapp.xml`
+- macmenubar: `feeds/macmenubar.xml`
+- thriftmac: `feeds/thriftmac.xml`
+- basicappleguy: `feeds/basicappleguy.xml`
 
 将上面的 xml 文件链接替换为完整 URL 即可订阅。
 
