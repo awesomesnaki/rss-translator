@@ -1,17 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sat, 28 Mar 2026 15:52:08 +0000</lastBuildDate><item><title>Netflix 搞砸了他们的 tvOS 视频播放器</title><link>https://www.pocket-lint.com/netflix-just-made-their-app-worse-and-theres-no-way-to-fix-it/</link><description>&lt;p&gt;为Pocket-lint撰稿的阿曼达·康多洛吉写道：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sat, 28 Mar 2026 23:47:39 +0000</lastBuildDate><item><title>2019年英特尔Mac Pro的不幸时机</title><link>https://512pixels.net/2026/03/how-apple-could-have-saved-the-mac-pro/</link><description>&lt;p&gt;斯蒂芬·哈克特，于512 Pixels网站写道：&lt;/p&gt;
+
 &lt;blockquote&gt;
-&lt;p&gt;尽管Netflix应用在大多数平台上大体相同，但上周末，非官方的&lt;a href="https://www.reddit.com/r/appletv/"&gt;Apple TV Reddit&lt;/a&gt;上的几位Apple TV用户注意到，该应用的tvOS版本发生了一些细微变化，这些变化正以微妙但非常令人沮丧的方式让应用变得更难使用。&lt;/p&gt;
-&lt;p&gt;根据用户&lt;a href="https://www.reddit.com/r/appletv/comments/1s11td4/did_netflix_mess_up_the_app_there_are_two_extra/"&gt;iamonreddit&lt;/a&gt;的说法，最近的Netflix应用更新使得快进和快退功能的使用变得稍微困难了一些。现在，按下遥控器转盘上的后退或前进按钮来快进或快退十秒时，这个操作会暂停屏幕并弹出一个帧选择器。为了真正前进或后退，用户必须再次点击同一个按钮。所以本质上，以前只需按一次按钮的操作，现在需要按两次。&lt;/p&gt;
+  &lt;p&gt;我反复思考过琼斯提到的不合时宜的问题。如果苹果坚持原定时间表，在&lt;a href="https://daringfireball.net/2017/04/the_mac_pro_lives"&gt;2017年&lt;/a&gt;就淘汰2013款Mac Pro，转而推出一款&lt;a href="https://www.apple.com/newsroom/2017/06/imac-pro-most-powerful-mac-arrives-december/"&gt;“专门针对专业市场大部分领域”&lt;/a&gt;的iMac，那么苹果本可以避免在转向Apple Silicon前不到一年，推出史上最强的英特尔Mac。&lt;/p&gt;
+
+&lt;p&gt;苹果在2017年是否知道M1芯片会在2020年走出实验室？很可能不知道，但这并不能让这个时间点显得不那么令人遗憾。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;这些变化并不小，也不微妙，而且不仅仅是让快进和快退变得“稍微”困难了一点。流媒体应用中的视频播放界面是流媒体应用最核心的功能，而现在Netflix的tvOS播放器看起来糟糕透顶，运行也不对劲。康多洛吉引用的原始报告来自Reddit用户“iamonreddit”（是的，就是你），&lt;a href="https://www.reddit.com/r/appletv/"&gt;如实描述了情况&lt;/a&gt;：&lt;/p&gt;
+
+&lt;p&gt;苹果可能并未在2017年就将2020年确定为转向Apple Silicon的最终年份，但他们当时肯定已经知道Apple Silicon才是未来。我认为他们早在2017年之前数年就已明了这一点，而大体上，这也正是2015至2020年间Mac硬件表现如此糟糕的原因。他们直到2018年才推出配备视网膜屏幕的MacBook Air。12英寸MacBook虽然精美，但价格昂贵且性能严重不足。而在那段时期，没有哪款产品比Mac Pro遭受的损失更大。我认为苹果深知未来在于自家的芯片，但与此同时，在英特尔时代的最后五年里，他们就是无法为此全力以赴。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/03/28/the-2019-intel-mac-pros-unfortunate-timing" title="《2019款英特尔Mac Pro不合时宜的发布时间》永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Sat, 28 Mar 2026 23:47:39 +0000</pubDate></item><item><title>苹果应为tvOS上的自定义视频播放器设定并执行一些基本标准</title><link>https://daringfireball.net/2024/03/quickly_toggling_closed_captions_on_apple_tv</link><description>&lt;p&gt;在我抱怨苹果电视上&lt;a href="https://daringfireball.net/linked/2026/03/28/netflix-wrecked-their-tvos-video-player"&gt;Netflix糟糕透顶的新视频播放器&lt;/a&gt;时，让我引用一下我两年前写的一篇文章（当时也在抱怨Netflix的tvOS应用）：&lt;/p&gt;
+
 &lt;blockquote&gt;
-&lt;p&gt;Netflix把应用搞砸了吗？现在进行简单的10秒快退或快进需要额外点击两次。以前点击一次就能后退10秒，现在它会暂停并弹出帧选择器，然后你必须再点击一次。他们在发布这个更新之前难道没有做任何研究或可用性测试吗？&lt;/p&gt;
-&lt;p&gt;而且一点也不流畅，它会持续旋转一会儿，而我有1Gbps的光纤网络。这真是个大倒退！&lt;/p&gt;
+  &lt;p&gt;事实证明，有两种更好的方法：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;如果你在iPhone上使用控制中心的苹果电视遥控器，&lt;a href="https://support.apple.com/guide/tv/use-ios-or-ipados-control-center-atvb701cadc1/tvos"&gt;有一个专门的“CC”按钮&lt;/a&gt;。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在tvOS中，前往“设置”→“辅助功能”→“辅助功能快捷键”，并将其设置为“隐藏式字幕”。现在，你只需在遥控器上连按三下菜单/返回按钮，即可切换字幕。（在旧的苹果电视遥控器上，该按钮标记为“菜单”；&lt;a href="https://support.apple.com/en-us/HT205305"&gt;在新款遥控器上&lt;/a&gt;，它标记为“&amp;lt;”符号。）&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;但问题在于：Netflix的tvOS应用不支持这两种切换字幕的方式。Netflix&lt;em&gt;只&lt;/em&gt;支持其自定义视频播放器中的屏幕字幕切换开关。我理解Netflix和其他流媒体应用为何想使用自己的自定义视频播放器，但App Store审核应该强制要求它们支持&lt;a href="https://support.apple.com/guide/tv/accessibility-features-atvbaeff85db/tvos"&gt;此类辅助功能&lt;/a&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;苹果早在十年前推出基于tvOS的苹果电视时，就应该从一开始就要求所有应用使用系统视频播放器。不允许自定义视频播放器。可惜，现在为时已晚。但tvOS App Store的审核流程应该坚持要求遵守这些辅助功能和平台兼容性特性。&lt;/p&gt;
+
+&lt;p&gt;你想使用自己的自定义视频播放器？可以。但使用自定义视频播放器的应用必须支持iOS控制中心遥控器中的“CC”按钮，必须支持连按三下的辅助功能快捷键，必须支持使用苹果电视遥控器进行快进和倒带的平台惯例，等等。如果你的视频播放器不符合要求，你的应用更新就不会获得批准。&lt;/p&gt;
+
+&lt;p&gt;苹果应该利用App Store的审核流程来造福用户。这难道不应该是其意义所在吗？&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/03/28/apple-should-set-and-enforce-some-basic-standards-for-custom-video-players-on-tvos" title="Permanent link to ‘Apple Should Set and Enforce Some Basic Standards for Custom Video Players on tvOS’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Sat, 28 Mar 2026 23:25:47 +0000</pubDate></item><item><title>“苹果如何成为苹果：公司早期岁月的权威口述历史”</title><link>https://www.fastcompany.com/91514404/apple-founding-50th-anniversary-apple-1-apple-ii-jobs-wozniak?mvgt=E5Loo3fO74zl</link><description>&lt;p&gt;哈里·麦克拉肯的这篇特写简直精彩绝伦。（而且这是一个礼物链接，可以让你绕过《快公司》的付费墙。）50年是一段漫长的时光，苹果起源故事中的一些关键人物已经离世——但由于当时所有人都那么年轻，令人惊讶的是他们中仍有如此多人健在。当然，以克里斯·埃斯皮诺萨为例，他至今仍在苹果工作：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;我当时正坐在帕洛阿尔托的字节商店里，用一台Apple-1编写BASIC程序，一个胡子拉碴、光着脚的男人走进来，看着我，进行了一场我后来才明白是标准面试的对话：“你是谁？”我说：“我是克里斯。”他问：“你在做什么？”我回答：“我在为店主用这台Apple-1编写BASIC程序。”他又问：“你水平怎么样？”我向他展示了我写在Apple-1上的BASIC程序。&lt;/p&gt;
+
+&lt;p&gt;他告诉我：“我在家酿计算机俱乐部见过你。沃兹正在研发第二代计算机，我们想把BASIC放进ROM里，而不是从磁带加载。所以它必须完美无缺。我希望你来测试沃兹的BASIC，等你组装自己的电脑时，我会给你4K内存。”这听起来是个不错的交易。史蒂夫·乔布斯当时的招聘理念就是直接从街上随便抓个14岁的小屁孩。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;当苹果公司浸润着两位史蒂夫的精神时，它总能展现出最佳状态——他们的第一次合作是制造能让你免费打长途电话的蓝盒子。史蒂夫·乔布斯在iPhone上拨出的第一个公开电话，是打给莫斯科尼西中心隔壁星巴克的一个恶作剧电话。我感觉这种叛逆精神在蒂姆·库克时代受到了压制。&lt;/p&gt;
+
+&lt;!--
+PDF归档：
+/misc/2026/03/Harry%20McCracken%20%E2%80%94%20How%20Apple%20became%20Apple%E2%80%A2%20The%20definitive%20oral%20history%20of%20the%20company%E2%80%99s%20earliest%20days.pdf
+--&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/03/28/mccracken-apple-oral-history" title="永久链接至《苹果如何成为苹果：公司早期岁月权威口述史》"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Sat, 28 Mar 2026 21:57:01 +0000</pubDate></item><item><title>Netflix 搞砸了他们的 tvOS 视频播放器</title><link>https://www.pocket-lint.com/netflix-just-made-their-app-worse-and-theres-no-way-to-fix-it/</link><description>&lt;p&gt;Amanda Kondolojy 为 Pocket-lint 撰文写道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;尽管 Netflix 应用在大多数平台上大体相同，但上周末，非官方的 &lt;a href="https://www.reddit.com/r/appletv/"&gt;Apple TV Reddit&lt;/a&gt; 上的几位 Apple TV 用户注意到，该应用的 tvOS 版本进行了一些细微改动，这些改动以微妙但非常令人沮丧的方式让应用变得更难使用。&lt;/p&gt;
+&lt;p&gt;根据用户 &lt;a href="https://www.reddit.com/r/appletv/comments/1s11td4/did_netflix_mess_up_the_app_there_are_two_extra/"&gt;iamonreddit&lt;/a&gt; 的说法，最近的 Netflix 应用更新使得快进和快退功能的使用略微困难了一些。原本点击遥控器转盘上的后退或前进按钮可以前进或后退十秒，现在按下这个按钮会暂停屏幕并弹出一个帧选择器。为了实际前进或后退，用户必须再次点击同一个按钮。所以本质上，以前只需按一次按钮的操作，现在需要按两次。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这些改动并不小，也不微妙，而且不仅仅是让快进和快退变得“略微”困难。（而且以前只需按一次按钮的操作，现在需要按&lt;em&gt;三次&lt;/em&gt;，而不是两次。）流媒体应用中的视频播放界面是流媒体应用最核心的功能，而现在 Netflix 的 tvOS 播放器看起来糟糕透顶，运行也不正常。Kondolojy 引用的原始报告来自 Reddit 用户“iamonreddit”（是的，就是你），&lt;a href="https://www.reddit.com/r/appletv/"&gt;如实描述了情况&lt;/a&gt;：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Netflix 把应用搞砸了吗？现在进行简单的 10 秒快退或快进需要额外点击两次。以前点击一次就能后退 10 秒，现在它会暂停并弹出帧选择器，然后你必须再点击一次。他们在发布这个更新之前难道没有做任何研究或可用性测试吗？&lt;/p&gt;
+&lt;p&gt;而且一点也不流畅，它会持续旋转一会儿，而我有 1G 光纤网络。这真是个大退步！&lt;/p&gt;
 &lt;p&gt;他们拥有世界上一些薪酬最高的员工，结果就想出了这个。除非这是苹果引入某些限制的结果。&lt;/p&gt;
-&lt;p&gt;看起来他们这次搞砸得很严重。Netflix曾经为他人设定标杆。现在我们却落得如此境地。我使用他们的应用十多年了，至今从未遇到过任何问题。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Netflix这款毫无必要且丑陋的新自定义视频播放器，在无障碍访问方面犯下了种种罪行。两年前，我写过关于tvOS系统无障碍快捷方式，它允许你分配&lt;a href="https://daringfireball.net/2024/03/quickly_toggling_closed_captions_on_apple_tv"&gt;三击后退（“\&amp;lt;”）按钮来切换字幕&lt;/a&gt;，而Netflix当时就不支持这个功能。你大概不会感到惊讶，这个该死的新播放器同样不支持它。它也不支持那个绝佳的标准平台惯例：当你快退10或20秒时，&lt;em&gt;临时&lt;/em&gt;开启字幕，以便应对“&lt;em&gt;他们刚才说了什么？&lt;/em&gt;”的时刻。&lt;/p&gt;&lt;p&gt;Netflix在同一周宣布涨价并出现这次功能倒退，这让我非常愤怒，以至于我甚至&lt;em&gt;更多&lt;/em&gt;地考虑将我们家的Netflix账户从每月27美元的高级套餐降级到每月20美元的标准套餐。每年只给Netflix 240美元而不是324美元，这能让他们明白我的态度。&lt;/p&gt;
+&lt;p&gt;看起来他们这次搞砸得很严重。Netflix 曾经为他人设定标杆。现在我们却到了这个地步。我用了十多年他们的应用，至今从未遇到过任何问题。&lt;/p&gt;
+&lt;/blockquote&gt;&lt;p&gt;Netflix新推出的这款毫无必要且丑陋的自定义视频播放器，在无障碍功能方面犯下了种种罪行。两年前我曾撰文介绍过tvOS的系统无障碍快捷功能，它允许你将&lt;a href="https://daringfireball.net/2024/03/quickly_toggling_closed_captions_on_apple_tv"&gt;连按三次返回（“\&amp;lt;”）按钮设置为切换字幕&lt;/a&gt;，而当时Netflix并不支持此功能。如今这个糟糕的新播放器，不出所料，同样不支持它。它也不支持那个绝佳的平台标准功能：当你回退10或20秒时，&lt;em&gt;临时&lt;/em&gt;开启字幕，以便应对“&lt;em&gt;他们刚才说了什么？&lt;/em&gt;”的时刻。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;更新：&lt;/strong&gt; 切换到他们自己的自定义视频播放器&lt;em&gt;还&lt;/em&gt;破坏了Netflix与iPhone的集成功能。直到上周，在Apple TV上的Netflix应用中播放视频时，你的iPhone锁屏上还会出现一个实时活动小组件，显示当前节目名称、播放进度和播放控制。现在这个功能消失了。&lt;/p&gt;
+&lt;p&gt;这种功能退步恰好发生在Netflix宣布涨价的一周内，这让我非常愤怒，以至于我&lt;a href="https://daringfireball.net/linked/2026/03/27/netflix-raises-prices-again"&gt;甚至&lt;em&gt;更多&lt;/em&gt;地考虑&lt;/a&gt;将我们家的Netflix账户从每月27美元的高级套餐降级到每月20美元的标准套餐。每年只给Netflix 240美元而不是324美元，这将会让他们明白的。&lt;/p&gt;
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/linked/2026/03/28/netflix-wrecked-their-tvos-video-player" title="永久链接至‘Netflix毁掉了他们的tvOS视频播放器’"&gt; ★ &lt;/a&gt;
 &lt;/div&gt;</description><pubDate>Sat, 28 Mar 2026 15:52:08 +0000</pubDate></item><item><title>特朗普将把自己的签名印上美国货币</title><link>https://www.nytimes.com/2026/03/26/us/politics/trump-signature-us-dollars.html</link><description>&lt;p&gt;《纽约时报》记者艾伦·拉珀波特报道：&lt;/p&gt;
@@ -72,22 +123,22 @@
 
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/linked/2026/03/27/apple-lockdown-mode" title="永久链接至‘苹果称尚未发现锁定模式曾被攻破’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Sat, 28 Mar 2026 00:16:01 +0000</pubDate></item><item><title>苹果宣布广告将登陆苹果地图</title><link>https://www.apple.com/newsroom/2026/03/introducing-apple-business-a-new-all-in-one-platform-for-businesses-of-all-sizes/</link><description>&lt;p&gt;苹果新闻稿：&lt;/p&gt;
+&lt;/div&gt;</description><pubDate>Sat, 28 Mar 2026 00:16:01 +0000</pubDate></item><item><title>苹果宣布广告将登陆苹果地图</title><link>https://www.apple.com/newsroom/2026/03/introducing-apple-business-a-new-all-in-one-platform-for-businesses-of-all-sizes/</link><description>&lt;p&gt;Apple Newsroom:&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;从今年夏天开始，美国和加拿大的企业将拥有一种新的被发现方式，即通过 Apple Business 在“地图”上创建广告。“地图”广告将在用户搜索时出现，并且可以根据相关性出现在用户搜索结果顶部，以及“地图”中新的“推荐地点”体验的顶部，该体验将根据附近热门趋势、用户最近的搜索等显示推荐。广告将被明确标记，以确保“地图”用户的透明度。&lt;/p&gt;
+  &lt;p&gt;从今年夏天开始，在美国和加拿大，企业将能够通过使用 Apple Business 在 Maps 上创建广告，获得一种新的被发现的方式。当用户在 Maps 中搜索时，广告就会出现，并且可以根据相关性出现在用户搜索结果顶部，以及 Maps 中新的“推荐地点”体验的顶部，该体验将根据附近的热门趋势、用户最近的搜索等显示推荐。广告将被明确标记，以确保 Maps 用户的透明度。&lt;/p&gt;
 
-&lt;p&gt;&lt;a href="https://ads.apple.com/maps"&gt;“地图”广告&lt;/a&gt;建立在&lt;a href="https://ads.apple.com/our-approach"&gt;苹果更广泛的隐私优先广告方法&lt;/a&gt;之上，并保持了“地图”用户目前享有的相同隐私保护。用户的位置以及他们在“地图”中看到和与之互动的广告不会与用户的 Apple 账户关联。个人数据保留在用户的设备上，不会被苹果收集或存储，也不会与第三方共享。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ads.apple.com/maps"&gt;Maps 上的广告&lt;/a&gt;建立在&lt;a href="https://ads.apple.com/our-approach"&gt;苹果更广泛的隐私优先广告策略&lt;/a&gt;之上，并保持了 Maps 用户目前享有的相同隐私保护。用户的位置以及他们在 Maps 中看到和互动的广告不会与用户的 Apple 帐户关联。个人数据保留在用户的设备上，不会被苹果收集或存储，也不会与第三方共享。&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;隐私角度是好的。我不想把这视为理所当然，因为苹果那些市值超过万亿美元的&lt;a href="https://companiesmarketcap.com/"&gt;同行&lt;/a&gt;中，几乎没有（如果有的话）如此致力于用户隐私的。&lt;/p&gt;
 
-&lt;p&gt;但越来越明显的是，尽管苹果保护用户隐私的承诺一如既往地高，但他们提供最佳用户体验的承诺却并非如此。这是&lt;a href="https://daringfireball.net/misc/2026/03/apple-business-ads-on-apple-maps.jpeg"&gt;苹果自己的截图&lt;/a&gt;，展示了这些广告大概的样子。看起来还行。但这些广告似乎极不可能让使用苹果地图的整体体验变得更好。也许，在实践中，它们不会让体验变差，会打个平手。但我忍不住怀疑它们会让体验变差，问题只是会差多少。在 App Store 中添加广告无疑已经让体验变差了。&lt;/p&gt;
+&lt;p&gt;但越来越明显的是，尽管苹果保护用户隐私的承诺一如既往地高，但他们提供最佳用户体验的承诺却并非如此。这是&lt;a href="https://daringfireball.net/misc/2026/03/apple-business-ads-on-apple-maps.jpeg"&gt;苹果自己的截图&lt;/a&gt;，展示了这些广告可能的样子。看起来还行。但这些广告似乎极不可能让使用 Apple Maps 的整体体验变得更好。也许，在实践中，它们不会让体验变差，会打个平手。但我忍不住怀疑它们会让体验变差，问题只是会差多少。App Store 中加入广告已经让体验变差了。&lt;/p&gt;
 
-&lt;p&gt;我们拭目以待。我不会预判实际体验，你也不应该。我也&lt;a href="https://mister.computer/@kyle/114014624058008824"&gt;不反对苹果想要通过地图盈利&lt;/a&gt;。但如果添加广告确实让苹果地图的体验变差，为什么苹果不让我们付费免看呢？&lt;a href="https://help.netflix.com/en/node/24926"&gt;Netflix&lt;/a&gt; 不强迫我们看广告。&lt;a href="https://www.youtube.com/premium"&gt;YouTube Premium&lt;/a&gt; 可以说是整个内容订阅领域性价比最高的服务。为什么&lt;a href="https://www.apple.com/apple-one/"&gt;Apple One&lt;/a&gt; 订阅者仍然要在苹果地图中看到这些广告？&lt;/p&gt;
+&lt;p&gt;我们拭目以待。我不会预判实际体验，你也不应该。我也&lt;a href="https://mister.computer/@kyle/114014624058008824"&gt;不反对苹果想要通过 Maps 盈利&lt;/a&gt;。但如果加入广告确实让 Apple Maps 的体验变差，为什么苹果不让我们付费免看呢？&lt;a href="https://help.netflix.com/en/node/24926"&gt;Netflix&lt;/a&gt; 不强迫我们看他们的广告。&lt;a href="https://www.youtube.com/premium"&gt;YouTube Premium&lt;/a&gt; 可以说是整个内容订阅世界里性价比最高的服务。为什么&lt;a href="https://www.apple.com/apple-one/"&gt;Apple One&lt;/a&gt; 订阅者仍然要在 Apple Maps 中看到这些广告？&lt;/p&gt;
 
 &lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/03/27/apple-announces-ads-are-coming-to-apple-maps" title="‘Apple Announces Ads Are Coming to Apple Maps’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;a href="https://daringfireball.net/linked/2026/03/27/apple-announces-ads-are-coming-to-apple-maps" title="Permanent link to ‘Apple Announces Ads Are Coming to Apple Maps’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
 &lt;/div&gt;</description><pubDate>Sat, 28 Mar 2026 00:01:56 +0000</pubDate></item><item><title>Netflix再次涨价</title><link>https://variety.com/2026/tv/news/why-netflix-hiked-prices-explained-chart-1236701365/</link><description>&lt;p&gt;托德·斯潘格勒，《综艺》杂志：&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -98,35 +149,4 @@
 
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/linked/2026/03/27/netflix-raises-prices-again" title="‘Netflix再次涨价’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Fri, 27 Mar 2026 23:43:21 +0000</pubDate></item><item><title>★ 苹果赐予，苹果收回</title><link>https://daringfireball.net/2026/03/apple_giveth_apple_taketh_away</link><description>&lt;h2&gt;先说说好消息&lt;/h2&gt;
-&lt;p&gt;就在本周，&lt;a href="https://daringfireball.net/2026/03/what_to_do_about_those_menu_item_icons_in_macos_26_tahoe"&gt;我写了一篇关于一个隐藏的&lt;code&gt;defaults&lt;/code&gt;偏好设置的文章&lt;/a&gt;，你可以通过它来关闭MacOS 26 Tahoe系统中大多数苹果原生应用里那些乏味的菜单项图标。我曾惋惜地指出，Safari——这个通常堪称优秀Mac应用典范的浏览器——普遍无视了这个设置，导致其大部分菜单项图标依然存在。我很高兴地向大家报告，这个问题在MacOS 26.4中已经修复了。当设置偏好为隐藏这些图标后，Safari现在只显示少数几个图标。&lt;/p&gt;
-&lt;p&gt;这里是&lt;a href="https://daringfireball.net/misc/2026/03/safari-tahoe-file-menu-before-after.png"&gt;在MacOS 26.3.2上截取的旧版前后对比截图&lt;/a&gt;。嘘声一片。而下面是在MacOS 26.4上截取的新版前后对比：&lt;/p&gt;
-&lt;p&gt;&lt;a class="noborder" href="https://daringfireball.net/misc/2026/03/safari-tahoe-file-menu-before-after-26.4.png"&gt;
-&lt;img alt="MacOS 26.3 Tahoe系统中Safari文件菜单的截图，展示了更改隐藏的`NSMenuEnableActionImages`偏好设置前后的对比。在更改前的截图中，每个菜单项都有一个图标。在更改后的图片中，仅有以下项目带有图标：新建空标签页组、新建包含2个标签页的标签页组、删除标签页组、添加到程序坞…以及从浏览器导入。" src="https://daringfireball.net/misc/2026/03/safari-tahoe-file-menu-before-after-26.4.png" width="550"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;在Tahoe 26.3（以及推测更早的Tahoe版本）中，启用此设置后，Safari文件菜单的19个菜单项里仍有16个显示图标。而在26.4中，19个里只有5个显示图标。&lt;sup id="fnr1-2026-03-27"&gt;&lt;a href="https://daringfireball.net/#fn1-2026-03-27"&gt;1&lt;/a&gt;&lt;/sup&gt; Safari的其他菜单也进行了类似的更新，看起来美观多了。&lt;/p&gt;
-&lt;p&gt;我觉得有趣的是，Safari在26.4版本中更新以支持这个隐藏偏好。我将此视为一个迹象，表明苹果内部（或者至少是Safari团队内部）有一派人非常不喜欢这些菜单项图标，以至于注意到了Safari之前没有识别这个偏好设置。（我进一步认为，这标志着在苹果的工程师队伍中，这个&lt;code&gt;defaults&lt;/code&gt;设置的存在是广为人知的。）希望尚存。&lt;/p&gt;
-&lt;h2&gt;现在说说坏消息&lt;/h2&gt;&lt;p&gt;我最近写到的另一个与Tahoe相关的技巧是使用设备管理配置文件来屏蔽系统设置→通用→软件更新中从MacOS 15 Sequoia“升级”到26 Tahoe的提示。我最初在&lt;a href="https://daringfireball.net/linked/2026/02/27/how-to-block-the-upgrade-to-tahoe-alerts-and-system-settings-indicator"&gt;一个月前&lt;/a&gt;写过，链接指向&lt;a href="https://robservatory.com/block-the-upgrade-to-tahoe-alerts-and-system-settings-indicator/"&gt;Rob Griffiths的一篇文章&lt;/a&gt;。然后我在&lt;a href="https://daringfireball.net/linked/2026/03/26/mr-macintosh-imazing-profile-editor-tahoe"&gt;本周&lt;/a&gt;又写了一次，链接指向&lt;a href="https://www.youtube.com/watch?v=uRg1pW8TSYk"&gt;Mr. Macintosh的一个YouTube视频&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;自从这个技巧开始流传以来，就有广泛的评论认为它利用的是MacOS 15 Sequoia中的一个漏洞，而非功能。阻止Tahoe更新提示的90天“延期”期本应从Tahoe主要版本（26.0）发布的日期算起，而不是从最近的小版本更新算起。好吧，随着本周MacOS 15.7.5的发布，这个漏洞被修复了，即使你安装了这些设备管理配置文件之一，Tahoe也会出现在系统设置的软件更新面板中。唉。&lt;/p&gt;
-&lt;p&gt;不过，并非全无希望。同一个Mr. Macintosh的视频展示了第二种，稍微不那么优雅的方法，可以消除软件更新中所有Tahoe的迹象（&lt;a href="https://youtu.be/uRg1pW8TSYk?t=546"&gt;大约在9分钟之后&lt;/a&gt;）。诀窍是为你的Mac注册MacOS Sequoia公开测试版更新（或开发者测试版）。这&lt;a href="https://daringfireball.net/misc/2026/03/sequoia-software-update-with-public-betas.png"&gt;会屏蔽所有Tahoe的迹象&lt;/a&gt;。你实际上并不需要安装任何未来的Sequoia测试版（目前没有任何可用的）。只需确保你也禁用了自动更新。我宁愿冒险无意中安装15.8 Sequoia的公开测试版，也不愿无意中“升级”到Tahoe。&lt;/p&gt;
-&lt;div class="footnotes"&gt;
-&lt;hr/&gt;
-&lt;ol&gt;
-&lt;li id="fn1-2026-03-27"&gt;
-&lt;p&gt;在&lt;a href="https://daringfireball.net/2026/03/what_to_do_about_those_menu_item_icons_in_macos_26_tahoe"&gt;我本周早些时候的文章&lt;/a&gt;中，我的截图只显示了Safari文件菜单中的18个菜单项，而不是19个。这是因为我是在我的评测机MacBook Neo上截取的那些图，我几乎是以默认状态运行它的。Safari的“文件→从浏览器导入”子菜单是否出现在文件菜单中，取决于你的系统上是否安装了某些第三方网页浏览器。在我的MacBook Neo评测机上，我没有安装任何第三方浏览器，所以Safari省略了这个菜单项。我今天截取的截图来自另一台安装了Firefox的Tahoe机器。&lt;a class="footnoteBackLink" href="https://daringfireball.net/#fnr1-2026-03-27" title="跳转回正文中的脚注1。"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;</description><pubDate>Fri, 27 Mar 2026 20:46:14 +0000</pubDate></item><item><title>苹果停产Mac Pro，且无计划将其带回</title><link>https://9to5mac.com/2026/03/26/apple-discontinues-the-mac-pro/</link><description>&lt;p&gt;9to5Mac的Chance Miller带来了一则重磅消息：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;一个时代结束了：苹果已向9to5Mac证实，Mac Pro产品线将被停产。自周四下午起，该产品已从苹果官网下架。苹果官网上Mac Pro的&lt;a href="https://www.apple.com/us/shop/goto/buy_mac/mac_pro"&gt;“购买”页面&lt;/a&gt;现已重定向至&lt;a href="https://www.apple.com/mac/"&gt;Mac产品主页&lt;/a&gt;，所有相关介绍均已移除。&lt;/p&gt;
-&lt;p&gt;苹果还向9to5Mac确认，目前没有计划推出未来的Mac Pro硬件。&lt;/p&gt;
-&lt;p&gt;多年来，Mac Pro经历了多次变迁。苹果在2019年推出了沿用至今的Mac Pro工业设计，同时发布的还有Pro Display XDR（该显示器也于本月早些时候&lt;a href="https://9to5mac.com/2026/03/03/apple-discontinues-the-pro-display-xdr/"&gt;停产&lt;/a&gt;）。那个版本的Mac Pro采用英特尔处理器，苹果在2023年6月用M2 Ultra芯片对其进行了更新。自那以后，它便再无更新，价格一直维持在6,999美元，尽管苹果去年已在&lt;a href="https://amzn.to/4rT7wgd"&gt;Mac Studio&lt;/a&gt;中推出了M3 Ultra芯片。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;在PowerPC时代，高端的Mac台式机被称为Power Mac，专业笔记本电脑则叫PowerBook。随着2006年向英特尔CPU的过渡，苹果将名称改为Mac Pro和MacBook Pro。但与MacBook Pro不同——后者每隔几年就有重大更新，性能也定期得到令人满意的提升，并且在苹果芯片时代蓬勃发展——Mac Pro在几年后便逐渐式微。&lt;/p&gt;&lt;p&gt;在其&lt;a href="https://www.apple.com/newsroom/2006/08/07Apple-Unveils-New-Mac-Pro-Featuring-Quad-64-bit-Xeon-Processors/"&gt;2006年发布&lt;/a&gt;之后，分别在&lt;a href="https://www.apple.com/newsroom/2008/01/08Apple-Introduces-New-Mac-Pro/"&gt;2008年&lt;/a&gt;、&lt;a href="https://www.apple.com/newsroom/2009/03/03Apple-Introduces-New-Mac-Pro/"&gt;2009年&lt;/a&gt;、&lt;a href="https://www.apple.com/newsroom/2010/07/27Apple-Unveils-New-Mac-Pro-With-Up-to-12-Processing-Cores/"&gt;2010年&lt;/a&gt;，以及最后一次——某种程度上——在&lt;a href="https://support.apple.com/en-us/docs/mac/133644"&gt;2012年&lt;/a&gt;有过速度提升。到目前为止一切顺利。（前面提到的“某种程度上”指的是2012年的“更新”&lt;em&gt;非常&lt;/em&gt;微小，&lt;a href="https://arstechnica.com/gadgets/2012/06/mac-pro-gets-minor-update-with-standard-12-core-option-no-xeon-e5/"&gt;可以说更接近于降价而非速度提升&lt;/a&gt;。）但随后在2013年出现了圆柱形的“垃圾桶”Mac Pro。也许苹果在WWDC上&lt;a href="https://www.apple.com/newsroom/2013/06/10Apple-Gives-Sneak-Peek-Into-the-Future-of-the-Pro-Desktop/"&gt;于6月&lt;/a&gt;预先宣布，然后&lt;a href="https://www.apple.com/newsroom/2013/10/23Introducing-the-All-New-Mac-Pro-The-Most-Radical-Mac-Ever/"&gt;在10月发布&lt;/a&gt;这一事实给这个名字带来了诅咒。圆柱形Mac Pro从未更新过，而苹果毕竟是苹果，价格是其产品品牌的一部分，他们也从未降价。这最终导致了2017年我受邀参加的一场小型“圆桌”讨论&lt;a href="https://daringfireball.net/2017/04/the_mac_pro_lives"&gt;，&lt;/a&gt;菲尔·席勒和克雷格·费德里吉在会上阐述了苹果对于专业Mac台式机未来的计划。第一步是&lt;a href="https://support.apple.com/en-us/111995"&gt;iMac Pro&lt;/a&gt;，这是一款出色的机器，但也是一次性的，于2017年12月问世。然后是&lt;a href="https://www.apple.com/newsroom/2019/06/apple-unveils-powerful-all-new-mac-pro-and-groundbreaking-pro-display-xdr/"&gt;2019年重获新生的Mac Pro&lt;/a&gt;，这是最后一款基于Intel的型号，也是第一款采用华丽钻孔铝制塔式机箱的型号。在那之后，只有一次修订：&lt;a href="https://www.apple.com/newsroom/2023/06/apple-unveils-new-mac-studio-and-brings-apple-silicon-to-mac-pro/"&gt;2023年6月的M2 Ultra型号&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;所以，在2012年之后——并且可以说&lt;a href="https://arstechnica.com/gadgets/2012/06/mac-pro-gets-minor-update-with-standard-12-core-option-no-xeon-e5/"&gt;在2010年之后&lt;/a&gt;——2013年有一款垃圾桶Mac Pro，2019年有一款Intel“新塔式”Mac Pro，2023年有一款Apple Silicon Mac Pro。它们之间没有任何速度提升。过去14年里只有三次修订。所以，是的，他们现在正式将其停产，这并不令人震惊。&lt;/p&gt;
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/03/26/apple-discontinues-the-mac-pro-with-no-plans-to-bring-it-back" title="Permanent link to ‘Apple Discontinues the Mac Pro With No Plans to Bring It Back’"&gt; ★ &lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Fri, 27 Mar 2026 00:56:39 +0000</pubDate></item><item><title>苹果充电现状</title><link>https://randsinrepose.com/guides/apple-charging-guide.html</link><description>&lt;p&gt;&lt;a href="https://daringfireball.net/linked/2026/03/26/macos-26-4-slow-charger-warning"&gt;说到电源适配器&lt;/a&gt;，Rands in Repose的这份信息指南既实用又富有启发性。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/03/26/the-apple-charging-situation" title="Permanent link to ‘The Apple Charging Situation’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Thu, 26 Mar 2026 20:20:49 +0000</pubDate></item></channel></rss>
+&lt;/div&gt;</description><pubDate>Fri, 27 Mar 2026 23:43:21 +0000</pubDate></item></channel></rss>
