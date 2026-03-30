@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sun, 29 Mar 2026 20:50:00 +0000</lastBuildDate><item><title>WorkOS</title><link>https://workos.com/docs/authkit/cli-installer?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q12026</link><description>&lt;p&gt;感谢WorkOS再次赞助DF本周内容。他们的最新产品是一个命令行界面工具，它能启动&lt;a href="https://youtu.be/icUycAMC1h0?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q12026"&gt;一个由Claude驱动的AI助手&lt;/a&gt;，该助手会读取你的项目、检测你的框架，并将完整的身份验证集成写入你的代码库。无需注册。它会创建一个环境，填入你的密钥，你可以在准备好后再认领你的账户。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Mon, 30 Mar 2026 16:46:31 +0000</lastBuildDate><item><title>品牌时代</title><link>https://paulgraham.com/brandage.html</link><description>&lt;p&gt;保罗·格雷厄姆：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;因此，当一个世界仅由品牌来定义时，它将会是一个怪异而糟糕的世界。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;格雷厄姆这篇深思熟虑的文章聚焦于机械表行业。但我不同意他的结论。我认为机械表市场从未像今天这样充满乐趣和活力。至少对我来说，真正的看点不在那些高端的瑞士奢侈品牌，而在独立制表商，比如&lt;a href="https://baltic-watches.com/en"&gt;Baltic&lt;/a&gt;和&lt;a href="https://halioswatches.com/"&gt;Halios&lt;/a&gt;这样的公司。&lt;/p&gt;
+
+&lt;p&gt;将格雷厄姆的文章置于其他行业的背景下思考也很有趣。我认为不言自明的是，整个手机市场——世界上最受欢迎、利润最丰厚的消费设备——是由单一品牌定义的，而每个竞争对手都只是在不同程度地、厚颜无耻地模仿那个品牌。&lt;em&gt;那&lt;/em&gt;才是糟糕和怪异的。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/03/30/the-brand-age" title="‘品牌时代’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Mon, 30 Mar 2026 16:46:31 +0000</pubDate></item><item><title>体型超常的麦金塔电脑</title><link>https://scottknaster.substack.com/p/macs-of-unusual-size</link><description>&lt;p&gt;斯科特·克纳斯特：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;巨无霸麦金塔的尺寸大约是迷你麦金塔的22倍。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/03/30/macs-of-unusual-size" title="永久链接至‘非同寻常尺寸的麦金塔’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Mon, 30 Mar 2026 16:24:40 +0000</pubDate></item><item><title>WorkOS</title><link>https://workos.com/docs/authkit/cli-installer?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q12026</link><description>&lt;p&gt;感谢WorkOS再次赞助DF本周内容。他们的最新产品是一个命令行界面工具，它能启动&lt;a href="https://youtu.be/icUycAMC1h0?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q12026"&gt;一个由Claude驱动的AI助手&lt;/a&gt;，该助手会读取你的项目、检测你的框架，并将完整的身份验证集成写入你的代码库。无需注册。它会创建一个环境，填入你的密钥，你可以在准备好后再认领你的账户。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href="https://workos.com/blog/agent-experience?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q12026"&gt;但这个命令行工具的功能远不止安装&lt;/a&gt;。WorkOS Skills能让你的编码助手成为WorkOS专家。&lt;code&gt;workos seed&lt;/code&gt;将你的环境定义为代码。&lt;code&gt;workos doctor&lt;/code&gt;能发现并修复配置错误。一旦完成身份验证，你的助手就可以直接从终端管理用户、组织和环境。&lt;a href="https://workos.com/docs/authkit/cli-installer?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q12026"&gt;请在WorkOS网站上查看其工作原理&lt;/a&gt;。&lt;/p&gt;
 
@@ -101,40 +121,4 @@ PDF归档：
 &lt;p&gt;这种功能退步恰好发生在Netflix宣布涨价的一周内，这让我非常愤怒，以至于我&lt;a href="https://daringfireball.net/linked/2026/03/27/netflix-raises-prices-again"&gt;甚至&lt;em&gt;更多&lt;/em&gt;地考虑&lt;/a&gt;将我们家的Netflix账户从每月27美元的高级套餐降级到每月20美元的标准套餐。每年只给Netflix 240美元而不是324美元，这足以表明我的态度。&lt;/p&gt;
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/linked/2026/03/28/netflix-wrecked-their-tvos-video-player" title="永久链接至‘Netflix毁掉了他们的tvOS视频播放器’"&gt; ★ &lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Sat, 28 Mar 2026 15:52:08 +0000</pubDate></item><item><title>特朗普将把自己的签名印上美国货币</title><link>https://www.nytimes.com/2026/03/26/us/politics/trump-signature-us-dollars.html</link><description>&lt;p&gt;《纽约时报》记者艾伦·拉珀波特报道：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;美国财政部周四表示，特朗普总统的签名将于今年晚些时候出现在美元纸币上。让特朗普的签名出现在美国纸币上的决定代表了一项前所未有的改变，财政部称此举是为了纪念美国建国250周年。&lt;/p&gt;
-
-&lt;p&gt;特朗普将成为首位在任期内将其签名印在美钞上的美国总统。他的名字将与财政部长斯科特·贝森特的名字并列出现。因此，一个多世纪以来一直出现在货币上的美国财政部长名字将不再出现。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href="https://www.nbcnews.com/politics/donald-trump/signature-appear-paper-currency-dollar-bills-first-sitting-president-rcna265389"&gt;NBC新闻记者拉克尔·科罗内尔·乌里韦报道&lt;/a&gt;：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;财政部表示，将特朗普的签名印在纸币上是为了纪念国家成立250周年。历史上，纸币上印有财政部长和国库局长的签名。&lt;/p&gt;
-
-&lt;p&gt;“总统作为美国黄金时代经济复苏的缔造者，其在历史上的印记是不可否认的，”财政部长斯科特·贝森特在一份声明中说。“将他的签名印在美国货币上不仅是合适的，也是他应得的。”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;一位在任总统——一位被心理学家公开描述为表现出明显“&lt;a href="https://www.theguardian.com/us-news/2024/oct/24/trump-nyt-ad-george-conway-pac"&gt;严重、无法治愈的人格障碍——恶性自恋症状&lt;/a&gt;”的人——将其签名印在美国货币上，这无疑是一条新闻。但为什么要鹦鹉学舌般地重复政府那套明显虚假的说辞，即这种对长期传统的粗俗、令人尴尬的改变与“纪念”美国建国250周年有任何关系呢？&lt;/p&gt;
-
-&lt;p&gt;声称将特朗普的签名印在美钞上“是对国家或其历史的纪念”，就如同声称这样做能治愈普通感冒、逆转男性型秃发或保护我们免受大脚怪伤害一样毫无道理。直言不讳地说吧：这是对一个&lt;a href="https://www.natesilver.net/p/trump-approval-ratings-nate-silver-bulletin"&gt;极不受欢迎&lt;/a&gt;、正在失去对现实本已脆弱的掌控的自恋者的谄媚式自我吹捧。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/03/28/trump-signature" title="‘特朗普正将其签名印在美国货币上’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Sat, 28 Mar 2026 15:21:55 +0000</pubDate></item><item><title>纽约邮报：特朗普考虑重新命名霍尔木兹海峡</title><link>https://nypost.com/2026/03/27/us-news/trump-considers-renaming-strait-of-hormuz-after-either-america-or-himself-once-he-evicts-iran/</link><description>&lt;p&gt;《纽约邮报》（我不确定是否该提醒你对这则消息持保留态度，因为这是《邮报》，其新闻标准低下；又或者，恰恰因为它是《邮报》——一份右翼默多克旗下的小报，特朗普的追随者们确实会与之交谈——反而该赋予它&lt;em&gt;额外&lt;/em&gt;的可信度）：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;据消息人士向《邮报》透露，随着特朗普对盟友未能协助强行打开这一关键水道愈发感到沮丧，他正将控制霍尔木兹海峡作为优先事项。而一旦特朗普终结伊朗对该航运路线的恐怖统治，他考虑将其重新命名为“美利坚海峡”，甚至以自己的名字命名。[...]&lt;/p&gt;
-
-&lt;p&gt;特朗普周五晚间在迈阿密的一个沙特投资者论坛上表示，他可能决定以自己而非美国的名字来命名该海峡。&lt;/p&gt;
-
-&lt;p&gt;“他们必须打开特朗普海峡——我是说霍尔木兹，”特朗普说。“抱歉，非常抱歉。真是个可怕的错误。假新闻会说，‘他是不小心说错的。’不，我这儿没有意外，不太多。”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;我怀疑很快就会有意外发生了，随着他进一步陷入痴呆并需要成人纸尿裤。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/03/28/strait-of-trump" title="《纽约邮报：'特朗普考虑重命名霍尔木兹海峡'》的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Sat, 28 Mar 2026 15:02:42 +0000</pubDate></item></channel></rss>
+&lt;/div&gt;</description><pubDate>Sat, 28 Mar 2026 15:52:08 +0000</pubDate></item></channel></rss>

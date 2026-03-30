@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Sun, 29 Mar 2026 20:08:45 +0000</lastBuildDate><item><title>前文</title><link>https://simonwillison.net/2026/Mar/29/pretext/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/chenglou/pretext"&gt;Pretext&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Mon, 30 Mar 2026 14:28:34 +0000</lastBuildDate><item><title>"话匣子先生"是一款（功能有限）维多利亚时代伦理训练的模型，您可以在自己的电脑上运行它。</title><link>https://simonwillison.net/2026/Mar/30/mr-chatterbox/#atom-everything</link><description>&lt;p&gt;特里普·文图雷拉发布了&lt;a href="https://huggingface.co/tventurella/mr_chatterbox_model"&gt;Mr. Chatterbox&lt;/a&gt;，这是一个完全基于大英图书馆的公有领域文本训练的语言模型。他是这样描述的：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Mr. Chatterbox 是一个完全从头开始训练的语言模型，其训练语料库包含超过 28,000 本维多利亚时代（1837年至1899年间出版）的英国文本，这些文本来自&lt;a href="https://huggingface.co/datasets/TheBritishLibrary/blbooks"&gt;大英图书馆提供的数据集&lt;/a&gt;。该模型绝对没有使用 1899 年之后的任何训练输入——其词汇和思想完全形成于十九世纪的文学作品。&lt;/p&gt;
+&lt;p&gt;Mr. Chatterbox 的训练语料库包含 28,035 本书籍，经过过滤后估计有 29.3 亿个输入标记。该模型大约有 3.4 亿个参数，与 GPT-2-Medium 的规模大致相同。当然，区别在于，与 GPT-2 不同，Mr. Chatterbox 完全是在历史数据上训练的。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;考虑到在不使用大量未经许可抓取数据的情况下训练一个有用的大型语言模型是多么困难，我梦想这样一个模型已经有好几年了。一个基于公有领域文本训练的模型，与之对话会是什么感觉呢？&lt;/p&gt;
+&lt;p&gt;多亏了特里普，我们现在可以亲自体验了！&lt;/p&gt;
+&lt;p&gt;该模型本身很小，至少按照大型语言模型的标准来看——在磁盘上只有&lt;a href="https://huggingface.co/tventurella/mr_chatterbox_model/tree/main"&gt;2.05GB&lt;/a&gt;。你可以通过特里普的&lt;a href="https://huggingface.co/spaces/tventurella/mr_chatterbox"&gt;HuggingFace Spaces 演示&lt;/a&gt;来尝试：&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;img alt="一个维多利亚风格聊天机器人界面的截图，标题为“🎩 Mr. Chatterbox (Beta)”，副标题为“The Victorian Gentleman Chatbot”。对话显示用户问“How should I behave at dinner?”，机器人回复“My good fellow, one might presume that such trivialities could not engage your attention during an evening's discourse!”。用户接着问“What are good topics?”，机器人回答“The most pressing subjects of our society— Indeed, a gentleman must endeavor to engage the conversation with grace and vivacity. Such pursuits serve as vital antidotes against ennui when engaged in agreeable company.”。底部有一个文本输入框，显示“Say hello...”，旁边有一个发送按钮。界面使用了深栗色和奶油色的配色方案。" src="https://static.simonwillison.net/static/2026/chatterbox.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;老实说，它相当糟糕。与其对话的感觉更像是和一个马尔可夫链聊天，而不是一个大型语言模型——回复可能带有令人愉悦的维多利亚时代风味，但很难得到一个能有效回答问题的回应。&lt;/p&gt;&lt;p&gt;2022年的&lt;a href="https://arxiv.org/abs/2203.15556"&gt;Chinchilla论文&lt;/a&gt;建议训练词元数量与参数数量之比为20倍。对于一个3.4亿参数的模型，这意味着大约需要70亿个词元，是本文所用大英图书馆语料库的两倍多。最小的Qwen 3.5模型有6亿参数，而该模型家族在20亿参数时才开始变得有趣——所以我的直觉是，我们需要4倍或更多的训练数据，才能得到一个开始感觉像是有用的对话伙伴的东西。&lt;/p&gt;
+&lt;p&gt;但这真是个有趣的项目！&lt;/p&gt;
+&lt;h4 id="running-it-locally-with-llm"&gt;使用LLM在本地运行&lt;/h4&gt;
+&lt;p&gt;我决定看看是否能用我的&lt;a href="https://llm.datasette.io/"&gt;LLM&lt;/a&gt;框架在我自己的机器上运行这个模型。&lt;/p&gt;
+&lt;p&gt;我让Claude Code完成了大部分工作——&lt;a href="https://gisthost.github.io/?7d0f00e152dd80d617b5e501e4ff025b/index.html"&gt;这是对话记录&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;Trip使用Andrej Karpathy的&lt;a href="https://github.com/karpathy/nanochat"&gt;nanochat&lt;/a&gt;训练了这个模型，所以我克隆了那个项目，拉取了模型权重，并让Claude构建一个Python脚本来运行模型。一旦我们让它运行起来（最终需要从&lt;a href="https://huggingface.co/spaces/tventurella/mr_chatterbox/tree/main"&gt;Space演示源代码&lt;/a&gt;中获取一些额外细节），我让Claude&lt;a href="https://llm.datasette.io/en/stable/plugins/tutorial-model-plugin.html"&gt;阅读了LLM插件教程&lt;/a&gt;并构建了插件的其余部分。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/simonw/llm-mrchatterbox"&gt;llm-mrchatterbox&lt;/a&gt;就是成果。像这样安装插件：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;llm install llm-mrchatterbox
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;第一次运行提示时，它会从Hugging Face获取2.05GB的模型文件。像这样尝试：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;llm -m mrchatterbox "Good day, sir"
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;或者像这样开始一个持续的聊天会话：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;llm chat -m mrchatterbox
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;如果你没有安装LLM，仍然可以使用uvx从头开始一个聊天会话，像这样：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;uvx --with llm-mrchatterbox llm chat -m mrchatterbox
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;当你完成模型使用后，可以使用以下命令删除缓存文件：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;llm mrchatterbox delete-model
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;这是我第一次让Claude Code从头开始构建一个完整的LLM模型插件，效果非常好。我预计未来会再次使用这种方法。&lt;/p&gt;
+&lt;p&gt;我仍然希望我们能从完全属于公共领域的数据中获得一个有用的模型。Trip能够使用nanochat和29.3亿训练词元取得如此进展，这是一个充满希望的开端。&lt;/p&gt;&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/andrej-karpathy"&gt;安德烈·卡帕西&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/local-llms"&gt;本地大语言模型&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;人工智能辅助编程&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/hugging-face"&gt;Hugging Face&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llm"&gt;大语言模型&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/training-data"&gt;训练数据&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/uv"&gt;uv&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;人工智能伦理&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-code"&gt;Claude Code&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 30 Mar 2026 14:28:34 +0000</pubDate></item><item><title>llm-mrchatterbox 0.1</title><link>https://simonwillison.net/2026/Mar/30/llm-mrchatterbox-2/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;发布：&lt;/strong&gt; &lt;a href="https://github.com/simonw/llm-mrchatterbox/releases/tag/0.1"&gt;llm-mrchatterbox 0.1&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;参见 &lt;a href="https://simonwillison.net/2026/Mar/30/mr-chatterbox/"&gt;Chatterbox先生是一个（能力较弱的）维多利亚时代伦理训练模型，您可以在自己的计算机上运行&lt;/a&gt;。&lt;/p&gt;
+    
+        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/llm"&gt;llm&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 30 Mar 2026 02:20:46 +0000</pubDate></item><item><title>前文</title><link>https://simonwillison.net/2026/Mar/29/pretext/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/chenglou/pretext"&gt;Pretext&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 这是来自程娄（Cheng Lou）的一个令人兴奋的新浏览器库，他之前是React核心开发者，也是&lt;a href="https://github.com/chenglou/react-motion"&gt;react-motion&lt;/a&gt;动画库的原始创建者。
 &lt;p&gt;Pretext解决了计算一段自动换行文本高度的问题，并且&lt;em&gt;无需操作DOM&lt;/em&gt;。通常的做法是渲染文本然后测量其尺寸，但这非常耗费资源。Pretext使用了一系列巧妙的技巧，使这个过程变得快得多，从而能够在浏览器应用中实现各种新的文本渲染效果。&lt;/p&gt;
 &lt;p&gt;这里有一个&lt;a href="https://chenglou.me/pretext/dynamic-layout/"&gt;演示&lt;/a&gt;，展示了这使哪些事情成为可能：&lt;/p&gt;
@@ -102,32 +136,4 @@
 &lt;p&gt;与其他氛围移植项目一样，关键促成因素是JSONata现有的测试套件，它帮助在7小时内花费400美元的代币构建了第一个可运行的Go版本。&lt;/p&gt;
 &lt;p&gt;Reco团队随后进行了一周的影子部署，并行运行新旧版本，以确认新实现的行为与旧版本完全一致。&lt;/p&gt;
 
-    &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/go"&gt;go&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/json"&gt;json&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/agentic-engineering"&gt;agentic-engineering&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/vibe-porting"&gt;vibe-porting&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 27 Mar 2026 00:35:01 +0000</pubDate></item><item><title>我对LiteLLM恶意软件攻击的逐分钟应对</title><link>https://simonwillison.net/2026/Mar/26/response-to-the-litellm-malware-attack/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://futuresearch.ai/blog/litellm-attack-transcript/"&gt;我对LiteLLM恶意软件攻击的逐分钟应对记录&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Callum McMahon向PyPI报告了&lt;a href="https://simonwillison.net/2026/Mar/24/malicious-litellm/"&gt;LiteLLM恶意软件攻击&lt;/a&gt;。在此，他分享了用于确认漏洞并决定应对措施的Claude对话记录。在确认Docker容器中的恶意代码后，Claude甚至建议了PyPI安全联系地址：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;已确认&lt;/strong&gt;。当前从PyPI在隔离Docker容器中全新下载：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;检查文件：litellm-1.82.8-py3-none-any.whl
-发现：litellm_init.pth
-大小：34628字节
-前200个字符：
-import os, subprocess, sys; subprocess.Popen([sys.executable, "-c", "import base64; exec(base64.b64decode('aW1wb3J0IHN1YnByb2Nlc3MKaW1wb3J0IHRlbXBmaWxl...
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;恶意版本&lt;code&gt;litellm==1.82.8&lt;/code&gt;目前&lt;strong&gt;已在PyPI上激活&lt;/strong&gt;，任何安装或升级litellm的用户都将受到感染。需要立即向security@pypi.org报告。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;我很高兴看到Callum使用我的&lt;a href="https://github.com/simonw/claude-code-transcripts"&gt;claude-code-transcripts&lt;/a&gt;工具来发布对话记录。&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;Via &lt;a href="https://news.ycombinator.com/item?id=47531967"&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/pypi"&gt;pypi&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/security"&gt;security&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude"&gt;claude&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/supply-chain"&gt;supply-chain&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 26 Mar 2026 23:58:22 +0000</pubDate></item><item><title>从零开始的量化</title><link>https://simonwillison.net/2026/Mar/26/quantization-from-the-ground-up/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://ngrok.com/blog/quantization"&gt;从零开始理解量化&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Sam Rose 延续了&lt;a href="https://simonwillison.net/tags/sam-rose/"&gt;他的一贯风格&lt;/a&gt;，再次发表了一篇信息量巨大且极具互动性的文章，这次解释了大型语言模型的量化是如何工作的（他称这可能是&lt;a href="https://twitter.com/samwhoo/status/2036845101561835968"&gt;“我写过的最好的一篇文章”&lt;/a&gt;）。&lt;/p&gt;
-&lt;p&gt;文章中还包含了我所见过的最好的关于浮点数如何用二进制位表示的视觉解释。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="一个交互式 float32 二进制表示工具的截图，显示数值 -48.92364502，带有颜色编码的位字段，分别标记为 S（符号位）、EXPONENT（指数位，蓝色）和 SIGNIFICAND（有效数位，粉色），展示了 32 位模式 11000010010000111101100001110100000，底部有一个滑块控件以及减号、加号和重置按钮。" src="https://static.simonwillison.net/static/2026/float.jpg"/&gt;&lt;/p&gt;
-&lt;p&gt;我之前没听说过量化中的&lt;strong&gt;离群值&lt;/strong&gt;——那些存在于正常微小值分布之外的罕见浮点数值——但显然它们非常重要：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;为什么这些离群值会存在？[...] 简而言之：没有人确切知道，但这些离群值中的一小部分对模型质量&lt;em&gt;非常&lt;/em&gt;重要。正如苹果公司所称，即使移除&lt;em&gt;一个&lt;/em&gt;“超级权重”，也可能导致模型输出完全无意义的内容。&lt;/p&gt;
-&lt;p&gt;鉴于它们的重要性，现实世界中的量化方案有时会做额外的工作来保留这些离群值。它们可能通过完全不量化这些值来实现，或者将其位置和值保存到一个单独的表中，然后移除它们，以免其所在的块被破坏。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;此外，还有一个关于&lt;a href="https://ngrok.com/blog/quantization#how-much-does-quantization-affect-model-accuracy"&gt;量化对模型准确性有多大影响？&lt;/a&gt;的部分。Sam 解释了&lt;strong&gt;困惑度&lt;/strong&gt;和&lt;strong&gt;KL散度&lt;/strong&gt;的概念，然后使用&lt;a href="https://github.com/ggml-org/llama.cpp/tree/master/tools/perplexity"&gt;llama.cpp 困惑度工具&lt;/a&gt;和一次 GPQA 基准测试的运行结果，展示了不同量化级别如何影响 Qwen 3.5 9B 模型。&lt;/p&gt;
-&lt;p&gt;他的结论是：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;看起来从 16 位量化到 8 位几乎不会带来质量损失。从 16 位到 4 位则更明显一些，但肯定不是原始质量的四分之一。根据你的衡量方式，更接近 90%。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/computer-science"&gt;计算机科学&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/explorables"&gt;可探索文章&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/sam-rose"&gt;sam-rose&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/qwen"&gt;qwen&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 26 Mar 2026 16:21:09 +0000</pubDate></item></channel></rss>
+    &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/go"&gt;go&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/json"&gt;json&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/agentic-engineering"&gt;agentic-engineering&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/vibe-porting"&gt;vibe-porting&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 27 Mar 2026 00:35:01 +0000</pubDate></item></channel></rss>
