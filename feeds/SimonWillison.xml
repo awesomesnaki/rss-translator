@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Mon, 30 Mar 2026 14:28:34 +0000</lastBuildDate><item><title>"话匣子先生"是一款（功能有限）维多利亚时代伦理训练的模型，您可以在自己的电脑上运行它。</title><link>https://simonwillison.net/2026/Mar/30/mr-chatterbox/#atom-everything</link><description>&lt;p&gt;特里普·文图雷拉发布了&lt;a href="https://huggingface.co/tventurella/mr_chatterbox_model"&gt;Mr. Chatterbox&lt;/a&gt;，这是一个完全基于大英图书馆的公有领域文本训练的语言模型。他是这样描述的：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Mon, 30 Mar 2026 23:58:49 +0000</lastBuildDate><item><title>datasette-files 0.1a3</title><link>https://simonwillison.net/2026/Mar/30/datasette-files/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;发布：&lt;/strong&gt; &lt;a href="https://github.com/datasette/datasette-files/releases/tag/0.1a3"&gt;datasette-files 0.1a3&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;我正在将 &lt;code&gt;datasette-files&lt;/code&gt; 集成到其他插件中，例如 &lt;a href="https://github.com/datasette/datasette-extract"&gt;datasette-extract&lt;/a&gt;。这需要发布基础插件的新版本。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;owners_can_edit&lt;/code&gt; 和 &lt;code&gt;owners_can_delete&lt;/code&gt; 配置选项，以及 &lt;code&gt;files-edit&lt;/code&gt; 和 &lt;code&gt;files-delete&lt;/code&gt; 操作，现在被限定在一个新的 &lt;code&gt;FileResource&lt;/code&gt; 资源下，该资源是 &lt;code&gt;FileSourceResource&lt;/code&gt; 的子资源。&lt;a href="https://github.com/datasette/datasette-files/issues/18"&gt;#18&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;文件选择器 UI 现在可以作为 &lt;code&gt;&amp;lt;datasette-file-picker&amp;gt;&lt;/code&gt; Web 组件使用。感谢 &lt;a href="https://github.com/asg017"&gt;Alex Garcia&lt;/a&gt;。&lt;a href="https://github.com/datasette/datasette-files/issues/19"&gt;#19&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;新增 &lt;code&gt;from datasette_files import get_file&lt;/code&gt; Python API，供其他需要访问文件数据的插件使用。&lt;a href="https://github.com/datasette/datasette-files/issues/20"&gt;#20&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+    
+        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/datasette"&gt;datasette&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 30 Mar 2026 23:58:49 +0000</pubDate></item><item><title>引用乔治·格加诺夫的话</title><link>https://simonwillison.net/2026/Mar/30/georgi-gerganov/#atom-everything</link><description>&lt;blockquote cite="https://twitter.com/ggerganov/status/2038674698809102599"&gt;&lt;p&gt;请注意，人们目前在使用本地模型时无意中遇到的主要问题，大多围绕着框架以及模型聊天模板和提示构建的一些复杂性。有时甚至存在纯粹的推理错误。从在客户端输入任务到实际得到结果，这中间有一条很长的组件链，这些组件目前不仅脆弱——而且是由不同的开发方开发的。因此，很难整合整个技术栈，你必须记住，你目前观察到的情况，极有可能在这条链的某个微妙环节上仍然是存在问题的。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class="cite"&gt;&amp;mdash; &lt;a href="https://twitter.com/ggerganov/status/2038674698809102599"&gt;Georgi Gerganov&lt;/a&gt;，解释为何难以找到能与编码智能体良好配合的本地模型&lt;/p&gt;
+
+    &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/local-llms"&gt;local-llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/georgi-gerganov"&gt;georgi-gerganov&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 30 Mar 2026 21:31:02 +0000</pubDate></item><item><title>datasette-llm 0.1a3</title><link>https://simonwillison.net/2026/Mar/30/datasette-llm/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;发布：&lt;/strong&gt; &lt;a href="https://github.com/datasette/datasette-llm/releases/tag/0.1a3"&gt;datasette-llm 0.1a3&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;新增了配置&lt;a href="https://github.com/datasette/datasette-llm/tree/0.1a3#purpose-specific-configuration"&gt;特定用途可用哪些LLM&lt;/a&gt;的功能，这意味着你可以限制特定插件可使用的模型列表。&lt;a href="https://github.com/datasette/datasette-llm/issues/3"&gt;#3&lt;/a&gt;&lt;/p&gt;
+    
+        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/llm"&gt;llm&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/datasette"&gt;datasette&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 30 Mar 2026 19:48:43 +0000</pubDate></item><item><title>"话匣子先生"是一款（功能有限）维多利亚时代伦理训练的模型，您可以在自己的电脑上运行它。</title><link>https://simonwillison.net/2026/Mar/30/mr-chatterbox/#atom-everything</link><description>&lt;p&gt;特里普·文图雷拉发布了&lt;a href="https://huggingface.co/tventurella/mr_chatterbox_model"&gt;Mr. Chatterbox&lt;/a&gt;，这是一个完全基于大英图书馆的公有领域文本训练的语言模型。他是这样描述的：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Mr. Chatterbox 是一个完全从头开始训练的语言模型，其训练语料库包含超过 28,000 本维多利亚时代（1837年至1899年间出版）的英国文本，这些文本来自&lt;a href="https://huggingface.co/datasets/TheBritishLibrary/blbooks"&gt;大英图书馆提供的数据集&lt;/a&gt;。该模型绝对没有使用 1899 年之后的任何训练输入——其词汇和思想完全形成于十九世纪的文学作品。&lt;/p&gt;
 &lt;p&gt;Mr. Chatterbox 的训练语料库包含 28,035 本书籍，经过过滤后估计有 29.3 亿个输入标记。该模型大约有 3.4 亿个参数，与 GPT-2-Medium 的规模大致相同。当然，区别在于，与 GPT-2 不同，Mr. Chatterbox 完全是在历史数据上训练的。&lt;/p&gt;
@@ -61,79 +77,4 @@
 &lt;p class="cite"&gt;&amp;mdash; &lt;a href="https://interconnected.org/home/2026/03/28/architecture"&gt;Matt Webb&lt;/a&gt;, 对（技术）架构的欣赏&lt;/p&gt;
 
     &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/matt-webb"&gt;matt-webb&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/vibe-coding"&gt;vibe-coding&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/agentic-engineering"&gt;agentic-engineering&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/definitions"&gt;definitions&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sat, 28 Mar 2026 12:04:26 +0000</pubDate></item><item><title>datasette-showboat 0.1a2</title><link>https://simonwillison.net/2026/Mar/27/datasette-showboat/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;版本发布：&lt;/strong&gt; &lt;a href="https://github.com/simonw/datasette-showboat/releases/tag/0.1a2"&gt;datasette-showboat 0.1a2&lt;/a&gt;&lt;/p&gt;
-    &lt;p&gt;我为我的应用添加了一个导出Markdown文件的选项，这使得Showboat能够&lt;a href="https://simonwillison.net/2026/Feb/17/chartroom-and-datasette-showboat/#showboat-remote-publishing"&gt;逐步向远程服务器发布更新&lt;/a&gt;。&lt;/p&gt;</description><pubDate>Fri, 27 Mar 2026 23:42:47 +0000</pubDate></item><item><title>引用理查德·丰塔纳的话</title><link>https://simonwillison.net/2026/Mar/27/richard-fontana/#atom-everything</link><description>&lt;blockquote cite="https://github.com/chardet/chardet/issues/334#issuecomment-4098524555"&gt;&lt;p&gt;顺带一提，我不是律师，这不构成法律建议，等等。我目前没有看到任何依据可以得出chardet 7.0.0必须根据LGPL发布的结论。据我所知，包括Mark Pilgrim在内，没有人指出7.0.0版本中保留了早期版本的可受版权保护的表达性材料，也没有人提出任何可行的替代性许可违规理论。[...]&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class="cite"&gt;&amp;mdash; &lt;a href="https://github.com/chardet/chardet/issues/334#issuecomment-4098524555"&gt;Richard Fontana&lt;/a&gt;，LGPLv3 共同作者，就 &lt;a href="https://simonwillison.net/2026/Mar/5/chardet/"&gt;chardet 重新许可情况&lt;/a&gt;发表看法&lt;/p&gt;
-
-    &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/open-source"&gt;开源&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;人工智能伦理&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;大语言模型&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;人工智能&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;生成式人工智能&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;人工智能辅助编程&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 27 Mar 2026 21:11:17 +0000</pubDate></item><item><title>用Vibe编码SwiftUI应用非常有趣。</title><link>https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/#atom-everything</link><description>&lt;p&gt;我有一台新笔记本电脑——一台128GB M5芯片的MacBook Pro，初步体验显示它运行本地大型语言模型的能力&lt;em&gt;非常&lt;/em&gt;出色。我对活动监视器感到沮丧，于是决定用氛围编程的方式编写一些替代工具来监控性能，结果让我非常满意。&lt;/p&gt;
-&lt;p&gt;这是我第二次尝试用氛围编程开发macOS应用——第一次是&lt;a href="https://simonwillison.net/2026/Feb/25/present/"&gt;几周前做的这个演示应用&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;事实证明，Claude Opus 4.6和GPT-5.4都非常擅长SwiftUI——而且一个完整的SwiftUI应用可以放在单个文本文件里，这意味着我甚至不用打开Xcode就能用它们快速搭建出东西。&lt;/p&gt;
-&lt;p&gt;到目前为止，我已经构建了两个应用：Bandwidther显示哪些应用在使用网络带宽，Gpuer显示GPU的运行情况。按照Claude的建议，这两个应用现在都是菜单栏图标，点击会打开一个信息面板。&lt;/p&gt;
-&lt;h4 id="bandwidther"&gt;Bandwidther&lt;/h4&gt;
-&lt;p&gt;我先构建了这个应用，因为我想看看Dropbox在做什么。它看起来是这样的：&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/simonw/bandwidther/raw/main/screenshot.png" rel="noopener noreferrer" target="_blank"&gt;&lt;img alt="Bandwidther macOS应用截图，显示两列：左侧显示整体下载/上传速度、过去60秒的带宽图表、累计总量、互联网和局域网连接数以及互联网目的地；右侧按速率排序显示每个进程的带宽使用情况，列出了如nsurlsessiond、apsd、rapportd、mDNSResponder、Dropbox等进程及其各自的下载/上传速度和进度条。" src="https://github.com/simonw/bandwidther/raw/main/screenshot.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;我已经分享了&lt;a href="https://gisthost.github.io/?6e06d4724c64c10d1fc3fbe19d9c8575/index.html"&gt;构建应用第一个版本的完整对话记录&lt;/a&gt;。我的提示词相当简洁：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;显示这台机器当前使用的网络带宽中，有多少是连接到互联网的，有多少是连接到本地局域网的&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;（我最初的好奇心是想看看Dropbox是从我的旧电脑通过局域网传输文件，还是从互联网下载。）&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;创建 /tmp/bandwidther 目录，并在其中编写一个原生的Swift UI应用，实时持续地向我展示这些详细信息&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这让我得到了第一个版本，它向我证明了这值得进一步探索。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;进行 git init 并 git commit 你目前已有的内容&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;因为我即将开始添加新功能。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;现在建议我们可以为该应用添加哪些功能，目标是提供尽可能详细的网络使用信息，包括不同应用的使用情况&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;让Claude建议功能的好处是，它比我更清楚什么是可能实现的。&lt;/p&gt;&lt;p&gt;我们来回沟通了几次，修复了一些错误，然后我又发送了几个提示，最终得到了上面展示的双栏布局：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;添加“每个进程带宽”功能，完成后重新启动应用&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;现在添加反向DNS功能，但要确保原始IP地址仍然可见，尽管字体要小一些&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;重新设计应用，使其更宽，我想要两栏——左边是每个进程的栏，右边是其他内容&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;好的，把它做成一个任务栏图标。当我点击图标时，我希望应用出现，图标本身应该是一个简洁、极简的小东西&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;源代码和构建说明可在 &lt;a href="https://github.com/simonw/bandwidther"&gt;simonw/bandwidther&lt;/a&gt; 中找到。&lt;/p&gt;
-&lt;h4 id="gpuer"&gt;Gpuer&lt;/h4&gt;
-&lt;p&gt;在我构建 Bandwidther 的一个会话期间，我还运行了另一个会话来构建一个类似的工具，用于查看 GPU 的运行情况。以下是我最终得到的结果：&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/simonw/gpuer/raw/main/screenshot.png" rel="noopener noreferrer" target="_blank"&gt;&lt;img alt='Gpuer 应用在 macOS 上的截图，显示了配备 40 个 GPU 核心的 Apple M5 Max 的内存使用情况。左侧面板：一个大的橙色“38 GB 可用”读数，显示 128.0 GB 统一内存的使用情况，“在出现压力之前，大约还能再运行 18 个大型应用”，一个警告横幅显示“1.5 GB 已推送到磁盘 — 系统最近曾处于压力之下”，一个标记为“你的内存去向”的水平分段条形图，带有绿色、蓝色和灰色分段及图例，一段关于 GPU 统一内存的解释说明，一个显示 0% 的 GPU 利用率部分，以及一个历史图表，以折线图形式显示了一段时间内的可用内存和 GPU 利用率。右侧面板：一个按内存排序的“内存占用”列表，显示进程名称，每个条目旁边有水平的粉色/紫色使用条和 CPU 百分比标签，涵盖的进程包括 Dropbox、WebKit、Virtualization、node、Claude Helper、Safari、LM Studio、WindowServer、Finder 等。' src="https://github.com/simonw/gpuer/raw/main/screenshot.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;这是 &lt;a href="https://gisthost.github.io/?71ffe216ceca8d7da59a07c478d17529"&gt;对话记录&lt;/a&gt;。这个工具需要的提示甚至更少，因为我可以使用正在开发中的 Bandwidther 作为例子：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我想知道这台电脑使用了多少 RAM 和 GPU，这很困难，因为 GPU 和 RAM 上的东西似乎在活动监视器中不显示&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;它使用 &lt;code&gt;system_profiler&lt;/code&gt; 和 &lt;code&gt;memory_pressure&lt;/code&gt; 收集信息，并给了我 &lt;a href="https://gisthost.github.io/?71ffe216ceca8d7da59a07c478d17529/page-001.html#msg-2026-03-24T22-13-26-614Z"&gt;一个答案&lt;/a&gt;——更重要的是，它向我展示了这是可能的，所以我说：&lt;/p&gt;&lt;blockquote&gt;
-&lt;p&gt;查看 /tmp/bandwidther，然后在 /tmp/gpuer 中创建一个类似的应用程序，持续显示上述信息，或者也许做得更好&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;在对 Bandwidther 应用进行了一些修改后，我告诉它要跟上进度：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;现在看看 /tmp/bandwidther 最近的改动——那个应用现在使用了系统托盘图标，模仿一下&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这仍然是我使用编码助手最喜欢的一个技巧：让它们&lt;a href="https://simonwillison.net/guides/agentic-engineering-patterns/hoard-things-you-know-how-to-do/#recombining-things-from-your-hoard"&gt;重新组合&lt;/a&gt;其他项目中的元素。&lt;/p&gt;
-&lt;p&gt;Gpuer 的代码可以在 GitHub 上的 &lt;a href="https://github.com/simonw/gpuer"&gt;simonw/gpuer&lt;/a&gt; 找到。&lt;/p&gt;
-&lt;h4 id="you-shouldn-t-trust-these-apps"&gt;你不应该信任这些应用&lt;/h4&gt;
-&lt;p&gt;这两个应用是典型的氛围编程：我不懂 Swift，也几乎没怎么看它们写的代码。&lt;/p&gt;
-&lt;p&gt;但更重要的是，我对 macOS 内部机制（比如这些工具测量的数值）经验非常少。我完全没有资格评估这些工具输出的数字和图表是否可信或准确！&lt;/p&gt;
-&lt;p&gt;我已经在两个 GitHub 仓库中都添加了相应的警告。&lt;/p&gt;
-&lt;p&gt;今天早上，我发现 Gpuer 报告我只有 5GB 内存剩余，而这显然不是事实（根据活动监视器）。我&lt;a href="https://gisthost.github.io/?9ae12fff0fecc9a4482c9b02e8599c70/page-001.html#msg-2026-03-27T19-35-35-866Z"&gt;将截图粘贴到 Claude Code 中&lt;/a&gt;，它&lt;a href="https://github.com/simonw/gpuer/commit/a3cd655f5ccb274d3561e4cbfcc771b0bb7e256a"&gt;调整了计算方式&lt;/a&gt;，新的数字看起来是对的，但我仍然不确定它报告的是否正确。&lt;/p&gt;
-&lt;p&gt;我之所以在 GitHub 上分享它们，只是因为我认为它们作为展示 Claude 能用 SwiftUI 做什么的例子很有趣。&lt;/p&gt;
-&lt;p&gt;尽管我对应用本身缺乏信心，但我确实从这些项目中学到了一些有用的东西：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;一个 SwiftUI 应用仅用单个代码文件就能完成很多工作——这里是 &lt;a href="https://github.com/simonw/gpuer/blob/main/GpuerApp.swift"&gt;GpuerApp.swift&lt;/a&gt;（880 行）和 &lt;a href="https://github.com/simonw/bandwidther/blob/main/BandwidtherApp.swift"&gt;BandwidtherApp.swift&lt;/a&gt;（1063 行）。&lt;/li&gt;
-&lt;li&gt;用 Swift 将各种终端命令包装在简洁的 UI 中很容易实现。&lt;/li&gt;
-&lt;li&gt;Claude 在 SwiftUI 应用设计方面有着出奇好的品味。&lt;/li&gt;
-&lt;li&gt;将应用变成菜单栏应用也只需要几行额外的代码。&lt;/li&gt;
-&lt;li&gt;你不需要打开 Xcode 来构建这类应用！&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;构建这两个应用花了很少的时间，并且让我相信，在未来的项目中，我应该考虑将使用 SwiftUI 构建 macOS 应用作为一种新的能力。&lt;/p&gt;&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/macos"&gt;macos&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/vibe-coding"&gt;vibe-coding&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/swift"&gt;swift&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 27 Mar 2026 20:59:53 +0000</pubDate></item><item><title>我们用AI一天重写了JSONata，每年节省50万美元</title><link>https://simonwillison.net/2026/Mar/27/vine-porting-jsonata/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.reco.ai/blog/we-rewrote-jsonata-with-ai"&gt;我们用AI在一天内重写了JSONata，每年节省50万美元&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;虽然标题有点夸张，但这看起来是另一个&lt;strong&gt;氛围移植&lt;/strong&gt;的案例研究。这次是启动了一个新的、用Go语言自定义实现的&lt;a href="https://jsonata.org"&gt;JSONata&lt;/a&gt; JSON表达式语言——其关注点与jq类似，并且与&lt;a href="https://nodered.org"&gt;Node-RED&lt;/a&gt;平台紧密相关。&lt;/p&gt;
-&lt;p&gt;与其他氛围移植项目一样，关键促成因素是JSONata现有的测试套件，它帮助在7小时内花费400美元的代币构建了第一个可运行的Go版本。&lt;/p&gt;
-&lt;p&gt;Reco团队随后进行了一周的影子部署，并行运行新旧版本，以确认新实现的行为与旧版本完全一致。&lt;/p&gt;
-
-    &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/go"&gt;go&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/json"&gt;json&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/agentic-engineering"&gt;agentic-engineering&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/vibe-porting"&gt;vibe-porting&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 27 Mar 2026 00:35:01 +0000</pubDate></item></channel></rss>
+    &lt;p&gt;我为我的应用添加了一个导出Markdown文件的选项，这使得Showboat能够&lt;a href="https://simonwillison.net/2026/Feb/17/chartroom-and-datasette-showboat/#showboat-remote-publishing"&gt;逐步向远程服务器发布更新&lt;/a&gt;。&lt;/p&gt;</description><pubDate>Fri, 27 Mar 2026 23:42:47 +0000</pubDate></item></channel></rss>

@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Mon, 30 Mar 2026 16:46:31 +0000</lastBuildDate><item><title>品牌时代</title><link>https://paulgraham.com/brandage.html</link><description>&lt;p&gt;保罗·格雷厄姆：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Mon, 30 Mar 2026 21:23:19 +0000</lastBuildDate><item><title>[赞助商] Material Security</title><link>https://material.security/lp-cloud-office-security?utm_source=third-party&amp;utm_medium=email&amp;utm_campaign=20260330-daringfireball</link><description>&lt;p&gt;&lt;em&gt;停止扩充人员规模，扩展您的工作空间。&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;大多数安全团队面临的不是人才问题，而是噪音问题。手动修复网络钓鱼、追查有风险的OAuth权限以及审计文件共享，这些都不应成为全职工作。&lt;/p&gt;
+
+&lt;p&gt;Material Security 整合您的云工作空间，将电子邮件、文件和账户的检测与响应集中在一处。这是真正有效的安全方案：弥补谷歌和微软的原生安全缺口，同时避免常见的企业级臃肿。&lt;/p&gt;
+
+&lt;p&gt;别再与分散的控制台作斗争，开始专注于战略吧。是时候简化您的安全运维了。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://material.security/lp-cloud-office-security?utm_source=third-party&amp;amp;utm_medium=email&amp;amp;utm_campaign=20260330-daringfireball"&gt;了解 Material 如何实现扩展&lt;/a&gt;。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/feeds/sponsors/2026/03/material_security" title="‘Material Security’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Mon, 30 Mar 2026 21:23:19 +0000</pubDate></item><item><title>品牌时代</title><link>https://paulgraham.com/brandage.html</link><description>&lt;p&gt;保罗·格雷厄姆：&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;因此，当一个世界仅由品牌来定义时，它将会是一个怪异而糟糕的世界。&lt;/p&gt;
@@ -105,20 +117,4 @@ PDF归档：
 
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/linked/2026/03/28/mccracken-apple-oral-history" title="永久链接至《苹果如何成为苹果：公司早期岁月权威口述史》"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Sat, 28 Mar 2026 21:57:01 +0000</pubDate></item><item><title>Netflix 搞砸了他们的 tvOS 视频播放器</title><link>https://www.pocket-lint.com/netflix-just-made-their-app-worse-and-theres-no-way-to-fix-it/</link><description>&lt;p&gt;Amanda Kondolojy 为 Pocket-lint 撰文写道：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;尽管 Netflix 应用在大多数平台上大体相同，但上周末，非官方的 &lt;a href="https://www.reddit.com/r/appletv/"&gt;Apple TV Reddit&lt;/a&gt; 上的几位 Apple TV 用户注意到，该应用的 tvOS 版本进行了一些细微改动，这些改动以微妙但非常令人沮丧的方式让应用变得更难使用。&lt;/p&gt;
-&lt;p&gt;根据用户 &lt;a href="https://www.reddit.com/r/appletv/comments/1s11td4/did_netflix_mess_up_the_app_there_are_two_extra/"&gt;iamonreddit&lt;/a&gt; 的说法，最近的 Netflix 应用更新使得快进和快退功能的使用略微困难了一些。原本点击遥控器转盘上的后退或前进按钮可以前进或后退十秒，现在按下这个按钮会暂停屏幕并弹出一个帧选择器。为了实际前进或后退，用户必须再次点击同一个按钮。所以本质上，以前只需按一次按钮的操作，现在需要按两次。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这些改动并不小，也不微妙，而且不仅仅是让快进和快退变得“略微”困难。（而且以前只需按一次按钮的操作，现在需要按&lt;em&gt;三次&lt;/em&gt;，而不是两次。）流媒体应用中的视频播放界面是流媒体应用最核心的功能，而现在 Netflix 的 tvOS 播放器看起来糟糕透顶，运行也不正常。Kondolojy 引用的原始报告来自 Reddit 用户“iamonreddit”（是的，就是你），&lt;a href="https://www.reddit.com/r/appletv/"&gt;如实描述了情况&lt;/a&gt;：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Netflix 把应用搞砸了吗？现在进行简单的 10 秒快退或快进需要额外点击两次。以前点击一次就能后退 10 秒，现在它会暂停并弹出帧选择器，然后你必须再点击一次。他们在发布这个更新之前难道没有做任何研究或可用性测试吗？&lt;/p&gt;
-&lt;p&gt;而且一点也不流畅，它会持续旋转一会儿，而我有 1G 光纤网络。这真是个大退步！&lt;/p&gt;
-&lt;p&gt;他们拥有世界上一些薪酬最高的员工，结果就想出了这个。除非这是苹果引入某些限制的结果。&lt;/p&gt;
-&lt;p&gt;看起来他们这次搞砸得很严重。Netflix 曾经为他人设定标杆。现在我们却到了这个地步。我用了十多年他们的应用，至今从未遇到过任何问题。&lt;/p&gt;
-&lt;/blockquote&gt;&lt;p&gt;Netflix全新推出的自定义视频播放器不仅毫无必要地丑陋，还犯下了种种损害无障碍功能的罪行。两年前，我曾撰文介绍tvOS的系统无障碍快捷功能，它允许你将&lt;a href="https://daringfireball.net/2024/03/quickly_toggling_closed_captions_on_apple_tv"&gt;连按三次返回（“&amp;lt;”）按钮设置为切换字幕&lt;/a&gt;，而当时Netflix并不支持此功能。如今这个糟糕的新播放器，你大概不会感到意外，同样不支持它。它也不支持那个绝佳的平台标准操作：当你回退10或20秒时，可以&lt;em&gt;临时&lt;/em&gt;开启字幕，以便应对“&lt;em&gt;他们刚才说了什么？&lt;/em&gt;”的时刻。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;更新：&lt;/strong&gt; 切换到他们自己的自定义视频播放器&lt;em&gt;还&lt;/em&gt;破坏了Netflix与iPhone的集成功能。直到上周，在Apple TV上的Netflix应用中播放视频时，你的iPhone锁屏上还会出现一个实时活动小组件，显示当前节目名称、播放进度和播放控制。现在这个功能消失了。&lt;/p&gt;
-&lt;p&gt;这种功能退步恰好发生在Netflix宣布涨价的一周内，这让我非常愤怒，以至于我&lt;a href="https://daringfireball.net/linked/2026/03/27/netflix-raises-prices-again"&gt;甚至&lt;em&gt;更多&lt;/em&gt;地考虑&lt;/a&gt;将我们家的Netflix账户从每月27美元的高级套餐降级到每月20美元的标准套餐。每年只给Netflix 240美元而不是324美元，这足以表明我的态度。&lt;/p&gt;
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/03/28/netflix-wrecked-their-tvos-video-player" title="永久链接至‘Netflix毁掉了他们的tvOS视频播放器’"&gt; ★ &lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Sat, 28 Mar 2026 15:52:08 +0000</pubDate></item></channel></rss>
+&lt;/div&gt;</description><pubDate>Sat, 28 Mar 2026 21:57:01 +0000</pubDate></item></channel></rss>
