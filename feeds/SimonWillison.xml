@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Wed, 01 Apr 2026 03:32:16 +0000</lastBuildDate><item><title>datasette-extract 0.3a0</title><link>https://simonwillison.net/2026/Apr/1/datasette-extract/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;发布：&lt;/strong&gt; &lt;a href="https://github.com/datasette/datasette-extract/releases/tag/0.3a0"&gt;datasette-extract 0.3a0&lt;/a&gt;&lt;/p&gt;
-    &lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;此插件现在使用 &lt;a href="https://github.com/datasette/datasette-llm"&gt;datasette-llm&lt;/a&gt; 来配置和管理模型。这意味着可以通过新的 &lt;code&gt;enrichments&lt;/code&gt; 目的，&lt;a href="https://github.com/datasette/datasette-enrichments-llm/blob/0.2a0/README.md#configuration"&gt;指定哪些模型&lt;/a&gt;应可用于数据增强。&lt;/li&gt;
+    &lt;ul&gt;
+&lt;li&gt;现在使用 &lt;a href="https://github.com/datasette/datasette-llm"&gt;datasette-llm&lt;/a&gt; 来管理模型配置，这意味着你可以通过 &lt;code&gt;extract&lt;/code&gt; 用途和 &lt;a href="https://github.com/datasette/datasette-llm/blob/main/README.md#configuration"&gt;LLM 模型配置&lt;/a&gt; 来控制哪些模型可用于提取任务。&lt;a href="https://github.com/datasette/datasette-extract/issues/38"&gt;#38&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/blockquote&gt;
     
         &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/llm"&gt;llm&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/datasette"&gt;datasette&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 01 Apr 2026 03:32:16 +0000</pubDate></item><item><title>datasette-enrichments-llm 0.2a0</title><link>https://simonwillison.net/2026/Apr/1/datasette-enrichments-llm/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;发布：&lt;/strong&gt; &lt;a href="https://github.com/datasette/datasette-enrichments-llm/releases/tag/0.2a0"&gt;datasette-enrichments-llm 0.2a0&lt;/a&gt;&lt;/p&gt;
     &lt;blockquote&gt;
