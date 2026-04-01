@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Tue, 31 Mar 2026 23:28:40 +0000</lastBuildDate><item><title>Axios供应链攻击从npm拉取恶意依赖</title><link>https://simonwillison.net/2026/Mar/31/supply-chain-attack-on-axios/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://socket.dev/blog/axios-npm-package-compromised"&gt;Axios遭遇供应链攻击，从npm拉取恶意依赖包&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Wed, 01 Apr 2026 03:32:16 +0000</lastBuildDate><item><title>datasette-extract 0.3a0</title><link>https://simonwillison.net/2026/Apr/1/datasette-extract/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;发布：&lt;/strong&gt; &lt;a href="https://github.com/datasette/datasette-extract/releases/tag/0.3a0"&gt;datasette-extract 0.3a0&lt;/a&gt;&lt;/p&gt;
+    &lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;此插件现在使用 &lt;a href="https://github.com/datasette/datasette-llm"&gt;datasette-llm&lt;/a&gt; 来配置和管理模型。这意味着可以通过新的 &lt;code&gt;enrichments&lt;/code&gt; 目的，&lt;a href="https://github.com/datasette/datasette-enrichments-llm/blob/0.2a0/README.md#configuration"&gt;指定哪些模型&lt;/a&gt;应可用于数据增强。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+    
+        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/llm"&gt;llm&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/datasette"&gt;datasette&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 01 Apr 2026 03:32:16 +0000</pubDate></item><item><title>datasette-enrichments-llm 0.2a0</title><link>https://simonwillison.net/2026/Apr/1/datasette-enrichments-llm/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;发布：&lt;/strong&gt; &lt;a href="https://github.com/datasette/datasette-enrichments-llm/releases/tag/0.2a0"&gt;datasette-enrichments-llm 0.2a0&lt;/a&gt;&lt;/p&gt;
+    &lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;该插件现在使用 &lt;a href="https://github.com/datasette/datasette-llm"&gt;datasette-llm&lt;/a&gt; 来配置和管理模型。这意味着可以通过新的 &lt;code&gt;enrichments&lt;/code&gt; 用途来&lt;a href="https://github.com/datasette/datasette-enrichments-llm/blob/0.2a0/README.md#configuration"&gt;指定哪些模型&lt;/a&gt;应可用于数据增强。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+    
+        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/llm"&gt;llm&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/datasette"&gt;datasette&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 01 Apr 2026 03:28:44 +0000</pubDate></item><item><title>datasette-llm-usage 0.2a0</title><link>https://simonwillison.net/2026/Apr/1/datasette-llm-usage/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;发布：&lt;/strong&gt; &lt;a href="https://github.com/datasette/datasette-llm-usage/releases/tag/0.2a0"&gt;datasette-llm-usage 0.2a0&lt;/a&gt;&lt;/p&gt;
+    &lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;移除了与额度及预估定价相关的功能。这些功能现属于 &lt;a href="https://github.com/datasette/datasette-llm-accountant"&gt;datasette-llm-accountant&lt;/a&gt; 的范畴。&lt;/li&gt;
+&lt;li&gt;现在依赖 &lt;a href="https://github.com/datasette/datasette-llm"&gt;datasette-llm&lt;/a&gt; 进行模型配置。&lt;a href="https://github.com/datasette/datasette-llm-usage/pull/3"&gt;#3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;如果您设置了新的 &lt;code&gt;datasette-llm-usage.log_prompts&lt;/code&gt; 插件配置项，现在可以将完整的提示、响应以及工具调用记录到内部数据库的 &lt;code&gt;llm_usage_prompt_log&lt;/code&gt; 表中。&lt;/li&gt;
+&lt;li&gt;重新设计了 &lt;code&gt;/-/llm-usage-simple-prompt&lt;/code&gt; 页面，该页面现在需要 &lt;code&gt;llm-usage-simple-prompt&lt;/code&gt; 权限。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+    
+        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/llm"&gt;llm&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/datasette"&gt;datasette&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 01 Apr 2026 03:24:03 +0000</pubDate></item><item><title>datasette-llm 0.1a5</title><link>https://simonwillison.net/2026/Apr/1/datasette-llm/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;发布：&lt;/strong&gt; &lt;a href="https://github.com/datasette/datasette-llm/releases/tag/0.1a5"&gt;datasette-llm 0.1a5&lt;/a&gt;&lt;/p&gt;
+    &lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;llm_prompt_context()&lt;/code&gt; 插件钩子包装机制现在可以追踪链式调用中执行的提示词以及一次性提示词，这意味着它可以用于追踪工具调用循环。&lt;a href="https://github.com/datasette/datasette-llm"&gt;#5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+    
+        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/llm"&gt;llm&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/datasette"&gt;datasette&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 01 Apr 2026 03:11:01 +0000</pubDate></item><item><title>引用崔秀勋的话</title><link>https://simonwillison.net/2026/Apr/1/soohoon-choi/#atom-everything</link><description>&lt;blockquote cite="https://www.greptile.com/blog/ai-slopware-future"&gt;&lt;p&gt;我认为，由于经济激励，AI模型将能编写出优质的代码。优质代码的生成和维护成本更低。目前AI模型之间的竞争非常激烈，而胜出的模型将帮助开发者以最快的速度交付可靠的功能，这需要简单、可维护的代码。优质代码将占据主导地位，不仅仅是因为我们希望如此（尽管我们确实希望！），更是因为经济力量要求如此。从长远来看，市场不会奖励代码中的粗制滥造。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class="cite"&gt;&amp;mdash; &lt;a href="https://www.greptile.com/blog/ai-slopware-future"&gt;Soohoon Choi&lt;/a&gt;, 《粗制滥造不一定是未来》&lt;/p&gt;
+
+    &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/slop"&gt;slop&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/agentic-engineering"&gt;agentic-engineering&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 01 Apr 2026 02:07:16 +0000</pubDate></item><item><title>Axios供应链攻击从npm拉取恶意依赖</title><link>https://simonwillison.net/2026/Mar/31/supply-chain-attack-on-axios/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://socket.dev/blog/axios-npm-package-compromised"&gt;Axios遭遇供应链攻击，从npm拉取恶意依赖包&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;关于今天针对Axios（一个拥有&lt;a href="https://www.npmjs.com/package/axios"&gt;每周1.01亿次下载量&lt;/a&gt;的HTTP客户端NPM包）的供应链攻击，这里有一篇有用的分析文章。版本&lt;code&gt;1.14.1&lt;/code&gt;和&lt;code&gt;0.30.4&lt;/code&gt;都包含了一个名为&lt;code&gt;plain-crypto-js&lt;/code&gt;的新依赖项，这是一个新发布的恶意软件，旨在窃取凭证并安装远程访问木马（RAT）。&lt;/p&gt;
 &lt;p&gt;看起来这次攻击源于一个泄露的长期有效的npm令牌。Axios团队&lt;a href="https://github.com/axios/axios/issues/7055"&gt;有一个待解决的议题是关于采用可信发布机制&lt;/a&gt;，这将确保只有他们的GitHub Actions工作流才能向npm发布包。这些恶意软件包的发布没有伴随GitHub版本发布，这在我看来是一个用于发现潜在恶意发布的有用启发式方法——上周LiteLLM的&lt;a href="https://simonwillison.net/2026/Mar/24/malicious-litellm/"&gt;攻击事件&lt;/a&gt;也出现了相同的模式。&lt;/p&gt;
 
@@ -33,65 +67,4 @@
 &lt;/ul&gt;
 &lt;/blockquote&gt;
     
-        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/llm"&gt;llm&lt;/a&gt;&lt;/p&gt;</description><pubDate>Tue, 31 Mar 2026 16:48:59 +0000</pubDate></item><item><title>llm-echo 0.3</title><link>https://simonwillison.net/2026/Mar/31/llm-echo-2/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;发布：&lt;/strong&gt; &lt;a href="https://github.com/simonw/llm-echo/releases/tag/0.3"&gt;llm-echo 0.3&lt;/a&gt;&lt;/p&gt;
-    &lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;用于&lt;a href="https://github.com/simonw/llm-echo/blob/0.3/README.md#tool-calling"&gt;测试工具调用&lt;/a&gt;的机制。 #3&lt;/li&gt;
-&lt;li&gt;用于&lt;a href="https://github.com/simonw/llm-echo/blob/0.3/README.md#raw-responses"&gt;测试原始响应&lt;/a&gt;的机制。 #4&lt;/li&gt;
-&lt;li&gt;新的 &lt;code&gt;echo-needs-key&lt;/code&gt; 模型，用于&lt;a href="https://github.com/simonw/llm-echo/blob/0.3/README.md#echo-needs-key-model"&gt;测试模型密钥逻辑&lt;/a&gt;。 #7&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-    
-        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/llm"&gt;llm&lt;/a&gt;&lt;/p&gt;</description><pubDate>Tue, 31 Mar 2026 15:43:26 +0000</pubDate></item><item><title>datasette-files 0.1a3</title><link>https://simonwillison.net/2026/Mar/30/datasette-files/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;发布：&lt;/strong&gt; &lt;a href="https://github.com/datasette/datasette-files/releases/tag/0.1a3"&gt;datasette-files 0.1a3&lt;/a&gt;&lt;/p&gt;
-    &lt;p&gt;我正在将 &lt;code&gt;datasette-files&lt;/code&gt; 集成到其他插件中，例如 &lt;a href="https://github.com/datasette/datasette-extract"&gt;datasette-extract&lt;/a&gt;。这需要发布基础插件的新版本。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;owners_can_edit&lt;/code&gt; 和 &lt;code&gt;owners_can_delete&lt;/code&gt; 配置选项，以及 &lt;code&gt;files-edit&lt;/code&gt; 和 &lt;code&gt;files-delete&lt;/code&gt; 操作，现在被限定在一个新的 &lt;code&gt;FileResource&lt;/code&gt; 资源下，该资源是 &lt;code&gt;FileSourceResource&lt;/code&gt; 的子资源。&lt;a href="https://github.com/datasette/datasette-files/issues/18"&gt;#18&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;文件选择器 UI 现在可以作为 &lt;code&gt;&amp;lt;datasette-file-picker&amp;gt;&lt;/code&gt; Web 组件使用。感谢 &lt;a href="https://github.com/asg017"&gt;Alex Garcia&lt;/a&gt;。&lt;a href="https://github.com/datasette/datasette-files/issues/19"&gt;#19&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;新增 &lt;code&gt;from datasette_files import get_file&lt;/code&gt; Python API，供其他需要访问文件数据的插件使用。&lt;a href="https://github.com/datasette/datasette-files/issues/20"&gt;#20&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-    
-        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/datasette"&gt;datasette&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 30 Mar 2026 23:58:49 +0000</pubDate></item><item><title>引用乔治·格加诺夫的话</title><link>https://simonwillison.net/2026/Mar/30/georgi-gerganov/#atom-everything</link><description>&lt;blockquote cite="https://twitter.com/ggerganov/status/2038674698809102599"&gt;&lt;p&gt;请注意，人们目前在使用本地模型时无意中遇到的主要问题，大多围绕着框架以及模型聊天模板和提示构建的一些复杂性。有时甚至存在纯粹的推理错误。从在客户端输入任务到实际得到结果，这中间有一条很长的组件链，这些组件目前不仅脆弱——而且是由不同的开发方开发的。因此，很难整合整个技术栈，你必须记住，你目前观察到的情况，极有可能在这条链的某个微妙环节上仍然是存在问题的。&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class="cite"&gt;&amp;mdash; &lt;a href="https://twitter.com/ggerganov/status/2038674698809102599"&gt;Georgi Gerganov&lt;/a&gt;，解释为何难以找到能与编码智能体良好配合的本地模型&lt;/p&gt;
-
-    &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/local-llms"&gt;local-llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/georgi-gerganov"&gt;georgi-gerganov&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 30 Mar 2026 21:31:02 +0000</pubDate></item><item><title>datasette-llm 0.1a3</title><link>https://simonwillison.net/2026/Mar/30/datasette-llm/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;发布：&lt;/strong&gt; &lt;a href="https://github.com/datasette/datasette-llm/releases/tag/0.1a3"&gt;datasette-llm 0.1a3&lt;/a&gt;&lt;/p&gt;
-    &lt;p&gt;新增了配置&lt;a href="https://github.com/datasette/datasette-llm/tree/0.1a3#purpose-specific-configuration"&gt;特定用途可用哪些LLM&lt;/a&gt;的功能，这意味着你可以限制特定插件可使用的模型列表。&lt;a href="https://github.com/datasette/datasette-llm/issues/3"&gt;#3&lt;/a&gt;&lt;/p&gt;
-    
-        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/llm"&gt;llm&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/datasette"&gt;datasette&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 30 Mar 2026 19:48:43 +0000</pubDate></item><item><title>"话匣子先生"是一款（功能有限）维多利亚时代伦理训练的模型，您可以在自己的电脑上运行它。</title><link>https://simonwillison.net/2026/Mar/30/mr-chatterbox/#atom-everything</link><description>&lt;p&gt;特里普·文图雷拉发布了&lt;a href="https://www.estragon.news/mr-chatterbox-or-the-modern-prometheus/"&gt;《话匣子先生》&lt;/a&gt;，这是一个完全基于大英图书馆已过版权期的文本训练的语言模型。以下是他在&lt;a href="https://huggingface.co/tventurella/mr_chatterbox_model"&gt;模型卡片&lt;/a&gt;中的描述：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;话匣子先生是一个完全从头开始训练的语言模型，其训练语料库包含超过28,000份维多利亚时代（1837年至1899年间出版）的英国文本，这些文本取自&lt;a href="https://huggingface.co/datasets/TheBritishLibrary/blbooks"&gt;大英图书馆提供&lt;/a&gt;的数据集。该模型绝对没有使用1899年之后的任何训练输入——其词汇和思想完全由十九世纪的文学塑造。&lt;/p&gt;
-&lt;p&gt;话匣子先生的训练语料库包含28,035本书籍，经过过滤后估计有29.3亿个输入词元。该模型大约有3.4亿个参数，大致与GPT-2-Medium的规模相当。当然，区别在于，与GPT-2不同，话匣子先生完全是在历史数据上训练的。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;考虑到在不使用大量未经许可抓取数据的情况下训练一个有用的LLM是多么困难，我梦想这样一个模型已经有好几年了。一个基于已过版权期文本训练的模型，与之对话会是什么感觉呢？&lt;/p&gt;
-&lt;p&gt;多亏了特里普，我们现在可以亲自体验一下了！&lt;/p&gt;
-&lt;p&gt;这个模型本身很小，至少按照大型语言模型的标准来看——在磁盘上只有&lt;a href="https://huggingface.co/tventurella/mr_chatterbox_model/tree/main"&gt;2.05GB&lt;/a&gt;。你可以使用特里普的&lt;a href="https://huggingface.co/spaces/tventurella/mr_chatterbox"&gt;HuggingFace Spaces演示&lt;/a&gt;来尝试它：&lt;/p&gt;
-&lt;p style="text-align: center;"&gt;&lt;img alt="一个维多利亚风格聊天机器人界面的截图，标题为“🎩 话匣子先生（测试版）”，副标题为“维多利亚绅士聊天机器人”。对话显示用户问“我在晚餐时应该如何表现？”，机器人回答“我的好伙计，人们可能会认为，在晚间谈话中，这种琐事不会吸引你的注意力！”。用户接着问“什么话题好呢？”，机器人回答“我们社会最紧迫的话题——确实，一位绅士必须努力以优雅和活力参与对话。当与令人愉快的同伴相处时，这些追求是抵御无聊的重要解药。”底部的文本输入框显示“打个招呼...”，旁边有一个发送按钮。界面使用了深栗色和奶油色的配色方案。" src="https://static.simonwillison.net/static/2026/chatterbox.jpg"/&gt;&lt;/p&gt;
-&lt;p&gt;老实说，它相当糟糕。与它对话的感觉更像是与一个马尔可夫链聊天，而不是一个LLM——回答可能带有令人愉悦的维多利亚时代风味，但很难得到一个能有效回答问题的回应。&lt;/p&gt;&lt;p&gt;2022年的&lt;a href="https://arxiv.org/abs/2203.15556"&gt;Chinchilla论文&lt;/a&gt;建议训练词元数量与参数数量之比为20倍。对于一个3.4亿参数的模型，这意味着大约需要70亿个词元，是本文所用的大英图书馆语料库的两倍多。最小的Qwen 3.5模型有6亿参数，而该模型家族在20亿参数时才开始变得有趣——所以我的直觉是，我们需要4倍或更多的训练数据，才能得到一个开始感觉像是有用的对话伙伴的东西。&lt;/p&gt;
-&lt;p&gt;但这真是个有趣的项目！&lt;/p&gt;
-&lt;h4 id="running-it-locally-with-llm"&gt;使用LLM在本地运行&lt;/h4&gt;
-&lt;p&gt;我决定看看是否能用我的&lt;a href="https://llm.datasette.io/"&gt;LLM&lt;/a&gt;框架在我自己的机器上运行这个模型。&lt;/p&gt;
-&lt;p&gt;我让Claude Code完成了大部分工作——&lt;a href="https://gisthost.github.io/?7d0f00e152dd80d617b5e501e4ff025b/index.html"&gt;这是对话记录&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;Trip使用Andrej Karpathy的&lt;a href="https://github.com/karpathy/nanochat"&gt;nanochat&lt;/a&gt;训练了模型，所以我克隆了那个项目，拉取了模型权重，并让Claude构建一个Python脚本来运行模型。在我们让它工作之后（最终还需要从&lt;a href="https://huggingface.co/spaces/tventurella/mr_chatterbox/tree/main"&gt;Space演示源代码&lt;/a&gt;中获取一些额外细节），我让Claude&lt;a href="https://llm.datasette.io/en/stable/plugins/tutorial-model-plugin.html"&gt;阅读了LLM插件教程&lt;/a&gt;并构建了插件的其余部分。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/simonw/llm-mrchatterbox"&gt;llm-mrchatterbox&lt;/a&gt;就是成果。像这样安装插件：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;llm install llm-mrchatterbox
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;第一次运行提示时，它会从Hugging Face获取2.05GB的模型文件。像这样尝试：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;llm -m mrchatterbox "Good day, sir"
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;或者像这样开始一个持续的聊天会话：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;llm chat -m mrchatterbox
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;如果你没有安装LLM，仍然可以使用uvx从头开始一个聊天会话，像这样：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;uvx --with llm-mrchatterbox llm chat -m mrchatterbox
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;当你完成模型使用后，可以使用以下命令删除缓存文件：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;llm mrchatterbox delete-model
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;这是我第一次让Claude Code从头开始构建一个完整的LLM模型插件，效果非常好。我预计未来会再次使用这种方法。&lt;/p&gt;
-&lt;p&gt;我仍然希望我们能从完全属于公共领域的数据中得到一个有用的模型。Trip能够使用nanochat和29.3亿训练词元取得如此进展，这是一个充满希望的开端。&lt;/p&gt;
-&lt;p id="update-31st"&gt;&lt;strong&gt;2026年3月31日更新&lt;/strong&gt;：我最初发布这篇文章时错过了这一点，但Trip有他自己关于该项目的&lt;a href="https://www.estragon.news/mr-chatterbox-or-the-modern-prometheus/"&gt;详细说明&lt;/a&gt;，更深入地介绍了他是如何训练模型的。以下是书籍在预训练阶段是如何筛选的：&lt;/p&gt;&lt;blockquote&gt;
-&lt;p&gt;首先，我下载了大英图书馆数据集中所有19世纪书籍的分割部分。我将其筛选至维多利亚女王统治时期的书籍——遗憾的是，这排除了简·奥斯汀的小说——并进一步根据元数据中列出的光学字符识别（OCR）置信度筛选出.65及以上的书籍。这最终留下了28,035本书，大约29.3亿个标记作为预训练数据。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;让它表现得像一个对话模型要困难得多。Trip一开始尝试用奥斯卡·王尔德和萧伯纳的剧本来训练，但发现它们提供的对话对不够。然后他尝试从书籍本身提取对话对，结果也不理想。最终奏效的方法是使用Claude Haiku和GPT-4o-mini为监督微调生成合成的对话对，这解决了问题，但遗憾的是，我认为这稀释了原始模型卡中“没有1899年后的训练输入”的说法。&lt;/p&gt;
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/andrej-karpathy"&gt;andrej-karpathy&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/local-llms"&gt;local-llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/hugging-face"&gt;hugging-face&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llm"&gt;llm&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/training-data"&gt;training-data&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/uv"&gt;uv&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;ai-ethics&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 30 Mar 2026 14:28:34 +0000</pubDate></item></channel></rss>
+        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/llm"&gt;llm&lt;/a&gt;&lt;/p&gt;</description><pubDate>Tue, 31 Mar 2026 16:48:59 +0000</pubDate></item></channel></rss>
