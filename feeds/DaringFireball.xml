@@ -1,5 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Thu, 02 Apr 2026 00:10:29 +0000</lastBuildDate><item><title>克里斯·埃斯皮诺萨，苹果公司第八号员工，登上《纽约时报》人物特写</title><link>https://www.nytimes.com/2026/04/01/technology/apple-employee-50-years.html?unlocked_article_code=1.X1A.QEzX.u6cPCOjBE3mT</link><description>&lt;p&gt;《纽约时报》的Kalley Huang写道（礼物链接）：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Thu, 02 Apr 2026 18:42:39 +0000</lastBuildDate><item><title>Axios，广受欢迎的NPM包，在其维护者遭受攻击时被入侵</title><link>https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan</link><description>&lt;p&gt;StepSecurity:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;如果你安装了 axios@1.14.1 或 axios@0.30.4，请假设你的系统已遭入侵。&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;axios&lt;/code&gt; 本身内部没有任何恶意代码，而这正是此次攻击如此危险的原因。这两个被污染的版本都注入了一个虚假依赖项 &lt;code&gt;plain-crypto-js@4.2.1&lt;/code&gt;，这个包在 &lt;code&gt;axios&lt;/code&gt; 源代码中从未被导入过，其唯一目的是运行一个 &lt;code&gt;postinstall&lt;/code&gt; 脚本，该脚本会部署一个跨平台远程访问木马。这个投放器会联系一个活跃的命令与控制服务器，为 macOS、Windows 和 Linux 分别提供独立的第二阶段有效载荷，然后自我删除，并用一个干净的诱饵替换其自身的 &lt;code&gt;package.json&lt;/code&gt;。事后检查其 &lt;code&gt;node_modules&lt;/code&gt; 文件夹的开发者将找不到任何出错的迹象。&lt;/p&gt;
+
+&lt;p&gt;这不是机会主义行为。这是精准打击。恶意依赖项被提前 18 小时部署。为三个操作系统预构建了三个有效载荷。两个发布分支在 39 分钟内相继被污染。每个构件都设计为自毁。在 &lt;code&gt;npm install&lt;/code&gt; 执行后的两秒内，甚至在 npm 完成解析依赖项之前，恶意软件就已经在向攻击者的服务器“回传”信息了。这是有记录以来针对 npm 前十名包的最具操作复杂性的供应链攻击之一。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;可能是我对 JavaScript 的偏见在作祟，但我发现这发生在同一个框架上并不令人惊讶，毕竟&lt;a href="https://daringfireball.net/linked/2022/03/20/node-ipc-protest-ukraine"&gt;这个&lt;/a&gt;和&lt;a href="https://www.theregister.com/2016/03/23/npm_left_pad_chaos/"&gt;这个&lt;/a&gt;也发生在它身上。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/04/02/axios-attack" title="‘Axios, Super Popular NPM Package, Was Compromised in Attack on the Module’s Maintainer’ 的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Thu, 02 Apr 2026 18:42:39 +0000</pubDate></item><item><title>“不，我们并不笨。只是我们的爸爸给我们买了糟糕的电脑。”</title><link>https://www.reddit.com/r/VintageApple/comments/bq4ucw/mcintosh_jr_vintage_apple_parody/</link><description>&lt;p&gt;早在1991年3月，《周六夜现场》播出了我认为有史以来最好的苹果模仿广告：“麦金塔小子”。本周在《脱口秀》节目中，我和西拉库萨在庆祝苹果公司成立50周年时谈到了它，所以我为节目笔记查找了相关资料。唉，&lt;a href="https://www.reddit.com/r/VintageApple/comments/bq4ucw/mcintosh_jr_vintage_apple_parody/"&gt;这个保存在Reddit上的、分辨率低得惊人的版本&lt;/a&gt;似乎是唯一能免费观看的副本。（如果你能找到——或者制作出——更好的版本，&lt;a href="https://daringfireball.net/contact/"&gt;请告诉我&lt;/a&gt;。）如果你有Peacock账户，你可以在他们的《周六夜现场》档案中以更高的质量观看：&lt;a href="https://www.peacocktv.com/watch/playback/vod/_/56258847-e478-341e-ba9b-f0c102b1fc13?paused=true"&gt;第16季第16集&lt;/a&gt;，从7分30秒开始，就在主持人杰瑞米·艾恩斯的独白之后。（紧接着就是一段不错的“杰克·汉迪的深度思考”。）&lt;/p&gt;
+
+&lt;p&gt;我们刚刚录制了明天&lt;a href="https://dithering.fm/"&gt;《犹豫不决》&lt;/a&gt;的节目，本问我最喜欢的苹果广告是什么。我差点想说这个，尽管它并非真实存在。最好的模仿作品是那些最贴近其主题本质、夸张程度最小的作品。而“麦金塔小子”的核心信息，实际上正是麦金塔乃至整个苹果公司的真正目的：能让你发挥最佳工作状态的电脑。思想的自行车。当然，还有碾压其他孩子的力量。这就是吸引我和西拉库萨投身苹果电脑的原因，并且至今仍让我们为之着迷。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/04/02/mcintosh-jr" title="永久链接至‘不，我们并不笨。只是我们的爸爸给我们买了蹩脚的电脑。’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Thu, 02 Apr 2026 18:12:11 +0000</pubDate></item><item><title>杰森·斯内尔报道苹果公司33年</title><link>https://www.macworld.com/article/3103792/thanks-for-the-wild-ride-apple-lets-keep-it-going.html</link><description>&lt;p&gt;杰森·斯内尔在《Macworld》上撰文，回顾他于1993年加入《MacUser》杂志社的经历：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;然而，尽管Mac对我这样一位从事印刷和在线出版物写作与编辑工作的人来说，是如此的令人惊叹和富有启示性，但我很快发现，那个时期的苹果公司内部一片混乱。在我成为全职员工的第一天，一位文字编辑从隔间墙上方探出头来，问我是否听到了任何关于裁员的消息。欢迎来到媒体行业，小子。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/04/02/snell-apple-50" title="《杰森·斯内尔报道苹果公司33年》的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Thu, 02 Apr 2026 16:53:02 +0000</pubDate></item><item><title>“商业中的伟大成就从来不是由一个人完成的，而是由一个团队共同实现的。”</title><link>https://www.youtube.com/watch?v=vydmUCGQnyI</link><description>&lt;p&gt;《60分钟》节目发布了一段2003年丹·拉瑟采访史蒂夫·乔布斯的短片，内容相当精彩。这段采访似乎既契合了苹果在乔布斯去世后持续取得的成功，也驳斥了白宫中的&lt;a href="https://daringfireball.net/linked/2026/04/02/trumps-white-house-ballroom-design-is-shit"&gt;个人崇拜现象&lt;/a&gt;。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/04/02/60-minutes-rather-jobs" title="永久链接至‘商业上的伟大成就从来不是由一个人完成的，而是由一群人共同实现的。’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Thu, 02 Apr 2026 15:17:27 +0000</pubDate></item><item><title>★ 大卫·波格的《苹果：第一个50年》</title><link>https://daringfireball.net/2026/04/pogue_apple_first_50_years</link><description>&lt;p&gt;几周前，波格&lt;a href="https://daringfireball.net/thetalkshow/2026/03/18/ep-443"&gt;做客我的《脱口秀》节目&lt;/a&gt;，谈论他的新书&lt;em&gt;&lt;a href="https://www.applefirst50.com/"&gt;《苹果：第一个50年》&lt;/a&gt;&lt;/em&gt;，节目非常有趣。但这本书本身是如此出色、如此全面、如此&lt;em&gt;有趣&lt;/em&gt;，在我们庆祝苹果公司成立50周年之际，感觉必须推荐一下。我通常偏爱纸质书，而这本书的印刷版尤其出色——它是一本精美的全彩印刷书籍（不仅仅是中间夹着16页彩页那种）。苹果的历史无论是字面意义还是象征意义上都色彩斑斓，波格收录的照片和截图都非常棒。&lt;/p&gt;
+&lt;p&gt;这本书堪称一部即时经典——既是一本非常愉快的读物，也是一本为未来几十年精心研究的参考书。波格既涵盖了广为人知的领域，&lt;em&gt;也&lt;/em&gt;报道了无数前所未闻的珍贵信息、轶事和细节。例如，我们都知道史蒂夫·乔布斯曾反对向第三方应用开放iPhone。但波格采访了斯科特·福斯特尔，得到了这个故事，讲述了史蒂夫·乔布斯认为苹果公司可以在不向第三方开发者开放的情况下，能在多大程度上扩展iPhone的软件库：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“我要你列出所有客户可能想用的每一个应用，”他告诉福斯特尔。“然后我们俩来给这个列表排优先级。接着我会给你开一张空白支票，你要组建世界上有史以来最大的开发团队，尽可能快地开发尽可能多的应用。”&lt;/p&gt;
+&lt;p&gt;福斯特尔心存疑虑，开始列清单。但在私下里，他指示他的工程师将应用商店的安全基础架构构建到iPhone的软件中——“违背史蒂夫的知识和意愿，”福斯特尔说。[...]&lt;/p&gt;
+&lt;p&gt;iPhone发布两周后，有人找到了“越狱”iPhone的方法：破解它以便安装自定义应用。&lt;/p&gt;
+&lt;p&gt;乔布斯冲进福斯特尔的办公室。“你必须阻止这个！”&lt;/p&gt;
+&lt;p&gt;但福斯特尔不认为开发者花精力让iPhone变得更好有什么害处。“如果他们添加了恶意的东西，我们明天就发布更新来防范。但如果他们只是添加有用的应用，那就没有理由去破坏它。”&lt;/p&gt;
+&lt;p&gt;乔布斯感到困扰，勉强同意了。&lt;/p&gt;
+&lt;p&gt;一周又一周，更多酷炫的应用出现了，但只适用于越狱手机。十月的某一天，乔布斯读到一篇关于其中一些最酷应用的文章。&lt;/p&gt;
+&lt;p&gt;“你知道吗？”他说。“我们应该建立一个应用商店。”&lt;/p&gt;
+&lt;p&gt;福斯特尔很高兴，透露了他的秘密计划。他追随了伯勒尔·史密斯（Mac的内存扩展电路）和鲍勃·贝尔维尔（索尼软驱交易）的脚步：他违背了乔布斯，最终拯救了这个项目。&lt;/p&gt;
+&lt;/blockquote&gt;&lt;p&gt;这本书不到600页，包含一份详尽的索引，内容充实无赘述。它堪称一部苹果历史的百科全书，是一部非凡、不可或缺且独一无二的著作。如果你还没订购，应该入手一本；如果你打算购买，这里有一些能让我赚点佣金的推广链接：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;精装版：
+&lt;ul&gt;&lt;li&gt;&lt;a href="https://amzn.to/479Cp8v"&gt;亚马逊&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://bookshop.org/a/56320/9781982134594"&gt;Bookshop.org&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;电子书：
+&lt;ul&gt;&lt;li&gt;&lt;a href="https://amzn.to/4sKCjfK"&gt;Kindle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://books.apple.com/us/book/apple/id6749329845"&gt;Apple Books&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://bookshop.org/a/56320/9781982134655"&gt;Bookshop.org&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Thu, 02 Apr 2026 14:57:28 +0000</pubDate></item><item><title>大卫·波格：《苹果与我》</title><link>https://pogueman.substack.com/p/apple-and-me-the-first-50-years?triedRedirect=true</link><description>&lt;p&gt;大卫·波格，在他于Substack的新博客中写道：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2007年，iPhone即将发售时，纽约市苹果商店外有上千人排起了长队。&lt;/p&gt;
+
+&lt;p&gt;我当时恶搞了《My Way》这首歌，并突发奇想，打算与排队的人们一起拍摄一部音乐视频。这简直太棒了；队伍里的每个人都乐于参与。我将拍摄的素材剪辑在一起并上传了视频——女士们先生们，在接下来的六个小时里，它成了YouTube上观看次数最多的视频。（&lt;a href="https://youtu.be/vniMR6Ez9cE?si=_wDZokLslz7PXNSJ"&gt;视频还在那里&lt;/a&gt;。）&lt;/p&gt;
+
+&lt;p&gt;总之。那天晚上，我接到了乔布斯助理的电话。“史蒂夫在线，”她说，“你能接听吗？”&lt;/p&gt;
+
+&lt;p&gt;我当时正和家人外出用餐，但我答应了。&lt;/p&gt;
+
+&lt;p&gt;“大卫？”乔布斯接通电话后说道，“我看了你今天发布的那个歌曲视频。”&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;哦，太好了&lt;/em&gt;，我想。我做好了准备，迎接这位苹果CEO又一次史诗级的严厉斥责。&lt;/p&gt;
+
+&lt;p&gt;“我只想说，这是我他妈见过的最有趣的东西，”他说。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/04/02/pogue-apple" title="永久链接至‘大卫·波格：‘苹果与我’’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Thu, 02 Apr 2026 14:15:45 +0000</pubDate></item><item><title>特朗普的白宫宴会厅设计糟透了</title><link>https://www.nytimes.com/interactive/2026/03/29/upshot/white-house-ballroom.html</link><description/><pubDate>Thu, 02 Apr 2026 13:48:45 +0000</pubDate></item><item><title>克里斯·埃斯皮诺萨，苹果公司第八号员工，登上《纽约时报》人物特写</title><link>https://www.nytimes.com/2026/04/01/technology/apple-employee-50-years.html?unlocked_article_code=1.X1A.QEzX.u6cPCOjBE3mT</link><description>&lt;p&gt;《纽约时报》的Kalley Huang写道（礼物链接）：&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;埃斯皮诺萨先生说，在那期间，苹果公司“一次又一次、一次又一次地”裁员。他的经理告诉他，他之所以幸免，是因为他在公司工作了太久，遣散费会过于昂贵。&lt;/p&gt;
@@ -44,73 +117,4 @@
 
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/linked/2026/04/01/more-on-apples-fun-rewind-video" title="《关于苹果趣味‘倒带’视频的更多细节》永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Wed, 01 Apr 2026 20:27:02 +0000</pubDate></item><item><title>《华尔街日报》记者本·科恩探访苹果原型硬件档案馆</title><link>https://www.youtube.com/watch?v=74qPQt_5DdM</link><description>&lt;p&gt;这段7分钟的视频里有很多我从未见过的有趣玩意儿。最好别剧透。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/04/01/wsj-apple-prototypes" title="《华尔街日报》的本·科恩参观苹果原型硬件档案馆"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Wed, 01 Apr 2026 20:10:41 +0000</pubDate></item><item><title>新泽西，蠢驴之州</title><link>https://x.com/NJGov/status/2039370966090854604</link><description>&lt;p&gt;到目前为止，我见过最愚蠢的“网络愚人节”玩笑，是来自新泽西州官方推特/X账户发布的&lt;a href="https://x.com/NJGov/status/2039370966090854604"&gt;这条消息&lt;/a&gt;，声称立即生效，他们将解除全州范围内的自助加油禁令。对于那些从未去过那里的人，我发誓，你在该州任何地方都不能自己加油。这太荒谬了，以至于人们都难以置信。你必须等待加油员，他们通常态度粗鲁，而且几乎总是动作缓慢。在过去，如果你用现金支付，他们会特别慢地找零，希望你干脆放弃离开。我宁愿把车开到没油，直接把它扔在路边，也不愿在新泽西州买哪怕一加仑的汽油。然而，现在州政府的官方推特账户却在那儿嘻嘻哈哈，好像这个笑话不是在讽刺他们自己似的。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/04/01/jersey-jackass-state" title="‘新泽西，愚人之州’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Wed, 01 Apr 2026 19:59:43 +0000</pubDate></item><item><title>瑞安·达戈斯蒂诺为《时尚先生》撰写蒂姆·库克专访，聚焦苹果公司成立50周年</title><link>https://www.esquire.com/news-politics/a70886045/apple-50th-anniversary/</link><description>&lt;p&gt;瑞安·达戈斯蒂诺在《时尚先生》杂志上撰文（&lt;a href="https://apple.news/AYg97KJ3LTWequgQYtKg4fg"&gt;News+ 链接&lt;/a&gt;，以防《时尚先生》的付费墙挡住你）：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;乔布斯去世那天，库克就在他家里。当他驱车返回办公室，准备向员工们宣布这一消息，并由此向全世界公布时，他感到一种奇怪的震惊——之所以奇怪，是因为乔布斯已经病了那么久，甚至在最初确诊时拒绝用药，转而试图用果汁来治愈疾病，所以本应毫无震惊可言。&lt;/p&gt;
-
-&lt;p&gt;“不幸的是，到那时，这已经是一种必然，”库克说。“但我对疾病及其走向否认了那么久，因为我曾目睹他多次康复，我以为他总能挺过来。当我接任CEO时，我以为他会永远担任执行主席——就在六周前，我确实是这么想的。回想起来，我知道有人可能会说，考虑到当时的情况，你怎么会那么想？但那一刻，我的思维方式就是那样。”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;达戈斯蒂诺深情地回忆起1983年圣诞节他家得到的Apple IIe，却错误地记得：“当我们打开它时，屏幕角落里有一个小垃圾桶。”别让这种将IIe和Macintosh（1983年尚未问世）混为一谈的说法让你失去兴趣。这是一篇很好的专访。库克对史蒂夫·乔布斯的想法令人动容，而且达戈斯蒂诺让库克阐述了他与特朗普政府“接触”的策略，其深入程度我认为是其他采访者未曾达到的。库克的回答超过400字，值得称赞的是，《时尚先生》全文刊登了它。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/04/01/dagostino-cook-esquire" title="《瑞安·达戈斯蒂诺为&lt;时尚先生&gt;撰写蒂姆·库克专访，纪念苹果公司50周年》的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Wed, 01 Apr 2026 19:34:11 +0000</pubDate></item><item><title>苹果AirPods Max 2内部揭秘与H2芯片升级</title><link>https://www.techradar.com/audio/earbuds-airpods/only-limited-by-the-physics-inside-apples-airpods-max-2-and-the-h2-chip-upgrade</link><description>&lt;p&gt;雅各布·克罗尔在TechRadar上写道：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;为了确切理解五年后这意味着什么，TechRadar与苹果平台架构副总裁蒂姆·米利特以及音频产品营销总监埃里克·特雷斯基进行了深入交流，以揭示AirPods Max 2如何最终实现了其自身的雄心壮志。[...]&lt;/p&gt;
-
-&lt;p&gt;苹果为AirPods Max 2做出的最大胆声明之一，是其主动降噪性能提升了1.5倍——这是在未改变任何物理组件的情况下实现的。“实现这些降噪改进，尤其是达到1.5倍更强大的主动降噪，这本身就是一个壮举，考虑到我们完全没有从外形或材料的角度改变耳机的实际设计，”特雷斯基说道。&lt;/p&gt;
-
-&lt;p&gt;这项改进也不仅限于特定的频段。“我们取所有频率的平均值，得出1.5倍的提升。我们并没有挑选单个频率或某个特定范围，”他补充道。这意味着，无论是阻隔更响亮、轰鸣的声音还是更高音调的声音，AirPods Max 2都应该表现得更好——这是一个很高的标准，因为初代AirPods Max在阻隔声音方面本就已经非常出色。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/04/01/airpods-max-2-interview" title="《深入苹果AirPods Max 2与H2芯片升级》的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Wed, 01 Apr 2026 18:45:54 +0000</pubDate></item><item><title>好时公司表示，在受到批评后，将把所有瑞茜产品恢复为经典配方</title><link>https://apnews.com/article/hershey-reeses-chocolate-peanut-butter-cups-recipe-1c17247e190eb03952e1c197b6f872ce</link><description>&lt;p&gt;美联社：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;好时公司周三表示，将从明年起在所有Reese's产品中恢复使用经典配方。这一改变是在Reese's创始人的孙子&lt;a href="https://apnews.com/article/reeses-peanut-butter-cups-hershey-chocolate-1a66ec75247fd146888b7a747a740cd3"&gt;批评该公司&lt;/a&gt;转向使用更廉价成分之后做出的。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href="https://daringfireball.net/linked/2026/02/23/brad-reese"&gt;跑去向媒体告状&lt;/a&gt;从来都行不通。&lt;/p&gt;
-
-&lt;p&gt;（要我说，&lt;a href="https://daringfireball.net/linked/2026/02/25/i-am-nothing-if-not-a-man-of-science"&gt;还是坚持买Trader Joe's的吧&lt;/a&gt;。）&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/04/01/hershey-reeses-recipe" title="永久链接至‘好时称在受到批评后将把所有Reese's产品转回经典配方’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Wed, 01 Apr 2026 17:39:36 +0000</pubDate></item><item><title>苹果公司迎来50周年纪念</title><link>https://www.apple.com/</link><description>&lt;p&gt;苹果官网首页有一个精美的小动画，展示了该公司最具标志性产品的草图。&lt;a href="https://www.apple.com/105/media/us/home/2026/84ec8a66-d69d-405e-8c72-b48f7126a119/anim/hero/large_2x.mp4"&gt;视频文件本身托管在此处&lt;/a&gt;，但我不确定这个链接是否永久有效。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://x.com/tim_cook/status/2039238286385008819"&gt;蒂姆·库克在Twitter/X上发布了另一个视频&lt;/a&gt;，这是一个VHS风格的苹果产品历史“倒带”。这个更有趣。在某个时刻有一个绝对精妙的音频故障——&lt;em&gt;堪称完美&lt;/em&gt;。有点遗憾的是，据我所知它只在X上发布。&lt;strong&gt;更新：&lt;/strong&gt;啊，苹果将同一个视频发布到了其官网首页，链接到一个采用位图芝加哥12号字体设计的“◀︎◀︎ REW”&lt;a href="https://daringfireball.net/misc/2026/04/REW-button.png"&gt;按钮&lt;/a&gt;，但似乎&lt;a href="https://daringfireball.net/misc/2026/04/apple-homepage-REW.png"&gt;只有用iPhone访问时才会显示&lt;/a&gt;。我在Mac或iPad上看不到这个按钮。但你应该能够&lt;a href="https://www.apple.com/105/media/us/home/2026/84ec8a66-d69d-405e-8c72-b48f7126a119/films/home-films-tpl-us-2026_9x16.m3u8"&gt;通过此链接在任何设备上观看该视频&lt;/a&gt;。（如果能把“◀︎◀︎”三角形也做成像素艺术，我会额外加分。我是说，拜托！）&lt;/p&gt;
-
-&lt;p&gt;另外，昨晚&lt;a href="https://www.macrumors.com/2026/04/01/paul-mccartney-set-at-apple-park/"&gt;保罗·麦卡特尼在苹果园区为苹果员工举办了一场完整的音乐会&lt;/a&gt;。很高兴看到&lt;a href="https://www.cultofmac.com/apple-history/the-beatles-vs-apple-trademark-battle"&gt;两个“苹果”&lt;/a&gt;化干戈为玉帛。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/04/01/apple-marks-50" title="‘苹果庆祝50周年’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Wed, 01 Apr 2026 16:39:34 +0000</pubDate></item><item><title>商业内幕网深度报道：OpenAI“应用业务CEO”菲吉·西莫</title><link>https://www.businessinsider.com/fidji-simo-openai-product-research-profitability-profile-2026-3</link><description>&lt;p&gt;格雷斯·凯、阿什利·斯图尔特和普拉纳夫·迪克西特为《商业内幕》（&lt;a href="https://apple.news/AVsTLiVHAR9mSkPc62C84vA"&gt;News+&lt;/a&gt;）撰文：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“让我加入并赋予我CEO职责的一部分原因，是为了确保我能够真正自主地运营公司的这一部分，”头衔为应用部门CEO的西莫告诉《商业内幕》。&lt;/p&gt;
-&lt;p&gt;她表示，当奥特曼没有强烈意见时，他会听从西莫；而当他有强烈意见时，他们会“辩论到底”。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;我对任何拥有两位CEO的公司都深感怀疑。这种情况偶尔会奏效，&lt;a href="https://about.netflix.com/en/leadership"&gt;比如在Netflix&lt;/a&gt;，前提是他们不仅仅是联席CEO，而且是地位平等的伙伴。但在OpenAI，西莫似乎并非山姆·奥特曼的平级。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;随着OpenAI朝着今年晚些时候可能进行的IPO冲刺，负责监管公司近&lt;a href="https://www.businessinsider.com/openai-org-chart-sam-altman-fidji-simo-ipo-2026-2"&gt;三分之二业务&lt;/a&gt;的西莫面临着微妙的平衡任务。她必须制定战略使产品盈利，同时要说服那些加入这个研究驱动型组织的员工，商业化不会改变公司的使命。&lt;/p&gt;
-&lt;p&gt;风险很高。&lt;a href="https://www.dbresearch.com/PROD/RI-PROD/PROD0000000000611818/The+largest+start-up+losses+in+history.report"&gt;德意志银行估计&lt;/a&gt;，OpenAI预计将累积“历史上最大的初创企业亏损”，2024年至2029年间预计总额将达到1430亿美元。（一位OpenAI发言人表示该数字不正确，一位熟悉数据的人士称，OpenAI的内部预测与其他报告中提到的到2030年消耗1110亿美元现金的说法一致。）&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;当公司方面给出的数字是亏损1110亿美元时，这确实引人深思。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;一位前Meta员工回忆起一个时刻：在一次充满争议的会议后，西莫发了一条一句话的后续信息，说她不太可能改变主意，所以团队不应该浪费时间试图说服她。这位前员工表示，她对那些偏离产品本身的内部分歧缺乏耐心，并且她擅长“在指令上做到超级清晰，这样团队就不会手忙脚乱和浪费时间”。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;是偏离了产品&lt;em&gt;质量&lt;/em&gt;的争论，还是偏离了产品&lt;em&gt;收入&lt;/em&gt;的争论？考虑到&lt;a href="https://www.marieclaire.com/career-advice/a28712482/fidji-simo-facebook/"&gt;西莫在Facebook崭露头角&lt;/a&gt;，最终负责运营Facebook蓝色应用，并考虑到该应用在产品质量与产品收入之间的平衡，我想我们知道答案了。&lt;/p&gt;&lt;p&gt;上周泄露的那个愚蠢的“超级应用”想法，听起来完全像是运营过Facebook应用的人会认为是好主意的那种东西。我预计，区别在于Facebook可以任由产品质量（和体验质量）下滑，因为他们的社交平台拥有强大的网络效应。即使体验变差，人们仍然留在Facebook和Instagram上，因为他们认识的所有人也还在那些应用里。ChatGPT没有那样的网络效应。Claude在受欢迎程度上已经上升到近乎平等的地位，Gemini也紧随其后，而Simo甚至还没开始对ChatGPT进行“劣化”。人们只会直接换用其他服务。&lt;/p&gt;
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/03/31/bi-fidji-simo" title="《商业内幕》剖析Fidji Simo，OpenAI的‘应用首席执行官’的永久链接"&gt; ★ &lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Tue, 31 Mar 2026 23:01:03 +0000</pubDate></item></channel></rss>
+&lt;/div&gt;</description><pubDate>Wed, 01 Apr 2026 20:27:02 +0000</pubDate></item></channel></rss>
