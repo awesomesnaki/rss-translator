@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Wed, 01 Apr 2026 03:32:16 +0000</lastBuildDate><item><title>datasette-extract 0.3a0</title><link>https://simonwillison.net/2026/Apr/1/datasette-extract/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;发布：&lt;/strong&gt; &lt;a href="https://github.com/datasette/datasette-extract/releases/tag/0.3a0"&gt;datasette-extract 0.3a0&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Wed, 01 Apr 2026 23:01:37 +0000</lastBuildDate><item><title>datasette-llm 0.1a6</title><link>https://simonwillison.net/2026/Apr/1/datasette-llm-2/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;发布：&lt;/strong&gt; &lt;a href="https://github.com/datasette/datasette-llm/releases/tag/0.1a6"&gt;datasette-llm 0.1a6&lt;/a&gt;&lt;/p&gt;
+    &lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;相同的模型ID不再需要在默认模型和允许的模型列表中重复设置——将其设为默认模型会自动将其添加到允许的模型列表中。&lt;a href="https://github.com/datasette/datasette-llm/issues/6"&gt;#6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;改进了&lt;a href="https://github.com/datasette/datasette-llm/blob/0.1a6/README.md#usage"&gt;Python API使用&lt;/a&gt;的文档。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+    
+        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/llm"&gt;llm&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/datasette"&gt;datasette&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 01 Apr 2026 23:01:37 +0000</pubDate></item><item><title>datasette-enrichments-llm 0.2a1</title><link>https://simonwillison.net/2026/Apr/1/datasette-enrichments-llm-2/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;发布：&lt;/strong&gt; &lt;a href="https://github.com/datasette/datasette-enrichments-llm/releases/tag/0.2a1"&gt;datasette-enrichments-llm 0.2a1&lt;/a&gt;&lt;/p&gt;
+    &lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;触发数据增强的&lt;code&gt;actor&lt;/code&gt;现在会被传递给&lt;code&gt;llm.mode(... actor=actor)&lt;/code&gt;方法。&lt;a href="https://github.com/datasette/datasette-enrichments-llm/issues/3"&gt;#3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+    
+        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/enrichments"&gt;enrichments&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llm"&gt;llm&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/datasette"&gt;datasette&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 01 Apr 2026 22:00:34 +0000</pubDate></item><item><title>datasette-extract 0.3a0</title><link>https://simonwillison.net/2026/Apr/1/datasette-extract/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;发布：&lt;/strong&gt; &lt;a href="https://github.com/datasette/datasette-extract/releases/tag/0.3a0"&gt;datasette-extract 0.3a0&lt;/a&gt;&lt;/p&gt;
     &lt;ul&gt;
 &lt;li&gt;现在使用 &lt;a href="https://github.com/datasette/datasette-llm"&gt;datasette-llm&lt;/a&gt; 来管理模型配置，这意味着你可以通过 &lt;code&gt;extract&lt;/code&gt; 用途和 &lt;a href="https://github.com/datasette/datasette-llm/blob/main/README.md#configuration"&gt;LLM 模型配置&lt;/a&gt; 来控制哪些模型可用于提取任务。&lt;a href="https://github.com/datasette/datasette-extract/issues/38"&gt;#38&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -50,19 +65,4 @@
 &lt;p&gt;我的&lt;a href="https://simonwillison.net/2026/Mar/30/mr-chatterbox/#running-it-locally-with-llm"&gt;llm-mrchatterbox&lt;/a&gt;插件仅支持同步。我想尝试将其与各种 Datasette LLM 功能（特别是&lt;a href="https://github.com/datasette/datasette-enrichments-llm"&gt;datasette-enrichments-llm&lt;/a&gt;）一起使用，但 Datasette 只能使用异步模型。&lt;/p&gt;
 &lt;p&gt;所以……我让 Claude 创建了这个插件，它使用线程池将同步模型转换为异步模型。这最终需要在 LLM 本身中添加一个额外的插件钩子机制，我刚才在&lt;a href="https://llm.datasette.io/en/stable/changelog.html#v0-30"&gt;LLM 0.30&lt;/a&gt;中发布了它。&lt;/p&gt;
     
-        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/llm"&gt;llm&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/async"&gt;async&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/python"&gt;python&lt;/a&gt;&lt;/p&gt;</description><pubDate>Tue, 31 Mar 2026 20:52:02 +0000</pubDate></item><item><title>大语言模型 0.30</title><link>https://simonwillison.net/2026/Mar/31/llm/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;发布：&lt;/strong&gt; &lt;a href="https://github.com/simonw/llm/releases/tag/0.30"&gt;llm 0.30&lt;/a&gt;&lt;/p&gt;
-    &lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://llm.datasette.io/en/stable/plugins/plugin-hooks.html#plugin-hooks-register-models"&gt;register_models() 插件钩子&lt;/a&gt; 现在接受一个可选的 &lt;code&gt;model_aliases&lt;/code&gt; 参数，该参数列出了迄今为止其他插件已注册的所有模型、异步模型和别名。带有 &lt;code&gt;@hookimpl(trylast=True)&lt;/code&gt; 的插件可以使用此参数来考虑先前注册的模型。&lt;a href="https://github.com/simonw/llm/issues/1389"&gt;#1389&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;为公共类和方法添加了文档字符串，并将其直接包含在文档中。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-    
-        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/llm"&gt;llm&lt;/a&gt;&lt;/p&gt;</description><pubDate>Tue, 31 Mar 2026 20:35:51 +0000</pubDate></item><item><title>llm-echo 0.4</title><link>https://simonwillison.net/2026/Mar/31/llm-echo/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;发布：&lt;/strong&gt; &lt;a href="https://github.com/simonw/llm-echo/releases/tag/0.4"&gt;llm-echo 0.4&lt;/a&gt;&lt;/p&gt;
-    &lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;现在，响应中的提示已填充了 &lt;code&gt;input_tokens&lt;/code&gt; 和 &lt;code&gt;output_tokens&lt;/code&gt; 字段。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-    
-        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/llm"&gt;llm&lt;/a&gt;&lt;/p&gt;</description><pubDate>Tue, 31 Mar 2026 16:48:59 +0000</pubDate></item></channel></rss>
+        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/llm"&gt;llm&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/async"&gt;async&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/python"&gt;python&lt;/a&gt;&lt;/p&gt;</description><pubDate>Tue, 31 Mar 2026 20:52:02 +0000</pubDate></item></channel></rss>
