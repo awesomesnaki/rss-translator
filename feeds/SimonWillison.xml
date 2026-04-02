@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Wed, 01 Apr 2026 23:01:37 +0000</lastBuildDate><item><title>datasette-llm 0.1a6</title><link>https://simonwillison.net/2026/Apr/1/datasette-llm-2/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;发布：&lt;/strong&gt; &lt;a href="https://github.com/datasette/datasette-llm/releases/tag/0.1a6"&gt;datasette-llm 0.1a6&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Thu, 02 Apr 2026 05:15:04 +0000</lastBuildDate><item><title>2026年3月赞助者专属通讯</title><link>https://simonwillison.net/2026/Apr/2/march-newsletter/#atom-everything</link><description>&lt;p&gt;我刚刚发送了三月版的&lt;a href="https://github.com/sponsors/simonw/"&gt;仅限赞助者的月度通讯&lt;/a&gt;。如果你是赞助者（或者现在开始赞助），你可以&lt;a href="https://github.com/simonw-private/monthly/blob/main/2026-03-march.md"&gt;在这里访问它&lt;/a&gt;。在本月的通讯中：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;更多智能体工程模式&lt;/li&gt;
+&lt;li&gt;在Mac上使用MoE模型进行流式专家处理&lt;/li&gt;
+&lt;li&gt;三月的模型发布&lt;/li&gt;
+&lt;li&gt;氛围移植&lt;/li&gt;
+&lt;li&gt;针对PyPI和NPM的供应链攻击&lt;/li&gt;
+&lt;li&gt;我发布的东西&lt;/li&gt;
+&lt;li&gt;我正在使用的工具，2026年3月版&lt;/li&gt;
+&lt;li&gt;以及几个博物馆&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这里是&lt;a href="https://gist.github.com/simonw/8b5fa061937842659dbcd5bd676ce0e8"&gt;二月通讯的副本&lt;/a&gt;，作为你将获得内容的预览。每月支付10美元，即可比免费副本提前一个月获取！&lt;/p&gt;
+
+    &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/newsletter"&gt;newsletter&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 02 Apr 2026 05:15:04 +0000</pubDate></item><item><title>datasette-llm 0.1a6</title><link>https://simonwillison.net/2026/Apr/1/datasette-llm-2/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;发布：&lt;/strong&gt; &lt;a href="https://github.com/datasette/datasette-llm/releases/tag/0.1a6"&gt;datasette-llm 0.1a6&lt;/a&gt;&lt;/p&gt;
     &lt;blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;相同的模型ID不再需要在默认模型和允许的模型列表中重复设置——将其设为默认模型会自动将其添加到允许的模型列表中。&lt;a href="https://github.com/datasette/datasette-llm/issues/6"&gt;#6&lt;/a&gt;&lt;/li&gt;
@@ -60,9 +73,4 @@
 &lt;/blockquote&gt;
 &lt;p&gt;为了测试这个新功能，我发布了 &lt;a href="https://github.com/simonw/llm-echo/releases/tag/0.3"&gt;llm-echo 0.3&lt;/a&gt; 作为所需的API密钥测试工具。&lt;/p&gt;
     
-        &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/llm"&gt;llm&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/datasette"&gt;datasette&lt;/a&gt;&lt;/p&gt;</description><pubDate>Tue, 31 Mar 2026 21:17:23 +0000</pubDate></item><item><title>llm-all-models-async 0.1</title><link>https://simonwillison.net/2026/Mar/31/llm-all-models-async/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;发布：&lt;/strong&gt; &lt;a href="https://github.com/simonw/llm-all-models-async/releases/tag/0.1"&gt;llm-all-models-async 0.1&lt;/a&gt;&lt;/p&gt;
-    &lt;p&gt;LLM 插件可以定义&lt;a href="https://llm.datasette.io/en/stable/plugins/tutorial-model-plugin.html"&gt;同步&lt;/a&gt;和&lt;a href="https://llm.datasette.io/en/stable/plugins/advanced-model-plugins.html#async-models"&gt;异步&lt;/a&gt;两种类型的新模型。异步变体在基于 API 的模型中最为常见——同步变体往往是那些直接在插件内运行模型的类型。&lt;/p&gt;
-&lt;p&gt;我的&lt;a href="https://simonwillison.net/2026/Mar/30/mr-chatterbox/#running-it-locally-with-llm"&gt;llm-mrchatterbox&lt;/a&gt;插件仅支持同步。我想尝试将其与各种 Datasette LLM 功能（特别是&lt;a href="https://github.com/datasette/datasette-enrichments-llm"&gt;datasette-enrichments-llm&lt;/a&gt;）一起使用，但 Datasette 只能使用异步模型。&lt;/p&gt;
-&lt;p&gt;所以……我让 Claude 创建了这个插件，它使用线程池将同步模型转换为异步模型。这最终需要在 LLM 本身中添加一个额外的插件钩子机制，我刚才在&lt;a href="https://llm.datasette.io/en/stable/changelog.html#v0-30"&gt;LLM 0.30&lt;/a&gt;中发布了它。&lt;/p&gt;
-    
-        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/llm"&gt;llm&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/async"&gt;async&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/python"&gt;python&lt;/a&gt;&lt;/p&gt;</description><pubDate>Tue, 31 Mar 2026 20:52:02 +0000</pubDate></item></channel></rss>
+        &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/llm"&gt;llm&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/datasette"&gt;datasette&lt;/a&gt;&lt;/p&gt;</description><pubDate>Tue, 31 Mar 2026 21:17:23 +0000</pubDate></item></channel></rss>
