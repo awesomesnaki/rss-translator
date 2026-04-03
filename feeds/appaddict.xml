@@ -1,5 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AppAddict (中文)</title><link>https://appaddict.app</link><description>我是个无可救药的软件收藏家，下载和探索新应用是我最大的乐趣之一。如果你也有同样的爱好，可以在这里寻找推荐。如果你是开发者，有希望我体验的应用，请告诉我。</description><language>zh-CN</language><lastBuildDate>Thu, 02 Apr 2026 00:08:50 +0000</lastBuildDate><item><title>BackiGo是一款可靠且功能齐全的iCloud备份解决方案</title><link>https://appaddict.app/post/backigo-is-a-dependable-full-featured-icloud-backup-solution</link><description>&lt;figure class="attachment attachment--preview flex-col justify-center attachment--png"&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AppAddict (中文)</title><link>https://appaddict.app</link><description>我是个无可救药的软件收藏家，下载和探索新应用是我最大的乐趣之一。如果你也有同样的爱好，可以在这里寻找推荐。如果你是开发者，有希望我体验的应用，请告诉我。</description><language>zh-CN</language><lastBuildDate>Thu, 02 Apr 2026 22:32:17 +0000</lastBuildDate><item><title>Radial 4 作为自动化中心效果最佳</title><link>https://appaddict.app/post/radial-4-works-best-as-an-automation-hub</link><description>&lt;figure class="attachment attachment--preview flex-col justify-center attachment--png"&gt;
+&lt;img alt="Radial" class="lightbox__image strip-metadata lightbox__image" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMVNNQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--475905546719757d36f756dc8270e7e8bc8301bc/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--768aeab7fb7843d85fe5b2b4ba237e06e6ef604f/UIUpdate.png"/&gt;
+&lt;figcaption class="attachment__caption text-center"&gt;
+      Radial
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;今天下午我花时间体验了&lt;a href="https://radial.appverge.net/"&gt;Radial 4&lt;/a&gt;，这是独立开发者Gustav Lubker（来自AppVerge）正在快速迭代的一款饼图菜单应用。如果你不熟悉饼图菜单应用，它们呈现的是一个被分成若干部分（或扇区）的圆形菜单，每个部分代表一个操作或命令。如果配置得当，它们能自然地映射到肌肉记忆，使用起来可以非常迅速。&lt;/p&gt;
+&lt;p&gt;我用过的其他饼图菜单应用包括：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href="https://appaddict.app/post/pieoneer-multi-use-pie-menu"&gt;Pieoneer&lt;/a&gt;（不错）&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://apps.apple.com/us/app/cirmenu/id6450661015?mt=12"&gt;CirMenu&lt;/a&gt;（不错）&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://appaddict.app/post/pie-menu"&gt;PieMenu&lt;/a&gt;（功能有限）&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://kando.menu/"&gt;Kando&lt;/a&gt;（开源软件）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;界面&lt;/h2&gt;
+&lt;p&gt;在Radial中，饼图菜单可以包含以下类型的操作：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;&lt;strong&gt;输入&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;
+&lt;li class="lexxy-nested-listitem"&gt;&lt;ul&gt;
+&lt;li&gt;键盘快捷键&lt;/li&gt;
+&lt;li&gt;文本&lt;/li&gt;
+&lt;li&gt;剪贴板&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;&lt;strong&gt;打开&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;
+&lt;li class="lexxy-nested-listitem"&gt;&lt;ul&gt;
+&lt;li&gt;打开应用&lt;/li&gt;
+&lt;li&gt;打开文件&lt;/li&gt;
+&lt;li&gt;打开URL&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;&lt;strong&gt;脚本&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;
+&lt;li class="lexxy-nested-listitem"&gt;&lt;ul&gt;
+&lt;li&gt;苹果快捷指令&lt;/li&gt;
+&lt;li&gt;AppleScript&lt;/li&gt;
+&lt;li&gt;Shell脚本&lt;/li&gt;
+&lt;li&gt;Keyboard Maestro&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;&lt;strong&gt;系统&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;
+&lt;li class="lexxy-nested-listitem"&gt;&lt;ul&gt;
+&lt;li&gt;窗口管理&lt;/li&gt;
+&lt;li&gt;系统控制&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;目前唯一明显缺失的功能是对&lt;a href="https://appaddict.app/post/how-to-get-the-most-from-raycast"&gt;Raycast&lt;/a&gt;及类似命令启动器等工具的深度链接支持。&lt;/p&gt;
+&lt;h2&gt;一些使用场景构想&lt;/h2&gt;
+&lt;h3&gt;分类启动器&lt;/h3&gt;
+&lt;p&gt;Radial远不止是一个&lt;b&gt;&lt;strong&gt;应用启动器&lt;/strong&gt;&lt;/b&gt;，但它在这个角色上表现很好。你可以创建多个菜单，并通过键盘快捷键或鼠标手势调用Radial菜单后，在它们之间切换。一个实用的方法是围绕你经常使用的应用类别来构建菜单。&lt;/p&gt;
+&lt;p&gt;例如：&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;浏览器&lt;/strong&gt;&lt;/b&gt; – &lt;a href="https://appaddict.app/post/safari-extensions-worth-paying-for-and-a-couple-of-worthy-freebies"&gt;Safari&lt;/a&gt;、Chrome、Firefox、Dia、&lt;a href="https://appaddict.app/post/vivaldi-my-favorite-browser-just-got-some-updates"&gt;Vivaldi&lt;/a&gt;、Orion&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;实用工具&lt;/strong&gt;&lt;/b&gt; – Emoji Picker、&lt;a href="https://appaddict.app/post/why-haven-t-you-installed-keka-yet"&gt;Keka&lt;/a&gt;、PastePal、Updatest&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;写作&lt;/strong&gt;&lt;/b&gt; – &lt;a href="https://appaddict.app/post/drafts-wins-app-of-the-year-at-mac-stories"&gt;Drafts&lt;/a&gt;、&lt;a href="https://obsidian.amerpie.lol/"&gt;Obsidian&lt;/a&gt;、LibreOffice、Dictionary&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;图形&lt;/strong&gt;&lt;/b&gt; – &lt;a href="https://appaddict.app/post/imageoptim-free-and-open-source-utility-to-reduce-file-sizes"&gt;ImageOptim&lt;/a&gt;、&lt;a href="https://appaddict.app/post/consul-is-supremely-useful"&gt;Consul&lt;/a&gt;、Immich&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这种分组方式效果很好，因为扇区的方向成为了记忆触发器，而不是应用名称。&lt;/p&gt;
+&lt;h3&gt;统一的应用菜单&lt;/h3&gt;
+&lt;p&gt;Radial 将随处可用的菜单称为&lt;b&gt;&lt;strong&gt;全局菜单&lt;/strong&gt;&lt;/b&gt;。它还支持&lt;b&gt;&lt;strong&gt;上下文感知菜单&lt;/strong&gt;&lt;/b&gt;，这些菜单仅在特定应用或应用组中出现。&lt;/p&gt;
+&lt;p&gt;由于 Radial 包含模板功能，你可以在主要工作应用中创建行为一致的菜单。任何可以用键盘快捷键触发的操作都可以放在菜单里。&lt;/p&gt;
+&lt;p&gt;如果你在多个应用中将常用命令放在相同的扇区位置，肌肉记忆很快就会形成。&lt;/p&gt;
+&lt;p&gt;在不同应用间转换良好的命令示例：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;新建&lt;/strong&gt;&lt;/b&gt; – 笔记、文档、宏、快捷指令等 (⌘N)&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;设置&lt;/strong&gt;&lt;/b&gt; – 快速访问偏好设置 (⌘,)&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;搜索 / 查找与替换&lt;/strong&gt;&lt;/b&gt; (⌘F 和 ⌥⌘F)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;你仍然可以添加特定于应用的命令；只需保持它们的位置一致，这样你的肌肉记忆就能保持不变。我用这种方法为 Safari、&lt;a href="https://appaddict.app/post/things-3-maybe-the-pinnacle-in-app-design"&gt;Things&lt;/a&gt;、Obsidian 和 Drafts 创建了 Radial 菜单。&lt;/p&gt;
+&lt;h3&gt;自动化中心&lt;/h3&gt;
+&lt;p&gt;Radial 真正出彩的地方是作为一个&lt;b&gt;&lt;strong&gt;自动化中心&lt;/strong&gt;&lt;/b&gt;。&lt;/p&gt;
+&lt;p&gt;你可以触发一个&lt;a href="https://appaddict.app/post/enhance-apple-shortcuts-with-these-apps"&gt;苹果快捷指令&lt;/a&gt;或一个&lt;a href="https://appaddict.app/post/keyboard-maestro-the-app-that-makes-everything-better-tips-for-the-for-the-automation-curious"&gt;Keyboard Maestro&lt;/a&gt;宏，一键启动整个工作空间，而不是单独启动每个应用。第二个操作可以在你完成后关闭相同的应用。&lt;/p&gt;&lt;p&gt;如果你将其与像&lt;a href="https://appaddict.app/post/developer-spotlight-ryan-hanson"&gt;Rectangle&lt;/a&gt;或&lt;a href="https://appaddict.app/post/snapsofapps-has-new-powerful-features"&gt;Snaps of Apps&lt;/a&gt;这样的窗口管理器结合使用，你甚至可以实现&lt;b&gt;&lt;strong&gt;在特定显示器上、在特定的空间里启动应用，并且窗口已经预先排列好&lt;/strong&gt;&lt;/b&gt;。&lt;/p&gt;
+&lt;p&gt;另一个有用的技巧是减少菜单栏的杂乱。许多实用工具的核心操作可以通过径向菜单来触发，而不是永久驻留在菜单栏中。&lt;/p&gt;
+&lt;p&gt;适合以这种方式使用的应用示例：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://appaddict.app/post/cleanshot-x"&gt;CleanShot X&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;快捷指令&lt;/li&gt;
+&lt;li&gt;Rectangle&lt;/li&gt;
+&lt;li&gt;Keyboard Maestro&lt;/li&gt;
+&lt;li&gt;Side Notes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;我还将我的晨间检查清单改编成了一个混合多种操作的径向菜单：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在特定浏览器中打开几个日常网站&lt;/li&gt;
+&lt;li&gt;检查三个邮箱的新邮件&lt;/li&gt;
+&lt;li&gt;通过我实际使用的应用启动社交媒体&lt;/li&gt;
+&lt;li&gt;打开&lt;a href="https://appaddict.app/post/two-recommendations-for-syncing-utilities"&gt;Sync Folders Pro&lt;/a&gt;和&lt;a href="https://appaddict.app/post/smartbackup-free-fast-and-foolproof"&gt;Smart Backup&lt;/a&gt;，以验证我针对照片、音乐、电子书和视频的自动归档工作流程&lt;/li&gt;
+&lt;li&gt;向ChatGPT发送一个预定义的提示，让它生成我的每日报告&lt;/li&gt;
+&lt;li&gt;登录我的自托管服务器进行例行健康检查&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;一旦设置完成，所有操作都可以通过一个单一的菜单访问，而无需在菜单、书签和其他启动器中费力寻找。&lt;/p&gt;
+&lt;h2&gt;详细信息&lt;/h2&gt;
+&lt;h3&gt;隐私政策&lt;/h3&gt;
+&lt;p&gt;在AppVerge网站上，除了声明AI查询不会被保留外，我找不到正式的隐私政策。&lt;/p&gt;
+&lt;p&gt;Radial包含一个由Groq驱动的AI功能，可以自动生成操作。我不使用与X或Groq绑定的服务，因此没有测试此功能。理想情况下，未来的版本将支持更多的提供商。&lt;/p&gt;
+&lt;p&gt;Radial在丹麦开发，这意味着它受欧盟隐私法规的约束。&lt;/p&gt;
+&lt;h3&gt;价格&lt;/h3&gt;
+&lt;p&gt;Radial提供七天免费试用。完整许可证价格为&lt;b&gt;&lt;strong&gt;14.99欧元&lt;/strong&gt;&lt;/b&gt;，并覆盖&lt;b&gt;&lt;strong&gt;五个席位&lt;/strong&gt;&lt;/b&gt;，对于此类实用工具来说，这相当慷慨。&lt;/p&gt;
+&lt;h3&gt;网站&lt;/h3&gt;
+&lt;p&gt;Radial的网站包含详实的文档和对系统工作原理的清晰解释。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://radial.appverge.net/"&gt;Radial – 一切尽在光标处&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Radial%204%20Works%20Best%20as%20an%20Automation%20Hub" style="text-decoration: underline;"&gt;✉️ 通过邮件回复&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 02 Apr 2026 22:32:17 +0000</pubDate></item><item><title>BackiGo是一款可靠且功能齐全的iCloud备份解决方案</title><link>https://appaddict.app/post/backigo-is-a-dependable-full-featured-icloud-backup-solution</link><description>&lt;figure class="attachment attachment--preview flex-col justify-center attachment--png"&gt;
 &lt;img alt="BackiGo" class="lightbox__image strip-metadata lightbox__image" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeWFNQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--af2b5827c6f07fefea10231ba29f044b8b03abc9/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--768aeab7fb7843d85fe5b2b4ba237e06e6ef604f/SCR-20260401-rlxn.png"/&gt;
 &lt;figcaption class="attachment__caption text-center"&gt;
       BackiGo
@@ -491,83 +598,4 @@
 &lt;li&gt;当出现问题时，“询问Octarine”和“写作助手”现在会以通知消息的形式显示错误信息，而不是静默失败。&lt;/li&gt;
 &lt;li&gt;任务迁移流程使用了更少的文件操作，使其更快、更可靠。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Octarine:%20Powerful,%20Sophisticated%20and%20Easy%20to%20Use" style="text-decoration: underline;"&gt;✉️ 通过邮件回复&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 19 Mar 2026 21:34:08 +0000</pubDate></item><item><title>轻松设置新Mac</title><link>https://appaddict.app/post/setting-up-a-new-mac-the-easy-way</link><description>&lt;figure class="attachment attachment--preview"&gt;
-&lt;img class="strip-metadata lightbox__image" src="https://www.cnet.com/a/img/resize/840de5dc6bc52939cecc586a82b5bc23c5b4ab90/hub/2024/11/06/5d5e0737-856b-449c-9fb0-3113e7006c63/mac-mini-m4-08.jpg?auto=webp&amp;amp;fit=crop&amp;amp;height=362&amp;amp;width=644"/&gt;
-&lt;figcaption class="attachment__caption"&gt;
-      M4 Mac Mini
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;两年前我购买上一台新Mac时，我按照多年来设置个人电脑的方式进行了设置：插入一个Time Machine硬盘并运行&lt;a href="https://appaddict.app/post/the-most-underrated-native-mac-utility"&gt;迁移助理&lt;/a&gt;。在一台配备SSD的现代Mac上，即使像我一样安装了数百个应用程序，整个过程也只需要大约20分钟。它会重建你的应用程序文件夹，转移偏好设置，并且通常能让新机器几乎立刻感觉就绪。&lt;/p&gt;
-&lt;p&gt;没有什么比这更容易了。&lt;/p&gt;
-&lt;p&gt;不过，这也有一个缺点。迁移助理会忠实地把所有积累的垃圾连同好东西一起带过来。这就是为什么我最终在钥匙串里留下了2014年安装的无线接入点条目，以及在~/资源库/应用程序支持文件夹中留下了多年未碰的应用程序的引用。&lt;/p&gt;
-&lt;p&gt;UPS今天早上某个时候会把一台Mac mini送到我家门口。这是很长一段时间以来，我&lt;b&gt;&lt;strong&gt;不&lt;/strong&gt;&lt;/b&gt;打算使用迁移助理的第一次。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;h1&gt;&lt;b&gt;&lt;strong&gt;自动化应用程序安装&lt;/strong&gt;&lt;/b&gt;&lt;/h1&gt;
-&lt;p&gt;多亏了像&lt;a href="https://updatest.app/"&gt;Updatest&lt;/a&gt;和&lt;a href="https://appaddict.app/post/cork-for-homebrew"&gt;Cork&lt;/a&gt;这样的工具，我已经将每一个可以通过Homebrew管理的应用程序都移到了这个生态系统中。在我当前的机器上，这涵盖了&lt;b&gt;&lt;strong&gt;212个GUI应用程序&lt;/strong&gt;&lt;/b&gt;加上&lt;b&gt;&lt;strong&gt;260个CLI包和依赖项&lt;/strong&gt;&lt;/b&gt;。&lt;/p&gt;
-&lt;p&gt;在新Mac上重建这个环境是轻而易举的。&lt;/p&gt;
-&lt;p&gt;要备份你当前的设置：&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;brew bundle dump&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;要在新Mac上安装所有内容：&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;brew bundle install&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;默认情况下，Homebrew也可以使用mas CLI来安装Mac App Store的应用程序。生成的Brewfile是纯文本格式，如果你想在安装前删除任何内容，编辑起来极其容易。&lt;/p&gt;
-&lt;p&gt;一个小示例如下：&lt;/p&gt;
-&lt;pre&gt;cask "gechr/tap/whichspace"
-
-cask "wifi-explorer"
-
-cask "wins"
-
-cask "xbar"
-
-cask "xnconvert"
-
-cask "xnviewmp"
-
-cask "zen"
-
-cask "zotero"
-
-mas "Acidity", id: 6472630023
-
-mas "Actions", id: 1586435171
-
-mas "Actions For Obsidian", id: 1659667937
-
-mas "Amphetamine", id: 937984704
-
-mas "AppTela", id: 6752568197
-
-mas "AutoMounter", id: 1160435653&lt;br/&gt;&lt;/pre&gt;
-&lt;p&gt;如果你不使用Homebrew，你仍然可以直接使用mas CLI来自动化安装Mac App Store的应用程序。&lt;/p&gt;
-&lt;p&gt;要导出一个已安装App Store应用程序的列表：&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;mas list | cut -d' ' -f1 &amp;gt; mas-app-ids.txt&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;要在新Mac上安装它们：&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;xargs -n1 mas install &amp;lt; mas-app-ids.txt&lt;/code&gt;&lt;/p&gt;&lt;p&gt;要识别那些未通过 Homebrew 或 Mac App Store 安装的应用，请运行：&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;system_profiler SPApplicationsDataType -json &amp;gt; installed-apps.json&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;在像 BBEdit 这样的文本编辑器中打开生成的 JSON 文件。任何显示为：&lt;/p&gt;
-&lt;p&gt;_“obtained_from” : “identified_developer” _&lt;/p&gt;
-&lt;p&gt;的应用，都是直接从开发者网站下载安装的，需要手动重新安装。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;h1&gt;&lt;b&gt;&lt;strong&gt;配置&lt;/strong&gt;&lt;/b&gt;&lt;/h1&gt;
-&lt;p&gt;应用程序是简单的部分。配置则要困难得多。&lt;/p&gt;
-&lt;p&gt;仅仅是输入我付费应用的许可证密钥和注册信息，就可能轻松花费数小时。&lt;/p&gt;
-&lt;p&gt;我简单看了一下 Mackup，但它似乎不太适合像我这样重度依赖图形界面的工作流程。一个更现代的工具，&lt;b&gt;&lt;strong&gt;chezmoi&lt;/strong&gt;&lt;/b&gt;，看起来在导出和恢复我的点文件（包括诸如以下文件）方面很有前景：&lt;/p&gt;
-&lt;p&gt;• .zshrc&lt;/p&gt;
-&lt;p&gt;• .gitconfig&lt;/p&gt;
-&lt;p&gt;• ~/.ssh/config&lt;/p&gt;
-&lt;p&gt;• .config/nvim/init.vim&lt;/p&gt;
-&lt;p&gt;对于其他所有配置，我的计划很简单：手动构建一小批 rsync 任务，只迁移我真正需要的东西。&lt;/p&gt;
-&lt;p&gt;为了避免权限问题和沙盒的怪异行为，我会在恢复每个应用的配置之前先启动它一次，以便 macOS 创建必要的目录：&lt;/p&gt;
-&lt;p&gt;~/Library/Application Support/&lt;/p&gt;
-&lt;p&gt;~/Library/Preferences/&lt;/p&gt;
-&lt;p&gt;~/Library/Containers/&lt;/p&gt;
-&lt;p&gt;~/Library/Group Containers/&lt;/p&gt;
-&lt;p&gt;因为我运行着一个高度自动化的设置，使用了像&lt;b&gt;&lt;strong&gt; &lt;/strong&gt;&lt;/b&gt;&lt;a href="https://appaddict.app/post/keyboard-maestro-the-app-that-makes-everything-better-tips-for-the-for-the-automation-curious"&gt;&lt;b&gt;&lt;strong&gt;Keyboard Maestro&lt;/strong&gt;&lt;/b&gt;&lt;/a&gt;&lt;b&gt;&lt;strong&gt;、&lt;/strong&gt;&lt;/b&gt;&lt;a href="https://apps.louplummer.lol/post/better-touch-tool-favorite"&gt;&lt;b&gt;&lt;strong&gt;BetterTouchTool&lt;/strong&gt;&lt;/b&gt;&lt;/a&gt;&lt;b&gt;&lt;strong&gt;、&lt;/strong&gt;&lt;/b&gt;&lt;a href="https://amerpie.lol/2024/05/10/my-favorite-actions.html"&gt;&lt;b&gt;&lt;strong&gt;Hazel&lt;/strong&gt;&lt;/b&gt;&lt;/a&gt;&lt;b&gt;&lt;strong&gt;和&lt;/strong&gt;&lt;/b&gt;&lt;a href="https://appaddict.app/post/how-to-get-the-most-from-raycast"&gt;&lt;b&gt;&lt;strong&gt;Raycast&lt;/strong&gt;&lt;/b&gt;&lt;/a&gt;这样的应用，我将依赖它们内置的导出/导入功能，而不是尝试自动化这些配置。&lt;/p&gt;
-&lt;p&gt;从技术上讲，编写脚本来捕获大量系统设置是可能的。但实际上，构建和调试那个脚本所花费的时间，很可能会超过我手动重新配置所需的时间。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;h1&gt;&lt;b&gt;&lt;strong&gt;老狗学新把戏&lt;/strong&gt;&lt;/b&gt;&lt;/h1&gt;
-&lt;p&gt;在我早期从事教育科技的职业生涯中，我花了大量时间进行大规模的 Mac 部署。工作流程很简单：构建一个黄金镜像，然后使用 NetBoot 将其部署数百次到学区刚刚采购的任何硬件上。&lt;/p&gt;
-&lt;p&gt;后来我们转向了像 Jamf 这样的现代部署系统。&lt;/p&gt;
-&lt;p&gt;如果你需要&lt;b&gt;&lt;strong&gt;拆箱并部署 900 台 eMac&lt;/strong&gt;&lt;/b&gt;，我就是你要找的人。&lt;/p&gt;&lt;p&gt;像我们大多数人在自己Mac上运行的那种高度个性化的个人设置完全是另一回事。这类机器没有通用的系统镜像。&lt;/p&gt;
-&lt;p&gt;但在构建可复现的设置方面，我们彼此间仍有很多可以互相学习的地方，这些设置能长期保持清爽，而不是将长达十年的数字积垢从一台Mac拖到下一台。&lt;/p&gt;
-&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Setting%20Up%20a%20New%20Mac%20the%20Easy%20Way" style="text-decoration: underline;"&gt;✉️ 通过邮件回复&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 16 Mar 2026 12:35:06 +0000</pubDate></item></channel></rss>
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Octarine:%20Powerful,%20Sophisticated%20and%20Easy%20to%20Use" style="text-decoration: underline;"&gt;✉️ 通过邮件回复&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 19 Mar 2026 21:34:08 +0000</pubDate></item></channel></rss>

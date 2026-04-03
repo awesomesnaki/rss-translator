@@ -1,15 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Thu, 02 Apr 2026 18:42:39 +0000</lastBuildDate><item><title>Axios，广受欢迎的NPM包，在其维护者遭受攻击时被入侵</title><link>https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan</link><description>&lt;p&gt;StepSecurity:&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Thu, 02 Apr 2026 20:12:07 +0000</lastBuildDate><item><title>约翰·巴克谈QuickTime的发明</title><link>https://www.theverge.com/tech/902721/quicktime-history-apple?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IkcybHEzWGhZTVciLCJwIjoiL3RlY2gvOTAyNzIxL3F1aWNrdGltZS1oaXN0b3J5LWFwcGxlIiwiZXhwIjoxNzc1NTkyNzA0LCJpYXQiOjE3NzUxNjA3MDR9.p4nbje9XKl05Ybv3q31CyAQULuqAB-H9b8qfftSz12k</link><description>&lt;p&gt;约翰·巴克在The Verge（礼物链接）上的文章，节选自他的优秀著作&lt;em&gt;&lt;a href="https://books.by/john-buck"&gt;《发明未来》&lt;/a&gt;&lt;/em&gt;：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;史蒂夫·珀尔曼：&lt;/strong&gt; &lt;em&gt;苹果公司里几乎所有人，当然其他地方的人也一样，都认为多媒体永远需要专门的硬件——而且会很昂贵。我们少数几个人却不这么想。&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;这少数人中的一位是加文·米勒，他是苹果图形小组的研究科学家，他与霍弗特合作，攻克了软件压缩和解压缩的难题，也就是所谓的编解码器。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;加文·米勒，研究科学家：&lt;/strong&gt; &lt;em&gt;我们午餐时间出去散步，到散步结束时，我们已经将模型推广到包含恒定颜色块和每像素2位的插值块。这让我们能够在大片平坦区域牺牲量化伪影，以换取纹理区域的更多细节。结果是质量和性能都得到了提升，这有助于使编解码器在非常小的视频尺寸下变得实用。&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这只是一次典型的午餐散步交谈。&lt;/p&gt;
+
+&lt;p&gt;来自1990年的趣闻轶事：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;他要求佩佩尔制定一个产品计划，以便他能在5月7日的苹果全球开发者大会上宣布。那天，凯西走上舞台，向震惊的观众宣布了QuickTime，他说：“苹果公司打算开发实时软件压缩/解压缩技术，该技术将运行在当今的模块化Macintosh系统上。一个系统级的时间编码，以实现声音、动画和其他对时间要求严格的进程的同步。”&lt;/p&gt;
+
+&lt;p&gt;凯西解释说，苹果的新多媒体架构将在年底前交付。他没有说QuickTime没有预算、没有员工、也没有办公室。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;沃辛顿：&lt;/strong&gt; &lt;em&gt;我们都惊呆了。&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;康斯坦丁·奥斯默，QuickDraw工程师：&lt;/strong&gt; &lt;em&gt;我站在布鲁斯·利克旁边，问他：“那到底是什么东西？”他说他也不知道。&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;QuickTime实际上在1991年WWDC大会前就发布了，这给苹果上了重要的一课：他们在WWDC上宣布的任何东西，无论多么不成熟，都会如期发布。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/04/02/buck-quicktime-history" title="永久链接至‘约翰·巴克谈QuickTime的发明’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Thu, 02 Apr 2026 20:12:07 +0000</pubDate></item><item><title>阿尔忒弥斯二号机组人员正在前往月球途中</title><link>https://512pixels.net/2026/04/artemis-ii-crew-on-way-to-moon/</link><description>&lt;p&gt;斯蒂芬·哈克特整理的精彩链接汇总：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href="https://www.nasa.gov/feature/our-artemis-crew/"&gt;此次任务机组&lt;/a&gt;由里德·怀斯曼、维克多·格洛弗、克里斯蒂娜·科赫以及加拿大航天局宇航员杰里米·汉森组成。他们此刻正在前往月球的途中，预计将于10天后返回。尽管他们的火箭可能源自&lt;a href="https://512pixels.net/2022/08/the-good-and-bad-of-the-sls/"&gt;一个存在重大缺陷的项目&lt;/a&gt;，但此时此刻，这已无关紧要。&lt;a href="https://www.nasa.gov/wp-content/uploads/2025/09/artemis-ii-map-508.pdf?emrc=696d584d7d299"&gt;他们正带领我们&lt;/a&gt;迈向50年来最接近重返月球表面的时刻。这值得庆祝。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/04/02/artemis-ii-crew-on-way-to-moon" title="‘Artemis II Crew on Way to Moon’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Thu, 02 Apr 2026 19:37:10 +0000</pubDate></item><item><title>OpenAI，据称正收紧其核心产品重点，收购科技行业脱口秀TBPN</title><link>https://www.wsj.com/cmo-today/openai-buys-tech-industry-talk-show-tbpn-484c01c5?st=RUVFWn</link><description>&lt;p&gt;凯蒂·戴顿为《华尔街日报》报道（主链接为赠阅链接；&lt;a href="https://apple.news/AYU5qUKRHTPWrbBXJUukrtQ"&gt;亦可在News+上阅读&lt;/a&gt;）：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;根据OpenAI应用部门首席执行官菲吉·西莫发送的一份备忘录，OpenAI收购TBPN是为了通过帮助该节目发展，鼓励围绕人工智能带来的变革进行建设性对话。TBPN将向OpenAI全球事务主管克里斯·莱恩汇报，并将在节目之外协助公司的传播和营销工作。&lt;/p&gt;
+
+&lt;p&gt;“他们帮助过许多品牌进行线上营销，并且因为他们对行业发展趋势有敏锐的洞察力，他们的传播和营销理念确实给我留下了深刻印象，”西莫在备忘录中写道。&lt;/p&gt;
+
+&lt;p&gt;但OpenAI表示，TBPN将保持编辑独立性，保留对其节目内容、编辑决策、嘉宾选择和制作计划的控制权。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;是的，我确信他们会保持完全独立。你知道的，就像&lt;a href="https://daringfireball.net/2024/12/journalism_requires_owners_committed_to_the_cause"&gt;杰夫·贝索斯旗下的《华盛顿邮报》&lt;/a&gt;，以及&lt;a href="https://daringfireball.net/linked/2025/12/22/weiss-60-minutes-cecot"&gt;大卫·埃里森旗下的CBS新闻&lt;/a&gt;一样。许多新闻和评论出版物在向其表面上报道的公司的公关主管汇报时，都保持了坚定的独立性。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/04/02/openai-tbpn" title="永久链接：‘OpenAI，据称正收紧对其核心产品的关注，却收购了科技行业谈话节目TBPN’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Thu, 02 Apr 2026 18:58:50 +0000</pubDate></item><item><title>Axios，广受欢迎的NPM包，在其维护者遭受攻击时被入侵</title><link>https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan</link><description>&lt;p&gt;StepSecurity:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;em&gt;如果你安装了 axios@1.14.1 或 axios@0.30.4，请假设你的系统已遭入侵。&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;axios&lt;/code&gt; 本身内部没有任何恶意代码，而这正是此次攻击如此危险的原因。这两个被污染的版本都注入了一个虚假依赖项 &lt;code&gt;plain-crypto-js@4.2.1&lt;/code&gt;，这个包在 &lt;code&gt;axios&lt;/code&gt; 源代码中从未被导入过，其唯一目的是运行一个 &lt;code&gt;postinstall&lt;/code&gt; 脚本，该脚本会部署一个跨平台远程访问木马。这个投放器会联系一个活跃的命令与控制服务器，为 macOS、Windows 和 Linux 分别提供独立的第二阶段有效载荷，然后自我删除，并用一个干净的诱饵替换其自身的 &lt;code&gt;package.json&lt;/code&gt;。事后检查其 &lt;code&gt;node_modules&lt;/code&gt; 文件夹的开发者将找不到任何出错的迹象。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;axios&lt;/code&gt; 本身内部没有一行恶意代码，而这正是此次攻击如此危险的原因。这两个被污染的版本都注入了一个虚假依赖项 &lt;code&gt;plain-crypto-js@4.2.1&lt;/code&gt;，这个包从未在 &lt;code&gt;axios&lt;/code&gt; 源代码的任何地方被导入，其唯一目的是运行一个部署跨平台远程访问木马的 &lt;code&gt;postinstall&lt;/code&gt; 脚本。该投放器会联系一个活跃的命令与控制服务器，为 macOS、Windows 和 Linux 分别投递独立的第二阶段有效载荷，然后自我删除，并用一个干净的诱饵替换其自身的 &lt;code&gt;package.json&lt;/code&gt;。事后检查其 &lt;code&gt;node_modules&lt;/code&gt; 文件夹的开发者将找不到任何出错的迹象。&lt;/p&gt;
 
-&lt;p&gt;这不是机会主义行为。这是精准打击。恶意依赖项被提前 18 小时部署。为三个操作系统预构建了三个有效载荷。两个发布分支在 39 分钟内相继被污染。每个构件都设计为自毁。在 &lt;code&gt;npm install&lt;/code&gt; 执行后的两秒内，甚至在 npm 完成解析依赖项之前，恶意软件就已经在向攻击者的服务器“回传”信息了。这是有记录以来针对 npm 前十名包的最具操作复杂性的供应链攻击之一。&lt;/p&gt;
+&lt;p&gt;这不是机会主义行为。这是精准打击。恶意依赖项提前了 18 小时部署。为三个操作系统预构建了三个有效载荷。两个发布分支在 39 分钟内相继被污染。每个构件都设计为自毁。在 &lt;code&gt;npm install&lt;/code&gt; 执行后的两秒内，甚至在 npm 完成解析依赖项之前，恶意软件就已经在向攻击者的服务器“回传”信息了。这是有记录以来针对 npm 前十名软件包的操作最复杂的供应链攻击之一。&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;可能是我对 JavaScript 的偏见在作祟，但我发现这发生在同一个框架上并不令人惊讶，毕竟&lt;a href="https://daringfireball.net/linked/2022/03/20/node-ipc-protest-ukraine"&gt;这个&lt;/a&gt;和&lt;a href="https://www.theregister.com/2016/03/23/npm_left_pad_chaos/"&gt;这个&lt;/a&gt;也发生在它身上。&lt;/p&gt;
+&lt;p&gt;可能是我对 JavaScript 的偏见在作祟，但我发现这发生在同一个框架上并不令人意外，毕竟&lt;a href="https://daringfireball.net/linked/2022/03/20/node-ipc-protest-ukraine"&gt;这件事&lt;/a&gt;和&lt;a href="https://www.theregister.com/2016/03/23/npm_left_pad_chaos/"&gt;这件事&lt;/a&gt;也发生在它身上。&lt;/p&gt;
 
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/linked/2026/04/02/axios-attack" title="‘Axios, Super Popular NPM Package, Was Compromised in Attack on the Module’s Maintainer’ 的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
@@ -31,14 +81,14 @@
 
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/linked/2026/04/02/60-minutes-rather-jobs" title="永久链接至‘商业上的伟大成就从来不是由一个人完成的，而是由一群人共同实现的。’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Thu, 02 Apr 2026 15:17:27 +0000</pubDate></item><item><title>★ 大卫·波格的《苹果：第一个50年》</title><link>https://daringfireball.net/2026/04/pogue_apple_first_50_years</link><description>&lt;p&gt;几周前，波格&lt;a href="https://daringfireball.net/thetalkshow/2026/03/18/ep-443"&gt;做客我的《脱口秀》节目&lt;/a&gt;，谈论他的新书&lt;em&gt;&lt;a href="https://www.applefirst50.com/"&gt;《苹果：第一个50年》&lt;/a&gt;&lt;/em&gt;，节目非常有趣。但这本书本身是如此出色、如此全面、如此&lt;em&gt;有趣&lt;/em&gt;，在我们庆祝苹果公司成立50周年之际，感觉必须推荐一下。我通常偏爱纸质书，而这本书的印刷版尤其出色——它是一本精美的全彩印刷书籍（不仅仅是中间夹着16页彩页那种）。苹果的历史无论是字面意义还是象征意义上都色彩斑斓，波格收录的照片和截图都非常棒。&lt;/p&gt;
-&lt;p&gt;这本书堪称一部即时经典——既是一本非常愉快的读物，也是一本为未来几十年精心研究的参考书。波格既涵盖了广为人知的领域，&lt;em&gt;也&lt;/em&gt;报道了无数前所未闻的珍贵信息、轶事和细节。例如，我们都知道史蒂夫·乔布斯曾反对向第三方应用开放iPhone。但波格采访了斯科特·福斯特尔，得到了这个故事，讲述了史蒂夫·乔布斯认为苹果公司可以在不向第三方开发者开放的情况下，能在多大程度上扩展iPhone的软件库：&lt;/p&gt;
+&lt;/div&gt;</description><pubDate>Thu, 02 Apr 2026 15:17:27 +0000</pubDate></item><item><title>★ 大卫·波格的《苹果：第一个50年》</title><link>https://daringfireball.net/2026/04/pogue_apple_first_50_years</link><description>&lt;p&gt;几周前，波格&lt;a href="https://daringfireball.net/thetalkshow/2026/03/18/ep-443"&gt;做客我的《脱口秀》节目&lt;/a&gt;，谈论他的新书&lt;em&gt;&lt;a href="https://www.applefirst50.com/"&gt;《苹果：第一个50年》&lt;/a&gt;&lt;/em&gt;，节目非常有趣。但这本书实在太好了，如此全面，如此&lt;em&gt;有趣&lt;/em&gt;，在我们庆祝苹果公司成立50周年之际，感觉必须推荐一下。我通常偏爱纸质书，而这本书的印刷版尤其出色——它是一本精美的全彩印刷书籍（不仅仅是中间夹着16页彩页那种）。苹果的历史无论在字面还是比喻意义上都色彩斑斓，波格收录的照片和截图都非常棒。&lt;/p&gt;
+&lt;p&gt;这本书堪称一部即时经典——既是一本非常愉快的读物，也是一本为未来几十年精心研究的参考书。波格既涵盖了广为人知的领域，&lt;em&gt;也&lt;/em&gt;报道了无数前所未闻的珍贵信息、轶事和细节。例如，我们都知道史蒂夫·乔布斯曾反对向第三方应用开放iPhone。但波格采访了斯科特·福斯特尔，得到了这个故事，讲述了史蒂夫·乔布斯认为苹果可以在不向第三方开发者开放的情况下，能在多大程度上扩展iPhone的软件库：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;“我要你列出所有客户可能想用的每一个应用，”他告诉福斯特尔。“然后我们俩来给这个列表排优先级。接着我会给你开一张空白支票，你要组建世界上有史以来最大的开发团队，尽可能快地开发尽可能多的应用。”&lt;/p&gt;
-&lt;p&gt;福斯特尔心存疑虑，开始列清单。但在私下里，他指示他的工程师将应用商店的安全基础架构构建到iPhone的软件中——“违背史蒂夫的知识和意愿，”福斯特尔说。[...]&lt;/p&gt;
+&lt;p&gt;“我要你列出客户可能想用的每一个应用，”他告诉福斯特尔。“然后我们俩来给这个列表排优先级。接着我会给你开一张空白支票，你将组建世界上有史以来最大的开发团队，尽可能快地开发尽可能多的应用。”&lt;/p&gt;
+&lt;p&gt;福斯特尔心存疑虑，开始列清单。但同时，他指示他的工程师将应用商店的安全基础构建到iPhone的软件中——“违背史蒂夫的知情和意愿，”福斯特尔说。[...]&lt;/p&gt;
 &lt;p&gt;iPhone发布两周后，有人找到了“越狱”iPhone的方法：破解它以便安装自定义应用。&lt;/p&gt;
 &lt;p&gt;乔布斯冲进福斯特尔的办公室。“你必须阻止这个！”&lt;/p&gt;
-&lt;p&gt;但福斯特尔不认为开发者花精力让iPhone变得更好有什么害处。“如果他们添加了恶意的东西，我们明天就发布更新来防范。但如果他们只是添加有用的应用，那就没有理由去破坏它。”&lt;/p&gt;
+&lt;p&gt;但福斯特尔不认为开发者花精力让iPhone变得更好有什么坏处。“如果他们添加了恶意的东西，我们明天就发布更新来防范。但如果他们只是添加有用的应用，那就没有理由去破坏它。”&lt;/p&gt;
 &lt;p&gt;乔布斯感到困扰，勉强同意了。&lt;/p&gt;
 &lt;p&gt;一周又一周，更多酷炫的应用出现了，但只适用于越狱手机。十月的某一天，乔布斯读到一篇关于其中一些最酷应用的文章。&lt;/p&gt;
 &lt;p&gt;“你知道吗？”他说。“我们应该建立一个应用商店。”&lt;/p&gt;
@@ -72,49 +122,4 @@
 
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/linked/2026/04/02/pogue-apple" title="永久链接至‘大卫·波格：‘苹果与我’’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Thu, 02 Apr 2026 14:15:45 +0000</pubDate></item><item><title>特朗普的白宫宴会厅设计糟透了</title><link>https://www.nytimes.com/interactive/2026/03/29/upshot/white-house-ballroom.html</link><description/><pubDate>Thu, 02 Apr 2026 13:48:45 +0000</pubDate></item><item><title>克里斯·埃斯皮诺萨，苹果公司第八号员工，登上《纽约时报》人物特写</title><link>https://www.nytimes.com/2026/04/01/technology/apple-employee-50-years.html?unlocked_article_code=1.X1A.QEzX.u6cPCOjBE3mT</link><description>&lt;p&gt;《纽约时报》的Kalley Huang写道（礼物链接）：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;埃斯皮诺萨先生说，在那期间，苹果公司“一次又一次、一次又一次地”裁员。他的经理告诉他，他之所以幸免，是因为他在公司工作了太久，遣散费会过于昂贵。&lt;/p&gt;
-
-&lt;p&gt;“我当时很迷茫，不知道自己能做什么，因为我没有大学文凭，而且只在一家公司工作过，”埃斯皮诺萨先生说。然后他想通了：“公司开张时我就在这里。我不妨留下来，直到公司关门。”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;很棒的报道。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/04/01/espinosa-nyt" title="《纽约时报》专访8号员工克里斯·埃斯皮诺萨的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Thu, 02 Apr 2026 00:10:29 +0000</pubDate></item><item><title>脱口秀：“苹果公司五十周年”</title><link>https://daringfireball.net/thetalkshow/2026/04/01/ep-445</link><description>&lt;p&gt;还有谁比约翰·西拉库萨更适合加入节目来纪念苹果公司成立50周年呢？&lt;/p&gt;
-
-&lt;p&gt;&lt;audio controls="controls" preload="none" src="https://traffic.libsyn.com/secure/daringfireball/thetalkshow-445-john-siracusa.mp3"&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;赞助商：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://sentry.io/talkshow"&gt;Sentry&lt;/a&gt;：实时错误监控与追踪平台。使用代码 &lt;strong&gt;TALKSHOW&lt;/strong&gt; 可获得80美元免费额度。&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://notion.com/talkshow"&gt;Notion&lt;/a&gt;：团队与AI智能体协同工作的AI工作空间。&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://factormeals.com/talkshow50off"&gt;Factor&lt;/a&gt;：轻松享受健康饮食。使用代码 &lt;strong&gt;talkshow50off&lt;/strong&gt; 首单享5折优惠，并获赠一年免费早餐。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/04/01/the-talk-show-445" title="永久链接至‘The Talk Show: ‘Apple at 50’’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Wed, 01 Apr 2026 23:47:37 +0000</pubDate></item><item><title>更多关于苹果有趣的“倒带”视频</title><link>https://hachyderm.io/@lexfri/116331181693278195</link><description>&lt;p&gt;莱克斯·弗里德曼（附有嵌入视频为证）：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;如果你将苹果新视频以“倒带”方式反向播放，其背景音乐正是《非同凡想》广告曲，只是音调提高了。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;果然如此。&lt;/p&gt;
-
-&lt;p&gt;另外，关于那个“◀︎◀︎ REW”按钮——其中“REW”使用了位图化的芝加哥12号字体，而“◀︎◀︎”符号却是现代风格——&lt;a href="https://mastodon.social/@chockenberry/116330897304678060"&gt;克雷格·霍肯伯里已将其修复&lt;/a&gt;：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;我假装自己是苏珊·凯尔并修复了它，下方是原始版本，上方是我的诠释。&lt;/p&gt;
-
-&lt;p&gt;&lt;a class="noborder" href="https://daringfireball.net/misc/2026/04/KCOHC.png"&gt;
-&lt;img alt="克雷格·霍肯伯里像素艺术“◀︎◀︎ REW”按钮的前后对比。" src="https://daringfireball.net/misc/2026/04/KCOHC.png" width="500" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/04/01/more-on-apples-fun-rewind-video" title="《关于苹果趣味‘倒带’视频的更多细节》永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Wed, 01 Apr 2026 20:27:02 +0000</pubDate></item></channel></rss>
+&lt;/div&gt;</description><pubDate>Thu, 02 Apr 2026 14:15:45 +0000</pubDate></item><item><title>特朗普的白宫宴会厅设计糟透了</title><link>https://www.nytimes.com/interactive/2026/03/29/upshot/white-house-ballroom.html</link><description/><pubDate>Thu, 02 Apr 2026 13:48:45 +0000</pubDate></item></channel></rss>
