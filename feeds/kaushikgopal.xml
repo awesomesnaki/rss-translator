@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kaushik Gopal's Website (中文)</title><link>https://kau.sh/</link><description>近期内容 - Kaushik Gopal 的网站</description><language>zh-CN</language><lastBuildDate>Fri, 20 Mar 2026 00:00:00 +0000</lastBuildDate><item><title>Podsync - 我终于建好了我的播客曲目同步器</title><link>https://kau.sh/blog/podsync/</link><description>&lt;figure&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kaushik Gopal's Website (中文)</title><link>https://kau.sh/</link><description>近期内容 - Kaushik Gopal 的网站</description><language>zh-CN</language><lastBuildDate>Fri, 03 Apr 2026 00:00:00 +0000</lastBuildDate><item><title>我们正在成为驾驭工程师</title><link>https://kau.sh/blog/harness-engineers/</link><description>&lt;p&gt;软件工程师的角色正在转变。不是转向编写更多代码，而是转向构建让智能体可靠运行的环境。&lt;/p&gt;
+&lt;p&gt;想想你今天实际用Claude Code或Codex做什么：你配置AGENTS.md文件，设置MCP服务器，编写技能和钩子，构建反馈循环并调整子智能体。&lt;/p&gt;
+&lt;p&gt;你不再编写那么多软件了。你是在为那个编写软件的东西设计"缰绳"。&lt;/p&gt;
+&lt;p&gt;Mitchell Hashimoto
+&lt;a href="https://mitchellh.com/writing/my-ai-adoption-journey"&gt;首次提出了&lt;/a&gt;
+&lt;strong&gt;缰绳工程&lt;/strong&gt;这个术语——即围绕智能体塑造环境，使其能够可靠行动的工作。模型能看到什么，它拥有什么工具，如何获得反馈，人类何时介入。&lt;/p&gt;
+&lt;p&gt;我们不断听到智能体将取代工程师的说法。但这不应该是我们所见变革的焦点。实际正在发生的是产品人员直接交付功能。一个被良好"驾驭"的智能体，能让具有产品直觉但工程背景薄弱的人安全地进行有意义的更改。&lt;/p&gt;
+&lt;p&gt;缰绳工程师使之成为可能。护栏、设计选择、影响范围控制、反馈循环。正是这些脚手架，将"只管提示它"变成了团队可以信赖的东西。这是我根据亲身经历说的。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;如果你想深入了解，可以听听
+&lt;a href="https://fragmentedpodcast.com/episodes/307"&gt;这期节目&lt;/a&gt;，我和我的联合主持人在其中深入探讨了这个问题。&lt;/p&gt;
+&lt;div class="overflow-hidden sm:h-[200px]"&gt;
+
+
+&lt;/div&gt;
+&lt;p&gt;我们总结出了五大支柱：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;智能体可理解性&lt;/li&gt;
+&lt;li&gt;闭环反馈&lt;/li&gt;
+&lt;li&gt;持久记忆&lt;/li&gt;
+&lt;li&gt;熵控制&lt;/li&gt;
+&lt;li&gt;影响范围控制&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;老实说，这是我们录制过的最重要的节目之一。&lt;/p&gt;</description><pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate></item><item><title>Podsync - 我终于建好了我的播客曲目同步器</title><link>https://kau.sh/blog/podsync/</link><description>&lt;figure&gt;
 &lt;img src="https://kau.sh/podsync.webp"/&gt;
 &lt;/figure&gt;
 &lt;p&gt;我主持并编辑一档&lt;a href="https://fragmentedpodcast.com/"&gt;播客&lt;/a&gt;&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="https://kau.sh/feed.xml#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;。远程录制时，我们各自在本地录制自己的音频（我在我这边录，我的联合主持人在他那边录）。我们使用的服务（Adobe Podcast、Zoom、Skype-RIP）会将所有人的音频捕捉到一起，生成一条主音轨。但其质量无法与每个人用自己麦克风在本地录制的效果相比。因此，我们将那条主音轨作为参考点，然后把各自独立的本地音轨拼接起来。&lt;/p&gt;
@@ -633,8 +656,4 @@ Kotlin 开发者会感到熟悉
 &lt;p&gt;这也可以称为智能体驱动编码，但氛围工程听起来更好？氛围编码；AI辅助编码；智能体驱动编码。嗯… &lt;a class="footnote-backref" href="https://kau.sh/feed.xml#fnref:1"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</description><pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate></item><item><title>与朋友们一起订阅月度AI服务</title><link>https://kau.sh/blog/ai-monthly-subs/</link><description>&lt;p&gt;选择按月订阅AI服务吧，朋友们&lt;/p&gt;
-&lt;p&gt;我不记得是在哪里读到这个建议了，但考虑到AI实验室模型更新如此之快，坚持按月订阅比锁定年度计划更明智，即使年费价格看起来更诱人。&lt;/p&gt;
-&lt;p&gt;我在Android上遇到了一个&lt;a href="https://developer.android.com/training/dependency-injection"&gt;依赖注入问题&lt;/a&gt;，懒得自己调试，于是让两个模型来处理。GPT Codex给出了最简洁、正确的修复方案。Claude Sonnet 4.5也找到了一个修复方法，但不够地道，而且改动相当激进。&lt;/p&gt;
-&lt;p&gt;一个月前，对于编码任务，我除了Claude模型外根本不会考虑其他。而今天，Codex明显感觉领先了。谷歌&lt;a href="https://x.com/sundarpichai/status/1989481514393121239"&gt;即将&lt;/a&gt;发布其下一代Gemini模型，据我所知，它将好得离谱。&lt;/p&gt;
-&lt;p&gt;在这个美妙而不稳定的时代，按月订阅才是明智之举。&lt;/p&gt;</description><pubDate>Sun, 16 Nov 2025 18:46:05 +0000</pubDate></item></channel></rss>
+&lt;/div&gt;</description><pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate></item></channel></rss>

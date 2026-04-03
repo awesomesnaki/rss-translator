@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Thu, 02 Apr 2026 20:40:47 +0000</lastBuildDate><item><title>我在莱尼播客上关于智能体工程的对话亮点</title><link>https://simonwillison.net/2026/Apr/2/lennys-podcast/#atom-everything</link><description>&lt;p&gt;我最近做客了莱尼·拉奇茨基的播客节目，新一集的标题是&lt;a href="https://www.lennysnewsletter.com/p/an-ai-state-of-the-union"&gt;《人工智能国情咨文：我们已过拐点，黑暗工厂即将到来，以及自动化时间线》&lt;/a&gt;。这期节目可以在&lt;a href="https://youtu.be/wc8FBhQtdsA"&gt;YouTube&lt;/a&gt;、&lt;a href="https://open.spotify.com/episode/0DVjwLT6wgtscdB78Qf1BQ"&gt;Spotify&lt;/a&gt;和&lt;a href="https://podcasts.apple.com/us/podcast/an-ai-state-of-the-union-weve-passed-the/id1627920305?i=1000758850377"&gt;Apple Podcasts&lt;/a&gt;上收听。以下是我对我们谈话内容的要点总结，并附上了相关链接。&lt;/p&gt;&lt;ul&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Fri, 03 Apr 2026 16:05:00 +0000</lastBuildDate><item><title>JavaScript能否突破iframe内的CSP元标签限制？</title><link>https://simonwillison.net/2026/Apr/3/test-csp-iframe-escape/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;研究：&lt;/strong&gt; &lt;a href="https://github.com/simonw/research/tree/main/test-csp-iframe-escape#readme"&gt;JavaScript能否在Iframe内逃脱CSP元标签的限制？&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;在尝试构建我自己的Claude Artifacts版本时，我开始好奇如何在不使用单独域名托管文件的情况下，将CSP头部应用到沙盒化iframe中的内容。事实证明，你可以在iframe内容的顶部注入&lt;code&gt;&amp;lt;meta http-equiv="Content-Security-Policy"...&amp;gt;&lt;/code&gt;标签，即使后续不受信任的JavaScript试图操纵它们，这些标签也会被遵守。&lt;/p&gt;
+    
+        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/iframes"&gt;iframes&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/security"&gt;security&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/javascript"&gt;javascript&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/content-security-policy"&gt;content-security-policy&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/sandboxing"&gt;sandboxing&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 03 Apr 2026 16:05:00 +0000</pubDate></item><item><title>Axios供应链攻击采用了针对个体的社会工程手段。</title><link>https://simonwillison.net/2026/Apr/3/supply-chain-social-engineering/#atom-everything</link><description>&lt;p&gt;Axios团队发布了一份关于供应链攻击的&lt;a href="https://github.com/axios/axios/issues/10636"&gt;完整事后分析报告&lt;/a&gt;，这次攻击导致恶意软件依赖项在&lt;a href="https://simonwillison.net/2026/Mar/31/supply-chain-attack-on-axios/"&gt;前几天的发布中流出&lt;/a&gt;，其中涉及一场针对他们其中一位维护者的复杂社会工程活动。以下是Jason Saayman对&lt;a href="https://github.com/axios/axios/issues/10636#issuecomment-4180237789"&gt;攻击过程&lt;/a&gt;的描述：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;所以攻击途径模仿了谷歌在这里记录的内容：&lt;a href="https://cloud.google.com/blog/topics/threat-intelligence/unc1069-targets-cryptocurrency-ai-social-engineering"&gt;https://cloud.google.com/blog/topics/threat-intelligence/unc1069-targets-cryptocurrency-ai-social-engineering&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;他们通过以下方式专门针对我定制了这个过程：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;他们冒充一家公司的创始人联系我，克隆了该公司创始人的形象以及公司本身。&lt;/li&gt;
+&lt;li&gt;然后他们邀请我加入一个真实的Slack工作区。这个工作区以该公司的CI品牌进行包装，并以一种看似合理的方式命名。Slack设计得非常周到，他们有分享LinkedIn帖子的频道，我推测这些LinkedIn帖子只是链接到真实公司的账户，但这一切都极具说服力。他们甚至还有我推测是该公司团队的虚假资料，以及其他一些开源软件维护者。&lt;/li&gt;
+&lt;li&gt;他们安排了一次与我联系的会议。会议在Microsoft Teams上进行。会议中似乎有一群人参与。&lt;/li&gt;
+&lt;li&gt;会议期间，他们说我系统上的某个东西过时了。我安装了缺失的项目，因为我以为这与Teams有关，而这正是远程访问木马。&lt;/li&gt;
+&lt;li&gt;整个过程协调得极其周密，看起来合法，并且以专业的方式进行。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;RAT是远程访问木马——正是这个软件窃取了开发者的凭证，然后被用来发布恶意软件包。&lt;/p&gt;
+&lt;p&gt;这是一个&lt;em&gt;非常有效&lt;/em&gt;的骗局。我经常参加很多会议，发现自己总是在最后一刻需要安装Webex或Microsoft Teams之类的软件，时间紧迫意味着我总是尽可能快地点击“是”，以确保不会迟到。&lt;/p&gt;
+&lt;p&gt;每一个维护着足够多用户使用的开源软件的维护者，如果其软件值得以这种方式被攻击，都需要熟悉这种攻击策略。&lt;/p&gt;
+    
+        &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/open-source"&gt;开源&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/packaging"&gt;打包&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/security"&gt;安全&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/social-engineering"&gt;社会工程学&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/supply-chain"&gt;供应链&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 03 Apr 2026 13:54:53 +0000</pubDate></item><item><title>我在莱尼播客上关于智能体工程的对话亮点</title><link>https://simonwillison.net/2026/Apr/2/lennys-podcast/#atom-everything</link><description>&lt;p&gt;我最近做客了莱尼·拉奇茨基的播客节目，新一集的标题是&lt;a href="https://www.lennysnewsletter.com/p/an-ai-state-of-the-union"&gt;《人工智能国情咨文：我们已过拐点，黑暗工厂即将到来，以及自动化时间线》&lt;/a&gt;。这期节目可以在&lt;a href="https://youtu.be/wc8FBhQtdsA"&gt;YouTube&lt;/a&gt;、&lt;a href="https://open.spotify.com/episode/0DVjwLT6wgtscdB78Qf1BQ"&gt;Spotify&lt;/a&gt;和&lt;a href="https://podcasts.apple.com/us/podcast/an-ai-state-of-the-union-weve-passed-the/id1627920305?i=1000758850377"&gt;Apple Podcasts&lt;/a&gt;上收听。以下是我对我们谈话内容的要点总结，并附上了相关链接。&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href="https://simonwillison.net/2026/Apr/2/lennys-podcast/#the-november-inflection-point"&gt;十一月转折点&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://simonwillison.net/2026/Apr/2/lennys-podcast/#software-engineers-as-bellwethers-for-other-information-workers"&gt;软件工程师作为其他信息工作者的风向标&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://simonwillison.net/2026/Apr/2/lennys-podcast/#writing-code-on-my-phone"&gt;在手机上写代码&lt;/a&gt;&lt;/li&gt;
@@ -276,21 +295,4 @@
 &lt;/ul&gt;
 &lt;/blockquote&gt;
     
-        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/llm"&gt;llm&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/datasette"&gt;datasette&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 01 Apr 2026 03:28:44 +0000</pubDate></item><item><title>datasette-llm-usage 0.2a0</title><link>https://simonwillison.net/2026/Apr/1/datasette-llm-usage/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;发布：&lt;/strong&gt; &lt;a href="https://github.com/datasette/datasette-llm-usage/releases/tag/0.2a0"&gt;datasette-llm-usage 0.2a0&lt;/a&gt;&lt;/p&gt;
-    &lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;移除了与额度及预估定价相关的功能。这些功能现属于 &lt;a href="https://github.com/datasette/datasette-llm-accountant"&gt;datasette-llm-accountant&lt;/a&gt; 的范畴。&lt;/li&gt;
-&lt;li&gt;现在依赖 &lt;a href="https://github.com/datasette/datasette-llm"&gt;datasette-llm&lt;/a&gt; 进行模型配置。&lt;a href="https://github.com/datasette/datasette-llm-usage/pull/3"&gt;#3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;如果您设置了新的 &lt;code&gt;datasette-llm-usage.log_prompts&lt;/code&gt; 插件配置项，现在可以将完整的提示、响应以及工具调用记录到内部数据库的 &lt;code&gt;llm_usage_prompt_log&lt;/code&gt; 表中。&lt;/li&gt;
-&lt;li&gt;重新设计了 &lt;code&gt;/-/llm-usage-simple-prompt&lt;/code&gt; 页面，该页面现在需要 &lt;code&gt;llm-usage-simple-prompt&lt;/code&gt; 权限。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-    
-        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/llm"&gt;llm&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/datasette"&gt;datasette&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 01 Apr 2026 03:24:03 +0000</pubDate></item><item><title>datasette-llm 0.1a5</title><link>https://simonwillison.net/2026/Apr/1/datasette-llm/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;发布：&lt;/strong&gt; &lt;a href="https://github.com/datasette/datasette-llm/releases/tag/0.1a5"&gt;datasette-llm 0.1a5&lt;/a&gt;&lt;/p&gt;
-    &lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;llm_prompt_context()&lt;/code&gt; 插件钩子包装机制现在可以追踪链式调用中执行的提示词以及一次性提示词，这意味着它可以用于追踪工具调用循环。&lt;a href="https://github.com/datasette/datasette-llm"&gt;#5&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-    
-        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/llm"&gt;llm&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/datasette"&gt;datasette&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 01 Apr 2026 03:11:01 +0000</pubDate></item></channel></rss>
+        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/llm"&gt;llm&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/datasette"&gt;datasette&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 01 Apr 2026 03:28:44 +0000</pubDate></item></channel></rss>
