@@ -1,6 +1,6 @@
 # RSS 中文翻译源
 
-更新时间: 2026-04-05 12:46 UTC
+更新时间: 2026-04-05 18:51 UTC
 
 ## 订阅链接
 
@@ -18,6 +18,7 @@
 - macmenubar: `feeds/macmenubar.xml`
 - thriftmac: `feeds/thriftmac.xml`
 - basicappleguy: `feeds/basicappleguy.xml`
+- workspaces: `feeds/workspaces.xml`
 
 将上面的 xml 文件链接替换为完整 URL 即可订阅。
 

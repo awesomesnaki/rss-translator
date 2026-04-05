@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sun, 05 Apr 2026 01:00:00 +0000</lastBuildDate><item><title>材料安全</title><link>https://material.security/lp-cloud-office-security?utm_source=third-party&amp;utm_medium=email&amp;utm_campaign=20260330-daringfireball</link><description>&lt;p&gt;感谢Material Security赞助本周的DF。大多数安全团队面临的不是人才问题，而是噪音问题。手动修复钓鱼邮件、追踪有风险的OAuth权限以及审计文件共享，这些都不应成为全职工作。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sun, 05 Apr 2026 16:01:59 +0000</lastBuildDate><item><title>国际足联和平奖得主带来的复活节晨间希望寄语</title><link>https://truthsocial.com/@realDonaldTrump/posts/116351998782539414</link><description>&lt;p&gt;美国现任总统唐纳德·特朗普在其博客上写道：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;周二将是伊朗的发电厂日，也是桥梁日，两者合而为一。这将是无与伦比的！！！打开他妈的霍尔木兹海峡，你们这些疯狂的混蛋，否则你们将生活在地狱里——等着瞧吧！赞美真主。总统 唐纳德·J·特朗普&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://x.com/IraninJapan/status/2040773928889811011"&gt;伊朗驻日本大使馆&lt;/a&gt;引述特朗普的话回应道：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;一国领导人展现出如此低下的文明水平和智力水平令人遗憾；以可耻的热情反复表达犯下战争罪的意图令人震惊；而不顾恶意援引神明的行为，更清晰地暴露了其根深蒂固的狂热思想。为分享此等言论致歉。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/04/05/easter-morning-message-of-hope" title="永久链接至‘来自国际足联和平奖得主的复活节清晨希望寄语’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Sun, 05 Apr 2026 16:01:59 +0000</pubDate></item><item><title>材料安全</title><link>https://material.security/lp-cloud-office-security?utm_source=third-party&amp;utm_medium=email&amp;utm_campaign=20260330-daringfireball</link><description>&lt;p&gt;感谢Material Security赞助本周的DF。大多数安全团队面临的不是人才问题，而是噪音问题。手动修复钓鱼邮件、追踪有风险的OAuth权限以及审计文件共享，这些都不应成为全职工作。&lt;/p&gt;
 
 &lt;p&gt;Material Security整合了您的云工作空间，将电子邮件、文件和账户的检测与响应集中在一处。这是一种真正有效的安全方案：弥补Google和Microsoft的固有不足，却没有常见的企业级臃肿。别再与分散的控制台作斗争，开始专注于战略吧。是时候简化您的安全运维了。&lt;/p&gt;
 
@@ -104,18 +118,4 @@
 
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/linked/2026/04/02/openai-tbpn" title="永久链接：‘OpenAI，据称正收紧对其核心产品的关注，却收购了科技行业谈话节目TBPN’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Thu, 02 Apr 2026 18:58:50 +0000</pubDate></item><item><title>Axios，广受欢迎的NPM包，在其维护者遭受攻击时被入侵</title><link>https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan</link><description>&lt;p&gt;StepSecurity:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;如果你安装了 axios@1.14.1 或 axios@0.30.4，请假设你的系统已遭入侵。&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;axios&lt;/code&gt; 本身内部没有一行恶意代码，而这正是此次攻击如此危险的原因。这两个被污染的版本都注入了一个虚假依赖项 &lt;code&gt;plain-crypto-js@4.2.1&lt;/code&gt;，这个包从未在 &lt;code&gt;axios&lt;/code&gt; 源代码的任何地方被导入，其唯一目的是运行一个部署跨平台远程访问木马的 &lt;code&gt;postinstall&lt;/code&gt; 脚本。该投放器会联系一个活跃的命令与控制服务器，为 macOS、Windows 和 Linux 分别投递独立的第二阶段有效载荷，然后自我删除，并用一个干净的诱饵替换其自身的 &lt;code&gt;package.json&lt;/code&gt;。事后检查其 &lt;code&gt;node_modules&lt;/code&gt; 文件夹的开发者将找不到任何出错的迹象。&lt;/p&gt;
-
-&lt;p&gt;这不是机会主义行为。这是精准打击。恶意依赖项提前了 18 小时部署。为三个操作系统预构建了三个有效载荷。两个发布分支在 39 分钟内相继被污染。每个构件都设计为自毁。在 &lt;code&gt;npm install&lt;/code&gt; 执行后的两秒内，甚至在 npm 完成解析依赖项之前，恶意软件就已经在向攻击者的服务器“回传”信息了。这是有记录以来针对 npm 前十名软件包的操作最复杂的供应链攻击之一。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;可能是我对 JavaScript 的偏见在作祟，但我发现这发生在同一个框架上并不令人意外，毕竟&lt;a href="https://daringfireball.net/linked/2022/03/20/node-ipc-protest-ukraine"&gt;这件事&lt;/a&gt;和&lt;a href="https://www.theregister.com/2016/03/23/npm_left_pad_chaos/"&gt;这件事&lt;/a&gt;也发生在它身上。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/04/02/axios-attack" title="‘Axios, Super Popular NPM Package, Was Compromised in Attack on the Module’s Maintainer’ 的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Thu, 02 Apr 2026 18:42:39 +0000</pubDate></item></channel></rss>
+&lt;/div&gt;</description><pubDate>Thu, 02 Apr 2026 18:58:50 +0000</pubDate></item></channel></rss>
