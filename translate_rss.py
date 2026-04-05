@@ -10,6 +10,7 @@ from bs4 import BeautifulSoup, NavigableString
 from feedgenerator import Rss201rev2Feed
 from datetime import datetime, timezone
 from openai import OpenAI
+import trafilatura
 
 # DeepSeek API 配置（从环境变量读取，不会暴露在代码里）
 client = OpenAI(
@@ -147,6 +148,27 @@ def translate_html_content(html_content, cache):
     cache[content_hash] = result
     return result
 
+def fetch_full_article(url):
+    """从原文 URL 抓取完整文章内容"""
+    try:
+        downloaded = trafilatura.fetch_url(url)
+        if not downloaded:
+            print(f"  下载失败: {url}")
+            return None
+        content = trafilatura.extract(
+            downloaded,
+            include_links=True,
+            include_images=True,
+            output_format='html'
+        )
+        if content and content.strip():
+            return content
+        print(f"  未提取到内容: {url}")
+        return None
+    except Exception as e:
+        print(f"  抓取出错 {url}: {e}")
+        return None
+
 def translate_feed(feed_config, cache):
     print(f"处理: {feed_config['name']}")
     feed = feedparser.parse(feed_config['url'])
@@ -160,16 +182,28 @@ def translate_feed(feed_config, cache):
     )
     
     # 只处理最新 10 条
+    should_fetch_full = feed_config.get('fetch_full_content', False)
+
     for entry in feed.entries[:10]:
         title = translate_text(entry.get('title', ''), cache)
-        
+
         # 处理内容
         content = ''
         if 'content' in entry:
             content = entry.content[0].get('value', '')
         elif 'summary' in entry:
             content = entry.summary
-        
+
+        # 如果配置了全文抓取，从原文 URL 获取完整内容
+        if should_fetch_full and entry.get('link'):
+            print(f"  抓取全文: {entry['link']}")
+            full_content = fetch_full_article(entry['link'])
+            if full_content:
+                content = full_content
+            else:
+                print(f"  回退到 RSS 摘要")
+            time.sleep(1)
+
         # 翻译 HTML 内容（保留标签结构）
         translated_content = translate_html_content(content, cache)
         
