@@ -10,7 +10,8 @@ from bs4 import BeautifulSoup, NavigableString
 from feedgenerator import Rss201rev2Feed
 from datetime import datetime, timezone
 from openai import OpenAI
-import trafilatura
+import requests
+from readability import Document
 
 # DeepSeek API 配置（从环境变量读取，不会暴露在代码里）
 client = OpenAI(
@@ -149,18 +150,14 @@ def translate_html_content(html_content, cache):
     return result
 
 def fetch_full_article(url):
-    """从原文 URL 抓取完整文章内容"""
+    """从原文 URL 抓取完整文章内容，保留图片等 HTML 结构"""
     try:
-        downloaded = trafilatura.fetch_url(url)
-        if not downloaded:
-            print(f"  下载失败: {url}")
-            return None
-        content = trafilatura.extract(
-            downloaded,
-            include_links=True,
-            include_images=True,
-            output_format='html'
-        )
+        resp = requests.get(url, timeout=15, headers={
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
+        })
+        resp.raise_for_status()
+        doc = Document(resp.text)
+        content = doc.summary()
         if content and content.strip():
             return content
         print(f"  未提取到内容: {url}")
