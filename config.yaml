@@ -30,5 +30,10 @@ feeds:
     url: "https://basicappleguy.com/basicappleblog?format=rss"
   - name: "workspaces"
     url: "https://rss.beehiiv.com/feeds/A7QnI2IsJ7.xml"
-    fetch_full_content: true  
+    fetch_full_content: true
+  - name: "AnthropicEngineering"
+     url: "https://rsshub.app/anthropic/engineering"
+  - name: "dianying4k"
+    url: "rsshub://telegram/channel/dianying4K”
+    translate: false
   # 按这个格式添加更多源
