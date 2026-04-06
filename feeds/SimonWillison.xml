@@ -1,5 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Sun, 05 Apr 2026 23:54:18 +0000</lastBuildDate><item><title>八年的渴望，三个月的AI构建</title><link>https://simonwillison.net/2026/Apr/5/building-with-ai/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://lalitm.com/post/building-syntaqlite-ai/"&gt;八年期盼，三个月借AI之力构建&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Mon, 06 Apr 2026 05:18:26 +0000</lastBuildDate><item><title>谷歌AI边缘应用库</title><link>https://simonwillison.net/2026/Apr/6/google-ai-edge-gallery/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://apps.apple.com/nl/app/google-ai-edge-gallery/id6749645337"&gt;Google AI Edge Gallery&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;名字起得真糟糕，但应用确实很棒：这是谷歌官方的应用，让你可以直接在 iPhone 上运行他们的 Gemma 4 模型（包括 E2B 和 E4B 大小，以及 Gemma 3 家族的一些成员）。&lt;/p&gt;
+&lt;p&gt;它运行得&lt;em&gt;非常&lt;/em&gt;好。E2B 模型下载大小为 2.54GB，既快速又确实实用。&lt;/p&gt;
+&lt;p&gt;该应用还提供了针对两个小型 Gemma 4 模型的“图像问答”和音频转录（最长 30 秒）功能，并有一个有趣的“技能”演示，展示了针对八个不同交互式小部件的工具调用，每个小部件都实现为一个 HTML 页面（遗憾的是源代码不可见）：interactive-map、kitchen-adventure、calculate-hash、text-spinner、mood-tracker、mnemonic-password、query-wikipedia 和 qr-code。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="使用 Gemma-4-E2B-it 模型的“Agent Skills”聊天界面截图。用户提示为“在地图上给我看看 Castro Theatre。”模型响应，标记为“Model on GPU”，显示它“调用了 JS 技能 'interactive-map/index.html'”，并显示了一个嵌入的谷歌地图，中心是位于旧金山 Castro Theatre 的红色图钉，附近可见的地标包括 Starbelly、Cliff's Variety、Blind Butcher、GLBT Historical Society Museum 和 Fable。显示了“在 Maps 中打开”链接和“全屏查看”按钮。地图下方，模型说明“Castro Theatre 的交互式地图视图已显示。”响应时间为 2.4 秒。底部有一个占位符为“输入提示...”的文本输入框、一个“+”按钮和一个“技能”按钮。" src="https://static.simonwillison.net/static/2026/gemini-agent-skills.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;（不过，当我尝试添加后续提示时，这个演示确实让应用卡住了。）&lt;/p&gt;
+&lt;p&gt;这是我第一次看到本地模型供应商发布官方应用，让用户可以在 iPhone 上试用他们的模型。遗憾的是它缺少永久性日志——与该应用的对话是临时的。&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;来自 &lt;a href="https://news.ycombinator.com/item?id=47652561"&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/google"&gt;google&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/iphone"&gt;iphone&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/local-llms"&gt;local-llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/gemini"&gt;gemini&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llm-tool-use"&gt;llm-tool-use&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 06 Apr 2026 05:18:26 +0000</pubDate></item><item><title>datasette-ports 0.2</title><link>https://simonwillison.net/2026/Apr/6/datasette-ports-2/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;发布：&lt;/strong&gt; &lt;a href="https://github.com/datasette/datasette-ports/releases/tag/0.2"&gt;datasette-ports 0.2&lt;/a&gt;&lt;/p&gt;
+    &lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;不再需要 Datasette - 现在直接运行 &lt;code&gt;uvx datasette-ports&lt;/code&gt; 同样有效。&lt;/li&gt;
+&lt;li&gt;将其作为 Datasette 插件安装仍会提供 &lt;code&gt;datasette ports&lt;/code&gt; 命令。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+    
+        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/datasette"&gt;datasette&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 06 Apr 2026 03:25:43 +0000</pubDate></item><item><title>扫描密钥 0.3</title><link>https://simonwillison.net/2026/Apr/6/scan-for-secrets/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;发布：&lt;/strong&gt; &lt;a href="https://github.com/simonw/scan-for-secrets/releases/tag/0.3"&gt;scan-for-secrets 0.3&lt;/a&gt;&lt;/p&gt;
+    &lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;新增 &lt;code&gt;-r/--redact&lt;/code&gt; 选项，该选项会显示匹配项列表，请求确认，然后根据转义规则将每个匹配项替换为 &lt;code&gt;REDACTED&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;新增 Python 函数 &lt;code&gt;redact_file(file_path: str | Path, secrets: list[str], replacement: str = "REDACTED") -&amp;gt; int&lt;/code&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+    
+        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/projects"&gt;projects&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 06 Apr 2026 02:59:28 +0000</pubDate></item><item><title>清理Claude代码粘贴</title><link>https://simonwillison.net/2026/Apr/6/cleanup-claude-code-paste/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;工具：&lt;/strong&gt; &lt;a href="https://tools.simonwillison.net/cleanup-claude-code-paste"&gt;清理Claude代码粘贴&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;这是个超级小众的工具。我有时会从Claude Code终端应用复制提示词，它们会附带一堆奇怪的额外空白字符。这个工具可以清理这些内容。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="一个名为“清理Claude代码粘贴”的网络工具截图，副标题为“粘贴终端输出去除❯提示符，修复换行空白，并将行合并为干净的文本。”一个输入文本区域包含已粘贴的终端输出，以“❯ 添加一个 -r/--redact 选项，该选项请求用户批准（在告知将发生多少次替换、在哪些文件和哪些行中之后——基本上是标准输出），然后重写该文件夹中的文件，将所有匹配的密钥替换为 REDACTED。使用 'uv run pytest' 运行测试，并使用红/绿TDD”开头。下方是“清理后的输出：”部分，显示相同的文本，但移除了❯提示符并清理了空白。底部有一个蓝色的“复制到剪贴板”按钮。" src="https://static.simonwillison.net/static/2026/claude-code-cleanup.jpg" /&gt;&lt;/p&gt;
+    
+        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/tools"&gt;工具&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 06 Apr 2026 02:55:23 +0000</pubDate></item><item><title>datasette-ports 0.1</title><link>https://simonwillison.net/2026/Apr/6/datasette-ports/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;发布：&lt;/strong&gt; &lt;a href="https://github.com/datasette/datasette-ports/releases/tag/0.1"&gt;datasette-ports 0.1&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;这是&lt;a href="https://gisthost.github.io/?f92d8a6bdadee1c77972b5e51954144e"&gt;README驱动开发&lt;/a&gt;的又一个例子，这次解决了一个可能是我独有的问题。&lt;/p&gt;
+&lt;p&gt;我经常发现自己运行着一堆不同的&lt;a href="https://datasette.io"&gt;Datasette&lt;/a&gt;实例，它们使用不同的数据库和不同的开发中插件，分散在几十个不同的终端窗口中——多到我经常找不到它们！&lt;/p&gt;
+&lt;p&gt;现在我可以运行这个：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;datasette install datasette-ports
+datasette ports
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;然后得到一个所有运行实例的列表，看起来像这样：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;http://127.0.0.1:8333/ - v1.0a26
+  数据库：data
+  插件：datasette-enrichments, datasette-enrichments-llm, datasette-llm, datasette-secrets
+http://127.0.0.1:8001/ - v1.0a26
+  数据库：creatures
+  插件：datasette-extract, datasette-llm, datasette-secrets
+http://127.0.0.1:8900/ - v0.65.2
+  数据库：logs
+&lt;/code&gt;&lt;/pre&gt;
+    
+        &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/datasette"&gt;datasette&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 06 Apr 2026 00:23:55 +0000</pubDate></item><item><title>八年的渴望，三个月的AI构建</title><link>https://simonwillison.net/2026/Apr/5/building-with-ai/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://lalitm.com/post/building-syntaqlite-ai/"&gt;八年期盼，三个月借AI之力构建&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Lalit Maganti 的这篇文章，是我长久以来在智能体工程领域读到的最精彩的深度长文之一。&lt;/p&gt;
 &lt;p&gt;他们花了八年时间构思，然后用三个月时间构建了 &lt;a href="https://github.com/lalitMaganti/syntaqlite"&gt;syntaqlite&lt;/a&gt;，他们将其描述为“&lt;a href="https://lalitm.com/post/syntaqlite/"&gt;SQLite 应得的高保真开发工具&lt;/a&gt;”。&lt;/p&gt;
 &lt;p&gt;其目标是提供快速、健壮且全面的 SQLite 代码检查和验证工具，适用于语言服务器和其他开发工具——一个用于 SQLite 查询的解析器、格式化器和验证器。我自己过去也常常想要这样的工具，因此才有了我几个月前那个（远未达到生产就绪程度的）&lt;a href="https://simonwillison.net/2026/Jan/30/sqlite-ast-2/"&gt;sqlite-ast&lt;/a&gt; 项目。&lt;/p&gt;
@@ -47,47 +93,4 @@
 &lt;li&gt;添加了关于同时扫描的转义方案的文档。&lt;/li&gt;
 &lt;li&gt;移除了不必要的 &lt;code&gt;repr&lt;/code&gt; 转义方案，该方案已由 &lt;code&gt;json&lt;/code&gt; 覆盖。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/blockquote&gt;</description><pubDate>Sun, 05 Apr 2026 03:39:33 +0000</pubDate></item><item><title>扫描密钥 0.1</title><link>https://simonwillison.net/2026/Apr/5/scan-for-secrets-3/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;发布：&lt;/strong&gt; &lt;a href="https://github.com/simonw/scan-for-secrets/releases/tag/0.1"&gt;scan-for-secrets 0.1&lt;/a&gt;&lt;/p&gt;
-    &lt;p&gt;我喜欢使用我的 &lt;a href="https://github.com/simonw/claude-code-transcripts"&gt;claude-code-transcripts&lt;/a&gt; 工具发布本地 Claude Code 会话的转录文本，但我常常担心我的某个 API 密钥或类似的秘密可能会在详细的日志文件中无意中被泄露。&lt;/p&gt;
-&lt;p&gt;我构建了这个新的 Python 扫描工具来帮助我安心。你可以向它提供秘密，并让它扫描指定目录中的这些秘密：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;uvx scan-for-secrets $OPENAI_API_KEY -d logs-to-publish/
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;如果你省略 &lt;code&gt;-d&lt;/code&gt; 参数，它默认扫描当前目录。&lt;/p&gt;
-&lt;p&gt;它不仅扫描字面上的秘密——还会扫描这些秘密的常见编码形式，例如反斜杠转义或 JSON 转义，&lt;a href="https://github.com/simonw/scan-for-secrets/blob/main/README.md#escaping-schemes"&gt;如 README 中所述&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;如果你有一组始终想要保护的秘密，你可以在 &lt;code&gt;~/.scan-for-secrets.conf.sh&lt;/code&gt; 文件中列出用于输出它们的命令。我的文件内容如下：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;llm keys get openai
-llm keys get anthropic
-llm keys get gemini
-llm keys get mistral
-awk -F= '/aws_secret_access_key/{print $2}' ~/.aws/credentials | xargs
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;我使用 README 驱动开发构建了这个工具：我精心编写了 README，准确描述了工具应该如何工作，然后&lt;a href="https://gisthost.github.io/?d4b1a398bf3b6b14aade923dea69a1ac/index.html"&gt;将其输入 Claude Code&lt;/a&gt;，并让它构建实际的工具（当然，使用了&lt;a href="https://simonwillison.net/guides/agentic-engineering-patterns/red-green-tdd/"&gt;红/绿 TDD&lt;/a&gt;）。&lt;/p&gt;
-    
-        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/projects"&gt;projects&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/security"&gt;security&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/agentic-engineering"&gt;agentic-engineering&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-assisted-programming"&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/claude-code"&gt;claude-code&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sun, 05 Apr 2026 03:27:13 +0000</pubDate></item><item><title>研究型大语言模型应用程序接口 2026-04-04</title><link>https://simonwillison.net/2026/Apr/5/research-llm-apis/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;发布：&lt;/strong&gt; &lt;a href="https://github.com/simonw/research-llm-apis/releases/tag/2026-04-04"&gt;research-llm-apis 2026-04-04&lt;/a&gt;&lt;/p&gt;
-    &lt;p&gt;我正在对我的 LLM Python 库和 CLI 工具进行一项&lt;a href="https://github.com/simonw/llm/issues/1314"&gt;重大更改&lt;/a&gt;。LLM 通过其插件系统，为来自数十家不同供应商的数百种不同 LLM 提供了一个抽象层，而其中一些供应商在过去一年中发展出了 LLM 抽象层无法处理的新功能，例如服务器端工具执行。&lt;/p&gt;
-&lt;p&gt;为了帮助设计这个新的抽象层，我让 Claude Code 通读了 Anthropic、OpenAI、Gemini 和 Mistral 的 Python 客户端库，并利用这些库来帮助构建 &lt;code&gt;curl&lt;/code&gt; 命令，以获取一系列不同场景下流式和非流式模式的原始 JSON 数据。现在，这些脚本和捕获的输出都存放在这个新的代码仓库中。&lt;/p&gt;
-    
-        &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/llm"&gt;llm&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/apis"&gt;apis&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/json"&gt;json&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sun, 05 Apr 2026 00:32:11 +0000</pubDate></item><item><title>引用凯尔·戴格尔的话</title><link>https://simonwillison.net/2026/Apr/4/kyle-daigle/#atom-everything</link><description>&lt;blockquote cite="https://twitter.com/kdaigle/status/2040164759836778878"&gt;&lt;p&gt;[GitHub] 平台活动正在激增。2025年有10亿次提交。现在，每周有2.75亿次提交，如果增长保持线性（剧透：不会），今年将达到140亿次。&lt;/p&gt;
-&lt;p&gt;GitHub Actions 已从2023年的每周5亿分钟增长到2025年的每周10亿分钟，而本周到目前为止已达到21亿分钟。&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class="cite"&gt;&amp;mdash; &lt;a href="https://twitter.com/kdaigle/status/2040164759836778878"&gt;Kyle Daigle&lt;/a&gt;, GitHub 首席运营官&lt;/p&gt;
-
-    &lt;p&gt;标签： &lt;a href="https://simonwillison.net/tags/github"&gt;github&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/github-actions"&gt;github-actions&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sat, 04 Apr 2026 02:20:17 +0000</pubDate></item><item><title>漏洞研究已陷入困境</title><link>https://simonwillison.net/2026/Apr/3/vulnerability-research-is-cooked/#atom-everything</link><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://sockpuppet.org/blog/2026/03/30/vulnerability-research-is-cooked/"&gt;漏洞研究已“熟透”&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Thomas Ptacek 对最新前沿模型在漏洞研究领域产生的突然而巨大的影响发表了看法。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;在接下来的几个月内，编码智能体将极大地改变漏洞利用开发的实践和经济学。前沿模型的改进不会是缓慢燃烧，而会是阶跃式函数。大量高影响力的漏洞研究（甚至可能是其中大部分）将仅仅通过将智能体指向源代码树并输入“给我找零日漏洞”就能完成。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;为什么智能体在这方面如此出色？这是内置知识、模式匹配能力和蛮力搜索的结合：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;你无法为LLM智能体设计出比漏洞利用研究更好的问题了。&lt;/p&gt;
-&lt;p&gt;在你输入任何上下文之前，一个前沿的LLM已经编码了跨越海量源代码的超自然数量的关联。Linux KVM虚拟机管理程序是否连接到 &lt;code&gt;hrtimer&lt;/code&gt; 子系统、&lt;code&gt;workqueue&lt;/code&gt; 或 &lt;code&gt;perf_event&lt;/code&gt;？模型知道。&lt;/p&gt;
-&lt;p&gt;同样内置于这些模型权重中的是：所有漏洞利用开发所基于的、有完整文档记录的“漏洞类别”库：悬垂指针、整数处理不当、类型混淆、分配器修饰，以及所有已知的在Firefox中将一次任意写入提升为受控的64位读/写的方法。&lt;/p&gt;
-&lt;p&gt;漏洞是通过模式匹配漏洞类别，并为可达性和可利用性进行约束求解而发现的。这正是LLM最擅长解决的隐式搜索问题。漏洞利用结果是可直接测试的成功/失败试验。一个智能体永远不会感到无聊，如果你让它搜索，它会永远搜索下去。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这篇文章部分灵感来源于&lt;a href="https://securitycryptographywhatever.com/2026/03/25/ai-bug-finding/"&gt;《安全加密随便什么》播客的这一期节目&lt;/a&gt;，其中David Adrian、Deirdre Connolly和Thomas采访了Anthropic的Nicholas Carlini，时长1小时16分钟。&lt;/p&gt;
-&lt;p&gt;我刚刚在这里为&lt;a href="https://simonwillison.net/tags/ai-security-research/"&gt;ai-security-research&lt;/a&gt;创建了一个新标签——它已经有11篇文章了。&lt;/p&gt;
-&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/security"&gt;security&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/thomas-ptacek"&gt;thomas-ptacek&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/careers"&gt;careers&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/nicholas-carlini"&gt;nicholas-carlini&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;ai-ethics&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai-security-research"&gt;ai-security-research&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 03 Apr 2026 23:59:08 +0000</pubDate></item><item><title>编程助手对认知能力的影响</title><link>https://simonwillison.net/2026/Apr/3/cognitive-cost/#atom-everything</link><description>&lt;p&gt;与像莱尼·拉奇茨基这样的专业人士&lt;a href="https://simonwillison.net/2026/Apr/2/lennys-podcast/"&gt;录制播客&lt;/a&gt;的一个有趣之处在于，他的团队知道如何将录制好的视频剪辑成适合TikTok的短视频格式。这是&lt;a href="https://x.com/lennysan/status/2039845666680176703"&gt;他今天在Twitter上分享的一条&lt;/a&gt;，最终获得了超过110万次观看！&lt;/p&gt;
-&lt;p&gt;&lt;video controls="controls" poster="https://static.simonwillison.net/static/2026/cognitive-cost-poster.jpg" preload="none" src="https://static.simonwillison.net/static/2026/cognitive-cost.mp4" style="display: block; width: 100%; height: auto; margin: 0 auto;"&gt;&lt;/video&gt;
-&lt;/p&gt;
-&lt;p&gt;这段视频只有48秒。而我们&lt;a href="https://simonwillison.net/2026/Apr/2/lennys-podcast/"&gt;完整的对话&lt;/a&gt;长达1小时40分钟。&lt;/p&gt;
-
-    &lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/ai-ethics"&gt;ai-ethics&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/agentic-engineering"&gt;agentic-engineering&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/podcast-appearances"&gt;podcast-appearances&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/cognitive-debt"&gt;cognitive-debt&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 03 Apr 2026 23:57:04 +0000</pubDate></item></channel></rss>
+&lt;/blockquote&gt;</description><pubDate>Sun, 05 Apr 2026 03:39:33 +0000</pubDate></item></channel></rss>
