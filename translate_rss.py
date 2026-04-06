@@ -169,12 +169,15 @@ def fetch_full_article(url):
 def translate_feed(feed_config, cache):
     print(f"处理: {feed_config['name']}")
     feed = feedparser.parse(feed_config['url'])
-    
+
+    should_translate = feed_config.get('translate', True)
+
     # 创建新 feed
+    original_title = feed.feed.get('title', feed_config['name'])
     translated_feed = Rss201rev2Feed(
-        title=f"{feed.feed.get('title', feed_config['name'])} (中文)",
+        title=f"{original_title} (中文)" if should_translate else original_title,
         link=feed.feed.get('link', ''),
-        description=translate_text(feed.feed.get('description', ''), cache),
+        description=translate_text(feed.feed.get('description', ''), cache) if should_translate else feed.feed.get('description', ''),
         language='zh-CN'
     )
     
@@ -182,7 +185,7 @@ def translate_feed(feed_config, cache):
     should_fetch_full = feed_config.get('fetch_full_content', False)
 
     for entry in feed.entries[:10]:
-        title = translate_text(entry.get('title', ''), cache)
+        title = translate_text(entry.get('title', ''), cache) if should_translate else entry.get('title', '')
 
         # 处理内容
         content = ''
@@ -202,7 +205,7 @@ def translate_feed(feed_config, cache):
             time.sleep(1)
 
         # 翻译 HTML 内容（保留标签结构）
-        translated_content = translate_html_content(content, cache)
+        translated_content = translate_html_content(content, cache) if should_translate else content
         
         # 获取发布时间
         pub_date = None
