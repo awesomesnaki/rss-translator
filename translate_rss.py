@@ -260,7 +260,7 @@ def main():
             with open(output_file, 'w', encoding='utf-8') as f:
                 translated_feed.write(f, 'utf-8')
             
-            feed_links.append(f"- {feed_config['name']}: `feeds/{feed_config['name']}.xml`")
+            feed_links.append(f"- {feed_config['name']}: https://awesomesnaki.github.io/rss-translator/feeds/{feed_config['name']}.xml")
             print(f"完成: {feed_config['name']}")
             
         except Exception as e:
@@ -277,9 +277,7 @@ def main():
 
 {chr(10).join(feed_links)}
 
-将上面的 xml 文件链接替换为完整 URL 即可订阅。
-
-基础 URL: `https://你的用户名.github.io/仓库名/`
+点击上面的链接即可获取订阅地址。
 """
     
     with open('index.md', 'w', encoding='utf-8') as f:
