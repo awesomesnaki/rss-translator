@@ -13,9 +13,26 @@ jobs:
       pages: write
       id-token: write
 
+    services:
+      rsshub:
+        image: diygod/rsshub
+        ports:
+          - 1200:1200
+
     steps:
       - name: Checkout
         uses: actions/checkout@v5
+
+      - name: Wait for RSSHub ready
+        run: |
+          for i in $(seq 1 30); do
+            if curl -sf http://localhost:1200/ > /dev/null 2>&1; then
+              echo "RSSHub is ready"
+              break
+            fi
+            echo "Waiting for RSSHub... ($i)"
+            sleep 2
+          done
 
       - name: Setup Python
         uses: actions/setup-python@v5

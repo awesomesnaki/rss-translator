@@ -166,9 +166,22 @@ def fetch_full_article(url):
         print(f"  抓取出错 {url}: {e}")
         return None
 
+def resolve_feed_url(url):
+    """解析 feed URL，处理 rsshub:// 协议和 rsshub.app 域名"""
+    rsshub_base = 'http://localhost:1200' if os.environ.get('GITHUB_ACTIONS') else 'https://rsshub.app'
+    # rsshub://path 格式 → 转为 RSSHub 完整 URL
+    if url.startswith('rsshub://'):
+        return f"{rsshub_base}/{url[len('rsshub://'):]}"
+    # rsshub.app URL → CI 中替换为本地实例
+    if 'rsshub.app' in url and os.environ.get('GITHUB_ACTIONS'):
+        return url.replace('https://rsshub.app', rsshub_base)
+    return url
+
 def translate_feed(feed_config, cache):
     print(f"处理: {feed_config['name']}")
-    feed = feedparser.parse(feed_config['url'])
+    url = resolve_feed_url(feed_config['url'])
+    print(f"  URL: {url}")
+    feed = feedparser.parse(url)
 
     should_translate = feed_config.get('translate', True)
 
