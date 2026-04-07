@@ -1,27 +1,25 @@
 # RSS 中文翻译源
 
-更新时间: 2026-04-07 02:48 UTC
+更新时间: 2026-04-07 03:04 UTC
 
 ## 订阅链接
 
-- DaringFireball: `feeds/DaringFireball.xml`
-- pgessays: `feeds/pgessays.xml`
-- SimonWillison: `feeds/SimonWillison.xml`
-- marco: `feeds/marco.xml`
-- dereksivers: `feeds/dereksivers.xml`
-- kaushikgopal: `feeds/kaushikgopal.xml`
-- astralcodexten: `feeds/astralcodexten.xml`
-- thinkingoutloud: `feeds/thinkingoutloud.xml`
-- AnthropicNews: `feeds/AnthropicNews.xml`
-- appaddict: `feeds/appaddict.xml`
-- indieapp: `feeds/indieapp.xml`
-- macmenubar: `feeds/macmenubar.xml`
-- thriftmac: `feeds/thriftmac.xml`
-- basicappleguy: `feeds/basicappleguy.xml`
-- workspaces: `feeds/workspaces.xml`
-- AnthropicEngineering: `feeds/AnthropicEngineering.xml`
-- dianying4k: `feeds/dianying4k.xml`
+- DaringFireball: https://awesomesnaki.github.io/rss-translator/feeds/DaringFireball.xml
+- pgessays: https://awesomesnaki.github.io/rss-translator/feeds/pgessays.xml
+- SimonWillison: https://awesomesnaki.github.io/rss-translator/feeds/SimonWillison.xml
+- marco: https://awesomesnaki.github.io/rss-translator/feeds/marco.xml
+- dereksivers: https://awesomesnaki.github.io/rss-translator/feeds/dereksivers.xml
+- kaushikgopal: https://awesomesnaki.github.io/rss-translator/feeds/kaushikgopal.xml
+- astralcodexten: https://awesomesnaki.github.io/rss-translator/feeds/astralcodexten.xml
+- thinkingoutloud: https://awesomesnaki.github.io/rss-translator/feeds/thinkingoutloud.xml
+- AnthropicNews: https://awesomesnaki.github.io/rss-translator/feeds/AnthropicNews.xml
+- appaddict: https://awesomesnaki.github.io/rss-translator/feeds/appaddict.xml
+- indieapp: https://awesomesnaki.github.io/rss-translator/feeds/indieapp.xml
+- macmenubar: https://awesomesnaki.github.io/rss-translator/feeds/macmenubar.xml
+- thriftmac: https://awesomesnaki.github.io/rss-translator/feeds/thriftmac.xml
+- basicappleguy: https://awesomesnaki.github.io/rss-translator/feeds/basicappleguy.xml
+- workspaces: https://awesomesnaki.github.io/rss-translator/feeds/workspaces.xml
+- AnthropicEngineering: https://awesomesnaki.github.io/rss-translator/feeds/AnthropicEngineering.xml
+- dianying4k: https://awesomesnaki.github.io/rss-translator/feeds/dianying4k.xml
 
-将上面的 xml 文件链接替换为完整 URL 即可订阅。
-
-基础 URL: `https://你的用户名.github.io/仓库名/`
+点击上面的链接即可获取订阅地址。
