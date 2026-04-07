@@ -149,6 +149,35 @@ def translate_html_content(html_content, cache):
     cache[content_hash] = result
     return result
 
+def fix_image_tags(html_content):
+    """给所有 <img> 标签添加 referrerpolicy="no-referrer"，解决防盗链问题"""
+    if not html_content:
+        return html_content
+    soup = BeautifulSoup(html_content, 'html.parser')
+    for img in soup.find_all('img'):
+        img['referrerpolicy'] = 'no-referrer'
+    return str(soup)
+
+def clean_readability_html(html_content):
+    """清理 readability 提取的 HTML，去除多余的包装元素"""
+    if not html_content:
+        return html_content
+    soup = BeautifulSoup(html_content, 'html.parser')
+    # readability 通常会加一个外层 <div class="page"> 或 <html><body>，去掉它
+    for tag_name in ['html', 'body']:
+        tag = soup.find(tag_name)
+        if tag:
+            tag.unwrap()
+    # 去掉空的 div 包装
+    for div in soup.find_all('div'):
+        # 如果 div 只是一个无意义的包装器（没有有用的 class/id），展开它
+        if not div.get('class') and not div.get('id') and not div.get('style'):
+            div.unwrap()
+    # 去掉 script 和 style 标签
+    for tag in soup.find_all(['script', 'style', 'noscript']):
+        tag.decompose()
+    return str(soup)
+
 def fetch_full_article(url):
     """从原文 URL 抓取完整文章内容，保留图片等 HTML 结构"""
     try:
@@ -159,6 +188,7 @@ def fetch_full_article(url):
         doc = Document(resp.text)
         content = doc.summary()
         if content and content.strip():
+            content = clean_readability_html(content)
             return content
         print(f"  未提取到内容: {url}")
         return None
@@ -198,7 +228,9 @@ def translate_feed(feed_config, cache):
     print(f"处理: {feed_config['name']}")
     url = resolve_feed_url(feed_config['url'])
     print(f"  URL: {url}")
-    feed = feedparser.parse(url)
+    feed = feedparser.parse(url, request_headers={
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
+    })
 
     should_translate = feed_config.get('translate', True)
 
@@ -244,7 +276,10 @@ def translate_feed(feed_config, cache):
 
         # 翻译 HTML 内容（保留标签结构）
         translated_content = translate_html_content(content, cache) if should_translate else content
-        
+
+        # 修复图片防盗链问题
+        translated_content = fix_image_tags(translated_content)
+
         # 获取发布时间
         pub_date = None
         if 'published_parsed' in entry and entry.published_parsed:
