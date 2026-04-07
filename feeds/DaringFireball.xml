@@ -1,15 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sun, 05 Apr 2026 16:01:59 +0000</lastBuildDate><item><title>国际足联和平奖得主带来的复活节晨间希望寄语</title><link>https://truthsocial.com/@realDonaldTrump/posts/116351998782539414</link><description>&lt;p&gt;美国现任总统唐纳德·特朗普在其博客上写道：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Mon, 06 Apr 2026 19:15:05 +0000</lastBuildDate><item><title>[赞助商] Zed，一个字体超级家族</title><link>https://www.typotheque.com/blog/zed-a-sans-for-the-needs-of-21century/?utm_source=df</link><description>&lt;p&gt;Zed是一种字体系统，其设计初衷源于一个问题：读者真正需要什么？不是那些在字体样本中看起来美观的，而是能为最广泛读者群体服务的。我们在法国一家眼科医院与视力受损患者共同测试了Zed，发现Zed Text在所有患者群体中的阅读速度都优于Helvetica。这款从头设计以实现不同功能的字体，提供两种光学版本——文本版与展示版——包含四个可变轴，并支持547种语言（包括濒危语种）。您可以直接从设计方获取该字体。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/feeds/sponsors/2026/04/zed_a_font_superfamily" title="‘Zed，一个字体超级家族’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Mon, 06 Apr 2026 19:15:05 +0000</pubDate></item><item><title>Anthropic意外泄露了完整的Claude代码命令行界面源代码</title><link>https://arstechnica.com/ai/2026/03/entire-claude-code-cli-source-code-leaks-thanks-to-exposed-map-file/</link><description>&lt;p&gt;Ars Technica 的萨缪尔·阿克森上周报道称：&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;周二将是伊朗的发电厂日，也是桥梁日，两者合而为一。这将是无与伦比的！！！打开他妈的霍尔木兹海峡，你们这些疯狂的混蛋，否则你们将生活在地狱里——等着瞧吧！赞美真主。总统 唐纳德·J·特朗普&lt;/p&gt;
-&lt;/blockquote&gt;
+  &lt;p&gt;今天凌晨，Anthropic 发布了 Claude Code npm 包的 2.1.88 版本——但很快有人发现，该软件包包含了一个源映射文件，该文件可用于访问 Claude Code 的全部源代码——近 2,000 个 TypeScript 文件和超过 512,000 行代码。&lt;/p&gt;
 
-&lt;p&gt;&lt;a href="https://x.com/IraninJapan/status/2040773928889811011"&gt;伊朗驻日本大使馆&lt;/a&gt;引述特朗普的话回应道：&lt;/p&gt;
+&lt;p&gt;安全研究员寿超凡率先在 X 上公开&lt;a href="https://x.com/Fried_rice/status/2038894956459290963"&gt;指出了这一点&lt;/a&gt;，并附上了包含这些文件的存档链接。随后，该代码库被放入一个公共的 GitHub 仓库中，并被分叉了数万次。&lt;/p&gt;
+
+&lt;p&gt;Anthropic 在向&lt;a href="https://venturebeat.com/technology/claude-codes-source-code-appears-to-have-leaked-heres-what-we-know"&gt;VentureBeat&lt;/a&gt;和其他媒体发表的声明中公开承认了这一错误，声明内容如下：&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;一国领导人展现出如此低下的文明水平和智力水平令人遗憾；以可耻的热情反复表达犯下战争罪的意图令人震惊；而不顾恶意援引神明的行为，更清晰地暴露了其根深蒂固的狂热思想。为分享此等言论致歉。&lt;/p&gt;
+  &lt;p&gt;今天早些时候，一个 Claude Code 版本包含了一些内部源代码。没有涉及或暴露任何敏感的客户数据或凭证。这是一个由人为错误导致的发布打包问题，而非安全漏洞。我们正在采取措施防止此类事件再次发生。&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;考虑到用户提供给 Claude 和 Claude Code 访问的大量材料极其敏感，这样的声明实在难以提振信心。至少可以说，当 Anthropic 意外泄露了&lt;em&gt;自己&lt;/em&gt;的源代码时，&lt;a href="https://www.wsj.com/tech/ai/anthropic-races-to-contain-leak-of-code-behind-claude-ai-agent-4bc5acc7"&gt;这削弱了&lt;/a&gt;公司应该将其源代码托付给 Claude Code 的说服力。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/04/06/anthropic-claude-code-leak" title="‘Anthropic Accidentally Leaked the Entire Claude Code CLI Source Code’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Mon, 06 Apr 2026 19:04:54 +0000</pubDate></item><item><title>小寻物员在TikTok和YouTube上推出九支新视频</title><link>https://www.macrumors.com/2026/04/02/little-finder-guy-tiktok-youtube/</link><description>&lt;p&gt;来自MacRumors的Juli Clover报道：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;苹果本周分享了九段“小访达小子”视频，在TikTok上，这些视频的缩略图在苹果TikTok页面共同组成了一幅“小访达小子”马赛克图案。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;希望这不会给谈判带来坏运气，但我正在努力争取邀请“小访达小子”作为嘉宾，参加今年六月WWDC现场的《脱口秀》节目。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/04/06/more-little-finder-guy" title="《小访达小子在TikTok和YouTube上主演九段新视频》的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Mon, 06 Apr 2026 16:39:26 +0000</pubDate></item><item><title>国际足联和平奖得主带来的复活节晨间希望寄语</title><link>https://truthsocial.com/@realDonaldTrump/posts/116351998782539414</link><description>&lt;p&gt;美国现任总统唐纳德·特朗普在其博客上写道：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;周二将是伊朗的发电厂日，也是桥梁日，两者合二为一。这将是无与伦比的！！！打开他妈的霍尔木兹海峡，你们这些疯狂的混蛋，否则你们将生活在地狱里——等着瞧吧！赞美真主。唐纳德·J·特朗普总统&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://x.com/IraninJapan/status/2040773928889811011"&gt;伊朗驻日本大使馆&lt;/a&gt;引述特朗普的言论回应道：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;一国领导人展现出如此低下的文明水平和智力，令人遗憾；以可耻的热情反复表达犯下战争罪的意图，令人震惊；而不顾恶意援引神明的行为，更赤裸裸地暴露了其深层的狂热主义。为分享此等言论致歉。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;越来越难分辨哪一方才是由癫狂、充满仇恨的疯子运作的威权&lt;a href="https://www.nytimes.com/2026/04/03/world/middleeast/pope-iran-war.html"&gt;神权&lt;/a&gt;政权。（《你们这些疯狂的混蛋》倒是一本关于特朗普2.0政府之书的绝佳标题。）&lt;/p&gt;
 
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/linked/2026/04/05/easter-morning-message-of-hope" title="永久链接至‘来自国际足联和平奖得主的复活节清晨希望寄语’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
@@ -21,18 +55,18 @@
 
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/linked/2026/04/04/material-security" title="‘Material Security’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Sun, 05 Apr 2026 01:00:00 +0000</pubDate></item><item><title>Daring Fireball 赞助机会</title><link>https://daringfireball.net/feeds/sponsors/</link><description>&lt;p&gt;近期赞助位销售情况相当火爆，&lt;a href="https://daringfireball.net/linked/2026/03/06/daring-fireball-weekly-sponsorship-openings"&gt;诚如所言&lt;/a&gt;。但愿好运常在。截至昨日，日程表上的下一个空档要排到七月底。不过，由于一些日程调整，&lt;em&gt;下周&lt;/em&gt;现在有了空位。但下周之后，下一个可预约时段仍是7月27日开始的那一周。&lt;/p&gt;
+&lt;/div&gt;</description><pubDate>Sun, 05 Apr 2026 01:00:00 +0000</pubDate></item><item><title>Daring Fireball 赞助机会</title><link>https://daringfireball.net/feeds/sponsors/</link><description>&lt;p&gt;近期赞助位销售情况相当火爆，真是可喜可贺。截至昨天，排期表上最近的可预订时段已排到七月底。&lt;s&gt;不过，由于部分日程调整，&lt;em&gt;下周&lt;/em&gt;的赞助位现已开放。&lt;/s&gt;在此之后，下一个可预订时段仍是7月27日开始的那一周。&lt;/p&gt;
 
-&lt;p&gt;如果您有产品或服务，认为能吸引Daring Fireball这群痴迷于高品质与好设计的读者，欢迎联系——特别是如果您能迅速敲定下周的空档。我也正在为2026年第三和第四季度预订赞助位，其中超过一半的周次已被预订。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/04/04/sponsorship-openings-for-daring-fireball" title="永久链接至‘Daring Fireball赞助空位’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Sun, 05 Apr 2026 00:59:00 +0000</pubDate></item><item><title>iOS 26感觉比iOS 18更快</title><link>https://daringfireball.net/linked/2026/04/03/ios-18-update-for-holdouts</link><description>&lt;p&gt;在我将运行iOS 18.7.7的iPhone 16 Pro作为主力机使用两天后，还有一点后续想法。去年夏天iOS 26测试周期的某个后期阶段，苹果明显加快了一系列系统级动画，这一点变得显而易见。最典型的例子：当你从屏幕底部向上滑动返回主屏幕时的动画。&lt;a href="https://x.com/ParkerOrtolani/status/1955031986214670583"&gt;人们注意到了&lt;/a&gt;。但此后并未引起太多关注。&lt;/p&gt;
-
-&lt;p&gt;但是，伙计，如果你想注意到这一点，就像我一样，回到iOS 18上用两天。太多小细节感觉变慢了。我不知道是否真的有什么东西&lt;em&gt;变&lt;/em&gt;慢了，但因为动画变慢了，它看起来就更慢，而这意味着它&lt;em&gt;感觉&lt;/em&gt;更慢。苹果今年应该再次加快其中一些动画的速度。（并且/或者提供一个系统级设置来让它们更快。我不想消除这些动画。我只是想让它们变得非常非常快。）&lt;/p&gt;
+&lt;p&gt;如果您拥有符合DF读者群体——那些痴迷于高品质与优秀设计的人们——兴趣的产品或服务，欢迎与我们联系，特别是如果您能迅速敲定下周赞助位的话。我同时也在接受2026年第三季度和第四季度的赞助预订，其中超过一半的时段已被预订。&lt;/p&gt;
 
 &lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/04/04/ios-26-feels-faster-than-ios-18" title="‘iOS 26 Feels Faster Than iOS 18’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;a href="https://daringfireball.net/linked/2026/04/04/sponsorship-openings-for-daring-fireball" title="《Daring Fireball赞助位开放》的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;</description><pubDate>Sun, 05 Apr 2026 00:59:00 +0000</pubDate></item><item><title>iOS 26感觉比iOS 18更快</title><link>https://daringfireball.net/linked/2026/04/03/ios-18-update-for-holdouts</link><description>&lt;p&gt;在我将运行iOS 18.7.7的iPhone 16 Pro作为主力机使用两天后，还有一个后续观点。去年夏天iOS 26测试周期的某个后期阶段，苹果明显加快了一系列系统级动画。最典型的例子：当你从屏幕底部向上滑动返回主屏幕时的动画。&lt;a href="https://x.com/ParkerOrtolani/status/1955031986214670583"&gt;人们注意到了&lt;/a&gt;。但此后并未引起太多关注。&lt;/p&gt;
+
+&lt;p&gt;但是，伙计，如果你想注意到差异，就像我一样，回到iOS 18上用两天。太多小细节感觉变慢了。我不知道是否真的有什么东西&lt;em&gt;变&lt;/em&gt;慢了，但因为动画变慢了，看起来就更慢，这意味着它&lt;em&gt;感觉&lt;/em&gt;更慢。如果你只用iPhone，可能不会注意到，但那些考虑从安卓转过来的人&lt;a href="https://daringfireball.net/linked/2025/02/23/linus-sebastian-switch-to-iphone"&gt;肯定会注意到&lt;/a&gt;。苹果今年应该再次加快其中一些动画的速度。（并且/或者提供一个系统级设置来让它们更快。我不想消除这些动画。我只是想让它们变得非常非常快。）&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href="https://daringfireball.net/linked/2026/04/04/ios-26-feels-faster-than-ios-18" title="‘iOS 26 感觉比 iOS 18 更快’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
 &lt;/div&gt;</description><pubDate>Sun, 05 Apr 2026 00:44:00 +0000</pubDate></item><item><title>集体诉讼称Perplexity的“隐身模式”是“骗局”</title><link>https://arstechnica.com/tech-policy/2026/04/perplexitys-incognito-mode-is-a-sham-lawsuit-says/</link><description>&lt;p&gt;Ars Technica记者阿什利·贝朗格报道：&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -68,54 +102,4 @@
 
 &lt;div&gt;
 &lt;a href="https://daringfireball.net/linked/2026/04/03/savant-still-on-ice" title="永久链接至‘苹果公司仍将杰西卡·查斯坦的《天才》束之高阁，距其预定首映已过七个月’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Fri, 03 Apr 2026 18:20:04 +0000</pubDate></item><item><title>约翰·巴克谈QuickTime的发明</title><link>https://www.theverge.com/tech/902721/quicktime-history-apple?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IkcybHEzWGhZTVciLCJwIjoiL3RlY2gvOTAyNzIxL3F1aWNrdGltZS1oaXN0b3J5LWFwcGxlIiwiZXhwIjoxNzc1NTkyNzA0LCJpYXQiOjE3NzUxNjA3MDR9.p4nbje9XKl05Ybv3q31CyAQULuqAB-H9b8qfftSz12k</link><description>&lt;p&gt;约翰·巴克在The Verge（礼物链接）上的文章，节选自他的优秀著作&lt;em&gt;&lt;a href="https://books.by/john-buck"&gt;《发明未来》&lt;/a&gt;&lt;/em&gt;：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;史蒂夫·珀尔曼：&lt;/strong&gt; &lt;em&gt;苹果公司里几乎所有人，当然其他地方的人也一样，都认为多媒体永远需要专门的硬件——而且会很昂贵。我们少数几个人却不这么想。&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;这少数人中的一位是加文·米勒，他是苹果图形小组的研究科学家，他与霍弗特合作，攻克了软件压缩和解压缩的难题，也就是所谓的编解码器。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;加文·米勒，研究科学家：&lt;/strong&gt; &lt;em&gt;我们午餐时间出去散步，到散步结束时，我们已经将模型推广到包含恒定颜色块和每像素2位的插值块。这让我们能够在大片平坦区域牺牲量化伪影，以换取纹理区域的更多细节。结果是质量和性能都得到了提升，这有助于使编解码器在非常小的视频尺寸下变得实用。&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这只是一次典型的午餐散步交谈。&lt;/p&gt;
-
-&lt;p&gt;来自1990年的趣闻轶事：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;他要求佩佩尔制定一个产品计划，以便他能在5月7日的苹果全球开发者大会上宣布。那天，凯西走上舞台，向震惊的观众宣布了QuickTime，他说：“苹果公司打算开发实时软件压缩/解压缩技术，该技术将运行在当今的模块化Macintosh系统上。一个系统级的时间编码，以实现声音、动画和其他对时间要求严格的进程的同步。”&lt;/p&gt;
-
-&lt;p&gt;凯西解释说，苹果的新多媒体架构将在年底前交付。他没有说QuickTime没有预算、没有员工、也没有办公室。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;沃辛顿：&lt;/strong&gt; &lt;em&gt;我们都惊呆了。&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;康斯坦丁·奥斯默，QuickDraw工程师：&lt;/strong&gt; &lt;em&gt;我站在布鲁斯·利克旁边，问他：“那到底是什么东西？”他说他也不知道。&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;QuickTime实际上在1991年WWDC大会前就发布了，这给苹果上了重要的一课：他们在WWDC上宣布的任何东西，无论多么不成熟，都会如期发布。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/04/02/buck-quicktime-history" title="永久链接至‘约翰·巴克谈QuickTime的发明’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Thu, 02 Apr 2026 20:12:07 +0000</pubDate></item><item><title>阿尔忒弥斯二号机组人员正在前往月球途中</title><link>https://512pixels.net/2026/04/artemis-ii-crew-on-way-to-moon/</link><description>&lt;p&gt;斯蒂芬·哈克特整理的精彩链接汇总：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;a href="https://www.nasa.gov/feature/our-artemis-crew/"&gt;此次任务机组&lt;/a&gt;由里德·怀斯曼、维克多·格洛弗、克里斯蒂娜·科赫以及加拿大航天局宇航员杰里米·汉森组成。他们此刻正在前往月球的途中，预计将于10天后返回。尽管他们的火箭可能源自&lt;a href="https://512pixels.net/2022/08/the-good-and-bad-of-the-sls/"&gt;一个存在重大缺陷的项目&lt;/a&gt;，但此时此刻，这已无关紧要。&lt;a href="https://www.nasa.gov/wp-content/uploads/2025/09/artemis-ii-map-508.pdf?emrc=696d584d7d299"&gt;他们正带领我们&lt;/a&gt;迈向50年来最接近重返月球表面的时刻。这值得庆祝。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/04/02/artemis-ii-crew-on-way-to-moon" title="‘Artemis II Crew on Way to Moon’的永久链接"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Thu, 02 Apr 2026 19:37:10 +0000</pubDate></item><item><title>OpenAI，据称正收紧其核心产品重点，收购科技行业脱口秀TBPN</title><link>https://www.wsj.com/cmo-today/openai-buys-tech-industry-talk-show-tbpn-484c01c5?st=RUVFWn</link><description>&lt;p&gt;凯蒂·戴顿为《华尔街日报》报道（主链接为赠阅链接；&lt;a href="https://apple.news/AYU5qUKRHTPWrbBXJUukrtQ"&gt;亦可在News+上阅读&lt;/a&gt;）：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;根据OpenAI应用部门首席执行官菲吉·西莫发送的一份备忘录，OpenAI收购TBPN是为了通过帮助该节目发展，鼓励围绕人工智能带来的变革进行建设性对话。TBPN将向OpenAI全球事务主管克里斯·莱恩汇报，并将在节目之外协助公司的传播和营销工作。&lt;/p&gt;
-
-&lt;p&gt;“他们帮助过许多品牌进行线上营销，并且因为他们对行业发展趋势有敏锐的洞察力，他们的传播和营销理念确实给我留下了深刻印象，”西莫在备忘录中写道。&lt;/p&gt;
-
-&lt;p&gt;但OpenAI表示，TBPN将保持编辑独立性，保留对其节目内容、编辑决策、嘉宾选择和制作计划的控制权。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;是的，我确信他们会保持完全独立。你知道的，就像&lt;a href="https://daringfireball.net/2024/12/journalism_requires_owners_committed_to_the_cause"&gt;杰夫·贝索斯旗下的《华盛顿邮报》&lt;/a&gt;，以及&lt;a href="https://daringfireball.net/linked/2025/12/22/weiss-60-minutes-cecot"&gt;大卫·埃里森旗下的CBS新闻&lt;/a&gt;一样。许多新闻和评论出版物在向其表面上报道的公司的公关主管汇报时，都保持了坚定的独立性。&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href="https://daringfireball.net/linked/2026/04/02/openai-tbpn" title="永久链接：‘OpenAI，据称正收紧对其核心产品的关注，却收购了科技行业谈话节目TBPN’"&gt;&amp;nbsp;★&amp;nbsp;&lt;/a&gt;
-&lt;/div&gt;</description><pubDate>Thu, 02 Apr 2026 18:58:50 +0000</pubDate></item></channel></rss>
+&lt;/div&gt;</description><pubDate>Fri, 03 Apr 2026 18:20:04 +0000</pubDate></item></channel></rss>

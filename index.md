@@ -1,6 +1,6 @@
 # RSS 中文翻译源
 
-更新时间: 2026-04-06 13:03 UTC
+更新时间: 2026-04-07 00:50 UTC
 
 ## 订阅链接
 
@@ -19,6 +19,8 @@
 - thriftmac: `feeds/thriftmac.xml`
 - basicappleguy: `feeds/basicappleguy.xml`
 - workspaces: `feeds/workspaces.xml`
+- AnthropicEngineering: `feeds/AnthropicEngineering.xml`
+- dianying4k: `feeds/dianying4k.xml`
 
 将上面的 xml 文件链接替换为完整 URL 即可订阅。
 
