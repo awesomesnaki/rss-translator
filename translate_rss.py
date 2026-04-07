@@ -185,6 +185,13 @@ def fetch_full_article(url):
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
         })
         resp.raise_for_status()
+
+        # V2EX 帖子用专用解析，避免 readability 乱排版
+        if 'v2ex.com/t/' in url:
+            content = extract_v2ex_content(resp.text)
+            if content:
+                return content
+
         doc = Document(resp.text)
         content = doc.summary()
         if content and content.strip():
@@ -195,6 +202,74 @@ def fetch_full_article(url):
     except Exception as e:
         print(f"  抓取出错 {url}: {e}")
         return None
+
+def extract_v2ex_content(html):
+    """从 V2EX 帖子页面提取主帖和评论，生成干净的 HTML"""
+    soup = BeautifulSoup(html, 'html.parser')
+    parts = []
+
+    # 提取主帖内容
+    topic_content = soup.find('div', class_='topic_content')
+    if topic_content:
+        parts.append(str(topic_content))
+
+    # 提取附加信息（有些帖子用 subtle 补充）
+    for subtle in soup.find_all('div', class_='subtle'):
+        parts.append('<hr/>' + str(subtle))
+
+    # 提取评论
+    reply_cells = soup.select('div[id^="r_"]')
+    if reply_cells:
+        parts.append('<hr/><h3>评论</h3>')
+        for cell in reply_cells:
+            # 提取用户名
+            username_tag = cell.select_one('strong a')
+            username = username_tag.get_text() if username_tag else '匿名'
+
+            # 提取评论内容
+            reply_content = cell.find('div', class_='reply_content')
+            if not reply_content:
+                continue
+            content_html = str(reply_content)
+
+            # 提取感谢数（♥ N）
+            thank_span = cell.find('span', class_='small')
+            thank_text = ''
+            if thank_span:
+                text = thank_span.get_text().strip()
+                if '♥' in text or '❤' in text:
+                    thank_text = f' <small style="color:#ccc">{text}</small>'
+
+            parts.append(
+                f'<p><strong>{username}</strong>{thank_text}：{content_html}</p>'
+            )
+
+    if not parts:
+        return None
+
+    result = '\n'.join(parts)
+
+    # 清理：移除头像图片（小于 100px 的或 class 含 avatar 的）
+    result_soup = BeautifulSoup(result, 'html.parser')
+    for img in result_soup.find_all('img'):
+        classes = ' '.join(img.get('class', []))
+        src = img.get('src', '')
+        # 移除头像
+        if 'avatar' in classes or 'avatar' in src:
+            img.decompose()
+            continue
+        # 移除 V2EX 站内小图标（心形、感谢等）
+        if '/static/' in src or 'heart' in src:
+            img.decompose()
+            continue
+
+    # 移除感谢按钮区域
+    for el in result_soup.find_all(class_=re.compile(r'thank|fade')):
+        # 保留有实际文字内容的 small fade（感谢数），去掉按钮
+        if el.find('a') or el.find('img'):
+            el.decompose()
+
+    return str(result_soup)
 
 def resolve_feed_url(url):
     """解析 feed URL，处理 rsshub:// 协议和 rsshub.app 域名"""
