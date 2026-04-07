@@ -177,6 +177,23 @@ def resolve_feed_url(url):
         return url.replace('https://rsshub.app', rsshub_base)
     return url
 
+def apply_entry_filter(entries, filter_type):
+    """Filter feed entries based on configured filter type."""
+    if filter_type == "blockquote":
+        filtered = []
+        for entry in entries:
+            content = ''
+            if 'content' in entry:
+                content = entry.content[0].get('value', '')
+            elif 'summary' in entry:
+                content = entry.summary
+            if re.match(r'\s*<blockquote', content):
+                filtered.append(entry)
+        return filtered
+    else:
+        print(f"  警告: 未知的过滤类型 '{filter_type}'，跳过过滤")
+        return entries
+
 def translate_feed(feed_config, cache):
     print(f"处理: {feed_config['name']}")
     url = resolve_feed_url(feed_config['url'])
@@ -194,10 +211,18 @@ def translate_feed(feed_config, cache):
         language='zh-CN'
     )
     
-    # 只处理最新 10 条
+    # 只处理最新条目
     should_fetch_full = feed_config.get('fetch_full_content', False)
 
-    for entry in feed.entries[:10]:
+    # Apply entry filter if configured
+    entry_filter = feed_config.get('filter')
+    max_entries = 50 if entry_filter else 5
+    entries = feed.entries[:max_entries]
+    if entry_filter:
+        entries = apply_entry_filter(entries, entry_filter)
+        print(f"  过滤后保留 {len(entries)} 条 (类型: {entry_filter})")
+
+    for entry in entries:
         title = translate_text(entry.get('title', ''), cache) if should_translate else entry.get('title', '')
 
         # 处理内容
