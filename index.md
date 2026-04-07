@@ -1,12 +1,12 @@
 # RSS 中文翻译源
 
-更新时间: 2026-04-07 03:04 UTC
+更新时间: 2026-04-07 03:41 UTC
 
 ## 订阅链接
 
 - DaringFireball: https://awesomesnaki.github.io/rss-translator/feeds/DaringFireball.xml
 - pgessays: https://awesomesnaki.github.io/rss-translator/feeds/pgessays.xml
-- SimonWillison: https://awesomesnaki.github.io/rss-translator/feeds/SimonWillison.xml
+- SimonWillisonQuotes: https://awesomesnaki.github.io/rss-translator/feeds/SimonWillisonQuotes.xml
 - marco: https://awesomesnaki.github.io/rss-translator/feeds/marco.xml
 - dereksivers: https://awesomesnaki.github.io/rss-translator/feeds/dereksivers.xml
 - kaushikgopal: https://awesomesnaki.github.io/rss-translator/feeds/kaushikgopal.xml
@@ -19,7 +19,6 @@
 - thriftmac: https://awesomesnaki.github.io/rss-translator/feeds/thriftmac.xml
 - basicappleguy: https://awesomesnaki.github.io/rss-translator/feeds/basicappleguy.xml
 - workspaces: https://awesomesnaki.github.io/rss-translator/feeds/workspaces.xml
-- AnthropicEngineering: https://awesomesnaki.github.io/rss-translator/feeds/AnthropicEngineering.xml
 - dianying4k: https://awesomesnaki.github.io/rss-translator/feeds/dianying4k.xml
 
 点击上面的链接即可获取订阅地址。
