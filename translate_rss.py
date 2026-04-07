@@ -216,7 +216,7 @@ def translate_feed(feed_config, cache):
 
     # Apply entry filter if configured
     entry_filter = feed_config.get('filter')
-    max_entries = 50 if entry_filter else 10
+    max_entries = 50 if entry_filter else 5
     entries = feed.entries[:max_entries]
     if entry_filter:
         entries = apply_entry_filter(entries, entry_filter)
