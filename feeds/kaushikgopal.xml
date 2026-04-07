@@ -7,12 +7,10 @@
 &lt;strong&gt;缰绳工程&lt;/strong&gt;这个术语——即围绕智能体塑造环境，使其能够可靠行动的工作。模型能看到什么，它拥有什么工具，如何获得反馈，人类何时介入。&lt;/p&gt;
 &lt;p&gt;我们不断听到智能体将取代工程师的说法。但这不应该是我们所见变革的焦点。实际正在发生的是产品人员直接交付功能。一个被良好"驾驭"的智能体，能让具有产品直觉但工程背景薄弱的人安全地进行有意义的更改。&lt;/p&gt;
 &lt;p&gt;缰绳工程师使之成为可能。护栏、设计选择、影响范围控制、反馈循环。正是这些脚手架，将"只管提示它"变成了团队可以信赖的东西。这是我根据亲身经历说的。&lt;/p&gt;
-&lt;hr /&gt;
+&lt;hr/&gt;
 &lt;p&gt;如果你想深入了解，可以听听
 &lt;a href="https://fragmentedpodcast.com/episodes/307"&gt;这期节目&lt;/a&gt;，我和我的联合主持人在其中深入探讨了这个问题。&lt;/p&gt;
 &lt;div class="overflow-hidden sm:h-[200px]"&gt;
-
-
 &lt;/div&gt;
 &lt;p&gt;我们总结出了五大支柱：&lt;/p&gt;
 &lt;ol&gt;
@@ -23,7 +21,7 @@
 &lt;li&gt;影响范围控制&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;老实说，这是我们录制过的最重要的节目之一。&lt;/p&gt;</description><pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate></item><item><title>Podsync - 我终于建好了我的播客曲目同步器</title><link>https://kau.sh/blog/podsync/</link><description>&lt;figure&gt;
-&lt;img src="https://kau.sh/podsync.webp"/&gt;
+&lt;img referrerpolicy="no-referrer" src="https://kau.sh/podsync.webp"/&gt;
 &lt;/figure&gt;
 &lt;p&gt;我主持并编辑一档&lt;a href="https://fragmentedpodcast.com/"&gt;播客&lt;/a&gt;&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="https://kau.sh/feed.xml#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;。远程录制时，我们各自在本地录制自己的音频（我在我这边录，我的联合主持人在他那边录）。我们使用的服务（Adobe Podcast、Zoom、Skype-RIP）会将所有人的音频捕捉到一起，生成一条主音轨。但其质量无法与每个人用自己麦克风在本地录制的效果相比。因此，我们将那条主音轨作为参考点，然后把各自独立的本地音轨拼接起来。&lt;/p&gt;
 &lt;p&gt;这就是业内所谓的“&lt;a href="https://archive.org/details/howtodoeverythin00holt_0/page/100/mode/2up"&gt;双端录制&lt;/a&gt;”。如果加上嘉宾，就成了“三端录制”。&lt;/p&gt;
@@ -88,7 +86,7 @@ thdxr 在 &lt;a href="https://x.com/thdxr/status/2031073582747357397"&gt;twitter
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;将输出结果拖入我的数字音频工作站，从0:00开始。搞定。&lt;/p&gt;
 &lt;p&gt;我甚至编写了一个智能体技能，你只需将其指向你的智能体框架，它就会&lt;a href="https://github.com/kaushikgopal/podsync/tree/master/.agents/skills/podsync-voice-tracks"&gt;为你处理所有步骤&lt;/a&gt;：&lt;/p&gt;
 &lt;figure class="borderless"&gt;
-&lt;img alt="Podsync输出显示两条音轨以置信度1.00同步且无漂移" class="borderless" src="https://kau.sh/podsync-output.webp"/&gt;
+&lt;img alt="Podsync输出显示两条音轨以置信度1.00同步且无漂移" class="borderless" referrerpolicy="no-referrer" src="https://kau.sh/podsync-output.webp"/&gt;
 &lt;/figure&gt;
 &lt;p&gt;过去每期节目需要10-15分钟的对齐工作，现在只需一条命令。&lt;/p&gt;
 &lt;h2 id="addendum"&gt;
