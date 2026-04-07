@@ -1,6 +1,6 @@
 # RSS 中文翻译源
 
-更新时间: 2026-04-07 05:48 UTC
+更新时间: 2026-04-07 07:11 UTC
 
 ## 订阅链接
 
@@ -21,7 +21,5 @@
 - workspaces: https://awesomesnaki.github.io/rss-translator/feeds/workspaces.xml
 - dianying4k: https://awesomesnaki.github.io/rss-translator/feeds/dianying4k.xml
 - v2ex-hot: https://awesomesnaki.github.io/rss-translator/feeds/v2ex-hot.xml
-- foxshuo: https://awesomesnaki.github.io/rss-translator/feeds/foxshuo.xml
-- Minimaldex: https://awesomesnaki.github.io/rss-translator/feeds/Minimaldex.xml
 
 点击上面的链接即可获取订阅地址。
