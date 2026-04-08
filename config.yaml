@@ -47,4 +47,8 @@ feeds:
     url: "https://www.landiannews.com/feed"
     fetch_full_content: true
     translate: false
+  - name: "36kr-hot"
+    url: "rsshub://36kr/hot-list"
+    fetch_full_content: true
+    translate: false
   # 按这个格式添加更多源
