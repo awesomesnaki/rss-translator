@@ -1,6 +1,6 @@
 # RSS 中文翻译源
 
-更新时间: 2026-04-08 13:11 UTC
+更新时间: 2026-04-08 14:13 UTC
 
 ## 订阅链接
 
@@ -19,6 +19,7 @@
 - mac52ipod: https://awesomesnaki.github.io/rss-translator/feeds/mac52ipod.xml
 - macmenubar: https://awesomesnaki.github.io/rss-translator/feeds/macmenubar.xml
 - marco: https://awesomesnaki.github.io/rss-translator/feeds/marco.xml
+- nicenews: https://awesomesnaki.github.io/rss-translator/feeds/nicenews.xml
 - pgessays: https://awesomesnaki.github.io/rss-translator/feeds/pgessays.xml
 - thinkingoutloud: https://awesomesnaki.github.io/rss-translator/feeds/thinkingoutloud.xml
 - thriftmac: https://awesomesnaki.github.io/rss-translator/feeds/thriftmac.xml
