@@ -66,14 +66,13 @@
 &lt;p&gt;现在，开发进度正在快速推进。我的响应更迅速，迭代更快，最终将使应用变得&lt;em&gt;更好&lt;/em&gt;。&lt;/p&gt;
 &lt;p&gt;衷心感谢大家陪伴Overcast走过第一个十年。&lt;/p&gt;
 &lt;p&gt;让我们共同迎接下一个十年。&lt;/p&gt;
-&lt;div class="footnotes"&gt;
 &lt;hr/&gt;
 &lt;ol&gt;
 &lt;li id="fn:pMYQjMdU5streambugs"&gt;
 &lt;p&gt;动态广告插入（DAI）会将广告拼接进每次下载中，且无法保证任意两次下载的广告数量或时长相同。例如，如果某集节目的前半部分已下载完成，随后下载失败，接着通过另一个请求下载后半部分，合并后的音频可能会在中间点出现向前或向后跳跃，导致内容丢失或重复。 &lt;a href="https://marco.org/rss#fnref:pMYQjMdU5streambugs" rev="footnote"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</description><pubDate>Tue, 16 Jul 2024 12:57:40 +0000</pubDate></item><item><title>《阴天》重新设计：第一部分</title><link>https://marco.org/2022/03/25/overcast-redesign-2022</link><description>&lt;p&gt;&lt;center style="margin-top: 1.5em; margin-bottom: 1.5em;"&gt;&lt;a href="https://marco.org/media/2022/03/ocredesign2022-1-after.png"&gt;&lt;img referrerpolicy="no-referrer" src="https://marco.org/media/2022/03/ocredesign2022-1-after.png" style="border: 1px solid #eee; border-radius: 8px; margin-right: 1.5%;"/&gt;&lt;/a&gt;&lt;a href="https://marco.org/media/2022/03/ocredesign2022-2-after.png"&gt;&lt;img referrerpolicy="no-referrer" src="https://marco.org/media/2022/03/ocredesign2022-2-after.png" style="border: 1px solid #eee; border-radius: 8px; margin-right: 1.5%;"/&gt;&lt;/a&gt;&lt;a href="https://marco.org/media/2022/03/ocredesign2022-3-after.png"&gt;&lt;img referrerpolicy="no-referrer" src="https://marco.org/media/2022/03/ocredesign2022-3-after.png" style="border: 1px solid #eee; border-radius: 8px;"/&gt;&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
+</description><pubDate>Tue, 16 Jul 2024 12:57:40 +0000</pubDate></item><item><title>《阴天》重新设计：第一部分</title><link>https://marco.org/2022/03/25/overcast-redesign-2022</link><description>&lt;p&gt;&lt;center style="margin-top: 1.5em; margin-bottom: 1.5em;"&gt;&lt;a href="https://marco.org/media/2022/03/ocredesign2022-1-after.png"&gt;&lt;img referrerpolicy="no-referrer" src="https://marco.org/media/2022/03/ocredesign2022-1-after.png" style="border: 1px solid #eee; border-radius: 8px; margin-right: 1.5%;"/&gt;&lt;/a&gt;&lt;a href="https://marco.org/media/2022/03/ocredesign2022-2-after.png"&gt;&lt;img referrerpolicy="no-referrer" src="https://marco.org/media/2022/03/ocredesign2022-2-after.png" style="border: 1px solid #eee; border-radius: 8px; margin-right: 1.5%;"/&gt;&lt;/a&gt;&lt;a href="https://marco.org/media/2022/03/ocredesign2022-3-after.png"&gt;&lt;img referrerpolicy="no-referrer" src="https://marco.org/media/2022/03/ocredesign2022-3-after.png" style="border: 1px solid #eee; border-radius: 8px;"/&gt;&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://overcast.fm/"&gt;Overcast&lt;/a&gt; 的最新更新（2022.2版）带来了其近八年历史上最大规模的一次重新设计，并加入了众多最常被要求的功能以及大量底层改进。我对这次更新感到相当自豪。&lt;/p&gt;
 &lt;p&gt;作为这次重新设计的第一阶段，也是规模最大的阶段，我专注于主屏幕、播放列表屏幕、排版和间距。（我计划在后续更新中重新设计正在播放和单个播客的屏幕。）&lt;/p&gt;
 &lt;p&gt;主屏幕有了根本性的不同：&lt;/p&gt;

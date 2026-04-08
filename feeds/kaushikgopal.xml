@@ -10,8 +10,6 @@
 &lt;hr/&gt;
 &lt;p&gt;如果你想深入了解，可以听听
 &lt;a href="https://fragmentedpodcast.com/episodes/307"&gt;这期节目&lt;/a&gt;，我和我的联合主持人在其中深入探讨了这个问题。&lt;/p&gt;
-&lt;div class="overflow-hidden sm:h-[200px]"&gt;
-&lt;/div&gt;
 &lt;p&gt;我们总结出了五大支柱：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;智能体可理解性&lt;/li&gt;
@@ -23,123 +21,111 @@
 &lt;p&gt;老实说，这是我们录制过的最重要的节目之一。&lt;/p&gt;</description><pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate></item><item><title>Podsync - 我终于建好了我的播客曲目同步器</title><link>https://kau.sh/blog/podsync/</link><description>&lt;figure&gt;
 &lt;img referrerpolicy="no-referrer" src="https://kau.sh/podsync.webp"/&gt;
 &lt;/figure&gt;
-&lt;p&gt;我主持并编辑一档&lt;a href="https://fragmentedpodcast.com/"&gt;播客&lt;/a&gt;&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="https://kau.sh/feed.xml#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;。远程录制时，我们各自在本地录制自己的音频（我在我这边录，我的联合主持人在他那边录）。我们使用的服务（Adobe Podcast、Zoom、Skype-RIP）会将所有人的音频捕捉到一起，生成一条主音轨。但其质量无法与每个人用自己麦克风在本地录制的效果相比。因此，我们将那条主音轨作为参考点，然后把各自独立的本地音轨拼接起来。&lt;/p&gt;
+&lt;p&gt;我主持并编辑一档&lt;a href="https://fragmentedpodcast.com/"&gt;播客&lt;/a&gt;&lt;sup id="fnref:1"&gt;&lt;a href="https://kau.sh/feed.xml#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;。远程录制时，我们各自在本地录制自己的音频（我在我这边录，我的联合主持人在他那边录）。我们使用的服务（Adobe Podcast、Zoom、Skype-RIP）会将所有人的音频捕捉到一起，生成一条主音轨。但其质量无法与每个人用自己麦克风在本地录制的效果相比。因此，我们将那条主音轨作为参考点，然后把各自独立的本地音轨拼接起来。&lt;/p&gt;
 &lt;p&gt;这就是业内所谓的“&lt;a href="https://archive.org/details/howtodoeverythin00holt_0/page/100/mode/2up"&gt;双端录制&lt;/a&gt;”。如果加上嘉宾，就成了“三端录制”。&lt;/p&gt;
 &lt;p&gt;但编辑时就麻烦了。每个人开始录制的时间点略有不同——大家按下录音键的时刻都不一样。&lt;/p&gt;
 &lt;p&gt;在开始编辑之前，我需要把所有音轨对齐。将所有音轨导入数字音频工作站，一边播放主音轨，一边播放每个人的独立音轨，靠耳朵一点点微调，直到语音对齐。如果加上嘉宾，很快就会变得繁琐。在真正开始编辑之前，就得花上10到15分钟进行这种精细且费神的对齐工作。&lt;/p&gt;
 &lt;p&gt;还有漂移问题。每台机器的音频时钟运行速率略有差异，所以两条在开始时完美对齐的音轨，到了第60分钟可能会相差200毫秒。&lt;/p&gt;
-&lt;p&gt;于是，我构建了&lt;strong&gt;&lt;a href="https://github.com/kaushikgopal/podsync"&gt;PodSync&lt;/a&gt;&lt;/strong&gt;&lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="https://kau.sh/feed.xml#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
+&lt;p&gt;于是，我构建了&lt;strong&gt;&lt;a href="https://github.com/kaushikgopal/podsync"&gt;PodSync&lt;/a&gt;&lt;/strong&gt;&lt;sup id="fnref:2"&gt;&lt;a href="https://kau.sh/feed.xml#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
 &lt;h2 id="ive-wanted-this-since-2019"&gt;
 自2019年起我就想要这个工具
-&lt;a class="heading-anchor" href="https://kau.sh/feed.xml#ive-wanted-this-since-2019"&gt;#&lt;/a&gt;
+&lt;a href="https://kau.sh/feed.xml#ive-wanted-this-since-2019"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;我第一次听说类似的技术是从Marco Arment那里——那是在ATP播客的&lt;a href="https://atp.fm/25"&gt;第25期&lt;/a&gt;。他当时有一个用于对齐双端录制音轨的新应用，并且已经在考虑如此小众的东西是否值得公开发布。我想他最终并没有发布。&lt;/p&gt;
 &lt;p&gt;当时我是一名Kotlin开发者，心想不如自己动手做一个。Java生态很成熟。肯定有音频处理库能处理这个问题。&lt;/p&gt;
 &lt;p&gt;结果并没有😅。至少没有那种简洁、可用的形式。在JVM生态里把正确的信号处理组件拼凑起来相当麻烦，以至于我的热情逐渐消退，所以我还是继续手动对齐。&lt;/p&gt;
 &lt;h2 id="tis-the-age-of-ai"&gt;
 如今是AI时代
-&lt;a class="heading-anchor" href="https://kau.sh/feed.xml#tis-the-age-of-ai"&gt;#&lt;/a&gt;
+&lt;a href="https://kau.sh/feed.xml#tis-the-age-of-ai"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;当我重新设计&lt;a href="https://fragmentedpodcast.com/episodes/300/"&gt;Fragmented&lt;/a&gt;时，我终于又回到了这个想法上。我借助Claude来构建它——而且是用Rust语言。&lt;sup id="fnref:3"&gt;&lt;a class="footnote-ref" href="https://kau.sh/feed.xml#fn:3"&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;&lt;p&gt;但在你将其归为另一个氛围编码项目之前，请听我说完。这里有趣的部分不仅仅是AI让它变得更容易。而是对整个实际算法的思考过程：&lt;/p&gt;
+&lt;p&gt;当我重新设计&lt;a href="https://fragmentedpodcast.com/episodes/300/"&gt;Fragmented&lt;/a&gt;时，我终于又回到了这个想法上。我借助Claude来构建它——而且是用Rust语言。&lt;sup id="fnref:3"&gt;&lt;a href="https://kau.sh/feed.xml#fn:3"&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;&lt;p&gt;但在你将其归为另一个氛围编码项目之前，请听我说完。这里有趣的部分不仅仅是AI让它变得更容易。而是对整个实际算法的思考过程：&lt;/p&gt;
 &lt;p&gt;使用语音活动检测来寻找语音区域。使用MFCC特征来为音频创建指纹。使用互相关来寻找音轨匹配的位置。一些真正的信号处理技术，而不仅仅是提示工程。那么，我是否可以通过提示来获得解决方案呢？很可能。但我愿意相信，多年来手动对齐音轨的经验——以及一些音频工程直觉——帮助我将AI引向了一个更好的解决方案。&lt;/p&gt;
-&lt;div class="callout"&gt;
-&lt;div class="callout-icon"&gt;
-&lt;svg class="svg-icon lucide-pencil" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"&gt;&lt;/path&gt;&lt;path d="m15 5 4 4"&gt;&lt;/path&gt;&lt;/svg&gt;
-&lt;/div&gt;
-&lt;div class="callout-title" dir="auto"&gt;
-&lt;div class="callout-title-inner"&gt;
+&lt;svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"&gt;&lt;/path&gt;&lt;path d="m15 5 4 4"&gt;&lt;/path&gt;&lt;/svg&gt;
+&lt;div dir="auto"&gt;
+
 做这件事让我感到耳目一新。
+
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="callout-content"&gt;
 &lt;p&gt;在这个一半的对话都在讨论AI取代工程工作的时代，这里有一个问题，其难点仍然是问题本身——理解领域、选择正确的方法、知道什么是“正确”的。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
 &lt;p&gt;这让我确信，妥善解决实际问题仍然有其价值。我喜欢Dax的说法：&lt;/p&gt;
-&lt;div class="callout"&gt;
-&lt;div class="callout-icon"&gt;
-&lt;svg class="svg-icon lucide-quote" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"&gt;&lt;/path&gt;&lt;path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"&gt;&lt;/path&gt;&lt;/svg&gt;
-&lt;/div&gt;
-&lt;div class="callout-title" dir="auto"&gt;
-&lt;div class="callout-title-inner"&gt;
+&lt;svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"&gt;&lt;/path&gt;&lt;path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"&gt;&lt;/path&gt;&lt;/svg&gt;
+&lt;div dir="auto"&gt;
+
 thdxr 在 &lt;a href="https://x.com/thdxr/status/2031073582747357397"&gt;twitter&lt;/a&gt; 上
+
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="callout-content"&gt;
 &lt;p&gt;我真的不在乎用AI来交付更多东西。想出值得交付的东西真的很难。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
 &lt;h2 id="how-it-works"&gt;
 工作原理
-&lt;a class="heading-anchor" href="https://kau.sh/feed.xml#how-it-works"&gt;#&lt;/a&gt;
+&lt;a href="https://kau.sh/feed.xml#how-it-works"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;核心理念是：从参与者音轨中取一段语音，与主录音进行比较，找到它们最佳匹配的位置。那个位置就是时间偏移量。&lt;/p&gt;&lt;p&gt;关键在于选择&lt;em&gt;哪一段&lt;/em&gt;语音来使用。Podsync并非只押注于单一区域，而是为每条音轨寻找几个强有力的候选片段（优先选择较长的连续语音块），并逐一与主音轨进行比对。对于较长的候选片段，它会从开头、中间和结尾进行采样。置信度最高的匹配胜出；如果第二个独立区域也指向相同的偏移量，这种相互印证将作为平局决胜的依据。&lt;/p&gt;
 &lt;p&gt;找到偏移量后，Podsync会对每条音轨进行填充或修剪，以与主音轨对齐并匹配其长度（同时输出一些关于偏移量的信息）。&lt;/p&gt;
 &lt;h2 id="what-it-looks-like"&gt;
 使用示例
-&lt;a class="heading-anchor" href="https://kau.sh/feed.xml#what-it-looks-like"&gt;#&lt;/a&gt;
+&lt;a href="https://kau.sh/feed.xml#what-it-looks-like"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0"&gt;&lt;code class="language-bash"&gt;&lt;span style="display: flex;"&gt;&lt;span&gt;podsync &lt;span style="color: #ae81ff;"&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display: flex;"&gt;&lt;span&gt;&lt;span style="color: #ae81ff;"&gt;&lt;/span&gt; --master &lt;span style="color: #e6db74;"&gt;"304-src-ap.mp3"&lt;/span&gt; &lt;span style="color: #ae81ff;"&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display: flex;"&gt;&lt;span&gt;&lt;span style="color: #ae81ff;"&gt;&lt;/span&gt; --tracks &lt;span style="color: #e6db74;"&gt;"304-iury-src-cleaned.wav"&lt;/span&gt; &lt;span style="color: #ae81ff;"&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display: flex;"&gt;&lt;span&gt;&lt;span style="color: #ae81ff;"&gt;&lt;/span&gt; --tracks &lt;span style="color: #e6db74;"&gt;"304-kg-src-logic-cleaned.wav"&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;将输出结果拖入我的数字音频工作站，从0:00开始。搞定。&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;&lt;span style="display: flex;"&gt;podsync &lt;span style="color: #ae81ff;"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display: flex;"&gt;&lt;span style="color: #ae81ff;"&gt;&lt;/span&gt; --master &lt;span style="color: #e6db74;"&gt;"304-src-ap.mp3"&lt;/span&gt; &lt;span style="color: #ae81ff;"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display: flex;"&gt;&lt;span style="color: #ae81ff;"&gt;&lt;/span&gt; --tracks &lt;span style="color: #e6db74;"&gt;"304-iury-src-cleaned.wav"&lt;/span&gt; &lt;span style="color: #ae81ff;"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display: flex;"&gt;&lt;span style="color: #ae81ff;"&gt;&lt;/span&gt; --tracks &lt;span style="color: #e6db74;"&gt;"304-kg-src-logic-cleaned.wav"&lt;/span&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;将输出结果拖入我的数字音频工作站，从0:00开始。搞定。&lt;/p&gt;
 &lt;p&gt;我甚至编写了一个智能体技能，你只需将其指向你的智能体框架，它就会&lt;a href="https://github.com/kaushikgopal/podsync/tree/master/.agents/skills/podsync-voice-tracks"&gt;为你处理所有步骤&lt;/a&gt;：&lt;/p&gt;
-&lt;figure class="borderless"&gt;
-&lt;img alt="Podsync输出显示两条音轨以置信度1.00同步且无漂移" class="borderless" referrerpolicy="no-referrer" src="https://kau.sh/podsync-output.webp"/&gt;
+&lt;figure&gt;
+&lt;img alt="Podsync输出显示两条音轨以置信度1.00同步且无漂移" referrerpolicy="no-referrer" src="https://kau.sh/podsync-output.webp"/&gt;
 &lt;/figure&gt;
 &lt;p&gt;过去每期节目需要10-15分钟的对齐工作，现在只需一条命令。&lt;/p&gt;
 &lt;h2 id="addendum"&gt;
 补充说明
-&lt;a class="heading-anchor" href="https://kau.sh/feed.xml#addendum"&gt;#&lt;/a&gt;
+&lt;a href="https://kau.sh/feed.xml#addendum"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;Marco，如果你读到这篇文章，我仍然很想看看你的实现方案！&lt;/p&gt;
-&lt;p&gt;据我理解，他的解决方案更侧重于纠正&lt;em&gt;漂移&lt;/em&gt;，而非精确获取偏移量。实际上，我发现漂移问题并不严重。它确实存在，但程度轻微，而且我通常会对播客的每一秒进行编辑，所以手动处理也足够容易。我甚至有一个分支版本，通过在静音点进行拼接来纠正漂移，但这带来的复杂性超过了其帮助。&lt;/p&gt;&lt;div class="footnotes"&gt;
+&lt;p&gt;据我理解，他的解决方案更侧重于纠正&lt;em&gt;漂移&lt;/em&gt;，而非精确获取偏移量。实际上，我发现漂移问题并不严重。它确实存在，但程度轻微，而且我通常会对播客的每一秒进行编辑，所以手动处理也足够容易。我甚至有一个分支版本，通过在静音点进行拼接来纠正漂移，但这带来的复杂性超过了其帮助。&lt;/p&gt;
 &lt;hr/&gt;
 &lt;ol&gt;
 &lt;li id="fn:1"&gt;
-&lt;p&gt;这是一个关于人工智能发展的播客，但我们努力使其信息量高。没有那种&lt;a href="https://x.com/kaushikgopal/status/2023523217034670422?s=20"&gt;自慰式的人工智能讨论&lt;/a&gt;。&lt;a class="footnote-backref" href="https://kau.sh/feed.xml#fnref:1"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这是一个关于人工智能发展的播客，但我们努力使其信息量高。没有那种&lt;a href="https://x.com/kaushikgopal/status/2023523217034670422?s=20"&gt;自慰式的人工智能讨论&lt;/a&gt;。&lt;a href="https://kau.sh/feed.xml#fnref:1"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id="fn:2"&gt;
-&lt;p&gt;另请参阅&lt;a href="https://en.wikipedia.org/wiki/Phone-sync"&gt;电话同步&lt;/a&gt;。&lt;a class="footnote-backref" href="https://kau.sh/feed.xml#fnref:2"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;另请参阅&lt;a href="https://en.wikipedia.org/wiki/Phone-sync"&gt;电话同步&lt;/a&gt;。&lt;a href="https://kau.sh/feed.xml#fnref:2"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id="fn:3"&gt;
-&lt;p&gt;我选择了Rust（&lt;a href="https://kau.sh/blog/learn-rust-ai-atrophy/"&gt;这是我最近感兴趣的&lt;/a&gt;），并且一个没有运行时依赖的CLI工具分发起来更令人愉快。&lt;a class="footnote-backref" href="https://kau.sh/feed.xml#fnref:3"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;我选择了Rust（&lt;a href="https://kau.sh/blog/learn-rust-ai-atrophy/"&gt;这是我最近感兴趣的&lt;/a&gt;），并且一个没有运行时依赖的CLI工具分发起来更令人愉快。&lt;a href="https://kau.sh/feed.xml#fnref:3"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</description><pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate></item><item><title>以下是我选择使用Opencode的理由</title><link>https://kau.sh/blog/opencode-reasons/</link><description>&lt;p&gt;以下是我使用&lt;a href="https://opencode.ai/"&gt;Opencode&lt;/a&gt;的理由清单。&lt;/p&gt;
+</description><pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate></item><item><title>以下是我选择使用Opencode的理由</title><link>https://kau.sh/blog/opencode-reasons/</link><description>&lt;p&gt;以下是我使用&lt;a href="https://opencode.ai/"&gt;Opencode&lt;/a&gt;的理由清单。&lt;/p&gt;
 &lt;h2 id="1-switch-between-models-on-the-fly"&gt;
 1. 随时切换模型
-&lt;a class="heading-anchor" href="https://kau.sh/feed.xml#1-switch-between-models-on-the-fly"&gt;#&lt;/a&gt;
+&lt;a href="https://kau.sh/feed.xml#1-switch-between-models-on-the-fly"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;我经常&lt;a href="https://kau.sh/tags/ai-model-choice/"&gt;尝试&lt;/a&gt;最新推出的尖端模型。我会根据任务主动切换模型，并且使用得足够多，以至于能分辨出它们之间的差异。Opencode 让我可以在任务中途或对话过程中流畅地切换模型。&lt;/p&gt;
 &lt;h2 id="2-client-server-architecture-aka-built-in-remote-control"&gt;
 2. 客户端-服务器架构（即内置远程控制）
-&lt;a class="heading-anchor" href="https://kau.sh/feed.xml#2-client-server-architecture-aka-built-in-remote-control"&gt;#&lt;/a&gt;
+&lt;a href="https://kau.sh/feed.xml#2-client-server-architecture-aka-built-in-remote-control"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;我在&lt;a href="https://kau.sh/blog/opencode-openclaw/"&gt;更详细的文章&lt;/a&gt;中写过这个和智能体流动性，但简而言之：Opencode 内置了客户端/服务器架构。所以我只需在一台机器上启动一个 opencode 服务器，通过 &lt;code&gt;tailscale serve&lt;/code&gt; 将其暴露出来，就可以在手机或其他机器上开始使用它。&lt;/p&gt;
 &lt;h2 id="3-subagent--mode-features"&gt;
 3. 子智能体 + 模式功能
-&lt;a class="heading-anchor" href="https://kau.sh/feed.xml#3-subagent--mode-features"&gt;#&lt;/a&gt;
+&lt;a href="https://kau.sh/feed.xml#3-subagent--mode-features"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;我在播客中&lt;a href="https://fragmentedpodcast.com/episodes/305/"&gt;详细讨论过&lt;/a&gt;这一点，但 Opencode 拥有最好的子智能体和模式实现。你可以将一个子智能体定义切换为主要模式，然后从那里操作其他子智能体。这让编排器类型的任务变得超级简单。&lt;/p&gt;
 &lt;h2 id="4-opinionated-ux"&gt;
 4. 有主见的用户体验
-&lt;a class="heading-anchor" href="https://kau.sh/feed.xml#4-opinionated-ux"&gt;#&lt;/a&gt;
+&lt;a href="https://kau.sh/feed.xml#4-opinionated-ux"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;我喜欢 OpenCode 对其用户体验有明确的立场。他们不试图成为 Claude Code 或 Codex。在这个过程中，他们形成了一些非常好的用户体验模式，比如带有进行中文件更改、上下文/成本、已连接 MCP 等的侧边栏。这是我第一次不需要担心自定义 statusline.sh 或自己构建一个。&lt;/p&gt;
 &lt;h2 id="5-highly-customizable-via-plugins"&gt;
 5. 通过插件“高度”可定制
-&lt;a class="heading-anchor" href="https://kau.sh/feed.xml#5-highly-customizable-via-plugins"&gt;#&lt;/a&gt;
+&lt;a href="https://kau.sh/feed.xml#5-highly-customizable-via-plugins"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://opencode.ai/docs/plugins/"&gt;插件&lt;/a&gt;生态系统高度可定制。其程度达到你可以添加新功能、与外部服务集成，甚至修改 OpenCode 的默认行为。当我愚蠢地考虑分叉时，出色的&lt;a href="https://blog.fsck.com/"&gt;Jesse Vincent&lt;/a&gt;向我提到了这一点。&lt;/p&gt;
 &lt;h1 id="whats-missing"&gt;
 不足之处
-&lt;a class="heading-anchor" href="https://kau.sh/feed.xml#whats-missing"&gt;#&lt;/a&gt;
+&lt;a href="https://kau.sh/feed.xml#whats-missing"&gt;#&lt;/a&gt;
 &lt;/h1&gt;&lt;p&gt;并非一切都是彩虹和阳光。Anomaly——OpenCode背后的团队——规模&lt;a href="https://x.com/anomalyco/following"&gt;很小&lt;/a&gt;。这一点有时会显现出来，因为确实存在&lt;a href="https://github.com/anomalyco/opencode/issues/11225"&gt;一些&lt;/a&gt;&lt;a href="https://github.com/anomalyco/opencode/issues/5359#issuecomment-3640185560"&gt;漏洞&lt;/a&gt;，并且&lt;a href="https://github.com/anomalyco/opencode/issues/17982"&gt;某些&lt;/a&gt;功能&lt;a href="https://github.com/anomalyco/opencode/issues/1905"&gt;缺失&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;但我要说……过去两个月里，没有任何问题阻止我使用它，而且是&lt;strong&gt;专门&lt;/strong&gt;使用它。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://opencode.ai/download"&gt;去试试看吧&lt;/a&gt;。我认识的许多认真的AI编码者都非常喜欢它，并且正在转向使用它。&lt;/p&gt;</description><pubDate>Tue, 17 Mar 2026 20:00:00 +0000</pubDate></item><item><title>代理流动性 - OpenCode是编码领域的OpenClaw</title><link>https://kau.sh/blog/opencode-openclaw/</link><description>&lt;p&gt;&lt;a href="https://openclaw.ai/"&gt;OpenClaw&lt;/a&gt; 如此受欢迎的原因之一，在于你能够多么流畅地与你的智能体聊天并操作它们。掏出手机，在 WhatsApp 上快速发送一条消息，你就能开始工作了。&lt;/p&gt;
-&lt;p&gt;随着我们在 2026 年更加关注智能体编排&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="https://kau.sh/feed.xml#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;，我认为一个重要的方面将是&lt;strong&gt;访问流畅性&lt;/strong&gt;。你如何从任何设备、终端或 IDE 跳转到你的智能体上下文，并直接开始编码？&lt;/p&gt;
+&lt;p&gt;随着我们在 2026 年更加关注智能体编排&lt;sup id="fnref:1"&gt;&lt;a href="https://kau.sh/feed.xml#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;，我认为一个重要的方面将是&lt;strong&gt;访问流畅性&lt;/strong&gt;。你如何从任何设备、终端或 IDE 跳转到你的智能体上下文，并直接开始编码？&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://code.claude.com/docs/en/claude-code-on-the-web#moving-tasks-between-web-and-terminal"&gt;Claude Code&lt;/a&gt; 以一种有限的方式支持这一点，而像 &lt;a href="https://cursor.com/blog/agent-web"&gt;Cursor&lt;/a&gt; 和 Codex 这样的其他工具则采用了基于云的方法。&lt;/p&gt;
 &lt;p&gt;对于这种“随时随地”的智能体编码，我找到的最佳选择是一个开源方案——OpenCode。&lt;/p&gt;
 &lt;blockquote&gt;
@@ -147,7 +133,7 @@ thdxr 在 &lt;a href="https://x.com/thdxr/status/2031073582747357397"&gt;twitter
 &lt;/blockquote&gt;
 &lt;h2 id="server-client-architecture"&gt;
 服务器-客户端架构
-&lt;a class="heading-anchor" href="https://kau.sh/feed.xml#server-client-architecture"&gt;#&lt;/a&gt;
+&lt;a href="https://kau.sh/feed.xml#server-client-architecture"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;OpenCode 采用原生的服务器-客户端架构。你可以像启动 &lt;code&gt;claude&lt;/code&gt; 或 &lt;code&gt;codex&lt;/code&gt; 一样，在一个普通的终端标签页中轻松启动它。&lt;/p&gt;
 &lt;p&gt;但更强大的做法是将其作为 &lt;a href="https://opencode.ai/docs/server/#how-it-works"&gt;服务器&lt;/a&gt; 运行并连接多个客户端。&lt;/p&gt;
@@ -155,29 +141,28 @@ thdxr 在 &lt;a href="https://x.com/thdxr/status/2031073582747357397"&gt;twitter
 &lt;p&gt;再结合 &lt;a href="https://tailscale.com/"&gt;Tailscale&lt;/a&gt;，你就可以安全地从任何地方连接到运行着 OpenCode 服务器的 &lt;a href="https://kau.sh/blog/mac-mini-tailscale-benefits-tips-vpn-vps/"&gt;开发机器&lt;/a&gt;。&lt;/p&gt;
 &lt;h2 id="getting-started"&gt;
 开始使用
-&lt;a class="heading-anchor" href="https://kau.sh/feed.xml#getting-started"&gt;#&lt;/a&gt;
+&lt;a href="https://kau.sh/feed.xml#getting-started"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;我会建议先像使用常规 CLI 工具一样使用 &lt;code&gt;opencode&lt;/code&gt;。一旦熟悉了，再切换到服务器/网页模式。&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0"&gt;&lt;code class="language-bash"&gt;&lt;span style="display: flex;"&gt;&lt;span&gt;&lt;span style="color: #75715e;"&gt;# 将服务器广告为 opencode.local&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display: flex;"&gt;&lt;span&gt;opencode web --mdns
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display: flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display: flex;"&gt;&lt;span&gt;&lt;span style="color: #75715e;"&gt;# 附加到一个会话&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display: flex;"&gt;&lt;span&gt;&lt;span style="color: #75715e;"&gt;# 相当于启动一个新的 claude code 会话&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display: flex;"&gt;&lt;span&gt;opencode attach http://opencode.local:4096 --dir /path/to/project
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;其美妙之处在于，你可以在任何浏览器中打开那个 &lt;code&gt;opencode.local&lt;/code&gt; 网址，并且它是完全同步的。&lt;/p&gt;
-&lt;hr/&gt;&lt;p&gt;&lt;em&gt;感谢我的&lt;a href="https://fragmentedpodcast.com/about/#iury-souza"&gt;联合主持人&lt;/a&gt;&lt;a href="https://x.com/IurySza/status/2018362469035483318"&gt;Iury&lt;/a&gt;早早地吹响了OpenCode的号角，也感谢我的Instacart同事&lt;a href="https://x.com/spencerschack"&gt;Spencer&lt;/a&gt;对我那守旧的tmux使用方式提出的质疑。&lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="https://kau.sh/feed.xml#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;&lt;span style="display: flex;"&gt;&lt;span style="color: #75715e;"&gt;# 将服务器广告为 opencode.local&lt;/span&gt;
+&lt;/span&gt;&lt;span style="display: flex;"&gt;opencode web --mdns
+&lt;/span&gt;&lt;span style="display: flex;"&gt;
+&lt;/span&gt;&lt;span style="display: flex;"&gt;&lt;span style="color: #75715e;"&gt;# 附加到一个会话&lt;/span&gt;
+&lt;/span&gt;&lt;span style="display: flex;"&gt;&lt;span style="color: #75715e;"&gt;# 相当于启动一个新的 claude code 会话&lt;/span&gt;
+&lt;/span&gt;&lt;span style="display: flex;"&gt;opencode attach http://opencode.local:4096 --dir /path/to/project
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;其美妙之处在于，你可以在任何浏览器中打开那个 &lt;code&gt;opencode.local&lt;/code&gt; 网址，并且它是完全同步的。&lt;/p&gt;
+&lt;hr/&gt;&lt;p&gt;&lt;em&gt;感谢我的&lt;a href="https://fragmentedpodcast.com/about/#iury-souza"&gt;联合主持人&lt;/a&gt;&lt;a href="https://x.com/IurySza/status/2018362469035483318"&gt;Iury&lt;/a&gt;早早地吹响了OpenCode的号角，也感谢我的Instacart同事&lt;a href="https://x.com/spencerschack"&gt;Spencer&lt;/a&gt;对我那守旧的tmux使用方式提出的质疑。&lt;sup id="fnref:2"&gt;&lt;a href="https://kau.sh/feed.xml#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;我将来会写一篇文章，细数OpenCode的其他优点。眼下，如果你正在探索智能体访问流畅性的前沿，可别错过它。&lt;/p&gt;
-&lt;div class="footnotes"&gt;
 &lt;hr/&gt;
 &lt;ol&gt;
 &lt;li id="fn:1"&gt;
-&lt;p&gt;参见我关于&lt;a href="https://kau.sh/blog/ai-programming/"&gt;AI范式&lt;/a&gt;的帖子。 &lt;a class="footnote-backref" href="https://kau.sh/feed.xml#fnref:1"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;参见我关于&lt;a href="https://kau.sh/blog/ai-programming/"&gt;AI范式&lt;/a&gt;的帖子。 &lt;a href="https://kau.sh/feed.xml#fnref:1"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id="fn:2"&gt;
-&lt;p&gt;我注意到在OpenCode中使用tmux会话时存在一些&lt;a href="https://github.com/anomalyco/opencode/issues/11225"&gt;内存泄漏&lt;/a&gt;问题，Spencer问我：为什么不更多地依赖客户端-服务器模型，使用常规的Ghostty标签页和分屏呢。 &lt;a class="footnote-backref" href="https://kau.sh/feed.xml#fnref:2"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;我注意到在OpenCode中使用tmux会话时存在一些&lt;a href="https://github.com/anomalyco/opencode/issues/11225"&gt;内存泄漏&lt;/a&gt;问题，Spencer问我：为什么不更多地依赖客户端-服务器模型，使用常规的Ghostty标签页和分屏呢。 &lt;a href="https://kau.sh/feed.xml#fnref:2"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</description><pubDate>Fri, 20 Feb 2026 21:04:46 +0000</pubDate></item><item><title>AI模型选择 2026-01</title><link>https://kau.sh/blog/ai-model-choices/</link><description>&lt;p&gt;我使用哪种AI模型？&lt;/p&gt;
+</description><pubDate>Fri, 20 Feb 2026 21:04:46 +0000</pubDate></item><item><title>AI模型选择 2026-01</title><link>https://kau.sh/blog/ai-model-choices/</link><description>&lt;p&gt;我使用哪种AI模型？&lt;/p&gt;
 &lt;p&gt;这是我经常被问到的问题，但模型发展如此迅速，以至于我总觉得无法给出一个能保持一两个月以上时效性的答案。&lt;/p&gt;
 &lt;p&gt;今年，我终于感觉自己有了一套稳定的模型选择，它们能持续为我带来良好的结果。我在这里记录下来，以便更广泛地分享，并追踪我自己的选择是如何随时间演变的。&lt;/p&gt;
 &lt;ul&gt;
