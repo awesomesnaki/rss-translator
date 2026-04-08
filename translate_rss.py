@@ -5,6 +5,7 @@ import time
 import hashlib
 import json
 import re
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from bs4 import BeautifulSoup, NavigableString
 from feedgenerator import Rss201rev2Feed
@@ -400,6 +401,22 @@ def translate_feed(feed_config, cache):
     
     return translated_feed
 
+def process_single_feed(feed_config, cache, output_dir):
+    """处理单个 feed（供线程池调用）"""
+    try:
+        translated_feed = translate_feed(feed_config, cache)
+
+        # 保存 feed
+        output_file = output_dir / f"{feed_config['name']}.xml"
+        with open(output_file, 'w', encoding='utf-8') as f:
+            translated_feed.write(f, 'utf-8')
+
+        print(f"完成: {feed_config['name']}")
+        return feed_config['name'], True
+    except Exception as e:
+        print(f"处理 {feed_config['name']} 失败: {e}")
+        return feed_config['name'], False
+
 def main():
     # 检查 API key
     if not os.environ.get("DEEPSEEK_API_KEY"):
@@ -407,31 +424,26 @@ def main():
         print("本地运行: export DEEPSEEK_API_KEY='你的key'")
         print("GitHub Actions: 在仓库 Settings > Secrets 中添加")
         return
-    
+
     config = load_config()
     cache = load_cache()
-    
+
     # 创建输出目录
     output_dir = Path('feeds')
     output_dir.mkdir(exist_ok=True)
-    
-    feed_links = []
-    
-    for feed_config in config['feeds']:
-        try:
-            translated_feed = translate_feed(feed_config, cache)
-            
-            # 保存 feed
-            output_file = output_dir / f"{feed_config['name']}.xml"
-            with open(output_file, 'w', encoding='utf-8') as f:
-                translated_feed.write(f, 'utf-8')
-            
-            feed_links.append(f"- {feed_config['name']}: https://awesomesnaki.github.io/rss-translator/feeds/{feed_config['name']}.xml")
-            print(f"完成: {feed_config['name']}")
-            
-        except Exception as e:
-            print(f"处理 {feed_config['name']} 失败: {e}")
-    
+
+    # 并行处理所有 feed（最多 3 个同时）
+    completed_feeds = []
+    with ThreadPoolExecutor(max_workers=3) as executor:
+        futures = {
+            executor.submit(process_single_feed, fc, cache, output_dir): fc
+            for fc in config['feeds']
+        }
+        for future in as_completed(futures):
+            name, success = future.result()
+            if success:
+                completed_feeds.append(name)
+
     save_cache(cache)
     
     # 生成索引页
@@ -441,7 +453,7 @@ def main():
 
 ## 订阅链接
 
-{chr(10).join(feed_links)}
+{chr(10).join(f"- {name}: https://awesomesnaki.github.io/rss-translator/feeds/{name}.xml" for name in sorted(completed_feeds))}
 
 点击上面的链接即可获取订阅地址。
 """
