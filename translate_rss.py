@@ -239,15 +239,14 @@ def extract_v2ex_content(html):
                 continue
             content_html = str(reply_content)
 
-            # 提取感谢数（♥ N）
-            thank_span = cell.find('span', class_='small')
+            # 提取感谢数（V2EX 点赞可能在 span.small 或其他位置）
             thank_text = ''
-            if thank_span:
-                text = thank_span.get_text().strip()
-                # 提取数字部分
-                num = re.search(r'\d+', text)
-                if num and ('♥' in text or '❤' in text):
-                    thank_text = f' \U0001f44d{num.group()}'
+            for span in cell.find_all('span'):
+                span_text = span.get_text().strip()
+                num = re.search(r'(\d+)', span_text)
+                if num and ('♥' in span_text or '❤' in span_text):
+                    thank_text = f' ♥{num.group(1)}'
+                    break
 
             parts.append(
                 f'<p><strong>#{floor} {username}</strong>{thank_text}：{content_html}</p><hr/>'
