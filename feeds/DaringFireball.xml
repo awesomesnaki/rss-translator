@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 07 Apr 2026 22:23:27 +0000</lastBuildDate><item><title>月球背面的日食</title><link>https://kottke.org/26/04/solar-eclipse-far-side-of-the-moon</link><description>&lt;p&gt;科特克：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Wed, 08 Apr 2026 15:49:15 +0000</lastBuildDate><item><title>Anthropic的新Claude Mythos在发现和利用漏洞方面表现如此出色，以至于他们不打算向公众发布。</title><link>https://red.anthropic.com/2026/mythos-preview/</link><description>&lt;p&gt;Anthropic 前沿红队：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;今天早些时候，我们宣布了 &lt;a href="https://anthropic.com/glasswing"&gt;Claude Mythos 预览版&lt;/a&gt;，这是一个新的通用语言模型。该模型在各方面都表现强劲，但在计算机安全任务上的能力尤为突出。为此，我们启动了 Project Glasswing，旨在利用 Mythos 预览版来帮助保护全球最关键软件的安全，并让行业为应对网络攻击者所需采取的新实践做好准备。&lt;/p&gt;
+&lt;p&gt;这篇博客文章为希望确切了解我们如何测试此模型以及过去一个月我们发现了什么的研究人员和从业者提供了技术细节。我们希望这能说明为何我们视此为安全领域的一个分水岭时刻，以及为何我们选择开始一项协调一致的努力来加强全球的网络防御。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;“&lt;em&gt;我们的新模型太出色了，以至于向公众发布会过于危险&lt;/em&gt;” 这样的说法听起来可能像是营销炒作。但这似乎很可能是真的。Anthropic 引用的例子包括发现并利用了一个存在 27 年之久的 OpenBSD 漏洞（可导致任何运行 OpenBSD 的设备崩溃）以及广泛使用的 FFmpeg 媒体处理库中一个存在 16 年之久的漏洞。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;另请参阅：&lt;/strong&gt; &lt;a href="https://red.anthropic.com/2026/mythos-preview/"&gt;Techmeme 的详尽汇总&lt;/a&gt;。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/04/08/claude-mythos-exploits" title="‘Anthropic 的新 Claude Mythos 在发现和利用漏洞方面如此出色，以至于他们不向公众发布’的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Wed, 08 Apr 2026 15:49:15 +0000</pubDate></item><item><title>月球背面的日食</title><link>https://kottke.org/26/04/solar-eclipse-far-side-of-the-moon</link><description>&lt;p&gt;科特克：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;这张来自阿尔忒弥斯二号任务的照片，捕捉到了月球遮挡太阳的瞬间，是我见过最令人惊叹的天文照片之一。我的&lt;em&gt;天&lt;/em&gt;哪。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -78,6 +86,4 @@
 &lt;p&gt;与此同时，我之前曾怀疑OpenAI是否会像Twitter一样，另一家以文本为中心的公司，意外跌入一个巨大的市场，却因此从未发展成一个功能健全的企业；如果说Twitter是一辆跌入金矿的小丑车，那么OpenAI可能就是彩虹尽头的那辆短途校车。那里本该有一罐金子，但它似乎从未真正出现，彩虹的颜色正在褪去，而最糟糕的是，几乎没有证据表明有人知道自己在做什么，或者存在任何总体性的计划。广告是糟糕的，直到它们成为计划；Meta的高管被大规模聘用，而推出的广告却是低投入、关键词驱动的产品；苹果是合作伙伴，直到乔尼·艾维被聘用，但他仍在为法拉利做项目；与此同时，Anthropic专注于企业市场和产品交付，谷歌正在步步紧逼，而应对之策就是收购一个播客？这到底是怎么回事？&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;a href="https://daringfireball.net/linked/2026/04/07/om-malik-on-openai-buying-tbpn" title="‘奥姆·马利克和本·汤普森谈OpenAI收购TBPN’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Tue, 07 Apr 2026 16:52:44 +0000</pubDate></item><item><title>弗莱迪机场故障地图</title><link>https://flighty.com/airports</link><description>&lt;p&gt;提供北美主要机场延误时间的实时数据。可在网页端使用——还带有一个不错的“电视模式”——当然，在应用内也可使用。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/04/07/flighty-airports" title="‘Flighty Airports Meltdown Map’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Tue, 07 Apr 2026 16:44:06 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 07 Apr 2026 16:52:44 +0000</pubDate></item></channel></rss>
