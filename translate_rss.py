@@ -166,7 +166,7 @@ def fix_image_tags(html_content):
     return str(soup)
 
 def clean_readability_html(html_content):
-    """清理 readability 提取的 HTML，去除多余的包装元素"""
+    """清理 readability 提取的 HTML，精简为 RSS 阅读器友好的格式"""
     if not html_content:
         return html_content
     soup = BeautifulSoup(html_content, 'html.parser')
@@ -175,14 +175,35 @@ def clean_readability_html(html_content):
         tag = soup.find(tag_name)
         if tag:
             tag.unwrap()
-    # 去掉空的 div 包装
-    for div in soup.find_all('div'):
-        # 如果 div 只是一个无意义的包装器（没有有用的 class/id），展开它
-        if not div.get('class') and not div.get('id') and not div.get('style'):
-            div.unwrap()
-    # 去掉 script 和 style 标签
+
+    # 去掉 script / style / noscript 标签
     for tag in soup.find_all(['script', 'style', 'noscript']):
         tag.decompose()
+
+    # <picture> → 简单 <img>（很多 RSS 阅读器不支持 picture/source）
+    for picture in soup.find_all('picture'):
+        img = picture.find('img')
+        if img:
+            img.extract()
+            picture.replace_with(img)
+        else:
+            picture.decompose()
+
+    # 去掉所有 CSS class 属性（没有样式表，class 毫无意义）
+    for tag in soup.find_all(True):
+        if tag.get('class'):
+            del tag['class']
+
+    # 展开纯包装的 <span>（没有任何属性的 span 只是多余嵌套）
+    for span in soup.find_all('span'):
+        if not span.attrs:
+            span.unwrap()
+
+    # 去掉空的 div 包装
+    for div in soup.find_all('div'):
+        if not div.attrs:
+            div.unwrap()
+
     return str(soup)
 
 def fetch_full_article(url):
@@ -202,7 +223,6 @@ def fetch_full_article(url):
         doc = Document(resp.text)
         content = doc.summary()
         if content and content.strip():
-            content = clean_readability_html(content)
             return content
         print(f"  未提取到内容: {url}")
         return None
@@ -356,6 +376,9 @@ def translate_feed(feed_config, cache):
             else:
                 print(f"  回退到 RSS 摘要")
             time.sleep(1)
+
+        # 清理 HTML（去掉无用 class、picture→img、wrapper 等）
+        content = clean_readability_html(content)
 
         # 翻译 HTML 内容（保留标签结构）
         translated_content = translate_html_content(content, cache) if should_translate else content
