@@ -224,7 +224,10 @@ def fetch_full_article(url):
         doc = Document(resp.text)
         content = doc.summary()
         if content and content.strip():
-            return content
+            # 确认有真正的文字内容，而不只是空的 HTML 标签壳子
+            text = BeautifulSoup(content, 'html.parser').get_text(strip=True)
+            if text:
+                return content
         print(f"  未提取到内容: {url}")
         return None
     except Exception as e:
