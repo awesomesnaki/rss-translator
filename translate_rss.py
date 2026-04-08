@@ -95,7 +95,21 @@ def translate_html_direct(html_content, cache):
     if content_hash in cache:
         return cache[content_hash]
 
-    translated = translate_with_deepseek(html_content)
+    # 保护 img 标签不被翻译篡改（LLM 偶尔会改动 URL）
+    img_store = {}
+    def replace_img(match):
+        idx = len(img_store)
+        placeholder = f'<!-- IMG_{idx} -->'
+        img_store[placeholder] = match.group(0)
+        return placeholder
+    protected = re.sub(r'<img\s[^>]*/?>', replace_img, html_content)
+
+    translated = translate_with_deepseek(protected)
+
+    # 还原 img 标签
+    for placeholder, original in img_store.items():
+        translated = translated.replace(placeholder, original)
+
     cache[content_hash] = translated
     time.sleep(0.3)
     return translated
@@ -158,6 +172,9 @@ def fix_image_tags(html_content):
     for img in soup.find_all('img'):
         # 防盗链：添加 no-referrer
         img['referrerpolicy'] = 'no-referrer'
+        # 删除 srcset/sizes（RSS 里没用，且 srcset URL 常有防盗链问题）
+        img.attrs.pop('srcset', None)
+        img.attrs.pop('sizes', None)
         # 懒加载还原：把 data-src / data-original 等属性写回 src
         if not img.get('src') or 'placeholder' in img.get('src', '') or 'loading' in img.get('src', ''):
             for attr in ['data-src', 'data-original', 'data-lazy-src', 'data-actualsrc']:
