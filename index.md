@@ -1,6 +1,6 @@
 # RSS 中文翻译源
 
-更新时间: 2026-04-08 08:24 UTC
+更新时间: 2026-04-08 08:48 UTC
 
 ## 订阅链接
 
@@ -22,5 +22,6 @@
 - dianying4k: https://awesomesnaki.github.io/rss-translator/feeds/dianying4k.xml
 - v2ex-hot: https://awesomesnaki.github.io/rss-translator/feeds/v2ex-hot.xml
 - mac52ipod: https://awesomesnaki.github.io/rss-translator/feeds/mac52ipod.xml
+- landiannews: https://awesomesnaki.github.io/rss-translator/feeds/landiannews.xml
 
 点击上面的链接即可获取订阅地址。
