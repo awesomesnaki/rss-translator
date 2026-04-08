@@ -221,7 +221,7 @@ def extract_v2ex_content(html):
     reply_cells = soup.select('div[id^="r_"]')
     if reply_cells:
         parts.append('<hr/><h3>评论</h3>')
-        for cell in reply_cells:
+        for floor, cell in enumerate(reply_cells, 1):
             # 提取用户名
             username_tag = cell.select_one('strong a')
             username = username_tag.get_text() if username_tag else '匿名'
@@ -238,10 +238,10 @@ def extract_v2ex_content(html):
             if thank_span:
                 text = thank_span.get_text().strip()
                 if '♥' in text or '❤' in text:
-                    thank_text = f' <small style="color:#ccc">{text}</small>'
+                    thank_text = f' {text}'
 
             parts.append(
-                f'<p><strong>{username}</strong>{thank_text}：{content_html}</p>'
+                f'<p><strong>#{floor} {username}</strong>{thank_text}：{content_html}</p><hr/>'
             )
 
     if not parts:
