@@ -378,11 +378,11 @@ def translate_feed(feed_config, cache):
                 print(f"  回退到 RSS 摘要")
             time.sleep(1)
 
-        # 清理 HTML（去掉无用 class、picture→img、wrapper 等）
-        content = clean_readability_html(content)
-
         # 翻译 HTML 内容（保留标签结构）
         translated_content = translate_html_content(content, cache) if should_translate else content
+
+        # 翻译后清理 HTML（放在翻译之后，避免改变 hash 导致缓存失效）
+        translated_content = clean_readability_html(translated_content)
 
         # 修复图片防盗链问题
         translated_content = fix_image_tags(translated_content)
