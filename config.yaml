@@ -51,4 +51,7 @@ feeds:
     url: "rsshub://36kr/hot-list"
     fetch_full_content: true
     translate: false
+  - name: "nicenews"
+    url: "https://nicenews.com/feed/"
+    fetch_full_content: true
   # 按这个格式添加更多源
