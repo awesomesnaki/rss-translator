@@ -1,9 +1,10 @@
 # RSS 中文翻译源
 
-更新时间: 2026-04-08 12:25 UTC
+更新时间: 2026-04-08 13:11 UTC
 
 ## 订阅链接
 
+- 36kr-hot: https://awesomesnaki.github.io/rss-translator/feeds/36kr-hot.xml
 - AnthropicNews: https://awesomesnaki.github.io/rss-translator/feeds/AnthropicNews.xml
 - DaringFireball: https://awesomesnaki.github.io/rss-translator/feeds/DaringFireball.xml
 - SimonWillisonQuotes: https://awesomesnaki.github.io/rss-translator/feeds/SimonWillisonQuotes.xml
