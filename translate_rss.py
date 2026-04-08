@@ -150,12 +150,19 @@ def translate_html_content(html_content, cache):
     return result
 
 def fix_image_tags(html_content):
-    """给所有 <img> 标签添加 referrerpolicy="no-referrer"，解决防盗链问题"""
+    """修复图片：防盗链 + 懒加载还原"""
     if not html_content:
         return html_content
     soup = BeautifulSoup(html_content, 'html.parser')
     for img in soup.find_all('img'):
+        # 防盗链：添加 no-referrer
         img['referrerpolicy'] = 'no-referrer'
+        # 懒加载还原：把 data-src / data-original 等属性写回 src
+        if not img.get('src') or 'placeholder' in img.get('src', '') or 'loading' in img.get('src', ''):
+            for attr in ['data-src', 'data-original', 'data-lazy-src', 'data-actualsrc']:
+                if img.get(attr):
+                    img['src'] = img[attr]
+                    break
     return str(soup)
 
 def clean_readability_html(html_content):
@@ -237,8 +244,10 @@ def extract_v2ex_content(html):
             thank_text = ''
             if thank_span:
                 text = thank_span.get_text().strip()
-                if '♥' in text or '❤' in text:
-                    thank_text = f' {text}'
+                # 提取数字部分
+                num = re.search(r'\d+', text)
+                if num and ('♥' in text or '❤' in text):
+                    thank_text = f' \U0001f44d{num.group()}'
 
             parts.append(
                 f'<p><strong>#{floor} {username}</strong>{thank_text}：{content_html}</p><hr/>'
