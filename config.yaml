@@ -43,4 +43,8 @@ feeds:
     url: "http://www.mac52ipod.cn/feed.php"
     fetch_full_content: true
     translate: false
+  - name: "landiannews"
+    url: "https://www.landiannews.com/feed"
+    fetch_full_content: true
+    translate: false
   # 按这个格式添加更多源
