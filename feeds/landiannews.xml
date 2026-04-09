@@ -1,5 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 09 Apr 2026 07:09:24 +0000</lastBuildDate><item><title>Apache项目开发者提交代码时不慎泄露GitHub令牌 但并非AI造成的问题</title><link>https://www.landiannews.com/archives/112573.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 09 Apr 2026 08:28:44 +0000</lastBuildDate><item><title>Cloudflare将在4月16日公测邮件发送 每月免费3,000封 超出后按千封0.35美元计算</title><link>https://www.landiannews.com/archives/112593.html</link><description>
+&lt;p&gt;#网络服务 Cloudflare 邮件发送服务 Email Sending 将在 4 月 16 日开始公测，Workers Paid 订阅每月免费 3000 封 (不支持纯免费用户发送)，超额部分每 1,000 封收费 0.35 美元，约合人民币 2.39 元。该服务在 2025 年 9 月开始小范围私下测试，现在即将面向所有开发者进行公测，可以直接在 Workers 中发送和接收邮件。查看详情：https://ourl.co/112593&lt;/p&gt;&lt;p&gt;网络服务提供商 Cloudflare 最初在 2025 年 9 月开始测试电子邮件发送功能，即开发者可以直接利用该功能向用户推送注册邮件、密码重置邮件、订单通知和提醒等等。&lt;/p&gt;
+&lt;p&gt;根据此前私有状态测试的报告来看，Cloudflare Email Service 允许开发者直接在 Workers 中发送和接收邮件，并且使用原生绑定机制，不需要 API 令牌。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112593.png" rel="nofollow"&gt;&lt;img alt="Cloudflare将在4月16日公测邮件发送 每月免费3,000封 超出后按千封0.35美元计算" data-src="https://img.lancdn.com/landian/2026/04/112593.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112593.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;即将进行公测邮件发送服务 (Cloudflare Email Sending) 按照实际使用量收费，Workers Paid (最低每月 5 美元) 每账户每月免费发送 3,000 封邮件，超出部分每 1,000 封计费 0.35 美元。&lt;/p&gt;
+&lt;p&gt;这个新功能与 Cloudflare Email Routing (电子邮件路由 / 转发) 功能无关，该产品的定价保持不变，并且仍然包含在 Workers 免费或付费计划中，不需要支付额外的费用。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;小范围测试：于 2025 年 9 月开始&lt;/li&gt;
+&lt;li&gt;大范围公测：计划于 2026 年 4 月 16 日开始&lt;/li&gt;
+&lt;li&gt;每月赠送：Workers Paid 订阅赠送每月 3000 封邮件发送 / &lt;strong&gt;不支持纯免费用户发送&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;按量计费：超额部分每 1,000 封计费 0.35 美元，约合每 1,000 封人民币 2.39 元&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Amazon SES：新用户首年每月免费 3,000 封，超额后每 1,000 封 0.1 美元&lt;/li&gt;
+&lt;li&gt;SendGrid：最低套餐每月 19.95 美元可发送 50,000 封，超额部分每 1,000 封约 0.90~1.3 美元&lt;/li&gt;
+&lt;li&gt;Resend：每月免费 3,000 封，每月 20 美元的订阅套餐可发送 50,000 封，超额部分每 1000 封约 0.9 美元&lt;/li&gt;
+&lt;li&gt;Postmark：基础套餐每月 15 美元可发送 10,000 封，超额部分每 1,000 封约 1.2~1.8 美元 (不同订阅价格不同)&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Thu, 09 Apr 2026 08:28:44 +0000</pubDate></item><item><title>苹果发布iOS 26.4.1版更新 解决iCloud跨设备同步不及时或无法同步问题</title><link>https://www.landiannews.com/archives/112592.html</link><description>
+&lt;p&gt;#系统资讯 苹果推出 iOS 26.4.1 版，主要修复 iCloud 同步相关的问题，该问题会导致跨设备同步不及时或无法同步。在 iOS 26.4 发布后就有开发者注意到这个问题，依赖基于 iCloud 同步数据的应用程序异常，甚至苹果自己的应用例如密码管理器可能都无法及时同步数据。查看详情：https://ourl.co/112592&lt;/p&gt;&lt;p&gt;苹果日前向受支持的机型发布 iOS 26.4.1 版更新 (内部版本号 23E254)，苹果在更新日志中只表示修复某个错误，但具体错误内容并未公布，这次更新也不涉及任何安全漏洞修复。&lt;/p&gt;
+&lt;p&gt;不过根据开发者社区讨论，这次更新解决的是 iCloud 云端同步异常，相关的 BUG 会导致跨设备 iCloud 同步不及时甚至完全无法同步的问题，这影响依赖 iCloud 同步数据的应用程序。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112592.png" rel="nofollow"&gt;&lt;img alt="苹果发布iOS 26.4.1版更新 解决iCloud跨设备同步不及时或无法同步问题" data-src="https://img.lancdn.com/landian/2026/04/112592.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112592.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;具体来说，在 iOS 26.4 版中，部分机型无法正常接收 iCloud 更改通知 (指的是云端文件变更后的异步通知)，因此使用 CloudKit 框架的应用程序数据同步会出现问题，例如在 macOS 上更改数据后，iOS 上无法及时同步最新数据。&lt;/p&gt;
+&lt;p&gt;受影响的应用程序包括但不限于苹果自家的密码应用、提醒事项、备忘录等，其他依赖 iCloud 同步的应用程序例如 Obsidian 等也可能无法跨设备同步用户的笔记等。&lt;/p&gt;
+&lt;p&gt;在 iOS 26.4 发布后就有开发者注意到这个问题，在 Apple Developer Forums 上有诸多开发者报告类似的问题，所以如果你遇到 iCloud 同步相关的问题，可以立即更新到 iOS 26.4.1 版后再进行测试。&lt;/p&gt;
+&lt;p&gt;最后这次更新还对企业管理设备 (MDM) 默认启用失窃设备保护机制，该机制此前已经面向普通用户推出，这次在 MDM 设备上默认启用可以提升设备安全性。&lt;/p&gt;
+&lt;p&gt;查看相关讨论帖：&lt;a href="https://developer.apple.com/forums/thread/820550" rel="noopener" target="_blank"&gt;Apple Developer Forums&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Thu, 09 Apr 2026 07:43:30 +0000</pubDate></item><item><title>因AI算力需求激增导致硬件成本上涨 腾讯云宣布对AI相关产品涨价5%</title><link>https://www.landiannews.com/archives/112574.html</link><description>
+&lt;p&gt;#云计算 因 AI 算力需求激增导致硬件成本上涨，腾讯云宣布对 AI 相关产品涨价 5%，涉及 GPU 计算型服务器、GPU 高性能计算集群、THPC、EMR 等。涨价时间为 2026 年 5 月 9 日，用户在此之前仍可按原价购买，待下个续费周期时则需要按照新价格续费。查看详情：https://ourl.co/112574&lt;/p&gt;&lt;p&gt;据腾讯云发布的产品价格&lt;a href="https://cloud.tencent.com/announce/detail/2254?fromSource=gwzcw.9837046.9837046.9837046&amp;amp;cps_key=38be398bf5bea18e738b2f49157631a0" rel="noopener" target="_blank"&gt;调整公告&lt;/a&gt;，腾讯云将在 2026 年 5 月 9 日 0 时起对涉及人工智能相关的多项产品涨价，涉及的产品包括 AI 算力、容器服务以及腾讯 MapReduce 等。&lt;/p&gt;
+&lt;p&gt;对于涨价原因，腾讯云称 AI 算力需求持续激增导致核心硬件和供应链成本大幅度上涨，为保障服务质量以及算力资源的持续供给，决定对相关产品调整价格。&lt;/p&gt;
+&lt;p&gt;若用户在 2026 年 5 月 9 日 0 时前购买相关产品或服务，则在当前订单或计费周期内价格不受影响，新价格会在下个计费周期 / 续费周期内生效。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2024/06/104352.png" rel="nofollow"&gt;&lt;img alt="因AI算力需求激增导致硬件成本上涨 腾讯云宣布对AI相关产品涨价5%" data-src="https://img.lancdn.com/landian/2024/06/104352.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2024/06/104352.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;腾讯云 CVM 云服务器 GPU 计算型：涉及 PNV6 系列，全地域、全计费模式，涨幅为 5%&lt;/li&gt;
+&lt;li&gt;腾讯云 GPU 高性能计算集群：涉及 HCCPD1 等多款产品，全地域、全计费模式，涨幅为 5%&lt;/li&gt;
+&lt;li&gt;腾讯云 THPC 高性能计算平台工作空间：涉及 96A 和 141A 等多款产品，全地域、全计费模式，涨幅为 5%&lt;/li&gt;
+&lt;li&gt;腾讯云 EMR (弹性 MapReduce)：涉及 PNV6 和 HCCPNV6 等多款产品，全地域、全计费模式，涨幅为 5%&lt;/li&gt;
+&lt;li&gt;腾讯云 TKE 容器服务原生节点：涉及 PNV6 和 HCCPNV6 等多款产品，全地域、全计费模式，涨幅为 5%&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Thu, 09 Apr 2026 07:25:59 +0000</pubDate></item><item><title>Apache项目开发者提交代码时不慎泄露GitHub令牌 但并非AI造成的问题</title><link>https://www.landiannews.com/archives/112573.html</link><description>
 &lt;p&gt;#行业资讯 Apache 服务器项目开发者提交代码时不慎泄露 GitHub 令牌，事后开发者解释称这是人为失误，并非使用 AI 辅助提交造成的问题。另外 GitHub 有个机制就是检测凭证泄露，如果检测到 GitHub 令牌就会直接将令牌吊销，接着还会发邮件通知开发者。查看详情：https://ourl.co/112573&lt;/p&gt;&lt;p&gt;知名开源项目 Apache HTTP Server (httpd) 项目上周发布的&lt;a href="https://github.com/apache/httpd/commit/3ad6cba4b484b166fd3b1c6272e383052bc95624" rel="noopener" target="_blank"&gt;代码变更&lt;/a&gt;引起诸多网友讨论，这次代码变更只是小更新，真正引起关注的是开发者不慎暴露敏感环境变量导致凭据泄露。&lt;/p&gt;
 &lt;p&gt;经常使用 AI 进行开发的用户可能会想着这肯定是开发者使用 AI 编码时出现的失误，不过后面开发者也解释这次暴露凭据并非 AI 所为，而是开发者自己的操作失误引发的，发现问题后暴露的敏感凭据已被吊销。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112573.png" rel="nofollow"&gt;&lt;img alt="Apache项目开发者提交代码时不慎泄露GitHub令牌 但并非AI造成的问题" data-src="https://img.lancdn.com/landian/2026/04/112573.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112573.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -24,35 +66,4 @@
 &lt;/ul&gt;
 &lt;p&gt;不过隐私方面的担忧从未消失，Meta 要求用户必须使用 Facebook 或 Instagram 等账户登录 Muse Spark 才能使用，但 Meta 并未明确表示该 AI 聊天平台是否会使用用户账户中的个人信息。&lt;/p&gt;
 &lt;p&gt;最后扎克伯格表示：展望未来，我们计划发布越来越先进的人工智能模型，以拓展智能和能力的边界，包括新的开源模型。我们正在打造的产品不仅能回答用户的问题，还能像智能助手一样帮助用户做事。&lt;/p&gt;
-</description><pubDate>Thu, 09 Apr 2026 05:37:30 +0000</pubDate></item><item><title>华硕确认不会为Intel Core Ultra 200S Plus推出新主板 现有800系主板可以兼容</title><link>https://www.landiannews.com/archives/112571.html</link><description>
-&lt;p&gt;#硬件设备 华硕确认不会为 Intel Core Ultra 200S Plus 系列桌面处理器推出新主板，因为现有的 800 系主板就可以兼容。华硕认为没必要继续发布新主板向已经拥有兼容硬件的用户推销升级产品，玩家可以直接在现有的 Z890 主板上更换新 CPU 进行升级。查看详情：https://ourl.co/112571&lt;/p&gt;&lt;p&gt;&lt;a href="https://img.lancdn.com/landian/2026/04/112571-1.webp" rel="nofollow"&gt;&lt;img alt="华硕确认不会为Intel Core Ultra 200S Plus推出新主板 现有800系主板可以兼容" data-src="https://img.lancdn.com/landian/2026/04/112571-1.webp" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112571-1.webp"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;硬件制造商华硕日前已经确认，该公司不会为 Intel Core Ultra 200S Plus 系列桌面处理器开发新主板，华硕认为现有的 800 系列主板已经能够完美支持升级后的这些处理器。&lt;/p&gt;
-&lt;p&gt;这种做法主要有多方面考虑，包括复用现有的主板设计可以确保平台稳定性，当然最重要的是避免向已经拥有兼容硬件的用户推销不必要的升级产品。&lt;/p&gt;
-&lt;p&gt;因此用户如果准备购买 200S Plus 处理器的话可以继续沿用现有的 800 系列主板，这可以节省消费者的升级成本，毕竟现在内存条和固态硬盘已经如此贵。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://img.lancdn.com/landian/2026/04/112571-2.webp" rel="nofollow"&gt;&lt;img alt="华硕确认不会为Intel Core Ultra 200S Plus推出新主板 现有800系主板可以兼容" data-src="https://img.lancdn.com/landian/2026/04/112571-2.webp" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112571-2.webp"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;技嘉和 MSI 微星采用的策略与华硕不同，在 CPU 更新换代的同时，技嘉和微星也扩展 Z890 产品线(当然也是可选的)，这些产品线在平台上并未发生改变，因此技嘉和微星考虑的可能还是市场定位而非产品需求。&lt;/p&gt;
-&lt;p&gt;华硕则是在 2025 年初就更新过 Z890 产品线，包括推出 ROG 玩家国度系列的高端 Z890 主板，所以这次英特尔发布新 CPU 后华硕没有计划再继续推出新产品。&lt;/p&gt;
-&lt;p&gt;另外厂商可能还在考虑 LGA-1851 平台的支持问题，该平台已经在接近最终阶段，因为英特尔接下来将转向 LGA-1954 平台，对应处理器系列为 Nova Lake-S，所以 OEM 可能当前更多精力都是在新平台上。&lt;/p&gt;
-</description><pubDate>Thu, 09 Apr 2026 05:13:44 +0000</pubDate></item><item><title>微软表示Windows 11所有问题均已清零 当前没有任何未解决的已知问题</title><link>https://www.landiannews.com/archives/112570.html</link><description>
-&lt;p&gt;#系统资讯 嗯！微软表示 Windows 11 所有问题均已清零，当前没有任何已知问题或尚待解决的问题。Windows 11 24H2/25H2 健康状态页面显示，当前这些版本已经没有任何已知问题，不过下周微软就要发布 4 月更新，按惯例肯定又是修复的同时带来新问题，到时候微软又要记录新问题了。查看详情：https://ourl.co/112570&lt;/p&gt;&lt;p&gt;据 NEOWIN 发布的最新报道，微软现在已经更新 Windows 11 健康状态日志，该页面用于记录微软确认的所有已知问题，不过现在该页面显示所有问题均已修复。&lt;/p&gt;
-&lt;p&gt;虽然听起来有些标题党，不过&lt;a href="https://learn.microsoft.com/en-us/windows/release-health/status-windows-11-24h2" rel="noopener" target="_blank"&gt;健康状态页面&lt;/a&gt;来看微软确实已经认为 Windows 11 所有问题均已清零，其中 Windows 11 24H2/25H2 所有问题已经修复，适用于高通骁龙的 Windows 11 26H1 版目前并未出现过问题。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://img.lancdn.com/landian/public/thumb/W11.webp" rel="nofollow"&gt;&lt;img alt="微软表示Windows 11所有问题均已清零 当前没有任何未解决的已知问题" data-src="https://img.lancdn.com/landian/public/thumb/W11.webp" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/public/thumb/W11.webp"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;近期微软修复的问题包括某些设备无法访问 C 盘、微软自家应用出现的无法登录问题、从共享文件夹安装更新时通过 WUSA 安装的更新可能会失败。&lt;/p&gt;
-&lt;p&gt;除了上面提到的这些问题外，健康状态页面已经没有其他等待解决的问题，嗯，只要没有记录那就不是问题，至于用户吐槽的其他性能或体验问题对微软来说可能不是紧急的事儿。&lt;/p&gt;
-&lt;p&gt;坏消息是这种清零状态可能无法保持太久：因为下周微软将发布 2026-04 例行累积更新，按照以往累积更新惯例，肯定又是修复错误的同时带来各种新问题。&lt;/p&gt;
-&lt;p&gt;所以现在健康状态页没有任何尚待解决的问题也属于比较难得的情况，从下周开始微软又要开始循环记录各种新问题，然后修复问题、再等待下次发布更新。&lt;/p&gt;
-&lt;p&gt;近期还有个值得关注的消息是鉴于 Windows 11 24H2 消费者版将在 10 月结束支持，所以微软将为所有符合要求的设备自动推送安装 Windows 11 25H2，所以尚未禁用更新的用户可能哪天在没有关机的情况下，出门吃个饭，回来以后系统就已经被升级到最新版。&lt;/p&gt;
-</description><pubDate>Thu, 09 Apr 2026 04:56:49 +0000</pubDate></item><item><title>谷歌将从Chrome桌面版中删除预览链接功能 可能是很少有用户使用？</title><link>https://www.landiannews.com/archives/112569.html</link><description>
-&lt;p&gt;#软件资讯 谷歌将从 Chrome 桌面版中删除预览链接功能 (Link Preview)，谷歌并未说明原因，但可能是很少用户使用这个功能？预览链接功能通过右键点击超链接触发，会在当前页面以浮动小窗口显示超链接网页内容，再次点击则可以打开完整的标签页。查看详情：https://ourl.co/112569&lt;/p&gt;&lt;p&gt;谷歌很早就在 Chrome 浏览器中测试名为预览链接的功能，当用户在网页上使用右键菜单的预览链接选项点击超链接时，Chrome 会以小窗口浮动的形式加载这个超链接。&lt;/p&gt;
-&lt;p&gt;本质上说这与用户直接打开链接其实没有什么区别，因为浮动小窗口也是完整加载了对应网页，而且点击一次就可以以完整标签页打开。&lt;/p&gt;
-&lt;p&gt;蓝点网以前并未使用过这个功能 (还是刚开始测试的时候用过一次)，看到谷歌要删除这个功能时我们再次尝试了下，emmm... 至少对我们来说确实用不上这个功能。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112569-1.png" rel="nofollow"&gt;&lt;img alt="谷歌将从Chrome桌面版中删除预览链接功能 可能是很少有用户使用？" data-src="https://img.lancdn.com/landian/2026/04/112569-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112569-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src="https://img.lancdn.com/landian/2026/04/112569-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112569-2.png"/&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Link Preview：移除桌面版的预览链接功能，此变更请求将从桌面版代码库中移除实验性的桌面预览链接功能。&lt;/p&gt;
-&lt;p&gt;所有相关代码，包括功能标志、触发器实现、浏览器端管理器和相关测试，都将被删除或修改，这也包括清理无用的代码和策略枚举。(via &lt;a href="https://chromium-review.googlesource.com/c/chromium/src/+/7727990" rel="noopener" target="_blank"&gt;Chromium Gerrit&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;注：此变更仅适用于 Chrome for Windows/Linux/macOS 版，安卓版 Chrome 提供稳定的预览页面 (长按链接再弹出)，这个功能与谷歌提到的预览链接无关，所以不受此次删除的影响。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;谷歌并未说明为什么要删除这个功能，不过按照 Chrome 以往更迭情况来看，实验性功能如果使用率太低或者存在严重的错误，那就有可能会被谷歌彻底删除。&lt;/p&gt;
-&lt;p&gt;在被彻底删除前用户仍然可以通过 Chrome://flags 启用这个功能，但后续谷歌将变更提交到 Chrome 稳定版后这个功能就会彻底消失，所以有兴趣的用户可以简单体验下，不要将其当做主要功能使用。&lt;/p&gt;
-</description><pubDate>Thu, 09 Apr 2026 03:20:00 +0000</pubDate></item></channel></rss>
+</description><pubDate>Thu, 09 Apr 2026 05:37:30 +0000</pubDate></item></channel></rss>
