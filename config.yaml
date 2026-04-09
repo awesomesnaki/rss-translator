@@ -12,8 +12,6 @@ feeds:
     url: "https://sive.rs/en.atom"
   - name: "kaushikgopal"
     url: "https://kau.sh/feed.xml"
-  - name: "astralcodexten"
-    url: "https://www.astralcodexten.com/feed"
   - name: "thinkingoutloud"
     url: "https://newsletter.jantegze.com/feed"
   - name: "AnthropicNews"
@@ -25,8 +23,6 @@ feeds:
     fetch_full_content: true
   - name: "macmenubar"
     url: "https://macmenubar.com/feed/"
-  - name: "thriftmac"
-    url: "https://feeds.feedburner.com/thriftmac"
   - name: "basicappleguy"
     url: "https://basicappleguy.com/basicappleblog?format=rss"
   - name: "workspaces"
