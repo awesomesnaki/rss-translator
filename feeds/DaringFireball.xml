@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Thu, 09 Apr 2026 20:35:30 +0000</lastBuildDate><item><title>Adobe 修改你的 /etc/hosts 文件</title><link>https://old.reddit.com/r/webdev/comments/1sb6hzk/adobe_wrote_to_my_hosts_file_ive_never_had_an_app/oe1ap9h/</link><description>&lt;p&gt;“thenickdude”在Reddit上写道：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Thu, 09 Apr 2026 22:14:13 +0000</lastBuildDate><item><title>MacOS 在运行 49 天后似乎会崩溃——这或许是 Tahoe 独有的“功能”</title><link>https://sixcolors.com/link/2026/04/macs-crash-after-49-days-of-uptime/</link><description>&lt;p&gt;Jason Snell 在 Six Colors 上写道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;软件开发商 Photon 的产品需要运行一批 Mac 来连接 iMessage，他们&lt;a href="https://photon.codes/blog/we-found-a-ticking-time-bomb-in-macos-tcp-networking"&gt;发现了一个相当严重的漏洞&lt;/a&gt;：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;每台 Mac 都有一个隐藏的过期日期。在连续运行整整 49 天 17 小时 2 分 47 秒后，苹果 XNU 内核中的一个 32 位无符号整数溢出会冻结内部 TCP 时间戳时钟……ICMP（ping）还能工作。其他一切都会停止。大多数人知道的唯一解决办法就是重启。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;整个故事很离奇（尽管技术性很强）。Photon 说他们正在研究修复方案，但说真的，这应该是苹果公司该解决的问题。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;如果你用毫秒来记录时间，并将其存储在一个 32 位无符号整数中，那么它在 49 天 17 小时 2 分 47 秒后就会溢出。这就是那个漏洞。&lt;/p&gt;
+&lt;p&gt;我认为这个漏洞对 Tahoe 来说是新的。如果你查看苹果开源的 XNU 内核代码——&lt;a href="https://github.com/apple-oss-distributions/xnu/blame/f6217f891ac0bb64f3d375211650a4c1ff8ca1ea/bsd/netinet/tcp_subr.c"&gt;例如 tcp_subr.c 中的第 3,732 至 3,745 行&lt;/a&gt;——你可以看到，将毫秒时间赋值给 &lt;code&gt;uint32_t&lt;/code&gt; 变量的那几行代码是在仅仅六个月前提交的，而该文件的大部分内容已有五年历史。另外，我个人在一月份让我的 MacBook Pro（当时运行的是 MacOS 15.7.2 Sequoia）连续运行了长达 91 天。我甚至&lt;a href="https://daringfireball.net/2026/02/my_2025_apple_report-card#:~:text=my%20uptime%20on%20MacOS%2015.7.2"&gt;在我的年度报告中提到了那惊人的运行时间&lt;/a&gt;，以赞扬苹果软件的可靠性。那是苹果在 Tahoe 之前的可靠性。&lt;/p&gt;
+&lt;p&gt;我本来很犹豫是否要链接这篇文章，因为 Photon 最初的（未署名的）报告实在难以理解。它简直像狂躁症发作——超过 3500 字，有 33 个小节标题（&lt;code&gt;&amp;lt;h2&amp;gt;&lt;/code&gt; 和 &lt;code&gt;&amp;lt;h3&amp;gt;&lt;/code&gt; 标签），却没有连贯的叙述。这个漏洞本身似乎并不复杂。Photon 的整篇文章在我看来都像是在尖叫“这是 AI 生成的垃圾”，因此我甚至犹豫是否要链接 Snell 那篇引用它的文章。但我认为这个漏洞是真实存在的，我对所有受 MacOS 26 Tahoe 困扰的人表示真诚的同情。（如果我对这篇文章是 AI 垃圾的判断有误，确实是 Photon 的人写的，那我建议他/她可卡因别吸那么猛。）&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/04/09/macos-crash-49-days" title="Permanent link to ‘MacOS Seemingly Crashes After 49 Days of Uptime — a ‘Feature’ Perhaps Exclusive to Tahoe’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Thu, 09 Apr 2026 22:14:13 +0000</pubDate></item><item><title>Adobe 修改你的 /etc/hosts 文件</title><link>https://old.reddit.com/r/webdev/comments/1sb6hzk/adobe_wrote_to_my_hosts_file_ive_never_had_an_app/oe1ap9h/</link><description>&lt;p&gt;“thenickdude”在Reddit上写道：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;他们用这个来检测当你访问他们的网站时，是否已经安装了Creative Cloud。&lt;/p&gt;
 &lt;p&gt;当你访问&lt;a href="https://www.adobe.com/home"&gt;https://www.adobe.com/home&lt;/a&gt;时，他们会通过JavaScript加载这张图片：&lt;/p&gt;
@@ -25,14 +37,11 @@
 &lt;p&gt;“&lt;em&gt;我们的新模型太出色了，以至于向公众发布太危险&lt;/em&gt;” 这条信息听起来可能像是营销炒作。但这似乎很可能是真的。Anthropic 引用的例子包括发现并利用了一个存在 27 年的 OpenBSD 漏洞（可导致任何运行 OpenBSD 的设备崩溃）以及广泛使用的 FFmpeg 媒体处理库中一个存在 16 年的漏洞。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;另请参阅：&lt;/strong&gt; &lt;a href="https://www.techmeme.com/260407/p38#a260407p38"&gt;Techmeme 的详尽汇总&lt;/a&gt;。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/04/08/claude-mythos-exploits" title="‘Anthropic’s New Claude Mythos Is So Good at Finding and Exploiting Vulnerabilities That They’re Not Releasing It to the Public’ 的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Wed, 08 Apr 2026 15:49:15 +0000</pubDate></item><item><title>月球背面的日食</title><link>https://kottke.org/26/04/solar-eclipse-far-side-of-the-moon</link><description>&lt;p&gt;科特克：&lt;/p&gt;
+</description><pubDate>Wed, 08 Apr 2026 15:49:15 +0000</pubDate></item><item><title>月球背面的日食</title><link>https://kottke.org/26/04/solar-eclipse-far-side-of-the-moon</link><description>&lt;p&gt;Kottke:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;这张来自阿尔忒弥斯二号的月球遮挡太阳的照片，是我见过最令人惊叹的天文照片之一。我的&lt;em&gt;天&lt;/em&gt;啊。&lt;/p&gt;
+&lt;p&gt;这张来自阿尔忒弥斯二号的月球遮挡太阳的照片，是我见过最令人惊叹的天文照片之一。我的&lt;em&gt;天&lt;/em&gt;哪。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;a href="https://www.flickr.com/photos/nasa2explore/"&gt;在Flickr上关注NASA&lt;/a&gt;以获取更多内容。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;更新：&lt;/strong&gt; &lt;a href="https://kottke.org/26/04/stunning-artemis-ii-phone-wallpapers"&gt;在一篇后续文章中&lt;/a&gt;，科特克从阿尔忒弥斯二号的照片中整理了一系列精美的iPhone壁纸，并附上了其他收藏的链接，&lt;a href="https://basicappleguy.com/haberdashery/artemis-ii-iphone-wallpapers"&gt;例如Basic Apple Guy的收藏&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;更新：&lt;/strong&gt; &lt;a href="https://kottke.org/26/04/stunning-artemis-ii-phone-wallpapers"&gt;在一篇后续文章中&lt;/a&gt;，Kottke从阿尔忒弥斯二号的照片中整理出了一系列精美的iPhone壁纸，并附上了其他收藏的链接，&lt;a href="https://basicappleguy.com/haberdashery/artemis-ii-iphone-wallpapers"&gt;例如Basic Apple Guy的&lt;/a&gt;。此外，&lt;a href="https://mastodon.social/@chockenberry/116376761280684415"&gt;The Iconfactory已将许多这类图片添加&lt;/a&gt;到他们出色的&lt;a href="https://wallaroo.app/"&gt;Wallaroo应用&lt;/a&gt;中（我就是这样在自己的iPhone上换上了一张）。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/04/07/solar-eclipse-from-the-far-side-of-the-moon" title="‘月球背面的日食’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Tue, 07 Apr 2026 22:23:27 +0000</pubDate></item><item><title>OpenAI发布视频中，山姆·奥特曼显然认为通用人工智能将像百年一遇的疫情般冲击社会</title><link>https://x.com/OpenAINewsroom/status/2041618671236469200?s=20</link><description>&lt;p&gt;不明白他们为何认为这种比较能让人安心而非恐惧。&lt;/p&gt;
-&lt;p&gt;我还得说，奥特曼今天声称OpenAI员工比世界其他地方早几周就关注到新冠疫情，这感觉多多少少有点像唐纳德·特朗普&lt;a href="https://www.cnn.com/2025/10/06/politics/fact-check-trump-false-bin-laden-claim"&gt;一再错误地宣称&lt;/a&gt;他在9/11事件前就预言了奥萨马·本·拉登会袭击美国。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/04/07/altman-covid" title="指向‘萨姆·奥特曼在OpenAI发布的视频中，显然认为AGI将像百年一遇的疫情一样冲击社会’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Tue, 07 Apr 2026 22:23:07 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 07 Apr 2026 22:23:27 +0000</pubDate></item></channel></rss>
