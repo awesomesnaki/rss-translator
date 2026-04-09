@@ -1,6 +1,6 @@
 # RSS 中文翻译源
 
-更新时间: 2026-04-09 17:02 UTC
+更新时间: 2026-04-09 17:54 UTC
 
 ## 订阅链接
 
@@ -12,6 +12,7 @@
 - basicappleguy: https://awesomesnaki.github.io/rss-translator/feeds/basicappleguy.xml
 - dereksivers: https://awesomesnaki.github.io/rss-translator/feeds/dereksivers.xml
 - dianying4k: https://awesomesnaki.github.io/rss-translator/feeds/dianying4k.xml
+- franzgraf: https://awesomesnaki.github.io/rss-translator/feeds/franzgraf.xml
 - indieapp: https://awesomesnaki.github.io/rss-translator/feeds/indieapp.xml
 - kaushikgopal: https://awesomesnaki.github.io/rss-translator/feeds/kaushikgopal.xml
 - landiannews: https://awesomesnaki.github.io/rss-translator/feeds/landiannews.xml
