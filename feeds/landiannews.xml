@@ -1,5 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 09 Apr 2026 03:20:00 +0000</lastBuildDate><item><title>谷歌将从Chrome桌面版中删除预览链接功能 可能是很少有用户使用？</title><link>https://www.landiannews.com/archives/112569.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 09 Apr 2026 07:09:24 +0000</lastBuildDate><item><title>Apache项目开发者提交代码时不慎泄露GitHub令牌 但并非AI造成的问题</title><link>https://www.landiannews.com/archives/112573.html</link><description>
+&lt;p&gt;#行业资讯 Apache 服务器项目开发者提交代码时不慎泄露 GitHub 令牌，事后开发者解释称这是人为失误，并非使用 AI 辅助提交造成的问题。另外 GitHub 有个机制就是检测凭证泄露，如果检测到 GitHub 令牌就会直接将令牌吊销，接着还会发邮件通知开发者。查看详情：https://ourl.co/112573&lt;/p&gt;&lt;p&gt;知名开源项目 Apache HTTP Server (httpd) 项目上周发布的&lt;a href="https://github.com/apache/httpd/commit/3ad6cba4b484b166fd3b1c6272e383052bc95624" rel="noopener" target="_blank"&gt;代码变更&lt;/a&gt;引起诸多网友讨论，这次代码变更只是小更新，真正引起关注的是开发者不慎暴露敏感环境变量导致凭据泄露。&lt;/p&gt;
+&lt;p&gt;经常使用 AI 进行开发的用户可能会想着这肯定是开发者使用 AI 编码时出现的失误，不过后面开发者也解释这次暴露凭据并非 AI 所为，而是开发者自己的操作失误引发的，发现问题后暴露的敏感凭据已被吊销。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112573.png" rel="nofollow"&gt;&lt;img alt="Apache项目开发者提交代码时不慎泄露GitHub令牌 但并非AI造成的问题" data-src="https://img.lancdn.com/landian/2026/04/112573.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112573.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这些环境变量里涉及部分个人信息和路径，不过最严重的是 GitHub 令牌，这个令牌可以用来直接向项目提交各种代码，因此如果泄露可能会造成严重的安全问题。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.landiannews.com/archives/102657.html" rel="noopener" target="_blank"&gt;但 GitHub 已经想到有开发者会在提交代码时泄露令牌&lt;/a&gt;，所以 GitHub 有个机制：当检测到开发者提交的代码里包含敏感凭据时，就直接发邮件通知开发者立即进行更换。&lt;/p&gt;
+&lt;p&gt;如果检测到包含 GitHub 的敏感凭据，GitHub 会直接将这个令牌吊销，等到开发者看到邮件或者发现自己的令牌失效时，可以去检查原因并重新生成新令牌，这可以显著降低令牌泄露带来的安全问题。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;事后开发者在评论中解释称：&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;看起来是我用 svn commit -m 时消息里的内容被解释了...(似乎是 set 被解释为 bash/zsh 的 set)，所有相关的令牌 (均为只读权限)。&lt;/p&gt;
+&lt;p&gt;顺便说一句，这不是 AI 辅助提交的，只是因为改动太简单，我偷懒了，抱歉。&lt;/p&gt;&lt;/blockquote&gt;
+</description><pubDate>Thu, 09 Apr 2026 07:09:24 +0000</pubDate></item><item><title>后羊驼时代：Meta超级智能实验室推出Muse Spark模型 但并非开源模型</title><link>https://www.landiannews.com/archives/112572.html</link><description>
+&lt;p&gt;#人工智能 后羊驼时代：Meta 超级人工智能实验室发布 Muse Spark 模型，但该模型并未开源。在 Llama 4 数据造假后该模型就被冷落，之后 Meta 重新建立 AI 实验室，现在首款模型发布，该模型侧重点是购物和处理健康数据，在编码和智能体方面表现比较普通。查看详情：https://ourl.co/112572&lt;/p&gt;&lt;p&gt;在重新投资和大幅度调整人员配置后，社交媒体集团 Meta 旗下的超级人工智能实验室现在推出新模型：Meta AI Muse Spark，该模型在主流基准测试中表现还算是不错。&lt;/p&gt;
+&lt;p&gt;超级人工智能实验室由 Alexandr Wang 领导，而这个新模型也是该实验室从零开始构建的，与此前的 Meta Llama 羊驼系列模型基本没有关系，而且模型的侧重点也与主流模型存在显著差异。&lt;/p&gt;
+&lt;p&gt;Muse Spark 模型在人工智能编码和智能体功能上略显不足，Meta 强调的是该模型在购物和处理健康数据方面的能力，最终 Meta 将会把这个模型部署到 Facebook、WhatsApp、Instagram 等社交媒体平台。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112572.png" rel="nofollow"&gt;&lt;img alt="后羊驼时代：Meta超级智能实验室推出Muse Spark模型 但并非开源模型" data-src="https://img.lancdn.com/landian/2026/04/112572.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112572.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;羊驼系列模型的衰败主要是 Llama 4 发布时就被发现存在基准测试作弊，该模型在发布时的纸面数据看起来非常不错，但诸多开发者实际用过后发现性能比较普通，随后有自称是内部员工的网友爆出该模型篡改数据达成突破的假象。&lt;/p&gt;
+&lt;p&gt;之后羊驼系列模型就被 Meta 冷落没有继续发布更新，扎克伯格则聘请数据标注公司 Scale AI 联合创始人兼首席执行官 Alexandr Wang 领导超级人工智能实验室 (Meta 也向这家数据标注公司投资 143 亿美元获得 49% 的股份)。&lt;/p&gt;
+&lt;p&gt;所以现在可以说是后羊驼时代，至少对 Meta 而言 Llama 系列模型已经成为过去式，至于是否继续发布开源人工智能还需要观察，扎克伯格是承诺未来将会继续发布开源模型。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;回到 Muse Spark 本身，Meta 强调该模型在以下方面表现更好：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;购物能力：能够从用户关注的创作者和社群中汲取穿搭灵感，从而提供个性化的产品推荐 (也就是广告)。&lt;/li&gt;
+&lt;li&gt;健康数据：模型可以更好的处理用户健康数据，当用户询问有关健康方面的问题时，Meta 将根据收集的数据提供比其他模型更好的建议。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;不过隐私方面的担忧从未消失，Meta 要求用户必须使用 Facebook 或 Instagram 等账户登录 Muse Spark 才能使用，但 Meta 并未明确表示该 AI 聊天平台是否会使用用户账户中的个人信息。&lt;/p&gt;
+&lt;p&gt;最后扎克伯格表示：展望未来，我们计划发布越来越先进的人工智能模型，以拓展智能和能力的边界，包括新的开源模型。我们正在打造的产品不仅能回答用户的问题，还能像智能助手一样帮助用户做事。&lt;/p&gt;
+</description><pubDate>Thu, 09 Apr 2026 05:37:30 +0000</pubDate></item><item><title>华硕确认不会为Intel Core Ultra 200S Plus推出新主板 现有800系主板可以兼容</title><link>https://www.landiannews.com/archives/112571.html</link><description>
+&lt;p&gt;#硬件设备 华硕确认不会为 Intel Core Ultra 200S Plus 系列桌面处理器推出新主板，因为现有的 800 系主板就可以兼容。华硕认为没必要继续发布新主板向已经拥有兼容硬件的用户推销升级产品，玩家可以直接在现有的 Z890 主板上更换新 CPU 进行升级。查看详情：https://ourl.co/112571&lt;/p&gt;&lt;p&gt;&lt;a href="https://img.lancdn.com/landian/2026/04/112571-1.webp" rel="nofollow"&gt;&lt;img alt="华硕确认不会为Intel Core Ultra 200S Plus推出新主板 现有800系主板可以兼容" data-src="https://img.lancdn.com/landian/2026/04/112571-1.webp" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112571-1.webp"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;硬件制造商华硕日前已经确认，该公司不会为 Intel Core Ultra 200S Plus 系列桌面处理器开发新主板，华硕认为现有的 800 系列主板已经能够完美支持升级后的这些处理器。&lt;/p&gt;
+&lt;p&gt;这种做法主要有多方面考虑，包括复用现有的主板设计可以确保平台稳定性，当然最重要的是避免向已经拥有兼容硬件的用户推销不必要的升级产品。&lt;/p&gt;
+&lt;p&gt;因此用户如果准备购买 200S Plus 处理器的话可以继续沿用现有的 800 系列主板，这可以节省消费者的升级成本，毕竟现在内存条和固态硬盘已经如此贵。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://img.lancdn.com/landian/2026/04/112571-2.webp" rel="nofollow"&gt;&lt;img alt="华硕确认不会为Intel Core Ultra 200S Plus推出新主板 现有800系主板可以兼容" data-src="https://img.lancdn.com/landian/2026/04/112571-2.webp" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112571-2.webp"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;技嘉和 MSI 微星采用的策略与华硕不同，在 CPU 更新换代的同时，技嘉和微星也扩展 Z890 产品线(当然也是可选的)，这些产品线在平台上并未发生改变，因此技嘉和微星考虑的可能还是市场定位而非产品需求。&lt;/p&gt;
+&lt;p&gt;华硕则是在 2025 年初就更新过 Z890 产品线，包括推出 ROG 玩家国度系列的高端 Z890 主板，所以这次英特尔发布新 CPU 后华硕没有计划再继续推出新产品。&lt;/p&gt;
+&lt;p&gt;另外厂商可能还在考虑 LGA-1851 平台的支持问题，该平台已经在接近最终阶段，因为英特尔接下来将转向 LGA-1954 平台，对应处理器系列为 Nova Lake-S，所以 OEM 可能当前更多精力都是在新平台上。&lt;/p&gt;
+</description><pubDate>Thu, 09 Apr 2026 05:13:44 +0000</pubDate></item><item><title>微软表示Windows 11所有问题均已清零 当前没有任何未解决的已知问题</title><link>https://www.landiannews.com/archives/112570.html</link><description>
+&lt;p&gt;#系统资讯 嗯！微软表示 Windows 11 所有问题均已清零，当前没有任何已知问题或尚待解决的问题。Windows 11 24H2/25H2 健康状态页面显示，当前这些版本已经没有任何已知问题，不过下周微软就要发布 4 月更新，按惯例肯定又是修复的同时带来新问题，到时候微软又要记录新问题了。查看详情：https://ourl.co/112570&lt;/p&gt;&lt;p&gt;据 NEOWIN 发布的最新报道，微软现在已经更新 Windows 11 健康状态日志，该页面用于记录微软确认的所有已知问题，不过现在该页面显示所有问题均已修复。&lt;/p&gt;
+&lt;p&gt;虽然听起来有些标题党，不过&lt;a href="https://learn.microsoft.com/en-us/windows/release-health/status-windows-11-24h2" rel="noopener" target="_blank"&gt;健康状态页面&lt;/a&gt;来看微软确实已经认为 Windows 11 所有问题均已清零，其中 Windows 11 24H2/25H2 所有问题已经修复，适用于高通骁龙的 Windows 11 26H1 版目前并未出现过问题。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://img.lancdn.com/landian/public/thumb/W11.webp" rel="nofollow"&gt;&lt;img alt="微软表示Windows 11所有问题均已清零 当前没有任何未解决的已知问题" data-src="https://img.lancdn.com/landian/public/thumb/W11.webp" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/public/thumb/W11.webp"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;近期微软修复的问题包括某些设备无法访问 C 盘、微软自家应用出现的无法登录问题、从共享文件夹安装更新时通过 WUSA 安装的更新可能会失败。&lt;/p&gt;
+&lt;p&gt;除了上面提到的这些问题外，健康状态页面已经没有其他等待解决的问题，嗯，只要没有记录那就不是问题，至于用户吐槽的其他性能或体验问题对微软来说可能不是紧急的事儿。&lt;/p&gt;
+&lt;p&gt;坏消息是这种清零状态可能无法保持太久：因为下周微软将发布 2026-04 例行累积更新，按照以往累积更新惯例，肯定又是修复错误的同时带来各种新问题。&lt;/p&gt;
+&lt;p&gt;所以现在健康状态页没有任何尚待解决的问题也属于比较难得的情况，从下周开始微软又要开始循环记录各种新问题，然后修复问题、再等待下次发布更新。&lt;/p&gt;
+&lt;p&gt;近期还有个值得关注的消息是鉴于 Windows 11 24H2 消费者版将在 10 月结束支持，所以微软将为所有符合要求的设备自动推送安装 Windows 11 25H2，所以尚未禁用更新的用户可能哪天在没有关机的情况下，出门吃个饭，回来以后系统就已经被升级到最新版。&lt;/p&gt;
+</description><pubDate>Thu, 09 Apr 2026 04:56:49 +0000</pubDate></item><item><title>谷歌将从Chrome桌面版中删除预览链接功能 可能是很少有用户使用？</title><link>https://www.landiannews.com/archives/112569.html</link><description>
 &lt;p&gt;#软件资讯 谷歌将从 Chrome 桌面版中删除预览链接功能 (Link Preview)，谷歌并未说明原因，但可能是很少用户使用这个功能？预览链接功能通过右键点击超链接触发，会在当前页面以浮动小窗口显示超链接网页内容，再次点击则可以打开完整的标签页。查看详情：https://ourl.co/112569&lt;/p&gt;&lt;p&gt;谷歌很早就在 Chrome 浏览器中测试名为预览链接的功能，当用户在网页上使用右键菜单的预览链接选项点击超链接时，Chrome 会以小窗口浮动的形式加载这个超链接。&lt;/p&gt;
 &lt;p&gt;本质上说这与用户直接打开链接其实没有什么区别，因为浮动小窗口也是完整加载了对应网页，而且点击一次就可以以完整标签页打开。&lt;/p&gt;
 &lt;p&gt;蓝点网以前并未使用过这个功能 (还是刚开始测试的时候用过一次)，看到谷歌要删除这个功能时我们再次尝试了下，emmm... 至少对我们来说确实用不上这个功能。&lt;/p&gt;
@@ -12,60 +55,4 @@
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;谷歌并未说明为什么要删除这个功能，不过按照 Chrome 以往更迭情况来看，实验性功能如果使用率太低或者存在严重的错误，那就有可能会被谷歌彻底删除。&lt;/p&gt;
 &lt;p&gt;在被彻底删除前用户仍然可以通过 Chrome://flags 启用这个功能，但后续谷歌将变更提交到 Chrome 稳定版后这个功能就会彻底消失，所以有兴趣的用户可以简单体验下，不要将其当做主要功能使用。&lt;/p&gt;
-</description><pubDate>Thu, 09 Apr 2026 03:20:00 +0000</pubDate></item><item><title>知名开源软件WireGuard开发者账户也被封禁 微软称不要阴谋论 将解封账户</title><link>https://www.landiannews.com/archives/112568.html</link><description>
-&lt;p&gt;#软件资讯 知名开源软件 WireGuard 开发者账户也被微软封禁导致无法更新软件，微软副总裁称已经联系受影响的开发者。负责开发者社区的微软副总裁汉塞尔曼称并非所有事情都是阴谋论 (有网友称微软在收紧权限)，不过微软找不到真人客服的问题一直在困扰所有用户和开发者。查看详情：https://ourl.co/112568&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landiannews.com/archives/112563.html" rel="noopener" target="_blank"&gt;前文蓝点网提到知名加密软件 VeraCrypt 项目的开发者账号遭到微软封禁&lt;/a&gt;，这个开发者账号需要获得微软验证并提供代码签名，然后用于给 VeraCrypt 驱动程序和引导程序签名，如果缺乏签名则这些程序无法在 Windows 10/11 上运行。&lt;/p&gt;
-&lt;p&gt;没想到 WireGuard 开发者账号也同样遭到封禁，在 HN 讨论帖中 WireGuard 开发者表示自己也遇到同样的问题，微软没有提供任何提醒、警告或通知，然后开发者突然发现自己账号被封禁。&lt;/p&gt;
-&lt;p&gt;经过媒体报道和社交媒体上的网友讨论后，这件事终于引起微软 (员工) 的关注，负责开发者社区相关工作的微软副总裁斯科特・汉塞尔曼称已经发邮件联系两位受影响的开发者。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://img.lancdn.com/landian/2026/04/112568.webp" rel="nofollow"&gt;&lt;img alt="知名开源软件WireGuard开发者账户也被封禁 微软称不要阴谋论 将解封账户" data-src="https://img.lancdn.com/landian/2026/04/112568.webp" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112568.webp"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;汉塞尔曼称并非所有事情都是阴谋论 (指的是有用户称微软正在收紧权限打压第三方软件开发者)，有时候仅仅只是文书工作的问题。&lt;/p&gt;
-&lt;p&gt;然而这种说辞其实无法解决开发者和用户的担忧，最关键的是大家找不到人工客服，无论是 VeraCrypt 开发者还是 WireGuard 开发者，都找不到微软的真人客服，而和机器人沟通无法解决账户被封禁的问题。&lt;/p&gt;
-&lt;p&gt;也就是说如果不是这件事在社交媒体上引起广泛讨论，或许这两位开发者还要继续想办法找到微软的真人客服，否则想要解封账户难如登天。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这正是我目前在 WireGuard 上遇到的相同问题。没有任何警告，也没有任何通知。有一天我登录准备发布更新时，突然发现账号已被暂停。目前正在走某种为期 60 天的申诉流程，但结果如何还不得而知。&lt;/p&gt;
-&lt;p&gt;这实在有些荒唐：假如 WireGuard 存在某个严重的远程代码执行漏洞，正在野外被大规模利用，而我需要立即向用户推送更新，该怎么办？（这只是假设而已，大家别紧张！）在这种情况下，微软等于完全捆住了我的手脚。&lt;/p&gt;
-&lt;p&gt;如果微软内部有谁能帮忙处理此事，请联系我 ——jason at zx2c4 dot com。(&lt;a href="https://news.ycombinator.com/item?id=47687884" rel="noopener" target="_blank"&gt;via HN&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;嘿，我跟大家一样，也喜欢吐槽自己的公司，因为微软确实会干一些蠢事。但有时候，事情真的只是 “查查邮件、验证一下账号” 这么简单。&lt;/p&gt;
-&lt;p&gt;并不是每一个 “WTF 微软” 的瞬间，都能直接定性为重大失误。我已经亲自给 VeraCrypt 的负责人发了邮件，我们会帮他尽快解除封禁。我也已经和 WireGuard 的 Jason 沟通过了。&lt;/p&gt;
-&lt;p&gt;并不是所有事情都是阴谋，有时候真的只是单纯的流程和文书工作而已。(via &lt;a href="https://x.com/shanselman/status/2041977121686585396?s=12" rel="noopener" target="_blank"&gt;X/Twitter&lt;/a&gt;)&lt;/p&gt;
-</description><pubDate>Thu, 09 Apr 2026 02:49:49 +0000</pubDate></item><item><title>韩国SN850X等SSD价格较中国市场高出94% 目前还不清楚为何价格暴涨</title><link>https://www.landiannews.com/archives/112567.html</link><description>
-&lt;p&gt;# 硬件设备 韩国市场的消费级固态硬盘价格暴涨，SN850X 2TB 版售价较中国市场高出 94.2%，9100 PRO 价格也高出 54%。目前尚不清楚韩国市场的 SSD 为何出现如此涨幅，因为国际市场的 SSD 价格还算平稳，暂时都没出现如此夸张的涨幅。查看详情：https://ourl.co/112567&lt;/p&gt;&lt;p&gt;据韩国当地媒体发布的报道，韩国市场的消费级固态硬盘价格正在快速上涨，部分热门的固态硬盘例如西部数据的 SN850X 和三星的 990 PRO 部分容量价格已经翻倍。&lt;/p&gt;
-&lt;p&gt;比较吊诡的是在国际市场例如美国等这些固态硬盘的价格比较平稳，并未出现如此夸张的涨幅，至于为什么出现如此高的涨幅，到现在还没人知道原因。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2024/07/104963.png" rel="nofollow"&gt;&lt;img alt="韩国SN850X等SSD价格较中国市场高出94% 目前还不清楚为何价格暴涨" data-src="https://img.lancdn.com/landian/2024/07/104963.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2024/07/104963.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;SN850X 1TB 版：当前价约 60 万韩元 (约合人民币 2,767 元)，京东自营店 1,669 元，📈+65.8%&lt;/li&gt;
-&lt;li&gt;SN850X 2TB 版：当前价约 120 万韩元 (约合人民币 5,534 元)，京东自营店 2,849 元，📈+94.2%&lt;/li&gt;
-&lt;li&gt;SN850X 4TB 版：当前价约 220 万韩元 (约合人民币 10,146 元)，京东自营店 8,849 元，📈+14.7%&lt;/li&gt;
-&lt;li&gt;SN850X 8TB 版：当前价约 450 万韩元 (约合人民币 20,767 元)，京东自营店 17,699 元，📈+17.3%&lt;/li&gt;
-&lt;li&gt;990 PRO 1TB 版：当前价约 47 万韩元 (约合人民币 2,168 元)，京东自营店 1,999 元，📈+8.5%&lt;/li&gt;
-&lt;li&gt;9100 PRO 8TB 版：当前价约 400 万韩元 (约合人民币 18,460 元)，京东自营店 11,939 元，📈+54.6%&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;目前西部数据和三星都没有就韩国市场的消费级固态硬盘价格暴涨发布声明，有媒体称这可能是与全球 NAND 闪存供应链波动、本地分销渠道调整、汇率因素以及区域库存数量有关。&lt;/p&gt;
-&lt;p&gt;从渠道商的消息来看西部数据和三星也没有发布产品涨价消息，所以韩国市场这波消费级固态硬盘价格暴涨让人非常想不通，总不能是有大型科技公司正在批量扫货吧。&lt;/p&gt;
-&lt;p&gt;且不论原因是什么，对韩国的装机用户来说现在的情况非常惨，因为内存条价格已经非常高，现在固态硬盘也大幅度涨价，这会导致整体装机成本显著上涨。&lt;/p&gt;
-&lt;p&gt;另外目前我们也在观察其他市场是否有类似的涨价消息，固态硬盘总体来说价格是在上涨但短时间内涨幅没有韩国市场这么夸张，希望不是韩国市场带头涨价。&lt;/p&gt;
-</description><pubDate>Thu, 09 Apr 2026 02:30:27 +0000</pubDate></item><item><title>不少用户OneDrive出现陌生共享文件夹但无法删除 微软从1月开始修复但还未解决问题</title><link>https://www.landiannews.com/archives/112566.html</link><description>
-&lt;p&gt;#软件资讯 不少用户 OneDrive 出现陌生共享文件夹但无法删除，黑灰产团伙可以利用此功能发送垃圾广告或恶意软件，用户甚至没法删除共享的文件。从去年 12 月开始就有用户反馈这个问题，微软在 1 月发布更新说要修复，不过直到现在还是没解决问题。查看详情：https://ourl.co/112566&lt;/p&gt;&lt;p&gt;微软各类服务有时候会出现某些奇奇怪怪的问题，这些问题出现的莫名其妙并且可能不容易解决，例如不少 OneDrive 用户收到陌生人共享的文件但无法删除。&lt;/p&gt;
-&lt;p&gt;这个问题最初从 2025 年 12 月开始有用户提交反馈，之后陆陆续续有更多用户遇到类似问题，微软则是在 2026 年 1 月份发布 &lt;a href="https://support.microsoft.com/en-us/office/fixes-or-workarounds-for-recent-issues-in-onedrive-36110213-f3f6-490d-8cb7-3833539def0b#id0ebbd=windows" rel="noopener" target="_blank"&gt; 支持文档&lt;/a&gt; 称正在努力修复问题，不过直到现在微软也没有更新支持文档。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112566.png" rel="nofollow"&gt;&lt;img alt="不少用户OneDrive出现陌生共享文件夹但无法删除 微软从1月开始修复但还未解决问题" data-src="https://img.lancdn.com/landian/2026/04/112566.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112566.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;假如我知道你的微软账户邮箱，那就可以通过 OneDrive 共享文件给你，发出共享时微软将通过电子邮件通知你，同时你的 OneDrive 会直接出现我共享的文件或文件夹。&lt;/p&gt;
-&lt;p&gt;问题在于与苹果 iCloud 共享不同的是，微软不需要用户同意就会直接将共享文件或文件夹放到用户的 OneDrive 中，而且 OneDrive 本身也没有选项可以禁止共享文件。&lt;/p&gt;
-&lt;p&gt;也就是说垃圾制造商可以通过这个功能向用户推送广告&lt;strong&gt;(PS：有用户的共享文件区被塞满色情文件)&lt;/strong&gt;，诈骗团伙也可以通过这个方式向用户共享恶意软件，但用户没有任何办法能够阻止这种情况的持续发生。&lt;/p&gt;
-&lt;p&gt;更糟糕的是，被共享的文件或文件夹出现在用户 OneDrive 里后，用户还不能删除，当用户选择删除这些共享文件夹后，刷新页面又会再次出现。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;微软在 2026 年 1 月发布的支持文档中表示：&lt;strong&gt; 部分用户无法隐藏、删除或停止共享 OneDrive 中出现的共享文件或文件夹，受影响的用户也无法将未知共享文件举报为 SPAM。我们正在努力解决这个问题，希望能在 1 月底前解决这个问题。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;现在已经是 2026 年 4 月，微软的支持文档依然没有更新，也就是这个问题到现在还是没解决，微软在文档中还提到这个问题还会影响 Windows、macOS、iOS、Android 和网页版，所以受影响的用户估计天天看着那些未知的共享文件也得烦死。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://www.reddit.com/r/onedrive/comments/1pjgytj/cant_received_a_shared_spam_link_and_cant_remove/" rel="noopener" target="_blank"&gt;Reddit&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 09 Apr 2026 02:00:27 +0000</pubDate></item><item><title>微软发布服务端更新解决Windows 11开始菜单搜索功能失效等问题</title><link>https://www.landiannews.com/archives/112565.html</link><description>
-&lt;p&gt;#系统资讯 微软发布服务端更新解决 Windows 11 开始菜单搜索功能失效问题，微软称该问题自 4 月 6 日开始出现，影响少量 Windows 11 23H2 版用户。原本微软发布的更新是用来提升必应搜索性能的，但没想到破坏了搜索功能，现在微软撤销更改以解决问题。查看详情：https://ourl.co/112565&lt;/p&gt;&lt;p&gt;微软日前针对用户反馈的 Windows 11 23H2 版开始菜单搜索功能失效问题，发布服务器端修复程序用于解决问题，微软强调这个问题源于该公司在服务端部署的用于提升必应搜索性能的更新。&lt;/p&gt;
-&lt;p&gt;开始菜单顶部的搜索功能 (与任务栏搜索按钮打开的面板相同) 基于 WebView2 构建，使用必应搜索在本地或互联网中查询内容，搜索结果面板也会出现来自必应搜索的关键词搜索结果。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://img.lancdn.com/landian/public/thumb/W11.webp" rel="nofollow"&gt;&lt;img alt="微软发布服务端更新解决Windows 11开始菜单搜索功能失效等问题" data-src="https://img.lancdn.com/landian/public/thumb/W11.webp" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/public/thumb/W11.webp"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;微软表示，该公司近期在服务端部署必应搜索更新，该更新本来是用于提升必应搜索性能的，但这个更新也影响开始菜单搜索功能，例如搜索结果可能显示为空等。&lt;/p&gt;
-&lt;p&gt;通过服务端部署的新补丁不需要用户安装，因为都是基于网络连接的，部署后 Windows 11 23H2 版用户再次执行搜索功能可能就可以正常返回搜索结果，包括本地结果和网络搜索结果。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;至于微软的说法是否可信还是个问题：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;从几个月就有用户反馈开始菜单搜索功能异常，这个问题不仅影响 Windows 11 23H2 版，其他版本也可能出现类似问题。&lt;/p&gt;
-&lt;p&gt;但目前微软强调的只是针对 Windows 11 23H2 版并且相关问题仅在 4 月 6 日部署更新后出现，所以可能其他版本的 Windows 11 还可能遇到搜索相关的异常问题。&lt;/p&gt;
-</description><pubDate>Thu, 09 Apr 2026 01:30:26 +0000</pubDate></item></channel></rss>
+</description><pubDate>Thu, 09 Apr 2026 03:20:00 +0000</pubDate></item></channel></rss>

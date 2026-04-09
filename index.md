@@ -1,6 +1,6 @@
 # RSS 中文翻译源
 
-更新时间: 2026-04-09 04:31 UTC
+更新时间: 2026-04-09 07:16 UTC
 
 ## 订阅链接
 
@@ -9,7 +9,6 @@
 - DaringFireball: https://awesomesnaki.github.io/rss-translator/feeds/DaringFireball.xml
 - SimonWillisonQuotes: https://awesomesnaki.github.io/rss-translator/feeds/SimonWillisonQuotes.xml
 - appaddict: https://awesomesnaki.github.io/rss-translator/feeds/appaddict.xml
-- astralcodexten: https://awesomesnaki.github.io/rss-translator/feeds/astralcodexten.xml
 - basicappleguy: https://awesomesnaki.github.io/rss-translator/feeds/basicappleguy.xml
 - dereksivers: https://awesomesnaki.github.io/rss-translator/feeds/dereksivers.xml
 - dianying4k: https://awesomesnaki.github.io/rss-translator/feeds/dianying4k.xml
@@ -22,7 +21,6 @@
 - nicenews: https://awesomesnaki.github.io/rss-translator/feeds/nicenews.xml
 - pgessays: https://awesomesnaki.github.io/rss-translator/feeds/pgessays.xml
 - thinkingoutloud: https://awesomesnaki.github.io/rss-translator/feeds/thinkingoutloud.xml
-- thriftmac: https://awesomesnaki.github.io/rss-translator/feeds/thriftmac.xml
 - v2ex-hot: https://awesomesnaki.github.io/rss-translator/feeds/v2ex-hot.xml
 - workspaces: https://awesomesnaki.github.io/rss-translator/feeds/workspaces.xml
 
