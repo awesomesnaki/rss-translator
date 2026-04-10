@@ -20,7 +20,7 @@ jobs:
 
     services:
       rsshub:
-        image: diygod/rsshub:chromium-bundled
+        image: diygod/rsshub
         ports:
           - 1200:1200
 

@@ -43,9 +43,10 @@ feeds:
     url: "https://www.landiannews.com/feed"
     fetch_full_content: true
     translate: false
-  - name: "36kr-hot"
-    url: "rsshub://36kr/hot-list"
+  - name: "luobo8"
+    url: "https://feed.luobo8.com/"
     translate: false
+    filter_out: ["博海拾贝", "百货50条", "元包邮"]
   - name: "nicenews"
     url: "https://nicenews.com/feed/"
     fetch_full_content: true

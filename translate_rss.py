@@ -404,11 +404,16 @@ def translate_feed(feed_config, cache):
 
     # Apply entry filter if configured
     entry_filter = feed_config.get('filter')
+    filter_out = feed_config.get('filter_out', [])
     max_entries = 50 if entry_filter else 5
     entries = feed.entries[:max_entries]
     if entry_filter:
         entries = apply_entry_filter(entries, entry_filter)
         print(f"  过滤后保留 {len(entries)} 条 (类型: {entry_filter})")
+    if filter_out:
+        before = len(entries)
+        entries = [e for e in entries if not any(kw in e.get('title', '') for kw in filter_out)]
+        print(f"  关键词过滤: {before} → {len(entries)} 条")
 
     should_summarize_title = feed_config.get('summarize_title', False)
     should_images_only = feed_config.get('images_only', False)
