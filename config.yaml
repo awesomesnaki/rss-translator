@@ -56,4 +56,16 @@ feeds:
   - name: "somepics"
     url: "https://some.pics/rss"
     summarize_title: true
+  - name: "pixelfed-JessStetson"
+    url: "https://pixelfed.social/users/Jess.Stetson.atom"
+    summarize_title: true
+    images_only: true
+  - name: "pixelfed-geraldlanger"
+    url: "https://pixelfed.social/users/geraldlanger.atom"
+    summarize_title: true
+    images_only: true
+  - name: "pixelfed-zsnajorrah"
+    url: "https://pixelfed.social/users/zsnajorrah.atom"
+    summarize_title: true
+    images_only: true
   # 按这个格式添加更多源

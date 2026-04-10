@@ -413,6 +413,7 @@ def translate_feed(feed_config, cache):
         print(f"  过滤后保留 {len(entries)} 条 (类型: {entry_filter})")
 
     should_summarize_title = feed_config.get('summarize_title', False)
+    should_images_only = feed_config.get('images_only', False)
 
     for entry in entries:
         original_title = entry.get('title', '')
@@ -431,8 +432,13 @@ def translate_feed(feed_config, cache):
         elif 'summary' in entry:
             content = entry.summary
 
-        # summarize_title 模式：只翻译标题文字放进正文，原有正文（如 "Shared by @xxx" + 图片）保留不翻译
-        if should_summarize_title and original_title.strip():
+        # images_only 模式：正文只保留图片，去掉所有文字，跳过翻译
+        if should_images_only:
+            soup = BeautifulSoup(content, 'html.parser')
+            imgs = soup.find_all('img')
+            translated_content = ''.join(str(img) for img in imgs)
+        # summarize_title 模式：只翻译标题文字放进正文，原有正文保留不翻译
+        elif should_summarize_title and original_title.strip():
             translated_desc = translate_text(original_title, cache)
             content = f"<p>{translated_desc}</p>" + content
             translated_content = content
