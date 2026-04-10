@@ -13,14 +13,14 @@
 &lt;a href="https://daringfireball.net/linked/2026/04/09/macos-crash-49-days" title="Permanent link to ‘MacOS Seemingly Crashes After 49 Days of Uptime — a ‘Feature’ Perhaps Exclusive to Tahoe’"&gt; ★ &lt;/a&gt;
 </description><pubDate>Thu, 09 Apr 2026 22:14:13 +0000</pubDate></item><item><title>Adobe 修改你的 /etc/hosts 文件</title><link>https://old.reddit.com/r/webdev/comments/1sb6hzk/adobe_wrote_to_my_hosts_file_ive_never_had_an_app/oe1ap9h/</link><description>&lt;p&gt;“thenickdude”在Reddit上写道：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;他们用这个来检测当你访问他们的网站时，是否已经安装了Creative Cloud。&lt;/p&gt;
+&lt;p&gt;他们用这个来检测当你访问其网站时，是否已经安装了Creative Cloud。&lt;/p&gt;
 &lt;p&gt;当你访问&lt;a href="https://www.adobe.com/home"&gt;https://www.adobe.com/home&lt;/a&gt;时，他们会通过JavaScript加载这张图片：&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://detect-ccd.creativecloud.adobe.com/cc.png"&gt;https://detect-ccd.creativecloud.adobe.com/cc.png&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;如果你的hosts文件中存在这个DNS条目，你的浏览器就会连接到他们的服务器，这样他们就知道你安装了Creative Cloud；否则加载就会失败，他们也能检测到这一点。&lt;/p&gt;
-&lt;p&gt;他们过去只是直接访问http://localhost:\/cc.png，这会直接连接到你的Creative Cloud应用，但后来&lt;a href="https://developer.chrome.com/blog/local-network-access"&gt;Chrome开始阻止本地网络访问&lt;/a&gt;，所以他们不得不改用这种修改hosts文件的伎俩。&lt;/p&gt;
+&lt;p&gt;如果你的hosts文件中存在对应的DNS条目，你的浏览器就会连接到他们的服务器，这样他们就知道你安装了Creative Cloud，否则加载就会失败，他们也能检测到这一点。&lt;/p&gt;
+&lt;p&gt;他们过去常常直接访问http://localhost:&amp;lt;各种端口&amp;gt;/cc.png，这会直接连接到你的Creative Cloud应用，但后来&lt;a href="https://developer.chrome.com/blog/local-network-access"&gt;Chrome开始阻止本地网络访问&lt;/a&gt;，所以他们不得不改用这种修改hosts文件的伎俩。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;（&lt;a href="https://www.osnews.com/story/144737/adobe-secretly-modifies-your-hosts-file-for-the-stupidest-reason/"&gt;来自OSNews的Thom Holwerda&lt;/a&gt;。）&lt;/p&gt;
-&lt;p&gt;当然，他们&lt;em&gt;并非&lt;/em&gt;必须这么做。事实上，非常明显的是，他们绝对&lt;em&gt;不应该&lt;/em&gt;这么做。Adobe只是一个第三方开发者，并不比其他开发者更好、更值得信任或更重要。想象一下，如果你电脑上的每个软件都在你的&lt;code&gt;/etc/hosts&lt;/code&gt;文件中添加条目。简直是疯了。Adobe应该为自己感到羞耻。Adobe曾经是开发者遵循最佳实践的堡垒。现在他们的安装程序/更新程序与恶意软件已无区别。&lt;/p&gt;
+&lt;p&gt;当然，他们并非&lt;em&gt;必须&lt;/em&gt;这么做。事实上，非常明显，他们绝对&lt;em&gt;不应该&lt;/em&gt;这么做。Adobe只是一个第三方开发者，并不比其他任何开发者更好、更值得信任或更重要。想象一下，如果你电脑上的每个软件都往你的&lt;code&gt;/etc/hosts&lt;/code&gt;文件里添加条目。简直是疯了。Adobe应该为此感到羞愧。Adobe曾经是开发者遵循最佳实践的典范。现在他们的安装程序/更新程序与恶意软件已无区别。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;另请参阅：&lt;/strong&gt; &lt;a href="https://mastodon.social/@marcedwards/116371577815792197"&gt;Mastodon上的Marc Edwards&lt;/a&gt;，以及&lt;a href="https://mjtsai.com/blog/2026/04/08/adobe-modifies-your-hosts-file-for-their-analytics/"&gt;Michael Tsai&lt;/a&gt;。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/04/09/adobe-etc-hosts-diddling" title="‘Adobe Diddles With Your /etc/hosts File’的永久链接"&gt; ★ &lt;/a&gt;
 </description><pubDate>Thu, 09 Apr 2026 20:35:30 +0000</pubDate></item><item><title>本周马屁精：托德·布兰奇</title><link>https://politicalwire.com/2026/04/09/extra-bonus-quote-of-the-day-1022/</link><description>&lt;p&gt;代理司法部长托德·布兰奇以一种完全正常的方式谈论美国总统：&lt;/p&gt;
