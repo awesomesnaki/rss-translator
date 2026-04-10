@@ -53,4 +53,7 @@ feeds:
   - name: "franzgraf"
     url: "https://www.franzgraf.de/feed"
     fetch_full_content: true
+  - name: "somepics"
+    url: "https://some.pics/rss"
+    summarize_title: true
   # 按这个格式添加更多源

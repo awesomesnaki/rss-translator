@@ -86,6 +86,40 @@ def translate_text(text, cache):
     time.sleep(0.3)  # 避免请求过快
     return translated
 
+def summarize_title_text(text, cache):
+    """将长标题总结为简短的中文短语，带缓存"""
+    if not text or not text.strip():
+        return text
+
+    cache_key = "summarize:" + get_hash(text.strip())
+    if cache_key in cache:
+        return cache[cache_key]
+
+    try:
+        response = client.chat.completions.create(
+            model="deepseek-chat",
+            messages=[
+                {
+                    "role": "system",
+                    "content": "你是一个标题总结助手。用户会给你一段图片帖子的长文字描述，请将其总结为一个简短的中文标题（一个短语或一句话，不超过15个字）。只输出标题本身，不要加引号或其他格式。"
+                },
+                {
+                    "role": "user",
+                    "content": text
+                }
+            ],
+            temperature=0.3,
+            max_tokens=100
+        )
+        result = response.choices[0].message.content.strip()
+        cache[cache_key] = result
+        time.sleep(0.3)
+        return result
+    except Exception as e:
+        print(f"标题总结失败: {e}")
+        return translate_text(text, cache)
+
+
 def translate_html_direct(html_content, cache):
     """调用 API 翻译一段 HTML，保留标签结构"""
     if not html_content or not html_content.strip():
@@ -378,8 +412,17 @@ def translate_feed(feed_config, cache):
         entries = apply_entry_filter(entries, entry_filter)
         print(f"  过滤后保留 {len(entries)} 条 (类型: {entry_filter})")
 
+    should_summarize_title = feed_config.get('summarize_title', False)
+
     for entry in entries:
-        title = translate_text(entry.get('title', ''), cache) if should_translate else entry.get('title', '')
+        original_title = entry.get('title', '')
+
+        if should_summarize_title and should_translate:
+            title = summarize_title_text(original_title, cache)
+        elif should_translate:
+            title = translate_text(original_title, cache)
+        else:
+            title = original_title
 
         # 处理内容
         content = ''
@@ -387,6 +430,11 @@ def translate_feed(feed_config, cache):
             content = entry.content[0].get('value', '')
         elif 'summary' in entry:
             content = entry.summary
+
+        # 将原始标题文字作为描述插入正文开头
+        if should_summarize_title and original_title.strip():
+            title_as_body = translate_html_content(f"<p>{original_title}</p>", cache) if should_translate else f"<p>{original_title}</p>"
+            content = title_as_body + content
 
         # 如果配置了全文抓取，从原文 URL 获取完整内容
         if should_fetch_full and entry.get('link'):
