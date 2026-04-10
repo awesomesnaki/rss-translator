@@ -431,22 +431,24 @@ def translate_feed(feed_config, cache):
         elif 'summary' in entry:
             content = entry.summary
 
-        # 将原始标题文字作为描述插入正文开头（翻译前插入，随正文一起翻译）
+        # summarize_title 模式：只翻译标题文字放进正文，原有正文（如 "Shared by @xxx" + 图片）保留不翻译
         if should_summarize_title and original_title.strip():
-            content = f"<p>{original_title}</p>" + content
+            translated_desc = translate_text(original_title, cache)
+            content = f"<p>{translated_desc}</p>" + content
+            translated_content = content
+        else:
+            # 如果配置了全文抓取，从原文 URL 获取完整内容
+            if should_fetch_full and entry.get('link'):
+                print(f"  抓取全文: {entry['link']}")
+                full_content = fetch_full_article(entry['link'])
+                if full_content:
+                    content = full_content
+                else:
+                    print(f"  回退到 RSS 摘要")
+                time.sleep(1)
 
-        # 如果配置了全文抓取，从原文 URL 获取完整内容
-        if should_fetch_full and entry.get('link'):
-            print(f"  抓取全文: {entry['link']}")
-            full_content = fetch_full_article(entry['link'])
-            if full_content:
-                content = full_content
-            else:
-                print(f"  回退到 RSS 摘要")
-            time.sleep(1)
-
-        # 翻译 HTML 内容（保留标签结构）
-        translated_content = translate_html_content(content, cache) if should_translate else content
+            # 翻译 HTML 内容（保留标签结构）
+            translated_content = translate_html_content(content, cache) if should_translate else content
 
         # 翻译后清理 HTML（放在翻译之后，避免改变 hash 导致缓存失效）
         translated_content = clean_readability_html(translated_content)
