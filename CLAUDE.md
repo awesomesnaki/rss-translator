@@ -24,6 +24,10 @@
   translate: true           # 默认 true，中文源设为 false
   fetch_full_content: true  # 从原始网页抓取全文（默认 false）
   filter: "blockquote"      # 可选，按内容类型过滤条目
+  filter_out: ["关键词"]     # 可选，标题含任一关键词则排除
+  filter_out_content: ["关键词"] # 可选，正文含任一关键词则排除
+  summarize_title: true     # 可选，长标题总结为简短中文短语（≤15字）
+  images_only: true         # 可选，正文只保留图片，去掉所有文字
 ```
 
 ## 关键设计决策
@@ -33,6 +37,10 @@
 - **图片修复** — 所有 `<img>` 添加 `referrerpolicy="no-referrer"`（防盗链）；自动将 `data-src` 等懒加载属性还原为 `src`
 - **站点专用解析** — V2EX 帖子绕过 readability，用专用解析器提取主帖+评论，格式化为 `#楼层 用户名：内容`
 - **HTML 清理** — 去掉 CSS class、简化 `<picture>` 为 `<img>`、展开无用 `<span>`/`<div>` wrapper，让 RSS 阅读器渲染更干净
+- **标题总结** — `summarize_title` 用 DeepSeek 将长描述压缩为简短中文标题，适用于图片分享类 feed（如 some.pics），原始描述翻译后放入正文
+- **纯图模式** — `images_only` 配合 `summarize_title` 使用，正文只保留 `<img>` 标签，去掉所有文字，适用于 Pixelfed 等摄影类 feed
+- **关键词过滤** — `filter_out` 按标题排除、`filter_out_content` 按正文排除，用于去广告和不需要的内容类型（如 B 站视频嵌入）
+- **RSSHub URL 策略** — `rsshub://` 协议走 CI 本地实例；直接写 `https://rsshub.app/...` 则走官方实例不被改写，适用于本地实例无法抓取的源
 
 ## 操作注意事项
 
@@ -41,4 +49,7 @@
 - RSS 摘要不含图片/全文的源需要加 `fetch_full_content: true`
 - 仓库是公开的，API key 存在 GitHub Secrets（`DEEPSEEK_API_KEY`），安全无泄露风险
 - 订阅地址格式：`https://awesomesnaki.github.io/rss-translator/feeds/{name}.xml`
+- Pixelfed 等图片 feed 建议配置 `summarize_title: true` + `images_only: true`，标题简洁正文纯图
+- some.pics 等图文 feed 建议只用 `summarize_title: true`，原始描述翻译后保留在正文
+- `filter_out` 和 `filter_out_content` 可叠加使用，先过滤标题再过滤正文
 - 开发请在独立分支上进行，通过 PR 合并到 main
