@@ -431,10 +431,9 @@ def translate_feed(feed_config, cache):
         elif 'summary' in entry:
             content = entry.summary
 
-        # 将原始标题文字作为描述插入正文开头
+        # 将原始标题文字作为描述插入正文开头（翻译前插入，随正文一起翻译）
         if should_summarize_title and original_title.strip():
-            title_as_body = translate_html_content(f"<p>{original_title}</p>", cache) if should_translate else f"<p>{original_title}</p>"
-            content = title_as_body + content
+            content = f"<p>{original_title}</p>" + content
 
         # 如果配置了全文抓取，从原文 URL 获取完整内容
         if should_fetch_full and entry.get('link'):
