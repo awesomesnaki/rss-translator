@@ -44,8 +44,7 @@ feeds:
     fetch_full_content: true
     translate: false
   - name: "36kr-hot"
-    url: "rsshub://36kr/hot-list"
-    fetch_full_content: true
+    url: "https://rsshub.app/36kr/hot-list"
     translate: false
   - name: "nicenews"
     url: "https://nicenews.com/feed/"

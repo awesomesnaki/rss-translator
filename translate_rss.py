@@ -355,14 +355,12 @@ def extract_v2ex_content(html):
     return str(result_soup)
 
 def resolve_feed_url(url):
-    """解析 feed URL，处理 rsshub:// 协议和 rsshub.app 域名"""
+    """解析 feed URL，处理 rsshub:// 协议"""
     rsshub_base = 'http://localhost:1200' if os.environ.get('GITHUB_ACTIONS') else 'https://rsshub.app'
-    # rsshub://path 格式 → 转为 RSSHub 完整 URL
+    # rsshub://path 格式 → 转为 RSSHub 完整 URL（CI 中用本地实例，本地开发用 rsshub.app）
     if url.startswith('rsshub://'):
         return f"{rsshub_base}/{url[len('rsshub://'):]}"
-    # rsshub.app URL → CI 中替换为本地实例
-    if 'rsshub.app' in url and os.environ.get('GITHUB_ACTIONS'):
-        return url.replace('https://rsshub.app', rsshub_base)
+    # 其他 URL（包括 rsshub.app 直链）原样返回，不做替换
     return url
 
 def apply_entry_filter(entries, filter_type):
