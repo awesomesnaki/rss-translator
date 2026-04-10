@@ -1,6 +1,6 @@
 # RSS 中文翻译源
 
-更新时间: 2026-04-10 07:46 UTC
+更新时间: 2026-04-10 08:18 UTC
 
 ## 订阅链接
 
@@ -21,6 +21,9 @@
 - marco: https://awesomesnaki.github.io/rss-translator/feeds/marco.xml
 - nicenews: https://awesomesnaki.github.io/rss-translator/feeds/nicenews.xml
 - pgessays: https://awesomesnaki.github.io/rss-translator/feeds/pgessays.xml
+- pixelfed-JessStetson: https://awesomesnaki.github.io/rss-translator/feeds/pixelfed-JessStetson.xml
+- pixelfed-geraldlanger: https://awesomesnaki.github.io/rss-translator/feeds/pixelfed-geraldlanger.xml
+- pixelfed-zsnajorrah: https://awesomesnaki.github.io/rss-translator/feeds/pixelfed-zsnajorrah.xml
 - somepics: https://awesomesnaki.github.io/rss-translator/feeds/somepics.xml
 - thinkingoutloud: https://awesomesnaki.github.io/rss-translator/feeds/thinkingoutloud.xml
 - v2ex-hot: https://awesomesnaki.github.io/rss-translator/feeds/v2ex-hot.xml
