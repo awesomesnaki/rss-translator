@@ -413,7 +413,16 @@ def translate_feed(feed_config, cache):
     if filter_out:
         before = len(entries)
         entries = [e for e in entries if not any(kw in e.get('title', '') for kw in filter_out)]
-        print(f"  关键词过滤: {before} → {len(entries)} 条")
+        print(f"  标题过滤: {before} → {len(entries)} 条")
+    filter_out_content = feed_config.get('filter_out_content', [])
+    if filter_out_content:
+        before = len(entries)
+        def get_entry_content(e):
+            if 'content' in e:
+                return e.content[0].get('value', '')
+            return e.get('summary', '')
+        entries = [e for e in entries if not any(kw in get_entry_content(e) for kw in filter_out_content)]
+        print(f"  正文过滤: {before} → {len(entries)} 条")
 
     should_summarize_title = feed_config.get('summarize_title', False)
     should_images_only = feed_config.get('images_only', False)
