@@ -1,5 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Fri, 10 Apr 2026 07:38:23 +0000</lastBuildDate><item><title>新论文揭示API中转站的恶意行为：注入恶意代码甚至窃取用户的ETH钱包密钥</title><link>https://www.landiannews.com/archives/112603.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sat, 11 Apr 2026 03:43:40 +0000</lastBuildDate><item><title>这就离谱！开源虚拟化软件UTM的微软开发者账户直接消失 现在也无法签名驱动</title><link>https://www.landiannews.com/archives/112607.html</link><description>
+&lt;p&gt;#软件资讯 这就离谱！知名开源虚拟化软件 UTM 的微软开发者账户直接没了！现在也无法获得签名用于签署驱动程序。早前 VeraCrypt 和 WireGuard 开发者账户被封禁后已经解封，但 UTM 开发者账户比较离谱，输入账号直接显示不存在，连封号提示都没有。查看详情：https://ourl.co/112607&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landiannews.com/archives/112568.html" rel="noopener" target="_blank"&gt;早前开源软件 VeraCrypt 和 WireGuard 的开发者账户均被微软封禁&lt;/a&gt;，这导致开发者无法正常签名驱动程序，驱动程序没有可信签名的情况下是不被 Windows NT 内核信任的，也就是无法运行。&lt;/p&gt;
+&lt;p&gt;后面在负责开发者关系的微软副总裁帮助下这些开发者账户才被解封，至于为什么封号目前没人知道原因，但显然这次封号引起的问题比我们想象的还要更大。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/06/109589.png" rel="nofollow"&gt;&lt;img alt="这就离谱！开源虚拟化软件UTM的微软开发者账户直接消失 现在也无法签名驱动" data-src="https://img.lancdn.com/landian/2025/06/109589.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/06/109589.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;因为驱动程序加载程序 OSR Driver 和开源虚拟化软件 UTM 的开发者账户也同样被封禁，目前 OSR 的开发者账户已经在微软副总裁帮助下解封，UTM 开发者账户还没有恢复。&lt;/p&gt;
+&lt;p&gt;值得关注的是，其他开发者账户被封禁都是有封禁提示，而 UTM 开发者账户竟然直接没了：&lt;strong&gt;就是字面意义上的没了&lt;/strong&gt;，登录账户时直接提示账户不存在，这让 UTM 开发者直接蒙圈。&lt;/p&gt;
+&lt;p&gt;UTM 开发者尝试登录账户时提示：&lt;strong&gt;你输入的邮箱或用户名不存在，请检查你输入的内容确保已经输入正确的电子邮箱或用户名。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;同理，在没有开发者账户的情况下无法对驱动程序进行签名，UTM 是虚拟化软件，也需要使用内核级驱动程序，因此现在 UTM 也同样无法发布新版本。&lt;/p&gt;
+&lt;p&gt;UTM 开发者吐槽称，为了开发用于虚拟化的 GPU 驱动程序，此前已经大费周章申请 EV 企业级签名并完成所有必要的身份验证，在 2025 年已经成功签署一个版本，但现在账户直接没了，也没有收到微软的任何通知。&lt;/p&gt;
+&lt;p&gt;不过现在封号这事儿已经引起广泛关注，估计接下来 UTM 账户问题也得微软副总裁帮忙联系微软内部工作人员进行处理，只不过微软到现在也没透露为什么会发生这种情况，而且可能被封禁的开发者账户会非常多。&lt;/p&gt;
+&lt;p&gt;出现如此大的纰漏只可能是微软内部调整了某些工作流程，某种工作流程调整后可能触发了账户重新审核验证的机制，然后将所有不符合某种条件的账户都给处理了。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;相关推荐：&lt;/strong&gt;&lt;a href="https://www.landiannews.com/archives/109589.html" rel="noopener" target="_blank"&gt;开源虚拟机 UTM 希望申请内核权限 但联系微软只有机器人且超过 3 个月没人批准&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://x.com/UTMapp/status/2042703901582069769" rel="noopener" target="_blank"&gt;UTM&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sat, 11 Apr 2026 03:43:40 +0000</pubDate></item><item><title>CPU-Z和HWMonitor官方网站遭到黑客攻击 用户可能要重装系统</title><link>https://www.landiannews.com/archives/112606.html</link><description>
+&lt;p&gt;#安全资讯 CPU-Z 和 HWMonitor 官方网站遭到黑客攻击，黑客将下载链接替换为恶意程序，用户可能需要重装系统。这个恶意程序会搜寻浏览器凭据并尝试解密 Chrome 保存的账户密码，这次攻击持续约 6 小时，建议 4 月 9~11 日从 CPUID 下载安装这些软件的用户重装系统。查看详情：https://ourl.co/112606&lt;/p&gt;&lt;p&gt;知名硬件检测工具 CPU-Z 和硬件监控工具 HWMonitor 开发商 CPUID 网站日前遭到黑客攻击，黑客通过未知方式入侵该网站的服务器，然后在网站上随机显示恶意链接并诱导用户下载。&lt;/p&gt;
+&lt;p&gt;最初 Reddit 网友尝试更新 HWMonitor v1.63 版时发现问题：CPUID 提供极具迷惑性的文件 HWiNFO_Monitor_Setup.exe，该文件立即触发 Microsoft Defender 的安全警告。&lt;/p&gt;
+&lt;p&gt;当用户以为是误报并忽略警告继续运行时，没想到竟然弹出俄语安装程序，显然这不正常，于是这名网友中断安装并在 Reddit 上发帖提醒其他网友注意这个安全问题。&lt;/p&gt;
+&lt;p&gt;接到相关反馈后 CPUID 官方证实网站遭到黑客攻击，当地时间 2026 年 4 月 9 日～10 日，网站大约被入侵 6 个小时，但更多细节还需要调查，相关应用程序原始文件并未被篡改。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112606.png" rel="nofollow"&gt;&lt;img alt="CPU-Z和HWMonitor官方网站遭到黑客攻击 用户可能要重装系统" data-src="https://img.lancdn.com/landian/2026/04/112606.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112606.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;👆🏻 CPUID 网站也没挂上安全提醒&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;黑客投放的恶意软件包含正常的 CPU-Z 软件，但黑客在里面捆绑名为 CRYPTEBASE.dll 的恶意文件，当用户运行 CPU-Z 时这个恶意文件就会被加载到内存中。&lt;/p&gt;
+&lt;p&gt;当恶意文件开始运行后，将自动搜寻浏览器凭据，同时可以调用 PowerShell 从 C2 服务器获取更多指令，包括试图解密 Chrome 浏览器保存在本地的各类账户密码。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;从目前分析来看，黑客通过某种方式控制 CPUID 网站上的辅助 API，这让黑客可以在不触及源码服务器的情况下篡改下载链接，CPUID 相关软件本身并未被篡改，黑客主要是将下载链接替换为恶意程序地址。&lt;/p&gt;
+&lt;p&gt;考虑到这些恶意文件的危害性，建议在 2026 年 4 月 9 日～11 日从 CPUID 官网下载安装 CPU-Z 和 HWMonitor 的用户直接重装系统，同时应当修改各类账户密码确保安全。&lt;/p&gt;
+&lt;p&gt;另外对于可以注销的网络会话 (例如 Chrome 浏览器登录状态)，建议直接注销会话，这可以强制使任何被盗的令牌失效从而提升安全性。&lt;/p&gt;
+</description><pubDate>Sat, 11 Apr 2026 02:45:48 +0000</pubDate></item><item><title>萨姆奥尔特曼住宅被人投掷简易燃烧弹 这名20岁犯罪嫌疑人已被逮捕</title><link>https://www.landiannews.com/archives/112605.html</link><description>
+&lt;p&gt;#行业资讯 萨姆奥尔特曼住宅被人投掷简易燃烧弹，所幸并未造成严重后果，这名 20 岁的犯罪嫌疑人还试图烧毁 OpenAI 大楼。目前尚不清楚犯罪嫌疑人的袭击动机，不过社交媒体上的阴谋论用户已经在讨论是不是这人使用 ChatGPT 出现心理问题，甚至猜测是不是 OpenAI 关闭 4o 模型引起的不满。查看详情：https://ourl.co/112605&lt;/p&gt;&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2024/09/105878.png" rel="nofollow"&gt;&lt;img alt="萨姆奥尔特曼住宅被人投掷简易燃烧弹 这名20岁犯罪嫌疑人已被逮捕" data-src="https://img.lancdn.com/landian/2024/09/105878.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2024/09/105878.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;太平洋时间 2026 年 4 月 10 日 03:45，有人制作简易燃烧弹投向 OpenAI 首席执行官萨姆奥尔特曼位于旧金山的住所，这枚简易燃烧弹落在住所附近并熄灭，萨姆奥尔特曼住宅外门起火但很快熄灭，这次袭击并未造成严重后果。&lt;/p&gt;
+&lt;p&gt;而这名犯罪嫌疑人则是徒步逃离现场，随后又跑到 OpenAI 总部大楼附近威胁要烧毁这座大楼，发现异常情况后，OpenAI 值班安保人员报警，旧金山警察局随后抓获这名犯罪嫌疑人。&lt;/p&gt;
+&lt;p&gt;旧金山警察局证实被逮捕的这名犯罪嫌疑人早前刚刚袭击萨姆奥尔特曼的住所，目前已知信息仅有这名犯罪嫌疑人才 20 岁，至于为什么要袭击萨姆奥尔特曼还不得而知。&lt;/p&gt;
+&lt;p&gt;OpenAI 安全团队随后告诉员工，该公司正在配合执法部门进行调查，员工可能会注意到办公室周围的警察和安保人员数量有所增加，不过办公室正常开放，但建议员工不要让任何人尾随进入办公大楼。&lt;/p&gt;
+&lt;p&gt;目前在社交媒体上关于这件事已经有大量讨论，包括阴谋论用户称犯罪嫌疑人可能是对 OpenAI GPT 系列模型的不满，即使用人工智能工具产生心理健康问题。&lt;/p&gt;
+&lt;p&gt;甚至还有用户猜测这可能与 OpenAI 关闭 GPT-4o 模型有关，此前 4o 模型被禁用引起诸多抗议，但这些猜测多少有些不着调，所以只能等待后续旧金山警察局发布官方消息。&lt;/p&gt;
+</description><pubDate>Sat, 11 Apr 2026 02:25:42 +0000</pubDate></item><item><title>💥重磅：微软宣布重组Windows 11预览版 金丝雀版和开发版合并为实验版</title><link>https://www.landiannews.com/archives/112604.html</link><description>
+&lt;p&gt;#系统资讯 微软宣布重组 Windows Insider 项目，将金丝雀版与开发版合并为实验频道，同时删除饱受诟病的受控发布。合并频道是因为现在金丝雀版名存实亡，新功能还不如开发版多；删除受控发布指的是不再搞 A/B 测试，所有用户都可以自行开启所有实验性新功能。查看详情：https://ourl.co/112604&lt;/p&gt;&lt;p&gt;微软日前发布博客宣布对 Windows Insider Preview 项目进行重组，本次重组也终于解决金丝雀版新功能太少的问题：既然解决不了金丝雀版功能太少，那就直接删掉金丝雀版。&lt;/p&gt;
+&lt;p&gt;本次重组实际上将整个发布频道精简合并，其中金丝雀版与开发版合并为实验性频道 (Experimental)，测试频道 (Beta) 保持不变，同时继续为企业客户提供发布预览频道。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112604-1.png" rel="nofollow"&gt;&lt;img alt="微软宣布重组Windows 11预览版 金丝雀版和开发版合并为实验版" data-src="https://img.lancdn.com/landian/2026/04/112604-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112604-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;实验频道：该频道将金丝雀版与开发版合并，所有新功能和特性都在这里，鉴于实验性性质，某些功能可能会因为调整而被删除，因此可能不会抵达最终发布版本。&lt;/p&gt;
+&lt;p&gt;测试频道：此频道将作为体验新功能的入口，在 Windows 11 Beta 版中的新功能通常会在数周后抵达正式版，未来测试频道不再采用受控发布技术，即所有新功能面向所有用户推出。&lt;/p&gt;
+&lt;p&gt;发布预览：发布预览频道主要是给企业 IT 管理员提前测试功能或兼容性，该频道严格来说并不属于 Windows Insider Preview 项目，无论企业还是普通用户均可使用。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112604-2.png" rel="nofollow"&gt;&lt;img alt="微软宣布重组Windows 11预览版 金丝雀版和开发版合并为实验版" data-src="https://img.lancdn.com/landian/2026/04/112604-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112604-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;微软以前非常喜欢使用 CFR 受控发布技术，所谓受控发布指的是新功能可能仅为部分用户启用，其他用户则需要继续等待，直到新功能被逐步广泛推出。&lt;/p&gt;
+&lt;p&gt;受控发布非常让人讨厌，因为用户使用预览版就是为了体验新功能，结果升级后可能还无法启用特定的新功能，既然如此为什么我还要使用预览版呢？&lt;/p&gt;
+&lt;p&gt;这也是为什么大量用户转向 ViveTool 开启新功能的原因，现在微软将受控发布技术删除，取而代之的是实验性选项，让用户可以自己在更新里启用实验性功能。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在实验频道里还有个高级选项可以让用户自主选择 Windows 11 核心版本，当前提供 Windows 11 25H2 和 Windows 11 26H1 (仅供 Arm 芯片使用)。&lt;/p&gt;
+&lt;p&gt;但如果用户追求新功能的话则应该选择未来平台，未来平台是 Windows 11 接下来要发布的新版本，理论上说这里新功能可能会更多一些。&lt;/p&gt;
+&lt;p&gt;如果用户只是想体验当前主分支的新功能则应该选择其他核心版本，例如当前主分支是 Windows 11 25H2 版，用户也可以选择该核心版本用来只体验面向 25H2 的新功能。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112604-3.png" rel="nofollow"&gt;&lt;img alt="微软宣布重组Windows 11预览版 金丝雀版和开发版合并为实验版" data-src="https://img.lancdn.com/landian/2026/04/112604-3.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112604-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sat, 11 Apr 2026 01:56:33 +0000</pubDate></item><item><title>新论文揭示API中转站的恶意行为：注入恶意代码甚至窃取用户的ETH钱包密钥</title><link>https://www.landiannews.com/archives/112603.html</link><description>
 &lt;p&gt;#人工智能 新论文揭示 API 中转站的恶意行为：主动注入恶意代码，甚至窃取用户敏感凭证清空以太坊钱包。研究团队从淘宝 / 闲鱼 / 虾皮等渠道购买 28 个付费 API 中转站服务，从网络收集 400 个免费中转站，测试结果是 1 个付费 + 8 个免费站会主动注入恶意代码，17 个中转站触碰研究团队故意部署的 AWS 诱饵凭证。查看详情：https://ourl.co/112603&lt;/p&gt;&lt;p&gt;日前有研究团队发布&lt;a href="https://arxiv.org/html/2604.08407v1" rel="noopener" target="_blank"&gt;新论文&lt;/a&gt;介绍该团队对市面上各种 API 中转站安全性的分析，分析表明 API 中转站通常缺乏完整的链路加密，这导致中间层级可以窃取用户私密信息，研究人员投放的蜜罐加密货币钱包甚至都被 API 中转站清空。&lt;/p&gt;
 &lt;p&gt;随着 AI 智能体广泛采用工具调用机制，越来越多的开发者依赖第三方的 API 中转站 (路由层) 来统一聚合调用上游提供商的 AI 模型，API 中转站充当应用层代理，支持负载均衡、自动回退、格式转换等功能，已经成为 LLM 生态的核心基础设施。&lt;/p&gt;
 &lt;p&gt;然而现有的 TLS 仅支持提供逐跳加密，路由层在明文 JSON 载荷层拥有完整访问权限，例如可以访问用户的提示词、API 密钥、工具调用参数、模型响应等等。&lt;/p&gt;
@@ -25,40 +78,4 @@
 &lt;li&gt;开发者在高位工具中强制沙箱 + 策略门&lt;/li&gt;
 &lt;li&gt;社区建立 API 中转站信誉评估机制，避免免费午餐带来的隐私风险&lt;/li&gt;
 &lt;/ul&gt;
-</description><pubDate>Fri, 10 Apr 2026 07:38:23 +0000</pubDate></item><item><title>出于对博通授权政策的不满 包括西联汇款在内的大量企业从VMware迁移到Nutanix</title><link>https://www.landiannews.com/archives/112602.html</link><description>
-&lt;p&gt;#行业资讯 出于对博通授权政策的不满，包括西联汇款在内的超过 3 万家企业从 VMware 迁移到 Nutanix。Nutanix 是 VMware 的竞争对手之一，在博通收购 VMware 并涨价、强推订阅制服务后，越来越多的企业选择跑路，这让 Nutanix 和 PVE 客户量都在快速增加。查看详情：https://ourl.co/112602&lt;/p&gt;&lt;p&gt;在芯片制造商博通收购虚拟化平台威睿 (VMware) 后，博通取消以前的永久授权政策改成订阅制，而且企业可能还需要购买捆绑包，这些政策引起大量企业的不满。&lt;/p&gt;
-&lt;p&gt;作为虚拟化行业的龙头企业，以前威睿独立的时候、被 EMC 收购的时候、被戴尔收购的时候到独立上市，都没有对授权许可政策进行过大幅度的变动，对于使用 VMware 的长期客户来说也没有什么不满意的地方。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112602.png" rel="nofollow"&gt;&lt;img alt="出于对博通授权政策的不满 包括西联汇款在内的大量企业从VMware迁移到Nutanix" data-src="https://img.lancdn.com/landian/2026/04/112602.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112602.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;而博通收购威睿后采取的激进措施直接让整个虚拟化和云计算行业同仇敌忾，对大型企业来说订阅制和捆绑可能还不是问题，但对中小企业来说使用成本会显著增加。&lt;/p&gt;
-&lt;p&gt;因此在欧洲也有不少企业开始投诉欧盟，指责欧盟监管机构当初为什么同意博通收购威睿，但现在可能欧盟反悔也来不及了，总不能强迫威睿重新从博通里拆分出来。&lt;/p&gt;
-&lt;p&gt;然而对更多企业来说更加实际的选择是跑路，也就是迁移到对客户更友好的替代虚拟化平台，包括 Nutanix 和 Proxmox VE 等，这些平台均因博通收购威睿后获得大量新客户。&lt;/p&gt;
-&lt;p&gt;Nutanix 公司首席执行官日前接受媒体采访时表示，大约有 3 万家企业客户从 VMware 平台迁移到 Nutanix，这表明客户对博通的 VMware 战略感到不满。&lt;/p&gt;
-&lt;p&gt;该公司称，博通更高的价格、强制捆绑销售、许可变更以及日益紧张的合作伙伴关系让客户感到不满，这直接导致客户放弃使用 VMware 并转向其他替代平台。&lt;/p&gt;
-&lt;p&gt;不过 Nutanix 并未具体说明从 VMware 转移过来的客户里有多少是中小企业或大型企业，但西联汇款可能是典型客户代表，这家金融公司已经成功迁移到 Nutanix。&lt;/p&gt;
-</description><pubDate>Fri, 10 Apr 2026 04:12:13 +0000</pubDate></item><item><title>微软开始在Windows 11应用中移除Copilot品牌 记事本AI功能已替换图标</title><link>https://www.landiannews.com/archives/112601.html</link><description>
-&lt;p&gt;#软件资讯 微软开始在 Windows 11 应用里删除 Copilot 品牌标识，记事本最新测试版的 AI 功能已换成写作图标。有这种变化是因为很多用户并不喜欢 Copilot，尽管微软在 Windows 11 里强推 Copilot 但效果似乎不大，所以微软现在开始逐步将 Copilot 品牌从应用里删除，但 AI 功能应该还是 Copilot 提供的。查看详情：https://ourl.co/112601&lt;/p&gt;&lt;p&gt;早前微软发布博客宣布将改进 Windows 11 性能和用户体验，当时就有用户提出希望微软能够更谨慎地处理 Windows 11 中的人工智能功能和 Microsoft Copilot 相关的服务。&lt;/p&gt;
-&lt;p&gt;目前微软直接将 Copilot 默认安装在 Windows 11 中，而多项服务则调用 Copilot 提供的人工智能服务，例如记事本里用户可以使用 Copilot 改进文本、总结或者更改语气等。&lt;/p&gt;
-&lt;p&gt;但实际情况是很多用户并不喜欢 Copilot，这也迫使微软正在逐步将 Copilot 品牌标识从系统和应用里移除，最新的变化就是记事本里的 AI 功能已经不再使用 Copilot 品牌。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112601.png" rel="nofollow"&gt;&lt;img alt="微软开始在Windows 11应用中移除Copilot品牌 记事本AI功能已替换图标" data-src="https://img.lancdn.com/landian/2026/04/112601.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112601.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;图片来源 &lt;a href="https://x.com/phantomofearth/status/2042191352650182709/photo/1" rel="noopener" target="_blank"&gt;@Phantomofearth&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;在最新推出的记事本更新里，微软将 AI 功能重命名为高级功能，原本的 Copilot 图标也会被删除，取而代之的是专门的写作工具图标，帮助用户更好地理解功能用途。&lt;/p&gt;
-&lt;p&gt;实际点击后高级功能包括的可用功能有重写文本、对内容进行总结摘要、更改内容语气等，功能方面与此前的 Copilot 品牌没有任何区别，而且实际调用的应该也还是 Copilot 相关 AI 服务。&lt;/p&gt;
-&lt;p&gt;目前在 Windows 11 预装应用或微软自家应用里使用 Copilot 品牌标识的还非常多，估计后续这些选项都会被陆续清理换成应用对应的功能，不再使用 Copilot 品牌。&lt;/p&gt;
-</description><pubDate>Fri, 10 Apr 2026 03:05:50 +0000</pubDate></item><item><title>微软正在改进Windows 11右键菜单和快速设置 点击和操作时速度将会更快</title><link>https://www.landiannews.com/archives/112600.html</link><description>
-&lt;p&gt;#系统资讯 微软正在改进 Windows 11 右键菜单和快速设置，目标是让用户点击时能够更快响应，而不是需要等待几秒。Windows 11 新版右键菜单就是垃圾中的战斗机，加载选项时速度非常慢，快速设置 (任务栏的电源网络声音弹出的窗口) 也同样如此，现在微软终于要优化了。查看详情：https://ourl.co/112600&lt;/p&gt;&lt;p&gt;Windows 11 新版右键菜单可以说是垃圾中的战斗机，最主要的问题就是每次点击右键菜单时里面的各种选项都有 1~2 秒的延迟，用户只能等待选项加载出来后再点击。&lt;/p&gt;
-&lt;p&gt;同样的问题在快速设置里也存在，快速设置指的是点击任务栏网络、声音和电池图标弹出的快捷操作面板，这里同样需要等待 1~2 秒才能弹出窗口，有时候甚至还要更长时间。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112600.png" rel="nofollow"&gt;&lt;img alt="微软正在改进Windows 11右键菜单和快速设置 点击和操作时速度将会更快" data-src="https://img.lancdn.com/landian/2026/04/112600.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112600.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;微软告诉 Windows Latest，该公司正在 Windows 11 上测试新版快速设置，主要目的就是提升快速设置的加载速度，这也包括改进右键菜单，让右键菜单的响应速度也更快。&lt;/p&gt;
-&lt;p&gt;目前微软正在计划对 Windows 11 进行全面改造，也就是解决各种经常被用户吐槽的性能和体验问题，包括开始菜单响应速度慢、任务栏不支持移动、OOBE 无法修改用户文件夹名称等等。&lt;/p&gt;
-&lt;p&gt;当然这些工作都是分阶段进行的，所以使用 Windows Insider Preview 的用户可能会率先体验这些改进，但具体上线时间还需要等待微软后续发布消息。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;相关资讯：&lt;/strong&gt;&lt;/p&gt;
-</description><pubDate>Fri, 10 Apr 2026 02:23:18 +0000</pubDate></item><item><title>Windows 10/11安全锁屏界面时间存在延迟？微软：这是故意为之 不需要修复</title><link>https://www.landiannews.com/archives/112599.html</link><description>
-&lt;p&gt;#系统资讯 Windows 10/11 安全锁屏界面时间存在延迟？微软：这是有意设计，并非 BUG，因此不会修复。安全锁屏界面指的是使用 Ctrl+Alt+Delete 快捷键进行的锁屏，这种情况下屏幕显示的分钟数最多会延迟 30 秒，因为屏幕刷新周期是 30 秒，常规锁屏 Win+L 没有这种延迟。查看详情：https://ourl.co/112599&lt;/p&gt;&lt;p&gt;微软日前发布支持文档介绍 Windows 10/11 安全锁屏界面的时间延迟问题，即锁屏界面显示的时间与实际时间存在延迟，这个延迟时间通常不会超过 30 秒，因此用户有可能注意到分钟数会延迟刷新。&lt;/p&gt;
-&lt;p&gt;这里的安全锁屏界面指的是使用 Ctrl+Alt+Delete 快捷键进行的锁屏，启动安全锁屏后桌面会在 Win Logon UI 安全桌面下运行，这与我们直接点击 Win+L 操作的锁屏不同。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112599.png" rel="nofollow"&gt;&lt;img alt="Windows 10/11锁屏界面时间存在延迟？微软：这是故意为之 不需要修复" data-src="https://img.lancdn.com/landian/2026/04/112599.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112599.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;其中安全锁屏界面遵循自身的屏幕刷新周期，简单来说就是屏幕刷新周期为 30 秒，因此屏幕上显示的时间也与实际时间延迟 30 秒，这就导致分钟数显示存在延迟。&lt;/p&gt;
-&lt;p&gt;常规的锁屏界面没有这种自身的屏幕刷新周期，所以分钟数都是实时变化不会发生延迟，微软还强调无论是哪种锁屏界面，系统底层时钟都是精确的，不会影响各种同步功能和事件日志等。&lt;/p&gt;
-&lt;p&gt;微软在支持文档中强调，安全锁屏界面在安全桌面的 SYSTEM 账户下运行，固定每 30 秒刷新时间，其轮询间隔不与分钟边界对齐，因此显示的时间与实际分钟变化后最多延迟 30 秒。&lt;/p&gt;
-&lt;p&gt;这仅仅是影响安全锁屏界面时钟显示的视觉问题，既不会影响时间精度，也不会影响 NTP 同步、时间日志、审计或系统安全，所以微软不提供任何变通解决办法。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://support.microsoft.com/en-us/windows/secure-lock-screen-clock-may-appear-up-to-30-seconds-behind-7093a752-93b3-423a-9558-902bceb2ae47" rel="noopener" target="_blank"&gt;Microsoft Support&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 10 Apr 2026 02:07:21 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 10 Apr 2026 07:38:23 +0000</pubDate></item></channel></rss>
