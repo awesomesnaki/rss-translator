@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sat, 11 Apr 2026 03:43:40 +0000</lastBuildDate><item><title>这就离谱！开源虚拟化软件UTM的微软开发者账户直接消失 现在也无法签名驱动</title><link>https://www.landiannews.com/archives/112607.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sat, 11 Apr 2026 09:31:33 +0000</lastBuildDate><item><title>💥ChatGPT/Codex等多款软件受Axios供应链攻击影响 用户需立即升级</title><link>https://www.landiannews.com/archives/112608.html</link><description>
+&lt;p&gt;#安全资讯 💥安全提醒：OpenAI 也受 Axios 供应链攻击影响，可能泄露 macOS 签名证书，所以现在 OpenAI 正在替换证书。受影响的应用包括 ChatGPT、Codex、Codex-CLI 和 Atlas 浏览器，用户需在 5 月 8 日前将以上软件升级到最新版，否则将无法启动。查看详情：https://ourl.co/112608&lt;/p&gt;&lt;p&gt;此前知名开源软件库 @Axios 遭到黑客攻击，黑客劫持开发者账号并发布恶意版本，这件事还是发生在 3 月末，但没想到这时候 OpenAI 跳出来说 ChatGPT、Codex、Codex-CLI、Atlas 浏览器等软件也同样受到影响。&lt;/p&gt;
+&lt;p&gt;目前没有证据表明用户数据可能被窃取，但 OpenAI 的开发者证书可能会被黑客窃取，所以现在 OpenAI 吊销旧开发者证书，全部替换为新证书，因此用户需要下载更新到各个软件最新版。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/02/111836.png" rel="nofollow"&gt;&lt;img alt="💥ChatGPT/Codex等多款软件受Axios供应链攻击影响 用户需立即升级" data-src="https://img.lancdn.com/landian/2026/02/111836.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/02/111836.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在供应链攻击发生时，OpenAI 在 macOS 应用签名流程中使用 GitHub Actions 工作流中下载并执行 @Axios 恶意版本（1.14.1 版），这使得攻击者可以访问 OpenAI 的应用签名证书和公证材料。&lt;/p&gt;
+&lt;p&gt;经过分析后 OpenAI 得出结论：由于恶意载荷的执行时间、证书注入工作流的方式、工作流本身的执行顺序以及其他因素，签名证书可能未被窃取。&lt;/p&gt;
+&lt;p&gt;但基于安全考虑，OpenAI 仍然将证书视为已经泄露，所以要吊销所有旧版应用签名证书，同时申请新证书并对所有应用程序签名进行替换。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;OpenAI 称，如果攻击者成功窃取签名证书，则可以用来分发看起来像是真实的、但可能包含恶意代码的后门版本。&lt;/p&gt;
+&lt;p&gt;作为过渡，OpenAI 将在 2026 年 5 月 8 日吊销旧签名证书，到时候 macOS 平台的 OpenAI 软件都将无法正常启动，所以建议用户立即升级到最新版。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;下面是升级后的版本：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ChatGPT 桌面版：1.2026.051&lt;/li&gt;
+&lt;li&gt;Codex App：26.406.40811&lt;/li&gt;
+&lt;li&gt;Codex CLI：0.119.0&lt;/li&gt;
+&lt;li&gt;Atlas：1.2026.84.2&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Sat, 11 Apr 2026 09:31:33 +0000</pubDate></item><item><title>这就离谱！开源虚拟化软件UTM的微软开发者账户直接消失 现在也无法签名驱动</title><link>https://www.landiannews.com/archives/112607.html</link><description>
 &lt;p&gt;#软件资讯 这就离谱！知名开源虚拟化软件 UTM 的微软开发者账户直接没了！现在也无法获得签名用于签署驱动程序。早前 VeraCrypt 和 WireGuard 开发者账户被封禁后已经解封，但 UTM 开发者账户比较离谱，输入账号直接显示不存在，连封号提示都没有。查看详情：https://ourl.co/112607&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landiannews.com/archives/112568.html" rel="noopener" target="_blank"&gt;早前开源软件 VeraCrypt 和 WireGuard 的开发者账户均被微软封禁&lt;/a&gt;，这导致开发者无法正常签名驱动程序，驱动程序没有可信签名的情况下是不被 Windows NT 内核信任的，也就是无法运行。&lt;/p&gt;
 &lt;p&gt;后面在负责开发者关系的微软副总裁帮助下这些开发者账户才被解封，至于为什么封号目前没人知道原因，但显然这次封号引起的问题比我们想象的还要更大。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/06/109589.png" rel="nofollow"&gt;&lt;img alt="这就离谱！开源虚拟化软件UTM的微软开发者账户直接消失 现在也无法签名驱动" data-src="https://img.lancdn.com/landian/2025/06/109589.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/06/109589.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -52,30 +70,4 @@
 &lt;p&gt;但如果用户追求新功能的话则应该选择未来平台，未来平台是 Windows 11 接下来要发布的新版本，理论上说这里新功能可能会更多一些。&lt;/p&gt;
 &lt;p&gt;如果用户只是想体验当前主分支的新功能则应该选择其他核心版本，例如当前主分支是 Windows 11 25H2 版，用户也可以选择该核心版本用来只体验面向 25H2 的新功能。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112604-3.png" rel="nofollow"&gt;&lt;img alt="微软宣布重组Windows 11预览版 金丝雀版和开发版合并为实验版" data-src="https://img.lancdn.com/landian/2026/04/112604-3.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112604-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 11 Apr 2026 01:56:33 +0000</pubDate></item><item><title>新论文揭示API中转站的恶意行为：注入恶意代码甚至窃取用户的ETH钱包密钥</title><link>https://www.landiannews.com/archives/112603.html</link><description>
-&lt;p&gt;#人工智能 新论文揭示 API 中转站的恶意行为：主动注入恶意代码，甚至窃取用户敏感凭证清空以太坊钱包。研究团队从淘宝 / 闲鱼 / 虾皮等渠道购买 28 个付费 API 中转站服务，从网络收集 400 个免费中转站，测试结果是 1 个付费 + 8 个免费站会主动注入恶意代码，17 个中转站触碰研究团队故意部署的 AWS 诱饵凭证。查看详情：https://ourl.co/112603&lt;/p&gt;&lt;p&gt;日前有研究团队发布&lt;a href="https://arxiv.org/html/2604.08407v1" rel="noopener" target="_blank"&gt;新论文&lt;/a&gt;介绍该团队对市面上各种 API 中转站安全性的分析，分析表明 API 中转站通常缺乏完整的链路加密，这导致中间层级可以窃取用户私密信息，研究人员投放的蜜罐加密货币钱包甚至都被 API 中转站清空。&lt;/p&gt;
-&lt;p&gt;随着 AI 智能体广泛采用工具调用机制，越来越多的开发者依赖第三方的 API 中转站 (路由层) 来统一聚合调用上游提供商的 AI 模型，API 中转站充当应用层代理，支持负载均衡、自动回退、格式转换等功能，已经成为 LLM 生态的核心基础设施。&lt;/p&gt;
-&lt;p&gt;然而现有的 TLS 仅支持提供逐跳加密，路由层在明文 JSON 载荷层拥有完整访问权限，例如可以访问用户的提示词、API 密钥、工具调用参数、模型响应等等。&lt;/p&gt;
-&lt;p&gt;由于客户端与上游提供商之间没有端到端完整性保护，任何一个恶意或被入侵的路由层即可实现中间人攻击，研究团队将此概括为最弱链原则，在路由链中只要存在一个不安全的路由，整个链条的完整性都会失效。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112603.png" rel="nofollow"&gt;&lt;img alt="新论文揭示API中转站的恶意行为：注入恶意代码甚至窃取用户的ETH钱包密钥" data-src="https://img.lancdn.com/landian/2026/04/112603.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112603.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;研究团队对 28 个付费的 API 中转站 (来源于淘宝、闲鱼、虾皮等店铺) 和 400 个免费中转站 (来自公开社区) 进行全面评测，结果触目惊心。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;1 个付费中转站 + 8 个免费中转站会在响应中主动注入恶意代码&lt;/li&gt;
-&lt;li&gt;上面这 9 个中转站中有 2 个还部署了自适应规避触发器&lt;/li&gt;
-&lt;li&gt;17 个中转站触碰了研究团队故意部署的 AWS 诱饵凭证&lt;/li&gt;
-&lt;li&gt;1 个中转站直接窃取了研究团队放在蜜罐中的以太坊资金&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;研究团队故意将 API 密钥泄露到公开论坛，结果相关密钥被立即使用，随后消耗大约 1 亿 tokens，涉及多个 OpenAI Codex 会话。&lt;/p&gt;
-&lt;p&gt;研究团队部署了 20 个弱配置诱饵，这些诱饵也被快速发掘并利用，随后消耗 21 亿 tokens，处理的会话中包含 99 个敏感凭证。&lt;/p&gt;
-&lt;p&gt;这些证据都表明，即使看似良性的 API 中转站 (例如某些免费中转站和公益站)，一旦接入被泄露的凭证，那么这些中转站也会瞬间成为攻击面的一部分。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;论文将此次发现与 LiteLLM 开源库供应链攻击关联，指出 API 中转站已经成为 LLM 供应链中最脆弱的环节之一，与传统供应链攻击不同，本次攻击发生在传输层，且完全绕过模型安全防护。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;为此研究团队呼吁：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;LLM 提供商尽快部署签名响应信封，类似 DKIM 或 SRI&lt;/li&gt;
-&lt;li&gt;开发者在高位工具中强制沙箱 + 策略门&lt;/li&gt;
-&lt;li&gt;社区建立 API 中转站信誉评估机制，避免免费午餐带来的隐私风险&lt;/li&gt;
-&lt;/ul&gt;
-</description><pubDate>Fri, 10 Apr 2026 07:38:23 +0000</pubDate></item></channel></rss>
+</description><pubDate>Sat, 11 Apr 2026 01:56:33 +0000</pubDate></item></channel></rss>
