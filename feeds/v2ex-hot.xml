@@ -125,7 +125,7 @@
 &lt;p&gt;&lt;strong&gt;#99 xixiv5&lt;/strong&gt;：发 必须 发 发了引起舆论了你就躺赢了&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#100 uiverusifu&lt;/strong&gt;：@&lt;a href="/member/uiverusifu"&gt;uiverusifu&lt;/a&gt; 勘误第一句，“既然知道对方姓名和手机号了”&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 11 Apr 2026 09:51:40 +0000</pubDate></item><item><title>记一次 Apple Passwords 数据遗失的经历</title><link>https://www.v2ex.com/t/1205135</link><description>我今天打了苹果客服的电话，起因是我存在苹果 Passwords 这个密码管理 APP 里的一部分验证码和密码莫名其妙地消失了，不是我主动删的，就是凭空没了。&lt;br/&gt;我先问这些验证码和密码有没有可能找回，客服通过远程操作指引我检查了手机的各种设置，结论是无法找回。&lt;br/&gt;我跟客服说，这些密码不要紧，但是两步验证的验证码一丢，有些账户可能就彻底找不回来了，损失很大。因为有的账号不提供备份码，也不能用邮箱找回，只能联系客服提供真实身份信息，但是有的注册地区资料填写的是别的国家，如果我提供了护照，相当于暴露了我是「黑户」，所以这种账号基本就是无解了。&lt;br/&gt;客服又强调了一遍说他们确实无法找回。因为密码是莫名其妙就没了的，不是我手动删除，也不是苹果告知我哪里做错了需要删除这个密码，而是凭空消失，什么警示都没有，我觉得苹果多少有些责任，所以我提出可以象征性地提供一点补偿措施，比如减免一个月的 iCloud 费用，那么这件事我就认了，我订阅的还是 50G 的 iCloud ，一个月只需要 8 块钱。&lt;br/&gt;然后客服去跟上级确认，之后说无法提供，回来还跟我强调，数据备份是用户自己的责任。我说苹果从来没明确提醒过我密码可能会丢失、要记得备份，如果我能预想到会这样我干嘛还用它呢？而且苹果也没有任何明显的提醒或者告知，买设备的时候、注册账号的时候，都没人跟我说过这种事。&lt;br/&gt;客服这边就继续用车轱辘话搪塞回来，基本上就是：密码找不回来了，苹果也不打算给任何补偿，最多只能帮我调查原因。&lt;br/&gt;&lt;br/&gt;在转换到 Apple Passwords 之前，我一直是 1Password 7 的钉子户，同步用的 Dropbox ，两步认证用的 Authy ，这么多年一点问题都没出现过，今年才给那些账号给那些账号启用 Passkey ，放到了 Apple Passwords 里，想着图个方便，就把密码连同验证码都转移过来了，没想到会吃到苍蝇……&lt;br/&gt;所以鸡蛋真的不能放进一个篮子里，我现在已经开始把能转移的都转移了，密码、passkey 、两步认证都各自用不同的 app 保存了。
 &lt;hr/&gt;
-第 1 条附言  ·  &lt;span title="2026-04-11 18:43:52 +08:00"&gt;6 小时 26 分钟前&lt;/span&gt;
+第 1 条附言  ·  &lt;span title="2026-04-11 18:43:52 +08:00"&gt;7 小时 49 分钟前&lt;/span&gt;
 
 服了，好心也要被喷？&lt;br/&gt;&lt;br/&gt;不好意思平时工作挺忙的，周末也没有那么多时间泡在论坛里，所以不知道原来我的遭遇是老黄历了，原来竟是如此不值一提。&lt;br/&gt;&lt;br/&gt;但我就是觉得这里用户挺专业的也许能友善交流交流，还请懂哥手下留情😊
 
@@ -176,10 +176,13 @@
 &lt;p&gt;&lt;strong&gt;#44 Sunovn&lt;/strong&gt;：@&lt;a href="/member/shakaraka"&gt;shakaraka&lt;/a&gt; #4 90%的人都用吧？毕竟浏览器自带这个功能，有什么问题吗&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#45 avenger&lt;/strong&gt;：@&lt;a href="/member/an0nym0u5u5er"&gt;an0nym0u5u5er&lt;/a&gt; 这种算家庭共享吗？密码相关的东西，共享账户，还是有点不放心&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#46 baozijun&lt;/strong&gt;：目前用的 enpass 终身版，体验不错&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#47 mooyo&lt;/strong&gt;：icloud 的同步就是个笑话。。。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 11 Apr 2026 09:42:25 +0000</pubDate></item><item><title>确定豆包能发二维码吗？</title><link>https://www.v2ex.com/t/1205133</link><description>&lt;p&gt;今天看了&lt;a href="https://www.v2ex.com/t/1205029" rel="nofollow"&gt;有人用豆包买保险，结果支付到我这里来了&lt;/a&gt;，产生了一个疑问：AI 助手理论上是不可能直接发二维码的吧？这肯定是要过审核的，而且就算有 AI 支付的机制，肯定也是要走支付模块的啊，怎么可能给你裸发二维码？&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#47 mooyo&lt;/strong&gt;：icloud 的同步就是个笑话。。。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#48 shakaraka&lt;/strong&gt;：@&lt;a href="/member/Sunovn"&gt;Sunovn&lt;/a&gt; #44 &lt;br/&gt;&lt;br/&gt;没啥问题，我自己也有 chrome 存不重要的凭证，apple password 我也用来存一些登录密码和 wifi 密码啥的。但这有个前提，就是这些凭证对我来说是“不重要的”、“可恢复的”、“可随时删除的”。&lt;br/&gt;&lt;br/&gt;最后用 AI 的一句话评价这件事吧。&lt;br/&gt;&lt;br/&gt;“用户把默认工具当成了有兜底的基础设施，而提供方并没有把它做成真正有兜底的基础设施”&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#49 shakaraka&lt;/strong&gt;：@&lt;a href="/member/Sunovn"&gt;Sunovn&lt;/a&gt; #44 &lt;br/&gt;&lt;br/&gt;用户和厂家都没有错。厂家有免责协议，用户已经按照产品设计来使用产品，没有随便 hook 。那么在这种场景下，你的数据肯定需要你自己保护，而不是依赖别人，别人肯定不会对你负责（当然啦，厂家肯定会说：有本事就去告）&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;就如同开车的场景一样。在国道看到大车逆行了，你是避让呢，还是等对方回到自己车道呢🤣。&lt;br/&gt;&lt;br/&gt;你会选择在墓志铭刻上“对方全责”吗？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#50 ddmasato&lt;/strong&gt;：@&lt;a href="/member/evan9527"&gt;evan9527&lt;/a&gt; 为什么要 禁止同步咧… 是担心莫名被删除，造成全部同步删除吗？&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 11 Apr 2026 09:42:25 +0000</pubDate></item><item><title>确定豆包能发二维码吗？</title><link>https://www.v2ex.com/t/1205133</link><description>&lt;p&gt;今天看了&lt;a href="https://www.v2ex.com/t/1205029" rel="nofollow"&gt;有人用豆包买保险，结果支付到我这里来了&lt;/a&gt;，产生了一个疑问：AI 助手理论上是不可能直接发二维码的吧？这肯定是要过审核的，而且就算有 AI 支付的机制，肯定也是要走支付模块的啊，怎么可能给你裸发二维码？&lt;/p&gt;
 &lt;p&gt;有没有朋友能试出来？我个人怀疑是新的诈骗方式，先 P 一张图诈唬你一下，没准儿就有哪个大傻子就中计了呢。&lt;/p&gt;
 &lt;hr/&gt;
-第 1 条附言  ·  &lt;span title="2026-04-11 17:50:17 +08:00"&gt;7 小时 19 分钟前&lt;/span&gt;
+第 1 条附言  ·  &lt;span title="2026-04-11 17:50:17 +08:00"&gt;8 小时 46 分钟前&lt;/span&gt;
 
 可能我表达的有歧义，我的意思是：豆包实际上并不能产生任何支付所需的二维码，我测试过了，我让豆包给我买保险，这种能力是不支持的。&lt;br/&gt;&lt;br/&gt;也声明一下我不是给豆包洗地🤣，我就是单纯地好奇和存在疑问，万一真有这种情况那确实很危险，比如对中老年人来说真的防不胜防。
 
@@ -251,7 +254,7 @@
 &lt;p&gt;&lt;strong&gt;#27 YanSeven&lt;/strong&gt;：我时常懊恼的就是舍不得多加那 1300 块没有上 1T 版本的，搞了个 512G 的，导致我现在隔三差五就要清一清数据，我还有存储焦虑症，只要系统显示剩余还不到 200G 就浑身不自在。着实痛苦。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#28 lambdaX999&lt;/strong&gt;：@&lt;a href="/member/YanSeven"&gt;YanSeven&lt;/a&gt; 别懊悔，我 2T 的一样遇到这个问题&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 11 Apr 2026 05:34:14 +0000</pubDate></item><item><title>爱上合租妹子，我该怎么追她</title><link>https://www.v2ex.com/t/1205086</link><description>因为我一般都在上班，妹子来看房时我都是让她们自己进来。西西看了房子，问我 300 行不行，不行就再加点，我就说 330 ，她同意了。&lt;br/&gt;&lt;br/&gt;那天我正要开门回家，门自己开了，是她！长发飘飘，微笑，声音好听。&lt;br/&gt;&lt;br/&gt;清明假期她回家了，问我在不在，让我帮她拿下床垫。我给她拿了床垫，问她多少钱，给她报销了 60 。&lt;br/&gt;&lt;br/&gt;她放假回来时，进门时头发盘起来。过来个吧小时，她出卧室撸猫，披着头发，化了妆，很香很好看。&lt;br/&gt;&lt;br/&gt;我们微信聊了很多，我说了我的一些事，她说了她的一些。跟她聊天很开心，她会说你那样好辛苦，想尝尝你做的饭。 &lt;br/&gt;&lt;br/&gt;她说她喜欢吃水果，可以水果当饭吃。第一天遇到她的时候，我正好买了凤梨，我就把一大半的凤梨挂她卧室门上。她问我这是？我说是送给她的。后来我每天都给她买水果，每天一个花样，凤梨、小西红柿，芒果，蓝莓。到目前为止 5 天了。&lt;br/&gt;&lt;br/&gt;她说我太客气了，她都没有给我买礼物。她就给我买了她最近喜欢吃的芝士蛋糕，说我一定要夸好吃，这样她会有成就感。我打开冰箱的那一刻，有点小感动，一个懂得回馈的女生不容易遇到。&lt;br/&gt;&lt;br/&gt;这个周末她双休。我们约了星期六晚上看她喜欢看的电影：我的妈耶。&lt;br/&gt;&lt;br/&gt;一开始我觉得她对我也是有点好感的， 我送她水果她都会收下，还会回馈，并且聊天话也不少。 客厅有监控，我发现她花了妆，可以说是昂首挺爽，慢悠悠的，如果她没化妆，她就会低下头，摸鼻子盖脸，快速通过，似乎只想让我看到她最好的一面。&lt;br/&gt;&lt;br/&gt;可是渐渐的，我觉得可能是我误会了，因为她回微信时间越来越推迟。并且，都住她公司宿舍，就中午回来拿个水果就走了。周末她不上班，星期五她回来拿了东西还是去公司了，感觉要特意避开我，虽然我们约了星期六一起看电影。&lt;br/&gt;&lt;br/&gt;如果她很物质，直接开口要钱，我也不会喜欢她， 如果她完全不理我，我也不喜欢她，就是恰好，她不要钱，给你热情，但是只有那么一丢，熟悉又陌生，让你喜欢却又不敢肆无忌惮的去爱，这是让人最煎熬的。&lt;br/&gt;&lt;br/&gt;也许，我过于关注她了。其实我们才见了两面，每天我都是通过家里的监控和她的抖音才能看到她。昨天，我把家里的监控都拆了，逼着自己不再那么关注她。&lt;br/&gt;&lt;br/&gt;最后，放两张妹子的背影图。&lt;br/&gt;&lt;br/&gt;另外，如果大家能提供追妹子的方法、心的、想法，很感谢。希望大家都能遇到、拥有真爱。&lt;br/&gt;&lt;br/&gt;&lt;a href="https://i.imgur.com/YvMjE2V.jpeg" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/YvMjE2V.jpeg"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="https://i.imgur.com/Hhwqa1G.jpeg" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/Hhwqa1G.jpeg"/&gt;&lt;/a&gt;
 &lt;hr/&gt;
-第 1 条附言  ·  &lt;span title="2026-04-11 15:16:08 +08:00"&gt;9 小时 49 分钟前&lt;/span&gt;
+第 1 条附言  ·  &lt;span title="2026-04-11 15:16:08 +08:00"&gt;11 小时 20 分钟前&lt;/span&gt;
 
 我觉得，最让我动心的是，她说你好辛苦，想尝尝你做饭的。当一个你有好感的女生，给丁点文字上的关怀，真的你会觉得，这就是你要找的，你愿意去为她付出，你愿意去保护她的
 
