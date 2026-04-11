@@ -1,6 +1,6 @@
 # RSS 中文翻译源
 
-更新时间: 2026-04-11 04:19 UTC
+更新时间: 2026-04-11 05:37 UTC
 
 ## 订阅链接
 
@@ -9,6 +9,7 @@
 - SimonWillisonQuotes: https://awesomesnaki.github.io/rss-translator/feeds/SimonWillisonQuotes.xml
 - appaddict: https://awesomesnaki.github.io/rss-translator/feeds/appaddict.xml
 - basicappleguy: https://awesomesnaki.github.io/rss-translator/feeds/basicappleguy.xml
+- cnbeta: https://awesomesnaki.github.io/rss-translator/feeds/cnbeta.xml
 - dereksivers: https://awesomesnaki.github.io/rss-translator/feeds/dereksivers.xml
 - dianying4k: https://awesomesnaki.github.io/rss-translator/feeds/dianying4k.xml
 - franzgraf: https://awesomesnaki.github.io/rss-translator/feeds/franzgraf.xml
