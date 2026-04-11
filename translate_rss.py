@@ -406,6 +406,7 @@ def translate_feed(feed_config, cache):
     # Apply entry filter if configured
     entry_filter = feed_config.get('filter')
     filter_out = feed_config.get('filter_out', [])
+    filter_out_content = feed_config.get('filter_out_content', [])
     max_entries = 50 if (entry_filter or filter_out or filter_out_content) else 5
     entries = feed.entries[:max_entries]
     if entry_filter:
@@ -415,7 +416,6 @@ def translate_feed(feed_config, cache):
         before = len(entries)
         entries = [e for e in entries if not any(kw in e.get('title', '') for kw in filter_out)]
         print(f"  标题过滤: {before} → {len(entries)} 条")
-    filter_out_content = feed_config.get('filter_out_content', [])
     if filter_out_content:
         before = len(entries)
         def get_entry_content(e):
