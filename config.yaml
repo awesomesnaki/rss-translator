@@ -35,6 +35,10 @@ feeds:
     url: "rsshub://v2ex/topics/hot"
     fetch_full_content: true
     translate: false
+  - name: "cnbeta"
+    url: "rsshub://cnbeta"
+    fetch_full_content: true
+    translate: false
   - name: "mac52ipod"
     url: "http://www.mac52ipod.cn/feed.php"
     fetch_full_content: true
