@@ -265,6 +265,7 @@ def fetch_full_article(url):
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
         })
         resp.raise_for_status()
+        resp.encoding = resp.apparent_encoding
 
         # V2EX 帖子用专用解析，避免 readability 乱排版
         if 'v2ex.com/t/' in url:
