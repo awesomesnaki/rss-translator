@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sat, 11 Apr 2026 09:31:33 +0000</lastBuildDate><item><title>💥ChatGPT/Codex等多款软件受Axios供应链攻击影响 用户需立即升级</title><link>https://www.landiannews.com/archives/112608.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sun, 12 Apr 2026 10:24:53 +0000</lastBuildDate><item><title>Adobe发布紧急安全更新修复Acrobat和Acrobat Reader存在的零日漏洞</title><link>https://www.landiannews.com/archives/112609.html</link><description>
+&lt;p&gt;#软件资讯 Adobe 发布紧急安全更新用于修复 Acrobat 和 Acrobat Reader 高危漏洞，该漏洞已经从 2025 年 11 月起被黑客利用，用于针对特定目标发起攻击。受影响的包括 Acrobat DC、Acrobat Reader DC 和 Acrobat 2024，使用以上软件的用户建议立即更新。查看详情：https://ourl.co/112609&lt;/p&gt;&lt;p&gt;此前安全研究员李海飞 (音译) 发文曝光知名 PDF 编辑器和阅读器软件 &lt;a href="https://www.landiannews.com/archives/112597.html" rel="noopener" target="_blank"&gt;Adobe Acrobat 和 Adobe Acrobat Reader 中存在的安全漏洞&lt;/a&gt;，黑客从 2025 年 11 月开始利用漏洞对特定目标发起攻击，目前相关漏洞已经得到 Adobe 的确认。&lt;/p&gt;
+&lt;p&gt;目前已知攻击者主要利用漏洞制作恶意 PDF 文档，当用户使用以上软件打开恶意 PDF 文档时就会触发代码执行，整个过程不需要用户进行额外交互，相关恶意载荷则收集环境信息为接下来的攻击做准备。&lt;/p&gt;
+&lt;p&gt;现在 Adobe 已经发布 Adobe Acrobat 和 Adobe Acrobat Reader 新版本用于封堵漏洞，强烈建议所有使用该软件的用户立即升级到最新版，同时谨慎打开来自陌生人发送的 PDF 文件 (尤其是来自邮件中的文件)。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112579.png" rel="nofollow"&gt;&lt;img alt="Adobe发布紧急安全更新修复Acrobat和Acrobat Reader存在的零日漏洞" data-src="https://img.lancdn.com/landian/2026/04/112579.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112579.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;影响范围：适用于 Windows 和 macOS 系统的 Adobe Acrobat 和 Adobe Acrobat Reader&lt;/li&gt;
+&lt;li&gt;影响版本：Acrobat DC / Acrobat Reader DC / Acrobat 2024 26.001.21367 及更早版本&lt;/li&gt;
+&lt;li&gt;漏洞情况：成功利用此漏洞的攻击者可能可以执行任意代码&lt;/li&gt;
+&lt;li&gt;漏洞编号：CVE-2026-34621&lt;/li&gt;
+&lt;li&gt;漏洞评级：严重 / CVSS 3.0 评分 8.6 分 (满分 10 分)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;根据 Adobe 安全公告中的漏洞修订记录，该漏洞最初评分高达 9.6 分，但之后经过评估后漏洞评分被调整为 8.6 分，原因是漏洞并非远程执行任意代码。&lt;/p&gt;
+&lt;p&gt;在整个攻击环节中，攻击者需要通过诱饵文件诱导用户下载到本地打开，因此从攻击链来说这并非远程任意代码执行，而是本地任意代码执行。&lt;/p&gt;
+&lt;p&gt;最终 Adobe 将 CVSS 攻击向量从网络调整为本地，这让整体的 CVSS 评分从 9.6 分降低到 8.6 分。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Adobe Acrobat DC：需更新至 26.001.21411 或更高版本&lt;/li&gt;
+&lt;li&gt;Adobe Acrobat Reader DC：需更新至 26.001.21411 或更高版本&lt;/li&gt;
+&lt;li&gt;Adobe Acrobat 2024：需更新至 Windows 24.001.30362、macOS 24.001.30360&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;离线安装程序下载地址：&lt;a href="https://get.adobe.com/cn/reader/" rel="noopener" target="_blank"&gt;https://get.adobe.com/cn/reader/&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sun, 12 Apr 2026 10:24:53 +0000</pubDate></item><item><title>💥ChatGPT/Codex等多款软件受Axios供应链攻击影响 用户需立即升级</title><link>https://www.landiannews.com/archives/112608.html</link><description>
 &lt;p&gt;#安全资讯 💥安全提醒：OpenAI 也受 Axios 供应链攻击影响，可能泄露 macOS 签名证书，所以现在 OpenAI 正在替换证书。受影响的应用包括 ChatGPT、Codex、Codex-CLI 和 Atlas 浏览器，用户需在 5 月 8 日前将以上软件升级到最新版，否则将无法启动。查看详情：https://ourl.co/112608&lt;/p&gt;&lt;p&gt;此前知名开源软件库 @Axios 遭到黑客攻击，黑客劫持开发者账号并发布恶意版本，这件事还是发生在 3 月末，但没想到这时候 OpenAI 跳出来说 ChatGPT、Codex、Codex-CLI、Atlas 浏览器等软件也同样受到影响。&lt;/p&gt;
 &lt;p&gt;目前没有证据表明用户数据可能被窃取，但 OpenAI 的开发者证书可能会被黑客窃取，所以现在 OpenAI 吊销旧开发者证书，全部替换为新证书，因此用户需要下载更新到各个软件最新版。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/02/111836.png" rel="nofollow"&gt;&lt;img alt="💥ChatGPT/Codex等多款软件受Axios供应链攻击影响 用户需立即升级" data-src="https://img.lancdn.com/landian/2026/02/111836.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/02/111836.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -52,22 +76,4 @@
 &lt;p&gt;OpenAI 安全团队随后告诉员工，该公司正在配合执法部门进行调查，员工可能会注意到办公室周围的警察和安保人员数量有所增加，不过办公室正常开放，但建议员工不要让任何人尾随进入办公大楼。&lt;/p&gt;
 &lt;p&gt;目前在社交媒体上关于这件事已经有大量讨论，包括阴谋论用户称犯罪嫌疑人可能是对 OpenAI GPT 系列模型的不满，即使用人工智能工具产生心理健康问题。&lt;/p&gt;
 &lt;p&gt;甚至还有用户猜测这可能与 OpenAI 关闭 GPT-4o 模型有关，此前 4o 模型被禁用引起诸多抗议，但这些猜测多少有些不着调，所以只能等待后续旧金山警察局发布官方消息。&lt;/p&gt;
-</description><pubDate>Sat, 11 Apr 2026 02:25:42 +0000</pubDate></item><item><title>💥重磅：微软宣布重组Windows 11预览版 金丝雀版和开发版合并为实验版</title><link>https://www.landiannews.com/archives/112604.html</link><description>
-&lt;p&gt;#系统资讯 微软宣布重组 Windows Insider 项目，将金丝雀版与开发版合并为实验频道，同时删除饱受诟病的受控发布。合并频道是因为现在金丝雀版名存实亡，新功能还不如开发版多；删除受控发布指的是不再搞 A/B 测试，所有用户都可以自行开启所有实验性新功能。查看详情：https://ourl.co/112604&lt;/p&gt;&lt;p&gt;微软日前发布博客宣布对 Windows Insider Preview 项目进行重组，本次重组也终于解决金丝雀版新功能太少的问题：既然解决不了金丝雀版功能太少，那就直接删掉金丝雀版。&lt;/p&gt;
-&lt;p&gt;本次重组实际上将整个发布频道精简合并，其中金丝雀版与开发版合并为实验性频道 (Experimental)，测试频道 (Beta) 保持不变，同时继续为企业客户提供发布预览频道。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112604-1.png" rel="nofollow"&gt;&lt;img alt="微软宣布重组Windows 11预览版 金丝雀版和开发版合并为实验版" data-src="https://img.lancdn.com/landian/2026/04/112604-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112604-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;实验频道：该频道将金丝雀版与开发版合并，所有新功能和特性都在这里，鉴于实验性性质，某些功能可能会因为调整而被删除，因此可能不会抵达最终发布版本。&lt;/p&gt;
-&lt;p&gt;测试频道：此频道将作为体验新功能的入口，在 Windows 11 Beta 版中的新功能通常会在数周后抵达正式版，未来测试频道不再采用受控发布技术，即所有新功能面向所有用户推出。&lt;/p&gt;
-&lt;p&gt;发布预览：发布预览频道主要是给企业 IT 管理员提前测试功能或兼容性，该频道严格来说并不属于 Windows Insider Preview 项目，无论企业还是普通用户均可使用。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112604-2.png" rel="nofollow"&gt;&lt;img alt="微软宣布重组Windows 11预览版 金丝雀版和开发版合并为实验版" data-src="https://img.lancdn.com/landian/2026/04/112604-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112604-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;微软以前非常喜欢使用 CFR 受控发布技术，所谓受控发布指的是新功能可能仅为部分用户启用，其他用户则需要继续等待，直到新功能被逐步广泛推出。&lt;/p&gt;
-&lt;p&gt;受控发布非常让人讨厌，因为用户使用预览版就是为了体验新功能，结果升级后可能还无法启用特定的新功能，既然如此为什么我还要使用预览版呢？&lt;/p&gt;
-&lt;p&gt;这也是为什么大量用户转向 ViveTool 开启新功能的原因，现在微软将受控发布技术删除，取而代之的是实验性选项，让用户可以自己在更新里启用实验性功能。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在实验频道里还有个高级选项可以让用户自主选择 Windows 11 核心版本，当前提供 Windows 11 25H2 和 Windows 11 26H1 (仅供 Arm 芯片使用)。&lt;/p&gt;
-&lt;p&gt;但如果用户追求新功能的话则应该选择未来平台，未来平台是 Windows 11 接下来要发布的新版本，理论上说这里新功能可能会更多一些。&lt;/p&gt;
-&lt;p&gt;如果用户只是想体验当前主分支的新功能则应该选择其他核心版本，例如当前主分支是 Windows 11 25H2 版，用户也可以选择该核心版本用来只体验面向 25H2 的新功能。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112604-3.png" rel="nofollow"&gt;&lt;img alt="微软宣布重组Windows 11预览版 金丝雀版和开发版合并为实验版" data-src="https://img.lancdn.com/landian/2026/04/112604-3.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112604-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 11 Apr 2026 01:56:33 +0000</pubDate></item></channel></rss>
+</description><pubDate>Sat, 11 Apr 2026 02:25:42 +0000</pubDate></item></channel></rss>
