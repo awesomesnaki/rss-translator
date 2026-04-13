@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Mon, 13 Apr 2026 16:56:46 +0000</lastBuildDate><item><title>FT: 'Meta打造AI版扎克伯格与员工互动'</title><link>https://www.ft.com/content/02107c23-6c7a-4c19-b8e2-b45f4bb9ce5f</link><description>&lt;p&gt;《金融时报》的汉娜·墨菲报道（可惜有付费墙）：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Mon, 13 Apr 2026 17:43:16 +0000</lastBuildDate><item><title>MacOS 小技巧：启用 Zoom 的“偷看”手势</title><link>https://unsung.aresluna.org/testing-tip-enable-the-zoom-peek-gesture/</link><description>&lt;p&gt;Marcin Wichary，在 Unsung 上写道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;前往“设置”&amp;gt;“辅助功能”&amp;gt;“缩放”，然后开启“使用修饰键配合滚动手势来缩放”。&lt;/p&gt;
+&lt;p&gt;之后，在任何时候，你都可以按住 Control 键并用两根手指向上或向下滑动（或使用滚轮）来缩放整个屏幕。&lt;/p&gt;
+&lt;p&gt;我还建议在“高级…”中关闭“平滑图像”，这样你就能更好地看到单个像素。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这是最棒的 macOS 技巧之一。无需第三方软件。它已内置于 macOS 中好几年（很多年？）了。极其有用。&lt;/p&gt;
+&lt;p&gt;但我直到去年六月的 WWDC 才知道它的存在。那是周一，上午的主题演讲刚结束，下午的“国情咨文”演讲即将开始。&lt;a href="https://glass.photo/gruber/series/2skCCKMH4LYm8HAuxeoMHo-wwdc-2025-apple-park"&gt;苹果园区阳光明媚&lt;/a&gt;。我遇到了我的&lt;a href="https://daringfireball.net/search/cabel+sasser"&gt;老朋友&lt;/a&gt;&lt;a href="https://cabel.com/"&gt;Cabel Sasser&lt;/a&gt;，他真是个狂热分子，已经在他的 MacBook Pro 上安装了第一个 Tahoe 开发者测试版。于是我坐在他旁边，我们开始仔细检查 UI 的变化。Cabel 正在即时地放大和缩小。我当时想，“哇，你是怎么做到的？” Cabel 说：“你不知道辅助功能缩放手势吗？来，我演示给你看！” 我简直惊呆了。Cabel 强调了进入“高级…”对话框关闭“平滑图像”的重要性，我同意。这是一个很棒的功能，但苹果在默认设置上搞错了，对缩放后的图像进行了平滑（也就是模糊）处理。老实说，我想象不出为什么会有人想要模糊的缩放图像。&lt;/p&gt;
+&lt;p&gt;总之，然后我们俩都笑疯了，并且在仔细检查 Tahoe UI 有多糟糕时，把自己弄得有点反胃。我心想，&lt;em&gt;我得把这个作为技巧发布在 Daring Fireball 上。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;嗯，花了10个月，但 Wichary 在 Unsung 上发布它提醒了我，我从未在这里发布过。开启这个功能，开始使用它，如果你关心设计细节，你会发现你每天都会用到它。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;额外提示：&lt;/strong&gt;在你的 RSS 阅读器中订阅 Wichary 的 &lt;a href="https://unsung.aresluna.org/"&gt;Unsung&lt;/a&gt;。他从去年12月初才开始在那里发帖，但它迅速成为了我在世界上最喜欢的博客之一。那种每次看到有新帖子都会让我兴奋的博客。我会读 Wichary 描述看油漆变干是什么感觉的帖子，因为我知道，只有当他注意到一些有趣且微妙的东西时，他才会写它。因为他写 Unsung 才几个月，你可以把全部内容都补上。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/04/13/macos-zoom-gesture" title="‘MacOS 技巧：启用缩放‘窥视’手势’的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Mon, 13 Apr 2026 17:43:16 +0000</pubDate></item><item><title>FT: 'Meta打造AI版扎克伯格与员工互动'</title><link>https://www.ft.com/content/02107c23-6c7a-4c19-b8e2-b45f4bb9ce5f</link><description>&lt;p&gt;《金融时报》的汉娜·墨菲报道（可惜有付费墙）：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;三位知情人士表示，该公司最近开始优先开发扎克伯格AI角色。&lt;/p&gt;
-&lt;p&gt;据其中一人透露，这位Meta首席执行官亲自参与训练和测试他的动画AI，该AI可以为员工提供对话和反馈。他们补充说，该角色正在接受这位亿万富翁的举止习惯、语气、公开声明以及他本人近期关于公司战略的思考的训练，以便员工通过与其互动，能感到与创始人的联系更加紧密。&lt;/p&gt;
+&lt;p&gt;据其中一位人士透露，这位Meta首席执行官亲自参与了他动画AI的训练和测试，该AI可以为员工提供对话和反馈。他们补充说，该角色正在接受这位亿万富翁的举止习惯、语气、公开声明以及他本人近期关于公司战略的思考等方面的训练，以便员工通过与其互动，能感到与创始人更紧密相连。&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;p&gt;这简直直接出自每一部关于邪恶公司的反乌托邦科幻电影，令人难以置信。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://news.ycombinator.com/item?id=47752402"&gt;Hacker News上的热门评论&lt;/a&gt;，来自“flibbityflob”：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;机器怎么可能替代他那著名的热情或同理心呢？&lt;/p&gt;
+&lt;p&gt;一台机器怎么可能取代他那著名的热情或同理心呢？&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;a href="https://daringfireball.net/linked/2026/04/13/ft-meta-zuckbot" title="《金融时报：'Meta打造马克·扎克伯格AI版与员工互动'》的永久链接"&gt; ★ &lt;/a&gt;
+&lt;a href="https://daringfireball.net/linked/2026/04/13/ft-meta-zuckbot" title="《金融时报：‘Meta打造马克·扎克伯格AI版与员工互动’》的永久链接"&gt; ★ &lt;/a&gt;
 </description><pubDate>Mon, 13 Apr 2026 16:56:46 +0000</pubDate></item><item><title>Zed —— 一个字体超级家族</title><link>https://www.typotheque.com/blog/zed-a-sans-for-the-needs-of-21century/?utm_source=df</link><description>&lt;p&gt;感谢Typotheque赞助上周的DF，以推广他们令人惊叹的全新字体超级家族Zed。Zed是一个字体系统，其开发初衷只有一个问题：读者真正需要什么？不是那些在字体样张中看起来好看的，而是能为最广泛读者群服务的。Typotheque在法国一家眼科医院与视障患者一起测试了Zed，发现Zed Text在所有患者组中的阅读速度都优于Helvetica。它从零开始设计，以实现不同功能，提供两种光学版本——Text和Display——拥有四个可变轴，并支持547种语言，包括濒危语言。&lt;/p&gt;
 &lt;p&gt;Zed极其实用，无论是其异常广泛的语言支持，还是通过可调节的宽度、字重、圆润度和倾斜度实现的风格变化。它甚至提供盲文字符和&lt;a href="https://www.typotheque.com/fonts/zed-icons"&gt;一个图标字体&lt;/a&gt;。但Zed也纯粹地美丽。这是一个字体家族和字体系统，它例证了这样一个信念：丰富的可访问性与纯粹的美学吸引力并不矛盾。&lt;/p&gt;
 &lt;p&gt;当你购买Zed的许可时，你是直接从设计师那里购买。它非常棒，&lt;a href="https://www.typotheque.com/blog/zed-a-sans-for-the-needs-of-21century/?utm_source=df"&gt;你应该去看看&lt;/a&gt;。（也别错过简短的介绍视频。）&lt;/p&gt;
@@ -28,7 +41,4 @@
 </description><pubDate>Sun, 12 Apr 2026 21:59:00 +0000</pubDate></item><item><title>金票</title><link>https://www.presentandcorrect.com/blogs/blog/golden-tickets</link><description>&lt;p&gt;&lt;a href="https://daringfireball.net/linked/2026/04/11/ella-freire-pan-am-tags"&gt;更多&lt;/a&gt;复古平面设计的周末乐趣——这次是Present &amp;amp; Correct博客上收集的20世纪40年代末至50年代初的密尔沃基公交车票。色彩和字体设计如此多样，却又都感觉是同一品牌下的作品。想想这其中倾注的心血和巧思。无论是谁在制作这些车票，他们每周都在设计一张新的——而且很明显，他们&lt;em&gt;热爱&lt;/em&gt;制作这些车票。即使是像周票这样平凡的东西，也能成为充满乐趣的生动表达。&lt;/p&gt;
 &lt;p&gt;(&lt;a href="https://mstdn.social/@ianrogers/116386374945524177"&gt;经由Ian K. Rogers分享&lt;/a&gt;，他特别指出了这些车票将手写字体与印刷字体相结合的特点。)&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/04/12/golden-tickets" title="‘Golden Tickets’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sun, 12 Apr 2026 17:39:26 +0000</pubDate></item><item><title>泛美行李标签</title><link>https://ellafreire.com/collections/pan-american-luggage-labels</link><description>&lt;p&gt;周末来点平面设计的乐趣：埃拉·弗雷尔创作的令人惊艳的艺术作品，重现了复古泛美航空行李标签。我全都爱。色彩、字体、形状——都堪称绝妙。&lt;/p&gt;
-&lt;p&gt;(&lt;a href="https://simplebits.com/n/studio-notes-79/"&gt;来自丹·塞德霍姆的《工作室笔记》&lt;/a&gt;。)&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/04/11/ella-freire-pan-am-tags" title="‘泛美航空行李标签’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sat, 11 Apr 2026 16:55:24 +0000</pubDate></item></channel></rss>
+</description><pubDate>Sun, 12 Apr 2026 17:39:26 +0000</pubDate></item></channel></rss>
