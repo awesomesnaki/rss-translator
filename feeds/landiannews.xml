@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 13 Apr 2026 06:00:37 +0000</lastBuildDate><item><title>Linux Kernel 7.0正式版发布 不过主要还是维护更新 聚焦稳定性和错误修复</title><link>https://www.landiannews.com/archives/112630.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 13 Apr 2026 06:51:13 +0000</lastBuildDate><item><title>Claude Code将缓存时间从1小时改成5分钟可能增加用量 但开发团队称这是优化</title><link>https://www.landiannews.com/archives/112632.html</link><description>
+&lt;p&gt;#人工智能 Claude Code 将缓存时间从 1 小时改成 5 分钟可能增加使用成本，但开发团队称这是降低成本的优化措施。开发者认为更快过期的缓存会让 CC 需要频繁输入更多上下文，1 小时过期反而会更好，CC 开发团队则表示很多数据输入一次就不需要了，长时间不清理反而会增加成本。查看详情：https://ourl.co/112632&lt;/p&gt;&lt;p&gt;日前开发者 @seanGSISG 提交问题报告指出 Claude Code 从 2026 年 3 月 6 日开始将缓存生存时间 (TTL) 从 1 小时修改为 5 分钟，也就是缓存过期时间会更快，这可能导致使用成本显著上升。&lt;/p&gt;
+&lt;p&gt;缓存过期时间主要用来控制多长时间内使用缓存数据，如果缓存数据被更快、更频繁的清除，那就需要重新拉取完整数据，这也是开发者认为 tokens 使用量增加的原因。&lt;/p&gt;
+&lt;p&gt;值得注意的是 Claude Code 曾多次调整过缓存生存时间，包括从 5 分钟改成 1 小时，然后又从 1 小时改成 5 分钟，按照开发者的统计，变成缓存生存时间后会增加更多使用成本。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/07/109974.png" rel="nofollow"&gt;&lt;img alt="Claude Code将缓存时间从1小时改成5分钟可能增加用量 但开发团队称这是优化" data-src="https://img.lancdn.com/landian/2025/07/109974.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/07/109974.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2026 年 1 月：缓存生存时间为 5 分钟时，tokens 浪费比例高达 52.5%&lt;/li&gt;
+&lt;li&gt;2026 年 2 月：缓存生存时间为 1 小时时，tokens 浪费比例降低至 1.1%&lt;/li&gt;
+&lt;li&gt;2026 年 3 月：缓存生存时间为 5 分钟时，tokens 浪费比例上升至 25.9%&lt;/li&gt;
+&lt;li&gt;2026 年 4 月：缓存生存时间为 5 分钟时，tokens 浪费比例降低至 14.8%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在缓存生存时间设置为 5 分钟时，会话中任何超过 5 分钟的暂停都会导致整个缓存上下文过期，因此下次使用时 Claude Code 必须以 cache_creation 输入而非 cache_read 缓存读取重新上传上下文数据。&lt;/p&gt;
+&lt;p&gt;对 Claude Sonnet 4.6 而言，输入价格是读取价格的 12.5 倍多，这种情况在 Claude Opus 4.6 中也同样存在，多数情况下模型输入价格都要高于读取价格。&lt;/p&gt;
+&lt;p&gt;对于长时间复杂的编码任务，这会造成明显的累积性损失：即会话时间越长、越复杂，缓存的上下文就会越多，每次缓存过期造成的使用成本也会越高。&lt;/p&gt;
+&lt;p&gt;对于使用 Claude Code 的开发者来说，调整后更容易触发配额限制，@seanGSISG 称以前从未达到过 5 小时配额限制，调整之后就容易触发限制。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;对于开发者提出的这个问题，Claude Code 团队也进行回应然后关闭这个问题，开发团队称用户观察到的缓存生存时间调整是正确的，也就是 3 月 6 日这个关键节点。&lt;/p&gt;
+&lt;p&gt;不过开发团队也表示调整缓存生存时间是为了降低成本而不是提高成本，原因在于 Claude Code 请求中相当一部分都是一次性调用，缓存内容只会使用一次，之后就不会再使用这些缓存数据。&lt;/p&gt;
+&lt;p&gt;因此将缓存生存时间设置为 1 小时后，只会带来更高的输入成本，而且没有后续缓存读取操作来分摊这部分成本，因为 1 小时的输入成本要高于 5 分钟缓存级别的输入成本。&lt;/p&gt;
+&lt;p&gt;在 3 月 6 日 Claude Code 团队调整了缓存生存时间，同时也进行了缓存优化：不同请求类型适用于不同级别的 TTL 层级，客户端会根据每个请求的情况自动设置不同的缓存生存时间。&lt;/p&gt;
+&lt;p&gt;总体而言这些优化和调整可以降低用户的使用总成本，而在 3 月 6 日之前的那些调整并非 Claude Code 预期的稳定状态，3 月 6 日调整后才是稳定状态。&lt;/p&gt;
+&lt;p&gt;最后 Claude Code 团队暂时不考虑提供全局缓存生存时间切换选项，对于缓存读取配额加权问题 (&lt;a href="https://github.com/anthropics/claude-code/issues/45756" rel="noopener" target="_blank"&gt;#45756&lt;/a&gt;)，Claude Code 团队将继续跟进调查。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://github.com/anthropics/claude-code/issues/46829" rel="noopener" target="_blank"&gt;Claude Code Issue #46829&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 13 Apr 2026 06:51:13 +0000</pubDate></item><item><title>模仿犯罪开始了？萨姆奥尔特曼住宅又被枪击 两名犯罪嫌疑人已被逮捕</title><link>https://www.landiannews.com/archives/112631.html</link><description>
+&lt;p&gt;#行业资讯 继上周五发生燃烧瓶袭击后，周日凌晨有人朝着萨姆奥尔特曼住宅开枪，目前两名犯罪嫌疑人都被逮捕。被逮捕的包括 25 岁的阿曼达汤姆和 23 岁的穆罕默德侯赛因，监控录像完整拍下整个作案过程，不过目前尚不清楚开枪原因。查看详情：https://ourl.co/112631&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landiannews.com/archives/112605.html" rel="noopener" target="_blank"&gt;上周某位 20 岁男子朝着 OpenAI 首席执行官萨姆奥尔特曼的住宅投掷简易燃烧瓶&lt;/a&gt;，这导致萨姆奥尔特曼住宅大门被火烧，这名男子还前往 OpenAI 总部大楼威胁要烧掉大楼。&lt;/p&gt;
+&lt;p&gt;没想到这种事竟然还能引起模仿行为，当地时间上周日凌晨 01:40，有两名男子驾车在萨姆奥尔特曼住宅附近开枪，随后这两名男子驾车逃离现场。&lt;/p&gt;
+&lt;p&gt;旧金山警方接到报警后通过监控录像查到车牌，接着非常顺利的逮捕两名犯罪嫌疑人，警方搜查犯罪嫌疑人住所时发现三支枪。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112631.png" rel="nofollow"&gt;&lt;img alt="模仿犯罪开始了？萨姆奥尔特曼住宅又被枪击 两名犯罪嫌疑人已被逮捕" data-src="https://img.lancdn.com/landian/2026/04/112631.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112631.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;警方在报告中称，周日凌晨 1 点 40 分，一辆本田轿车 (车内有两人) 经过萨姆奥尔特曼住宅时停了几分钟，当时位于副驾驶的犯罪嫌疑人向住宅开枪。&lt;/p&gt;
+&lt;p&gt;负责这所住宅安全的工作人员听到枪声后立即报警，监控也完整录制了整个过程，警方通过监控录像中的车牌在另一个街区逮捕犯罪嫌疑人。&lt;/p&gt;
+&lt;p&gt;被逮捕的犯罪嫌疑人包括 25 岁的阿曼达汤姆和 23 岁的穆罕默德侯赛因，目前这两人均因疏忽开枪被拘留，但两人开枪的动机还不清楚，不知道是有意针对萨姆奥尔特曼还是临时起意。&lt;/p&gt;
+&lt;p&gt;上周五发生燃烧瓶袭击后，萨姆奥尔特曼曾表示，人们对人工智能的恐惧和焦虑是有道理的，我们正在见证社会多年以来、甚至可能是史上最大的变革。&lt;/p&gt;
+</description><pubDate>Mon, 13 Apr 2026 06:20:13 +0000</pubDate></item><item><title>Linux Kernel 7.0正式版发布 不过主要还是维护更新 聚焦稳定性和错误修复</title><link>https://www.landiannews.com/archives/112630.html</link><description>
 &lt;p&gt;#系统资讯 Linux Kernel 7.0 正式版发布，虽然版本号看着比较整数，不过这个新版本也只是维护更新，重点就是解决稳定性、内核安全、驱动程序兼容性和安全问题。目前各大 Linux 发行版还需要适配，着急体验的用户可以自行下载源码编译新内核。查看详情：https://ourl.co/112630&lt;/p&gt;&lt;p&gt;2026 年的首个主要内核版本 Linux Kernel 7.0 正式版现已发布，该版本继续延续传统内核发布节奏 (非 LTS 版)，并且也主要聚焦内核稳定性和各类错误修复。&lt;/p&gt;
 &lt;p&gt;这次更新实际包含数百个补丁，覆盖多个子系统，重点就是解决稳定性、内核安全、驱动程序兼容性和安全问题，现阶段有兴趣的用户可能还需要手动编译内核，待各大 Linux 发行版适配新内核后就可以升级更新。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2023/08/99983.png" rel="nofollow"&gt;&lt;img alt="Linux Kernel 7.0正式版发布 不过主要还是维护更新 聚焦稳定性和错误修复" data-src="https://img.lancdn.com/landian/2023/08/99983.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2023/08/99983.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -40,34 +74,4 @@
 &lt;p&gt;R 星官方发言人就此次数据泄露事件发布回应称，黑客仅窃取非实质性的公司信息，这次攻击对 R 星或玩家都没有任何影响。&lt;/p&gt;
 &lt;p&gt;从这个回应来看就知道 R 星大概率是不会支付赎金的，毕竟对 R 星来说泄露的数据最多也就是部分公司内部数据或财务数据，对玩家数据没影响 (如果是玩家数据泄露则可能带来更大的安全问题和公关危机)。&lt;/p&gt;
 &lt;p&gt;如果最终 ShinyHunter 将数据公布，或许对游戏玩家来说还是个好事？因为可以窥见 R 星内部的支出习惯，例如游戏营销策略、成本以及游戏潜在发售时间等。&lt;/p&gt;
-</description><pubDate>Mon, 13 Apr 2026 03:49:32 +0000</pubDate></item><item><title>CPU-Z被黑后续调查：卡巴斯基的数据显示应该有不少用户感染远程木马</title><link>https://www.landiannews.com/archives/112627.html</link><description>
-&lt;p&gt;#安全资讯 CPU-Z 被黑后续调查：卡巴斯基的数据显示应该有不少用户感染木马。由于黑客偷懒复用此前已经被安全公司记录的 C2 域名，这导致感染初期卡巴斯基等软件就可以拦截，卡巴斯基记录到超过 150 次攻击，考虑到卡巴的安装量，实际感染数量可能过万。查看详情：https://ourl.co/112627&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landiannews.com/archives/112606.html" rel="noopener" target="_blank"&gt;上周知名硬件开发商 CPUID 网站遭到黑客攻击&lt;/a&gt;，黑客替换 CPU-Z 和 HWMonitor 等多款硬件监控软件的下载链接，当用户运行黑客投放的恶意版本时就会感染远程访问木马。&lt;/p&gt;
-&lt;p&gt;平心而论，CPU-Z 等软件虽然非常知名，但 CPUID 团队并非大公司所以也没有能力进行详细安全调查，所以详细情况还是得看其他安全公司发布的报告，比如卡巴斯基。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112627.png" rel="nofollow"&gt;&lt;img alt="CPU-Z被黑后续调查：卡巴斯基的数据显示应该有不少用户感染远程木马" data-src="https://img.lancdn.com/landian/2026/04/112627.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112627.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;CPU-Z 和 HWMonitor 这种硬件检测或监控软件的使用群体通常都是专业用户，主动安装此类软件的用户数量应该不是非常多，但即便如此卡巴斯基也检测到至少 150 次攻击。&lt;/p&gt;
-&lt;p&gt;考虑到卡巴斯基系列安全软件目前在全球的使用率，我们保守猜测实际被感染的用户应该也有数万名，大部分感染事件都发生在巴西、俄罗斯和中国。&lt;/p&gt;
-&lt;p&gt;此次攻击发生时间在 2026 年 4 月 9 日 15:00 UTC~4 月 10 日 10:00 UTC (&lt;strong&gt;国内时间：2026 年 4 月 9 日 23:00 到 2026 年 4 月 10 日 18:00，共 19 小时，并非此前 CPUID 预估的 6 小时&lt;/strong&gt;)。&lt;/p&gt;
-&lt;p&gt;如果你在以上时间段内通过 CPUID 网站下载过 CPU-Z 等软件，建议立即备份数据重装系统，最好将各种密钥全部轮换，以及使用卡巴斯基等软件对备份文件执行全盘扫描。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;值得注意的是这次攻击溯源非常简单，因为黑客复用此前投放 FileZilla 恶意版本的域名，因此很容易将其归因到 STX RAT 相关的黑客团体。&lt;/p&gt;
-&lt;p&gt;STX RAT 是个具备 HVNC (高级虚拟网络控制) 和强大信息窃取功能的远程访问木马，具备远程控制、后续有效载荷执行和后渗透操作等功能，例如在内存中执行 EXE/DLL/PowerShell/shellcode 等，还可以建立反向代理和进行桌面交互等。&lt;/p&gt;
-&lt;p&gt;问题就在于黑客偷懒没有注册新域名，在 FileZilla 投毒事件中 (该软件本身没有被黑，只是黑客通过互联网投放带毒版本) 相关 C2 域名已经被安全公司记录。&lt;/p&gt;
-&lt;p&gt;因此诸如卡巴斯基等安全软件都可以直接识别到恶意域名并进行拦截，理论上安装卡巴斯基等杀毒软件的用户应该在恶意版本时就被拦截，而没有安装安全软件的用户可能会中招。&lt;/p&gt;
-&lt;p&gt;卡巴斯基表示：此次攻击背后的黑客的整体恶意软件开发、部署和运维能力都相当低下，这让我们能够在攻击初期就检测并进行拦截。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://securelist.com/tr/cpu-z/119365/" rel="noopener" target="_blank"&gt;Securelist&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 13 Apr 2026 03:30:17 +0000</pubDate></item><item><title>X/Twitter继续调整收益分成政策打击偷内容和标题党 将分成收益降至40%</title><link>https://www.landiannews.com/archives/112626.html</link><description>
-&lt;p&gt;#行业资讯 X/Twitter 继续调整收益分成政策打击标题党和偷内容，即复制热门推文直接发送等将被扣减收益。在本轮支付周期 (3.28~4.11)，涉及偷内容和标题党收益被扣减到 60%，下个周期将扣减到 40%，同时经常在帖子开头使用🚨突发之类的标题党账号也在重点打击范围内。查看详情：https://ourl.co/112626&lt;/p&gt;&lt;p&gt;社交媒体平台 X/Twitter 通过激励政策鼓励创作者从其他平台迁移到该平台，对于发帖内容如果浏览量高则带来的广告收益会更高，所以创作者也可以从平台获得广告分成收益。&lt;/p&gt;
-&lt;p&gt;不过这种经济激励政策也带来大量营销号和内容农场，营销号通常是复制其他热门帖子内容或者采用标题党风格，内容农场则是通过自动化系统运行海量账号执行操作。&lt;/p&gt;
-&lt;p&gt;对用户而言平台充斥着标题党和营销号显然不是好事情，所以 X/Twitter 也在着重打击此类破坏用户体验的行为，包括通过降低广告收益来迫使这些账号逐渐放弃恶意行为。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/public/thumb/X.png" rel="nofollow"&gt;&lt;img alt="X/Twitter继续调整收益分成政策打击偷内容和标题党 将分成收益降至40%" data-src="https://img.lancdn.com/landian/public/thumb/X.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/public/thumb/X.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;根据 X/Twitter 产品经理尼基塔比尔发布的&lt;a href="https://x.com/nikitabier/status/2043045929750794399?s=12" rel="noopener" target="_blank"&gt;最新消息&lt;/a&gt;，在最新的支付周期 (3 月 28 日～4 月 11 日)，涉及标题党和偷内容的账号分成比例已经被扣减到 60%。&lt;/p&gt;
-&lt;p&gt;平台计划在下个支付周期中再扣减 20%，也就是说到 4 月下旬此类账号分成比例实际会被扣减到 40%，这会导致此类营销号的账户收益显著下降。&lt;/p&gt;
-&lt;p&gt;营销号收益被扣减后，原创作者的收益则会提升，经常发布原创内容的创作者应该可以注意到即使阅读量保持不变，实际广告收益也有所提升。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;尼基塔比尔还强调接下来将重点打击标题党行为，这些帖子通常会在开头使用🚨BREAKING 或 JUST IN (意为突发)，如果账号习惯性在各种帖子前都使用这种标题党关键词，后续账号收益将会被永久扣减，不过具体扣减比例暂时还不清楚。&lt;/p&gt;
-&lt;p&gt;当然正常使用突发消息的账号不会受到打击，例如有些新闻账号会使用突发来发布紧急消息，这种属于合理使用，被打击的主要是那些一点点破事儿都使用 BREAKING NEWS 的账户。&lt;/p&gt;
-&lt;p&gt;这些政策调整将有助于减少标题党和偷内容式营销，对于提升 X 平台用户体验来说至关重要，不过具体效果可能还需要继续观察。&lt;/p&gt;
-&lt;p&gt;PS：X 不会直接封禁各类账号，而是降低甚至直接取消收益分成，这种方式可以确保平台继续保持自由。&lt;/p&gt;
-</description><pubDate>Mon, 13 Apr 2026 03:04:41 +0000</pubDate></item></channel></rss>
+</description><pubDate>Mon, 13 Apr 2026 03:49:32 +0000</pubDate></item></channel></rss>
