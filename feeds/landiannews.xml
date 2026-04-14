@@ -1,77 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 14 Apr 2026 02:00:59 +0000</lastBuildDate><item><title>微软正在研究将OpenClaw集成到Microsoft 365中 让Copilot帮助用户运行任务</title><link>https://www.landiannews.com/archives/112636.html</link><description>
-&lt;p&gt;#人工智能 微软正在研究将 OpenClaw 集成到 Microsoft 365 中，让 Copilot 帮助用户运行任务，实现全天候自主运行。目前用户可以通过 Copilot 进行交互操作，但该工具缺乏自主运行能力，所以微软要借助 OpenClaw 实现监控邮箱并生成待办或者智能日程等，也可以帮助销售自动联系客户和收集反馈等。查看详情：https://ourl.co/112636&lt;/p&gt;&lt;p&gt;微软正在研究如何将热门开源项目 OpenClaw AI 机器人集成到 Microsoft 365 商业服务中，测试目的是让 Microsoft 365 Copilot 可以全天候自主运行，帮助客户自动执行各类任务。&lt;/p&gt;
-&lt;p&gt;目前 Copilot AI 助手的功能主要是让用户提出问题并给出回答，也可以代表用户处理文件和表格，但现阶段该助手还不能自主运行，也就是需要用户下发命令进行交互式操作。&lt;/p&gt;
-&lt;p&gt;OpenClaw 项目可以通过各种定时器和工具链全天候自主运行，例如用户设置数据抓取任务后，OpenClaw 可以定时抓取特定网页的数据，并将其整理为用户需要的格式。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2024/03/102838.png" rel="nofollow"&gt;&lt;img alt="微软正在研究将OpenClaw集成到Microsoft 365中 让Copilot帮助用户运行任务" data-src="https://img.lancdn.com/landian/2024/03/102838.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2024/03/102838.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;然而目前最大的问题在于 OpenClaw 拥有的权限较高因此安全性较低，即至少目前来看，用户提供的权限越多，OpenClaw 能够完成的任务也越多，但潜在的安全风险也越高。&lt;/p&gt;
-&lt;p&gt;消息人士透露，微软有信心推出基于 OpenClaw 的更安全的版本，包括适用于不同任务场景的定制权限，不同的智能体只能在特定任务场景和权限集下运行。&lt;/p&gt;
-&lt;p&gt;微软的计划是让 Microsoft 365 Copilot 可以定时检查用户的 Outlook 收件箱和日历，提供关键事件提醒、建立日程安排、提供智能任务建议列表等。&lt;/p&gt;
-&lt;p&gt;而适用于不同场景下的 AI 智能体则可以帮助员工完成特定任务，例如销售 AI 智能体通过限制权限后自动联系客户、收集反馈、协助销售人员进行签单等等。&lt;/p&gt;
-&lt;p&gt;对微软来说如果不改变可能就会被人工智能热潮抛下：Copilot AI 在企业市场中的份额非常低，远远不如 OpenAI 和 Anthropic，或许集成 OpenClaw 可以提升 Copilot 在企业级市场中的竞争力。&lt;/p&gt;
-</description><pubDate>Tue, 14 Apr 2026 02:00:59 +0000</pubDate></item><item><title>亚马逊推出适用于民航科技的Amazon Leo卫星组件 提供1000/400M联网速率</title><link>https://www.landiannews.com/archives/112635.html</link><description>
-&lt;p&gt;#行业资讯 亚马逊推出适用于民航客机的 Amazon Leo 卫星组件，安装后即可在空中提供 1000M 下行互联网接入速率。该组件安装在飞机外部，组件直接连接亚马逊星座卫星，卫星与地面接收站通过激光链路连接，接收站则是连接 AWS 边缘网络再接入互联网，整个链路的延迟非常低。查看详情：https://ourl.co/112635&lt;/p&gt;&lt;p&gt;亚马逊日前推出适用于民航客机的 Amazon Leo 星座卫星组件，民航客机只需要安装该组件后即可通过亚马逊的星座卫星接入互联网，为乘客和机组人员在高空中提供互联网服务。&lt;/p&gt;
-&lt;p&gt;亚马逊推出的卫星组件 (天线) 安装在客机外部，通过航空级连接器从客机获得电力供应，同时也有通信系统可供机组人员控制，这款组件适用于宽体商用飞机、窄体商用飞机以及支线喷气式飞机等。&lt;/p&gt;
-&lt;p&gt;单个卫星组件就可以提供最高 1000M 下行速度和 400M 上行速度，这足以为所有乘客都提供充足的互联网服务，无论是看电视、玩游戏还是听音乐甚至是在线工作都没问题。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112635-1.png" rel="nofollow"&gt;&lt;img alt="亚马逊推出适用于民航科技的Amazon Leo卫星组件 提供1000/400M联网速率" data-src="https://img.lancdn.com/landian/2026/04/112635-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112635-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112635-2.png" rel="nofollow"&gt;&lt;img alt="亚马逊推出适用于民航科技的Amazon Leo卫星组件 提供1000/400M联网速率" data-src="https://img.lancdn.com/landian/2026/04/112635-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112635-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112635-3.png" rel="nofollow"&gt;&lt;img alt="亚马逊推出适用于民航科技的Amazon Leo卫星组件 提供1000/400M联网速率" data-src="https://img.lancdn.com/landian/2026/04/112635-3.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112635-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;飞机在高速飞行时主要与位于低地球轨道的 Amazon Leo 卫星连接，随着飞机和卫星相对位置的移动，系统会自动检测并在需要的时候立即切换到另一颗卫星。&lt;/p&gt;
-&lt;p&gt;卫星则通过激光链路与地面的亚马逊卫星接收站 (网关) 互联，地面网关接入到亚马逊 AWS 网络边缘节点再连接到全球互联网，整个链路的延迟非常低。&lt;/p&gt;
-&lt;p&gt;当然核心还是卫星和地面接收站数量，想要发射更多卫星并不容易，但在地面建设更多接收站难度较小，目前 Amazon Leo 正在地面建设 300 多个卫星网关，这可以继续提高卫星互联网性能。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这个可能取决于航空公司，航空公司通过安装 Amazon Leo 并付费来获得空中互联网连接，通过提供互联网服务可以增强航空公司的竞争力，毕竟更多用户更希望在飞机上上网消磨时间。&lt;/p&gt;
-&lt;p&gt;至于用户是否需要付费还是取决于航空公司，航空公司可以建立航班上的内置网关来提供互联网服务，这也可以改成收费模式，不过空中互联网最终还是会成为主流，未来可能都是可以免费使用的。&lt;/p&gt;
-&lt;p&gt;相关资讯：&lt;a href="https://www.landiannews.com/archives/112522.html" rel="noopener" target="_blank"&gt;亚马逊计划以 90 亿美元收购苹果卫星服务提供商 Globalstar 以壮大卫星网络&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 14 Apr 2026 01:30:53 +0000</pubDate></item><item><title>Windows 11(测试版)现已支持在安装时跳过更新 也就是可以更快进入桌面</title><link>https://www.landiannews.com/archives/112634.html</link><description>
-&lt;p&gt;#系统资讯 Windows 11 (测试版) 现已支持在安装阶段跳过安装更新，可将整个安装过程从十几分钟缩短到几分钟。当前 OOBE 阶段强制联网下载安装更新，这导致用户需要等待很长时间才能进入桌面，而点击跳过则可以更快进入桌面，到时候后台下载更新时用户也可以同时安装其他软件。查看详情：https://ourl.co/112634&lt;/p&gt;&lt;p&gt;当前版本的 Windows 11 在安装进入 OOBE 界面时，微软会强制要求系统联网并下载安装最新更新，如果用户使用的镜像比较旧，则可能需要安装数 GB 的累积更新，这个过程需要耗费较多时间。&lt;/p&gt;
-&lt;p&gt;于是在用户实际安装过程中就会发现卡在 OOBE 界面等待的时间非常长，微软的说法是安装最新更新既可以修复功能错误又可以获得新功能，而且还有利于及时修复各类安全问题。&lt;/p&gt;
-&lt;p&gt;但从用户体验角度来说这并不好，因为完全可以进入桌面后再后台下载安装更新，此时用户还可以在桌面上安装其他软件，这些并行安装任务本身并没有任何冲突。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112634.png" rel="nofollow"&gt;&lt;img alt="Windows 11(测试版)现已支持在安装时跳过更新 也就是可以更快进入桌面" data-src="https://img.lancdn.com/landian/2026/04/112634.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112634.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;所以在此前博客中微软已经承诺将改善 OOBE 安装体验，也就是要给用户提供选项，让用户可以根据自己的需要决定继续安装更新还是直接跳过更新更快进入桌面。&lt;/p&gt;
-&lt;p&gt;现在跳过选项已经在 Windows 11 测试版中上线，OOBE 默认情况下仍然会联网下载最新更新并安装，但用户可以点击「稍后更新」选项直接跳过，跳过后只需要等待数分钟即可进入桌面。&lt;/p&gt;
-&lt;p&gt;这个选项可以将整个安装过程从十几分钟缩短到几分钟，因为本身系统安装阶段花费的时间并不多，更多的还是 OOBE 设置以及安装更新花费的时间，如果用户使用无人值守模板安装那速度可能还会更快。&lt;/p&gt;
-&lt;p&gt;目前新选项仅在 Windows 11 测试版中上线，还不清楚何时会合并到 Windows 11 正式版渠道，微软暂时也没有发布博客详细介绍这个功能。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://x.com/ariaupdated/status/2043693092298223636/photo/1" rel="noopener" target="_blank"&gt;ariaupdated&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 14 Apr 2026 00:59:25 +0000</pubDate></item><item><title>MiniMax发文回应为什么M2.7设置非商业许可 因为总有人拿降智模型忽悠人</title><link>https://www.landiannews.com/archives/112633.html</link><description>
-&lt;p&gt;#人工智能 MiniMax 回应 M2.7 模型为什么采用非商业许可证：主要原因是解决影响声誉的问题。部分平台过度量化、模板错误甚至冒充 M 系列模型，这些问题导致用户认为 M 系列模型就是个水平中等的模型，现在 MiniMax 要求商业使用必须授权，可能要求签署相关协议确保提供足量的 M2.7 模型。查看详情：https://ourl.co/112633&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landiannews.com/archives/112625.html" rel="noopener" target="_blank"&gt;昨天人工智能公司 MiniMax 开源 M2.7 模型&lt;/a&gt;，说是开源但该模型采用的并非标准开源许可证，而是该公司自己编写的非商业许可证，也就是禁止 M2.7 用于任何商业性用途。&lt;/p&gt;
-&lt;p&gt;这种模式严格来说已经不是开源，所以也在社区引起激烈的讨论，现在 MiniMax 开发者团队负责人 Ryan Lee 发文回应为什么要变更许可证，以及为什么要禁止商业性用途。&lt;/p&gt;
-&lt;p&gt;&lt;del&gt;更重要的是 MiniMax 似乎没有对申请商业性使用的托管平台收费&lt;/del&gt; (关于这点蓝点网已经联系 MiniMax 希望获得回应或授权价格说明)，按蓝点网猜测，MiniMax 可能要求托管平台签署相关协议，不能挂羊头卖狗肉，确保不会对 MiniMax 名誉造成影响。&lt;/p&gt;
-&lt;p&gt;更新：签署商业授权协议需要根据商业用途收费。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112625.png" rel="nofollow"&gt;&lt;img alt="MiniMax发文回应为什么M2.7设置非商业许可 因为总有人拿降智模型忽悠人" data-src="https://img.lancdn.com/landian/2026/04/112625.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112625.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;改变的商业许可方面，原因很简单：在过去发布的几个版本里，我们发现一个模式反复出现。我们的模型名称出现在某个托管平台上，有人尝试使用后发现其质量明显不如我们实际发布的版本。&lt;/p&gt;
-&lt;p&gt;过度量化、错误模板、被悄悄替换，有时候托管平台提供的甚至根本就不是我们的模型，这会导致用户认为 MiniMax 模型只是个中等水平的模型，我们承担声誉损失，用户体验糟糕，而那些认真负责的托管服务商却被淹没在各种噪音中。&lt;/p&gt;
-&lt;p&gt;宽松的许可意味着我们对此无能为力，新的许可旨在划清界限：如果您想将 M2.7 作为商业服务运行那必须获得许可，我们认为这种做法对用户和那些认真负责的托管服务提供商都有好处。&lt;/p&gt;
-&lt;p&gt;我们也希望模型的商业用途能够可持续发展，这既有利于运行相关服务的开发者，也有利于我们持续训练和发布更多前沿模型，这两者息息相关，我们希望共同构建一个健康且可持续的生态系统。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; 如果社区仍然不满意，MiniMax 可能会修改许可证：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;MiniMax 开发者关系负责人强调，MiniMax 将继续为所有人提供智能服务，继续保持非商业、研究目的和个人用途的免费，快速且合理地处理各类商业性授权申请。&lt;/p&gt;
-&lt;p&gt;以及 MiniMax 将继续倾听来自社区的反馈，如果许可证可能存在损害开源社区合法使用的情况，MiniMax 宁愿修改许可证条款而不是狡辩。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://x.com/ryanleeminimax/status/2043573044065820673?s=12" rel="noopener" target="_blank"&gt;Ryan Lee&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 14 Apr 2026 00:34:01 +0000</pubDate></item><item><title>Claude Code将缓存时间从1小时改成5分钟可能增加用量 但开发团队称这是优化</title><link>https://www.landiannews.com/archives/112632.html</link><description>
-&lt;p&gt;#人工智能 Claude Code 将缓存时间从 1 小时改成 5 分钟可能增加使用成本，但开发团队称这是降低成本的优化措施。开发者认为更快过期的缓存会让 CC 需要频繁输入更多上下文，1 小时过期反而会更好，CC 开发团队则表示很多数据输入一次就不需要了，长时间不清理反而会增加成本。查看详情：https://ourl.co/112632&lt;/p&gt;&lt;p&gt;日前开发者 @seanGSISG 提交问题报告指出 Claude Code 从 2026 年 3 月 6 日开始将缓存生存时间 (TTL) 从 1 小时修改为 5 分钟，也就是缓存过期时间会更快，这可能导致使用成本显著上升。&lt;/p&gt;
-&lt;p&gt;缓存过期时间主要用来控制多长时间内使用缓存数据，如果缓存数据被更快、更频繁的清除，那就需要重新拉取完整数据，这也是开发者认为 tokens 使用量增加的原因。&lt;/p&gt;
-&lt;p&gt;值得注意的是 Claude Code 曾多次调整过缓存生存时间，包括从 5 分钟改成 1 小时，然后又从 1 小时改成 5 分钟，按照开发者的统计，变成缓存生存时间后会增加更多使用成本。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/07/109974.png" rel="nofollow"&gt;&lt;img alt="Claude Code将缓存时间从1小时改成5分钟可能增加用量 但开发团队称这是优化" data-src="https://img.lancdn.com/landian/2025/07/109974.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/07/109974.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 14 Apr 2026 05:30:48 +0000</lastBuildDate><item><title>微软宣布其轻量邮件客户端Outlook Lite版将在5月25日停止服务</title><link>https://www.landiannews.com/archives/112642.html</link><description>
+&lt;p&gt;#软件资讯 发布不满 4 年后，适用于安卓系统的轻量级邮件客户端 Outlook Lite 将在 5 月 25 日下架并停止运营。该客户端是微软为 1GB 内存安卓设备开发的，比较简略但也可以流畅运行，现在微软决定放弃该应用，将所有用户迁移到 Outlook Mobile 版。查看详情：https://ourl.co/112642&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landiannews.com/archives/110571.html" rel="noopener" target="_blank"&gt;微软此前已经透露将关停适用于安卓系统的 Outlook Lite 邮件客户端&lt;/a&gt;，这是微软在 2022 年 8 月推出的、仅适用于安卓平台的轻量级 Microsoft Outlook 客户端，该应用相对来说比较简略，即便在 1GB 内存的安卓设备上也能流畅运行。&lt;/p&gt;
+&lt;p&gt;现在微软公布 Outlook Lite for Android 的最终截止信息：自 2026 年 5 月 25 日起，Outlook Lite 正式停止服务，届时用户将无法继续使用该客户端，包括连接邮箱继续查看邮件等。&lt;/p&gt;
+&lt;p&gt;相关数据都可以通过 Outlook Mobile 版进行同步，使用 Outlook Lite 的用户需要迁移到 Outlook Mobile，迁移后所有电子邮件、日历项目以及附件等仍然可以继续正常使用。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/08/110215.png" rel="nofollow"&gt;&lt;img alt="微软宣布其轻量邮件客户端Outlook Lite版将在5月25日停止服务 " data-src="https://img.lancdn.com/landian/2025/08/110215.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/08/110215.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;2026 年 1 月：缓存生存时间为 5 分钟时，tokens 浪费比例高达 52.5%&lt;/li&gt;
-&lt;li&gt;2026 年 2 月：缓存生存时间为 1 小时时，tokens 浪费比例降低至 1.1%&lt;/li&gt;
-&lt;li&gt;2026 年 3 月：缓存生存时间为 5 分钟时，tokens 浪费比例上升至 25.9%&lt;/li&gt;
-&lt;li&gt;2026 年 4 月：缓存生存时间为 5 分钟时，tokens 浪费比例降低至 14.8%&lt;/li&gt;
+&lt;li&gt;停运时间：2026 年 5 月 25 日&lt;/li&gt;
+&lt;li&gt;下架时间：2026 年 5 月 25 日，从 Google Play Store 下架并停止安装和更新&lt;/li&gt;
+&lt;li&gt;功能禁用：停止运营后，即便用户可以打开 Outlook Lite 但也无法访问邮箱，应用内导航和相关功能也会禁用&lt;/li&gt;
+&lt;li&gt;替代产品：Outlook Lite → Microsoft Outlook Mobile&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在缓存生存时间设置为 5 分钟时，会话中任何超过 5 分钟的暂停都会导致整个缓存上下文过期，因此下次使用时 Claude Code 必须以 cache_creation 输入而非 cache_read 缓存读取重新上传上下文数据。&lt;/p&gt;
-&lt;p&gt;对 Claude Sonnet 4.6 而言，输入价格是读取价格的 12.5 倍多，这种情况在 Claude Opus 4.6 中也同样存在，多数情况下模型输入价格都要高于读取价格。&lt;/p&gt;
-&lt;p&gt;对于长时间复杂的编码任务，这会造成明显的累积性损失：即会话时间越长、越复杂，缓存的上下文就会越多，每次缓存过期造成的使用成本也会越高。&lt;/p&gt;
-&lt;p&gt;对于使用 Claude Code 的开发者来说，调整后更容易触发配额限制，@seanGSISG 称以前从未达到过 5 小时配额限制，调整之后就容易触发限制。&lt;/p&gt;
+&lt;p&gt;微软强烈建议所有用户立即迁移到 Microsoft Outlook Mobile，微软称该版本提供更多功能、支持更多邮箱并且也能满足企业或组织在合规方面的要求。&lt;/p&gt;
+&lt;p&gt;为帮助用户迁移，Outlook Lite 应用内将提供升级选项，当用户点击升级按钮时将自动跳转到 Google Play Store 中的 Outlook Mobile 版，用户下载升级即可。&lt;/p&gt;
+</description><pubDate>Tue, 14 Apr 2026 05:30:48 +0000</pubDate></item><item><title>欧盟决定将ChatGPT归类为大型搜索引擎 将按照数字服务法加强监管</title><link>https://www.landiannews.com/archives/112641.html</link><description>
+&lt;p&gt;#行业资讯 欧盟计划将 ChatGPT 视为超大型搜索引擎平台，将纳入数字服务法案的加强监管范围。据德国商报发布的消息，在欧盟活跃用户超过 1.2 亿的 ChatGPT 也将被列为看门人应用，届时 ChatGPT 将面临严格监管，OpenAI 必须按 DSA 法案加强透明度和各类保护。查看详情：https://ourl.co/112641&lt;/p&gt;&lt;p&gt;据德国《商报》发布的消息，欧盟委员会即将在未来几天宣布将 OpenAI ChatGPT 视为大型搜索引擎，随后将按照欧盟数字服务法案进行严格监管，这对 OpenAI 来说将是个重大的负面消息。&lt;/p&gt;
+&lt;p&gt;数字服务法案 (DSA) 将欧盟列为看门人的大型平台纳入严格监管范围，大多数公司都不愿意被加强监管，但欧盟已经将包括 X/Twitter、Chrome、TikTok 在内的多项产品或服务视为看门人。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/public/thumb/chatgpt.png" rel="nofollow"&gt;&lt;img alt="欧盟决定将ChatGPT归类为大型搜索引擎 将按照数字服务法加强监管" data-src="https://img.lancdn.com/landian/public/thumb/chatgpt.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/public/thumb/chatgpt.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;看门人指的是这些平台是欧盟用户的重要互联网入口，如果这些看门人平台不严格遵守法律要求，那就有可能给欧盟用户造成危害，这也是数字服务法案核心就是严加监管的原因。&lt;/p&gt;
+&lt;p&gt;ChatGPT 在欧盟拥有超过 1.2 亿名活跃用户，这远远超过超大型平台的门槛：对于超大型在线平台或超大型在线搜索引擎认定，需要平台活跃用户超过 4500 万名。&lt;/p&gt;
+&lt;p&gt;如果 ChatGPT 被列为看门人应用，则 OpenAI 需要改造推荐系统和广告推荐等功能，还必须解决 AI 产生的非法内容 (不符合欧盟规定的内容)，以及必须防止 ChatGPT 对公众健康以及身心健康等产生影响。&lt;/p&gt;
+&lt;p&gt;2025 年年底，X/Twitter 就被欧盟除以 1.2 亿欧元的罚款，原因是 X 违反数字服务法案规定的透明度义务，包括蓝标认证的设计具有欺骗性以及广告库缺乏透明度等。&lt;/p&gt;
+</description><pubDate>Tue, 14 Apr 2026 05:00:45 +0000</pubDate></item><item><title>缤客网(Booking.com)泄露用户预订信息 部分用户已收到诈骗电话</title><link>https://www.landiannews.com/archives/112640.html</link><description>
+&lt;p&gt;#安全事件 全球知名酒店 / 民宿 / 票务预订网站缤客 (Booking.com) 出现数据泄露事件，部分用户个人信息和预订信息泄露。已经有网友收到诈骗电话，诈骗分子试图通过泄露信息诱导用户进入钓鱼网站提供更多信息，不过缤客也没有透露数据泄露原因以及具体多少用户受影响。查看详情：https://ourl.co/112640&lt;/p&gt;&lt;p&gt;全球知名酒店 / 民宿 / 票务预订网站缤客网 (Booking.com) 日前发生数据泄露，黑客通过某种方式获取部分用户信息以及这些用户预订的相关信息，目前缤客网正在强制重置预订 PIN 码避免信息被黑客冒用。&lt;/p&gt;
+&lt;p&gt;所有使用缤客网的用户都应该检查自己的注册邮箱，如果收到邮件提醒则代表自己信息已经泄露，此时已经有部分用户收到诈骗电话，诈骗分子冒充缤客或酒店并利用泄露的信息对用户进行诈骗。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2024/05/103860.png" rel="nofollow"&gt;&lt;img alt="缤客网(Booking.com)泄露用户预订信息 部分用户已收到诈骗电话" data-src="https://img.lancdn.com/landian/2024/05/103860.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2024/05/103860.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;对于开发者提出的这个问题，Claude Code 团队也进行回应然后关闭这个问题，开发团队称用户观察到的缓存生存时间调整是正确的，也就是 3 月 6 日这个关键节点。&lt;/p&gt;
-&lt;p&gt;不过开发团队也表示调整缓存生存时间是为了降低成本而不是提高成本，原因在于 Claude Code 请求中相当一部分都是一次性调用，缓存内容只会使用一次，之后就不会再使用这些缓存数据。&lt;/p&gt;
-&lt;p&gt;因此将缓存生存时间设置为 1 小时后，只会带来更高的输入成本，而且没有后续缓存读取操作来分摊这部分成本，因为 1 小时的输入成本要高于 5 分钟缓存级别的输入成本。&lt;/p&gt;
-&lt;p&gt;在 3 月 6 日 Claude Code 团队调整了缓存生存时间，同时也进行了缓存优化：不同请求类型适用于不同级别的 TTL 层级，客户端会根据每个请求的情况自动设置不同的缓存生存时间。&lt;/p&gt;
-&lt;p&gt;总体而言这些优化和调整可以降低用户的使用总成本，而在 3 月 6 日之前的那些调整并非 Claude Code 预期的稳定状态，3 月 6 日调整后才是稳定状态。&lt;/p&gt;
-&lt;p&gt;最后 Claude Code 团队暂时不考虑提供全局缓存生存时间切换选项，对于缓存读取配额加权问题 (&lt;a href="https://github.com/anthropics/claude-code/issues/45756" rel="noopener" target="_blank"&gt;#45756&lt;/a&gt;)，Claude Code 团队将继续跟进调查。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://github.com/anthropics/claude-code/issues/46829" rel="noopener" target="_blank"&gt;Claude Code Issue #46829&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 13 Apr 2026 06:51:13 +0000</pubDate></item></channel></rss>
+&lt;ul&gt;
+&lt;li&gt;用户全名 (通常是用于预订的真实姓名)&lt;/li&gt;
+&lt;li&gt;电子邮件地址&lt;/li&gt;
+&lt;li&gt;真实家庭住址&lt;/li&gt;
+&lt;li&gt;电话号码&lt;/li&gt;
+&lt;li&gt;与酒店或民宿等共享的登记信息 (例如真实姓名和地址)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在 Reddit 论坛的讨论中，有网友称已经收到诈骗分子打来的电话，诈骗分子利用掌握的用户个人信息和预订信息，诱导用户进入钓鱼网站执行操作，最终目的可能是为了窃取更多信息尤其是财务信息。&lt;/p&gt;
+&lt;p&gt;值得注意的是缤客发送的信息泄露通知邮箱为 noreply@booking.com，用户查看电子邮件时应当核对发件人，因为诈骗团伙也可能冒充缤客发送诈骗邮件，所以用户不应该在 Booking.com 之外提供任何个人信息。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;此次数据泄露事件似乎是缤客自己发现的，目前网上查不到安全研究员爆出的数据泄露原因，而缤客也没有透露数据泄露原因以及影响的用户规模。&lt;/p&gt;
+&lt;p&gt;缤客强调，该公司将向每一位受影响的用户发送邮件通知，为所有用户提供 24 小时多语言支持，为控制事态发展，缤客还更新相关预订的 PIN 码。&lt;/p&gt;
+</description><pubDate>Tue, 14 Apr 2026 04:00:45 +0000</pubDate></item><item><title>受内存涨价拖累 微软大幅提高Microsoft Surface Pro/Laptop系列设备售价</title><link>https://www.landiannews.com/archives/112639.html</link><description>
+&lt;p&gt;#硬件设备 受内存和其他组件价格成本上涨，微软大幅度提高 Microsoft Surface Laptop 和 Surface Pro 等设备售价。涨价的均为搭载高通 X Plus 芯片的版本，部分设备涨价 100 美元，部分设备涨价 300 美元，微软称涨价原因就是内存和组件成本上涨。查看详情：https://ourl.co/112639&lt;/p&gt;&lt;p&gt;内存涨价带来的潜在影响还在继续，日前微软宣布提高 Microsoft Surface Laptop 7 和 Surface Pro 11 系列设备售价，无论是 2024 年推出的还是 2025 年推出的产品全部涨价。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112639.png" rel="nofollow"&gt;&lt;img alt="受内存涨价拖累 微软大幅提高Microsoft Surface Pro/Laptop系列设备售价" data-src="https://img.lancdn.com/landian/2026/04/112639.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112639.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt; 涨价原因其实没什么好说的，微软在官方声明中表示：&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;由于内存和组件成本持续上涨，微软官网 Microsoft.com 正在更新 Surface 硬件产品的价格，我们将继续致力于为客户和合作伙伴创造价值，同时坚持我们对质量和创新的高标准。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;微软在 2024 年发布 Surface Laptop 7 和 Surface Pro 11，这两款产品都是微软首批使用高通骁龙 X 芯片的设备，两款设备最初起售价均为 999 美元。在 2025 年微软取消低内存版本仅保留 16GB 内存版，因此实际销售价格已经提高。&lt;/p&gt;
+&lt;p&gt;现在这些设备的起售价较 2024 年发布时已经上涨 500 美元 (按最初低内存版本起售价来算)，对用户而言现在购买笔记本电脑和平板电脑等产品的成本已经明显增加。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;下面是各版本价格对比：(均为 X Plus 芯片版)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Surface Laptop 13.8 英寸版：16GB 内存 + 256GB 固态硬盘，原价 1,199 美元，现价 1,499 美元&lt;/li&gt;
+&lt;li&gt;Surface Laptop 15 英寸版：16GB 内存 + 512GB 固态硬盘，原价 1,499 美元，现价 1,599 美元&lt;/li&gt;
+&lt;li&gt;Surface Laptop 13 英寸版：16GB 内存 + 256GB 固态硬盘，原价 899 美元，现价 1,199 美元&lt;/li&gt;
+&lt;li&gt;Surface Pro 13 英寸版：16GB 内存 + 512GB 固态硬盘，原价 1,199 美元，现价 1,499 美元&lt;/li&gt;
+&lt;li&gt;Surface Pro 12 英寸版：16GB 内存 + 512GB 固态硬盘，原价 799 美元，现价 1,049 美元&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Tue, 14 Apr 2026 03:30:44 +0000</pubDate></item><item><title>大量新闻网站屏蔽互联网档案馆网站时光机保存快照 原因是被AI抓取训练模型</title><link>https://www.landiannews.com/archives/112638.html</link><description>
+&lt;p&gt;#行业资讯 诸多新闻媒体网站开始屏蔽互联网档案馆网站时光机抓取并保存内容，原因是 AI 公司可能通过快照非法获取新闻网站的内容。Wired 发布的消息称，目前仅在美国就有超过 20 家主流新闻媒体屏蔽网站时光机，根本原因就是 AI 公司通过快照非法获取内容并用于模型训练等，这直接损害了新闻媒体的合法权益。查看详情：https://ourl.co/112638&lt;/p&gt;&lt;p&gt;据 WIRED 发布的消息，目前在美国已经有诸多网站开始屏蔽互联网档案馆旗下的网站时光机 (Wayback Machine) 快照功能，即不再允许网站时光机抓取这些新闻网站的页面并将其存档，原因则是 AI 爬虫抓取数据拿来训练模型。&lt;/p&gt;
+&lt;p&gt;目前人工智能热潮已经让大量网站的流量出现大幅度下滑，而 AI 公司则是想方设法绕过限制非法抓取网站内容，最终将抓取到的数据用于 AI 对话机器人或者用于训练后续的人工智能模型。&lt;/p&gt;
+&lt;p&gt;对于网站来说这种行为存在未经许可的抓取和使用内容，以及会造成网站流量下滑，所以不少网站都已经在 robots.txt 里明确禁止来自人工智能的搜索爬虫抓取网站数据。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2024/10/106046.png" rel="nofollow"&gt;&lt;img alt="大量新闻网站屏蔽互联网档案馆网站时光机保存快照 原因是被AI抓取训练模型" data-src="https://img.lancdn.com/landian/2024/10/106046.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2024/10/106046.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;基于保护自身合法权益和利益，包括今日美国、纽约时报等多家知名新闻媒体已经屏蔽互联网档案馆的网站时光机，这些新闻网站将 ia_archiverbot 爬虫排除在外，这是互联网档案馆使用的爬虫。&lt;/p&gt;
+&lt;p&gt;除了新闻媒体外，像是 Reddit 这种网络论坛也同样禁止互联网档案馆抓取内容，Reddit 已经与谷歌和 OpenAI 等签署授权协议，允许这些公司抓取数据并用于训练人工智能模型，至少对 Reddit 来说，如果允许互联网档案馆抓取数据，AI 公司再抓取互联网档案馆的数据，那就可能导致自己没法继续卖数据。&lt;/p&gt;
+&lt;p&gt;问题在于很多内容并非永久存在，网站时光机的意义在于可以查看网页内容的变动，以及在网页被删除时继续通过快照浏览内容，这对不少用户来说是非常重要的。&lt;/p&gt;
+&lt;p&gt;因此在 AI 热潮下，新闻媒体屏蔽互联网档案馆抓取数据实际上也是对互联网档案馆和用户的误杀：为了屏蔽 AI 公司进而屏蔽正常使用相关功能的用户。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;今日美国公司发言人表示，屏蔽互联网档案馆抓取内容也并非专门针对互联网档案馆，这是该公司广泛屏蔽所有网络爬虫的正常计划。&lt;/p&gt;
+&lt;p&gt;卫报商业事务和授权总监则表示，该公司正在与互联网档案馆沟通，就人工智能公司可能滥用为保存目的而抓取内容问题进行讨论 (但还没有明确结果)。&lt;/p&gt;
+&lt;p&gt;从这种情况来看未来可能会有越来越多的媒体屏蔽互联网档案馆，避免自己的内容被 AI 公司通过互联网档案馆抓取，说到底根源还是这些 AI 公司。&lt;/p&gt;
+&lt;p&gt;这些 AI 公司未经授权抓取内容、高频次抓取内容等行为屡见不鲜，最终这可能会改变开放互联网的格局，让更多网站从公开访问转向注册登录访问甚至付费访问。&lt;/p&gt;
+</description><pubDate>Tue, 14 Apr 2026 03:00:44 +0000</pubDate></item></channel></rss>
