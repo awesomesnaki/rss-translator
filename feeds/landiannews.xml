@@ -1,5 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 13 Apr 2026 06:51:13 +0000</lastBuildDate><item><title>Claude Code将缓存时间从1小时改成5分钟可能增加用量 但开发团队称这是优化</title><link>https://www.landiannews.com/archives/112632.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 14 Apr 2026 02:00:59 +0000</lastBuildDate><item><title>微软正在研究将OpenClaw集成到Microsoft 365中 让Copilot帮助用户运行任务</title><link>https://www.landiannews.com/archives/112636.html</link><description>
+&lt;p&gt;#人工智能 微软正在研究将 OpenClaw 集成到 Microsoft 365 中，让 Copilot 帮助用户运行任务，实现全天候自主运行。目前用户可以通过 Copilot 进行交互操作，但该工具缺乏自主运行能力，所以微软要借助 OpenClaw 实现监控邮箱并生成待办或者智能日程等，也可以帮助销售自动联系客户和收集反馈等。查看详情：https://ourl.co/112636&lt;/p&gt;&lt;p&gt;微软正在研究如何将热门开源项目 OpenClaw AI 机器人集成到 Microsoft 365 商业服务中，测试目的是让 Microsoft 365 Copilot 可以全天候自主运行，帮助客户自动执行各类任务。&lt;/p&gt;
+&lt;p&gt;目前 Copilot AI 助手的功能主要是让用户提出问题并给出回答，也可以代表用户处理文件和表格，但现阶段该助手还不能自主运行，也就是需要用户下发命令进行交互式操作。&lt;/p&gt;
+&lt;p&gt;OpenClaw 项目可以通过各种定时器和工具链全天候自主运行，例如用户设置数据抓取任务后，OpenClaw 可以定时抓取特定网页的数据，并将其整理为用户需要的格式。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2024/03/102838.png" rel="nofollow"&gt;&lt;img alt="微软正在研究将OpenClaw集成到Microsoft 365中 让Copilot帮助用户运行任务" data-src="https://img.lancdn.com/landian/2024/03/102838.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2024/03/102838.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;然而目前最大的问题在于 OpenClaw 拥有的权限较高因此安全性较低，即至少目前来看，用户提供的权限越多，OpenClaw 能够完成的任务也越多，但潜在的安全风险也越高。&lt;/p&gt;
+&lt;p&gt;消息人士透露，微软有信心推出基于 OpenClaw 的更安全的版本，包括适用于不同任务场景的定制权限，不同的智能体只能在特定任务场景和权限集下运行。&lt;/p&gt;
+&lt;p&gt;微软的计划是让 Microsoft 365 Copilot 可以定时检查用户的 Outlook 收件箱和日历，提供关键事件提醒、建立日程安排、提供智能任务建议列表等。&lt;/p&gt;
+&lt;p&gt;而适用于不同场景下的 AI 智能体则可以帮助员工完成特定任务，例如销售 AI 智能体通过限制权限后自动联系客户、收集反馈、协助销售人员进行签单等等。&lt;/p&gt;
+&lt;p&gt;对微软来说如果不改变可能就会被人工智能热潮抛下：Copilot AI 在企业市场中的份额非常低，远远不如 OpenAI 和 Anthropic，或许集成 OpenClaw 可以提升 Copilot 在企业级市场中的竞争力。&lt;/p&gt;
+</description><pubDate>Tue, 14 Apr 2026 02:00:59 +0000</pubDate></item><item><title>亚马逊推出适用于民航科技的Amazon Leo卫星组件 提供1000/400M联网速率</title><link>https://www.landiannews.com/archives/112635.html</link><description>
+&lt;p&gt;#行业资讯 亚马逊推出适用于民航客机的 Amazon Leo 卫星组件，安装后即可在空中提供 1000M 下行互联网接入速率。该组件安装在飞机外部，组件直接连接亚马逊星座卫星，卫星与地面接收站通过激光链路连接，接收站则是连接 AWS 边缘网络再接入互联网，整个链路的延迟非常低。查看详情：https://ourl.co/112635&lt;/p&gt;&lt;p&gt;亚马逊日前推出适用于民航客机的 Amazon Leo 星座卫星组件，民航客机只需要安装该组件后即可通过亚马逊的星座卫星接入互联网，为乘客和机组人员在高空中提供互联网服务。&lt;/p&gt;
+&lt;p&gt;亚马逊推出的卫星组件 (天线) 安装在客机外部，通过航空级连接器从客机获得电力供应，同时也有通信系统可供机组人员控制，这款组件适用于宽体商用飞机、窄体商用飞机以及支线喷气式飞机等。&lt;/p&gt;
+&lt;p&gt;单个卫星组件就可以提供最高 1000M 下行速度和 400M 上行速度，这足以为所有乘客都提供充足的互联网服务，无论是看电视、玩游戏还是听音乐甚至是在线工作都没问题。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112635-1.png" rel="nofollow"&gt;&lt;img alt="亚马逊推出适用于民航科技的Amazon Leo卫星组件 提供1000/400M联网速率" data-src="https://img.lancdn.com/landian/2026/04/112635-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112635-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112635-2.png" rel="nofollow"&gt;&lt;img alt="亚马逊推出适用于民航科技的Amazon Leo卫星组件 提供1000/400M联网速率" data-src="https://img.lancdn.com/landian/2026/04/112635-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112635-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112635-3.png" rel="nofollow"&gt;&lt;img alt="亚马逊推出适用于民航科技的Amazon Leo卫星组件 提供1000/400M联网速率" data-src="https://img.lancdn.com/landian/2026/04/112635-3.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112635-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;飞机在高速飞行时主要与位于低地球轨道的 Amazon Leo 卫星连接，随着飞机和卫星相对位置的移动，系统会自动检测并在需要的时候立即切换到另一颗卫星。&lt;/p&gt;
+&lt;p&gt;卫星则通过激光链路与地面的亚马逊卫星接收站 (网关) 互联，地面网关接入到亚马逊 AWS 网络边缘节点再连接到全球互联网，整个链路的延迟非常低。&lt;/p&gt;
+&lt;p&gt;当然核心还是卫星和地面接收站数量，想要发射更多卫星并不容易，但在地面建设更多接收站难度较小，目前 Amazon Leo 正在地面建设 300 多个卫星网关，这可以继续提高卫星互联网性能。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这个可能取决于航空公司，航空公司通过安装 Amazon Leo 并付费来获得空中互联网连接，通过提供互联网服务可以增强航空公司的竞争力，毕竟更多用户更希望在飞机上上网消磨时间。&lt;/p&gt;
+&lt;p&gt;至于用户是否需要付费还是取决于航空公司，航空公司可以建立航班上的内置网关来提供互联网服务，这也可以改成收费模式，不过空中互联网最终还是会成为主流，未来可能都是可以免费使用的。&lt;/p&gt;
+&lt;p&gt;相关资讯：&lt;a href="https://www.landiannews.com/archives/112522.html" rel="noopener" target="_blank"&gt;亚马逊计划以 90 亿美元收购苹果卫星服务提供商 Globalstar 以壮大卫星网络&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 14 Apr 2026 01:30:53 +0000</pubDate></item><item><title>Windows 11(测试版)现已支持在安装时跳过更新 也就是可以更快进入桌面</title><link>https://www.landiannews.com/archives/112634.html</link><description>
+&lt;p&gt;#系统资讯 Windows 11 (测试版) 现已支持在安装阶段跳过安装更新，可将整个安装过程从十几分钟缩短到几分钟。当前 OOBE 阶段强制联网下载安装更新，这导致用户需要等待很长时间才能进入桌面，而点击跳过则可以更快进入桌面，到时候后台下载更新时用户也可以同时安装其他软件。查看详情：https://ourl.co/112634&lt;/p&gt;&lt;p&gt;当前版本的 Windows 11 在安装进入 OOBE 界面时，微软会强制要求系统联网并下载安装最新更新，如果用户使用的镜像比较旧，则可能需要安装数 GB 的累积更新，这个过程需要耗费较多时间。&lt;/p&gt;
+&lt;p&gt;于是在用户实际安装过程中就会发现卡在 OOBE 界面等待的时间非常长，微软的说法是安装最新更新既可以修复功能错误又可以获得新功能，而且还有利于及时修复各类安全问题。&lt;/p&gt;
+&lt;p&gt;但从用户体验角度来说这并不好，因为完全可以进入桌面后再后台下载安装更新，此时用户还可以在桌面上安装其他软件，这些并行安装任务本身并没有任何冲突。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112634.png" rel="nofollow"&gt;&lt;img alt="Windows 11(测试版)现已支持在安装时跳过更新 也就是可以更快进入桌面" data-src="https://img.lancdn.com/landian/2026/04/112634.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112634.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;所以在此前博客中微软已经承诺将改善 OOBE 安装体验，也就是要给用户提供选项，让用户可以根据自己的需要决定继续安装更新还是直接跳过更新更快进入桌面。&lt;/p&gt;
+&lt;p&gt;现在跳过选项已经在 Windows 11 测试版中上线，OOBE 默认情况下仍然会联网下载最新更新并安装，但用户可以点击「稍后更新」选项直接跳过，跳过后只需要等待数分钟即可进入桌面。&lt;/p&gt;
+&lt;p&gt;这个选项可以将整个安装过程从十几分钟缩短到几分钟，因为本身系统安装阶段花费的时间并不多，更多的还是 OOBE 设置以及安装更新花费的时间，如果用户使用无人值守模板安装那速度可能还会更快。&lt;/p&gt;
+&lt;p&gt;目前新选项仅在 Windows 11 测试版中上线，还不清楚何时会合并到 Windows 11 正式版渠道，微软暂时也没有发布博客详细介绍这个功能。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://x.com/ariaupdated/status/2043693092298223636/photo/1" rel="noopener" target="_blank"&gt;ariaupdated&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 14 Apr 2026 00:59:25 +0000</pubDate></item><item><title>MiniMax发文回应为什么M2.7设置非商业许可 因为总有人拿降智模型忽悠人</title><link>https://www.landiannews.com/archives/112633.html</link><description>
+&lt;p&gt;#人工智能 MiniMax 回应 M2.7 模型为什么采用非商业许可证：主要原因是解决影响声誉的问题。部分平台过度量化、模板错误甚至冒充 M 系列模型，这些问题导致用户认为 M 系列模型就是个水平中等的模型，现在 MiniMax 要求商业使用必须授权，可能要求签署相关协议确保提供足量的 M2.7 模型。查看详情：https://ourl.co/112633&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landiannews.com/archives/112625.html" rel="noopener" target="_blank"&gt;昨天人工智能公司 MiniMax 开源 M2.7 模型&lt;/a&gt;，说是开源但该模型采用的并非标准开源许可证，而是该公司自己编写的非商业许可证，也就是禁止 M2.7 用于任何商业性用途。&lt;/p&gt;
+&lt;p&gt;这种模式严格来说已经不是开源，所以也在社区引起激烈的讨论，现在 MiniMax 开发者团队负责人 Ryan Lee 发文回应为什么要变更许可证，以及为什么要禁止商业性用途。&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;更重要的是 MiniMax 似乎没有对申请商业性使用的托管平台收费&lt;/del&gt; (关于这点蓝点网已经联系 MiniMax 希望获得回应或授权价格说明)，按蓝点网猜测，MiniMax 可能要求托管平台签署相关协议，不能挂羊头卖狗肉，确保不会对 MiniMax 名誉造成影响。&lt;/p&gt;
+&lt;p&gt;更新：签署商业授权协议需要根据商业用途收费。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112625.png" rel="nofollow"&gt;&lt;img alt="MiniMax发文回应为什么M2.7设置非商业许可 因为总有人拿降智模型忽悠人" data-src="https://img.lancdn.com/landian/2026/04/112625.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112625.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;改变的商业许可方面，原因很简单：在过去发布的几个版本里，我们发现一个模式反复出现。我们的模型名称出现在某个托管平台上，有人尝试使用后发现其质量明显不如我们实际发布的版本。&lt;/p&gt;
+&lt;p&gt;过度量化、错误模板、被悄悄替换，有时候托管平台提供的甚至根本就不是我们的模型，这会导致用户认为 MiniMax 模型只是个中等水平的模型，我们承担声誉损失，用户体验糟糕，而那些认真负责的托管服务商却被淹没在各种噪音中。&lt;/p&gt;
+&lt;p&gt;宽松的许可意味着我们对此无能为力，新的许可旨在划清界限：如果您想将 M2.7 作为商业服务运行那必须获得许可，我们认为这种做法对用户和那些认真负责的托管服务提供商都有好处。&lt;/p&gt;
+&lt;p&gt;我们也希望模型的商业用途能够可持续发展，这既有利于运行相关服务的开发者，也有利于我们持续训练和发布更多前沿模型，这两者息息相关，我们希望共同构建一个健康且可持续的生态系统。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 如果社区仍然不满意，MiniMax 可能会修改许可证：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;MiniMax 开发者关系负责人强调，MiniMax 将继续为所有人提供智能服务，继续保持非商业、研究目的和个人用途的免费，快速且合理地处理各类商业性授权申请。&lt;/p&gt;
+&lt;p&gt;以及 MiniMax 将继续倾听来自社区的反馈，如果许可证可能存在损害开源社区合法使用的情况，MiniMax 宁愿修改许可证条款而不是狡辩。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://x.com/ryanleeminimax/status/2043573044065820673?s=12" rel="noopener" target="_blank"&gt;Ryan Lee&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 14 Apr 2026 00:34:01 +0000</pubDate></item><item><title>Claude Code将缓存时间从1小时改成5分钟可能增加用量 但开发团队称这是优化</title><link>https://www.landiannews.com/archives/112632.html</link><description>
 &lt;p&gt;#人工智能 Claude Code 将缓存时间从 1 小时改成 5 分钟可能增加使用成本，但开发团队称这是降低成本的优化措施。开发者认为更快过期的缓存会让 CC 需要频繁输入更多上下文，1 小时过期反而会更好，CC 开发团队则表示很多数据输入一次就不需要了，长时间不清理反而会增加成本。查看详情：https://ourl.co/112632&lt;/p&gt;&lt;p&gt;日前开发者 @seanGSISG 提交问题报告指出 Claude Code 从 2026 年 3 月 6 日开始将缓存生存时间 (TTL) 从 1 小时修改为 5 分钟，也就是缓存过期时间会更快，这可能导致使用成本显著上升。&lt;/p&gt;
 &lt;p&gt;缓存过期时间主要用来控制多长时间内使用缓存数据，如果缓存数据被更快、更频繁的清除，那就需要重新拉取完整数据，这也是开发者认为 tokens 使用量增加的原因。&lt;/p&gt;
 &lt;p&gt;值得注意的是 Claude Code 曾多次调整过缓存生存时间，包括从 5 分钟改成 1 小时，然后又从 1 小时改成 5 分钟，按照开发者的统计，变成缓存生存时间后会增加更多使用成本。&lt;/p&gt;
@@ -24,54 +74,4 @@
 &lt;p&gt;总体而言这些优化和调整可以降低用户的使用总成本，而在 3 月 6 日之前的那些调整并非 Claude Code 预期的稳定状态，3 月 6 日调整后才是稳定状态。&lt;/p&gt;
 &lt;p&gt;最后 Claude Code 团队暂时不考虑提供全局缓存生存时间切换选项，对于缓存读取配额加权问题 (&lt;a href="https://github.com/anthropics/claude-code/issues/45756" rel="noopener" target="_blank"&gt;#45756&lt;/a&gt;)，Claude Code 团队将继续跟进调查。&lt;/p&gt;
 &lt;p&gt;via &lt;a href="https://github.com/anthropics/claude-code/issues/46829" rel="noopener" target="_blank"&gt;Claude Code Issue #46829&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 13 Apr 2026 06:51:13 +0000</pubDate></item><item><title>模仿犯罪开始了？萨姆奥尔特曼住宅又被枪击 两名犯罪嫌疑人已被逮捕</title><link>https://www.landiannews.com/archives/112631.html</link><description>
-&lt;p&gt;#行业资讯 继上周五发生燃烧瓶袭击后，周日凌晨有人朝着萨姆奥尔特曼住宅开枪，目前两名犯罪嫌疑人都被逮捕。被逮捕的包括 25 岁的阿曼达汤姆和 23 岁的穆罕默德侯赛因，监控录像完整拍下整个作案过程，不过目前尚不清楚开枪原因。查看详情：https://ourl.co/112631&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landiannews.com/archives/112605.html" rel="noopener" target="_blank"&gt;上周某位 20 岁男子朝着 OpenAI 首席执行官萨姆奥尔特曼的住宅投掷简易燃烧瓶&lt;/a&gt;，这导致萨姆奥尔特曼住宅大门被火烧，这名男子还前往 OpenAI 总部大楼威胁要烧掉大楼。&lt;/p&gt;
-&lt;p&gt;没想到这种事竟然还能引起模仿行为，当地时间上周日凌晨 01:40，有两名男子驾车在萨姆奥尔特曼住宅附近开枪，随后这两名男子驾车逃离现场。&lt;/p&gt;
-&lt;p&gt;旧金山警方接到报警后通过监控录像查到车牌，接着非常顺利的逮捕两名犯罪嫌疑人，警方搜查犯罪嫌疑人住所时发现三支枪。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112631.png" rel="nofollow"&gt;&lt;img alt="模仿犯罪开始了？萨姆奥尔特曼住宅又被枪击 两名犯罪嫌疑人已被逮捕" data-src="https://img.lancdn.com/landian/2026/04/112631.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112631.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;警方在报告中称，周日凌晨 1 点 40 分，一辆本田轿车 (车内有两人) 经过萨姆奥尔特曼住宅时停了几分钟，当时位于副驾驶的犯罪嫌疑人向住宅开枪。&lt;/p&gt;
-&lt;p&gt;负责这所住宅安全的工作人员听到枪声后立即报警，监控也完整录制了整个过程，警方通过监控录像中的车牌在另一个街区逮捕犯罪嫌疑人。&lt;/p&gt;
-&lt;p&gt;被逮捕的犯罪嫌疑人包括 25 岁的阿曼达汤姆和 23 岁的穆罕默德侯赛因，目前这两人均因疏忽开枪被拘留，但两人开枪的动机还不清楚，不知道是有意针对萨姆奥尔特曼还是临时起意。&lt;/p&gt;
-&lt;p&gt;上周五发生燃烧瓶袭击后，萨姆奥尔特曼曾表示，人们对人工智能的恐惧和焦虑是有道理的，我们正在见证社会多年以来、甚至可能是史上最大的变革。&lt;/p&gt;
-</description><pubDate>Mon, 13 Apr 2026 06:20:13 +0000</pubDate></item><item><title>Linux Kernel 7.0正式版发布 不过主要还是维护更新 聚焦稳定性和错误修复</title><link>https://www.landiannews.com/archives/112630.html</link><description>
-&lt;p&gt;#系统资讯 Linux Kernel 7.0 正式版发布，虽然版本号看着比较整数，不过这个新版本也只是维护更新，重点就是解决稳定性、内核安全、驱动程序兼容性和安全问题。目前各大 Linux 发行版还需要适配，着急体验的用户可以自行下载源码编译新内核。查看详情：https://ourl.co/112630&lt;/p&gt;&lt;p&gt;2026 年的首个主要内核版本 Linux Kernel 7.0 正式版现已发布，该版本继续延续传统内核发布节奏 (非 LTS 版)，并且也主要聚焦内核稳定性和各类错误修复。&lt;/p&gt;
-&lt;p&gt;这次更新实际包含数百个补丁，覆盖多个子系统，重点就是解决稳定性、内核安全、驱动程序兼容性和安全问题，现阶段有兴趣的用户可能还需要手动编译内核，待各大 Linux 发行版适配新内核后就可以升级更新。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2023/08/99983.png" rel="nofollow"&gt;&lt;img alt="Linux Kernel 7.0正式版发布 不过主要还是维护更新 聚焦稳定性和错误修复" data-src="https://img.lancdn.com/landian/2023/08/99983.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2023/08/99983.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;网络方面：涉及 e1000、ixgbe、igb、l2tp、stmmac、nftables 等驱动程序和核心模块，修复 EEPROM 读取返回值检查、闪存重复读取、大包丢弃、IP 隧道递归限制提升以及多处内存泄露等问题。&lt;/p&gt;
-&lt;p&gt;内存管理：修复 filemap_map_pages、memory_hotplug、vma 等模块中的 nr_pages 溢出，热插拔内存标记维护，修复内存泄露等问题。&lt;/p&gt;
-&lt;p&gt;安全加密：修正 af_alg、X.509、xfrm、eventpoll、af_unix 等模块，包括 RX SG 提取缓冲区限制，X.509 扩展解析越界访问、RCU 安全删除等，提升内核安全防护能力。&lt;/p&gt;
-&lt;p&gt;硬件支持：新增或优化对包括 ThinkPad L14 Gen3、VXE Dragonfly R1 Pro、Lenovo P16s G5 AMD 等多款设备的支持。&lt;/p&gt;
-&lt;p&gt;架构修复：针对 x86、arm64、riscv、s390 等架构进行修复，解决 DTS、KVM、shadow stack、MCE 等多处问题。&lt;/p&gt;
-&lt;p&gt;文件系统：针对 ocfs2、cachefiles、mmc、ata 等模块修复越界写入，修复 dentry 引用计数、修复 NULL 解引用等问题。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;i&gt;&lt;/i&gt;&lt;p&gt; Linux Kernel 7.1 合并窗口现已开启：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在新正式版发布后，Linus Torvalds 也已经开启 Linux Kernel 7.1 内核的合并窗口，这个新内核目前已经收到超过 50 个 PR，预计后续开发也会更加活跃，不过具体会带来哪些新功能或改进还需要观察后面的 RC 版。&lt;/p&gt;
-&lt;p&gt;另外有兴趣的开发者可以通过官方 Git 仓库或主流发行版仓库获得 Linux Kernel 7.0 源码和二进制包，详情请访问：&lt;a href="https://lwn.net/Articles/1067330/" rel="noopener" target="_blank"&gt;https://lwn.net/Articles/1067330/&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 13 Apr 2026 06:00:37 +0000</pubDate></item><item><title>微软发文解释为什么取消离线电话激活系统 保持流程简单并仍提供离线激活</title><link>https://www.landiannews.com/archives/112629.html</link><description>
-&lt;p&gt;#行业资讯 微软发文介绍为什么要关闭离线的电话激活系统：防止欺诈、为用户提供简洁和现代的操作界面。从去年 12 月开始微软关闭传统电话激活系统，离线激活需要通过微软激活门户网站进行，也就是可以继续离线激活，但必须依赖可以联网的其他设备。查看详情：https://ourl.co/112629&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landiannews.com/archives/111392.html" rel="noopener" target="_blank"&gt;2025 年 12 月起微软取消电话激活系统&lt;/a&gt;，该系统原本用于离线激活机制，让用户可以在完全没有互联网的环境里也可以轻松激活系统，本质上这种离线激活系统就是算号器。&lt;/p&gt;
-&lt;p&gt;不过需要强调的是微软取消的只是电话激活系统，Windows 10/11 以及各种服务器系统和 Microsoft Office 的离线激活机制并未消失，只是用户需要通过网页执行操作。&lt;/p&gt;
-&lt;p&gt;在网页版中微软仍然提供算号器类似功能，用户在系统里生成对应的离线激活产品 ID，在网页激活门户里粘贴产品 ID，激活门户随后会返回用于最终激活的专用激活 ID。&lt;/p&gt;
-&lt;p&gt;唯一变化在于，以前在完全离线的环境里用户可以通过拨打电话方式激活，现在则需要先生成产品 ID，然后在联网环境里使用手机或其他计算机获得激活 ID，再回到离线环境中执行激活。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://img.lancdn.com/landian/public/thumb/W11.webp" rel="nofollow"&gt;&lt;img alt="微软发文解释为什么取消离线电话激活系统 保持流程简单并仍提供离线激活" data-src="https://img.lancdn.com/landian/public/thumb/W11.webp" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/public/thumb/W11.webp"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;微软对永久许可证的激活体验进行现代化改造，传统的电话产品激活自动化流程已经从电话转移到线上，全新的数字化工作流程提供更加安全、可靠且友好的激活体验，并且有助于防止欺诈。&lt;/p&gt;
-&lt;p&gt;虽然流程已经更新，但离线激活功能仍然还是提供的，依赖于传统离线激活方式的客户无需改变其环境即可继续激活和使用微软的产品。&lt;/p&gt;
-&lt;p&gt;产品激活门户也支持激活各种微软永久产品，并且也同时支持联网和非联网设备，此次升级确保激活流程保持简单、灵活和可靠，同时为所有用户提供现代化和简洁的界面。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;现在无论是微软个人账户、工作账户、学校账户、Microsoft Entra ID 账户以及 Microsoft Azure 政府账户，都可以通过微软产品激活门户执行操作。&lt;/p&gt;
-&lt;p&gt;微软还强调，用户在激活门户登录的账户并非与产品许可证关联，也就是说即便用户使用个人账户登录，也可以用来激活企业产品，因为登录仅仅只是用于微软的安全验证。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://support.microsoft.com/en-us/windows/activate-microsoft-perpetual-products-using-the-product-activation-portal-64fdc7f5-ce38-42a9-aea8-393020149983" rel="noopener" target="_blank"&gt;Microsoft&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 13 Apr 2026 05:31:37 +0000</pubDate></item><item><title>R星证实部分数据被黑客窃取 不过R星表示爱咋咋赎金是不可能的</title><link>https://www.landiannews.com/archives/112628.html</link><description>
-&lt;p&gt;#安全资讯 游戏开发商 R 星遭到黑客攻击被窃取数据索要赎金，R 星：爱咋咋无所谓，赎金是不可能支付的。发起攻击的黑客也是 ShinyHunter，这个黑客团队要求 R 星联系并支付赎金，否则就等着数据被公开，不过 R 星称被窃取的都是重要性不高的数据，对公司和玩家来说没影响。查看详情：https://ourl.co/112628&lt;/p&gt;&lt;p&gt;知名游戏开发商 Rockstar Games 似乎再次遭到黑客攻击，不过被攻击的并非 R 星本身，而是该公司使用的 Snowflake 实例，发起攻击的则是专注于窃取数据索要赎金的 ShinyHunter 黑客团队。&lt;/p&gt;
-&lt;p&gt;ShinyHunter 此前已经攻击多家知名公司并窃取数据，其中不愿意支付赎金的公司数据也确实被公开，但现在也没有公开报道显示有哪些公司最终支付赎金换取数据保密。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112628.png" rel="nofollow"&gt;&lt;img alt="R星证实部分数据被黑客窃取 不过R星表示爱咋咋赎金是不可能的" data-src="https://img.lancdn.com/landian/2026/04/112628.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112628.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;R 星，你们位于 Anodot.com 的 Snowflake 实例已经被入侵，要么支付赎金，要么等待数据泄露。&lt;/p&gt;
-&lt;p&gt;这是最后通牒，请在 2026 年 4 月 14 日前联系我们，否则我们将泄露数据，给你们带来一系列令人恼火的问题。&lt;/p&gt;
-&lt;p&gt;做正确的选择，别成为下一个头条新闻。&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;注：Anodot 是个分析和监控工具，不少公司使用该工具追踪财务状态，通常需要将 Anodot 连接公司内部的云基础设施，在本次事件中，R 星就是将 Anodot 连接到公司内部的 Snowflake 实例。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;R 星官方发言人就此次数据泄露事件发布回应称，黑客仅窃取非实质性的公司信息，这次攻击对 R 星或玩家都没有任何影响。&lt;/p&gt;
-&lt;p&gt;从这个回应来看就知道 R 星大概率是不会支付赎金的，毕竟对 R 星来说泄露的数据最多也就是部分公司内部数据或财务数据，对玩家数据没影响 (如果是玩家数据泄露则可能带来更大的安全问题和公关危机)。&lt;/p&gt;
-&lt;p&gt;如果最终 ShinyHunter 将数据公布，或许对游戏玩家来说还是个好事？因为可以窥见 R 星内部的支出习惯，例如游戏营销策略、成本以及游戏潜在发售时间等。&lt;/p&gt;
-</description><pubDate>Mon, 13 Apr 2026 03:49:32 +0000</pubDate></item></channel></rss>
+</description><pubDate>Mon, 13 Apr 2026 06:51:13 +0000</pubDate></item></channel></rss>
