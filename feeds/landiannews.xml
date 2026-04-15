@@ -1,5 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 15 Apr 2026 04:00:58 +0000</lastBuildDate><item><title>英伟达准备收购戴尔或者惠普？英伟达：我不是！我没有！别乱说啊！</title><link>https://www.landiannews.com/archives/112665.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 15 Apr 2026 07:03:15 +0000</lastBuildDate><item><title>Anthropic Claude推出身份验证 使用某些功能可能要上传证件和自拍照</title><link>https://www.landiannews.com/archives/112667.html</link><description>
+&lt;p&gt;#人工智能 Anthropic 为 Claude 推出身份验证机制，使用某些功能或触发风控后可能会要求提交身份证进行验证。Anthropic 称使用某些功能时可能触发验证，如果触发验证那就必须提交证件才能恢复功能，实际验证时可能还需要提交自拍照。查看详情：https://ourl.co/112667&lt;/p&gt;&lt;p&gt;Anthropic 本周发布新支持文章介绍 Claude 可能触发的身份验证机制，该公司称为确保负责任地使用强大技术，首先就必须了解是谁在使用这些 AI 服务，通过身份验证机制有助于 Anthropic 防止滥用并履行法律义务。&lt;/p&gt;
+&lt;p&gt;现阶段 Claude 部分使用场景可能会触发身份验证机制，如果用户碰到身份验证环节则需要提交证件进行验证，验证后可以继续使用相关功能，未通过验证则会被限制使用 Claude 的某些功能。&lt;/p&gt;
+&lt;p&gt;身份验证功能由 Persona Identities 进行，Anthropic 承诺用户提交的证件仅用于验证用途，具体数据保存时间和使用机制则由 Anthropic 控制，数据仅保存在 Persona Identities 服务器。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/05/109080-1.png" rel="nofollow"&gt;&lt;img alt="Anthropic Claude推出身份验证 使用某些功能可能要上传证件和自拍照" data-src="https://img.lancdn.com/landian/2025/05/109080-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/05/109080-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;触发验证后用户需要拍摄实体证件进行验证，需要通过手机摄像头或其他网络摄像头进行实时拍摄，不支持提交现有证件的照片或者复印件等。&lt;/p&gt;
+&lt;p&gt;可供提交验证的证件包括但不限于：国民身份证、护照、驾驶证等，大多数国家或地区政府签发的法定身份证明均可使用。&lt;/p&gt;
+&lt;p&gt;不支持进行验证的包括但不限于：复印件、屏幕截图、扫描件、照片、数字身份证明以及非政府签发的证件例如学生证、工作证、员工证、银行卡。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Anthropic 作为验证数据控制方会制定数据的使用规则和保存期限，Persona 会根据 Anthropic 的指示在服务器上处理和保存这些数据。&lt;/p&gt;
+&lt;p&gt;用户提交的身份证件和&lt;strong&gt;自拍照&lt;/strong&gt;将由 Persona 收集和保存，Anthropic 会在必要时通过 Persona 平台访问这些验证记录，但 Anthropic 本身不会辅助或存储这些证件图像。&lt;/p&gt;
+&lt;p&gt;Anthropic 不会使用身份验证数据来训练模型，也不会收集超出必要的信息，不会与任何第三方共享用户的身份数据，数据不会用于营销、广告和任何与验证无关的目的。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Anthropic 可能会出于各种原因封禁用户账号，例如用户使用行为屡次违反使用政策、从不受支持的国家或地区创建账号、违反服务条款、未成年人注册和使用账号。&lt;/p&gt;
+&lt;p&gt;这种情况下即便提交身份验证后也可能会被封号，Anthropic 也提供账号解封机制，如果用户账号被错误封禁，可以&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSdcTocgFJXSJzFJzVc47nxKmjeVhXDfgRaifH3DUZhYarA8vA/viewform?usp=dialog" rel="noopener" target="_blank"&gt;点击这里&lt;/a&gt;提交申诉表。&lt;/p&gt;
+</description><pubDate>Wed, 15 Apr 2026 07:03:15 +0000</pubDate></item><item><title>Cloudflare推出全球跨设备跨网私有组网服务Mesh 每账号支持50设备+50用户</title><link>https://www.landiannews.com/archives/112666.html</link><description>
+&lt;p&gt;#网络服务 Cloudflare 推出加密私有组网服务 Mesh，利用 Cloudflare 强大的基础设施实现跨网跨设备加密组网并全球访问。该服务目前已经上线，每账号支持 50 台设备 + 50 个用户，让团队可以将所有资源放在同一个私有网络上，任意节点也都可以访问 Mesh 中的全部资源。查看详情：https://ourl.co/112666&lt;/p&gt;&lt;p&gt;网络服务提供商 Cloudflare 日前宣布推出私有组网服务 Cloudflare Mesh，该服务可以将诸多设备通过加密隧道组成私有网络并进行安全访问，无论是常规设备还是 AI 智能体都可以当做网状节点连接到 Cloudflare Mesh 中。&lt;/p&gt;
+&lt;p&gt;Cloudflare Mesh 适用于多种使用场景，例如基础设施访问控制、用于 SSH 和 RDP 会话管理；用于浏览器隔离确保安全的 Web 访问；防止敏感数据离开你的网络；安全访问云端智能体保障 SaaS 安全等。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112666.png" rel="nofollow"&gt;&lt;img alt="Cloudflare推出全球跨设备跨网私有组网服务Mesh 每账号支持50设备+50用户" data-src="https://img.lancdn.com/landian/2026/04/112666.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112666.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; Cloudflare Mesh 与 Tailscale 对比：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;说起异地组网不得不提到知名开源服务 Tailscale，该服务被诸多用户和开发者使用，在功能上 Cloudflare 实现与 Tailscale 相同的功能，不过技术原理和使用场景都是不同的。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;路由方式：Tailscale 侧重于 P2P 加密直连 + 中继模式，Mesh 全程走 Cloudflare 中继网络加密连接。&lt;/li&gt;
+&lt;li&gt;加密方式：Tailscale 基于 WireGuard 端到端加密，Mesh 使用后量子加密技术，流量通过 Cloudflare 处理。&lt;/li&gt;
+&lt;li&gt;协议方式：Tailscale 支持 TCP/UDP/ICMP 等任意流量，Mesh 支持的情况基本相同。&lt;/li&gt;
+&lt;li&gt;子网路由：Tailscale 支持的设备范围极广，Mesh 目前支持 VM 和服务器以及带 UI 的设备。&lt;/li&gt;
+&lt;li&gt;安全集成：Tailscale 支持 ACL、MagicDNS 和 SSH，Mesh 继承 Cloudflare One 全套 Zero Trust 机制。&lt;/li&gt;
+&lt;li&gt;AI 智能体：Tailscale 可以支持智能体但需要自行配置，Mesh 可以与 Cloudflare Workers 等进行集成。&lt;/li&gt;
+&lt;li&gt;免费额度：Tailscale 个人和小团队免费 100 设备 / 用户，Mesh 每账号免费 50 台设备 + 50 个用户。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;关键区别在于 Tailscale 追求低延迟和隐私保护 (尽量 P2P 直连不经过中继服务器)，Cloudflare Mesh 追求服务一致性、统一安全策略和支持团队或企业的安全控制策略等。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Cloudflare 在博客中还提到可能会有用户想着为什么使用 Mesh 而不是 Tunnel，两者都可以将外部网络私密地连接到 Cloudflare，不过 Tunnel 是单向流量的理想解决方案，Mesh 则提供完整的双向多对多网络。&lt;/p&gt;
+&lt;p&gt;Mesh 中的每个设备和节点都可以使用私有 IP 地址相互访问，网络中运行的应用程序或 AI 智能体可以发现并访问 Mesh 上的任何其他资源，每个资源都不需要拥有自己的隧道。&lt;/p&gt;
+&lt;p&gt;同时所有 Mesh 流量都会经过 Cloudflare 全球网络路由，这些网络基础设施提供强大的弹性和稳定性，可以通过全球骨干网络覆盖全球诸多城市，无需用户提供中继服务器即可跨网全球访问。&lt;/p&gt;
+&lt;p&gt;有兴趣的用户可以访问 Cloudflare Mesh 博客介绍页面快速入门：&lt;a href="https://blog.cloudflare.com/mesh/" rel="noopener" target="_blank"&gt;https://blog.cloudflare.com/mesh/&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 15 Apr 2026 06:37:59 +0000</pubDate></item><item><title>英伟达准备收购戴尔或者惠普？英伟达：我不是！我没有！别乱说啊！</title><link>https://www.landiannews.com/archives/112665.html</link><description>
 &lt;p&gt;#行业资讯 有消息称英伟达可能会收购戴尔或者惠普来打造 AI 数据中心服务器，英伟达回应称：我不是！我没有！别乱说啊！SemiAccurate 早前发布消息称英伟达计划收购某家大型 PC 制造商，当然说是 PC 制造商不是只造 PC，重点是制造服务器，不过现在英伟达已经否认传闻。查看详情：https://ourl.co/112665&lt;/p&gt;&lt;p&gt;早前关注半导体行业的科技媒体 SemiAccurate 发布消息称，英伟达正在计划收购某家大型 PC 制造商，相关收购谈判已经持续数年并且英伟达可能会在近期决定是否推进该交易。&lt;/p&gt;
 &lt;p&gt;拟被收购的大型 PC 制造商具体是谁没人知道，但消息发布后戴尔和惠普股价飙升，因为这两家公司都可能是潜在的收购目标，不过目前没有任何证据表明英伟达计划收购哪家公司。&lt;/p&gt;
 &lt;p&gt;SemiAccurate 称早在 2024 年年底就已经听说这笔潜在的交易，不过现阶段也仅仅是谈判，并不能保证最终是否会达成交易，这不仅仅是英伟达内部问题，还有潜在的反垄断审查等问题。&lt;/p&gt;
@@ -33,28 +70,4 @@
 &lt;p&gt;虚假应用通过苹果审核并造成巨额损失，在这起加密货币盗窃事件中苹果是否应该承担责任呢？链上追踪专家 ZachXBT 认为苹果应该承担审核不力的责任，受害者或许考虑发起集体诉讼要求苹果赔偿损失。&lt;/p&gt;
 &lt;p&gt;受害者 @Glove 是名退休的音乐家，他也是曝光这起事件的最初受害者，这名音乐家十多年的积蓄 --- 5.9 个比特币全部被盗，可以想象此时这名音乐家的心情是多么糟糕。&lt;/p&gt;
 &lt;p&gt;然而从目前情况来看依靠链上追回损失难度极大，而指望苹果提供赔偿难度也同样非常大，如果不能追回损失，这名音乐家可能要结束退休生活重新开始工作。&lt;/p&gt;
-</description><pubDate>Wed, 15 Apr 2026 03:00:58 +0000</pubDate></item><item><title>微软在本月修复高达165个新安全漏洞 很难说是不是AI在后面帮忙</title><link>https://www.landiannews.com/archives/112662.html</link><description>
-&lt;p&gt;#安全资讯 微软在本月修复高达 165 个新安全漏洞，很难说是不是人工智能在后面帮忙。微软本月修复的漏洞里，有 164 个新发现未公开的，1 个已经被黑客利用，不过微软强调今天的更新并未反映出 AI 驱动的漏洞发现数量显著增加，但确实有一个漏洞是 Anthropic 的安全研究员通过 Claude 发现的。查看详情：https://ourl.co/112662&lt;/p&gt;&lt;p&gt;今天微软发布适用于多款产品的 2026 年 4 月例行更新，在本月更新中微软合计修复高达 165 个新的安全漏洞，这些漏洞中 164 个是新发现未被公开的，仅 1 个漏洞属于已知的、在野外遭到黑客利用的漏洞。&lt;/p&gt;
-&lt;p&gt;这个被积极利用的漏洞属于 Microsoft SharePoint Server，该漏洞 (CVE-2026-32201) 属于输入验证不当，攻击者可以通过网络进行欺骗并查看敏感信息或者篡改内容等。&lt;/p&gt;
-&lt;p&gt;不过微软并未透露这个漏洞的发现者以及更多细节，The Register 猜测微软可能是借助人工智能发现的漏洞，不过微软在官方回应中否认本月修复如此多的漏洞是借助 AI 实现的。&lt;/p&gt;
-&lt;p&gt;注：修复的漏洞遍布微软各种产品，不仅仅是 Windows 11 的。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://img.lancdn.com/landian/public/thumb/W11.webp" rel="nofollow"&gt;&lt;img alt="微软在本月修复高达165个新安全漏洞 很难说是不是AI在后面帮忙" data-src="https://img.lancdn.com/landian/public/thumb/W11.webp" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/public/thumb/W11.webp"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;微软安全响应中心 (MSRC) 每年都会处理来自微软内部和外部研究人员提交的数千份漏洞报告，因此每次更新中修复的漏洞数量可能会有所不同。&lt;/p&gt;
-&lt;p&gt;今天的更新并未反映出人工智能驱动的漏洞发现数量显著增加，不过我们确实将某个漏洞归功于 Anthropic 某位研究人员使用 Claude 来发现这个漏洞并向我们通报。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;尽管微软否认，不过从漏洞数量来看人工智能技术的应用可能是快速提高漏洞发现数量的关键因素，极有可能微软内部和外部研究人员都在使用人工智能技术发掘漏洞。&lt;/p&gt;
-&lt;p&gt;这个其实可以通过后续的观察来分辨：如果后续微软每月发布的漏洞数量还稳步在 160 个或者更高，估计背后就是由 AI 驱动的，毕竟正常情况下微软不太可能会发现如此多的漏洞。&lt;/p&gt;
-&lt;p&gt;当然微软的漏洞披露也并非百分百准确或完善，例如 CVE-2026-33825 属于 Microsoft Defender 中的权限提升漏洞，微软在安全公告中并未提到这个漏洞。&lt;/p&gt;
-&lt;p&gt;然而发现这个漏洞的研究人员已经将其相关细节发布到 GitHub 上，这名研究人员不满微软的漏洞报告流程，最终直接公布漏洞，所以这个漏洞可能也已经遭到利用。&lt;/p&gt;
-</description><pubDate>Wed, 15 Apr 2026 02:30:58 +0000</pubDate></item><item><title>OpenAI也推出安全研究AI模型GPT-5.4-Cyber 同时支持个人/企业申请使用</title><link>https://www.landiannews.com/archives/112661.html</link><description>
-&lt;p&gt;#人工智能 OpenAI 也推出安全研究 AI 模型 GPT-5.4-Cyber，好消息是个人安全研究员经过身份验证后也可以申请使用。该模型经过微调可以用于发掘漏洞、修复漏洞、对恶意软件进行逆向等，模型安全边界比较宽松，可以帮助企业提高网络安全防御能力。查看详情：https://ourl.co/112661&lt;/p&gt;&lt;p&gt;此前 Anthropic 面向部分顶级科技公司推出 Claude Mythos，该模型主要用于网络安全研究目的，可以帮助企业发掘自己系统的安全漏洞从而增强防御能力。&lt;/p&gt;
-&lt;p&gt;不过由于 Claude Mythos 潜在威力过于恐怖，所以该模型仅面向特定企业，企业需要提交详细的申请并获得批准后才能获得模型使用权限，至于个人安全研究员那是没法使用的。&lt;/p&gt;
-&lt;p&gt;现在 OpenAI 也推出类似的安全研究 AI 模型 GPT-5.4-Cyber，该模型是基于 GPT-5.4 开发的网络友好型模型，主要目的同样是为了提高网络安全防御能力。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112661.png" rel="nofollow"&gt;&lt;img alt="OpenAI也推出安全研究AI模型GPT-5.4-Cyber 同时支持个人/企业申请使用" data-src="https://img.lancdn.com/landian/2026/04/112661.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112661.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;OpenAI 表示，未来几个月该公司将会推出越来越强大的模型，所以当前先推出 GPT-5.4-Cyber 为后续模型铺路，GPT-5.4-Cyber 经过特殊训练专门用于网络安全防御目的。&lt;/p&gt;
-&lt;p&gt;只有证明自己是网络安全防御者的用户才能使用 GPT-5.4-Cyber 模型，安全研究员可以通过该模型发掘漏洞、对恶意软件进行逆向、修复安全漏洞等等。&lt;/p&gt;
-&lt;p&gt;好消息是与 Claude Mythos 不同的是，OpenAI 也允许个人安全研究员申请该模型，即只要能证明自己仅仅是出于安全研究目的那就可以尝试申请模型访问权限。&lt;/p&gt;
-&lt;p&gt;OpenAI 强调，现阶段由于该模型的安全限制比较宽松，因此仅面向经过审查的安全软件提供商、企业和研究人员进行有限的、迭代式的部署。&lt;/p&gt;
-&lt;p&gt;个人安全研究员可以通过 &lt;a href="https://chatgpt.com/cyber" rel="noopener" target="_blank"&gt;chatgpt.com/cyber&lt;/a&gt; 验证自己的身份并提交申请，企业客户则可以通过 OpenAI 的商务代表申请权限，当然申请不代表着一定会获得批准，所有用户都必须等待批准后才能访问 GPT-5.4-Cyber。&lt;/p&gt;
-</description><pubDate>Wed, 15 Apr 2026 02:00:22 +0000</pubDate></item></channel></rss>
+</description><pubDate>Wed, 15 Apr 2026 03:00:58 +0000</pubDate></item></channel></rss>
