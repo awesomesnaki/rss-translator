@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 14 Apr 2026 22:06:18 +0000</lastBuildDate><item><title>Mac App Store中的欺诈性加密货币应用从50多名用户处窃取了950万美元</title><link>https://www.web3isgoinggreat.com/?id=fake-ledger-app</link><description>&lt;p&gt;莫莉·怀特在《Web3进展顺利》中写道：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Wed, 15 Apr 2026 14:34:44 +0000</lastBuildDate><item><title>iOS 屏幕缩放</title><link>https://mastodon.social/@stroughtonsmith/116404958539831051</link><description>&lt;p&gt;史蒂文·特劳顿-史密斯：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果你想在iOS或iPadOS上进行像素级观察，它同样具备缩放辅助功能设置，并可通过触摸、键盘或触控板进行控制。该功能也适用于屏幕镜像，并提供了其他选项，如迷你地图和HUD（‘缩放控制器’）。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这些设置位于“设置”→“辅助功能”→“缩放”中。我更喜欢将“缩放区域”从默认的“窗口缩放”（它会提供一个可拖动的放大镜窗口）切换到“全屏幕缩放”，这更类似于&lt;a href="https://daringfireball.net/linked/2026/04/13/macos-zoom-gesture"&gt;Mac上的缩放工作方式&lt;/a&gt;。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/04/15/screen-zooming-on-ios" title="‘iOS屏幕缩放’的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Wed, 15 Apr 2026 14:34:44 +0000</pubDate></item><item><title>Mac App Store中的欺诈性加密货币应用从50多名用户处窃取了950万美元</title><link>https://www.web3isgoinggreat.com/?id=fake-ledger-app</link><description>&lt;p&gt;莫莉·怀特在《Web3进展顺利》中写道：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;一款假冒的Ledger加密货币钱包应用进入了通常审核严格的苹果应用商店，导致用户因这款恶意产品损失了950万美元。人们误以为这是正版Ledger产品，在应用中输入了他们的助记词，随后发现自己的钱包资金被瞬间盗空。&lt;/p&gt;
 &lt;p&gt;一位化名G. Love的音乐人受害者写道：“我在将Ledger转移到新电脑时，不小心从苹果商店下载了一款恶意Ledger应用，导致我的退休基金在一次黑客攻击/诈骗中损失殆尽。我所有的比特币瞬间消失。”据他称，他损失了5.9枚比特币（约合44.5万美元）。&lt;/p&gt;
@@ -42,15 +48,4 @@
 &lt;p&gt;再见了 Keynote、Numbers 和 Pages，Keynote：设计演示文稿、Numbers：制作电子表格、Pages：创建文档 万岁。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;a href="https://daringfireball.net/linked/2026/04/14/pages-numbers-keynote-old-versions-mac-app-store" title="永久链接至‘苹果已在Mac App Store中隐藏Keynote、Numbers和Pages的Pre-Creator-Studio版本’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Tue, 14 Apr 2026 21:07:35 +0000</pubDate></item><item><title>谷歌将于六月开始惩罚劫持后退按钮的网站</title><link>https://developers.google.com/search/blog/2026/04/back-button-hijacking</link><description>&lt;p&gt;谷歌在其搜索中心博客上写道：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;今天，我们正在扩展我们的&lt;a href="https://developers.google.com/search/docs/essentials/spam-policies"&gt;垃圾信息政策&lt;/a&gt;，以应对一种被称为“后退按钮劫持”的欺骗性做法，这将明确违反垃圾信息政策中的“&lt;a href="https://developers.google.com/search/docs/essentials/spam-policies#malicious-practices"&gt;恶意行为&lt;/a&gt;”，并可能导致垃圾信息处理措施。&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;什么是后退按钮劫持？&lt;/em&gt;&lt;br/&gt;
-当用户点击浏览器中的“后退”按钮时，他们有一个明确的期望：他们想返回到上一页。后退按钮劫持破坏了这一基本期望。当网站干扰用户的浏览器导航，阻止他们使用后退按钮立即返回到他们来自的页面时，就会发生这种情况。相反，用户可能会被发送到他们从未访问过的页面，看到未经请求的推荐或广告，或者只是被阻止正常浏览网页。&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;我们为什么要采取行动？&lt;/em&gt;&lt;br/&gt;
-我们相信用户体验是第一位的。后退按钮劫持干扰了浏览器的功能，破坏了预期的用户旅程，并导致用户沮丧。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;谷歌惩罚这些耍弄肮脏伎俩的网站是件好事，但是，如果他们相信用户体验是第一位的，为什么他们直到2026年现在才来解决这个问题？这里有一个15年前的Reddit帖子：“&lt;a href="https://www.reddit.com/r/technology/comments/efwtl/why_the_fuck_do_websites_hijack_the_back_button/"&gt;为什么网站要劫持后退按钮？这他妈太烦人了&lt;/a&gt;”。而且他们为什么要等到六月才执行？现在就惩罚这些混蛋吧。&lt;/p&gt;
-&lt;p&gt;我个人没怎么遇到过后退按钮劫持，也许是因为我不访问可疑的网站，但整个问题的存在完全是因为JavaScript。如果网页只是文档，这甚至是不可能的。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/04/14/google-penalizing-back-button-hijacking" title="‘Google Will Finally Begin Punishing Sites for Back-Button Hijacking in June’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Tue, 14 Apr 2026 20:25:18 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 14 Apr 2026 21:07:35 +0000</pubDate></item></channel></rss>
