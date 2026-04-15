@@ -1,6 +1,6 @@
 # RSS 中文翻译源
 
-更新时间: 2026-04-15 12:08 UTC
+更新时间: 2026-04-15 13:15 UTC
 
 ## 订阅链接
 
@@ -16,7 +16,6 @@
 - indieapp: https://awesomesnaki.github.io/rss-translator/feeds/indieapp.xml
 - kaushikgopal: https://awesomesnaki.github.io/rss-translator/feeds/kaushikgopal.xml
 - landiannews: https://awesomesnaki.github.io/rss-translator/feeds/landiannews.xml
-- luobo8: https://awesomesnaki.github.io/rss-translator/feeds/luobo8.xml
 - mac52ipod: https://awesomesnaki.github.io/rss-translator/feeds/mac52ipod.xml
 - macmenubar: https://awesomesnaki.github.io/rss-translator/feeds/macmenubar.xml
 - marco: https://awesomesnaki.github.io/rss-translator/feeds/marco.xml
