@@ -273,6 +273,12 @@ def fetch_full_article(url):
             if content:
                 return content
 
+        # 博海拾贝（luobo8 源）用专用解析，readability 经常扒到打赏弹窗而不是正文
+        if 'bohaishibei.com/post/' in url:
+            content = extract_bohaishibei_content(resp.text)
+            if content:
+                return content
+
         doc = Document(resp.text)
         content = doc.summary()
         if content and content.strip():
@@ -285,6 +291,60 @@ def fetch_full_article(url):
     except Exception as e:
         print(f"  抓取出错 {url}: {e}")
         return None
+
+def extract_bohaishibei_content(html):
+    """从博海拾贝文章页提取正文，去掉打赏弹窗、面包屑、分享按钮等站内装饰"""
+    soup = BeautifulSoup(html, 'html.parser')
+    article = soup.find('article', id=re.compile(r'^post-\d+'))
+    if not article:
+        return None
+
+    # 去掉打赏弹窗（里面有 wechat.gif / alipay.gif）
+    for m in article.select('#myModal'):
+        m.decompose()
+
+    # 去掉 header（标题/作者/日期/分享按钮）
+    for h in article.find_all('header'):
+        h.decompose()
+
+    # 去掉分享按钮容器
+    for s in article.select('[data-sites]'):
+        s.decompose()
+
+    # 去掉打赏按钮（连同它的 <p> 父元素一起）
+    for btn in article.select('#myBtn'):
+        parent = btn.find_parent('p')
+        if parent:
+            parent.decompose()
+        else:
+            btn.decompose()
+
+    # 去掉面包屑导航：指向首页/分类/作者页的链接
+    for a in list(article.find_all('a')):
+        href = a.get('href', '')
+        if (href.rstrip('/') == 'https://www.bohaishibei.com'
+                or '/post/category/' in href
+                or '/post/author/' in href):
+            a.decompose()
+
+    # 去掉站内上传的图片（打赏二维码等装饰 gif 都在 wp-content/uploads 下）
+    for img in article.find_all('img'):
+        src = img.get('src', '')
+        if 'bohaishibei.com/wp-content/uploads' in src:
+            img.decompose()
+
+    # 清掉空的 <i>（图标占位符）
+    for i in article.find_all('i'):
+        if not i.get_text(strip=True) and not i.find('img'):
+            i.decompose()
+
+    # 必须有实际文字或图片才算提取成功
+    text = article.get_text(strip=True)
+    imgs = article.find_all('img')
+    if not text and not imgs:
+        return None
+
+    return str(article)
 
 def extract_v2ex_content(html):
     """从 V2EX 帖子页面提取主帖和评论，生成干净的 HTML"""
