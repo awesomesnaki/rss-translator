@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 15 Apr 2026 09:09:44 +0000</lastBuildDate><item><title>零工/兼职任务平台Fiverr泄露用户文件且不修复 大量文件暴露在公网</title><link>https://www.landiannews.com/archives/112669.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 15 Apr 2026 09:41:08 +0000</lastBuildDate><item><title>微软和AMD研究员都在吐槽Claude Code质量下降 疑似是为了节省tokens</title><link>https://www.landiannews.com/archives/112670.html</link><description>
+&lt;p&gt;#人工智能 Claude Opus 4.6 和 Claude Code 质量显著下降引起诸多用户和开发者不满，Anthropic 被指调整 Claude Code 模型努力程度减少算力消耗。AMD AI 总监和微软 AI 研究员也都吐槽 Claude Code 现在已经无法用于复杂工作流程，即便将努力程度调整到最高也仍然出现指令忽略和重复错误。查看详情：https://ourl.co/112670&lt;/p&gt;&lt;p&gt;美国财富杂志日前发布专门文章报道 Claude Code 近期遭遇的性能下降问题，目前有不少开发者和重度用户在社交网站、GitHub 和 Reddit 论坛表达不满，质疑模型变笨以及指令遵循能力下降等。&lt;/p&gt;
+&lt;p&gt;部分开发者认为发生这种情况的根本原因是 AI 算力紧张，所以 Anthropic 故意将面向非企业的订阅用户模型质量下调，目的是减少用户在执行任务时的 tokens 消耗。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/07/109974.png" rel="nofollow"&gt;&lt;img alt="微软和AMD研究员都在吐槽Claude Code质量下降 疑似是为了节省tokens" data-src="https://img.lancdn.com/landian/2025/07/109974.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/07/109974.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;目前开发者反馈的问题集中在 Claude Opus 4.6 模型和 Claude Code 编码工具在复杂工作流中的表现明显退化，包括无法严格遵循指令、倾向于采用不恰当的快捷方式、在多步骤任务中出错增多、过早停止任务或者反复询问不必要的许可。&lt;/p&gt;
+&lt;p&gt;这导致原本以研究优先方式处理任务的模型转向编辑优先，进而导致模型在上下文阅读方面不足、错误率上升，更频繁地需要用户进行人为干预修正模型的执行方向。&lt;/p&gt;
+&lt;p&gt;AMD AI 高级总监斯特拉・劳伦佐 (Stella Laurenzo) 在 GitHub 上发布详细分析称，这些变化让 Claude 已经无法用于复杂的工程任务，斯特拉通过数据对比发现，模型思考程度显著下降，代码阅读和修改能力恶化，API 重试次数也明显增加。&lt;/p&gt;
+&lt;p&gt;微软研究院 AI 前沿实验室首席研究员迪米特里斯・帕帕伊利奥普洛斯 (Dimitris Papailiopoulos) 称，最近两周使用 Claude Code 时体验极差，即使将努力程度调整到最高，模型仍然出现指令忽略和重复错误。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Claude Code 团队主管鲍里斯・切尔尼 (Boris Cherny) 发布回应称，近期确实有调整来减少 tokens 的消耗，也就是将努力程度从较高水平下调到中等水平，目的是减少每个请求的 tokens 数量，从而降低整体的算力消耗。&lt;/p&gt;
+&lt;p&gt;鲍里斯称这次调整主要是解决用户反馈的配额消耗太快的问题，在 2 月初 Claude Opus 4.6 引入自适应思考，允许模型自主决定推理深度；3 月初推理程度被设置为中等。&lt;/p&gt;
+&lt;p&gt;鲍里斯还强调这次调整已经通过界面弹窗提醒用户，并非故意降低模型能力，不过很多开发者认为通知不够醒目，这些变更也严重缺乏透明度。&lt;/p&gt;
+&lt;p&gt;而 Anthropic 还计划测试对 Claude Teams 和 Claude Enterprise 默认启用高程度努力，也就是这些订阅用户将获得更高的推理程度，这会增加 tokens 的消耗并且可能会增加延迟时间。&lt;/p&gt;
+&lt;p&gt;说到变更透明度，早前蓝点网提到 Claude Code 从 1 月～3 月多次调整缓存生存时间 (TTL)，这些调整同样没有公开说明，而更短的 TTL 会导致 tokens 消耗增加，这会让用户更快把配额消耗掉。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;目前已经有消息称 Anthropic 正在秘密计划 IPO，如果要准备上市的话那肯定得把财务报表做得更好看，所以一方面就是提高收入，另一方面就是降低成本。&lt;/p&gt;
+&lt;p&gt;财富杂志称，用户不满与透明度争议的背后，是 Anthropic 算力紧缺的问题所在，这导致 Claude 快速扩展但无法提供足够的算力支撑，如果 Anthropic 无法妥善解决此类问题，可能会导致更多用户转向竞争对手。&lt;/p&gt;
+</description><pubDate>Wed, 15 Apr 2026 09:41:08 +0000</pubDate></item><item><title>零工/兼职任务平台Fiverr泄露用户文件且不修复 大量文件暴露在公网</title><link>https://www.landiannews.com/archives/112669.html</link><description>
 &lt;p&gt;#安全资讯 国外知名零工和兼职任务平台 Fiverr 泄露大量私密信息，该平台竟然将客户与接单者共享的 PDF 文件和图像公开发布。由于缺乏必要的 URL 鉴权签名，这导致谷歌搜索直接抓取海量文件，不少文件包含客户或接单者的私密信息，例如纳税表单中的个人信息。查看详情：https://ourl.co/112669&lt;/p&gt;&lt;p&gt;在零工和兼职领域颇为知名的任务平台 Fiverr 日前被安全研究员爆出泄露用户数据且拒不修复，现在安全研究员直接将这个问题公开发出来，蓝点网检查后确实发现 Fiverr 大量 PDF 任务文件被谷歌搜索抓取。&lt;/p&gt;
 &lt;p&gt;让人比较疑惑的是这些文件确实都包含隐私信息，包括任务发布者 (客户) 和接单者共享的文件都可能泄露，实际泄露的文件主要是接单者向客户提供的工作成果 PDF 文件，所以里面可能也包含客户信息。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112669.png" rel="nofollow"&gt;&lt;img alt="零工/兼职任务平台Fiverr泄露用户文件且不修复 大量文件暴露在公网" data-src="https://img.lancdn.com/landian/2026/04/112669.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112669.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;该平台随时用名为 Cloudinary 的服务来处理消息中的 PDF 文件和图像，例如接单者需要将工作成果以截图或 PDF 形式发送给客户验收，所以 Fiverr 需要存储这些文件并生成链接。&lt;/p&gt;
+&lt;p&gt;该平台使用名为 Cloudinary 的服务来处理消息中的 PDF 文件和图像，例如接单者需要将工作成果以截图或 PDF 形式发送给客户验收，所以 Fiverr 需要存储这些文件并生成链接。&lt;/p&gt;
 &lt;p&gt;在 Fiverr 中，Cloudinary 扮演着类似对象存储的角色，该服务本身支持 URL 签名和过期时间，不过在实际部署中 Fiverr 选择公共 URL，所以 URL 既不会过期也不需要签名，任何拿到链接的人都可以直接查看文件。&lt;/p&gt;
 &lt;p&gt;不知道出于什么原因，Fiverr 似乎在某个地方提供指向这些文件的 URL，这导致谷歌搜索爬虫已经抓取超过 3 万个 URL，这些 URL 中大部分都是 PDF 文件。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -64,13 +82,4 @@
 &lt;p&gt;Mesh 中的每个设备和节点都可以使用私有 IP 地址相互访问，网络中运行的应用程序或 AI 智能体可以发现并访问 Mesh 上的任何其他资源，每个资源都不需要拥有自己的隧道。&lt;/p&gt;
 &lt;p&gt;同时所有 Mesh 流量都会经过 Cloudflare 全球网络路由，这些网络基础设施提供强大的弹性和稳定性，可以通过全球骨干网络覆盖全球诸多城市，无需用户提供中继服务器即可跨网全球访问。&lt;/p&gt;
 &lt;p&gt;有兴趣的用户可以访问 Cloudflare Mesh 博客介绍页面快速入门：&lt;a href="https://blog.cloudflare.com/mesh/" rel="noopener" target="_blank"&gt;https://blog.cloudflare.com/mesh/&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 15 Apr 2026 06:37:59 +0000</pubDate></item><item><title>英伟达准备收购戴尔或者惠普？英伟达：我不是！我没有！别乱说啊！</title><link>https://www.landiannews.com/archives/112665.html</link><description>
-&lt;p&gt;#行业资讯 有消息称英伟达可能会收购戴尔或者惠普来打造 AI 数据中心服务器，英伟达回应称：我不是！我没有！别乱说啊！SemiAccurate 早前发布消息称英伟达计划收购某家大型 PC 制造商，当然说是 PC 制造商不是只造 PC，重点是制造服务器，不过现在英伟达已经否认传闻。查看详情：https://ourl.co/112665&lt;/p&gt;&lt;p&gt;早前关注半导体行业的科技媒体 SemiAccurate 发布消息称，英伟达正在计划收购某家大型 PC 制造商，相关收购谈判已经持续数年并且英伟达可能会在近期决定是否推进该交易。&lt;/p&gt;
-&lt;p&gt;拟被收购的大型 PC 制造商具体是谁没人知道，但消息发布后戴尔和惠普股价飙升，因为这两家公司都可能是潜在的收购目标，不过目前没有任何证据表明英伟达计划收购哪家公司。&lt;/p&gt;
-&lt;p&gt;SemiAccurate 称早在 2024 年年底就已经听说这笔潜在的交易，不过现阶段也仅仅是谈判，并不能保证最终是否会达成交易，这不仅仅是英伟达内部问题，还有潜在的反垄断审查等问题。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112665.png" rel="nofollow"&gt;&lt;img alt="英伟达准备收购戴尔或者惠普？英伟达：我不是！我没有！别乱说啊！" data-src="https://img.lancdn.com/landian/2026/04/112665.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112665.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;针对传闻英伟达也发布官方声明进行否认，英伟达表示该公司并未参与任何收购 PC 制造商的谈判，行业相关公司例如戴尔、惠普等也没有就传闻发布详细回应。&lt;/p&gt;
-&lt;p&gt;这里需要注意的是 PC 制造商并不只是制造 PC，英伟达显然对制造个人电脑没兴趣，无论是戴尔还是惠普，都是服务器领域的主要供应商，如果英伟达真收购戴尔或者惠普也是为了打造人工智能服务器。&lt;/p&gt;
-&lt;p&gt;现阶段英伟达主要为 AI 数据中心提供 GPU 芯片，如果英伟达收购服务器制造商就可以直接向客户提供包含英伟达 GPU 的现成服务器产品，尤其是可以将 NVLink 等诸多技术都融合到服务器里，这可以增强英伟达的竞争力。&lt;/p&gt;
-&lt;p&gt;在个人或商用 PC 市场目前英伟达与联发科合作推出 N1 和 N1X 处理器产品，英伟达主要负责 GPU 芯片方面，联发科基于 Arm 架构研发 CPU 部分，最终推出搭载 Windows 11 Arm 系统的 PC。&lt;/p&gt;
-</description><pubDate>Wed, 15 Apr 2026 04:00:58 +0000</pubDate></item></channel></rss>
+</description><pubDate>Wed, 15 Apr 2026 06:37:59 +0000</pubDate></item></channel></rss>
