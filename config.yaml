@@ -47,12 +47,6 @@ feeds:
     url: "https://www.landiannews.com/feed"
     fetch_full_content: true
     translate: false
-  - name: "luobo8"
-    url: "https://feed.luobo8.com/"
-    translate: false
-    fetch_full_content: true
-    filter_out: ["博海拾贝", "百货", "元包邮"]
-    filter_out_content: ["bilibili.com", "b23.tv"]
   - name: "nicenews"
     url: "https://nicenews.com/feed/"
     fetch_full_content: true
