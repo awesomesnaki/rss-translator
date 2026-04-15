@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 15 Apr 2026 07:03:15 +0000</lastBuildDate><item><title>Anthropic Claude推出身份验证 使用某些功能可能要上传证件和自拍照</title><link>https://www.landiannews.com/archives/112667.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 15 Apr 2026 09:09:44 +0000</lastBuildDate><item><title>零工/兼职任务平台Fiverr泄露用户文件且不修复 大量文件暴露在公网</title><link>https://www.landiannews.com/archives/112669.html</link><description>
+&lt;p&gt;#安全资讯 国外知名零工和兼职任务平台 Fiverr 泄露大量私密信息，该平台竟然将客户与接单者共享的 PDF 文件和图像公开发布。由于缺乏必要的 URL 鉴权签名，这导致谷歌搜索直接抓取海量文件，不少文件包含客户或接单者的私密信息，例如纳税表单中的个人信息。查看详情：https://ourl.co/112669&lt;/p&gt;&lt;p&gt;在零工和兼职领域颇为知名的任务平台 Fiverr 日前被安全研究员爆出泄露用户数据且拒不修复，现在安全研究员直接将这个问题公开发出来，蓝点网检查后确实发现 Fiverr 大量 PDF 任务文件被谷歌搜索抓取。&lt;/p&gt;
+&lt;p&gt;让人比较疑惑的是这些文件确实都包含隐私信息，包括任务发布者 (客户) 和接单者共享的文件都可能泄露，实际泄露的文件主要是接单者向客户提供的工作成果 PDF 文件，所以里面可能也包含客户信息。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112669.png" rel="nofollow"&gt;&lt;img alt="零工/兼职任务平台Fiverr泄露用户文件且不修复 大量文件暴露在公网" data-src="https://img.lancdn.com/landian/2026/04/112669.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112669.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;该平台随时用名为 Cloudinary 的服务来处理消息中的 PDF 文件和图像，例如接单者需要将工作成果以截图或 PDF 形式发送给客户验收，所以 Fiverr 需要存储这些文件并生成链接。&lt;/p&gt;
+&lt;p&gt;在 Fiverr 中，Cloudinary 扮演着类似对象存储的角色，该服务本身支持 URL 签名和过期时间，不过在实际部署中 Fiverr 选择公共 URL，所以 URL 既不会过期也不需要签名，任何拿到链接的人都可以直接查看文件。&lt;/p&gt;
+&lt;p&gt;不知道出于什么原因，Fiverr 似乎在某个地方提供指向这些文件的 URL，这导致谷歌搜索爬虫已经抓取超过 3 万个 URL，这些 URL 中大部分都是 PDF 文件。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;安全研究员发现这个问题后已经通过 Fiverr 指定的漏洞反馈邮箱提交该漏洞，严格来说这不是漏洞而是信息泄露，不过邮件发送超过 40 天也没有获得任何回复，而且这个信息泄露问题也没有修复。&lt;/p&gt;
+&lt;p&gt;由于这个问题不符合 CVE/CERT 处理流程，所以安全研究员也没有为此申请 CVE 漏洞编号，所以最终结果就是发帖直接公开这个问题，现在任何人都可以直接获取泄露的文件。&lt;/p&gt;
+&lt;p&gt;获取文件也非常简单，只需要使用 site:fiverr-res.cloudinary.com 即可在谷歌搜索中查到这些文件，蓝点网还看到不少包含美国纳税信息的表单，泄露的信息非常多。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;更新：这个帖子终于被 Fiverr 注意到，现在该平台已经将存储文件的域名做 404 处理。&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://news.ycombinator.com/item?id=47769796" rel="noopener" target="_blank"&gt;Hacker News&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 15 Apr 2026 09:09:44 +0000</pubDate></item><item><title>谷歌推出桌面应用帮助用户快速使用Gemini AI提问/图像识别/查找内容</title><link>https://www.landiannews.com/archives/112668.html</link><description>
+&lt;p&gt;#软件资讯 谷歌推出桌面应用帮助用户快速使用 Gemini AI，可以识别桌面 / 窗口内容并进行提问。可以 OCR 识别图像和理解图片内容，可以上传文件进行处理，还可以从谷歌云端硬盘中调用文件等。下载地址：https://ourl.co/112668&lt;/p&gt;&lt;p&gt;谷歌日前面向 Windows 10/11 用户推出 Google App 应用，这款桌面应用安装后可以在桌面上打开快捷搜索框，用户可以在搜索框里直接与 Gemini AI 进行对话。&lt;/p&gt;
+&lt;p&gt;当然谷歌提供的功能还是比较丰富的，除了常规的对话并获得人工智能答复外，用户还可以圈选图片进行 OCR 识别或理解图片内容，可以上传文件进行处理。&lt;/p&gt;
+&lt;p&gt;Gemini AI 在获得授权后还可以查找来自谷歌云端硬盘中的文件，谷歌相当于将 Gemini AI 直接做成本地应用程序，让 Windows 10/11 用户可以快速调用。&lt;/p&gt;
+&lt;p&gt;有兴趣的用户可以点击这里下载 Google 应用：&lt;a href="https://search.google/google-app/desktop/" rel="noopener" target="_blank"&gt;https://search.google/google-app/desktop/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;下面是功能介绍：&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;使用简单快捷键 (Alt + 空格键) 即可快速获取 AI 生成的答案，可以继续通过后续提问和使用链接继续探索。&lt;/li&gt;
+&lt;li&gt;应用内置 Google Lens 和屏幕共享功能，用户可以选取特定区域或整个屏幕进行 AI 提问。&lt;/li&gt;
+&lt;li&gt;用户可以通过搜索框轻松查找计算机和 Google 云端硬盘中的应用和文件。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112668-1.png" rel="nofollow"&gt;&lt;img alt="谷歌推出桌面应用帮助用户快速使用Gemini AI提问/图像识别/查找内容" data-src="https://img.lancdn.com/landian/2026/04/112668-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112668-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112668-2.png" rel="nofollow"&gt;&lt;img alt="谷歌推出桌面应用帮助用户快速使用Gemini AI提问/图像识别/查找内容" data-src="https://img.lancdn.com/landian/2026/04/112668-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112668-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112668-3.png" rel="nofollow"&gt;&lt;img alt="谷歌推出桌面应用帮助用户快速使用Gemini AI提问/图像识别/查找内容" data-src="https://img.lancdn.com/landian/2026/04/112668-3.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112668-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 15 Apr 2026 08:52:34 +0000</pubDate></item><item><title>Anthropic Claude推出身份验证 使用某些功能可能要上传证件和自拍照</title><link>https://www.landiannews.com/archives/112667.html</link><description>
 &lt;p&gt;#人工智能 Anthropic 为 Claude 推出身份验证机制，使用某些功能或触发风控后可能会要求提交身份证进行验证。Anthropic 称使用某些功能时可能触发验证，如果触发验证那就必须提交证件才能恢复功能，实际验证时可能还需要提交自拍照。查看详情：https://ourl.co/112667&lt;/p&gt;&lt;p&gt;Anthropic 本周发布新支持文章介绍 Claude 可能触发的身份验证机制，该公司称为确保负责任地使用强大技术，首先就必须了解是谁在使用这些 AI 服务，通过身份验证机制有助于 Anthropic 防止滥用并履行法律义务。&lt;/p&gt;
 &lt;p&gt;现阶段 Claude 部分使用场景可能会触发身份验证机制，如果用户碰到身份验证环节则需要提交证件进行验证，验证后可以继续使用相关功能，未通过验证则会被限制使用 Claude 的某些功能。&lt;/p&gt;
 &lt;p&gt;身份验证功能由 Persona Identities 进行，Anthropic 承诺用户提交的证件仅用于验证用途，具体数据保存时间和使用机制则由 Anthropic 控制，数据仅保存在 Persona Identities 服务器。&lt;/p&gt;
@@ -45,29 +73,4 @@
 &lt;p&gt;这里需要注意的是 PC 制造商并不只是制造 PC，英伟达显然对制造个人电脑没兴趣，无论是戴尔还是惠普，都是服务器领域的主要供应商，如果英伟达真收购戴尔或者惠普也是为了打造人工智能服务器。&lt;/p&gt;
 &lt;p&gt;现阶段英伟达主要为 AI 数据中心提供 GPU 芯片，如果英伟达收购服务器制造商就可以直接向客户提供包含英伟达 GPU 的现成服务器产品，尤其是可以将 NVLink 等诸多技术都融合到服务器里，这可以增强英伟达的竞争力。&lt;/p&gt;
 &lt;p&gt;在个人或商用 PC 市场目前英伟达与联发科合作推出 N1 和 N1X 处理器产品，英伟达主要负责 GPU 芯片方面，联发科基于 Arm 架构研发 CPU 部分，最终推出搭载 Windows 11 Arm 系统的 PC。&lt;/p&gt;
-</description><pubDate>Wed, 15 Apr 2026 04:00:58 +0000</pubDate></item><item><title>谷歌I/O 2026开发者大会开放注册 大会将在5月19日~20日在谷歌总部举办</title><link>https://www.landiannews.com/archives/112664.html</link><description>
-&lt;p&gt;#行业资讯 谷歌 I/O 2026 全球开发者大会开放注册，将在 5 月 19 日～20 日在谷歌山景城总部举办。此次开发者大会涉及人工智能、Android、Chrome、Google AI 以及云计算等诸多方面，目前谷歌正在陆续介绍此次大会的各种内容。查看详情：https://ourl.co/112664&lt;/p&gt;&lt;p&gt;谷歌现已公布 Google I/O 2026 全球开发者大会日程安排，此次开发者大会将在太平洋时间 2026 年 5 月 19 日～20 日之间举行，谷歌也会在山景城总部举办现场活动并提供全程直播。&lt;/p&gt;
-&lt;p&gt;按照谷歌安排，5 月 19 日上午 10 点举行谷歌开发者大会的主题演讲，下午 1 点 30 分举行开发者主题演讲，演讲内容涵盖智能开发、安卓新特性、谷歌 AI 新特性以及 Chrome 新特性等等。&lt;/p&gt;
-&lt;p&gt;感兴趣的开发者现在就可以登录 Google I/O 网站进行注册，注册后可以收到活动提醒以及各种公告、现场演示和全新的职业发展课程等 (部分环节可能需要注册登录后才能查看)。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112664.png" rel="nofollow"&gt;&lt;img alt="谷歌I/O 2026开发者大会开放注册 大会将在5月19日~20日在谷歌总部举办" data-src="https://img.lancdn.com/landian/2026/04/112664.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112664.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;智能开发：谷歌将探讨开发者工具的演进历程，以及这些工具如何改变编写软件的方式，重点是了解如何从快速构思无缝过渡到编排强大的自主工作流程，让人工智能处理繁琐的工作，让开发者可以专注于全局。&lt;/p&gt;
-&lt;p&gt;随时开发：谷歌正在通过人工智能技术更高效地辅助应用程序开发流程，让开发者构建高质量的 Android 应用程序变得更加轻松快捷。&lt;/p&gt;
-&lt;p&gt;AI 智能体：谷歌正在发布多种工具，帮助开发者构建支持智能体的 Web 应用，将繁琐的调试工作流程自动化，也可以直接在浏览器中提供高度交互的用户界面。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;谷歌还会在开发者大会上发布人工智能、Android、Chrome 浏览器、云服务等诸多方面的重大更新，以上只是今天谷歌介绍的部分内容，接下来到大会开始前谷歌还会陆续介绍更多活动内容。&lt;/p&gt;
-&lt;p&gt;所有有兴趣的开发者们请务必关注 Google I/O 活动页面并进行注册：&lt;a href="https://io.google/2026/" rel="noopener" target="_blank"&gt;https://io.google/2026/&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 15 Apr 2026 03:30:58 +0000</pubDate></item><item><title>虚假的加密钱包应用通过苹果审核登陆应用商店 造成50多名受害者损失950万美元</title><link>https://www.landiannews.com/archives/112663.html</link><description>
-&lt;p&gt;#加密货币 虚假的加密货币钱包应用通过苹果审核登陆应用商店，造成 50 多名受害者合计损失超过 950 万美元。法国加密硬件钱包 Ledger 提供 Mac 客户端但并未上架苹果商店，黑客发布恶意版本诱导用户下载，在配置时就要求输入助记词，一旦用户输入助记词钱包就会被直接清空。查看详情：https://ourl.co/112663&lt;/p&gt;&lt;p&gt;通过苹果审核的应用程序并不代表百分百可靠：2026 年 4 月 7 日～4 月 13 日之间，冒充加密货币钱包 Ledger Live 的应用程序导致 50 多名受害者出现损失，目前统计数据显示受害者合计损失金额已经高达 950 万美元。&lt;/p&gt;
-&lt;p&gt;Ledger 是法国加密硬件钱包提供商，该公司提供的配套应用程序确实叫 Ledger Live 并且也提供 Mac 版，问题在于这款配套应用程序并未发布到苹果应用商店，而是仅通过官方网站提供直接安装包。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112663.png" rel="nofollow"&gt;&lt;img alt="虚假的加密钱包应用通过苹果审核登陆应用商店 造成50多名受害者损失950万美元" data-src="https://img.lancdn.com/landian/2026/04/112663.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112663.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;该恶意应用通过苹果审核登陆 Apple Mac App Store 并提供下载，用户安装此应用后需要输入助记词进行所谓的钱包恢复，当受害者输入助记词后黑客迅速将钱包内的资产全部转走。&lt;/p&gt;
-&lt;p&gt;链上数据显示，被盗资产通过奥迪 A6 (混币器 Audi A6) 平台进行清洗，随后转到加密货币交易所 KuCoin 兑换为其他加密货币再转出，目前这些被盗的资产经过多次兑换已经难以追查。&lt;/p&gt;
-&lt;p&gt;奥迪 A6 混币器是个通过收取高额费用来掩盖非法资金的中心化加密货币混合服务商，此类混币器平台不会验证资金来源，只要提供足够的手续费就会帮助用户进行混币操作以躲避追踪。&lt;/p&gt;
-&lt;p&gt;官方版 Ledger Live 不会要求用户输入助记词，这个加密钱包主要通过硬件进行控制，当然如果用户丢失硬件钱包或者忘记密码，这种情况下才需要使用助记词进行钱包恢复。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;虚假应用通过苹果审核并造成巨额损失，在这起加密货币盗窃事件中苹果是否应该承担责任呢？链上追踪专家 ZachXBT 认为苹果应该承担审核不力的责任，受害者或许考虑发起集体诉讼要求苹果赔偿损失。&lt;/p&gt;
-&lt;p&gt;受害者 @Glove 是名退休的音乐家，他也是曝光这起事件的最初受害者，这名音乐家十多年的积蓄 --- 5.9 个比特币全部被盗，可以想象此时这名音乐家的心情是多么糟糕。&lt;/p&gt;
-&lt;p&gt;然而从目前情况来看依靠链上追回损失难度极大，而指望苹果提供赔偿难度也同样非常大，如果不能追回损失，这名音乐家可能要结束退休生活重新开始工作。&lt;/p&gt;
-</description><pubDate>Wed, 15 Apr 2026 03:00:58 +0000</pubDate></item></channel></rss>
+</description><pubDate>Wed, 15 Apr 2026 04:00:58 +0000</pubDate></item></channel></rss>
