@@ -1,5 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 14 Apr 2026 06:30:48 +0000</lastBuildDate><item><title>微软在Windows 11更新中增加手选日期 不再强制自动更新系统</title><link>https://www.landiannews.com/archives/112644.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 15 Apr 2026 01:30:18 +0000</lastBuildDate><item><title>[下载] 微软发布Win11 24H2/25H2 KB5083769更新修复开机进入恢复模式等问题</title><link>https://www.landiannews.com/archives/112660.html</link><description>
+&lt;p&gt;#系统资讯 微软发布 Windows 11 24H2/25H2 KB5083769 号更新修复开机进入 BitLocker 恢复模式等问题。该更新还解决部分用户重置系统失败，提升使用 QUIC 协议进行 SMB 压缩的可靠性，增强 RDP 文件的钓鱼访问能力等。离线安装程序下载地址：https://ourl.co/112660&lt;/p&gt;&lt;p&gt;微软已经开始发布适用于各类产品的 2026 年 4 月安全更新，其中适用于 Windows 11 24H2/25H2 版的累积更新为 KB5083769，该更新主要是解决多种已知问题。&lt;/p&gt;
+&lt;p&gt;追求安全性的用户可以立即下载更新并安装，但按照惯例这些更新肯定会带来新问题，所以追求稳定性的用户可以暂缓安装，但后续微软陆续解决新问题后再尝试安装。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://img.lancdn.com/landian/public/thumb/W11.webp" rel="nofollow"&gt;&lt;img alt="[下载] 微软发布Win11 24H2/25H2 KB5083769更新修复开机进入恢复模式等问题" data-src="https://img.lancdn.com/landian/public/thumb/W11.webp" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/public/thumb/W11.webp"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;此次更新包含更多高置信度的设备目标数据，微软会通过这类数据决定是否要更新 UEFI 安全驱动证书。&lt;/li&gt;
+&lt;li&gt;此次更新已经修复部分设备在安全启动更新后可能进入 Microsoft BitLocker 恢复模式的问题。&lt;/li&gt;
+&lt;li&gt;此次更新提高 Windows 11 使用 QUIC 协议进行 SMB 压缩的可靠性，更新后 SMB 压缩请求将降低超时概率。&lt;/li&gt;
+&lt;li&gt;此次更新增强对远程桌面 RDP 文件发起的钓鱼攻击防护，打开 RDP 文件时系统将显示安全警告和显示连接设置。&lt;/li&gt;
+&lt;li&gt;此次更新已经修复重置系统的问题，该问题导致用户安装 3 月更新后重置系统可能出现的失败问题。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;安装 KB5083769 号更新后，用户可以在 Windows 11 设置、更新与安全、安全中心看到关于 UEFI 安全启动证书的提示，点击了解更多按钮就可以查看关于证书更新的重要提醒。&lt;/p&gt;
+&lt;p&gt;这个功能是用来配合微软更新 UEFI 证书的，该证书将在 6 月到期，到期后可能影响部分设备正常安装更新，极端情况下甚至可能导致部分环境中的系统无法正常启动。&lt;/p&gt;
+&lt;p&gt;因此微软正在批量推送新的 UEFI 证书，Windows 安全中心增加提示就是为了提醒用户及时更新证书，但需要强调的是：微软正在分批推送新证书，所以如果安全中心显示还未更新证书暂时也不要担心。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;下载离线安装程序：&lt;a href="https://catalog.update.microsoft.com/Search.aspx?q=KB5083769" rel="noopener" target="_blank"&gt;https://catalog.update.microsoft.com/Search.aspx?q=KB5083769&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 15 Apr 2026 01:30:18 +0000</pubDate></item><item><title>微软推出快速通道帮助开发者恢复驱动签署账户 解决近期WireGuard等封号问题</title><link>https://www.landiannews.com/archives/112659.html</link><description>
+&lt;p&gt;#行业资讯 微软快速通道帮助开发者恢复驱动签署账户，解决近期发生的 WireGuard 开发者账户被封禁等问题。现在微软和开发者各执一词，微软称从去年 10 月开始就发邮件提醒开发者尽快完成身份验证，但开发者们表示从未收到过任何通知，直到自己的账号被微软封禁。查看详情：https://ourl.co/112659&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landiannews.com/archives/112568.html" rel="noopener" target="_blank"&gt;这段时间有诸多项目开发者的微软账户遭到异常封禁&lt;/a&gt;，其中像是 VeraCrypt 和 WireGuard 等项目的开发者账号无法登录，而开源虚拟机软件 UTM 的开发者账号直接消失 (登录时提示账户不存在)。&lt;/p&gt;
+&lt;p&gt;这些项目多数都需要使用系统级驱动程序，而这类驱动程序必须获得微软硬件计划中的开发者签名才可以被内核信任，账号被封禁意味着无法继续签名驱动程序，所以也无法继续发布新版本。&lt;/p&gt;
+&lt;p&gt;以上事件在社交媒体上引起诸多讨论，除了阴谋论外 (有网友阴谋论称微软正在收紧系统权限)，更多网友质疑微软的工作怎能如此粗糙，不然也不会引发如此多的开发者账户被封禁。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://img.lancdn.com/landian/2026/04/112568.webp" rel="nofollow"&gt;&lt;img alt="微软推出快速通道帮助开发者恢复驱动签署账户 解决近期WireGuard等封号问题" data-src="https://img.lancdn.com/landian/2026/04/112568.webp" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112568.webp"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;而实际被封禁的开发者账户应该非常多，单靠开发者在推特上联系微软负责开发者关系的副总裁解决问题效率太低，所以现在微软推出快速通道来帮助开发者恢复账户。&lt;/p&gt;
+&lt;p&gt;这个快速通道解决的问题是开发者联系不到微软的人工客服，最初这件事还是加密软件 VeraCrypt 开发者在自己的论坛爆出的，由于始终联系不到人工客服，开发者不得不发帖求助网友，随后经过社交媒体传播后才引起微软关注。&lt;/p&gt;
+&lt;p&gt;现在快速通道已经有微软人工团队进行审核，开发者只需要提交错误报告即可等待审核，微软称这可以加速解决未能完成合规性认证的开发者账户。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;此次封禁的关键原因在于，微软已经在 2025 年 10 月以来就通过电子邮件通知开发者完成必须的身份验证，未能完成身份验证的账户都在本月初被系统自动暂停。&lt;/p&gt;
+&lt;p&gt;要求进行身份验证则是因为内核驱动程序签署涉及到系统安全问题，只有开发者详细说明自己的开发计划、软件和平台以及提交真实身份信息后才能获得微软批准，进而用来签署内核级的驱动程序。&lt;/p&gt;
+&lt;p&gt;问题在于，诸多开发者称此前并未收到过任何通知，也就是微软的邮件系统可能存在某种问题，导致部分开发者或者全部开发者压根没有收到任何通知，直到超出微软设置的日期后账户被停掉。&lt;/p&gt;
+&lt;p&gt;这种事情微软倒是没有细说，不过现在新的快速通道要求开发者重新提交详细的业务信息，也就是和重新申请账户没太大区别，待完成审核后就可以重新使用旧账号登录并继续获得开发者签名证书。&lt;/p&gt;
+&lt;p&gt;现在建议所有受影响的开发者都立即采取行动提交新申请，毕竟说是人工团队审核，但没人知道最终审批下来要多久，此前 UTM 开发者就花了 3 个月才成功获得微软批准 (也是长期没人审核最终在社交媒体发帖才引起微软关注)。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://techcommunity.microsoft.com/blog/hardware-dev-center/action-required-account-verification-for-windows-hardware-program-begins-october/4455452" rel="noopener" target="_blank"&gt;Microsoft&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 15 Apr 2026 01:00:23 +0000</pubDate></item><item><title>苹果主要依赖的卫星紧急消息服务提供商Globalstar被亚马逊以116亿美元收购</title><link>https://www.landiannews.com/archives/112658.html</link><description>
+&lt;p&gt;#科技资讯 亚马逊最终以 115.7 亿美元收购为苹果提供卫星服务的 Globalstar 公司，未来亚马逊将通过 Amazon Leo 为苹果设备提供紧急卫星服务。Globalstar 是苹果紧急卫星服务的唯一提供商，亚马逊则希望通过收购获得 Globalstar 的频段资源和现有的卫星，以此快速壮大 Amazon Leo 星座卫星网络。查看详情：https://ourl.co/112658&lt;/p&gt;&lt;p&gt;早前有消息传出亚马逊计划以 90 亿美元收购卫星服务提供商 Globalstar，这家卫星服务提供商也是苹果的供应商，苹果在 iOS 和 Apple Watch 等设备中提供的紧急卫星消息就是由 Globalstar 提供。&lt;/p&gt;
+&lt;p&gt;现在亚马逊已经宣布最终的收购协议：亚马逊以 115.7 亿美元收购 Globalstar 及其全部资产，用于扩充亚马逊旗下的 Amazon Leo 星座卫星网络，同时亚马逊将继续为苹果提供卫星消息服务。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112658.png" rel="nofollow"&gt;&lt;img alt="苹果主要依赖的卫星紧急消息服务提供商Globalstar被亚马逊以116亿美元收购" data-src="https://img.lancdn.com/landian/2026/04/112658.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112658.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;此前苹果曾斥资购买 20% 的 Globalstar 股份 + 承担 Globalstar 新发射卫星的部分成本，原因在于 Globalstar 大部分卫星容量都被苹果包揽，也就是苹果依赖 Globalstar 提供服务。&lt;/p&gt;
+&lt;p&gt;所以亚马逊试图收购 Globalstar 也绕不开苹果，不过现在亚马逊也与苹果达成协议，未来苹果系列设备将可以通过连接 Amazon Leo 星座卫星网络发送紧急消息，但对苹果而言依赖亚马逊可能不是好事情。&lt;/p&gt;
+&lt;p&gt;不过苹果在官方声明中表示，苹果和亚马逊通过亚马逊的核心基础设施服务有这些长期且卓著的合作记录，我们期待通过亚马逊 Amazon Leo 星座卫星网络继续加深这种合作关系。&lt;/p&gt;
+&lt;p&gt;这确保苹果可以继续向用户提供基于卫星的紧急消息服务，包括紧急求救、发送紧急消息、查找设备以及卫星道路救援等，这可以在没有蜂窝网络的情况下与外界进行通信。&lt;/p&gt;
+&lt;p&gt;至于亚马逊，收购 Globalstar 将获得多种关键的技术组合和资产，其中最主要的就是该公司持有的已经获得批准的各类频段，频段资源本着先到先得的原则，亚马逊这种后来者想要获得更好的频段其实也只能通过收购获得。&lt;/p&gt;
+&lt;p&gt;而 Globalstar 现有的低地球轨道卫星资产也是亚马逊紧缺的资源，尽管 Amazon Leo 要和星链竞争，但该项目发射的卫星数量远远不能与星链相比，而收购则可以快速增加 Leo 卫星数量。&lt;/p&gt;
+&lt;p&gt;最终亚马逊将通过现有的 Amazon Leo 卫星和收购而来的 Globalstar 卫星为地面提供直接服务，亚马逊称之为 Direct to Device (直接到设备)，也就是设备直连卫星获得联网能力。&lt;/p&gt;
+</description><pubDate>Wed, 15 Apr 2026 00:26:19 +0000</pubDate></item><item><title>微软在Windows 11更新中增加手选日期 不再强制自动更新系统</title><link>https://www.landiannews.com/archives/112644.html</link><description>
 &lt;p&gt;#系统资讯 微软在 Windows 11 测试版更新设置中增加手选日期，也就是不再强制更新系统，让用户自己选择更新年月日。不过该功能还在开发中，暂时只能选择 2026 年 4 月和 5 月，按理说微软应该会允许用户选择更久的日期以实现类似无限暂停更新的效果，至少要用户主动控制更新。查看详情：https://ourl.co/112644&lt;/p&gt;&lt;p&gt;Windows 11 强制更新机制让很多用户感到不爽，原因主要是微软发布的更新质量差容易出问题，同时系统有时候无法智能检测用户是否正在使用，以至于用户正在工作或者视频剪辑软件正在后台渲染时也会被重启系统。&lt;/p&gt;
 &lt;p&gt;所以在此前发布的博客中，微软承诺将允许用户自己选择更新日期，&lt;a href="https://www.landiannews.com/archives/112277.html" rel="noopener" target="_blank"&gt;Windows 11 不再强迫用户在特定时间或时间段内安装更新&lt;/a&gt;，至少要解决当前最多暂停 5 周的问题。&lt;/p&gt;
 &lt;p&gt;在当前 Windows 11 中，用户最多可以将系统暂停更新 5 周，5 周过后无论用户是否愿意系统都会恢复自动更新，接着就是联网下载并安装更新，然后弹窗提醒用户重启系统。&lt;/p&gt;
@@ -32,45 +77,4 @@
 &lt;li&gt;企业和团队用户：可选升级 Office 2024 LTSC 买断版，或升级为 Microsoft 365 商业版&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Microsoft Office 2024 和 Office 2024 LTSC 版支持周期均为 2024 年 9 月 18 日～2029 年 10 月 9 日，这些版本目前还能再用三年。&lt;/p&gt;
-</description><pubDate>Tue, 14 Apr 2026 06:00:46 +0000</pubDate></item><item><title>微软宣布其轻量邮件客户端Outlook Lite版将在5月25日停止服务</title><link>https://www.landiannews.com/archives/112642.html</link><description>
-&lt;p&gt;#软件资讯 发布不满 4 年后，适用于安卓系统的轻量级邮件客户端 Outlook Lite 将在 5 月 25 日下架并停止运营。该客户端是微软为 1GB 内存安卓设备开发的，比较简略但也可以流畅运行，现在微软决定放弃该应用，将所有用户迁移到 Outlook Mobile 版。查看详情：https://ourl.co/112642&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landiannews.com/archives/110571.html" rel="noopener" target="_blank"&gt;微软此前已经透露将关停适用于安卓系统的 Outlook Lite 邮件客户端&lt;/a&gt;，这是微软在 2022 年 8 月推出的、仅适用于安卓平台的轻量级 Microsoft Outlook 客户端，该应用相对来说比较简略，即便在 1GB 内存的安卓设备上也能流畅运行。&lt;/p&gt;
-&lt;p&gt;现在微软公布 Outlook Lite for Android 的最终截止信息：自 2026 年 5 月 25 日起，Outlook Lite 正式停止服务，届时用户将无法继续使用该客户端，包括连接邮箱继续查看邮件等。&lt;/p&gt;
-&lt;p&gt;相关数据都可以通过 Outlook Mobile 版进行同步，使用 Outlook Lite 的用户需要迁移到 Outlook Mobile，迁移后所有电子邮件、日历项目以及附件等仍然可以继续正常使用。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/08/110215.png" rel="nofollow"&gt;&lt;img alt="微软宣布其轻量邮件客户端Outlook Lite版将在5月25日停止服务 " data-src="https://img.lancdn.com/landian/2025/08/110215.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/08/110215.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;停运时间：2026 年 5 月 25 日&lt;/li&gt;
-&lt;li&gt;下架时间：2026 年 5 月 25 日，从 Google Play Store 下架并停止安装和更新&lt;/li&gt;
-&lt;li&gt;功能禁用：停止运营后，即便用户可以打开 Outlook Lite 但也无法访问邮箱，应用内导航和相关功能也会禁用&lt;/li&gt;
-&lt;li&gt;替代产品：Outlook Lite → Microsoft Outlook Mobile&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;微软强烈建议所有用户立即迁移到 Microsoft Outlook Mobile，微软称该版本提供更多功能、支持更多邮箱并且也能满足企业或组织在合规方面的要求。&lt;/p&gt;
-&lt;p&gt;为帮助用户迁移，Outlook Lite 应用内将提供升级选项，当用户点击升级按钮时将自动跳转到 Google Play Store 中的 Outlook Mobile 版，用户下载升级即可。&lt;/p&gt;
-</description><pubDate>Tue, 14 Apr 2026 05:30:48 +0000</pubDate></item><item><title>欧盟决定将ChatGPT归类为大型搜索引擎 将按照数字服务法加强监管</title><link>https://www.landiannews.com/archives/112641.html</link><description>
-&lt;p&gt;#行业资讯 欧盟计划将 ChatGPT 视为超大型搜索引擎平台，将纳入数字服务法案的加强监管范围。据德国商报发布的消息，在欧盟活跃用户超过 1.2 亿的 ChatGPT 也将被列为看门人应用，届时 ChatGPT 将面临严格监管，OpenAI 必须按 DSA 法案加强透明度和各类保护。查看详情：https://ourl.co/112641&lt;/p&gt;&lt;p&gt;据德国《商报》发布的消息，欧盟委员会即将在未来几天宣布将 OpenAI ChatGPT 视为大型搜索引擎，随后将按照欧盟数字服务法案进行严格监管，这对 OpenAI 来说将是个重大的负面消息。&lt;/p&gt;
-&lt;p&gt;数字服务法案 (DSA) 将欧盟列为看门人的大型平台纳入严格监管范围，大多数公司都不愿意被加强监管，但欧盟已经将包括 X/Twitter、Chrome、TikTok 在内的多项产品或服务视为看门人。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/public/thumb/chatgpt.png" rel="nofollow"&gt;&lt;img alt="欧盟决定将ChatGPT归类为大型搜索引擎 将按照数字服务法加强监管" data-src="https://img.lancdn.com/landian/public/thumb/chatgpt.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/public/thumb/chatgpt.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;看门人指的是这些平台是欧盟用户的重要互联网入口，如果这些看门人平台不严格遵守法律要求，那就有可能给欧盟用户造成危害，这也是数字服务法案核心就是严加监管的原因。&lt;/p&gt;
-&lt;p&gt;ChatGPT 在欧盟拥有超过 1.2 亿名活跃用户，这远远超过超大型平台的门槛：对于超大型在线平台或超大型在线搜索引擎认定，需要平台活跃用户超过 4500 万名。&lt;/p&gt;
-&lt;p&gt;如果 ChatGPT 被列为看门人应用，则 OpenAI 需要改造推荐系统和广告推荐等功能，还必须解决 AI 产生的非法内容 (不符合欧盟规定的内容)，以及必须防止 ChatGPT 对公众健康以及身心健康等产生影响。&lt;/p&gt;
-&lt;p&gt;2025 年年底，X/Twitter 就被欧盟除以 1.2 亿欧元的罚款，原因是 X 违反数字服务法案规定的透明度义务，包括蓝标认证的设计具有欺骗性以及广告库缺乏透明度等。&lt;/p&gt;
-</description><pubDate>Tue, 14 Apr 2026 05:00:45 +0000</pubDate></item><item><title>缤客网(Booking.com)泄露用户预订信息 部分用户已收到诈骗电话</title><link>https://www.landiannews.com/archives/112640.html</link><description>
-&lt;p&gt;#安全事件 全球知名酒店 / 民宿 / 票务预订网站缤客 (Booking.com) 出现数据泄露事件，部分用户个人信息和预订信息泄露。已经有网友收到诈骗电话，诈骗分子试图通过泄露信息诱导用户进入钓鱼网站提供更多信息，不过缤客也没有透露数据泄露原因以及具体多少用户受影响。查看详情：https://ourl.co/112640&lt;/p&gt;&lt;p&gt;全球知名酒店 / 民宿 / 票务预订网站缤客网 (Booking.com) 日前发生数据泄露，黑客通过某种方式获取部分用户信息以及这些用户预订的相关信息，目前缤客网正在强制重置预订 PIN 码避免信息被黑客冒用。&lt;/p&gt;
-&lt;p&gt;所有使用缤客网的用户都应该检查自己的注册邮箱，如果收到邮件提醒则代表自己信息已经泄露，此时已经有部分用户收到诈骗电话，诈骗分子冒充缤客或酒店并利用泄露的信息对用户进行诈骗。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2024/05/103860.png" rel="nofollow"&gt;&lt;img alt="缤客网(Booking.com)泄露用户预订信息 部分用户已收到诈骗电话" data-src="https://img.lancdn.com/landian/2024/05/103860.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2024/05/103860.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;用户全名 (通常是用于预订的真实姓名)&lt;/li&gt;
-&lt;li&gt;电子邮件地址&lt;/li&gt;
-&lt;li&gt;真实家庭住址&lt;/li&gt;
-&lt;li&gt;电话号码&lt;/li&gt;
-&lt;li&gt;与酒店或民宿等共享的登记信息 (例如真实姓名和地址)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在 Reddit 论坛的讨论中，有网友称已经收到诈骗分子打来的电话，诈骗分子利用掌握的用户个人信息和预订信息，诱导用户进入钓鱼网站执行操作，最终目的可能是为了窃取更多信息尤其是财务信息。&lt;/p&gt;
-&lt;p&gt;值得注意的是缤客发送的信息泄露通知邮箱为 noreply@booking.com，用户查看电子邮件时应当核对发件人，因为诈骗团伙也可能冒充缤客发送诈骗邮件，所以用户不应该在 Booking.com 之外提供任何个人信息。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;此次数据泄露事件似乎是缤客自己发现的，目前网上查不到安全研究员爆出的数据泄露原因，而缤客也没有透露数据泄露原因以及影响的用户规模。&lt;/p&gt;
-&lt;p&gt;缤客强调，该公司将向每一位受影响的用户发送邮件通知，为所有用户提供 24 小时多语言支持，为控制事态发展，缤客还更新相关预订的 PIN 码。&lt;/p&gt;
-</description><pubDate>Tue, 14 Apr 2026 04:00:45 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 14 Apr 2026 06:00:46 +0000</pubDate></item></channel></rss>
