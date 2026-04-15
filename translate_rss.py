@@ -5,6 +5,7 @@ import time
 import hashlib
 import json
 import re
+from urllib.parse import quote
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from bs4 import BeautifulSoup, NavigableString
@@ -337,6 +338,32 @@ def extract_bohaishibei_content(html):
     for i in article.find_all('i'):
         if not i.get_text(strip=True) and not i.find('img'):
             i.decompose()
+
+    # 去掉底部版权/标签行（"本文来自网络..." + 标签链接），以及它后面的所有内容
+    for el in list(article.descendants):
+        if isinstance(el, NavigableString) and ('本文来自网络' in el or '转载请注明出处' in el):
+            # 向上走到 article 的直接子元素
+            anchor = el
+            while anchor.parent is not None and anchor.parent is not article:
+                anchor = anchor.parent
+            # 删掉 anchor 后的所有兄弟节点
+            for sib in list(anchor.next_siblings):
+                if hasattr(sib, 'decompose'):
+                    sib.decompose()
+                else:
+                    sib.extract()
+            # 删掉 anchor 本身
+            if hasattr(anchor, 'decompose'):
+                anchor.decompose()
+            else:
+                anchor.extract()
+            break
+
+    # assets.bohaishibei.com 有防盗链（x-deny-reason: host_not_allowed），走图片代理中转
+    for img in article.find_all('img'):
+        src = img.get('src', '')
+        if 'assets.bohaishibei.com' in src:
+            img['src'] = f'https://images.weserv.nl/?url={quote(src, safe="")}'
 
     # 必须有实际文字或图片才算提取成功
     text = article.get_text(strip=True)
