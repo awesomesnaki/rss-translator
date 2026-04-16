@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 16 Apr 2026 07:36:52 +0000</lastBuildDate><item><title>微软修复自2024年9月以来就存在的自动升级到Windows Server 2025问题</title><link>https://www.landiannews.com/archives/112696.html</link><description>#系统资讯 微软修复自 2024 年 9 月就存在的 Windows Server 2019/2022 自动升级到 2025 的问题，升级后企业还需要额外花钱购买许可证 (服务器系统是不支持免费升级的)。话说蓝点网还是首次看到某个问题经历这么长时间才被修复，微软官方从 2024 年 11 月开始记录这个问题，到昨天完成最终修复。查看详情：https://ourl.co/112696</description><pubDate>Thu, 16 Apr 2026 07:36:52 +0000</pubDate></item><item><title>谷歌宣布为One和AI Pro订阅用户提供5折YouTube Premium订阅权限</title><link>https://www.landiannews.com/archives/112695.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 16 Apr 2026 08:06:32 +0000</lastBuildDate><item><title>108款扩展程序被发现窃取谷歌身份验证信息和Telegram会话等</title><link>https://www.landiannews.com/archives/112697.html</link><description>
+&lt;p&gt;#安全资讯 安全研究团队 Socket 在 Chrome Web Store 发现 108 款恶意扩展程序，用来劫持用户的谷歌账户信息、Telegram 会话、插入广告等等。这些扩展程序看起来毫无关联但都使用相同的 C2 服务器，目前 Socket 已经向谷歌通报但谷歌还未删除这些扩展程序。查看详情：https://ourl.co/112697&lt;/p&gt;&lt;p&gt;安全研究团队 Socket 日前发布分析报告披露 Chrome Web Store 中存在的 108 款恶意扩展程序，截至本文发布时，这些恶意扩展程序仍然没有谷歌下架，建议用户自查确保安全。&lt;/p&gt;
+&lt;p&gt;这些扩展程序看起来毫无关联 (不同开发者名称、不同注册地址、不同的隐私政策网站)，不过实际上都连接到相同的 C2 服务器用于回传信息，因此这显然属于同一个攻击团队。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112697.png" rel="nofollow"&gt;&lt;img alt="108款扩展程序被发现窃取谷歌身份验证信息和Telegram会话等" data-src="https://img.lancdn.com/landian/2026/04/112697.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112697.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;54 个扩展程序窃取谷歌账号信息：窃取的信息包括用户邮箱、姓名、头像等，然后回传到服务器。&lt;/li&gt;
+&lt;li&gt;1 个扩展程序用于劫持 Telegram 会话：这个扩展程序提供所谓的多账号管理功能，但实际上会注入或劫持会话。&lt;/li&gt;
+&lt;li&gt;45 个扩展程序包含通用后门：可以通过服务器下发命令实现远程控制等目的。&lt;/li&gt;
+&lt;li&gt;部分扩展程序用于注入广告：在用户访问页面时注入广告或任意 JavaScript 脚本。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这些扩展程序均使用相同的子域名例如 tg.cloudapi.stream / mines.cloudapi.stream / api.cloudapi.stream 进行数据外传和心跳通信，形成高度集中的 C2 架构。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;由于牵涉的扩展程序非常多，指望用户自查并删除是不现实的，Socket 已经将恶意扩展信息通报给谷歌，不过谷歌目前还未删除这些恶意扩展程序。&lt;/p&gt;
+&lt;p&gt;如果谷歌执行下架操作，则也会通过云端推送信标到用户端，这样用户的 Chrome 浏览器就会自动禁用这些扩展程序，以此可以安全快速的降低恶意扩展造成的影响。&lt;/p&gt;
+&lt;p&gt;如果用户需要自查请访问 Socket 页面对照 108 个恶意扩展列表：&lt;a href="https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2" rel="noopener" target="_blank"&gt;https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Thu, 16 Apr 2026 08:06:32 +0000</pubDate></item><item><title>微软修复自2024年9月以来就存在的自动升级到Windows Server 2025问题</title><link>https://www.landiannews.com/archives/112696.html</link><description>#系统资讯 微软修复自 2024 年 9 月就存在的 Windows Server 2019/2022 自动升级到 2025 的问题，升级后企业还需要额外花钱购买许可证 (服务器系统是不支持免费升级的)。话说蓝点网还是首次看到某个问题经历这么长时间才被修复，微软官方从 2024 年 11 月开始记录这个问题，到昨天完成最终修复。查看详情：https://ourl.co/112696</description><pubDate>Thu, 16 Apr 2026 07:36:52 +0000</pubDate></item><item><title>谷歌宣布为One和AI Pro订阅用户提供5折YouTube Premium订阅权限</title><link>https://www.landiannews.com/archives/112695.html</link><description>
 &lt;p&gt;#网站应用 谷歌宣布为 Google One 和 Google AI Pro 订阅用户推出特别优惠：可以半价订阅 YouTube Premium。此次活动截至 4 月 29 日，支持美国、加拿大、巴西、德国、法国和日本市场，必须一次性按照年度订阅才能获得半价优惠。查看详情：https://ourl.co/112695&lt;/p&gt;&lt;p&gt;谷歌日前宣布所有符合特定条件的用户都可以享受 YouTube Premium 全年订阅的 5 折优惠，这项最新优惠活动主要面向每月消费 10 美元及以上的 Google AI Pro 或 Google One 订阅用户。&lt;/p&gt;
 &lt;p&gt;Google One Ultra 订阅已经包含 YouTube Premium 权益，而其他订阅则不包含这项权益，所以谷歌现在为符合条件的用户推出特惠活动，让用户可以半价订阅 YouTube Premium。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/08/110416.png" rel="nofollow"&gt;&lt;img alt="谷歌宣布为One和AI Pro订阅用户提供5折YouTube Premium订阅权限" data-src="https://img.lancdn.com/landian/2025/08/110416.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/08/110416.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -37,20 +53,4 @@ New-ItemProperty $RegPath "RedirectionWarningDialogVersion" -Value 1 -Force&lt;/
 &lt;pre&gt;计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services\Client&lt;/pre&gt;
 &lt;p&gt;右键点击 Client 选择新建 DWORD32 位值，将其重命名为 RedirectionWarningDialogVersion&lt;/p&gt;
 &lt;p&gt;双击刚刚新建的项，将其键值修改为 1 保存即可，1 代表回滚到旧版安全设置，修改为 0 则启用新版安全设置。&lt;/p&gt;
-</description><pubDate>Thu, 16 Apr 2026 05:25:37 +0000</pubDate></item><item><title>安装4月更新后连接远程桌面(RDP)将显示多种警告 默认也会隔离剪切板等</title><link>https://www.landiannews.com/archives/112692.html</link><description>
-&lt;p&gt;#软件资讯 安装 4 月更新后打开 RDP 远程桌面文件将显示告警，同时微软已经默认隔离剪切板、摄像头、麦克风、打印机等多种设备。此次更新后用户打开 RDP 文件将需要手动赋予权限，通过这种权限隔离可以提升安全性，对于已经具有数字签名的 RDP 文件则可以记住权限不必每次手动勾选。查看详情：https://ourl.co/112692&lt;/p&gt;&lt;p&gt;微软在 2026 年 4 月更新中对远程桌面协议进行安全更新，这次更新主要是新增多种安全警告以及默认情况下隔离发起端设备的各类权限，避免用户连接远程桌面后可能泄露数据或者导致内部网络遭到攻击。&lt;/p&gt;
-&lt;p&gt;如此更改的主要目的是微软可能观察到不少通过发送 RDP 文件进行钓鱼的情况，例如黑客可以搭建 RDP 服务器并诱导用户连接，连接后读取发起端的剪切板或者读取智能卡、摄像头、打印机等信息。&lt;/p&gt;
-&lt;p&gt;相关教程：&lt;a href="https://www.landiannews.com/archives/112693.html" rel="noopener" target="_blank"&gt;[教程] 修改注册表关闭Windows 11连接RDP时弹出的警告和默认隔离权限&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112692.png" rel="nofollow"&gt;&lt;img alt="安装4月更新后连接远程桌面(RDP)将显示多种警告 默认也会隔离剪切板等" data-src="https://img.lancdn.com/landian/2026/04/112692.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112692.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;为提高安全防御意识，当微软检测到发起连接的设备是首次打开 RDP 文件进行远程桌面连接，则会弹窗告诉用户 RDP 是什么、连接后有什么风险，这个弹窗为一次性显示，下次打开 RDP 文件时不再显示。(在弹窗中用户必须手动勾选已经明白才能继续连接)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这次更新微软还对 RDP 连接进行隔离设置，默认情况下连接 RDP 时不会赋予多种权限，避免用户在不了解详细情况后直接连接引起数据泄露。&lt;/p&gt;
-&lt;p&gt;隔离的权限包括：智能卡、Windows Hello for Business、WebAuthn、剪切板、摄像头或其他视频捕获设备、打印机、麦克风或其他音频输入设备、局域网中其他设备、局域网中其他插件或 PnP 发现设备。&lt;/p&gt;
-&lt;p&gt;也就是在实际连接时用户将需要手动勾选各类权限，其中没有数字签名的 RDP 文件每次连接都需要手动勾选权限，有数字签名的 RDP 文件可以记住选择下次使用上次已经勾选的权限。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;对于已经具有有效数字签名的 RDP 文件，打开文件时会显示发布者信息、连接类型和远程电脑名称，同时在弹窗顶部会显示这个远程连接已经经过认证。&lt;/p&gt;
-&lt;p&gt;没有有效数字签名的 RDP 文件则会显示橘红色警告提醒这是未知的远程连接，当然底部也同样会显示远程桌面信息和远程电脑名称。&lt;/p&gt;
-&lt;p&gt;如果用户看到带有此类警告的 RDP 文件则应当提高警惕，特别是从电子邮件或网上下载的，这些 RDP 文件可能具有危害性，在不了解 RDP 对应远程设备情况的情况下，用户不应该连接。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://learn.microsoft.com/zh-cn/windows-server/remote/remote-desktop-services/remotepc/understanding-security-warnings" rel="noopener" target="_blank"&gt;Microsoft&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 16 Apr 2026 05:02:05 +0000</pubDate></item></channel></rss>
+</description><pubDate>Thu, 16 Apr 2026 05:25:37 +0000</pubDate></item></channel></rss>
