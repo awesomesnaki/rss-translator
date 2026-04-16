@@ -52,7 +52,6 @@ feeds:
     translate: false
     filter_category: "微语录精选"
     text_only: true
-    max_age_days: 2
   - name: "nicenews"
     url: "https://nicenews.com/feed/"
     fetch_full_content: true

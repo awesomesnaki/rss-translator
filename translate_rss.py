@@ -408,8 +408,7 @@ def translate_feed(feed_config, cache):
     filter_out = feed_config.get('filter_out', [])
     filter_out_content = feed_config.get('filter_out_content', [])
     filter_category = feed_config.get('filter_category')
-    max_age_days = feed_config.get('max_age_days')
-    max_entries = 50 if (entry_filter or filter_out or filter_out_content or filter_category or max_age_days) else 5
+    max_entries = 50 if (entry_filter or filter_out or filter_out_content or filter_category) else 5
     entries = feed.entries[:max_entries]
     if entry_filter:
         entries = apply_entry_filter(entries, entry_filter)
@@ -434,16 +433,6 @@ def translate_feed(feed_config, cache):
             if any(t.get('term') in wanted for t in e.get('tags', []))
         ]
         print(f"  分类过滤: {before} → {len(entries)} 条 (保留: {wanted})")
-    if max_age_days:
-        before = len(entries)
-        cutoff = time.time() - max_age_days * 86400
-        def entry_ts(e):
-            p = e.get('published_parsed') or e.get('updated_parsed')
-            if not p:
-                return None
-            return datetime(*p[:6], tzinfo=timezone.utc).timestamp()
-        entries = [e for e in entries if (entry_ts(e) or 0) >= cutoff]
-        print(f"  日期过滤: {before} → {len(entries)} 条 (≤ {max_age_days} 天)")
 
     should_summarize_title = feed_config.get('summarize_title', False)
     should_images_only = feed_config.get('images_only', False)
