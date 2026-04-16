@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Thu, 16 Apr 2026 15:26:03 +0000</lastBuildDate><item><title>关于“iPhone Ultra”名称的额外思考</title><link>https://daringfireball.net/linked/2026/04/14/name-of-foldable-iphone</link><description>&lt;p&gt;关于我本周发布的&lt;a href="https://daringfireball.net/linked/2026/04/14/name-of-foldable-iphone"&gt;那篇文章&lt;/a&gt;——它推测了苹果今年将如何命名其&lt;a href="https://www.macrumors.com/roundup/iphone-fold/"&gt;传闻已久&lt;/a&gt;的双屏折叠iPhone——我还有一个想法。如果他们真的将其命名为“iPhone Ultra”，那么我认为苹果将这个名称用于折叠iPhone将意味着，他们完全没有计划制造一款“坚固型”iPhone——即类似于Apple Watch Ultra的型号。&lt;/p&gt;
-&lt;p&gt;我猜测苹果并没有推出专用坚固型iPhone的计划。想要这种手机的人，只会为普通iPhone购买超厚保护壳。手表则不同。我知道&lt;em&gt;有些人&lt;/em&gt;会给他们的Apple Watch戴上笨重的保护“壳”，但那些壳看起来很难看，这也是为什么你很少看到有人使用它们。为了在美学上令人愉悦的坚固性，手表表壳本身就需要为此而设计。但也许对于这样一款iPhone，确实存在一个足够大的潜在市场——尤其是如果这样的设备相对于普通iPhone，能拥有与Apple Watch Ultra相对于普通Apple Watch那样相对更长的电池续航。&lt;/p&gt;
-&lt;p&gt;但如果苹果将折叠iPhone称为“Ultra”，那就别再指望会有一款Apple-Watch-Ultra风格的iPhone了。就像“Air”在Mac、iPad和iPhone上意味着非常不同的东西一样，“Ultra”也可能如此。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/04/16/bonus-thought-regarding-the-name-iphone-ultra" title="‘关于‘iPhone Ultra’名称的补充想法’的永久链接"&gt; ★ &lt;/a&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Thu, 16 Apr 2026 18:43:44 +0000</lastBuildDate><item><title>苹果支付快捷交通模式，若与维萨卡搭配使用，易受欺诈性非接触式读卡器攻击</title><link>https://www.macrumors.com/2026/04/15/apple-pay-visa-transit-exploit/</link><description>&lt;p&gt;朱莉·克洛弗，MacRumors：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;该过程需要受害者已启用快捷交通模式进行支付，并关联了Visa卡用于此类支付，以及其他步骤。事实证明，这是一个与Visa相关的安全漏洞，而非iPhone的问题，并且它不适用于万事达卡或美国运通卡，因为其他卡使用不同的安全方法。它在三星设备上的三星支付中也不起作用，并且需要Visa卡和iPhone的特定组合。苹果公司告诉Veritasium，这是Visa系统的问题，但在现实世界中不太可能发生。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=PPJ6NJkmDAo"&gt;该视频&lt;/a&gt;由Veritasium YouTube频道发布，但以马奎斯·布朗利作为受害者，在超过15分钟后才澄清该漏洞仅适用于Visa卡，并且仅当Visa卡被设置为您的快捷交通模式用卡时。在此之前，视频暗示该漏洞可以针对任何配置了Apple Pay的iPhone，使用任何类型的信用卡。不过，关于黑客攻击如何运作的技术解释相当不错。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://daringfireball.net/linked/2025/04/03/us-transaction-shares-for-visa-mastercard-and-amex"&gt;正如我一年前所写&lt;/a&gt;（当时苹果正在寻找新的合作伙伴来取代高盛作为Apple Card的银行），Visa是美国最受欢迎的信用卡和借记卡，优势显著。如果您不使用快捷交通模式，您是安全的。如果您确实使用快捷交通模式，我建议使用除Visa卡之外的任何卡。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/04/16/express-transit-visa-exploit" title="永久链接至‘Apple Pay快捷交通模式，当与Visa卡一起使用时，易受诈骗性非接触式读卡器攻击’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Thu, 16 Apr 2026 18:43:44 +0000</pubDate></item><item><title>关于“iPhone Ultra”名称的额外思考</title><link>https://daringfireball.net/linked/2026/04/14/name-of-foldable-iphone</link><description>&lt;p&gt;关于&lt;a href="https://daringfireball.net/linked/2026/04/14/name-of-foldable-iphone"&gt;我本周发布的帖子&lt;/a&gt;中推测苹果今年将如何命名其&lt;a href="https://www.macrumors.com/roundup/iphone-fold/"&gt;传闻已久&lt;/a&gt;的双屏折叠iPhone，我还有一个想法。如果他们真的将其命名为“iPhone Ultra”，那么我认为苹果将这个名称用于折叠iPhone，将意味着他们完全没有计划制造一款“坚固型”iPhone——即类似于Apple Watch Ultra的型号。&lt;/p&gt;
+&lt;p&gt;我猜测苹果并没有推出专用坚固型iPhone的计划。想要这种手机的人，通常只是为普通iPhone购买超厚保护壳。手表则不同。我知道&lt;em&gt;有些人&lt;/em&gt;会给他们的Apple Watch戴上笨重的保护“壳”，但这些壳看起来非常难看，这也是为什么你很少看到有人使用它们。要实现美观的坚固性，手表本身的外壳就需要为此专门设计。但也许对于这样一款iPhone，确实存在足够大的潜在市场——尤其是如果这种设备的电池续航时间能显著超过任何普通iPhone，就像Apple Watch Ultra相对于普通Apple Watch那样。&lt;/p&gt;
+&lt;p&gt;但如果苹果将折叠iPhone称为“Ultra”，那就别再期待会有一款Apple-Watch-Ultra风格的iPhone了。就像“Air”在Mac、iPad和iPhone上意味着非常不同的东西一样，“Ultra”也可能如此。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/04/16/bonus-thought-regarding-the-name-iphone-ultra" title="关于‘iPhone Ultra’名称的补充想法永久链接"&gt; ★ &lt;/a&gt;
 </description><pubDate>Thu, 16 Apr 2026 15:26:03 +0000</pubDate></item><item><title>罗里·戈斯的无障碍故事</title><link>https://www.apple.com/education/college-students/success-stories/goss/</link><description>&lt;p&gt;苹果发布的一则专题报道和短片，非常值得一看：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;2024年1月的一个冬日，在北爱尔兰纽里市的艾比基督教兄弟文法学校，16岁的罗里·戈斯在建筑课上经历了一件令人不安的事。他再也看不清教室前方的白板了。&lt;/p&gt;
@@ -32,22 +39,4 @@
 &lt;p&gt;因为媒体追踪应用只是待办事项应用的一个子集，所有&lt;a href="https://robservatory.com/the-queue-helps-track-tv-shows-and-movies-to-watch/"&gt;相同的道理&lt;/a&gt;对它们也适用。所以，就像我偶尔会在通用待办事项应用之间来回切换，或者&lt;a href="https://daringfireball.net/linked/2025/12/21/finalist"&gt;迷恋上某个新应用&lt;/a&gt;一样，这些年来我也换过好几个媒体追踪应用。这类应用让你列出想看的电影和剧集、想读的书，然后在观看时记录它们，或许还会加上笔记或评分。&lt;/p&gt;
 &lt;p&gt;这是一个永远令人着迷的应用类别。Sofa 就是一个非常好的例子，我断断续续用了好几年。（免责声明：我是在&lt;a href="https://daringfireball.net/linked/2022/07/16/sofa"&gt;2022年它成为DF每周赞助商时&lt;/a&gt;开始使用 Sofa 的，但之后我一直用着，因为它确实很棒。）我已经使用 Sofa v5 好几个月了，包括其测试版阶段，它是对一款已经非常出色、非常周到的应用的一次重大改进。很多人用通用待办事项应用来追踪想看的电影剧集、想读的书和想玩的游戏。Sofa 5 则反其道而行之，将最初作为专用媒体追踪器的功能扩展成你可以用来追踪——嗯，任何你想做的事情的工具。&lt;/p&gt;&lt;p&gt;Sofa免费版已相当实用，付费订阅后更是超级好用。如果你对当前用于追踪待观看/阅读/游玩内容的应用程序或系统有丝毫不满，不妨试试它。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/04/15/sofa-5" title="‘Sofa 5.0’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Thu, 16 Apr 2026 00:36:05 +0000</pubDate></item><item><title>丽莎·梅尔顿：《史蒂夫的回忆》（特别是对Safari独特页面加载指示器的回忆）</title><link>https://lisamelton.net/2023/10/05/memories-of-steve/</link><description>&lt;p&gt;曾领导Safari浏览器开发团队的丽莎·梅尔顿，谈及她与史蒂夫·乔布斯的互动：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;当史蒂夫问你一个问题时？你不能东拉西扯，无论如何，你都不能编造答案。如果你不知道，你就直接说你不知道。但接着你要告诉他你什么时候会有答案。再说一次，这正如人们所说，对任何“向上管理”的人来说都是极好的建议。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这是与任何人打交道时的A+级建议，句号。如果你不知道，就说“我不知道”。太多人对说这句话有深深的厌恶。如果你能说“我不知道，但我会在«&lt;em&gt;某个很短的时间内&lt;/em&gt;»搞清楚”，那就这么说。&lt;/p&gt;
-&lt;p&gt;以下是本周相关的部分：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;史蒂夫不喜欢状态栏，也看不出它的必要性。“当鼠标悬停在链接上时，谁会去看URL呢？”他认为这太极客了。&lt;/p&gt;
-&lt;p&gt;幸运的是，斯科特和我成功说服史蒂夫将状态栏保留为一个选项，默认不显示。但这意味着我们有了一个新问题。我们应该把显示页面加载进度的进度条放在哪里？&lt;/p&gt;
-&lt;p&gt;以前，进度条是放在状态栏里的。所以我们需要为它找个新家。我们讨论了各种天马行空的想法，包括让它沿着窗口边缘垂直放置。&lt;/p&gt;
-&lt;p&gt;记住，那是在旋转齿轮或其他更小的指示器被广泛用于显示进度之前的时代。在那个使用理发店旋转灯柱式蓝色Aqua界面的年代，它必须是一个条状物。&lt;/p&gt;
-&lt;p&gt;房间里安静了下来。史蒂夫和我并排坐在演示机前，盯着Safari。突然，我们转向对方，同时说道：“放在页面地址栏里！”&lt;/p&gt;
-&lt;p&gt;大家脸上都露出了笑容。我紧接着说：“我会在本周末之前给你一个可用的版本。”当然，这给我的工程团队增加了额外负担。&lt;/p&gt;
-&lt;p&gt;但我不在乎。我刚和那位大人物一起发明了某个东西。诚然，这只是件小事，但没有什么感觉能比与史蒂夫共享哪怕一个微小的署名更棒了。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这当然与&lt;a href="https://daringfireball.net/linked/2026/04/14/calhoun-lemay"&gt;约翰·卡尔霍恩的随口回忆&lt;/a&gt;（在上个月&lt;a href="https://news.ycombinator.com/item?id=47297653"&gt;一个Hacker News的帖子&lt;/a&gt;中）相悖，他回忆说史蒂夫·勒梅“也发明了早期Safari中同时兼作进度条的URL文本字段”。梅尔顿是直接当事人，因此没有理由怀疑她关于与史蒂夫·乔布斯共同构思了这个想法的回忆。当然，这些回忆并不相互排斥——也许勒梅是被指派来完善这个想法的设计师，而卡尔霍恩记得他是这个想法的支持者。&lt;/p&gt;
-&lt;p&gt;总之，梅尔顿的整篇文章读起来非常顺畅。太棒了。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/04/15/melton-jobs" title="永久链接至‘丽莎·梅尔顿：《回忆史蒂夫》（特别是对Safari独特页面加载指示器的回忆）’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Wed, 15 Apr 2026 19:54:17 +0000</pubDate></item></channel></rss>
+</description><pubDate>Thu, 16 Apr 2026 00:36:05 +0000</pubDate></item></channel></rss>
