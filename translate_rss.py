@@ -407,7 +407,8 @@ def translate_feed(feed_config, cache):
     entry_filter = feed_config.get('filter')
     filter_out = feed_config.get('filter_out', [])
     filter_out_content = feed_config.get('filter_out_content', [])
-    max_entries = 50 if (entry_filter or filter_out or filter_out_content) else 5
+    filter_category = feed_config.get('filter_category')
+    max_entries = 50 if (entry_filter or filter_out or filter_out_content or filter_category) else 5
     entries = feed.entries[:max_entries]
     if entry_filter:
         entries = apply_entry_filter(entries, entry_filter)
@@ -424,9 +425,18 @@ def translate_feed(feed_config, cache):
             return e.get('summary', '')
         entries = [e for e in entries if not any(kw in get_entry_content(e) for kw in filter_out_content)]
         print(f"  正文过滤: {before} → {len(entries)} 条")
+    if filter_category:
+        before = len(entries)
+        wanted = [filter_category] if isinstance(filter_category, str) else list(filter_category)
+        entries = [
+            e for e in entries
+            if any(t.get('term') in wanted for t in e.get('tags', []))
+        ]
+        print(f"  分类过滤: {before} → {len(entries)} 条 (保留: {wanted})")
 
     should_summarize_title = feed_config.get('summarize_title', False)
     should_images_only = feed_config.get('images_only', False)
+    should_text_only = feed_config.get('text_only', False)
 
     for entry in entries:
         original_title = entry.get('title', '')
@@ -474,6 +484,13 @@ def translate_feed(feed_config, cache):
 
         # 修复图片防盗链问题
         translated_content = fix_image_tags(translated_content)
+
+        # 纯文字模式：去掉所有图片
+        if should_text_only:
+            soup = BeautifulSoup(translated_content, 'html.parser')
+            for img in soup.find_all('img'):
+                img.decompose()
+            translated_content = str(soup)
 
         # 获取发布时间
         pub_date = None

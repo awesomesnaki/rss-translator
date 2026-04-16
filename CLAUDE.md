@@ -28,6 +28,8 @@
   filter_out_content: ["关键词"] # 可选，正文含任一关键词则排除
   summarize_title: true     # 可选，长标题总结为简短中文短语（≤15字）
   images_only: true         # 可选，正文只保留图片，去掉所有文字
+  text_only: true           # 可选，正文去掉所有图片，只保留文字
+  filter_category: "xxx"    # 可选，只保留带该 <category> 标签的条目（可为字符串或列表）
 ```
 
 ## 关键设计决策
@@ -40,6 +42,8 @@
 - **标题总结** — `summarize_title` 用 DeepSeek 将长描述压缩为简短中文标题，适用于图片分享类 feed（如 some.pics），原始描述翻译后放入正文
 - **纯图模式** — `images_only` 配合 `summarize_title` 使用，正文只保留 `<img>` 标签，去掉所有文字，适用于 Pixelfed 等摄影类 feed
 - **关键词过滤** — `filter_out` 按标题排除、`filter_out_content` 按正文排除，用于去广告和不需要的内容类型（如 B 站视频嵌入）
+- **分类过滤** — `filter_category` 按 RSS `<category>` 精确保留，适用于只想要源站某个栏目的场景（如 luobo8 只要"微语录精选"）
+- **纯文字模式** — `text_only` 在 `fix_image_tags` 之后剥掉所有 `<img>`，适用于图片源防盗链无解、只想看文字的站点
 - **RSSHub URL 策略** — `rsshub://` 协议走 CI 本地实例；直接写 `https://rsshub.app/...` 则走官方实例不被改写，适用于本地实例无法抓取的源
 
 ## 操作注意事项
