@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 16 Apr 2026 05:25:37 +0000</lastBuildDate><item><title>[教程] 修改注册表关闭Windows 11连接RDP时弹出的警告和默认隔离权限</title><link>https://www.landiannews.com/archives/112693.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 16 Apr 2026 07:36:52 +0000</lastBuildDate><item><title>微软修复自2024年9月以来就存在的自动升级到Windows Server 2025问题</title><link>https://www.landiannews.com/archives/112696.html</link><description>#系统资讯 微软修复自 2024 年 9 月就存在的 Windows Server 2019/2022 自动升级到 2025 的问题，升级后企业还需要额外花钱购买许可证 (服务器系统是不支持免费升级的)。话说蓝点网还是首次看到某个问题经历这么长时间才被修复，微软官方从 2024 年 11 月开始记录这个问题，到昨天完成最终修复。查看详情：https://ourl.co/112696</description><pubDate>Thu, 16 Apr 2026 07:36:52 +0000</pubDate></item><item><title>谷歌宣布为One和AI Pro订阅用户提供5折YouTube Premium订阅权限</title><link>https://www.landiannews.com/archives/112695.html</link><description>
+&lt;p&gt;#网站应用 谷歌宣布为 Google One 和 Google AI Pro 订阅用户推出特别优惠：可以半价订阅 YouTube Premium。此次活动截至 4 月 29 日，支持美国、加拿大、巴西、德国、法国和日本市场，必须一次性按照年度订阅才能获得半价优惠。查看详情：https://ourl.co/112695&lt;/p&gt;&lt;p&gt;谷歌日前宣布所有符合特定条件的用户都可以享受 YouTube Premium 全年订阅的 5 折优惠，这项最新优惠活动主要面向每月消费 10 美元及以上的 Google AI Pro 或 Google One 订阅用户。&lt;/p&gt;
+&lt;p&gt;Google One Ultra 订阅已经包含 YouTube Premium 权益，而其他订阅则不包含这项权益，所以谷歌现在为符合条件的用户推出特惠活动，让用户可以半价订阅 YouTube Premium。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/08/110416.png" rel="nofollow"&gt;&lt;img alt="谷歌宣布为One和AI Pro订阅用户提供5折YouTube Premium订阅权限" data-src="https://img.lancdn.com/landian/2025/08/110416.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/08/110416.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;谷歌 AI 订阅副总裁 Shimrit Ben-Yair 表示：&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;应广大用户要求，即日起所有新老订阅每月订阅费超过 10 美元的用户都可以享受 YouTube Premium 全年半价订阅，将存储空间和 AI 功能以及无广告观看等功能捆绑，即可获得极致的谷歌体验。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;这项优惠政策适用于居住在美国、加拿大、巴西、德国、法国和日本的用户，活动有效期至 2026 年 4 月 29 日，必须一次性按照年度订阅时才能获得半价优惠。&lt;/p&gt;
+&lt;p&gt;另外特别需要注意的是如果你当前已经订阅 YouTube Premium，那么需要先取消订阅避免重复收费，取消订阅后再转到 Google One 或 Google AI Pro 里订阅 YouTube Premium。&lt;/p&gt;
+&lt;p&gt;为防止操作出错，建议用户在订阅前仔细阅读谷歌的支持文档：&lt;a href="https://support.google.com/googleone/answer/15808277" rel="noopener" target="_blank"&gt;https://support.google.com/googleone/answer/15808277&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;如果是 Google AI Pro 订阅用户则请访问这个页面：&lt;a href="https://one.google.com/explore-plan/youtube-premium?g1_landing_page=5" rel="noopener" target="_blank"&gt;https://one.google.com/explore-plan/youtube-premium?g1_landing_page=5&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Thu, 16 Apr 2026 07:06:14 +0000</pubDate></item><item><title>开源AI中转站项目New-API修复高危漏洞 利用缺陷可以伪造任意金额充值</title><link>https://www.landiannews.com/archives/112694.html</link><description>
+&lt;p&gt;#软件资讯 开源 AI 中转站项目 New-API 出现高危漏洞，攻击者利用缺陷可以伪造任意金额充值。目前漏洞已经修复，使用该项目搭建中转站的站长应当立即升级 v0.12.10 版，同时检查近期充值订单是否存在异常情况。查看详情：https://ourl.co/112694&lt;/p&gt;&lt;p&gt;经营 API 中转站业务的站长请注意：New-API 项目日前出现高危漏洞，借助漏洞可以伪造任意金额充值，使用该项目搭建的 API 中转站应当立即升级到最新版。&lt;/p&gt;
+&lt;p&gt;新版本已经调整 Stripe 异步支付事件和 Webhook 验签逻辑，升级到新版本后增加显式判断，如果没有配置 Stripe 签名密钥，则尝试发起支付时会直接返回 403 并终止处理。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112694.png" rel="nofollow"&gt;&lt;img alt="开源AI中转站项目New-API修复高危漏洞 利用缺陷可以伪造任意金额充值" data-src="https://img.lancdn.com/landian/2026/04/112694.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112694.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在启用 Stripe 充值并且 Webhook 路由可以被外部访问的情况下，原本 Webhook 应该靠 StripeWebhookSecret 校验签名，但如果 secret 为空，旧代码仍然会尝试进行验签，正常情况下应该直接拒绝验签。&lt;/p&gt;
+&lt;p&gt;这意味着签名校验的安全边界失效，最坏的情况下攻击者可以伪造 Stripe 支付事件，让系统误以为已经成功支付并计入余额。&lt;/p&gt;
+&lt;p&gt;Stripe Webhook 的核心作用在于让平台在用户完成付款、付款失败或者异步支付到账时，自动接受 Stripe 发送的事件通知并完成后续操作，这些通知必须依赖 Stripe 签名与服务端保存的签名密钥完成验签，确保请求确实来自 Stripe 而不是伪造流量。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在最新发布的 &lt;a href="https://github.com/QuantumNous/new-api/releases" rel="noopener" target="_blank"&gt;New-API v0.12.10&lt;/a&gt; 版中，开发者已经将这个缺陷修复，在开启 Stripe 支付但并未配置密钥时，系统会直接返回 403 来终止处理。&lt;/p&gt;
+&lt;p&gt;对使用 New-API 的项目来说当前需要立即升级到最新版本，同时检查 Webhook 是否存在暴露的情况，如有需要还应当检查近期的支付订单是否存在异常。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://github.com/QuantumNous/new-api/commit/b2a40d338170ca50c49bbe7b2e9b7562427867b9" rel="noopener" target="_blank"&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Thu, 16 Apr 2026 06:51:30 +0000</pubDate></item><item><title>[教程] 修改注册表关闭Windows 11连接RDP时弹出的警告和默认隔离权限</title><link>https://www.landiannews.com/archives/112693.html</link><description>
 &lt;p&gt;#技术教程 修改注册表关闭 Windows 11 连接 RDP 时弹出的警告和默认隔离权限。如果你经常打开各类 RDP 文件尤其是不包含签名的文件，可以通过注册表回滚旧版安全设置，避免每次连接都弹出警告和需要手动赋予剪切板等权限。查看详情：https://ourl.co/112693&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landiannews.com/archives/112692.html" rel="noopener" target="_blank"&gt;前文蓝点网提到微软在 2026 年 4 月更新中对远程桌面连接进行改造提升安全性&lt;/a&gt;，当用户打开 RDP 文件时将显示多种警告并且会隔离包括剪切板在内的多种权限，此次更新后可以显著提升安全性避免用户不慎被钓鱼。&lt;/p&gt;
 &lt;p&gt;然而对于专业用户来说每次打开都需要手动勾选权限和弹出警告多少有些麻烦，所以微软也预留组策略和注册表选项让用户可以回滚到旧版 RDP 安全策略，这样可以减少高频次连接的摩擦。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112692.png" rel="nofollow"&gt;&lt;img alt="[教程] 修改注册表关闭Windows 11连接RDP时弹出的警告和默认隔离权限" data-src="https://img.lancdn.com/landian/2026/04/112692.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112692.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -31,52 +53,4 @@ New-ItemProperty $RegPath "RedirectionWarningDialogVersion" -Value 1 -Force&lt;/
 &lt;p&gt;没有有效数字签名的 RDP 文件则会显示橘红色警告提醒这是未知的远程连接，当然底部也同样会显示远程桌面信息和远程电脑名称。&lt;/p&gt;
 &lt;p&gt;如果用户看到带有此类警告的 RDP 文件则应当提高警惕，特别是从电子邮件或网上下载的，这些 RDP 文件可能具有危害性，在不了解 RDP 对应远程设备情况的情况下，用户不应该连接。&lt;/p&gt;
 &lt;p&gt;via &lt;a href="https://learn.microsoft.com/zh-cn/windows-server/remote/remote-desktop-services/remotepc/understanding-security-warnings" rel="noopener" target="_blank"&gt;Microsoft&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 16 Apr 2026 05:02:05 +0000</pubDate></item><item><title>Telegram新增机器人创建和管理机器人 开发者可以为用户提供AI智能体服务</title><link>https://www.landiannews.com/archives/112677.html</link><description>
-&lt;p&gt;#软件资讯 Telegram 继续加强机器人功能，现在机器人可以创建和管理子机器人，例如开发者可以通过此功能向其他用户提供 AI 智能体服务。这个功能利好开发者，开发者可以通过 AI 智能体多租户模式向其他用户提供免费或收费服务，用户不需要自己搭建智能体和获取 AI 模型之类的。查看详情：https://ourl.co/112677&lt;/p&gt;&lt;p&gt;即时通讯工具 Telegram 这段时间频繁更新机器人功能，例如此前开放机器人与机器人的相互通信 (以前机器人不得回复机器人消息)，现在 Telegram 甚至开放机器人创建机器人功能。&lt;/p&gt;
-&lt;p&gt;这个新功能允许用户手动创建的机器人代表用户执行操作：包括创建机器人和管理机器人，本质上这些功能还是为了 AI 智能体，也就是给 AI 智能体提供更多丰富的机器人管理功能。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112677.png" rel="nofollow"&gt;&lt;img alt="Telegram新增机器人创建和管理机器人 开发者可以为用户提供AI智能体服务" data-src="https://img.lancdn.com/landian/2026/04/112677.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112677.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;提供 AI 服务的管理员创建主机器人 A，在 @BotFather 中启用主机器人管理模式，启用后管理员可以将邀请链接发送给其他人 (或者自己)，其他人就可以通过链接来创建子机器人。&lt;/p&gt;
-&lt;p&gt;拿到链接的用户都可以创建子机器人，而主管理员和主机器人 A 都可以管理用户创建的这些子机器人，同时通过后端的 AI 智能体为这些子机器人提供功能，用户无需自己动手即可使用第三方提供的 AI 智能体服务。&lt;/p&gt;
-&lt;p&gt;这对开发者来说可能是利好，因为可以通过多租户模式为其他用户提供 AI 智能体服务，让没有能力或者不想自己搭建 AI 机器人的用户直接用现成的服务，当然也可以酌情向用户收取使用费。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;注：这个功能不局限于 AI 智能体服务，开发者当然也可以通过子机器人提供其他服务。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;链接格式：&lt;em&gt;https://t.me/newbot/{manager_bot_username}/{new_username}?name={new_name}&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;例如管理员创建的主机器人 A 名为 @ManagerBot，{new_username} 为用户子机器人的建议名称占位符，{new_name} 为建议的显示名称，显示的链接如下：&lt;em&gt;https://t.me/newbot/ManagerBot/CoolAIAgentBot?name=Cool+AI+Agent&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;当用户打开这个链接时就会自动创建名为 CoolAIAgentBot 机器人，同时管理员的主机器人会收到通知，通知里包含这个新子机器人以及子机器人创建用户的信息。&lt;/p&gt;
-&lt;p&gt;管理员可以通过 Bot API 来获取机器人的访问令牌，再通过令牌控制子机器人、接收和回复消息、修改机器人资料、修改机器人设置等。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://core.telegram.org/bots/features#managed-bots" rel="noopener" target="_blank"&gt;Telegram&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 16 Apr 2026 04:24:44 +0000</pubDate></item><item><title>[指南] Cloudflare推出域名注册API 直接让你的API智能体帮你快速注册域名</title><link>https://www.landiannews.com/archives/112676.html</link><description>
-&lt;p&gt;#技术教程 Cloudflare 推出域名注册 API 服务，可以配合 AI 智能体快速查询域名状态、注册价格、直接付款注册。这个 API 对于 AI 智能体来说非常方便，后续用户需要查询域名是否可以注册都可以通过这个 API 进行。详细配置方法：https://ourl.co/112676&lt;/p&gt;&lt;p&gt;网络服务提供商 Cloudflare 日前宣布面向所有用户推出 &lt;a href="https://developers.cloudflare.com/registrar/registrar-api/" rel="noopener" target="_blank"&gt;Cloudflare Registrar API&lt;/a&gt;，这个接口可以通过简单的命令快速检索域名，接着查看域名是否可以注册以及注册价格，用户完成确认后即可通过绑定的支付方式快速注册域名。&lt;/p&gt;
-&lt;p&gt;推出这项服务主要还是简化开发者购买域名的流程，以前注册域名还需要手动查询并填写各类信息，现在提供 API 后开发者可以直接通过自己的 AI 智能体完成这些工作。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112676-1.png" rel="nofollow"&gt;&lt;img alt="Cloudflare推出域名注册服务API 可以直接让你的API智能体帮你快速注册域名" data-src="https://img.lancdn.com/landian/2026/04/112676-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112676-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;转到 Cloudflare &lt;a href="https://dash.cloudflare.com/" rel="noopener" target="_blank"&gt;控制台&lt;/a&gt;获取账户 ID：在控制台首页点击右侧添加按钮旁边的...，选择复制账户 ID。&lt;/li&gt;
-&lt;li&gt;点击控制台左下角的管理账户、账户 API 令牌、创建令牌，然后设置自定义令牌账户名称。&lt;/li&gt;
-&lt;li&gt;提醒：建议创建专门的 API 用于注册域名，不要直接使用全局 API，以免泄露后影响其他服务安全。&lt;/li&gt;
-&lt;li&gt;在 API 账户权限组里选择：DNS&amp;amp;ZONES、Registrar Domains、勾选读取和管理权限。&lt;/li&gt;
-&lt;li&gt;复制和保存 API Token，仅显示 1 次，如果忘记复制或丢失都需要重新创建。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;将这个地址发给你的 AI 智能体：&lt;a href="https://developers.cloudflare.com/registrar/registrar-api/" rel="noopener" target="_blank"&gt;https://developers.cloudflare.com/registrar/registrar-api/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;将你的账户 ID 和创建的 API 令牌以安全方式暴露给 AI 智能体，然后测试结果，如果能成功连接并查询域名说明整个流程已经跑通。&lt;/p&gt;
-&lt;p&gt;如果你没有在 Cloudflare 注册过域名，那实际注册时还需要提供域名注册信息和绑定付款信息，这样才能通过 AI 智能体自动默认使用注册信息和付款。&lt;/p&gt;
-&lt;p&gt;不过我们建议还是侧重于查询为主，实际注册时用户可以自己去控制台操作，避免失误操作出现损失。因为域名注册后是不支持退款的，如果因为 API 泄露或者 AI 智能体误操作注册域名都会造成损失，蓝点网账户已经绑定域名付款方式，所以等下就直接注销掉 API。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112676-2.png" rel="nofollow"&gt;&lt;img alt="Cloudflare推出域名注册服务API 可以直接让你的API智能体帮你快速注册域名" data-src="https://img.lancdn.com/landian/2026/04/112676-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112676-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112676-3.png" rel="nofollow"&gt;&lt;img alt="Cloudflare推出域名注册服务API 可以直接让你的API智能体帮你快速注册域名" data-src="https://img.lancdn.com/landian/2026/04/112676-3.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112676-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 16 Apr 2026 03:50:26 +0000</pubDate></item><item><title>Cloudflare新增容器区域与司法管辖区定位 开发者可以控制容器在哪里运行</title><link>https://www.landiannews.com/archives/112675.html</link><description>
-&lt;p&gt;#网络服务 Cloudflare 新增容器区域与司法管辖区定位，开发者可以控制容器在哪些区域运行，满足延迟或合规要求。现阶段提供的区域包括北美洲东部、北美洲西部、东欧、西欧，司法管辖区映射可以将容器和数据限制在特定区域例如东欧 + 西欧或北美，从而降低延迟或者满足不同区域的数据驻留要求。查看详情：https://ourl.co/112675&lt;/p&gt;&lt;p&gt;Cloudflare 日前发布 Containers 功能更新，此次更新为容器服务新增区域和司法管辖区定位约束功能，开发者可以通过简单配置将容器实例限制在特定地理区域或合规边界内运行，强化数据本地化与合规能力。&lt;/p&gt;
-&lt;p&gt;开发者可以使用区域参数将容器部署严格限定在特定地理位置，通过司法管辖区参数可以用于合规边界限制，这对合规要求较高的企业开发者来说应该是个好消息。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112675.png" rel="nofollow"&gt;&lt;img alt="Cloudflare新增容器区域与司法管辖区定位 开发者可以控制容器在哪里运行" data-src="https://img.lancdn.com/landian/2026/04/112675.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112675.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;使用区域 (regions) 参数：支持 ENAM、WNAM、EEUR、WEUR，用于地理位置精确定位&lt;/p&gt;
-&lt;p&gt;使用司法管辖区 (jurisdiction) 参数：支持 eu、fedramp，用于合规边界限制&lt;/p&gt;
-&lt;p&gt;区域参数说明：ENAM 为北美东部、WNAM 为北美西部、EEUR 为东欧、WEUR 为西欧&lt;/p&gt;
-&lt;p&gt;司法管辖区映射：例如使用 eu 参数映射到 EEUR+WEUR 用来满足 GDPR 规定，确保数据只留在欧洲&lt;/p&gt;
-&lt;p&gt;司法管辖区映射：fedramp 可以映射到北美合规区域，对应美国联邦风险和授权管理程序认证的数据中心&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这种类似区域限制服务在 Cloudflare 其他服务中已经陆续上线，通过提供区域限制可以满足企业尤其是跨国企业在不同地区的数据驻留要求。&lt;/p&gt;
-&lt;p&gt;以下场景都适合使用区域限制：跨国企业在不同地区的数据驻留要求、政府或公共部门处理敏感数据、金融和医疗等受到严格监管的行业、希望优化延迟同时满足合规的开发者。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://community.cloudflare.com/t/containers-control-where-your-containers-run-with-regional-and-jurisdictional-placement/919598" rel="noopener" target="_blank"&gt;Cloudflare&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 16 Apr 2026 03:08:29 +0000</pubDate></item></channel></rss>
+</description><pubDate>Thu, 16 Apr 2026 05:02:05 +0000</pubDate></item></channel></rss>
