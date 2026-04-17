@@ -1,5 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Fri, 17 Apr 2026 02:01:16 +0000</lastBuildDate><item><title>Telegram终于提供官方版的简体/繁体中文语言包 但翻译目前还有些粗糙</title><link>https://www.landiannews.com/archives/112699.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Fri, 17 Apr 2026 03:40:06 +0000</lastBuildDate><item><title>又出现天价账单！谷歌GCP存在缺陷 地图API都能直接调用Gemini且不受消费限制</title><link>https://www.landiannews.com/archives/112703.html</link><description>
+&lt;p&gt;#人工智能 又是天价账单！谷歌 GCP 存在缺陷可能会让开发者创建的旧令牌调用 Gemini API 且不受消费层级和支出上限限制。建议在 GCP 平台申请过各类免费或付费 API (例如用于谷歌地图或 Firebase) 的开发者立即轮换密钥并设置限制，这些旧密钥可以跨服务直接调用 Gemini API。查看详情：https://ourl.co/112703&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landiannews.com/archives/112673.html" rel="noopener" target="_blank"&gt;这段时间谷歌因为天价账单问题正在对 Gemini API 平台进行大幅度改进&lt;/a&gt;，包括设置不同层级的消费限制、允许开发者设置项目支出上限、新增预付费机制充值多少用多少等。&lt;/p&gt;
+&lt;p&gt;不过在这种情况下依然有开发者不慎暴露 API 令牌后产生天价账单，名为赞比西的开发者发帖称自己的 Google Firebase AI Logic 在 13 小时内产生高达 5.4 万欧元的 AI 使用账单。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在 2025 年创建的项目用于 Google Firebase 身份验证，最近这名开发者添加简单的 AI 功能 (根据文本提示生成网页代码片段) 并启用 Firebase AI Logic 功能。&lt;/p&gt;
+&lt;p&gt;启用此功能后不久，开发者发现 Gemini API 使用量激增并且产生的使用量与实际用户无关，看起来这些使用量都是自动化产生的，开发者发现问题后禁用 API 后使用量停止增加。&lt;/p&gt;
+&lt;p&gt;从使用量激增到开发者禁用 API 约有 13 小时，期间开发者收到 80 欧元的预算警报和成本异常警报，不过这些警报都是延迟几小时后才发来，而不是实际消耗 80 欧元时就触发。&lt;/p&gt;
+&lt;p&gt;开发者在注意到异常禁用 API 时实际账单金额达到 28,000 欧元，由于本身 Gemini API 成本报告也是延迟的，最终开发者收到的账单金额高达 54,000 欧元。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112673.png" rel="nofollow"&gt;&lt;img alt="又出现天价账单！谷歌GCP存在缺陷 地图API都能直接调用Gemini且不受消费限制" data-src="https://img.lancdn.com/landian/2026/04/112673.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112673.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;后来开发者与谷歌云支持团队沟通并提供详细日志和分析报告，不过谷歌云支持团队认为费用源于开发者的项目，因此认定这是合理使用，所以开发者提交的账单申诉被谷歌云团队驳回。&lt;/p&gt;
+&lt;p&gt;开发者认为这种使用方式显然是异常的、并非用户驱动的，也不能反映用户对该服务的预期或有实际意义的使用，谷歌云应当对这部分异常账单进行豁免才对。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在文章开头蓝点网提到谷歌正在改进 Gemini API 平台的消费问题，但这些改进有个致命漏洞：&lt;strong&gt;所有改进仅适用于通过 Google AI Studio 创建的 API，开发者在其他地方创建的 API 尤其是老旧的 API 是不受这些消费限制约束的。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;根据 Truffle Security 在 2026 年 2 月发布的&lt;a href="https://trufflesecurity.com/blog/google-api-keys-werent-secrets-but-then-gemini-changed-the-rules" rel="noopener" target="_blank"&gt;分析报告&lt;/a&gt;，多种谷歌 API 令牌 (例如谷歌地图和 Firebase) 都可以用来调用 Gemini API 服务，这家安全公司在全网扫描到 3000 多个暴露的 API 密钥。&lt;/p&gt;
+&lt;p&gt;问题在于原本用于谷歌地图的这些 API 其实公开或不慎泄露也不是太大的问题，只不过在 AI 时代谷歌竟然接受通过这些 API 令牌用于 Gemini 身份验证。&lt;/p&gt;
+&lt;p&gt;更夸张的是谷歌自己都使用这些旧 API 并在网上公开，研究人员甚至可以通过 API 令牌访问谷歌自己内部使用的 Gemini 服务，但谷歌认为这些密钥不涉及敏感信息。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;针对这个漏洞问题，谷歌员工在回应开发者时透露，默认情况下 Google AI Studio 生成的密钥仅用于调用 Gemini API 服务，&lt;strong&gt;但开发者从 GCP 其他部分生成的密钥具有跨服务功能。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;同时相关消费限制也仅限于新生成的这些密钥，也就是以前生成的老旧密钥是不会受到消费限制的&lt;/strong&gt;，对开发者而言现在立即销毁以前创建的各种密钥至关重要，否则暴露后产生天价账单后哪怕最终能被免除也可能需要浪费大量时间与谷歌沟通。&lt;/p&gt;
+&lt;p&gt;目前 Google AI Studio 团队已经提供邮箱供开发者联系来彻底调查这件事，开发者的这笔天价账单应该可以被免除。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://discuss.ai.google.dev/t/unexpected-54k-billing-spike-in-13-hours-firebase-browser-key-without-api-restrictions-used-for-gemini-requests/140262/2" rel="noopener" target="_blank"&gt;Google Dev&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 17 Apr 2026 03:40:06 +0000</pubDate></item><item><title>英特尔推出酷睿3系列移动处理器 与5年前同类芯片相比性能提升47%</title><link>https://www.landiannews.com/archives/112702.html</link><description>
+&lt;p&gt;#硬件设备 英特尔推出酷睿系列 3 移动处理器，主要定位是入门级家庭和商用设备，也可以用于边缘计算等领域。该系列芯片主打的就是性价比和能耗比，单线程和多线程性能提高 47% 和 41%(与 5 年前的同类芯片相比)，提供最高 40 TOPS 的 AI 算力支持，可以在本地运行 AI 任务。查看详情：https://ourl.co/112702&lt;/p&gt;&lt;p&gt;芯片制造商英特尔日前宣布面向家庭用户、小型企业以及适合边缘部署的全新英特尔酷睿系列 3 移动处理器，这些处理器代号野猫湖 (Wildcat Lake)，主要定位是入门级笔记本电脑。&lt;/p&gt;
+&lt;p&gt;英特尔称酷睿系列 3 移动处理器可以提高性能、延长电池续航时间以及内置人工智能技术，该系列处理器提供最高 40 TOPS 的算力支持，可以在本地运行人工智能任务。&lt;/p&gt;
+&lt;p&gt;野猫湖系列也是英特尔将「AI 就绪」计算覆盖到更加经济实惠的计算机中，所以英特尔将酷睿系列 3 称为混合 AI 就绪，满足消费者对人工智能本地计算的需求。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112702.png" rel="nofollow"&gt;&lt;img alt="英特尔推出酷睿3系列移动处理器 与5年前同类芯片相比性能提升47%" data-src="https://img.lancdn.com/landian/2026/04/112702.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112702.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;产品代号：Wildcat Lake / Intel Core Series 3&lt;/li&gt;
+&lt;li&gt;芯片制程：Intel 18A (2 纳米工艺)&lt;/li&gt;
+&lt;li&gt;连接功能：支持最多 2 个 Thunderbolt 4，支持 WiFi 7 和 Bluetooth 6&lt;/li&gt;
+&lt;li&gt;单线程性能：提升 47% (与 5 年前的同类芯片相比)&lt;/li&gt;
+&lt;li&gt;多线程性能：提升 41% (与 5 年前的同类芯片相比)&lt;/li&gt;
+&lt;li&gt;功耗变化：最多降低 64% (大抵还是和 5 年前的同类芯片相比)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;英特尔对酷睿系列 3 移动处理器的主要定位就是入门级设备和边缘设备，入门级设备包括个人和家庭使用的笔记本电脑，当然也包括部分中小企业使用的商用入门级笔记本电脑。&lt;/p&gt;
+&lt;p&gt;而边缘设备指的是机器人、智能建筑、销售点终端和智能计算等领域，英特尔称这些芯片经过精心设计，旨在平衡这些边缘使用场景下的性能和效率，同时集成的人工智能加速可以处理视觉和语音等。&lt;/p&gt;
+&lt;p&gt;即日起酷睿系列 3 移动处理器在全球范围内推出，英特尔预计 2026Q2 搭载该系列处理器的消费级和商用设备将会陆续推出，英特尔硬件合作伙伴将推出超过 70 款搭载该芯片的设备&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://newsroom.intel.com/client-computing/intel-launches-intel-core-series-3-processors-changing-the-game-for-everyday-computing" rel="noopener" target="_blank"&gt;Intel&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 17 Apr 2026 03:06:09 +0000</pubDate></item><item><title>A社宣布永久增加Claude Pro和Max订阅用户使用配额 方便开发者在CC里使用4.7</title><link>https://www.landiannews.com/archives/112701.html</link><description>
+&lt;p&gt;#人工智能 A 社宣布永久增加 Claude Pro 和 Max 订阅用户的使用配额，因为 Opus 4.7 分词器更新后消耗的 tokens 会更多。新分词器计算 tokens 时是旧版的 1.0~1.35 倍，作为补偿，A 社将配额永久提高 (具体提高多少未知)，开发者将 Claude Code 更新到最新版并搭配 4.7 后可以看到配额变化。查看详情：https://ourl.co/112701&lt;/p&gt;&lt;p&gt;A 社刚刚发布 Claude Opus 4.7 模型，该模型在智能体编码能力方面较 Claude Opus 4.6 提升不少，这让开发者们可以稳定运行更长时间的任务以及严格遵循既定指令等等。&lt;/p&gt;
+&lt;p&gt;不过由于内部分词器更新，Claude Opus 4.7 在 tokens 消耗量是旧版分词器的 1.0~1.35 倍，所以开发者实际使用时可能会注意到配额消耗速度会更快，所以也有不少开发者担心 Claude Code 配合 Claude Opus 4.7 时会更快达到配额限制。&lt;/p&gt;
+&lt;p&gt;A 社也已经考虑到这个问题，所以 Claude Code 团队宣布 A 社为所有 Claude 付费订阅用户增加使用配额作为补偿，这样开发者在使用时应该会觉得配额消耗速度与 Opus 4.6 类似。&lt;/p&gt;
+&lt;p&gt;值得注意的是有开发者追加提问，想知道这临时增加的配额什么时候过期，不过 Claude Code 团队称这是永久增加使用配额，也就是作为补偿彻底抵消分词器更新带来的消耗增加。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/07/109974.png" rel="nofollow"&gt;&lt;img alt="A社宣布永久增加Claude Pro和Max订阅用户使用配额 方便开发者在CC里使用4.7" data-src="https://img.lancdn.com/landian/2025/07/109974.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/07/109974.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;将 Claude Code 桌面版或 CLI 版更新到最新版并搭配 Claude Opus 4.7 模型，如果没有更新或者模型选择错误都不会看到更新。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;遗憾的是 A 社并未明确说明此次永久增加多少配额，已经有开发者注意到配额更新，实际增加的配额可能在 50%~100% 左右，这个可能还需要更多开发者更新后观察情况。&lt;/p&gt;
+&lt;p&gt;不过也有不少开发者吐槽现在配额消耗速度太快，仅仅只是小改动就导致 5 小时配额被耗尽，还有开发者吐槽 Opus 4.7 的安全边界太窄，修复 BUG 也会被当做恶意行为拒绝运行。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://x.com/bcherny/status/2044839936235553167" rel="noopener" target="_blank"&gt;Twitter&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 17 Apr 2026 02:40:22 +0000</pubDate></item><item><title>A社发布Claude Opus 4.7 可以更长时间运行任务并严格遵循既定指令</title><link>https://www.landiannews.com/archives/112700.html</link><description>
+&lt;p&gt;#人工智能 A 社推出 Claude Opus 4.7，该模型可以稳定处理长时间运行的任务以及严格遵循既定指令。基准测试显示该模型在编码能力上已经领先于 GPT-5.4，不过与不公开的 Claude Mythos 模型相比仍然差很多，而 4.7 也同样内置严格的安全机制用来识别和阻止高风险网络安全用途的请求。查看详情：https://ourl.co/112700&lt;/p&gt;&lt;p&gt;人工智能公司 Anthropic 已经推出最新模型 Claude Opus 4.7，该模型在复杂软件工程任务方面相较 Opus 4.6 有着显著提升，并且能够稳定处理长时间运行的任务以及严格遵循既定指令。&lt;/p&gt;
+&lt;p&gt;Opus 4.7 也大幅度提高视觉能力，该模型现在可以用于分析分辨率更高的图像，帮助用户或开发者识别图像内容并进行分析，例如将复杂的工程图像识别为分步骤任务等。&lt;/p&gt;
+&lt;p&gt;从基准测试数据来看 Opus 4.7 已经领先于 GPT-5.4 系列模型，但该模型能力仍然远逊于 A 社不公开发布的 Claude Mythos Preview 版，后者是 A 社面向网络安全领域推出的专有模型，由于担心潜在的危害因此 Mythos 模型当前仅面向少数企业提供。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;基准测试数据：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112700.png" rel="nofollow"&gt;&lt;img alt="A社发布Claude Opus 4.7 可以更长时间运行任务并严格遵循既定指令" data-src="https://img.lancdn.com/landian/2026/04/112700.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112700.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;基于安全考虑 A 社也在 Opus 4.7 中内置安全防护机制，该机制可以自动检测并阻止与高风险网络安全用途相关的请求，避免用户或黑客尝试利用模型挖掘和利用软件漏洞等。&lt;/p&gt;
+&lt;p&gt;而希望将 Opus 4.7 用于合法网络安全用途的专业安全研究人员则可以参与 A 社最新推出的网络安全验证计划，经过验证的合法安全研究员可以获得更宽松的安全边界，用于发掘漏洞、逆向工程和修复及验证漏洞补丁等。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A 社强调开发者从 Opus 4.6 迁移到 Opus 4.7 时关注两项变更：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;首先 Opus 4.7 使用更新的分词器，这改进了模型处理文本的方式，根据内容类型的不同，新分词器使用的 tokens 数量是旧分词器的 1.0~1.35 倍。&lt;/p&gt;
+&lt;p&gt;其次 Opus 4.7 在高难度级别下会进行更多思考，这也会导致 tokens 消耗量显著增加，因此如果开发者将努力程度设置为高时，应该关注账户配额或 API 使用量。&lt;/p&gt;
+&lt;p&gt;除了发布 Claude Opus 4.7 模型外，A 社还更新 Claude Code 并新增 /ultrareview 命令，该命令可以创建专门的代码审查会话，用于读取代码变更并标记错误和其他设计问题。&lt;/p&gt;
+&lt;p&gt;已经开通 Claude Pro 和 Claude Max 的订阅用户在预览阶段可以获得三次的免费 Ultrareview 代码审查服务，开发者可以考虑将复杂的代码变更交给 Claude Code 审查。&lt;/p&gt;
+</description><pubDate>Fri, 17 Apr 2026 02:21:22 +0000</pubDate></item><item><title>Telegram终于提供官方版的简体/繁体中文语言包 但翻译目前还有些粗糙</title><link>https://www.landiannews.com/archives/112699.html</link><description>
 &lt;p&gt;#软件资讯 Telegram 官方终于带来简体中文和繁体中文的支持，用户无需再安装其他语言包，只不过目前翻译还有些粗糙。长期以来 Telegram 都没有提供中文语言包，大部分用户都依赖其他开发者提供的语言包，现在提供官方语言包后用户可以直接在设置里切换 (目前仅支持手机版)。查看详情：https://ourl.co/112699&lt;/p&gt;&lt;p&gt;即时通讯工具 Telegram 长期以来都没有提供官方的中文系列语言包，这导致用户需要安装其他开发者提供的简体中文或繁体中文语言包，而且网上还有不少钓鱼网站声称提供中文版结果用户下载的是恶意软件用来窃取账户。&lt;/p&gt;
 &lt;p&gt;说实话没人知道为什么 Telegram 过去这么多年都不提供中文语言包，不过现在 Telegram 已经在 iOS 和 Android 版中开始提供官方中文语言包，涵盖简体中文和繁体中文，用户只需要更新到最新版即可切换。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112699.png" rel="nofollow"&gt;&lt;img alt="Telegram终于提供官方版的简体/繁体中文语言包 但翻译目前还有些粗糙" data-src="https://img.lancdn.com/landian/2026/04/112699.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112699.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -7,50 +73,4 @@
 &lt;p&gt;至于 Telegram for Windows 版暂时还未发现中文系列语言包，按理说语言包都是通用的，所以为什么手机版已经支持而 PC 版还未支持呢？PC 用户如果想要使用中文语言包暂时还只能继续使用其他开发者提供的版本。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;下面是切换方法：&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;首先确保你已经更新到 Telegram for iOS/Android 最新版，更新后点击主界面底部的设置，在设置页面点击语言，语言里即可切换简体中文或繁体中文。&lt;/p&gt;
-</description><pubDate>Fri, 17 Apr 2026 02:01:16 +0000</pubDate></item><item><title>OpenAI推出Codex重大更新 内置浏览器/操作计算机/新增记忆/支持生成图片</title><link>https://www.landiannews.com/archives/112698.html</link><description>
-&lt;p&gt;#软件资讯 Codex 编码工具获得重大更新，包括内置浏览器、多终端连接、后台运行和操作本地计算机、新增图像生成等等。其中操作计算机可以让 Codex 控制很多不提供 API 接口的应用，这可以帮助开发者迭代前端更改、测试应用以及在不公开 API 的应用中进行开发。查看详情：https://ourl.co/112698&lt;/p&gt;&lt;p&gt;Codex 目前拥有约 300 万名周活跃开发者，不过并非所有开发者试用的都是 Codex 应用，不少开发者实际上通过 IDE 插件和命令行版 (CLI) 使用，而 Codex 桌面应用本身有多少用户还不清楚。&lt;/p&gt;
-&lt;p&gt;现在 OpenAI 决定推出 Codex 重大更新吸引更多开发者使用桌面应用，桌面应用将提供更加丰富的功能，包括后台使用本地计算机 (通过 Computer use 实现)、应用内浏览器以及提供图像生成等功能。&lt;/p&gt;
-&lt;p&gt;实际上这次更新 Codex 新增应用浏览器似乎是在佐证 OpenAI 正在开发超级桌面应用，该应用预计将会把 Atlas 浏览器、Codex、ChatGPT 整合，让用户快速执行不同的操作。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112698-1.png" rel="nofollow"&gt;&lt;img alt="OpenAI推出Codex重大更新 内置浏览器/操作计算机/新增记忆/支持生成图片" data-src="https://img.lancdn.com/landian/2026/04/112698-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112698-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;最新版 Codex 应用新增后台运行功能，通过该功能 Codex 现在可以使用光标查看、点击和在用户电脑上输入内容，这使得 Codex 应用能够控制很多不提供 API 的应用。&lt;/p&gt;
-&lt;p&gt;OpenAI 也允许多个 Codex 在 Mac 上并行运行而不会中断用户在桌面上的操作，对开发者而言这有助于迭代前端更改、测试应用程序或在不公开 API 的应用中进行开发。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Codex 现在也支持与 Web 进行原生交互，这次更新 OpenAI 为 Codex 带来应用内浏览器，用户可以直接在页面上添加注释从而向 AI 智能体提供更加精确的指令。&lt;/p&gt;
-&lt;p&gt;这对目前的前端和游戏开发行业来说非常有用，OpenAI 计划未来继续扩展这项功能，让 Codex 能够完全控制浏览器，而不仅仅局限于本地主机上的 Web 应用。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Codex 本身是个开发类的应用所以并不支持图像生成，但现在 Codex 可以通过 GPT-Image-1.5 模型来生成和迭代图像，结合屏幕截图和上下文代码，这有助于开发者在相同工作流中创建概念产品、前端设计、模型以及游戏的视觉效果等。&lt;/p&gt;
-&lt;p&gt;现在 Codex 已经支持处理 GitHub 评论、运行多个终端标签页以及通过 SSH 连接到远程开发环境，还可以直接在侧边栏打开文件，提供 PDF、电子表格、幻灯片和文档的预览。&lt;/p&gt;
-&lt;p&gt;插件市场还新增 90 多款插件，这些插件整合了技能、应用集成以及 MCP 服务器，为 Codex 提供更多跨工具收集上下文和执行任务的方式，具体开发者可以转到插件市场获取最新插件。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Codex 现在也支持记忆，该功能允许 Codex 记住以往经验中的有用信息，包括个人偏好、指令更正以及花费时间收集的信息，这可以帮助用户在处理未来的任务时更快完成任务，不需要用户提供大量的自定义指令。&lt;/p&gt;
-&lt;p&gt;从今天开始这些更新将陆续推送给使用 ChatGPT 登录的 Codex 桌面版用户，个性化功能包括情感感知建议和记忆功能也将很快面向企业用户、教育用户以及欧盟用户推出。&lt;/p&gt;
-&lt;p&gt;Computer use 功能 (用于操作设备) 则率先面向 Mac 用户推出，不过 OpenAI 并未提及操作 PC 的功能什么时候才会支持 Windows 10/11 系统。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://openai.com/index/codex-for-almost-everything/" rel="noopener" target="_blank"&gt;OpenAI&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 17 Apr 2026 01:42:58 +0000</pubDate></item><item><title>108款扩展程序被发现窃取谷歌身份验证信息和Telegram会话等</title><link>https://www.landiannews.com/archives/112697.html</link><description>
-&lt;p&gt;#安全资讯 安全研究团队 Socket 在 Chrome Web Store 发现 108 款恶意扩展程序，用来劫持用户的谷歌账户信息、Telegram 会话、插入广告等等。这些扩展程序看起来毫无关联但都使用相同的 C2 服务器，目前 Socket 已经向谷歌通报但谷歌还未删除这些扩展程序。查看详情：https://ourl.co/112697&lt;/p&gt;&lt;p&gt;安全研究团队 Socket 日前发布分析报告披露 Chrome Web Store 中存在的 108 款恶意扩展程序，截至本文发布时，这些恶意扩展程序仍然没有谷歌下架，建议用户自查确保安全。&lt;/p&gt;
-&lt;p&gt;这些扩展程序看起来毫无关联 (不同开发者名称、不同注册地址、不同的隐私政策网站)，不过实际上都连接到相同的 C2 服务器用于回传信息，因此这显然属于同一个攻击团队。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112697.png" rel="nofollow"&gt;&lt;img alt="108款扩展程序被发现窃取谷歌身份验证信息和Telegram会话等" data-src="https://img.lancdn.com/landian/2026/04/112697.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112697.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;54 个扩展程序窃取谷歌账号信息：窃取的信息包括用户邮箱、姓名、头像等，然后回传到服务器。&lt;/li&gt;
-&lt;li&gt;1 个扩展程序用于劫持 Telegram 会话：这个扩展程序提供所谓的多账号管理功能，但实际上会注入或劫持会话。&lt;/li&gt;
-&lt;li&gt;45 个扩展程序包含通用后门：可以通过服务器下发命令实现远程控制等目的。&lt;/li&gt;
-&lt;li&gt;部分扩展程序用于注入广告：在用户访问页面时注入广告或任意 JavaScript 脚本。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;这些扩展程序均使用相同的子域名例如 tg.cloudapi.stream / mines.cloudapi.stream / api.cloudapi.stream 进行数据外传和心跳通信，形成高度集中的 C2 架构。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;由于牵涉的扩展程序非常多，指望用户自查并删除是不现实的，Socket 已经将恶意扩展信息通报给谷歌，不过谷歌目前还未删除这些恶意扩展程序。&lt;/p&gt;
-&lt;p&gt;如果谷歌执行下架操作，则也会通过云端推送信标到用户端，这样用户的 Chrome 浏览器就会自动禁用这些扩展程序，以此可以安全快速的降低恶意扩展造成的影响。&lt;/p&gt;
-&lt;p&gt;如果用户需要自查请访问 Socket 页面对照 108 个恶意扩展列表：&lt;a href="https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2" rel="noopener" target="_blank"&gt;https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 16 Apr 2026 08:06:32 +0000</pubDate></item><item><title>微软修复自2024年9月以来就存在的自动升级到Windows Server 2025问题</title><link>https://www.landiannews.com/archives/112696.html</link><description>#系统资讯 微软修复自 2024 年 9 月就存在的 Windows Server 2019/2022 自动升级到 2025 的问题，升级后企业还需要额外花钱购买许可证 (服务器系统是不支持免费升级的)。话说蓝点网还是首次看到某个问题经历这么长时间才被修复，微软官方从 2024 年 11 月开始记录这个问题，到昨天完成最终修复。查看详情：https://ourl.co/112696</description><pubDate>Thu, 16 Apr 2026 07:36:52 +0000</pubDate></item><item><title>谷歌宣布为One和AI Pro订阅用户提供5折YouTube Premium订阅权限</title><link>https://www.landiannews.com/archives/112695.html</link><description>
-&lt;p&gt;#网站应用 谷歌宣布为 Google One 和 Google AI Pro 订阅用户推出特别优惠：可以半价订阅 YouTube Premium。此次活动截至 4 月 29 日，支持美国、加拿大、巴西、德国、法国和日本市场，必须一次性按照年度订阅才能获得半价优惠。查看详情：https://ourl.co/112695&lt;/p&gt;&lt;p&gt;谷歌日前宣布所有符合特定条件的用户都可以享受 YouTube Premium 全年订阅的 5 折优惠，这项最新优惠活动主要面向每月消费 10 美元及以上的 Google AI Pro 或 Google One 订阅用户。&lt;/p&gt;
-&lt;p&gt;Google One Ultra 订阅已经包含 YouTube Premium 权益，而其他订阅则不包含这项权益，所以谷歌现在为符合条件的用户推出特惠活动，让用户可以半价订阅 YouTube Premium。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/08/110416.png" rel="nofollow"&gt;&lt;img alt="谷歌宣布为One和AI Pro订阅用户提供5折YouTube Premium订阅权限" data-src="https://img.lancdn.com/landian/2025/08/110416.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/08/110416.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;谷歌 AI 订阅副总裁 Shimrit Ben-Yair 表示：&lt;/strong&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;应广大用户要求，即日起所有新老订阅每月订阅费超过 10 美元的用户都可以享受 YouTube Premium 全年半价订阅，将存储空间和 AI 功能以及无广告观看等功能捆绑，即可获得极致的谷歌体验。&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;这项优惠政策适用于居住在美国、加拿大、巴西、德国、法国和日本的用户，活动有效期至 2026 年 4 月 29 日，必须一次性按照年度订阅时才能获得半价优惠。&lt;/p&gt;
-&lt;p&gt;另外特别需要注意的是如果你当前已经订阅 YouTube Premium，那么需要先取消订阅避免重复收费，取消订阅后再转到 Google One 或 Google AI Pro 里订阅 YouTube Premium。&lt;/p&gt;
-&lt;p&gt;为防止操作出错，建议用户在订阅前仔细阅读谷歌的支持文档：&lt;a href="https://support.google.com/googleone/answer/15808277" rel="noopener" target="_blank"&gt;https://support.google.com/googleone/answer/15808277&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;如果是 Google AI Pro 订阅用户则请访问这个页面：&lt;a href="https://one.google.com/explore-plan/youtube-premium?g1_landing_page=5" rel="noopener" target="_blank"&gt;https://one.google.com/explore-plan/youtube-premium?g1_landing_page=5&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 16 Apr 2026 07:06:14 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 17 Apr 2026 02:01:16 +0000</pubDate></item></channel></rss>
