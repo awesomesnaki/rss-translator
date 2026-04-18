@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Fri, 17 Apr 2026 01:00:26 +0000</lastBuildDate><item><title>应用商店评论系统已崩溃</title><link>https://blog.terrygodier.com/2026/04/13/app-store-reviews-are-busted.html</link><description>&lt;p&gt;特里·戈迪尔：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sat, 18 Apr 2026 00:43:35 +0000</lastBuildDate><item><title>苹果关于评分与评论提示的开发者指南</title><link>https://developer.apple.com/design/human-interface-guidelines/ratings-and-reviews#Best-practices</link><description>&lt;p&gt;苹果设计指南：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;避免打扰用户。&lt;/em&gt; 重复的评分请求可能令人厌烦，甚至可能对用户对您应用的看法产生负面影响。考虑在请求之间至少间隔一两周，并在用户表现出对您体验的进一步参与后再次提示。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;优先使用系统提供的提示。&lt;/em&gt; iOS、iPadOS 和 macOS 为应用和游戏提供了一种一致且非侵入性的方式来请求评分和评价。当您在体验中确定适合请求反馈的位置时，系统会检查之前的反馈，如果没有，则会显示一个应用内提示，请求评分和可选的书面评价。用户可以通过一次点击或单击提供反馈或关闭提示；他们还可以选择拒收所有已安装应用的此类提示。系统会自动将每个应用在 365 天内的提示显示次数限制为三次。有关开发者指南，请参阅 &lt;a href="https://developer.apple.com/documentation/StoreKit/RequestReviewAction"&gt;&lt;code&gt;RequestReviewAction&lt;/code&gt;&lt;/a&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;有很多应用都避开了这些指南中的许多内容。我的意思是，当请求评分/评价的提醒本质上就是一种打扰时，你如何避免打扰用户呢？这就像是一个矛盾修辞法，好比说“在打扰别人时不要打扰他们”。&lt;/p&gt;
+&lt;p&gt;我其实知道可以关闭这些提示的系统设置。在 iOS 上，它在“设置” → “应用” → “App Store”：应用内评分与评价。在 MacOS 上，它在 App Store 应用的“设置”窗口中。在这两个平台上，默认都是开启的。这是我个人&lt;em&gt;会&lt;/em&gt;更改的几个设置之一，但作为评论者/专家/万事通，我选择不更改，以便获得更多普通用户的标准体验。不过，如果您对这些提示感到厌烦，您完全可以将其关闭。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/04/17/apples-developer-guidelines-for-ratings-and-review-prompts" title="‘Apple’s Developer Guidelines for Ratings and Review Prompts’的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Sat, 18 Apr 2026 00:43:35 +0000</pubDate></item><item><title>关于应用商店评论的后续跟进，它们确实出问题了</title><link>https://daringfireball.net/linked/2026/04/16/app-store-reviews-are-busted</link><description>&lt;p&gt;我昨天写道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;而那些做了正确事情的应用——比如戈迪尔的&lt;a href="https://www.terrygodier.com/current"&gt;Current&lt;/a&gt;——它们从不像个急切的推销员那样索要评价，反而因此受到了惩罚。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在Mastodon上，&lt;a href="https://mastodon.social/@stroughtonsmith/116418796444744247"&gt;史蒂文·特劳顿-史密斯回应道&lt;/a&gt;：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;评价提示是让一个优秀应用获得五个好评，还是获得数千个好评的区别。我绝不会建议开发者不去实现这些API。对大多数应用来说，不这样做无异于在App Store编辑面前自杀，因为苹果往往只会在应用积累了大量评价数据时才会注意到它们。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我能理解，我把&lt;em&gt;不&lt;/em&gt;提示评价描述为“正确的事情”，看起来像是在建议开发者不应该提示评价。这并非我的本意。&lt;/p&gt;
+&lt;p&gt;你必须按照游戏规则来玩，而苹果控制着游戏规则。在目前的规则下，应用需要五星评价才能在App Store中获得关注，对于竞争激烈类别中的应用来说可能尤其如此。而对大多数应用来说，实现这一目标的唯一方法就是通过提示。但是，从用户的角度来看，不这样做仍然是正确的事情。&lt;/p&gt;
+&lt;p&gt;这就是苹果设置这套规则的问题所在——为了保持竞争力，应用不得不做错误的事情。我是个有竞争心的家伙。如果今天我有一个应用在App Store里，我几乎肯定会提示评价。这就是游戏规则。我钦佩那些拒绝玩这部分游戏的开发者。这很高尚。但这并非制胜策略。我希望苹果能修正这个游戏规则——这才是唯一的真正解决方案。&lt;/p&gt;
+&lt;p&gt;这个系统是如此扭曲，以至于连苹果自己都在其应用中乞求这些评价，甚至是内置在iOS中的系统应用。苹果什么时候还向用户要过别的东西？这看起来既急切又可悲。&lt;a href="https://www.youtube.com/watch?v=2Wl4ZX4-ui8"&gt;完全是吉尔·冈德森的感觉&lt;/a&gt;。&lt;/p&gt;有趣的是，今天早上我在阅读马斯托顿（Mastodon）上特劳顿-史密斯（Troughton-Smith）的帖子时，&lt;a href="https://tapbots.com/ivory/"&gt;Ivory&lt;/a&gt; &lt;a href="https://daringfireball.net/misc/2026/04/ivory-review-prompt.png"&gt;提示我进行评分&lt;/a&gt;。我尽职地提交了评分。当然是5星。这让我想到了另一个后续观点。一些读者发邮件反对“给应用低于5星评分会伤害开发者”的论点。（其中一些读者来自德国，这并不奇怪。）我同意，从逻辑上讲，对于一个有改进空间的好应用，4星评分应该被认为是公平合理的。但任何低于5星的评分都会拉低任何好应用的平均分，因为绝大多数给应用评分的用户只会给他们喜欢的应用打5星，或者给他们不满的应用打1星。在一个绝大多数用户只打1星或5星的系统中，打4星实际上是一种温和的&lt;em&gt;负面&lt;/em&gt;评价。这很糟糕。苹果应该解决这个问题。但在他们解决之前（说实话，他们可能不会），固执地忽视应用商店评分系统的运作方式，并不会帮助好应用获得你认为通过4星评分所能带来的关注。
+
+
+&lt;a href="https://daringfireball.net/linked/2026/04/17/follow-up-app-store-reviews" title="关于应用商店评分的后续讨论，这系统绝对有问题"&gt; ★ &lt;/a&gt;
+</description><pubDate>Sat, 18 Apr 2026 00:31:16 +0000</pubDate></item><item><title>应用商店评论系统已崩溃</title><link>https://blog.terrygodier.com/2026/04/13/app-store-reviews-are-busted.html</link><description>&lt;p&gt;特里·戈迪尔：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;例如，如果你的应用在App Store中拥有4.1星评级，那么任何4星评价都会&lt;em&gt;拉低这个平均值&lt;/em&gt;。换句话说，&lt;em&gt;留下4星评价本质上等同于留下差评&lt;/em&gt;。[...]&lt;/p&gt;
 &lt;p&gt;你会看到很多4星评价写着诸如“&lt;em&gt;这是我最喜欢的应用！&lt;/em&gt;”或“&lt;em&gt;改变游戏规则！&lt;/em&gt;”之类的话。那些倾向于获得这类评价的应用，其商店评分通常超过4.0，但这些评价实际上正在损害它们的平均分，尽管留下评价的人显然并非有意为之。&lt;/p&gt;
@@ -35,23 +58,4 @@
 &lt;p&gt;伊朗问题的不同之处在于，战争几乎是所有事情中最接近无法用胡话蒙混过关的。特朗普制造了一个&lt;a href="https://www.theatlantic.com/politics/2026/04/trump-iran-hungary-melania-epstein/686816/?gift=aQyUJR7AIw1mJWdQ6Ed6yD-VW862PCpQvP7CHjMvYYQ"&gt;无法用胡话蒙混&lt;/a&gt;的危机。&lt;/p&gt;
 &lt;p&gt;（另外，&lt;a href="https://daringfireball.net/misc/2026/04/oompa-loompa-trumpa.jpeg"&gt;先生，请别化那么浓的乌帕伦帕妆了&lt;/a&gt;。）&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/04/16/colliding-with-reality-indeed" title="‘与现实相撞，确实如此’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Thu, 16 Apr 2026 20:39:05 +0000</pubDate></item><item><title>如何格式化10位数的电话号码</title><link>https://www.threads.com/@apstylebook/post/DXKtXVXEh7T</link><description>&lt;p&gt;美联社风格手册在Threads上写道：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我们在2024年更新了电话号码的格式规范，取消了括号。我们现在推荐的格式是：212-621-1500。&lt;/p&gt;
-&lt;p&gt;对于国际号码，使用011（从美国拨打）、国家代码、城市代码和电话号码：011-44-20-7535-1515。&lt;/p&gt;
-&lt;p&gt;使用连字符，而非句点。不使用括号。免费电话号码的格式：800-111-1000。如果需要分机号，用逗号将主号码与分机号隔开：212-621-1500，分机2。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;长久以来，我一直对美国电话号码经常以过时的&lt;em&gt;(123) 555-1234&lt;/em&gt;格式呈现感到恼火。使用括号括起区号的做法可以追溯到过去，那时你只需要拨打区号来呼叫本地区号之外的号码。（动词&lt;em&gt;dial&lt;/em&gt;也源自那个时代。）直到20世纪90年代末，带有强制区号的&lt;a href="https://en.wikipedia.org/wiki/Ten-digit_dialing"&gt;10位拨号&lt;/a&gt;开始成为标准之前，拨打本地号码只需要7位数字。&lt;/p&gt;
-&lt;p&gt;苹果的通讯录应用（我认为系统级的&lt;a href="https://developer.apple.com/documentation/Contacts"&gt;通讯录框架&lt;/a&gt;也是如此，像&lt;a href="https://flexibits.com/cardhop"&gt;Flexibits出色的Cardhop&lt;/a&gt;这样的第三方应用也使用它）甚至会将输入的&lt;em&gt;123-555-1234&lt;/em&gt;格式号码重新格式化为&lt;em&gt;(123) 555-1234&lt;/em&gt;。苹果应该更新格式，朝相反方向调整，将带有括号区号的电话号码转换为&lt;em&gt;123-555-1234&lt;/em&gt;格式。仅仅因为区号曾经是可选的，它们才被放在括号里。鉴于7位拨号永远不会回归，我们也应该废除括号。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/04/16/how-to-format-10-digit-phone-numbers" title="‘如何格式化10位电话号码’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Thu, 16 Apr 2026 20:09:07 +0000</pubDate></item><item><title>钱斯·米勒：“Netflix通过改用自定义视频播放器毁掉了其Apple TV应用”</title><link>https://9to5mac.com/2026/04/15/netflix-ruined-its-apple-tv-app-by-switching-to-a-custom-video-player/</link><description>&lt;p&gt;钱斯·米勒，9to5Mac：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;这项改动在几周前开始推出，用户的不满情绪正在加剧。在Reddit上，有一个&lt;a href="https://www.reddit.com/r/appletv/comments/1s5bzfy/latest_neflix_app_update_is_time_to_unsubscribe/"&gt;不断增长的讨论串&lt;/a&gt;，Netflix订阅者表示他们因为Apple TV应用的这一改动而取消订阅。[...]&lt;/p&gt;
-&lt;p&gt;这项改动还意味着你无法再使用iPhone上的Apple TV Remote应用获得完整的播放控制功能。你无法从视频播放器中启用“增强对话”功能。那个聪明的Apple TV功能——当你回放时自动启用字幕——也没了。&lt;/p&gt;
-&lt;p&gt;我最常用的tvOS视频播放器功能之一就是能够&lt;a href="https://geni.us/PWhNbn4"&gt;点击Siri遥控器&lt;/a&gt;来查看当前观看的内容何时结束。这对于决定睡前是否还有时间再看一集非常有用。作为此次改动的一部分，Netflix中的这个功能也消失了。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.flatpanelshd.com/news.php?subaction=showfull&amp;amp;id=1775109419"&gt;FlatpanelsHD有一篇很好的总结&lt;/a&gt;，列出了Apple TV上所有依赖应用使用原生视频播放器的功能。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;当我抱怨Netflix这次糟糕的倒退时，有人试图与我争论，说Netflix用户不知怎地希望在不同平台上获得一致性——用户希望在Apple TV上的Netflix播放器与在Roku、亚马逊Fire、Google TV以及他们“智能”电视内置的任何垃圾系统上的一样。胡说八道。一个平台的用户为什么会关心Netflix播放器在其他平台上是什么样子？Apple TV用户购买Apple TV盒子是因为他们想要Apple TV的体验。也许是&lt;em&gt;Netflix&lt;/em&gt;希望在所有地方呈现相同的体验。也许是&lt;em&gt;Netflix&lt;/em&gt;希望通过一个“一次编写，到处运行得像屎一样”的视频播放器来节省工程成本。那是Netflix关心的事，不是用户关心的事。&lt;/p&gt;
-&lt;p&gt;从用户的角度来看，tvOS版Netflix应用的这一改动就是很糟糕。没有任何好处。没有任何东西变得更好，很多东西变得更糟，一大堆很酷的平台功能现在都没了。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/04/16/miller-netflix-tvos" title="‘钱斯·米勒：Netflix通过改用自定义视频播放器毁掉了其Apple TV应用’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Thu, 16 Apr 2026 19:27:00 +0000</pubDate></item></channel></rss>
+</description><pubDate>Thu, 16 Apr 2026 20:39:05 +0000</pubDate></item></channel></rss>

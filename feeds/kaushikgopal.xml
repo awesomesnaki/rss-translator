@@ -38,18 +38,20 @@
 如今是AI时代
 &lt;a href="https://kau.sh/feed.xml#tis-the-age-of-ai"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;当我重新设计&lt;a href="https://fragmentedpodcast.com/episodes/300/"&gt;Fragmented&lt;/a&gt;时，我终于又回到了这个想法上。我借助Claude来构建它——而且是用Rust语言。&lt;sup id="fnref:3"&gt;&lt;a href="https://kau.sh/feed.xml#fn:3"&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;&lt;p&gt;但在你将其归为另一个氛围编码项目之前，请听我说完。这里有趣的部分不仅仅是AI让它变得更容易。而是对整个实际算法的思考过程：&lt;/p&gt;
-&lt;p&gt;使用语音活动检测来寻找语音区域。使用MFCC特征来为音频创建指纹。使用互相关来寻找音轨匹配的位置。一些真正的信号处理技术，而不仅仅是提示工程。那么，我是否可以通过提示来获得解决方案呢？很可能。但我愿意相信，多年来手动对齐音轨的经验——以及一些音频工程直觉——帮助我将AI引向了一个更好的解决方案。&lt;/p&gt;
-&lt;svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"&gt;&lt;/path&gt;&lt;path d="m15 5 4 4"&gt;&lt;/path&gt;&lt;/svg&gt;
+&lt;p&gt;当我重新设计&lt;a href="https://fragmentedpodcast.com/episodes/300/"&gt;Fragmented&lt;/a&gt;时，我终于又回到了这个想法上。我借助Claude来构建它——而且是用Rust语言。&lt;sup id="fnref:3"&gt;&lt;a href="https://kau.sh/feed.xml#fn:3"&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;&lt;p&gt;但在你将其归为另一个氛围编码项目之前，请听我说完。有趣的部分不仅仅是AI让它变得更容易。而是对整个实际算法的思考：&lt;/p&gt;
+&lt;p&gt;使用语音活动检测（&lt;a href="https://en.wikipedia.org/wiki/Voice_activity_detection"&gt;VAD&lt;/a&gt;）来寻找语音区域。使用&lt;a href="https://en.wikipedia.org/wiki/Mel-frequency_cepstrum"&gt;MFCC&lt;/a&gt;特征来为音频创建指纹。使用互相关来寻找音轨匹配的位置。一些真正的信号处理技术，而不仅仅是提示工程。那么，我是否可以通过提示来找到解决方案呢？很可能。但我愿意相信，多年手动对齐音轨的经验——以及一些音频工程直觉——帮助我将AI引向了一个更好的解决方案。&lt;/p&gt;
 &lt;div dir="auto"&gt;
+&lt;svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"&gt;&lt;/path&gt;&lt;path d="m15 5 4 4"&gt;&lt;/path&gt;&lt;/svg&gt;
 
-做这件事让我感到耳目一新。
+
+做这件事让我感觉耳目一新。
 
 &lt;/div&gt;
-&lt;p&gt;在这个一半的对话都在讨论AI取代工程工作的时代，这里有一个问题，其难点仍然是问题本身——理解领域、选择正确的方法、知道什么是“正确”的。&lt;/p&gt;
-&lt;p&gt;这让我确信，妥善解决实际问题仍然有其价值。我喜欢Dax的说法：&lt;/p&gt;
-&lt;svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"&gt;&lt;/path&gt;&lt;path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"&gt;&lt;/path&gt;&lt;/svg&gt;
+&lt;p&gt;在这个一半的对话都在讨论AI取代工程工作的时代，这里有一个问题，其难点仍然是问题本身——理解领域、选择正确的方法、知道什么是“正确”的声音。&lt;/p&gt;
+&lt;p&gt;这让我相信，妥善解决实际问题仍然有其价值。我喜欢Dax的说法：&lt;/p&gt;
 &lt;div dir="auto"&gt;
+&lt;svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"&gt;&lt;/path&gt;&lt;path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"&gt;&lt;/path&gt;&lt;/svg&gt;
+
 
 thdxr 在 &lt;a href="https://x.com/thdxr/status/2031073582747357397"&gt;twitter&lt;/a&gt; 上
 
@@ -59,7 +61,7 @@ thdxr 在 &lt;a href="https://x.com/thdxr/status/2031073582747357397"&gt;twitter
 工作原理
 &lt;a href="https://kau.sh/feed.xml#how-it-works"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;核心理念是：从参与者音轨中取一段语音，与主录音进行比较，找到它们最佳匹配的位置。那个位置就是时间偏移量。&lt;/p&gt;&lt;p&gt;关键在于选择&lt;em&gt;哪一段&lt;/em&gt;语音来使用。Podsync并非只押注于单一区域，而是为每条音轨寻找几个强有力的候选片段（优先选择较长的连续语音块），并逐一与主音轨进行比对。对于较长的候选片段，它会从开头、中间和结尾进行采样。置信度最高的匹配胜出；如果第二个独立区域也指向相同的偏移量，这种相互印证将作为平局决胜的依据。&lt;/p&gt;
+&lt;p&gt;核心思想是：从参与者的音轨中取一段语音，与主录音进行比较，找到它们匹配最佳的位置。那个位置就是时间偏移量。&lt;/p&gt;&lt;p&gt;关键在于选择&lt;em&gt;哪一段&lt;/em&gt;语音来使用。Podsync并非只押注于单一区域，而是为每条音轨寻找几个强有力的候选片段（优先选择较长的连续语音块），并逐一与主音轨进行比对。对于较长的候选片段，它会从开头、中间和结尾进行采样。置信度最高的匹配胜出；如果第二个独立区域也指向相同的偏移量，这种相互印证将作为平局决胜的依据。&lt;/p&gt;
 &lt;p&gt;找到偏移量后，Podsync会对每条音轨进行填充或修剪，以与主音轨对齐并匹配其长度（同时输出一些关于偏移量的信息）。&lt;/p&gt;
 &lt;h2 id="what-it-looks-like"&gt;
 使用示例
