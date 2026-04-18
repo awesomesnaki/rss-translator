@@ -9,16 +9,16 @@
 &lt;a href="https://daringfireball.net/linked/2026/04/17/apples-developer-guidelines-for-ratings-and-review-prompts" title="‘Apple’s Developer Guidelines for Ratings and Review Prompts’的永久链接"&gt; ★ &lt;/a&gt;
 </description><pubDate>Sat, 18 Apr 2026 00:43:35 +0000</pubDate></item><item><title>关于应用商店评论的后续跟进，它们确实出问题了</title><link>https://daringfireball.net/linked/2026/04/16/app-store-reviews-are-busted</link><description>&lt;p&gt;我昨天写道：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;而那些做了正确事情的应用——比如戈迪尔的&lt;a href="https://www.terrygodier.com/current"&gt;Current&lt;/a&gt;——它们从不像个急切的推销员那样索要评价，反而因此受到了惩罚。&lt;/p&gt;
+&lt;p&gt;而那些做了正确事情的应用——比如戈迪尔的&lt;a href="https://www.terrygodier.com/current"&gt;Current&lt;/a&gt;——它们从不像个急切的推销员那样索求评价，反而因此受到惩罚。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;在Mastodon上，&lt;a href="https://mastodon.social/@stroughtonsmith/116418796444744247"&gt;史蒂文·特劳顿-史密斯回应道&lt;/a&gt;：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;评价提示是让一个优秀应用获得五个好评，还是获得数千个好评的区别。我绝不会建议开发者不去实现这些API。对大多数应用来说，不这样做无异于在App Store编辑面前自杀，因为苹果往往只会在应用积累了大量评价数据时才会注意到它们。&lt;/p&gt;
+&lt;p&gt;评价提示是让一个优秀应用获得五个好评，还是获得数千个好评的区别。我绝不会建议开发者不去实现这些API。对大多数应用来说，不这样做无异于在App Store编辑面前自杀，因为苹果公司往往只会在应用积累了大量评价数据时才会注意到它们。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;我能理解，我把&lt;em&gt;不&lt;/em&gt;提示评价描述为“正确的事情”，看起来像是在建议开发者不应该提示评价。这并非我的本意。&lt;/p&gt;
-&lt;p&gt;你必须按照游戏规则来玩，而苹果控制着游戏规则。在目前的规则下，应用需要五星评价才能在App Store中获得关注，对于竞争激烈类别中的应用来说可能尤其如此。而对大多数应用来说，实现这一目标的唯一方法就是通过提示。但是，从用户的角度来看，不这样做仍然是正确的事情。&lt;/p&gt;
-&lt;p&gt;这就是苹果设置这套规则的问题所在——为了保持竞争力，应用不得不做错误的事情。我是个有竞争心的家伙。如果今天我有一个应用在App Store里，我几乎肯定会提示评价。这就是游戏规则。我钦佩那些拒绝玩这部分游戏的开发者。这很高尚。但这并非制胜策略。我希望苹果能修正这个游戏规则——这才是唯一的真正解决方案。&lt;/p&gt;
-&lt;p&gt;这个系统是如此扭曲，以至于连苹果自己都在其应用中乞求这些评价，甚至是内置在iOS中的系统应用。苹果什么时候还向用户要过别的东西？这看起来既急切又可悲。&lt;a href="https://www.youtube.com/watch?v=2Wl4ZX4-ui8"&gt;完全是吉尔·冈德森的感觉&lt;/a&gt;。&lt;/p&gt;有趣的是，今天早上我在阅读马斯托顿（Mastodon）上特劳顿-史密斯（Troughton-Smith）的帖子时，&lt;a href="https://tapbots.com/ivory/"&gt;Ivory&lt;/a&gt; &lt;a href="https://daringfireball.net/misc/2026/04/ivory-review-prompt.png"&gt;提示我进行评分&lt;/a&gt;。我尽职地提交了评分。当然是5星。这让我想到了另一个后续观点。一些读者发邮件反对“给应用低于5星评分会伤害开发者”的论点。（其中一些读者来自德国，这并不奇怪。）我同意，从逻辑上讲，对于一个有改进空间的好应用，4星评分应该被认为是公平合理的。但任何低于5星的评分都会拉低任何好应用的平均分，因为绝大多数给应用评分的用户只会给他们喜欢的应用打5星，或者给他们不满的应用打1星。在一个绝大多数用户只打1星或5星的系统中，打4星实际上是一种温和的&lt;em&gt;负面&lt;/em&gt;评价。这很糟糕。苹果应该解决这个问题。但在他们解决之前（说实话，他们可能不会），固执地忽视应用商店评分系统的运作方式，并不会帮助好应用获得你认为通过4星评分所能带来的关注。
+&lt;p&gt;你必须按照游戏规则来玩，而苹果控制着游戏规则。在目前的游戏规则下，应用需要五星评价才能在App Store中获得关注，对于竞争激烈类别中的应用来说可能尤其如此。而对大多数应用来说，实现这一点的唯一方法就是通过提示。但是，从用户的角度来看，不这样做仍然是正确的事情。&lt;/p&gt;
+&lt;p&gt;这就是苹果设定此规则的问题所在——为了保持竞争力，应用需要做错误的事情。我是个有竞争心的家伙。如果今天我有一个应用在App Store里，我几乎肯定会提示评价。这就是游戏规则。我钦佩那些拒绝玩这部分游戏的开发者。这很高尚。但这不是一个制胜策略。我希望苹果能修正这个游戏规则——这才是唯一的真正解决方案。&lt;/p&gt;
+&lt;p&gt;这个系统是如此扭曲，以至于连苹果公司自己也通过其自家应用，甚至是iOS内置的系统应用来乞求这些评价。苹果公司什么时候还求过别的什么东西吗？这看起来既急切又可悲。&lt;a href="https://www.youtube.com/watch?v=2Wl4ZX4-ui8"&gt;完全是吉尔·冈德森的感觉&lt;/a&gt;。&lt;/p&gt;有趣的是，今天早上我在阅读马斯托顿（Mastodon）上特劳顿-史密斯（Troughton-Smith）的帖子时，&lt;a href="https://tapbots.com/ivory/"&gt;Ivory&lt;/a&gt; &lt;a href="https://daringfireball.net/misc/2026/04/ivory-review-prompt.png"&gt;提示我进行评分&lt;/a&gt;。我尽职地提交了评分。当然是5星。这让我想到了另一个后续观点。一些读者发邮件反对“给应用低于5星评分会伤害开发者”的论点。（其中一些读者来自德国，这并不奇怪。）我同意，从逻辑上讲，对于一个有改进空间的好应用，4星评分应该被认为是公平合理的。但任何低于5星的评分都会拉低任何好应用的平均分，因为绝大多数给应用评分的用户只会给他们喜欢的应用打5星，或者给他们不满的应用打1星。在一个绝大多数用户只打1星或5星的系统中，打4星实际上是一种温和的&lt;em&gt;负面&lt;/em&gt;评价。这很糟糕。苹果应该解决这个问题。但在他们解决之前（说实话，他们可能不会），固执地忽视应用商店评分系统的运作方式，并不会帮助好应用获得你认为通过4星评分所能带来的关注。
 
 
 &lt;a href="https://daringfireball.net/linked/2026/04/17/follow-up-app-store-reviews" title="关于应用商店评分的后续讨论，这系统绝对有问题"&gt; ★ &lt;/a&gt;
