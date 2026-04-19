@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Fri, 17 Apr 2026 03:40:06 +0000</lastBuildDate><item><title>又出现天价账单！谷歌GCP存在缺陷 地图API都能直接调用Gemini且不受消费限制</title><link>https://www.landiannews.com/archives/112703.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sun, 19 Apr 2026 07:44:03 +0000</lastBuildDate><item><title>开发速度提升3倍：谷歌推出Android CLI 为AI智能体量身打造的命令行工具</title><link>https://www.landiannews.com/archives/112705.html</link><description>
+&lt;p&gt;#软件资讯 开发速度提升 3 倍！谷歌为 AI 智能体推出 Android CLI 命令行工具，旨在让开发者可以使用任意智能体工具轻松高效构建安卓应用。Android CLI 作为轻量级和可编程的标准化接口来充当官方入口，为 AI 智能体提供可靠的交互方式，避免猜测和试错，从而提高开发效率。查看详情：https://ourl.co/112705&lt;/p&gt;&lt;p&gt;谷歌日前在安卓开发者官网推出全新的 Android CLI 工具，这是谷歌针对智能体优先工作流的重要升级，旨在让开发者可以使用任意智能体工具更轻松和更加高效地构建安卓应用程序，同时也简化 CI/CD、维护和脚本自动化流程。&lt;/p&gt;
+&lt;p&gt;传统的安卓开发高度依赖 Android Studio 等工具，但在 AI 智能体辅助开发的场景下，智能体往往难以准确理解复杂的环境配置、工具链和最佳实践。Android CLI 作为轻量级和可编程的标准化接口用来充当官方入口，为 AI 智能体提供可靠的 Android SDK 交互方式，避免猜测和试错，从而显著提升开发效率。&lt;/p&gt;
+&lt;p&gt;谷歌称使用这套工具 (Android CLI+Android Skills+Android Knowledge Base) 后，开发者构建安卓应用程序的整体速度可以提升约 3 倍。Android CLI 不仅适合人类开发者在终端进行开发操作，还特别优化分布式开发环境，支持 AI 智能体或脚本自动完成环境设置、项目搭建、虚拟设备管理等核心任务。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112705.png" rel="nofollow"&gt;&lt;img alt="开发速度提升3倍：谷歌推出Android CLI 为AI智能体量身打造的命令行开发工具" data-src="https://img.lancdn.com/landian/2026/04/112705.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112705.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;项目创建管理：从模板快速创建新项目&lt;/li&gt;
+&lt;li&gt;项目创建管理：列出可用模板&lt;/li&gt;
+&lt;li&gt;项目创建管理：分析项目结构并生成 JSON 描述，便于智能体理解&lt;/li&gt;
+&lt;li&gt;虚拟设备管理：支持创建、列出、启动、停止虚拟设备&lt;/li&gt;
+&lt;li&gt;开发工具管理：支持安装、查看、移除、更新 SDK 包 (目前仅支持 Beta 和 Canary 通道)&lt;/li&gt;
+&lt;li&gt;应用程序部署：将 APK 文件部署到设备或模拟器，支持调试模式、多 APK 安装、指定 Activity 或 Service&lt;/li&gt;
+&lt;li&gt;自动化与分析：获取当前界面布局中的 JSON 层次结构、截取屏幕、将标注元素解析为具体坐标等&lt;/li&gt;
+&lt;li&gt;还有其他功能：管理技能、直接在终端搜索安卓知识库文档、初始化 CLI 技能环境、查看 SDK 路径、更新 CLI 本身&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Android CLI 不直接执行 Gradle 构建，而是作为更高层的适配器，与现有工具链可以无缝配合，支持通过 --sdk 参数指定临时路径，适合 CI 环境或多工具并行场景 (注：Windows 平台目前不支持部分 emulator 命令)。&lt;/p&gt;
+&lt;p&gt;谷歌也已经同步推出 Android Skills 模块化技能包和安卓知识库，让 AI 模型能够更准确地应用边缘到边缘设计、性能优化等模式。&lt;/p&gt;
+&lt;p&gt;Android CLI 也可以显著降低安卓开发门槛，为未来智能体主导的开发范式铺平道路，无论是独立开发者、团队协作还是大规模自动化流水线，都可以通过 Android CLI 项目受益。&lt;/p&gt;
+&lt;p&gt;注：现阶段 Android CLI 以预览版形式发布，谷歌鼓励开发者下载使用并通过 Issue Tracker 反馈问题，感兴趣的开发者可以前往安卓官网下载：&lt;a href="https://developer.android.com/tools/agents/android-cli?hl=zh-cn" rel="noopener" target="_blank"&gt;https://developer.android.com/tools/agents/android-cli?hl=zh-cn&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sun, 19 Apr 2026 07:44:03 +0000</pubDate></item><item><title>微软正在开发新版Windows 11开始菜单 提升性能和让用户高度自定义</title><link>https://www.landiannews.com/archives/112704.html</link><description>
+&lt;p&gt;#系统资讯 微软正在开发新版 Windows 11 开始菜单，目标是提高响应速度和模块化设计让用户可以自定义开始菜单。其中提高性能方面主要是迁移架构，通过 WinUI3 原生架构提高开始菜单响应速度，哪怕是在 CPU 使用率较高时也能快速响应。查看详情：https://ourl.co/112704&lt;/p&gt;&lt;p&gt;微软在 2024~2025 年已经持续改进 Windows 11 开始菜单并添加网格等排列模式，即不再将更多应用程序隐藏在下级菜单中，如果用户有需要可以直接以列表形式滚动查看所有应用程序。&lt;/p&gt;
+&lt;p&gt;不过由于开始菜单本身属于混合版本 (原生架构 + WebView2 架构)，因此性能方面的体验确实比较差，还有些选项则是不支持用户自定义设置，例如小布局和大布局模式 (系统将根据分辨率来调整但不允许用户调整)。&lt;/p&gt;
+&lt;p&gt;据 Windows Central 发布的报道，微软目前正在开发新版 Windows 11 开始菜单，新版开始菜单将着重提升实际使用性能以及为用户提供更多控制选项，也就是让用户可以根据喜好进行自定义。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/03/112279.png" rel="nofollow"&gt;&lt;img alt="微软正在开发新版Windows 11开始菜单 旨在提升性能和提供更多选项让用户控制" data-src="https://img.lancdn.com/landian/2026/03/112279.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/03/112279.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.landiannews.com/archives/112279.html" rel="noopener" target="_blank"&gt;其中性能提升方面主要是将开始菜单从混合架构转移到 WinUI3 原生架构&lt;/a&gt;，迁移架构后可以显著提升开始菜单的性能，微软在此前发布的博客中已经承诺将通过迁移原生架构来提升用户体验。&lt;/p&gt;
+&lt;p&gt;迁移架构后新版开始菜单响应速度会更快，微软的目标还包括在系统处于高负载的状态下也依然可以确保开始菜单灵敏响应，避免在 CPU 使用率较高的情况下点击开始菜单后可能要等待 1~2 秒。&lt;/p&gt;
+&lt;p&gt;据称新版开始菜单将允许用户启用或禁用特定功能部分，允许用户手动选择小尺寸布局或大尺寸布局，也可以将不常用的部分全部关闭，例如将文件推荐部分彻底禁用。&lt;/p&gt;
+&lt;p&gt;从消息来看新版开始菜单将会继续转向模块化设计，也就是让用户自己删减模块，例如如果用户愿意的话甚至还可以将整个应用列表都禁用，如何搭配模块完全由用户自己选择。&lt;/p&gt;
+&lt;p&gt;Windows Central 还称微软改进 Windows 11 的项目代号名为 Windows K2，这个项目的目标是重新集中精力，让 Windows 11 成为快速、流畅、稳定且易于用户使用的平台。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://www.windowscentral.com/microsoft/windows-11/microsoft-plans-major-start-menu-upgrades-for-windows-11-with-better-customization-and-performance-users-will-soon-be-able-to-resize-and-toggle-off-entire-areas-of-start" rel="noopener" target="_blank"&gt;Windows Central &lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sun, 19 Apr 2026 07:22:26 +0000</pubDate></item><item><title>又出现天价账单！谷歌GCP存在缺陷 地图API都能直接调用Gemini且不受消费限制</title><link>https://www.landiannews.com/archives/112703.html</link><description>
 &lt;p&gt;#人工智能 又是天价账单！谷歌 GCP 存在缺陷可能会让开发者创建的旧令牌调用 Gemini API 且不受消费层级和支出上限限制。建议在 GCP 平台申请过各类免费或付费 API (例如用于谷歌地图或 Firebase) 的开发者立即轮换密钥并设置限制，这些旧密钥可以跨服务直接调用 Gemini API。查看详情：https://ourl.co/112703&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landiannews.com/archives/112673.html" rel="noopener" target="_blank"&gt;这段时间谷歌因为天价账单问题正在对 Gemini API 平台进行大幅度改进&lt;/a&gt;，包括设置不同层级的消费限制、允许开发者设置项目支出上限、新增预付费机制充值多少用多少等。&lt;/p&gt;
 &lt;p&gt;不过在这种情况下依然有开发者不慎暴露 API 令牌后产生天价账单，名为赞比西的开发者发帖称自己的 Google Firebase AI Logic 在 13 小时内产生高达 5.4 万欧元的 AI 使用账单。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -52,25 +84,4 @@
 &lt;p&gt;遗憾的是 A 社并未明确说明此次永久增加多少配额，已经有开发者注意到配额更新，实际增加的配额可能在 50%~100% 左右，这个可能还需要更多开发者更新后观察情况。&lt;/p&gt;
 &lt;p&gt;不过也有不少开发者吐槽现在配额消耗速度太快，仅仅只是小改动就导致 5 小时配额被耗尽，还有开发者吐槽 Opus 4.7 的安全边界太窄，修复 BUG 也会被当做恶意行为拒绝运行。&lt;/p&gt;
 &lt;p&gt;via &lt;a href="https://x.com/bcherny/status/2044839936235553167" rel="noopener" target="_blank"&gt;Twitter&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 17 Apr 2026 02:40:22 +0000</pubDate></item><item><title>A社发布Claude Opus 4.7 可以更长时间运行任务并严格遵循既定指令</title><link>https://www.landiannews.com/archives/112700.html</link><description>
-&lt;p&gt;#人工智能 A 社推出 Claude Opus 4.7，该模型可以稳定处理长时间运行的任务以及严格遵循既定指令。基准测试显示该模型在编码能力上已经领先于 GPT-5.4，不过与不公开的 Claude Mythos 模型相比仍然差很多，而 4.7 也同样内置严格的安全机制用来识别和阻止高风险网络安全用途的请求。查看详情：https://ourl.co/112700&lt;/p&gt;&lt;p&gt;人工智能公司 Anthropic 已经推出最新模型 Claude Opus 4.7，该模型在复杂软件工程任务方面相较 Opus 4.6 有着显著提升，并且能够稳定处理长时间运行的任务以及严格遵循既定指令。&lt;/p&gt;
-&lt;p&gt;Opus 4.7 也大幅度提高视觉能力，该模型现在可以用于分析分辨率更高的图像，帮助用户或开发者识别图像内容并进行分析，例如将复杂的工程图像识别为分步骤任务等。&lt;/p&gt;
-&lt;p&gt;从基准测试数据来看 Opus 4.7 已经领先于 GPT-5.4 系列模型，但该模型能力仍然远逊于 A 社不公开发布的 Claude Mythos Preview 版，后者是 A 社面向网络安全领域推出的专有模型，由于担心潜在的危害因此 Mythos 模型当前仅面向少数企业提供。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;基准测试数据：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112700.png" rel="nofollow"&gt;&lt;img alt="A社发布Claude Opus 4.7 可以更长时间运行任务并严格遵循既定指令" data-src="https://img.lancdn.com/landian/2026/04/112700.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112700.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;基于安全考虑 A 社也在 Opus 4.7 中内置安全防护机制，该机制可以自动检测并阻止与高风险网络安全用途相关的请求，避免用户或黑客尝试利用模型挖掘和利用软件漏洞等。&lt;/p&gt;
-&lt;p&gt;而希望将 Opus 4.7 用于合法网络安全用途的专业安全研究人员则可以参与 A 社最新推出的网络安全验证计划，经过验证的合法安全研究员可以获得更宽松的安全边界，用于发掘漏洞、逆向工程和修复及验证漏洞补丁等。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;A 社强调开发者从 Opus 4.6 迁移到 Opus 4.7 时关注两项变更：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;首先 Opus 4.7 使用更新的分词器，这改进了模型处理文本的方式，根据内容类型的不同，新分词器使用的 tokens 数量是旧分词器的 1.0~1.35 倍。&lt;/p&gt;
-&lt;p&gt;其次 Opus 4.7 在高难度级别下会进行更多思考，这也会导致 tokens 消耗量显著增加，因此如果开发者将努力程度设置为高时，应该关注账户配额或 API 使用量。&lt;/p&gt;
-&lt;p&gt;除了发布 Claude Opus 4.7 模型外，A 社还更新 Claude Code 并新增 /ultrareview 命令，该命令可以创建专门的代码审查会话，用于读取代码变更并标记错误和其他设计问题。&lt;/p&gt;
-&lt;p&gt;已经开通 Claude Pro 和 Claude Max 的订阅用户在预览阶段可以获得三次的免费 Ultrareview 代码审查服务，开发者可以考虑将复杂的代码变更交给 Claude Code 审查。&lt;/p&gt;
-</description><pubDate>Fri, 17 Apr 2026 02:21:22 +0000</pubDate></item><item><title>Telegram终于提供官方版的简体/繁体中文语言包 但翻译目前还有些粗糙</title><link>https://www.landiannews.com/archives/112699.html</link><description>
-&lt;p&gt;#软件资讯 Telegram 官方终于带来简体中文和繁体中文的支持，用户无需再安装其他语言包，只不过目前翻译还有些粗糙。长期以来 Telegram 都没有提供中文语言包，大部分用户都依赖其他开发者提供的语言包，现在提供官方语言包后用户可以直接在设置里切换 (目前仅支持手机版)。查看详情：https://ourl.co/112699&lt;/p&gt;&lt;p&gt;即时通讯工具 Telegram 长期以来都没有提供官方的中文系列语言包，这导致用户需要安装其他开发者提供的简体中文或繁体中文语言包，而且网上还有不少钓鱼网站声称提供中文版结果用户下载的是恶意软件用来窃取账户。&lt;/p&gt;
-&lt;p&gt;说实话没人知道为什么 Telegram 过去这么多年都不提供中文语言包，不过现在 Telegram 已经在 iOS 和 Android 版中开始提供官方中文语言包，涵盖简体中文和繁体中文，用户只需要更新到最新版即可切换。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112699.png" rel="nofollow"&gt;&lt;img alt="Telegram终于提供官方版的简体/繁体中文语言包 但翻译目前还有些粗糙" data-src="https://img.lancdn.com/landian/2026/04/112699.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112699.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;网友测试发现目前官方简体中文和繁体中文语言包都还有些粗糙，翻译内容可能是参考网上其他开发者提供的语言包，有些生硬的翻译部分并未更改，所以看起来略微有些奇怪，不过整体来说能用，用户基本不需要再安装其他语言包。&lt;/p&gt;
-&lt;p&gt;至于 Telegram for Windows 版暂时还未发现中文系列语言包，按理说语言包都是通用的，所以为什么手机版已经支持而 PC 版还未支持呢？PC 用户如果想要使用中文语言包暂时还只能继续使用其他开发者提供的版本。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;下面是切换方法：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;首先确保你已经更新到 Telegram for iOS/Android 最新版，更新后点击主界面底部的设置，在设置页面点击语言，语言里即可切换简体中文或繁体中文。&lt;/p&gt;
-</description><pubDate>Fri, 17 Apr 2026 02:01:16 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 17 Apr 2026 02:40:22 +0000</pubDate></item></channel></rss>
