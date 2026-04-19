@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sat, 18 Apr 2026 17:52:56 +0000</lastBuildDate><item><title>★ “车轮上的阅览室，情侣的小巷，以及深夜11点后的廉价旅馆”</title><link>https://daringfireball.net/2026/04/kubrick_new_york_subway</link><description>&lt;p&gt;&lt;a href="https://news.artnet.com/art-world/stanley-kubrick-photos-duncan-miller-gallery-2765046"&gt;Vittoria Benzine，在Artnet上&lt;/a&gt;（&lt;a href="https://mastodon.social/@oliversthomas/116421240064532339"&gt;经由Oliver Thomas&lt;/a&gt;）：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sun, 19 Apr 2026 17:37:01 +0000</lastBuildDate><item><title>WorkOS FGA：AI代理的授权层</title><link>https://workos.com/blog/agents-need-authorization-not-just-authentication?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q22026</link><description>&lt;p&gt;感谢WorkOS赞助上周的DF。每个AI智能体演示看起来都充满魔力，但大多数在企业部署中都会碰壁。问题不在于模型质量或延迟，而在于授权。身份验证证明智能体的身份，授权则定义其影响范围。&lt;/p&gt;
+&lt;p&gt;企业AI领域的赢家不会拥有最多功能，而是那些企业能够安全信任的解决方案。&lt;a href="https://workos.com/docs/fga?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q22026"&gt;了解WorkOS FGA&lt;/a&gt;如何通过资源级权限控制影响范围，并阅读&lt;a href="https://workos.com/blog/agents-need-authorization-not-just-authentication?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q22026"&gt;他们的深度解析&lt;/a&gt;获取更多信息。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/04/19/workos-fga" title="永久链接至‘WorkOS FGA：AI智能体的授权层’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Sun, 19 Apr 2026 17:37:01 +0000</pubDate></item><item><title>★ “车轮上的阅览室，情侣的小巷，以及深夜11点后的廉价旅馆”</title><link>https://daringfireball.net/2026/04/kubrick_new_york_subway</link><description>&lt;p&gt;&lt;a href="https://news.artnet.com/art-world/stanley-kubrick-photos-duncan-miller-gallery-2765046"&gt;Vittoria Benzine，在Artnet上&lt;/a&gt;（&lt;a href="https://mastodon.social/@oliversthomas/116421240064532339"&gt;经由Oliver Thomas&lt;/a&gt;）：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;这位独一无二的美国电影制作人斯坦利·库布里克看到了微小的细节。他甚至&lt;a href="https://news.artnet.com/art-world/stanley-kubrick-museum-of-moving-image-1761054"&gt;看到了未来&lt;/a&gt;。但最重要的是，他看到了人，以及他们所有的怪癖。库布里克的电影，从《&lt;em&gt;奇爱博士&lt;/em&gt;》（1964年）到《&lt;em&gt;闪灵&lt;/em&gt;》（1980年），都证明了这一点——他在1940年代拍摄的最早的照片也是如此。一批新发现的18张此类照片将于下周首次展出，届时位于洛杉矶的邓肯·米勒画廊将在纽约的&lt;a href="https://www.aipad.com/show"&gt;摄影展&lt;/a&gt;上展示这一发现，同时展出的还有当代摄影师杰奎琳·伍德斯的作品。[...]&lt;/p&gt;
 &lt;p&gt;这些照片是这位导演为《展望》杂志拍摄的最早的图像之一。“纽约的地铁列车是一个轮子上的阅览室，一条情人巷，晚上11点后，则是一个廉价旅馆，”库布里克后来为他的地铁影像所配的图片说明文章如此评论道。&lt;/p&gt;
@@ -53,16 +56,4 @@
 
 
 &lt;a href="https://daringfireball.net/linked/2026/04/17/follow-up-app-store-reviews" title="关于应用商店评分的后续讨论，这系统绝对有问题"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sat, 18 Apr 2026 00:31:16 +0000</pubDate></item><item><title>应用商店评论系统已崩溃</title><link>https://blog.terrygodier.com/2026/04/13/app-store-reviews-are-busted.html</link><description>&lt;p&gt;特里·戈迪尔：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;例如，如果你的应用在App Store中拥有4.1星评级，那么任何4星评价都会&lt;em&gt;拉低这个平均值&lt;/em&gt;。换句话说，&lt;em&gt;留下4星评价本质上等同于留下差评&lt;/em&gt;。[...]&lt;/p&gt;
-&lt;p&gt;你会看到很多4星评价写着诸如“&lt;em&gt;这是我最喜欢的应用！&lt;/em&gt;”或“&lt;em&gt;改变游戏规则！&lt;/em&gt;”之类的话。那些倾向于获得这类评价的应用，其商店评分通常超过4.0，但这些评价实际上正在损害它们的平均分，尽管留下评价的人显然并非有意为之。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;问题一在于，星级评分系统&lt;a href="https://daringfireball.net/linked/2017/04/13/star-ratings-are-garbage"&gt;在聚合方面糟糕透顶&lt;/a&gt;。如果你打算收集并平均用户的评分，最有效的系统是二元的：竖起大拇指或拇指向下。&lt;a href="http://daringfireball.net/linked/2017/03/17/netflix-stars-vs-thumbs-up"&gt;Netflix在2017年从星级评分转向了拇指评分&lt;/a&gt;，而&lt;a href="https://daringfireball.net/linked/2017/03/18/youtube-thumbs-stars"&gt;YouTube早在2009年就完成了这一转变&lt;/a&gt;。App Store也应该转向拇指评分。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;应用为了优化获得5星评价而采取的合乎逻辑的终点，使得该系统在商店中失去了意义。这个系统更多地反映了执行评价提示的复杂程度，而非对应用产品质量的准确反映。激励点不在于创造一个真正的5星应用，而在于建立一个只传递5星评价的健壮系统。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;问题二在于，即使App Store从星级评分转向拇指评分，开发者仍然会玩弄这个系统，正如戈迪尔恰当地指出的那样，奖励的不是最好的应用，而是最擅长“执行评价提示”的应用。苹果应该移除允许应用提示评价的API，并禁止这种提示行为。这些提示毫无益处，反而带来诸多弊端。想象一下，你在一家餐厅用餐，主菜吃到一半时，服务员走到你的桌旁，递给你一个iPad，要求你在Yelp上给这家店评分。这就是使用大多数应用的体验。而那些做法正确——比如戈迪尔的&lt;a href="https://www.terrygodier.com/current"&gt;Current&lt;/a&gt;——从不像个急需关注的推销员那样恳求评价的应用，反而受到了惩罚。&lt;/p&gt;
-&lt;p&gt;每次我看到这些提示，都感觉像是被乞丐缠上了一样——而且有些提示来自苹果自家的应用。这一切都显得如此&lt;em&gt;油腻&lt;/em&gt;。围墙花园的优势之一，本应是能将乞丐和推销员拒之门外。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/04/16/app-store-reviews-are-busted" title="‘App Store Reviews Are Busted’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Fri, 17 Apr 2026 01:00:26 +0000</pubDate></item></channel></rss>
+</description><pubDate>Sat, 18 Apr 2026 00:31:16 +0000</pubDate></item></channel></rss>
