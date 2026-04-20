@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 20 Apr 2026 06:04:19 +0000</lastBuildDate><item><title>攻击社交网站有何意义？BlueSky公布上周大规模中断原因：遭遇DDoS</title><link>https://www.landiannews.com/archives/112736.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 20 Apr 2026 06:31:38 +0000</lastBuildDate><item><title>微信公众号「知识存档」大肆传播带毒软件 用户下载软件时应保持谨慎</title><link>https://www.landiannews.com/archives/112737.html</link><description>
+&lt;p&gt;#安全资讯 微信公众号「知识存档」大肆传播带毒软件，用户从非官方渠道下载任何软件都应该保持警惕。系统工具 Windows 超级管理器开发者接到用户反馈称该软件被火绒拦截，经过分析后发现传播源头是公众号，并且此公众号分享的 134 个项目里有半数都带后门。查看详情：https://ourl.co/112737&lt;/p&gt;&lt;p&gt;据蓝点网网友分享的消息，Windows 超级管理器开发团队科利特尔日前发文公开曝光微信公众号「知识存档」大肆传播带毒软件，此公众号以分享各类 PC 软件为主，但其分享的大多数软件都不是官方版本，反而是安装包里携带后门程序。&lt;/p&gt;
+&lt;p&gt;最初有用户下载软件时触发火绒安全拦截才发现异常，随后该用户将拦截情况反馈给科利特尔团队，团队进行排查后确认知识存档分享的版本为老旧过期版本并且携带异常文件，经过扫描后确认分享的文件有毒。&lt;/p&gt;
+&lt;p&gt;不少公众号运营者并非专业人士因此有可能是不慎下载带毒版本并分享，所以科利特尔团队还下载知识存档分享的其他软件进行扫描，结果发现这个公众号分享的半数软件都存在问题。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112737.png" rel="nofollow"&gt;&lt;img alt="微信公众号「知识存档」大肆传播带毒软件 用户下载软件时应保持谨慎" data-src="https://img.lancdn.com/landian/2026/04/112737.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112737.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;科利特尔团队检索知识存档通过夸克网盘分享的 134 个项目，这些项目合计约为 12.8GB，随后将这些项目全部下载到本地使用安全软件进行测试。&lt;/p&gt;
+&lt;p&gt;测试结果显示 360 安全卫士检测到 44 个风险项、腾讯电脑管家检测到 35 个木马病毒、360 杀毒检测到 62 个风险项、火绒安全软件检测到 46 个风险项。&lt;/p&gt;
+&lt;p&gt;这些风险项里多数都是感染型病毒和后门程序，具体包括远程控制后门、释放器、木马或加载器、其他后门程序，这些后门还都使用相同的 C2 服务器：&lt;em&gt;hackerinvasion.f3322.net&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;注：f3322 是动态 DNS 域名服务 3322.net 的服务域名，黑客使用的 C2 服务器域名采用 DDNS 解析，不得不说还真会省钱。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;科利特尔团队经过分析后认为知识存档公众号运营者主动投毒的可能性较低，更大可能是这名运营者本身 PC 已经被感染各种后门程序，所以在打包压缩其他程序时也被植入后门程序。&lt;/p&gt;
+&lt;p&gt;不过蓝点网倒是不怎么认可这种观点，原因在于 Windows 10/11 本身启用 Microsoft Defender 反病毒软件，除非用户通过工具主动禁用，否则必须安装其他杀毒软件才能禁用 Microsoft Defender。&lt;/p&gt;
+&lt;p&gt;在开启任何杀毒软件的情况下都应该能检测到系统遭到感染，而且分享 134 个项目时间跨度非常长，通常 Windows 用户也比较频繁的重装系统 (一般 1~2 年就会重装一次)，重装系统意味着后门程序就无法持久化了 (当然感染用户使用的绿色软件再随着重装后启动也是有可能的)。&lt;/p&gt;
+&lt;p&gt;所以从实际情况来看故意投毒的可能性更高，要说运营者完全不知道自己已经被感染确实不太可能，除非运营者也是纯小白用户所以才长时间无法发现这类问题。&lt;/p&gt;
+&lt;p&gt;最后这里也提醒我们不要轻易下载来自非官方渠道的软件，因为有可能分享者都不知道自己分享的软件包是否安全。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://mp.weixin.qq.com/s/GUPCLsoiMEoIq5xx-RnnIw?click_id=5" rel="noopener" target="_blank"&gt;科利特尔&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 20 Apr 2026 06:31:38 +0000</pubDate></item><item><title>攻击社交网站有何意义？BlueSky公布上周大规模中断原因：遭遇DDoS</title><link>https://www.landiannews.com/archives/112736.html</link><description>
 &lt;p&gt;#网站应用 对社交网站发起 DDoS 有何意义？社交网站 BlueSky 公布上周大规模中断的原因：遭到持续的 DDoS 攻击。攻击也半夜 12 点开始持续到白天，但除了影响用户访问外本身没有造成太大的影响，所以有可能黑客只是拿 BlueSky 来练手或者瘫痪该网站进行宣传。查看详情：https://ourl.co/112736&lt;/p&gt;&lt;p&gt;社交网站 BlueSky 在 2026 年 4 月 16 日出现长时间的大范围中断，此次中断影响 BlueSky 应用、信息流、通知以及搜索功能等，当时用户无法发布贴文或查看其他用户发送的贴文。&lt;/p&gt;
 &lt;p&gt;通常如果是内部故障应该很快就可以完成修复并重新上线，不过 BlueSky 中断时间非常长确实有些让人意外，直到现在我们才知道这次大规模中断的根本原因：攻击者持续发起 DDoS 攻击。&lt;/p&gt;
 &lt;p&gt;该网站日前发布消息称，从太平洋时间 2026 年 4 月 15 日 23:40 左右，团队收到 BlueSky 应用间歇性故障的报告，之后团队介入处理并发现平台遭遇 DDoS 攻击，攻击持续整夜。&lt;/p&gt;
@@ -37,17 +54,4 @@
 &lt;p&gt;这个功能其实遭到不少网友的嘲讽，即现在大家还需要证明自己是人类，不过从某些意义上说确实可以打击基于深度伪造技术的诈骗，如果参会者都要求进行深度人脸识别的话应该可以找出非人类参与者。&lt;/p&gt;
 &lt;p&gt;2024 年初，工程公司奥雅纳就因为深度视频伪造损失 2,500 万美元，原因是该公司的香港员工在视频通话中授权了电汇转账，事后调查发现，整个视频通话中除了这名香港员工外，其他参会者均为深度伪造，也就是诈骗团伙利用此公司领导的公开照片和深度伪造技术来创建视频，进而让这名香港员工深信这是来自公司领导层要求的转账。&lt;/p&gt;
 &lt;p&gt;2025 年新加坡某跨国公司也遭遇类似的深度伪造诈骗，所以以后视频通话增加真实人类验证的情况可能会越来越多，无论用户是否接受，未来这都有可能成为主流。&lt;/p&gt;
-</description><pubDate>Mon, 20 Apr 2026 03:30:41 +0000</pubDate></item><item><title>云开发平台Vercel遭到黑客攻击 部分客户的敏感信息可能已经泄露</title><link>https://www.landiannews.com/archives/112710.html</link><description>
-&lt;p&gt;#安全资讯 知名云开发平台 Vercel 遭到黑客攻击，以窃取数据勒索赎金而闻名的黑客团伙 ShinyHunter 通过 Context.AI 入侵 Vercel 员工进而获得权限。Vercel 目前正在私下联系所有受影响的客户，用户也可以检查谷歌授权应用，如果发现下面这个授权应用即代表遭到攻击。查看详情：https://ourl.co/112710&lt;/p&gt;&lt;p&gt;以窃取信息并发起勒索为主要业务的黑客团队 ShinyHunter 日前拿下知名云开发平台 Vercel，该平台被攻击后泄露部分内部敏感信息和客户信息，目前平台正在通知受影响的客户立即轮换各类凭证并检查活动日志。&lt;/p&gt;
-&lt;p&gt;最初 Vercel 并未公布此次攻击的发生原因，当时就有坊间传闻称源头来自 AI 工具 Context.ai，随后 Vercel 更新安全事件页面证实这个说法，其员工使用 Context.AI 遭到入侵，黑客利用该工具的访问权限控制 Vercel Google Workspace 账户，再利用这个账户进入内部环境。&lt;/p&gt;
-&lt;p&gt;截图显示 Vercel 已经通过 Telegram 联系黑客要求黑客不要公布任何数据，不过黑客勒索主要是为了钱，黑客要价 200 万美元以换取数据保密，现在还不清楚 Vercel 是否会提供赎金换取数据保密。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src="https://img.lancdn.com/landian/2026/04/112710.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112710.png"/&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Vercel 在安全事件更新中强调此次安全事件仅造成少部分客户数据被窃取，目前已经私下联系这些客户加强安全措施并轮换各类凭证，同时 Vercel 也强调黑客窃取的内部信息并非机密，因为在 Vercel 内部被标记为敏感的信息都不允许被读取，所以黑客并未获得 Vercel 的敏感信息。&lt;/p&gt;
-&lt;p&gt;如何判断自己是否已经被攻击也非常简单，登录谷歌或 Google Workspace 控制台，检查 OAuth 应用里是否有：110671459871-30f1spbu0hptbs60cb4vsmv79i7bbvqj.apps.googleusercontent.com (谷歌官方似乎已经删除该应用，不知道能否查看到授权历史)&lt;/p&gt;
-&lt;p&gt;如果有这个 OAuth 授权应用说明用户已经遭到黑客攻击，此时用户应当立即轮换所有凭证，并检查各类服务是否有异常登录行为，因为黑客可能也已经通过凭证登录服务器安装其他持久化后门。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Vercel 已经将此次安全事件通报给 Context.AI，不过后者暂时还未发布任何回应，蓝点网检查其博客发现 Context.AI 昨天夜里发布三篇博客介绍其他内容，但没有提到任何与安全相关的内容，所以完全搞不清楚黑客是怎么入侵 Context.AI 的。&lt;/p&gt;
-&lt;p&gt;所以建议使用 Context.AI 的用户也立即检查轮换各类凭证并检查是否有异常登录行为，当然如果追求更高安全性的话，即便没有发现异常行为也应该直接轮换所有凭证。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://vercel.com/kb/bulletin/vercel-april-2026-security-incident#indicators-of-compromise-iocs" rel="noopener" target="_blank"&gt;Vercel&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 20 Apr 2026 02:13:26 +0000</pubDate></item></channel></rss>
+</description><pubDate>Mon, 20 Apr 2026 03:30:41 +0000</pubDate></item></channel></rss>
