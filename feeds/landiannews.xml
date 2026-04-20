@@ -1,5 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sun, 19 Apr 2026 08:52:58 +0000</lastBuildDate><item><title>IETF收到IPv8协议草案 提供1,844亿个IP地址 100%向下兼容IPv4协议</title><link>https://www.landiannews.com/archives/112706.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 20 Apr 2026 02:00:23 +0000</lastBuildDate><item><title>安全研究员在Microsoft Defender中发现漏洞 与微软产生矛盾后公开漏洞</title><link>https://www.landiannews.com/archives/112709.html</link><description>
+&lt;p&gt;#安全资讯 研究人员在 Microsoft Defender 中发现安全漏洞，可以借助这款系统级安全软件本身进行权限提升。但研究人员与 MSRC 团队之间出现矛盾，这导致研究人员直接公布漏洞，漏洞公布后已经有黑客开始尝试利用漏洞发起攻击 --- 利用 Defender 作为提权跳板。查看详情：https://ourl.co/112709&lt;/p&gt;&lt;p&gt;Microsoft Defender (以前叫 Windows Defender) 是 Windows 10/11 默认安全软件，在用户没有安装其他安全软件的情况下，微软将通过 Microsoft Defender 为系统提供必要的安全保护，例如基于云端的恶意文件查杀等功能。&lt;/p&gt;
+&lt;p&gt;不过有研究人员在该软件中发现安全漏洞，该漏洞被命名为红日 (Red Sun)，借助漏洞攻击者可以将恶意文件覆盖系统文件并进行权限提升，因此这款安全软件反而会成为黑客提权的跳板。&lt;/p&gt;
+&lt;p&gt;值得注意的是，这名研究人员其实还发现 Microsoft Defender 中的其他安全漏洞 (被命名为 BlueHammer)，但因为与微软安全响应中心出现矛盾，现在研究人员直接将漏洞公开，这也导致部分黑客已经开始利用漏洞发起攻击。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112709.png" rel="nofollow"&gt;&lt;img alt="安全研究员在Microsoft Defender中发现漏洞 与微软产生矛盾后公开漏洞" data-src="https://img.lancdn.com/landian/2026/04/112709.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112709.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;发现漏洞的安全研究人员昵称为 Chaotic Eclipse，其中红日漏洞主要是 Microsoft Defender 处理带有云标签的潜在恶意文件时出现行为异常，某些情况下该软件可能会将恶意文件恢复或重新写到磁盘上的原始位置。&lt;/p&gt;
+&lt;p&gt;借助这个缺陷研究人员编写的概念验证代码可以绕过 Microsoft Defender 安全防护并将恶意文件覆盖系统文件，从而让恶意文件获得更高的权限，从某种意义上说这个漏洞的潜在危害还是不小的。&lt;/p&gt;
+&lt;p&gt;值得注意的是这个漏洞本身不需要借助内核漏洞、破坏内存或者破坏 Microsoft Defender 内部代码，漏洞利用的是 Microsoft Defender 更新工作流程、卷影复制服务、Windows 云文件 API 和机会性锁定之间的交互问题 (竞争条件问题)。&lt;/p&gt;
+&lt;p&gt;以上所有流程都是合法且按照预期运行的，但如果以不同的顺序利用这些流程就可以触发漏洞，红日漏洞与 BlueHammer 配合使用可能会造成更多危害。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;相关漏洞目前已经被公开 --- 没有补丁、没有 CVE 编号、没有任何协调机制，本质原因是研究人员与微软 MSRC 认定漏洞标准时产生矛盾，MSRC 不愿意将漏洞归类为重大安全问题(不同危害等级的漏洞奖金不同)。&lt;/p&gt;
+&lt;p&gt;这名研究人员指责微软安全团队破坏部分安全研究社区，而不是支持试图报告漏洞的独立研究人员，当然除了 Chaotic Eclipse 外，也有其他研究人员抱怨过这类问题 (之前有几次在没有修复漏洞的情况下，研究人员直接公开漏洞)。&lt;/p&gt;
+&lt;p&gt;目前该系列漏洞共有 3 枚：Red Sun、BlueHammer 以及 UnDefend，由于 PoC 已经公开，所以黑客可以通过概念验证代码反推漏洞利用方式，这导致黑客开始利用漏洞发起攻击。&lt;/p&gt;
+&lt;p&gt;至于漏洞的真实性目前是没有任何问题的，已经有大量研究人员通过概念验证代码进行测试确认漏洞的真实性，所以对微软来说接下来可能要尽快修复漏洞并调查 MSRC 与研究人员之间的矛盾发生原因以及以后的处理方式。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://github.com/Nightmare-Eclipse/RedSun?tab=readme-ov-file" rel="noopener" target="_blank"&gt;GitHub&lt;/a&gt;、&lt;a href="https://www.techspot.com/news/112099-researchers-warn-microsoft-defender-vulnerability-already-exploited.html" rel="noopener" target="_blank"&gt;TechSpot&lt;/a&gt;、&lt;a href="https://www.cyderes.com/howler-cell/windows-zero-day-bluehammer" rel="noopener" target="_blank"&gt;Cyderes&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 20 Apr 2026 02:00:23 +0000</pubDate></item><item><title>华擎联合英特尔推出单通道内存技术 在不影响性能的前提下压缩内存条价格</title><link>https://www.landiannews.com/archives/112708.html</link><description>
+&lt;p&gt;#硬件设备 华擎联合英特尔推出单通道内存标准，此类内存条只使用 1x32 位通道，而生产成本则要低于标准双通道内存条。在不影响性能的前提下，华擎和英特尔希望该技术降低内存价格并继续普及 DDR5 内存，当然前提是有厂家愿意提供产能生产此类内存条才行。查看详情：https://ourl.co/112708&lt;/p&gt;&lt;p&gt;内存价格飙涨已经影响到科技行业的方方面面，对预算有限的 PC 用户来说现在组装设备就绕不开高昂的内存价格，而随着时间推移，包括固态硬盘在内的其他组件价格也在上涨。&lt;/p&gt;
+&lt;p&gt;不过现在华擎联合英特尔以及 TeamGroup 公司推出单通道 DRAM，这项技术被命名为 HUDIMM 和 HSODIMM，其主要特点就是 HUDIMM 内存条只使用 1x32 位通道。&lt;/p&gt;
+&lt;p&gt;标准 UDIMM 内存条采用双通道也就是 2x32 位，相较于标准内存条，这种单通道内存生产价格更低，所以理论上说可以用来应对当下传统标准内存条价格太高的问题。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112708.png" rel="nofollow"&gt;&lt;img alt="华擎联合英特尔推出单通道内存技术 在不影响性能的前提下压缩内存条价格" data-src="https://img.lancdn.com/landian/2026/04/112708.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112708.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 华擎 600/700/800 系列主板支持此技术：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;英特尔表示，在 DDR5 内存需求和成本不断上涨的情况下，华擎的单通道 DRAM 技术对继续普及 DDR5 内存至关重要，英特尔非常感谢华擎的支持，将该技术用于 Intel 600/700/800 系列芯片组，这可以让英特尔用户能够在未来几年能够更好地享受 DDR5 内存带来的优势。&lt;/p&gt;
+&lt;p&gt;华擎则是在自家推出的 Intel 600/700/800 系列主板上启用对 HUDIMM DDR5 内存的支持，尽管子通道数量减半，不过从华擎公布的数据来看，这种内存条依然可以提供不错的性能。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;华擎在社交媒体上发布的图片显示，在 DDR5 配置中使用 8+16GB 内存组合可以获得更高的带宽和更低的延迟，通道数量的减少只会降低内存容量，所以在性能方面基本不会有什么影响。&lt;/p&gt;
+&lt;p&gt;华擎分享的性能数据显示，单通道 8GB 内存条 + 16GB 双通道内存条，其整体带宽高于单条双通道的 24GB 内存条，所以单通道与双通道混搭也是没问题的。&lt;/p&gt;
+&lt;p&gt;当然关键意义在于单通道内存条生产价格会更便宜，因此实际售价也会更便宜，以单通道 8GB 内存条 + 16GB 双通道内存条为例，其售价要低于双通道的单条 24GB 内存条。&lt;/p&gt;
+&lt;p&gt;不过单通道内存条是否能真正降低价格还是个未知数，毕竟当前最大的问题在于产能，闪存制造商将更多产能挪到利润更高的 HBM 系列内存上，所以即便单通道内存生产成本低也可能无法获得足够产能。&lt;/p&gt;
+</description><pubDate>Mon, 20 Apr 2026 01:15:24 +0000</pubDate></item><item><title>NASA宣布关闭旅行者1号低能带电粒子探测器以节省电量延长通信时间</title><link>https://www.landiannews.com/archives/112707.html</link><description>
+&lt;p&gt;#太空探索 NASA 发送指令关闭旅行者 1 号上的低能带电粒子实验装置，该装置用来测量来自太阳系和银河系的低能带电粒子。关闭装置自然也是为了节省电量从而延长旅行者 1 号的通信时间，目前探测器的核电池电量供应持续降低，NASA 不得不陆续关闭各种组件和仪器来节省电量。查看详情：https://ourl.co/112707&lt;/p&gt;&lt;p&gt;当地时间 2026 年 4 月 17 日，美国宇航局喷气推进实验室 (JPL) 的工程师们向旅行者 1 号探测器发出指令，关闭探测器上的低能带电粒子实验装置 (LECP)，这艘核动力探测器的电量即将耗尽，关闭 LECP 被认为是继续维持探测器运行的最佳方法。&lt;/p&gt;
+&lt;p&gt;旅行者 1 号探测器使用放射性同位素热电发电装置获得电力供应，这种装置可以将衰变钚产生的热量转化为电能，但这种核电池受限于原料半衰期，每年都会损失大约 4W 的功率，而在太空运行将近半个世纪后，旅行者 1 号的核电池能量已经变得非常低，JPL 团队必须通过关闭加热器和科学仪器来节约能源，同时还需要确保探测器不会因为温度过低导致燃料管路冻结。&lt;/p&gt;
+&lt;p&gt;2026 年 2 月 27 日，在计划中的翻滚机动中，旅行者 1 号探测器的功率意外下降，负责该任务的工程师们知道，如果功率继续下降就有可能触发探测器的欠压故障保护系统，该系统会自动关闭部分组件以关闭探测器，如果被自动关闭则工程师还需要通过非常繁琐且充满风险的过程尝试恢复仪器。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://img.lancdn.com/landian/2026/04/112707.webp" rel="nofollow"&gt;&lt;img alt="NASA宣布关闭旅行者1号低能带电粒子探测器以节省电量延长通信时间" data-src="https://img.lancdn.com/landian/2026/04/112707.webp" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112707.webp"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;与其担心意外发生不如提前将意外扼杀在摇篮里，经过讨论后工程团队决定主动关闭 LECP 实验装置来减少电量消耗，虽然关闭科学仪器并非所有人的意愿，不过这也是目前最佳选择。&lt;/p&gt;
+&lt;p&gt;旅行者 1 号目前还有两台科学仪器在运行，一台用于探测等离子体波，另一台用于测量磁场，这两台科学仪器仍然运转良好，持续回传来自太阳系边界的科学数据，这些数据都来自人类从未涉足过的区域。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;多年以来旅行者 1 号任务团队就已经提前商讨关闭探测器各个部件的顺序，确保探测器核电池能够继续维持其他科学仪器和探测器本身的正常运行，目前旅行者 1 号被关闭的组件或仪器有 7 套。&lt;/p&gt;
+&lt;p&gt;也就是说未来旅行者 1 号还会被陆续关闭更多组件或仪器，当然即便关闭所有科学仪器，旅行者 1 号也基本只能支撑到 2030 年前后，到时候旅行者 1 号会因为失去电力供应而彻底与人类断开联系。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;由于旅行者 1 号距离我们非常遥远 (超过 250 亿公里，但其实还不到 1 光天)，关闭仪器的指令序列需要 23 小时才能抵达探测器，而关闭过程则需要 3 小时 15 分钟。&lt;/p&gt;
+&lt;p&gt;LECP 实验装置本身会被关闭，但该装置用于驱动传感器旋转进行全方位扫描的小型电机将继续保持运行，这个小型电机功率仅 0.5W，如果后续任务团队能找到额外电源 (比如关闭其他仪器)，那么 LECP 实验装置可能会被重新启用。&lt;/p&gt;
+&lt;p&gt;接下来任务团队将实施被戏称为大爆炸的节能方案，该方案会关闭更多设备并采用低功耗方案取代这些设备，让探测器可以保持加热的同时，继续收集更多科学数据，这应该有助于延长旅行者 1 号的通信时间。&lt;/p&gt;
+</description><pubDate>Mon, 20 Apr 2026 00:45:01 +0000</pubDate></item><item><title>IETF收到IPv8协议草案 提供1,844亿个IP地址 100%向下兼容IPv4协议</title><link>https://www.landiannews.com/archives/112706.html</link><description>
 &lt;p&gt;#行业资讯 互联网工程任务组收到 IPv8 协议草案 (任何人均可提交草案)，该协议旨在解决 IPv6 推进速度慢问题，100% 兼容现有 IPv4 设备。IPv8 采用 64 位地址空间，格式为 r.r.r.r.n.n.n.n，这个格式由 32 位 ASN 路由前缀和 32 位主机地址组成，当前缀为 0.0.0.0 时就直接按照标准 IPv4 地址处理。查看详情：https://ourl.co/112706&lt;/p&gt;&lt;p&gt;针对 IPv6 推进缓慢的问题，日前有行业人士向互联网工程任务组 (IETF) 提交 IPv8 核心协议草案，该协议将 100% 向下兼容 IPv4 协议，所有现有设备都不需要更新即可无缝兼容 IPv8 协议。&lt;/p&gt;
 &lt;p&gt;目前在很多新兴市场 IPv6 的覆盖速度已经明显提升，不过从 IPv6 发展历史来看，该协议的推进速度可以说是蜗牛：自 1992 年开始讨论、1996 年逐渐标准化，到 1998 年 12 月才正式发布。&lt;/p&gt;
 &lt;p&gt;而直到现在 IPv6 的市场覆盖率刚刚突破 50%(以谷歌搜索数据参考)，全球互联网的发展受制于 IPv4 地址不足问题，IPv6 协议推进速度慢无法解决实际问题，所以当前很多网络都采用 CGNAT 技术进行 IP 共享。&lt;/p&gt;
@@ -38,56 +82,4 @@
 &lt;p&gt;谷歌也已经同步推出 Android Skills 模块化技能包和安卓知识库，让 AI 模型能够更准确地应用边缘到边缘设计、性能优化等模式。&lt;/p&gt;
 &lt;p&gt;Android CLI 也可以显著降低安卓开发门槛，为未来智能体主导的开发范式铺平道路，无论是独立开发者、团队协作还是大规模自动化流水线，都可以通过 Android CLI 项目受益。&lt;/p&gt;
 &lt;p&gt;注：现阶段 Android CLI 以预览版形式发布，谷歌鼓励开发者下载使用并通过 Issue Tracker 反馈问题，感兴趣的开发者可以前往安卓官网下载：&lt;a href="https://developer.android.com/tools/agents/android-cli?hl=zh-cn" rel="noopener" target="_blank"&gt;https://developer.android.com/tools/agents/android-cli?hl=zh-cn&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sun, 19 Apr 2026 07:44:03 +0000</pubDate></item><item><title>微软正在开发新版Windows 11开始菜单 提升性能和让用户高度自定义</title><link>https://www.landiannews.com/archives/112704.html</link><description>
-&lt;p&gt;#系统资讯 微软正在开发新版 Windows 11 开始菜单，目标是提高响应速度和模块化设计让用户可以自定义开始菜单。其中提高性能方面主要是迁移架构，通过 WinUI3 原生架构提高开始菜单响应速度，哪怕是在 CPU 使用率较高时也能快速响应。查看详情：https://ourl.co/112704&lt;/p&gt;&lt;p&gt;微软在 2024~2025 年已经持续改进 Windows 11 开始菜单并添加网格等排列模式，即不再将更多应用程序隐藏在下级菜单中，如果用户有需要可以直接以列表形式滚动查看所有应用程序。&lt;/p&gt;
-&lt;p&gt;不过由于开始菜单本身属于混合版本 (原生架构 + WebView2 架构)，因此性能方面的体验确实比较差，还有些选项则是不支持用户自定义设置，例如小布局和大布局模式 (系统将根据分辨率来调整但不允许用户调整)。&lt;/p&gt;
-&lt;p&gt;据 Windows Central 发布的报道，微软目前正在开发新版 Windows 11 开始菜单，新版开始菜单将着重提升实际使用性能以及为用户提供更多控制选项，也就是让用户可以根据喜好进行自定义。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/03/112279.png" rel="nofollow"&gt;&lt;img alt="微软正在开发新版Windows 11开始菜单 旨在提升性能和提供更多选项让用户控制" data-src="https://img.lancdn.com/landian/2026/03/112279.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/03/112279.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.landiannews.com/archives/112279.html" rel="noopener" target="_blank"&gt;其中性能提升方面主要是将开始菜单从混合架构转移到 WinUI3 原生架构&lt;/a&gt;，迁移架构后可以显著提升开始菜单的性能，微软在此前发布的博客中已经承诺将通过迁移原生架构来提升用户体验。&lt;/p&gt;
-&lt;p&gt;迁移架构后新版开始菜单响应速度会更快，微软的目标还包括在系统处于高负载的状态下也依然可以确保开始菜单灵敏响应，避免在 CPU 使用率较高的情况下点击开始菜单后可能要等待 1~2 秒。&lt;/p&gt;
-&lt;p&gt;据称新版开始菜单将允许用户启用或禁用特定功能部分，允许用户手动选择小尺寸布局或大尺寸布局，也可以将不常用的部分全部关闭，例如将文件推荐部分彻底禁用。&lt;/p&gt;
-&lt;p&gt;从消息来看新版开始菜单将会继续转向模块化设计，也就是让用户自己删减模块，例如如果用户愿意的话甚至还可以将整个应用列表都禁用，如何搭配模块完全由用户自己选择。&lt;/p&gt;
-&lt;p&gt;Windows Central 还称微软改进 Windows 11 的项目代号名为 Windows K2，这个项目的目标是重新集中精力，让 Windows 11 成为快速、流畅、稳定且易于用户使用的平台。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://www.windowscentral.com/microsoft/windows-11/microsoft-plans-major-start-menu-upgrades-for-windows-11-with-better-customization-and-performance-users-will-soon-be-able-to-resize-and-toggle-off-entire-areas-of-start" rel="noopener" target="_blank"&gt;Windows Central &lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sun, 19 Apr 2026 07:22:26 +0000</pubDate></item><item><title>又出现天价账单！谷歌GCP存在缺陷 地图API都能直接调用Gemini且不受消费限制</title><link>https://www.landiannews.com/archives/112703.html</link><description>
-&lt;p&gt;#人工智能 又是天价账单！谷歌 GCP 存在缺陷可能会让开发者创建的旧令牌调用 Gemini API 且不受消费层级和支出上限限制。建议在 GCP 平台申请过各类免费或付费 API (例如用于谷歌地图或 Firebase) 的开发者立即轮换密钥并设置限制，这些旧密钥可以跨服务直接调用 Gemini API。查看详情：https://ourl.co/112703&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landiannews.com/archives/112673.html" rel="noopener" target="_blank"&gt;这段时间谷歌因为天价账单问题正在对 Gemini API 平台进行大幅度改进&lt;/a&gt;，包括设置不同层级的消费限制、允许开发者设置项目支出上限、新增预付费机制充值多少用多少等。&lt;/p&gt;
-&lt;p&gt;不过在这种情况下依然有开发者不慎暴露 API 令牌后产生天价账单，名为赞比西的开发者发帖称自己的 Google Firebase AI Logic 在 13 小时内产生高达 5.4 万欧元的 AI 使用账单。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在 2025 年创建的项目用于 Google Firebase 身份验证，最近这名开发者添加简单的 AI 功能 (根据文本提示生成网页代码片段) 并启用 Firebase AI Logic 功能。&lt;/p&gt;
-&lt;p&gt;启用此功能后不久，开发者发现 Gemini API 使用量激增并且产生的使用量与实际用户无关，看起来这些使用量都是自动化产生的，开发者发现问题后禁用 API 后使用量停止增加。&lt;/p&gt;
-&lt;p&gt;从使用量激增到开发者禁用 API 约有 13 小时，期间开发者收到 80 欧元的预算警报和成本异常警报，不过这些警报都是延迟几小时后才发来，而不是实际消耗 80 欧元时就触发。&lt;/p&gt;
-&lt;p&gt;开发者在注意到异常禁用 API 时实际账单金额达到 28,000 欧元，由于本身 Gemini API 成本报告也是延迟的，最终开发者收到的账单金额高达 54,000 欧元。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112673.png" rel="nofollow"&gt;&lt;img alt="又出现天价账单！谷歌GCP存在缺陷 地图API都能直接调用Gemini且不受消费限制" data-src="https://img.lancdn.com/landian/2026/04/112673.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112673.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;后来开发者与谷歌云支持团队沟通并提供详细日志和分析报告，不过谷歌云支持团队认为费用源于开发者的项目，因此认定这是合理使用，所以开发者提交的账单申诉被谷歌云团队驳回。&lt;/p&gt;
-&lt;p&gt;开发者认为这种使用方式显然是异常的、并非用户驱动的，也不能反映用户对该服务的预期或有实际意义的使用，谷歌云应当对这部分异常账单进行豁免才对。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在文章开头蓝点网提到谷歌正在改进 Gemini API 平台的消费问题，但这些改进有个致命漏洞：&lt;strong&gt;所有改进仅适用于通过 Google AI Studio 创建的 API，开发者在其他地方创建的 API 尤其是老旧的 API 是不受这些消费限制约束的。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;根据 Truffle Security 在 2026 年 2 月发布的&lt;a href="https://trufflesecurity.com/blog/google-api-keys-werent-secrets-but-then-gemini-changed-the-rules" rel="noopener" target="_blank"&gt;分析报告&lt;/a&gt;，多种谷歌 API 令牌 (例如谷歌地图和 Firebase) 都可以用来调用 Gemini API 服务，这家安全公司在全网扫描到 3000 多个暴露的 API 密钥。&lt;/p&gt;
-&lt;p&gt;问题在于原本用于谷歌地图的这些 API 其实公开或不慎泄露也不是太大的问题，只不过在 AI 时代谷歌竟然接受通过这些 API 令牌用于 Gemini 身份验证。&lt;/p&gt;
-&lt;p&gt;更夸张的是谷歌自己都使用这些旧 API 并在网上公开，研究人员甚至可以通过 API 令牌访问谷歌自己内部使用的 Gemini 服务，但谷歌认为这些密钥不涉及敏感信息。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;针对这个漏洞问题，谷歌员工在回应开发者时透露，默认情况下 Google AI Studio 生成的密钥仅用于调用 Gemini API 服务，&lt;strong&gt;但开发者从 GCP 其他部分生成的密钥具有跨服务功能。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;同时相关消费限制也仅限于新生成的这些密钥，也就是以前生成的老旧密钥是不会受到消费限制的&lt;/strong&gt;，对开发者而言现在立即销毁以前创建的各种密钥至关重要，否则暴露后产生天价账单后哪怕最终能被免除也可能需要浪费大量时间与谷歌沟通。&lt;/p&gt;
-&lt;p&gt;目前 Google AI Studio 团队已经提供邮箱供开发者联系来彻底调查这件事，开发者的这笔天价账单应该可以被免除。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://discuss.ai.google.dev/t/unexpected-54k-billing-spike-in-13-hours-firebase-browser-key-without-api-restrictions-used-for-gemini-requests/140262/2" rel="noopener" target="_blank"&gt;Google Dev&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 17 Apr 2026 03:40:06 +0000</pubDate></item><item><title>英特尔推出酷睿3系列移动处理器 与5年前同类芯片相比性能提升47%</title><link>https://www.landiannews.com/archives/112702.html</link><description>
-&lt;p&gt;#硬件设备 英特尔推出酷睿系列 3 移动处理器，主要定位是入门级家庭和商用设备，也可以用于边缘计算等领域。该系列芯片主打的就是性价比和能耗比，单线程和多线程性能提高 47% 和 41%(与 5 年前的同类芯片相比)，提供最高 40 TOPS 的 AI 算力支持，可以在本地运行 AI 任务。查看详情：https://ourl.co/112702&lt;/p&gt;&lt;p&gt;芯片制造商英特尔日前宣布面向家庭用户、小型企业以及适合边缘部署的全新英特尔酷睿系列 3 移动处理器，这些处理器代号野猫湖 (Wildcat Lake)，主要定位是入门级笔记本电脑。&lt;/p&gt;
-&lt;p&gt;英特尔称酷睿系列 3 移动处理器可以提高性能、延长电池续航时间以及内置人工智能技术，该系列处理器提供最高 40 TOPS 的算力支持，可以在本地运行人工智能任务。&lt;/p&gt;
-&lt;p&gt;野猫湖系列也是英特尔将「AI 就绪」计算覆盖到更加经济实惠的计算机中，所以英特尔将酷睿系列 3 称为混合 AI 就绪，满足消费者对人工智能本地计算的需求。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112702.png" rel="nofollow"&gt;&lt;img alt="英特尔推出酷睿3系列移动处理器 与5年前同类芯片相比性能提升47%" data-src="https://img.lancdn.com/landian/2026/04/112702.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112702.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;产品代号：Wildcat Lake / Intel Core Series 3&lt;/li&gt;
-&lt;li&gt;芯片制程：Intel 18A (2 纳米工艺)&lt;/li&gt;
-&lt;li&gt;连接功能：支持最多 2 个 Thunderbolt 4，支持 WiFi 7 和 Bluetooth 6&lt;/li&gt;
-&lt;li&gt;单线程性能：提升 47% (与 5 年前的同类芯片相比)&lt;/li&gt;
-&lt;li&gt;多线程性能：提升 41% (与 5 年前的同类芯片相比)&lt;/li&gt;
-&lt;li&gt;功耗变化：最多降低 64% (大抵还是和 5 年前的同类芯片相比)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;英特尔对酷睿系列 3 移动处理器的主要定位就是入门级设备和边缘设备，入门级设备包括个人和家庭使用的笔记本电脑，当然也包括部分中小企业使用的商用入门级笔记本电脑。&lt;/p&gt;
-&lt;p&gt;而边缘设备指的是机器人、智能建筑、销售点终端和智能计算等领域，英特尔称这些芯片经过精心设计，旨在平衡这些边缘使用场景下的性能和效率，同时集成的人工智能加速可以处理视觉和语音等。&lt;/p&gt;
-&lt;p&gt;即日起酷睿系列 3 移动处理器在全球范围内推出，英特尔预计 2026Q2 搭载该系列处理器的消费级和商用设备将会陆续推出，英特尔硬件合作伙伴将推出超过 70 款搭载该芯片的设备&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://newsroom.intel.com/client-computing/intel-launches-intel-core-series-3-processors-changing-the-game-for-everyday-computing" rel="noopener" target="_blank"&gt;Intel&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 17 Apr 2026 03:06:09 +0000</pubDate></item></channel></rss>
+</description><pubDate>Sun, 19 Apr 2026 07:44:03 +0000</pubDate></item></channel></rss>
