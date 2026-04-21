@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 21 Apr 2026 07:39:18 +0000</lastBuildDate><item><title>Ubuntu 26.10即将进入开发阶段 将在10月15日发布 代号为超棒的黄貂鱼</title><link>https://www.landiannews.com/archives/112749.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 21 Apr 2026 08:56:54 +0000</lastBuildDate><item><title>算力短缺和成本太高？GitHub宣布立即暂停新开通Copilot订阅且缩减权益</title><link>https://www.landiannews.com/archives/112751.html</link><description>
+&lt;p&gt;#人工智能 GitHub 遇到的问题可能比我们想象的还要严重：GitHub 即日起暂停付费开通新的 Copilot Pro、Pro + 和学生订阅，同时缩减 Pro 订阅权益。GitHub 目前似乎面临非常严重的算力短缺和成本问题，所以不惜得罪用户调整政策，当然 GitHub 也允许用户取消订阅并获得退款，GitHub 将免除四月份使用费。查看详情：https://ourl.co/112751&lt;/p&gt;&lt;p&gt;早前 GitHub 已经暂停所有 Copilot 试用方案，即用户暂时无法再申请 Copilot Pro 等订阅的免费试用，当时 GitHub 称注意到滥用行为的增加，不过从最新情况来看，GitHub 遇到的应该不仅仅是滥用问题。&lt;/p&gt;
+&lt;p&gt;GitHub 今天宣布对 Copilot 个人订阅方案进行大幅度调整，其中包括立即暂停所有用户新付费开通 Copilot Pro 和 Pro+、缩减 Pro 订阅权益、减少模型的可用性。&lt;/p&gt;
+&lt;p&gt;对于调整原因，Copilot 称 AI 智能体工作流从根本上改变了 Copilot 的计算需求，长时间运行的并行会话会消耗太多的资源，如果不进行限制则可能导致所有用户的使用质量都会下降。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112751.png" rel="nofollow"&gt;&lt;img alt="算力短缺和成本太高？GitHub宣布立即暂停新开通Copilot订阅且缩减权益" data-src="https://img.lancdn.com/landian/2026/04/112751.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112751.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub Copilot Pro、Pro + 以及学生版订阅计划全部暂停注册，已经开通的用户可以继续使用&lt;/li&gt;
+&lt;li&gt;收紧套餐使用量：Pro + 套餐是 Pro 套餐用量的 5 倍以上，如果开发者的 Pro 订阅不够用可以加钱升级 Pro+&lt;/li&gt;
+&lt;li&gt;GitHub Copilot Pro 订阅删除所有 Claude Opus 模型&lt;/li&gt;
+&lt;li&gt;GitHub Copilot Pro + 订阅支持 Claude Opus 4.7 模型，4.5/4.6 将被删除&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;此次政策调整可能会损害部分现有订阅用户的权益，尤其是 GitHub Copilot Pro 订阅用户的权益受影响比较严重，所以 GitHub 也宣布临时退款政策，所有对此次调整不爽的付费订阅用户都可以申请退款。&lt;/p&gt;
+&lt;p&gt;退款政策如下：在 4 月 20 日～5 月 20 日之间联系 GitHub 支持团队可申请退款，可免除四月份的使用费。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;GitHub Copilot 也同样存在会话配额限制和每周配额限制，这些配额限制会随着时间推移而调整，但同样是黑盒机制，也就是没有明确的 tokens 数量，当用户触发限制后要么付费升级更贵的套餐，要么等待重置。&lt;/p&gt;
+&lt;p&gt;为提高透明度，从今天开始，在 Microsoft Visual Studio Code 和 Copilot CLI 中会显示剩余配额，但 GitHub 的做法很奇怪，只有在接近账号配额上限时才会显示剩余的可用量，而不是直接从 0% 开始到 99% 都可以显示。&lt;/p&gt;
+</description><pubDate>Tue, 21 Apr 2026 08:56:54 +0000</pubDate></item><item><title>Linux Kernel 7.1合并全新的原生NTFS驱动程序 提供更高的性能和兼容性</title><link>https://www.landiannews.com/archives/112750.html</link><description>
+&lt;p&gt;#系统资讯 Linux Kernel 7.1 版内核合并最新的 NTFS 驱动程序，这个原生驱动程序将 Linux 对 NTFS 的支持从权宜之计转向真正集成且高性能的原生实现。新驱动程序由开发者 JEON 历时四年完成开发，而且整个驱动程序都是从头开发的，目标就是提升整体性能。查看详情：https://ourl.co/112750&lt;/p&gt;&lt;p&gt;Linux Kernel 7.1 日前已经合并由开发者 NAMJAE JEON 重写的全新原生 NTFS 驱动程序，该驱动程序被称为是 NTFS 的复活，也标志着 Linux 对 NTFS 文件系统的支持从长期的权宜之计转向真正集成且高性能的原生实现。&lt;/p&gt;
+&lt;p&gt;长期以来 Linux 用户在访问 NTFS 文件系统时都存在诸多问题，早期内核内置的 NTFS 驱动仅支持只读，主流解决方案则是 NTFS-3G 需要频繁切换导致性能低下且 CPU 开销非常大。&lt;/p&gt;
+&lt;p&gt;后来有开发者推出 NTFS3 驱动程序解决了很多问题，让 Linux 可以正常操作 NTFS 文件系统，只不过 NTFS3 驱动程序维护停滞，稳定性与性能也没有达到社区的预期。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2023/08/99983.png" rel="nofollow"&gt;&lt;img alt="Linux Kernel 7.1合并全新的原生NTFS驱动程序 提供更高的性能和兼容性" data-src="https://img.lancdn.com/landian/2023/08/99983.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2023/08/99983.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;全新合并的 NTFS 驱动程序并非简单的修补，而是对原有内核 NTFS 代码的从头重构，同时整合现代 Linux 文件系统基础设施，支持完整的读写操作例如文件创建、修改和删除等。&lt;/p&gt;
+&lt;p&gt;采用 iomap 和 folio 等现代特性移除对旧 buffer_head 的依赖，提供更好的用户空间工具支持，通过 NTFS_FS Kconfig 开关启用，默认将与现有的 NTFS3 驱动共存，用户可以进行切换。&lt;/p&gt;
+&lt;p&gt;开发者 JEON 表示，该驱动程序历时四年才完成开发，代码量超过 3.6 万行，旨在实现与 NTFS 3.x 的更好兼容性，同时还可以提升整体稳定性并提供完整的文档支持。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;与主流 NTFS3 驱动程序相比，新驱动程序在单线程写入方面的性能提升 3%~5%，多线程写入方面暴涨 35%~110%，挂载 4TB 大型驱动器的速度提升 4 倍。&lt;/p&gt;
+&lt;p&gt;从 NTFS3 驱动程序切换到新驱动程序后，整体顺序读写速度更加流畅，CPU 开销也显著降低，对用户而言最直接的好处就是在 Linux 下可以更快速和安全地读写 NTFS 分区，不需要频繁重启系统或借助第三方工具。&lt;/p&gt;
+&lt;p&gt;例如外接移动硬盘和 U 盘等经常需要在 Windows 和 Linux 上使用时，新的 NTFS 驱动程序可以降低跨平台文件共享的摩擦，提升传输效率。&lt;/p&gt;
+&lt;p&gt;不过目前 Linux Kernel 7.1 版内核还在开发阶段，首个发布预览版将在 2026 年 4 月 27 日前后发布，正式版可能还需要等待几周，有兴趣的用户可以关注蓝点网后续报道。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=cdd4dc3aebeab43a72ce0bc2b5bab6f0a80b97a5" rel="noopener" target="_blank"&gt;Kernel Git&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 21 Apr 2026 08:04:25 +0000</pubDate></item><item><title>Ubuntu 26.10即将进入开发阶段 将在10月15日发布 代号为超棒的黄貂鱼</title><link>https://www.landiannews.com/archives/112749.html</link><description>
 &lt;p&gt;#系统资讯 Ubuntu 26.04 LTS 版将在 4 月 23 日发布，随后 Ubuntu 26.10 版进入开发周期，该版本代号超棒的黄貂鱼，计划于 10 月 15 日正式发布。Ubuntu 26.10 并非 LTS 版因此只有 9 个月支持周期，但可以让用户更快获得新功能和改进，到时候可能还会默认启用 Linux Kernel 7.2。查看详情：https://ourl.co/112749&lt;/p&gt;&lt;p&gt;Canonical 日前已经确定 Ubuntu 26.10 版发布计划，该版本将基于 4 月 23 日发布的 Ubuntu 26.04 LTS 版开发，从 4 月 30 日起开始开发工作，直到 10 月 15 日发布正式版本。&lt;/p&gt;
 &lt;p&gt;Ubuntu 26.10 代号为超棒的黄貂鱼 (Stonking Stingray)，由于这并非 LTS 版因此生命周期只有 9 个月，此类非 LTS 版通常提供滚动更新，让用户可以更快获得新功能和改进等。&lt;/p&gt;
 &lt;p&gt;按照时间推算 Ubuntu 26.10 版可能会默认采用 Linux Kernel 7.2 内核，该内核预计会在 2026 年 8 月下旬发布，而 Ubuntu 26.10 到 10 月 1 日才会冻结内核，所以采用 Linux Kernel 7.2 完全来得及。&lt;/p&gt;
@@ -61,40 +94,4 @@
 &lt;li&gt;iPhone 12 Pro Max 发布时间：2020 年 11 月 13 日&lt;/li&gt;
 &lt;li&gt;iPhone SE 3 发布时间：2022 年 03 月 18 日&lt;/li&gt;
 &lt;/ul&gt;
-</description><pubDate>Tue, 21 Apr 2026 05:30:28 +0000</pubDate></item><item><title>Atlassian旗下软件(Jira/Confluence等)将从8月17日开始收集客户数据用于训练模型</title><link>https://www.landiannews.com/archives/112745.html</link><description>
-&lt;p&gt;#行业资讯 知名软件公司 Atlassian 近期变更数据贡献政策，宣布从 8 月 17 日开始将使用来自 Jira、Confluence、其他 Atlassian 云产品中的客户数据来训练 AI 模型。被收集的数据包括使用元数据以及应用内数据 (例如页面标题和正文)，不同订阅级别的客户数据贡献政策不同，企业版订阅可以完全退出数据收集。查看详情：https://ourl.co/112745&lt;/p&gt;&lt;p&gt;知名软件公司 Atlassian 近期变更数据贡献政策，宣布从 2026 年 8 月 17 日开始将使用来自 Jira、Confluence 以及其他 Atlassian 云产品中的客户元数据和应用内容来训练 AI 模型。&lt;/p&gt;
-&lt;p&gt;此次更新预计会影响约 30 万名客户，Atlassian 将实施不同的分级政策，其中较低级别的客户 (免费版、标准版、高级版) 不能退出数据贡献计划，而开通企业套餐的客户则可以手动退出数据贡献计划以避免自己的私密数据被用于训练模型。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src="https://img.lancdn.com/landian/2026/04/112745.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112745.png"/&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Atlassian 定义不同的数据类别，其中元数据涵盖去标识化信号，例如可读性和复杂性评分、任务分类、语义相似度指标、迭代结束时间以及 Jira SLA 值，这些数据经过处理后基本不涉及敏感内容。&lt;/p&gt;
-&lt;p&gt;而应用内数据则涵盖用户生成的内容，例如 Confluence 中的页面标题和正文、Jira 问题标题、描述、评论、自定义表情符号名称、自定义状态名称以及工作流名称等。&lt;/p&gt;
-&lt;p&gt;该公司称在数据用于训练之前会移除、聚合数据 (将数据混合减少识别) 以及实施应用保护，但 Atlassian 会将收集的数据保存长达七年，这可能造成潜在的安全问题。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;免费版和标准版订阅的客户元数据贡献被默认开启且不能退出，应用内数据贡献默认开启但可以配置并退出&lt;/li&gt;
-&lt;li&gt;高级版订阅的客户元数据贡献被默认开启但可以退出，应用内数据贡献默认关闭&lt;/li&gt;
-&lt;li&gt;企业版订阅的客户元数据和应用内数据贡献都被默认关闭&lt;/li&gt;
-&lt;li&gt;使用客户管理的加密密钥、Atlassian 政府云、Atlassian 独立云以及受 HIPAA 约束的客户默认关闭元数据贡献&lt;/li&gt;
-&lt;/ul&gt;
-</description><pubDate>Tue, 21 Apr 2026 04:00:28 +0000</pubDate></item><item><title>阿里云推出Token Plan团队版订阅套餐 每月198元起仅提供约6,250次调用</title><link>https://www.landiannews.com/archives/112744.html</link><description>
-&lt;p&gt;#人工智能 阿里云也推出 Token Plan 订阅套餐，起步价每月 198 元大约可以发起 6,250 次调用，相较同价位的 Coding Plan Pro 缩水 90%(后者每月提供 9 万次调用)。目前国内各大平台的编码套餐都在涨价和缺货，以前的各类套餐多少有些赔本赚吆喝，所以现在更换价格更高的套餐。查看详情：https://ourl.co/112744&lt;/p&gt;&lt;p&gt;阿里云日前宣布推出 Token Plan 团队版，该订阅方案主要面向多人使用 AI 服务的团队，套餐内额度调用按照信用点计算而非直接提供请求数，因此这与阿里云的 Coding Plan 订阅套餐存在本质上的区别。&lt;/p&gt;
-&lt;p&gt;这种订阅套餐与旧版编码套餐最直观的区别就是涨价，因为实际可供调用的次数明显减少，&lt;a href="https://www.landiannews.com/archives/112610.html" rel="noopener" target="_blank"&gt;早前阿里云已经宣布停售 Coding Plan Lite 订阅套餐&lt;/a&gt;，而专业版订阅则是限量抢购，当前已经成功抢购专业订阅的开发者建议继续续费。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112744.png" rel="nofollow"&gt;&lt;img alt="阿里云推出Token Plan团队版订阅套餐 每月198元起仅提供约6,250次调用" data-src="https://img.lancdn.com/landian/2026/04/112744.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112744.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;该订阅支持文本生成与图像生成模型，兼容主流 AI 编程工具与智能体工具，订阅以信用点计算，起步价每月 198 元提供 25,000 信用点，&lt;strong&gt;当月额度如果没有用完也会直接过期而不是累加到次月中&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;Token Plan 团队版定价为标准席位每用户每月 198 元，高级席位每用户每月 698 元，尊享席位每用户每月 1,398 元，同时提供 5,000 元 / 个的团队共享信用点用量包，席位用量超额时可以通过用量包进行抵扣。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Token Plan 标准席位：每月 198 元提供 25,000 信用点&lt;/li&gt;
-&lt;li&gt;Token Plan 高级席位：每月 698 元提供 100,000 信用点&lt;/li&gt;
-&lt;li&gt;Token Plan 尊享席位：每月 1398 元提供 250,000 信用点&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;单次消耗的信用点存在黑盒机制，以模型类型、tokens 消耗量、思考工具以及工具调用等进行动态决定，具体以账单显示的信用点消耗为准。&lt;/p&gt;
-&lt;p&gt;以 Qwen3.6-Plus 模型为例：输入 8,349 tokens 约为 1.67 信用点，缓存 40,794 tokens 约为 1.63 信用点，输出 573 tokens 约为 0.69 信用点，也就是单次调用的信用点消耗约为 4。&lt;/p&gt;
-&lt;p&gt;以此计算标准席位的 25,000 信用点大约可以进行 6,250 次调用，作为对比，阿里云已经停售的 Coding Plan Lite 版每月 40 元，调用次数为 18,000 次；而 Pro 版每月 200 元，可以提供最多 90,000 次的调用。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Token Plan 团队版提供企业级隐私安全保护，阿里云不会使用用户的数据训练 AI 模型，而 Coding Plan 没有这种待遇，用户使用该订阅产生的数据是会被收集和训练模型的。&lt;/p&gt;
-&lt;p&gt;所以对企业来说 Token Plan 团队版也是有可取之处的，如果企业直接通过 API 调用觉得价格太高倒是可以尝试 Token Plan 团队版，在编程开发任务中 tokens 消耗量非常大，理论上说 Token Plan 团队版应该比直接用 API 要便宜。&lt;/p&gt;
-&lt;p&gt;当然 AI 算力涨价已经是无法避免的，当前国内各大平台的 AI 套餐价格都在涨，这也不算是阿里云的问题，以前的那种套餐像是赔本赚吆喝，所以现在要清退旧套餐换成价格更高的新套餐。&lt;/p&gt;
-</description><pubDate>Tue, 21 Apr 2026 03:34:06 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 21 Apr 2026 05:30:28 +0000</pubDate></item></channel></rss>
