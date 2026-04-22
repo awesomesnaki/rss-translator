@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 21 Apr 2026 08:56:54 +0000</lastBuildDate><item><title>算力短缺和成本太高？GitHub宣布立即暂停新开通Copilot订阅且缩减权益</title><link>https://www.landiannews.com/archives/112751.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 22 Apr 2026 01:45:13 +0000</lastBuildDate><item><title>勒索软件谈判专家帮助黑客索要更高赎金 甚至还亲自下场部署勒索软件来勒索赎金</title><link>https://www.landiannews.com/archives/112775.html</link><description>
+&lt;p&gt;#安全资讯 勒索软件谈判专家收取黑客贿赂帮助黑客索要更高的赎金，甚至对贿赂还不满足，直接下场参与部署勒索软件。美国事件响应公司 DigitalMint 的三名勒索软件谈判专家即将面临审判，原本谈判专家收取咨询费帮助受害企业减少赎金，但他们却帮助黑客找企业索要更高赎金，而且还成为分销商对更多企业发起勒索攻击。查看详情：https://ourl.co/112775&lt;/p&gt;&lt;p&gt;此前蓝点网曾提到过美国事件响应公司 DigitalMint 有勒索谈判专家收取黑客支付的好处费，帮助黑客勒索前来寻求帮助的黑客，日前这名谈判专家的其他两名同事也因为收受贿赂而被法庭审判，这些谈判专家甚至还参与部署勒索软件。&lt;/p&gt;
+&lt;p&gt;41 岁的安杰洛马蒂诺曾是勒索软件谈判代表，主要工作就是代表客户 (受害者) 联系黑客团伙进行赎金谈判，谈判专家的目的本应是尽可能帮助客户压低赎金价格为客户争取更大的利益，但这些被逮捕的谈判专家反其道而行之，帮助黑客向受害者索要更高的赎金。&lt;/p&gt;
+&lt;p&gt;支付赎金的黑客组织则是臭名昭著的 Alphv/BlackCat，这个黑客组织主要利用各类方式窃取企业机密数据并加密，然后要求受害企业支付高额赎金才能拿到解密密钥，部分企业因为没有数据备份而不得不寻求谈判专家帮助联系黑客以减少支付赎金。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112775.png" rel="nofollow"&gt;&lt;img alt="勒索软件谈判专家帮助黑客索要更高赎金 甚至还亲自下场部署勒索软件来勒索赎金" data-src="https://img.lancdn.com/landian/2026/04/112775.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112775.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;美国司法部公开的文件显示，马蒂诺及其两名同事至少代表五家受害企业与黑客进行谈判，这五家企业都向 DigitalMint 支付咨询费 (注：咨询费是给谈判公司的，赎金是给黑客的)。&lt;/p&gt;
+&lt;p&gt;其中：某酒店业公司被迫支付 1,648.4 万美元的赎金，某非营利组织被迫支付 2,680 万美元的赎金，某金融服务公司被迫支付 2,560 万美元的赎金，某零售公司被迫支付 610 万美元的赎金，某医疗公司被迫支付 21.3 万美元的赎金。&lt;/p&gt;
+&lt;p&gt;正常流程应该是谈判专家收取咨询费后代表受害企业与黑客谈判减少赎金，在实际过程中马蒂诺及其同谋将受害企业的内部机密信息泄露给黑客，黑客则根据这些机密信息索要不同价格的赎金。&lt;/p&gt;
+&lt;p&gt;这些机密信息主要包括受害企业的网络保险保单限额以及企业内部对支付赎金的细节，黑客拿到这些信息后其实就按照保单限额索要赎金，对受害企业而言这些赎金最终由保险公司支付。&lt;/p&gt;
+&lt;p&gt;当然有些保单限额可能不足以覆盖黑客实际索要的赎金，这种情况下黑客就靠着谈判专家拿到企业内部对支付赎金的意愿以及可能的上限，然后压着企业能够容忍的上限索要赎金。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;更让人震惊的是马蒂诺及其同伙甚至还主动找起客户，即这些人成为 BlackCat 勒索软件的下游分销商，通过向目标客户部署勒索软件收取咨询费的同时，还从勒索赎金中获得分成。&lt;/p&gt;
+&lt;p&gt;美国司法部在公开文件中称，这个小团伙在 2023 年 4 月～11 月期间，对多家企业发起攻击以部署勒索软件，实际成功实施的攻击就有五起，索要的赎金超过 1,600 万美元。&lt;/p&gt;
+&lt;p&gt;当然并非所有受害者都愿意支付赎金，美国司法部只提到其中有家医疗器械公司最终支付赎金换取密钥，这笔赎金让这个小团伙非法获利 127.4 万美元，但美国司法部未公布其他四家企业是否支付赎金。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;值得注意的是，无论是泄露客户信息帮助黑客索要更高的赎金，还是直接下场参与部署勒索软件，DigitalMint 公司都没能发现马蒂诺及其同伙的违法行为。该公司直到收到美国司法部通知才知道这件事，此时这些勒索软件谈判专家已经被执法机构逮捕，DigitalMint 收到消息后立即解雇了这些人，并表示自己对此毫不知情。从目前调查来看 DigitalMint 确实不知情以及并未参与这些非法行动，只不过作为安全领域的事件响应公司，内部出现如此大的纰漏，着实让人怀疑该公司的实际能力。&lt;/p&gt;
+&lt;p&gt;最后马蒂诺及其同伙将在 2026 年 4 月 30 日面临法院的审判，按相关法律规定，马蒂诺至少也要面临 10 年的监禁，而被查封的 1,000 万美元资产估计也都要拿出来赔偿。&lt;/p&gt;
+</description><pubDate>Wed, 22 Apr 2026 01:45:13 +0000</pubDate></item><item><title>再次血亏！Codex再次重置额度 原因是用户量从300万名增长到400万名</title><link>https://www.landiannews.com/archives/112752.html</link><description>
+&lt;p&gt;#人工智能 再次血亏！Codex 再次重置额度，也就是连续两天每天都重置额度，原因是用户量从 300 万增长到 400 万。昨天重置额度是因为 Codex 出现故障，重置额度来补偿用户，今天的重置则是用户量新增 100 万名，萨姆奥尔特曼此前已经说过，用户量每增加 100 万名就重置 1 次额度用来庆祝。查看详情：https://ourl.co/112752&lt;/p&gt;&lt;p&gt;前天夜里 Codex 出现故障影响部分开发者的正常使用，按照惯例每次出现问题后 Codex 团队都会通过重置当周额度作为补偿，&lt;a href="https://www.landiannews.com/archives/112742.html" rel="noopener" target="_blank"&gt;所以昨天 Codex 团队已经将所有付费订阅用户的当周额度重置&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;蓝点网的账号由于刚刚经历自然周重置所以用量低于 5%，在这种情况下赶上重置其实是血亏的，还不如平时放开手脚使劲用，但平时使劲用又担心当周额度用完后还需要等待重置。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112752.png" rel="nofollow"&gt;&lt;img alt="再次血亏！Codex再次重置额度 原因是用户量从300万名增长到400万名" data-src="https://img.lancdn.com/landian/2026/04/112752.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112752.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;让人更加心寒的是在这个时候 Codex 用户量竟然从 300 万增长到 400 万，此前萨姆奥尔特曼已经承诺，&lt;a href="https://www.landiannews.com/archives/112540.html" rel="noopener" target="_blank"&gt;用户量每增加 100 万名就会重置 1 次额度作为庆祝&lt;/a&gt;，直到 Codex 用户量达到 1,000 万名。&lt;/p&gt;
+&lt;p&gt;所以现在 Codex 再次重置额度，也就是连续两天每天都重置额度，蓝点网刚刚看了下在被重置前我们的账号使用量仅为 9%，所以再次完美错过这次重置，没能成功薅到 OpenAI 的羊毛。&lt;/p&gt;
+&lt;p&gt;现在 Codex 用户增长速度确实非常惊人，在短短两周内就快速增加 100 万名用户，Codex 主要面向开发者，这与 ChatGPT 不同，不过这样的增长速度也同样非常让人震惊。&lt;/p&gt;
+&lt;p&gt;目前在人工智能编程开发领域，市场占有率最高的仍然是 Claude Code，不过 OpenAI Codex 也在奋起直追，市场竞争让 Claude Code 和 Codex 都在快速迭代增加更多新功能，当然 Codex 经常重置额度也是提升竞争力的一种方式。&lt;/p&gt;
+</description><pubDate>Wed, 22 Apr 2026 00:45:12 +0000</pubDate></item><item><title>算力短缺和成本太高？GitHub宣布立即暂停新开通Copilot订阅且缩减权益</title><link>https://www.landiannews.com/archives/112751.html</link><description>
 &lt;p&gt;#人工智能 GitHub 遇到的问题可能比我们想象的还要严重：GitHub 即日起暂停付费开通新的 Copilot Pro、Pro + 和学生订阅，同时缩减 Pro 订阅权益。GitHub 目前似乎面临非常严重的算力短缺和成本问题，所以不惜得罪用户调整政策，当然 GitHub 也允许用户取消订阅并获得退款，GitHub 将免除四月份使用费。查看详情：https://ourl.co/112751&lt;/p&gt;&lt;p&gt;早前 GitHub 已经暂停所有 Copilot 试用方案，即用户暂时无法再申请 Copilot Pro 等订阅的免费试用，当时 GitHub 称注意到滥用行为的增加，不过从最新情况来看，GitHub 遇到的应该不仅仅是滥用问题。&lt;/p&gt;
 &lt;p&gt;GitHub 今天宣布对 Copilot 个人订阅方案进行大幅度调整，其中包括立即暂停所有用户新付费开通 Copilot Pro 和 Pro+、缩减 Pro 订阅权益、减少模型的可用性。&lt;/p&gt;
 &lt;p&gt;对于调整原因，Copilot 称 AI 智能体工作流从根本上改变了 Copilot 的计算需求，长时间运行的并行会话会消耗太多的资源，如果不进行限制则可能导致所有用户的使用质量都会下降。&lt;/p&gt;
@@ -48,50 +74,4 @@
 &lt;li&gt;2026 年 10 月 15 日：Ubuntu 26.10 正式版发布&lt;/li&gt;
 &lt;li&gt;2027 年 06 月：Ubuntu 26.10 结束生命周期，不再提供软件更新支持&lt;/li&gt;
 &lt;/ul&gt;
-</description><pubDate>Tue, 21 Apr 2026 07:39:18 +0000</pubDate></item><item><title>微软与SpeedTest加深合作在Windows 11里集成网速测试 但配图是macOS</title><link>https://www.landiannews.com/archives/112748.html</link><description>
-&lt;p&gt;#系统资讯 知名测速平台 SpeedTest 母公司 Ookla 发布博客宣布与微软加深合作，在 Windows 11 里集成网速测试，但配图竟然是 macOS 系统。Windows 11 测试版已经在任务栏网络图标里集成 SpeedTest，点击后会自动打开 Edge 进行测速，其实就是个快捷方式，只是没想到 Ookla 的配图如此草率。查看详情：https://ourl.co/112748&lt;/p&gt;&lt;p&gt;微软已经在 Windows 11 测试版的任务栏网络图标里集成网速测试功能，用户只需要点击测试就会自动通过 Microsoft Edge 浏览器打开知名网络测速平台 SpeedTest.net 并自动发起网络测速。&lt;/p&gt;
-&lt;p&gt;这个功能被诸多用户吐槽非常鸡肋，&lt;a href="https://www.landiannews.com/archives/110671.html" rel="noopener" target="_blank"&gt;因为看起来像是系统集成的功能但其实就是个网络快捷方式&lt;/a&gt;，与用户自己通过 Chrome 浏览器打开 SpeedTest 或搜索网速测试没有任何区别。&lt;/p&gt;
-&lt;p&gt;不过今天 Ookla 发布博客称，微软与 Ookla 宣布大幅扩展战略合作关系，基于 Ookla 提供的 SpeedTest Web SDK，将互联网指标测试标准与微软 Windows 11 进行更精密的集成。&lt;/p&gt;
-&lt;p&gt;在博客里 Ookla 提到网速测试按钮集成到 Windows 11 系统托盘 (就是网络图标的快捷方式)，本身这篇博客其实没什么亮点，但蓝点网注意到 Ookla 的配图非常有意思。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;如下图：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112748.png" rel="nofollow"&gt;&lt;img alt="微软与SpeedTest加深合作在Windows 11里集成网速测试 但配图是macOS" data-src="https://img.lancdn.com/landian/2026/04/112748.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112748.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Ookla 在博客中的配图虽然是 Windows 11 系统但显示的浏览器显然是 Microsoft Edge for macOS 版，微软设计师应该不会出现这种低级错误，所以有可能是 Ookla 员工在撰写博客时自己使用过往的素材拼凑了这张配图。&lt;/p&gt;
-&lt;p&gt;这篇博客发布时间已经超过 20 小时但配图还未更换，可能到现在 Ookla 都还没注意到这张配图太过于离谱，如果微软发现合作伙伴使用这种配图估计也得吐槽对方就是草台班子。&lt;/p&gt;
-</description><pubDate>Tue, 21 Apr 2026 07:17:57 +0000</pubDate></item><item><title>微博博主爆料iOS 27将停止支持iPhone 11系列和iPhone SE 2</title><link>https://www.landiannews.com/archives/112747.html</link><description>
-&lt;p&gt;#系统资讯 微博数码博主刹那数码发布爆料消息，iOS 27 将停止支持 iPhone 11 系列和 iPhone SE 2 及更老的机型，iPhone 12 及后续机型可升级。iPhone 11 还是在 2019 年发布的，对 iPhone 11 来说停留在 iOS 26 甚至停留在 iOS 18 可能还是好消息，毕竟越升级越卡。查看详情：https://ourl.co/112747&lt;/p&gt;&lt;p&gt;据新浪微博数码博主&lt;a href="https://weibo.com/5143897135/QBxDbdk6A" rel="noopener" target="_blank"&gt;刹那数码&lt;/a&gt;发布的爆料消息，苹果即将在 WWDC 2026 上推出的 iOS 27 (测试版) 将继续支持 iPhone 12 及后续机型，也就是从 iPhone 12~17 等可以继续更新到 iOS 27，而更老的设备将只能停留在 iOS 26。&lt;/p&gt;
-&lt;p&gt;被停止支持的 iPhone 11 系列发布于 2019 年 9 月，而 iPhone SE 2 则是发布于 2020 年 4 月，该系列机型已经停产多年且苹果官方不再销售，但苹果仍然提供主要软件更新和功能更新。&lt;/p&gt;
-&lt;p&gt;后续待 iOS 27 发布后虽然这些机型无法升级，但苹果会继续提供必要的安全更新用于修复漏洞，当然对于这些机型来说继续更新到最新版也未必是好事，毕竟性能问题可能会导致越更新越卡顿。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112747.png" rel="nofollow"&gt;&lt;img alt="微博博主爆料iOS 27将停止支持iPhone 11系列和iPhone SE 2 " data-src="https://img.lancdn.com/landian/2026/04/112747.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112747.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;部分比较机智的用户甚至还停留在 iOS 18 系列没有升级到 iOS 26，对于 iPhone 11 系列和 iPhone SE 2 来说，停留在 iOS 18 + 换个新电池应该还能继续使用很多年。&lt;/p&gt;
-&lt;p&gt;当然也不是完全没有影响的：部分应用程序可能会对 iOS 版本有较高的要求，例如 X/Twitter 推出的 X Chat 端到端加密聊天应用最低就直接要求 iOS 26，不过主流应用程序通常提供更高的版本兼容性。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;下面传闻中将支持 iOS 27 的机型：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;iPhone 17e 发布时间：2026 年 03 月 11 日&lt;/li&gt;
-&lt;li&gt;iPhone 17 发布时间：2025 年 09 月 19 日&lt;/li&gt;
-&lt;li&gt;iPhone 17 Pro 发布时间：2025 年 09 月 19 日&lt;/li&gt;
-&lt;li&gt;iPhone 17 Pro Max 发布时间：2025 年 09 月 19 日&lt;/li&gt;
-&lt;li&gt;iPhone Air 发布时间：2025 年 09 月 19 日&lt;/li&gt;
-&lt;li&gt;iPhone 16e 发布时间：2025 年 02 月 28 日&lt;/li&gt;
-&lt;li&gt;iPhone 16 发布时间：2024 年 09 月 20 日&lt;/li&gt;
-&lt;li&gt;iPhone 16 Plus 发布时间：2024 年 09 月 20 日&lt;/li&gt;
-&lt;li&gt;iPhone 16 Pro 发布时间：2024 年 09 月 20 日&lt;/li&gt;
-&lt;li&gt;iPhone 16 Pro Max 发布时间：2024 年 09 月 20 日&lt;/li&gt;
-&lt;li&gt;iPhone 15 发布时间：2023 年 09 月 22 日&lt;/li&gt;
-&lt;li&gt;iPhone 15 Plus 发布时间：2023 年 09 月 22 日&lt;/li&gt;
-&lt;li&gt;iPhone 15 Pro 发布时间：2023 年 09 月 22 日&lt;/li&gt;
-&lt;li&gt;iPhone 15 Pro Max 发布时间：2023 年 09 月 22 日&lt;/li&gt;
-&lt;li&gt;iPhone 14 发布时间：2022 年 09 月 16 日&lt;/li&gt;
-&lt;li&gt;iPhone 14 Plus 发布时间：2022 年 10 月 07 日&lt;/li&gt;
-&lt;li&gt;iPhone 14 Pro 发布时间：2022 年 09 月 16 日&lt;/li&gt;
-&lt;li&gt;iPhone 14 Pro Max 发布时间：2022 年 09 月 16 日&lt;/li&gt;
-&lt;li&gt;iPhone 13 发布时间：2021 年 09 月 24 日&lt;/li&gt;
-&lt;li&gt;iPhone 13 mini 发布时间：2021 年 09 月 24 日&lt;/li&gt;
-&lt;li&gt;iPhone 13 Pro 发布时间：2021 年 09 月 24 日&lt;/li&gt;
-&lt;li&gt;iPhone 13 Pro Max 发布时间：2021 年 09 月 24 日&lt;/li&gt;
-&lt;li&gt;iPhone 12 发布时间：2020 年 10 月 23 日&lt;/li&gt;
-&lt;li&gt;iPhone 12 mini 发布时间：2020 年 11 月 13 日&lt;/li&gt;
-&lt;li&gt;iPhone 12 Pro 发布时间：2020 年 10 月 23 日&lt;/li&gt;
-&lt;li&gt;iPhone 12 Pro Max 发布时间：2020 年 11 月 13 日&lt;/li&gt;
-&lt;li&gt;iPhone SE 3 发布时间：2022 年 03 月 18 日&lt;/li&gt;
-&lt;/ul&gt;
-</description><pubDate>Tue, 21 Apr 2026 05:30:28 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 21 Apr 2026 07:39:18 +0000</pubDate></item></channel></rss>
