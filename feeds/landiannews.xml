@@ -1,5 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 22 Apr 2026 05:52:16 +0000</lastBuildDate><item><title>Claude Pro订阅可能会取消Claude Code使用权 现有订阅用户不受影响</title><link>https://www.landiannews.com/archives/112778.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 22 Apr 2026 07:28:35 +0000</lastBuildDate><item><title>微软发布紧急带外更新修复.NET组件中的权限提升漏洞 该漏洞评分达9.1分</title><link>https://www.landiannews.com/archives/112782.html</link><description>
+&lt;p&gt;#安全资讯 微软发布.NET 10.0.7 版紧急安全更新修复权限提升漏洞 (但不是用于本地提权)，攻击者利用漏洞可以伪造 Cookie 或会话重置令牌等进行权限提升。例如非管理员伪造令牌冒充自己是管理员来通过服务器验证，从而实现权限提升并接管服务器或后台管理系统。查看详情：https://ourl.co/112782&lt;/p&gt;&lt;p&gt;微软开发的.NET 是很多应用程序运行的底层组件，微软同时支持多个.NET 版本，不过微软也建议开发者和 IT 管理员不要运行那些已经停止支持的版本，因为旧版本可能会因为安全漏洞给客户造成安全风险。&lt;/p&gt;
+&lt;p&gt;不过本文要说的是.NET 还在受支持的版本出现的安全漏洞，这个安全漏洞的评分达到 9.1 分，鉴于漏洞危害程度较高，微软已经发布紧急带外更新进行修复，此漏洞影响.NET 10.0.6 及旧版本。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112782.png" rel="nofollow"&gt;&lt;img alt="微软发布紧急带外更新修复.NET组件中的权限提升漏洞 该漏洞评分达9.1分" data-src="https://img.lancdn.com/landian/2026/04/112782.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112782.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;微软在 4 月例行更新中发布.NET 10.0.6 版后，部分用户报告其基于.NET 开发的应用程序解密功能失效，随后微软开始调查，调查该问题时微软意外发现 10.0.0~10.0.6 都存在权限提升漏洞。&lt;/p&gt;
+&lt;p&gt;该漏洞编号为 CVE-2026-40372，漏洞评分为 9.1 分，攻击者可以利用漏洞伪造身份验证 Cookie 并解密某些安全载荷，从而实现权限提升，该漏洞位于 Microsoft.AspNetCore.DataProtection NuGet 包中。&lt;/p&gt;
+&lt;p&gt;微软称，在进行带身份加密的验证时，程序原本应该使用 HMAC (防篡改校验码) 来验证数据的完整性，但因为代码漏洞，系统计算 HMAC 校验码时用错字节，然后又把算出来的错误校验结果丢弃，没有正确进行比对。&lt;/p&gt;
+&lt;p&gt;所以利用漏洞就可以伪造受保护的数据 (例如 Cookie、会话令牌、重置密码链接等)，让系统误以为这些伪造内容是合法的，进而引起权限提升方面的问题。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;为修复该漏洞，微软已经发布.NET 10.0.7 版进行修复，这个版本属于开箱即用安全更新，也就是升级到新版本即可，不需要经过复杂的处理来解决漏洞。&lt;/p&gt;
+&lt;p&gt;.NET 10.0.7 版也修复解密方面的错误，微软建议所有使用.NET 10.0.0~10.0.6 版的开发者和企业都立即升级到.NET 10.0.7 版防止出现权限提升。&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;a href="https://dotnet.microsoft.com/download/dotnet/10.0" rel="noopener" target="_blank"&gt;https://dotnet.microsoft.com/download/dotnet/10.0&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 22 Apr 2026 07:28:35 +0000</pubDate></item><item><title>安装4月更新后Windows 11会显示设备是否已经应用2023安全启动证书</title><link>https://www.landiannews.com/archives/112781.html</link><description>
+&lt;p&gt;#系统资讯 安装 4 月更新后微软会在安全中心显示 Windows 11 是否已经更新 Secure Boot 2023 证书，让普通用户也可以快速查询当前证书状态。CA 2011 证书将在 6 月过期，微软当前正在紧锣密鼓的更新证书，不过证书也是分批推送的所以部分设备可能还未更新，遇到这种情况也不需要着急，等待后续更新即可。查看详情：https://ourl.co/112781&lt;/p&gt;&lt;p&gt;从 2025 年开始微软就发布多篇博客强调在 Windows 8 时代签发的安全启动证书 (用于 UEFI) 将在 2026 年 6 月到期，这个安全启动证书对 Windows 11 系统安全性而言至关重要，如果安全启动证书过期则可能影响正常安装系统更新。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.landiannews.com/archives/111810.html" rel="noopener" target="_blank"&gt;所以从 2026 年 1 月开始微软就在陆续向受支持的设备推送新的安全启动证书&lt;/a&gt;，该证书签发时间是 2023 年，所以也被称为 Secure Boot 2023 证书，这份证书到期时间是 2035 年，所以应用后短时间内就不需要再执行更新。&lt;/p&gt;
+&lt;p&gt;此前微软已经通过事件查看器日志和 PowerShell 命令让专业用户可以检查系统是否已经应用新证书，但普通用户可能不熟悉这个过程，所以现在微软将证书状态添加到安全中心里让用户可以通过设备安全选项进行查看。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112781.png" rel="nofollow"&gt;&lt;img alt="安装4月更新后Windows 11会显示设备是否已经应用2023安全启动证书" data-src="https://img.lancdn.com/landian/2026/04/112781.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112781.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;该选项位于 Windows 11 设置、隐私和安全性、安全中心、打开安全中心、设备安全性、安全启动路径下，如果用户已经安装 4 月更新则可以转到这个路径进行检查。&lt;/p&gt;
+&lt;p&gt;但需要特别说明的是现阶段新证书正在逐渐推送和更新，因此并非所有设备当前都会显示已经更新证书，如果发现没有更新也没关系，等待微软后续继续推送更新即可，用户只需要保持正常安装更新。&lt;/p&gt;
+&lt;p&gt;在 2026 年 6 月之后，证书到期也不会影响系统的正常启动，但会导致系统无法正常接收新的 UEFI 安全启动更新和引导组件签名，到时候用户可能需要通过手动方式执行更新来轮换安全启动证书。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;✅ 已安全更新：这代表设备已经成功应用 Secure Boot 2023 证书，用户无需执行任何操作&lt;/li&gt;
+&lt;li&gt;⚠️ 更新被阻止：这代表设备硬件或固件不允许微软通过 Windows 更新应用新的安全启动证书&lt;/li&gt;
+&lt;li&gt;❌ 需采取行动：这代表设备无法接收来自微软的 Windows 安全更新，可能是硬件问题&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;友情提醒：以上状态只代表当前情况，微软已经承诺会妥善处理大部分设备的安全启动证书，微软也会通过遥测数据来分析硬件情况并进行修复，所以即便看到警告也不需要担心，等待微软发布后续更新即可。&lt;/p&gt;
+&lt;p&gt;如果到 6 月之后仍然显示警告则用户可能需要手动处理问题，这代表固件或硬件本身有问题导致无法更新证书，遇到这种情况到时候用户可以联系 OEM 技术支持寻求解决方案。&lt;/p&gt;
+</description><pubDate>Wed, 22 Apr 2026 07:10:54 +0000</pubDate></item><item><title>OpenAI推出图像生成模型Images 2.0 图像细节和逻辑都有显著提升</title><link>https://www.landiannews.com/archives/112780.html</link><description>
+&lt;p&gt;#人工智能 OpenAI 发布全新的图像生成模型 Images 2.0，新模型在图片生成细节、逻辑和可用性等方面带来显著提升。对中文用户而言新模型最直接的提升就是生成中文字符时乱码情况大幅度减少，虽然还有乱码但数量已经减少许多。查看详情：https://ourl.co/112780&lt;/p&gt;&lt;p&gt;OpenAI 昨天夜里发布全新的图像生成模型 Images 2.0，新模型的进步不仅仅是清晰度更高，而是在图片生成细节、逻辑以及可用性等方面带来显著提升。&lt;/p&gt;
+&lt;p&gt;如果说过去的 AI 生成图片已经可以做到以假乱真，那现在升级版的 Images 2.0 模型则是让 AI 真正开始理解自己在画什么，而不是仅仅按照用户要求生成存在逻辑错误的图片。&lt;/p&gt;
+&lt;p&gt;例如之前的图像生成模型仔细看就能发现细节存在错误，包括文字乱码、手指奇怪和逻辑混乱，尤其是中文字符方面乱码的比较严重，Images 2.0 中文字符仍然可能存在极少的乱码，但整体密集生成中文字符已经没有太大的问题。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112780A.png" rel="nofollow"&gt;&lt;img alt="OpenAI推出图像生成模型Images 2.0 图像细节和逻辑都有显著提升" data-src="https://img.lancdn.com/landian/2026/04/112780A.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112780A.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在图像生成质量、可靠性、文本渲染、复杂理解方面有着非常显著的升级&lt;/li&gt;
+&lt;li&gt;生成的图像现在提供更高质量的光影、色彩、细节和真实感，而不是看起来就是 AI 生成的&lt;/li&gt;
+&lt;li&gt;文本渲染方面支持多语言、艺术字、排版设计，让图片文字内容看起来清晰准确&lt;/li&gt;
+&lt;li&gt;模型在复杂理解方面的能力显著提升，可以更好地理解长文本、复杂指令和细节要求&lt;/li&gt;
+&lt;li&gt;通过现有知识库和联网搜索知识，生成更贴合实际需求的图像&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Images 2.0 模型可以批量生成风格相同的多张图像 (每次最多为 8 张)，这可以显著提升漫画与分镜制作、广告与品牌视觉套图、社交媒体内容批量生成、UI/UX 原型设计等领域的内容生产效率并缩短制作时间。&lt;/p&gt;
+&lt;p&gt;换言之，AI 生成图片开始具备系列化内容生产能力，而不仅仅只是单张图片生成，同时其使用场景也从创意扩展到更多专业领域，最终将为相关行业带来革命性的变革。&lt;/p&gt;
+&lt;p&gt;目前该模型已经开始逐步向 ChatGPT 付费订阅用户提供，API 平台也已经上线 Images 2.0 模型的调用，开发者可以在自己的应用里通过 API 快速生成图像。&lt;/p&gt;
+</description><pubDate>Wed, 22 Apr 2026 06:34:17 +0000</pubDate></item><item><title>微软宣布OneDrive网页版原生支持Markdown格式 可直接查看或编辑文件</title><link>https://www.landiannews.com/archives/112779.html</link><description>
+&lt;p&gt;#软件资讯 Microsoft 365 团队宣布即日起 OneDrive 网页版为 Markdown 格式提供原生支持，用户可以直接在浏览器中查看和编辑 Markdown 文件。现在用户查看文件时将正确显示格式而不是 ### 等格式符号，微软提供表格样式、复选、代码块、链接等，代码块也支持代码高亮。查看详情：https://ourl.co/112779&lt;/p&gt;&lt;p&gt;Microsoft 365 团队日前宣布面向所有普通消费者 (即个人版和家庭版订阅用户) 的 OneDrive 网页版为 Markdown 格式提供原生支持，企业订阅用户则可以通过 Microsoft SharePoint 或 OneDrive for Business 使用类似功能。&lt;/p&gt;
+&lt;p&gt;以前微软在自己的生态系统内并未对 Markdown 提供积极支持，不过从 2025 年开始微软率先在记事本应用里带来 Markdown 格式的支持，让用户在记事本里可以使用 Markdown 格式的加粗和序号等部分功能 (但不是完整支持)。&lt;/p&gt;
+&lt;p&gt;现在 Markdown 文件正在日益成为引导 AI 智能体运行指令的基础，这类文件作为持久化的 AI 工件，记录着用户偏好、智能体执行规则以及可重复的工作流程等，考虑到 Markdown 格式的重要性以及使用率快速增长，现在微软决定在 OneDrive 中也支持 Markdown 格式。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112779.png" rel="nofollow"&gt;&lt;img alt="微软宣布OneDrive网页版原生支持Markdown格式 可直接查看或编辑文件" data-src="https://img.lancdn.com/landian/2026/04/112779.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112779.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;即日起我们正式在 Microsoft OneDrive 网页版中提供原生 Markdown 格式的支持，该功能目前已经向所有消费者推出，用户可以直接在网页版中查看或编辑 Markdown 文件。&lt;/p&gt;
+&lt;p&gt;OneDrive 可以让用户在需要精确控制、明确意图或进行更改时，通过浏览器查看和编辑这些文件，Markdown 文件也已经完成集成到 Microsoft 365 文件体验中，其行为和工作流程与其他文件例如 Word 文档完全相同。&lt;/p&gt;
+&lt;p&gt;这种全新的 Markdown 体验仅仅只是开始，我们将继续为 OneDrive 中的 Markdown 文件和人工智能带来更多创新，让用户更快地将知识转换为行动。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;查看 Markdown 文件：网页版提供现代化阅读体验，通过浏览器查看 Markdown 文件时可以正确显示表格样式、复选框、链接、代码块、标题以及序号等，而代码块功能还支持完整的代码高亮，用户所有修改都会实时生效。&lt;/p&gt;
+&lt;p&gt;编辑 Markdown 文件：网页版提供现代化编辑体验，用户打开 Markdown 文件后可以立即通过浏览器窗口编辑文件，还可以在查看、编辑、拆分模式之间切换，也可以并排编辑和预览。提供用于标题、代码块、链接、图像和列表的工具栏，因此即便是没有学习过 Markdown 语法的用户也可以轻松编辑文件。&lt;/p&gt;
+&lt;p&gt;创建 Markdown 文件：用户也可以通过网页版直接创建或上传 Markdown 文件，Microsoft 365 其他文件所获得的功能支持在 Markdown 文件中也同样支持。&lt;/p&gt;
+</description><pubDate>Wed, 22 Apr 2026 06:09:49 +0000</pubDate></item><item><title>Claude Pro订阅可能会取消Claude Code使用权 现有订阅用户不受影响</title><link>https://www.landiannews.com/archives/112778.html</link><description>
 &lt;p&gt;#人工智能 Claude Pro 订阅可能会取消 Claude Code 使用权，现有订阅用户暂时不受任何影响。A 社目前正在悄咪咪测试将 Claude Code 权益从 Claude Pro 中删除，大约有 2% 准备新开通 Pro 订阅的用户会注意到 CC 权限被删除，A 社称这是小范围测试。查看详情：https://ourl.co/112778&lt;/p&gt;&lt;p&gt;日前有网友注意到开通 Claude Pro 订阅时竟然提示不包含 Claude Code 权益，对很多开发者来说付费开通订阅主要就是使用 Claude Code，因此如果删除这项权益则开发者需要支付更高的费用订阅其他套餐。&lt;/p&gt;
 &lt;p&gt;目前 A 社主要提供每月 20 美元的 Claude Pro 订阅和每月 100 美元起步的 Claude Max 订阅，原本这些订阅都包含全部付费权益，只不过 Max 订阅可以获得更高的 Claude Code 使用配额 (5x 或 20x)。&lt;/p&gt;
 &lt;p&gt;所以如果 20 美元的订阅删除 Claude Code 权益的话，开发者就至少需要支付每月 100 美元来开通 Claude Max 订阅，假如开发者用量没有那么高，订阅 100 美元版的 Claude Max 就会浪费。&lt;/p&gt;
@@ -7,51 +66,4 @@
 &lt;p&gt;针对这个消息 A 社工程师也进行回应，简单来说现在的情况是 A 社正在悄咪咪的进行 A/B 测试，大约有 2% 的新准备开通 Claude Pro 订阅的用户将无法使用 Claude Code，其余 98% 准备新开通的用户可以正常使用 Claude Code。&lt;/p&gt;
 &lt;p&gt;而现有的 Claude Pro 和 Claude Max 订阅用户也都可以继续使用 Claude Code，相关权益完全不受影响，至于为什么如此测试，大概率是 A 社想要逼迫开发者们支付更高的费用才能使用 Claude Code。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;如何应对这种区别对待：&lt;/strong&gt;如果开发者实在要开通 Claude Pro 并使用 Claude Code，则在开通时应当仔细检查权益，如果发现不包含 Claude Code 则可以考虑换 IP + 注册新账号进行测试，以免自己的付费权益受到影响。&lt;/p&gt;
-</description><pubDate>Wed, 22 Apr 2026 05:52:16 +0000</pubDate></item><item><title>xAI计划以600亿美元收购编程开发工具Cursor 或支付100亿美元进行合作</title><link>https://www.landiannews.com/archives/112777.html</link><description>
-&lt;p&gt;#人工智能 xAI 计划以 600 亿美元收购编程开发工具 Cursor，或支付 100 亿美元进行密切合作。Cursor 与 xAI 的合作对双方而言都有优势，xAI 可以借助 Cursor 杀入 AI 编程工具市场，Cursor 则可以获得充足资金与 Claude Code 以及 OpenAI Codex 竞争。查看详情：https://ourl.co/112777&lt;/p&gt;&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112777A.png" rel="nofollow"&gt;&lt;img alt="xAI计划以600亿美元收购编程开发工具Cursor 或支付100亿美元进行合作" data-src="https://img.lancdn.com/landian/2026/04/112777A.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112777A.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;埃隆马斯克旗下的人工智能公司 xAI (现已合并到 SpaceX) 日前宣布与领先的人工智能编程开发工具 Cursor 达成合作，xAI 将与 Cursor 利用自身优势共同打造全球最佳的编程和知识工作 AI。&lt;/p&gt;
-&lt;p&gt;作为合作协议，Cursor 将授予 xAI 在 2026 年晚些时候以 600 亿美元收购 Cursor 的权利，如果最终没能达成收购目的，xAI 也会向 Cursor 支付 100 亿美元的合作费用。&lt;/p&gt;
-&lt;p&gt;xAI 的主要优势在于拥有数百万张 NVIDIA H100 GPU 芯片，可以用来大规模训练 Grok 和其他人工智能模型，而现在 xAI 的这些 GPU 使用率仅为 11% 左右，所以 xAI 需要充分利用这些 GPU。&lt;/p&gt;
-&lt;p&gt;Cursor 在人工智能编程开发领域具有优势，这款工具吸引大量开发者付费订阅使用，是 Claude Code 以及 OpenAI Codex 的有力竞争对手，因此 Cursor 与 xAI 的合作将为双方带来更强的竞争力：xAI 不需要自行开发 AI 编程工具就可以获得大量用户，Cursor 可以获得充足资金继续开发抢占市场。&lt;/p&gt;
-&lt;p&gt;至于最终 Cursor 是被 xAI 收购还是获得 100 亿美元的合作报酬暂时还不得而知，不过既然 xAI 已经要求 Cursor 提供收购权利，说明 xAI 也确实想要将整个 Cursor 收入囊中。&lt;/p&gt;
-</description><pubDate>Wed, 22 Apr 2026 05:39:19 +0000</pubDate></item><item><title>在微软新任游戏CEO吐槽价格太高后 微软下调Xbox Game Pass订阅价格</title><link>https://www.landiannews.com/archives/112776.html</link><description>
-&lt;p&gt;#游戏资讯 在微软新任 CEO 吐槽价格太高后，微软现在下调 Xbox Game Pass 订阅价格，其中 Ultimate 降价 25%、PC 版降价 15%。不过代价是使命召唤新版本不再纳入首发，而且需要延迟 1 年左右才会加入订阅，这意味着部分使命召唤忠实玩家可能还需要额外购买游戏。查看详情：https://ourl.co/112776&lt;/p&gt;&lt;p&gt;早前微软新任游戏部门首席执行官阿莎夏尔马公开表示 Xbox Game Pass 服务价格过高，所以现在微软主动调整该服务的价格，而且也是此类游戏订阅服务首次下调价格。&lt;/p&gt;
-&lt;p&gt;具体来说 Xbox Game Pass Ultimate 和 PC Game Pass 价格下调，但 Xbox Game Pass Essential 和 Xbox Game Pass Premium 价格保持不变，调价后还影响到部分游戏的首发。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2024/06/104389.png" rel="nofollow"&gt;&lt;img alt="在微软新任游戏CEO吐槽价格太高后 微软下调Xbox Game Pass订阅价格" data-src="https://img.lancdn.com/landian/2024/06/104389.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2024/06/104389.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Xbox Game Pass Essential：每月 9.99 美元，此次未调整价格&lt;/li&gt;
-&lt;li&gt;Xbox PC Game Pass：由每月 16.49 美元降价到每月 13.99 美元，降幅约 15%&lt;/li&gt;
-&lt;li&gt;Xbox Game Pass Premium：每月 14.99 美元，此次未调整价格&lt;/li&gt;
-&lt;li&gt;Xbox Game Pass Ultimate：由每月 29.99 美元降价到 22.99 美元，降幅约 25%&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;以前当使命召唤游戏发布时，微软会在发布首日就将其加入到 Xbox Game Pass Ultimate 和 PC Game Pass 订阅中，但现在这项服务已经被取消，按照微软说法后续使命召唤新版本大约要延迟 1 年才会加入订阅，所以玩家可能还需要额外单独购买使命召唤。&lt;/p&gt;
-&lt;p&gt;不过当前已经上架的使命召唤系列游戏都不会被移除，任何订阅都可以在当前订阅范围内获得现有的游戏，微软表示会继续倾听玩家反馈并进行改进。&lt;/p&gt;
-</description><pubDate>Wed, 22 Apr 2026 03:10:33 +0000</pubDate></item><item><title>勒索软件谈判专家帮助黑客索要更高赎金 甚至还亲自下场部署勒索软件来勒索赎金</title><link>https://www.landiannews.com/archives/112775.html</link><description>
-&lt;p&gt;#安全资讯 勒索软件谈判专家收取黑客贿赂帮助黑客索要更高的赎金，甚至对贿赂还不满足，直接下场参与部署勒索软件。美国事件响应公司 DigitalMint 的三名勒索软件谈判专家即将面临审判，原本谈判专家收取咨询费帮助受害企业减少赎金，但他们却帮助黑客找企业索要更高赎金，而且还成为分销商对更多企业发起勒索攻击。查看详情：https://ourl.co/112775&lt;/p&gt;&lt;p&gt;此前蓝点网曾提到过美国事件响应公司 DigitalMint 有勒索谈判专家收取黑客支付的好处费，帮助黑客勒索前来寻求帮助的受害者，日前这名谈判专家的其他两名同事也因为收受贿赂而被法庭审判，这些谈判专家甚至还参与部署勒索软件。&lt;/p&gt;
-&lt;p&gt;41 岁的安杰洛马蒂诺曾是勒索软件谈判代表，主要工作就是代表客户 (受害者) 联系黑客团伙进行赎金谈判，谈判专家的目的本应是尽可能帮助客户压低赎金价格为客户争取更大的利益，但这些被逮捕的谈判专家反其道而行之，帮助黑客向受害者索要更高的赎金。&lt;/p&gt;
-&lt;p&gt;支付赎金的黑客组织则是臭名昭著的 Alphv/BlackCat，这个黑客组织主要利用各类方式窃取企业机密数据并加密，然后要求受害企业支付高额赎金才能拿到解密密钥，部分企业因为没有数据备份而不得不寻求谈判专家帮助联系黑客以减少支付赎金。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112775.png" rel="nofollow"&gt;&lt;img alt="勒索软件谈判专家帮助黑客索要更高赎金 甚至还亲自下场部署勒索软件来勒索赎金" data-src="https://img.lancdn.com/landian/2026/04/112775.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112775.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;美国司法部公开的文件显示，马蒂诺及其两名同事至少代表五家受害企业与黑客进行谈判，这五家企业都向 DigitalMint 支付咨询费 (注：咨询费是给谈判公司的，赎金是给黑客的)。&lt;/p&gt;
-&lt;p&gt;其中：某酒店业公司被迫支付 1,648.4 万美元的赎金，某非营利组织被迫支付 2,680 万美元的赎金，某金融服务公司被迫支付 2,560 万美元的赎金，某零售公司被迫支付 610 万美元的赎金，某医疗公司被迫支付 21.3 万美元的赎金。&lt;/p&gt;
-&lt;p&gt;正常流程应该是谈判专家收取咨询费后代表受害企业与黑客谈判减少赎金，在实际过程中马蒂诺及其同谋将受害企业的内部机密信息泄露给黑客，黑客则根据这些机密信息索要不同价格的赎金。&lt;/p&gt;
-&lt;p&gt;这些机密信息主要包括受害企业的网络保险保单限额以及企业内部对支付赎金的细节，黑客拿到这些信息后其实就按照保单限额索要赎金，对受害企业而言这些赎金最终由保险公司支付。&lt;/p&gt;
-&lt;p&gt;当然有些保单限额可能不足以覆盖黑客实际索要的赎金，这种情况下黑客就靠着谈判专家拿到企业内部对支付赎金的意愿以及可能的上限，然后压着企业能够容忍的上限索要赎金。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;更让人震惊的是马蒂诺及其同伙甚至还主动找起客户，即这些人成为 BlackCat 勒索软件的下游分销商，通过向目标客户部署勒索软件收取咨询费的同时，还从勒索赎金中获得分成。&lt;/p&gt;
-&lt;p&gt;美国司法部在公开文件中称，这个小团伙在 2023 年 4 月～11 月期间，对多家企业发起攻击以部署勒索软件，实际成功实施的攻击就有五起，索要的赎金超过 1,600 万美元。&lt;/p&gt;
-&lt;p&gt;当然并非所有受害者都愿意支付赎金，美国司法部只提到其中有家医疗器械公司最终支付赎金换取密钥，这笔赎金让这个小团伙非法获利 127.4 万美元，但美国司法部未公布其他四家企业是否支付赎金。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;值得注意的是，无论是泄露客户信息帮助黑客索要更高的赎金，还是直接下场参与部署勒索软件，DigitalMint 公司都没能发现马蒂诺及其同伙的违法行为。该公司直到收到美国司法部通知才知道这件事，此时这些勒索软件谈判专家已经被执法机构逮捕，DigitalMint 收到消息后立即解雇了这些人，并表示自己对此毫不知情。从目前调查来看 DigitalMint 确实不知情以及并未参与这些非法行动，只不过作为安全领域的事件响应公司，内部出现如此大的纰漏，着实让人怀疑该公司的实际能力。&lt;/p&gt;
-&lt;p&gt;最后马蒂诺及其同伙将在 2026 年 4 月 30 日面临法院的审判，按相关法律规定，马蒂诺至少也要面临 10 年的监禁，而被查封的 1,000 万美元资产估计也都要拿出来赔偿。&lt;/p&gt;
-</description><pubDate>Wed, 22 Apr 2026 01:45:13 +0000</pubDate></item><item><title>再次血亏！Codex再次重置额度 原因是用户量从300万名增长到400万名</title><link>https://www.landiannews.com/archives/112752.html</link><description>
-&lt;p&gt;#人工智能 再次血亏！Codex 再次重置额度，也就是连续两天每天都重置额度，原因是用户量从 300 万增长到 400 万。昨天重置额度是因为 Codex 出现故障，重置额度来补偿用户，今天的重置则是用户量新增 100 万名，萨姆奥尔特曼此前已经说过，用户量每增加 100 万名就重置 1 次额度用来庆祝。查看详情：https://ourl.co/112752&lt;/p&gt;&lt;p&gt;前天夜里 Codex 出现故障影响部分开发者的正常使用，按照惯例每次出现问题后 Codex 团队都会通过重置当周额度作为补偿，&lt;a href="https://www.landiannews.com/archives/112742.html" rel="noopener" target="_blank"&gt;所以昨天 Codex 团队已经将所有付费订阅用户的当周额度重置&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;蓝点网的账号由于刚刚经历自然周重置所以用量低于 5%，在这种情况下赶上重置其实是血亏的，还不如平时放开手脚使劲用，但平时使劲用又担心当周额度用完后还需要等待重置。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112752.png" rel="nofollow"&gt;&lt;img alt="再次血亏！Codex再次重置额度 原因是用户量从300万名增长到400万名" data-src="https://img.lancdn.com/landian/2026/04/112752.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112752.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;让人更加心寒的是在这个时候 Codex 用户量竟然从 300 万增长到 400 万，此前萨姆奥尔特曼已经承诺，&lt;a href="https://www.landiannews.com/archives/112540.html" rel="noopener" target="_blank"&gt;用户量每增加 100 万名就会重置 1 次额度作为庆祝&lt;/a&gt;，直到 Codex 用户量达到 1,000 万名。&lt;/p&gt;
-&lt;p&gt;所以现在 Codex 再次重置额度，也就是连续两天每天都重置额度，蓝点网刚刚看了下在被重置前我们的账号使用量仅为 9%，所以再次完美错过这次重置，没能成功薅到 OpenAI 的羊毛。&lt;/p&gt;
-&lt;p&gt;现在 Codex 用户增长速度确实非常惊人，在短短两周内就快速增加 100 万名用户，Codex 主要面向开发者，这与 ChatGPT 不同，不过这样的增长速度也同样非常让人震惊。&lt;/p&gt;
-&lt;p&gt;目前在人工智能编程开发领域，市场占有率最高的仍然是 Claude Code，不过 OpenAI Codex 也在奋起直追，市场竞争让 Claude Code 和 Codex 都在快速迭代增加更多新功能，当然 Codex 经常重置额度也是提升竞争力的一种方式。&lt;/p&gt;
-</description><pubDate>Wed, 22 Apr 2026 00:45:12 +0000</pubDate></item></channel></rss>
+</description><pubDate>Wed, 22 Apr 2026 05:52:16 +0000</pubDate></item></channel></rss>
