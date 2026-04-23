@@ -1,5 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 22 Apr 2026 07:28:35 +0000</lastBuildDate><item><title>微软发布紧急带外更新修复.NET组件中的权限提升漏洞 该漏洞评分达9.1分</title><link>https://www.landiannews.com/archives/112782.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 23 Apr 2026 04:59:18 +0000</lastBuildDate><item><title>Checkmarx KICS遭到攻击 黑客部署蠕虫式后门窃取敏感信息再继续传播</title><link>https://www.landiannews.com/archives/112786.html</link><description>
+&lt;p&gt;#安全资讯 安全工具 Checkmarx 和 KICS 遭到黑客攻击，黑客推送恶意版本用来窃取各类敏感凭证，然后发起类似蠕虫式的感染。最近几天安装 Checkmarx 扩展以及拉取 KICS Docker 镜像的开发者应当立即轮换所有凭证并检查各类登录或连接记录，很可能开发环境和云资源的凭证都已经泄露。查看详情：https://ourl.co/112786&lt;/p&gt;&lt;p&gt;基础设施即代码 (IaC) 安全扫描工具 KICS 日前遭到黑客攻击，黑客篡改 KICS 官方容器镜像添加后门程序并用于收集用户的敏感信息例如各类凭证，然后再利用这些凭证继续展开攻击实现蠕虫式的横向感染，这起攻击幕后黑手可能也是 TeamPCP。&lt;/p&gt;
+&lt;p&gt;最初发现异常的还是 Docker 公司，该公司内部监控设施发现 KICS 镜像出现可疑活动后立即向安全公司 Socket 发出警报，经过分析后安全公司确认 KICS 所有版本的镜像都被替换为恶意镜像，包括最新发布的 v2.1.20alpine 和 v2.1.21 (此版本纯粹为黑客发布)。&lt;/p&gt;
+&lt;p&gt;值得注意的是 Checkmarx 开发工具也同样受到影响，该工具最近发布的 VSCode 扩展程序也携带后门，黑客通过添加的恶意代码收集开发环境中的敏感数据，建议使用以上工具的开发者立即轮换所有密钥确保安全。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112786.png" rel="nofollow"&gt;&lt;img alt="Checkmarx KICS遭到攻击 黑客部署蠕虫式后门窃取敏感信息再继续传播" data-src="https://img.lancdn.com/landian/2026/04/112786.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112786.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;对恶意镜像的分析表明，黑客添加的恶意代码最主要的目的就是窃取开发者账户和凭证以及各类云平台 (例如 AWS) 的凭证，窃取的凭证会被压缩和加密然后回传到黑客的服务器。&lt;/p&gt;
+&lt;p&gt;黑客还会利用窃取的 GitHub 凭证注入新的 Actions 工作流，这个工作流会捕获正常工作流中的可用密钥；恶意代码窃取的 npm 凭证则会用于识别可用的软件包，以便黑客可以利用凭证继续替换恶意 npm 包实现更大范围的感染。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;目前没有更加明显的证据来识别背后的攻击者，不过专注于供应链攻击的黑客团队 TeamPCP 转发关于该事件的报道，这似乎在暗示这次攻击也是 TeamPCP 所为。TeamPCP 在转发报道时还嘲讽道：感谢开源软件分发，这让 PCP 公司又度过非常成功的一天。&lt;/p&gt;
+&lt;p&gt;Docker 团队在识别到异常后已经清除相关恶意镜像，Socket 则建议已经安装或拉取受影响的 Checkmarx 或 KICS 组件的开发者应当认为所有凭证已经泄露，因此需要将所有可能泄露的凭证全部轮换掉提升安全性。&lt;/p&gt;
+&lt;p&gt;但考虑到这种蠕虫式的攻击，如果在轮换凭证前黑客已经感染其他设施，则单纯的轮换密钥可能无法解决问题，所以开发者还需要进行更详细的检查例如排查凭证连接记录看看是否存在非开发者自己的操作。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://socket.dev/blog/checkmarx-supply-chain-compromise" rel="noopener" target="_blank"&gt;Socket&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Thu, 23 Apr 2026 04:59:18 +0000</pubDate></item><item><title>铠侠发布基于QLC颗粒的EG7系列固态盘 铠侠称其性能可以与TLC固态盘媲美</title><link>https://www.landiannews.com/archives/112785.html</link><description>
+&lt;p&gt;#硬件设备 铠侠面向消费级市场推出 EG7 系列 PCIe 4.0 固态硬盘，采用 QLC 闪存颗粒，铠侠称其性能可以与 TLC 固态硬盘媲美，但 EG7 系列没有配备缓存。这款固态硬盘主要面向 OEM 提供，也就是用来构建笔记本电脑和台式机，从 5 月开始预计搭载 EG7 固态硬盘的设备就会陆续上市。查看详情：https://ourl.co/112785&lt;/p&gt;&lt;p&gt;存储器制造商铠侠 (Kioxia) 日前推出 EG7 系列固态硬盘，该系列固态硬盘全部采用 QLC 闪存颗粒，不过铠侠称这款固态硬盘在性能方面完全可以与 TLC 固态硬盘媲美，例如顺序读取速度可以达到 7,000MB / 秒。&lt;/p&gt;
+&lt;p&gt;不过这款固态硬盘竟然没有配备缓存，这可能是用于节省成本，因为 EG7 固态硬盘本身主要面向消费级市场，铠侠已经向多家 OEM 供货，用于构建轻薄型笔记本电脑和台式机等产品。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112785.png" rel="nofollow"&gt;&lt;img alt="铠侠发布基于QLC颗粒的EG7系列固态盘 铠侠称其性能可以与TLC固态盘媲美" data-src="https://img.lancdn.com/landian/2026/04/112785.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112785.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;性能方面 EG7 固态硬盘提供每秒 7,000MB 的顺序读取速度、每秒 6,200MB 的顺序写入速度，随机读写性能最高可达 1,000K IOPS，容量方面提供 512GB、1TB 和 2TB 版，外形尺寸上提供 M.2 2230、2242 和 2280，因此能够兼容各类传统笔记本电脑、台式机、迷你机甚至是游戏掌机等。&lt;/p&gt;
+&lt;p&gt;而搭载这些固态硬盘的笔记本电脑或台式机很快就会上市，如果用户比较担心 QLC 闪存颗粒寿命的话，可以在选购相关产品时提前查询固态硬盘参数或型号，以免购买的机型搭载的就是 EG7 系列固态硬盘。&lt;/p&gt;
+&lt;p&gt;但其实现在对消费者而言也已经没有更好的选择，因为固态硬盘价格也在逐渐上涨中，如果用户非得购买 TLC 固态硬盘那需要支付更高的价格，所以说到底还是预算问题，如果预算足够高自然可以继续使用 TLC 固态硬盘。&lt;/p&gt;
+&lt;p&gt;铠侠也强调，随着大型科技公司和超大规模数据中心持续采购存储产品，这也会导致固态硬盘价格逐渐上涨，因此未来消费者可能很难购买到低于 50 美元的 1TB 固态硬盘，大容量高性能固态硬盘的售价可能还会更高。因此用户必须在性能、效率和成本等多方面考虑并取得平衡，而且这也意味着未来消费者可能需要花更多的钱购买容量更小的固态硬盘。&lt;/p&gt;
+</description><pubDate>Thu, 23 Apr 2026 03:29:57 +0000</pubDate></item><item><title>Claude Mythos遭到未经授权的访问 有人猜测模型端点并配合特殊权限实现访问</title><link>https://www.landiannews.com/archives/112784.html</link><description>
+&lt;p&gt;#人工智能 A 社 Claude Mythos 模型遭到未经授权访问，此前 A 社称该模型过于强大不适合公开发布。在 Discord 群组中有人通过模型命名规则成功猜测模型端点地址，然后配合 A 社外包公司的特殊访问凭证可以不经过 A 社的授权直接访问 Claude Mythos 模型，不过社区成员强调未利用权限进行恶意利用。查看详情：https://ourl.co/112784&lt;/p&gt;&lt;p&gt;A 社此前面向部分科技企业和机构推出 Claude Mythos 模型访问权限，该模型在编程开发领域具有极强的能力，因此现阶段主要是被用于发掘各类产品的安全漏洞。&lt;/p&gt;
+&lt;p&gt;因为担心模型被恶意利用导致出现安全事件，所以 A 社并未公开发布此模型，这种仅限受邀客户参与的方式可以确保大型科技公司能够保护全球科技行业依赖的关键软件。&lt;/p&gt;
+&lt;p&gt;不过彭博社日前发布报道称，被 A 社引以为傲的 Claude Mythos 模型已经遭到未经授权的访问，在 Discord 群组中有人通过猜测模型命名规则和 URL 并配合相关凭证实现访问，这名用户所在的组织本身没有访问 Claude Mythos 模型的权限。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112784.png" rel="nofollow"&gt;&lt;img alt="Claude Mythos遭到未经授权的访问 有人猜测模型端点并配合特殊权限实现访问" data-src="https://img.lancdn.com/landian/2026/04/112784.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112784.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在 Discord 社交软件上有个群组专注于讨论和发掘 AI 公司尚未公开发布的模型，就本次事件而言，有群组成员根据 A 社模型命名规则猜测 Claude Mythos 模型的在线端点。&lt;/p&gt;
+&lt;p&gt;但拿到在线端点也会因为没有权限而无法使用 Claude Mythos 模型，但群组中成员非常多 --- 里面有一位成员此前在 A 社的第三方外包商工作而有特殊访问权限，这名成员持有的凭证可以访问 Claude Mythos 模型。&lt;/p&gt;
+&lt;p&gt;因此配合在线端点后使得这个 Discord 群组成员能够在未经 A 社授权的情况下直接使用模型，这件事可能不算是安全事件，而是 A 社外包公司存在内部管理问题，例如已经离职的员工相关凭证竟然没有被删除。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这个 Discord 群组成员表示，获得 Claude Mythos 访问权限后只是用来构建简单的网站和进行测试，并没有因为获得权限就进行恶意利用，例如使用模型发掘某些关键软件的安全漏洞并加以利用。&lt;/p&gt;
+&lt;p&gt;不过这种说法是否为真无人知晓，但从 A 社此前的宣传来看，Claude Mythos 模型遭到未经授权的访问可能会引起巨大安全问题，所以彭博社也将这事儿报告给 A 社，A 社已经知晓此事并进行调查。&lt;/p&gt;
+&lt;p&gt;值得注意的是这个 Discord 群组成员称他们其实还掌握着更多 A 社尚未公布发布的模型使用权限，这些模型多数都在内部测试中，并未公开发布。&lt;/p&gt;
+</description><pubDate>Thu, 23 Apr 2026 03:06:46 +0000</pubDate></item><item><title>有人疑似拿热源加热巴黎的气象温度传感器 从Polymarket预测市场获利3.4万美元</title><link>https://www.landiannews.com/archives/112783.html</link><description>
+&lt;p&gt;#加密货币 戴高乐机场的温度传感器出现异常，疑似是有人拿热源提高温度，从而从 Polymarket 加密预测市场获利。Polymarket 允许投注者预测天气，这种情况导致全球各地陆续出现异常天气监测事件，例如部分地区的气象部门员工收受贿赂后人为篡改数据，从而确保投注者能成功获利。查看详情：https://ourl.co/112783&lt;/p&gt;&lt;p&gt;基于加密货币的预测市场 Polymarket 允许用户提出预测交易并根据最终预测结果分配投注金额，而天气预测已经成为 Polymarket 市场最常见的预测事件，因为天气事件源源不断且理论上难以操纵。&lt;/p&gt;
+&lt;p&gt;例如有人可以提出预测事件：戴高乐机场在 4 月 25 日 23:00 的温度并吸引人跟投，到时候法国公布官方气象信息后，Polymarket 就会根据该信息来判断哪些用户预测正确可以获得预测利润。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112783.png" rel="nofollow"&gt;&lt;img alt="有人疑似拿热源加热巴黎的气象温度传感器 从Polymarket预测市场获利3.4万美元" data-src="https://img.lancdn.com/landian/2026/04/112783.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112783.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;2026 年 4 月 6 日和 15 日，法国气象局在巴黎戴高乐机场监测到两次温度传感器异常，戴高乐机场的温度传感器是用来监测巴黎气温的监测站之一，这些监测站数据最终会被汇总生成巴黎气温。&lt;/p&gt;
+&lt;p&gt;第一次异常是在 4 月 6 日 18:30，当时戴高乐机场的传感器记录到的数据显示，在短短 12 分钟内温度上升 4 摄氏度，一度短暂达到 22.5 摄氏度，随后恢复正常。&lt;/p&gt;
+&lt;p&gt;第二次异常是在 4 月 15 日 21:30，当时在晴朗多云的天空下，传感器记录到的温度短时间内攀升到 22 摄氏度，随后又是在几分钟内恢复正常。&lt;/p&gt;
+&lt;p&gt;发生这些异常时，戴高乐机场周边的其他监测站数据完全正常，风速和相对湿度也没有发生异常变化，因此行业专家认为最有可能的异常原因就是有人在传感器附近放置了加热装置。&lt;/p&gt;
+&lt;p&gt;在社交媒体上不少网友猜测引起异常温度变化的原因是有人用吹风机或打火机，当然这种也只是戏称，毕竟这个监测站位于公共道路尽头，用任何热源装置都可以让传感器快速升温。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; Polymarket 支付 3.4 万美元预测成功投注金额：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;事后调查显示，戴高乐机场两次温度传感器发生异常时，Polymarket 预测市场都出现成功预测事件，为此 Polymarket 向成功预测者支付 3.4 万美元的投注金额。&lt;/p&gt;
+&lt;p&gt;第一次是在 4 月 6 日，有人预测巴黎气温将达到 21 摄氏度，这次预测最接近实际气温，因此获得 1.4 万美元奖励，这个账户在投注前刚刚创建，而不是老账户。&lt;/p&gt;
+&lt;p&gt;第二次是在 4 月 15 日，另一名不同账户的投注者预测巴黎气温将达到 22 摄氏度而获得 2 万美元的奖励，目前针对这些异常已经有用户向 Polymarket 投诉，指出存在操纵和内幕交易。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;值得注意的是目前全球各地尤其是知名城市或地点的温度数据异常事件较以前有所增多，这些异常事件大概率都是因为 Polymarket 预测市场，即有人投注、有人买通内鬼、进而操纵或修改气象数据来获利。&lt;/p&gt;
+&lt;p&gt;社交媒体上流传的消息称，部分地区的气象部门存在内鬼用于帮助预测者修改数据，而且都是在预测结束前几分钟人为篡改天气结果，确保投注者能够压中和获利。&lt;/p&gt;
+&lt;p&gt;这种做法实际上还难以追查，因为短时间内出现的小幅度天气数据波动通常不会被认为是大问题，当前这种人为篡改数据的数量毕竟还比较少，也不会对整体数据产生太大影响。&lt;/p&gt;
+&lt;p&gt;不过如果 Polymarket 不禁止预测天气的话，估计未来这种天气异常事件可能会显著增多，长期篡改结果后还可能导致整体天气数据出现偏差，这可能会造成难以预料的潜在影响。&lt;/p&gt;
+</description><pubDate>Thu, 23 Apr 2026 02:46:26 +0000</pubDate></item><item><title>微软发布紧急带外更新修复.NET组件中的权限提升漏洞 该漏洞评分达9.1分</title><link>https://www.landiannews.com/archives/112782.html</link><description>
 &lt;p&gt;#安全资讯 微软发布.NET 10.0.7 版紧急安全更新修复权限提升漏洞 (但不是用于本地提权)，攻击者利用漏洞可以伪造 Cookie 或会话重置令牌等进行权限提升。例如非管理员伪造令牌冒充自己是管理员来通过服务器验证，从而实现权限提升并接管服务器或后台管理系统。查看详情：https://ourl.co/112782&lt;/p&gt;&lt;p&gt;微软开发的.NET 是很多应用程序运行的底层组件，微软同时支持多个.NET 版本，不过微软也建议开发者和 IT 管理员不要运行那些已经停止支持的版本，因为旧版本可能会因为安全漏洞给客户造成安全风险。&lt;/p&gt;
 &lt;p&gt;不过本文要说的是.NET 还在受支持的版本出现的安全漏洞，这个安全漏洞的评分达到 9.1 分，鉴于漏洞危害程度较高，微软已经发布紧急带外更新进行修复，此漏洞影响.NET 10.0.6 及旧版本。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112782.png" rel="nofollow"&gt;&lt;img alt="微软发布紧急带外更新修复.NET组件中的权限提升漏洞 该漏洞评分达9.1分" data-src="https://img.lancdn.com/landian/2026/04/112782.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112782.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -12,58 +65,4 @@
 &lt;p&gt;为修复该漏洞，微软已经发布.NET 10.0.7 版进行修复，这个版本属于开箱即用安全更新，也就是升级到新版本即可，不需要经过复杂的处理来解决漏洞。&lt;/p&gt;
 &lt;p&gt;.NET 10.0.7 版也修复解密方面的错误，微软建议所有使用.NET 10.0.0~10.0.6 版的开发者和企业都立即升级到.NET 10.0.7 版防止出现权限提升。&lt;/p&gt;
 &lt;p&gt;下载地址：&lt;a href="https://dotnet.microsoft.com/download/dotnet/10.0" rel="noopener" target="_blank"&gt;https://dotnet.microsoft.com/download/dotnet/10.0&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 22 Apr 2026 07:28:35 +0000</pubDate></item><item><title>安装4月更新后Windows 11会显示设备是否已经应用2023安全启动证书</title><link>https://www.landiannews.com/archives/112781.html</link><description>
-&lt;p&gt;#系统资讯 安装 4 月更新后微软会在安全中心显示 Windows 11 是否已经更新 Secure Boot 2023 证书，让普通用户也可以快速查询当前证书状态。CA 2011 证书将在 6 月过期，微软当前正在紧锣密鼓的更新证书，不过证书也是分批推送的所以部分设备可能还未更新，遇到这种情况也不需要着急，等待后续更新即可。查看详情：https://ourl.co/112781&lt;/p&gt;&lt;p&gt;从 2025 年开始微软就发布多篇博客强调在 Windows 8 时代签发的安全启动证书 (用于 UEFI) 将在 2026 年 6 月到期，这个安全启动证书对 Windows 11 系统安全性而言至关重要，如果安全启动证书过期则可能影响正常安装系统更新。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.landiannews.com/archives/111810.html" rel="noopener" target="_blank"&gt;所以从 2026 年 1 月开始微软就在陆续向受支持的设备推送新的安全启动证书&lt;/a&gt;，该证书签发时间是 2023 年，所以也被称为 Secure Boot 2023 证书，这份证书到期时间是 2035 年，所以应用后短时间内就不需要再执行更新。&lt;/p&gt;
-&lt;p&gt;此前微软已经通过事件查看器日志和 PowerShell 命令让专业用户可以检查系统是否已经应用新证书，但普通用户可能不熟悉这个过程，所以现在微软将证书状态添加到安全中心里让用户可以通过设备安全选项进行查看。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112781.png" rel="nofollow"&gt;&lt;img alt="安装4月更新后Windows 11会显示设备是否已经应用2023安全启动证书" data-src="https://img.lancdn.com/landian/2026/04/112781.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112781.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;该选项位于 Windows 11 设置、隐私和安全性、安全中心、打开安全中心、设备安全性、安全启动路径下，如果用户已经安装 4 月更新则可以转到这个路径进行检查。&lt;/p&gt;
-&lt;p&gt;但需要特别说明的是现阶段新证书正在逐渐推送和更新，因此并非所有设备当前都会显示已经更新证书，如果发现没有更新也没关系，等待微软后续继续推送更新即可，用户只需要保持正常安装更新。&lt;/p&gt;
-&lt;p&gt;在 2026 年 6 月之后，证书到期也不会影响系统的正常启动，但会导致系统无法正常接收新的 UEFI 安全启动更新和引导组件签名，到时候用户可能需要通过手动方式执行更新来轮换安全启动证书。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;✅ 已安全更新：这代表设备已经成功应用 Secure Boot 2023 证书，用户无需执行任何操作&lt;/li&gt;
-&lt;li&gt;⚠️ 更新被阻止：这代表设备硬件或固件不允许微软通过 Windows 更新应用新的安全启动证书&lt;/li&gt;
-&lt;li&gt;❌ 需采取行动：这代表设备无法接收来自微软的 Windows 安全更新，可能是硬件问题&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;友情提醒：以上状态只代表当前情况，微软已经承诺会妥善处理大部分设备的安全启动证书，微软也会通过遥测数据来分析硬件情况并进行修复，所以即便看到警告也不需要担心，等待微软发布后续更新即可。&lt;/p&gt;
-&lt;p&gt;如果到 6 月之后仍然显示警告则用户可能需要手动处理问题，这代表固件或硬件本身有问题导致无法更新证书，遇到这种情况到时候用户可以联系 OEM 技术支持寻求解决方案。&lt;/p&gt;
-</description><pubDate>Wed, 22 Apr 2026 07:10:54 +0000</pubDate></item><item><title>OpenAI推出图像生成模型Images 2.0 图像细节和逻辑都有显著提升</title><link>https://www.landiannews.com/archives/112780.html</link><description>
-&lt;p&gt;#人工智能 OpenAI 发布全新的图像生成模型 Images 2.0，新模型在图片生成细节、逻辑和可用性等方面带来显著提升。对中文用户而言新模型最直接的提升就是生成中文字符时乱码情况大幅度减少，虽然还有乱码但数量已经减少许多。查看详情：https://ourl.co/112780&lt;/p&gt;&lt;p&gt;OpenAI 昨天夜里发布全新的图像生成模型 Images 2.0，新模型的进步不仅仅是清晰度更高，而是在图片生成细节、逻辑以及可用性等方面带来显著提升。&lt;/p&gt;
-&lt;p&gt;如果说过去的 AI 生成图片已经可以做到以假乱真，那现在升级版的 Images 2.0 模型则是让 AI 真正开始理解自己在画什么，而不是仅仅按照用户要求生成存在逻辑错误的图片。&lt;/p&gt;
-&lt;p&gt;例如之前的图像生成模型仔细看就能发现细节存在错误，包括文字乱码、手指奇怪和逻辑混乱，尤其是中文字符方面乱码的比较严重，Images 2.0 中文字符仍然可能存在极少的乱码，但整体密集生成中文字符已经没有太大的问题。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112780A.png" rel="nofollow"&gt;&lt;img alt="OpenAI推出图像生成模型Images 2.0 图像细节和逻辑都有显著提升" data-src="https://img.lancdn.com/landian/2026/04/112780A.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112780A.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;在图像生成质量、可靠性、文本渲染、复杂理解方面有着非常显著的升级&lt;/li&gt;
-&lt;li&gt;生成的图像现在提供更高质量的光影、色彩、细节和真实感，而不是看起来就是 AI 生成的&lt;/li&gt;
-&lt;li&gt;文本渲染方面支持多语言、艺术字、排版设计，让图片文字内容看起来清晰准确&lt;/li&gt;
-&lt;li&gt;模型在复杂理解方面的能力显著提升，可以更好地理解长文本、复杂指令和细节要求&lt;/li&gt;
-&lt;li&gt;通过现有知识库和联网搜索知识，生成更贴合实际需求的图像&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Images 2.0 模型可以批量生成风格相同的多张图像 (每次最多为 8 张)，这可以显著提升漫画与分镜制作、广告与品牌视觉套图、社交媒体内容批量生成、UI/UX 原型设计等领域的内容生产效率并缩短制作时间。&lt;/p&gt;
-&lt;p&gt;换言之，AI 生成图片开始具备系列化内容生产能力，而不仅仅只是单张图片生成，同时其使用场景也从创意扩展到更多专业领域，最终将为相关行业带来革命性的变革。&lt;/p&gt;
-&lt;p&gt;目前该模型已经开始逐步向 ChatGPT 付费订阅用户提供，API 平台也已经上线 Images 2.0 模型的调用，开发者可以在自己的应用里通过 API 快速生成图像。&lt;/p&gt;
-</description><pubDate>Wed, 22 Apr 2026 06:34:17 +0000</pubDate></item><item><title>微软宣布OneDrive网页版原生支持Markdown格式 可直接查看或编辑文件</title><link>https://www.landiannews.com/archives/112779.html</link><description>
-&lt;p&gt;#软件资讯 Microsoft 365 团队宣布即日起 OneDrive 网页版为 Markdown 格式提供原生支持，用户可以直接在浏览器中查看和编辑 Markdown 文件。现在用户查看文件时将正确显示格式而不是 ### 等格式符号，微软提供表格样式、复选、代码块、链接等，代码块也支持代码高亮。查看详情：https://ourl.co/112779&lt;/p&gt;&lt;p&gt;Microsoft 365 团队日前宣布面向所有普通消费者 (即个人版和家庭版订阅用户) 的 OneDrive 网页版为 Markdown 格式提供原生支持，企业订阅用户则可以通过 Microsoft SharePoint 或 OneDrive for Business 使用类似功能。&lt;/p&gt;
-&lt;p&gt;以前微软在自己的生态系统内并未对 Markdown 提供积极支持，不过从 2025 年开始微软率先在记事本应用里带来 Markdown 格式的支持，让用户在记事本里可以使用 Markdown 格式的加粗和序号等部分功能 (但不是完整支持)。&lt;/p&gt;
-&lt;p&gt;现在 Markdown 文件正在日益成为引导 AI 智能体运行指令的基础，这类文件作为持久化的 AI 工件，记录着用户偏好、智能体执行规则以及可重复的工作流程等，考虑到 Markdown 格式的重要性以及使用率快速增长，现在微软决定在 OneDrive 中也支持 Markdown 格式。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112779.png" rel="nofollow"&gt;&lt;img alt="微软宣布OneDrive网页版原生支持Markdown格式 可直接查看或编辑文件" data-src="https://img.lancdn.com/landian/2026/04/112779.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112779.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;即日起我们正式在 Microsoft OneDrive 网页版中提供原生 Markdown 格式的支持，该功能目前已经向所有消费者推出，用户可以直接在网页版中查看或编辑 Markdown 文件。&lt;/p&gt;
-&lt;p&gt;OneDrive 可以让用户在需要精确控制、明确意图或进行更改时，通过浏览器查看和编辑这些文件，Markdown 文件也已经完成集成到 Microsoft 365 文件体验中，其行为和工作流程与其他文件例如 Word 文档完全相同。&lt;/p&gt;
-&lt;p&gt;这种全新的 Markdown 体验仅仅只是开始，我们将继续为 OneDrive 中的 Markdown 文件和人工智能带来更多创新，让用户更快地将知识转换为行动。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;查看 Markdown 文件：网页版提供现代化阅读体验，通过浏览器查看 Markdown 文件时可以正确显示表格样式、复选框、链接、代码块、标题以及序号等，而代码块功能还支持完整的代码高亮，用户所有修改都会实时生效。&lt;/p&gt;
-&lt;p&gt;编辑 Markdown 文件：网页版提供现代化编辑体验，用户打开 Markdown 文件后可以立即通过浏览器窗口编辑文件，还可以在查看、编辑、拆分模式之间切换，也可以并排编辑和预览。提供用于标题、代码块、链接、图像和列表的工具栏，因此即便是没有学习过 Markdown 语法的用户也可以轻松编辑文件。&lt;/p&gt;
-&lt;p&gt;创建 Markdown 文件：用户也可以通过网页版直接创建或上传 Markdown 文件，Microsoft 365 其他文件所获得的功能支持在 Markdown 文件中也同样支持。&lt;/p&gt;
-</description><pubDate>Wed, 22 Apr 2026 06:09:49 +0000</pubDate></item><item><title>Claude Pro订阅可能会取消Claude Code使用权 现有订阅用户不受影响</title><link>https://www.landiannews.com/archives/112778.html</link><description>
-&lt;p&gt;#人工智能 Claude Pro 订阅可能会取消 Claude Code 使用权，现有订阅用户暂时不受任何影响。A 社目前正在悄咪咪测试将 Claude Code 权益从 Claude Pro 中删除，大约有 2% 准备新开通 Pro 订阅的用户会注意到 CC 权限被删除，A 社称这是小范围测试。查看详情：https://ourl.co/112778&lt;/p&gt;&lt;p&gt;日前有网友注意到开通 Claude Pro 订阅时竟然提示不包含 Claude Code 权益，对很多开发者来说付费开通订阅主要就是使用 Claude Code，因此如果删除这项权益则开发者需要支付更高的费用订阅其他套餐。&lt;/p&gt;
-&lt;p&gt;目前 A 社主要提供每月 20 美元的 Claude Pro 订阅和每月 100 美元起步的 Claude Max 订阅，原本这些订阅都包含全部付费权益，只不过 Max 订阅可以获得更高的 Claude Code 使用配额 (5x 或 20x)。&lt;/p&gt;
-&lt;p&gt;所以如果 20 美元的订阅删除 Claude Code 权益的话，开发者就至少需要支付每月 100 美元来开通 Claude Max 订阅，假如开发者用量没有那么高，订阅 100 美元版的 Claude Max 就会浪费。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112778.png" rel="nofollow"&gt;&lt;img alt="Claude Pro订阅可能会取消Claude Code使用权 现有订阅用户不受影响" data-src="https://img.lancdn.com/landian/2026/04/112778.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112778.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;针对这个消息 A 社工程师也进行回应，简单来说现在的情况是 A 社正在悄咪咪的进行 A/B 测试，大约有 2% 的新准备开通 Claude Pro 订阅的用户将无法使用 Claude Code，其余 98% 准备新开通的用户可以正常使用 Claude Code。&lt;/p&gt;
-&lt;p&gt;而现有的 Claude Pro 和 Claude Max 订阅用户也都可以继续使用 Claude Code，相关权益完全不受影响，至于为什么如此测试，大概率是 A 社想要逼迫开发者们支付更高的费用才能使用 Claude Code。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;如何应对这种区别对待：&lt;/strong&gt;如果开发者实在要开通 Claude Pro 并使用 Claude Code，则在开通时应当仔细检查权益，如果发现不包含 Claude Code 则可以考虑换 IP + 注册新账号进行测试，以免自己的付费权益受到影响。&lt;/p&gt;
-</description><pubDate>Wed, 22 Apr 2026 05:52:16 +0000</pubDate></item></channel></rss>
+</description><pubDate>Wed, 22 Apr 2026 07:28:35 +0000</pubDate></item></channel></rss>
