@@ -1,346 +1,420 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>V2EX-最热主题</title><link>https://www.v2ex.com/</link><description>V2EX-最热主题 - Powered by RSSHub</description><language>zh-CN</language><lastBuildDate>Thu, 23 Apr 2026 07:51:56 +0000</lastBuildDate><item><title>五年过去了，结论有什么变化吗？</title><link>https://www.v2ex.com/t/1208040</link><description>&lt;p&gt;&lt;a href="https://v2ex.com/t/729909?p=1#reply79" rel="nofollow"&gt;https://v2ex.com/t/729909?p=1#reply79&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>V2EX-最热主题</title><link>https://www.v2ex.com/</link><description>V2EX-最热主题 - Powered by RSSHub</description><language>zh-CN</language><lastBuildDate>Fri, 24 Apr 2026 03:45:41 +0000</lastBuildDate><item><title>只能说 DeepSeek V4 Pro 继续努力吧，天气卡片效果一般</title><link>https://www.v2ex.com/t/1208250</link><description>&lt;p&gt;简单试了下天气卡片，中文英文都试了，太简陋了：
+&lt;img alt="图片.png" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://s3.bmp.ovh/2026/04/24/useViXUw.png"/&gt;&lt;/p&gt;
+&lt;p&gt;中文：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;创建一个包含 CSS 和 JavaScript 的单一 HTML 文件，用于生成动画天气卡片。卡片应该通过不同的动画直观地表示以下天气状况：
+
+风：（例如，移动的云朵、摇摆的树木或风线）
+
+雨：（例如，下落的雨滴、形成的水坑）
+
+阳光：（例如，闪耀的光线、明亮的背景）
+
+雪：（例如，下落的雪花、积累的雪）
+
+所有天气卡片应并排显示，卡片应该有深色背景。
+
+在这个单一文件中提供所有 HTML 、CSS 和 JavaScript 代码。JavaScript 应该包含一种切换不同天气状况的方式（例如，一个函数或一组按钮）以展示每种天气的动画效果。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;英文：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Create a single HTML file containing CSS and JavaScript to generate an animated weather card. The card should visually represent the following weather conditions with distinct animations: Wind: (e.g., moving clouds, swaying trees, or wind lines) Rain: (e.g., falling raindrops, puddles forming) Sun: (e.g., shining rays, bright background) Snow: (e.g., falling snowflakes, snow accumulating) Show all the weather card side by side The card should have a dark background. Provide all the HTML, CSS, and JavaScript code within this single file. The JavaScript should include a way to switch between the different weather conditions (e.g., a function or a set of buttons) to demonstrate the animations for each.
+&lt;/code&gt;&lt;/pre&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;#1 harrisonkang&lt;/strong&gt;：五年前：还没毕业，不认识，只知道 MySQL 、Oracle 、SQL Server 。&lt;br/&gt;五年中：工作了，认识了，并在工作中大量使用。&lt;br/&gt;五年后：不干开发了。&lt;br/&gt;&lt;br/&gt;五年好快&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#2 raptor&lt;/strong&gt;：变化就是 Mysql 快凉了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#3 wangtian2020&lt;/strong&gt;：能用 sqlite 就用 sqlite ，不能用就 pgsql ，其他数据库一律不看&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#4 tsky&lt;/strong&gt;：五年 真的 好快&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#5 yifeng33&lt;/strong&gt;：本地自测 sqlite&lt;br/&gt;生产环境 psql&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#6 songco&lt;/strong&gt;：之前负责的一个产品，支持 MySQL ，sqlsrver ，Oracle ，pg&lt;br/&gt;&lt;br/&gt;每个版本要测试所有支持的数据库&lt;br/&gt;&lt;br/&gt;从客户反馈看，Oracle 收了 MySQL 之后，用 PG&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#7 songco&lt;/strong&gt;：@&lt;a href="/member/songco"&gt;songco&lt;/a&gt; 用 PG 的多了起来&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#8 leisure&lt;/strong&gt;：@&lt;a href="/member/wangtian2020"&gt;wangtian2020&lt;/a&gt; +1&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#9 JoeJoeJoe&lt;/strong&gt;：psql 是不是在信创名单里面？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#10 zealotxxxx&lt;/strong&gt;：@&lt;a href="/member/wangtian2020"&gt;wangtian2020&lt;/a&gt; +1 。现在基本算是主流观点了吧？基本上只有 pg 确实是干不了或者不合适，生态也干不了了，才考虑其他方案了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#11 songco&lt;/strong&gt;：pg 的各种扩展，实现了一个数据库面向各种应用场景，比如&lt;br/&gt;jsonb&lt;br/&gt;pg_textsearch&lt;br/&gt;pgvectorscale&lt;br/&gt;timescaledb&lt;br/&gt;UNLOGGED tables&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#12 brsyrockss&lt;/strong&gt;：五年前：帮亲戚整理数据库&lt;br/&gt;五年后：打开股票软件，去海边扣蛤蜊&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#13 ajax10086&lt;/strong&gt;：去年接了几个订单都是给客户用的 pg ，但是有些客户业务倒闭速度比数据增长速度还快，有种杀鸡用牛刀的感觉，再有小老板来下单我决定用 sqlite （ dog&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#14 iyaozhen&lt;/strong&gt;：说来惭愧，工作 10 年了，没用过 pg 。不是不想用，是公司 db 控制面板，压根没有创建选项🤣&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#15 opengps&lt;/strong&gt;：我从 23 年才开始用 pg ，但我现在的用法非常回归，只用基本的写入，查询，甚至查询都很少跨表，所以用哪个数据库对我来说没啥感觉&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#16 rb6221&lt;/strong&gt;：这玩意我 17 、18 年在一个传统型行业就已经见过了，当时公司项目用啥的都有，oracle mariadb postgresql 更古老一点的项目也有 sqlserver 的，反而 mysql 倒是没咋见过。当时经验浅，我还以为外面全是这种呢，结果这么多年进展也就那样。。。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#17 dhysum&lt;/strong&gt;：@&lt;a href="/member/JoeJoeJoe"&gt;JoeJoeJoe&lt;/a&gt; 很多信创都是基于 PostgreSQL 的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#18 dhysum&lt;/strong&gt;：@&lt;a href="/member/harrisonkang"&gt;harrisonkang&lt;/a&gt; 变化很大&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#19 dhysum&lt;/strong&gt;：@&lt;a href="/member/raptor"&gt;raptor&lt;/a&gt; 五年前，MySQL 仍然如日中天&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#20 dhysum&lt;/strong&gt;：PostgreSQL 在海外基本上是新业务首选了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#21 dbskcnc&lt;/strong&gt;：仍然只用 pg&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#22 nc&lt;/strong&gt;：新项目用什么数据库都无所谓，老项目用的 MySQL 就没有必要迁移了，MySQL + Vitess 能撑起 youtube 那样的规模。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#23 Gilfoyle26&lt;/strong&gt;：五年过去了。用不用什么数据库已经不重要了，因为年纪到了，我被裁员了。&lt;a href="https://i.imgur.com/krir4IG.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/krir4IG.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#24 EternalHeart&lt;/strong&gt;：现在都是 Vibe Coding 了，感觉都是 AI 推荐就用 PG ，哎。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#25 Lemonadeccc&lt;/strong&gt;：年限小，只用 pg ，不会 mysql&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#26 k9982874&lt;/strong&gt;：应该是 17 年左右就只用 postgres 了，mysql 最近几年割裂更严重了。&lt;br/&gt;令人唏嘘的是 mongodb ，从不用 mongo 就是政治不正确，到用 mongo 就是政治不正确，令人唏嘘。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#27 Sezxy&lt;/strong&gt;：别的公司不知道，我公司运维还不支持 pgsql&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#28 ripperdev&lt;/strong&gt;：@&lt;a href="/member/k9982874"&gt;k9982874&lt;/a&gt; mongo 有什么瓜？ mongo 在游戏行业用得还是很多的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#29 cz5424&lt;/strong&gt;：五年过去了，当开发好累，不想当开发了； AI 实际让人更累了，AI 写的代码太多了，审查好累人。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#30 zhengfan2016&lt;/strong&gt;：1. 很多 pg 有各种插件支持存向量啥的，甚至 mongodb 都支持了，mysql 不支持&lt;br/&gt;2. 我用的开源 selfhosted ，至少 7 成都是只支持 postgresql 的，mysql 除了 wordpress ，gitea 等支持，很少有新项目用 mysql 了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#31 iomect&lt;/strong&gt;：19 年从 MySQL 全部迁移到了 Mongo&lt;br/&gt;目前新老项目也都是 Mongo&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#32 subeta&lt;/strong&gt;：17 年就开始用了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#33 raptor&lt;/strong&gt;：@&lt;a href="/member/ripperdev"&gt;ripperdev&lt;/a&gt; mongo 坑太多了。何况 mongo 能干的事，pg 都能干。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#34 JasperYanky&lt;/strong&gt;：有个巨大的问题 如果用主流厂商的云数据库，pg 真的比 mysql 贵太多太多&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#35 huigeer&lt;/strong&gt;：ai 都快把开发干没了，谁还关心数据库，-_-&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#36 liyafe1997&lt;/strong&gt;：主要是大部分场景用不上也碰不上这些不同 db 的瓶颈，就这些业务场景，sqlite 都能支撑&lt;br/&gt;先听说哪个/哪个声量大用哪个就行了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#37 zichen&lt;/strong&gt;：这个其实属于国内外技术栈的差别了，国内从来都是赢者通吃，只要一个技术成为主流了，其他的再想分一杯羹就很难了。&lt;br/&gt;&lt;br/&gt;我能想到的几个国内外技术栈差别：&lt;br/&gt;数据库：国内 mysql 一统天下，国外其实好多年前 pg 就已经盖过 mysql 了，甚至 sql server 也是能拿到一定市场份额的。&lt;br/&gt;前端：国外 react 是主流，国内 vue 是主流&lt;br/&gt;后端：国内在 go 出来之前是 java 一统天下，&lt;a href="http://搞.net" rel="nofollow noopener" target="_blank"&gt;搞.net&lt;/a&gt; 的基本都快没饭吃了，&lt;a href="http://但是国外.net" rel="nofollow noopener" target="_blank"&gt;但是国外.net&lt;/a&gt; 其实过的挺不错的。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#38 seanzxx&lt;/strong&gt;：旧项目维持 mysql ，新项目都用 postgresql&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#39 xuanbg&lt;/strong&gt;：@&lt;a href="/member/JasperYanky"&gt;JasperYanky&lt;/a&gt; 确实，pg 太贵了，所以还是 mysql&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#40 Seanfuck&lt;/strong&gt;：还在用 mysql 5.7 打天下。绝大部分场景够用了，简单且成本低。[/dog]&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#41 guanzhangzhang&lt;/strong&gt;：@&lt;a href="/member/JoeJoeJoe"&gt;JoeJoeJoe&lt;/a&gt; 基于 pg 的信创数据库对接起来坑最少，基于 mysql 改的坑很多 &lt;a href="https://i.imgur.com/e1q9ScT.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/e1q9ScT.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#42 JoeJoeJoe&lt;/strong&gt;：@&lt;a href="/member/guanzhangzhang"&gt;guanzhangzhang&lt;/a&gt; 但是有些系统强制要求 mysql, 所以就只能上达梦之类的系统, psql 国内用的不是很多. 我只有做 odoo 的时候用过.&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#43 lg487&lt;/strong&gt;：工作这些多年，实际项目中就没用过 mysql ，都是 pg 和 oracle&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#44 xiaomushen&lt;/strong&gt;：@&lt;a href="/member/guanzhangzhang"&gt;guanzhangzhang&lt;/a&gt; 没办法，因为 MySQL 本身功能太少了，某种程度上，互联网大厂都是当 KV 来用。&lt;br/&gt;但是真做企业系统，各种功能都不能少，嵌套查询要加强吧？各种窗口/统计/字符/转换 函数要有吧？表空间表分区要改造吧？安全认证的要加强吧？.... 然后国产信创就开始各自魔改，各种奇葩 bug 就出来了。&lt;br/&gt;&lt;br/&gt;不像 PG ，该有的基本都有，信创发现需要自由发挥的机会根本没有。。。反而用起来舒服&lt;br/&gt;&lt;br/&gt;PS ，现在新出来的信创 DB ，基本都是 PG 马甲了：技术人员口嫌体正直，知道怎么选型最省事儿&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#45 mmdsun&lt;/strong&gt;：我自己新的项目用 PostgreSQL ，生产公司项目还是 Mysql 。&lt;br/&gt;&lt;br/&gt;早年我用 PostgreSQL 被很很坑过。可以去看 Uber 的文章，那个时候 PostgreSQL 还不是那么可靠。&lt;br/&gt;《 Why Uber Engineering Switched from Postgres to MySQL 》&lt;br/&gt;&lt;a href="https://www.uber.com/us/en/blog/postgres-to-mysql-migration/" rel="nofollow noopener" target="_blank"&gt;https://www.uber.com/us/en/blog/postgres-to-mysql-migration/&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Thu, 23 Apr 2026 07:51:56 +0000</pubDate></item><item><title>我斥巨资买了一个域名，准备做一个面向全球用户的校友社区，大家帮忙看看域名是否合适？</title><link>https://www.v2ex.com/t/1208014</link><description>&lt;a href="http://alumnicircle.com" rel="nofollow noopener" target="_blank"&gt;alumnicircle.com&lt;/a&gt; (校友圈)
+&lt;p&gt;&lt;strong&gt;#1 Nzelites&lt;/strong&gt;：有无其它 ai 的对比？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#2 dingawm&lt;/strong&gt;：@&lt;a href="/member/Nzelites"&gt;Nzelites&lt;/a&gt; #1 可以网上找找其他的看看，差距有点明显，可能 Sonnet 4.6 都不如，不过我这也只是单个测试，等后面看看有没有更多的测试吧。晚点可能再试一下 kimi2.6 ，最近用得挺多，目前感觉国产里编程写前端第一的，后端还没试。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#3 Nzelites&lt;/strong&gt;：@&lt;a href="/member/dingawm"&gt;dingawm&lt;/a&gt; kimi 前端这么好？我让它写后端感觉有点笨，下次试试看&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#4 96&lt;/strong&gt;：gemini pro: &lt;a href="https://file.1tb.site/1777002599937_ScreenShot_2026-04-24_114941_988.png" rel="nofollow noopener" target="_blank"&gt;https://file.1tb.site/1777002599937_ScreenShot_2026-04-24_114941_988.png&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;deepseek: &lt;a href="https://file.1tb.site/1777002779580_ScreenShot_2026-04-24_115239_349.png" rel="nofollow noopener" target="_blank"&gt;https://file.1tb.site/1777002779580_ScreenShot_2026-04-24_115239_349.png&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#5 dingawm&lt;/strong&gt;：@&lt;a href="/member/96"&gt;96&lt;/a&gt; #4 不会放反了吧，我感觉 Gemini 3.1 Pro 前端还挺强啊。你的 Prompt 是啥&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#6 HeyWeGo&lt;/strong&gt;：这段时间 gemini 降智，短暂使用了 ds 一段时间，风格明显不一样。gemini 做的时候会考虑业务实际情况，会提出自己的开发，虽然大部分是顺从需求，但有些不符合业务需求的点他会提出反对或优化意见，ds 只要你提，只要能实现需求，他只会基于代码的可实现性和是否满足提出的需求去改代码，结果就是可能造成业务上的错乱。感觉就像是对真实世界知之甚少的纯开发，没有一种灵性。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#7 MuyuQ&lt;/strong&gt;：@&lt;a href="/member/Nzelites"&gt;Nzelites&lt;/a&gt; kimi 属于是把技能点全点在前端上了。。。后端很一般。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#8 afkool&lt;/strong&gt;：试了 gemini 和 gpt,大差不差。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#9 dingawm&lt;/strong&gt;：@&lt;a href="/member/Nzelites"&gt;Nzelites&lt;/a&gt; #3 在一个单页表单应用的相同的 Claude 优化的一个比较完善的 Prompt 下，打败了 Gemini 3.1 Pro ，不过两个环境不一样，而且也有可能有抽卡的情况。体现在 UI 样式两个差不多，但是 kimi2.6 的问题更少，更像一个正常表单&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#10 hhh12&lt;/strong&gt;：大部分人不要以自己手头工作的体感，来判断当今几大主流 LLM 的能力。&lt;br/&gt;&lt;br/&gt;大部分人的工作难度就是高考数学水平，你非要让陶哲轩、丘成桐、陈省身、张益唐来个大比赛，&lt;br/&gt;&lt;br/&gt;结果分数分别是 98 、99 、97 、98 ，然后你作为高中生，还要对着卷子上的标点符号和字体强行评价一番，&lt;br/&gt;&lt;br/&gt;完全是自取其辱。&lt;br/&gt;&lt;br/&gt;对于绝大多数没那么抽象、逻辑没那么复杂、数理没那么相关的工作，比如调用个工具，糊个前端后端，写个 C++这些没那么复杂的任务，&lt;br/&gt;&lt;br/&gt;最新版本的 GPT 、claude sonnet 、gemini 、kimi 、glm 、qwen 、deepseek 之间，已经没有可观测的差距了。&lt;br/&gt;你所有感知到的差距，就像高考难度的题目陶哲轩 98 分和丘成桐 99 分之间的差距一样，你几乎完全 100%就是主观地在鸡蛋里挑骨头了。&lt;br/&gt;&lt;br/&gt;就像很多人不信任何 benchmark ，20 多个 benchmark 总共几十万个 test case 看都不看，&lt;br/&gt;&lt;br/&gt;只要一出个新模型，就自己指挥 LLM 当场写个贪吃蛇，拿七八个贪吃蛇截图，开始点评“这个贪吃蛇太绿了”、“那个贪吃蛇动画不好”，一顿侉评，&lt;br/&gt;&lt;br/&gt;完全就是火车硬卧车厢高声点评伊朗最新局势的水准。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#11 dingawm&lt;/strong&gt;：@&lt;a href="/member/afkool"&gt;afkool&lt;/a&gt; #8 没明白你这句话的意思。。是哪个和哪个大差不差？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#12 dingawm&lt;/strong&gt;：@&lt;a href="/member/HeyWeGo"&gt;HeyWeGo&lt;/a&gt; #6 那还是 DeepSeek V3.2 吧，那个确实不能有太高期待&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#13 dingawm&lt;/strong&gt;：@&lt;a href="/member/hhh12"&gt;hhh12&lt;/a&gt; #10 尊重你的观点&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#14 airtee&lt;/strong&gt;：用你提示词原风不动生成的 &lt;a href="https://frosty-limit-6b28.svip9.workers.dev/效果" rel="nofollow noopener" target="_blank"&gt;https://frosty-limit-6b28.svip9.workers.dev/效果&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#15 airtee&lt;/strong&gt;：@&lt;a href="/member/airtee"&gt;airtee&lt;/a&gt; 删除结尾效果两个字 不然访问 404&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#16 dingawm&lt;/strong&gt;：@&lt;a href="/member/airtee"&gt;airtee&lt;/a&gt; #14 你这可以啊，也是 V4Pro 吗，有用什么 skill 吗？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#17 Elietio&lt;/strong&gt;：Gemini 3.1Pro&lt;br/&gt;&lt;a href="https://s3.bmp.ovh/2026/04/24/y2CjqNjL.png" rel="nofollow noopener" target="_blank"&gt;https://s3.bmp.ovh/2026/04/24/y2CjqNjL.png&lt;/a&gt; &lt;br/&gt;deepseek&lt;br/&gt;&lt;a href="https://s3.bmp.ovh/2026/04/24/kDof2mfj.png" rel="nofollow noopener" target="_blank"&gt;https://s3.bmp.ovh/2026/04/24/kDof2mfj.png&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#18 airtee&lt;/strong&gt;：@&lt;a href="/member/dingawm"&gt;dingawm&lt;/a&gt; aistudio gemini&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#19 airtee&lt;/strong&gt;：@&lt;a href="/member/dingawm"&gt;dingawm&lt;/a&gt; 没用 skills 就把你提示词丢过去了！直接生成的效果&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#20 dingawm&lt;/strong&gt;：@&lt;a href="/member/airtee"&gt;airtee&lt;/a&gt; #18 哦哦，Gemini 前端还是挺可以的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#21 dingawm&lt;/strong&gt;：@&lt;a href="/member/Elietio"&gt;Elietio&lt;/a&gt; #17 你这个有用 skill 吗？ DeepSeek 的效果看着挺好啊&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#22 Elietio&lt;/strong&gt;：@&lt;a href="/member/dingawm"&gt;dingawm&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;没，就网页开了深度思考，但是思考跑了很久&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#23 cctvbnm111X1&lt;/strong&gt;：子豪：你看这个人不会用 AI 啊，提示词和 skill 都不会，快教教他吧&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#24 dingawm&lt;/strong&gt;：@&lt;a href="/member/Elietio"&gt;Elietio&lt;/a&gt; #22 你这个网页比我在 Claude Code 里的效果还好啊&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#25 dingawm&lt;/strong&gt;：@&lt;a href="/member/cctvbnm111X1"&gt;cctvbnm111X1&lt;/a&gt; #23 特意没用 skill&lt;br/&gt;话说子豪是谁？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#26 Elietio&lt;/strong&gt;：@&lt;a href="/member/dingawm"&gt;dingawm&lt;/a&gt; #24 &lt;a href="https://chat.deepseek.com/share/euxd6c9hm28sinkjoo" rel="nofollow noopener" target="_blank"&gt;https://chat.deepseek.com/share/euxd6c9hm28sinkjoo&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#27 horizon&lt;/strong&gt;：@&lt;a href="/member/hhh12"&gt;hhh12&lt;/a&gt; #10 &lt;br/&gt;尊重你的观点&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#28 mingtdlb&lt;/strong&gt;：这种没有说服力吧，你让他做两次，两次结果都不一样。。。你用 ds v3 去看吧，也差不多&lt;br/&gt;&lt;br/&gt;我试了一下 &lt;a href="https://wp-cdn.4ce.cn/v2/dH0M5eC.png" rel="nofollow noopener" target="_blank"&gt;https://wp-cdn.4ce.cn/v2/dH0M5eC.png&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#29 airtee&lt;/strong&gt;：![全程一次过]( &lt;a href="https://i.imgur.com/mBBtM7o.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/mBBtM7o.png"/&gt;&lt;/a&gt;)吃饭时候顺手做的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#30 airtee&lt;/strong&gt;：![DeepSeek 深度思考]( &lt;a href="https://i.imgur.com/EtAYtnd.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/EtAYtnd.png"/&gt;&lt;/a&gt;)&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#31 dingawm&lt;/strong&gt;：@&lt;a href="/member/mingtdlb"&gt;mingtdlb&lt;/a&gt; #28 嗯嗯，我也知道是抽卡，我试了 3 次，两次中文，一次英文，界面确实有点简单，但是可能也只是前端界面审美不太行，后端啥的还没测试&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#32 stefwoo&lt;/strong&gt;：&lt;a href="https://mp.weixin.qq.com/s/DwleBgjy3EiS7zWqlrsTEw" rel="nofollow noopener" target="_blank"&gt;https://mp.weixin.qq.com/s/DwleBgjy3EiS7zWqlrsTEw&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;文中提到：&lt;br/&gt;其四，不讲究的架构与 UI 。V4 基本保留了之前 DeepSeek V3 在各类架构设计上的思路，不讲究，不够精致，但也不糊弄，该有的分层，解耦，都会有。做不到 Opus 那样一看就出自大手的规范性架构。UI 方面同样如此，直出效果不算优秀，偶尔会有些精细表达，但多数时候就是基本能用的程度。甚至 high 档位偶尔下限更低，考虑不周全。如果实际开发配合设计稿，那么问题不大。但如果是纯 vibe coding ，那实现效果就需要反复抽卡。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#33 dingawm&lt;/strong&gt;：@&lt;a href="/member/airtee"&gt;airtee&lt;/a&gt; #30 也还可以，就是图片都是一个😂&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#34 dingawm&lt;/strong&gt;：@&lt;a href="/member/stefwoo"&gt;stefwoo&lt;/a&gt; #32 目前来看前端审美确实一般，有时间试试更复杂的看看咋样&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#35 ldapadmin&lt;/strong&gt;：你少了多少钱！&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#36 dingawm&lt;/strong&gt;：@&lt;a href="/member/ldapadmin"&gt;ldapadmin&lt;/a&gt; #35 ？没理解啥意思&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#37 airtee&lt;/strong&gt;：@&lt;a href="/member/dingawm"&gt;dingawm&lt;/a&gt; 是的基本逻辑自洽 准确性都有问题&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#38 airtee&lt;/strong&gt;：&lt;a href="https://frosty-limit-6b28.svip9.workers.dev/deepseek_html_20260424_4acbb1" rel="nofollow noopener" target="_blank"&gt;https://frosty-limit-6b28.svip9.workers.dev/deepseek_html_20260424_4acbb1&lt;/a&gt;&lt;br/&gt;deepseek 效果预览&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#39 airtee&lt;/strong&gt;：专家模式也是一个吊样，逻辑自洽都做不到&lt;br/&gt;![描述文字]( &lt;a href="https://i.imgur.com/Es49HBB.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/Es49HBB.png"/&gt;&lt;/a&gt;)&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#40 nkloveni&lt;/strong&gt;：@&lt;a href="/member/hhh12"&gt;hhh12&lt;/a&gt; 这个，消费者是上帝，提上帝提供情绪价值也是价值的一部分。另外各大模型还是有肉眼可见的风格差异的，gemini 明显管不住手，动不动就乱改文件。真实世界需求太复杂了，不是那几十万个 test case 覆盖的。&lt;br/&gt;借用早期互联网一句名言，我评价个电冰箱还需要先学会制冷啊，相比音响圈水电火电玄学，大模型起码可以过双盲的。 点评伊朗的例子也不太恰当，你点评伊朗就打打嘴炮了，选谁家的大模型可以用脚投票的。claude 我只是买不起而已，要不然没有其他几家的事&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#41 beyondstars&lt;/strong&gt;：问了几个 AI 感觉也大差不差啊？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#42 TonyMontana&lt;/strong&gt;：无所谓，反正也不会用，感觉 deepseek 更像是一种文化显现产物&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#43 96&lt;/strong&gt;：@&lt;a href="/member/dingawm"&gt;dingawm&lt;/a&gt; 用的你的提示词&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#44 yvescheung&lt;/strong&gt;：实测 DeepSeek V4 Pro 十分之拉胯，我的 7 个 AI 测试项目它打开最强的思考模式只能通过 4 个，Kimi K2.6 全部通过，MiMo V2.5 不开思考都能通过 5 个&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#45 my2492&lt;/strong&gt;：&lt;a href="https://imgur.com/a/OuVGqKi" rel="nofollow noopener" target="_blank"&gt;https://imgur.com/a/OuVGqKi&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="https://imgur.com/a/vwPuw3c" rel="nofollow noopener" target="_blank"&gt;https://imgur.com/a/vwPuw3c&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="https://imgur.com/a/fbAbLV6" rel="nofollow noopener" target="_blank"&gt;https://imgur.com/a/fbAbLV6&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="https://imgur.com/a/7zhEn0v" rel="nofollow noopener" target="_blank"&gt;https://imgur.com/a/7zhEn0v&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;大家觉得哪个最好看？猜猜各是什么模型&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#46 dingawm&lt;/strong&gt;：@&lt;a href="/member/96"&gt;96&lt;/a&gt; #43 是说一次用了 API 多少钱吗？是的话，试了 3 次，好像一次大概 2 块钱&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#47 dingawm&lt;/strong&gt;：@&lt;a href="/member/yvescheung"&gt;yvescheung&lt;/a&gt; #44 啥测试？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#48 dingawm&lt;/strong&gt;：@&lt;a href="/member/my2492"&gt;my2492&lt;/a&gt; #45 第一个链接里有四个图，个人猜测：第一个 Claude 或者 Gemini 系列模型，第二个或者第四个 DeepSeek 模型（更倾向第二个是 DeepSeek 的）？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#49 yvescheung&lt;/strong&gt;：@&lt;a href="/member/dingawm"&gt;dingawm&lt;/a&gt; 中英文混合文本提取指定信息，模仿已有程序接入新的 API ，阅读复杂长文档编写程序，翻译，复杂压缩包连续解压，逻辑分析，语义分析，都是我实际工作中遇到过的问题，反正就 DeepSeek 这个表现我是不可能拿来用的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#50 my2492&lt;/strong&gt;：@&lt;a href="/member/dingawm"&gt;dingawm&lt;/a&gt; 第一个 sonnet4.6 ，第二个 opus4.7 ，第三个 gpt5.5 ，第四个 opus4.6&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#51 my2492&lt;/strong&gt;：@&lt;a href="/member/dingawm"&gt;dingawm&lt;/a&gt; 我觉得 opus4.7 是最丑的，两个 4.6 的比较好，更喜欢 sonnet 的，gpt 的也挺粗糙，这是网页版里做的，调不了 effort&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#52 dcatfly&lt;/strong&gt;：claude sonnet4.6 adaptive&lt;br/&gt;&lt;a href="https://claude.ai/public/artifacts/07700983-b2cd-4811-b78e-f9eec284142e" rel="nofollow noopener" target="_blank"&gt;https://claude.ai/public/artifacts/07700983-b2cd-4811-b78e-f9eec284142e&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;claude opus4.7 adaptive&lt;br/&gt;&lt;a href="https://claude.ai/public/artifacts/c94bc886-a02c-4bf0-8b10-83a9a80bdde7" rel="nofollow noopener" target="_blank"&gt;https://claude.ai/public/artifacts/c94bc886-a02c-4bf0-8b10-83a9a80bdde7&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;gpt5.5 进阶思考&lt;br/&gt;&lt;a href="https://chatgpt.com/canvas/shared/69eb010e42c881919c00e6529ba932ac" rel="nofollow noopener" target="_blank"&gt;https://chatgpt.com/canvas/shared/69eb010e42c881919c00e6529ba932ac&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;以上全部由楼主的中文提示词在各自的官方网页中生成，没有交互没有 skill 。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#53 snowman231&lt;/strong&gt;：搭配 ui ux pro max 的 skill 使用，很强啊。&lt;br/&gt;&lt;br/&gt;&lt;a href="https://i.imgur.com/PiT0gmx.gif" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/PiT0gmx.gif"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#54 dcatfly&lt;/strong&gt;：@&lt;a href="/member/hhh12"&gt;hhh12&lt;/a&gt; 如果“最新版本的 GPT 、claude sonnet 、gemini 、kimi 、glm 、qwen 、deepseek 之间，已经没有可观测的差距了”这句话成立，那么现在各家的价格应该相差不大了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#55 Zzdex&lt;/strong&gt;：&lt;a href="https://odd-bird-1822.zzde.workers.dev/" rel="nofollow noopener" target="_blank"&gt;https://odd-bird-1822.zzde.workers.dev/&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;猜猜谁家的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#56 my2492&lt;/strong&gt;：&lt;a href="https://imgur.com/a/fIr7dgZ" rel="nofollow noopener" target="_blank"&gt;https://imgur.com/a/fIr7dgZ&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;补一个，上面 haiku4.5 ，下面 sonnet4.5&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#57 justdoitzZ&lt;/strong&gt;：一棒子打死一个人就是这么容易&lt;br/&gt;你问了一个人一个问题，这个问题，这个人回答得不是这么好，你就直接下结论了？&lt;br/&gt;观察你这个发帖和结论这个过程&lt;br/&gt;本身就是一种乐事，让我不禁想，你的思考链是怎么样的，hmmmm,interesting&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 24 Apr 2026 03:45:41 +0000</pubDate></item><item><title>一个英语学习 APP [iOS] ，送 50 个终身会员</title><link>https://www.v2ex.com/t/1208178</link><description>&lt;p&gt;做了一款成语填字 APP ，名字叫做《多福单词》，对学习英语有诉求的，可以下载看看，送 50 个终生会员给各位大佬。&lt;/p&gt;
+&lt;p&gt;希望大佬们兑换了，能够顺手给个好评，独立开发不易，再次祝各位大佬，早日财富自由，早日赢取白富美。&lt;/p&gt;
+&lt;p&gt;========================&lt;/p&gt;
+&lt;p&gt;背单词是不是总让你昏昏欲睡？来试试用玩游戏的方式把单词刻进脑子里！&lt;/p&gt;
+&lt;p&gt;📱 多福单词 · 背单词猜字游戏&lt;/p&gt;
+&lt;p&gt;一款专为英语学习者打造的益智单词 App ，把枯燥的背单词变成每天最期待的事！&lt;/p&gt;
+&lt;p&gt;✨ 核心玩法
+🔤 猜单词 — 字母连线、填字闯关，在游戏中自然记住拼写和释义&lt;/p&gt;
+&lt;p&gt;🔗 连线拼字 — 拖动字母连成正确单词，强化拼写记忆，简单上手&lt;/p&gt;
+&lt;p&gt;⚡ 单词接龙 — 根据上一个单词末字母快速接龙，越玩越上瘾&lt;/p&gt;
+&lt;p&gt;📅 每日一词 — 每天精选词汇配例句，坚持一年积累 365 个新单词&lt;/p&gt;
+&lt;p&gt;🏆 单词闯关 — 从基础词汇到四六级常考词，循序渐进解锁新挑战&lt;/p&gt;
+&lt;p&gt;👥 适合人群
+无论你是备考四六级、考研的学生，还是想利用碎片时间充电的上班族，每天 10 分钟就有效！&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://postimg.cc/F1dxdPF9" rel="nofollow"&gt;&lt;img alt="fdff986d430ced6ff28d6fe8c76f773b.jpg" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://i.postimg.cc/9X1gkSvq/fdff986d430ced6ff28d6fe8c76f773b.jpg"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://postimg.cc/f3qxkd6B" rel="nofollow"&gt;&lt;img alt="wei-xin-tu-pian-20260424095306-262-40-fu-ben.jpg" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://i.postimg.cc/rmMgnCgX/wei-xin-tu-pian-20260424095306-262-40-fu-ben.jpg"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;========================&lt;/p&gt;
+&lt;p&gt;3ARJKET8F63PEY44EE
+4E4WKPXJMK84TTWN3H
+6LNYLP6RHYA6H7MAFW
+44MEWA4PNA8TMHA4J8
+Y83TEFL6Y68A8PYW7T
+TYNHMFHPELN8YXA4FK
+YWYW4ERY7FEA3AH66K
+TKT7PPXKH8XP877YRY
+Y6ANMF3ERHAL8KPHXR
+LNF3EWWMXWK6L4YXH7
+NJ4FEY8NPXLW4L3AH8
+YYRKXFN74FJXJ7JT77
+TRTYALHLAAH8ALTFT6
+R786YK8MN4WK4JL6TM
+EXLX7P8MFPAHJFPRFE
+MAFY3LY6RNXMK8KHPY
+87WNANMAJWLATF374A
+4PLRXHPFWXJXFHKRH3
+APKNFTTP6YL43ANK7W
+PKWJ7MAW3AFJ4R86P4
+86YYPW7KEJLLK4RWXN
+MRYRXTAWXT8EATY6JY
+38JLHXH8XXLPAH6RYH
+AXNKN87MWTFF3MTJAX
+RF8J76TWKL6HFXWHTF
+M6A3MWXNL4XTNLK87L
+T3MH3YJMHJW7P4AK7F
+MLN7RKXNX3HL7JR387
+RYWLMFRJHN67JNHWTP
+WFXAWKYXWNXH8RR64Y
+T74FJM8LA638RR7XWL
+EEEPHYKY6TN8LAFYYM
+J8HRTJ3YWW8P3YA6F7
+F4W3Y4NJA8KJAAPR8A
+77FELPYTXWW7AA8WMR
+R38A4TYJEHHXTRH4JP
+6PX8AX8NEFT8F4HHPX
+XK47XPYE3TKMJKMPEP
+737RERKKANHWLFRMPE
+YFJYWELENTRFJ47P3R
+KR6LT6EYKWWWENPRX8
+6FWPNN3PRENHJ4Y3L8
+FJRJ7TE3JAJXMYL88E
+8WPT7EHWH8THX3PFTF
+4WKHMMNW6HKERMXNMR
+EJTNYT3FM4R36E47HK
+MRFT7TJE43HELLR38J
+TRFMNMKHYF68TK48KL
+NYE6TNL4YN847ARFMJ
+6ENN6PFFEFN8HF73Y6
+3E8FRWRE7JYXYJKWMH
+HHF47TWKPXT7PPA68N
+AKEE6EEEJRE37AERMA
+F3ALP8LYJLANTA8HNX
+6RJ6HWPKMYF4LMNTFL
+NL4ELR6A38N44TP7R6
+PH6FHW63JMW3W46KJ8
+XHWE6HXA647AX87X6X
+KL4TMYX44NNEWXTPH7
+HWRLT4PMKYAF6H8K44
+74E84WKMWYYMY4TX3X
+XX8RAF33EKLL3L68EY
+WWXHTHXJ38P6YMPWWW
+XKFE3XJJ6AXW3E7T6P
+J6EM487ERTM643N3HT
+A8M67NTFJKKTPAF43X
+4PJEXTHXWRHF7MLFTK
+LXJFM78RTLN48JRR8J
+RRPLYARL666X44LKJJ
+N34RWRYPARWLEYTTLL
+MH847NLRXYYYWX6ARR
+TR8PFK6NXMAEEYXKHJ
+6PY488MT6RXTN4RMW4
+4FATXMN4TXEEHYANXP
+84JFWL6ERLK8XHHKFY
+HE786EYEJYMN6F7M3R
+LHJKJRLA8JKTAWE6FT
+X6XYLAT6N8TF3RJ8X8
+HP6WJXJJTLHXF4W3RF
+FN644MHMW37E7Y8KMA
+PLE3TJLLNX7PYX4L3K
+E76KHNRXN6MYF7XPN8
+R34EXJX334YTERA7P4
+EM4YJ483XX8NJJJJN8
+7PH6YHLW8LH346E6XX
+EHRJL3YJ4PK3LPMNLM
+RNJPTNWHTJNH7EAXWF
+K4YXE6JLP74H4X8KNH
+A7R774WKE6LPHXFR43
+LK8T4E8WYRXLFAFHWK
+APYYPN6ATAXFAKF778
+8X8A3JFTHFA4T8LNLM
+EPJN6KTFATYTXK3EME
+3PT7JHLPATRWAN8K3F
+JR8X6XT7YY3WT74XM7
+HYRJXLHXW4NL44H6HN
+HHXKLPFKY4KM4X8FHE
+RKY467T64WXN4MHT4L
+YJHFYT3HPFHPY8H6MH
+FEWYTARRRLW3438KRP&lt;/p&gt;
+&lt;hr/&gt;
+第 1 条附言  ·  &lt;span title="2026-04-24 11:30:00 +08:00"&gt;2 小时 31 分钟前&lt;/span&gt;
+
+忘了贴上下载链接，希望大佬们兑换了，能够顺手给个好评，独立开发不易，再次祝各位大佬，早日财富自由，早日赢取白富美。&lt;br/&gt;&lt;br/&gt;&lt;a href="https://apps.apple.com/cn/app/%E5%A4%9A%E7%A6%8F%E5%8D%95%E8%AF%8D-%E8%83%8C%E5%8D%95%E8%AF%8D%E7%8C%9C%E5%AD%97%E6%B8%B8%E6%88%8F/id6756718627" rel="nofollow noopener" target="_blank"&gt;https://apps.apple.com/cn/app/%E5%A4%9A%E7%A6%8F%E5%8D%95%E8%AF%8D-%E8%83%8C%E5%8D%95%E8%AF%8D%E7%8C%9C%E5%AD%97%E6%B8%B8%E6%88%8F/id6756718627&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;兑换方式&lt;br/&gt;&lt;br/&gt;&lt;a href="https://apps.apple.com/redeem?ctx=offercodes&amp;amp;id=6756718627&amp;amp;code=" rel="nofollow noopener" target="_blank"&gt;https://apps.apple.com/redeem?ctx=offercodes&amp;amp;id=6756718627&amp;amp;code=&lt;/a&gt;{兑换码}&lt;br/&gt;可以这样兑换，也可以用下面的方式&lt;br/&gt;&lt;br/&gt;通过 App Store 兑换&lt;br/&gt;打开 App Store&lt;br/&gt;点击右上角头像&lt;br/&gt;滑到底部，点击 "兑换礼品卡或代码"&lt;br/&gt;输入兑换码即可
+
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;#1 fish2050&lt;/strong&gt;：和我一样，东西还没做出来先买了域名，然后域名闲置直到过期&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#2 docx&lt;/strong&gt;：每日一问：人人网复活成功了吗&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#3 hash&lt;/strong&gt;：假设现在你的网站上线了,并且整个系统不存在任何问题&lt;br/&gt;那么你猜世界各地的用户是选择注册 Facebook 还是注册你这个网站&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#4 TKKONE&lt;/strong&gt;：这巨资是十几块吗？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#5 jacketma&lt;/strong&gt;：是里亚尔吗？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#6 x86&lt;/strong&gt;：&lt;a href="http://shangtongxue.com" rel="nofollow noopener" target="_blank"&gt;shangtongxue.com&lt;/a&gt;&lt;br/&gt;状态:未注册&lt;br/&gt;&lt;br/&gt;---&lt;br/&gt;不如这个，上同学&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#7 winnerczwx&lt;/strong&gt;：现在域名的概念已经很弱了吧, 你要是短域名可能还有点用, 长域名没人是用"背域名"去访问你网站的. 预期考虑域名怎样, 不如把重心放业务上&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#8 sddyzm&lt;/strong&gt;：这个域名太垃圾了，巨资对你来说是指多少钱...&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#9 qwqqwq&lt;/strong&gt;：@&lt;a href="/member/x86"&gt;x86&lt;/a&gt; 这个简单粗暴&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#10 geniushui&lt;/strong&gt;：@&lt;a href="/member/fish2050"&gt;fish2050&lt;/a&gt; 闲置不至于，现在用 AI 开发老快了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#11 geniushui&lt;/strong&gt;：@&lt;a href="/member/hash"&gt;hash&lt;/a&gt; 有一定的道理&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#12 geniushui&lt;/strong&gt;：@&lt;a href="/member/TKKONE"&gt;TKKONE&lt;/a&gt; 600 刀&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#13 geniushui&lt;/strong&gt;：@&lt;a href="/member/x86"&gt;x86&lt;/a&gt; 你这个有点黄啊&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#14 geniushui&lt;/strong&gt;：@&lt;a href="/member/jacketma"&gt;jacketma&lt;/a&gt; 600 刀&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#15 geniushui&lt;/strong&gt;：@&lt;a href="/member/sddyzm"&gt;sddyzm&lt;/a&gt; 600 刀&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#16 jacketma&lt;/strong&gt;：@&lt;a href="/member/geniushui"&gt;geniushui&lt;/a&gt; 几百刀，那要大搞啦&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#17 peteretep&lt;/strong&gt;：总得交点学费&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#18 kurthumburgmtz97&lt;/strong&gt;：腾讯的校园网还犹在眼前……&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#19 iFrey&lt;/strong&gt;：拉丁语+英语组合 600 刀？你这 600 刀大概率是学费&lt;br/&gt;&lt;br/&gt;&lt;a href="https://w.is/alumnicircle.net" rel="nofollow noopener" target="_blank"&gt;https://w.is/alumnicircle.net&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;.NET 都没注册，你应该先花 10 刀去把 NET 注册了，然后做站，能做起来就做，做不起来也没什么损失&lt;br/&gt;&lt;br/&gt;做起来再去买 COM 也不迟&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#20 geniushui&lt;/strong&gt;：@&lt;a href="/member/jacketma"&gt;jacketma&lt;/a&gt;  不只这些，本来我想弄个面向国内的用户的(&lt;a href="http://xiaoyouquan.com" rel="nofollow noopener" target="_blank"&gt;xiaoyouquan.com&lt;/a&gt; ，这个也是斥巨资买的)APP ，上架应用商店太麻烦，想着干脆搞个面向全球用户的网站&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#21 iFrey&lt;/strong&gt;：&lt;a href="https://tldhub.com/net" rel="nofollow noopener" target="_blank"&gt;https://tldhub.com/net&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;NET 域名全网最低注册价&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#22 geniushui&lt;/strong&gt;：@&lt;a href="/member/iFrey"&gt;iFrey&lt;/a&gt; 啊？我问了 AI ，说是这是一个高中英语单词啊，大佬，请你细说下这个单词&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#23 geniushui&lt;/strong&gt;：@&lt;a href="/member/peteretep"&gt;peteretep&lt;/a&gt; 是的，这些年一我直在交学费&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#24 geniushui&lt;/strong&gt;：啊，你是搞域名生意的啊，&lt;a href="http://我个人认为所有的.net" rel="nofollow noopener" target="_blank"&gt;我个人认为所有的.net&lt;/a&gt; 域名都没价值啊&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#25 iFrey&lt;/strong&gt;：&lt;a href="https://zh.wikipedia.org/wiki/%E6%A0%A1%E5%8F%8B" rel="nofollow noopener" target="_blank"&gt;https://zh.wikipedia.org/wiki/%E6%A0%A1%E5%8F%8B&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;校友（拉丁语：alumni ）&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#26 geniushui&lt;/strong&gt;：@&lt;a href="/member/kurthumburgmtz97"&gt;kurthumburgmtz97&lt;/a&gt; 我觉得这是一个大佬们看不上的生意&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#27 iFrey&lt;/strong&gt;：@&lt;a href="/member/geniushui"&gt;geniushui&lt;/a&gt; #24 好吧，祝福你，这个单词确认了一下英语是从拉丁语转换来的，英语使用没有问题。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#28 geniushui&lt;/strong&gt;：@&lt;a href="/member/iFrey"&gt;iFrey&lt;/a&gt; 谢谢，虽然希望渺茫，但现阶段 AI 这么方便，总想搞点东西出来&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#29 IlIl&lt;/strong&gt;：说明卖域名这个圈子还是能赚钱的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#30 HENQIGUAI&lt;/strong&gt;：这个域名太复杂了，属于是学费米&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#31 jchencode&lt;/strong&gt;：这域名 600 刀阿，我淦。。。。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#32 geniushui&lt;/strong&gt;：@&lt;a href="/member/HENQIGUAI"&gt;HENQIGUAI&lt;/a&gt; 我英文不太好，这个域名对外国人来说也很复杂吗？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#33 logictan89&lt;/strong&gt;：这个域名的含义纯属自 high ，没几个人能看懂&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#34 geniushui&lt;/strong&gt;：@&lt;a href="/member/jchencode"&gt;jchencode&lt;/a&gt; 我现在也觉得买贵了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#35 logictan89&lt;/strong&gt;：@&lt;a href="/member/logictan89"&gt;logictan89&lt;/a&gt; 至少要普通人一眼能拆出来里面包含了几个单词。要求再低一点，一眼看出来里面有几个音节、怎么读的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#36 geniushui&lt;/strong&gt;：@&lt;a href="/member/logictan89"&gt;logictan89&lt;/a&gt; 还有其它表示校友的英文单词么？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#37 ilemon18&lt;/strong&gt;：第一感觉很长，&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#38 liuliuliuliu&lt;/strong&gt;：@&lt;a href="/member/geniushui"&gt;geniushui&lt;/a&gt; #36 &lt;a href="http://renren.com" rel="nofollow noopener" target="_blank"&gt;renren.com&lt;/a&gt;&lt;br/&gt;你看这个多好&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#39 potatowish&lt;/strong&gt;：程序员思维，alumni circle 是直译，英语中通常说    alumni community 、alumni network ，另外产品起名也不用这么直白的名字，通常要简单好记，有含义。你还是老老实实写代码去吧&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#40 cherryas&lt;/strong&gt;：600 刀&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#41 logictan89&lt;/strong&gt;：@&lt;a href="/member/geniushui"&gt;geniushui&lt;/a&gt; #36 别钻校友这个牛角尖了，找点象征义、引申义，你看 facebook 、人人，哪里和校友两个字有关系了？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#42 geniushui&lt;/strong&gt;：@&lt;a href="/member/potatowish"&gt;potatowish&lt;/a&gt; 确实，你说的这 2 个也是最早我问 Gemini ，Gemini 推荐的，&lt;a href="http://alumnicircle.com" rel="nofollow noopener" target="_blank"&gt;alumnicircle.com&lt;/a&gt; 也在里面，但你说的那 2 个更贵啊&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#43 msg7086&lt;/strong&gt;：这是重新发明了 chinaren 吗&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#44 sddyzm&lt;/strong&gt;：这 600 刀只能说被坑麻了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#45 geniushui&lt;/strong&gt;：@&lt;a href="/member/sddyzm"&gt;sddyzm&lt;/a&gt; 我现在也感觉买贵了，不过这个域名注册了 18 年，从这个角度来说好像不太贵&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#46 geniushui&lt;/strong&gt;：@&lt;a href="/member/logictan89"&gt;logictan89&lt;/a&gt; 从这个角度上来说是对的，可简单的域名也不好注啊&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#47 YangWaleed&lt;/strong&gt;：@&lt;a href="/member/geniushui"&gt;geniushui&lt;/a&gt; 是一次性买了 18 年 600 刀？为什么要一次买 18 年啊？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#48 geniushui&lt;/strong&gt;：@&lt;a href="/member/YangWaleed"&gt;YangWaleed&lt;/a&gt; 这个域名是 2008 年注册的，老域名对搜索引擎有一定的价值&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#49 base&lt;/strong&gt;：还不如 &lt;a href="http://wtmd.net" rel="nofollow noopener" target="_blank"&gt;wtmd.net&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#50 Yasuke&lt;/strong&gt;：我买了个 eject.life ，我觉得这种比较直白&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#51 geniushui&lt;/strong&gt;：@&lt;a href="/member/base"&gt;base&lt;/a&gt; 你这个确实很棒！&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#52 Croow&lt;/strong&gt;：给个理由为啥要用你的交友网站？正经吗🥵&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#53 geniushui&lt;/strong&gt;：@&lt;a href="/member/Croow"&gt;Croow&lt;/a&gt; 这也是我发愁的地方，哈哈。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#54 geniushui&lt;/strong&gt;：@&lt;a href="/member/Yasuke"&gt;Yasuke&lt;/a&gt; 我是个英盲，请问这是啥意思啊？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#55 Cheons&lt;/strong&gt;：吊锤百度贴吧吗？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#56 viiii&lt;/strong&gt;：@&lt;a href="/member/x86"&gt;x86&lt;/a&gt; #6 网站的核心竞争力表露无遗 &lt;a href="https://i.imgur.com/io2SM1h.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/io2SM1h.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#57 EchoWhale&lt;/strong&gt;：笑死了这个 600 刀&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#58 ufan0&lt;/strong&gt;：做过一样的事情，在自己学校也上线了，前期效果还是非常不错的，到最后发现这是一个微信为王的时代。&lt;br/&gt;&lt;br/&gt;除了做技术和对互联网比较了解，大家宁愿用微信群或者小程序。&lt;br/&gt;&lt;br/&gt;以上结论来自与 500 同学+的面对面交流记录。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#59 abc0123xyz&lt;/strong&gt;：600 刀.....&lt;br/&gt;什么大怨种&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#60 27149&lt;/strong&gt;：600 刀，能学习下来知道问题在哪，也不贵…&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#61 darkengine&lt;/strong&gt;：600 刀。。。又长又难读。。。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#62 huafang&lt;/strong&gt;：&lt;a href="http://jikai.com" rel="nofollow noopener" target="_blank"&gt;jikai.com&lt;/a&gt; 20 万卖给你&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#63 shakaraka&lt;/strong&gt;：社交网站基本死绝了，剩下都是头部。小圈子有开源方案，你这是要做啥？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#64 loading&lt;/strong&gt;：我建议巨资买下&lt;br/&gt;&lt;br/&gt;&lt;a href="http://facebook.com" rel="nofollow noopener" target="_blank"&gt;facebook.com&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#65 hackroad&lt;/strong&gt;：600 刀买这个域名。。。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#66 tangping&lt;/strong&gt;：@&lt;a href="/member/x86"&gt;x86&lt;/a&gt; &lt;a href="http://daxueshenghuohao.com" rel="nofollow noopener" target="_blank"&gt;daxueshenghuohao.com&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#67 geniushui&lt;/strong&gt;：@&lt;a href="/member/huafang"&gt;huafang&lt;/a&gt; 我前段时间几千人民币卖了个双拼 &lt;a href="http://tixiang.com" rel="nofollow noopener" target="_blank"&gt;tixiang.com&lt;/a&gt;(体香/缇香)，你这个有啥特殊的含义么？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#68 geniushui&lt;/strong&gt;：@&lt;a href="/member/loading"&gt;loading&lt;/a&gt; :(&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#69 geniushui&lt;/strong&gt;：@&lt;a href="/member/hackroad"&gt;hackroad&lt;/a&gt;  在各位的打击下，我现在也感觉买贵了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#70 geniushui&lt;/strong&gt;：@&lt;a href="/member/tangping"&gt;tangping&lt;/a&gt; 用这个做站怕被抓啊&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#71 gmx1234&lt;/strong&gt;：&lt;a href="http://xiaoyou.com" rel="nofollow noopener" target="_blank"&gt;xiaoyou.com&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#72 geniushui&lt;/strong&gt;：@&lt;a href="/member/gmx1234"&gt;gmx1234&lt;/a&gt;  你这个没有 60 万刀，估计下不来&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#73 VeteranCat&lt;/strong&gt;：你这个东西如果只是做着玩的 应该还可以，如果你是打算运作的话，趁早死了这条心吧。 这事儿已经有大资本替你趟过了，行不通的。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#74 laojuelv&lt;/strong&gt;：斥巨资买下了 &lt;a href="http://laojuelv.com" rel="nofollow noopener" target="_blank"&gt;laojuelv.com&lt;/a&gt; &lt;a href="http://juv.lv" rel="nofollow noopener" target="_blank"&gt;juv.lv&lt;/a&gt; ...&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#75 laojuelv&lt;/strong&gt;：斥巨资买下了 &lt;a href="http://laojuelv.com" rel="nofollow noopener" target="_blank"&gt;laojuelv.com&lt;/a&gt; &lt;a href="http://jue.lv" rel="nofollow noopener" target="_blank"&gt;jue.lv&lt;/a&gt; ...&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#76 dddd1919&lt;/strong&gt;：@&lt;a href="/member/docx"&gt;docx&lt;/a&gt; #2 人人不会，但校内可能&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#77 winterx&lt;/strong&gt;：&lt;a href="http://xiaoyou.qq.com" rel="nofollow noopener" target="_blank"&gt;xiaoyou.qq.com&lt;/a&gt;&lt;br/&gt;&lt;a href="http://renren.com" rel="nofollow noopener" target="_blank"&gt;renren.com&lt;/a&gt;&lt;br/&gt;&lt;a href="http://kaixin001.com" rel="nofollow noopener" target="_blank"&gt;kaixin001.com&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#78 ludan110&lt;/strong&gt;：兄弟 劝你一句  先想好如何推广 写完了之后再想基本是白做&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#79 Felldeadbird&lt;/strong&gt;：学费米。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#80 iixy&lt;/strong&gt;：哥们，英语语境 圈子 用 group 也不会用 circle 啊，更何况你前面那个破词，这 600 刀白给了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#81 wclebb&lt;/strong&gt;：这不就是逝去的青春吗：开心网、人人网、校园网，以及 Facebook ？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#82 lixon166&lt;/strong&gt;：搭车出一个 &lt;a href="http://pic5.cn" rel="nofollow noopener" target="_blank"&gt;pic5.cn&lt;/a&gt;  只要 600 不要刀  wx: Y29vZ3Bz(base64)&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#83 GLR&lt;/strong&gt;：哎，alumni chinaren com 不甘心啊，那么多照片和留言。。。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#84 geniushui&lt;/strong&gt;：@&lt;a href="/member/iixy"&gt;iixy&lt;/a&gt; 事实上我也觉得 Alumni 这个词不太好拼读，AI 误我啊！&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#85 luzemin&lt;/strong&gt;：学了一个单词 alumni&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#86 wqlabs6874&lt;/strong&gt;：不如用来订阅 pro 或者 max&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#87 base&lt;/strong&gt;：喜欢的话还有呢 &lt;a href="http://tiemud.com" rel="nofollow noopener" target="_blank"&gt;tiemud.com&lt;/a&gt; &lt;a href="http://timemud.com" rel="nofollow noopener" target="_blank"&gt;timemud.com&lt;/a&gt; &lt;a href="http://kneemud.com" rel="nofollow noopener" target="_blank"&gt;kneemud.com&lt;/a&gt; &lt;a href="http://mugbuzz.com" rel="nofollow noopener" target="_blank"&gt;mugbuzz.com&lt;/a&gt; ，喜欢就赶紧拿下吧&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Thu, 23 Apr 2026 06:44:08 +0000</pubDate></item><item><title>如果辞职去环游世界，有没有什么好的方法可以维持经济</title><link>https://www.v2ex.com/t/1207995</link><description>&lt;p&gt;现在有个稳定的工作，但是感觉每天朝九晚五一尘不变不是我想要的生活
-我想要去感受世界，想要去经历不一样的生活，感觉人的一生说长也长说短也短，想要重新定义自己的生活
-有没有大佬正在环游世界的路上或者说有这样的想法
-可以不可以提供一些思路，比如怎么维持开销，除了自媒体发视频这种，有没有比较实际的方法&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#1 zzahsjlk&lt;/strong&gt;：兑换了的大佬，希望您能标注下，方便其他人兑换&lt;br/&gt;&lt;br/&gt;顺手给个好评，再好不过了，独立开发不易，再次祝各位大佬，早日财富自由，早日赢取白富美&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#2 w797200&lt;/strong&gt;：兑换了 FEWYTARRRLW3438KRP&lt;br/&gt;谢谢大佬&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#3 RecLusIveF&lt;/strong&gt;：兑换了 RNJPTNWHTJNH7EAXWF&lt;br/&gt;感谢大佬🙏&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#4 Sundayz&lt;/strong&gt;：J6EM487ERTM643N3HT 拿下，谢谢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#5 windorz&lt;/strong&gt;：A8M67NTFJKKTPAF43X 已使用, 感谢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#6 tuot0601&lt;/strong&gt;：我怎么没找到兑换的地方🤡&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#7 eric1202&lt;/strong&gt;：6FWPNN3PRENHJ4Y3L8 已兑换 感谢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#8 zzahsjlk&lt;/strong&gt;：&lt;a href="https://apps.apple.com/cn/app/%E5%A4%9A%E7%A6%8F%E5%8D%95%E8%AF%8D-%E8%83%8C%E5%8D%95%E8%AF%8D%E7%8C%9C%E5%AD%97%E6%B8%B8%E6%88%8F/id6756718627" rel="nofollow noopener" target="_blank"&gt;https://apps.apple.com/cn/app/%E5%A4%9A%E7%A6%8F%E5%8D%95%E8%AF%8D-%E8%83%8C%E5%8D%95%E8%AF%8D%E7%8C%9C%E5%AD%97%E6%B8%B8%E6%88%8F/id6756718627&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;已经不能 Append 了，不好意思，忘贴链接了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#9 haolibre&lt;/strong&gt;：FN644MHMW37E7Y8KMA 已用 感谢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#10 angeni&lt;/strong&gt;：R34EXJX334YTERA7P4 已用 感谢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#11 Croow&lt;/strong&gt;：大佬没看到兑换的入口呀&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#12 zzahsjlk&lt;/strong&gt;：@&lt;a href="/member/tuot0601"&gt;tuot0601&lt;/a&gt; &lt;a href="https://apps.apple.com/redeem?ctx=offercodes&amp;amp;id=6756718627&amp;amp;code=" rel="nofollow noopener" target="_blank"&gt;https://apps.apple.com/redeem?ctx=offercodes&amp;amp;id=6756718627&amp;amp;code=&lt;/a&gt;{兑换码}&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;可以这样兑换，也可以用下面的方式&lt;br/&gt;&lt;br/&gt;方法一：通过 App Store 兑换&lt;br/&gt;打开 App Store&lt;br/&gt;点击右上角头像&lt;br/&gt;滑到底部，点击 "兑换礼品卡或代码"&lt;br/&gt;输入兑换码即可&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#13 zzahsjlk&lt;/strong&gt;：@&lt;a href="/member/Croow"&gt;Croow&lt;/a&gt; &lt;a href="https://apps.apple.com/redeem?ctx=offercodes&amp;amp;id=6756718627&amp;amp;code=" rel="nofollow noopener" target="_blank"&gt;https://apps.apple.com/redeem?ctx=offercodes&amp;amp;id=6756718627&amp;amp;code=&lt;/a&gt;{兑换码}&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;可以这样兑换，也可以用下面的方式&lt;br/&gt;&lt;br/&gt;方法一：通过 App Store 兑换&lt;br/&gt;打开 App Store&lt;br/&gt;点击右上角头像&lt;br/&gt;滑到底部，点击 "兑换礼品卡或代码"&lt;br/&gt;输入兑换码即可&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#14 NomiTang&lt;/strong&gt;：8WPT7EHWH8THX3PFTF 已用，感谢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#15 tuot0601&lt;/strong&gt;：@&lt;a href="/member/zzahsjlk"&gt;zzahsjlk&lt;/a&gt; #12 找到了，谢谢。6PY488MT6RXTN4RMW4 已兑换&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#16 freedomin&lt;/strong&gt;：EXLX7P8MFPAHJFPRFE 已兑换 感谢 op&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#17 Croow&lt;/strong&gt;：@&lt;a href="/member/zzahsjlk"&gt;zzahsjlk&lt;/a&gt; #13 感谢大佬，YJHFYT3HPFHPY8H6MH 已兑换&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#18 fragilePride&lt;/strong&gt;：X6XYLAT6N8TF3RJ8X8 感谢带佬&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#19 pkuxkxqiu&lt;/strong&gt;：WFXAWKYXWNXH8RR64Y 已用，感谢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#20 stone9527&lt;/strong&gt;：FJRJ7TE3JAJXMYL88E 已使用，感谢 OP 分享&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#21 Wiioy&lt;/strong&gt;：PLE3TJLLNX7PYX4L3K 已使用，谢谢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#22 bijika&lt;/strong&gt;：3E8FRWRE7JYXYJKWMH  已用，感谢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#23 guansixu&lt;/strong&gt;：86YYPW7KEJLLK4RWXN 已使用，感谢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#24 palard&lt;/strong&gt;：J8HRTJ3YWW8P3YA6F7 已使用，感谢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#25 bijika&lt;/strong&gt;：3E8FRWRE7JYXYJKWMH 已被用，KR6LT6EYKWWWENPRX8 已使用，感谢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#26 tonyleen&lt;/strong&gt;：84JFWL6ERLK8XHHKFY 已用，谢谢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#27 emberzhang&lt;/strong&gt;：NL4ELR6A38N44TP7R6 已使用，感谢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#28 netbtcc33&lt;/strong&gt;：3PT7JHLPATRWAN8K3F 已用，感谢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#29 HyruleLink&lt;/strong&gt;：T74FJM8LA638RR7XWL 已用，感谢分享&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#30 today0is0present&lt;/strong&gt;：感谢大佬 RKY467T64WXN4MHT4L&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#31 NitMoon&lt;/strong&gt;：MRFT7TJE43HELLR38J 已用，感谢分享&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#32 sevenyangcc&lt;/strong&gt;：老哥，咋复制的文案都不改一下呀 &lt;a href="https://i.imgur.com/duWRpIu.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/duWRpIu.png"/&gt;&lt;/a&gt;&lt;br/&gt;“做了一款成语填字 APP ”&lt;br/&gt;&lt;br/&gt;74E84WKMWYYMY4TX3X 已使用&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#33 xuyouzhi&lt;/strong&gt;：MH847NLRXYYYWX6ARR 已兑换，多谢大佬&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#34 zzahsjlk&lt;/strong&gt;：@&lt;a href="/member/sevenyangcc"&gt;sevenyangcc&lt;/a&gt; 早上忙着发帖，忘了自己审查了，成语填字上周也送过 100 个终生会员了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#35 zzahsjlk&lt;/strong&gt;：@&lt;a href="/member/zzahsjlk"&gt;zzahsjlk&lt;/a&gt; 自己 -&amp;gt; 仔细  打错字了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#36 wang3874149&lt;/strong&gt;：HP6WJXJJTLHXF4W3RF 已用，感谢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#37 lossvincefr&lt;/strong&gt;：6RJ6HWPKMYF4LMNTFL 已用，谢谢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#38 luckycoding&lt;/strong&gt;：RNJPTNWHTJNH7EAXWF 已用，谢谢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#39 zhanyunqing2008&lt;/strong&gt;：F3ALP8LYJLANTA8HNX 已用，感谢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#40 BrainStream&lt;/strong&gt;：R786YK8MN4WK4JL6TM 已用，多谢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#41 dujie&lt;/strong&gt;：WWXHTHXJ38P6YMPWWW 已用，感谢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#42 80042&lt;/strong&gt;：LHJKJRLA8JKTAWE6FT 已用，谢谢分享&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#43 andykuen959595&lt;/strong&gt;：TR8PFK6NXMAEEYXKHJ 已用，感谢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#44 andykuen959595&lt;/strong&gt;：多福成语 也是大佬的 APP👏&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#45 rxswift&lt;/strong&gt;：6RJ6HWPKMYF4LMNTFL 已用，感谢分享&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#46 zyazzagar&lt;/strong&gt;：YJHFYT3HPFHPY8H6MH,支持，谢谢！&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#47 tim55&lt;/strong&gt;：YYRKXFN74FJXJ7JT77  已用，感谢分享&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#48 IOFIFO&lt;/strong&gt;：感谢分享&lt;br/&gt;FEWYTARRRLW3438KRP 已使用&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#49 uiverusifu&lt;/strong&gt;：YFJYWELENTRFJ47P3R&lt;br/&gt;已兑换，谢谢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#50 oceaneleven&lt;/strong&gt;：4FATXMN4TXEEHYANXP 已使用 谢谢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#51 hanboys&lt;/strong&gt;：RF8J76TWKL6HFXWHTF 已用，感谢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#52 komorbi&lt;/strong&gt;：3PT7JHLPATRWAN8K3F&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#53 ybbxk&lt;/strong&gt;：XX8RAF33EKLL3L68EY 已用，感谢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#54 Dreamer001&lt;/strong&gt;：bHptNDIwMjQxQDE2My5jb20=&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#55 mw990418&lt;/strong&gt;：XHWE6HXA647AX87X6X  已使用 谢谢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#56 viso7682&lt;/strong&gt;：Y83TEFL6Y68A8PYW7T 已使用，感谢大佬&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#57 bosco2me&lt;/strong&gt;：LK8T4E8WYRXLFAFHWK 已经使用感谢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#58 roma&lt;/strong&gt;：我去，兑换时提示要 16.3 ，下载却不用&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#59 JustinJie&lt;/strong&gt;：TRFMNMKHYF68TK48KL 已使用, 感谢大佬&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#60 Youweiyoyoyo&lt;/strong&gt;：77FELPYTXWW7AA8WMR  APKNFTTP6YL43ANK7W 已用！&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 24 Apr 2026 01:56:17 +0000</pubDate></item><item><title>昨天开始广东深圳地区是不是墙变高了</title><link>https://www.v2ex.com/t/1208168</link><description>&lt;p&gt;昨天 11:20 开始用公司的网络连我的 VPS 时不时超时，公司的出口是联通，如果用联通流量直接连就稳定了。问了公司的 IT 确认没有调整任何网络策略，但不确定他们说的是不是这个女的。&lt;/p&gt;
+&lt;p&gt;今天看了下买的机场大部分节点都挂了，联通流量连也时不时超时，感觉快要断网了一样。VPS 是美国洛杉矶的搬瓦工。&lt;/p&gt;
+&lt;hr/&gt;
+第 1 条附言  ·  &lt;span title="2026-04-24 10:47:24 +08:00"&gt;3 小时 14 分钟前&lt;/span&gt;
+
+风闻消息：中国联通、移动、电信运营商对海外方向均报告网络故障&lt;br/&gt;&lt;br/&gt;大量用户在社交媒体中表示，目前中国三大运营商对于海外方向连接情况出现明显异常。&lt;br/&gt;&lt;br/&gt;中国电信联通往香港、日本方向的回程路由受到明显影响，包括 CN2 、9929 在内的高级路由以及 163 、4837 标准路由均受到此影响，用户报告出现大范围丢包与连接中断现象。亦有少量用户报告，往美国方向路由也被干扰，但是样本量低且集中在部分服务商。&lt;br/&gt;&lt;br/&gt;同时，中国移动手机流量往海外方向出现严重丢包、链接被中断现象，大量用户表示此问题严重影响使用，尤其集中在北京移动用户报告。&lt;br/&gt;&lt;br/&gt;目前尚不可知是突发国际路由故障还是运营商主动调整策略，我们期待大家在评论区讨论您所在地区运营商是否遇到此类问题（请注意隐私保护）。
+
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;#1 zxc1&lt;/strong&gt;：自媒体刷多了，普通人老老实实工作糊口度日，家里有矿当我没说&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#2 leehomyhh&lt;/strong&gt;：@&lt;a href="/member/zxc1"&gt;zxc1&lt;/a&gt; 有想法总得尝试一下，就怕老了后悔&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#3 Yukiteru&lt;/strong&gt;：朝九晚五已经让我很羡慕了，我是朝九晚六&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#4 leehomyhh&lt;/strong&gt;：@&lt;a href="/member/Yukiteru"&gt;Yukiteru&lt;/a&gt; 不想就这样过一辈子&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#5 PaulSamuelson&lt;/strong&gt;：可以参考一下 运维开发吧&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#6 SayHelloHi&lt;/strong&gt;：边旅游 边自媒体&lt;br/&gt;&lt;br/&gt;最近在头条看小钟 了解了非洲&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#7 cxh116&lt;/strong&gt;：多存点钱，尽量省点用。&lt;br/&gt;找份普通的工作都难了，边旅游边赚钱就更难。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#8 wuwuta170&lt;/strong&gt;：自媒体吧 或者交易稳定的话靠交易&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#9 Sundayz&lt;/strong&gt;：不现实，老老实实上班吧&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#10 wuwuta170&lt;/strong&gt;：@&lt;a href="/member/cxh116"&gt;cxh116&lt;/a&gt; 确实  感觉 ai 让人类找工作变得困难&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#11 evilHa&lt;/strong&gt;：我看过几个搞成功的，还有几个搞失败的，比较印象深刻的是一个开房车旅行的女的，还遇到过徐云，和徐云一块吃了顿饭，也是不温不火的，上次刷到都好久之前了，出国旅游去了，粉丝数量也不多。&lt;br/&gt;&lt;br/&gt;这种自媒体只能当作锦上添花，首先，你得有锦才行。其次就是床给哥那种，本来就是社会底层，无所谓，反正也是穷游，成了就成了，不成就体验了。&lt;br/&gt;&lt;br/&gt;你只要能放下你现在的收入，比如先玩一年，大概投入多少，接受全花了的情况，就玩去就行了，年轻的时候不体验什么时候体验啊，我现在有娃了，就想着啥时候把我裁了，我拿着赔偿金去环游中国去。先玩个一年半载的，然后再说重新上班的事情。&lt;br/&gt;&lt;br/&gt;你要是想着就能靠着为生了，或者就收入够自己旅行，那就别考虑了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#12 YIusus1977&lt;/strong&gt;：人生不是一个单选题. 有的事情只有当你踏出去了之后,才知道怎么办. 你可以想想,如果这辈子就剩下这一周或者一年,你愿不愿意继续每天干现在的事情.或者说,你现在比如 25 岁,算算你的工资,比如年薪 20 万,除去吃喝 10 万.每年落袋 10 万,等你 35 岁的时候,除了 100 万,你还收获了什么?工作给你带来了意义感还是觉得自己浪费了青春只是为了换那 100 万,你觉得值不值?&lt;br/&gt;&lt;br/&gt;具体的办法,&lt;br/&gt;1.先在远程工作平台接接单,看看能不能搞到一点钱.&lt;br/&gt;2.自媒体当成补充即可,有流量了再考虑收入问题.不要抱太大期望.&lt;br/&gt;3.学好英语,从口语出发.世界旅游不是旅游,对于没矿的人只是换地方打工.心态要摆正,就算真的无经济负担的旅游,短期还行,长期就会陷入虚无主义.还是要和进入当地社会,工作相结合.&lt;br/&gt;4.具体的工作包括青旅义工项目,打工换宿等.欧美还有一些志愿工作,通常提高住宿和一点零花钱,通常针对 30 岁以内年轻人.总之就是一半时间工作,一半时间穷游.&lt;br/&gt;5.心态上可以看看雷殿生的书,不是所有人都有环游的心.&lt;br/&gt;&lt;a href="http://6.ps" rel="nofollow noopener" target="_blank"&gt;6.ps&lt;/a&gt; 可以考虑海员.&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#13 leaveeel&lt;/strong&gt;：主动赚钱的行为都有违法风险，旅游签禁止任何劳动获利。但有一些灰色地带，比如数字游民和自媒体，但是靠自媒体这种别想了，要是能赚钱你现在就应该有一个在运营的账号。而找 remote 工作又会没那么多时间玩，想着工作也不会太有兴致，有的地方也不满足网络需求。多存点钱才是最简单的。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#14 kulove&lt;/strong&gt;：我认识一朋友 大概是打工八九个月 然后出国玩两三个月这样（背包客）也蛮好的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#15 gvax&lt;/strong&gt;：中个彩票把&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#16 getadoggie&lt;/strong&gt;：没有存款吗？不要规划太远，想去就去，可能后面旅游了一小段时间就玩腻了想工作了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#17 ponelyr&lt;/strong&gt;：搞点被动收入呗，比如开发 APP ，游戏，交易，分红等呗，我想不久的将来，会有一批人实现不坐班的，有追求才是人类嘛&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#18 bearbest&lt;/strong&gt;：+1 ，确实感觉朝九晚五一天天像翻日历一样没有盼头，想着环游世界成本比较高，所以比较倾向于每隔一年半载换个城市旅居这样，靠点固收理财维持本金不会大幅下降即可。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#19 falsemask&lt;/strong&gt;：上次抖音刷到一个旅游博主，看评论区我才知道，他之前做挂壁日结，现在已经去了几十个国家了，具体名字我忘了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#20 Nolink&lt;/strong&gt;：of&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#21 ronyin&lt;/strong&gt;：从新开始自媒体就不用想了。。。之前想尝试副业，根本抖音、微信都不主动帮你推荐。。。这玩意我估计还要买流量。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#22 actopas&lt;/strong&gt;：先是得有一笔钱在取舍之后决定不买房不买车，而不是先攒一笔钱也不是先出去再看&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#23 676529483&lt;/strong&gt;：可以先攒一笔钱，出去 3 个月试试&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#24 loading&lt;/strong&gt;：你可能不知道，你羡慕的那些人，甚至不用去赚钱，就是玩，发自媒体只是满足他们的虚荣心而已。&lt;br/&gt;&lt;br/&gt;广东包租公听说过吧，父母只需要定时去收租，小孩呢？买车，飙车，玩，学个屁，上个毛线班。&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;而你，老实点吧，你可以找个周末，去人多的地方，面前放个帽子，看一天能收几个钱，模拟一下你失业后身无分文的样子。&lt;br/&gt;&lt;br/&gt;另外，外面的治安没里面好，滤镜太强了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#25 loading&lt;/strong&gt;：另外，只要你的工作不是限制出境的，周五一张票就飞出去了，不行就春节飞出去。&lt;br/&gt;&lt;br/&gt;最大的障碍不是时间，很多时候就是看你兜里有没有钱。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#26 xivcm&lt;/strong&gt;：半生都在乞讨的大爷，存款几十万，你敢信吗？&lt;br/&gt;&lt;a href="https://www.bilibili.com/video/BV1jnUHYSEYW/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=170cfd2d5de7bb10a838a2db18953f57" rel="nofollow noopener" target="_blank"&gt;https://www.bilibili.com/video/BV1jnUHYSEYW/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=170cfd2d5de7bb10a838a2db18953f57&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;别听其他人胡说八道，一件事只能有一个目的，另一个目的是枷锁。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#27 kulove&lt;/strong&gt;：环游世界的前提就是能持续获得被动收入 自媒体成功的概率有点低了 当然 人活着一生 想做什么就去做 车到山前会有路的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#28 Gct012&lt;/strong&gt;：如果岁数不大，还是很推荐出去玩一圈的。我年轻的时候（ 14-18 年）经济环境好，身边很多人出去 gap 了一年回来照样可以找到工作，现在就不一定可以了。&lt;br/&gt;以前很流行一种签证，一边工作一边旅游（就是不能在一个固定的地方工作时间很久并且只能从事一些基础行业），就是现在还不知道有没有&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#29 rxswift&lt;/strong&gt;：没房子没车子没孩子还不是说走就走？有这些东西就被束缚住了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#30 alphagao&lt;/strong&gt;：其实就是跟以前的游牧民族一样，要么靠抢劫，要么只能打工攒钱了，攒够了就出发，没钱了就打工&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#31 carverReal&lt;/strong&gt;：我感觉是不是有点本末倒置，不是有了可以维持经济的好方法后，才辞职去环游世界嘛&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#32 Maybez007&lt;/strong&gt;：旅游自媒体？不过这个行业似乎已经被做烂了，不太好想创意&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#33 slert&lt;/strong&gt;：搞个副业，得到被动收入。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#34 z7356995&lt;/strong&gt;：学会投资呀，靠工作挣够 100 万，投资学到年化 15%，这样每年用掉 10 万，本金就永远不会少了。我快达成这个目标了。我早不上班快十五年了。手里有两份被动收入。亚马逊上有几个产品，每天睡醒给我几百块。投资又给我几百元。再过几年，就算亚马逊的链结废了。我的本金和投资能力也够我每天不工作了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#35 godmiracle&lt;/strong&gt;：收租、找家里要。旅游认识的常驻的一般都这 2 种。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#36 folnet&lt;/strong&gt;：多买红利股 红利 ETF ，用分红旅游&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#37 wenrouxiaozhu&lt;/strong&gt;：@&lt;a href="/member/PaulSamuelson"&gt;PaulSamuelson&lt;/a&gt; #4 为啥？？我就是运维开发...&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#38 Chicagoake&lt;/strong&gt;：自媒体，或者能炒股。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#39 molvqingtai&lt;/strong&gt;：如果穷游不需维持什么经济&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#40 970749518nkq&lt;/strong&gt;：在麦当劳之类的快餐厅做兼职，另外就是可以给富婆卖自身的服务&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#41 tt67wq&lt;/strong&gt;：穷游赛道都挤满人了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#42 yingxiangyu&lt;/strong&gt;：我们去了一个月，自驾，两个人，吃喝不算省，一个月大概 1.5w ，真想去有点积蓄就可以去试试，真去了可能也就不喜欢了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#43 yingxiangyu&lt;/strong&gt;：@&lt;a href="/member/yingxiangyu"&gt;yingxiangyu&lt;/a&gt; #41 几个月&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#44 PaulSamuelson&lt;/strong&gt;：@&lt;a href="/member/wenrouxiaozhu"&gt;wenrouxiaozhu&lt;/a&gt; 你看下 运维开发吧 的公众号&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#45 sddyzm&lt;/strong&gt;：害&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#46 willwon1&lt;/strong&gt;：目前已经是你这样的状态了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#47 Aixtuz&lt;/strong&gt;：有时候缺的不是方法，缺的是条件。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#48 webcape233&lt;/strong&gt;：我觉得上班还挺有意思的😀虽然我也想旅游，但是不想穷游，还是花钱舒服。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#49 skylark8&lt;/strong&gt;：我也是一样的想法，我的想法是攒够 100w 的 ETF 基金资产，然后靠质押找银行借钱来获得被动收入，然后在各个城市旅居+打打零工，目前还在攒资产中。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#50 gpt5&lt;/strong&gt;：什么性别？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#51 likooo125802023&lt;/strong&gt;：买 50w 股招商银行，然后就可以去全球溜达了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#52 kristofer&lt;/strong&gt;：炒股或者数字游民了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#53 azhangbing&lt;/strong&gt;：反差比如床哥 徐云这种 反差大的 更底层才有流量&lt;br/&gt;你回去看一个天天自己差不多的，放不下架子，大城市久了的 ，不缺钱 但是天天喊着要自由的人吗？我自己不会。 &lt;br/&gt;第二 不是旅游才能带来自由，而是心灵自由 和自己和解后才是最大的自由 。不是因为生活工作无聊才去旅行，这种心态你玩几个月就腻了，还是解决不了本质问题&lt;br/&gt;第三 赚钱很多种 咖啡车 远程工作 但是我不建议你放弃工作 我建议如果你有一定经济基础再出来，比如 200 万 理个财年化能到 5 个点 ，这样比较健康 不管是买指数还是固收，你起码要有理财的基础 不然喊着自由是没有经济基础的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#54 sddyzm&lt;/strong&gt;：感觉不用想&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#55 shawnsh&lt;/strong&gt;：有些地方都去不了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#56 sir283&lt;/strong&gt;：你存款起码得有蓝战非一半吧？蓝战非存款保守都有 2 个亿以上，你最少也得存够一个亿吧？不然怎么出去玩？难不成穷游？那你还不如自己在家爬楼梯玩呢。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#57 ichigo&lt;/strong&gt;：工作并不影响旅游，休年假或者节假日呗。&lt;br/&gt;跟楼主同样工作稳定，我已经去过四十个多个国家，每个洲都有足迹。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#58 matatabi&lt;/strong&gt;：炒股，前提能不停赚到钱&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#59 mayday1997&lt;/strong&gt;：最大的问题是一般人辞职了没有在职证明和流水之后欧美澳英的签证基本就别想了，更谈不上环游世界这一说&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#60 itxianyu&lt;/strong&gt;：老了没钱更后悔 &lt;a href="https://i.imgur.com/duWRpIu.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/duWRpIu.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#61 mightofcode&lt;/strong&gt;：你都要环游世界了&lt;br/&gt;那就穷游&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#62 ltyj2003&lt;/strong&gt;：睡车上，拉跨城顺风车，开到哪算哪。（仅限电车）&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#63 nanpu&lt;/strong&gt;：老老实实上班吧，微博申典启百万粉的环球旅游博主，每年旅行经费还要靠家里支持的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#64 Huyii&lt;/strong&gt;：我和 op 也有类似的想法，还是得有被动收入，心里才会踏实。英语确实很关键。我本身在跨境行业，身边已经有人靠开店实现到处玩了。所以我现在的想法是，看看能不能做一些跨境相关的增效工具，或者自己开店，来增加副业收入。人生嘛，折腾就完了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#65 MasterLei&lt;/strong&gt;：@&lt;a href="/member/falsemask"&gt;falsemask&lt;/a&gt; 这种更大概率的是本来他就有全球旅行的能力，天天挂壁日结只是为了起号&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#66 sixdog06&lt;/strong&gt;：请假旅游, 把环球拆分到假期里&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#67 Hyschtaxjh&lt;/strong&gt;：賣春 賣照片&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Thu, 23 Apr 2026 05:59:15 +0000</pubDate></item><item><title>我发现程序员这个群体很大部分其实挺抠的</title><link>https://www.v2ex.com/t/1207975</link><description>&lt;p&gt;对硬件投资算舍得，对服务、软件付费其实认可度一般&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#1 bigtan&lt;/strong&gt;：最近应该是大范围开始封锁 fq 了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#2 PumpkinPieM&lt;/strong&gt;：蹲个稳定的节点&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#3 ggwp&lt;/strong&gt;：反正移动的出口网是炸了，从昨天下午开始移动网连梯子不是失联就是断流，到现在还没好呢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#4 ZeawinL&lt;/strong&gt;：@&lt;a href="/member/PumpkinPieM"&gt;PumpkinPieM&lt;/a&gt; 跟你注册时间同时开业的老牌🐔场 &lt;a href="http://dw.p2gg.com" rel="nofollow noopener" target="_blank"&gt;dw.p2gg.com&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#5 46fo&lt;/strong&gt;：深圳电信没感觉&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#6 shawpan01&lt;/strong&gt;：确实，移动/广电体感很差&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#7 SilenceLL&lt;/strong&gt;：感觉要完蛋了，各种自建的和购买的都很不稳定，非常慢。问了四五个同事都一样。目前用流量还好，也不知道能扛多久。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#8 shanks&lt;/strong&gt;：用 ECS 大陆节点做 relay ，感觉还好。IDC 出口应该没啥限制&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#9 PrinceofInj&lt;/strong&gt;：我建议直接封死，把外贸和跨国彻底搞瘫，这样才好。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#10 zhonghao01&lt;/strong&gt;：昨晚节点延迟都非常高，但是勉强能用&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#11 MoonShot&lt;/strong&gt;：花云一直挺稳🐶&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#12 JYii&lt;/strong&gt;：@&lt;a href="/member/PrinceofInj"&gt;PrinceofInj&lt;/a&gt; #9 这个观点我是姿持的，对于加速这件事，只开个窗户是不够的，还是得直接拆屋顶&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#13 kenX&lt;/strong&gt;：用的 DC 几？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#14 willygeek007&lt;/strong&gt;：自建的节点今天突然噶了🐶 坐标大湾鸡&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#15 nuomi196500&lt;/strong&gt;：昨天做外贸的朋友说业务开始受影响，马上要去外面的参加展会，在外网发点儿宣传图都断断续续的，中小外贸企业以后只会越来越难 @&lt;a href="/member/PrinceofInj"&gt;PrinceofInj&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#16 stinkytofux&lt;/strong&gt;：干脆把海底光缆切了吧, 一了百了, 断了念想.&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#17 isongmy&lt;/strong&gt;：@&lt;a href="/member/MoonShot"&gt;MoonShot&lt;/a&gt; 我咋崩的不行 没法用了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#18 LabJo&lt;/strong&gt;：@&lt;a href="/member/MoonShot"&gt;MoonShot&lt;/a&gt; 这几天也老挨打啊，不稳定，以前从来没有过这样不稳定&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#19 rick13&lt;/strong&gt;：我的电信还好&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#20 sillydaddy&lt;/strong&gt;：北京也是，我有 4 张手机卡（移动+联通）做热点，还是不行。他妈的傻逼中.共。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#21 SilenceLL&lt;/strong&gt;：@&lt;a href="/member/MoonShot"&gt;MoonShot&lt;/a&gt; 估计得看地区，太难了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#22 x2rr&lt;/strong&gt;：同样，大概也是中午前突然就卡的不行了，机场大部分节点测速超时，有速度的也卡的几乎不能用，测试了公司的网不行，联通流量也不太行，家里的联通宽带没问题。&lt;br/&gt;只能用自建的甲骨文日本节点。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#23 ronyin&lt;/strong&gt;：单位的深圳移动没感觉，家里的中国电信，明显延迟增加。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#24 rammiah&lt;/strong&gt;：应该是网络出问题了，丢包很严重，如果真的是查翻墙早就封 ip 了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#25 deepbytes&lt;/strong&gt;：手机移动不行，家里和公司的电信没问题，昨天下午开始，我就隐隐感觉不对劲&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#26 datou&lt;/strong&gt;：湖北奠信无感，刚跑了一次 fast 780Mbps&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#27 wniming&lt;/strong&gt;：深圳电信无感，我 2 个梯子，amytelecom 和 justmysocks 都正常&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#28 Meteora626&lt;/strong&gt;：@&lt;a href="/member/PrinceofInj"&gt;PrinceofInj&lt;/a&gt; 外贸和跨国 有正规渠道，无非是看舍不舍得花钱了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#29 roding&lt;/strong&gt;：深圳电信昨天也炸了，连 dmit cn2gia 美西 vps ，不停断线，用手机联通流量登录就正常，还有我发现用 hy2 走 ipv6 也正常，不知道是不是对 ipv4 有什么问题&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#30 tpu&lt;/strong&gt;：深圳电信，东京 VPS 几乎连不上。但是 ipv6 还能连一下。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#31 zmqking&lt;/strong&gt;：看不明白吗，这是要 war 的前奏...&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#32 alfa&lt;/strong&gt;：是的，昨天 17:06 直接死掉一台。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#33 wu67&lt;/strong&gt;：应该是整个广东都有断联, 但是我这边是偶尔断一下, 我主动断开重连又正常了.&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#34 bclerdx&lt;/strong&gt;：@&lt;a href="/member/nuomi196500"&gt;nuomi196500&lt;/a&gt; 做啥外贸，做内贸吧😄&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#35 bclerdx&lt;/strong&gt;：@&lt;a href="/member/sillydaddy"&gt;sillydaddy&lt;/a&gt; 骂人也没用。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#36 Alanlee1473&lt;/strong&gt;：我的移动还好嘞&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#37 yanlaz&lt;/strong&gt;：是的，我们电信固定 IP 专线好几个 vpn 都用不了，换拨号宽带可以连上一小部分节点。&lt;br/&gt;&lt;br/&gt;快连发的维护公告：&lt;br/&gt;&lt;a href="https://x.com/letsvpn/status/2044297066160238696" rel="nofollow noopener" target="_blank"&gt;https://x.com/letsvpn/status/2044297066160238696&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#38 poorcai&lt;/strong&gt;：我是联通流量不行了，连上家里的联通宽带就好了。另外我广电流量也可以。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#39 WilliamZuo&lt;/strong&gt;：昨晚 8 点开始，现在好像稍微正常了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#40 Gilfoyle26&lt;/strong&gt;：直接肉身翻墙+外国绿卡，绝对的最优解 &lt;a href="https://i.imgur.com/io2SM1h.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/io2SM1h.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#41 huaweii&lt;/strong&gt;：@&lt;a href="/member/zmqking"&gt;zmqking&lt;/a&gt; 细说。我要开始囤积物资了，推荐点&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#42 xloger&lt;/strong&gt;：我这几天刚好新买的 KPad ，然后昨晚开始代理一直连不上，死活换代理、软件都不行......&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#43 arvinwangzj&lt;/strong&gt;：我买的快连都快卡爆了，肯定有啥事情&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#44 dsg001&lt;/strong&gt;：自建小鸡，快十年了，一直很稳&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#45 FozillaMox&lt;/strong&gt;：联通宽带连日本、香港丢包巨多，延迟相当夸张&lt;br/&gt;电信暂时正常&lt;br/&gt;坐标深圳&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#46 unb&lt;/strong&gt;：福建联通，目前很卡，有时 tls 握手需要等很久 有时就正常一些。明显感觉变慢了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#47 xzpjerry731&lt;/strong&gt;：补充个情报，今天开始观测到无法用 surge ponte 连回广东联通家宽，奇怪的是 surge 自检 ponte 是正常的，实际用的时候会出现 connect reset by peer&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#48 MiKing233&lt;/strong&gt;：苏州联通 AS4837 过去 24h 正常, 应该是部分地区受影响而不是全国范围&lt;br/&gt;&lt;br/&gt;&lt;a href="https://i.imgur.com/fpUhu95.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/fpUhu95.png"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="https://i.imgur.com/DBzyvuH.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/DBzyvuH.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 24 Apr 2026 01:36:52 +0000</pubDate></item><item><title>不仅有 Z7 趴窝，原来前天发布会还有雪地白羊 AEB 造假呢...</title><link>https://www.v2ex.com/t/1208157</link><description>&lt;p&gt;绝了，大嘴发布会宣传雪地遇白羊，问界 AEB 正常触发，应该是想给激光雷达吹牛逼，
+但是... 漏洞一大堆，羊的影子从左前方突然变正右方，太阳方位不可能在几秒内转 90 度，只能是两段不同时间的素材硬拼。
+车头 “充电枪” 穿帮：视频里车头侧面一直插着运动相机支架，正常路测不可能带这东西，纯摆拍痕迹。
+画面 AI 感过重：雪地太干净、车痕不连贯、羊的边缘糊边，符合生成式 AI 合成特征，不是真实拍摄。
+车过雪地不留痕，论坛干净不沾雪，服了&lt;/p&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;#1 zhouhuab&lt;/strong&gt;：我都硬件都舍不得&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#2 hubianluanma&lt;/strong&gt;：分人吧，我每个月软件和服务订阅花费固定 270 左右&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#3 xiaomushen&lt;/strong&gt;：估计是你那圈比较抠&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#4 aes114514gcm&lt;/strong&gt;：自己就是做软件的，知道很多替代服务，花钱上不会比认知外的干脆。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#5 Orenoid&lt;/strong&gt;：我觉得是程序员信息搜集能力强，很多软件太容易找到开源或者免费替代了，找不到或者免费的差太多才会考虑付费&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#6 ayasealter570&lt;/strong&gt;：很多时候软件订阅啥的都赚的垄断和信息差。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#7 lujiaosama&lt;/strong&gt;：哪里不舍得。现在大家伙用 AI ，一个月不得几百块啊。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#8 songco&lt;/strong&gt;：也可以说不容易被忽悠&lt;br/&gt;另外和在乎的东西有关，&lt;br/&gt;有些人喜欢好房子，其他可以将就，&lt;br/&gt;有人喜欢好车，其他可以将就&lt;br/&gt;&lt;br/&gt;问题是&lt;br/&gt;又不是不能用？&lt;br/&gt;影响我赚钱了吗？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#9 eventlooped&lt;/strong&gt;：你的发现和你认知高度相关&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#10 cozof&lt;/strong&gt;：可能因为早期的互联网精神一直是免费、分享。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#11 sentinelK&lt;/strong&gt;：因为开发程序的特性就是认理性参数，不认感性价值。&lt;br/&gt;&lt;br/&gt;显得更“抠”是因为很多领域的消费品，感型价值比重实在太大。甚至部分领域会出现倒挂（实际性能更差的产品，因为品牌、营销策略等原因更贵）&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#12 hookybaby&lt;/strong&gt;：确实，从最早的 apple 5K 显示器开始就想买，这都第三代了，还是不舍得，多少年了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#13 fxxkgw&lt;/strong&gt;：有没有可能 你说的这些难道不都应该是公司免费提供的么？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#14 cryptovae&lt;/strong&gt;：1. 硬件舍得花钱是因为自己实在手搓不出来&lt;br/&gt;2. 软件五花八门，开源的功能不够齐，不开源的安全风险/收集信息，肯定要货比三家，实在不行自己开发一个&lt;br/&gt;3. OP 最近一条在 &lt;a href="https://www.v2ex.com/t/1207838" target="_blank"&gt;https://www.v2ex.com/t/1207838&lt;/a&gt; 发言`我发现程序员这个群体其实挺抠的`,别人明明说的的是产品服务收钱不到位，自己却在阴阳怪气&lt;br/&gt;4. OP 纯脑瘫一个，上来就开地图炮说程序员抠门，你这观察力可以，已经从个体行为直接跃迁到群体定性了，建议顺便发篇论文。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#15 frankies&lt;/strong&gt;：不要做客户认知领域内的生意，放之四海皆准的，任何行业都是如此。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#16 peteretep&lt;/strong&gt;：你这观察的不太准啊&lt;br/&gt;&lt;br/&gt;不是程序员扣，而是成年男性扣&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#17 forisra&lt;/strong&gt;：因为付费模式很难走通。&lt;br/&gt;&lt;br/&gt;除了无可替代的某些软件，你如果付费大概率是覆盖不到所有的市场，甚至我怀疑能不能覆盖 10%都是个问题。然后你作为开发者，运营方肯定也要有足够盈利吧。计算自己的时间投入弄个 10%的成本收益率也不过分。叠加起来最后就是付费定的价格一般都没啥性价比。&lt;br/&gt;&lt;br/&gt;这个甚至于在其他的领域也是一样的。很多人赚了钱，但是不花钱，结果就是整个市场的经济活动只能依赖投资和出口。实际上理想状态下，赚多少就差不多要花多少。所谓“营销”，“品牌”其实说到底你还是不认可别人的工作是工作。当然我也是这么想的，我不觉得有些人的工作真的很有效，但现实就是没办法。我们只能认为市场现有的价格已经比较完美的体现了此刻的价值。包括所有的，设计，营销，品牌等等。&lt;br/&gt;&lt;br/&gt;秩序的建构是困难的，说白了大多数人就是无产阶级费拉。虽然口号喊得震天响但这些口号背后的本质其实还是为了白嫖。相反解构一个秩序是容易的，所以在互联网这种复制粘贴传播没有任何成本的地方，付费订阅推广总是困难的。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#18 forisra&lt;/strong&gt;：很多人说开源，我觉得支持开源起码来讲就是你用多少开源的工具应当付出多少开源上的劳动。这个可以用 web3.0 搞一个什么代币之类的。&lt;br/&gt;&lt;br/&gt;以前只不过大佬的产出一个顶一千个人，其实开源也慢慢不可持续，ai 时代以来，各大 ai 公司直接釜底抽薪，可以说彻底把开源，社交网站分享的信息产出干崩溃了。&lt;br/&gt;&lt;br/&gt;未来你们怎么办，只有天知道。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#19 skuuhui&lt;/strong&gt;：说实话，我几乎看不到除了程序员外，还有主动自费 ai 的人群了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#20 94&lt;/strong&gt;：因为自己心里非常清楚到底付费的点在哪里。没必要、也不想花冤枉钱。&lt;br/&gt;&lt;br/&gt;就像我们这边买衣服就会看各种做工和料子，稍微有一点能被抓住的点都是和老板砍价的由头。&lt;br/&gt;而且很清楚进价区间大概是多少，也不会说砍价直接砍到脚脖子，只是不想花冤枉钱。&lt;br/&gt;&lt;br/&gt;程序员在为软件和服务付费的时候也一样的。知道是不是麻烦和不好搞，自己投入时间去改开源的来用是不是划得来。如果只是套壳一下肯定没几个愿意花钱。&lt;br/&gt;&lt;br/&gt;相同的知识付费也是这样，有深度的分享受众小、定价高，能看懂的会自己评估是不是自己需要的，用的到就买，用不到就不买。但是受众就那么多也卖不掉多少份。&lt;br/&gt;没有深度的入门科普系列课，没深度，但买的便宜但是受众多，少赚一点×几千上万也是不小的数目了。但程序员圈子一看就知道不值当，就完全卖不掉。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#21 Gilfoyle26&lt;/strong&gt;：因为太贵了，如果我要把所有日常用到的软件都换成正版的，那么我每个月的工资也不剩下什么了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#22 potatowish&lt;/strong&gt;：确实扣，用 claude code 、codex 都要往死了用，一定要把额度榨的一滴不剩&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#23 shylockhg&lt;/strong&gt;：很正常，吃了这顿没下顿，要是像体制保证一辈子，那我肯定该花花&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#24 cherryas&lt;/strong&gt;：都 tm 付费上班了，还扣。&lt;br/&gt;&lt;br/&gt;一个月自费 token1000RMB 左右 无报销&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#25 nullEDYT&lt;/strong&gt;：@&lt;a href="/member/cherryas"&gt;cherryas&lt;/a&gt; 牛 预测付出占比收益不超过 5%&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#26 coderluan&lt;/strong&gt;：实际上国人整体对软件付费的认可度都很低，程序员是其中最高的群体了，这个情况就是经济短期高速发展但是消费习惯没跟上，如果经济能持续发展，早晚会跟上的。甚至如果经济之后发展不好了，你之前抠点完全是好事，起码钱攒下了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#27 wetalk&lt;/strong&gt;：要不然说  程序员是最好爆金币的群体呢 &lt;a href="https://i.imgur.com/io2SM1h.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/io2SM1h.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#28 folnet&lt;/strong&gt;：因为朝不保夕，随时被斩杀&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#29 lixintcwdsg&lt;/strong&gt;：大部分都是穷养出来的性格，这个是主因&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#30 96&lt;/strong&gt;：不扣的群体是？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#31 loryyang&lt;/strong&gt;：我不知道你在说什么，如果一个需求，用免费软件都能搞定，那为啥要付费&lt;br/&gt;你要说付费意愿低，那可以吐槽两个方面：&lt;br/&gt;1. 软件服务做得不好，造成大家没有付费意愿&lt;br/&gt;2. 软件服务厂商无底线内卷，把本该收费的服务都免费了&lt;br/&gt;至于你说盗版啥的，那我要说，想钻漏洞获利的人可不止程序员呢。真要怪，也要怪国家有没有好好治理&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#32 kakki&lt;/strong&gt;：你好,分人&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#33 NewTab12138&lt;/strong&gt;：还好吧，我 claude code 一个月就一百多刀，再加上 google, 各种会员，一个月也要几千了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#34 xiangqiankan&lt;/strong&gt;：程序员码农的出身群体是啥，弄明白这个就知道了，农村和小城镇居多，没别的技能和才艺，穷苦出身才干码农&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#35 fredweili&lt;/strong&gt;：没有生活在真空里，这个社会就这样，大家都不太愿意，跟职业无关&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#36 JettWu&lt;/strong&gt;：是的 我打游戏从来没充过 648 最多 328&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#37 Sezxy&lt;/strong&gt;：对于付费上班这件事来讲，我十分扣，不能让公司轻易从我这里赚走一分钱&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#38 Smileh&lt;/strong&gt;：哦哦哦&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#39 docx&lt;/strong&gt;：看人，硬件也未必就舍得，有些会觉得自己能解决就自己解决，并把这种折腾的过程当成乐趣&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#40 HanMeiM&lt;/strong&gt;：没听说过男性消费能力垫底吗？不如一条狗&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#41 h3ral&lt;/strong&gt;：你说的对&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#42 JKeita&lt;/strong&gt;：这要看啥情况吧，如果是付费上班我只能说是傻逼。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#43 Eillott&lt;/strong&gt;：我关御三家订阅就每月 60 刀，不知道你在说什么&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#44 DrakezZ&lt;/strong&gt;：@&lt;a href="/member/xiangqiankan"&gt;xiangqiankan&lt;/a&gt; 那是上一轮了 现在好学校里家境差的占比越来越少了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#45 sosme&lt;/strong&gt;：@&lt;a href="/member/eventlooped"&gt;eventlooped&lt;/a&gt; 真相了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#46 zhoulouzi&lt;/strong&gt;：如果能稳定每个月给我打工资，到六十岁退休，我肯定不扣嘛&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#47 zqguo&lt;/strong&gt;：这是你的圈子这样吧，不代表所有程序员。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#48 cocogovern&lt;/strong&gt;：关键是穷啊。还有车贷房贷下一代。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#49 xjzshttps&lt;/strong&gt;：你要看东西值不值，&lt;br/&gt;原来我一直订阅 jb 全家桶的，体验真的很好。&lt;br/&gt;不过现在直接 ai 了...&lt;br/&gt;&lt;br/&gt;如果你说我不订阅 winrar ，那么明明有免费的 7z 可用，我为什么要去订阅 winrar ？&lt;br/&gt;很多东西都类似，我知道很多免费、开源更好的东西，那么指望我去买功能更少的付费软件就离谱了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#50 heftyMan&lt;/strong&gt;：你大方，你消费了多少？账单发下看看&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#51 LandCruiser&lt;/strong&gt;：程序员大多是苦出身，穷人家的孩子，勤俭节约习惯了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#52 showonder&lt;/strong&gt;：对确定性的偏好大于对风险的偏好&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#53 dfdd1811&lt;/strong&gt;：生活上抠抠搜搜，A 股里说买就买。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#54 cmdOptionKana&lt;/strong&gt;：@&lt;a href="/member/coderluan"&gt;coderluan&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;&amp;gt; 实际上国人整体对软件付费的认可度都很低，程序员是其中最高的群体了&lt;br/&gt;&lt;br/&gt;对，明明是最大方的，但看评论很多人都被 OP 带偏了，默认就在找“为什么抠”的原因。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#55 lazypu&lt;/strong&gt;：你才发现&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#56 lscho&lt;/strong&gt;：你自己抠不要给别人扣帽子。&lt;br/&gt;&lt;br/&gt;ai 场景唯一跑通的就是代码辅助。openai 估值 8500 亿美元。&lt;br/&gt;&lt;br/&gt;claude 几乎纯靠代码模型拿到 8000 亿美元的估值。&lt;br/&gt;&lt;br/&gt;就普通人群里，程序员几乎是付费意愿最高的人了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#57 jpyl0423&lt;/strong&gt;：AI 订阅不都在抢，被封了还要买，哪里扣了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#58 cutecore&lt;/strong&gt;：还是太贵了，powerdvd 、infuse 、emby 之类要是卖 150 ，直接就买了。&lt;br/&gt;那些日厂游戏一样，动不动就卖 500+，实在卖不起，&lt;br/&gt;要是打折卖 60 ，80 ，直接全系列补全。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#59 JimLee0921&lt;/strong&gt;：俺程序员咋着恁了？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#60 dododook&lt;/strong&gt;：不是程序员扣，而是成年男性扣&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#61 ttkanni&lt;/strong&gt;：人以群分，物以类聚&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#62 Chemist&lt;/strong&gt;：不给你钱就是扣吗？证明不扣还得账单拉出来给你看？我看你也挺扣的，毕竟我没收到你一分钱。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#63 jjymup1&lt;/strong&gt;：我是单纯的因为穷昂，我不是程序员我也是抠比&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#64 moudy&lt;/strong&gt;：@&lt;a href="/member/cutecore"&gt;cutecore&lt;/a&gt; 上学那时候买个 40rmb 的星际 2 都肉疼。现在 xbox store 20 刀的打折游戏约等于不要钱。现在还是十几个买了没时间玩的。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#65 cocong&lt;/strong&gt;：能不花钱为什么要花？为了扶持别人？那谁来扶持我？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#66 Eagleyes&lt;/strong&gt;：都是血汗钱，各个方面都扣，唯独愿意对女生爆金币&lt;br/&gt;&lt;br/&gt;苏享茂——翟欣欣&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#67 LXVC&lt;/strong&gt;：那问题来了，非程序员群体对服务、软件付费认可度就高了吗？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#68 isSamle&lt;/strong&gt;：该省省该花花，我家用电脑买了大几万，模型 token 消费了不少，每年服务器不少钱纯为爱发电，你还说我扣那我得跟你讲讲理&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#69 illiteracy0001&lt;/strong&gt;：因为普遍印象是程序员薪资高钱好赚，但是大多数程序员薪资并没有比其他职业高的太多，都是辛苦钱，且不知道还能赚几年，自然会比较克制&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#70 yxzblue&lt;/strong&gt;：日子太苦了  大部分人  包括我自己&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#71 shanliang&lt;/strong&gt;：房子 车子 找老婆 养孩子 没看出来程序员扣&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#72 chendy&lt;/strong&gt;：程序员日常脱离群众系列&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#73 VeteranCat&lt;/strong&gt;：去掉“程序员这个群体”。 抠是对自己生活的一种负责，花钱毫无计划大手大脚是 短生种 喜欢干的事。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#74 cutecore&lt;/strong&gt;：@&lt;a href="/member/moudy"&gt;moudy&lt;/a&gt; steam 游戏买了很多，IDM 也买了几份。但是花钱观念没变化太多。比如 emby 100 刀，还是买不起，消费只接受 200 块钱以下&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#75 abelmakihara&lt;/strong&gt;：我说个观点吧 因为程序员工作很多人并不感兴趣&lt;br/&gt;所以这个钱赚的时候是非常痛苦的&lt;br/&gt;再加上大环境人人都懂 当然会格外珍惜&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Thu, 23 Apr 2026 04:43:08 +0000</pubDate></item><item><title>《 AI 带来的革命性改变，为何还没发生 》</title><link>https://www.v2ex.com/t/1207970</link><description>&lt;p&gt;如今每个人都在谈论 AI ，说 AI 要改变世界，改变人类的生活，似乎大家描述的都是一种很宏大的叙事：生产力爆炸、认知跃迁、职业重构、人类被彻底重塑，仿佛 AI 将创造出一个可以无限想象无所不能的未来蓝图。&lt;/p&gt;
-&lt;p&gt;但我的直观感受，这些“革命”，好像并没有真正落在大多数人的生活轨迹上。不是说 AI 没用，相反，它太有用了。无论每个人现在是什么年龄什么岗位，想学习一门新的系统性的知识，甚至实操方法，在 AI 帮助下都可以比过去知道的更快更充分，现在获取知识几乎没有门槛，想学什么，比如法律，经商，外贸，技术等等都可以被 AI 清晰拆解、被讲清、甚至被带着一步一步实操。以前要花几个月摸索的东西，现在可能几天甚至几小时就能入门。理论上，这种能力应该足以让很多人试一试跨越阶层或者至少改变既有的人生路径。&lt;/p&gt;
-&lt;p&gt;但现实是大部分人的生活，好像还是原来的样子。还是过的和往常一样的生活，生活本质生活轨迹并没有发生根本性的变化。还是原来的工作节奏，原来的焦虑，原来的选择惯性，原来的人生路径。&lt;/p&gt;
-&lt;p&gt;如果信息差被迅速抹平，如果学习成本被极大降低，如果生产能力被不断放大，那为什么普罗大众的人生分布，看起来并没有发生对应幅度的变化，换句话说：如果一个人今天拥有了远超过去的知识获取能力和执行辅助能力，那为什么他的人生，为什么还是沿着原来的轨迹在走。如果我们在 AI 没有出现之前有了这种能力，是不是能带来人生的极大改变。&lt;/p&gt;
-&lt;p&gt;我的问题是，如果 AI 真正能带来对大部分人生活轨迹和生活质量的革命性改变，这个改变何时到来。甚至说，假如这个改变其实由 AI 带来不了，即使无限的知识和生产力摆在那里，个人还是大概率走不出原有的人生路线，那么真正能带来个人生活轨迹革命性改变的力量是什么。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#1 lifeintools&lt;/strong&gt;：这就是为啥我不太敢选国产车~~出问题了 不大大方方道歉&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#2 Aprdec&lt;/strong&gt;：明摆着造假还有那么多人捧,其他什么的就算了车也能这么搞.&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#3 forisra&lt;/strong&gt;：其实挺合理的，反正这个车也不走量，不如多提提纯筛选出结晶粉。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#4 duanxianze&lt;/strong&gt;：用 AI 造假上瘾了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#5 cherbium&lt;/strong&gt;：最离谱的是：你要是纯视觉方案能识别，我承认你分辨率高，牛逼，但是你大肆宣扬激光雷达识别出来吗，那 tm 的不是欺负人没文化么，激光雷达靠的是反射波，又不是视觉，无论羊什么颜色，雷达的反射波是一样的啊&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#6 worldhandsomeboy&lt;/strong&gt;：助理多次半蹲递水，看着都爽&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#7 alva0&lt;/strong&gt;：做的太真，就筛选不到目标用户了，大赢特赢 &lt;a href="https://i.imgur.com/L62ZP7V.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/L62ZP7V.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#8 wetalk&lt;/strong&gt;：遥遥领先是这样的，自己的问题，非要扩大到全体国产车上&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#9 supuwoerc&lt;/strong&gt;：51 去看看特斯拉... 省心...&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#10 skylark8&lt;/strong&gt;：买车就买特斯拉，手机就用苹果，户子的含金量还在上升 &lt;a href="https://i.imgur.com/agAJ0Rd.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/agAJ0Rd.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#11 JWilling&lt;/strong&gt;：把宣传部门开了吧，太抽象了，如果没有这些抽象的操作起码会卖的好一些。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#12 folnet&lt;/strong&gt;：赢学公司&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#13 myqonnt&lt;/strong&gt;：@&lt;a href="/member/cherbium"&gt;cherbium&lt;/a&gt; 有道理啊，对于激光雷达方案这个测试场景好像不能说明技术水平。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#14 BretTaylor&lt;/strong&gt;：反正就是不道歉，这何不是一种筛选目标群体，只有相信这些才能信。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#15 Cu635&lt;/strong&gt;：@&lt;a href="/member/lifeintools"&gt;lifeintools&lt;/a&gt; #1&lt;br/&gt;国产车虽然一言难尽，但这个事情确实是“个别车企不要上升‘国产’”。&lt;br/&gt;&lt;br/&gt;@&lt;a href="/member/Aprdec"&gt;Aprdec&lt;/a&gt; #2 @&lt;a href="/member/forisra"&gt;forisra&lt;/a&gt; #3 @&lt;a href="/member/JWilling"&gt;JWilling&lt;/a&gt; #11 @&lt;a href="/member/BretTaylor"&gt;BretTaylor&lt;/a&gt; #14&lt;br/&gt;这叫邪教和邪教教徒。&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;@&lt;a href="/member/worldhandsomeboy"&gt;worldhandsomeboy&lt;/a&gt; #6&lt;br/&gt;这是哪个发布会？视频是哪里？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#16 ODESZA&lt;/strong&gt;：这个雪天照白羊的宣传真是低智，汽车激光雷达用的是不可见红外光，又不是靠摄像头可见光学识别。理论上哪怕被照物体和环境颜色完全一致也不会影响识别啊。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#17 yangwcool&lt;/strong&gt;：神奇的文化、神奇的环境、筛选出的、神奇的人。&lt;br/&gt;在产品发布会上当着众人面放这段视频，要我早就羞死了，头都抬不起来。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#18 JWilling&lt;/strong&gt;：@&lt;a href="/member/yangwcool"&gt;yangwcool&lt;/a&gt; 那就再发布一次哈哈，我记得享界就发布了好几次。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#19 xxlsize&lt;/strong&gt;：互联网造车没有敬畏之心，还是跟造手机一样的套路和玩法，但是车在路上出问题可是要死人的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#20 awsx&lt;/strong&gt;：他不用骗到所有人&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#21 FrankAdler&lt;/strong&gt;：只要不承认就没有造假，你非说造假就只能送你进去躺几年了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#22 myarsenal&lt;/strong&gt;：这家企业的本质就是招摇撞骗，露馅了就全网删帖&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#23 wopenon&lt;/strong&gt;：@&lt;a href="/member/Cu635"&gt;Cu635&lt;/a&gt;  [鼎桥公司企业文化-哔哩哔哩]  &lt;a href="https://b23.tv/5mV9aER" rel="nofollow noopener" target="_blank"&gt;https://b23.tv/5mV9aER&lt;/a&gt;&lt;br/&gt;就是这一场啊发布会啊，最搞笑的还是这视频最早是 mcn 爆出来配图“余总霸气”“男儿当如此”之类的，发现起了反效果但已经被人存档了&lt;br/&gt;就和之前那个全网海吹“少年感”一样，我真觉得某些滑粉不似人类，能粉这玩意和品牌&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#24 cpper&lt;/strong&gt;：华子以前什么风评大家都知道，从 18 年后配合上民粹抬头华子绑定上了爱国宣传就洗白了，这家公司从上到下造假&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#25 cpper&lt;/strong&gt;：刻在基因里的造假&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#26 cpper&lt;/strong&gt;：@&lt;a href="/member/xxlsize"&gt;xxlsize&lt;/a&gt; 任正非余大嘴自己又不开，用户？用户他们才不管&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#27 penisulaS&lt;/strong&gt;：车圈怎么这么乱,幸亏我不接触,完全不知道这些破事&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#28 FabricPath&lt;/strong&gt;：这仔细看连充电枪都还插着的。&lt;br/&gt;昨天另外一个 thread 有个鸿蒙大脑一直在维护 z7 趴窝，好奇他怎么看待 z7 ai 冬测&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#29 RanKaede&lt;/strong&gt;：也不算造假，视频左下角有小字标注的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#30 ltux&lt;/strong&gt;：这招的目的是提前筛选出合格粉丝。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#31 ZhaokunZhang&lt;/strong&gt;：那个视频看着就有点假，感觉不像正常拍摄。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#32 marcong95&lt;/strong&gt;：@&lt;a href="/member/cherbium"&gt;cherbium&lt;/a&gt; 雪地白羊的意义应该拿一个 edge case 来拉踩纯视觉方案的友商，但是用激光雷达还只能用拼接视频反而更讽刺了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#33 lizongwu&lt;/strong&gt;：都不愿意为华为牺牲，算什么好韭菜&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#34 skyworker&lt;/strong&gt;：@&lt;a href="/member/lifeintools"&gt;lifeintools&lt;/a&gt; 你的意思是"高级外国车"大众, 从来没有过数据造假吗?&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#35 jixule&lt;/strong&gt;：速成鸡，车还没造，先跑数百万公里&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#36 SiLenceControL&lt;/strong&gt;：@&lt;a href="/member/Cu635"&gt;Cu635&lt;/a&gt; 算了吧，知道你是小米用户了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#37 wyhooo&lt;/strong&gt;：因为现在的宣传口径就是 激光雷达=安全。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#38 liujunyuan&lt;/strong&gt;：确实人跟人本来就不一样，筛选机制也有它的道理。&lt;br/&gt;我在华为的同学工作七八年了，没有休过周六的假，婚假陪产假也是提前结束的，上次见面人依旧干劲十足，昂扬澎湃，只能说我反正吃不了那碗饭。&lt;br/&gt;我和我同学都这样分流了，用户大概率也是一样的道理，有人就喜欢买国产自研可控的，在一些行业用华为手机，开华为车，应该是很安全省心的选择。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#39 iwasthere&lt;/strong&gt;：国产的就这样&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#40 dawee2y&lt;/strong&gt;：@&lt;a href="/member/worldhandsomeboy"&gt;worldhandsomeboy&lt;/a&gt; 余皇万岁万万岁&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#41 FishingRabbit&lt;/strong&gt;：完完全全的垃圾企业，造的垃圾车。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#42 KingW777&lt;/strong&gt;：他们说：要给国产车一点时间！&lt;br/&gt;啥？赚了钱好移民？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#43 cellsyx&lt;/strong&gt;：@&lt;a href="/member/cpper"&gt;cpper&lt;/a&gt; 关键是这样明目张胆的造假和堵嘴，竟然还有这么多人信他。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#44 XLeopard&lt;/strong&gt;：拉完了，这尼玛不纯纯的邪教组织吗&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#45 whileFalse&lt;/strong&gt;：@&lt;a href="/member/cherbium"&gt;cherbium&lt;/a&gt; 那有什么问题吗？打的就是你特斯拉&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#46 quzard&lt;/strong&gt;：这公司造假已经无法无天了，没人能管了。别是下一个恒大&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#47 damila&lt;/strong&gt;：这个牌子在不断地提纯筛选自己的受众群体，不信这套的人早就拉黑这个牌子了，不差这一个 sb 操作，而信的人会愿意花更多钱进行支持然后高呼遥遥领先&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#48 justdoitzZ&lt;/strong&gt;：真的，在这个论坛看到华为粉丝和米粉和其他粉丝互喷就恶心&lt;br/&gt;你喜欢，你掏钱，你买，这是你的自由&lt;br/&gt;我买什么，我说了算了，我也不打算说服你&lt;br/&gt;你也别打算说服我&lt;br/&gt;&lt;br/&gt;干，一天天，就是个粪坑，互喷，互黑&lt;br/&gt;真的不在乎，也不关注&lt;br/&gt;&lt;br/&gt;我说过，不关注，不回复，忽视，就是我的态度&lt;br/&gt;还是没忍住来回复&lt;br/&gt;&lt;br/&gt;忍住，以后就是不要点进来不要回复不要污染我的眼睛&lt;br/&gt;生活里的精彩很多，真的一点不在乎你们的发布会怎么样视频怎么样，make no sense&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#49 KingW777&lt;/strong&gt;：你们不买单，长公主在可能在加拿大消费？屌丝们，醒醒吧&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#50 cpper&lt;/strong&gt;：@&lt;a href="/member/quzard"&gt;quzard&lt;/a&gt; 负债率上讲，已经是半个恒大了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#51 magewu1223ll&lt;/strong&gt;：最好的回应就是不关注不理睬，造假关我什么事，反正菊厂的东西这辈子不会再买了。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 24 Apr 2026 00:54:47 +0000</pubDate></item><item><title>ThinkPad 用来工作编程推荐哪一款？</title><link>https://www.v2ex.com/t/1208154</link><description>&lt;p&gt;打算 618 左右购入
+不要 thinkbook
+预算 1W 左右&lt;/p&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;#1 archxm&lt;/strong&gt;：现在是推广阶段，很多 ai 服务是免费的。&lt;br/&gt;最终谁结账啊？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#2 artiga033&lt;/strong&gt;：宣传当然要往猛了吹，然而现实是，哪怕是电力和网络至今都还没有普及到这颗星球的每一个角落&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#3 nomansky&lt;/strong&gt;：你看，又急.jpg&lt;br/&gt;&lt;br/&gt;这才几年就想 AI 一夜之间颠覆世界了. &lt;br/&gt;&lt;br/&gt;Gradually, then suddenly.&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#4 Rickkkkkkk&lt;/strong&gt;：这得看你怎么定义了&lt;br/&gt;&lt;br/&gt;你感觉 iPhone4 的诞生是革命性的不？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#5 zenfsharp&lt;/strong&gt;：之前的工业革命用了百年完成它的影响，AI 的革命是爆炸式的，要远远短于之前的两次工业革命，甚至可能达到惊人的十倍速度，只用短短十年就完成变革。🐶&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#6 finab&lt;/strong&gt;：我是 90 后，回过头看，感觉每长大几岁科技都有很大突破。但当初可能不觉得&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#7 Tink&lt;/strong&gt;：第三次工业革命&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#8 june4&lt;/strong&gt;：还是得突破到实体经济才能对社会产生巨大影响，比如媲美人类的机器人。&lt;br/&gt;感觉至少还要 10 年以上。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#9 catazshadow&lt;/strong&gt;：变革不了的，只会停在写所有人都会写的代码上&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#10 mk3s&lt;/strong&gt;：谁说革命没发生，根据今天另一个帖子的标题，程序员这么扣的群体，都付费买 ai 上班了，这还不算革命了吗（/doge/doge/doge/doge/doge/doge/doge 狗头多来几个😜&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#11 askfilm&lt;/strong&gt;：对，抠门的码农，都被各种言论吓得付费上班了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#12 Kaisar&lt;/strong&gt;：变革已经渗透到生活中的方方面面了比如短剧/网文/资讯等等,之所以你没有感受到剧变我觉得更多的是来自国家机器的控制就拿全自动驾驶来说一旦完全开放了整个行业结构都会崩塌这是国家层面不希望看到的所以各方面都需要时间慢慢推进&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#13 levn&lt;/strong&gt;：你没发现 AI 生成的营销内容已经改变了你的大脑思维方式了吗&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#14 implion&lt;/strong&gt;：我没有看到世界的变化，世界就没有变化，别掩耳盗铃了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#15 Donahue&lt;/strong&gt;：2022 年底我第一次使用某 AI ，当时的 AI 能力还很一般。现在 2026 年，这才几年。&lt;br/&gt;遥想当年 200x 年第一次使用华为手机，还是线下手机店买的，600 块，屏幕内存硬盘都很小。&lt;br/&gt;现在竟然快 20 年过去了，简直是翻天覆地的变化~&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#16 unused&lt;/strong&gt;：裁员落到自己头上就知道革谁的命了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#17 whoops&lt;/strong&gt;：改变慢慢发生了，你接到的推销慢慢的开始变 ai 了，身边的大妈开始把豆包当成自己顾问&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#18 darkengine&lt;/strong&gt;：能够在短时间改变世界的，只有战争&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#19 theOneMe&lt;/strong&gt;：深处其中不为意，轻舟已过万重山；&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#20 flyme2them00n&lt;/strong&gt;：拉长时间线再看&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#21 Vesc&lt;/strong&gt;：AI 带来生产力的提高，并没有带来新的消费，会不会是一种危机&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#22 wuwuta170&lt;/strong&gt;：你说的改变应该是改变个人的生活吧  比如让自己的生活质量提高 赚钱更多吧  但我感觉很难 赚钱的本质是得有生产资料 而这是 ai 无法带来的 并且当前阶段的 ai 更多的是个人认知的放大和实现器 本质上还取决于用的那个人的认知水平&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#23 jheroy&lt;/strong&gt;：你要是觉得没啥影响，不妨试着断掉所有 ai 的使用看有没有影响。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#24 itenyh&lt;/strong&gt;：AI 归根结底是个工具，而人需要在自我突破中找到意义感&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#25 Gilfoyle26&lt;/strong&gt;：准确的来说现在的不叫 Ai ，现在的应该叫概率匹配，就像下围棋，不是它真的理解，而是算概率。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#26 iceAD&lt;/strong&gt;：最现实的、去年的真人短剧到现在的 AI 短剧。仅仅半年。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#27 rlarnsgur&lt;/strong&gt;：因为你是用智能机做对比的，当初 iPhone4 我记得是 2010 年发布的，同年小米成立了，再过两年字节也成立了，后面外卖大战、打车大战，还有人人都能拍视频创作的抖音，这些东西或多或少都改变了不少普通老百姓的生活方式，现阶段 AI 完全没有上述这些影响力，假如现在的 AI 是 iPhone4 的话，那或许革命很快会到来，我就害怕现在的 AI 是当年的 5G ，又或者是上世纪的 Palm OS 。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#28 dacapoday&lt;/strong&gt;：只是提高信息搜集速度,并没有抹平信息差.&lt;br/&gt;真正赚钱的信息差,网上从来没有.&lt;br/&gt;能带来商机的讯号,AI 即使抓出来,也需要人有能力解读.&lt;br/&gt;而且普通人不占有生产资料. 即使摆地摊 个人收款超过一定额度和速度,税务,风控接踵而至.&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#29 Simle100&lt;/strong&gt;：在我心里，GPT 的出现比 iPhone 的出现更让人惊讶，因为这玩意儿太“邪门”了。PC 、手机、互联网它们都是作为信息的存储、处理和传递的载体，而 GPT 直接是信息的源头，它能直接生成信息本身！从这个角度看，它和前 3 个是完全不一样。你还没感受到 AI 带来革命性的变化，我觉得主要是还没有出现给消费者直接使用的 AI 的原生硬件，因为硬件能够让大家去把玩、去看、去聆听、去闻，它能同时对你的感官产生影响，这是纯软件做不到的。我想等第一款家用的人形机器人（会做家务、照看小孩、陪护老人等）问世，那一刻绝对又是革命性的一刻。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#30 kasusa&lt;/strong&gt;：不是已经让很多开发失业了吗？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#31 helloeather&lt;/strong&gt;：个不革命不知道，但是我已经被割了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#32 evilHa&lt;/strong&gt;：你不能蒸汽机一问世就要求他立马改变世界吧，应用也是需要时间窗口的啊！&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#33 chunzhang5748&lt;/strong&gt;：让子弹飞一会&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#34 yxc246800&lt;/strong&gt;：至少在广告推送这块已经是革命性改变了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#35 en26sky&lt;/strong&gt;：Ai 现在落地的大部分是线上经济，并且就算 Ai 不靠谱，影响也不是特别的致命。所以对于大部分人来说，她目前只是一个工具。等 Ai 真正在实体经济中落地，比如自动驾驶普及，那个时候才能体会到天翻地覆的变化。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#36 NeonMike&lt;/strong&gt;：世界的层次比你想的要大的&lt;br/&gt;&lt;br/&gt;2025 年全球有 60 亿人（约占世界人口的四分之三）使用互联网&lt;br/&gt;&lt;br/&gt;这就是真实的世界，连网络都没有的地方涉及 十几亿人口，你告诉哪里有工业，有什么智能&lt;br/&gt;&lt;br/&gt;技术扩散本身就是困难的，不然大清也不需要自己来搞工业化尝试&lt;br/&gt;&lt;br/&gt;world is flat 的盲目自信，到最后，美国国务卿也承认 Capitalism is flat. 失败了，没有改变 c 国。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#37 NeonMike&lt;/strong&gt;：@&lt;a href="/member/NeonMike"&gt;NeonMike&lt;/a&gt; 卢比奥：Capitalism is flat. 失败了，没有改变 c 国。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#38 LandCruiser&lt;/strong&gt;：@&lt;a href="/member/finab"&gt;finab&lt;/a&gt; 同是 90 后，完全没这种感觉，反而很怀念小时候的互联网，随便上 google 和 youtube 。也没感觉有什么科技突破深刻的改变了我的生活。除了我长大了，生活似乎还和以前差不多。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#39 alphagao&lt;/strong&gt;：改变是悄然发生的，在你看不见的角落，你观测就好像变化不大，但是隔一段时间回过头来发现，已经是巨变了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#40 charlie21&lt;/strong&gt;：它是讲解问题的老师&lt;br/&gt;它是日常工作的工作者/合作者&lt;br/&gt;它是闲谈谈资的陪伴者&lt;br/&gt;哦 伟大 智慧 润物细无声&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#41 fredweili&lt;/strong&gt;：大部分人不爱学习，爱刷短视频，这也正常&lt;br/&gt;世界没有，也不需要那么多想改变的人，一小部分就够了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#42 EchoPrince&lt;/strong&gt;：算力发展和硬件配套没有跟上吧，交互也有门槛，我觉得 AI 未来的发展方向应该是从被动变主动，比如：&lt;br/&gt;1 、冰箱（味），打开冰箱时提醒你食物的保质期和新鲜程度，结合食材为吃什么苦难症提供菜谱；&lt;br/&gt;2 、眼镜（视），走路时帮助你观察四周，提醒你可能发生的交通意外；&lt;br/&gt;3 、耳机（听），记录分析日常对话，生成提醒和待办，比如老婆的生日、会议纪要，根据你最近听的音乐生成推荐歌单？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#43 folnet&lt;/strong&gt;：股市已经改变了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#44 fov6363&lt;/strong&gt;：人们总是高估短期的变化，低估长期的变化&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#45 biochen&lt;/strong&gt;：你还想要怎么变革呢？&lt;br/&gt;&lt;br/&gt;前端已死、后端已死、测试已死、运维已死……不知道阁下哪位哈？&lt;br/&gt;&lt;br/&gt;要等到 AI 把大家一起送走了，才叫变革吗？&lt;br/&gt;&lt;br/&gt;大厂小厂都在裁员，本质上都是 AI 带来了巨大的效率提升，不需要那么多人了！&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#46 itechify&lt;/strong&gt;：你看看 gpt-image-2 ，设计师行业真的天塌了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#47 mit66&lt;/strong&gt;：现在还不够革命吗，现在没有 ai ，连代码都写不了了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#48 hfJ433&lt;/strong&gt;：革不革命不知道，但是 ai 生产的垃圾会越来越多&lt;br/&gt;&lt;br/&gt;硬件急需扩容，网络，内存，硬盘等等&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#49 James369&lt;/strong&gt;：意料之中，符合预期，习以为常，只因你身在其中。&lt;br/&gt;然而，已经在发生很多深刻的变化，很多工种、流程、行业已经被彻底颠覆。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#50 lambdaX999&lt;/strong&gt;：你没感觉到就以为没有改变，捂住眼睛跟耳朵比较好&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#51 gpt5&lt;/strong&gt;：ai 就是老钟自娱自乐，不要相信。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#52 paradoxs&lt;/strong&gt;：已经有 99.999999%的东西被改变了，就算是你常去的餐厅，估计老板也问豆包怎么改良菜式&lt;br/&gt;&lt;br/&gt;只不过你没能力意识到这一点罢了。&lt;br/&gt;&lt;br/&gt;掩耳盗铃没用&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#53 forisra&lt;/strong&gt;：因为十个女人不能在一个月内生一个小孩。&lt;br/&gt;&lt;br/&gt;开发领域因为本来就很标准化所以 ai 推进得快，其他领域还是需要很多人去落地推进的。&lt;br/&gt;&lt;br/&gt;而且 token 价格现在还是太贵了，起码等到英伟达利润率降下来才行。按照现在 asml 的机器都订到 203X 年，起码还有十年的发展期。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#54 zerovoid&lt;/strong&gt;：你可以查一下计算机改变世界花了多少年，&lt;br/&gt;你可以查一下互联网改变世界花了多少年，&lt;br/&gt;你可以查一下手机改变世界花了多少年。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#55 Kiriya&lt;/strong&gt;：全世界的科技企业都以 AI 为借口裁员十多万人了，这个改变还不够革命性么，接下来估计还会有其他行业因为 AI 裁员&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#56 geniushui&lt;/strong&gt;：应该发生了吧，你还使用搜索引擎么？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#57 dajj&lt;/strong&gt;：上班越来越累，裁员越来越多，已经在革命性改变了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#58 oxykr&lt;/strong&gt;：人的境界突破不了，ai 就不能自主思考&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Thu, 23 Apr 2026 04:03:39 +0000</pubDate></item></channel></rss>
+&lt;p&gt;&lt;strong&gt;#1 anmie&lt;/strong&gt;：联想，连想都别想。&lt;br/&gt;质量不说，无论品牌调性，还是售后，都是一坨大便。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#2 em998&lt;/strong&gt;：ThinkPad T14 Gen7 ?&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#3 OctopusGO&lt;/strong&gt;：买 mac book pro m5&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#4 justb&lt;/strong&gt;：老哥，Thinkpad t14p gen2 考虑吗，镁光 ddr5 48G 内存，1T 硬盘，3K 屏幕，ultra9-185H 处理器，除了屏幕有点点键盘印，其它可以说是 9 成新。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#5 susunus&lt;/strong&gt;：不要迷信 thinkpad ，除非你是一个非小红点不用的人，1w 买 thinkpad 不如 8000 买其他的，然后三年后卖 3000 ，再买一个 8000 的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#6 kinkin666&lt;/strong&gt;：t14&lt;br/&gt;x1 carbon&lt;br/&gt;&lt;br/&gt;其实也挺卡的&lt;br/&gt;&lt;br/&gt;感觉如果不是非 win 不可，苹果 m 系可能更快一点&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#7 sangbiao&lt;/strong&gt;：我 16 年买的 t460s 今年是真带不动现在越来越烂的工程了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#8 lan894734188&lt;/strong&gt;：x230 后的 thinkpad 已经变味了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#9 loading&lt;/strong&gt;：我买的 thinkpad 是因为我是电子电路行业的，你纯编程向的，目前咱建议用 Apple 噢。&lt;br/&gt;&lt;br/&gt;thinkpad 定价是比较高的，如果不是很正经商务，买个拯救者吧，我这两款都有。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#10 Lisa9527&lt;/strong&gt;：@&lt;a href="/member/loading"&gt;loading&lt;/a&gt; 想请教一下，嵌入式的，用 apple 支持吗&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#11 mariolee&lt;/strong&gt;：人家都想好了要买 thinkpad ，还有一堆人不知道在说啥，正统用就 T 和 X 系列吧&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#12 flowerains&lt;/strong&gt;：最近新出的 thinkpad x14 2026 还凑合 X7 358H 这款。&lt;br/&gt;&lt;br/&gt;问题是现在 thinkpad 主板的轻薄化设计，如果出问题超了质保期基本等于报废，这个你要掂量一下。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#13 xlLee&lt;/strong&gt;：联想的售后还大便啊？？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#14 superfatboy&lt;/strong&gt;：非要买的话，T 、X 选择一个价格合适 自己喜欢的就行，&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#15 loading&lt;/strong&gt;：@&lt;a href="/member/Lisa9527"&gt;Lisa9527&lt;/a&gt; 不建议用 Apple 搞嵌入式。因为很难避免会接触到一些只有 windows 的软件，而且都是无可替代的，例如芯片烧写。虽然有 openocd 等工具，但要底层调试，没法搞。&lt;br/&gt;&lt;br/&gt;我目前正在计划只留一台 win 了，用于烧写，但我这场景不适合你。你既然这样问了，工具链，主要是芯片，没定，不可预料的场景太多了。&lt;br/&gt;&lt;br/&gt;别说 Apple 了，用 linux 都很麻烦，虽然很多芯片都有 gcc 了，但保不准老板和你说用 xxx 芯片或者你在 B 站看到一个有趣的，最后发现工具链你运行不了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#16 penisulaS&lt;/strong&gt;：t14p&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#17 loading&lt;/strong&gt;：thinkpad 没有很强的显卡，最后劝你一下，这个时代，没显卡，你懂的。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#18 datocp&lt;/strong&gt;：tpinkpad 的二手市场就能看出它的销量，以前我也迷信坚如磐石，却发现它连电源管理模块都没。公司不采购 thinkpad 还能买啥?华 wei?拉垮的要死。&lt;br/&gt;&lt;br/&gt;车间 2016 年买的 E560 天天 24 小时充着电，买了 6 台至今还有 5 台在用，另外一台是屏线有接触问题。这么多年，买了这么多 30 多台 thinkpad ，目前阵亡 2 台。1 台 2 年内，1 台用了 7 年。这种东西和使用人员的习惯也有很大关系。&lt;br/&gt;&lt;br/&gt;公司大量的都是 E 系列，上次买了个 T16 在 pdd ThinkPad 官翻机旗舰店买的,说是翻的英国的货，也能享受国内 1 年质保。外观准新，电池完好，内部查不到保修序列号，3799 。相对 E16&lt;br/&gt;少了一个 SSD 槽&lt;br/&gt;硬盘用的 kioxia ，E16 都是各式其它我觉得比较差的牌子&lt;br/&gt;内存 DDDR5 6400Mhz ，E16 是 DDR4 3200 &lt;br/&gt;键盘带背光&lt;br/&gt;有读卡器，似乎是那种安全控制的门禁卡&lt;br/&gt;wifi6 高通网卡，E16 AMD 系列基本都是大螃蟹&lt;br/&gt;带指纹&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#19 laojin&lt;/strong&gt;：编程的话，首选 mac book pro ，除非特定需要 winddows&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#20 Lisa9527&lt;/strong&gt;：@&lt;a href="/member/loading"&gt;loading&lt;/a&gt; #15 现在主力是 apple ，还有个老旧 win ，在考虑要不要维修一下，意思是可以在 Apple 上开发，然后在 win 上烧录么，不想再买个新 win 本了，感觉不抗用，到最后都是电子垃圾，丢了可惜，用着又不爽&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#21 Cu635&lt;/strong&gt;：@&lt;a href="/member/anmie"&gt;anmie&lt;/a&gt; #1&lt;br/&gt;从品牌来讲，联想现在是唯一一个把笔记本电脑当正经电脑而不是特大号平板来设计制造的牌子了……&lt;br/&gt;虽然 thinkpad 这几年也确实一直在走下坡路&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#22 PhoenixDancing&lt;/strong&gt;：@&lt;a href="/member/anmie"&gt;anmie&lt;/a&gt; 这个喷的有点过分了，联想或者说 Thinkpad 用来做工作，做开发还是可以的。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#23 yelog&lt;/strong&gt;：@&lt;a href="/member/anmie"&gt;anmie&lt;/a&gt; win pc 全球前 5 的供应商联想、惠普、戴尔、华硕、宏基，你推荐哪个？尤其是你说的品牌调性好，售后也好的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#24 xiangran0028&lt;/strong&gt;：@&lt;a href="/member/Lisa9527"&gt;Lisa9527&lt;/a&gt; #10 基本都支持&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#25 cpper&lt;/strong&gt;：thinkpad 现在任何一款都不适用个人购买了，这东西现在性能低，价格高，做工也不行，完全是给企业用户采购折扣的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#26 tags&lt;/strong&gt;：T14 amd R7 用了四年多了，除了刚开始电源管理驱动不稳定，不关机拔电源放包里容易发热黑屏死机外，用了一两年更新新版本驱动后就稳定了。现在常年不关机重启都没事。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#27 bug403&lt;/strong&gt;：其实 thinkpad x t w p 相对贵一些，质量还是可以的。配置低些。&lt;br/&gt;&lt;br/&gt;其实工作还是很结实的！&lt;br/&gt;&lt;br/&gt;thinkpad 总体来说我绝对还是可以的！买了 5 台 thinkpad ！&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#28 loading&lt;/strong&gt;：@&lt;a href="/member/Lisa9527"&gt;Lisa9527&lt;/a&gt; 你现在主要是做什么的。如果只是用开发版玩偏软件的，那你确认编译环境能在 apple 下（也就是 linux 有编译工具链），那很可能你只需要一台 apple 。但很多时候我们需要控制周边的其他东西，引入一张新的芯片是很常见的，那个芯片很可能就必须依赖 win 。&lt;br/&gt;&lt;br/&gt;主要是你究竟是为了干啥。&lt;br/&gt;双持机器是很常见的，一台入门的 win 就行了。当然，all in one 开发其实挺好的。&lt;br/&gt;&lt;br/&gt;为啥你对 os x 这么向往？总不能是为了 b 和 v 站价值观吧。&lt;br/&gt;如果只是玩，那就专门匹配具有完善工具链的，树莓派贵是贵，但工具链和社区强。但商用，很多时候会用更便宜的替代。&lt;br/&gt;&lt;br/&gt;你嵌入式是到哪个层级的，很多人只要到能运行 linux 系统后，就编程单纯的软件开发了。&lt;br/&gt;而某些场景，例如你要开发图形界面的示波器，那就不是纯软件了，当然。一个人和团队又是一回事。&lt;br/&gt;&lt;br/&gt;我这一个专门烧录的 win 目前正在搭建，纯玩。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#29 xiaomimicoin2&lt;/strong&gt;：mac book &lt;br/&gt;勿喷.&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#30 gefangshuai&lt;/strong&gt;：推荐 MacBook&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#31 zomco&lt;/strong&gt;：嵌入式烧录固件真的需要 win ，少走弯路&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#32 dbak&lt;/strong&gt;：thinkpad t14p 据说是国内加强的版本&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#33 Lisa9527&lt;/strong&gt;：@&lt;a href="/member/loading"&gt;loading&lt;/a&gt; #28 没有啥 b 和 v 的价值观吧，就是用习惯了，主要是在使用体验上，mac 比 win 方便很多，大多场景都是基于单片机烧录，也是自己玩+学习，没有太深入的需求，比如遥控车那种，diy 小玩具，好像家里还有个香橙派&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#34 iSkylar&lt;/strong&gt;：Thinkpad 现在只有 T 系列和 X 系列才是核心吧，再往上的型号就另外说了，E 系列都不算是。&lt;br/&gt;&lt;br/&gt;公司标配是 T 系列中高配，三年一换，用的还行，还有一个选择是 Dell 戴尔，也是很耐用。&lt;br/&gt;&lt;br/&gt;其他型号的，公司不让买，除非是特殊申请，按照集团 CTO 的原话，不要把时间和精力浪费在不稳定的生产工具上面。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#35 my101du&lt;/strong&gt;：不知道为什么这么多人对 ThinkPad 如此大的恶意。和我真实的统计数据不一样。只能认为是销量大，故障总数也大吧。 &lt;br/&gt;&lt;br/&gt;我司这几年采购的笔记本大概 100 台，DELL/HP/ThinkPad 各 1/3,  都是 9000 左右的商用系列机型。&lt;br/&gt;&lt;br/&gt;DELL: 电池消耗速度最快，一年后就续航打折，两台半年主板损坏，一台屏幕出线（上门换件还是挺快的），基本上全部都有外壳掉漆现象，另外就是偶尔无缘无故高热死机黑屏，要强制重启。然后找个驱动，在官网 support 就像在迷宫里一样， 从此敬而远之。&lt;br/&gt;&lt;br/&gt;HP: 本机没有出现任何问题，续航久，性能释放稳定，但是配套买的 docker 质量堪忧，只有 8.5 成的良率，要么直接是坏的，要么报电源功率不足，要么读不出 hdmi 信号（特么什么外设都还没接呢，换绿联 5 合一反而一切正常）。然后就是接口挨太近，有一些外设如果体积大，旁边的那个口就直接用不上了。 &lt;br/&gt;&lt;br/&gt;ThinkPad:  本机没有任何令人无法忍受的问题（ 12 代 p 系列 cpu 出了名的发热，低温锡工艺年 多重 debuff ），续航一般，配套的雷电 docker 有 HDMI 闪烁问题，更新固件就行。还有就是右手出风口简直脑残。。。&lt;br/&gt;&lt;br/&gt;我对 ThinkPad 的几个好感：&lt;br/&gt;1. 同价位最皮实，黑色的外壳不掉漆&lt;br/&gt;2. 很稳定，没有出现过什么突然黑屏要强制重启的问题。&lt;br/&gt;3. 键盘手感好，清脆反弹力度刚刚好。  HP 的键盘太软了，不够有参与感。 &lt;br/&gt;3. 官网找驱动、软件什么的非常方便。windows update 更新也很及时。 &lt;br/&gt;4. 接口分布比较合理，A/c 口分开比较远。&lt;br/&gt;&lt;br/&gt;我觉得买机器不要看测评，人云亦云的，没什么价值。&lt;br/&gt;&lt;br/&gt;看一些对稳定性要求高的岗位用什么，还有就是二手机器哪个保值。  那就是好机器。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#36 my101du&lt;/strong&gt;：突然想起一个很有意思的段子，说是一个哥们从咸鱼商家买了一台 thinkpad ，用了两年出给别人，别人又用了一年出给第三家。     拆开发现除了主板，其他全部都翻新过。&lt;br/&gt;&lt;br/&gt;一个 N 手的翻新机都这么稳定，难怪咸鱼价格坚挺。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#37 kiii&lt;/strong&gt;：macbook air m5 推荐&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#38 justdoitzZ&lt;/strong&gt;：以前公司用的 thinkpad t460s ，小巧轻便配到桌面拓展坞，整体设计，非常好用方便。直到今天，我还在使用这个 t460s 。&lt;br/&gt;然后后来公司换成了 DELL ，干，电源线脱胶，掉地上，底板摔碎了，打开一看就是工程塑料，售后来换，就一个塑料底盖，700 多。最主要不能忍的是，DELL 的拓展坞，那是人用的吗？电源一大坨，拓展坞一大坨，所有的一切就靠一个 TYPE-C 连着。真的垃圾&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#39 snow64&lt;/strong&gt;：thinkpad 售后很好，别听一楼乱黑&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#40 fancy2020&lt;/strong&gt;：用的 x1 carbon ，唯一的好处是自带蜂窝网络而且无限流量。&lt;br/&gt;很难理解为什么现在支持蜂窝网络的笔记本电脑就这一台。。感觉这个挺刚需的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#41 ganluoluo&lt;/strong&gt;：@&lt;a href="/member/fancy2020"&gt;fancy2020&lt;/a&gt; 哪来的无限流量，不都是只有一年吗？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#42 anmie&lt;/strong&gt;：@&lt;a href="/member/snow64"&gt;snow64&lt;/a&gt; 我要是没用过 我能乱黑吗？&lt;br/&gt;别说光我用，样本不够，我从大学到工作 3-4 年不到 10 年时间里，遇到的 ThinkPad 大概 10 台左右吧，要么是舍友的，要么是同事的，所有的电池都有问题，一般情况下用 1-3 年电池就不能识别，只能插电源用。&lt;br/&gt;&lt;br/&gt;而我那时候的就更奇葩了，当时的新品，反复蓝屏重启，第一次去售后，就修了两个月，至于为什么修这么久，官方的说法是没有主板，你听听，新品发布，没有备用主板。然后两个月后修完了，给装了个盗版系统。&lt;br/&gt;&lt;br/&gt;还有楼上说出货量的，你们要不要看看有多少是政府采购啊。&lt;br/&gt;&lt;br/&gt;随意，反正我能救一个是一个，爱听不听。&lt;br/&gt;&lt;br/&gt;不要回复我，你们说的都对。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#43 anmie&lt;/strong&gt;：@&lt;a href="/member/anmie"&gt;anmie&lt;/a&gt; #42 记得，联想电脑，Thinkpad ，联想收购后的 ThinkPad 是三种东西。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#44 0bit0&lt;/strong&gt;：现在的 thinkpad 不行了吧&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#45 gowk&lt;/strong&gt;：@&lt;a href="/member/sangbiao"&gt;sangbiao&lt;/a&gt; #7 我也是 t460 ，安装了 omarchy 还能用个几年没问题&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 24 Apr 2026 00:44:49 +0000</pubDate></item></channel></rss>
