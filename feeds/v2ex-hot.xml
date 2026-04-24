@@ -20,7 +20,7 @@
 &lt;pre&gt;&lt;code&gt;Create a single HTML file containing CSS and JavaScript to generate an animated weather card. The card should visually represent the following weather conditions with distinct animations: Wind: (e.g., moving clouds, swaying trees, or wind lines) Rain: (e.g., falling raindrops, puddles forming) Sun: (e.g., shining rays, bright background) Snow: (e.g., falling snowflakes, snow accumulating) Show all the weather card side by side The card should have a dark background. Provide all the HTML, CSS, and JavaScript code within this single file. The JavaScript should include a way to switch between the different weather conditions (e.g., a function or a set of buttons) to demonstrate the animations for each.
 &lt;/code&gt;&lt;/pre&gt;
 &lt;hr/&gt;
-第 1 条附言  ·  &lt;span title="2026-04-24 18:29:32 +08:00"&gt;4 小时 31 分钟前&lt;/span&gt;
+第 1 条附言  ·  &lt;span title="2026-04-24 18:29:32 +08:00"&gt;6 小时 17 分钟前&lt;/span&gt;
 
 就像有些老哥说的，我的评价确实太武断了，不太能说明啥，而且有点标题党，容易引起争议。&lt;br/&gt;目前单纯的 API 价格相对于订阅制来说还是会让人价格很敏感，希望后面尽快推出 Coding Plan 吧。&lt;br/&gt;另外，即使国产模型还没到 Opus 4.6 的级别，但是好歹 OpenAI 的新模型到了，不用再看 A\ 的脸色了。国产模型目前的进步速度，应该能尽快追赶上的。&lt;br/&gt;还有别吵了，我都下沉过了还是没用，看了下还是挂在热门那。哪位管理员看到帮忙从热门那下掉。
 
@@ -124,71 +124,7 @@
 &lt;p&gt;&lt;strong&gt;#97 Folder&lt;/strong&gt;：&lt;a href="https://i.imgur.com/eJfmfXV.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/eJfmfXV.png"/&gt;&lt;/a&gt;&lt;br/&gt;Gemini 3.1 Pro 试了下, 感觉挺好的&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#98 A3m0n&lt;/strong&gt;：@&lt;a href="/member/omi4399"&gt;omi4399&lt;/a&gt; 配合层主头像一看真绷不住了。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#99 yueloong&lt;/strong&gt;：&lt;a href="https://i.imgur.com/9PoB1BJ.gif" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/9PoB1BJ.gif"/&gt;&lt;/a&gt;&lt;br/&gt;本地跑的，ollama 模型 qwen3.6:35b-a3b-coding-mxfp8&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#100 soulflysimple123&lt;/strong&gt;：gpt 5.5 &lt;br/&gt;&lt;a href="https://chatgpt.com/share/69eb240a-1f00-83ea-976e-bdee81d723d5" rel="nofollow noopener" target="_blank"&gt;https://chatgpt.com/share/69eb240a-1f00-83ea-976e-bdee81d723d5&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 24 Apr 2026 03:45:41 +0000</pubDate></item><item><title>Vibe coding 有什么意义？</title><link>https://www.v2ex.com/t/1208240</link><description>除了做 demo ，任何一个需要稳定性的系统都不应该使用 vibe coding 实现。全黑盒，完全不可控。&lt;br/&gt;之前的一家公司，PM 开始自己 vibe coding ，推到上线后结果完全不可维护，到最后还是研发来擦屁股。产品爽了，最后烂摊子研发全接走？
-&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;#1 sddyzm&lt;/strong&gt;：那就向 AI 的对齐&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#2 xitler&lt;/strong&gt;：没有让你全 vibe 啊，怎么可能就跟 ai 说一句“我要做个淘宝”，然后啥也不管刷刷刷等他给你做好。&lt;br/&gt;不会设计好架构，产品需求，接口规格，让 ai 帮忙写,写完 review 把控质量，小步集成吗？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#3 hafuhafu&lt;/strong&gt;：对于稳定或者极其重要的公司业务，全部 vibe coding 确实不太好，可以把一些手写没啥营养的部分让 AI 完成，自己掌握大局至少可控的。&lt;br/&gt;毕竟最终责任还是落实到人的，堆屎山某天堆到某天超出当前模型能力，短时间内没法解决了就尴尬了。&lt;br/&gt;总不能今天就要发版上线，你说：“等我的 agent 团队慢慢重试吧，会解决的”。&lt;br/&gt;不过自己的项目或者开发一些脚本小工具之类的，就没这些顾虑了，实在解决不了大不了等下一代模型出来再说，也不需要管维护性🤓。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#4 lg106&lt;/strong&gt;：我们也遇到这种情况，老板自己天天在那用 AI 写一些功能，然后让我们整合到现有系统上，他还不是程序员，主业是电商设计，连 UI 设计都没接触过，很心累&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#5 weixind&lt;/strong&gt;：这是使用 vibe coding 的人的问题，不是 vibe coding 的问题。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#6 JoeJoeJoe&lt;/strong&gt;：把他当银弹的话, 确实没什么意义, 但是当自己的助力或者帮手的话, 意义很大.&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#7 ccraohng&lt;/strong&gt;：AI 排泄链最后面的负责人最痛苦&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#8 iorilu&lt;/strong&gt;：做 demo 也是开发的一部分, 而且是非常重要的一部分&lt;br/&gt;&lt;br/&gt;这没什么可疑问的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#9 chuchen023&lt;/strong&gt;：@&lt;a href="/member/xitler"&gt;xitler&lt;/a&gt; 作为研发我肯定是想这样干的。但是奈何上边产品觉得自己有了 AI 所向披靡，完全不需要研发了，需求自己写。到最后自己解决不了了再扔给研发。这个烂摊子没人愿意接啊&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#10 wniming&lt;/strong&gt;：Vibe coding 适不适合开发大型项目我不知道，但在 X 上看到腾讯的一位内核大佬前两天发的推文讲了他是如何在内核开发中使用 AI 的，对我很有启发：&lt;br/&gt;&lt;br/&gt;&lt;a href="https://x.com/silsrc/status/2046808788808901108" rel="nofollow noopener" target="_blank"&gt;https://x.com/silsrc/status/2046808788808901108&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;这里把他的推文内容复制粘贴到这里，方便不想点开链接的 v 友查看：&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;越来越喜欢 LLM 辅助编程了，99% 代码还是我写，它负责 Review ，只要 LLM 能看懂就说明这代码写的足够清晰明了傻子都懂。并且也能验证和审核细节：每个函数注释都写明 Context 和要求，LLM 就可按照注释验证调用上下文，比 Build Bug 那种更灵活更好维护，减少了不少 Bug&lt;br/&gt;&lt;br/&gt;而且我感觉这才是正确用法🤔&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#11 beyondstars&lt;/strong&gt;：你要去设计架构，划定边界，拆分模块，总领全局，这些是 AI 做不了的，你可以每次只让 AI 改其中一个小的范围，这样改坏了只影响某个模块，而整个项目依靠模块与模块之间通信，所以问题也不大。&lt;br/&gt;&lt;br/&gt;要去想想 AI 可以做什么不可以做什么。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#12 murmur&lt;/strong&gt;：vibecoding 都干掉了初级程序员，逼得人均全栈，还没有意义啊&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#13 midsolo&lt;/strong&gt;：我司刚经历过这个阶段，产品 Vibe Coding 了一个 mvp 出来演示，PM 就敢往整个公司推，到了线上发现一堆坑，没法迭代维护了，他俩拍拍屁股走了，让研发来接烂摊子。&lt;br/&gt;&lt;br/&gt;现在又在吹 "AI + 低代码平台"，用自然语言，一句话即可搭建系统，无需编写任何代码......&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#14 midsolo&lt;/strong&gt;：@&lt;a href="/member/midsolo"&gt;midsolo&lt;/a&gt; Vibe Coding 用来解决实际问题是 OK 的，但要看是谁在用，该怎么用，如果落在神棍手里，那研发就有得罪受了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#15 mightybruce&lt;/strong&gt;：你活着有什么意义， 到现在还不会，等着被淘汰吧&lt;br/&gt;&lt;br/&gt;我告诉你一个事实，就像阿里，百度，以及某地图厂，已经是全员 vibe coding  90% 代码都是 AI, 并且要考核 ai 率。&lt;br/&gt;&lt;br/&gt;而且大厂就几个月前开始大规模强制 vibe coding 规范，要求更准确的 spec coding, 要求生成内容完全可控，&lt;br/&gt;&lt;br/&gt;反正你们自己决定多久被时代抛弃。&lt;br/&gt;&lt;br/&gt;90 年代到 2000 ， 那时候写汇编的人觉得自己是正统， 觉得 java 这种是玩具，后来 java 成为主流企业开发&lt;br/&gt;&lt;br/&gt;现在 spec coding 就是成为主流编程，不是随便写写的，几千字的小作文比你代码难度还高。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#16 Yumwey&lt;/strong&gt;：意义可大了，当你说出这个定义的时候，你就已经下车了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#17 teaguexiao&lt;/strong&gt;：意义在于它帮普通人绕过了不会写代码这道墙，让想法能快速验证。但工程师用它是降本提速，非技术人拿来做生产系统那就是甩锅工具了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#18 wangritian&lt;/strong&gt;：正经开发肯定是要设计好方案再一步步监管下让 ai coding 的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#19 songco&lt;/strong&gt;：没必要非黑即白&lt;br/&gt;&lt;br/&gt;工具是工具，怎么用还是看人，反正对我来说省了大量的时间，以前有很多想法没时间搞，现在终于可以慢慢搞起来了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#20 chuchen023&lt;/strong&gt;：@&lt;a href="/member/midsolo"&gt;midsolo&lt;/a&gt; 太对了，我正在经历这个过程。工具是好工具，但要这么用，还不如没有。回归能正确使用的人手里才是提效&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#21 sampeng&lt;/strong&gt;：意义？还停留在只能做 demo ？反思的应该是你自己吧…ai 现在代码质量吊打程序员。不是所有人都是大神的。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#22 x4gz&lt;/strong&gt;：不是人人都要做个大项目 &lt;br/&gt;做个小工具辅助自己的工作不行吗&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#23 xiaoyuanei668&lt;/strong&gt;：@&lt;a href="/member/lg106"&gt;lg106&lt;/a&gt; 这是老板太沙比了，外行指导内行，局座高见&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#24 HotieCutie&lt;/strong&gt;：我觉得 AI 是辅助，人还是必须要去参与，审核代码，测试结果&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#25 hefish&lt;/strong&gt;：人活着有什么意义？早晚要死的？还不如现在就不活了。。。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#26 aes114514gcm&lt;/strong&gt;：@&lt;a href="/member/HotieCutie"&gt;HotieCutie&lt;/a&gt; 有了珍妮机后英国纺织工人生存环境反而变差了，劳动强度更高。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#27 mikifuns&lt;/strong&gt;：Vibe Coding 对企业对程序猿有什么意义我不知道&lt;br/&gt;但是我知道对非程序猿意义太大了。我属于懂点代码但不会写代码（有问题我能有思路去怎么排查怎么解决方向，但是你让我看代码我基本上看得懂）&lt;br/&gt;我有想法，我有想实现的东西，以前我自己无法落地，我也没资格没能力去拉大佬帮忙写，我的想法十多年都没有落地&lt;br/&gt;现在有了 ai ，ai 就是我的团队，他们写帮我落地想法，我的想法用了一个月就成雏形，现在慢慢精雕细琢就好，这如果没有意义，那我不知道需要多大才算有意义，真的做到一句话从头到尾的开发然后把人类赶走吗 XD&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#28 Mandelo&lt;/strong&gt;：你同事写的代码就是白洞，完全可控了？自己菜不要怪工具&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#29 plp&lt;/strong&gt;：以前我也好奇 后来我经常观察 Vibe coding 的人群 &lt;br/&gt;发现大部分都是自己的玩具 简单小项目 非开发者人群 前端页面 设计&lt;br/&gt;真正用来大型商业项目的微乎其微&lt;br/&gt;而且这群人似乎更喜欢在互联网上分享？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#30 Rehtt&lt;/strong&gt;：@&lt;a href="/member/wniming"&gt;wniming&lt;/a&gt; 我也是喜欢用 ai review 代码，生成测试用例&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#31 diudiuu&lt;/strong&gt;：老板觉得牛逼就行&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#32 nullboy&lt;/strong&gt;：很 TM 真实了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#33 lyxxxh2&lt;/strong&gt;：你那个产品,缺架构设计 + 测试,乱七八糟也正常。&lt;br/&gt;我写文档,都会在脑子过一边代码逻辑。&lt;br/&gt;而产品,不可能写得出技术性的文档。&lt;br/&gt;比如:&lt;br/&gt;```&lt;br/&gt;需要增加一个所属物流单字段,物流列表不要直接显示这些子物流单,你需要创建一个模型关联,用 with 这些子物流"运单号"返回需要作为数组,这样:[{status:1,tracking_number:SF3296538855599,pickup_code:3412},...]&lt;br/&gt;```&lt;br/&gt;&lt;br/&gt;一个人全干,太费时间了。&lt;br/&gt;我现在差不多纯 vibe codeing 了,用团队会话。&lt;br/&gt;最重要的是测试,一堆的 case 都验证:"页面 + 接口 + 数据库",最后只有 1-2 个 bug 。&lt;br/&gt;我的测试 skill:&lt;br/&gt;&lt;a href="https://i.imgur.com/EYFYNR9.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/EYFYNR9.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#34 lizhian&lt;/strong&gt;：除了做 demo?gpt5.5 比包括你在内的九成程序员都屌.&lt;br/&gt;第二个,人写不一定可控,不然为什么在 AI 编程之前就有屎山代码的说法&lt;br/&gt;工程规范让人写代码变得可控,同样道理也可以让 AI 编程变得可控&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#35 babymonster&lt;/strong&gt;：GitHub 现有的仓库差不多有 6.3 亿多了，其中 40%左右都是 Vibe coding 出来的项目，真正用 Vibe coding 其实是人类要学会去驾驭 AI ，把一些简单的代码或者一些合适的框架；之前的 it 时代打的都是信息差：“我懂这个技术，你不懂那就是我厉害”，但是现在 AI 把门槛降低了很多，Vibe coding 可以把碎片化的时间整理起来，自己说了需求之后，让 AI 在后台跑就行了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#36 xiaomushen&lt;/strong&gt;：@&lt;a href="/member/xitler"&gt;xitler&lt;/a&gt; 很多 Claude 信徒表示，只要许愿就能做出来东西然后赚钱。我觉得很无语。。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#37 monosave&lt;/strong&gt;：尤雨溪的公司要出一个新产品 vibe coding 产物部署的，叫 void 和 cloudflare 合作的，整个平台 90% 都是 Vibe coding 出来的 https://void.cloud/ 现在还在测试&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#38 xudaewoo&lt;/strong&gt;：减少从想法到产品的难度&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#39 gefangshuai&lt;/strong&gt;：@&lt;a href="/member/chuchen023"&gt;chuchen023&lt;/a&gt; #9 这种人就是傻，以为自己收了勺子就是个厨师了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#40 redbeanzzZ&lt;/strong&gt;：你不能听营销号 vibe coding 自己用的时候就不 review 代码吧？这东西就是给你减少工作强度用的，无脑相信他最后出了问题当然得你自己负责&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#41 x86&lt;/strong&gt;：你可以坚持古法编程&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#42 onedge&lt;/strong&gt;：@&lt;a href="/member/hafuhafu"&gt;hafuhafu&lt;/a&gt; 这是现状也是当前模型能力上限的问题，也有关于模型底座算法本质原因（毕竟不是和人脑一样），目前唯一的增强办法是测试驱动开发，用例越多越好，加上大剂量的反复 review （局部），不知道有没有其他更好的办法，看模型继续发展吧&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#43 aowugong&lt;/strong&gt;：我领导就要 vibe coding 一个网店管家出来，我理解 AI 的设计都费劲又控制不住它还要被每天催进度。不反抗了拥抱 AI 一起拉坨大的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#44 charlie21&lt;/strong&gt;：生产系统用的 vibe coding 和 单人 非程序员写 toy app 用的 vibe coding 不是一回事 &lt;br/&gt;虽然都叫作 vibe coding&lt;br/&gt;营销嘛 帅气就完事了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#45 huBane&lt;/strong&gt;：Review 是真的有用，参考 ai 改的自己写代码水平都提升了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#46 kalarita&lt;/strong&gt;：设计好架构, 明确模块边界, 确定各个模块都是做什么功能的, vibe 之后补全测试用例, 最后自己 review 一遍代码,我觉得现在这个模式提升效率很大&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#47 fredweili&lt;/strong&gt;：非黑即白，没正经做过事的幼稚，就算“稳定性的系统”，不需要支持系统么，测试，文档，简单的 CRUD ，这些 AI 简简单单就办了，我可以把精力花在需要分析思考各方协调的问题上&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#48 john46&lt;/strong&gt;：对外的复杂业务的项目肯定不行，但是工具性平台功能型的对内用绝对可以啊，比如 jekins 太难用自己写一个部署平台、各种协同平台、dms 要商业化收费，自己 ai 写一个，一周迭代基本就很完整了，这不是节省成本么。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#49 jadeborner&lt;/strong&gt;：别人写的代码让你维护不也这样想吗&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#50 kloudmuka&lt;/strong&gt;：OP 应该是看到自己的饭碗被非程序员抢走之后开始急眼了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#51 yaidev&lt;/strong&gt;：做好顶层规划设计与实现中的阶段性 Review ，Vibe Coding 不比你写的代码差。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#52 roychaos&lt;/strong&gt;：像我们的小公司，把需求完成就行了，质量不要太差就行&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#53 haha1903&lt;/strong&gt;：这恰好是你争权夺利的好时候&lt;br/&gt;你要向老板证明，是他不行，而不是 AI 不行&lt;br/&gt;然后把权利要过来，让他听话&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#54 phatzhong24&lt;/strong&gt;：可以让你早点下班&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#55 HeyWeGo&lt;/strong&gt;：自己写给自己的好处是往往操作流程可预测的，写给用户的往往不可预测用户行为，就很容易弄出各种小 bug&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#56 archxm&lt;/strong&gt;：@&lt;a href="/member/x86"&gt;x86&lt;/a&gt; 为啥这么二元论呢？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#57 yufeng0681&lt;/strong&gt;：@&lt;a href="/member/mikifuns"&gt;mikifuns&lt;/a&gt; #27 都对，不冲突。 你做的就你用，有缺陷也能接受，也有时间去修复，一人闭环。  贴主说的是工程方面，公司的项目，角色不同，还要他们来兜底的场景，就不能轻松写意的用 ai 编程了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#58 darkengine&lt;/strong&gt;：vibe coding 的过程是黑盒，产物可不是黑盒，至于你能不能看懂，那就不是 vibe coding 的问题了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#59 nuII&lt;/strong&gt;：意义就是替代人工，就这么简单。如果上线出问题，只能研发来擦屁股，那么问题在老板，没有 AI ，虽然会导致不同的问题，但是最终的结果是一样的，让这个问题出现和没能落实责任承担制度的人并没有变化。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#60 jasperchou33&lt;/strong&gt;：vibe coding 要一块块来。就很爽。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#61 mansunyunxin&lt;/strong&gt;：PM 自己 vibe coding 让研发擦屁股，这个问题本质不是工具问题，是「信息不对称下的权力错位」。&lt;br/&gt;&lt;br/&gt;PM 看到的是：AI 输出一个能跑的东西，UI 有了，功能有了，看起来能用。&lt;br/&gt;研发看到的是：没有架构、边界模糊、无法测试、维护成本高到离谱。&lt;br/&gt;&lt;br/&gt;AI 把「能跑」和「正确」之间的鸿沟填平了，但这个鸿沟本来就存在。真正的问题不是 PM 用 AI ，而是 PM 没有足够的上下文去理解「能跑」背后意味着什么。&lt;br/&gt;&lt;br/&gt;解决方式不是禁用 vibe coding ，是让决策者看到完整的因果链——不只是 AI 能做什么，而是改了之后会影响到谁。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#62 gpt5&lt;/strong&gt;：是的，手写汇编，匠人 coding ，才是人间正道。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#63 oisadfo&lt;/strong&gt;：@&lt;a href="/member/gpt5"&gt;gpt5&lt;/a&gt; 那你怎么不去手写汇编？&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 24 Apr 2026 03:28:38 +0000</pubDate></item><item><title>你每天用的最多的 app 是啥？</title><link>https://www.v2ex.com/t/1208192</link><description>我的前三名：微信、微博、小红书
+&lt;p&gt;&lt;strong&gt;#100 soulflysimple123&lt;/strong&gt;：gpt 5.5 &lt;br/&gt;&lt;a href="https://chatgpt.com/share/69eb240a-1f00-83ea-976e-bdee81d723d5" rel="nofollow noopener" target="_blank"&gt;https://chatgpt.com/share/69eb240a-1f00-83ea-976e-bdee81d723d5&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 24 Apr 2026 03:45:41 +0000</pubDate></item><item><title>Vibe coding 有什么意义？</title><link>https://www.v2ex.com/t/1208240</link><description>chuchen023: 除了做 demo ，任何一个需要稳定性的系统都不应该使用 vibe coding 实现。全黑盒，完全不可控。&lt;br/&gt;之前的一家公司，PM 开始自己 vibe coding ，推到上线后结果完全不可维护，到最后还是研发来擦屁股。产品爽了，最后烂摊子研发全接走？</description><pubDate>Fri, 24 Apr 2026 03:28:38 +0000</pubDate></item><item><title>你每天用的最多的 app 是啥？</title><link>https://www.v2ex.com/t/1208192</link><description>我的前三名：微信、微博、小红书
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 CoderGeek&lt;/strong&gt;：wx dy tg&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#2 winnerczwx&lt;/strong&gt;：vs code&lt;/p&gt;&lt;hr/&gt;
@@ -273,7 +209,10 @@
 &lt;p&gt;&lt;strong&gt;#81 Cheons&lt;/strong&gt;：手机浏览器&lt;br/&gt;微博/小红书/V2/pdd/gemini/YouTube/gamil&lt;br/&gt;全都是用 web&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#82 Bootis&lt;/strong&gt;：同花顺，tradingview ，codex ，chatgpt&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#83 sslyxhz&lt;/strong&gt;：手机上是微信读书&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#84 Sawyerhou&lt;/strong&gt;：看了眼 app 耗电排行榜，同花顺 遥遥领先 :p&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 24 Apr 2026 02:14:50 +0000</pubDate></item><item><title>外甥女马上初中毕业，学习不好，该选择什么样的出路，求大家给点建议</title><link>https://www.v2ex.com/t/1208188</link><description>&lt;p&gt;中部省份四线城市，身高 150cm 的女生，马上要初中毕业，学习不好，是出去打工，还是读技校，读技校读什么专业呢？
+&lt;p&gt;&lt;strong&gt;#84 Sawyerhou&lt;/strong&gt;：看了眼 app 耗电排行榜，同花顺 遥遥领先 :p&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#85 zhiyu1998&lt;/strong&gt;：直接上图了，&lt;br/&gt;&lt;br/&gt; &lt;a href="https://i.imgur.com/xjGdQpR.jpeg" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/xjGdQpR.jpeg"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#86 ivvei&lt;/strong&gt;：小红书&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#87 MiniLED&lt;/strong&gt;：BOSS 直聘、前程无忧&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 24 Apr 2026 02:14:50 +0000</pubDate></item><item><title>外甥女马上初中毕业，学习不好，该选择什么样的出路，求大家给点建议</title><link>https://www.v2ex.com/t/1208188</link><description>&lt;p&gt;中部省份四线城市，身高 150cm 的女生，马上要初中毕业，学习不好，是出去打工，还是读技校，读技校读什么专业呢？
 助产师和电商方向是我比较倾向的。
 各位 v 友觉得呢。&lt;/p&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
@@ -360,7 +299,9 @@
 &lt;p&gt;&lt;strong&gt;#81 doudou1523102&lt;/strong&gt;：学习一个手艺很重要&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#82 revoirzl&lt;/strong&gt;：教育行业相关&lt;br/&gt;1.最优专业选择是护理，全球吃香，次选是康复，最后是殡仪，宠物医疗技术‌。&lt;br/&gt;2.公办大专五年制（ 3+2 ）（五专生）是最优选，次优选是高中-公办大专 3+3 全日制。&lt;br/&gt;3.学好英语！欧洲很多国家老龄化缺护理康复类人才，普遍是进修两年,工作三年即可申永居。&lt;br/&gt;最后：注意不要进民办（职教集团）的学校！&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#83 sieo2021&lt;/strong&gt;：月嫂  干半年休半年&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#84 mingtdlb&lt;/strong&gt;：宠物和护理，这俩专业都说有前途，然后一窝蜂的都冲这个，跟当年 IT 一样？再过 10 年，机器人能出来不？&lt;br/&gt;&lt;br/&gt;以我的认知，说实在的不懂啥有前途，自己现在都迷茫😂回过头看六年前的自己，还想着学这个技术学那个技术，现在 AI 冲击一下，感觉学点那边东西给 AI 拉平了。。。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 24 Apr 2026 02:10:40 +0000</pubDate></item><item><title>一个英语学习 APP [iOS] ，送 50 个终身会员</title><link>https://www.v2ex.com/t/1208178</link><description>&lt;p&gt;做了一款成语填字 APP ，名字叫做《多福单词》，对学习英语有诉求的，可以下载看看，送 50 个终生会员给各位大佬。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#84 mingtdlb&lt;/strong&gt;：宠物和护理，这俩专业都说有前途，然后一窝蜂的都冲这个，跟当年 IT 一样？再过 10 年，机器人能出来不？&lt;br/&gt;&lt;br/&gt;以我的认知，说实在的不懂啥有前途，自己现在都迷茫😂回过头看六年前的自己，还想着学这个技术学那个技术，现在 AI 冲击一下，感觉学点那边东西给 AI 拉平了。。。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#85 mrhunhun&lt;/strong&gt;：长得咋样啊 去团播&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#86 ZiLong&lt;/strong&gt;：1.看两遍以上哈佛幸福课;&lt;br/&gt;2.多与 AI 相处,把背景结合每天把自己今天的事情总结/好玩/印象深/或者不知道怎么处理的事情给 AI,让 AI 出主意,建议问三个以上的 AI;&lt;br/&gt;3.好好吃饭,好好锻炼身体&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 24 Apr 2026 02:10:40 +0000</pubDate></item><item><title>一个英语学习 APP [iOS] ，送 50 个终身会员</title><link>https://www.v2ex.com/t/1208178</link><description>&lt;p&gt;做了一款成语填字 APP ，名字叫做《多福单词》，对学习英语有诉求的，可以下载看看，送 50 个终生会员给各位大佬。&lt;/p&gt;
 &lt;p&gt;希望大佬们兑换了，能够顺手给个好评，独立开发不易，再次祝各位大佬，早日财富自由，早日赢取白富美。&lt;/p&gt;
 &lt;p&gt;========================&lt;/p&gt;
 &lt;p&gt;背单词是不是总让你昏昏欲睡？来试试用玩游戏的方式把单词刻进脑子里！&lt;/p&gt;
@@ -478,12 +419,12 @@ RKY467T64WXN4MHT4L
 YJHFYT3HPFHPY8H6MH
 FEWYTARRRLW3438KRP&lt;/p&gt;
 &lt;hr/&gt;
-第 1 条附言  ·  &lt;span title="2026-04-24 11:30:00 +08:00"&gt;11 小时 34 分钟前&lt;/span&gt;
+第 1 条附言  ·  &lt;span title="2026-04-24 11:30:00 +08:00"&gt;13 小时 20 分钟前&lt;/span&gt;
 
 忘了贴上下载链接，希望大佬们兑换了，能够顺手给个好评，独立开发不易，再次祝各位大佬，早日财富自由，早日赢取白富美。&lt;br/&gt;&lt;br/&gt;&lt;a href="https://apps.apple.com/cn/app/%E5%A4%9A%E7%A6%8F%E5%8D%95%E8%AF%8D-%E8%83%8C%E5%8D%95%E8%AF%8D%E7%8C%9C%E5%AD%97%E6%B8%B8%E6%88%8F/id6756718627" rel="nofollow noopener" target="_blank"&gt;https://apps.apple.com/cn/app/%E5%A4%9A%E7%A6%8F%E5%8D%95%E8%AF%8D-%E8%83%8C%E5%8D%95%E8%AF%8D%E7%8C%9C%E5%AD%97%E6%B8%B8%E6%88%8F/id6756718627&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;兑换方式&lt;br/&gt;&lt;br/&gt;&lt;a href="https://apps.apple.com/redeem?ctx=offercodes&amp;amp;id=6756718627&amp;amp;code=" rel="nofollow noopener" target="_blank"&gt;https://apps.apple.com/redeem?ctx=offercodes&amp;amp;id=6756718627&amp;amp;code=&lt;/a&gt;{兑换码}&lt;br/&gt;可以这样兑换，也可以用下面的方式&lt;br/&gt;&lt;br/&gt;通过 App Store 兑换&lt;br/&gt;打开 App Store&lt;br/&gt;点击右上角头像&lt;br/&gt;滑到底部，点击 "兑换礼品卡或代码"&lt;br/&gt;输入兑换码即可
 
 &lt;hr/&gt;
-第 2 条附言  ·  &lt;span title="2026-04-24 14:25:10 +08:00"&gt;8 小时 39 分钟前&lt;/span&gt;
+第 2 条附言  ·  &lt;span title="2026-04-24 14:25:10 +08:00"&gt;10 小时 24 分钟前&lt;/span&gt;
 
 再附上 50 个吧，帖子上是 100 个兑换码，合计 150 个兑换码，有效期到周末&lt;br/&gt;&lt;br/&gt;KPFLYXLAAX7KYW6ANY&lt;br/&gt;T4W3NLWLWXJKEEAHJK&lt;br/&gt;6MLKP36MYA43LTNHYH&lt;br/&gt;PYEW3LWF4KYLLL473X&lt;br/&gt;46KRK3HLY4HMMP7T4A&lt;br/&gt;E7JNA4P3JLR7J8L73X&lt;br/&gt;PA3TF3F88K48HNKRF6&lt;br/&gt;THYY6LP87TNJJRH3FY&lt;br/&gt;3JXWMKPH7EN3MKRTH6&lt;br/&gt;3W7A66ERPYNXEWJHTM&lt;br/&gt;44H6EXTPAE6XKY7MWT&lt;br/&gt;F74PYEYNJ64FEARL7W&lt;br/&gt;XER7XHXTT3N7EN4FEF&lt;br/&gt;FXYTA76NRRTW83R8FW&lt;br/&gt;HTJXPFT8MKEEFKWE78&lt;br/&gt;EAALELHYEMEYAME46N&lt;br/&gt;EW8NKMWALTFK3HEHYK&lt;br/&gt;6Y4F68LY3RKFRAPFP8&lt;br/&gt;KRFE3676MAF4WJ6FNY&lt;br/&gt;FAKTYT6ANNJMYPLRTP&lt;br/&gt;KL4HJRLAJM4PL46M7Y&lt;br/&gt;K3LRJ43HNLNJH84T48&lt;br/&gt;MWEAKE4YJ46EMY7T87&lt;br/&gt;XMFJYENPH4HN7MYMJX&lt;br/&gt;XEW7TJ68FK4NE3R777&lt;br/&gt;34LXM3JEJM3RXJJ387&lt;br/&gt;YYPMWYAWNR6K8P8J3N&lt;br/&gt;LFTAWFEL8RYPFT3YJT&lt;br/&gt;Y6WJAYMTXKEPYJ7MLE&lt;br/&gt;M37PEPFXKN8N86WL7P&lt;br/&gt;L7RFXLELAF8XE43L8W&lt;br/&gt;H76REJARPJHKLKK4TK&lt;br/&gt;FRHMWPNY6RY6MA8JAN&lt;br/&gt;YRFH4KMTE3FTRY7EN3&lt;br/&gt;3EHXJ7FL3YTE3N6REH&lt;br/&gt;YYMWTFALY4LPWE6AFL&lt;br/&gt;PHXFKY8MHFNJ74T7HP&lt;br/&gt;FNATLTXFFFHYRWLMHE&lt;br/&gt;AM7MJPEEKJX4YH8PP3&lt;br/&gt;W8EXJWXYFXHEP3XFMK&lt;br/&gt;LPK73H4E7PNH66NAKK&lt;br/&gt;WTK7JNRWKJHTX878A7&lt;br/&gt;T64TMFPLAK7PY4XPA6&lt;br/&gt;YM6E7434MNP38E3PWN&lt;br/&gt;K6K6E4RAELYL44P3RM&lt;br/&gt;XW47FJ7A6HNJLP6L64&lt;br/&gt;TJ37W336RWLRN6WJP3&lt;br/&gt;7RHFE3LWF3HTARW8EL&lt;br/&gt;PRPRLR8TNP78L764TR&lt;br/&gt;MJR4AJLYKYHPTHM4RT
 
