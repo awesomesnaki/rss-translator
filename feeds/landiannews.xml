@@ -1,5 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 23 Apr 2026 04:59:18 +0000</lastBuildDate><item><title>Checkmarx KICS遭到攻击 黑客部署蠕虫式后门窃取敏感信息再继续传播</title><link>https://www.landiannews.com/archives/112786.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Fri, 24 Apr 2026 02:00:57 +0000</lastBuildDate><item><title>⚠️重要安全提醒：开源密码管理器Bitwarden CLI命令行工具遭到供应链攻击</title><link>https://www.landiannews.com/archives/112790.html</link><description>
+&lt;p&gt;#安全资讯 ⚠️重要安全提醒：开源密码管理器 Bitwarden CLI 命令行工具遭到供应链攻击，该工具的相关 NPM 包携带恶意代码用于窃取敏感信息。此次攻击目前不涉及 Bitwarden 客户端、扩展程序和其他工具，但如果开发者使用 CLI 版本则应该立即检查 CI 日志并轮换可能暴露的令牌。查看详情：https://ourl.co/112790&lt;/p&gt;&lt;p&gt;昨天蓝点网提到基础设施即服务 (IaC) 安全扫描工具 Checkmarx 和 KICS 遭到黑客攻击，黑客在扩展程序和容器镜像中添加恶意代码以窃取开发环境中的敏感数据，目前已知知名密码管理器 Bitwarden 的 CLI 命令行工具受到影响，该工具已经被黑客投毒用来窃取更多敏感数据。&lt;/p&gt;
+&lt;p&gt;安全研究人员发现 Bitwarden/cli2026.4.0 版携带恶意代码，此次攻击似乎黑客利用 Bitwarden CI/CD 流水线中被黑的 GitHub Actions，这与 KICS 安全事件中的其他受影响的代码库攻击模式相同。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112790.png" rel="nofollow"&gt;&lt;img alt="⚠️重要安全提醒：开源密码管理器Bitwarden CLI命令行工具遭到供应链攻击 " data-src="https://img.lancdn.com/landian/2026/04/112790.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112790.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;安全研究人员正在进行全面的技术分析，晚些时候可能会发布更加详细的调查结果，包括受影响的 Bitwarden CLI 包版本、被黑指标以及修复指南等。但本着尽快轮换密钥可以提高安全性的原则，建议所有使用 Bitwarden CLI 工具的用户立即检查 CI 日志，轮换任何可能已经暴露在受感染工作流中的凭证。&lt;/p&gt;
+&lt;p&gt;需要特别说明的是，此次攻击目前仅可以确定受影响的是 Bitwarden CLI NPM 软件包，其他工具例如 Bitwarden 客户端、扩展程序、MCP 服务器以及其他合法发行版尚未受到影响。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;不得不说俄罗斯黑客从来不屑于隐藏自己，相关恶意代码会检测目标设备的区域设置，如果检测到 RU 区域设置就会立即静默退出，也就是这些恶意代码是不会对俄语环境展开攻击的。&lt;/p&gt;
+&lt;p&gt;黑客团队 TeamPCP 此前被认为并非来自特定国家的黑客团体，即这个黑客团体可能是由松散的青少年黑客组成，最有可能的来源是非洲国家肯尼亚，此前没有任何证据表明黑客来自俄罗斯。&lt;/p&gt;
+&lt;p&gt;现在恶意代码不会对俄罗斯展开攻击似乎可以说明 TeamPCP 与俄罗斯黑客有关，至少存在某种利益关联，否则这种以金钱驱动的黑客团体不太可能会忽略俄罗斯的企业。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://socket.dev/blog/bitwarden-cli-compromised" rel="noopener" target="_blank"&gt;Socket&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 24 Apr 2026 02:00:57 +0000</pubDate></item><item><title>AI涨价成为趋势：智谱迁移Coding Plan不限量老套餐 向老用户补偿2个月</title><link>https://www.landiannews.com/archives/112789.html</link><description>
+&lt;p&gt;#人工智能 AI 算力涨价成为趋势：智谱道歉，因为要强制清退 Coding Plan 旧版本 (无周限额)，改成 5 小时限额和周限额版本，简单来说就是权益缩减。作为补偿，智谱向老用户提供 2 个月的新套餐补偿，老用户现有的旧版套餐将在 4 月 30 日停止续费。查看详情：https://ourl.co/112789&lt;/p&gt;&lt;p&gt;早前腾讯云和阿里云都陆续推出新的 Token Plan 订阅套餐，将原本按照周和月限额调用次数的套餐改成按照实际消耗量计费，套餐内提供固定数量的 Tokens 或信用点，以前推出的那些低价编码套餐陆续都售罄或者直接下线。&lt;/p&gt;
+&lt;p&gt;现在智谱也宣布对此前推出的编码套餐进行迁移，简单来说旧版本的 GLM Coding Plan 即将成为历史，无论开发者是否愿意都会被强制迁移到新套餐，而新套餐相较于旧套餐配额已经明显缩水，所以开发者利益受到损害。&lt;/p&gt;
+&lt;p&gt;至于调整原因则是旧套餐无限周限额的模式已经无法支撑长期稳定的服务，所以智谱决定对套餐进行调整，当然智谱也知道这会让长期支持智谱的开发者们感到失望，作为补偿措施，智谱将向所有老用户提供 2 个月同等级的新套餐权益。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112789.png" rel="nofollow"&gt;&lt;img alt="AI涨价成为趋势：智谱迁移Coding Plan不限量老套餐 向老用户补偿2个月" data-src="https://img.lancdn.com/landian/2026/04/112789.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112789.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;受影响的用户：当前订阅旧套餐 (无周限额) 且开启自动续订的用户&lt;/li&gt;
+&lt;li&gt;迁移变更说明：旧套餐将在 2026 年 4 月 30 日 10:00 起停止自动续订，当前订阅周期的价格和权益不受影响&lt;/li&gt;
+&lt;li&gt;到期停止续订：停止续订后用户需要主动重新续订才能继续使用，当然还有补偿措施，可以在补偿到期后再开&lt;/li&gt;
+&lt;li&gt;补偿措施如下：停止自动续订日起，智谱将向老用户赠送 2 个月的新套餐权益，直到到期后自然过期&lt;/li&gt;
+&lt;li&gt;过期重新续订：补偿的 2 个月新套餐权益到期后，用户可以自行订阅智谱提供的最新套餐&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;目前智谱提供的最新编码套餐都已经实施 5 小时限额和周限额，例如 GLM Coding Plan Lite 版 5 小时限额约为 80 次提示，周限额约为 400 次提示，也就是订阅周期内最多可以使用约 1600 次提示。&lt;/p&gt;
+&lt;p&gt;当然这个价格还是要比直接使用 API 要便宜的多，智谱称每月可用额度按照 API 定价折算，用户实际可以使用的 Tokens 数量相当于月订阅费的 15~30 倍，对于高频次使用的开发者而言，这仍然有很大的价格优势。&lt;/p&gt;
+&lt;p&gt;另外不同模型的价格也是不同的，例如智谱将 GLM-5.1 和 GLM-5-Turbo 定为高阶模型、对标 Claude Opus，所以调用时按高峰期 3x 和非高峰期 2x 进行消耗，使用这类模型会导致 5 小时和周配额被更快消耗掉。&lt;/p&gt;
+</description><pubDate>Fri, 24 Apr 2026 01:30:57 +0000</pubDate></item><item><title>[指南] 原来Claude Desktop还可以配置API中转站使用 无需登录账号和开通订阅</title><link>https://www.landiannews.com/archives/112788.html</link><description>
+&lt;p&gt;#软件教程 Claude Desktop for Mac/Win 还可以启用开发者模式配置 API 中转站使用，不需要注册登录 Claude 和开通订阅 (这样也可以解决封号问题)。也就是用户可以搭配自己的 API 中转站使用 Claude Desktop 的大部分功能，包括常规任务以及编码任务等，这样还有个优势是按需付费，按照用户实际消耗的 Tokens 计费。查看详情：https://ourl.co/112788&lt;/p&gt;&lt;p&gt;通常情况下用户使用 Claude Desktop 都需要注册并登录账号才能正常使用，当然因为使用配额问题用户可能还需要开通 Claude Pro 订阅，但没想到原来 A 社还为 Claude 桌面客户端提供自定义 API 端点配置，这样用户不需要登录即可使用 Claude 桌面版。&lt;/p&gt;
+&lt;p&gt;代价就是用户需要自己想办法找兼容 A 社接口 API 中转站，与注册账号并开通订阅相比，使用 API 中转站不需要担心封号问题，同时还可以按量使用节省成本以及充分利用 Claude Desktop for Mac / Windows 的各种功能。&lt;/p&gt;
+&lt;p&gt;A 社确实提供文档指导用户如何通过开发者模式启用 Claude Desktop 版的 API 中转站功能，不过很多用户并不知道这件事，这还要归功于 Linux.do 网友 &lt;a href="https://linux.do/t/topic/2032192" rel="noopener" target="_blank"&gt;@Donnad&lt;/a&gt; 发现这个功能并给出详细的配置指南。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;1. 安装并启动 Claude Desktop 版，弹出登录界面后依次点击菜单栏的 Help、Troubleshooting、Enable Developer Mode，这可以启用开发者模式。&lt;/p&gt;
+&lt;p&gt;Windows 10/11 上有点问题，操作略微有点麻烦，因为菜单按钮点不动，所以要换个方法：点击登录、鼠标点击输入账号的输入框、然后按 Tab 键切换几次到左上角的菜单按钮，此时这个按钮还是无法点击，但可以通过按回车来确认，按回车弹出菜单后再用鼠标选择。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112788-1A.png" rel="nofollow"&gt;&lt;img alt="[指南] 原来Claude Desktop还可以配置API中转站使用 无需登录账号和开通订阅" data-src="https://img.lancdn.com/landian/2026/04/112788-1A.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112788-1A.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112788-7.png" rel="nofollow"&gt;&lt;img alt="[指南] 原来Claude Desktop还可以配置API中转站使用 无需登录账号和开通订阅" data-src="https://img.lancdn.com/landian/2026/04/112788-7.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112788-7.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2. 启用开发者模式后完全退出 Claude Desktop 并重新启动，此时菜单栏会显示开发者模式，点击开发者模式并启用 Configure Third-Party Inference (启用第三方接口)&lt;/p&gt;
+&lt;p&gt;Windows 10/11 操作方法还是相同：鼠标还是点击输入框、点击 Tab 键进行切换、切换到菜单按钮后按回车、接下来启用第三方接口即可，详情请看配图。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112788-2A.png" rel="nofollow"&gt;&lt;img alt="[指南] 原来Claude Desktop还可以配置API中转站使用 无需登录账号和开通订阅" data-src="https://img.lancdn.com/landian/2026/04/112788-2A.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112788-2A.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112788-8.png" rel="nofollow"&gt;&lt;img alt="[指南] 原来Claude Desktop还可以配置API中转站使用 无需登录账号和开通订阅" data-src="https://img.lancdn.com/landian/2026/04/112788-8.png" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112788-8.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;3. 接着在连接选项里配置 API 中转站地址和 API 密钥，请注意默认网关为 Anthropic 兼容接口，所以你使用的 API 中转站 (和 API 密钥) 也应该采用 A 社兼容接口，当然 A 社还提供 AWS、谷歌云和微软的 API 接口，这个用户可以根据自己的 API 中转站实际情况进行选择。填写 API 接口地址和密钥后点击底部的应用本地，然后再次完全退出 Claude Desktop 版并重新启动。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112788-3.png" rel="nofollow"&gt;&lt;img alt="[指南] 原来Claude Desktop还可以配置API中转站使用 无需登录账号和开通订阅" data-src="https://img.lancdn.com/landian/2026/04/112788-3.png" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112788-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;4. 再次启动后可以看到 Claude Desktop 登录界面出现继续使用本地网关的字样，这个就是我们刚刚配置的第三方 API 中转站选项，点击这个选项就不需要登录账户进入 Claude Desktop 界面。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112788-4.png" rel="nofollow"&gt;&lt;img alt="[指南] 原来Claude Desktop还可以配置API中转站使用 无需登录账号和开通订阅" data-src="https://img.lancdn.com/landian/2026/04/112788-4.png" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112788-4.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;5. 成功启动后可以看到默认的 Cowork 界面，也可以切换到 Code 界面，用户在这里可以调用 Claude Desktop 提供的各类工具，但所有 Tokens 消耗都是走 API 中转站，这样就可以实现不需要登录和开通 Claude 订阅即可使用 Claude Desktop 的大部分功能。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112788-5.png" rel="nofollow"&gt;&lt;img alt="[指南] 原来Claude Desktop还可以配置API中转站使用 无需登录账号和开通订阅" data-src="https://img.lancdn.com/landian/2026/04/112788-5.png" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112788-5.png"/&gt;&lt;/a&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112788-6.png" rel="nofollow"&gt;&lt;img alt="[指南] 原来Claude Desktop还可以配置API中转站使用 无需登录账号和开通订阅" data-src="https://img.lancdn.com/landian/2026/04/112788-6.png" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112788-6.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;如果用户使用的 API 中转站提供 Claude 系列模型例如 Claude Opus 4.6 等，则成功连接后在编码任务里还可以切换模型思考努力 (Low/Medium/High/Max)，不同的思考难度消耗的 Tokens 数量不同，对于难度较高的任务使用更高的思考努力程度可以获得更好的效果，不过前提是用户使用的 API 中转站支持，如果中转站不支持的话则可能看不到设置选项以及设置后无效等。&lt;/p&gt;
+</description><pubDate>Fri, 24 Apr 2026 01:00:55 +0000</pubDate></item><item><title>爪云容器平台ClawCloud Run将在5月11日停服 请所有用户立即备份数据</title><link>https://www.landiannews.com/archives/112787.html</link><description>
+&lt;p&gt;#云计算 爪云容器部署平台 ClawCloud Run 突然宣布关停，所有用户请务必在 5 月 10 日 16:00 前备份和迁移数据，过期数据可能无法导出。对于付费用户还必须在 5 月 19 日前提交退款申请，过期后再提交申请将无法退款，此前该服务通过免费吸引大量用户，不知道现在突然关停又是因为什么。查看详情：https://ourl.co/112787&lt;/p&gt;&lt;p&gt;曾经靠拉新推广快速吸引开发者注意的 ClawCloud Run 突然宣布停止服务，爪云日前发布产品公告宣布这项容器服务即日起停止注册和购买，而现有的免费套餐将在 2026 年 5 月 11 日停止服务。&lt;/p&gt;
+&lt;p&gt;爪云的这项服务主要是容器部署，用户可以通过该服务免费部署容器并在云端运行，当然如果用户想要获得更高的配置还可以购买套餐，当时爪云推出该服务时声势也非常大，所以现在突然关闭完全让人搞不清楚原因。&lt;/p&gt;
+&lt;p&gt;该公司在产品公告中表示：停止提供该产品及相关服务，本通知提供完整的过渡时间表和详细信息，供所有用户提前查阅和做好相关服务的迁移安排。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112787.png" rel="nofollow"&gt;&lt;img alt="爪云容器平台ClawCloud Run将在5月11日停服 请所有用户立即备份数据" data-src="https://img.lancdn.com/landian/2026/04/112787.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112787.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2026 年 04 月 23 日 00:00 UTC：停止所有新用户注册和购买，无法再部署新服务&lt;/li&gt;
+&lt;li&gt;2026 年 05 月 11 日 00:00 UTC：下线 ClawCloud Run 产品页面，所有用户无法再访问此页面&lt;/li&gt;
+&lt;li&gt;2026 年 05 月 11 日 00:00 UTC：现有的免费套餐全部停止服务，因此免费用户必须在此之前完成迁移&lt;/li&gt;
+&lt;li&gt;2026 年 05 月 11 日 00:00 UTC：ClawCloud Run 产品文档和博客下线，同日起不再支持续订&lt;/li&gt;
+&lt;li&gt;2026 年 05 月 20 日 00:00 UTC：现有付费用户可以通过表单申请退款，注意此时间为退款申请提交截止时间&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;爪云只在公告中强调免费套餐在 5 月 11 日停止服务，但并未单独强调付费服务何时停止服务，但公告中又提到所有用户都应该在 5 月 11 日前完成数据备份或迁移，所以无论是免费用户还是付费用户都应该在 5 月 11 日前迁移，那为什么还要单独强调免费套餐在当日停止呢？这可能会让付费用户产生误解导致未能及时备份数据。&lt;/p&gt;
+&lt;p&gt;另外爪云在公告中也明确提到所有付费用户&lt;a href="https://forms.gle/GDXsH9AUzqZSTY8NA" rel="noopener" target="_blank"&gt;退款申请&lt;/a&gt;必须在 5 月 20 日 00:00 UTC 之前提交，之后提交的退款申请将不予退款，所以付费用户必须及时提交申请，以免因为错过时间而导致无法退款。&lt;/p&gt;
+&lt;p&gt;所以最后我们的提醒就是无论是免费用户还是付费用户都请务必在 2026 年 5 月 10 日 16:00 前迁移数据 (时区差异)，当然最好看到本消息就立即迁移，将相关服务或应用立即转移到其他平台，避免服务稳定性受到影响。&lt;/p&gt;
+</description><pubDate>Fri, 24 Apr 2026 00:30:54 +0000</pubDate></item><item><title>Checkmarx KICS遭到攻击 黑客部署蠕虫式后门窃取敏感信息再继续传播</title><link>https://www.landiannews.com/archives/112786.html</link><description>
 &lt;p&gt;#安全资讯 安全工具 Checkmarx 和 KICS 遭到黑客攻击，黑客推送恶意版本用来窃取各类敏感凭证，然后发起类似蠕虫式的感染。最近几天安装 Checkmarx 扩展以及拉取 KICS Docker 镜像的开发者应当立即轮换所有凭证并检查各类登录或连接记录，很可能开发环境和云资源的凭证都已经泄露。查看详情：https://ourl.co/112786&lt;/p&gt;&lt;p&gt;基础设施即代码 (IaC) 安全扫描工具 KICS 日前遭到黑客攻击，黑客篡改 KICS 官方容器镜像添加后门程序并用于收集用户的敏感信息例如各类凭证，然后再利用这些凭证继续展开攻击实现蠕虫式的横向感染，这起攻击幕后黑手可能也是 TeamPCP。&lt;/p&gt;
 &lt;p&gt;最初发现异常的还是 Docker 公司，该公司内部监控设施发现 KICS 镜像出现可疑活动后立即向安全公司 Socket 发出警报，经过分析后安全公司确认 KICS 所有版本的镜像都被替换为恶意镜像，包括最新发布的 v2.1.20alpine 和 v2.1.21 (此版本纯粹为黑客发布)。&lt;/p&gt;
 &lt;p&gt;值得注意的是 Checkmarx 开发工具也同样受到影响，该工具最近发布的 VSCode 扩展程序也携带后门，黑客通过添加的恶意代码收集开发环境中的敏感数据，建议使用以上工具的开发者立即轮换所有密钥确保安全。&lt;/p&gt;
@@ -12,57 +79,4 @@
 &lt;p&gt;Docker 团队在识别到异常后已经清除相关恶意镜像，Socket 则建议已经安装或拉取受影响的 Checkmarx 或 KICS 组件的开发者应当认为所有凭证已经泄露，因此需要将所有可能泄露的凭证全部轮换掉提升安全性。&lt;/p&gt;
 &lt;p&gt;但考虑到这种蠕虫式的攻击，如果在轮换凭证前黑客已经感染其他设施，则单纯的轮换密钥可能无法解决问题，所以开发者还需要进行更详细的检查例如排查凭证连接记录看看是否存在非开发者自己的操作。&lt;/p&gt;
 &lt;p&gt;via &lt;a href="https://socket.dev/blog/checkmarx-supply-chain-compromise" rel="noopener" target="_blank"&gt;Socket&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 23 Apr 2026 04:59:18 +0000</pubDate></item><item><title>铠侠发布基于QLC颗粒的EG7系列固态盘 铠侠称其性能可以与TLC固态盘媲美</title><link>https://www.landiannews.com/archives/112785.html</link><description>
-&lt;p&gt;#硬件设备 铠侠面向消费级市场推出 EG7 系列 PCIe 4.0 固态硬盘，采用 QLC 闪存颗粒，铠侠称其性能可以与 TLC 固态硬盘媲美，但 EG7 系列没有配备缓存。这款固态硬盘主要面向 OEM 提供，也就是用来构建笔记本电脑和台式机，从 5 月开始预计搭载 EG7 固态硬盘的设备就会陆续上市。查看详情：https://ourl.co/112785&lt;/p&gt;&lt;p&gt;存储器制造商铠侠 (Kioxia) 日前推出 EG7 系列固态硬盘，该系列固态硬盘全部采用 QLC 闪存颗粒，不过铠侠称这款固态硬盘在性能方面完全可以与 TLC 固态硬盘媲美，例如顺序读取速度可以达到 7,000MB / 秒。&lt;/p&gt;
-&lt;p&gt;不过这款固态硬盘竟然没有配备缓存，这可能是用于节省成本，因为 EG7 固态硬盘本身主要面向消费级市场，铠侠已经向多家 OEM 供货，用于构建轻薄型笔记本电脑和台式机等产品。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112785.png" rel="nofollow"&gt;&lt;img alt="铠侠发布基于QLC颗粒的EG7系列固态盘 铠侠称其性能可以与TLC固态盘媲美" data-src="https://img.lancdn.com/landian/2026/04/112785.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112785.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;性能方面 EG7 固态硬盘提供每秒 7,000MB 的顺序读取速度、每秒 6,200MB 的顺序写入速度，随机读写性能最高可达 1,000K IOPS，容量方面提供 512GB、1TB 和 2TB 版，外形尺寸上提供 M.2 2230、2242 和 2280，因此能够兼容各类传统笔记本电脑、台式机、迷你机甚至是游戏掌机等。&lt;/p&gt;
-&lt;p&gt;而搭载这些固态硬盘的笔记本电脑或台式机很快就会上市，如果用户比较担心 QLC 闪存颗粒寿命的话，可以在选购相关产品时提前查询固态硬盘参数或型号，以免购买的机型搭载的就是 EG7 系列固态硬盘。&lt;/p&gt;
-&lt;p&gt;但其实现在对消费者而言也已经没有更好的选择，因为固态硬盘价格也在逐渐上涨中，如果用户非得购买 TLC 固态硬盘那需要支付更高的价格，所以说到底还是预算问题，如果预算足够高自然可以继续使用 TLC 固态硬盘。&lt;/p&gt;
-&lt;p&gt;铠侠也强调，随着大型科技公司和超大规模数据中心持续采购存储产品，这也会导致固态硬盘价格逐渐上涨，因此未来消费者可能很难购买到低于 50 美元的 1TB 固态硬盘，大容量高性能固态硬盘的售价可能还会更高。因此用户必须在性能、效率和成本等多方面考虑并取得平衡，而且这也意味着未来消费者可能需要花更多的钱购买容量更小的固态硬盘。&lt;/p&gt;
-</description><pubDate>Thu, 23 Apr 2026 03:29:57 +0000</pubDate></item><item><title>Claude Mythos遭到未经授权的访问 有人猜测模型端点并配合特殊权限实现访问</title><link>https://www.landiannews.com/archives/112784.html</link><description>
-&lt;p&gt;#人工智能 A 社 Claude Mythos 模型遭到未经授权访问，此前 A 社称该模型过于强大不适合公开发布。在 Discord 群组中有人通过模型命名规则成功猜测模型端点地址，然后配合 A 社外包公司的特殊访问凭证可以不经过 A 社的授权直接访问 Claude Mythos 模型，不过社区成员强调未利用权限进行恶意利用。查看详情：https://ourl.co/112784&lt;/p&gt;&lt;p&gt;A 社此前面向部分科技企业和机构推出 Claude Mythos 模型访问权限，该模型在编程开发领域具有极强的能力，因此现阶段主要是被用于发掘各类产品的安全漏洞。&lt;/p&gt;
-&lt;p&gt;因为担心模型被恶意利用导致出现安全事件，所以 A 社并未公开发布此模型，这种仅限受邀客户参与的方式可以确保大型科技公司能够保护全球科技行业依赖的关键软件。&lt;/p&gt;
-&lt;p&gt;不过彭博社日前发布报道称，被 A 社引以为傲的 Claude Mythos 模型已经遭到未经授权的访问，在 Discord 群组中有人通过猜测模型命名规则和 URL 并配合相关凭证实现访问，这名用户所在的组织本身没有访问 Claude Mythos 模型的权限。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112784.png" rel="nofollow"&gt;&lt;img alt="Claude Mythos遭到未经授权的访问 有人猜测模型端点并配合特殊权限实现访问" data-src="https://img.lancdn.com/landian/2026/04/112784.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112784.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在 Discord 社交软件上有个群组专注于讨论和发掘 AI 公司尚未公开发布的模型，就本次事件而言，有群组成员根据 A 社模型命名规则猜测 Claude Mythos 模型的在线端点。&lt;/p&gt;
-&lt;p&gt;但拿到在线端点也会因为没有权限而无法使用 Claude Mythos 模型，但群组中成员非常多 --- 里面有一位成员此前在 A 社的第三方外包商工作而有特殊访问权限，这名成员持有的凭证可以访问 Claude Mythos 模型。&lt;/p&gt;
-&lt;p&gt;因此配合在线端点后使得这个 Discord 群组成员能够在未经 A 社授权的情况下直接使用模型，这件事可能不算是安全事件，而是 A 社外包公司存在内部管理问题，例如已经离职的员工相关凭证竟然没有被删除。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这个 Discord 群组成员表示，获得 Claude Mythos 访问权限后只是用来构建简单的网站和进行测试，并没有因为获得权限就进行恶意利用，例如使用模型发掘某些关键软件的安全漏洞并加以利用。&lt;/p&gt;
-&lt;p&gt;不过这种说法是否为真无人知晓，但从 A 社此前的宣传来看，Claude Mythos 模型遭到未经授权的访问可能会引起巨大安全问题，所以彭博社也将这事儿报告给 A 社，A 社已经知晓此事并进行调查。&lt;/p&gt;
-&lt;p&gt;值得注意的是这个 Discord 群组成员称他们其实还掌握着更多 A 社尚未公布发布的模型使用权限，这些模型多数都在内部测试中，并未公开发布。&lt;/p&gt;
-</description><pubDate>Thu, 23 Apr 2026 03:06:46 +0000</pubDate></item><item><title>有人疑似拿热源加热巴黎的气象温度传感器 从Polymarket预测市场获利3.4万美元</title><link>https://www.landiannews.com/archives/112783.html</link><description>
-&lt;p&gt;#加密货币 戴高乐机场的温度传感器出现异常，疑似是有人拿热源提高温度，从而从 Polymarket 加密预测市场获利。Polymarket 允许投注者预测天气，这种情况导致全球各地陆续出现异常天气监测事件，例如部分地区的气象部门员工收受贿赂后人为篡改数据，从而确保投注者能成功获利。查看详情：https://ourl.co/112783&lt;/p&gt;&lt;p&gt;基于加密货币的预测市场 Polymarket 允许用户提出预测交易并根据最终预测结果分配投注金额，而天气预测已经成为 Polymarket 市场最常见的预测事件，因为天气事件源源不断且理论上难以操纵。&lt;/p&gt;
-&lt;p&gt;例如有人可以提出预测事件：戴高乐机场在 4 月 25 日 23:00 的温度并吸引人跟投，到时候法国公布官方气象信息后，Polymarket 就会根据该信息来判断哪些用户预测正确可以获得预测利润。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112783.png" rel="nofollow"&gt;&lt;img alt="有人疑似拿热源加热巴黎的气象温度传感器 从Polymarket预测市场获利3.4万美元" data-src="https://img.lancdn.com/landian/2026/04/112783.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112783.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;2026 年 4 月 6 日和 15 日，法国气象局在巴黎戴高乐机场监测到两次温度传感器异常，戴高乐机场的温度传感器是用来监测巴黎气温的监测站之一，这些监测站数据最终会被汇总生成巴黎气温。&lt;/p&gt;
-&lt;p&gt;第一次异常是在 4 月 6 日 18:30，当时戴高乐机场的传感器记录到的数据显示，在短短 12 分钟内温度上升 4 摄氏度，一度短暂达到 22.5 摄氏度，随后恢复正常。&lt;/p&gt;
-&lt;p&gt;第二次异常是在 4 月 15 日 21:30，当时在晴朗多云的天空下，传感器记录到的温度短时间内攀升到 22 摄氏度，随后又是在几分钟内恢复正常。&lt;/p&gt;
-&lt;p&gt;发生这些异常时，戴高乐机场周边的其他监测站数据完全正常，风速和相对湿度也没有发生异常变化，因此行业专家认为最有可能的异常原因就是有人在传感器附近放置了加热装置。&lt;/p&gt;
-&lt;p&gt;在社交媒体上不少网友猜测引起异常温度变化的原因是有人用吹风机或打火机，当然这种也只是戏称，毕竟这个监测站位于公共道路尽头，用任何热源装置都可以让传感器快速升温。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; Polymarket 支付 3.4 万美元预测成功投注金额：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;事后调查显示，戴高乐机场两次温度传感器发生异常时，Polymarket 预测市场都出现成功预测事件，为此 Polymarket 向成功预测者支付 3.4 万美元的投注金额。&lt;/p&gt;
-&lt;p&gt;第一次是在 4 月 6 日，有人预测巴黎气温将达到 21 摄氏度，这次预测最接近实际气温，因此获得 1.4 万美元奖励，这个账户在投注前刚刚创建，而不是老账户。&lt;/p&gt;
-&lt;p&gt;第二次是在 4 月 15 日，另一名不同账户的投注者预测巴黎气温将达到 22 摄氏度而获得 2 万美元的奖励，目前针对这些异常已经有用户向 Polymarket 投诉，指出存在操纵和内幕交易。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;值得注意的是目前全球各地尤其是知名城市或地点的温度数据异常事件较以前有所增多，这些异常事件大概率都是因为 Polymarket 预测市场，即有人投注、有人买通内鬼、进而操纵或修改气象数据来获利。&lt;/p&gt;
-&lt;p&gt;社交媒体上流传的消息称，部分地区的气象部门存在内鬼用于帮助预测者修改数据，而且都是在预测结束前几分钟人为篡改天气结果，确保投注者能够压中和获利。&lt;/p&gt;
-&lt;p&gt;这种做法实际上还难以追查，因为短时间内出现的小幅度天气数据波动通常不会被认为是大问题，当前这种人为篡改数据的数量毕竟还比较少，也不会对整体数据产生太大影响。&lt;/p&gt;
-&lt;p&gt;不过如果 Polymarket 不禁止预测天气的话，估计未来这种天气异常事件可能会显著增多，长期篡改结果后还可能导致整体天气数据出现偏差，这可能会造成难以预料的潜在影响。&lt;/p&gt;
-</description><pubDate>Thu, 23 Apr 2026 02:46:26 +0000</pubDate></item><item><title>微软发布紧急带外更新修复.NET组件中的权限提升漏洞 该漏洞评分达9.1分</title><link>https://www.landiannews.com/archives/112782.html</link><description>
-&lt;p&gt;#安全资讯 微软发布.NET 10.0.7 版紧急安全更新修复权限提升漏洞 (但不是用于本地提权)，攻击者利用漏洞可以伪造 Cookie 或会话重置令牌等进行权限提升。例如非管理员伪造令牌冒充自己是管理员来通过服务器验证，从而实现权限提升并接管服务器或后台管理系统。查看详情：https://ourl.co/112782&lt;/p&gt;&lt;p&gt;微软开发的.NET 是很多应用程序运行的底层组件，微软同时支持多个.NET 版本，不过微软也建议开发者和 IT 管理员不要运行那些已经停止支持的版本，因为旧版本可能会因为安全漏洞给客户造成安全风险。&lt;/p&gt;
-&lt;p&gt;不过本文要说的是.NET 还在受支持的版本出现的安全漏洞，这个安全漏洞的评分达到 9.1 分，鉴于漏洞危害程度较高，微软已经发布紧急带外更新进行修复，此漏洞影响.NET 10.0.6 及旧版本。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112782.png" rel="nofollow"&gt;&lt;img alt="微软发布紧急带外更新修复.NET组件中的权限提升漏洞 该漏洞评分达9.1分" data-src="https://img.lancdn.com/landian/2026/04/112782.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112782.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;微软在 4 月例行更新中发布.NET 10.0.6 版后，部分用户报告其基于.NET 开发的应用程序解密功能失效，随后微软开始调查，调查该问题时微软意外发现 10.0.0~10.0.6 都存在权限提升漏洞。&lt;/p&gt;
-&lt;p&gt;该漏洞编号为 CVE-2026-40372，漏洞评分为 9.1 分，攻击者可以利用漏洞伪造身份验证 Cookie 并解密某些安全载荷，从而实现权限提升，该漏洞位于 Microsoft.AspNetCore.DataProtection NuGet 包中。&lt;/p&gt;
-&lt;p&gt;微软称，在进行带身份加密的验证时，程序原本应该使用 HMAC (防篡改校验码) 来验证数据的完整性，但因为代码漏洞，系统计算 HMAC 校验码时用错字节，然后又把算出来的错误校验结果丢弃，没有正确进行比对。&lt;/p&gt;
-&lt;p&gt;所以利用漏洞就可以伪造受保护的数据 (例如 Cookie、会话令牌、重置密码链接等)，让系统误以为这些伪造内容是合法的，进而引起权限提升方面的问题。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;为修复该漏洞，微软已经发布.NET 10.0.7 版进行修复，这个版本属于开箱即用安全更新，也就是升级到新版本即可，不需要经过复杂的处理来解决漏洞。&lt;/p&gt;
-&lt;p&gt;.NET 10.0.7 版也修复解密方面的错误，微软建议所有使用.NET 10.0.0~10.0.6 版的开发者和企业都立即升级到.NET 10.0.7 版防止出现权限提升。&lt;/p&gt;
-&lt;p&gt;下载地址：&lt;a href="https://dotnet.microsoft.com/download/dotnet/10.0" rel="noopener" target="_blank"&gt;https://dotnet.microsoft.com/download/dotnet/10.0&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 22 Apr 2026 07:28:35 +0000</pubDate></item></channel></rss>
+</description><pubDate>Thu, 23 Apr 2026 04:59:18 +0000</pubDate></item></channel></rss>
