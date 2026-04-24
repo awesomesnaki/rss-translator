@@ -19,6 +19,11 @@
 &lt;p&gt;英文：&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;Create a single HTML file containing CSS and JavaScript to generate an animated weather card. The card should visually represent the following weather conditions with distinct animations: Wind: (e.g., moving clouds, swaying trees, or wind lines) Rain: (e.g., falling raindrops, puddles forming) Sun: (e.g., shining rays, bright background) Snow: (e.g., falling snowflakes, snow accumulating) Show all the weather card side by side The card should have a dark background. Provide all the HTML, CSS, and JavaScript code within this single file. The JavaScript should include a way to switch between the different weather conditions (e.g., a function or a set of buttons) to demonstrate the animations for each.
 &lt;/code&gt;&lt;/pre&gt;
+&lt;hr/&gt;
+第 1 条附言  ·  &lt;span title="2026-04-24 18:29:32 +08:00"&gt;29 分钟前&lt;/span&gt;
+
+就像有些老哥说的，我的评价确实太武断了，不太能说明啥，而且有点标题党，容易引起争议。&lt;br/&gt;目前单纯的 API 价格相对于订阅制来说还是会让人价格很敏感，希望后面尽快推出 Coding Plan 吧。&lt;br/&gt;另外，即使国产模型还没到 Opus 4.6 的级别，但是好歹 OpenAI 的新模型到了，不用再看 A\ 的脸色了。国产模型目前的进步速度，应该能尽快追赶上的。&lt;br/&gt;还有别吵了，我都下沉过了还是没用，看了下还是挂在热门那。哪位管理员看到帮忙从热门那下掉。
+
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 Nzelites&lt;/strong&gt;：有无其它 ai 的对比？&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#2 dingawm&lt;/strong&gt;：@&lt;a href="/member/Nzelites"&gt;Nzelites&lt;/a&gt; #1 可以网上找找其他的看看，差距有点明显，可能 Sonnet 4.6 都不如，不过我这也只是单个测试，等后面看看有没有更多的测试吧。晚点可能再试一下 kimi2.6 ，最近用得挺多，目前感觉国产里编程写前端第一的，后端还没试。&lt;/p&gt;&lt;hr/&gt;
@@ -171,7 +176,11 @@
 &lt;p&gt;&lt;strong&gt;#48 john46&lt;/strong&gt;：对外的复杂业务的项目肯定不行，但是工具性平台功能型的对内用绝对可以啊，比如 jekins 太难用自己写一个部署平台、各种协同平台、dms 要商业化收费，自己 ai 写一个，一周迭代基本就很完整了，这不是节省成本么。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#49 jadeborner&lt;/strong&gt;：别人写的代码让你维护不也这样想吗&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#50 kloudmuka&lt;/strong&gt;：OP 应该是看到自己的饭碗被非程序员抢走之后开始急眼了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#51 yaidev&lt;/strong&gt;：做好顶层规划设计与实现中的阶段性 Review ，Vibe Coding 不比你写的代码差。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 24 Apr 2026 03:28:38 +0000</pubDate></item><item><title>你每天用的最多的 app 是啥？</title><link>https://www.v2ex.com/t/1208192</link><description>我的前三名：微信、微博、小红书
+&lt;p&gt;&lt;strong&gt;#51 yaidev&lt;/strong&gt;：做好顶层规划设计与实现中的阶段性 Review ，Vibe Coding 不比你写的代码差。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#52 roychaos&lt;/strong&gt;：像我们的小公司，把需求完成就行了，质量不要太差就行&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#53 haha1903&lt;/strong&gt;：这恰好是你争权夺利的好时候&lt;br/&gt;你要向老板证明，是他不行，而不是 AI 不行&lt;br/&gt;然后把权利要过来，让他听话&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#54 phatzhong24&lt;/strong&gt;：可以让你早点下班&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#55 HeyWeGo&lt;/strong&gt;：自己写给自己的好处是往往操作流程可预测的，写给用户的往往不可预测用户行为，就很容易弄出各种小 bug&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 24 Apr 2026 03:28:38 +0000</pubDate></item><item><title>你每天用的最多的 app 是啥？</title><link>https://www.v2ex.com/t/1208192</link><description>我的前三名：微信、微博、小红书
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 CoderGeek&lt;/strong&gt;：wx dy tg&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#2 winnerczwx&lt;/strong&gt;：vs code&lt;/p&gt;&lt;hr/&gt;
@@ -245,7 +254,12 @@
 &lt;p&gt;&lt;strong&gt;#70 Donne&lt;/strong&gt;：抖音 微信 东方财富 Goland&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#71 NewYear&lt;/strong&gt;：当然是 V2EX&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#72 yangsenyue350&lt;/strong&gt;：前三 抖音 微信 虎扑&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#73 zhhqiang&lt;/strong&gt;：bilibili 微信 拼多多&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 24 Apr 2026 02:14:50 +0000</pubDate></item><item><title>外甥女马上初中毕业，学习不好，该选择什么样的出路，求大家给点建议</title><link>https://www.v2ex.com/t/1208188</link><description>&lt;p&gt;中部省份四线城市，身高 150cm 的女生，马上要初中毕业，学习不好，是出去打工，还是读技校，读技校读什么专业呢？
+&lt;p&gt;&lt;strong&gt;#73 zhhqiang&lt;/strong&gt;：bilibili 微信 拼多多&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#74 soar0712&lt;/strong&gt;：Xiux 记录支出的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#75 lovewendy&lt;/strong&gt;：symfonium 、手游 lol&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#76 991547436&lt;/strong&gt;：哔卡&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#77 jerry10086&lt;/strong&gt;：idea&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#78 Dogergo&lt;/strong&gt;：招商银行-黄金&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 24 Apr 2026 02:14:50 +0000</pubDate></item><item><title>外甥女马上初中毕业，学习不好，该选择什么样的出路，求大家给点建议</title><link>https://www.v2ex.com/t/1208188</link><description>&lt;p&gt;中部省份四线城市，身高 150cm 的女生，马上要初中毕业，学习不好，是出去打工，还是读技校，读技校读什么专业呢？
 助产师和电商方向是我比较倾向的。
 各位 v 友觉得呢。&lt;/p&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
@@ -324,7 +338,11 @@
 &lt;p&gt;&lt;strong&gt;#73 Mandelo&lt;/strong&gt;：@&lt;a href="/member/LabJo"&gt;LabJo&lt;/a&gt; 时代早变了，一堆大学学护理的&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#74 forbreak&lt;/strong&gt;：忘记说了，我侄子现在大专第一年。 相当于第一个目标实现了。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#75 qiaorenzhi&lt;/strong&gt;：建议还是走计算机相关专业，3 年中专，要是 3 年内能努力点可以再上 2 年大专，大专要是能再再努力点就再上 2 年专升本。&lt;br/&gt;这样的路线基本不用看学习成绩，经济负担也不重，基本保底能混个大专文凭（大专也是大学），能混上专升本就更好。&lt;br/&gt;比同龄人也就是多花 1 ～ 2 年的时间，只不过就不要指望能上牌子大学了...普通本科以下纯粹就是混个学历，现在大学都学不到东西的，不如上大专后在校报个技能培训班，出来比那些混日子的学生有优势就行了。&lt;br/&gt;&lt;br/&gt;最差情况如果中专混不上大专，就把中专当托儿所了，那么成年了也能放心点放出去社会。&lt;br/&gt;&lt;br/&gt;普通家庭女孩子，建议一定要混个大学，找对象也好得多。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#76 Gavin999&lt;/strong&gt;：尊重他人命运，外甥女你左右不了的&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 24 Apr 2026 02:10:40 +0000</pubDate></item><item><title>一个英语学习 APP [iOS] ，送 50 个终身会员</title><link>https://www.v2ex.com/t/1208178</link><description>&lt;p&gt;做了一款成语填字 APP ，名字叫做《多福单词》，对学习英语有诉求的，可以下载看看，送 50 个终生会员给各位大佬。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#76 Gavin999&lt;/strong&gt;：尊重他人命运，外甥女你左右不了的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#77 Allvirus&lt;/strong&gt;：建议去 ktv 当促销员包赚&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#78 yufeng0681&lt;/strong&gt;：我觉得 现代人重视健康了，现在开始小毛小病也想着去做修复了，疼痛也忍受不了了， 当然，可能是久坐，不恰当运动都会带来身体的疼痛感。  &lt;br/&gt;可以考虑 学习 康复技术 ，  拿到证书（康复医学治疗技术，保健按摩师，健康管理师），可以进社区医院，或者是小诊所， 通过自己水平招揽客户。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#79 Mandy0&lt;/strong&gt;：如果去中职的话，养老护理相关方向可以考虑，以现在的出生率不建议助产师，电商的话要结合当地产业看看，不管选什么专业尽可能的结合当地产业看看&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#80 Tiger1994&lt;/strong&gt;：助产师肯定是不考虑的，你可以了解一下你们城市的出生率，在我大湾区的城市里很多二甲医院都已经取消产科了。&lt;br/&gt;电商可以，但卷，累。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 24 Apr 2026 02:10:40 +0000</pubDate></item><item><title>一个英语学习 APP [iOS] ，送 50 个终身会员</title><link>https://www.v2ex.com/t/1208178</link><description>&lt;p&gt;做了一款成语填字 APP ，名字叫做《多福单词》，对学习英语有诉求的，可以下载看看，送 50 个终生会员给各位大佬。&lt;/p&gt;
 &lt;p&gt;希望大佬们兑换了，能够顺手给个好评，独立开发不易，再次祝各位大佬，早日财富自由，早日赢取白富美。&lt;/p&gt;
 &lt;p&gt;========================&lt;/p&gt;
 &lt;p&gt;背单词是不是总让你昏昏欲睡？来试试用玩游戏的方式把单词刻进脑子里！&lt;/p&gt;
@@ -442,12 +460,12 @@ RKY467T64WXN4MHT4L
 YJHFYT3HPFHPY8H6MH
 FEWYTARRRLW3438KRP&lt;/p&gt;
 &lt;hr/&gt;
-第 1 条附言  ·  &lt;span title="2026-04-24 11:30:00 +08:00"&gt;5 小时 54 分钟前&lt;/span&gt;
+第 1 条附言  ·  &lt;span title="2026-04-24 11:30:00 +08:00"&gt;7 小时 30 分钟前&lt;/span&gt;
 
 忘了贴上下载链接，希望大佬们兑换了，能够顺手给个好评，独立开发不易，再次祝各位大佬，早日财富自由，早日赢取白富美。&lt;br/&gt;&lt;br/&gt;&lt;a href="https://apps.apple.com/cn/app/%E5%A4%9A%E7%A6%8F%E5%8D%95%E8%AF%8D-%E8%83%8C%E5%8D%95%E8%AF%8D%E7%8C%9C%E5%AD%97%E6%B8%B8%E6%88%8F/id6756718627" rel="nofollow noopener" target="_blank"&gt;https://apps.apple.com/cn/app/%E5%A4%9A%E7%A6%8F%E5%8D%95%E8%AF%8D-%E8%83%8C%E5%8D%95%E8%AF%8D%E7%8C%9C%E5%AD%97%E6%B8%B8%E6%88%8F/id6756718627&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;兑换方式&lt;br/&gt;&lt;br/&gt;&lt;a href="https://apps.apple.com/redeem?ctx=offercodes&amp;amp;id=6756718627&amp;amp;code=" rel="nofollow noopener" target="_blank"&gt;https://apps.apple.com/redeem?ctx=offercodes&amp;amp;id=6756718627&amp;amp;code=&lt;/a&gt;{兑换码}&lt;br/&gt;可以这样兑换，也可以用下面的方式&lt;br/&gt;&lt;br/&gt;通过 App Store 兑换&lt;br/&gt;打开 App Store&lt;br/&gt;点击右上角头像&lt;br/&gt;滑到底部，点击 "兑换礼品卡或代码"&lt;br/&gt;输入兑换码即可
 
 &lt;hr/&gt;
-第 2 条附言  ·  &lt;span title="2026-04-24 14:25:10 +08:00"&gt;2 小时 59 分钟前&lt;/span&gt;
+第 2 条附言  ·  &lt;span title="2026-04-24 14:25:10 +08:00"&gt;4 小时 35 分钟前&lt;/span&gt;
 
 再附上 50 个吧，帖子上是 100 个兑换码，合计 150 个兑换码，有效期到周末&lt;br/&gt;&lt;br/&gt;KPFLYXLAAX7KYW6ANY&lt;br/&gt;T4W3NLWLWXJKEEAHJK&lt;br/&gt;6MLKP36MYA43LTNHYH&lt;br/&gt;PYEW3LWF4KYLLL473X&lt;br/&gt;46KRK3HLY4HMMP7T4A&lt;br/&gt;E7JNA4P3JLR7J8L73X&lt;br/&gt;PA3TF3F88K48HNKRF6&lt;br/&gt;THYY6LP87TNJJRH3FY&lt;br/&gt;3JXWMKPH7EN3MKRTH6&lt;br/&gt;3W7A66ERPYNXEWJHTM&lt;br/&gt;44H6EXTPAE6XKY7MWT&lt;br/&gt;F74PYEYNJ64FEARL7W&lt;br/&gt;XER7XHXTT3N7EN4FEF&lt;br/&gt;FXYTA76NRRTW83R8FW&lt;br/&gt;HTJXPFT8MKEEFKWE78&lt;br/&gt;EAALELHYEMEYAME46N&lt;br/&gt;EW8NKMWALTFK3HEHYK&lt;br/&gt;6Y4F68LY3RKFRAPFP8&lt;br/&gt;KRFE3676MAF4WJ6FNY&lt;br/&gt;FAKTYT6ANNJMYPLRTP&lt;br/&gt;KL4HJRLAJM4PL46M7Y&lt;br/&gt;K3LRJ43HNLNJH84T48&lt;br/&gt;MWEAKE4YJ46EMY7T87&lt;br/&gt;XMFJYENPH4HN7MYMJX&lt;br/&gt;XEW7TJ68FK4NE3R777&lt;br/&gt;34LXM3JEJM3RXJJ387&lt;br/&gt;YYPMWYAWNR6K8P8J3N&lt;br/&gt;LFTAWFEL8RYPFT3YJT&lt;br/&gt;Y6WJAYMTXKEPYJ7MLE&lt;br/&gt;M37PEPFXKN8N86WL7P&lt;br/&gt;L7RFXLELAF8XE43L8W&lt;br/&gt;H76REJARPJHKLKK4TK&lt;br/&gt;FRHMWPNY6RY6MA8JAN&lt;br/&gt;YRFH4KMTE3FTRY7EN3&lt;br/&gt;3EHXJ7FL3YTE3N6REH&lt;br/&gt;YYMWTFALY4LPWE6AFL&lt;br/&gt;PHXFKY8MHFNJ74T7HP&lt;br/&gt;FNATLTXFFFHYRWLMHE&lt;br/&gt;AM7MJPEEKJX4YH8PP3&lt;br/&gt;W8EXJWXYFXHEP3XFMK&lt;br/&gt;LPK73H4E7PNH66NAKK&lt;br/&gt;WTK7JNRWKJHTX878A7&lt;br/&gt;T64TMFPLAK7PY4XPA6&lt;br/&gt;YM6E7434MNP38E3PWN&lt;br/&gt;K6K6E4RAELYL44P3RM&lt;br/&gt;XW47FJ7A6HNJLP6L64&lt;br/&gt;TJ37W336RWLRN6WJP3&lt;br/&gt;7RHFE3LWF3HTARW8EL&lt;br/&gt;PRPRLR8TNP78L764TR&lt;br/&gt;MJR4AJLYKYHPTHM4RT
 
