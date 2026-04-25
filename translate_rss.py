@@ -232,6 +232,17 @@ def clean_readability_html(html_content):
     for tag in soup.find_all(['script', 'style', 'noscript']):
         tag.decompose()
 
+    # Beehiiv 等源的 RSS 用非标准 <graphic> 标签包图片，转成标准 <img> 让阅读器渲染
+    for graphic in soup.find_all('graphic'):
+        src = graphic.get('src') or graphic.get('url')
+        if src:
+            img = soup.new_tag('img', src=src)
+            if graphic.get('alt'):
+                img['alt'] = graphic['alt']
+            graphic.replace_with(img)
+        else:
+            graphic.decompose()
+
     # <picture> → 简单 <img>（很多 RSS 阅读器不支持 picture/source）
     for picture in soup.find_all('picture'):
         img = picture.find('img')
@@ -471,7 +482,15 @@ def translate_feed(feed_config, cache):
                 print(f"  抓取全文: {entry['link']}")
                 full_content = fetch_full_article(entry['link'])
                 if full_content:
-                    content = full_content
+                    # 智能回退：如果抓回来的内容图片数比 RSS 自带的少，
+                    # 说明原网页可能是 JS 渲染或被改版，readability 拿不全，
+                    # 此时 RSS 自带的全文（包含 Beehiiv 的 <graphic> 等）反而更完整
+                    rss_imgs = len(BeautifulSoup(content, 'html.parser').find_all(['img', 'graphic']))
+                    full_imgs = len(BeautifulSoup(full_content, 'html.parser').find_all(['img', 'graphic']))
+                    if full_imgs >= rss_imgs:
+                        content = full_content
+                    else:
+                        print(f"  RSS 内容图片更多 ({rss_imgs} vs {full_imgs})，保留 RSS 内容")
                 else:
                     print(f"  回退到 RSS 摘要")
                 time.sleep(1)
