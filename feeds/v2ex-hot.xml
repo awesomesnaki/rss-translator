@@ -1,5 +1,305 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>V2EX-最热主题</title><link>https://www.v2ex.com/</link><description>V2EX-最热主题 - Powered by RSSHub</description><language>zh-CN</language><lastBuildDate>Fri, 24 Apr 2026 03:45:41 +0000</lastBuildDate><item><title>只能说 DeepSeek V4 Pro 继续努力吧，天气卡片效果一般</title><link>https://www.v2ex.com/t/1208250</link><description>&lt;p&gt;简单试了下天气卡片，中文英文都试了，太简陋了：
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>V2EX-最热主题</title><link>https://www.v2ex.com/</link><description>V2EX-最热主题 - Powered by RSSHub</description><language>zh-CN</language><lastBuildDate>Fri, 24 Apr 2026 10:51:29 +0000</lastBuildDate><item><title>我做了个工具让 8GB 显卡跑 30B 模型从 3 tok/s 提到 21 tok/s，记录一下技术发现</title><link>https://www.v2ex.com/t/1208365</link><description>&lt;p&gt;最近在折腾本地大模型，发现一个核心问题：Ollama 和 LM Studio 能让模型跑起来，但参数全靠猜——上下文长度、KV cache 类型、MoE expert 放哪、ubatch 多大……用默认参数基本是在浪费显卡。&lt;/p&gt;
+&lt;p&gt;于是做了个工具自动找最优配置，过程中踩了不少坑，记录一下。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;h2&gt;核心发现&lt;/h2&gt;
+&lt;h3&gt;1. MoE 模型的 offload 策略决定了一切&lt;/h3&gt;
+&lt;p&gt;Qwen3-30B-A3B 是 MoE 架构，在 8GB 显卡上：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;LM Studio 默认把所有层塞进显存 → 7549MB （ 93%），3 tok/s&lt;/li&gt;
+&lt;li&gt;只把 attention 层放 GPU ，MoE expert 层走 CPU → 2603MB （ 32%），21 tok/s&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;快了 7 倍，显存反而省了 65%。关键是 llama.cpp 支持这个，但你得自己识别哪些 tensor 是 MoE expert （&lt;code&gt;.ffn_.*_exps.&lt;/code&gt; 这类命名），然后手动配。&lt;/p&gt;
+&lt;h3&gt;2. KV cache 类型影响比大多数人想的大&lt;/h3&gt;
+&lt;p&gt;同一张 8GB 显卡跑 Llama 3.1 8B ，不同 KV cache 配置速度差异：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;配置&lt;/th&gt;
+&lt;th&gt;ctx&lt;/th&gt;
+&lt;th&gt;速度&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;iso3+iso3 ，4 slot&lt;/td&gt;
+&lt;td&gt;8K&lt;/td&gt;
+&lt;td&gt;19.4 tok/s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;q8_0+q4_0 ，1 slot&lt;/td&gt;
+&lt;td&gt;8K&lt;/td&gt;
+&lt;td&gt;38.2 tok/s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;f16+f16 ，1 slot&lt;/td&gt;
+&lt;td&gt;8K&lt;/td&gt;
+&lt;td&gt;51.7 tok/s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;f16+f16 ，1 slot （自动）&lt;/td&gt;
+&lt;td&gt;64K&lt;/td&gt;
+&lt;td&gt;26.2 tok/s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;f16 比 iso3 快将近 3 倍。但 f16 显存占用更大，所以正确策略是：先算 f16 KV cache 占多少显存，装得下就用 f16 ，装不下再降级。&lt;/p&gt;
+&lt;p&gt;公式：&lt;code&gt;KV_MB = 2 × layers × kv_heads × head_dim × ctx × bytes / 1024²&lt;/code&gt;&lt;/p&gt;
+&lt;h3&gt;3. oobabooga 公式用来预测 ctx 上限&lt;/h3&gt;
+&lt;p&gt;社区里流传的 oobabooga 显存估算公式，原本用来预测装载模型后剩余显存能支持多大 ctx 。但这个公式是基于 q8_0/f16 拟合的，用 iso3 的时候会严重高估显存需求，导致 ctx 只算出 4K 。&lt;/p&gt;
+&lt;p&gt;最后放弃公式预测，改成二分探测：从 min(nativeCtx, 65536) 开始，OOM 就减半，最多探 5 次，让 llama-server 自己告诉我能跑多少。Llama 3.1 8B 的 ctx 从 4K 直接到 64K 。&lt;/p&gt;
+&lt;h3&gt;4. parallel slot 数量对单用户场景影响巨大&lt;/h3&gt;
+&lt;p&gt;llama.cpp 默认开 4 个并行 slot （为了多用户并发），但单用户场景下这会把 VRAM 分成 4 份。&lt;/p&gt;
+&lt;p&gt;关掉多余 slot （&lt;code&gt;--parallel 1&lt;/code&gt;）之后：18.5 → 38.2 tok/s ，直接翻倍。&lt;/p&gt;
+&lt;h3&gt;5. ubatch 实测比理论更可靠&lt;/h3&gt;
+&lt;p&gt;ubatch 128 vs 512 的性能差异跟模型和显卡都有关系，没有通用最优值。实测结论：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;8K ctx：ubatch 512 比 128 快 7.6%&lt;/li&gt;
+&lt;li&gt;64K ctx：ubatch 512 比 128 快 21.6%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;直接 benchmark 两个值取快的，比查文档猜靠谱。&lt;/p&gt;
+&lt;h3&gt;6. 对话压缩不要用模型生成摘要&lt;/h3&gt;
+&lt;p&gt;最初方案是上下文满了之后调本地模型生成摘要——结果单 slot 阻塞，直接超时。&lt;/p&gt;
+&lt;p&gt;改成纯算法提取：保留头部（ system prompt + 首轮对话）和尾部（最近 8K tokens ），中间部分提取代码路径、函数名、文件名、TODO 等关键信息。压缩率 73%，耗时 &amp;lt;1ms 。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;h2&gt;用了哪些技术，实现了什么功能&lt;/h2&gt;
+&lt;h3&gt;llama.cpp — 推理引擎核心&lt;/h3&gt;
+&lt;p&gt;直接调用 llama.cpp 的 llama-server ，所有参数（ ctx 、KV cache 类型、线程数、ubatch 、mlock 、tensor split ）都通过启动参数注入。Kaiwu 本质上是一个参数决策层，不改推理引擎本身。&lt;/p&gt;
+&lt;h3&gt;IsoQuant / TurboQuant — 3-bit KV cache 压缩&lt;/h3&gt;
+&lt;p&gt;集成了 johndpope 的 turboquant fork （&lt;code&gt;feature/planarquant-kv-cache&lt;/code&gt;），支持 &lt;code&gt;-ctk iso3 -ctv iso3&lt;/code&gt; 参数。iso3 的压缩系数实测 0.73 ，理论值 0.75 ，在 VRAM 紧张的设备（ 8GB ）上可以把 KV cache 占用压缩到 q8_0 的一半。但有约 600MB 固定解码 buffer 开销，VRAM 充裕时反而比 f16 慢 8%，所以策略是 VRAM &amp;gt; 16GB 才默认开 iso3 。&lt;/p&gt;
+&lt;h3&gt;oobabooga 显存估算公式 — ctx 上限预测（已放弃）&lt;/h3&gt;
+&lt;p&gt;社区流传的公式用来预测剩余显存能支持多大 ctx ，基于 q8_0/f16 拟合。iso3 场景下高估显存需求，导致 ctx 只算出 4K 。最终改成二分探测代替公式，让 llama-server 自己决定能跑多少。&lt;/p&gt;
+&lt;h3&gt;GQA 架构识别 — KV cache 精准估算&lt;/h3&gt;
+&lt;p&gt;Qwen3 等新模型用 GQA （ Grouped Query Attention ），kv_heads 远小于 attention_heads 。KV cache 大小公式里用的是 kv_heads 而不是 heads ，不识别这一点会高估 3-4 倍。通过读 GGUF metadata 拿到准确的 kv_heads 值再做计算。&lt;/p&gt;
+&lt;h3&gt;MoE tensor 识别 — 自动 expert offload&lt;/h3&gt;
+&lt;p&gt;读取模型的 tensor 名称列表，匹配 &lt;code&gt;.ffn_.*_exps.&lt;/code&gt; 模式识别出 MoE expert 层，自动决定把这部分路由到 CPU 。不需要用户手动指定，也不需要提前知道模型架构。&lt;/p&gt;
+&lt;h3&gt;Extractive Summary — 零延迟对话压缩&lt;/h3&gt;
+&lt;p&gt;上下文到 75% 时触发，纯算法提取：保留 system prompt 、首轮对话、最近 8K tokens ，中间部分按关键词权重保留（代码路径、函数名、文件名、TODO 、命令行等）。不调用任何模型，压缩耗时 &amp;lt;1ms ，73% 压缩率。最初试过调本地模型生成摘要，单 slot 阻塞直接超时，这条路走不通。&lt;/p&gt;
+&lt;h3&gt;GitHub Actions CI — 跨平台自动编译&lt;/h3&gt;
+&lt;p&gt;turboquant fork 需要自己编译带 iso3 支持的 llama-server 。用 GitHub Actions 同时编译 Windows （ MSVC ）和 Linux （ GCC ）版本，CUDA 12.4 ，覆盖 sm_75/80/86/89 架构，RTX 50 系列通过 PTX JIT 运行时支持。踩了三个 MSVC 编译坑（ extern "C" 声明改定义、M_PI 未定义、全局符号缺失），记录在 &lt;a href="http://PROGRESS.md" rel="nofollow"&gt;PROGRESS.md&lt;/a&gt; 里。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;h2&gt;工具&lt;/h2&gt;
+&lt;p&gt;把上面这些逻辑都自动化了，叫开物（ Kaiwu ）。一行命令启动，参数全部自动找，结果缓存起来，第二次 2 秒启动。&lt;/p&gt;
+&lt;p&gt;GitHub： &lt;a href="https://github.com/val1813/kaiwu" rel="nofollow"&gt;https://github.com/val1813/kaiwu&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;OpenAI 兼容 API ，Continue / Cursor / Claude Code 直接接。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;有遇到类似问题的欢迎交流，尤其是 MoE offload 和 KV cache 这块踩坑挺深的。&lt;/p&gt;
+&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;#1 KaiWuBOSS&lt;/strong&gt;：&lt;a href="http://llmbbs.ai" rel="nofollow noopener" target="_blank"&gt;llmbbs.ai&lt;/a&gt; 欢迎交流。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#2 zrlhk&lt;/strong&gt;：看起来显卡还是不够...:&lt;br/&gt;本地大模型部署器 vv0.1.1 · llama.cpp b8864&lt;br/&gt;by &lt;a href="http://llmbbs.ai" rel="nofollow noopener" target="_blank"&gt;llmbbs.ai&lt;/a&gt; · 本地 AI 技术社区&lt;br/&gt;&lt;br/&gt;[1/6] Probing hardware...&lt;br/&gt;      GPU: NVIDIA GeForce RTX 3080 (SM86, 10240 MB VRAM, 760 GB/s)&lt;br/&gt;      RAM: 47 GB UNKNOWN&lt;br/&gt;      OS:  windows amd64&lt;br/&gt;&lt;br/&gt;[2/6] Selecting configuration...&lt;br/&gt;      Model:  Gemma 4 26B A4B It (moe, 19B total / 1B active)&lt;br/&gt;      Quant:  Q3_K_S (11.4 GB)&lt;br/&gt;      Mode:   moe_offload (experts on CPU)&lt;br/&gt;      Accel:  Flash Attention&lt;br/&gt;&lt;br/&gt;[3/6] Checking files...&lt;br/&gt;      Using bundled iso3 binary: llama-server-cuda.exe&lt;br/&gt;      Binary: llama-server-cuda.exe [cached]&lt;br/&gt;      Model:  gemma-4-26B-A4B-it.Q3_K_S.gguf [cached]&lt;br/&gt;&lt;br/&gt;[4/6] Preflight check...&lt;br/&gt;      ✓ VRAM sufficient&lt;br/&gt;&lt;br/&gt;[5/6] Warmup benchmark...&lt;br/&gt;      Probe 1: ctx=256K ... OOM&lt;br/&gt;      Probe 2: ctx=128K ... OOM&lt;br/&gt;      Probe 3: ctx=64K ... OOM&lt;br/&gt;      Probe 4: ctx=32K ... OOM&lt;br/&gt;      Probe 5: ctx=16K ... OOM&lt;br/&gt;      Probe 6: ctx=8K ... OOM&lt;br/&gt;      ⚠️  Warmup failed: all ctx probes failed (tried down to 4K)&lt;br/&gt;      Using default parameters&lt;br/&gt;&lt;br/&gt;[6/6] Starting server...&lt;br/&gt;      llama-server 不支持 iso3 ，回退到 q8_0/q4_0&lt;br/&gt;Waiting for llama-server to be ready (port 11434)...&lt;br/&gt;      ⚠️  显存不足，降低上下文至 4K 重试...&lt;br/&gt;Waiting for llama-server to be ready (port 11434)...&lt;br/&gt;Error: failed to start llama-server: 连续 2 次启动失败，即使最小上下文(4K)也无法运行&lt;br/&gt;  建议：选择更小的量化或使用 MoE offload 模型&lt;br/&gt;Usage:&lt;br/&gt;  kaiwu run &amp;lt;model&amp;gt; [flags]&lt;br/&gt;&lt;br/&gt;Flags:&lt;br/&gt;      --bench          Run benchmark after starting&lt;br/&gt;      --ctx-size int   手动指定上下文大小（ 0=自动）&lt;br/&gt;      --fast           Skip warmup, use cached profile&lt;br/&gt;  -h, --help           help for run&lt;br/&gt;      --reset          清除缓存，重新 warmup 探测最优参数&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#3 KaiWuBOSS&lt;/strong&gt;：哥 您多大显存？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#4 tangping&lt;/strong&gt;：试试去了 🙌&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#5 KaiWuBOSS&lt;/strong&gt;：我马上优化一版 空了再试试 gemma4 支持 ios3 的呀 判定有问题&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#6 zrlhk&lt;/strong&gt;：@&lt;a href="/member/KaiWuBOSS"&gt;KaiWuBOSS&lt;/a&gt; 是 win10, 显存 10G ，内存 48G ，我在下载 qwen3-30b 试试看&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#7 damontian&lt;/strong&gt;：大佬，16g 显存，64g 内存，跑哪个模型最合适？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#8 KaiWuBOSS&lt;/strong&gt;：@&lt;a href="/member/zrlhk"&gt;zrlhk&lt;/a&gt; 我正在对你这个进行修复 1 你是正常 0.1.1 吗 我看代码 怎么显示你没编译涡轮量化 2 我回退策略太大了 我调整一版 我无论如何让你跑起来 顺畅跑起来&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#9 KaiWuBOSS&lt;/strong&gt;：@&lt;a href="/member/damontian"&gt;damontian&lt;/a&gt; 直接上 30b 模型你选你喜欢的 50 系列看 nvfp 的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#10 zrlhk&lt;/strong&gt;：@&lt;a href="/member/KaiWuBOSS"&gt;KaiWuBOSS&lt;/a&gt; 嗯，是 0.1.1 版本。是的，就是编译涡轮量化不知道怎么弄&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#11 KaiWuBOSS&lt;/strong&gt;：@&lt;a href="/member/damontian"&gt;damontian&lt;/a&gt; 换 Qwen3-30B-A3B&lt;br/&gt;   这个模型专为低显存优化&lt;br/&gt;   3080 10GB 跑起来没问题&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#12 ntdll&lt;/strong&gt;：看起来是 nVidia only&lt;br/&gt;&lt;br/&gt;如果有用 AMD + Windows 的组合，可以尝试把 llama.cpp 的后端改成 vulkan ，会比 ROCm 的推理速度快上一档。在 Linux 上，我试下来是 ROCm 更快，但 Windows 相反。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#13 KaiWuBOSS&lt;/strong&gt;：@&lt;a href="/member/zrlhk"&gt;zrlhk&lt;/a&gt; 我的错 我的上传脚本有问题 晚点推 0.1.2 你要方便可以试试 qwen3 应该没问题&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#14 sentinelK&lt;/strong&gt;：这个机制和 llama.cpp 的 -- fit on 区别是？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#15 KaiWuBOSS&lt;/strong&gt;：@&lt;a href="/member/ntdll"&gt;ntdll&lt;/a&gt; 是的 得等新的 cude 现在只支持 n 卡 llama-server-cuda.exe：&lt;br/&gt;  用 CUDA 编译的，只能跑在 N 卡&lt;br/&gt;  Release 包里只有这一个版本&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#16 KaiWuBOSS&lt;/strong&gt;：@&lt;a href="/member/sentinelK"&gt;sentinelK&lt;/a&gt; 我也参考了他的 fiton 但他没有涡轮量化 另外我还做了上下文优化 相比而言 我这个不用调参 而且是硬件最大上下文 最优显存 &lt;br/&gt;-fit on 是随机削层，Kaiwu 是精准分层。&lt;br/&gt;&lt;br/&gt;--fit on：显存不够就把后面几层丢给 CPU ，&lt;br/&gt;不管是什么层，速度损失大。&lt;br/&gt;&lt;br/&gt;Kaiwu：专门识别 MoE 的专家层，&lt;br/&gt;只把专家层放 CPU ，注意力层全在 GPU ，&lt;br/&gt;速度损失极小——这就是为什么&lt;br/&gt;同样 8GB 显存，Kaiwu 能跑出 21 tok/s ，&lt;br/&gt;LM Studio 只有 3 tok/s 。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#17 KaiWuBOSS&lt;/strong&gt;：0.1.1 版 ios3 脚本没上传上 正在编译 0.1.2 估计三个小时后发布&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#18 KaiWuBOSS&lt;/strong&gt;：第一次发仓库项目 没经验 😰&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#19 hongdengdao&lt;/strong&gt;：4060ti+5060ti 双卡没有识别出来,只出来了 4060ti&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#20 KaiWuBOSS&lt;/strong&gt;：@&lt;a href="/member/hongdengdao"&gt;hongdengdao&lt;/a&gt; 奇怪 我特意在我双 4090 电脑测试能识别的 我去看看代码&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#21 KaiWuBOSS&lt;/strong&gt;：@&lt;a href="/member/hongdengdao"&gt;hongdengdao&lt;/a&gt; 哥 跑一下 nvidia-smi 看输出是一个显卡还是 2 个 我这个读驱动的有代码支持的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#22 hongdengdao&lt;/strong&gt;：0.1.1 我的是你的这个版本, nvidia-smi&lt;br/&gt;Fri Apr 24 22:37:21 2026&lt;br/&gt;+-----------------------------------------------------------------------------------------+&lt;br/&gt;| NVIDIA-SMI 591.86                 Driver Version: 591.86         CUDA Version: 13.1     |&lt;br/&gt;+-----------------------------------------+------------------------+----------------------+&lt;br/&gt;| GPU  Name                  Driver-Model | Bus-Id          Disp.A | Volatile Uncorr. ECC |&lt;br/&gt;| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |&lt;br/&gt;|                                         |                        |               MIG M. |&lt;br/&gt;|=========================================+========================+======================|&lt;br/&gt;|   0  NVIDIA GeForce RTX 4060 Ti   WDDM  |   00000000:01:00.0 Off |                  N/A |&lt;br/&gt;|  0%   33C    P8              3W /  199W |       8MiB /  16380MiB |      0%      Default |&lt;br/&gt;|                                         |                        |                  N/A |&lt;br/&gt;+-----------------------------------------+------------------------+----------------------+&lt;br/&gt;|   1  NVIDIA GeForce RTX 5060 Ti   WDDM  |   00000000:0D:00.0  On |                  N/A |&lt;br/&gt;|  0%   38C    P5             12W /  180W |    3831MiB /  16311MiB |      4%      Default |&lt;br/&gt;|                                         |                        |                  N/A |&lt;br/&gt;+-----------------------------------------+------------------------+----------------------+&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#23 hongdengdao&lt;/strong&gt;：.\kaiwu.exe run Qwen3.6-27B-Q4_K_M.gguf&lt;br/&gt;&lt;br/&gt;██╗  ██╗ █████╗ ██╗██╗    ██╗██╗   ██╗&lt;br/&gt;██║ ██╔╝██╔══██╗██║██║    ██║██║   ██║&lt;br/&gt;█████╔╝ ███████║██║██║ █╗ ██║██║   ██║&lt;br/&gt;██╔═██╗ ██╔══██║██║██║███╗██║██║   ██║&lt;br/&gt;██║  ██╗██║  ██║██║╚███╔███╔╝╚██████╔╝&lt;br/&gt;╚═╝  ╚═╝╚═╝  ╚═╝╚═╝ ╚══╝╚══╝  ╚═════╝&lt;br/&gt;本地大模型部署器 vv0.1.1 · llama.cpp b8864&lt;br/&gt;by &lt;a href="http://llmbbs.ai" rel="nofollow noopener" target="_blank"&gt;llmbbs.ai&lt;/a&gt; · 本地 AI 技术社区&lt;br/&gt;&lt;br/&gt;[1/6] Probing hardware...&lt;br/&gt;      GPU: NVIDIA GeForce RTX 4060 Ti (SM89, 16380 MB VRAM, 0 GB/s)&lt;br/&gt;      RAM: 61 GB DDR5&lt;br/&gt;      OS:  windows amd64&lt;br/&gt;&lt;br/&gt;[2/6] Selecting configuration...&lt;br/&gt;      Model:  Qwen3.6-27B (dense, 28B)&lt;br/&gt;      Quant:  Q4_K_M (15.7 GB)&lt;br/&gt;      Mode:   full_gpu&lt;br/&gt;      Accel:  Flash Attention&lt;br/&gt;&lt;br/&gt;[3/6] Checking files...&lt;br/&gt;      Using bundled iso3 binary: llama-server-cuda.exe&lt;br/&gt;      Binary: llama-server-cuda.exe [cached]&lt;br/&gt;      Model:  Qwen3.6-27B-Q4_K_M.gguf [cached]&lt;br/&gt;&lt;br/&gt;[4/6] Preflight check...&lt;br/&gt;      ✓ VRAM sufficient&lt;br/&gt;&lt;br/&gt;[5/6] Warmup benchmark...&lt;br/&gt;      Probe 1: ctx=8K ... OOM&lt;br/&gt;      Probe 2: ctx=4K ... OOM&lt;br/&gt;      ⚠️  Warmup failed: all ctx probes failed (tried down to 4K)&lt;br/&gt;      Using default parameters&lt;br/&gt;&lt;br/&gt;[6/6] Starting server...&lt;br/&gt;      llama-server 不支持 iso3 ，回退到 q8_0/q4_0&lt;br/&gt;Waiting for llama-server to be ready (port 11434)...&lt;br/&gt;      ⚠️  显存不足，降低上下文至 4K 重试...&lt;br/&gt;Waiting for llama-server to be ready (port 11434)...&lt;br/&gt;Error: failed to start llama-server: 连续 2 次启动失败，即使最小上下文(4K)也无法运行&lt;br/&gt;  建议：选择更小的量化或使用 MoE offload 模型&lt;br/&gt;Usage:&lt;br/&gt;  kaiwu run &amp;lt;model&amp;gt; [flags]&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#24 pengzhizhuo&lt;/strong&gt;：这个咋样？&lt;br/&gt;&lt;br/&gt;(base) PS E:\kaiwu-windows-amd64&amp;gt; .\kaiwu.exe run Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf&lt;br/&gt;&lt;br/&gt;██╗  ██╗ █████╗ ██╗██╗    ██╗██╗   ██╗&lt;br/&gt;██║ ██╔╝██╔══██╗██║██║    ██║██║   ██║&lt;br/&gt;█████╔╝ ███████║██║██║ █╗ ██║██║   ██║&lt;br/&gt;██╔═██╗ ██╔══██║██║██║███╗██║██║   ██║&lt;br/&gt;██║  ██╗██║  ██║██║╚███╔███╔╝╚██████╔╝&lt;br/&gt;╚═╝  ╚═╝╚═╝  ╚═╝╚═╝ ╚══╝╚══╝  ╚═════╝&lt;br/&gt;本地大模型部署器 vv0.1.1 · llama.cpp b8864&lt;br/&gt;by &lt;a href="http://llmbbs.ai" rel="nofollow noopener" target="_blank"&gt;llmbbs.ai&lt;/a&gt; · 本地 AI 技术社区&lt;br/&gt;&lt;br/&gt;[1/6] Probing hardware...&lt;br/&gt;      GPU: NVIDIA GeForce RTX 4060 Laptop GPU (SM89, 8188 MB VRAM, 0 GB/s)&lt;br/&gt;      RAM: 63 GB DDR5&lt;br/&gt;      OS:  windows amd64&lt;br/&gt;&lt;br/&gt;[2/6] Selecting configuration...&lt;br/&gt;      Model:  Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive (moe, 36B total / 1B active)&lt;br/&gt;      Quant:  Q4_K_M (19.7 GB)&lt;br/&gt;      Mode:   moe_offload (experts on CPU)&lt;br/&gt;      Accel:  Flash Attention&lt;br/&gt;&lt;br/&gt;[3/6] Checking files...&lt;br/&gt;      Using bundled iso3 binary: llama-server-cuda.exe&lt;br/&gt;      Binary: llama-server-cuda.exe [cached]&lt;br/&gt;      Model:  Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf [cached]&lt;br/&gt;&lt;br/&gt;[4/6] Preflight check...&lt;br/&gt;      ✓ VRAM sufficient&lt;br/&gt;&lt;br/&gt;[5/6] Warmup benchmark...&lt;br/&gt;      Probe 1: ctx=256K ... 22.1 tok/s&lt;br/&gt;      Tune ubatch: ub=128 → 22.3 tok/s; ub=512 → 20.7 tok/s;&lt;br/&gt;      ✓ 22.3 tok/s @ 256K ctx&lt;br/&gt;      Saved profile: C:\Users\pzz\.kaiwu\profiles\qwen3.6-35b-a3b-uncensored-hauhaucs-aggressive-q4_k_m_sm89_8188mb_ddr5.json&lt;br/&gt;      ✓ 22.3 tok/s&lt;br/&gt;&lt;br/&gt;[6/6] Starting server...&lt;br/&gt;Waiting for llama-server to be ready (port 11434)...&lt;br/&gt;      llama-server started (PID 49380, port 11434)&lt;br/&gt;      Kaiwu proxy started (port 11435)&lt;br/&gt;2026/04/24 22:03:23 Kaiwu proxy listening on :11435 → llama-server :11434&lt;br/&gt;&lt;br/&gt;  ┌─────────────────────────────────────────────────┐&lt;br/&gt;  │  Ready — Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive @ 22.3 tok/s │&lt;br/&gt;  │  API: http://127.0.0.1:11435/v1/chat/completions    │&lt;br/&gt;  │  模型文件夹: E:\model                               │&lt;br/&gt;  └─────────────────────────────────────────────────┘&lt;br/&gt;&lt;br/&gt;  运行 kaiwu inject 接入 IDE · Ctrl+C 停止&lt;br/&gt;─ 实时监控 · 空载 ─────────────────── 每 2s 刷新 ─&lt;br/&gt;  reuse:1024 · KV:q8_0 · 256K ctx · ub128 · mlock&lt;br/&gt;  速度          显存           内存        GPU      温度&lt;br/&gt;  — tok/s     5.5/8 GB    47.0/64 GB   2%      58°CC&lt;br/&gt;  [..........] [======....] [=======...] [..........] [=====.....]&lt;br/&gt;─────────────────────────────────────────────────────────&lt;br/&gt;  上下文  [....................]  0.0K / 256K  余 256.0K&lt;br/&gt;&lt;br/&gt;正在停止服务...&lt;br/&gt;✓ llama-server 已停止&lt;br/&gt;✓ Kaiwu proxy 已停止&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#25 KaiWuBOSS&lt;/strong&gt;：@&lt;a href="/member/hongdengdao"&gt;hongdengdao&lt;/a&gt; 不好意思 我对双显卡判定之前太简单现在优化了 已经发布 0.1.2 了 你看看还有没有问题 下载后先 kaiwu run xx.gguf --reset 然后再跑 应该没问题了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#26 KaiWuBOSS&lt;/strong&gt;：产品最大担忧 我让 tok/s 最优值设定在 20 左右 就是让 kaiwu 在这个速度下 寻找上下文和显存最优解 如果用户显存有效 又期盼高速度 这个就不合适了 。之所以 20 是因为网上说 20 就是甜区了，但我觉得有点慢了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#27 mingtdlb&lt;/strong&gt;：看抖音说，同样的配置，llama.cpp 跑比 ollama 跑 吞吐更高？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#28 osilinka&lt;/strong&gt;：现在不是有 turboquant 版本？&lt;br/&gt;这个会不会效果更好&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#29 KaiWuBOSS&lt;/strong&gt;：@&lt;a href="/member/osilinka"&gt;osilinka&lt;/a&gt; 还没吧，官方还没编译把 已经出来了吗&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#30 KaiWuBOSS&lt;/strong&gt;：@&lt;a href="/member/mingtdlb"&gt;mingtdlb&lt;/a&gt; ollama 用的是 llama 架构 你可以试试 lm 也是这个架构体验更好 但要自己调参&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#31 hongdengdao&lt;/strong&gt;：这个应该有点问题,双卡 32g 显存, 8k-64k 肯定是可以运行的&lt;br/&gt;&lt;br/&gt;.\kaiwu.exe run Qwen3.6-27B-Q4_K_M.gguf&lt;br/&gt;&lt;br/&gt;██╗  ██╗ █████╗ ██╗██╗    ██╗██╗   ██╗&lt;br/&gt;██║ ██╔╝██╔══██╗██║██║    ██║██║   ██║&lt;br/&gt;█████╔╝ ███████║██║██║ █╗ ██║██║   ██║&lt;br/&gt;██╔═██╗ ██╔══██║██║██║███╗██║██║   ██║&lt;br/&gt;██║  ██╗██║  ██║██║╚███╔███╔╝╚██████╔╝&lt;br/&gt;╚═╝  ╚═╝╚═╝  ╚═╝╚═╝ ╚══╝╚══╝  ╚═════╝&lt;br/&gt;本地大模型部署器 vv0.1.2 · llama.cpp b8864&lt;br/&gt;by &lt;a href="http://llmbbs.ai" rel="nofollow noopener" target="_blank"&gt;llmbbs.ai&lt;/a&gt; · 本地 AI 技术社区&lt;br/&gt;&lt;br/&gt;[1/6] Probing hardware...&lt;br/&gt;      GPU: NVIDIA GeForce RTX 4060 Ti × 2 (SM89, 16380 MB VRAM each, 0 GB/s)&lt;br/&gt;      RAM: 61 GB DDR5&lt;br/&gt;      OS:  windows amd64&lt;br/&gt;&lt;br/&gt;[2/6] Selecting configuration...&lt;br/&gt;      Model:  Qwen3.6-27B (dense, 28B)&lt;br/&gt;      Quant:  Q4_K_M (15.7 GB)&lt;br/&gt;      Mode:   full_gpu&lt;br/&gt;      Accel:  Flash Attention&lt;br/&gt;&lt;br/&gt;[3/6] Checking files...&lt;br/&gt;      Using bundled iso3 binary: llama-server-cuda.exe&lt;br/&gt;      Binary: llama-server-cuda.exe [cached]&lt;br/&gt;      Model:  Qwen3.6-27B-Q4_K_M.gguf [cached]&lt;br/&gt;&lt;br/&gt;[4/6] Preflight check...&lt;br/&gt;      ✓ VRAM sufficient&lt;br/&gt;&lt;br/&gt;[5/6] Warmup benchmark...&lt;br/&gt;      Probe 1: ctx=256K ... OOM&lt;br/&gt;      Probe 2: ctx=128K ... OOM&lt;br/&gt;      Probe 3: ctx=64K ... OOM&lt;br/&gt;      Probe 4: ctx=32K ... OOM&lt;br/&gt;      Probe 5: ctx=16K ... OOM&lt;br/&gt;      Probe 6: ctx=8K ... OOM&lt;br/&gt;      ⚠️  Warmup failed: all ctx probes failed (tried down to 4K)&lt;br/&gt;      Using default parameters&lt;br/&gt;&lt;br/&gt;[6/6] Starting server...&lt;br/&gt;      llama-server 不支持 iso3 ，回退到 q8_0/q4_0&lt;br/&gt;Waiting for llama-server to be ready (port 11434)...&lt;br/&gt;      ⚠️  显存不足，降低上下文至 64K 重试...&lt;br/&gt;Waiting for llama-server to be ready (port 11434)...&lt;br/&gt;      ⚠️  显存不足，降低上下文至 32K 重试...&lt;br/&gt;Waiting for llama-server to be ready (port 11434)...&lt;br/&gt;Error: failed to start llama-server: 3 次启动均失败，建议选择更小的模型&lt;br/&gt;Usage:&lt;br/&gt;  kaiwu run &amp;lt;model&amp;gt; [flags],&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#32 coefu&lt;/strong&gt;：@&lt;a href="/member/KaiWuBOSS"&gt;KaiWuBOSS&lt;/a&gt; #25  单机多卡 tensor parallel + offload ，比单卡 + offload 复杂多了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#33 xJogger&lt;/strong&gt;：6G 显存加 40G 内存是不是告别比赛了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#34 KaiWuBOSS&lt;/strong&gt;：@&lt;a href="/member/hongdengdao"&gt;hongdengdao&lt;/a&gt; 已经定位问题了 正在 抢修 感谢反馈&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#35 KaiWuBOSS&lt;/strong&gt;：@&lt;a href="/member/coefu"&gt;coefu&lt;/a&gt; 刚找 opus 拿到解决方案搜一下。结论很清楚，有三种方案，按稳定性排序。&lt;br/&gt;&lt;br/&gt;---&lt;br/&gt;&lt;br/&gt;## 最稳的方案：nvidia-smi XML 输出&lt;br/&gt;&lt;br/&gt;NVIDIA 官方的 Go collector 就是用 `nvidia-smi -q -x` 的 XML 输出解析多卡信息，这种方式在所有驱动版本和 GPU 型号上输出格式一致。&lt;br/&gt;&lt;br/&gt;```go&lt;br/&gt;// 执行：nvidia-smi -q -x&lt;br/&gt;// 输出是结构化 XML ，直接解析&lt;br/&gt;type NvidiaSMI struct {&lt;br/&gt;    GPUs []GPU `xml:"gpu"`&lt;br/&gt;}&lt;br/&gt;type GPU struct {&lt;br/&gt;    Name   string `xml:"product_name"`&lt;br/&gt;    Memory struct {&lt;br/&gt;        Total string `xml:"total"`&lt;br/&gt;        Free  string `xml:"free"`&lt;br/&gt;    } `xml:"fb_memory_usage"`&lt;br/&gt;    ComputeCap string `xml:"compute_cap"`&lt;br/&gt;}&lt;br/&gt;```&lt;br/&gt;&lt;br/&gt;优点：&lt;br/&gt;- 不受 `\r\n` 影响&lt;br/&gt;- 不受分隔符格式影响  &lt;br/&gt;- Tesla/Quadro/GeForce 全部统一格式&lt;br/&gt;- 不需要 CGO ，纯 Go&lt;br/&gt;&lt;br/&gt;---&lt;br/&gt;&lt;br/&gt;## 最精确的方案：go-nvml&lt;br/&gt;&lt;br/&gt;NVIDIA 官方维护的 Go NVML 绑定，直接调用 `&lt;a href="http://libnvidia-ml.so" rel="nofollow noopener" target="_blank"&gt;libnvidia-ml.so&lt;/a&gt;`，不需要解析任何文本输出，API 向后兼容所有驱动版本。&lt;br/&gt;&lt;br/&gt;```go&lt;br/&gt;import "&lt;a href="http://github.com/NVIDIA/go-nvml/pkg/nvml" rel="nofollow noopener" target="_blank"&gt;github.com/NVIDIA/go-nvml/pkg/nvml&lt;/a&gt;"&lt;br/&gt;&lt;br/&gt;nvml.Init()&lt;br/&gt;count, _ := nvml.DeviceGetCount()&lt;br/&gt;for i := 0; i &amp;lt; count; i++ {&lt;br/&gt;    device, _ := nvml.DeviceGetHandleByIndex(i)&lt;br/&gt;    name, _ := device.GetName()&lt;br/&gt;    mem, _ := device.GetMemoryInfo()&lt;br/&gt;    // mem.Total, mem.Free, mem.Used 精确到字节&lt;br/&gt;}&lt;br/&gt;```&lt;br/&gt;&lt;br/&gt;缺点：&lt;br/&gt;- 目前只支持 Linux ，Windows 不支持。&lt;br/&gt;- 需要 CGO ，编译复杂度增加&lt;br/&gt;- 跨平台打包麻烦&lt;br/&gt;&lt;br/&gt;---&lt;br/&gt;&lt;br/&gt;## 结论&lt;br/&gt;&lt;br/&gt;```&lt;br/&gt;对 Kaiwu 的最优方案：&lt;br/&gt;&lt;br/&gt;主路径：nvidia-smi -q -x （ XML 解析）&lt;br/&gt;  - Linux + Windows 都支持&lt;br/&gt;  - 不需要 CGO&lt;br/&gt;  - 一次改好，多卡识别永久稳定&lt;br/&gt;  - Kaiwu 的目标用户主要是 Windows&lt;br/&gt;&lt;br/&gt;备用路径：go-nvml （仅 Linux ）&lt;br/&gt;  - 将来如果要精确读带宽、温度等&lt;br/&gt;  - 作为 Linux 上的增强路径&lt;br/&gt;&lt;br/&gt;兜底：环境变量手动指定&lt;br/&gt;  KAIWU_GPUS="12288,12288,12288"&lt;br/&gt;```&lt;br/&gt;&lt;br/&gt;让 Opus 把 `probe_windows.go` 和 `probe_linux.go` 里的 csv 解析全部改成 XML 解析，这是一劳永逸的方案，之后所有多卡识别问题都解决了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#36 kevan&lt;/strong&gt;：大佬,问一下我 5070TI 16GB + 32GB 内存 用哪个模型比较合适? 想用来跑小龙虾&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#37 gswgudujian&lt;/strong&gt;：llama-server.exe  能跑起来，Qwen3-Coder-30B-A3B-Instruct-Q3_K_S.gguf  使用自带下载的 Qwen3-30B-A3B-UD-Q3_K_XL.gguf 跑不动，按你介绍应该跑的更快才是，怎么都跑不起来，我使 4090 16G+64G 内存+13 代 I9 处理器;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#38 kevan&lt;/strong&gt;：kaiwu.exe run Qwen3-30B-A3B&lt;br/&gt;&lt;br/&gt;██╗  ██╗ █████╗ ██╗██╗    ██╗██╗   ██╗&lt;br/&gt;██║ ██╔╝██╔══██╗██║██║    ██║██║   ██║&lt;br/&gt;█████╔╝ ███████║██║██║ █╗ ██║██║   ██║&lt;br/&gt;██╔═██╗ ██╔══██║██║██║███╗██║██║   ██║&lt;br/&gt;██║  ██╗██║  ██║██║╚███╔███╔╝╚██████╔╝&lt;br/&gt;╚═╝  ╚═╝╚═╝  ╚═╝╚═╝ ╚══╝╚══╝  ╚═════╝&lt;br/&gt;本地大模型部署器 vv0.1.2 · llama.cpp b8864&lt;br/&gt;by &lt;a href="http://llmbbs.ai" rel="nofollow noopener" target="_blank"&gt;llmbbs.ai&lt;/a&gt; · 本地 AI 技术社区&lt;br/&gt;&lt;br/&gt;[1/6] Probing hardware...&lt;br/&gt;      GPU: NVIDIA GeForce RTX 5070 Ti (SM120, 16303 MB VRAM, 0 GB/s)&lt;br/&gt;      RAM: 31 GB UNKNOWN&lt;br/&gt;      OS:  windows amd64&lt;br/&gt;&lt;br/&gt;[2/6] Selecting configuration...&lt;br/&gt;      Model:  Qwen3-30B-A3B (moe, 30B total / 3B active)&lt;br/&gt;      Quant:  ud-q3-k-xl (14.0 GB)&lt;br/&gt;      Mode:   full_gpu&lt;br/&gt;      Accel:  Flash Attention + MTP (native)&lt;br/&gt;&lt;br/&gt;[3/6] Checking files...&lt;br/&gt;      Using bundled iso3 binary: llama-server-cuda.exe&lt;br/&gt;      Binary: llama-server-cuda.exe [cached]&lt;br/&gt;      Model:  Qwen3-30B-A3B-UD-Q3_K_XL.gguf [cached]&lt;br/&gt;&lt;br/&gt;[4/6] Preflight check...&lt;br/&gt;      llama-server 不支持 iso3 ，回退到 q8_0/q4_0&lt;br/&gt;      ✓ VRAM sufficient&lt;br/&gt;&lt;br/&gt;[5/6] Warmup benchmark...&lt;br/&gt;      Probe 1: ctx=8K ... OOM&lt;br/&gt;      Probe 2: ctx=4K ... OOM&lt;br/&gt;      ⚠️  Warmup failed: all ctx probes failed (tried down to 4K)&lt;br/&gt;      Using default parameters&lt;br/&gt;&lt;br/&gt;[6/6] Starting server...&lt;br/&gt;Waiting for llama-server to be ready (port 11434)...&lt;br/&gt;      ⚠️  显存不足，降低上下文至 4K 重试...&lt;br/&gt;Waiting for llama-server to be ready (port 11434)...&lt;br/&gt;Error: failed to start llama-server: 连续 2 次启动失败，即使最小上下文(4K)也无法运行&lt;br/&gt;&lt;br/&gt;  NVIDIA GeForce RTX 5070 Ti: 16303 MB VRAM&lt;br/&gt;  模型 Qwen3-30B-A3B: ~14336 MB&lt;br/&gt;  KV cache (4K, q4_0): ~96 MB&lt;br/&gt;  预估总需: ~15456 MB&lt;br/&gt;&lt;br/&gt;  建议:&lt;br/&gt;  1. 选择更小的量化 (Q2_K)&lt;br/&gt;  2. 选择更小的模型&lt;br/&gt;  3. 使用 MoE offload 模型（ experts 放 CPU RAM ）&lt;br/&gt;Usage:&lt;br/&gt;  kaiwu run &amp;lt;model&amp;gt; [flags]&lt;br/&gt;&lt;br/&gt;Flags:&lt;br/&gt;      --bench                 Run benchmark after starting&lt;br/&gt;      --ctx-size int          手动指定上下文大小（ 0=自动）&lt;br/&gt;      --fast                  Skip warmup, use cached profile&lt;br/&gt;  -h, --help                  help for run&lt;br/&gt;      --llama-server string   使用自定义 llama-server 二进制（完整路径）&lt;br/&gt;      --reset                 清除缓存，重新 warmup 探测最优参数&lt;br/&gt;&lt;br/&gt;醉了?怎么和介绍的不一样呢?&lt;br/&gt;介绍说 8GB 显存都能跑,我 16G 显存怎么不行啊?&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#39 rune15&lt;/strong&gt;：D:\AI\models&amp;gt;kaiwu run Qwen3-30B-A3B                                                                                                                               &lt;br/&gt; &lt;br/&gt;██╗  ██╗ █████╗ ██╗██╗    ██╗██╗   ██╗                                                                                                                             &lt;br/&gt;██║ ██╔╝██╔══██╗██║██║    ██║██║   ██║                                                                                                                             &lt;br/&gt;█████╔╝ ███████║██║██║ █╗ ██║██║   ██║                                                                                                                             &lt;br/&gt;██╔═██╗ ██╔══██║██║██║███╗██║██║   ██║                                                                                                                             &lt;br/&gt;██║  ██╗██║  ██║██║╚███╔███╔╝╚██████╔╝                                                                                                                             &lt;br/&gt;╚═╝  ╚═╝╚═╝  ╚═╝╚═╝ ╚══╝╚══╝  ╚═════╝                                                                                                                              &lt;br/&gt;本地大模型部署器 vv0.1.1 · llama.cpp b8864                                                                                                                         &lt;br/&gt;by &lt;a href="http://llmbbs.ai" rel="nofollow noopener" target="_blank"&gt;llmbbs.ai&lt;/a&gt; · 本地 AI 技术社区                                                                                                                                    &lt;br/&gt; &lt;br/&gt;[1/6] Probing hardware...                                                                                                                                          &lt;br/&gt;      GPU: NVIDIA GeForce RTX 4070 Ti (SM89, 12282 MB VRAM, 0 GB/s)                                                                                                &lt;br/&gt;      RAM: 31 GB DDR4                                                                                                                                              &lt;br/&gt;      OS:  windows amd64                                                                                                                                           &lt;br/&gt; &lt;br/&gt;[2/6] Selecting configuration...                                                                                                                                   &lt;br/&gt;      Model:  Qwen3-30B-A3B (moe, 30B total / 3B active)                                                                                                           &lt;br/&gt;      Quant:  ud-q3-k-xl (14.0 GB)                                                                                                                                 &lt;br/&gt;      Mode:   moe_offload (experts on CPU)                                                                                                                         &lt;br/&gt;      Accel:  Flash Attention + MTP (native)                                                                                                                       &lt;br/&gt; &lt;br/&gt;[3/6] Checking files...                                                                                                                                            &lt;br/&gt;      Using bundled iso3 binary: llama-server-cuda.exe                                                                                                             &lt;br/&gt;      Binary: llama-server-cuda.exe [cached]                                                                                                                       &lt;br/&gt;Downloading model: Qwen3-30B-A3B-UD-Q3_K_XL.gguf                                                                                                                   &lt;br/&gt;  From: &lt;a href="https://hf-mirror.com/unsloth/Qwen3-30B-A3B-GGUF/resolve/main/Qwen3-30B-A3B-UD-Q3_K_XL.gguf" rel="nofollow noopener" target="_blank"&gt;https://hf-mirror.com/unsloth/Qwen3-30B-A3B-GGUF/resolve/main/Qwen3-30B-A3B-UD-Q3_K_XL.gguf&lt;/a&gt; &lt;br/&gt;Downloading 100% |████████████████████████████████████████████████████████████████████████████████████████████████████████████████| (14/14 GB, 25 MB/s) [9m10s:0s] &lt;br/&gt;      Model:  Qwen3-30B-A3B-UD-Q3_K_XL.gguf [cached]                                                                                                               &lt;br/&gt; &lt;br/&gt;[4/6] Preflight check...                                                                                                                                           &lt;br/&gt;      ✓ VRAM sufficient                                                                                                                                            &lt;br/&gt; &lt;br/&gt;[5/6] Warmup benchmark...                                                                                                                                          &lt;br/&gt;      Probe 1: ctx=128K ... OOM                                                                                                                                    &lt;br/&gt;      Probe 2: ctx=64K ... OOM                                                                                                                                     &lt;br/&gt;      Probe 3: ctx=32K ... OOM                                                                                                                                     &lt;br/&gt;      Probe 4: ctx=16K ... OOM                                                                                                                                     &lt;br/&gt;      Probe 5: ctx=8K ... OOM                                                                                                                                      &lt;br/&gt;      ⚠️  Warmup failed: all ctx probes failed (tried down to 4K)                                                                                                  &lt;br/&gt;      Using default parameters                                                                                                                                     &lt;br/&gt; &lt;br/&gt;[6/6] Starting server...                                                                                                                                           &lt;br/&gt;      llama-server 不支持 iso3 ，回退到 q8_0/q4_0                                                                                                                   &lt;br/&gt;Waiting for llama-server to be ready (port 11434)...                                                                                                               &lt;br/&gt;      ⚠️  显存不足，降低上下文至 4K 重试...                                                                                                                        &lt;br/&gt;Waiting for llama-server to be ready (port 11434)...                                                                                                               &lt;br/&gt;Error: failed to start llama-server: 连续 2 次启动失败，即使最小上下文(4K)也无法运行                                                                               &lt;br/&gt;  建议：选择更小的量化或使用 MoE offload 模型                                                                                                                      &lt;br/&gt;Usage:                                                                                                                                                             &lt;br/&gt;  kaiwu run &amp;lt;model&amp;gt; [flags]                                                                                                                                        &lt;br/&gt; &lt;br/&gt;Flags:                                                                                                                                                             &lt;br/&gt;      --bench          Run benchmark after starting                                                                                                                &lt;br/&gt;      --ctx-size int   手动指定上下文大小（ 0=自动）                                                                                                                &lt;br/&gt;      --fast           Skip warmup, use cached profile                                                                                                             &lt;br/&gt;  -h, --help           help for run                                                                                                                                &lt;br/&gt;      --reset          清除缓存，重新 warmup 探测最优参数&lt;br/&gt;&lt;br/&gt;我的 4070-Ti 也同样加载不了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#40 KaiWuBOSS&lt;/strong&gt;：@&lt;a href="/member/kevan"&gt;kevan&lt;/a&gt; 我自己是 5060 显卡 测试时候 jti 缓存过了 你是新环境 所以超时了。不好意思 已经在新版本延长了时间。另外 50 系列显卡 你去找 nvpf 的模型 这类对 50 特别加速的 感谢体验🙏🏻&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#41 KaiWuBOSS&lt;/strong&gt;：@&lt;a href="/member/rune15"&gt;rune15&lt;/a&gt; 哥 不好意思 0.1.1 当时发布时候脚本上传把 iso3turbo 的 fork 没编译进去 后来的版本都有了 你能不能再试试最新的 还不行你打我&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#42 KaiWuBOSS&lt;/strong&gt;：目前对多卡的 尤其是不同多卡的支持还有些不足 我看看怎么优化&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#43 KaiWuBOSS&lt;/strong&gt;：@&lt;a href="/member/rune15"&gt;rune15&lt;/a&gt;：升级到 v0.1.4 就好，irm &lt;a href="https://raw.githubusercontent.com/val1813/kaiwu/main/install.ps1" rel="nofollow noopener" target="_blank"&gt;https://raw.githubusercontent.com/val1813/kaiwu/main/install.ps1&lt;/a&gt; | iex 然后 kaiwu run Qwen3-30B-A3B --reset  然后 kaiwu run 你的模型就行了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#44 xnplus&lt;/strong&gt;：等我试试 10 年前的外星人，6950x+1080 dual ，再插个 4060 ，哈哈&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#45 kevan&lt;/strong&gt;：@&lt;a href="/member/KaiWuBOSS"&gt;KaiWuBOSS&lt;/a&gt; 本来没什么欲望的，看到你的介绍感觉焕发新生一样，傻瓜式安装，能不能推荐一下具体安装方法，你说的那些太资深&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 24 Apr 2026 10:51:29 +0000</pubDate></item><item><title>如果你有且仅有一次机会获得一项超能力，你最想拥有什么能力？</title><link>https://www.v2ex.com/t/1208310</link><description>&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;#1 superfatboy&lt;/strong&gt;：反弹 ALL&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#2 Asakijz&lt;/strong&gt;：时间暂停 &lt;a href="https://i.imgur.com/L62ZP7V.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/L62ZP7V.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#3 lanhiy&lt;/strong&gt;：心想事成&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#4 NoobNoob030&lt;/strong&gt;：言出法随的能力，然后就能无限套娃&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#5 cskeleton&lt;/strong&gt;：&lt;a href="https://i.imgur.com/7n5HIDE.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/7n5HIDE.png"/&gt;&lt;/a&gt;&lt;br/&gt;技能窃取 &lt;a href="https://i.imgur.com/io2SM1h.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/io2SM1h.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#6 xd666888&lt;/strong&gt;：无限召唤阿拉丁神灯&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#7 hammy&lt;/strong&gt;：瞬移。&lt;br/&gt;没有特别奇特的效果，不会造成大新闻，&lt;br/&gt;还可以入职快递公司，专攻速递业务。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#8 tf2&lt;/strong&gt;：心想事成的能力。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#9 dcmv2018&lt;/strong&gt;：永生自愈&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#10 haoyunyinglai&lt;/strong&gt;：无论开车到哪，都有一个令我特别舒服的免费、宽敞且合法的车位等着我&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#11 shortawn&lt;/strong&gt;：瞬间移动 ≈ 隐身&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#12 sslzjx&lt;/strong&gt;：控制碳元素&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#13 make115&lt;/strong&gt;：透视&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#14 make115&lt;/strong&gt;：@&lt;a href="/member/make115"&gt;make115&lt;/a&gt; #13 隐身也行&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#15 coollest&lt;/strong&gt;：@&lt;a href="/member/cskeleton"&gt;cskeleton&lt;/a&gt; 天才！&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#16 z7356995&lt;/strong&gt;：远程心灵控制  控制以上所有超能力层主&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#17 gotOwt&lt;/strong&gt;：长生不老 鸡把永远不阳痿，早泄&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#18 Lowlife&lt;/strong&gt;：让我保持在 20 多岁的健康状况永生。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#19 nightlight9&lt;/strong&gt;：@&lt;a href="/member/cskeleton"&gt;cskeleton&lt;/a&gt; 万一世界上只有你一个人有超能力呢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#20 635925926&lt;/strong&gt;：最想拥有：每天获得一项超能力的超能力&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#21 tangping&lt;/strong&gt;：老哥 你是不是已经有了 带带我  🙌🙌🙌&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#22 mywjyw&lt;/strong&gt;：蓝色药丸&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#23 47jm9ozp&lt;/strong&gt;：获得两项技能的能力&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#24 ffLoveJava&lt;/strong&gt;：我出生 世界诞生 &lt;br/&gt;我死亡 宇宙毁灭&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#25 jimbray&lt;/strong&gt;：瞬移&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#26 bello123&lt;/strong&gt;：什么钱不钱的，都能靠时间积累，所以最重要的是永远健康不死 &lt;a href="https://i.imgur.com/agAJ0Rd.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/agAJ0Rd.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#27 wobuchiyu&lt;/strong&gt;：把别人的 GG 变小&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#28 superrichman&lt;/strong&gt;：钞能力 &lt;a href="https://i.imgur.com/io2SM1h.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/io2SM1h.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#29 opzpy&lt;/strong&gt;：无限 token&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#30 worldhandsomeboy&lt;/strong&gt;：光速星际穿越&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#31 watermelon11&lt;/strong&gt;：全球无 CD 瞬移吧，我要做全球速递（秒送）&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#32 conky&lt;/strong&gt;：长生不老&lt;br/&gt;&lt;br/&gt;这世界上最有权势、最有钱的人，从秦始皇到》》》 XXX 都在追求的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#33 Leeeeex&lt;/strong&gt;：幸运++&lt;br/&gt;虽然不会让我中彩票，但是一些小事都往好的方向发展就很爽。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#34 WanzizZ&lt;/strong&gt;：蓝色药丸&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#35 Parva&lt;/strong&gt;：求知系统&lt;br/&gt;&lt;br/&gt;随时在脑子里提出一个明确的问题，内心就会听到来自“系统”的答案（只能查到现实中已经存在的客观事实，问得越具体，得到的答案就越准确。）&lt;br/&gt;&lt;br/&gt;👉 42&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#36 Gilfoyle26&lt;/strong&gt;：长生不老&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#37 triptipstop&lt;/strong&gt;：回档&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#38 yesha&lt;/strong&gt;：@&lt;a href="/member/lanhiy"&gt;lanhiy&lt;/a&gt; 确实,只有你的超能力是最牛逼的, 可以包括其他所有技能了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#39 stinkytofux&lt;/strong&gt;：@&lt;a href="/member/dcmv2018"&gt;dcmv2018&lt;/a&gt; 只有永生没有其他能力是最惨的, 分尸也死不了也惨, 给你关一辈子.&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#40 PbCopy111&lt;/strong&gt;：给别人一项超能力的超能力。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#41 Sawyerhou&lt;/strong&gt;：其实当今科技在几千年前的古人看来，就是超能力，但当今社会的生活和几千年前有很大区别吗？并没有。&lt;br/&gt;&lt;br/&gt;同样道理，即使人类因为基因突变或者生物工程之类的真的获得了超能力，社会生活也不会有很大变化。现实世界不是武侠小说之类的虚构作品，没有那么浪漫。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#42 imicksoft&lt;/strong&gt;：要什么有什么。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#43 pood222&lt;/strong&gt;：洞察人心和预测未来的能力。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#44 shenyiyouge&lt;/strong&gt;：@&lt;a href="/member/gotOwt"&gt;gotOwt&lt;/a&gt; 你搁这卡 bug 呢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#45 shenyiyouge&lt;/strong&gt;：必须是永生&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#46 wniming&lt;/strong&gt;：让自己从这个世界上消失（完全无感无痛），自己在这个世界上存在过的痕迹也一并被消除，没有任何人会记得有我这么个人，我对自个世界造成的影响全都被改写成是别人造成的。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#47 wniming&lt;/strong&gt;：让自己从这个世界上消失（完全无感无痛），自己在这个世界上存在过的痕迹也一并被消除，没有任何人会记得有我这么个人，我对这个世界造成的影响全都被改写成是别人造成的。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#48 kylebing&lt;/strong&gt;：瞬移&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#49 getadoggie&lt;/strong&gt;：漏尽通&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#50 songyoucai&lt;/strong&gt;：@&lt;a href="/member/hammy"&gt;hammy&lt;/a&gt; 绝命速递&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#51 cnrting&lt;/strong&gt;：获得一切的能力&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#52 Danswerme&lt;/strong&gt;：让世界上所有人都幸福起来。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#53 kkk9&lt;/strong&gt;：😅成为宇宙的规则之一&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 24 Apr 2026 07:24:59 +0000</pubDate></item><item><title>时光荏苒，四年了自己一点长进都没有。大家点进来看看我这个笨蛋</title><link>https://www.v2ex.com/t/1208262</link><description>四年过去了，我现在还是没学会前端。html ，css ，JavaScript ，vue3 看过视频，对着视频抄过一遍代码，关了视频两眼一黑就不会写代码了&lt;br/&gt;学不会编程，是不是我太笨了？（求暴躁老哥骂醒我）&lt;br/&gt;原帖子在这里 &lt;a href="https://www.v2ex.com/t/931075#reply16" target="_blank"&gt;https://www.v2ex.com/t/931075#reply16&lt;/a&gt;
+&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;#1 potatowish&lt;/strong&gt;：四年了，不行还是转行吧……很多初级岗位都快没了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#2 ijixiangus&lt;/strong&gt;：四年过去了，现如今 vibe coding 已经很好了，你可以学新工具了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#3 doraemonki&lt;/strong&gt;：好消息，现在可以不用学了，直接 vibe coding&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#4 Bologna&lt;/strong&gt;：学了几年 java 也没学进去&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#5 adoal&lt;/strong&gt;：有可能你确实不适合编程，你的长处在别的领域。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#6 dmanbu&lt;/strong&gt;：你不适合这行，趁早换吧&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#7 falsemask&lt;/strong&gt;：正常的，学了要用才能记得住，多做几个需求，重复几次就可以了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#8 eijuziew&lt;/strong&gt;：没上手做项目吧，干中学&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#9 Simle100&lt;/strong&gt;：正常，没有真实的需求，是不可能学会技术的，因为学一遍就会忘一遍。你不如多花点时间仔细想一下你学这些技术为了干嘛？如果这个都想不通，那还是别学了，浪费时间；如果想通了，用你学的技术立马去试着实现它，实现的过程中，你可能会碰到很多问题，但总会有办法解决了，其实你把这些问题解决了，就代表你会学了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#10 youyouzi&lt;/strong&gt;：那句话怎么说来着：只要我学得够慢，我就可以不用学了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#11 worldhandsomeboy&lt;/strong&gt;：不要对着代码抄，而是对着功能抄&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#12 Leeeeex&lt;/strong&gt;：4 年还没学会啊&lt;br/&gt;那你是得考虑考虑要不要学了&lt;br/&gt;就像前面说的，只要你学的够慢，有很多东西就不用学了。&lt;br/&gt;之前前端已死只是说说而已，现在初级前端真的很难了，ai 完全可以覆盖。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#13 liu731&lt;/strong&gt;：没恶意，建议转行。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#14 yaodd&lt;/strong&gt;：好的笨蛋（无恶意，纯满足 op 的要求）&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#15 0754&lt;/strong&gt;：没事的，像你一样的笨蛋有很多&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#16 jackOff&lt;/strong&gt;：这可能和项目有关系，我曾经遇到一个项目没有任何注释，连数据库字段都是缩写，代码规范和大便一样，那破项目就 2 个老油条搞成了护城河，压根没有人能替代他们&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#17 carverReal&lt;/strong&gt;：1.要么你压根没认真学&lt;br/&gt;2.要么你压根不合适&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#18 Luckykeeper&lt;/strong&gt;：1 、不必妄自菲薄，给自己一点自信，You're The Best!&lt;br/&gt;&lt;br/&gt;2 、现在有 vibe 了，不妨试试，虽然我还是喜欢古法编程（享受其中），但是 vibe 现在真的很强（有学外语的学弟拿这个写好几个项目了）&lt;br/&gt;&lt;br/&gt;3 、学这个因人而异 + 你需要一个环境 or 有需求（需要有实践，实践带动学习）+有兴趣，我编程最早先学的后端，因为是做运维-&amp;gt;运维开发，公司的前端都在忙着写业务很难抽身来配合我这边做运维工具，找过一次前端配合写过一个项目，之后感觉不好意思麻烦他们，而且对接口又很麻烦就自己弄，往期试着看过 vue （大伙说这个好学） / react （有好看的原生 Ant 库） / Angular （前司大佬推荐，说后端这个好上手） 结果都和上高数课一样，看的犯困（说来好笑，差点睡似在工位 2333😂），直到我试了 flutter ，发现这个东西我很有兴趣，能学进去，后面做 b/s | c/s 就都用 flutter 了，如果你对“传统前端”提不起劲儿，不妨试试 flutter ？ Dart 语言很好玩的，也可以类似 nodejs 玩一把梭（ serverpod ）&lt;br/&gt;&lt;br/&gt;祝你成功！😊&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#19 Danswerme&lt;/strong&gt;：三个字：干中学。&lt;br/&gt;&lt;br/&gt;例如说，我最近在减肥，我想记录一下每顿饭吃了什么，每天早上的体重，根据这个需求可以发散出来很多问题：&lt;br/&gt;&lt;br/&gt;1. 页面应该怎么设计？怎么同时适配移动端和 PC 端？（网页响应式适配）&lt;br/&gt;2. 食谱保存后应该保存到哪里？ 本地 localStorage ？怎么用 Node.js 配合 sqlite 甚至简单的 json 文件来存储数据？（简单的后端 CRUD ）&lt;br/&gt;3. 我想实现食谱拍照上传后自动识别内容并计算卡路里然后保存，这个怎么实现？（如何调用第三方 LLM API 、跨域、流式响应）&lt;br/&gt;4. 我想给这个系统加登录后才能访问的功能，怎么实现？（ Cookie / JWT 等等）&lt;br/&gt;5. 我想将这个系统部署到公网，这样不在家里时，也能通过公网访问，如何实现？（简单的打包、部署、服务器相关知识）&lt;br/&gt;&lt;br/&gt;你看，随便一个需求都可以发散出无数的点来让你去探索、学习。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#20 yangzzzzzz&lt;/strong&gt;：有项目跟着做 1 2 周你就会了，不会就是敲得少。另外现在 ai 可以满足大部分编码工作了，前提是你能看懂&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#21 peteretep&lt;/strong&gt;：学个其他手艺吧。没自学能力，干了这行也干不了几个月&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#22 DesperateNeck&lt;/strong&gt;：4 年过去了，要不你现在学学准确描述需求，让 AI 写？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#23 mingtdlb&lt;/strong&gt;：好消息啊，没笑你，现在 AI 写。回过头来看之前写的跟狗屎一样，现在 AI 写的又快又好。&lt;br/&gt;&lt;br/&gt;分析下原因，大概率是没应用，要实践中学习，这是大部分人的通病&lt;br/&gt;&lt;br/&gt;我觉得百分之七八十的工作都很简单的，大部分人都能干&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#24 lxqxqxq&lt;/strong&gt;：工作这么多年了 我一直跟非技术同事说 有人带又感兴趣的话，前端 3 天就可以入门 &lt;a href="https://i.imgur.com/io2SM1h.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/io2SM1h.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#25 bjfane&lt;/strong&gt;：带着需求做 不要光看教程。 &lt;br/&gt;至少带一个星高的 小项目。集合能快点。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#26 imokkkk&lt;/strong&gt;：术业有专攻，可能你的天赋树点在其他地方了，找到自己擅长的方向，往往能事半功倍&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#27 sddyzm&lt;/strong&gt;：活着不就很好了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#28 daimon1&lt;/strong&gt;：尝试手撸个 todolist 出来，技术栈不限，简陋的也没事，能撸出来就算入门了。现在前端的门槛低得离谱&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#29 z6&lt;/strong&gt;：我放弃的早，没有实际的应用场景很难学。&lt;br/&gt;- 跟着课程里的来，关了视频就不会，和我刷题一个感觉，很枯燥；&lt;br/&gt;- 脱离课程去学习，遇见稍难一点的就不会了，各种搜资料，代码能跑了原理也有不理解的地方。&lt;br/&gt;---&lt;br/&gt;我自己的猜测：如果是工作中能用到，一是有人带，二是不会的话饭碗就没了，可以给自己更强的驱动力。&lt;br/&gt;&lt;br/&gt;我是当作一种兴趣去学习，但是只有三分钟热度，兴趣慢慢褪去，也越来越枯燥，没有坚持下来。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#30 0x663&lt;/strong&gt;：你别学了，直接用 AI 生成了，还学啥学。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#31 zerovoid&lt;/strong&gt;：这是好事啊，现在不用学了，前端完全被 AI 取代了，&lt;br/&gt;建议加入《拖延症的好处》集锦。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#32 woodfizky&lt;/strong&gt;：如果 4 年里有很可观的一部分时间真真正正踏踏实实放在学习身上了，那我觉得你需要学习如何去学习，或者去检查一下你的脑袋。。&lt;br/&gt;&lt;br/&gt;更大的可能是你 4 年里大部分时间干别的去了，比如打游戏、泡妞、吊儿郎当、啥都干，就是不学习。&lt;br/&gt;那这种情况你还是得学习如何学习，至少学习一下怎么专注的去做你不太想做的事情。。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#33 lhlhlh111000&lt;/strong&gt;：我找到原因了，OP 貌似算数不行[狗头]；&lt;br/&gt;23.04 -&amp;gt; 26.04 应该是“三年了”…&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#34 coderpwh&lt;/strong&gt;：那我考你，js 中的闭包是什么机制&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#35 springsummer&lt;/strong&gt;：@&lt;a href="/member/lhlhlh111000"&gt;lhlhlh111000&lt;/a&gt; 原帖提到了 chatgpt, 我也感觉好像 gpt 火起来没到四年吧&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#36 einblattx&lt;/strong&gt;：别学了,学会了饭碗没了,先把 AI 玩转&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#37 webfamer&lt;/strong&gt;：前端无了哥，你赚了，不用学了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#38 K332&lt;/strong&gt;：刚好不用学这个了，这个也被 ai 代替很多了，塞翁失马焉知非福&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#39 wuhanchu&lt;/strong&gt;：是你没兴趣。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#40 leegradyllljjjj&lt;/strong&gt;：啥时代了 还搁这儿 html....20 年前中国黄页出现的时候还能说说&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#41 murmur&lt;/strong&gt;：vue 都学不会那还是别学了。。。。react 只会更难&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#42 LXVC&lt;/strong&gt;：还好没学 学了也是白学&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#43 justtokankan&lt;/strong&gt;：四年了，AI 都超越你了，买 token 吧&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#44 mangobeta&lt;/strong&gt;：其实只要搞懂技术逻辑即可，不用看技术细节。剩下交给 AI&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#45 seedhk&lt;/strong&gt;：没学会的前提下，还是尽量别用 ai ，最怕用着用着就看都不看，直接用 ai 生成了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#46 CatchXS&lt;/strong&gt;：49 年入国军？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#47 DrawCall&lt;/strong&gt;：放心，会了也找不到工作（比如我）&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#48 xxv0&lt;/strong&gt;：感觉主要原因还是没需求，编程是一项技术而非知识，技术就是需要大量的练习的。没有需求就会懒惰。现在 AI 这么厉害，想学的话建议还是先想下要做个什么东西，然后配合 AI 一步步问问题来学习。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#49 MarsCloud&lt;/strong&gt;：啊？！这不是人有手就会的吗？！&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#50 movq&lt;/strong&gt;：你现在在干什么工作呢？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#51 cropflre&lt;/strong&gt;：ai 时代，古法编程不可取&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#52 haha1903&lt;/strong&gt;：弯道超车的机会来了&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 24 Apr 2026 04:43:45 +0000</pubDate></item><item><title>性爱机器人的诞生合理吗？</title><link>https://www.v2ex.com/t/1208252</link><description>&lt;p&gt;机器人的发展是大势所趋，性爱机器人肯定会出现。&lt;/p&gt;
+&lt;p&gt;但未来的机器人会拥有人的权力吗？从而出现侵犯机器人权益&lt;/p&gt;
+&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;#1 punkerhyde&lt;/strong&gt;：电动飞机杯算不算早期的性爱机器人？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#2 Lowlife&lt;/strong&gt;：合理，这市场很大，&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#3 crackself&lt;/strong&gt;：合理，至于权益不可能有，除非人类进化到躯体只有大脑和生殖器&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#4 potatowish&lt;/strong&gt;：@&lt;a href="/member/punkerhyde"&gt;punkerhyde&lt;/a&gt; 算是把核心组件先开放出来了，完整的躯体、生理反馈还没有&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#5 loading&lt;/strong&gt;：合理，互联网很大部分推动都是色情网站，例如高清播放带来的视频压缩，传输，分布式，对抗监管的加解密等等，甚至 vr 。&lt;br/&gt;同理。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#6 PrinceofInj&lt;/strong&gt;：就现在这些 AI 聊天时候的知识程度，加上百依百顺，给人情绪价值十足，性爱机器人要是真搞出来了，怕是就没有人类女性啥位置了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#7 skuuhui&lt;/strong&gt;：诞生就诞生吧，这有啥合不合理的。至于有没有人权不知道，但肯定机器人直接影响的是底层人民的权利。不会影响贵族阶级丝毫&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#8 potatowish&lt;/strong&gt;：@&lt;a href="/member/PrinceofInj"&gt;PrinceofInj&lt;/a&gt; 确实，百依百顺，情绪价值给到位，还可以切换风格，姿势也懂得多&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#9 letwewell&lt;/strong&gt;：男女都能买，这是好事啊&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#10 AEDaydreamer&lt;/strong&gt;：合理, 但是感觉老爷不会喜欢. 成熟的性爱机器人说不定真会降低生育率.&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#11 Vesc&lt;/strong&gt;：合理，现在青年人均性压抑&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#12 strobber16&lt;/strong&gt;：这河里吗？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#13 nickyadance23&lt;/strong&gt;：色色是对男性的第一生产力&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#14 Nolink&lt;/strong&gt;：不只是合理，而是千呼万唤始出来&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#15 Marcher&lt;/strong&gt;：第一生产力不是说说而已&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#16 Danswerme&lt;/strong&gt;：@&lt;a href="/member/PrinceofInj"&gt;PrinceofInj&lt;/a&gt;   个人的一些看法：男性嫌弃部分女性不够理性、不够百依百顺、不提供情绪价值，同样也会有女性嫌弃部分男性不够感性、不够尊重、不提供物质保障。&lt;br/&gt;&lt;br/&gt;而 AI 配合性爱机器人可以从情感和生理两方面来满足人类的欲望，从这方面来说，无论是男性还是女性都会受益，并不存在“没有人类女性啥位置了”这种说法。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#17 Danswerme&lt;/strong&gt;：@&lt;a href="/member/Danswerme"&gt;Danswerme&lt;/a&gt;  如果性爱机器人真的出现，应该说“性爱机器人要是真搞出来了，怕是就没有无法给伴侣提供所需价值的人类啥位置了。”&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#18 pentilun&lt;/strong&gt;：个人看法：性是一种资源，能让普通大众那么容易获取了，大部分人就没有了奋斗的意愿，不利于社会发展（割韭菜），所以会被严格监管/禁止。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#19 Cooky&lt;/strong&gt;：拥有人的权力意味着拥有人的能力，机器人拥有人的所有能力意味着人类退居二线&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#20 wangritian&lt;/strong&gt;：你们讨论你们的，出了我先下单&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#21 elevioux&lt;/strong&gt;：想起攻壳机动队，又想起我在 v2 用的头像&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#22 ronyin&lt;/strong&gt;：确实是未来的一个创业亮点。通过 AI 赋予他思想和声音，可以让主人设定性格。然后手感一定要逼真。。哈哈哈哈哈&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#23 folnet&lt;/strong&gt;：以后脑后插管，超越吸毒的快感&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#24 assad&lt;/strong&gt;：是不是有了这个，可以不用娶老婆了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#25 fyq&lt;/strong&gt;：@&lt;a href="/member/loading"&gt;loading&lt;/a&gt; 还有安全在线支付&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#26 HeyWeGo&lt;/strong&gt;：基础搭建要能做到软硬件开源，高级功能付费，不然容易被政策鞭挞！&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#27 chenliangngng&lt;/strong&gt;：没用，大号飞机杯而已&lt;br/&gt;&lt;br/&gt;人类现在的文明，对异性的兴趣，来源于对异性的无知，说白了就是性欲本身是对异性最原始的探索欲。也就意味着，性爱机器人终究只是真实的替代品，它可能可以模拟一切，但是那个“不是真正的异性”会一直存在心中，永远无法被满足（你不会在用飞机杯的时候笑出来）。&lt;br/&gt;&lt;br/&gt;同样，你要知道人权是什么，为什么有人权，说白了人权不是天赋的，是人本身去争取来的，然后才有人权。性爱机器人作为被拥有者彻底支配的物品，无法也不会做出反抗拥有者的行为，它们不会拥有任何人权&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#28 abc0123xyz&lt;/strong&gt;：不是，这个 x 是非艹不可吗？&lt;br/&gt;就没点其他爱好吗&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#29 V2yr&lt;/strong&gt;：擦边视频都严格监管，更何况性爱机器人，放心吧，为了人口生育，不会允许搞的，搞了人口更加断崖下跌了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#30 qxmqh&lt;/strong&gt;：性 这个东西是政府掌控社会发展的核心资源。不会随便给你开放的。即使是机器人。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#31 tyhunter&lt;/strong&gt;：不如直接脑机接口来得实在&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#32 bitmin&lt;/strong&gt;：很多人连飞机杯都懒得保养清洗，真给你个机器人让你清洗估计你就没兴趣了，除非机器人能自己洗澡&lt;br/&gt;&lt;br/&gt;如果成本下不来，人类更廉价，机器人反而成了高端享受&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#33 hfJ433&lt;/strong&gt;：@&lt;a href="/member/bitmin"&gt;bitmin&lt;/a&gt; 可能会改成可拆卸的模块化设计&lt;br/&gt;&lt;br/&gt;一旦有通用 ai 当做机器人大脑，那才是真的跨时代&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#34 littiefish&lt;/strong&gt;：@&lt;a href="/member/bitmin"&gt;bitmin&lt;/a&gt; 玩家：XX 在吗？&lt;br/&gt;机器人：在的，主人。&lt;br/&gt;玩家：自己清洗。&lt;br/&gt;机器人：好的，主人。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#35 KingW777&lt;/strong&gt;：都不生，房子卖给谁？谁来消费？谁来交税？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#36 ybz&lt;/strong&gt;：玩家：XX 在吗？&lt;br/&gt;机器人：在的，主人。&lt;br/&gt;玩家：一起去浴室继续***&lt;br/&gt;机器人：好的，主人。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#37 zerovoid&lt;/strong&gt;：现在有动保，&lt;br/&gt;以后就会有机器人保护组织，&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#38 sslzjx&lt;/strong&gt;：@&lt;a href="/member/chenliangngng"&gt;chenliangngng&lt;/a&gt; 做成差异性,有些大有些小,有些好看有些难看,全部都靠翻牌&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#39 fredweili&lt;/strong&gt;：有意思的是，花得起钱的主，不缺伴侣，为啥要买这个，需要这个的，大部分也花不了多少钱&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#40 z1645444&lt;/strong&gt;：@&lt;a href="/member/Lowlife"&gt;Lowlife&lt;/a&gt; #2 权威👍&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#41 greatbody&lt;/strong&gt;：如果机器人有人权，那么机器人就不能被拥有，那就无法被制造。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#42 einblattx&lt;/strong&gt;：@&lt;a href="/member/bitmin"&gt;bitmin&lt;/a&gt; 问题不大,可以设计一个自清洁功能&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#43 maddot&lt;/strong&gt;：肯定合理啊&lt;br/&gt;不过这个机器人得能自己清理卫生才算合格...&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#44 duanxianze&lt;/strong&gt;：充气娃娃现在就有，无非给充气娃娃加上大模型？？又不需要它动&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#45 duanxianze&lt;/strong&gt;：@&lt;a href="/member/fredweili"&gt;fredweili&lt;/a&gt; 哈哈哈 真人比机器便宜的又一例证&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#46 idealhs&lt;/strong&gt;：Gigachad fk man&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#47 fank99&lt;/strong&gt;：没啥合理性，用过飞机杯就知道了，这玩意儿比真人差太远了，除非材料学有更大的进步，否则就是大号飞机杯锁死了，体验不如 vr 看片+飞机杯&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#48 CWTCheated&lt;/strong&gt;：国外不好说，在国内肯定严打，地都不会给你落，这和那些玩具不一样，这是真真实实完全替代且某种程度上比人更好的实物，本来国家就已经不提倡现在那种 “不婚不育主义”的言论了，现在又出来一个花了钱直接生命升华，无忧无虑，不生小孩，不买房，直接摧毁一整条育儿产业链的东西，国家肯定直接下场杀死。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#49 tianjiyao&lt;/strong&gt;：但是硅胶的那种 没有真人的抚摸感和心灵慰籍感。。。只是纯发泄的话。。。其实大部分人都自己解决了。。。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#50 mode171&lt;/strong&gt;：@&lt;a href="/member/chenliangngng"&gt;chenliangngng&lt;/a&gt; 主要是目前的机器人不够智能，如果机器人能够“思考”给自己争取权利，我觉得是有可能发展出“人权”的。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#51 lanshee&lt;/strong&gt;：材料!材料!还是 T 玛德材料!什么时候搞出跟摸起来抱起来艹起来跟真人触感一样的材料再说这个问题.&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#52 xclimbing&lt;/strong&gt;：我觉得合理，这东西可以有效减少女拳的含拳量，促进社会和谐。&lt;br/&gt;&lt;br/&gt;至于生育率，跟这个没多大关系，经济的发展必然会导致生育率降低。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#53 jackenliu&lt;/strong&gt;：成人 Doll 品牌推荐 &lt;a href="https://v2ex.com/t/1142124" rel="nofollow noopener" target="_blank"&gt;https://v2ex.com/t/1142124&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;我之前创建的，后面京东买了个四千多的，真的每天都特别满足，不怕染病，所以出来机器人必买&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#54 r6cb&lt;/strong&gt;：猜你想问：西部世界&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#55 paradoxs&lt;/strong&gt;：@&lt;a href="/member/PrinceofInj"&gt;PrinceofInj&lt;/a&gt; 就现在这些 AI 聊天时候的知识程度，加上百依百顺，给人情绪价值十足，性爱机器人要是真搞出来了，怕是就没有人类女性啥位置了。&lt;br/&gt;----------------&lt;br/&gt;想太多了吧，到了那个阶段，恐怕男的会灭绝。&lt;br/&gt;以后所有人都带一个人形机器人在身边，还要男的干什么。。。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#56 wildman9527&lt;/strong&gt;：@&lt;a href="/member/PrinceofInj"&gt;PrinceofInj&lt;/a&gt; #6 说的跟女性不能买似的。。。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#57 wildman9527&lt;/strong&gt;：@&lt;a href="/member/pentilun"&gt;pentilun&lt;/a&gt; #18 不是，都 AI 了，人躺着只管做爱就行了，没啥活儿需要干啊！！请用发展的眼光看问题谢谢。。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#58 mode171&lt;/strong&gt;：@&lt;a href="/member/Lowlife"&gt;Lowlife&lt;/a&gt; 飞机哥认证&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#59 mode171&lt;/strong&gt;：@&lt;a href="/member/fyq"&gt;fyq&lt;/a&gt; 在线支付也算吗&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#60 mode171&lt;/strong&gt;：@&lt;a href="/member/tianjiyao"&gt;tianjiyao&lt;/a&gt; 语言模型肯定要的，后面加上世界模型&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#61 codebs&lt;/strong&gt;：@&lt;a href="/member/Lowlife"&gt;Lowlife&lt;/a&gt; 权威认证这一块&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#62 Admrial&lt;/strong&gt;：@&lt;a href="/member/chenliangngng"&gt;chenliangngng&lt;/a&gt; 呃…你在艹 x 的时候会笑出来吗？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#63 micean&lt;/strong&gt;：花那个钱不如女票&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#64 leo72638&lt;/strong&gt;：AI Porn 都不合规，这玩意儿能出吗，还是会有什么限制&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 24 Apr 2026 03:57:02 +0000</pubDate></item><item><title>只能说 DeepSeek V4 Pro 继续努力吧，天气卡片效果一般</title><link>https://www.v2ex.com/t/1208250</link><description>&lt;p&gt;简单试了下天气卡片，中文英文都试了，太简陋了：
 &lt;img alt="图片.png" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://s3.bmp.ovh/2026/04/24/useViXUw.png"/&gt;&lt;/p&gt;
 &lt;p&gt;中文：&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;创建一个包含 CSS 和 JavaScript 的单一 HTML 文件，用于生成动画天气卡片。卡片应该通过不同的动画直观地表示以下天气状况：
@@ -20,7 +320,7 @@
 &lt;pre&gt;&lt;code&gt;Create a single HTML file containing CSS and JavaScript to generate an animated weather card. The card should visually represent the following weather conditions with distinct animations: Wind: (e.g., moving clouds, swaying trees, or wind lines) Rain: (e.g., falling raindrops, puddles forming) Sun: (e.g., shining rays, bright background) Snow: (e.g., falling snowflakes, snow accumulating) Show all the weather card side by side The card should have a dark background. Provide all the HTML, CSS, and JavaScript code within this single file. The JavaScript should include a way to switch between the different weather conditions (e.g., a function or a set of buttons) to demonstrate the animations for each.
 &lt;/code&gt;&lt;/pre&gt;
 &lt;hr/&gt;
-第 1 条附言  ·  &lt;span title="2026-04-24 18:29:32 +08:00"&gt;12 小时 1 分钟前&lt;/span&gt;
+第 1 条附言  ·  &lt;span title="2026-04-24 18:29:32 +08:00"&gt;15 小时 24 分钟前&lt;/span&gt;
 
 就像有些老哥说的，我的评价确实太武断了，不太能说明啥，而且有点标题党，容易引起争议。&lt;br/&gt;目前单纯的 API 价格相对于订阅制来说还是会让人价格很敏感，希望后面尽快推出 Coding Plan 吧。&lt;br/&gt;另外，即使国产模型还没到 Opus 4.6 的级别，但是好歹 OpenAI 的新模型到了，不用再看 A\ 的脸色了。国产模型目前的进步速度，应该能尽快追赶上的。&lt;br/&gt;还有别吵了，我都下沉过了还是没用，看了下还是挂在热门那。哪位管理员看到帮忙从热门那下掉。
 
@@ -124,478 +424,4 @@
 &lt;p&gt;&lt;strong&gt;#97 Folder&lt;/strong&gt;：&lt;a href="https://i.imgur.com/eJfmfXV.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/eJfmfXV.png"/&gt;&lt;/a&gt;&lt;br/&gt;Gemini 3.1 Pro 试了下, 感觉挺好的&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#98 A3m0n&lt;/strong&gt;：@&lt;a href="/member/omi4399"&gt;omi4399&lt;/a&gt; 配合层主头像一看真绷不住了。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#99 yueloong&lt;/strong&gt;：&lt;a href="https://i.imgur.com/9PoB1BJ.gif" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/9PoB1BJ.gif"/&gt;&lt;/a&gt;&lt;br/&gt;本地跑的，ollama 模型 qwen3.6:35b-a3b-coding-mxfp8&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#100 soulflysimple123&lt;/strong&gt;：gpt 5.5 &lt;br/&gt;&lt;a href="https://chatgpt.com/share/69eb240a-1f00-83ea-976e-bdee81d723d5" rel="nofollow noopener" target="_blank"&gt;https://chatgpt.com/share/69eb240a-1f00-83ea-976e-bdee81d723d5&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 24 Apr 2026 03:45:41 +0000</pubDate></item><item><title>Vibe coding 有什么意义？</title><link>https://www.v2ex.com/t/1208240</link><description>除了做 demo ，任何一个需要稳定性的系统都不应该使用 vibe coding 实现。全黑盒，完全不可控。&lt;br/&gt;之前的一家公司，PM 开始自己 vibe coding ，推到上线后结果完全不可维护，到最后还是研发来擦屁股。产品爽了，最后烂摊子研发全接走？
-&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;#1 sddyzm&lt;/strong&gt;：那就向 AI 的对齐&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#2 xitler&lt;/strong&gt;：没有让你全 vibe 啊，怎么可能就跟 ai 说一句“我要做个淘宝”，然后啥也不管刷刷刷等他给你做好。&lt;br/&gt;不会设计好架构，产品需求，接口规格，让 ai 帮忙写,写完 review 把控质量，小步集成吗？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#3 hafuhafu&lt;/strong&gt;：对于稳定或者极其重要的公司业务，全部 vibe coding 确实不太好，可以把一些手写没啥营养的部分让 AI 完成，自己掌握大局至少可控的。&lt;br/&gt;毕竟最终责任还是落实到人的，堆屎山某天堆到某天超出当前模型能力，短时间内没法解决了就尴尬了。&lt;br/&gt;总不能今天就要发版上线，你说：“等我的 agent 团队慢慢重试吧，会解决的”。&lt;br/&gt;不过自己的项目或者开发一些脚本小工具之类的，就没这些顾虑了，实在解决不了大不了等下一代模型出来再说，也不需要管维护性🤓。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#4 lg106&lt;/strong&gt;：我们也遇到这种情况，老板自己天天在那用 AI 写一些功能，然后让我们整合到现有系统上，他还不是程序员，主业是电商设计，连 UI 设计都没接触过，很心累&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#5 weixind&lt;/strong&gt;：这是使用 vibe coding 的人的问题，不是 vibe coding 的问题。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#6 JoeJoeJoe&lt;/strong&gt;：把他当银弹的话, 确实没什么意义, 但是当自己的助力或者帮手的话, 意义很大.&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#7 ccraohng&lt;/strong&gt;：AI 排泄链最后面的负责人最痛苦&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#8 iorilu&lt;/strong&gt;：做 demo 也是开发的一部分, 而且是非常重要的一部分&lt;br/&gt;&lt;br/&gt;这没什么可疑问的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#9 chuchen023&lt;/strong&gt;：@&lt;a href="/member/xitler"&gt;xitler&lt;/a&gt; 作为研发我肯定是想这样干的。但是奈何上边产品觉得自己有了 AI 所向披靡，完全不需要研发了，需求自己写。到最后自己解决不了了再扔给研发。这个烂摊子没人愿意接啊&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#10 wniming&lt;/strong&gt;：Vibe coding 适不适合开发大型项目我不知道，但在 X 上看到腾讯的一位内核大佬前两天发的推文讲了他是如何在内核开发中使用 AI 的，对我很有启发：&lt;br/&gt;&lt;br/&gt;&lt;a href="https://x.com/silsrc/status/2046808788808901108" rel="nofollow noopener" target="_blank"&gt;https://x.com/silsrc/status/2046808788808901108&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;这里把他的推文内容复制粘贴到这里，方便不想点开链接的 v 友查看：&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;越来越喜欢 LLM 辅助编程了，99% 代码还是我写，它负责 Review ，只要 LLM 能看懂就说明这代码写的足够清晰明了傻子都懂。并且也能验证和审核细节：每个函数注释都写明 Context 和要求，LLM 就可按照注释验证调用上下文，比 Build Bug 那种更灵活更好维护，减少了不少 Bug&lt;br/&gt;&lt;br/&gt;而且我感觉这才是正确用法🤔&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#11 beyondstars&lt;/strong&gt;：你要去设计架构，划定边界，拆分模块，总领全局，这些是 AI 做不了的，你可以每次只让 AI 改其中一个小的范围，这样改坏了只影响某个模块，而整个项目依靠模块与模块之间通信，所以问题也不大。&lt;br/&gt;&lt;br/&gt;要去想想 AI 可以做什么不可以做什么。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#12 murmur&lt;/strong&gt;：vibecoding 都干掉了初级程序员，逼得人均全栈，还没有意义啊&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#13 midsolo&lt;/strong&gt;：我司刚经历过这个阶段，产品 Vibe Coding 了一个 mvp 出来演示，PM 就敢往整个公司推，到了线上发现一堆坑，没法迭代维护了，他俩拍拍屁股走了，让研发来接烂摊子。&lt;br/&gt;&lt;br/&gt;现在又在吹 "AI + 低代码平台"，用自然语言，一句话即可搭建系统，无需编写任何代码......&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#14 midsolo&lt;/strong&gt;：@&lt;a href="/member/midsolo"&gt;midsolo&lt;/a&gt; Vibe Coding 用来解决实际问题是 OK 的，但要看是谁在用，该怎么用，如果落在神棍手里，那研发就有得罪受了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#15 mightybruce&lt;/strong&gt;：你活着有什么意义， 到现在还不会，等着被淘汰吧&lt;br/&gt;&lt;br/&gt;我告诉你一个事实，就像阿里，百度，以及某地图厂，已经是全员 vibe coding  90% 代码都是 AI, 并且要考核 ai 率。&lt;br/&gt;&lt;br/&gt;而且大厂就几个月前开始大规模强制 vibe coding 规范，要求更准确的 spec coding, 要求生成内容完全可控，&lt;br/&gt;&lt;br/&gt;反正你们自己决定多久被时代抛弃。&lt;br/&gt;&lt;br/&gt;90 年代到 2000 ， 那时候写汇编的人觉得自己是正统， 觉得 java 这种是玩具，后来 java 成为主流企业开发&lt;br/&gt;&lt;br/&gt;现在 spec coding 就是成为主流编程，不是随便写写的，几千字的小作文比你代码难度还高。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#16 Yumwey&lt;/strong&gt;：意义可大了，当你说出这个定义的时候，你就已经下车了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#17 teaguexiao&lt;/strong&gt;：意义在于它帮普通人绕过了不会写代码这道墙，让想法能快速验证。但工程师用它是降本提速，非技术人拿来做生产系统那就是甩锅工具了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#18 wangritian&lt;/strong&gt;：正经开发肯定是要设计好方案再一步步监管下让 ai coding 的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#19 songco&lt;/strong&gt;：没必要非黑即白&lt;br/&gt;&lt;br/&gt;工具是工具，怎么用还是看人，反正对我来说省了大量的时间，以前有很多想法没时间搞，现在终于可以慢慢搞起来了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#20 chuchen023&lt;/strong&gt;：@&lt;a href="/member/midsolo"&gt;midsolo&lt;/a&gt; 太对了，我正在经历这个过程。工具是好工具，但要这么用，还不如没有。回归能正确使用的人手里才是提效&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#21 sampeng&lt;/strong&gt;：意义？还停留在只能做 demo ？反思的应该是你自己吧…ai 现在代码质量吊打程序员。不是所有人都是大神的。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#22 x4gz&lt;/strong&gt;：不是人人都要做个大项目 &lt;br/&gt;做个小工具辅助自己的工作不行吗&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#23 xiaoyuanei668&lt;/strong&gt;：@&lt;a href="/member/lg106"&gt;lg106&lt;/a&gt; 这是老板太沙比了，外行指导内行，局座高见&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#24 HotieCutie&lt;/strong&gt;：我觉得 AI 是辅助，人还是必须要去参与，审核代码，测试结果&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#25 hefish&lt;/strong&gt;：人活着有什么意义？早晚要死的？还不如现在就不活了。。。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#26 aes114514gcm&lt;/strong&gt;：@&lt;a href="/member/HotieCutie"&gt;HotieCutie&lt;/a&gt; 有了珍妮机后英国纺织工人生存环境反而变差了，劳动强度更高。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#27 mikifuns&lt;/strong&gt;：Vibe Coding 对企业对程序猿有什么意义我不知道&lt;br/&gt;但是我知道对非程序猿意义太大了。我属于懂点代码但不会写代码（有问题我能有思路去怎么排查怎么解决方向，但是你让我看代码我基本上看得懂）&lt;br/&gt;我有想法，我有想实现的东西，以前我自己无法落地，我也没资格没能力去拉大佬帮忙写，我的想法十多年都没有落地&lt;br/&gt;现在有了 ai ，ai 就是我的团队，他们写帮我落地想法，我的想法用了一个月就成雏形，现在慢慢精雕细琢就好，这如果没有意义，那我不知道需要多大才算有意义，真的做到一句话从头到尾的开发然后把人类赶走吗 XD&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#28 Mandelo&lt;/strong&gt;：你同事写的代码就是白洞，完全可控了？自己菜不要怪工具&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#29 plp&lt;/strong&gt;：以前我也好奇 后来我经常观察 Vibe coding 的人群 &lt;br/&gt;发现大部分都是自己的玩具 简单小项目 非开发者人群 前端页面 设计&lt;br/&gt;真正用来大型商业项目的微乎其微&lt;br/&gt;而且这群人似乎更喜欢在互联网上分享？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#30 Rehtt&lt;/strong&gt;：@&lt;a href="/member/wniming"&gt;wniming&lt;/a&gt; 我也是喜欢用 ai review 代码，生成测试用例&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#31 diudiuu&lt;/strong&gt;：老板觉得牛逼就行&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#32 nullboy&lt;/strong&gt;：很 TM 真实了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#33 lyxxxh2&lt;/strong&gt;：你那个产品,缺架构设计 + 测试,乱七八糟也正常。&lt;br/&gt;我写文档,都会在脑子过一边代码逻辑。&lt;br/&gt;而产品,不可能写得出技术性的文档。&lt;br/&gt;比如:&lt;br/&gt;```&lt;br/&gt;需要增加一个所属物流单字段,物流列表不要直接显示这些子物流单,你需要创建一个模型关联,用 with 这些子物流"运单号"返回需要作为数组,这样:[{status:1,tracking_number:SF3296538855599,pickup_code:3412},...]&lt;br/&gt;```&lt;br/&gt;&lt;br/&gt;一个人全干,太费时间了。&lt;br/&gt;我现在差不多纯 vibe codeing 了,用团队会话。&lt;br/&gt;最重要的是测试,一堆的 case 都验证:"页面 + 接口 + 数据库",最后只有 1-2 个 bug 。&lt;br/&gt;我的测试 skill:&lt;br/&gt;&lt;a href="https://i.imgur.com/EYFYNR9.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/EYFYNR9.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#34 lizhian&lt;/strong&gt;：除了做 demo?gpt5.5 比包括你在内的九成程序员都屌.&lt;br/&gt;第二个,人写不一定可控,不然为什么在 AI 编程之前就有屎山代码的说法&lt;br/&gt;工程规范让人写代码变得可控,同样道理也可以让 AI 编程变得可控&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#35 babymonster&lt;/strong&gt;：GitHub 现有的仓库差不多有 6.3 亿多了，其中 40%左右都是 Vibe coding 出来的项目，真正用 Vibe coding 其实是人类要学会去驾驭 AI ，把一些简单的代码或者一些合适的框架；之前的 it 时代打的都是信息差：“我懂这个技术，你不懂那就是我厉害”，但是现在 AI 把门槛降低了很多，Vibe coding 可以把碎片化的时间整理起来，自己说了需求之后，让 AI 在后台跑就行了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#36 xiaomushen&lt;/strong&gt;：@&lt;a href="/member/xitler"&gt;xitler&lt;/a&gt; 很多 Claude 信徒表示，只要许愿就能做出来东西然后赚钱。我觉得很无语。。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#37 monosave&lt;/strong&gt;：尤雨溪的公司要出一个新产品 vibe coding 产物部署的，叫 void 和 cloudflare 合作的，整个平台 90% 都是 Vibe coding 出来的 https://void.cloud/ 现在还在测试&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#38 xudaewoo&lt;/strong&gt;：减少从想法到产品的难度&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#39 gefangshuai&lt;/strong&gt;：@&lt;a href="/member/chuchen023"&gt;chuchen023&lt;/a&gt; #9 这种人就是傻，以为自己收了勺子就是个厨师了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#40 redbeanzzZ&lt;/strong&gt;：你不能听营销号 vibe coding 自己用的时候就不 review 代码吧？这东西就是给你减少工作强度用的，无脑相信他最后出了问题当然得你自己负责&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#41 x86&lt;/strong&gt;：你可以坚持古法编程&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#42 onedge&lt;/strong&gt;：@&lt;a href="/member/hafuhafu"&gt;hafuhafu&lt;/a&gt; 这是现状也是当前模型能力上限的问题，也有关于模型底座算法本质原因（毕竟不是和人脑一样），目前唯一的增强办法是测试驱动开发，用例越多越好，加上大剂量的反复 review （局部），不知道有没有其他更好的办法，看模型继续发展吧&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#43 aowugong&lt;/strong&gt;：我领导就要 vibe coding 一个网店管家出来，我理解 AI 的设计都费劲又控制不住它还要被每天催进度。不反抗了拥抱 AI 一起拉坨大的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#44 charlie21&lt;/strong&gt;：生产系统用的 vibe coding 和 单人 非程序员写 toy app 用的 vibe coding 不是一回事 &lt;br/&gt;虽然都叫作 vibe coding&lt;br/&gt;营销嘛 帅气就完事了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#45 huBane&lt;/strong&gt;：Review 是真的有用，参考 ai 改的自己写代码水平都提升了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#46 kalarita&lt;/strong&gt;：设计好架构, 明确模块边界, 确定各个模块都是做什么功能的, vibe 之后补全测试用例, 最后自己 review 一遍代码,我觉得现在这个模式提升效率很大&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#47 fredweili&lt;/strong&gt;：非黑即白，没正经做过事的幼稚，就算“稳定性的系统”，不需要支持系统么，测试，文档，简单的 CRUD ，这些 AI 简简单单就办了，我可以把精力花在需要分析思考各方协调的问题上&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#48 john46&lt;/strong&gt;：对外的复杂业务的项目肯定不行，但是工具性平台功能型的对内用绝对可以啊，比如 jekins 太难用自己写一个部署平台、各种协同平台、dms 要商业化收费，自己 ai 写一个，一周迭代基本就很完整了，这不是节省成本么。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#49 jadeborner&lt;/strong&gt;：别人写的代码让你维护不也这样想吗&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#50 kloudmuka&lt;/strong&gt;：OP 应该是看到自己的饭碗被非程序员抢走之后开始急眼了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#51 yaidev&lt;/strong&gt;：做好顶层规划设计与实现中的阶段性 Review ，Vibe Coding 不比你写的代码差。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#52 roychaos&lt;/strong&gt;：像我们的小公司，把需求完成就行了，质量不要太差就行&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#53 haha1903&lt;/strong&gt;：这恰好是你争权夺利的好时候&lt;br/&gt;你要向老板证明，是他不行，而不是 AI 不行&lt;br/&gt;然后把权利要过来，让他听话&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#54 phatzhong24&lt;/strong&gt;：可以让你早点下班&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#55 HeyWeGo&lt;/strong&gt;：自己写给自己的好处是往往操作流程可预测的，写给用户的往往不可预测用户行为，就很容易弄出各种小 bug&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#56 archxm&lt;/strong&gt;：@&lt;a href="/member/x86"&gt;x86&lt;/a&gt; 为啥这么二元论呢？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#57 yufeng0681&lt;/strong&gt;：@&lt;a href="/member/mikifuns"&gt;mikifuns&lt;/a&gt; #27 都对，不冲突。 你做的就你用，有缺陷也能接受，也有时间去修复，一人闭环。  贴主说的是工程方面，公司的项目，角色不同，还要他们来兜底的场景，就不能轻松写意的用 ai 编程了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#58 darkengine&lt;/strong&gt;：vibe coding 的过程是黑盒，产物可不是黑盒，至于你能不能看懂，那就不是 vibe coding 的问题了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#59 nuII&lt;/strong&gt;：意义就是替代人工，就这么简单。如果上线出问题，只能研发来擦屁股，那么问题在老板，没有 AI ，虽然会导致不同的问题，但是最终的结果是一样的，让这个问题出现和没能落实责任承担制度的人并没有变化。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#60 jasperchou33&lt;/strong&gt;：vibe coding 要一块块来。就很爽。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#61 mansunyunxin&lt;/strong&gt;：PM 自己 vibe coding 让研发擦屁股，这个问题本质不是工具问题，是「信息不对称下的权力错位」。&lt;br/&gt;&lt;br/&gt;PM 看到的是：AI 输出一个能跑的东西，UI 有了，功能有了，看起来能用。&lt;br/&gt;研发看到的是：没有架构、边界模糊、无法测试、维护成本高到离谱。&lt;br/&gt;&lt;br/&gt;AI 把「能跑」和「正确」之间的鸿沟填平了，但这个鸿沟本来就存在。真正的问题不是 PM 用 AI ，而是 PM 没有足够的上下文去理解「能跑」背后意味着什么。&lt;br/&gt;&lt;br/&gt;解决方式不是禁用 vibe coding ，是让决策者看到完整的因果链——不只是 AI 能做什么，而是改了之后会影响到谁。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#62 gpt5&lt;/strong&gt;：是的，手写汇编，匠人 coding ，才是人间正道。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#63 oisadfo&lt;/strong&gt;：@&lt;a href="/member/gpt5"&gt;gpt5&lt;/a&gt; 那你怎么不去手写汇编？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#64 ivvei&lt;/strong&gt;：怎么就黑盒了，vibe coding 是没给你代码吗？有代码就不能叫黑盒。&lt;br/&gt;&lt;br/&gt;但是 AI 也是众多工具中的一种，不能以为谁拿了 AI 都能 vibe 出同样水平同样质量的东西来。怎么 vibe 好也是有讲究的。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#65 lambdaX999&lt;/strong&gt;：意义就是我前年有个好的想法，当时还要后端，前端帮我搞，现在我自己就能开始搞了，很多之前开发要搞一个礼拜，两个礼拜的东西，AI 可能 2 小时就搞定了，感觉真的时代变了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#66 udisyue&lt;/strong&gt;：你这主楼说的其实是两个事情。pm vibe coding 搞烂摊子，并不是 vibe coding 不能用，而是不能当神仙一样用&lt;br/&gt;咱换个角度，pm 跟程序员 vibecoding ，那程序员写出来的也一定是屎对吧。因为 vibe coding 和不会分析需求的程序员，在这个场景下没有区别。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#67 v2exgo&lt;/strong&gt;：推到上线后结果完全不可维护，到最后还是研发来擦屁股。&lt;br/&gt;&lt;br/&gt;笑死人，好像没有 AI 似的时候，你的同事写的代码就能维护似的，AI 用 spec 开发的话，说实话可以吊打很多垃圾同事，有的时候，人拉的翔还真的没有 AI 拉的翔 香&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 24 Apr 2026 03:28:38 +0000</pubDate></item><item><title>你每天用的最多的 app 是啥？</title><link>https://www.v2ex.com/t/1208192</link><description>我的前三名：微信、微博、小红书
-&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;#1 CoderGeek&lt;/strong&gt;：wx dy tg&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#2 winnerczwx&lt;/strong&gt;：vs code&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#3 error&lt;/strong&gt;：同花顺&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#4 LoNeZ&lt;/strong&gt;：gemini&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#5 HeyWeGo&lt;/strong&gt;：gemini&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#6 leimu012&lt;/strong&gt;：微信，抖音，番茄&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#7 InDom&lt;/strong&gt;：Chrome&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#8 manwei6341&lt;/strong&gt;：codex&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#9 PoorBe&lt;/strong&gt;：抖音，小黑盒，微信&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#10 jackOff&lt;/strong&gt;：小红书，知乎，抖音&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#11 eventlooped&lt;/strong&gt;：codex &amp;amp; gpt &amp;amp; 微信 &amp;amp; 小红书&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#12 sevenyangcc&lt;/strong&gt;：微信、浏览器、金铲铲、知乎&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#13 sddyzm&lt;/strong&gt;：x 、tg 、gpt&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#14 naver1&lt;/strong&gt;：番茄小说、阅读 app&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#15 assad&lt;/strong&gt;：抖音&lt;br/&gt;微信&lt;br/&gt;京东&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#16 zachary99&lt;/strong&gt;：浏览器，抖音，游戏&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#17 runtime0&lt;/strong&gt;：cursor+Codex&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#18 liunian2333&lt;/strong&gt;：bilibili 、番茄、微信&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#19 AlvaMu&lt;/strong&gt;：bilibili,xhs,wx,极简阅读,smzdm&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#20 geniushui&lt;/strong&gt;：微信/抖音/微博/多邻国/钉钉/京东/印象笔记/招商证券&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#21 HotieCutie&lt;/strong&gt;：按优先级：今日头条，影视站，豆瓣，yt, ins, 特殊网站，微博&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#22 laydown&lt;/strong&gt;：Telegram ，醒着几乎就一直面对它。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#23 loading&lt;/strong&gt;：浏览器&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#24 dsg001&lt;/strong&gt;：anki&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#25 azwcl&lt;/strong&gt;：国泰君安交易 app&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#26 Funian&lt;/strong&gt;：微信、抖音、微信读书&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#27 wenrouxiaozhu&lt;/strong&gt;：@&lt;a href="/member/geniushui"&gt;geniushui&lt;/a&gt; #20 怎么不用同花顺，招商不支持🐴？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#28 ffeennggg&lt;/strong&gt;：小红书、微信&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#29 ruuu&lt;/strong&gt;：糖心 vlog&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#30 baba5&lt;/strong&gt;：小丑牌🤡&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#31 ko20&lt;/strong&gt;：微信，小红书/B 站，东方财富&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#32 midsolo&lt;/strong&gt;：微信、抖音、多领国&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#33 0x0x&lt;/strong&gt;：wx x 浏览器&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#34 635925926&lt;/strong&gt;：抖个机灵：手机上的 Launcher‌也是一个 app&lt;a href="https://i.imgur.com/agAJ0Rd.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/agAJ0Rd.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#35 iBobbySun&lt;/strong&gt;：chatgpt codex&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#36 getadoggie&lt;/strong&gt;：bilibili 、支付宝、淘宝（天天都要想着花掉那个 2 块红包…😓）、joplin&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#37 suofeiya&lt;/strong&gt;：Bilibili, Youtube, Tik Tok, Genshin Impact&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#38 MiKing233&lt;/strong&gt;：@&lt;a href="/member/getadoggie"&gt;getadoggie&lt;/a&gt; 扯个题外话, 每天那个 2 块钱都用来买些啥好&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#39 Grocker&lt;/strong&gt;：雪球 b 站&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#40 evilHa&lt;/strong&gt;：@&lt;a href="/member/error"&gt;error&lt;/a&gt; &lt;br/&gt;顺不顺&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#41 DDDZZZFFF&lt;/strong&gt;：同花顺+1&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#42 Miaosful&lt;/strong&gt;：微信 微博 b 站 小红书 贴吧&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#43 Dewchame&lt;/strong&gt;：@&lt;a href="/member/MiKing233"&gt;MiKing233&lt;/a&gt; 可以买一些手帕纸、抽纸、抽纸，可以搜聪妈，里面很多百货&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#44 error&lt;/strong&gt;：@&lt;a href="/member/evilHa"&gt;evilHa&lt;/a&gt; #40 这两月不太顺&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#45 zerovoid&lt;/strong&gt;：左手豆包右手 B 站，豆包排队就去刷 B 站，刷完 B 站再指导豆包继续干活。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#46 littiefish&lt;/strong&gt;：NGA ，小草，煎蛋&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#47 zgsi&lt;/strong&gt;：微信 微博 东方财富&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#48 ycao24813&lt;/strong&gt;：b 站 推特&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#49 Vaspike&lt;/strong&gt;：手机: b 站,微信&lt;br/&gt;笔记本: 反重力,Arc&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#50 xxxxxxxxx95&lt;/strong&gt;：blued&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#51 walkbox&lt;/strong&gt;：微信 qq taobao 支付宝吧&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#52 SayHelloHi&lt;/strong&gt;：今日头条&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#53 cutecore&lt;/strong&gt;：vscode &lt;br/&gt;浏览器 ithome/v2ex/nga&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#54 WAHSUN&lt;/strong&gt;：Threads&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#55 fredweili&lt;/strong&gt;：只能是微信，别的随机看需要&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#56 DDCHINA&lt;/strong&gt;：哔哩哔哩 微信 抖音 YouTube QQ 音乐 TG&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#57 crab&lt;/strong&gt;：微博&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#58 ahaxzh&lt;/strong&gt;：&lt;a href="https://i.imgur.com/Dg9v7DW.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/Dg9v7DW.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#59 xiawudexue123&lt;/strong&gt;：WX BILIBILI X IBKR&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#60 iwasthere&lt;/strong&gt;：tradingvie&lt;br/&gt;mt5&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#61 Kazetachinu&lt;/strong&gt;：X ，有个叼毛在上面分享短线的投资，我跟着买，还行。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#62 ysn2233&lt;/strong&gt;：微信 公司 IM 同花顺&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#63 kennnnnnnnnnn&lt;/strong&gt;：微信和 bilibili&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#64 diligency&lt;/strong&gt;：此叼毛的 X 能公布否，吾等前去参观？&lt;br/&gt;@&lt;a href="/member/Kazetachinu"&gt;Kazetachinu&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#65 Kazetachinu&lt;/strong&gt;：@&lt;a href="/member/diligency"&gt;diligency&lt;/a&gt; #64 别了，等下亏了找我麻烦。&lt;a href="https://i.imgur.com/Iy0taMy.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/Iy0taMy.png"/&gt;&lt;/a&gt;X 推上面很多，你看着跟。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#66 liudewa&lt;/strong&gt;：小红书 比 B 站 受众啊 问下大家 除了攻略去小红书 看啥&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#67 sean250031&lt;/strong&gt;：崩坏星穹铁道，最近货币战争更新了又在肝了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#68 SGA&lt;/strong&gt;：@&lt;a href="/member/azwcl"&gt;azwcl&lt;/a&gt; 人家现在叫国泰海通了 &lt;a href="https://i.imgur.com/agAJ0Rd.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/agAJ0Rd.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#69 prosgtsr&lt;/strong&gt;：x&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#70 Donne&lt;/strong&gt;：抖音 微信 东方财富 Goland&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#71 NewYear&lt;/strong&gt;：当然是 V2EX&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#72 yangsenyue350&lt;/strong&gt;：前三 抖音 微信 虎扑&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#73 zhhqiang&lt;/strong&gt;：bilibili 微信 拼多多&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#74 soar0712&lt;/strong&gt;：Xiux 记录支出的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#75 lovewendy&lt;/strong&gt;：symfonium 、手游 lol&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#76 991547436&lt;/strong&gt;：哔卡&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#77 jerry10086&lt;/strong&gt;：idea&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#78 Dogergo&lt;/strong&gt;：招商银行-黄金&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#79 getadoggie&lt;/strong&gt;：@&lt;a href="/member/MiKing233"&gt;MiKing233&lt;/a&gt; 可以买纸巾 垃圾袋 山楂 等一些泡水的东西&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#80 Me1iodas&lt;/strong&gt;：TG&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#81 Cheons&lt;/strong&gt;：手机浏览器&lt;br/&gt;微博/小红书/V2/pdd/gemini/YouTube/gamil&lt;br/&gt;全都是用 web&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#82 Bootis&lt;/strong&gt;：同花顺，tradingview ，codex ，chatgpt&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#83 sslyxhz&lt;/strong&gt;：手机上是微信读书&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#84 Sawyerhou&lt;/strong&gt;：看了眼 app 耗电排行榜，同花顺 遥遥领先 :p&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#85 zhiyu1998&lt;/strong&gt;：直接上图了，&lt;br/&gt;&lt;br/&gt; &lt;a href="https://i.imgur.com/xjGdQpR.jpeg" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/xjGdQpR.jpeg"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#86 ivvei&lt;/strong&gt;：小红书&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#87 MiniLED&lt;/strong&gt;：BOSS 直聘、前程无忧&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#88 foxkiller&lt;/strong&gt;：Claude&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#89 byby&lt;/strong&gt;：x,minis,senplayer,tg&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 24 Apr 2026 02:14:50 +0000</pubDate></item><item><title>外甥女马上初中毕业，学习不好，该选择什么样的出路，求大家给点建议</title><link>https://www.v2ex.com/t/1208188</link><description>&lt;p&gt;中部省份四线城市，身高 150cm 的女生，马上要初中毕业，学习不好，是出去打工，还是读技校，读技校读什么专业呢？
-助产师和电商方向是我比较倾向的。
-各位 v 友觉得呢。&lt;/p&gt;
-&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;#1 MidLinn&lt;/strong&gt;：以我浅显的社会认知，推荐护理专业。而且看她要不要学还是说主要想找个地方待几年不要那么早出社会。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#2 NoobNoob030&lt;/strong&gt;：不要对技校抱有读了什么专业就能从事什么行业的印象，能学到的东西基本上是扫盲水平，把技校理解成大龄托儿所更适合。&lt;br/&gt;&lt;br/&gt;一群学习不好的人聚在一起，最要紧的不是让她继续学些什么或者谋求出路，而是不要去学坏，被身边的同学影响三观&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#3 blirun&lt;/strong&gt;：还是读个普高吧，以后初中毕业，服务员都不要&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#4 liudih&lt;/strong&gt;：宠物专业， 以后大龄独居老人多， 宠物行业有发展&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#5 liu731&lt;/strong&gt;：人好看就美甲、美容&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#6 liudih&lt;/strong&gt;：助产师？现在年轻人都不结婚生孩子，以后哪有那么多孩子&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#7 fregie&lt;/strong&gt;：学厨师，AI 尝不到味道，替代不了厨师&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#8 zachary99&lt;/strong&gt;：@&lt;a href="/member/fregie"&gt;fregie&lt;/a&gt; 预制菜比 ai 还猛，厨师早几年就不行了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#9 EmptyDX&lt;/strong&gt;：@&lt;a href="/member/blirun"&gt;blirun&lt;/a&gt; 注意审题，学习不好怎么上高中&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#10 LabJo&lt;/strong&gt;：不管怎么样都要念个普高啊，职高技校是是什么垃圾回收站大家心里没点数吗？如果实在上不了普高，卫校护士吧，至少不愁工作。直接打工肯定是不可以的，太小了，家长放心的下吗？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#11 hammy&lt;/strong&gt;：技校不是教育序列，强烈不推荐读。 中专和职高至少是教育序列。&lt;br/&gt;2024 年后，护理是国控专业，需要读大专考护资才能上岗了。而且有的医院要求高中高考上大专的，不愿意要中专升大专的。 &lt;br/&gt;&lt;br/&gt;ref：&lt;br/&gt;护理学调整为“国控专业”释放什么信号&lt;br/&gt;&lt;a href="https://gaokao.chsi.com.cn/gkxx/zybk/202403/20240329/2293278422.html" rel="nofollow noopener" target="_blank"&gt;https://gaokao.chsi.com.cn/gkxx/zybk/202403/20240329/2293278422.html&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#12 hammy&lt;/strong&gt;：一般把 技校、职高、中专俗称为三校。但是三校里的技校不是教育序列，属于人社部门的，不算教育系统的学校，不归教育局管。&lt;br/&gt;职高和中专是教育系统的学校，属于教育序列。归教育局管理，属于中等教育。 &lt;br/&gt;这个差距在大部分省非常大，所以强烈不推荐读技校。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#13 dna1982&lt;/strong&gt;：学健身化妆，当女主播，最后 OnlyFans 保底。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#14 cjun&lt;/strong&gt;：家长也是想让上普高的，但是她可能考不上普高&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#15 wegbjwjm&lt;/strong&gt;：南山区埋伏一个程序员&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#16 EthanV2&lt;/strong&gt;：我是职校_计算机专业出身，其实职校和中专也差别，但是很多地方下两者差别不大，有一些地方中专不能对口升学（就是考本科）但是目前很多地方中专都有对口升学了，语数外+专业 = 对口升学考试（可以考本科），具体根据你地点和离得近的职校/中专搜索就好。女生排查音乐/园艺类，不好就业，其实主要看你妹子不讨厌啥，如果可以，殡仪也是可以的，这个在长沙之前是很火的，可以上殡仪大专或者本科。如果选择的话可以在职高确定方向后，大专也是类似专业，这样也算 6 年学一个专业，基本上就业比较好。职高没有那么多厕所生娃，纹身的，打架斗殴的。当然 每地方都有小众的圈子，所以具体还得看人，不过我只说我自己情况，我当时的职高免续费，只有一年几百块的餐费和 300 多的书本费。算是很便宜了，满 16 岁，可以选择打暑假工（叫顶岗实习）实际上就是打螺丝，这个和中介没差，具体看学校会吃多少，一般只吃你返费，工时不吃。，中专和职高算是没地方去的可选择之一，也算是增加社会稳定性。&lt;br/&gt;&lt;br/&gt;计算机类：会学习学习平面设计、视频剪辑，office 三件套，c 语言，可以为大专软件技术或者本科软件工程做基础，但是学的很累，我们班有一半的女生，上大专或者本科后能从事这个行业的寥寥无几。&lt;br/&gt;&lt;br/&gt;现代商业与服务类：电子商务和物流管理，这一块大部分走的都是酒店前台类，但是大部分进的是服务行业，中国的服务行业很累，而且需要相貌较好，不然前台都很难干，名字叫电子商务，基本上门是做运营，营销，美工，但是也很熬人。不过互联网相比其他行业要钱多一些。&lt;br/&gt;&lt;br/&gt;服装与服饰设计：这个也是我当年女生热火的，堪比计算机了，很适合小巧女生。&lt;br/&gt;&lt;br/&gt; 学前教育/幼儿教育/小学教育：这个我姐本科学的是这个，但是不太推荐，工资很低，而且很熬人，因为带孩子&lt;br/&gt;&lt;br/&gt;护理：护理其实也可以，但是很多护士对身高其实也要求的，还是不推荐。&lt;br/&gt;&lt;br/&gt;殡仪：殡仪算是在长沙很火热了，有一个大专主流专业就是这个，基本上毕业薪资稳定 4000 以上具体可以看各大殡仪馆，如果能进体制内（是否有编制我不清楚）那基本上算是比其他的都要好些。&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;尽量上大专/职业本科，考不上也得单招去学习，如果什么都不想学，那什么专业也没办法。而且实话就是如果学的不够多，很多时候毕业后也不会从事本专业。所以在哪里，学习是避免不了的。尽量学习一个感兴趣的专业。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#17 NO9527&lt;/strong&gt;：裁缝，以后好歹还有个网店卖自己设计衣服的希望，当个小老板&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#18 cjun&lt;/strong&gt;：感谢大家的建议，那就是去读中专了，以各位 v 友丰富的社会经验，专业选择哪方面，往哪个方向学好一点呢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#19 cjun&lt;/strong&gt;：@&lt;a href="/member/wegbjwjm"&gt;wegbjwjm&lt;/a&gt; 哈哈，我也想过这条路，但是程序员以后也不好就业。哪些地方是男孩子多，赚钱又多的，让她往那周边去就业，以后嫁个好老公也不错&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#20 hammy&lt;/strong&gt;：@&lt;a href="/member/EthanV2"&gt;EthanV2&lt;/a&gt; 是的。而且职高、中专很多会被老师劝去参加春考、单招。其实职高中专甚至技校也可以参加夏考，就算没有职教高考也可以正常以社会生身份参加夏考。只是三校生几乎很难在夏考中通过本科线，所以实际来看确实不如单招或者春考，职教高考来的方便。&lt;br/&gt;以及现在 3+4 中本贯通开始抢手了。昨天我们这刚公布了中本贯通的简章，对口的是省内的公办本，一个文科一个工科。文科这个有点鸡肋，但是对口的工科院校专业中本贯通几乎是个捷径了。 知道的家长并不多，以前很多人也看不上。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#21 hammy&lt;/strong&gt;：@&lt;a href="/member/cjun"&gt;cjun&lt;/a&gt; 就这么草率的决定， 卫冕太着急了。 &lt;br/&gt;举个例子，央美、央音之类的艺术类院校的附属中学很多都是个中专，因为中等专业学校通常可以跨区...而很多地区的高中不允许跨区（县、市）。这块 op 了解了吗。&lt;br/&gt;普高、职高、中专招生也是有简章的，简章读了吗？&lt;br/&gt;人生大事不能问网友，最多当个多面信息源。 这是程序员论坛，不是升学论坛，大部分都是素人。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#22 EthanV2&lt;/strong&gt;：中专需要确定，能不能对口升学，不推荐参加 3+2 ，就是三年中专+两年大专也，如果是南京，可以推荐 3+4 ，三年中专+4 年二本本科，但是专业一般较差，但是有一个全日制统招本科学历，去其他地方就业补贴都能多一些，所以还得看你妹子选择专业，然后你查查你当地的政策，你确定主方向，她确定专业&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#23 aitianci&lt;/strong&gt;：@&lt;a href="/member/EmptyDX"&gt;EmptyDX&lt;/a&gt; #9 花钱呗，我这边有个精英高中，学费一年四万，真的能起到严格管理的作用&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#24 KingW777&lt;/strong&gt;：烘焙、护理，都很适合女孩子&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#25 hailaz&lt;/strong&gt;：@&lt;a href="/member/liudih"&gt;liudih&lt;/a&gt; #4 我感觉机器人发展那么快，电子宠物更好普及&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#26 jackOff&lt;/strong&gt;：护理吧，新生儿的产业链全崩了，老人经济暂时还行&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#27 hammy&lt;/strong&gt;：ref：&lt;br/&gt;《深圳职业技术大学 2025 年夏季高考分专业招生计划（专科，广东省内）》&lt;br/&gt;&lt;a href="https://zhaosheng.szpu.edu.cn/info/1015/3139.htm" rel="nofollow noopener" target="_blank"&gt;https://zhaosheng.szpu.edu.cn/info/1015/3139.htm&lt;/a&gt;&lt;br/&gt;‘男生身高&amp;lt;168cm 、女生身高&amp;lt;158cm 的考生慎重报考"护理"、城市轨道交通运营管理专业。身体残疾或身高&amp;lt;158cm 的女生及男生慎重报考"助产"专业。男生身高&amp;lt;160cm 、女生身高&amp;lt;150cm 的考生慎重报考"康复治疗技术"专业。’&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#28 blirun&lt;/strong&gt;：@&lt;a href="/member/cjun"&gt;cjun&lt;/a&gt; 去更下，更偏的地方上普高，只是出来三观正的概率大些。或者找个什么亲戚学点什么技术，直接去学，职高都是扯淡的。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#29 dragon12858&lt;/strong&gt;：尽量读高中，如果公办普高上不了，可以考虑公办职高这些，年龄太小了，过早进入社会有可能会被带偏&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#30 hammy&lt;/strong&gt;：1 、2024 年之后护理学、助产学是国控专业&lt;br/&gt;2 、身高到 160cm 再考虑当护士&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#31 fenddddddda&lt;/strong&gt;：如果家里没其他资源， 三件套 ， 理发/修车/厨师 选一个  。。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#32 bu9&lt;/strong&gt;：15 呀 放家里养着做自媒体 一台电脑自己学。把高中课本买一套放边上 想学来得及。告诉她用 ai 问问题。规定作息时间，休息日。 养 5 年 啥都不成，放出去找工作 安排嫁人。不要去什么技校卫校没用属于家长没责任心。现在 ai 都能教，不影响高考。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#33 huihushijie1996&lt;/strong&gt;：你不会不知道本科毕业的都很难找工作吧 竟然想让初中毕业就出去打工了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#34 madantech&lt;/strong&gt;：不如让它父母多赚点钱，给她留个 1 千万&lt;br/&gt;&lt;br/&gt;她学习好不好，读不读书，都无所谓了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#35 JettWu&lt;/strong&gt;：很奇怪，外甥女你插得上嘴吗？你能决定她未来的走向？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#36 longzhou6431&lt;/strong&gt;：最好的建议是不要给出建议&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#37 HotieCutie&lt;/strong&gt;：女孩子就不要去管了，只要不走歪路，过几年嫁个好老公就行。男的就要努力一辈子&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#38 leegradyllljjjj&lt;/strong&gt;：搞 ai 大模型吧，到时候自己不行也不会怪你&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#39 xixiv5&lt;/strong&gt;：可以 3+2 走大专路线&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#40 wangxinpier&lt;/strong&gt;：女孩自己就一点想法没有？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#41 cjun&lt;/strong&gt;：@&lt;a href="/member/EthanV2"&gt;EthanV2&lt;/a&gt; 感谢，我消化消化&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#42 cjun&lt;/strong&gt;：@&lt;a href="/member/hammy"&gt;hammy&lt;/a&gt; 🙏🏻感谢，很多名词不熟悉，我先学习一下&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#43 cjun&lt;/strong&gt;：@&lt;a href="/member/hammy"&gt;hammy&lt;/a&gt; 感谢，还要去了解的，咨询大家多一个获取途径，感谢 v 友的建议&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#44 cjun&lt;/strong&gt;：@&lt;a href="/member/JettWu"&gt;JettWu&lt;/a&gt; 给家人一点点建议，也是希望小孩子有一个更好一点的方向。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#45 Cheons&lt;/strong&gt;：技校 pass&lt;br/&gt;&lt;br/&gt;你们市现在或者原本的职业技术学院，3+2 财务 or 护理。中专、大专一贯五年制。&lt;br/&gt;理论上毕业前还继续专升本拿全日制本科，再继续考研。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#46 zhroyce&lt;/strong&gt;：@&lt;a href="/member/fregie"&gt;fregie&lt;/a&gt; 好像很有道理&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#47 Cheons&lt;/strong&gt;：@&lt;a href="/member/fregie"&gt;fregie&lt;/a&gt; &lt;br/&gt;@&lt;a href="/member/zhroyce"&gt;zhroyce&lt;/a&gt; &lt;br/&gt;以后标准化预制，和摇奶茶一样。&lt;br/&gt;除了食品厂家研发岗位，不需要专业学习。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#48 jsntit&lt;/strong&gt;：@&lt;a href="/member/hammy"&gt;hammy&lt;/a&gt; 现在中专的护理应该是进不了医院&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#49 zhouhuab&lt;/strong&gt;：个子这么小，我女儿初中 163.&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#50 Kriss&lt;/strong&gt;：3+2 出来当护士 这个薪资不错&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#51 peteretep&lt;/strong&gt;：看她人品怎么样&lt;br/&gt;不过我建议你别管。&lt;br/&gt;&lt;br/&gt;要管的话，就是让她自己选&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#52 Shaar&lt;/strong&gt;：3+2 吧，我觉得最少也要读到大专毕业，在大专之后人也比较成熟点，&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#53 ODESZA&lt;/strong&gt;：跟我堂弟一样，学习很差劲，中考总分 750 ，他只能考 200 分，我给他的路径可以参考下：目前还能走的通&lt;br/&gt;&lt;br/&gt;去读五年一贯制职高（为啥要读五年的，因为中间不用考试升学或者考试非常简单，校内自己出题，就可以获得类似大专同等学力），&lt;br/&gt;前三年读完后，就可以达到参军入伍资格了（陕西是这样的，其他省份不知道），直接从学校去参军入伍；&lt;br/&gt;参军入伍回来后，部分专业可以免试专升本，这样可以拿到本科学历。&lt;br/&gt;&lt;br/&gt;这里面最关键的是，这个 150 的身高 估计参军入伍比较困难&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#54 xiongzili99&lt;/strong&gt;：学习不好，那就把学习搞好&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#55 milala&lt;/strong&gt;：先领去商 K 点几个少爷 去去男魅&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#56 Miaosful&lt;/strong&gt;：劝你少管，不然后面还要怪你&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#57 raycake&lt;/strong&gt;：殡葬、老年人护理、专业营养师&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#58 JettWu&lt;/strong&gt;：@&lt;a href="/member/cjun"&gt;cjun&lt;/a&gt; #44 那要是你给她提了建议，她后面听了的栽了大跟头。会不会埋怨你呢 &lt;a href="https://i.imgur.com/ee8Lq7H.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/ee8Lq7H.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#59 wxy8866&lt;/strong&gt;：KTV 一年百万打底&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#60 fregie&lt;/strong&gt;：@&lt;a href="/member/Cheons"&gt;Cheons&lt;/a&gt; 现在就已经标准化预制了。但是我愿意吃街边小炒店新鲜现炒的，不愿意吃便利店预制的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#61 LUOMUXIE&lt;/strong&gt;：这几年要上高中的真是运气不好， 现在已经在试点探索实施高中义务教育了，一个政策就能简单地影响很多人的命运&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#62 cassiaesemen&lt;/strong&gt;：亲戚家孩子是职高-大专，最后取得公办大专，现在的环境不要对就业有太高预期，先三观正常。给建议让它自己选，把选择权给她自己。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#63 ha0zi&lt;/strong&gt;：@&lt;a href="/member/cjun"&gt;cjun&lt;/a&gt; 虽然劝人学医, 天打雷劈; 还是要问问, 你们整个家族范围, 在医疗系统有关系吗? 有的话, 可以考虑, 至少是一个不错的出路(非护理, 卷上天了). 考虑医技, 我知道的信息有限, 医疗行业整个大的范围技术更新还是比较迟滞的.&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#64 ha0zi&lt;/strong&gt;：#63 接上面, 如果医疗系统没有关系, 嗯; 读不进去书, 看看其他行业吧&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#65 Chicagoake&lt;/strong&gt;：有钱选民办，读几年再上个正经大学。接触社会至少要有一定的年纪，不然容易走歪。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#66 SayHelloHi&lt;/strong&gt;：颜值如何？&lt;br/&gt;&lt;br/&gt;颜值高 真没啥担忧的 顺其自然&lt;br/&gt;&lt;br/&gt;颜值低 学个技能傍身吧&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#67 cutecore&lt;/strong&gt;：口腔 牙科？感觉就算打个下手 感觉收入也不错&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#68 Kazetachinu&lt;/strong&gt;：&lt;a href="https://i.imgur.com/xr1UOz1.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/xr1UOz1.png"/&gt;&lt;/a&gt;学习使人进步，我今天才知道我学习的专业是国控专业。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#69 HaibaraDP&lt;/strong&gt;：这种情况身边了解到的，感觉留学比较好&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#70 usauk1998&lt;/strong&gt;：就学投资炒股&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#71 zw2019&lt;/strong&gt;：还是建议要继续读书比较好  &lt;br/&gt;学不学得到东西不重要 流程走过了 感觉都不一样&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#72 forbreak&lt;/strong&gt;：我侄子，当初我是建议走 3+2. 这样出来至少是个全日制大专学历。 如果自己努努力 还有可能来个专升本，变成本科。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#73 Mandelo&lt;/strong&gt;：@&lt;a href="/member/LabJo"&gt;LabJo&lt;/a&gt; 时代早变了，一堆大学学护理的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#74 forbreak&lt;/strong&gt;：忘记说了，我侄子现在大专第一年。 相当于第一个目标实现了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#75 qiaorenzhi&lt;/strong&gt;：建议还是走计算机相关专业，3 年中专，要是 3 年内能努力点可以再上 2 年大专，大专要是能再再努力点就再上 2 年专升本。&lt;br/&gt;这样的路线基本不用看学习成绩，经济负担也不重，基本保底能混个大专文凭（大专也是大学），能混上专升本就更好。&lt;br/&gt;比同龄人也就是多花 1 ～ 2 年的时间，只不过就不要指望能上牌子大学了...普通本科以下纯粹就是混个学历，现在大学都学不到东西的，不如上大专后在校报个技能培训班，出来比那些混日子的学生有优势就行了。&lt;br/&gt;&lt;br/&gt;最差情况如果中专混不上大专，就把中专当托儿所了，那么成年了也能放心点放出去社会。&lt;br/&gt;&lt;br/&gt;普通家庭女孩子，建议一定要混个大学，找对象也好得多。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#76 Gavin999&lt;/strong&gt;：尊重他人命运，外甥女你左右不了的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#77 Allvirus&lt;/strong&gt;：建议去 ktv 当促销员包赚&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#78 yufeng0681&lt;/strong&gt;：我觉得 现代人重视健康了，现在开始小毛小病也想着去做修复了，疼痛也忍受不了了， 当然，可能是久坐，不恰当运动都会带来身体的疼痛感。  &lt;br/&gt;可以考虑 学习 康复技术 ，  拿到证书（康复医学治疗技术，保健按摩师，健康管理师），可以进社区医院，或者是小诊所， 通过自己水平招揽客户。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#79 Mandy0&lt;/strong&gt;：如果去中职的话，养老护理相关方向可以考虑，以现在的出生率不建议助产师，电商的话要结合当地产业看看，不管选什么专业尽可能的结合当地产业看看&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#80 Tiger1994&lt;/strong&gt;：助产师肯定是不考虑的，你可以了解一下你们城市的出生率，在我大湾区的城市里很多二甲医院都已经取消产科了。&lt;br/&gt;电商可以，但卷，累。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#81 doudou1523102&lt;/strong&gt;：学习一个手艺很重要&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#82 revoirzl&lt;/strong&gt;：教育行业相关&lt;br/&gt;1.最优专业选择是护理，全球吃香，次选是康复，最后是殡仪，宠物医疗技术‌。&lt;br/&gt;2.公办大专五年制（ 3+2 ）（五专生）是最优选，次优选是高中-公办大专 3+3 全日制。&lt;br/&gt;3.学好英语！欧洲很多国家老龄化缺护理康复类人才，普遍是进修两年,工作三年即可申永居。&lt;br/&gt;最后：注意不要进民办（职教集团）的学校！&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#83 sieo2021&lt;/strong&gt;：月嫂  干半年休半年&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#84 mingtdlb&lt;/strong&gt;：宠物和护理，这俩专业都说有前途，然后一窝蜂的都冲这个，跟当年 IT 一样？再过 10 年，机器人能出来不？&lt;br/&gt;&lt;br/&gt;以我的认知，说实在的不懂啥有前途，自己现在都迷茫😂回过头看六年前的自己，还想着学这个技术学那个技术，现在 AI 冲击一下，感觉学点那边东西给 AI 拉平了。。。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#85 mrhunhun&lt;/strong&gt;：长得咋样啊 去团播&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#86 ZiLong&lt;/strong&gt;：1.看两遍以上哈佛幸福课;&lt;br/&gt;2.多与 AI 相处,把背景结合每天把自己今天的事情总结/好玩/印象深/或者不知道怎么处理的事情给 AI,让 AI 出主意,建议问三个以上的 AI;&lt;br/&gt;3.好好吃饭,好好锻炼身体&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 24 Apr 2026 02:10:40 +0000</pubDate></item><item><title>一个英语学习 APP [iOS] ，送 50 个终身会员</title><link>https://www.v2ex.com/t/1208178</link><description>&lt;p&gt;做了一款成语填字 APP ，名字叫做《多福单词》，对学习英语有诉求的，可以下载看看，送 50 个终生会员给各位大佬。&lt;/p&gt;
-&lt;p&gt;希望大佬们兑换了，能够顺手给个好评，独立开发不易，再次祝各位大佬，早日财富自由，早日赢取白富美。&lt;/p&gt;
-&lt;p&gt;========================&lt;/p&gt;
-&lt;p&gt;背单词是不是总让你昏昏欲睡？来试试用玩游戏的方式把单词刻进脑子里！&lt;/p&gt;
-&lt;p&gt;📱 多福单词 · 背单词猜字游戏&lt;/p&gt;
-&lt;p&gt;一款专为英语学习者打造的益智单词 App ，把枯燥的背单词变成每天最期待的事！&lt;/p&gt;
-&lt;p&gt;✨ 核心玩法
-🔤 猜单词 — 字母连线、填字闯关，在游戏中自然记住拼写和释义&lt;/p&gt;
-&lt;p&gt;🔗 连线拼字 — 拖动字母连成正确单词，强化拼写记忆，简单上手&lt;/p&gt;
-&lt;p&gt;⚡ 单词接龙 — 根据上一个单词末字母快速接龙，越玩越上瘾&lt;/p&gt;
-&lt;p&gt;📅 每日一词 — 每天精选词汇配例句，坚持一年积累 365 个新单词&lt;/p&gt;
-&lt;p&gt;🏆 单词闯关 — 从基础词汇到四六级常考词，循序渐进解锁新挑战&lt;/p&gt;
-&lt;p&gt;👥 适合人群
-无论你是备考四六级、考研的学生，还是想利用碎片时间充电的上班族，每天 10 分钟就有效！&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://postimg.cc/F1dxdPF9" rel="nofollow"&gt;&lt;img alt="fdff986d430ced6ff28d6fe8c76f773b.jpg" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://i.postimg.cc/9X1gkSvq/fdff986d430ced6ff28d6fe8c76f773b.jpg"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://postimg.cc/f3qxkd6B" rel="nofollow"&gt;&lt;img alt="wei-xin-tu-pian-20260424095306-262-40-fu-ben.jpg" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://i.postimg.cc/rmMgnCgX/wei-xin-tu-pian-20260424095306-262-40-fu-ben.jpg"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;========================&lt;/p&gt;
-&lt;p&gt;3ARJKET8F63PEY44EE
-4E4WKPXJMK84TTWN3H
-6LNYLP6RHYA6H7MAFW
-44MEWA4PNA8TMHA4J8
-Y83TEFL6Y68A8PYW7T
-TYNHMFHPELN8YXA4FK
-YWYW4ERY7FEA3AH66K
-TKT7PPXKH8XP877YRY
-Y6ANMF3ERHAL8KPHXR
-LNF3EWWMXWK6L4YXH7
-NJ4FEY8NPXLW4L3AH8
-YYRKXFN74FJXJ7JT77
-TRTYALHLAAH8ALTFT6
-R786YK8MN4WK4JL6TM
-EXLX7P8MFPAHJFPRFE
-MAFY3LY6RNXMK8KHPY
-87WNANMAJWLATF374A
-4PLRXHPFWXJXFHKRH3
-APKNFTTP6YL43ANK7W
-PKWJ7MAW3AFJ4R86P4
-86YYPW7KEJLLK4RWXN
-MRYRXTAWXT8EATY6JY
-38JLHXH8XXLPAH6RYH
-AXNKN87MWTFF3MTJAX
-RF8J76TWKL6HFXWHTF
-M6A3MWXNL4XTNLK87L
-T3MH3YJMHJW7P4AK7F
-MLN7RKXNX3HL7JR387
-RYWLMFRJHN67JNHWTP
-WFXAWKYXWNXH8RR64Y
-T74FJM8LA638RR7XWL
-EEEPHYKY6TN8LAFYYM
-J8HRTJ3YWW8P3YA6F7
-F4W3Y4NJA8KJAAPR8A
-77FELPYTXWW7AA8WMR
-R38A4TYJEHHXTRH4JP
-6PX8AX8NEFT8F4HHPX
-XK47XPYE3TKMJKMPEP
-737RERKKANHWLFRMPE
-YFJYWELENTRFJ47P3R
-KR6LT6EYKWWWENPRX8
-6FWPNN3PRENHJ4Y3L8
-FJRJ7TE3JAJXMYL88E
-8WPT7EHWH8THX3PFTF
-4WKHMMNW6HKERMXNMR
-EJTNYT3FM4R36E47HK
-MRFT7TJE43HELLR38J
-TRFMNMKHYF68TK48KL
-NYE6TNL4YN847ARFMJ
-6ENN6PFFEFN8HF73Y6
-3E8FRWRE7JYXYJKWMH
-HHF47TWKPXT7PPA68N
-AKEE6EEEJRE37AERMA
-F3ALP8LYJLANTA8HNX
-6RJ6HWPKMYF4LMNTFL
-NL4ELR6A38N44TP7R6
-PH6FHW63JMW3W46KJ8
-XHWE6HXA647AX87X6X
-KL4TMYX44NNEWXTPH7
-HWRLT4PMKYAF6H8K44
-74E84WKMWYYMY4TX3X
-XX8RAF33EKLL3L68EY
-WWXHTHXJ38P6YMPWWW
-XKFE3XJJ6AXW3E7T6P
-J6EM487ERTM643N3HT
-A8M67NTFJKKTPAF43X
-4PJEXTHXWRHF7MLFTK
-LXJFM78RTLN48JRR8J
-RRPLYARL666X44LKJJ
-N34RWRYPARWLEYTTLL
-MH847NLRXYYYWX6ARR
-TR8PFK6NXMAEEYXKHJ
-6PY488MT6RXTN4RMW4
-4FATXMN4TXEEHYANXP
-84JFWL6ERLK8XHHKFY
-HE786EYEJYMN6F7M3R
-LHJKJRLA8JKTAWE6FT
-X6XYLAT6N8TF3RJ8X8
-HP6WJXJJTLHXF4W3RF
-FN644MHMW37E7Y8KMA
-PLE3TJLLNX7PYX4L3K
-E76KHNRXN6MYF7XPN8
-R34EXJX334YTERA7P4
-EM4YJ483XX8NJJJJN8
-7PH6YHLW8LH346E6XX
-EHRJL3YJ4PK3LPMNLM
-RNJPTNWHTJNH7EAXWF
-K4YXE6JLP74H4X8KNH
-A7R774WKE6LPHXFR43
-LK8T4E8WYRXLFAFHWK
-APYYPN6ATAXFAKF778
-8X8A3JFTHFA4T8LNLM
-EPJN6KTFATYTXK3EME
-3PT7JHLPATRWAN8K3F
-JR8X6XT7YY3WT74XM7
-HYRJXLHXW4NL44H6HN
-HHXKLPFKY4KM4X8FHE
-RKY467T64WXN4MHT4L
-YJHFYT3HPFHPY8H6MH
-FEWYTARRRLW3438KRP&lt;/p&gt;
-&lt;hr/&gt;
-第 1 条附言  ·  &lt;span title="2026-04-24 11:30:00 +08:00"&gt;19 小时 1 分钟前&lt;/span&gt;
-
-忘了贴上下载链接，希望大佬们兑换了，能够顺手给个好评，独立开发不易，再次祝各位大佬，早日财富自由，早日赢取白富美。&lt;br/&gt;&lt;br/&gt;&lt;a href="https://apps.apple.com/cn/app/%E5%A4%9A%E7%A6%8F%E5%8D%95%E8%AF%8D-%E8%83%8C%E5%8D%95%E8%AF%8D%E7%8C%9C%E5%AD%97%E6%B8%B8%E6%88%8F/id6756718627" rel="nofollow noopener" target="_blank"&gt;https://apps.apple.com/cn/app/%E5%A4%9A%E7%A6%8F%E5%8D%95%E8%AF%8D-%E8%83%8C%E5%8D%95%E8%AF%8D%E7%8C%9C%E5%AD%97%E6%B8%B8%E6%88%8F/id6756718627&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;兑换方式&lt;br/&gt;&lt;br/&gt;&lt;a href="https://apps.apple.com/redeem?ctx=offercodes&amp;amp;id=6756718627&amp;amp;code=" rel="nofollow noopener" target="_blank"&gt;https://apps.apple.com/redeem?ctx=offercodes&amp;amp;id=6756718627&amp;amp;code=&lt;/a&gt;{兑换码}&lt;br/&gt;可以这样兑换，也可以用下面的方式&lt;br/&gt;&lt;br/&gt;通过 App Store 兑换&lt;br/&gt;打开 App Store&lt;br/&gt;点击右上角头像&lt;br/&gt;滑到底部，点击 "兑换礼品卡或代码"&lt;br/&gt;输入兑换码即可
-
-&lt;hr/&gt;
-第 2 条附言  ·  &lt;span title="2026-04-24 14:25:10 +08:00"&gt;16 小时 6 分钟前&lt;/span&gt;
-
-再附上 50 个吧，帖子上是 100 个兑换码，合计 150 个兑换码，有效期到周末&lt;br/&gt;&lt;br/&gt;KPFLYXLAAX7KYW6ANY&lt;br/&gt;T4W3NLWLWXJKEEAHJK&lt;br/&gt;6MLKP36MYA43LTNHYH&lt;br/&gt;PYEW3LWF4KYLLL473X&lt;br/&gt;46KRK3HLY4HMMP7T4A&lt;br/&gt;E7JNA4P3JLR7J8L73X&lt;br/&gt;PA3TF3F88K48HNKRF6&lt;br/&gt;THYY6LP87TNJJRH3FY&lt;br/&gt;3JXWMKPH7EN3MKRTH6&lt;br/&gt;3W7A66ERPYNXEWJHTM&lt;br/&gt;44H6EXTPAE6XKY7MWT&lt;br/&gt;F74PYEYNJ64FEARL7W&lt;br/&gt;XER7XHXTT3N7EN4FEF&lt;br/&gt;FXYTA76NRRTW83R8FW&lt;br/&gt;HTJXPFT8MKEEFKWE78&lt;br/&gt;EAALELHYEMEYAME46N&lt;br/&gt;EW8NKMWALTFK3HEHYK&lt;br/&gt;6Y4F68LY3RKFRAPFP8&lt;br/&gt;KRFE3676MAF4WJ6FNY&lt;br/&gt;FAKTYT6ANNJMYPLRTP&lt;br/&gt;KL4HJRLAJM4PL46M7Y&lt;br/&gt;K3LRJ43HNLNJH84T48&lt;br/&gt;MWEAKE4YJ46EMY7T87&lt;br/&gt;XMFJYENPH4HN7MYMJX&lt;br/&gt;XEW7TJ68FK4NE3R777&lt;br/&gt;34LXM3JEJM3RXJJ387&lt;br/&gt;YYPMWYAWNR6K8P8J3N&lt;br/&gt;LFTAWFEL8RYPFT3YJT&lt;br/&gt;Y6WJAYMTXKEPYJ7MLE&lt;br/&gt;M37PEPFXKN8N86WL7P&lt;br/&gt;L7RFXLELAF8XE43L8W&lt;br/&gt;H76REJARPJHKLKK4TK&lt;br/&gt;FRHMWPNY6RY6MA8JAN&lt;br/&gt;YRFH4KMTE3FTRY7EN3&lt;br/&gt;3EHXJ7FL3YTE3N6REH&lt;br/&gt;YYMWTFALY4LPWE6AFL&lt;br/&gt;PHXFKY8MHFNJ74T7HP&lt;br/&gt;FNATLTXFFFHYRWLMHE&lt;br/&gt;AM7MJPEEKJX4YH8PP3&lt;br/&gt;W8EXJWXYFXHEP3XFMK&lt;br/&gt;LPK73H4E7PNH66NAKK&lt;br/&gt;WTK7JNRWKJHTX878A7&lt;br/&gt;T64TMFPLAK7PY4XPA6&lt;br/&gt;YM6E7434MNP38E3PWN&lt;br/&gt;K6K6E4RAELYL44P3RM&lt;br/&gt;XW47FJ7A6HNJLP6L64&lt;br/&gt;TJ37W336RWLRN6WJP3&lt;br/&gt;7RHFE3LWF3HTARW8EL&lt;br/&gt;PRPRLR8TNP78L764TR&lt;br/&gt;MJR4AJLYKYHPTHM4RT
-
-&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;#1 zzahsjlk&lt;/strong&gt;：兑换了的大佬，希望您能标注下，方便其他人兑换&lt;br/&gt;&lt;br/&gt;顺手给个好评，再好不过了，独立开发不易，再次祝各位大佬，早日财富自由，早日赢取白富美&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#2 w797200&lt;/strong&gt;：兑换了 FEWYTARRRLW3438KRP&lt;br/&gt;谢谢大佬&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#3 RecLusIveF&lt;/strong&gt;：兑换了 RNJPTNWHTJNH7EAXWF&lt;br/&gt;感谢大佬🙏&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#4 Sundayz&lt;/strong&gt;：J6EM487ERTM643N3HT 拿下，谢谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#5 windorz&lt;/strong&gt;：A8M67NTFJKKTPAF43X 已使用, 感谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#6 tuot0601&lt;/strong&gt;：我怎么没找到兑换的地方🤡&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#7 eric1202&lt;/strong&gt;：6FWPNN3PRENHJ4Y3L8 已兑换 感谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#8 zzahsjlk&lt;/strong&gt;：&lt;a href="https://apps.apple.com/cn/app/%E5%A4%9A%E7%A6%8F%E5%8D%95%E8%AF%8D-%E8%83%8C%E5%8D%95%E8%AF%8D%E7%8C%9C%E5%AD%97%E6%B8%B8%E6%88%8F/id6756718627" rel="nofollow noopener" target="_blank"&gt;https://apps.apple.com/cn/app/%E5%A4%9A%E7%A6%8F%E5%8D%95%E8%AF%8D-%E8%83%8C%E5%8D%95%E8%AF%8D%E7%8C%9C%E5%AD%97%E6%B8%B8%E6%88%8F/id6756718627&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;已经不能 Append 了，不好意思，忘贴链接了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#9 haolibre&lt;/strong&gt;：FN644MHMW37E7Y8KMA 已用 感谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#10 angeni&lt;/strong&gt;：R34EXJX334YTERA7P4 已用 感谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#11 Croow&lt;/strong&gt;：大佬没看到兑换的入口呀&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#12 zzahsjlk&lt;/strong&gt;：@&lt;a href="/member/tuot0601"&gt;tuot0601&lt;/a&gt; &lt;a href="https://apps.apple.com/redeem?ctx=offercodes&amp;amp;id=6756718627&amp;amp;code=" rel="nofollow noopener" target="_blank"&gt;https://apps.apple.com/redeem?ctx=offercodes&amp;amp;id=6756718627&amp;amp;code=&lt;/a&gt;{兑换码}&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;可以这样兑换，也可以用下面的方式&lt;br/&gt;&lt;br/&gt;方法一：通过 App Store 兑换&lt;br/&gt;打开 App Store&lt;br/&gt;点击右上角头像&lt;br/&gt;滑到底部，点击 "兑换礼品卡或代码"&lt;br/&gt;输入兑换码即可&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#13 zzahsjlk&lt;/strong&gt;：@&lt;a href="/member/Croow"&gt;Croow&lt;/a&gt; &lt;a href="https://apps.apple.com/redeem?ctx=offercodes&amp;amp;id=6756718627&amp;amp;code=" rel="nofollow noopener" target="_blank"&gt;https://apps.apple.com/redeem?ctx=offercodes&amp;amp;id=6756718627&amp;amp;code=&lt;/a&gt;{兑换码}&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;可以这样兑换，也可以用下面的方式&lt;br/&gt;&lt;br/&gt;方法一：通过 App Store 兑换&lt;br/&gt;打开 App Store&lt;br/&gt;点击右上角头像&lt;br/&gt;滑到底部，点击 "兑换礼品卡或代码"&lt;br/&gt;输入兑换码即可&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#14 NomiTang&lt;/strong&gt;：8WPT7EHWH8THX3PFTF 已用，感谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#15 tuot0601&lt;/strong&gt;：@&lt;a href="/member/zzahsjlk"&gt;zzahsjlk&lt;/a&gt; #12 找到了，谢谢。6PY488MT6RXTN4RMW4 已兑换&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#16 freedomin&lt;/strong&gt;：EXLX7P8MFPAHJFPRFE 已兑换 感谢 op&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#17 Croow&lt;/strong&gt;：@&lt;a href="/member/zzahsjlk"&gt;zzahsjlk&lt;/a&gt; #13 感谢大佬，YJHFYT3HPFHPY8H6MH 已兑换&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#18 fragilePride&lt;/strong&gt;：X6XYLAT6N8TF3RJ8X8 感谢带佬&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#19 pkuxkxqiu&lt;/strong&gt;：WFXAWKYXWNXH8RR64Y 已用，感谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#20 stone9527&lt;/strong&gt;：FJRJ7TE3JAJXMYL88E 已使用，感谢 OP 分享&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#21 Wiioy&lt;/strong&gt;：PLE3TJLLNX7PYX4L3K 已使用，谢谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#22 bijika&lt;/strong&gt;：3E8FRWRE7JYXYJKWMH  已用，感谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#23 guansixu&lt;/strong&gt;：86YYPW7KEJLLK4RWXN 已使用，感谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#24 palard&lt;/strong&gt;：J8HRTJ3YWW8P3YA6F7 已使用，感谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#25 bijika&lt;/strong&gt;：3E8FRWRE7JYXYJKWMH 已被用，KR6LT6EYKWWWENPRX8 已使用，感谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#26 tonyleen&lt;/strong&gt;：84JFWL6ERLK8XHHKFY 已用，谢谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#27 emberzhang&lt;/strong&gt;：NL4ELR6A38N44TP7R6 已使用，感谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#28 netbtcc33&lt;/strong&gt;：3PT7JHLPATRWAN8K3F 已用，感谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#29 HyruleLink&lt;/strong&gt;：T74FJM8LA638RR7XWL 已用，感谢分享&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#30 today0is0present&lt;/strong&gt;：感谢大佬 RKY467T64WXN4MHT4L&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#31 NitMoon&lt;/strong&gt;：MRFT7TJE43HELLR38J 已用，感谢分享&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#32 sevenyangcc&lt;/strong&gt;：老哥，咋复制的文案都不改一下呀 &lt;a href="https://i.imgur.com/duWRpIu.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/duWRpIu.png"/&gt;&lt;/a&gt;&lt;br/&gt;“做了一款成语填字 APP ”&lt;br/&gt;&lt;br/&gt;74E84WKMWYYMY4TX3X 已使用&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#33 xuyouzhi&lt;/strong&gt;：MH847NLRXYYYWX6ARR 已兑换，多谢大佬&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#34 zzahsjlk&lt;/strong&gt;：@&lt;a href="/member/sevenyangcc"&gt;sevenyangcc&lt;/a&gt; 早上忙着发帖，忘了自己审查了，成语填字上周也送过 100 个终生会员了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#35 zzahsjlk&lt;/strong&gt;：@&lt;a href="/member/zzahsjlk"&gt;zzahsjlk&lt;/a&gt; 自己 -&amp;gt; 仔细  打错字了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#36 wang3874149&lt;/strong&gt;：HP6WJXJJTLHXF4W3RF 已用，感谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#37 lossvincefr&lt;/strong&gt;：6RJ6HWPKMYF4LMNTFL 已用，谢谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#38 luckycoding&lt;/strong&gt;：RNJPTNWHTJNH7EAXWF 已用，谢谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#39 zhanyunqing2008&lt;/strong&gt;：F3ALP8LYJLANTA8HNX 已用，感谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#40 BrainStream&lt;/strong&gt;：R786YK8MN4WK4JL6TM 已用，多谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#41 dujie&lt;/strong&gt;：WWXHTHXJ38P6YMPWWW 已用，感谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#42 80042&lt;/strong&gt;：LHJKJRLA8JKTAWE6FT 已用，谢谢分享&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#43 andykuen959595&lt;/strong&gt;：TR8PFK6NXMAEEYXKHJ 已用，感谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#44 andykuen959595&lt;/strong&gt;：多福成语 也是大佬的 APP👏&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#45 rxswift&lt;/strong&gt;：6RJ6HWPKMYF4LMNTFL 已用，感谢分享&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#46 zyazzagar&lt;/strong&gt;：YJHFYT3HPFHPY8H6MH,支持，谢谢！&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#47 tim55&lt;/strong&gt;：YYRKXFN74FJXJ7JT77  已用，感谢分享&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#48 IOFIFO&lt;/strong&gt;：感谢分享&lt;br/&gt;FEWYTARRRLW3438KRP 已使用&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#49 uiverusifu&lt;/strong&gt;：YFJYWELENTRFJ47P3R&lt;br/&gt;已兑换，谢谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#50 oceaneleven&lt;/strong&gt;：4FATXMN4TXEEHYANXP 已使用 谢谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#51 hanboys&lt;/strong&gt;：RF8J76TWKL6HFXWHTF 已用，感谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#52 komorbi&lt;/strong&gt;：3PT7JHLPATRWAN8K3F&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#53 ybbxk&lt;/strong&gt;：XX8RAF33EKLL3L68EY 已用，感谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#54 Dreamer001&lt;/strong&gt;：bHptNDIwMjQxQDE2My5jb20=&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#55 mw990418&lt;/strong&gt;：XHWE6HXA647AX87X6X  已使用 谢谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#56 viso7682&lt;/strong&gt;：Y83TEFL6Y68A8PYW7T 已使用，感谢大佬&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#57 bosco2me&lt;/strong&gt;：LK8T4E8WYRXLFAFHWK 已经使用感谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#58 roma&lt;/strong&gt;：我去，兑换时提示要 16.3 ，下载却不用&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#59 JustinJie&lt;/strong&gt;：TRFMNMKHYF68TK48KL 已使用, 感谢大佬&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#60 Youweiyoyoyo&lt;/strong&gt;：77FELPYTXWW7AA8WMR  APKNFTTP6YL43ANK7W 已用！&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#61 laibin6&lt;/strong&gt;：RYWLMFRJHN67JNHWTP 已使用 谢谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#62 Raymondig&lt;/strong&gt;：87WNANMAJWLATF374A 已用,感谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#63 freedomT&lt;/strong&gt;：K4YXE6JLP74H4X8KNH 已用&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#64 jfsd2000&lt;/strong&gt;：7PH6YHLW8LH346E6XX 已用，第一次抢到这种福利&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#65 freedomT&lt;/strong&gt;：737RERKKANHWLFRMPE 这个才是我已用的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#66 Andrewliu&lt;/strong&gt;：A7R774WKE6LPHXFR43 已用，感恩&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#67 kuanos&lt;/strong&gt;：感谢！ YWYW4ERY7FEA3AH66K 已使用&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#68 apanlin&lt;/strong&gt;：84JFWL6ERLK8XHHKFY&lt;br/&gt;EHRJL3YJ4PK3LPMNLM&lt;br/&gt;A8M67NTFJKKTPAF43X&lt;br/&gt;N34RWRYPARWLEYTTLL&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#69 DawnQ&lt;/strong&gt;：YRFH4KMTE3FTRY7EN3 已用 谢谢！&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#70 shanghui&lt;/strong&gt;：EJTNYT3FM4R36E47HK 已用 🙏&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#71 Nikolaiii&lt;/strong&gt;：WTK7JNRWKJHTX878A7 thanks&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#72 Wyearn&lt;/strong&gt;：M37PEPFXKN8N86WL7P&lt;br/&gt;已用&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#73 tzw&lt;/strong&gt;：YYMWTFALY4LPWE6AFL 已用，感谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#74 czar&lt;/strong&gt;：LFTAWFEL8RYPFT3YJT 已用，感谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#75 sun522198558&lt;/strong&gt;：AM7MJPEEKJX4YH8PP3 已用，感谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#76 loeli&lt;/strong&gt;：3EHXJ7FL3YTE3N6REH 已使用 谢谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#77 a1114262301&lt;/strong&gt;：K6K6E4RAELYL44P3RM 已用，感谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#78 AthenaSword&lt;/strong&gt;：F74PYEYNJ64FEARL7W 已兑换，感谢大佬&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#79 kaihuanx&lt;/strong&gt;：6Y4F68LY3RKFRAPFP8 已用，感谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#80 vvv222eee&lt;/strong&gt;：FNATLTXFFFHYRWLMHE 已使用 谢谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#81 kiroli&lt;/strong&gt;：FRHMWPNY6RY6MA8JAN 已用，感谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#82 lynsws0828&lt;/strong&gt;：AXNKN87MWTFF3MTJAX 已用，感谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#83 noshiro&lt;/strong&gt;：PHXFKY8MHFNJ74T7HP  已用, 感谢大佬&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#84 zj27&lt;/strong&gt;：K3LRJ43HNLNJH84T48 已用，感谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#85 xzh654321&lt;/strong&gt;：XW47FJ7A6HNJLP6L64 已用，谢谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#86 Cyclince&lt;/strong&gt;：FXYTA76NRRTW83R8FW 已用，十分感谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#87 bkzly83851&lt;/strong&gt;：谢谢，FXYTA76NRRTW83R8FW&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#88 yinyu&lt;/strong&gt;：试了两个都他妈兑了不吱声，他妈的脑残，非蠢即坏。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#89 iTwoEleven&lt;/strong&gt;：H76REJARPJHKLKK4TK 已用，感谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#90 urnotkk&lt;/strong&gt;：LPK73H4E7PNH66NAKK 已用，感谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#91 rockclimbing&lt;/strong&gt;：RYWLMFRJHN67JNHWTP 已使用 谢谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#92 swq1227&lt;/strong&gt;：HHXKLPFKY4KM4X8FHE 已使用，谢谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#93 kykx&lt;/strong&gt;：XMFJYENPH4HN7MYMJX 已用，感谢哦&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#94 suyp&lt;/strong&gt;：EW8NKMWALTFK3HEHYK 已用，谢谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#95 babymonster&lt;/strong&gt;：WTK7JNRWKJHTX878A7 已用谢谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#96 Gnnbb&lt;/strong&gt;：T4W3NLWLWXJKEEAHJK 已用，谢谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#97 tanoak&lt;/strong&gt;：APYYPN6ATAXFAKF778 已用 谢谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#98 zzahsjlk&lt;/strong&gt;：@&lt;a href="/member/yinyu"&gt;yinyu&lt;/a&gt; FTK4MPW48THJ68ENNW&lt;br/&gt;3T43A6TRXYXMWNAWEH&lt;br/&gt;&lt;br/&gt;这两个是新的，可以兑换哈&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#99 H0711&lt;/strong&gt;：3T43A6TRXYXMWNAWEH 已用，谢谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#100 vxzoo&lt;/strong&gt;：试个了好多个 终于有一个可以了 XK47XPYE3TKMJKMPEP 已用，谢谢&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 24 Apr 2026 01:56:17 +0000</pubDate></item></channel></rss>
+&lt;p&gt;&lt;strong&gt;#100 soulflysimple123&lt;/strong&gt;：gpt 5.5 &lt;br/&gt;&lt;a href="https://chatgpt.com/share/69eb240a-1f00-83ea-976e-bdee81d723d5" rel="nofollow noopener" target="_blank"&gt;https://chatgpt.com/share/69eb240a-1f00-83ea-976e-bdee81d723d5&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 24 Apr 2026 03:45:41 +0000</pubDate></item></channel></rss>

@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Fri, 24 Apr 2026 06:00:00 +0000</lastBuildDate><item><title>继续屠杀全球AI模型：DeepSeek V4 API价格公布 起步价仅0.2元/百万输入</title><link>https://www.landiannews.com/archives/112796.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sat, 25 Apr 2026 01:00:03 +0000</lastBuildDate><item><title>4月更新导致部分Windows 11设备循环重启/像素化画面 GTX1080Ti受影响最严重</title><link>https://www.landiannews.com/archives/112797.html</link><description>
+&lt;p&gt;#系统资讯 微软 4 月更新导致 Windows 11 循环重启和画面像素化或马赛克，部分用户出现循环重启 → 自动修复失败 → 再次自动重启 → 再次尝试。受影响比较严重的是搭载 GTX 1080 Ti 显卡的戴尔和惠普设备，目前微软尚未确认问题，最佳解决方案是通过 WinRE 恢复环境删除最近安装的更新。查看详情：https://ourl.co/112797&lt;/p&gt;&lt;p&gt;微软在 2026 年 4 月 14 日发布 KB5083769 号更新，该更新适用于 Windows 11 24H2/25H2 版，不过目前已经有诸多帖子指出此更新导致设备循环重启、画面出现像素画或者马赛克，受影响最严重的机型是带有 GTX 1080 Ti 显卡的戴尔和惠普机型。&lt;/p&gt;
+&lt;p&gt;截至本文发布时微软尚未将该问题添加到已知问题列表里，这也代表着微软尚未确认该问题的存在，所以短时间内微软可能不会发布 OOB 带外更新进行修复，遇到此问题的用户只能尝试通过自动修复、卸载更新乃至重置系统。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/03/108606.png" rel="nofollow"&gt;&lt;img alt="4月更新导致部分Windows 11设备循环重启/像素化画面 GTX1080Ti受影响最严重" data-src="https://img.lancdn.com/landian/2025/03/108606.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/03/108606.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;目前关于引发故障的更新还不能真正确定，有些用户认为是安装 KB5083769 号更新导致的，有些用户则认为是安装.NET 安全更新 KB5082417 引起的，但出现的故障基本类似，都是循环重启且无法自动修复。&lt;/p&gt;
+&lt;p&gt;正常情况下 Windows 11 检测到系统故障时会自动尝试进行修复，当前的情况是系统循环重启 → 自动修复失败 → 再次自动重启 → 再次尝试修复，遇到这个问题的用户甚至都无法正常进入桌面。&lt;/p&gt;
+&lt;p&gt;还有个问题表现是屏幕先出现乱七八糟的像素点或者画面变成马赛克样式，接着系统发生黑屏死机 (BSOD)，提示需要恢复系统，但无论如何操作最终都还是无法成功修复，迫于无奈用户只能发帖求助。&lt;/p&gt;
+&lt;p&gt;当然也有运气好的用户经过多次自动修复和重启后成功进入桌面，而且检查更新历史记录发现显示的还是成功的，这种情况下本着能用就不要动的原则，所以也没必要手动卸载更新。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;以下方案为通用方案也可以应对其他因为安装更新导致的循环重启或无法进入桌面，方法就是连续强制关机来进入 WinRE 恢复环境，在恢复环境里删除更新，如果能成功删除的话或许可以让系统恢复正常。&lt;/p&gt;
+&lt;p&gt;操作方法如下：在蓝屏或报错界面按住电源按钮 3~10 秒强制关机，接着重启开机在蓝屏或恢复界面再次按住电源按钮强制关机，第三次开机时系统将自动进入 WinRE 恢复环境。&lt;/p&gt;
+&lt;p&gt;在恢复环境里点击高级选项，然后选择卸载更新，点击该选项后系统会自动尝试将最近安装的更新删除，成功删除更新后会再次重启系统，只要能成功删除应该就可以重新进入系统。&lt;/p&gt;
+&lt;p&gt;遇到以上问题的用户建议访问微软官方论坛的这个&lt;a href="https://learn.microsoft.com/en-au/answers/questions/5862058/2026-04-security-update-(kb5083769)-(26200-8246)-c" rel="noopener" target="_blank"&gt;反馈贴&lt;/a&gt;，登录微软账号后将自己遇到的情况发在回帖里，这样也许可以引起微软关注从而更快修复这个故障。&lt;/p&gt;
+</description><pubDate>Sat, 25 Apr 2026 01:00:03 +0000</pubDate></item><item><title>继续屠杀全球AI模型：DeepSeek V4 API价格公布 起步价仅0.2元/百万输入</title><link>https://www.landiannews.com/archives/112796.html</link><description>
 &lt;p&gt;#人工智能 继续屠杀全球 AI 模型：DeepSeek V4 API 价格公布，起步价仅每百万输入 0.2 元，这个价格可以直接屠杀全球各类模型甚至部分 API 中转站。模型能力上 V4 交付质量接近 Claude Opus 4.6 非思考模式，但仍然与思考模式存在差距，不过考虑到价格这是完全可以接受的。查看详情：https://ourl.co/112796&lt;/p&gt;&lt;p&gt;这个周五最热闹的事情莫过于深度求索终于发布 DeepSeek V4 模型，深度求索也在官方公众号里提供详细的评测信息，评测信息显示该模型交付质量接近 Claude Opus 4.6 非思考模式，但仍然与其思考模式存在差距。&lt;/p&gt;
 &lt;p&gt;然而在价格面前这种瑕疵完全可以忽略，因为该模型 API 调用价格起步才 0.2 元，这个价格可以直接屠杀全球各类模型乃至部分 API 中转站，对于预算有限的用户和开发者来说 DeepSeek V4 将带来更充足的调用额度。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112796.png" rel="nofollow"&gt;&lt;img alt="继续屠杀全球AI模型：DeepSeek V4 API价格公布 起步价仅0.2元/百万输入" data-src="https://img.lancdn.com/landian/2026/04/112796.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112796.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -75,17 +89,4 @@
 &lt;li&gt;可以通过预设的工作点配置精度 / 召回率权衡和检测到的跨度长度进行控制&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;模型地址：&lt;a href="https://huggingface.co/openai/privacy-filter" rel="noopener" target="_blank"&gt;https://huggingface.co/openai/privacy-filter&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 24 Apr 2026 03:30:00 +0000</pubDate></item><item><title>AI发掘漏洞太多太快的后遗症：Linux内核社区讨论删除上世纪的旧驱动</title><link>https://www.landiannews.com/archives/112792.html</link><description>
-&lt;p&gt;#系统资讯 AI 发掘漏洞太快太多带来的后遗症：Linux 社区讨论删除各类老旧的网络驱动程序，因为被发现的漏洞太多维护起来太耗费精力。简单来说社区开发者的提议就是按需保留，如果企业还需要使用上世纪 80~90 年代的设备那就自己出人出钱来维护驱动，否则就删除驱动避免漏洞影响使用现代设备的用户。查看详情：https://ourl.co/112792&lt;/p&gt;&lt;p&gt;Linux Kernel 社区目前正在讨论新的重要提案，这个提案旨在从主线源代码中删除各类历史遗留的网络驱动程序，如果该提案通过的话，可能会导致大量使用 Linux 系统的老旧设备无法正常联网 (在确保安全的情况下)。&lt;/p&gt;
-&lt;p&gt;删除这些老旧的驱动程序是因为人工智能模型发掘漏洞的速度太快而且发现的漏洞数量太多，这会导致内核社区的开发者们需要花费大量时间去检查、确认和修复漏洞，那重要功能和新功能的开发势必要受到影响，所以直接删除这些驱动程序可能是最佳选择。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2023/08/99983.png" rel="nofollow"&gt;&lt;img alt="AI发掘漏洞太多太快的后遗症：Linux内核社区讨论删除上世纪的旧驱动" data-src="https://img.lancdn.com/landian/2023/08/99983.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2023/08/99983.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;值得注意的是，AI 发掘漏洞确实有很多属于误报，但这些漏洞里也确实有很多是真实存在的，只不过 AI 发掘的不少漏洞都是小问题，其实际控制的人类可能不在乎漏洞评级，无论是否重要都会通过 AI 报告，这导致 Linux Kernel 社区收到大量漏洞报告。&lt;/p&gt;
-&lt;p&gt;社区成员称大部分漏洞报告都是低质量甚至是毫无根据的 (这些报告涉及到无人使用的系统)，也就是这些漏洞可能是实际存在的，但因为使用这些驱动程序的用户可能压根没有，所以是修复漏洞呢还是忽略漏洞呢？&lt;/p&gt;
-&lt;p&gt;直接忽略所有漏洞报告显然是不太可靠的做法，以前社区成员维护老旧的 ISA 或 PCMCIA 时代的硬件花费的时间非常少，而现在需要花费大量时间去维护，于是这就牵涉到时间成本问题。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;所以社区开发者的建议是直接从 Linux Kernel 内核主线源代码中删除老旧的网络驱动程序，这可以从内核源代码树中删除大约 27646 行代码，精简内核代码的同时，也将那些老旧驱动程序带来的漏洞直接扼杀在摇篮里。&lt;/p&gt;
-&lt;p&gt;而且内核不会直接将所有老旧驱动程序全部删除，而是会根据情况逐步发布补丁删除老旧驱动程序，所以如果确实有企业还在使用这些上古设备并且愿意承担维护工作的话，也可以重新恢复这些驱动程序的支持。&lt;/p&gt;
-&lt;p&gt;简单来说这个提案的核心就是按需保留，除非有企业愿意出资出人维护，否则内核就删除支持，这样既可以保证旧设备可以继续工作，又可以避免这些老旧驱动因为漏洞影响到使用现代设备的用户。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://lore.kernel.org/lkml/20260421-v7-0-0-net-next-driver-removal-v1-v1-0-69517c689d1f@lunn.ch/" rel="noopener" target="_blank"&gt;Linux Kernel&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 24 Apr 2026 03:00:57 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 24 Apr 2026 03:30:00 +0000</pubDate></item></channel></rss>
