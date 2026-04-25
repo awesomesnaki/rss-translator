@@ -67,11 +67,11 @@ thdxr 在 &lt;a href="https://x.com/thdxr/status/2031073582747357397"&gt;twitter
 使用示例
 &lt;a href="https://kau.sh/feed.xml#what-it-looks-like"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;&lt;span style="display: flex;"&gt;podsync &lt;span style="color: #ae81ff;"&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display: flex;"&gt;&lt;span style="color: #ae81ff;"&gt;&lt;/span&gt; --master &lt;span style="color: #e6db74;"&gt;"304-src-ap.mp3"&lt;/span&gt; &lt;span style="color: #ae81ff;"&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display: flex;"&gt;&lt;span style="color: #ae81ff;"&gt;&lt;/span&gt; --tracks &lt;span style="color: #e6db74;"&gt;"304-iury-src-cleaned.wav"&lt;/span&gt; &lt;span style="color: #ae81ff;"&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display: flex;"&gt;&lt;span style="color: #ae81ff;"&gt;&lt;/span&gt; --tracks &lt;span style="color: #e6db74;"&gt;"304-kg-src-logic-cleaned.wav"&lt;/span&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;将输出结果拖入我的数字音频工作站，从0:00开始。搞定。&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;podsync \
+ --master "304-src-ap.mp3" \
+ --tracks "304-iury-src-cleaned.wav" \
+ --tracks "304-kg-src-logic-cleaned.wav"
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;将输出结果拖入我的数字音频工作站，从0:00开始。搞定。&lt;/p&gt;
 &lt;p&gt;我甚至编写了一个智能体技能，你只需将其指向你的智能体框架，它就会&lt;a href="https://github.com/kaushikgopal/podsync/tree/master/.agents/skills/podsync-voice-tracks"&gt;为你处理所有步骤&lt;/a&gt;：&lt;/p&gt;
 &lt;figure&gt;
 &lt;img alt="Podsync输出显示两条音轨以置信度1.00同步且无漂移" referrerpolicy="no-referrer" src="https://kau.sh/podsync-output.webp"/&gt;
@@ -146,13 +146,13 @@ thdxr 在 &lt;a href="https://x.com/thdxr/status/2031073582747357397"&gt;twitter
 &lt;a href="https://kau.sh/feed.xml#getting-started"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;我会建议先像使用常规 CLI 工具一样使用 &lt;code&gt;opencode&lt;/code&gt;。一旦熟悉了，再切换到服务器/网页模式。&lt;/p&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;&lt;span style="display: flex;"&gt;&lt;span style="color: #75715e;"&gt;# 将服务器广告为 opencode.local&lt;/span&gt;
-&lt;/span&gt;&lt;span style="display: flex;"&gt;opencode web --mdns
-&lt;/span&gt;&lt;span style="display: flex;"&gt;
-&lt;/span&gt;&lt;span style="display: flex;"&gt;&lt;span style="color: #75715e;"&gt;# 附加到一个会话&lt;/span&gt;
-&lt;/span&gt;&lt;span style="display: flex;"&gt;&lt;span style="color: #75715e;"&gt;# 相当于启动一个新的 claude code 会话&lt;/span&gt;
-&lt;/span&gt;&lt;span style="display: flex;"&gt;opencode attach http://opencode.local:4096 --dir /path/to/project
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;其美妙之处在于，你可以在任何浏览器中打开那个 &lt;code&gt;opencode.local&lt;/code&gt; 网址，并且它是完全同步的。&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;# 将服务器广告为 opencode.local
+opencode web --mdns
+
+# 附加到一个会话
+# 相当于启动一个新的 claude code 会话
+opencode attach http://opencode.local:4096 --dir /path/to/project
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;其美妙之处在于，你可以在任何浏览器中打开那个 &lt;code&gt;opencode.local&lt;/code&gt; 网址，并且它是完全同步的。&lt;/p&gt;
 &lt;hr/&gt;&lt;p&gt;&lt;em&gt;感谢我的&lt;a href="https://fragmentedpodcast.com/about/#iury-souza"&gt;联合主持人&lt;/a&gt;&lt;a href="https://x.com/IurySza/status/2018362469035483318"&gt;Iury&lt;/a&gt;早早地吹响了OpenCode的号角，也感谢我的Instacart同事&lt;a href="https://x.com/spencerschack"&gt;Spencer&lt;/a&gt;对我那守旧的tmux使用方式提出的质疑。&lt;sup id="fnref:2"&gt;&lt;a href="https://kau.sh/feed.xml#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;我将来会写一篇文章，细数OpenCode的其他优点。眼下，如果你正在探索智能体访问流畅性的前沿，可别错过它。&lt;/p&gt;
 &lt;hr/&gt;
