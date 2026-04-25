@@ -252,10 +252,13 @@ def clean_readability_html(html_content):
         else:
             picture.decompose()
 
-    # 去掉所有 CSS class 属性（没有样式表，class 毫无意义）
+    # 去掉所有 CSS class 和 style 属性（没有样式表 / RSS 阅读器有自己的样式）
+    # Beehiiv 等源会内联绿色边框、文字对齐等样式，去掉后渲染更干净
     for tag in soup.find_all(True):
         if tag.get('class'):
             del tag['class']
+        if tag.get('style'):
+            del tag['style']
 
     # 展开纯包装的 <span>（没有任何属性的 span 只是多余嵌套）
     for span in soup.find_all('span'):
