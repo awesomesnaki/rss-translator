@@ -50,7 +50,7 @@ feeds:
   - name: "luobo8"
     url: "https://feed.luobo8.com/"
     translate: false
-    filter_category: "微语录精选"
+    filter_in: ["微语录精选"]
     text_only: true
   - name: "nicenews"
     url: "https://nicenews.com/feed/"
