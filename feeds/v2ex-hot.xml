@@ -1,5 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>V2EX-最热主题</title><link>https://www.v2ex.com/</link><description>V2EX-最热主题 - Powered by RSSHub</description><language>zh-CN</language><lastBuildDate>Sat, 25 Apr 2026 14:03:14 +0000</lastBuildDate><item><title>什么成品企业级 NAS 方便维修？</title><link>https://www.v2ex.com/t/1208529</link><description>前情提要： &lt;a href="https://www.v2ex.com/t/1200956#" target="_blank"&gt;https://www.v2ex.com/t/1200956#&lt;/a&gt;&lt;br/&gt;电脑装好开机了，我有事就提前离开了，群晖系统镜像刚下到 Windows 上面。&lt;br/&gt;电脑关机关了两周（后面没关），接的 ups ，ups 接的三孔，两周没断电&lt;br/&gt;今天再点亮，表现出主板带电情况：&lt;br/&gt;点一下电源键，电源和 cpu 风扇转一下就不转了。&lt;br/&gt;然后经历漫长的放电操作，把电源线搞坏了：插上后（主机的电源侧）能听见电流声，风扇也不转了&lt;br/&gt;出电流声之前的期间成功点亮进入了 BIOS 界面，但是把电脑竖放起来就黑屏了，风扇也不转了。&lt;br/&gt;买了根电源线去尝试，新电源线不至于走一次放电操作从而风扇不转了。随后又是漫长的放电过程，也没放掉电，仍表现出主板带电。&lt;br/&gt;&lt;br/&gt;老板也没耐心了，想买成品 nas 了，当简单的沉没成本的。&lt;br/&gt;&lt;br/&gt;放电过程：&lt;br/&gt;拔掉电源线，关掉电源（主机侧），扣下电池和内存条，用电池（侧边）/钥匙/螺丝刀划电池槽的金属片（含短接相连），按住开机键几秒，放上电池和单根内存条，再按几秒开机键。插上电源线，打开开关，启动。&lt;br/&gt;&lt;br/&gt;买成品 Nas 有个问题：买到成品 Nas 也出静电问题怎么办，维修肯定比台式机难，这是个大难题。&lt;br/&gt;&lt;br/&gt;Nas 需求：4-6 盘位，自动从 oss 上拉取数据到本地上。hdd 还没有购买。如果购买的话，SAS 与 SATA 不好选择。属于那种期望兼容后续买服务器的状态。至少在相当长的时间内，没有这个正经服务器需求。
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>V2EX-最热主题</title><link>https://www.v2ex.com/</link><description>V2EX-最热主题 - Powered by RSSHub</description><language>zh-CN</language><lastBuildDate>Sun, 26 Apr 2026 01:59:57 +0000</lastBuildDate><item><title>大早上通知周末发日报、工作日发半日报，实在没忍住直接和央企领导提离职了。</title><link>https://www.v2ex.com/t/1208576</link><description>&lt;p&gt;简直把我当驴使。。。提离职的时候还画饼说部门里的新人只有我会搞技术，以后肯定都是机会的。明年不会那么忙。甚至想让我在现场再当一个月牛马。。。。怎么会有这种人。准备节后直接提流程了，看看上面大领导怎么说，可能给我换个部门也不一定。
+&lt;a href="https://i.imgur.com/AMK5Qqs.png" rel="nofollow"&gt;https://i.imgur.com/AMK5Qqs.png&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;#1 orion1&lt;/strong&gt;：你直接周一回就行了，摆烂，提离职干啥&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#2 MX11XM&lt;/strong&gt;：@&lt;a href="/member/orion1"&gt;orion1&lt;/a&gt; 可能年轻气盛。。。实在受不了这气，连续加两三周的班了，现场甲方也给压力，一堆领导也给压力。还有其他很多事情。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#3 MX11XM&lt;/strong&gt;：&lt;a href="https://i.imgur.com/AMK5Qqs.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/AMK5Qqs.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#4 TashinV&lt;/strong&gt;：国央企里面很多领导都是欺世盗名之辈&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#5 summerwar&lt;/strong&gt;：话说既然工作日半天更新一下进度，那休息日更新啥进度，休息的进度吗？都休息了还能有进度？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#6 106npo&lt;/strong&gt;：@&lt;a href="/member/summerwar"&gt;summerwar&lt;/a&gt; 休息的很好，不会影响工作日出勤 🤣&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#7 rocmax&lt;/strong&gt;：经历过，这种情况明显就是 pm 无能。2 年前呆过一个项目，pm 不懂技术，你给他说这个功能需要 2 天实现他一定怀疑你虚报了，你给他说原因他又听不懂。总之就是技术我不懂但你别想蒙我那股劲，上面给他压 deadline 他又不敢提意见，回来就开会说为了提高效率原来 2 周一个敏捷开发周期改为一周。后果就是一周 5 天 2 天在开计划会总结会，提高了个蛋效率。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#8 huaweii&lt;/strong&gt;：楼主你的 PM 快要自身难保了，你现在要做的是不要让自己背锅，如果还想待下去的话😅 Anyways 只要你一走，项目未来的所有问题都会推到你身上，无能领导的基操了🤣&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#9 ios&lt;/strong&gt;：摆烂就可以了…现在外面有其他更好的路是吗&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#10 sosme&lt;/strong&gt;：上位者只要动动嘴皮子就行，累死累活的还是干实事的牛马&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#11 kda1578888&lt;/strong&gt;：@&lt;a href="/member/rocmax"&gt;rocmax&lt;/a&gt; #7 媚上者 必欺下&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#12 MX11XM&lt;/strong&gt;：@&lt;a href="/member/ios"&gt;ios&lt;/a&gt; 传统行业，在现场实施，六月份验收，没干完甲方骂，领导骂，甚至甲方总部一把手要被考核，和程序员完全不一样。&lt;br/&gt;@&lt;a href="/member/huaweii"&gt;huaweii&lt;/a&gt; 是这样的，他甚至还想要我干到六月去背锅，太难蹦了。&lt;br/&gt;@&lt;a href="/member/rocmax"&gt;rocmax&lt;/a&gt; 我在现场干实施，领导哪知道现场有些啥事，只知道不停催，又不给什么支持。&lt;br/&gt;@&lt;a href="/member/TashinV"&gt;TashinV&lt;/a&gt; 这是真的&lt;br/&gt;@&lt;a href="/member/summerwar"&gt;summerwar&lt;/a&gt; 休息日也要干啊，太难绷了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#13 rocmax&lt;/strong&gt;：@&lt;a href="/member/MX11XM"&gt;MX11XM&lt;/a&gt; 如果眼下这摊是你一个人在管，领导认为进度有问题的话不妨先跟他谈谈？说了现状和困难他不给你解决的话再说？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#14 Hyschtaxjh&lt;/strong&gt;：恭喜&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#15 zhleonix&lt;/strong&gt;：你自己发也是编，AI 也是编，喜欢看让龙虾发些又臭又长的过去咯&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#16 liuliuliuliu&lt;/strong&gt;：央企啊！&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#17 zuosiruan&lt;/strong&gt;：躺啊 糊涂啊你。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#18 InDom&lt;/strong&gt;：话说每天把实际进度情况报给 AI, 让 AI 针对当前的情况总结出一个 5000 字的现状详细汇报, 发给 PM, 表示自己每天专心的写了工作总结&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#19 MX11XM&lt;/strong&gt;：@&lt;a href="/member/rocmax"&gt;rocmax&lt;/a&gt; 哎，现场本来有个外包大哥帮我干，昨天中午他都没问我一声，直接问外包大哥现场还需不需要帮忙，准备把他撤走，我感觉他一点都不尊重我。群里全是甲方和我们公司的领导，干活的就我一个还有个外包大哥。部门的性质就是这样，实在是没有啥未来，同事四五十岁了都还在出差，我感觉没有一点期待。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#20 MX11XM&lt;/strong&gt;：@&lt;a href="/member/Hyschtaxjh"&gt;Hyschtaxjh&lt;/a&gt; 谢谢！准备全力找新工作了。&lt;br/&gt;@&lt;a href="/member/zhleonix"&gt;zhleonix&lt;/a&gt; 传统行业不太一样，比如甲方要求周末把某个设备调试好，那就得把他干完。&lt;br/&gt;@&lt;a href="/member/liuliuliuliu"&gt;liuliuliuliu&lt;/a&gt; 外表光鲜，真正进来才知道有多不堪&lt;br/&gt;@&lt;a href="/member/zuosiruan"&gt;zuosiruan&lt;/a&gt; 哎，能躺早就开始躺了&lt;br/&gt;@&lt;a href="/member/InDom"&gt;InDom&lt;/a&gt; 他们只看你调好了几个设备，做了几件事情，发这些东西只会直接喷人&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#21 rocmax&lt;/strong&gt;：@&lt;a href="/member/MX11XM"&gt;MX11XM&lt;/a&gt; 理解，我经历过每天上班前要做心理建设的时期。提早抽身不是坏事，别给自己搞抑郁了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#22 yeatmeret&lt;/strong&gt;：理解，感觉很窒息，但是最好做好后手准备吧&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#23 meppy&lt;/strong&gt;：可以理解，刚工作的时候我也在客户现场被虐了 1 个多月，犹记得一边改需求一边就提离职了。。。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#24 meppy&lt;/strong&gt;：@&lt;a href="/member/liuliuliuliu"&gt;liuliuliuliu&lt;/a&gt; #16 有的就是名字好听，其实啥也不是&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#25 MX11XM&lt;/strong&gt;：@&lt;a href="/member/yeatmeret"&gt;yeatmeret&lt;/a&gt; 好嘞&lt;br/&gt;@&lt;a href="/member/meppy"&gt;meppy&lt;/a&gt; 哎，太难了啊，不知道老员工怎么坚持下来的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#26 qbmiller&lt;/strong&gt;：不用提离职，多历练下。等着被开，骑驴找马&lt;br/&gt;就是摆烂，周末就是不发，但干活了一定要发&lt;br/&gt;工作日 下班发一下就行。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#27 liuhuakawaii&lt;/strong&gt;：@&lt;a href="/member/summerwar"&gt;summerwar&lt;/a&gt; 意思就是休息日你要主动加班，看日报进度就是监督你&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#28 tqyq88&lt;/strong&gt;：OP 显然冲动了。而且这些日报啥的，用 ai 写就完了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#29 suzhou&lt;/strong&gt;：@&lt;a href="/member/tqyq88"&gt;tqyq88&lt;/a&gt; 就怕人家真看盯着你做了啥，你用 ai 写怎么搞&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#30 davis2023&lt;/strong&gt;：真的想走也摆烂啊，舒舒服服躺段时间，骑驴找马，再拿个大礼包不香么&lt;br/&gt;&lt;br/&gt;而且又是央企，估计能躺很长时间&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#31 MX11XM&lt;/strong&gt;：@&lt;a href="/member/tqyq88"&gt;tqyq88&lt;/a&gt; 现场调试设备和写代码不一样，调好了就是调好了，没调好就是没调好，编不了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#32 MX11XM&lt;/strong&gt;：@&lt;a href="/member/davis2023"&gt;davis2023&lt;/a&gt; 哎，不是想的这么简单，领导有的是折磨人的办法。也不想撕破脸吧，上面的领导还是不错的。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#33 dingawm&lt;/strong&gt;：怎么有些人纠结日报怎么写，让 AI 写日报啥的。重点不是休息日还要发进度日报吗？不是怎么写的问题，而是这件事给人压力很大，本来周末休息的时间，还得想着工作的事情。可能每个人抗压能力不太一样，我有点内耗，要是周末老板发个消息，周末会一直难受。&lt;br/&gt;每个人面临的具体情况和抗压能力都不太一样，不了解你的具体情况，不好说啥，只是说下我个人的感受&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#34 qiyilai&lt;/strong&gt;：央企下面的数科子公司吧，这种本质还是外包，和华为 od 原理一致&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#35 longzhou6431&lt;/strong&gt;：@&lt;a href="/member/qiyilai"&gt;qiyilai&lt;/a&gt; 哥哥一针见血&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#36 sddyzm&lt;/strong&gt;：推荐按一楼的路子走&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#37 cookii&lt;/strong&gt;：摆烂等开，如果有好的岗位可以自己走，没有的话就在那硬抗，也别让他舒服&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#38 HappyAndSmile&lt;/strong&gt;：楼主肯定是冲动了，但是年轻不冲动还叫年轻吗&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#39 qiuhang&lt;/strong&gt;：@&lt;a href="/member/rocmax"&gt;rocmax&lt;/a&gt; #7 尤其是那种甲方想要早点要，但是又不是真的很急的项目，好好沟通拉平双方的信息差的话，也不是没法协调。傻逼 pm 去一通保证，领回来个不可能完成的 deadline ，然后逼迫开发人员加班加点“窜稀式”敏捷开发。最后交出去一坨屎，最后还得帅锅开发人员技术水平差，bug 多......&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 26 Apr 2026 01:59:57 +0000</pubDate></item><item><title>立志用 Ai 把学英语相关的会员价格打下来 - “keykey 学英语”</title><link>https://www.v2ex.com/t/1208562</link><description>&lt;h2&gt;前言&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ai 时代，我不理解为什么好多学英语相关的软件工具，订阅费还那么贵。&lt;/li&gt;
+&lt;li&gt;实际上，我们经常会做一件事情，那就是冲动消费，然后放着不用，也许贵一点，能够提升自我情绪的满足感。&lt;/li&gt;
+&lt;li&gt;为此，耗时 6 个月我利用 Ai 开发了两个网站，立志把价格打下来&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;产品一 核心功能：&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;单词练习：敲键盘背单词，默写/不默写都行&lt;/li&gt;
+&lt;li&gt;句子练习：支持连词成句，有 Ai 跑的句子讲解&lt;/li&gt;
+&lt;li&gt;单词计划：允许选择词库计划每天学多少&lt;/li&gt;
+&lt;li&gt;复习系统：采用 FSRS v4 间隔算法 记忆加入系统的单词&lt;/li&gt;
+&lt;li&gt;影子跟读：跟读音频可选用 Ai 评分&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;产品二 核心功能：&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;全英视频 通过 Volg 切片字幕学英语，有标记重点词汇与词汇分类&lt;/li&gt;
+&lt;li&gt;听力精听 可以一句一句听，有四六级资源&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;产品寄语：&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;两个产品共用一套帐号(采用 sso 互联互通)&lt;/li&gt;
+&lt;li&gt;几乎不用付费，你也可以用&lt;/li&gt;
+&lt;li&gt;真正有需要，再考虑付费&lt;/li&gt;
+&lt;li&gt;15 块钱/季度 50 块钱/年 88 块钱/终身&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;# 走邀请码自动获得七天会员
+
+AD6WH6SJ
+
+# 或者直接复制链接注册
+
+https://keykey.cc/register?invite=AD6WH6SJ
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;&lt;strong&gt;在本帖留言，送三个月会员&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://keykey.cc" rel="nofollow"&gt;&lt;img alt="ai 单词卡截图" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/zPJl5FS.png" title="keykeycc"/&gt;&lt;/a&gt;
+&lt;a href="https://keykey.cc" rel="nofollow"&gt;&lt;img alt="句子练习截图" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/DTrsuVf.png" title="keykeycc"/&gt;&lt;/a&gt;
+&lt;a href="https://keykey.day" rel="nofollow"&gt;&lt;img alt="播放页面截图" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/W5rtKHn.jpeg" title="keykeyday"/&gt;&lt;/a&gt;
+&lt;a href="https://keykey.day/player/ep_en_146" rel="nofollow"&gt;&lt;img alt="播放页面截图" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/DVwqyKC.png" title="keykeyday"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;产品只打磨了几个月的日日夜夜，它还不够成熟，由于只有我一个人用 ai 开发测试、更新资源。&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;不喜勿喷，轻点喷也行&lt;/li&gt;
+&lt;li&gt;我会持续迭代&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;主站-登录注册在
+keykey.cc
+
+子产品网站地址在
+keykey.day
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;#1 Fifto&lt;/strong&gt;：建议使用电脑使用，移动端和平板体验没 pc 的好&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#2 RiCook&lt;/strong&gt;：支持一下。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#3 guisheng&lt;/strong&gt;：用户名：v2ex 感谢邀请。by the way 建议优先做好移动端 碎片化时间大部分在手机和 iPad 上。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#4 Fifto&lt;/strong&gt;：@&lt;a href="/member/guisheng"&gt;guisheng&lt;/a&gt; 移动端能用，但是没 pc 好用，会员已经分配，感谢支持&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#5 Fifto&lt;/strong&gt;：@&lt;a href="/member/RiCook"&gt;RiCook&lt;/a&gt; 感谢，老哥可以给我用户名&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#6 RiCook&lt;/strong&gt;：用户名：jide34&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#7 guisheng&lt;/strong&gt;：@&lt;a href="/member/Fifto"&gt;Fifto&lt;/a&gt; 为什么语境学习要单独开一个域名呢 在使用上非常不方便 你既然做好了 sso 为什么不让用户更简单的使用&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#8 nnsnow&lt;/strong&gt;：用户名：49042765  谢谢老哥&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#9 Fifto&lt;/strong&gt;：@&lt;a href="/member/guisheng"&gt;guisheng&lt;/a&gt; 因为两个产品路线规划不一样，为了方便开发维护，折中考虑，所以用 sso 来方便使用了。两个产品侧边栏都有互通入口，相当于连接起来。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#10 Fifto&lt;/strong&gt;：@&lt;a href="/member/RiCook"&gt;RiCook&lt;/a&gt; 感谢支持，已分配&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#11 Fifto&lt;/strong&gt;：@&lt;a href="/member/nnsnow"&gt;nnsnow&lt;/a&gt; 感谢支持，已经分配&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#12 webfamer&lt;/strong&gt;：用户名：webfamer&lt;br/&gt;&lt;br/&gt;发现了个 bug ，句子练习，第一个 h 一直输入不了 &lt;a href="https://i.imgur.com/4aQGb1J.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/4aQGb1J.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#13 Fifto&lt;/strong&gt;：@&lt;a href="/member/webfamer"&gt;webfamer&lt;/a&gt; 输入法切一下英文&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#14 Fifto&lt;/strong&gt;：@&lt;a href="/member/webfamer"&gt;webfamer&lt;/a&gt; 感谢支持，已分配 webfamer&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#15 needpp&lt;/strong&gt;：用户：myduck&lt;br/&gt;谢谢老板&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#16 Fifto&lt;/strong&gt;：@&lt;a href="/member/needpp"&gt;needpp&lt;/a&gt; 已经分配，感谢支持&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#17 zhaoolee&lt;/strong&gt;：用户名：zhaoolee&lt;br/&gt;谢谢老板&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#18 nikoxie&lt;/strong&gt;：用户名：nikoxie&lt;br/&gt;谢谢老板&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#19 liaohongxing&lt;/strong&gt;：有没有少儿/小学/中学/高中词库啊，比较短的，常见的，好记的，我可以让孩子练习下&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#20 pepsiwant&lt;/strong&gt;：用户名  summer&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#21 pepsiwant&lt;/strong&gt;：建议添加支持 outlook 邮箱&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#22 Fifto&lt;/strong&gt;：@&lt;a href="/member/zhaoolee"&gt;zhaoolee&lt;/a&gt; 感谢支持，分配好了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#23 Fifto&lt;/strong&gt;：@&lt;a href="/member/nikoxie"&gt;nikoxie&lt;/a&gt; 感谢支持，分配好了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#24 liaohongxing&lt;/strong&gt;：页面挺好看的，是 reat 写的吗，用的什么 ui&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#25 Fifto&lt;/strong&gt;：@&lt;a href="/member/pepsiwant"&gt;pepsiwant&lt;/a&gt; 有支持的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#26 Fifto&lt;/strong&gt;：@&lt;a href="/member/liaohongxing"&gt;liaohongxing&lt;/a&gt; 都有的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#27 Fifto&lt;/strong&gt;：@&lt;a href="/member/pepsiwant"&gt;pepsiwant&lt;/a&gt; 分配好了，感谢支持&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#28 Fifto&lt;/strong&gt;：@&lt;a href="/member/liaohongxing"&gt;liaohongxing&lt;/a&gt; 用的是 radix-ui ，和 ai 打磨了挺久的，改了好几次才有现在这个效果&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#29 cs10086&lt;/strong&gt;：没必要把价格打下来，你定你合适的价就行了。价格太低你坚持不下去会烂尾。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#30 Fifto&lt;/strong&gt;：@&lt;a href="/member/cs10086"&gt;cs10086&lt;/a&gt; 我定他们价格的 30%就可以，实际上有 ai 帮助，目前维护成本和时间都还行。如果不增加新功能的话。新功能一般要打磨几天。平时维护几个小时就行。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#31 yrk20212021&lt;/strong&gt;：用户 kerry&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#32 Fifto&lt;/strong&gt;：@&lt;a href="/member/yrk20212021"&gt;yrk20212021&lt;/a&gt; 分配好了，感谢支持&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#33 MasterCai&lt;/strong&gt;：用户 a719591339 感谢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#34 chenwenup&lt;/strong&gt;：用户名 Mia&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 25 Apr 2026 18:54:41 +0000</pubDate></item><item><title>什么成品企业级 NAS 方便维修？</title><link>https://www.v2ex.com/t/1208529</link><description>前情提要： &lt;a href="https://www.v2ex.com/t/1200956#" target="_blank"&gt;https://www.v2ex.com/t/1200956#&lt;/a&gt;&lt;br/&gt;电脑装好开机了，我有事就提前离开了，群晖系统镜像刚下到 Windows 上面。&lt;br/&gt;电脑关机关了两周（后面没关），接的 ups ，ups 接的三孔，两周没断电&lt;br/&gt;今天再点亮，表现出主板带电情况：&lt;br/&gt;点一下电源键，电源和 cpu 风扇转一下就不转了。&lt;br/&gt;然后经历漫长的放电操作，把电源线搞坏了：插上后（主机的电源侧）能听见电流声，风扇也不转了&lt;br/&gt;出电流声之前的期间成功点亮进入了 BIOS 界面，但是把电脑竖放起来就黑屏了，风扇也不转了。&lt;br/&gt;买了根电源线去尝试，新电源线不至于走一次放电操作从而风扇不转了。随后又是漫长的放电过程，也没放掉电，仍表现出主板带电。&lt;br/&gt;&lt;br/&gt;老板也没耐心了，想买成品 nas 了，当简单的沉没成本的。&lt;br/&gt;&lt;br/&gt;放电过程：&lt;br/&gt;拔掉电源线，关掉电源（主机侧），扣下电池和内存条，用电池（侧边）/钥匙/螺丝刀划电池槽的金属片（含短接相连），按住开机键几秒，放上电池和单根内存条，再按几秒开机键。插上电源线，打开开关，启动。&lt;br/&gt;&lt;br/&gt;买成品 Nas 有个问题：买到成品 Nas 也出静电问题怎么办，维修肯定比台式机难，这是个大难题。&lt;br/&gt;&lt;br/&gt;Nas 需求：4-6 盘位，自动从 oss 上拉取数据到本地上。hdd 还没有购买。如果购买的话，SAS 与 SATA 不好选择。属于那种期望兼容后续买服务器的状态。至少在相当长的时间内，没有这个正经服务器需求。
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 Panameragt&lt;/strong&gt;：RS822RP+&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#2 lujiaosama&lt;/strong&gt;：白群晖，出问题就返厂呗，难道还自己超胳膊上啊。 正经服务器需求就另外搞一部机器装个 PVE 用。NAS 就当存储，什么 docker 啥的不要在上面折腾，难用得一批。&lt;/p&gt;&lt;hr/&gt;
@@ -34,7 +159,11 @@
 &lt;p&gt;&lt;strong&gt;#31 unusualcat&lt;/strong&gt;：@&lt;a href="/member/huaweii"&gt;huaweii&lt;/a&gt; 估计是斯波图老张这种捡垃圾视频看多了&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#32 Donahue&lt;/strong&gt;：@&lt;a href="/member/NewYear"&gt;NewYear&lt;/a&gt; #4 就是自己组装也不应该用这么旧的硬件。。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#33 jonty&lt;/strong&gt;：你根本没搞清楚 nas 和 lab 的区别&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#34 01802&lt;/strong&gt;：公司这情况就一切搞云端吧，实体的太危险&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 25 Apr 2026 14:03:14 +0000</pubDate></item><item><title>支付宝的天塌了，新出的《金融产品网络营销管理办法》基本完全干死了余额宝和花呗</title><link>https://www.v2ex.com/t/1208526</link><description>按《办法》第十二条 非银行支付机构不得将贷款、资产管理产品等金融产品列入支付工具选项，不得为贷款、资产管理产品等金融产品提供营销服务。&lt;br/&gt;余额宝和花呗不再能作为支付选项了，当然更不能花呗分期了，不知道支付宝会怎么应对&lt;br/&gt;16 年的时候好像也有一次，但被阿里成功强行合规绕过去了（ &lt;a href="https://help.alipay.com/lab/help_detail.htm?help_id=201603305335&amp;amp;keyword=3" rel="nofollow noopener" target="_blank"&gt;https://help.alipay.com/lab/help_detail.htm?help_id=201603305335&amp;amp;keyword=3&lt;/a&gt; ) 从余额宝直接支付改成了自动指令，感觉完全是玩文字游戏.jpg&lt;br/&gt;这次是直接禁止了作为支付选项，那基本整个交互逻辑就走不通了&lt;br/&gt;然后这次《办法》里第二十条、第二十四条还规定了禁止品牌混同，支付宝不再能依靠余额宝这个强品牌给天弘基金等金融机构引流&lt;br/&gt;我感觉如果严格按《办法》来做的话，支付宝整个产品页面估计都得大改，理财功能都不能出现在 app 里，怪不得前一天被推送安装蚂蚁财富呢（那个 app 基本就是支付宝理财功能独立出来做的哈哈）
+&lt;p&gt;&lt;strong&gt;#34 01802&lt;/strong&gt;：公司这情况就一切搞云端吧，实体的太危险&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#35 234ygg&lt;/strong&gt;：企业级基本都不会坏，问题一般出在没有在企业级环境里运行，比如&lt;br/&gt;交流电不干净 异常震动 温度不合适 灰尘没做过滤 不定期换硬盘 硬盘选择不合适&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#36 Brightt&lt;/strong&gt;：@&lt;a href="/member/Co1e"&gt;Co1e&lt;/a&gt; 找你是有优惠吗&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#37 ihwbunny&lt;/strong&gt;：@&lt;a href="/member/ryd994"&gt;ryd994&lt;/a&gt; 没错, 我也是没看懂题主为啥搞那些操作, 电源线 cmos 这些都是基本很少出问题的. 居然还能"把电源线搞坏了", 没听说过这是啥操作, 还是和我想象的不一样. 现在的电脑, 连续开机几个星期就出问题, 以为这是 3/40 年前呢? 这是个野路子出家的. 给企业至少配个企业的主板,ecc 内存,电源啥的.&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#38 int80&lt;/strong&gt;：被群里垃圾佬骗了，哪个垃圾佬组来是正经用的？&lt;br/&gt;都说了要便宜硬盘盒+千把块钱的小主机+truenas ，我用两年多了一点问题没有，就算小主机炸了硬盘盒插另一台电脑上完全没问题&lt;br/&gt;还有很多人不知道他老板其实也是学生，现在群晖性价比着实低了，明明有更好的方案偏要二极管&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 25 Apr 2026 14:03:14 +0000</pubDate></item><item><title>支付宝的天塌了，新出的《金融产品网络营销管理办法》基本完全干死了余额宝和花呗</title><link>https://www.v2ex.com/t/1208526</link><description>按《办法》第十二条 非银行支付机构不得将贷款、资产管理产品等金融产品列入支付工具选项，不得为贷款、资产管理产品等金融产品提供营销服务。&lt;br/&gt;余额宝和花呗不再能作为支付选项了，当然更不能花呗分期了，不知道支付宝会怎么应对&lt;br/&gt;16 年的时候好像也有一次，但被阿里成功强行合规绕过去了（ &lt;a href="https://help.alipay.com/lab/help_detail.htm?help_id=201603305335&amp;amp;keyword=3" rel="nofollow noopener" target="_blank"&gt;https://help.alipay.com/lab/help_detail.htm?help_id=201603305335&amp;amp;keyword=3&lt;/a&gt; ) 从余额宝直接支付改成了自动指令，感觉完全是玩文字游戏.jpg&lt;br/&gt;这次是直接禁止了作为支付选项，那基本整个交互逻辑就走不通了&lt;br/&gt;然后这次《办法》里第二十条、第二十四条还规定了禁止品牌混同，支付宝不再能依靠余额宝这个强品牌给天弘基金等金融机构引流&lt;br/&gt;我感觉如果严格按《办法》来做的话，支付宝整个产品页面估计都得大改，理财功能都不能出现在 app 里，怪不得前一天被推送安装蚂蚁财富呢（那个 app 基本就是支付宝理财功能独立出来做的哈哈）
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 p4d9k&lt;/strong&gt;：很多银行提供类余额宝可以直接扣款，所以微众和网商应该可以继续。花呗就不知道了。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#2 mooyo&lt;/strong&gt;：阿里主推现在是余利宝吧。这个是网上银行的渠道。扣款走网商银行扣然后再扣余利宝应该是合规的&lt;/p&gt;&lt;hr/&gt;
@@ -83,7 +212,20 @@
 &lt;p&gt;&lt;strong&gt;#45 imicksoft&lt;/strong&gt;：对我影响不大，以前把余额设置成自动转余额宝，这两年改为自动转余利宝了，因为余利宝里有钱可以有相应的余额免费提现额度。&lt;br/&gt;不能营销的话，那支付宝里还能买基金么？如果不能，那些红包薅羊毛的机会就没有了。&lt;br/&gt;当然为了拉新和保活，羊毛肯定还是有，只是要单独装其他 app 了。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#46 PrinceofInj&lt;/strong&gt;：@&lt;a href="/member/fubenzema"&gt;fubenzema&lt;/a&gt; 学生能办下有额度的信用卡才不正常，有还款能力么？&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#47 expy&lt;/strong&gt;：最好别在支付界面推销小贷，京东美团支付宝都碰见过，稍微不注意就用了信用支付。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#48 gangsta&lt;/strong&gt;：好事儿，整治的是什么 XX 月付之类的，甚至几大运营商自家的官方 APP 交个话费都难，默认的「立即支付」按钮大而显眼，点了就开一个乱七八糟的金融产品，传统的微信/支付宝按钮颜色淡，小到你找不到，或者在「放弃福利」后才给你显示。&lt;br/&gt;该管管了，老年人中招的太多了。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 25 Apr 2026 13:41:29 +0000</pubDate></item><item><title>有两种永生的方式，我该选择哪一个</title><link>https://www.v2ex.com/t/1208518</link><description>1 ，从当前状态起，不生病，不衰老，不死亡。但是遇到天灾人祸会死。&lt;br/&gt;&lt;br/&gt;2 ，从当前状态起，活 3 年后带着记忆回到当前状态，如果死了就直接回到当前状态，如此循环。
+&lt;p&gt;&lt;strong&gt;#48 gangsta&lt;/strong&gt;：好事儿，整治的是什么 XX 月付之类的，甚至几大运营商自家的官方 APP 交个话费都难，默认的「立即支付」按钮大而显眼，点了就开一个乱七八糟的金融产品，传统的微信/支付宝按钮颜色淡，小到你找不到，或者在「放弃福利」后才给你显示。&lt;br/&gt;该管管了，老年人中招的太多了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#49 summerwar&lt;/strong&gt;：会干死其他第三方，支付宝的余额宝和花呗会绕过去走另外一条路&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#50 zxcslove&lt;/strong&gt;：我可以看到的是所有理财投资借贷如果要做软件就必须独立制作，不能依附任何软件应用存在。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#51 zxcslove&lt;/strong&gt;：纠错：可以/乐意&lt;br/&gt;我乐意看到的是所有理财投资借贷如果要做软件就必须独立制作，不能依附任何软件应用存在。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#52 hertzry&lt;/strong&gt;：家人们谁懂啊，天塌多少次了。&lt;br/&gt;不要把小红书的语法带过来。🤮&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#53 talarion&lt;/strong&gt;：强烈支持。花呗关闭了，但是每次支付都会出来让你开。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#54 hiapk&lt;/strong&gt;：国内 app 没有借钱功能和入口，都不配说自己做的是互联网&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#55 cmdOptionKana&lt;/strong&gt;：看了这贴我才第一次知道余利宝，第一次下载网商银行，然后立即在里面买了一堆理财&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#56 loading&lt;/strong&gt;：要加强数字￥建设，这是必然的。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#57 Sawyerhou&lt;/strong&gt;：我个人觉得影响不会很大。信贷产品不放在支付工具里就好了。以前 花呗、余额宝... 和 银行卡、余额... 支付是放在一起的，以后把入口分开就行了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#58 fubenzema&lt;/strong&gt;：@&lt;a href="/member/PrinceofInj"&gt;PrinceofInj&lt;/a&gt; 存款，信用记录不都是还款能力的证明吗？全世界也就东大不给学生办信用卡&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#59 Sharuru&lt;/strong&gt;：就阿里的尿性，到时候冷不丁的给你来一个“一键升级”，余额宝去他那个网商银行就好了。&lt;br/&gt;&lt;br/&gt;枪毙花呗我双手赞成，每次支付都特么要弹出来开通。虽然肯定也有“一键升级”就是了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#60 GeorgeV&lt;/strong&gt;：支付宝已经被国家入股了吧，所以理论而言，无论出台什么新规，其他的支付 app 只会比支付宝更受政策冲击。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#61 Orange2269&lt;/strong&gt;：一个支付产品，做了一个最卡的 APP ，老人手机打开卡半天，建议早死&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 25 Apr 2026 13:41:29 +0000</pubDate></item><item><title>有两种永生的方式，我该选择哪一个</title><link>https://www.v2ex.com/t/1208518</link><description>1 ，从当前状态起，不生病，不衰老，不死亡。但是遇到天灾人祸会死。&lt;br/&gt;&lt;br/&gt;2 ，从当前状态起，活 3 年后带着记忆回到当前状态，如果死了就直接回到当前状态，如此循环。
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 xjepiaojiangu&lt;/strong&gt;：第二种啥意思。活 3 年后，带着记忆回到当前状态。意思就是过了三年后，时间又倒流，回到了三年前，但是你却有了未来三年的记忆吗？&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#2 june4&lt;/strong&gt;：1 明显是不可持续的，千万年后，别人都进化了，你相对成了猴子&lt;/p&gt;&lt;hr/&gt;
@@ -129,59 +271,17 @@
 &lt;p&gt;&lt;strong&gt;#42 ciaoca&lt;/strong&gt;：1 = 那个男人来自地球&lt;br/&gt;2 = 土拨鼠之日&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#43 cmdOptionKana&lt;/strong&gt;：@&lt;a href="/member/xjepiaojiangu"&gt;xjepiaojiangu&lt;/a&gt; AI 和上面很多人一样，受到了小说和影视作品的影响，产生了错误的判断。&lt;br/&gt;&lt;br/&gt;小说和影视作品是作者设计好的，为了讲好一个有限的故事而强行限制主角的自由，例如强加给他一个执念（例如为了真爱、为了报仇）。&lt;br/&gt;&lt;br/&gt;但 OP 这个假设则完全不一样，我们没有执念，也没有“作者”来影响我们的行为，可以不断发生新的故事，哪来的牢笼？&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#44 cmdOptionKana&lt;/strong&gt;：@&lt;a href="/member/xjepiaojiangu"&gt;xjepiaojiangu&lt;/a&gt; 而且 AI 也不会主动告诉你选择 1 的缺点，不老不死，必然无法隐藏，会引来多少眼睛的觊觎，为了问你“长生”的秘密把你抓起来毒打一顿都算轻的。而且对于一个能长生的人来说，死亡威胁就是最大的软肋，随便一个穷人来打劫，你都只能给钱，因为你有信心把钱赚回来，也不会轻易放弃长生。AI 不知道人心险恶。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#45 cmdOptionKana&lt;/strong&gt;：凡是帝皇，都无法抵抗长生的诱惑。这意味着，当一个大资本家、大政治家知道你是长生之人时，是必然会来限制你的活动自由，因为他无法忍受被其他大资本家来抢夺你，那就只好把你藏起来。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 25 Apr 2026 13:06:09 +0000</pubDate></item><item><title>关于部分地区“白名单”有何绕行方案？</title><link>https://www.v2ex.com/t/1208494</link><description>&lt;p&gt;坐标福州，在二几年的时候突然启用了"白名单"，如果域名未备案，且域名解析的是境外 IP 地址，则福州运营商网络均无法访问该域名，这样子就不能用域名伪装了，只有明文 IP 能访问，但是明文 IP 有风险，很容易被 GFW 检查到并且直接封禁 IP ，请问各位大佬有什么比较好的绕行方案？还是说只能买中转机？&lt;/p&gt;
-&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;#1 goleben&lt;/strong&gt;：你不用 cdn ，即使用了域名，ip 不也还是暴露了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#2 CNCN666&lt;/strong&gt;：用外卡呢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#3 ldy619354397&lt;/strong&gt;：@&lt;a href="/member/goleben"&gt;goleben&lt;/a&gt; 域名伪装+反向代理最多封端口&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#4 ldy619354397&lt;/strong&gt;：@&lt;a href="/member/CNCN666"&gt;CNCN666&lt;/a&gt; 外卡是啥，求教&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#5 jackOff&lt;/strong&gt;：@&lt;a href="/member/ldy619354397"&gt;ldy619354397&lt;/a&gt; 香港卡这种旅游全球流量卡，贵的一笔，但是能绕过防火墙，当然能出国旅游的不差钱&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#6 ldy619354397&lt;/strong&gt;：@&lt;a href="/member/jackOff"&gt;jackOff&lt;/a&gt; 绕过防火墙没意义啊，我需要的是稳定和速度&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#7 jackOff&lt;/strong&gt;：@&lt;a href="/member/ldy619354397"&gt;ldy619354397&lt;/a&gt; 钱够多这玩意就不是问题，你要是能一年掏出几万块，帮个个人公司申请官方对外宽带 10m 的足够稳定了，钱更多直接移民四小龙，钱不够多就只能在机场里万人骑，物理线路在官方手上，理论上只有官方贵的要死的套餐才是稳定的，或者找份出差亚洲或者非洲的工作，什么光伏、基建、海员啥的，既能廉价出国，又能肉身翻墙，也能旱涝保收&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#8 ldy619354397&lt;/strong&gt;：@&lt;a href="/member/jackOff"&gt;jackOff&lt;/a&gt; 这不找便宜的折中方案，不然就只能中转机了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#9 kirbyzhu&lt;/strong&gt;：cdn 可破&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#10 liuzimin&lt;/strong&gt;：为啥是明文 IP ？现在不是也有 IP 的 SSL 证书吗？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#11 x86&lt;/strong&gt;：走国内中转呗&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#12 ldy619354397&lt;/strong&gt;：@&lt;a href="/member/liuzimin"&gt;liuzimin&lt;/a&gt; IP 的 SSL 证书也不是明文 IP 吗&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#13 ldy619354397&lt;/strong&gt;：@&lt;a href="/member/x86"&gt;x86&lt;/a&gt; 国内中转有推荐吗&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#14 ldy619354397&lt;/strong&gt;：@&lt;a href="/member/kirbyzhu"&gt;kirbyzhu&lt;/a&gt; 国内的 CDN 不备案是部署不了的，国外的 CDN 也应该是被墙的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#15 frankies&lt;/strong&gt;：xcdn xicmp xdrive&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#16 frankies&lt;/strong&gt;：@&lt;a href="/member/frankies"&gt;frankies&lt;/a&gt; xdns ，打错了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#17 realpg&lt;/strong&gt;：备案域名解析到国外 IP 有限制吗？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#18 june4&lt;/strong&gt;：ipv6?&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#19 soyyyy&lt;/strong&gt;：你不会用了 XYZ 这种域名吧，我这城市 XYZ 域名解析别说国外，国内出省都快一刀切，我买了六七个类型域名才解决，现在用的域名三大运营商都不会墙，很确定是我这省墙给干了，出差去别的省，那些不能访问的域名是正常的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#20 xyz3210&lt;/strong&gt;：@&lt;a href="/member/soyyyy"&gt;soyyyy&lt;/a&gt; 我的就是 xyz ，用的 clouaflare&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#21 phithon&lt;/strong&gt;：翻墙的配置文件里，域名不是自己随便配的吗，配一个备案过的域名，或者甚至配一个 &lt;a href="http://baidu.com" rel="nofollow noopener" target="_blank"&gt;baidu.com&lt;/a&gt; 这种域名就行了吧&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#22 soyyyy&lt;/strong&gt;：@&lt;a href="/member/xyz3210"&gt;xyz3210&lt;/a&gt; 我之前走过一个弯路，就是一个 &lt;a href="http://111.xxx.xyz" rel="nofollow noopener" target="_blank"&gt;111.xxx.xyz&lt;/a&gt; 的域名，解析到我一台 VPS 上，怎么操都没事，但是如果这把 &lt;a href="http://222.xxx.xyz" rel="nofollow noopener" target="_blank"&gt;222.xxx.xyz&lt;/a&gt; 域名解析到这台 VPS 上还是别的 VPS 上都是被墙的，哪个不被墙的 &lt;a href="http://111.xxx.xyz" rel="nofollow noopener" target="_blank"&gt;111.xxx.xyz&lt;/a&gt; 解析到另外一台 VPS 上，也马上被墙，导致我一开始终查不出来原因，后面无意对换解析的 VPS 才发行的，也不知道我这省墙是不是出 BUG 了，把 &lt;a href="http://111.xxx.xyz" rel="nofollow noopener" target="_blank"&gt;111.xxx.xyz&lt;/a&gt; 解析到我那台 VPS 的 IP 组合给放进白名单去了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#23 lan894734188&lt;/strong&gt;：加钱世界可及&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#24 acaiplus&lt;/strong&gt;：reality 协议选个在白名单的域名就行了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#25 expy&lt;/strong&gt;：域名伪装和明文 IP 有什么区别？伪装一般不就是 SNI 放个假域名然后直接连么。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 25 Apr 2026 09:44:31 +0000</pubDate></item><item><title>推荐个 mac 的显示器吧？ 618 想搞一个</title><link>https://www.v2ex.com/t/1208488</link><description>&lt;p&gt;2000 左右的&lt;/p&gt;
-&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;#1 LuoboLau&lt;/strong&gt;：Redmi GPro 27U 2026 ，2600+&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#2 wangritian&lt;/strong&gt;：最近咸鱼淘了个 5k2k120hz 的带鱼屏，刚好 2000&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#3 twjacy3&lt;/strong&gt;：@&lt;a href="/member/LuoboLau"&gt;LuoboLau&lt;/a&gt; 这个不错&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#4 deepix&lt;/strong&gt;：楼主用什么设备?  Mac mini?&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#5 0bit0&lt;/strong&gt;：@&lt;a href="/member/deepix"&gt;deepix&lt;/a&gt; 还没买？打算等 M5 ，哈哈&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#6 0bit0&lt;/strong&gt;：@&lt;a href="/member/LuoboLau"&gt;LuoboLau&lt;/a&gt; 红米 G27U 2026 是不是也行&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#7 Smilencer&lt;/strong&gt;：5k 屏，我种草了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#8 hxpmc&lt;/strong&gt;：@&lt;a href="/member/0bit0"&gt;0bit0&lt;/a&gt; #6 记得论坛里面有个被推荐红米然后后悔的，建议 op 搜下&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#9 Yien&lt;/strong&gt;：三星 M7 或 M8 ，32 寸 4K&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#10 HB9527&lt;/strong&gt;：Apple Studio Display XDR&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#11 captain2011&lt;/strong&gt;：一步到位未来视野的，5k &lt;br/&gt;&lt;br/&gt;aHR0cHM6Ly91LmpkLmNvbS9mT2JlNHFz&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#12 TAFMT&lt;/strong&gt;：未来视野家屏幕和 mac 很搭，显示效果、质感很棒&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#13 imqiyue&lt;/strong&gt;：推荐 5k 显示器，两年前淘的 lg ultra fine27 寸显示效果很棒&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#14 imqiyue&lt;/strong&gt;：@&lt;a href="/member/imqiyue"&gt;imqiyue&lt;/a&gt; 抱歉，没注意审题，二手都超预算了，不好意思&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#15 darrh00&lt;/strong&gt;：studio display xdr 纳米纹理 升降支架&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#16 mbooyn&lt;/strong&gt;：@&lt;a href="/member/TAFMT"&gt;TAFMT&lt;/a&gt; 雾面屏抬走&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#17 kuentin&lt;/strong&gt;：我前几年用三星 m7&lt;br/&gt;现在用 tcl 55 寸 mini led 电视来当显示器，亮度高，比 m7 m8 强太多了&lt;br/&gt;画质也是绝了，电视的音响也出色&lt;br/&gt;144 高刷真舒服，搭配三脚架立起来，又漂亮&lt;br/&gt;价格太划算了&lt;br/&gt;&lt;a href="https://imgur.com/a/Rmy6WQJ" rel="nofollow noopener" target="_blank"&gt;https://imgur.com/a/Rmy6WQJ&lt;/a&gt;&lt;br/&gt;要说唯一的不爽，那就是要是 6k 8k 就好了&lt;br/&gt;下一次换机估计就可以了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#18 adamwang&lt;/strong&gt;：@&lt;a href="/member/kuentin"&gt;kuentin&lt;/a&gt; 请问这个是 TCL 哪个型号呢？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#19 dufu1991&lt;/strong&gt;：记住，使用 Mac 的话，4K 对应 24 寸，5K 对应 27 寸。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#20 kuentin&lt;/strong&gt;：@&lt;a href="/member/adamwang"&gt;adamwang&lt;/a&gt; 随便啊，我的意思是随便哪个高刷大屏幕都很爽，还便宜&lt;br/&gt;挑个 2000 尼特高亮的也不会太贵&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#21 kerwin1874&lt;/strong&gt;：我的比较普通，就普通 4k 60hz 27 寸感觉效果就很好了，当年 699 买的，感觉很值。主要分辨率够了清晰度真的不错，27 寸 4k 算是 Mac 最有性价比的参数选择了吧，就是图标字体大了些，但是看习惯了感觉对眼睛更好。&lt;br/&gt;&lt;br/&gt;如果再换显示器，预算比较够的话我可能会买 27 寸 4k 144hz 的 miniLED ，高刷保证看网页信息流舒服，miniLED 能达到 Pro 自带显示屏的 6 成 HDR 效果看电影的话，我也能不用每次看 HDR 电影都要断开外接显示器用 MacBook 本身的屏幕来看了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#22 jmtsai&lt;/strong&gt;：小米的 27 寸 4K 显示器，60HZ ，其实也挺好用的了…（虽然我现在想换成 32 寸的…&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#23 AiBoy&lt;/strong&gt;：也在找实惠的 5k 屏。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#24 IM1T&lt;/strong&gt;：4k 144hz ＞ 5k 60hz&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#25 Superoutman&lt;/strong&gt;：优派 4K 24 寸 硬件防蓝光 不到一千&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#26 hash&lt;/strong&gt;：未来视野 最便宜的非野鸡 5k&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#27 iyg429&lt;/strong&gt;：联合创新  28ud1 不过现在已经有新型号了  2 年前  899 买的 当时的口号是：普及 4K  没有一点毛病 ，如果预算不足 可以买&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#28 Alwaysonline&lt;/strong&gt;：淘宝买了个杂牌 27 寸 5K .&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 25 Apr 2026 08:47:02 +0000</pubDate></item></channel></rss>
+&lt;p&gt;&lt;strong&gt;#45 cmdOptionKana&lt;/strong&gt;：凡是帝皇，都无法抵抗长生的诱惑。这意味着，当一个大资本家、大政治家知道你是长生之人时，是必然会来限制你的活动自由，因为他无法忍受被其他大资本家来抢夺你，那就只好把你藏起来。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#46 niboy&lt;/strong&gt;：选 2 ，不会真的死，1 可能会死，就像地震、车祸、战争这样的。&lt;br/&gt;&lt;br/&gt;就算我几十年打同一款游戏，初始值可以一样，但每次打法都可以不一样，体验也会不一样&lt;br/&gt;&lt;br/&gt;当然，当前状态也很重要，是正值巅峰的健全青壮年还是小孩还是老头还是残疾人？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#47 superdotcom&lt;/strong&gt;：美剧《不死法医》，想不老不死，那种应该是最理想&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#48 woniu7&lt;/strong&gt;：2 啊，1 会被抓起来研究&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#49 ysxb1145&lt;/strong&gt;：@&lt;a href="/member/xjepiaojiangu"&gt;xjepiaojiangu&lt;/a&gt; #31 @&lt;a href="/member/Livid"&gt;Livid&lt;/a&gt; AI 内容&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#50 hevi&lt;/strong&gt;：那肯定 1 啊，活腻了可以自杀。&lt;br/&gt;选 2 的话，没什么深度人生体验，因为你知道后面要刷新了，优点就是 3 年内可能不缺钱了 ：D&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#51 biubiula&lt;/strong&gt;：2 也有个问题，你的记忆只存在你自己，某一天回首，跟你一起创造记忆的人可能现在还只是个陌生人，当有一天对新鲜事物没了乐趣，过往也会变得空虚&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#52 artiga033&lt;/strong&gt;：首先我不想永生，所以选 1&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#53 icyalala&lt;/strong&gt;：1 只是现实的延续，你是自由的，当你厌倦了可以选择死亡&lt;br/&gt;2 是诅咒和牢笼&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#54 cmdOptionKana&lt;/strong&gt;：@&lt;a href="/member/biubiula"&gt;biubiula&lt;/a&gt; &lt;br/&gt;@&lt;a href="/member/icyalala"&gt;icyalala&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;2 会失去新鲜感，是诅咒和牢笼，只是小说和影视作品的夸大其辞而已。&lt;br/&gt;&lt;br/&gt;如果摒弃掉小说和电影的影响，重新思考这个事情，会发现 3 年循环可以获得永远的新鲜感以及无穷无尽的可能性。&lt;br/&gt;&lt;br/&gt;举个例子，你去一个地方旅游，吃当地的特色美食，隔三年再去，会没有新鲜感吗？大概率还是可以获得很好的体验。&lt;br/&gt;&lt;br/&gt;更何况，这个三年循环，其实可以做到隔 30 年再重游旧地，因为每次循环完全可以去不同的地方，隔 10 次循环再回去已经记忆模糊的地方。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#55 cmdOptionKana&lt;/strong&gt;：其实我们正常生活，每天能吃多少新奇的东西？也没多少，经常重复，也不会太厌倦。因为一个人只要身体健康，饿了吃东西就一定能获得享受，这是人体生理决定的，受经验和心理的影响不会很大。&lt;br/&gt;&lt;br/&gt;只要身体健康，累了睡觉就一定舒服，精力充沛的时候做运动就一定愉悦，这些都是生理反应，只要身体不老，就必然能获得这些快乐。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#56 leo72638&lt;/strong&gt;：@&lt;a href="/member/cmdOptionKana"&gt;cmdOptionKana&lt;/a&gt; 但世界不会产生新内容，你看的电视电影听的音乐玩的游戏甚至包括产生的梗和八卦全都限死了，你只能体验已有的内容。现实中现存的内容当然非常非常多，但在无限的时间面前就不值一提了，而且没有退出机制，必须强制永恒执行。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#57 asuraa&lt;/strong&gt;：你就别说三年了，就是一年我也选二啊，无敌剧本嘛&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#58 cmdOptionKana&lt;/strong&gt;：@&lt;a href="/member/leo72638"&gt;leo72638&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;古典音乐，固定的老曲子，现在还是很多人爱听，而且花一辈子苦练乐器且乐在其中的人也很多。&lt;br/&gt;&lt;br/&gt;一首老歌，10 年后重新听，会不好听吗，通常会感觉更好听。&lt;br/&gt;&lt;br/&gt;梗和八卦不重要。&lt;br/&gt;&lt;br/&gt;小说影视等对于普通人来说很重要，但对于有能力享受现实生活的富二代来说就可有可无了，如果我能 3 年循环，那我也能尽情享受现实世界，还不怕死，不怕破产，可以挥金如土，现存的海量内容偶尔看看作为点缀，完全够用。&lt;br/&gt;&lt;br/&gt;在这种情况下，没有烦恼，没有心结，有仇直接报仇，心理上精神上不会出问题，就没有退出的必要性。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 25 Apr 2026 13:06:09 +0000</pubDate></item></channel></rss>

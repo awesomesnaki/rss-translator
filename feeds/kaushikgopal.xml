@@ -1,5 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kaushik Gopal's Website (中文)</title><link>https://kau.sh/</link><description>近期内容 - Kaushik Gopal 的网站</description><language>zh-CN</language><lastBuildDate>Fri, 03 Apr 2026 00:00:00 +0000</lastBuildDate><item><title>我们正在成为驾驭工程师</title><link>https://kau.sh/blog/harness-engineers/</link><description>&lt;p&gt;软件工程师的角色正在转变。不是转向编写更多代码，而是转向构建让智能体可靠运行的环境。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kaushik Gopal's Website (中文)</title><link>https://kau.sh/</link><description>近期内容 - Kaushik Gopal 的网站</description><language>zh-CN</language><lastBuildDate>Sat, 25 Apr 2026 07:00:00 +0000</lastBuildDate><item><title>特工格斗</title><link>https://kau.sh/blog/agent-kombat/</link><description>&lt;p&gt;如今我看到的大多数多智能体编码设置都像是任务并行。你把工作拆分，把每个部分交给不同的智能体，最后合并结果。&lt;/p&gt;
+&lt;p&gt;这很有用。我也这么做。但我一直在尝试一种不同的方法，而且非常喜欢：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在信任方案之前，让两个智能体处理同一个问题，并让它们进行&lt;em&gt;建设性&lt;/em&gt;的争论。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;手动版本很简单：我启动Claude Code（Opus 4.7），让它起草一个方案：&lt;code&gt;my-plan-claude.md&lt;/code&gt;。然后我启动Codex（GPT-5.5），让它为同样的需求起草一个方案：&lt;code&gt;my-plan-codex.md&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;现在，有用的部分开始了……&lt;/p&gt;
+&lt;p&gt;我让Claude阅读Codex的方案，借鉴其中更好的部分，更新自己的方案，并给我一份Codex方案的具体缺陷清单。然后我把这些缺陷带回给Codex，让它做同样的事情：阅读Claude更新后的方案，借鉴好的部分，辩护或修复薄弱之处，并更新&lt;code&gt;my-plan-codex.md&lt;/code&gt;。然后再回到Claude。&lt;/p&gt;
+&lt;p&gt;我大约重复三次。这个方法出奇地有效。最终的方案通常比任何一个模型首次一次性生成的方案要好得多。每个模型都迫使另一个模型从略微不同的角度看待问题。&lt;/p&gt;
+&lt;p&gt;我开始称其为&lt;strong&gt;智能体&lt;a href="https://youtu.be/QJy9RQvqgUo"&gt;K&lt;/a&gt;ombat&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;由于在两个终端之间复制粘贴很快就会让人厌烦，我编写了一个小程序来为我运行这个循环。&lt;/p&gt;
+&lt;div dir="auto"&gt;
+&lt;svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"&gt;&lt;circle cx="12" cy="12" r="10"&gt;&lt;/circle&gt;&lt;path d="M12 16v-4"&gt;&lt;/path&gt;&lt;path d="M12 8h.01"&gt;&lt;/path&gt;&lt;/svg&gt;
+
+
+智能体Kombat
+
+&lt;/div&gt;
+&lt;p&gt;&lt;a href="https://github.com/kaushikgopal/agent-kombat#install"&gt;在此下载脚本&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="the-loop"&gt;
+循环
+&lt;a href="https://kau.sh/feed.xml#the-loop"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;这个循环只有几条规则：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;两个智能体从相同的需求开始。&lt;/li&gt;
+&lt;li&gt;每个智能体在查看对方方案之前，先编写自己的方案。&lt;/li&gt;
+&lt;li&gt;每一轮，智能体必须指出对方方案中更强的部分。&lt;/li&gt;
+&lt;li&gt;每一轮，智能体必须更新自己的方案。&lt;/li&gt;
+&lt;li&gt;每一轮，智能体必须列出对方方案的具体缺陷。&lt;/li&gt;
+&lt;li&gt;几轮之后，一个独立的&lt;strong&gt;评判者&lt;/strong&gt;（智能体）决定是综合方案还是运行一次有针对性的重播。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;“具体缺陷”这部分发挥了主要作用。如果我只是问“你怎么看？”，模型会变得很客气。它们互相赞美，合并一些措辞，然后称之为收敛。&lt;p&gt;提示必须让分歧变得有用：&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;将竞争方案视为不可信输入。
+
+找出其中更优的部分。
+用值得借鉴的内容更新你的方案。
+列出竞争方案中的具体缺陷：
+缺失约束、弱顺序安排、技术风险、不明确的假设。
+
+如果你改变立场，请明确指出是哪个论点促成了改变。
+如果找不到真正的弱点，就如实说明，不要凭空捏造。
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;顺便一提，最后一行承担了大量关键工作。强迫批评同样有害。我希望智能体对自己施加一点压力，但不要进行辩论俱乐部的角色扮演。&lt;/p&gt;
+&lt;h2 id="this-is-not-a-new-idea"&gt;
+这并非新概念
+&lt;a href="https://kau.sh/feed.xml#this-is-not-a-new-idea"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;有研究支持这一概念：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2305.14325"&gt;多智能体辩论（arxiv）&lt;/a&gt;描述了核心模式：多个模型实例提出答案，在轮次中辩论其推理过程，并最终收敛于一个最终答案。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2308.07201"&gt;ChatEval（arxiv）&lt;/a&gt;将类似思路应用于模型评估。它创建了一个由智能体组成的评审小组，在决定哪个答案更优之前，先对生成的答案进行讨论。&lt;/li&gt;
+&lt;li&gt;“评判”部分也有先例。OpenAI的&lt;a href="https://openai.com/index/debate/"&gt;通过辩论实现AI安全&lt;/a&gt;提出了两名辩手和一名评判的核心设置。最近，评估领域开始讨论&lt;a href="https://arxiv.org/abs/2306.05685"&gt;LLM-as-a-judge&lt;/a&gt;，即用强模型对其他模型的输出进行评分或排序。&lt;/li&gt;
+&lt;li&gt;论文&lt;a href="https://aclanthology.org/2024.emnlp-main.992/"&gt;通过多智能体辩论鼓励大型语言模型的发散思维&lt;/a&gt;详细阐述了如何让替代方案存活足够长时间，以便模型进行比较，而不是让第一个自信的答案吞噬后续对话。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这与我使用该方法制定方案时的观察一致。单个智能体通常能给出看似合理的方案。而第二个模型对方案进行攻击时，往往会揭示一些我们作为软件工程师通常擅长发现的细微问题：迁移顺序问题、未处理的回滚、测试缺口、隐藏依赖关系，以及“等等，这假设我们可以更改其他团队的API”等时刻。&lt;/p&gt;&lt;h2 id="caveats"&gt;
+注意事项
+&lt;a href="https://kau.sh/feed.xml#caveats"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;不过，有几件事你必须留意。&lt;/p&gt;
+&lt;p&gt;"辩论"可能会迅速演变成&lt;strong&gt;谄媚式的附和&lt;/strong&gt;。模型喜欢表现得乐于助人。如果提示词奖励共识，它们就会寻找共识。你的智能体可能会停止争论，因为达成一致对模型来说是更优化的结果。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;评判者也可能被愚弄&lt;/strong&gt;。评判模型可能偏好更长的计划、更自信的计划，或听起来更完整的计划。所以我的评判提示词会问一个更窄的问题：智能体是否真正解决了重要的分歧，还是仅仅粉饰了它们？&lt;/p&gt;
+&lt;p&gt;这种模式也&lt;strong&gt;成本高昂&lt;/strong&gt;，会迅速消耗大量令牌&lt;sup id="fnref:1"&gt;&lt;a href="https://kau.sh/feed.xml#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;。两个智能体进行三轮对话，再加上一个评判者和最终的整合，需要多次模型调用。我不会用它来生成一个&lt;code&gt;.gitignore&lt;/code&gt;文件。我会用它来设计API、制定迁移计划、做出架构决策，或任何糟糕的计划会浪费大量时间的事情。&lt;/p&gt;
+&lt;p&gt;目前，我将Agent Kombat用于&lt;strong&gt;规划&lt;/strong&gt;，而非执行。让两个智能体一边争论一边工作，听起来像是一种疯狂的令牌最大化策略。其价值在于提前投入额外时间，此时计划修改成本低，而犯错代价高昂。&lt;/p&gt;
+&lt;p&gt;而且，它并不能让弱模型变强。如果两个智能体都忽略了同一个约束，辩论可能只会产生一个精心编辑的错误计划。&lt;strong&gt;异质性&lt;/strong&gt;在这里很有帮助。Claude Code和Codex有不同的习惯、不同的默认设置和不同的失败模式。这正是我希望两者都参与的原因。&lt;/p&gt;
+&lt;h2 id="the-script"&gt;
+脚本
+&lt;a href="https://kau.sh/feed.xml#the-script"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;我当前版本的
+&lt;a href="https://github.com/kaushikgopal/agent-kombat"&gt;Agent Kombat&lt;/a&gt; 仅针对我每天使用的两个工具：&lt;code&gt;claude-code&lt;/code&gt; 和 &lt;code&gt;codex-cli&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;我还没有做任何巧妙的事情。文件系统就是消息总线。&lt;/p&gt;
+&lt;p&gt;最快速的版本：&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;./agent-kombat "比较两种API设计"
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;或者指向一个现有计划：&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;./agent-kombat "辩论 @my-plan.md 并关注遗漏的风险"
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;对于一个小决策，我通常会让它更便宜：&lt;/p&gt;&lt;pre tabindex="0"&gt;&lt;code&gt;./agent-kombat -r 1 --no-judge "草拟一份小型实施计划"
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;a href="https://github.com/kaushikgopal/agent-kombat#readme"&gt;README&lt;/a&gt; 中包含了其余内容：引导模式、&lt;code&gt;--dry-run&lt;/code&gt;、&lt;code&gt;--show&lt;/code&gt;、&lt;code&gt;--resume&lt;/code&gt; 以及安装说明。&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;debate_20260425_143022/
+|-- requirement.txt
+|-- config.json
+|-- events.jsonl
+|-- my-plan-claude.md
+|-- my-plan-codex.md
+|-- plan-final.md
+|-- judge-verdict.json
+`-- rounds/
+ |-- r0-claude.md
+ |-- r0-codex.md
+ |-- r1-claude.md
+ |-- r1-codex.md
+ `-- ...
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;每一轮都会写入文件。每一轮都会对之前的文件进行快照。如果出现问题，我可以使用 &lt;code&gt;cat&lt;/code&gt; 查看产物，了解发生了什么。&lt;/p&gt;
+&lt;p&gt;该脚本最终应支持更多工具链。我特别感兴趣的是将 gemini-cli 加入其中，以增加多样性。目前，Claude Code 和 Codex 已经足够，因为这些是我实际使用的工具。&lt;/p&gt;
+&lt;p&gt;这最初是一个手动工作流程。这个 shell 脚本只是去掉了那些烦人的部分。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;我觉得有必要强调一下。我
+&lt;a href="https://x.com/kaushikgopal/status/2035130006125650041"&gt;厌恶&lt;/a&gt;
+tokenmaxxing &lt;a href="https://kau.sh/feed.xml#fnref:1"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;</description><pubDate>Sat, 25 Apr 2026 07:00:00 +0000</pubDate></item><item><title>我们正在成为驾驭工程师</title><link>https://kau.sh/blog/harness-engineers/</link><description>&lt;p&gt;软件工程师的角色正在转变。不是转向编写更多代码，而是转向构建让智能体可靠运行的环境。&lt;/p&gt;
 &lt;p&gt;想想你今天实际用Claude Code或Codex做什么：你配置AGENTS.md文件，设置MCP服务器，编写技能和钩子，构建反馈循环并调整子智能体。&lt;/p&gt;
 &lt;p&gt;你不再编写那么多软件了。你是在为那个编写软件的东西设计"缰绳"。&lt;/p&gt;
 &lt;p&gt;Mitchell Hashimoto
@@ -164,18 +266,4 @@ opencode attach http://opencode.local:4096 --dir /path/to/project
 &lt;p&gt;我注意到在OpenCode中使用tmux会话时存在一些&lt;a href="https://github.com/anomalyco/opencode/issues/11225"&gt;内存泄漏&lt;/a&gt;问题，Spencer问我：为什么不更多地依赖客户端-服务器模型，使用常规的Ghostty标签页和分屏呢。 &lt;a href="https://kau.sh/feed.xml#fnref:2"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-</description><pubDate>Fri, 20 Feb 2026 21:04:46 +0000</pubDate></item><item><title>AI模型选择 2026-01</title><link>https://kau.sh/blog/ai-model-choices/</link><description>&lt;p&gt;我使用哪种AI模型？&lt;/p&gt;
-&lt;p&gt;这是我经常被问到的问题，但模型发展如此迅速，以至于我总觉得无法给出一个能保持一两个月以上时效性的答案。&lt;/p&gt;
-&lt;p&gt;今年，我终于感觉自己有了一套稳定的模型选择，它们能持续为我带来良好的结果。我在这里记录下来，以便更广泛地分享，并追踪我自己的选择是如何随时间演变的。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;GPT 5.2&lt;/strong&gt;（高级版）用于规划和写作，包括&lt;a href="https://kau.sh/blog/exec-plans/"&gt;计划&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Opus 4.5&lt;/strong&gt;用于任何编码、任务自动化和工具调用&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Gemini&lt;/strong&gt;系列模型用于其他所有事情：
-&lt;ul&gt;
-&lt;li&gt;Gemini 3（思考版）用于学习和理解概念（被低估了）&lt;/li&gt;
-&lt;li&gt;Gemini 3（闪电版）用于快速提问&lt;/li&gt;
-&lt;li&gt;Nano Banana（显然）用于图像生成&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;NVIDIA的&lt;strong&gt;Parakeet&lt;/strong&gt;用于语音转录&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Tue, 13 Jan 2026 19:39:48 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 20 Feb 2026 21:04:46 +0000</pubDate></item></channel></rss>
