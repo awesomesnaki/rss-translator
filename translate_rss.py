@@ -423,8 +423,8 @@ def translate_feed(feed_config, cache):
     filter_out_content = feed_config.get('filter_out_content', [])
     filter_in = feed_config.get('filter_in', [])
     filter_category = feed_config.get('filter_category')
-    max_entries = 50 if (entry_filter or filter_out or filter_out_content or filter_in or filter_category) else 5
-    entries = feed.entries[:max_entries]
+    max_entries = None if filter_in else (50 if (entry_filter or filter_out or filter_out_content or filter_category) else 5)
+    entries = feed.entries[:max_entries] if max_entries else feed.entries
     if entry_filter:
         entries = apply_entry_filter(entries, entry_filter)
         print(f"  过滤后保留 {len(entries)} 条 (类型: {entry_filter})")
