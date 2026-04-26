@@ -421,8 +421,9 @@ def translate_feed(feed_config, cache):
     entry_filter = feed_config.get('filter')
     filter_out = feed_config.get('filter_out', [])
     filter_out_content = feed_config.get('filter_out_content', [])
+    filter_in = feed_config.get('filter_in', [])
     filter_category = feed_config.get('filter_category')
-    max_entries = 50 if (entry_filter or filter_out or filter_out_content or filter_category) else 5
+    max_entries = 50 if (entry_filter or filter_out or filter_out_content or filter_in or filter_category) else 5
     entries = feed.entries[:max_entries]
     if entry_filter:
         entries = apply_entry_filter(entries, entry_filter)
@@ -439,6 +440,10 @@ def translate_feed(feed_config, cache):
             return e.get('summary', '')
         entries = [e for e in entries if not any(kw in get_entry_content(e) for kw in filter_out_content)]
         print(f"  正文过滤: {before} → {len(entries)} 条")
+    if filter_in:
+        before = len(entries)
+        entries = [e for e in entries if any(kw in e.get('title', '') for kw in filter_in)]
+        print(f"  标题保留: {before} → {len(entries)} 条 (关键词: {filter_in})")
     if filter_category:
         before = len(entries)
         wanted = [filter_category] if isinstance(filter_category, str) else list(filter_category)
