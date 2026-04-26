@@ -48,9 +48,8 @@ feeds:
     fetch_full_content: true
     translate: false
   - name: "luobo8"
-    url: "https://feed.luobo8.com/"
+    url: "https://www.bohaishibei.com/?s=微语录精选&feed=rss2"
     translate: false
-    filter_in: ["微语录精选"]
     text_only: true
   - name: "nicenews"
     url: "https://nicenews.com/feed/"
