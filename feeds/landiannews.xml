@@ -1,82 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 27 Apr 2026 02:00:31 +0000</lastBuildDate><item><title>亚马逊AWS推出Claude Platform 可以直接调用API不需要经过Bedrock</title><link>https://www.landiannews.com/archives/112827.html</link><description>
-&lt;p&gt;#人工智能 亚马逊推出 Claude Platform on AWS 平台，可以经过 AWS 直接调用 Claude AI 服务，不需要再经过 Amazon Bedrock。新平台的主要优势是可以直接访问 A 社提供的测试功能或新功能，而且可以复用 AWS 凭证进行调用，相关账单也都在 AWS 结算，不需要单独开通 Claude API 服务和签署合同。查看详情：https://ourl.co/112827&lt;/p&gt;&lt;p&gt;现阶段企业客户和开发者通过亚马逊使用 Claude AI 服务时都需要经过 AWS Bedrock (并且数据也保留在亚马逊)，这种服务倒是在合规方面有着比较好的优势，但不能及时体验新功能或者某些测试功能。&lt;/p&gt;
-&lt;p&gt;所以现在亚马逊宣布推出 Claude Platform on AWS 平台，该平台听起来像是中转站服务，用户可以直接使用自己的 AWS 账号凭证调用 Claude AI 服务，相关数据处理也都是由 A 社而不是 AWS 负责。&lt;/p&gt;
-&lt;p&gt;新平台的优势最主要的是灵活性，企业客户和开发者都可以直接通过 AWS IAM 凭证调用并进行账单付费，这样企业不必单独开通和管理 Claude API 平台，也能直接在 AWS 内部进行日志审计。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112827.png" rel="nofollow"&gt;&lt;img alt="亚马逊AWS推出Claude Platform 可以直接调用API不需要经过Bedrock" data-src="https://img.lancdn.com/landian/2026/04/112827.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112827.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; Claude Platform on AWS 功能如下：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;可以在 AWS 上直接使用 Claude AI 服务，可以直接访问 A 社提供的原生平台体验和功能，可以复用现有的 AWS IAM 凭证，所有操作都与 AWS 计费和身份验证系统绑定，客户可以使用 AWS 的安全性、访问控制和监控功能进行安全调用，不需要与 A 社签订合同和开通单独的 API 凭证。&lt;/p&gt;
-&lt;p&gt;亚马逊暂时还未公布该平台的模型调用价格，不过价格应该和 A 社官方平台类似，对于使用量较高的大型客户可能有额外折扣可以降低使用成本，但具体价格还需要等待 Claude Platform on AWS 彻底上线后才知道，当前该平台还在准备阶段。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 27 Apr 2026 05:56:04 +0000</lastBuildDate><item><title>微软将赋予Windows 11用户更大的更新自主权 可以关机或重启时不安装更新</title><link>https://www.landiannews.com/archives/112833.html</link><description>
+&lt;p&gt;#系统资讯 微软将赋予 Windows 11 用户更大的更新自主权，可以关闭或重启时不安装更新，而不是想要快速重启结果卡在安装更新界面等待 5 分钟。这项变更已经在测试版中实施，现在电源选项严格按照关机、关机并更新、重启、重启并更新罗列，不像以前对于重要更新即便没有点击重启并更新也会安装更新。查看详情：https://ourl.co/112833&lt;/p&gt;&lt;p&gt;这段时间我们在持续关注微软对 Windows 11 系统更新机制做出的改变，目前已经在测试版中实施的变更包括允许无限期暂停更新 (但每次只能选择 35 天到期后可以无限次延迟)，还有个变更是用户可以在重启或关机时选择不安装更新。&lt;/p&gt;
+&lt;p&gt;要说这个变更得提前说说当前的更新机制，系统自动下载更新后会直接安装，随后系统会弹出提醒要求用户重启系统完成最终阶段的安装，这个过程可能需要耗费几分钟，极端情况下有可能十分钟左右才能完成安装。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112833.png" rel="nofollow"&gt;&lt;img alt="微软将赋予Windows 11用户更大的更新自主权 可以关机或重启时不安装更新" data-src="https://img.lancdn.com/landian/2026/04/112833.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112833.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Claude Platform on AWS 主要是通过 AWS 直接访问 A 社的 Claude AI 服务，客户的任何交互数据都通过 AWS 外传到 A 社进行处理，好处是可以直接体验 A 社提供的各类测试或新功能。&lt;/p&gt;
-&lt;p&gt;Claude on Amazon Bedrock 主要是将数据托管在 AWS 基础设施内部，客户的任何交互数据都保留在亚马逊，也提供知识库和区域数据驻留等功能，因此对于合规要求比较高的企业来说更适合继续使用 Bedrock 平台，AWS 提供更高的合规要求和稳定性。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://aws.amazon.com/cn/claude-platform/" rel="noopener" target="_blank"&gt;Amazon&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 27 Apr 2026 02:00:31 +0000</pubDate></item><item><title>[教程] Rufus U盘启动Windows 11出现安全启动验证失败的解决方案</title><link>https://www.landiannews.com/archives/112826.html</link><description>
-&lt;p&gt;#技术教程 Rufus U 盘启动 Windows 11 时出现安全启动验证失败的解决方案，问题原因可能是启动器签名没有通过微软校验。要解决问题也非常简单，进入 BIOS 临时禁用安全启动，完成 Windows 11 最终安装后系统会使用微软官方的启动器，此时再重启开启安全启动即可。查看详情：https://ourl.co/112826&lt;/p&gt;&lt;p&gt;蓝点网在测试 Windows 11 最新版时遇到安全启动问题，以前在相同设备上装机并未出现过类似错误，这次装机出现启动失败倒是让我非常意外，不过简单查询后发现这个问题与 Rufus 签名以及微软安全启动政策有关系。&lt;/p&gt;
-&lt;p&gt;出现问题的阶段是已经完成系统安装拔掉 U 盘进行重启阶段，重启时进入命令行界面提示：安全启动与当前启动链不兼容，按任意键退出后再次启动时依然会出现这个错误，而重新通过 U 盘安装系统无法解决问题。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112826.png" rel="nofollow"&gt;&lt;img alt="[教程] Rufus U盘启动Windows 11出现安全启动验证失败的解决方案" data-src="https://img.lancdn.com/landian/2026/04/112826.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112826.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;当用户需要关机或重启时电源按钮的菜单会变成关机并安装更新或重启并安装更新 (并非所有更新都会如此)，但如果用户正在进行工作并因为软件错误必须重启系统，那重启并安装更新就可能浪费时间并让用户持续等待。&lt;/p&gt;
+&lt;p&gt;对于部分需要强制安装的重要安全更新，Windows 11 甚至会直接忽略关机或重启选项 (不带并安装更新字样说明)，然后在关机和重启时安装更新，用户可能完全不知道重启还需要等待几分钟安装更新，这就导致电源选项不可预测。&lt;/p&gt;
+&lt;p&gt;微软实施的变更是改进电源选项的可预测性，也就是现在拆分所有选项，分成：关机、重启、关机并安装更新、重启并安装更新，如果用户只点击关机和重启那就不会安装更新，避免用户在没有心理预期的情况下需要等待。&lt;/p&gt;
+&lt;p&gt;这些改进已经在 Windows 11 Build 26300.8289 版中上线，后续变更推送到 Windows 11 稳定版后，用户可以放心点击关机或重启，然后在空闲的时候再考虑安装更新。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;第一种原因与微软吊销部分旧的安全启动签名有关，这个问题发生在 Windows 10 黑莲花漏洞时期，为修复这个漏洞微软将诸多旧数字签名吊销，因此若用户使用的 Windows 10/11 镜像比较老旧那么就会出现安全启动链无法兼容的情况。&lt;/p&gt;
-&lt;p&gt;第二种原因与 Rufus 使用的 NTFS 驱动程序签名有关，Rufus 使用的是 UEFI:NTFS 方案启动 (驱动程序为 NTFS-3G)，由于这个驱动程序并未在微软安全启动白名单中，因此同样会出现安全启动链无法兼容的错误。&lt;/p&gt;
-&lt;p&gt;但让蓝点网没明白的是，在相同设备上以前装机是没问题的，近期也没有更新 Intel NUC BIOS 固件，Rufus 使用的同样是最新版，所以潜在的猜测是微软在 Windows 11 测试版里收紧白名单校验机制 (说起来近期也没听说有这种变化)。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;要解决这个问题不需要太复杂的操作，只需要重新进入 BIOS 设置界面临时将安全启动禁用，能够成功启动系统 (此时其实还是在安装阶段尚未进入 OOBE) 完成最终安装即可，配置 OOBE 界面进入桌面后再次重启，将安全启动打开即可。&lt;/p&gt;
-&lt;p&gt;这样能解决问题是因为临时禁用安全启动后会继续使用非白名单引导程序完成系统启动，系统成功启动后就会切换为微软自己的引导启动程序，这是在白名单链路里的所以再次开启安全启动后也不会再报错 (基于安全考虑请务必启用安全启动功能)。&lt;/p&gt;
-&lt;p&gt;操作链路：报错界面→按任意键重启→进入 BIOS 界面→找到安全相关选项将安全启动禁用→保存并重启系统→OOBE 界面完成配置后进入桌面→重启系统进入 BIOS 启用安全启动。&lt;/p&gt;
-&lt;pre&gt;&amp;lt;https://un.akeo.ie&amp;gt;
-[INFO]  UEFI v2.70 (American Megatrends, 0x00050010)
-[INFO]  Intel Corp. FNCML357.0052.2021.0409.1144
-[INFO]  Intel(R) Client Systems NUC10i5FNH
-[INFO]  Secure Boot status: Enabled
-[INFO]  Disconnecting potentially blocking drivers
-[INFO]  Searching for target partition on boot disk:
-[INFO]  PciRoot(0x0)/Pci(0x14,0x0)/USB(0xE,0x0)
-[INFO]  Found NTFS target partition: PciRoot(0x0)/Pci(0x14,0x0)/USB(0xE,0x0)/HD(1,GPT,2D96ED2D-5779-44D9-9F93-41E8682AA897,0x800,0x3A9B460)
-[WARN]  Unloading existing 'AMI NTFS Driver v0x10000'
-[INFO]  Starting NTFS driver service:NTFS Driver 1.7 (ntfs-3g 69d8cbco)
-[INFO]  Opening target NTFS partition:Volume label is 'CPRA_X64FRE_ZH-CN_DV9'
-[INFO]  This system uses 64-bit x86 UEFI =&amp;gt; searching for x64 UEFI bootloader
-[INFO]  Launching 'efi\boot\bootx64.efi'...
-[INFO]  Starting Microsoft Windows bootmgr...
-[FAIL]  Windows bootmgr encountered a security validation or internal error
-Press any key to exit.&lt;/pre&gt;
-</description><pubDate>Mon, 27 Apr 2026 01:30:28 +0000</pubDate></item><item><title>必应(国内版)搜索Chrome被奇怪的网站占领 冒充谷歌提供山寨版Chrome</title><link>https://www.landiannews.com/archives/112825.html</link><description>
-&lt;p&gt;#软件资讯 必应 (中国) 搜索 Chrome 被奇怪的山寨网站占领，这些网站均使用黑龙江省级域名 hl.cn 的子域名，直接霸占 Chrome 关键词搜索结果前三。山寨网站只允许通过必应搜索访问，直接访问会报错，而在沙盒中安装山寨版则会下载官方版 Chrome，说明安装程序也会对抗检测，考虑到 Windows 11 默认预装 Microsoft Edge 以及默认使用必应搜索，这可能导致新装系统想要安装 Chrome 的用户直接进入钓鱼网站。查看详情：https://ourl.co/112825&lt;/p&gt;&lt;p&gt;据蓝点网网友提供的消息，必应搜索国内版在搜索关键词 Chrome 时被奇怪的网站占领，这些网站冒充谷歌浏览器官方网站向用户提供篡改的版本，这些篡改的版本同样是劫持默认搜索引擎和主页等，从搜索引擎或网站导航提供商获得相关分成。&lt;/p&gt;
-&lt;p&gt;我们在不同设备上进行测试发现搜索结果略有不同，不过总体来说除却夸克浏览器的推广广告外，下面自然搜索结果前三都被山寨网站占据，这些网站使用的还都是黑龙江省级域名 hl.cn 的子域名，子域名数量非常多而且还只允许通过必应搜索访问，直接访问时会报错。&lt;/p&gt;
-&lt;p&gt;&amp;gt;&amp;gt;&amp;gt; 谷歌官方CN域名可以直接访问和下载Chrome：&lt;a href="https://google.cn/chrome/" rel="noopener" target="_blank"&gt;https://google.cn/chrome/&lt;/a&gt; 请认准此地址&amp;lt;&amp;lt;&amp;lt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112825-1.png" rel="nofollow"&gt;&lt;img alt="必应(国内版)搜索Chrome被奇怪的网站占领 冒充谷歌提供山寨版Chrome" data-src="https://img.lancdn.com/landian/2026/04/112825-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112825-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112825-2.png" rel="nofollow"&gt;&lt;img alt="必应(国内版)搜索Chrome被奇怪的网站占领 冒充谷歌提供山寨版Chrome" data-src="https://img.lancdn.com/landian/2026/04/112825-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112825-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Windows 11 默认预装微软的 Microsoft Edge 浏览器并默认使用必应搜索，不少用户安装系统后都需要通过 Microsoft Edge 搜索安装 Chrome 浏览器，因此每天被这些山寨网站投毒的用户应该非常多。&lt;/p&gt;
-&lt;p&gt;蓝点网尝试在 Windows Sandbox 中对这个山寨版进行测试，不过山寨版检测到沙盒后会更改安装方式，直接安装官方版的谷歌浏览器，而直接访问山寨网站也同样会报错，这些网站只允许用户通过必应搜索来源进行访问。&lt;/p&gt;
-&lt;p&gt;叠加这些测试分析的做法，这个山寨版谷歌浏览器可能还存在其他恶意行为，所以建议用户安装软件时仔细检查网址，毕竟像是浏览器这种主要软件涉及各类账户密码，如果山寨版窃取账户密码则可能造成安全问题。&lt;/p&gt;
-</description><pubDate>Mon, 27 Apr 2026 01:00:29 +0000</pubDate></item><item><title>深度求索推出DeepSeek V4 Pro限时活动 调用价格从0.1元起步下调到0.025元</title><link>https://www.landiannews.com/archives/112824.html</link><description>
-&lt;p&gt;#人工智能 深度求索推出 DeepSeek V4 Pro 模型限时优惠活动，调用价格从 0.1 元下调到 0.025 元，无论是否命中缓存以及输出价全部为 2.5 折。此次折扣活动截止时间为 5 月 5 日，提供折扣或许是因为 Flash 模型能力并不突出，至少从目前社交网站上的用户反馈来看，V4-Flash 与旧模型相比没有太大优势。查看详情：https://ourl.co/112824&lt;/p&gt;&lt;p&gt;早前深度求索提出 DeepSeek V4 系列模型，不过因为硬件算力资源问题导致专业版模型调用价格非常高，按照深度求索所说，下半年更多硬件到位后专业版模型的调用价格将会大幅度下调，但现阶段模型使用价格还是非常高的。&lt;/p&gt;
-&lt;p&gt;问题在于 V4-Flash 模型在能力上并没有比其他模型突出，能力较好的 V4-Pro 模型又太贵，这种情况可能都已经影响到深度求索 DeepSeek 系列模型的口碑，最简单的解决方法自然是降价让大家充分进行试用。&lt;/p&gt;
-&lt;p&gt;所以现在深度求索推出限时优惠活动，V4-Pro 模型到 2026 年 5 月 5 日都提供 2.5 折特别优惠价，优惠价后百万缓存命中价格从 0.1 元下降到 0.025 元，整体价格仍然比 V4-Flash 要高，但相较于国外模型调用价格还是比较便宜的。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112796.png" rel="nofollow"&gt;&lt;img alt="深度求索推出DeepSeek V4 Pro限时活动 调用价格从0.1元起步下调到0.025元" data-src="https://img.lancdn.com/landian/2026/04/112796.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112796.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;微软在发布博客中表示，这项更改是为了让电源菜单更容易预测，这样当用户需要快速重启或想在出门前关机时，Windows 就能完全按照用户的预测运行，而不是在重启或关机过程中安装最新更新。&lt;/p&gt;
+&lt;p&gt;需要强调的是这次变更属于计划内的，&lt;a href="https://www.landiannews.com/archives/110864.html" rel="noopener" target="_blank"&gt;这与前段时间微软修复的关机并安装更新结果导致系统重启不同&lt;/a&gt;，这个问题是系统 BUG 因此在安装更新后再次启动系统而非关机，用户安装最新累积更新后应该不会再出现关机并安装更新后系统又自己启动。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://blogs.windows.com/windows-insider/2026/04/24/your-windows-update-experience-just-got-updated/" rel="noopener" target="_blank"&gt;Microsoft&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 27 Apr 2026 05:56:04 +0000</pubDate></item><item><title>分析师称OpenAI将在2028年推出AI手机 完全由AI驱动而不是要用户安装各类应用</title><link>https://www.landiannews.com/archives/112832.html</link><description>
+&lt;p&gt;#人工智能 分析师称 OpenAI 将在 2028 年推出 AI 手机，由智能体驱动而不是安装各类应用程序，智能体将接管用户的各类信息即时处理需求。OpenAI 的芯片供应商是联发科和高通，芯片需要能够在本地运行规模较小的 AI 模型，系统设计与制造则由立讯精密负责，OpenAI 将获得完整的底层硬件和软件权限。查看详情：https://ourl.co/112832&lt;/p&gt;&lt;p&gt;知名分析师&lt;a href="https://x.com/mingchikuo/status/2048587369394381143" rel="noopener" target="_blank"&gt;郭明錤&lt;/a&gt; (Ming-Chi Kuo) 日前发布最新产业调查报告，调查显示 OpenAI 正在与诸多合作伙伴开发由 AI 智能体驱动的智能手机，相关合作伙伴包括芯片制造商联发科和高通、系统设计与制造商立讯精密。&lt;/p&gt;
+&lt;p&gt;当前智能手机主要提供操作系统，由用户安装各类开发商提供的应用程序，而 OpenAI 的智能手机不需要用户安装各种应用程序，而是通过手机执行任务满足各种需求，这从根本上推翻对现有智能手机的认知。&lt;/p&gt;
+&lt;p&gt;OpenAI 要制造手机的原因其实很简单，因为只有完全掌握软件和硬件才能提供全面的 AI 智能体服务，而只有手机拥有用户的一切当下状态，才能提供 AI 智能体即时推理所需要的各类数据，最后智能手机未来仍然是规模最庞大的设备。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112832.png" rel="nofollow"&gt;&lt;img alt="分析师称OpenAI将在2028年推出AI手机 完全由AI驱动而不是要用户安装各类应用" data-src="https://img.lancdn.com/landian/2026/04/112832.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112832.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这些原因其实可以参考字节跳动与中兴合作推出的定制版豆包手机，豆包 AI 可以帮助用户执行各类操作，定制让豆包可以获得系统级权限，而诸多应用程序不允许 AI 进行自动化操作，这其中涉及安全问题和不同公司之间的利益和竞争问题。&lt;/p&gt;
+&lt;p&gt;OpenAI 手机不需要用户安装各类应用程序，而 OpenAI 也同时拥有底层硬件和系统的控制权限，这种可能也会逐渐成为未来智能手机的主流，即应用程序时代逐渐退场，整个手机会成为 AI 智能体的载体。&lt;/p&gt;
+&lt;p&gt;当然这种手机也存在诸多挑战：手机需要持续理解用户文本，需要解决续航和内存分层管理，处理器还需要能够在设备端本地运行规模较小的大型语言模型，复杂度较高的任务可能需要联网调用云端 AI 执行。&lt;/p&gt;
+&lt;p&gt;OpenAI 的优势在于消费端品牌以及累积多年的用户信息和领先的 AI 模型，手机硬件已经非常成熟，OpenAI 可以与供应链合作开发，至于商业模式则可能是将订阅制与软硬件捆绑，建立全新的 AI 智能体生态系统与软件开发商们合作。&lt;/p&gt;
+&lt;p&gt;郭老师还提到这种智能手机对供应链行业的影响，联发科与高通作为处理器合作开发商，可以受益于换机带来的收入增长；立讯精密在苹果供应链里很难超越鸿海 (富士康)，但或许 OpenAI 手机可以帮助立讯精密提前布局下一个手机时代。&lt;/p&gt;
+</description><pubDate>Mon, 27 Apr 2026 05:21:02 +0000</pubDate></item><item><title>DeepSeek V4系列缓存命中价格永久下降至首发价1/10 缓存命中起步价降至2分钱</title><link>https://www.landiannews.com/archives/112831.html</link><description>
+&lt;p&gt;#人工智能 深度求索将 DeepSeek V4 系列缓存命中价格永久下调到首发价 1/10，Flash 模型缓存命中价从 2 毛钱降到 2 分钱，Pro 模型叠加优惠活动后从 1 元下降到 2 分 5 厘。当然促销结束后 Pro 还是比较贵的，命中缓存 0.1元，未命中缓存 12 元、输出 24 元，这些调价和优惠活动应该会吸引更多用户使用 Pro 模型，扭转 V4 系列的口碑问题。查看详情：https://ourl.co/112831&lt;/p&gt;&lt;p&gt;前文蓝点网提到深度求索为 DeepSeek V4 Pro 模型推出限时优惠活动，优惠活动到 2026 年 5 月 5 日 23:59 结束，优惠期限内该模型缓存命中、缓存未命中和输出价格均为原价的 2.5 折，这可以让更多用户体验新模型的智能提升。&lt;/p&gt;
+&lt;p&gt;现在深度求索还在继续更新价格体系，该公司宣布将缓存命中的价格调整为首发价的 1/10，缓存命中价格调整适用于 DeepSeek V4 Flash 和 Pro，这个价格可以说是白菜价，哪怕模型能力差点也是完全可以接受的。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112831.png" rel="nofollow"&gt;&lt;img alt="DeepSeek V4系列缓存命中价格永久下降至首发价1/10 缓存命中起步价降至2分钱" data-src="https://img.lancdn.com/landian/2026/04/112831.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112831.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;截止时间：2026 年 5 月 5 日 23:59&lt;/li&gt;
-&lt;li&gt;若命中缓存：百万输入价从 0.1 元降至 0.025 元&lt;/li&gt;
-&lt;li&gt;未命中缓存：百万输入价从 12 元降至 3 元&lt;/li&gt;
-&lt;li&gt;输出价格：百万输出从 24 元降至 6 元&lt;/li&gt;
+&lt;li&gt;DeepSeek V4 Flash：原百万输入命中缓存 0.2 元，调整后为百万输入命中缓存 0.02 元&lt;/li&gt;
+&lt;li&gt;DeepSeek V4 Flash：百万输入未命中缓存 1 元，价格未调整&lt;/li&gt;
+&lt;li&gt;DeepSeek V4 Flash：百万输出 2 元，价格未调整&lt;/li&gt;
+&lt;li&gt;DeepSeek V4 Pro：原百万输入命中缓存为 1 元，调整后百万输入命中缓存为 0.1 元&lt;/li&gt;
+&lt;li&gt;DeepSeek V4 Pro：百万输入未命中缓存 12 元，价格未调整，限时促销价为 3 元&lt;/li&gt;
+&lt;li&gt;DeepSeek V4 Pro：百万输出为 24 元，价格未调整，限时促销价为 6 元&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 吸引更多用户使用 DeepSeek V4 模型和扭转口碑：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;DeepSeek V4 系列模型的发布时间已经非常迟，其他竞争对手都已经陆续发布智能化程度更高的新模型，从评测和体验来看 DeepSeek V4 Pro 相当于 Claude Sonnet 4.6 而且要比 Claude Opus 4.6 深度思考要差，DeepSeek V4 Flash 模型较 DeepSeek V3.2 的提升并不是非常明显。&lt;/p&gt;
+&lt;p&gt;更大的问题在于 DeepSeek V4 Pro 价格太高以至于没有明显的竞争优势，更多用户本着便宜的原则使用的都是 DeepSeek V4 Flash 模型，这也导致 DeepSeek V4 系列口碑不怎么好，所以深度求索推出限时优惠活动也可以吸引更多用户尝试 Pro 模型。&lt;/p&gt;
+&lt;p&gt;现在大幅度下调缓存命中价格同样也可以吸引更多用户使用，例如 Flash 模型百万输入命中缓存低至 2 分钱，Pro 模型百万输入命中缓存低至 0.1 元，促销期间低至 0.025 元，与 Flash 模型相差不大，所以使用 Pro 模型的用户可能会快速增加。&lt;/p&gt;
+&lt;p&gt;至少 Pro 模型在智能化程度上要远胜于 Flash 模型，所以这也可以扭转 DeepSeek V4 的口碑问题，但促销时间在 5 月 5 日就结束了，恢复原价后价格还是太高太高，还是得等下半年深度求索的硬件到位后才能大幅度下调 Pro 价格。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://api-docs.deepseek.com/zh-cn/quick_start/pricing" rel="noopener" target="_blank"&gt;DeepSeek&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 27 Apr 2026 04:06:39 +0000</pubDate></item><item><title>虚拟组网软件Tailscale免费版不再限制设备数量 用户数也从3名提升到6名</title><link>https://www.landiannews.com/archives/112830.html</link><description>
+&lt;p&gt;#软件资讯 虚拟组网软件 Tailscale 免费版不再限制设备数量，用户数也从 3 名提升到 6 名，即现在免费版提供 6 用户 + 无限设备。这项变更是在 4 月 8 日发布的，同时整个 Tailscale 订阅方案都被简化，这里面可能涉及到部分方案涨价的问题，现有订阅用户可以按原价再续费 12 个月。查看详情：https://ourl.co/112830&lt;/p&gt;&lt;p&gt;据 @奶昔 发布的消息，知名虚拟组网软件 Tailscale 近期已经调整免费版权益，原本免费版限制 3 用户和 100 台设备，经过调整后免费版改为 6 用户且不限设备数量，这意味着用户可以将海量设备都添加到自己的私有网络中。&lt;/p&gt;
+&lt;p&gt;有网友猜测这可能是 Cloudflare Mesh 发布给 Tailscale 带来竞争压力，不过互联网档案馆的快照显示，Tailscale 在 2026 年 4 月 8 日完成免费版权益变更，&lt;a href="https://www.landiannews.com/archives/112666.html" rel="noopener" target="_blank"&gt;而 Cloudflare Mesh 是 4 月 15 日发布的&lt;/a&gt;，所以这应该没有直接关系。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112830.png" rel="nofollow"&gt;&lt;img alt="虚拟组网软件Tailscale免费版不再限制设备数量 用户数也从3名提升到6名" data-src="https://img.lancdn.com/landian/2026/04/112830.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112830.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;用户数量：由 3 名提升到 6 名&lt;/li&gt;
+&lt;li&gt;设备数量：由 100 台提升到无限设备数量&lt;/li&gt;
+&lt;li&gt;ACL 数量：原免费版不提供 ACL 组，新免费版提供 3 个 ACL 组&lt;/li&gt;
+&lt;li&gt;临时资源：原免费版不提供临时资源，新免费版每月提供 1000 分钟&lt;/li&gt;
+&lt;li&gt;标记资源：原免费版不提供标记资源，新免费版提供 50 个已标记资源&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;如果用户想要趁着限时优惠活动使用 DeepSeek-V4-Pro 模型，则应当设置好定时切换或者给自己设置个提醒，在活动结束前切换到其他模型以免恢复原价后产生太高的花费，目前活动价仅相当于原价的 2.5 折，所以恢复原价后还是非常贵的。&lt;/p&gt;
-&lt;p&gt;不过 DeepSeek V4 系列模型仍然保持 MIT 开源发布，所以其他平台也会陆续提供模型调用，到时候如果用户能找到更便宜的平台也可以切换过去，到下半年硬件资源到位价格下调后再使用 DeepSeek 官方 API 平台进行调用。&lt;/p&gt;
-</description><pubDate>Mon, 27 Apr 2026 00:30:27 +0000</pubDate></item><item><title>解决强制更新问题，Windows 11新版本可每次暂停更新35天和无限次暂停更新</title><link>https://www.landiannews.com/archives/112823.html</link><description>
-&lt;p&gt;#系统资讯 解决强制更新问题，Windows 11 新版本可每次暂停更新 35 天和无限次暂停更新，即用户可以通过手动方式无限期暂停更新。设置逻辑是这样的，从当日开始可以选择向后 35 天，例如到 35 天时再次选择 35 天后，也就是每 35 天需要手动设置 1 次，如果没设置系统就会自动下载更新。查看详情：https://ourl.co/112823&lt;/p&gt;&lt;p&gt;此前微软在博客中已经提到将不再强迫用户 Windows 11 安装更新，因为自动下载和安装更新在事实上确实给不少用户造成麻烦，尽管及时安装更新可以提升系统安全性但前提是不能影响用户的正常使用。&lt;/p&gt;
-&lt;p&gt;所以微软后续将继续默认采用自动更新，但如果用户需要的话可以暂停更新并且还是无限期暂停更新，现在这些更改已经在 Windows 11 Build 26300.8289 (实验版) 中带来此功能，用户在启用实验性选项的情况下即可看到日期选择窗口。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112823-3.png" rel="nofollow"&gt;&lt;img alt="解决强制更新问题，Windows 11新版本可每次暂停更新35天和无限次暂停更新" data-src="https://img.lancdn.com/landian/2026/04/112823-3.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112823-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;此前 Tailscale 订阅分为个人版和商业版，个人版包括个人免费版、个人加强版和 Starter 初创版，商业版包括初创版、Premium 版和企业版，现在整个订阅体系已经被简化为四个版本，分别是免费的个人版、每月 8 美元的标准版、每月 18 美元的 Premium 版和适用于企业议价的企业定制版。&lt;/p&gt;
+&lt;p&gt;Tailscale 称此次更新的目标就是让订阅方案更清晰、价格可以预测、每个套餐都对用户更有价值，尤其是比以前更慷慨的免费个人计划。&lt;/p&gt;
+&lt;p&gt;对于现有订阅用户 Tailscale 将继续提供原定价方案续费 12 个月，之后用户需要根据新订阅套餐进行切换，这里面可能涉及到价格增长或其他功能调整，&lt;a href="https://tailscale.com/blog/pricing-v4" rel="noopener" target="_blank"&gt;具体用户请阅读各版本功能和定价计划&lt;/a&gt;。&lt;/p&gt;
+</description><pubDate>Mon, 27 Apr 2026 03:43:16 +0000</pubDate></item><item><title>Claude Code Bug 导致用户产生200美元账单 用户反馈后获得感谢但A社拒绝免单</title><link>https://www.landiannews.com/archives/112829.html</link><description>
+&lt;p&gt;#人工智能 A 社的暗箱操作让人摸不着头脑：Claude Code 会将 HERMES.md 标记为黑名单关键词，Claude Code 中触发该关键词可能会切换为 API 计费。网友因为这个错误产生 200 美元账单，结果 A 社的 AI 机器人客服只感谢反馈错误但称不能免除账单，也就是说用户帮助 A 社当 QA 结果还要自己花钱。查看详情：https://ourl.co/112829&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landiannews.com/archives/112495.html" rel="noopener" target="_blank"&gt;Claude Code 此前已经禁止用户在类 OpenClaw 智能体中使用订阅配额&lt;/a&gt;，A 社给出的解决方案是如果用户要在此类智能体中使用则应当改为 API 请求，也就是需要为 API 请求单独付费而不是使用订阅套餐内提供的配额。&lt;/p&gt;
+&lt;p&gt;就以上情况网友 @Alexxxklepa 在使用时被意外产生 200 美元的账单，产生账单的根源原因是 GIT 提交里有个字符串 HERMES.md，也就是 Claude Code 错误认为用户是在 Hermes AI 智能体中使用订阅，因此自动切换为 API 计费模式。&lt;/p&gt;
+&lt;p&gt;说起来这是个很简单的问题，网友根据自己的排查将问题反馈 Claude Code 团队并得到确认，随后该团队将错误修复，但针对用户因为此次错误产生的 200.98 美元账单，A 社不愿意免单，也就是反馈 BUG 的用户不仅没有得到补偿，反而要因为 A 社的错误而支付费用。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/07/109974.png" rel="nofollow"&gt;&lt;img alt="Claude Code错误导致用户产生200美元账单 用户反馈后获得感谢但A社拒绝免单" data-src="https://img.lancdn.com/landian/2025/07/109974.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/07/109974.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;当前 Windows 11 正式版中用户虽然也可以暂停更新，但暂停最多 4 周后系统会重新检查更新并且带有强制性，只有系统完成安装更新后才能再次暂停更新，因此对普通用户而言每月都需要安装更新，当然这些更新还可能给系统带来各种问题。&lt;/p&gt;
-&lt;p&gt;微软提供的新选项是日期选择器，用户最多可以选择向后 35 天，选择时间后系统便会暂停更新，与此前到期强制检查更新不同的是，用户可以在 35 天暂停期限内继续向后延迟更新时间，最终达到无限期暂停更新目的，只是需要最长 35 天手动更新暂停日期。&lt;/p&gt;
-&lt;p&gt;这种方式可以让专业用户按照自己的计划或偏好选择更新时间，举个例子：我观察到最近发布的更新可能导致系统出现异常，所以直接设置 35 天后更新避开这次问题补丁，如果次月更新还有问题那就继续推迟。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112823-1.png" rel="nofollow"&gt;&lt;img alt="解决强制更新问题，Windows 11新版本可每次暂停更新35天和无限次暂停更新" data-src="https://img.lancdn.com/landian/2026/04/112823-1.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112823-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;故障原因 (姑且认为这是错误而不是 A 社故意的) 是 Claude Code 会将提交记录纳入提示词范围，然后在服务端用某种机制标记黑名单关键词，这里面就包括 HERMES.md，检测到黑名单关键词后 Claude Code 会将用户订阅计费切换到 API 单独计费模式 (而且还是后付费模式)。&lt;/p&gt;
+&lt;p&gt;常见文件名例如 AGENTS.md、README.md 或者没有后缀的 HERMES 和小写的 hermes.md 都不会触发黑名单机制，但如果是全大写的 HERMES.md 就会触发黑名单，当然以上只是网友测试出来的黑名单而不是全部黑名单，或许 OpenClaw 相关的某些关键词也会触发切换到 API 计费的模式。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;前置条件是系统版本需 Windows 11 Build 26300.8289 或更高版本，低于此版本暂时不支持该功能，现阶段该功能还在测试中因此用户需要在实验性选项里手动开启功能再重启系统使之生效。&lt;/p&gt;
-&lt;p&gt;选项路径：Windows 11、设置、更新、预览计划、高级选项、实验性标志、启用「按计划暂停更新」，将此选项启用后会提示重启系统，重启系统后转到更新里点击暂停更新，即可看到日期选项功能。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112823-2.png" rel="nofollow"&gt;&lt;img alt="解决强制更新问题，Windows 11新版本可每次暂停更新35天和无限次暂停更新" data-src="https://img.lancdn.com/landian/2026/04/112823-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112823-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sun, 26 Apr 2026 05:50:52 +0000</pubDate></item></channel></rss>
+&lt;p&gt;网友尝试联系 A 社客服 (其实也只有 AI 机器人客服) 反馈问题，AI 客服承认漏洞并将其称为身份验证路由问题，但是 AI 客服强调不会因为服务下降或技术故障导致的账单路由错误提供任何补偿。&lt;/p&gt;
+&lt;p&gt;也就是说帮助 A 社发现漏洞不仅不会获得奖励，反而要因为漏洞自己支付账单，尤其是这是后付费机制而不是预充值模式，所以当用户发现没法正常使用时可能已经产生大额账单，如果长期欠费可能还会影响账号的正常使用。&lt;/p&gt;
+&lt;p&gt;最终这份 200 美元的账单可能还需要网友联系 A 社的人工客服 (估计要通过提交表单的方式联系并等待处理) 来解决，至少 A 社的 AI 机器人客服不能直接给网友免单，而这个错误估计也影响更多用户。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://www.reddit.com/r/ClaudeAI/comments/1svdm1w/psa_the_string_hermesmd_in_your_git_commit/" rel="noopener" target="_blank"&gt;Reddit&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 27 Apr 2026 02:40:46 +0000</pubDate></item></channel></rss>
