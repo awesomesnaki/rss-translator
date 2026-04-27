@@ -1,5 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sun, 26 Apr 2026 05:50:52 +0000</lastBuildDate><item><title>解决强制更新问题，Windows 11新版本可每次暂停更新35天和无限次暂停更新</title><link>https://www.landiannews.com/archives/112823.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 27 Apr 2026 02:00:31 +0000</lastBuildDate><item><title>亚马逊AWS推出Claude Platform 可以直接调用API不需要经过Bedrock</title><link>https://www.landiannews.com/archives/112827.html</link><description>
+&lt;p&gt;#人工智能 亚马逊推出 Claude Platform on AWS 平台，可以经过 AWS 直接调用 Claude AI 服务，不需要再经过 Amazon Bedrock。新平台的主要优势是可以直接访问 A 社提供的测试功能或新功能，而且可以复用 AWS 凭证进行调用，相关账单也都在 AWS 结算，不需要单独开通 Claude API 服务和签署合同。查看详情：https://ourl.co/112827&lt;/p&gt;&lt;p&gt;现阶段企业客户和开发者通过亚马逊使用 Claude AI 服务时都需要经过 AWS Bedrock (并且数据也保留在亚马逊)，这种服务倒是在合规方面有着比较好的优势，但不能及时体验新功能或者某些测试功能。&lt;/p&gt;
+&lt;p&gt;所以现在亚马逊宣布推出 Claude Platform on AWS 平台，该平台听起来像是中转站服务，用户可以直接使用自己的 AWS 账号凭证调用 Claude AI 服务，相关数据处理也都是由 A 社而不是 AWS 负责。&lt;/p&gt;
+&lt;p&gt;新平台的优势最主要的是灵活性，企业客户和开发者都可以直接通过 AWS IAM 凭证调用并进行账单付费，这样企业不必单独开通和管理 Claude API 平台，也能直接在 AWS 内部进行日志审计。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112827.png" rel="nofollow"&gt;&lt;img alt="亚马逊AWS推出Claude Platform 可以直接调用API不需要经过Bedrock" data-src="https://img.lancdn.com/landian/2026/04/112827.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112827.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; Claude Platform on AWS 功能如下：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;可以在 AWS 上直接使用 Claude AI 服务，可以直接访问 A 社提供的原生平台体验和功能，可以复用现有的 AWS IAM 凭证，所有操作都与 AWS 计费和身份验证系统绑定，客户可以使用 AWS 的安全性、访问控制和监控功能进行安全调用，不需要与 A 社签订合同和开通单独的 API 凭证。&lt;/p&gt;
+&lt;p&gt;亚马逊暂时还未公布该平台的模型调用价格，不过价格应该和 A 社官方平台类似，对于使用量较高的大型客户可能有额外折扣可以降低使用成本，但具体价格还需要等待 Claude Platform on AWS 彻底上线后才知道，当前该平台还在准备阶段。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Claude Platform on AWS 主要是通过 AWS 直接访问 A 社的 Claude AI 服务，客户的任何交互数据都通过 AWS 外传到 A 社进行处理，好处是可以直接体验 A 社提供的各类测试或新功能。&lt;/p&gt;
+&lt;p&gt;Claude on Amazon Bedrock 主要是将数据托管在 AWS 基础设施内部，客户的任何交互数据都保留在亚马逊，也提供知识库和区域数据驻留等功能，因此对于合规要求比较高的企业来说更适合继续使用 Bedrock 平台，AWS 提供更高的合规要求和稳定性。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://aws.amazon.com/cn/claude-platform/" rel="noopener" target="_blank"&gt;Amazon&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 27 Apr 2026 02:00:31 +0000</pubDate></item><item><title>[教程] Rufus U盘启动Windows 11出现安全启动验证失败的解决方案</title><link>https://www.landiannews.com/archives/112826.html</link><description>
+&lt;p&gt;#技术教程 Rufus U 盘启动 Windows 11 时出现安全启动验证失败的解决方案，问题原因可能是启动器签名没有通过微软校验。要解决问题也非常简单，进入 BIOS 临时禁用安全启动，完成 Windows 11 最终安装后系统会使用微软官方的启动器，此时再重启开启安全启动即可。查看详情：https://ourl.co/112826&lt;/p&gt;&lt;p&gt;蓝点网在测试 Windows 11 最新版时遇到安全启动问题，以前在相同设备上装机并未出现过类似错误，这次装机出现启动失败倒是让我非常意外，不过简单查询后发现这个问题与 Rufus 签名以及微软安全启动政策有关系。&lt;/p&gt;
+&lt;p&gt;出现问题的阶段是已经完成系统安装拔掉 U 盘进行重启阶段，重启时进入命令行界面提示：安全启动与当前启动链不兼容，按任意键退出后再次启动时依然会出现这个错误，而重新通过 U 盘安装系统无法解决问题。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112826.png" rel="nofollow"&gt;&lt;img alt="[教程] Rufus U盘启动Windows 11出现安全启动验证失败的解决方案" data-src="https://img.lancdn.com/landian/2026/04/112826.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112826.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;第一种原因与微软吊销部分旧的安全启动签名有关，这个问题发生在 Windows 10 黑莲花漏洞时期，为修复这个漏洞微软将诸多旧数字签名吊销，因此若用户使用的 Windows 10/11 镜像比较老旧那么就会出现安全启动链无法兼容的情况。&lt;/p&gt;
+&lt;p&gt;第二种原因与 Rufus 使用的 NTFS 驱动程序签名有关，Rufus 使用的是 UEFI:NTFS 方案启动 (驱动程序为 NTFS-3G)，由于这个驱动程序并未在微软安全启动白名单中，因此同样会出现安全启动链无法兼容的错误。&lt;/p&gt;
+&lt;p&gt;但让蓝点网没明白的是，在相同设备上以前装机是没问题的，近期也没有更新 Intel NUC BIOS 固件，Rufus 使用的同样是最新版，所以潜在的猜测是微软在 Windows 11 测试版里收紧白名单校验机制 (说起来近期也没听说有这种变化)。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;要解决这个问题不需要太复杂的操作，只需要重新进入 BIOS 设置界面临时将安全启动禁用，能够成功启动系统 (此时其实还是在安装阶段尚未进入 OOBE) 完成最终安装即可，配置 OOBE 界面进入桌面后再次重启，将安全启动打开即可。&lt;/p&gt;
+&lt;p&gt;这样能解决问题是因为临时禁用安全启动后会继续使用非白名单引导程序完成系统启动，系统成功启动后就会切换为微软自己的引导启动程序，这是在白名单链路里的所以再次开启安全启动后也不会再报错 (基于安全考虑请务必启用安全启动功能)。&lt;/p&gt;
+&lt;p&gt;操作链路：报错界面→按任意键重启→进入 BIOS 界面→找到安全相关选项将安全启动禁用→保存并重启系统→OOBE 界面完成配置后进入桌面→重启系统进入 BIOS 启用安全启动。&lt;/p&gt;
+&lt;pre&gt;&amp;lt;https://un.akeo.ie&amp;gt;
+[INFO]  UEFI v2.70 (American Megatrends, 0x00050010)
+[INFO]  Intel Corp. FNCML357.0052.2021.0409.1144
+[INFO]  Intel(R) Client Systems NUC10i5FNH
+[INFO]  Secure Boot status: Enabled
+[INFO]  Disconnecting potentially blocking drivers
+[INFO]  Searching for target partition on boot disk:
+[INFO]  PciRoot(0x0)/Pci(0x14,0x0)/USB(0xE,0x0)
+[INFO]  Found NTFS target partition: PciRoot(0x0)/Pci(0x14,0x0)/USB(0xE,0x0)/HD(1,GPT,2D96ED2D-5779-44D9-9F93-41E8682AA897,0x800,0x3A9B460)
+[WARN]  Unloading existing 'AMI NTFS Driver v0x10000'
+[INFO]  Starting NTFS driver service:NTFS Driver 1.7 (ntfs-3g 69d8cbco)
+[INFO]  Opening target NTFS partition:Volume label is 'CPRA_X64FRE_ZH-CN_DV9'
+[INFO]  This system uses 64-bit x86 UEFI =&amp;gt; searching for x64 UEFI bootloader
+[INFO]  Launching 'efi\boot\bootx64.efi'...
+[INFO]  Starting Microsoft Windows bootmgr...
+[FAIL]  Windows bootmgr encountered a security validation or internal error
+Press any key to exit.&lt;/pre&gt;
+</description><pubDate>Mon, 27 Apr 2026 01:30:28 +0000</pubDate></item><item><title>必应(国内版)搜索Chrome被奇怪的网站占领 冒充谷歌提供山寨版Chrome</title><link>https://www.landiannews.com/archives/112825.html</link><description>
+&lt;p&gt;#软件资讯 必应 (中国) 搜索 Chrome 被奇怪的山寨网站占领，这些网站均使用黑龙江省级域名 hl.cn 的子域名，直接霸占 Chrome 关键词搜索结果前三。山寨网站只允许通过必应搜索访问，直接访问会报错，而在沙盒中安装山寨版则会下载官方版 Chrome，说明安装程序也会对抗检测，考虑到 Windows 11 默认预装 Microsoft Edge 以及默认使用必应搜索，这可能导致新装系统想要安装 Chrome 的用户直接进入钓鱼网站。查看详情：https://ourl.co/112825&lt;/p&gt;&lt;p&gt;据蓝点网网友提供的消息，必应搜索国内版在搜索关键词 Chrome 时被奇怪的网站占领，这些网站冒充谷歌浏览器官方网站向用户提供篡改的版本，这些篡改的版本同样是劫持默认搜索引擎和主页等，从搜索引擎或网站导航提供商获得相关分成。&lt;/p&gt;
+&lt;p&gt;我们在不同设备上进行测试发现搜索结果略有不同，不过总体来说除却夸克浏览器的推广广告外，下面自然搜索结果前三都被山寨网站占据，这些网站使用的还都是黑龙江省级域名 hl.cn 的子域名，子域名数量非常多而且还只允许通过必应搜索访问，直接访问时会报错。&lt;/p&gt;
+&lt;p&gt;&amp;gt;&amp;gt;&amp;gt; 谷歌官方CN域名可以直接访问和下载Chrome：&lt;a href="https://google.cn/chrome/" rel="noopener" target="_blank"&gt;https://google.cn/chrome/&lt;/a&gt; 请认准此地址&amp;lt;&amp;lt;&amp;lt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112825-1.png" rel="nofollow"&gt;&lt;img alt="必应(国内版)搜索Chrome被奇怪的网站占领 冒充谷歌提供山寨版Chrome" data-src="https://img.lancdn.com/landian/2026/04/112825-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112825-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112825-2.png" rel="nofollow"&gt;&lt;img alt="必应(国内版)搜索Chrome被奇怪的网站占领 冒充谷歌提供山寨版Chrome" data-src="https://img.lancdn.com/landian/2026/04/112825-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112825-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Windows 11 默认预装微软的 Microsoft Edge 浏览器并默认使用必应搜索，不少用户安装系统后都需要通过 Microsoft Edge 搜索安装 Chrome 浏览器，因此每天被这些山寨网站投毒的用户应该非常多。&lt;/p&gt;
+&lt;p&gt;蓝点网尝试在 Windows Sandbox 中对这个山寨版进行测试，不过山寨版检测到沙盒后会更改安装方式，直接安装官方版的谷歌浏览器，而直接访问山寨网站也同样会报错，这些网站只允许用户通过必应搜索来源进行访问。&lt;/p&gt;
+&lt;p&gt;叠加这些测试分析的做法，这个山寨版谷歌浏览器可能还存在其他恶意行为，所以建议用户安装软件时仔细检查网址，毕竟像是浏览器这种主要软件涉及各类账户密码，如果山寨版窃取账户密码则可能造成安全问题。&lt;/p&gt;
+</description><pubDate>Mon, 27 Apr 2026 01:00:29 +0000</pubDate></item><item><title>深度求索推出DeepSeek V4 Pro限时活动 调用价格从0.1元起步下调到0.025元</title><link>https://www.landiannews.com/archives/112824.html</link><description>
+&lt;p&gt;#人工智能 深度求索推出 DeepSeek V4 Pro 模型限时优惠活动，调用价格从 0.1 元下调到 0.025 元，无论是否命中缓存以及输出价全部为 2.5 折。此次折扣活动截止时间为 5 月 5 日，提供折扣或许是因为 Flash 模型能力并不突出，至少从目前社交网站上的用户反馈来看，V4-Flash 与旧模型相比没有太大优势。查看详情：https://ourl.co/112824&lt;/p&gt;&lt;p&gt;早前深度求索提出 DeepSeek V4 系列模型，不过因为硬件算力资源问题导致专业版模型调用价格非常高，按照深度求索所说，下半年更多硬件到位后专业版模型的调用价格将会大幅度下调，但现阶段模型使用价格还是非常高的。&lt;/p&gt;
+&lt;p&gt;问题在于 V4-Flash 模型在能力上并没有比其他模型突出，能力较好的 V4-Pro 模型又太贵，这种情况可能都已经影响到深度求索 DeepSeek 系列模型的口碑，最简单的解决方法自然是降价让大家充分进行试用。&lt;/p&gt;
+&lt;p&gt;所以现在深度求索推出限时优惠活动，V4-Pro 模型到 2026 年 5 月 5 日都提供 2.5 折特别优惠价，优惠价后百万缓存命中价格从 0.1 元下降到 0.025 元，整体价格仍然比 V4-Flash 要高，但相较于国外模型调用价格还是比较便宜的。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112796.png" rel="nofollow"&gt;&lt;img alt="深度求索推出DeepSeek V4 Pro限时活动 调用价格从0.1元起步下调到0.025元" data-src="https://img.lancdn.com/landian/2026/04/112796.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112796.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;截止时间：2026 年 5 月 5 日 23:59&lt;/li&gt;
+&lt;li&gt;若命中缓存：百万输入价从 0.1 元降至 0.025 元&lt;/li&gt;
+&lt;li&gt;未命中缓存：百万输入价从 12 元降至 3 元&lt;/li&gt;
+&lt;li&gt;输出价格：百万输出从 24 元降至 6 元&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;如果用户想要趁着限时优惠活动使用 DeepSeek-V4-Pro 模型，则应当设置好定时切换或者给自己设置个提醒，在活动结束前切换到其他模型以免恢复原价后产生太高的花费，目前活动价仅相当于原价的 2.5 折，所以恢复原价后还是非常贵的。&lt;/p&gt;
+&lt;p&gt;不过 DeepSeek V4 系列模型仍然保持 MIT 开源发布，所以其他平台也会陆续提供模型调用，到时候如果用户能找到更便宜的平台也可以切换过去，到下半年硬件资源到位价格下调后再使用 DeepSeek 官方 API 平台进行调用。&lt;/p&gt;
+</description><pubDate>Mon, 27 Apr 2026 00:30:27 +0000</pubDate></item><item><title>解决强制更新问题，Windows 11新版本可每次暂停更新35天和无限次暂停更新</title><link>https://www.landiannews.com/archives/112823.html</link><description>
 &lt;p&gt;#系统资讯 解决强制更新问题，Windows 11 新版本可每次暂停更新 35 天和无限次暂停更新，即用户可以通过手动方式无限期暂停更新。设置逻辑是这样的，从当日开始可以选择向后 35 天，例如到 35 天时再次选择 35 天后，也就是每 35 天需要手动设置 1 次，如果没设置系统就会自动下载更新。查看详情：https://ourl.co/112823&lt;/p&gt;&lt;p&gt;此前微软在博客中已经提到将不再强迫用户 Windows 11 安装更新，因为自动下载和安装更新在事实上确实给不少用户造成麻烦，尽管及时安装更新可以提升系统安全性但前提是不能影响用户的正常使用。&lt;/p&gt;
 &lt;p&gt;所以微软后续将继续默认采用自动更新，但如果用户需要的话可以暂停更新并且还是无限期暂停更新，现在这些更改已经在 Windows 11 Build 26300.8289 (实验版) 中带来此功能，用户在启用实验性选项的情况下即可看到日期选择窗口。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112823-3.png" rel="nofollow"&gt;&lt;img alt="解决强制更新问题，Windows 11新版本可每次暂停更新35天和无限次暂停更新" data-src="https://img.lancdn.com/landian/2026/04/112823-3.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112823-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -12,69 +79,4 @@
 &lt;p&gt;前置条件是系统版本需 Windows 11 Build 26300.8289 或更高版本，低于此版本暂时不支持该功能，现阶段该功能还在测试中因此用户需要在实验性选项里手动开启功能再重启系统使之生效。&lt;/p&gt;
 &lt;p&gt;选项路径：Windows 11、设置、更新、预览计划、高级选项、实验性标志、启用「按计划暂停更新」，将此选项启用后会提示重启系统，重启系统后转到更新里点击暂停更新，即可看到日期选项功能。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112823-2.png" rel="nofollow"&gt;&lt;img alt="解决强制更新问题，Windows 11新版本可每次暂停更新35天和无限次暂停更新" data-src="https://img.lancdn.com/landian/2026/04/112823-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112823-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sun, 26 Apr 2026 05:50:52 +0000</pubDate></item><item><title>远程控制软件TeamViewer强迫永久许可证用户购买订阅许可证 不然没法公网连接</title><link>https://www.landiannews.com/archives/112799.html</link><description>
-&lt;p&gt;#软件资讯 这操作简直亮瞎眼！远程控制软件 TeamViewer 正在强迫永久许可证用户迁移到订阅制，不迁移将无法公网连接，只能局域网连接。TeamViewer 13/14 版将从 10 月 31 日开始被淘汰，到时候持有这些版本永久许可证的用户只能局域网连接，除非额外花钱购买订阅许可证进行版本升级。查看详情：https://ourl.co/112799&lt;/p&gt;&lt;p&gt;知名远程控制软件 TeamViewer 日前发布 13 和 14 版的淘汰计划，简单来说 TeamViewer 13 和 14 版将从 2026 年 10 月 31 日开始逐步淘汰，届时这些版本将逐步无法进行公网连接，除非用户只在局域网环境中使用。&lt;/p&gt;
-&lt;p&gt;该软件最重要的用途就是跨网进行远程连接和控制，既然只能用于局域网环境中连接那也没有使用的必要，问题在于即便用户购买的是永久许可证也没法继续使用，用户必须重新付费购买基于订阅制的许可证。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112799.png" rel="nofollow"&gt;&lt;img alt="远程控制软件TeamViewer强迫永久许可证用户购买订阅许可证 不然没法公网连接" data-src="https://img.lancdn.com/landian/2026/04/112799.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112799.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;TeamViewer 永久许可证的价格非常高 (尤其是商业版本)，但永久许可证的好处是购买后不需要再续费，相较于订阅制许可证，永久许可证在长期使用的情况下更有价格优势，只是没想到 TeamViewer 的操作让人差点闪着腰。&lt;/p&gt;
-&lt;p&gt;根据该公司的计划，从 10 月 31 日开始 TeamViewer 13/14 版将被逐步淘汰，到时候用户将无法使用跨网 / 公网连接 (这需要依赖 TeamViewer 的服务器)，只能用于本地局域网内部连接和控制。&lt;/p&gt;
-&lt;p&gt;如果想要继续进行公网连接那用户需要购买基于订阅制的新许可证，实际上 TeamViewer 的这种做法就是强迫购买永久许可证的用户迁移到订阅许可证，这样 TeamViewer 在未来可以获得更高的收益。&lt;/p&gt;
-&lt;p&gt;TeamViewer 还表示逐步淘汰旧版本可以降低风险，为所有用户提供稳定、安全且面向未来的平台，只不过如果真基于安全淘汰旧版本，那也应该补偿永久许可证用户，比如直接提供免费的永久订阅许可。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;TeamViewer SE 是德国公司，在美国和其他国家也拥有大量的个人和商业客户，这种逼迫用户额外付费从永久许可证迁移到订阅制许可证的做法显然已经侵害消费者的合法权益 (当然使用条款里肯定已经提前写好 TeamViewer 有权对许可证进行变更)。&lt;/p&gt;
-&lt;p&gt;TeamViewer 倒是在公告里提到永久许可证客户可以获得迁移到订阅制许可证的专属优惠，不过即便如此对用户而言也是要额外花钱的，考虑到 TeamViewer 的官方公告是 4 月 23 日发布的，这时候需要让子弹再飞一会儿，不知道后续是否会有消费者权益保护机构介入调查再进行投诉或起诉。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://community.teamviewer.com/English/discussion/143746/end-of-support-for-teamviewer-versions-13-and-14" rel="noopener" target="_blank"&gt;TeamViewer&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 25 Apr 2026 03:00:04 +0000</pubDate></item><item><title>金山WPS客户端和网页版现已支持打开和编辑Markdown文件 支持实时渲染</title><link>https://www.landiannews.com/archives/112798.html</link><description>
-&lt;p&gt;#软件资讯 国产办公软件金山 WPS 宣布支持 Markdown 格式，用户可以直接在 WPS 客户端或网页版中打开和编辑 MD 文件，可以实时渲染可视化格式。例如用户可以屏幕左侧编写文件，右侧实时显示渲染出来的可视化格式，也可以将 MD 文件转换为其他文档格式方便进行协作。查看详情：https://ourl.co/112798&lt;/p&gt;&lt;p&gt;国产办公软件 WPS 日前宣布为 Markdown 格式提供完整支持，即用户可以直接使用 WPS 打开 MD 文件并进行编辑，还可以将 MD 文件转换为其他格式方便与同事或客户进行协作，在 AI 时代 Markdown 格式使用率极高，WPS 现在提供支持也是顺应时代发展。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.landiannews.com/archives/112779.html" rel="noopener" target="_blank"&gt;早前微软刚刚宣布 Microsoft OneDrive 网页版支持 Markdown 格式&lt;/a&gt;，可以直接在网页版中查看和编辑 MD 文件，甚至用户都不需要懂 Markdown 语法，微软通过菜单栏提供诸如加粗、代码块、有序列表等，让用户可以通过可视化方法进行编辑，然后生成符合语法规范的 MD 文件。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112798-1.png" rel="nofollow"&gt;&lt;img alt="金山WPS客户端和网页版现已支持打开和编辑Markdown文件 支持实时渲染" data-src="https://img.lancdn.com/landian/2026/04/112798-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112798-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;目前 WPS 提供的 Markdown 支持还是比较完善的，尤其是提供分屏实时渲染，例如在屏幕左侧使用 Markdown 语法编辑文件，屏幕右侧实时显示可视化的格式，因此即便发生错误也可以快速发现并进行语法纠正。&lt;/p&gt;
-&lt;p&gt;但毕竟不是所有用户都安装支持 Markdown 的软件，所以 WPS 还提供文档转换功能，即用户可以将 MD 文件转换为其他通用文档，让其他用户也可以可视化查看文件，以免直接使用记事本打开文件后丢失显示格式 (Windows 11 记事本的最新版倒是已经支持渲染 MD 样式)。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;遗憾的是目前 WPS 客户端尚未全量支持 Markdown 格式&lt;/strong&gt;，也就是部分用户可能可以使用 MD 文件，部分用户暂时还无法直接打开 MD 文件，但 WPS 网页版已经全量支持，所有用户都可以直接通过 WPS 网页版查看和编辑 MD 文件。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112798-3.png" rel="nofollow"&gt;&lt;img alt="金山WPS客户端和网页版现已支持打开和编辑Markdown文件 支持实时渲染" data-src="https://img.lancdn.com/landian/2026/04/112798-3.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112798-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;网页版方法 1：在 WPS 网页版首页点击导入按钮，然后选择现有的 MD 文件即可上传并打开&lt;/li&gt;
-&lt;li&gt;网页版方法 2：直接将 MD 文件拖入到 WPS 网页版首页，此时 WPS 检测到 MD 文件也同样会自动打开&lt;/li&gt;
-&lt;li&gt;客户端方法 1：在 WPS 客户端首页点击打开、选择文件夹、文件类型选择所有文件、选择 MD 文件&lt;/li&gt;
-&lt;li&gt;客户端方法 2：直接将 MD 文件拖入到 WPS 客户端也可以自动打开 (注意当前客户端正在逐渐支持 MD 文件)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112798-2.png" rel="nofollow"&gt;&lt;img alt="金山WPS客户端和网页版现已支持打开和编辑Markdown文件 支持实时渲染" data-src="https://img.lancdn.com/landian/2026/04/112798-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112798-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 25 Apr 2026 02:00:04 +0000</pubDate></item><item><title>4月更新导致部分Windows 11设备循环重启/像素化画面 GTX1080Ti受影响最严重</title><link>https://www.landiannews.com/archives/112797.html</link><description>
-&lt;p&gt;#系统资讯 微软 4 月更新导致 Windows 11 循环重启和画面像素化或马赛克，部分用户出现循环重启 → 自动修复失败 → 再次自动重启 → 再次尝试。受影响比较严重的是搭载 GTX 1080 Ti 显卡的戴尔和惠普设备，目前微软尚未确认问题，最佳解决方案是通过 WinRE 恢复环境删除最近安装的更新。查看详情：https://ourl.co/112797&lt;/p&gt;&lt;p&gt;微软在 2026 年 4 月 14 日发布 KB5083769 号更新，该更新适用于 Windows 11 24H2/25H2 版，不过目前已经有诸多帖子指出此更新导致设备循环重启、画面出现像素画或者马赛克，受影响最严重的机型是带有 GTX 1080 Ti 显卡的戴尔和惠普机型。&lt;/p&gt;
-&lt;p&gt;截至本文发布时微软尚未将该问题添加到已知问题列表里，这也代表着微软尚未确认该问题的存在，所以短时间内微软可能不会发布 OOB 带外更新进行修复，遇到此问题的用户只能尝试通过自动修复、卸载更新乃至重置系统。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/03/108606.png" rel="nofollow"&gt;&lt;img alt="4月更新导致部分Windows 11设备循环重启/像素化画面 GTX1080Ti受影响最严重" data-src="https://img.lancdn.com/landian/2025/03/108606.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/03/108606.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;目前关于引发故障的更新还不能真正确定，有些用户认为是安装 KB5083769 号更新导致的，有些用户则认为是安装.NET 安全更新 KB5082417 引起的，但出现的故障基本类似，都是循环重启且无法自动修复。&lt;/p&gt;
-&lt;p&gt;正常情况下 Windows 11 检测到系统故障时会自动尝试进行修复，当前的情况是系统循环重启 → 自动修复失败 → 再次自动重启 → 再次尝试修复，遇到这个问题的用户甚至都无法正常进入桌面。&lt;/p&gt;
-&lt;p&gt;还有个问题表现是屏幕先出现乱七八糟的像素点或者画面变成马赛克样式，接着系统发生黑屏死机 (BSOD)，提示需要恢复系统，但无论如何操作最终都还是无法成功修复，迫于无奈用户只能发帖求助。&lt;/p&gt;
-&lt;p&gt;当然也有运气好的用户经过多次自动修复和重启后成功进入桌面，而且检查更新历史记录发现显示的还是成功的，这种情况下本着能用就不要动的原则，所以也没必要手动卸载更新。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;以下方案为通用方案也可以应对其他因为安装更新导致的循环重启或无法进入桌面，方法就是连续强制关机来进入 WinRE 恢复环境，在恢复环境里删除更新，如果能成功删除的话或许可以让系统恢复正常。&lt;/p&gt;
-&lt;p&gt;操作方法如下：在蓝屏或报错界面按住电源按钮 3~10 秒强制关机，接着重启开机在蓝屏或恢复界面再次按住电源按钮强制关机，第三次开机时系统将自动进入 WinRE 恢复环境。&lt;/p&gt;
-&lt;p&gt;在恢复环境里点击高级选项，然后选择卸载更新，点击该选项后系统会自动尝试将最近安装的更新删除，成功删除更新后会再次重启系统，只要能成功删除应该就可以重新进入系统。&lt;/p&gt;
-&lt;p&gt;遇到以上问题的用户建议访问微软官方论坛的这个&lt;a href="https://learn.microsoft.com/en-au/answers/questions/5862058/2026-04-security-update-(kb5083769)-(26200-8246)-c" rel="noopener" target="_blank"&gt;反馈贴&lt;/a&gt;，登录微软账号后将自己遇到的情况发在回帖里，这样也许可以引起微软关注从而更快修复这个故障。&lt;/p&gt;
-</description><pubDate>Sat, 25 Apr 2026 01:00:03 +0000</pubDate></item><item><title>继续屠杀全球AI模型：DeepSeek V4 API价格公布 起步价仅0.2元/百万输入</title><link>https://www.landiannews.com/archives/112796.html</link><description>
-&lt;p&gt;#人工智能 继续屠杀全球 AI 模型：DeepSeek V4 API 价格公布，起步价仅每百万输入 0.2 元，这个价格可以直接屠杀全球各类模型甚至部分 API 中转站。模型能力上 V4 交付质量接近 Claude Opus 4.6 非思考模式，但仍然与思考模式存在差距，不过考虑到价格这是完全可以接受的。查看详情：https://ourl.co/112796&lt;/p&gt;&lt;p&gt;这个周五最热闹的事情莫过于深度求索终于发布 DeepSeek V4 模型，深度求索也在官方公众号里提供详细的评测信息，评测信息显示该模型交付质量接近 Claude Opus 4.6 非思考模式，但仍然与其思考模式存在差距。&lt;/p&gt;
-&lt;p&gt;然而在价格面前这种瑕疵完全可以忽略，因为该模型 API 调用价格起步才 0.2 元，这个价格可以直接屠杀全球各类模型乃至部分 API 中转站，对于预算有限的用户和开发者来说 DeepSeek V4 将带来更充足的调用额度。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112796.png" rel="nofollow"&gt;&lt;img alt="继续屠杀全球AI模型：DeepSeek V4 API价格公布 起步价仅0.2元/百万输入" data-src="https://img.lancdn.com/landian/2026/04/112796.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112796.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;DeepSeek-V4-Flash：每百万缓存命中输入 0.2 元、每百万缓存未命中输入 1 元、每百万输出 2 元&lt;/li&gt;
-&lt;li&gt;DeepSeek-V4-Pro：每百万缓存命中输入 1 元、每百万缓存未命中输入 12 元、每百万输出 24 元&lt;/li&gt;
-&lt;li&gt;注：Pro 模型价格高是因为当前算力资源有限，深度求索称下半年情况会改善&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;以上模型均同时支持最高 1M 上下文、最大输出 384K、支持思考模式与非思考模式、默认启用思考模式、支持输出为 JSON、支持对话前缀续写、支持 FIM 补全 (仅思考模式下支持)。&lt;/p&gt;
-&lt;p&gt;深度求索现在也同时提供 OpenAI 和 Anthropic 兼容端点格式，用户无需使用转换工具即可直接使用 DeepSeek 官方 API 地址进行调用，调用地址分别是：https://api.deepseek.com、https://api.deepseek.com/anthropic&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;新模型：deepseek-v4-flash&lt;/li&gt;
-&lt;li&gt;新模型：deepseek-v4-pro&lt;/li&gt;
-&lt;li&gt;旧模型：deepseek-chat (将于 2026/07/24 弃用)&lt;/li&gt;
-&lt;li&gt;旧模型：deepseek-reasoner (将于 2026/07/24 弃用)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;用户在调用以上模型时建议直接选择新模型，对于现有项目则建议用户重新配置模型，以免在旧模型弃用后忘记切换导致无法正常使用。出于兼容考虑，两款旧模型对应着 deepseek-v4-flash 的非思考模式和思考模式。&lt;/p&gt;
-&lt;p&gt;访问 DeepSeek API 平台：&lt;a href="https://api-docs.deepseek.com/zh-cn/" rel="noopener" target="_blank"&gt;https://api-docs.deepseek.com/zh-cn/&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 24 Apr 2026 06:00:00 +0000</pubDate></item></channel></rss>
+</description><pubDate>Sun, 26 Apr 2026 05:50:52 +0000</pubDate></item></channel></rss>
