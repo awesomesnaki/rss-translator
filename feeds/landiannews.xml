@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 27 Apr 2026 13:29:14 +0000</lastBuildDate><item><title>月之暗面Kimi API充值活动正在继续 充值超过500元即可获得20%的奖励</title><link>https://www.landiannews.com/archives/112835.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 28 Apr 2026 03:38:15 +0000</lastBuildDate><item><title>Copilot从6月1日开始转为按量计费 根本原因是GitHub难以承受不断飙涨的成本</title><link>https://www.landiannews.com/archives/112837.html</link><description>
+&lt;p&gt;#人工智能 GitHub Copilot 从 6 月 1 日起转向按量计费模式，根本原因是 GitHub 已经无法继续承担不断飙涨的成本。后续 Copilot 订阅套餐将获得订阅费用等额的信用点，每个任务按照 tokens 数量 (输入 / 输出 / 缓存) 和模型 (包括不同倍率) 进行计算，然后扣除信用点，不够用则需要额外加钱购买。查看详情：https://ourl.co/112837&lt;/p&gt;&lt;p&gt;代码托管平台 GitHub 日前发布公告和通过邮件通知所有订阅用户，从 2026 年 6 月 1 日开始 GitHub Copilot 将过渡到按量计费，后续每个订阅套餐都将获得与订阅费用相同的信用点，开发者也可以额外购买信用点获得更高的使用量和按照不同的模型费率进行计费。&lt;/p&gt;
+&lt;p&gt;为帮助开发者们做好准备，GitHub 将在 5 月初推出账单预览功能，让开发者和 IT 管理员可以在 6 月 1 日正式启用新计费系统前了解预计费用，这样开发者可以规划用量以及决定是否开通何种订阅套餐和是否要额外购买信用点。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/03/112349.png" rel="nofollow"&gt;&lt;img alt="Copilot从6月1日开始转为按量计费 根本原因是GitHub难以承受不断飙涨的成本" data-src="https://img.lancdn.com/landian/2026/03/112349.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/03/112349.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 根本原因是 GitHub 难以承受不断飙涨的成本：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在官方博客中 GitHub 表示，现在 Copilot 已经发展成为智能体平台，可以运行长时间的多步骤编码任务、使用最新模型、遍历整个代码库，智能体的使用也逐渐成为默认模式，这也带来更高的计算和推理需求。&lt;/p&gt;
+&lt;p&gt;用户花费在快速聊天提问和数小时自主编程上的费用可能相同，GitHub 已经承担大部分不断上涨的推理成本，但目前的付费请求模式已经难以为继，按照使用量计费可以解决这个问题，新模式可以更好地让价格与实际使用量挂钩，帮助 GitHub 维持长期服务的可靠性。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;每种订阅套餐将获得与订阅费用相同的 AI 信用点，实际使用量将根据 tokens 消耗量计算，包括输入、输出、缓存的 tokens，这些请求会被综合为消耗部分 AI 信用点，不同模型消耗的信用点也是不同的。&lt;/p&gt;
+&lt;p&gt;这意味着开发者使用先进模型且执行长时间的连续编程任务则会消耗更多的 tokens，也就是最终会消耗更多的信用点，如果信用点不足将无法继续使用，只能额外充值购买更多的信用点才可以继续使用。&lt;/p&gt;
+&lt;p&gt;模型倍率等已经在 GitHub 支持文档中公布，例如 Claude Opus 4.7 的当前倍率为 7.5x，这些倍率会根据 API 价格进行调整，所以 GitHub 也会定期调整倍率。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;个人版 Copilot Pro：每月 10 美元，包含每月 10 美元的 AI 信用点&lt;/li&gt;
+&lt;li&gt;个人版 Copilot Pro+：每月 39 美元，包含每月 39 美元的 AI 信用点&lt;/li&gt;
+&lt;li&gt;企业版 Copilot Business：每用户每月 19 美元，包含每月 19 美元的 AI 信用点，配额可在组织内部共享&lt;/li&gt;
+&lt;li&gt;企业版 Copilot Enterprise：每用户每月 70 美元，包含每月 70 美元的 AI 信用点，配额可在组织内部共享&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;关于配额共享：仅限企业订阅用户，用户配额会被放在大池子中，每名用户未使用的套餐剩余信用点可以在整个企业内部共享以减少限制和浪费。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/" rel="noopener" target="_blank"&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 28 Apr 2026 03:38:15 +0000</pubDate></item><item><title>Claude Pro订阅无法再使用Opus系列模型？A社称过时信息忘记删除</title><link>https://www.landiannews.com/archives/112836.html</link><description>
+&lt;p&gt;#人工智能 Claude Pro 订阅无法在 Claude Code 中使用 Opus 系列模型？截图是真的但属于过时信息，用户可以继续使用。从昨天开始 X 上流传的截图显示 Claude Pro 将不支持在 CC 里使用 Opus 模型，用户需要额外付费才能使用，A 社称这是 2025 年 12 月的过时信息，目前已经更新支持文档删除错误信息。查看详情：https://ourl.co/112836&lt;/p&gt;&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112836.png" rel="nofollow"&gt;&lt;img alt="Claude Pro订阅无法再使用Opus系列模型？A社称过时信息忘记删除" data-src="https://img.lancdn.com/landian/2026/04/112836.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112836.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;👆🏻上图为过时信息&lt;/p&gt;
+&lt;p&gt;从昨天开始社交媒体 X/Twitter 上流传有关 Claude Pro 订阅很快将无法使用 Opus 系列模型的消息，截图显示 A 社在模型支持提示中表示：当在 Claude Code 中使用 Claude Pro 订阅时，必须购买额外的使用量才可以使用 Opus 系列模型。&lt;/p&gt;
+&lt;p&gt;这则消息引起诸多用户的不满，有用户认为肯定是 A 社想赚更多所以才收紧 Claude Pro 订阅的权益，逼迫更多用户开通价格更高的 Claude Max 订阅，或通过 API 平台调用 Claude Opus 系列最新模型。&lt;/p&gt;
+&lt;p&gt;流传的截图倒不是 AI 生成的，不过用户也无需担心，引起大量关注后 A 社员工称截图属于过时信息，这还是 2025 年 12 月开始更新的提示，当时是 Claude Pro 尚未支持 Opus 系列模型，所以 A 社会在页面挂上提示。&lt;/p&gt;
+&lt;p&gt;而从 2026 年 1 月份开始 Claude Pro 订阅已经支持在 Claude Code 里使用 Claude Opus 4.5 (以及之后支持更多新模型)，但当时挂上的提示忘记删除，于是就这么被保留到现在，直到不少用户截图传播开。&lt;/p&gt;
+&lt;p&gt;现在这个提示已经被删除，用户可以放心继续在 Claude Code 中使用 Opus 模型，不需要额外支付费用或通过 API 平台调用，A 社若有其他关于 Claude Pro 订阅权益变动也会通过官网及时公布。&lt;/p&gt;
+</description><pubDate>Tue, 28 Apr 2026 03:11:05 +0000</pubDate></item><item><title>月之暗面Kimi API充值活动正在继续 充值超过500元即可获得20%的奖励</title><link>https://www.landiannews.com/archives/112835.html</link><description>
 &lt;p&gt;#人工智能 月之暗面 Kimi API 平台充值活动正在继续，即日起至 5 月 3 日 23:59 预充值金额可获得奖励，最高可获得充值金额 30% 的赠金。长期使用 Kimi 的用户可以趁着活动充值，毕竟活动门槛比较低，500 元起步，超过 5,000 元就可以获得 30% 的奖励。查看详情：https://ourl.co/112835&lt;/p&gt;&lt;p&gt;月之暗面向国内和全球市场用户推出 Kimi API 平台充值奖励活动正在继续，活动期间充值金额满 500 元即可获得至少 20% 的充值赠送，充值超过 5000 元最高可以获得高达 30% 的充值赠送，对于长期使用 Kimi 的用户来说这是个不可错过的好机会。&lt;/p&gt;
 &lt;p&gt;需要提醒的是此次活动指的是 API 调用平台，普通用户使用 Kimi 应用是不需要充值金额的，如果你不知道什么是 API 或者具体用于哪些服务，请勿充值 (充值金额不支持退款)。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112835.png" rel="nofollow"&gt;&lt;img alt="月之暗面Kimi API充值活动正在继续 充值超过500元即可获得20%的奖励" data-src="https://img.lancdn.com/landian/2026/04/112835.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112835.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -66,33 +94,4 @@
 &lt;p&gt;微软在发布博客中表示，这项更改是为了让电源菜单更容易预测，这样当用户需要快速重启或想在出门前关机时，Windows 就能完全按照用户的预测运行，而不是在重启或关机过程中安装最新更新。&lt;/p&gt;
 &lt;p&gt;需要强调的是这次变更属于计划内的，&lt;a href="https://www.landiannews.com/archives/110864.html" rel="noopener" target="_blank"&gt;这与前段时间微软修复的关机并安装更新结果导致系统重启不同&lt;/a&gt;，这个问题是系统 BUG 因此在安装更新后再次启动系统而非关机，用户安装最新累积更新后应该不会再出现关机并安装更新后系统又自己启动。&lt;/p&gt;
 &lt;p&gt;via &lt;a href="https://blogs.windows.com/windows-insider/2026/04/24/your-windows-update-experience-just-got-updated/" rel="noopener" target="_blank"&gt;Microsoft&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 27 Apr 2026 05:56:04 +0000</pubDate></item><item><title>分析师称OpenAI将在2028年推出AI手机 完全由AI驱动而不是要用户安装各类应用</title><link>https://www.landiannews.com/archives/112832.html</link><description>
-&lt;p&gt;#人工智能 分析师称 OpenAI 将在 2028 年推出 AI 手机，由智能体驱动而不是安装各类应用程序，智能体将接管用户的各类信息即时处理需求。OpenAI 的芯片供应商是联发科和高通，芯片需要能够在本地运行规模较小的 AI 模型，系统设计与制造则由立讯精密负责，OpenAI 将获得完整的底层硬件和软件权限。查看详情：https://ourl.co/112832&lt;/p&gt;&lt;p&gt;知名分析师&lt;a href="https://x.com/mingchikuo/status/2048587369394381143" rel="noopener" target="_blank"&gt;郭明錤&lt;/a&gt; (Ming-Chi Kuo) 日前发布最新产业调查报告，调查显示 OpenAI 正在与诸多合作伙伴开发由 AI 智能体驱动的智能手机，相关合作伙伴包括芯片制造商联发科和高通、系统设计与制造商立讯精密。&lt;/p&gt;
-&lt;p&gt;当前智能手机主要提供操作系统，由用户安装各类开发商提供的应用程序，而 OpenAI 的智能手机不需要用户安装各种应用程序，而是通过手机执行任务满足各种需求，这从根本上推翻对现有智能手机的认知。&lt;/p&gt;
-&lt;p&gt;OpenAI 要制造手机的原因其实很简单，因为只有完全掌握软件和硬件才能提供全面的 AI 智能体服务，而只有手机拥有用户的一切当下状态，才能提供 AI 智能体即时推理所需要的各类数据，最后智能手机未来仍然是规模最庞大的设备。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112832.png" rel="nofollow"&gt;&lt;img alt="分析师称OpenAI将在2028年推出AI手机 完全由AI驱动而不是要用户安装各类应用" data-src="https://img.lancdn.com/landian/2026/04/112832.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112832.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;这些原因其实可以参考字节跳动与中兴合作推出的定制版豆包手机，豆包 AI 可以帮助用户执行各类操作，定制让豆包可以获得系统级权限，而诸多应用程序不允许 AI 进行自动化操作，这其中涉及安全问题和不同公司之间的利益和竞争问题。&lt;/p&gt;
-&lt;p&gt;OpenAI 手机不需要用户安装各类应用程序，而 OpenAI 也同时拥有底层硬件和系统的控制权限，这种可能也会逐渐成为未来智能手机的主流，即应用程序时代逐渐退场，整个手机会成为 AI 智能体的载体。&lt;/p&gt;
-&lt;p&gt;当然这种手机也存在诸多挑战：手机需要持续理解用户文本，需要解决续航和内存分层管理，处理器还需要能够在设备端本地运行规模较小的大型语言模型，复杂度较高的任务可能需要联网调用云端 AI 执行。&lt;/p&gt;
-&lt;p&gt;OpenAI 的优势在于消费端品牌以及累积多年的用户信息和领先的 AI 模型，手机硬件已经非常成熟，OpenAI 可以与供应链合作开发，至于商业模式则可能是将订阅制与软硬件捆绑，建立全新的 AI 智能体生态系统与软件开发商们合作。&lt;/p&gt;
-&lt;p&gt;郭老师还提到这种智能手机对供应链行业的影响，联发科与高通作为处理器合作开发商，可以受益于换机带来的收入增长；立讯精密在苹果供应链里很难超越鸿海 (富士康)，但或许 OpenAI 手机可以帮助立讯精密提前布局下一个手机时代。&lt;/p&gt;
-</description><pubDate>Mon, 27 Apr 2026 05:21:02 +0000</pubDate></item><item><title>DeepSeek V4系列缓存命中价格永久下降至首发价1/10 缓存命中起步价降至2分钱</title><link>https://www.landiannews.com/archives/112831.html</link><description>
-&lt;p&gt;#人工智能 深度求索将 DeepSeek V4 系列缓存命中价格永久下调到首发价 1/10，Flash 模型缓存命中价从 2 毛钱降到 2 分钱，Pro 模型叠加优惠活动后从 1 元下降到 2 分 5 厘。当然促销结束后 Pro 还是比较贵的，命中缓存 0.1元，未命中缓存 12 元、输出 24 元，这些调价和优惠活动应该会吸引更多用户使用 Pro 模型，扭转 V4 系列的口碑问题。查看详情：https://ourl.co/112831&lt;/p&gt;&lt;p&gt;前文蓝点网提到深度求索为 DeepSeek V4 Pro 模型推出限时优惠活动，优惠活动到 2026 年 5 月 5 日 23:59 结束，优惠期限内该模型缓存命中、缓存未命中和输出价格均为原价的 2.5 折，这可以让更多用户体验新模型的智能提升。&lt;/p&gt;
-&lt;p&gt;现在深度求索还在继续更新价格体系，该公司宣布将缓存命中的价格调整为首发价的 1/10，缓存命中价格调整适用于 DeepSeek V4 Flash 和 Pro，这个价格可以说是白菜价，哪怕模型能力差点也是完全可以接受的。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112831.png" rel="nofollow"&gt;&lt;img alt="DeepSeek V4系列缓存命中价格永久下降至首发价1/10 缓存命中起步价降至2分钱" data-src="https://img.lancdn.com/landian/2026/04/112831.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112831.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;DeepSeek V4 Flash：原百万输入命中缓存 0.2 元，调整后为百万输入命中缓存 0.02 元&lt;/li&gt;
-&lt;li&gt;DeepSeek V4 Flash：百万输入未命中缓存 1 元，价格未调整&lt;/li&gt;
-&lt;li&gt;DeepSeek V4 Flash：百万输出 2 元，价格未调整&lt;/li&gt;
-&lt;li&gt;DeepSeek V4 Pro：原百万输入命中缓存为 1 元，调整后百万输入命中缓存为 0.1 元&lt;/li&gt;
-&lt;li&gt;DeepSeek V4 Pro：百万输入未命中缓存 12 元，价格未调整，限时促销价为 3 元&lt;/li&gt;
-&lt;li&gt;DeepSeek V4 Pro：百万输出为 24 元，价格未调整，限时促销价为 6 元&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; 吸引更多用户使用 DeepSeek V4 模型和扭转口碑：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;DeepSeek V4 系列模型的发布时间已经非常迟，其他竞争对手都已经陆续发布智能化程度更高的新模型，从评测和体验来看 DeepSeek V4 Pro 相当于 Claude Sonnet 4.6 而且要比 Claude Opus 4.6 深度思考要差，DeepSeek V4 Flash 模型较 DeepSeek V3.2 的提升并不是非常明显。&lt;/p&gt;
-&lt;p&gt;更大的问题在于 DeepSeek V4 Pro 价格太高以至于没有明显的竞争优势，更多用户本着便宜的原则使用的都是 DeepSeek V4 Flash 模型，这也导致 DeepSeek V4 系列口碑不怎么好，所以深度求索推出限时优惠活动也可以吸引更多用户尝试 Pro 模型。&lt;/p&gt;
-&lt;p&gt;现在大幅度下调缓存命中价格同样也可以吸引更多用户使用，例如 Flash 模型百万输入命中缓存低至 2 分钱，Pro 模型百万输入命中缓存低至 0.1 元，促销期间低至 0.025 元，与 Flash 模型相差不大，所以使用 Pro 模型的用户可能会快速增加。&lt;/p&gt;
-&lt;p&gt;至少 Pro 模型在智能化程度上要远胜于 Flash 模型，所以这也可以扭转 DeepSeek V4 的口碑问题，但促销时间在 5 月 5 日就结束了，恢复原价后价格还是太高太高，还是得等下半年深度求索的硬件到位后才能大幅度下调 Pro 价格。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://api-docs.deepseek.com/zh-cn/quick_start/pricing" rel="noopener" target="_blank"&gt;DeepSeek&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 27 Apr 2026 04:06:39 +0000</pubDate></item></channel></rss>
+</description><pubDate>Mon, 27 Apr 2026 05:56:04 +0000</pubDate></item></channel></rss>
