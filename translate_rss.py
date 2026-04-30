@@ -45,7 +45,7 @@ def translate_with_deepseek(text):
     
     try:
         response = client.chat.completions.create(
-            model="deepseek-chat",
+            model="deepseek-v4-flash",
             messages=[
                 {
                     "role": "system",
@@ -97,7 +97,7 @@ def summarize_title_text(text, cache):
 
     try:
         response = client.chat.completions.create(
-            model="deepseek-chat",
+            model="deepseek-v4-flash",
             messages=[
                 {
                     "role": "system",
