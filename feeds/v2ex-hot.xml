@@ -1,5 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>V2EX-最热主题</title><link>https://www.v2ex.com/</link><description>V2EX-最热主题 - Powered by RSSHub</description><language>zh-CN</language><lastBuildDate>Sat, 02 May 2026 11:11:43 +0000</lastBuildDate><item><title>安卓的权限管理是假的，拒绝了仍然可以获取</title><link>https://www.v2ex.com/t/1210002</link><description>&lt;p&gt;123 云盘 app ，在拒绝了获取访问剪贴板之后，仍然可以读取。
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>V2EX-最热主题</title><link>https://www.v2ex.com/</link><description>V2EX-最热主题 - Powered by RSSHub</description><language>zh-CN</language><lastBuildDate>Sat, 02 May 2026 13:05:58 +0000</lastBuildDate><item><title>2026 年了， Notepad++ 对比 VSCode ，优势在哪？</title><link>https://www.v2ex.com/t/1210012</link><description>&lt;p&gt;讨论如题，优势在哪？
+身边的同事，不少人还在用着 Notepad++,刚微信文章也在说 Notepad++有 Mac 版本了，然后想到了这个问题。&lt;/p&gt;
+&lt;p&gt;用过一段时间的 Notepad ，并没有感觉有非用不可得地步。
+本着工作流做减法的原则，然后就卸载了，统一用 VSCode 了。&lt;/p&gt;
+&lt;p&gt;在我看来，Notepad 已经是上一代的产品了。&lt;/p&gt;
+&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;#1 lengyuqu&lt;/strong&gt;：现在谁还用这玩意啊，而且 v2 人均 mac&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#2 la9998372&lt;/strong&gt;：notepad++启动速度快啊，老平台上效果非常明显&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#3 startisan&lt;/strong&gt;：notepad++的文件内搜索，匹配行会在下方直接出来，这点其实很好用&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#4 stefwoo&lt;/strong&gt;：zed 启动也挺快的，现在也 1.0 了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#5 BenjaminSu&lt;/strong&gt;：@&lt;a href="/member/startisan"&gt;startisan&lt;/a&gt; 普通的功能啊&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#6 Domado&lt;/strong&gt;：没有什么优势了，现在基本上都用 VSCode&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#7 base&lt;/strong&gt;：功能上没有任何优势，唯一的优势就是‘用习惯了为什么要换’。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#8 fuchish112&lt;/strong&gt;：没啥优势，当记事本，我用 sublime text&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#9 AV1&lt;/strong&gt;：没有任何优势。&lt;br/&gt;如果你用 VSCode 觉得没问题，就不必留着它。&lt;br/&gt;Notepad++能干的 VSCode 都能做。&lt;br/&gt;&lt;br/&gt;Notepad++本质就是个套壳 Scintilla 的东西。&lt;br/&gt;虽然 Notepad++长期以来是 windows only ，但 Scintilla 本身是跨平台的。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#10 89ao&lt;/strong&gt;：谜底就在谜面上哇，一个是 notepad 一个是 IDE&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#11 gdw1986&lt;/strong&gt;：notepad++作者是个台独，不过软件还是可以的，后来我是自己买了 notepad--作为替代，vscode 还是有点臃肿&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#12 lujiaosama&lt;/strong&gt;：Notepad 的政治露阴癖事件也是某些人嫌弃的理由之一，毕竟没好用到必须捏着鼻子用。VSCode 如果插件多，能明显感受到确实没有 Notepad 快&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#13 bao3&lt;/strong&gt;：你无法用一个记事本增强 app ，和一个编程编译 IDE 去比。&lt;br/&gt;notepad++ 与 mac 自带的文本工具比，那优势太大了。但要是和 各种 VIM 类比，那还是比不了的。反正这东西，真的就是看手感。&lt;br/&gt;比如从 Windows 转过来的人，他们可能会觉得 。notepad++ 挺好用，是无敌的。但如果是从 linux 转妻 mac 的人，我是觉得不太可能会觉得那玩意有什么意义。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#14 chutsetien&lt;/strong&gt;：有没有一种可能普通人会去用？录了很多 macros 做一些中度的文本处理之类的。我们非 programmers 装个 VSCode 是什么意思？而其他轻量级的文本编辑器里，支持录制或编写 macros 的就到了 vim / neovim 系了，那学习曲线一下子就陡峭了起来。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#15 irrigate2554&lt;/strong&gt;：10 年年最后一次用，要功能用 vscode ，要快用 zed&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#16 ntedshen&lt;/strong&gt;：&amp;gt; 身边的同事，不少人还在用着 Notepad++&lt;br/&gt;。。。&lt;br/&gt;作者在那扬言删政见不合的人代码的时候你的同事们没跑。。。&lt;br/&gt;v2 前两年整天 battle ide 和 editor 的时候你的同事们还是没跑。。。&lt;br/&gt;那现在跑个锤子。。。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#17 ylsc633&lt;/strong&gt;：我就刚入行的时候用过 notepad++&lt;br/&gt;&lt;br/&gt;也就是那时候用 windows 写代码，毕竟记事本写代码是真不行&lt;br/&gt;&lt;br/&gt;后来再也没用过&lt;br/&gt;&lt;br/&gt;不过我没记错的话，notepad++好像是个独&lt;br/&gt;&lt;br/&gt;vscode 我日常在 mac 里当笔记本用&lt;br/&gt;&lt;br/&gt;sublime 当批量编辑用，比如批量加引号这种&lt;br/&gt;&lt;br/&gt;写代码之前是 jebtrains 家族，去年年初开始 用 cursor&lt;br/&gt;&lt;br/&gt;今年就 ide 了，然后 vscode 依然当笔记本用，偶尔改个配置啥的，格式化下 json 啥的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#18 laminux29&lt;/strong&gt;：如果你的需求是随便记录一些临时的、不重要的东西，Notepad++ 那就是神器，碾压 VSCode 。&lt;br/&gt;&lt;br/&gt;不过如果你的需要但凡复杂一些，那就必须 VSCode 了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#19 win8en&lt;/strong&gt;：@&lt;a href="/member/lujiaosama"&gt;lujiaosama&lt;/a&gt; 捏着鼻子用，暗指 Claude 吗，哈哈&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#20 Mac&lt;/strong&gt;：系统开销比较小，对老设备比较友好。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#21 netabare&lt;/strong&gt;：对技术以外的东西不感兴趣，但我也一直不懂 notepad++这东西到底怎么火起来的，好用在哪……&lt;br/&gt;&lt;br/&gt;看起来就是个加了一些插件的 notepad ？那不说 VS Code ，Sublime 、Atom 时代，notepad++就落伍了吧？ UI 还那么丑。&lt;br/&gt;&lt;br/&gt;为什么不用 vim/nvim/hx 呢？以前装个 WSL 就行，现在 WSL 都不需要了，Scoop + Windows terminal 就够用了，而且 LSP 之类的生态远比垂垂老矣的 notepad++更丰富更可玩吧？&lt;br/&gt;&lt;br/&gt;那不想要 CLI 的话……Zed 感觉比 notepad++更现代、更快、更方便，甚至还整合了 AI 进去。&lt;br/&gt;&lt;br/&gt;尤其是 notepad++支持 markdown 吗，如果不支持 markdown 的话，那岂不是只能修改代码，连记笔记都做不到了。&lt;br/&gt;&lt;br/&gt;就更难想到这玩意还有啥存在的意义了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#22 issakchill&lt;/strong&gt;：快速打开文件 替代的是记事本&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#23 jetsung&lt;/strong&gt;：Sublime Text 启动最快，不过现在改用下面这个 Textadept 了。&lt;br/&gt;&lt;a href="https://github.com/orbitalquark/textadept" rel="nofollow noopener" target="_blank"&gt;https://github.com/orbitalquark/textadept&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#24 mohumohu&lt;/strong&gt;：不说 np++如何，vsc 经常有界面卡死点不动的问题，浏览器套壳就是最大的缺点，np++从未有这种情况&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#25 davidyin&lt;/strong&gt;：拿政治观点不同，比如台独来说事就有点儿无聊。&lt;br/&gt;毕竟那美帝的软件用的还少么，那些美帝明说不给中国人用的软件服务，大家伙儿不是还是各种想法子，自掏腰包的去用么。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#26 hefish&lt;/strong&gt;：notepad++非常高级，非常牛逼。 玩梗和装逼方面完胜 vscode ，为了突出个性，必须用 notepad++。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#27 dsg001&lt;/strong&gt;：@&lt;a href="/member/davidyin"&gt;davidyin&lt;/a&gt; 根本不是台独问题，哪怕他辱华反华都没问题，该用照样用&lt;br/&gt;可他说要删除政见不同的用户数据，就算只是口嗨，可谁又敢保证呢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#28 atpex&lt;/strong&gt;：好就好在在心智层面 notepad++已经是有些人的“传真机”了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#29 kingfighters&lt;/strong&gt;：notepad++ 的作者，好像是个台湾人，铁杆台独。本来对这类问题无感的，就像左耳朵耗子那样，你爱在外网说什么就说呗。当这个台湾作者就不，偏偏要给你喂屎，把他的台独理念放到软件产品里。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#30 BenjaminSu&lt;/strong&gt;：@&lt;a href="/member/ntedshen"&gt;ntedshen&lt;/a&gt; 哈哈，只是些普通人，没关心这些&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#31 BenjaminSu&lt;/strong&gt;：@&lt;a href="/member/mohumohu"&gt;mohumohu&lt;/a&gt; 卡死也不是经常，只有正则搜索海量文件时才偶有发生&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 02 May 2026 13:05:58 +0000</pubDate></item><item><title>有人在推特展示深圳高中的情况...</title><link>https://www.v2ex.com/t/1210004</link><description>&lt;p&gt;老外很疑惑，为什么他们晚上还要上学&lt;/p&gt;
+&lt;p&gt;😰😰😰😰😰&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://x.com/ed_dems/status/2050423204036911109" rel="nofollow"&gt;https://x.com/ed_dems/status/2050423204036911109&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;#1 kamikaze472&lt;/strong&gt;：这高中 真漂亮&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#2 beasnail&lt;/strong&gt;：@&lt;a href="/member/kamikaze472"&gt;kamikaze472&lt;/a&gt; 哎。。这是问题吗&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#3 kamikaze472&lt;/strong&gt;：@&lt;a href="/member/beasnail"&gt;beasnail&lt;/a&gt; #2 &lt;br/&gt;深圳那边天黑比较早, 估计上晚自习呢&lt;br/&gt;&lt;br/&gt;深圳大城市, 应该不会像衡水中学那样&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#4 charlie21&lt;/strong&gt;：晚自习&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#5 xiaobox&lt;/strong&gt;：好漂亮，感觉跟医院理想构图差不多&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#6 x86&lt;/strong&gt;：山炮了，晚自习都没见过吗&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#7 hfJ433&lt;/strong&gt;：@&lt;a href="/member/kamikaze472"&gt;kamikaze472&lt;/a&gt; #3 跟天黑没有关系，高中晚自习的都是住宿生&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#8 laminux29&lt;/strong&gt;：老外有什么好疑惑的，百年前的“华人与狗不得入内”，天崩开局，到今天的世界 TOP 2 ，都是靠卷出来的。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#9 catazshadow&lt;/strong&gt;：靠卷现在这种局面就到顶了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#10 osilinka&lt;/strong&gt;：过去一直都是高中学习到晚上吧&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#11 june4&lt;/strong&gt;：杭州的也是这样，晚自习到 8 点回家。&lt;br/&gt;对家长来说是省事了，对小孩好不好不清楚，我家的没意见。&lt;br/&gt;就是觉得作业有点多，完全没意义的卷。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#12 xianwei7315&lt;/strong&gt;：@&lt;a href="/member/laminux29"&gt;laminux29&lt;/a&gt; #8 拜托你发回复之前搜搜什么叫“卷”、“内卷”，不然一股味&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#13 forisra&lt;/strong&gt;：深圳的中学我感觉并不太卷，而且很多学校还是专属改开既得利益群体子女准备出国的。&lt;br/&gt;&lt;br/&gt;至于卷不卷和中国经济发展也没啥太大关系。小镇做题家电梯里做俯卧撑也就是特定历史时期的经验而已，而现在教育的投资回报就很悲催了。&lt;br/&gt;&lt;br/&gt;很多人动不动说“卷”，也隐含了一种资本主义市场竞争的逻辑。但如果你按照现代性提取现在全国各地的衡水模式中学，你就发现这些中学实际并不遵循资本主义科学化生产的底层逻辑。不说和谷圣那样科学规划练习吧，但也做了很多无用功。&lt;br/&gt;&lt;br/&gt;甚至于说应试教育啥的，普鲁士和苏联也都没这么魔怔。哪怕是普鲁士这种纯正军国主义国家，大多数学生也是知道班上算人才的就那几个，并不会普遍的不分智力高低把整个青少年的时间都投入在这上面。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#14 vasto&lt;/strong&gt;：僧多粥少必须卷啊，你不卷有得是人卷&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#15 BAT&lt;/strong&gt;：&amp;gt; Because when it's day time in America it's night time in China.&lt;br/&gt;&lt;br/&gt;🤣&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#16 kulove&lt;/strong&gt;：@&lt;a href="/member/xianwei7315"&gt;xianwei7315&lt;/a&gt; 那你说说呢 什么叫卷 这不叫内卷叫什么呢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#17 miaomiao888&lt;/strong&gt;：简单搜索了解下，放眼全球，似乎就只有中国有晚自习，其他一些国家虽也有补习，不过也只是自愿。&lt;br/&gt;老中真的太苦了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#18 Fading2276&lt;/strong&gt;：@&lt;a href="/member/BAT"&gt;BAT&lt;/a&gt; #15&lt;br/&gt;哈哈哈哈哈哈哈哈哈&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#19 Lujango&lt;/strong&gt;：根源是人口问题。所以最近低生育率也没有那么可怕。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#20 argentea&lt;/strong&gt;：老中的教育就和现在世界工厂的定位一样，都是靠内卷和普通人的苦难培养出世界上最合格的工人和工程师，压榨出最具性价比的工业品，只要愿意吃苦就有吃不完的苦&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#21 Chicagoake&lt;/strong&gt;：@&lt;a href="/member/forisra"&gt;forisra&lt;/a&gt; 深圳的在全国范围内都相对轻松了，不仅是升学压力，还有日常的管理制度，教学氛围。广东好大学比山河四省多一点，但想考个好大学也是很难，多数学生还是上大专、民办本科，但是应该是家长比较开放一些，不会觉得“上个不好的学校这辈子就***”；日常管理也是，轻松很多很多，不限制课外活动，课外活动非常非常丰富，可以带部分电子产品，相对好申请的走读，山河四省很多学校只能寄宿。作为一个在河南读高中读大学的学生，真的很羡慕。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 02 May 2026 11:22:25 +0000</pubDate></item><item><title>安卓的权限管理是假的，拒绝了仍然可以获取</title><link>https://www.v2ex.com/t/1210002</link><description>&lt;p&gt;123 云盘 app ，在拒绝了获取访问剪贴板之后，仍然可以读取。
 起因是在酷安找到一个 app 旧版本的链接，是 123 云盘的，于是就复制了链接去浏览器下载，但是现在不能直接下载，需要用账号密码登录，不记得密码，于是就去 123 云盘 app 去设置密码。
 然后发现 app 直接弹窗提醒刚才复制的链接。
 于是之后进行更完整的测试：重新下载 app ，启动之前就拒绝权限，然后把手机上唯一一个可以写入和读取的输入法 app 也给拒绝。
@@ -54,9 +114,13 @@
 &lt;p&gt;&lt;strong&gt;#42 NekoBoss&lt;/strong&gt;：@&lt;a href="/member/ebushicao"&gt;ebushicao&lt;/a&gt; 如果真的全部可以用，那 vivo 确实做的更好。目前我知道的，比如美团和拼多多，都不会显示获取仅选中的图片，还有很多 app 我不记得了，很多比较老的 app ，也是只有允许和拒绝，没有仅选中。&lt;br/&gt;&lt;br/&gt;另外，vivo 是否存在应用宝在启动之前拒绝应用列表的情况下，打开应用宝发现仍然可以获取手机上的 app ？&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#43 laminux29&lt;/strong&gt;：遇到这种问题，正确的方式是，制作复现视频，写清楚硬件信息、系统版本、APP 版本，然后提交给官方进行修复；&lt;br/&gt;&lt;br/&gt;吐槽是没必要的，因为从计算机原理来说，任何程序都是数据+算法，就连 iLok 在十几年前都能被破解；从管理漏洞来说，微软官方规定安装 Windows 11 必须开启 TPM 2.0 ，但一款小小的 WinNTSetup 就能破解这个限制；王者荣耀与 PUBG 至今有关键业务功能与数据包解析流出用于制作外挂；漏洞这些问题，我们只能缝缝补补，但也没必要对此灰心。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#44 NekoBoss&lt;/strong&gt;：@&lt;a href="/member/edwang"&gt;edwang&lt;/a&gt; 我觉得你这样想的太美好了，就好像他们真的是在想着解决问题，来让更多用户可以傻瓜式的使用应用宝。但是我觉得这是厂商和应用宝勾结，为了利益才这么做的。&lt;br/&gt;&lt;br/&gt;绝大多数小白用户，下载东西会优先去应用商店，如果非要下载应用宝才有的 app ，那么就算不授权应用列表，也可以下载 app ，第三方商店是可以知道在自己商店下载的 app 的，也可以进行后续更新，我觉得已经覆盖了小白用户的使用。毕竟哪怕没有应用列表，也不影响他们在应用宝里搜索和下载。&lt;br/&gt;&lt;br/&gt;获取应用列表，更主要的目的是，为了把 app 从小米版更新成应用宝版，很多软件和游戏，不同的下载渠道涉及到应用商店的收入。&lt;br/&gt;&lt;br/&gt;再比如，像 30 楼的用户说的关闭 pdd 悬浮窗权限仍然又打开；还有我在 31 楼说的问题，以前应用宝在关闭显示在其他应用上层之后，仍然可以弹窗提示清理垃圾。&lt;br/&gt;&lt;br/&gt;这些真的是为了解决用户使用 app 的问题吗？我觉得各种方面的原因下更可能的是 app 方为了获取隐私牟利&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#45 NekoBoss&lt;/strong&gt;：@&lt;a href="/member/laminux29"&gt;laminux29&lt;/a&gt; 你说的对。漏洞无法避免，但是我觉得需要区分是软件开发的漏洞，还是说刻意为之。&lt;br/&gt;&lt;br/&gt;无论是云盘越过剪贴板权限来获取链接，还是 30 楼用户提到的拼多多在关闭悬浮窗权限下仍然可以弹悬浮窗。或者是 31 楼提到的应用宝在关闭显示在其它应用上层仍然可以弹窗提示清理垃圾。&lt;br/&gt;我觉得这些软件官方不会修复，因为本来就是为了牟利才绞尽脑汁开发出来的。&lt;br/&gt;&lt;br/&gt;如果是向手机厂商提交反馈，可能有用，如果手机厂商真的在乎隐私的话。&lt;br/&gt;&lt;br/&gt;不过作为普通用户，我的选择是卸载或者设备隔离，或者是用完立马卸载。逃离这些不尊重用户的软件，有益身心健康。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 02 May 2026 11:11:43 +0000</pubDate></item><item><title>决定开始定投标普 500 和纳指 100 了！</title><link>https://www.v2ex.com/t/1209961</link><description>&lt;p&gt;准备的子弹是 50w ，但是一个月只定投 1w ，这样的话今年开始的话，其实只有 6 个月，所以预留了 10w ，6w 拿来定投 1w ，4w 拿来补充回撤&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#45 NekoBoss&lt;/strong&gt;：@&lt;a href="/member/laminux29"&gt;laminux29&lt;/a&gt; 你说的对。漏洞无法避免，但是我觉得需要区分是软件开发的漏洞，还是说刻意为之。&lt;br/&gt;&lt;br/&gt;无论是云盘越过剪贴板权限来获取链接，还是 30 楼用户提到的拼多多在关闭悬浮窗权限下仍然可以弹悬浮窗。或者是 31 楼提到的应用宝在关闭显示在其它应用上层仍然可以弹窗提示清理垃圾。&lt;br/&gt;我觉得这些软件官方不会修复，因为本来就是为了牟利才绞尽脑汁开发出来的。&lt;br/&gt;&lt;br/&gt;如果是向手机厂商提交反馈，可能有用，如果手机厂商真的在乎隐私的话。&lt;br/&gt;&lt;br/&gt;不过作为普通用户，我的选择是卸载或者设备隔离，或者是用完立马卸载。逃离这些不尊重用户的软件，有益身心健康。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#46 codehz&lt;/strong&gt;：@&lt;a href="/member/w568w"&gt;w568w&lt;/a&gt; 安卓权限基本是依赖系统服务那边检查的（你可以理解为全在 ipc ），除了极少数是通过 linux 权限控制（例如文件读写）&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#47 sddyzm&lt;/strong&gt;：小米纯乐子&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#48 lisongeee&lt;/strong&gt;：&amp;gt; 无论你怎么拒绝，它始终知道手机上安装的 app&lt;br/&gt;&lt;br/&gt;并不是 BUG ，因为 android 原生没有拒绝应用列表权限这个说法，那是国产特有权限，它只管控了获取应用列表这个接口，说白了就是管控的 API 不够完全&lt;br/&gt;&lt;br/&gt;比如可以通过 桌面应用启动意图列表 ，这个意图对象有 appId ，只需要知道这个就知道桌面有哪些应用了&lt;br/&gt;&lt;br/&gt;实际上 gkd 也不需要应用列表权限，照样可以获取部分应用列表(部分缺失)&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/gkd-kit/gkd/blob/42a5b3204f9a63f77ca4089dfd6a50ebe108b1ab/app/src/main/kotlin/li/songe/gkd/util/AppInfoState.kt#L188-L206" rel="nofollow noopener" target="_blank"&gt;https://github.com/gkd-kit/gkd/blob/42a5b3204f9a63f77ca4089dfd6a50ebe108b1ab/app/src/main/kotlin/li/songe/gkd/util/AppInfoState.kt#L188-L206&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#49 geniussoft&lt;/strong&gt;：国产安卓的很多东西，都是做个样子。&lt;br/&gt;&lt;br/&gt;用户看到有，那就够了。至于实际上呢？无人关心……&lt;br/&gt;&lt;br/&gt;再比如那个屏下指纹，很多机型形同虚设，20 个陌生人就有超过 1 个人能直接解锁……&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 02 May 2026 11:11:43 +0000</pubDate></item><item><title>决定开始定投标普 500 和纳指 100 了！</title><link>https://www.v2ex.com/t/1209961</link><description>&lt;p&gt;准备的子弹是 50w ，但是一个月只定投 1w ，这样的话今年开始的话，其实只有 6 个月，所以预留了 10w ，6w 拿来定投 1w ，4w 拿来补充回撤&lt;/p&gt;
 &lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-05-02 17:07:16 +08:00"&gt;5h 33m ago&lt;/span&gt;
+Supplement 1  ·  &lt;span title="2026-05-02 17:07:16 +08:00"&gt;7h 30m ago&lt;/span&gt;
 
 从 22 年开始我大约有 150w 放在老婆的招行账户，这么多年以来她一直都是在买各种基金，每年盈利大约 3%-5%。&lt;br/&gt;这些钱实话说是死钱闲置在银行了的，所以才想着拿 50w 出去定投。&lt;br/&gt;本人从不管理财，这是第一次，所以属于小白中的小白，大家都知道 AI 牛，但是个股我没有能力做出选择，所以才选择标普或者纳指
 
@@ -110,7 +174,13 @@ Supplement 1  ·  &lt;span title="2026-05-02 17:07:16 +08:00"&gt;5h 33m ago&lt
 &lt;p&gt;&lt;strong&gt;#47 EthanV2&lt;/strong&gt;：永远保留流动资金，下跌加倍定投补仓，美股看科技，A 股看制造业&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#48 jimrok&lt;/strong&gt;：不敢说现在是好时间，因为美股偏贵，虽然 AI 看起来美国有领先优势，但这种优势不是绝对的，弄不好，会先出现一个比较大的泡沫。做投资还是要好好判断，做好预案，搞明白为什么能赚钱，能赚多长时间的钱。很多人买个耳机都对比好几家产品，投资却不做什么研究。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#49 ftfunjth&lt;/strong&gt;：技术派看纳斯达克是双顶已现，后续没有新资金流入就要跌了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#50 shijingshijing&lt;/strong&gt;：放两张图，什么叫牛市，什么叫猴市，无需多言，一目了然。&lt;br/&gt;&amp;lt;br&amp;gt;&lt;br/&gt;&lt;a href="https://i.imgur.com/dJgeDIi.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/dJgeDIi.png"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&amp;lt;br&amp;gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="https://i.imgur.com/VZoBKIw.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/VZoBKIw.png"/&gt;&lt;/a&gt;&lt;br/&gt;&amp;lt;br&amp;gt;&lt;br/&gt;可以对比其他任意指数，道琼斯、S&amp;amp;P 、沪深 300 、中证 500 。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 02 May 2026 05:43:40 +0000</pubDate></item><item><title>如何在国内受限网络环境下使用官方 claude 或 codex 等模型？</title><link>https://www.v2ex.com/t/1209960</link><description>&lt;p&gt;单位环境不能装 vpn ，但我自己账户还是订阅了 codex 等服务。想问下有没有什么优雅的方式使用原版服务呢？我目前有两种想法：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#50 shijingshijing&lt;/strong&gt;：放两张图，什么叫牛市，什么叫猴市，无需多言，一目了然。&lt;br/&gt;&amp;lt;br&amp;gt;&lt;br/&gt;&lt;a href="https://i.imgur.com/dJgeDIi.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/dJgeDIi.png"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&amp;lt;br&amp;gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="https://i.imgur.com/VZoBKIw.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/VZoBKIw.png"/&gt;&lt;/a&gt;&lt;br/&gt;&amp;lt;br&amp;gt;&lt;br/&gt;可以对比其他任意指数，道琼斯、S&amp;amp;P 、沪深 300 、中证 500 。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#51 shijingshijing&lt;/strong&gt;：谁在分享科技进步带来的财富，谁在反复收割韭菜，一目了然。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#52 zichen&lt;/strong&gt;：我是从 16 年开始玩的，那会儿大家也说美股是高位，so……，当然这东西不能刻舟求剑，现在和 10 年前确实不一样了，不过我是玩儿个股的，其实核心就几个点，控制好仓位和买入价，然后一定要用闲钱，不上杠杆，不碰期权，不做空，其实是没啥风险的，当然这样也没法一夜暴富，但是主要看你的心理预期，我的要求就是比理财挣的多就行。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#53 tokas93&lt;/strong&gt;：@&lt;a href="/member/zichen"&gt;zichen&lt;/a&gt; #52 这么多年的定投过来还不能暴富啊，10 年定投，回报应该直接吊打很多人的 10 年存款了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#54 zichen&lt;/strong&gt;：@&lt;a href="/member/tokas93"&gt;tokas93&lt;/a&gt; 回报肯定比存款强，但是本金不多，所以也做不到暴富。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#55 emojiiii&lt;/strong&gt;：不是，你要定投也不能无脑定投啊，现在显然不合适啊.&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#56 freekindom&lt;/strong&gt;：我看好楼主。评论里面指点江山的：晒出 3 年的收益率！&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 02 May 2026 05:43:40 +0000</pubDate></item><item><title>如何在国内受限网络环境下使用官方 claude 或 codex 等模型？</title><link>https://www.v2ex.com/t/1209960</link><description>&lt;p&gt;单位环境不能装 vpn ，但我自己账户还是订阅了 codex 等服务。想问下有没有什么优雅的方式使用原版服务呢？我目前有两种想法：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;海外搞个服务器，上面跑一个 CLI ，本地通过 ssh 连接&lt;/li&gt;
 &lt;li&gt;海外服务器上部署 CLIProxyAPI 把 codex 转成 api 然后本地 codex 修改供应商到这个 api&lt;/li&gt;
@@ -150,77 +220,4 @@ Supplement 1  ·  &lt;span title="2026-05-02 17:07:16 +08:00"&gt;5h 33m ago&lt
 &lt;p&gt;&lt;strong&gt;#31 Cert&lt;/strong&gt;：用 UU 加速器，UU 加速器可以加速 claude ，总就知道，大家都说好，合规又快速！&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#32 Kinnice&lt;/strong&gt;：@&lt;a href="/member/xyzzyssd"&gt;xyzzyssd&lt;/a&gt; 就是 cli 啊，你看明白我的方案了吗？&lt;br/&gt;&lt;br/&gt;你的海外 vpsip 是 1.1.1.1  &lt;a href="http://claude.ai" rel="nofollow noopener" target="_blank"&gt;claude.ai&lt;/a&gt; 的海外 ip 是 2.2.2.2 （不允许 cn 访问），你本地改 hosts &lt;a href="http://claude.ai" rel="nofollow noopener" target="_blank"&gt;claude.ai&lt;/a&gt; 到 1.1.1.1 ，1.1.1.1 接到请求转发访问 2.2.2.2 ，claude 看你的请求全是海外 1.1.1.1&lt;br/&gt;&lt;br/&gt;不需要改 claude-cli 的任何配置&lt;br/&gt;&lt;br/&gt;需要把 claude 用到的所有域名都加到 hosts 里面，可以直接到 github 找一下域名列表&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#33 Kinnice&lt;/strong&gt;：@&lt;a href="/member/xyzzyssd"&gt;xyzzyssd&lt;/a&gt; 只适用于： 服务方禁止 cn 用户，gfw 没有禁止服务商。不然 sniproxy 也一样被 gfw 拦截。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#34 leetcode2020&lt;/strong&gt;：&lt;a href="https://zaokit.app/s/4RNzKe1sjrUoJAcBkj_53yrS" rel="nofollow noopener" target="_blank"&gt;https://zaokit.app/s/4RNzKe1sjrUoJAcBkj_53yrS&lt;/a&gt;  ToB 合规/稳定/安全，可以开票。目前有 Bedrock 的 Claude API 和 OpenAI&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 02 May 2026 05:35:17 +0000</pubDate></item><item><title>ChatGPT Pro 低价兑换 最后的绝唱了 全网唯一 ku0.com 抽奖送一个 Pro 5x</title><link>https://www.v2ex.com/t/1209942</link><description>市面上仅存的所有货全部扫光&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="https://ku0.com" rel="nofollow noopener" target="_blank"&gt;https://ku0.com&lt;/a&gt; 库 可信任资源库&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;ChatGPT Pro 5x / 20x （已经孤品，未上架）&lt;br/&gt;&lt;br/&gt;V 友购买返现 20 红包 &lt;br/&gt;&lt;br/&gt;最后的狂欢了 团队也准备撤了 一个时代就此落幕&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;-----&lt;br/&gt;&lt;br/&gt; 随机楼层抽奖先送 1 个 Pro 5x 后续奖品看活动情况
-&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;#1 livib&lt;/strong&gt;：1&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#2 dingawm&lt;/strong&gt;：&amp;gt; 市面上仅存的所有货全部扫光&lt;br/&gt;&lt;br/&gt;何意味？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#3 livib&lt;/strong&gt;：@&lt;a href="/member/dingawm"&gt;dingawm&lt;/a&gt; 以为这结束了 最后一波了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#4 HENQIGUAI&lt;/strong&gt;：参与一下抽奖，这个是无质保的对吧，是不是很有可能蹬个两三天就掉了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#5 buzzed&lt;/strong&gt;：怎么点不进去，502 报错&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#6 pddgoods&lt;/strong&gt;：试试&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#7 cheny233&lt;/strong&gt;：抽个奖！！！&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#8 pauseme&lt;/strong&gt;：1&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#9 livib&lt;/strong&gt;：@&lt;a href="/member/buzzed"&gt;buzzed&lt;/a&gt; 不应该吧&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#10 livib&lt;/strong&gt;：@&lt;a href="/member/HENQIGUAI"&gt;HENQIGUAI&lt;/a&gt; 是的 被拉闸了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#11 pulengba&lt;/strong&gt;：@&lt;a href="/member/livib"&gt;livib&lt;/a&gt; 能买吗？怎么页面显示缺货&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#12 ruah&lt;/strong&gt;：抽奖&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#13 zyxk&lt;/strong&gt;：质保 1 天吗， 另抽奖&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#14 zooo&lt;/strong&gt;：我是来抽奖的。哈哈&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#15 MoonShot&lt;/strong&gt;：抽一下&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#16 lty81372860&lt;/strong&gt;：抽奖&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#17 kur&lt;/strong&gt;：抽奖&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#18 skywalker0507&lt;/strong&gt;：抽奖&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#19 GGGoing&lt;/strong&gt;：抽奖&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#20 sunyang&lt;/strong&gt;：这个有售后吗？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#21 YNaN&lt;/strong&gt;：分母来了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#22 iorilu&lt;/strong&gt;：参与抽奖&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#23 xiaomimicoin2&lt;/strong&gt;：搂一下&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#24 vislins&lt;/strong&gt;：参与～抽奖&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#25 luyinge&lt;/strong&gt;：参与～抽奖&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#26 0xGnaixEuy&lt;/strong&gt;：来了来了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#27 laylou&lt;/strong&gt;：抽奖&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#28 cjhroyal&lt;/strong&gt;：我也来增加一个分母&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#29 shilianmlxg&lt;/strong&gt;：抽奖&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#30 nullable&lt;/strong&gt;：抽奖，来了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#31 layxy&lt;/strong&gt;：28 号开通的 pro 20x,昨天掉了，从上个月中旬举报开始，陆陆续续各个渠道都开始掉会员，目前不推荐购买非官方开通的会员了，用几天就掉，这代价远比开通官方会员要高得多&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#32 livib&lt;/strong&gt;：@&lt;a href="/member/layxy"&gt;layxy&lt;/a&gt; 从我这里开的 截止昨天晚上掉的已经全部退款了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#33 livib&lt;/strong&gt;：@&lt;a href="/member/sunyang"&gt;sunyang&lt;/a&gt; 这个再售后就亏死了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#34 luckyzd&lt;/strong&gt;：提高中奖率！&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#35 heasdq&lt;/strong&gt;：抽奖&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#36 4912941&lt;/strong&gt;：抽奖&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#37 lifeintools&lt;/strong&gt;：我上周在其他地方买的不质保的 pro 用了 5 天就掉了 愿赌服输&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#38 Dream4U&lt;/strong&gt;：没用了，这两天陆续都掉了，不用再试了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#39 buxiangqiaodaima&lt;/strong&gt;：抽个奖&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 02 May 2026 02:50:02 +0000</pubDate></item><item><title>AI 时代， Java 中短期的地位不降反增</title><link>https://www.v2ex.com/t/1209937</link><description>AI 的兴起在 Java 面前只能算是一个稚童。&lt;br/&gt;一些人借 AI 炒热度造铲子，搞得像新兴的邪修门派功法，并借此开宗立派喊口号，一度造成了几十年的名门正派中的内外门弟子都感觉马上要被颠覆的错觉。&lt;br/&gt;但在真正的 AGI 到来前，AI 不会颠覆现在的传统编程语言，只会融入到传统编程语言中，这种新兴的理念会被名门正派所吸收。&lt;br/&gt;Java 在企业级场景下占据主导地位。现实世界的逻辑是大量 Java 基建项目与 AI 结合，在原有的商业闭环中迭代与进步，这也是 Java 8 这些年屹立不动的原因——而不是幻想着用 AI 加上一门轻量快速的编程语言，就能随时造出商业铲子、一人 OPC 改变命运。&lt;br/&gt;商业的本质是闭环。AI 是放大器，放大个人和已有的商业闭环的效率，而不是因为新时代造楼效率有突破，就跟随喊高口号的人流，把原有的大楼推翻，再建一个自认为创新的小屋等着别人住进来。
-&lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-05-02 19:39:29 +08:00"&gt;3h 2m ago&lt;/span&gt;
-
-传统编程语言基建在于 AI 进行磨合的当下, Java 会算一个不错的地位。我这里只是从 Java 的角度进行展开, 其他主流编程语言也各有各的适合场景, 被时间校验过的几大主流编程语言搭建的企业级项目, 不是写几个 md 文件, 一小时上线一个网站能碰瓷的. 并且更主要的是商业闭环: "AI 是放大器，放大个人和已有的商业闭环的效率，而不是因为新时代造楼效率有突破，就跟随喊高口号的人流，把原有的大楼推翻，再建一个自认为创新的小屋等着别人住进来。" , 这一座座高楼会有被重建的那一天, 但那是被榨干了价值有新的蛋糕出现的时候. 而不是现在这种在高楼下围着一群小工, 大家都拿着锤子, 期待高楼马上倒塌好分一杯羹的时候.
-
-&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;#1 shoaly&lt;/strong&gt;：ai 之前出来之前有堵墙:&lt;br/&gt;1 大家不会经常升级语言版本, 因为很难管理多个项目多个版本语言, 还会引发各种依赖库也一起升级&lt;br/&gt;2 大家因为学新语言的门槛很高, 所以会的也不会特别多, 现在所有语言都平权了, 更容易根据场景选择合适的语言&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#2 JieyueXing&lt;/strong&gt;：@&lt;a href="/member/shoaly"&gt;shoaly&lt;/a&gt; #1 所以企业级更会选择 Java, Java 是工业级产物&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#3 jacketma&lt;/strong&gt;：@&lt;a href="/member/JieyueXing"&gt;JieyueXing&lt;/a&gt; Java 不至于，AI 时代 JS 和 Py 是最主流的，一方面是新手玩家基本都是这两个玩起，另外是运行环境简单，agent 要给你展示一下效果要跑 java 虚拟机太累了&lt;br/&gt;&lt;br/&gt;所谓 Java 工业级，那还是需要人肉工程，和 AI 没关系&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#4 teaguexiao&lt;/strong&gt;：AI coding 最大的效果是把跨语言的迁移成本压低了，但存在大量屎次代码和巨型基线的企业也不会因此就换语言——重写还是最贵的，Java 短期位置确实没什么威胁。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#5 wangritian&lt;/strong&gt;：兄弟，不要死磕语言层面了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#6 kafka0102&lt;/strong&gt;：ai 时代，markdown 才是第一语言&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#7 felixcode&lt;/strong&gt;：嗯，学会 JAVA 8 ，用到退休应该没什么问题的。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#8 RatioPattern&lt;/strong&gt;：活在梦里&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#9 james2013&lt;/strong&gt;：至少在后端语言中，java 生态非常好，也是强类型的，优势很大&lt;br/&gt;js,python 代码用于后端代码，我认为生态没有这么 java 好&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#10 james2013&lt;/strong&gt;：而且 js,python 不是强类型的，一个项目代码太多了看着头疼，有有人说 js,python 有类型检查工具，那这不是走 java 的老路子吗？&lt;br/&gt;这是我个人使用体验，我在 python 或者 js 点击一个方法，居然不能自动跳转，因为存在多个文件的同名方法，但是作用有区别。可能我最开始写 java 代码导致这种看法。。。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#11 danhahaha&lt;/strong&gt;：很快就会出现一种语言，专门针对 AI 设计，不需要对人类友好，人类也不需要去刻意学习，到时候很快就没有人在意什么技术栈，语言了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#12 beyondstars&lt;/strong&gt;：AI 时代更重要的是描述语言：&lt;br/&gt;&lt;br/&gt;- Markdown 可以作为 AI 友好的描述语言，描述项目的架构、约束和规范&lt;br/&gt;- 自然语言，因为占语料库的比重很大，也可以是 AI 友好的描述语言&lt;br/&gt;&lt;br/&gt;重要的不是 how, 你选择用 Java 也好，Golang 也好，PHP 也罢，这些只是具体执行层面的。&lt;br/&gt;&lt;br/&gt;重要的是 why ，因为执行层面的事情应当尽可能交给 AI 去落实。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#13 han1988&lt;/strong&gt;：JAVA 8 就不是现代语言，语言特性落伍。&lt;br/&gt;Spring AI 和 Spring Alibaba AI 都是 Java 17 才能玩的，你用 JAVA 8 写的项目和 AI 有关吗？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#14 nc&lt;/strong&gt;：以前 Twitter 代码库大部分都是 scala 、java ，马斯克接管后正在逐步用 rust 重写，现在用 rust 重写的推荐算法已经在 github 开源了。现在之所以能够进行大规模重写，还是因为马斯克的 Grok AI ，以前没有 Go 、Rust 这样的选择企业才会选择 Java ，而现在可以用 AI 重写，Java 地位只会更低。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#15 Lightbright&lt;/strong&gt;：评价为写 jvav 写傻了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#16 JieyueXing&lt;/strong&gt;：@&lt;a href="/member/wangritian"&gt;wangritian&lt;/a&gt; #5 真实世界还需要运转, 传统编程语言是基石, 脱离语言层面的那一天起码也是下一个十年。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#17 JieyueXing&lt;/strong&gt;：@&lt;a href="/member/han1988"&gt;han1988&lt;/a&gt; #13 java8 只是一个长期的真实世界运转的例子&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#18 night98&lt;/strong&gt;：接个 orpc ，然后直接 bun + ts 一把梭，老业务继续挂在 java 里，新业务全部用这套，直接起飞，要互调的走 orpc 。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#19 JieyueXing&lt;/strong&gt;：@&lt;a href="/member/teaguexiao"&gt;teaguexiao&lt;/a&gt; #4 差不多就是这个意思, 楼下的多数要么是活在 AI 童话编制的梦境中, 要么就是没有真正的用过这几个主流编程语言企业级开发过, 这不是一个能被 AI 代替的事, 只能慢慢迭代融合进去&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#20 JieyueXing&lt;/strong&gt;：@&lt;a href="/member/nc"&gt;nc&lt;/a&gt; #14 这个重写的进展起码得持续 5~10 年往上&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#21 version&lt;/strong&gt;：大厂技术大佬都这样想得...可惜公司每年裁员 20%..按能力水平存活下去&lt;br/&gt;&lt;br/&gt;ai+轻量语言..就是电车时代弯道超车.不需要研究内燃机..自己弄实际的业务.实际上的用户体验..快速迭代...开源时代软件形态 低成本.高效开发.快速推翻.重写项目&lt;br/&gt;&lt;br/&gt;java 如同法拉利...最终在过 5 年 10 年能留下来的当然必定是精英人群.可惜能开他的又会有多少人呢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#22 wangritian&lt;/strong&gt;：@&lt;a href="/member/JieyueXing"&gt;JieyueXing&lt;/a&gt; #16 汇编语言和机器码是基石中的基石，你开发业务需要关心吗？况且 AI 发展速度远超人类想象&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#23 JieyueXing&lt;/strong&gt;：@&lt;a href="/member/version"&gt;version&lt;/a&gt; #21 能弯道超车的人群大概也就占 20%,  其中大部分人也是长期积累顺势而为, 剩下 80% 的人总不能天天幻想人人 opc 时代, 还是需要上班的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#24 JieyueXing&lt;/strong&gt;：@&lt;a href="/member/version"&gt;version&lt;/a&gt; #21 AI 浪潮注定会冲倒现有结构, 卷走一大部分人, 我们也只能在大浪潮中尽量增加自己的分量&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#25 version&lt;/strong&gt;：@&lt;a href="/member/JieyueXing"&gt;JieyueXing&lt;/a&gt;  行业在压缩.所以很多人为何一直找不到工作的原因了...编程领域还是很多 有活就干活.摆烂上班的也多.技术比 ai 还差.不知道举一反三...但是这类的企业和员工差不多已经活不下去了...任何一家企业或者创业..想要招聘少量的人做一件事情.一个项目.例如全能型人才.能规划和自我创造的思维能力.技术的敏捷度....&lt;br/&gt;2026 经济萎缩.老板不会再用爱发电了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#26 kalman03&lt;/strong&gt;：你问我技术栈？&lt;br/&gt;&lt;br/&gt;我现在唯一的技术栈就是：汉语&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#27 catazshadow&lt;/strong&gt;：知道 cobol 吗，那玩意就是以后 Java 的样子&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 02 May 2026 02:37:01 +0000</pubDate></item></channel></rss>
+&lt;p&gt;&lt;strong&gt;#34 leetcode2020&lt;/strong&gt;：&lt;a href="https://zaokit.app/s/4RNzKe1sjrUoJAcBkj_53yrS" rel="nofollow noopener" target="_blank"&gt;https://zaokit.app/s/4RNzKe1sjrUoJAcBkj_53yrS&lt;/a&gt;  ToB 合规/稳定/安全，可以开票。目前有 Bedrock 的 Claude API 和 OpenAI&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 02 May 2026 05:35:17 +0000</pubDate></item></channel></rss>
