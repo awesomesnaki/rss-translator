@@ -1,15 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Mon, 04 May 2026 15:00:33 +0000</lastBuildDate><item><title>GitHub上的提交数量同比增长了14倍</title><link>https://daringfireball.net/linked/2026/03/13/amodei-ai-code-claim-chowder</link><description>&lt;p&gt;&lt;a href="https://daringfireball.net/linked/2026/03/13/amodei-ai-code-claim-chowder"&gt;两个月前&lt;/a&gt;，回顾Anthropic首席执行官Dario Amodei一年前的预测，即AI很快将编写90%以上的编程代码，我写道：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Mon, 04 May 2026 19:13:06 +0000</lastBuildDate><item><title>Photoshop的‘现代用户界面’很烂（而且并不感觉现代）</title><link>https://unsung.aresluna.org/photoshops-challenges-with-focus-pt-2/</link><description>&lt;p&gt;Marcin Wichary 在 Unsung 上的发言：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;但我认为上述Amodei的言论肤浅之处在于，事情并非简单地将原本由人类程序员编写的代码行转变为由AI模型生成。这当然是其中一部分。但真正具有革命性的是——这也是我今天已经&lt;a href="https://daringfireball.net/linked/2026/03/13/software-bonkers"&gt;两次&lt;/a&gt;&lt;a href="https://daringfireball.net/linked/2026/03/13/grief-and-the-ai-split"&gt;发文&lt;/a&gt;讨论的话题——AI代码生成工具正被用于创建那些以前根本不会被编写的服务、应用和库。很有可能，今天人类编写的代码总量与一年前人类编写的代码总量相差不大。但今天AI生成的代码可能是人类编写的10倍以上。也许更多？也许还要多得多？而一两年或三年后，这个数字可能变成100倍、1000倍甚至100000倍。&lt;/p&gt;
-&lt;p&gt;在不久的将来，人类程序员可能仍然在编写代码——或者至少逐行审查和批准代码。但作为所有生成代码中的百分比，那仅会是一小部分。&lt;/p&gt;
+&lt;p&gt;我很生气。（显而易见的。）面对这样的事情，我们都应该生气。人们就是这样对软件感到厌倦的——因为它感觉不稳定，自己就在退化，&lt;a href="https://unsung.aresluna.org/i-trust-in-textedit/"&gt;而根本无需理由&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;我知道我&lt;a href="https://unsung.aresluna.org/decentralization-does-not-always-equal-delight/"&gt;提过&lt;/a&gt;，现有的高级用户群体可能会非常令人头疼，而我自己就是一个有着数十年经验的 Photoshop 高级用户。但这不同于其他那些产品需要或至少想要超越其核心受众或转向不同市场的例子。对于这里的 Photoshop 来说，我没有看到任何迹象表明方向或客户群发生了变化——然而，所有那些曾经帮助过我的优秀 UI 瞬间都不复存在了。&lt;/p&gt;
+&lt;p&gt;此外，所有这些过失都是已经解决了的问题。这些问题并非埋在满篇诉讼缠身的专利页中，也不是藏在七位世界级界面设计师的集体大脑里——他们的车道如今正被前沿公司送来的装满现金的卡车占据。这并非需要考古学家解读的久已失传的艺术。这感觉就像是在基本 UI 工程面前的粗心和懒惰；在可能是内部驱动的界面翻新努力中，团队把一整个育婴室的婴儿连同洗澡水一起倒掉了。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;四月初，我们得到了一个可以分配的数字：14倍。GitHub首席运营官Kyle Daigle在Twitter/X上&lt;a href="https://x.com/kdaigle/status/2040164759836778878"&gt;发帖&lt;/a&gt;（&lt;a href="https://xcancel.com/kdaigle/status/2040164759836778878"&gt;备用链接&lt;/a&gt;）：&lt;/p&gt;
+&lt;p&gt;前后对比截图看起来就像是用户界面设计讲座中的例子——如果你把它们调换一下，让新界面成为“之前”，旧界面成为“之后”。更好的平衡，更好的焦点行为，合适的平台原生排版。&lt;/p&gt;
+&lt;p&gt;（这让人联想到&lt;a href="https://daringfireball.net/2026/01/thoughts_and_observations_regarding_apple_creator_studio"&gt;Héliographe 对 Pages 应用图标历史的毁灭性批评&lt;/a&gt;：“如果你把苹果的图标反过来排列，看起来就像是一个在图标设计上越来越得心应手的人的作品。”）&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/05/04/photoshop-modern-user-interface" title="Permanent link to ‘Photoshop’s ‘Modern User Interface’ Sucks (and Doesn’t Feel Modern)’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Mon, 04 May 2026 19:13:06 +0000</pubDate></item><item><title>Anthropic高管一年前：完全由AI驱动的员工还需一年</title><link>https://www.axios.com/2025/04/22/ai-anthropic-virtual-employees-security</link><description>&lt;p&gt;一年前，萨姆·萨宾为Axios撰写文章：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;没错，平台活动正在激增。2025年有10亿次提交。现在，每周2.75亿次，如果增长保持线性，今年将达到140亿次（剧透：不会）。&lt;/p&gt;
-&lt;p&gt;GitHub Actions从2023年的每周5亿分钟增长到2025年的每周10亿分钟，而本周到目前为止已达到21亿分钟。&lt;/p&gt;
+&lt;p&gt;Anthropic公司首席安全官本周向Axios透露，该公司预计人工智能驱动的虚拟员工将在未来一年内开始进入企业网络。[...]首席信息安全官杰森·克林顿表示，虚拟员工可能成为下一个AI创新热点。&lt;/p&gt;
+&lt;p&gt;智能体通常专注于特定的、可编程的任务。在安全领域，这意味着让自主智能体应对钓鱼警报和其他威胁指标。而虚拟员工则将这种自动化更进一步：这些AI身份将拥有自己的"记忆"、在公司中的角色，甚至拥有自己的企业账户和密码。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;a href="https://daringfireball.net/linked/2026/05/04/commits-on-github-are-up-14x-year-over-year-" title="Permanent link to ‘Commits on GitHub Are Up 14× Year-Over-Year’"&gt; ★ &lt;/a&gt;
+&lt;p&gt;与Anthropic关于&lt;a href="https://daringfireball.net/linked/2026/05/04/commits-on-github-are-up-14x-year-over-year"&gt;AI代码生成迅猛增长的雄心预测&lt;/a&gt;不同，我认为可以说，这一预测彻底失败了。这并不是企业使用AI的方式——&lt;a href="https://daringfireball.net/linked/2026/04/29/playing-with-fire"&gt;至少它们不应该如此&lt;/a&gt;。但与Axios一年前的标题（"独家：Anthropic警告全面AI员工只需一年时间"）相反，这并非警告，而是一则广告——正是那种&lt;a href="https://daringfireball.net/linked/2026/04/23/patel-software-brain"&gt;暗示性&lt;/a&gt;的"警告"，导致公众对AI的负面情绪加剧。这并非表明Anthropic真正相信今天会有"全面AI员工"，而是他们希望在那些冷漠麻木、实则渴望"聘用"全面AI员工的高管中激发热情。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/05/04/anthropic-prediction-fully-ai-employees" title="永久链接：‘Anthropic高管一年前：全面AI员工只需一年时间’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Mon, 04 May 2026 18:20:39 +0000</pubDate></item><item><title>GitHub上的提交数量同比增长了14倍</title><link>https://daringfireball.net/linked/2026/03/13/amodei-ai-code-claim-chowder</link><description>&lt;p&gt;&lt;a href="https://daringfireball.net/linked/2026/03/13/amodei-ai-code-claim-chowder"&gt;两个月前&lt;/a&gt;，我重新审视了Anthropic首席执行官达里奥·阿莫代伊一年前的预测——人工智能很快将编写超过90%的程序代码，并写道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;但我认为阿莫代伊上述言论流于肤浅之处在于，事情并非简单地表现为原本由人类程序员编写的代码行现在由AI模型生成。这当然是其中一部分。但真正具有革命性的是——这也是我今天&lt;a href="https://daringfireball.net/linked/2026/03/13/software-bonkers"&gt;两次&lt;/a&gt;&lt;a href="https://daringfireball.net/linked/2026/03/13/grief-and-the-ai-split"&gt;已经&lt;/a&gt;在讨论的话题——AI代码生成工具正被用于创建那些以前根本不会有人编写的服务、应用和库。很可能如今人类编写的代码总量与一年前相差无几。但AI生成的代码可能是人类编写代码的10倍以上。或许更多？甚至要多得多？而一年、两年或三年后，这个数字可能是100倍、1000倍甚至10万倍。&lt;/p&gt;
+&lt;p&gt;在不久的将来，人类程序员很可能仍在编写代码——或者至少逐行审查和批准代码。但在所有生成的代码中，人类编写的部分将只占极小份额。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;四月早些时候，我们大致得到了一个具体数字：14倍。GitHub首席运营官凯尔·戴格尔在Twitter/X上发文（&lt;a href="https://xcancel.com/kdaigle/status/2040164759836778878"&gt;替代链接&lt;/a&gt;）：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;没错，平台活动正在激增。2025年共有10亿次提交。如今每周有2.75亿次提交，按此线性增长（剧透：不会线性增长），今年将达到140亿次。&lt;/p&gt;
+&lt;p&gt;GitHub Actions从2023年的每周5亿分钟增长到2025年的每周10亿分钟，而本周至今已达21亿分钟。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;苹果公司尚未有人公开谈论此事（至少目前没有），但从响应时间来看，App Store审核正面临类似的洪流。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/05/04/commits-on-github-are-up-14x-year-over-year" title="‘GitHub提交量同比增长14倍’的永久链接"&gt; ★ &lt;/a&gt;
 </description><pubDate>Mon, 04 May 2026 15:00:33 +0000</pubDate></item><item><title>ScopeXR — 使用Apple Vision Pro混合现实的白内障手术</title><link>https://www.prnewswire.com/news-releases/sightmds-dr-eric-rosenberg-becomes-first-surgeon-in-the-world-to-perform-cataract-surgery-using-apple-vision-pro-mixed-reality-302754311.html</link><description>&lt;p&gt;上周的新闻稿：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;SightMD是大新英格兰地区领先的眼科诊所，今天宣布了一项外科创新的历史性里程碑。Eric Rosenberg博士（骨科医学博士、理学硕士）成为世界上首位成功使用Apple Vision Pro进行白内障手术的外科医生，该手术由ScopeXR驱动，这是一个由Rosenberg博士共同开发的突破性混合现实手术平台。&lt;/p&gt;
@@ -25,13 +42,4 @@
 &lt;/blockquote&gt;
 &lt;p&gt;这就是棒球，苏珊。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/05/04/sterling-rip" title="永久链接：‘约翰·斯特林，深受爱戴的洋基队长期电台解说员，享年87岁’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 04 May 2026 14:30:53 +0000</pubDate></item><item><title>X，言论自由的平台</title><link>https://bsky.app/profile/gilduran.com/post/3mky5taqg3222</link><description>&lt;p&gt;Gil Durán 在 Bluesky 上发布：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;官方消息！我因发推“TLDR: 法西斯主义”而被 &lt;em&gt;永久&lt;/em&gt; 封禁于 X。（申诉被驳回）&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;“TLDR: 法西斯主义”是 Durán 对 Palantir 描述其“科技共和国”愿景的&lt;a href="https://x.com/PalantirTech/status/2045574398573453312"&gt;这篇千字长文&lt;/a&gt;的两字回应。（如果你不想访问 x.com，这里有&lt;a href="https://xcancel.com/PalantirTech/status/2045574398573453312"&gt;文章的替代链接&lt;/a&gt;。）&lt;/p&gt;
-&lt;p&gt;被埃隆·马斯克从 Twitter/X 永久封禁，让 Durán 获得了一次漂亮的斯特赖桑德效应助推，以推广他即将出版的新书《&lt;em&gt;&lt;a href="https://www.simonandschuster.com/books/The-Nerd-Reich/Gil-Duran/9781668221402"&gt;书呆子帝国&lt;/a&gt;&lt;/em&gt;》。如果这本书哪怕只有其标题一半好，它都应该成为畅销书。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/05/03/x-the-platform-of-free-speech" title="Permanent link to ‘X, the Platform of Free Speech’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 04 May 2026 00:15:21 +0000</pubDate></item><item><title>史蒂夫的两封信</title><link>https://davidgelphman.wordpress.com/2013/03/29/2-letters-from-steve/</link><description>&lt;p&gt;我不想剧透David Gelphman的这个故事，他早在2013年就写了，但我&lt;s&gt;这周才偶然看到&lt;/s&gt; &lt;a href="https://daringfireball.net/linked/2013/03/29/ok"&gt;很久以前就读过&lt;/a&gt;，以至于我都忘记了。去读一读吧。但在此之前，你需要记住一个背景：最初的iPad是在&lt;a href="https://www.apple.com/newsroom/2010/01/27Apple-Launches-iPad/"&gt;2010年1月27日&lt;/a&gt;的一场苹果特别活动上&lt;em&gt;发布&lt;/em&gt;的，但直到&lt;a href="https://daringfireball.net/2010/04/the_ipad"&gt;4月初&lt;/a&gt;才&lt;em&gt;出货&lt;/em&gt;。Gelphman的故事就发生在那段空窗期。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/05/03/2-letters-from-steve" title="Permanent link to ‘‘2 Letters From Steve’’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sun, 03 May 2026 23:47:11 +0000</pubDate></item></channel></rss>
+</description><pubDate>Mon, 04 May 2026 14:30:53 +0000</pubDate></item></channel></rss>
