@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Mon, 04 May 2026 15:00:33 +0000</lastBuildDate><item><title>GitHub上的提交量同比增长了14倍。</title><link>https://daringfireball.net/linked/2026/03/13/amodei-ai-code-claim-chowder</link><description>&lt;p&gt;&lt;a href="https://daringfireball.net/linked/2026/03/13/amodei-ai-code-claim-chowder"&gt;两个月前&lt;/a&gt;，重温Anthropic CEO达里奥·阿莫迪一年前的预测——AI很快将编写90%以上的编程代码——我写道：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Mon, 04 May 2026 15:00:33 +0000</lastBuildDate><item><title>GitHub上的提交数量同比增长了14倍</title><link>https://daringfireball.net/linked/2026/03/13/amodei-ai-code-claim-chowder</link><description>&lt;p&gt;&lt;a href="https://daringfireball.net/linked/2026/03/13/amodei-ai-code-claim-chowder"&gt;两个月前&lt;/a&gt;，回顾Anthropic首席执行官Dario Amodei一年前的预测，即AI很快将编写90%以上的编程代码，我写道：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;但在我看来，阿莫迪上述言论之所以肤浅，是因为实际情况并非简单归结为原本由人类程序员编写的代码现在由AI模型生成。这当然是其中一部分。但真正具有革命性意义的是——这也是我今天&lt;a href="https://daringfireball.net/linked/2026/03/13/software-bonkers"&gt;两次&lt;/a&gt;&lt;a href="https://daringfireball.net/linked/2026/03/13/grief-and-the-ai-split"&gt;已经&lt;/a&gt;讨论过的话题——AI代码生成工具正被用来创建那些之前根本不会被编写的服务、应用和库。很可能如今由人类编写的代码总量与一年前人类编写的代码量相差无几。但AI生成的代码可能是人类编写量的10倍。或许更多？可能还要多得多？而一两年或三年后，这个数字可能是100倍、1000倍甚至100,000倍。&lt;/p&gt;
-&lt;p&gt;在那种近未来，人类程序员可能仍会编写——或至少逐行审查并批准——代码。但作为所有生成代码中的占比，那将只是微不足道的一小部分。&lt;/p&gt;
+&lt;p&gt;但我认为上述Amodei的言论肤浅之处在于，事情并非简单地将原本由人类程序员编写的代码行转变为由AI模型生成。这当然是其中一部分。但真正具有革命性的是——这也是我今天已经&lt;a href="https://daringfireball.net/linked/2026/03/13/software-bonkers"&gt;两次&lt;/a&gt;&lt;a href="https://daringfireball.net/linked/2026/03/13/grief-and-the-ai-split"&gt;发文&lt;/a&gt;讨论的话题——AI代码生成工具正被用于创建那些以前根本不会被编写的服务、应用和库。很有可能，今天人类编写的代码总量与一年前人类编写的代码总量相差不大。但今天AI生成的代码可能是人类编写的10倍以上。也许更多？也许还要多得多？而一两年或三年后，这个数字可能变成100倍、1000倍甚至100000倍。&lt;/p&gt;
+&lt;p&gt;在不久的将来，人类程序员可能仍然在编写代码——或者至少逐行审查和批准代码。但作为所有生成代码中的百分比，那仅会是一小部分。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;四月初，我们大致得到了一个可量化的数字：14倍。GitHub COO凯尔·戴格尔在&lt;a href="https://x.com/kdaigle/status/2040164759836778878"&gt;Twitter/X上发文&lt;/a&gt;（&lt;a href="https://xcancel.com/kdaigle/status/2040164759836778878"&gt;备用链接&lt;/a&gt;）：&lt;/p&gt;
+&lt;p&gt;四月初，我们得到了一个可以分配的数字：14倍。GitHub首席运营官Kyle Daigle在Twitter/X上&lt;a href="https://x.com/kdaigle/status/2040164759836778878"&gt;发帖&lt;/a&gt;（&lt;a href="https://xcancel.com/kdaigle/status/2040164759836778878"&gt;备用链接&lt;/a&gt;）：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;没错，平台活动正在激增。2025年有10亿次提交。现在，每周有2.75亿次提交，如果保持线性增长，今年将达到140亿次（剧透：不会线性增长）。&lt;/p&gt;
-&lt;p&gt;GitHub Actions从2023年的每周5亿分钟增长到2025年的每周10亿分钟，而本周至今已达21亿分钟。&lt;/p&gt;
+&lt;p&gt;没错，平台活动正在激增。2025年有10亿次提交。现在，每周2.75亿次，如果增长保持线性，今年将达到140亿次（剧透：不会）。&lt;/p&gt;
+&lt;p&gt;GitHub Actions从2023年的每周5亿分钟增长到2025年的每周10亿分钟，而本周到目前为止已达到21亿分钟。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;a href="https://daringfireball.net/linked/2026/05/04/commits-on-github-are-up-14x-year-over-year-" title="指向‘GitHub上的提交量同比增长14倍’的永久链接"&gt; ★ &lt;/a&gt;
+&lt;a href="https://daringfireball.net/linked/2026/05/04/commits-on-github-are-up-14x-year-over-year-" title="Permanent link to ‘Commits on GitHub Are Up 14× Year-Over-Year’"&gt; ★ &lt;/a&gt;
 </description><pubDate>Mon, 04 May 2026 15:00:33 +0000</pubDate></item><item><title>ScopeXR — 使用Apple Vision Pro混合现实的白内障手术</title><link>https://www.prnewswire.com/news-releases/sightmds-dr-eric-rosenberg-becomes-first-surgeon-in-the-world-to-perform-cataract-surgery-using-apple-vision-pro-mixed-reality-302754311.html</link><description>&lt;p&gt;上周的新闻稿：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;SightMD是大新英格兰地区领先的眼科诊所，今天宣布了一项外科创新的历史性里程碑。Eric Rosenberg博士（骨科医学博士、理学硕士）成为世界上首位成功使用Apple Vision Pro进行白内障手术的外科医生，该手术由ScopeXR驱动，这是一个由Rosenberg博士共同开发的突破性混合现实手术平台。&lt;/p&gt;
