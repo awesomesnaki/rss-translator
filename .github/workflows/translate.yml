@@ -57,5 +57,20 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
-          git diff --quiet && git diff --staged --quiet || git commit -m "Update translated feeds"
-          git push
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "Update translated feeds"
+
+          # 另一个 workflow / PR merge 可能在此期间推到 main，重试 + rebase 兜住
+          for i in 1 2 3; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push attempt $i rejected, rebasing on origin/main..."
+            git pull --rebase origin main || git rebase --abort 2>/dev/null
+            sleep $((i * 3))
+          done
+          echo "Push failed after 3 attempts" >&2
+          exit 1
