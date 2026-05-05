@@ -7,6 +7,7 @@
 1. **翻译英文 RSS 为中文** — 使用 DeepSeek API，翻译全文而非摘要
 2. **代理 RSSHub 源** — 通过 GitHub Actions 套壳访问 RSSHub 官方实例（`rsshub://` 协议），解决客户端直连 RSSHub 不稳定的问题
 3. **优化 RSS 阅读体验** — 自动展开全文（`fetch_full_content`）、修复图片防盗链、还原懒加载图片、清理臃肿 HTML、V2EX 评论格式化等
+4. **抓取豆瓣榜单** — 独立爬虫脚本（不走 RSS 流程），从豆瓣移动端 API 抓取 subject_collection 榜单，生成带海报、metadata、短评的 RSS
 
 ## 架构
 
@@ -14,7 +15,10 @@
 - `translate_rss.py` — 核心脚本，处理所有 feed
 - `cache.json` — 翻译缓存（key 为内容 MD5 hash），避免重复调用 API
 - `feeds/*.xml` — 生成的 RSS 文件，通过 GitHub Pages 发布
+- `feeds/images/{collection}/` — 豆瓣海报，由 GitHub Pages 自托管避防盗链
 - `.github/workflows/translate.yml` — 每 2 小时自动运行
+- `douban_scraper.py` — 豆瓣榜单爬虫，独立于 translate_rss.py
+- `.github/workflows/douban.yml` — 每周一 08:00（北京时间）自动运行
 
 ## config.yaml 配置项
 
@@ -33,6 +37,27 @@
   filter_category: "xxx"    # 可选，只保留带该 <category> 标签的条目（可为字符串或列表）
 ```
 
+## douban_scraper.py 配置
+
+榜单列表硬编码在脚本顶部 `COLLECTIONS`，加新榜单加一项即可：
+
+```python
+{
+    'slug': 'movie_weekly_best',          # 豆瓣 URL /subject_collection/{slug} 后面的 slug
+    'name': 'douban-movie-weekly',         # 输出文件名 (feeds/{name}.xml)
+    'title': '豆瓣 一周口碑电影榜',         # feed 标题
+}
+```
+
+调用的豆瓣 API：
+- 列表: `m.douban.com/rexxar/api/v2/subject_collection/{slug}/items`
+- 详情: `m.douban.com/rexxar/api/v2/movie/{id}` — intro / directors / actors / aka / pubdate / imdb / honor_infos / tags 等
+- 短评: `m.douban.com/rexxar/api/v2/movie/{id}/interests?order_by=hot`
+
+每条 RSS item 含：海报（自托管）→ 评分 `<h3>⭐ 8.5</h3>` → metadata 块（时间/地区/类型/导演/主演/语言/片长/上映/又名/标签/IMDb，标签加粗 `<br>` 分隔）→ 剧情 → 5 条热门短评（用户名 ⭐⭐⭐⭐ + 评论 + 👍 N）。
+
+`DOUBAN_COOKIE` (GitHub Secrets) 可选，反爬限流时携带账号 cookie 绕过。
+
 ## 关键设计决策
 
 - **翻译缓存很重要** — `cache.json` 基于内容 hash。任何在翻译之前改变内容的操作（如 HTML 清理）都会导致缓存失效、全量重新翻译、workflow 超时。所以 HTML 清理必须放在翻译之后
@@ -46,6 +71,9 @@
 - **分类过滤** — `filter_category` 按 RSS `<category>` 精确保留，注意部分第三方 feed 服务（如 feed.luobo8.com）不含 category 标签，此时应改用 `filter_in` 按标题过滤
 - **纯文字模式** — `text_only` 在 `fix_image_tags` 之后剥掉所有 `<img>`，适用于图片源防盗链无解、只想看文字的站点
 - **RSSHub URL 策略** — `rsshub://` 协议走 CI 本地实例；直接写 `https://rsshub.app/...` 则走官方实例不被改写，适用于本地实例无法抓取的源
+- **豆瓣图片自托管** — wsrv.nl 等代理对 doubanio 返回 404（海外 IP 段被拦），改为 Actions 直接下载海报到 `feeds/images/{name}/`，由 GH Pages 提供，零防盗链。每次运行只保留本期榜单的图，已离榜的自动清理
+- **豆瓣标签字段不固定** — 不同接口字段名不一致（honor_infos / tags / subject_tags / topic_tags / content_tags），`extract_tags` 多个候选都试一遍去重
+- **Push 重试** — translate.yml 和 douban.yml 都 push 到 main，可能撞上 PR merge 或对方 workflow 的提交。两边 commit step 都加了「push 失败 → rebase origin/main → 重试」循环（最多 3 次，3/6/9s sleep）
 
 ## 操作注意事项
 
@@ -58,3 +86,5 @@
 - some.pics 等图文 feed 建议只用 `summarize_title: true`，原始描述翻译后保留在正文
 - `filter_out` 和 `filter_out_content` 可叠加使用，先过滤标题再过滤正文
 - 开发请在独立分支上进行，通过 PR 合并到 main
+- 加新豆瓣榜单：`douban_scraper.py` 顶部 `COLLECTIONS` 列表加一项，slug 即豆瓣 URL `/subject_collection/` 后面那部分
+- 豆瓣订阅地址：`https://awesomesnaki.github.io/rss-translator/feeds/douban-{collection}.xml`，不进 config.yaml 流程
