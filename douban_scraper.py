@@ -7,8 +7,8 @@ API:
 - 列表: https://m.douban.com/rexxar/api/v2/subject_collection/{slug}/items
 - 详情: https://m.douban.com/rexxar/api/v2/movie/{id}
 
-海报图通过 wsrv.nl 代理，规避 RSS 客户端服务端预取图片时
-带 Referer 触发豆瓣防盗链 → 403 的问题。
+海报图直接下载到 feeds/images/{name}/ 目录，由 GitHub Pages 自托管，
+绕过 doubanio 在 RSS 客户端里的防盗链拦截，不依赖第三方代理。
 
 环境变量 DOUBAN_COOKIE 可选，账号 cookie 用于绕过反爬。
 """
@@ -19,7 +19,6 @@ import time
 from pathlib import Path
 from datetime import datetime, timezone
 from html import escape
-from urllib.parse import quote
 
 import requests
 from feedgenerator import Rss201rev2Feed
@@ -36,6 +35,8 @@ COLLECTIONS = [
 UA = ('Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) '
       'AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 '
       'Mobile/15E148 Safari/604.1')
+
+GH_PAGES_BASE = 'https://awesomesnaki.github.io/rss-translator'
 
 
 def make_session():
@@ -63,7 +64,6 @@ def fetch_items(s, slug):
 
 
 def fetch_intro(s, item):
-    """从详情接口取剧情简介，失败返回空字符串。"""
     subject_id = item.get('id')
     if not subject_id:
         return ''
@@ -81,12 +81,47 @@ def fetch_intro(s, item):
         return ''
 
 
-def proxy_image(url):
-    """wsrv.nl 代理图片，剥离 Referer，规避 RSS 客户端防盗链。"""
-    if not url:
-        return url
-    stripped = url.split('://', 1)[-1]
-    return f'https://wsrv.nl/?url={quote(stripped, safe="/:")}'
+def image_ext(url):
+    ext = url.rsplit('?', 1)[0].rsplit('.', 1)[-1].lower()
+    return ext if ext in ('jpg', 'jpeg', 'png', 'webp') else 'jpg'
+
+
+def manage_images(s, items, images_dir):
+    """下载本期新图、清理离榜旧图。返回 {subject_id: filename}"""
+    images_dir.mkdir(parents=True, exist_ok=True)
+    name_map = {}
+
+    for item in items:
+        sid = str(item.get('id') or '')
+        url = (item.get('pic') or {}).get('large') or item.get('cover_url') or ''
+        if not sid or not url:
+            continue
+        filename = f'{sid}.{image_ext(url)}'
+        filepath = images_dir / filename
+        name_map[sid] = filename
+
+        if filepath.exists():
+            continue
+        try:
+            resp = s.get(
+                url,
+                headers={'Referer': item.get('url') or 'https://m.douban.com/'},
+                timeout=30,
+            )
+            resp.raise_for_status()
+            filepath.write_bytes(resp.content)
+            print(f"  下载: {filename}")
+        except Exception as e:
+            print(f"  图片失败 {sid}: {e}")
+            del name_map[sid]
+
+    keep = set(name_map.values())
+    for f in images_dir.iterdir():
+        if f.is_file() and f.name not in keep:
+            f.unlink()
+            print(f"  清理: {f.name}")
+
+    return name_map
 
 
 def build_title(item):
@@ -102,14 +137,12 @@ def build_title(item):
     return ' '.join(p for p in parts if p)
 
 
-def build_description(item, intro):
+def build_description(item, intro, image_url):
     parts = []
 
-    pic = (item.get('pic') or {}).get('large') or item.get('cover_url') or ''
-    if pic:
+    if image_url:
         parts.append(
-            f'<p><img src="{escape(proxy_image(pic))}" '
-            f'referrerpolicy="no-referrer"></p>'
+            f'<p><img src="{escape(image_url)}" referrerpolicy="no-referrer"></p>'
         )
 
     rating = item.get('rating') or {}
@@ -131,7 +164,15 @@ def build_description(item, intro):
     return '\n'.join(parts)
 
 
-def build_feed(s, collection, items):
+def image_url_for(item, collection_name, name_map):
+    sid = str(item.get('id') or '')
+    filename = name_map.get(sid)
+    if filename:
+        return f'{GH_PAGES_BASE}/feeds/images/{collection_name}/{filename}'
+    return (item.get('pic') or {}).get('large') or item.get('cover_url') or ''
+
+
+def build_feed(s, collection, items, name_map):
     feed = Rss201rev2Feed(
         title=collection['title'],
         link=f'https://m.douban.com/subject_collection/{collection["slug"]}',
@@ -145,7 +186,9 @@ def build_feed(s, collection, items):
         feed.add_item(
             title=build_title(item),
             link=item.get('url', ''),
-            description=build_description(item, intro),
+            description=build_description(
+                item, intro, image_url_for(item, collection['name'], name_map)
+            ),
             unique_id=str(item.get('id') or item.get('url') or ''),
             pubdate=now,
         )
@@ -167,7 +210,10 @@ def main():
                 failed.append(col['name'])
                 continue
 
-            feed = build_feed(s, col, items)
+            images_dir = output_dir / 'images' / col['name']
+            name_map = manage_images(s, items, images_dir)
+
+            feed = build_feed(s, col, items, name_map)
             output_file = output_dir / f"{col['name']}.xml"
             with open(output_file, 'w', encoding='utf-8') as f:
                 feed.write(f, 'utf-8')
