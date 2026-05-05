@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 28 Apr 2026 08:01:08 +0000</lastBuildDate><item><title>金士顿面向数据中心推出30.72TB的U.2固态硬盘 顺序读取速度可达14,000MB/s</title><link>https://www.landiannews.com/archives/112840.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 05 May 2026 07:39:42 +0000</lastBuildDate><item><title>[已恢复] 微软发布的Microsoft Defender更新错误将系统根证书检测为病毒</title><link>https://www.landiannews.com/archives/112841.html</link><description>
+&lt;p&gt;#系统资讯 [已恢复] 微软发布的 Microsoft Defender 安全更新错误将系统根证书检测为病毒，导致大量用户收到检测到恶意软件的提醒。被拦截的证书是 DigiCert 的根证书，本来微软应该拦截被盗的泄露证书，但不知道怎样的操作能将签发数百万份证书的 DC 根证书给拦截了。查看详情：https://ourl.co/112841&lt;/p&gt;&lt;p&gt;&lt;strong&gt;阅读提醒：&lt;/strong&gt; &lt;br/&gt;此问题发生在 2026 年 5 月 1 日，在本文发布时微软已经重新发布病毒库定义更新修复该问题，用户不会再因为启用 Microsoft Defender 而看到检测到病毒提示。&lt;/p&gt;
+&lt;p&gt;2026 年 4 月 2 日，全球知名数字签名颁发机构 DigiCert 遭到攻击黑客攻击，黑客针对客户支持团队进行钓鱼成功窃取 60 份企业级代码签名证书 (EV)，随后该机构排查安全风险并将被窃取的代码签名证书全部吊销，这些代码签名证书已经生成但尚未交付，因此并未对下游软件开发商造成大规模影响。&lt;/p&gt;
+&lt;p&gt;但被盗用的代码签名证书已经被黑客用于签署恶意软件，安全业界检测到威胁后通过协作互相通报此次安全事件，包括微软在内的反病毒软件开发商均发布病毒库更新用于查杀包含这些代码签名证书的文件。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src="https://img.lancdn.com/landian/2026/05/112841.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/112841.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;美国东部时间 2026 年 4 月 30 日，微软发布适用于 Microsoft Defender 的安全智能更新，但不知道因何种原因，微软竟然将 DigiCert 合法的根证书标记为恶意软件，因此安装病毒库更新后系统自动将对应的根证书从 Windows 10/11 信任存储区删除，同时微软还会弹出警告称检测到 Trojan:Win32/Cerdigicert.A!dha。&lt;/p&gt;
+&lt;p&gt;问题在于 DigiCert 证书被广泛应用于各类软件和网站的签名，因此在根证书从信任存储区删除后，系统以及浏览器都会拦截使用这个根证书签发的下游证书，典型表现就是用户使用谷歌浏览器打开某些网站时可能会报错，而火狐浏览器因为使用自己维护的证书库因此不会受到影响。&lt;/p&gt;
+&lt;p&gt;部分用户看到通知后以为自己的设备已经被感染，因此果断选择重装系统，只不过针对这个问题重装系统也是没用的，事后微软才发布公告称这次属于误报，已经发布新的病毒库更新修复问题。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在收到大量 IT 管理员报告后微软承认拦截相关根证书纯属误报，微软随后发布安全智能更新 1.449.430.0+ 版中修复问题，只要 Microsoft Defender 接收该版本及后续更新后就可以自动解除拦截。&lt;/p&gt;
+&lt;p&gt;微软表示：在收到证书被盗用的报告后，微软立即在 Microsoft Defender 防病毒软件中添加恶意软件检测功能以帮助保护客户，但我们确定相关的误警报是被错误触发的，我们已经更新警报逻辑。新的安全智能更新会自动撤销操作所以受影响的用户不需要执行任何额外操作，相关设备出现警告也会自动消失。&lt;/p&gt;
+</description><pubDate>Tue, 05 May 2026 07:39:42 +0000</pubDate></item><item><title>金士顿面向数据中心推出30.72TB的U.2固态硬盘 顺序读取速度可达14,000MB/s</title><link>https://www.landiannews.com/archives/112840.html</link><description>
 &lt;p&gt;#硬件设备 等大船货？金士顿面向 AI 数据中心推出 DC3000ME 固态硬盘，容量最高 30.72TB，采用 PCIe 5.0+U.2 NVMe，顺序读取速度可达 14,000MB / 秒。闪存芯片方面，DC3000ME 采用 3D eTLC NAND，这种闪存颗粒通常用于读取密集型和混合工作负载环境下，可以提高成本效益。查看详情：https://ourl.co/112840&lt;/p&gt;&lt;p&gt;存储设备制造商金士顿 (Kingston) 日前面向数据中心客户推出新款固态硬盘产品，这款固态硬盘名称为 DC3000ME Gen 5.0 U.2 NVMe SSD，采用 PCIe 5.0 协议和 U.2 尺寸，可以在现有的数据中心服务器里直接替换。&lt;/p&gt;
 &lt;p&gt;DC3000ME 采用 PCIe 5.0 协议因此可以提供最高 14,000MB/s 的顺序读取速度，随机 IOPS 高达 2800K，最高容量为 30.72TB，向下兼容 PCIe 4.0 平台，具备板载断电保护功能、支持 AES-256 加密、支持 TCG Opal 2.0 加密等。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112840.png" rel="nofollow"&gt;&lt;img alt="金士顿面向数据中心推出30.72TB的U.2固态硬盘 顺序读取速度可达14,000MB/s" data-src="https://img.lancdn.com/landian/2026/04/112840.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112840.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -53,12 +65,4 @@
 &lt;/ul&gt;
 &lt;p&gt;关于配额共享：仅限企业订阅用户，用户配额会被放在大池子中，每名用户未使用的套餐剩余信用点可以在整个企业内部共享以减少限制和浪费。&lt;/p&gt;
 &lt;p&gt;via &lt;a href="https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/" rel="noopener" target="_blank"&gt;GitHub&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 28 Apr 2026 03:38:15 +0000</pubDate></item><item><title>Claude Pro订阅无法再使用Opus系列模型？A社称过时信息忘记删除</title><link>https://www.landiannews.com/archives/112836.html</link><description>
-&lt;p&gt;#人工智能 Claude Pro 订阅无法在 Claude Code 中使用 Opus 系列模型？截图是真的但属于过时信息，用户可以继续使用。从昨天开始 X 上流传的截图显示 Claude Pro 将不支持在 CC 里使用 Opus 模型，用户需要额外付费才能使用，A 社称这是 2025 年 12 月的过时信息，目前已经更新支持文档删除错误信息。查看详情：https://ourl.co/112836&lt;/p&gt;&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112836.png" rel="nofollow"&gt;&lt;img alt="Claude Pro订阅无法再使用Opus系列模型？A社称过时信息忘记删除" data-src="https://img.lancdn.com/landian/2026/04/112836.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112836.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;👆🏻上图为过时信息&lt;/p&gt;
-&lt;p&gt;从昨天开始社交媒体 X/Twitter 上流传有关 Claude Pro 订阅很快将无法使用 Opus 系列模型的消息，截图显示 A 社在模型支持提示中表示：当在 Claude Code 中使用 Claude Pro 订阅时，必须购买额外的使用量才可以使用 Opus 系列模型。&lt;/p&gt;
-&lt;p&gt;这则消息引起诸多用户的不满，有用户认为肯定是 A 社想赚更多所以才收紧 Claude Pro 订阅的权益，逼迫更多用户开通价格更高的 Claude Max 订阅，或通过 API 平台调用 Claude Opus 系列最新模型。&lt;/p&gt;
-&lt;p&gt;流传的截图倒不是 AI 生成的，不过用户也无需担心，引起大量关注后 A 社员工称截图属于过时信息，这还是 2025 年 12 月开始更新的提示，当时是 Claude Pro 尚未支持 Opus 系列模型，所以 A 社会在页面挂上提示。&lt;/p&gt;
-&lt;p&gt;而从 2026 年 1 月份开始 Claude Pro 订阅已经支持在 Claude Code 里使用 Claude Opus 4.5 (以及之后支持更多新模型)，但当时挂上的提示忘记删除，于是就这么被保留到现在，直到不少用户截图传播开。&lt;/p&gt;
-&lt;p&gt;现在这个提示已经被删除，用户可以放心继续在 Claude Code 中使用 Opus 模型，不需要额外支付费用或通过 API 平台调用，A 社若有其他关于 Claude Pro 订阅权益变动也会通过官网及时公布。&lt;/p&gt;
-</description><pubDate>Tue, 28 Apr 2026 03:11:05 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 28 Apr 2026 03:38:15 +0000</pubDate></item></channel></rss>
