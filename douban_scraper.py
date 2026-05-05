@@ -1,14 +1,15 @@
 """豆瓣 subject_collection 爬虫
 
 调用 m.douban.com 移动端内部 JSON API 抓取榜单条目，
-生成带海报图、评分、演职员、剧情简介的 RSS feed。
+生成带海报图、完整 metadata、剧情简介、官方影评的 RSS feed。
 
 API:
 - 列表: https://m.douban.com/rexxar/api/v2/subject_collection/{slug}/items
 - 详情: https://m.douban.com/rexxar/api/v2/movie/{id}
+- 影评 RSS: https://www.douban.com/feed/subject/{id}/reviews
 
 海报图直接下载到 feeds/images/{name}/ 目录，由 GitHub Pages 自托管，
-绕过 doubanio 在 RSS 客户端里的防盗链拦截，不依赖第三方代理。
+绕过 doubanio 在 RSS 客户端里的防盗链拦截。
 
 环境变量 DOUBAN_COOKIE 可选，账号 cookie 用于绕过反爬。
 """
@@ -20,7 +21,9 @@ from pathlib import Path
 from datetime import datetime, timezone
 from html import escape
 
+import feedparser
 import requests
+from bs4 import BeautifulSoup
 from feedgenerator import Rss201rev2Feed
 
 
@@ -37,6 +40,9 @@ UA = ('Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) '
       'Mobile/15E148 Safari/604.1')
 
 GH_PAGES_BASE = 'https://awesomesnaki.github.io/rss-translator'
+
+REVIEW_LIMIT = 5
+REVIEW_EXCERPT_CHARS = 800
 
 
 def make_session():
@@ -63,10 +69,11 @@ def fetch_items(s, slug):
     return resp.json().get('subject_collection_items', [])
 
 
-def fetch_intro(s, item):
+def fetch_detail(s, item):
+    """从详情接口取完整 metadata，失败返回空 dict。"""
     subject_id = item.get('id')
     if not subject_id:
-        return ''
+        return {}
     url = f'https://m.douban.com/rexxar/api/v2/movie/{subject_id}'
     try:
         resp = s.get(
@@ -75,10 +82,51 @@ def fetch_intro(s, item):
             timeout=15,
         )
         resp.raise_for_status()
-        return (resp.json().get('intro') or '').strip()
+        return resp.json()
     except Exception as e:
         print(f"  详情失败 {subject_id}: {e}")
+        return {}
+
+
+def fetch_reviews(s, subject_id, limit=REVIEW_LIMIT):
+    """取豆瓣官方影评 RSS 最近 N 篇。"""
+    if not subject_id:
+        return []
+    url = f'https://www.douban.com/feed/subject/{subject_id}/reviews'
+    try:
+        resp = s.get(
+            url,
+            headers={'Referer': f'https://movie.douban.com/subject/{subject_id}/'},
+            timeout=15,
+        )
+        resp.raise_for_status()
+        parsed = feedparser.parse(resp.content)
+        return parsed.entries[:limit]
+    except Exception as e:
+        print(f"  影评失败 {subject_id}: {e}")
+        return []
+
+
+def review_excerpt(html, limit=REVIEW_EXCERPT_CHARS):
+    if not html:
         return ''
+    text = BeautifulSoup(html, 'html.parser').get_text(separator=' ', strip=True)
+    if len(text) > limit:
+        text = text[:limit].rstrip() + '…'
+    return text
+
+
+def names_of(lst):
+    """从 [{'name': ...}, ...] 提取名字列表。"""
+    if not lst:
+        return []
+    out = []
+    for x in lst:
+        if isinstance(x, dict) and x.get('name'):
+            out.append(x['name'])
+        elif isinstance(x, str):
+            out.append(x)
+    return out
 
 
 def image_ext(url):
@@ -137,7 +185,70 @@ def build_title(item):
     return ' '.join(p for p in parts if p)
 
 
-def build_description(item, intro, image_url):
+def info_block(detail, item):
+    """metadata 块：每个字段一行，<p> 内用 <br> 分隔。"""
+    year = detail.get('year') or item.get('year')
+    countries = detail.get('countries') or []
+    genres = detail.get('genres') or []
+    directors = names_of(detail.get('directors'))
+    actors = names_of(detail.get('actors') or detail.get('casts'))
+    languages = detail.get('languages') or []
+    durations = detail.get('durations') or []
+    pubdate = detail.get('pubdate') or detail.get('pubdates') or []
+    aka = detail.get('aka') or []
+    imdb = detail.get('imdb') or ''
+
+    rows = []
+
+    def row(label, value):
+        if not value:
+            return
+        if isinstance(value, list):
+            value = ' / '.join(str(v) for v in value if v)
+        rows.append(f'{escape(label)}: {escape(str(value))}')
+
+    row('时间', year)
+    row('地区', countries)
+    row('类型', genres)
+    row('导演', directors)
+    row('主演', actors[:5])
+    row('语言', languages)
+    row('片长', durations)
+    row('上映', pubdate[:3])
+    row('又名', aka[:3])
+    if imdb:
+        rows.append(
+            f'IMDb: <a href="https://www.imdb.com/title/{escape(imdb)}/">'
+            f'{escape(imdb)}</a>'
+        )
+
+    if not rows:
+        subtitle = item.get('card_subtitle', '')
+        return f'<p>{escape(subtitle)}</p>' if subtitle else ''
+
+    return '<p>' + '<br>'.join(rows) + '</p>'
+
+
+def reviews_block(reviews):
+    if not reviews:
+        return ''
+    parts = ['<hr><h3>影评</h3>']
+    for r in reviews:
+        title = r.get('title', '影评')
+        link = r.get('link', '')
+        author = r.get('author', '')
+        content = r.get('summary', '') or r.get('description', '')
+        excerpt = review_excerpt(content)
+        header = f'<a href="{escape(link)}">{escape(title)}</a>' if link else escape(title)
+        if author:
+            header += f' — {escape(author)}'
+        parts.append(f'<h4>{header}</h4>')
+        if excerpt:
+            parts.append(f'<p>{escape(excerpt)}</p>')
+    return '\n'.join(parts)
+
+
+def build_description(item, detail, reviews, image_url):
     parts = []
 
     if image_url:
@@ -145,7 +256,7 @@ def build_description(item, intro, image_url):
             f'<p><img src="{escape(image_url)}" referrerpolicy="no-referrer"></p>'
         )
 
-    rating = item.get('rating') or {}
+    rating = item.get('rating') or detail.get('rating') or {}
     if rating.get('value'):
         parts.append(
             f'<p>★ <strong>{rating["value"]}</strong> '
@@ -154,12 +265,17 @@ def build_description(item, intro, image_url):
     elif item.get('null_rating_reason'):
         parts.append(f'<p>{escape(item["null_rating_reason"])}</p>')
 
-    subtitle = item.get('card_subtitle', '')
-    if subtitle:
-        parts.append(f'<p>{escape(subtitle)}</p>')
+    info = info_block(detail, item)
+    if info:
+        parts.append(info)
 
+    intro = (detail.get('intro') or '').strip()
     if intro:
         parts.append(f'<p>{escape(intro)}</p>')
+
+    rev = reviews_block(reviews)
+    if rev:
+        parts.append(rev)
 
     return '\n'.join(parts)
 
@@ -181,13 +297,16 @@ def build_feed(s, collection, items, name_map):
     )
     now = datetime.now(timezone.utc)
     for item in items:
-        intro = fetch_intro(s, item)
-        time.sleep(1)
+        detail = fetch_detail(s, item)
+        time.sleep(0.5)
+        reviews = fetch_reviews(s, item.get('id'))
+        time.sleep(0.5)
         feed.add_item(
             title=build_title(item),
             link=item.get('url', ''),
             description=build_description(
-                item, intro, image_url_for(item, collection['name'], name_map)
+                item, detail, reviews,
+                image_url_for(item, collection['name'], name_map),
             ),
             unique_id=str(item.get('id') or item.get('url') or ''),
             pubdate=now,
