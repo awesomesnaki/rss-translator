@@ -1,12 +1,12 @@
 """豆瓣 subject_collection 爬虫
 
 调用 m.douban.com 移动端内部 JSON API 抓取榜单条目，
-生成带海报图、完整 metadata、剧情简介、官方影评的 RSS feed。
+生成带海报图、完整 metadata、剧情简介、热门短评的 RSS feed。
 
 API:
 - 列表: https://m.douban.com/rexxar/api/v2/subject_collection/{slug}/items
 - 详情: https://m.douban.com/rexxar/api/v2/movie/{id}
-- 影评 RSS: https://www.douban.com/feed/subject/{id}/reviews
+- 短评: https://m.douban.com/rexxar/api/v2/movie/{id}/interests?order_by=hot
 
 海报图直接下载到 feeds/images/{name}/ 目录，由 GitHub Pages 自托管，
 绕过 doubanio 在 RSS 客户端里的防盗链拦截。
@@ -21,9 +21,7 @@ from pathlib import Path
 from datetime import datetime, timezone
 from html import escape
 
-import feedparser
 import requests
-from bs4 import BeautifulSoup
 from feedgenerator import Rss201rev2Feed
 
 
@@ -41,8 +39,7 @@ UA = ('Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) '
 
 GH_PAGES_BASE = 'https://awesomesnaki.github.io/rss-translator'
 
-REVIEW_LIMIT = 5
-REVIEW_EXCERPT_CHARS = 800
+COMMENT_LIMIT = 5
 
 
 def make_session():
@@ -88,32 +85,26 @@ def fetch_detail(s, item):
         return {}
 
 
-def fetch_reviews(s, subject_id, limit=REVIEW_LIMIT):
-    """取豆瓣官方影评 RSS 最近 N 篇。"""
+def fetch_short_comments(s, item, limit=COMMENT_LIMIT):
+    """从 interests 接口取热门短评 (有评论文字的)。"""
+    subject_id = item.get('id')
     if not subject_id:
         return []
-    url = f'https://www.douban.com/feed/subject/{subject_id}/reviews'
+    url = f'https://m.douban.com/rexxar/api/v2/movie/{subject_id}/interests'
     try:
         resp = s.get(
             url,
-            headers={'Referer': f'https://movie.douban.com/subject/{subject_id}/'},
+            headers={'Referer': item.get('url') or 'https://m.douban.com/'},
+            params={'count': 20, 'start': 0, 'order_by': 'hot'},
             timeout=15,
         )
         resp.raise_for_status()
-        parsed = feedparser.parse(resp.content)
-        return parsed.entries[:limit]
+        all_interests = resp.json().get('interests', [])
+        with_text = [c for c in all_interests if (c.get('comment') or '').strip()]
+        return with_text[:limit]
     except Exception as e:
-        print(f"  影评失败 {subject_id}: {e}")
+        print(f"  短评失败 {subject_id}: {e}")
         return []
-
-
-def review_excerpt(html, limit=REVIEW_EXCERPT_CHARS):
-    if not html:
-        return ''
-    text = BeautifulSoup(html, 'html.parser').get_text(separator=' ', strip=True)
-    if len(text) > limit:
-        text = text[:limit].rstrip() + '…'
-    return text
 
 
 def names_of(lst):
@@ -127,6 +118,14 @@ def names_of(lst):
         elif isinstance(x, str):
             out.append(x)
     return out
+
+
+def stars_of(rating):
+    v = (rating or {}).get('value', 0)
+    if not isinstance(v, (int, float)) or v <= 0:
+        return ''
+    full = max(1, min(5, int(round(v))))
+    return '★' * full + '☆' * (5 - full)
 
 
 def image_ext(url):
@@ -186,7 +185,7 @@ def build_title(item):
 
 
 def info_block(detail, item):
-    """metadata 块：每个字段一行，<p> 内用 <br> 分隔。"""
+    """metadata 块：每个字段一行，标签加粗。"""
     year = detail.get('year') or item.get('year')
     countries = detail.get('countries') or []
     genres = detail.get('genres') or []
@@ -205,7 +204,7 @@ def info_block(detail, item):
             return
         if isinstance(value, list):
             value = ' / '.join(str(v) for v in value if v)
-        rows.append(f'{escape(label)}: {escape(str(value))}')
+        rows.append(f'<strong>{escape(label)}</strong>: {escape(str(value))}')
 
     row('时间', year)
     row('地区', countries)
@@ -218,7 +217,8 @@ def info_block(detail, item):
     row('又名', aka[:3])
     if imdb:
         rows.append(
-            f'IMDb: <a href="https://www.imdb.com/title/{escape(imdb)}/">'
+            f'<strong>IMDb</strong>: '
+            f'<a href="https://www.imdb.com/title/{escape(imdb)}/">'
             f'{escape(imdb)}</a>'
         )
 
@@ -229,26 +229,35 @@ def info_block(detail, item):
     return '<p>' + '<br>'.join(rows) + '</p>'
 
 
-def reviews_block(reviews):
-    if not reviews:
+def comments_block(comments):
+    if not comments:
         return ''
-    parts = ['<hr><h3>影评</h3>']
-    for r in reviews:
-        title = r.get('title', '影评')
-        link = r.get('link', '')
-        author = r.get('author', '')
-        content = r.get('summary', '') or r.get('description', '')
-        excerpt = review_excerpt(content)
-        header = f'<a href="{escape(link)}">{escape(title)}</a>' if link else escape(title)
-        if author:
-            header += f' — {escape(author)}'
-        parts.append(f'<h4>{header}</h4>')
-        if excerpt:
-            parts.append(f'<p>{escape(excerpt)}</p>')
+    parts = ['<hr><h3>短评</h3>']
+    for c in comments:
+        user = (c.get('user') or {}).get('name') or '匿名'
+        stars = stars_of(c.get('rating'))
+        ip = c.get('ip_location', '')
+        votes = c.get('vote_count', 0)
+        text = (c.get('comment') or '').strip()
+        time_str = c.get('create_time', '')
+
+        meta = [f'<strong>{escape(user)}</strong>']
+        if stars:
+            meta.append(stars)
+        if time_str:
+            meta.append(escape(time_str))
+        if ip:
+            meta.append(escape(ip))
+        if votes:
+            meta.append(f'{votes} 有用')
+
+        parts.append(f'<p>{" · ".join(meta)}</p>')
+        if text:
+            parts.append(f'<p>{escape(text)}</p>')
     return '\n'.join(parts)
 
 
-def build_description(item, detail, reviews, image_url):
+def build_description(item, detail, comments, image_url):
     parts = []
 
     if image_url:
@@ -271,11 +280,11 @@ def build_description(item, detail, reviews, image_url):
 
     intro = (detail.get('intro') or '').strip()
     if intro:
-        parts.append(f'<p>{escape(intro)}</p>')
+        parts.append(f'<p><strong>剧情</strong>: {escape(intro)}</p>')
 
-    rev = reviews_block(reviews)
-    if rev:
-        parts.append(rev)
+    cb = comments_block(comments)
+    if cb:
+        parts.append(cb)
 
     return '\n'.join(parts)
 
@@ -299,13 +308,13 @@ def build_feed(s, collection, items, name_map):
     for item in items:
         detail = fetch_detail(s, item)
         time.sleep(0.5)
-        reviews = fetch_reviews(s, item.get('id'))
+        comments = fetch_short_comments(s, item)
         time.sleep(0.5)
         feed.add_item(
             title=build_title(item),
             link=item.get('url', ''),
             description=build_description(
-                item, detail, reviews,
+                item, detail, comments,
                 image_url_for(item, collection['name'], name_map),
             ),
             unique_id=str(item.get('id') or item.get('url') or ''),
