@@ -125,6 +125,35 @@ def names_of(lst):
     return out
 
 
+def extract_tags(item, detail):
+    """从 item / detail 提取榜单页底部展示的标签（奖项 + 内容）。
+
+    豆瓣不同接口的字段名不太一致，多个候选都试一遍，去重后返回。
+    """
+    out = []
+    seen = set()
+    candidates = [
+        ('honor_infos', ('title', 'name')),
+        ('tags', ('name', 'title')),
+        ('subject_tags', ('name', 'title')),
+        ('topic_tags', ('name', 'title')),
+        ('content_tags', ('name', 'title')),
+    ]
+    for src in (item, detail):
+        if not isinstance(src, dict):
+            continue
+        for field, keys in candidates:
+            for t in src.get(field) or []:
+                if isinstance(t, dict):
+                    name = next((t[k] for k in keys if t.get(k)), None)
+                else:
+                    name = str(t)
+                if name and name not in seen:
+                    out.append(name)
+                    seen.add(name)
+    return out
+
+
 def stars_of(rating):
     v = (rating or {}).get('value', 0)
     if not isinstance(v, (int, float)) or v <= 0:
@@ -220,6 +249,7 @@ def info_block(detail, item):
     row('片长', durations)
     row('上映', pubdate[:3])
     row('又名', aka[:3])
+    row('标签', extract_tags(item, detail)[:10])
     if imdb:
         rows.append(
             f'<strong>IMDb</strong>: '
