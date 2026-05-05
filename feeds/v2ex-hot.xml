@@ -25,7 +25,9 @@
 &lt;p&gt;&lt;strong&gt;#22 vimutt&lt;/strong&gt;：程锦（女娃） 程礼（男娃）（《荀子·致仕》：“程者，物之准也；礼者，节之准也。程以立数，礼以定伦。”）&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#23 vimutt&lt;/strong&gt;：《釋名》曰：“錦，金也，作之用功重，其價如金，故字從金、帛。程是度量衡单位，程就是长度的 1 厘，10 程是一分，十分是一寸。 女孩千金， 所以女孩叫程锦 还有成语 前程似锦。 不过叫程锦的也不少 。所以上面的程礼我很喜欢，最好是男孩。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#24 cndns&lt;/strong&gt;：程远  反过来就是远程&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#25 chengxy&lt;/strong&gt;：我也姓程，我起名的话，男孩叫程诚，女孩叫程橙。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Tue, 05 May 2026 12:18:05 +0000</pubDate></item><item><title>境外 DNS 服务商 ECS (EDNS Client Subnet) 功能效果完整对比报告(2026 年 05 月） ，供大家参考使用</title><link>https://www.v2ex.com/t/1210332</link><description>&lt;h1&gt;DNS 服务商 ECS (EDNS Client Subnet) 功能效果完整对比报告&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;#25 chengxy&lt;/strong&gt;：我也姓程，我起名的话，男孩叫程诚，女孩叫程橙。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#26 docx&lt;/strong&gt;：程实&lt;br/&gt;&lt;br/&gt;诚实，以及 4 月 10 日，还可以带上实务、踏实的寓意&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#27 skygod&lt;/strong&gt;：程修远&lt;br/&gt;&lt;br/&gt;路漫漫其修远兮&lt;br/&gt;&lt;br/&gt;程景恒&lt;br/&gt;景行恒守&lt;br/&gt;&lt;br/&gt;程怀德&lt;br/&gt;君子怀德&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Tue, 05 May 2026 12:18:05 +0000</pubDate></item><item><title>境外 DNS 服务商 ECS (EDNS Client Subnet) 功能效果完整对比报告(2026 年 05 月） ，供大家参考使用</title><link>https://www.v2ex.com/t/1210332</link><description>&lt;h1&gt;DNS 服务商 ECS (EDNS Client Subnet) 功能效果完整对比报告&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;测试日期&lt;/strong&gt;: 2026-05-05&lt;br/&gt;
 &lt;strong&gt;测试方法&lt;/strong&gt;: DoH (DNS-over-HTTPS) 二进制 POST ，绕过所有本地 DNS 拦截&lt;br/&gt;
@@ -897,7 +899,15 @@
 &lt;p&gt;&lt;strong&gt;#18 lns103&lt;/strong&gt;：可以加上 cf 的 zerotrust DNS 测试，这个可以手动开启 ecs 支持&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#19 huieh&lt;/strong&gt;：非常有参考性&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#20 hnliuzesen&lt;/strong&gt;：GitHub 中 AdGuard 无拦截的 1 分是扣在哪了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#21 owt5008137&lt;/strong&gt;：这些 dns 服务商，直连延迟高都白搭。如果是走代理，不如不加 ecs 。不然解析线路和实际访问线路不一样反而增加延迟和丢包。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Tue, 05 May 2026 09:52:09 +0000</pubDate></item><item><title>[AI 中转站 / 福利贴]OneXModel 推广拉新，限时回帖送$，稳定、靠谱、好用～</title><link>https://www.v2ex.com/t/1210308</link><description>&lt;h2&gt;我们是谁？&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;#21 owt5008137&lt;/strong&gt;：这些 dns 服务商，直连延迟高都白搭。如果是走代理，不如不加 ecs 。不然解析线路和实际访问线路不一样反而增加延迟和丢包。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#22 mangmaimu&lt;/strong&gt;：作为 fakeip 用户，折腾 dns 一直是我觉得最鸡肋的一件事，当然对 realip 用户一定有不得不用的理由&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#23 docx&lt;/strong&gt;：@&lt;a href="/member/mangmaimu"&gt;mangmaimu&lt;/a&gt; 这玩意是给那些只想挂个纯净解析，不想开代理的人用的。有代理常驻后台，即使 realip 也用不上这个，最多在 localdns 用一下，remotedns 无脑填离代理延迟最低的 dns 就够了，传递国内 ecs 纯粹是反向优化。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#24 docx&lt;/strong&gt;：@&lt;a href="/member/ranaanna"&gt;ranaanna&lt;/a&gt; 这种肯定是 pop 越多越精细，当地有 pop 就会解析到最近的 cdn （比起自己传 ecs ，解析准确度还更高点）。我觉得这事可以简化成看 VPS 到 DNS 的延迟，当然实际上还是有点区别的，但是那点细微差异不值得这么费劲了……&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#25 mangmaimu&lt;/strong&gt;：@&lt;a href="/member/docx"&gt;docx&lt;/a&gt; 哇，这种需求还不如自己找 cdn ip 写 hosts ，何必折腾 ecs ，都要找域名写分流。direct 一把梭当我没说（国内解析也变差了，没必要）&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#26 skygod&lt;/strong&gt;：还是要做分流&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#27 skylancer&lt;/strong&gt;：adguard dns 不是有诊断页能显示出命中的哪个地区和对应的 svr 么，哪用得着去官方博客翻那么麻烦&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#28 skylancer&lt;/strong&gt;：@&lt;a href="/member/ranaanna"&gt;ranaanna&lt;/a&gt; 你的赛博大善人第一天就已经明确说过不会支持 ECS&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#29 skylancer&lt;/strong&gt;：另外，没有 argo 的时候，赛博大善人是你 命中的 col 走公网发起回源的&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Tue, 05 May 2026 09:52:09 +0000</pubDate></item><item><title>[AI 中转站 / 福利贴]OneXModel 推广拉新，限时回帖送$，稳定、靠谱、好用～</title><link>https://www.v2ex.com/t/1210308</link><description>&lt;h2&gt;我们是谁？&lt;/h2&gt;
 &lt;p&gt;🔗 &lt;em&gt;&lt;strong&gt;&lt;a href="https://1xm.ai" rel="nofollow"&gt;OneXModel&lt;/a&gt;&lt;/strong&gt;&lt;/em&gt; 是一个聚合 AI 算力平台，全球顶级模型算力无门槛接入，适合日常写作、编程、创意生成、图像生成等多种场景&lt;/p&gt;
 &lt;p&gt;我们团队长期投入在模型接入、稳定性优化和服务体验上，希望把“稳定、好用、靠谱”这几件事认真做好&lt;/p&gt;
 &lt;p&gt;我们相信：链接全球顶级 AI 能力，可以创造无限可能&lt;/p&gt;
@@ -946,7 +956,7 @@
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;a href="https://1xm.ai" rel="nofollow"&gt;&lt;img alt="" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://i.v2ex.co/97YkBQdO.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-05-05 16:54:01 +08:00"&gt;8h 22m ago&lt;/span&gt;
+Supplement 1  ·  &lt;span title="2026-05-05 16:54:01 +08:00"&gt;10h 14m ago&lt;/span&gt;
 &lt;p&gt;&lt;img alt="" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://i.v2ex.co/u7M796OE.png"/&gt;&lt;/p&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 Lknifeo&lt;/strong&gt;：2192&lt;br/&gt;谢谢老板!!!&lt;/p&gt;&lt;hr/&gt;
@@ -967,7 +977,8 @@ Supplement 1  ·  &lt;span title="2026-05-05 16:54:01 +08:00"&gt;8h 22m ago&lt
 &lt;p&gt;&lt;strong&gt;#16 Taxpayer&lt;/strong&gt;：ID:2224&lt;br/&gt;多谢老板&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#17 daweibao&lt;/strong&gt;：2226&lt;br/&gt;感谢老板&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#18 markdown710&lt;/strong&gt;：ID：2230 &lt;br/&gt;谢谢老板&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#19 zhongsir&lt;/strong&gt;：ID:120&lt;br/&gt;谢谢老板&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Tue, 05 May 2026 07:48:58 +0000</pubDate></item><item><title>Best Model 五一送 5 刀 纯血 Claude Max API 告别古法编程 人人有份</title><link>https://www.v2ex.com/t/1210298</link><description>最近 CC 中转市场全被 Kiro 逆向渠道污染了，AWS 在 1 月 29 日已宣布 Kiro 免费号不再提供 Opus 模型 ，很多人用着几毛的 Kiro 逆向以为捡了便宜 实际是用的是上一代 Sonnet 4.5 模型 ，sonnet 4.6 和 Opus 其实只是 sonnet 4.5 模型替换了名字而已 ，各种“低价站”，看起来便宜，用起来全是坑 —— 要么不稳定，要么疯狂烧 token&lt;br/&gt;我们之前做了科普：AI 中转站避坑指南：立刻停用"无缓存"中转，钱烧得比正常快 4 倍以上&lt;br/&gt;&lt;a href="https://www.v2ex.com/t/1208975" target="_blank"&gt;https://www.v2ex.com/t/1208975&lt;/a&gt;&lt;br/&gt;&lt;a href="/i/3PWljtyB.png" rel="nofollow noopener" target="_blank" title="在新窗口打开图片 3PWljtyB.png"&gt;&lt;img referrerpolicy="no-referrer" src="//i.v2ex.co/3PWljtyB.png"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Best Model 只做纯血最强模型 100%纯血 缓存命中 90%+&lt;br/&gt;100% 纯血 CCMax 号池 + 官 key 兜底，不碰垃圾渠道&lt;br/&gt;包月低至 1 元 = 1 美元 API ，长期可用&lt;br/&gt;&lt;a href="/i/5176NCRZ.png" rel="nofollow noopener" target="_blank" title="在新窗口打开图片 5176NCRZ.png"&gt;&lt;img referrerpolicy="no-referrer" src="//i.v2ex.co/5176NCRZ.png"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;五一最后一天，给大家送 5 刀限时额度&lt;br/&gt;&lt;br/&gt;这次不搞注册送了。上次活动有人开了注册机薅羊毛&lt;br/&gt;&lt;br/&gt;回帖留 ID ，送 $5 额度，限时 3 天，新老用户都可以参与&lt;br/&gt;&lt;br/&gt;ID 在个人资料里可以看到。&lt;br/&gt;&lt;br/&gt;官网： &lt;a href="https://bestmodel.dev" rel="nofollow noopener" target="_blank"&gt;https://bestmodel.dev&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;QQ 群：1017575055
+&lt;p&gt;&lt;strong&gt;#19 zhongsir&lt;/strong&gt;：ID:120&lt;br/&gt;谢谢老板&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#20 Tanuyoki&lt;/strong&gt;：Hi~我的 ID:2236&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Tue, 05 May 2026 07:48:58 +0000</pubDate></item><item><title>Best Model 五一送 5 刀 纯血 Claude Max API 告别古法编程 人人有份</title><link>https://www.v2ex.com/t/1210298</link><description>最近 CC 中转市场全被 Kiro 逆向渠道污染了，AWS 在 1 月 29 日已宣布 Kiro 免费号不再提供 Opus 模型 ，很多人用着几毛的 Kiro 逆向以为捡了便宜 实际是用的是上一代 Sonnet 4.5 模型 ，sonnet 4.6 和 Opus 其实只是 sonnet 4.5 模型替换了名字而已 ，各种“低价站”，看起来便宜，用起来全是坑 —— 要么不稳定，要么疯狂烧 token&lt;br/&gt;我们之前做了科普：AI 中转站避坑指南：立刻停用"无缓存"中转，钱烧得比正常快 4 倍以上&lt;br/&gt;&lt;a href="https://www.v2ex.com/t/1208975" target="_blank"&gt;https://www.v2ex.com/t/1208975&lt;/a&gt;&lt;br/&gt;&lt;a href="/i/3PWljtyB.png" rel="nofollow noopener" target="_blank" title="在新窗口打开图片 3PWljtyB.png"&gt;&lt;img referrerpolicy="no-referrer" src="//i.v2ex.co/3PWljtyB.png"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Best Model 只做纯血最强模型 100%纯血 缓存命中 90%+&lt;br/&gt;100% 纯血 CCMax 号池 + 官 key 兜底，不碰垃圾渠道&lt;br/&gt;包月低至 1 元 = 1 美元 API ，长期可用&lt;br/&gt;&lt;a href="/i/5176NCRZ.png" rel="nofollow noopener" target="_blank" title="在新窗口打开图片 5176NCRZ.png"&gt;&lt;img referrerpolicy="no-referrer" src="//i.v2ex.co/5176NCRZ.png"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;五一最后一天，给大家送 5 刀限时额度&lt;br/&gt;&lt;br/&gt;这次不搞注册送了。上次活动有人开了注册机薅羊毛&lt;br/&gt;&lt;br/&gt;回帖留 ID ，送 $5 额度，限时 3 天，新老用户都可以参与&lt;br/&gt;&lt;br/&gt;ID 在个人资料里可以看到。&lt;br/&gt;&lt;br/&gt;官网： &lt;a href="https://bestmodel.dev" rel="nofollow noopener" target="_blank"&gt;https://bestmodel.dev&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;QQ 群：1017575055
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 qiuyuerror&lt;/strong&gt;：BMF-2ea4adc7&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#2 chinieer20&lt;/strong&gt;：BMF-6ecac4d8 谢谢&lt;/p&gt;&lt;hr/&gt;
@@ -1001,7 +1012,9 @@ Supplement 1  ·  &lt;span title="2026-05-05 16:54:01 +08:00"&gt;8h 22m ago&lt
 &lt;p&gt;&lt;strong&gt;#30 l534891619&lt;/strong&gt;：以上已经发&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#31 xialaoban&lt;/strong&gt;：BMF-e687a3ab&lt;br/&gt;&lt;br/&gt;来了老板，发大财！&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#32 jpacg&lt;/strong&gt;：BMF-57bae59e 谢谢老板&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#33 mrleowangg&lt;/strong&gt;：BMF-95a5e83f ，谢谢老板&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Tue, 05 May 2026 06:43:33 +0000</pubDate></item><item><title>51 摆摊记，随缘更新~</title><link>https://www.v2ex.com/t/1210293</link><description>&lt;h3&gt;51 假期摆地摊，第二天已有回头客，有个顾客最近 3 天连续购买&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;#33 mrleowangg&lt;/strong&gt;：BMF-95a5e83f ，谢谢老板&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#34 l534891619&lt;/strong&gt;：以上已经发&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#35 shell314&lt;/strong&gt;：BMF-abf8620b&lt;br/&gt;&lt;br/&gt;感谢佬&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Tue, 05 May 2026 06:43:33 +0000</pubDate></item><item><title>51 摆摊记，随缘更新~</title><link>https://www.v2ex.com/t/1210293</link><description>&lt;h3&gt;51 假期摆地摊，第二天已有回头客，有个顾客最近 3 天连续购买&lt;/h3&gt;
 &lt;h1&gt;摊位图&lt;/h1&gt;
 &lt;p&gt;&lt;img alt="Imgur" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/Cbng4de.jpeg"/&gt;&lt;/p&gt;
 &lt;h1&gt;营业额&lt;/h1&gt;
