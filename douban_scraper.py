@@ -31,6 +31,11 @@ COLLECTIONS = [
         'name': 'douban-movie-weekly',
         'title': '豆瓣 一周口碑电影榜',
     },
+    {
+        'slug': 'tv_global_best_weekly',
+        'name': 'douban-tv-weekly',
+        'title': '豆瓣 全球口碑剧集榜',
+    },
 ]
 
 UA = ('Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) '
