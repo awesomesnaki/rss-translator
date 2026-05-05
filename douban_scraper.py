@@ -125,7 +125,7 @@ def stars_of(rating):
     if not isinstance(v, (int, float)) or v <= 0:
         return ''
     full = max(1, min(5, int(round(v))))
-    return '★' * full + '☆' * (5 - full)
+    return '⭐' * full
 
 
 def image_ext(url):
@@ -180,7 +180,7 @@ def build_title(item):
         parts.append(f'({item["year"]})')
     rating = (item.get('rating') or {}).get('value')
     if rating:
-        parts.append(f'★{rating}')
+        parts.append(f'⭐{rating}')
     return ' '.join(p for p in parts if p)
 
 
@@ -233,27 +233,23 @@ def comments_block(comments):
     if not comments:
         return ''
     parts = ['<hr><h3>短评</h3>']
-    for c in comments:
+    for i, c in enumerate(comments):
+        if i > 0:
+            parts.append('<br>')
         user = (c.get('user') or {}).get('name') or '匿名'
         stars = stars_of(c.get('rating'))
-        ip = c.get('ip_location', '')
         votes = c.get('vote_count', 0)
         text = (c.get('comment') or '').strip()
-        time_str = c.get('create_time', '')
 
         meta = [f'<strong>{escape(user)}</strong>']
         if stars:
             meta.append(stars)
-        if time_str:
-            meta.append(escape(time_str))
-        if ip:
-            meta.append(escape(ip))
-        if votes:
-            meta.append(f'{votes} 有用')
-
         parts.append(f'<p>{" · ".join(meta)}</p>')
+
         if text:
             parts.append(f'<p>{escape(text)}</p>')
+        if votes:
+            parts.append(f'<p><strong>👍 {votes}</strong></p>')
     return '\n'.join(parts)
 
 
@@ -268,8 +264,8 @@ def build_description(item, detail, comments, image_url):
     rating = item.get('rating') or detail.get('rating') or {}
     if rating.get('value'):
         parts.append(
-            f'<p>★ <strong>{rating["value"]}</strong> '
-            f'（{rating.get("count", 0)} 人评价）</p>'
+            f'<h3>⭐ {rating["value"]} '
+            f'<small>（{rating.get("count", 0)} 人评价）</small></h3>'
         )
     elif item.get('null_rating_reason'):
         parts.append(f'<p>{escape(item["null_rating_reason"])}</p>')
