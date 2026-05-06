@@ -272,8 +272,31 @@ def clean_readability_html(html_content):
 
     return str(soup)
 
+def extract_cover_image(html):
+    """从原文 HTML 提取 og:image / twitter:image 作为封面图。
+    readability 提取正文时通常会漏掉 WordPress 等 CMS 的 Featured Image
+    （它在文章容器之外的页面头部渲染），改用 meta 标签拿到准确的封面。"""
+    soup = BeautifulSoup(html, 'html.parser')
+    for attrs in [
+        {'property': 'og:image'},
+        {'property': 'og:image:url'},
+        {'name': 'twitter:image'},
+        {'name': 'twitter:image:src'},
+    ]:
+        tag = soup.find('meta', attrs=attrs)
+        if tag and tag.get('content'):
+            return tag['content']
+    return None
+
+def normalize_image_basename(url):
+    """提取图片基础文件名，去掉 WordPress 自动生成的尺寸后缀（-1024x768）"""
+    if not url:
+        return ''
+    name = url.split('?')[0].rsplit('/', 1)[-1]
+    return re.sub(r'-\d+x\d+(\.\w+)$', r'\1', name)
+
 def fetch_full_article(url):
-    """从原文 URL 抓取完整文章内容，保留图片等 HTML 结构"""
+    """从原文 URL 抓取完整文章内容和封面图，返回 (content, cover_image_url)"""
     try:
         resp = requests.get(url, timeout=15, headers={
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
@@ -285,7 +308,9 @@ def fetch_full_article(url):
         if 'v2ex.com/t/' in url:
             content = extract_v2ex_content(resp.text)
             if content:
-                return content
+                return content, None
+
+        cover = extract_cover_image(resp.text)
 
         doc = Document(resp.text)
         content = doc.summary()
@@ -293,12 +318,12 @@ def fetch_full_article(url):
             # 确认有真正的文字内容，而不只是空的 HTML 标签壳子
             text = BeautifulSoup(content, 'html.parser').get_text(strip=True)
             if text:
-                return content
+                return content, cover
         print(f"  未提取到内容: {url}")
-        return None
+        return None, cover
     except Exception as e:
         print(f"  抓取出错 {url}: {e}")
-        return None
+        return None, None
 
 def extract_v2ex_content(html):
     """从 V2EX 帖子页面提取主帖和评论，生成干净的 HTML"""
@@ -474,6 +499,8 @@ def translate_feed(feed_config, cache):
         elif 'summary' in entry:
             content = entry.summary
 
+        cover_image = None
+
         # images_only 模式：正文只保留图片，去掉所有文字，跳过翻译
         if should_images_only:
             soup = BeautifulSoup(content, 'html.parser')
@@ -488,7 +515,7 @@ def translate_feed(feed_config, cache):
             # 如果配置了全文抓取，从原文 URL 获取完整内容
             if should_fetch_full and entry.get('link'):
                 print(f"  抓取全文: {entry['link']}")
-                full_content = fetch_full_article(entry['link'])
+                full_content, cover_image = fetch_full_article(entry['link'])
                 if full_content:
                     # 智能回退：如果抓回来的内容图片数比 RSS 自带的少，
                     # 说明原网页可能是 JS 渲染或被改版，readability 拿不全，
@@ -508,6 +535,18 @@ def translate_feed(feed_config, cache):
 
         # 翻译后清理 HTML（放在翻译之后，避免改变 hash 导致缓存失效）
         translated_content = clean_readability_html(translated_content)
+
+        # 把封面图（og:image）加到正文最前面：
+        # readability 提取正文时常漏掉 WordPress Featured Image 等 hero 图，这里补回来。
+        # 必须放在翻译之后，否则会改变内容 hash 导致缓存全部失效。
+        if cover_image:
+            cover_norm = normalize_image_basename(cover_image)
+            existing_norms = {
+                normalize_image_basename(img.get('src', ''))
+                for img in BeautifulSoup(translated_content, 'html.parser').find_all('img')
+            }
+            if cover_norm and cover_norm not in existing_norms:
+                translated_content = f'<figure><img src="{cover_image}" alt=""/></figure>\n' + translated_content
 
         # 修复图片防盗链问题
         translated_content = fix_image_tags(translated_content)
