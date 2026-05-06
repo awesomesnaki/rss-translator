@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 05 May 2026 07:39:42 +0000</lastBuildDate><item><title>[已恢复] 微软发布的Microsoft Defender更新错误将系统根证书检测为病毒</title><link>https://www.landiannews.com/archives/112841.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 06 May 2026 04:06:10 +0000</lastBuildDate><item><title>GPT-5.5 Instant现已发布 减少啰嗦和车轱辘话 为用户提供简洁准确的答复</title><link>https://www.landiannews.com/archives/112845.html</link><description>
+&lt;p&gt;#人工智能 GPT-5.5 Instant 现已发布，减少啰嗦和车轱辘话，为用户提供更加简洁和准确的答复。该模型在事实准确性方面有明显提升，虚假陈述比 5.3 减少 52.5%，在图像分析和 STEM 相关问题上的表现也非常好，现在该模型作为默认模型向所有 ChatGPT 用户提供，开发者也可以通过 API 调用。查看详情：https://ourl.co/112845&lt;/p&gt;&lt;p&gt;3 月份 OpenAI 发布 GPT-5.3 Instant 模型，该模型在回答问题时更加自然并减少拒绝回答的情况，现在 OpenAI 推出该模型的后续版本：GPT-5.5 Instant，这款新模型也将成为 ChatGPT 面向所有用户 (包括免费版) 的默认模型。&lt;/p&gt;
+&lt;p&gt;GPT-5.5 Instant 最大的改进是提升事实准确性，OpenAI 称，根据内部基准测试，GPT-5.5 Instant 在医学、法律和金融领域产生的虚假陈述比 GPT-5.3 Instant 减少 52.5%，而由于视觉推理、数学和科学能力的提升，该模型在图像分析和 STEM 相关问题上的表现也得到提高，例如在 GPQA 测试中，GPT-5.5 Instant 得分为 85.6%，在 AIME 2026 测试中，得分为 81.2%，在 MMMU-Pro 测试中，得分为 76%。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/112845.png" rel="nofollow"&gt;&lt;img alt="GPT-5.5 Instant现已发布 减少啰嗦和车轱辘话 为用户提供简洁准确的答复" data-src="https://img.lancdn.com/landian/2026/05/112845.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/112845.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;OpenAI 称 GPT-5.5 Instant 将提供更加准确、更智能和更简洁的回复，所以这应该也有助于减少 ChatGPT 在回答问题时的啰嗦和说车轱辘话，在简短的回复中就给出准确回答，避免用户需要长时间阅读和多次追问。&lt;/p&gt;
+&lt;p&gt;除了 GPT-5.5 Instant 外，OpenAI 还宣布 ChatGPT 所有模型都只支持记忆源，当 ChatGPT 个性化回复时，用户可以看到一些上下文信息，例如已经保存的记忆或者过往聊天记录等，用户也可以编辑和删除过时的记忆信息。&lt;/p&gt;
+&lt;p&gt;GPT-5.5 Instant 作为新模型面向 ChatGPT Free、Go、Plus、Pro 用户推出，在 API 版中以 chat-latest 形式提供，因此开发者也可以通过 API 调用这个新模型，与往常一样，所有 ChatGPT 付费用户仍然可以使用 GPT-5.3 Instant 三个月，之后该模型将被逐步下线。&lt;/p&gt;
+&lt;p&gt;改进后的个性化功能 (从过往聊天记录、文件和关联的 Gmail 中获取) 则将首先面向网页版的 ChatGPT Plus 和 ChatGPT Pro 用户提供，该功能很快将登陆 ChatGPT 移动端，未来几周则会扩展支持免费版、商业版和企业版客户。&lt;/p&gt;
+</description><pubDate>Wed, 06 May 2026 04:06:10 +0000</pubDate></item><item><title>因低级配置失误，德国顶级域名.de出现大范围中断，根源是DNSSEC签名错误</title><link>https://www.landiannews.com/archives/112844.html</link><description>
+&lt;p&gt;#域名资讯 因低级的配置失误，德国顶级域名 DE 在昨天夜里出现大范围访问中断，根源是轮换 DNSSEC 密钥时发布格式错误的签名导致 DNSSEC 无法正常解析。Cloudflare 监测到异常后立即禁用 1.1.1.1 针对 DE 域名的 DNSSEC 验证，不过其他 DNS 未禁用验证所以还是出现海量无法访问的情况。查看详情：https://ourl.co/112844&lt;/p&gt;&lt;p&gt;德国国别顶级域名 (ccTLD) 昨天夜里出现大范围长时间中断，此次中断似乎并非 DE 域名的根域名服务器故障，而是该域名采用的 DNSSEC 加密系统签名错误，由于签名本身出现错误随后导致整个 DE 域名空间都瘫痪。&lt;/p&gt;
+&lt;p&gt;专业人士经过分析后发现这属于 DENIC (负责管理该域名的机构) 低级配置失误，原因是 DENIC 在轮换 ZSK 密钥时发布格式错误的签名，ZSK 指的是空间签名密钥，这个密钥用于 DNSSEC 加密。&lt;/p&gt;
+&lt;p&gt;由于发布格式错误的签名，所有启用 DNSSEC 加密验证的递归解析器都会返回 SERVFAIL 错误，这导致海量.de 域名无法正常解析，例如电商网站亚马逊德国区 Amazon.de 就无法正常加载。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/112844.png" rel="nofollow"&gt;&lt;img alt="因低级配置失误，德国顶级域名.de出现大范围中断，根源是DNSSEC签名错误" data-src="https://img.lancdn.com/landian/2026/05/112844.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/112844.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;检测到异常后，负责运营 1.1.1.1 公共 DNS 服务器的 Cloudflare 立即关闭针对 DE 域名的 DNSSEC 验证，因此使用 1.1.1.1 和 1.0.0.1 的用户受到的影响不是特别大，但使用其他公共 DNS 服务器的用户可能就会遇到长时间无法访问的错误。&lt;/p&gt;
+&lt;p&gt;但 Cloudflare 的做法也引起质疑，即如果真遇到攻击时，这种紧急关闭验证的做法是否也会成为目标 (即利用攻击转移注意力，然后让主流公共 DNS 服务器提供商关闭 DNSSEC，这样黑客再进行其他劫持)。&lt;/p&gt;
+&lt;p&gt;DNSSEC 本来是为了防止 DNS 欺骗而增加的数字签名层，简单的配置失误就让 DE 域名直接离线，所以也有业内人士感慨互联网的故障转移能力在这里失效，DNSSEC 提升安全性的同时也增加了脆性。&lt;/p&gt;
+&lt;p&gt;另外负责这个问题的 DENIC 也发布公告承认所有启用 DNSSEC 签名的 DE 域名在可访问性方面受到影响，DENIC 称中断的根本原因还未完全确定，技术团队正在全力分析并尽快恢复稳定运行。&lt;/p&gt;
+&lt;p&gt;注：截至本文发布时，采用 DNSSEC 加密的 DE 域名已经陆续恢复访问，但因为不同域名设置的 TTL 生存时间不同，部分域名可能还需要等待全球 DNS 刷新过后才能访问。&lt;/p&gt;
+</description><pubDate>Wed, 06 May 2026 03:20:03 +0000</pubDate></item><item><title>安卓版Microsoft Teams即将支持SIP协议可以直接连接Zoom和思科WebEx等</title><link>https://www.landiannews.com/archives/112843.html</link><description>
+&lt;p&gt;#软件资讯 安卓版 Microsoft Teams 即将支持 SIP 会话发起协议，允许用户连接 Zoom 和 WebEx 等其他支持 SIP 的视频会议软件。目前 Windows 10/11 版的 Microsoft Teams 已经通过 Pexip 互操作协议支持 SIP/H.323，微软计划从 6 月开始为安卓版用户带来 SIP 协议以提供类似跨软件功能。查看详情：https://ourl.co/112843&lt;/p&gt;&lt;p&gt;视频会议 / 通话领域有个互操作性协议名为 SIP (会话发起协议)，该协议允许不同平台的视频会议软件相互连接，现在微软已经公布路线图宣布将为 Microsoft Teams for Android 带来 SIP 协议的支持。&lt;/p&gt;
+&lt;p&gt;当微软添加这项功能后，使用 Microsoft Teams for Android 的用户可以打开 SIP 视频会议地址链接，经过在线会议室管理员审核后即可参与视频通话，不过该功能本身需要 IT 管理员批准后才能使用，默认情况下微软不允许用户直接使用 SIP 协议。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/02/108122.png" rel="nofollow"&gt;&lt;img alt="安卓版Microsoft Teams即将支持SIP协议可以直接连接Zoom和思科WebEx等" data-src="https://img.lancdn.com/landian/2025/02/108122.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/02/108122.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;目前其他支持 SIP 协议的视频会议软件包括 Zoom 以及思科的 WebEx 等，因此后续使用不同会议软件的公司将可以通过 SIP 协议直接在线开会，省去下载安装注册其他软件花费的时间。&lt;/p&gt;
+&lt;p&gt;根据更新后的路线图时间表，微软将从 2026 年 6 月开始逐步向企业推出此功能，到 2026 年 8 月中旬开始所有 Microsoft Teams for Android 版的用户都可以使用，不过现阶段该功能不支持其他平台。&lt;/p&gt;
+&lt;p&gt;另外微软还特别提到要使用 SIP 协议，企业或组织必须开通 Microsoft Teams Rooms Pro 许可证，当然如果企业只是低频次使用不想付费的话，也可以使用当前安卓版中基于嵌入式网页的 SIP 使用体验，基于网页的 SIP 也可以连接其他平台，SIP 协议可以弥补嵌入式网页版体验方面的不足。&lt;/p&gt;
+&lt;p&gt;Windows 10/11 版 Microsoft Teams Rooms 已经支持名为 Pexip 的云视频互操作协议，该协议也可以用于 SIP/H.323 协议，所以通过 PC 版进行跨软件视频会议可能会更方便。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://www.microsoft.com/en/microsoft-365/roadmap?filters=&amp;amp;searchterms=558539" rel="noopener" target="_blank"&gt;Microsoft 365&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 06 May 2026 03:00:01 +0000</pubDate></item><item><title>安全研究员发现Edge会将密码明文加载到内存中 微软称并非漏洞而是设计如此</title><link>https://www.landiannews.com/archives/112842.html</link><description>
+&lt;p&gt;#安全资讯 研究人员发现 Microsoft Edge 会将用户已经保存的账号密码以明文形式放到内存中，即便在用户没有填充密码时也会直接暴露到内存中。研究人员向微软通报漏洞后，微软称这是有意为之所以不是漏洞，因此研究人员直接公开漏洞并发布概念验证工具。查看详情：https://ourl.co/112842&lt;/p&gt;&lt;p&gt;安全研究员 &lt;a href="https://x.com/L1v1ng0ffTh3L4N/status/2051308329880719730" rel="noopener" target="_blank"&gt;Tom&lt;/a&gt; 在微软的 Microsoft Edge 浏览器中发现缺陷，研究显示微软会在浏览器启动时将所有已经保存的账户密码以明文形式加载到系统内存中，无论这些账户密码是否被使用都会加载到内存中。&lt;/p&gt;
+&lt;p&gt;具体来说 Microsoft Edge 浏览器的父进程会始终保存着解密的凭据，因此如果攻击者拥有足够高的系统权限，就可以通过这个进程窃取凭据，这种利用方式本身不构成远程攻击，但攻击者仍然可以通过某些方式窃取用户已经保存的账号密码。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/112842.png" rel="nofollow"&gt;&lt;img alt="安全研究员发现Edge会将密码明文加载到内存中 微软称并非漏洞而是设计如此" data-src="https://img.lancdn.com/landian/2026/05/112842.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/112842.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;正常情况来说此类情况可能会被视为安全设计缺陷，所以研究人员负责任地将漏洞通报给微软，不过微软将这项设计归类为有意为之，所以微软并不认为这是漏洞，既然不是漏洞自然也不会给研究人员提供漏洞研究奖金。&lt;/p&gt;
+&lt;p&gt;现在研究人员将漏洞以及概念验证工具都公开发布展示 Microsoft Edge 如何处理用户已经保存的密码，研究人员仍然认为微软的这项设计属于安全缺陷，因为其他类似浏览器并没有相同的问题。&lt;/p&gt;
+&lt;p&gt;研究人员对谷歌浏览器进行类似的分析发现谷歌并不会将明文凭据放到内存中，同样基于 Chromium 的 Brave 浏览器通常在用户需要填充时才会解密数据，因此也不会将数据直接存储到内存中，所以相同的攻击方式对 Chrome 和 Brave 等是无效的。&lt;/p&gt;
+&lt;p&gt;那这种攻击实际会影响哪些用户呢？如果在 Windows 10/11 上运行着多个账户，则其中拥有管理员权限的账户可能可以利用这项设计获取其他账户已经保存在 Microsoft Edge 中的凭据，所以对于登录共享设备的用户来说，最好在用完 PC 后立即从 Microsoft Edge 中登出自己的账户。&lt;/p&gt;
+&lt;p&gt;仅供学习和研究使用，你可以使用这个小工具在自己设备上提取账户密码试试：&lt;a href="https://github.com/L1v1ng0ffTh3L4N/EdgeSavedPasswordsDumper" rel="noopener" target="_blank"&gt;https://github.com/L1v1ng0ffTh3L4N/EdgeSavedPasswordsDumper&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 06 May 2026 02:41:45 +0000</pubDate></item><item><title>[已恢复] 微软发布的Microsoft Defender更新错误将系统根证书检测为病毒</title><link>https://www.landiannews.com/archives/112841.html</link><description>
 &lt;p&gt;#系统资讯 [已恢复] 微软发布的 Microsoft Defender 安全更新错误将系统根证书检测为病毒，导致大量用户收到检测到恶意软件的提醒。被拦截的证书是 DigiCert 的根证书，本来微软应该拦截被盗的泄露证书，但不知道怎样的操作能将签发数百万份证书的 DC 根证书给拦截了。查看详情：https://ourl.co/112841&lt;/p&gt;&lt;p&gt;&lt;strong&gt;阅读提醒：&lt;/strong&gt; &lt;br/&gt;此问题发生在 2026 年 5 月 1 日，在本文发布时微软已经重新发布病毒库定义更新修复该问题，用户不会再因为启用 Microsoft Defender 而看到检测到病毒提示。&lt;/p&gt;
 &lt;p&gt;2026 年 4 月 2 日，全球知名数字签名颁发机构 DigiCert 遭到攻击黑客攻击，黑客针对客户支持团队进行钓鱼成功窃取 60 份企业级代码签名证书 (EV)，随后该机构排查安全风险并将被窃取的代码签名证书全部吊销，这些代码签名证书已经生成但尚未交付，因此并未对下游软件开发商造成大规模影响。&lt;/p&gt;
 &lt;p&gt;但被盗用的代码签名证书已经被黑客用于签署恶意软件，安全业界检测到威胁后通过协作互相通报此次安全事件，包括微软在内的反病毒软件开发商均发布病毒库更新用于查杀包含这些代码签名证书的文件。&lt;/p&gt;
@@ -11,58 +47,4 @@
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;在收到大量 IT 管理员报告后微软承认拦截相关根证书纯属误报，微软随后发布安全智能更新 1.449.430.0+ 版中修复问题，只要 Microsoft Defender 接收该版本及后续更新后就可以自动解除拦截。&lt;/p&gt;
 &lt;p&gt;微软表示：在收到证书被盗用的报告后，微软立即在 Microsoft Defender 防病毒软件中添加恶意软件检测功能以帮助保护客户，但我们确定相关的误警报是被错误触发的，我们已经更新警报逻辑。新的安全智能更新会自动撤销操作所以受影响的用户不需要执行任何额外操作，相关设备出现警告也会自动消失。&lt;/p&gt;
-</description><pubDate>Tue, 05 May 2026 07:39:42 +0000</pubDate></item><item><title>金士顿面向数据中心推出30.72TB的U.2固态硬盘 顺序读取速度可达14,000MB/s</title><link>https://www.landiannews.com/archives/112840.html</link><description>
-&lt;p&gt;#硬件设备 等大船货？金士顿面向 AI 数据中心推出 DC3000ME 固态硬盘，容量最高 30.72TB，采用 PCIe 5.0+U.2 NVMe，顺序读取速度可达 14,000MB / 秒。闪存芯片方面，DC3000ME 采用 3D eTLC NAND，这种闪存颗粒通常用于读取密集型和混合工作负载环境下，可以提高成本效益。查看详情：https://ourl.co/112840&lt;/p&gt;&lt;p&gt;存储设备制造商金士顿 (Kingston) 日前面向数据中心客户推出新款固态硬盘产品，这款固态硬盘名称为 DC3000ME Gen 5.0 U.2 NVMe SSD，采用 PCIe 5.0 协议和 U.2 尺寸，可以在现有的数据中心服务器里直接替换。&lt;/p&gt;
-&lt;p&gt;DC3000ME 采用 PCIe 5.0 协议因此可以提供最高 14,000MB/s 的顺序读取速度，随机 IOPS 高达 2800K，最高容量为 30.72TB，向下兼容 PCIe 4.0 平台，具备板载断电保护功能、支持 AES-256 加密、支持 TCG Opal 2.0 加密等。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112840.png" rel="nofollow"&gt;&lt;img alt="金士顿面向数据中心推出30.72TB的U.2固态硬盘 顺序读取速度可达14,000MB/s" data-src="https://img.lancdn.com/landian/2026/04/112840.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112840.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;当然这款固态硬盘说到底还是为 AI 数据中心准备的，AI 数据中心追求更高的读写速度存储数据，同时也追求更大的容量来容纳模型运行产生的海量数据，因此 DC3000ME 这类产品对于 AI 训练集群和推理存储来说非常重要。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;金士顿数据中心固态硬盘业务经理表示：&lt;/strong&gt;随着人工智能、高性能计算和云环境的不断扩展，客户希望在不牺牲性能或可靠性的前提下，最大限度地提高存储密度，容量高达 30.72TB 的 DC3000ME 固态硬盘可以满足客户的需求。&lt;/p&gt;
-&lt;p&gt;闪存芯片方面，DC3000ME 采用 3D eTLC NAND 颗粒，这种闪存颗粒通常用于读取密集型和混合工作负载环境下，可以提高成本效益，而意外断电保护则可以在意外关机或系统异常时保存传输中的数据。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;产品名称：DC3000ME Gen 5.0 U.2 NVMe SSD&lt;/li&gt;
-&lt;li&gt;硬盘容量：3.84TB、7.68TB、15.36TB、30.72TB&lt;/li&gt;
-&lt;li&gt;产品定位：适用于企业应用的数据中心级固态硬盘&lt;/li&gt;
-&lt;li&gt;接口协议：PCIe 5.0 x4 / U.2 NVMe&lt;/li&gt;
-&lt;li&gt;读取速度：顺序读取速度最高 14,000MB / 秒 (30.72TB 版)&lt;/li&gt;
-&lt;li&gt;写入速度：顺序写入速度最高 9,700MB / 秒 (30.72TB 版)&lt;/li&gt;
-&lt;li&gt;随机读取：随机读取性能最高 2,800K IOPS (30.72TB 版)&lt;/li&gt;
-&lt;li&gt;随机写入：随机写入性能最高 350K IOPS (30.72TB 版)&lt;/li&gt;
-&lt;li&gt;外形尺寸：U.2 外形 尺寸为 100.5 x 69.8 x 14.8 毫米&lt;/li&gt;
-&lt;li&gt;产品售后：提供 5 年有限保修&lt;/li&gt;
-&lt;li&gt;产品价格：此类产品通常不公开售价，按照采购量进行议价&lt;/li&gt;
-&lt;/ul&gt;
-</description><pubDate>Tue, 28 Apr 2026 08:01:08 +0000</pubDate></item><item><title>本周份的福利：Codex再次重置当周使用配额 各位可以尽情使用</title><link>https://www.landiannews.com/archives/112839.html</link><description>
-&lt;p&gt;#人工智能 本周份的福利！Codex 再次重置本周额度，各位可以尽情使用 GPT-5.5 等模型。上周 Codex 连续两次重置导致使用率较低的用户血亏，之后已经有 6~7 天没有重置，所以今天的重置应该可以让不少开发者回血，本次重置也依然仅限于付费用户。查看详情：https://ourl.co/112839&lt;/p&gt;&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112839.png" rel="nofollow"&gt;&lt;img alt="本周份的福利：Codex再次重置当周使用配额 各位可以尽情使用" data-src="https://img.lancdn.com/landian/2026/04/112839.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112839.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.landiannews.com/archives/112752.html" rel="noopener" target="_blank"&gt;Codex 团队在 4 月 21 日和 4 月 22 日连续重置当周使用配额让很多开发者开心得起飞&lt;/a&gt;，不过由于是连续重置所以不少开发者额度并未用尽，在只使用小部分配额的情况下被重置着实是血亏，之后 Codex 团队没有再进行配额重置。&lt;/p&gt;
-&lt;p&gt;现在 (4 月 28 日) Codex 团队再次重置本周额度，本次重置并没有什么特别的理由，Codex 没有发生任何故障，可能就是通过重置额度吸引更多开发者使用吧，大家可以尽情使用 GPT-5.5 模型完成各种项目。&lt;/p&gt;
-&lt;p&gt;此次重置依然是仅限于所有付费用户，因此 ChatGPT 免费版额度是没有被重置的，免费版额度本身非常少完全不耐用，所以用户如果想要敞开用至少也得开通 20 美元的 ChatGPT Plus 订阅，对于轻度使用配额完全是够用的。&lt;/p&gt;
-&lt;p&gt;如果开发者日常使用 Codex 频率极高且进行复杂任务，则需要考虑开通 ChatGPT Pro 5x 或 20x 订阅，这些订阅提供更高的配额，配合 OpenAI 经常重置配额，整体使用成本应该要比 Claude Max 等订阅要划算。&lt;/p&gt;
-&lt;p&gt;目前 Codex 默认使用 GPT-5.5 模型，该模型智能程度较 GPT-5.4 更高，所以 API 价格也是翻倍上涨 (但实际消耗量会下降)，在开通订阅的情况下在 Codex 中使用 GPT-5.5 消耗订阅内配额，所以也可能比通过 API 调用要便宜。&lt;/p&gt;
-</description><pubDate>Tue, 28 Apr 2026 07:25:55 +0000</pubDate></item><item><title>ICU域名疑似遭到DNS污染 无论域名是否注册都被解析到异常IP</title><link>https://www.landiannews.com/archives/112838.html</link><description>
-&lt;p&gt;#域名资讯 ICU 域名疑似遭到 DNS 污染，无论域名是否注册都无法正常访问，域名被解析到 Facebook、Twitter、NTT 等无关的 IP 地址。这种情况有着比较典型的 DNS 污染特征，所以使用 ICU 域名开发者可能还需要耐心等待解析系统恢复。查看详情：https://ourl.co/112838&lt;/p&gt;&lt;p&gt;4 月 26 日下午消息，小众域名 ICU 疑似在国内出现访问故障，目前诸多 ICU 域名 (无论是否已经注册) 均被解析到无关的 IP 地址，这些 IP 地址多数与 Facebook、Twitter 或 NTT 等有关，具有比较典型的 DNS 污染特征。&lt;/p&gt;
-&lt;p&gt;ICU 域名本身的注册基础设施和 DNS 系统没有任何异常，所以这次故障仅影响国内用户的正常访问，全球其他地区访问都是正常的，例如使用 1.1.1.1 可以正常解析到域名持有者设置的 IP 地址。&lt;/p&gt;
-&lt;p&gt;由于是 DNS 污染，这导致哪怕是没有注册的 ICU 域名也会出现异常，例如 test123ssdlh.icu 这种尚未被注册的域名，进行检测是也同样会被解析到异常 IP 地址，目前使用 ICU 域名的开发者可能还需要耐心等待解析系统恢复。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112838-1.png" rel="nofollow"&gt;&lt;img alt="ICU域名疑似遭到DNS污染 无论域名是否注册都被解析到异常IP" data-src="https://img.lancdn.com/landian/2026/04/112838-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112838-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112838-2.png" rel="nofollow"&gt;&lt;img alt="ICU域名疑似遭到DNS污染 无论域名是否注册都被解析到异常IP" data-src="https://img.lancdn.com/landian/2026/04/112838-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112838-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 28 Apr 2026 07:06:15 +0000</pubDate></item><item><title>Copilot从6月1日开始转为按量计费 根本原因是GitHub难以承受不断飙涨的成本</title><link>https://www.landiannews.com/archives/112837.html</link><description>
-&lt;p&gt;#人工智能 GitHub Copilot 从 6 月 1 日起转向按量计费模式，根本原因是 GitHub 已经无法继续承担不断飙涨的成本。后续 Copilot 订阅套餐将获得订阅费用等额的信用点，每个任务按照 tokens 数量 (输入 / 输出 / 缓存) 和模型 (包括不同倍率) 进行计算，然后扣除信用点，不够用则需要额外加钱购买。查看详情：https://ourl.co/112837&lt;/p&gt;&lt;p&gt;代码托管平台 GitHub 日前发布公告和通过邮件通知所有订阅用户，从 2026 年 6 月 1 日开始 GitHub Copilot 将过渡到按量计费，后续每个订阅套餐都将获得与订阅费用相同的信用点，开发者也可以额外购买信用点获得更高的使用量和按照不同的模型费率进行计费。&lt;/p&gt;
-&lt;p&gt;为帮助开发者们做好准备，GitHub 将在 5 月初推出账单预览功能，让开发者和 IT 管理员可以在 6 月 1 日正式启用新计费系统前了解预计费用，这样开发者可以规划用量以及决定是否开通何种订阅套餐和是否要额外购买信用点。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/03/112349.png" rel="nofollow"&gt;&lt;img alt="Copilot从6月1日开始转为按量计费 根本原因是GitHub难以承受不断飙涨的成本" data-src="https://img.lancdn.com/landian/2026/03/112349.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/03/112349.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; 根本原因是 GitHub 难以承受不断飙涨的成本：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在官方博客中 GitHub 表示，现在 Copilot 已经发展成为智能体平台，可以运行长时间的多步骤编码任务、使用最新模型、遍历整个代码库，智能体的使用也逐渐成为默认模式，这也带来更高的计算和推理需求。&lt;/p&gt;
-&lt;p&gt;用户花费在快速聊天提问和数小时自主编程上的费用可能相同，GitHub 已经承担大部分不断上涨的推理成本，但目前的付费请求模式已经难以为继，按照使用量计费可以解决这个问题，新模式可以更好地让价格与实际使用量挂钩，帮助 GitHub 维持长期服务的可靠性。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;每种订阅套餐将获得与订阅费用相同的 AI 信用点，实际使用量将根据 tokens 消耗量计算，包括输入、输出、缓存的 tokens，这些请求会被综合为消耗部分 AI 信用点，不同模型消耗的信用点也是不同的。&lt;/p&gt;
-&lt;p&gt;这意味着开发者使用先进模型且执行长时间的连续编程任务则会消耗更多的 tokens，也就是最终会消耗更多的信用点，如果信用点不足将无法继续使用，只能额外充值购买更多的信用点才可以继续使用。&lt;/p&gt;
-&lt;p&gt;模型倍率等已经在 GitHub 支持文档中公布，例如 Claude Opus 4.7 的当前倍率为 7.5x，这些倍率会根据 API 价格进行调整，所以 GitHub 也会定期调整倍率。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;个人版 Copilot Pro：每月 10 美元，包含每月 10 美元的 AI 信用点&lt;/li&gt;
-&lt;li&gt;个人版 Copilot Pro+：每月 39 美元，包含每月 39 美元的 AI 信用点&lt;/li&gt;
-&lt;li&gt;企业版 Copilot Business：每用户每月 19 美元，包含每月 19 美元的 AI 信用点，配额可在组织内部共享&lt;/li&gt;
-&lt;li&gt;企业版 Copilot Enterprise：每用户每月 70 美元，包含每月 70 美元的 AI 信用点，配额可在组织内部共享&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;关于配额共享：仅限企业订阅用户，用户配额会被放在大池子中，每名用户未使用的套餐剩余信用点可以在整个企业内部共享以减少限制和浪费。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/" rel="noopener" target="_blank"&gt;GitHub&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 28 Apr 2026 03:38:15 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 05 May 2026 07:39:42 +0000</pubDate></item></channel></rss>
