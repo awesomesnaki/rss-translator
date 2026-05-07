@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 07 May 2026 04:16:31 +0000</lastBuildDate><item><title>老牌虚拟光驱软件DAEMON Tools自4月8日就被攻击 官网提供的版本携带后门</title><link>https://www.landiannews.com/archives/112871.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 07 May 2026 13:10:26 +0000</lastBuildDate><item><title>谷歌回应Chrome自动下载4GB的本地AI模型 称用户可以在设置中关闭</title><link>https://www.landiannews.com/archives/112872.html</link><description>
+&lt;p&gt;#软件资讯 谷歌发文回应谷歌浏览器自动下载约 4GB 的模型权重文件，谷歌称该模型用于在本地处理部分功能例如网页摘要和安全检测，用户可以自主禁用。正常情况下用户可以转到浏览器设置、系统、设备端 AI 禁用此功能，禁用后就会删除模型，但有时候用户可能压根找不到这个选项。查看详情：https://ourl.co/112872&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landiannews.com/archives/112538.html" rel="noopener" target="_blank"&gt;前段时间蓝点网检查本地磁盘存储时注意到谷歌浏览器会下载约 4GB 的模型权重文件&lt;/a&gt;，蓝点网安装谷歌浏览器正式版、测试版和金丝雀版，而每个版本都会下载模型权重文件，因此实际造成系统盘空间被占用 12GB 左右，但蓝点网并未使用过相关的 AI 功能。&lt;/p&gt;
+&lt;p&gt;本周国外科技网站也注意到这种情况并发文称谷歌浏览器未经用户同意反复下载这些模型权重文件，即用户哪怕找到文件将其删除，后续谷歌浏览器也会自动重新下载文件，相关报道引起诸多讨论，所以现在谷歌也发文回应这件事。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112538-3.png" rel="nofollow"&gt;&lt;img alt="谷歌回应Chrome自动下载4GB的本地AI模型 称用户可以在设置中关闭" data-data-src="https://img.lancdn.com/landian/2026/04/112538-3.png" data-src="https://img.lancdn.com/landian/2026/04/112538-3.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112538-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112538-1.png" rel="nofollow"&gt;&lt;img alt="谷歌回应Chrome自动下载4GB的本地AI模型 称用户可以在设置中关闭" data-data-src="https://img.lancdn.com/landian/2026/04/112538-1.png" data-src="https://img.lancdn.com/landian/2026/04/112538-1.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112538-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;谷歌官方发言人表示，自 2024 年以来，谷歌推出适用于谷歌浏览器的 Google Gemini Nano，该模型适合在本地进行部署。模型可以支持重要的安全功能例如欺诈检测和开发者 API，通过本地模型处理数据不需要将数据发送到云端。&lt;/p&gt;
+&lt;p&gt;模型权重文件确实会占用本地空间，但如果设备资源不足的话，谷歌浏览器会自动删除模型以节省空间。功能方面，目前模型可以用来在本地进行网页摘要、帮助用户撰写或更改文本、整理标签页以及提醒用户注意网络欺诈等。&lt;/p&gt;
+&lt;p&gt;需要注意的是某些 AI 功能并不依赖于设备本地上的模型，因此即使用户删除本地模型，某些功能也依然可以继续使用 (这些功能会将数据发送到云端由 Google Gemini 模型处理并返回到本地)。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;按照谷歌的想法本地 AI 模型功能本来就是允许用户自主启用的，默认情况下谷歌会开启功能并下载模型权重文件，用户可以在谷歌浏览器设置、系统、设备端 AI 里进行禁用，禁用后谷歌浏览器便会自动删除已经下载的 AI 模型且不再自动下载。&lt;/p&gt;
+&lt;p&gt;不过如果是这样的话可能还不会引起用户疑惑，因为有时候用户在系统选项里看不到设备端 AI，即便如此模型权重文件也依然会被自动下载，或许谷歌应该检查这方面的问题，否则用户看不到选项，分析磁盘空间时找到权重文件就可能引起不必要的误会。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;#Windows 10/11：
+C:\Users\{你的用户名}\AppData\Local\Google\Chrome\User Data\OptGuideOnDeviceModel\2025.8.21.1028\weights.bin
+#macOS：
+/Users/{你的用户名}/Library/Application Support/Google/Chrome/OptGuideOnDeviceModel/2025.8.8.1141/weights.bin
+/Users/{你的用户名}/Library/Application Support/Google/Chrome Canary/OptGuideOnDeviceModel/2025.8.8.1141/weights.bin&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;👇🏻下图为蓝点网安装的谷歌浏览器正式版，可以看到设备端 AI&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/112872-1.png" rel="nofollow"&gt;&lt;img alt="谷歌回应Chrome自动下载4GB的本地AI模型 称用户可以在设置中关闭" data-src="https://img.lancdn.com/landian/2026/05/112872-1.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/112872-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;👇🏻下图为蓝点网安装的谷歌浏览器金丝雀版，完全看不到设备端 AI，但也下载了权重文件&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/112872-2.png" rel="nofollow"&gt;&lt;img alt="谷歌回应Chrome自动下载4GB的本地AI模型 称用户可以在设置中关闭" data-src="https://img.lancdn.com/landian/2026/05/112872-2.png" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/112872-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Thu, 07 May 2026 13:10:26 +0000</pubDate></item><item><title>老牌虚拟光驱软件DAEMON Tools自4月8日就被攻击 官网提供的版本携带后门</title><link>https://www.landiannews.com/archives/112871.html</link><description>
 &lt;p&gt;#安全资讯 老牌虚拟光驱软件 DAEMON Tools 自 4 月 8 日起就遭到感染，官网提供的带有数字签名的版本均携带后门。如果你曾在 4 月 8 日起安装或更新该软件，最好安装卡巴斯基免费版进行扫描，另外切勿从第三方下载站或破解站获取该软件，这些网站发布的版本有滞后性，可能还是带毒版本。查看详情：https://ourl.co/112871&lt;/p&gt;&lt;p&gt;卡巴斯基实验室日前发布安全报告揭露老牌虚拟光驱软件 DAEMON Tools 出现的重大安全问题，该软件官方网站早在 2026 年 4 月 8 日就已经被黑客劫持，随后黑客通过官网向全球 100 多个国家或地区的用户投放携带后门的版本，并且这些后门版本还具有开发商 AVB 的数字签名，这说明该公司内部基础设施可能也遭到攻击。&lt;/p&gt;
 &lt;p&gt;从四月初开始卡巴斯基通过遥测数据观察到数千起涉及 DAEMON Tools 的感染尝试，不过在被感染的这些设备里，仅有少量设备被部署后续阶段的有效载荷，而接收后续载荷的机器属于零售、科研、政府和制造行业，这表明此次供应链攻击具有针对性。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/112871.png" rel="nofollow"&gt;&lt;img alt="老牌虚拟光驱软件DAEMON Tools自4月8日就被攻击 官网提供的版本携带后门" data-src="https://img.lancdn.com/landian/2026/05/112871.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/112871.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -38,14 +61,4 @@
 &lt;p&gt;除了 GPT-5.5 Instant 外，OpenAI 还宣布 ChatGPT 所有模型都只支持记忆源，当 ChatGPT 个性化回复时，用户可以看到一些上下文信息，例如已经保存的记忆或者过往聊天记录等，用户也可以编辑和删除过时的记忆信息。&lt;/p&gt;
 &lt;p&gt;GPT-5.5 Instant 作为新模型面向 ChatGPT Free、Go、Plus、Pro 用户推出，在 API 版中以 chat-latest 形式提供，因此开发者也可以通过 API 调用这个新模型，与往常一样，所有 ChatGPT 付费用户仍然可以使用 GPT-5.3 Instant 三个月，之后该模型将被逐步下线。&lt;/p&gt;
 &lt;p&gt;改进后的个性化功能 (从过往聊天记录、文件和关联的 Gmail 中获取) 则将首先面向网页版的 ChatGPT Plus 和 ChatGPT Pro 用户提供，该功能很快将登陆 ChatGPT 移动端，未来几周则会扩展支持免费版、商业版和企业版客户。&lt;/p&gt;
-</description><pubDate>Wed, 06 May 2026 04:06:10 +0000</pubDate></item><item><title>因低级配置失误，德国顶级域名.de出现大范围中断，根源是DNSSEC签名错误</title><link>https://www.landiannews.com/archives/112844.html</link><description>
-&lt;p&gt;#域名资讯 因低级的配置失误，德国顶级域名 DE 在昨天夜里出现大范围访问中断，根源是轮换 DNSSEC 密钥时发布格式错误的签名导致 DNSSEC 无法正常解析。Cloudflare 监测到异常后立即禁用 1.1.1.1 针对 DE 域名的 DNSSEC 验证，不过其他 DNS 未禁用验证所以还是出现海量无法访问的情况。查看详情：https://ourl.co/112844&lt;/p&gt;&lt;p&gt;德国国别顶级域名 (ccTLD) 昨天夜里出现大范围长时间中断，此次中断似乎并非 DE 域名的根域名服务器故障，而是该域名采用的 DNSSEC 加密系统签名错误，由于签名本身出现错误随后导致整个 DE 域名空间都瘫痪。&lt;/p&gt;
-&lt;p&gt;专业人士经过分析后发现这属于 DENIC (负责管理该域名的机构) 低级配置失误，原因是 DENIC 在轮换 ZSK 密钥时发布格式错误的签名，ZSK 指的是空间签名密钥，这个密钥用于 DNSSEC 加密。&lt;/p&gt;
-&lt;p&gt;由于发布格式错误的签名，所有启用 DNSSEC 加密验证的递归解析器都会返回 SERVFAIL 错误，这导致海量.de 域名无法正常解析，例如电商网站亚马逊德国区 Amazon.de 就无法正常加载。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/112844.png" rel="nofollow"&gt;&lt;img alt="因低级配置失误，德国顶级域名.de出现大范围中断，根源是DNSSEC签名错误" data-src="https://img.lancdn.com/landian/2026/05/112844.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/112844.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;检测到异常后，负责运营 1.1.1.1 公共 DNS 服务器的 Cloudflare 立即关闭针对 DE 域名的 DNSSEC 验证，因此使用 1.1.1.1 和 1.0.0.1 的用户受到的影响不是特别大，但使用其他公共 DNS 服务器的用户可能就会遇到长时间无法访问的错误。&lt;/p&gt;
-&lt;p&gt;但 Cloudflare 的做法也引起质疑，即如果真遇到攻击时，这种紧急关闭验证的做法是否也会成为目标 (即利用攻击转移注意力，然后让主流公共 DNS 服务器提供商关闭 DNSSEC，这样黑客再进行其他劫持)。&lt;/p&gt;
-&lt;p&gt;DNSSEC 本来是为了防止 DNS 欺骗而增加的数字签名层，简单的配置失误就让 DE 域名直接离线，所以也有业内人士感慨互联网的故障转移能力在这里失效，DNSSEC 提升安全性的同时也增加了脆性。&lt;/p&gt;
-&lt;p&gt;另外负责这个问题的 DENIC 也发布公告承认所有启用 DNSSEC 签名的 DE 域名在可访问性方面受到影响，DENIC 称中断的根本原因还未完全确定，技术团队正在全力分析并尽快恢复稳定运行。&lt;/p&gt;
-&lt;p&gt;注：截至本文发布时，采用 DNSSEC 加密的 DE 域名已经陆续恢复访问，但因为不同域名设置的 TTL 生存时间不同，部分域名可能还需要等待全球 DNS 刷新过后才能访问。&lt;/p&gt;
-</description><pubDate>Wed, 06 May 2026 03:20:03 +0000</pubDate></item></channel></rss>
+</description><pubDate>Wed, 06 May 2026 04:06:10 +0000</pubDate></item></channel></rss>
