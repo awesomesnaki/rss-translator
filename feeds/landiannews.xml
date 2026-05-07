@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 06 May 2026 04:06:10 +0000</lastBuildDate><item><title>GPT-5.5 Instant现已发布 减少啰嗦和车轱辘话 为用户提供简洁准确的答复</title><link>https://www.landiannews.com/archives/112845.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 07 May 2026 04:16:31 +0000</lastBuildDate><item><title>老牌虚拟光驱软件DAEMON Tools自4月8日就被攻击 官网提供的版本携带后门</title><link>https://www.landiannews.com/archives/112871.html</link><description>
+&lt;p&gt;#安全资讯 老牌虚拟光驱软件 DAEMON Tools 自 4 月 8 日起就遭到感染，官网提供的带有数字签名的版本均携带后门。如果你曾在 4 月 8 日起安装或更新该软件，最好安装卡巴斯基免费版进行扫描，另外切勿从第三方下载站或破解站获取该软件，这些网站发布的版本有滞后性，可能还是带毒版本。查看详情：https://ourl.co/112871&lt;/p&gt;&lt;p&gt;卡巴斯基实验室日前发布安全报告揭露老牌虚拟光驱软件 DAEMON Tools 出现的重大安全问题，该软件官方网站早在 2026 年 4 月 8 日就已经被黑客劫持，随后黑客通过官网向全球 100 多个国家或地区的用户投放携带后门的版本，并且这些后门版本还具有开发商 AVB 的数字签名，这说明该公司内部基础设施可能也遭到攻击。&lt;/p&gt;
+&lt;p&gt;从四月初开始卡巴斯基通过遥测数据观察到数千起涉及 DAEMON Tools 的感染尝试，不过在被感染的这些设备里，仅有少量设备被部署后续阶段的有效载荷，而接收后续载荷的机器属于零售、科研、政府和制造行业，这表明此次供应链攻击具有针对性。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/112871.png" rel="nofollow"&gt;&lt;img alt="老牌虚拟光驱软件DAEMON Tools自4月8日就被攻击 官网提供的版本携带后门" data-src="https://img.lancdn.com/landian/2026/05/112871.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/112871.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在接到卡巴斯基分享的安全情报后，开发商 AVB Disc Soft 公司立即进行分析并确认感染属实，被感染的版本包括 12.5.0.2421~12.5.0.2434 等版本，随后 AVB 公司发布 12.6.0.2445 版进行替换，该版本已经清除后门程序可以放心升级使用。&lt;/p&gt;
+&lt;p&gt;至于数字签名问题目前没有详细的说明，卡巴斯基既然发现带毒版本也携带合法的数字签名，那说明 AVB 的代码签名证书也已经泄露，比较直接的解决方案就是直接吊销旧证书，这样包括 Microsoft Defender 在内的反病毒软件也可以检测到异常并进行拦截。&lt;/p&gt;
+&lt;p&gt;不过蓝点网下载新版本进行验证发现代码签名仍然是 2024 年的版本，说明证书还未进行替换，不知道 AVB 后续是否有计划继续发布新版本更换新证书，然后再将旧版代码签名证书彻底吊销。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;比较简单的办法就是直接安装卡巴斯基免费版，卡巴斯基已经更新拦截机制可以检测网络流量中出现的恶意活动，因此受感染的版本尝试连接到 C2 服务器时就会被检测到，用户可以安装卡巴斯基免费版后启动 DAEMON Tools 观察是否有异常警告。&lt;/p&gt;
+&lt;p&gt;如果已经确认被感染，建议使用安全软件进行查杀，必要时甚至可以备份数据后直接重装系统以提升安全性，而对于企业或政府机构来说，如果检测到异常则也应该检查内网其他设备是否有异常流量，因为黑客可能利用被感染设备作为跳板感染更多设备。&lt;/p&gt;
+&lt;p&gt;C2 服务器域名：daemontools[.]cc&lt;/p&gt;
+&lt;p&gt;IP 地址：38.180.107.76&lt;/p&gt;
+</description><pubDate>Thu, 07 May 2026 04:16:31 +0000</pubDate></item><item><title>微软宣布Windows月活跃用户突破16亿 必应搜索月活跃用户突破10亿</title><link>https://www.landiannews.com/archives/112847.html</link><description>
+&lt;p&gt;#行业资讯 微软宣布 Windows 月活跃用户突破 16 亿，必应搜索月活跃用户突破 10 亿整数关口。微软重申该公司已经重新关注 Windows 系统，并且因为内存价格太高的问题，微软将确保 Windows 11 能够在内存较少的设备上流畅运行。查看详情：https://ourl.co/112847&lt;/p&gt;&lt;p&gt;近期微软发布财报并公布部分产品的数据，微软首席执行官萨蒂亚纳德拉再次确认微软已经重新关注 Windows 系统，因此微软将继续重点提高 Microsoft Edge 浏览器和必应搜索等核心产品的参与度。&lt;/p&gt;
+&lt;p&gt;萨蒂亚纳德拉表示，微软将专注于 Windows 系统的基本功能以赢回用户，如此来说微软其实应该从内部数据中知道很多用户不满 Windows 11，退回到 Windows 10 或转投其他操作系统，&lt;a href="https://www.landiannews.com/archives/112704.html" rel="noopener" target="_blank"&gt;这或许也是早前微软发布博客宣布对 Windows 11 相关功能和体验进行重大调整的原因&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/03/112279.png" rel="nofollow"&gt;&lt;img alt="微软宣布Windows月活跃用户突破16亿 必应搜索月活跃用户突破10亿" data-src="https://img.lancdn.com/landian/2026/03/112279.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/03/112279.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;据微软公布的数据，当前 Windows 月活跃用户已经突破 16 亿，而必应搜索的月活跃用户则是突破 10 亿，必应搜索的增长率非常高，这显然和微软在 Windows 11 中捆绑必应搜索有关，因此从这方面来说微软继续利用各种方式吸引用户使用 Microsoft Edge 浏览器的决心也不会发生改变。&lt;/p&gt;
+&lt;p&gt;但值得注意的是，Windows 月活跃用户不等于 Windows 11 月活跃用户，微软在 2018 年公布的数据显示，约有 15 亿台设备运行 Windows 系统，因此不能直接从现在的 16 亿月活跃用户里推断设备总量，也无法细分 Windows 11 月活跃用户总量。&lt;/p&gt;
+&lt;p&gt;不过整体来说 Windows 11 的装机量还是在持续增长的，原因在于 Windows 10 已经停止预装，现在新出货的笔记本电脑都预装 Windows 11 系统，随着 Windows 10 设备被逐渐淘汰或升级，Windows 11 的活跃用户也在持续增长中。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;萨蒂亚纳德拉还提到微软将优先考虑 Windows 的基本功能和核心用户群体，&lt;a href="https://www.landiannews.com/archives/112282.html" rel="noopener" target="_blank"&gt;而且微软也会确保 Windows 11 能够在内存较低的设备上流畅运行&lt;/a&gt;，至少从当前情况来看，这对微软继续提高 Windows 设备总量来说至关重要。&lt;/p&gt;
+&lt;p&gt;原因主要是当前内存价格太高，以 Windows 以前使用内存的豪横程度来说，8GB 内存运行 Windows 11 可能会非常吃力，但配备 16GB 内存的设备价格又太高，因此行业实际情况倒逼微软优化 Windows 11 以减少内存占用、确保 OEM 合作伙伴可以继续向消费者提供入门级价格的设备。&lt;/p&gt;
+</description><pubDate>Thu, 07 May 2026 03:44:30 +0000</pubDate></item><item><title>🎉A社宣布即日起Claude付费订阅5小时配额速率翻倍 高峰期速率限制取消</title><link>https://www.landiannews.com/archives/112846.html</link><description>
+&lt;p&gt;#人工智能 A 社宣布即日起 Claude Code 所有付费订阅的 5 小时速率翻倍，高峰期速率限制也被取消、Claude Opus API 调用速率大幅度提高。有这项变更是因为 A 社获得新的算力支持，A 社与 SpaceX 合作将可以使用孟菲斯超算的 300 兆瓦计算能力，所以 A 社直接提高配额回馈用户。查看详情：https://ourl.co/112846&lt;/p&gt;&lt;p&gt;A 社日前宣布所有 Claude Code 付费订阅用户的 5 小时使用配额速率全部翻倍，同时取消 Claude Code Pro 以及 Claude Max 账户的高峰时段速率限制，以及适用于开发者的 Claude Opus API 调用速率也大幅度提高，这些变更的根本原因是 A 社已经找到新的算力集群。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/112846.png" rel="nofollow"&gt;&lt;img alt="A社宣布即日起Claude Code付费订阅5小时配额翻倍 高峰期速率限制取消" data-src="https://img.lancdn.com/landian/2026/05/112846.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/112846.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;此前就有消息称埃隆马斯克旗下的 xAI 人工智能数据中心利用率太低，因此这些数据中心可能会将算力租借给其他公司，此次 A 社获得的算力支持就是来自 xAI 位于美国孟菲斯的超级计算中心，具体来说 A 社将可以使用 Colossus 1 数据中心全部的 300 兆瓦计算能力。&lt;/p&gt;
+&lt;p&gt;由于 Claude Code 使用增长速度极快，这导致 A 社长期以来都面临计算能力严重不足的问题，为了缓解算力不足 A 社工程师想出各种办法结果还给开发者带来不好的体验，所以最终解决办法还是要找到更多算力，这也有助于 A 社产品继续保持快速扩张。&lt;/p&gt;
+&lt;p&gt;xAI (以及 X/Twitter) 目前都已经被合并到 SpaceX 公司，所以此次 A 社是与 SpaceX 签订的合作协议，后续 A 社还将与 SpaceX 合作开发数 GW 的轨道人工智能数据中心，不过现阶段轨道人工智能数据中心还在起步阶段，SpaceX 的目标是在未来几年利用太空无穷尽的太阳能资源为轨道数据中心提供持续电力供应。&lt;/p&gt;
+&lt;p&gt;在获得算力支持后 A 社也非常大方的直接提高 Claude 付费订阅用户的配额速率，如本文开头所说，Claude Code 5 小时使用配额直接翻倍，这项政策适用于 Claude Pro、Claude Max、Claude Team 以及基于席位的企业版套餐。&lt;/p&gt;
+</description><pubDate>Thu, 07 May 2026 03:23:30 +0000</pubDate></item><item><title>GPT-5.5 Instant现已发布 减少啰嗦和车轱辘话 为用户提供简洁准确的答复</title><link>https://www.landiannews.com/archives/112845.html</link><description>
 &lt;p&gt;#人工智能 GPT-5.5 Instant 现已发布，减少啰嗦和车轱辘话，为用户提供更加简洁和准确的答复。该模型在事实准确性方面有明显提升，虚假陈述比 5.3 减少 52.5%，在图像分析和 STEM 相关问题上的表现也非常好，现在该模型作为默认模型向所有 ChatGPT 用户提供，开发者也可以通过 API 调用。查看详情：https://ourl.co/112845&lt;/p&gt;&lt;p&gt;3 月份 OpenAI 发布 GPT-5.3 Instant 模型，该模型在回答问题时更加自然并减少拒绝回答的情况，现在 OpenAI 推出该模型的后续版本：GPT-5.5 Instant，这款新模型也将成为 ChatGPT 面向所有用户 (包括免费版) 的默认模型。&lt;/p&gt;
 &lt;p&gt;GPT-5.5 Instant 最大的改进是提升事实准确性，OpenAI 称，根据内部基准测试，GPT-5.5 Instant 在医学、法律和金融领域产生的虚假陈述比 GPT-5.3 Instant 减少 52.5%，而由于视觉推理、数学和科学能力的提升，该模型在图像分析和 STEM 相关问题上的表现也得到提高，例如在 GPQA 测试中，GPT-5.5 Instant 得分为 85.6%，在 AIME 2026 测试中，得分为 81.2%，在 MMMU-Pro 测试中，得分为 76%。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/112845.png" rel="nofollow"&gt;&lt;img alt="GPT-5.5 Instant现已发布 减少啰嗦和车轱辘话 为用户提供简洁准确的答复" data-src="https://img.lancdn.com/landian/2026/05/112845.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/112845.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -17,34 +48,4 @@
 &lt;p&gt;DNSSEC 本来是为了防止 DNS 欺骗而增加的数字签名层，简单的配置失误就让 DE 域名直接离线，所以也有业内人士感慨互联网的故障转移能力在这里失效，DNSSEC 提升安全性的同时也增加了脆性。&lt;/p&gt;
 &lt;p&gt;另外负责这个问题的 DENIC 也发布公告承认所有启用 DNSSEC 签名的 DE 域名在可访问性方面受到影响，DENIC 称中断的根本原因还未完全确定，技术团队正在全力分析并尽快恢复稳定运行。&lt;/p&gt;
 &lt;p&gt;注：截至本文发布时，采用 DNSSEC 加密的 DE 域名已经陆续恢复访问，但因为不同域名设置的 TTL 生存时间不同，部分域名可能还需要等待全球 DNS 刷新过后才能访问。&lt;/p&gt;
-</description><pubDate>Wed, 06 May 2026 03:20:03 +0000</pubDate></item><item><title>安卓版Microsoft Teams即将支持SIP协议可以直接连接Zoom和思科WebEx等</title><link>https://www.landiannews.com/archives/112843.html</link><description>
-&lt;p&gt;#软件资讯 安卓版 Microsoft Teams 即将支持 SIP 会话发起协议，允许用户连接 Zoom 和 WebEx 等其他支持 SIP 的视频会议软件。目前 Windows 10/11 版的 Microsoft Teams 已经通过 Pexip 互操作协议支持 SIP/H.323，微软计划从 6 月开始为安卓版用户带来 SIP 协议以提供类似跨软件功能。查看详情：https://ourl.co/112843&lt;/p&gt;&lt;p&gt;视频会议 / 通话领域有个互操作性协议名为 SIP (会话发起协议)，该协议允许不同平台的视频会议软件相互连接，现在微软已经公布路线图宣布将为 Microsoft Teams for Android 带来 SIP 协议的支持。&lt;/p&gt;
-&lt;p&gt;当微软添加这项功能后，使用 Microsoft Teams for Android 的用户可以打开 SIP 视频会议地址链接，经过在线会议室管理员审核后即可参与视频通话，不过该功能本身需要 IT 管理员批准后才能使用，默认情况下微软不允许用户直接使用 SIP 协议。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/02/108122.png" rel="nofollow"&gt;&lt;img alt="安卓版Microsoft Teams即将支持SIP协议可以直接连接Zoom和思科WebEx等" data-src="https://img.lancdn.com/landian/2025/02/108122.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/02/108122.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;目前其他支持 SIP 协议的视频会议软件包括 Zoom 以及思科的 WebEx 等，因此后续使用不同会议软件的公司将可以通过 SIP 协议直接在线开会，省去下载安装注册其他软件花费的时间。&lt;/p&gt;
-&lt;p&gt;根据更新后的路线图时间表，微软将从 2026 年 6 月开始逐步向企业推出此功能，到 2026 年 8 月中旬开始所有 Microsoft Teams for Android 版的用户都可以使用，不过现阶段该功能不支持其他平台。&lt;/p&gt;
-&lt;p&gt;另外微软还特别提到要使用 SIP 协议，企业或组织必须开通 Microsoft Teams Rooms Pro 许可证，当然如果企业只是低频次使用不想付费的话，也可以使用当前安卓版中基于嵌入式网页的 SIP 使用体验，基于网页的 SIP 也可以连接其他平台，SIP 协议可以弥补嵌入式网页版体验方面的不足。&lt;/p&gt;
-&lt;p&gt;Windows 10/11 版 Microsoft Teams Rooms 已经支持名为 Pexip 的云视频互操作协议，该协议也可以用于 SIP/H.323 协议，所以通过 PC 版进行跨软件视频会议可能会更方便。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://www.microsoft.com/en/microsoft-365/roadmap?filters=&amp;amp;searchterms=558539" rel="noopener" target="_blank"&gt;Microsoft 365&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 06 May 2026 03:00:01 +0000</pubDate></item><item><title>安全研究员发现Edge会将密码明文加载到内存中 微软称并非漏洞而是设计如此</title><link>https://www.landiannews.com/archives/112842.html</link><description>
-&lt;p&gt;#安全资讯 研究人员发现 Microsoft Edge 会将用户已经保存的账号密码以明文形式放到内存中，即便在用户没有填充密码时也会直接暴露到内存中。研究人员向微软通报漏洞后，微软称这是有意为之所以不是漏洞，因此研究人员直接公开漏洞并发布概念验证工具。查看详情：https://ourl.co/112842&lt;/p&gt;&lt;p&gt;安全研究员 &lt;a href="https://x.com/L1v1ng0ffTh3L4N/status/2051308329880719730" rel="noopener" target="_blank"&gt;Tom&lt;/a&gt; 在微软的 Microsoft Edge 浏览器中发现缺陷，研究显示微软会在浏览器启动时将所有已经保存的账户密码以明文形式加载到系统内存中，无论这些账户密码是否被使用都会加载到内存中。&lt;/p&gt;
-&lt;p&gt;具体来说 Microsoft Edge 浏览器的父进程会始终保存着解密的凭据，因此如果攻击者拥有足够高的系统权限，就可以通过这个进程窃取凭据，这种利用方式本身不构成远程攻击，但攻击者仍然可以通过某些方式窃取用户已经保存的账号密码。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/112842.png" rel="nofollow"&gt;&lt;img alt="安全研究员发现Edge会将密码明文加载到内存中 微软称并非漏洞而是设计如此" data-src="https://img.lancdn.com/landian/2026/05/112842.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/112842.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;正常情况来说此类情况可能会被视为安全设计缺陷，所以研究人员负责任地将漏洞通报给微软，不过微软将这项设计归类为有意为之，所以微软并不认为这是漏洞，既然不是漏洞自然也不会给研究人员提供漏洞研究奖金。&lt;/p&gt;
-&lt;p&gt;现在研究人员将漏洞以及概念验证工具都公开发布展示 Microsoft Edge 如何处理用户已经保存的密码，研究人员仍然认为微软的这项设计属于安全缺陷，因为其他类似浏览器并没有相同的问题。&lt;/p&gt;
-&lt;p&gt;研究人员对谷歌浏览器进行类似的分析发现谷歌并不会将明文凭据放到内存中，同样基于 Chromium 的 Brave 浏览器通常在用户需要填充时才会解密数据，因此也不会将数据直接存储到内存中，所以相同的攻击方式对 Chrome 和 Brave 等是无效的。&lt;/p&gt;
-&lt;p&gt;那这种攻击实际会影响哪些用户呢？如果在 Windows 10/11 上运行着多个账户，则其中拥有管理员权限的账户可能可以利用这项设计获取其他账户已经保存在 Microsoft Edge 中的凭据，所以对于登录共享设备的用户来说，最好在用完 PC 后立即从 Microsoft Edge 中登出自己的账户。&lt;/p&gt;
-&lt;p&gt;仅供学习和研究使用，你可以使用这个小工具在自己设备上提取账户密码试试：&lt;a href="https://github.com/L1v1ng0ffTh3L4N/EdgeSavedPasswordsDumper" rel="noopener" target="_blank"&gt;https://github.com/L1v1ng0ffTh3L4N/EdgeSavedPasswordsDumper&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 06 May 2026 02:41:45 +0000</pubDate></item><item><title>[已恢复] 微软发布的Microsoft Defender更新错误将系统根证书检测为病毒</title><link>https://www.landiannews.com/archives/112841.html</link><description>
-&lt;p&gt;#系统资讯 [已恢复] 微软发布的 Microsoft Defender 安全更新错误将系统根证书检测为病毒，导致大量用户收到检测到恶意软件的提醒。被拦截的证书是 DigiCert 的根证书，本来微软应该拦截被盗的泄露证书，但不知道怎样的操作能将签发数百万份证书的 DC 根证书给拦截了。查看详情：https://ourl.co/112841&lt;/p&gt;&lt;p&gt;&lt;strong&gt;阅读提醒：&lt;/strong&gt; &lt;br/&gt;此问题发生在 2026 年 5 月 1 日，在本文发布时微软已经重新发布病毒库定义更新修复该问题，用户不会再因为启用 Microsoft Defender 而看到检测到病毒提示。&lt;/p&gt;
-&lt;p&gt;2026 年 4 月 2 日，全球知名数字签名颁发机构 DigiCert 遭到攻击黑客攻击，黑客针对客户支持团队进行钓鱼成功窃取 60 份企业级代码签名证书 (EV)，随后该机构排查安全风险并将被窃取的代码签名证书全部吊销，这些代码签名证书已经生成但尚未交付，因此并未对下游软件开发商造成大规模影响。&lt;/p&gt;
-&lt;p&gt;但被盗用的代码签名证书已经被黑客用于签署恶意软件，安全业界检测到威胁后通过协作互相通报此次安全事件，包括微软在内的反病毒软件开发商均发布病毒库更新用于查杀包含这些代码签名证书的文件。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src="https://img.lancdn.com/landian/2026/05/112841.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/112841.png"/&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;美国东部时间 2026 年 4 月 30 日，微软发布适用于 Microsoft Defender 的安全智能更新，但不知道因何种原因，微软竟然将 DigiCert 合法的根证书标记为恶意软件，因此安装病毒库更新后系统自动将对应的根证书从 Windows 10/11 信任存储区删除，同时微软还会弹出警告称检测到 Trojan:Win32/Cerdigicert.A!dha。&lt;/p&gt;
-&lt;p&gt;问题在于 DigiCert 证书被广泛应用于各类软件和网站的签名，因此在根证书从信任存储区删除后，系统以及浏览器都会拦截使用这个根证书签发的下游证书，典型表现就是用户使用谷歌浏览器打开某些网站时可能会报错，而火狐浏览器因为使用自己维护的证书库因此不会受到影响。&lt;/p&gt;
-&lt;p&gt;部分用户看到通知后以为自己的设备已经被感染，因此果断选择重装系统，只不过针对这个问题重装系统也是没用的，事后微软才发布公告称这次属于误报，已经发布新的病毒库更新修复问题。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在收到大量 IT 管理员报告后微软承认拦截相关根证书纯属误报，微软随后发布安全智能更新 1.449.430.0+ 版中修复问题，只要 Microsoft Defender 接收该版本及后续更新后就可以自动解除拦截。&lt;/p&gt;
-&lt;p&gt;微软表示：在收到证书被盗用的报告后，微软立即在 Microsoft Defender 防病毒软件中添加恶意软件检测功能以帮助保护客户，但我们确定相关的误警报是被错误触发的，我们已经更新警报逻辑。新的安全智能更新会自动撤销操作所以受影响的用户不需要执行任何额外操作，相关设备出现警告也会自动消失。&lt;/p&gt;
-</description><pubDate>Tue, 05 May 2026 07:39:42 +0000</pubDate></item></channel></rss>
+</description><pubDate>Wed, 06 May 2026 03:20:03 +0000</pubDate></item></channel></rss>
