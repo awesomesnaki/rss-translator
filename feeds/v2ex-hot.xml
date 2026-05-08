@@ -66,7 +66,7 @@
 &lt;p&gt;&lt;strong&gt;我不允许还有人不知道 GA ！！！！&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;如果这个帖子有点热度，大家有要求的话，&lt;strong&gt;我可能会从专业的角度展开讲讲 GA 的技术实现方法&lt;/strong&gt;，太 tm 优雅了。。&lt;/p&gt;
 &lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-05-09 00:56:16 +08:00"&gt;8 mins ago&lt;/span&gt;
+Supplement 1  ·  &lt;span title="2026-05-09 00:56:16 +08:00"&gt;2h 8m ago&lt;/span&gt;
 
 第二篇帖子系统的分析了 GA 的设计思想：见 &lt;a href="https://www.v2ex.com/t/1211308#reply0" target="_blank"&gt;https://www.v2ex.com/t/1211308#reply0&lt;/a&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
@@ -163,7 +163,13 @@ Supplement 1  ·  &lt;span title="2026-05-09 00:56:16 +08:00"&gt;8 mins ago&lt
 &lt;p&gt;&lt;strong&gt;#91 h4nru1&lt;/strong&gt;：@&lt;a href="/member/gbin"&gt;gbin&lt;/a&gt; 有些必须要点点点的，比如微信操作，那点点点总没错吧，但是不需要点点点的，当然直接用 api 更好咯～总之有这个能力，当然比没有好很多&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#92 onedge&lt;/strong&gt;：是不是比它省 &lt;a href="https://github.com/rtk-ai/rtk" rel="nofollow noopener" target="_blank"&gt;https://github.com/rtk-ai/rtk&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#93 gbin&lt;/strong&gt;：@&lt;a href="/member/h4nru1"&gt;h4nru1&lt;/a&gt; 理论上都可以 API 画，MS Teams 本质上和微信一样，也可以全部 API 自动化 &lt;a href="https://github.com/sigcli/sigcli/tree/main/skills/msteams" rel="nofollow noopener" target="_blank"&gt;https://github.com/sigcli/sigcli/tree/main/skills/msteams&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;我认为未来浏览器不在被需要，AI Agent 就是用户流量入口，所有系统都必须支持 AI Agent 友好的接口&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#94 h4nru1&lt;/strong&gt;：@&lt;a href="/member/gbin"&gt;gbin&lt;/a&gt; 非常认同！所有的程序入口都应该是设计给 llm 看的！&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 08 May 2026 07:57:05 +0000</pubDate></item><item><title>AI 写代码越来越强，但它不知道我们上周修了什么 bug，把 Bug 重新引入生产环境了</title><link>https://www.v2ex.com/t/1211151</link><description>&lt;p&gt;三个月前，我们花了两周时间修了一个 bug 。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#94 h4nru1&lt;/strong&gt;：@&lt;a href="/member/gbin"&gt;gbin&lt;/a&gt; 非常认同！所有的程序入口都应该是设计给 llm 看的！&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#95 h4nru1&lt;/strong&gt;：@&lt;a href="/member/onedge"&gt;onedge&lt;/a&gt; 不清楚不了解不敢妄下判断&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#96 h4nru1&lt;/strong&gt;：@&lt;a href="/member/Bad0Guy"&gt;Bad0Guy&lt;/a&gt; 我只看到今天 github 又点了几百颗星，马上快一万啦！谢谢 v 友～&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#97 chipipi&lt;/strong&gt;：真降低门槛通知一下🥹&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#98 h4nru1&lt;/strong&gt;：@&lt;a href="/member/chipipi"&gt;chipipi&lt;/a&gt; 直接进群喷开发者&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#99 h4nru1&lt;/strong&gt;：@&lt;a href="/member/chipipi"&gt;chipipi&lt;/a&gt; 进群 @他们，催催&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#100 chipipi&lt;/strong&gt;：@&lt;a href="/member/h4nru1"&gt;h4nru1&lt;/a&gt; 飞书文档写得挺详细的，明天试一下，不懂就在群里问&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 08 May 2026 07:57:05 +0000</pubDate></item><item><title>AI 写代码越来越强，但它不知道我们上周修了什么 bug，把 Bug 重新引入生产环境了</title><link>https://www.v2ex.com/t/1211151</link><description>&lt;p&gt;三个月前，我们花了两周时间修了一个 bug 。&lt;/p&gt;
 &lt;p&gt;用户账单偶尔会出现 ¥0.01 的误差。复现不稳定，线上偶发，客服一直在手动补差价。翻遍了日志，最后定位到一个经典问题：浮点数精度。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;0.1 + 0.2&lt;/code&gt; 在 IEEE 754 里不等于 &lt;code&gt;0.3&lt;/code&gt;，这个大家都听说过，但真的踩到还是很痛。&lt;/p&gt;
 &lt;p&gt;修复方案是把所有金额改成以「分」为单位存整数，展示时再除以 100 。改动不复杂，但涉及的地方很多，改完之后代码里到处是 &lt;code&gt;amount * 100&lt;/code&gt;、&lt;code&gt;Math.round()&lt;/code&gt;、&lt;code&gt;/ 100&lt;/code&gt;，看起来有点丑，但能用，bug 消失了。&lt;/p&gt;
@@ -242,7 +248,7 @@ Supplement 1  ·  &lt;span title="2026-05-09 00:56:16 +08:00"&gt;8 mins ago&lt
 &lt;hr/&gt;
 &lt;p&gt;你们有没有被 Agent 悄悄还原过某个 bug 修复？现在是怎么防的？&lt;/p&gt;
 &lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-05-08 15:39:50 +08:00"&gt;9h 24m ago&lt;/span&gt;
+Supplement 1  ·  &lt;span title="2026-05-08 15:39:50 +08:00"&gt;11h 25m ago&lt;/span&gt;
 
 看看我们的图哈，用在自己产品上的，每个意图都可以追踪、review： &lt;a href="https://i.imgur.com/h8i2pY3.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/h8i2pY3.png"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;产品已经开源： &lt;a href="https://github.com/mainline-org/mainline" rel="nofollow noopener" target="_blank"&gt;https://github.com/mainline-org/mainline&lt;/a&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
@@ -342,7 +348,8 @@ Supplement 1  ·  &lt;span title="2026-05-08 15:39:50 +08:00"&gt;9h 24m ago&lt
 &lt;p&gt;&lt;strong&gt;#94 huoru&lt;/strong&gt;：@&lt;a href="/member/yufeng0681"&gt;yufeng0681&lt;/a&gt; 你总结得太好了😉&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#95 mangoDB&lt;/strong&gt;：楼主，说实话，相较于你着重强调的“AI 引入 bug”这一问题，我更为震惊的是，在你们的业务场景中，涉及“金融及金额的小数运算”时，竟然直接采用了浮点数进行计算。&lt;br/&gt;&lt;br/&gt;上大学时，我们应该都学过浮点精度问题。尤其在刷一些 OJ 题目时，一旦涉及浮点数运算比较大小，就需要自己定义一个精度然后做差判断。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#96 huoru&lt;/strong&gt;：@&lt;a href="/member/mangoDB"&gt;mangoDB&lt;/a&gt; 很多人没这个基础知识啊。。🤣不是所有人都是科班出身的，也有 PM 转代码的。。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#97 aureole999&lt;/strong&gt;：@&lt;a href="/member/huoru"&gt;huoru&lt;/a&gt; 系统设计 db 设计到实现上线整个流程没一个科班的？你直接让 ai 设计一个保存账单的表 ai 都会提到不要用 float double&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 08 May 2026 05:26:38 +0000</pubDate></item><item><title>[压力测试] Codex GPT-5.5 新中转站开业，人人免费领 3 亿 token， 评论立送 300 美刀/月会员</title><link>https://www.v2ex.com/t/1211140</link><description>新用户注册立刻到账 15 天 Pro 会员， &lt;br/&gt;评论留下编号额外送 15 天 Pro 会员 &lt;br/&gt;合计最高可领取 30 天 Pro 会员 （ 300 刀 GPT API 额度 ~ 3 亿 token ） ，&lt;br/&gt;&lt;br/&gt;为防止薅羊毛，5H 限流 10 刀 ，300 刀额度分 4 周发放&lt;br/&gt; 邀请好友可以获得 5 刀额外额度&lt;br/&gt;&lt;br/&gt;300 美刀约可调用 3 亿 token ，包含 input output&lt;br/&gt;&lt;br/&gt;链接： &lt;a href="https://freemodel.dev" rel="nofollow noopener" target="_blank"&gt;https://freemodel.dev&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;评论福利限前 1000 名
+&lt;p&gt;&lt;strong&gt;#97 aureole999&lt;/strong&gt;：@&lt;a href="/member/huoru"&gt;huoru&lt;/a&gt; 系统设计 db 设计到实现上线整个流程没一个科班的？你直接让 ai 设计一个保存账单的表 ai 都会提到不要用 float double&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#98 esee&lt;/strong&gt;：我一直以为这是个常识，涉及到金钱的计算都用分来存储和计算，即使没有，对接一次阿里和 tx 的支付接口应该都会有经验。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 08 May 2026 05:26:38 +0000</pubDate></item><item><title>[压力测试] Codex GPT-5.5 新中转站开业，人人免费领 3 亿 token， 评论立送 300 美刀/月会员</title><link>https://www.v2ex.com/t/1211140</link><description>新用户注册立刻到账 15 天 Pro 会员， &lt;br/&gt;评论留下编号额外送 15 天 Pro 会员 &lt;br/&gt;合计最高可领取 30 天 Pro 会员 （ 300 刀 GPT API 额度 ~ 3 亿 token ） ，&lt;br/&gt;&lt;br/&gt;为防止薅羊毛，5H 限流 10 刀 ，300 刀额度分 4 周发放&lt;br/&gt; 邀请好友可以获得 5 刀额外额度&lt;br/&gt;&lt;br/&gt;300 美刀约可调用 3 亿 token ，包含 input output&lt;br/&gt;&lt;br/&gt;链接： &lt;a href="https://freemodel.dev" rel="nofollow noopener" target="_blank"&gt;https://freemodel.dev&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;评论福利限前 1000 名
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 lich13&lt;/strong&gt;：FRE-64bd30b9 感谢&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#2 engiun&lt;/strong&gt;：FRE-4f5137b8 已注册，感谢～&lt;/p&gt;&lt;hr/&gt;
@@ -479,12 +486,12 @@ Supplement 1  ·  &lt;span title="2026-05-08 15:39:50 +08:00"&gt;9h 24m ago&lt
 &lt;p&gt;官网： &lt;a href="https://link-ai.cc" rel="nofollow"&gt;https://link-ai.cc&lt;/a&gt;
 (欢迎各位 V 友压力测试，有任何降智证据欢迎打脸回帖！)&lt;/p&gt;
 &lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-05-08 13:24:10 +08:00"&gt;11h 41m ago&lt;/span&gt;
+Supplement 1  ·  &lt;span title="2026-05-08 13:24:10 +08:00"&gt;13h 41m ago&lt;/span&gt;
 
 现在新站做活动阶段，0.9 元人民币 = 1 美元！&lt;br/&gt;截止现在 截止 15 楼均赠送 10 美金完毕！&lt;br/&gt;有未及时到账的请联系楼主噢~！
 
 &lt;hr/&gt;
-Supplement 2  ·  &lt;span title="2026-05-09 00:04:50 +08:00"&gt;1h 1m ago&lt;/span&gt;
+Supplement 2  ·  &lt;span title="2026-05-09 00:04:50 +08:00"&gt;3h 0m ago&lt;/span&gt;
 
 [5 月 8 日抽奖结果公示]&lt;br/&gt;&lt;br/&gt;今日上证收盘：4179.95 （取整数部分 4179 ）&lt;br/&gt;统计楼层： 截至 23:59 共 177 楼&lt;br/&gt;计算公式： (4179 % 177) + 1 = 109&lt;br/&gt;中奖结果： 恭喜 109 楼 的 V 友！请联系站长或在后台查看 $100 美元余额奖励。
 
