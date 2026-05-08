@@ -1,5 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Fri, 08 May 2026 08:55:41 +0000</lastBuildDate><item><title>新的Linux内核漏洞可以轻松从普通用户提权至root 多数发行版都受漏洞影响</title><link>https://www.landiannews.com/archives/112874.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Fri, 08 May 2026 14:42:43 +0000</lastBuildDate><item><title>微软悄悄在Windows 11中增加CPU瞬时超频 可在1~3秒内提升UI响应速度</title><link>https://www.landiannews.com/archives/112877.html</link><description>
+&lt;p&gt;#系统资讯 微软悄悄在 Windows 11 中新增 CPU 瞬时超频功能，可以在 1~3 秒内短暂提升 CPU 频率达到缩短 UI 响应速度的目的，也就是用户点击开始菜单或右键菜单减少卡顿。此功能也支持其他软件，虚拟机测试显示在低端硬件上响应速度甚至可以提升高达 70%，而且这基本不会对续航和散热造成影响。查看详情：https://ourl.co/112877&lt;/p&gt;&lt;p&gt;如果你长期使用 Windows 11 可能经常会遇到某些选项点击后出现的延迟问题，比较典型的案例就是资源管理器右键菜单有时候可能会卡顿 1~3 秒后才能加载出来，尤其是其他软件添加到新版右键菜单中的那些选项。&lt;/p&gt;
+&lt;p&gt;当然出现 UI 点击延迟的远不只是右键菜单，诸如开始菜单、搜索面板、启动某些应用程序等也同样出现点击延迟，微软确实在想办法解决延迟问题，最新测试的实验性选项名为低延迟配置文件。&lt;/p&gt;
+&lt;p&gt;低延迟配置文件相当于是开启 CPU 瞬时超频模式，在用户启动高优先级任务时短暂提高 CPU 频率来提高 UI 点击的响应速度，不过至少现阶段用户还不能主动控制 CPU 瞬时超频模式，不知道未来微软是否会提供自定义选项。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/112877.png" rel="nofollow"&gt;&lt;img alt="微软悄悄在Windows 11中增加CPU瞬时超频 可在1~3秒内提升UI响应速度" data-src="https://img.lancdn.com/landian/2026/05/112877.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/112877.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Windows Latest 针对此功能进行针对性测试，测试使用的虚拟机故意限制硬件资源使用以检查此功能是否能够改善低端硬件的性能，当然虚拟机的测试结果与物理机实际体验可能还是存在差异的。&lt;/p&gt;
+&lt;p&gt;测试显示启用低延迟配置文件后，用户点击开始菜单和资源管理器右键菜单时的响应速度可以提升最高 70%，而 Microsoft Edge 和 Microsoft Outlook 等应用程序的启动速度可以提升最高 40%。&lt;/p&gt;
+&lt;p&gt;而且这项功能很可能也可以加快第三方应用的启动速度，也就是用户启动应用程序时，系统都可能会通过瞬时提高 CPU 频率加快响应，对用户而言，最直观的体验就是卡顿感觉缩短甚至是消失。&lt;/p&gt;
+&lt;p&gt;短暂提升 CPU 频率对电池续航时间和 CPU 温度的影响也是非常小的，所以启用低延迟配置文件后应该不会显著导致笔记本电脑续航时间缩短，设备的正常散热可能也不受影响，唯一可能有些感官上的区别是，频繁点击和启动应用程序时 CPU 风扇转速可能会短时间内增加，也就是用户可能会听到风扇噪音增加。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;此功能目前还在 Windows 11 测试版中进行早期测试，微软甚至都没有直接在实验性选项里开放该功能，所以用户需要通过 ViveTool 启用功能 ID，Windows 11 正式版暂时不支持此功能所以使用正式版的用户请耐心等待后续更新。&lt;/p&gt;
+&lt;pre&gt;#使用ViveTool启用如下功能ID
+#启用低延迟配置文件(针对系统UI菜单)
+vivetool /enable /id:60716524
+#启用低延迟配置文件(针对其他应用程序)
+vivetool /enable /id:61391826&lt;/pre&gt;
+&lt;article&gt;&lt;a href="https://www.landiannews.com/archives/94547.html" title="[图文教程] Windows 11开发版必备神器ViveTool到底怎么用？其实很简单"&gt;&lt;h3&gt;[图文教程] Windows 11开发版必备神器ViveTool到底怎么用？其实很简单&lt;/h3&gt;&lt;/a&gt;&lt;p&gt;之前蓝点网发过文章说最烦微软的A/B对照测试 ,  微软总喜欢搞对照测试所以新功能每次只有部分用户可用。
+
+如果是经常使用Windows 1…&lt;/p&gt;&lt;p&gt;&lt;span title="发布日期"&gt;2022年7月5日 10:16&lt;/span&gt;&lt;span title="浏览数量"&gt;17.67W&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
+</description><pubDate>Fri, 08 May 2026 14:42:43 +0000</pubDate></item><item><title>[技巧] 修改注册表阻止Chrome &amp; Edge 自动下载4GB的本地AI模型</title><link>https://www.landiannews.com/archives/112876.html</link><description>
+&lt;p&gt;#技术教程 修改注册表阻止 Chrome &amp;amp; Edge 浏览器自动下载约 4GB 的本地 AI 模型，是的，微软的 Edge 浏览器也同样会下载。这些模型主要提供网页总结、撰写文本、检测钓鱼和欺诈网站等，如果你觉得没必要保留，可以直接修改注册表彻底阻止浏览器尝试下载模型。查看详情：https://ourl.co/112876&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landiannews.com/archives/112872.html" rel="noopener" target="_blank"&gt;昨天谷歌发言人就谷歌浏览器自动下载约 4GB 的本地 AI 模型进行澄清&lt;/a&gt;，该功能本身是从 2024 年就已经开始提供，不过大多数用户可能压根没有使用过相关 AI 功能，但却发现自己的磁盘空间被谷歌浏览器占据 5GB 以上空间 (更新缓存 + AI 模型)。&lt;/p&gt;
+&lt;p&gt;按照谷歌说法用户可以直接在浏览器设置中禁用设备端 AI 功能来阻止下载模型，但蓝点网在昨天的文章中也提到，有些用户可能可以看到设备端 AI 选项，有些用户压根看不到这个选项，而看不到选项的情况下自然也没法直接禁用此功能。&lt;/p&gt;
+&lt;p&gt;微软的 Microsoft Edge 浏览器也有同样的行为，也就是会自动下载并启用设备端 AI 模型来提供某些功能，为方便组织 IT 管理员进行管理，微软和谷歌也都提供注册表 / 组策略可以直接禁用设备端 AI。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/112872-1.png" rel="nofollow"&gt;&lt;img alt="[技巧] 修改注册表阻止Chrome &amp;amp; Edge 自动下载4GB的本地AI模型" data-src="https://img.lancdn.com/landian/2026/05/112872-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/112872-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112538-1.png" rel="nofollow"&gt;&lt;img alt="[技巧] 修改注册表阻止Chrome &amp;amp; Edge 自动下载4GB的本地AI模型" data-src="https://img.lancdn.com/landian/2026/04/112538-1.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112538-1.png"/&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;设备端 AI 功能主要通过 Google Gemini Nano 模型在本地提供相关人工智能服务，例如总结网页内容、帮助用户撰写文本、帮助用户重写文本、智能化整体标签页、基于 AI 的检测钓鱼和诈骗网站等等。&lt;/p&gt;
+&lt;p&gt;以上部分功能在有设备端 AI 模型的情况下会优先通过本地模型处理，但即便禁用设备端 AI 功能也可以继续使用，也就是实际使用时会将数据发送给谷歌，利用谷歌云端的 Google Gemini 来处理。&lt;/p&gt;
+&lt;p&gt;如果你经常使用这些功能则建议保留模型继续开启设备端 AI 功能，在本地处理这些数据速度更快且不需要担心潜在的隐私问题，如果不使用则可以按照下面的方法直接禁用 Google Chrome 和 Microsoft Edge 下载 AI 模型。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Google Chrome 与 Microsoft Edge 的注册表路径不同，所以如果你同时使用两款浏览器建议都修改注册表，当然即便你不使用 Microsoft Edge 浏览器，偶尔被自动打开后也可能继续下载，所以也推荐用户直接修改注册表进行禁用。&lt;/p&gt;
+&lt;pre&gt;# 打开管理员模式的 CMD 命令提示符执行如下命令
+# 适用于 Google Chrome
+reg add "HKLM\SOFTWARE\Policies\Google\Chrome" /v "GenAILocalFoundationalModelSettings" /t REG_DWORD /d 1 /f
+# 适用于 Microsoft Edge
+reg add "HKLM\SOFTWARE\Policies\Microsoft\Edge" /v "GenAILocalFoundationalModelSettings" /t REG_DWORD /d 1 /f&lt;/pre&gt;
+&lt;p&gt;以上命令中的注册表键值 1 代表禁用设备端 AI 功能，如果后续你想启用此功能，则可以将命令结尾的 1 修改为 0 再执行，另外通过注册表或组策略修改后，浏览器关于页面可能会显示由贵组织管理的提示，这个仅仅是提示不影响正常使用。&lt;/p&gt;
+</description><pubDate>Fri, 08 May 2026 14:12:57 +0000</pubDate></item><item><title>网络服务提供商Cloudflare宣布裁员20% 原因则是AI驱动的自动化</title><link>https://www.landiannews.com/archives/112875.html</link><description>
+&lt;p&gt;#行业资讯 网络服务提供商 Cloudflare 宣布裁员 20%，约有 1,100 名员工将被迫离开公司。Cloudflare 强调不想在未来重复这样的裁员，也就是趁着现在还算不错的情况下裁员还可以提供更多福利补贴，至于裁员原因，既不是为了削减成本，也不是绩效考核，纯粹就是 Cloudflare 准备利用 AI 显著提高效率。查看详情：https://ourl.co/112875&lt;/p&gt;&lt;p&gt;全球知名网络服务提供商 Cloudflare 日前发布内部信宣布裁员 1,100 人，该公司在全球所有办公室的员工总数为 5,156 人，因此这次裁员比例高达 20%，不过 Cloudflare 并未说明哪些部门或工作岗位是裁员的重灾区。&lt;/p&gt;
+&lt;p&gt;Cloudflare 强调，本轮裁员既不是基于削减成本考虑，也不是对员工个人绩效的评估，裁员仅仅是为了重新定义 Cloudflare 在人工智能时代如何运营并创造价值，如此来看 Cloudflare 其实也主要是觉得人工智能能够显著提升效率所以不需要太多的员工。&lt;/p&gt;
+&lt;p&gt;至少从财报数据来看 Cloudflare 的财务状况还是非常不错的，自 2026 年以来 Cloudflare 的营收、利润以及股价都在持续上涨中，例如从 2026 年 1 月 1 日至今，Cloudflare 股价已经上涨 30%。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/112875.png" rel="nofollow"&gt;&lt;img alt="网络服务提供商Cloudflare宣布裁员20% 原因则是AI驱动的自动化" data-src="https://img.lancdn.com/landian/2026/05/112875.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/112875.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;可能是为了稳定现有团队的信心，Cloudflare 强调只进行一次这样的裁员，在可以预见的未来，Cloudflare 不想再重复这个过程，也就是 Cloudflare 所谓的长痛不如短痛，在当前状况良好的情况下进行裁员，也可以为被裁成员提供更好的福利补贴。&lt;/p&gt;
+&lt;p&gt;离职员工补偿方面，Cloudflare 将向被裁员工提供相当于 2026 年全年基本工资的现金补贴，全球不同办公室成员的医疗保险覆盖范围不同，不过在美国 Cloudflare 将为员工继续提供医疗保险直到今年年底，让员工有更多时间寻找新公司。&lt;/p&gt;
+&lt;p&gt;股票奖励方面，被裁员工的股权授予期限将延长到 2026 年 8 月 15 日，所以离职员工还可以继续获得股票奖励，如果员工还未达到一年期股权授予期限，Cloudflare 也将免除该期限，按照比例提供截至 8 月底的股权。&lt;/p&gt;
+&lt;p&gt;目前 Cloudflare 还未宣布要对部门进行重组，不过既然裁员和计划精简并提升效率，可能不同团队进行重组也是必然的事情，尤其是 AI 能够显著提高效率的部门，或许是裁员的重灾区、也是重组的目标。&lt;/p&gt;
+</description><pubDate>Fri, 08 May 2026 13:56:55 +0000</pubDate></item><item><title>新的Linux内核漏洞可以轻松从普通用户提权至root 多数发行版都受漏洞影响</title><link>https://www.landiannews.com/archives/112874.html</link><description>
 &lt;p&gt;#安全资讯 Linux Kernel 新漏洞可以轻松从普通用户提权至 root，几乎影响所有主流的 Linux 发行版且当前没有补丁可用。该漏洞名为 Dirty Frag，与此前被爆出的 Dirty Pipe 和 Copy Fail 属于同类型漏洞，鉴于漏洞细节和 PoC 已经公开，有需要的用户可以通过删除 esp4/6 和 rxrpc 内核模块提升安全性。查看详情：https://ourl.co/112874&lt;/p&gt;&lt;p&gt;近期安全研究人员在 Linux Kernel 中发现诸多高危级别的安全漏洞，最新被爆出的漏洞名为 Dirty Frag，该漏洞与此前被爆出的提权漏洞 Dirty Pipe 以及 Copy Fail 属于同类型漏洞，但每个漏洞利用的内核数据结构不同。&lt;/p&gt;
 &lt;p&gt;Dirty Frag 漏洞允许本地攻击者通过命令快速提权至 root，发布漏洞的安全研究人员已经公布漏洞细节以及概念验证程序，通过概念验证程序测试可以发现大多数发行版都可以被漏洞利用，并且当前相关修复程序还未发布。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2023/08/99983.png" rel="nofollow"&gt;&lt;img alt="新的Linux内核漏洞可以轻松从普通用户提权至root 多数发行版都受漏洞影响" data-src="https://img.lancdn.com/landian/2023/08/99983.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2023/08/99983.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -20,51 +67,4 @@
 &lt;p&gt;而如果在磁盘为空的系统里 (不含任何可用的本地分区)，即使没有将任何内容映射到 D 盘，在文件复制阶段系统也会生成 EFI 分区系统的 D 盘，而且这个盘里实际是空的。所以目前看起来 D 盘似乎是安装程序保留的盘符，所以尝试将任何内容映射为 D 盘都可能带来麻烦。&lt;/p&gt;
 &lt;p&gt;所以现在的解决方案是 Rufus 在新测试版中规避系统可能保留的 D 盘，当然如果用户禁用静默安装选项也可以解决问题，有兴趣的用户可以下载新版本进行测试(下载地址在讨论帖中)。&lt;/p&gt;
 &lt;p&gt;相关讨论帖：&lt;a href="https://github.com/pbatard/rufus/issues/2960#issuecomment-4363465945" rel="noopener" target="_blank"&gt;https://github.com/pbatard/rufus/issues/2960#issuecomment-4363465945&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 08 May 2026 08:39:34 +0000</pubDate></item><item><title>谷歌回应Chrome自动下载4GB的本地AI模型 称用户可以在设置中关闭</title><link>https://www.landiannews.com/archives/112872.html</link><description>
-&lt;p&gt;#软件资讯 谷歌发文回应谷歌浏览器自动下载约 4GB 的模型权重文件，谷歌称该模型用于在本地处理部分功能例如网页摘要和安全检测，用户可以自主禁用。正常情况下用户可以转到浏览器设置、系统、设备端 AI 禁用此功能，禁用后就会删除模型，但有时候用户可能压根找不到这个选项。查看详情：https://ourl.co/112872&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landiannews.com/archives/112538.html" rel="noopener" target="_blank"&gt;前段时间蓝点网检查本地磁盘存储时注意到谷歌浏览器会下载约 4GB 的模型权重文件&lt;/a&gt;，蓝点网安装谷歌浏览器正式版、测试版和金丝雀版，而每个版本都会下载模型权重文件，因此实际造成系统盘空间被占用 12GB 左右，但蓝点网并未使用过相关的 AI 功能。&lt;/p&gt;
-&lt;p&gt;本周国外科技网站也注意到这种情况并发文称谷歌浏览器未经用户同意反复下载这些模型权重文件，即用户哪怕找到文件将其删除，后续谷歌浏览器也会自动重新下载文件，相关报道引起诸多讨论，所以现在谷歌也发文回应这件事。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112538-3.png" rel="nofollow"&gt;&lt;img alt="谷歌回应Chrome自动下载4GB的本地AI模型 称用户可以在设置中关闭" data-data-src="https://img.lancdn.com/landian/2026/04/112538-3.png" data-src="https://img.lancdn.com/landian/2026/04/112538-3.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112538-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112538-1.png" rel="nofollow"&gt;&lt;img alt="谷歌回应Chrome自动下载4GB的本地AI模型 称用户可以在设置中关闭" data-data-src="https://img.lancdn.com/landian/2026/04/112538-1.png" data-src="https://img.lancdn.com/landian/2026/04/112538-1.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112538-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;谷歌官方发言人表示，自 2024 年以来，谷歌推出适用于谷歌浏览器的 Google Gemini Nano，该模型适合在本地进行部署。模型可以支持重要的安全功能例如欺诈检测和开发者 API，通过本地模型处理数据不需要将数据发送到云端。&lt;/p&gt;
-&lt;p&gt;模型权重文件确实会占用本地空间，但如果设备资源不足的话，谷歌浏览器会自动删除模型以节省空间。功能方面，目前模型可以用来在本地进行网页摘要、帮助用户撰写或更改文本、整理标签页以及提醒用户注意网络欺诈等。&lt;/p&gt;
-&lt;p&gt;需要注意的是某些 AI 功能并不依赖于设备本地上的模型，因此即使用户删除本地模型，某些功能也依然可以继续使用 (这些功能会将数据发送到云端由 Google Gemini 模型处理并返回到本地)。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;按照谷歌的想法本地 AI 模型功能本来就是允许用户自主启用的，默认情况下谷歌会开启功能并下载模型权重文件，用户可以在谷歌浏览器设置、系统、设备端 AI 里进行禁用，禁用后谷歌浏览器便会自动删除已经下载的 AI 模型且不再自动下载。&lt;/p&gt;
-&lt;p&gt;不过如果是这样的话可能还不会引起用户疑惑，因为有时候用户在系统选项里看不到设备端 AI，即便如此模型权重文件也依然会被自动下载，或许谷歌应该检查这方面的问题，否则用户看不到选项，分析磁盘空间时找到权重文件就可能引起不必要的误会。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;#Windows 10/11：
-C:\Users\{你的用户名}\AppData\Local\Google\Chrome\User Data\OptGuideOnDeviceModel\2025.8.21.1028\weights.bin
-#macOS：
-/Users/{你的用户名}/Library/Application Support/Google/Chrome/OptGuideOnDeviceModel/2025.8.8.1141/weights.bin
-/Users/{你的用户名}/Library/Application Support/Google/Chrome Canary/OptGuideOnDeviceModel/2025.8.8.1141/weights.bin&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;👇🏻下图为蓝点网安装的谷歌浏览器正式版，可以看到设备端 AI&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/112872-1.png" rel="nofollow"&gt;&lt;img alt="谷歌回应Chrome自动下载4GB的本地AI模型 称用户可以在设置中关闭" data-src="https://img.lancdn.com/landian/2026/05/112872-1.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/112872-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;👇🏻下图为蓝点网安装的谷歌浏览器金丝雀版，完全看不到设备端 AI，但也下载了权重文件&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/112872-2.png" rel="nofollow"&gt;&lt;img alt="谷歌回应Chrome自动下载4GB的本地AI模型 称用户可以在设置中关闭" data-src="https://img.lancdn.com/landian/2026/05/112872-2.png" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/112872-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 07 May 2026 13:10:26 +0000</pubDate></item><item><title>老牌虚拟光驱软件DAEMON Tools自4月8日就被攻击 官网提供的版本携带后门</title><link>https://www.landiannews.com/archives/112871.html</link><description>
-&lt;p&gt;#安全资讯 老牌虚拟光驱软件 DAEMON Tools 自 4 月 8 日起就遭到感染，官网提供的带有数字签名的版本均携带后门。如果你曾在 4 月 8 日起安装或更新该软件，最好安装卡巴斯基免费版进行扫描，另外切勿从第三方下载站或破解站获取该软件，这些网站发布的版本有滞后性，可能还是带毒版本。查看详情：https://ourl.co/112871&lt;/p&gt;&lt;p&gt;卡巴斯基实验室日前发布安全报告揭露老牌虚拟光驱软件 DAEMON Tools 出现的重大安全问题，该软件官方网站早在 2026 年 4 月 8 日就已经被黑客劫持，随后黑客通过官网向全球 100 多个国家或地区的用户投放携带后门的版本，并且这些后门版本还具有开发商 AVB 的数字签名，这说明该公司内部基础设施可能也遭到攻击。&lt;/p&gt;
-&lt;p&gt;从四月初开始卡巴斯基通过遥测数据观察到数千起涉及 DAEMON Tools 的感染尝试，不过在被感染的这些设备里，仅有少量设备被部署后续阶段的有效载荷，而接收后续载荷的机器属于零售、科研、政府和制造行业，这表明此次供应链攻击具有针对性。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/112871.png" rel="nofollow"&gt;&lt;img alt="老牌虚拟光驱软件DAEMON Tools自4月8日就被攻击 官网提供的版本携带后门" data-src="https://img.lancdn.com/landian/2026/05/112871.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/112871.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在接到卡巴斯基分享的安全情报后，开发商 AVB Disc Soft 公司立即进行分析并确认感染属实，被感染的版本包括 12.5.0.2421~12.5.0.2434 等版本，随后 AVB 公司发布 12.6.0.2445 版进行替换，该版本已经清除后门程序可以放心升级使用。&lt;/p&gt;
-&lt;p&gt;至于数字签名问题目前没有详细的说明，卡巴斯基既然发现带毒版本也携带合法的数字签名，那说明 AVB 的代码签名证书也已经泄露，比较直接的解决方案就是直接吊销旧证书，这样包括 Microsoft Defender 在内的反病毒软件也可以检测到异常并进行拦截。&lt;/p&gt;
-&lt;p&gt;不过蓝点网下载新版本进行验证发现代码签名仍然是 2024 年的版本，说明证书还未进行替换，不知道 AVB 后续是否有计划继续发布新版本更换新证书，然后再将旧版代码签名证书彻底吊销。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;比较简单的办法就是直接安装卡巴斯基免费版，卡巴斯基已经更新拦截机制可以检测网络流量中出现的恶意活动，因此受感染的版本尝试连接到 C2 服务器时就会被检测到，用户可以安装卡巴斯基免费版后启动 DAEMON Tools 观察是否有异常警告。&lt;/p&gt;
-&lt;p&gt;如果已经确认被感染，建议使用安全软件进行查杀，必要时甚至可以备份数据后直接重装系统以提升安全性，而对于企业或政府机构来说，如果检测到异常则也应该检查内网其他设备是否有异常流量，因为黑客可能利用被感染设备作为跳板感染更多设备。&lt;/p&gt;
-&lt;p&gt;C2 服务器域名：daemontools[.]cc&lt;/p&gt;
-&lt;p&gt;IP 地址：38.180.107.76&lt;/p&gt;
-</description><pubDate>Thu, 07 May 2026 04:16:31 +0000</pubDate></item><item><title>微软宣布Windows月活跃用户突破16亿 必应搜索月活跃用户突破10亿</title><link>https://www.landiannews.com/archives/112847.html</link><description>
-&lt;p&gt;#行业资讯 微软宣布 Windows 月活跃用户突破 16 亿，必应搜索月活跃用户突破 10 亿整数关口。微软重申该公司已经重新关注 Windows 系统，并且因为内存价格太高的问题，微软将确保 Windows 11 能够在内存较少的设备上流畅运行。查看详情：https://ourl.co/112847&lt;/p&gt;&lt;p&gt;近期微软发布财报并公布部分产品的数据，微软首席执行官萨蒂亚纳德拉再次确认微软已经重新关注 Windows 系统，因此微软将继续重点提高 Microsoft Edge 浏览器和必应搜索等核心产品的参与度。&lt;/p&gt;
-&lt;p&gt;萨蒂亚纳德拉表示，微软将专注于 Windows 系统的基本功能以赢回用户，如此来说微软其实应该从内部数据中知道很多用户不满 Windows 11，退回到 Windows 10 或转投其他操作系统，&lt;a href="https://www.landiannews.com/archives/112704.html" rel="noopener" target="_blank"&gt;这或许也是早前微软发布博客宣布对 Windows 11 相关功能和体验进行重大调整的原因&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/03/112279.png" rel="nofollow"&gt;&lt;img alt="微软宣布Windows月活跃用户突破16亿 必应搜索月活跃用户突破10亿" data-src="https://img.lancdn.com/landian/2026/03/112279.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/03/112279.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;据微软公布的数据，当前 Windows 月活跃用户已经突破 16 亿，而必应搜索的月活跃用户则是突破 10 亿，必应搜索的增长率非常高，这显然和微软在 Windows 11 中捆绑必应搜索有关，因此从这方面来说微软继续利用各种方式吸引用户使用 Microsoft Edge 浏览器的决心也不会发生改变。&lt;/p&gt;
-&lt;p&gt;但值得注意的是，Windows 月活跃用户不等于 Windows 11 月活跃用户，微软在 2018 年公布的数据显示，约有 15 亿台设备运行 Windows 系统，因此不能直接从现在的 16 亿月活跃用户里推断设备总量，也无法细分 Windows 11 月活跃用户总量。&lt;/p&gt;
-&lt;p&gt;不过整体来说 Windows 11 的装机量还是在持续增长的，原因在于 Windows 10 已经停止预装，现在新出货的笔记本电脑都预装 Windows 11 系统，随着 Windows 10 设备被逐渐淘汰或升级，Windows 11 的活跃用户也在持续增长中。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;萨蒂亚纳德拉还提到微软将优先考虑 Windows 的基本功能和核心用户群体，&lt;a href="https://www.landiannews.com/archives/112282.html" rel="noopener" target="_blank"&gt;而且微软也会确保 Windows 11 能够在内存较低的设备上流畅运行&lt;/a&gt;，至少从当前情况来看，这对微软继续提高 Windows 设备总量来说至关重要。&lt;/p&gt;
-&lt;p&gt;原因主要是当前内存价格太高，以 Windows 以前使用内存的豪横程度来说，8GB 内存运行 Windows 11 可能会非常吃力，但配备 16GB 内存的设备价格又太高，因此行业实际情况倒逼微软优化 Windows 11 以减少内存占用、确保 OEM 合作伙伴可以继续向消费者提供入门级价格的设备。&lt;/p&gt;
-</description><pubDate>Thu, 07 May 2026 03:44:30 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 08 May 2026 08:39:34 +0000</pubDate></item></channel></rss>
