@@ -65,6 +65,10 @@
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;我不允许还有人不知道 GA ！！！！&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;如果这个帖子有点热度，大家有要求的话，&lt;strong&gt;我可能会从专业的角度展开讲讲 GA 的技术实现方法&lt;/strong&gt;，太 tm 优雅了。。&lt;/p&gt;
+&lt;hr/&gt;
+Supplement 1  ·  &lt;span title="2026-05-09 00:56:16 +08:00"&gt;8 mins ago&lt;/span&gt;
+
+第二篇帖子系统的分析了 GA 的设计思想：见 &lt;a href="https://www.v2ex.com/t/1211308#reply0" target="_blank"&gt;https://www.v2ex.com/t/1211308#reply0&lt;/a&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 defunct9&lt;/strong&gt;：不优雅的地方：对 Linux 不友好，必须要装个 X-win ，弄好了 x-win ，又要弄个 py-win 的，不知道能不能开个 web 好了。为啥非要跑个窗口呢。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#2 zzzzz024&lt;/strong&gt;：只支持 api key 吗，订阅额度可以用吗&lt;/p&gt;&lt;hr/&gt;
@@ -146,7 +150,20 @@
 &lt;p&gt;&lt;strong&gt;#78 Bad0Guy&lt;/strong&gt;：@&lt;a href="/member/h4nru1"&gt;h4nru1&lt;/a&gt; 首先我觉得 12 楼说的没错，其次我觉得你的帖子里的语言组织能力不是一般的差，你觉得项目厉害首先该展示的是你用这个项目做成的具体成果，而不是上来就摆 benchmark score 。整篇帖子排版逻辑乱的像个刚进单位的实习生发的文章。V 站基本以程序员为主，你说你是 cs 博士？“我是第一次在 V2EX 发帖，发现这图床都要买”听着我都觉得好笑，帖子里上下看了一遍，挺赞同 31 楼、38 楼的说法&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#79 huaweii&lt;/strong&gt;：一眼看上去和 hermes 比起来看不出明显优势&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#80 h4nru1&lt;/strong&gt;：@&lt;a href="/member/Bad0Guy"&gt;Bad0Guy&lt;/a&gt; 1 、benchmark score 就是具体成果的量化，这是学术界通用做法，不是我发明的。2 、排版确实一般，第一次发帖，认。3 、图床那句是事实描述，不知道默认用 imgur 很好笑吗。。4 、31 楼说推广，分享开源项目叫推广的话 V2EX 一半帖子都是推广。38 楼说没人搭理，GitHub star 和 Datawhale 收录你可以自己去看。5 、语言组织能力差不差跟项目好不好用有关系吗。。你要觉得技术不行，拿东西出来说，别光评价我作文写得好不好&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#81 Bad0Guy&lt;/strong&gt;：@&lt;a href="/member/h4nru1"&gt;h4nru1&lt;/a&gt; 学术归学术，这里需要的是实际可直接落地的项目，而不是 benchmark ，御三家每次发新模型后就 benchmark ，真上手后又不一定跟 benchmark 的结果一样，大部分人都看厌了。V 站里跟 Google 都有关于图床的免费教程帖在，都读到博士了信息检索能力还这么差？好的帖子内容写的能让 V 友一眼就知道 ga 能做什么，那么大家自然都乐意去尝试，你叽里咕噜说了一堆学术性的东西+拉踩 cc/codex/oc 最后就摆了个 skill 的合集跟用 ga 发了个帖？那除此之外它能实现什么你拉踩的这三家做不到的事？做题做到人做傻了？&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 08 May 2026 07:57:05 +0000</pubDate></item><item><title>AI 写代码越来越强，但它不知道我们上周修了什么 bug，把 Bug 重新引入生产环境了</title><link>https://www.v2ex.com/t/1211151</link><description>&lt;p&gt;三个月前，我们花了两周时间修了一个 bug 。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#81 Bad0Guy&lt;/strong&gt;：@&lt;a href="/member/h4nru1"&gt;h4nru1&lt;/a&gt; 学术归学术，这里需要的是实际可直接落地的项目，而不是 benchmark ，御三家每次发新模型后就 benchmark ，真上手后又不一定跟 benchmark 的结果一样，大部分人都看厌了。V 站里跟 Google 都有关于图床的免费教程帖在，都读到博士了信息检索能力还这么差？好的帖子内容写的能让 V 友一眼就知道 ga 能做什么，那么大家自然都乐意去尝试，你叽里咕噜说了一堆学术性的东西+拉踩 cc/codex/oc 最后就摆了个 skill 的合集跟用 ga 发了个帖？那除此之外它能实现什么你拉踩的这三家做不到的事？做题做到人做傻了？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#82 fishlium&lt;/strong&gt;：我使用了一周了，这个浏览器操作确实不错，有人也提取了一个 mcp 。我把 openclaw 上的一个工作流程迁移过来，遇到一些问题。一个是这个不支持多智能体，这个还不是主要的，主要是这个经常运行会没执行中断，还有会出现上下文丢失，经常让他继续，他都不知道上一句是干撒的呢，去干很久以前的事&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#83 h4nru1&lt;/strong&gt;：@&lt;a href="/member/Bad0Guy"&gt;Bad0Guy&lt;/a&gt; 1 、事实是我懒得信息检索。会弄图床很了不起吗？是你检索相关教程然后按步骤操作快还是我打一行字快？ 2 、你看不懂的东西不代表别人看不懂 3 、我不是你们 v 友，不知道你们规矩这么大，假如触犯你们天条了，那我认罪认罚  = =&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#84 h4nru1&lt;/strong&gt;：@&lt;a href="/member/fishlium"&gt;fishlium&lt;/a&gt; 麻烦关注我的下一篇帖子，我会具体讲如何实现多智能体。在我们的视角里，多智能体是在约束下催生的涌现能力：主 agent 完全可以通过 code_run 去调用自己，然后起 agent team 。ga 本质上也可以自 cli 。至于上下文的问题，可能需要你提供更具体的信息才好判断。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#85 fishlium&lt;/strong&gt;：@&lt;a href="/member/h4nru1"&gt;h4nru1&lt;/a&gt; 现在是用 subagent 替代的，本质上很多情况其实用不到 agent team ，agent team 主要还是探索使用，但是要自己启 agent team 还是有很多问题要解决的。上下文这个问题我自己也在看，而且我最近发现好像通过飞书比通过自带的 streamlit ui 更容易出现这个问题，按理说是没有关系的。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#86 h4nru1&lt;/strong&gt;：@&lt;a href="/member/fishlium"&gt;fishlium&lt;/a&gt; 飞书有可能是因为他的卡片有 200 的的元素变化的限制，你更新最新版代码这个问题应该解决了。subagent 是为了隔离上下文，防止污染，如果你自己脑海里有明确的想法，可以在提示词中显式的提示；通过 plan 模式可以天生解决这个问题，plan 模式+监察者本质上就是多 agent 协作。启动方式，在提示词中写：开 plan 模式帮我 xxxx&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#87 Bad0Guy&lt;/strong&gt;：@&lt;a href="/member/h4nru1"&gt;h4nru1&lt;/a&gt; 你打那一行废话的时间都能让 agent 检索完信息并且粘贴了，跟了不起没有任何关系。其次你自己看看评论区有几个人是能耐心看你 bb 一堆所谓的 score ？都读到博士了连宣传项目的帖子都不会让 AI 润色下然后再发？🤷&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#88 h4nru1&lt;/strong&gt;：@&lt;a href="/member/Bad0Guy"&gt;Bad0Guy&lt;/a&gt; 我就是不想用 ai 润色，人与人的交流最重要的就是真诚，我想怎么说怎么说。“其次你自己看看评论区有几个人是能耐心看你 bb 一堆所谓的 score”，不要以己度人:)&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#89 Bad0Guy&lt;/strong&gt;：@&lt;a href="/member/h4nru1"&gt;h4nru1&lt;/a&gt; 是我以己度人还是你这个所谓的“博士”对于评论区的理解能力比 AI 还烂？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#90 gbin&lt;/strong&gt;：看了下 GenericAgent ，本质还是 computer use 那套，操控浏览器去点点点。&lt;br/&gt;&lt;br/&gt;我自己试下来这条路走不通。拿 X 举例，用浏览器操控搜个推文，截屏+识别+点击+等渲染，一趟下来十几秒、几千 token 。我直接写了个 skill 调 X 的 GraphQL API ，200ms 回来结构化 JSON ，token 消耗大概是前者的 1/10 。&lt;br/&gt;&lt;br/&gt;浏览器适合一次性的事情，高频操作还是得走 API 。代价就是每个平台要写一遍脚本，但写完就是纯收益。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#91 h4nru1&lt;/strong&gt;：@&lt;a href="/member/gbin"&gt;gbin&lt;/a&gt; 有些必须要点点点的，比如微信操作，那点点点总没错吧，但是不需要点点点的，当然直接用 api 更好咯～总之有这个能力，当然比没有好很多&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#92 onedge&lt;/strong&gt;：是不是比它省 &lt;a href="https://github.com/rtk-ai/rtk" rel="nofollow noopener" target="_blank"&gt;https://github.com/rtk-ai/rtk&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#93 gbin&lt;/strong&gt;：@&lt;a href="/member/h4nru1"&gt;h4nru1&lt;/a&gt; 理论上都可以 API 画，MS Teams 本质上和微信一样，也可以全部 API 自动化 &lt;a href="https://github.com/sigcli/sigcli/tree/main/skills/msteams" rel="nofollow noopener" target="_blank"&gt;https://github.com/sigcli/sigcli/tree/main/skills/msteams&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;我认为未来浏览器不在被需要，AI Agent 就是用户流量入口，所有系统都必须支持 AI Agent 友好的接口&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#94 h4nru1&lt;/strong&gt;：@&lt;a href="/member/gbin"&gt;gbin&lt;/a&gt; 非常认同！所有的程序入口都应该是设计给 llm 看的！&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 08 May 2026 07:57:05 +0000</pubDate></item><item><title>AI 写代码越来越强，但它不知道我们上周修了什么 bug，把 Bug 重新引入生产环境了</title><link>https://www.v2ex.com/t/1211151</link><description>&lt;p&gt;三个月前，我们花了两周时间修了一个 bug 。&lt;/p&gt;
 &lt;p&gt;用户账单偶尔会出现 ¥0.01 的误差。复现不稳定，线上偶发，客服一直在手动补差价。翻遍了日志，最后定位到一个经典问题：浮点数精度。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;0.1 + 0.2&lt;/code&gt; 在 IEEE 754 里不等于 &lt;code&gt;0.3&lt;/code&gt;，这个大家都听说过，但真的踩到还是很痛。&lt;/p&gt;
 &lt;p&gt;修复方案是把所有金额改成以「分」为单位存整数，展示时再除以 100 。改动不复杂，但涉及的地方很多，改完之后代码里到处是 &lt;code&gt;amount * 100&lt;/code&gt;、&lt;code&gt;Math.round()&lt;/code&gt;、&lt;code&gt;/ 100&lt;/code&gt;，看起来有点丑，但能用，bug 消失了。&lt;/p&gt;
@@ -225,7 +242,7 @@
 &lt;hr/&gt;
 &lt;p&gt;你们有没有被 Agent 悄悄还原过某个 bug 修复？现在是怎么防的？&lt;/p&gt;
 &lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-05-08 15:39:50 +08:00"&gt;7h 37m ago&lt;/span&gt;
+Supplement 1  ·  &lt;span title="2026-05-08 15:39:50 +08:00"&gt;9h 24m ago&lt;/span&gt;
 
 看看我们的图哈，用在自己产品上的，每个意图都可以追踪、review： &lt;a href="https://i.imgur.com/h8i2pY3.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/h8i2pY3.png"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;产品已经开源： &lt;a href="https://github.com/mainline-org/mainline" rel="nofollow noopener" target="_blank"&gt;https://github.com/mainline-org/mainline&lt;/a&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
@@ -323,7 +340,9 @@ Supplement 1  ·  &lt;span title="2026-05-08 15:39:50 +08:00"&gt;7h 37m ago&lt
 &lt;p&gt;&lt;strong&gt;#92 huoru&lt;/strong&gt;：@&lt;a href="/member/qianlifeng"&gt;qianlifeng&lt;/a&gt; 是的，但也有上下文限制以及注意力的问题。而且 grep 、sed 也不够准确&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#93 yufeng0681&lt;/strong&gt;：@&lt;a href="/member/freemoon"&gt;freemoon&lt;/a&gt; #6 测试发现了问题，也属于事后了。op 表达的意思应该是事前要做到位，不要产生无畏的劳动，蛮消耗 token 的&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#94 huoru&lt;/strong&gt;：@&lt;a href="/member/yufeng0681"&gt;yufeng0681&lt;/a&gt; 你总结得太好了😉&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#95 mangoDB&lt;/strong&gt;：楼主，说实话，相较于你着重强调的“AI 引入 bug”这一问题，我更为震惊的是，在你们的业务场景中，涉及“金融及金额的小数运算”时，竟然直接采用了浮点数进行计算。&lt;br/&gt;&lt;br/&gt;上大学时，我们应该都学过浮点精度问题。尤其在刷一些 OJ 题目时，一旦涉及浮点数运算比较大小，就需要自己定义一个精度然后做差判断。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 08 May 2026 05:26:38 +0000</pubDate></item><item><title>[压力测试] Codex GPT-5.5 新中转站开业，人人免费领 3 亿 token， 评论立送 300 美刀/月会员</title><link>https://www.v2ex.com/t/1211140</link><description>新用户注册立刻到账 15 天 Pro 会员， &lt;br/&gt;评论留下编号额外送 15 天 Pro 会员 &lt;br/&gt;合计最高可领取 30 天 Pro 会员 （ 300 刀 GPT API 额度 ~ 3 亿 token ） ，&lt;br/&gt;&lt;br/&gt;为防止薅羊毛，5H 限流 10 刀 ，300 刀额度分 4 周发放&lt;br/&gt; 邀请好友可以获得 5 刀额外额度&lt;br/&gt;&lt;br/&gt;300 美刀约可调用 3 亿 token ，包含 input output&lt;br/&gt;&lt;br/&gt;链接： &lt;a href="https://freemodel.dev" rel="nofollow noopener" target="_blank"&gt;https://freemodel.dev&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;评论福利限前 1000 名
+&lt;p&gt;&lt;strong&gt;#95 mangoDB&lt;/strong&gt;：楼主，说实话，相较于你着重强调的“AI 引入 bug”这一问题，我更为震惊的是，在你们的业务场景中，涉及“金融及金额的小数运算”时，竟然直接采用了浮点数进行计算。&lt;br/&gt;&lt;br/&gt;上大学时，我们应该都学过浮点精度问题。尤其在刷一些 OJ 题目时，一旦涉及浮点数运算比较大小，就需要自己定义一个精度然后做差判断。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#96 huoru&lt;/strong&gt;：@&lt;a href="/member/mangoDB"&gt;mangoDB&lt;/a&gt; 很多人没这个基础知识啊。。🤣不是所有人都是科班出身的，也有 PM 转代码的。。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#97 aureole999&lt;/strong&gt;：@&lt;a href="/member/huoru"&gt;huoru&lt;/a&gt; 系统设计 db 设计到实现上线整个流程没一个科班的？你直接让 ai 设计一个保存账单的表 ai 都会提到不要用 float double&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 08 May 2026 05:26:38 +0000</pubDate></item><item><title>[压力测试] Codex GPT-5.5 新中转站开业，人人免费领 3 亿 token， 评论立送 300 美刀/月会员</title><link>https://www.v2ex.com/t/1211140</link><description>新用户注册立刻到账 15 天 Pro 会员， &lt;br/&gt;评论留下编号额外送 15 天 Pro 会员 &lt;br/&gt;合计最高可领取 30 天 Pro 会员 （ 300 刀 GPT API 额度 ~ 3 亿 token ） ，&lt;br/&gt;&lt;br/&gt;为防止薅羊毛，5H 限流 10 刀 ，300 刀额度分 4 周发放&lt;br/&gt; 邀请好友可以获得 5 刀额外额度&lt;br/&gt;&lt;br/&gt;300 美刀约可调用 3 亿 token ，包含 input output&lt;br/&gt;&lt;br/&gt;链接： &lt;a href="https://freemodel.dev" rel="nofollow noopener" target="_blank"&gt;https://freemodel.dev&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;评论福利限前 1000 名
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 lich13&lt;/strong&gt;：FRE-64bd30b9 感谢&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#2 engiun&lt;/strong&gt;：FRE-4f5137b8 已注册，感谢～&lt;/p&gt;&lt;hr/&gt;
@@ -460,9 +479,14 @@ Supplement 1  ·  &lt;span title="2026-05-08 15:39:50 +08:00"&gt;7h 37m ago&lt
 &lt;p&gt;官网： &lt;a href="https://link-ai.cc" rel="nofollow"&gt;https://link-ai.cc&lt;/a&gt;
 (欢迎各位 V 友压力测试，有任何降智证据欢迎打脸回帖！)&lt;/p&gt;
 &lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-05-08 13:24:10 +08:00"&gt;9h 52m ago&lt;/span&gt;
+Supplement 1  ·  &lt;span title="2026-05-08 13:24:10 +08:00"&gt;11h 41m ago&lt;/span&gt;
 
 现在新站做活动阶段，0.9 元人民币 = 1 美元！&lt;br/&gt;截止现在 截止 15 楼均赠送 10 美金完毕！&lt;br/&gt;有未及时到账的请联系楼主噢~！
+
+&lt;hr/&gt;
+Supplement 2  ·  &lt;span title="2026-05-09 00:04:50 +08:00"&gt;1h 1m ago&lt;/span&gt;
+
+[5 月 8 日抽奖结果公示]&lt;br/&gt;&lt;br/&gt;今日上证收盘：4179.95 （取整数部分 4179 ）&lt;br/&gt;统计楼层： 截至 23:59 共 177 楼&lt;br/&gt;计算公式： (4179 % 177) + 1 = 109&lt;br/&gt;中奖结果： 恭喜 109 楼 的 V 友！请联系站长或在后台查看 $100 美元余额奖励。
 
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 huangyin0514&lt;/strong&gt;：晚上给大家统一添加余额，都会有的！&lt;br/&gt;&lt;br/&gt;没想到这么多人，因为是手工一个个添加，不会太快，大家见谅！&lt;/p&gt;&lt;hr/&gt;
