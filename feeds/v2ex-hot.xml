@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>V2EX-最热主题</title><link>https://www.v2ex.com/</link><description>V2EX-最热主题 - Powered by RSSHub</description><language>zh-CN</language><lastBuildDate>Sun, 10 May 2026 12:49:01 +0000</lastBuildDate><item><title>Deekseek v4 真不错，一天时间写了一个 rust 的 trojan 的服务端</title><link>https://www.v2ex.com/t/1211677</link><description>flash 就很好了，pro 除了慢，暂时没看出优点。&lt;br/&gt;如题 trojan rust  grpc ，又快又稳，之前一直用的大佬写的 go 版 ws 协议，5 年了，稍微慢点也很稳，想想不如自己手搓一个。&lt;br/&gt;rust 0 基础，8 小时，花了 5 块不到，又快又稳。&lt;br/&gt;配上年初抢的，很多人看不上 19.9 一年的的搬瓦工，晚点 8 点半，油管 2k60 帧，带宽跑到 120MB 。
 &lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-05-10 22:04:06 +08:00"&gt;6h 33m ago&lt;/span&gt;
+Supplement 1  ·  &lt;span title="2026-05-10 22:04:06 +08:00"&gt;8h 35m ago&lt;/span&gt;
 &lt;a href="https://i.imgur.com/HzaYhsZ.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/HzaYhsZ.png"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="https://i.imgur.com/bKx2C6u.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/bKx2C6u.png"/&gt;&lt;/a&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 zsj1029&lt;/strong&gt;：烧了 8000w token 吧&lt;/p&gt;&lt;hr/&gt;
@@ -41,7 +41,8 @@ Supplement 1  ·  &lt;span title="2026-05-10 22:04:06 +08:00"&gt;6h 33m ago&lt
 &lt;p&gt;&lt;strong&gt;#35 zsj1029&lt;/strong&gt;：@&lt;a href="/member/easylee"&gt;easylee&lt;/a&gt; 直接干，因为我不喜欢设计前置，很多时候它会给出 md 建议，可能比人思考的更全面&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#36 mewking&lt;/strong&gt;：@&lt;a href="/member/zsj1029"&gt;zsj1029&lt;/a&gt; 本地 qwen3.6 27b ？ gemma4 31b ？这两个都搞不定是吧，比 V4 flash 差距很大？还是说本地只是慢&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#37 zsj1029&lt;/strong&gt;：@&lt;a href="/member/mewking"&gt;mewking&lt;/a&gt; qwen3.6 本地能干的，前面我让他参照 go 版用 dart 重构，最后跑通了，只是过程太久了上下文一上来会掉速度。最后发现涉及到数据包处理 cpu 密集，性能 dart 不适合，才换了 rust 和 deepseek&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#38 Nzelites&lt;/strong&gt;：dsflash 真的很不错，超乎预期，极其有性价比&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 10 May 2026 12:49:01 +0000</pubDate></item><item><title>安卓 17 没人讨论吗？要出 PC 桌面模式了</title><link>https://www.v2ex.com/t/1211669</link><description>&lt;p&gt;以后折叠屏安卓可以做不少事情了。
+&lt;p&gt;&lt;strong&gt;#38 Nzelites&lt;/strong&gt;：dsflash 真的很不错，超乎预期，极其有性价比&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#39 dododook&lt;/strong&gt;：小白求助，用的啥客户端呀我现在就会反重力，想试试大佬说的 deekseekv4 不知道怎么弄。。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 10 May 2026 12:49:01 +0000</pubDate></item><item><title>安卓 17 没人讨论吗？要出 PC 桌面模式了</title><link>https://www.v2ex.com/t/1211669</link><description>&lt;p&gt;以后折叠屏安卓可以做不少事情了。
 远程桌面到刷系统，代替现有轻薄笔记本的部分功能。
 加上一线通，处理本地的部分工作，娱乐视频也不错。
 原生 linux ，超长的待机。
@@ -77,9 +78,10 @@ Supplement 1  ·  &lt;span title="2026-05-10 22:04:06 +08:00"&gt;6h 33m ago&lt
 &lt;p&gt;&lt;strong&gt;#28 PhoenixDancing&lt;/strong&gt;：@&lt;a href="/member/lance07"&gt;lance07&lt;/a&gt; 好吧，看来我理解有问题，我觉得是非常好的一个功能&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#29 eroneko&lt;/strong&gt;：国产安卓会不会砍掉还不好说&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#30 billccn&lt;/strong&gt;：我用三星 Dex 办公快 4 年了，公司提供 USB-C 一线通显示器，键盘鼠标都是通过显示器（当然蓝牙的也可以），手机解锁以后插上去桌面就出来了，和以前笔记本扩展坞一样。现在的旗舰机 10 核+CPU 、12G 内存都很常见，配置比有些轻薄本还适合办公。&lt;br/&gt;&lt;br/&gt;软件上国外很多一线生产力软件已经适配了，Office 套件在 Dex 打开是桌面版的 UI ，比网页版全，但没有 VBA 等难以移植功能。Chrome 也是桌面版多标签页布局，支持键盘快捷键。简单的代码工作可以通过网页版 VS Code 完成，Termux 软件可以运行一些 Linux 桌面程序，但是再复杂一点的 IDE 就需要远程桌面了，希望以后有厂家适配。&lt;br/&gt;&lt;br/&gt;至少三星的实现比较大的一个 bug 就是输入法一定会在手机屏幕显示，如果切换到中文开始打那手机就会自动亮屏显示候选词列表，我觉得这个后面会修。另外从 One UI 8 （ Android 16 ）开始三星弃用了自己的魔改改用 Android 官方的实现，实际上功能是严重缩水的，希望下一版能加回来。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#31 westerndream&lt;/strong&gt;：生产力可能还得靠 linux 容器那边，以及这种桌面模式用来接 XR 眼镜不错，但其实这样娱乐还行办公有点难受的，我试过华为机的桌面模式+0DoF 的眼镜，远程桌面办公，外接键鼠，一下子就眩晕了，可能需要 3DoF 甚至 6DoF 眼镜才能解决&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 10 May 2026 12:07:32 +0000</pubDate></item><item><title>女朋友怀孕了，要还是不要</title><link>https://www.v2ex.com/t/1211648</link><description>我们在四川的一个四线小城市上班，一起工作了四年多，现在在一起 1 年多了，我 28 岁，她，前几天她大姨妈一直没来，用验孕棒验两条杠，我们都是单亲家庭，也是比较内向的人，能在一起离不开长时间的一起工作，我们性格挺合得来，在一起以后基本上都黏在一起，现在主要有以下几点让我很纠结孩子的去或留&lt;br/&gt;&lt;br/&gt;1 、我们现在的状态很不错，在一起很开心，看了太多网上的案例，担心往后发展就会一地鸡毛&lt;br/&gt;2 、她胆子太小了，比如不敢去见我的家人甚至朋友，下班之后没人和她一起她就不敢出门等，我担心以后遇到事情的时候她没办法和我共度难关&lt;br/&gt;3 、她和我年龄的差距&lt;br/&gt;4 、她比较挑食，非常瘦，很多人看见她都会让她多吃点，我担心她的身体状况&lt;br/&gt;5 、刚还完房贷，手里没存款，还有 7W 左右的负债，每月到手 8K ，没钱办婚礼这些&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;他闺蜜今天陪她去医院去了，我现在还不知道她的想法，请教各位 Ver 的意见，是保持现状还是往前迈一步把孩子留下来
+&lt;p&gt;&lt;strong&gt;#31 westerndream&lt;/strong&gt;：生产力可能还得靠 linux 容器那边，以及这种桌面模式用来接 XR 眼镜不错，但其实这样娱乐还行办公有点难受的，我试过华为机的桌面模式+0DoF 的眼镜，远程桌面办公，外接键鼠，一下子就眩晕了，可能需要 3DoF 甚至 6DoF 眼镜才能解决&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#32 leighton&lt;/strong&gt;：这主要是给将来取代 ChromeOS 的 Aluminium OS 准备的，包括最近 Pixel 里面那个自带 Terminal 也是。最大的意义是官方直接下场，直接推动桌面模式的标准化，应用适配程度和生态繁荣度会高很多。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 10 May 2026 12:07:32 +0000</pubDate></item><item><title>女朋友怀孕了，要还是不要</title><link>https://www.v2ex.com/t/1211648</link><description>我们在四川的一个四线小城市上班，一起工作了四年多，现在在一起 1 年多了，我 28 岁，她，前几天她大姨妈一直没来，用验孕棒验两条杠，我们都是单亲家庭，也是比较内向的人，能在一起离不开长时间的一起工作，我们性格挺合得来，在一起以后基本上都黏在一起，现在主要有以下几点让我很纠结孩子的去或留&lt;br/&gt;&lt;br/&gt;1 、我们现在的状态很不错，在一起很开心，看了太多网上的案例，担心往后发展就会一地鸡毛&lt;br/&gt;2 、她胆子太小了，比如不敢去见我的家人甚至朋友，下班之后没人和她一起她就不敢出门等，我担心以后遇到事情的时候她没办法和我共度难关&lt;br/&gt;3 、她和我年龄的差距&lt;br/&gt;4 、她比较挑食，非常瘦，很多人看见她都会让她多吃点，我担心她的身体状况&lt;br/&gt;5 、刚还完房贷，手里没存款，还有 7W 左右的负债，每月到手 8K ，没钱办婚礼这些&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;他闺蜜今天陪她去医院去了，我现在还不知道她的想法，请教各位 Ver 的意见，是保持现状还是往前迈一步把孩子留下来
 &lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-05-10 19:29:39 +08:00"&gt;9h 10m ago&lt;/span&gt;
+Supplement 1  ·  &lt;span title="2026-05-10 19:29:39 +08:00"&gt;11h 10m ago&lt;/span&gt;
 
 谢谢大家的回复，我确实是顾虑太多，你们的话让我想起八年前爬雪山的感觉，那时我刚毕业一个人背个包天不怕地不怕的到处跑，时不我待，我准备去和她去表面我的态度
 
@@ -150,7 +152,8 @@ Supplement 1  ·  &lt;span title="2026-05-10 19:29:39 +08:00"&gt;9h 10m ago&lt
 &lt;p&gt;&lt;strong&gt;#64 bclerdx&lt;/strong&gt;：命里该有这一遭。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#65 darkengine&lt;/strong&gt;：为了这娃着想，别要了，真的。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#66 Orange2269&lt;/strong&gt;：有了孩子因为琐事和支出，两个人的矛盾会变多，这是必不可少的，而且养孩子成本比较高。&lt;br/&gt;但是，孩子的陪伴会带来额外的幸福感，当然，前提是你们喜欢孩子。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#67 CWTCheated&lt;/strong&gt;：“宝宝我对硅胶过敏”&lt;br/&gt;“宝宝我希望我们没有任何阻隔的亲密”&lt;br/&gt;“宝宝这样如果你也很喜欢的我们就不要戴了”&lt;br/&gt;“宝宝无论发生什么我都会在你身边对你负责”&lt;br/&gt;“我担心 xx”&lt;br/&gt;&lt;br/&gt;你要么是来引流的，要么就真的是个 cs 。21 世纪第三个十年马上过半了，还他妈有人不知道没准备好要孩子的时候要做防护？你真的讨骂啊&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 10 May 2026 09:17:54 +0000</pubDate></item><item><title>大家的自建 Blog 都是用的什么域名？</title><link>https://www.v2ex.com/t/1211642</link><description>&lt;p&gt;我目前知道 github &lt;a href="http://有免费的.io" rel="nofollow"&gt;有免费的.io&lt;/a&gt;  cf 有免费的.dev&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#67 CWTCheated&lt;/strong&gt;：“宝宝我对硅胶过敏”&lt;br/&gt;“宝宝我希望我们没有任何阻隔的亲密”&lt;br/&gt;“宝宝这样如果你也很喜欢的我们就不要戴了”&lt;br/&gt;“宝宝无论发生什么我都会在你身边对你负责”&lt;br/&gt;“我担心 xx”&lt;br/&gt;&lt;br/&gt;你要么是来引流的，要么就真的是个 cs 。21 世纪第三个十年马上过半了，还他妈有人不知道没准备好要孩子的时候要做防护？你真的讨骂啊&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#68 root01&lt;/strong&gt;：两人做主 无关他人&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 10 May 2026 09:17:54 +0000</pubDate></item><item><title>大家的自建 Blog 都是用的什么域名？</title><link>https://www.v2ex.com/t/1211642</link><description>&lt;p&gt;我目前知道 github &lt;a href="http://有免费的.io" rel="nofollow"&gt;有免费的.io&lt;/a&gt;  cf 有免费的.dev&lt;/p&gt;
 &lt;p&gt;想看看各位大佬们用的哪些域名后缀来搭博客&lt;/p&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 zls3201&lt;/strong&gt;：如果都是个人的可以 me ，如果技术为主 io 啊，机构就 org 或 com ，net 是万能的吧&lt;/p&gt;&lt;hr/&gt;
@@ -185,7 +188,7 @@ Supplement 1  ·  &lt;span title="2026-05-10 19:29:39 +08:00"&gt;9h 10m ago&lt
 &lt;p&gt;这样你至少积累了项目经验，其次出了口气。因为有 ai 在，这些也不难，你也可以多一些 AI 经验。&lt;/p&gt;
 &lt;p&gt;这样你的前司就属于是 成也 AI ，败也 AI 。&lt;/p&gt;
 &lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-05-10 15:01:07 +08:00"&gt;13h 35m ago&lt;/span&gt;
+Supplement 1  ·  &lt;span title="2026-05-10 15:01:07 +08:00"&gt;15h 34m ago&lt;/span&gt;
 
 有好几个反对的，不知道啥原因，是因为自身是老板，刚裁了员工吗？&lt;br/&gt;&lt;br/&gt;我的提议会一个待业的高程序员来说有什么缺点或者损害吗？
 
