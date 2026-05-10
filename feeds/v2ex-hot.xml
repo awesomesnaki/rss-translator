@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>V2EX-最热主题</title><link>https://www.v2ex.com/</link><description>V2EX-最热主题 - Powered by RSSHub</description><language>zh-CN</language><lastBuildDate>Sun, 10 May 2026 12:49:01 +0000</lastBuildDate><item><title>Deekseek v4 真不错，一天时间写了一个 rust 的 trojan 的服务端</title><link>https://www.v2ex.com/t/1211677</link><description>flash 就很好了，pro 除了慢，暂时没看出优点。&lt;br/&gt;如题 trojan rust  grpc ，又快又稳，之前一直用的大佬写的 go 版 ws 协议，5 年了，稍微慢点也很稳，想想不如自己手搓一个。&lt;br/&gt;rust 0 基础，8 小时，花了 5 块不到，又快又稳。&lt;br/&gt;配上年初抢的，很多人看不上 19.9 一年的的搬瓦工，晚点 8 点半，油管 2k60 帧，带宽跑到 120MB 。
 &lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-05-10 22:04:06 +08:00"&gt;2h 41m ago&lt;/span&gt;
+Supplement 1  ·  &lt;span title="2026-05-10 22:04:06 +08:00"&gt;4h 45m ago&lt;/span&gt;
 &lt;a href="https://i.imgur.com/HzaYhsZ.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/HzaYhsZ.png"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="https://i.imgur.com/bKx2C6u.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/bKx2C6u.png"/&gt;&lt;/a&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 zsj1029&lt;/strong&gt;：烧了 8000w token 吧&lt;/p&gt;&lt;hr/&gt;
@@ -38,7 +38,10 @@ Supplement 1  ·  &lt;span title="2026-05-10 22:04:06 +08:00"&gt;2h 41m ago&lt
 &lt;p&gt;&lt;strong&gt;#32 humbass&lt;/strong&gt;：自从 Cloud 被封，就改用 DeepSeek v4 flash ，相当不错。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#33 easylee&lt;/strong&gt;：用的原生 claude code 直接干，还是加了什么帮助的 skill/plugin 吗？&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#34 ClericPy&lt;/strong&gt;：@&lt;a href="/member/zsj1029"&gt;zsj1029&lt;/a&gt; &lt;br/&gt;是啊，我以前一直是 3 个 glm5 turbo + 1 个 5.1 ，结果没见它调用过 5.1&lt;br/&gt;&lt;br/&gt;此外 effort Level 用垃圾模型会开到 high 、max ，用 5.1 的时候默认或 auto 似乎就够了。&lt;br/&gt;&lt;br/&gt;既然你也赞同三小一大，那我不用三大一小了，太慢。spec 写的好，需求说的清楚，根本用不着太聪明的模型&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#35 zsj1029&lt;/strong&gt;：@&lt;a href="/member/easylee"&gt;easylee&lt;/a&gt; 直接干，因为我不喜欢设计前置，很多时候它会给出 md 建议，可能比人思考的更全面&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 10 May 2026 12:49:01 +0000</pubDate></item><item><title>安卓 17 没人讨论吗？要出 PC 桌面模式了</title><link>https://www.v2ex.com/t/1211669</link><description>&lt;p&gt;以后折叠屏安卓可以做不少事情了。
+&lt;p&gt;&lt;strong&gt;#35 zsj1029&lt;/strong&gt;：@&lt;a href="/member/easylee"&gt;easylee&lt;/a&gt; 直接干，因为我不喜欢设计前置，很多时候它会给出 md 建议，可能比人思考的更全面&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#36 mewking&lt;/strong&gt;：@&lt;a href="/member/zsj1029"&gt;zsj1029&lt;/a&gt; 本地 qwen3.6 27b ？ gemma4 31b ？这两个都搞不定是吧，比 V4 flash 差距很大？还是说本地只是慢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#37 zsj1029&lt;/strong&gt;：@&lt;a href="/member/mewking"&gt;mewking&lt;/a&gt; qwen3.6 本地能干的，前面我让他参照 go 版用 dart 重构，最后跑通了，只是过程太久了上下文一上来会掉速度。最后发现涉及到数据包处理 cpu 密集，性能 dart 不适合，才换了 rust 和 deepseek&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#38 Nzelites&lt;/strong&gt;：dsflash 真的很不错，超乎预期，极其有性价比&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 10 May 2026 12:49:01 +0000</pubDate></item><item><title>安卓 17 没人讨论吗？要出 PC 桌面模式了</title><link>https://www.v2ex.com/t/1211669</link><description>&lt;p&gt;以后折叠屏安卓可以做不少事情了。
 远程桌面到刷系统，代替现有轻薄笔记本的部分功能。
 加上一线通，处理本地的部分工作，娱乐视频也不错。
 原生 linux ，超长的待机。
@@ -71,9 +74,11 @@ Supplement 1  ·  &lt;span title="2026-05-10 22:04:06 +08:00"&gt;2h 41m ago&lt
 &lt;p&gt;&lt;strong&gt;#25 PhoenixDancing&lt;/strong&gt;：@&lt;a href="/member/cpstar"&gt;cpstar&lt;/a&gt; 操作系统，突然多出来几家，怪不得微软要提高 WIN 的质量。苹果的 neo ，安卓的桌面，鸿蒙也要有，还有 ubuntu 等。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#26 strobber16&lt;/strong&gt;：感觉不如微内核&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#27 lance07&lt;/strong&gt;：本来就很多手机都有的功能，根本没见啥人用，根本不是原生不原生的问题，就是伪需求&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#28 PhoenixDancing&lt;/strong&gt;：@&lt;a href="/member/lance07"&gt;lance07&lt;/a&gt; 好吧，看来我理解有问题，我觉得是非常好的一个功能&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 10 May 2026 12:07:32 +0000</pubDate></item><item><title>女朋友怀孕了，要还是不要</title><link>https://www.v2ex.com/t/1211648</link><description>我们在四川的一个四线小城市上班，一起工作了四年多，现在在一起 1 年多了，我 28 岁，她，前几天她大姨妈一直没来，用验孕棒验两条杠，我们都是单亲家庭，也是比较内向的人，能在一起离不开长时间的一起工作，我们性格挺合得来，在一起以后基本上都黏在一起，现在主要有以下几点让我很纠结孩子的去或留&lt;br/&gt;&lt;br/&gt;1 、我们现在的状态很不错，在一起很开心，看了太多网上的案例，担心往后发展就会一地鸡毛&lt;br/&gt;2 、她胆子太小了，比如不敢去见我的家人甚至朋友，下班之后没人和她一起她就不敢出门等，我担心以后遇到事情的时候她没办法和我共度难关&lt;br/&gt;3 、她和我年龄的差距&lt;br/&gt;4 、她比较挑食，非常瘦，很多人看见她都会让她多吃点，我担心她的身体状况&lt;br/&gt;5 、刚还完房贷，手里没存款，还有 7W 左右的负债，每月到手 8K ，没钱办婚礼这些&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;他闺蜜今天陪她去医院去了，我现在还不知道她的想法，请教各位 Ver 的意见，是保持现状还是往前迈一步把孩子留下来
+&lt;p&gt;&lt;strong&gt;#28 PhoenixDancing&lt;/strong&gt;：@&lt;a href="/member/lance07"&gt;lance07&lt;/a&gt; 好吧，看来我理解有问题，我觉得是非常好的一个功能&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#29 eroneko&lt;/strong&gt;：国产安卓会不会砍掉还不好说&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#30 billccn&lt;/strong&gt;：我用三星 Dex 办公快 4 年了，公司提供 USB-C 一线通显示器，键盘鼠标都是通过显示器（当然蓝牙的也可以），手机解锁以后插上去桌面就出来了，和以前笔记本扩展坞一样。现在的旗舰机 10 核+CPU 、12G 内存都很常见，配置比有些轻薄本还适合办公。&lt;br/&gt;&lt;br/&gt;软件上国外很多一线生产力软件已经适配了，Office 套件在 Dex 打开是桌面版的 UI ，比网页版全，但没有 VBA 等难以移植功能。Chrome 也是桌面版多标签页布局，支持键盘快捷键。简单的代码工作可以通过网页版 VS Code 完成，Termux 软件可以运行一些 Linux 桌面程序，但是再复杂一点的 IDE 就需要远程桌面了，希望以后有厂家适配。&lt;br/&gt;&lt;br/&gt;至少三星的实现比较大的一个 bug 就是输入法一定会在手机屏幕显示，如果切换到中文开始打那手机就会自动亮屏显示候选词列表，我觉得这个后面会修。另外从 One UI 8 （ Android 16 ）开始三星弃用了自己的魔改改用 Android 官方的实现，实际上功能是严重缩水的，希望下一版能加回来。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 10 May 2026 12:07:32 +0000</pubDate></item><item><title>女朋友怀孕了，要还是不要</title><link>https://www.v2ex.com/t/1211648</link><description>我们在四川的一个四线小城市上班，一起工作了四年多，现在在一起 1 年多了，我 28 岁，她，前几天她大姨妈一直没来，用验孕棒验两条杠，我们都是单亲家庭，也是比较内向的人，能在一起离不开长时间的一起工作，我们性格挺合得来，在一起以后基本上都黏在一起，现在主要有以下几点让我很纠结孩子的去或留&lt;br/&gt;&lt;br/&gt;1 、我们现在的状态很不错，在一起很开心，看了太多网上的案例，担心往后发展就会一地鸡毛&lt;br/&gt;2 、她胆子太小了，比如不敢去见我的家人甚至朋友，下班之后没人和她一起她就不敢出门等，我担心以后遇到事情的时候她没办法和我共度难关&lt;br/&gt;3 、她和我年龄的差距&lt;br/&gt;4 、她比较挑食，非常瘦，很多人看见她都会让她多吃点，我担心她的身体状况&lt;br/&gt;5 、刚还完房贷，手里没存款，还有 7W 左右的负债，每月到手 8K ，没钱办婚礼这些&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;他闺蜜今天陪她去医院去了，我现在还不知道她的想法，请教各位 Ver 的意见，是保持现状还是往前迈一步把孩子留下来
 &lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-05-10 19:29:39 +08:00"&gt;5h 14m ago&lt;/span&gt;
+Supplement 1  ·  &lt;span title="2026-05-10 19:29:39 +08:00"&gt;7h 20m ago&lt;/span&gt;
 
 谢谢大家的回复，我确实是顾虑太多，你们的话让我想起八年前爬雪山的感觉，那时我刚毕业一个人背个包天不怕地不怕的到处跑，时不我待，我准备去和她去表面我的态度
 
@@ -143,13 +148,43 @@ Supplement 1  ·  &lt;span title="2026-05-10 19:29:39 +08:00"&gt;5h 14m ago&lt
 &lt;p&gt;&lt;strong&gt;#63 PRD&lt;/strong&gt;：四线到手 8k 很不错了， 日子会好起来的 加油&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#64 bclerdx&lt;/strong&gt;：命里该有这一遭。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#65 darkengine&lt;/strong&gt;：为了这娃着想，别要了，真的。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#66 Orange2269&lt;/strong&gt;：有了孩子因为琐事和支出，两个人的矛盾会变多，这是必不可少的，而且养孩子成本比较高。&lt;br/&gt;但是，孩子的陪伴会带来额外的幸福感，当然，前提是你们喜欢孩子。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 10 May 2026 09:17:54 +0000</pubDate></item><item><title>我有一招可以在裁员潮的当下反击你的老板，并提高自身竞争力。</title><link>https://www.v2ex.com/t/1211625</link><description>&lt;p&gt;那就是用 AI 把前公司的产品搓出来，可以是个 lite 版，挑高品质功能/内容。然后开源。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#66 Orange2269&lt;/strong&gt;：有了孩子因为琐事和支出，两个人的矛盾会变多，这是必不可少的，而且养孩子成本比较高。&lt;br/&gt;但是，孩子的陪伴会带来额外的幸福感，当然，前提是你们喜欢孩子。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#67 CWTCheated&lt;/strong&gt;：“宝宝我对硅胶过敏”&lt;br/&gt;“宝宝我希望我们没有任何阻隔的亲密”&lt;br/&gt;“宝宝这样如果你也很喜欢的我们就不要戴了”&lt;br/&gt;“宝宝无论发生什么我都会在你身边对你负责”&lt;br/&gt;“我担心 xx”&lt;br/&gt;&lt;br/&gt;你要么是来引流的，要么就真的是个 cs 。21 世纪第三个十年马上过半了，还他妈有人不知道没准备好要孩子的时候要做防护？你真的讨骂啊&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 10 May 2026 09:17:54 +0000</pubDate></item><item><title>大家的自建 Blog 都是用的什么域名？</title><link>https://www.v2ex.com/t/1211642</link><description>&lt;p&gt;我目前知道 github &lt;a href="http://有免费的.io" rel="nofollow"&gt;有免费的.io&lt;/a&gt;  cf 有免费的.dev&lt;/p&gt;
+&lt;p&gt;想看看各位大佬们用的哪些域名后缀来搭博客&lt;/p&gt;
+&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;#1 zls3201&lt;/strong&gt;：如果都是个人的可以 me ，如果技术为主 io 啊，机构就 org 或 com ，net 是万能的吧&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#2 MacsedProtoss&lt;/strong&gt;：com 不贵的 cf 买一年就十刀多一点&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#3 wujingquan&lt;/strong&gt;：非大佬，&lt;a href="http://只认.com" rel="nofollow noopener" target="_blank"&gt;只认.com&lt;/a&gt; ，我的 &lt;a href="http://wujingquan.com" rel="nofollow noopener" target="_blank"&gt;wujingquan.com&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#4 Ulduar&lt;/strong&gt;：@&lt;a href="/member/wujingquan"&gt;wujingquan&lt;/a&gt; 大佬很强 google 收录这么多&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#5 loading&lt;/strong&gt;：&lt;a href="http://sync.sh" rel="nofollow noopener" target="_blank"&gt;sync.sh&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;就图个个性，一面域名费好几百。&lt;br/&gt;&lt;br/&gt;博客也好久没写了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#6 Xhack&lt;/strong&gt;：&lt;a href="http://dingqidong.com" rel="nofollow noopener" target="_blank"&gt;dingqidong.com&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#7 AutumnVerse&lt;/strong&gt;：&lt;a href="http://只认.com" rel="nofollow noopener" target="_blank"&gt;只认.com&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#8 chunqiuyiyu&lt;/strong&gt;：只认 com&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#9 huaweii&lt;/strong&gt;：&lt;a href="http://program-think.blogspot.com" rel="nofollow noopener" target="_blank"&gt;program-think.blogspot.com&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#10 liuzimin&lt;/strong&gt;：&lt;a href="http://我用的.com.cn" rel="nofollow noopener" target="_blank"&gt;我用的.com.cn&lt;/a&gt; ，&lt;a href="http://因为我喜欢的域名.com" rel="nofollow noopener" target="_blank"&gt;因为我喜欢的域名.com&lt;/a&gt; 版太贵了，就退而求其次。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#11 lunatic5&lt;/strong&gt;：自荐我的小工具，&lt;a href="https://nextname.app" rel="nofollow noopener" target="_blank"&gt;https://nextname.app&lt;/a&gt; 可以在这里查询哪些后缀可注册，以及对比全球近百家注册商的后缀价格&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#12 shuiduoduo&lt;/strong&gt;：10 年小姨子&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#13 dimlau&lt;/strong&gt;：&lt;a href="http://kaix.in" rel="nofollow noopener" target="_blank"&gt;kaix.in&lt;/a&gt;&lt;br/&gt;续费也不便宜，更新也不频繁，但是不想再换了（最早的几个 .com 域名竟然都是因为错过了邮件而丢了）。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#14 monado&lt;/strong&gt;：.io 域名，最近几年续费价格翻倍了，非常后悔&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#15 Busy&lt;/strong&gt;：哪个便宜用哪个，域名迁移已经几次了，反正自用，不在乎流量&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#16 q000q000&lt;/strong&gt;：.im&lt;br/&gt;.me &lt;br/&gt;便宜，短的好注册。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#17 ccbikai&lt;/strong&gt;：@&lt;a href="/member/loading"&gt;loading&lt;/a&gt; 可以考虑下 	load.ing 了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#18 keyboardCat&lt;/strong&gt;：.me 但是国内不给备案，但也无所谓放 vercel 上面了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#19 glouhao&lt;/strong&gt;：@&lt;a href="/member/MacsedProtoss"&gt;MacsedProtoss&lt;/a&gt; 貌似比国内便宜了，可惜没法备案。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#20 loading&lt;/strong&gt;：@&lt;a href="/member/ccbikai"&gt;ccbikai&lt;/a&gt; 查了可以注册，很高兴，然后发现实力不允许，很失落，doge 。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#21 itechify&lt;/strong&gt;：@&lt;a href="/member/Xhack"&gt;Xhack&lt;/a&gt; 哈哈哈哈哈哈 想起你了 老哥  几年前给你搞 frp 穿透的 😂 dongqilong&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#22 xuejianxianzun&lt;/strong&gt;：用 .love 域名，因为二级域名可以用自己喜欢的角色的名字（没错是二次元角色）&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#23 dasbn&lt;/strong&gt;：订阅多个博客 RSS 后发现，只有公共的域名的存活相对久的多， 于是我放弃了 .me&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#24 Wcowin&lt;/strong&gt;：用的阿里的  .work&lt;br/&gt;&lt;br/&gt;&lt;a href="https://wcowin.work/" rel="nofollow noopener" target="_blank"&gt;https://wcowin.work/&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#25 kuhung&lt;/strong&gt;：&lt;a href="http://kuhung.me" rel="nofollow noopener" target="_blank"&gt;kuhung.me&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#26 pulengba&lt;/strong&gt;：好记，便宜就行，.cc 输这也挺顺手，我的 &lt;a href="https://gaphub.cc" rel="nofollow noopener" target="_blank"&gt;https://gaphub.cc&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#27 oopc&lt;/strong&gt;：&lt;a href="http://ifor.dev" rel="nofollow noopener" target="_blank"&gt;ifor.dev&lt;/a&gt; 作为程序员这个域名真是越看越喜欢&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 10 May 2026 08:44:03 +0000</pubDate></item><item><title>我有一招可以在裁员潮的当下反击你的老板，并提高自身竞争力。</title><link>https://www.v2ex.com/t/1211625</link><description>&lt;p&gt;那就是用 AI 把前公司的产品搓出来，可以是个 lite 版，挑高品质功能/内容。然后开源。&lt;/p&gt;
 &lt;p&gt;你的前司再想搞一些奇怪的收费方式的时候，可能就会有人选择你这个开源竞品了。&lt;/p&gt;
 &lt;p&gt;你还可以麒麟 OS+国密，更有竞争力，而且也不难，golang 写的，别用 cgo ，都可以在麒麟上面跑。目标系统也可以微信小程序。&lt;/p&gt;
 &lt;p&gt;这样你至少积累了项目经验，其次出了口气。因为有 ai 在，这些也不难，你也可以多一些 AI 经验。&lt;/p&gt;
 &lt;p&gt;这样你的前司就属于是 成也 AI ，败也 AI 。&lt;/p&gt;
 &lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-05-10 15:01:07 +08:00"&gt;9h 42m ago&lt;/span&gt;
+Supplement 1  ·  &lt;span title="2026-05-10 15:01:07 +08:00"&gt;11h 49m ago&lt;/span&gt;
 
 有好几个反对的，不知道啥原因，是因为自身是老板，刚裁了员工吗？&lt;br/&gt;&lt;br/&gt;我的提议会一个待业的高程序员来说有什么缺点或者损害吗？
 
@@ -207,40 +242,5 @@ Supplement 1  ·  &lt;span title="2026-05-10 15:01:07 +08:00"&gt;9h 42m ago&lt
 &lt;p&gt;&lt;strong&gt;#51 NonClockworkChen&lt;/strong&gt;：哈哈哈，天才的想法！&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#52 sunyang&lt;/strong&gt;：@&lt;a href="/member/HankAviator"&gt;HankAviator&lt;/a&gt; 番茄没你我不看&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#53 Ericcccccccc&lt;/strong&gt;：思路是错的呀...你都理解不了公司的竞争力在哪&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#54 peter986&lt;/strong&gt;：我只能说你非常无聊&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 10 May 2026 06:03:05 +0000</pubDate></item><item><title>上海电信同城宽带也存在上传达量限速？</title><link>https://www.v2ex.com/t/1211613</link><description>&lt;p&gt;上海电信十全十美 169 套餐，1000/100.和一路 200/30 的副宽带，部署两地，两地直线距离相距 5 公里，一个区，先说一下需求，主要目的是拉取副宽带部署的摄像头流，两地的宽带都在一个 bras 下，两地都有公网，均可以播到 255.255.0.0 的公网段，使用 wireguard 组网，稳定用了好几个月，月流量起码 5T 以上，带宽均可以跑到 5mb 左右。&lt;/p&gt;
-&lt;p&gt;问题出现在 &lt;a href="https://img.cdn1.vip/i/6a000b67be8fa_1778387815.webp" rel="nofollow"&gt;https://img.cdn1.vip/i/6a000b67be8fa_1778387815.webp&lt;/a&gt; ，这个时间 2026.5.7 23:00 。wg 的组网速度下降到 1.5mb 。期间用 iperf3 测速，速度达标，丢包起飞。
-做过的尝试，测速肯定都是正常的，因为有白名单，将 wg 对端域名改成 speedtest ，无效，改成 tcp 协议的组网软件，Easytier ，延迟爆炸 1000ms ，还是限速在 1.5mb 下，观察发现副宽带的公网 ip 池，变成 180.165 了。之前还是 116 ，而且拨号时间重置了，改两个 bras 也是 180.165 这个段，是不是进限速池了/理论上监控传输应该是没啥问题。哎头疼。请问是电信存在限速，那为什么之前用了很久也没事，难不成是电信的限速误判？&lt;/p&gt;
-&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;#1 sonnetbreeze&lt;/strong&gt;：有一样需求的遇到这个问题的吗，同上海的来&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#2 sonnetbreeze&lt;/strong&gt;：期间网络架构都没有改。应该和软件没啥问题&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#3 wtks1&lt;/strong&gt;：电信的阈值调低了呗&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#4 sonnetbreeze&lt;/strong&gt;：这&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#5 alfawei&lt;/strong&gt;：都是电信应该不会吧。 我这边同城不同运营商之前有限速 现在解除了。 我目前城市同城联通速度蛮好，不过流量没有你那边大。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#6 ntedshen&lt;/strong&gt;：没区分到底是省内还是省外呗。。。只要是大流量就切了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#7 sonnetbreeze&lt;/strong&gt;：@&lt;a href="/member/ntedshen"&gt;ntedshen&lt;/a&gt; 感觉应该系统误判&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#8 yinmin&lt;/strong&gt;：在 windows 下执行： &lt;br/&gt;ping -f -l 1464 202.96.209.5&lt;br/&gt;&lt;br/&gt;如果能 ping 通说明宽带 mtu 值为 1492 没进小黑屋。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#9 sonnetbreeze&lt;/strong&gt;：@&lt;a href="/member/yinmin"&gt;yinmin&lt;/a&gt; 主宽带 windows 执行，意思我主宽带被限速了？&lt;br/&gt;C:\Users\Lucas&amp;gt;ping -f -l 1464 202.96.209.5&lt;br/&gt;&lt;br/&gt;正在 Ping 202.96.209.5 具有 1464 字节的数据:&lt;br/&gt;需要拆分数据包但是设置 DF 。&lt;br/&gt;需要拆分数据包但是设置 DF 。&lt;br/&gt;需要拆分数据包但是设置 DF 。&lt;br/&gt;需要拆分数据包但是设置 DF 。&lt;br/&gt;&lt;br/&gt;202.96.209.5 的 Ping 统计信息:&lt;br/&gt;    数据包: 已发送 = 4 ，已接收 = 0 ，丢失 = 4 (100% 丢失)，&lt;br/&gt;&lt;br/&gt;C:\Users\Lucas&amp;gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#10 yinmin&lt;/strong&gt;：@&lt;a href="/member/sonnetbreeze"&gt;sonnetbreeze&lt;/a&gt; #9 是进小黑屋了。&lt;br/&gt;&lt;br/&gt;你是长期 5MBytes/秒，也就是 40Mbps 的上传速度，一个月要 10TB+的上传流量了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#11 sonnetbreeze&lt;/strong&gt;：@&lt;a href="/member/yinmin"&gt;yinmin&lt;/a&gt; 差不多，长期的，10TB+，请问 linux ，openwrt 应该怎么测试，那理论上我部署一个硬盘录像机，看萤石云，那也不分分钟超吗&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#12 sonnetbreeze&lt;/strong&gt;：@&lt;a href="/member/yinmin"&gt;yinmin&lt;/a&gt; 理论上我家主宽带进小黑屋了，副宽带没有，实测，主宽带重新拨号都是 118 段&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#13 yinmin&lt;/strong&gt;：副宽带装摄像头吧？ 副宽带上传/主宽带下载，上行超量限速，是副宽带进小黑屋。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#14 sonnetbreeze&lt;/strong&gt;：@&lt;a href="/member/yinmin"&gt;yinmin&lt;/a&gt; 对副宽带装摄像头，主宽带拉流&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#15 sonnetbreeze&lt;/strong&gt;：@&lt;a href="/member/yinmin"&gt;yinmin&lt;/a&gt; 我那个测试是主宽带的，C:\Users\Lucas&amp;gt;ping -f -l 1464 202.96.209.5&lt;br/&gt;&lt;br/&gt;正在 Ping 202.96.209.5 具有 1464 字节的数据:&lt;br/&gt;需要拆分数据包但是设置 DF 。&lt;br/&gt;需要拆分数据包但是设置 DF 。&lt;br/&gt;需要拆分数据包但是设置 DF 。&lt;br/&gt;需要拆分数据包但是设置 DF 。&lt;br/&gt;&lt;br/&gt;202.96.209.5 的 Ping 统计信息:&lt;br/&gt;数据包: 已发送 = 4 ，已接收 = 0 ，丢失 = 4 (100% 丢失&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#16 MYDB&lt;/strong&gt;：没有什么误判和错判的，单纯就是负责这块业务的开发，被告知代码里不要区分流量来源和去向，他们难道不知道筛选流量吗？更何况负责这块的团队不可能是草台班子&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#17 Umbray&lt;/strong&gt;：非精品网 mtu 不变的，网段可以看出一些端倪，udp 超过 5mbps 丢包严重&lt;br/&gt;试试刷点下载，过几天自动重播就出来了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#18 kidtx&lt;/strong&gt;：同不同城没关系吧  应该是简单的按量一刀切。     关小黑屋&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#19 sonnetbreeze&lt;/strong&gt;：@&lt;a href="/member/kidtx"&gt;kidtx&lt;/a&gt; 无解吗&lt;br/&gt;@&lt;a href="/member/Umbray"&gt;Umbray&lt;/a&gt; 希望如此&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#20 sonnetbreeze&lt;/strong&gt;：这年头，用宽带看摄像头也是奢望了，难不成买个录像机装，用第三方服务萤石云，那不也会限速？，问电信机房的人可不可以解除，他们有权限吗，当时申请公网理由不就是外网看摄像头，现在摄像头也没办法看了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#21 sonnetbreeze&lt;/strong&gt;：现在这限速，摄像头画面都是一帧一帧的，酷似阿波罗登月画面&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#22 fengyaochen&lt;/strong&gt;：所谓的降本增效就是懒政庸政一刀切，这样成本最低效率最高，流量超标就直接限速，简单省事，你要真叫他通过技术手段去识别 PCDN 流量还是正常流量，不是说他没这个技术，而是不符合他这个降本增效的理念&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#23 wtks1&lt;/strong&gt;：@&lt;a href="/member/fengyaochen"&gt;fengyaochen&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;本来打击 PCDN 就是个借口，本质上是跨省结算要钱，毕竟你上传越多他们要交的钱就越多&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#24 ajyz&lt;/strong&gt;：又没明确限速规则，明面上甚至都不承认存在限速，谈何误判。说白了既然都限速了，直接可以按用量来评判何必舍近求远还区分流量明细&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#25 47jm9ozp&lt;/strong&gt;：同一个地域，要不要试试通过 tr069 传数据……&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#26 povsister&lt;/strong&gt;：很明显你上行的宽带进小黑屋了，这种联系装维看他怎么说吧。&lt;br/&gt;你解释来解释去要面对的是省公司的一把大手。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#27 WizardLeo&lt;/strong&gt;：@&lt;a href="/member/Umbray"&gt;Umbray&lt;/a&gt; 早期会变成 1442 的，过了大概一年多才变成即使是 1492 也限速。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#28 linhu66&lt;/strong&gt;：@&lt;a href="/member/yinmin"&gt;yinmin&lt;/a&gt; PS C:\Users\12269&amp;gt; ping -f -l 1464 202.96.209.5&lt;br/&gt;&lt;br/&gt;正在 Ping 202.96.209.5 具有 1464 字节的数据:&lt;br/&gt;来自 202.96.209.5 的回复: 字节=1464 时间=3ms TTL=59&lt;br/&gt;来自 202.96.209.5 的回复: 字节=1464 时间=3ms TTL=59&lt;br/&gt;来自 202.96.209.5 的回复: 字节=1464 时间=2ms TTL=59&lt;br/&gt;来自 202.96.209.5 的回复: 字节=1464 时间=3ms TTL=59&lt;br/&gt;&lt;br/&gt;202.96.209.5 的 Ping 统计信息:&lt;br/&gt;    数据包: 已发送 = 4 ，已接收 = 4 ，丢失 = 0 (0% 丢失)，&lt;br/&gt;往返行程的估计时间(以毫秒为单位):&lt;br/&gt;    最短 = 2ms ，最长 = 3ms ，平均 = 2ms&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#29 sonnetbreeze&lt;/strong&gt;：@&lt;a href="/member/povsister"&gt;povsister&lt;/a&gt; 这理论上同城数据交换不经过省公司，上海市内就交换了，还涉及到结算？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#30 sonnetbreeze&lt;/strong&gt;：@&lt;a href="/member/wtks1"&gt;wtks1&lt;/a&gt; 同城不存在跨省结算把，我尝试优化 bras ，最终一跳就可以到目的地，看 ip 直接在上海市区内就完成交换，我之前用了半年都没问题&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#31 sonnetbreeze&lt;/strong&gt;：@&lt;a href="/member/47jm9ozp"&gt;47jm9ozp&lt;/a&gt; 上海电信 tr069 不需要想了，早堵了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#32 erfesq&lt;/strong&gt;：可以把两条宽带都搞进竞技池 ip 里&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#33 sonnetbreeze&lt;/strong&gt;：@&lt;a href="/member/erfesq"&gt;erfesq&lt;/a&gt; 然后就不限速？&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 10 May 2026 04:49:57 +0000</pubDate></item></channel></rss>
+&lt;p&gt;&lt;strong&gt;#54 peter986&lt;/strong&gt;：我只能说你非常无聊&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#55 WebKit&lt;/strong&gt;：但是我司主要卖硬件，软件是辅助 &lt;a href="https://raw.githubusercontent.com/guozhigq/emoji_storage/main/coolapk/coolapk_emotion_33_wulian.png" rel="nofollow noopener" target="_blank"&gt;https://raw.githubusercontent.com/guozhigq/emoji_storage/main/coolapk/coolapk_emotion_33_wulian.png&lt;/a&gt; &lt;a href="https://raw.githubusercontent.com/guozhigq/emoji_storage/main/coolapk/coolapk_emotion_33_wulian.png" rel="nofollow noopener" target="_blank"&gt;https://raw.githubusercontent.com/guozhigq/emoji_storage/main/coolapk/coolapk_emotion_33_wulian.png&lt;/a&gt; &lt;a href="https://raw.githubusercontent.com/guozhigq/emoji_storage/main/coolapk/coolapk_emotion_33_wulian.png" rel="nofollow noopener" target="_blank"&gt;https://raw.githubusercontent.com/guozhigq/emoji_storage/main/coolapk/coolapk_emotion_33_wulian.png&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 10 May 2026 06:03:05 +0000</pubDate></item></channel></rss>
