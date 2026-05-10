@@ -1,5 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>V2EX-最热主题</title><link>https://www.v2ex.com/</link><description>V2EX-最热主题 - Powered by RSSHub</description><language>zh-CN</language><lastBuildDate>Sun, 10 May 2026 12:07:32 +0000</lastBuildDate><item><title>安卓 17 没人讨论吗？要出 PC 桌面模式了</title><link>https://www.v2ex.com/t/1211669</link><description>&lt;p&gt;以后折叠屏安卓可以做不少事情了。
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>V2EX-最热主题</title><link>https://www.v2ex.com/</link><description>V2EX-最热主题 - Powered by RSSHub</description><language>zh-CN</language><lastBuildDate>Sun, 10 May 2026 12:49:01 +0000</lastBuildDate><item><title>Deekseek v4 真不错，一天时间写了一个 rust 的 trojan 的服务端</title><link>https://www.v2ex.com/t/1211677</link><description>flash 就很好了，pro 除了慢，暂时没看出优点。&lt;br/&gt;如题 trojan rust  grpc ，又快又稳，之前一直用的大佬写的 go 版 ws 协议，5 年了，稍微慢点也很稳，想想不如自己手搓一个。&lt;br/&gt;rust 0 基础，8 小时，花了 5 块不到，又快又稳。&lt;br/&gt;配上年初抢的，很多人看不上 19.9 一年的的搬瓦工，晚点 8 点半，油管 2k60 帧，带宽跑到 120MB 。
+&lt;hr/&gt;
+Supplement 1  ·  &lt;span title="2026-05-10 22:04:06 +08:00"&gt;2h 41m ago&lt;/span&gt;
+&lt;a href="https://i.imgur.com/HzaYhsZ.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/HzaYhsZ.png"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="https://i.imgur.com/bKx2C6u.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/bKx2C6u.png"/&gt;&lt;/a&gt;
+&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;#1 zsj1029&lt;/strong&gt;：烧了 8000w token 吧&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#2 KingFong&lt;/strong&gt;：有对比一下自己实现的和 go 版本的性能差异不？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#3 zsj1029&lt;/strong&gt;：@&lt;a href="/member/KingFong"&gt;KingFong&lt;/a&gt; 比那个快至少 1 倍，加载快很多。go 的 tcp 原版很快，上了 ws 就慢了。这个 grpc 跟 go 的 tcp 速度一样&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#4 KingFong&lt;/strong&gt;：@&lt;a href="/member/zsj1029"&gt;zsj1029&lt;/a&gt; #3 太牛了，你用 ClaudeCode 驱动的 DeepSeek 还是 codex ？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#5 zsj1029&lt;/strong&gt;：@&lt;a href="/member/KingFong"&gt;KingFong&lt;/a&gt; claude 搭配 flash&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#6 strobber16&lt;/strong&gt;：工业级代码不是一次写成的，而是在生产上踩坑修修补补缝出来的。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#7 zsj1029&lt;/strong&gt;：@&lt;a href="/member/strobber16"&gt;strobber16&lt;/a&gt; 那肯定啊，8 小时就是在不断调试，debug 给 ds 修改，重复打包编译，一次性哪要这么久时间，开头一版 10 分钟就出来了，剩下大部分时间都是排查测试问题&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#8 ClericPy&lt;/strong&gt;：所以一直在纠结 claude code 设置的时候&lt;br/&gt;是三个 flash + 一个 pro （ opus ），&lt;br/&gt;还是三个 pro + 一个 flash （ haiku ）&lt;br/&gt;随便找个大模型建议用后者，但看你体验前者也没啥问题？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#9 beihu&lt;/strong&gt;：有 github 地址嘛&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#10 zsj1029&lt;/strong&gt;：@&lt;a href="/member/ClericPy"&gt;ClericPy&lt;/a&gt; 前三个 flash ，最后 opus 改 pro 就行了，不过 cc 没看到主动调用 opus ，必须手动切换模型&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#11 foryou2023&lt;/strong&gt;：确实很不错，个人现在的主力也是 cc + flash,又便宜又好使。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#12 zsj1029&lt;/strong&gt;：@&lt;a href="/member/beihu"&gt;beihu&lt;/a&gt; 怕喝茶，现在不光制作传播要判刑，马上使用人也要处罚了，没敢上传，先用几天稳定了再考虑吧。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#13 zsj1029&lt;/strong&gt;：@&lt;a href="/member/foryou2023"&gt;foryou2023&lt;/a&gt; 嗯嗯，本地有个 a100 ，qwen3.6 27b ，日常完全够用，感觉能有个 flash 7 成功力，就是太慢，时间等不起&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#14 mewking&lt;/strong&gt;：项目完成后有多少行代码？&lt;br/&gt;&lt;br/&gt;8 小时烧了 8000w 。假设在连续生成，不考虑 debug 等中断的时间，2777.78 token/s&lt;br/&gt;&lt;br/&gt;消费级硬件，哪怕能够 30 t/s ，连续生成 8000w 也要 30 天 😭&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#15 mangmaimu&lt;/strong&gt;：虽然但是，建议用 singbox&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#16 zsj1029&lt;/strong&gt;：@&lt;a href="/member/mewking"&gt;mewking&lt;/a&gt; 不是这样算的，token 不只是输出的，真实输出只有 80wtoken ，用过你就知道了，高强度使用，一天随便 1E token ，deepseek 缓存命中率有 90%多，这部分费用非常便宜。&lt;br/&gt;&lt;a href="https://i.imgur.com/2yHbo2x.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/2yHbo2x.png"/&gt;&lt;/a&gt;&lt;br/&gt;上午花了 3 小时做了其他项目，下午才开始写的，今天合计 1e 多，总共花费 6.5 元&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#17 mewking&lt;/strong&gt;：啊啊啊，原来输出才 80w&lt;br/&gt;&lt;br/&gt;我是在等 llama.cpp 支持 V4 flash ，想在在本地用 DDR5 和消费级卡玩一下，预计只有十几 t/s ，乐观估计，未来如果有 dflash ，nvfp4 等优化，或许能接近 30t/s 。用来 vibe 也只能是比较小的工具了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#18 rb6221&lt;/strong&gt;：有没有可能安全和兼容性与成熟产品差太多&lt;br/&gt;兼容性还好，就你自己在用，安全性不够的话，作为梯子来讲就有点严重了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#19 zsj1029&lt;/strong&gt;：@&lt;a href="/member/rb6221"&gt;rb6221&lt;/a&gt; v2ray 小火箭 这两个可以用，我就满足了，没有想着其他方案，自用自建够了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#20 wy315700&lt;/strong&gt;：DeepSeek 长上下文在重构项目方面是个大优势&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#21 swananan&lt;/strong&gt;：最近一直看到机场不稳定的消息，我也在想实在不行就自己写一个（当然不会放出来，只自己用），有 AI 和成熟的库，我感觉搞一个会非常快，甚至还能针对性做点去除流量特征防嗅探之类的。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#22 zsj1029&lt;/strong&gt;：@&lt;a href="/member/swananan"&gt;swananan&lt;/a&gt; 对的，但是要做主流协议，不然客户端还要自己做，pc 的还好说，手机 app 上架成本就太高了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#23 zsxzy&lt;/strong&gt;：能开源详细的 spec 提示词? 我们也倒腾一个 :)&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#24 clauder&lt;/strong&gt;：19.9 的搬瓦工是怎么得来的？非常好奇。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#25 benen005g&lt;/strong&gt;：19.9 的搬瓦工是怎么得来的？非常好奇。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#26 zsj1029&lt;/strong&gt;：@&lt;a href="/member/clauder"&gt;clauder&lt;/a&gt; &lt;br/&gt;@&lt;a href="/member/benen005g"&gt;benen005g&lt;/a&gt; &lt;br/&gt;&lt;a href="https://i.imgur.com/jLQX6U8.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/jLQX6U8.png"/&gt;&lt;/a&gt;&lt;br/&gt;就这个，开放了两天吧，去年 11 月，记错时间了，都说不好非优化线路，开始没啥人买的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#27 zsj1029&lt;/strong&gt;：@&lt;a href="/member/zsxzy"&gt;zsxzy&lt;/a&gt; git 上有不少，找一个拿来让 ai 给优化修改就行了，然后不断测试 debug ，从 0 的话我估计也搞不定&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#28 Felldeadbird&lt;/strong&gt;：啊，不知道为什么。你告诉我 5 块钱我感觉很肉痛。 真付费上班了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#29 zsj1029&lt;/strong&gt;：@&lt;a href="/member/Felldeadbird"&gt;Felldeadbird&lt;/a&gt; 我今天“破处了”，之前一直用的本地 ai 和 trae ，昨天用本地 ai 写了个 7788 ，实在等不了，第一次充钱，一天 5 块，两个包子，给你一天好心情，心情投资，不香吗&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#30 admin926&lt;/strong&gt;：想请问下，flash 模型 后面加[1m]了吗？单个任务没处理完上下文不会超吗&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#31 zsj1029&lt;/strong&gt;：@&lt;a href="/member/admin926"&gt;admin926&lt;/a&gt; 好像只有 pro 有 1m 吧，200k ，能写大半了，然后自动压缩继续，压缩挺快的 2 分钟？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#32 humbass&lt;/strong&gt;：自从 Cloud 被封，就改用 DeepSeek v4 flash ，相当不错。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#33 easylee&lt;/strong&gt;：用的原生 claude code 直接干，还是加了什么帮助的 skill/plugin 吗？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#34 ClericPy&lt;/strong&gt;：@&lt;a href="/member/zsj1029"&gt;zsj1029&lt;/a&gt; &lt;br/&gt;是啊，我以前一直是 3 个 glm5 turbo + 1 个 5.1 ，结果没见它调用过 5.1&lt;br/&gt;&lt;br/&gt;此外 effort Level 用垃圾模型会开到 high 、max ，用 5.1 的时候默认或 auto 似乎就够了。&lt;br/&gt;&lt;br/&gt;既然你也赞同三小一大，那我不用三大一小了，太慢。spec 写的好，需求说的清楚，根本用不着太聪明的模型&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#35 zsj1029&lt;/strong&gt;：@&lt;a href="/member/easylee"&gt;easylee&lt;/a&gt; 直接干，因为我不喜欢设计前置，很多时候它会给出 md 建议，可能比人思考的更全面&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 10 May 2026 12:49:01 +0000</pubDate></item><item><title>安卓 17 没人讨论吗？要出 PC 桌面模式了</title><link>https://www.v2ex.com/t/1211669</link><description>&lt;p&gt;以后折叠屏安卓可以做不少事情了。
 远程桌面到刷系统，代替现有轻薄笔记本的部分功能。
 加上一线通，处理本地的部分工作，娱乐视频也不错。
 原生 linux ，超长的待机。
@@ -29,9 +68,12 @@
 &lt;p&gt;&lt;strong&gt;#22 maemolee&lt;/strong&gt;：@&lt;a href="/member/little_cup"&gt;little_cup&lt;/a&gt; 请问，支持安卓应用在 mac 端全屏且适配显示器分辨率吗？有看红果短剧的需求&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#23 PhoenixDancing&lt;/strong&gt;：@&lt;a href="/member/datocp"&gt;datocp&lt;/a&gt; &lt;br/&gt;@&lt;a href="/member/LandCruiser"&gt;LandCruiser&lt;/a&gt; &lt;br/&gt;@&lt;a href="/member/blueboyggh"&gt;blueboyggh&lt;/a&gt; 总感觉手机和笔记本融合，以我现在来说，微信里面的文件和电脑同步，并不顺利。&lt;br/&gt;谷歌家的原生桌面模式，和第三方的魔改，应该不会一样。之前应用数量质量会上去。&lt;br/&gt;可能将来(存储价格下降的话)，应该会有笔记本形态的安卓，国产估计 3000 以内的价位。刷剧，轻办公之类的。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#24 PhoenixDancing&lt;/strong&gt;：@&lt;a href="/member/little_cup"&gt;little_cup&lt;/a&gt; 贾，贾，贾跃亭？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#25 PhoenixDancing&lt;/strong&gt;：@&lt;a href="/member/cpstar"&gt;cpstar&lt;/a&gt; 操作系统，突然多出来几家，怪不得微软要提高 WIN 的质量。苹果的 neo ，安卓的桌面，鸿蒙也要有，还有 ubuntu 等。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 10 May 2026 12:07:32 +0000</pubDate></item><item><title>女朋友怀孕了，要还是不要</title><link>https://www.v2ex.com/t/1211648</link><description>我们在四川的一个四线小城市上班，一起工作了四年多，现在在一起 1 年多了，我 28 岁，她，前几天她大姨妈一直没来，用验孕棒验两条杠，我们都是单亲家庭，也是比较内向的人，能在一起离不开长时间的一起工作，我们性格挺合得来，在一起以后基本上都黏在一起，现在主要有以下几点让我很纠结孩子的去或留&lt;br/&gt;&lt;br/&gt;1 、我们现在的状态很不错，在一起很开心，看了太多网上的案例，担心往后发展就会一地鸡毛&lt;br/&gt;2 、她胆子太小了，比如不敢去见我的家人甚至朋友，下班之后没人和她一起她就不敢出门等，我担心以后遇到事情的时候她没办法和我共度难关&lt;br/&gt;3 、她和我年龄的差距&lt;br/&gt;4 、她比较挑食，非常瘦，很多人看见她都会让她多吃点，我担心她的身体状况&lt;br/&gt;5 、刚还完房贷，手里没存款，还有 7W 左右的负债，每月到手 8K ，没钱办婚礼这些&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;他闺蜜今天陪她去医院去了，我现在还不知道她的想法，请教各位 Ver 的意见，是保持现状还是往前迈一步把孩子留下来
+&lt;p&gt;&lt;strong&gt;#25 PhoenixDancing&lt;/strong&gt;：@&lt;a href="/member/cpstar"&gt;cpstar&lt;/a&gt; 操作系统，突然多出来几家，怪不得微软要提高 WIN 的质量。苹果的 neo ，安卓的桌面，鸿蒙也要有，还有 ubuntu 等。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#26 strobber16&lt;/strong&gt;：感觉不如微内核&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#27 lance07&lt;/strong&gt;：本来就很多手机都有的功能，根本没见啥人用，根本不是原生不原生的问题，就是伪需求&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#28 PhoenixDancing&lt;/strong&gt;：@&lt;a href="/member/lance07"&gt;lance07&lt;/a&gt; 好吧，看来我理解有问题，我觉得是非常好的一个功能&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 10 May 2026 12:07:32 +0000</pubDate></item><item><title>女朋友怀孕了，要还是不要</title><link>https://www.v2ex.com/t/1211648</link><description>我们在四川的一个四线小城市上班，一起工作了四年多，现在在一起 1 年多了，我 28 岁，她，前几天她大姨妈一直没来，用验孕棒验两条杠，我们都是单亲家庭，也是比较内向的人，能在一起离不开长时间的一起工作，我们性格挺合得来，在一起以后基本上都黏在一起，现在主要有以下几点让我很纠结孩子的去或留&lt;br/&gt;&lt;br/&gt;1 、我们现在的状态很不错，在一起很开心，看了太多网上的案例，担心往后发展就会一地鸡毛&lt;br/&gt;2 、她胆子太小了，比如不敢去见我的家人甚至朋友，下班之后没人和她一起她就不敢出门等，我担心以后遇到事情的时候她没办法和我共度难关&lt;br/&gt;3 、她和我年龄的差距&lt;br/&gt;4 、她比较挑食，非常瘦，很多人看见她都会让她多吃点，我担心她的身体状况&lt;br/&gt;5 、刚还完房贷，手里没存款，还有 7W 左右的负债，每月到手 8K ，没钱办婚礼这些&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;他闺蜜今天陪她去医院去了，我现在还不知道她的想法，请教各位 Ver 的意见，是保持现状还是往前迈一步把孩子留下来
 &lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-05-10 19:29:39 +08:00"&gt;3h 12m ago&lt;/span&gt;
+Supplement 1  ·  &lt;span title="2026-05-10 19:29:39 +08:00"&gt;5h 14m ago&lt;/span&gt;
 
 谢谢大家的回复，我确实是顾虑太多，你们的话让我想起八年前爬雪山的感觉，那时我刚毕业一个人背个包天不怕地不怕的到处跑，时不我待，我准备去和她去表面我的态度
 
@@ -94,13 +136,20 @@ Supplement 1  ·  &lt;span title="2026-05-10 19:29:39 +08:00"&gt;3h 12m ago&lt
 &lt;p&gt;&lt;strong&gt;#56 Yuunie&lt;/strong&gt;：问我干嘛，不是我的&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#57 sunfly&lt;/strong&gt;：虽然反感每日一龟，但是 op&lt;br/&gt;全程在说女方的的问题和你的顾虑，这不是拔吊无情吗~&lt;br/&gt;去医院为什么是闺蜜不是你？&lt;br/&gt;要不要，建议让女方决定&lt;br/&gt;祝好~&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#58 RangerWolf&lt;/strong&gt;：@&lt;a href="/member/1daydayde"&gt;1daydayde&lt;/a&gt; 我感觉这个不是搜索 只是后期高亮   &lt;br/&gt;我猜的哈&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#59 RangerWolf&lt;/strong&gt;：坐等 op 后续更新 &lt;br/&gt;希望看到 happy ending&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 10 May 2026 09:17:54 +0000</pubDate></item><item><title>我有一招可以在裁员潮的当下反击你的老板，并提高自身竞争力。</title><link>https://www.v2ex.com/t/1211625</link><description>&lt;p&gt;那就是用 AI 把前公司的产品搓出来，可以是个 lite 版，挑高品质功能/内容。然后开源。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#59 RangerWolf&lt;/strong&gt;：坐等 op 后续更新 &lt;br/&gt;希望看到 happy ending&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#60 Timzzzzz&lt;/strong&gt;：戴套啊你倒是&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#61 zhuantouer&lt;/strong&gt;：我担心以后遇到事情的时候她没办法和我共度难关&lt;br/&gt;---&lt;br/&gt;&lt;br/&gt;感觉你是怕她拖累你？我觉得她是信任你，依赖你，小伙子还是要有担当一些&lt;br/&gt;&lt;br/&gt;祝继续走向美满的生活&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#62 lance07&lt;/strong&gt;：“我担心以后遇到事情的时候她没办法和我共度难关” 要是用这个理由让人打胎你是真畜生啊&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#63 PRD&lt;/strong&gt;：四线到手 8k 很不错了， 日子会好起来的 加油&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#64 bclerdx&lt;/strong&gt;：命里该有这一遭。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#65 darkengine&lt;/strong&gt;：为了这娃着想，别要了，真的。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#66 Orange2269&lt;/strong&gt;：有了孩子因为琐事和支出，两个人的矛盾会变多，这是必不可少的，而且养孩子成本比较高。&lt;br/&gt;但是，孩子的陪伴会带来额外的幸福感，当然，前提是你们喜欢孩子。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 10 May 2026 09:17:54 +0000</pubDate></item><item><title>我有一招可以在裁员潮的当下反击你的老板，并提高自身竞争力。</title><link>https://www.v2ex.com/t/1211625</link><description>&lt;p&gt;那就是用 AI 把前公司的产品搓出来，可以是个 lite 版，挑高品质功能/内容。然后开源。&lt;/p&gt;
 &lt;p&gt;你的前司再想搞一些奇怪的收费方式的时候，可能就会有人选择你这个开源竞品了。&lt;/p&gt;
 &lt;p&gt;你还可以麒麟 OS+国密，更有竞争力，而且也不难，golang 写的，别用 cgo ，都可以在麒麟上面跑。目标系统也可以微信小程序。&lt;/p&gt;
 &lt;p&gt;这样你至少积累了项目经验，其次出了口气。因为有 ai 在，这些也不难，你也可以多一些 AI 经验。&lt;/p&gt;
 &lt;p&gt;这样你的前司就属于是 成也 AI ，败也 AI 。&lt;/p&gt;
 &lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-05-10 15:01:07 +08:00"&gt;7h 44m ago&lt;/span&gt;
+Supplement 1  ·  &lt;span title="2026-05-10 15:01:07 +08:00"&gt;9h 42m ago&lt;/span&gt;
 
 有好几个反对的，不知道啥原因，是因为自身是老板，刚裁了员工吗？&lt;br/&gt;&lt;br/&gt;我的提议会一个待业的高程序员来说有什么缺点或者损害吗？
 
@@ -154,7 +203,11 @@ Supplement 1  ·  &lt;span title="2026-05-10 15:01:07 +08:00"&gt;7h 44m ago&lt
 &lt;p&gt;&lt;strong&gt;#47 orion1&lt;/strong&gt;：这有可能违法吧，前公司说你用前公司的技术，积累的经验，恶意竞争做的&lt;br/&gt;被告了多少得赔钱，还费精力&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#48 whusnoopy&lt;/strong&gt;：如果不涉及到知识产权等违法的情况，不妨一试&lt;br/&gt;&lt;br/&gt;不过这跟市场上现在的竞品做的事不也一样么？如果有区别的话就只是自己在行业里待过，很多细节省得再走一遍冤枉路？但做得好的竞品也是一样啊&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#49 LandCruiser&lt;/strong&gt;：开公司最难的是找客户，开发产品太简单了，小红书淘宝不是随便就搓一个出来吗？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#50 PhoenixDancing&lt;/strong&gt;：这算不算毒丸计划？&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 10 May 2026 06:03:05 +0000</pubDate></item><item><title>上海电信同城宽带也存在上传达量限速？</title><link>https://www.v2ex.com/t/1211613</link><description>&lt;p&gt;上海电信十全十美 169 套餐，1000/100.和一路 200/30 的副宽带，部署两地，两地直线距离相距 5 公里，一个区，先说一下需求，主要目的是拉取副宽带部署的摄像头流，两地的宽带都在一个 bras 下，两地都有公网，均可以播到 255.255.0.0 的公网段，使用 wireguard 组网，稳定用了好几个月，月流量起码 5T 以上，带宽均可以跑到 5mb 左右。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#50 PhoenixDancing&lt;/strong&gt;：这算不算毒丸计划？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#51 NonClockworkChen&lt;/strong&gt;：哈哈哈，天才的想法！&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#52 sunyang&lt;/strong&gt;：@&lt;a href="/member/HankAviator"&gt;HankAviator&lt;/a&gt; 番茄没你我不看&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#53 Ericcccccccc&lt;/strong&gt;：思路是错的呀...你都理解不了公司的竞争力在哪&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#54 peter986&lt;/strong&gt;：我只能说你非常无聊&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 10 May 2026 06:03:05 +0000</pubDate></item><item><title>上海电信同城宽带也存在上传达量限速？</title><link>https://www.v2ex.com/t/1211613</link><description>&lt;p&gt;上海电信十全十美 169 套餐，1000/100.和一路 200/30 的副宽带，部署两地，两地直线距离相距 5 公里，一个区，先说一下需求，主要目的是拉取副宽带部署的摄像头流，两地的宽带都在一个 bras 下，两地都有公网，均可以播到 255.255.0.0 的公网段，使用 wireguard 组网，稳定用了好几个月，月流量起码 5T 以上，带宽均可以跑到 5mb 左右。&lt;/p&gt;
 &lt;p&gt;问题出现在 &lt;a href="https://img.cdn1.vip/i/6a000b67be8fa_1778387815.webp" rel="nofollow"&gt;https://img.cdn1.vip/i/6a000b67be8fa_1778387815.webp&lt;/a&gt; ，这个时间 2026.5.7 23:00 。wg 的组网速度下降到 1.5mb 。期间用 iperf3 测速，速度达标，丢包起飞。
 做过的尝试，测速肯定都是正常的，因为有白名单，将 wg 对端域名改成 speedtest ，无效，改成 tcp 协议的组网软件，Easytier ，延迟爆炸 1000ms ，还是限速在 1.5mb 下，观察发现副宽带的公网 ip 池，变成 180.165 了。之前还是 116 ，而且拨号时间重置了，改两个 bras 也是 180.165 这个段，是不是进限速池了/理论上监控传输应该是没啥问题。哎头疼。请问是电信存在限速，那为什么之前用了很久也没事，难不成是电信的限速误判？&lt;/p&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
@@ -190,29 +243,4 @@ Supplement 1  ·  &lt;span title="2026-05-10 15:01:07 +08:00"&gt;7h 44m ago&lt
 &lt;p&gt;&lt;strong&gt;#30 sonnetbreeze&lt;/strong&gt;：@&lt;a href="/member/wtks1"&gt;wtks1&lt;/a&gt; 同城不存在跨省结算把，我尝试优化 bras ，最终一跳就可以到目的地，看 ip 直接在上海市区内就完成交换，我之前用了半年都没问题&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#31 sonnetbreeze&lt;/strong&gt;：@&lt;a href="/member/47jm9ozp"&gt;47jm9ozp&lt;/a&gt; 上海电信 tr069 不需要想了，早堵了&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#32 erfesq&lt;/strong&gt;：可以把两条宽带都搞进竞技池 ip 里&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#33 sonnetbreeze&lt;/strong&gt;：@&lt;a href="/member/erfesq"&gt;erfesq&lt;/a&gt; 然后就不限速？&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 10 May 2026 04:49:57 +0000</pubDate></item><item><title>想买车 阿维塔 06 有劝退的么</title><link>https://www.v2ex.com/t/1211611</link><description>&lt;p&gt;和媳妇觉得阿维塔 06max 不错，纯电，原创设计、前排双零重力、华为智驾。现在价钱也相对便宜不少了，有了解的 v 友吗？担心点就是网上说 小毛病多、车机稍微有点卡？阿维塔的售后。还有路上这个牌子确实比较少见&lt;/p&gt;
-&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;#1 clacf&lt;/strong&gt;：应该贬值很厉害&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#2 eventlooped&lt;/strong&gt;：你买我推荐&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#3 Moishine&lt;/strong&gt;：推荐极氪&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#4 IC0ZB&lt;/strong&gt;：还是不要买这种小众的吧，整体风险会高感觉&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#5 huaweii&lt;/strong&gt;：支持国产新能源（狗都不买&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#6 onlyxet7&lt;/strong&gt;：这价格理想 i6 不考虑吗？阿维塔是什么杂牌车啊？智驾也就那么回事，平时没啥用&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#7 PrinceofInj&lt;/strong&gt;：今天刚在万达进车库的 90 度弯坡道上见到一辆阿维塔撞墙了，不知道怎么开的😅&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#8 forisra&lt;/strong&gt;：买车不都是看自己乐意。&lt;br/&gt;&lt;br/&gt;在网上很多人都看参数看测评（虽然基本没有真实测评，全都拿了厂商的钱说瞎话），但现实还是因为销量越高，所以销量越高。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#9 fgt&lt;/strong&gt;：买销量高的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#10 jayhuang0044&lt;/strong&gt;：现在应该多一个考虑的点,自己维权 大家维权 被维权...&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#11 linbeiv2&lt;/strong&gt;：自己开的爽就行&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#12 churchmice&lt;/strong&gt;：反正我这辈子不碰菊花和粗粮的产品&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#13 easylee&lt;/strong&gt;：07 / 12 在开，同价位内饰和音响非常不错。&lt;br/&gt;&lt;br/&gt;至于是否好开，仁者见仁智者见智，目前还没遇到问题。&lt;br/&gt;&lt;br/&gt;比较支持阿维塔，five jie 除外。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#14 shakaraka&lt;/strong&gt;：你买我推荐，给我我不买&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#15 ixcode&lt;/strong&gt;：太多戳到我禁区的设计：隐藏门把手，流媒体后视镜，不可开启天窗，鸿蒙华为相关。属于你送我我会立马卖了换钱也不会开的那种&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#16 YFZZ&lt;/strong&gt;：我是阿维塔 07 车主，2024 年 11 月提的车，有啥问题可以问我，我把知道的告诉你。&lt;br/&gt;&lt;br/&gt;关于你提到的“小毛病多、车机稍微有点卡？阿维塔的售后。还有路上这个牌子确实比较少见”。&lt;br/&gt;&lt;br/&gt;小毛病我目前只遇到一个，就是驾驶位左前方的仪表台可能是工艺问题，热胀冷缩以后开起来有时候有噪音。&lt;br/&gt;车机我没感觉卡。&lt;br/&gt;售后 4S 店比较少，其他没感觉到有啥问题。&lt;br/&gt;路上的确少见，因为销量很一般，但背靠“长安”，也不会有啥大问题。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#17 ysn2233&lt;/strong&gt;：在乎智驾我觉得可以买，而且阿维塔毕竟是原创设计，还是可以 respect 一下，当然好不好看见仁见智。不过这种车贬值厉害买二手划算。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#18 jfsd2000&lt;/strong&gt;：@&lt;a href="/member/onlyxet7"&gt;onlyxet7&lt;/a&gt; 关键现在理想智驾也没差到哪里去，很多人真信遥遥领先了。目前主流几家智驾要求不高都够用，要求高都是垃圾。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#19 18k&lt;/strong&gt;：推荐理想 i6 ，去试下&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#20 e23nome&lt;/strong&gt;：@&lt;a href="/member/jfsd2000"&gt;jfsd2000&lt;/a&gt; 程序员还是要讲数字和讲逻辑。那就请问&lt;br/&gt;&lt;br/&gt;a.理想的智驾里程是？特斯拉第一，百亿英里。华为百亿公里。理想车主有多少比例的在大比例使用智驾？华为在中国和特斯拉在北美，都有很多车主在大比例的使用。从他们的截图和经历分享可以看出来&lt;br/&gt;&lt;br/&gt;b.理想的训练算力投资是？特斯拉应该前后至少＞一百亿美元，甚至更多，华为也是有每年百亿人民币以上的投资，60Eflops 的算力。理想的利润支撑的下百亿元的算力投资吗？&lt;br/&gt;&lt;br/&gt;c.理想坚持的 VLA 方案是智驾头部玩家还在用的嘛？至少特斯拉和华为都不是 VLA 。都是某种世界模型，中间没有 L 。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#21 yesha&lt;/strong&gt;：话说回来, 长安是军工厂, 不会倒闭&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#22 LandCruiser&lt;/strong&gt;：@&lt;a href="/member/yesha"&gt;yesha&lt;/a&gt; 看下长安启源的实车就不会对什么军工背景有滤镜了，当初出 A07 的时候我去看了下，内外饰做工是电 D 那个水平的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#23 jfsd2000&lt;/strong&gt;：@&lt;a href="/member/e23nome"&gt;e23nome&lt;/a&gt; &lt;br/&gt;特斯拉国内进不来我就不说了，至于另一家，你既然对数据这么了解，随手一查也不难，为什么一定要问我呢。&lt;a href="https://www.lixiang.com/tech/autodrive" rel="nofollow noopener" target="_blank"&gt;https://www.lixiang.com/tech/autodrive&lt;/a&gt;&lt;br/&gt;我不认为这些里程能有质的差距，这还是遥遥领先智驾是重要卖点的前提下。&lt;br/&gt;&lt;br/&gt;至于第二三条，投入几倍一定能有几倍的效果么，你既然说到模型，遥遥领先原来走了多少歪路，现在一定是正确方向？&lt;br/&gt;&lt;br/&gt;我从来没看好过理想能走上智驾第一梯队，但是至少当前和可以预见的短时间内理想的辅助驾驶完全够用，遥遥领先的 ADS 并没有本质区别。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#24 Microi&lt;/strong&gt;：还真有人买啊……&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 10 May 2026 04:31:05 +0000</pubDate></item></channel></rss>
+&lt;p&gt;&lt;strong&gt;#33 sonnetbreeze&lt;/strong&gt;：@&lt;a href="/member/erfesq"&gt;erfesq&lt;/a&gt; 然后就不限速？&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 10 May 2026 04:49:57 +0000</pubDate></item></channel></rss>
