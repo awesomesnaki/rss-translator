@@ -1,66 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 11 May 2026 02:25:16 +0000</lastBuildDate><item><title>[已吊销] H3C灵犀AI助手直接在配置文件中暴露大量API凭据 3个月后才完成吊销</title><link>https://www.landiannews.com/archives/112883.html</link><description>
-&lt;p&gt;#安全资讯 H3C 团队开发的灵犀 AI 助手直接在配置文件中暴露大量 API 凭据，涉及的模型供应商包括智谱、百度千帆和字节火山引擎等，直到 3 个月后才完成吊销。蓝点网于 1 月 29 日接到网友反馈，随后我们建议网友联系 H3C 团队进行报告而不是直接发布文章，直到 5 月初 H3C 才完成所有凭据的吊销，我们甚至怀疑 H3C 团队是不是在内部就使用同一个凭据，以至于吊销时需要先沟通各方，才花费如此长的时间。查看详情：https://ourl.co/112883&lt;/p&gt;&lt;p&gt;2026 年 1 月 29 日蓝点网接到网友反馈，H3C (新华三) 在其部分产品中预装名为灵犀 AI 助手的工具，该工具原本是用于在本地 NPU 运行开源模型实现某些功能，不过可能是因为开发流程问题，H3C 团队直接在安装程序配置文件里内置多个云端 AI 模型的调用凭据。&lt;/p&gt;
-&lt;p&gt;彼时 OpenClaw AI 机器人项目正式爆火的时候，如果这些 API 凭据泄露则可能导致 H3C 产生海量的 AI 模型调用费用，因此基于负责任的做法，蓝点网网友联系 H3C 产品团队反馈，直到 5 月初 H3C 团队才完成所有泄露凭据的吊销工作。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112883-1.png" rel="nofollow"&gt;&lt;img alt="[已吊销] H3C灵犀AI助手直接在配置文件中暴露大量API凭据 3个月后才完成吊销" data-src="https://img.landian.news/landian/2026/05/112883-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112883-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 11 May 2026 07:27:14 +0000</lastBuildDate><item><title>每月访问量高达4300万次的盗版动漫网站AnimeKai将关闭 原因是数据中心起火？</title><link>https://www.landiannews.com/archives/112890.html</link><description>
+&lt;p&gt;#网站应用 月访问量超过 4300 万次的盗版动漫网站 AnimeKai 宣布将关闭，原因是数据中心起火？AnimeKai 发布的公告让人摸不着头脑，因为上周荷兰 NorthC 数据中心只是供电系统起火，服务器并未受到太大影响，通常盗版网站关闭都是版权问题，现在说是服务器上云了让人无法理解。查看详情：https://ourl.co/112890&lt;/p&gt;&lt;p&gt;每月访问量高达 4300 万次的超大规模盗版动漫网站 AnimeKai 日前在其社交通讯频道宣布，该网站很快将会关闭且不再维护，用户需要尽快导出自己的书签和动漫列表，防止后续网站停止访问后相关访问数据彻底丢失。&lt;/p&gt;
+&lt;p&gt;AnimeKai 管理员将关闭原因归咎于网站出现运营问题，尤其是数据中心发生火灾后 --- 上周位于荷兰阿尔梅勒的 NorthC 数据中心发生火灾，这场火灾导致在这个数据中心托管业务的客户受到短暂影响，但火灾本身只是数据中心供电问题并非服务器被烧毁。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112890.png" rel="nofollow"&gt;&lt;img alt="每月访问量高达4300万次的盗版动漫网站AnimeKai将关闭 原因是数据中心起火？" data-src="https://img.landian.news/landian/2026/05/112890.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112890.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;网友提供的截图显示，灵犀 AI 助手的安装程序解包后含有配置文件，在配置文件中 H3C 写入多个云端模型的调用地址以及具体的 API 凭据，涉及到的模型提供商包括智谱 AI、百度千帆以及字节跳动的火山引擎等。&lt;/p&gt;
-&lt;p&gt;配置文件甚至都不是通过云端下发的，而是直接内置在安装程序中，因此只要解包后就可以看到这些凭据，不过可能是灵犀 AI 助手相对来说比较小众，所以应该没有其他网友发现 H3C 的这番操作 (否则被利用并产生天价账单后吊销进度应该会很快)。&lt;/p&gt;
-&lt;p&gt;网友最初联系 H3C 团队时甚至得到令人摸不着头脑的答复，H3C 研发团队称灵犀 AI 助手只运行本地模型不会调用云端模型，问题是云端模型调用凭据都是有效的，这显然还是产品缺陷。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112883-2.png" rel="nofollow"&gt;&lt;img alt="[已吊销] H3C灵犀AI助手直接在配置文件中暴露大量API凭据 3个月后才完成吊销" data-src="https://img.landian.news/landian/2026/05/112883-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112883-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;此类盗版动漫或流媒体网站经常受到版权机构的打击，在版权机构合法维权后这些网站使用的域名或服务器可能会被扣押，这种情况下部分网站选择更换域名或服务器继续运营，部分网站则选择直接关闭不再持续运营。&lt;/p&gt;
+&lt;p&gt;AnimeKai 给出的关闭理由着实是有些蹩脚，毕竟数据中心起火并未影响服务器中的实际数据，至少现在没有任何证据表明 AnimeKai 的数据全部丢失，而 AnimeKai 还强调不会以目前的形式继续运营，同时暗示可能会从头重新构建网站。&lt;/p&gt;
+&lt;p&gt;现在的矛盾在于：要求用户尽快备份数据、没有在网站首页挂上显著的提示、说是关闭网站但又强调可能会换个形式运营或重建，所以现在 AnimeKai 到底因为什么而准备关闭或换个形式暂时还不得而知，最有可能的自然是版权问题，只不过目前也没听说日本或美国的版权机构在法院提起诉讼，而 AnimeKai 的域名也是完全正常访问的。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;到 5 月初时网友再次联系蓝点网称 H3C 团队已经将所有泄露的 API 凭据吊销，由此我们可以得出以下猜测：1. 这些凭据并未遭到广泛恶意利用，否则 H3C 团队应该很快就会将其吊销；2. 这些凭据可能在 H3C 团队中被广泛使用，所以需要沟通各方替换为凭据证后再将暴露的凭据吊销。&lt;/p&gt;
-&lt;p&gt;根据第二点，蓝点网甚至有些怀疑 H3C 团队在内部大范围使用相同的凭据，按照最佳实践，且不说每名成员单独使用一个凭据，至少也应该每个团队使用一个单独的凭据，这样哪怕其中一个凭据暴露后也能快速吊销而不影响其他团队。&lt;/p&gt;
-&lt;p&gt;不过本身灵犀 AI 助手事件并未引起大范围问题，H3C 团队的做法算是给其他开发者参考，即无论如何都不应该将敏感凭据直接放在配置文件中，否则如果发现凭据的是黑客，那么就有可能产生不可预料的后果。&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;感谢蓝点网网友 Remik1 分享的消息&lt;/em&gt;&lt;/p&gt;
-</description><pubDate>Mon, 11 May 2026 02:25:16 +0000</pubDate></item><item><title>谷歌宣布扩展Gemini API中的文件搜索功能 为开发者带来更完整的多模态RAG能力</title><link>https://www.landiannews.com/archives/112882.html</link><description>
-&lt;p&gt;#人工智能 谷歌宣布扩展 Gemini API 中的文件搜索功能，为开发者带来更完整的多模态检索增强生成 (RAG) 能力。此次更新的核心包括：支持图像与文本混合检索、支持自定义元数据过滤、新增页面级引用支持等，这可以显著提升 AI 系统在企业知识库、文档问答以及智能体等场景中的可访问性和准确性。查看详情：https://ourl.co/112882&lt;/p&gt;&lt;p&gt;谷歌日前宣布扩展 Google Gemini API 中的文件搜索功能，为开发者带来更加完整的多模态检索增强生成 (RAG) 能力，此次更新的核心包括：支持图像与文本混合检索、支持自定义元数据过滤、新增页面级引用支持，提升 AI 系统在企业知识库、文档问答以及智能体等场景中的可访问性和准确性。&lt;/p&gt;
-&lt;p&gt;根据谷歌官方博客介绍，新版文件搜索功能已经不再局限于传统文本向量搜索，而是基于 Gemini Embedding 2 构建的统一多模态嵌入能力，可以同时理解图片、PDF、文档中的视觉内容与文字内容，开发者无需自行搭建复杂的向量数据库、Embedding 管线或文档切分系统，就可以直接在 Gemini API 中完成完整的 RAG 工作流。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112882.png" rel="nofollow"&gt;&lt;img alt="谷歌宣布扩展Gemini API中的文件搜索功能 为开发者带来更完整的多模态RAG能力" data-src="https://img.landian.news/landian/2026/05/112882.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112882.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;在传统的 RAG 系统里，图片、图表、截图、设计图等视觉内容往往难以有效被索引，这导致 AI 回答缺乏上下文理解，而 Gemini API 新增的多模态文件搜索能力能够原生识别图片中的内容，与文本共同建立检索索引。例如企业可以上传包含产品图片、数据图表或技术架构图的 PDF 文件，AI 在回答时能够同时理解其中的视觉信息与文本描述。&lt;/p&gt;
-&lt;p&gt;谷歌称这项能力特别适合构建企业级知识助手、客服机器人、文档分析系统以及 AI 智能体，开发者可以让模型基于内部文档进行推理，而不需要进行额外维护独立的图像检索系统，对于拥有大量图文混排资料的企业来说，这意味着更低的部署复杂度和更高的检索准确率。&lt;/p&gt;
-&lt;p&gt;还有个新增功能是自定义元数据过滤，开发者可以为上传的文件增加标签、分类、时间和部门等元数据，以便在后续进行检索时按照元数据进行过滤提升准确率和效率，这也更加适合大型知识库管理，减少无关内容进入上下文窗口。&lt;/p&gt;
-&lt;p&gt;另一项重要功能是页面级引用，Gemini AI 在生成答案时可以明确标注信息来自哪一页文档，而不仅仅是模糊地引用整个文件，这可以让用户在获得回答后点击查看具体的文档页面判断内容准确性以及阅读完整文档获得更多信息等。&lt;/p&gt;
-&lt;p&gt;目前新版 Google Gemini API 文件搜索功能已经面向所有开发者开放，感兴趣的开发者可以通过 Google AI Studio 以及 Google Cloud 等平台开通 Gemini API 进行体验。&lt;/p&gt;
-&lt;p&gt;开发者指南：&lt;a href="https://dev.to/googleai/multimodal-rag-with-the-gemini-api-file-search-tool-a-developer-guide-5878" rel="noopener" target="_blank"&gt;https://dev.to/googleai/multimodal-rag-with-the-gemini-api-file-search-tool-a-developer-guide-5878&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 11 May 2026 01:56:38 +0000</pubDate></item><item><title>免费下载工具JDownloader遭到黑客攻击 5.6~7日下载该工具的用户请立即查杀</title><link>https://www.landiannews.com/archives/112881.html</link><description>
-&lt;p&gt;#安全资讯 热门免费下载工具 JDownloader 在 2026 年 5 月 6 日～7 日 (UTC 时间) 期间遭到黑客入侵，黑客篡改网站下载链接投放带有远程访问木马的恶意版本。JDownloader 事后检查发现是网站的内容管理系统遭到黑客入侵，黑客针对 Windows 和 Linux 用户投放远程访问木马，建议在以上时间段内下载该软件的用户尽快查杀病毒。查看详情：https://ourl.co/112881&lt;/p&gt;&lt;p&gt;老牌免费下载器 JDownloader 的官方网站在 2026 年 5 月 6 日～7 日 (UTC 时间) 期间遭到黑客入侵，黑客修改网站上的下载链接将其替换为带有远程访问木马的恶意版本，在以上时间范围内下载这款工具的用户建议立即使用反病毒软件进行深度查杀。&lt;/p&gt;
-&lt;p&gt;JDownloader 支持从文件托管服务器、视频网站甚至部分付费链接生成器自动下载文件，该软件在全球拥有数百万名用户，支持 Windows、Linux 和 macOS 系统，此次遭到黑客篡改的是 JDownloader for Windows 和 Linux 版。&lt;/p&gt;
-&lt;p&gt;所幸在 Microsoft Defender 可以有效检测和识别黑客投放的远程访问木马，在入侵期间有用户下载该软件后被微软自动拦截，微软的反病毒软件将安装程序报告为恶意软件阻止用户运行 (但用户也可以解除阻止继续运行)。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112881.png" rel="nofollow"&gt;&lt;img alt="免费下载工具JDownloader遭到黑客攻击 5.6~7日下载该工具的用户请立即查杀" data-src="https://img.landian.news/landian/2026/05/112881.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112881.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;包含远程访问木马的恶意版本则使用多个被盗的代码签名证书进行签名，有时候开发者显示为 Zipline LLC，有时候会显示为 The Water Team 等，黑客似乎想要通过这种方式降低用户戒备心，但 JDownloader 官方版的数字签名应该是 AppWork GmbH。&lt;/p&gt;
-&lt;p&gt;JDownloader 团队接到用户报告后也进行调查，调查发现黑客通过某种方式入侵网站内容管理系统然后篡改下载链接，受影响的包括 JDownloader 下载页面的 Windows 安装程序 (显示为下载备用安装程序) 和 Linux shell 安装程序。&lt;/p&gt;
-&lt;p&gt;黑客投放的远程访问木马使用 Python 开发，内含模块化机器人和 RAT 框架，可以从攻击者的 C2 服务器接收命令并在受感染的设备上执行，按照木马设计方式，黑客可以在受感染的设备上执行任意命令，当然可能也包括监控用户的输入以及窃取用户文件等。&lt;/p&gt;
-&lt;p&gt;单纯卸载包含后门程序的 JDownloader 可能无法解决问题，建议在 2026 年 5 月 6 日～7 日 (UTC 时间) 期间通过 JDownloader 官网下载该软件的用户备份重要文件后重装系统，重装系统后再重新下载干净的、不含后门程序的 JDownloader 即可。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;黑客使用的 C2 域名：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;parkspringshotel [.] com/m/Lu6aeloo.php (均为合法网站但也遭到黑客入侵用来托管恶意文件)&lt;/li&gt;
-&lt;li&gt;auraguest [.] lk/m/douV2quu.php (均为合法网站但也遭到黑客入侵用来托管恶意文件)&lt;/li&gt;
-&lt;li&gt;checkinnhotels [.] com (均为合法网站但也遭到黑客入侵用来托管恶意文件)&lt;/li&gt;
-&lt;/ul&gt;
-</description><pubDate>Mon, 11 May 2026 01:35:13 +0000</pubDate></item><item><title>微软反驳通过CPU瞬时超频提升Win11响应速度是懒惰做法 称苹果也这么做</title><link>https://www.landiannews.com/archives/112880.html</link><description>
-&lt;p&gt;#系统资讯 微软副总裁反驳通过 CPU 瞬时提升频率提升 Windows 11 响应速度是懒惰做法，称苹果在 macOS 中也是这么做的。微软开发者社区副总裁汉塞尔曼称，短暂提升 CPU 频率提升性能的行为属于行业标准做法，这并不是作弊，现代操作系统通过这种方式优先处理交互任务让响应更快。查看详情：https://ourl.co/112880&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landiannews.com/archives/112877.html" rel="noopener" target="_blank"&gt;上周蓝点网提到 Windows 11 正在测试名为低延迟配置文件的实验性选项&lt;/a&gt;，该选项被开启后将在用户执行关键点击操作 (例如点击开始菜单按钮、右键菜单以及启用应用程序等) 时，在 1~3 秒内瞬时提升 CPU 频率使得 UI 响应速度缩短，避免用户执行此类点击时总是觉得有种卡顿的感觉。&lt;/p&gt;
-&lt;p&gt;该消息发布后有不少网友参与讨论并认为这是微软糟糕软件工程的标志，即微软不想着如何优化操作系统和底层架构提升实际性能，而是通过 CPU 瞬时超频进行作弊，这不是解决 Windows 11 性能问题的根本解决方案。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src="https://img.lancdn.com/landian/public/thumb/W11.webp" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/public/thumb/W11.webp"/&gt;&lt;/p&gt;
+&lt;p&gt;大家好，我带来了一些非常不幸的消息，鉴于网站近期出现的一系列问题，尤其是数据中心着火事件，团队已经宣布将停止该项目，我们也该向前看了。&lt;/p&gt;
+&lt;p&gt;接下来应该怎么办：我们强烈建议您导出书签 / 动漫列表并保存，以便后续可以将其导入到新网站，或者将其上传到你的 AniList 或 MyAnimeList 账户，这样就不会丢失。如果情况有变，我们会通知您，但目前请务必保存您的列表。&lt;/p&gt;
+&lt;p&gt;社区：我们没有关闭社区的计划，我们始终会把动漫社区作为我们生活的核心。然而，鉴于最近的公告，我们必须为社区的未来制定宏伟的计划，敬请期待，我们绝不会让这个社区消亡。&lt;/p&gt;
+&lt;p&gt;我们爱你们所有人，希望你们继续关注我们未来的计划 (via &lt;a href="https://www.reddit.com/r/AnimeKAI/comments/1t8rwa0/animekai_is_shutting_down/" rel="noopener" target="_blank"&gt;Reddit&lt;/a&gt;)&lt;/p&gt;
+</description><pubDate>Mon, 11 May 2026 07:27:14 +0000</pubDate></item><item><title>开源PS3模拟器项目RPCS3开发团队：求你们别用AI提交垃圾PR了</title><link>https://www.landiannews.com/archives/112889.html</link><description>
+&lt;p&gt;#人工智能 开源 PS3 模拟器项目 RPCS3 开发团队：求你们别用 AI 提交垃圾 PR 了。这款知名的开源模拟器项目目前正在受到 AI 提交代码的困扰，毕竟审查 PR 和阅读代码都需要花时间，太多垃圾提交就会挤占正常的工作时间，所以接下来开发团队将封禁那些未披露代码来源的账户。查看详情：https://ourl.co/112889&lt;/p&gt;&lt;p&gt;开源 PS3 模拟器项目 RPCS3 目前也遭到 AI 冲击，原因是诸多用户利用 AI 阅读代码并提交 PR，问题在于很多用户提交的 PR 属于毫无用处的垃圾，而持续收到这些垃圾 PR 也挤占开发团队的时间和精力，所以 RPCS3 开发团队也要动用封禁的策略。&lt;/p&gt;
+&lt;p&gt;RPCS3 项目自 2011 年发布，这也是目前用户量最多的 PS3 开源模拟器，超过 70% 的 PS3 游戏都可以通过这个开源模拟器运行，当然这也离不开大量社区成员积极提交代码和问题反馈，这帮助 RPCS3 团队可以适配更多游戏并解决问题。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112889.png" rel="nofollow"&gt;&lt;img alt="开源PS3模拟器项目RPCS3开发团队：求你们别用AI提交垃圾PR了" data-src="https://img.landian.news/landian/2026/05/112889.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112889.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;而现在 AI 提交的垃圾 PR 太多，让开发团队也非常无奈：&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;请停止向 RPCS3 项目提交 AI 生成的垃圾代码 PR，我们将开始封禁那些没有披露代码来源的用户，网上有很多资源可以学习如何调试和编写代码，而不是生成你也不懂且无效的垃圾代码。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;当然肯定有社区成员会问项目是否接受人工智能生成的代码，对于这个问题，开发团队委婉地表示：&lt;strong&gt;你不可能手写出我们看到的这种垃圾人工智能代码。&lt;/strong&gt;显然垃圾代码是比较容易被看出来的，RPCS3 团队也在审查各类 PR，这里面肯定有 AI 生成的但确实有价值的代码，只不过大多数 PR 都是垃圾代码这才让开发团队比较恼火。&lt;/p&gt;
+&lt;p&gt;AI 生成并提交代码问题已经在困扰着大量的开源项目，一方面有些用户希望使用 AI 检索各类项目并提交 PR 来刷活跃度成为项目贡献者，另一方面用户可能本意是好的，只不过自己也看不懂生成的 AI 代码，于是直接提交到项目里。&lt;/p&gt;
+&lt;p&gt;无论哪一种对开发团队来说都会造成巨大的困扰，毕竟审查 PR 和阅读代码是需要花时间的，太多垃圾且无效的代码就会挤占正常工作时间，长此以往肯定不利于项目发展，所以封禁其实也是非常有必要的。&lt;/p&gt;
+</description><pubDate>Mon, 11 May 2026 06:36:29 +0000</pubDate></item><item><title>Windows 11资源管理器获得自适应大小显示 将自动显示KB/MB/GB等</title><link>https://www.landiannews.com/archives/112888.html</link><description>
+&lt;p&gt;#系统资讯 Windows 11 资源管理器获得自适应大小显示，将自动显示 KB、MB、GB 等，而不总是以默认的 KB 显示。对于大文件例如 ISO 镜像的话显示 KB 单位数字会很长，用户还得在心里换算下，自适应显示就非常直观了，而且虽然微软没提，但蓝点网测试超过 1000GB 的文件也会显示 TB 单位。查看详情：https://ourl.co/112888&lt;/p&gt;&lt;p&gt;微软这段时间正在持续改善资源管理器的性能和体验，最新上线的新功能是自适应显示文件大小，取代以前资源管理器默认使用 KB 单位显示文件的做法，毕竟有些大文件可能要显示很长的数字，用户可能还需要看千分位自己换算下文件实际大小。&lt;/p&gt;
+&lt;p&gt;这个新功能其实非常简单，就是根据文件大小范围来显示不同的单位，让用户不需要自己心里换算就知道文件大小，目前这项功能已经在 Windows 11 Experimental Build 26300.8376 和 Windows 11 Beta Build 26220.8370 版中上线，该选项为默认开启不需要用户进行额外的设置。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/111288.png" rel="nofollow"&gt;&lt;img alt="Windows 11资源管理器获得自适应大小显示 将自动显示KB/MB/GB等" data-src="https://img.landian.news/landian/2026/05/111288.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/111288.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;微软开发者社区副总裁汉塞尔曼在社交媒体 X/Twitter 上回应用户批评，汉塞尔曼称通过短暂提升 CPU 频率来达到提升性能的行为属于行业标准做法，所有现代操作系统例如 macOS 和 Linux 也都这么做，这并非作弊，现代操作系统正是通过这种方式让应用程序运行速度更快、通过短暂提升 CPU 频率优先处理交互任务以减少卡顿和延迟。&lt;/p&gt;
-&lt;p&gt;汉塞尔曼还解释为什么 Linux 系统速度如此快：Linux 菜单之所以感觉非常轻便，是因为 Linux 菜单通常执行的工作非常少、集成的服务也非常少，而不是 Linux 可以通过某些技术手段规避 CPU 加速或后台活动。GNOME、KDE 以及 Linux 上的应用程序启动器仍然会占用大量的 CPU 资源、积极调度前台任务、使用现代化的 CPU 加速机制。&lt;/p&gt;
-&lt;p&gt;对于用户称低延迟配置文件是作弊和懒惰的做法，汉塞尔曼还称部分网友多少有种阴谋论的感觉：&lt;strong&gt;聪明的人正在努力解决这些问题，但很多负面情绪都是某些缺乏计算机科学经验的爱好者根据直觉做出的假设，即当你不知道任何事情是如何运作的时候，一切都是阴谋。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; 当然通过提高 CPU 瞬时频率或许确实可以解决卡顿问题：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;且不论微软这种行为是否属于作弊和懒惰的做法，低延迟配置文件通过提高 CPU 瞬时频率在客观上确实可以提升 Windows 11 的响应速度，尤其是诸如点击开始菜单和资源管理器右键菜单时的响应速度，这对长期使用 Windows 11 的用户来说确实是个好事情。&lt;/p&gt;
-&lt;p&gt;提升 CPU 瞬时频率也基本不会对笔记本电脑续航时间和散热造成负面影响，所以以目前 Windows 11 的使用体验来说，只要能提升实际使用体验，哪怕是邪修方式也可以接受的，毕竟与其长期容忍卡顿问题，不如充分利用现代 CPU 性能来提升体验。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://x.com/shanselman/status/2053210825301901434?s=20" rel="noopener" target="_blank"&gt;Scott Hanselman&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 11 May 2026 01:08:44 +0000</pubDate></item><item><title>微软开发的新标签页扩展程序WowTab似乎已经删库跑路 官网变成404状态</title><link>https://www.landiannews.com/archives/112879.html</link><description>
-&lt;p&gt;#软件资讯 微软开发的新标签页扩展程序 WowTab 似乎已经删库跑路，官网变成 404 状态，QQ 群改名，部分资源域名直接停止 DNS 解析。该扩展是微软中国团队在 2024 年 1 月开发的，最初以简洁无广告而吸引不少用户，现在长期没有更新可能是已经停止维护，建议使用该扩展的用户提前寻找替代扩展程序。查看详情：https://ourl.co/112879&lt;/p&gt;&lt;p&gt;2024 年 1 月，微软中国团队面向用户推出适用于浏览器的新标签页扩展程序 WowTab，这类扩展程序可以替代 Chromium 浏览器默认的新标签页，提供诸如天气模块、网址导航、番茄时钟、备忘录、平静模式等多种功能。&lt;/p&gt;
-&lt;p&gt;最初这款扩展程序以简洁无广告而受到用户欢迎，之后微软慢慢增加广告以及 MSN 信息流内容，不过总体来说 WowTab 扩展程序可用性和实用性都还是不错的，只是没想到现在这款扩展程序似乎已经进入删库跑路状态。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/112879-1.png" rel="nofollow"&gt;&lt;img alt="微软开发的新标签页扩展程序WowTab似乎已经删库跑路 官网变成404状态" data-src="https://img.lancdn.com/landian/2026/05/112879-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/112879-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/112879-2.png" rel="nofollow"&gt;&lt;img alt="微软开发的新标签页扩展程序WowTab似乎已经删库跑路 官网变成404状态" data-src="https://img.lancdn.com/landian/2026/05/112879-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/112879-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/112879-3.png" rel="nofollow"&gt;&lt;img alt="微软开发的新标签页扩展程序WowTab似乎已经删库跑路 官网变成404状态" data-src="https://img.lancdn.com/landian/2026/05/112879-3.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/112879-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;文件大小超过 0 字节但不满 1MB：以 KB 单位显示&lt;/p&gt;
+&lt;p&gt;文件大小超过 1MB 但不满 1,000MB：以 MB 单位显示&lt;/p&gt;
+&lt;p&gt;文件大小超过 1,000MB：以 GB 单位显示&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;据蓝点网网友分享的消息，微软中国团队最初为 WowTab 开设的 QQ 群目前已经更名，这个 QQ 群简介仍然是 WowTab 相关的内容，但群名称已经变成 Microsoft Bing 奖励，也就是 QQ 群未来可能会被用于推广必应搜索。&lt;/p&gt;
-&lt;p&gt;根据这条消息蓝点网重新安装 WowTab 扩展程序以及检查官网，其中扩展程序本身似乎已经因为某种原因导致部分图标无法正常加载，而 WowTab 官方网站目前 HTTPS 证书错误，使用 HTTP 访问后直接变成 404 状态。&lt;/p&gt;
-&lt;p&gt;互联网档案馆网站时光机收录的快照显示，WowTab 官网大约在 2026 年 1 月开始无法正常访问，到现在已经持续无法访问超过 4 个月仍然没有恢复，所以大概率是删库跑路后不准备再恢复。&lt;/p&gt;
+&lt;p&gt;微软并没有在博客中说明是否会以 PB 单位显示，但考虑到此类特性肯定会覆盖 Windows Server 2025，在服务器上有 TB 级甚至 PB 级文件都是很正常的，所以蓝点网使用 CMD 命令也创建了虚拟文件进行测试，测试显示确实可以正常显示为 TB 单位，也就是文件超过 1,000GB 时 (严格来说是 1,099,511,627,776 字节) 就会显示为 1TB。&lt;/p&gt;
+</description><pubDate>Mon, 11 May 2026 06:09:34 +0000</pubDate></item><item><title>微软免费向K-12教育机构推出系统升级 可从家庭版升级至教育专业版</title><link>https://www.landiannews.com/archives/112887.html</link><description>
+&lt;p&gt;#系统资讯 微软宣布向 K-12 教育机构免费提供 Windows 11 家庭版升级到教育专业版，升级后可以解锁组策略以及通过 IT 管理中心进行集中管理等。目前该功能还在 Windows 11 测试版中进行实验，K-12 教育机构 IT 管理员可以提前测试起来，免费升级需要验证 K-12 教育机构账户，只有符合认证条件才能免费升级。查看详情：https://ourl.co/112887&lt;/p&gt;&lt;p&gt;微软在 Windows 11 最新测试版中增加实验性选项，启用该选项并重启系统后，适用于 K-12 教育机构的用户可以将系统免费从家庭版升级到教育专业版，升级后教育机构可以通过 IT 管理中心对这些设备进行集中管理和运维等。&lt;/p&gt;
+&lt;p&gt;K-12 指的是从幼儿园到高中阶段，也就是可以免费升级的包括幼儿园、小学、初中和高中等，这些教育机构最初可能是基于价格考虑采购的是 Windows 11 家庭版，家庭版不支持通过管理中心进行集中管理。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;目前 WowTab 扩展程序仍然可以使用，部分网站图标无法加载问题是因为托管这些图标的域名已经停止解析，但用户将报错的这些网站图标删除即可，其他本身不需要服务器支持的功能基本还可以正常工作。&lt;/p&gt;
-&lt;p&gt;但随着长时间无人维护，WowTab 扩展程序各类功能可能会随着时间推移出现异常，例如浏览器更新后产生某些兼容性问题，所以使用 WowTab 扩展程序的用户可能还是要考虑更换其他类似扩展程序。&lt;/p&gt;
-</description><pubDate>Sat, 09 May 2026 02:36:03 +0000</pubDate></item></channel></rss>
+&lt;p&gt;IT 管理员现在可以在教育设备中安装 Windows 11 最新测试版并开启实验性选项进行提前测试，待微软后续将其推送到正式版后再执行升级。需要说明的是，现阶段升级后不支持回退，也就是除非重装系统否则不能再回退到 Windows 11 家庭版。&lt;/p&gt;
+&lt;p&gt;升级方法如下：在 Windows 11 实验性选项里开启 K-12 免费升级，随后应用并重启系统使之生效，重启后打开管理员模式的命令提示符执行 Clipupgrade.exe 启动升级。注意：升级时需要使用 K-12 教育机构账户进行验证，除非完成验证否则不能免费升级。&lt;/p&gt;
+&lt;p&gt;升级成功后系统将从 Windows 11 家庭版变成 Windows 11 Pro Education，该版本支持组策略以及集中管理，后续 IT 管理员可以通过管理中心调整组策略以开放或禁止某些功能等。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112887.png" rel="nofollow"&gt;&lt;img alt="微软免费向K-12教育机构推出系统升级 可从家庭版升级至教育专业版" data-src="https://img.landian.news/landian/2026/05/112887.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112887.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 11 May 2026 05:44:49 +0000</pubDate></item><item><title>互联网档案馆和维基百科正在遭受AI摧残：硬盘价格疯涨已经完全买不起</title><link>https://www.landiannews.com/archives/112886.html</link><description>
+&lt;p&gt;#行业资讯 互联网档案馆和维基百科正在遭受 AI 摧残，并非 AI 爬虫疯狂抓取 (虽然也确实还在疯狂抓取)，现在是硬盘价格太高完全买不起。互联网档案馆每天新增 100TB 数据，累积数据高达 210PB，所以互联网档案馆需要不断地增加存储容量，互联网档案馆称存储容量短缺正在持续耗费该网站的时间和金钱。查看详情：https://ourl.co/112886&lt;/p&gt;&lt;p&gt;据 404MEDIA 发布的报道，目前全球顶级公益性网站互联网档案馆和维基百科都在遭到 AI 的摧残，现在的问题并不是 AI 爬虫疯狂抓取内容 (虽然也确实还在疯狂抓取)，而是人工智能行业需要海量的硬盘存储数据，这导致硬盘价格持续上涨且难以买到合适的产品。&lt;/p&gt;
+&lt;p&gt;而无论是互联网档案馆还是维基百科都需要海量硬盘用来存储数据，例如互联网档案馆每天收集超过 100TB 的新资料，目前已经累积存储高达 210PB 的资料，所以互联网档案馆需要不断地添加和更换大容量机械硬盘。&lt;/p&gt;
+&lt;p&gt;维基媒体基金会运营着维基百科和维基共享资源库等多个项目，存储成本也成为困扰维基媒体基金会的大问题，仅维基百科就存储着超过 6,500 万篇文章，服务器和存储容量对维基媒体基金会而言至关重要。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112886.png" rel="nofollow"&gt;&lt;img alt="互联网档案馆和维基百科正在遭受AI摧残：硬盘价格疯涨已经完全买不起" data-src="https://img.landian.news/landian/2026/05/112886.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112886.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;目前互联网档案馆正在寻求多方提供援助，例如互联网档案馆社区成员免费为该网站捐赠硬盘，互联网档案馆也在积极寻求硬盘制造商的帮助来度过难关，不过可能直接获得免费的硬盘赞助有些困难，或许互联网档案馆是希望能与硬盘制造商达成价格合理的采购协议。&lt;/p&gt;
+&lt;p&gt;互联网档案馆创始人布鲁斯特卡勒表示，目前互联网档案馆已经找到部分方法用来应对存储容量短缺，但存储容量短缺已经成为非常现实的问题，这个问题正在持续耗费互联网档案馆的时间和金钱。&lt;/p&gt;
+&lt;p&gt;维基媒体基金会表示存储成本也同样是该基金会面临的难题，自 2025 年底以来，维基媒体基金会就在关注硬盘价格持续上涨的问题，价格上涨影响到内存和硬盘的采购，同时也影响维基媒体基金会服务器交付周期以及未来下单的能力。&lt;/p&gt;
+&lt;p&gt;对于目前这种局面，维基媒体基金会称作为非营利组织，该基金会对预算分配非常谨慎，目前基金会正在尽可能采取变通方案，包括合理安排硬件投资的优先级来提高灵活性，以及尽可能延长现有硬件的使用寿命。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;像是互联网档案馆和维基媒体基金会可能更侧重于采购大容量机械硬盘，然而现在无论是机械硬盘还是固态硬盘都面临着采购困难，因为人工智能数据中心也需要海量硬盘存储数据，AI 公司倾向于使用速度更快的固态硬盘，但机械硬盘也被大量采购用来存储活跃度较低的数据。&lt;/p&gt;
+&lt;p&gt;存储系统制造商西部数据表示，该公司面向企业客户的 2026 年库存已经基本售罄，这些客户大多数都运营着数据中心。而此前美光旗下的英睿达则是完全退出消费级市场，不再面向消费者提供内存和固态硬盘产品，原因是人工智能驱动的数据中心增长导致内存和存储需求激增。&lt;/p&gt;
+&lt;p&gt;当然互联网档案馆和维基媒体基金会面临的问题也在困扰着普通用户，现在大容量机械硬盘价格太高，想要组装 NAS 存储数据成本显著增加，而除非人工智能热潮褪去，否则此类计算机和服务器关键产品的价格很难回落。&lt;/p&gt;
+</description><pubDate>Mon, 11 May 2026 03:57:38 +0000</pubDate></item></channel></rss>
