@@ -1,5 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sat, 09 May 2026 02:36:03 +0000</lastBuildDate><item><title>微软开发的新标签页扩展程序WowTab似乎已经删库跑路 官网变成404状态</title><link>https://www.landiannews.com/archives/112879.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 11 May 2026 02:25:16 +0000</lastBuildDate><item><title>[已吊销] H3C灵犀AI助手直接在配置文件中暴露大量API凭据 3个月后才完成吊销</title><link>https://www.landiannews.com/archives/112883.html</link><description>
+&lt;p&gt;#安全资讯 H3C 团队开发的灵犀 AI 助手直接在配置文件中暴露大量 API 凭据，涉及的模型供应商包括智谱、百度千帆和字节火山引擎等，直到 3 个月后才完成吊销。蓝点网于 1 月 29 日接到网友反馈，随后我们建议网友联系 H3C 团队进行报告而不是直接发布文章，直到 5 月初 H3C 才完成所有凭据的吊销，我们甚至怀疑 H3C 团队是不是在内部就使用同一个凭据，以至于吊销时需要先沟通各方，才花费如此长的时间。查看详情：https://ourl.co/112883&lt;/p&gt;&lt;p&gt;2026 年 1 月 29 日蓝点网接到网友反馈，H3C (新华三) 在其部分产品中预装名为灵犀 AI 助手的工具，该工具原本是用于在本地 NPU 运行开源模型实现某些功能，不过可能是因为开发流程问题，H3C 团队直接在安装程序配置文件里内置多个云端 AI 模型的调用凭据。&lt;/p&gt;
+&lt;p&gt;彼时 OpenClaw AI 机器人项目正式爆火的时候，如果这些 API 凭据泄露则可能导致 H3C 产生海量的 AI 模型调用费用，因此基于负责任的做法，蓝点网网友联系 H3C 产品团队反馈，直到 5 月初 H3C 团队才完成所有泄露凭据的吊销工作。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112883-1.png" rel="nofollow"&gt;&lt;img alt="[已吊销] H3C灵犀AI助手直接在配置文件中暴露大量API凭据 3个月后才完成吊销" data-src="https://img.landian.news/landian/2026/05/112883-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112883-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;网友提供的截图显示，灵犀 AI 助手的安装程序解包后含有配置文件，在配置文件中 H3C 写入多个云端模型的调用地址以及具体的 API 凭据，涉及到的模型提供商包括智谱 AI、百度千帆以及字节跳动的火山引擎等。&lt;/p&gt;
+&lt;p&gt;配置文件甚至都不是通过云端下发的，而是直接内置在安装程序中，因此只要解包后就可以看到这些凭据，不过可能是灵犀 AI 助手相对来说比较小众，所以应该没有其他网友发现 H3C 的这番操作 (否则被利用并产生天价账单后吊销进度应该会很快)。&lt;/p&gt;
+&lt;p&gt;网友最初联系 H3C 团队时甚至得到令人摸不着头脑的答复，H3C 研发团队称灵犀 AI 助手只运行本地模型不会调用云端模型，问题是云端模型调用凭据都是有效的，这显然还是产品缺陷。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112883-2.png" rel="nofollow"&gt;&lt;img alt="[已吊销] H3C灵犀AI助手直接在配置文件中暴露大量API凭据 3个月后才完成吊销" data-src="https://img.landian.news/landian/2026/05/112883-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112883-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;到 5 月初时网友再次联系蓝点网称 H3C 团队已经将所有泄露的 API 凭据吊销，由此我们可以得出以下猜测：1. 这些凭据并未遭到广泛恶意利用，否则 H3C 团队应该很快就会将其吊销；2. 这些凭据可能在 H3C 团队中被广泛使用，所以需要沟通各方替换为凭据证后再将暴露的凭据吊销。&lt;/p&gt;
+&lt;p&gt;根据第二点，蓝点网甚至有些怀疑 H3C 团队在内部大范围使用相同的凭据，按照最佳实践，且不说每名成员单独使用一个凭据，至少也应该每个团队使用一个单独的凭据，这样哪怕其中一个凭据暴露后也能快速吊销而不影响其他团队。&lt;/p&gt;
+&lt;p&gt;不过本身灵犀 AI 助手事件并未引起大范围问题，H3C 团队的做法算是给其他开发者参考，即无论如何都不应该将敏感凭据直接放在配置文件中，否则如果发现凭据的是黑客，那么就有可能产生不可预料的后果。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;感谢蓝点网网友 Remik1 分享的消息&lt;/em&gt;&lt;/p&gt;
+</description><pubDate>Mon, 11 May 2026 02:25:16 +0000</pubDate></item><item><title>谷歌宣布扩展Gemini API中的文件搜索功能 为开发者带来更完整的多模态RAG能力</title><link>https://www.landiannews.com/archives/112882.html</link><description>
+&lt;p&gt;#人工智能 谷歌宣布扩展 Gemini API 中的文件搜索功能，为开发者带来更完整的多模态检索增强生成 (RAG) 能力。此次更新的核心包括：支持图像与文本混合检索、支持自定义元数据过滤、新增页面级引用支持等，这可以显著提升 AI 系统在企业知识库、文档问答以及智能体等场景中的可访问性和准确性。查看详情：https://ourl.co/112882&lt;/p&gt;&lt;p&gt;谷歌日前宣布扩展 Google Gemini API 中的文件搜索功能，为开发者带来更加完整的多模态检索增强生成 (RAG) 能力，此次更新的核心包括：支持图像与文本混合检索、支持自定义元数据过滤、新增页面级引用支持，提升 AI 系统在企业知识库、文档问答以及智能体等场景中的可访问性和准确性。&lt;/p&gt;
+&lt;p&gt;根据谷歌官方博客介绍，新版文件搜索功能已经不再局限于传统文本向量搜索，而是基于 Gemini Embedding 2 构建的统一多模态嵌入能力，可以同时理解图片、PDF、文档中的视觉内容与文字内容，开发者无需自行搭建复杂的向量数据库、Embedding 管线或文档切分系统，就可以直接在 Gemini API 中完成完整的 RAG 工作流。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112882.png" rel="nofollow"&gt;&lt;img alt="谷歌宣布扩展Gemini API中的文件搜索功能 为开发者带来更完整的多模态RAG能力" data-src="https://img.landian.news/landian/2026/05/112882.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112882.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在传统的 RAG 系统里，图片、图表、截图、设计图等视觉内容往往难以有效被索引，这导致 AI 回答缺乏上下文理解，而 Gemini API 新增的多模态文件搜索能力能够原生识别图片中的内容，与文本共同建立检索索引。例如企业可以上传包含产品图片、数据图表或技术架构图的 PDF 文件，AI 在回答时能够同时理解其中的视觉信息与文本描述。&lt;/p&gt;
+&lt;p&gt;谷歌称这项能力特别适合构建企业级知识助手、客服机器人、文档分析系统以及 AI 智能体，开发者可以让模型基于内部文档进行推理，而不需要进行额外维护独立的图像检索系统，对于拥有大量图文混排资料的企业来说，这意味着更低的部署复杂度和更高的检索准确率。&lt;/p&gt;
+&lt;p&gt;还有个新增功能是自定义元数据过滤，开发者可以为上传的文件增加标签、分类、时间和部门等元数据，以便在后续进行检索时按照元数据进行过滤提升准确率和效率，这也更加适合大型知识库管理，减少无关内容进入上下文窗口。&lt;/p&gt;
+&lt;p&gt;另一项重要功能是页面级引用，Gemini AI 在生成答案时可以明确标注信息来自哪一页文档，而不仅仅是模糊地引用整个文件，这可以让用户在获得回答后点击查看具体的文档页面判断内容准确性以及阅读完整文档获得更多信息等。&lt;/p&gt;
+&lt;p&gt;目前新版 Google Gemini API 文件搜索功能已经面向所有开发者开放，感兴趣的开发者可以通过 Google AI Studio 以及 Google Cloud 等平台开通 Gemini API 进行体验。&lt;/p&gt;
+&lt;p&gt;开发者指南：&lt;a href="https://dev.to/googleai/multimodal-rag-with-the-gemini-api-file-search-tool-a-developer-guide-5878" rel="noopener" target="_blank"&gt;https://dev.to/googleai/multimodal-rag-with-the-gemini-api-file-search-tool-a-developer-guide-5878&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 11 May 2026 01:56:38 +0000</pubDate></item><item><title>免费下载工具JDownloader遭到黑客攻击 5.6~7日下载该工具的用户请立即查杀</title><link>https://www.landiannews.com/archives/112881.html</link><description>
+&lt;p&gt;#安全资讯 热门免费下载工具 JDownloader 在 2026 年 5 月 6 日～7 日 (UTC 时间) 期间遭到黑客入侵，黑客篡改网站下载链接投放带有远程访问木马的恶意版本。JDownloader 事后检查发现是网站的内容管理系统遭到黑客入侵，黑客针对 Windows 和 Linux 用户投放远程访问木马，建议在以上时间段内下载该软件的用户尽快查杀病毒。查看详情：https://ourl.co/112881&lt;/p&gt;&lt;p&gt;老牌免费下载器 JDownloader 的官方网站在 2026 年 5 月 6 日～7 日 (UTC 时间) 期间遭到黑客入侵，黑客修改网站上的下载链接将其替换为带有远程访问木马的恶意版本，在以上时间范围内下载这款工具的用户建议立即使用反病毒软件进行深度查杀。&lt;/p&gt;
+&lt;p&gt;JDownloader 支持从文件托管服务器、视频网站甚至部分付费链接生成器自动下载文件，该软件在全球拥有数百万名用户，支持 Windows、Linux 和 macOS 系统，此次遭到黑客篡改的是 JDownloader for Windows 和 Linux 版。&lt;/p&gt;
+&lt;p&gt;所幸在 Microsoft Defender 可以有效检测和识别黑客投放的远程访问木马，在入侵期间有用户下载该软件后被微软自动拦截，微软的反病毒软件将安装程序报告为恶意软件阻止用户运行 (但用户也可以解除阻止继续运行)。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112881.png" rel="nofollow"&gt;&lt;img alt="免费下载工具JDownloader遭到黑客攻击 5.6~7日下载该工具的用户请立即查杀" data-src="https://img.landian.news/landian/2026/05/112881.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112881.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;包含远程访问木马的恶意版本则使用多个被盗的代码签名证书进行签名，有时候开发者显示为 Zipline LLC，有时候会显示为 The Water Team 等，黑客似乎想要通过这种方式降低用户戒备心，但 JDownloader 官方版的数字签名应该是 AppWork GmbH。&lt;/p&gt;
+&lt;p&gt;JDownloader 团队接到用户报告后也进行调查，调查发现黑客通过某种方式入侵网站内容管理系统然后篡改下载链接，受影响的包括 JDownloader 下载页面的 Windows 安装程序 (显示为下载备用安装程序) 和 Linux shell 安装程序。&lt;/p&gt;
+&lt;p&gt;黑客投放的远程访问木马使用 Python 开发，内含模块化机器人和 RAT 框架，可以从攻击者的 C2 服务器接收命令并在受感染的设备上执行，按照木马设计方式，黑客可以在受感染的设备上执行任意命令，当然可能也包括监控用户的输入以及窃取用户文件等。&lt;/p&gt;
+&lt;p&gt;单纯卸载包含后门程序的 JDownloader 可能无法解决问题，建议在 2026 年 5 月 6 日～7 日 (UTC 时间) 期间通过 JDownloader 官网下载该软件的用户备份重要文件后重装系统，重装系统后再重新下载干净的、不含后门程序的 JDownloader 即可。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;黑客使用的 C2 域名：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;parkspringshotel [.] com/m/Lu6aeloo.php (均为合法网站但也遭到黑客入侵用来托管恶意文件)&lt;/li&gt;
+&lt;li&gt;auraguest [.] lk/m/douV2quu.php (均为合法网站但也遭到黑客入侵用来托管恶意文件)&lt;/li&gt;
+&lt;li&gt;checkinnhotels [.] com (均为合法网站但也遭到黑客入侵用来托管恶意文件)&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Mon, 11 May 2026 01:35:13 +0000</pubDate></item><item><title>微软反驳通过CPU瞬时超频提升Win11响应速度是懒惰做法 称苹果也这么做</title><link>https://www.landiannews.com/archives/112880.html</link><description>
+&lt;p&gt;#系统资讯 微软副总裁反驳通过 CPU 瞬时提升频率提升 Windows 11 响应速度是懒惰做法，称苹果在 macOS 中也是这么做的。微软开发者社区副总裁汉塞尔曼称，短暂提升 CPU 频率提升性能的行为属于行业标准做法，这并不是作弊，现代操作系统通过这种方式优先处理交互任务让响应更快。查看详情：https://ourl.co/112880&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landiannews.com/archives/112877.html" rel="noopener" target="_blank"&gt;上周蓝点网提到 Windows 11 正在测试名为低延迟配置文件的实验性选项&lt;/a&gt;，该选项被开启后将在用户执行关键点击操作 (例如点击开始菜单按钮、右键菜单以及启用应用程序等) 时，在 1~3 秒内瞬时提升 CPU 频率使得 UI 响应速度缩短，避免用户执行此类点击时总是觉得有种卡顿的感觉。&lt;/p&gt;
+&lt;p&gt;该消息发布后有不少网友参与讨论并认为这是微软糟糕软件工程的标志，即微软不想着如何优化操作系统和底层架构提升实际性能，而是通过 CPU 瞬时超频进行作弊，这不是解决 Windows 11 性能问题的根本解决方案。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src="https://img.lancdn.com/landian/public/thumb/W11.webp" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/public/thumb/W11.webp"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;微软开发者社区副总裁汉塞尔曼在社交媒体 X/Twitter 上回应用户批评，汉塞尔曼称通过短暂提升 CPU 频率来达到提升性能的行为属于行业标准做法，所有现代操作系统例如 macOS 和 Linux 也都这么做，这并非作弊，现代操作系统正是通过这种方式让应用程序运行速度更快、通过短暂提升 CPU 频率优先处理交互任务以减少卡顿和延迟。&lt;/p&gt;
+&lt;p&gt;汉塞尔曼还解释为什么 Linux 系统速度如此快：Linux 菜单之所以感觉非常轻便，是因为 Linux 菜单通常执行的工作非常少、集成的服务也非常少，而不是 Linux 可以通过某些技术手段规避 CPU 加速或后台活动。GNOME、KDE 以及 Linux 上的应用程序启动器仍然会占用大量的 CPU 资源、积极调度前台任务、使用现代化的 CPU 加速机制。&lt;/p&gt;
+&lt;p&gt;对于用户称低延迟配置文件是作弊和懒惰的做法，汉塞尔曼还称部分网友多少有种阴谋论的感觉：&lt;strong&gt;聪明的人正在努力解决这些问题，但很多负面情绪都是某些缺乏计算机科学经验的爱好者根据直觉做出的假设，即当你不知道任何事情是如何运作的时候，一切都是阴谋。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 当然通过提高 CPU 瞬时频率或许确实可以解决卡顿问题：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;且不论微软这种行为是否属于作弊和懒惰的做法，低延迟配置文件通过提高 CPU 瞬时频率在客观上确实可以提升 Windows 11 的响应速度，尤其是诸如点击开始菜单和资源管理器右键菜单时的响应速度，这对长期使用 Windows 11 的用户来说确实是个好事情。&lt;/p&gt;
+&lt;p&gt;提升 CPU 瞬时频率也基本不会对笔记本电脑续航时间和散热造成负面影响，所以以目前 Windows 11 的使用体验来说，只要能提升实际使用体验，哪怕是邪修方式也可以接受的，毕竟与其长期容忍卡顿问题，不如充分利用现代 CPU 性能来提升体验。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://x.com/shanselman/status/2053210825301901434?s=20" rel="noopener" target="_blank"&gt;Scott Hanselman&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 11 May 2026 01:08:44 +0000</pubDate></item><item><title>微软开发的新标签页扩展程序WowTab似乎已经删库跑路 官网变成404状态</title><link>https://www.landiannews.com/archives/112879.html</link><description>
 &lt;p&gt;#软件资讯 微软开发的新标签页扩展程序 WowTab 似乎已经删库跑路，官网变成 404 状态，QQ 群改名，部分资源域名直接停止 DNS 解析。该扩展是微软中国团队在 2024 年 1 月开发的，最初以简洁无广告而吸引不少用户，现在长期没有更新可能是已经停止维护，建议使用该扩展的用户提前寻找替代扩展程序。查看详情：https://ourl.co/112879&lt;/p&gt;&lt;p&gt;2024 年 1 月，微软中国团队面向用户推出适用于浏览器的新标签页扩展程序 WowTab，这类扩展程序可以替代 Chromium 浏览器默认的新标签页，提供诸如天气模块、网址导航、番茄时钟、备忘录、平静模式等多种功能。&lt;/p&gt;
 &lt;p&gt;最初这款扩展程序以简洁无广告而受到用户欢迎，之后微软慢慢增加广告以及 MSN 信息流内容，不过总体来说 WowTab 扩展程序可用性和实用性都还是不错的，只是没想到现在这款扩展程序似乎已经进入删库跑路状态。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/112879-1.png" rel="nofollow"&gt;&lt;img alt="微软开发的新标签页扩展程序WowTab似乎已经删库跑路 官网变成404状态" data-src="https://img.lancdn.com/landian/2026/05/112879-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/112879-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -12,61 +63,4 @@
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;目前 WowTab 扩展程序仍然可以使用，部分网站图标无法加载问题是因为托管这些图标的域名已经停止解析，但用户将报错的这些网站图标删除即可，其他本身不需要服务器支持的功能基本还可以正常工作。&lt;/p&gt;
 &lt;p&gt;但随着长时间无人维护，WowTab 扩展程序各类功能可能会随着时间推移出现异常，例如浏览器更新后产生某些兼容性问题，所以使用 WowTab 扩展程序的用户可能还是要考虑更换其他类似扩展程序。&lt;/p&gt;
-</description><pubDate>Sat, 09 May 2026 02:36:03 +0000</pubDate></item><item><title>内存危机也带崩主板销售 华硕主板出货量预计暴跌33% 甚至比疫情时候还糟糕</title><link>https://www.landiannews.com/archives/112878.html</link><description>
-&lt;p&gt;#硬件设备 内存危机正在带崩主板销售，华硕在 2025 年出货 1,500 万台主板，而在 2026 年预计只有 1,000 万台。华擎在 2025 年主板出货量已经下滑到 430 万台，预计 2026 年出货量只有 270 万台，出货量崩溃的主要原因还是内存价格上涨，更多消费者选择等待内存价格回落，所以组装新 PC 只能继续推迟。查看详情：https://ourl.co/112878&lt;/p&gt;&lt;p&gt;由于人工智能行业对 HBM 系列高带宽内存的需求持续增长，适用于消费者设备的内存价格因为缺货因而价格也在持续增长中，而内存涨价不仅仅是影响内存本身，毕竟内存价格太高会导致不少用户停止更换新设备或购买零件组装设备，所以主板等基础零部件的出货量也在崩溃。&lt;/p&gt;
-&lt;p&gt;据台湾电子时报发布的产业链消息，主板制造商正在面临崩溃局面，报告指出包括微星、技嘉、华硕、华擎等在内的主板制造商出货量都在持续下滑，尽管主板制造商尚未公布明确数据，不过电子时报称主板行业的领导者华硕 2026 年上半年出货量预计只有 500 万台。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/112878.png" rel="nofollow"&gt;&lt;img alt="内存危机也带崩主板销售 华硕主板出货量预计暴跌33% 甚至比疫情时候还糟糕" data-src="https://img.lancdn.com/landian/2026/05/112878.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/112878.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;华硕在 2024 年主板出货量达到 1,400 万台，而在 2025 年逆势增长到 1,500 万台，但按照现在情况来看，华硕在 2026 年全年的主板出货量估计也只有 1000 万台，这可能是最近十多年以来的最低点。&lt;/p&gt;
-&lt;p&gt;技嘉在 2025 年的主板出货量为 1,150 万台，而技嘉已经将 2026 年全年主板出货量目标下调到 900 万台；妖板制造商华擎在 2024 年主板出货量为 440 万台，2025 年已经下滑到 430 万台，而 2026 年出货量估计只有 270 万台，也就是 2026 年较 2025 年将下跌 37% 以上。&lt;/p&gt;
-&lt;p&gt;微星主板代工规模近年来则是在持续萎缩中，仅有少数来自联想、NEC 和 LG 的主板代工订单，代工主板出货量减少 6 成，品牌主板在 2025 年出货量上涨到 1,100 万台，而在 2026 年全年微星品牌主板出货量估计会跌到 840 万台。&lt;/p&gt;
-&lt;p&gt;主板出货量崩溃的首要因素就是内存危机，现在用户想要购买全新的 DDR5 内存条需要支付非常高的溢价，因此有些用户干脆选择等待直到价格回落，有些用户则可能会选择尽可能复用现有硬件进行升级，而不是购买所有硬件重新组装设备。&lt;/p&gt;
-&lt;p&gt;对用户而言当前不太可能先购买主板然后等着内存价格回落，而固态硬盘等产品由于具有更高的兼容性，因此即便价格上涨用户还是在继续购买，哪怕未来更换新主板后这些固态硬盘还是可以继续使用的。&lt;/p&gt;
-&lt;p&gt;除了内存和主板外，CPU 涨价也是因素之一，AMD 和英特尔都已经在提高中高端 CPU 价格，涨价原因主要是零部件成本失控，AMD 和英特尔通过涨价来抵消上涨成本，于是对普通消费者而言，内存、主板、CPU 价格都在上涨，组装一台 PC 的成本比以前要高出很多，所以对于更多消费者而言在预算不充足的情况下，继续使用现有硬件也是没有办法的事情。&lt;/p&gt;
-</description><pubDate>Fri, 08 May 2026 15:19:18 +0000</pubDate></item><item><title>微软悄悄在Windows 11中增加CPU瞬时超频 可在1~3秒内提升UI响应速度</title><link>https://www.landiannews.com/archives/112877.html</link><description>
-&lt;p&gt;#系统资讯 微软悄悄在 Windows 11 中新增 CPU 瞬时超频功能，可以在 1~3 秒内短暂提升 CPU 频率达到缩短 UI 响应速度的目的，也就是用户点击开始菜单或右键菜单减少卡顿。此功能也支持其他软件，虚拟机测试显示在低端硬件上响应速度甚至可以提升高达 70%，而且这基本不会对续航和散热造成影响。查看详情：https://ourl.co/112877&lt;/p&gt;&lt;p&gt;如果你长期使用 Windows 11 可能经常会遇到某些选项点击后出现的延迟问题，比较典型的案例就是资源管理器右键菜单有时候可能会卡顿 1~3 秒后才能加载出来，尤其是其他软件添加到新版右键菜单中的那些选项。&lt;/p&gt;
-&lt;p&gt;当然出现 UI 点击延迟的远不只是右键菜单，诸如开始菜单、搜索面板、启动某些应用程序等也同样出现点击延迟，微软确实在想办法解决延迟问题，最新测试的实验性选项名为低延迟配置文件。&lt;/p&gt;
-&lt;p&gt;低延迟配置文件相当于是开启 CPU 瞬时超频模式，在用户启动高优先级任务时短暂提高 CPU 频率来提高 UI 点击的响应速度，不过至少现阶段用户还不能主动控制 CPU 瞬时超频模式，不知道未来微软是否会提供自定义选项。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/112877.png" rel="nofollow"&gt;&lt;img alt="微软悄悄在Windows 11中增加CPU瞬时超频 可在1~3秒内提升UI响应速度" data-src="https://img.lancdn.com/landian/2026/05/112877.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/112877.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Windows Latest 针对此功能进行针对性测试，测试使用的虚拟机故意限制硬件资源使用以检查此功能是否能够改善低端硬件的性能，当然虚拟机的测试结果与物理机实际体验可能还是存在差异的。&lt;/p&gt;
-&lt;p&gt;测试显示启用低延迟配置文件后，用户点击开始菜单和资源管理器右键菜单时的响应速度可以提升最高 70%，而 Microsoft Edge 和 Microsoft Outlook 等应用程序的启动速度可以提升最高 40%。&lt;/p&gt;
-&lt;p&gt;而且这项功能很可能也可以加快第三方应用的启动速度，也就是用户启动应用程序时，系统都可能会通过瞬时提高 CPU 频率加快响应，对用户而言，最直观的体验就是卡顿感觉缩短甚至是消失。&lt;/p&gt;
-&lt;p&gt;短暂提升 CPU 频率对电池续航时间和 CPU 温度的影响也是非常小的，所以启用低延迟配置文件后应该不会显著导致笔记本电脑续航时间缩短，设备的正常散热可能也不受影响，唯一可能有些感官上的区别是，频繁点击和启动应用程序时 CPU 风扇转速可能会短时间内增加，也就是用户可能会听到风扇噪音增加。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;此功能目前还在 Windows 11 测试版中进行早期测试，微软甚至都没有直接在实验性选项里开放该功能，所以用户需要通过 ViveTool 启用功能 ID，Windows 11 正式版暂时不支持此功能所以使用正式版的用户请耐心等待后续更新。&lt;/p&gt;
-&lt;pre&gt;#使用ViveTool启用如下功能ID
-#启用低延迟配置文件(针对系统UI菜单)
-vivetool /enable /id:60716524
-#启用低延迟配置文件(针对其他应用程序)
-vivetool /enable /id:61391826&lt;/pre&gt;
-&lt;article&gt;&lt;a href="https://www.landiannews.com/archives/94547.html" title="[图文教程] Windows 11开发版必备神器ViveTool到底怎么用？其实很简单"&gt;&lt;h3&gt;[图文教程] Windows 11开发版必备神器ViveTool到底怎么用？其实很简单&lt;/h3&gt;&lt;/a&gt;&lt;p&gt;之前蓝点网发过文章说最烦微软的A/B对照测试 ,  微软总喜欢搞对照测试所以新功能每次只有部分用户可用。
-
-如果是经常使用Windows 1…&lt;/p&gt;&lt;p&gt;&lt;span title="发布日期"&gt;2022年7月5日 10:16&lt;/span&gt;&lt;span title="浏览数量"&gt;17.73W&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
-</description><pubDate>Fri, 08 May 2026 14:42:43 +0000</pubDate></item><item><title>[技巧] 修改注册表阻止Chrome &amp; Edge 自动下载4GB的本地AI模型</title><link>https://www.landiannews.com/archives/112876.html</link><description>
-&lt;p&gt;#技术教程 修改注册表阻止 Chrome &amp;amp; Edge 浏览器自动下载约 4GB 的本地 AI 模型，是的，微软的 Edge 浏览器也同样会下载。这些模型主要提供网页总结、撰写文本、检测钓鱼和欺诈网站等，如果你觉得没必要保留，可以直接修改注册表彻底阻止浏览器尝试下载模型。查看详情：https://ourl.co/112876&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landiannews.com/archives/112872.html" rel="noopener" target="_blank"&gt;昨天谷歌发言人就谷歌浏览器自动下载约 4GB 的本地 AI 模型进行澄清&lt;/a&gt;，该功能本身是从 2024 年就已经开始提供，不过大多数用户可能压根没有使用过相关 AI 功能，但却发现自己的磁盘空间被谷歌浏览器占据 5GB 以上空间 (更新缓存 + AI 模型)。&lt;/p&gt;
-&lt;p&gt;按照谷歌说法用户可以直接在浏览器设置中禁用设备端 AI 功能来阻止下载模型，但蓝点网在昨天的文章中也提到，有些用户可能可以看到设备端 AI 选项，有些用户压根看不到这个选项，而看不到选项的情况下自然也没法直接禁用此功能。&lt;/p&gt;
-&lt;p&gt;微软的 Microsoft Edge 浏览器也有同样的行为，也就是会自动下载并启用设备端 AI 模型来提供某些功能，为方便组织 IT 管理员进行管理，微软和谷歌也都提供注册表 / 组策略可以直接禁用设备端 AI。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/112872-1.png" rel="nofollow"&gt;&lt;img alt="[技巧] 修改注册表阻止Chrome &amp;amp; Edge 自动下载4GB的本地AI模型" data-src="https://img.lancdn.com/landian/2026/05/112872-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/112872-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112538-1.png" rel="nofollow"&gt;&lt;img alt="[技巧] 修改注册表阻止Chrome &amp;amp; Edge 自动下载4GB的本地AI模型" data-src="https://img.lancdn.com/landian/2026/04/112538-1.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112538-1.png"/&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;设备端 AI 功能主要通过 Google Gemini Nano 模型在本地提供相关人工智能服务，例如总结网页内容、帮助用户撰写文本、帮助用户重写文本、智能化整体标签页、基于 AI 的检测钓鱼和诈骗网站等等。&lt;/p&gt;
-&lt;p&gt;以上部分功能在有设备端 AI 模型的情况下会优先通过本地模型处理，但即便禁用设备端 AI 功能也可以继续使用，也就是实际使用时会将数据发送给谷歌，利用谷歌云端的 Google Gemini 来处理。&lt;/p&gt;
-&lt;p&gt;如果你经常使用这些功能则建议保留模型继续开启设备端 AI 功能，在本地处理这些数据速度更快且不需要担心潜在的隐私问题，如果不使用则可以按照下面的方法直接禁用 Google Chrome 和 Microsoft Edge 下载 AI 模型。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Google Chrome 与 Microsoft Edge 的注册表路径不同，所以如果你同时使用两款浏览器建议都修改注册表，当然即便你不使用 Microsoft Edge 浏览器，偶尔被自动打开后也可能继续下载，所以也推荐用户直接修改注册表进行禁用。&lt;/p&gt;
-&lt;pre&gt;# 打开管理员模式的 CMD 命令提示符执行如下命令
-# 适用于 Google Chrome
-reg add "HKLM\SOFTWARE\Policies\Google\Chrome" /v "GenAILocalFoundationalModelSettings" /t REG_DWORD /d 1 /f
-# 适用于 Microsoft Edge
-reg add "HKLM\SOFTWARE\Policies\Microsoft\Edge" /v "GenAILocalFoundationalModelSettings" /t REG_DWORD /d 1 /f&lt;/pre&gt;
-&lt;p&gt;以上命令中的注册表键值 1 代表禁用设备端 AI 功能，如果后续你想启用此功能，则可以将命令结尾的 1 修改为 0 再执行，另外通过注册表或组策略修改后，浏览器关于页面可能会显示由贵组织管理的提示，这个仅仅是提示不影响正常使用。&lt;/p&gt;
-</description><pubDate>Fri, 08 May 2026 14:12:57 +0000</pubDate></item><item><title>网络服务提供商Cloudflare宣布裁员20% 原因则是AI驱动的自动化</title><link>https://www.landiannews.com/archives/112875.html</link><description>
-&lt;p&gt;#行业资讯 网络服务提供商 Cloudflare 宣布裁员 20%，约有 1,100 名员工将被迫离开公司。Cloudflare 强调不想在未来重复这样的裁员，也就是趁着现在还算不错的情况下裁员还可以提供更多福利补贴，至于裁员原因，既不是为了削减成本，也不是绩效考核，纯粹就是 Cloudflare 准备利用 AI 显著提高效率。查看详情：https://ourl.co/112875&lt;/p&gt;&lt;p&gt;全球知名网络服务提供商 Cloudflare 日前发布内部信宣布裁员 1,100 人，该公司在全球所有办公室的员工总数为 5,156 人，因此这次裁员比例高达 20%，不过 Cloudflare 并未说明哪些部门或工作岗位是裁员的重灾区。&lt;/p&gt;
-&lt;p&gt;Cloudflare 强调，本轮裁员既不是基于削减成本考虑，也不是对员工个人绩效的评估，裁员仅仅是为了重新定义 Cloudflare 在人工智能时代如何运营并创造价值，如此来看 Cloudflare 其实也主要是觉得人工智能能够显著提升效率所以不需要太多的员工。&lt;/p&gt;
-&lt;p&gt;至少从财报数据来看 Cloudflare 的财务状况还是非常不错的，自 2026 年以来 Cloudflare 的营收、利润以及股价都在持续上涨中，例如从 2026 年 1 月 1 日至今，Cloudflare 股价已经上涨 30%。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/112875.png" rel="nofollow"&gt;&lt;img alt="网络服务提供商Cloudflare宣布裁员20% 原因则是AI驱动的自动化" data-src="https://img.lancdn.com/landian/2026/05/112875.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/112875.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;可能是为了稳定现有团队的信心，Cloudflare 强调只进行一次这样的裁员，在可以预见的未来，Cloudflare 不想再重复这个过程，也就是 Cloudflare 所谓的长痛不如短痛，在当前状况良好的情况下进行裁员，也可以为被裁成员提供更好的福利补贴。&lt;/p&gt;
-&lt;p&gt;离职员工补偿方面，Cloudflare 将向被裁员工提供相当于 2026 年全年基本工资的现金补贴，全球不同办公室成员的医疗保险覆盖范围不同，不过在美国 Cloudflare 将为员工继续提供医疗保险直到今年年底，让员工有更多时间寻找新公司。&lt;/p&gt;
-&lt;p&gt;股票奖励方面，被裁员工的股权授予期限将延长到 2026 年 8 月 15 日，所以离职员工还可以继续获得股票奖励，如果员工还未达到一年期股权授予期限，Cloudflare 也将免除该期限，按照比例提供截至 8 月底的股权。&lt;/p&gt;
-&lt;p&gt;目前 Cloudflare 还未宣布要对部门进行重组，不过既然裁员和计划精简并提升效率，可能不同团队进行重组也是必然的事情，尤其是 AI 能够显著提高效率的部门，或许是裁员的重灾区、也是重组的目标。&lt;/p&gt;
-</description><pubDate>Fri, 08 May 2026 13:56:55 +0000</pubDate></item></channel></rss>
+</description><pubDate>Sat, 09 May 2026 02:36:03 +0000</pubDate></item></channel></rss>
