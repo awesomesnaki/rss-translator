@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Mon, 11 May 2026 20:48:05 +0000</lastBuildDate><item><title>在Counterpoint的2026年第一季度全球最畅销手机前十名榜单中，iPhone机型分别位列第一、第二、第三和第六名。</title><link>https://appleworld.today/2026/05/apples-iphone-17-was-the-worlds-best-selling-smartphone-in-quarter-one-of-2026/</link><description>&lt;p&gt;三星手机占据了第4、5、7、8、9位。在前十名中，唯一非苹果或三星的手机是排名第10的小米Redmi A5。正如我&lt;a href="https://daringfireball.net/linked/2025/08/18/bezos-numbers-smart-glasses-counterpoint"&gt;一直所说&lt;/a&gt;，对这些数据要持保留态度，但据Counterpoint统计，最畅销的手机依次是：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 12 May 2026 00:54:08 +0000</lastBuildDate><item><title>[赞助商] Drata</title><link>https://drata.com/daring</link><description>&lt;p&gt;利用自主AI代理自动化合规、管理内部和第三方风险，并持续证明您的安全态势。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/feeds/sponsors/2026/05/drata_5" title="'Drata'的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Tue, 12 May 2026 00:54:08 +0000</pubDate></item><item><title>iOS 26.5 包含对端到端加密RCS消息的测试版支持</title><link>https://www.apple.com/newsroom/2026/05/end-to-end-encrypted-rcs-messaging-begins-rolling-out-today-in-beta/</link><description>&lt;p&gt;Apple Newsroom:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;从今天开始，端到端加密的RCS消息功能开始以测试版形式向运行iOS 26.5并使用&lt;a href="https://support.apple.com/en-us/109526"&gt;支持的运营商&lt;/a&gt;的iPhone用户，以及使用最新版Google Messages的Android用户推出。当RCS消息实现端到端加密后，它们在设备间传输过程中将无法被读取。用户会在RCS聊天中看到一个新的锁形图标，从而知晓该对话已启用端到端加密。加密功能默认开启，并将随着时间的推移自动对新的和现有的RCS对话生效。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我希望这能推动未来所有RCS消息都实现端到端加密，但我对此持怀疑态度。目前，这种E2EE RCS既依赖于直接对话中双方所使用的运营商，也依赖于他们设备上运行的软件。运营商列表虽然相当广泛，但据我所知，&lt;a href="https://daringfireball.net/linked/2024/12/16/google-fi-rcs-sync"&gt;它仍然不包括谷歌自家的Google Fi&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;不过，这个状态的提示很微妙。你必须查看每条聊天中的小字元数据，才能确认是否已加密。消息文本仍然保持相同的绿色色调。如果是群聊，只要其中有一个成员使用的手机和运营商不支持E2EE RCS，整个聊天就不会被加密。&lt;/p&gt;
+&lt;p&gt;而在iMessage中，所有聊天始终都是端到端加密的，并且一直如此。iMessage自诞生以来就一直完全采用E2EE。对于RCS，你必须查看元数据中的小字才能核实。这比完全不支持加密要好，但我的建议是，除非你每次都仔细核对，否则应假定所有RCS聊天均未加密。&lt;/p&gt;
+&lt;p&gt;除了漏洞修复之外，加密RCS是&lt;a href="https://mjtsai.com/blog/2026/05/11/ios-26-5-and-ipados-26-5/"&gt;iOS 26.5中最大的新功能&lt;/a&gt;。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/05/11/ios-26-rcs-encryption" title="指向‘iOS 26.5 包含端到端加密 RCS 消息的测试版支持’的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Mon, 11 May 2026 22:57:00 +0000</pubDate></item><item><title>在Counterpoint的2026年第一季度全球最畅销手机前十名榜单中，iPhone机型分别位列第一、第二、第三和第六名。</title><link>https://appleworld.today/2026/05/apples-iphone-17-was-the-worlds-best-selling-smartphone-in-quarter-one-of-2026/</link><description>&lt;p&gt;三星手机占据了第4、5、7、8、9位。在前十名中，唯一非苹果或三星的手机是排名第10的小米Redmi A5。正如我&lt;a href="https://daringfireball.net/linked/2025/08/18/bezos-numbers-smart-glasses-counterpoint"&gt;一直所说&lt;/a&gt;，对这些数据要持保留态度，但据Counterpoint统计，最畅销的手机依次是：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;iPhone 17&lt;/li&gt;
 &lt;li&gt;iPhone 17 Pro Max&lt;/li&gt;
@@ -10,15 +21,15 @@
 &lt;a href="https://daringfireball.net/linked/2026/05/11/iphones-counterpoint-share" title="‘iPhone Models Ranked 1st, 2nd, 3rd, and 6th in Counterpoint’s List of 10 Bestselling Phones Worldwide in Q1 2026’的固定链接"&gt; ★ &lt;/a&gt;
 </description><pubDate>Mon, 11 May 2026 20:48:05 +0000</pubDate></item><item><title>新款PowerMac</title><link>https://www.kraftheinz.com/kraft-mac-and-cheese/products/00021000086856-power-mac-original-flavor-mac-cheese-macaroni-and-cheese-dinner</link><description>&lt;p&gt;苹果于2006年8月停售了Power Mac G5（中间有空格），所以我不太确定他们有多在意卡夫公司用“PowerMac”（无空格）作为蛋白强化通心粉奶酪的商标。（我感觉这里肯定能拿“奶酪刨丝器”开个玩笑……）&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/05/11/new-powermac" title="‘新PowerMac’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 11 May 2026 18:32:03 +0000</pubDate></item><item><title>Tahoe的用户界面问题与显示技术无关，或许——仅仅是或许——我们该停止假设古尔曼对苹果的Vision硬件路线图有任何了解。</title><link>https://www.bloomberg.com/news/newsletters/2026-05-10/apple-plans-macos-27-design-changes-latest-on-ios-27-visionos-safari-wwdc-26-mozuaz9m?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc3ODQyMTgwOSwiZXhwIjoxNzc5MDI2NjA5LCJhcnRpY2xlSWQiOiJURVRRVzFLR0NURkwwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.VPDmd_jJhdzOBKvj1AUZTernGpGdF1zR9kGgFIF-9Hw&amp;leadSource=uverify%20wall</link><description>&lt;p&gt;马克·古尔曼（Mark Gurman）在上周末为彭博社撰写的《Power On》时事通讯中写道：&lt;/p&gt;
+</description><pubDate>Mon, 11 May 2026 18:32:03 +0000</pubDate></item><item><title>Tahoe的用户界面问题与显示技术无关，或许——仅仅是或许——我们该停止假设古尔曼对苹果的Vision硬件路线图有任何了解。</title><link>https://www.bloomberg.com/news/newsletters/2026-05-10/apple-plans-macos-27-design-changes-latest-on-ios-27-visionos-safari-wwdc-26-mozuaz9m?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc3ODQyMTgwOSwiZXhwIjoxNzc5MDI2NjA5LCJhcnRpY2xlSWQiOiJURVRRVzFLR0NURkwwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.VPDmd_jJhdzOBKvj1AUZTernGpGdF1zR9kGgFIF-9Hw&amp;leadSource=uverify%20wall</link><description>&lt;p&gt;马克·古尔曼（Mark Gurman）在上周末为彭博社撰写的《Power On》通讯中写道：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;尽管Mac软件引入了与iOS 26相同的液态玻璃界面，但这种设计语言在桌面和笔记本电脑的更大屏幕和不同输入方式上并未实现同样流畅的转换。部分原因在于，液态玻璃是为更现代硬件设计的：iPhone、部分iPad和Apple Watch所使用的清晰OLED屏幕。该软件也将非常适合2027年推出的、更侧重于玻璃设计的iPhone 20。&lt;/p&gt;
-&lt;p&gt;相比之下，大多数Mac仍沿用几年前推出的工业设计。当前MacBook Air的外观于2022年首次亮相，而最新的MacBook Pro和iMac设计则可追溯至2021年。Mac也继续使用LCD屏幕，其在呈现半透明效果、阴影和玻璃质感方面不如OLED屏幕有效。&lt;/p&gt;
-&lt;p&gt;如果你使用过Tahoe系统，你可能对其一些古怪之处很熟悉——尤其是那些会让列表和其他文字密集区域更难阅读的透明效果和阴影。&lt;/p&gt;
+&lt;p&gt;尽管Mac软件采用了与iOS 26相同的液态玻璃界面，但这种设计语言在台式机和笔记本电脑的更大屏幕及不同输入方式上并未顺利转化。部分原因在于液态玻璃是为更现代的硬件设计的：iPhone、部分iPad和Apple Watch上使用的清晰OLED显示屏。该软件也将非常适合2027年推出的、以玻璃为中心的iPhone 20。&lt;/p&gt;
+&lt;p&gt;相比之下，大多数Mac仍依赖几年前推出的工业设计。MacBook Air的当前外观于2022年首次亮相，而最新的MacBook Pro和iMac设计可追溯到2021年。Mac还继续使用LCD显示屏，后者在渲染半透明、阴影和玻璃效果方面不如OLED屏幕有效。&lt;/p&gt;
+&lt;p&gt;如果你用过Tahoe，很可能熟悉一些奇怪之处——尤其是透明效果和阴影，它们可能让列表和其他文字密集区域更难阅读。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;试图争辩LCD与OLED显示器的差异与macOS 26 Tahoe的界面问题有关，就像在争辩你那份没做熟、准备不当的难吃食物之所以难吃，是因为它本该放在更高品质的餐具上享用。更好的屏幕只是更好的屏幕。糟糕的界面就是糟糕的界面。难吃、没做熟、准备不当的食物就是难吃、没做熟、准备不当的食物。&lt;/p&gt;
-&lt;p&gt;实际上，你可以通过配合新款iPad Pro使用&lt;a href="https://support.apple.com/en-us/102597"&gt;Sidecar&lt;/a&gt;功能，在OLED显示器上查看macOS 26 Tahoe。这没什么帮助。你也可以在没有OLED屏幕的设备上查看iOS 26和iPadOS 26。它们看起来没问题。认为macOS 26 Tahoe上的任何内容是为OLED屏幕优化的说法毫无意义——目前没有任何MacBook或苹果桌面显示器使用OLED。据说OLED MacBook将于今年年底或明年推出，但到那时，我们已处于macOS 27的周期中期。最后，苹果在三月刚刚推出了&lt;a href="https://www.apple.com/shop/buy-mac/studio-display-xdr"&gt;新款售价3300美元的Studio Display XDR&lt;/a&gt;，使用的是Mini-LED而非OLED技术。即使Mac显示技术的未来也只有部分是OLED。&lt;/p&gt;
-&lt;p&gt;去年iOS和iPadOS 26的液态玻璃界面重新设计相当出色。而macOS 26的液态玻璃重新设计则相当糟糕。就是这样。这与显示技术毫无关系。&lt;/p&gt;&lt;p&gt;我很高兴看到古尔曼报道称，即将发布的 macOS 27 采用了全新设计的界面，但你不需要气象员也能知道风向。苹果几乎每年都会更新他们的用户界面。考虑到 &lt;a href="https://tonsky.me/blog/tahoe-icons/"&gt;显而易见的&lt;/a&gt; &lt;a href="https://blog.jim-nielsen.com/2025/icons-in-menus/"&gt;问题&lt;/a&gt; &lt;a href="https://daringfireball.net/linked/2026/01/22/macos-26-tahoe-broke-column-view-in-the-finder"&gt;随着&lt;/a&gt; &lt;a href="https://daringfireball.net/linked/2026/04/13/tahoe-reduce-transparency"&gt;Tahoe&lt;/a&gt; 的出现，以及今年界面评论家们的普遍批评，如果 macOS 27 没有体现出一些显著的变化，那绝对会令人瞠目结舌。&lt;/p&gt;
+&lt;p&gt;试图辩称LCD和OLED显示屏的差异与MacOS 26 Tahoe的UI问题有关，就像说你的半生不熟、准备糟糕的食物尝起来像屎，是因为它原本设计用于盛放在更高质量的餐具上一样。更好的显示屏仅仅是更好的显示屏。糟糕的UI就是糟糕的UI。糟糕的半生不熟、准备糟糕的食物就是糟糕的半生不熟、准备糟糕的食物。&lt;/p&gt;
+&lt;p&gt;实际上，你可以通过将最新iPad Pro与Sidecar配合使用，在OLED显示屏上观看MacOS 26 Tahoe。但这没什么帮助。你也可以在没有OLED显示屏的设备上观看iOS 26和iPadOS 26。它看起来没问题。认为MacOS 26 Tahoe上的任何东西都是为OLED显示屏优化的说法毫无意义——因为没有MacBook或苹果台式显示器使用OLED。据称OLED MacBook将于今年年底或明年推出，但到那时我们已处于MacOS 27的周期中期。最后，苹果&lt;em&gt;刚刚&lt;/em&gt;于3月推出了&lt;a href="https://www.apple.com/shop/buy-mac/studio-display-xdr"&gt;全新的3300美元Studio Display XDR&lt;/a&gt;，使用的是Mini-LED而非OLED技术。即使未来Mac显示技术也仅有部分是OLED。&lt;/p&gt;
+&lt;p&gt;去年iOS和iPadOS 26的液态玻璃UI重新设计相当不错。MacOS 26的液态玻璃重新设计却相当糟糕。仅此而已。这与显示技术毫无关系。&lt;/p&gt;&lt;p&gt;我很高兴看到古尔曼报道称，即将发布的 macOS 27 采用了全新设计的界面，但你不需要气象员也能知道风向。苹果几乎每年都会更新他们的用户界面。考虑到 &lt;a href="https://tonsky.me/blog/tahoe-icons/"&gt;显而易见的&lt;/a&gt; &lt;a href="https://blog.jim-nielsen.com/2025/icons-in-menus/"&gt;问题&lt;/a&gt; &lt;a href="https://daringfireball.net/linked/2026/01/22/macos-26-tahoe-broke-column-view-in-the-finder"&gt;随着&lt;/a&gt; &lt;a href="https://daringfireball.net/linked/2026/04/13/tahoe-reduce-transparency"&gt;Tahoe&lt;/a&gt; 的出现，以及今年界面评论家们的普遍批评，如果 macOS 27 没有体现出一些显著的变化，那绝对会令人瞠目结舌。&lt;/p&gt;
 &lt;p&gt;在本周的专栏其他地方，古尔曼写道：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;如果一款类似 Vision Pro 的新设备最终真的问世，考虑到硬件资源如此集中地用于其他地方，我预计至少还要两年左右的时间。&lt;/p&gt;
@@ -33,21 +44,4 @@
 &lt;/blockquote&gt;
 &lt;p&gt;那个“之前考虑过的”产品，在古尔曼写下这些话仅仅六个月后就发货了。种种迹象表明，古尔曼在苹果 Vision Pro 硬件路线图方面，&lt;a href="https://daringfireball.net/linked/2024/05/03/vision-pro-three-year-gap"&gt;消息来源糟糕透顶&lt;/a&gt;——或者根本就是在胡编乱造。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/05/11/gurman-on-macos-27-ui-and-vision-roadmap" title="Permanent link to ‘Tahoe’s UI Issues Have Nothing to Do With Display Technology, and Maybe, Just Maybe, We Should Stop Assuming Gurman Knows Anything About Apple’s Vision Hardware Roadmap’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 11 May 2026 17:55:47 +0000</pubDate></item><item><title>WorkOS</title><link>https://workos.com/?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q22026</link><description>&lt;p&gt;感谢WorkOS再次在过去一周赞助Daring Fireball。如果你已准备好向企业客户销售产品，你的产品或许已经就绪——但你的身份验证基础设施准备好了吗？&lt;/p&gt;
-&lt;p&gt;如果你正在构建B2B SaaS，尤其是AI产品，你很快会需要企业级功能，如SSO、SCIM和审计日志。你的开发者不应浪费时间重建这些基础设施。让他们解放出来，专注于让你脱颖而出的部分。WorkOS为你提供可直接集成到产品中的、生产就绪的身份验证和访问控制API。超过2000家公司信赖我们，包括OpenAI、Anthropic、Cursor和Vercel。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://workos.com/?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q22026"&gt;使用WorkOS更快地构建&lt;/a&gt;。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/05/10/workos" title="指向‘WorkOS’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sun, 10 May 2026 14:05:00 +0000</pubDate></item><item><title>Meta将开始捕捉员工的鼠标移动和键盘输入，用于AI训练数据。</title><link>https://www.reuters.com/sustainability/boards-policy-regulation/meta-start-capturing-employee-mouse-movements-keystrokes-ai-training-data-2026-04-21/</link><description>&lt;p&gt;凯蒂·保罗和杰夫·霍维茨，路透社四月底报道：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Meta正在美国员工的工作电脑上安装新的追踪软件，用于捕捉鼠标移动、点击和按键操作，以训练其人工智能模型。公司在一份内部备忘录中告知员工，这是其打造能够自主执行工作任务的人工智能代理宏伟计划的一部分。路透社看到了这份备忘录。&lt;/p&gt;
-&lt;p&gt;根据一名员工AI研究科学家周二在Meta超级智能实验室团队频道发布的备忘录，这款名为“模型能力计划”（MCI）的工具将监控与工作相关的应用和网站，并会偶尔截取员工屏幕内容。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;我喜欢这个。任何在Meta工作的人都知道自己在为谁工作。我希望他们都和我一样对此感到毛骨悚然。我真正想知道的是，这种监控最高能延伸到哪个层级？如果他们还有一点荣誉感，那么公司每一位员工，直至扎克伯格本人，都应该被安装这个MCI间谍软件。一视同仁，公平合理。我猜事实并非如此，而是存在一个双轨制：如果你的职位在组织架构中足够高，就不会被监控。我希望有小道消息透露一些内情，但我在门洛帕克没什么线人。（&lt;a href="https://daringfireball.net/2025/12/bad_dye_job"&gt;艾伦&lt;/a&gt;，老兄，帮帮忙？）&lt;/p&gt;
-&lt;p&gt;另外：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Meta&lt;a href="https://www.reuters.com/world/meta-targets-may-20-first-wave-layoffs-additional-cuts-later-2026-2026-04-17/"&gt;计划从5月20日起在全球裁员10%&lt;/a&gt;，并考虑今年晚些时候再进行一轮大规模裁员。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;如果我在这工作，我会举手申请买断离职，但我压根就不会去那上班。&lt;/p&gt;
-&lt;p&gt;顺便一提，霍维茨&lt;a href="https://www.pulitzer.org/winners/jeff-horwitz-and-engen-tham-reuters"&gt;凭借对Meta的调查报道获得了2026年普利策奖&lt;/a&gt;。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/05/10/meta-employee-spyware" title="永久链接至‘Meta将开始捕捉员工鼠标移动和按键操作用于AI训练数据’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sun, 10 May 2026 14:04:19 +0000</pubDate></item></channel></rss>
+</description><pubDate>Mon, 11 May 2026 17:55:47 +0000</pubDate></item></channel></rss>

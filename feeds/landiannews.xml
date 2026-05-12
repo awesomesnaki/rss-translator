@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 11 May 2026 07:27:14 +0000</lastBuildDate><item><title>每月访问量高达4300万次的盗版动漫网站AnimeKai将关闭 原因是数据中心起火？</title><link>https://www.landiannews.com/archives/112890.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 12 May 2026 02:25:49 +0000</lastBuildDate><item><title>用于现代WEB开发的TanStack工具包遭到供应链攻击 84个NPM包被篡改为恶意版本</title><link>https://www.landiannews.com/archives/112892.html</link><description>
+&lt;p&gt;#安全资讯 用于现代 WEB 开发的 TanStack 系列工具包遭到供应链攻击，黑客利用流程漏洞发布 84 个恶意 NPM 包。目前相关软件包已经被弃用，但在昨天夜里使用这些软件包构建的开发者需要立即排查，黑客可能会通过执行恶意代码窃取开发者的各类敏感凭据。查看详情：https://ourl.co/112892&lt;/p&gt;&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112892.png" rel="nofollow"&gt;&lt;img alt="用于现代WEB开发的TanStack工具包遭到供应链攻击 84个NPM包被篡改为恶意版本" data-src="https://img.landian.news/landian/2026/05/112892.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112892.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;每月下载量超过 5000 万次的现代 WEB 开发工具包 TanStack 系列遭到供应链攻击，TanStack 账户下约有 84 个 NPM 软件包被黑客替换为恶意版本，网络安全公司 Socket 扫描到异常后立即发出警报，随后 TanStack 确认攻击并立即着手清除恶意版本。&lt;/p&gt;
+&lt;p&gt;以 @tanstack/react-router 包为例，这个软件包每周下载量就达到 1200 万次，此类包通过 NPN 生态系统直接或间接广泛使用，因此从软件供应链角度而言，此类供应链攻击可能会造成非常广泛的破坏。&lt;/p&gt;
+&lt;p&gt;分析发现黑客分发的恶意版本主要新增 package.json 和 tanstack_runner.js，这些文件会在安装基于 Git 的依赖项时自动执行，最终可以可以在安装过程中运行任意代码，例如用于窃取某些敏感凭据等。&lt;/p&gt;
+&lt;p&gt;TanStack 团队分析后将此次安全问题归咎于多种 GitHub Actions 攻击，NPM 相关凭证没有被泄露、NPM 发布工作流也没有攻破，恶意发布操作是在工作流的测试和清理阶段运行攻击者控制的代码后，通过项目的 OIDC 受信任发布者绑定进行身份验证，从而直接将新的软件包发布到 NPM 注册表。&lt;/p&gt;
+&lt;p&gt;作为紧急应对措施，TanStack 团队立即弃用受影响的版本并联系 NPM 安全团队进行处理，当前 GitHub Actions 缓存条目已经被清理，TanStack 还在合并强化更改重构受影响的工作流、添加存储库所有者保护、锁定第三方操作引用等。&lt;/p&gt;
+&lt;p&gt;Socket 已经公布所有受影响的软件包，建议在昨天夜里使用这些软件包构建的开发者立即进行排查：&lt;a href="https://socket.dev/blog/tanstack-npm-packages-compromised-mini-shai-hulud-supply-chain-attack" rel="noopener" target="_blank"&gt;https://socket.dev/blog/tanstack-npm-packages-compromised-mini-shai-hulud-supply-chain-attack&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 12 May 2026 02:25:49 +0000</pubDate></item><item><title>戴尔支持助手导致戴尔Windows 11设备频繁黑屏死机 大约每30分钟就会死机1次</title><link>https://www.landiannews.com/archives/112891.html</link><description>
+&lt;p&gt;#系统资讯 戴尔支持助手导致戴尔 Windows 11 设备频繁黑屏死机，大约每 30 分钟就会死机 1 次，彻底卸载后可以恢复正常。戴尔近期向戴尔设备推送新版 Support Assist，出现问题的用户都是安装了这次更新，随后事件查看器记录到大量内核错误，网友经过研究后确认是支持助手的问题，必须彻底将其本体和插件卸载干净才能恢复。查看详情：https://ourl.co/112891&lt;/p&gt;&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112891.png" rel="nofollow"&gt;&lt;img alt="戴尔支持助手导致戴尔Windows 11设备频繁黑屏死机 大约每30分钟就会死机1次" data-src="https://img.landian.news/landian/2026/05/112891.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112891.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;据 NEOWIN 论坛网友发布的消息，运行 Windows 11 系统的戴尔设备近期频繁出现黑屏死机问题 (BSOD)，发生这种情况并非在安装微软发布的系统更新后，而是用户近期收到戴尔发布的软件更新，安装该更新后系统大约会每隔 30 分钟黑屏死机 1 次。&lt;/p&gt;
+&lt;p&gt;检查事件查看器则可以看到内核出现严重性错误的记录，这些记录大约 30~60 分钟出现 1 次，记录的描述则显示原因可能是内核出现预料之外的失去电源，这个问题目前正在影响大量使用 Windows 11 系统的戴尔用户。&lt;/p&gt;
+&lt;p&gt;网友 MartinHBS2026 则使用微软官方的错误检查工具 WinDbg 对系统日志转储内容进行分析，分析后发现源头指向戴尔自家的支持助手软件 (Support Assist)，所以比较简单的办法就是直接卸载戴尔支持助手。&lt;/p&gt;
+&lt;p&gt;在实际操作中网友发现哪怕是卸载这个戴尔支持助手都可能出现崩溃，不过网友最终还是决定卸载戴尔支持助手相关的所有组件，如果你使用其他高级清理工具，也可以尝试使用此类高级清理工具将戴尔支持助手彻底卸载，将其相关组件和注册表等清理干净。&lt;/p&gt;
+&lt;p&gt;从目前网友反馈来看，彻底卸载戴尔支持助手后可以解决问题，有网友称卸载干净后从微软商店重新安装戴尔支持助手也没再出现类似问题，所以目前具体问题原因还不清楚，可能还需要戴尔官方发布支持公告进行说明。&lt;/p&gt;
+&lt;p&gt;另外在这里也提醒各位网友，大多数 OEM 预装的品牌软件都容易出现类似问题，这些 OEM 软件可能是因为质量差或其他问题总会导致系统出现某些异常，如果在日常使用中遇到类似情况，不妨先卸载这些 OEM 软件再进行测试。&lt;/p&gt;
+</description><pubDate>Tue, 12 May 2026 02:06:37 +0000</pubDate></item><item><title>美国FCC发布公告宣布允许外国制造的路由器发布固件更新直到2029年</title><link>https://www.landiannews.com/archives/112884.html</link><description>
+&lt;p&gt;#行业资讯 美国 FCC 发布公告宣布允许外国制造商发布路由器软件和固件更新直到 2029 年，原本 FCC 要求诸如 TP-Link 等在 2027 年 3 月 1 日之后不准再向美国消费者提供软件更新。FCC 的做法也是典型的一刀切，即原本 FCC 担忧制造商发布固件时引入新漏洞，问题在于哪怕不引入新漏洞，现有固件随着时间推移也会被发现越来越多的漏洞。查看详情：https://ourl.co/112884&lt;/p&gt;&lt;p&gt;美国联邦通信委员会工程与技术办公室日前发布公告，宣布对此前发布的指导意见进行修改，修改后的指导意见允许外国路由器和无人机制造商继续发布软件和固件更新，最终截止时间是 2029 年 1 月 1 日，原本指导意见只允许制造商发布更新到 2027 年 3 月 1 日。&lt;/p&gt;
+&lt;p&gt;这件事的背景是美国政府禁止部分无人机制造商在美国销售无人机 (例如 DJI) 以及&lt;a href="https://www.landiannews.com/archives/112309.html" rel="noopener" target="_blank"&gt;禁止所有在国外生产的消费级路由器在美国市场销售 (但诸如网件等制造商获得豁免)&lt;/a&gt;，这项政策其实针对的主要就是 DJI 和普联 (TP-Link) 等中国无人机和路由器制造商。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112884.png" rel="nofollow"&gt;&lt;img alt="美国FCC发布公告宣布允许外国制造的路由器发布固件更新直到2029年" data-src="https://img.landian.news/landian/2026/05/112884.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112884.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;调查数据显示，目前在美国约有 60% 的路由器都是在中国设计或制造的 (也涉及美国品牌在中国进行代工制造)，而在美国运营的无人机产品中超过 80% 是在中国设计和制造的，如果禁止制造商发布软件和固件更新则制造商无法及时修复各类安全漏洞。&lt;/p&gt;
+&lt;p&gt;无论是路由器还是无人机，随着时间的推移其固件都可能被发现存在安全漏洞或缺陷，以路由器为例，路由器固件出现安全漏洞的概率极高，且路由器在家庭和企业环境中被广泛使用，如果出现漏洞就有可能造成用户或企业关键数据泄露。&lt;/p&gt;
+&lt;p&gt;FCC 最初禁止无人机和路由器制造商提供软件和固件更新是担心提供更新时引入漏洞，问题在于禁止更新倒是可以阻止新漏洞的产生，那现有固件中的漏洞怎么办呢？所以 FCC 的做法遭到网络安全行业的广泛批评，这也是 FCC 现在修改指导意见的原因。&lt;/p&gt;
+&lt;p&gt;当然哪怕是允许制造商发布更新到 2029 年也不能解决问题，大多数路由器产品可能提供 5 年的安全更新，FCC 人为限制制造商提供固件更新后，未来有漏洞消费者也无法通过接收固件进行修复，所以还是会引起更多安全问题。&lt;/p&gt;
+&lt;p&gt;另外目前美国消费者技术协会正在代表美国消费者发声，该协会向 FCC 发出公开信敦促监管机构仔细评估相关禁令、明确哪些产品可能会受到禁令影响，避免用户购买产品后结果发现要不了多久就无法使用或无法再获得必要的更新。&lt;/p&gt;
+</description><pubDate>Tue, 12 May 2026 01:43:53 +0000</pubDate></item><item><title>每月访问量高达4300万次的盗版动漫网站AnimeKai将关闭 原因是数据中心起火？</title><link>https://www.landiannews.com/archives/112890.html</link><description>
 &lt;p&gt;#网站应用 月访问量超过 4300 万次的盗版动漫网站 AnimeKai 宣布将关闭，原因是数据中心起火？AnimeKai 发布的公告让人摸不着头脑，因为上周荷兰 NorthC 数据中心只是供电系统起火，服务器并未受到太大影响，通常盗版网站关闭都是版权问题，现在说是服务器上云了让人无法理解。查看详情：https://ourl.co/112890&lt;/p&gt;&lt;p&gt;每月访问量高达 4300 万次的超大规模盗版动漫网站 AnimeKai 日前在其社交通讯频道宣布，该网站很快将会关闭且不再维护，用户需要尽快导出自己的书签和动漫列表，防止后续网站停止访问后相关访问数据彻底丢失。&lt;/p&gt;
 &lt;p&gt;AnimeKai 管理员将关闭原因归咎于网站出现运营问题，尤其是数据中心发生火灾后 --- 上周位于荷兰阿尔梅勒的 NorthC 数据中心发生火灾，这场火灾导致在这个数据中心托管业务的客户受到短暂影响，但火灾本身只是数据中心供电问题并非服务器被烧毁。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112890.png" rel="nofollow"&gt;&lt;img alt="每月访问量高达4300万次的盗版动漫网站AnimeKai将关闭 原因是数据中心起火？" data-src="https://img.landian.news/landian/2026/05/112890.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112890.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -21,37 +46,4 @@
 &lt;p&gt;当然肯定有社区成员会问项目是否接受人工智能生成的代码，对于这个问题，开发团队委婉地表示：&lt;strong&gt;你不可能手写出我们看到的这种垃圾人工智能代码。&lt;/strong&gt;显然垃圾代码是比较容易被看出来的，RPCS3 团队也在审查各类 PR，这里面肯定有 AI 生成的但确实有价值的代码，只不过大多数 PR 都是垃圾代码这才让开发团队比较恼火。&lt;/p&gt;
 &lt;p&gt;AI 生成并提交代码问题已经在困扰着大量的开源项目，一方面有些用户希望使用 AI 检索各类项目并提交 PR 来刷活跃度成为项目贡献者，另一方面用户可能本意是好的，只不过自己也看不懂生成的 AI 代码，于是直接提交到项目里。&lt;/p&gt;
 &lt;p&gt;无论哪一种对开发团队来说都会造成巨大的困扰，毕竟审查 PR 和阅读代码是需要花时间的，太多垃圾且无效的代码就会挤占正常工作时间，长此以往肯定不利于项目发展，所以封禁其实也是非常有必要的。&lt;/p&gt;
-</description><pubDate>Mon, 11 May 2026 06:36:29 +0000</pubDate></item><item><title>Windows 11资源管理器获得自适应大小显示 将自动显示KB/MB/GB等</title><link>https://www.landiannews.com/archives/112888.html</link><description>
-&lt;p&gt;#系统资讯 Windows 11 资源管理器获得自适应大小显示，将自动显示 KB、MB、GB 等，而不总是以默认的 KB 显示。对于大文件例如 ISO 镜像的话显示 KB 单位数字会很长，用户还得在心里换算下，自适应显示就非常直观了，而且虽然微软没提，但蓝点网测试超过 1000GB 的文件也会显示 TB 单位。查看详情：https://ourl.co/112888&lt;/p&gt;&lt;p&gt;微软这段时间正在持续改善资源管理器的性能和体验，最新上线的新功能是自适应显示文件大小，取代以前资源管理器默认使用 KB 单位显示文件的做法，毕竟有些大文件可能要显示很长的数字，用户可能还需要看千分位自己换算下文件实际大小。&lt;/p&gt;
-&lt;p&gt;这个新功能其实非常简单，就是根据文件大小范围来显示不同的单位，让用户不需要自己心里换算就知道文件大小，目前这项功能已经在 Windows 11 Experimental Build 26300.8376 和 Windows 11 Beta Build 26220.8370 版中上线，该选项为默认开启不需要用户进行额外的设置。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/111288.png" rel="nofollow"&gt;&lt;img alt="Windows 11资源管理器获得自适应大小显示 将自动显示KB/MB/GB等" data-src="https://img.landian.news/landian/2026/05/111288.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/111288.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;文件大小超过 0 字节但不满 1MB：以 KB 单位显示&lt;/p&gt;
-&lt;p&gt;文件大小超过 1MB 但不满 1,000MB：以 MB 单位显示&lt;/p&gt;
-&lt;p&gt;文件大小超过 1,000MB：以 GB 单位显示&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;微软并没有在博客中说明是否会以 PB 单位显示，但考虑到此类特性肯定会覆盖 Windows Server 2025，在服务器上有 TB 级甚至 PB 级文件都是很正常的，所以蓝点网使用 CMD 命令也创建了虚拟文件进行测试，测试显示确实可以正常显示为 TB 单位，也就是文件超过 1,000GB 时 (严格来说是 1,099,511,627,776 字节) 就会显示为 1TB。&lt;/p&gt;
-</description><pubDate>Mon, 11 May 2026 06:09:34 +0000</pubDate></item><item><title>微软免费向K-12教育机构推出系统升级 可从家庭版升级至教育专业版</title><link>https://www.landiannews.com/archives/112887.html</link><description>
-&lt;p&gt;#系统资讯 微软宣布向 K-12 教育机构免费提供 Windows 11 家庭版升级到教育专业版，升级后可以解锁组策略以及通过 IT 管理中心进行集中管理等。目前该功能还在 Windows 11 测试版中进行实验，K-12 教育机构 IT 管理员可以提前测试起来，免费升级需要验证 K-12 教育机构账户，只有符合认证条件才能免费升级。查看详情：https://ourl.co/112887&lt;/p&gt;&lt;p&gt;微软在 Windows 11 最新测试版中增加实验性选项，启用该选项并重启系统后，适用于 K-12 教育机构的用户可以将系统免费从家庭版升级到教育专业版，升级后教育机构可以通过 IT 管理中心对这些设备进行集中管理和运维等。&lt;/p&gt;
-&lt;p&gt;K-12 指的是从幼儿园到高中阶段，也就是可以免费升级的包括幼儿园、小学、初中和高中等，这些教育机构最初可能是基于价格考虑采购的是 Windows 11 家庭版，家庭版不支持通过管理中心进行集中管理。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;IT 管理员现在可以在教育设备中安装 Windows 11 最新测试版并开启实验性选项进行提前测试，待微软后续将其推送到正式版后再执行升级。需要说明的是，现阶段升级后不支持回退，也就是除非重装系统否则不能再回退到 Windows 11 家庭版。&lt;/p&gt;
-&lt;p&gt;升级方法如下：在 Windows 11 实验性选项里开启 K-12 免费升级，随后应用并重启系统使之生效，重启后打开管理员模式的命令提示符执行 Clipupgrade.exe 启动升级。注意：升级时需要使用 K-12 教育机构账户进行验证，除非完成验证否则不能免费升级。&lt;/p&gt;
-&lt;p&gt;升级成功后系统将从 Windows 11 家庭版变成 Windows 11 Pro Education，该版本支持组策略以及集中管理，后续 IT 管理员可以通过管理中心调整组策略以开放或禁止某些功能等。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112887.png" rel="nofollow"&gt;&lt;img alt="微软免费向K-12教育机构推出系统升级 可从家庭版升级至教育专业版" data-src="https://img.landian.news/landian/2026/05/112887.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112887.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 11 May 2026 05:44:49 +0000</pubDate></item><item><title>互联网档案馆和维基百科正在遭受AI摧残：硬盘价格疯涨已经完全买不起</title><link>https://www.landiannews.com/archives/112886.html</link><description>
-&lt;p&gt;#行业资讯 互联网档案馆和维基百科正在遭受 AI 摧残，并非 AI 爬虫疯狂抓取 (虽然也确实还在疯狂抓取)，现在是硬盘价格太高完全买不起。互联网档案馆每天新增 100TB 数据，累积数据高达 210PB，所以互联网档案馆需要不断地增加存储容量，互联网档案馆称存储容量短缺正在持续耗费该网站的时间和金钱。查看详情：https://ourl.co/112886&lt;/p&gt;&lt;p&gt;据 404MEDIA 发布的报道，目前全球顶级公益性网站互联网档案馆和维基百科都在遭到 AI 的摧残，现在的问题并不是 AI 爬虫疯狂抓取内容 (虽然也确实还在疯狂抓取)，而是人工智能行业需要海量的硬盘存储数据，这导致硬盘价格持续上涨且难以买到合适的产品。&lt;/p&gt;
-&lt;p&gt;而无论是互联网档案馆还是维基百科都需要海量硬盘用来存储数据，例如互联网档案馆每天收集超过 100TB 的新资料，目前已经累积存储高达 210PB 的资料，所以互联网档案馆需要不断地添加和更换大容量机械硬盘。&lt;/p&gt;
-&lt;p&gt;维基媒体基金会运营着维基百科和维基共享资源库等多个项目，存储成本也成为困扰维基媒体基金会的大问题，仅维基百科就存储着超过 6,500 万篇文章，服务器和存储容量对维基媒体基金会而言至关重要。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112886.png" rel="nofollow"&gt;&lt;img alt="互联网档案馆和维基百科正在遭受AI摧残：硬盘价格疯涨已经完全买不起" data-src="https://img.landian.news/landian/2026/05/112886.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112886.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;目前互联网档案馆正在寻求多方提供援助，例如互联网档案馆社区成员免费为该网站捐赠硬盘，互联网档案馆也在积极寻求硬盘制造商的帮助来度过难关，不过可能直接获得免费的硬盘赞助有些困难，或许互联网档案馆是希望能与硬盘制造商达成价格合理的采购协议。&lt;/p&gt;
-&lt;p&gt;互联网档案馆创始人布鲁斯特卡勒表示，目前互联网档案馆已经找到部分方法用来应对存储容量短缺，但存储容量短缺已经成为非常现实的问题，这个问题正在持续耗费互联网档案馆的时间和金钱。&lt;/p&gt;
-&lt;p&gt;维基媒体基金会表示存储成本也同样是该基金会面临的难题，自 2025 年底以来，维基媒体基金会就在关注硬盘价格持续上涨的问题，价格上涨影响到内存和硬盘的采购，同时也影响维基媒体基金会服务器交付周期以及未来下单的能力。&lt;/p&gt;
-&lt;p&gt;对于目前这种局面，维基媒体基金会称作为非营利组织，该基金会对预算分配非常谨慎，目前基金会正在尽可能采取变通方案，包括合理安排硬件投资的优先级来提高灵活性，以及尽可能延长现有硬件的使用寿命。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;像是互联网档案馆和维基媒体基金会可能更侧重于采购大容量机械硬盘，然而现在无论是机械硬盘还是固态硬盘都面临着采购困难，因为人工智能数据中心也需要海量硬盘存储数据，AI 公司倾向于使用速度更快的固态硬盘，但机械硬盘也被大量采购用来存储活跃度较低的数据。&lt;/p&gt;
-&lt;p&gt;存储系统制造商西部数据表示，该公司面向企业客户的 2026 年库存已经基本售罄，这些客户大多数都运营着数据中心。而此前美光旗下的英睿达则是完全退出消费级市场，不再面向消费者提供内存和固态硬盘产品，原因是人工智能驱动的数据中心增长导致内存和存储需求激增。&lt;/p&gt;
-&lt;p&gt;当然互联网档案馆和维基媒体基金会面临的问题也在困扰着普通用户，现在大容量机械硬盘价格太高，想要组装 NAS 存储数据成本显著增加，而除非人工智能热潮褪去，否则此类计算机和服务器关键产品的价格很难回落。&lt;/p&gt;
-</description><pubDate>Mon, 11 May 2026 03:57:38 +0000</pubDate></item></channel></rss>
+</description><pubDate>Mon, 11 May 2026 06:36:29 +0000</pubDate></item></channel></rss>
