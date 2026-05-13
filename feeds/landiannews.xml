@@ -1,5 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 12 May 2026 03:10:13 +0000</lastBuildDate><item><title>地平线6未加密游戏包泄露并被快速盗版传播 微软直接将大量玩家封禁7,000年</title><link>https://www.landiannews.com/archives/112894.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 13 May 2026 02:36:55 +0000</lastBuildDate><item><title>[下载] 微软发布Windows 10 ESU扩展安全更新KB5087544修复错误和安全漏洞</title><link>https://www.landiannews.com/archives/112914.html</link><description>
+&lt;p&gt;#系统资讯 微软向 Windows 10 发布新的 ESU 扩展安全更新 KB5087544 修复远程桌面协议警告框显示问题和 120 个安全漏洞。要检查此更新需注册 ESU 扩展安全方案，当然你也可以直接下载离线安装文件进行部署。下载地址：https://ourl.co/112914&lt;/p&gt;&lt;p&gt;微软日前面向 Windows 10 长期服务版或已经注册扩展安全更新的家庭版 / 专业版推出新的扩展安全更新，该更新编号 KB5087544，用于修复这段时间微软发现或外部研究人员通报的各种安全漏洞。&lt;/p&gt;
+&lt;p&gt;扩展安全更新与常规更新相同，用户只需要转到设置里检查更新即可下载安装，前提是已经注册扩展安全更新方案，如果没有注册扩展安全方案，Windows 10 已经结束支持因此无法继续获得微软提供的各类安全更新。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112781.png" rel="nofollow"&gt;&lt;img alt="[下载] 微软发布Windows 10 ESU扩展安全更新KB5087544修复错误和安全漏洞" data-src="https://img.lancdn.com/landian/2026/04/112781.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112781.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;1. 该更新已经修复远程桌面安全警告问题：在多显示器配置且显示缩放设置不同的情况下，远程桌面连接安全警告对话框无法正常显示，该问题在安装 KB5087544 (2026 年 4 月更新) 后就会出现。&lt;/p&gt;
+&lt;p&gt;2. 该更新在 Microsoft Defender 安全应用中提供安全启动状态检查报告 (此前已经面向部分用户推出)，如果已经安装新的 UEFI 启动证书则会显示绿色对号进行标记。&lt;/p&gt;
+&lt;p&gt;3. 该更新还存在已知问题，在企业设备中启用特定组策略配置后且 TPM 验证配置文件中包含 PCR7 以及安装 UEFI CA 2023 等后，安装更新后系统会直接进入 BitLocker 恢复密钥界面，建议在安装更新前提前打印恢复密钥。&lt;/p&gt;
+&lt;p&gt;4. 该更新合计修复 120 个安全漏洞，建议追求更高安全性的用户尽快安装更新以封堵这些漏洞。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;离线安装文件：&lt;a href="https://www.catalog.update.microsoft.com/Search.aspx?q=KB5087544" rel="noopener" target="_blank"&gt;https://www.catalog.update.microsoft.com/Search.aspx?q=KB5087544&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;成功安装并在重启后，系统版本升级至 Windows 10 Build 19045.7291 版；Windows 10 LTSC 2021 安装更新后，系统版本升级至 Windows 10 Build 19044.7291 版。&lt;/p&gt;
+</description><pubDate>Wed, 13 May 2026 02:36:55 +0000</pubDate></item><item><title>对抗国家级间谍软件攻击：谷歌为安卓新增入侵日志记录 可用于排查间谍软件攻击</title><link>https://www.landiannews.com/archives/112913.html</link><description>
+&lt;p&gt;#系统资讯 谷歌为安卓系统新增间谍软件调查功能，让网络安全研究人员可以深度分析日志排查间谍软件攻击行为。该功能在 2025 年开发但直到现在才开始推送，启用功能后系统将通过新型日志记录设备解锁、应用安装或卸载、连接哪些网站或服务器、是否连接 ADB 等，日志会被加密上传到云端避免在本地被删除。查看详情：https://ourl.co/112913&lt;/p&gt;&lt;p&gt;为应对近年来愈演愈烈的国家级间谍软件攻击，谷歌正在为安卓系统开发新可选功能：入侵日志记录。该功能并非面向普通用户，而是帮助网络安全研究人员通过深度检查系统日志排查设备是否已经遭到间谍软件感染。&lt;/p&gt;
+&lt;p&gt;入侵日志记录被放在安卓高级保护模式中，安卓高级保护模式是谷歌为安卓用户推出的可选功能，用户启用该功能后系统部分选项会被禁用从而提升安全性，例如启用高级保护模式后想要通过浏览器内核漏洞进行感染的难度就会显著增加。&lt;/p&gt;
+&lt;p&gt;高级保护模式还可以应对取证设备试图从系统里提取关键信息，此前在塞尔维亚的国家级间谍软件攻击案例中，塞尔维亚当局就使用 Cellebrite 开发的取证工具解锁安卓设备，然后安装间谍软件后继续对目标进行持续监控。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/03/112250.png" rel="nofollow"&gt;&lt;img alt="对抗国家级间谍软件攻击：谷歌为安卓新增入侵日志记录 可用于排查间谍软件攻击" data-src="https://img.lancdn.com/landian/2026/03/112250.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/03/112250.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;入侵日志记录功能本质上是谷歌为安卓系统开发的新型日志，这种新型日志要比安卓系统常规日志更加全面和细致，用于记录软件各类事件并收集证据，从而帮助用户和网络安全研究人员了解疑似间谍软件攻击的来龙去脉。&lt;/p&gt;
+&lt;p&gt;以前取证分析主要依赖于并非为了检测入侵而设计的日志，这种日志对网络安全研究人员来说用处不是很大，因为这类日志保存时间短且经常会被覆盖，而间谍软件潜伏时间可能会非常长，如果日志被覆盖则研究人员无法溯源攻击源头。&lt;/p&gt;
+&lt;p&gt;现在有了入侵日志记录功能后，当启用该功能，系统就会每天创建并收集日志，收集的日志会采用高强度算法进行加密后上传到用户的谷歌账户中，因此即便日志在本地被抹除，研究人员也依然可以通过云端继续查找日志。&lt;/p&gt;
+&lt;p&gt;说到这里还需要提下，其实入侵日志记录功能在 2025 年就已经开发，不过谷歌现在才开始逐渐部署，谷歌在博客中表示，该功能正在面向运行 Android 16 2025 年 12 月更新或更高版本的设备推出。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;安卓设备何时解锁过&lt;/li&gt;
+&lt;li&gt;应用程序何时安装、启动或卸载&lt;/li&gt;
+&lt;li&gt;安卓设备连接过哪些网站或服务器&lt;/li&gt;
+&lt;li&gt;是否有人使用目标设备连接到 ADB (取证工具就需要通过 ADB 连接并读取数据)&lt;/li&gt;
+&lt;li&gt;是否有人尝试删除以上跟踪记录的日志 (这表明有人试图隐藏攻击证据)&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Wed, 13 May 2026 02:16:28 +0000</pubDate></item><item><title>[相关特性汇总] 谷歌发布Android 17预览版 通过AI将安卓转型为智能系统</title><link>https://www.landiannews.com/archives/112912.html</link><description>
+&lt;p&gt;#系统资讯 [功能汇总] 谷歌发布 Android 17 预览版，深度集成 AI 服务，安卓系统里的 AI 服务现在被命名为 Gemini Intelligence。安卓系统将通过深度集成 Gemini 转型为智能系统，具备主动式和设备端 AI 功能，帮助用户快速通过 AI 执行各类操作。查看详情：https://ourl.co/112912&lt;/p&gt;&lt;p&gt;谷歌日前发布 Android 17 预览版，这是谷歌即将推出的适用于智能手机和其他设备的新版安卓系统，Android 17 包含多项新的 AI 功能，这些 AI 功能被称为 Gemini Intelligence，与苹果采用的 Apple Intelligence 名称类似。&lt;/p&gt;
+&lt;p&gt;Android 17 深度集成人工智能服务，谷歌的目标是将安卓系统从基本操作系统转型为智能系统，具备主动式、设备端 AI 功能，帮助用户在执行各类操作时调用 AI 服务，这些服务分散在谷歌自家应用或系统基础功能里，到时候用户可以轻松发现谷歌提供的这些 AI 服务。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112912.png" rel="nofollow"&gt;&lt;img alt="[相关特性汇总] 谷歌发布Android 17预览版 通过AI将安卓转型为智能系统" data-src="https://img.landian.news/landian/2026/05/112912.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112912.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;扩展 Gemini 智能：Gemini 可以自主完成更多任务，例如帮助用户预订课程和购物等。&lt;/p&gt;
+&lt;p&gt;视觉上下文：Gemini 可以从屏幕上提取上下文信息，例如在备忘录里创建购物清单后，通过 Gemini 自动购物。&lt;/p&gt;
+&lt;p&gt;智能网页浏览：Chrome 浏览器中的 Gemini 插件可以帮助用户搜索、汇总和比较内容，自动浏览功能可以帮助用户预约等。&lt;/p&gt;
+&lt;p&gt;自动填充：安卓可以使用 Gemini 的 Personal Intelligence 从 Gmail 和 Google Photos 中提取信息，从而自动填充文本字段。&lt;/p&gt;
+&lt;p&gt;Rambler：这是谷歌开发的人工智能语音识别功能，可以去除嗯、啊、像等语气词，Rambler 也会提取语音中的重要内容并生成简洁明了的信息。&lt;/p&gt;
+&lt;p&gt;创建我的小部件：该功能允许用户通过自然语言描述所需的功能来构建自定义小部件，可以提供天气、食谱、倒计时、显示时间等信息。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;3D 表情符号：谷歌正在逐步采用 Noto 3D，这是谷歌全新开发的 3D 表情符号合集。&lt;/p&gt;
+&lt;p&gt;Android Auto：扩展 Gemini 集成并采用 Material 3 Expressive 设计风格，给用户带来焕然一新的界面。&lt;/p&gt;
+&lt;p&gt;屏幕反应：该功能允许用户同时使用前置和后置摄像头拍摄社交媒体风格视频。&lt;/p&gt;
+&lt;p&gt;Instagram 集成：谷歌与 Meta 合作提升使用安卓设备拍摄并上传到 Instagram 的视频和照片质量。&lt;/p&gt;
+&lt;p&gt;暂停点：用户可以将某个应用设置为干扰应用，暂停点会在应用打开前提供 10 秒的缓冲时间，该功能可被用来减少使用某些让用户沉迷的应用。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Gemini Intelligence：该功能将分批推出，从今年夏天开始谷歌将率先面向三星 Galaxy 和谷歌 Pixel 系列设备推送，谷歌计划在今年晚些时候将其扩展到安卓手表、汽车、眼镜和笔记本电脑。&lt;/p&gt;
+&lt;p&gt;Chrome 浏览器中的 Gemini 功能：将在 6 月下旬开始推出，其他 Android 17 功能或特性预计会在 6 月进入稳定发布阶段。&lt;/p&gt;
+</description><pubDate>Wed, 13 May 2026 01:56:20 +0000</pubDate></item><item><title>谷歌将在秋季发布搭载安卓桌面版的Google Books笔记本电脑 深度集成Gemini AI服务</title><link>https://www.landiannews.com/archives/112895.html</link><description>
+&lt;p&gt;#硬件设备 谷歌将在秋季发布搭载安卓桌面版的 Google Books 系列笔记本电脑产品，可以直接运行各类安卓应用并与安卓设备互通，深度集成 Gemini AI 服务。谷歌称新系统名称并非铝系统，因为这只是内部代号而非正式名称，谷歌将在今年秋季公布新系统名称，到时候相关设备也会陆续上线。查看详情：https://ourl.co/112895&lt;/p&gt;&lt;p&gt;谷歌宣布将在秋季推出名为 Google Books 的全新笔记本电脑系列产品，该系列产品用来接替已经被谷歌放弃的 Chromebook 系列设备，并且主要搭载的是安卓桌面版与 ChromeOS 融合的操作系统，可以直接运行各类安卓应用并深度集成谷歌的 Gemini AI 服务。&lt;/p&gt;
+&lt;p&gt;谷歌确认该系列产品搭载的操作系统并非铝系统 (AluminiumOS)，谷歌称铝系统仅仅只是内部代号而非正式的操作系统名称，谷歌将在今年秋季发布设备时分享关于操作系统名称的确切消息，当前谷歌还不能直接透露更多消息。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112895-1.png" rel="nofollow"&gt;&lt;img alt="谷歌将在秋季发布搭载安卓桌面版的Google Books笔记本电脑 深度集成Gemini AI服务" data-src="https://img.landian.news/landian/2026/05/112895-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112895-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;该系列设备基于安卓技术栈进行构建，可以运行谷歌浏览器进行网页浏览，也可以运行各类安卓应用程序和游戏，谷歌也为 Google Books 带来安卓设备互联功能，让用户可以直接在笔记本电脑上访问安卓设备上的文件、运行已经在安卓设备上安装的应用程序，让用户不需要频繁切换设备就可以执行相同的任务。&lt;/p&gt;
+&lt;p&gt;Google Books 将推出魔法指针功能，用户只需要摇晃鼠标并指向屏幕上的内容即可调用 AI 服务获得建议。谷歌举例称：用户可以指向电子邮件的日期摇晃鼠标来安排会议日程，或者选择家具和起居空间的图片来查看组合效果。&lt;/p&gt;
+&lt;p&gt;该设备还支持定制 AI 小部件 (这是谷歌刚刚面向安卓和 WearOS 智能手表推出的新小部件)，用户可以创建 AI 小部件集中整理航班、酒店信息、餐厅预订、家庭聚会倒计时等等，让用户可以不必在多个应用或小部件中查询信息。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112895-2.png" rel="nofollow"&gt;&lt;img alt="谷歌将在秋季发布搭载安卓桌面版的Google Books笔记本电脑 深度集成Gemini AI服务" data-src="https://img.landian.news/landian/2026/05/112895-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112895-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112895-3.png" rel="nofollow"&gt;&lt;img alt="谷歌将在秋季发布搭载安卓桌面版的Google Books笔记本电脑 深度集成Gemini AI服务" data-src="https://img.landian.news/landian/2026/05/112895-3.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112895-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;谷歌只是在安卓秀环节简单提及 Google Books，因此目前关于该系列设备的信息非常少，谷歌称该公司正在与宏碁、华硕、戴尔、惠普和联想合作开发首批机型，至于型号名称、硬件参数等都没有公布，所以预估售价暂时也不清楚。&lt;/p&gt;
+&lt;p&gt;最后被谷歌放弃的 Chromebook 系列产品不再更新，但谷歌将会继续提供必要的软件更新支持和其他相关服务直到 2031 年，不过现有的 Chromebook 设备是否能升级到新系统也是个未知数。&lt;/p&gt;
+</description><pubDate>Wed, 13 May 2026 01:36:43 +0000</pubDate></item><item><title>地平线6未加密游戏包泄露并被快速盗版传播 微软直接将大量玩家封禁7,000年</title><link>https://www.landiannews.com/archives/112894.html</link><description>
 &lt;p&gt;#游戏资讯 地平线 6 未加密安装包泄露并被快速盗版传播，微软直接将提前进入游戏的玩家封禁到 9999 年，而且还是硬件封禁。硬件封禁意味着除非更换主板否则都无法进入游戏，或者使用某些硬件 ID 欺骗器，对玩家来说提前几天进入游戏着实得不偿失。查看详情：https://ourl.co/112894&lt;/p&gt;&lt;p&gt;微软原计划在 2026 年 5 月 19 日正式发售《极限竞速：地平线 6》，而正常情况下微软等游戏开发商会提前将游戏发布到 Steam 平台进行预下载，现在似乎是因为操作失误，游乐场工作室直接发布没有进行 DRM 加密保护的游戏安装包。&lt;/p&gt;
 &lt;p&gt;地平线 6 的主要开发团队是游乐场游戏开发工作室，微软的 Xbox 游戏团队负责发布，但目前尚不清楚操作失误根源是游乐场游戏工作室还是微软 Xbox 游戏工作室，这种情况可能会给微软以及开发团队造成损失。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112894.png" rel="nofollow"&gt;&lt;img alt="地平线6未加密游戏包泄露并被快速盗版传播 微软直接将大量玩家封禁9,000年" data-src="https://img.landian.news/landian/2026/05/112894.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112894.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -11,37 +74,4 @@
 &lt;p&gt;对于下载安装包提前进入游戏的玩家，游乐场游戏工作室也在采取极其严厉的惩罚措施，包括全面封禁和硬件封禁，该工作室称鼓励粉丝耐心等待 5 月 19 日地平线 6 正式发售。&lt;/p&gt;
 &lt;p&gt;硬件封禁意味着什么：硬件封禁指的是读取主板硬件信息进行封禁，通常此类硬件信息不可更改，所以哪怕是重装系统也不能继续进入地平线 6，除非玩家更换主板或者使用某些硬件 ID 欺骗器。&lt;/p&gt;
 &lt;p&gt;提前进入游戏的玩家目前被封禁到 9,999 年 12 月 31 日，这其实也就是永久封禁，所以对于大多数玩家来说当前最好继续耐心等待游戏发售，不然被硬件封禁后就得不偿失了。&lt;/p&gt;
-</description><pubDate>Tue, 12 May 2026 03:10:13 +0000</pubDate></item><item><title>苹果发布iOS 26.5正式版 主要修复各类安全漏洞和已知错误</title><link>https://www.landiannews.com/archives/112893.html</link><description>
-&lt;p&gt;#系统资讯 苹果发布 iOS 26.5 正式版，主要是修复各类安全漏洞和已知错误。新功能方面值得关注的就是 RCS 端到端加密，即 iOS 可以向安卓设备发送经过加密的消息，以前都是明文消息，不过这个功能需要运营商支持，目前提供支持的运营商不算多。查看详情：https://ourl.co/112893&lt;/p&gt;&lt;p&gt;苹果日前面向所有受支持的设备发布新的软件更新，该更新并没有包含太多新功能，侧重点主要是修复各类已知问题和超过 50 个安全漏洞，不知道苹果是否也在使用 Claude Mythos 模型用来发掘漏洞。&lt;/p&gt;
-&lt;p&gt;其他平台也同样获得更新，包括 iPadOS 26.5、watchOS 26.5、tvOS 26.5、macOS Tahoe 26.5、visionOS 26.5 以及 HomePod 26.5 等，这些版本里部分漏洞是相同的，因此使用相关设备的用户也需要尽快升级到新版本。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112893.png" rel="nofollow"&gt;&lt;img alt="苹果发布iOS 26.5正式版 主要修复各类安全漏洞和已知错误" data-src="https://img.landian.news/landian/2026/05/112893.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112893.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; 功能方面 iOS 26.5 主要对地图和信息应用进行更新：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;该功能主要面向应用程序，开发者可以向用户提供按年订阅但按照每月分期支付选项，即用户需要承诺必须订阅 12 个月以获得优惠，后续可以按照每月账单进行自动扣款，当然如果用户提前解约则可能需要支付违约费，也就是按照原本每月原价补齐订阅费。&lt;/p&gt;
-&lt;p&gt;不过这方面的折扣和违约设置都取决于开发者，开发者可以在管理后台进行设置并提供相关策略，用户更新到 iOS 26.5 后就可以在应用商店下载某些应用时看到此类订阅方式。&lt;/p&gt;
-</description><pubDate>Tue, 12 May 2026 02:52:23 +0000</pubDate></item><item><title>用于现代WEB开发的TanStack工具包遭到供应链攻击 84个NPM包被篡改为恶意版本</title><link>https://www.landiannews.com/archives/112892.html</link><description>
-&lt;p&gt;#安全资讯 用于现代 WEB 开发的 TanStack 系列工具包遭到供应链攻击，黑客利用流程漏洞发布 84 个恶意 NPM 包。目前相关软件包已经被弃用，但在昨天夜里使用这些软件包构建的开发者需要立即排查，黑客可能会通过执行恶意代码窃取开发者的各类敏感凭据。查看详情：https://ourl.co/112892&lt;/p&gt;&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112892.png" rel="nofollow"&gt;&lt;img alt="用于现代WEB开发的TanStack工具包遭到供应链攻击 84个NPM包被篡改为恶意版本" data-src="https://img.landian.news/landian/2026/05/112892.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112892.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;每月下载量超过 5000 万次的现代 WEB 开发工具包 TanStack 系列遭到供应链攻击，TanStack 账户下约有 84 个 NPM 软件包被黑客替换为恶意版本，网络安全公司 Socket 扫描到异常后立即发出警报，随后 TanStack 确认攻击并立即着手清除恶意版本。&lt;/p&gt;
-&lt;p&gt;以 @tanstack/react-router 包为例，这个软件包每周下载量就达到 1200 万次，此类包通过 NPN 生态系统直接或间接广泛使用，因此从软件供应链角度而言，此类供应链攻击可能会造成非常广泛的破坏。&lt;/p&gt;
-&lt;p&gt;分析发现黑客分发的恶意版本主要新增 package.json 和 tanstack_runner.js，这些文件会在安装基于 Git 的依赖项时自动执行，最终可以可以在安装过程中运行任意代码，例如用于窃取某些敏感凭据等。&lt;/p&gt;
-&lt;p&gt;TanStack 团队分析后将此次安全问题归咎于多种 GitHub Actions 攻击，NPM 相关凭证没有被泄露、NPM 发布工作流也没有攻破，恶意发布操作是在工作流的测试和清理阶段运行攻击者控制的代码后，通过项目的 OIDC 受信任发布者绑定进行身份验证，从而直接将新的软件包发布到 NPM 注册表。&lt;/p&gt;
-&lt;p&gt;作为紧急应对措施，TanStack 团队立即弃用受影响的版本并联系 NPM 安全团队进行处理，当前 GitHub Actions 缓存条目已经被清理，TanStack 还在合并强化更改重构受影响的工作流、添加存储库所有者保护、锁定第三方操作引用等。&lt;/p&gt;
-&lt;p&gt;Socket 已经公布所有受影响的软件包，建议在昨天夜里使用这些软件包构建的开发者立即进行排查：&lt;a href="https://socket.dev/blog/tanstack-npm-packages-compromised-mini-shai-hulud-supply-chain-attack" rel="noopener" target="_blank"&gt;https://socket.dev/blog/tanstack-npm-packages-compromised-mini-shai-hulud-supply-chain-attack&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 12 May 2026 02:25:49 +0000</pubDate></item><item><title>戴尔支持助手导致戴尔Windows 11设备频繁黑屏死机 大约每30分钟就会死机1次</title><link>https://www.landiannews.com/archives/112891.html</link><description>
-&lt;p&gt;#系统资讯 戴尔支持助手导致戴尔 Windows 11 设备频繁黑屏死机，大约每 30 分钟就会死机 1 次，彻底卸载后可以恢复正常。戴尔近期向戴尔设备推送新版 Support Assist，出现问题的用户都是安装了这次更新，随后事件查看器记录到大量内核错误，网友经过研究后确认是支持助手的问题，必须彻底将其本体和插件卸载干净才能恢复。查看详情：https://ourl.co/112891&lt;/p&gt;&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112891.png" rel="nofollow"&gt;&lt;img alt="戴尔支持助手导致戴尔Windows 11设备频繁黑屏死机 大约每30分钟就会死机1次" data-src="https://img.landian.news/landian/2026/05/112891.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112891.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;据 NEOWIN 论坛网友发布的消息，运行 Windows 11 系统的戴尔设备近期频繁出现黑屏死机问题 (BSOD)，发生这种情况并非在安装微软发布的系统更新后，而是用户近期收到戴尔发布的软件更新，安装该更新后系统大约会每隔 30 分钟黑屏死机 1 次。&lt;/p&gt;
-&lt;p&gt;检查事件查看器则可以看到内核出现严重性错误的记录，这些记录大约 30~60 分钟出现 1 次，记录的描述则显示原因可能是内核出现预料之外的失去电源，这个问题目前正在影响大量使用 Windows 11 系统的戴尔用户。&lt;/p&gt;
-&lt;p&gt;网友 MartinHBS2026 则使用微软官方的错误检查工具 WinDbg 对系统日志转储内容进行分析，分析后发现源头指向戴尔自家的支持助手软件 (Support Assist)，所以比较简单的办法就是直接卸载戴尔支持助手。&lt;/p&gt;
-&lt;p&gt;在实际操作中网友发现哪怕是卸载这个戴尔支持助手都可能出现崩溃，不过网友最终还是决定卸载戴尔支持助手相关的所有组件，如果你使用其他高级清理工具，也可以尝试使用此类高级清理工具将戴尔支持助手彻底卸载，将其相关组件和注册表等清理干净。&lt;/p&gt;
-&lt;p&gt;从目前网友反馈来看，彻底卸载戴尔支持助手后可以解决问题，有网友称卸载干净后从微软商店重新安装戴尔支持助手也没再出现类似问题，所以目前具体问题原因还不清楚，可能还需要戴尔官方发布支持公告进行说明。&lt;/p&gt;
-&lt;p&gt;另外在这里也提醒各位网友，大多数 OEM 预装的品牌软件都容易出现类似问题，这些 OEM 软件可能是因为质量差或其他问题总会导致系统出现某些异常，如果在日常使用中遇到类似情况，不妨先卸载这些 OEM 软件再进行测试。&lt;/p&gt;
-</description><pubDate>Tue, 12 May 2026 02:06:37 +0000</pubDate></item><item><title>美国FCC发布公告宣布允许外国制造的路由器发布固件更新直到2029年</title><link>https://www.landiannews.com/archives/112884.html</link><description>
-&lt;p&gt;#行业资讯 美国 FCC 发布公告宣布允许外国制造商发布路由器软件和固件更新直到 2029 年，原本 FCC 要求诸如 TP-Link 等在 2027 年 3 月 1 日之后不准再向美国消费者提供软件更新。FCC 的做法也是典型的一刀切，即原本 FCC 担忧制造商发布固件时引入新漏洞，问题在于哪怕不引入新漏洞，现有固件随着时间推移也会被发现越来越多的漏洞。查看详情：https://ourl.co/112884&lt;/p&gt;&lt;p&gt;美国联邦通信委员会工程与技术办公室日前发布公告，宣布对此前发布的指导意见进行修改，修改后的指导意见允许外国路由器和无人机制造商继续发布软件和固件更新，最终截止时间是 2029 年 1 月 1 日，原本指导意见只允许制造商发布更新到 2027 年 3 月 1 日。&lt;/p&gt;
-&lt;p&gt;这件事的背景是美国政府禁止部分无人机制造商在美国销售无人机 (例如 DJI) 以及&lt;a href="https://www.landiannews.com/archives/112309.html" rel="noopener" target="_blank"&gt;禁止所有在国外生产的消费级路由器在美国市场销售 (但诸如网件等制造商获得豁免)&lt;/a&gt;，这项政策其实针对的主要就是 DJI 和普联 (TP-Link) 等中国无人机和路由器制造商。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112884.png" rel="nofollow"&gt;&lt;img alt="美国FCC发布公告宣布允许外国制造的路由器发布固件更新直到2029年" data-src="https://img.landian.news/landian/2026/05/112884.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112884.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;调查数据显示，目前在美国约有 60% 的路由器都是在中国设计或制造的 (也涉及美国品牌在中国进行代工制造)，而在美国运营的无人机产品中超过 80% 是在中国设计和制造的，如果禁止制造商发布软件和固件更新则制造商无法及时修复各类安全漏洞。&lt;/p&gt;
-&lt;p&gt;无论是路由器还是无人机，随着时间的推移其固件都可能被发现存在安全漏洞或缺陷，以路由器为例，路由器固件出现安全漏洞的概率极高，且路由器在家庭和企业环境中被广泛使用，如果出现漏洞就有可能造成用户或企业关键数据泄露。&lt;/p&gt;
-&lt;p&gt;FCC 最初禁止无人机和路由器制造商提供软件和固件更新是担心提供更新时引入漏洞，问题在于禁止更新倒是可以阻止新漏洞的产生，那现有固件中的漏洞怎么办呢？所以 FCC 的做法遭到网络安全行业的广泛批评，这也是 FCC 现在修改指导意见的原因。&lt;/p&gt;
-&lt;p&gt;当然哪怕是允许制造商发布更新到 2029 年也不能解决问题，大多数路由器产品可能提供 5 年的安全更新，FCC 人为限制制造商提供固件更新后，未来有漏洞消费者也无法通过接收固件进行修复，所以还是会引起更多安全问题。&lt;/p&gt;
-&lt;p&gt;另外目前美国消费者技术协会正在代表美国消费者发声，该协会向 FCC 发出公开信敦促监管机构仔细评估相关禁令、明确哪些产品可能会受到禁令影响，避免用户购买产品后结果发现要不了多久就无法使用或无法再获得必要的更新。&lt;/p&gt;
-</description><pubDate>Tue, 12 May 2026 01:43:53 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 12 May 2026 03:10:13 +0000</pubDate></item></channel></rss>
