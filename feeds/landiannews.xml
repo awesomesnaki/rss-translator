@@ -1,5 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 13 May 2026 02:36:55 +0000</lastBuildDate><item><title>[下载] 微软发布Windows 10 ESU扩展安全更新KB5087544修复错误和安全漏洞</title><link>https://www.landiannews.com/archives/112914.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 13 May 2026 06:30:36 +0000</lastBuildDate><item><title>微软开始测试Windows 11云端驱动程序恢复功能 检测到异常驱动时回滚到旧版本</title><link>https://www.landiannews.com/archives/112918.html</link><description>
+&lt;p&gt;#系统资讯 微软开始测试 Windows 11 云端驱动程序恢复功能，当检测到异常驱动程序时，将通过云端回滚到旧版不受影响的驱动程序。这个问题说到底还是解决用户体验问题，毕竟 OEM 提交的驱动质量残次不齐，但出现问题用户首先会觉得 Windows 11 垃圾，现在云端恢复功能可以在更短时间内快速解决问题。查看详情：https://ourl.co/112918&lt;/p&gt;&lt;p&gt;在 Windows 10/11 中各类驱动程序引起的问题向来非常多，多数情况下驱动程序的问题都是 OEM 开发质量较差或者没有完整测试兼容性导致的，当然也有些情况下是微软发布的系统更新导致驱动程序产生兼容性故障。&lt;/p&gt;
+&lt;p&gt;无论是何种问题导致的驱动程序问题都可能会让用户的正常使用受影响，所以现在微软开始为 Windows 11 推出名为云端驱动程序恢复的新功能，该功能在不需要用户干预的情况下，自动回滚问题驱动到旧版本以确保用户能够正常使用。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://img.landian.news/landian/public/thumb/W11.webp" rel="nofollow"&gt;&lt;img alt="微软开始测试Windows 11云端驱动程序恢复功能 检测到异常驱动时回滚到旧版本" data-src="https://img.landian.news/landian/public/thumb/W11.webp" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/public/thumb/W11.webp"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;以前 OEM 通过微软分发的驱动程序如果出现问题，OEM 必须重新向微软提交更新后的驱动程序，这些驱动程序会被重新推送到设备端，但 OEM 发现驱动程序异常、修复问题、推送新版本都需要很长时间。&lt;/p&gt;
+&lt;p&gt;在这段时间内用户体验就会受到影响，而且出现问题后用户多数情况下可能也会以为是系统问题，也就是糟糕的 Windows 11 体验，某些情况下甚至可能需要用户手动卸载问题驱动后再重新安装，但大多数初级用户可能并不清楚哪些驱动程序出现问题。&lt;/p&gt;
+&lt;p&gt;而通过云端驱动程序恢复功能则可以比较快速和轻松地解决问题，当微软在驱动程序评估中心发现质量问题的驱动程序时，就可以触发从云端恢复的操作流程，这个流程会自动将 Windows 11 上的问题驱动程序替换为以前可用的版本。&lt;/p&gt;
+&lt;p&gt;对用户而言整个过程都是自动化的，不需要用户手动更新或卸载驱动程序，也不需要安装 OEM 提供的某些配套软件，整个过程通过 Windows 11 更新功能进行，用户被异常驱动程序影响的时间也会大幅度缩短。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;微软在博客中简单介绍这项新功能的工作原理，恢复过程首先是识别最新发布的驱动程序存在的质量问题，这部分识别可以通过遥测数据或收集用户反馈等，当然 OEM 也可以在收到用户反馈后联系微软进行通报。&lt;/p&gt;
+&lt;p&gt;确定需要执行驱动程序恢复时，微软会创建恢复请求为特定版本的驱动程序添加相关标签，随后通过云端下发指令到 Windows 11，系统更新会在定时检查更新时按照回滚指令卸载驱动程序、替换为此前没有异常的旧版驱动程序。&lt;/p&gt;
+&lt;p&gt;这里的前提是有驱动程序能够恢复，如果微软找不到已经经过批准的驱动程序，则无法执行恢复流程，这种情况下还是需要 OEM 开发新驱动程序并提交给微软，微软再将新驱动程序推送到 Windows 11.&lt;/p&gt;
+&lt;p&gt;微软计划在 2026 年 5 月～8 月期间针对云端驱动程序恢复功能进行测试，测试期间主要是验证对于手动选中的驱动程序是否能够正常恢复，最终到 2026 年 9 月开始逐步向所有设备开放。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://techcommunity.microsoft.com/blog/hardware-dev-center/introducing-cloud-initiated-driver-recovery-for-windows-update/4519075" rel="noopener" target="_blank"&gt;Microsoft&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 13 May 2026 06:30:36 +0000</pubDate></item><item><title>热门开源Wii U模拟器CEMU遭到黑客劫持 黑客针对非俄罗斯Linux用户投毒</title><link>https://www.landiannews.com/archives/112917.html</link><description>
+&lt;p&gt;#安全资讯 热门开源 Wii U 模拟器 CEMU 遭到黑客劫持，黑客针对非俄罗斯 Linux 用户投毒，如果检测到是以色列用户则会执行 rm -rf / 命令破坏系统。根据 CEMU 团队的调查，其成员运行被篡改的 Python 安装包是攻击源头，这个包窃取开发者的 GitHub API 凭证，随后修改项目发布页的 CEMU for Linux 版安装包，Windows 和 macOS 版并未被篡改。查看详情：https://ourl.co/112917&lt;/p&gt;&lt;p&gt;非常受欢迎的 Wii U 开源模拟器 CEMU 日前发布安全公告披露该模拟器遭到的黑客攻击事件，事件起源是团队开发者运行被黑客篡改的 Python 安装包，这个安装包里存在恶意代码并用来窃取开发者的 GitHub API 令牌，随后黑客通过令牌登录账户并发布带有后门程序的 CEMU 模拟器。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112917.png" rel="nofollow"&gt;&lt;img alt="热门开源Wii U模拟器CEMU遭到黑客劫持 黑客针对非俄罗斯Linux用户投毒" data-src="https://img.landian.news/landian/2026/05/112917.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112917.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;模拟器开发团队经过检查后发现黑客仅篡改 GitHub 发布页面的 CEMU for Linux 安装包，受影响的文件包括 Cemu-2.6-x86_64.AppImage 和 cemu-2.6-ubuntu-22.04-x64.zip，Windows 版和 macOS 版都没有被篡改，通过 Flatpak 安装的版本也不受影响。&lt;/p&gt;
+&lt;p&gt;此次攻击发生时间为 2026 年 5 月 6 日～5 月 12 日期间，在此期间如果用户通过 CEMU 官方 GitHub 发布页下载过以上两个文件并执行的话，系统就有可能遭到感染，建议这些用户立即进行排查。&lt;/p&gt;
+&lt;p&gt;黑客投放的后门程序也会在首次运行时检查系统环境并且不会直接激活恶意行为，这可能是黑客希望后门程序先潜伏起来等待后续机会，而如果后门程序检测到系统设置的是俄语则压根不会被激活，说明这有可能是亲俄罗斯的黑客投放的病毒。&lt;/p&gt;
+&lt;p&gt;值得注意的是，如果后门程序检测到用户位于以色列，那不仅会激活后门程序，还会播放警报声并尝试使用 rm -rf / 命令直接擦除整个文件系统，这会导致受感染的系统被破坏。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;目前对后门程序的研究表明，黑客主要还是通过后门程序监控用户并从环境中窃取各类密码和机密信息，除了针对以色列用户会执行高危擦除命令外，目前也没发现后门程序还会执行其他破坏性操作。&lt;/p&gt;
+&lt;p&gt;CEMU 团队建议受影响的用户最好彻底重装系统确保安全，用户可以检查自己的下载记录，看看是否在投毒期间下载过以上安装包，如果下载过那重装系统可能确实是最好的选择。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://rentry.org/cemu-security-psa" rel="noopener" target="_blank"&gt;CEMU&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 13 May 2026 06:15:14 +0000</pubDate></item><item><title>用心极其险恶！TanStack攻击中黑客预留死人开关 检测到凭据撤销就执行rm -rf ~/</title><link>https://www.landiannews.com/archives/112916.html</link><description>
+&lt;p&gt;#安全资讯 用心极其险恶！TanStack 供应链攻击中黑客预留死人开关，检测到开发者吊销令牌后执行 rm -rf ~/ 命令。相关恶意脚本位于 ~/.local/bin/ 目录，里面的检测脚本会每 60 秒查询 1 次窃取的 GitHub 令牌，如果令牌被撤销就会触发死人开关，从而执行 rm 命令删除开发者的所有文件。查看详情：https://ourl.co/112916&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landiannews.com/archives/112892.html" rel="noopener" target="_blank"&gt;本周现代 WEB 开发工具 TanStack 系列包遭到黑客攻击&lt;/a&gt;，黑客利用流程漏洞直接在 NPM 注册表中发布 87 个包含恶意代码的安装包，所幸此次供应链攻击被发现的比较及时，恶意安装包持续大约 2 小时后被撤销。&lt;/p&gt;
+&lt;p&gt;尽管如此也肯定还有大量开发者的环境被感染恶意代码，这些恶意代码用来窃取开发者的各类机密凭证，并且随着深入分析，有开发者发现发起攻击的黑客用心极其险恶，当检测到凭证被撤销时会执行 rm -rf ~/ 命令试图删除所有文件。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112916.png" rel="nofollow"&gt;&lt;img alt="用心极其险恶！TanStack攻击中黑客预留死人开关 检测到凭据撤销就执行rm -rf ~/" data-src="https://img.landian.news/landian/2026/05/112916.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112916.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;黑客部署的恶意代码主要用来窃取开发环境中的各类敏感凭据，例如 GitHub 令牌、AWS 令牌以及其他各类环境的凭据，有开发者发现攻击载荷会在路径 ~/.local/bin/ 中预留名为 gh-token-monitor.sh 的脚本。&lt;/p&gt;
+&lt;p&gt;这个脚本主要是用来轮询检测 GitHub 令牌是否有效，脚本被作为 systemd 用户服务或 LaunchAgent com.user.gh-token-monitor 运行，脚本会每隔 60 秒使用已经窃取的令牌轮询 https://api.github.com/user 检测令牌有效性。&lt;/p&gt;
+&lt;p&gt;如果检测到令牌被撤销 (返回 HTTP 4xx 错误代码)，则脚本会执行高危命令 rm -rf ~/ 用来删除当前环境中所有可被删除的文件，这可能导致整个开发环境被破坏，甚至导致操作系统都受到影响。&lt;/p&gt;
+&lt;p&gt;不过关于这个死人开关的问题还需要继续深入研究，开发者初步研究后认为这个脚本可能还包含某些持久化机制，脚本可能会在被用户删除后再次复活，然后继续检测 GitHub 令牌以触发死人开关。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在 NPM 供应链攻击中预留死人开关的这应该是首次，不得不说黑客的用心极其险恶，如果开发者收到消息称环境可能会被感染而匆忙吊销 GitHub 令牌，就可能触发死人开关导致大量文件被删除。&lt;/p&gt;
+&lt;p&gt;所以开发者在吊销前请务必备份自己的各类重要文件尤其是开发资料，在准备稳妥后再吊销所有可能被泄露的令牌，黑客当然也会使用窃取的令牌感染其他开发环境或窃取开发者在云端的资料，所以仅仅只是吊销令牌是不够的，还需要对其他各类环境的登录记录都进行排查。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://github.com/TanStack/router/issues/7383#issuecomment-4425225340" rel="noopener" target="_blank"&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 13 May 2026 05:58:28 +0000</pubDate></item><item><title>知名开源软件dnsmasq发布安全公告披露6个高危漏洞</title><link>https://www.landiannews.com/archives/112915.html</link><description>
+&lt;p&gt;#安全资讯 开源 DNS 工具 dnsmasq 公布 6 个高危安全漏洞，这些漏洞已经提前披露给相关从业者。dnsmasq 被广泛应用于路由器、嵌入式设备和 Linux 发行版等，使用这些软硬件的用户注意检查更新，因为漏洞被公布后，黑客可能很快就会利用漏洞发起攻击。查看详情：https://ourl.co/112915&lt;/p&gt;&lt;p&gt;开源轻量级 DNS 转发器与 DHCP 服务软件 dnsmasq 日前发布安全公告披露 6 个高危级别的安全漏洞，这些漏洞在披露前已经提前同步给相关从业者让行业可以提前进行修复，现在漏洞披露后可能很快就会有黑客利用这些漏洞发起攻击。&lt;/p&gt;
+&lt;p&gt;此次披露的这些漏洞均属于已经存在很久的漏洞，但漏洞几乎影响 dnsmasq 的所有版本，说起来这些漏洞应该也都是研究人员通过 AI 发觉出来的，未来一段时间 AI 发掘漏洞的数量可能会持续增长，各类软件可能都需要及时更新。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112915.png" rel="nofollow"&gt;&lt;img alt="知名开源软件dnsmasq发布安全公告披露6个高危漏洞" data-src="https://img.landian.news/landian/2026/05/112915.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112915.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CVE-2026-2291：该漏洞与域名缓冲区长度计算错误有关，可能导致堆缓冲区越界写入&lt;/li&gt;
+&lt;li&gt;CVE-2026-4890：该漏洞涉及 DNSSEC 的 NSEC/NSEC3 解析逻辑错误，可能导致无限循环和越界读取，进而让 dnsmasq 停止响应请求&lt;/li&gt;
+&lt;li&gt;CVE-2026-4891：该漏洞与 RRSIG 数据长度校验不严格有关，可能让异常签名记录进入错误处理流程&lt;/li&gt;
+&lt;li&gt;CVE-2026-4892：该漏洞出现在 DHCPv6 客户端标识处理过程中，属于缓冲区溢出问题，且发生在辅助进程路径中&lt;/li&gt;
+&lt;li&gt;CVE-2026-4893：该漏洞会影响 EDNS Client Subnet 的来源校验，使相关安全检查被直接绕过&lt;/li&gt;
+&lt;li&gt;CVE-2026-5172：该漏洞属于 DNS 资源记录解析中的边界检查缺陷，可能会造成越界读取并触发崩溃&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;整体来说这批漏洞中既有典型的内存破坏问题，也有可能直接打挂服务的解析缺陷，考虑到 dnsmasq 被广泛应用于路由器、嵌入式设备、Linux 发行版以及容器网络环境，这次更新对下游开发商和运维人员来说都比较重要。&lt;/p&gt;
+&lt;p&gt;开发者 Simon Kelly 已经发布新版本修复这些漏洞，其中用于修复漏洞的版本为 2.92rel2，开发者计划尽快推进发布 2.93 版。&lt;/p&gt;
+</description><pubDate>Wed, 13 May 2026 02:56:31 +0000</pubDate></item><item><title>[下载] 微软发布Windows 10 ESU扩展安全更新KB5087544修复错误和安全漏洞</title><link>https://www.landiannews.com/archives/112914.html</link><description>
 &lt;p&gt;#系统资讯 微软向 Windows 10 发布新的 ESU 扩展安全更新 KB5087544 修复远程桌面协议警告框显示问题和 120 个安全漏洞。要检查此更新需注册 ESU 扩展安全方案，当然你也可以直接下载离线安装文件进行部署。下载地址：https://ourl.co/112914&lt;/p&gt;&lt;p&gt;微软日前面向 Windows 10 长期服务版或已经注册扩展安全更新的家庭版 / 专业版推出新的扩展安全更新，该更新编号 KB5087544，用于修复这段时间微软发现或外部研究人员通报的各种安全漏洞。&lt;/p&gt;
 &lt;p&gt;扩展安全更新与常规更新相同，用户只需要转到设置里检查更新即可下载安装，前提是已经注册扩展安全更新方案，如果没有注册扩展安全方案，Windows 10 已经结束支持因此无法继续获得微软提供的各类安全更新。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112781.png" rel="nofollow"&gt;&lt;img alt="[下载] 微软发布Windows 10 ESU扩展安全更新KB5087544修复错误和安全漏洞" data-src="https://img.lancdn.com/landian/2026/04/112781.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112781.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -11,67 +67,4 @@
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;离线安装文件：&lt;a href="https://www.catalog.update.microsoft.com/Search.aspx?q=KB5087544" rel="noopener" target="_blank"&gt;https://www.catalog.update.microsoft.com/Search.aspx?q=KB5087544&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;成功安装并在重启后，系统版本升级至 Windows 10 Build 19045.7291 版；Windows 10 LTSC 2021 安装更新后，系统版本升级至 Windows 10 Build 19044.7291 版。&lt;/p&gt;
-</description><pubDate>Wed, 13 May 2026 02:36:55 +0000</pubDate></item><item><title>对抗国家级间谍软件攻击：谷歌为安卓新增入侵日志记录 可用于排查间谍软件攻击</title><link>https://www.landiannews.com/archives/112913.html</link><description>
-&lt;p&gt;#系统资讯 谷歌为安卓系统新增间谍软件调查功能，让网络安全研究人员可以深度分析日志排查间谍软件攻击行为。该功能在 2025 年开发但直到现在才开始推送，启用功能后系统将通过新型日志记录设备解锁、应用安装或卸载、连接哪些网站或服务器、是否连接 ADB 等，日志会被加密上传到云端避免在本地被删除。查看详情：https://ourl.co/112913&lt;/p&gt;&lt;p&gt;为应对近年来愈演愈烈的国家级间谍软件攻击，谷歌正在为安卓系统开发新可选功能：入侵日志记录。该功能并非面向普通用户，而是帮助网络安全研究人员通过深度检查系统日志排查设备是否已经遭到间谍软件感染。&lt;/p&gt;
-&lt;p&gt;入侵日志记录被放在安卓高级保护模式中，安卓高级保护模式是谷歌为安卓用户推出的可选功能，用户启用该功能后系统部分选项会被禁用从而提升安全性，例如启用高级保护模式后想要通过浏览器内核漏洞进行感染的难度就会显著增加。&lt;/p&gt;
-&lt;p&gt;高级保护模式还可以应对取证设备试图从系统里提取关键信息，此前在塞尔维亚的国家级间谍软件攻击案例中，塞尔维亚当局就使用 Cellebrite 开发的取证工具解锁安卓设备，然后安装间谍软件后继续对目标进行持续监控。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/03/112250.png" rel="nofollow"&gt;&lt;img alt="对抗国家级间谍软件攻击：谷歌为安卓新增入侵日志记录 可用于排查间谍软件攻击" data-src="https://img.lancdn.com/landian/2026/03/112250.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/03/112250.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;入侵日志记录功能本质上是谷歌为安卓系统开发的新型日志，这种新型日志要比安卓系统常规日志更加全面和细致，用于记录软件各类事件并收集证据，从而帮助用户和网络安全研究人员了解疑似间谍软件攻击的来龙去脉。&lt;/p&gt;
-&lt;p&gt;以前取证分析主要依赖于并非为了检测入侵而设计的日志，这种日志对网络安全研究人员来说用处不是很大，因为这类日志保存时间短且经常会被覆盖，而间谍软件潜伏时间可能会非常长，如果日志被覆盖则研究人员无法溯源攻击源头。&lt;/p&gt;
-&lt;p&gt;现在有了入侵日志记录功能后，当启用该功能，系统就会每天创建并收集日志，收集的日志会采用高强度算法进行加密后上传到用户的谷歌账户中，因此即便日志在本地被抹除，研究人员也依然可以通过云端继续查找日志。&lt;/p&gt;
-&lt;p&gt;说到这里还需要提下，其实入侵日志记录功能在 2025 年就已经开发，不过谷歌现在才开始逐渐部署，谷歌在博客中表示，该功能正在面向运行 Android 16 2025 年 12 月更新或更高版本的设备推出。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;安卓设备何时解锁过&lt;/li&gt;
-&lt;li&gt;应用程序何时安装、启动或卸载&lt;/li&gt;
-&lt;li&gt;安卓设备连接过哪些网站或服务器&lt;/li&gt;
-&lt;li&gt;是否有人使用目标设备连接到 ADB (取证工具就需要通过 ADB 连接并读取数据)&lt;/li&gt;
-&lt;li&gt;是否有人尝试删除以上跟踪记录的日志 (这表明有人试图隐藏攻击证据)&lt;/li&gt;
-&lt;/ul&gt;
-</description><pubDate>Wed, 13 May 2026 02:16:28 +0000</pubDate></item><item><title>[相关特性汇总] 谷歌发布Android 17预览版 通过AI将安卓转型为智能系统</title><link>https://www.landiannews.com/archives/112912.html</link><description>
-&lt;p&gt;#系统资讯 [功能汇总] 谷歌发布 Android 17 预览版，深度集成 AI 服务，安卓系统里的 AI 服务现在被命名为 Gemini Intelligence。安卓系统将通过深度集成 Gemini 转型为智能系统，具备主动式和设备端 AI 功能，帮助用户快速通过 AI 执行各类操作。查看详情：https://ourl.co/112912&lt;/p&gt;&lt;p&gt;谷歌日前发布 Android 17 预览版，这是谷歌即将推出的适用于智能手机和其他设备的新版安卓系统，Android 17 包含多项新的 AI 功能，这些 AI 功能被称为 Gemini Intelligence，与苹果采用的 Apple Intelligence 名称类似。&lt;/p&gt;
-&lt;p&gt;Android 17 深度集成人工智能服务，谷歌的目标是将安卓系统从基本操作系统转型为智能系统，具备主动式、设备端 AI 功能，帮助用户在执行各类操作时调用 AI 服务，这些服务分散在谷歌自家应用或系统基础功能里，到时候用户可以轻松发现谷歌提供的这些 AI 服务。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112912.png" rel="nofollow"&gt;&lt;img alt="[相关特性汇总] 谷歌发布Android 17预览版 通过AI将安卓转型为智能系统" data-src="https://img.landian.news/landian/2026/05/112912.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112912.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;扩展 Gemini 智能：Gemini 可以自主完成更多任务，例如帮助用户预订课程和购物等。&lt;/p&gt;
-&lt;p&gt;视觉上下文：Gemini 可以从屏幕上提取上下文信息，例如在备忘录里创建购物清单后，通过 Gemini 自动购物。&lt;/p&gt;
-&lt;p&gt;智能网页浏览：Chrome 浏览器中的 Gemini 插件可以帮助用户搜索、汇总和比较内容，自动浏览功能可以帮助用户预约等。&lt;/p&gt;
-&lt;p&gt;自动填充：安卓可以使用 Gemini 的 Personal Intelligence 从 Gmail 和 Google Photos 中提取信息，从而自动填充文本字段。&lt;/p&gt;
-&lt;p&gt;Rambler：这是谷歌开发的人工智能语音识别功能，可以去除嗯、啊、像等语气词，Rambler 也会提取语音中的重要内容并生成简洁明了的信息。&lt;/p&gt;
-&lt;p&gt;创建我的小部件：该功能允许用户通过自然语言描述所需的功能来构建自定义小部件，可以提供天气、食谱、倒计时、显示时间等信息。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;3D 表情符号：谷歌正在逐步采用 Noto 3D，这是谷歌全新开发的 3D 表情符号合集。&lt;/p&gt;
-&lt;p&gt;Android Auto：扩展 Gemini 集成并采用 Material 3 Expressive 设计风格，给用户带来焕然一新的界面。&lt;/p&gt;
-&lt;p&gt;屏幕反应：该功能允许用户同时使用前置和后置摄像头拍摄社交媒体风格视频。&lt;/p&gt;
-&lt;p&gt;Instagram 集成：谷歌与 Meta 合作提升使用安卓设备拍摄并上传到 Instagram 的视频和照片质量。&lt;/p&gt;
-&lt;p&gt;暂停点：用户可以将某个应用设置为干扰应用，暂停点会在应用打开前提供 10 秒的缓冲时间，该功能可被用来减少使用某些让用户沉迷的应用。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Gemini Intelligence：该功能将分批推出，从今年夏天开始谷歌将率先面向三星 Galaxy 和谷歌 Pixel 系列设备推送，谷歌计划在今年晚些时候将其扩展到安卓手表、汽车、眼镜和笔记本电脑。&lt;/p&gt;
-&lt;p&gt;Chrome 浏览器中的 Gemini 功能：将在 6 月下旬开始推出，其他 Android 17 功能或特性预计会在 6 月进入稳定发布阶段。&lt;/p&gt;
-</description><pubDate>Wed, 13 May 2026 01:56:20 +0000</pubDate></item><item><title>谷歌将在秋季发布搭载安卓桌面版的Google Books笔记本电脑 深度集成Gemini AI服务</title><link>https://www.landiannews.com/archives/112895.html</link><description>
-&lt;p&gt;#硬件设备 谷歌将在秋季发布搭载安卓桌面版的 Google Books 系列笔记本电脑产品，可以直接运行各类安卓应用并与安卓设备互通，深度集成 Gemini AI 服务。谷歌称新系统名称并非铝系统，因为这只是内部代号而非正式名称，谷歌将在今年秋季公布新系统名称，到时候相关设备也会陆续上线。查看详情：https://ourl.co/112895&lt;/p&gt;&lt;p&gt;谷歌宣布将在秋季推出名为 Google Books 的全新笔记本电脑系列产品，该系列产品用来接替已经被谷歌放弃的 Chromebook 系列设备，并且主要搭载的是安卓桌面版与 ChromeOS 融合的操作系统，可以直接运行各类安卓应用并深度集成谷歌的 Gemini AI 服务。&lt;/p&gt;
-&lt;p&gt;谷歌确认该系列产品搭载的操作系统并非铝系统 (AluminiumOS)，谷歌称铝系统仅仅只是内部代号而非正式的操作系统名称，谷歌将在今年秋季发布设备时分享关于操作系统名称的确切消息，当前谷歌还不能直接透露更多消息。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112895-1.png" rel="nofollow"&gt;&lt;img alt="谷歌将在秋季发布搭载安卓桌面版的Google Books笔记本电脑 深度集成Gemini AI服务" data-src="https://img.landian.news/landian/2026/05/112895-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112895-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;该系列设备基于安卓技术栈进行构建，可以运行谷歌浏览器进行网页浏览，也可以运行各类安卓应用程序和游戏，谷歌也为 Google Books 带来安卓设备互联功能，让用户可以直接在笔记本电脑上访问安卓设备上的文件、运行已经在安卓设备上安装的应用程序，让用户不需要频繁切换设备就可以执行相同的任务。&lt;/p&gt;
-&lt;p&gt;Google Books 将推出魔法指针功能，用户只需要摇晃鼠标并指向屏幕上的内容即可调用 AI 服务获得建议。谷歌举例称：用户可以指向电子邮件的日期摇晃鼠标来安排会议日程，或者选择家具和起居空间的图片来查看组合效果。&lt;/p&gt;
-&lt;p&gt;该设备还支持定制 AI 小部件 (这是谷歌刚刚面向安卓和 WearOS 智能手表推出的新小部件)，用户可以创建 AI 小部件集中整理航班、酒店信息、餐厅预订、家庭聚会倒计时等等，让用户可以不必在多个应用或小部件中查询信息。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112895-2.png" rel="nofollow"&gt;&lt;img alt="谷歌将在秋季发布搭载安卓桌面版的Google Books笔记本电脑 深度集成Gemini AI服务" data-src="https://img.landian.news/landian/2026/05/112895-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112895-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112895-3.png" rel="nofollow"&gt;&lt;img alt="谷歌将在秋季发布搭载安卓桌面版的Google Books笔记本电脑 深度集成Gemini AI服务" data-src="https://img.landian.news/landian/2026/05/112895-3.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112895-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;谷歌只是在安卓秀环节简单提及 Google Books，因此目前关于该系列设备的信息非常少，谷歌称该公司正在与宏碁、华硕、戴尔、惠普和联想合作开发首批机型，至于型号名称、硬件参数等都没有公布，所以预估售价暂时也不清楚。&lt;/p&gt;
-&lt;p&gt;最后被谷歌放弃的 Chromebook 系列产品不再更新，但谷歌将会继续提供必要的软件更新支持和其他相关服务直到 2031 年，不过现有的 Chromebook 设备是否能升级到新系统也是个未知数。&lt;/p&gt;
-</description><pubDate>Wed, 13 May 2026 01:36:43 +0000</pubDate></item><item><title>地平线6未加密游戏包泄露并被快速盗版传播 微软直接将大量玩家封禁7,000年</title><link>https://www.landiannews.com/archives/112894.html</link><description>
-&lt;p&gt;#游戏资讯 地平线 6 未加密安装包泄露并被快速盗版传播，微软直接将提前进入游戏的玩家封禁到 9999 年，而且还是硬件封禁。硬件封禁意味着除非更换主板否则都无法进入游戏，或者使用某些硬件 ID 欺骗器，对玩家来说提前几天进入游戏着实得不偿失。查看详情：https://ourl.co/112894&lt;/p&gt;&lt;p&gt;微软原计划在 2026 年 5 月 19 日正式发售《极限竞速：地平线 6》，而正常情况下微软等游戏开发商会提前将游戏发布到 Steam 平台进行预下载，现在似乎是因为操作失误，游乐场工作室直接发布没有进行 DRM 加密保护的游戏安装包。&lt;/p&gt;
-&lt;p&gt;地平线 6 的主要开发团队是游乐场游戏开发工作室，微软的 Xbox 游戏团队负责发布，但目前尚不清楚操作失误根源是游乐场游戏工作室还是微软 Xbox 游戏工作室，这种情况可能会给微软以及开发团队造成损失。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112894.png" rel="nofollow"&gt;&lt;img alt="地平线6未加密游戏包泄露并被快速盗版传播 微软直接将大量玩家封禁9,000年" data-src="https://img.landian.news/landian/2026/05/112894.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112894.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Steam 平台允许开发商提前上传游戏并给感兴趣的玩家提前下载，正常情况下预载机制的安装包都是被加密的，当游戏正式发布 Steam 会推送更新用来解密文件，这样玩家到时候接收更新后无需下载即可立即进入游戏。&lt;/p&gt;
-&lt;p&gt;此次问题似乎是开发团队将预载文件和解密文件同时发布，也就是玩家可以直接下载游戏安装包并进入游戏，不需要等到正式发售后接收更新，由于缺乏必要的 DRM 保护，有玩家将安装包发布后，其他玩家也可以直接下载安装包进行游戏。&lt;/p&gt;
-&lt;p&gt;在 Reddit 上有多个热门帖子介绍如何在盗版网站上玩地平线 6，不过可能是收到微软的 DMCA 通知，Reddit 法务团队已经批量删除这些热门帖子，部分不是非常热门的帖子还在继续传播中。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;对于下载安装包提前进入游戏的玩家，游乐场游戏工作室也在采取极其严厉的惩罚措施，包括全面封禁和硬件封禁，该工作室称鼓励粉丝耐心等待 5 月 19 日地平线 6 正式发售。&lt;/p&gt;
-&lt;p&gt;硬件封禁意味着什么：硬件封禁指的是读取主板硬件信息进行封禁，通常此类硬件信息不可更改，所以哪怕是重装系统也不能继续进入地平线 6，除非玩家更换主板或者使用某些硬件 ID 欺骗器。&lt;/p&gt;
-&lt;p&gt;提前进入游戏的玩家目前被封禁到 9,999 年 12 月 31 日，这其实也就是永久封禁，所以对于大多数玩家来说当前最好继续耐心等待游戏发售，不然被硬件封禁后就得不偿失了。&lt;/p&gt;
-</description><pubDate>Tue, 12 May 2026 03:10:13 +0000</pubDate></item></channel></rss>
+</description><pubDate>Wed, 13 May 2026 02:36:55 +0000</pubDate></item></channel></rss>
