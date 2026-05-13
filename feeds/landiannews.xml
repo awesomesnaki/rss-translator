@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 13 May 2026 06:30:36 +0000</lastBuildDate><item><title>微软开始测试Windows 11云端驱动程序恢复功能 检测到异常驱动时回滚到旧版本</title><link>https://www.landiannews.com/archives/112918.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 13 May 2026 07:05:55 +0000</lastBuildDate><item><title>开源病毒也是开源？TeamPCP开源蠕虫病毒Shai-Hulud 只需修改C2即可使用</title><link>https://www.landiannews.com/archives/112919.html</link><description>
+&lt;p&gt;#安全资讯 病毒开源也是开源？致力于供应链攻击的 TeamPCP 团队在 GitHub 开源蠕虫病毒 Shai-Hulud，随后还有好心人贡献代码让蠕虫支持 FreeBSD (用户：我可谢谢你)。这个蠕虫病毒只需要简单修改即可部署使用，OX 分析师也确认代码是有效的，与黑客此前发起攻击使用的代码相同。查看详情：https://ourl.co/112919&lt;/p&gt;&lt;p&gt;近期成功发起多起供应链攻击的黑客团队 TeamPCP 日前在 GitHub 上开源其使用的蠕虫病毒 Shai-Hulud，安全公司 OX 经过分析后确认开源代码是真实有效的，其代码与这个黑客团伙此前发起攻击时使用的蠕虫病毒代码基本相同。&lt;/p&gt;
+&lt;p&gt;Shai-Hulud 蠕虫病毒的用途是寻找各类敏感凭据并自动创建和发布恶意代码以复制自身，如果无法达成复制自身的目标，则病毒还会尝试清除本地环境并进行自毁式的破坏性保护，例如将开发环境中的所有重要文件全部删除。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112919-1.png" rel="nofollow"&gt;&lt;img alt="开源病毒也是开源？TeamPCP开源蠕虫病毒Shai-Hulud 只需修改C2即可使用" data-src="https://img.landian.news/landian/2026/05/112919-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112919-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;需要说明的是 Shai-Hulud 并不能直接发起攻击，下游黑客需要先通过各类方式例如社会工程学对开发者钓鱼使前置恶意软件进入开发环境，进入开发环境后才能部署 Shai-Hulud 蠕虫病毒，部署后这个蠕虫病毒会自动搜索开发环境中的 AWS、GitHub、Google Cloud、Microsoft Azure 等各类凭证。&lt;/p&gt;
+&lt;p&gt;获得访问凭证后蠕虫会尝试连接资源并继续感染其他资源，例如开发者清理本地被感染的环境后，没有清理云端环境的各类资源，若运行云端环境中的资源也同样还会被感染 Shai-Hulud 蠕虫病毒。&lt;/p&gt;
+&lt;p&gt;TeamPCP 发布的这个蠕虫病毒使用方法也非常简单，只需要简单修改 C2 命令和控制服务器并根据需要修改里面的某些键即可，所以预计很快就会有更多黑客利用这部分开源代码发起攻击。&lt;/p&gt;
+&lt;p&gt;以前也有过类似案例：针对物联网的蠕虫病毒 Mirai 最初就是被开源的，以至于其原始作者都已经被招安后，现在 Mirai 还在互联网上肆虐，大量针对物联网设备的蠕虫病毒都是基于 Mirai 开发或改进的。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在 TeamPCP 发布 Shai-Hulud 蠕虫病毒的仓库后，有个名为 agwagwagwa 的账户提交 PR，为这个蠕虫病毒新增 FreeBSD 系统的支持，也就是合并代码后 Shai-Hulud 还可以在 FreeBSD 系统上运行。&lt;/p&gt;
+&lt;p&gt;OX 安全分析师检查后发现，TeamPCP 团队的主题是猫，而提交 PR 的这个账户里有个「喵」，但这个好心人是 TeamPCP 团队成员还是独立的黑客暂时还不清楚，有直接关联的可能性更大。&lt;/p&gt;
+&lt;p&gt;对于开源发布蠕虫病毒这事儿微软似乎也不是特别抵触，因为直到现在 Shai-Hulud 仓库还是在的，没有被删除，当然即便微软删除也没用，黑客想要公布代码是很容易的事情，这或许也是 GitHub 没有处理的原因。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112919-2.png" rel="nofollow"&gt;&lt;img alt="开源病毒也是开源？TeamPCP开源蠕虫病毒Shai-Hulud 只需修改C2即可使用" data-src="https://img.landian.news/landian/2026/05/112919-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112919-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://github.com/search?q=A+Gift+From+TeamPCP&amp;amp;type=repositories&amp;amp;s=updated&amp;amp;o=desc" rel="noopener" target="_blank"&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 13 May 2026 07:05:55 +0000</pubDate></item><item><title>微软开始测试Windows 11云端驱动程序恢复功能 检测到异常驱动时回滚到旧版本</title><link>https://www.landiannews.com/archives/112918.html</link><description>
 &lt;p&gt;#系统资讯 微软开始测试 Windows 11 云端驱动程序恢复功能，当检测到异常驱动程序时，将通过云端回滚到旧版不受影响的驱动程序。这个问题说到底还是解决用户体验问题，毕竟 OEM 提交的驱动质量残次不齐，但出现问题用户首先会觉得 Windows 11 垃圾，现在云端恢复功能可以在更短时间内快速解决问题。查看详情：https://ourl.co/112918&lt;/p&gt;&lt;p&gt;在 Windows 10/11 中各类驱动程序引起的问题向来非常多，多数情况下驱动程序的问题都是 OEM 开发质量较差或者没有完整测试兼容性导致的，当然也有些情况下是微软发布的系统更新导致驱动程序产生兼容性故障。&lt;/p&gt;
 &lt;p&gt;无论是何种问题导致的驱动程序问题都可能会让用户的正常使用受影响，所以现在微软开始为 Windows 11 推出名为云端驱动程序恢复的新功能，该功能在不需要用户干预的情况下，自动回滚问题驱动到旧版本以确保用户能够正常使用。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://img.landian.news/landian/public/thumb/W11.webp" rel="nofollow"&gt;&lt;img alt="微软开始测试Windows 11云端驱动程序恢复功能 检测到异常驱动时回滚到旧版本" data-src="https://img.landian.news/landian/public/thumb/W11.webp" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/public/thumb/W11.webp"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -55,16 +70,4 @@
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;整体来说这批漏洞中既有典型的内存破坏问题，也有可能直接打挂服务的解析缺陷，考虑到 dnsmasq 被广泛应用于路由器、嵌入式设备、Linux 发行版以及容器网络环境，这次更新对下游开发商和运维人员来说都比较重要。&lt;/p&gt;
 &lt;p&gt;开发者 Simon Kelly 已经发布新版本修复这些漏洞，其中用于修复漏洞的版本为 2.92rel2，开发者计划尽快推进发布 2.93 版。&lt;/p&gt;
-</description><pubDate>Wed, 13 May 2026 02:56:31 +0000</pubDate></item><item><title>[下载] 微软发布Windows 10 ESU扩展安全更新KB5087544修复错误和安全漏洞</title><link>https://www.landiannews.com/archives/112914.html</link><description>
-&lt;p&gt;#系统资讯 微软向 Windows 10 发布新的 ESU 扩展安全更新 KB5087544 修复远程桌面协议警告框显示问题和 120 个安全漏洞。要检查此更新需注册 ESU 扩展安全方案，当然你也可以直接下载离线安装文件进行部署。下载地址：https://ourl.co/112914&lt;/p&gt;&lt;p&gt;微软日前面向 Windows 10 长期服务版或已经注册扩展安全更新的家庭版 / 专业版推出新的扩展安全更新，该更新编号 KB5087544，用于修复这段时间微软发现或外部研究人员通报的各种安全漏洞。&lt;/p&gt;
-&lt;p&gt;扩展安全更新与常规更新相同，用户只需要转到设置里检查更新即可下载安装，前提是已经注册扩展安全更新方案，如果没有注册扩展安全方案，Windows 10 已经结束支持因此无法继续获得微软提供的各类安全更新。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112781.png" rel="nofollow"&gt;&lt;img alt="[下载] 微软发布Windows 10 ESU扩展安全更新KB5087544修复错误和安全漏洞" data-src="https://img.lancdn.com/landian/2026/04/112781.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112781.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;1. 该更新已经修复远程桌面安全警告问题：在多显示器配置且显示缩放设置不同的情况下，远程桌面连接安全警告对话框无法正常显示，该问题在安装 KB5087544 (2026 年 4 月更新) 后就会出现。&lt;/p&gt;
-&lt;p&gt;2. 该更新在 Microsoft Defender 安全应用中提供安全启动状态检查报告 (此前已经面向部分用户推出)，如果已经安装新的 UEFI 启动证书则会显示绿色对号进行标记。&lt;/p&gt;
-&lt;p&gt;3. 该更新还存在已知问题，在企业设备中启用特定组策略配置后且 TPM 验证配置文件中包含 PCR7 以及安装 UEFI CA 2023 等后，安装更新后系统会直接进入 BitLocker 恢复密钥界面，建议在安装更新前提前打印恢复密钥。&lt;/p&gt;
-&lt;p&gt;4. 该更新合计修复 120 个安全漏洞，建议追求更高安全性的用户尽快安装更新以封堵这些漏洞。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;离线安装文件：&lt;a href="https://www.catalog.update.microsoft.com/Search.aspx?q=KB5087544" rel="noopener" target="_blank"&gt;https://www.catalog.update.microsoft.com/Search.aspx?q=KB5087544&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;成功安装并在重启后，系统版本升级至 Windows 10 Build 19045.7291 版；Windows 10 LTSC 2021 安装更新后，系统版本升级至 Windows 10 Build 19044.7291 版。&lt;/p&gt;
-</description><pubDate>Wed, 13 May 2026 02:36:55 +0000</pubDate></item></channel></rss>
+</description><pubDate>Wed, 13 May 2026 02:56:31 +0000</pubDate></item></channel></rss>
