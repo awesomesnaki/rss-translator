@@ -1,5 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 14 May 2026 02:15:06 +0000</lastBuildDate><item><title>[促销代码] ChatGPT商业版新开通免费使用2个月 但对支付卡要求极高</title><link>https://www.landiannews.com/archives/112921.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 14 May 2026 03:43:58 +0000</lastBuildDate><item><title>Windows 11自动降级用户安装的GPU驱动 微软证实这是BUG不是特性</title><link>https://www.landiannews.com/archives/112925.html</link><description>
+&lt;p&gt;#系统资讯 微软确认 Windows 11 自动降级用户安装的 GPU 驱动程序是 BUG 不是特性，但微软当前还没办法直接解决。微软称这个问题起因是驱动程序排名和推送方式的异常，无法通过简单修改解决问题，微软后续将针对新硬件的新驱动使用计算机 ID 进行定位以减少意外降级，只不过现有硬件驱动还可能遇到降级。查看详情：https://ourl.co/112925&lt;/p&gt;&lt;p&gt;近期有不少用户注意到自己手动下载安装的 GPU 驱动程序会被 Windows 11 自动替换为旧版本，正常情况下 Windows 11 安装后会自动下载托管的 GPU 驱动程序，这些驱动程序版本都比较旧但能提供基本的使用，而用户手动安装的通常都是最新版驱动程序。&lt;/p&gt;
+&lt;p&gt;但问题在于即便用户安装的是最新版驱动程序，Windows 11 也会自动将其替换为旧版本，因此像是英伟达、AMD 和英特尔提供的具有更多游戏优化和新功能的驱动程序都被替换，这导致用户无法获得最佳使用体验。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112925A.png" rel="nofollow"&gt;&lt;img alt="Windows 11自动降级用户安装的GPU驱动 微软证实这是BUG不是特性" data-src="https://img.landian.news/landian/2026/05/112925A.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112925A.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在微软&lt;a href="https://aka.ms/AA2btij" rel="noopener" target="_blank"&gt;反馈中心&lt;/a&gt;里已经有诸多用户向微软抱怨显卡驱动程序被替换的问题，例如 Windows 11 可能将用户在 2026 年 4 月安装的最新显卡驱动程序替换为 2024 年甚至是更老的版本，具体取决于不同硬件和微软更新目录推送的内容。&lt;/p&gt;
+&lt;p&gt;用户在反馈报告中表示：在这个现代社会，很难理解为什么微软无法及时更新所有最新的、经过验证的驱动程序，即便微软无法做到，那在提供驱动程序更新时也应该提醒用户已经安装更高的版本、让用户可以忽略更新选项。&lt;/p&gt;
+&lt;p&gt;当然也不是所有用户都会遇到这种问题，只不过对遇到这种问题的用户来说，除非禁用驱动程序更新，否则哪怕是重复安装新版本显卡驱动程序后，过段时间系统还是会再次下载安装旧版驱动程序进行覆盖。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;对于这个问题微软给出的解释是 Windows 11 更新目前对显示驱动程序进行排名和推送方式存在异常，这导致用户会收到旧版本显卡驱动程序，微软也知道在某些情况下会向用户推送不必要的降级更新，但微软现阶段也不能彻底解决问题。&lt;/p&gt;
+&lt;p&gt;从今年开始新设备的显卡驱动程序可以使用两部分目标定位系统，包括硬件 ID 和计算机 ID，计算机 ID 指的是特定的计算机型号或硬件配置，这有助于 Windows 11 更新更好地了解驱动程序应针对哪些计算机。&lt;/p&gt;
+&lt;p&gt;这种更新方式可以更精准的目标模型可以确保驱动程序更新仅限于其目标系统，从而减少整个生态系统中出现的意外驱动程序降级问题，不过这项变更仅适用于针对新硬件的新显卡驱动程序，现有硬件的驱动程序仍有可能会被替换降级。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://www.windowslatest.com/2026/05/13/microsoft-admits-windows-11-has-been-downgrading-graphics-drivers-reveals-when-a-fix-is-coming/" rel="noopener" target="_blank"&gt;Windows Latest&lt;/a&gt;、&lt;a href="https://techcommunity.microsoft.com/blog/hardware-dev-center/updated-graphics-driver-publishing-policy-from-4-part-to-2-part-hwid--chid-targe/4519070" rel="noopener" target="_blank"&gt;Microsoft Support&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Thu, 14 May 2026 03:43:58 +0000</pubDate></item><item><title>全球互联网关键基础设施NGINX出现高危漏洞 仅需发送特制HTTP请求即可拿下服务器</title><link>https://www.landiannews.com/archives/112924.html</link><description>
+&lt;p&gt;#安全资讯 全球互联网关键基础设施 NGINX 出现高危安全漏洞，攻击者只需要向暴露的 NGINX 服务器发送特制 HTTP 请求即可拿下服务器。该漏洞还是在 2008 年引入的，从 NGINX 0.6.27~1.30.0 版均受漏洞影响，使用 NGINX 的用户需尽快升级到 1.30.1 版或 1.31.0 版。查看详情：https://ourl.co/112924&lt;/p&gt;&lt;p&gt;F5 旗下的 NGINX 是全球使用量极高的反向代理服务器，NGINX 也是全球互联网的关键基础设施，现在安全研究公司披露该软件出现的高危安全漏洞，该漏洞编号为 CVE-2026-42945，NGINX 脚本引擎中存在已经 18 年的堆缓冲区溢出问题。&lt;/p&gt;
+&lt;p&gt;攻击者只需要向暴露的 NGINX 服务器发送经过精心构造的 HTTP 请求即可远程拿下服务器，NGINX 在全球网站服务器和反向代理核心领域占有率将近 30%，因此这个漏洞可能会波及到海量的互联网服务。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/08/110209.png" rel="nofollow"&gt;&lt;img alt="全球互联网关键基础设施NGINX出现高危漏洞 仅需发送特制HTTP请求即可拿下服务器" data-src="https://img.lancdn.com/landian/2025/08/110209.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/08/110209.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;该漏洞最初还是在 2008 年发布的 NGINX 0.6.27 版中引入的，之后漏洞长期没有被发现并潜伏到现在，该漏洞影响 NGINX 0.6.27~1.30.0 版，同时也影响 F5 公司向商业客户提供的多种 NGINX 衍生产品。受影响的衍生产品包括但不限于 NGINX WAF、F5 WAF、NGINX Gateway Fabric、NGINX Ingress Controller 等。&lt;/p&gt;
+&lt;p&gt;而漏洞触发条件非常隐蔽，当 NGINX 配置文件中同时出现如下两种指令时漏洞就会被激活：&lt;/p&gt;
+&lt;pre&gt;rewrite ^/api/(.*)$ /internal?migrated=true;  # 重写规则末尾带 “?”
+set $original_endpoint $1;                     # 使用正则捕获组&lt;/pre&gt;
+&lt;p&gt;发现该漏洞的研究团队指出，漏洞根源在于 ngx_http_rewrite_module 的脚本引擎 (ngx_http_script.c) 中，当重写指令带问号时会设置持久的 is_args 标志，但在后续的 set 指令长度计算阶段，引擎使用的是新的清零的子引擎，这导致长度计算时跳过 URL 转义逻辑。&lt;/p&gt;
+&lt;p&gt;而实际复制阶段又使用主引擎，触发 ngx_escape_uri 函数对 +、&amp;amp; 等字符进行转义，缓冲区按未转义长度分配却写入膨胀后的内容，最终造成可控的堆缓冲区溢出。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; F5 已发布 NGINX 1.31.0/1.30.1 版进行修复：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;接到漏洞通报后 F5 很快就确认漏洞，在 F5 准备好修复程序后研究人员公开发布漏洞，所以当前使用 NGINX 及其衍生产品的用户都需要升级到不受影响的最新版，其中开源版的 NGINX 需升级到 1.30.1 版或 1.31.0 版，其他旧版本例如 0.6.27~1.30.0 版均受漏洞影响。&lt;/p&gt;
+&lt;p&gt;有关其他衍生产品的版本信息请查看 F5 安全公告：&lt;a href="https://my.f5.com/manage/s/article/K000160932" rel="noopener" target="_blank"&gt;https://my.f5.com/manage/s/article/K000160932&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Thu, 14 May 2026 03:23:22 +0000</pubDate></item><item><title>微软删除Shai-Hulud蠕虫病毒开源库 相关账号也被封禁无法再发布内容</title><link>https://www.landiannews.com/archives/112923.html</link><description>
+&lt;p&gt;#安全资讯 微软删除 Shai-Hulud 蠕虫病毒开源库，相关账号也被封禁无法再发布内容。昨天蓝点网提到专注于供应链攻击的黑客团队 TeamPCP 开源发布蠕虫病毒 Shai-Hulud，该蠕虫用于 NPM 生态系统，现在微软已经删除仓库并封号，但网上已经有诸多替代链接可以继续下载源代码。查看详情：https://ourl.co/112923&lt;/p&gt;&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112923.png" rel="nofollow"&gt;&lt;img alt="微软删除Shai-Hulud蠕虫病毒开源库 相关账号也被封禁无法再发布内容" data-src="https://img.landian.news/landian/2026/05/112923.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112923.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.landiannews.com/archives/112919.html" rel="noopener" target="_blank"&gt;昨天专注于供应链攻击的黑客团队 TeamPCP 开源发布用于 NPM 生态系统的蠕虫病毒 Shai-Hulud&lt;/a&gt; (名称取自科幻小说沙丘中的沙虫)，下游黑客只需要按需修改里面的部分选项和 C2 命令控制服务器后即可使用，例如拿来感染更多搜寻到的云开发环境等。&lt;/p&gt;
+&lt;p&gt;该黑客团队还在介绍里明确说明这个蠕虫病毒是通过人工智能编写的，且不论代码质量如何，这个蠕虫病毒已经在此前的几次攻击中取得成功，所以公开蠕虫源代码后可能会造成病毒扩散并被更多下游黑客直接复用。&lt;/p&gt;
+&lt;p&gt;安全公司 OX 分析师称 TeamPCP 将自己开发并经过实战的蠕虫病毒代码开源着实让人无法理解，不过从 TeamPCP 团队的做法来看，该团队当前似乎更看重的是炫技，当然也有可能是更多黑客使用这个蠕虫病毒后可以混淆视听，让安全公司追踪 TeamPCP 变得更加困难。&lt;/p&gt;
+&lt;p&gt;现在微软已经直接从 GitHub 上删除这个蠕虫仓库并封禁发布者 @PedroTortoriello 的账户，蓝点网检查 GitHub 发现除了主仓库被删除外，相关的 fork 也同样被删除，也就是至少在 GitHub 上是搜不到 Shai-Hulud 源代码的。&lt;/p&gt;
+&lt;p&gt;公开发布此类蠕虫病毒源代码属于违反 GitHub 使用协议的行为，被微软删除仓库和封禁账户也是无可厚非的，不过相关源代码已经在互联网上公开，下游黑客也可以通过其他方式继续获得源代码，所以只要 TeamPCP 愿意，继续传播源代码是没有任何难度的。&lt;/p&gt;
+</description><pubDate>Thu, 14 May 2026 03:03:08 +0000</pubDate></item><item><title>[利用方法] 安全研究员公开BitLocker零日漏洞 可以直接绕过加密机制访问文件</title><link>https://www.landiannews.com/archives/112922.html</link><description>
+&lt;p&gt;#安全资讯 研究人员公开披露 Microsoft BitLocker 加密系统的低级安全漏洞，仅需 1 个 U 盘并物理接触设备即可访问未解锁的 BitLocker 加密分区任何文件。研究人员暗示此前已经向微软报告漏洞但被忽视，所以现在直接公开漏洞及利用方式敦促微软尽快修复漏洞。查看详情：https://ourl.co/112922&lt;/p&gt;&lt;p&gt;Microsoft BitLocker 是微软开发的用于保护硬盘文件的加密系统，不过日前有研究人员直接公开披露该加密系统存在的高危安全漏洞，用户只需要物理接触设备并使用普通 U 盘即可轻松解锁加密卷并完全获得读取权限。&lt;/p&gt;
+&lt;p&gt;由于这个问题实在是太低级，以至于有阴谋论网友认为这是微软故意预留的后门，当然这种阴谋论猜测更像是玩笑，但微软与研究人员的沟通问题确实值得关注，否则漏洞也不至于被直接公开发布。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112922.png" rel="nofollow"&gt;&lt;img alt="[利用方法] 安全研究员公开BitLocker零日漏洞 可以直接绕过加密机制访问文件" data-src="https://img.landian.news/landian/2026/05/112922.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112922.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;准备工作：准备 1 个 NTFS/FAT32/exFAT 格式的 U 盘，下载开发者提供的 FsTx 文件夹&lt;/li&gt;
+&lt;li&gt;准备工作：将 FsTx 文件夹复制到 U 盘根目录下的 System Volume Information 目录中 (该目录默认隐藏)&lt;/li&gt;
+&lt;li&gt;替代方式：更隐蔽的方式是将 FsTx 文件夹复制到目标设备的 EFI 分区，不需要外接 U 盘，但这需要提前解锁设备 (不需要解锁分区)&lt;/li&gt;
+&lt;li&gt;下载地址：&lt;a href="https://github.com/Nightmare-Eclipse/YellowKey" rel="noopener" target="_blank"&gt;https://github.com/Nightmare-Eclipse/YellowKey&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;适用平台：Windows 11、Windows Server 2022/2025 (Windows 10 不受此漏洞影响)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1. 将处理好的 U 盘连接到目标 Windows 11 系统 (已启用 Microsoft BitLocker 加密)&lt;/li&gt;
+&lt;li&gt;2. 按住 Shift 键并点击重启按钮进入 WinRE 恢复环境&lt;/li&gt;
+&lt;li&gt;3. 点击重启按钮后立即松开 Shift 键并持续按住 Ctrl 键不松手&lt;/li&gt;
+&lt;li&gt;4. 成功后系统会直接弹出没有任何限制的 shell 窗口，在这里可以访问受 BitLocker 保护的卷或其他任意文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;发现漏洞的安全研究员是 Chaotic Eclipse，这名研究人员暗示此前已经向微软报告该漏洞但被忽略或长时间无人处理，鉴于这种情况安全研究员直接公开披露漏洞和利用方式来敦促微软尽快修复漏洞。&lt;/p&gt;
+&lt;p&gt;Chaotic Eclipse 认为这个漏洞太低级以至于就像是微软预留的后门，因为包含漏洞的组件仅在 WinRE 恢复镜像中可以被恶意利用，在正常安装的系统中，同名组件并没有触发绕过流程，所以研究人员想不到其他解释。&lt;/p&gt;
+&lt;p&gt;值得注意的是目前此漏洞已经在野外遭到利用，有安全公司观察到在真实环境中的攻击意图，不过微软暂时还未发布任何声明，不知道什么时候会发布补丁修复漏洞。&lt;/p&gt;
+</description><pubDate>Thu, 14 May 2026 02:44:24 +0000</pubDate></item><item><title>[促销代码] ChatGPT商业版新开通免费使用2个月 但对支付卡要求极高</title><link>https://www.landiannews.com/archives/112921.html</link><description>
 &lt;p&gt;#人工智能 [促销代码] ChatGPT 商业版新开通免费使用 2 个月，但该活动对支付卡要求极高，大多数非美国发行的信用卡可能都无法完成支付验证。该活动名义上限定为美国用户，其他地区的用户可以自己想办法试试看，建议用小号测试以免尝试不同支付卡时引起账号风控。查看详情：https://ourl.co/112921&lt;/p&gt;&lt;p&gt;OpenAI 的新活动允许用户通过特别促销代码免费开通并获得 2 个月的 ChatGPT Business 订阅，该活动主要面向美国地区的开发者和企业，目前已经有诸多网友通过特别促销代码成功开通可以直接薅羊毛。&lt;/p&gt;
 &lt;p&gt;不过这次活动对支付卡的要求非常高，大多数非美国银行或金融机构发行的信用卡都会被拒绝，所以这个羊毛能不能薅成功就看各位网友自己的本事，各类虚拟卡基本不需要尝试，都没法成功开通。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112921A.png" rel="nofollow"&gt;&lt;img alt="[促销代码] ChatGPT商业版新开通免费使用2个月 但对支付卡要求极高" data-src="https://img.landian.news/landian/2026/05/112921A.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112921A.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -16,59 +73,4 @@
 &lt;p&gt;如果用户位于美国且拥有美国银行或金融机构发行的信用卡，可以直接点击开通链接登录自己的账户进行开通；但如果用户不在美国，通过其他方式尝试开通时，建议使用 ChatGPT 小号执行操作，以免多次绑定不同的银行卡触发风控影响账号安全。&lt;/p&gt;
 &lt;p&gt;开通成功后默认情况下可能会自动续费，如果用户单纯只是薅羊毛的话，建议设置定时提醒在 59 天时主动取消订阅防止被扣费。&lt;/p&gt;
 &lt;p&gt;另外有成功开通的网友称免费开通的 ChatGPT Business 账号配额较低，在 Codex 中使用时很容易触发配额限制，这个目前无法证实是免费活动配额较低还是网友的错觉，成功开通的用户可以自己试试看。&lt;/p&gt;
-</description><pubDate>Thu, 14 May 2026 02:15:06 +0000</pubDate></item><item><title>限时福利！Claude Code每周限额增加50% 有效期截至7月13日</title><link>https://www.landiannews.com/archives/112920.html</link><description>
-&lt;p&gt;#人工智能 🎉限时福利！A 社宣布将 Claude 所有订阅层级每周限额提升 50%，这次不是朝三暮四，而是为开发者提供更多的使用配额。此次限时福利截至 2026 年 7 月 13 日下午 6 点，叠加此前 5 小时滚动限额提升 100%，现在开发者有更多资源完成自己的工作任务。查看详情：https://ourl.co/112920&lt;/p&gt;&lt;p&gt;此前 A 社与埃隆马斯克合作后获得 xAI 数据中心庞大的算力，&lt;a href="https://www.landiannews.com/archives/112846.html" rel="noopener" target="_blank"&gt;A 社随后将 Claude Code 5 小时滚动限额提升 100%&lt;/a&gt;，但开发者的当周限额并没有发生变化，也就是对大多数开发者而言仅相当于将更多配额分配到 5 小时滚动窗口里。&lt;/p&gt;
-&lt;p&gt;这种做法引起诸多开发者不满，所以现在 A 社推出限时福利将每周限额提升 50%，也就是所有订阅 Claude 的开发者现在每周 / 每月获得的实际使用量都增加 50%，这让开发者可以有更多资源完成自己的工作任务。&lt;/p&gt;
-&lt;p&gt;此次每周限额调整面向所有订阅层级和所有渠道端实时生效，无论用户使用 Claude/Claude Code 命令行版、桌面版还是网页版，都可以享受相同的每周限额，当前限额也已经调整，开发者可以关注自己账号的当前剩余配额。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/07/109974.png" rel="nofollow"&gt;&lt;img alt="限时福利！Claude Code每周限额增加50% 有效期截至7月13日" data-src="https://img.lancdn.com/landian/2025/07/109974.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/07/109974.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;调整内容：每周限额增加 50%&lt;/li&gt;
-&lt;li&gt;此前调整：5 小时滚动限额提升 100%&lt;/li&gt;
-&lt;li&gt;活动期间：即日起至 2026 年 7 月 13 日下午 6 点 (太平洋时间)&lt;/li&gt;
-&lt;li&gt;订阅层级：Claude Pro、Claude Max、Claude Team 以及按席位计算的 Claude Enterprise 用户&lt;/li&gt;
-&lt;li&gt;适用入口：Claude/Claude Code 桌面版、命令行版、网页版、各类 IDE 插件版&lt;/li&gt;
-&lt;/ul&gt;
-</description><pubDate>Thu, 14 May 2026 01:56:56 +0000</pubDate></item><item><title>开源病毒也是开源？TeamPCP开源蠕虫病毒Shai-Hulud 只需修改C2即可使用</title><link>https://www.landiannews.com/archives/112919.html</link><description>
-&lt;p&gt;#安全资讯 病毒开源也是开源？致力于供应链攻击的 TeamPCP 团队在 GitHub 开源蠕虫病毒 Shai-Hulud，随后还有好心人贡献代码让蠕虫支持 FreeBSD (用户：我可谢谢你)。这个蠕虫病毒只需要简单修改即可部署使用，OX 分析师也确认代码是有效的，与黑客此前发起攻击使用的代码相同。查看详情：https://ourl.co/112919&lt;/p&gt;&lt;p&gt;近期成功发起多起供应链攻击的黑客团队 TeamPCP 日前在 GitHub 上开源其使用的蠕虫病毒 Shai-Hulud，安全公司 OX 经过分析后确认开源代码是真实有效的，其代码与这个黑客团伙此前发起攻击时使用的蠕虫病毒代码基本相同。&lt;/p&gt;
-&lt;p&gt;Shai-Hulud 蠕虫病毒的用途是寻找各类敏感凭据并自动创建和发布恶意代码以复制自身，如果无法达成复制自身的目标，则病毒还会尝试清除本地环境并进行自毁式的破坏性保护，例如将开发环境中的所有重要文件全部删除。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112919-1.png" rel="nofollow"&gt;&lt;img alt="开源病毒也是开源？TeamPCP开源蠕虫病毒Shai-Hulud 只需修改C2即可使用" data-src="https://img.landian.news/landian/2026/05/112919-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112919-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;需要说明的是 Shai-Hulud 并不能直接发起攻击，下游黑客需要先通过各类方式例如社会工程学对开发者钓鱼使前置恶意软件进入开发环境，进入开发环境后才能部署 Shai-Hulud 蠕虫病毒，部署后这个蠕虫病毒会自动搜索开发环境中的 AWS、GitHub、Google Cloud、Microsoft Azure 等各类凭证。&lt;/p&gt;
-&lt;p&gt;获得访问凭证后蠕虫会尝试连接资源并继续感染其他资源，例如开发者清理本地被感染的环境后，没有清理云端环境的各类资源，若运行云端环境中的资源也同样还会被感染 Shai-Hulud 蠕虫病毒。&lt;/p&gt;
-&lt;p&gt;TeamPCP 发布的这个蠕虫病毒使用方法也非常简单，只需要简单修改 C2 命令和控制服务器并根据需要修改里面的某些键即可，所以预计很快就会有更多黑客利用这部分开源代码发起攻击。&lt;/p&gt;
-&lt;p&gt;以前也有过类似案例：针对物联网的蠕虫病毒 Mirai 最初就是被开源的，以至于其原始作者都已经被招安后，现在 Mirai 还在互联网上肆虐，大量针对物联网设备的蠕虫病毒都是基于 Mirai 开发或改进的。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在 TeamPCP 发布 Shai-Hulud 蠕虫病毒的仓库后，有个名为 agwagwagwa 的账户提交 PR，为这个蠕虫病毒新增 FreeBSD 系统的支持，也就是合并代码后 Shai-Hulud 还可以在 FreeBSD 系统上运行。&lt;/p&gt;
-&lt;p&gt;OX 安全分析师检查后发现，TeamPCP 团队的主题是猫，而提交 PR 的这个账户里有个「喵」，但这个好心人是 TeamPCP 团队成员还是独立的黑客暂时还不清楚，有直接关联的可能性更大。&lt;/p&gt;
-&lt;p&gt;对于开源发布蠕虫病毒这事儿微软似乎也不是特别抵触，因为直到现在 Shai-Hulud 仓库还是在的，没有被删除，当然即便微软删除也没用，黑客想要公布代码是很容易的事情，这或许也是 GitHub 没有处理的原因。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112919-2.png" rel="nofollow"&gt;&lt;img alt="开源病毒也是开源？TeamPCP开源蠕虫病毒Shai-Hulud 只需修改C2即可使用" data-src="https://img.landian.news/landian/2026/05/112919-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112919-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://github.com/search?q=A+Gift+From+TeamPCP&amp;amp;type=repositories&amp;amp;s=updated&amp;amp;o=desc" rel="noopener" target="_blank"&gt;GitHub&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 13 May 2026 07:05:55 +0000</pubDate></item><item><title>微软开始测试Windows 11云端驱动程序恢复功能 检测到异常驱动时回滚到旧版本</title><link>https://www.landiannews.com/archives/112918.html</link><description>
-&lt;p&gt;#系统资讯 微软开始测试 Windows 11 云端驱动程序恢复功能，当检测到异常驱动程序时，将通过云端回滚到旧版不受影响的驱动程序。这个问题说到底还是解决用户体验问题，毕竟 OEM 提交的驱动质量残次不齐，但出现问题用户首先会觉得 Windows 11 垃圾，现在云端恢复功能可以在更短时间内快速解决问题。查看详情：https://ourl.co/112918&lt;/p&gt;&lt;p&gt;在 Windows 10/11 中各类驱动程序引起的问题向来非常多，多数情况下驱动程序的问题都是 OEM 开发质量较差或者没有完整测试兼容性导致的，当然也有些情况下是微软发布的系统更新导致驱动程序产生兼容性故障。&lt;/p&gt;
-&lt;p&gt;无论是何种问题导致的驱动程序问题都可能会让用户的正常使用受影响，所以现在微软开始为 Windows 11 推出名为云端驱动程序恢复的新功能，该功能在不需要用户干预的情况下，自动回滚问题驱动到旧版本以确保用户能够正常使用。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://img.landian.news/landian/public/thumb/W11.webp" rel="nofollow"&gt;&lt;img alt="微软开始测试Windows 11云端驱动程序恢复功能 检测到异常驱动时回滚到旧版本" data-src="https://img.landian.news/landian/public/thumb/W11.webp" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/public/thumb/W11.webp"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;以前 OEM 通过微软分发的驱动程序如果出现问题，OEM 必须重新向微软提交更新后的驱动程序，这些驱动程序会被重新推送到设备端，但 OEM 发现驱动程序异常、修复问题、推送新版本都需要很长时间。&lt;/p&gt;
-&lt;p&gt;在这段时间内用户体验就会受到影响，而且出现问题后用户多数情况下可能也会以为是系统问题，也就是糟糕的 Windows 11 体验，某些情况下甚至可能需要用户手动卸载问题驱动后再重新安装，但大多数初级用户可能并不清楚哪些驱动程序出现问题。&lt;/p&gt;
-&lt;p&gt;而通过云端驱动程序恢复功能则可以比较快速和轻松地解决问题，当微软在驱动程序评估中心发现质量问题的驱动程序时，就可以触发从云端恢复的操作流程，这个流程会自动将 Windows 11 上的问题驱动程序替换为以前可用的版本。&lt;/p&gt;
-&lt;p&gt;对用户而言整个过程都是自动化的，不需要用户手动更新或卸载驱动程序，也不需要安装 OEM 提供的某些配套软件，整个过程通过 Windows 11 更新功能进行，用户被异常驱动程序影响的时间也会大幅度缩短。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;微软在博客中简单介绍这项新功能的工作原理，恢复过程首先是识别最新发布的驱动程序存在的质量问题，这部分识别可以通过遥测数据或收集用户反馈等，当然 OEM 也可以在收到用户反馈后联系微软进行通报。&lt;/p&gt;
-&lt;p&gt;确定需要执行驱动程序恢复时，微软会创建恢复请求为特定版本的驱动程序添加相关标签，随后通过云端下发指令到 Windows 11，系统更新会在定时检查更新时按照回滚指令卸载驱动程序、替换为此前没有异常的旧版驱动程序。&lt;/p&gt;
-&lt;p&gt;这里的前提是有驱动程序能够恢复，如果微软找不到已经经过批准的驱动程序，则无法执行恢复流程，这种情况下还是需要 OEM 开发新驱动程序并提交给微软，微软再将新驱动程序推送到 Windows 11.&lt;/p&gt;
-&lt;p&gt;微软计划在 2026 年 5 月～8 月期间针对云端驱动程序恢复功能进行测试，测试期间主要是验证对于手动选中的驱动程序是否能够正常恢复，最终到 2026 年 9 月开始逐步向所有设备开放。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://techcommunity.microsoft.com/blog/hardware-dev-center/introducing-cloud-initiated-driver-recovery-for-windows-update/4519075" rel="noopener" target="_blank"&gt;Microsoft&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 13 May 2026 06:30:36 +0000</pubDate></item><item><title>热门开源Wii U模拟器CEMU遭到黑客劫持 黑客针对非俄罗斯Linux用户投毒</title><link>https://www.landiannews.com/archives/112917.html</link><description>
-&lt;p&gt;#安全资讯 热门开源 Wii U 模拟器 CEMU 遭到黑客劫持，黑客针对非俄罗斯 Linux 用户投毒，如果检测到是以色列用户则会执行 rm -rf / 命令破坏系统。根据 CEMU 团队的调查，其成员运行被篡改的 Python 安装包是攻击源头，这个包窃取开发者的 GitHub API 凭证，随后修改项目发布页的 CEMU for Linux 版安装包，Windows 和 macOS 版并未被篡改。查看详情：https://ourl.co/112917&lt;/p&gt;&lt;p&gt;非常受欢迎的 Wii U 开源模拟器 CEMU 日前发布安全公告披露该模拟器遭到的黑客攻击事件，事件起源是团队开发者运行被黑客篡改的 Python 安装包，这个安装包里存在恶意代码并用来窃取开发者的 GitHub API 令牌，随后黑客通过令牌登录账户并发布带有后门程序的 CEMU 模拟器。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112917.png" rel="nofollow"&gt;&lt;img alt="热门开源Wii U模拟器CEMU遭到黑客劫持 黑客针对非俄罗斯Linux用户投毒" data-src="https://img.landian.news/landian/2026/05/112917.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112917.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;模拟器开发团队经过检查后发现黑客仅篡改 GitHub 发布页面的 CEMU for Linux 安装包，受影响的文件包括 Cemu-2.6-x86_64.AppImage 和 cemu-2.6-ubuntu-22.04-x64.zip，Windows 版和 macOS 版都没有被篡改，通过 Flatpak 安装的版本也不受影响。&lt;/p&gt;
-&lt;p&gt;此次攻击发生时间为 2026 年 5 月 6 日～5 月 12 日期间，在此期间如果用户通过 CEMU 官方 GitHub 发布页下载过以上两个文件并执行的话，系统就有可能遭到感染，建议这些用户立即进行排查。&lt;/p&gt;
-&lt;p&gt;黑客投放的后门程序也会在首次运行时检查系统环境并且不会直接激活恶意行为，这可能是黑客希望后门程序先潜伏起来等待后续机会，而如果后门程序检测到系统设置的是俄语则压根不会被激活，说明这有可能是亲俄罗斯的黑客投放的病毒。&lt;/p&gt;
-&lt;p&gt;值得注意的是，如果后门程序检测到用户位于以色列，那不仅会激活后门程序，还会播放警报声并尝试使用 rm -rf / 命令直接擦除整个文件系统，这会导致受感染的系统被破坏。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;目前对后门程序的研究表明，黑客主要还是通过后门程序监控用户并从环境中窃取各类密码和机密信息，除了针对以色列用户会执行高危擦除命令外，目前也没发现后门程序还会执行其他破坏性操作。&lt;/p&gt;
-&lt;p&gt;CEMU 团队建议受影响的用户最好彻底重装系统确保安全，用户可以检查自己的下载记录，看看是否在投毒期间下载过以上安装包，如果下载过那重装系统可能确实是最好的选择。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://rentry.org/cemu-security-psa" rel="noopener" target="_blank"&gt;CEMU&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 13 May 2026 06:15:14 +0000</pubDate></item></channel></rss>
+</description><pubDate>Thu, 14 May 2026 02:15:06 +0000</pubDate></item></channel></rss>
