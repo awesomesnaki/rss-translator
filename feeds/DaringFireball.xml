@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Fri, 15 May 2026 18:37:13 +0000</lastBuildDate><item><title>铝操作系统：谷歌为Googlebooks打造的“面向PC的Android”操作系统</title><link>https://aluminium-os.com/</link><description>&lt;p&gt;谷歌官方铝操作系统网站上的一句高调宣言（注意英式拼写）：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Fri, 15 May 2026 20:12:09 +0000</lastBuildDate><item><title>肆意破坏CBS的财产</title><link>https://www.youtube.com/watch?v=eBKWKu2Rqxc</link><description>&lt;p&gt;“晚安，祝你好运，狗娘养的。”&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/05/15/wanton-destruction-of-cbs-property" title="永久链接至‘CBS财产的肆意破坏’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Fri, 15 May 2026 20:12:09 +0000</pubDate></item><item><title>Dropover，一款巧妙利用鼠标抖动的Mac Shelf实用工具</title><link>https://dropoverapp.com/</link><description>&lt;p&gt;昨天，关于谷歌为其即将推出的Googlebook/铝制操作系统平台预告的“魔法光标”功能，&lt;a href="https://daringfireball.net/linked/2026/05/14/googlebooks"&gt;我写道&lt;/a&gt;：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;铝操作系统 — 内部代号ALOS — 是谷歌基于安卓系统全新打造的操作系统，专为笔记本电脑和台式电脑设计。&lt;/p&gt;
+&lt;p&gt;在某个对象上晃动光标是一种有趣的手势。据我所知，唯一使用这一手势的功能是macOS的让光标在晃动时变大的特性，以帮助你在屏幕上找到它。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;我喜欢这个名字，希望他们能坚持使用。但&lt;a href="https://www.theverge.com/tech/928479/google-googlebook-laptops-android-tease-aluminium-chromebook?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjNVSjlWdlZESmgiLCJwIjoiL3RlY2gvOTI4NDc5L2dvb2dsZS1nb29nbGVib29rLWxhcHRvcHMtYW5kcm9pZC10ZWFzZS1hbHVtaW5pdW0tY2hyb21lYm9vayIsImV4cCI6MTc3OTIxNjg2NiwiaWF0IjoxNzc4Nzg0ODY2fQ.a74WT34THV0Ih1pGO7NH4daq39ytQXdhO4EAgE6HCeI"&gt;The Verge本周报道&lt;/a&gt;称——关于谷歌的Googlebook预告——谷歌全球传播团队的Peter Du告诉他们：“我们将在今年晚些时候分享更多关于确切操作系统品牌的信息。可以确认不是铝操作系统——那是代号，不是官方品牌名称。”也许他们会称之为“谷歌操作系统”，因为设备被命名为Googlebook？&lt;/p&gt;
+&lt;p&gt;然后，昨晚，我在桌面上选中了几个文件，开始拖拽它们，并晃动鼠标光标，从&lt;a href="https://dropoverapp.com/"&gt;Dropover&lt;/a&gt;召唤出一个临时搁架——这是开发者Damir Tursunović开发的一款Mac工具，我已经用了大约两年。在我晃动鼠标的那一刻，我笑了，心想：“嗯，我该提一下这个。”所以我现在就提一下这个手势和Dropover。&lt;/p&gt;
+&lt;p&gt;多年前&lt;a href="https://daringfireball.net/linked/2017/05/26/yoink"&gt;我推荐过Yoink&lt;/a&gt;，它和Dropover是直接的竞争对手。这两个应用的基本理念是：有时你需要一个临时的“搁架”来放置拖拽中的项目——一个介于拖拽源和放置目标之间的中转站。&lt;a href="https://eternalstorms.at/yoink/mac/"&gt;Yoink&lt;/a&gt;提供了仅当拖拽到屏幕左边缘时才出现、或者一旦开始拖拽任何东西就立即出现的选项。我一直使用Yoink并配置为只在屏幕边缘显示，因为我只想在需要时才让它出现。每次拖拽都显示对我来说很分散注意力。但有时屏幕的左边缘感觉太远了。&lt;/p&gt;
+&lt;p&gt;Dropover 提供了两种仅在需要时让它出现在光标当前位置的选项。第一种是前文提到的拖拽中晃动光标的手势。另一种是在拖拽时按住修饰键才出现的选项。默认键是Shift，也是我在用的，但你可以在Shift、Command和Control之间选择。我刚开始用Dropover时，更倾向于按Shift来唤出它。随着时间的推移，我越来越经常不经思考地使用晃动光标的手势了。就像昨天那样。在拖拽中途晃动光标的感觉就像在说“&lt;em&gt;就在这里给我一个搁架&lt;/em&gt;”。这既巧妙又方便，而且与使用修饰键不同，它不需要你动用另一只手。（Dropover还允许你选择使用MacBook的刘海作为拖拽目标，而且这两个应用都允许你将项目拖放到菜单栏图标上。）&lt;/p&gt;&lt;p&gt;&lt;a href="https://dropoverapp.com/"&gt;Dropover&lt;/a&gt; 是一款免费应用，可从&lt;a href="https://apps.apple.com/us/app/dropover-easier-drag-drop/id1355679052?mt=12"&gt;Mac App Store&lt;/a&gt;下载，解锁全部功能仅需7美元（一次性购买）。&lt;a href="https://eternalstorms.at/yoink/mac/"&gt;Yoink&lt;/a&gt; 售价9美元，可从官网&lt;a href="https://apps.apple.com/us/app/yoink-better-drag-and-drop/id457622435?mt=12"&gt;或Mac App Store&lt;/a&gt;购买。这两款都是出色的应用，值得一试。如果你还没有使用这类工具，那么你应该考虑使用。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/05/15/dropover" title="永久链接至‘Dropover，一款巧妙利用鼠标抖动的Mac shelf工具’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Fri, 15 May 2026 19:24:10 +0000</pubDate></item><item><title>铝操作系统：谷歌为Googlebooks打造的“面向PC的Android”操作系统</title><link>https://aluminium-os.com/</link><description>&lt;p&gt;&lt;strong&gt;更新：&lt;/strong&gt; 我最初发布这篇文章时，以为aluminium-os.com是官方网站。其实不是。而它并非官方站点这一点，只在页面底部的小字中提及。我的错，为没有注意到这一点道歉。难怪我觉得那些描述在语言和谦逊程度上如此不像谷歌风格。这也解释了为什么Google称“Aluminium OS”只是代号，而该网站却以平台名为Aluminium OS为前提——两者存在矛盾。&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;这不是带有Play商店标签的ChromeOS。也不是一个安卓手机应用自行适配到15英寸屏幕。铝操作系统从头开始基于安卓17构建，拥有完全自定义的窗口管理器、真正的任务栏、虚拟桌面，以及贯穿操作系统每一层的Gemini AI。&lt;/p&gt;
-&lt;p&gt;十多年来，谷歌同时运行两套独立的系统——ChromeOS用于笔记本电脑，安卓用于手机——这已经暴露了问题。应用在不同设备上行为不同，工程团队分属两个代码库，谷歌明显落后于苹果统一的iPhone-iPad-Mac生态系统。铝操作系统是对这一切的决定性回应。&lt;/p&gt;
-&lt;p&gt;名字本身是经过深思熟虑的。ChromeOS源于Chromium——一种以“-ium”结尾的金属元素。铝操作系统遵循相同的模式，但英式拼写突出了前缀&lt;em&gt;Al&lt;/em&gt;，代表&lt;em&gt;Android-Linux&lt;/em&gt;：坦率地承认了这个平台的基础。&lt;/p&gt;
+&lt;p&gt;Aluminium OS（内部代号ALOS）是Google基于Android系统全新打造的操作系统，专为笔记本电脑和台式电脑设计。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;我觉得这段描述如此令人耳目一新，如此不像谷歌的风格。它人性化且谦逊。我喜欢这种直截了当的承认：苹果的iPhone-iPad-Mac &lt;a href="https://www.apple.com/macos/continuity/"&gt;连续性&lt;/a&gt;功能已经碾压了谷歌。（如果能看到苹果在Siri方面承认同样程度的被碾压，并明确指出是哪些平台碾压了它，那将非常有趣。但我不会屏息以待。）&lt;/p&gt;&lt;p&gt;从去年开始，我就隐约得知&lt;a href="https://www.androidauthority.com/google-combine-chrome-os-android-3577035/"&gt;谷歌宣布计划将ChromeOS与安卓“合并”&lt;/a&gt;。有两种方式：要么（a）在ChromeOS中运行安卓应用，并取消安卓作为手机以外设备类别的操作系统；要么（b）取消ChromeOS，将安卓打造成适用于平板和PC形态的系统。选项（a）对我来说毫无意义。所有操作系统都内置浏览器和网页渲染引擎，但网页渲染引擎并不能成为操作系统的良好基础。我从未认为ChromeOS是个好主意，而当我摆弄过Chromebook后，体验甚至比预期更糟。在这个铝迷你网站上，另一个令人欣慰的谦逊之处是承认ChromeOS在K-12之外的市场是失败的：&lt;/p&gt;
+&lt;p&gt;我喜欢这个名字，希望他们能沿用下去。但&lt;a href="https://www.theverge.com/tech/928479/google-googlebook-laptops-android-tease-aluminium-chromebook?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjNVSjlWdlZESmgiLCJwIjoiL3RlY2gvOTI4NDc5L2dvb2dsZS1nb29nbGVib29rLWxhcHRvcHMtYW5kcm9pZC10ZWFzZS1hbHVtaW5pdW0tY2hyb21lYm9vayIsImV4cCI6MTc3OTIxNjg2NiwiaWF0IjoxNzc4Nzg0ODY2fQ.a74WT34THV0Ih1pGO7NH4daq39ytQXdhO4EAgE6HCeI"&gt;The Verge本周报道&lt;/a&gt;称——关于Google的Googlebook预告——Google全球传播团队的Peter Du告诉他们：“我们将在今年晚些时候分享更多关于操作系统确切品牌标识的信息。我们可以确认它不是Aluminium——那是代号，不是官方品牌。”也许他们会称之为“Google OS”，因为他们把设备称为Googlebook？&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这不是带Play Store选项卡的ChromeOS。也不是将Android手机应用缩放至15英寸屏幕的操作。Aluminium OS完全基于Android 17构建，拥有完全自定义的窗口管理器、真正的任务栏、虚拟桌面，并且在操作系统的每一层都融入了Gemini AI。&lt;/p&gt;
+&lt;p&gt;十多年来，Google并行运行着两套独立的系统——ChromeOS用于笔记本电脑，Android用于手机——而问题显而易见。应用在不同设备上表现各异，工程团队被分割在两个代码库上，Google明显落后于Apple统一的iPhone-iPad-Mac生态系统。Aluminium OS是对这一切的决定性回应。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我觉得这段描述令人耳目一新，非常不“谷歌”。它人性化且谦逊。我喜欢它直白地承认Apple的iPhone-iPad-Mac&lt;a href="https://www.apple.com/macos/continuity/"&gt;连续性&lt;/a&gt;功能已经踢了Google的屁股。（如果能见到Apple以类似程度承认自己被踢了屁股，并明确指出是哪些平台在Siri方面踢了它的屁股，那将很精彩。不过我可不指望。）&lt;/p&gt;&lt;p&gt;从去年开始，我就隐约得知&lt;a href="https://www.androidauthority.com/google-combine-chrome-os-android-3577035/"&gt;谷歌宣布计划将ChromeOS与安卓“合并”&lt;/a&gt;。有两种方式：要么（a）在ChromeOS中运行安卓应用，并取消安卓作为手机以外设备类别的操作系统；要么（b）取消ChromeOS，将安卓打造成适用于平板和PC形态的系统。选项（a）对我来说毫无意义。所有操作系统都内置浏览器和网页渲染引擎，但网页渲染引擎并不能成为操作系统的良好基础。我从未认为ChromeOS是个好主意，而当我摆弄过Chromebook后，体验甚至比预期更糟。在这个铝迷你网站上，另一个令人欣慰的谦逊之处是承认ChromeOS在K-12之外的市场是失败的：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;ChromeOS占据了K-12教育市场，但从未大规模进入主流消费或企业市场。Aluminium OS是为所有细分市场打造的。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -29,22 +38,6 @@
 &lt;p&gt;我再次发现自己不禁疑惑，我们为什么要在这里浪费时间。那么，我们来聊聊八卦吧，这才是这场审判的真正意义所在。有多精彩？以下是我最喜欢的亮点。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;a href="https://daringfireball.net/linked/2026/05/14/musk-v-altman-closing-arguments" title="永久链接至“‘马斯克诉奥特曼’结案陈词”"&gt; ★ &lt;/a&gt;
-</description><pubDate>Fri, 15 May 2026 00:57:38 +0000</pubDate></item><item><title>让我们进行一个新词投票</title><link>https://mastodon.social/@gruber/116575825801893849</link><description>&lt;p&gt;发布&lt;a href="https://daringfireball.net/linked/2026/05/14/vestager-ai-safety-institute"&gt;上一条内容&lt;/a&gt;时，我提到了&lt;em&gt;dickpanels&lt;/em&gt;这个词——我从&lt;a href="https://daringfireball.net/linked/2022/08/02/banish"&gt;2022年&lt;/a&gt;开始就一直使用它——我突然想到它们也可以被称为&lt;em&gt;dickovers&lt;/em&gt;（就像popovers，但带点dickhead的味道）。后者听起来更巧妙，但我担心含义不够清晰。我很少如此犹豫不决，所以我在Mastodon上发起了一个投票。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/05/14/neologism-poll" title="指向‘让我们发起一个新词投票’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Fri, 15 May 2026 00:53:54 +0000</pubDate></item><item><title>青年人工智能安全研究所获得玛格丽特·维斯塔格的支持</title><link>https://www.euronews.com/next/2026/05/12/margrethe-vestager-backs-new-ai-safety-institute-for-children-after-decade-regulating-big-</link><description>&lt;p&gt;欧洲新闻台记者乌娜·哈伊达里报道：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;一家致力于让人工智能对儿童更安全的新独立研究所将于周二在丹麦议会正式[&lt;em&gt;原文如此&lt;/em&gt;]亮相，前欧盟委员会执行副主席玛格丽特·维斯塔格是该活动的联合主办方之一。&lt;/p&gt;
-&lt;p&gt;据该所在启动前发布的一份声明解释，其方法是“借鉴了汽车独立碰撞测试评级”。表面上看，这个想法是：就像消费者在购买汽车前可以检查其安全性一样，家长也应该能够为孩子使用的人工智能做同样的事。&lt;/p&gt;
-&lt;p&gt;至于聊天机器人的碰撞测试具体是什么样的，该研究所尚未说明。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;希望他们的人工智能碰撞测试最终能比维斯塔格监督的GDPR“cookie”倡议更有效——那个倡议导致了一大堆荒谬事，害得我不得不点开&lt;a href="https://daringfireball.net/misc/2026/05/euronews-dickpanel.jpeg"&gt;这个&lt;/a&gt;荒谬的全屏&lt;a href="https://daringfireball.net/linked/2022/08/02/banish"&gt;烦人弹窗&lt;/a&gt;才能读那篇文章。（我喜欢这个弹窗的标题是“我们重视您的隐私”，然后开头就写着：“经您同意，我们及我们的399个合作伙伴会使用cookie或类似技术来存储、访问和处理个人数据，例如您对本网站的访问、IP地址及cookie标识符。”如果欧洲新闻台不重视您的隐私，他们可能会找400个合作伙伴。）&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/05/14/vestager-ai-safety-institute" title="永久链接至‘青年人工智能安全研究所获得玛格丽特·维斯塔格支持’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Fri, 15 May 2026 00:03:13 +0000</pubDate></item><item><title>借助Mythos Preview，研究人员宣布了绕过M5内存完整性强制执行的macOS内核漏洞。</title><link>https://blog.calif.io/p/first-public-kernel-memory-corruption</link><description>&lt;p&gt;Calif，&lt;a href="https://calif.io/company"&gt;一个安全研究团队&lt;/a&gt;，在其博客中写道：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;许多安全专家认为苹果设备是最安全的消费平台。最新的旗舰示例是MIE（内存完整性强制执行），这是苹果基于ARM的MTE（内存标记扩展）构建的硬件辅助内存安全系统。它作为苹果M5和A19的标志性安全功能推出，专门设计用于阻止内存损坏漏洞，这是导致iOS和macOS上许多最复杂攻击的漏洞类别。[...]&lt;/p&gt;
-&lt;p&gt;我们的macOS攻击路径实际上是一次偶然的发现。Bruce Dang于4月25日发现了这些漏洞。Dion Blazakis于4月27日加入Calif。Josh Maine构建了工具，到5月1日，我们有了一个可用的漏洞利用程序。&lt;/p&gt;
-&lt;p&gt;我们并非独自构建了整个攻击链。Mythos Preview帮助识别了漏洞，并协助了整个漏洞利用开发过程。[...] 据我们所知，这是在MIE硬件上首次公开的macOS内核漏洞利用。再次强调，我们将在苹果发布修复程序后公开我们的55页报告。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;《华尔街日报》&lt;a href="https://blog.calif.io/p/first-public-kernel-memory-corruption"&gt;刊登了一篇报道&lt;/a&gt;关于Calif今天发布的公告，文章充满了夸张之词，技术细节却极为匮乏。毫不意外，该团队自己的博客文章信息量更大，也更有趣。这里的成就是绕过了MIE。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/05/14/m5-mie-exploit" title="永久链接至“借助Mythos Preview，研究人员宣布绕过M5内存完整性强制的macOS内核漏洞利用”"&gt; ★ &lt;/a&gt;
-</description><pubDate>Thu, 14 May 2026 23:44:20 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 15 May 2026 00:57:38 +0000</pubDate></item><item><title>让我们进行一个新词投票</title><link>https://mastodon.social/@gruber/116575825801893849</link><description>&lt;p&gt;在发布引用自2022年以来一直使用的术语&lt;em&gt;dickpanels&lt;/em&gt;的&lt;a href="https://daringfireball.net/linked/2026/05/14/vestager-ai-safety-institute"&gt;上一篇条目&lt;/a&gt;后，我突然想到它们也可以被称为&lt;em&gt;dickovers&lt;/em&gt;（就像popovers，但更蠢）。后者听起来更巧妙，但我担心它不够清晰。我很少如此优柔寡断，所以我在Mastodon上发起了一个投票。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/05/14/neologism-poll" title="Permanent link to ‘Let’s Run a Neologism Poll’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Fri, 15 May 2026 00:53:54 +0000</pubDate></item></channel></rss>
