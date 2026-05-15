@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Fri, 15 May 2026 00:57:38 +0000</lastBuildDate><item><title>马斯克诉奥特曼</title><link>https://www.theverge.com/ai-artificial-intelligence/931006/musk-v-altman-closing-arguments-analysis?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6ImhxZzBnTXFpSk8iLCJwIjoiL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzkzMTAwNi9tdXNrLXYtYWx0bWFuLWNsb3NpbmctYXJndW1lbnRzLWFuYWx5c2lzIiwiZXhwIjoxNzc5MjM2OTUwLCJpYXQiOjE3Nzg4MDQ5NTB9.TXQtcV9vkuuKyqcrMaKtSqqoL9_wGWeSYgUyO6ZzK-Y</link><description>&lt;p&gt;伊丽莎白·洛帕特为The Verge报道（赠阅链接）：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Fri, 15 May 2026 18:37:13 +0000</lastBuildDate><item><title>铝操作系统：谷歌为Googlebooks打造的“面向PC的Android”操作系统</title><link>https://aluminium-os.com/</link><description>&lt;p&gt;谷歌官方铝操作系统网站上的一句高调宣言（注意英式拼写）：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;铝操作系统 — 内部代号ALOS — 是谷歌基于安卓系统全新打造的操作系统，专为笔记本电脑和台式电脑设计。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我喜欢这个名字，希望他们能坚持使用。但&lt;a href="https://www.theverge.com/tech/928479/google-googlebook-laptops-android-tease-aluminium-chromebook?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjNVSjlWdlZESmgiLCJwIjoiL3RlY2gvOTI4NDc5L2dvb2dsZS1nb29nbGVib29rLWxhcHRvcHMtYW5kcm9pZC10ZWFzZS1hbHVtaW5pdW0tY2hyb21lYm9vayIsImV4cCI6MTc3OTIxNjg2NiwiaWF0IjoxNzc4Nzg0ODY2fQ.a74WT34THV0Ih1pGO7NH4daq39ytQXdhO4EAgE6HCeI"&gt;The Verge本周报道&lt;/a&gt;称——关于谷歌的Googlebook预告——谷歌全球传播团队的Peter Du告诉他们：“我们将在今年晚些时候分享更多关于确切操作系统品牌的信息。可以确认不是铝操作系统——那是代号，不是官方品牌名称。”也许他们会称之为“谷歌操作系统”，因为设备被命名为Googlebook？&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这不是带有Play商店标签的ChromeOS。也不是一个安卓手机应用自行适配到15英寸屏幕。铝操作系统从头开始基于安卓17构建，拥有完全自定义的窗口管理器、真正的任务栏、虚拟桌面，以及贯穿操作系统每一层的Gemini AI。&lt;/p&gt;
+&lt;p&gt;十多年来，谷歌同时运行两套独立的系统——ChromeOS用于笔记本电脑，安卓用于手机——这已经暴露了问题。应用在不同设备上行为不同，工程团队分属两个代码库，谷歌明显落后于苹果统一的iPhone-iPad-Mac生态系统。铝操作系统是对这一切的决定性回应。&lt;/p&gt;
+&lt;p&gt;名字本身是经过深思熟虑的。ChromeOS源于Chromium——一种以“-ium”结尾的金属元素。铝操作系统遵循相同的模式，但英式拼写突出了前缀&lt;em&gt;Al&lt;/em&gt;，代表&lt;em&gt;Android-Linux&lt;/em&gt;：坦率地承认了这个平台的基础。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我觉得这段描述如此令人耳目一新，如此不像谷歌的风格。它人性化且谦逊。我喜欢这种直截了当的承认：苹果的iPhone-iPad-Mac &lt;a href="https://www.apple.com/macos/continuity/"&gt;连续性&lt;/a&gt;功能已经碾压了谷歌。（如果能看到苹果在Siri方面承认同样程度的被碾压，并明确指出是哪些平台碾压了它，那将非常有趣。但我不会屏息以待。）&lt;/p&gt;&lt;p&gt;从去年开始，我就隐约得知&lt;a href="https://www.androidauthority.com/google-combine-chrome-os-android-3577035/"&gt;谷歌宣布计划将ChromeOS与安卓“合并”&lt;/a&gt;。有两种方式：要么（a）在ChromeOS中运行安卓应用，并取消安卓作为手机以外设备类别的操作系统；要么（b）取消ChromeOS，将安卓打造成适用于平板和PC形态的系统。选项（a）对我来说毫无意义。所有操作系统都内置浏览器和网页渲染引擎，但网页渲染引擎并不能成为操作系统的良好基础。我从未认为ChromeOS是个好主意，而当我摆弄过Chromebook后，体验甚至比预期更糟。在这个铝迷你网站上，另一个令人欣慰的谦逊之处是承认ChromeOS在K-12之外的市场是失败的：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ChromeOS占据了K-12教育市场，但从未大规模进入主流消费或企业市场。Aluminium OS是为所有细分市场打造的。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;阅读这个网站的其余内容后，我对Aluminium OS的兴趣远超预期：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;设备端代码辅助&lt;/strong&gt;&lt;br/&gt;
+直接在终端中编写、调试、解释和重构代码——无需额外的付费扩展，也无需为基本功能订阅云服务。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;自然语言自动化&lt;/strong&gt;&lt;br/&gt;
+用简单的英语描述任何重复性任务，Gemini就会将其永久自动化，保存为一个单命令工作流程。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;他们说Aluminium OS旨在作为开发者工作站。结果如何，我们拭目以待，但这是ChromeOS从未追求过的雄心壮志，更别提实现了。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/05/15/aluminiumos" title="‘Aluminium OS: Google’s ‘Android for PC’ OS for Googlebooks’的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Fri, 15 May 2026 18:37:13 +0000</pubDate></item><item><title>马斯克诉奥特曼</title><link>https://www.theverge.com/ai-artificial-intelligence/931006/musk-v-altman-closing-arguments-analysis?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6ImhxZzBnTXFpSk8iLCJwIjoiL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzkzMTAwNi9tdXNrLXYtYWx0bWFuLWNsb3NpbmctYXJndW1lbnRzLWFuYWx5c2lzIiwiZXhwIjoxNzc5MjM2OTUwLCJpYXQiOjE3Nzg4MDQ5NTB9.TXQtcV9vkuuKyqcrMaKtSqqoL9_wGWeSYgUyO6ZzK-Y</link><description>&lt;p&gt;伊丽莎白·洛帕特为The Verge报道（赠阅链接）：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;今天是《马斯克诉奥特曼》案结案陈词，我几乎不忍心写下刚刚目睹的那场难以置信的撞车大赛。马斯克的律师史蒂文·莫罗语无伦次。他一度把共同被告格雷格·布罗克曼叫成格雷格·奥特曼。他还错误地声称马斯克不要求赔偿，不得不被法官纠正。他明确表示，过去几周我们听到了许多谎言，但几乎没有为马斯克实际的法律主张提供任何证据。&lt;/p&gt;
 &lt;p&gt;OpenAI的律师莎拉·埃迪通过简单地按时间顺序整理公司提交的大量证据进行了反驳。她没有花时间假装本案中的任何一方特别可靠。不过，她确实说出了当天最犀利的话，针对马斯克：“就连他孩子的母亲都不支持他的说法。”在她之后接手辩护的威廉·萨维特列举了马斯克多次“不记得”某些关键细节的情况，并质疑一个精明的商人怎么会看不懂或读不懂OpenAI寄给他的四页条款清单。&lt;/p&gt;
@@ -24,20 +47,4 @@
 &lt;/blockquote&gt;
 &lt;p&gt;《华尔街日报》&lt;a href="https://blog.calif.io/p/first-public-kernel-memory-corruption"&gt;刊登了一篇报道&lt;/a&gt;关于Calif今天发布的公告，文章充满了夸张之词，技术细节却极为匮乏。毫不意外，该团队自己的博客文章信息量更大，也更有趣。这里的成就是绕过了MIE。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/05/14/m5-mie-exploit" title="永久链接至“借助Mythos Preview，研究人员宣布绕过M5内存完整性强制的macOS内核漏洞利用”"&gt; ★ &lt;/a&gt;
-</description><pubDate>Thu, 14 May 2026 23:44:20 +0000</pubDate></item><item><title>《连线》报道Meta内部的黑暗情绪</title><link>https://www.wired.com/story/meta-layoffs-bad-vibes-mark-zuckerberg-ai/</link><description>&lt;p&gt;帕雷什·戴夫、劳伦·古德、史蒂文·利维和佐伊·希弗为《连线》杂志撰稿（&lt;a href="https://apple.news/AxiZwPkcEQ8uHIg9tXw5rCQ"&gt;News+ 链接&lt;/a&gt;）：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;随着 Meta 员工为下周三（5 月 20 日）的裁员做准备，许多人表示，公司的&lt;a href="https://www.wired.com/story/inside-facebook-mark-zuckerberg-2-years-of-hell/"&gt;氛围&lt;/a&gt;已经跌至历史性的低谷。“每个人都不开心；唯一不开心的，真的，就是高管们，”一位在 Instagram 工作的员工说道。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;我从没听说过一家公司在准备裁员时士气还能高涨。但《连线》的这篇报道——由几位全明星作者署名——描绘了门洛帕克尤为阴暗的情绪画面：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“我没听说有谁过得开心，”一位政策员工说。“氛围有点‘受够了’——与使命脱节、即将到来的裁员、美国员工被用来训练将取代他们的 AI 模型。”&lt;/p&gt;
-&lt;p&gt;几位员工表示，任何能负担得起离开的人，都希望自己被裁，从而获得至少 16 周的遣散费和 18 个月的带薪医疗保险。正如 Instagram 员工所说：“每个人都只想说，赶紧动手吧，他妈的。”只有那些薪酬最高、参与核心 AI 开发的人似乎还在蓬勃发展，Meta 一位资深高管表示。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;关于新的员工监控追踪软件：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;据三位员工称，无法选择退出。“没有人对此感到高兴，”一位现任员工说。“我们别无选择。”一些员工声称他们找到了规避追踪的变通方法，或者设法推迟了安装。&lt;/p&gt;
-&lt;p&gt;这款名为“模型能力倡议”（MCI）的软件，突然让全公司的员工变成了隐私狂热分子，一位法务员工说。当员工在内部消息中抗议该软件部署，包括提及 Meta 用户数据泄露的历史时，首席技术官安德鲁·博斯沃思“轻视并训斥”了反对者，一位资深员工说，另一位员工证实了这一点。“这些亿万富翁连假装同情都做不到，”第一位员工说。“社会契约此刻已完全破碎。”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;仍未得到解答的是&lt;a href="https://daringfireball.net/linked/2026/05/10/meta-employee-spyware"&gt;我本周早些时候提出的问题&lt;/a&gt;：MCI 是否也安装在博斯沃思的电脑上？（以及扎克的？）&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/05/14/wired-on-meta-morale" title="永久链接：‘连线报道Meta内部的阴暗情绪’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Thu, 14 May 2026 22:53:10 +0000</pubDate></item></channel></rss>
+</description><pubDate>Thu, 14 May 2026 23:44:20 +0000</pubDate></item></channel></rss>
