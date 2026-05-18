@@ -1,59 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Fri, 15 May 2026 03:21:47 +0000</lastBuildDate><item><title>速报！GitHub错误率正在快速增加 不过目前状态页还未显示原因</title><link>https://www.landiannews.com/archives/112976.html</link><description>
-&lt;p&gt;#速报 GitHub 错误率正在快速增加，大量用户反馈 GitHub 无法正常打开，但 GitHub 官方状态页目前还显示一切正常。需要说明的是并非所有用户访问都会出现错误，不过从 Downdetector 正在增长的反馈来看，此次故障范围可能还在扩大。查看详情：https://ourl.co/112976&lt;/p&gt;&lt;p&gt;据多名开发者分享的反馈信息，代码托管平台 GitHub 多项服务的错误率正在快速增加，例如部分用户访问 GitHub 首页时都会看到错误，其他相关服务也有错误率增加的情况，但目前并非所有用户访问都会出现错误。&lt;/p&gt;
-&lt;p&gt;GitHub 官方状态页目前尚未显示任何故障信息，状态页显示所有系统包括 Git 操作、API 请求、PR、Issue 等全部正常，不过 Downdetector 上提交的错误反馈也在快速增长，这说明此次故障范围可能正在扩大。&lt;/p&gt;
-&lt;p&gt;另外近期 GitHub 稳定性持续下降，经常出现各类访问问题影响到开发者的使用体验，甚至还有知名项目的开发者单纯因为 GitHub 稳定性太差而迁移到其他平台，毕竟 GitHub 频繁故障确实会给开发者造成负面影响。&lt;/p&gt;
-&lt;p&gt;GitHub 状态页：&lt;a href="https://www.githubstatus.com/" rel="noopener" target="_blank"&gt;https://www.githubstatus.com/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112976-1.png" rel="nofollow"&gt;&lt;img alt="速报！GitHub错误率正在快速增加 不过目前状态页还未显示原因" data-src="https://img.landian.news/landian/2026/05/112976-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112976-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112976-2.png" rel="nofollow"&gt;&lt;img alt="速报！GitHub错误率正在快速增加 不过目前状态页还未显示原因" data-src="https://img.landian.news/landian/2026/05/112976-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112976-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 15 May 2026 03:21:47 +0000</pubDate></item><item><title>OpenAI受TanStack供应链攻击影响被窃取数据 基于安全考虑OpenAI再次轮换证书</title><link>https://www.landiannews.com/archives/112975.html</link><description>
-&lt;p&gt;#安全资讯 OpenAI 受 TanStack 供应链攻击影响，两名员工设备被感染并泄露部分数据，OpenAI 决定再次轮换代码签名证书。ChatGPT、Codex、Atlas 浏览器的 macOS 版用户都需要下载新版本，旧版本代码签名证书将被吊销，到时候用户将无法在 macOS 上安装。查看详情：https://ourl.co/112975&lt;/p&gt;&lt;p&gt;近期黑客针对 NPM 生态系统发起多次供应链攻击，而 OpenAI 已经连续两次成为供应链攻击的受害者，据该公司发布的安全公告，其员工受到 TanStack 供应链攻击事件影响，黑客可能已经窃取 OpenAI 的代码签名证书。&lt;/p&gt;
-&lt;p&gt;基于安全考虑 OpenAI 宣布将轮换代码签名证书，防止黑客通过窃取的代码签名证书发布携带后门的 ChatGPT 或其他应用程序，对用户而言需要做的事情就是立即将 ChatGPT、Codex、Atlas 浏览器等升级到最新版。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/02/111836.png" rel="nofollow"&gt;&lt;img alt="OpenAI受TanStack供应链攻击影响被窃取数据 基于安全考虑OpenAI再次轮换证书" data-src="https://img.lancdn.com/landian/2026/02/111836.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/02/111836.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;针对 TanStack 供应链攻击事件，OpenAI 进行调查后确认两名员工设备受到影响，也就是安装被黑客投毒的 NPM 包，恶意活动被发现后 OpenAI 迅速展开调查并采取措施保护系统。&lt;/p&gt;
-&lt;p&gt;这两名被感染的员工有权访问 OpenAI 内部部分源代码库，OpenAI 确认只有少量凭证信息被黑客从源代码库中窃取，其他信息或代码未受影响，所有用户的数据也都是安全的，没有出现任何泄露。&lt;/p&gt;
-&lt;p&gt;受影响的数据包括 iOS、macOS 和 Windows 的代码签名证书，作为预防措施，OpenAI 决定再次轮换代码签名证书，这需要 macOS 用户更新客户端程序，Windows 和 iOS 用户不需要执行任何操作。&lt;/p&gt;
-&lt;p&gt;根据安排，OpenAI 将在 2026 年 6 月 12 日完全撤销这些被窃取的代码签名证书，到时候 macOS 的安全保护系统将阻止使用被吊销的代码签名证书发布的 OpenAI for macOS 系列软件。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 18 May 2026 02:44:29 +0000</lastBuildDate><item><title>X/Twitter限制账号每日最多发布50篇推文和200条回复 开通订阅后可以获得更高上限</title><link>https://www.landiannews.com/archives/112969.html</link><description>
+&lt;p&gt;#网站应用 X/Twitter 限制账号每日最多发布 50 个主内容和 200 条回复，可能是用于打击 AI 操作的账号疯狂发布垃圾内容，开通 X Premium 付费订阅后可以解锁更高的限制。X 没有明确说明开通订阅后是否有限制，但不开通订阅的话发布 50 个帖子已经是极限，这样可以减少垃圾账号发布的内容刷屏。查看详情：https://ourl.co/112969&lt;/p&gt;&lt;p&gt;近期社交媒体平台 X/Twitter 上活跃的机器人账号数量显著增加，这里的机器人账号不只是用来刷广告的垃圾账号，还有大量通过 AI 操作自动刷评论的账号，这些账号回复的内容通常与主推文有关，但具体内容都是无意义的废话，很容易看出来是 AI 生成的。&lt;/p&gt;
+&lt;p&gt;此类由 AI 操纵的账号可能每分钟就可以在热门推文下刷 1 条回复，如果平台不加以限制的话，可能后续大量帖子底部都是 AI 生成的评论，所以现在 X/Twitter 实施新的速率限制，阻止垃圾账号利用 AI 操纵账号发布推文和回复。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/public/thumb/X.png" rel="nofollow"&gt;&lt;img alt="X/Twitter限制账号每日最多发布50篇推文和200条回复 开通订阅后可以获得更高上限" data-src="https://img.landian.news/landian/public/thumb/X.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/public/thumb/X.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;将被拦截的版本：ChatGPT 桌面版 1.2026.125 及更旧的版本&lt;/li&gt;
-&lt;li&gt;将被拦截的版本：Codex 桌面版 26.506.31421 及更旧的版本&lt;/li&gt;
-&lt;li&gt;将被拦截的版本：Codex CLI 版 0.130.0 及更旧的版本&lt;/li&gt;
-&lt;li&gt;将被拦截的版本：Atlas 浏览器 1.2026.119.1 及更旧的版本&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;via &lt;a href="https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack/" rel="noopener" target="_blank"&gt;OpenAI&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 15 May 2026 03:10:53 +0000</pubDate></item><item><title>Codex终于支持移动端 开发者可在ChatGPT中控制Codex for macOS执行任务或审批</title><link>https://www.landiannews.com/archives/112931.html</link><description>
-&lt;p&gt;# 人工智能 哦豁！Codex 移动端终于到来，开发者可以在 ChatGPT for iOS/Android 中连接远程 Codex for macOS 并下发命令、实时查看进度、批准权限等。该功能可以让开发者在 Codex 执行长任务时不必盯着屏幕，开发者可以通过手机端快速查看进展。目前此功能已经向 ChatGPT 所有订阅层级包括免费版开放查看详情：https://ourl.co/112931&lt;/p&gt;&lt;p&gt;这段时间使用 Codex 的开发者应该都在期望该应用能够在移动端使用，毕竟有些任务长时间运行在桌面客户端上，但我们并不总是需要盯着屏幕，所以如果可以通过移动端查看进度、审阅代码、批准命令执行那就会方便很多。&lt;/p&gt;
-&lt;p&gt;基于开发者的呼吁，现在 OpenAI 已经将 Codex 集成到 ChatGPT 应用中，开发者可以通过移动端的 Codex 了解 Codex for macOS 正在执行的任务，当然开发者也可以通过 Codex 移动端下发指令由桌面客户端执行操作。&lt;/p&gt;
-&lt;p&gt;现在移动端的 Codex 提供功能齐全的远程控制体验，无论连接到笔记本电脑、专用的 Mac Mini 还是托管的远程环境，Codex 移动端都可以实时加载该环境的状态，同时支持切换连接不同的开发环境，因此即便开发者在多个不同的终端上运行 Codex 执行任务也可以分别进行控制。&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;注：Windows 版 Codex 稍后也将支持此功能。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112931-1A.png" rel="nofollow"&gt;&lt;img alt="Codex终于支持移动端 开发者可在ChatGPT中控制Codex for macOS执行任务或审批" data-src="https://img.landian.news/landian/2026/05/112931-1A.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112931-1A.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112931-2.png" rel="nofollow"&gt;&lt;img alt="Codex终于支持移动端 开发者可在ChatGPT中控制Codex for macOS执行任务或审批" data-src="https://img.landian.news/landian/2026/05/112931-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112931-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112931-3.png" rel="nofollow"&gt;&lt;img alt="Codex终于支持移动端 开发者可在ChatGPT中控制Codex for macOS执行任务或审批" data-src="https://img.landian.news/landian/2026/05/112931-3.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112931-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;在 Codex 移动端查看活动线程、审批、安装插件或查看项目上下文&lt;/li&gt;
-&lt;li&gt;在 Codex 移动端切换不同的设备，查看各个开发环境上的进展&lt;/li&gt;
-&lt;li&gt;文件、凭据、权限和本地设置均只保留在远程客户端上&lt;/li&gt;
-&lt;li&gt;更新内容例如屏幕截图、终端输出、差异、测试结果、批准信息会被实时传输到移动端&lt;/li&gt;
+&lt;li&gt;未开通订阅的账号：每日最多可以发布 50 篇原创内容&lt;/li&gt;
+&lt;li&gt;未开通订阅的账号：每日最多可以发布 200 条回复，且配额具体细分到每半小时中，即不能半小时直接发布 200 条&lt;/li&gt;
+&lt;li&gt;所有账号：每日发送的私信上限为 500 条&lt;/li&gt;
+&lt;li&gt;所有账号：每日关注的账号上限为 400 人，但还有其他风控措施可能会在连续关注时触发锁定&lt;/li&gt;
+&lt;li&gt;所有账号：当账号关注的其他用户达到 5,000 个以后，额外的关注尝试都会触发账户特定比例的限制&lt;/li&gt;
+&lt;li&gt;所有账号：当 X/Twitter 处在访问高峰期时，以上所有配额限制可能会被临时缩减&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;技术上 Codex 底层采用加密的安全中继层，这可以让开发者在相同账户下连接所有已经登录的终端，而所有终端也不会直接暴露在互联网上以减少攻击面，中继层还可以让用户在任何使用 ChatGPT 登录的地方 (例如网页版) 保持会话状态和上下文同步等。&lt;/p&gt;
-&lt;p&gt;目前 Codex 移动端已经在 ChatGPT for iOS 和 Android 版中上线，该功能支持所有订阅层级的用户，包括 ChatGPT Free 和 ChatGPT Go 版，使用 Codex 的开发者们可以立即更新 ChatGPT 以体验这个新功能。&lt;/p&gt;
-</description><pubDate>Fri, 15 May 2026 02:44:25 +0000</pubDate></item><item><title>真要买不起手机了！高通即将推出的骁龙 8 Elite Gen 6 Pro售价可能超过300美元</title><link>https://www.landiannews.com/archives/112930.html</link><description>
-&lt;p&gt;#硬件设备 爆料者称高通即将推出的骁龙 8 Elite Gen 6 Pro 旗舰级芯片采购价可能超过 300 美元，这意味着今年的旗舰级安卓设备售价将会非常夸张。即除了内存芯片价格奇高外，存储芯片价格同样上涨 + 处理器价格上涨，对 OEM 来说除了涨价外几乎没有办法应对当前的局面。查看详情：https://ourl.co/112930&lt;/p&gt;&lt;p&gt;人工智能行业的发展不仅导致内存价格飙涨，人工智能加速卡也需要庞大的芯片产能，因此其他行业想要获得先进制程可能需要支付更高的价格，最终像是高通旗舰智能手机芯片的代工成本也在飙涨。&lt;/p&gt;
-&lt;p&gt;据爆料者 YADAV 发布的消息，高通即将推出新的旗舰级芯片高通骁龙 8 Elite Gen 6 Pro，这款芯片预计将带来更大的性能提升、更强的图形处理能力以及对 LPDDR6 内存的支持，然而坏消息是这颗处理器的采购成本可能要超过 300 美元。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112930A.png" rel="nofollow"&gt;&lt;img alt="真要买不起手机了！高通即将推出的骁龙 8 Elite Gen 6 Pro售价可能超过300美元" data-src="https://img.landian.news/landian/2026/05/112930A.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112930A.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;300 美元已经相当于很多入门级安卓设备的售价，因此哪怕是仅在旗舰级设备上使用 Gen 6 Pro 芯片，最终设备的售价也是非常让人震惊的，因为旗舰级设备还需要搭配更大的内存，内存价格更加疯狂。&lt;/p&gt;
-&lt;p&gt;YADAV 估计 2022 年骁龙 8 Gen 1 和骁龙 8+ Gen 1 的 OEM 采购价为 120~130 美元，到骁龙 8 Gen 2 时采购价已经上涨到 160 美元，而骁龙 8 Gen 3 价格在 170~200 美元左右，随后就是售价超过 220 美元的骁龙 8 Elite，紧接着是售价在 240~280 美元之间的骁龙 8 Elite Gen 5，而现在即将推出的骁龙 8 Elite Gen 6 Pro 采购价预计会超过 300 美元。&lt;/p&gt;
-&lt;p&gt;当然高通也会准备非 Pro 型号也就是高通骁龙 8 Elite Gen 6，非 Pro 型号的价格可能要稍微便宜些，但参考骁龙 8 Elite Gen 5 240~280 美元的售价，骁龙 8 Elite Gen 6 非 Pro 型号估计售价也不会便宜。&lt;/p&gt;
-&lt;p&gt;OEM 还需要考虑整体硬件成本的上涨，在内存之外存储芯片价格也同样上涨，也就是各个核心组件上涨的情况下，最终设备销售价可能会大幅度上涨，因此今年的高端安卓机型价格可能都会非常夸张。&lt;/p&gt;
-</description><pubDate>Thu, 14 May 2026 08:37:52 +0000</pubDate></item><item><title>安卓桌面版预计将带来x86架构的支持 谷歌确认也将支持英特尔处理器</title><link>https://www.landiannews.com/archives/112929.html</link><description>
-&lt;p&gt;#系统资讯 安卓桌面版预计将带来 x86 架构的支持，谷歌确认 Googlebook 系列产品将搭载高通、联发科和英特尔处理器。安卓系统从未官方支持过 x86 系统，而谷歌正在开发的铝系统底层使用安卓 + ChromeOS，可以在桌面平台直接运行安卓应用，而支持英特尔处理器也意味着铝系统将会提供 x86 支持。查看详情：https://ourl.co/112929&lt;/p&gt;&lt;p&gt;本周谷歌已经向外界透露该公司和 OEM 正在合作开发的 Googlebook 笔记本电脑系列产品，该系列产品将搭载使用安卓底层堆栈的铝系统 (AluminumOS，仅为代号)，可以直接在桌面平台运行安卓应用程序，当然整个系统还深度集成 Gemini AI 服务帮助用户执行各类操作。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112929A.png" rel="nofollow"&gt;&lt;img alt="安卓桌面版预计将带来x86架构的支持 谷歌确认也将支持英特尔处理器" data-src="https://img.landian.news/landian/2026/05/112929A.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112929A.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;正常来说 Googlebook 应该主要使用的是高通或联发科的 ARM 处理器，因为安卓系统目前并不支持其他架构 (RISC-V 在支持范围内)，但现在谷歌确认英特尔公司也将参与 Googlebook 项目中，这意味着谷歌可能会带来 x86 架构的支持。&lt;/p&gt;
-&lt;p&gt;长期以来谷歌都没有为安卓系统带来 x86 架构的支持，以至于想要在 x86 处理器上安装安卓虚拟机时用户还需要使用社区成员开发的兼容版 (但已经很久没有更新)，当然还有个办法就是学微软通过兼容层进行转换，让 WSA 可以在 x86 设备上运行。&lt;/p&gt;
-&lt;p&gt;谷歌副总裁在接受采访时确认即将推出的 Googlebook 将搭载高通、联发科和英特尔的处理器，英特尔目前没有被传出要打造 ARM 处理器的消息，所以谷歌应该也在铝系统里提供 x86 架构的支持，但铝系统不完全等于安卓系统，所以安卓可能还是会继续维持 ARM 和 RISC-V 架构的样子。&lt;/p&gt;
-&lt;p&gt;英特尔也在官方社交媒体账号上确认将与谷歌合作开发 Googlebook，只不过英特尔给出的链接跳转到谷歌，所以英特尔暂时也没有就 Googlebook 项目或 x86 处理器方面提供更多消息。&lt;/p&gt;
-</description><pubDate>Thu, 14 May 2026 08:18:24 +0000</pubDate></item></channel></rss>
+&lt;p&gt;X/Twitter 将设置配额限制归因于减轻后台服务器的运行压力、降低服务器宕机和发生错误的概率，至少该平台没有明面上表示这是打击垃圾账号，但从限制来看，X/Twitter 鼓励活跃用户开通 X Premium 付费订阅来解锁更高的限制，例如开通付费订阅后不会再被限制为每天只能发布 50 个原创内容或 200 条回复。&lt;/p&gt;
+&lt;p&gt;X/Twitter 还特别强调以上配额限制同时涵盖所有设备的操作，包括网页版、移动端、API 等，所有第三方应用程序的 API 调用请求也会被计入每小时的 API 请求限制，因此如果用户使用多个第三方应用程序则可能会更快达到 API 请求限制。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://help.x.com/en/rules-and-policies/x-limits" rel="noopener" target="_blank"&gt;X Limit&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 18 May 2026 02:44:29 +0000</pubDate></item><item><title>微软宣布Microsoft Edge不再将密码以明文形式加载到内存中 但仍然不认为这是漏洞</title><link>https://www.landiannews.com/archives/112972.html</link><description>
+&lt;p&gt;#安全资讯 被研究人员曝光后微软决定改进 Microsoft Edge 浏览器，不会在启动时将已经保存的所有密码以明文形式加载到内存中。微软忽略这份漏洞报告的根源在于，微软认为恶意软件已经可以控制设备的情况下 (获得管理员权限)，浏览器的安全防御策略已经失效，所以本身通过内存读取数据就不在微软的考虑范围内。查看详情：https://ourl.co/112972&lt;/p&gt;&lt;p&gt;此前安全研究人员 Tom Jøran Sønstebyseter Rønning 公开披露微软的 Microsoft Edge 浏览器会在启动时&lt;a href="https://www.landiannews.com/archives/112842.html" rel="noopener" target="_blank"&gt;将所有已经保存的账户密码以明文形式直接加载到内存进程中&lt;/a&gt;，研究人员直接公开这个问题是因为微软不认为这是漏洞，因此也没有计划向安全研究人员提供漏洞奖励。&lt;/p&gt;
+&lt;p&gt;这件事其实并不让人意外，因为谷歌以前也犯过类似的错误，谷歌和微软都认为在攻击者已经能够控制设备的情况下，其他安全防御措施已经失效，所以像是通过恶意软件读取内存中保存的账号密码本身就不在安全模型考虑范围内。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/112842.png" rel="nofollow"&gt;&lt;img alt="微软宣布Microsoft Edge不再将密码以明文形式加载到内存中 但仍然不认为这是漏洞" data-src="https://img.lancdn.com/landian/2026/05/112842.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/112842.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;微软团队在博客中表示，根据研究人员披露的问题将对 Microsoft Edge 浏览器进行改进，改进后不会在启动时将密码加载到内存中，这项深度防御措施将覆盖所有版本 (包括所有频道的测试版、正式版以及适用于企业的扩展稳定版)。&lt;/p&gt;
+&lt;p&gt;目前这项改进还被微软作为优先事项进行推进，所以在已经发布的 Microsoft Edge 金丝雀版中，浏览器启动后不会再将密码加载到内存中，到 Microsoft Edge v148.0 正式版发布后，用户正常安装此更新即可获得改进后的安全防御措施。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;谷歌和微软的核心考虑都是设备本身的安全性才是最重要的，在本次案例中研究人员披露的问题需要通过软件获得管理员权限并在本地运行读取内存中的数据，这种利用方式有不同的利用场景：1. 恶意软件已经可以获得管理员权限运行；2. 在共享使用的设备上管理员账户可以读取其他非账户的数据。&lt;/p&gt;
+&lt;p&gt;微软称研究人员报告的场景前提都是攻击者能够控制设备，而攻击者能够在本地运行不安全的软件的情况下，浏览器或任何应用程序的防御能力都无法应对，微软的密码管理器威胁模型明确指出，物理上的本地攻击和以提升权限运行的恶意软件不在考虑范围内。微软也强调相关利用场景并非攻击者通过浏览器直接获得数据，因此从浏览器角度而言这是没有任何问题的。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;微软忽略漏洞报告并不会为这份报告提供漏洞奖金的根源在于，微软在浏览器安全方面采用与谷歌 Chromium 开源项目相同的安全标准，因此既然认定这是无效的漏洞报告自然也不会为研究人员提供漏洞奖金。&lt;/p&gt;
+&lt;p&gt;但因为漏洞报告与研究人员的沟通流程仍然存在问题，像是本次的安全缺陷本身其实可以被归类为改进，所以微软将重新审视处理研究人员报告的方式，后续微软将公布这方面的经验教训和正在进行的流程改进。&lt;/p&gt;
+</description><pubDate>Mon, 18 May 2026 02:30:32 +0000</pubDate></item><item><title>Ubuntu 25.10版将在7月结束生命周期 用户需尽快升级到Ubuntu 26.04 LTS版</title><link>https://www.landiannews.com/archives/112967.html</link><description>
+&lt;p&gt;#系统资讯 Ubuntu 25.10 版将在 7 月结束生命周期，用户需尽快升级到 Ubuntu 26.04 LTS 长期支持版。现在 Canonical 已经面向桌面用户开放图形升级，使用 Ubuntu 25.10 版的用户可以直接在软件更新中升级，需要提醒的是当前 Ubuntu 24.04 LTS 版还不能升级，到 8 月份 26.04.1 LTS 版发布后才可以升级。查看详情：https://ourl.co/112967&lt;/p&gt;&lt;p&gt;Canonical 已经在 2026 年 4 月发布 Ubuntu 26.04 LTS 长期支持版，最初该版本仅面向全新安装的用户提供，不过现在新版本也在逐渐面向现有用户开放升级，因为部分旧版本很快就会结束生命周期。&lt;/p&gt;
+&lt;p&gt;按照生命周期规划，Ubuntu 25.10 版将在 2026 年 7 月结束支持，因此使用该版本的用户应当在结束支持前尽快升级到新版本，否则后续将无法获得必要的软件安全更新，这可能会造成系统安全性变差。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112967-2.png" rel="nofollow"&gt;&lt;img alt="Ubuntu 25.10版将在7月结束生命周期 用户需尽快升级到Ubuntu 26.04 LTS版" data-src="https://img.landian.news/landian/2026/05/112967-2.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112967-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;通常使用非长期支持版的都是桌面用户，现在 Canonical 已经面向 Ubuntu 25.10 版桌面用户开放图形界面升级，用户只需要打开软件更新程序检查更新并点击升级按钮即可，整个过程可能需要 15 分钟左右 (含下载)，用户可以提前规划 PC 使用时间以便进行升级。&lt;/p&gt;
+&lt;p&gt;另外现在才允许 Ubuntu 25.10 版用户进行升级的原因是，之前初始版本的 Ubuntu 26.04 LTS 版存在某些错误，这些错误可能导致系统上的部分重要软件包被卸载并造成问题，现在问题解决后 Canonical 为用户提供升级服务。&lt;/p&gt;
+&lt;p&gt;对于使用 Ubuntu 24.04 LTS 版的用户请继续耐心等待，该版本暂时还不能直接升级，Canonical 计划在 8 月份发布 Ubuntu 26.04.1 LTS 版，该版本稳定性会更高并修复这段时间收集的各类反馈，因此使用 LTS 的用户请耐心等待。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112967-1.png" rel="nofollow"&gt;&lt;img alt="Ubuntu 25.10版将在7月结束生命周期 用户需尽快升级到Ubuntu 26.04 LTS版" data-src="https://img.landian.news/landian/2026/05/112967-1.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112967-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112967-3.png" rel="nofollow"&gt;&lt;img alt="Ubuntu 25.10版将在7月结束生命周期 用户需尽快升级到Ubuntu 26.04 LTS版" data-src="https://img.landian.news/landian/2026/05/112967-3.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112967-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 18 May 2026 02:00:53 +0000</pubDate></item><item><title>可能是打击滥用？新注册的谷歌账号只能获得5GB存储空间 验证手机号后恢复为15GB空间</title><link>https://www.landiannews.com/archives/112974.html</link><description>
+&lt;p&gt;#网站应用 可能是打击滥用？新注册的谷歌账号现在只能获得 5GB 的免费存储空间，要想获得 15GB 的免费存储空间需验证手机号码。谷歌在支持文档中将这项存储策略变更归因于为用户提供高质量的存储服务且提高账户安全性，不过当前谷歌也只是在少数地区进行测试还未推广到全球。查看详情：https://ourl.co/112974&lt;/p&gt;&lt;p&gt;长期以来谷歌都会为免费用户提供默认 15GB 的存储空间，这部分存储空间会被共享于 Gmail 邮箱、谷歌相册以及谷歌云端硬盘等，当默认存储空间不够时用户甚至都无法接收新邮件 (因为新邮件通常也需要占用十几 KB 甚至更多存储空间)。&lt;/p&gt;
+&lt;p&gt;不过近期部分用户在创建新的 Gmail 账户时只能获得 5GB 的免费存储空间，如果用户想要解锁剩下的 10GB 免费存储空间，则需要完成手机号码的验证，当然本身注册谷歌账号 (或 Gmail) 是不需要进行任何验证的。&lt;/p&gt;
+&lt;p&gt;这项变更很大可能是谷歌正在打击滥用，即避免批量注册的账号滥用谷歌提供的免费存储空间，但说起来即便是 15GB 免费存储空间似乎滥用价值也不是特别大，总不能为了薅羊毛而将文件分散存储在多个不同的谷歌账号中。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2023/09/100401.png" rel="nofollow"&gt;&lt;img alt="可能是打击滥用？新注册的谷歌账号只能获得5GB存储空间 验证手机号后恢复为15GB空间" data-src="https://img.lancdn.com/landian/2023/09/100401.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2023/09/100401.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;谷歌官方发言人表示：&lt;strong&gt;我们正在对特定地区的新账户测试新的存储策略，这将有助于我们继续为用户提供高质量的存储服务，同时鼓励用户提高账户安全性和数据恢复能力&lt;/strong&gt; (绑定手机号码后可以在忘记账户密码时进行重置，如果没有绑定则可能需要经过繁琐的申诉流程且有可能无法恢复账户并取回文件)。&lt;/p&gt;
+&lt;p&gt;目前没有证据表明谷歌会将这项新政策推广到全球所有地区，不过对使用谷歌服务的用户来说绑定手机号码是非常重要的，当然如果是临时使用的账号例如小号则无所谓是否绑定，而 5GB 存储空间可能也是足够使用的。&lt;/p&gt;
+&lt;p&gt;这项变更倒是引起部分追求隐私安全用户的抱怨，这些用户不愿意向谷歌提供任何关联到账户的个人信息，尤其像是手机号码这类比较私密的信息，所以如果用户既不愿意提供手机号码，又想获得更多存储空间，可能就需要寻找其他替代平台了。&lt;/p&gt;
+</description><pubDate>Mon, 18 May 2026 01:30:27 +0000</pubDate></item><item><title>Windows 11任务栏已经可以放在顶部/左侧/右侧 并且可以默认设置窗口不合并</title><link>https://www.landiannews.com/archives/112973.html</link><description>
+&lt;p&gt;#系统资讯 Windows 11 任务栏已经可以放在顶部 / 左侧 / 右侧，并且可以设置始终不合并窗口，让用户切换起来更加方便。这些新功能在 Windows 11 Experimental Build 26300.8493 版中上线，还包括大任务栏、小任务栏、任务栏在任意位置时设置左对齐等，使用实验版的用户可以在任务栏设置中提前体验起来。查看详情：https://ourl.co/112973&lt;/p&gt;&lt;p&gt;此前微软已经预告 Windows 11 将重新支持移动任务栏，现在支持这项功能的新预览版已经发布，这次更新微软对任务栏多项功能进行改进，包括始终不合并的任务栏、显示大任务栏或者小任务栏、任务栏在任意位置时都可以选择居左或者居中对齐等。&lt;/p&gt;
+&lt;p&gt;现在测试版提供的新功能经过测试后通常很快就会通过累积更新推送到 Windows 11 正式版，因此使用正式版的用户请耐心等待，当前也基本不值得为了这项更新而安装测试版，毕竟测试版更新频繁因此可能出现某些稳定性问题。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112973-1.png" rel="nofollow"&gt;&lt;img alt="Windows 11任务栏已经可以放在顶部/左侧/右侧 并且可以默认设置窗口不合并" data-src="https://img.landian.news/landian/2026/05/112973-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112973-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112973-2.png" rel="nofollow"&gt;&lt;img alt="Windows 11任务栏已经可以放在顶部/左侧/右侧 并且可以默认设置窗口不合并" data-src="https://img.landian.news/landian/2026/05/112973-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112973-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112973-3.png" rel="nofollow"&gt;&lt;img alt="Windows 11任务栏已经可以放在顶部/左侧/右侧 并且可以默认设置窗口不合并" data-src="https://img.landian.news/landian/2026/05/112973-3.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112973-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112973-4.png" rel="nofollow"&gt;&lt;img alt="Windows 11任务栏已经可以放在顶部/左侧/右侧 并且可以默认设置窗口不合并" data-src="https://img.landian.news/landian/2026/05/112973-4.png" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112973-4.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112973-6.png" rel="nofollow"&gt;&lt;img alt="Windows 11任务栏已经可以放在顶部/左侧/右侧 并且可以默认设置窗口不合并" data-src="https://img.landian.news/landian/2026/05/112973-6.png" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112973-6.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;此次更新微软为 Windows 11 任务栏带来移动选项，默认情况下微软设置的是任务栏在屏幕底部且以居中形式显示，该更新允许用户将任务栏放到屏幕顶部、屏幕左侧、屏幕右侧，并且用户可以根据需要选择任务栏图标靠左对齐或者居中对齐。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;很多用户喜欢以前那种任务栏不合并应用程序窗口的行为，例如通过谷歌浏览器开启多个标签页后，任务栏会显示多个标签页和对应网页标题，这种显示方式有助于用户快速识别不同的标签页并进行切换，所以现在微软也重新带回这项功能。&lt;/p&gt;
+&lt;p&gt;用户可以在任务栏设置中选择不同的行为方式，例如默认仍然合并应用程序窗口，也可以设置为默认不合并窗口，当任务栏已经满后再合并窗口，这样可以确保任务栏简洁和高效率，也可以设置为始终合并来提高效率。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112973-7.png" rel="nofollow"&gt;&lt;img alt="Windows 11任务栏已经可以放在顶部/左侧/右侧 并且可以默认设置窗口不合并" data-src="https://img.landian.news/landian/2026/05/112973-7.png" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112973-7.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在屏幕比较紧凑的设备上使用较大尺寸的任务栏可能不够美观以及窗口过多就会塞满任务栏，所以用户现在也可以设置大任务栏或者小任务栏，小任务栏高度更低且图标更小，不过任务栏可以容纳更多的图标方便用户进行切换。&lt;/p&gt;
+&lt;p&gt;以上新功能已经在 Windows 11 Experimental Build 26300.8493 版中上线，预计本周或下周应该就会抵达 Windows 11 Beta 版，如果进度比较快可能本月末正式版用户就可以体验这些变化。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112973-5.png" rel="nofollow"&gt;&lt;img alt="Windows 11任务栏已经可以放在顶部/左侧/右侧 并且可以默认设置窗口不合并" data-src="https://img.landian.news/landian/2026/05/112973-5.png" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112973-5.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 18 May 2026 00:30:47 +0000</pubDate></item></channel></rss>
