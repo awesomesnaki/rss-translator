@@ -1,68 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 18 May 2026 02:44:29 +0000</lastBuildDate><item><title>X/Twitter限制账号每日最多发布50篇推文和200条回复 开通订阅后可以获得更高上限</title><link>https://www.landiannews.com/archives/112969.html</link><description>
-&lt;p&gt;#网站应用 X/Twitter 限制账号每日最多发布 50 个主内容和 200 条回复，可能是用于打击 AI 操作的账号疯狂发布垃圾内容，开通 X Premium 付费订阅后可以解锁更高的限制。X 没有明确说明开通订阅后是否有限制，但不开通订阅的话发布 50 个帖子已经是极限，这样可以减少垃圾账号发布的内容刷屏。查看详情：https://ourl.co/112969&lt;/p&gt;&lt;p&gt;近期社交媒体平台 X/Twitter 上活跃的机器人账号数量显著增加，这里的机器人账号不只是用来刷广告的垃圾账号，还有大量通过 AI 操作自动刷评论的账号，这些账号回复的内容通常与主推文有关，但具体内容都是无意义的废话，很容易看出来是 AI 生成的。&lt;/p&gt;
-&lt;p&gt;此类由 AI 操纵的账号可能每分钟就可以在热门推文下刷 1 条回复，如果平台不加以限制的话，可能后续大量帖子底部都是 AI 生成的评论，所以现在 X/Twitter 实施新的速率限制，阻止垃圾账号利用 AI 操纵账号发布推文和回复。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/public/thumb/X.png" rel="nofollow"&gt;&lt;img alt="X/Twitter限制账号每日最多发布50篇推文和200条回复 开通订阅后可以获得更高上限" data-src="https://img.landian.news/landian/public/thumb/X.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/public/thumb/X.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 18 May 2026 07:45:25 +0000</lastBuildDate><item><title>微信读书发布官方Skill 可以连接读书账号让AI查阅书架/笔记/统计阅读等</title><link>https://www.landiannews.com/archives/112961.html</link><description>
+&lt;p&gt;#人工智能 微信读书推出官方的 Skill，可以让 AI 智能体连接微信读书账号并查阅书架、统计阅读、查看划线和想法、导出笔记、推荐书籍等。该技能需要配合使用微信读书的官方 API，所以在安装后还需要扫码获得 API 凭证，配置凭证后即可让 OpenClaw 或 Hermes Agent 进行调用。查看详情：https://ourl.co/112961&lt;/p&gt;&lt;p&gt;微信读书团队日前面向 AI 智能体推出官方版的技能，该技能可以通过微信读书 API 接口连接用户账户，AI 智能体则可以通过 API 查询书架、搜索书籍、阅读统计、获取笔记和划线以及基于阅读偏好获取推荐书籍等。&lt;/p&gt;
+&lt;p&gt;这个技能支持在 OpenClaw 或 Hermes Agent 中使用，安装技能后通过微信扫码获取 API 凭证，再将凭证配置到技能中，之后就可以通过自然语言对话要求 AI 智能体实现特定需求。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112961.png" rel="nofollow"&gt;&lt;img alt="微信读书发布官方Skill 可以连接读书账号让AI查阅书架/笔记/统计阅读等" data-src="https://img.landian.news/landian/2026/05/112961.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112961.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;未开通订阅的账号：每日最多可以发布 50 篇原创内容&lt;/li&gt;
-&lt;li&gt;未开通订阅的账号：每日最多可以发布 200 条回复，且配额具体细分到每半小时中，即不能半小时直接发布 200 条&lt;/li&gt;
-&lt;li&gt;所有账号：每日发送的私信上限为 500 条&lt;/li&gt;
-&lt;li&gt;所有账号：每日关注的账号上限为 400 人，但还有其他风控措施可能会在连续关注时触发锁定&lt;/li&gt;
-&lt;li&gt;所有账号：当账号关注的其他用户达到 5,000 个以后，额外的关注尝试都会触发账户特定比例的限制&lt;/li&gt;
-&lt;li&gt;所有账号：当 X/Twitter 处在访问高峰期时，以上所有配额限制可能会被临时缩减&lt;/li&gt;
+&lt;li&gt;查阅书架：浏览你的个人书架并快速了解藏书全貌&lt;/li&gt;
+&lt;li&gt;书籍搜索：在书城中搜索任意书籍，快速获得书名、作者、评分等关键信息&lt;/li&gt;
+&lt;li&gt;阅读统计：时长、天数、偏好深度分析，量化你的阅读习惯&lt;/li&gt;
+&lt;li&gt;书籍详情：查看书籍详情、章节目录、阅读进度，了解你的阅读旅程&lt;/li&gt;
+&lt;li&gt;笔记划线：查看个人划线和想法、导出笔记、回顾阅读中的思考&lt;/li&gt;
+&lt;li&gt;推荐好书：基于你的阅读偏好，个性化推荐或相似书籍推荐&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;X/Twitter 将设置配额限制归因于减轻后台服务器的运行压力、降低服务器宕机和发生错误的概率，至少该平台没有明面上表示这是打击垃圾账号，但从限制来看，X/Twitter 鼓励活跃用户开通 X Premium 付费订阅来解锁更高的限制，例如开通付费订阅后不会再被限制为每天只能发布 50 个原创内容或 200 条回复。&lt;/p&gt;
-&lt;p&gt;X/Twitter 还特别强调以上配额限制同时涵盖所有设备的操作，包括网页版、移动端、API 等，所有第三方应用程序的 API 调用请求也会被计入每小时的 API 请求限制，因此如果用户使用多个第三方应用程序则可能会更快达到 API 请求限制。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://help.x.com/en/rules-and-policies/x-limits" rel="noopener" target="_blank"&gt;X Limit&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 18 May 2026 02:44:29 +0000</pubDate></item><item><title>微软宣布Microsoft Edge不再将密码以明文形式加载到内存中 但仍然不认为这是漏洞</title><link>https://www.landiannews.com/archives/112972.html</link><description>
-&lt;p&gt;#安全资讯 被研究人员曝光后微软决定改进 Microsoft Edge 浏览器，不会在启动时将已经保存的所有密码以明文形式加载到内存中。微软忽略这份漏洞报告的根源在于，微软认为恶意软件已经可以控制设备的情况下 (获得管理员权限)，浏览器的安全防御策略已经失效，所以本身通过内存读取数据就不在微软的考虑范围内。查看详情：https://ourl.co/112972&lt;/p&gt;&lt;p&gt;此前安全研究人员 Tom Jøran Sønstebyseter Rønning 公开披露微软的 Microsoft Edge 浏览器会在启动时&lt;a href="https://www.landiannews.com/archives/112842.html" rel="noopener" target="_blank"&gt;将所有已经保存的账户密码以明文形式直接加载到内存进程中&lt;/a&gt;，研究人员直接公开这个问题是因为微软不认为这是漏洞，因此也没有计划向安全研究人员提供漏洞奖励。&lt;/p&gt;
-&lt;p&gt;这件事其实并不让人意外，因为谷歌以前也犯过类似的错误，谷歌和微软都认为在攻击者已经能够控制设备的情况下，其他安全防御措施已经失效，所以像是通过恶意软件读取内存中保存的账号密码本身就不在安全模型考虑范围内。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/112842.png" rel="nofollow"&gt;&lt;img alt="微软宣布Microsoft Edge不再将密码以明文形式加载到内存中 但仍然不认为这是漏洞" data-src="https://img.lancdn.com/landian/2026/05/112842.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/112842.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;将以下技能安装命令发送给你的 AI 智能体即可自动安装：&lt;em&gt;下载 https://cdn.weread.qq.com/skills/weread-skills.zip 安装 skill&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;获取微信读书 API 凭证：&lt;a href="https://weread.qq.com/r/weread-skills" rel="noopener" target="_blank"&gt;https://weread.qq.com/r/weread-skills&lt;/a&gt; 使用微信扫码获得凭证并将其配置到技能中&lt;/p&gt;
+</description><pubDate>Mon, 18 May 2026 07:45:25 +0000</pubDate></item><item><title>NGINX堆缓冲区溢出漏洞已经开始被黑客利用 安全公司提醒用户尽快升级</title><link>https://www.landiannews.com/archives/112965.html</link><description>
+&lt;p&gt;#安全资讯 NGINX 堆缓冲区溢出漏洞已经开始被黑客利用，部分黑客尝试利用漏洞发起试探性攻击，漏洞检测和蜜罐分析平台 VulnCheck 就发现自己的蜜罐被黑客触发。观测数据显示目前暴露在公网且未升级的 NGINX 实例约有 570 万个，安全公司建议 NGINX 用户立即升级到最新版。查看详情：https://ourl.co/112965&lt;/p&gt;&lt;p&gt;上周知名的开源反向代理服务器 NGINX 披露高危安全漏洞，该漏洞编号 CVE-2026-42945，漏洞评分达到 9.2 分，而且漏洞自 2008 年发布的 NGINX 0.6.27 版开始引入、潜伏 18 年后才被安全研究人员发现。&lt;/p&gt;
+&lt;p&gt;为修复该漏洞 F5 公司已经发布 NGINX 1.30.1 和 1.31.0 版进行修复，NGINX 在全球市场份额约有 30%，在如此高使用量的情况下，漏洞被披露后黑客也积极利用漏洞展开攻击，目前安全公司已经开始检测到黑客利用漏洞发起的攻击。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112965.png" rel="nofollow"&gt;&lt;img alt="NGINX堆缓冲区溢出漏洞已经开始被黑客利用 安全公司提醒用户尽快升级" data-src="https://img.landian.news/landian/2026/05/112965.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112965.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;微软团队在博客中表示，根据研究人员披露的问题将对 Microsoft Edge 浏览器进行改进，改进后不会在启动时将密码加载到内存中，这项深度防御措施将覆盖所有版本 (包括所有频道的测试版、正式版以及适用于企业的扩展稳定版)。&lt;/p&gt;
-&lt;p&gt;目前这项改进还被微软作为优先事项进行推进，所以在已经发布的 Microsoft Edge 金丝雀版中，浏览器启动后不会再将密码加载到内存中，到 Microsoft Edge v148.0 正式版发布后，用户正常安装此更新即可获得改进后的安全防御措施。&lt;/p&gt;
+&lt;p&gt;致力于漏洞检测和蜜罐分析的安全平台 VulnCheck 提供的最新报告显示，目前已经有不少黑客开始积极利用漏洞展开攻击，该平台故意部署的蜜罐检测到针对 CVE-2026-42945 的利用，不过现阶段由于样本数量太少还无法判断攻击活动的性质和最终目标。&lt;/p&gt;
+&lt;p&gt;观测数据显示，目前全球至少有 570 万个尚未修复漏洞且暴露在互联网上的 NGINX 实例，其中中国和美国暴露的 NGINX 实例非常多，这些暴露的实例都会成为黑客的攻击目标，最终可能会被用来劫持服务器和窃取敏感数据。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;谷歌和微软的核心考虑都是设备本身的安全性才是最重要的，在本次案例中研究人员披露的问题需要通过软件获得管理员权限并在本地运行读取内存中的数据，这种利用方式有不同的利用场景：1. 恶意软件已经可以获得管理员权限运行；2. 在共享使用的设备上管理员账户可以读取其他非账户的数据。&lt;/p&gt;
-&lt;p&gt;微软称研究人员报告的场景前提都是攻击者能够控制设备，而攻击者能够在本地运行不安全的软件的情况下，浏览器或任何应用程序的防御能力都无法应对，微软的密码管理器威胁模型明确指出，物理上的本地攻击和以提升权限运行的恶意软件不在考虑范围内。微软也强调相关利用场景并非攻击者通过浏览器直接获得数据，因此从浏览器角度而言这是没有任何问题的。&lt;/p&gt;
+&lt;p&gt;尽管攻击者只需要向 NGINX 发送精心构造的 HTTP 请求就可以利用漏洞，但本身漏洞触发也是存在条件的，漏洞依赖于特定的 NGINX 配置，攻击者需要先了解或发现这个配置才能配合利用漏洞。而要实现远程代码执行目的，目标服务器上的 ASLR 功能也必须被禁用。&lt;/p&gt;
+&lt;p&gt;ASLR 指的是地址空间布局随机化，这是用于防止基于内存攻击的安全措施，在启用 ASLR 的设备中漏洞无法被利用，像是 AlmaLinux 等发行版默认都启用 ASLR 用来提升安全性，所以在这些设备上即便 NGINX 暴露也不会被直接拿下。&lt;/p&gt;
+&lt;p&gt;当然不容易利用不等于不可以利用，像是工作进程崩溃的拒绝服务攻击 (会导致 NGINX 崩溃无法正常提供服务，但不会导致远程代码执行) 本身就很容易被利用，所以 AlmaLinux 项目的维护者仍然建议将升级 NGINX 作为紧急事项。&lt;/p&gt;
+</description><pubDate>Mon, 18 May 2026 07:00:24 +0000</pubDate></item><item><title>微软将逐渐解决Windows 11笔记本电脑合盖后发烫问题 根源是驱动阻止CPU睡眠</title><link>https://www.landiannews.com/archives/112968.html</link><description>
+&lt;p&gt;#系统资讯 微软将逐渐解决 Windows 11 笔记本电脑合盖后发烫问题，根本原因是质量较差的驱动程序或存储控制器阻止 CPU 睡眠。部分用户可能遇到过笔记本从背包拿出来后发烫并且电量所剩无几，通常发生这种情况就是因为某些驱动程序在合盖后仍然拒绝让 CPU 睡眠，CPU 持续运转时耗电并且风扇还需要运转进行散热，这导致电量持续下降。查看详情：https://ourl.co/112968&lt;/p&gt;&lt;p&gt;使用 Windows 10/11 笔记本电脑的用户可能碰到过将笔记本电脑放在背包里时，笔记本风扇仍然在转并且设备明显发烫，这种情况也会导致原本 100% 电量会迅速削减甚至直接导致用户拿出笔记本电脑时已经完全没电，而这种问题的根源就是系统没有按照预期进入睡眠状态。&lt;/p&gt;
+&lt;p&gt;在 2026 年的 Windows 硬件工程大会上微软证实宣布对其第三方软件评估方式进行根本性改变，通过新的驱动程序质量倡议 (DQI)，微软将扩展评估指标确保驱动程序在导致系统故障或破坏用户体验时被惩罚，以此敦促 OEM 提高驱动程序交付质量。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://img.landian.news/landian/public/thumb/W11.webp" rel="nofollow"&gt;&lt;img alt="微软将逐渐解决Windows 11笔记本电脑合盖后发烫问题 根源是驱动阻止CPU睡眠" data-src="https://img.landian.news/landian/public/thumb/W11.webp" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/public/thumb/W11.webp"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;微软忽略漏洞报告并不会为这份报告提供漏洞奖金的根源在于，微软在浏览器安全方面采用与谷歌 Chromium 开源项目相同的安全标准，因此既然认定这是无效的漏洞报告自然也不会为研究人员提供漏洞奖金。&lt;/p&gt;
-&lt;p&gt;但因为漏洞报告与研究人员的沟通流程仍然存在问题，像是本次的安全缺陷本身其实可以被归类为改进，所以微软将重新审视处理研究人员报告的方式，后续微软将公布这方面的经验教训和正在进行的流程改进。&lt;/p&gt;
-</description><pubDate>Mon, 18 May 2026 02:30:32 +0000</pubDate></item><item><title>Ubuntu 25.10版将在7月结束生命周期 用户需尽快升级到Ubuntu 26.04 LTS版</title><link>https://www.landiannews.com/archives/112967.html</link><description>
-&lt;p&gt;#系统资讯 Ubuntu 25.10 版将在 7 月结束生命周期，用户需尽快升级到 Ubuntu 26.04 LTS 长期支持版。现在 Canonical 已经面向桌面用户开放图形升级，使用 Ubuntu 25.10 版的用户可以直接在软件更新中升级，需要提醒的是当前 Ubuntu 24.04 LTS 版还不能升级，到 8 月份 26.04.1 LTS 版发布后才可以升级。查看详情：https://ourl.co/112967&lt;/p&gt;&lt;p&gt;Canonical 已经在 2026 年 4 月发布 Ubuntu 26.04 LTS 长期支持版，最初该版本仅面向全新安装的用户提供，不过现在新版本也在逐渐面向现有用户开放升级，因为部分旧版本很快就会结束生命周期。&lt;/p&gt;
-&lt;p&gt;按照生命周期规划，Ubuntu 25.10 版将在 2026 年 7 月结束支持，因此使用该版本的用户应当在结束支持前尽快升级到新版本，否则后续将无法获得必要的软件安全更新，这可能会造成系统安全性变差。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112967-2.png" rel="nofollow"&gt;&lt;img alt="Ubuntu 25.10版将在7月结束生命周期 用户需尽快升级到Ubuntu 26.04 LTS版" data-src="https://img.landian.news/landian/2026/05/112967-2.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112967-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;通常使用非长期支持版的都是桌面用户，现在 Canonical 已经面向 Ubuntu 25.10 版桌面用户开放图形界面升级，用户只需要打开软件更新程序检查更新并点击升级按钮即可，整个过程可能需要 15 分钟左右 (含下载)，用户可以提前规划 PC 使用时间以便进行升级。&lt;/p&gt;
-&lt;p&gt;另外现在才允许 Ubuntu 25.10 版用户进行升级的原因是，之前初始版本的 Ubuntu 26.04 LTS 版存在某些错误，这些错误可能导致系统上的部分重要软件包被卸载并造成问题，现在问题解决后 Canonical 为用户提供升级服务。&lt;/p&gt;
-&lt;p&gt;对于使用 Ubuntu 24.04 LTS 版的用户请继续耐心等待，该版本暂时还不能直接升级，Canonical 计划在 8 月份发布 Ubuntu 26.04.1 LTS 版，该版本稳定性会更高并修复这段时间收集的各类反馈，因此使用 LTS 的用户请耐心等待。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112967-1.png" rel="nofollow"&gt;&lt;img alt="Ubuntu 25.10版将在7月结束生命周期 用户需尽快升级到Ubuntu 26.04 LTS版" data-src="https://img.landian.news/landian/2026/05/112967-1.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112967-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112967-3.png" rel="nofollow"&gt;&lt;img alt="Ubuntu 25.10版将在7月结束生命周期 用户需尽快升级到Ubuntu 26.04 LTS版" data-src="https://img.landian.news/landian/2026/05/112967-3.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112967-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 18 May 2026 02:00:53 +0000</pubDate></item><item><title>可能是打击滥用？新注册的谷歌账号只能获得5GB存储空间 验证手机号后恢复为15GB空间</title><link>https://www.landiannews.com/archives/112974.html</link><description>
-&lt;p&gt;#网站应用 可能是打击滥用？新注册的谷歌账号现在只能获得 5GB 的免费存储空间，要想获得 15GB 的免费存储空间需验证手机号码。谷歌在支持文档中将这项存储策略变更归因于为用户提供高质量的存储服务且提高账户安全性，不过当前谷歌也只是在少数地区进行测试还未推广到全球。查看详情：https://ourl.co/112974&lt;/p&gt;&lt;p&gt;长期以来谷歌都会为免费用户提供默认 15GB 的存储空间，这部分存储空间会被共享于 Gmail 邮箱、谷歌相册以及谷歌云端硬盘等，当默认存储空间不够时用户甚至都无法接收新邮件 (因为新邮件通常也需要占用十几 KB 甚至更多存储空间)。&lt;/p&gt;
-&lt;p&gt;不过近期部分用户在创建新的 Gmail 账户时只能获得 5GB 的免费存储空间，如果用户想要解锁剩下的 10GB 免费存储空间，则需要完成手机号码的验证，当然本身注册谷歌账号 (或 Gmail) 是不需要进行任何验证的。&lt;/p&gt;
-&lt;p&gt;这项变更很大可能是谷歌正在打击滥用，即避免批量注册的账号滥用谷歌提供的免费存储空间，但说起来即便是 15GB 免费存储空间似乎滥用价值也不是特别大，总不能为了薅羊毛而将文件分散存储在多个不同的谷歌账号中。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2023/09/100401.png" rel="nofollow"&gt;&lt;img alt="可能是打击滥用？新注册的谷歌账号只能获得5GB存储空间 验证手机号后恢复为15GB空间" data-src="https://img.lancdn.com/landian/2023/09/100401.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2023/09/100401.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Windows 11 现代待机模式类似于智能手机，系统不会完全关闭而是在后台偶尔会唤醒低功耗组件用来接收新邮件或者发送其他通知，但如果某个存储控制器或者 WiFi 驱动程序优化不佳，就有可能导致处理器无法进入低功耗状态 (C 状态)。&lt;/p&gt;
+&lt;p&gt;这种情况下 CPU 会在后台持续运行并且各类应用程序可能也会保持活跃，因此风扇会继续运转 (而且还可能是在背包这类不通风的环境中运转)，在 CPU 温度过高时风扇转速更快，CPU 持续运行 + 风扇持续运转就会导致电量消耗速度更快。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;谷歌官方发言人表示：&lt;strong&gt;我们正在对特定地区的新账户测试新的存储策略，这将有助于我们继续为用户提供高质量的存储服务，同时鼓励用户提高账户安全性和数据恢复能力&lt;/strong&gt; (绑定手机号码后可以在忘记账户密码时进行重置，如果没有绑定则可能需要经过繁琐的申诉流程且有可能无法恢复账户并取回文件)。&lt;/p&gt;
-&lt;p&gt;目前没有证据表明谷歌会将这项新政策推广到全球所有地区，不过对使用谷歌服务的用户来说绑定手机号码是非常重要的，当然如果是临时使用的账号例如小号则无所谓是否绑定，而 5GB 存储空间可能也是足够使用的。&lt;/p&gt;
-&lt;p&gt;这项变更倒是引起部分追求隐私安全用户的抱怨，这些用户不愿意向谷歌提供任何关联到账户的个人信息，尤其像是手机号码这类比较私密的信息，所以如果用户既不愿意提供手机号码，又想获得更多存储空间，可能就需要寻找其他替代平台了。&lt;/p&gt;
-</description><pubDate>Mon, 18 May 2026 01:30:27 +0000</pubDate></item><item><title>Windows 11任务栏已经可以放在顶部/左侧/右侧 并且可以默认设置窗口不合并</title><link>https://www.landiannews.com/archives/112973.html</link><description>
-&lt;p&gt;#系统资讯 Windows 11 任务栏已经可以放在顶部 / 左侧 / 右侧，并且可以设置始终不合并窗口，让用户切换起来更加方便。这些新功能在 Windows 11 Experimental Build 26300.8493 版中上线，还包括大任务栏、小任务栏、任务栏在任意位置时设置左对齐等，使用实验版的用户可以在任务栏设置中提前体验起来。查看详情：https://ourl.co/112973&lt;/p&gt;&lt;p&gt;此前微软已经预告 Windows 11 将重新支持移动任务栏，现在支持这项功能的新预览版已经发布，这次更新微软对任务栏多项功能进行改进，包括始终不合并的任务栏、显示大任务栏或者小任务栏、任务栏在任意位置时都可以选择居左或者居中对齐等。&lt;/p&gt;
-&lt;p&gt;现在测试版提供的新功能经过测试后通常很快就会通过累积更新推送到 Windows 11 正式版，因此使用正式版的用户请耐心等待，当前也基本不值得为了这项更新而安装测试版，毕竟测试版更新频繁因此可能出现某些稳定性问题。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112973-1.png" rel="nofollow"&gt;&lt;img alt="Windows 11任务栏已经可以放在顶部/左侧/右侧 并且可以默认设置窗口不合并" data-src="https://img.landian.news/landian/2026/05/112973-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112973-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112973-2.png" rel="nofollow"&gt;&lt;img alt="Windows 11任务栏已经可以放在顶部/左侧/右侧 并且可以默认设置窗口不合并" data-src="https://img.landian.news/landian/2026/05/112973-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112973-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112973-3.png" rel="nofollow"&gt;&lt;img alt="Windows 11任务栏已经可以放在顶部/左侧/右侧 并且可以默认设置窗口不合并" data-src="https://img.landian.news/landian/2026/05/112973-3.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112973-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112973-4.png" rel="nofollow"&gt;&lt;img alt="Windows 11任务栏已经可以放在顶部/左侧/右侧 并且可以默认设置窗口不合并" data-src="https://img.landian.news/landian/2026/05/112973-4.png" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112973-4.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112973-6.png" rel="nofollow"&gt;&lt;img alt="Windows 11任务栏已经可以放在顶部/左侧/右侧 并且可以默认设置窗口不合并" data-src="https://img.landian.news/landian/2026/05/112973-6.png" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112973-6.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;以前微软完全依赖于 WER 错误报告遥测数据和崩溃转储文件来评估 OEM 是否交付优质驱动程序，这种评估方式理论上可以检查驱动程序是否稳定，但实际上驱动程序干扰 CPU 进入低功耗状态时，系统本身还是正常运行的，因此系统压根不会发送错误报告。&lt;/p&gt;
+&lt;p&gt;所以在这种情况下微软无法有效评估驱动程序的交付质量，至少从笔记本电脑角度而言微软是无法发现问题的，所以这类问题在持续多年后，微软决定通过 DQI 指标来收集更多信息判断驱动程序的质量是否达到预期。&lt;/p&gt;
+&lt;p&gt;具体来说微软将会弃用不符合电池和散热标准的旧版驱动程序，禁止系统更新自动安装未经优化的代码，这将迫使 OEM 在开发驱动程序时必须关注电池续航和 CPU 低功耗模式，质量较差的驱动程序可能会被微软拒绝收录。&lt;/p&gt;
+&lt;p&gt;不过这项新计划推行需要更长时间，例如淘汰旧版驱动程序的前提是 OEM 已经开发质量更好的新版驱动程序，如果用户使用的某些硬件已经被 OEM 停止更新，那没有新驱动程序时用户也只能被迫继续使用旧版驱动程序。&lt;/p&gt;
+</description><pubDate>Mon, 18 May 2026 06:15:24 +0000</pubDate></item><item><title>[无需删除] Windows 11安装更新后会新增SecureBoot文件夹 用于更新启动证书</title><link>https://www.landiannews.com/archives/112966.html</link><description>
+&lt;p&gt;#系统资讯 安装 5 月更新后 Windows 11 系统分区里会出现 SecureBoot 文件夹，为避免误解微软发布文档称这是用于更新 UEFI 启动证书的。该文件夹位于 C:\Windows\ 目录下，里面包含适用于 IT 管理员的 PowerShell 脚本，普通用户不需要通过这些脚本执行任何操作。查看详情：https://ourl.co/112966&lt;/p&gt;&lt;p&gt;当用户安装 Windows 11 5 月更新 (KB5089549) 及之后发布的更新，微软会在 C:\Windows\ 目录下新增名为 SecureBoot 的文件夹，创建这个文件夹属于预期内的行为，所以当用户看到这个文件夹时请不要删除以免影响安全启动证书的正常更新。&lt;/p&gt;
+&lt;p&gt;目前微软使用的安全启动证书主要是 2011 年签发的，这份安全启动证书将在 2026 年 6 月到期无法再使用，所以这段时间微软陆续向符合条件的设备推送 UEFI CA 2023 证书，新增的 SecureBoot 文件夹也是为了更新证书而创建的。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112966.png" rel="nofollow"&gt;&lt;img alt="[无需删除] Windows 11安装更新后会新增SecureBoot文件夹 用于更新启动证书" data-src="https://img.landian.news/landian/2026/05/112966.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112966.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;此次更新微软为 Windows 11 任务栏带来移动选项，默认情况下微软设置的是任务栏在屏幕底部且以居中形式显示，该更新允许用户将任务栏放到屏幕顶部、屏幕左侧、屏幕右侧，并且用户可以根据需要选择任务栏图标靠左对齐或者居中对齐。&lt;/p&gt;
+&lt;p&gt;在最初的更新日志中微软并未提到安装更新后会在系统分区内创建这个新文件夹，因此部分用户更新后发现文件夹后有些惊讶，主要担心是恶意软件创建这个文件夹用来混淆视听 (恶意软件经常冒充系统文件避免用户将其删除)。&lt;/p&gt;
+&lt;p&gt;为避免用户的误解现在微软更新&lt;a href="https://support.microsoft.com/en-us/topic/may-12-2026-kb5089549-os-builds-26200-8457-and-26100-8457-28ec2a99-4bbe-481d-a340-5c6cf18d9acb" rel="noopener" target="_blank"&gt;支持文档&lt;/a&gt;对这个文件夹进行澄清，微软在支持文档中表示：此次更新会在符合条件的设备的 C:\Windows\ 目录下创建名为 SecureBoot 的文件夹，这个文件夹包含示例脚本，旨在帮助那些拥有 IT 管理团队、需要主动管理设备集群更新的组织。&lt;/p&gt;
+&lt;p&gt;因此对于普通用户而言其实删除这个文件夹也没有任何负面影响，里面的脚本主要是为 IT 管理员提供的，只不过无论是 Windows 11 企业版还是家庭版在安装更新后都会添加这个文件夹。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;很多用户喜欢以前那种任务栏不合并应用程序窗口的行为，例如通过谷歌浏览器开启多个标签页后，任务栏会显示多个标签页和对应网页标题，这种显示方式有助于用户快速识别不同的标签页并进行切换，所以现在微软也重新带回这项功能。&lt;/p&gt;
-&lt;p&gt;用户可以在任务栏设置中选择不同的行为方式，例如默认仍然合并应用程序窗口，也可以设置为默认不合并窗口，当任务栏已经满后再合并窗口，这样可以确保任务栏简洁和高效率，也可以设置为始终合并来提高效率。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112973-7.png" rel="nofollow"&gt;&lt;img alt="Windows 11任务栏已经可以放在顶部/左侧/右侧 并且可以默认设置窗口不合并" data-src="https://img.landian.news/landian/2026/05/112973-7.png" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112973-7.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;微软已经在 Microsoft Defender 设备安全性中新增 UEFI CA 2023 证书的指示器，因此用户也可以直接通过安全中心检查状态以判断证书是否更新，当设备安全性里显示已应用必须的证书更新则代表已经完成证书更新，用户不需要执行任何操作。&lt;/p&gt;
+&lt;p&gt;当然即便发现证书尚未更新用户也同样不需要执行任何操作，微软会陆续向不同的设备推送证书更新，基于兼容性和稳定性考虑，蓝点网也不建议用户主动使用微软给 IT 管理员提供的证书更新脚本。&lt;/p&gt;
+&lt;p&gt;另外在 SecureBoot 文件夹中的 Detect-SecureBootCertUpdateStatus.ps1 脚本也可以检查证书状态，用户使用 PowerShell 运行该脚本即可打印当前系统使用的是 UEFI CA 2011 还是 UEFI CA 2023。&lt;/p&gt;
+</description><pubDate>Mon, 18 May 2026 05:30:24 +0000</pubDate></item><item><title>论文开放存储库arXiv打击使用AI生成论文 被发现后1年内将不允许发布新论文</title><link>https://www.landiannews.com/archives/112971.html</link><description>
+&lt;p&gt;#行业资讯 预印本开放存储库 arXiv 打击使用 AI 生成论文，若被发现则作者 1 年内不得发布新论文，且之后发布必须经过信誉良好的同行期刊评审后才能发布。arXiv 的措施主要是打击部分研究人员滥用 AI，这并不是禁止研究人员使用 AI，而是部分研究人员直接复制粘贴而不仔细审查 AI 生成的内容是否存在错误。查看详情：https://ourl.co/112971&lt;/p&gt;&lt;p&gt;被广泛使用的预印本研究开放存储库 arXiv 正在积极采取更多措施打击研究人员在科学论文中随意使用人工智能的行为，进行打击的核心原因并非是阻止研究人员使用人工智能技术，而是部分论文作者没有仔细检查 AI 生成的内容导致其论文可信度严重降低。&lt;/p&gt;
+&lt;p&gt;arXiv 最初是康奈尔大学运营的网站，现在 arXiv 正在转型为独立的非营利组织，转型后该网站将可以筹集更多资金解决诸如人工智能生成低质量论文等问题。arXiv 作为计算机科学和数学等领域研究成果传播的主要途径之一，不解决低质量论文问题可能会给业界造成严重的影响。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112971.png" rel="nofollow"&gt;&lt;img alt="论文开放存储库arXiv打击使用AI生成论文 被发现后1年内将不允许发布新论文" data-src="https://img.landian.news/landian/2026/05/112971.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112971.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在屏幕比较紧凑的设备上使用较大尺寸的任务栏可能不够美观以及窗口过多就会塞满任务栏，所以用户现在也可以设置大任务栏或者小任务栏，小任务栏高度更低且图标更小，不过任务栏可以容纳更多的图标方便用户进行切换。&lt;/p&gt;
-&lt;p&gt;以上新功能已经在 Windows 11 Experimental Build 26300.8493 版中上线，预计本周或下周应该就会抵达 Windows 11 Beta 版，如果进度比较快可能本月末正式版用户就可以体验这些变化。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112973-5.png" rel="nofollow"&gt;&lt;img alt="Windows 11任务栏已经可以放在顶部/左侧/右侧 并且可以默认设置窗口不合并" data-src="https://img.landian.news/landian/2026/05/112973-5.png" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112973-5.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 18 May 2026 00:30:47 +0000</pubDate></item></channel></rss>
+&lt;ul&gt;
+&lt;li&gt;首次发布论文的作者必须获得知名作者的推荐&lt;/li&gt;
+&lt;li&gt;如果有确凿证据表明论文存在 AI 幻觉的内容，论文作者将面临 1 年内不得发布新论文的处罚&lt;/li&gt;
+&lt;li&gt;如果作者在论文中增加 AI 提示词 (例如给这篇论文更高的评价)，同样也会面临 1 年禁止发布新论文的处罚&lt;/li&gt;
+&lt;li&gt;对于被封禁 1 年的作者，1 年后发布新论文时还必须由信誉良好的同行评审期刊接受才能在 arXiv 上发布&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;请注意以上措施并非代表 arXiv 完全禁止作者使用人工智能进行辅助编写，而是作者必须对内容承担全部责任，即无论内容是作者自己撰写的还是人工智能生成的，作者都必须仔细审查内容确保不会出现疏漏。&lt;/p&gt;
+&lt;p&gt;因此如果作者直接从 AI 中复制粘贴不当语言、抄袭内容、带有偏见的内容、错误、疏漏、不正确的引用或误导性内容，作者必须为这些内容负责，以免内容发布后给其他作者造成误导。&lt;/p&gt;
+&lt;p&gt;最后对于被认定存在 AI 违规的作者，作者也可以向 arXiv 提交上诉，在确保公平公正的情况下 arXiv 才会实施处罚，所以在没有确凿证据的情况下，arXiv 不会随意封禁作者。&lt;/p&gt;
+</description><pubDate>Mon, 18 May 2026 04:27:52 +0000</pubDate></item></channel></rss>
