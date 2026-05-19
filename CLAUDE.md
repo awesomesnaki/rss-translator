@@ -54,7 +54,9 @@
 - 详情: `m.douban.com/rexxar/api/v2/movie/{id}` — intro / directors / actors / aka / pubdate / imdb / honor_infos / tags 等
 - 短评: `m.douban.com/rexxar/api/v2/movie/{id}/interests?order_by=hot`
 
-每条 RSS item 含：海报（自托管）→ 评分 `<h3>⭐ 8.5</h3>` → metadata 块（时间/地区/类型/导演/主演/语言/片长/上映/又名/标签/IMDb，标签加粗 `<br>` 分隔）→ 剧情 → 5 条热门短评（用户名 ⭐⭐⭐⭐ + 评论 + 👍 N）。
+每条 RSS item 含：海报（自托管）→ 评分 `<h3>⭐ 8.5</h3>` → metadata 块（时间/地区/类型/季数/集数/导演/主演/语言/片长/上映/又名/标签/IMDb，标签加粗 `<br>` 分隔）→ 剧情 → 5 条热门短评（用户名 ⭐⭐⭐⭐ + 评论 + 👍 N）。
+
+剧集额外字段：`current_season` / `season_count` 取 >1 时显示 `第 N 季 / 共 N 季`（单季剧不显示），`episodes_count` 显示 `N 集`。豆瓣不同接口字段名不固定，`season_episode_text` 多个候选都试一遍。
 
 `DOUBAN_COOKIE` (GitHub Secrets) 可选，反爬限流时携带账号 cookie 绕过。
 
