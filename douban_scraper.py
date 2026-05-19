@@ -167,6 +167,46 @@ def image_ext(url):
     return ext if ext in ('jpg', 'jpeg', 'png', 'webp') else 'jpg'
 
 
+def candidate_image_urls(item):
+    """按优先级返回所有可用的海报 URL，依次尝试。"""
+    pic = item.get('pic') or {}
+    urls = [
+        pic.get('large'),
+        pic.get('normal'),
+        item.get('cover_url'),
+        pic.get('small'),
+    ]
+    seen = set()
+    out = []
+    for u in urls:
+        if u and u not in seen:
+            out.append(u)
+            seen.add(u)
+    return out
+
+
+def download_image(s, urls, referer, filepath, attempts=3):
+    """带重试和多 URL fallback 的海报下载。任一组合成功就返回 True。"""
+    last_err = None
+    for url in urls:
+        for i in range(attempts):
+            try:
+                resp = s.get(
+                    url,
+                    headers={'Referer': referer},
+                    timeout=30,
+                )
+                resp.raise_for_status()
+                filepath.write_bytes(resp.content)
+                return True
+            except Exception as e:
+                last_err = e
+                if i < attempts - 1:
+                    time.sleep(2 ** i)  # 1s, 2s
+    print(f"  最终失败 {filepath.name}: {last_err}")
+    return False
+
+
 def manage_images(s, items, images_dir):
     """下载本期新图、清理离榜旧图。返回 {subject_id: filename}"""
     images_dir.mkdir(parents=True, exist_ok=True)
@@ -174,27 +214,19 @@ def manage_images(s, items, images_dir):
 
     for item in items:
         sid = str(item.get('id') or '')
-        url = (item.get('pic') or {}).get('large') or item.get('cover_url') or ''
-        if not sid or not url:
+        urls = candidate_image_urls(item)
+        if not sid or not urls:
             continue
-        filename = f'{sid}.{image_ext(url)}'
+        filename = f'{sid}.{image_ext(urls[0])}'
         filepath = images_dir / filename
-        name_map[sid] = filename
+        referer = item.get('url') or 'https://m.douban.com/'
 
         if filepath.exists():
+            name_map[sid] = filename
             continue
-        try:
-            resp = s.get(
-                url,
-                headers={'Referer': item.get('url') or 'https://m.douban.com/'},
-                timeout=30,
-            )
-            resp.raise_for_status()
-            filepath.write_bytes(resp.content)
+        if download_image(s, urls, referer, filepath):
+            name_map[sid] = filename
             print(f"  下载: {filename}")
-        except Exception as e:
-            print(f"  图片失败 {sid}: {e}")
-            del name_map[sid]
 
     keep = set(name_map.values())
     for f in images_dir.iterdir():
@@ -218,6 +250,47 @@ def build_title(item):
     return ' '.join(p for p in parts if p)
 
 
+def first_int(sources, keys):
+    """从多个 dict 候选字段里取第一个正整数，找不到返回 None。"""
+    for src in sources:
+        if not isinstance(src, dict):
+            continue
+        for key in keys:
+            v = src.get(key)
+            if v is None or v == '':
+                continue
+            try:
+                iv = int(v)
+            except (ValueError, TypeError):
+                continue
+            if iv > 0:
+                return iv
+    return None
+
+
+def season_episode_text(detail, item):
+    """返回 (季数描述, 集数描述)，无对应字段返回 ''。
+
+    豆瓣 TV 详情字段名不固定，多个候选都试一遍。
+    季数只有 >1 才显示（单季剧没必要标）。
+    """
+    current_season = first_int([detail, item], ['current_season', 'season'])
+    season_count = first_int([detail, item], ['season_count', 'seasons_count'])
+    episodes_count = first_int(
+        [detail, item], ['episodes_count', 'episode_count', 'episodes']
+    )
+
+    parts = []
+    if current_season and current_season > 1:
+        parts.append(f'第 {current_season} 季')
+    if season_count and season_count > 1:
+        parts.append(f'共 {season_count} 季')
+    season_text = ' / '.join(parts)
+
+    episode_text = f'{episodes_count} 集' if episodes_count else ''
+    return season_text, episode_text
+
+
 def info_block(detail, item):
     """metadata 块：每个字段一行，标签加粗。"""
     year = detail.get('year') or item.get('year')
@@ -230,6 +303,7 @@ def info_block(detail, item):
     pubdate = detail.get('pubdate') or detail.get('pubdates') or []
     aka = detail.get('aka') or []
     imdb = detail.get('imdb') or ''
+    season_text, episode_text = season_episode_text(detail, item)
 
     rows = []
 
@@ -243,6 +317,8 @@ def info_block(detail, item):
     row('时间', year)
     row('地区', countries)
     row('类型', genres)
+    row('季数', season_text)
+    row('集数', episode_text)
     row('导演', directors)
     row('主演', actors[:5])
     row('语言', languages)
