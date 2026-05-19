@@ -1,70 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 19 May 2026 02:30:29 +0000</lastBuildDate><item><title>Linus Torvalds称AI提交的重复报告已经让内核安全邮件列表变得无法管理</title><link>https://www.landiannews.com/archives/112959.html</link><description>
-&lt;p&gt;#人工智能 Linus Torvalds 称 AI 提交的重复报告已经让内核安全邮件列表变得无法管理，经常出现相同的漏洞被不同的人使用相同的 AI 工具持续提交多个重复的报告。Linus Torvalds 称如果你使用 AI 工具发现问题，很可能这个问题也被其他人发现，如果你真的想要贡献价值，请在 AI 工作的基础上阅读文档并提交补丁，别做那种不加思考就随便提交报告的人。查看详情：https://ourl.co/112959&lt;/p&gt;&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/public/thumb/linux.png" rel="nofollow"&gt;&lt;img alt="Linus Torvalds称AI提交的重复报告已经让内核安全邮件列表变得无法管理" data-src="https://img.landian.news/landian/public/thumb/linux.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/public/thumb/linux.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;使用人工智能发掘并提交漏洞的自动化流程也已经影响 Linux Kernel 项目，Linus Torvalds 在每周发布的内核状态报告中称，人工智能持续提交的错误报告基本上让安全邮件列表变得无法管理，原因则是不同的人使用相同的 AI 工具发现相同的问题并重复提交。&lt;/p&gt;
-&lt;p&gt;对开源软件维护者而言，现在面临人工智能的冲击正在持续增加，有些人使用人工智能自动化发掘漏洞并提交错误报告，有些人则致力于发现各种小问题并提交 PR，但很多漏洞报告都是无效的，因为提交漏洞的人并不会自己审阅漏洞，全程都是 AI 智能体在执行操作。&lt;/p&gt;
-&lt;p&gt;就 Linux Kernel 来说这种情况其实还更糟糕，因为内核项目会持续发布更新和候选版本用来修复各种错误，有些人使用人工智能提交的漏洞可能在数月前就被修复，而这些漏洞可能会被大量不同的人重复提交报告，这对审阅漏洞报告的 Linus Torvalds 来说非常痛苦。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Linus Torvalds 在状态报告中表示：&lt;/strong&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;人工智能工具固然好用，但前提是人工智能真的可以帮助我们，而不是造成不必要的痛苦和毫无意义的虚假工作，大家可以继续使用人工智能，但应该以高效且能够带来更好体验的方式使用人工智能。&lt;/p&gt;
-&lt;p&gt;所以我再说一遍：如果你使用 AI 工具发现了一个 BUG，很有可能其他人也已经发现了，如果你真的想要贡献价值，请仔细阅读文档并提交补丁，在 AI 工作的基础上额外添加一些真正有价值的东西，别做那种不加思考就随便提交个报告的人，明白吗？&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;via &lt;a href="https://lkml.org/lkml/2026/5/17/896" rel="noopener" target="_blank"&gt;LKML&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 19 May 2026 02:30:29 +0000</pubDate></item><item><title>在欧盟实施浏览器选择屏幕后 火狐浏览器大约获得600万名新用户</title><link>https://www.landiannews.com/archives/112958.html</link><description>
-&lt;p&gt;#软件资讯 在欧盟强制实施浏览器选择屏幕方案两年后，火狐浏览器新增大约 600 万名移动用户，而且用户留存率非常高。浏览器选择屏幕指的是用户初次设置 iOS 或安卓时弹出的浏览器选择界面，用户在这里可以自由选择不同浏览器作为默认浏览器，而不是系统默认使用 Safari 或 Chrome。查看详情：https://ourl.co/112958&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landiannews.com/archives/102730.html" rel="noopener" target="_blank"&gt;欧盟实施的数字市场法案迫使谷歌和苹果在移动设备上提供浏览器选择屏幕&lt;/a&gt;，而不是按照操作系统设定让用户默认选择 Safari 或 Chrome 作为主要浏览器，浏览器选择屏幕的原理是苹果和谷歌在用户初次使用设备时弹出界面，由用户自主选择使用哪款浏览器并将其设置为默认浏览器。&lt;/p&gt;
-&lt;p&gt;浏览器选择排序也是随机分布的，对浏览器开发商来说这是个比较公平的做法，因为可以让更多用户接触到非 Safari 或 Chrome 浏览器，最终结果就是其他浏览器产品的用户量显著增长。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2024/03/102730-1.png" rel="nofollow"&gt;&lt;img alt="在欧盟实施浏览器选择屏幕后 火狐浏览器大约获得600万名新用户" data-data-src="https://img.lancdn.com/landian/2024/03/102730-1.png" data-src="https://img.lancdn.com/landian/2024/03/102730-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2024/03/102730-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2024/03/102730-2.png" rel="nofollow"&gt;&lt;img alt="在欧盟实施浏览器选择屏幕后 火狐浏览器大约获得600万名新用户" data-data-src="https://img.lancdn.com/landian/2024/03/102730-2.png" data-src="https://img.lancdn.com/landian/2024/03/102730-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2024/03/102730-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 19 May 2026 07:30:55 +0000</lastBuildDate><item><title>微软将停止向个人账户提供短信验证码服务 未来登录时主要靠通行密钥或邮箱验证码</title><link>https://www.landiannews.com/archives/112993.html</link><description>
+&lt;p&gt;# 网站应用 微软将逐步停止向个人 Microsoft 账户发送短信验证码，未来登录时主要依靠通行密钥或邮箱验证码。微软认为短信验证码是万恶之源，安全系数太低，微软强烈推荐用户绑定通行密钥，通行密钥内置的域名绑定措施也应对钓鱼网站，如果用户没有绑定通行密钥则未来会使用邮箱发送验证码。查看详情：https://ourl.co/112993&lt;/p&gt;&lt;p&gt;微软近期发布支持文档宣布微软将逐步停止向 Microsoft 个人用户提供短信验证码服务，即未来用户登录 (以及找回) 账户时若要进行多因素验证，则用户必须使用通行密钥、生物识别或电子邮件验证码，因此用户也必须提前配置以上验证步骤以免未来登录受影响。&lt;/p&gt;
+&lt;p&gt;对大多数用户而言使用通行密钥(Passkey)可能是目前最简便也是最安全的验证方式，用户可以使用 Windows 11、iOS 或安卓设备绑定通行密钥，再登录时进行面容或指纹解锁即可调用本地存储的通行密钥实现快速登录，甚至用户都可以直接删除微软账户的密码实现无密码登录。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112993.png" rel="nofollow"&gt;&lt;img alt="微软将停止向个人账户提供短信验证码服务 未来登录时主要靠通行密钥或邮箱验证码" data-src="https://img.landian.news/landian/2026/05/112993.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112993.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;谋智基金会分享的信息显示，随着欧洲用户可以在移动设备上选择默认浏览器，该基金会旗下的开源浏览器产品火狐浏览器的使用率正在上涨中，谋智基金会估计浏览器选择屏幕为火狐浏览器带来大约 600 万名的新用户，原本这些用户会选择 Safari 或者 Chrome 浏览器。&lt;/p&gt;
-&lt;p&gt;当然这个数据其实并不是特别让人震惊，因为浏览器选择屏幕还是在 2024 年年中实施的，也就是说大约 2 年火狐浏览器才获得 600 万名新用户，相较于其他浏览器而言，火狐浏览器的成绩并不突出。&lt;/p&gt;
-&lt;p&gt;不过也有好消息，谋智基金会称通过浏览器选择屏幕主动选择火狐浏览器的用户留存率非常高，这要比平时自主下载火狐浏览器用户的留存率高出 5 倍，也就是主动选择火狐浏览器的大多数都是忠实用户，而不是抱着试试看的心态安装进行体验。&lt;/p&gt;
+&lt;p&gt;微软认为短信验证码已经成为当前欺诈的主要来源，运营商发送的短信验证码很容易遭到劫持，如果将短信验证码作为关键验证方式则用户账户就有可能会被针对性的窃取，这种情况在过去 10 年已经发生过很多次。&lt;/p&gt;
+&lt;p&gt;短信验证码被劫持有多种方式：包括用于发送验证的运营商遭到黑客攻击或存在内鬼从而泄露验证码 (有真实案例)，更多的则是针对特定用户发起的 SIM 换卡攻击，攻击者只需要伪造目标用户的身份证件即可欺骗运营商生成新 SIM 卡从而接收验证码。&lt;/p&gt;
+&lt;p&gt;微软认为转向无密码账户、通行密钥登录以及通过已经验证的电子邮件发送验证码都可以应对不断演变的威胁，同时还可以让用户登录账户时变得更简单和更顺畅，所以未来微软也将彻底淘汰通过短信发送关键验证码的做法。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;注重保护用户隐私的搜索引擎 DuckDuckGo 也有自己的浏览器，该公司称由于欧盟实施的浏览器选择屏幕，在安卓设备上 DuckDuckGo 浏览器用户增加约 40%，相关数据也被提交给英国监管机构，因为目前浏览器行业也在推动英国实施类似欧盟的数字市场法案。&lt;/p&gt;
-&lt;p&gt;DuckDuckGo 称浏览器屏幕不应该只在用户初次设置设备时出现，而是每年都应该强制显示 1 次，并且也应该要求谷歌不得不 Chrome 浏览器中弹出将搜索引擎切换回谷歌的提示，对 DuckDuckGo 来说，这可以增加其搜索引擎的用户留存率。&lt;/p&gt;
-&lt;p&gt;谋智基金会希望英国监管机构能够在 2026 年就要求苹果和谷歌提供类似欧盟的浏览器选择屏幕，而且还需要向用户提供默认搜索引擎选择屏幕，这些措施应该强制实施，不能指望相关开发商的自愿承诺。&lt;/p&gt;
-&lt;p&gt;最后谋智基金会也在批评欧盟委员会，该基金会表示，欧盟也应该在桌面操作系统上实施相同的浏览器选择屏幕，谋智基金会也继续指责微软使用欺骗性的设计策略推广 Microsoft Edge 浏览器。&lt;/p&gt;
-</description><pubDate>Tue, 19 May 2026 02:00:29 +0000</pubDate></item><item><title>开源的NPM生态蠕虫Shai-Hulud被更多黑客使用 安全公司在NPM上发现新的恶意包</title><link>https://www.landiannews.com/archives/112960.html</link><description>
-&lt;p&gt;#安全资讯 病毒开源后可能就是更多黑客的狂欢，OX 安全团队发现已经有黑客利用此前开源的蠕虫病毒 Shai-Hulud 发起攻击。OX 在 NPM 注册表中发现 4 个新恶意包，其中 1 个包里面就直接使用 Shai-Hulud 蠕虫病毒，黑客仅修改 C2 服务器未对其他代码进行变更，对黑客而言这可以显著降低工作量。查看详情：https://ourl.co/112960&lt;/p&gt;&lt;p&gt;此前致力于 NPM 生态系统供应链攻击的黑客团队 TeamPCP &lt;a href="https://www.landiannews.com/archives/112919.html" rel="noopener" target="_blank"&gt;开源其使用人工智能编写的蠕虫病毒 Shai-Hulud&lt;/a&gt; (这个名称取自科幻小说沙丘中的蠕虫)，尽管后来微软将这个蠕虫开源库删除，但相关代码已经在互联网上传播并且有黑客开始使用这个蠕虫病毒发起攻击。&lt;/p&gt;
-&lt;p&gt;网络安全公司 OX 在日常扫描时发现 NPM 注册表里新出现 4 个包含恶意代码的安装包，其中 1 个安装包就包含 Shai-Hulud 蠕虫病毒的直接克隆版本，投放这个恶意包的黑客仅仅只是修改蠕虫病毒的 C2 服务器，并没有对其他关键选项进行调整。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112960.png" rel="nofollow"&gt;&lt;img alt="开源的NPM生态蠕虫Shai-Hulud被更多黑客使用 安全公司在NPM上发现新的恶意包" data-src="https://img.landian.news/landian/2026/05/112960.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112960.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;通行密钥的安全性较传统密码和短信或电子邮件验证码都更加安全，通行密钥通常不允许转移因此可以避免被窃取，每个账户都使用不同的通行密钥所以也可以应对撞库等攻击，而且用户还可以为账户添加多个不同的通行密钥以便在不同设备上快速认证。&lt;/p&gt;
+&lt;p&gt;微软账户体系已经支持通行密钥，而在 Windows 11 上使用通行密钥时还需要通过 PIN、指纹或面容解锁，通行密钥本身内置域名绑定机制，因此钓鱼网站即便伪造的再像也拿不到私钥因此无法绕过验证。&lt;/p&gt;
+&lt;p&gt;所以使用微软账户的用户请务必转到账户设置里添加通行密钥，如果你追求更高的安全性甚至可以直接删除微软账户密码只使用通行密钥登录 (可以在不同设备上绑定多个通行密钥做备用)。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://support.microsoft.com/en-us/accounts-billing/manage/microsoft-to-stop-sending-sms-codes-for-personal-accounts#wl" rel="noopener" target="_blank"&gt;Microsoft&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 19 May 2026 07:30:55 +0000</pubDate></item><item><title>微软开源发布首款通用服务器发行版Azure Linux 4.0 由微软长期优化并提供维护服务</title><link>https://www.landiannews.com/archives/112992.html</link><description>
+&lt;p&gt;#系统资讯 微软开源发布 (微软的) 首款通用服务器发行版 Azure Linux 4.0，由微软基于 Fedora Linux 进行优化和长期维护。该发行版不提供图形界面，定位为精简的服务器和云端操作系统，微软也将同步发布 WSL 镜像，让开发者可以在本地和云端获得相同的开发环境。查看详情：https://ourl.co/112992&lt;/p&gt;&lt;p&gt;微软云计算团队日前在北美开源峰会上官宣发布微软首款通用服务器发行版 &lt;a href="https://github.com/microsoft/azurelinux" rel="noopener" target="_blank"&gt;Azure Linux 4.0&lt;/a&gt;，该版本与微软此前制作的 Azure Linux 2.0/3.0 版有本质区别，因为此前发布的版本主要都是作为容器使用的，新版本则升级为完整的通用虚拟机镜像并适用于所有场景，不再局限于微软的容器服务平台。&lt;/p&gt;
+&lt;p&gt;Azure Linux 基于 Fedora Linux 开发，采用 RPM 包管理策略，微软将直接负责管理 Azure Linux 的软件包和供应链，让该系统能够与 Microsoft Azure 平台完美契合。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112992.png" rel="nofollow"&gt;&lt;img alt="微软开源发布首款通用服务器发行版Azure Linux 4.0 由微软长期优化并提供维护服务" data-src="https://img.landian.news/landian/2026/05/112992.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112992.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;@chalk-tempalte 下载次数约 800 次&lt;/li&gt;
-&lt;li&gt;@axios-util 下载次数约 300 次 (注意这是个冒充 Axios 的恶意包)&lt;/li&gt;
-&lt;li&gt;@axois-util 下载次数约 900 次 (注意这同样是个冒充 Axios 的恶意包)&lt;/li&gt;
-&lt;li&gt;@color-style-utils 下载次数约 900 次&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;最初微软发布的 Azure Linux 操作系统主要用于微软云计算平台的容器服务，Azure Linux 4.0 版则从容器镜像升级为完整的通用虚拟机镜像，这意味着客户可以在云服务器中直接使用这个新系统，而且将会获得微软提供的完整更新与维护服务。&lt;/p&gt;
+&lt;p&gt;Azure Linux 发行版由微软自主掌控整个供应链 (从内核到包集)，微软称该发行版可以提供更小的攻击面以及业界领先的安全性，同时微软还将面向使用 Windows 11 的开发者提供 WSL 版镜像，方便开发者在本地与云端使用相同的开发环境。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 每个 Azure Linux 主要版本提供 2 年支持：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;根据微软公布的产品支持策略，每个 Azure Linux 主要版本将获得 2 年的安全维护支持，该发行版本身不提供图形化界面，主要定位为精简的服务器和云端操作系统，微软会通过 Azure 向 Azure Linux 提供每月常规安全补丁和紧急 CVE 快速响应，客户还可以配置自动升级选项以便在微软发布更新后立即安装。&lt;/p&gt;
+&lt;p&gt;当然微软不会强迫客户在 Microsoft Azure 平台使用这个发行版，微软将继续为 RHEL、Ubuntu、Fedora Linux 等其他主流发行版提供完整支持，微软没有计划取代生态系统合作伙伴。&lt;/p&gt;
+</description><pubDate>Tue, 19 May 2026 07:00:52 +0000</pubDate></item><item><title>Claude Code快速模式现在默认使用Opus 4.7 响应速度提升2.5倍但成本高6倍</title><link>https://www.landiannews.com/archives/112954.html</link><description>
+&lt;p&gt;#人工智能 Claude Code 快速模式现在默认使用 Claude Opus 4.7 模型，快速模式将提供与 Opus 4.7 相同的质量，不会因为响应速度提升 2.5 倍而降低质量。当然快速模式使用成本更高，本次 Claude 订阅方案是不包含快速模式使用积分的，所以开发者使用快速模式需要额外支付费用。查看详情：https://ourl.co/112954&lt;/p&gt;&lt;p&gt;Claude Code 开发团队日前宣布该工具的快速模式现在默认使用 Claude Opus 4.7 模型 (最高支持 1M 窗口)，在快速模式下 Claude Code 将提供与 Claude Opus 4.7 相同的响应质量，不会因为响应速度提升 2.5 倍将出现降智或代码质量差等情况。&lt;/p&gt;
+&lt;p&gt;快速模式可以让模型响应速度直接提升 2.5 倍左右，目前官方建议仅是开发者需要进行快速迭代或实时调试等交互式工作时才需要启用快速模式。如果本身任务优先级不高且开发者更关注成本，则不应该启用快速模式，快速模式在默认情况下也是禁用的。&lt;/p&gt;
+&lt;p&gt;当然快速模式还需要额外付费才能使用，无论是 Claude Pro 还是 Claude Max 订阅本身提供的都是标准模式配额而不包含快速模式配额，所以使用快速模式后开发者需要额外为快速模式消耗的 Tokens 支付费用，具体价格可以参考下文的对照。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112954.png" rel="nofollow"&gt;&lt;img alt="Claude Code快速模式现在默认使用Opus 4.7 响应速度提升2.5倍但成本高6倍" data-src="https://img.landian.news/landian/2026/05/112954.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112954.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;OX 安全团队经过分析后发现 @chalk-tempalte 包里面使用开源的 Shai-Hulud 蠕虫病毒源代码，这些恶意包均为相同的用户 @deadcode09284814 发布，但不同的包部署的恶意代码还都是完全不同的，而包含蠕虫病毒的恶意包则主要用于窃取开发者的各类敏感凭证，成功获得凭证后蠕虫病毒会利用有效的凭证继续进行传播。&lt;/p&gt;
-&lt;p&gt;开源蠕虫病毒对黑客来说可能是个好消息，因为这名黑客直接复制 Shai-Hulud 病毒库仅对 C2 服务器进行修改，所以对下游黑客来说不需要自己写代码即可利用开源项目进行部署，未来这种情况可能会快速增加，Shai-Hulud 蠕虫病毒可能也永远不会消失。&lt;/p&gt;
-&lt;p&gt;黑客使用的部分域名或 IP 地址如下：87e0bbc636999b.lhr [.] life、80.200.28 [.] 28:2222、edcf8b03c84634.lhr [.] life&lt;/p&gt;
-</description><pubDate>Tue, 19 May 2026 01:30:28 +0000</pubDate></item><item><title>微软确认Windows 11 5月更新存在无法安装并触发0x800f0922错误代码自动回滚</title><link>https://www.landiannews.com/archives/112963.html</link><description>
-&lt;p&gt;#系统资讯 微软确认 Windows 11 安装 5 更新可能存在失败问题，引起该问题的原因是 EFI 系统分区 ESP 空间不足。当 ESP 空间为 10MB 或更低时就会在重启阶段出现错误并触发自动回滚，该问题不需要用户执行任何操作，微软已经通过云端推送 KIR 已知问题回滚方案进行处置，用户保持设备联网即可。查看详情：https://ourl.co/112963&lt;/p&gt;&lt;p&gt;早前微软面向 Windows 11 发布本月例行累积更新 KB5089549，该更新发布后就立即有用户遇到无法正常安装的情况，系统在初步安装并在重启阶段时提示安装错误并触发自动回滚，随后用户尝试进行多次安装也未能成功安装该更新。&lt;/p&gt;
-&lt;p&gt;现在微软已经确认这个问题是由 EFI 系统分区 ESP 上的可用空间不足引起的，受影响的设备尝试安装更新时将会触发自动回滚，同时用户可能会看到 0x800f0922 等类型的错误代码，微软目前已经部署方案尝试解决问题。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/public/thumb/W11.png" rel="nofollow"&gt;&lt;img alt="微软确认Windows 11 5月更新存在无法安装并触发0x800f0922错误代码自动回滚" data-src="https://img.landian.news/landian/public/thumb/W11.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/public/thumb/W11.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;微软称部分设备上的 EFI 系统分区可用空间只有 10MB 或者更少，因此在安装更新时会因为某些错误触发自动回滚：在受影响的设备上安装过程可能顺利完成初始阶段，但在重启阶段完成 35%~36% 时失败随后触发自动回滚流程。&lt;/p&gt;
-&lt;p&gt;用户如果在事件查看器中检查日志则可能看到如下错误描述：空间检查可用空间不足、ServicingBootFiles 失败且错误代码 0x70、SpaceCheck 用于 Microsoft 启动目录之外的第三方 / OEM 文件。&lt;/p&gt;
-&lt;p&gt;以上错误描述均可归因于 EFI 系统分区不足引发的错误，当然在正常流程中 10MB 的可用空间仍然可以完成更新，所以这次问题的黑锅还是要微软来背，用户不需要执行任何额外操作。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;为临时解决该问题避免部分设备出现循环安装错误，微软已经在云端部署 KIR 已知问题回滚策略，该策略会自动撤销错误更新用于临时解决问题，最终解决方案微软还需要重新研究并在后续更新中发布。&lt;/p&gt;
-&lt;p&gt;对于普通消费者而言当前不需要执行任何额外操作，系统会自动从云端接收 KIR 方案并处理 EFI 系统分区，处理后系统再次检查更新安装 KB5089549 应该就可以正常安装，不需要自己通过命令行尝试操作分区 (高风险行为)。&lt;/p&gt;
-&lt;p&gt;企业设备则需要 IT 管理员进行控制，IT 管理员需要下载微软提供的组策略模版并进行应用，这个组策略模版仅针对此次问题 (KIR) 方案，部署组策略后需要重启设备才能生效。&lt;/p&gt;
-&lt;p&gt;组策略模板下载地址：&lt;a href="https://download.microsoft.com/download/4ed10a70-0e17-4215-87c4-5eabbfe99c03/Windows%2011%2024H2%2c%20Windows%2011%2025H2%20and%20Windows%20Server%202025%20KB5089549%20260514_06221%20Known%20Issue%20Rollback.msi" rel="noopener" target="_blank"&gt;20260514-06221-Rollback.msi&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 19 May 2026 01:00:27 +0000</pubDate></item><item><title>百度集团发布26Q1财报 广告营收持续走低/AI营收持续增长/净利润暴跌55%</title><link>https://www.landiannews.com/archives/112964.html</link><description>
-&lt;p&gt;#行业资讯 百度集团发布 26Q1 财报，净利润暴跌 55%、在线广告营收持续下滑，但 AI 相关的业务成为新的增长引擎。财报数据显示，26Q1 百度净利润 34.5 亿元，较 25Q1 暴跌 55%，而 AI 相关业务取得 49% 的营收增长，且 AI 业务营收已经占百度一般业务营收的 50%。查看详情：https://ourl.co/112964&lt;/p&gt;&lt;p&gt;百度集团于 2026 年 5 月 18 日盘后公布 2026 财年 Q1 财报，财报显示百度在当季度净利润仅 34.5 亿元，较 2025 财年同期暴跌 55%，但净利润暴跌并不是特别难看的事情，因为百度也在大力投资以人工智能技术为基础的云业务，该业务营收同比暴增 49%。&lt;/p&gt;
-&lt;p&gt;对百度来说当前的局面并不算很难看，核心就是人工智能业务营收占百度一般业务营收的比例已经超过 50%，也就是百度不再是广告公司，投资者也非常看好百度在人工智能方面的投资和取得的成绩，所以百度集团的股价并没有出现大幅度下跌。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/03/112246.png" rel="nofollow"&gt;&lt;img alt="百度集团发布26Q1财报 广告营收持续走低/AI营收持续增长/净利润暴跌55%" data-src="https://img.lancdn.com/landian/2026/03/112246.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/03/112246.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 19 May 2026 06:30:59 +0000</pubDate></item><item><title>索尼互娱将重新维持PlayStation游戏独占策略 不再将游戏移植到PC平台</title><link>https://www.landiannews.com/archives/112953.html</link><description>
+&lt;p&gt;#游戏资讯 索尼互娱 CEO 证实部分游戏将重新维持 PlayStation 独占，也就是不再发售后将其移植到 PC 平台。不过这项变更仅影响索尼互娱发布的单人叙事游戏，索尼工作室和合作游戏开发商发行的其他游戏例如多人游戏或专注在线服务体验的游戏不受影响，还会继续移植到 PC 平台。查看详情：https://ourl.co/112953&lt;/p&gt;&lt;p&gt;此前就已经有消息提前爆出索尼将停止将游戏移植到 PC 平台以便 PlayStation 可以进行游戏独占，现在这则消息已经得到索尼官方证实，索尼互动娱乐工作室业务集团首席执行官确认 PS 游戏移植到 PC 平台的策略正在发生变化，具体来说索尼互娱旗下的单人叙事游戏将不再会被移植到 PC 平台。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112953.png" rel="nofollow"&gt;&lt;img alt="索尼互娱将重新维持PlayStation游戏独占策略 不再将游戏移植到PC平台" data-src="https://img.landian.news/landian/2026/05/112953.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112953.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这项政策目前仅影响索尼互娱工作室，因此索尼工作室或索尼的其他游戏合作伙伴开发的游戏应该不受影响，尤其是专注于多人游戏或在线服务体验的游戏可以继续被移植到 PC 平台，部分即将推出的游戏会继续保持多平台发行计划。&lt;/p&gt;
+&lt;p&gt;至于索尼互娱工作室为什么要放弃 PC 平台暂时还不得而知，不过有消息称索尼互娱对 PC 平台的销售数据并不满意，也就是投资进行移植结果并没有取得很好的回报，这让索尼互娱管理层认为继续移植游戏到 PC 平台可能是不值得的。&lt;/p&gt;
+&lt;p&gt;当然还有传闻称移植游戏也会损害 PlayStation 品牌并影响未来的硬件发布，如果始终保持 PlayStation 平台游戏独占的话，可以吸引更多玩家购买该设备，提供移植的话玩家就可以耐心等待移植版而在自己的 PC 上游戏，这不利于索尼销售更多 PlayStation 主机。&lt;/p&gt;
+&lt;p&gt;另外本身索尼的游戏移植也存在硬伤，索尼向来是优先支持自家的 PlayStation 平台，所以移植到 PC 版通常需要等待 1 年甚至更长时间，而且移植版刚发布时可能还会出现各种问题，所以对于着急游戏和获得更好体验的玩家来说，还是需要购买 PlayStation。&lt;/p&gt;
+</description><pubDate>Tue, 19 May 2026 06:00:57 +0000</pubDate></item><item><title>Starlink星链提高美国卫星互联网套餐价格 100M/200M每月涨价5美元</title><link>https://www.landiannews.com/archives/112952.html</link><description>
+&lt;p&gt;#网络设备 Starlink 星链提高美国卫星互联网套餐价格，100M/200M 带宽每月涨价 5 美元，超过 400M 的家庭 MAX 套餐涨价 10 美元。星链还对流量漫游套餐价格进行调整，100GB 流量版涨价 5 美元，无限流量版涨价 10 美元，300GB 流量版维持原价。查看详情：https://ourl.co/112952&lt;/p&gt;&lt;p&gt;埃隆马斯克旗下的卫星互联网服务提供商星链 (Starlink) 日前宣布提高在美国提供的卫星互联网订阅套餐价格，包括低速数据流量的待机模式价格也同样上涨，对使用星链卫星互联网套餐的用户来说接下来收到的账单就会按照涨价后的价格来计算。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112952.png" rel="nofollow"&gt;&lt;img alt="Starlink星链提高美国卫星互联网套餐价格 100M/200M每月涨价5美元" data-src="https://img.landian.news/landian/2026/05/112952.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112952.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;26Q1 财季百度集团总体营收：321 亿元人民币，约合 44 亿美元&lt;/li&gt;
-&lt;li&gt;分析师预期营收：313.5 亿元人民币，实际业绩超过分析师预期&lt;/li&gt;
-&lt;li&gt;26Q1 财季营收较 2025Q1 财季同比下降 1.1%&lt;/li&gt;
-&lt;li&gt;26Q1 财季净利润 34.5 亿元人民币，较 2025Q1 财季同比暴跌 55%&lt;/li&gt;
-&lt;li&gt;调整后的 ADS 每股收益 12.06 元，高于分析师预期的 11.57 元&lt;/li&gt;
+&lt;li&gt;100M 家庭套餐：原价 50 美元 / 月，调整后 55 美元 / 月&lt;/li&gt;
+&lt;li&gt;200M 家庭套餐：原价 80 美元 / 月，调整后 85 美元 / 月&lt;/li&gt;
+&lt;li&gt;400M 家庭套餐：原价 120 美元 / 月，调整后 130 美元 / 月 (属于家庭 Max 订阅套餐)&lt;/li&gt;
+&lt;li&gt;主动待机模式：该模式提供低速无限流量，原价 5 美元 / 月，调整后 10 美元 / 月&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;百度在财报中披露，其人工智能驱动的业务包括百度智能云、AI 应用以及自动驾驶业务萝卜快跑在当季度营收同比暴增 49%，营收金额达到 136 亿元人民币，这在百度一般业务营收中占比已经超过 50%。&lt;/p&gt;
-&lt;p&gt;不过百度的支柱业务也就是在线广告营收持续下滑，26Q1 百度在线广告业务营收 126 亿元人民币，较 25Q1 财季的 160 亿元人民币下跌 21.25%，随着人工智能技术的发展，越来越多的用户通过 AI 应用查询信息，因此对百度而言接下来在线广告业务的营收可能还会持续下降。&lt;/p&gt;
-&lt;p&gt;百度表示，AI 云和 AI 基础设施已经成为新的增长引擎，萝卜快跑以及文心大模型等相关商业化也在继续推进。接下来 AI 业务对百度营收的贡献也会越来越高，市场对百度的判断逻辑也从传统广告公司转向 AI 基础设施 + AI 云 + 自动驾驶平台。&lt;/p&gt;
-&lt;p&gt;当然 AI 方面的投资也是非常惊人的，百度此前已经披露自 2023 年以来百度在 AI 方面的累计投资已经超过千亿人民币，AI 云营收增速很高，但百度在资本开支、算力以及模型训练等方面的成本也依然非常大。&lt;/p&gt;
-</description><pubDate>Tue, 19 May 2026 00:30:26 +0000</pubDate></item></channel></rss>
+&lt;p&gt;星链也提供漫游套餐，此前 100GB 流量的漫游套餐价格为 50 美元，调整后涨价到 55 美元；300GB 流量的漫游套餐维持原价每月 80 美元不变；而无限流量的漫游套餐则从每月 165 美元涨价到 175 美元。&lt;/p&gt;
+&lt;p&gt;星链在公告中表示，此次涨价的原因是因为星链正在快速提升网络容量、扩大覆盖范围和提高可靠性，为客户提供更快以及更稳定的连接，因此需要通过涨价平衡支出以便有更多资金进行投入。&lt;/p&gt;
+</description><pubDate>Tue, 19 May 2026 05:30:55 +0000</pubDate></item></channel></rss>
