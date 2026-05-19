@@ -74,6 +74,7 @@
 - **纯文字模式** — `text_only` 在 `fix_image_tags` 之后剥掉所有 `<img>`，适用于图片源防盗链无解、只想看文字的站点
 - **RSSHub URL 策略** — `rsshub://` 协议走 CI 本地实例；直接写 `https://rsshub.app/...` 则走官方实例不被改写，适用于本地实例无法抓取的源
 - **豆瓣图片自托管** — wsrv.nl 等代理对 doubanio 返回 404（海外 IP 段被拦），改为 Actions 直接下载海报到 `feeds/images/{name}/`，由 GH Pages 提供，零防盗链。每次运行只保留本期榜单的图，已离榜的自动清理
+- **豆瓣海报下载重试** — `download_image` 每个 URL 重试 3 次（1s/2s backoff），并按 `pic.large` → `pic.normal` → `cover_url` → `pic.small` 顺序 fallback。任一组合成功即可。下载彻底失败的条目从 `name_map` 移除，正文不带图（不回落 doubanio 直链，防盗链拉不到）
 - **豆瓣标签字段不固定** — 不同接口字段名不一致（honor_infos / tags / subject_tags / topic_tags / content_tags），`extract_tags` 多个候选都试一遍去重
 - **Push 重试** — translate.yml 和 douban.yml 都 push 到 main，可能撞上 PR merge 或对方 workflow 的提交。两边 commit step 都加了「push 失败 → rebase origin/main → 重试」循环（最多 3 次，3/6/9s sleep）
 
