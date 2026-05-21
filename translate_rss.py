@@ -20,6 +20,9 @@ client = OpenAI(
     base_url="https://api.deepseek.com"
 )
 
+# GitHub Pages 根地址，self_host_images 自托管图片时拼 URL 用
+GH_PAGES_BASE = 'https://awesomesnaki.github.io/rss-translator'
+
 def load_config():
     with open('config.yaml', 'r', encoding='utf-8') as f:
         return yaml.safe_load(f)
@@ -215,6 +218,64 @@ def fix_image_tags(html_content):
                 if img.get(attr):
                     img['src'] = img[attr]
                     break
+    return str(soup)
+
+def download_remote_image(url, images_dir, referer, attempts=3):
+    """下载单张远程图片到 images_dir，文件名为 URL 的 md5 + 扩展名。
+    已下载过则命中缓存直接跳过。返回文件名，彻底失败返回 None。"""
+    key = get_hash(url)
+    for cached in images_dir.glob(f'{key}.*'):
+        return cached.name
+
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
+    }
+    if referer:
+        headers['Referer'] = referer
+
+    # 七牛云 imageView2 会把图转成 webp，扩展名以实际 Content-Type 为准
+    ct_ext = {
+        'image/jpeg': 'jpg', 'image/jpg': 'jpg', 'image/png': 'png',
+        'image/webp': 'webp', 'image/gif': 'gif', 'image/avif': 'avif',
+    }
+    last_err = None
+    for i in range(attempts):
+        try:
+            resp = requests.get(url, headers=headers, timeout=30)
+            resp.raise_for_status()
+            ct = resp.headers.get('Content-Type', '').split(';')[0].strip().lower()
+            ext = ct_ext.get(ct)
+            if not ext:
+                path_ext = url.split('?')[0].rsplit('.', 1)[-1].lower()
+                ext = path_ext if path_ext in ('jpg', 'jpeg', 'png', 'webp', 'gif') else 'jpg'
+            filename = f'{key}.{ext}'
+            (images_dir / filename).write_bytes(resp.content)
+            return filename
+        except Exception as e:
+            last_err = e
+            if i < attempts - 1:
+                time.sleep(2 ** i)  # 1s, 2s
+    print(f"  图片下载失败 {url}: {last_err}")
+    return None
+
+def localize_images(html_content, images_dir, referer, used_filenames):
+    """把正文里的远程图片下载到本地自托管，<img src> 改写为 GitHub Pages URL。
+    适用于源站 CDN 防盗链严格、referrerpolicy=no-referrer 也救不回来的源（如少数派）。
+    used_filenames 收集本次引用到的文件名，供之后清理离站旧图。"""
+    if not html_content:
+        return html_content
+    soup = BeautifulSoup(html_content, 'html.parser')
+    for img in soup.find_all('img'):
+        src = img.get('src', '')
+        if not src.startswith(('http://', 'https://')):
+            continue
+        if src.startswith(GH_PAGES_BASE):  # 已是本地托管的图，跳过
+            continue
+        filename = download_remote_image(src, images_dir, referer)
+        if filename:
+            img['src'] = f'{GH_PAGES_BASE}/feeds/images/{images_dir.name}/{filename}'
+            used_filenames.add(filename)
+        # 下载失败：保留原 src（带 no-referrer），下次运行再试
     return str(soup)
 
 def clean_readability_html(html_content):
@@ -481,6 +542,13 @@ def translate_feed(feed_config, cache):
     should_summarize_title = feed_config.get('summarize_title', False)
     should_images_only = feed_config.get('images_only', False)
     should_text_only = feed_config.get('text_only', False)
+    should_self_host = feed_config.get('self_host_images', False)
+
+    images_dir = None
+    used_images = set()
+    if should_self_host:
+        images_dir = Path('feeds') / 'images' / feed_config['name']
+        images_dir.mkdir(parents=True, exist_ok=True)
 
     for entry in entries:
         original_title = entry.get('title', '')
@@ -551,6 +619,13 @@ def translate_feed(feed_config, cache):
         # 修复图片防盗链问题
         translated_content = fix_image_tags(translated_content)
 
+        # 自托管图片：下载到本仓库，绕过源站 CDN 防盗链（no-referrer 救不回来时用）
+        if should_self_host:
+            referer = entry.get('link') or feed.feed.get('link', '')
+            translated_content = localize_images(
+                translated_content, images_dir, referer, used_images
+            )
+
         # 纯文字模式：去掉所有图片
         if should_text_only:
             soup = BeautifulSoup(translated_content, 'html.parser')
@@ -569,6 +644,13 @@ def translate_feed(feed_config, cache):
             description=translated_content,
             pubdate=pub_date
         )
+
+    # 清理离站旧图：本次 feed 不再引用的本地图片删掉，避免无限堆积
+    if should_self_host and used_images:
+        for f in images_dir.iterdir():
+            if f.is_file() and f.name not in used_images:
+                f.unlink()
+                print(f"  清理图片: {f.name}")
     
     return translated_feed
 
