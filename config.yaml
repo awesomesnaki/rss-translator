@@ -39,6 +39,9 @@ feeds:
     url: "rsshub://cnbeta"
     fetch_full_content: true
     translate: false
+  - name: "sspai"
+    url: "rsshub://sspai/index"
+    translate: false
   - name: "mac52ipod"
     url: "http://www.mac52ipod.cn/feed.php"
     fetch_full_content: true
