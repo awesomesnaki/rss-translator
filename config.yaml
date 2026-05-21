@@ -42,6 +42,7 @@ feeds:
   - name: "sspai"
     url: "rsshub://sspai/index"
     translate: false
+    self_host_images: true
   - name: "mac52ipod"
     url: "http://www.mac52ipod.cn/feed.php"
     fetch_full_content: true
