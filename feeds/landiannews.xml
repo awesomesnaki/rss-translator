@@ -1,55 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 21 May 2026 03:40:18 +0000</lastBuildDate><item><title>谷歌将在Android 17中推出继续功能 可以在多台设备上无缝衔接正在运行的应用</title><link>https://www.landiannews.com/archives/113012.html</link><description>
-&lt;p&gt;#系统资讯 谷歌将为 Android 17 带来继续功能，与 iOS 的接力类似，可以跨设备无缝切换正在运行的应用。目前该功能仅支持安卓手机与安卓平板，不过后续谷歌还要推出安卓 PC，所以到时候用户可以在 PC 上轻松继续手机上正在进行的活动。查看详情：https://ourl.co/113012&lt;/p&gt;&lt;p&gt;苹果在 iOS 中提供名为接力的功能，该功能允许 macOS 等系统自动检查移动端运行的应用并将其放在桌面端继续运行，这样做的好处是用户可以无缝在多个设备之间切换而不需要手动操作，所以现在谷歌也要为安卓系统带来类似的功能。&lt;/p&gt;
-&lt;p&gt;谷歌计划在 Android 17 中推出名为继续的新功能，当用户在安卓设备上开始某个活动时，可以在其他设备中继续运行，安卓的继续功能为双向运行，初期仅支持安卓手机与安卓平板之间的相互切换和继续。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113012.png" rel="nofollow"&gt;&lt;img alt="谷歌将在Android 17中推出继续功能 可以在多台设备上无缝衔接正在运行的应用" data-src="https://img.landian.news/landian/2026/05/113012.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113012.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 21 May 2026 10:26:11 +0000</lastBuildDate><item><title>Visual Studio Code终于内置HTML预览 不需要再安装其他扩展程序</title><link>https://www.landiannews.com/archives/113042.html</link><description>
+&lt;p&gt;#软件资讯 Visual Studio Code 终于内置 HTML 预览查看器，不需要再安装其他扩展程序或使用浏览器即可显示 HTML 内容。这个新功能是 v1.121 最新添加的，微软也意识到如此简单的实用小功能应该直接内置，遗憾的是目前不支持实时加载，修改内容后需要先保存再刷新预览查看变动。查看详情：https://ourl.co/113042&lt;/p&gt;&lt;p&gt;微软日前发布 Visual Studio Code v1.121 版，微软在该版本中新增内置的 HTML 预览查看器，让开发者编写 HTML 文件时可以直接使用查看器预览，不需要再为了如此简单的功能而单独安装其他扩展程序。&lt;/p&gt;
+&lt;p&gt;HTML 预览本身就是非常简单的功能，以前开发者要么安装支持预览的扩展程序，要么直接使用任何浏览器在本地打开文件进行预览，但微软也终于意识到 HTML 预览可能还是有必要直接内置的，所以现在开发者可以直接预览文件。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113042-1.png" rel="nofollow"&gt;&lt;img alt="Visual Studio Code终于内置HTML预览 不需要再安装其他扩展程序" data-src="https://img.landian.news/landian/2026/05/113042-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113042-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src="https://img.landian.news/landian/2026/05/113042-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113042-2.png"/&gt;&lt;/p&gt;
+&lt;p&gt;遗憾的是蓝点网测试发现，在并排浏览的情况下 HTML 预览还不支持实时加载，也就是开发者修改内容后必须先按保存然后再刷新预览，为了提高效率微软或许应该做成实时加载，让开发者的任何修改都直接呈现出来，这样使用体验可能会更好，我们非常期待微软后续能够支持实时加载和预览。&lt;/p&gt;
+&lt;p&gt;使用 Visual Studio Code 的开发者请通过内置软件更新升级到 v1.121 版体验该功能，打开 HTML/HTM 文件后只需要点击菜单栏的互联网按钮即可预览，如果你想并排预览的话则可以点击拆分编辑器按钮，左侧保持代码视图、右侧点击预览再关闭右侧部分的代码视图，这样就可以实现左侧显示代码右侧显示预览，左侧的修改部分需要保存后在右侧点击右键选择重载，这样就能刷新。&lt;/p&gt;
+</description><pubDate>Thu, 21 May 2026 10:26:11 +0000</pubDate></item><item><title>微软发布用于缓解BitLocker加密绕过的脚本 该漏洞目前已经被公开</title><link>https://www.landiannews.com/archives/113016.html</link><description>
+&lt;p&gt;#安全资讯 微软发布用于缓解 Microsoft BitLocker 加密绕过的脚本，该漏洞目前已经被公开，用户部署缓解脚本后可以提高安全性。该漏洞会利用 WinRE 绕过加解密流程访问加密硬盘中的文件，缺陷根源在 FsTx 自动恢复实用程序权限太高，缓解脚本会从 WinRE 里删除该脚本的启动。查看详情：https://ourl.co/113016&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landiannews.com/archives/112922.html" rel="noopener" target="_blank"&gt;此前安全研究人员直接公开 Microsoft BitLocker 加密系统中的安全漏洞&lt;/a&gt;，该漏洞可以在 WinRE 恢复环境中绕过常规的加解密机制从而直接读取加密硬盘中的文件，但研究人员与微软之间的沟通存在问题，微软似乎忽略漏洞因此导致研究人员直接公开漏洞，该漏洞被研究人员称为 YellowKey。&lt;/p&gt;
+&lt;p&gt;现在微软已经承认该漏洞并发布临时缓解方案用于解决 WinRE 恢复环境中的 FsTx 自动恢复实用程序，后续微软应该会通过累积更新彻底解决问题，不需要所有用户都必须依靠脚本才能修复漏洞。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112922.png" rel="nofollow"&gt;&lt;img alt="微软发布用于缓解BitLocker加密绕过的脚本 该漏洞目前已经被公开" data-src="https://img.landian.news/landian/2026/05/112922.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112922.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;应用到应用的切换流程会在接收目标设备上打开相同的应用 (前提是已经安装)，然后恢复正在进行的活动。&lt;/p&gt;
-&lt;p&gt;应用到网页的切换流程会将应用活动恢复到网页浏览器标签页中，安卓应用可以指定备用 URL，如果接收目标设备并未安装相同的应用，则启动继续功能时该 URL 会被打开 (例如 PWA 应用)。&lt;/p&gt;
-&lt;p&gt;直接到网页的切换流程可以在目标接收设备上打开相同的网页应用 (例如浏览器打开用户此前访问的 URL)。&lt;/p&gt;
-&lt;p&gt;如果接收目标设备上安装的原生安卓应用能够处理 URL intent，则也可以实现 Web 到应用的切换，即从网页切换到应用程序。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;漏洞编号：CVE-2026-45585&lt;/li&gt;
+&lt;li&gt;漏洞评分：6.8 分，必须物理接触设备才能利用漏洞&lt;/li&gt;
+&lt;li&gt;影响范围：Windows 11 24H2/25H2/26H1、Windows Server 2025 及衍生版本&lt;/li&gt;
+&lt;li&gt;例外情况：如果设备本身使用 TPM 芯片 + PIN 码进行保护，则漏洞无法被利用&lt;/li&gt;
+&lt;li&gt;缓解目的：若用户担心设备被盗或存在被物理入侵的可能则应当部署缓解措施&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;现阶段继续功能仅限于安卓手机与安卓平板，但不要忘记后续谷歌将会发布安卓 PC，到时候用户在所有设备上都安装常用的应用程序，那就可以实现多台设备无缝切换，这种体验应该会非常不错。&lt;/p&gt;
-&lt;p&gt;不过安卓系统的碎片化问题会导致 Android 17 继续功能无法同时推送给所有用户，可能初期只有 Google Pixel 和三星等部分设备支持，用户想要使用该功能前提是所有设备都必须能运行 Android 17 和后续版本。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://developer.android.com/develop/better-together/continue-on" rel="noopener" target="_blank"&gt;Android&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 21 May 2026 03:40:18 +0000</pubDate></item><item><title>安娜的档案被判赔偿1950万美元 同时法院要求域名注册商不得为其提供服务</title><link>https://www.landiannews.com/archives/113011.html</link><description>
-&lt;p&gt;#行业资讯 安娜的档案被缺席审判赔偿 1950 万美元给书籍出版社，同时法院要求域名注册商和 Cloudflare 等网络服务提供商不得再为安娜的档案提供服务。域名方面其实还能解决，毕竟美国法院管不了全球各国的注册局，但如果服务器提供商和网络服务提供商也不能为安娜的档案提供服务，那造成的影响可能会更大。查看详情：https://ourl.co/113011&lt;/p&gt;&lt;p&gt;有影子图书馆之称的安娜的档案 (Anna's Archive) 日前在缺席审判中被法院判决向相关版权机构合计赔偿 1950 万美元的巨款，美国纽约联邦法院还批准版权机构提交的请求，即发布范围广泛的永久禁令要求全球 20 多家域名注册商、服务器提供商和网络服务提供商立即停止为安娜的档案提供任何服务。&lt;/p&gt;
-&lt;p&gt;本次判决与此前 Spotify 起诉安娜的档案的不同，&lt;a href="https://www.landiannews.com/archives/112378.html" rel="noopener" target="_blank"&gt;在此前的缺席审判中安娜的档案已经被要求向音乐版权机构赔偿 3.22 亿美元&lt;/a&gt;，而本次案件主要是书籍出版社联合提起的法律诉讼，出版社包括企鹅兰登书屋、爱思唯尔以及哈珀柯林斯等。&lt;/p&gt;
-&lt;p&gt;这些出版社称安娜的档案不仅收集并提供大量盗版数据的公开下载，同时还充当诸如 META 和英伟达等人工智能公司的数据训练中心，此前有消息称这些公司都通过互联网下载大量盗版数据用于训练人工智能模型。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src="https://img.landian.news/landian/2026/05/113011.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113011.png"/&gt;&lt;/p&gt;
+&lt;p&gt;此脚本属于临时安全修复程序有助于降低漏洞被利用的风险，该脚本主要用于 WinRE 恢复环境，脚本会从 BootExecute 注册表中移除 autofstx.exe。由于 BootExecute 会在启动过程的早期阶段甚至是恢复模式下运行程序，因此移除该选项可以防止可执行文件在高权限环境中运行。&lt;/p&gt;
+&lt;p&gt;脚本工作原理是挂载 WinRE 映像并编辑离线的 SYSTEM 注册表以删除条目，完成操作后再安全地提交变更并重新封装 WinRE 恢复映像，从而让 Microsoft BitLocker 信任链保持完整。&lt;/p&gt;
+&lt;p&gt;脚本获取地址：&lt;a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45585" rel="noopener" target="_blank"&gt;https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45585&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Thu, 21 May 2026 10:04:11 +0000</pubDate></item><item><title>NAS系统Unraid 7.3.0正式版发布 用户终于可以不再使用U盘启动系统</title><link>https://www.landiannews.com/archives/113015.html</link><description>
+&lt;p&gt;#系统资讯 NAS 系统 Unraid v7.3.0 版发布，新版本作出了违背祖宗的决定：不再只支持通过 U 盘启动，现在也能通过硬盘启动。Unraid 从发布之初就只提供 U 盘启动，问题是 U 盘性能和可靠性都比较差，所以现在 Unraid 支持从硬盘启动，甚至可以通过 ZFS 镜像池设置热备。查看详情：https://ourl.co/113015&lt;/p&gt;&lt;p&gt;基于 Linux 开发但不开源的 NAS 系统 Unraid 日前发布 v7.3.0 正式版，该系统可以实现灵活便捷的扩展存储，可以在容器和虚拟机中运行各类应用程序和服务，而 v7.3.0 正式版算是作出了违背祖宗的决定。&lt;/p&gt;
+&lt;p&gt;Unraid 从最初发布时就只能依赖于 U 盘启动，原因是最初的设计者认为 Unraid 作为 NAS 系统目标就是最大程度地利用存储空间，操作系统不应该单独占用 1 块硬盘空间，所以 Unraid 将 U 盘作为启动盘然后充分利用用户现有的所有硬盘。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113015.png" rel="nofollow"&gt;&lt;img alt="NAS系统Unraid 7.3.0正式版发布 用户终于可以不再使用U盘启动系统" data-src="https://img.landian.news/landian/2026/05/113015.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113015.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;安娜的档案运营团队分散在全球各地并且全部都是匿名的，因此也不可能出席法院审判，所以这起判决和此前的判决结果可能都是相同的，安娜的档案不会提供任何赔偿以及没有任何成员会出面与版权机构或法院进行沟通。&lt;/p&gt;
-&lt;p&gt;因此法院在判决中还要求安娜的档案必须在 10 天内公开身份，并且向法院提供包含有效联系方式的宣誓声明，不过安娜的档案此前已经透露匿名是为了避免牢狱之灾，所以可以肯定的是，无论法院作出何种要求，团队成员都会继续保持匿名，否则就是自投罗网。&lt;/p&gt;
+&lt;p&gt;U 盘本身就不应该被长期用于操作系统的运行，操作系统需要频繁读写内容并且 U 盘速度也不够快，尤其是部分用户已经用上全闪存 NAS (全部使用固态硬盘存储内容)，U 盘很容易造成性能问题和成为单点故障的主要原因。&lt;/p&gt;
+&lt;p&gt;所以在 Unraid 7.3.0 版中该系统为用户提供更加可靠的系统启动方式，也就是让用户直接在硬盘上安装和启动系统，甚至用户还可以使用 ZFS 镜像设置镜像启动池，这样哪怕是硬盘发生故障也能从正常的硬盘里继续启动系统。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;近期安娜的档案已经被扣押多个域名，此次美国纽约联邦法院的判决还响应出版社要求，即禁止域名注册局和下游域名注册商为安娜的档案提供域名服务，如果最终安娜的档案没有任何可用的域名那将面临只能通过 IP 直接访问的窘境。&lt;/p&gt;
-&lt;p&gt;然而美国法院的判决并不能影响全球所有域名注册局，尤其是大量国别域名管理机构都是对应国家或地区的注册局，这些注册局不太可能会响应美国法院的判决，所以安娜的档案应该还可以继续注册更多域名并投入使用。&lt;/p&gt;
-&lt;p&gt;另外法院还要求诸如 Cloudflare 等网络服务商不得继续为安娜的档案提供服务，考虑到安娜的档案日常访问量，如果不能使用 Cloudflare 那就需要寻找其他替代 CDN 和防止 DDoS 攻击的服务，这些服务可能需要支付大量费用。&lt;/p&gt;
-</description><pubDate>Thu, 21 May 2026 03:06:43 +0000</pubDate></item><item><title>地主家也没余粮系列：谷歌向旧版G Suite用户施压要求用户升级到企业订阅服务</title><link>https://www.landiannews.com/archives/113010.html</link><description>
-&lt;p&gt;#行业资讯 谷歌向旧版 G Suite 用户施压要求用户升级到 Google Workspace 付费企业订阅，原因是用户使用 G Suite 进行商业活动。2022 年时谷歌准备彻底弃用 G Suite 结果遭到大量用户口吐芬芳，最后谷歌让步允许用户迁移到新的免费套餐但不能用于商业活动，现在的情况看起来更像是谷歌系统的误判。查看详情：https://ourl.co/113010&lt;/p&gt;&lt;p&gt;2022 年 1 月谷歌宣布旧版 G Suite 免费套餐将在 2022 年 7 月 1 日停止服务，谷歌要求所有用户升级到付费的 Google Workspace 订阅，结果这项变更遭到大量用户的口吐芬芳，&lt;a href="https://www.landiannews.com/archives/93916.html" rel="noopener" target="_blank"&gt;最终谷歌让步为这些老用户保留旧版 G Suite 套件但不再支持新开通&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;到 2022 年 5 月谷歌宣布将为旧版 G Suite 免费套餐用户提供新的免费计划，新免费计划可以继续使用自定义域名绑定谷歌服务发送邮件，而 Workspace 和其他谷歌应用程序的访问权限也被保留不需要付费，这个新政策平息大部分用户的怒火。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2024/05/104153.png" rel="nofollow"&gt;&lt;img alt="地主家也没余粮系列：谷歌向旧版G Suite用户施压要求用户升级到企业订阅服务" data-src="https://img.lancdn.com/landian/2024/05/104153.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2024/05/104153.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; 现在谷歌称用户将免费套餐用于商业服务因此必须付费：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;近期诸多用户收到谷歌邮件通知称，自己的个人账户已经被升级为商业账户，因此用户必须付费订阅 Google Workspace，否则后续将无法继续访问 Gmail 邮箱、谷歌云端硬盘、谷歌日历、谷歌 Meet 以及谷歌其他核心服务。&lt;/p&gt;
-&lt;p&gt;现在在谷歌官方论坛、X/Twitter、Reddit 论坛上都有用户发帖称自己被谷歌要求付费订阅，而按照谷歌在 2022 年的政策，从旧版 G Suite 迁移到新的免费计划后，个人和家庭账户允许在非商业用途下继续免费使用，此次关键问题就是用户账户被谷歌认定为商业性使用。&lt;/p&gt;
-&lt;p&gt;谷歌称自用户收到商业用途通知后，有 45 天时间提交申诉，如果没有提交申诉或申诉没有通过，则到期后账户将会被谷歌暂停服务，到时候用户可能连自己的邮箱都无法访问，建议收到通知的用户立即备份自己的邮件以及云端硬盘数据以防不测。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;有用户称自己的账户仅使用 G Suite 套餐用来绑定自定义域名收发邮件，账户本身并没有任何商业性用途，绑定的自定义域名也没有搭建任何网站，用户认为谷歌将账户认定是商业账户显然是误判。&lt;/p&gt;
-&lt;p&gt;当然还有种可能就是自定义域名的问题，很多企业使用自己的域名收发邮件，有可能谷歌认为绑定自定义域名收发邮件的就是商业账户，所以现在是哭笑不得的场面，因为很多用户仍然使用 G Suite 纯粹就是看中自定义域名收发邮件。&lt;/p&gt;
-&lt;p&gt;目前谷歌还未就此事进行回应，不过随着发帖抗议的用户增多，相信谷歌应该会对自己的系统进行调查，这很可能是谷歌系统出现的问题导致的误判，后续解除误判后用户应该就可以继续使用 G Suite 套餐。&lt;/p&gt;
-</description><pubDate>Thu, 21 May 2026 02:42:01 +0000</pubDate></item><item><title>不讲武德：CloudCone强制用户更换IP地址 但更换后的新IP解锁质量变差</title><link>https://www.landiannews.com/archives/113009.html</link><description>
-&lt;p&gt;#服务器 不讲武德：CloudCone 强制用户更换新的 IP 地址，但更换后的 IP 解锁质量变差，至于为什么要强制换 IP 暂时还不清楚。蓝点网接到不少用户反馈称更换的新 IP 解锁质量明显要比原 IP 差，但这是强制性的，所以用户也没办法继续使用原 IP，使用 CC 的用户请立即检查注册邮箱。查看详情：https://ourl.co/113009&lt;/p&gt;&lt;p&gt;廉价 VPS 服务器提供商 CloudCone 日前向诸多用户发送邮件通知，要求用户立即将服务器迁移到新 IP 地址上，目前尚不清楚突然要求用户更换 IP 地址的原因是什么，但不少网友反馈新 IP 地址解锁质量变差因此还不如之前的 IP 地址。&lt;/p&gt;
-&lt;p&gt;使用 CloudCone 服务器的用户请立即检查自己的邮箱，如果收到通知则需要做好强制更换 IP 准备，按照邮件中的指引：点击自动配置新 IP 后，新旧 IP 地址会共存 48 小时让用户可以切换解析并等待解析生效，48 小时后旧 IP 失效因此将无法继续解析。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113009.png" rel="nofollow"&gt;&lt;img alt="不讲武德：CloudCone强制用户更换IP地址 但更换后的新IP解锁质量变差" data-src="https://img.landian.news/landian/2026/05/113009.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113009.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;在这里也提醒所有用户此次 CloudCone 的 IP 地址更换是强制性措施，建议用户收到邮件后立即着手迁移服务到新 IP 地址，避免忘记迁移后旧 IP 地址失效导致服务中断 (包括域名解析和直接调用 IP 地址连接的任何服务)&lt;/p&gt;
-&lt;p&gt;至于 IP 解锁质量变差问题就没办法了，可能此次 CloudCone 分配的 IP 段质量较差，如果 VPS 因为 IP 差问题无法用于某些特定服务，用户只能考虑停止续费 CloudCone 的服务器并购买新服务器。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.landiannews.com/archives/111679.html" rel="noopener" target="_blank"&gt;另外此前 CloudCone 被勒索软件攻击后导致用户数据丢失已经让很多用户失望&lt;/a&gt;，这波强制换 IP 估计又要让不少用户远离 CloudCone，但毕竟 CloudCone 价格便宜，所以如果影响不是特别大的话，用户也倒是可以考虑日常做好数据备份后继续使用这些 VPS。&lt;/p&gt;
-</description><pubDate>Thu, 21 May 2026 02:20:00 +0000</pubDate></item><item><title>研究人员在NGINX最新版1.31.0中发现新的远程代码执行漏洞 暂时不会公布细节</title><link>https://www.landiannews.com/archives/113008.html</link><description>
-&lt;p&gt;#安全资讯 研究人员在 NGINX 最新版 1.31.0 版中发现新的远程代码执行漏洞，该漏洞很有可能是此前 NGINX 堆内存缓冲区漏洞的衍生。由于现在 F5 还未发布新版本修复漏洞，所以研究人员计划在 30 天后发布详细的说明，所以漏洞详情还需要等待 F5 修复后再披露。查看详情：https://ourl.co/113008&lt;/p&gt;&lt;p&gt;独立安全研究实验室 NEBULA SECURITY 日前在社交媒体上透露反向代理服务器 NGINX 1.31.0 版中的全新远程代码执行漏洞，&lt;a href="https://www.landiannews.com/archives/112965.html" rel="noopener" target="_blank"&gt;该漏洞与 NGINX 此前版本中的漏洞不同&lt;/a&gt;，但考虑到当前漏洞尚未修复因此该实验室会在 30 天后再公布漏洞信息。&lt;/p&gt;
-&lt;p&gt;从演示视频来看该漏洞应该与此前的漏洞类似，也就是发生在堆内存缓冲区中的问题，因此可能属于 NGINX-RIFT 的衍生漏洞，对使用 NGINX 的用户来说晚些时候有新版本发布那就还要继续及时安装更新，避免黑客通过漏洞拿下服务器。&lt;/p&gt;
-&lt;p&gt;另外从目前情况来看，估计后续堆内存缓冲区中可能还会继续发现其他类似问题，所幸此类问题需要在特定配置下才能被利用，所以漏洞细节公布后应该不至于在短时间内出现大量攻击事件，只是及时升级新版本是非常有必要的。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;下面是研究人员发布的演示视频：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;video autoplay="" controls="" id="landian-video" loop="" muted="" playsinline=""&gt;&lt;source src="https://dl.landian.news/media/video/113008.mp4" type="video/mp4"/&gt;您的浏览器不支持 HTML5 视频标签。&lt;/video&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-</description><pubDate>Thu, 21 May 2026 02:03:02 +0000</pubDate></item></channel></rss>
+&lt;p&gt;内置启动功能允许用户从内部驱动器例如 NVMe SSD、SATA SSD、eMMC 存储器或现有存储设备安装和启动 Unraid，这可以为用户带来更快的启动速度和更可靠的性能。&lt;/p&gt;
+&lt;p&gt;对于现有用户而言，除非用户主动切换启动方式否则 Unraid 将维持原状也就是继续使用 U 盘启动，如果用户要迁移为内部启动，Unraid 7.3.0 版也提供两种方式让用户可以根据硬件情况进行选择。&lt;/p&gt;
+&lt;p&gt;方案一：内部启动 + 闪存授权，这种方式采用内部启动并将已经授权的闪存驱动器作为授权锚点连接，启动速度更快也更加可靠，这种方式也不会改变授权方式，如果硬件本身没有 TPM 2.0 可信平台认证芯片或者用户不想使用可信认证则推荐使用这种方式。&lt;/p&gt;
+&lt;p&gt;方案二：内部启动 + 基于 TPM 的授权，如果主板带有硬件 TPM 芯片或提供基于固件的软 TPM 固件，许可证可以与主板进行绑定，这样即便用户拔掉 U 盘 Unraid 的授权系统也依然可以正常工作。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://unraid.net/blog/unraid-7-3-0" rel="noopener" target="_blank"&gt;Unraid&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Thu, 21 May 2026 09:46:40 +0000</pubDate></item><item><title>谷歌宣布将反重力配额永久提高3倍并重置本周配额 解决开发者抱怨的限额问题</title><link>https://www.landiannews.com/archives/113014.html</link><description>
+&lt;p&gt;#人工智能 谷歌宣布将反重力使用配额永久提高 3 倍并重置本周配额，解决开发者抱怨的很容易受限问题。昨天谷歌已经面向所有用户推出 5 小时和每周限额，不过很快就有开发者注意到配额似乎减少，因为执行简单任务后就直接受限，现在配额提高 3 倍可能是恢复成以前的配额了。查看详情：https://ourl.co/113014&lt;/p&gt;&lt;p&gt;昨天蓝点网提到谷歌现在已经面向所有订阅用户推出新的 5 小时和每周配额，不同订阅层级之间可以获得的使用配额自然也是不同的，同时谷歌还将弃用 Gemini CLI 要求开发者们在 2026 年 6 月迁移到反重力 CLI。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113014.png" rel="nofollow"&gt;&lt;img alt="谷歌宣布将反重力配额永久提高3倍并重置本周配额 解决开发者抱怨的限额问题" data-src="https://img.landian.news/landian/2026/05/113014.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113014.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;不过有不少开发者按照谷歌指示迁移到反重力后，发现执行简单任务也很容易触发 5 小时使用配额，甚至很快就将当周配额直接耗尽，需要切换到规模更小和智能化程度更低的模型，这让很多开发者感到不满。&lt;/p&gt;
+&lt;p&gt;目前无法确定谷歌是悄悄下调用户的使用配额还是存在其他异常情况，但现在谷歌已经决定将反重力使用配额永久提高 3 倍，当然仅限于在反重力中使用 Gemini 系列模型，可能在其他谷歌自家工具里使用 Gemini 的配额也跟着提高。&lt;/p&gt;
+&lt;p&gt;另外谷歌还决定重置本周配额让开发者们可以获得更高使用配额执行构建任务，从这方面来看估计谷歌应该是悄悄调整过配额，现在重新提高配额和重置配额算是给开发者们补偿，按理说都永久翻 3 倍后整体使用配额应该比以前要更高，但这还需要开发者们使用几天后才能感知到具体配额变化。&lt;/p&gt;
+</description><pubDate>Thu, 21 May 2026 09:20:05 +0000</pubDate></item><item><title>谷歌GCP不慎封禁多名客户账户导致服务宕机 目前谷歌尚未发布官方回应</title><link>https://www.landiannews.com/archives/113013.html</link><description>
+&lt;p&gt;#云计算 谷歌 GCP 不慎封禁多名客户账号导致服务宕机，但谷歌到现在还未发布任何公开说明，只是私下向受影响的客户透露这是平台级的误操作。具体来说谷歌云平台的反滥用系统似乎识别到某些信号，将包括 Railway 在内的多名客户账号封禁，导致账户下的所有云资源全部被停用。查看详情：https://ourl.co/113013&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landiannews.com/archives/113002.html" rel="noopener" target="_blank"&gt;早前开发者友好的全栈开发智能云开发平台 Railway 出现大范围长时间服务中断&lt;/a&gt;，而中断的根源则是该平台主要使用 Google Cloud 等服务器，而谷歌在没有任何提前通知的情况下将 Railway 账户封禁，账户封禁后所有服务器和其他资源被自动停用进而引发大规模故障。&lt;/p&gt;
+&lt;p&gt;根据 Railway 平台最新发布的&lt;a href="https://blog.railway.com/p/incident-report-may-19-2026-gcp-account-outage" rel="noopener" target="_blank"&gt;事故复盘报告&lt;/a&gt;，此次的封号事件并非针对该平台或针对特定账户出现的问题，而是谷歌云平台由于未知的平台级操作导致大量客户账号被封禁，而在封禁账号前谷歌也从未主动联系过任何可能受影响的客户，因此基本可以判断这是由谷歌内部故障引起的问题。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/04/113013.png" rel="nofollow"&gt;&lt;img alt="谷歌GCP不慎封禁多名客户账户导致服务宕机 目前谷歌尚未发布官方回应" data-src="https://img.landian.news/landian/2026/04/113013.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/04/113013.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;值得注意的是对于这件事连谷歌自己的支持工程师都非常懵逼，在 Railway 运维团队联系支持工程师时，谷歌支持工程师也感到困惑，完全不知道为什么会封禁正常使用的客户账号，但事后判断这可能是谷歌云平台的反滥用系统出现故障将识别到的存在特定信号的账号全部封禁。&lt;/p&gt;
+&lt;p&gt;而直到本文发布时谷歌云平台并未发布任何官方公告解释问题发生原因，谷歌云仅在私下告知受影响的客户称这是平台级自动化误操作，至于问题发生原因谷歌也没有向受影响的客户透露，当然暂时也没听说谷歌要向受影响的客户提供任何赔偿。&lt;/p&gt;
+&lt;p&gt;谷歌云平台向来对此类问题守口如瓶，哪怕是 2024 年发生的误删客户数据事件谷歌也想低调处理，这也是蓝点网在此前文章说必须引起更多的关注谷歌才会回应的原因，谷歌与 Cloudflare 等服务提供商不同，Cloudflare 通常会在出现内部问题后及时发布详细的复盘、保持更高的透明度，谷歌云平台的透明度相当低。&lt;/p&gt;
+&lt;p&gt;因此对于使用谷歌云的开发者来说可能要时刻提防谷歌再次出现类似的误封事件，包括平时做好各类数据备份并且不要只备份在谷歌云平台，这样出现问题时至少用户可以通过备份及时在其他云计算平台恢复，当然直接放弃使用谷歌云可能也是个不错的选择。&lt;/p&gt;
+</description><pubDate>Thu, 21 May 2026 09:04:14 +0000</pubDate></item></channel></rss>
