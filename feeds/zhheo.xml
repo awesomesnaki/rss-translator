@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>张洪Heo</title><link>https://blog.zhheo.com/</link><description>产品设计师、独立开发者、设计与科技领域自媒体博主</description><language>zh-CN</language><lastBuildDate>Fri, 22 May 2026 03:11:38 +0000</lastBuildDate><item><title>为OpenClaw搭建一个免费的搜索引擎，如何让OpenClaw搜索网页内容</title><link>https://blog.zhheo.com/p/9p755adr.html</link><description>&lt;figure&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://p.zhheo.com/20234681e06b8e086aa5b15481cb89fd38c7071002.png!cover"/&gt;&lt;/figure&gt;
-&lt;p&gt;说到弄搜索真的是头大，之前用的duckduckgo，但是老触发限流。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>张洪Heo</title><link>https://blog.zhheo.com/</link><description>产品设计师、独立开发者、设计与科技领域自媒体博主</description><language>zh-CN</language><lastBuildDate>Fri, 22 May 2026 03:11:38 +0000</lastBuildDate><item><title>为OpenClaw搭建一个免费的搜索引擎，如何让OpenClaw搜索网页内容</title><link>https://blog.zhheo.com/p/9p755adr.html</link><description>&lt;p&gt;说到弄搜索真的是头大，之前用的duckduckgo，但是老触发限流。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="搜索挂了" referrerpolicy="no-referrer" src="https://p.zhheo.com/2026da8ad56fcfdbd900012e26a1c0f6b1a1224805.webp!blogimg"/&gt;&lt;/p&gt;
 &lt;p&gt;寻找了一番，有一个免费开源的搜索可以去搭建。就是用SearXNG。&lt;/p&gt;
 &lt;h2 id="Docker-Compose-部署"&gt;&lt;a href="#Docker-Compose-部署" title="Docker Compose 部署"&gt;&lt;/a&gt;Docker Compose 部署&lt;/h2&gt;&lt;p&gt;这个项目支持docker部署，文件参考：&lt;/p&gt;
@@ -22,8 +21,7 @@
 &lt;p&gt;&lt;img alt="webfetch" referrerpolicy="no-referrer" src="https://p.zhheo.com/20267d6dcf646f64c54dcd58138ea53566e9223605.webp!blogimg"/&gt;&lt;/p&gt;
 &lt;h2 id="大功告成"&gt;&lt;a href="#大功告成" title="大功告成"&gt;&lt;/a&gt;大功告成&lt;/h2&gt;&lt;p&gt;&lt;img alt="支持网页搜索" referrerpolicy="no-referrer" src="https://p.zhheo.com/2026467e0450254df5424c7c6afede625344221405.webp!blogimg"/&gt;&lt;/p&gt;
 &lt;p&gt;成功实现免费不限量的网页搜索能力，不用再用第三方的api啦。&lt;/p&gt;
-</description><pubDate>Fri, 22 May 2026 03:11:38 +0000</pubDate></item><item><title>这一次，我们听点有意思的</title><link>https://blog.zhheo.com/p/7a59rx04.html</link><description>&lt;figure&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://p.zhheo.com/20234681e06b8e086aa5b15481cb89fd38c7071002.png!cover"/&gt;&lt;/figure&gt;
-&lt;p&gt;今天是全球无障碍宣传日，在今日博客有两个全新的功能提供给大家。&lt;/p&gt;
+</description><pubDate>Fri, 22 May 2026 03:11:38 +0000</pubDate></item><item><title>这一次，我们听点有意思的</title><link>https://blog.zhheo.com/p/7a59rx04.html</link><description>&lt;p&gt;今天是全球无障碍宣传日，在今日博客有两个全新的功能提供给大家。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="全文朗读" referrerpolicy="no-referrer" src="https://p.zhheo.com/202640ecc8377c6d369aea859c24f5e16e38213505.webp!blogimg"/&gt;&lt;/p&gt;
 &lt;p&gt;全文朗读使用了非常自然的阅读音色，语速适中，富有感情的去进行阅读文章的内容。&lt;/p&gt;
 &lt;p&gt;并且与传统系统TTS不同，文章对于全文朗读有特殊优化，针对代码、超链接等复杂情况都针对性做了适配。&lt;/p&gt;
@@ -37,8 +35,7 @@
 &lt;p&gt;&lt;img alt="播客陪读" referrerpolicy="no-referrer" src="https://p.zhheo.com/202697efa12e49ebc1dfa132f99d397e58ea211505.webp!blogimg"/&gt;&lt;/p&gt;
 &lt;p&gt;目前全站已有超过500篇文章已支持播客陪读，未来这个数量将覆盖到所有文章。&lt;/p&gt;
 &lt;h2 id="让声音帮助更多读者"&gt;&lt;a href="#让声音帮助更多读者" title="让声音帮助更多读者"&gt;&lt;/a&gt;让声音帮助更多读者&lt;/h2&gt;&lt;p&gt;博客的全文朗读与播客陪读是博客全新的声音增强体系，如果能够帮助你更好的理解我撰写的内容，那就是狠狠有帮助啦。&lt;/p&gt;
-</description><pubDate>Thu, 21 May 2026 04:27:16 +0000</pubDate></item><item><title>为啥别人用Image2做的图那么好看？我的却特别丑？如何模仿别人的风格作图？</title><link>https://blog.zhheo.com/p/viqyx0td.html</link><description>&lt;figure&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://p.zhheo.com/20234681e06b8e086aa5b15481cb89fd38c7071002.png!cover"/&gt;&lt;/figure&gt;
-&lt;p&gt;今天和我一个大学同学聊天的时候，他跟我说他自己用Image2出的图特别丑，深入交流之后发现了一些误区，发出来应该能帮助到一些AI新手或者对生图机制不是很了解的小伙伴。&lt;/p&gt;
+</description><pubDate>Thu, 21 May 2026 04:27:16 +0000</pubDate></item><item><title>为啥别人用Image2做的图那么好看？我的却特别丑？如何模仿别人的风格作图？</title><link>https://blog.zhheo.com/p/viqyx0td.html</link><description>&lt;p&gt;今天和我一个大学同学聊天的时候，他跟我说他自己用Image2出的图特别丑，深入交流之后发现了一些误区，发出来应该能帮助到一些AI新手或者对生图机制不是很了解的小伙伴。&lt;/p&gt;
 &lt;h2 id="模仿别人的风格"&gt;&lt;a href="#模仿别人的风格" title="模仿别人的风格"&gt;&lt;/a&gt;模仿别人的风格&lt;/h2&gt;&lt;p&gt;这个是最常见的，一般我身边的朋友突然想做AI生图都是因为刷到了各种社交媒体的自媒体号宣传或者出的图。当时想“哇好炫酷！我也要做！”，心里出现了一万个点子，然后做的时候就歇菜了。出的图样子不仅和之前的完全无关，而且特别丑，常见于Image2直接自动抠图，然后直接嵌入，做了个贼丑的。&lt;/p&gt;
 &lt;p&gt;常见误区比如：&lt;/p&gt;
 &lt;p&gt;&lt;img alt="记住这张图片的风格" referrerpolicy="no-referrer" src="https://p.zhheo.com/2026346744408051ea1664fff396ea589f9a210505.webp!blogimg"/&gt;&lt;/p&gt;
@@ -58,8 +55,7 @@
 &lt;h2 id="出图"&gt;&lt;a href="#出图" title="出图"&gt;&lt;/a&gt;出图&lt;/h2&gt;&lt;p&gt;然后我们就可以作图。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="作图过程" referrerpolicy="no-referrer" src="https://p.zhheo.com/2026d5a0c68b5510ff7b6ed7c76505458212215905.webp!blogimg"/&gt;&lt;/p&gt;
 &lt;p&gt;这就是最简单的风格转图的标准化流程。以后我也会分享更多作图情况的分享。&lt;/p&gt;
-</description><pubDate>Thu, 21 May 2026 03:02:13 +0000</pubDate></item><item><title>如何给自己创作的歌曲生成歌词文件？手打逐字歌词lrc文件教程</title><link>https://blog.zhheo.com/p/rdlrcfqe.html</link><description>&lt;figure&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://p.zhheo.com/20234681e06b8e086aa5b15481cb89fd38c7071002.png!cover"/&gt;&lt;/figure&gt;
-&lt;p&gt;自己做的歌弄歌词文件还是个辛苦活，因为我个人还是很喜欢逐字歌词，但是目前AI识别的能力对于歌曲来说还是有点弱。不过我还是所有的作品都加上了逐字歌词，看起来很棒。&lt;/p&gt;
+</description><pubDate>Thu, 21 May 2026 03:02:13 +0000</pubDate></item><item><title>如何给自己创作的歌曲生成歌词文件？手打逐字歌词lrc文件教程</title><link>https://blog.zhheo.com/p/rdlrcfqe.html</link><description>&lt;p&gt;自己做的歌弄歌词文件还是个辛苦活，因为我个人还是很喜欢逐字歌词，但是目前AI识别的能力对于歌曲来说还是有点弱。不过我还是所有的作品都加上了逐字歌词，看起来很棒。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="逐字歌词显示" referrerpolicy="no-referrer" src="https://p.zhheo.com/2026c8a64b50884ac57137462de2563f26a9195505.webp!blogimg"/&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://zhheo.com/" rel="noopener external nofollow" target="_blank"&gt;预览地址&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="教程"&gt;&lt;a href="#教程" title="教程"&gt;&lt;/a&gt;教程&lt;/h2&gt;&lt;p&gt;首先我们要有完整的歌词内容，然后使用amll-ttml-tool来打轴。&lt;/p&gt;
@@ -92,8 +88,7 @@
 &lt;h2 id="导出"&gt;&lt;a href="#导出" title="导出"&gt;&lt;/a&gt;导出&lt;/h2&gt;&lt;p&gt;逐字歌词我建议导出ESLyRiC格式。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="导出歌词" referrerpolicy="no-referrer" src="https://p.zhheo.com/2026df95f5f759aa9eb75657f0619060d173192305.webp!blogimg"/&gt;&lt;/p&gt;
 &lt;h2 id="最终效果"&gt;&lt;a href="#最终效果" title="最终效果"&gt;&lt;/a&gt;最终效果&lt;/h2&gt;&lt;figure&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;pre&gt;1&lt;br/&gt;2&lt;br/&gt;3&lt;br/&gt;4&lt;br/&gt;5&lt;br/&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;[00:12.233]工[00:12.398]位[00:12.556]一[00:12.708]排[00:12.868]一[00:13.017]排[00:13.172]地[00:13.331]空[00:13.496]成[00:13.641]走[00:13.821]廊[00:14.744]&lt;br/&gt;[00:14.744]熟[00:14.900]悉[00:15.060]名[00:15.204]字[00:15.348]慢[00:15.503]慢[00:15.732]退[00:15.908]出[00:16.077]那[00:16.269]扇[00:16.441]窗[00:16.802]&lt;br/&gt;[00:16.802]有[00:16.967]人[00:17.110]最[00:17.244]会[00:17.426]救[00:17.591]火[00:17.756] [00:00.000]有[00:18.011]人[00:18.262]最[00:18.562]懂[00:18.693]故[00:19.003]障[00:19.388]&lt;br/&gt;[00:19.388]后[00:19.553]来[00:19.724]都[00:19.893]被[00:20.053]写[00:20.220]进[00:20.384]统[00:20.695]一[00:20.844]技[00:21.260]能[00:21.612]框[00:21.988]&lt;br/&gt;[00:21.988]他[00:22.156]们[00:22.340]说[00:22.685]这[00:22.861]叫[00:23.021]沉[00:23.316]淀[00:23.485] [00:00.000]叫[00:23.737]提[00:23.988]炼[00:24.137]成[00:24.263]章[00:24.517]&lt;br/&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-</description><pubDate>Tue, 19 May 2026 04:37:27 +0000</pubDate></item><item><title>免费可商用字体推荐：寒蝉端黑宋下载</title><link>https://blog.zhheo.com/p/jsrckoff.html</link><description>&lt;figure&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://p.zhheo.com/20234681e06b8e086aa5b15481cb89fd38c7071002.png!cover"/&gt;&lt;/figure&gt;
-&lt;p&gt;这个字体是基于思源宋改的，支持偏瘦的和偏宽的宋体风格，很适合比较雅致的适用场景。&lt;/p&gt;
+</description><pubDate>Tue, 19 May 2026 04:37:27 +0000</pubDate></item><item><title>免费可商用字体推荐：寒蝉端黑宋下载</title><link>https://blog.zhheo.com/p/jsrckoff.html</link><description>&lt;p&gt;这个字体是基于思源宋改的，支持偏瘦的和偏宽的宋体风格，很适合比较雅致的适用场景。&lt;/p&gt;
 &lt;p&gt;项目地址：&lt;a href="https://github.com/Warren2060/ChillDuanHeiSong" rel="noopener external nofollow" target="_blank"&gt;https://github.com/Warren2060/ChillDuanHeiSong&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="样式预览"&gt;&lt;a href="#样式预览" title="样式预览"&gt;&lt;/a&gt;样式预览&lt;/h2&gt;&lt;p&gt;&lt;img alt="预览" referrerpolicy="no-referrer" src="https://p.zhheo.com/2026626bc6953061d0cddd6f43295809df25183805.webp!blogimg"/&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="演示" referrerpolicy="no-referrer" src="https://p.zhheo.com/2026c12d198b7fe96f888d5c820733a3da1e184905.webp!blogimg"/&gt;&lt;/p&gt;
