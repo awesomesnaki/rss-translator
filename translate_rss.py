@@ -371,6 +371,13 @@ def fetch_full_article(url):
             if content:
                 return content, None
 
+        # 张洪Heo 博客用专用解析：只取 Butterfly 正文容器，
+        # 去掉作者卡片/打赏/版权/相关文章等 readability 会抓进来的噪音
+        if 'blog.zhheo.com' in url:
+            content = extract_zhheo_content(resp.text)
+            if content:
+                return content, extract_cover_image(resp.text)
+
         cover = extract_cover_image(resp.text)
 
         doc = Document(resp.text)
@@ -454,6 +461,43 @@ def extract_v2ex_content(html):
             el.decompose()
 
     return str(result_soup)
+
+def extract_zhheo_content(html):
+    """从张洪Heo博客（Butterfly 主题）文章页提取正文。
+
+    只取 #article-container 这个正文容器：作者卡片、打赏、版权声明、
+    "最近发布"、相关文章、评论等都是该容器外的兄弟节点，天然被排除。
+    RSS 自带的「AI 文章摘要」也随之丢掉（本函数返回的全文会替换它）。"""
+    soup = BeautifulSoup(html, 'html.parser')
+    # Butterfly 正文容器 id 固定为 article-container；兼容退回 .post-content
+    container = soup.find(id='article-container') or soup.find(class_='post-content')
+    if not container:
+        return None
+
+    for tag in container.find_all(['script', 'style', 'noscript']):
+        tag.decompose()
+
+    # AI 文章摘要（TianliGPT）一般由 JS 注入、不在静态 HTML 里；
+    # 万一被服务端渲染进了正文容器，按 id/class 关键字兜底去掉
+    for el in list(container.find_all(True)):
+        ident = (el.get('id') or '').lower()
+        classes = ' '.join(el.get('class', [])).lower()
+        if 'tianligpt' in ident or 'tianligpt' in classes or 'post-ai' in classes:
+            el.decompose()
+
+    # Butterfly 懒加载：真实图片 URL 在 data-lazy-src，src 只是占位图。
+    # RSS 阅读器不跑懒加载 JS，不还原就会一直转圈加载不出来
+    for img in container.find_all('img'):
+        lazy = img.get('data-lazy-src') or img.get('data-src')
+        if lazy:
+            img['src'] = lazy
+            img.attrs.pop('data-lazy-src', None)
+            img.attrs.pop('data-src', None)
+
+    inner = container.decode_contents()
+    if BeautifulSoup(inner, 'html.parser').get_text(strip=True):
+        return inner
+    return None
 
 def resolve_feed_url(url):
     """解析 feed URL，处理 rsshub:// 协议"""

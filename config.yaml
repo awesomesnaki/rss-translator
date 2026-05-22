@@ -77,4 +77,8 @@ feeds:
     url: "https://pixelfed.social/users/zsnajorrah.atom"
     summarize_title: true
     images_only: true
+  - name: "zhheo"
+    url: "https://blog.zhheo.com/rss.xml"
+    translate: false
+    fetch_full_content: true
   # 按这个格式添加更多源
