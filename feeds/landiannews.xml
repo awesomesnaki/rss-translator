@@ -1,52 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 21 May 2026 10:26:11 +0000</lastBuildDate><item><title>Visual Studio Code终于内置HTML预览 不需要再安装其他扩展程序</title><link>https://www.landiannews.com/archives/113042.html</link><description>
-&lt;p&gt;#软件资讯 Visual Studio Code 终于内置 HTML 预览查看器，不需要再安装其他扩展程序或使用浏览器即可显示 HTML 内容。这个新功能是 v1.121 最新添加的，微软也意识到如此简单的实用小功能应该直接内置，遗憾的是目前不支持实时加载，修改内容后需要先保存再刷新预览查看变动。查看详情：https://ourl.co/113042&lt;/p&gt;&lt;p&gt;微软日前发布 Visual Studio Code v1.121 版，微软在该版本中新增内置的 HTML 预览查看器，让开发者编写 HTML 文件时可以直接使用查看器预览，不需要再为了如此简单的功能而单独安装其他扩展程序。&lt;/p&gt;
-&lt;p&gt;HTML 预览本身就是非常简单的功能，以前开发者要么安装支持预览的扩展程序，要么直接使用任何浏览器在本地打开文件进行预览，但微软也终于意识到 HTML 预览可能还是有必要直接内置的，所以现在开发者可以直接预览文件。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113042-1.png" rel="nofollow"&gt;&lt;img alt="Visual Studio Code终于内置HTML预览 不需要再安装其他扩展程序" data-src="https://img.landian.news/landian/2026/05/113042-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113042-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src="https://img.landian.news/landian/2026/05/113042-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113042-2.png"/&gt;&lt;/p&gt;
-&lt;p&gt;遗憾的是蓝点网测试发现，在并排浏览的情况下 HTML 预览还不支持实时加载，也就是开发者修改内容后必须先按保存然后再刷新预览，为了提高效率微软或许应该做成实时加载，让开发者的任何修改都直接呈现出来，这样使用体验可能会更好，我们非常期待微软后续能够支持实时加载和预览。&lt;/p&gt;
-&lt;p&gt;使用 Visual Studio Code 的开发者请通过内置软件更新升级到 v1.121 版体验该功能，打开 HTML/HTM 文件后只需要点击菜单栏的互联网按钮即可预览，如果你想并排预览的话则可以点击拆分编辑器按钮，左侧保持代码视图、右侧点击预览再关闭右侧部分的代码视图，这样就可以实现左侧显示代码右侧显示预览，左侧的修改部分需要保存后在右侧点击右键选择重载，这样就能刷新。&lt;/p&gt;
-</description><pubDate>Thu, 21 May 2026 10:26:11 +0000</pubDate></item><item><title>微软发布用于缓解BitLocker加密绕过的脚本 该漏洞目前已经被公开</title><link>https://www.landiannews.com/archives/113016.html</link><description>
-&lt;p&gt;#安全资讯 微软发布用于缓解 Microsoft BitLocker 加密绕过的脚本，该漏洞目前已经被公开，用户部署缓解脚本后可以提高安全性。该漏洞会利用 WinRE 绕过加解密流程访问加密硬盘中的文件，缺陷根源在 FsTx 自动恢复实用程序权限太高，缓解脚本会从 WinRE 里删除该脚本的启动。查看详情：https://ourl.co/113016&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landiannews.com/archives/112922.html" rel="noopener" target="_blank"&gt;此前安全研究人员直接公开 Microsoft BitLocker 加密系统中的安全漏洞&lt;/a&gt;，该漏洞可以在 WinRE 恢复环境中绕过常规的加解密机制从而直接读取加密硬盘中的文件，但研究人员与微软之间的沟通存在问题，微软似乎忽略漏洞因此导致研究人员直接公开漏洞，该漏洞被研究人员称为 YellowKey。&lt;/p&gt;
-&lt;p&gt;现在微软已经承认该漏洞并发布临时缓解方案用于解决 WinRE 恢复环境中的 FsTx 自动恢复实用程序，后续微软应该会通过累积更新彻底解决问题，不需要所有用户都必须依靠脚本才能修复漏洞。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/112922.png" rel="nofollow"&gt;&lt;img alt="微软发布用于缓解BitLocker加密绕过的脚本 该漏洞目前已经被公开" data-src="https://img.landian.news/landian/2026/05/112922.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/112922.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Fri, 22 May 2026 02:21:09 +0000</lastBuildDate><item><title>后知后觉：腾讯TIM PC客户端竟然已经被弃用 显示版本过低无法登录</title><link>https://www.landiannews.com/archives/113047.html</link><description>
+&lt;p&gt;#软件资讯 后知后觉：腾讯 TIM PC 客户端竟然已经被弃用，现在登录时显示版本过低无法成功登录。TIM 最初为办公人士打造，简洁无广告且使用体验非常不错，网上搜索发现 2025 年 11 月就有用户抱怨 TIM 无法登录，不过这仅限于 PC 版，至少我们使用的 iOS 版还是正常的。查看详情：https://ourl.co/113047&lt;/p&gt;&lt;p&gt;蓝点网已经很长时间没有在 PC 上使用腾讯 QQ，日常联系主要靠 iOS 版的 TIM 客户端，不过有时候传送大型文件时还需要使用 PC 客户端，所以我们默认还是下载安装 TIM PC 客户端，只是没想到现在 TIM PC 客户端已经被弃用。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113047.png" rel="nofollow"&gt;&lt;img alt="后知后觉：腾讯TIM PC客户端竟然已经被弃用 显示版本过低无法登录" data-src="https://img.landian.news/landian/2026/05/113047.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113047.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;现在 TIM for Windows 登录时会显示版本过低，当然我们下载安装的始终都是最新版，无法登录的根源还是腾讯已经弃用 TIM，网上搜索可以发现在 2025 年 11 月就有用户发帖称 TIM 显示版本过低无法登录，不过这只影响 TIM for Windows 版，至少我们使用的 TIM for iOS 版还是正常的。&lt;/p&gt;
+&lt;p&gt;TIM PC 版最后更新还是在 2025 年 5 月，TIM 官网没有显示任何已经被弃用的说明，可能这个项目已经被彻底废弃所以连官网都没有更新，只是可惜 TIM 这个精简的 QQ 客户端，TIM 最初主要为办公人士打造，简洁无广告且使用体验非常不错，最近 10 年我们基本使用的都是 TIM 而非 QQ 客户端。&lt;/p&gt;
+&lt;p&gt;现在的腾讯 QQ 客户端则已经转向横版宽屏样式，可能是为照顾某些老用户，所以腾讯 QQ 官网还提供历史版本下载，历史版本指的是 9.7 系列，还保持着纵向样式，算是留给老用户的最后一件礼物。&lt;/p&gt;
+</description><pubDate>Fri, 22 May 2026 02:21:09 +0000</pubDate></item><item><title>文档基金会(开源LibreOffice开发商)再次发文抨击微软的OOXML专有格式</title><link>https://www.landiannews.com/archives/113046.html</link><description>
+&lt;p&gt;#行业资讯 文档基金会 (LibreOffice 开发商) 再次发文抨击微软，称微软的 OOXML 文档格式极其荒谬，Excel 甚至都不能很好的处理日期。文档基金会致力于推动开源格式 ODF 成为主流，微软则主要使用自己的专有标准 OOXML，文档基金会认为除非实现 ODF 成为默认选项，否则无法实现真正的数字主权。查看详情：https://ourl.co/113046&lt;/p&gt;&lt;p&gt;开源办公软件 LibreOffice 的开发商文档基金会 (TDF) 长期以来因兼容性问题与微软存在不可调和的矛盾，文档基金会与微软使用的都是不同的格式标准，当然文档基金会主要使用兼容性更加开放的标准，而微软在 Microsoft Office 办公软件套件中主要使用的是微软专有的 OOXML 格式。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113046.png" rel="nofollow"&gt;&lt;img alt="文档基金会(开源LibreOffice开发商)再次发文抨击微软的OOXML专有格式" data-src="https://img.landian.news/landian/2026/05/113046.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113046.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;漏洞编号：CVE-2026-45585&lt;/li&gt;
-&lt;li&gt;漏洞评分：6.8 分，必须物理接触设备才能利用漏洞&lt;/li&gt;
-&lt;li&gt;影响范围：Windows 11 24H2/25H2/26H1、Windows Server 2025 及衍生版本&lt;/li&gt;
-&lt;li&gt;例外情况：如果设备本身使用 TPM 芯片 + PIN 码进行保护，则漏洞无法被利用&lt;/li&gt;
-&lt;li&gt;缓解目的：若用户担心设备被盗或存在被物理入侵的可能则应当部署缓解措施&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;文档基金会在最新博客中表示，自己使用的开源格式 ODF 能够确保数字主权且不会让用户被锁定在任何特定供应商范围内，任何以这种格式创建的文档都归原作者所有，这与微软使用的 OOXML 结构截然不同，后者表面上是开放的，但实际上确是微软专有的。&lt;/p&gt;
+&lt;p&gt;OOXML 是微软内部闭门开发的，这实际上是对开源社区的侮辱，这种格式也缺乏透明度、没有版本控制、不依赖于独立的标准，微软还尽可能使用专有格式将用户锁定在自己的软件体系内。&lt;/p&gt;
+&lt;p&gt;文档基金会还重点批评微软使用 OOXML 处理日期的方式，OOXML 的复杂程度令人匪夷所思，在 Excel 中这种日期处理方式经常出错，例如甚至会将 1900 年识别为闰年 &lt;em&gt;(闰年计算其实非常简单，能被 4 整除的可能是闰年，但如果能被 100 整除则必须同时满足能被 400 整除才是闰年，1900 年并不能被 400 整除)&lt;/em&gt;。&lt;/p&gt;
+&lt;p&gt;文档基金会称现在如此多的用户使用 Microsoft Office 和 OOXML 格式主要原因就是微软精心策划并采取诱饵式的营销策略，包括说服国际标准化组织、政界人士乃至全世界，让人们相信 OOXML 属于过渡格式，属于非专有的标准格式，这导致现在微软垄断了用户创建的文档。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 文档基金会认为产品必须强制将 ODF 作为原生选项：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;文档基金会的这篇博客在阐述原因后当然也在表达自己的目的，即办公软件仅仅支持 ODF 开放格式是不够的，而是应该将 ODF 作为原生选项为用户提供服务，否则数字主权只能算是暂时性的。&lt;/p&gt;
+&lt;p&gt;真正需要的是将 OOXML 作为文档交换的互操作性格式，让无论使用开源还是专有办公软件的用户都能通过开放格式进行互通，而其他任何解决方案都不能成为真正的数字主权，也就是必须实现 ODF 作为原生选项。&lt;/p&gt;
+</description><pubDate>Fri, 22 May 2026 02:00:31 +0000</pubDate></item><item><title>曾经的招聘独角兽拉勾网已申请破产 还欠着UCloud超过147万元技术服务费</title><link>https://www.landiannews.com/archives/113045.html</link><description>
+&lt;p&gt;#行业资讯 曾经的互联网垂直招聘独角兽拉勾网已经申请破产，还欠着 UCloud 超过 147 万元的技术服务费。日前拉勾网运营主体新增破产重整信息，早在 2017 年 9 月前程无忧就已经成为拉勾网控股股东，当前的破产重整应该也是在前程无忧控制下进行的。查看详情：https://ourl.co/113045&lt;/p&gt;&lt;p&gt;5 月 21 日国内多家网站报道曾经的互联网垂直招聘网站拉勾网已经申请破产，天眼查信息显示，拉勾网的运营主体北京拉勾网络技术有限公司在 4 月 29 日和 5 月 15 日增加破产审查案件和破产案件，这些案件的申请人均为拉勾网络技术公司，也就是拉勾网自己申请自己破产。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113045-1.png" rel="nofollow"&gt;&lt;img alt="曾经的招聘独角兽拉勾网已申请破产 还欠着UCloud超过147万元技术服务费" data-src="https://img.landian.news/landian/2026/05/113045-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113045-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在破产审查案件通过后目前拉勾网已经正式进入破产重整程序，而现在拉勾网虽然还可以正常访问，不过其大量招聘信息的用户评论还停留在半年前，拉勾网 400 客服电话则无人接听、拉勾网微博和公众号早在 2025 年 3 月就已经停止发布内容。&lt;/p&gt;
+&lt;p&gt;拉勾网曾经在互联网垂直招聘领域具有极强的竞争力，也正是因为如此，拉勾网在 2017 年 9 月获得前程无忧提供的 1.2 亿美元战略融资，前程无忧直接获得拉勾网 60% 的股权成为控股股东，之后前程无忧曾尝试推动拉勾网在 2019 年到纳斯达克上市。&lt;/p&gt;
+&lt;p&gt;不过由于上市计划并未实现，到 2023 年 2 月拉勾网创始人兼董事长许单单宣布离职，之后拉勾网由控股股东也就是前程无忧全面接管运营，当前申请破产重整应该也是在前程无忧控制下进行的，但无论是拉勾网还是前程无忧目前都没有发布任何说明。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113045-2.png" rel="nofollow"&gt;&lt;img alt="曾经的招聘独角兽拉勾网已申请破产 还欠着UCloud超过147万元技术服务费" data-src="https://img.landian.news/landian/2026/05/113045-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113045-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;值得注意的是拉勾网目前还被法院判决支付 147 万元的技术服务费，起诉方是 UCloud (优刻得公司)，上海杨浦区法院计划在 6 月 8 日和 6 月 17 日对这起案件进行开庭审理，不过拉勾网已经进入破产重整状态，估计到时候也不会出庭应诉。&lt;/p&gt;
+&lt;p&gt;能让优刻得通过法院起诉争取自己应有的技术服务费，说明拉勾网可能已经很长时间没有向供应商支付货款，毕竟不到迫不得已的情况下优刻得也不会起诉自己的客户，所以拉勾网估计很早就已经出现问题了，只是没想到网上完全没有传出任何风声。&lt;/p&gt;
+</description><pubDate>Fri, 22 May 2026 01:30:32 +0000</pubDate></item><item><title>微软承认Outlook经典版可能无法正常加载邮件图片 目前还无法解决问题</title><link>https://www.landiannews.com/archives/113044.html</link><description>
+&lt;p&gt;#软件资讯 微软承认 Outlook 经典版可能无法正常加载邮件图片，不过目前微软也没有提供临时解决方案。用户打开邮件时可能看到图片显示红色叉号或者错误提示，显示无法显示链接中的图片，微软怀疑这个错误与图片嵌入样式有关，但目前没有解决办法。查看详情：https://ourl.co/113044&lt;/p&gt;&lt;p&gt;据微软发布的支持文档，目前部分使用 Microsoft Outlook 经典版的用户可能会遇到无法下载邮件中的图片，无论是常规邮件还是新闻简报或者邮件签名中附带的图片都无法正常加载，Microsoft 365 团队目前正在调查问题暂时还没有解决办法。&lt;/p&gt;
+&lt;p&gt;微软称用户可能在打开邮件时注意到邮件中包含的图片显示红色叉号或者错误提示，尽管并非所有情况下都可能出现无法加载的问题，但在 Build 2604 19929.20164 及更高版本可能会频繁出现此类问题。&lt;/p&gt;
+&lt;p&gt;图片加载错误时也可能出现如下提示：无法显示链接中的图片，该文件可能已经被移动、重命名或被删除，请确认链接指向正确的文件和位置。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/08/110215.png" rel="nofollow"&gt;&lt;img alt="微软承认Outlook经典版可能无法正常加载邮件图片 目前还无法解决问题" data-src="https://img.lancdn.com/landian/2025/08/110215.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/08/110215.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;目前微软并未提供任何解决方案，或者说提供的解决方案并不是对用户而言的，微软称用户可以检查图片的内容 ID 看看内容是否以 XML 元素的形式出现，这种 XML 元素是告诉 Outlook 如何显示邮件中的嵌入图片。&lt;/p&gt;
+&lt;p&gt;但这只是对于邮件发送方而言的，邮件发送方应当避免使用顶部和底部环绕文字样式来设置图片，这样可能可以避免图片无法正常加载，接收邮件的用户要么等待发件方修改图片嵌入方式，要么等待微软修复这个问题。&lt;/p&gt;
+&lt;p&gt;请特别注意：由于图片本身并未被下载到本地，因此如果转发或回复邮件，该图片同样会无法显示，所以如果必须查看图片的话，请联系发件方通过其他方式向你提供图片。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://support.microsoft.com/en-us/office/images-are-not-displayed-in-emails-newsletters-or-signatures-in-classic-outlook-74600b12-905a-4f2c-9de5-ba295a675216" rel="noopener" target="_blank"&gt;Microsoft&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 22 May 2026 01:02:30 +0000</pubDate></item><item><title>微软披露Microsoft Defender中存在的2个安全漏洞 可被黑客用于本地提升权限</title><link>https://www.landiannews.com/archives/113043.html</link><description>
+&lt;p&gt;#安全资讯 微软披露 Microsoft Defender 中存在的 2 个安全漏洞，可被黑客用于本地权限提升到 SYSTEM 权限。目前微软已经通过软件更新修复漏洞，用户只需要保持联网即可，Microsoft Defender 会自动下载和安装更新。查看详情：https://ourl.co/113040&lt;/p&gt;&lt;p&gt;微软日前发布安全公告透露已经修复的 Microsoft Defender 防病毒软件中的安全漏洞，微软已经通过最新发布的平台更新和软件定义更新修复漏洞，使用该软件的用户只需要保持联网即可，Microsoft Defender 会自动接收并安装更新以封堵漏洞。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113043.png" rel="nofollow"&gt;&lt;img alt="微软披露Microsoft Defender中存在的2个安全漏洞 可被黑客用于本地提升权限" data-src="https://img.landian.news/landian/2026/05/113043.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113043.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;此脚本属于临时安全修复程序有助于降低漏洞被利用的风险，该脚本主要用于 WinRE 恢复环境，脚本会从 BootExecute 注册表中移除 autofstx.exe。由于 BootExecute 会在启动过程的早期阶段甚至是恢复模式下运行程序，因此移除该选项可以防止可执行文件在高权限环境中运行。&lt;/p&gt;
-&lt;p&gt;脚本工作原理是挂载 WinRE 映像并编辑离线的 SYSTEM 注册表以删除条目，完成操作后再安全地提交变更并重新封装 WinRE 恢复映像，从而让 Microsoft BitLocker 信任链保持完整。&lt;/p&gt;
-&lt;p&gt;脚本获取地址：&lt;a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45585" rel="noopener" target="_blank"&gt;https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45585&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 21 May 2026 10:04:11 +0000</pubDate></item><item><title>NAS系统Unraid 7.3.0正式版发布 用户终于可以不再使用U盘启动系统</title><link>https://www.landiannews.com/archives/113015.html</link><description>
-&lt;p&gt;#系统资讯 NAS 系统 Unraid v7.3.0 版发布，新版本作出了违背祖宗的决定：不再只支持通过 U 盘启动，现在也能通过硬盘启动。Unraid 从发布之初就只提供 U 盘启动，问题是 U 盘性能和可靠性都比较差，所以现在 Unraid 支持从硬盘启动，甚至可以通过 ZFS 镜像池设置热备。查看详情：https://ourl.co/113015&lt;/p&gt;&lt;p&gt;基于 Linux 开发但不开源的 NAS 系统 Unraid 日前发布 v7.3.0 正式版，该系统可以实现灵活便捷的扩展存储，可以在容器和虚拟机中运行各类应用程序和服务，而 v7.3.0 正式版算是作出了违背祖宗的决定。&lt;/p&gt;
-&lt;p&gt;Unraid 从最初发布时就只能依赖于 U 盘启动，原因是最初的设计者认为 Unraid 作为 NAS 系统目标就是最大程度地利用存储空间，操作系统不应该单独占用 1 块硬盘空间，所以 Unraid 将 U 盘作为启动盘然后充分利用用户现有的所有硬盘。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113015.png" rel="nofollow"&gt;&lt;img alt="NAS系统Unraid 7.3.0正式版发布 用户终于可以不再使用U盘启动系统" data-src="https://img.landian.news/landian/2026/05/113015.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113015.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;CVE-2026-41091：该漏洞评分为 7.8 分，成功利用此漏洞的黑客可以获得 SYSTEM 级别的权限。微软称漏洞原因是 Microsoft Defender 在文件访问之前的链接解析不当，这会导致本地用户提升到系统级权限。&lt;/p&gt;
+&lt;p&gt;CVE-2026-45498：该漏洞评分为 4.0 分，该漏洞被利用也只能在本地发起拒绝服务攻击，因此没有太严重的危害所以评分非常低，已经主动禁用 Microsoft Defender 的用户无论是否安装更新都不会受到这些漏洞的影响。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;U 盘本身就不应该被长期用于操作系统的运行，操作系统需要频繁读写内容并且 U 盘速度也不够快，尤其是部分用户已经用上全闪存 NAS (全部使用固态硬盘存储内容)，U 盘很容易造成性能问题和成为单点故障的主要原因。&lt;/p&gt;
-&lt;p&gt;所以在 Unraid 7.3.0 版中该系统为用户提供更加可靠的系统启动方式，也就是让用户直接在硬盘上安装和启动系统，甚至用户还可以使用 ZFS 镜像设置镜像启动池，这样哪怕是硬盘发生故障也能从正常的硬盘里继续启动系统。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;内置启动功能允许用户从内部驱动器例如 NVMe SSD、SATA SSD、eMMC 存储器或现有存储设备安装和启动 Unraid，这可以为用户带来更快的启动速度和更可靠的性能。&lt;/p&gt;
-&lt;p&gt;对于现有用户而言，除非用户主动切换启动方式否则 Unraid 将维持原状也就是继续使用 U 盘启动，如果用户要迁移为内部启动，Unraid 7.3.0 版也提供两种方式让用户可以根据硬件情况进行选择。&lt;/p&gt;
-&lt;p&gt;方案一：内部启动 + 闪存授权，这种方式采用内部启动并将已经授权的闪存驱动器作为授权锚点连接，启动速度更快也更加可靠，这种方式也不会改变授权方式，如果硬件本身没有 TPM 2.0 可信平台认证芯片或者用户不想使用可信认证则推荐使用这种方式。&lt;/p&gt;
-&lt;p&gt;方案二：内部启动 + 基于 TPM 的授权，如果主板带有硬件 TPM 芯片或提供基于固件的软 TPM 固件，许可证可以与主板进行绑定，这样即便用户拔掉 U 盘 Unraid 的授权系统也依然可以正常工作。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://unraid.net/blog/unraid-7-3-0" rel="noopener" target="_blank"&gt;Unraid&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 21 May 2026 09:46:40 +0000</pubDate></item><item><title>谷歌宣布将反重力配额永久提高3倍并重置本周配额 解决开发者抱怨的限额问题</title><link>https://www.landiannews.com/archives/113014.html</link><description>
-&lt;p&gt;#人工智能 谷歌宣布将反重力使用配额永久提高 3 倍并重置本周配额，解决开发者抱怨的很容易受限问题。昨天谷歌已经面向所有用户推出 5 小时和每周限额，不过很快就有开发者注意到配额似乎减少，因为执行简单任务后就直接受限，现在配额提高 3 倍可能是恢复成以前的配额了。查看详情：https://ourl.co/113014&lt;/p&gt;&lt;p&gt;昨天蓝点网提到谷歌现在已经面向所有订阅用户推出新的 5 小时和每周配额，不同订阅层级之间可以获得的使用配额自然也是不同的，同时谷歌还将弃用 Gemini CLI 要求开发者们在 2026 年 6 月迁移到反重力 CLI。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113014.png" rel="nofollow"&gt;&lt;img alt="谷歌宣布将反重力配额永久提高3倍并重置本周配额 解决开发者抱怨的限额问题" data-src="https://img.landian.news/landian/2026/05/113014.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113014.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;不过有不少开发者按照谷歌指示迁移到反重力后，发现执行简单任务也很容易触发 5 小时使用配额，甚至很快就将当周配额直接耗尽，需要切换到规模更小和智能化程度更低的模型，这让很多开发者感到不满。&lt;/p&gt;
-&lt;p&gt;目前无法确定谷歌是悄悄下调用户的使用配额还是存在其他异常情况，但现在谷歌已经决定将反重力使用配额永久提高 3 倍，当然仅限于在反重力中使用 Gemini 系列模型，可能在其他谷歌自家工具里使用 Gemini 的配额也跟着提高。&lt;/p&gt;
-&lt;p&gt;另外谷歌还决定重置本周配额让开发者们可以获得更高使用配额执行构建任务，从这方面来看估计谷歌应该是悄悄调整过配额，现在重新提高配额和重置配额算是给开发者们补偿，按理说都永久翻 3 倍后整体使用配额应该比以前要更高，但这还需要开发者们使用几天后才能感知到具体配额变化。&lt;/p&gt;
-</description><pubDate>Thu, 21 May 2026 09:20:05 +0000</pubDate></item><item><title>谷歌GCP不慎封禁多名客户账户导致服务宕机 目前谷歌尚未发布官方回应</title><link>https://www.landiannews.com/archives/113013.html</link><description>
-&lt;p&gt;#云计算 谷歌 GCP 不慎封禁多名客户账号导致服务宕机，但谷歌到现在还未发布任何公开说明，只是私下向受影响的客户透露这是平台级的误操作。具体来说谷歌云平台的反滥用系统似乎识别到某些信号，将包括 Railway 在内的多名客户账号封禁，导致账户下的所有云资源全部被停用。查看详情：https://ourl.co/113013&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landiannews.com/archives/113002.html" rel="noopener" target="_blank"&gt;早前开发者友好的全栈开发智能云开发平台 Railway 出现大范围长时间服务中断&lt;/a&gt;，而中断的根源则是该平台主要使用 Google Cloud 等服务器，而谷歌在没有任何提前通知的情况下将 Railway 账户封禁，账户封禁后所有服务器和其他资源被自动停用进而引发大规模故障。&lt;/p&gt;
-&lt;p&gt;根据 Railway 平台最新发布的&lt;a href="https://blog.railway.com/p/incident-report-may-19-2026-gcp-account-outage" rel="noopener" target="_blank"&gt;事故复盘报告&lt;/a&gt;，此次的封号事件并非针对该平台或针对特定账户出现的问题，而是谷歌云平台由于未知的平台级操作导致大量客户账号被封禁，而在封禁账号前谷歌也从未主动联系过任何可能受影响的客户，因此基本可以判断这是由谷歌内部故障引起的问题。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/04/113013.png" rel="nofollow"&gt;&lt;img alt="谷歌GCP不慎封禁多名客户账户导致服务宕机 目前谷歌尚未发布官方回应" data-src="https://img.landian.news/landian/2026/04/113013.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/04/113013.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;值得注意的是对于这件事连谷歌自己的支持工程师都非常懵逼，在 Railway 运维团队联系支持工程师时，谷歌支持工程师也感到困惑，完全不知道为什么会封禁正常使用的客户账号，但事后判断这可能是谷歌云平台的反滥用系统出现故障将识别到的存在特定信号的账号全部封禁。&lt;/p&gt;
-&lt;p&gt;而直到本文发布时谷歌云平台并未发布任何官方公告解释问题发生原因，谷歌云仅在私下告知受影响的客户称这是平台级自动化误操作，至于问题发生原因谷歌也没有向受影响的客户透露，当然暂时也没听说谷歌要向受影响的客户提供任何赔偿。&lt;/p&gt;
-&lt;p&gt;谷歌云平台向来对此类问题守口如瓶，哪怕是 2024 年发生的误删客户数据事件谷歌也想低调处理，这也是蓝点网在此前文章说必须引起更多的关注谷歌才会回应的原因，谷歌与 Cloudflare 等服务提供商不同，Cloudflare 通常会在出现内部问题后及时发布详细的复盘、保持更高的透明度，谷歌云平台的透明度相当低。&lt;/p&gt;
-&lt;p&gt;因此对于使用谷歌云的开发者来说可能要时刻提防谷歌再次出现类似的误封事件，包括平时做好各类数据备份并且不要只备份在谷歌云平台，这样出现问题时至少用户可以通过备份及时在其他云计算平台恢复，当然直接放弃使用谷歌云可能也是个不错的选择。&lt;/p&gt;
-</description><pubDate>Thu, 21 May 2026 09:04:14 +0000</pubDate></item></channel></rss>
+&lt;p&gt;有兴趣的用户可以转到 Microsoft Defender 检查更新以及查看当前是否已经安装最新版，检查更新方法：在 Microsoft Defender 中点击病毒和威胁防护、防护更新、保护更新，点击检查更新按钮即可自动下载最新版本。&lt;/p&gt;
+&lt;p&gt;完成更新后点击左下角设置按钮点击关于，这里会显示反恶意软件客户端版本、引擎版本、防病毒软件版本和反间谍软件版本，按微软所说已经修复漏洞的反恶意软件客户端版本为 4.18.26040.7 或更高版本、引擎版本为 1.1.26040.8 或更高版本。&lt;/p&gt;
+</description><pubDate>Fri, 22 May 2026 00:30:29 +0000</pubDate></item></channel></rss>
