@@ -372,11 +372,12 @@ def fetch_full_article(url):
                 return content, None
 
         # 张洪Heo 博客用专用解析：只取 Butterfly 正文容器，
-        # 去掉作者卡片/打赏/版权/相关文章等 readability 会抓进来的噪音
+        # 去掉作者卡片/打赏/版权/相关文章等 readability 会抓进来的噪音。
+        # 不返回封面图：该博客 og:image 常是站点头像而非正文图，只要正文内容
         if 'blog.zhheo.com' in url:
             content = extract_zhheo_content(resp.text)
             if content:
-                return content, extract_cover_image(resp.text)
+                return content, None
 
         cover = extract_cover_image(resp.text)
 

@@ -66,7 +66,7 @@
 - **翻译缓存很重要** — `cache.json` 基于内容 hash。任何在翻译之前改变内容的操作（如 HTML 清理）都会导致缓存失效、全量重新翻译、workflow 超时。所以 HTML 清理必须放在翻译之后
 - **3 线程并行** — 使用 ThreadPoolExecutor 同时处理 3 个 feed，显著缩短运行时间
 - **图片修复** — 所有 `<img>` 添加 `referrerpolicy="no-referrer"`（防盗链）；自动将 `data-src` 等懒加载属性还原为 `src`
-- **站点专用解析** — V2EX 帖子绕过 readability，用专用解析器提取主帖+评论，格式化为 `#楼层 用户名：内容`；张洪Heo 博客（Butterfly 主题）只取 `#article-container` 正文容器，天然排除作者卡片/打赏/版权声明/「最近发布」等噪音，并把 `data-lazy-src` 懒加载图片还原成 `src`
+- **站点专用解析** — V2EX 帖子绕过 readability，用专用解析器提取主帖+评论，格式化为 `#楼层 用户名：内容`；张洪Heo 博客（Butterfly 主题）只取 `#article-container` 正文容器，天然排除作者卡片/打赏/版权声明/「最近发布」等噪音，并把 `data-lazy-src` 懒加载图片还原成 `src`；该博客不补 og:image 封面图（其 og:image 常是站点头像而非正文图）
 - **HTML 清理** — 去掉 CSS class、简化 `<picture>` 为 `<img>`、展开无用 `<span>`/`<div>` wrapper，让 RSS 阅读器渲染更干净
 - **标题总结** — `summarize_title` 用 DeepSeek 将长描述压缩为简短中文标题，适用于图片分享类 feed（如 some.pics），原始描述翻译后放入正文
 - **纯图模式** — `images_only` 配合 `summarize_title` 使用，正文只保留 `<img>` 标签，去掉所有文字，适用于 Pixelfed 等摄影类 feed
