@@ -1,6 +1,6 @@
 # RSS 中文翻译源
 
-更新时间: 2026-05-22 02:48 UTC
+更新时间: 2026-05-22 07:05 UTC
 
 ## 订阅链接
 
@@ -30,5 +30,6 @@
 - thinkingoutloud: https://awesomesnaki.github.io/rss-translator/feeds/thinkingoutloud.xml
 - v2ex-hot: https://awesomesnaki.github.io/rss-translator/feeds/v2ex-hot.xml
 - workspaces: https://awesomesnaki.github.io/rss-translator/feeds/workspaces.xml
+- zhheo: https://awesomesnaki.github.io/rss-translator/feeds/zhheo.xml
 
 点击上面的链接即可获取订阅地址。

@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Fri, 22 May 2026 02:21:09 +0000</lastBuildDate><item><title>后知后觉：腾讯TIM PC客户端竟然已经被弃用 显示版本过低无法登录</title><link>https://www.landiannews.com/archives/113047.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landiannews.com</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Fri, 22 May 2026 02:58:18 +0000</lastBuildDate><item><title>黑客团队TeamPCP给开发者提出防黑建议 至少可以应对TeamPCP的供应链攻击</title><link>https://www.landiannews.com/archives/113048.html</link><description>
+&lt;p&gt;#安全资讯 黑客团队 TeamPCP 接受采访分享如何防止被 (自己) 黑：锁定 NPM 包最低年龄、固定版本哈希、使用最小权限的凭证等。该黑客团队称最初自己也是白帽黑客致力于帮客户发掘漏洞，但在雇主做了非常不道德的事情后 (可能是事后不给钱？)，该团队决定转向黑帽。查看详情：https://ourl.co/113048&lt;/p&gt;&lt;p&gt;致力于 NPM 生态系统供应链攻击的黑客团队 TeamPCP 日前接受安全公司采访透露更多此前未被公开的信息，该团队通过 NPM 供应链攻击已经拿到数万家公司的机密数据，包括代码托管平台 GitHub 3800 个内部源代码仓库都被窃取并在公开出售中。&lt;/p&gt;
+&lt;p&gt;TeamPCP 团队最初也曾属于白帽黑客并帮助客户发掘漏洞，不过在雇主做了某件非常不道德事情后 (可能是不给钱？) 该团队决定转向黑帽，也就是通过攻击其他公司或窃取数据进行勒索，TeamPCP 最初其实是个勒索软件团队。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113048.png" rel="nofollow"&gt;&lt;img alt="黑客团队TeamPCP给开发者提出防黑建议 至少可以应对TeamPCP的供应链攻击" data-src="https://img.landian.news/landian/2026/05/113048.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113048.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这段时间 NPM 供应链攻击已经让众多开发者感到麻木，不过事关安全问题开发者们还是要打起精神应对潜在的攻击，在采访中该黑客团队也分享避免被黑的经验，当然这些经验仅针对 TeamPCP 的供应链攻击。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;锁定 NPM 包的最低年龄：&lt;/strong&gt;通常恶意软件包发布后很快就会被检测到并下架，如果开发者在窗口期内安装恶意软件包那就会被感染并被窃取凭证，如果避免在这个窗口期内安装到恶意软件包呢？最简单的办法就是锁定软件包的最低年龄，例如只有软件包发布满 7 天才能安装，不满 7 天的安装包将在构建时被跳过并安装旧版本 (发布满 7 天的版本)，7 的窗口期已经足够软件包开发者或安全公司检测到问题并将其下架。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;将版本固定到特定哈希值：&lt;/strong&gt;设置安装软件包时检测哈希值，这样可以确保安装的包是合法版本，黑客发布的恶意版本哈希值肯定与原始包不同，通过将版本固定到特定哈希值也可以应对同版本软件包被替换为恶意版本的问题。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;使用最小权限的凭证：&lt;/strong&gt;开发者尤其是企业应当完善凭证管理机制，始终仅授予必要的凭证权限，不应该授予凭证太高的权限，否则凭证被窃取后黑客将可以通过凭证完成很多操作，最小化权限有助于减少攻击范围。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;限制开发者使用的扩展程序：&lt;/strong&gt;企业应当加强对开发者 IDE 中的扩展程序使用限制，企业必须了解开发者正在使用哪些扩展，或者直接限制开发者们只能使用 IT 管理团队批准的扩展程序，这样可以避免开发者不慎安装恶意扩展程序。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;使用安全软件：&lt;/strong&gt;目前在 NPM 供应链攻击中检测最及时的是 Socket 公司，该公司通常会在新恶意软件包发布几分钟内检测到异常，为此 TeamPCP 团队也建议企业使用 Socket 的服务，这样可以在恶意软件被安装前就被拦截。Socket 还会公开所有 IOC 和修复步骤，受影响的企业可以根据 IOC 进行入侵排查。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 有人出价 10 万美元购买 GitHub 的源代码：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;TeamPCP 最初确实是勒索软件团队，不过现在由于赚的钱已经足够多所以不再进行加密勒索，而且只窃取数据进行销售对企业的破坏也比较小 (相较于将企业所有数据全部加密而言)。&lt;/p&gt;
+&lt;p&gt;在 GitHub 案例中，3800 个源代码仓库最初售价 5 万美元，不过已经有人愿意以 9.5 万美元购买源代码，当然这仅仅只是收到的报价而非最终成交价，至于报价者的身份目前无法知晓，不清楚是黑客还是某些希望利用 GitHub 源代码开发产品的公司。&lt;/p&gt;
+</description><pubDate>Fri, 22 May 2026 02:58:18 +0000</pubDate></item><item><title>后知后觉：腾讯TIM PC客户端竟然已经被弃用 显示版本过低无法登录</title><link>https://www.landiannews.com/archives/113047.html</link><description>
 &lt;p&gt;#软件资讯 后知后觉：腾讯 TIM PC 客户端竟然已经被弃用，现在登录时显示版本过低无法成功登录。TIM 最初为办公人士打造，简洁无广告且使用体验非常不错，网上搜索发现 2025 年 11 月就有用户抱怨 TIM 无法登录，不过这仅限于 PC 版，至少我们使用的 iOS 版还是正常的。查看详情：https://ourl.co/113047&lt;/p&gt;&lt;p&gt;蓝点网已经很长时间没有在 PC 上使用腾讯 QQ，日常联系主要靠 iOS 版的 TIM 客户端，不过有时候传送大型文件时还需要使用 PC 客户端，所以我们默认还是下载安装 TIM PC 客户端，只是没想到现在 TIM PC 客户端已经被弃用。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113047.png" rel="nofollow"&gt;&lt;img alt="后知后觉：腾讯TIM PC客户端竟然已经被弃用 显示版本过低无法登录" data-src="https://img.landian.news/landian/2026/05/113047.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113047.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;现在 TIM for Windows 登录时会显示版本过低，当然我们下载安装的始终都是最新版，无法登录的根源还是腾讯已经弃用 TIM，网上搜索可以发现在 2025 年 11 月就有用户发帖称 TIM 显示版本过低无法登录，不过这只影响 TIM for Windows 版，至少我们使用的 TIM for iOS 版还是正常的。&lt;/p&gt;
@@ -34,13 +48,4 @@
 &lt;p&gt;但这只是对于邮件发送方而言的，邮件发送方应当避免使用顶部和底部环绕文字样式来设置图片，这样可能可以避免图片无法正常加载，接收邮件的用户要么等待发件方修改图片嵌入方式，要么等待微软修复这个问题。&lt;/p&gt;
 &lt;p&gt;请特别注意：由于图片本身并未被下载到本地，因此如果转发或回复邮件，该图片同样会无法显示，所以如果必须查看图片的话，请联系发件方通过其他方式向你提供图片。&lt;/p&gt;
 &lt;p&gt;via &lt;a href="https://support.microsoft.com/en-us/office/images-are-not-displayed-in-emails-newsletters-or-signatures-in-classic-outlook-74600b12-905a-4f2c-9de5-ba295a675216" rel="noopener" target="_blank"&gt;Microsoft&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 22 May 2026 01:02:30 +0000</pubDate></item><item><title>微软披露Microsoft Defender中存在的2个安全漏洞 可被黑客用于本地提升权限</title><link>https://www.landiannews.com/archives/113043.html</link><description>
-&lt;p&gt;#安全资讯 微软披露 Microsoft Defender 中存在的 2 个安全漏洞，可被黑客用于本地权限提升到 SYSTEM 权限。目前微软已经通过软件更新修复漏洞，用户只需要保持联网即可，Microsoft Defender 会自动下载和安装更新。查看详情：https://ourl.co/113040&lt;/p&gt;&lt;p&gt;微软日前发布安全公告透露已经修复的 Microsoft Defender 防病毒软件中的安全漏洞，微软已经通过最新发布的平台更新和软件定义更新修复漏洞，使用该软件的用户只需要保持联网即可，Microsoft Defender 会自动接收并安装更新以封堵漏洞。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113043.png" rel="nofollow"&gt;&lt;img alt="微软披露Microsoft Defender中存在的2个安全漏洞 可被黑客用于本地提升权限" data-src="https://img.landian.news/landian/2026/05/113043.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113043.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;CVE-2026-41091：该漏洞评分为 7.8 分，成功利用此漏洞的黑客可以获得 SYSTEM 级别的权限。微软称漏洞原因是 Microsoft Defender 在文件访问之前的链接解析不当，这会导致本地用户提升到系统级权限。&lt;/p&gt;
-&lt;p&gt;CVE-2026-45498：该漏洞评分为 4.0 分，该漏洞被利用也只能在本地发起拒绝服务攻击，因此没有太严重的危害所以评分非常低，已经主动禁用 Microsoft Defender 的用户无论是否安装更新都不会受到这些漏洞的影响。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;有兴趣的用户可以转到 Microsoft Defender 检查更新以及查看当前是否已经安装最新版，检查更新方法：在 Microsoft Defender 中点击病毒和威胁防护、防护更新、保护更新，点击检查更新按钮即可自动下载最新版本。&lt;/p&gt;
-&lt;p&gt;完成更新后点击左下角设置按钮点击关于，这里会显示反恶意软件客户端版本、引擎版本、防病毒软件版本和反间谍软件版本，按微软所说已经修复漏洞的反恶意软件客户端版本为 4.18.26040.7 或更高版本、引擎版本为 1.1.26040.8 或更高版本。&lt;/p&gt;
-</description><pubDate>Fri, 22 May 2026 00:30:29 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 22 May 2026 01:02:30 +0000</pubDate></item></channel></rss>
