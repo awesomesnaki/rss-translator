@@ -1,5 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Fri, 22 May 2026 02:58:18 +0000</lastBuildDate><item><title>黑客团队TeamPCP给开发者提出防黑建议 至少可以应对TeamPCP的供应链攻击</title><link>https://www.landian.news/archives/113048.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sat, 23 May 2026 05:54:56 +0000</lastBuildDate><item><title>开源项目Laravel Lang(社区本地化项目)被攻击 黑客发布700多个恶意版本</title><link>https://www.landian.news/archives/113052.html</link><description>
+&lt;p&gt;#安全资讯 供应链攻击：开源项目 Laravel Lang (社区本地化项目) 被攻击，黑客劫持 GitHub 账号发布 700 多个恶意软件包。下游项目若是使用这些软件包请立即排查，此次攻击发生在 UTC 时间 5 月 22 日～23 日，恶意代码会窃取开发环境和本地软件 (例如 1Password) 的所有凭证。查看详情：https://ourl.co/113052&lt;/p&gt;&lt;p&gt;开源项目 Laravel 的社区本地化项目 Laravel Lang (这属于社区构建的项目与 Laravel 框架无关) 日前遭到黑客攻击，黑客劫持开发者账号后发布 700 多个恶意版本用于下游构建，最终目的是窃取被感染设备中的所有机密凭证。&lt;/p&gt;
+&lt;p&gt;Laravel Lang 项目的多个本地化软件包被下游项目使用，这些项目在构建时会自动加载含有恶意代码的软件包，而加载器在运行时会自动执行后门程序，随后恶意代码开始搜寻开发环境中的各类凭证并将其加密传输到黑客控制的服务器。&lt;/p&gt;
+&lt;p&gt;此次攻击虽然不是针对 NPM 生态系统的，但依然属于供应链攻击，使用 Laravel Lang 相关软件包的开发者请立即检查构建记录，最好立即将所有机密凭证全部轮换，也要检查各类凭证的登录日志看看是否存在异常行为。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113052.png" rel="nofollow"&gt;&lt;img alt="开源项目Laravel Lang(社区本地化项目)被攻击 黑客发布700多个恶意版本" data-src="https://img.landian.news/landian/2026/05/113052.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113052.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;网络安全公司 &lt;a href="https://www.landian.news/go?url=https://socket.dev/blog/laravel-lang-compromise" rel="noopener" target="_blank"&gt;Socket&lt;/a&gt; 情报系统收集的数据显示，此次攻击发生在 UTC 时间 2026 年 5 月 22 日～23 日期间，黑客通过某种方式劫持开发者账号后按秒发布恶意版本，Laravel Lang 项目下的多个软件包都被密集发布多个恶意版本。&lt;/p&gt;
+&lt;p&gt;最初网络安全公司 Aikido Security 发现该问题并立即提交反馈，随后开发者删除恶意软件包，截至本文发布时这些恶意软件包已经被删除，不过基于安全考虑建议下游开发者暂停拉取 Laravel Lang 下的软件包，待后续事件调查完成后再考虑重新拉取。&lt;/p&gt;
+&lt;p&gt;分析还显示 Laravel Lang GitHub 账号下多个仓库都被发布恶意软件，因此安全公司推测黑客可能已经拿到组织级的 API 凭证，拥有所有仓库自动化权限和发布基础设施。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;受影响的项目软件包包括：Laravel-Lang/lang、Laravel-Lang/http-statuses、Laravel-Lang/attributes、Laravel-Lang/actions，开发者需要着重检查自己的项目里使用拉取以上软件包，如果完全没有使用这些软件包则可能不受影响。&lt;/p&gt;
+&lt;p&gt;黑客使用的域名为：https://flipboxstudio [.] info/payload 企业也可以通过防火墙检查是否存在该域名的访问记录，如果存在访问记录说明也遭到攻击，可能需要立即对潜在受影响的设备进行排查。&lt;/p&gt;
+</description><pubDate>Sat, 23 May 2026 05:54:56 +0000</pubDate></item><item><title>Sub2Api Codex登录出现严重问题 账号无法认证且可能必须手机号验证</title><link>https://www.landian.news/archives/113051.html</link><description>
+&lt;p&gt;#人工智能 Sub2Api Codex 登录出现严重问题，账号无法认证且可能必须验证手机号。使用 Sub2Api 组个人自用中转站的用户或许发现部分 ChatGPT 账号存在 HTTP 401 认证错误，部分账号重新授权时必须验证手机号，从目前情况来看大概率还是风控问题，甚至付费账号都可能无法登录。查看详情：https://ourl.co/113051&lt;/p&gt;&lt;p&gt;很多网友使用开源中转站项目 Sub2Api 并登录 ChatGPT 账号来使用里面包含的 Codex 使用额度，当然也有网友注册海量账号放在该项目里组成账号池进行使用，这样其中部分免费账号触发限额后可以自动切换到其他账号继续提供响应，不过这种已经属于滥用的范畴因此很容易被打击。&lt;/p&gt;
+&lt;p&gt;现在 Sub2Api 出现的问题是非账号池用户甚至是 ChatGPT 付费用户都出现授权错误，如果用户尝试重新授权则可能需要验证手机号码，而多数接码平台的手机号码都被其他用户用于 ChatGPT 验证，而每个手机号码只能被验证 1 次，所以在无法验证的情况下就无法继续使用 ChatGPT/Codex 账号。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113051.png" rel="nofollow"&gt;&lt;img alt="Sub2Api Codex登录出现严重问题 账号无法认证且可能必须手机号验证" data-src="https://img.landian.news/landian/2026/05/113051.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113051.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在 Sub2Api 项目的问题列表里已经有不少网友提交反馈，不过开发者还未就这个问题给出回复，但从情况来看大概率还是风控导致的问题，开发者显然也解决不了风控问题，受影响的用户还是得靠自己想办法验证手机号以及使用更干净的 IP 地址。&lt;/p&gt;
+&lt;p&gt;对于 ChatGPT 免费版而言组成账号池被风控的概率更高，然而也有用户添加的 ChatGPT Plus 订阅账号出现错误，这有可能是本身账号池里账号非常多导致付费账号也被风控，正常情况下 OpenAI 对付费账号的容忍度要比免费版更高。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;我们有 1 个免费版账号和 1 个付费版账号，其中免费版账号也出现 HTTP 401 授权错误需要重新登录授权，好消息是我们正常重新登录并授权并没有出现强制手机号验证的情况，而且简单登录授权后现在也可以继续在 Sub2Api 中调用没有其他错误。&lt;/p&gt;
+&lt;p&gt;至于我们的付费账号目前使用是正常的，没有出现授权错误并且在 ChatGPT、Codex、Atlas 浏览器中也都是正常使用的，有可能我们本身没有做账号池 (毕竟就俩账号)，我们的建议是用户应当确保主账号 (和付费账号) 的安全，也就是如果存在组账号池的行为，请删除主账号和付费账号避免也被牵连。&lt;/p&gt;
+</description><pubDate>Sat, 23 May 2026 04:37:47 +0000</pubDate></item><item><title>谷歌宣布将反重力每周配额也增加3倍同时重置本周额度试图平息开发者怒火</title><link>https://www.landian.news/archives/113050.html</link><description>
+&lt;p&gt;#人工智能 谷歌宣布将反重力每周配额也增加 3 倍同时再次重置本周配额来平息开发者的怒火，不过即便如此仍然有开发者认为当前配额较以前还是缩减。另外看到谷歌如此果断地大幅度提高使用配额，说明之前的配额肯定被大幅度缩水，毕竟算力是有成本的，不可能因为用户抱怨就提供更高配额。查看详情：https://ourl.co/113049&lt;/p&gt;&lt;p&gt;谷歌是怎么将产品更新做到人人厌恶的？本周谷歌面向所有用户推出 5 小时和每周使用配额机制，但谷歌显然悄悄调整使用配额以至于开发者执行简单的任务就可以将 5 小时甚至是当周配额耗尽，而这种抱怨在社交媒体平台上非常常见。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.landian.news/archives/113014.html" rel="noopener" target="_blank"&gt;为平息开发者怒火谷歌早前宣布将反重力 5 小时使用配额增加 3 倍&lt;/a&gt;，但即便如此还是有开发者注意到提高配额后实际可以使用的配额也依然非常少，所以现在谷歌再次更新配额宣布将反重力每周使用配额也增加 3 倍，同时再次重置本周配额。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113014.png" rel="nofollow"&gt;&lt;img alt="谷歌宣布将反重力每周配额也增加3倍同时重置本周额度试图平息开发者怒火" data-src="https://img.landian.news/landian/2026/05/113014.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113014.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;谷歌和反重力团队本周通过 X/Twitter 不同账号宣布各种配额增加，但现在的情况非常混乱以至于蓝点网已经搞不清实际配额到底是多少，按照谷歌的说法目前应该是 5 小时配额增加 3 倍，同时每周配额也增加 3 倍，叠加本周提前重置所有订阅用户的使用配额。&lt;/p&gt;
+&lt;p&gt;然而看到谷歌如此果断地增加配额只能说谷歌此前肯定大幅度缩减用户使用配额，毕竟算力是需要成本的，如果不是大幅度缩减用户配额，让谷歌直接增加 3 倍配额显然是不可能的事情，也就是部分开发者抱怨的谷歌先大幅度缩减配额再提高配额试图证明自己慷慨。&lt;/p&gt;
+&lt;p&gt;问题在于使用配额本身没有明确的数字指标，不同开发者使用不同模型执行不同难度的任务消耗的算力也是不同的，目前仍然有开发者认为自己当前配额不如此前的配额，也就是在提高 3 倍后仍然还存在缩水问题，当然谷歌从来没有正面回应过这些问题。&lt;/p&gt;
+</description><pubDate>Sat, 23 May 2026 03:58:27 +0000</pubDate></item><item><title>深度求索宣布将DeepSeek V4 Pro永久降价到原价的1/4 也就是优惠价变正价</title><link>https://www.landian.news/archives/113049.html</link><description>
+&lt;p&gt;#人工智能 深度求索宣布将 DeepSeek V4 Pro 模型永久降价到原价的 1/4，也就是原本 2.5 折优惠价过期后变成正价。对开发者而言这个价格基本可以畅快放心使用，百万输入命中缓存仅 0.025 元，未命中缓存 3 元 (原价 12 元)，百万输出仅 6 元 (原价 24 元)。查看详情：https://ourl.co/113049&lt;/p&gt;&lt;p&gt;此前深度求索发布 DeepSeek V4 Pro 模型时因价格太高因此引起诸多开发者的吐槽，当时深度求索也解释称定价高是因为算力不足，待算力充足后会调整定价让大家可以放心使用，为安慰开发者当时深度求索还推出限时优惠活动。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113049.png" rel="nofollow"&gt;&lt;img alt="深度求索宣布将DeepSeek V4 Pro永久降价到原价的1/4 也就是优惠价变正价" data-src="https://img.landian.news/landian/2026/05/113049.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113049.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;限时优惠活动按照模型价格的 2.5 折提供，有效期是到 2026 年 5 月 31 日，现在距离限时优惠活动结束已经很近，没想到这个时候深度求索宣布在优惠活动结束后将模型价格调整为原价的 1/4，也就是促销活动价后续将变成正价，而这个价格相对来说就已经非常便宜。&lt;/p&gt;
+&lt;p&gt;按照当前价格清单来看，DeepSeek V4 Pro 百万输入命中缓存仅为 0.025 元，百万输入未命中缓存为 3 元 (原价 12 元)，百万输出仅 6 元 (原价 24 元)，对大多数开发者来说这个价格已经可以放心使用，所以配置到各类编程开发工具里也可以畅快使用。&lt;/p&gt;
+&lt;p&gt;DeepSeek V4 系列模型最高支持 1M 长度和 384K 输出，其中 Flash 模型每账号并发限制为 2500，Pro 模型每账号并发限制是 500，对于企业和团队客户来说如果并发限制不够还可以联系深度求索申请更高的并发限制，也可以通过新增的 USER ID 功能在相同 API 下配置不同的用户功能。&lt;/p&gt;
+&lt;p&gt;DeepSeek API 平台：&lt;a href="https://www.landian.news/go?url=https://platform.deepseek.com/usage" rel="noopener" target="_blank"&gt;https://platform.deepseek.com/usage&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;DeepSeek API 定价：&lt;a href="https://www.landian.news/go?url=https://api-docs.deepseek.com/zh-cn/quick_start/pricing/" rel="noopener" target="_blank"&gt;https://api-docs.deepseek.com/zh-cn/quick_start/pricing/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;DeepSeek API 并发：&lt;a href="https://www.landian.news/go?url=https://api-docs.deepseek.com/zh-cn/quick_start/rate_limit" rel="noopener" target="_blank"&gt;https://api-docs.deepseek.com/zh-cn/quick_start/rate_limit&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sat, 23 May 2026 03:38:02 +0000</pubDate></item><item><title>黑客团队TeamPCP给开发者提出防黑建议 至少可以应对TeamPCP的供应链攻击</title><link>https://www.landian.news/archives/113048.html</link><description>
 &lt;p&gt;#安全资讯 黑客团队 TeamPCP 接受采访分享如何防止被 (自己) 黑：锁定 NPM 包最低年龄、固定版本哈希、使用最小权限的凭证等。该黑客团队称最初自己也是白帽黑客致力于帮客户发掘漏洞，但在雇主做了非常不道德的事情后 (可能是事后不给钱？)，该团队决定转向黑帽。查看详情：https://ourl.co/113048&lt;/p&gt;&lt;p&gt;致力于 NPM 生态系统供应链攻击的黑客团队 TeamPCP 日前接受安全公司采访透露更多此前未被公开的信息，该团队通过 NPM 供应链攻击已经拿到数万家公司的机密数据，包括代码托管平台 GitHub 3800 个内部源代码仓库都被窃取并在公开出售中。&lt;/p&gt;
 &lt;p&gt;TeamPCP 团队最初也曾属于白帽黑客并帮助客户发掘漏洞，不过在雇主做了某件非常不道德事情后 (可能是不给钱？) 该团队决定转向黑帽，也就是通过攻击其他公司或窃取数据进行勒索，TeamPCP 最初其实是个勒索软件团队。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113048.png" rel="nofollow"&gt;&lt;img alt="黑客团队TeamPCP给开发者提出防黑建议 至少可以应对TeamPCP的供应链攻击" data-src="https://img.landian.news/landian/2026/05/113048.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113048.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -13,39 +52,4 @@
 &lt;p&gt;&lt;strong&gt;&lt;p&gt; 有人出价 10 万美元购买 GitHub 的源代码：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;TeamPCP 最初确实是勒索软件团队，不过现在由于赚的钱已经足够多所以不再进行加密勒索，而且只窃取数据进行销售对企业的破坏也比较小 (相较于将企业所有数据全部加密而言)。&lt;/p&gt;
 &lt;p&gt;在 GitHub 案例中，3800 个源代码仓库最初售价 5 万美元，不过已经有人愿意以 9.5 万美元购买源代码，当然这仅仅只是收到的报价而非最终成交价，至于报价者的身份目前无法知晓，不清楚是黑客还是某些希望利用 GitHub 源代码开发产品的公司。&lt;/p&gt;
-</description><pubDate>Fri, 22 May 2026 02:58:18 +0000</pubDate></item><item><title>后知后觉：腾讯TIM PC客户端竟然已经被弃用 显示版本过低无法登录</title><link>https://www.landian.news/archives/113047.html</link><description>
-&lt;p&gt;#软件资讯 后知后觉：腾讯 TIM PC 客户端竟然已经被弃用，现在登录时显示版本过低无法成功登录。TIM 最初为办公人士打造，简洁无广告且使用体验非常不错，网上搜索发现 2025 年 11 月就有用户抱怨 TIM 无法登录，不过这仅限于 PC 版，至少我们使用的 iOS 版还是正常的。查看详情：https://ourl.co/113047&lt;/p&gt;&lt;p&gt;蓝点网已经很长时间没有在 PC 上使用腾讯 QQ，日常联系主要靠 iOS 版的 TIM 客户端，不过有时候传送大型文件时还需要使用 PC 客户端，所以我们默认还是下载安装 TIM PC 客户端，只是没想到现在 TIM PC 客户端已经被弃用。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113047.png" rel="nofollow"&gt;&lt;img alt="后知后觉：腾讯TIM PC客户端竟然已经被弃用 显示版本过低无法登录" data-src="https://img.landian.news/landian/2026/05/113047.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113047.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;现在 TIM for Windows 登录时会显示版本过低，当然我们下载安装的始终都是最新版，无法登录的根源还是腾讯已经弃用 TIM，网上搜索可以发现在 2025 年 11 月就有用户发帖称 TIM 显示版本过低无法登录，不过这只影响 TIM for Windows 版，至少我们使用的 TIM for iOS 版还是正常的。&lt;/p&gt;
-&lt;p&gt;TIM PC 版最后更新还是在 2025 年 5 月，TIM 官网没有显示任何已经被弃用的说明，可能这个项目已经被彻底废弃所以连官网都没有更新，只是可惜 TIM 这个精简的 QQ 客户端，TIM 最初主要为办公人士打造，简洁无广告且使用体验非常不错，最近 10 年我们基本使用的都是 TIM 而非 QQ 客户端。&lt;/p&gt;
-&lt;p&gt;现在的腾讯 QQ 客户端则已经转向横版宽屏样式，可能是为照顾某些老用户，所以腾讯 QQ 官网还提供历史版本下载，历史版本指的是 9.7 系列，还保持着纵向样式，算是留给老用户的最后一件礼物。&lt;/p&gt;
-</description><pubDate>Fri, 22 May 2026 02:21:09 +0000</pubDate></item><item><title>文档基金会(开源LibreOffice开发商)再次发文抨击微软的OOXML专有格式</title><link>https://www.landian.news/archives/113046.html</link><description>
-&lt;p&gt;#行业资讯 文档基金会 (LibreOffice 开发商) 再次发文抨击微软，称微软的 OOXML 文档格式极其荒谬，Excel 甚至都不能很好的处理日期。文档基金会致力于推动开源格式 ODF 成为主流，微软则主要使用自己的专有标准 OOXML，文档基金会认为除非实现 ODF 成为默认选项，否则无法实现真正的数字主权。查看详情：https://ourl.co/113046&lt;/p&gt;&lt;p&gt;开源办公软件 LibreOffice 的开发商文档基金会 (TDF) 长期以来因兼容性问题与微软存在不可调和的矛盾，文档基金会与微软使用的都是不同的格式标准，当然文档基金会主要使用兼容性更加开放的标准，而微软在 Microsoft Office 办公软件套件中主要使用的是微软专有的 OOXML 格式。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113046.png" rel="nofollow"&gt;&lt;img alt="文档基金会(开源LibreOffice开发商)再次发文抨击微软的OOXML专有格式" data-src="https://img.landian.news/landian/2026/05/113046.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113046.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;文档基金会在最新博客中表示，自己使用的开源格式 ODF 能够确保数字主权且不会让用户被锁定在任何特定供应商范围内，任何以这种格式创建的文档都归原作者所有，这与微软使用的 OOXML 结构截然不同，后者表面上是开放的，但实际上确是微软专有的。&lt;/p&gt;
-&lt;p&gt;OOXML 是微软内部闭门开发的，这实际上是对开源社区的侮辱，这种格式也缺乏透明度、没有版本控制、不依赖于独立的标准，微软还尽可能使用专有格式将用户锁定在自己的软件体系内。&lt;/p&gt;
-&lt;p&gt;文档基金会还重点批评微软使用 OOXML 处理日期的方式，OOXML 的复杂程度令人匪夷所思，在 Excel 中这种日期处理方式经常出错，例如甚至会将 1900 年识别为闰年 &lt;em&gt;(闰年计算其实非常简单，能被 4 整除的可能是闰年，但如果能被 100 整除则必须同时满足能被 400 整除才是闰年，1900 年并不能被 400 整除)&lt;/em&gt;。&lt;/p&gt;
-&lt;p&gt;文档基金会称现在如此多的用户使用 Microsoft Office 和 OOXML 格式主要原因就是微软精心策划并采取诱饵式的营销策略，包括说服国际标准化组织、政界人士乃至全世界，让人们相信 OOXML 属于过渡格式，属于非专有的标准格式，这导致现在微软垄断了用户创建的文档。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; 文档基金会认为产品必须强制将 ODF 作为原生选项：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;文档基金会的这篇博客在阐述原因后当然也在表达自己的目的，即办公软件仅仅支持 ODF 开放格式是不够的，而是应该将 ODF 作为原生选项为用户提供服务，否则数字主权只能算是暂时性的。&lt;/p&gt;
-&lt;p&gt;真正需要的是将 OOXML 作为文档交换的互操作性格式，让无论使用开源还是专有办公软件的用户都能通过开放格式进行互通，而其他任何解决方案都不能成为真正的数字主权，也就是必须实现 ODF 作为原生选项。&lt;/p&gt;
-</description><pubDate>Fri, 22 May 2026 02:00:31 +0000</pubDate></item><item><title>曾经的招聘独角兽拉勾网已申请破产 还欠着UCloud超过147万元技术服务费</title><link>https://www.landian.news/archives/113045.html</link><description>
-&lt;p&gt;#行业资讯 曾经的互联网垂直招聘独角兽拉勾网已经申请破产，还欠着 UCloud 超过 147 万元的技术服务费。日前拉勾网运营主体新增破产重整信息，早在 2017 年 9 月前程无忧就已经成为拉勾网控股股东，当前的破产重整应该也是在前程无忧控制下进行的。查看详情：https://ourl.co/113045&lt;/p&gt;&lt;p&gt;5 月 21 日国内多家网站报道曾经的互联网垂直招聘网站拉勾网已经申请破产，天眼查信息显示，拉勾网的运营主体北京拉勾网络技术有限公司在 4 月 29 日和 5 月 15 日增加破产审查案件和破产案件，这些案件的申请人均为拉勾网络技术公司，也就是拉勾网自己申请自己破产。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113045-1.png" rel="nofollow"&gt;&lt;img alt="曾经的招聘独角兽拉勾网已申请破产 还欠着UCloud超过147万元技术服务费" data-src="https://img.landian.news/landian/2026/05/113045-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113045-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;在破产审查案件通过后目前拉勾网已经正式进入破产重整程序，而现在拉勾网虽然还可以正常访问，不过其大量招聘信息的用户评论还停留在半年前，拉勾网 400 客服电话则无人接听、拉勾网微博和公众号早在 2025 年 3 月就已经停止发布内容。&lt;/p&gt;
-&lt;p&gt;拉勾网曾经在互联网垂直招聘领域具有极强的竞争力，也正是因为如此，拉勾网在 2017 年 9 月获得前程无忧提供的 1.2 亿美元战略融资，前程无忧直接获得拉勾网 60% 的股权成为控股股东，之后前程无忧曾尝试推动拉勾网在 2019 年到纳斯达克上市。&lt;/p&gt;
-&lt;p&gt;不过由于上市计划并未实现，到 2023 年 2 月拉勾网创始人兼董事长许单单宣布离职，之后拉勾网由控股股东也就是前程无忧全面接管运营，当前申请破产重整应该也是在前程无忧控制下进行的，但无论是拉勾网还是前程无忧目前都没有发布任何说明。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113045-2.png" rel="nofollow"&gt;&lt;img alt="曾经的招聘独角兽拉勾网已申请破产 还欠着UCloud超过147万元技术服务费" data-src="https://img.landian.news/landian/2026/05/113045-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113045-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;值得注意的是拉勾网目前还被法院判决支付 147 万元的技术服务费，起诉方是 UCloud (优刻得公司)，上海杨浦区法院计划在 6 月 8 日和 6 月 17 日对这起案件进行开庭审理，不过拉勾网已经进入破产重整状态，估计到时候也不会出庭应诉。&lt;/p&gt;
-&lt;p&gt;能让优刻得通过法院起诉争取自己应有的技术服务费，说明拉勾网可能已经很长时间没有向供应商支付货款，毕竟不到迫不得已的情况下优刻得也不会起诉自己的客户，所以拉勾网估计很早就已经出现问题了，只是没想到网上完全没有传出任何风声。&lt;/p&gt;
-</description><pubDate>Fri, 22 May 2026 01:30:32 +0000</pubDate></item><item><title>微软承认Outlook经典版可能无法正常加载邮件图片 目前还无法解决问题</title><link>https://www.landian.news/archives/113044.html</link><description>
-&lt;p&gt;#软件资讯 微软承认 Outlook 经典版可能无法正常加载邮件图片，不过目前微软也没有提供临时解决方案。用户打开邮件时可能看到图片显示红色叉号或者错误提示，显示无法显示链接中的图片，微软怀疑这个错误与图片嵌入样式有关，但目前没有解决办法。查看详情：https://ourl.co/113044&lt;/p&gt;&lt;p&gt;据微软发布的支持文档，目前部分使用 Microsoft Outlook 经典版的用户可能会遇到无法下载邮件中的图片，无论是常规邮件还是新闻简报或者邮件签名中附带的图片都无法正常加载，Microsoft 365 团队目前正在调查问题暂时还没有解决办法。&lt;/p&gt;
-&lt;p&gt;微软称用户可能在打开邮件时注意到邮件中包含的图片显示红色叉号或者错误提示，尽管并非所有情况下都可能出现无法加载的问题，但在 Build 2604 19929.20164 及更高版本可能会频繁出现此类问题。&lt;/p&gt;
-&lt;p&gt;图片加载错误时也可能出现如下提示：无法显示链接中的图片，该文件可能已经被移动、重命名或被删除，请确认链接指向正确的文件和位置。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2025/08/110215.png" rel="nofollow"&gt;&lt;img alt="微软承认Outlook经典版可能无法正常加载邮件图片 目前还无法解决问题" data-src="https://img.landian.news/landian/2025/08/110215.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2025/08/110215.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;目前微软并未提供任何解决方案，或者说提供的解决方案并不是对用户而言的，微软称用户可以检查图片的内容 ID 看看内容是否以 XML 元素的形式出现，这种 XML 元素是告诉 Outlook 如何显示邮件中的嵌入图片。&lt;/p&gt;
-&lt;p&gt;但这只是对于邮件发送方而言的，邮件发送方应当避免使用顶部和底部环绕文字样式来设置图片，这样可能可以避免图片无法正常加载，接收邮件的用户要么等待发件方修改图片嵌入方式，要么等待微软修复这个问题。&lt;/p&gt;
-&lt;p&gt;请特别注意：由于图片本身并未被下载到本地，因此如果转发或回复邮件，该图片同样会无法显示，所以如果必须查看图片的话，请联系发件方通过其他方式向你提供图片。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://www.landian.news/go?url=https://support.microsoft.com/en-us/office/images-are-not-displayed-in-emails-newsletters-or-signatures-in-classic-outlook-74600b12-905a-4f2c-9de5-ba295a675216" rel="noopener" target="_blank"&gt;Microsoft&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 22 May 2026 01:02:30 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 22 May 2026 02:58:18 +0000</pubDate></item></channel></rss>
