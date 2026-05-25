@@ -1,107 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>macmenubar (中文)</title><link/><description>&lt;div id="cf-wrapper"&gt;
- &lt;div class="p-0" id="cf-error-details"&gt;
- &lt;header class="mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-8"&gt;
- &lt;h1 class="inline-block sm:block sm:mb-2 font-light text-60 lg:text-4xl text-black-dark leading-tight mr-2"&gt;
- &lt;span class="inline-block"&gt;连接超时&lt;/span&gt;
- &lt;span class="code-label"&gt;错误代码 522&lt;/span&gt;
- &lt;/h1&gt;
- &lt;div&gt;
- 访问 &lt;a href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_522&amp;amp;utm_campaign=macmenubar.com" rel="noopener noreferrer" target="_blank"&gt;cloudflare.com&lt;/a&gt; 获取更多信息。
- &lt;/div&gt;
- &lt;div class="mt-3"&gt;2026-05-25 07:22:50 UTC&lt;/div&gt;
- &lt;/header&gt;
- &lt;div class="my-8 bg-gradient-gray"&gt;
- &lt;div class="w-240 lg:w-full mx-auto"&gt;
- &lt;div class="clearfix md:px-8"&gt;
- &lt;div class=" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center" id="cf-browser-status"&gt;
- &lt;div class="relative mb-10 md:m-0"&gt;
-
- &lt;span class="cf-icon-browser block md:hidden h-20 bg-center bg-no-repeat"&gt;&lt;/span&gt;
- &lt;span class="cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"&gt;&lt;/span&gt;
-
- &lt;/div&gt;
- &lt;span class="md:block w-full truncate"&gt;您&lt;/span&gt;
- &lt;h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3"&gt;
-
- 浏览器
-
- &lt;/h3&gt;
-
- &lt;span class="leading-1.3 text-2xl text-green-success"&gt;运行正常&lt;/span&gt;
-
-&lt;/div&gt;
- &lt;div class=" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center" id="cf-cloudflare-status"&gt;
- &lt;div class="relative mb-10 md:m-0"&gt;
- &lt;a href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_522&amp;amp;utm_campaign=macmenubar.com" rel="noopener noreferrer" target="_blank"&gt;
- &lt;span class="cf-icon-cloud block md:hidden h-20 bg-center bg-no-repeat"&gt;&lt;/span&gt;
- &lt;span class="cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"&gt;&lt;/span&gt;
- &lt;/a&gt;
- &lt;/div&gt;
- &lt;span class="md:block w-full truncate"&gt;San Jose&lt;/span&gt;
- &lt;h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3"&gt;
- &lt;a href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_522&amp;amp;utm_campaign=macmenubar.com" rel="noopener noreferrer" target="_blank"&gt;
- Cloudflare
- &lt;/a&gt;
- &lt;/h3&gt;
-
- &lt;span class="leading-1.3 text-2xl text-green-success"&gt;运行正常&lt;/span&gt;
-
-&lt;/div&gt;
- &lt;div class="cf-error-source relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center" id="cf-host-status"&gt;
- &lt;div class="relative mb-10 md:m-0"&gt;
-
- &lt;span class="cf-icon-server block md:hidden h-20 bg-center bg-no-repeat"&gt;&lt;/span&gt;
- &lt;span class="cf-icon-error w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"&gt;&lt;/span&gt;
-
- &lt;/div&gt;
- &lt;span class="md:block w-full truncate"&gt;macmenubar.com&lt;/span&gt;
- &lt;h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3"&gt;
-
- 主机
-
- &lt;/h3&gt;
-
- &lt;span class="leading-1.3 text-2xl text-red-error"&gt;错误&lt;/span&gt;
-
-&lt;/div&gt;
- &lt;/div&gt;
- &lt;/div&gt;
- &lt;/div&gt;
-
- &lt;div class="w-240 lg:w-full mx-auto mb-8 lg:px-8"&gt;
- &lt;div class="clearfix"&gt;
- &lt;div class="w-1/2 md:w-full float-left pr-6 md:pb-10 md:pr-0 leading-relaxed"&gt;
- &lt;h2 class="text-3xl font-normal leading-1.3 mb-4"&gt;发生了什么？&lt;/h2&gt;
- &lt;p&gt;Cloudflare网络与源站Web服务器之间的初始连接超时。因此，无法显示该网页。&lt;/p&gt;
- &lt;/div&gt;
- &lt;div class="w-1/2 md:w-full float-left leading-relaxed"&gt;
- &lt;h2 class="text-3xl font-normal leading-1.3 mb-4"&gt;我能做什么？&lt;/h2&gt;
-
- &lt;h3 class="text-15 font-semibold mb-2"&gt;如果您是此网站的访客：&lt;/h3&gt;
- &lt;p class="mb-6"&gt;请在几分钟后重试。&lt;/p&gt;
-
- &lt;h3 class="text-15 font-semibold mb-2"&gt;如果您是此网站的所有者：&lt;/h3&gt;
- &lt;p&gt;&lt;span&gt;联系您的托管服务提供商，告知他们您的Web服务器未完成请求。错误522意味着请求能够连接到您的Web服务器，但请求未完成。最可能的原因是服务器上的某些内容占用了资源。&lt;/span&gt; &lt;a href="https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-5xx-errors/error-522/" rel="noopener noreferrer"&gt;在此处获取更多故障排除信息。&lt;/a&gt;&lt;/p&gt;
- &lt;/div&gt;
- &lt;/div&gt;
- &lt;/div&gt;
-
- &lt;div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300"&gt;
- &lt;p class="text-13"&gt;
- &lt;span class="cf-footer-item sm:block sm:mb-1"&gt;Cloudflare Ray ID: &lt;strong class="font-semibold"&gt;a012ca184cac22c6&lt;/strong&gt;&lt;/span&gt;
- &lt;span class="cf-footer-separator sm:hidden"&gt;•&lt;/span&gt;
- &lt;span class="cf-footer-item hidden sm:block sm:mb-1" id="cf-footer-item-ip"&gt;
- 您的IP:
- &lt;button class="cf-footer-ip-reveal-btn" id="cf-footer-ip-reveal" type="button"&gt;点击显示&lt;/button&gt;
- &lt;span class="hidden" id="cf-footer-ip"&gt;172.184.211.18&lt;/span&gt;
- &lt;span class="cf-footer-separator sm:hidden"&gt;•&lt;/span&gt;
- &lt;/span&gt;
- &lt;span class="cf-footer-item sm:block sm:mb-1"&gt;&lt;span&gt;性能与安全由&lt;/span&gt; &lt;a href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_522&amp;amp;utm_campaign=macmenubar.com" id="brand_link" rel="noopener noreferrer" target="_blank"&gt;Cloudflare&lt;/a&gt;提供&lt;/span&gt;
-
- &lt;/p&gt;
- &amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;
- &lt;/div&gt;
-
- &lt;/div&gt;
-&lt;/div&gt;</description><language>zh-CN</language><lastBuildDate>Mon, 25 May 2026 07:23:08 +0000</lastBuildDate></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MacMenuBar.com (中文)</title><link>https://macmenubar.com</link><description>精心整理的1300多款Mac菜单栏应用目录</description><language>zh-CN</language><lastBuildDate>Sun, 24 May 2026 06:05:33 +0000</lastBuildDate><item><title>拖船</title><link>https://macmenubar.com/tug/</link><description>&lt;p&gt;&lt;a href="https://macmenubar.com/wp-content/uploads/2026/05/tug.webp"&gt;&lt;img alt="Tug" height="214" referrerpolicy="no-referrer" src="https://macmenubar.com/wp-content/uploads/2026/05/tug.webp" width="350"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Tug 让设置计时器变得出奇的自然。从菜单栏向下拉动，当感觉时长合适时松开，计时器就会立即启动。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://apps.apple.com/us/app/tug-menu-bar-timer/id6768515427" rel="noopener noreferrer" target="blank"&gt;访问&lt;/a&gt; &lt;/p&gt;</description><pubDate>Sun, 24 May 2026 06:05:33 +0000</pubDate></item><item><title>LingoBar</title><link>https://macmenubar.com/lingobar/</link><description>&lt;p&gt;&lt;a href="https://macmenubar.com/wp-content/uploads/2026/05/lingobar.webp"&gt;&lt;img alt="LingoBar" height="196" referrerpolicy="no-referrer" src="https://macmenubar.com/wp-content/uploads/2026/05/lingobar.webp" width="500"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;LingoBar 将菜单栏变成您的语言导师，全天候提供短小精悍的词汇学习，配备音频发音、灵活的学习模式，且无需担心打卡断签。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://lingobar.net" rel="noopener noreferrer" target="blank"&gt;访问&lt;/a&gt; &lt;a href="https://youtu.be/aU8ld6rs9pk?si=m4qVyfCqBl0WM_3w" rel="noopener"&gt;观看&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 22 May 2026 22:50:07 +0000</pubDate></item><item><title>什么电缆</title><link>https://macmenubar.com/whatcable/</link><description>&lt;p&gt;&lt;a href="https://macmenubar.com/wp-content/uploads/2026/05/whatcable.webp"&gt;&lt;img alt="WhatCable" height="1307" referrerpolicy="no-referrer" src="https://macmenubar.com/wp-content/uploads/2026/05/whatcable.webp" width="1759"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;WhatCable 揭示了你的 USB-C 线缆实际在做什么，将隐藏的功率、速度和电子标记数据转换成通俗易懂的语言，让你无需猜测或深入系统细节，就能快速了解充电限制、数据传输速率以及连接的设备。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.whatcable.uk/" rel="noopener noreferrer" target="blank"&gt;访问&lt;/a&gt; &lt;/p&gt;</description><pubDate>Fri, 22 May 2026 12:58:54 +0000</pubDate></item><item><title>Raybeam</title><link>https://macmenubar.com/raybeam/</link><description>&lt;p&gt;&lt;a href="https://macmenubar.com/wp-content/uploads/2026/05/raybeam.webp"&gt;&lt;img alt="Raybeam" height="350" referrerpolicy="no-referrer" src="https://macmenubar.com/wp-content/uploads/2026/05/raybeam.webp" width="400"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Raybeam 让你在视频通话中共享屏幕的一个可拖动、可调整大小的部分，从而轻松只展示重要内容，避免将整个桌面暴露给同事，防止意外混乱。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://raybeam.live/" rel="noopener noreferrer" target="blank"&gt;访问&lt;/a&gt; &lt;a href="https://youtu.be/YwVuXZ3HOjQ?si=BpcKyGXyylj-RkqN" rel="noopener"&gt;观看&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 21 May 2026 14:40:27 +0000</pubDate></item><item><title>彩虹苹果</title><link>https://macmenubar.com/rainbowapple/</link><description>&lt;p&gt;&lt;a href="https://macmenubar.com/wp-content/uploads/2026/05/rainbowapple.webp"&gt;&lt;img alt="RainbowApple" height="238" referrerpolicy="no-referrer" src="https://macmenubar.com/wp-content/uploads/2026/05/rainbowapple.webp" width="350"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;RainbowApple 通过一个透明覆盖层将经典的六色苹果标志带回 macOS，该覆盖层无缝融入菜单栏，并在各个空间之间完美对齐。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://jorviksoftware.cc/utilities/rainbowapple" rel="noopener noreferrer" target="blank"&gt;访问&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 21 May 2026 13:48:27 +0000</pubDate></item></channel></rss>
