@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 26 May 2026 07:24:04 +0000</lastBuildDate><item><title>摩托罗拉手机被发现劫持亚马逊添加返利代码 尚不清楚是故意的还是被黑</title><link>https://www.landian.news/archives/113105.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 26 May 2026 08:14:48 +0000</lastBuildDate><item><title>离谱！有网友使用Gemini生成简单的头像视频 4分钟直接耗尽5小时额度</title><link>https://www.landian.news/archives/113107.html</link><description>
+&lt;p&gt;#人工智能 确实离谱！有网友使用 Gemini 生成简单的头像视频，4 分钟直接耗尽 5 小时额度且还未成功生成，当周额度则被消耗 5%。目前来看这应该是 Gemini 内部的问题而非真实额度消耗，不然生成个小视频就直接把额度耗尽，用户哪敢继续使用 Gemini。查看详情：https://ourl.co/113107&lt;/p&gt;&lt;p&gt;这段时间关于谷歌调整 Gemini 使用配额的消息实在太多以至于我们都已经有些麻木，尽管为解决用户愤怒谷歌已经将 5 小时和每周配额都提升 3 倍，但从目前情况来看 Gemini 的实际配额应该比以前还是减少很多，而且 Gemini 可能还存在某些系统问题导致配额消耗过快。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113107-1.png" rel="nofollow"&gt;&lt;img alt="离谱！有网友使用Gemini生成简单的头像视频 4分钟直接耗尽5小时额度" data-src="https://img.landian.news/landian/2026/05/113107-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113107-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113107-2.png" rel="nofollow"&gt;&lt;img alt="离谱！有网友使用Gemini生成简单的头像视频 4分钟直接耗尽5小时额度" data-src="https://img.landian.news/landian/2026/05/113107-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113107-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;有开发者在社交媒体平台上发布的&lt;a href="https://www.landian.news/go?url=https://x.com/ai_for_success/status/2058902674284880207" rel="noopener" target="_blank"&gt;视频&lt;/a&gt;显示，开发者在 Gemini 中上传自己的头像并希望生成简短的视频，刚开始 5 小时使用配额增长速度还算是正常，只不过没想到这个简单任务持续 4 分钟左右还未完成，而且 5 小时配额竟然被直接耗尽，最终这个视频生成任务也失败，不清楚是配额耗尽还是 Gemini 内部问题造成的。&lt;/p&gt;
+&lt;p&gt;但从每周配额来看增长还算是正常的，在任务开始前开发者每周使用配额为 25%，到任务失败并结束后 5 小时用量为 100%、每周配额用量为 30%，然而 4 分钟的视频任务能将每周配额减少 5% 其实也已经非常多，如果这是正常情况说明谷歌分配给用户的配额相较以前来说已经非常低，当然更大概率这是不正常的情况。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;针对网友的吐槽谷歌工程师已经关注，只不过截至本文发布时谷歌 AI 团队尚未就这件事发布任何回应，谷歌这段时间从 OpenAI 那里学会了重置，几乎是隔一天就重置一次，今天凌晨四点左右 Gemini 当周额度再次被重置，可能是谷歌希望通过这种方式缓解开发者们的配额焦虑问题。&lt;/p&gt;
+&lt;p&gt;但如果不解决问题仅靠重置显然是不能长期维系的，对谷歌而言要么真诚地为所有订阅用户恢复更高的使用配额，要么还是等着用户逐渐离开 Gemini 转投其他平台。&lt;/p&gt;
+</description><pubDate>Tue, 26 May 2026 08:14:48 +0000</pubDate></item><item><title>研究人员称NGINX近期爆出的漏洞是AI制造焦虑 因为实际匹配漏洞极少</title><link>https://www.landian.news/archives/113106.html</link><description>
+&lt;p&gt;#安全资讯 安全分析师称 NGINX 近期爆出的漏洞是 AI 制造的焦虑，因为实际匹配漏洞极少。这名分析师从 GitHub 上抓取 4,000 份公开的 NGINX 配置文件，发现实际受漏洞影响的配置为 0，因为大多数网站不需要使用 rewrite 进行规则匹配，不过蓝点网抓取了 699 份配置文件，其中成功匹配漏洞的有 44 个，占比为 6.3%，从这个角度来说真正受影响的实例并不少，使用 NGINX 的用户还是得尽早升级。查看详情：https://ourl.co/113106&lt;/p&gt;&lt;p&gt;近期 NGINX 被爆出多个高危级别的安全漏洞，攻击者只需要发送特制的 HTTP 请求即可触发漏洞并进行远程代码执行，不过先决条件是 NGINX 配置必须达成要求，而大多数 NGINX 实例配置都不存在相关要求因此即便没有升级新版本也不会因为这些漏洞而被攻击。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113106.png" rel="nofollow"&gt;&lt;img alt="研究人员称NGINX近期爆出的漏洞是AI制造焦虑 因为实际匹配漏洞极少" data-src="https://img.landian.news/landian/2026/05/113106.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113106.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;安全分析师 &lt;a href="https://www.landian.news/go?url=https://x.com/xorninja/status/2057473394250264677?s=12" rel="noopener" target="_blank"&gt;@XorNinja&lt;/a&gt; 发布的消息称，其所属公司从 GitHub 里获取近 4，000 份公开的 NGINX 配置文件并进行分析，分析结果表明这些样本里受 NGINX RIFT 漏洞影响的为 0，也就是所有样本都没有匹配到漏洞触发的先决条件，这名安全分析师认为漏洞由 AI 发现并制造安全焦虑，但也可以使用 AI 分析公开样本来对抗 AI 制造的焦虑。&lt;/p&gt;
+&lt;p&gt;不过在真实世界中目前确实有黑客利用 NGINX 漏洞发起攻击，观测数据显示暴露在公网且使用的是受影响版本的 NGINX 实例多达 557 万台，这些实例中有多少确实受漏洞影响的还不清楚，但既然已经有黑客利用漏洞发起攻击，对用户而言升级到不受影响的新版本还是非常有必要的。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;看到安全分析师发布的消息后，蓝点网也从 GitHub 抓取 699 份公开的 NGINX 配置文件，我们的扫描结果显示成功匹配漏洞模式的有 44 个，占比为 6.3%，这些受影响的实例均使用 rewrite + $1 + ? 进行规则匹配所以可以成功利用漏洞。&lt;/p&gt;
+&lt;p&gt;我们对受影响配置文件所属仓库的分析显示，这些仓库主要都是 CMS 系统、医疗系统、Docker 镜像，最常见的模式就是连续的 rewrite 规则做 URL 路由 (PHP 框架入口转发)，其中一条 rewrite 替换含？且后面紧接另一条 rewrite 或 if。&lt;/p&gt;
+&lt;p&gt;从这个角度来说真实受影响的 NGINX 实例应该并不少，尤其是使用 CMS 系统并按照 CMS 系统指南配置重写规则的网站可能受影响的更多，说到最后还是建议各位尽早升级避免潜在的攻击，修复漏洞的版本为 NGINX 1.30.1 和 1.31.0 版，只需要升级到这些版本即可。&lt;/p&gt;
+</description><pubDate>Tue, 26 May 2026 07:57:52 +0000</pubDate></item><item><title>摩托罗拉手机被发现劫持亚马逊添加返利代码 尚不清楚是故意的还是被黑</title><link>https://www.landian.news/archives/113105.html</link><description>
 &lt;p&gt;#手机数码 摩托罗拉手机被发现通过预装应用 Smart Feed 劫持亚马逊商店添加返利代码，当用户尝试启动亚马逊时会被强制中断，随后摩托罗拉通过浏览器加载包含返利链接的网站再启动亚马逊以便获得购买分成。不过摩托罗拉使用的域名才注册 3 天而且指向没有关联的时尚博主，这看起来更像是摩托罗拉内部被黑，或者有内鬼利用职权进行恶意劫持。查看详情：https://ourl.co/113105&lt;/p&gt;&lt;p&gt;近期有诸多摩托罗拉手机用户注意到打开亚马逊应用程序时会先弹出浏览器然后再启动亚马逊应用，启动过程非常短暂因此很多用户可能都没注意到这种情况，有专业用户经过分析后发现是摩托罗拉通过名为 Smart Feed 的应用程序进行劫持，这种劫持行为有极大概率是摩托罗拉自己的行为。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2023/09/100409.png" rel="nofollow"&gt;&lt;img alt="摩托罗拉手机被发现劫持亚马逊添加返利代码 尚不清楚是故意的还是被黑" data-src="https://img.landian.news/landian/2023/09/100409.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2023/09/100409.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -33,26 +53,4 @@
 &lt;p&gt;Cloudflare 为确保与正确的 DNS 语义保持一致并降低运维风险，最终决定直接弃用原地 DNS 记录类型的更改，这项更改也不仅影响 DNS 管理界面，同时也会影响 API 操作，也就是现有的支持通过 API 原地切换解析类型的应用后续也会被停止支持。&lt;/p&gt;
 &lt;p&gt;根据计划 API 方面的原地切换解析类型将在 2026 年 6 月 30 日被弃用，到时候如果用户仍然通过 API 操作将会抛出错误，最终还是要回到先删除原有记录再重新添加新记录的路子。&lt;/p&gt;
 &lt;p&gt;API 弃用公告：&lt;a href="https://www.landian.news/go?url=https://developers.cloudflare.com/fundamentals/api/reference/deprecations/" rel="noopener" target="_blank"&gt;https://developers.cloudflare.com/fundamentals/api/reference/deprecations/&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 26 May 2026 04:43:14 +0000</pubDate></item><item><title>火绒安全揭露新型远控威胁攻击手段 利用WPS带毒版和Cloudflare隧道展开攻击</title><link>https://www.landian.news/archives/113102.html</link><description>
-&lt;p&gt;#安全资讯 火绒安全揭露新型远控威胁攻击手段，黑客投放 WPS 带毒版并使用 Cloudflare 隧道进行连接。在完成初步感染后恶意载荷会将整个 C 盘添加到 Microsoft Defender 排除列表里，于是微软不再扫描 C 盘因此也不会产生报警，而使用具有合法签名的 Cloudflare 隧道工具也不会被安全软件报告异常。查看详情：https://ourl.co/113102&lt;/p&gt;&lt;p&gt;火绒威胁情报中心日前监测到利用 WPS 办公软件进行投毒的新型远控威胁攻击手段，这种攻击并没有使用传统的黑客工具，而是利用合法的 WPS 办公软件与 Cloudflare 官方的隧道工具进行隐藏，普通用户很难发现自己的设备已经被后门程序感染。&lt;/p&gt;
-&lt;p&gt;当设备被感染后黑客投放的后门程序就会持续在后台运行并将整个 C 盘都添加到 Microsoft Defender 排除列表，避免被微软防病毒软件检测到，同时后门程序在后台收集用户的键盘输入记录和窃取剪贴板内容，黑客也可以通过后门程序直接远程控制被感染的设备。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113102.png" rel="nofollow"&gt;&lt;img alt="火绒安全揭露新型远控威胁攻击手段 利用WPS带毒版和Cloudflare隧道展开攻击" data-src="https://img.landian.news/landian/2026/05/113102.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113102.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;攻击初始阶段黑客主要利用国内知名的办公软件 WPS，黑客将后门程序与 WPS 安装包重新封装，当用户下载带毒版的 WPS 并运行后，表面上看起来像是正在正常安装 WPS，但实际上后门程序会在后台悄悄执行恶意操作，最终向系统释放恶意载荷。&lt;/p&gt;
-&lt;p&gt;恶意载荷会首先调用 Windows PowerShell 并执行命令将整个 C 盘都添加到 Microsoft Defender 排除列表，排除后微软就不会再扫描 C 盘检测里面存在的后门程序，因此对于使用 Microsoft Defender 的用户来说很难看到异常提醒。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在攻击的第二阶段黑客会利用 Cloudflare 官方提供的隧道工具 (cloudflared) 作为远程连接隧道，本身该工具是合法的因此具有有效的数字签名，反病毒软件检测到此类工具时也不会报告异常，当然对于大多数普通用户来说也不太可能发现 cloudflared 服务正在运行。&lt;/p&gt;
-&lt;p&gt;完成隧道部署后黑客会利用后门程序创建系统服务和计划任务以便实现后门程序的开机自启动，因此用户重启设备后后门程序还是可以正常运行，之后后门程序就会在后台静默收集用户信息并将其通过 Cloudflare 隧道回传到黑客的服务器。&lt;/p&gt;
-&lt;p&gt;火绒安全提醒各位下载软件时务必从开发商官方网站下载，搜索引擎查到的各类下载站都存在安全风险，从这些渠道下载软件很容易遭到攻击，当然用户也可以考虑安装火绒安全等杀毒软件加强系统防御能力，及时解决潜在的安全隐患。&lt;/p&gt;
-&lt;p&gt;技术分析报告：&lt;a href="https://www.landian.news/go?url=https://www.huorong.cn/document/tech/vir_report/1981" rel="noopener" target="_blank"&gt;https://www.huorong.cn/document/tech/vir_report/1981&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 26 May 2026 04:19:58 +0000</pubDate></item><item><title>伊朗计划从5月27日开始恢复互联网连接 将回到大规模断网前的水平</title><link>https://www.landian.news/archives/113101.html</link><description>
-&lt;p&gt;#行业资讯 伊朗计划从 5 月 27 日开始恢复国际互联网的连接，预计将可以恢复到 2026 年 1 月大规模断网之前的状态。伊朗在 2026 年经历两次大规模断网，首次是 1 月 8 日～2 月 2 日，之后是从 2 月 28 日至今，期间伊朗国际互联网流量跌到正常水平的 0.2%，之后伊朗利用白名单机制恢复部分访问，但整体流量也只有正常水平的 4.7%。查看详情：https://ourl.co/113101&lt;/p&gt;&lt;p&gt;在经历近半年的网络不稳定和网络彻底中断后，伊朗日前计划在 2026 年 5 月 27 日恢复互联网的连接，而且恢复的是国际互联网连接而非伊朗国内局域网连接，现阶段在伊朗只有精英人士和少数政府工作人员可以通过国际互联网访问经过授权的白名单网站。&lt;/p&gt;
-&lt;p&gt;伊朗在 2026 年经历两次大规模网络中断，首先是 1 月 8 日开始的网络流量异常，这种情况到后面演变为大规模断网，持续到 2 月 2 日后恢复互联网连接，当时观测数据显示伊朗的国际互联网连接已经恢复到正常水平 (与 2025 年 12 月份进行对比)。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113101-1.png" rel="nofollow"&gt;&lt;img alt="伊朗计划从5月27日开始恢复互联网连接 将回到大规模断网前的水平" data-src="https://img.landian.news/landian/2026/05/113101-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113101-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;从 2026 年 2 月 28 日开始伊朗国际互联网流量锐减到正常水平的 0.2%，这种情况持续到现在也没有完全恢复，观测数据显示在 4~6 月伊朗国际互联网流量有所提升，不过这部分流量就是我们上文提到的精英人士可以访问经过审批的白名单网站，其他大部分用户仍然无法访问国际互联网，所以截至本文发布时伊朗国际互联网流量也只有正常水平的 4.7%。&lt;/p&gt;
-&lt;p&gt;而在这 4.7% 的流量里约有 50% 都是机器人产生的流量，也就是伊朗政府、企业或教育机构在服务器上部署的各类自动化程序，也就是真实人类产生的流量还是很少的，所以即便有白名单机制，能够访问互联网的用户仍然非常少。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;伊朗总统佩泽希齐扬日前已经通过伊朗政府网络空间总部下令，将伊朗国际互联网连接恢复到 2026 年 1 月大规模断网之前的状态，伊朗通讯部长已经确认开始国际互联网恢复工作，最快将在 5 月 27 日恢复国际互联网的连接。&lt;/p&gt;
-&lt;p&gt;目前从观测数据来看伊朗国际互联网连接流量还未产生明显的变化，说明恢复工作可能还在准备阶段尚未启动，有兴趣的用户可以关注 Cloudflare Radar，这里可以显示全球互联网的观测数据。&lt;/p&gt;
-</description><pubDate>Tue, 26 May 2026 03:51:05 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 26 May 2026 04:43:14 +0000</pubDate></item></channel></rss>
