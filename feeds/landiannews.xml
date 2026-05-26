@@ -1,59 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 26 May 2026 02:30:35 +0000</lastBuildDate><item><title>阿里云云解析DNS免费版将从6月24日起限速 单域名每日解析限额为10万次</title><link>https://www.landian.news/archives/113071.html</link><description>
-&lt;p&gt;#云计算 阿里云云解析 DNS 服务将在 6 月 24 起开启限速，单域名每日最多 10 万次请求，超限后可能面临请求延迟或丢包等问题。不过大多数网站日访问量可能都没有 10 万次，如果真有 10 万次 (10 万次 DNS 解析不代表 10 万次访问) 解析那说明是超大网站，升级付费版还是能接受的。查看详情：https://ourl.co/113071&lt;/p&gt;&lt;p&gt;据阿里云发布的产品公告，阿里云云解析 DNS 服务免费版将从 2026 年 6 月 24 日起开始限速，使用云解析免费版的域名每日解析量限额为 10 万次，如果超过 10 万次则云解析系统可能会对超额部分采取动态限速措施，例如请求响应延迟或者丢包等问题。&lt;/p&gt;
-&lt;p&gt;当然如果域名请求量本身较大则用户需要考虑迁移到其他公网权威解析或购买阿里云云解析 DNS 的付费版，付费版提供更高的解析额度和 SLA 保障，对高并发和高访问量的企业网站或服务来说倒是可以考虑购买付费版 DNS 解析服务。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113071.png" rel="nofollow"&gt;&lt;img alt="阿里云云解析DNS免费版将从6月24日起限速 单域名每日解析限额为10万次" data-src="https://img.landian.news/landian/2026/05/113071.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113071.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 26 May 2026 07:24:04 +0000</lastBuildDate><item><title>摩托罗拉手机被发现劫持亚马逊添加返利代码 尚不清楚是故意的还是被黑</title><link>https://www.landian.news/archives/113105.html</link><description>
+&lt;p&gt;#手机数码 摩托罗拉手机被发现通过预装应用 Smart Feed 劫持亚马逊商店添加返利代码，当用户尝试启动亚马逊时会被强制中断，随后摩托罗拉通过浏览器加载包含返利链接的网站再启动亚马逊以便获得购买分成。不过摩托罗拉使用的域名才注册 3 天而且指向没有关联的时尚博主，这看起来更像是摩托罗拉内部被黑，或者有内鬼利用职权进行恶意劫持。查看详情：https://ourl.co/113105&lt;/p&gt;&lt;p&gt;近期有诸多摩托罗拉手机用户注意到打开亚马逊应用程序时会先弹出浏览器然后再启动亚马逊应用，启动过程非常短暂因此很多用户可能都没注意到这种情况，有专业用户经过分析后发现是摩托罗拉通过名为 Smart Feed 的应用程序进行劫持，这种劫持行为有极大概率是摩托罗拉自己的行为。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2023/09/100409.png" rel="nofollow"&gt;&lt;img alt="摩托罗拉手机被发现劫持亚马逊添加返利代码 尚不清楚是故意的还是被黑" data-src="https://img.landian.news/landian/2023/09/100409.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2023/09/100409.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;阿里云称随着云解析 DNS 公网权威解析免费版用户规模的快速增长，阿里云平台承载的解析总量正在不断攀升，因此为保障全球解析链路的整体稳定性和高可用性，避免因局部流量徒增或异常查询而影响用户的正常业务，所以要对云解析 DNS 免费版的超大流量请求进行管控。&lt;/p&gt;
-&lt;p&gt;根据阿里云的统计数据，大多数免费用户的日均解析量都要远低于 10 万次这个阈值，所以大多数用户可以继续使用阿里云云解析 DNS，既不需要切换到其他平台，也不需要付费购买云解析 DNS 付费版。&lt;/p&gt;
-&lt;p&gt;阿里云也为用户提供&lt;a href="https://www.landian.news/go?url=https://dnsnext.console.aliyun.com/dashboard/resolution/authoritative/domain" rel="noopener" target="_blank"&gt;公网权威解析统计大盘&lt;/a&gt;，用户可以在这里查询自己的域名每日大约有多少次解析请求，注意：该服务需要预先开启流量分析服务，开启后才能统计和查询解析次数。&lt;/p&gt;
+&lt;p&gt;摩托罗拉采用的劫持流程倒是不复杂，首先摩托罗拉会检测用户是否点击亚马逊应用程序，如果用户点击则系统会强制中断操作并自动启动浏览器打开 kira-abbound.com 并通过联盟代码启动亚马逊应用程序，当用户通过亚马逊应用程序购买商品时，摩托罗拉会收到来自亚马逊或商家提供的返利分成。&lt;/p&gt;
+&lt;p&gt;通过 ADB 调试还可以注意到，设备会向 devicenative.com 发出请求，该网站所属公司主要就是在智能手机上投放广告，并且网站所属公司也明确提到摩托罗拉也是其合作伙伴。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;对站长和企业而言使用稳定可靠的 DNS 解析服务至关重要，如果担心继续使用阿里云云解析 DNS 服务可能出现超限问题，也可以将域名 DNS 迁移到其他平台，DNS 记录本身可以随意绑定不需要将域名从阿里云迁出到其他平台。&lt;/p&gt;
-&lt;p&gt;DNS 服务领域使用量最大的就是 Cloudflare，例如蓝点网几乎所有域名和服务都是托管在 Cloudflare，Cloudflare DNS 解析生效时间快切稳定性非常高，对于大多数网站而言 Cloudflare DNS 都可以满足使用需求。&lt;/p&gt;
-&lt;p&gt;但如果网站需要分区解析那使用 Cloudflare 就不太合适了，分区解析通常都是付费服务，不过腾讯云 DNSPOD 免费版也提供基本的分区解析，可以按照不同运营商解析到不同的位置，这应该也可以满足部分对分区解析有需求的站长。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.landian.news/go?url=https://lancdn.co/cns" rel="noopener" target="_blank"&gt;腾讯云 DNSPOD 免费版&lt;/a&gt;支持的分区解析包括：按运营商 (电信、移动、联通、其他运营商)、按区域 (国内或境外)、搜索引擎专用线路、自定义线路等。&lt;/p&gt;
-</description><pubDate>Tue, 26 May 2026 02:30:35 +0000</pubDate></item><item><title>Grok 1.5T参数版新模型将在2~3周内发布 利用Cursor真实数据大幅度提高编码能力</title><link>https://www.landian.news/archives/113070.html</link><description>
-&lt;p&gt;#人工智能 Grok 1.5T 参数版新前沿模型预计将在未来 2~3 周发布，该模型利用 Cursor AI 编码工具的真实开发者交互数据大幅度提升编码能力。Grok 4.2 在复杂编码任务上的表现比较糟糕，新模型编码能力则会大幅度提升，原因就是开发团队通过添加来自 Cursor 的高质量真实交互数据，在复杂编码任务上实现重大改进。查看详情：https://ourl.co/113070&lt;/p&gt;&lt;p&gt;埃隆马斯克日前&lt;a href="https://www.landian.news/go?url=https://x.com/elonmusk/status/2058787384364265734?s=12" rel="noopener" target="_blank"&gt;透露&lt;/a&gt;，xAI 正在训练中的新前沿模型预计将在未来 2~3 周内发布，该模型代号为 Grok V9-Medium，其参数规模达到 1.5T (即 1.5 万亿)，是当前现役的 Grok 4.2 模型 (0.5T 参数规模) 的 3 倍，而且重点改善编程开发能力。&lt;/p&gt;
-&lt;p&gt;在 Grok 4.2 中由于训练参数的局限性，该模型在编程开发领域的表现比较糟糕，甚至到最后埃隆马斯克都承认该模型在编程开发领域不如竞争对手，所以新模型重点就是改善编程开发能力，尤其是 SpaceX 还准备直接收购 Cursor AI 开发工具来直接杀入 AI 编程市场。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113070.png" rel="nofollow"&gt;&lt;img alt="Grok 1.5T参数版新模型将在2~3周内发布 利用Cursor真实数据大幅度提高编码能力" data-src="https://img.landian.news/landian/2026/05/113070.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113070.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;目前非常让人疑惑的就是这种劫持行为到底是摩托罗拉自己的操作还是相关功能遭到黑客利用，因为 kira-abbound 域名还是 5 月 22 日注册的 (注册时间才 3 天)，而这个网站还被指向时尚博主 @kirasfashionfinds，但摩托罗拉使用的联盟返利代码是 sramz-kff-008-20，这与这名时尚博主使用的联盟返利代码也是不同的。&lt;/p&gt;
+&lt;p&gt;从上面情况可以看到可疑的地方：摩托罗拉不太可能使用注册才 3 天的域名来劫持亚马逊，摩托罗拉也不太可能会将自己辛辛苦苦劫持的收入转给没有关联的时尚博主，所以这个网站指向时尚博主很可能是障眼法，用来掩饰联盟代码的真正归属。&lt;/p&gt;
+&lt;p&gt;目前摩托罗拉尚未就此事发布官方回应，蓝点网更偏向于摩托罗拉内部出现某种问题导致有人劫持 Smart Feed 应用用来劫持亚马逊并获得返利分成，这不一定是外部黑客所为，也有可能是摩托罗拉自己内部出现的内鬼利用自己的职权进行劫持。&lt;/p&gt;
+&lt;p&gt;对于使用摩托罗拉手机的用户现在可以强制禁用 Smart Feed 应用来解决劫持问题，只需要转到设置、应用、在搜索框搜索 Smart Feed 并打开，然后将这个应用彻底禁用，禁用后用户启动其他应用时就不会再被劫持。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113105.png" rel="nofollow"&gt;&lt;img alt="摩托罗拉手机被发现劫持亚马逊添加返利代码 尚不清楚是故意的还是被黑" data-src="https://img.landian.news/landian/2026/05/113105.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113105.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 26 May 2026 07:24:04 +0000</pubDate></item><item><title>荣耀手机广泛出现截图时存储空间不足问题 官方确认是谷歌推送的更新有问题</title><link>https://www.landian.news/archives/113104.html</link><description>
+&lt;p&gt;#手机数码 荣耀手机广泛出现截图时提示存储空间不足的问题，官方确认这与谷歌推送的更新有关，并非真是存储空间不足。该问题主要影响荣耀海外市场用户，因为这些用户可以正常接收谷歌推送的更新，不过其他市场的用户若通过代理连接谷歌也可能接收更新而出现相同的故障。查看详情：https://ourl.co/113104&lt;/p&gt;&lt;p&gt;本周有诸多荣耀手机用户 (主要是国际用户) 遇到截图时系统弹出存储空间不足的问题，这些用户尝试删除相册里的各类照片和截图腾出空间，但即便剩余存储空间还有 20% 也依然无法正常截图，经过紧急反馈后荣耀官方确认这是谷歌推送的更新有问题而非存储空间不足。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113104.png" rel="nofollow"&gt;&lt;img alt="荣耀手机广泛出现截图时存储空间不足问题 官方确认是谷歌推送的更新有问题" data-src="https://img.landian.news/landian/2026/05/113104.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113104.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Grok V9-Medium 的训练亮点报告在预训练完成后，开发团队在补充训练阶段添加大量基于 Cursor AI 开发工具的数据，这里面包含开发者发送的真实提示词、代码上下文、代码编辑记录以及任务完成数据等，当然这些数据本身已经被脱敏不会包含私密信息，开发团队还准备在后续继续添加更多这类真实世界中产生的高质量编码数据。&lt;/p&gt;
-&lt;p&gt;当前 Grok V9-Medium 模型已经进入微调阶段，而强化学习也将在未来几天启动，这些工作的结果就是该模型在复杂编码任务上实现重大改进，埃隆马斯克称其编码能力远超当前服役的 Grok 4.2 模型。&lt;/p&gt;
+&lt;p&gt;遇到此问题的用户在截图时会看到：存储空间有限无法保存截图。荣耀海外官方客服接到用户反馈后上报给研发部门进行分析，后确认此次故障与谷歌在 2026 年 5 月 25 日推送的更新有关，可能是谷歌推送的更新导致 MagicOS 出现兼容性故障，为此荣耀团队也紧急联系谷歌进行问题调查。&lt;/p&gt;
+&lt;p&gt;这个问题主要影响能够接收谷歌推送更新的荣耀海外版用户，但其他用户若是通过代理连接等也会收到更新并遇到相同的问题，整体来说这次故障主要影响的还是海外用户，荣耀称此次故障涉及多个国家或地区的多种荣耀机型，尤其故障排除和适配难度较高因此用户可能还需要继续等待。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;SpaceX 已经准备以 600 亿美元收购 Cursor AI 编码工具，当前虽然还未收购但双方的合作已经持续很长时间，有充足的真实数据供应，Grok V9-Medium 在编程开发能力上自然会有显著提升。&lt;/p&gt;
-&lt;p&gt;Grok V9-Medium 的训练策略体现 xAI 在真实世界编码数据上的持续投资，Cursor 作为广受欢迎的 AI 编程工具，其交互数据包含大量高价值、实际场景下的代码编辑轨迹，这有助于模型更好地理解复杂项目上下文、调试逻辑和长链路任务。&lt;/p&gt;
-&lt;p&gt;按照惯例，新模型在发布后将会首先面向 Grok Premium 和 X Premium 等订阅用户使用，后续会逐步开放订阅层级直到所有用户都可以使用，另外 xAI 可能也会推出自己的 CLI 编程开发工具。&lt;/p&gt;
-</description><pubDate>Tue, 26 May 2026 02:00:34 +0000</pubDate></item><item><title>埃隆马斯克宣布将在年底开源Grok 4.2基座模型 尽管参数规模较小但仍有实用价值</title><link>https://www.landian.news/archives/113069.html</link><description>
-&lt;p&gt;#人工智能 埃隆马斯克宣布现役的 Grok 4.2 基座模型将在年底开源，尽管该模型规模较小 (5,000 亿参数) 但对社区而言仍然具有实用价值。xAI 正在训练中的新模型是 Grok 1.5T 参数版，Grok 4.2 在编程任务中的表现较差，但在其他任务上表现还不错，所以马斯克认为实用价值还是有的。查看详情：https://ourl.co/113069&lt;/p&gt;&lt;p&gt;埃隆马斯克日前在回复网友提问时明确&lt;a href="https://www.landian.news/go?url=https://x.com/elonmusk/status/2058796067592736866" rel="noopener" target="_blank"&gt;表示&lt;/a&gt;将在 2026 年年底开源目前 xAI 现役模型 Grok 4.2，该模型采用 0.5T 参数规模 (5,000 亿)，在埃隆马斯克看来这属于参数规模较小的基座模型 (相较于目前正在训练中的 1.5T 基座模型而言)，但这个模型仍然存在实用价值。&lt;/p&gt;
-&lt;p&gt;xAI 采用的开源策略主要是先闭源模型领先然后再开源前代模型，也就是等到 Grok 1T 规模的新基座模型服役后才会开源旧基座模型，正在训练中的 Grok 1T 基座模型目前也已经到了最后阶段，可能很快就会正式发布。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113069.png" rel="nofollow"&gt;&lt;img alt="埃隆马斯克宣布将在年底开源Grok 4.2基座模型 尽管参数规模较小但仍有实用价值" data-src="https://img.landian.news/landian/2026/05/113069.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113069.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;对于遇到该问题的用户，请不要尝试删除现有照片来腾出空间，如果因为无法截图而删除某些照片完全是得不偿失的，当前的临时替代方案是点击控制中心的截屏按钮然后选择滚动截屏，滚动截屏功能暂时是正常的，如果用户对截图尺寸不满意则可以在截图后手动裁剪截图。&lt;/p&gt;
+&lt;p&gt;感谢蓝点网网友 黑蛋 分享的消息&lt;/p&gt;
+</description><pubDate>Tue, 26 May 2026 07:04:00 +0000</pubDate></item><item><title>[重要] Cloudflare DNS不再支持原地切换解析类型 到6月30日起API切换类型也被弃用</title><link>https://www.landian.news/archives/113103.html</link><description>
+&lt;p&gt;#行业资讯 重要：Cloudflare DNS 不再支持原地切换解析类型，到 6 月 30 日起 API 切换解析类型也将被弃用。目前新版 DNS 管理界面已经不再支持手动切换解析类型，用户必须先删除原有记录再添加新记录，现阶段 API 更改解析类型还能用，后续也将被弃用。Cloudflare 称这项更改是为了确保与正确 DNS 语义的一致性并降低运维风险。查看详情：https://ourl.co/113103&lt;/p&gt;&lt;p&gt;早前蓝点网提到 Cloudflare 正在陆续向用户推出新版 DNS 管理界面，此次更新主要提供更细致的用户操作界面，还为用户提供 DNS 记录创建和更新时间，用户还可以为 DNS 记录添加备注以便后续自己通过备注来识别特定的域名解析记录。&lt;/p&gt;
+&lt;p&gt;然而此次更新还有个重大更改是 Cloudflare DNS 不再支持原地修改解析类型，如果用户要修改解析类型必须先删除再添加，同时相关 API 操作也会被弃用，也就是必须遵循先删除后添加的操作逻辑，相关应用可能都需要调整 API 操作。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src="https://img.landian.news/landian/2026/05/113103.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113103.png"/&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;此前埃隆马斯克已经公开承认 Grok 4.2 在训练数据上存在局限性，尤其是在复杂编程任务上的表现比较糟糕，也就是所谓的编程不是强项，问题根源主要是模型参数规模较小、训练数据质量问题、全面性以及配方比例存在缺陷，这导致模型难以应对复杂的高难度编程挑战。&lt;/p&gt;
-&lt;p&gt;不过 Grok 4.2 模型在常规自然语言处理、基础推理、日常任务上的表现非常不错，与其 0.5T 参数规模相匹配，所以埃隆马斯克认为后续开源 Grok 4.2 后对社区而言仍然是有实用价值的。&lt;/p&gt;
+&lt;p&gt;例如对于现有解析记录 www.landian.news 是通过 A 记录解析到 127.0.0.1 的，在旧版本中用户可以直接将 A 记录修改为 CNAME 记录并填写新的解析内容 cdn.landian.news，在新版本中这种操作被弃用，相同解析类型可以直接修改解析值，但不同解析类型必须先删除再添加。&lt;/p&gt;
+&lt;p&gt;这里面会牵涉到用户操作的延迟问题：对于需要切换大量解析条目的情况，用户可能需要先截图或导出 DNS 记录，然后再逐条删除记录重新添加，而删除记录也会短暂地被传播到 DNS 直到用户添加新解析记录后再重新传播到 DNS。&lt;/p&gt;
+&lt;p&gt;因此对于关键业务来说用户执行 DNS 解析切换时需要尽可能地快，例如删除记录 20 秒内就立即创建新记录 (并完成创建)，这样可以确保业务端访问不会中断，当然也可以提前设置更长的 TTL 生存时间确保更换解析时不会中断，但更长的 TTL 意味着新解析记录生效时间也会被拉长。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;xAI 不像 DeepSeek、Kimi、Qwen 等模型那样发布后很快就开源，xAI 的模型开源时间需要等待很长时间，因为只有新的前沿模型发布后 xAI 才会开源旧版基座模型，当然有时候也会因为其他原因导致新模型发布后旧模型仍然没有及时开源。&lt;/p&gt;
-&lt;p&gt;对 xAI 来说首先要考虑的依然是商业与竞争策略，保持闭源能够通过 API 付费和 Premium 订阅服务获得营收，同时也可以避免被竞争对手快速复制或用于训练更强的模型。&lt;/p&gt;
-&lt;p&gt;xAI 还有个理由是安全与迭代，该公司认为开源太早可能带来滥用风险和暴露架构细节，xAI 会优先让模型在真实使用中迭代，包括快速学习和每周更新等，这既可以解决潜在的安全问题，又可以继续提高模型质量并用于变现。&lt;/p&gt;
-</description><pubDate>Tue, 26 May 2026 01:30:34 +0000</pubDate></item><item><title>开源博客系统Ghost遭到黑客攻击 黑客利用已知漏洞控制超过700个网站投毒</title><link>https://www.landian.news/archives/113068.html</link><description>
-&lt;p&gt;#安全资讯 开源内容管理系统 Ghost CMS 遭到黑客持续攻击，超过 700 个使用该 CMS 的网站被黑用于投放恶意脚本。但涉及到的漏洞本身已经在 2 月份修复，所以被黑的这些网站都是到现在还没升级，奇安信观察到两个不同的黑客团体利用漏洞发起攻击，最终可能有大量普通用户被加载恶意脚本。查看详情：https://ourl.co/113068&lt;/p&gt;&lt;p&gt;开源内容管理系统 Ghost CMS (常被用于搭建博客或企业级网站) 在 2 月份修复的漏洞正在被黑客用于发动攻击，&lt;a href="https://www.landian.news/go?url=https://github.com/TryGhost/Ghost/security/advisories/GHSA-w52v-v783-gw97" rel="noopener" target="_blank"&gt;该漏洞已经在 6.19.1 版中得到修复&lt;/a&gt;，但很多网站到现在还未升级到新版本修复漏洞因此可以被黑客直接利用，而结果就是黑客可以直接控制整个网站并利用网站进行投毒。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113068.png" rel="nofollow"&gt;&lt;img alt="开源博客系统Ghost遭到黑客攻击 黑客利用已知漏洞控制超过700个网站投毒" data-src="https://img.landian.news/landian/2026/05/113068.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113068.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Cloudflare DNS 修改解析类型的底层原理是先删除后添加，也就是以前用户虽然可以直接修改解析类型，但本质上是 Cloudflare 在后台执行的先删除再添加操作，主要是对于相同解析名称 DNS 系统不允许同时存在诸如 A 和 CNAME 等互斥记录。&lt;/p&gt;
+&lt;p&gt;Cloudflare 为确保与正确的 DNS 语义保持一致并降低运维风险，最终决定直接弃用原地 DNS 记录类型的更改，这项更改也不仅影响 DNS 管理界面，同时也会影响 API 操作，也就是现有的支持通过 API 原地切换解析类型的应用后续也会被停止支持。&lt;/p&gt;
+&lt;p&gt;根据计划 API 方面的原地切换解析类型将在 2026 年 6 月 30 日被弃用，到时候如果用户仍然通过 API 操作将会抛出错误，最终还是要回到先删除原有记录再重新添加新记录的路子。&lt;/p&gt;
+&lt;p&gt;API 弃用公告：&lt;a href="https://www.landian.news/go?url=https://developers.cloudflare.com/fundamentals/api/reference/deprecations/" rel="noopener" target="_blank"&gt;https://developers.cloudflare.com/fundamentals/api/reference/deprecations/&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 26 May 2026 04:43:14 +0000</pubDate></item><item><title>火绒安全揭露新型远控威胁攻击手段 利用WPS带毒版和Cloudflare隧道展开攻击</title><link>https://www.landian.news/archives/113102.html</link><description>
+&lt;p&gt;#安全资讯 火绒安全揭露新型远控威胁攻击手段，黑客投放 WPS 带毒版并使用 Cloudflare 隧道进行连接。在完成初步感染后恶意载荷会将整个 C 盘添加到 Microsoft Defender 排除列表里，于是微软不再扫描 C 盘因此也不会产生报警，而使用具有合法签名的 Cloudflare 隧道工具也不会被安全软件报告异常。查看详情：https://ourl.co/113102&lt;/p&gt;&lt;p&gt;火绒威胁情报中心日前监测到利用 WPS 办公软件进行投毒的新型远控威胁攻击手段，这种攻击并没有使用传统的黑客工具，而是利用合法的 WPS 办公软件与 Cloudflare 官方的隧道工具进行隐藏，普通用户很难发现自己的设备已经被后门程序感染。&lt;/p&gt;
+&lt;p&gt;当设备被感染后黑客投放的后门程序就会持续在后台运行并将整个 C 盘都添加到 Microsoft Defender 排除列表，避免被微软防病毒软件检测到，同时后门程序在后台收集用户的键盘输入记录和窃取剪贴板内容，黑客也可以通过后门程序直接远程控制被感染的设备。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113102.png" rel="nofollow"&gt;&lt;img alt="火绒安全揭露新型远控威胁攻击手段 利用WPS带毒版和Cloudflare隧道展开攻击" data-src="https://img.landian.news/landian/2026/05/113102.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113102.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;2026 年 2 月 Anthropic 通过 Claude 模型发现 Ghost CMS 内容 API 中存在 SQL 注入漏洞，未经身份验证的攻击者可以直接利用漏洞从数据库中读取任意数据，而该漏洞本身已经在 2 月份发布的 6.19.1 版中修复。&lt;/p&gt;
-&lt;p&gt;该漏洞的危害在于，攻击者可以通过漏洞获取网站管理员 API 密钥，管理员 API 密钥可以用于调用管理员 API 并直接修改所有已经发布的文章，换句话说在获得管理员 API 后，黑客可以直接修改所有已经发布的文章，例如在文章里添加广告或者恶意代码用于后续攻击。&lt;/p&gt;
-&lt;p&gt;奇安信检测的情况下是超过 700 个网站被黑客拿下并批量修改已经发布的文章，黑客在文章底部注入恶意 JavaScript 加载器，当用户访问时可能会弹出虚假的 Cloudflare CAPTCHA 验证，该验证要求用户在命令提示符中执行恶意命令。&lt;/p&gt;
+&lt;p&gt;攻击初始阶段黑客主要利用国内知名的办公软件 WPS，黑客将后门程序与 WPS 安装包重新封装，当用户下载带毒版的 WPS 并运行后，表面上看起来像是正在正常安装 WPS，但实际上后门程序会在后台悄悄执行恶意操作，最终向系统释放恶意载荷。&lt;/p&gt;
+&lt;p&gt;恶意载荷会首先调用 Windows PowerShell 并执行命令将整个 C 盘都添加到 Microsoft Defender 排除列表，排除后微软就不会再扫描 C 盘检测里面存在的后门程序，因此对于使用 Microsoft Defender 的用户来说很难看到异常提醒。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;奇安信安全团队经过分析后发现，黑客在文章底部加载的恶意代码主要用于从外部域名检索有效载荷，这种架构可以提供更大的灵活性，让攻击者能够根据不同的条件替换有效载荷，同时在多个已经被黑的网站上保持恶意载荷的有效性。&lt;/p&gt;
-&lt;p&gt;当恶意载荷被触发后网站将自动弹出伪造的验证界面，该界面自称需要验证访问者是否为真人，但需要用户复制 Base64 编码的命令在 Windows 10/11 运行对话框中执行，这段命令解码后主要用于通过命令提示符下载 ZIP 压缩包，压缩包才是真正的恶意载荷。&lt;/p&gt;
-&lt;p&gt;压缩包里面包含多个批处理脚本并且这些脚本也会被自动运行，其中涉及到的 PowerShell 命令则会从远程服务器下载 DLL 控件，使用 rundll32.exe 启动，启动后恶意控件会每隔 30 秒轮询访问 web.telegram.ug 恶意网站，用于接收黑客下发的恶意命令。&lt;/p&gt;
-</description><pubDate>Tue, 26 May 2026 01:00:32 +0000</pubDate></item><item><title>临时粘贴共享服务Ubuntu Pastebin将在6月底关停 大量用户抱怨Canonical不透明</title><link>https://www.landian.news/archives/113067.html</link><description>
-&lt;p&gt;#网站应用 临时粘贴共享服务 Ubuntu Pastebin 将在 6 月底关停，大量社区用户抱怨 Canonical 不透明。Ubuntu Pastebin 用于粘贴内容并公开共享，有不少用户使用该服务发布诊断日志供开发者调试，有些开发者则在上面共享软件包和脚本，现在 Canonical 突然宣布要在 5 月底关停，被用户抱怨后改到 6 月底关停。查看详情：https://ourl.co/113067&lt;/p&gt;&lt;p&gt;在没有提前通知的情况下 Canonical 公司计划在 2026 年 5 月底关停用于临时粘贴日志等内容并进行共享的 Ubuntu Pastebin 服务，该服务已经上线很多年因此有诸多忠实用户，通常这类网站主要用于粘贴系统或软件诊断日志以便开发者能够通过日志进行故障排除。&lt;/p&gt;
-&lt;p&gt;谷歌在关闭其短网址服务前就提前很长时间发布公告，而 Canonical 的做法是仅提前 1 周发布公告以至于大量用户并不清楚这回事，所以在被社区曝光后用户在 Ubuntu 官方论坛抱怨 Canonical 做事不够透明，哪怕是要关闭老旧服务也应该提前通知让用户有时间切换到其他平台。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src="https://img.landian.news/landian/2026/05/113067.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113067.png"/&gt;&lt;/p&gt;
+&lt;p&gt;在攻击的第二阶段黑客会利用 Cloudflare 官方提供的隧道工具 (cloudflared) 作为远程连接隧道，本身该工具是合法的因此具有有效的数字签名，反病毒软件检测到此类工具时也不会报告异常，当然对于大多数普通用户来说也不太可能发现 cloudflared 服务正在运行。&lt;/p&gt;
+&lt;p&gt;完成隧道部署后黑客会利用后门程序创建系统服务和计划任务以便实现后门程序的开机自启动，因此用户重启设备后后门程序还是可以正常运行，之后后门程序就会在后台静默收集用户信息并将其通过 Cloudflare 隧道回传到黑客的服务器。&lt;/p&gt;
+&lt;p&gt;火绒安全提醒各位下载软件时务必从开发商官方网站下载，搜索引擎查到的各类下载站都存在安全风险，从这些渠道下载软件很容易遭到攻击，当然用户也可以考虑安装火绒安全等杀毒软件加强系统防御能力，及时解决潜在的安全隐患。&lt;/p&gt;
+&lt;p&gt;技术分析报告：&lt;a href="https://www.landian.news/go?url=https://www.huorong.cn/document/tech/vir_report/1981" rel="noopener" target="_blank"&gt;https://www.huorong.cn/document/tech/vir_report/1981&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 26 May 2026 04:19:58 +0000</pubDate></item><item><title>伊朗计划从5月27日开始恢复互联网连接 将回到大规模断网前的水平</title><link>https://www.landian.news/archives/113101.html</link><description>
+&lt;p&gt;#行业资讯 伊朗计划从 5 月 27 日开始恢复国际互联网的连接，预计将可以恢复到 2026 年 1 月大规模断网之前的状态。伊朗在 2026 年经历两次大规模断网，首次是 1 月 8 日～2 月 2 日，之后是从 2 月 28 日至今，期间伊朗国际互联网流量跌到正常水平的 0.2%，之后伊朗利用白名单机制恢复部分访问，但整体流量也只有正常水平的 4.7%。查看详情：https://ourl.co/113101&lt;/p&gt;&lt;p&gt;在经历近半年的网络不稳定和网络彻底中断后，伊朗日前计划在 2026 年 5 月 27 日恢复互联网的连接，而且恢复的是国际互联网连接而非伊朗国内局域网连接，现阶段在伊朗只有精英人士和少数政府工作人员可以通过国际互联网访问经过授权的白名单网站。&lt;/p&gt;
+&lt;p&gt;伊朗在 2026 年经历两次大规模网络中断，首先是 1 月 8 日开始的网络流量异常，这种情况到后面演变为大规模断网，持续到 2 月 2 日后恢复互联网连接，当时观测数据显示伊朗的国际互联网连接已经恢复到正常水平 (与 2025 年 12 月份进行对比)。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113101-1.png" rel="nofollow"&gt;&lt;img alt="伊朗计划从5月27日开始恢复互联网连接 将回到大规模断网前的水平" data-src="https://img.landian.news/landian/2026/05/113101-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113101-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Ubuntu Pastebin 默认情况下需要注册并登录账户后才能使用，用户可以在这里粘贴各种内容并共享，因此实际使用该服务的用户也不只是用来共享系统或软件诊断日志，有些用户还使用该服务撰写内容并分享。&lt;/p&gt;
-&lt;p&gt;当该服务被关闭后多年以来积累的各种支持讨论以及用户主动分享的内容可能都会消失，尤其是部分 Ubuntu 软件包和脚本仍然直接引用 Ubuntu Pastebin 上提供的代码，对社区用户而言直接关停此服务可能会产生负面影响。&lt;/p&gt;
+&lt;p&gt;从 2026 年 2 月 28 日开始伊朗国际互联网流量锐减到正常水平的 0.2%，这种情况持续到现在也没有完全恢复，观测数据显示在 4~6 月伊朗国际互联网流量有所提升，不过这部分流量就是我们上文提到的精英人士可以访问经过审批的白名单网站，其他大部分用户仍然无法访问国际互联网，所以截至本文发布时伊朗国际互联网流量也只有正常水平的 4.7%。&lt;/p&gt;
+&lt;p&gt;而在这 4.7% 的流量里约有 50% 都是机器人产生的流量，也就是伊朗政府、企业或教育机构在服务器上部署的各类自动化程序，也就是真实人类产生的流量还是很少的，所以即便有白名单机制，能够访问互联网的用户仍然非常少。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;被社区用户抱怨后现在 Canonical 已经更新公告帖子宣布将 Ubuntu Pastebin 关闭时间延迟到 2026 年 6 月底，对用户而言仍然需要尽快备份自己的数据，服务关停后原本生成的 Ubuntu Pastebin 链接都将无法访问，当然内容也无法再获取。&lt;/p&gt;
-&lt;p&gt;Canonical 在公告帖子中表示，如果您需要链接 Ubuntu Pastebin 上的任何内容，则请尽快更新 URL 地址替换为其他类似服务，因为在服务停止后链接将无法继续访问。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://www.landian.news/go?url=https://discourse.ubuntu.com/t/ubuntu-pastebin-decommissioning/82824" rel="noopener" target="_blank"&gt;Canonical&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 26 May 2026 00:30:31 +0000</pubDate></item></channel></rss>
+&lt;p&gt;伊朗总统佩泽希齐扬日前已经通过伊朗政府网络空间总部下令，将伊朗国际互联网连接恢复到 2026 年 1 月大规模断网之前的状态，伊朗通讯部长已经确认开始国际互联网恢复工作，最快将在 5 月 27 日恢复国际互联网的连接。&lt;/p&gt;
+&lt;p&gt;目前从观测数据来看伊朗国际互联网连接流量还未产生明显的变化，说明恢复工作可能还在准备阶段尚未启动，有兴趣的用户可以关注 Cloudflare Radar，这里可以显示全球互联网的观测数据。&lt;/p&gt;
+</description><pubDate>Tue, 26 May 2026 03:51:05 +0000</pubDate></item></channel></rss>
