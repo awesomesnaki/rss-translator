@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AppAddict (中文)</title><link>https://appaddict.app</link><description>我是以高级用户和效率爱好者的身份，强调真实、实用的评测——而非营销人员。我特别喜欢独立Mac生态、注重隐私的软件、开源工具和工作流自动化。我也会涉及自托管、数字化生活的去谷歌化/去苹果化，以及如何通过组合小巧专注的应用来构建高效Mac工作流。文章内容涵盖从单一应用的深度解析到多应用的综合评测、工作流指南和开发者专题。如果你是一名开发者，有希望我体验的应用，请告诉我。</description><language>zh-CN</language><lastBuildDate>Sun, 24 May 2026 01:46:46 +0000</lastBuildDate><item><title>10种方法，让你的Apple快捷指令更强大</title><link>https://appaddict.app/post/10-ways-to-get-more-out-of-apple-shortcuts</link><description>&lt;figure&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AppAddict (中文)</title><link>https://appaddict.app</link><description>我是以高级用户和效率爱好者的身份，强调真实、实用的评测——而非营销人员。我特别喜欢独立Mac生态、注重隐私的软件、开源工具和工作流自动化。我也会涉及自托管、数字化生活的去谷歌化/去苹果化，以及如何通过组合小巧专注的应用来构建高效Mac工作流。文章内容涵盖从单一应用的深度解析到多应用的综合评测、工作流指南和开发者专题。如果你是一名开发者，有希望我体验的应用，请告诉我。</description><language>zh-CN</language><lastBuildDate>Wed, 27 May 2026 00:33:51 +0000</lastBuildDate><item><title>为什么在15年后我用Ejectify取代了Jettison</title><link>https://appaddict.app/post/why-i-replaced-jettison-with-ejectify-after-15-years</link><description>&lt;figure&gt;
+&lt;img referrerpolicy="no-referrer" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMm1yQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e18ed26c89be1f83d3207e138c79627f8b454faf/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hSeVpYTnBlbVZmZEc5ZmJHbHRhWFJiQjJrQ0FBaHBBZ0FHT2dwellYWmxjbnNIT2dwemRISnBjRlE2REhGMVlXeHBkSGxwWkE9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--fa3dbe24e376882dfd8c9dddfec0441143a8bd41/81673.jpeg"/&gt;
+&lt;/figure&gt;
+&lt;p&gt;为了保持开放的心态，我最近同意尝试一款名为&lt;a href="https://ejectify.app/"&gt;Ejectify&lt;/a&gt;的应用，它执行的任务我已经有解决方案：在Mac进入睡眠前自动弹出外接磁盘，并在唤醒时重新挂载它们。我曾长期使用MacBook工作，需要一种方法能直接合上电脑、拔掉线缆、继续前行，而不必被关于闪存盘和外接卷的提示烦扰致死。自从2011年在《Macworld》上看到后，我就一直在使用&lt;a href="https://stclairsoft.com/Jettison/"&gt;Jettison&lt;/a&gt;来完成这项工作。其开发者St. Clair Software还制作了&lt;a href="https://appaddict.app/post/default-folder-x-an-og-app-for-mac-power-users"&gt;Default Folder X&lt;/a&gt;、&lt;a href="https://appaddict.app/post/historyhound-a-must-have-research-tool-1"&gt;History Hound&lt;/a&gt;和&lt;a href="https://appaddict.app/post/app-tamer-from-st-claire-software"&gt;App Tamer&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;我决定尝试Ejectify的原因在于，它满足了一些在2026年相当重要的条件。它&lt;a href="https://github.com/nielsmouthaan/ejectify-macos"&gt;是开源的，放在Github上&lt;/a&gt;，意味着如果你有构建能力，基本上可以免费获得。你也能看到开发者Niels Mouthaan如何响应问题，无论是故障排除还是新功能规划。我之前用过&lt;a href="https://appaddict.app/post/backup-status-check-up-your-time-machine"&gt;Niels的其他应用&lt;/a&gt;，他提供的支持很不错。&lt;/p&gt;
+&lt;p&gt;除了与Jettison的理念差异外，使用Ejectify还增加了一些功能。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;卷是单独管理的，而非一刀切，因此你拥有更多控制权。&lt;/li&gt;
+&lt;li&gt;提供了一种按具体情况强制卸载磁盘的方式。&lt;/li&gt;
+&lt;li&gt;允许你静音“磁盘未正确弹出”消息，如果你和macOS对其含义无法达成一致的话。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;完整功能列表（来自官网）：&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;有助于在唤醒后避免出现"磁盘未正确推出"通知。&lt;/li&gt;
+&lt;li&gt;通过先安全卸载来降低数据丢失或卷损坏的风险。&lt;/li&gt;
+&lt;li&gt;让您选择Ejectify管理的受支持卷，包括外部卷、可弹出内部卷和磁盘映像。&lt;/li&gt;
+&lt;li&gt;支持在显示器关闭或系统开始休眠时自动卸载，然后在唤醒后尝试重新装载卷。&lt;/li&gt;
+&lt;li&gt;包括强制卸载、强制静音通知和即时"全部卸载"操作，以及用于手动全部卸载的全局键盘快捷键。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Why%20I%20Replaced%20Jettison%20with%20Ejectify%20after%2015%20Years"&gt;✉️ 通过邮件回复&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 27 May 2026 00:33:51 +0000</pubDate></item><item><title>10种方法，让你的Apple快捷指令更强大</title><link>https://appaddict.app/post/10-ways-to-get-more-out-of-apple-shortcuts</link><description>&lt;figure&gt;
 &lt;img referrerpolicy="no-referrer" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd3FyQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--07bb5d91e3d113c723a743e7b7c566c89f24944a/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/playground.jpg"/&gt;
 &lt;/figure&gt;
 &lt;p&gt;当适合我的工作流程时，我喜欢使用苹果快捷指令，但高级功能可能会令人困惑。我能管理简单的循环和变量，但过程缓慢且棘手。因此，我很高兴看到MacStories发布了Shortcuts Playground，这是一个适用于Codex和Claude Code的免费插件。它允许你用自然语言描述你想要的功能，并创建一个你可以使用或分享的真正的苹果快捷指令。如果你拥有这些平台，你可以免费&lt;a href="https://www.macstories.net/shortcuts-playground/"&gt;阅读相关内容并获取安装说明&lt;/a&gt;。&lt;/p&gt;
@@ -161,25 +179,4 @@
 &lt;p&gt;&lt;b&gt;&lt;strong&gt;DockDoor Pro 网站&lt;/strong&gt;&lt;/b&gt; - &lt;a href="https://pro.dockdoor.net"&gt;DockDoor Pro - 官方 macOS Dock 替代品&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;&lt;strong&gt;隐私政策&lt;/strong&gt;&lt;/b&gt; - &lt;a href="https://pro.dockdoor.net/legal/"&gt;DockDoor Pro | 隐私政策与最终用户许可协议&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;&lt;strong&gt;价格&lt;/strong&gt;&lt;/b&gt; - 20 美元&lt;/p&gt;
-&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=DockDoor%20Pro%20-%20The%20Dock%20Apple%20Wouldn"&gt;✉️ 通过邮件回复&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 13 May 2026 16:45:57 +0000</pubDate></item><item><title>酒保进入全新纪元，顶级酒品登场。</title><link>https://appaddict.app/post/bartender-enters-a-new-era-with-top-shelf</link><description>&lt;figure&gt;
-&lt;img alt="Top Shelf" referrerpolicy="no-referrer" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBemFwQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--f453f28188bc4eb470b9e014775cee35d97db328/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--768aeab7fb7843d85fe5b2b4ba237e06e6ef604f/Top%20Shelf%20-%20Files%20(Full).png"/&gt;
-&lt;figcaption&gt;
-      顶级搁板
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;过去几周，我一直在测试 Bartender 的新版本；这款应用有着有趣且有时略带争议的历史。尽管如此，它仍然是一款&lt;a href="https://appaddict.app/post/bartender-still-best-in-class"&gt;我依赖多年的实用工具&lt;/a&gt;。我最近&lt;a href="https://appaddict.app/post/mac-menu-bar-chaos"&gt;深入研究了&lt;/a&gt; macOS 的变动给菜单栏管理器带来的问题，以及这些变动对未来的影响。尽管这一类别中仍存在一些遗留问题，我依然认为 Bartender 是重度 Mac 用户的最佳整体选择。&lt;/p&gt;
-&lt;p&gt;这个新版本名为&lt;a href="https://www.macbartender.com/pro"&gt;Bartender Pro&lt;/a&gt;，通过一项名为“顶级搁板”的功能，扩展了传统的菜单栏管理范畴。其理念很简单：将 MacBook 的刘海变成真正有用的区域，而不是闲置空间。开发者正在进入一个日益拥挤的领域，该领域已有 &lt;a href="https://getdroppy.app/"&gt;Droppy&lt;/a&gt; 和 &lt;a href="https://www.dynamiclake.com/"&gt;DynamicLake Pro&lt;/a&gt; 等应用，它们也试图占据 Mac 界面的这块“地产”。&lt;/p&gt;
-&lt;p&gt;顶级搁板支持临时文件存储、剪贴板历史、AirDrop 访问、小组件、媒体控制、实时天气、日历视图，以及 Bartender 所谓的“实时活动”。一个特别有趣的补充是支持直接从刘海区域显示正在运行的 Claude Code 或 Codex 会话状态。这使得 Bartender Pro 在面向 AI 的工作流集成方面与 Droppy 直接竞争。&lt;/p&gt;
-&lt;p&gt;我很幸运有一个小型家庭实验室，里面有数台 Mac 可供测试。我一直在搭载最新版 macOS 的 M2 MacBook Air 上运行 Bartender Pro，总体而言，其实现感觉 thoughtful 且成熟。开发者将新功能干净地整合到 Bartender 现有的设置架构中，而不是生硬地附加第二个界面。&lt;/p&gt;&lt;p&gt;Top Shelf 界面本身打磨精致，与 macOS 的视觉风格高度统一。更重要的是，它提供了充足的定制选项，让高级用户能够根据自己的工作流程来调整它，而不是去适应别人对刘海如何运作的设想。启用或禁用功能非常直观，配置过程也从未显得过于复杂。&lt;/p&gt;
-&lt;p&gt;Bartender Pro 提供的一项我在其他软件上未见过如此出色处理的功能，是它与 Bartender Bar 本身的动态交互。这款应用能智能地避免将菜单栏图标隐藏到刘海界面背后——这听起来似乎微不足道，但当你真正开始使用多个刘海工具，并发现这个问题会变得多么混乱时，就会明白其重要性。&lt;/p&gt;
-&lt;p&gt;重要的是，这一切并不会取代传统的 Bartender 体验。新功能完全是附加性的。Bartender 6 仍然以标准的一次性购买方式提供，价格为 20 美元，该公司也明确表示，核心菜单栏管理功能不会放到订阅付费墙之后。&lt;/p&gt;
-&lt;p&gt;对于对 Top Shelf 及更广泛的 Pro 功能集感兴趣的用户，Bartender Pro 以每年 15 美元的订阅方式提供。这包括 Bartender 6 以及订阅期内发布的所有升级版本。&lt;/p&gt;
-&lt;p&gt;Bartender 团队显然投入了大量精力来做好这次发布。在测试阶段，更新频繁推出，反馈被积极采纳，Bug 报告也得到及时处理。这种响应能力至关重要，尤其是对于在 macOS 界面深层运行的工具类软件而言。&lt;/p&gt;
-&lt;p&gt;如果你正在评估刘海工具，或试图构建更简洁的面向 AI 的 Mac 工作流程，Bartender Pro 值得认真考虑。&lt;/p&gt;
-&lt;figure&gt;
-&lt;img alt="Top Shelf - General Settings" referrerpolicy="no-referrer" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBemVwQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--11dfe55470c659b517d16b6eb15eaef08918e296/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--768aeab7fb7843d85fe5b2b4ba237e06e6ef604f/Top%20Shelf%20Settings%20-%20General.png"/&gt;
-&lt;figcaption&gt;
-      Top Shelf - 通用设置
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Bartender%20Enters%20a%20New%20Era%20with%20Top%20Shelf"&gt;✉️ 通过邮件回复&lt;/a&gt;&lt;/p&gt;</description><pubDate>Tue, 12 May 2026 15:02:00 +0000</pubDate></item></channel></rss>
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=DockDoor%20Pro%20-%20The%20Dock%20Apple%20Wouldn"&gt;✉️ 通过邮件回复&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 13 May 2026 16:45:57 +0000</pubDate></item></channel></rss>
