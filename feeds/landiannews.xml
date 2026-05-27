@@ -1,56 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 26 May 2026 08:14:48 +0000</lastBuildDate><item><title>离谱！有网友使用Gemini生成简单的头像视频 4分钟直接耗尽5小时额度</title><link>https://www.landian.news/archives/113107.html</link><description>
-&lt;p&gt;#人工智能 确实离谱！有网友使用 Gemini 生成简单的头像视频，4 分钟直接耗尽 5 小时额度且还未成功生成，当周额度则被消耗 5%。目前来看这应该是 Gemini 内部的问题而非真实额度消耗，不然生成个小视频就直接把额度耗尽，用户哪敢继续使用 Gemini。查看详情：https://ourl.co/113107&lt;/p&gt;&lt;p&gt;这段时间关于谷歌调整 Gemini 使用配额的消息实在太多以至于我们都已经有些麻木，尽管为解决用户愤怒谷歌已经将 5 小时和每周配额都提升 3 倍，但从目前情况来看 Gemini 的实际配额应该比以前还是减少很多，而且 Gemini 可能还存在某些系统问题导致配额消耗过快。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113107-1.png" rel="nofollow"&gt;&lt;img alt="离谱！有网友使用Gemini生成简单的头像视频 4分钟直接耗尽5小时额度" data-src="https://img.landian.news/landian/2026/05/113107-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113107-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113107-2.png" rel="nofollow"&gt;&lt;img alt="离谱！有网友使用Gemini生成简单的头像视频 4分钟直接耗尽5小时额度" data-src="https://img.landian.news/landian/2026/05/113107-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113107-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 27 May 2026 07:53:37 +0000</lastBuildDate><item><title>阿里云百炼平台Qwen3.7-Max默认开启隐式缓存 命中缓存后成本约为20%</title><link>https://www.landian.news/archives/113115.html</link><description>
+&lt;p&gt;#人工智能 阿里云百炼平台为 Qwen3.7-Max 模型默认开启隐式缓存，在不增加额外创建成本的情况下，命中缓存后成本为 20%。默认开启隐式缓存有助于降低开发者的实际调用成本，但隐式缓存命中率是完全不确定的，因此其效果不如显式缓存，开发者可以根据实际场景进行调整。查看详情：https://ourl.co/113115&lt;/p&gt;&lt;p&gt;阿里云通义千问团队日前宣布在百炼模型调用平台为阿里云旗舰模型 Qwen3.7-Max 默认开启隐式缓存，隐式缓存功能在默认开启后无法关闭，在实际使用时可以降低模型调用成本，命中隐式缓存的情况下模型实际调用价格为输入单价的 20%。按照当前 Qwen3.7-Max 输入价 12 元计算，在命中隐式缓存的情况下实际价格为 2.4 元。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113115.png" rel="nofollow"&gt;&lt;img alt="阿里云百炼平台Qwen3.7-Max默认开启隐式缓存 命中缓存后成本约为20%" data-src="https://img.landian.news/landian/2026/05/113115.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113115.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;有开发者在社交媒体平台上发布的&lt;a href="https://www.landian.news/go?url=https://x.com/ai_for_success/status/2058902674284880207" rel="noopener" target="_blank"&gt;视频&lt;/a&gt;显示，开发者在 Gemini 中上传自己的头像并希望生成简短的视频，刚开始 5 小时使用配额增长速度还算是正常，只不过没想到这个简单任务持续 4 分钟左右还未完成，而且 5 小时配额竟然被直接耗尽，最终这个视频生成任务也失败，不清楚是配额耗尽还是 Gemini 内部问题造成的。&lt;/p&gt;
-&lt;p&gt;但从每周配额来看增长还算是正常的，在任务开始前开发者每周使用配额为 25%，到任务失败并结束后 5 小时用量为 100%、每周配额用量为 30%，然而 4 分钟的视频任务能将每周配额减少 5% 其实也已经非常多，如果这是正常情况说明谷歌分配给用户的配额相较以前来说已经非常低，当然更大概率这是不正常的情况。&lt;/p&gt;
+&lt;p&gt;隐式缓存主要用于追求便捷的通用场景，系统会自动识别请求内容的公共前缀并进行缓存，当系统收到请求后会基于前缀匹配原则检查缓存中是否存在请求中消息数组内容的公共前缀，若命中缓存则系统直接使用缓存结果进行后续部分的推理，若未命中缓存则系统按照常规流程进行处理，同时将本次提示词的前缀存入缓存以备后续请求使用。&lt;/p&gt;
+&lt;p&gt;在隐式缓存中系统无法确定缓存命中率、缓存命中概率并非 100%，有时候即便请求内容完全相同可能也无法命中缓存，具体请求内容能否命中缓存完全由系统判定，同时系统也会定期清理长期未使用的缓存数据，缓存清理时间同样不确定。&lt;/p&gt;
+&lt;p&gt;与隐式缓存互斥的是显式缓存，显式缓存首次创建缓存的成本要比正常输入高 25%，但显式缓存在 5 分钟有效期内的命中率可以做到 100%，而命中缓存后的调用成本为输入单价的 10%，因此开发者需要仔细分析自己的使用场景和数据来判断使用哪种缓存方式的成本更低。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;针对网友的吐槽谷歌工程师已经关注，只不过截至本文发布时谷歌 AI 团队尚未就这件事发布任何回应，谷歌这段时间从 OpenAI 那里学会了重置，几乎是隔一天就重置一次，今天凌晨四点左右 Gemini 当周额度再次被重置，可能是谷歌希望通过这种方式缓解开发者们的配额焦虑问题。&lt;/p&gt;
-&lt;p&gt;但如果不解决问题仅靠重置显然是不能长期维系的，对谷歌而言要么真诚地为所有订阅用户恢复更高的使用配额，要么还是等着用户逐渐离开 Gemini 转投其他平台。&lt;/p&gt;
-</description><pubDate>Tue, 26 May 2026 08:14:48 +0000</pubDate></item><item><title>研究人员称NGINX近期爆出的漏洞是AI制造焦虑 因为实际匹配漏洞极少</title><link>https://www.landian.news/archives/113106.html</link><description>
-&lt;p&gt;#安全资讯 安全分析师称 NGINX 近期爆出的漏洞是 AI 制造的焦虑，因为实际匹配漏洞极少。这名分析师从 GitHub 上抓取 4,000 份公开的 NGINX 配置文件，发现实际受漏洞影响的配置为 0，因为大多数网站不需要使用 rewrite 进行规则匹配，不过蓝点网抓取了 699 份配置文件，其中成功匹配漏洞的有 44 个，占比为 6.3%，从这个角度来说真正受影响的实例并不少，使用 NGINX 的用户还是得尽早升级。查看详情：https://ourl.co/113106&lt;/p&gt;&lt;p&gt;近期 NGINX 被爆出多个高危级别的安全漏洞，攻击者只需要发送特制的 HTTP 请求即可触发漏洞并进行远程代码执行，不过先决条件是 NGINX 配置必须达成要求，而大多数 NGINX 实例配置都不存在相关要求因此即便没有升级新版本也不会因为这些漏洞而被攻击。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113106.png" rel="nofollow"&gt;&lt;img alt="研究人员称NGINX近期爆出的漏洞是AI制造焦虑 因为实际匹配漏洞极少" data-src="https://img.landian.news/landian/2026/05/113106.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113106.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;创建缓存成本：隐式缓存创建价格与标准输入价相同，显式缓存创建价格是标准输入价的 125%&lt;/li&gt;
+&lt;li&gt;命中缓存成本：隐式缓存命中后价格是标准输入价的 20%，显式缓存命中后价格是标准输入价的 10%&lt;/li&gt;
+&lt;li&gt;最小缓存数量：隐式缓存最小缓存数量为 256Tokens，显式缓存最小缓存数量为 1024Tokens&lt;/li&gt;
+&lt;li&gt;缓存生存时间：隐式缓存生存时间不确定完全由系统判断并清理，显式缓存生存时间为 5 分钟 (命中后会自动续期)&lt;/li&gt;
+&lt;li&gt;缓存类型互斥：隐式缓存与显式缓存互斥，如未主动开启显式缓存的情况下，则系统默认使用隐式缓存&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;安全分析师 &lt;a href="https://www.landian.news/go?url=https://x.com/xorninja/status/2057473394250264677?s=12" rel="noopener" target="_blank"&gt;@XorNinja&lt;/a&gt; 发布的消息称，其所属公司从 GitHub 里获取近 4，000 份公开的 NGINX 配置文件并进行分析，分析结果表明这些样本里受 NGINX RIFT 漏洞影响的为 0，也就是所有样本都没有匹配到漏洞触发的先决条件，这名安全分析师认为漏洞由 AI 发现并制造安全焦虑，但也可以使用 AI 分析公开样本来对抗 AI 制造的焦虑。&lt;/p&gt;
-&lt;p&gt;不过在真实世界中目前确实有黑客利用 NGINX 漏洞发起攻击，观测数据显示暴露在公网且使用的是受影响版本的 NGINX 实例多达 557 万台，这些实例中有多少确实受漏洞影响的还不清楚，但既然已经有黑客利用漏洞发起攻击，对用户而言升级到不受影响的新版本还是非常有必要的。&lt;/p&gt;
+&lt;p&gt;隐式缓存的命中逻辑是判断不同请求的前缀是否存在重复内容，如果存在重复内容则可能可以命中缓存，因此为提高缓存命中率请将重复内容放在提示词的开头，将任何差异内容放在提示词的结尾部分，这样有助于提高隐式缓存的整体命中率并降低实际调用成本。&lt;/p&gt;
+&lt;p&gt;此次阿里云百炼平台为 Qwen3.7-Max 模型默认开启隐式缓存，但阿里云提供的其他模型 (包括其他 AI 公司的模型) 也陆续支持隐式缓存，具体价格以模型类型和提供方不同存在差异，开发者需要前往百炼控制台切换不同的模型查看价格。&lt;/p&gt;
+&lt;p&gt;PS：深度求索 API 平台调用 DeepSeek V4 Pro 命中缓存的情况下可节省 99.17%。&lt;/p&gt;
+</description><pubDate>Wed, 27 May 2026 07:53:37 +0000</pubDate></item><item><title>小米宣布下调MiMo-V2.5模型定价 对标深度求索DSV4系列模型的API价格</title><link>https://www.landian.news/archives/113114.html</link><description>
+&lt;p&gt;#人工智能 小米宣布下调 MiMo-V2.5 模型 API 调用价格，百万输出 6 元直接对标 DSV4 系列模型，此次调整涉及大幅度降价以及不再区分 256K/1M 长度价格。同时小米还对 Token Plan 订阅计划进行调整，价格没变但实际可以获得的用量也大幅度提升，订阅方案现在也改成信用点模式。查看详情：https://ourl.co/113114&lt;/p&gt;&lt;p&gt;小米人工智能团队日前宣布对 MiMo-V2.5 系列模型定价进行调整，此次调整主要是大幅度降低模型实际调用价格，&lt;a href="https://www.landian.news/archives/113049.html" rel="noopener" target="_blank"&gt;调整后的价格与深度求索的 DSV4 系列模型价格相同&lt;/a&gt;，可以看出来小米这波应该主要就是对标深度求索 API 调用价格来调整的。&lt;/p&gt;
+&lt;p&gt;调整后该系列模型也不再按照长度进行区分定价，也就是无论长度是否超出 256K 都采用相同的定价，目前新价格已经在 2026 年 5 月 27 日 0 点生效，现在调用 MiMo-V2.5 系列模型就是按照最新调整后的价格来计算的，使用小米模型 API 平台的用户可以关注下后续用量账单。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113114-1.png" rel="nofollow"&gt;&lt;img alt="小米宣布下调MiMo-V2.5模型定价 对标深度求索DSV4系列模型的API价格" data-src="https://img.landian.news/landian/2026/05/113114-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113114-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;看到安全分析师发布的消息后，蓝点网也从 GitHub 抓取 699 份公开的 NGINX 配置文件，我们的扫描结果显示成功匹配漏洞模式的有 44 个，占比为 6.3%，这些受影响的实例均使用 rewrite + $1 + ? 进行规则匹配所以可以成功利用漏洞。&lt;/p&gt;
-&lt;p&gt;我们对受影响配置文件所属仓库的分析显示，这些仓库主要都是 CMS 系统、医疗系统、Docker 镜像，最常见的模式就是连续的 rewrite 规则做 URL 路由 (PHP 框架入口转发)，其中一条 rewrite 替换含？且后面紧接另一条 rewrite 或 if。&lt;/p&gt;
-&lt;p&gt;从这个角度来说真实受影响的 NGINX 实例应该并不少，尤其是使用 CMS 系统并按照 CMS 系统指南配置重写规则的网站可能受影响的更多，说到最后还是建议各位尽早升级避免潜在的攻击，修复漏洞的版本为 NGINX 1.30.1 和 1.31.0 版，只需要升级到这些版本即可。&lt;/p&gt;
-</description><pubDate>Tue, 26 May 2026 07:57:52 +0000</pubDate></item><item><title>摩托罗拉手机被发现劫持亚马逊添加返利代码 尚不清楚是故意的还是被黑</title><link>https://www.landian.news/archives/113105.html</link><description>
-&lt;p&gt;#手机数码 摩托罗拉手机被发现通过预装应用 Smart Feed 劫持亚马逊商店添加返利代码，当用户尝试启动亚马逊时会被强制中断，随后摩托罗拉通过浏览器加载包含返利链接的网站再启动亚马逊以便获得购买分成。不过摩托罗拉使用的域名才注册 3 天而且指向没有关联的时尚博主，这看起来更像是摩托罗拉内部被黑，或者有内鬼利用职权进行恶意劫持。查看详情：https://ourl.co/113105&lt;/p&gt;&lt;p&gt;近期有诸多摩托罗拉手机用户注意到打开亚马逊应用程序时会先弹出浏览器然后再启动亚马逊应用，启动过程非常短暂因此很多用户可能都没注意到这种情况，有专业用户经过分析后发现是摩托罗拉通过名为 Smart Feed 的应用程序进行劫持，这种劫持行为有极大概率是摩托罗拉自己的行为。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2023/09/100409.png" rel="nofollow"&gt;&lt;img alt="摩托罗拉手机被发现劫持亚马逊添加返利代码 尚不清楚是故意的还是被黑" data-src="https://img.landian.news/landian/2023/09/100409.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2023/09/100409.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MiMo-V2.5：百万输入命中缓存 0.020 元，百万输入未命中缓存 1 元，百万输出 2 元&lt;/li&gt;
+&lt;li&gt;MiMo-V2.5-Pro：百万输入命中缓存 0.025 元，百万输入未命中缓存 3 元，百万输出 6 元&lt;/li&gt;
+&lt;li&gt;256K/1M 长度：本次调整后模型不再按照 256K 和 256K~1M 长度进行区别定价&lt;/li&gt;
+&lt;li&gt;MiMo-V2.5-TTS：该系列模型将继续提供限时免费接入&lt;/li&gt;
+&lt;li&gt;MiMo-V2-Pro/Omni：该系列模型价格未调整，将继续按照原 API 调用价格计费&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;摩托罗拉采用的劫持流程倒是不复杂，首先摩托罗拉会检测用户是否点击亚马逊应用程序，如果用户点击则系统会强制中断操作并自动启动浏览器打开 kira-abbound.com 并通过联盟代码启动亚马逊应用程序，当用户通过亚马逊应用程序购买商品时，摩托罗拉会收到来自亚马逊或商家提供的返利分成。&lt;/p&gt;
-&lt;p&gt;通过 ADB 调试还可以注意到，设备会向 devicenative.com 发出请求，该网站所属公司主要就是在智能手机上投放广告，并且网站所属公司也明确提到摩托罗拉也是其合作伙伴。&lt;/p&gt;
+&lt;p&gt;本次更新小米还对 Token Plan 订阅计划进行调整，调整内容主要是大幅度提高套餐内的实际用量，让用户可以在各类智能体或编码场景下获得更高的使用量，同时小米也将 Token Plan 计费体系从原来的 Tokens 数量改成信用点，不同复杂度的任务综合计算后的信用点不同，以实际消耗为准。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113114-2.png" rel="nofollow"&gt;&lt;img alt="小米宣布下调MiMo-V2.5模型定价 对标深度求索DSV4系列模型的API价格" data-src="https://img.landian.news/landian/2026/05/113114-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113114-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113114-3.png" rel="nofollow"&gt;&lt;img alt="小米宣布下调MiMo-V2.5模型定价 对标深度求索DSV4系列模型的API价格" data-src="https://img.landian.news/landian/2026/05/113114-3.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113114-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 27 May 2026 06:52:37 +0000</pubDate></item><item><title>惠普承认安装BIOS固件更新后系统循环进入BitLocker锁定屏幕 已发布解决方案</title><link>https://www.landian.news/archives/113113.html</link><description>
+&lt;p&gt;#硬件设备 惠普承认安装 BIOS 固件更新后惠普所有商用设备和工作站会循环进入 BitLocker 锁定界面，该问题与 UEFI CA 2023 证书有关。目前惠普已经提供解决方案，IT 管理员需要修改 BIOS 配置手动应用证书，成功操作后既可以解决锁定问题又会完成证书更新 (此问题与安装固件后蓝屏死机是两件事)。解决方案：https://ourl.co/113113&lt;/p&gt;&lt;p&gt;惠普提供的 BIOS 固件向来比较烂以至于不少用户在安装固件更新后会遇到各种问题，例如近期就有诸多用户遇到安装固件更新后系统启动中断或黑屏死机，还有些用户安装固件后系统会循环进入 Microsoft BitLocker 锁定界面，用户必须提供解密密钥后按照惠普提供的解决方案进行修复。&lt;/p&gt;
+&lt;p&gt;需要特别强调的是本文所说的内容与&lt;a href="https://www.landian.news/archives/113100.html" rel="noopener" target="_blank"&gt;蓝点网昨天发布的惠普固件导致系统黑屏死机是两件事&lt;/a&gt;，目前惠普还在针对安装固件后启动中断或黑屏死机等问题进行调查，惠普暂时还未提供解决方案用来解决问题。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;目前非常让人疑惑的就是这种劫持行为到底是摩托罗拉自己的操作还是相关功能遭到黑客利用，因为 kira-abbound 域名还是 5 月 22 日注册的 (注册时间才 3 天)，而这个网站还被指向时尚博主 @kirasfashionfinds，但摩托罗拉使用的联盟返利代码是 sramz-kff-008-20，这与这名时尚博主使用的联盟返利代码也是不同的。&lt;/p&gt;
-&lt;p&gt;从上面情况可以看到可疑的地方：摩托罗拉不太可能使用注册才 3 天的域名来劫持亚马逊，摩托罗拉也不太可能会将自己辛辛苦苦劫持的收入转给没有关联的时尚博主，所以这个网站指向时尚博主很可能是障眼法，用来掩饰联盟代码的真正归属。&lt;/p&gt;
-&lt;p&gt;目前摩托罗拉尚未就此事发布官方回应，蓝点网更偏向于摩托罗拉内部出现某种问题导致有人劫持 Smart Feed 应用用来劫持亚马逊并获得返利分成，这不一定是外部黑客所为，也有可能是摩托罗拉自己内部出现的内鬼利用自己的职权进行劫持。&lt;/p&gt;
-&lt;p&gt;对于使用摩托罗拉手机的用户现在可以强制禁用 Smart Feed 应用来解决劫持问题，只需要转到设置、应用、在搜索框搜索 Smart Feed 并打开，然后将这个应用彻底禁用，禁用后用户启动其他应用时就不会再被劫持。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113105.png" rel="nofollow"&gt;&lt;img alt="摩托罗拉手机被发现劫持亚马逊添加返利代码 尚不清楚是故意的还是被黑" data-src="https://img.landian.news/landian/2026/05/113105.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113105.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 26 May 2026 07:24:04 +0000</pubDate></item><item><title>荣耀手机广泛出现截图时存储空间不足问题 官方确认是谷歌推送的更新有问题</title><link>https://www.landian.news/archives/113104.html</link><description>
-&lt;p&gt;#手机数码 荣耀手机广泛出现截图时提示存储空间不足的问题，官方确认这与谷歌推送的更新有关，并非真是存储空间不足。该问题主要影响荣耀海外市场用户，因为这些用户可以正常接收谷歌推送的更新，不过其他市场的用户若通过代理连接谷歌也可能接收更新而出现相同的故障。查看详情：https://ourl.co/113104&lt;/p&gt;&lt;p&gt;本周有诸多荣耀手机用户 (主要是国际用户) 遇到截图时系统弹出存储空间不足的问题，这些用户尝试删除相册里的各类照片和截图腾出空间，但即便剩余存储空间还有 20% 也依然无法正常截图，经过紧急反馈后荣耀官方确认这是谷歌推送的更新有问题而非存储空间不足。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113104.png" rel="nofollow"&gt;&lt;img alt="荣耀手机广泛出现截图时存储空间不足问题 官方确认是谷歌推送的更新有问题" data-src="https://img.landian.news/landian/2026/05/113104.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113104.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在安装惠普 2026 年 4 月初发布的 BIOS 更新程序后，系统重启时可能会自动进入 Microsoft BitLocker 锁定界面，用户必须提供正确的恢复密钥才可以重新启动系统，但下次重启时系统会再次进入锁定界面直到用户再次输入恢复密钥，这个问题会循环出现以至于用户需要每次启动都输入恢复密钥。&lt;/p&gt;
+&lt;p&gt;该问题主要影响惠普&lt;strong&gt;商用&lt;/strong&gt;笔记本电脑、惠普&lt;strong&gt;商用&lt;/strong&gt;台式机、惠普&lt;strong&gt;工作站级&lt;/strong&gt;笔记本电脑或台式机，影响 Windows 11 23H2/24H2/25H2 版用户，至于问题根源则与微软更新 UEFI CA 2023 数字证书有关。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;遇到此问题的用户在截图时会看到：存储空间有限无法保存截图。荣耀海外官方客服接到用户反馈后上报给研发部门进行分析，后确认此次故障与谷歌在 2026 年 5 月 25 日推送的更新有关，可能是谷歌推送的更新导致 MagicOS 出现兼容性故障，为此荣耀团队也紧急联系谷歌进行问题调查。&lt;/p&gt;
-&lt;p&gt;这个问题主要影响能够接收谷歌推送更新的荣耀海外版用户，但其他用户若是通过代理连接等也会收到更新并遇到相同的问题，整体来说这次故障主要影响的还是海外用户，荣耀称此次故障涉及多个国家或地区的多种荣耀机型，尤其故障排除和适配难度较高因此用户可能还需要继续等待。&lt;/p&gt;
+&lt;p&gt;当出现启动时循环进入 Microsoft BitLocker 恢复界面时，微软发布的 UEFI CA 2023 数字证书可能无法正确应用到设备上，要验证数字证书是否被成功更新，请检查 UEFI CA 2023 Status 和 UEFI CA 2023 Error 注册表键值。&lt;/p&gt;
+&lt;p&gt;如果 UEFI CA 2023 Status 注册表键值长时间保持进行中状态，并且 UEFI CA 2023 Error 注册表键值显示任何大于 0 的数字，则代表数字证书更新失败，企业 IT 管理员可以访问微软关于 UEFI CA 2023 数字证书更新的支持文档&lt;a href="https://www.landian.news/go?url=https://support.microsoft.com/en-us/topic/secure-boot-certificate-updates-guidance-for-it-professionals-and-organizations-e2b43f9f-b424-42df-bc6a-8476db65ab2f#bkmk_certificate_deployment" rel="noopener" target="_blank"&gt;查看解决方案&lt;/a&gt;，微软已经提供完整的手动更新方案，IT 管理员可以通过手动操作解决部分设备无法通过更新自动安装新证书的问题。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113113.png" rel="nofollow"&gt;&lt;img alt="惠普承认安装BIOS固件更新后系统循环进入BitLocker锁定屏幕 已发布解决方案" data-src="https://img.landian.news/landian/2026/05/113113.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113113.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;对于遇到该问题的用户，请不要尝试删除现有照片来腾出空间，如果因为无法截图而删除某些照片完全是得不偿失的，当前的临时替代方案是点击控制中心的截屏按钮然后选择滚动截屏，滚动截屏功能暂时是正常的，如果用户对截图尺寸不满意则可以在截图后手动裁剪截图。&lt;/p&gt;
-&lt;p&gt;感谢蓝点网网友 黑蛋 分享的消息&lt;/p&gt;
-</description><pubDate>Tue, 26 May 2026 07:04:00 +0000</pubDate></item><item><title>[重要] Cloudflare DNS不再支持原地切换解析类型 到6月30日起API切换类型也被弃用</title><link>https://www.landian.news/archives/113103.html</link><description>
-&lt;p&gt;#行业资讯 重要：Cloudflare DNS 不再支持原地切换解析类型，到 6 月 30 日起 API 切换解析类型也将被弃用。目前新版 DNS 管理界面已经不再支持手动切换解析类型，用户必须先删除原有记录再添加新记录，现阶段 API 更改解析类型还能用，后续也将被弃用。Cloudflare 称这项更改是为了确保与正确 DNS 语义的一致性并降低运维风险。查看详情：https://ourl.co/113103&lt;/p&gt;&lt;p&gt;早前蓝点网提到 Cloudflare 正在陆续向用户推出新版 DNS 管理界面，此次更新主要提供更细致的用户操作界面，还为用户提供 DNS 记录创建和更新时间，用户还可以为 DNS 记录添加备注以便后续自己通过备注来识别特定的域名解析记录。&lt;/p&gt;
-&lt;p&gt;然而此次更新还有个重大更改是 Cloudflare DNS 不再支持原地修改解析类型，如果用户要修改解析类型必须先删除再添加，同时相关 API 操作也会被弃用，也就是必须遵循先删除后添加的操作逻辑，相关应用可能都需要调整 API 操作。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src="https://img.landian.news/landian/2026/05/113103.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113103.png"/&gt;&lt;/p&gt;
+&lt;p&gt;惠普称通过&lt;a href="https://www.landian.news/go?url=https://support.hp.com/us-en/document/ish_14914515-14914500-16#wl" rel="noopener" target="_blank"&gt;本解决方案&lt;/a&gt;进行处理后，既可以解决系统启动时进入 Microsoft BitLocker 恢复界面，又可以成功更新 UEFI CA 2023 证书，建议 IT 管理员按照惠普的建议检查所有设备的证书应用状态以及通过解决方案部署新证书，这可以确保后续这些设备在正常使用中不会出现其他问题。&lt;/p&gt;
+&lt;p&gt;1. 关闭设备、重新按启动电源，然后反复按 F10 键 (每秒至少按 1 次) 直到出现 HP 徽标。&lt;/p&gt;
+&lt;p&gt;2. 此时系统会自动进入 HP BIOS 管理界面，IT 管理员需要在这里转到安全、安全启动配置。&lt;/p&gt;
+&lt;p&gt;3. 在安全启动配置页面，将 UEFI 2023 的四个证书选项全部勾选并保存，确保所有设置保存后重启。&lt;/p&gt;
+&lt;p&gt;4. 此时系统应该可以正常启动，不会再自动进入 Microsoft BitLocker 恢复界面。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;完成更新后 IT 管理员可以通过 PowerShell 命令手动检查 UEFI CA 2023 证书应用状态：&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;pre&gt;Get-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\SecureBoot\Servicing" -Name "UEFICA2023Status"&lt;/pre&gt;
+</description><pubDate>Wed, 27 May 2026 05:53:41 +0000</pubDate></item><item><title>欧盟可能会对谷歌发起创纪录的罚款 原因是谷歌搜索偏袒自家服务</title><link>https://www.landian.news/archives/113112.html</link><description>
+&lt;p&gt;#行业资讯 欧盟可能会对谷歌发起创纪录的罚款，原因是谷歌搜索偏袒自家产品或服务违反数字市场法案。德国商报发布的消息称，欧盟主要官员都支持对谷歌进行罚款以敦促谷歌改正违法行为，不过最终决定还需要欧委会主席冯德莱恩决定，最终决定可能会在夏末公布。查看详情：https://ourl.co/113112&lt;/p&gt;&lt;p&gt;谷歌与欧盟委员会之间就数字市场法案 (DMA) 的合规问题拉锯战仍然在继续，如果谷歌始终无法满足欧盟委员会的监管要求和整改要求，欧盟委员会可能会对谷歌开出创纪录的罚款，当前欧盟委员会尚未对是否处罚谷歌或具体处罚金额做出最终决定。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113112.png" rel="nofollow"&gt;&lt;img alt="欧盟可能会对谷歌发起创纪录的罚款 原因是谷歌搜索偏袒自家服务" data-src="https://img.landian.news/landian/2026/05/113112.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113112.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;例如对于现有解析记录 www.landian.news 是通过 A 记录解析到 127.0.0.1 的，在旧版本中用户可以直接将 A 记录修改为 CNAME 记录并填写新的解析内容 cdn.landian.news，在新版本中这种操作被弃用，相同解析类型可以直接修改解析值，但不同解析类型必须先删除再添加。&lt;/p&gt;
-&lt;p&gt;这里面会牵涉到用户操作的延迟问题：对于需要切换大量解析条目的情况，用户可能需要先截图或导出 DNS 记录，然后再逐条删除记录重新添加，而删除记录也会短暂地被传播到 DNS 直到用户添加新解析记录后再重新传播到 DNS。&lt;/p&gt;
-&lt;p&gt;因此对于关键业务来说用户执行 DNS 解析切换时需要尽可能地快，例如删除记录 20 秒内就立即创建新记录 (并完成创建)，这样可以确保业务端访问不会中断，当然也可以提前设置更长的 TTL 生存时间确保更换解析时不会中断，但更长的 TTL 意味着新解析记录生效时间也会被拉长。&lt;/p&gt;
+&lt;p&gt;谷歌因为在谷歌搜索结果中偏袒自家服务已经引起诸多反垄断调查，例如以前谷歌搜索酒店等服务时谷歌会优先推荐自家的服务，对其他服务提供商而言谷歌的行为就是在利用自己在搜索引擎市场的垄断地位进行不公平竞争，这显然不利于市场合理竞争和发展。&lt;/p&gt;
+&lt;p&gt;欧盟委员会也同样认为谷歌在搜索结果中偏袒自家服务属于违法行为，根据欧盟数字市场法案的规定，谷歌搜索作为搜索引擎领域的守门人，必须严格按照法案规定实施公平竞争，这种偏袒自家服务的行为显然是欧盟不能接受的，所以欧盟此前已经对谷歌的这种行为发起调查并在 2025 年对谷歌提起反垄断诉讼。&lt;/p&gt;
+&lt;p&gt;欧盟已经给谷歌时间要求该公司提供合理的解决方案并解决违规行为，只不过谷歌提供的解决方案并未满足欧盟委员会的要求，所以欧盟也给谷歌提供更长时间来提交新的解决方案，但如果解决方案仍然无法让欧盟满意的话，最终结果就是欧盟将对谷歌处以巨额罚款。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Cloudflare DNS 修改解析类型的底层原理是先删除后添加，也就是以前用户虽然可以直接修改解析类型，但本质上是 Cloudflare 在后台执行的先删除再添加操作，主要是对于相同解析名称 DNS 系统不允许同时存在诸如 A 和 CNAME 等互斥记录。&lt;/p&gt;
-&lt;p&gt;Cloudflare 为确保与正确的 DNS 语义保持一致并降低运维风险，最终决定直接弃用原地 DNS 记录类型的更改，这项更改也不仅影响 DNS 管理界面，同时也会影响 API 操作，也就是现有的支持通过 API 原地切换解析类型的应用后续也会被停止支持。&lt;/p&gt;
-&lt;p&gt;根据计划 API 方面的原地切换解析类型将在 2026 年 6 月 30 日被弃用，到时候如果用户仍然通过 API 操作将会抛出错误，最终还是要回到先删除原有记录再重新添加新记录的路子。&lt;/p&gt;
-&lt;p&gt;API 弃用公告：&lt;a href="https://www.landian.news/go?url=https://developers.cloudflare.com/fundamentals/api/reference/deprecations/" rel="noopener" target="_blank"&gt;https://developers.cloudflare.com/fundamentals/api/reference/deprecations/&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 26 May 2026 04:43:14 +0000</pubDate></item></channel></rss>
+&lt;p&gt;德国商报发布的报道称，如果谷歌未能落实欧盟监管机构要求的整改措施，则欧盟最终会以违反数字市场法案为由对谷歌罚款，而当前欧盟委员会主要官员都支持对谷歌进行罚款以敦促谷歌改正违法行为，但最终处罚还需要等待欧盟委员会主席乌尔苏拉·冯德莱恩做决定，而最终决定可能会在夏末公布。&lt;/p&gt;
+&lt;p&gt;欧盟发言人在接受路透社采访时表示，该机构更关注的是确保谷歌遵守相关决定而不是对谷歌处以巨额罚款，但即便欧盟正在就未来的解决方案进行谈判时，欧盟也会同时做好最坏打算也就是准备其他措施应对可能的谈判失败问题。&lt;/p&gt;
+&lt;p&gt;谷歌官方发言人则表示谷歌搜索若根据数字市场法案进行更改则会导致欧洲用户无法获得最佳体验，因为这些更改可能会导致谷歌搜索体验大幅度下降。&lt;/p&gt;
+</description><pubDate>Wed, 27 May 2026 05:26:24 +0000</pubDate></item><item><title>Mozilla Firefox v151.0.2错误修复版发布 解决使用搜狗输入法时浏览器崩溃</title><link>https://www.landian.news/archives/113111.html</link><description>
+&lt;p&gt;#软件资讯 Mozilla Firefox v151.0.2 版发布，该版本已修复火狐浏览器 + 搜狗输入法出现的异常崩溃问题，使用以上组合的用户建议立即更新。本次更新还修复多种已知问题，新版本已经通过火狐 FTP 服务器提供，用户可以下载安装包手动升级。下载地址：https://ourl.co/113111&lt;/p&gt;&lt;p&gt;谋智基金会日前推出火狐浏览器 v151 系列的新错误修复版本，近期火狐浏览器改动较大所以产生的各类问题也比较多，所以这种错误修复版本发布频率较高并且更新内容较多，使用火狐浏览器的用户在安装或维护服务以便浏览器可以启动自动更新减少用户更新时的麻烦。&lt;/p&gt;
+&lt;p&gt;此次更新对于使用火狐浏览器的中文用户来说可能还是挺重要的，因为使用搜狗输入法的话可能导致火狐浏览器崩溃，如果你使用火狐浏览器 + 搜狗输入法则可以立即升级新版本，避免后续在撰写内容时浏览器突然崩溃导致数据丢失。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113111.png" rel="nofollow"&gt;&lt;img alt="Mozilla Firefox v151.0.2错误修复版发布 解决使用搜狗输入法时浏览器崩溃" data-src="https://img.landian.news/landian/2026/05/113111.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113111.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 下面是 Firefox v151.0.2 版错误修复日志：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;本次更新已修复 Firefox for macOS 的智能卡和硬件安全密钥可能无法自动加载证书的问题。&lt;/li&gt;
+&lt;li&gt;本次更新已修复从现有拆分视图 (即浏览器分屏功能) 中添加新标签页可能会意外关闭拆分视图的问题。&lt;/li&gt;
+&lt;li&gt;本次更新已修复从地址栏使用切换到标签页选项时，分屏视图会意外关闭而不是正常切换的问题。&lt;/li&gt;
+&lt;li&gt;本次更新已修复 Firefox for Windows 在使用搜狗输入法输入内容时，浏览器异常发生崩溃的问题。&lt;/li&gt;
+&lt;li&gt;本次更新已修复火狐浏览器在磁盘已满时停止缓存新功能，这导致每次访问都需要重新加载资源。&lt;/li&gt;
+&lt;li&gt;本次更新已修复某些网站使用 JavaScript 插入 WebKit 特定样式规则可能导致渲染错误或无法加载的问题。&lt;/li&gt;
+&lt;li&gt;本次更新已修复在某些 CSS 样式规则设置的页面，点击和选择某些输入字段或文本可能不起作用。&lt;/li&gt;
+&lt;li&gt;本次更新已修复当网站调整数字输入字段大小进行内容适应时，部分按钮可能会重叠并隐藏值的问题。&lt;/li&gt;
+&lt;li&gt;本次更新已修复在某些网站或 PWA 应用中对包含数字的字符串进行排序时，可能出现错误排序。&lt;/li&gt;
+&lt;li&gt;本次更新已修复在 iframe 框架中创建 select 元素并将其移动到父页面后，下拉菜单无法打开的问题。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;对于现有的火狐浏览器用户可以转到关于页面进行增量更新，不过新版本正在逐渐推送中，部分用户可能因为未收到推送而检查不到更新，这时候用户也可以通过火狐浏览器的 FTP 服务器下载最新安装包执行手动升级。&lt;/p&gt;
+&lt;p&gt;有需要的用户请访问 Firefox FTP 服务器：&lt;a href="https://www.landian.news/go?url=https://ftp.mozilla.org/pub/firefox/releases/151.0.2/" rel="noopener" target="_blank"&gt;https://ftp.mozilla.org/pub/firefox/releases/151.0.2/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;注：win64 代表常规的 x64 版，win64-aarch64 代表 ARM64 版，这两种架构不兼容所以下载错误将无法安装。&lt;/em&gt;&lt;/p&gt;
+</description><pubDate>Wed, 27 May 2026 05:03:13 +0000</pubDate></item></channel></rss>
