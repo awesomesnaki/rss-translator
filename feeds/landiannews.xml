@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 27 May 2026 07:53:37 +0000</lastBuildDate><item><title>阿里云百炼平台Qwen3.7-Max默认开启隐式缓存 命中缓存后成本约为20%</title><link>https://www.landian.news/archives/113115.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 27 May 2026 08:35:24 +0000</lastBuildDate><item><title>GitHub安全团队(GHSL)公布7-Zip高危漏洞和概念验证 漏洞已在26.01版中修复</title><link>https://www.landian.news/archives/113116.html</link><description>
+&lt;p&gt;#软件资讯 GitHub 安全团队公布开源压缩管理器 7-Zip 中的高危安全漏洞，攻击者利用特制 NTFS 镜像诱导用户解压可造成任意代码执行。该漏洞已经在 4 月 27 日发布的 v26.01 版中修复，在修复 1 个月后 GHSL 团队公布漏洞详情和概念验证代码，用户则需要尽快升级新版本。下载地址：https://ourl.co/113116&lt;/p&gt;&lt;p&gt;GHSL 团队日前&lt;a href="https://www.landian.news/go?url=https://securitylab.github.com/advisories/GHSL-2026-140_7-Zip/" rel="noopener" target="_blank"&gt;披露&lt;/a&gt;流行的开源压缩管理器 7-Zip 中存在的高危安全漏洞，该漏洞在 2026 年 4 月被发现后已经提交给开发者进行修复，用户需要升级到 7-Zip v26.01 版确保安全，因为攻击者可以使用特制压缩包诱导用户打开并利用漏洞触发任意代码执行或导致压缩管理器崩溃。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113116.png" rel="nofollow"&gt;&lt;img alt="GitHub安全团队(GHSL)公布7-Zip高危漏洞和概念验证 漏洞已在26.01版中修复" data-src="https://img.landian.news/landian/2026/05/113116.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113116.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;该漏洞最初由 GHSL 团队的安全研究员发现，漏洞影响 v26.00 及以前的所有版本，漏洞类型为堆缓冲区溢出，漏洞评分为 8.8 分 (高危级别)，最严重的后果是攻击者可以使用特制的 NTFS 镜像触发缓冲区溢出，随后使用虚表劫持实现任意代码执行。&lt;/p&gt;
+&lt;p&gt;漏洞原理是 7-Zip 在处理 NTFS 格式的压缩镜像文件时，GetCuSize () 函数存在计算问题，当攻击者构造特殊的 NTFS 镜像并让 BlockSizeLog = 28 + CompressionUnit = 4 时，计算结果变成 1 &amp;lt;&amp;lt; 32 (左移 32 位)，这在 32 位整数中属于未定义行为，实际运行时通常变成 1 (只分配 1 字节内存)。&lt;/p&gt;
+&lt;p&gt;而后续代码却认为这个缓冲区应该有 256MB 大小，直接向这个 1 字节内存中写入 256MB 攻击者数据从而触发堆溢出，攻击者可以构造 NTFS 镜像文件 (.NTFS、.IMG 甚至伪装为.7z 或.ZIP 等任意后缀) 并诱导用户使用 7-Zip 解压文件即可触发漏洞。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;7-Zip 本身不自带更新功能，完全依赖于用户自行下载或通过各类软件商店获取新版本并升级，因此使用 7-Zip 的用户请务必及时升级新版本，同时不要打开来历不明的压缩文件，尤其是 NTFS 或 IMG 格式的镜像文件，避免攻击者通过互联网或电子邮件等进行钓鱼。&lt;/p&gt;
+&lt;p&gt;官方下载地址：&lt;a href="https://www.landian.news/go?url=https://www.7-zip.org/download.html" rel="noopener" target="_blank"&gt;https://www.7-zip.org/download.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;蓝点网文件服务器：&lt;a href="https://www.landian.news/go?url=https://dl.landian.news/?dir=soft/7zip" rel="noopener" target="_blank"&gt;https://dl.landian.news/?dir=soft/7zip&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 27 May 2026 08:35:24 +0000</pubDate></item><item><title>阿里云百炼平台Qwen3.7-Max默认开启隐式缓存 命中缓存后成本约为20%</title><link>https://www.landian.news/archives/113115.html</link><description>
 &lt;p&gt;#人工智能 阿里云百炼平台为 Qwen3.7-Max 模型默认开启隐式缓存，在不增加额外创建成本的情况下，命中缓存后成本为 20%。默认开启隐式缓存有助于降低开发者的实际调用成本，但隐式缓存命中率是完全不确定的，因此其效果不如显式缓存，开发者可以根据实际场景进行调整。查看详情：https://ourl.co/113115&lt;/p&gt;&lt;p&gt;阿里云通义千问团队日前宣布在百炼模型调用平台为阿里云旗舰模型 Qwen3.7-Max 默认开启隐式缓存，隐式缓存功能在默认开启后无法关闭，在实际使用时可以降低模型调用成本，命中隐式缓存的情况下模型实际调用价格为输入单价的 20%。按照当前 Qwen3.7-Max 输入价 12 元计算，在命中隐式缓存的情况下实际价格为 2.4 元。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113115.png" rel="nofollow"&gt;&lt;img alt="阿里云百炼平台Qwen3.7-Max默认开启隐式缓存 命中缓存后成本约为20%" data-src="https://img.landian.news/landian/2026/05/113115.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113115.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -17,7 +28,6 @@
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;隐式缓存的命中逻辑是判断不同请求的前缀是否存在重复内容，如果存在重复内容则可能可以命中缓存，因此为提高缓存命中率请将重复内容放在提示词的开头，将任何差异内容放在提示词的结尾部分，这样有助于提高隐式缓存的整体命中率并降低实际调用成本。&lt;/p&gt;
 &lt;p&gt;此次阿里云百炼平台为 Qwen3.7-Max 模型默认开启隐式缓存，但阿里云提供的其他模型 (包括其他 AI 公司的模型) 也陆续支持隐式缓存，具体价格以模型类型和提供方不同存在差异，开发者需要前往百炼控制台切换不同的模型查看价格。&lt;/p&gt;
-&lt;p&gt;PS：深度求索 API 平台调用 DeepSeek V4 Pro 命中缓存的情况下可节省 99.17%。&lt;/p&gt;
 </description><pubDate>Wed, 27 May 2026 07:53:37 +0000</pubDate></item><item><title>小米宣布下调MiMo-V2.5模型定价 对标深度求索DSV4系列模型的API价格</title><link>https://www.landian.news/archives/113114.html</link><description>
 &lt;p&gt;#人工智能 小米宣布下调 MiMo-V2.5 模型 API 调用价格，百万输出 6 元直接对标 DSV4 系列模型，此次调整涉及大幅度降价以及不再区分 256K/1M 长度价格。同时小米还对 Token Plan 订阅计划进行调整，价格没变但实际可以获得的用量也大幅度提升，订阅方案现在也改成信用点模式。查看详情：https://ourl.co/113114&lt;/p&gt;&lt;p&gt;小米人工智能团队日前宣布对 MiMo-V2.5 系列模型定价进行调整，此次调整主要是大幅度降低模型实际调用价格，&lt;a href="https://www.landian.news/archives/113049.html" rel="noopener" target="_blank"&gt;调整后的价格与深度求索的 DSV4 系列模型价格相同&lt;/a&gt;，可以看出来小米这波应该主要就是对标深度求索 API 调用价格来调整的。&lt;/p&gt;
 &lt;p&gt;调整后该系列模型也不再按照长度进行区分定价，也就是无论长度是否超出 256K 都采用相同的定价，目前新价格已经在 2026 年 5 月 27 日 0 点生效，现在调用 MiMo-V2.5 系列模型就是按照最新调整后的价格来计算的，使用小米模型 API 平台的用户可以关注下后续用量账单。&lt;/p&gt;
@@ -63,24 +73,4 @@
 &lt;p&gt;德国商报发布的报道称，如果谷歌未能落实欧盟监管机构要求的整改措施，则欧盟最终会以违反数字市场法案为由对谷歌罚款，而当前欧盟委员会主要官员都支持对谷歌进行罚款以敦促谷歌改正违法行为，但最终处罚还需要等待欧盟委员会主席乌尔苏拉·冯德莱恩做决定，而最终决定可能会在夏末公布。&lt;/p&gt;
 &lt;p&gt;欧盟发言人在接受路透社采访时表示，该机构更关注的是确保谷歌遵守相关决定而不是对谷歌处以巨额罚款，但即便欧盟正在就未来的解决方案进行谈判时，欧盟也会同时做好最坏打算也就是准备其他措施应对可能的谈判失败问题。&lt;/p&gt;
 &lt;p&gt;谷歌官方发言人则表示谷歌搜索若根据数字市场法案进行更改则会导致欧洲用户无法获得最佳体验，因为这些更改可能会导致谷歌搜索体验大幅度下降。&lt;/p&gt;
-</description><pubDate>Wed, 27 May 2026 05:26:24 +0000</pubDate></item><item><title>Mozilla Firefox v151.0.2错误修复版发布 解决使用搜狗输入法时浏览器崩溃</title><link>https://www.landian.news/archives/113111.html</link><description>
-&lt;p&gt;#软件资讯 Mozilla Firefox v151.0.2 版发布，该版本已修复火狐浏览器 + 搜狗输入法出现的异常崩溃问题，使用以上组合的用户建议立即更新。本次更新还修复多种已知问题，新版本已经通过火狐 FTP 服务器提供，用户可以下载安装包手动升级。下载地址：https://ourl.co/113111&lt;/p&gt;&lt;p&gt;谋智基金会日前推出火狐浏览器 v151 系列的新错误修复版本，近期火狐浏览器改动较大所以产生的各类问题也比较多，所以这种错误修复版本发布频率较高并且更新内容较多，使用火狐浏览器的用户在安装或维护服务以便浏览器可以启动自动更新减少用户更新时的麻烦。&lt;/p&gt;
-&lt;p&gt;此次更新对于使用火狐浏览器的中文用户来说可能还是挺重要的，因为使用搜狗输入法的话可能导致火狐浏览器崩溃，如果你使用火狐浏览器 + 搜狗输入法则可以立即升级新版本，避免后续在撰写内容时浏览器突然崩溃导致数据丢失。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113111.png" rel="nofollow"&gt;&lt;img alt="Mozilla Firefox v151.0.2错误修复版发布 解决使用搜狗输入法时浏览器崩溃" data-src="https://img.landian.news/landian/2026/05/113111.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113111.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; 下面是 Firefox v151.0.2 版错误修复日志：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;本次更新已修复 Firefox for macOS 的智能卡和硬件安全密钥可能无法自动加载证书的问题。&lt;/li&gt;
-&lt;li&gt;本次更新已修复从现有拆分视图 (即浏览器分屏功能) 中添加新标签页可能会意外关闭拆分视图的问题。&lt;/li&gt;
-&lt;li&gt;本次更新已修复从地址栏使用切换到标签页选项时，分屏视图会意外关闭而不是正常切换的问题。&lt;/li&gt;
-&lt;li&gt;本次更新已修复 Firefox for Windows 在使用搜狗输入法输入内容时，浏览器异常发生崩溃的问题。&lt;/li&gt;
-&lt;li&gt;本次更新已修复火狐浏览器在磁盘已满时停止缓存新功能，这导致每次访问都需要重新加载资源。&lt;/li&gt;
-&lt;li&gt;本次更新已修复某些网站使用 JavaScript 插入 WebKit 特定样式规则可能导致渲染错误或无法加载的问题。&lt;/li&gt;
-&lt;li&gt;本次更新已修复在某些 CSS 样式规则设置的页面，点击和选择某些输入字段或文本可能不起作用。&lt;/li&gt;
-&lt;li&gt;本次更新已修复当网站调整数字输入字段大小进行内容适应时，部分按钮可能会重叠并隐藏值的问题。&lt;/li&gt;
-&lt;li&gt;本次更新已修复在某些网站或 PWA 应用中对包含数字的字符串进行排序时，可能出现错误排序。&lt;/li&gt;
-&lt;li&gt;本次更新已修复在 iframe 框架中创建 select 元素并将其移动到父页面后，下拉菜单无法打开的问题。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;对于现有的火狐浏览器用户可以转到关于页面进行增量更新，不过新版本正在逐渐推送中，部分用户可能因为未收到推送而检查不到更新，这时候用户也可以通过火狐浏览器的 FTP 服务器下载最新安装包执行手动升级。&lt;/p&gt;
-&lt;p&gt;有需要的用户请访问 Firefox FTP 服务器：&lt;a href="https://www.landian.news/go?url=https://ftp.mozilla.org/pub/firefox/releases/151.0.2/" rel="noopener" target="_blank"&gt;https://ftp.mozilla.org/pub/firefox/releases/151.0.2/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;注：win64 代表常规的 x64 版，win64-aarch64 代表 ARM64 版，这两种架构不兼容所以下载错误将无法安装。&lt;/em&gt;&lt;/p&gt;
-</description><pubDate>Wed, 27 May 2026 05:03:13 +0000</pubDate></item></channel></rss>
+</description><pubDate>Wed, 27 May 2026 05:26:24 +0000</pubDate></item></channel></rss>
