@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Mon, 25 May 2026 23:57:24 +0000</lastBuildDate><item><title>[赞助商] exe.dev</title><link>https://exe.dev/?df</link><description>&lt;p&gt;为智能体时代打造的云。使用&lt;a href="https://exe.dev/?df"&gt;exe.dev&lt;/a&gt;默认获取一组包含SSH、root权限和网页认证的虚拟机。在网络边缘注入的密钥不会落入LLM之手。持久化服务器、内部工具、vibe coding、一次性开发箱，随便什么。它只是一台计算机。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Thu, 28 May 2026 14:11:03 +0000</lastBuildDate><item><title>研究人员发布通过分析网页访问者SSD活动来监视他们的方法</title><link>https://arstechnica.com/security/2026/05/websites-have-a-new-way-to-spy-on-visitors-analyzing-their-ssd-activity/</link><description>&lt;p&gt;丹·古丁，为Ars Technica报道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这项技术在一篇&lt;a href="https://hannesweissteiner.com/pdfs/frost.pdf"&gt;研究论文&lt;/a&gt;中阐述，利用了一种
+&lt;a href="https://en.wikipedia.org/wiki/Side-channel_attack"&gt;侧信道&lt;/a&gt;——这是一种因物理表现（如电磁辐射、数据缓存或完成任务所需时间）而导致的泄漏形式。通过测量这些表现，攻击者可以解密加密流量并推断其他机密数据。[...]&lt;/p&gt;
+&lt;p&gt;论文作者写道：“网络浏览器已从简单的文档查看器演变为能够运行复杂应用的复杂平台。谷歌、微软和Adobe等公司开发了完全在浏览器内运行的全功能办公套件、照片和视频编辑器，甚至集成开发环境（IDE）。作者进一步指出：“虽然这些功能增强了网络应用的能力，并实现了全新的用例，但也增加了浏览器的攻击面，其中一些已被证明会引入新的漏洞。”&lt;/p&gt;
+&lt;p&gt;与以往针对SSD的竞争侧信道攻击不同，FROST完全在浏览器中运行。它使用JavaScript与&lt;a href="https://developer.mozilla.org/en-US/docs/Web/API/File_System_API/Origin_private_file_system"&gt;OPFS&lt;/a&gt;（源私有文件系统）交互，这是为特定站点预留的存储空间，用于运行完成给定任务所需的代码。网站可以在无需访问者交互的情况下创建这样的存储空间。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;正如我&lt;a href="https://daringfireball.net/linked/2025/01/18/google-search-javascript"&gt;多次&lt;/a&gt;&lt;a href="https://daringfireball.net/2026/03/your_frustration_is_the_product"&gt;提到&lt;/a&gt;&lt;a href="https://daringfireball.net/linked/2026/03/19/hacker-news-49mb-web-page"&gt;的&lt;/a&gt;那样，JavaScript对网络来说是一个可怕的错误。一个网页可以访问本地存储空间，这简直荒谬至极。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/05/28/surveil-web-page-visitors-by-analyzing-ssd-activity" title="永久链接：‘研究人员发布通过分析SSD活动监视网页访问者的方法’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Thu, 28 May 2026 14:11:03 +0000</pubDate></item><item><title>[赞助商] exe.dev</title><link>https://exe.dev/?df</link><description>&lt;p&gt;为智能体时代打造的云。使用&lt;a href="https://exe.dev/?df"&gt;exe.dev&lt;/a&gt;默认获取一组包含SSH、root权限和网页认证的虚拟机。在网络边缘注入的密钥不会落入LLM之手。持久化服务器、内部工具、vibe coding、一次性开发箱，随便什么。它只是一台计算机。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/feeds/sponsors/2026/05/exedev" title="永久链接到‘exe.dev’"&gt; ★ &lt;/a&gt;
 </description><pubDate>Mon, 25 May 2026 23:57:24 +0000</pubDate></item><item><title>授予杰伊·海因斯因其预测苹果市值达到3万亿美元的正确点数。</title><link>https://daringfireball.net/linked/2014/01/29/haynes-aapl</link><description>&lt;p&gt;这里有个有趣的。早在2014年，&lt;a href="https://daringfireball.net/linked/2014/01/29/haynes-aapl"&gt;我链接到杰伊·海恩斯的一篇文章&lt;/a&gt;，他在其中预测，按照非常合理的年增长率，苹果应该在10年内达到3万亿美元的市值。在他写作时，苹果的市值“仅”为4500亿美元，还没有一家公司达到1万亿美元市值。因此，预测10年内达到3万亿美元估值是一个大胆的预测。&lt;/p&gt;
 &lt;p&gt;苹果在短短&lt;a href="https://www.nytimes.com/2022/01/03/technology/apple-3-trillion-market-value.html"&gt;8年内&lt;/a&gt;就达到了3万亿美元。&lt;/p&gt;
@@ -26,11 +35,4 @@
 &lt;/blockquote&gt;
 &lt;p&gt;奥里克·金手指（Auric Goldfinger）在九泉之下一定不得安宁。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/05/25/trump-mobile-preorders" title="永久链接：‘特朗普手机网站泄露了预购数量——包括已完成和已放弃的订单——以及相关的客户信息’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 25 May 2026 18:54:37 +0000</pubDate></item><item><title>“OK”的历史</title><link>https://www.merriam-webster.com/wordplay/the-hilarious-history-of-ok-okay</link><description>&lt;p&gt;梅里亚姆-韦伯斯特：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;19世纪20年代和30年代与当今共享另一种语言潮流：对故意拼写错误的欣赏。（酷吧，对吧？）这一趋势让幽默作家扮演如今令人尴尬的乡巴佬角色，通过不规范的拼写来表现无知，将&lt;em&gt;no go&lt;/em&gt;变成&lt;em&gt;know go&lt;/em&gt;，将&lt;em&gt;no use&lt;/em&gt;变成&lt;em&gt;know yuse&lt;/em&gt;（哈哈）。缩写也未能幸免，&lt;em&gt;no go&lt;/em&gt;变成了&lt;em&gt;K.G.&lt;/em&gt;。同样地，&lt;em&gt;all right&lt;/em&gt;变成了&lt;em&gt;O.W.&lt;/em&gt;，作为&lt;em&gt;oll wright&lt;/em&gt;的缩写。而&lt;em&gt;all correct&lt;/em&gt;则变成了&lt;em&gt;o.k.&lt;/em&gt;，作为&lt;em&gt;oll korrect&lt;/em&gt;的缩写。&lt;/p&gt;
-&lt;p&gt;尽管&lt;em&gt;OK&lt;/em&gt;成为最常用的首字母缩写词之一，但如果不是1840年的总统选举，它可能随着这股语言潮流的消退而被遗忘。当时，马丁·范布伦因其家乡纽约州金德胡克而获得“老金德胡克”的绰号。加入全国性“OK俱乐部”的范布伦&lt;a href="https://www.merriam-webster.com/words-at-play/stan-obsessed-fan-origin-meaning"&gt;铁粉&lt;/a&gt;宣称他们自己就是“OK”。那次竞选活动令人难忘，不仅普及了这个词，还篡改了它的起源故事：今天仍然有人相信“老金德胡克”是&lt;em&gt;OK&lt;/em&gt;的原始含义。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;我强烈偏好使用&lt;em&gt;OK&lt;/em&gt;（或许受到了&lt;a href="http://interface.free.fr/Archives/Apple_HIGuidelines.pdf#page=231"&gt;经典Macintosh人机界面指南&lt;/a&gt;对拼写坚持的影响）。&lt;em&gt;Okay&lt;/em&gt;在散文中可以接受，但绝不能作为UI按钮标签。&lt;em&gt;Ok&lt;/em&gt;和&lt;em&gt;ok&lt;/em&gt;则不行。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/05/25/the-history-of-ok" title="永久链接至‘OK的历史’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 25 May 2026 17:18:56 +0000</pubDate></item></channel></rss>
+</description><pubDate>Mon, 25 May 2026 18:54:37 +0000</pubDate></item></channel></rss>
