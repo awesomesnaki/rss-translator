@@ -1,61 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 28 May 2026 02:00:19 +0000</lastBuildDate><item><title>100美元版ChatGPT Pro 10倍配额活动将在5月31日结束 开发者们正在呼吁延长活动</title><link>https://www.landian.news/archives/113142.html</link><description>
-&lt;p&gt;#人工智能 100 美元版 ChatGPT Pro Codex 10 倍配额活动将在 5 月 31 日结束，开发者们正在呼吁 OpenAI 继续延续该活动。100 美元版标准配额为 5x，此前的活动是双倍配额也就是 10x，从 6 月 1 日开始将恢复为 5x。200 美元版每周配额仍然是 20x (这是永久的)，但 5 小时配额会从 25x 恢复为 20x。查看详情：https://ourl.co/113142&lt;/p&gt;&lt;p&gt;此前 OpenAI 推出中间档订阅 ChatGPT Pro 100 美元版，该版本主要用作 20 美元版 ChatGPT Plus 和 200 美元版 ChatGPT Pro 的过渡，让用量不是特别大的开发者可以通过订阅 100 美元版满足使用需求，当然对开发者而言主要还是使用 Codex 而非 ChatGPT 本身。&lt;/p&gt;
-&lt;p&gt;作为庆祝活动，&lt;a href="https://www.landian.news/archives/112594.html" rel="noopener" target="_blank"&gt;100 美元版刚推出时 OpenAI 带来双倍配额活动&lt;/a&gt;，原本 100 美元版配额基准为 5x (Plus 为 1x)，双倍配额活动也就是 10x，这个活动到 2026 年 5 月 31 日结束，所以从 6 月开始使用 ChatGPT Pro 的开发者可能就会注意到配额消耗过快以及不够用等问题。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113142.png" rel="nofollow"&gt;&lt;img alt="100美元版ChatGPT Pro 10倍配额活动将在5月31日结束 开发者们正在呼吁延长活动" data-src="https://img.landian.news/landian/2026/05/113142.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113142.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 28 May 2026 07:16:36 +0000</lastBuildDate><item><title>另类供应链攻击？每月下载量超10万次的CodexUI Android会窃取用户凭证</title><link>https://www.landian.news/archives/113149.html</link><description>
+&lt;p&gt;#安全资讯 每月下载量超过 10 万次的 CodexUI Android 开源项目暗藏恶意代码，会窃取 Codex 身份验证令牌，完全无法理解这名开发者的意图。该项目在 GitHub 上的开源仓库没问题，但发布到 NPM 和 Google Play 的包暗藏恶意代码，这名开发者名下还有下载量超过 500 万次的安卓游戏，所以这投毒是闹哪样。查看详情：https://ourl.co/113149&lt;/p&gt;&lt;p&gt;近期 NPM 生态系统发生多起供应链攻击，通常此类攻击都是开发者不慎泄露凭证后黑客利用凭证操纵账户发布恶意版本，但现在出现了新的让人有些匪夷所思的攻击：NPM 软件包 &lt;a href="https://www.landian.news/go?url=https://www.npmjs.com/package/codexui-android" rel="noopener" target="_blank"&gt;CodexUI Android&lt;/a&gt; 会主动窃取用户的 Codex 凭证，至于用途则可能是用来窃取其他私密信息或者利用凭证转卖使用配额。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src="https://img.landian.news/landian/2026/05/113149.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113149.png"/&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;对于 100 美元版的 ChatGPT Pro 订阅用户，Codex 实际配额会恢复为标准配额也就是 5x，无论是 5 小时配额还是每周配额都会相较于当前缩减 50%，所以如果开发者按照以往使用节奏就会很容易触发限额需要等待正常的重置周期，或者开发者可以升级 200 美元版的 ChatGPT Pro 订阅。&lt;/p&gt;
-&lt;p&gt;对于 200 美元版的 ChatGPT Pro 订阅用户，200 美元版每周配额始终都是 20x，不过 5 小时配额会从 25x 降低到 20x，也就是多出的 5x 优惠活动也会从 6 月份开始结束，开发者可能会注意到 5 小时配额有所降低，但毕竟还有 20x 配额所以实际用量还是非常大的。&lt;/p&gt;
-&lt;p&gt;这些活动对 ChatGPT Plus 没有任何影响，因为本身 ChatGPT Plus 就没有获得这些特别福利，所以使用 Plus 的用户按照当前节奏使用不会有任何区别。&lt;/p&gt;
+&lt;p&gt;CodexUI Android 主要为用户提供 Codex 远程界面，该项目本身是开源的拥有真实的开源仓库以及正在积极开发中，软件包本身每月下载量近 11 万次，然而从 4 月份开始 CodexUI Android 的每次调用都会悄悄将用户身份验证令牌发送到攻击者控制的服务器。&lt;/p&gt;
+&lt;p&gt;可能是为了避免被社区发现，该项目的开发者在开源仓库中公布的代码不含恶意代码，而发布在其他平台例如 NPM 的版本却包含恶意代码，只要用户安装并验证身份开始使用时，恶意代码就会将身份验证令牌发送到 sentry.anyclaw.store 中存储。&lt;/p&gt;
+&lt;p&gt;但由于项目开发者在 NPM 包中忘记删除 sourcemap 文件，导致安全研究人员可以通过该文件了解整个项目以及发现恶意代码，恶意代码被藏在 chunk-PUR70UAG.js 中，这个脚本会在模块加载时自动运行，没有函数调用、没有条件判断、也不需要用户进行任何交互。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在 X/Twitter 上已经有部分开发者开始呼吁 OpenAI 继续延续 100 美元版 ChatGPT Pro 订阅的双倍配额活动，对大部分已经习惯使用 10x 配额的开发者来说，接下来降到 5x 后会非常难受，而直接开通 200 美元版着实有些贵，要是 OpenAI 能延续活动自然是极好的。&lt;/p&gt;
-&lt;p&gt;但现在萨姆&lt;strong&gt;·&lt;/strong&gt;奥尔特曼和 Codex 产品经理 Tibo 都还没有就这事儿发布任何回应，所以到本月底活动能不能延续还需要观察。&lt;/p&gt;
-</description><pubDate>Thu, 28 May 2026 02:00:19 +0000</pubDate></item><item><title>开源阅读(小说聚合阅读器)开发者因侵犯著作权被判刑2年 当前应该已经出狱</title><link>https://www.landian.news/archives/113119.html</link><description>
-&lt;p&gt;#行业资讯 开源阅读 (小说聚合阅读器) 开发者因侵犯著作权罪被判刑 2 年，这件事在 3 月份曾有过相关报道，不过昨天开源阅读项目主页发布更新公告。在更新公告中开发者称项目涉及侵权以及开发者已经承担相应法律责任，从时间上看开发者葛某某当前应该已经出狱。查看详情：https://ourl.co/113119&lt;/p&gt;&lt;p&gt;开源阅读 (软件名：开源阅读 / 阅读 / Legado) 项目日前更新项目发布公告，在公告中开发者称本项目涉及违法侵权行为及开发者已经承担相应的法律责任，为此发布公告宣布删除项目内容并规劝所有人立即停止侵权相关行为、不要再效仿、从事、传播各类侵权活动。&lt;/p&gt;
-&lt;p&gt;在公告中项目开发者还附上阅文集团在 2026 年 3 月发布的文章，这篇文章主要介绍阅文集团发现的涉及 4,000 部网络小说侵权案，而最终侵权方葛某某与吴某某因侵犯著作权罪分别判处有期徒刑 2 年和 1 年 9 个月，同时侵权方被没收所有违法所得并处罚金，其中葛某某主动退缴 120 万元。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113119-2.png" rel="nofollow"&gt;&lt;img alt="开源阅读(小说聚合阅读器)开发者因侵犯著作权被判刑2年 当前应该已经出狱" data-src="https://img.landian.news/landian/2026/05/113119-2.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113119-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这名开发者还在 Google Play 上发布名为 OpenClaw Codex Claude AI Agent 的应用程序，这个应用程序同样会在启动时将恶意 NPM 构建版本安装在每台设备上，最终还是被用来窃取用户的 Codex 身份验证令牌。&lt;/p&gt;
+&lt;p&gt;值得注意的是这名开发者发布的游戏 BrutalStrike 下载量超过 500 万次，评分也达到 4.8 分，所以一名正规的开发者为什么要在开源项目里投毒？这种行为被发现后势必会遭到封号，以至于开源项目可能会被删除、Google Play 开发者账户可能会被封禁，直接损失会非常大。&lt;/p&gt;
+&lt;p&gt;至于窃取的 Codex 身份令牌，不知道这名开发者如何利用这些令牌，可能比较直接的变现方式就是将令牌卖给 API 中转站，中转站再按照 Token 用量卖给下游用户。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://www.landian.news/go?url=https://www.aikido.dev/blog/codex-remote-ui-steals-ai-tokens" rel="noopener" target="_blank"&gt;Aikido&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Thu, 28 May 2026 07:16:36 +0000</pubDate></item><item><title>Repo Prompt软件开发者加盟OpenAI 立即终止订阅计划后续将发布开源版</title><link>https://www.landian.news/archives/113148.html</link><description>
+&lt;p&gt;#软件资讯 原生 AI 上下文工程工具 Repo Prompt 开发者已经加盟 OpenAI 开发者体验团队，Repo Prompt v2.1.32 版开始取消许可限制，后续将发布开源的社区版。遗憾的是开发者 Eric 后续将无法全心开发和维护该软件，也就是后续将依靠开源社区的力量确保 Repo Prompt 能够与时俱进。查看详情：https://ourl.co/113148&lt;/p&gt;&lt;p&gt;2024 年 7 月开发者 Eric 推出 Repo Prompt 首个版本，该软件是专门为 macOS 系统打造的原生 AI 上下文工程工具，也被部分开发者称为是 AI 智能体的上下文 IDE，主要功能则是帮助开发者高效构建高质量提示词，让大型语言模型更好地理解和处理代码库，尤其是大型仓库，避免手动复制粘贴等繁琐工作。&lt;/p&gt;
+&lt;p&gt;Repo Prompt 支持的功能包括上下文构建器、多代理编排、MCP 服务器、工作流、智能体模式等，软件本身也需要付费才能使用，不过现在 Repo Prompt 将会以开源许可证发布，因为其开发者 Eric 已经加盟 OpenAI 公司。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113148.png" rel="nofollow"&gt;&lt;img alt="Repo Prompt软件开发者加盟OpenAI 软件本身立即终止订阅计划后续将发布开源版" data-src="https://img.landian.news/landian/2026/05/113148.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113148.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;开发者 Eric 在最新发布的&lt;a href="https://www.landian.news/go?url=https://repoprompt.com/blog/repo-prompt-next-chapter/" rel="noopener" target="_blank"&gt;博客&lt;/a&gt;中透露，几个月前 OpenAI 开发者体验主管 Romain Huet 联系他并希望他加入 OpenAI 开发者体验团队，加入后 OpenAI 可以帮助 Eric 实现利用模型构建大规模应用的愿景，而在答应加盟前，Eric 提出的要求就包括确保 Repo Prompt 现有用户能得到妥善的照顾。&lt;/p&gt;
+&lt;p&gt;对于已经购买年度或终身许可证的用户，请查看邮箱，此时你可能已经收到来自 Eric 发来的邮件，不过具体是退款还是提供其他补偿暂时还不清楚，Eric 并未在博客中公布具体的说明。&lt;/p&gt;
+&lt;p&gt;后续 Repo Prompt 将发布社区版，该版本完全免费并且开源，社区版将摆脱以往的各种限制以便能够融入到大规模并行智能体编排中，而从 Repo Prompt v2.1.32 版更新开始，Repo Prompt 许可限制彻底取消，所有订阅全部终止。&lt;/p&gt;
+&lt;p&gt;遗憾的是后续 Eric 将无法再继续全心维护该软件，加盟 OpenAI 开发者体验团队后可能会从事其他工作，所以未来 Repo Prompt 社区版主要还是靠开源软件贡献，继续开发和维护这个软件。&lt;/p&gt;
+</description><pubDate>Thu, 28 May 2026 06:49:38 +0000</pubDate></item><item><title>微软安全团队发文抨击研究人员提前公开漏洞 但未回应与研究人员之间的矛盾</title><link>https://www.landian.news/archives/113147.html</link><description>
+&lt;p&gt;#行业资讯 微软威胁情报团队发文抨击研究人员提前公布漏洞，但该团队并未回应与研究人员之间的矛盾。此次博客主要针对的可能是 BitLocker 漏洞披露者 Nightmare Eclipse，这名研究人员准备在 7 月公布更多未修复的漏洞，不过微软在博客结尾强调欢迎研究人员继续负责任的通报漏洞，无论其过往互动或声誉如何都可以继续合作。查看详情：https://ourl.co/113147&lt;/p&gt;&lt;p&gt;近期有安全研究人员在微软没有修复漏洞的情况下提前公开漏洞细节和概念验证代码，&lt;a href="https://www.landian.news/archives/112922.html" rel="noopener" target="_blank"&gt;例如针对 Microsoft BitLocker 加密系统的绕过机制漏洞 (被称为 YellowKey)&lt;/a&gt;，所以现在微软威胁情报团队发布博客抨击研究人员这种不负责任的行为，不过该团队并未回应与研究人员之间的矛盾。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;开源阅读这款工具在网络小说爱好者里颇为知名，这款开源阅读器本身并不存储任何盗版文学作品数据，而是通过书源 (类似于种子) 以及从网络抓取盗版小说再转码呈现给用户，而书源则是通过葛某某开设的公众号或 QQ 群进行传播，在开发者的用心经营下，相关应用的粉丝量很快就飙升近百万。&lt;/p&gt;
-&lt;p&gt;2019 年葛某某在粉丝 QQ 群中结识吴某某，后者也在运营网络小说推荐类的公众号但遇到增长瓶颈，在了解到开源阅读粉丝量非常多后，吴某某邀请葛某某合作推广公众号和相关应用，并通过用户打赏、投放广告、引流带货等方式牟利。&lt;/p&gt;
+&lt;p&gt;2026 年 5 月 13 日，研究人员公布针对 Microsoft BitLocker 加密系统的绕过漏洞，同时研究人员还公开相关漏洞的利用程序，彼时微软尚未针对此漏洞发布安全公告以及修复程序，也就是漏洞在没有被修复的前提下被直接曝光，能够物理接触到设备的攻击者可以利用漏洞检查被加密的文件。&lt;/p&gt;
+&lt;p&gt;当时研究人员 Nightmare Eclipse 指责微软安全团队不负责，研究人员与负责接收漏洞通报并进行评级的微软安全团队出现矛盾，具体矛盾内容我们不得而知，但最终这名研究人员决定直接公开漏洞放弃微软提供的漏洞奖金，而这并不是结束，事实上这只是矛盾激化的初始阶段。&lt;/p&gt;
+&lt;p&gt;之后微软旗下的代码托管平台 GitHub 封禁这名研究人员的账号，该账号用于发布针对 Microsoft BitLocker 漏洞的概念验证程序，这直接导致矛盾被彻底激化，目前这名研究人员已经决定在 7 月份公开更多微软尚未修复的安全漏洞，这或许也是现在微软威胁情报团队发布博客的原因。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113147.png" rel="nofollow"&gt;&lt;img alt="微软安全团队发文抨击研究人员提前公开漏洞 但未回应与研究人员之间的矛盾" data-src="https://img.landian.news/landian/2026/05/113147.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113147.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;书源文件本质就是预设抓取指令的深度链接指令包，当用户导入某个书源后，开源阅读就会按照指令要求自动抓取非法盗版小说网站的目录和正文内容，在这个过程中开源阅读本身不存储任何盗版小说数据，但用户也不需要离开开源阅读应用即可直接在开源阅读内获得干净的阅读体验。&lt;/p&gt;
-&lt;p&gt;开发者认为这属于技术中立，不过检察官认为这种行为远非中立的技术提供者，葛某某主导整套侵权模式的开发策划，吴某某则为非法获利而积极传播侵权软件进行引流再进行变现，这种行为给正版市场秩序造成实质性的替代和破坏，因此危害特别巨大。&lt;/p&gt;
-&lt;p&gt;而侵权方通过设置打赏功能、投放广告、引流带货等方式非法获利超百万元，其以营利为目的的主观意图明确，最终两名被告人如实供述全部犯罪事实，其中被告人葛某某主动退缴 120 万元，吴某某退缴 20 万元。2025 年 3 月 24 日，上海市闵行区检察院依法对被告人葛某某和吴某某以涉嫌侵犯著作权罪提起公诉，2026 年 1 月 20 日，被告人葛某某被判刑 2 年，吴某某被判刑 1 年 9 个月。&lt;/p&gt;
+&lt;p&gt;微软威胁情报团队 (MSRC) 称，每年微软都会通过协调漏洞披露机制与外部安全研究人员合作，这是行业标准，要求研究人员与受影响的供应商分享漏洞，以便供应商有机会在漏洞细节被公开披露前进行修复，确保大多数用户不会受到漏洞的影响。&lt;/p&gt;
+&lt;p&gt;通过这项合作，微软还能确保研究人员因其负责任的披露漏洞而获得报酬，微软也会表彰研究人员的专业知识。然而像是 RedSun、UnDefend、YellowKey 等漏洞并未得到负责任的披露，为应对这些漏洞带来的安全风险，微软安全团队夜以继日地工作以了解漏洞并开发安全更新。&lt;/p&gt;
+&lt;p&gt;微软坚决反对这种未经适当协调的漏洞披露，因为这些披露可能损害客户和数字生态系统，未经协调的披露会将未修复漏洞的概念验证代码交给犯罪分子，这是绝对不可原谅的、并且会造成实际后果，微软的数字犯罪部门也将继续对犯罪分子及其幕后推手提起法律诉讼，微软将根据需要与世界各地的执法部门进行协调。&lt;/p&gt;
+&lt;p&gt;微软深知不可能在所有事情上都能达成一致，但微软会继续致力于保持透明和持续创造对话机会，微软安全团队也将继续支持负责任的安全研究，并快速调查、修复和发布影响客户的漏洞更新，最后微软始终欢迎任何人继续向微软通报漏洞，无论其过往互动或声誉如何。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://www.landian.news/go?url=https://www.microsoft.com/en-us/msrc/blog/2026/05/a-shared-responsibility-protecting-customers-through-coordinated-vulnerability-disclosure" rel="noopener" target="_blank"&gt;MSRC&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Thu, 28 May 2026 06:31:55 +0000</pubDate></item><item><title>A社已经下架Claude Sonnet 4.5模型(不影响API) 模型依赖症用户感到失望</title><link>https://www.landian.news/archives/113146.html</link><description>
+&lt;p&gt;#人工智能 A 社已经从 Claude 消费者端下架 Claude Sonnet 4.5 模型，部分用户发起请愿希望继续保留该模型。Claude Sonnet 4.5 个性温暖细腻适合创意、情感和长任务，所以下架后引起部分有较强依赖性的用户的不满，不过模型当前还继续在 API 端提供并至少支持到 2026 年 9 月。查看详情：https://ourl.co/113146&lt;/p&gt;&lt;p&gt;A 社在 2025 年 9 月 29 日发布 Claude Sonnet 4.5 模型，当时 A 社称该模型是世界上最好的编码模型，在 SWE、复杂代理任务、计算机使用等方面表现都非常不错，这也是 Claude 4 系列模型的主要升级版，模型发布后也被开发者和使用 AI 对话的普通用户欢迎。&lt;/p&gt;
+&lt;p&gt;不过现在该模型已经退役，通过 API 调用的开发者仍然可以继续使用该模型直到 2026 年 9 月 29 日退役，消费者端当前已经无法选择 Claude Sonnet 4.5 进行对话，提示当前模型不可用需要切换到其他模型。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113146.png" rel="nofollow"&gt;&lt;img alt="A社已经下架Claude Sonnet 4.5模型(不影响API) 模型依赖症用户感到失望" data-src="https://img.landian.news/landian/2026/05/113146.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113146.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;阅文集团发布的这篇文章还是在 2026 年 3 月，而开源阅读项目发布的公告是在昨天，判刑时间是在 2026 年 1 月 20 日，不过这起案件早在 2024 年 7 月 3 日就已经被移交检察机关审查起诉，彼时两名被告人应该早就被羁押，羁押时间会被用来抵扣监禁时间，所以从时间上看开发者葛某某应该已经出狱，所以现在才能重新访问项目并更新主页发布公告。&lt;/p&gt;
-</description><pubDate>Thu, 28 May 2026 01:30:47 +0000</pubDate></item><item><title>Claude Code更新到最新版后无法使用DS系列模型 与A社调整扩展思考模式有关</title><link>https://www.landian.news/archives/113118.html</link><description>
-&lt;p&gt;#人工智能 Claude Code v2.1.152 版使用 DS 系列模型会报 API 400 错误，问题原因是 A 社调整思考块的处理逻辑，若 API 提供方在回传时丢弃思考块内容就会报错。按照 A 社最新要求，在启用思考模式后的后续对话中应该将思考块原样回传，所以无论是过滤还是丢弃思考块都会引发错误，目前最简单的解决办法就是降级到 v2.1.150 版。查看详情：https://ourl.co/113118&lt;/p&gt;&lt;p&gt;Claude Code 日前发布 v2.1.152 版，部分用户升级到最新版后发现配置的深度求索 DS 系列模型会报错，无论使用官方 API 还是通过中转站配置的 API 都可能会报错，因此如果用户使用 Claude Code 并且使用 DS 系列模型则应该暂缓升级，已经升级的用户需要降级到 &lt;a href="https://www.landian.news/go?url=https://github.com/anthropics/claude-code/releases/tag/v2.1.150" rel="noopener" target="_blank"&gt;v2.1.150&lt;/a&gt; 版，降级后可以正常使用不会再抛出错误。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2025/07/109974.png" rel="nofollow"&gt;&lt;img alt="Claude Code更新到最新版后无法使用DS系列模型 与A社调整扩展思考模式有关" data-src="https://img.landian.news/landian/2025/07/109974.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2025/07/109974.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A 社原本计划在 2026 年 5 月 15 日就在消费者端 (Claude 桌面版、网页版和移动端等) 退役 Claude Sonnet 4.5 模型，不过后面延期到 5 月 18 日，最终则是在 5 月 26 日从 Claude 客户端的模型选择器里下架。A 社的通知方式也比较低调，主要通过训练数据页面和应用内横幅提示，并未发布官方公告。&lt;/p&gt;
+&lt;p&gt;根据 A 社的计划，API 和开发者端可以继续使用 Claude Sonnet 4.5 模型，A 社会为开发者们至少支持到 2026 年 9 月 29 日 (这是原定的最早退役日期暂时还未改动)，部分平台例如 AWS BedRock 等可能还会有遗留支持，不过后续这些平台是否也会下架 Claude Sonnet 4.5 还需要观察。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;软件版本：Claude Code v2.1.152 或后续版本&lt;/li&gt;
-&lt;li&gt;错误代码：API Error: 400 The content [].thinking in the thinking mode must be passed back to the API.&lt;/li&gt;
-&lt;li&gt;后端模型：使用 DeepSeek-V4-Flash 或 DeepSeek-V4-Pro 模型&lt;/li&gt;
-&lt;li&gt;报错场景：在开启 Thinking / Reasoning 模式 + 多轮对话 + 工具调用等场景下&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;部分用户在长期使用特定模型后会产生依赖性，Claude Sonnet 4.5 的个性比较不错，例如温暖、细腻并且适合创意、情感和长任务，这些用户将 Claude Sonnet 4.5 视为是有灵魂的模型，所以现在模型下架后用户发起请愿希望 A 社能够重新上架该模型并长期保留，相关请愿的签名已经有 2300 条。&lt;/p&gt;
+&lt;p&gt;不过模型正常更迭是在所难免的事情，此前 OpenAI 下架模型也出现过类似的事情，所以使用 Claude 的用户还是建议切换到其他模型并备份重要数据，以后要是想回味内容或者切换到其他模型也可以重新导入数据。&lt;/p&gt;
+</description><pubDate>Thu, 28 May 2026 04:11:43 +0000</pubDate></item><item><title>谷歌将在夏季推出珊瑚AI开发板 可在本地运行270M模型实现实时语音对话/翻译等</title><link>https://www.landian.news/archives/113145.html</link><description>
+&lt;p&gt;#人工智能 谷歌将在夏季推出珊瑚 AI 开发板，可在本地运行 270M 模型实现实时对话、语音对话和翻译、文本生成、音乐生成等功能。珊瑚 AI 开发板附带的 NPU 芯片可以提供 1TOPS 算力，谷歌默认采用的是 Gemma3-270M 模型，但考虑到现在内存和各类芯片的价格，估计珊瑚 AI 开发板的价格也不会低。查看详情：https://ourl.co/113145&lt;/p&gt;&lt;p&gt;据谷歌开发者团队发布的预告，谷歌将与合作伙伴 (包括 Synaptics 等) 在夏季面向开发者们推出珊瑚开发板 (CoralBoard)，这款开发板附带 NPU 芯片可以提供 1TOPS 的算力，谷歌称其可以在端侧运行谷歌开源的 Gemma3-270M 模型实现多种不同的功能，例如文本对话、实时语音对话、音乐生成等。&lt;/p&gt;
+&lt;p&gt;珊瑚开发板可以在不需要显示器的无头配置下实现强大功能，在无头配置下开发者可以从主机连接到珊瑚开发板并使用命令行进行界面完全编程和控制，如果开发者有兴趣的话也可以通过连接 MIPI 显示器进行图形化显示，例如使用 3D 打印外壳将显示器与珊瑚开发板封装做成智能小设备。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113145-1.png" rel="nofollow"&gt;&lt;img alt="谷歌将在夏季推出珊瑚AI开发板 可在本地运行270M模型实时语音翻译/文本生成/音乐生成" data-src="https://img.landian.news/landian/2026/05/113145-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113145-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113145-2.png" rel="nofollow"&gt;&lt;img alt="谷歌将在夏季推出珊瑚AI开发板 可在本地运行270M模型实时语音翻译/文本生成/音乐生成" data-src="https://img.landian.news/landian/2026/05/113145-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113145-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在 Claude Code v2.1.152 版中，A 社针对自家模型进行优化并强化思考块的处理逻辑，变更后的处理逻辑在 A 社自家模型下是没有任何问题的，而 DS 等模型对 thinking /reasoning_content 字段的返回格式和回传要求与 A 社原生模型不完全兼容，新版本在对话历史管理上更加严格因此导致 DS 等模型在回传 thinking 内容时被 API 拒绝 (报 400 错误)。&lt;/p&gt;
-&lt;p&gt;按照 A 社要求，在启用思考模式后在后续对话中必须将之前模型返回的思考块内容原样传回，因此如果将思考块内容丢弃只保留文本的话就会出错，这种情况在 API 中转站中可能更常见，部分中转站会在转发请求时只保留文本部分直接丢弃或过滤思考块，因此很容易因为兼容性而报错。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;对用户而言最简单的解决方案就是降级到 Claude Code v2.1.150 版，如果用户不需要使用思考模式的话也可以在新版本中直接禁用思考模式，禁用后同样可以恢复正常使用而不报错，不过对开发者而言思考模式还是非常重要的，所以降级到旧版本属于首选解决方案。&lt;/p&gt;
-&lt;p&gt;后续 DS 调用报错需要上游解决，例如深度求索更新 API 提供最佳兼容性，API 中转站调整策略正常回传思考块内容而不是丢弃或过滤，这些平台更新可能还需要时间，建议用户联系自己使用的 API 中转站提供方反馈错误。&lt;/p&gt;
-</description><pubDate>Thu, 28 May 2026 01:00:45 +0000</pubDate></item><item><title>微信支付开放PayPal扫码付款 初期支持美国PayPal用户扫商家码或出示付款码</title><link>https://www.landian.news/archives/113117.html</link><description>
-&lt;p&gt;#行业资讯 微信支付开放 PayPal 扫码支付，美国 PayPal/Venmo 用户在中国可以直接使用 PayPal 扫描支付微信支付的商家收款码付款，或出示 PayPal 付款码给商家设备扫码收款。初期微信支付仅支持美国地区的 PayPal 用户，微信支付后续将陆续支持更多国家或地区的 PayPal 用户。查看详情：https://ourl.co/113117&lt;/p&gt;&lt;p&gt;2025 年 7 月微信支付就宣布与全球支付机构贝宝 (PayPal) 达成合作协议，现在这些合作协议已经率先面向美国用户开放，即美区贝宝用户前往中国旅游时可以直接通过贝宝应用程序扫描微信支付商家码进行快捷支付，也可以出示贝宝的付款码给商家扫码设备进行收款。&lt;/p&gt;
-&lt;p&gt;在交易过程中微信支付向贝宝发起收款协议，贝宝则会按照付款币种与用户支付的币种进行汇率转换，例如美国用户在中国使用贝宝通过人民币支付时，用户将在贝宝里收到转换后美元账单，整个支付过程非常丝滑确保游客可以顺畅完成境外支付。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113117.png" rel="nofollow"&gt;&lt;img alt="微信支付开放PayPal扫码付款 初期支持美国PayPal用户扫商家码或出示付款码" data-src="https://img.landian.news/landian/2026/05/113117.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113117.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;按微信支付公众号所说，目前贝宝以及贝宝旗下的 Venmo 支付应用都可以在中国扫码付款，包括商场和街边小店等，因此常规的商家收款码和个人商户的经营收款码都可以使用，而普通用户的个人收款码可能无法使用，具体可能由微信支付根据系统判断能否完成跨境支付。&lt;/p&gt;
-&lt;p&gt;对商家而言接受境外游客付款时不需要更换商家收款码或收款扫码设备，现有扫码收款设备和收款码都可以直接使用，这也有助于减少境外游客支付时的摩擦，不过现阶段微信支付仅支持美国贝宝用户，微信支付接下来会陆续支持其他国家或地区的贝宝用户在中国使用贝宝扫码支付。&lt;/p&gt;
-&lt;p&gt;此前微信支付已经面向境外游客提供绑卡消费优惠，即游客可以注册微信并通过微信支付绑定维萨和万事达等国际银行卡，对于所有在微信支付里绑定国际银行卡的用户，单笔交易在 200 元以内都可以免除 3% 的外卡手续费。即日起至 2026 年 12 月 31 日，绑定国际银行卡并完成首笔消费后，未来 90 天内单日 1000 元以内交易也可以免除 3% 的外卡手续费。&lt;/p&gt;
-</description><pubDate>Thu, 28 May 2026 00:30:45 +0000</pubDate></item><item><title>GitHub安全团队(GHSL)公布7-Zip高危漏洞和概念验证 漏洞已在26.01版中修复</title><link>https://www.landian.news/archives/113116.html</link><description>
-&lt;p&gt;#软件资讯 GitHub 安全团队公布开源压缩管理器 7-Zip 中的高危安全漏洞，攻击者利用特制 NTFS 镜像诱导用户解压可造成任意代码执行。该漏洞已经在 4 月 27 日发布的 v26.01 版中修复，在修复 1 个月后 GHSL 团队公布漏洞详情和概念验证代码，用户则需要尽快升级新版本。下载地址：https://ourl.co/113116&lt;/p&gt;&lt;p&gt;GHSL 团队日前&lt;a href="https://www.landian.news/go?url=https://securitylab.github.com/advisories/GHSL-2026-140_7-Zip/" rel="noopener" target="_blank"&gt;披露&lt;/a&gt;流行的开源压缩管理器 7-Zip 中存在的高危安全漏洞，该漏洞在 2026 年 4 月被发现后已经提交给开发者进行修复，用户需要升级到 7-Zip v26.01 版确保安全，因为攻击者可以使用特制压缩包诱导用户打开并利用漏洞触发任意代码执行或导致压缩管理器崩溃。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113116.png" rel="nofollow"&gt;&lt;img alt="GitHub安全团队(GHSL)公布7-Zip高危漏洞和概念验证 漏洞已在26.01版中修复" data-src="https://img.landian.news/landian/2026/05/113116.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113116.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;该漏洞最初由 GHSL 团队的安全研究员发现，漏洞影响 v26.00 及以前的所有版本，漏洞类型为堆缓冲区溢出，漏洞评分为 8.8 分 (高危级别)，最严重的后果是攻击者可以使用特制的 NTFS 镜像触发缓冲区溢出，随后使用虚表劫持实现任意代码执行。&lt;/p&gt;
-&lt;p&gt;漏洞原理是 7-Zip 在处理 NTFS 格式的压缩镜像文件时，GetCuSize () 函数存在计算问题，当攻击者构造特殊的 NTFS 镜像并让 BlockSizeLog = 28 + CompressionUnit = 4 时，计算结果变成 1 &amp;lt;&amp;lt; 32 (左移 32 位)，这在 32 位整数中属于未定义行为，实际运行时通常变成 1 (只分配 1 字节内存)。&lt;/p&gt;
-&lt;p&gt;而后续代码却认为这个缓冲区应该有 256MB 大小，直接向这个 1 字节内存中写入 256MB 攻击者数据从而触发堆溢出，攻击者可以构造 NTFS 镜像文件 (.NTFS、.IMG 甚至伪装为.7z 或.ZIP 等任意后缀) 并诱导用户使用 7-Zip 解压文件即可触发漏洞。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;7-Zip 本身不自带更新功能，完全依赖于用户自行下载或通过各类软件商店获取新版本并升级，因此使用 7-Zip 的用户请务必及时升级新版本，同时不要打开来历不明的压缩文件，尤其是 NTFS 或 IMG 格式的镜像文件，避免攻击者通过互联网或电子邮件等进行钓鱼。&lt;/p&gt;
-&lt;p&gt;官方下载地址：&lt;a href="https://www.landian.news/go?url=https://www.7-zip.org/download.html" rel="noopener" target="_blank"&gt;https://www.7-zip.org/download.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;蓝点网文件服务器：&lt;a href="https://www.landian.news/go?url=https://dl.landian.news/?dir=soft/7zip" rel="noopener" target="_blank"&gt;https://dl.landian.news/?dir=soft/7zip&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 27 May 2026 08:35:24 +0000</pubDate></item></channel></rss>
+&lt;p&gt;目前已知珊瑚开发板使用 2GB 内存、NPU 芯片可以提供 1TOPS 的算力，谷歌将默认为开发者提供传感器 HAT 配件板、CSI 摄像头模块、CSI 柔性带状电路板，开发者需要自备螺丝刀和 USB-C 数据线并通过外部电源适配器进行供电，当然应该也可以改装为通过锂电池供电从而脱离电源连接线。&lt;/p&gt;
+&lt;p&gt;尽管珊瑚开发板只需要在本地运行模型，不过毕竟各类连接还是需要通过网络操作的，所以珊瑚开发板附带 WiFi 芯片和蓝牙可以用来联网，但从产品截图里似乎只看到 USB-A 和 USB-C 接口，没有看到 RJ45 以太网接口无法实现有线网络连接，这与树莓派的做法有些差别。&lt;/p&gt;
+&lt;p&gt;遗憾的是就目前内存芯片、CPU 芯片、NPU 芯片的行业供给情况，珊瑚开发板最终售价应该并不便宜，这或许也是谷歌只提供 2GB 内存的原因，但如此小的内存还能在本地运行模型也是非常厉害的，至于实际模型响应速度如何只能等产品发布后再进行真机测试。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113145-3.png" rel="nofollow"&gt;&lt;img alt="谷歌将在夏季推出珊瑚AI开发板 可在本地运行270M模型实时语音翻译/文本生成/音乐生成" data-src="https://img.landian.news/landian/2026/05/113145-3.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113145-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113145-4.png" rel="nofollow"&gt;&lt;img alt="谷歌将在夏季推出珊瑚AI开发板 可在本地运行270M模型实时语音翻译/文本生成/音乐生成" data-src="https://img.landian.news/landian/2026/05/113145-4.png" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113145-4.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Thu, 28 May 2026 03:45:51 +0000</pubDate></item></channel></rss>
