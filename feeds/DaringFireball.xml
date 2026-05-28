@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Thu, 28 May 2026 14:11:03 +0000</lastBuildDate><item><title>研究人员发布通过分析网页访问者SSD活动来监视他们的方法</title><link>https://arstechnica.com/security/2026/05/websites-have-a-new-way-to-spy-on-visitors-analyzing-their-ssd-activity/</link><description>&lt;p&gt;丹·古丁，为Ars Technica报道：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Thu, 28 May 2026 16:51:57 +0000</lastBuildDate><item><title>苹果用iPhone 17 Pro摄像头拍摄的洛杉矶-休斯顿MLS比赛片段</title><link>https://tv.apple.com/us/sporting-event/mls-wrap-up/umc.cse.3a198p24hrehwhonbhgx2zvhv</link><description>&lt;p&gt;我不确定&lt;a href="https://tv.apple.com/us/sporting-event/mls-wrap-up/umc.cse.3a198p24hrehwhonbhgx2zvhv"&gt;这个链接&lt;/a&gt;在美国之外能否使用，但Apple TV的MLS Wrap-Up节目展示了洛杉矶银河队对阵休斯顿迪纳摩FC比赛的精彩片段，这场比赛&lt;a href="https://daringfireball.net/linked/2026/05/21/apple-tv-to-broadcast-entire-mls-match-shot-using-iphones"&gt;他们完全用iPhone 17 Pro拍摄&lt;/a&gt;。点击链接，选择“英语”，然后选择“完整回放” — 再跳转到大约40分15秒处。&lt;/p&gt;
+&lt;p&gt;他们展示了使用的一个专业摄像机架，上面装了一个长镜头。我得说比赛画面看起来不错，但显然没有平常那么好。作为手机摄像头来说令人印象深刻，但如果我是银河队或迪纳摩队的球迷，我可能会有点恼火，因为自己球队的一场比赛被用来做这样的噱头。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/05/28/mls-iphone-17-pro-footage" title="‘苹果用iPhone 17 Pro摄像头拍摄的洛杉矶对阵休斯顿MLS比赛’的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Thu, 28 May 2026 16:51:57 +0000</pubDate></item><item><title>研究人员发布通过分析网页访问者SSD活动来监视他们的方法</title><link>https://arstechnica.com/security/2026/05/websites-have-a-new-way-to-spy-on-visitors-analyzing-their-ssd-activity/</link><description>&lt;p&gt;丹·古丁，为Ars Technica报道：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;这项技术在一篇&lt;a href="https://hannesweissteiner.com/pdfs/frost.pdf"&gt;研究论文&lt;/a&gt;中阐述，利用了一种
 &lt;a href="https://en.wikipedia.org/wiki/Side-channel_attack"&gt;侧信道&lt;/a&gt;——这是一种因物理表现（如电磁辐射、数据缓存或完成任务所需时间）而导致的泄漏形式。通过测量这些表现，攻击者可以解密加密流量并推断其他机密数据。[...]&lt;/p&gt;
@@ -26,13 +29,4 @@
 &lt;p&gt;这篇报道只提到了两次“iPhone”，但“手机”一词出现了超过 30 次。“Apple ID”出现了四次。没有任何关于 Android 或 Google 的提及。它只是默认地认为唯一值得偷窃或用来威胁受害者的手机就是 iPhone。报道中完全没有提及苹果的 &lt;a href="https://support.apple.com/en-us/120340"&gt;Stolen Device Protection&lt;/a&gt;（丢失设备保护），而苹果最近开始在用户安装 iOS 26.4 时&lt;a href="https://www.macrumors.com/2026/02/16/ios-26-4-stolen-device-protection/"&gt;默认启用该功能&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;Dearden 和 Nierenberg 曾在 10 月&lt;a href="https://daringfireball.net/linked/2025/10/20/london-phone-theft"&gt;发布过一篇报道&lt;/a&gt;，内容涉及伦敦有组织的 iPhone 犯罪团伙。而在 11 月，&lt;a href="https://daringfireball.net/linked/2025/11/18/life-in-london-with-an-android-phone"&gt;我引用了一篇报道&lt;/a&gt;，其中提到一名小偷在偷走一部 Android 手机后，转身又还给了失主，并向受害者解释道：“不想要三星。”&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/05/25/london-iphone-thieves-threats" title="指向‘伦敦 iPhone 盗窃案中窃贼向受害者发送威胁短信’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 25 May 2026 19:23:32 +0000</pubDate></item><item><title>特朗普移动网站曝光了预购数量——包括已完成和已放弃的——以及相关的客户信息。</title><link>https://www.theguardian.com/us-news/2026/may/23/trump-mobile-investigating-potential-exposure-of-would-be-customers-personal-information</link><description>&lt;p&gt;凯蒂·麦克劳德，《卫报》：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;特朗普手机在一份声明中表示，正在“在独立网络安全专业人士的协助下”调查这一问题——该问题导致填写预购订单的人的全名、地址和电话号码似乎遭到泄露。[...]&lt;/p&gt;
-&lt;p&gt;纽约哥伦比亚大学的程序员兼教授乔纳森·索马审查了《澳大利亚人报》发现并复制的特朗普手机网站代码。索马表示，该网站使用了一种常见的电商模式，每个潜在订单都会在列表中增加一个“1”，根据现有信息，该列表总计已达到27224个可能的预购订单。&lt;/p&gt;
-&lt;p&gt;但他表示，这些代码反映了支付前的最后一步，这意味着未完成购买的人——甚至那些未支付定金就放弃购物车的人——也会被记录在数据中，因此实际预购数量可能更低。&lt;/p&gt;
-&lt;p&gt;“我可能启动了三部手机的购买流程，但一部都没买成，”他说。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;奥里克·金手指（Auric Goldfinger）在九泉之下一定不得安宁。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/05/25/trump-mobile-preorders" title="永久链接：‘特朗普手机网站泄露了预购数量——包括已完成和已放弃的订单——以及相关的客户信息’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 25 May 2026 18:54:37 +0000</pubDate></item></channel></rss>
+</description><pubDate>Mon, 25 May 2026 19:23:32 +0000</pubDate></item></channel></rss>
