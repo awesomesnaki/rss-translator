@@ -1,56 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 28 May 2026 07:16:36 +0000</lastBuildDate><item><title>另类供应链攻击？每月下载量超10万次的CodexUI Android会窃取用户凭证</title><link>https://www.landian.news/archives/113149.html</link><description>
-&lt;p&gt;#安全资讯 每月下载量超过 10 万次的 CodexUI Android 开源项目暗藏恶意代码，会窃取 Codex 身份验证令牌，完全无法理解这名开发者的意图。该项目在 GitHub 上的开源仓库没问题，但发布到 NPM 和 Google Play 的包暗藏恶意代码，这名开发者名下还有下载量超过 500 万次的安卓游戏，所以这投毒是闹哪样。查看详情：https://ourl.co/113149&lt;/p&gt;&lt;p&gt;近期 NPM 生态系统发生多起供应链攻击，通常此类攻击都是开发者不慎泄露凭证后黑客利用凭证操纵账户发布恶意版本，但现在出现了新的让人有些匪夷所思的攻击：NPM 软件包 &lt;a href="https://www.landian.news/go?url=https://www.npmjs.com/package/codexui-android" rel="noopener" target="_blank"&gt;CodexUI Android&lt;/a&gt; 会主动窃取用户的 Codex 凭证，至于用途则可能是用来窃取其他私密信息或者利用凭证转卖使用配额。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src="https://img.landian.news/landian/2026/05/113149.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113149.png"/&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Fri, 29 May 2026 02:30:22 +0000</lastBuildDate><item><title>欧盟对拼多多国际版TEMU罚款15.79亿元 这是DSA法案实施以来单笔金额最大的罚款</title><link>https://www.landian.news/archives/113154.html</link><description>
+&lt;p&gt;#行业资讯 拼多多国际版 TEMU 被欧盟罚款 15.79 亿元 (2 亿欧元)，这也是数字服务法案实施以来单笔金额最高的罚款。TEMU 按欧盟要求出具的风险评估报告未能满足规定，且欧盟认定 TEMU 未能尽责识别 / 分析 / 评估平台提供的各种非法产品带来的系统性风险，TEMU 必须在 3 个月内提交整改措施给欧盟评估，如果延期未提交或提交的整改措施仍然不能让欧盟满意，欧盟有可能会继续实施罚款。查看详情：https://ourl.co/113154&lt;/p&gt;&lt;p&gt;当地时间 2026 年 5 月 28 日，欧盟委员会根据欧盟数字服务法案 (DSA) 对 TEMU 公司 (即拼多多国际版) 处以 2 亿欧元 (约合人民币 15.79 亿元) 的罚款，罚款原因则是 TEMU 未能尽责识别 / 分析 / 评估该平台提供的各种非法产品带来的系统性风险，这可能会给欧盟消费者造成损害。&lt;/p&gt;
+&lt;p&gt;这里的非法产品指的主要是各类未能通过安全检测或达到安全标准的产品，例如未能通过安全检测的充电器、化学物质超过欧盟法定安全限值的婴儿玩具、婴儿玩具由于存在可拆卸部件可能导致窒息危险等，这些案例则是欧盟工作人员冒充普通消费者在 TEMU 平台购买然后进行检测。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113154.png" rel="nofollow"&gt;&lt;img alt="欧盟对拼多多国际版TEMU罚款15.79亿元 这是DSA法案实施以来单笔金额最大的罚款" data-src="https://img.landian.news/landian/2026/05/113154.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113154.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 欧盟称 TEMU 风险评估未能达到 DSA 规定的标准：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;按照欧盟要求 TEMU 在 2024 年应出具风险评估报告，这份风险报告并非针对 TEMU 自身服务的评估和分析，而是基于有关整个电子商务行业风险的常规信息。欧盟称 TEMU 严重低估欧盟消费者可能接触非法商品的可能性，TEMU 也没有正确评估其服务的设计可能会如何加剧非法产品的传播风险 (例如算法推荐系统和联盟营销推广计划等)。&lt;/p&gt;
+&lt;p&gt;根据欧盟数字服务法案的规定，被指定的超大型在线平台必须认真评估与其服务相关的系统性风险并采取相应的缓解措施，TEMU 未能达到数字服务法案要求的标准，属于是对数字服务法案的特别严重的违反行为，最终欧盟决定对 TEMU 开出 2 亿欧元的惩罚性罚款敦促该平台进行改正。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;CodexUI Android 主要为用户提供 Codex 远程界面，该项目本身是开源的拥有真实的开源仓库以及正在积极开发中，软件包本身每月下载量近 11 万次，然而从 4 月份开始 CodexUI Android 的每次调用都会悄悄将用户身份验证令牌发送到攻击者控制的服务器。&lt;/p&gt;
-&lt;p&gt;可能是为了避免被社区发现，该项目的开发者在开源仓库中公布的代码不含恶意代码，而发布在其他平台例如 NPM 的版本却包含恶意代码，只要用户安装并验证身份开始使用时，恶意代码就会将身份验证令牌发送到 sentry.anyclaw.store 中存储。&lt;/p&gt;
-&lt;p&gt;但由于项目开发者在 NPM 包中忘记删除 sourcemap 文件，导致安全研究人员可以通过该文件了解整个项目以及发现恶意代码，恶意代码被藏在 chunk-PUR70UAG.js 中，这个脚本会在模块加载时自动运行，没有函数调用、没有条件判断、也不需要用户进行任何交互。&lt;/p&gt;
+&lt;p&gt;欧盟称 2 亿欧元的罚款主要是根据 TEMU 违规行为性质、受影响的欧盟用户的严重程度以及持续时间计算的，TEMU 必须在 2026 年 8 月 28 日前向欧盟委员会提交行动计划，该计划必须列出补救措施以弥补违反风险评估义务的行为，欧盟委员会则会在收到行动计划后的 30 天内提供反馈意见，之后会再有 30 天作出最终决定并设置合理的整改措施实施期限。&lt;/p&gt;
+&lt;p&gt;如果 TEMU 未能及时提交补救措施或者提交的补救措施不能让欧盟委员会满意，则 TEMU 可能会面临新的罚款以及其他惩罚性措施，当然 TEMU 也可以按照流程向欧盟委员会提交上诉，此类案件通常都会持续很多年，所以 2 亿欧元的罚款短时间内是不需要缴纳的。&lt;/p&gt;
+&lt;p&gt;最后这是欧盟数字服务法案实施以来，单笔罚款金额最高的案件，此前埃隆马斯克旗下的社交网站 X/Twitter 因违反该法案被罚款 1.2 亿欧元，不过 X 已经向欧盟提交上诉并称欧盟的处罚本身就是不合理的。&lt;/p&gt;
+</description><pubDate>Fri, 29 May 2026 02:30:22 +0000</pubDate></item><item><title>[技巧] Windows 11 CPU加速功能已经上线 但需要启用特定功能ID才能使用</title><link>https://www.landian.news/archives/113153.html</link><description>
+&lt;p&gt;#技术教程 Windows 11 CPU 加速功能已经上线，但需要启用特定功能 ID 后才能使用。该功能会在用户点击开始菜单、搜索框、通知中心、右键菜单时瞬时提高 CPU 频率缩短响应时间，有用户说这是作弊行为，因为这些组件性能本身没有得到优化，不过微软认为这是标准做法，所以还是上线了。启用方法：https://ourl.co/113153&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/112877.html" rel="noopener" target="_blank"&gt;此前蓝点网提到微软正在 Windows 11 中开发名为低延迟配置文件的新功能&lt;/a&gt;，该功能主要可以提高包括开始菜单、搜索框、通知中心、右键菜单以及其他区域的响应速度，至于实现方式则是当用户执行操作时系统在短时间内迅速提高 CPU 频率达到缩短响应时间的目的。&lt;/p&gt;
+&lt;p&gt;这种操作方法还是有些争议的，有用户认为开发团队不好好优化系统架构而使用 CPU 加速属于掩耳盗铃，因为这些系统核心组件本身性能并没有改善，&lt;a href="https://www.landian.news/archives/112880.html" rel="noopener" target="_blank"&gt;但微软认为现代操作系统使用 CPU 短暂加速提升响应速度是标准做法&lt;/a&gt;，所谓的作弊行为更是无稽之谈。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/public/thumb/W11.png" rel="nofollow"&gt;&lt;img alt="[技巧] Windows 11 CPU加速功能已经上线 但需要启用特定功能ID才能使用" data-src="https://img.landian.news/landian/public/thumb/W11.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/public/thumb/W11.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这名开发者还在 Google Play 上发布名为 OpenClaw Codex Claude AI Agent 的应用程序，这个应用程序同样会在启动时将恶意 NPM 构建版本安装在每台设备上，最终还是被用来窃取用户的 Codex 身份验证令牌。&lt;/p&gt;
-&lt;p&gt;值得注意的是这名开发者发布的游戏 BrutalStrike 下载量超过 500 万次，评分也达到 4.8 分，所以一名正规的开发者为什么要在开源项目里投毒？这种行为被发现后势必会遭到封号，以至于开源项目可能会被删除、Google Play 开发者账户可能会被封禁，直接损失会非常大。&lt;/p&gt;
-&lt;p&gt;至于窃取的 Codex 身份令牌，不知道这名开发者如何利用这些令牌，可能比较直接的变现方式就是将令牌卖给 API 中转站，中转站再按照 Token 用量卖给下游用户。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://www.landian.news/go?url=https://www.aikido.dev/blog/codex-remote-ui-steals-ai-tokens" rel="noopener" target="_blank"&gt;Aikido&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 28 May 2026 07:16:36 +0000</pubDate></item><item><title>Repo Prompt软件开发者加盟OpenAI 立即终止订阅计划后续将发布开源版</title><link>https://www.landian.news/archives/113148.html</link><description>
-&lt;p&gt;#软件资讯 原生 AI 上下文工程工具 Repo Prompt 开发者已经加盟 OpenAI 开发者体验团队，Repo Prompt v2.1.32 版开始取消许可限制，后续将发布开源的社区版。遗憾的是开发者 Eric 后续将无法全心开发和维护该软件，也就是后续将依靠开源社区的力量确保 Repo Prompt 能够与时俱进。查看详情：https://ourl.co/113148&lt;/p&gt;&lt;p&gt;2024 年 7 月开发者 Eric 推出 Repo Prompt 首个版本，该软件是专门为 macOS 系统打造的原生 AI 上下文工程工具，也被部分开发者称为是 AI 智能体的上下文 IDE，主要功能则是帮助开发者高效构建高质量提示词，让大型语言模型更好地理解和处理代码库，尤其是大型仓库，避免手动复制粘贴等繁琐工作。&lt;/p&gt;
-&lt;p&gt;Repo Prompt 支持的功能包括上下文构建器、多代理编排、MCP 服务器、工作流、智能体模式等，软件本身也需要付费才能使用，不过现在 Repo Prompt 将会以开源许可证发布，因为其开发者 Eric 已经加盟 OpenAI 公司。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113148.png" rel="nofollow"&gt;&lt;img alt="Repo Prompt软件开发者加盟OpenAI 软件本身立即终止订阅计划后续将发布开源版" data-src="https://img.landian.news/landian/2026/05/113148.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113148.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;开发者 Eric 在最新发布的&lt;a href="https://www.landian.news/go?url=https://repoprompt.com/blog/repo-prompt-next-chapter/" rel="noopener" target="_blank"&gt;博客&lt;/a&gt;中透露，几个月前 OpenAI 开发者体验主管 Romain Huet 联系他并希望他加入 OpenAI 开发者体验团队，加入后 OpenAI 可以帮助 Eric 实现利用模型构建大规模应用的愿景，而在答应加盟前，Eric 提出的要求就包括确保 Repo Prompt 现有用户能得到妥善的照顾。&lt;/p&gt;
-&lt;p&gt;对于已经购买年度或终身许可证的用户，请查看邮箱，此时你可能已经收到来自 Eric 发来的邮件，不过具体是退款还是提供其他补偿暂时还不清楚，Eric 并未在博客中公布具体的说明。&lt;/p&gt;
-&lt;p&gt;后续 Repo Prompt 将发布社区版，该版本完全免费并且开源，社区版将摆脱以往的各种限制以便能够融入到大规模并行智能体编排中，而从 Repo Prompt v2.1.32 版更新开始，Repo Prompt 许可限制彻底取消，所有订阅全部终止。&lt;/p&gt;
-&lt;p&gt;遗憾的是后续 Eric 将无法再继续全心维护该软件，加盟 OpenAI 开发者体验团队后可能会从事其他工作，所以未来 Repo Prompt 社区版主要还是靠开源软件贡献，继续开发和维护这个软件。&lt;/p&gt;
-</description><pubDate>Thu, 28 May 2026 06:49:38 +0000</pubDate></item><item><title>微软安全团队发文抨击研究人员提前公开漏洞 但未回应与研究人员之间的矛盾</title><link>https://www.landian.news/archives/113147.html</link><description>
-&lt;p&gt;#行业资讯 微软威胁情报团队发文抨击研究人员提前公布漏洞，但该团队并未回应与研究人员之间的矛盾。此次博客主要针对的可能是 BitLocker 漏洞披露者 Nightmare Eclipse，这名研究人员准备在 7 月公布更多未修复的漏洞，不过微软在博客结尾强调欢迎研究人员继续负责任的通报漏洞，无论其过往互动或声誉如何都可以继续合作。查看详情：https://ourl.co/113147&lt;/p&gt;&lt;p&gt;近期有安全研究人员在微软没有修复漏洞的情况下提前公开漏洞细节和概念验证代码，&lt;a href="https://www.landian.news/archives/112922.html" rel="noopener" target="_blank"&gt;例如针对 Microsoft BitLocker 加密系统的绕过机制漏洞 (被称为 YellowKey)&lt;/a&gt;，所以现在微软威胁情报团队发布博客抨击研究人员这种不负责任的行为，不过该团队并未回应与研究人员之间的矛盾。&lt;/p&gt;
+&lt;p&gt;无论是否存在争议现在低延迟配置文件功能已经通过预览 C 更新推送到 Windows 11 正式版，用户主动检查更新的情况下将会下载 &lt;a href="https://www.landian.news/archives/113108.html" rel="noopener" target="_blank"&gt;KB5089573&lt;/a&gt; 号更新，这枚更新适用于 Windows 11 24H2/25H2 版，安装后就可以通过启用特定功能 ID 来启用低延迟配置文件功能。&lt;/p&gt;
+&lt;p&gt;至于为什么还需要借助功能 ID 才能启用，估计是微软正在面向 Windows 11 正式版用户进行小范围测试，如果没有意外的话微软将在 6 月份的累积更新中面向所有用户推出这项改进，所以懒得折腾的用户也可以直接等待 6 月份 B 类更新发布，现在没必要下载更新和启用功能 ID。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;另外需要特别强调的是低延迟配置文件功能确实可以提高某些情况下响应速度，但这可能需要用户长期使用才能感受出来，毕竟提升后可能也就是缩短几百毫秒到 1 秒左右，不是长期使用的话估计很难感觉有太大的性能提升，所以各位也不要抱有太大的期望。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;2026 年 5 月 13 日，研究人员公布针对 Microsoft BitLocker 加密系统的绕过漏洞，同时研究人员还公开相关漏洞的利用程序，彼时微软尚未针对此漏洞发布安全公告以及修复程序，也就是漏洞在没有被修复的前提下被直接曝光，能够物理接触到设备的攻击者可以利用漏洞检查被加密的文件。&lt;/p&gt;
-&lt;p&gt;当时研究人员 Nightmare Eclipse 指责微软安全团队不负责，研究人员与负责接收漏洞通报并进行评级的微软安全团队出现矛盾，具体矛盾内容我们不得而知，但最终这名研究人员决定直接公开漏洞放弃微软提供的漏洞奖金，而这并不是结束，事实上这只是矛盾激化的初始阶段。&lt;/p&gt;
-&lt;p&gt;之后微软旗下的代码托管平台 GitHub 封禁这名研究人员的账号，该账号用于发布针对 Microsoft BitLocker 漏洞的概念验证程序，这直接导致矛盾被彻底激化，目前这名研究人员已经决定在 7 月份公开更多微软尚未修复的安全漏洞，这或许也是现在微软威胁情报团队发布博客的原因。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113147.png" rel="nofollow"&gt;&lt;img alt="微软安全团队发文抨击研究人员提前公开漏洞 但未回应与研究人员之间的矛盾" data-src="https://img.landian.news/landian/2026/05/113147.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113147.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;1. 必要条件：&lt;a href="https://www.landian.news/archives/113108.html" rel="noopener" target="_blank"&gt;Windows 11 Build 26100.8524/26200.8524&lt;/a&gt;+ 版&lt;/p&gt;
+&lt;p&gt;2. 下载工具：&lt;a href="https://www.landian.news/archives/94547.html" rel="noopener" target="_blank"&gt;[图文教程] Windows 11 开发版必备神器 ViveTool 到底怎么用？其实很简单 &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;3. 在 ViveTool 中执行如下命令进行启用或禁用功能 ID：&lt;/p&gt;
+&lt;pre&gt;# 启用低延迟配置文件功能
+vivetool /enable/id:58989092
+# 禁用低延迟配置文件功能
+vivetool /disable/id:58989092&lt;/pre&gt;
+&lt;p&gt;4. 完成修改后请重启电脑使之生效，接下来你可以仔细体验点击开始菜单等看看速度是否有提升。&lt;/p&gt;
+</description><pubDate>Fri, 29 May 2026 02:00:22 +0000</pubDate></item><item><title>在内存短缺背景下 Steam Deck OLED版缺货数月后重新上架 但涨价300美元</title><link>https://www.landian.news/archives/113152.html</link><description>
+&lt;p&gt;#游戏设备 在内存短缺背景下，Steam Deck OLED 版缺货数月后重新上架销售，但价格上涨高达 300 美元。512GB 版原价 549 美元，现价 789 美元，1TB 版原价 649 美元，现在按照 949 美元销售，对游戏玩家来说现在继续购买 Steam Deck OLED 着实是非常肉疼。查看详情：https://ourl.co/113152&lt;/p&gt;&lt;p&gt;Steam Deck OLED 版游戏掌机在连续缺货数月后已经重新上架销售，不过这款游戏掌机的价格因为内存短缺问题而大幅度上涨，至少从性价比角度而言现在继续购买 Steam Deck OLED 版可能已经没有太高的性价比，当然大幅度涨价问题也并非 V 社造成的。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src="https://img.landian.news/landian/2024/11/106573-2.webp" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2024/11/106573-2.webp"/&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;微软威胁情报团队 (MSRC) 称，每年微软都会通过协调漏洞披露机制与外部安全研究人员合作，这是行业标准，要求研究人员与受影响的供应商分享漏洞，以便供应商有机会在漏洞细节被公开披露前进行修复，确保大多数用户不会受到漏洞的影响。&lt;/p&gt;
-&lt;p&gt;通过这项合作，微软还能确保研究人员因其负责任的披露漏洞而获得报酬，微软也会表彰研究人员的专业知识。然而像是 RedSun、UnDefend、YellowKey 等漏洞并未得到负责任的披露，为应对这些漏洞带来的安全风险，微软安全团队夜以继日地工作以了解漏洞并开发安全更新。&lt;/p&gt;
-&lt;p&gt;微软坚决反对这种未经适当协调的漏洞披露，因为这些披露可能损害客户和数字生态系统，未经协调的披露会将未修复漏洞的概念验证代码交给犯罪分子，这是绝对不可原谅的、并且会造成实际后果，微软的数字犯罪部门也将继续对犯罪分子及其幕后推手提起法律诉讼，微软将根据需要与世界各地的执法部门进行协调。&lt;/p&gt;
-&lt;p&gt;微软深知不可能在所有事情上都能达成一致，但微软会继续致力于保持透明和持续创造对话机会，微软安全团队也将继续支持负责任的安全研究，并快速调查、修复和发布影响客户的漏洞更新，最后微软始终欢迎任何人继续向微软通报漏洞，无论其过往互动或声誉如何。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://www.landian.news/go?url=https://www.microsoft.com/en-us/msrc/blog/2026/05/a-shared-responsibility-protecting-customers-through-coordinated-vulnerability-disclosure" rel="noopener" target="_blank"&gt;MSRC&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 28 May 2026 06:31:55 +0000</pubDate></item><item><title>A社已经下架Claude Sonnet 4.5模型(不影响API) 模型依赖症用户感到失望</title><link>https://www.landian.news/archives/113146.html</link><description>
-&lt;p&gt;#人工智能 A 社已经从 Claude 消费者端下架 Claude Sonnet 4.5 模型，部分用户发起请愿希望继续保留该模型。Claude Sonnet 4.5 个性温暖细腻适合创意、情感和长任务，所以下架后引起部分有较强依赖性的用户的不满，不过模型当前还继续在 API 端提供并至少支持到 2026 年 9 月。查看详情：https://ourl.co/113146&lt;/p&gt;&lt;p&gt;A 社在 2025 年 9 月 29 日发布 Claude Sonnet 4.5 模型，当时 A 社称该模型是世界上最好的编码模型，在 SWE、复杂代理任务、计算机使用等方面表现都非常不错，这也是 Claude 4 系列模型的主要升级版，模型发布后也被开发者和使用 AI 对话的普通用户欢迎。&lt;/p&gt;
-&lt;p&gt;不过现在该模型已经退役，通过 API 调用的开发者仍然可以继续使用该模型直到 2026 年 9 月 29 日退役，消费者端当前已经无法选择 Claude Sonnet 4.5 进行对话，提示当前模型不可用需要切换到其他模型。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113146.png" rel="nofollow"&gt;&lt;img alt="A社已经下架Claude Sonnet 4.5模型(不影响API) 模型依赖症用户感到失望" data-src="https://img.landian.news/landian/2026/05/113146.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113146.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Steam Deck OLED 版 512GB 此前原价是 549 美元，现在已经按照 789 美元销售，单次涨价 240 美元。而 Steam Deck OLED 版 1TB 此前原价 649 美元，现在则是按照 949 美元销售，也就是单次涨价高达 300 美元。对于喜欢随时随地进行游戏的玩家来说，现在购买 Steam Deck OLED 确实非常肉疼。&lt;/p&gt;
+&lt;p&gt;对 V 社来说涨价也是没有办法的事情，直接原因就是全球内存短缺导致整个硬件供应链都在涨价，其中内存芯片涨价幅度最高，固态硬盘等产品价格同样也在上涨，这会显著提高硬件制造商的整体成本，最终这些成本也会被转嫁给最终消费者，这与 PC 和智能手机行业是相同的情况。&lt;/p&gt;
+&lt;p&gt;此前索尼也将 PlayStation 5 涨价，其价格要比首发时涨价 150~200 美元不等，任天堂的 Switch 2 游戏掌机在本月初也同样涨价 50 美元，接下来其他搭载 Windows 11 的游戏掌机估计也要陆续涨价。&lt;/p&gt;
+</description><pubDate>Fri, 29 May 2026 01:30:22 +0000</pubDate></item><item><title>YouTube利用自动化系统识别AI制作的视频 识别后将自动显示视频由AI生成</title><link>https://www.landian.news/archives/113151.html</link><description>
+&lt;p&gt;#网站应用 YouTube 开始使用自动化检测系统为 AI 生成的视频添加标记，标记将以显眼的方式放在视频描述上方帮助用户区分。现阶段 YouTube 创作者可以主动声明内容由 AI 生成，后续检测系统在确认视频由 AI 生成后会进行自动标记，不过谷歌暂时不会进行任何惩罚措施，即便被检测出来是 AI 生成的也不会影响算法推荐和广告分成。查看详情：https://ourl.co/113151&lt;/p&gt;&lt;p&gt;谷歌旗下视频网站 YouTube 将开始自动标记被系统检测到显著使用人工智能技术生成的逼真视频，无论是长视频还是短视频，当系统检测到视频可能是由 AI 生成的则会在视频中信息里标记内容由 AI 生成，这种自动化检测机制和标记系统有助于帮助其他用户识别以假乱真的 AI 视频，也可以降低利用 AI 生成的虚假内容的传播。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113151.png" rel="nofollow"&gt;&lt;img alt="YouTube利用自动化系统识别AI制作的视频 识别后将自动显示视频由AI生成" data-src="https://img.landian.news/landian/2026/05/113151.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113151.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;A 社原本计划在 2026 年 5 月 15 日就在消费者端 (Claude 桌面版、网页版和移动端等) 退役 Claude Sonnet 4.5 模型，不过后面延期到 5 月 18 日，最终则是在 5 月 26 日从 Claude 客户端的模型选择器里下架。A 社的通知方式也比较低调，主要通过训练数据页面和应用内横幅提示，并未发布官方公告。&lt;/p&gt;
-&lt;p&gt;根据 A 社的计划，API 和开发者端可以继续使用 Claude Sonnet 4.5 模型，A 社会为开发者们至少支持到 2026 年 9 月 29 日 (这是原定的最早退役日期暂时还未改动)，部分平台例如 AWS BedRock 等可能还会有遗留支持，不过后续这些平台是否也会下架 Claude Sonnet 4.5 还需要观察。&lt;/p&gt;
+&lt;p&gt;YouTube 本身已经为创作者提供内容创作声明功能，即创作者可以在视频发布时手动添加视频由 AI 生成的标记，但显然并非所有创作者都会负责任地披露内容来源，尤其是某些专注于使用 AI 生成谣言内容获得广告分成的内容农场向来不会主动添加任何标记。&lt;/p&gt;
+&lt;p&gt;YouTube 称从本周开始这套新的内部系统会自动检测视频，如果创作者没有明确说明是否使用 AI 生成、但系统检测到视频存在大量使用 AI 生成的内容，这种情况下检测系统会自动为视频添加必要的标签以帮助用户区分内容。&lt;/p&gt;
+&lt;p&gt;如果创作者认为自己的视频被错误标记为 AI 生成，也可以在创作者工具里修改披露状态，然而在某些情况下 AI 生成标签将会被永久保留，例如使用 YouTube 自有 AI 工具生成的内容、内容本身包含 C2PA 元数据等，这些属于可以被证实的、使用 AI 生成的确凿证据，这种情况下创作者不能修改状态。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;部分用户在长期使用特定模型后会产生依赖性，Claude Sonnet 4.5 的个性比较不错，例如温暖、细腻并且适合创意、情感和长任务，这些用户将 Claude Sonnet 4.5 视为是有灵魂的模型，所以现在模型下架后用户发起请愿希望 A 社能够重新上架该模型并长期保留，相关请愿的签名已经有 2300 条。&lt;/p&gt;
-&lt;p&gt;不过模型正常更迭是在所难免的事情，此前 OpenAI 下架模型也出现过类似的事情，所以使用 Claude 的用户还是建议切换到其他模型并备份重要数据，以后要是想回味内容或者切换到其他模型也可以重新导入数据。&lt;/p&gt;
-</description><pubDate>Thu, 28 May 2026 04:11:43 +0000</pubDate></item><item><title>谷歌将在夏季推出珊瑚AI开发板 可在本地运行270M模型实现实时语音对话/翻译等</title><link>https://www.landian.news/archives/113145.html</link><description>
-&lt;p&gt;#人工智能 谷歌将在夏季推出珊瑚 AI 开发板，可在本地运行 270M 模型实现实时对话、语音对话和翻译、文本生成、音乐生成等功能。珊瑚 AI 开发板附带的 NPU 芯片可以提供 1TOPS 算力，谷歌默认采用的是 Gemma3-270M 模型，但考虑到现在内存和各类芯片的价格，估计珊瑚 AI 开发板的价格也不会低。查看详情：https://ourl.co/113145&lt;/p&gt;&lt;p&gt;据谷歌开发者团队发布的预告，谷歌将与合作伙伴 (包括 Synaptics 等) 在夏季面向开发者们推出珊瑚开发板 (CoralBoard)，这款开发板附带 NPU 芯片可以提供 1TOPS 的算力，谷歌称其可以在端侧运行谷歌开源的 Gemma3-270M 模型实现多种不同的功能，例如文本对话、实时语音对话、音乐生成等。&lt;/p&gt;
-&lt;p&gt;珊瑚开发板可以在不需要显示器的无头配置下实现强大功能，在无头配置下开发者可以从主机连接到珊瑚开发板并使用命令行进行界面完全编程和控制，如果开发者有兴趣的话也可以通过连接 MIPI 显示器进行图形化显示，例如使用 3D 打印外壳将显示器与珊瑚开发板封装做成智能小设备。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113145-1.png" rel="nofollow"&gt;&lt;img alt="谷歌将在夏季推出珊瑚AI开发板 可在本地运行270M模型实时语音翻译/文本生成/音乐生成" data-src="https://img.landian.news/landian/2026/05/113145-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113145-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113145-2.png" rel="nofollow"&gt;&lt;img alt="谷歌将在夏季推出珊瑚AI开发板 可在本地运行270M模型实时语音翻译/文本生成/音乐生成" data-src="https://img.landian.news/landian/2026/05/113145-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113145-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;值得注意的是目前 YouTube 还未对创作者实施内容披露惩罚机制，即创作者没有主动声明内容由 AI 生成的也不会触发审核，即便被 YouTube 自动化系统检测到也只是添加标记没有其他惩罚措施，无论是创作者主动还是被系统添加的 AI 标记，对视频的算法推荐和广告分成都没有影响。&lt;/p&gt;
+&lt;p&gt;对于长视频 YouTube 会将 AI 生成标记放在视频播放器下方、描述上方，对于短视频 AI 生成标签则会以叠加层的形式放在视频上，对用户而言可以非常清晰的看到 AI 标签，避免用户因为没有看到标签而对某些内容信以为真。&lt;/p&gt;
+</description><pubDate>Fri, 29 May 2026 01:00:21 +0000</pubDate></item><item><title>加密预测市场Polymarket开始严厉打击未KYC的用户 同时封禁使用VPN访问的用户</title><link>https://www.landian.news/archives/113150.html</link><description>
+&lt;p&gt;#加密货币 加密预测市场 Polymarket 开始严厉打击未 KYC 和使用 VPN 绕过司法管辖区限制的用户，在美国用户必须经过完整 KYC 才能使用。在国际市场由于监管政策问题，任何受限制司法管辖区的用户若尝试使用 VPN 访问都可能会被限制账号或永久封号，平台服务条款也明确禁止使用 VPN 访问。查看详情：https://ourl.co/113150&lt;/p&gt;&lt;p&gt;加密预测市场 Polymarket 受监管问题影响目前正在严格使用 KYC 验证用户身份，对于任何可疑账户以及使用 VPN 绕过地理位置监管的账户都会被封禁，至于习惯于匿名交易的预测者可能会受平台政策的影响，不过该平台目前应该是下定决心必须降低监管风险和完成必要的合规措施。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/04/112783.png" rel="nofollow"&gt;&lt;img alt="加密预测市场Polymarket开始严厉打击未KYC的用户 同时封禁使用VPN访问的用户" data-src="https://img.landian.news/landian/2026/04/112783.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/04/112783.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;目前已知珊瑚开发板使用 2GB 内存、NPU 芯片可以提供 1TOPS 的算力，谷歌将默认为开发者提供传感器 HAT 配件板、CSI 摄像头模块、CSI 柔性带状电路板，开发者需要自备螺丝刀和 USB-C 数据线并通过外部电源适配器进行供电，当然应该也可以改装为通过锂电池供电从而脱离电源连接线。&lt;/p&gt;
-&lt;p&gt;尽管珊瑚开发板只需要在本地运行模型，不过毕竟各类连接还是需要通过网络操作的，所以珊瑚开发板附带 WiFi 芯片和蓝牙可以用来联网，但从产品截图里似乎只看到 USB-A 和 USB-C 接口，没有看到 RJ45 以太网接口无法实现有线网络连接，这与树莓派的做法有些差别。&lt;/p&gt;
-&lt;p&gt;遗憾的是就目前内存芯片、CPU 芯片、NPU 芯片的行业供给情况，珊瑚开发板最终售价应该并不便宜，这或许也是谷歌只提供 2GB 内存的原因，但如此小的内存还能在本地运行模型也是非常厉害的，至于实际模型响应速度如何只能等产品发布后再进行真机测试。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113145-3.png" rel="nofollow"&gt;&lt;img alt="谷歌将在夏季推出珊瑚AI开发板 可在本地运行270M模型实时语音翻译/文本生成/音乐生成" data-src="https://img.landian.news/landian/2026/05/113145-3.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113145-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113145-4.png" rel="nofollow"&gt;&lt;img alt="谷歌将在夏季推出珊瑚AI开发板 可在本地运行270M模型实时语音翻译/文本生成/音乐生成" data-src="https://img.landian.news/landian/2026/05/113145-4.png" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113145-4.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 28 May 2026 03:45:51 +0000</pubDate></item></channel></rss>
+&lt;p&gt;Polymarket 在美国市场通过独立主体 QCX LLC 运营，该公司受美国商品期货交易委员会的监管，这个独立主体主要是为来自美国的加密货币预测者提供服务，按照监管部门要求，Polymarket 必须对所有美国用户进行完整的身份认证，任何未经认证的用户都不能在 Polymarket 上直接交易。&lt;/p&gt;
+&lt;p&gt;在国际市场 Polymarket 通过离岸国际平台提供基于加密货币钱包的访问方式，这种方式不需要进行实名认证，但基于加密钱包的匿名访问本身不支持美国用户访问，同时按照不同司法管辖区要求，Polymarket 也屏蔽 33~35 个司法管辖区的用户，包括美国、俄罗斯、法国、英国、德国、伊朗、荷兰等等。&lt;/p&gt;
+&lt;p&gt;当然用户可以轻松通过 VPN 来绕过司法管辖区限制，而 Polymarket 服务条款则是明确禁止使用 VPN 或其他工具来绕过访问限制，Polymarket 本质上属于加密赌博平台，不同司法管辖区的法律政策不同，像是西班牙、印度和印尼等就明令禁止 Polymarket 向其国民提供服务，而这些地区的用户则通过 VPN 绕过限制。&lt;/p&gt;
+&lt;p&gt;于是这就带来潜在的合规问题，本月西班牙监管机构以非法赌博为由要求境内互联网服务提供商直接屏蔽 Polymarket，印尼和印度也采取类似行动，如果 Polymarket 不加强风控措施的话可能会受到更多司法管辖区的制裁，到时候可能会引起诸多法律责任。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;从 2026 年 5 月 27 日开始 Polymarket 开始加强风控政策，采取的措施包括使用异常检测系统和链上数据进行区块链取证，对于被检测到的尝试绕过司法管辖区访问的用户、在美国但没有进行合规 KYC 认证的用户、任何使用 VPN 进行访问的用户都可能会被暂停账号、永久封禁、罚款或将相关违法线索移交给执法部门。&lt;/p&gt;
+&lt;p&gt;当然部分注重隐私安全的用户可能会使用包括 Firefox VPN 在内的工具进行访问，Polymarket 倒是没有细分隐私保护工具和绕过司法管辖区限制工具之间的区别政策，不过对于使用 Polymarket 的加密预测投资者来说，接下来可能要关注访问风险，避免被封号后影响正常使用。&lt;/p&gt;
+</description><pubDate>Fri, 29 May 2026 00:30:45 +0000</pubDate></item></channel></rss>
