@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sun, 31 May 2026 08:56:57 +0000</lastBuildDate><item><title>快速模式启动！Codex预计将在今天深夜重置额度 请立即刷起来</title><link>https://www.landian.news/archives/113190.html</link><description>
 &lt;p&gt;#人工智能 快速模式启动！Codex 预计将在今天深夜到明天凌晨重置当周使用额度，原因是 Codex 用户量达到 500 万名。遗憾的是 Codex 自然周配额在今天早晨刚刚完成重置 (目前所有付费用户的重置时间都是相同的)，大多数用户账户剩余配额还很多，这时候只能开着快速模式赶紧刷，把 5 小时限额拉满、尽可能消耗当周限额。查看详情：https://ourl.co/113190&lt;/p&gt;&lt;p&gt;Codex 已经在 5 月 31 日早晨正常重置用户每周使用配额 (因为现在产品团队手动重置配额后所有用户的自然重置时间都是相同的)，不过接下来 Codex 将会再次重置配额，这次重置配额的原因是 Codex 用户量达到 500 万名，也就是每次新增 100 万名用户 Codex 都会重置当周使用配额。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src="https://img.landian.news/landian/2026/05/113190-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113190-1.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src="https://img.lancdn.com/landian/2026/05/113190-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/113190-1.png"/&gt;&lt;/p&gt;
 &lt;p&gt;但如上面所说现在 Codex 重置配额并不是在用户自然周内重置，可能很多用户当前的自然周使用配额都很少，例如蓝点网账号当前周使用配额还剩 75%，这时候再次被重置只能说是血亏，所以必须立即以最快速度将正常自然周配额全部消耗掉，这也是为什么要使用快速模式的原因。&lt;/p&gt;
 &lt;p&gt;快速模式提供更高的响应速度但配额消耗速度更快，对于开发者而言可以使用快速模式尽可能消耗当前剩余配额并完成更多工作，遗憾的是 5 小时滚动限额还在，因此开发者们能够消耗的配额实际上也非常有限，所以接下来就看各位如何消耗了。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src="https://img.landian.news/landian/2026/05/113190-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113190-2.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src="https://img.lancdn.com/landian/2026/05/113190-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/113190-2.png"/&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Codex 团队位于美国旧金山因此使用太平洋夏令时，Codex 产品经理发帖时说的是明天早晨重置使用时间，按照当地时间早晨 (到上午) 时间推算，国内时间可能是 5 月 31 日 23:00~6 月 1 日 01:00，从现在到夜里还有 8 小时左右的窗口期，各位可以尽情在窗口期内挥霍配额，只要 5 小时限额不满那就能疯狂用起来。&lt;/p&gt;
 </description><pubDate>Sun, 31 May 2026 08:56:57 +0000</pubDate></item><item><title>谷歌浏览器正式推出DBSC设备绑定会话凭证 Cookie被盗后也无法使用</title><link>https://www.landian.news/archives/113189.html</link><description>
@@ -12,7 +12,7 @@
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;用户可能会在无意中安装恶意软件或恶意扩展程序，亦或者有些扩展程序通过后续更新用来读取本地存储的凭证并将其发送到服务器，攻击者提取凭证后可以实现不需要账户密码直接访问用户账户，致力于凭证窃取的攻击者可能还会将这种攻击产业化，也就是批量窃取海量凭证然后将其转售给下游黑客。&lt;/p&gt;
 &lt;p&gt;至关重要的是在任何操作系统上仅靠软件都无法可靠地阻止凭证泄露，以前缓解会话窃取的方法是事后使用复杂系统进行滥用启发式检测，这种被动检测机制很容易被攻击者绕过，而 DBSC 通过将防御范式从被动检测转变为主动预防，可以从根本上改变网站防御此类威胁的能力，确保即便 Cookie 泄露也无法被用于访问账户。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113189.png" rel="nofollow"&gt;&lt;img alt="谷歌浏览器正式推出DBSC设备绑定会话凭证 Cookie被盗后也无法使用" data-src="https://img.landian.news/landian/2026/05/113189.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113189.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/113189.png" rel="nofollow"&gt;&lt;img alt="谷歌浏览器正式推出DBSC设备绑定会话凭证 Cookie被盗后也无法使用" data-src="https://img.lancdn.com/landian/2026/05/113189.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/113189.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;该机制将身份验证会话加密绑定到特定设备来防止窃取，其利用硬件支持的安全模块 (例如 Windows TPM 或 macOS 的安全隔离区) 生成独立的密钥对，该加密密钥不能从设备上导出，新会话的 Cookie 签发取决于谷歌浏览器向远程服务器证明拥有对应的私钥，由于攻击者无法窃取私钥，因此任何被窃取的 Cookie 都会失效所以继续窃取也没有意义。&lt;/p&gt;
 &lt;p&gt;这种设计允许网站在后端添加专用的检测和刷新 API 来升级到安全的硬件绑定会话，同时保持与前端的完全兼容性，浏览器在后台处理复杂的加密和 Cookie 轮换机制，所以网站可以像以前那样正常使用标准的 Cookie 进行访问。&lt;/p&gt;
@@ -24,7 +24,7 @@
 </description><pubDate>Sun, 31 May 2026 07:40:05 +0000</pubDate></item><item><title>o3和GPT-4.5模型将被陆续从ChatGPT中删除 不过API端继续提供调用</title><link>https://www.landian.news/archives/113188.html</link><description>
 &lt;p&gt;#人工智能 OpenAI 宣布将逐步弃用 o3 和 GPT-4.5 模型，前者将在 90 天后弃用，后者将在 30 天后弃用。这些模型目前仅供付费用户在 ChatGPT 中选择使用且使用率非常低，所以 OpenAI 将逐步删除这些旧模型，API 端会继续提供这些模型的支持，通过 API 调用的开发者不受影响。查看详情：https://ourl.co/113188&lt;/p&gt;&lt;p&gt;据 OpenAI 本周发布的 ChatGPT 变更公告，OpenAI 已经更新 ChatGPT 中使用的 GPT-5.5 Instant 模型，同时 API 端的相关模型也同步更改，更改后的模型输出内容将更易于阅读、贴近日常对话，在实际帮助任务中的回复节奏也更好，减少废话太多的问题。&lt;/p&gt;
 &lt;p&gt;此次更新后 GPT-5.5 Instant 和 GPT-5.5 Thinking 模型将不再支持 Canvas 画布功能，用户可以直接通过文字和代码块在聊天中实现写作和编码功能，而 ChatGPT 付费用户可以在有限时间内继续通过旧版模型使用 Canvas 功能，直到这些模型也停止服务。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2025/02/107852.png" rel="nofollow"&gt;&lt;img alt="o3和GPT-4.5模型将被陆续从ChatGPT中删除 不过API端继续提供调用" data-src="https://img.landian.news/landian/2025/02/107852.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2025/02/107852.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/02/107852.png" rel="nofollow"&gt;&lt;img alt="o3和GPT-4.5模型将被陆续从ChatGPT中删除 不过API端继续提供调用" data-src="https://img.lancdn.com/landian/2025/02/107852.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/02/107852.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;OpenAI 将逐步在 ChatGPT 中淘汰使用率较低的模型，默认情况下 ChatGPT 将使用更新后功能强大的模型。在公告发布的过渡期后，部分旧版模型将会被弃用无法在 ChatGPT 中使用，被弃用的模型包括 o3 和 GPT-4.5，不过在 API 端继续提供并且暂时没有弃用计划：&lt;/p&gt;
 &lt;p&gt;o3 模型：将在 2026 年 8 月 26 日后从 ChatGPT 中移除，现阶段该模型仅供付费用户选择使用。&lt;/p&gt;
@@ -33,7 +33,7 @@
 </description><pubDate>Sun, 31 May 2026 07:07:13 +0000</pubDate></item><item><title>有企业忘记设置员工Claude API使用限额 结果1个月产生高达5亿美元的API账单</title><link>https://www.landian.news/archives/113166.html</link><description>
 &lt;p&gt;#人工智能 有公司忘记限制 Claude API 使用限额，结果产生高达 5 亿美元的天价账单。根据 A 社规定，Claude 席位超过 150 名时就必须使用企业版，企业版包含开通席位费，而真正使用全部按照 API 价格进行单独计费，默认所有席位不存在任何使用配额，无论是员工滥用还是不慎泄露相关凭证，都可能产生天价账单。查看详情：https://ourl.co/113166&lt;/p&gt;&lt;p&gt;知名科技媒体 AXIOS 日前发布报道称企业领导者开始质疑人工智能的花费飙升能否带来实质性回报，即很多企业正在急于拥抱人工智能而为员工提供各种先进模型的使用，企业原本目标是希望员工使用人工智能可以提高效率并降低整体人力资源成本，但想要达到这种目标并不是容易的事情。&lt;/p&gt;
 &lt;p&gt;例如微软就在内部取消大部分工程师的 Claude Code 许可证转而要求员工使用自家的产品，部分原因就是使用成本太高；优步首席运营官则表示人工智能高昂的使用成本越来越难以证明其合理性。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113166.png" rel="nofollow"&gt;&lt;img alt="有企业忘记设置员工Claude API使用限额 结果1个月产生高达5亿美元的API账单" data-src="https://img.landian.news/landian/2026/05/113166.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113166.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/113166.png" rel="nofollow"&gt;&lt;img alt="有企业忘记设置员工Claude API使用限额 结果1个月产生高达5亿美元的API账单" data-src="https://img.lancdn.com/landian/2026/05/113166.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/113166.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;AXIOS 在报道中还提到，有人工智能顾问称，其客户在 1 个月内产生高达 5 亿美元的 AI 天价账单，原因就是企业忘记设置员工的 Claude API 使用限额，这些员工可以无限制疯狂调用 API，至于是合理使用还是因为其他问题导致的滥用目前还不得而知，因为暂时还没有公司出来认领这件事。&lt;/p&gt;
 &lt;p&gt;说起来给员工分配 Claude API 权限但不设置使用限额是非常危险的事情，因为任何员工若不慎泄露 API 凭据都可能遭到恶意利用，单单 1 个月就产生高达 5 亿美元的账单着实让人惊讶，如果这家公司规模不是特别大的话，那有很大概率是员工不慎泄露 API 凭证造成海量花销。&lt;/p&gt;
@@ -45,8 +45,8 @@
 &lt;p&gt;这篇报道其实也在提醒那些急于拥抱人工智能的企业，拥抱人工智能是可以的，但需要进行多种层面的综合考量，例如整体使用成本、能否真正提高生产力、能不能带来更高的回报等等，如果没有综合考量就直接拥抱人工智能，那可能无法带来切实的回报。&lt;/p&gt;
 </description><pubDate>Sun, 31 May 2026 06:31:12 +0000</pubDate></item><item><title>欧盟科技公司联合推出Euro-Office开源办公套件 用于替代Microsoft 365</title><link>https://www.landian.news/archives/113165.html</link><description>
 &lt;p&gt;#软件资讯 欧盟多家科技公司联合推出 Euro-Office 开源办公套件项目，将在 6 月 9 日发布首个版本，提供文档、表格、演示文稿、电子邮件、网盘、日历、视频通话、邮件等多种子套件。该项目基于 ONLYOFFICE 开发，旨在强调数字主权，可以通过私有化部署将云端服务全部部署在本地，当然软件本身也供全球用户使用。查看详情：https://ourl.co/113165&lt;/p&gt;&lt;p&gt;由多家欧盟科技公司联合发起的开源办公软件套件项目 Euro-Office 将在 2026 年 6 月 9 日发布其首个稳定版本，该办公套件主要是用来完全替代 Microsoft 365，其代码完全开源以及主要基础设施位于欧洲，对欧洲而言这段是数字主权独立的关键性举措，可以脱离对外国信息技术提供商的依赖。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113165-1.png" rel="nofollow"&gt;&lt;img alt="欧盟科技公司联合推出Euro-Office开源办公套件 用于替代Microsoft 365" data-src="https://img.landian.news/landian/2026/05/113165-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113165-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113165-2.png" rel="nofollow"&gt;&lt;img alt="欧盟科技公司联合推出Euro-Office开源办公套件 用于替代Microsoft 365" data-src="https://img.landian.news/landian/2026/05/113165-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113165-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/113165-1.png" rel="nofollow"&gt;&lt;img alt="欧盟科技公司联合推出Euro-Office开源办公套件 用于替代Microsoft 365" data-src="https://img.lancdn.com/landian/2026/05/113165-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/113165-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/113165-2.png" rel="nofollow"&gt;&lt;img alt="欧盟科技公司联合推出Euro-Office开源办公套件 用于替代Microsoft 365" data-src="https://img.lancdn.com/landian/2026/05/113165-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/113165-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;p&gt; Euro-Office 包含多种套件满足真实使用需求：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;网盘功能：该功能遵循欧洲法规和司法管辖区相关规定，让用户可以可靠的存储文件并满足隐私保护需求。&lt;/li&gt;
