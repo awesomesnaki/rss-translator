@@ -1,173 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sat, 30 May 2026 05:55:16 +0000</lastBuildDate><item><title>群晖推出桌面型全闪存服务器FS200T 采用J4125处理器+6盘位SATA SSD</title><link>https://www.landian.news/archives/113161.html</link><description>
-&lt;p&gt;#硬件设备 群晖推出桌面型全闪存 NAS 服务器 FS200T，采用英特尔赛扬 J4125 处理器，支持 6 块 2.5 英寸 SATA SSD。这款服务器主要定位是容器化和虚拟化，相较于机械硬盘 NAS，全闪存 NAS 可以提供更好的性能以及更安静，当然购买 6 块大容量固态硬盘的成本非常高，这也是无法绕过的问题。查看详情：https://ourl.co/113161&lt;/p&gt;&lt;p&gt;群晖推出桌面型全闪存 NAS 服务器 FS200T，这款服务器侧重点是高性能密集存储和安静小巧，为追求高性能的容器化和虚拟化用户提供更好的选择，全闪存指的是全部使用固态硬盘存储，当然这并非 NVMe 全闪存而是 SATA 全闪存，也就是用户需要购买 SATA 固态硬盘实现全闪存存储。&lt;/p&gt;
-&lt;p&gt;FS200T 体积与常规的 DS920 + 等机型类似，但因为只支持 2.5 英寸固态硬盘所以提供 6 盘位而非 4 盘位，相较于群晖其他机架式全闪存服务器，FS200T 可以说是小巧玲珑，而固态硬盘也不会像机械硬盘那样炒豆子，所以放在桌面上也是非常安静的。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113161-1.png" rel="nofollow"&gt;&lt;img alt="群晖推出桌面型全闪存服务器FS200T 采用J4125处理器+6盘位SATA SSD" data-src="https://img.landian.news/landian/2026/05/113161-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113161-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113161-2.png" rel="nofollow"&gt;&lt;img alt="群晖推出桌面型全闪存服务器FS200T 采用J4125处理器+6盘位SATA SSD" data-src="https://img.landian.news/landian/2026/05/113161-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113161-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sun, 31 May 2026 07:40:05 +0000</lastBuildDate><item><title>谷歌浏览器正式推出DBSC设备绑定会话凭证 Cookie被盗后也无法使用</title><link>https://www.landian.news/archives/113189.html</link><description>
+&lt;p&gt;#软件资讯 Chrome 浏览器正式推出 DBSC 设备绑定会话凭证功能，该功能可以应对 Cookie 被窃取造成的未经授权访问。DBSC 调用 TPM 或安全隔离区生成密钥来加密凭证，也就是 Cookie 需要成功校验设备后才能使用，因此盗用 Cookie 进行远程登录将失去意义，然而该功能需要网站适配，适配后才能使用。查看详情：https://ourl.co/113189&lt;/p&gt;&lt;p&gt;谷歌从很久以前就在测试基于设备的浏览器凭证绑定机制，该机制被称为 DBSC 设备绑定会话凭证，此功能经过测试后现在正式发布，不过这还需要网站适配 DBSC 机制进行凭证绑定，成功适配后用户 Cookie 等凭证即便被盗用，黑客也无法使用凭证直接登录用户账户。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;用户可能会在无意中安装恶意软件或恶意扩展程序，亦或者有些扩展程序通过后续更新用来读取本地存储的凭证并将其发送到服务器，攻击者提取凭证后可以实现不需要账户密码直接访问用户账户，致力于凭证窃取的攻击者可能还会将这种攻击产业化，也就是批量窃取海量凭证然后将其转售给下游黑客。&lt;/p&gt;
+&lt;p&gt;至关重要的是在任何操作系统上仅靠软件都无法可靠地阻止凭证泄露，以前缓解会话窃取的方法是事后使用复杂系统进行滥用启发式检测，这种被动检测机制很容易被攻击者绕过，而 DBSC 通过将防御范式从被动检测转变为主动预防，可以从根本上改变网站防御此类威胁的能力，确保即便 Cookie 泄露也无法被用于访问账户。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113189.png" rel="nofollow"&gt;&lt;img alt="谷歌浏览器正式推出DBSC设备绑定会话凭证 Cookie被盗后也无法使用" data-src="https://img.landian.news/landian/2026/05/113189.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113189.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;该机制将身份验证会话加密绑定到特定设备来防止窃取，其利用硬件支持的安全模块 (例如 Windows TPM 或 macOS 的安全隔离区) 生成独立的密钥对，该加密密钥不能从设备上导出，新会话的 Cookie 签发取决于谷歌浏览器向远程服务器证明拥有对应的私钥，由于攻击者无法窃取私钥，因此任何被窃取的 Cookie 都会失效所以继续窃取也没有意义。&lt;/p&gt;
+&lt;p&gt;这种设计允许网站在后端添加专用的检测和刷新 API 来升级到安全的硬件绑定会话，同时保持与前端的完全兼容性，浏览器在后台处理复杂的加密和 Cookie 轮换机制，所以网站可以像以前那样正常使用标准的 Cookie 进行访问。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;如果网站开发者基于安全考虑想要部署这项机制，则需要参考谷歌开源的 DBSC 机制实现文档，然后在后端服务器部署兼容策略，部署后可以应对凭证窃取显著提升用户账户安全性。&lt;/p&gt;
+&lt;p&gt;DBSC 技术规范：&lt;a href="https://www.landian.news/go?url=https://w3c.github.io/webappsec-dbsc/" rel="noopener" target="_blank"&gt;https://w3c.github.io/webappsec-dbsc/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;DBSC 技术文档：&lt;a href="https://www.landian.news/go?url=https://developer.chrome.com/docs/web-platform/device-bound-session-credentials?hl=zh-cn" rel="noopener" target="_blank"&gt;https://developer.chrome.com/docs/web-platform/device-bound-session-credentials?hl=zh-cn&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://www.landian.news/go?url=https://workspaceupdates.googleblog.com/2026/05/prevent-account-takeovers-with-DBSC-now-generally-available-in-the-Chrome-browser-for-Windows.html" rel="noopener" target="_blank"&gt;Google Workspace&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sun, 31 May 2026 07:40:05 +0000</pubDate></item><item><title>o3和GPT-4.5模型将被陆续从ChatGPT中删除 不过API端继续提供调用</title><link>https://www.landian.news/archives/113188.html</link><description>
+&lt;p&gt;#人工智能 OpenAI 宣布将逐步弃用 o3 和 GPT-4.5 模型，前者将在 90 天后弃用，后者将在 30 天后弃用。这些模型目前仅供付费用户在 ChatGPT 中选择使用且使用率非常低，所以 OpenAI 将逐步删除这些旧模型，API 端会继续提供这些模型的支持，通过 API 调用的开发者不受影响。查看详情：https://ourl.co/113188&lt;/p&gt;&lt;p&gt;据 OpenAI 本周发布的 ChatGPT 变更公告，OpenAI 已经更新 ChatGPT 中使用的 GPT-5.5 Instant 模型，同时 API 端的相关模型也同步更改，更改后的模型输出内容将更易于阅读、贴近日常对话，在实际帮助任务中的回复节奏也更好，减少废话太多的问题。&lt;/p&gt;
+&lt;p&gt;此次更新后 GPT-5.5 Instant 和 GPT-5.5 Thinking 模型将不再支持 Canvas 画布功能，用户可以直接通过文字和代码块在聊天中实现写作和编码功能，而 ChatGPT 付费用户可以在有限时间内继续通过旧版模型使用 Canvas 功能，直到这些模型也停止服务。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2025/02/107852.png" rel="nofollow"&gt;&lt;img alt="o3和GPT-4.5模型将被陆续从ChatGPT中删除 不过API端继续提供调用" data-src="https://img.landian.news/landian/2025/02/107852.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2025/02/107852.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;OpenAI 将逐步在 ChatGPT 中淘汰使用率较低的模型，默认情况下 ChatGPT 将使用更新后功能强大的模型。在公告发布的过渡期后，部分旧版模型将会被弃用无法在 ChatGPT 中使用，被弃用的模型包括 o3 和 GPT-4.5，不过在 API 端继续提供并且暂时没有弃用计划：&lt;/p&gt;
+&lt;p&gt;o3 模型：将在 2026 年 8 月 26 日后从 ChatGPT 中移除，现阶段该模型仅供付费用户选择使用。&lt;/p&gt;
+&lt;p&gt;GPT-4.5 模型：将在 2026 年 6 月 27 日 (30 天过渡期) 后从 ChatGPT 中移除，现阶段该模型也仅供付费用户使用。&lt;/p&gt;
+&lt;p&gt;API 端：OpenAI API 端暂时没有针对这些模型的弃用计划，开发者可以继续通过 API 调用 o3 和 GPT-4.5。&lt;/p&gt;
+</description><pubDate>Sun, 31 May 2026 07:07:13 +0000</pubDate></item><item><title>有企业忘记设置员工Claude API使用限额 结果1个月产生高达5亿美元的API账单</title><link>https://www.landian.news/archives/113166.html</link><description>
+&lt;p&gt;#人工智能 有公司忘记限制 Claude API 使用限额，结果产生高达 5 亿美元的天价账单。根据 A 社规定，Claude 席位超过 150 名时就必须使用企业版，企业版包含开通席位费，而真正使用全部按照 API 价格进行单独计费，默认所有席位不存在任何使用配额，无论是员工滥用还是不慎泄露相关凭证，都可能产生天价账单。查看详情：https://ourl.co/113166&lt;/p&gt;&lt;p&gt;知名科技媒体 AXIOS 日前发布报道称企业领导者开始质疑人工智能的花费飙升能否带来实质性回报，即很多企业正在急于拥抱人工智能而为员工提供各种先进模型的使用，企业原本目标是希望员工使用人工智能可以提高效率并降低整体人力资源成本，但想要达到这种目标并不是容易的事情。&lt;/p&gt;
+&lt;p&gt;例如微软就在内部取消大部分工程师的 Claude Code 许可证转而要求员工使用自家的产品，部分原因就是使用成本太高；优步首席运营官则表示人工智能高昂的使用成本越来越难以证明其合理性。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113166.png" rel="nofollow"&gt;&lt;img alt="有企业忘记设置员工Claude API使用限额 结果1个月产生高达5亿美元的API账单" data-src="https://img.landian.news/landian/2026/05/113166.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113166.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;AXIOS 在报道中还提到，有人工智能顾问称，其客户在 1 个月内产生高达 5 亿美元的 AI 天价账单，原因就是企业忘记设置员工的 Claude API 使用限额，这些员工可以无限制疯狂调用 API，至于是合理使用还是因为其他问题导致的滥用目前还不得而知，因为暂时还没有公司出来认领这件事。&lt;/p&gt;
+&lt;p&gt;说起来给员工分配 Claude API 权限但不设置使用限额是非常危险的事情，因为任何员工若不慎泄露 API 凭据都可能遭到恶意利用，单单 1 个月就产生高达 5 亿美元的账单着实让人惊讶，如果这家公司规模不是特别大的话，那有很大概率是员工不慎泄露 API 凭证造成海量花销。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 为什么企业必须使用 Claude API 而非限额订阅计划：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;根据 Anthropic 规定，当企业开通席位达到 150 人时就必须转为 Claude 企业版订阅方案，企业版订阅方案开通后只有访问权限 (此时收取席位费) 而非实际使用权限，实际使用全部按照 API 调用来单独计费，也就是说任何超过 150 名用户的企业从合规角度而言都必须开通 Claude 企业版而最终按照 API 价格来计费。&lt;/p&gt;
+&lt;p&gt;默认情况下 Claude 企业版席位是没有套餐或席位级别的使用量限制的，也就是任何开通企业版席位的用户都可以无限制使用 API，当然 A 社本身也提供企业或用户级别的消费限额，达到消费限额后就无法继续使用，只不过有些企业可能忘记设置必要的使用限额。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;AXIOS 的报道中还提到某企业首席技术官分享的消息，该企业员工竟然使用先进 AI 模型来查看天气或者聊天，如果员工使用各类搜索引擎或天气网站来查询天气那是没有成本的，但如果使用 AI 模型来查询这就会产生使用成本，而企业级人工智能计划并不总是真正的无限量供应，背后都需要企业支付最终消费账单。&lt;/p&gt;
+&lt;p&gt;这篇报道其实也在提醒那些急于拥抱人工智能的企业，拥抱人工智能是可以的，但需要进行多种层面的综合考量，例如整体使用成本、能否真正提高生产力、能不能带来更高的回报等等，如果没有综合考量就直接拥抱人工智能，那可能无法带来切实的回报。&lt;/p&gt;
+</description><pubDate>Sun, 31 May 2026 06:31:12 +0000</pubDate></item><item><title>欧盟科技公司联合推出Euro-Office开源办公套件 用于替代Microsoft 365</title><link>https://www.landian.news/archives/113165.html</link><description>
+&lt;p&gt;#软件资讯 欧盟多家科技公司联合推出 Euro-Office 开源办公套件项目，将在 6 月 9 日发布首个版本，提供文档、表格、演示文稿、电子邮件、网盘、日历、视频通话、邮件等多种子套件。该项目基于 ONLYOFFICE 开发，旨在强调数字主权，可以通过私有化部署将云端服务全部部署在本地，当然软件本身也供全球用户使用。查看详情：https://ourl.co/113165&lt;/p&gt;&lt;p&gt;由多家欧盟科技公司联合发起的开源办公软件套件项目 Euro-Office 将在 2026 年 6 月 9 日发布其首个稳定版本，该办公套件主要是用来完全替代 Microsoft 365，其代码完全开源以及主要基础设施位于欧洲，对欧洲而言这段是数字主权独立的关键性举措，可以脱离对外国信息技术提供商的依赖。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113165-1.png" rel="nofollow"&gt;&lt;img alt="欧盟科技公司联合推出Euro-Office开源办公套件 用于替代Microsoft 365" data-src="https://img.landian.news/landian/2026/05/113165-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113165-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113165-2.png" rel="nofollow"&gt;&lt;img alt="欧盟科技公司联合推出Euro-Office开源办公套件 用于替代Microsoft 365" data-src="https://img.landian.news/landian/2026/05/113165-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113165-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; Euro-Office 包含多种套件满足真实使用需求：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;机型核心：Intel Celeron J4125 😂😂😂&lt;/li&gt;
-&lt;li&gt;核心总数：4 颗、4 线程、64 位架构&lt;/li&gt;
-&lt;li&gt;核心频率：基础频率 2.0GHz、最高频率 2.7GHz&lt;/li&gt;
-&lt;li&gt;默认内存：4GB DDR4 非 ECC 内存，最高可扩展到 8GB 内存&lt;/li&gt;
-&lt;li&gt;盘位总数：6 盘位&lt;/li&gt;
-&lt;li&gt;硬盘类型：2.5 英寸 SATA SSD (机器本身不附带硬盘)&lt;/li&gt;
-&lt;li&gt;网络配置：1GbE RJ45+2.5GbE RJ45 网口&lt;/li&gt;
-&lt;li&gt;外部连接：USB 3.2 Gen 1 x 2&lt;/li&gt;
-&lt;li&gt;尺寸重量：121 x 151 x 175 毫米、1.4 千克&lt;/li&gt;
-&lt;li&gt;硬件风扇：单风扇，80 x 80 毫米，支持更换&lt;/li&gt;
-&lt;li&gt;售后政策：3 年硬件保修，可加钱购买最长 5 年保修&lt;/li&gt;
-&lt;li&gt;附件清单：1 主机 + 1 配件包 + 1 电源适配器 + 1 电源线 + 2 条网线&lt;/li&gt;
-&lt;li&gt;选购配件：DDR4 非 ECC SODIMM 内存 D4NS01-4G、SAT5200 系列 SATA 固态硬盘&lt;/li&gt;
+&lt;li&gt;网盘功能：该功能遵循欧洲法规和司法管辖区相关规定，让用户可以可靠的存储文件并满足隐私保护需求。&lt;/li&gt;
+&lt;li&gt;文档功能：该功能提供快速且合规的文档创建和编辑功能，体验与 Microsoft Word 类似且提供完整兼容。&lt;/li&gt;
+&lt;li&gt;表格功能：该功能提供安全且符合 GDPR 要求的协作功能，体验与 Microsoft Excel 类似且提供完整兼容。&lt;/li&gt;
+&lt;li&gt;演示功能：该功能让用户可以利用内置的多种模板、动画和团队协作功能创建专业的幻灯片 / 演示文稿。&lt;/li&gt;
+&lt;li&gt;对话功能：基于欧盟内部基础设施的视频会议软件，提供屏幕共享、录制、实时协作等安全视频通话功能。&lt;/li&gt;
+&lt;li&gt;日历功能：可以协调日程安排、提醒和发送邀请等，数据同样保留在欧洲基础设施且受到 GDPR 法规保护。&lt;/li&gt;
+&lt;li&gt;邮件功能：Euro-Office 也提供电子邮件客户端，提供符合 GDPR 标准的加密电子邮件通信服务，干净无广告。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;使用群晖桌面型 NAS 服务器的用户可能都知道，4~6 块机械硬盘在运行时噪音非常大，类似于炒豆子的声音，同时机械硬盘因固有性能问题在用户运行虚拟机和容器时无法提供更高的性能，视频创作工作室也无法通过挂载群晖存储实现更高的读写性能。&lt;/p&gt;
-&lt;p&gt;FS200T 是群晖为家庭用户和小型工作室提供的过渡档选择，也就是介于 DS 桌面服务器与 FS 机架式服务器之间，全闪存配置能够提供双倍甚至更高的机械硬盘读写速度 (也取决于硬盘性能和 RAID 类型)，同时保持低功耗安静运行，因此放在桌面上也是完全可以接受的。&lt;/p&gt;
-&lt;p&gt;当然全闪存服务器的缺点在于用户需要购买固态硬盘，本身现在硬盘价格就已经非常高，购买 6 块大容量固态硬盘的成本可能要远高于 FS200T 购买价格，因此对用户而言也需要考虑实际工作环境是否真需要全闪存性能，否则购买 DS 系列 + 机械硬盘可能是最好的选择。&lt;/p&gt;
-</description><pubDate>Sat, 30 May 2026 05:55:16 +0000</pubDate></item><item><title>搬瓦工上线新加坡机房 全程CN2GIA/CTGNET精品线路 直连下载速度高达25MB/秒</title><link>https://www.landian.news/archives/113160.html</link><description>
-&lt;p&gt;知名服务器提供商搬瓦工日前上线新加坡机房 (SG_8)，该机房主要适用于东亚和东南亚地区的高速访问，相关机型采用 CN2GIA/CTGNET/CMIN2 等精品线路，根据 VPSTrack 提供的测试数据，国内直连单线程下载速度最高可达 25MB / 秒，这个下载速度甚至要超过很多位于香港的服务器。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113160-2.png" rel="nofollow"&gt;&lt;img alt="搬瓦工上线新加坡机房 全程CN2GIA/CTGNET精品线路 直连下载速度高达25MB/秒" data-src="https://img.landian.news/landian/2026/05/113160-2.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113160-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;欧盟这款新办公软件基于 ONLYOFFICE 开发并采用 AGPL3.0 许可证，Euro-Office 支持欧盟乃至全世界的用户免费下载使用，同时后续开发和维护工作将由发起公司与开源社区合作完成，例如用户可以提交新功能需求、为项目贡献代码、提交问题反馈等等。&lt;/p&gt;
+&lt;p&gt;至于为什么基于 ONLYOFFICE 而非采用这款开源办公软件，开发团队也给出解释：ONLYOFFICE 此前在项目里添加独立附加条款导致其不符合任何主流开源许可证的规定，例如禁止衍生版本修改品牌且禁止使用相关商标，这种做法引起下游开发者的不满，这可能还会带来其他版权方面的风险。&lt;/p&gt;
+&lt;p&gt;Euro-Office 基于 GNU AGPL 许可证创建者和法律专家提供的建议后认为，在重新分发过程中可以从原始项目许可里删除限制性补充条款 (冲突部分)，该原则在 GNU AGPL 许可证第 10 条中有明确规定，因此 Euro-Office 有权将不包含上游项目限制性条款放在产品里继续开源分发。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;根据测试，搬瓦工新加坡机房服务器全程采用精品优化线路，只有中国联通到国内后程才会使用 AS4837 这样的普通线路 (但后程影响已经非常小)，而中国电信和中国移动不会走普通线路，这样可以确保无论是电信、移动还是联通用户都可以获得极高的访问速度和极低的延迟。&lt;/p&gt;
-&lt;p&gt;路由层面，搬瓦工新加坡机房主要通过香港进行中转，也就是新加坡 → 香港 → 国内，相较于绕行大板或东京以及洛杉矶的新加坡服务器，搬瓦工新加坡服务器可以提供无与伦比的访问体验。&lt;/p&gt;
-&lt;p&gt;稍显遗憾的是搬瓦工新加坡机房的 IPv6 移动和联通要逊于电信，中国电信 IPv6 全程依然采用 CN2GIA 精品线路，中国移动 IPv6 则全程 CMIN2 精品线路，中国联通 IPv6 全程 AS4837 普通线路，所以使用中国联通 IPv6 访问体验可能远不如中国电信和中国移动。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113160-1.png" rel="nofollow"&gt;&lt;img alt="搬瓦工上线新加坡机房 全程CN2GIA/CTGNET精品线路 直连下载速度高达25MB/秒" data-src="https://img.landian.news/landian/2026/05/113160-1.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113160-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;近些年欧盟越来越注重数字主权且通过实施 GDPR 等法律条款来保障欧盟用户的数字隐私权，但像是 Microsoft 365 等办公套件会持续收集用户的使用信息并将其传输到微软在美国的服务器，尽管微软强调传输的数据都是脱敏的，但欧盟还是坚信只有自己开发的软件才是真正可信的，所以现在有了 Euro-Office 等开源项目。&lt;/p&gt;
+&lt;p&gt;通过该项目欧盟政府机构、教育机构和个人用户都可以放心使用，由于代码完全开源，对于追求高度安全性的机构来说甚至可以进行私有部署，例如将涉及云存储的内容全部部署到自己的服务器，因此对企业来说 Euro-Office 也是个值得关注的项目，毕竟能自己部署和掌控数据以及开源免费，这可以将低成本和提高安全性。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://www.landian.news/go?url=https://github.com/Euro-Office" rel="noopener" target="_blank"&gt;Euro-Office&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sun, 31 May 2026 05:56:02 +0000</pubDate></item><item><title>黑客利用ChatGPT功能在谷歌投放钓鱼广告 诱导用户下载恶意安装包</title><link>https://www.landian.news/archives/113164.html</link><description>
+&lt;p&gt;#安全资讯 黑客利用 ChatGPT 功能在谷歌投放钓鱼广告，诱导用户下载恶意软件包。ChatGPT Canvas 画布功能可以用来创建类似 HTML 的页面，黑客仿冒 ChatGPT 网站称当前访问量太大要求用户下载带毒的桌面版，由于本身分享页面就是 ChatGPT 官方域名，所以用户在谷歌搜索和浏览器地址栏里无法看出来这是恶意内容。查看详情：https://ourl.co/113164&lt;/p&gt;&lt;p&gt;近期黑客正在积极利用 ChatGPT 和 Claude 等流行的人工智能工具进行钓鱼，黑客选择这些工具是因为搜索量高且可以通过插件或内容共享等方式复用官方域名，至少对大多数用户而言直接从谷歌搜索结果的置顶广告里看不出来这是钓鱼网站，因此黑客的钓鱼成功率要显著更高。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;2 核心 + 2GB 内存 + 500GB 流量 + 40GB 固态盘 + 1.5Gbps 带宽：每月 49.99 美元 [&lt;a href="https://www.landian.news/go?url=https://lancdn.co/bw173" rel="noopener" target="_blank"&gt; 查看详情 &lt;/a&gt;]&lt;/li&gt;
-&lt;li&gt;4 核心 + 4GB 内存 + 1000GB 流量 + 80GB 固态盘 + 1.5Gbps 带宽：每月 86.99 美元 [&lt;a href="https://www.landian.news/go?url=https://lancdn.co/bw174" rel="noopener" target="_blank"&gt; 查看详情 &lt;/a&gt;]&lt;/li&gt;
-&lt;li&gt;6 核心 + 8GB 内存 + 2000GB 流量 + 160GB 固态盘 + 2.5Gbps 带宽：每月 165.99 美元 [&lt;a href="https://www.landian.news/go?url=https://lancdn.co/bw175" rel="noopener" target="_blank"&gt; 查看详情 &lt;/a&gt;]&lt;/li&gt;
-&lt;li&gt;8 核心 + 16GB 内存 + 4000GB 流量 + 320GB 固态盘 + 2.5Gbps 带宽：每月 329.99 美元 [&lt;a href="https://www.landian.news/go?url=https://lancdn.co/bw176" rel="noopener" target="_blank"&gt; 查看详情 &lt;/a&gt;]&lt;/li&gt;
-&lt;li&gt;10 核心 + 32GB 内存 + 6000GB 流量 + 640GB 固态盘 + 5Gbps 带宽：每月 549.99 美元 [&lt;a href="https://www.landian.news/go?url=https://lancdn.co/bw177" rel="noopener" target="_blank"&gt; 查看详情 &lt;/a&gt;]&lt;/li&gt;
-&lt;li&gt;12 核心 + 64GB 内存 + 8000GB 流量 + 1TB 固态硬盘 + 5Gbps 带宽：每月 1059.99 美元 [&lt;a href="https://www.landian.news/go?url=https://lancdn.co/bw178" rel="noopener" target="_blank"&gt; 查看详情 &lt;/a&gt;]&lt;/li&gt;
-&lt;li&gt;搬瓦工所有服务器对于新用户都支持 30 天无理由退款，但请注意这主要是方便用户测试，故意薅羊毛可能情况会不同。&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;ChatGPT Canvas 功能可以用来创建类似网页的画布，在最新被发现的钓鱼活动中黑客就是利用这个功能创建仿冒的 ChatGPT 官方网站，在画布里黑客称当前访问量太高要求用户下载桌面版继续访问，而这个桌面版下载按钮其实指向黑客提供的恶意安装包。&lt;/p&gt;
+&lt;p&gt;这种钓鱼方式有多种显著特点：1. 黑客使用 ChatGPT 画布创建内容并分享，因此内容链接依然是 ChatGPT.com；2. 黑客在谷歌搜索里投放广告，广告显示的地址也是 ChatGPT.com，这可以降低用户的戒备心；3. 用户点击广告进入落地页后地址栏也依然显示的是 ChatGPT.com，而且这个网站是不会被安全软件拦截的。&lt;/p&gt;
+&lt;p&gt;对 OpenAI 来说也不太可能对用户创建的内容进行分享审核，所以未来此类钓鱼攻击应该会显著增加，对用户而言直接安装广告拦截扩展程序将谷歌搜索或其他搜索引擎的广告屏蔽可能是不错的选择。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113164-1.png" rel="nofollow"&gt;&lt;img alt="黑客利用ChatGPT功能在谷歌投放钓鱼广告 诱导用户下载恶意安装包" data-src="https://img.landian.news/landian/2026/05/113164-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113164-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src="https://img.landian.news/landian/2026/05/113164-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113164-2.png"/&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;北京电信 v4：中国电信 CN2GIA 精品线路→中国电信 CTGNET 精品线路&lt;/li&gt;
-&lt;li&gt;北京联通 v4：中国电信 CN2GIA 精品线路→中国电信 CTGNET 精品线路→中国联通 AS4837 普通线路&lt;/li&gt;
-&lt;li&gt;北京移动 v4：中国电信 CN2GIA 精品线路→中国电信 CTGNET 精品线路&lt;/li&gt;
-&lt;li&gt;上海电信 v4：中国电信 CN2GIA 精品线路→中国电信 CTGNET 精品线路&lt;/li&gt;
-&lt;li&gt;上海联通 v4：中国电信 CN2GIA 精品线路→中国电信 CTGNET 精品线路→中国联通 AS4837 普通线路&lt;/li&gt;
-&lt;li&gt;上海移动 v4：中国电信 CN2GIA 精品线路→中国电信 CTGNET 精品线路&lt;/li&gt;
-&lt;li&gt;广州电信 v4：中国电信 CN2GIA 精品线路→中国电信 CTGNET 精品线路&lt;/li&gt;
-&lt;li&gt;广州联通 v4：中国电信 CN2GIA 精品线路→中国电信 CTGNET 精品线路→中国联通 AS4837 普通线路&lt;/li&gt;
-&lt;li&gt;广州移动 v4：中国电信 CN2GIA 精品线路→中国电信 CTGNET 精品线路&lt;/li&gt;
-&lt;li&gt;成都电信 v4：中国电信 CN2GIA 精品线路→中国电信 CTGNET 精品线路&lt;/li&gt;
-&lt;li&gt;成都联通 v4：中国电信 CN2GIA 精品线路→中国电信 CTGNET 精品线路→中国联通 AS4837 普通线路&lt;/li&gt;
-&lt;li&gt;成都移动 v4：中国电信 CN2GIA 精品线路→中国电信 CTGNET 精品线路&lt;/li&gt;
-&lt;li&gt;北京电信 v6：中国电信 CN2GIA 精品线路&lt;/li&gt;
-&lt;li&gt;北京联通 v6：中国联通 AS4837 普通线路&lt;/li&gt;
-&lt;li&gt;北京移动 v6：中国移动 CMIN2 精品线路&lt;/li&gt;
-&lt;li&gt;上海电信 v6：中国电信 CN2GIA 精品线路&lt;/li&gt;
-&lt;li&gt;上海联通 v6：中国联通 AS4837 普通线路&lt;/li&gt;
-&lt;li&gt;上海移动 v6：中国移动 CMIN2 精品线路&lt;/li&gt;
-&lt;li&gt;广州电信 v6：中国电信 CN2GIA 精品线路&lt;/li&gt;
-&lt;li&gt;广州联通 v6：中国联通 AS4837 普通线路&lt;/li&gt;
-&lt;li&gt;广州移动 v6：中国移动 CMIN2 精品线路&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;IPv4：&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;pre&gt;Apple YES (Region: SGP) [Native]
-BingSearch YES (Region: WW)
-Claude YES (Region: SG) [Native]
-Dazn YES (Region: SG) [Native]
-Disney+ YES (Region: SG) [Native]
-Gemini YES (Region: SG) [Native]
-GoogleSearch YES
-Google Play Store YES (Region: SG) [Native]
-IQiYi YES (Region: US) [Native]
-Instagram Licensed Audio YES [Native]
-KOCOWA NO
-MetaAI YES [Native]
-Netflix YES (Region: SG) [Native]
-Netflix CDN SG
-OneTrust YES (Region: SG) [Native]
-ChatGPT YES (Region: SG) [Native]
-Paramount+ YES [Native]
-Amazon Prime Video YES (Region: SG) [Native]
-Reddit YES
-SonyLiv YES (Region: SG) [Native]
-Sora YES (Region: SG)
-Spotify Registration YES (Region: SG) [Native]
-Steam Store YES (Community Available) (Region: SG)
-TVBAnywhere+ YES (Region: SG) [Native]
-TikTok YES (Region: CA) [Native]
-Viu.com YES [Native]
-Wikipedia Editability NO
-YouTube Region YES (Region: SG) [Native]
-YouTube CDN pniada - AS&lt;/pre&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;IPV6:&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;pre&gt;Apple YES (Region: SGP) [Native]
-BingSearch YES (Region: WW)
-Claude YES (Region: SG) [Native]
-Dazn N/A (No IPv6 Support)
-Disney+ YES (Region: SG) [Native]
-Gemini YES (Region: SG) [Native]
-GoogleSearch YES
-Google Play Store YES (Region: SG) [Native]
-IQiYi N/A (No IPv6 Support)
-Instagram Licensed Audio YES [Native]
-KOCOWA N/A (No IPv6 Support)
-MetaAI YES [Native]
-Netflix YES (Region: SG) [Native]
-Netflix CDN SG
-OneTrust YES (Region: SG) [Native]
-ChatGPT Unknown
-Paramount+ YES [Native]
-Amazon Prime Video N/A (No IPv6 Support)
-Reddit Failed (Network Connection Failed)
-SonyLiv YES (Region: SG) [Native]
-Sora YES (Region: SG)
-Spotify Registration YES (Region: SG) [Native]
-Steam Store Failed (Network Connection Failed)
-TVBAnywhere+ N/A (No IPv6 Support)
-TikTok N/A (No IPv6 Support)
-Viu.com N/A (No IPv6 Support)
-Wikipedia Editability NO
-YouTube Region YES (Region: SG) [Native]
-YouTube CDN SIN&lt;/pre&gt;
-</description><pubDate>Sat, 30 May 2026 04:39:32 +0000</pubDate></item><item><title>锐炫(ARC)不仅是显卡！英特尔基于锐炫品牌推出适用于游戏掌机的CPU处理器</title><link>https://www.landian.news/archives/113159.html</link><description>
-&lt;p&gt;#硬件设备 锐炫 ARC 不仅是显卡！英特尔基于锐炫品牌推出适用于游戏掌机的 CPU 处理器，直接与 AMD RYZEN 游戏掌机处理器竞争。英特尔称 Arc G3 处理器仅适用于 Windows 11 系统，不过从架构来看应该也支持 Linux，这点非常重要，因为关乎到掌机能不能刷成 SteamOS 系统。查看详情：https://ourl.co/113159&lt;/p&gt;&lt;p&gt;Intel Arc (官方中文名叫锐炫) 是英特尔推出的显卡品牌，当然就市场份额而言锐炫显卡还是比较糟糕的，此前甚至有消息称英特尔将再次放弃独立显卡业务线，不过现在锐炫显卡还是在继续更新的，英特尔可能会根据后续情况再决定是否保留这类消费级独立显卡业务。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113159.png" rel="nofollow"&gt;&lt;img alt="锐炫(ARC)不仅是显卡！英特尔基于锐炫品牌推出适用于游戏掌机的CPU处理器" data-src="https://img.landian.news/landian/2026/05/113159.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113159.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;英特尔日前宣布基于锐炫品牌推出适用于 Windows 11 游戏掌机的 Arc G 系列处理器，这些游戏处理器集成 Xe3 显卡并在电源管理方面进行显著改进，为玩家提供充足游戏性能的同时也兼顾游戏掌机的续航问题，让玩家可以在脱离电源的情况下玩更长时间的游戏。&lt;/p&gt;
-&lt;p&gt;首发处理器包括 Arc G3 和 Arc G3 Extreme 处理器，这些处理器基于 Intel Panther Lake 架构，首批采用这些处理器的游戏掌机包括宏碁 Atlas 8、微星 Claw 8 EX AI + 和 OneXPlayer 等，原本这类游戏掌机主要采用的都是 AMD RYZEN 系列定制处理器，英特尔现在是准备进军游戏掌机处理器市场与 AMD 竞争。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;总核心数：14颗，其中性能核心 2 颗，高效核心 8 颗，低功耗高效核心 4 颗&lt;/li&gt;
-&lt;li&gt;总线程数：14&lt;/li&gt;
-&lt;li&gt;最高频率：4.7GHz&lt;/li&gt;
-&lt;li&gt;最大内存：96GB&lt;/li&gt;
-&lt;li&gt;内存规格：最高支持 LPDDR5X 8533 MT/s&lt;/li&gt;
-&lt;li&gt;缓存大小：12MB&lt;/li&gt;
-&lt;li&gt;基本功耗：25W&lt;/li&gt;
-&lt;li&gt;最大功耗：80W&lt;/li&gt;
-&lt;li&gt;制程工艺：Intel 18A&lt;/li&gt;
-&lt;li&gt;显卡名称：Arc B390&lt;/li&gt;
-&lt;li&gt;图形频率：最高 2.3GHz&lt;/li&gt;
-&lt;li&gt;int8 TOPS：113&lt;/li&gt;
-&lt;li&gt;光线追踪：支持&lt;/li&gt;
-&lt;li&gt;硬件解码：H.264 编解码、H.265 编解码、H.266 仅解码、AV1 编解码&lt;/li&gt;
-&lt;li&gt;制程工艺：TSMC N3E&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;英特尔在发布会中明确表示这些处理器是专门为 Windows 11 设备设计的，但考虑到上游 Panther Lake 架构和 Xe3 的图形支持，或许这些处理器也可以用来运行 Linux 系统，这是个非常重要的问题，因为这关乎到最终设备能否运行 Valve 的 SteamOS 系统。&lt;/p&gt;
-&lt;p&gt;SteamOS 系统底层是基于 Linux 的，如果 G3 系列处理器也可以兼容 Linux 的话，那未来那些搭载 Windows 11 系统的 G3 游戏掌机也可以安装 SteamOS 系统，至少从游戏体验角度而言，在掌机上使用 SteamOS 要比使用 Windows 11 体验更好。&lt;/p&gt;
-</description><pubDate>Fri, 29 May 2026 06:00:23 +0000</pubDate></item><item><title>代码编辑器Zed宣布变更许可证 从AGPL变更为更加宽松的GPL解决企业担心的问题</title><link>https://www.landian.news/archives/113158.html</link><description>
-&lt;p&gt;#软件资讯 知名代码编辑器 Zed 宣布变更开源许可证，从 AGPL 变更为更宽松的 GPL 许可证，解决部分企业法务团队担忧的版权问题。目前 AGPL 许可证已经从项目中删除，现在 Zed 仅使用 GPL 和 Apache 开源许可证，这样可以让更多开源项目开发者和企业工程师在工作中使用 Zed。查看详情：https://ourl.co/113158&lt;/p&gt;&lt;p&gt;备受欢迎的代码编辑器 Zed 日前宣布从核心仓库里删除 AGPL 附加许可证，删除后仓库代码使用标准的 GPL 许可证和 Apache 许可证，原本使用 AGPL 许可证的主要是 Zed 协作服务器组件，有兴趣的开发者可以通过 PR#57948 查看详细的变更说明。&lt;a href="https://www.landian.news/go?url=https://github.com/zed-industries/zed/discussions/24657" rel="noopener" target="_blank"&gt;另外项目说明也同步完成更新&lt;/a&gt;，声明该项目使用 GPL 3.0 和 Apache 2.0 许可证，不再提及 AGPL 相关许可证。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113158.png" rel="nofollow"&gt;&lt;img alt="代码编辑器Zed宣布变更许可证 从AGPL变更为更加宽松的GPL解决企业担心的问题" data-src="https://img.landian.news/landian/2026/05/113158.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113158.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;GPL 与 AGPL 许可证的核心区别在于对网络使用的处理方式，以上许可证均为强版权保留许可证，GPLv3 许可证要求：只有当你分发修改后的软件才必须公开你的修改源码，无论是源码本身还是二进制内容。如果只是在本地运行或者将修改后的版本部署在自己服务器上通过网络提供服务 (SaaS)，不需要向外部用户公开修改后的源代码，这也就是我们常说的 ASP 漏洞或 SaaS 漏洞。&lt;/p&gt;
-&lt;p&gt;而 AGPLv3 许可证额外要求，只要用户通过网络与修改后的程序进行交互 (即便没有下载二进制文件) 也被视为分发，因此你必须向用户 提供获取对应修改源代码的机会 (通常是在界面上提供源代码下载链接或在网页底部显著位置声明许可证类型和提供链接)。&lt;/p&gt;
-&lt;p&gt;AGPL 许可证的显著特点在于防止云计算厂商利用获取的源代码改成自家产品并提供服务，但却不回馈开源社区，这种情况此前已经出现过很多次，所以不少软件都修改许可证进行限制，而对企业来说 AGPL 属于高风险许可证，存在潜在的法律风险。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;主要解决的就是部分企业法务按照许可证条款评估潜在的版权风险，在部分企业中法务团队禁止工程师使用 Zed 这样的包含 AGPL 许可证的软件，对 Zed 来说这可能不利于用户增长，当然变更许可证后可能会获得更多企业级用户的认可，只是也难免出现企业魔改 Zed 后再分发，但不为 Zed 项目提供支持的情况。&lt;/p&gt;
-&lt;p&gt;此次变更后原本项目中的 AGPL 许可证文件已经被删除，&lt;a href="https://www.landian.news/go?url=https://github.com/zed-industries/zed/blob/main/LICENSE-AGPL" rel="noopener" target="_blank"&gt;相关链接目前也已经 HTTP 404&lt;/a&gt;，有兴趣的开发者可以直接访问 Zed 项目主页查看变更详情。&lt;/p&gt;
-</description><pubDate>Fri, 29 May 2026 05:30:23 +0000</pubDate></item><item><title>公共利益注册局将在6月1日上调ORG域名注册和续费价格 涨价后约11美元/年</title><link>https://www.landian.news/archives/113157.html</link><description>
-&lt;p&gt;#域名资讯 公共利益注册局将在 6 月 1 日上调 ORG 域名注册和续费价格，涨价后约 11 美元 / 年，适用于所有注册、续费、转移。ORG 域名上次涨价还是在 2016 年，10 年没涨价也算是良心了，不过持有 ORG 域名的用户还是可以考虑提前续费降低成本，11 美元是批发价，实际注册商还要加服务费和 ICANN 管理费。查看详情：https://ourl.co/113157&lt;/p&gt;&lt;p&gt;公共利益注册局 (PIR) 此前已经发布通知，宣布 ORG 域名将会从 2026 年 6 月 1 日开始涨价，ORG 域名上次涨价时间还是在 2016 年，满 10 年才涨价也算是良心，不过对于持有 ORG 域名的用户来说涨价总归是不好的，所以可以考虑提前注册、续费、转移域名，尤其是长期使用的域名可以趁着还未涨价直接续费多年。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113157.png" rel="nofollow"&gt;&lt;img alt="公共利益注册局将在6月1日上调ORG域名注册和续费价格 涨价后约11美元/年" data-src="https://img.landian.news/landian/2026/05/113157.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113157.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;ORG 域名批发原价 9.93 美元 / 年 (批发价指的是给域名注册商提供的价格)，涨价后 11 美元 / 年，新价格适用于 ORG 域名的注册、续费、转移，而不同域名注册商自然还要加服务费以及 ICANN 管理费，所以最终价格会超过 11 美元 / 年，例如 Cloudflare 提供的 ORG 域名将从 6 月 1 日开始从 10.13 美元涨价到 11.20 美元，Cloudflare 不收取服务费直接以成本价提供给用户，而多出来的 0.2 美元就是 ICANN 管理费。&lt;/p&gt;
-&lt;p&gt;ORG 域名最长支持续费 10 年，因此用户可以提前锁定原价进行续费以获得最佳价格，新注册或续费 10 年的成本为 101.3 美元 (参考 Cloudflare)，单独年付的话则需要 112 美元，如果用户持有大量 ORG 域名那提前续费可能是最佳选择。&lt;/p&gt;
-</description><pubDate>Fri, 29 May 2026 05:00:21 +0000</pubDate></item></channel></rss>
+&lt;p&gt;此前已经有用户注意到 Claude 相关的钓鱼网站也出现在谷歌搜索广告里，其钓鱼手法与 ChatGPT 案例类似，也是利用 Claude.Ai 的内容分享功能，黑客首先利用 Claude 创建恶意对话，里面包含指向黑客控制的钓鱼网站或恶意软件下载链接，黑客提前制作针对多种热门软件的内容分享，例如当用户搜索 CPU-Z 时首页置顶广告就会引导用户跳转到 Claude.Ai 的分享内容，然后再诱导用户点击链接下载恶意软件。&lt;/p&gt;
+&lt;p&gt;Anthropic 显然也不会对用户分享的内容进行审核，所以这种钓鱼方式其实很难彻底斩断，这也是为什么说直接屏蔽各种搜索引擎广告可能是最佳做法的原因。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://www.landian.news/go?url=https://x.com/CreatedByJannn/status/2060337951213592581/photo/2" rel="noopener" target="_blank"&gt;Jan&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sun, 31 May 2026 05:04:06 +0000</pubDate></item></channel></rss>
