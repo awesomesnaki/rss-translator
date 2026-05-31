@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sun, 31 May 2026 07:40:05 +0000</lastBuildDate><item><title>谷歌浏览器正式推出DBSC设备绑定会话凭证 Cookie被盗后也无法使用</title><link>https://www.landian.news/archives/113189.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sun, 31 May 2026 08:56:57 +0000</lastBuildDate><item><title>快速模式启动！Codex预计将在今天深夜重置额度 请立即刷起来</title><link>https://www.landian.news/archives/113190.html</link><description>
+&lt;p&gt;#人工智能 快速模式启动！Codex 预计将在今天深夜到明天凌晨重置当周使用额度，原因是 Codex 用户量达到 500 万名。遗憾的是 Codex 自然周配额在今天早晨刚刚完成重置 (目前所有付费用户的重置时间都是相同的)，大多数用户账户剩余配额还很多，这时候只能开着快速模式赶紧刷，把 5 小时限额拉满、尽可能消耗当周限额。查看详情：https://ourl.co/113190&lt;/p&gt;&lt;p&gt;Codex 已经在 5 月 31 日早晨正常重置用户每周使用配额 (因为现在产品团队手动重置配额后所有用户的自然重置时间都是相同的)，不过接下来 Codex 将会再次重置配额，这次重置配额的原因是 Codex 用户量达到 500 万名，也就是每次新增 100 万名用户 Codex 都会重置当周使用配额。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src="https://img.landian.news/landian/2026/05/113190-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113190-1.png"/&gt;&lt;/p&gt;
+&lt;p&gt;但如上面所说现在 Codex 重置配额并不是在用户自然周内重置，可能很多用户当前的自然周使用配额都很少，例如蓝点网账号当前周使用配额还剩 75%，这时候再次被重置只能说是血亏，所以必须立即以最快速度将正常自然周配额全部消耗掉，这也是为什么要使用快速模式的原因。&lt;/p&gt;
+&lt;p&gt;快速模式提供更高的响应速度但配额消耗速度更快，对于开发者而言可以使用快速模式尽可能消耗当前剩余配额并完成更多工作，遗憾的是 5 小时滚动限额还在，因此开发者们能够消耗的配额实际上也非常有限，所以接下来就看各位如何消耗了。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src="https://img.landian.news/landian/2026/05/113190-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113190-2.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Codex 团队位于美国旧金山因此使用太平洋夏令时，Codex 产品经理发帖时说的是明天早晨重置使用时间，按照当地时间早晨 (到上午) 时间推算，国内时间可能是 5 月 31 日 23:00~6 月 1 日 01:00，从现在到夜里还有 8 小时左右的窗口期，各位可以尽情在窗口期内挥霍配额，只要 5 小时限额不满那就能疯狂用起来。&lt;/p&gt;
+</description><pubDate>Sun, 31 May 2026 08:56:57 +0000</pubDate></item><item><title>谷歌浏览器正式推出DBSC设备绑定会话凭证 Cookie被盗后也无法使用</title><link>https://www.landian.news/archives/113189.html</link><description>
 &lt;p&gt;#软件资讯 Chrome 浏览器正式推出 DBSC 设备绑定会话凭证功能，该功能可以应对 Cookie 被窃取造成的未经授权访问。DBSC 调用 TPM 或安全隔离区生成密钥来加密凭证，也就是 Cookie 需要成功校验设备后才能使用，因此盗用 Cookie 进行远程登录将失去意义，然而该功能需要网站适配，适配后才能使用。查看详情：https://ourl.co/113189&lt;/p&gt;&lt;p&gt;谷歌从很久以前就在测试基于设备的浏览器凭证绑定机制，该机制被称为 DBSC 设备绑定会话凭证，此功能经过测试后现在正式发布，不过这还需要网站适配 DBSC 机制进行凭证绑定，成功适配后用户 Cookie 等凭证即便被盗用，黑客也无法使用凭证直接登录用户账户。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;用户可能会在无意中安装恶意软件或恶意扩展程序，亦或者有些扩展程序通过后续更新用来读取本地存储的凭证并将其发送到服务器，攻击者提取凭证后可以实现不需要账户密码直接访问用户账户，致力于凭证窃取的攻击者可能还会将这种攻击产业化，也就是批量窃取海量凭证然后将其转售给下游黑客。&lt;/p&gt;
@@ -57,16 +65,4 @@
 &lt;p&gt;近些年欧盟越来越注重数字主权且通过实施 GDPR 等法律条款来保障欧盟用户的数字隐私权，但像是 Microsoft 365 等办公套件会持续收集用户的使用信息并将其传输到微软在美国的服务器，尽管微软强调传输的数据都是脱敏的，但欧盟还是坚信只有自己开发的软件才是真正可信的，所以现在有了 Euro-Office 等开源项目。&lt;/p&gt;
 &lt;p&gt;通过该项目欧盟政府机构、教育机构和个人用户都可以放心使用，由于代码完全开源，对于追求高度安全性的机构来说甚至可以进行私有部署，例如将涉及云存储的内容全部部署到自己的服务器，因此对企业来说 Euro-Office 也是个值得关注的项目，毕竟能自己部署和掌控数据以及开源免费，这可以将低成本和提高安全性。&lt;/p&gt;
 &lt;p&gt;via &lt;a href="https://www.landian.news/go?url=https://github.com/Euro-Office" rel="noopener" target="_blank"&gt;Euro-Office&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sun, 31 May 2026 05:56:02 +0000</pubDate></item><item><title>黑客利用ChatGPT功能在谷歌投放钓鱼广告 诱导用户下载恶意安装包</title><link>https://www.landian.news/archives/113164.html</link><description>
-&lt;p&gt;#安全资讯 黑客利用 ChatGPT 功能在谷歌投放钓鱼广告，诱导用户下载恶意软件包。ChatGPT Canvas 画布功能可以用来创建类似 HTML 的页面，黑客仿冒 ChatGPT 网站称当前访问量太大要求用户下载带毒的桌面版，由于本身分享页面就是 ChatGPT 官方域名，所以用户在谷歌搜索和浏览器地址栏里无法看出来这是恶意内容。查看详情：https://ourl.co/113164&lt;/p&gt;&lt;p&gt;近期黑客正在积极利用 ChatGPT 和 Claude 等流行的人工智能工具进行钓鱼，黑客选择这些工具是因为搜索量高且可以通过插件或内容共享等方式复用官方域名，至少对大多数用户而言直接从谷歌搜索结果的置顶广告里看不出来这是钓鱼网站，因此黑客的钓鱼成功率要显著更高。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;ChatGPT Canvas 功能可以用来创建类似网页的画布，在最新被发现的钓鱼活动中黑客就是利用这个功能创建仿冒的 ChatGPT 官方网站，在画布里黑客称当前访问量太高要求用户下载桌面版继续访问，而这个桌面版下载按钮其实指向黑客提供的恶意安装包。&lt;/p&gt;
-&lt;p&gt;这种钓鱼方式有多种显著特点：1. 黑客使用 ChatGPT 画布创建内容并分享，因此内容链接依然是 ChatGPT.com；2. 黑客在谷歌搜索里投放广告，广告显示的地址也是 ChatGPT.com，这可以降低用户的戒备心；3. 用户点击广告进入落地页后地址栏也依然显示的是 ChatGPT.com，而且这个网站是不会被安全软件拦截的。&lt;/p&gt;
-&lt;p&gt;对 OpenAI 来说也不太可能对用户创建的内容进行分享审核，所以未来此类钓鱼攻击应该会显著增加，对用户而言直接安装广告拦截扩展程序将谷歌搜索或其他搜索引擎的广告屏蔽可能是不错的选择。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.landian.news/landian/2026/05/113164-1.png" rel="nofollow"&gt;&lt;img alt="黑客利用ChatGPT功能在谷歌投放钓鱼广告 诱导用户下载恶意安装包" data-src="https://img.landian.news/landian/2026/05/113164-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113164-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src="https://img.landian.news/landian/2026/05/113164-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.landian.news/landian/2026/05/113164-2.png"/&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;此前已经有用户注意到 Claude 相关的钓鱼网站也出现在谷歌搜索广告里，其钓鱼手法与 ChatGPT 案例类似，也是利用 Claude.Ai 的内容分享功能，黑客首先利用 Claude 创建恶意对话，里面包含指向黑客控制的钓鱼网站或恶意软件下载链接，黑客提前制作针对多种热门软件的内容分享，例如当用户搜索 CPU-Z 时首页置顶广告就会引导用户跳转到 Claude.Ai 的分享内容，然后再诱导用户点击链接下载恶意软件。&lt;/p&gt;
-&lt;p&gt;Anthropic 显然也不会对用户分享的内容进行审核，所以这种钓鱼方式其实很难彻底斩断，这也是为什么说直接屏蔽各种搜索引擎广告可能是最佳做法的原因。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://www.landian.news/go?url=https://x.com/CreatedByJannn/status/2060337951213592581/photo/2" rel="noopener" target="_blank"&gt;Jan&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sun, 31 May 2026 05:04:06 +0000</pubDate></item></channel></rss>
+</description><pubDate>Sun, 31 May 2026 05:56:02 +0000</pubDate></item></channel></rss>
