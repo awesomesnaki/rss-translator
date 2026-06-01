@@ -1,5 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 01 Jun 2026 03:07:23 +0000</lastBuildDate><item><title>稀宇科技推出MiniMax-M3模型 支持1M窗口在编码和智能体任务中表现突出</title><link>https://www.landian.news/archives/113197.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 01 Jun 2026 08:23:39 +0000</lastBuildDate><item><title>地板级AI漏洞：Instagram AI账户恢复工具是个智障  可以换绑任何账户邮箱到新邮箱</title><link>https://www.landian.news/archives/113201.html</link><description>
+&lt;p&gt;#安全资讯 地板级 AI 漏洞：社交媒体集团 Meta 旗下的 Instagram 出现低级漏洞，其 AI 账户恢复助手是个智障，允许任何人重置任何人的账户邮箱并绑定到新邮箱。攻击过程非常简单：先选定目标用户并分析其位置，随后挂 VPN 保持与目标用户相同的位置，接下来与 AI 账户恢复助手沟通并诱导其发送密码重置或邮箱改绑邮件到黑客的邮箱。整个过程不需要进行任何验证，甚至 AI 账户助手都没有设置速率限制，以至于黑灰产团伙利用自动化脚本进行批量操作。查看详情：https://ourl.co/113201&lt;/p&gt;&lt;p&gt;社交媒体集团 META 旗下的社交网站 Instagram 日前被安全研究爆出重大安全问题，该问题并非后端系统遭到黑客攻击，而是 Instagram 由人工智能驱动的账户恢复工具存在底层逻辑漏洞，这个账户恢复工具在处理用户请求时不会进行身份验证并直接同意用户请求。&lt;/p&gt;
+&lt;p&gt;在漏洞被修复和披露前已经有诸多黑产团伙利用漏洞盗窃高价值用户名例如 @hey，这些单词类型的短用户名在交易市场非常受欢迎，所以黑客并不是盗窃知名用户账户后拿来发布钓鱼网站，这样太容易被发现导致漏洞被封堵，而通过地下市场悄悄交易这些账户可以做到细水长流。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113201.png" rel="nofollow"&gt;&lt;img alt="地板级AI漏洞：Instagram AI账户恢复工具是个智障  可以换绑任何账户邮箱到新邮箱" data-src="https://img.lancdn.com/landian/2026/06/113201.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113201.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;INS 的账户恢复工具由人工智能驱动且本身具有内部系统权限，在前端用户可以直接通过自然语言文字与 AI 进行沟通并发送账户重置请求，这里存在的问题是 AI 账户恢复工具并不会严格校验申请人的身份，申请者需要先挑选目标用户并调查其所在位置，然后挂上对应地区的 VPN 再联系 AI 账户恢复助手。&lt;/p&gt;
+&lt;p&gt;接下来流程就非常简单：只需要告诉 AI 账户恢复助手声称自己的账户需要恢复，请求 AI 助手将验证码发送到对应邮箱即可，攻击者拿到收到的验证码即可重置对应的 INS 账户密码并修改邮箱，整个过程都可以通过自动化脚本进行批量操作，因此 INS 的 AI 账户恢复助手也没有进行速率限制，黑灰产团伙利用自动脚本重置大量账户。&lt;/p&gt;
+&lt;p&gt;在安全研究人员曝光漏洞前被盗的账户总价值超过 100 万美元，甚至连奥巴马白宫存档账户都被盗取转卖，下游黑灰产团伙拿到账户后再进行其他操作，例如发布虚假投资广告吸引，也有些短用户名被其他人买后用来做号。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;根据研究人员披露的细节，本次漏洞属于提示词攻击，攻击者需要通过适当的技巧迷惑 AI 账户恢复助手，诱导恢复助手：将新邮箱绑定到目标账户、直接转发密码重置验证码到黑客的邮箱、绕过短信或邮箱验证 (在实际攻击过程中无法绕过谷歌身份验证器之类的 OTP 2FA 验证，短信和邮箱验证可被绕过)。&lt;/p&gt;
+&lt;p&gt;整个过程不涉及对 META 后端服务器的任何操作，没有平台级别的数据库或凭证泄露，只需要知道目标用户名 + 适当的提示词 + VPN 伪装位置即可，此次事件的根本原因还是 META 工程师赋予 AI 太高的权限但存在多种逻辑问题，原本不应该被外部接触到的敏感操作被 AI 当做中间人执行。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在网上出现相关漏洞利用说明后，META 在上周五修复漏洞，同时该公司发布声明称：我们修复了某个允许外部人员请求部分 Instagram 用户重置密码邮件的问题，我们的系统没有遭到入侵，用户的 Instagram 账户仍然是安全的。&lt;/p&gt;
+&lt;p&gt;只不过 META 没有提到可能有大量用户账户被盗，当前 META 也没有说明被盗的这些账户是否可以识别并批量重置回用户原本的邮箱。&lt;/p&gt;
+</description><pubDate>Mon, 01 Jun 2026 08:23:39 +0000</pubDate></item><item><title>英伟达推出高端PC处理器RTX SPARK 提供1petaFLOP算力和最高128GB内存</title><link>https://www.landian.news/archives/113200.html</link><description>
+&lt;p&gt;#硬件设备 英伟达推出 RTX SPARK 超级芯片，该芯片由英伟达和联发科合作定制开发的 ARM CPU 芯片 + 英伟达 GPU 芯片 + 统一内存封装。GPU 部分包含 6144 个 CUDA 核心，最高可以提供 1 peta FLOP 算力，可以在本地运行最高 1M 窗口的 12B 参数规模模型，为 AI 智能体提供本地模型支持，为用户提供保障隐私的 AI 自动化体验。查看详情：https://ourl.co/113200&lt;/p&gt;&lt;p&gt;英伟达日前正式宣布推出 RTX SPARK 品牌超级芯片，该系列芯片是英伟达面向桌面平台推出的消费级产品，芯片本身包含由英伟达和联发科合作定制开发的基于 ARM 架构的 CPU 核心，同时直接采用英伟达先进的 RTX GPU 核心，可以为用户提供最高 1 peta FLOP 的超高算力。&lt;/p&gt;
+&lt;p&gt;RTX SPARK 超级芯片采用统一内存封装，这种封装方式的优势在于可以提供更快的响应速度，但缺点在于内存本身是不可更换的，以前英特尔就尝试过使用统一内存封装但很快因为各种原因而放弃，但即便如此英伟达也还是决定使用统一内存。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113200.png" rel="nofollow"&gt;&lt;img alt="英伟达推出高端PC处理器RTX SPARK 提供1petaFLOP算力和最高128GB内存" data-src="https://img.lancdn.com/landian/2026/06/113200.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113200.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;核心架构：NVIDIA Grace Blackwell (GB10)&lt;/li&gt;
+&lt;li&gt;主处理器：20 核心的 ARM 处理器 (10 颗 X925 高性能核心 + 10 颗 A725 能效核心)&lt;/li&gt;
+&lt;li&gt;图形芯片：基于 Blackwell 架构的 GPU，包含 6144 个 CUDA 核心&lt;/li&gt;
+&lt;li&gt;张量核心：第 5 代 Tensor Core，支持 FP4 等低精度&lt;/li&gt;
+&lt;li&gt;人工智能：提供最高 1 peta FLOP 算力&lt;/li&gt;
+&lt;li&gt;统一内存：最高支持 128GB LPDDR5x 内存 (CPU+GPU 共享内存)&lt;/li&gt;
+&lt;li&gt;内存接口：256-bit，总带宽约 273GB / 秒&lt;/li&gt;
+&lt;li&gt;其他特征：支持 NVLink-C2C 芯片间互联、符合要求的 NPU 支持、完整 CUDA/RTX 栈&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;根据英伟达所说，RTX SPARK 超级芯片可以让创作者、AI 开发者和游戏玩家渲染 90GB 以上的超大型 3D 场景，编辑 12K 4:2:2 视频、生成 4K AI 视频，AI 智能体可以在本地运行 1M 上下文窗口 120B 参数规模的模型 (随着模型优化后续会支持更多规模更大的模型)。&lt;/p&gt;
+&lt;p&gt;搭载该系列芯片的 Windows 11 PC 可以在本地运行各类 AI 智能体并由本地模型驱动，相较于调用云端模型而言，运行在本地的模型可以为 AI 智能体提供更快的响应速度，缩短用户的等待时间，当然也可以充分发挥 AI 智能体的能力，帮助用户完成各类操作。&lt;/p&gt;
+&lt;p&gt;目前包括戴尔、惠普、华硕等 OEM 已经宣布采用 RTX SPARK 芯片，相关笔记本电脑产品将在今年秋季正式上市，现阶段还没有关于最终产品的售价信息，考虑到芯片本身的性能以及内存等，这些笔记本电脑可能主要定位还是高端级别，也就是面向专业游戏玩家、创作者和 AI 开发者。&lt;/p&gt;
+</description><pubDate>Mon, 01 Jun 2026 07:32:50 +0000</pubDate></item><item><title>腾讯云618活动上线：99元/年版境外CN2服务器补货 另有3年超低价服务器</title><link>https://www.landian.news/archives/113199.html</link><description>
+&lt;p&gt;#云计算 腾讯云 618 活动上线，99 元 / 年的硅谷 CN2 服务器回归，3 年仅 528 元的超低价服务器也回归了。硅谷 CN2 服务器延迟较高但整体连接比较稳定，首尔等区域虽延迟低不过高峰期丢包率较高，3 年版服务器是境内款，一次性购买 3 年可以解决后续续费价格高的问题。腾讯云也提供 OpenClaw、Hermes Agent、DeepSeek-Tui 等应用模板，可以在购买时直接选择对应模板实现快速启动和开箱即用。查看详情：https://ourl.co/113199&lt;/p&gt;&lt;p&gt;腾讯云已经上线 618 年中促销活动，本次活动腾讯云重新带来 99 元 / 年的境内和境外版轻量应用服务器，其中境外版目前可选地域包括硅谷 (CN2)、首尔、曼谷、法兰克福等，还有个超低价的服务器是 3 年 / 528 元版轻量机，这种 3 年版的好处是不用担心后续续费价格太高的问题。&lt;/p&gt;
+&lt;p&gt;特别提醒：活动页提供拼团选项，拼团指的是购买后用户需邀请其他好友购买，拼团不降价但赠送使用时长，拼团成功的产品不支持退款，因此蓝点网不建议各位参与拼团活动，以免购买后有退款需求时导致无法退款。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;此前由于缺货腾讯云下线 99 元 / 年的境外版硅谷 CN2 服务器，仅保留 199 元版 (配置更高)，但部分用户只需要用来运行容器或智能体所以不需要太高的配置，所以现在腾讯云趁着活动已经重新放出 99 元版的境外服务器，可选区域里蓝点网主要推荐硅谷地域，虽然延迟有些高但稳定性更好。首尔延迟较低但高峰期时丢包率有些高，法兰克福和曼谷似乎由于是线路问题延迟非常高。&lt;/p&gt;
+&lt;p&gt;99 元版境外服务器位于：&lt;a href="https://www.landian.news/go?url=https://lancdn.co/tcact" rel="noopener" target="_blank"&gt;活动首页&lt;/a&gt;、出海优选 (业务出海境外云服务器)、选择 99 元轻量应用服务器 2 核心 2G30M 版，具体请看下面截图的标识。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113199-1A.png" rel="nofollow"&gt;&lt;img alt="腾讯云618活动上线：99元/年版境外CN2服务器补货 另有3年超低价服务器" data-src="https://img.lancdn.com/landian/2026/06/113199-1A.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113199-1A.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;如果用户需要运行更多容器和智能体工具则可以选择配置更高的版本，其中比较推荐的是 199 元 / 年版境外 2 核心 4GB 内存 30M 带宽版轻量服务器，区域方面同样是硅谷、首尔、曼谷、法兰克福等，不过 199 元版好处是支持同价续费，也就是明年到期后还可以继续以 199 元续费。&lt;/p&gt;
+&lt;p&gt;199 元版同价续费服务器位于：&lt;a href="https://www.landian.news/go?url=https://lancdn.co/tcact" rel="noopener" target="_blank"&gt;活动首页&lt;/a&gt;、同价续费专区、境外地域，选择轻量应用服务器 2 核 4GB 内存 30M 带宽版，点击购买时在区域里可以选择硅谷。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113199-2.png" rel="nofollow"&gt;&lt;img alt="腾讯云618活动上线：99元/年版境外CN2服务器补货 另有3年超低价服务器" data-src="https://img.lancdn.com/landian/2026/06/113199-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113199-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;对于面向国内访客提供的服务 (网站 / 博客 / 应用后端等)，用户还可以选择境内款服务器，境内款服务器延迟非常低且稳定性非常高，这类服务器使用 BGP 线路所以各地访问都比较流畅。另外也可以用来部署 OpenClaw 等各类智能体，腾讯云已经提供应用模板可以直接安装已经完成基本部署的 OpenClaw、Hermes Agent、DeepSeek-Tui 等，购买后启动服务器即可使用。&lt;/p&gt;
+&lt;p&gt;配置 1：2 核心 2GB 内存 4M 带宽仅 99 元 / 年，可选区域包括上海、广州、北京、成都，支持同价续费&lt;/p&gt;
+&lt;p&gt;配置 2：2 核心 4GB 内存 5M 带宽仅 188 元 / 年，可选区域包括上海、广州、北京、成都，支持同价续费&lt;/p&gt;
+&lt;p&gt;配置 3：2 核心 4GB 内存 6M 带宽仅 199 元 / 年，可选区域包括上海、广州、北京、成都，支持同价续费&lt;/p&gt;
+&lt;p&gt;以上配置服务器位于：&lt;a href="https://www.landian.news/go?url=https://lancdn.co/tcact" rel="noopener" target="_blank"&gt;活动主页&lt;/a&gt;、同价续费专区、轻量应用服务器国内地域，同价续费指的是明年到期后还可以以购买原价继续续费 1 年&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113199-3.png" rel="nofollow"&gt;&lt;img alt="腾讯云618活动上线：99元/年版境外CN2服务器补货 另有3年超低价服务器" data-src="https://img.lancdn.com/landian/2026/06/113199-3.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113199-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;对追求长期稳定使用的用户来说腾讯云还推出 3 年 528 元版的轻量服务器，这款服务器配置为 2 核心 4GB 内存 6M 带宽，平均每年是 176 元，而且一次性购买 3 年后无需担心后续续费涨价问题，所以更适合准备长期搭建网站 / 博客或作为应用开发和后端服务器使用的用户。&lt;/p&gt;
+&lt;p&gt;以上配置服务器位于：&lt;a href="https://www.landian.news/go?url=https://lancdn.co/tcact" rel="noopener" target="_blank"&gt;活动主页&lt;/a&gt;、热卖服务器、服务器专区、轻量应用服务器&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113199-4.png" rel="nofollow"&gt;&lt;img alt="腾讯云618活动上线：99元/年版境外CN2服务器补货 另有3年超低价服务器" data-src="https://img.lancdn.com/landian/2026/06/113199-4.png" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113199-4.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;腾讯云 618 活动还提供 CDN 流量包特惠、COS 对象存储特惠、Token Plan AI 套餐特惠、GPU 服务器、企业高性能服务器特惠，作为年度主要促销时段之一，建议有购买和升级服务器的用户以及需要 CDN、COS 等产品的开发者趁着活动入手，比平时直接购买要划算很多。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;活动还提供上云大礼包代金券，代金券不可用于活动产品，但可以用于常规款服务器新购、续费和升级，最高可以抵扣 36 个月订单，个人和企业认证用户的代金券额度不同，&lt;a href="https://www.landian.news/go?url=https://lancdn.co/tcact" rel="noopener" target="_blank"&gt;具体用户可以先领取&lt;/a&gt;，再看看哪些正价款服务器可用，这样还能再省一波。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113199-5.png" rel="nofollow"&gt;&lt;img alt="腾讯云618活动上线：99元/年版境外CN2服务器补货 另有3年超低价服务器" data-src="https://img.lancdn.com/landian/2026/06/113199-5.png" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113199-5.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 01 Jun 2026 04:56:49 +0000</pubDate></item><item><title>稀宇科技推出MiniMax Code桌面客户端 支持技能/操作电脑/手机远程连接</title><link>https://www.landian.news/archives/113198.html</link><description>
+&lt;p&gt;#人工智能 稀宇科技推出 MiniMax Code 桌面客户端，支持手机远程、操作电脑、多智能体编排、协作任务等多种功能。该软件是稀宇科技基于 OpenCode 和 Pi Agent 构建，同时提供 Windows、macOS、iOS 和安卓版，后续也将开源发布。下载地址：https://ourl.co/113198&lt;/p&gt;&lt;p&gt;在发布 M3 模型的同时稀宇科技推出专为该模型设计的智能体产品 MiniMax Code，这是稀宇科技推出的桌面客户端版智能体工具，可以充分发挥 M3 模型在长上下文、编码 / 智能体、原生多模态方面的能力。&lt;/p&gt;
+&lt;p&gt;MiniMax Code 整体界面与 Codex 类似，但主要是基于开源项目 OpenCode 和 Pi Agent 构建，后续稀宇科技也准备直接开源 MiniMax Code 来回馈开源社区，所以到时候可能会有更多聚焦于不同领域的衍生版本发布，比如能够让开发者进行深度自定义的衍生版。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113198.png" rel="nofollow"&gt;&lt;img alt="稀宇科技推出MiniMax Code桌面客户端 支持技能/操作电脑/手机远程连接" data-src="https://img.lancdn.com/landian/2026/06/113198.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113198.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;协作处理：对于简单任务 MiniMax Code 将独立处理，但遇到复杂任务时 MiniMax Code 将根据任务特性召唤或创建不同专业的智能体角色进行协作处理。&lt;/p&gt;
+&lt;p&gt;持久记忆：MiniMax Code 可以根据用户日常对话和任务生成持久记忆，根据记忆还可以生成专属技能方便后续执行重复性较高的任务。&lt;/p&gt;
+&lt;p&gt;聊天应用：从官网介绍来看 MiniMax Code 还可以连接不同的聊天应用，这个是通过 API 还是操作电脑实现的暂时未知，官网也未介绍具体支持的应用。&lt;/p&gt;
+&lt;p&gt;操作电脑：MiniMax Code 也支持 Computer Use 功能，因此在赋予权限后用户可以要求 MiniMax Code 操作电脑，实现跨应用、跨文件、跨系统的操作。&lt;/p&gt;
+&lt;p&gt;手机操作：MiniMax Code 提供 Windows 版、macOS 版、iOS 版和 Android 版，这意味着用户也可以通过手机轻松操作电脑并完成任务。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;要使用 MiniMax Code 目前需要订阅 MiniMax Token Plan，订阅后可以登录账号并基于订阅层级的使用配额执行日常操作，此次 M3 发布后稀宇科技也校准 Token Plan 现有的订阅层级和使用配额，具体如下。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;MiniMax Token Plan Plus 版：每月 49 元，约提供 600M Tokens，相当于 Claude Pro 20 美元版的 5 倍&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;MiniMax Token Plan Max 版：每月 119 元，约提供 1.8B Tokens，相当于 Claude Max 100 美元版的 2 倍&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;MiniMax Token Plan Ultra 版：每月 469 元，约提供 5.5B Tokens，相当于 Claude Max 200 美元版的 3 倍&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;订阅地址：&lt;a href="https://www.landian.news/go?url=https://platform.minimaxi.com/subscribe/token-plan" rel="noopener" target="_blank"&gt;https://platform.minimaxi.com/subscribe/token-plan&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;下载 MiniMax Code 客户端：&lt;a href="https://www.landian.news/go?url=https://agent.minimaxi.com/download" rel="noopener" target="_blank"&gt;https://agent.minimaxi.com/download&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 01 Jun 2026 03:35:29 +0000</pubDate></item><item><title>稀宇科技推出MiniMax-M3模型 支持1M窗口在编码和智能体任务中表现突出</title><link>https://www.landian.news/archives/113197.html</link><description>
 &lt;p&gt;# 人工智能 稀宇科技发布 MiniMax-M3 模型，支持 1M 窗口且为原生多模态模型，支持文本 / 图像 / 视频等不同类型的输入。基准测试显示，M3 模型在编码任务上超过 GPT-5.5 和 Gemini 3.1 Pro，接近 Claude Opus 4.7 模型，后续 M3 也将发布开源权重模型。查看详情：https://ourl.co/113197&lt;/p&gt;&lt;p&gt;稀宇科技日前推出新款旗舰级开源模型 MiniMax-M3，该模型最高支持 1M 窗口且为原生多模态模型，支持文本 / 图像 / 视频等不同类型的输入，在编程、智能体、多模态理解以及长上下文处理等关键领域，M3 模型均达到国际领先水平，部分评测成绩甚至超过 GPT-5.5 和 Gemini 3.1 Pro 接近 Claude Opus 4.7 模型。&lt;/p&gt;
 &lt;p&gt;根据计划稀宇科技将在未来 10 天陆续发布 M3 模型的技术更新文档以及准备开源相关事宜，也就是稀宇科技将发布 M3 的开放权重模型给整个社区，当前用户可以通过订阅 MiniMax Token Plan 在智能体和编码工具里提前使用 M3 模型。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113197.png" rel="nofollow"&gt;&lt;img alt="稀宇科技推出MiniMax-M3模型 支持1M窗口在编码和智能体任务中表现突出" data-src="https://img.lancdn.com/landian/2026/06/113197.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113197.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -12,57 +91,4 @@
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;稀宇科技认为当前行业对于编码能力的测试仍然存在明显的局限性，大量基准测试仍然基于单轮任务构建，而真实开发过程往往是持续数小时甚至是持续数天的协作过程，因此稀宇科技构建新的交互式用户模拟器训练框架，让模型在训练过程中持续面对需求补充、方案讨论、反馈修正、连续任务切换、长周期项目迭代等。&lt;/p&gt;
 &lt;p&gt;稀宇科技认为未来智能体编码竞争的核心不再只是代码生成能力，而是长期的协作能力、规划能力、自主迭代能力、人机协同效率等。&lt;/p&gt;
-</description><pubDate>Mon, 01 Jun 2026 03:07:23 +0000</pubDate></item><item><title>开放媒体联盟发布AV2编解码器的首个版本 继续提高压缩效率并改进视觉质量范围</title><link>https://www.landian.news/archives/113196.html</link><description>
-&lt;p&gt;#行业资讯 开放媒体联盟发布 AV2 编解码器的首个版本，AV2 在 AV1 的基础上继续提高压缩效率并改进视觉质量。AV 系列编解码器都是开源免版税的，这意味着任何软件开发商和硬件制造商都可以使用，开放媒体联盟的目标就是打造开源的编解码系统，为整个行业在 H.264/265 等付费规范外提供免税版本。查看详情：https://ourl.co/113196&lt;/p&gt;&lt;p&gt;开放媒体联盟 AOMedia 在经过超过 5 年的研发后现在终于发布 AV2 编解码器的首个版本 (v1.0.0 版)，该版本被描述为 AV2 的首个发布版本，也就是经过多年的草案阶段后现在算是已经定稿，接下来软件开发商和硬件制造商就可以准备为 AV2 编解码器提供支持了。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113196.png" rel="nofollow"&gt;&lt;img alt="开放媒体联盟发布AV2编解码器的首个版本 继续提高压缩效率并改进视觉质量范围" data-src="https://img.lancdn.com/landian/2026/06/113196.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113196.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;AV2 是开放媒体联盟推出的全新视频编解码规范，AV2 在 AV1 编解码规范的基础上进行改进，旨在提供更高的压缩效率从而以显著降低的比特率实现高质量的视频传输。AV2 针对流媒体、视频串流和实时视频会议等不断发展的需求进行优化，AV2 还为 AR/VR 应用提供增强支持，支持分屏显示多个程序、改进屏幕内容处理，可以在更广泛的视觉质量范围内使用等。&lt;/p&gt;
-&lt;p&gt;AV2 同样是开源免版税的编解码标准，这意味着任何软件开发商和硬件制造商都可以支持 AV2 相关编解码标准并为用户提供服务，如果 AV1/AV2 能够得到广泛支持，对消费者而言也不需要再缴纳 H.264/H.265 等编解码标准的授权费 (这些费用由设备制造商缴纳)。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;开源媒体播放器 VLC 团队早在 AV2 草案阶段就在开发基于 CPU 处理器的 DAV2D 解码器，这款解码器支持多种不同的平台、兼顾速度与准确性，而经过长时间开发后 VLC 团队已经将 DAV2D 解码器公开发布到仓库中，开发团队称这款新解码器成功通过多种测试已经可以在生产环境中部署。&lt;/p&gt;
-&lt;p&gt;不过现阶段 AV2 还在发布初始阶段，已经有专业用户经过测试后发现 AV2 在极低的比特率下效果非常好，但是 AV2 编码器在细节保留和编码速度方面仍然存在问题，所以接下来开放媒体联盟还会陆续收集反馈并进行优化，毕竟可能还需要几年才会有硬件原生支持 AV2 标准。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://www.landian.news/go?url=https://av2.aomedia.org/" rel="noopener" target="_blank"&gt;AOMedia&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 01 Jun 2026 03:00:59 +0000</pubDate></item><item><title>惠普称还有30%的惠普用户使用Win10系统 惠普希望用户买预装Win11的新笔记本</title><link>https://www.landian.news/archives/113195.html</link><description>
-&lt;p&gt;#行业资讯 惠普称约有 30% 的惠普用户还在使用 Windows 10 系统，惠普希望向这些用户推销搭载 Windows 11 的新 PC。还未升级的这些惠普 PC 多数都是不满足 Windows 11 硬件要求的，使用这些设备的用户迟早要购买新 PC，所以惠普认为这是短期机会可以提高销量，只是现在由于组件价格太高导致新 PC 价格也很高，对 OEM 来说想提高出货量还是很有难度的。查看详情：https://ourl.co/113195&lt;/p&gt;&lt;p&gt;目前微软已经结束 Windows 10 消费者版的安全支持，不过微软为消费者提供 1 年的扩展安全更新 (ESU)，这种扩展安全更新基本可以通过免费方式获得，因此对用户而言继续使用 Windows 10 也可以获得安全更新，直到 2026 年 10 月之后微软结束消费者版的扩展安全支持。&lt;/p&gt;
-&lt;p&gt;对于企业用户微软提供最长 3 年的扩展安全支持，但企业没有免费获得扩展安全更新的优惠政策，并且企业版扩展安全更新订阅价格逐年增加，微软也希望通过涨价的方式敦促企业尽快升级到主流版本也就是 Windows 11，当然升级也要支付许可证费用不能直接免费升级。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/113195.png" rel="nofollow"&gt;&lt;img alt="惠普称还有30%的惠普用户使用Win10系统 惠普希望用户买预装Win11的新笔记本" data-src="https://img.lancdn.com/landian/2026/05/113195.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/113195.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; 仍有 30% 的惠普用户使用 Windows 10：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;惠普日前发布季度财报并与投资者举行电话会议，在电话会议中惠普首席财务官称，在惠普用户群里还有 30% 的用户仍然在使用 Windows 10 系统，惠普认为这是有利因素也是短期内的机遇，因为这些用户需要升级购买预装 Windows 11 的新笔记本电脑。&lt;/p&gt;
-&lt;p&gt;对普通用户而言只要设备满足 Windows 11 硬件要求那此时大概率已经被自动完成升级，而没有升级的设备大部分都是硬件不满足条件，因此使用这些设备的用户除非手动绕过硬件限制，否则不能直接升级 Windows 11，大多数普通用户不会如此操作，所以惠普认为用户肯定还是要购买新笔记本电脑的。&lt;/p&gt;
-&lt;p&gt;为此惠普正在欧洲、中东、非洲、亚太地区和北美地区同步推进 Windows 11 升级计划，最终大部分用户肯定是要更换新电脑的，只不过现在新电脑价格非常高，尤其是高价内存正在推动新电脑价格快速上涨，对惠普来说推动用户升级也是个难度非常大的事情。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;对正在继续使用 Windows 10 的用户而言也需要注意适用于消费者版的 ESU 扩展安全计划将在 2026 年 10 月 14 日结束，到时候用户将无法获得 Windows 10 关键安全更新，因此继续使用 Windows 10 将会面临安全风险，比较稳妥的做法还是升级到 Windows 11 受支持的版本。&lt;/p&gt;
-&lt;p&gt;部分用户基于稳定性考虑已经切换到 Windows 10 IoT LTSC 等长期服务版，这些版本倒是可以继续使用，毕竟微软提供 5~10 年的支持周期，可以同时确保稳定性、兼容性与安全性，所以如果用户实在不愿意升级 Windows 11 的话，不妨也考虑换成 IoT LTSC 这种长期服务版。&lt;/p&gt;
-</description><pubDate>Mon, 01 Jun 2026 02:30:34 +0000</pubDate></item><item><title>OneDrive将提供基于AI的文件重命名功能 可以分析文件内容提供描述式标题</title><link>https://www.landian.news/archives/113194.html</link><description>
-&lt;p&gt;#软件资讯 OneDrive 将提供基于 AI 的文件重命名功能，可以分析文件内容提供描述式标题，当用户重命名文件时 AI 将弹出 3 个建议文件名，用户可以选择也可以忽略并自定义命名。不过该功能在 6 月上线后仅支持 OneDrive 网页版，至少目前没有任何消息表明建议重命名功能也支持 OneDrive 客户端版。查看详情：https://ourl.co/113194&lt;/p&gt;&lt;p&gt;微软的 OneDrive 云存储服务提供离线访问、已知文件夹移动、按需文件下载、回收站 / 防止勒索软件等诸多功能，微软也在持续为 OneDrive 提供更多新功能，例如 Microsoft 365 团队已经预告将在 2026 年 6 月为用户提供基于人工智能的文件重命名功能，该功能可以分析文件内容提供描述式标题。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/113194.png" rel="nofollow"&gt;&lt;img alt="OneDrive将提供基于AI的文件重命名功能 可以分析文件内容提供描述式标题" data-src="https://img.lancdn.com/landian/2026/05/113194.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/113194.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这项新功能名为建议重命名，功能本身由 Microsoft Copilot 人工智能助手提供，人工智能将首先检查文件内容然后再提供描述性强且清晰易懂的文件名，这意味着文件名实际上具有上下文感知能力。在实际操作时人工智能将提供 3 个不同的文件名建议，用户只需要点击自己喜欢的文件名，当然用户也可以忽略建议直接保留原文件名。&lt;/p&gt;
-&lt;p&gt;建议重命名功能将在用户重命名文件时自动弹出建议的文件名，人工智能助手会在后台自动扫描文件并给出建议，用户没有准备对文件重命名时人工智能助手自然也会保持安静，不过实际建议的文件名效果怎么样还需要等待 6 月份后微软上线这项新功能后进行测试。&lt;/p&gt;
-&lt;p&gt;最后目前这项功能可能仅会在 Microsoft OneDrive 网页版中提供，考虑到 Microsoft Copilot 在桌面版应用中的实际功能，可能短时间内微软不会在桌面版 OneDrive 中提供此类重命名建议功能。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Microsoft Word / DOCX&lt;/li&gt;
-&lt;li&gt;Microsoft Excel / XLSX&lt;/li&gt;
-&lt;li&gt;Microsoft PowerPoint / PPTX&lt;/li&gt;
-&lt;li&gt;PDF 文档格式&lt;/li&gt;
-&lt;li&gt;Markdown / MD 文档&lt;/li&gt;
-&lt;li&gt;常见图片格式如 PNG / JPEG / BMP / WEBP 等&lt;/li&gt;
-&lt;/ul&gt;
-</description><pubDate>Mon, 01 Jun 2026 02:00:00 +0000</pubDate></item><item><title>闪迪将推出价格更便宜的SATA固态硬盘 应对当前NVMe固态硬盘价格太高的问题</title><link>https://www.landian.news/archives/113193.html</link><description>
-&lt;p&gt;#硬件设备 闪迪准备推出复古产品：SATA 接口的固态硬盘，读写速度大概 500MB / 秒。对主流用户来说当前使用的可能都已经是 M.2 固态硬盘，不过近些年来此类固态硬盘价格越来越高，所以闪迪推出 320/520 SATA SSD，对于不玩游戏的办公用户来说这种固态硬盘提供比机械硬盘更好的速度，而价格要远低于 M.2 固态硬盘。查看详情：https://ourl.co/113193&lt;/p&gt;&lt;p&gt;这几年机械硬盘和固态硬盘价格都在陆续上涨，其中大容量机械硬盘的价格涨幅最为明显，原因是人工智能数据中心需要海量的存储空间用来存储数据，而固态硬盘需求量持续上涨也同样是因为买不到足够多机械硬盘的人工智能数据中心重金采购大容量固态硬盘，这就导致 NAND 芯片价格持续上涨。&lt;/p&gt;
-&lt;p&gt;对消费者而言比较明显的体验就是 NVMe 类型的高性能固态硬盘价格越来越高，此类固态硬盘性能非常不错但容量越大 / 速度越快对应着价格也越高，但可能部分用户不太需要如此高的读写速度，所以闪迪现在玩起复古策略推出基于 SATA 接口的固态硬盘。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/113193.png" rel="nofollow"&gt;&lt;img alt="闪迪将推出价格更便宜的SATA固态硬盘 应对当前NVMe固态硬盘价格太高的问题" data-src="https://img.lancdn.com/landian/2026/05/113193.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/113193.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;亚马逊英国站日前短暂上线闪迪品牌的 320 和 520 硬盘 (但目前已经被下线)，这些新产品均为 SATA 类型的 2.5 英寸固态硬盘，厚度为 7 毫米，对于大多数能够安装机械硬盘的台式机和笔记本电脑来说都是可以兼容的，但部分仅提供 M.2 插槽的笔记本电脑将无法使用此类固态硬盘。&lt;/p&gt;
-&lt;p&gt;其中闪迪 320 提供 250GB、500GB、1TB 和 2TB 版，顺序读取速度可达 545MB / 秒，顺序写入速度可达 525MB / 秒；闪迪 520 硬盘则提供 500GB、1TB、2TB 和 4TB 版，顺序读取速度可达 560MB / 秒，顺序写入速度可达 525MB / 秒，其中 4TB 版拥有最高 1,000 TBW 的写入寿命。&lt;/p&gt;
-&lt;p&gt;相较于机械硬盘而言这个速度还是不错的，但相较于 PCIe 5.0 NVMe 固态硬盘而言这速度只是零头，现在高性能 M.2 固态硬盘读写速度甚至可以达到 15,000MB / 秒，所以闪迪 320/520 也只能替代传统机械硬盘，要说读写速度还不如 PCIe 3.0 固态硬盘。&lt;/p&gt;
-&lt;p&gt;对于不玩游戏的办公用户而言这类固态硬盘还是有市场的，但最终还是取决于销售价格，如果价格足够便宜的话部分用户可以选购闪迪 320/520 用来替换旧款机械硬盘或提升存储空间容量，对台式机而言主板通常有多个 SATA 接口，多安装几块 SATA SSD 基本不是问题。&lt;/p&gt;
-&lt;p&gt;至于为什么短暂上线又下线可能是因为库存还未准备好，有荷兰卖家称这些 SATA SSD 要在 6 月 3 日才能到货，所以现在提前上线也没法购买发货，这可能是亚马逊的操作意外所以快速将页面下线，等到有库存后再重新上线链接让消费者可以直接购买。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;千万不要以为 SATA SSD 这种古董产品已经没有市场，事实上此类固态硬盘在 2025 年也上涨达到 10%~20%，250GB 款平均售价约为 42 美元，500GB 款平均售价约为 101 美元，1TB 款平均售价约 204 美元，4TB 款平均售价约 329 美元。&lt;/p&gt;
-&lt;p&gt;涨价原因除了 SATA SSD 依然有需求外，还有个重要原因就是 SATA SSD 也同样需要使用 NAND 闪存芯片，由于上游 NAND 闪存芯片价格涨幅非常夸张，所以即便是 SATA SSD 也无法避免涨价的窘境，而且短期来看这种涨价趋势可能也不会停止。&lt;/p&gt;
-&lt;p&gt;另外对于非企业级全闪存 NAS / 服务器玩家来说，SATA SSD 依然是很重要的组件，这些非企业级设备通常使用的就是 SATA SSD 而非 U.2 或 E1.S 等固态硬盘，例如群晖最新推出的桌面型全闪 NAS 服务器 FS200T 就需要使用 6 块 SATA SSD 组成阵列。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;article&gt;&lt;a href="https://www.landian.news/archives/111265.html" title="美光宣布完全退出消费级内存和固态硬盘市场 专注于生产高利润的企业级HBM内存"&gt;&lt;h3&gt;美光宣布完全退出消费级内存和固态硬盘市场 专注于生产高利润的企业级HBM内存&lt;/h3&gt;&lt;/a&gt;&lt;p&gt;#行业资讯 重大噩耗！美光宣布完全退出消费级内存和固态硬盘市场，其旗下品牌英睿达将从明年 2 月开始停止销售消费级内存和固态硬盘。美光希望将所有…&lt;/p&gt;&lt;p&gt;&lt;span title="发布日期"&gt;2025年12月4日 10:02&lt;/span&gt;&lt;span title="浏览数量"&gt;22.95K&lt;/span&gt;&lt;span title="评论数量"&gt;0&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
-</description><pubDate>Mon, 01 Jun 2026 01:30:43 +0000</pubDate></item></channel></rss>
+</description><pubDate>Mon, 01 Jun 2026 03:07:23 +0000</pubDate></item></channel></rss>
