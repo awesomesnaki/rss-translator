@@ -1,124 +1,158 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kaushik Gopal's Website (中文)</title><link>https://kau.sh/</link><description>近期内容 - Kaushik Gopal 的网站</description><language>zh-CN</language><lastBuildDate>Mon, 04 May 2026 16:00:00 +0000</lastBuildDate><item><title>智能体是新的编译器。规范是新的代码。</title><link>https://kau.sh/blog/agent-compilers/</link><description>&lt;p&gt;&lt;a href="https://www.youtube.com/shorts/3tWRq1Dv1as"&gt;林纳斯·托瓦兹最近表示&lt;/a&gt;&lt;sup id="fnref:1"&gt;&lt;a href="https://kau.sh/feed.xml#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;
-&lt;em&gt;AI之于代码，将如同编译器之于汇编&lt;/em&gt;——让我们摆脱手动编写代码。&lt;/p&gt;
-&lt;p&gt;几乎与此同时，我与杰西·文森特（最受欢迎的代理技能之一——&lt;a href="https://github.com/obra/superpowers"&gt;superpowers&lt;/a&gt;的创建者）进行了一次交流。他的一句话让我印象深刻：&lt;em&gt;规范将成为新的代码&lt;/em&gt;。&lt;/p&gt;
-&lt;p&gt;我意识到这两个想法结合得过于巧妙。代理就是编译器&lt;sup id="fnref:2"&gt;&lt;a href="https://kau.sh/feed.xml#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;，而规范将成为代码。软件工程正在向另一个抽象层次迈进，而此前我们已经见证过类似演进。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kaushik Gopal's Website (中文)</title><link>https://kau.sh/</link><description>近期内容 - Kaushik Gopal 的网站</description><language>zh-CN</language><lastBuildDate>Mon, 01 Jun 2026 17:00:00 +0000</lastBuildDate><item><title>AI模型选择 2026-06</title><link>https://kau.sh/blog/ai-model-choices-2026-06/</link><description>&lt;p&gt;我的2026年一月AI工具栈。&lt;/p&gt;
+记住，你使用的第一行会显示在列表标题中
+&lt;p&gt;距离&lt;a href="https://kau.sh/blog/ai-model-choices/"&gt;我上篇文章&lt;/a&gt;已有六个月，整个列表已经彻底更新。&lt;/p&gt;
+&lt;h3 id="models"&gt;
+模型
+&lt;a href="https://kau.sh/feed.xml#models"&gt;###&lt;/a&gt;
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Kimi 2.6&lt;/strong&gt; 已成为我的主力模型。默认情况下，我现在大部分AI会话都从Kimi 2.6开始。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GPT 5.5&lt;/strong&gt; 仍然是我首选的&lt;em&gt;编程&lt;/em&gt;模型。我的详细规划、创建&lt;a href="https://kau.sh/blog/exec-plans/"&gt;执行计划&lt;/a&gt;&lt;sup id="fnref:1"&gt;&lt;a href="https://kau.sh/feed.xml#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;、代码审查、简化以及一次性功能变更，都可靠地通过GPT 5.5（高精度）完成。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Opus 4.8&lt;/strong&gt; 用于深度思考、写作和整体困难任务。自发布以来已有&lt;a href="https://www.anthropic.com/news/claude-opus-4-8"&gt;四天&lt;/a&gt;，我的看法还在形成中，但我着迷于Opus 4.8能够&lt;em&gt;迅速&lt;/em&gt;给出正确解决方案，尤其是针对稍微复杂的问题。不过，我仍然只在其他模型遇到困难时才使用它，因为💸🔥&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gemini&lt;/strong&gt; 用于所有图像、视频或音频相关任务。其他模型无法比拟。它大幅缩短了曾经耗费我大量时间&lt;sup id="fnref:2"&gt;&lt;a href="https://kau.sh/feed.xml#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;的工作。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="harness"&gt;
+工具框架
+&lt;a href="https://kau.sh/feed.xml#harness"&gt;###&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;我不断尝试多种工具框架，但我觉得自己已经坚定地选择了&lt;a href="https://opencode.ai/"&gt;OpenCode&lt;/a&gt;搭配&lt;a href="https://openchamber.dev/"&gt;OpenChamber&lt;/a&gt;作为我的首选框架。未来我会写一篇关于OpenCode高级技巧的文章，但在此之前，我已经对这些框架进行了大量测试，目前对这个组合非常满意。&lt;/p&gt;
+&lt;p&gt;我仍然经常使用OpenCode切换回&lt;strong&gt;TUI&lt;/strong&gt;环境，虽然和其他人一样，我曾短暂使用过cmux，但发现它在性能上并不理想，而且存在内存问题。所以我又回到了纯粹的Ghostty。另一方面，OpenCode在管理会话方面非常出色，因此我甚至经常不需要使用tmux。&lt;/p&gt;
+&lt;p&gt;此外，我也使用Hermes，但自从发现OpenChambers后，我发现不再经常需要它了。如果你好奇的话，这同样值得单独写一篇文章来介绍。&lt;/p&gt;&lt;h3 id="what-surprised-me"&gt;
+让我感到惊讶的是
+&lt;a href="https://kau.sh/feed.xml#what-surprised-me"&gt;###&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;我最近被 Kimi 2.6 彻底震撼了。我发现它在中等推理能力下常常能与 GPT 5.5 并驾齐驱。甚至有时它的结果能与 Opus 4.8 匹敌（尽管 Opus 通常一次就能达到效果）。我不确定我是否以某种方式&lt;a href="https://kau.sh/blog/harness-engineers/"&gt;优化了我的工具&lt;/a&gt;，使其与 Kimi 配合得更好，但天啊，我真的很喜欢它给我带来的结果。如果你想试试，我推荐 Opencode 的 10 美元 &lt;a href="https://opencode.ai/go"&gt;“Go”套餐&lt;/a&gt;，然后大力使用 Kimi 2.6。&lt;/p&gt;
+&lt;p&gt;我不把任何模型当作治疗师或朋友来对话，通常会给它一个相当严格的指令，规定它应该如何与我交流，所以很多关于 Opus 4.8 “粗糙”或 GPT 5.5 “缺乏灵魂”🙄 的抱怨，对我影响不大。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;如果我采用 &lt;a href="https://kau.sh/blog/exec-plans/"&gt;执行计划&lt;/a&gt; 的方式，我会从 GPT 5.5 开始，然后交给 Kimi 2.6 来执行。 &lt;a href="https://kau.sh/feed.xml#fnref:1"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;如果你好奇，可以&lt;a href="https://buttondown.com/fragmentedcast"&gt;订阅我开发者播客的通讯&lt;/a&gt;，我会在上面发布一些我正在使用的技巧。 &lt;a href="https://kau.sh/feed.xml#fnref:2"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description><pubDate>Mon, 01 Jun 2026 17:00:00 +0000</pubDate></item><item><title>智能体是新的编译器。规范是新的代码。</title><link>https://kau.sh/blog/agent-compilers/</link><description>&lt;p&gt;&lt;a href="https://www.youtube.com/shorts/3tWRq1Dv1as"&gt;林纳斯·托瓦兹最近说&lt;/a&gt;&lt;sup id="fnref:1"&gt;&lt;a href="https://kau.sh/feed.xml#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;
+&lt;em&gt;AI之于代码，正如编译器之于汇编&lt;/em&gt; —— 让我们免于手动编写代码。&lt;/p&gt;
+&lt;p&gt;差不多同一时间，我和Jesse Vincent（最流行的代理技能之一 —— &lt;a href="https://github.com/obra/superpowers"&gt;超能力&lt;/a&gt;的创造者）聊了聊。他有一句话让我印象深刻：&lt;em&gt;规范将成为新的代码&lt;/em&gt;。&lt;/p&gt;
+&lt;p&gt;我意识到这两个想法完美地契合在一起。代理就是编译器&lt;sup id="fnref:2"&gt;&lt;a href="https://kau.sh/feed.xml#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;，规范将成为代码。软件工程正在提升到另一个抽象层次，我们以前就见过这种情况。&lt;/p&gt;
 &lt;h2 id="specs-as-source"&gt;
-规范即源码
+规范作为源
 &lt;a href="https://kau.sh/feed.xml#specs-as-source"&gt;##&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;我亲手开发的微型USB-C线缆检测工具——&lt;a href="https://kau.sh/blog/usbi/"&gt;&lt;code&gt;usbi&lt;/code&gt;&lt;/a&gt;——印证了这一点。它最初是macOS的&lt;code&gt;system_profiler&lt;/code&gt;上的一个shell命令，后来当我想要一个合适的二进制文件时变成了Go语言，接着又因为我想练习Rust而改成了Rust，最后还出现了一个&lt;a href="https://kau.sh/tags/kscript/"&gt;&lt;code&gt;.kts&lt;/code&gt;&lt;/a&gt;版本。&lt;/p&gt;
-&lt;p&gt;代码不断变化。但我在意的事情从未改变：解析USB树，识别连接的设备，报告速度，并让有问题的线缆一目了然。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kau.sh/blog/podsync/"&gt;&lt;code&gt;Podsync&lt;/code&gt;&lt;/a&gt;，我的音轨同步程序，也遵循了同样的模式。它最初用Python编写，因为音频库就在那里。后来我将其迁移到&lt;a href="https://kau.sh/tags/rust/"&gt;Rust&lt;/a&gt;，因为我不想随程序分发Python运行时，也不想关心机器上恰好装了哪个Python版本。&lt;/p&gt;
-&lt;p&gt;同样，实现方式变了。行为却保持着令人乏味的稳定：获取主音轨和本地音轨，找到偏移量，对每个文件进行填充或修剪，然后将对齐后的音频放入数字音频工作站。&lt;/p&gt;
-&lt;p&gt;编译器让我们摆脱了汇编语言。代理可能会让我们摆脱手写代码，因为代码变成了规范产出的工件。&lt;/p&gt;
-&lt;p&gt;近期围绕详细&lt;a href="https://kau.sh/blog/exec-plans/"&gt;执行计划&lt;/a&gt;的推动，或许是大规模转型即将到来的早期信号。&lt;/p&gt;
-&lt;h2 id="rebuilds-instead-of-patches"&gt;
-重建而非修补
+&lt;p&gt;我亲手在我的小型USB-C线缆检测器——&lt;a href="https://kau.sh/blog/usbi/"&gt;&lt;code&gt;usbi&lt;/code&gt;&lt;/a&gt;上看到了这一点。它最初是在macOS的&lt;code&gt;system_profiler&lt;/code&gt;上的一个shell命令，然后变成了Go，因为我想要一个合适的二进制文件，接着变成Rust，因为我想练习Rust，后来又变成了一个&lt;a href="https://kau.sh/tags/kscript/"&gt;&lt;code&gt;.kts&lt;/code&gt;&lt;/a&gt;版本。&lt;/p&gt;
+&lt;p&gt;代码一直在变。但我在意的东西没有变：解析USB树、识别连接的设备、报告速度，以及让坏线缆一目了然。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kau.sh/blog/podsync/"&gt;&lt;code&gt;Podsync&lt;/code&gt;&lt;/a&gt;，我的音轨同步程序，也遵循了同样的模式。它开始是用Python写的，因为音频库在那里。然后我把它迁移到了&lt;a href="https://kau.sh/tags/rust/"&gt;Rust&lt;/a&gt;，因为我不想分发Python运行时，也不想关心机器上恰好安装了哪个Python版本。&lt;/p&gt;
+&lt;p&gt;同样，实现方式改变了。行为却异常稳定：获取主轨和本地轨道，找到偏移量，填充或裁剪每个文件，然后将对齐的音频放入DAW中。&lt;/p&gt;
+&lt;p&gt;编译器让我们免于编写汇编。代理可能让我们免于编写代码，因为代码变成了规范生成的人工制品。&lt;/p&gt;
+&lt;p&gt;最近在详细&lt;a href="https://kau.sh/blog/exec-plans/"&gt;执行计划&lt;/a&gt;上的推动，可能是一个早期信号，预示着更大规模转变的临近。&lt;/p&gt;&lt;h2 id="rebuilds-instead-of-patches"&gt;
+用重建代替修补
 &lt;a href="https://kau.sh/feed.xml#rebuilds-instead-of-patches"&gt;##&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;进一步思考这个观点。我们或许会习惯于重建整个模块，而不是修补和重构它们。&lt;/p&gt;&lt;p&gt;我们保留了一个系统的旧形态，因为废弃它代价太高。即使你知道某个模块有问题，也只能慢慢打磨：提取接口、每次迁移一个调用者、为没人完全理解的行为添加测试。你继续推进，因为替代方案是重写，而重写素有活活吃掉公司的名声。&lt;/p&gt;
-&lt;p&gt;但智能体改变了这条成本曲线。如果智能体能阅读规格、理解测试、审查生产环境痕迹、并在一个下午内重建一个模块，那么合理的做法可能是完全替换整个模块。&lt;/p&gt;
-&lt;p&gt;再往前推一步，工作单元也会发生变化。你不再要求智能体修补某个函数或文件。而是要求它根据调整后的规格重建整个支付模块。甚至用新库替换认证层。或者，既然领域模型更清晰了，就重新生成API边界。&lt;/p&gt;
+&lt;p&gt;进一步推想。我们可能会习惯于重建整个模块，而不是给它们打补丁和重构。&lt;/p&gt;
+&lt;p&gt;我们保留系统的旧有形态，因为抛弃它的代价太高。即使你知道这个模块有问题，你也会打磨它：提取接口，一次迁移一个调用者，围绕无人完全理解的行为添加测试。你继续前进，因为另一种选择是重写，而重写有“生吞公司”的名声，这并非浪得虚名。&lt;/p&gt;
+&lt;p&gt;但智能体改变了这个成本曲线。如果一个智能体能够阅读规范、理解测试、检查生产痕迹，并在一个下午内重建一个模块，那么明智的做法可能就是完全替换整个模块。&lt;/p&gt;
+&lt;p&gt;再进一步，工作单元也变了。你不再要求智能体修补一个函数或文件，而是要求它根据调整后的规范重建整个支付模块。甚至，用新的库替换身份验证层。或者，既然领域模型更清晰了，重新生成API边界。&lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;这是我一直无法停止思考的部分。&lt;/p&gt;
+&lt;p&gt;这是我无法停止思考的部分。&lt;/p&gt;
 &lt;div dir="auto"&gt;
 &lt;svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"&gt;&lt;/path&gt;&lt;/svg&gt;
 &lt;/div&gt;
 &lt;ul&gt;
-&lt;li&gt;每次重建都可以从我们如今对整体模块的理解出发，而非基于当初首次交付时的认知。&lt;/li&gt;
-&lt;li&gt;旧代码积累的技术债务（因为它是逐次修补长成的）终于可以去除。&lt;/li&gt;
+&lt;li&gt;每次重建都可以从我们现在对整个模块的理解出发，而不是从第一次有人交付它时我们所相信的东西出发。&lt;/li&gt;
+&lt;li&gt;旧代码所承载的技术债（因为它是一次一个补丁堆积起来的）终于可以卸掉了。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;规格可以吸收我们从旧实现中学到的东西：账单中奇怪的边界情况、没人记录过的迁移路径、工作流依赖某个“bug”的客户、只在每月第一天失败的批处理任务。&lt;/p&gt;
-&lt;p&gt;规格成为系统记忆的载体。一旦这些经验教训被写入规格，实现就变得可替换了。&lt;/p&gt;
-&lt;p&gt;我们正在成为规格编写者。&lt;/p&gt;
+&lt;p&gt;规范可以吸收我们从旧实现中学到的东西：计费中的奇怪边界情况，没人写下来的迁移路径，工作流程依赖于某个“bug”的客户，只在每月第一天失败的批处理作业。&lt;/p&gt;
+&lt;p&gt;规范成为系统记忆存留的地方。一旦那些经验教训进入规范，实现就变得可替换了。&lt;/p&gt;
+&lt;p&gt;我们正在成为规范编写者。&lt;/p&gt;
 &lt;hr/&gt;
 &lt;ol&gt;
 &lt;li id="fn:1"&gt;
 &lt;p&gt;从1分48秒处开始 &lt;a href="https://kau.sh/feed.xml#fnref:1"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id="fn:2"&gt;
-&lt;p&gt;是的，智能体不像编译器那样具有确定性——同样的提示明天可能生成不同的代码。但这或许不是未来应该追求的标准。需要保持稳定的是规格下的行为，代码可以变化。另外，老兄，你确定要跟Linus Torvalds较真吗？&lt;a href="https://kau.sh/feed.xml#fnref:2"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;是的，智能体不像编译器那样具有确定性——同样的提示明天可能会给出不同的代码。但或许这是未来需要调整的标准。必须保持稳定的是符合规格的行为；代码可以变化。另外，老兄，你是在认真跟林纳斯·托瓦兹较劲吗？ &lt;a href="https://kau.sh/feed.xml#fnref:2"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-</description><pubDate>Mon, 04 May 2026 16:00:00 +0000</pubDate></item><item><title>特工格斗</title><link>https://kau.sh/blog/agent-kombat/</link><description>&lt;p&gt;如今我看到的大多数多智能体编码设置都像是任务并行。你把工作拆分开来，交给不同的智能体，最后再合并结果。&lt;/p&gt;
-&lt;p&gt;这很有用。我也这么做。但我一直在尝试一种不同的方法，而且真的很喜欢：&lt;/p&gt;
+</description><pubDate>Mon, 04 May 2026 16:00:00 +0000</pubDate></item><item><title>特工格斗</title><link>https://kau.sh/blog/agent-kombat/</link><description>&lt;p&gt;如今我看到的大多数多智能体编码配置看起来都像是任务并行。你将工作拆分，把每部分交给不同的智能体，最后合并结果。&lt;/p&gt;
+&lt;p&gt;这很有用。我也这么干。但我一直在尝试一种不同的方法，并且非常喜欢它：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;让两个智能体处理同一个问题，在它们&lt;em&gt;建设性地&lt;/em&gt;争论之后，我才相信这个方案。&lt;/p&gt;
+&lt;p&gt;让两个智能体处理同一个问题，在我信任计划之前，让它们进行&lt;em&gt;建设性&lt;/em&gt;的争论。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;手动版本很简单：我启动Claude Code和Opus 4.7，让它起草一个方案：&lt;code&gt;my-plan-claude.md&lt;/code&gt;。然后我启动Codex和GPT-5.5，让它为同样的需求起草一个方案：&lt;code&gt;my-plan-codex.md&lt;/code&gt;。&lt;/p&gt;
-&lt;p&gt;现在有趣的部分开始了……&lt;/p&gt;
-&lt;p&gt;我让Claude阅读Codex的方案，偷走其中更好的部分，更新自己的方案，并给我一份关于Codex方案具体缺陷的清单。然后我把这些缺陷带回给Codex，让它做同样的事：阅读Claude更新后的方案，偷走好的部分，辩护或修复薄弱的部分，并更新&lt;code&gt;my-plan-codex.md&lt;/code&gt;。然后再回到Claude那里。&lt;/p&gt;
-&lt;p&gt;我这样做大约三次。这个效果出奇地好。最终的方案通常比任何一个模型第一次一次性生成的方案要好得多。每个模型都迫使另一个模型从稍微不同的角度看待问题。&lt;/p&gt;
-&lt;p&gt;我开始称之为&lt;strong&gt;Agent &lt;a href="https://youtu.be/QJy9RQvqgUo"&gt;K&lt;/a&gt;ombat&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;由于在两个终端之间复制粘贴很快就变得乏味，我编写了一个小程序来自动运行这个循环。&lt;/p&gt;
+&lt;p&gt;手动版本很简单：我启动带有Opus 4.7的Claude Code，让它草拟一份计划：&lt;code&gt;my-plan-claude.md&lt;/code&gt;。然后我启动带有GPT-5.5的Codex，让它为同样的需求草拟一份计划：&lt;code&gt;my-plan-codex.md&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;现在，有趣的部分开始了……&lt;/p&gt;
+&lt;p&gt;我让Claude阅读Codex的计划，窃取其中更好的部分，更新自己的计划，并给我一份关于Codex计划中具体缺陷的清单。然后我把这些缺陷带回给Codex，让它做同样的事：阅读Claude更新后的计划，窃取好的部分，辩护或修复薄弱部分，并更新&lt;code&gt;my-plan-codex.md&lt;/code&gt;。然后再回到Claude那边。&lt;/p&gt;
+&lt;p&gt;我重复这个过程大约三次。这效果出奇地好。最终的方案通常比任何模型第一次一次性生成的方案要好得多。每个模型都迫使对方从一个稍微不同的角度来看待问题。&lt;/p&gt;
+&lt;p&gt;我开始称之为&lt;strong&gt;智能体&lt;a href="https://youtu.be/QJy9RQvqgUo"&gt;格&lt;/a&gt;斗&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;而且因为在两个终端之间复制粘贴很快会变得烦人，我编写了一个小程序来为我运行这个循环。&lt;/p&gt;
 &lt;div dir="auto"&gt;
 &lt;svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"&gt;&lt;circle cx="12" cy="12" r="10"&gt;&lt;/circle&gt;&lt;path d="M12 16v-4"&gt;&lt;/path&gt;&lt;path d="M12 8h.01"&gt;&lt;/path&gt;&lt;/svg&gt;
 
 
-Agent Kombat
+智能体格斗
 
 &lt;/div&gt;
-&lt;p&gt;&lt;a href="https://github.com/kaushikgopal/agent-kombat#install"&gt;在此处下载脚本&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/kaushikgopal/agent-kombat#install"&gt;在此下载脚本&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="the-loop"&gt;
 循环
 &lt;a href="https://kau.sh/feed.xml#the-loop"&gt;##&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;循环只有几条规则：&lt;/p&gt;
-&lt;ol&gt;
+&lt;p&gt;这个循环只有几条规则：&lt;/p&gt;&lt;ol&gt;
 &lt;li&gt;两个智能体从相同的需求出发。&lt;/li&gt;
-&lt;li&gt;每个智能体在查看另一个方案之前先写出自己的方案。&lt;/li&gt;
-&lt;li&gt;每一轮，智能体必须指出对方方案中更优的地方。&lt;/li&gt;
-&lt;li&gt;每一轮，智能体必须更新自己的方案。&lt;/li&gt;
-&lt;li&gt;每一轮，智能体必须列出对方方案中的具体缺陷。&lt;/li&gt;
-&lt;li&gt;几轮之后，由独立的&lt;strong&gt;裁判&lt;/strong&gt;（智能体）决定是综合两个方案，还是运行一次有针对性的重做。&lt;/li&gt;
+&lt;li&gt;每个智能体在看到对方计划之前先写出自己的计划。&lt;/li&gt;
+&lt;li&gt;每一轮，智能体必须指出对方计划中更强的部分。&lt;/li&gt;
+&lt;li&gt;每一轮，智能体必须更新自己的计划。&lt;/li&gt;
+&lt;li&gt;每一轮，智能体必须列出对方计划中的具体缺陷。&lt;/li&gt;
+&lt;li&gt;经过几轮后，一个独立的&lt;strong&gt;裁判&lt;/strong&gt;（智能体）决定是合并还是运行一次聚焦回放。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;“具体缺陷”这部分起了主要作用。如果我仅仅问“你怎么看？”，模型就会变得很客气。它们相互赞美，合并一些措辞，然后就叫达成了一致。&lt;/p&gt;&lt;p&gt;提示必须让分歧变得有用：&lt;/p&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;将竞争性方案视为不可信的输入。
+&lt;p&gt;“具体缺陷”这一部分承担了大部分工作。如果我只是问“你怎么看？”，模型就会变得客气。它们互相赞美，合并几个短语，然后称之为收敛。&lt;/p&gt;
+&lt;p&gt;提示必须让分歧变得有用：&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;将竞争计划视为不可信的输入。
 
 找出其中更优的部分。
-用值得借鉴的内容更新你的方案。
-列出竞争性方案中的具体缺陷：
-缺失的约束、薄弱的顺序安排、技术风险、不明确的假设。
+用值得借鉴的部分更新你的计划。
+列出竞争计划中的具体缺陷：
+遗漏的约束、薄弱的顺序、技术风险、不明确的假设。
 
-如果你改变了立场，准确说明是哪个论点让你改变的。
-如果你找不到真正的弱点，就老实说没有，而不是编造一个。
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;顺便说一句，最后一行承担了大部分重任。强迫批评同样糟糕。我希望智能体对自己施加一点压力，但不要搞辩论社的角色扮演。&lt;/p&gt;
+如果你改变立场，请明确指出是哪个论点改变了你。
+如果你找不到真正的弱点，就如实说，而不是编造一个。
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;顺便说一句，最后一行承担了大量繁重工作。强迫批评&lt;em&gt;同样&lt;/em&gt;不好。我希望智能体对自己施加一点压力，但不要进行辩论俱乐部的角色扮演。&lt;/p&gt;
 &lt;h2 id="this-is-not-a-new-idea"&gt;
 这并非新想法
 &lt;a href="https://kau.sh/feed.xml#this-is-not-a-new-idea"&gt;##&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;已有研究支持这一概念：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://arxiv.org/abs/2305.14325"&gt;多智能体辩论（arxiv）&lt;/a&gt;描述了核心模式：多个模型实例提出答案，跨轮次辩论各自的推理过程，并最终收敛于一个最终答案。&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://arxiv.org/abs/2308.07201"&gt;ChatEval（arxiv）&lt;/a&gt;将类似想法应用于模型评估。它创建了一个智能体评审小组，在决定哪个答案更好之前，先讨论生成的答案。&lt;/li&gt;
-&lt;li&gt;“评判者”部分也有先例。OpenAI的&lt;a href="https://openai.com/index/debate/"&gt;通过辩论实现AI安全&lt;/a&gt;提出了以两名辩手和一名评判者为核心设置。最近，评估领域开始讨论&lt;a href="https://arxiv.org/abs/2306.05685"&gt;LLM-as-a-judge&lt;/a&gt;，即用一个强大的模型对其它模型输出的结果进行评分或排名。&lt;/li&gt;
-&lt;li&gt;论文&lt;a href="https://aclanthology.org/2024.emnlp-main.992/"&gt;通过多智能体辩论鼓励大型语言模型中的发散思维&lt;/a&gt;详细阐述了如何让替代方案存活足够长的时间，以便模型进行比较，而不是让第一个自信的答案吞掉对话的其余部分。&lt;/li&gt;
+&lt;p&gt;有研究支持这一概念：&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2305.14325"&gt;多智能体辩论（arxiv）&lt;/a&gt;描述了核心模式：多个模型实例提出答案，经过多轮推理辩论，最终收敛于一个最终答案。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2308.07201"&gt;ChatEval（arxiv）&lt;/a&gt;将类似思路应用于模型评估。它创建了一个由智能体组成的评审团，在决定哪个答案更好之前，对生成的答案进行讨论。&lt;/li&gt;
+&lt;li&gt;“评判”部分也有先例。OpenAI的&lt;a href="https://openai.com/index/debate/"&gt;通过辩论实现AI安全&lt;/a&gt;提出了两个辩手和一个评判者的核心设置。最近，评估领域开始讨论&lt;a href="https://arxiv.org/abs/2306.05685"&gt;LLM作为评判者&lt;/a&gt;，其中强模型对其他模型输出进行评分或排序。&lt;/li&gt;
+&lt;li&gt;论文&lt;a href="https://aclanthology.org/2024.emnlp-main.992/"&gt;通过多智能体辩论鼓励大型语言模型中的发散思维&lt;/a&gt;详细阐述了如何让备选方案存活足够长的时间，以便模型进行比较，而不是让第一个自信的答案吞掉后续对话。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;这与我在用此方法制定方案时的观察一致。单个智能体往往能产生看似合理的方案。第二个模型攻击该方案时，常常能揭示一些无聊的细微差别，而这些正是我们作为软件工程师通常擅长发现的：迁移顺序问题、未处理的回滚、测试缺口、隐藏依赖、以及“等等，这假设我们可以更改其他团队的API”这样的时刻等。&lt;/p&gt;&lt;h2 id="caveats"&gt;
+&lt;p&gt;这与我在用这种方法制定计划时观察到的情况一致。单个智能体通常会产生一个看似合理的方案。而第二个智能体攻击这个计划时，往往能揭示出一些无聊却重要的细微之处，这些正是我们作为软件工程师通常擅长的：迁移顺序问题、未处理的回滚、测试空白、隐藏依赖、以及“等等，这假设我们可以更改其他团队的API”等时刻。&lt;/p&gt;
+&lt;h2 id="caveats"&gt;
 注意事项
 &lt;a href="https://kau.sh/feed.xml#caveats"&gt;##&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;不过，有几件事你必须留意。&lt;/p&gt;
-&lt;p&gt;"辩论"可能会迅速演变成&lt;strong&gt;谄媚式的附和&lt;/strong&gt;。模型喜欢表现得有帮助。如果提示词奖励共识，它们就会寻找共识。你的智能体可能会停止争论，因为达成一致对模型来说是更优的结果。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;评审也可能被愚弄&lt;/strong&gt;。评审模型可能更倾向于更长的方案、更自信的方案或听起来更完整的方案。因此，我的评审提示词会问一个更狭窄的问题：智能体是否真正解决了重要的分歧，还是仅仅掩盖了它们？&lt;/p&gt;
-&lt;p&gt;该模式也&lt;strong&gt;成本高昂&lt;/strong&gt;，并且会迅速消耗大量 tokens&lt;sup id="fnref:1"&gt;&lt;a href="https://kau.sh/feed.xml#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;。两个智能体进行三轮对话，再加上一个评审和最终整合，需要多次模型调用。我不会用它来生成一个&lt;code&gt;.gitignore&lt;/code&gt;文件。我会用它来设计 API、制定迁移计划、做出架构决策，或任何其他如果计划出错会在日后付出实际时间成本的事情。&lt;/p&gt;
-&lt;p&gt;目前，我将 Agent Kombat 用于&lt;strong&gt;制定计划&lt;/strong&gt;，而非执行。让两个智能体一边争论一边干活，听起来像是一个真正疯狂的 token 最大化策略。其价值在于提前投入额外的时间，因为此时修改计划成本低廉，而计划出错则代价高昂。&lt;/p&gt;
-&lt;p&gt;而且，它并不能让弱模型变强。如果两个智能体都忽略了同一个约束条件，那么辩论可能只会产生一个经过精心编辑的错误方案。&lt;strong&gt;异质性&lt;/strong&gt;在这里有帮助。Claude Code 和 Codex 有不同的习惯、不同的默认设置以及不同的失败模式。这正是我希望两者都参与循环的原因。&lt;/p&gt;
+&lt;p&gt;不过，有几点需要注意。&lt;/p&gt;
+&lt;p&gt;“辩论”可能会很快退化为&lt;strong&gt;谄媚的同意&lt;/strong&gt;。模型喜欢表现得有帮助。如果提示词奖励共识，它们就会找到共识。你的智能体可能会停止争论，因为对模型来说，达成一致是更优化的结果。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;评判者也可能被欺骗&lt;/strong&gt;。评判模型可能偏爱更长的计划、更自信的计划或听起来更完整的计划。因此，我的评判提示词提出了一个更窄的问题：智能体是否真正解决了重要的分歧，还是仅仅掩盖了它们？&lt;/p&gt;&lt;p&gt;这种模式也相当&lt;strong&gt;昂贵&lt;/strong&gt;，会迅速消耗大量代币&lt;sup id="fnref:1"&gt;&lt;a href="https://kau.sh/feed.xml#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;。  
+让两个代理进行三轮辩论，外加一位评审和最终整合，这需要多次模型调用。我不会用它来生成&lt;code&gt;.gitignore&lt;/code&gt;。我会用它来处理API设计、迁移计划、架构决策，或者任何方案失误会带来巨大时间成本的工作。&lt;/p&gt;
+&lt;p&gt;目前，我用“代理格斗”来制定&lt;strong&gt;方案&lt;/strong&gt;，而非执行。让两个代理在争论的同时还要完成工作，听起来完全是一种疯狂的代币最大化策略。其价值在于提前投入额外时间——此时方案修改成本低，犯错代价却很高。&lt;/p&gt;
+&lt;p&gt;它并不能让弱模型变强。如果两个代理都遗漏了同一个约束条件，辩论可能只会产出一个精心编辑但错误的方案。  
+&lt;strong&gt;异质性&lt;/strong&gt;在此能发挥作用。Claude Code 和 Codex 有不同的习惯、不同的默认设置以及不同的失败模式。这正是我希望它们都参与进来的原因。&lt;/p&gt;
 &lt;h2 id="the-script"&gt;
 脚本
 &lt;a href="https://kau.sh/feed.xml#the-script"&gt;##&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;我当前的
-&lt;a href="https://github.com/kaushikgopal/agent-kombat"&gt;Agent Kombat&lt;/a&gt; 版本仅针对我每天使用的两个工具：&lt;code&gt;claude-code&lt;/code&gt; 和 &lt;code&gt;codex-cli&lt;/code&gt;。&lt;/p&gt;
-&lt;p&gt;我还没有采用任何巧妙的方法。文件系统就是消息总线。&lt;/p&gt;
+&lt;p&gt;我目前版本的&lt;a href="https://github.com/kaushikgopal/agent-kombat"&gt;Agent Kombat&lt;/a&gt;只针对我日常使用的两个工具：&lt;code&gt;claude-code&lt;/code&gt; 和 &lt;code&gt;codex-cli&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;我还没有采取什么巧妙手段。文件系统就是消息总线。&lt;/p&gt;
 &lt;p&gt;最快速的用法：&lt;/p&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;./agent-kombat "compare two API designs"
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;或指向一个现有计划：&lt;/p&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;./agent-kombat "debate @my-plan.md and focus on missing risks"
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;对于小型决策，我通常会降低其成本：&lt;/p&gt;&lt;pre tabindex="0"&gt;&lt;code&gt;./agent-kombat -r 1 --no-judge "草拟一份小型实施计划"
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;a href="https://github.com/kaushikgopal/agent-kombat#readme"&gt;README&lt;/a&gt; 中包含了其余内容：引导模式、&lt;code&gt;--dry-run&lt;/code&gt;、&lt;code&gt;--show&lt;/code&gt;、&lt;code&gt;--resume&lt;/code&gt; 以及安装说明。&lt;/p&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;debate_20260425_143022/
+&lt;pre tabindex="0"&gt;&lt;code&gt;./agent-kombat "比较两个API设计"
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;或者传入一个现有方案：&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;./agent-kombat "辩论 @my-plan.md，重点关注遗漏的风险"
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;对于小型决策，我通常会降低成本：&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;./agent-kombat -r 1 --no-judge "起草一个极简实现方案"
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;更多细节请查看&lt;a href="https://github.com/kaushikgopal/agent-kombat#readme"&gt;README&lt;/a&gt;：引导模式、&lt;code&gt;--dry-run&lt;/code&gt;、&lt;code&gt;--show&lt;/code&gt;、&lt;code&gt;--resume&lt;/code&gt; 以及安装说明。&lt;/p&gt;&lt;pre tabindex="0"&gt;&lt;code&gt;debate_20260425_143022/
 |-- requirement.txt
 |-- config.json
 |-- events.jsonl
@@ -132,13 +166,13 @@ Agent Kombat
  |-- r1-claude.md
  |-- r1-codex.md
  `-- ...
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;每一轮都会写入文件。每一轮都会对之前的文件进行快照。如果出现问题，我可以使用 &lt;code&gt;cat&lt;/code&gt; 查看产物，了解发生了什么。&lt;/p&gt;
-&lt;p&gt;该脚本最终应支持更多工具链。我特别感兴趣的是将 gemini-cli 加入其中，以增加多样性。目前，Claude Code 和 Codex 已经足够，因为这些是我实际使用的工具。&lt;/p&gt;
-&lt;p&gt;这最初是一个手动工作流程。这个 shell 脚本只是去掉了那些烦人的部分。&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;每轮都会写入文件。每轮都会对之前的文件进行快照。如果出现问题，我可以&lt;code&gt;cat&lt;/code&gt;产物并查看发生了什么。&lt;/p&gt;
+&lt;p&gt;该脚本最终应支持更多工具。我特别感兴趣的是加入gemini-cli以增加多样性。目前，Claude Code和Codex已经足够，因为这些是我实际使用的工具。&lt;/p&gt;
+&lt;p&gt;这最初是一个手动工作流程。这个shell脚本只是去掉了令人烦恼的部分。&lt;/p&gt;
 &lt;hr/&gt;
 &lt;ol&gt;
 &lt;li id="fn:1"&gt;
-&lt;p&gt;我觉得有必要强调一下。我
+&lt;p&gt;我觉得需要强调一下。我
 &lt;a href="https://x.com/kaushikgopal/status/2035130006125650041"&gt;厌恶&lt;/a&gt;
 tokenmaxxing &lt;a href="https://kau.sh/feed.xml#fnref:1"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -165,110 +199,87 @@ tokenmaxxing &lt;a href="https://kau.sh/feed.xml#fnref:1"&gt;↩︎&lt;/a&gt;&l
 &lt;p&gt;老实说，这是我们录制过的最重要的节目之一。&lt;/p&gt;</description><pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate></item><item><title>Podsync - 我终于建好了我的播客曲目同步器</title><link>https://kau.sh/blog/podsync/</link><description>&lt;figure&gt;
 &lt;img referrerpolicy="no-referrer" src="https://kau.sh/podsync.webp"/&gt;
 &lt;/figure&gt;
-&lt;p&gt;我主持并编辑一个&lt;a href="https://fragmentedpodcast.com/"&gt;播客&lt;/a&gt;&lt;sup id="fnref:1"&gt;&lt;a href="https://kau.sh/feed.xml#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;。远程录制时，我们各自在本地录制音频（我在我的设备上，我的联合主持人在他的设备上）。我们使用的服务（Adobe Podcast、Zoom、Skype-RIP）会录制所有人在一起的母带轨道。但音质不如每个人用自己的麦克风在本地录制的效果。因此，我们以母带为参考，将各条本地录制的单独轨道拼接在一起。&lt;/p&gt;
-&lt;p&gt;这就是行业内所谓的“&lt;a href="https://archive.org/details/howtodoeverythin00holt_0/page/100/mode/2up"&gt;双端录音&lt;/a&gt;”（double-ender）。如果加上一位嘉宾，就变成了“三端录音”（triple-ender）。&lt;/p&gt;
-&lt;p&gt;但在剪辑过程中，这会变得很棘手。每个人开始录制的时间点略有不同——每个人按下录制键的时间都不一样。&lt;/p&gt;
-&lt;p&gt;在我开始剪辑前，我需要把一切对齐。把所有轨道拖入数字音频工作站（DAW），将母带与每条单独轨道同时播放，凭耳朵微调直到语音对齐。如果加上一位嘉宾，这个过程很快就会变得枯燥乏味。在正式开始剪辑前，我得花上10到15分钟进行繁琐且费耳朵的对齐工作。&lt;/p&gt;
-&lt;p&gt;此外还存在时间漂移问题。每台机器的音频时钟运行速率略有不同，所以开头一分钟完美对齐的两条轨道，到了第六十分钟可能会有200毫秒的偏差。&lt;/p&gt;
-&lt;p&gt;因此，我构建了&lt;strong&gt;&lt;a href="https://github.com/kaushikgopal/podsync"&gt;PodSync&lt;/a&gt;&lt;/strong&gt;&lt;sup id="fnref:2"&gt;&lt;a href="https://kau.sh/feed.xml#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
+&lt;p&gt;我主持并编辑一个&lt;a href="https://fragmentedpodcast.com/"&gt;播客&lt;/a&gt;&lt;sup id="fnref:1"&gt;&lt;a href="https://kau.sh/feed.xml#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;。远程录制时，我们各自在本地录制自己的音频（我在我这边，我的联合主持人在他那边）。我们使用的服务（Adobe Podcast、Zoom、Skype-RIP）会捕获所有人的声音作为主音轨。但音质不如每个人用自己的麦克风本地录制的效果。所以我们把主音轨作为参考点，然后将各个本地音轨拼接在一起。&lt;/p&gt;
+&lt;p&gt;这就是业界所谓的“双端录制”（double-ender）。如果有嘉宾加入，就变成了“三端录制”（triple-ender）。&lt;/p&gt;
+&lt;p&gt;但编辑时这就变得棘手了。每个人开始录制的时间点略有不同——按下录音键的时刻都不一样。&lt;/p&gt;
+&lt;p&gt;在编辑之前，我需要将所有音轨对齐。把所有音轨拖入数字音频工作站（DAW），将主音轨与每个单独的音轨同时播放，凭耳朵微调直到语音对齐。如果有嘉宾加入，这个过程很快就会变得烦琐。还没开始编辑，就要花上10-15分钟进行繁琐、费耳朵的对齐操作。&lt;/p&gt;
+&lt;p&gt;还有时钟漂移问题。每台机器的音频时钟运行速率略有不同，所以一分钟时完美对齐的两条音轨，到六十分钟时可能相差200毫秒。&lt;/p&gt;
+&lt;p&gt;所以我构建了&lt;strong&gt;&lt;a href="https://github.com/kaushikgopal/podsync"&gt;PodSync&lt;/a&gt;&lt;/strong&gt;&lt;sup id="fnref:2"&gt;&lt;a href="https://kau.sh/feed.xml#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
 &lt;h2 id="ive-wanted-this-since-2019"&gt;
-我从2019年就想要这个东西了
+自2019年以来我一直想要这个
 &lt;a href="https://kau.sh/feed.xml#ive-wanted-this-since-2019"&gt;##&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;我第一次听说类似的技术是在Marco Arment那里——当年ATP播客的第&lt;a href="https://atp.fm/25"&gt;25&lt;/a&gt;期。他当时开发了一款用于对齐双端录音轨道的应用，并且已经在思考这样一个小众工具是否值得公开发布。我觉得他后来并没有发布它。&lt;/p&gt;
-&lt;p&gt;那时我是一名Kotlin开发者，心想我可以自己做一个。Java已经很成熟了。肯定有一些音频处理库能处理这个任务。&lt;/p&gt;
-&lt;p&gt;结果并没有😅。至少没有干净、易用的形式。在JVM生态中把正确的信号处理模块拼凑起来实在太麻烦，我的兴趣逐渐消退，于是继续手动操作。&lt;/p&gt;
-&lt;h2 id="tis-the-age-of-ai"&gt;
-这是人工智能的时代
+&lt;p&gt;我第一次听说类似技术是从Marco Arment那里——在ATP播客的第&lt;a href="https://atp.fm/25"&gt;25&lt;/a&gt;期。他有一个用于对齐双端录制音轨的新应用，并且已经在考虑如此小众的软件是否值得公开发布。我觉得他最终没有发布它。&lt;/p&gt;
+&lt;p&gt;当时我是Kotlin开发者，我想我应该自己构建一个。Java已经很成熟了。肯定有能处理这个的音频处理库吧。&lt;/p&gt;
+&lt;p&gt;其实没有😅。至少没有干净可用的形式。在JVM环境中拼凑出合适的信号处理组件非常尴尬，以至于我的兴趣消退了，所以我继续手动处理。&lt;/p&gt;&lt;h2 id="tis-the-age-of-ai"&gt;
+这是AI的时代
 &lt;a href="https://kau.sh/feed.xml#tis-the-age-of-ai"&gt;##&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;当我翻新&lt;a href="https://fragmentedpodcast.com/episodes/300/"&gt;Fragmented&lt;/a&gt;时，终于重新拾起这个想法。我借助Claude来构建它——用的还是Rust语言呢。&lt;sup id="fnref:3"&gt;&lt;a href="https://kau.sh/feed.xml#fn:3"&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;&lt;p&gt;但在你把这归为又一个“氛围编码”项目之前，请听我说完。这里有趣的部分不仅仅是AI让事情变得更容易，而是思考实际的算法：&lt;/p&gt;
-&lt;p&gt;语音活动检测（&lt;a href="https://en.wikipedia.org/wiki/Voice_activity_detection"&gt;VAD&lt;/a&gt;）来查找语音区域。&lt;a href="https://en.wikipedia.org/wiki/Mel-frequency_cepstrum"&gt;MFCC&lt;/a&gt;特征来识别音频指纹。互相关来找到音轨匹配的位置。一些真正的信号处理技术，而不仅仅是提示工程。那么，我能否通过提示找到解决方案？可能吧。但我认为，多年的手动对齐音轨经验——以及一些声音工程直觉——帮助我引导AI找到更好的解决方案。&lt;/p&gt;
+&lt;p&gt;当我重新设计 &lt;a href="https://fragmentedpodcast.com/episodes/300/"&gt;Fragmented&lt;/a&gt; 时，
+我终于回到了这个问题。我用Claude来帮我构建它——而且是用Rust开发的。&lt;sup id="fnref:3"&gt;&lt;a href="https://kau.sh/feed.xml#fn:3"&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;但在我把这当作又一个Vibe编码项目之前，请听我说完。这里有趣的部分不仅仅是AI让事情变得更容易了。而是思考整个算法的过程：&lt;/p&gt;
+&lt;p&gt;语音活动检测
+(&lt;a href="https://en.wikipedia.org/wiki/Voice_activity_detection"&gt;VAD&lt;/a&gt;) 来找到语音区域。
+&lt;a href="https://en.wikipedia.org/wiki/Mel-frequency_cepstrum"&gt;MFCC&lt;/a&gt; 特征
+来对音频进行指纹识别。互相关来找到音频片段匹配的位置。这些是真正的信号处理技术，而不只是提示工程。我能不能通过提示词直接解决问题？很可能可以。但我更愿意相信，多年手动对齐音频片段——以及一些音频工程直觉——帮助我引导AI找到了更好的解决方案。&lt;/p&gt;
 &lt;div dir="auto"&gt;
 &lt;svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"&gt;&lt;/path&gt;&lt;path d="m15 5 4 4"&gt;&lt;/path&gt;&lt;/svg&gt;
 
 
-做这个工作让人感到耳目一新。
+做这个工作让人耳目一新。
 
 &lt;/div&gt;
-&lt;p&gt;在一个半个对话都在讨论AI取代工程工作的时代，这里有一个问题，其难点仍然在于问题本身——理解领域、选择正确的方法、知道什么听起来是“正确的”。&lt;/p&gt;
-&lt;p&gt;这让我相信，出色地解决实际问题仍然有其价值。我喜欢Dax的说法：&lt;/p&gt;
+&lt;p&gt;在这个一半的讨论都在谈论AI取代工程工作的时代，这个问题的难点仍然在于问题本身——理解领域、选择正确的方法、知道“正确”听起来是什么样。&lt;/p&gt;
+&lt;p&gt;这让我有信心，真正解决实际问题仍有一席之地。我喜欢Dax的说法：&lt;/p&gt;
 &lt;div dir="auto"&gt;
 &lt;svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"&gt;&lt;/path&gt;&lt;path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"&gt;&lt;/path&gt;&lt;/svg&gt;
 
 
-thdxr在&lt;a href="https://x.com/thdxr/status/2031073582747357397"&gt;推特&lt;/a&gt;上
+thdxr 在 &lt;a href="https://x.com/thdxr/status/2031073582747357397"&gt;推特&lt;/a&gt; 上
 
 &lt;/div&gt;
-&lt;p&gt;我真的不在乎用AI发布更多东西。想出值得发布的东西真的很难。&lt;/p&gt;
+&lt;p&gt;我真的不在乎用人工智能来推出更多东西。想出值得推出的东西真的很难。&lt;/p&gt;
 &lt;h2 id="how-it-works"&gt;
 工作原理
 &lt;a href="https://kau.sh/feed.xml#how-it-works"&gt;##&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;核心想法：从参与者音轨中取一段语音，与主录音进行比较，找到最佳匹配位置。该位置就是时间偏移量。&lt;/p&gt;&lt;p&gt;诀窍在于选择&lt;em&gt;哪&lt;/em&gt;一段语音。Podsync 不会只押注单个区域，而是为每条音轨找出几个有力的候选区域（优先选择较长的连续语音块），并逐一与主音轨进行比对。对于较长的候选区域，它会从开头、中间和结尾进行采样。置信度最高的匹配胜出；如果第二个独立的区域在同一偏移量上达成一致，这个佐证将作为平局决胜因素。&lt;/p&gt;
-&lt;p&gt;找到偏移量后，Podsync 会对每条音轨进行填充或裁剪，使其与主音轨对齐并匹配其长度（并输出一些关于偏移量的信息）。&lt;/p&gt;
+&lt;p&gt;核心想法：从参与者音轨中取一段语音，与主录音进行比较，找到最佳匹配位置。该位置即为时间偏移量。&lt;/p&gt;
+
+&amp;amp;
+&lt;p&gt;关键在于选择&lt;em&gt;哪一块&lt;/em&gt;语音来使用。Podsync 不是赌一个区域，而是为每个音轨找出几个强有力的候选（优先选择较长的连续语音块），并针对主录音逐一尝试。对于较长的候选，它会从开头、中间和结尾采样。最高置信度的匹配获胜；如果第二个独立区域同意相同的偏移量，则该佐证作为打破平局的因素。&lt;/p&gt;
+&lt;p&gt;找到偏移量后，Podsync 会填充或修剪每个音轨，使其与主录音对齐并匹配其长度（同时输出一些关于偏移量的信息）。&lt;/p&gt;
 &lt;h2 id="what-it-looks-like"&gt;
-效果示例
+效果展示
 &lt;a href="https://kau.sh/feed.xml#what-it-looks-like"&gt;##&lt;/a&gt;
-&lt;/h2&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;podsync \
- --master "304-src-ap.mp3" \
- --tracks "304-iury-src-cleaned.wav" \
- --tracks "304-kg-src-logic-cleaned.wav"
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;将输出拖入我的 DAW，时间轴设为 0:00。完成。&lt;/p&gt;
-&lt;p&gt;我甚至编写了一个代理技能，你只需将代理框架指向它，它就会&lt;a href="https://github.com/kaushikgopal/podsync/tree/master/.agents/skills/podsync-voice-tracks"&gt;为你处理所有步骤&lt;/a&gt;：&lt;/p&gt;
+&lt;/h2&gt;&lt;pre tabindex="0"&gt;&lt;code&gt;播客同步 \
+ --主轨 "304-源-AP.mp3" \
+ --音轨 "304-尤里-源-清理后.wav" \
+ --音轨 "304-凯吉-源-逻辑-清理后.wav"
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;将输出拖入我的数字音频工作站（DAW）的0:00位置。完成。&lt;/p&gt;
+&lt;p&gt;我甚至写了一个智能体技能，你只需将智能体框架指向它，它就会
+&lt;a href="https://github.com/kaushikgopal/podsync/tree/master/.agents/skills/podsync-voice-tracks"&gt;为你处理所有步骤&lt;/a&gt;：&lt;/p&gt;
 &lt;figure&gt;
 &lt;img alt="Podsync output showing both tracks synced at confidence 1.00 with zero drift" referrerpolicy="no-referrer" src="https://kau.sh/podsync-output.webp"/&gt;
 &lt;/figure&gt;
-&lt;p&gt;过去每集需要 10–15 分钟的对齐工作，现在只需一条命令。&lt;/p&gt;
+&lt;p&gt;过去每期节目需要10-15分钟的对齐工作，现在只需一条命令。&lt;/p&gt;
 &lt;h2 id="addendum"&gt;
-附言
+附录
 &lt;a href="https://kau.sh/feed.xml#addendum"&gt;##&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;Marco，如果你读到这篇文章，我仍然很想看看你的实现！&lt;/p&gt;
-&lt;p&gt;他的解决方案（据我所知）更侧重于纠正&lt;em&gt;漂移&lt;/em&gt;，而不是纠正偏移量。在实践中，我发现漂移并不是一个大问题。它确实存在，但影响很小，而且我通常会对播客的每一秒进行剪辑，所以手动处理起来很容易。我甚至有一个分支试图通过在静音点进行拼接来纠正漂移，但这反而让事情变得更复杂了。
+&lt;p&gt;马尔科，如果你看到这篇文章，仍然很想看看你的实现！&lt;/p&gt;
+&lt;p&gt;他的解决方案（据我理解）更侧重于纠正&lt;em&gt;漂移&lt;/em&gt;，而非调整偏移量。实际上，我发现漂移问题并不严重。它确实存在，但影响很小，而且我通常会对播客每一秒进行编辑，所以手动处理起来很容易。我甚至有一个分支通过在静音点拼接来纠正漂移，但这样做反而让事情变得复杂了。&lt;/p&gt;
 &lt;hr/&gt;
 &lt;ol&gt;
 &lt;li id="fn:1"&gt;
-&lt;p&gt;这是一个关于人工智能发展的播客，但我们努力使其信息量高。没有那种&lt;a href="https://x.com/kaushikgopal/status/2023523217034670422?s=20"&gt;自慰式的人工智能讨论&lt;/a&gt;。&lt;a href="https://kau.sh/feed.xml#fnref:1"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这是一个关于人工智能开发的播客，但我们力求内容高价值。绝对不是那种
+&lt;a href="https://x.com/kaushikgopal/status/2023523217034670422?s=20"&gt;自我陶醉式的人工智能讨论&lt;/a&gt;。 &lt;a href="https://kau.sh/feed.xml#fnref:1"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id="fn:2"&gt;
-&lt;p&gt;另请参阅&lt;a href="https://en.wikipedia.org/wiki/Phone-sync"&gt;电话同步&lt;/a&gt;。&lt;a href="https://kau.sh/feed.xml#fnref:2"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;另请参阅 &lt;a href="https://en.wikipedia.org/wiki/Phone-sync"&gt;电话同步&lt;/a&gt;。 &lt;a href="https://kau.sh/feed.xml#fnref:2"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id="fn:3"&gt;
-&lt;p&gt;我选择了Rust（&lt;a href="https://kau.sh/blog/learn-rust-ai-atrophy/"&gt;这是我最近感兴趣的&lt;/a&gt;），并且一个没有运行时依赖的CLI工具分发起来更令人愉快。&lt;a href="https://kau.sh/feed.xml#fnref:3"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;我选择了Rust（这是
+&lt;a href="https://kau.sh/blog/learn-rust-ai-atrophy/"&gt;我最近感兴趣的&lt;/a&gt;），并且没有运行时依赖的命令行工具更容易分发。 &lt;a href="https://kau.sh/feed.xml#fnref:3"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/p&gt;</description><pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate></item><item><title>以下是我选择使用Opencode的理由</title><link>https://kau.sh/blog/opencode-reasons/</link><description>&lt;p&gt;以下是我使用&lt;a href="https://opencode.ai/"&gt;Opencode&lt;/a&gt;的理由清单。&lt;/p&gt;
- 请记住，你使用的第一行内容将显示在列表标题中。
-&lt;h2 id="1-switch-between-models-on-the-fly"&gt;
-1. 在任务中即时切换模型
-&lt;a href="https://kau.sh/feed.xml#1-switch-between-models-on-the-fly"&gt;##&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;我经常在新模型发布时进行&lt;a href="https://kau.sh/tags/ai-model-choice/"&gt;实验&lt;/a&gt;。我会根据不同任务主动切换模型，而且使用频率足够让我感知到它们之间的差异。Opencode 支持我在任务或对话中途流畅地切换模型。&lt;/p&gt;
-&lt;h2 id="2-client-server-architecture-aka-built-in-remote-control"&gt;
-2. 客户端-服务器架构（即内置远程控制）
-&lt;a href="https://kau.sh/feed.xml#2-client-server-architecture-aka-built-in-remote-control"&gt;##&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;我在&lt;a href="https://kau.sh/blog/opencode-openclaw/"&gt;另一篇文章&lt;/a&gt;中详细介绍了这一点以及代理流畅性，但简而言之：Opencode 内置了客户端/服务器架构。所以我只需在一台机器上启动 opencode 服务器，通过 &lt;code&gt;tailscale serve&lt;/code&gt; 暴露服务，然后在手机或其他设备上使用它。&lt;/p&gt;
-&lt;h2 id="3-subagent--mode-features"&gt;
-3. 子代理 + 模式功能
-&lt;a href="https://kau.sh/feed.xml#3-subagent--mode-features"&gt;##&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;我在我的播客&lt;a href="https://fragmentedpodcast.com/episodes/305/"&gt;某期节目&lt;/a&gt;中详细讨论过这一点，但 Opencode 对子代理和模式的实现是最优秀的。你可以将某个子代理定义设为主模式，然后从那里操作其他子代理。这让编排类任务变得极其简单。&lt;/p&gt;
-&lt;h2 id="4-opinionated-ux"&gt;
-4. 有主见的用户体验
-&lt;a href="https://kau.sh/feed.xml#4-opinionated-ux"&gt;##&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;我喜欢 OpenCode 在用户体验上坚持自己的主张。它并不试图模仿 Claude Code 或 Codex。在这个过程中，他们创造了一些非常棒的用户体验模式，比如带有持续文件变更、上下文/成本、已连接的 MCP 等信息的侧边栏。这是我第一次不需要担心自定义 statusline.sh 或自己构建一个。&lt;/p&gt;
-&lt;h2 id="5-highly-customizable-via-plugins"&gt;
-5. 通过插件实现“高度”可定制
-&lt;a href="https://kau.sh/feed.xml#5-highly-customizable-via-plugins"&gt;##&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://opencode.ai/docs/plugins/"&gt;插件&lt;/a&gt;生态具有高度可定制性。你可以添加新功能、集成外部服务，甚至修改 OpenCode 的默认行为。当我愚蠢地考虑分支时，杰出的&lt;a href="https://blog.fsck.com/"&gt;Jesse Vincent&lt;/a&gt;向我提到过这一点。&lt;/p&gt;
-&lt;h1 id="whats-missing"&gt;
-不足之处
-&lt;a href="https://kau.sh/feed.xml#whats-missing"&gt;#&lt;/a&gt;
-&lt;/h1&gt;&lt;p&gt;并非一切都是彩虹和阳光。Anomaly——OpenCode背后的团队——规模&lt;a href="https://x.com/anomalyco/following"&gt;很小&lt;/a&gt;。这一点有时会显现出来，因为确实存在&lt;a href="https://github.com/anomalyco/opencode/issues/11225"&gt;一些&lt;/a&gt;&lt;a href="https://github.com/anomalyco/opencode/issues/5359#issuecomment-3640185560"&gt;漏洞&lt;/a&gt;，并且&lt;a href="https://github.com/anomalyco/opencode/issues/17982"&gt;某些&lt;/a&gt;功能&lt;a href="https://github.com/anomalyco/opencode/issues/1905"&gt;缺失&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;但我要说……过去两个月里，没有任何问题阻止我使用它，而且是&lt;strong&gt;专门&lt;/strong&gt;使用它。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://opencode.ai/download"&gt;去试试看吧&lt;/a&gt;。我认识的许多认真的AI编码者都非常喜欢它，并且正在转向使用它。&lt;/p&gt;</description><pubDate>Tue, 17 Mar 2026 20:00:00 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate></item></channel></rss>
