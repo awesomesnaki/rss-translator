@@ -1,36 +1,245 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kaushik Gopal's Website (中文)</title><link>https://kau.sh/</link><description>近期内容 - Kaushik Gopal 的网站</description><language>zh-CN</language><lastBuildDate>Mon, 01 Jun 2026 17:00:00 +0000</lastBuildDate><item><title>AI模型选择 2026-06</title><link>https://kau.sh/blog/ai-model-choices-2026-06/</link><description>&lt;p&gt;我的2026年一月AI工具栈。&lt;/p&gt;
-记住，你使用的第一行会显示在列表标题中
-&lt;p&gt;距离&lt;a href="https://kau.sh/blog/ai-model-choices/"&gt;我上篇文章&lt;/a&gt;已有六个月，整个列表已经彻底更新。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kaushik Gopal's Website (中文)</title><link>https://kau.sh/</link><description>近期内容 - Kaushik Gopal 的网站</description><language>zh-CN</language><lastBuildDate>Wed, 03 Jun 2026 16:00:00 +0000</lastBuildDate><item><title>OpenCode 高级用户技巧</title><link>https://kau.sh/blog/opencode-power-user-tips/</link><description>&lt;p&gt;在这篇文章中，我想分享一些关于OpenCode的高级用户技巧——这是一个&lt;a href="https://github.com/anomalyco/opencode"&gt;开源&lt;/a&gt;、模型无关的工具框架，应该被更多人使用。希望其中一些高级用例能说服你尝试一下&lt;a href="https://opencode.ai/"&gt;OpenCode&lt;/a&gt;（以及&lt;a href="https://openchamber.dev/"&gt;OpenChamber&lt;/a&gt;）。&lt;/p&gt;
+&lt;div dir="auto"&gt;
+&lt;svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"&gt;&lt;circle cx="12" cy="12" r="10"&gt;&lt;/circle&gt;&lt;path d="M12 16v-4"&gt;&lt;/path&gt;&lt;path d="M12 8h.01"&gt;&lt;/path&gt;&lt;/svg&gt;
+
+
+仅限中级到高级技巧
+
+&lt;/div&gt;
+&lt;p&gt;我特意选择在这篇文章中讨论一些高级技巧。如果你从未使用过代理工具框架，或者正在学习如何使用OpenCode，这篇文章可能会有帮助，但请注意，读者需自行斟酌。&lt;/p&gt;
+&lt;h2 id="unleash-the-leader-key"&gt;
+释放 &lt;code&gt;leader&lt;/code&gt; 键
+&lt;a href="https://kau.sh/feed.xml#unleash-the-leader-key"&gt;##&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;虽然 &lt;code&gt;⌃p&lt;/code&gt;（Ctrl + P）会列出所有可能的命令（这很有帮助），但OpenCode有一个“leader”键的概念（默认为 &lt;code&gt;⌃x&lt;/code&gt;）。Leader键允许你更快地执行有针对性的有用命令，并且预定义了一系列有用的命令&lt;sup id="fnref:1"&gt;&lt;a href="https://kau.sh/feed.xml#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
+&lt;figure&gt;
+&lt;div align="center"&gt;
+&lt;img alt="ctrl-p shows all commands" referrerpolicy="no-referrer" src="https://kau.sh/0-ctrlp.webp"/&gt;
+&lt;figcaption&gt;
+ctrl-p 显示所有命令。注意一些命令绑定了 leader 键
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/figure&gt;
+&lt;h2 id="manage-multiple-sessions---leader-l"&gt;
+管理多个会话 - &lt;code&gt;leader l&lt;/code&gt;
+&lt;a href="https://kau.sh/feed.xml#manage-multiple-sessions---leader-l"&gt;##&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;人们常常使用整个终端和额外工具来协调多个代理会话。&lt;/p&gt;&lt;p&gt;我以前也有一个&lt;a href="https://x.com/kaushikgopal/status/2032181317442682977"&gt;过度定制&lt;/a&gt;的tmux配置，看起来像这样：&lt;/p&gt;
+&lt;figure&gt;
+&lt;div align="center"&gt;
+&lt;img alt="Before: agent session listing via tmux" referrerpolicy="no-referrer" src="https://kau.sh/2-tmuxbefore.webp"/&gt;
+&lt;figcaption&gt;
+之前：通过tmux列出的代理会话
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/figure&gt;
+&lt;p&gt;OpenCode简化了这一点。只需按下&lt;code&gt;leader + l&lt;/code&gt;，你就能查看当前会话，并可以通过从列表中选择来立即切换到该会话。&lt;/p&gt;
+&lt;figure&gt;
+&lt;div align="center"&gt;
+&lt;img alt="After: leader-l allows quick session switching" referrerpolicy="no-referrer" src="https://kau.sh/1-leaderl.webp"/&gt;
+&lt;figcaption&gt;
+之后：leader-l允许快速切换会话
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/figure&gt;
+&lt;p&gt;从这个视图快速重命名会话的功能对我来说是天赐之物，它让我保持条理。&lt;/p&gt;
+&lt;div dir="auto"&gt;
+&lt;svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"&gt;&lt;/path&gt;&lt;/svg&gt;
+
+
+会话目录过滤
+
+&lt;/div&gt;
+&lt;p&gt;你可以在启动&lt;code&gt;opencode&lt;/code&gt;时传递一个&lt;code&gt;--dir .&lt;/code&gt;标志，这会将会话列表默认过滤到仅此工作区/目录。你也可以不传递该标志，那么会话列表将显示&lt;em&gt;所有&lt;/em&gt;会话。&lt;/p&gt;
+&lt;h2 id="fork-or-branch-sessions-fork"&gt;
+分叉（或分支）会话 &lt;code&gt;/fork&lt;/code&gt;
+&lt;a href="https://kau.sh/feed.xml#fork-or-branch-sessions-fork"&gt;##&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;分叉会获取你当前所在的会话并生成一个新的。你会分支到一个单独的对话中，而主代理会继续处理你留给它的任何任务。&lt;/p&gt;
+&lt;p&gt;我喜欢这个功能，甚至在大多数工具推出之前，我就用tmux&lt;a href="https://kau.sh/blog/agent-forking/"&gt;拼凑了我自己的版本&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;Claude Code、Codex和其他工具已经跟进并支持这一功能。但OpenCode的用户体验是最流畅的。&lt;/p&gt;
+&lt;video controls="controls" loop="loop" width="100%"&gt;
+&lt;source src="https://kau.sh/3-forking.mp4" type="video/mp4"/&gt;
+&lt;/video&gt;&lt;p&gt;你只需在聊天中输入 &lt;code&gt;/fork&lt;/code&gt;。它为你提供了分叉当前聊天或从消息中某个先前点分叉的选项。然后你可以直接从列表界面重命名分叉的会话，并来回跳转。便捷的会话切换功能在这里再次派上用场。&lt;/p&gt;
+&lt;h2 id="going-back-in-a-conversation---leader-g"&gt;
+回到对话中的某个点 - &lt;code&gt;leader g&lt;/code&gt;
+&lt;a href="https://kau.sh/feed.xml#going-back-in-a-conversation---leader-g"&gt;##&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;需要回到同一对话中较早的某个点？在OpenCode中，没有繁琐的退出操作。leader g会显示一个时间线，你可以立即回溯对话，从那里分叉一个新的会话，或者直接复制消息文本。&lt;/p&gt;
+&lt;video controls="controls" loop="loop" width="100%"&gt;
+&lt;source src="https://kau.sh/4-gotomessage.mp4" type="video/mp4"/&gt;
+&lt;/video&gt;
+&lt;h2 id="model-switching---leader-m"&gt;
+模型切换 - &lt;code&gt;leader m&lt;/code&gt;
+&lt;a href="https://kau.sh/feed.xml#model-switching---leader-m"&gt;##&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;这很可能是我难以切换离开OpenCode的主要原因之一。我只需按下 &lt;code&gt;leader m&lt;/code&gt;&lt;sup id="fnref:2"&gt;&lt;a href="https://kau.sh/feed.xml#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;，就可以在GPT-5.5、Kimi K2.6和Opus之间来回切换。&lt;/p&gt;
+&lt;div dir="auto"&gt;
+&lt;svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"&gt;&lt;/path&gt;&lt;/svg&gt;
+
+
+切换模型与推理
+
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;leader&lt;/code&gt; + &lt;code&gt;m&lt;/code&gt; 即时切换模型。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ctrl+t&lt;/code&gt; 更改推理类型。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;我设想未来我们将拥有可以在本地运行的更小模型。OpenCode也可以指向你在自己机器上运行的ollama模型。&lt;/p&gt;&lt;p&gt;如果你对我的模型选择感兴趣，&lt;a href="https://kau.sh/tags/ai-model-choice/"&gt;点击这里&lt;/a&gt;。&lt;/p&gt;
+&lt;h2 id="lsp-support"&gt;
+LSP 支持
+&lt;a href="https://kau.sh/feed.xml#lsp-support"&gt;##&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;并非所有人都意识到，但 OpenCode 内置了 LSP 服务器
+&lt;a href="https://opencode.ai/docs/lsp/"&gt;集成&lt;/a&gt;。这意味着 OpenCode 内部的编码智能体能够更好地理解如何导航不同的编程语言。你将发现更少的文件搜索和 grep 操作。&lt;/p&gt;
+&lt;p&gt;Anthropic 甚至推荐
+&lt;a href="https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start"&gt;LSP 服务器集成&lt;/a&gt;
+作为让工具在大型代码库中表现更佳的高级技巧。&lt;/p&gt;
+&lt;p&gt;OpenCode 免费提供了其中的大部分功能。&lt;/p&gt;
+&lt;h2 id="custom-agents"&gt;
+自定义智能体
+&lt;a href="https://kau.sh/feed.xml#custom-agents"&gt;##&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;我热衷于 OpenCode 的另一个原因是：按下 &lt;code&gt;tab&lt;/code&gt; 键即可循环切换自定义智能体。以下是我经常使用的几个：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;red-team&lt;/strong&gt; — 以独立的对抗性视角，从与实现者不同的角度思考，寻找失败模式。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ghostwriter&lt;/strong&gt; — 草拟消息、帖子，语气不那么像 AI 套路。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;brainstormer&lt;/strong&gt; — 专门调优以帮助我进行创意、计划等头脑风暴的自定义智能体。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;pr-reviewer&lt;/strong&gt; — 严格的审查者，忽略过去的对话，以全新的视角进行审查。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;kimi-coder&lt;/strong&gt; — 受 Kimi 约束的编码智能体：快速、便宜的实现。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;agent-kombat&lt;/strong&gt; — 参见我的 &lt;a href="https://kau.sh/blog/agent-kombat/"&gt;agent-kombat&lt;/a&gt; 文章。我已将其集成到一个自定义智能体中以便快速使用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div dir="auto"&gt;
+&lt;svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"&gt;&lt;/path&gt;&lt;/svg&gt;
+
+
+查看子代理的工作
+
+&lt;/div&gt;
+&lt;p&gt;当智能体将工作分发给子代理时，按&lt;code&gt;leader&lt;/code&gt; + &lt;code&gt;down&lt;/code&gt;可调出子代理视图以便观察其工作。&lt;/p&gt;
+&lt;h2 id="headless-mode"&gt;
+无头模式
+&lt;a href="https://kau.sh/feed.xml#headless-mode"&gt;##&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;与其他人一样，你可以使用OpenCode进行脚本编写和一次性审查：&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;opencode --prompt "审查src/auth.ts中的代码" --output review.md
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id="enter-openchamber"&gt;
+进入OpenChamber
+&lt;a href="https://kau.sh/feed.xml#enter-openchamber"&gt;#&lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;到目前为止，我主要是在终端用户界面（TUI）的背景下讨论功能。我的好友YY最近向我介绍了OpenChamber，这对我改变了很多。&lt;/p&gt;
+&lt;p&gt;OpenChamber是OpenCode的图形界面包装器。顺便提一下，OpenCode已经有一个Web客户端。但OpenChamber有很多不错的功能。&lt;/p&gt;
+&lt;figure&gt;
+&lt;div align="center"&gt;
+&lt;img alt="OpenChamber: a super nice GUI over your running OpenCode server" referrerpolicy="no-referrer" src="https://kau.sh/6-openchamber.webp"/&gt;
+&lt;figcaption&gt;
+OpenChamber：运行中的OpenCode服务器上一个非常漂亮的图形界面
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/figure&gt;
+&lt;p&gt;但关键是，它使用的是同一个OpenCode服务器。在&lt;a href="https://kau.sh/blog/opencode-openclaw/"&gt;之前的一篇文章&lt;/a&gt;中，我深入探讨了OpenCode的服务器-客户端架构：你将OpenCode作为&lt;em&gt;服务器&lt;/em&gt;运行，并连接多个&lt;em&gt;客户端&lt;/em&gt;到它。&lt;/p&gt;&lt;p&gt;一个客户端可以是终端标签页、你的手机、桌面、浏览器——每一个都是指向同一服务器的隔离会话，完全同步。OpenChamber 只是另一个客户端，但是一个超级强大的图形界面客户端。&lt;/p&gt;
+&lt;h2 id="free-remote-control-from-your-phone"&gt;
+手机免费远程控制
+&lt;a href="https://kau.sh/feed.xml#free-remote-control-from-your-phone"&gt;##&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;这个功能风靡全球，尤其是自从 Codex 推出他们的实现以来。&lt;/p&gt;
+&lt;p&gt;OpenChamber 免费为你提供这个功能，并且用户体验极佳。&lt;/p&gt;
+&lt;figure&gt;
+&lt;div align="center"&gt;
+&lt;img alt="OpenChamber gives you remote control for free" referrerpolicy="no-referrer" src="https://kau.sh/5-remotecontrol.webp"/&gt;
+&lt;figcaption&gt;
+OpenChamber 免费提供远程控制
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/figure&gt;
+&lt;p&gt;只需点击一个按钮，内部使用 &lt;code&gt;cloudflared&lt;/code&gt; 或 &lt;code&gt;ngrok&lt;/code&gt;，它就会打开一个安全的&lt;sup id="fnref:3"&gt;&lt;a href="https://kau.sh/feed.xml#fn:3"&gt;3&lt;/a&gt;&lt;/sup&gt;隧道，你可以将手机或其他客户端连接到该隧道。因此，现在你的手机可以控制 OpenChamber，并通过代理控制 OpenCode，就像你在电脑上操作一样。&lt;/p&gt;
+&lt;p&gt;使用 OpenCode 和 tailscale 也可以实现这一点（正如我在上一篇文章中提到的），但 OpenChamber 的用户体验和安全隧道方法使这一切更加流畅。&lt;/p&gt;
+&lt;p&gt;现在出门时，我几乎从不带工作笔记本电脑。只需对着我的手机和一个打开了 OpenChamber 的浏览器标签页说话。&lt;/p&gt;
+&lt;h3 id="multi-run"&gt;
+多模型运行
+&lt;a href="https://kau.sh/feed.xml#multi-run"&gt;###&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;我依赖的另一项 OpenChamber 功能是：多模型运行。你有一个提示，并希望同时在多个模型上尝试。我认为 Cursor 是第一个引入这个功能的。OpenChamber 为此提供了一个非常漂亮的界面。这就是我一直在测试 Opus 4.8 并更新我的&lt;a href="https://kau.sh/blog/ai-model-choices-2026-06/"&gt;模型选择&lt;/a&gt;的方式。&lt;/p&gt;
+&lt;h1 id="tip-on-syncing-opencode-and-openchamber"&gt;
+同步 OpenCode 和 OpenChamber 的提示
+&lt;a href="https://kau.sh/feed.xml#tip-on-syncing-opencode-and-openchamber"&gt;#&lt;/a&gt;
+&lt;/h1&gt;&lt;p&gt;有一个需要注意的事项。默认情况下，OpenChamber 会检测 &lt;code&gt;127.0.0.1:4096&lt;/code&gt; 上是否运行着 OpenCode 服务器。如果未找到，它会静默地启动自己的实例。&lt;/p&gt;
+&lt;p&gt;因此，如果你真的希望所有会话保持同步，请先在端口 &lt;code&gt;4096&lt;/code&gt; 上启动你的 OpenCode 服务器，&lt;em&gt;然后&lt;/em&gt; 再正常打开 OpenChamber，这样它就会连接到已有的服务器上。&lt;/p&gt;
+&lt;p&gt;我设置了一个方便的 shell 别名，可以像这样后台启动 OpenCode 服务器：&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;# 在后台启动 opencode 服务器，端口 4096
+abbr -a -- ocs "nohup opencode serve --port 4096 &amp;gt;/tmp/opencode.log 2&amp;gt;&amp;amp;1 &amp;amp;"
+
+# 将新的 opencode TUI 实例连接到上述服务器
+abbr -a -- oca "opencode attach http://127.0.0.1:4096" # --dir .
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;如果你没能及时看到这个提示，需要终止之前运行的 OpenCode 服务器实例，我推荐使用方便的 &lt;a href="https://github.com/dalance/procs"&gt;procs&lt;/a&gt; 命令行工具。&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;
+# 显示正在运行的 opencode 服务器及其端口
+procs -i TcpPort opencode
+
+# 这是 fish shell 的一个便利特性：它会正确解析输出并传递给 kill
+kill (procs opencode --only pid --no-header)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;OpenCode 和 OpenChamber 还有&lt;em&gt;很多&lt;/em&gt;功能，但这些是我日常最常用的。最让我印象深刻的是单服务器、多客户端的设置——运行一个 OpenCode 服务器，然后将所有客户端指向它：TUI、OpenChamber、你的手机。这里有什么能帮到你的就尽管拿去用，如果有哪些我没提到的技巧，也请告诉我。&lt;/p&gt;
+&lt;div dir="auto"&gt;
+&lt;svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"&gt;&lt;/path&gt;&lt;path d="M12 9v4"&gt;&lt;/path&gt;&lt;path d="M12 17h.01"&gt;&lt;/path&gt;&lt;/svg&gt;
+
+
+OpenChamber v1.12.0 隧道漏洞
+
+&lt;/div&gt;
+&lt;p&gt;注意：
+&lt;a href="https://github.com/openchamber/openchamber/releases/tag/v1.12.0"&gt;OpenChamber v1.12.0&lt;/a&gt;
+新增了无头 Web 应用模式，现在远程实例切换时会更改 OpenChamber API 端点，而不会加载完整的远程 UI。这似乎破坏了我上面描述的远程移动隧道设置。 :/&lt;/p&gt;
+&lt;p&gt;开发者已经
+&lt;a href="https://x.com/openchamber_dev/status/2062083947928936603"&gt;在积极回应并修复&lt;/a&gt;
+🤞。在此之前，我建议坚持使用
+&lt;a href="https://github.com/openchamber/openchamber/releases/tag/v1.11.7"&gt;v1.11.7&lt;/a&gt;
+版本，你可以手动下载。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;你还可以绑定没有预定义按键的命令。例如，我将“退出应用”命令绑定到 &lt;code&gt;⌃x + q&lt;/code&gt;，以便快速退出 OpenCode。 &lt;a href="https://kau.sh/feed.xml#fnref:1"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;是的，是的，你可能正在清除提示/KV缓存，但无论如何你都不应该进行长时间的对话。 &lt;a href="https://kau.sh/feed.xml#fnref:2"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:3"&gt;
+&lt;p&gt;一次性 + TTL + 可撤销的连接链接 &lt;a href="https://kau.sh/feed.xml#fnref:3"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description><pubDate>Wed, 03 Jun 2026 16:00:00 +0000</pubDate></item><item><title>AI模型选择 2026-06</title><link>https://kau.sh/blog/ai-model-choices-2026-06/</link><description>&lt;p&gt;我的2026年一月AI工具栈。&lt;/p&gt;
+记住，你使用的第一行是列表标题中显示的内容
+&lt;p&gt;自&lt;a href="https://kau.sh/blog/ai-model-choices/"&gt;我上一篇文章&lt;/a&gt;发布以来已有六个月，整个列表已经彻底更新。&lt;/p&gt;
 &lt;h3 id="models"&gt;
 模型
 &lt;a href="https://kau.sh/feed.xml#models"&gt;###&lt;/a&gt;
 &lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Kimi 2.6&lt;/strong&gt; 已成为我的主力模型。默认情况下，我现在大部分AI会话都从Kimi 2.6开始。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;GPT 5.5&lt;/strong&gt; 仍然是我首选的&lt;em&gt;编程&lt;/em&gt;模型。我的详细规划、创建&lt;a href="https://kau.sh/blog/exec-plans/"&gt;执行计划&lt;/a&gt;&lt;sup id="fnref:1"&gt;&lt;a href="https://kau.sh/feed.xml#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;、代码审查、简化以及一次性功能变更，都可靠地通过GPT 5.5（高精度）完成。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Opus 4.8&lt;/strong&gt; 用于深度思考、写作和整体困难任务。自发布以来已有&lt;a href="https://www.anthropic.com/news/claude-opus-4-8"&gt;四天&lt;/a&gt;，我的看法还在形成中，但我着迷于Opus 4.8能够&lt;em&gt;迅速&lt;/em&gt;给出正确解决方案，尤其是针对稍微复杂的问题。不过，我仍然只在其他模型遇到困难时才使用它，因为💸🔥&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Gemini&lt;/strong&gt; 用于所有图像、视频或音频相关任务。其他模型无法比拟。它大幅缩短了曾经耗费我大量时间&lt;sup id="fnref:2"&gt;&lt;a href="https://kau.sh/feed.xml#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;的工作。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kimi 2.6&lt;/strong&gt;已成为我的主力模型。默认情况下，我现在大部分AI会话都以Kimi 2.6开始。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GPT 5.5&lt;/strong&gt;仍然是我首选的&lt;em&gt;编码&lt;/em&gt;模型。我详细的规划、创建&lt;a href="https://kau.sh/blog/exec-plans/"&gt;执行计划&lt;/a&gt;&lt;sup id="fnref:1"&gt;&lt;a href="https://kau.sh/feed.xml#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;、代码审查、简化和一次性功能变更，都可靠地依赖GPT 5.5（高优先级）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Opus 4.8&lt;/strong&gt;用于深度思考、写作和整体困难任务。自发布以来已经过去&lt;a href="https://www.anthropic.com/news/claude-opus-4-8"&gt;四天&lt;/a&gt;，我的看法仍在形成中，但我对Opus 4.8能&lt;em&gt;快速&lt;/em&gt;给出正确解决方案感到着迷，尤其是对稍微复杂的问题。但我仍然只在其他模型遇到困难时才使用它，因为💸🔥&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gemini&lt;/strong&gt;用于任何图像、视频或音频相关任务。其他模型无法匹敌。它大大缩短了我过去需要花费数小时&lt;sup id="fnref:2"&gt;&lt;a href="https://kau.sh/feed.xml#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;的工作。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id="harness"&gt;
-工具框架
+工具集
 &lt;a href="https://kau.sh/feed.xml#harness"&gt;###&lt;/a&gt;
 &lt;/h3&gt;
-&lt;p&gt;我不断尝试多种工具框架，但我觉得自己已经坚定地选择了&lt;a href="https://opencode.ai/"&gt;OpenCode&lt;/a&gt;搭配&lt;a href="https://openchamber.dev/"&gt;OpenChamber&lt;/a&gt;作为我的首选框架。未来我会写一篇关于OpenCode高级技巧的文章，但在此之前，我已经对这些框架进行了大量测试，目前对这个组合非常满意。&lt;/p&gt;
-&lt;p&gt;我仍然经常使用OpenCode切换回&lt;strong&gt;TUI&lt;/strong&gt;环境，虽然和其他人一样，我曾短暂使用过cmux，但发现它在性能上并不理想，而且存在内存问题。所以我又回到了纯粹的Ghostty。另一方面，OpenCode在管理会话方面非常出色，因此我甚至经常不需要使用tmux。&lt;/p&gt;
-&lt;p&gt;此外，我也使用Hermes，但自从发现OpenChambers后，我发现不再经常需要它了。如果你好奇的话，这同样值得单独写一篇文章来介绍。&lt;/p&gt;&lt;h3 id="what-surprised-me"&gt;
-让我感到惊讶的是
+&lt;p&gt;我不断尝试多种工具集，但我想我已经坚定地选择了&lt;a href="https://opencode.ai/"&gt;OpenCode&lt;/a&gt;搭配&lt;a href="https://openchamber.dev/"&gt;OpenChamber&lt;/a&gt;作为我的首选工具组合。此后我撰写了我的&lt;a href="https://kau.sh/blog/opencode-power-user-tips/"&gt;OpenCode高级技巧&lt;/a&gt;，但我对这些工具集进行了大量测试，目前对这个组合非常满意。&lt;/p&gt;
+&lt;p&gt;我仍然会频繁地通过OpenCode进入&lt;strong&gt;TUI&lt;/strong&gt;领域，虽然和他人一样，我也曾短暂尝试过cmux，但发现它的性能不佳且会遇到内存问题。所以我回到了裸机Ghostty。另一方面，OpenCode在管理会话方面非常出色，因此我常常发现自己甚至不需要使用tmux。&lt;/p&gt;&lt;p&gt;另外，我平时也用 Hermes，但自从发现了 OpenChamber，我发现不再需要频繁使用它了。同样，如果你好奇的话，这个问题值得单独写一篇长文来讨论。&lt;/p&gt;
+&lt;h3 id="what-surprised-me"&gt;
+让我意外的事
 &lt;a href="https://kau.sh/feed.xml#what-surprised-me"&gt;###&lt;/a&gt;
 &lt;/h3&gt;
-&lt;p&gt;我最近被 Kimi 2.6 彻底震撼了。我发现它在中等推理能力下常常能与 GPT 5.5 并驾齐驱。甚至有时它的结果能与 Opus 4.8 匹敌（尽管 Opus 通常一次就能达到效果）。我不确定我是否以某种方式&lt;a href="https://kau.sh/blog/harness-engineers/"&gt;优化了我的工具&lt;/a&gt;，使其与 Kimi 配合得更好，但天啊，我真的很喜欢它给我带来的结果。如果你想试试，我推荐 Opencode 的 10 美元 &lt;a href="https://opencode.ai/go"&gt;“Go”套餐&lt;/a&gt;，然后大力使用 Kimi 2.6。&lt;/p&gt;
-&lt;p&gt;我不把任何模型当作治疗师或朋友来对话，通常会给它一个相当严格的指令，规定它应该如何与我交流，所以很多关于 Opus 4.8 “粗糙”或 GPT 5.5 “缺乏灵魂”🙄 的抱怨，对我影响不大。&lt;/p&gt;
+&lt;p&gt;Kimi 2.6 真的让我惊艳。我发现它通常能和 GPT 5.5 的中等推理能力并驾齐驱。有时它的结果甚至能媲美 Opus 4.8（尽管 Opus 通常能一次性得到结果）。我不确定是不是我以某种方式&lt;a href="https://kau.sh/blog/harness-engineers/"&gt;优化了 harness&lt;/a&gt;，让它与 Kimi 配合得更好，但天哪，我真的很喜欢我得到的结果。如果你也想试试，我推荐使用 Opencode 的 &lt;a href="https://opencode.ai/go"&gt;10 美元“Go”套餐&lt;/a&gt;，并全力压榨 Kimi 2.6。&lt;/p&gt;
+&lt;p&gt;我不把任何模型当作治疗师或朋友来聊天，而且我通常会对它与我交流的方式给出非常严格的要求，所以很多人抱怨 Opus 4.8 “粗糙”或者 GPT 5.5 “没有灵魂” 🙄，这些对我来说并不太困扰。&lt;/p&gt;
 &lt;hr/&gt;
 &lt;ol&gt;
 &lt;li id="fn:1"&gt;
-&lt;p&gt;如果我采用 &lt;a href="https://kau.sh/blog/exec-plans/"&gt;执行计划&lt;/a&gt; 的方式，我会从 GPT 5.5 开始，然后交给 Kimi 2.6 来执行。 &lt;a href="https://kau.sh/feed.xml#fnref:1"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;如果我确实采用 &lt;a href="https://kau.sh/blog/exec-plans/"&gt;exec-plans&lt;/a&gt; 路线，我会先用 GPT 5.5 规划，然后交给 Kimi 2.6 执行。 &lt;a href="https://kau.sh/feed.xml#fnref:1"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id="fn:2"&gt;
-&lt;p&gt;如果你好奇，可以&lt;a href="https://buttondown.com/fragmentedcast"&gt;订阅我开发者播客的通讯&lt;/a&gt;，我会在上面发布一些我正在使用的技巧。 &lt;a href="https://kau.sh/feed.xml#fnref:2"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;如果你好奇，
+&lt;a href="https://buttondown.com/fragmentedcast"&gt;订阅我的开发者播客的通讯&lt;/a&gt;，我会在那里发布一些我正在使用的技巧。 &lt;a href="https://kau.sh/feed.xml#fnref:2"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 </description><pubDate>Mon, 01 Jun 2026 17:00:00 +0000</pubDate></item><item><title>智能体是新的编译器。规范是新的代码。</title><link>https://kau.sh/blog/agent-compilers/</link><description>&lt;p&gt;&lt;a href="https://www.youtube.com/shorts/3tWRq1Dv1as"&gt;林纳斯·托瓦兹最近说&lt;/a&gt;&lt;sup id="fnref:1"&gt;&lt;a href="https://kau.sh/feed.xml#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;
@@ -196,90 +405,4 @@ tokenmaxxing &lt;a href="https://kau.sh/feed.xml#fnref:1"&gt;↩︎&lt;/a&gt;&l
 &lt;li&gt;熵控制&lt;/li&gt;
 &lt;li&gt;影响范围控制&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;老实说，这是我们录制过的最重要的节目之一。&lt;/p&gt;</description><pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate></item><item><title>Podsync - 我终于建好了我的播客曲目同步器</title><link>https://kau.sh/blog/podsync/</link><description>&lt;figure&gt;
-&lt;img referrerpolicy="no-referrer" src="https://kau.sh/podsync.webp"/&gt;
-&lt;/figure&gt;
-&lt;p&gt;我主持并编辑一个&lt;a href="https://fragmentedpodcast.com/"&gt;播客&lt;/a&gt;&lt;sup id="fnref:1"&gt;&lt;a href="https://kau.sh/feed.xml#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;。远程录制时，我们各自在本地录制自己的音频（我在我这边，我的联合主持人在他那边）。我们使用的服务（Adobe Podcast、Zoom、Skype-RIP）会捕获所有人的声音作为主音轨。但音质不如每个人用自己的麦克风本地录制的效果。所以我们把主音轨作为参考点，然后将各个本地音轨拼接在一起。&lt;/p&gt;
-&lt;p&gt;这就是业界所谓的“双端录制”（double-ender）。如果有嘉宾加入，就变成了“三端录制”（triple-ender）。&lt;/p&gt;
-&lt;p&gt;但编辑时这就变得棘手了。每个人开始录制的时间点略有不同——按下录音键的时刻都不一样。&lt;/p&gt;
-&lt;p&gt;在编辑之前，我需要将所有音轨对齐。把所有音轨拖入数字音频工作站（DAW），将主音轨与每个单独的音轨同时播放，凭耳朵微调直到语音对齐。如果有嘉宾加入，这个过程很快就会变得烦琐。还没开始编辑，就要花上10-15分钟进行繁琐、费耳朵的对齐操作。&lt;/p&gt;
-&lt;p&gt;还有时钟漂移问题。每台机器的音频时钟运行速率略有不同，所以一分钟时完美对齐的两条音轨，到六十分钟时可能相差200毫秒。&lt;/p&gt;
-&lt;p&gt;所以我构建了&lt;strong&gt;&lt;a href="https://github.com/kaushikgopal/podsync"&gt;PodSync&lt;/a&gt;&lt;/strong&gt;&lt;sup id="fnref:2"&gt;&lt;a href="https://kau.sh/feed.xml#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
-&lt;h2 id="ive-wanted-this-since-2019"&gt;
-自2019年以来我一直想要这个
-&lt;a href="https://kau.sh/feed.xml#ive-wanted-this-since-2019"&gt;##&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;我第一次听说类似技术是从Marco Arment那里——在ATP播客的第&lt;a href="https://atp.fm/25"&gt;25&lt;/a&gt;期。他有一个用于对齐双端录制音轨的新应用，并且已经在考虑如此小众的软件是否值得公开发布。我觉得他最终没有发布它。&lt;/p&gt;
-&lt;p&gt;当时我是Kotlin开发者，我想我应该自己构建一个。Java已经很成熟了。肯定有能处理这个的音频处理库吧。&lt;/p&gt;
-&lt;p&gt;其实没有😅。至少没有干净可用的形式。在JVM环境中拼凑出合适的信号处理组件非常尴尬，以至于我的兴趣消退了，所以我继续手动处理。&lt;/p&gt;&lt;h2 id="tis-the-age-of-ai"&gt;
-这是AI的时代
-&lt;a href="https://kau.sh/feed.xml#tis-the-age-of-ai"&gt;##&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;当我重新设计 &lt;a href="https://fragmentedpodcast.com/episodes/300/"&gt;Fragmented&lt;/a&gt; 时，
-我终于回到了这个问题。我用Claude来帮我构建它——而且是用Rust开发的。&lt;sup id="fnref:3"&gt;&lt;a href="https://kau.sh/feed.xml#fn:3"&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;但在我把这当作又一个Vibe编码项目之前，请听我说完。这里有趣的部分不仅仅是AI让事情变得更容易了。而是思考整个算法的过程：&lt;/p&gt;
-&lt;p&gt;语音活动检测
-(&lt;a href="https://en.wikipedia.org/wiki/Voice_activity_detection"&gt;VAD&lt;/a&gt;) 来找到语音区域。
-&lt;a href="https://en.wikipedia.org/wiki/Mel-frequency_cepstrum"&gt;MFCC&lt;/a&gt; 特征
-来对音频进行指纹识别。互相关来找到音频片段匹配的位置。这些是真正的信号处理技术，而不只是提示工程。我能不能通过提示词直接解决问题？很可能可以。但我更愿意相信，多年手动对齐音频片段——以及一些音频工程直觉——帮助我引导AI找到了更好的解决方案。&lt;/p&gt;
-&lt;div dir="auto"&gt;
-&lt;svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"&gt;&lt;/path&gt;&lt;path d="m15 5 4 4"&gt;&lt;/path&gt;&lt;/svg&gt;
-
-
-做这个工作让人耳目一新。
-
-&lt;/div&gt;
-&lt;p&gt;在这个一半的讨论都在谈论AI取代工程工作的时代，这个问题的难点仍然在于问题本身——理解领域、选择正确的方法、知道“正确”听起来是什么样。&lt;/p&gt;
-&lt;p&gt;这让我有信心，真正解决实际问题仍有一席之地。我喜欢Dax的说法：&lt;/p&gt;
-&lt;div dir="auto"&gt;
-&lt;svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"&gt;&lt;/path&gt;&lt;path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"&gt;&lt;/path&gt;&lt;/svg&gt;
-
-
-thdxr 在 &lt;a href="https://x.com/thdxr/status/2031073582747357397"&gt;推特&lt;/a&gt; 上
-
-&lt;/div&gt;
-&lt;p&gt;我真的不在乎用人工智能来推出更多东西。想出值得推出的东西真的很难。&lt;/p&gt;
-&lt;h2 id="how-it-works"&gt;
-工作原理
-&lt;a href="https://kau.sh/feed.xml#how-it-works"&gt;##&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;核心想法：从参与者音轨中取一段语音，与主录音进行比较，找到最佳匹配位置。该位置即为时间偏移量。&lt;/p&gt;
-
-&amp;amp;
-&lt;p&gt;关键在于选择&lt;em&gt;哪一块&lt;/em&gt;语音来使用。Podsync 不是赌一个区域，而是为每个音轨找出几个强有力的候选（优先选择较长的连续语音块），并针对主录音逐一尝试。对于较长的候选，它会从开头、中间和结尾采样。最高置信度的匹配获胜；如果第二个独立区域同意相同的偏移量，则该佐证作为打破平局的因素。&lt;/p&gt;
-&lt;p&gt;找到偏移量后，Podsync 会填充或修剪每个音轨，使其与主录音对齐并匹配其长度（同时输出一些关于偏移量的信息）。&lt;/p&gt;
-&lt;h2 id="what-it-looks-like"&gt;
-效果展示
-&lt;a href="https://kau.sh/feed.xml#what-it-looks-like"&gt;##&lt;/a&gt;
-&lt;/h2&gt;&lt;pre tabindex="0"&gt;&lt;code&gt;播客同步 \
- --主轨 "304-源-AP.mp3" \
- --音轨 "304-尤里-源-清理后.wav" \
- --音轨 "304-凯吉-源-逻辑-清理后.wav"
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;将输出拖入我的数字音频工作站（DAW）的0:00位置。完成。&lt;/p&gt;
-&lt;p&gt;我甚至写了一个智能体技能，你只需将智能体框架指向它，它就会
-&lt;a href="https://github.com/kaushikgopal/podsync/tree/master/.agents/skills/podsync-voice-tracks"&gt;为你处理所有步骤&lt;/a&gt;：&lt;/p&gt;
-&lt;figure&gt;
-&lt;img alt="Podsync output showing both tracks synced at confidence 1.00 with zero drift" referrerpolicy="no-referrer" src="https://kau.sh/podsync-output.webp"/&gt;
-&lt;/figure&gt;
-&lt;p&gt;过去每期节目需要10-15分钟的对齐工作，现在只需一条命令。&lt;/p&gt;
-&lt;h2 id="addendum"&gt;
-附录
-&lt;a href="https://kau.sh/feed.xml#addendum"&gt;##&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;马尔科，如果你看到这篇文章，仍然很想看看你的实现！&lt;/p&gt;
-&lt;p&gt;他的解决方案（据我理解）更侧重于纠正&lt;em&gt;漂移&lt;/em&gt;，而非调整偏移量。实际上，我发现漂移问题并不严重。它确实存在，但影响很小，而且我通常会对播客每一秒进行编辑，所以手动处理起来很容易。我甚至有一个分支通过在静音点拼接来纠正漂移，但这样做反而让事情变得复杂了。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;ol&gt;
-&lt;li id="fn:1"&gt;
-&lt;p&gt;这是一个关于人工智能开发的播客，但我们力求内容高价值。绝对不是那种
-&lt;a href="https://x.com/kaushikgopal/status/2023523217034670422?s=20"&gt;自我陶醉式的人工智能讨论&lt;/a&gt;。 &lt;a href="https://kau.sh/feed.xml#fnref:1"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id="fn:2"&gt;
-&lt;p&gt;另请参阅 &lt;a href="https://en.wikipedia.org/wiki/Phone-sync"&gt;电话同步&lt;/a&gt;。 &lt;a href="https://kau.sh/feed.xml#fnref:2"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id="fn:3"&gt;
-&lt;p&gt;我选择了Rust（这是
-&lt;a href="https://kau.sh/blog/learn-rust-ai-atrophy/"&gt;我最近感兴趣的&lt;/a&gt;），并且没有运行时依赖的命令行工具更容易分发。 &lt;a href="https://kau.sh/feed.xml#fnref:3"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-</description><pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate></item></channel></rss>
+&lt;p&gt;老实说，这是我们录制过的最重要的节目之一。&lt;/p&gt;</description><pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate></item></channel></rss>
