@@ -179,32 +179,17 @@ procs -i TcpPort opencode
 
 # 这是 fish shell 的一个便利特性：它会正确解析输出并传递给 kill
 kill (procs opencode --only pid --no-header)
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;OpenCode 和 OpenChamber 还有&lt;em&gt;很多&lt;/em&gt;功能，但这些是我日常最常用的。最让我印象深刻的是单服务器、多客户端的设置——运行一个 OpenCode 服务器，然后将所有客户端指向它：TUI、OpenChamber、你的手机。这里有什么能帮到你的就尽管拿去用，如果有哪些我没提到的技巧，也请告诉我。&lt;/p&gt;
-&lt;div dir="auto"&gt;
-&lt;svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"&gt;&lt;/path&gt;&lt;path d="M12 9v4"&gt;&lt;/path&gt;&lt;path d="M12 17h.01"&gt;&lt;/path&gt;&lt;/svg&gt;
-
-
-OpenChamber v1.12.0 隧道漏洞
-
-&lt;/div&gt;
-&lt;p&gt;注意：
-&lt;a href="https://github.com/openchamber/openchamber/releases/tag/v1.12.0"&gt;OpenChamber v1.12.0&lt;/a&gt;
-新增了无头 Web 应用模式，现在远程实例切换时会更改 OpenChamber API 端点，而不会加载完整的远程 UI。这似乎破坏了我上面描述的远程移动隧道设置。 :/&lt;/p&gt;
-&lt;p&gt;开发者已经
-&lt;a href="https://x.com/openchamber_dev/status/2062083947928936603"&gt;在积极回应并修复&lt;/a&gt;
-🤞。在此之前，我建议坚持使用
-&lt;a href="https://github.com/openchamber/openchamber/releases/tag/v1.11.7"&gt;v1.11.7&lt;/a&gt;
-版本，你可以手动下载。&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;OpenCode 和 OpenChamber 远不止这些功能，但这些是我每天都会用到的东西。最让我印象深刻的是"单服务器、多客户端"的架构——只需运行一个 OpenCode 服务器，然后把所有东西都指向它：TUI、OpenChamber、你的手机。随便拿走这里对你有用的东西，如果有什么我还没发现的技巧，请告诉我。&lt;/p&gt;
 &lt;hr/&gt;
 &lt;ol&gt;
 &lt;li id="fn:1"&gt;
-&lt;p&gt;你还可以绑定没有预定义按键的命令。例如，我将“退出应用”命令绑定到 &lt;code&gt;⌃x + q&lt;/code&gt;，以便快速退出 OpenCode。 &lt;a href="https://kau.sh/feed.xml#fnref:1"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;你还可以绑定没有预定义快捷键的命令。例如，我将"退出应用"命令绑定到 &lt;code&gt;⌃x + q&lt;/code&gt;，这样就能快速退出 OpenCode。 &lt;a href="https://kau.sh/feed.xml#fnref:1"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id="fn:2"&gt;
-&lt;p&gt;是的，是的，你可能正在清除提示/KV缓存，但无论如何你都不应该进行长时间的对话。 &lt;a href="https://kau.sh/feed.xml#fnref:2"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;是是是，你可能正在清除你的提示词/缓存，但你本来就不该有长时间运行的对话。 &lt;a href="https://kau.sh/feed.xml#fnref:2"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id="fn:3"&gt;
-&lt;p&gt;一次性 + TTL + 可撤销的连接链接 &lt;a href="https://kau.sh/feed.xml#fnref:3"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;一次性 + 有效期 + 可撤销的链接 &lt;a href="https://kau.sh/feed.xml#fnref:3"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 </description><pubDate>Wed, 03 Jun 2026 16:00:00 +0000</pubDate></item><item><title>AI模型选择 2026-06</title><link>https://kau.sh/blog/ai-model-choices-2026-06/</link><description>&lt;p&gt;我的2026年一月AI工具栈。&lt;/p&gt;
