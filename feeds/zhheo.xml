@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>张洪Heo</title><link>https://blog.zhheo.com/</link><description>产品设计师、独立开发者、设计与科技领域自媒体博主</description><language>zh-CN</language><lastBuildDate>Fri, 29 May 2026 07:23:43 +0000</lastBuildDate><item><title>如何判断一个文章是不是AI写的？图片、视频、文章AI检测方法</title><link>https://blog.zhheo.com/p/56yusy1w.html</link><description>&lt;p&gt;之前用过很多个AI检测的网站和工具，一段话在不同的站点有不同的结果，也是无语。最近听说朱雀更新了模型，AI识别率非常高，那不得赶紧试试。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>张洪Heo</title><link>https://blog.zhheo.com/</link><description>产品设计师、独立开发者、设计与科技领域自媒体博主</description><language>zh-CN</language><lastBuildDate>Thu, 04 Jun 2026 03:36:15 +0000</lastBuildDate><item><title>如何让OpenClaw调用你的百度网盘？百度网盘官方Skill帮你上传、下载与分享</title><link>https://blog.zhheo.com/p/rozgxwdq.html</link><description>&lt;p&gt;之前都是使用夸克网盘进行分享的，但是很多小伙伴都说没夸克网盘或者不想下夸克网盘应用。虽然夸克网盘是我的主力网盘，但是照顾到更多小伙伴方便的网盘更重要，所以研究了一下绝大多数小伙伴都有百度网盘。&lt;/p&gt;
+&lt;p&gt;那就全搞成百度网盘吧，不过网盘迁移可太费劲了，有没有什么好的办法能很方便的迁移呢？&lt;/p&gt;
+&lt;p&gt;经过一番研究，发现了百度网盘CLI和skill&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://pan.baidu.com/apaastobui/developer#/developer/skill" rel="noopener external nofollow" target="_blank"&gt;https://pan.baidu.com/apaastobui/developer#/developer/skill&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="百度网盘skill" referrerpolicy="no-referrer" src="https://p.zhheo.com/2026248e399c38740b8e8184ed3829e24220041206.webp!blogimg"/&gt;&lt;/p&gt;
+&lt;p&gt;乍眼一看还以为这个网页不是百度网盘官方的呢，仔细看了好几眼域名才确认这个是官方写的（这官网质量不知道真以为是某个个人开发者vibecoding作品）。&lt;/p&gt;
+&lt;p&gt;支持上传、下载、分享，还支持通过链接来下载文件，这也太方便了。&lt;/p&gt;
+&lt;p&gt;赶紧把我公众号里的对话平台规则导出了，把夸克网盘的都传上去。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="分享文件" referrerpolicy="no-referrer" src="https://p.zhheo.com/2026b446aa03fb29dd74aef3bcfe4697e14a040406.webp!blogimg"/&gt;&lt;/p&gt;
+&lt;p&gt;最后轻松搞定！&lt;/p&gt;
+&lt;p&gt;&lt;img alt="轻松搞定" referrerpolicy="no-referrer" src="https://p.zhheo.com/20261c67d24667a747246702e154910fa71b040206.webp!blogimg"/&gt;&lt;/p&gt;
+&lt;h2 id="安装方式"&gt;&lt;a href="#安装方式" title="安装方式"&gt;&lt;/a&gt;安装方式&lt;/h2&gt;&lt;p&gt;对OpenClaw/codex/claudecode等AI工具说：下载并安装此 skill：npx clawhub@latest install baidu-netdisk-storage&lt;/p&gt;
+&lt;p&gt;安装好了之后说&lt;code&gt;登录 Baidu Netdisk&lt;/code&gt;，会给一个链接，点击之后显示二维码，手机扫一下登录即可。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="安装skill" referrerpolicy="no-referrer" src="https://p.zhheo.com/2026485949b113daf72f89dfaaacf1b91183040706.webp!blogimg"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="授权绑定和使用" referrerpolicy="no-referrer" src="https://p.zhheo.com/202695b78ee02d27558862575c78ffa935ff041706.webp!blogimg"/&gt;&lt;/p&gt;
+&lt;p&gt;不得不感叹科技改变生活，AI改变科技。&lt;/p&gt;
+</description><pubDate>Thu, 04 Jun 2026 03:36:15 +0000</pubDate></item><item><title>如何判断一个文章是不是AI写的？文字、视频、图片AI检测方法</title><link>https://blog.zhheo.com/p/56yusy1w.html</link><description>&lt;p&gt;之前用过很多个AI检测的网站和工具，一段话在不同的站点有不同的结果，也是无语。最近听说朱雀更新了模型，AI识别率非常高，那不得赶紧试试。&lt;/p&gt;
 &lt;p&gt;遇到下级给的大段文本、文档直接扔给AI检测，然后给他打回去，岂不美哉。&lt;/p&gt;
 &lt;h2 id="朱雀AI识别"&gt;&lt;a href="#朱雀AI识别" title="朱雀AI识别"&gt;&lt;/a&gt;朱雀AI识别&lt;/h2&gt;&lt;p&gt;地址：&lt;a href="https://matrix.tencent.com/ai-detect/" rel="noopener external nofollow" target="_blank"&gt;https://matrix.tencent.com/ai-detect/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="朱雀AI识别首页" referrerpolicy="no-referrer" src="https://p.zhheo.com/2026f3dddd3dbb5ced47967d2ef130c6560a294705.webp!blogimg"/&gt;&lt;/p&gt;
@@ -40,6 +56,8 @@
 &lt;p&gt;后续测了十几张工作图，发现即使肉眼像是AI的人工图，也不会被错误认为是AI，所以感觉很不错，可以作为主力的AI检测工具。&lt;/p&gt;
 &lt;h2 id="未来我会怎样"&gt;&lt;a href="#未来我会怎样" title="未来我会怎样"&gt;&lt;/a&gt;未来我会怎样&lt;/h2&gt;&lt;p&gt;我是感觉对于我这个号来说，完全就是一个个人号，也不追求什么粉丝量阅读量啥的，所以用AI批量出文对我来说没意义，所以我肯定会手打了。之前还考虑过语音识别写文，AI帮我润色修改，但感觉把自己的文章变得有AI味不是什么好事，而且过于啰嗦了，有改的时间我早就手打完了。&lt;/p&gt;
 &lt;p&gt;所以我还是会坚持手打了。（除非是大段教程文本，不过这种文章我也不会发公众号上）&lt;/p&gt;
+&lt;p&gt;另外附上本文的检查结果：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="本文检测结果，100%人工" referrerpolicy="no-referrer" src="https://p.zhheo.com/2026fbf21c78d6aaf63b3f91a95effdd4b81293605.webp!blogimg"/&gt;&lt;/p&gt;
 </description><pubDate>Fri, 29 May 2026 07:23:43 +0000</pubDate></item><item><title>分享一下我现在都在使用哪些AI工具，以及我的的AI生产力状况</title><link>https://blog.zhheo.com/p/ug37qbz9.html</link><description>&lt;p&gt;我觉得我是用AI蛮多的人，跨各种领域的AI都在用，我觉得时不时做一些分享可能对小伙伴有一些启发。分享一下我目前在用的AI情况。&lt;/p&gt;
 &lt;h2 id="个人助手-OpenClaw"&gt;&lt;a href="#个人助手-OpenClaw" title="个人助手 OpenClaw"&gt;&lt;/a&gt;个人助手 OpenClaw&lt;/h2&gt;&lt;p&gt;没有用Hermes的原因是我固执的认为这东西和OpenClaw区别不大并且OpenClaw这么长时间的改动也把Hermes的特性学了个七七八八，OpenClaw用得很好没必要迁移，所以就是这样。&lt;/p&gt;
 &lt;p&gt;目前主要是作为我的主力AI工具来用，在日常有什么电脑问题，或者常见问题都会问OpenClaw，我感觉OpenClaw的作用更像一个实习生，需要不断的教，教好了一个任务之后后续执行就可以稳定产出结果，在一些复用型任务优势很明显。&lt;/p&gt;
@@ -117,24 +135,4 @@
 &lt;p&gt;&lt;img alt="播客陪读" referrerpolicy="no-referrer" src="https://p.zhheo.com/202697efa12e49ebc1dfa132f99d397e58ea211505.webp!blogimg"/&gt;&lt;/p&gt;
 &lt;p&gt;目前全站已有超过500篇文章已支持播客陪读，未来这个数量将覆盖到所有文章。&lt;/p&gt;
 &lt;h2 id="让声音帮助更多读者"&gt;&lt;a href="#让声音帮助更多读者" title="让声音帮助更多读者"&gt;&lt;/a&gt;让声音帮助更多读者&lt;/h2&gt;&lt;p&gt;博客的全文朗读与播客陪读是博客全新的声音增强体系，如果能够帮助你更好的理解我撰写的内容，那就是狠狠有帮助啦。&lt;/p&gt;
-</description><pubDate>Thu, 21 May 2026 04:27:16 +0000</pubDate></item><item><title>为啥别人用Image2做的图那么好看？我的却特别丑？如何模仿别人的风格作图？</title><link>https://blog.zhheo.com/p/viqyx0td.html</link><description>&lt;p&gt;今天和我一个大学同学聊天的时候，他跟我说他自己用Image2出的图特别丑，深入交流之后发现了一些误区，发出来应该能帮助到一些AI新手或者对生图机制不是很了解的小伙伴。&lt;/p&gt;
-&lt;h2 id="模仿别人的风格"&gt;&lt;a href="#模仿别人的风格" title="模仿别人的风格"&gt;&lt;/a&gt;模仿别人的风格&lt;/h2&gt;&lt;p&gt;这个是最常见的，一般我身边的朋友突然想做AI生图都是因为刷到了各种社交媒体的自媒体号宣传或者出的图。当时想“哇好炫酷！我也要做！”，心里出现了一万个点子，然后做的时候就歇菜了。出的图样子不仅和之前的完全无关，而且特别丑，常见于Image2直接自动抠图，然后直接嵌入，做了个贼丑的。&lt;/p&gt;
-&lt;p&gt;常见误区比如：&lt;/p&gt;
-&lt;p&gt;&lt;img alt="记住这张图片的风格" referrerpolicy="no-referrer" src="https://p.zhheo.com/2026346744408051ea1664fff396ea589f9a210505.webp!blogimg"/&gt;&lt;/p&gt;
-&lt;p&gt;这种“记住这张照片的风格”进入了两个误区&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;上下文历史记忆并不可靠，在生图环节尽量不要依赖上下文&lt;/li&gt;
-&lt;li&gt;直接分析图片风格和作图任务拆开，最好一次只做一件事&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;我的实现方式很简单，也是大多数AI作图模仿风格的方式，就是先&lt;strong&gt;整理关键词，然后根据风格和参考图生图&lt;/strong&gt;。&lt;/p&gt;
-&lt;h2 id="生成风格关键词"&gt;&lt;a href="#生成风格关键词" title="生成风格关键词"&gt;&lt;/a&gt;生成风格关键词&lt;/h2&gt;&lt;p&gt;我先去让gpt生成风格关键词&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;注意无论是生成关键词，还是作图，全程要用Thinking模型。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="生成风格词" referrerpolicy="no-referrer" src="https://p.zhheo.com/2026d59dbd9dd3d049294dcb79d793caae0f210305.webp!blogimg"/&gt;&lt;/p&gt;
-&lt;p&gt;你不需要记忆我的描述是怎样的，只知道大概怎么说就行。因为是生成的文本，后期可调节空间非常大。&lt;/p&gt;
-&lt;p&gt;比如当我发现里面有一些金发碧眼之类的角色描述的时候，我就让他删掉。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="删掉人物相关表述" referrerpolicy="no-referrer" src="https://p.zhheo.com/20261f0de93741fa9b2fb079d17290111873210605.webp!blogimg"/&gt;&lt;/p&gt;
-&lt;p&gt;这样就可以生成一个非常标准的风格提示词了。&lt;/p&gt;
-&lt;h2 id="出图"&gt;&lt;a href="#出图" title="出图"&gt;&lt;/a&gt;出图&lt;/h2&gt;&lt;p&gt;然后我们就可以作图。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="作图过程" referrerpolicy="no-referrer" src="https://p.zhheo.com/2026d5a0c68b5510ff7b6ed7c76505458212215905.webp!blogimg"/&gt;&lt;/p&gt;
-&lt;p&gt;这就是最简单的风格转图的标准化流程。以后我也会分享更多作图情况的分享。&lt;/p&gt;
-</description><pubDate>Thu, 21 May 2026 03:02:13 +0000</pubDate></item></channel></rss>
+</description><pubDate>Thu, 21 May 2026 04:27:16 +0000</pubDate></item></channel></rss>
