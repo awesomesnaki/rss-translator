@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Thu, 04 Jun 2026 02:26:50 +0000</lastBuildDate><item><title>尼克·比尔顿蠢行录中的又一颗明珠</title><link>https://daringfireball.net/linked/2015/03/20/bilton-pseudoscience</link><description>&lt;p&gt;我希望像这样的伪科学最终能在《60分钟》节目中获得一些播出时间。在长达58年的时间里，该节目一直无可救药地偏向实际科学。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Thu, 04 Jun 2026 13:43:26 +0000</lastBuildDate><item><title>人工智能驱动的原生Mac应用开发的复兴</title><link>https://sixcolors.com/post/2026/06/road-to-wwdc-2026-whats-a-developer/</link><description>&lt;p&gt;Six Colors的杰森·斯内尔展望下周的WWDC：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如今，我收到的邮件不断推介新的Mac应用，这令人瞩目。因为在五到十年前，似乎苹果平台上的所有应用开发都集中在iOS上。更有趣的是，这些都是独立Mac应用，似乎使用原生Mac框架构建，而非那些将跨平台开发系统到处推广的大公司产物。这些应用似乎有自己的观点，并且专注于Mac。&lt;/p&gt;
+&lt;p&gt;当然，这一切都源于AI。[...]&lt;/p&gt;
+&lt;p&gt;Mac用户——其中一些是开发者，一些从未写过代码——正在构建实现他们想象的应用。&lt;/p&gt;
+&lt;p&gt;我们现在生活在一个时代：如果你能想象一个应用，你大概就能构建它。尤其是Mac工具。还有谁比Mac用户更关心原生Mac软件？肯定不是那些放弃Mac开发、将所有精力集中在庞大跨平台代码库上以吸引风险投资和巨额回报的公司。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;凡事有利有弊，但总体而言，AI辅助编程重振了Mac开发。它并非垂死，而是停滞不前。而停滞是衰落的第一步。如今它再度崛起，这令人欣喜。而且，我认为这对平台的未来至关重要。多年来我一直担心，Mac面临的最大问题是太多新应用&lt;a href="https://daringfireball.net/2018/12/electron_and_the_decline_of_native_apps"&gt;并非Mac应用&lt;/a&gt;。Mac从未面临人气下滑，但真正的原生Mac应用开发（以及相关技能）确实如此。如今情况正在扭转。Mac用户渴望Mac应用，而借助AI，他们可以自给自足，并让那些推行Electron捆绑包的乏味之辈靠边站。&lt;/p&gt;
+&lt;p&gt;（结果斯内尔也&lt;a href="https://www.theincomparable.com/doubleender/"&gt;加入了这场派对&lt;/a&gt;。）&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/06/04/the-ai-driven-resurgence-of-mac-app-development" title="永久链接至‘AI驱动的原生Mac应用开发复兴’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Thu, 04 Jun 2026 13:43:26 +0000</pubDate></item><item><title>尼克·比尔顿蠢行录中的又一颗明珠</title><link>https://daringfireball.net/linked/2015/03/20/bilton-pseudoscience</link><description>&lt;p&gt;我希望像这样的伪科学最终能在《60分钟》节目中获得一些播出时间。在长达58年的时间里，该节目一直无可救药地偏向实际科学。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/06/03/another-gem-from-the-annals-of-nick-bilton-jackassery" title="尼克·比尔顿蠢行编年史中的又一颗明珠"&gt; ★ &lt;/a&gt;
 </description><pubDate>Thu, 04 Jun 2026 02:26:50 +0000</pubDate></item><item><title>若论尼克·比尔顿所精通之事，当属电视。</title><link>https://daringfireball.net/linked/2011/10/27/bilton-itv</link><description>&lt;p&gt;早在2011年，当时尼克·比尔顿还是《纽约时报》的科技专栏作家，他推测苹果很快将推出一款无遥控器的苹果品牌电视。你只需和它说话。这当然毫无道理，&lt;a href="https://daringfireball.net/linked/"&gt;正如我指出的那样&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://daringfireball.net/linked/2011/10/27/bilton-itv"&gt;比尔顿在专栏结尾这样写道&lt;/a&gt;：&lt;/p&gt;
@@ -37,16 +47,4 @@
 &lt;p&gt;自从大卫·埃里森收购CBS并&lt;a href="https://www.newyorker.com/magazine/2026/01/26/inside-bari-weisss-hostile-takeover-of-cbs-news"&gt;任命巴里·韦斯为CBS新闻主编&lt;/a&gt;以来，仅仅六个月，他们就已经解雇或失去了半数在播人才，而在剩下的四人中，沃特海姆和奥唐奈只是兼职（奥唐奈的职位是“CBS新闻资深记者”，而非“《60分钟》记者”），惠特克74岁，斯塔尔84岁。&lt;/p&gt;&lt;p&gt;在幕后，资深执行制片人&lt;a href="https://daringfireball.net/linked/2025/04/28/60-minutes-last-minute"&gt;比尔·欧文斯因抗议公司干预而辞职&lt;/a&gt;，那是在一年前，在埃里森收购CBS的可耻前奏中。上周，韦斯解雇了欧文斯的继任者&lt;a href="https://www.poynter.org/commentary/2026/60-minutes-tanya-simon-fired/"&gt;坦尼娅·西蒙&lt;/a&gt;，她已在节目组工作了30年，取而代之的是尼克·比尔顿，他不仅从未在《60分钟》工作过，而且从未在电视新闻领域工作过。韦斯还解雇了执行编辑德拉甘·米哈伊洛维奇，&lt;a href="https://deadline.com/2025/08/draggan-mihailovich-60-minutes-executive-editor-1236494670/"&gt;他已在节目中工作了28年&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;斯塔尔或惠特克继续留在节目中似乎已站不住脚。佩利在周一比尔顿笨拙的员工会议上直言不讳：这是对这个机构的谋杀。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/06/03/the-60-minutes-purge" title="《60分钟》清洗的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Wed, 03 Jun 2026 21:32:52 +0000</pubDate></item><item><title>CBS新闻解雇《60分钟》的斯科特·佩利</title><link>https://www.nytimes.com/2026/06/02/business/media/scott-pelley-cbs-bari-weiss.html</link><description>&lt;p&gt;Benjamin Mullin 和 Michael M. Grynbaum：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;在一封由《纽约时报》获得的&lt;a href="https://static01.nyt.com/newsgraphics/documenttools/bb744b828c885269/9642cb98-full.pdf"&gt;正式信函&lt;/a&gt;中，Bilton 先生写道，这名记者已被“立即以正当理由解雇”。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这封信值得一读。任何总结都无法捕捉到 Nick Bilton 这个人究竟有多可悲。他丝毫没有反驳 Pelley 在周一员工会议上所说的话，而解雇 Pelley 恰恰证明了 Pelley 所言完全正确。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Pelley 先生在周二晚间被解雇后不久接受了电话采访，他表示自己将数十年的生命奉献给了《60分钟》，他仍然深切关心这个节目。&lt;/p&gt;
-&lt;p&gt;“我在阿富汗经历过战斗，”Pelley 先生说，“我在伊拉克经历过战斗。我曾多次前往乌克兰战区，冒着生命危险和家人的幸福，只因我对这个节目的奉献。” [...]&lt;/p&gt;
-&lt;p&gt;周二早些时候，Pelley 先生向《纽约时报》发送了一份声明，抨击 CBS 新闻的新领导层，写道“管理层的无能和缺乏职业操守给该电视台造成了严重破坏”。他补充说，“高层价值观的崩溃已变得不可持续。”Pelley 先生还写道，CBS 新闻的高级管理人员曾在上一个播出季施压，要求他在《60分钟》的故事中掺入偏见，但他没有提供具体片段的细节。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;我期待听到那些片段的具体细节。不难猜测这种偏见的方向。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/06/03/cbs-news-fires-scott-pelley" title="‘CBS新闻解雇《60分钟》的斯科特·佩利’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Wed, 03 Jun 2026 19:49:56 +0000</pubDate></item></channel></rss>
+</description><pubDate>Wed, 03 Jun 2026 21:32:52 +0000</pubDate></item></channel></rss>
