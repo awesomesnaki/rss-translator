@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Thu, 04 Jun 2026 22:05:05 +0000</lastBuildDate><item><title>WWDC 2026 现场脱口秀：周二在圣何塞</title><link>https://ti.to/daringfireball/the-talk-show-live-from-wwdc-2026</link><description>&lt;p&gt;&lt;strong&gt;地点：&lt;/strong&gt; 加州剧院，圣何塞 &lt;br/&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Fri, 05 Jun 2026 00:43:33 +0000</lastBuildDate><item><title>有些人在《星球大战》中也支持帝国。</title><link>https://hotair.com/ed-morrissey/2026/06/03/cbs-fires-scott-pelley-after-trying-very-hard-to-get-fired-n3815553</link><description>&lt;p&gt;为Hot Air撰稿的埃德·莫里西认为，斯科特·佩利得到了他应得的下场，而巴里·韦斯在运营CBS新闻方面做得不错：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;而佩利忘了黄金法则：&lt;em&gt;拥有黄金者制定规则&lt;/em&gt;。相反，佩利自以为是美德化身，以一种尽可能恶毒和自负的方式毁掉了自己的位置——如果比尔顿的信件内容属实的话。佩利本可以选择在抗议中有尊严地辞职，但他却耍了一出权力把戏，试图恐吓比尔顿、韦斯和埃里森，结果发现根本没人担心他离职。事实上，他们很可能很高兴能摆脱他。&lt;/p&gt;
+&lt;p&gt;在这种情况下，至少总有&lt;em&gt;一个人&lt;/em&gt;认为自己不可撼动。明智的高管会先从杀鸡儆猴开始，然后看看还有多少人认为自己不可或缺。毕竟，电视新闻的工作机会如今并没有在增加。佩利将亲身体会到一个残酷事实：没人愿意每年花五百万美元，只为看他在镜头前对着别人的稿子煽情。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这个人的小脑袋根本想不到：佩利关心的不是自己的工作，不是自己的薪水，而是他奉献了数十年职业生涯的机构的诚信，他认为自己有责任为还在和已离职的同事挺身而出。佩利本人是有骨气的。对特朗普的舔狗们来说，一切都是表演。他们不仅没有诚信，他们根本不相信诚信是真实存在的。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://x.com/katienotopoulos/status/2062229659966697857"&gt;凯蒂·诺托普洛斯&lt;/a&gt;：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;斯科特·佩利的故事对我来说是一个教训：如果你在职业生涯中足够努力，攒够了“去你的钱”，真正的回报就是当你说出这句话的那一天，你确实能说出来。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;a href="https://daringfireball.net/linked/2026/06/04/some-people-rooted-for-the-empire" title="永久链接：‘星球大战’里也有人支持帝国"&gt; ★ &lt;/a&gt;
+</description><pubDate>Fri, 05 Jun 2026 00:43:33 +0000</pubDate></item><item><title>WWDC 2026 现场脱口秀：周二在圣何塞</title><link>https://ti.to/daringfireball/the-talk-show-live-from-wwdc-2026</link><description>&lt;p&gt;&lt;strong&gt;地点：&lt;/strong&gt; 加州剧院，圣何塞 &lt;br/&gt;
 &lt;strong&gt;演出时间：&lt;/strong&gt; 2026年6月9日星期二，晚上7点（太平洋时间）（下午6点开门） &lt;br/&gt;
 &lt;strong&gt;特邀嘉宾：&lt;/strong&gt; 确定出席 &lt;br/&gt;
 &lt;strong&gt;票价：&lt;/strong&gt; 45美元&lt;/p&gt;
@@ -29,15 +40,4 @@
 &lt;p&gt;早在 2023 年，&lt;a href="https://daringfireball.net/2023/07/nerding_out_with_maestral_launchcontrol_and_keyboard_maestro"&gt;我写过一篇关于我使用 Maestral 时遇到的问题&lt;/a&gt;（Maestral 是一款出色的开源 Dropbox 客户端，“像过去的 Dropbox 一样工作”），其中 Maestral 偶尔会无声崩溃，而我过了一段时间才会发现。然后我会注意到，手动重新启动 Maestral，并不得不等待 Maestral 同步。或者更糟糕的是，我会把播客录音放在共享文件夹中然后离开电脑，而我的编辑永远拿不到文件，因为 Maestral 没有运行。那篇文章描述了我如何通过一个每小时运行一次的 Keyboard Maestro 宏来解决这个问题——它会检查 Maestral 是否正在运行，如果没有，则启动它（并写入日志，以满足我自己的好奇心）。在我发布那篇文章后，Borg 给我写信，非常礼貌地解释说 Lingon 可以让这一切变得简单得多。&lt;/p&gt;
 &lt;p&gt;除了创建定期运行的脚本和规则之外，Lingon 还非常适合检查系统上的所有登录项和后台代理——无论它们来自苹果还是第三方。检查 Google Gemini 安装的所有内容时，让我想到了今天推荐 Lingon。至少你应该安装免费的普通版本。它只是一款来自优秀 Mac 开发者的优秀 Mac 实用工具。没有其他类似的东西。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/06/04/lingon" title="指向‘Lingon 和 Lingon Pro 10’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Thu, 04 Jun 2026 18:43:47 +0000</pubDate></item><item><title>还记得Chrome在MacOS上出问题的时候吗？</title><link>https://chromeisbad.com/</link><description>&lt;p&gt;&lt;a href="https://daringfireball.net/search/tweetie+brichter"&gt;Loren Brichter&lt;/a&gt;，在2020年说过：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;短故事：Google Chrome 在你的电脑上安装了一个名为 Keystone 的更新程序，这个程序与 WindowServer（一个系统进程）出现大量无法解释的 CPU 占用存在&lt;a href="https://twitter.com/lorenb/timelines/1338892756752732169"&gt;诡异的关联&lt;/a&gt;&lt;a href="https://chromeisbad.com/#hiding"&gt;[1]&lt;/a&gt;，而且&lt;em&gt;即使 Chrome 没有运行，也让我的整个电脑变慢&lt;/em&gt;。删除 Chrome 和 Keystone 后，我的电脑&lt;em&gt;一直都快了很多很多&lt;/em&gt;。&lt;/p&gt;
-&lt;p&gt;长故事：我注意到我全新的 16 英寸 MacBook Pro 在滚动这样的小操作上也开始变得迟钝。活动监视器显示 Google 相关进程没有&lt;em&gt;任何&lt;/em&gt; CPU 占用，但 &lt;em&gt;WindowServer&lt;/em&gt; 却占了大约 80%，这异常高（正常情况下应该低于 10%）。&lt;/p&gt;
-&lt;p&gt;所有常规操作（退出应用、登出其他用户、重启、重置 PRAM/SMC 等）都无济于事，然后我记起之前为了测试一个网站安装过 Chrome。&lt;/p&gt;
-&lt;p&gt;我删除了 Chrome，并在删除 Chrome 的一些其他偏好设置和缓存时注意到了 Keystone。我删除了能找到的所有 Google 相关内容，重启电脑后，简直是天壤之别。&lt;em&gt;所有操作立刻变得明显更快，WindowServer 的 CPU 占用也重新降到了 10% 以下。&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;并非所有 Mac 用户，但很多用户发现，仅仅安装了 Chrome 就会显著拖慢他们的 Mac。彻底卸载 Chrome——及其有害的后台进程——解决了问题。当&lt;a href="https://daringfireball.net/linked/2026/06/04/google-gemini-mac"&gt;我写到 Google 的 Gemini Mac 应用的后台进程时&lt;/a&gt;，我想起了这个多年以前的“Chrome 很糟糕”的故事。&lt;/p&gt;
-&lt;p&gt;看起来 Google 最终修复了这些 Chrome 的 bug——或者 Apple 在 macOS 更新中做了改动，间接为他们修复了 bug——但我从未见过对这个问题和最终解决方案的完整解释。有人知道这里发生了什么吗？&lt;/p&gt;&lt;p&gt;关键在于，这种事从一开始就不该发生。第三方应用就应当只是个第三方应用——而不该往系统软件里添加组件，仅仅为了让它在未运行时也能自我更新。后台代理和扩展&lt;a href="https://rogueamoeba.com/"&gt;有时确实对产品功能不可或缺&lt;/a&gt;。但在浏览器或AI聊天应用未运行时，检查其软件更新则不必要。黄金法则同样适用：想象一下，如果系统里每个应用都安装自己的后台代理来检查更新，那会怎样？Chrome虽是Mac上流行的浏览器，但它终究只是个网页浏览器。其他网页浏览器在运行时自身检查更新就做得很好。如果用户确实经常使用某个应用，该应用在运行时自然有许多机会检查更新。如果用户并不常用某个应用，那么为什么这个鲜少使用的应用还要让软件一直在后台运行呢？&lt;/p&gt;
-&lt;p&gt;这种混乱正是&lt;a href="https://daringfireball.net/2021/06/annotating_apples_anti-sideloading_white_paper"&gt;苹果严控iOS系统的原因&lt;/a&gt;。iOS上没有能在后台运行的第三方登录项——更不用说那些无法禁用的了。没有哪个第三方应用能在表面空闲时，导致iOS窗口管理器消耗高达80%的CPU。这其中显然有权衡取舍。我依赖Mac作为工作站，因为它赋予我可能自找麻烦的能力。但iOS比MacOS受欢迎一个数量级的关键原因之一，恰恰是它不会让你自找麻烦——尽管这意味着你无法用它来做那些需要这种能力的事情。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/06/04/remember-when-chrome-went-bad-on-macos" title="‘还记得Chrome在MacOS上出问题那次吗？’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Thu, 04 Jun 2026 18:10:19 +0000</pubDate></item></channel></rss>
+</description><pubDate>Thu, 04 Jun 2026 18:43:47 +0000</pubDate></item></channel></rss>
