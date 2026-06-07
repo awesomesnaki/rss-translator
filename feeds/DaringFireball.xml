@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sun, 07 Jun 2026 00:49:15 +0000</lastBuildDate><item><title>Halide Mark III</title><link>https://www.lux.camera/halide-mark-iii/</link><description>&lt;p&gt;Ben Sandofsky 在 Lux Camera 博客中写道：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sun, 07 Jun 2026 17:36:38 +0000</lastBuildDate><item><title>Mux — 面向开发者的视频</title><link>https://www.mux.com/?utm_campaign=fireball&amp;utm_source=DF</link><description>&lt;p&gt;感谢Mux上周在DF的赞助。当开发者需要对视频做更多处理时，Mux是他们的首选。视频文件中充满了待解锁的数据和上下文。&lt;/p&gt;
+&lt;p&gt;Mux Robots是AI工作流，能够解锁视频中的数据，用于摘要、字幕翻译、内容审核等。只需配置一次，您的工作流就会在新上传内容上自动运行。&lt;/p&gt;
+&lt;p&gt;Mux是受Patreon、Substack和Synthesia信赖的视频基础设施。免费开始构建。注册时使用代码&lt;strong&gt;FIREBALL&lt;/strong&gt;可额外获得50美元额度。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/06/07/mux" title="永久链接：‘Mux——面向开发者的视频’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Sun, 07 Jun 2026 17:36:38 +0000</pubDate></item><item><title>Halide Mark III</title><link>https://www.lux.camera/halide-mark-iii/</link><description>&lt;p&gt;Ben Sandofsky 在 Lux Camera 博客中写道：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;在数码摄影数十年后，我于 2023 年回归了胶片摄影。本以为胶卷种类有限会带来挑战，结果却发现这种限制反而带来了前所未有的自由。拥有少量绝佳选择，远胜于照片编辑器里成千上万种预设。这要归功于那些多年来致力于开发适应各种场景的多功能胶卷的工程师们。&lt;/p&gt;
 &lt;p&gt;受“少而精”的启发，我们与著名好莱坞调色师 &lt;a href="https://cullenkellycolor.com/"&gt;Cullen Kelly&lt;/a&gt; 合作，为 Halide 打造了一套简洁、华丽且&lt;em&gt;物理上精确&lt;/em&gt;的独有流程。每一种风格都带着明确意图设计而成。我们在真实世界参考照片上对每种风格进行了数千次验证。&lt;/p&gt;
@@ -39,14 +43,4 @@
 &lt;/blockquote&gt;
 &lt;p&gt;马斯克的Twitter/X并不是新闻聚合器。它是一个围墙花园。但那种你需要睁大眼睛、时刻捂住钱包的花园。有时候去一个破败的街区逛逛也挺有趣。但别因为很久以前它曾经不错，就假装它不是破败的街区。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/06/05/nieman-journalism-lab-twitter-links" title="永久链接到“尼曼新闻实验室：Twitter/X惩罚发布链接的账户”"&gt; ★ &lt;/a&gt;
-</description><pubDate>Fri, 05 Jun 2026 20:46:56 +0000</pubDate></item><item><title>埃隆·马斯克的X平台是一场怪胎秀。</title><link>https://www.natesilver.net/p/social-media-has-become-a-freak-show</link><description>&lt;p&gt;内特·西尔弗（Nate Silver）今年四月发表了一篇题为《社交媒体正变成一场怪胎秀》的文章，文中他所指的“社交媒体”主要讨论的是Twitter/X：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;但剩下的流量由什么组成呢？我最近偶然看到一张&lt;a href="https://x.com/kylewilsontharp/status/2037171182407999663"&gt;气泡图&lt;/a&gt;，展示了2026年2月获得最多“互动”的Twitter账号。这令人沮丧：大部分头部账号质量极低且高度党派化。其中很多我根本没听说过，关注的头部账号也只有寥寥几个。于是我&lt;a href="https://dashboards.cluvio.com/dashboards/qxny-9e5q-k65v/shared?filters=%7B%22platform_filter%22%3A%5B%5D%2C%22political_content%22%3A%5B%5D%2C%22political_lean%22%3A%5B%5D%7D&amp;amp;reportId=k6zq-g911-3m2o&amp;amp;sharingToken=78eb1196-5766-429d-acf8-edcfd96b7067&amp;amp;timerange=1767225600~"&gt;自己找到了原始数据&lt;/a&gt;，并在Claude的帮助下，制作了一个改进版的气泡图。好了，&lt;em&gt;请看&lt;/em&gt;，这就是2026年至今互动量最高的Twitter账号：&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://daringfireball.net/misc/2026/05/nate-silver-twitter-account-cloud.png"&gt;
-&lt;img alt="Data from Cluvio showing most engagements among X accounts from Jan. 1 to Apr. 4, 2026." referrerpolicy="no-referrer" src="https://daringfireball.net/misc/2026/05/nate-silver-twitter-account-cloud.png" width="500"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;不难注意到Twitter已经变得极度右倾。但我认为还有一个同样重要的趋势：头部账号质量低得惊人。埃隆（Elon）凭借他为自己打造的&lt;a href="https://www.theguardian.com/technology/2023/feb/15/elon-musk-changes-twitter-algorithm-super-bowl-slump-report"&gt;算法加持&lt;/a&gt;，自然处于风暴中心。但比如说，“Catturd”获得的互动量实际上远超过《纽约时报》。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;马斯克时代的X平台的拥护者中有一个常见论点：唯一的问题是左倾人群已经离开了这个平台。他们说X的算法就是一场竞赛，如果只有右倾账号在参与，那他们当然会赢。这纯属胡扯。整个系统都被操纵了。埃隆·马斯克作为互动量最高的账号异常突出，就是证据。在马斯克收购之前，Twitter已经存在了16年。在那个时代，他甚至都算不上最大的账号。然后他买下了它。现在他的账号是最大的。&lt;/p&gt;
-&lt;p&gt;正如西尔弗的数据分析所示，马斯克的X不仅被右翼账号主导，更是被“&lt;em&gt;这特么是谁啊？&lt;/em&gt;”的劣质右翼账号所主导。&lt;/p&gt;&lt;p&gt;避免被操纵的游戏输掉的唯一方法就是拒绝参与。X仍然存在。很多人、公司和组织仍然在那里发帖——就像对待自己的博客一样——而且只在那里发。我最终还是会链接到X上的帖子，因为内容就在那里。这是另一个完全不同的话题。但任何试图在那里“竞争”的人，只要涉及哪怕稍微有点政治色彩的内容，都没有成功的机会——除非他们发的正是埃隆·马斯克希望推广的东西。这可不是他的手指在秤上施压，而是像铁砧砸在秤上一样。矛盾在于，仍然有很多有趣的人在那里发布有趣的内容。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/06/05/musk-x-freak-show" title="‘埃隆·马斯克的X就是一个怪胎秀’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Fri, 05 Jun 2026 20:24:58 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 05 Jun 2026 20:46:56 +0000</pubDate></item></channel></rss>
