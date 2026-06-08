@@ -9,7 +9,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from bs4 import BeautifulSoup
 from feedgenerator import Rss201rev2Feed
-from datetime import datetime, timezone
+from datetime import datetime, timezone, date, timedelta
 from openai import OpenAI
 import requests
 from readability import Document
@@ -22,6 +22,13 @@ client = OpenAI(
 
 # GitHub Pages 根地址，self_host_images 自托管图片时拼 URL 用
 GH_PAGES_BASE = 'https://awesomesnaki.github.io/rss-translator'
+
+# 自托管图片保留期：图片滚出 feed 窗口后再留这么多天才删。
+# RSS 阅读器（Reeder 等）会长期缓存历史条目，删早了老文章图片就 404（少数派踩过坑）。
+SELF_HOST_RETENTION_DAYS = 30
+# 每张图最后一次出现在 feed 的日期，持久化在各自托管目录下。
+# CI 每次都是全新 clone，文件 mtime 不可靠，保留期只能靠这个 manifest 自己记。
+IMAGE_MANIFEST_NAME = '.image_manifest.json'
 
 def load_config():
     with open('config.yaml', 'r', encoding='utf-8') as f:
@@ -277,6 +284,54 @@ def localize_images(html_content, images_dir, referer, used_filenames):
             used_filenames.add(filename)
         # 下载失败：保留原 src（带 no-referrer），下次运行再试
     return str(soup)
+
+def gc_self_hosted_images(images_dir, used_filenames, retention_days=SELF_HOST_RETENTION_DAYS):
+    """自托管图片的保留期清理。
+    本期 feed 引用到的图把 last-seen 刷成今天；不再引用的图保留 retention_days 天后才删。
+    不像豆瓣榜单离榜即删——文章流的旧条目会长期留在 RSS 阅读器里，仍指着这些本地图，
+    删早了就 404。每张图的 last-seen 持久化在 images_dir/IMAGE_MANIFEST_NAME。"""
+    manifest_path = images_dir / IMAGE_MANIFEST_NAME
+    try:
+        last_seen = json.loads(manifest_path.read_text(encoding='utf-8'))
+    except Exception:
+        last_seen = {}
+
+    today = datetime.now(timezone.utc).date()
+    today_str = today.isoformat()
+    on_disk = {
+        f.name for f in images_dir.iterdir()
+        if f.is_file() and f.name != IMAGE_MANIFEST_NAME
+    }
+
+    # 本期引用到的图刷新为今天；磁盘上有、manifest 没记的老图（本功能上线前就在的）
+    # 也补登为今天，给一个完整保留期，避免首次运行就把存量图误删
+    for name in used_filenames:
+        last_seen[name] = today_str
+    for name in on_disk:
+        last_seen.setdefault(name, today_str)
+
+    # 清理：超过保留期且本期未引用的删掉；顺手清掉 manifest 里文件已不在的条目
+    cutoff = today - timedelta(days=retention_days)
+    for name in list(last_seen.keys()):
+        if name not in on_disk:
+            del last_seen[name]
+            continue
+        if name in used_filenames:
+            continue
+        try:
+            seen = date.fromisoformat(last_seen[name])
+        except (ValueError, TypeError):
+            last_seen[name] = today_str  # 脏数据按今天算，保守保留
+            continue
+        if seen < cutoff:
+            (images_dir / name).unlink()
+            del last_seen[name]
+            print(f"  清理过期图片(>{retention_days}天未出现): {name}")
+
+    manifest_path.write_text(
+        json.dumps(last_seen, ensure_ascii=False, sort_keys=True, indent=0),
+        encoding='utf-8',
+    )
 
 def clean_readability_html(html_content):
     """清理 readability 提取的 HTML，精简为 RSS 阅读器友好的格式"""
@@ -690,12 +745,9 @@ def translate_feed(feed_config, cache):
             pubdate=pub_date
         )
 
-    # 清理离站旧图：本次 feed 不再引用的本地图片删掉，避免无限堆积
+    # 自托管图片清理：保留期内的旧图不动（覆盖阅读器长期缓存的历史条目），超期才删
     if should_self_host and used_images:
-        for f in images_dir.iterdir():
-            if f.is_file() and f.name not in used_images:
-                f.unlink()
-                print(f"  清理图片: {f.name}")
+        gc_self_hosted_images(images_dir, used_images)
     
     return translated_feed
 

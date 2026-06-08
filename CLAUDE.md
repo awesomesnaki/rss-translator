@@ -73,7 +73,7 @@
 - **关键词过滤** — `filter_out` 按标题排除、`filter_in` 按标题白名单保留、`filter_out_content` 按正文排除，用于去广告和不需要的内容类型（如 B 站视频嵌入）
 - **分类过滤** — `filter_category` 按 RSS `<category>` 精确保留，注意部分第三方 feed 服务（如 feed.luobo8.com）不含 category 标签，此时应改用 `filter_in` 按标题过滤
 - **纯文字模式** — `text_only` 在 `fix_image_tags` 之后剥掉所有 `<img>`，适用于图片源防盗链无解、只想看文字的站点
-- **图片自托管** — `self_host_images` 适用于源站图片 CDN 防盗链严格、`referrerpolicy="no-referrer"` 也救不回来的源（如少数派 `cdnfile.sspai.com`，源站不接受空 Referer）。开启后在 `fix_image_tags` 之后把正文图片下载到 `feeds/images/{name}/`，下载时带源站 Referer 绕过防盗链，`<img src>` 改写为 GitHub Pages URL。文件名为图片 URL 的 md5，已下载的命中缓存跳过；每次运行结束清理掉本期 feed 不再引用的旧图（同豆瓣海报的思路）。下载失败则保留原直链，下次运行重试
+- **图片自托管** — `self_host_images` 适用于源站图片 CDN 防盗链严格、`referrerpolicy="no-referrer"` 也救不回来的源（如少数派 `cdnfile.sspai.com`，源站不接受空 Referer）。开启后在 `fix_image_tags` 之后把正文图片下载到 `feeds/images/{name}/`，下载时带源站 Referer 绕过防盗链，`<img src>` 改写为 GitHub Pages URL。文件名为图片 URL 的 md5，已下载的命中缓存跳过。图片清理用**保留期**机制（`SELF_HOST_RETENTION_DAYS`，默认 30 天）：图片滚出 feed 窗口后不立即删，再保留 30 天才删——因为 RSS 阅读器（Reeder 等）会长期缓存历史条目、仍指着这些本地图，删早了老文章图片就 404（少数派踩过的坑）。每张图最后一次出现在 feed 的日期记在 `feeds/images/{name}/.image_manifest.json`（CI 每次全新 clone，文件 mtime 不可靠，保留期只能靠它自己持久化）。这点不同于豆瓣海报的「离榜即删」。下载失败则保留原直链，下次运行重试
 - **RSSHub URL 策略** — `rsshub://` 协议走 CI 本地实例；直接写 `https://rsshub.app/...` 则走官方实例不被改写，适用于本地实例无法抓取的源
 - **豆瓣图片自托管** — wsrv.nl 等代理对 doubanio 返回 404（海外 IP 段被拦），改为 Actions 直接下载海报到 `feeds/images/{name}/`，由 GH Pages 提供，零防盗链。每次运行只保留本期榜单的图，已离榜的自动清理
 - **豆瓣海报下载重试** — `download_image` 每个 URL 重试 3 次（1s/2s backoff），并按 `pic.large` → `pic.normal` → `cover_url` → `pic.small` 顺序 fallback。任一组合成功即可。下载彻底失败的条目从 `name_map` 移除，正文不带图（不回落 doubanio 直链，防盗链拉不到）
