@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 09 Jun 2026 18:53:47 +0000</lastBuildDate><item><title>WWDC现场脱口秀：今晚，现场直播</title><link>https://ti.to/daringfireball/the-talk-show-live-from-wwdc-2026</link><description>&lt;p&gt;如果你能亲临现场，你应该来。加州剧院是一个漂亮的&lt;em&gt;大型&lt;/em&gt;剧院，门票&lt;a href="https://ti.to/daringfireball/the-talk-show-live-from-wwdc-2026"&gt;仍有售&lt;/a&gt;。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 09 Jun 2026 21:29:57 +0000</lastBuildDate><item><title>Apple OS 27: 小事</title><link>https://blog.oneberri.com/posts/wwdc26-the-small-things</link><description>&lt;p&gt;Rishi Ó:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我最喜欢的苹果更新不是那些炫目的新功能，而是那些安静的小细节：令人烦恼的问题被修复、工作流程变得更加流畅、粗糙的边缘被打磨光滑，以及长期存在的缺陷被深思熟虑地重新设计。在我看来，这些是公司在意其手艺的最清晰标志。&lt;/p&gt;
+&lt;p&gt;以下是从WWDC26截图整理的一组内容，按便于阅读的方式组织，涵盖今年晚些时候将要到来的改进。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;有很多要点。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/06/09/the-small-things" title="永久链接至‘Apple OS 27: 小细节’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Tue, 09 Jun 2026 21:29:57 +0000</pubDate></item><item><title>WWDC现场脱口秀：今晚，现场直播</title><link>https://ti.to/daringfireball/the-talk-show-live-from-wwdc-2026</link><description>&lt;p&gt;如果你能亲临现场，你应该来。加州剧院是一个漂亮的&lt;em&gt;大型&lt;/em&gt;剧院，门票&lt;a href="https://ti.to/daringfireball/the-talk-show-live-from-wwdc-2026"&gt;仍有售&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;你&lt;em&gt;也&lt;/em&gt;可以在Vision Pro上的&lt;a href="https://apps.apple.com/us/app/theater-cinema-events/id6502666560"&gt;Sandwich Vision推出的Theater应用&lt;/a&gt;中观看今晚的立体沉浸式直播。购买现场演出门票，即Theater应用（$12.99），还可永久重播——包含惊喜附加功能。这是一种有趣、真正沉浸式的观演体验。&lt;/p&gt;
 &lt;p&gt;希望今晚能以某种方式在那里见到你。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/06/09/the-talk-show-live-tonight" title="《WWDC现场脱口秀：今晚，亲临现场与直播》的永久链接"&gt; ★ &lt;/a&gt;
@@ -21,12 +28,4 @@
 &lt;p&gt;我喜欢“Siri AI”这个名字。“新Siri”不会持久，因为最终它不会再是新的。这应该成为我们所知的Siri和应有Siri之间的分界线。到目前为止我看到的演示（我仍然无法在我的iOS 27测试设备上访问）令人印象深刻。嗯，与旧Siri相比令人印象深刻。这些对生成式AI来说是入门要求。但Siri AI是唯一一个能够利用你设备应用中个人数据，&lt;em&gt;并且&lt;/em&gt;根据设备应用支持的应用意图执行操作的系统。它在某些方面不如ChatGPT或Claude强大，但在其他方面更具潜力。这是一种非常不同的方法，我认为这对苹果来说是正确的方法。&lt;/p&gt;
 &lt;p&gt;他们需要执行，需要证明这可以规模化，最重要的是，他们需要让第三方应用支持&lt;a href="https://developer.apple.com/videos/play/wwdc2026/345"&gt;应用意图&lt;/a&gt;和&lt;a href="https://developer.apple.com/videos/play/wwdc2026/240"&gt;应用架构&lt;/a&gt;。但看起来他们正在做所有这些。这还不是板上钉钉的事，但非常现实。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/06/09/apple-introduces-siri-ai" title="Permanent link to ‘Apple Introduces Siri AI’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Tue, 09 Jun 2026 17:23:29 +0000</pubDate></item><item><title>苹果在WWDC上宣布的全新Apple Intelligence系统</title><link>https://www.apple.com/newsroom/2026/06/apple-intelligence-brings-powerful-ai-capabilities-into-everyday-experiences/</link><description>&lt;p&gt;Apple Newsroom（苹果新闻编辑室）：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;这些新功能由下一代苹果基础模型提供支持，这些模型是与谷歌及其Gemini模型合作定制的，用于深度集成的苹果智能体验。这些最新模型在设备上运行，并使用私有云计算在服务器上运行。&lt;/p&gt;
-&lt;p&gt;新的苹果智能架构的每个方面都建立在隐私优先的基础上，从最新的苹果基础模型到将这些模型深度集成到苹果平台的核心操作系统技术。苹果智能使用设备端处理和私有云计算来帮助保护用户隐私。私有云计算让用户能够访问前沿智能，同时将iPhone的隐私和安全性扩展到云端。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;苹果与谷歌合作的令人困惑之处在于，谷歌几乎将所有人工智能相关的东西都称为“Gemini”。模型是“Gemini”，助手是“Gemini”，功能集成也是“Gemini”。因此，苹果不遗余力地强调，他们是基于Gemini&lt;em&gt;模型&lt;/em&gt;构建的，而非Gemini&lt;em&gt;助手&lt;/em&gt;。&lt;/p&gt;
-&lt;p&gt;可以这样理解。假设你是一名谷歌Gemini应用的用户，这是助手。现在你开始使用新的苹果智能（基于Gemini模型构建）和新的Siri AI（基于新的苹果智能构建）。当你回到谷歌Gemini应用时，你在使用苹果智能和Siri AI时所做&lt;em&gt;的任何操作&lt;/em&gt;，Gemini应用都不可见。同样，你在谷歌Gemini应用中继续进行的任何操作，苹果智能或Siri AI也不可见。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/06/09/apples-wwdc-apple-intelligence-announcement" title="永久链接至‘苹果全球开发者大会上宣布的新苹果智能系统’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Tue, 09 Jun 2026 16:50:33 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 09 Jun 2026 17:23:29 +0000</pubDate></item></channel></rss>
