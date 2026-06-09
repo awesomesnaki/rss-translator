@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 09 Jun 2026 01:37:27 +0000</lastBuildDate><item><title>来自知情人士编年史，Siri AI扩展版</title><link>https://www.bloomberg.com/news/articles/2026-03-26/apple-plans-to-open-up-siri-to-rival-ai-assistants-beyond-chatgpt-in-ios-27</link><description>&lt;p&gt;马克·古尔曼，两个月前为彭博社报道（？）：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 09 Jun 2026 04:23:05 +0000</lastBuildDate><item><title>[赞助商] WorkOS 推出 auth.md — 一个开放的代理注册协议</title><link>https://youtu.be/Dqp_b8GHLXU?t=1074</link><description>&lt;p&gt;注册表单是为人类在浏览器中设计的，那么AI代理如何以编程方式注册服务呢？&lt;/p&gt;
+&lt;p&gt;引入auth.md。通过在您的服务根目录暴露一个单一的、机器可读的Markdown文件，AI代理可以动态发现您的OAuth受保护资源元数据，解析所需的作用域，并无缝进行身份验证。&lt;/p&gt;
+&lt;p&gt;借助WorkOS AuthKit的原生支持，您现在可以开箱即用地实现这一协议，为AI工具提供标准化的安全方式登录您的应用程序。&lt;/p&gt;
+&lt;p&gt;阅读&lt;a href="https://workos.com/auth-md?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q22026"&gt;auth.md文档&lt;/a&gt;。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/feeds/sponsors/2026/06/workos_launches_authmd_--_an_o" title="永久链接至‘WorkOS推出auth.md——一个用于代理注册的开放协议’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Tue, 09 Jun 2026 04:23:05 +0000</pubDate></item><item><title>来自知情人士编年史，Siri AI扩展版</title><link>https://www.bloomberg.com/news/articles/2026-03-26/apple-plans-to-open-up-siri-to-rival-ai-assistants-beyond-chatgpt-in-ios-27</link><description>&lt;p&gt;马克·古尔曼（Mark Gurman）两个月前为彭博社报道（？）时写道：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;苹果公司计划向外部人工智能助手开放Siri，这是一项旨在将iPhone打造成AI平台的重大举措。据知情人士透露，苹果正准备在即将推出的iOS 27操作系统更新中，作为Siri全面改造的一部分做出这一改变。目前，Siri已通过与OpenAI的合作接入ChatGPT，但苹果现在将允许竞争服务也实现同样的功能。&lt;/p&gt;
-&lt;p&gt;这些不愿透露姓名的人士表示，苹果正在开发新工具，允许通过App Store安装的AI聊天机器人应用与Siri助手集成。这些聊天机器人还将与即将推出的Siri应用以及苹果智能平台的其他功能配合使用。&lt;/p&gt;
-&lt;p&gt;这意味着，例如，如果用户安装了Alphabet Inc.的Google Gemini或Anthropic PBC的Claude，他们就能通过Siri语音助手向这些服务发送查询，就像自2024年苹果智能推出以来他们能够通过ChatGPT实现的那样。&lt;/p&gt;
+&lt;p&gt;苹果公司计划向外部人工智能助手开放Siri，这是旨在将iPhone打造成AI平台的重要举措。据知情人士透露，作为即将发布的iOS 27操作系统更新中Siri全面改造的一部分，苹果正准备实施这一变革。目前Siri已通过与OpenAI的合作接入ChatGPT，但苹果将允许竞争对手的服务也实现相同功能。&lt;/p&gt;
+&lt;p&gt;这些不愿透露姓名的人士表示，苹果正在开发新工具，允许通过App Store安装的AI聊天机器人应用与Siri助手集成。这些聊天机器人还将与即将推出的Siri应用及苹果智能平台的其他功能配合使用。&lt;/p&gt;
+&lt;p&gt;这意味着，例如，如果用户安装了Alphabet Inc.的Google Gemini或Anthropic PBC的Claude，他们将能够像自2024年苹果智能推出以来使用ChatGPT那样，通过Siri语音助手向这些服务发送查询。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;也许苹果今天时间不够了，明天会宣布这个？也许他们忘了宣布？也许他们废弃了两个月前存在的下一代Siri，并在过去一个月里重建了全新的下一代Siri。我猜类似的事情发生了。&lt;/p&gt;
-&lt;p&gt;我的意思是，知情人士确实了解情况。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/06/08/gurman-siri-ai-extensions" title="永久链接至‘来自知情人士年鉴，Siri AI扩展版’"&gt; ★ &lt;/a&gt;
+&lt;p&gt;也许苹果今天时间不够，明天再宣布？也许他们忘了宣布？也许他们两个月前就淘汰了下一代Siri，并在过去一个月里重新构建了另一个全新的下一代Siri？我敢打赌事实就是这样。&lt;/p&gt;
+&lt;p&gt;我的意思是，有人知情。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/06/08/gurman-siri-ai-extensions" title="永久链接至‘知情人士编年史：Siri AI扩展版’"&gt; ★ &lt;/a&gt;
 </description><pubDate>Tue, 09 Jun 2026 01:37:27 +0000</pubDate></item><item><title>Mux — 面向开发者的视频</title><link>https://www.mux.com/?utm_campaign=fireball&amp;utm_source=DF</link><description>&lt;p&gt;感谢Mux上周在DF的赞助。当开发者需要对视频做更多处理时，Mux是他们的首选。视频文件中充满了待解锁的数据和上下文。&lt;/p&gt;
 &lt;p&gt;Mux Robots是AI工作流，能够解锁视频中的数据，用于摘要、字幕翻译、内容审核等。只需配置一次，您的工作流就会在新上传内容上自动运行。&lt;/p&gt;
 &lt;p&gt;Mux是受Patreon、Substack和Synthesia信赖的视频基础设施。免费开始构建。注册时使用代码&lt;strong&gt;FIREBALL&lt;/strong&gt;可额外获得50美元额度。&lt;/p&gt;
@@ -33,13 +38,4 @@
 &lt;p&gt;我敢打赌，你们中有些人会反对罗梅罗关于没有人"随便信信教"的观点。&lt;em&gt;我认识的几乎所有人都是随便信信教的&lt;/em&gt;，你可能会这么想。但请读完整篇文章。他的意思是，如果你"随便信信教"，那不过是说说而已。你并没有根据你所宣称的信仰（无论是否随便）来生活。而这正是苹果大多数同行公司对待AI的方式。&lt;/p&gt;
 &lt;p&gt;我不确定他是否正确，但他可能是对的，而且我认为他的观点至少是接近正确而非错误。苹果&lt;em&gt;确实&lt;/em&gt;在AI上押下重注——但他们的赌注是，他们不需要每年投入数千亿美元在AI基础设施上（其中大部分肥了英伟达的腰包）就能收获回报。如果苹果是对的，我们明天就应该开始看到成果。&lt;p&gt;（可以说我们已经看到了这种趋势的显现——在人工智能时代，迄今为止，苹果产品与服务的需求不减反增。根深蒂固的领导者往往在彻底颠覆的初期阶段会经历增长——黑莓销售额（收入）和投资者信心（市值）最大的一年是&lt;a href="https://www.statista.com/statistics/266240/blackberry-revenue/"&gt;2011年&lt;/a&gt;，即iPhone问世四年之后——但颠覆者始终存在。目前市场上还没有单一威胁能撼动iPhone、iPad、Mac、Apple Watch或AirPods——也没有威胁能动摇苹果的服务收入。）&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/06/07/alberto-romero-on-apples-ai-spending" title="永久链接至‘阿尔贝托·罗梅罗谈苹果AI支出’"&gt; ★ &lt;/a&gt;
-&lt;/p&gt;</description><pubDate>Mon, 08 Jun 2026 01:00:00 +0000</pubDate></item><item><title>Halide Mark III</title><link>https://www.lux.camera/halide-mark-iii/</link><description>&lt;p&gt;Ben Sandofsky 在 Lux Camera 博客中写道：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;在数码摄影数十年后，我于 2023 年回归了胶片摄影。本以为胶卷种类有限会带来挑战，结果却发现这种限制反而带来了前所未有的自由。拥有少量绝佳选择，远胜于照片编辑器里成千上万种预设。这要归功于那些多年来致力于开发适应各种场景的多功能胶卷的工程师们。&lt;/p&gt;
-&lt;p&gt;受“少而精”的启发，我们与著名好莱坞调色师 &lt;a href="https://cullenkellycolor.com/"&gt;Cullen Kelly&lt;/a&gt; 合作，为 Halide 打造了一套简洁、华丽且&lt;em&gt;物理上精确&lt;/em&gt;的独有流程。每一种风格都带着明确意图设计而成。我们在真实世界参考照片上对每种风格进行了数千次验证。&lt;/p&gt;
-&lt;p&gt;换句话说：每一种风格都堪称惊艳。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Halide 一直是一款出色的——或许可以说是&lt;em&gt;最出色&lt;/em&gt;的——用于拍摄 RAW 的 iPhone 相机应用，其初衷是让用户在后期手动处理照片。它在技术上是一款出色的&lt;em&gt;相机&lt;/em&gt;，在用户界面设计上也是一款出色的&lt;em&gt;应用&lt;/em&gt;。&lt;a href="https://www.lux.camera/introducing-process-zero-for-iphone/"&gt;Mark II 引入了 Process Zero&lt;/a&gt;，按他们自己的描述，“不使用任何人工智能和计算摄影，就能产生美丽、胶片般的自然照片”。Process Zero 是 Halide Mark III 中全新内置“风格”的第一步。我已经使用 Mark III 拍摄了几周，确实，每一种风格都惊艳。而且我&lt;em&gt;非常&lt;/em&gt;喜欢它的数量不多。我想要的风格不仅仅只有 Process Zero（当然它仍然可用），但面对十几个（或者更糟的是几十个）处理选项时，我会感到无所适从。光是必须在&lt;a href="https://daringfireball.net/2026/03/the_iphone_17e#fn2-2026-03-09"&gt;少数几款&lt;/a&gt;&lt;a href="https://daringfireball.net/2025/10/not_boring_camera_and_adobe_project_indigo"&gt;真正出色的&lt;/a&gt;第三方相机应用之间做出选择，就已经让我够纠结了——如果在相机应用内部还要做太多选择，那就更糟糕了。&lt;/p&gt;
-&lt;p&gt;我想要的只是随拍随走，并且能立刻得到已经应用了我想要风格的照片。我很挑剔，但也很懒，大多数保留的照片我都不想后期处理。不过，我也希望如果需要的话，能在后期进行编辑，包括无损地更改风格。这种随拍随用的便捷与专业级控制相结合，过去是不可能的。但现在，通过 &lt;a href="https://apps.apple.com/us/app/not-boring-camera/id6737783441"&gt;Not Boring Camera&lt;/a&gt;、&lt;a href="https://apps.apple.com/us/app/analogue-film-camera/id6748702405"&gt;Analogue&lt;/a&gt; 以及如今的 &lt;a href="https://apps.apple.com/us/app/halide-mark-iii-pro-camera/id885697368"&gt;Halide Mark III&lt;/a&gt; 等应用，这已经成为现实。&lt;/p&gt;&lt;p&gt;对于Lux来说，过去几个月堪称&lt;a href="https://www.macrumors.com/2026/03/21/apple-wanted-to-buy-halide-to-boost-iphone-18-pro/"&gt;动荡不安&lt;/a&gt;（至少可以这么说），因此我很高兴看到Sandofsky和团队成功推出了Mark III。如果你和我一样，之前对Halide印象深刻但因为后期处理工作量太大而未曾使用，那么你应该试试Mark III。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/06/06/halide-mark-iii" title="永久链接到‘Halide Mark III’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sun, 07 Jun 2026 00:49:15 +0000</pubDate></item></channel></rss>
+&lt;/p&gt;</description><pubDate>Mon, 08 Jun 2026 01:00:00 +0000</pubDate></item></channel></rss>

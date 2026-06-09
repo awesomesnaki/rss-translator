@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>张洪Heo</title><link>https://blog.zhheo.com/</link><description>产品设计师、独立开发者、设计与科技领域自媒体博主</description><language>zh-CN</language><lastBuildDate>Thu, 04 Jun 2026 03:36:15 +0000</lastBuildDate><item><title>如何让OpenClaw调用你的百度网盘？百度网盘官方Skill帮你上传、下载与分享</title><link>https://blog.zhheo.com/p/rozgxwdq.html</link><description>&lt;p&gt;之前都是使用夸克网盘进行分享的，但是很多小伙伴都说没夸克网盘或者不想下夸克网盘应用。虽然夸克网盘是我的主力网盘，但是照顾到更多小伙伴方便的网盘更重要，所以研究了一下绝大多数小伙伴都有百度网盘。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>张洪Heo</title><link>https://blog.zhheo.com/</link><description>产品设计师、独立开发者、设计与科技领域自媒体博主</description><language>zh-CN</language><lastBuildDate>Tue, 09 Jun 2026 02:22:16 +0000</lastBuildDate><item><title>洪绘历史记录大更新：支持根据历史记录的AI对话</title><link>https://blog.zhheo.com/p/i8c7l4eo.html</link><description>&lt;p&gt;在经历很长一段时间的优化，洪绘历史记录终于支持了全新的AI对话功能。其实这个也是我一开始做历史记录插件的核心需求之一。&lt;/p&gt;
+&lt;p&gt;因为光翻列表找内容还是感觉太麻烦了。比如我要查某一个网站上次访问的时间、我最近访问了多少次某个站点等等数据，自己想知道的话插起来非常费劲。并且如果这些功能都展示出来，又会占据大量的UI空间，导致页面很多常用功能都无法合理展示，并且功能多比较复杂，总共都有啥功能都不记得了。&lt;/p&gt;
+&lt;p&gt;所以专门为历史记录插件推出全新的AI对话功能。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="对话功能" referrerpolicy="no-referrer" src="https://p.zhheo.com/2026a5d3e30d21050c69c8a9eee9095ee913081306.webp!blogimg"/&gt;&lt;/p&gt;
+&lt;p&gt;支持popup和页面两种方式。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="页面方式" referrerpolicy="no-referrer" src="https://p.zhheo.com/2026f3af1c6baaf76fa9e81157da66ee7f3a083906.webp!blogimg"/&gt;&lt;/p&gt;
+&lt;p&gt;插件内包含了大量的工具支持，你可以实现各种个性化的需求。&lt;/p&gt;
+&lt;h2 id="最近7天趋势"&gt;&lt;a href="#最近7天趋势" title="最近7天趋势"&gt;&lt;/a&gt;最近7天趋势&lt;/h2&gt;&lt;p&gt;&lt;img alt="最近7天趋势" referrerpolicy="no-referrer" src="https://p.zhheo.com/202600a07fbaeedffb398b70656e7b1e9a5c083806.webp!blogimg"/&gt;&lt;/p&gt;
+&lt;p&gt;可以看到每一天的访问情况。在这里用到了统计工具。&lt;/p&gt;
+&lt;h2 id="当前页面的内容"&gt;&lt;a href="#当前页面的内容" title="当前页面的内容"&gt;&lt;/a&gt;当前页面的内容&lt;/h2&gt;&lt;p&gt;还支持页面的内容分析。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="页面内容分析" referrerpolicy="no-referrer" src="https://p.zhheo.com/2026d20457d47479aeb225fb5318fc9d5793084306.webp!blogimg"/&gt;&lt;/p&gt;
+&lt;p&gt;功能非常的全面相当于你的浏览器AI助手，再也不需要什么AI浏览器啦，在你最喜爱的浏览器中体验AI浏览器的感觉。&lt;/p&gt;
+&lt;h2 id="付费模式"&gt;&lt;a href="#付费模式" title="付费模式"&gt;&lt;/a&gt;付费模式&lt;/h2&gt;&lt;p&gt;为了给vibecoding回回血，目前是使用的按量付费/专业版付费两种方式。&lt;/p&gt;
+&lt;p&gt;如果使用我提供的模型接口，那么无需开通专业版，即可立即上手使用。&lt;/p&gt;
+&lt;p&gt;我这里使用模型就不对外透露了，为了避免不必要的问题，这里的模型名称我使用&lt;code&gt;heo-1.0-mini&lt;/code&gt; &lt;code&gt;heo-1.0&lt;/code&gt; &lt;code&gt;heo-1.0-pro&lt;/code&gt;。来代替。&lt;/p&gt;
+&lt;p&gt;为了庆祝第一个我自己开发的全链路AI工具的诞生，提供了大量福利。&lt;/p&gt;
+&lt;p&gt;一、限时&lt;code&gt;heo-1.0&lt;/code&gt;特惠，价格现在与&lt;code&gt;heo-1.0-mini&lt;/code&gt;一致，有着更快的响应速度和更好的质量。输入 0.1元/M 输出 0.5元/M。&lt;/p&gt;
+&lt;p&gt;二、20元开通专业版送价值20元Token的金币，相当于专业版免费送。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="福利" referrerpolicy="no-referrer" src="https://p.zhheo.com/2026050d48e9d5c7b65a137d7ce5337f8c44084406.webp!blogimg"/&gt;&lt;/p&gt;
+&lt;p&gt;在heoid的&lt;a href="https://id.zhheo.com/me?view=benefits" rel="noopener external nofollow" target="_blank"&gt;我的福利&lt;/a&gt;页面可以限时领取两个奖励包，总计2000金币（目前的兑换率价值为20元）。预定为7月8日将停止新发福利，仅送新开福利1000金币。&lt;/p&gt;
+&lt;p&gt;三、全民AI功能体验包，为了让更多小伙伴用上AI功能，每个人都可以在福利页面领取10金币，用于对话。&lt;/p&gt;
+&lt;h2 id="安装地址"&gt;&lt;a href="#安装地址" title="安装地址"&gt;&lt;/a&gt;安装地址&lt;/h2&gt;&lt;p&gt;目前洪绘历史记录已上架到Google插件商店和Edge插件商店。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://chromewebstore.google.com/detail/%E6%B4%AA%E7%BB%98%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95/mekdcdgcmimbcnanlpdbganbgnhpmjhm" rel="noopener external nofollow" target="_blank"&gt;Google Chrome 应用商店&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://microsoftedge.microsoft.com/addons/detail/%E6%B4%AA%E7%BB%98%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95/edcikkfmmnklallddnomgjmchmjpolck?hl=zh-CN" rel="noopener external nofollow" target="_blank"&gt;Edge 插件商店&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;如果需要了解更多关于洪绘历史记录的功能，可以回顾下：&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://blog.zhheo.com/p/0tr5lmby.html"&gt;洪绘历史记录发布！无限存储你的浏览器历史记录，防止历史记录被自动删除&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="隐私保护"&gt;&lt;a href="#隐私保护" title="隐私保护"&gt;&lt;/a&gt;隐私保护&lt;/h2&gt;&lt;p&gt;通过洪绘科技HeoID进行AI生成的模型消耗洪绘科技无法获取任何具体内容，只能获取Token消耗（用于计费），也不会存储除账单外的带有任何具体内容的日志。可以放心使用。&lt;/p&gt;
+</description><pubDate>Tue, 09 Jun 2026 02:22:16 +0000</pubDate></item><item><title>如何让OpenClaw调用你的百度网盘？百度网盘官方Skill帮你上传、下载与分享</title><link>https://blog.zhheo.com/p/rozgxwdq.html</link><description>&lt;p&gt;之前都是使用夸克网盘进行分享的，但是很多小伙伴都说没夸克网盘或者不想下夸克网盘应用。虽然夸克网盘是我的主力网盘，但是照顾到更多小伙伴方便的网盘更重要，所以研究了一下绝大多数小伙伴都有百度网盘。&lt;/p&gt;
 &lt;p&gt;那就全搞成百度网盘吧，不过网盘迁移可太费劲了，有没有什么好的办法能很方便的迁移呢？&lt;/p&gt;
 &lt;p&gt;经过一番研究，发现了百度网盘CLI和skill&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://pan.baidu.com/apaastobui/developer#/developer/skill" rel="noopener external nofollow" target="_blank"&gt;https://pan.baidu.com/apaastobui/developer#/developer/skill&lt;/a&gt;&lt;/p&gt;
@@ -121,18 +148,4 @@
 &lt;p&gt;&lt;img alt="webfetch" referrerpolicy="no-referrer" src="https://p.zhheo.com/20267d6dcf646f64c54dcd58138ea53566e9223605.webp!blogimg"/&gt;&lt;/p&gt;
 &lt;h2 id="大功告成"&gt;&lt;a href="#大功告成" title="大功告成"&gt;&lt;/a&gt;大功告成&lt;/h2&gt;&lt;p&gt;&lt;img alt="支持网页搜索" referrerpolicy="no-referrer" src="https://p.zhheo.com/2026467e0450254df5424c7c6afede625344221405.webp!blogimg"/&gt;&lt;/p&gt;
 &lt;p&gt;成功实现免费不限量的网页搜索能力，不用再用第三方的api啦。&lt;/p&gt;
-</description><pubDate>Fri, 22 May 2026 03:11:38 +0000</pubDate></item><item><title>这一次，我们听点有意思的</title><link>https://blog.zhheo.com/p/7a59rx04.html</link><description>&lt;p&gt;今天是全球无障碍宣传日，在今日博客有两个全新的功能提供给大家。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="全文朗读" referrerpolicy="no-referrer" src="https://p.zhheo.com/202640ecc8377c6d369aea859c24f5e16e38213505.webp!blogimg"/&gt;&lt;/p&gt;
-&lt;p&gt;全文朗读使用了非常自然的阅读音色，语速适中，富有感情的去进行阅读文章的内容。&lt;/p&gt;
-&lt;p&gt;并且与传统系统TTS不同，文章对于全文朗读有特殊优化，针对代码、超链接等复杂情况都针对性做了适配。&lt;/p&gt;
-&lt;h2 id="全文朗读"&gt;&lt;a href="#全文朗读" title="全文朗读"&gt;&lt;/a&gt;全文朗读&lt;/h2&gt;&lt;p&gt;在页面的左下角你可以点击【全文朗读】按钮开启此功能。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="全文朗读" referrerpolicy="no-referrer" src="https://p.zhheo.com/20260ad0787ef5c2e9f3b334a61eb5cf6eaf211905.webp!blogimg"/&gt;&lt;/p&gt;
-&lt;p&gt;针对视力障碍的用户，在启用旁白后，在支持全文朗读/播客陪读的文章时，直接提示&lt;/p&gt;
-&lt;p&gt;&lt;img alt="支持全文朗读" referrerpolicy="no-referrer" src="https://p.zhheo.com/202655088de79bb08312b8b4721edb30dd7e215705.webp!blogimg"/&gt;&lt;/p&gt;
-&lt;p&gt;按下空格即可开始播放全文语音朗读。&lt;/p&gt;
-&lt;h2 id="播客陪读"&gt;&lt;a href="#播客陪读" title="播客陪读"&gt;&lt;/a&gt;播客陪读&lt;/h2&gt;&lt;p&gt;播客陪读功能是提供给大众用户的一个功能。如果你发现文章内容晦涩难懂，或者不是很喜欢看大段文字，可以通过“播客陪读”的功能，两位主播会根据文章内容进行深度分析和整理，用交流对话的方式将复杂的内容简化分享。好听不累。&lt;/p&gt;
-&lt;p&gt;播客陪读功能内容的撰写覆盖全文，不必担心文章内容截取补全导致播客内容不完整的情况。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="播客陪读" referrerpolicy="no-referrer" src="https://p.zhheo.com/202697efa12e49ebc1dfa132f99d397e58ea211505.webp!blogimg"/&gt;&lt;/p&gt;
-&lt;p&gt;目前全站已有超过500篇文章已支持播客陪读，未来这个数量将覆盖到所有文章。&lt;/p&gt;
-&lt;h2 id="让声音帮助更多读者"&gt;&lt;a href="#让声音帮助更多读者" title="让声音帮助更多读者"&gt;&lt;/a&gt;让声音帮助更多读者&lt;/h2&gt;&lt;p&gt;博客的全文朗读与播客陪读是博客全新的声音增强体系，如果能够帮助你更好的理解我撰写的内容，那就是狠狠有帮助啦。&lt;/p&gt;
-</description><pubDate>Thu, 21 May 2026 04:27:16 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 22 May 2026 03:11:38 +0000</pubDate></item></channel></rss>
