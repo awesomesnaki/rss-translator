@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 09 Jun 2026 17:42:32 +0000</lastBuildDate><item><title>苹果WWDC 2026主题演讲</title><link>https://www.youtube.com/watch?v=hF8swzNR1-o</link><description>&lt;p&gt;一场简洁的76分钟发布会，包括片尾彩蛋音乐视频。过去几年大约要长半小时。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 09 Jun 2026 18:53:47 +0000</lastBuildDate><item><title>WWDC现场脱口秀：今晚，现场直播</title><link>https://ti.to/daringfireball/the-talk-show-live-from-wwdc-2026</link><description>&lt;p&gt;如果你能亲临现场，你应该来。加州剧院是一个漂亮的&lt;em&gt;大型&lt;/em&gt;剧院，门票&lt;a href="https://ti.to/daringfireball/the-talk-show-live-from-wwdc-2026"&gt;仍有售&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;你&lt;em&gt;也&lt;/em&gt;可以在Vision Pro上的&lt;a href="https://apps.apple.com/us/app/theater-cinema-events/id6502666560"&gt;Sandwich Vision推出的Theater应用&lt;/a&gt;中观看今晚的立体沉浸式直播。购买现场演出门票，即Theater应用（$12.99），还可永久重播——包含惊喜附加功能。这是一种有趣、真正沉浸式的观演体验。&lt;/p&gt;
+&lt;p&gt;希望今晚能以某种方式在那里见到你。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/06/09/the-talk-show-live-tonight" title="《WWDC现场脱口秀：今晚，亲临现场与直播》的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Tue, 09 Jun 2026 18:53:47 +0000</pubDate></item><item><title>苹果WWDC 2026主题演讲</title><link>https://www.youtube.com/watch?v=hF8swzNR1-o</link><description>&lt;p&gt;一场简洁的76分钟发布会，包括片尾彩蛋音乐视频。过去几年大约要长半小时。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/06/09/apple-wwdc-2026-keynote" title="Permanent link to ‘Apple WWDC 2026 Keynote’"&gt; ★ &lt;/a&gt;
 </description><pubDate>Tue, 09 Jun 2026 17:42:32 +0000</pubDate></item><item><title>苹果WWDC的AI演示是真实的且实时的。</title><link>https://techcrunch.com/2026/06/08/apples-wwdc-ai-demos-looked-more-real-after-250m-false-ad-settlement/</link><description>&lt;p&gt;Julie Bort, TechCrunch:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -25,9 +29,4 @@
 &lt;p&gt;苹果与谷歌合作的令人困惑之处在于，谷歌几乎将所有人工智能相关的东西都称为“Gemini”。模型是“Gemini”，助手是“Gemini”，功能集成也是“Gemini”。因此，苹果不遗余力地强调，他们是基于Gemini&lt;em&gt;模型&lt;/em&gt;构建的，而非Gemini&lt;em&gt;助手&lt;/em&gt;。&lt;/p&gt;
 &lt;p&gt;可以这样理解。假设你是一名谷歌Gemini应用的用户，这是助手。现在你开始使用新的苹果智能（基于Gemini模型构建）和新的Siri AI（基于新的苹果智能构建）。当你回到谷歌Gemini应用时，你在使用苹果智能和Siri AI时所做&lt;em&gt;的任何操作&lt;/em&gt;，Gemini应用都不可见。同样，你在谷歌Gemini应用中继续进行的任何操作，苹果智能或Siri AI也不可见。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/06/09/apples-wwdc-apple-intelligence-announcement" title="永久链接至‘苹果全球开发者大会上宣布的新苹果智能系统’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Tue, 09 Jun 2026 16:50:33 +0000</pubDate></item><item><title>[赞助商] WorkOS 推出 auth.md — 一个开放的代理注册协议</title><link>https://youtu.be/Dqp_b8GHLXU?t=1074</link><description>&lt;p&gt;注册表单是为人类在浏览器中设计的，那么AI代理如何以编程方式注册服务呢？&lt;/p&gt;
-&lt;p&gt;引入auth.md。通过在您的服务根目录暴露一个单一的、机器可读的Markdown文件，AI代理可以动态发现您的OAuth受保护资源元数据，解析所需的作用域，并无缝进行身份验证。&lt;/p&gt;
-&lt;p&gt;借助WorkOS AuthKit的原生支持，您现在可以开箱即用地实现这一协议，为AI工具提供标准化的安全方式登录您的应用程序。&lt;/p&gt;
-&lt;p&gt;阅读&lt;a href="https://workos.com/auth-md?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q22026"&gt;auth.md文档&lt;/a&gt;。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/feeds/sponsors/2026/06/workos_launches_authmd_--_an_o" title="永久链接至‘WorkOS推出auth.md——一个用于代理注册的开放协议’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Tue, 09 Jun 2026 04:23:05 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 09 Jun 2026 16:50:33 +0000</pubDate></item></channel></rss>
