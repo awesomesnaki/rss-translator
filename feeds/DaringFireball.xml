@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Thu, 11 Jun 2026 00:48:52 +0000</lastBuildDate><item><title>克雷格·费德里吉详细介绍了苹果与谷歌在Siri AI上的合作——现场直播</title><link>https://9to5mac.com/2026/06/08/craig-federighi-details-apples-collaboration-with-google-for-siri-ai-in-ios-27/</link><description>&lt;p&gt;周一，9to5Mac的Chance Miller报道：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Thu, 11 Jun 2026 21:58:49 +0000</lastBuildDate><item><title>苹果：“由于DMA，Siri AI在欧盟的iOS 27和iPadOS 27中延迟”</title><link>https://www.apple.com/newsroom/2026/06/due-to-dma-siri-ai-delayed-in-eu-for-ios-27-and-ipados-27/</link><description>&lt;p&gt;苹果新闻室，在周一的一篇苹果新闻室文章中写道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;根据欧盟监管机构的说法，DMA要求苹果允许任何AI系统几乎无限制地访问用户的设备，并且能够自主地执行这些访问，而无需用户持续地可见和控制。这包括能够读取和发送消息、进行购买、访问文件以及在任意应用中执行操作的能力。安全研究人员已经证明，AI系统可以被劫持以窃取个人数据——如密码和照片——并且在未经用户同意的情况下永久更改文件和账户设置。随着AI系统获得更多能力，这些风险的频率和范围正在迅速增加。&lt;/p&gt;
+&lt;p&gt;鉴于对用户的严重风险，苹果设计了一个名为受信系统代理的解决方案——一个中介，它将允许虚拟助手安全地访问与Siri AI相同的功能，适用于欧盟的设备。苹果还分享了一个计划，在欧盟推出Siri AI的同时，在18个月内逐步推出这一新解决方案。欧盟委员会拒绝了。事实上，欧盟委员会没有同意苹果的任何提议。&lt;/p&gt;
+&lt;p&gt;苹果将继续努力以尽可能安全的方式将这些功能带给欧盟用户。然而，鉴于对欧盟用户的明确危险以及监管机构未能承认这些风险，目前还没有iOS和iPadOS上Siri AI在欧盟可用的时间表。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这里有很多内容需要解读，包括更多背景信息——以及公开声明——来自周二苹果在苹果园区举行的一次简报会，我受邀参加。但关键是，苹果关于DMA和欧盟委员会的公开声明从未像这次这样尖锐。在其公开声明中，苹果一向是&lt;em&gt;外交辞令&lt;/em&gt;。就是这个词。&lt;/p&gt;
+&lt;p&gt;现在，他们有点进入战备状态了。苹果愿意在欧盟为Siri AI做的事情与欧盟委员会要求苹果遵守DMA所做的事情之间存在巨大鸿沟。目前来看，没有中间地带。苹果的妥协提议已被拒绝。除非一方改变主意并放弃当前立场，否则Siri AI将&lt;em&gt;永远不会&lt;/em&gt;进入欧盟，而苹果在这里说的是，他们不愿意创建欧盟委员会要求的开放用户数据访问系统。&lt;/p&gt;
+&lt;p&gt;从我在一天的Siri AI测试中所见，欧盟的iOS用户将错过一些真正好的东西。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/06/11/apple-dma-siri-ai" title="永久链接至‘苹果：’由于DMA，Siri AI在欧盟的iOS 27和iPadOS 27上延迟‘’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Thu, 11 Jun 2026 21:58:49 +0000</pubDate></item><item><title>斯皮尔伯格谈屡次被拒执导詹姆斯·邦德电影</title><link>https://www.youtube.com/watch?v=iEho3brGB64</link><description>&lt;p&gt;史蒂文·斯皮尔伯格在 YouTube 节目《The Rest Is Entertainment》中说道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在《大白鲨》大获成功后，我联系了库比·布罗科利。自从看过《诺博士》之后，我就一直想拍一部詹姆斯·邦德电影，所以在《大白鲨》之后我打电话给库比，自告奋勇。我说：“如果你需要导演，我很乐意执导一部。”他说不行。然后这事就过去了。&lt;/p&gt;
+&lt;p&gt;后来《第三类接触》上映后，库比又给我打了电话。那部电影也大获成功。在《第三类接触》上映几年后，库比打电话给我说：“我们想在《太空城》里用那五个音符。”我说：“我们做个交易吧。如果你让我导演一部邦德电影，我就允许你用那五个音符。”他说：“不行。”但我还是把五个音符给了他。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在《太空城》中，经典的《第三类接触》音符被用作&lt;a href="https://www.youtube.com/watch?v=kZci4tZ-Wfk"&gt;邦德（罗杰·摩尔饰演）需要进入的秘密实验室锁着的门的密码&lt;/a&gt;。把密码数字大声播放出来可能不太安全，但这算是一个有趣的彩蛋。我一直以为 EON 是出于合理引用而致敬，并没有费心去征求斯皮尔伯格或哥伦比亚影业的许可。&lt;/p&gt;
+&lt;p&gt;斯皮尔伯格在《The Rest Is Entertainment》的采访中接着解释了一个常被提及的故事：他被布罗科利拒绝的失望促使他与乔治·卢卡斯合作拍摄了《夺宝奇兵》，而这部电影被我列入有史以来最佳影片的短名单中。《魔域奇兵》的整个开场片段——印第安纳·琼斯穿着晚礼服，夜总会里一片混乱，琼斯追逐一小瓶毒药解药，而其他角色则追逐一颗在地板上被踢来踢去的钻石——比大多数邦德电影还要有邦德味。（哦，还有那家上海夜总会的名字：欧比旺俱乐部。那五个音节不用征求许可。）&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/06/11/spielberg-bond" title="Permanent link to ‘Spielberg on Being Repeatedly Turned Down to Direct a James Bond Film’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Thu, 11 Jun 2026 20:38:09 +0000</pubDate></item><item><title>克雷格·费德里吉详细介绍了苹果与谷歌在Siri AI上的合作——现场直播</title><link>https://9to5mac.com/2026/06/08/craig-federighi-details-apples-collaboration-with-google-for-siri-ai-in-ios-27/</link><description>&lt;p&gt;周一，9to5Mac的Chance Miller报道：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;由克雷格·费德里吉领导的苹果Siri团队，在WWDC主题演讲后于今天下午与媒体成员举行了一场技术交流会，讨论iOS 27和新的Siri AI。在交流中，费德里吉分享了更多关于苹果与谷歌合作的细节。与费德里吉一同出席的还有Amar Subramanya（人工智能副总裁）、Mike Rockwell（Siri负责人）和Sebastien Marineau-Mes（软件副总裁）。&lt;/p&gt;
 &lt;p&gt;关于与谷歌的合作，费德里吉解释道：&lt;/p&gt;
@@ -26,10 +44,4 @@
 &lt;/blockquote&gt;
 &lt;p&gt;有很多要点。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/06/09/the-small-things" title="永久链接至‘Apple OS 27: 小细节’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Tue, 09 Jun 2026 21:29:57 +0000</pubDate></item><item><title>WWDC现场脱口秀：今晚，现场直播</title><link>https://ti.to/daringfireball/the-talk-show-live-from-wwdc-2026</link><description>&lt;p&gt;如果你能亲临现场，你应该来。加州剧院是一个漂亮的&lt;em&gt;大型&lt;/em&gt;剧院，门票&lt;a href="https://ti.to/daringfireball/the-talk-show-live-from-wwdc-2026"&gt;仍有售&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;你&lt;em&gt;也&lt;/em&gt;可以在Vision Pro上的&lt;a href="https://apps.apple.com/us/app/theater-cinema-events/id6502666560"&gt;Sandwich Vision推出的Theater应用&lt;/a&gt;中观看今晚的立体沉浸式直播。购买现场演出门票，即Theater应用（$12.99），还可永久重播——包含惊喜附加功能。这是一种有趣、真正沉浸式的观演体验。&lt;/p&gt;
-&lt;p&gt;希望今晚能以某种方式在那里见到你。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/06/09/the-talk-show-live-tonight" title="《WWDC现场脱口秀：今晚，亲临现场与直播》的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Tue, 09 Jun 2026 18:53:47 +0000</pubDate></item><item><title>苹果WWDC 2026主题演讲</title><link>https://www.youtube.com/watch?v=hF8swzNR1-o</link><description>&lt;p&gt;一场简洁的76分钟发布会，包括片尾彩蛋音乐视频。过去几年大约要长半小时。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/06/09/apple-wwdc-2026-keynote" title="Permanent link to ‘Apple WWDC 2026 Keynote’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Tue, 09 Jun 2026 17:42:32 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 09 Jun 2026 21:29:57 +0000</pubDate></item></channel></rss>
