@@ -24,7 +24,337 @@
 &lt;p&gt;&lt;strong&gt;#21 aidevs&lt;/strong&gt;：@&lt;a href="/member/sport123"&gt;sport123&lt;/a&gt; 每个人尽量做好自己就行了，比如 你不想加班，就不加班，随便找个理由&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#22 Seck&lt;/strong&gt;：据我所知世界上基本上你所认识的所有富豪所有互联网领军人物所有的顶尖精英是从高校里面出来。&lt;br/&gt;&lt;br/&gt;你是不是把大专和清华弄混了？&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#23 Ericcccccccc&lt;/strong&gt;：那要不然辍学不读了？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#24 EthanCN&lt;/strong&gt;：大学生活是一次虚假的小资体验，毕业后回到了各自真实的阶级罢了。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 13 Jun 2026 05:00:14 +0000</pubDate></item><item><title>央视开始报道中转站了</title><link>https://www.v2ex.com/t/1220119</link><description>&lt;a href="https://mp.weixin.qq.com/s/-s5ihFhJ9BqyYZRo7ZgwYw" rel="nofollow noopener" target="_blank"&gt;https://mp.weixin.qq.com/s/-s5ihFhJ9BqyYZRo7ZgwYw&lt;/a&gt;&lt;br/&gt;看起来小中转站们离死不远了
+&lt;p&gt;&lt;strong&gt;#24 EthanCN&lt;/strong&gt;：大学生活是一次虚假的小资体验，毕业后回到了各自真实的阶级罢了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#25 WASP76b&lt;/strong&gt;：因为有思想政治课，培养出来首先要听党话&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#26 catazshadow&lt;/strong&gt;：LZ 应该问是少教了什么知识让你们只能是牛马&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#27 TobiahShaw&lt;/strong&gt;：有没有一种可能，学校设立初期就是为了培养工人。如果你认为工人就是牛马，那学校出来的大概率是牛马。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#28 Potatooo&lt;/strong&gt;：因为大部分人都是牛马，不论是不是学校出来的。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#29 AEDaydreamer&lt;/strong&gt;：整个系统在 6-18 岁倒贴钱就是为了让人成为 40 年的优质牛马。只要能劳动且有劳动意愿就证明系统成功了，不论意愿是否由个人意志自由产生。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#30 3DSecure&lt;/strong&gt;：奴隶做牛马是福报，活着就得感恩&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 13 Jun 2026 05:00:14 +0000</pubDate></item><item><title>PVE 主机两三天就会在早上 六点左右重启一次，尝试过各种排查方法，还是找不到原因。</title><link>https://www.v2ex.com/t/1220122</link><description>&lt;p&gt;借助 GPT ，将具体的现象、配置、排查方案写出来了，会有一点长，希望 V2 上的富有经验的大佬能给点头绪：&lt;/p&gt;
+&lt;h1&gt;PVE/FnOS 固定早上 6 点附近硬重启排查记录&lt;/h1&gt;
+&lt;p&gt;这是一台家用 Proxmox VE 主机，主要跑一个 FnOS/飞牛 NAS 虚拟机。最近多次出现早上 6 点附近自动重启，表现更像硬断电/硬复位，而不是系统内正常 reboot/shutdown 。下面是目前的硬件信息、排查过程和阶段性结论，想请大家帮忙判断更像主板/BIOS/ME/ACPI 、电源、SATA 控制器/硬盘链路，还是 PVE/FnOS/驱动层的问题。&lt;/p&gt;
+&lt;h2&gt;1. 主要现象&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PVE 主机多次在早上 6 点附近突然重启。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;journalctl --list-boots&lt;/code&gt; 显示上一个 boot 在 5:59 左右戛然而止，随后 6:00/6:01 进入新 boot 。&lt;/li&gt;
+&lt;li&gt;重启前没有看到正常关机链路，也没有看到明确的 kernel panic 、MCE 、OOM 、pstore 崩溃记录。&lt;/li&gt;
+&lt;li&gt;NVMe SMART 的 &lt;code&gt;Unsafe Shutdowns&lt;/code&gt; 会随这类重启增加，因此更像硬断电/硬复位。&lt;/li&gt;
+&lt;li&gt;重启前自建监控记录显示 CPU 温度、NVMe 温度、负载都不高。&lt;/li&gt;
+&lt;li&gt;问题常集中在早上 6 点附近，但不是每天必现。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;2. 当前硬件和系统信息&lt;/h2&gt;
+&lt;p&gt;PVE:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Proxmox VE: &lt;code&gt;pve-manager 9.1.1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Kernel: &lt;code&gt;6.17.2-1-pve&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Hostname: &lt;code&gt;pve&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;
+Kernel cmdline:&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;i915.enable_guc=3&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;i915.max_vfs=7&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;module_blacklist=xe&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;主板 / BIOS / CPU:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;主板: &lt;code&gt;MAXSUN MS-eSport Z890M&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;BIOS: &lt;code&gt;B3.4D&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;BIOS Release Date: &lt;code&gt;06/16/2025&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;CPU: &lt;code&gt;Intel Core Ultra 5 245K&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;CPU 线程: &lt;code&gt;14 CPUs&lt;/code&gt;，&lt;code&gt;14 cores&lt;/code&gt;，&lt;code&gt;1 thread per core&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;虚拟化: &lt;code&gt;VT-x&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;内存:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;当前总内存约 &lt;code&gt;32GB&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;
+当前插了两条 DDR5 4800:&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Maxsun 16GB&lt;/code&gt;, Part Number &lt;code&gt;MSD516G60AX5-D40M0&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;JUHOR 16GB&lt;/code&gt;, Part Number &lt;code&gt;JHE4800U4016JG&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;注意: 之前多次重启发生时只有一条 16GB 内存，2026-06-13 早上重启后才加了第二条内存。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;系统盘:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;NVMe: &lt;code&gt;ZHITAI TiPro5000&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;NVMe SMART 中 &lt;code&gt;Media and Data Integrity Errors = 0&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;但异常重启时 &lt;code&gt;Unsafe Shutdowns&lt;/code&gt; 会增加。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;PCI / 控制器:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+板载 SATA:&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;80:17.0 Intel SATA controller [8086:7f62]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;当前驱动: &lt;code&gt;ahci&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+SATA 扩展卡:&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;83:00.0 ASMedia ASM1166 Serial ATA Controller [1b21:1166]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;当前驱动: &lt;code&gt;ahci&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+网卡:&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Realtek RTL8125 2.5GbE&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;之前测试中拔掉过 UPS USB ，只留过 USB 网卡；后续也拔掉过 USB 网卡做排除。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;3. 当前硬盘和 FnOS 虚拟机配置&lt;/h2&gt;
+&lt;p&gt;当前 PVE 能看到 9 块 SATA 硬盘。&lt;/p&gt;
+&lt;p&gt;板载 Intel SATA 上的 4 块盘:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sda  WDC WUH721816ALE6L4    4MGYAVMH    14.6T
+sdb  WDC WD200EDGZ-11CNKA0  SSG538VD    18.2T
+sdc  WDC WUH721816ALE6L4    2BJE0JTN    14.6T
+sdd  WDC WUH721816ALE6L4    2JJGZEJB    14.6T
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;ASMedia ASM1166 上的 5 块盘:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sde  TOSHIBA MG08ACA14TE      5160A01BFRVH  12.7T
+sdf  TOSHIBA DT01ACA300       38SJTMEAS      2.7T
+sdg  WDC WD140EDGZ-11B1PA0    7LGHSPUK      12.7T
+sdh  ST2000DM006-2DM164       Z4Z80PNS       1.8T
+sdi  WDC WD100EMAZ-00WJTA0    JEKV1V2Z       9.1T
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;FnOS VM:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;VMID: &lt;code&gt;105&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Name: &lt;code&gt;FnOS&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Machine: &lt;code&gt;q35&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;CPU: &lt;code&gt;host&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Cores: &lt;code&gt;8&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Memory: &lt;code&gt;10144 MB&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;系统盘: &lt;code&gt;sata0 local-lvm:vm-105-disk-0,size=200G&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;当前采用硬盘路径直通，不是整控制器直通。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;当前 FnOS 直通盘:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sata1: /dev/disk/by-id/ata-TOSHIBA_MG08ACA14TE_5160A01BFRVH
+sata2: /dev/disk/by-id/ata-TOSHIBA_DT01ACA300_38SJTMEAS
+sata3: /dev/disk/by-id/ata-WDC_WD140EDGZ-11B1PA0_7LGHSPUK
+sata4: /dev/disk/by-id/ata-ST2000DM006-2DM164_Z4Z80PNS
+sata5: /dev/disk/by-id/ata-WDC_WD100EMAZ-00WJTA0_JEKV1V2Z
+scsi1: /dev/disk/by-id/ata-WDC_WUH721816ALE6L4_4MGYAVMH
+scsi2: /dev/disk/by-id/ata-WDC_WD200EDGZ-11CNKA0_SSG538VD
+scsi3: /dev/disk/by-id/ata-WDC_WUH721816ALE6L4_2BJE0JTN
+scsi4: /dev/disk/by-id/ata-WDC_WUH721816ALE6L4_2JJGZEJB
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;说明:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;之前曾经用过 SATA 控制器直通。&lt;/li&gt;
+&lt;li&gt;后来为了排查，改成了单盘 by-id 直通。&lt;/li&gt;
+&lt;li&gt;也测试过 &lt;code&gt;vfio-pci&lt;/code&gt; 绑定 SATA 控制器，但后来按“硬盘直通”思路取消了 PCI 隔离，目前两个 SATA 控制器都由 PVE 的 &lt;code&gt;ahci&lt;/code&gt; 接管。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;4. 已记录到的异常重启证据&lt;/h2&gt;
+&lt;p&gt;部分 boot history:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Sat 2026-05-30 06:01:21 进入新 boot
+Tue 2026-06-09 05:59:57 上一个 boot 截止
+Tue 2026-06-09 06:00:39 进入新 boot
+Sat 2026-06-13 05:59:44 上一个 boot 截止
+Sat 2026-06-13 06:01:14 进入新 boot
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;2026-06-13 早上这次比较关键:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;上一个 boot: &lt;code&gt;2026-06-11 22:58:33&lt;/code&gt; 到 &lt;code&gt;2026-06-13 05:59:44&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;新 boot: &lt;code&gt;2026-06-13 06:01:14&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;
+重启前最后 heartbeat:&lt;ul&gt;
+&lt;li&gt;时间: &lt;code&gt;2026-06-13T05:59:44+08:00&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;FnOS 状态: &lt;code&gt;running&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;负载: &lt;code&gt;0.10 0.11 0.09&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;内存: 总计约 &lt;code&gt;15465M&lt;/code&gt;，可用约 &lt;code&gt;3452M&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;CPU/NVMe 温度约 &lt;code&gt;43-44C&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;NVMe &lt;code&gt;Unsafe Shutdowns&lt;/code&gt; 在这次异常后从 &lt;code&gt;96&lt;/code&gt; 增到 &lt;code&gt;97&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这次重启发生时，原来那 4 块板载 SATA 硬盘已经被拔掉/不参与，只保留了 ASM1166 扩展卡上的 5 块盘。因此“板载 SATA 那 4 块盘或板载 SATA 控制器是必要触发条件”这个假设基本被削弱；至少已经做过“仅扩展卡 5 块盘”的测试，且仍然复现 6 点附近异常重启。&lt;/p&gt;
+&lt;p&gt;2026-06-13 10:35 到 10:54 还有一次关机/开机:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;这是人为加内存、插回 4 块硬盘导致的维护关机。&lt;/li&gt;
+&lt;li&gt;这次没有增加 NVMe &lt;code&gt;Unsafe Shutdowns&lt;/code&gt;，和 6 点异常重启性质不同。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;5. 已做过的排查和变更&lt;/h2&gt;
+&lt;p&gt;电源/外部供电:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;怀疑过智能插座/插线板。&lt;/li&gt;
+&lt;li&gt;同一个插线板上接了一个断电就会熄灭的台灯，异常期间台灯未灭。&lt;/li&gt;
+&lt;li&gt;这能降低“外部市电/插线板整体断电”的可能性，但不能排除主机电源、SATA 供电线、瞬态负载、主板复位。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;BIOS:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;进 BIOS 看过，没有发现 RTC 定时开机配置。&lt;/li&gt;
+&lt;li&gt;没有开启断电后自动开机。&lt;/li&gt;
+&lt;li&gt;没找到明确的 watchdog 设置。&lt;/li&gt;
+&lt;li&gt;BIOS 中能看到一些电源管理选项，但没有发现能解释固定 6 点自动启动/重启的配置。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;PVE 服务:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;停掉过一些不必要的 PVE 集群/HA 相关服务。&lt;/li&gt;
+&lt;li&gt;启动日志里仍有 &lt;code&gt;corosync/quorum_initialize failed&lt;/code&gt; 之类信息，但这类信息出现在开机阶段，更像单节点/集群服务状态问题，不像重启前触发原因。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;监控:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+配了自定义 heartbeat 和 boot report:&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;/var/log/pve-watch/heartbeat.log&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/var/log/pve-watch/boot-report.log&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;这些日志能记录每分钟左右的温度、负载、内存、FnOS 状态、NVMe SMART 、上一次 heartbeat 等。&lt;/li&gt;
+&lt;li&gt;目前证据显示异常发生前温度、负载并不高。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;USB:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;UPS 的 USB 线曾经拔掉。&lt;/li&gt;
+&lt;li&gt;USB 网卡也拔掉做过排查。&lt;/li&gt;
+&lt;li&gt;目前没有看到 USB 设备直接导致重启的证据。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;FnOS / 硬盘直通:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;之前 FnOS 使用过 SATA 控制器直通。&lt;/li&gt;
+&lt;li&gt;后来改成硬盘 by-id 直通，以便做交叉测试。&lt;/li&gt;
+&lt;li&gt;测试过只接 5 块盘，仍然在 2026-06-13 早上 6 点附近重启。&lt;/li&gt;
+&lt;li&gt;这 5 块盘是在 ASM1166 SATA 扩展卡上；当时板载 SATA 的 4 块盘已经拔掉/不参与，所以“禁用/不使用板载 SATA 硬盘链路”这个方向已经测试过。&lt;/li&gt;
+&lt;li&gt;后续又插回原来 4 块盘，并将 9 块盘都直通给 FnOS 。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;硬盘 SMART / SATA 错误:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;插回原来 4 块盘后，&lt;code&gt;smartd&lt;/code&gt; 报过两块盘 ATA error count 增加:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;/dev/sda WDC WUH721816ALE6L4 4MGYAVMH:
+ATA error count increased from 0 to 578
+
+/dev/sdc WDC WUH721816ALE6L4 2BJE0JTN:
+ATA error count increased from 476 to 2113
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;这说明原来那组板载 SATA 上至少有两块盘/链路存在历史或累计 ATA 错误。&lt;/li&gt;
+&lt;li&gt;但 2026-06-13 早上 6 点那次重启发生时这 4 块盘不在机器上，所以这些错误不能单独解释那次 6 点重启。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;6. 目前倾向排除或证据较弱的方向&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;普通系统内 &lt;code&gt;reboot&lt;/code&gt;/&lt;code&gt;shutdown&lt;/code&gt;: 没有正常关机链路。&lt;/li&gt;
+&lt;li&gt;温度过高: 重启前监控温度正常。&lt;/li&gt;
+&lt;li&gt;明确 OOM: 没看到 OOM 证据。&lt;/li&gt;
+&lt;li&gt;明确 kernel panic/MCE: 当前没有抓到 panic 、MCE 、pstore 证据。&lt;/li&gt;
+&lt;li&gt;仅由原来 4 块板载 SATA 硬盘或板载 SATA 控制器导致: 可能性明显下降，因为只保留 ASM1166 扩展卡上 5 块盘、板载 SATA 4 块盘不参与时也重启过。&lt;/li&gt;
+&lt;li&gt;仅由新加的第二条内存导致: 不成立，因为第二条内存是 2026-06-13 早上重启后才加的。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;7. 仍保留的重点怀疑方向&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;主板 / BIOS / ME / ACPI / 电源管理 / 平台复位问题&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;启动时有较多 ACPI BIOS Error ，例如 &lt;code&gt;Could not resolve symbol [\_SB.UBTC.RUCC]&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;不确定这些 ACPI 错误是否只是常见无害日志，还是和 USB/电源管理/平台复位有关。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;电源或供电瞬态问题&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;台灯未灭只能说明外部供电没有整体断。&lt;/li&gt;
+&lt;li&gt;不能排除 PSU 、SATA 电源线、硬盘同时唤醒/负载变化导致的瞬时掉压或主板复位。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;SATA 扩展卡 ASM1166 / SATA 链路 / 硬盘组合问题&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;只接 ASM1166 扩展卡上的 5 块盘时也出现 6 点重启。&lt;/li&gt;
+&lt;li&gt;原来板载 SATA 4 块盘中又有两块出现 ATA error count 。&lt;/li&gt;
+&lt;li&gt;可能不是单一硬盘，而是硬盘、供电线、SATA 线、扩展卡、主板 PCIe/SATA 子系统共同触发。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;FnOS 6 点附近任务触发的负载&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;异常重启前 FnOS 是 running 。&lt;/li&gt;
+&lt;li&gt;如果 FnOS 在 6 点有备份、校验、索引、清理、SMART 、快照、Time Machine 相关任务，可能触发大量磁盘 IO 或硬盘唤醒。&lt;/li&gt;
+&lt;li&gt;但这更像“触发器”，不一定是根因，因为宿主机是硬复位级别。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;PVE 9.1 / kernel 6.17 / 新平台驱动兼容性&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Z890 + Core Ultra 平台较新。&lt;/li&gt;
+&lt;li&gt;也可能和 kernel 6.17 、AHCI 、IOMMU 、虚拟化、iGPU SR-IOV 参数有关。&lt;/li&gt;
+&lt;li&gt;可以考虑用旧一点的 PVE kernel 6.8 做对照测试。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;8. 想请大家帮忙判断的问题&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;这种每次 &lt;code&gt;journalctl&lt;/code&gt; 截止在 5:59 ，随后 6:00/6:01 新 boot ，且 NVMe &lt;code&gt;Unsafe Shutdowns&lt;/code&gt; 增加的情况，是否基本可以判断为硬复位/断电类，而不是 Linux 正常崩溃？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;MAXSUN Z890M / Arrow Lake / Core Ultra 245K 在 Linux/PVE 下，启动日志里的这些 ACPI BIOS Error 是否可能和定时硬复位有关？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ASM1166 SATA 扩展卡 + 多块机械硬盘，在每天固定任务时间附近触发整机 reset ，是否有人遇到过？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如果要进一步区分主板、电源、SATA 扩展卡、硬盘、PVE kernel/FnOS 任务，下一步最有效的交叉测试应该怎么设计？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;是否建议优先:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;换 PSU / 单独给硬盘供电；&lt;/li&gt;
+&lt;li&gt;换 SATA 扩展卡；&lt;/li&gt;
+&lt;li&gt;BIOS 升级/降级或更新 ME ；&lt;/li&gt;
+&lt;li&gt;PVE 切回 kernel 6.8 ；&lt;/li&gt;
+&lt;li&gt;FnOS 停机跨过 6 点；&lt;/li&gt;
+&lt;li&gt;跑 MemTest86 ；&lt;/li&gt;
+&lt;li&gt;暂停 FnOS 所有 6 点附近任务；&lt;/li&gt;
+&lt;li&gt;给 PVE 配串口/netconsole/远端 syslog 抓崩溃前最后输出？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;9. 我目前自己的阶段性判断&lt;/h2&gt;
+&lt;p&gt;现在最不像的是普通软件层面的正常重启；更像硬断电/硬复位。由于只保留 5 块 ASM1166 硬盘时仍然重启，不能再简单归因于原来那 4 块硬盘。但原来 4 块盘中两块有明显 ATA error count ，也说明存储链路确实存在问题。&lt;/p&gt;
+&lt;p&gt;目前我个人更倾向优先怀疑:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;主板/BIOS/ME/ACPI/平台电源管理或复位问题；&lt;/li&gt;
+&lt;li&gt;PSU 或 SATA 供电瞬态问题；&lt;/li&gt;
+&lt;li&gt;ASM1166/SATA/硬盘组合在 FnOS 6 点任务触发下造成硬件级异常；&lt;/li&gt;
+&lt;li&gt;PVE kernel 6.17 在这套较新平台上的兼容性问题。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;下一步我倾向做的排除测试:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;FnOS 关机跨过 6 点，验证 PVE 空载是否还重启。&lt;/li&gt;
+&lt;li&gt;若 PVE 空载稳定，再启动 FnOS 但关闭 6 点附近所有任务。&lt;/li&gt;
+&lt;li&gt;用 PVE kernel 6.8 做对照。&lt;/li&gt;
+&lt;li&gt;跑 MemTest86 ，尤其现在是两条不同品牌 DDR5 。&lt;/li&gt;
+&lt;li&gt;对 &lt;code&gt;/dev/sda&lt;/code&gt; 和 &lt;code&gt;/dev/sdc&lt;/code&gt; 做完整 SMART 检查和长测。&lt;/li&gt;
+&lt;li&gt;有条件的话换 PSU 或给机械硬盘单独供电测试。&lt;/li&gt;
+&lt;li&gt;有条件的话换掉 ASM1166 扩展卡，或反过来只用板载 SATA 跨 6 点做对照；“仅扩展卡 5 盘”已经测过且复现。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;#1 shinciao&lt;/strong&gt;：之前遇到过类似的问题，也是自组硬件的 pve ，从某天开始经常早上一起来发现已断电关机。因为电源用的是二手矿电，没做排除直接买了新电源换上就好了。这种表现我更倾向是硬件问题，但是你这个如果确定是时间比较固定的话就不好说了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#2 EVJohn&lt;/strong&gt;：老哥，有没有考虑过是电能质量的问题？&lt;br/&gt;&lt;br/&gt;就是在那个电源前面接个 UPS ，或者是接个大疆“一度电”这种户外电源试一下。我感觉应该是电能质量波动，所以让你的那个机器重启。&lt;br/&gt;&lt;br/&gt;或者像上面那位老哥说的一样，你去弄个电源回来做 AB 测试一下。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#3 YoYoLikesCiCi&lt;/strong&gt;：@&lt;a href="/member/EVJohn"&gt;EVJohn&lt;/a&gt; 我接了 UPS ，bk650 ， 而且如果是电源问题的话，不应该会这么准时吧？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#4 memorybox&lt;/strong&gt;：可以先尝试最简单的排障方法；异常重启后，把`dmesg`和/var/syslog 相关时间段的信息直接粘贴给 Gemini 或者 GPT ；&lt;br/&gt;&lt;br/&gt;绝大多数时候很靠谱；&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#5 memorybox&lt;/strong&gt;：现在其实就可以把`dmesg`启动之后的 1000 行，直接粘贴给 Gemini ，看看它说啥；&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#6 EVJohn&lt;/strong&gt;：有个别的思路？你把你机器的时区往前或者往后调几个小时看一下&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#7 ETiV&lt;/strong&gt;：六点前运行了啥 cronjob&lt;br/&gt;&lt;br/&gt;单纯硬件不会有这么准的计时，所以应该是软件运行了什么东西，引发了硬件故障、或者电流过大导致保护性断电重启。&lt;br/&gt;&lt;br/&gt;或者你现在重启一下，看它会不会 24 小时后才崩，而不是六点。&lt;br/&gt;&lt;br/&gt;监控是怎么做的，采集频率拉高，把进程列表也采集下来。有什么智能插座的话，也可以把用电功率监控一下。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#8 SilenceLL&lt;/strong&gt;：让 codex 自己连上去看&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#9 YoYoLikesCiCi&lt;/strong&gt;：@&lt;a href="/member/ETiV"&gt;ETiV&lt;/a&gt; 检查过了，没有任何 cronjob ， 也不是 24 小时后崩的，基本都是早上六点左右，唯一的例外是有一次晚上七点， @&lt;a href="/member/SilenceLL"&gt;SilenceLL&lt;/a&gt; 就是让 codex 自己接入终端去查询的，他也找不到具体原因，各种交叉测试我也做了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#10 YoYoLikesCiCi&lt;/strong&gt;：@&lt;a href="/member/memorybox"&gt;memorybox&lt;/a&gt;  我让 codex 接管终端完整的查询过日志，没有获取到有用信息；&lt;br/&gt;@&lt;a href="/member/EVJohn"&gt;EVJohn&lt;/a&gt;  我试试，看时间是跟着我调整的时间变还是依然东八区六点&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#11 KagurazakaNyaa&lt;/strong&gt;：是不是 bios 里有设置什么 watchdog 之类的，然后这个时间点系统忘记喂狗了导致被重置了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#12 YoYoLikesCiCi&lt;/strong&gt;：@&lt;a href="/member/KagurazakaNyaa"&gt;KagurazakaNyaa&lt;/a&gt; 也怀疑过这个，进 BIOS 没看到类似的配置项，而且这个现象是二月份才出现的，在这之前都正常（去年双十一配的机器）。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#13 inreality&lt;/strong&gt;：也遇到过每天凌晨 pvr 主机自动重启的问题，软件层面上信息很有限。后来尝试了两个办法解决：&lt;br/&gt;1. 更换更大功率的电源&lt;br/&gt;2. nvme 温度过高导致断连（可能和硬盘体质有关），这解释了为什么软件层面记录不下原因，后来加装个小风扇解决&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#14 4seasons&lt;/strong&gt;：建议直接插个显示器，然后物理监控摄像头对着，看看 6 点左右是直接掉电重启还是正常执行的重启。&lt;br/&gt;如果是正常重启，那就还要排查是不是有脚本，不仅仅是 corn ，systemd ，干了坏事。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#15 IvanLi127&lt;/strong&gt;：好准时。要我说直接 u 盘弄个 cd live 系统，主机进这个 live 系统，连上网对好时间，然后啥也不干，看看能不能挺过 6 点。这样应该能排除一些硬件问题。没问题后再考虑从移动硬盘启动全新的同版本 pve 挂着看看炸不炸。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#16 YoYoLikesCiCi&lt;/strong&gt;：@&lt;a href="/member/4seasons"&gt;4seasons&lt;/a&gt;  正常的关机 系统会留下记录的，codex 翻过日志都是突然中断&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#17 YoYoLikesCiCi&lt;/strong&gt;：@&lt;a href="/member/IvanLi127"&gt;IvanLi127&lt;/a&gt; 好主意，我过两天试试，现在是参考楼上的建议更改了系统时间，观察重启是六点还是推迟到我更改的时间的六点&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#18 v0rtix&lt;/strong&gt;：用 claude code 自己 ssh 连上去 debug ，上次也是类似的问题，发现是内存有一条不识别了，重新插拔就好了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#19 billccn&lt;/strong&gt;：我看到这个问题就觉得更改系统时间把 6 点这个变量隔离出来是第一步，如果 AI 想不出来，那我觉得这个模型还比较笨，至少缺乏思考能力。&lt;br/&gt;&lt;br/&gt;还有一些思路给楼主参考：除非是黑客每天用 0-day 定时攻击，要不然软件层面触发的重启不会完全不留痕迹。硬件的故障不会准时发生，除非是软件的操作影响到了硬件。&lt;br/&gt;&lt;br/&gt;我觉得很大的一个可能是电网或者同电路上的电器在 6 点会进行一个定时的操作，造成了浪涌或者杂波通过劣质的电源影响到了你的系统。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#20 qiuyuxiao&lt;/strong&gt;：监控一下网络流量，或者干脆把网线拔了，立马就能现原形。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#21 NamelessRain&lt;/strong&gt;：&lt;a href="https://i.imgur.com/Iy0taMy.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/Iy0taMy.png"/&gt;&lt;/a&gt; 你这样 第一步:直接进 pe 烤机 24 小时 如果有问题就是硬件&lt;br/&gt;如果没问题就是系统层面软件冲突 但是我们也要看是不是外部设备掉链引起的&lt;br/&gt;第二步：空着 pve 拔出所有硬盘只留系统盘  如果还关机我们就能确定是 pve 系统有 bug 直接备份一份配置 然后重置 pve&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#22 NamelessRain&lt;/strong&gt;：@&lt;a href="/member/NamelessRain"&gt;NamelessRain&lt;/a&gt; #21 顺带 usb 设备 也拔出&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#23 Reitzo&lt;/strong&gt;：把 PVE 和 FnOS 的系统时区临时调整为西八区（比北京时间慢 16 小时），但保持机器联网。&lt;br/&gt;如果重启依然发生在北京时间早上 6 点，说明是外部环境（如电网杂波、智能插座定时、UPS 行为）或纯粹的硬件累积定时（如 ME/看门狗超时）。&lt;br/&gt;如果重启跟随换算后的时间推迟了 16 小时，100% 是 FnOS 或 PVE 内部某个隐藏的定时任务（ Cron/Systemd Timer ）触发了硬件崩溃。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#24 iceecream&lt;/strong&gt;：开 audit 对关机进行审计&lt;br/&gt;以前碰到过一个类似问题，经常不定时关机，能在审计日志中留下正常关机的信息。但是排除软件问题，最后换了服务器主板解决。&lt;br/&gt;对了我的服务器是 Linux 。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 13 Jun 2026 03:29:57 +0000</pubDate></item><item><title>央视开始报道中转站了</title><link>https://www.v2ex.com/t/1220119</link><description>&lt;a href="https://mp.weixin.qq.com/s/-s5ihFhJ9BqyYZRo7ZgwYw" rel="nofollow noopener" target="_blank"&gt;https://mp.weixin.qq.com/s/-s5ihFhJ9BqyYZRo7ZgwYw&lt;/a&gt;&lt;br/&gt;看起来小中转站们离死不远了
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 NewYear&lt;/strong&gt;：中转站不是问题，中转站诈骗才是问题&lt;br/&gt;&lt;br/&gt;但是吧，人家也不在国内注册域名，服务器也不在国内，怎么执法和杜绝呢，那肯定是没办法的&lt;br/&gt;&lt;br/&gt;但是使用者在国内啊，你懂吧&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#2 forisra&lt;/strong&gt;：我觉得这个也正常吧，不管是翻墙代理违法，还是保密合规还有产生服贸逆差上，有很多充分的理由应当打击中转站。&lt;/p&gt;&lt;hr/&gt;
@@ -57,7 +387,50 @@
 &lt;p&gt;&lt;strong&gt;#29 brsyrockss&lt;/strong&gt;：动动脑子，他要是能直接解决你需要报道你？直接发个文件你不就死了么？&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#30 bigtwo&lt;/strong&gt;：解决各种营销推广保险骚扰电话比这个更重要&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#31 raincaptain&lt;/strong&gt;：要有点压力啊，自己弄的没有别人弄得好，又想靠这些来阻止使用&lt;br/&gt;&lt;br/&gt;管是管不住的了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#32 bowencool&lt;/strong&gt;：@&lt;a href="/member/NewYear"&gt;NewYear&lt;/a&gt; #1 机场们不都好好的吗？区别大吗？&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 13 Jun 2026 03:06:08 +0000</pubDate></item><item><title>有人需要换汇吗？</title><link>https://www.v2ex.com/t/1220095</link><description>&lt;p&gt;美股不能投资了。把几万块钱现在转出到香港银行卡上了，但是转到国内比较麻烦，而且手续费也比较高，我看了下 wise 上面，基本要损失 1% 左右，想问下有老哥需要换汇吗？大概就是：你在境内（最好杭州，面对面），想转钱到香港卡，那我可以用香港卡转你，你国内再给我钱。有需要可以联系：amFtZXNqaWFuZ3g=&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#32 bowencool&lt;/strong&gt;：@&lt;a href="/member/NewYear"&gt;NewYear&lt;/a&gt; #1 机场们不都好好的吗？区别大吗？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#33 dabaibai&lt;/strong&gt;：所以这种东西  只能有关系的人做  不然赚钱了也进去。&lt;br/&gt;就好比机场。没关系就肉出去。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#34 yuruizhe&lt;/strong&gt;：跟 115 一样呗，封闭式会员，内鬼少了，平台就能活下去了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#35 billccn&lt;/strong&gt;：@&lt;a href="/member/walterggg"&gt;walterggg&lt;/a&gt; 央媒的报道（涉及）国外的事情，报道方向不是外面水深火热、风景这边独好，而是“中肯”、带你分析利弊的，那一定是它们对这个事情咬牙切齿但又无能为力，想通过这种报道吓退你。&lt;br/&gt;&lt;br/&gt;与翻墙流量不同，中转站看上去是很正常的流量，除非搞黑白名单，要不然它们杜绝不了。但在 token 就是最高级生产资料的今天，它们不敢贸然限制，所以发这种文章出来吓吓人。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#36 werls&lt;/strong&gt;：舆论机器先行，准备要大规模打击各种中转站了，希望开中转站的人，肉身在外。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#37 gogozs&lt;/strong&gt;：你这么听央妈妈的话，翻墙跑到这里发言？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#38 xuld&lt;/strong&gt;：央妈其实是在告诉你，现在做中转站的人很多，多到央妈必须亲自下场阻止————结论：现在做中转站还有汤喝，有条件的赶紧去做，当一批中转站倒下，市场一定会需要更多中转站&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 13 Jun 2026 03:06:08 +0000</pubDate></item><item><title>为什么本站和 X 上有人喜欢用拼音缩写来代替国内社交媒体上可能的敏感词？</title><link>https://www.v2ex.com/t/1220118</link><description>&lt;p&gt;包括但不限于：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;政府 -&amp;gt; ZF
+管理局 -&amp;gt; GLJ
+警察 -&amp;gt; JC
+疫情 -&amp;gt; YQ
+翻墙 -&amp;gt; FQ
+
+...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;在国内社媒上某些词发不出去，为了正常交流只能用缩写代替敏感词，这个可以理解。&lt;/p&gt;
+&lt;p&gt;但是既然已经翻墙上网了，为什么还要自我阉割来用缩写代替敏感词呢？翻墙上网不就是为了能不受限制地学习/交流/生活吗？这个时候还要自我阉割，到底是为了什么？&lt;/p&gt;
+&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;#1 NewYear&lt;/strong&gt;：没有哪个论坛是真正完全自由说话的，因为你的话会留在网站上被别人看到，可能对站长或者其他访客造成问题。&lt;br/&gt;&lt;br/&gt;因此一定会被管理。&lt;br/&gt;&lt;br/&gt;所以委婉一点不是坏事。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#2 forisra&lt;/strong&gt;：你在这里瞎说话一样会被降权啊。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#3 Danswerme&lt;/strong&gt;：@&lt;a href="/member/NewYear"&gt;NewYear&lt;/a&gt;  这个能理解，只是个人觉得这样将语言原本的美感完全破坏掉了...&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#4 Brightt&lt;/strong&gt;：有些词在这里也发不出来，但不知道哪些词，只要发过就会被降权&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#5 datocp&lt;/strong&gt;：你以为你在墙外???&lt;br/&gt;不是经常有人反应也可以随便访问到。&lt;br/&gt;更可恶的是那些 cdn ，还是复制站内容的人。&lt;br/&gt;你以为别人看不到，结果随便搜索引擎排在最前面。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#6 imicksoft&lt;/strong&gt;：这里有些也发不出来，要求改掉再发&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#7 409164&lt;/strong&gt;：能看得懂就看，看不懂就问（就像你应该对待任何你不懂的事那样），上来就骂只会自降品格&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#8 3DSecure&lt;/strong&gt;：有太监基因&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#9 ysxb1145&lt;/strong&gt;：V 站有敏感词库，但是不知道是什么，发了就会一段时间你这个 IP403 ，或者账号降权&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#10 Danswerme&lt;/strong&gt;：@&lt;a href="/member/409164"&gt;409164&lt;/a&gt;  我再次阅读了我的帖子标题和正文，没有在里面找到任何你提到的“骂”字眼。 最为严厉的词语是“自我阉割”，这个词语用来描述一种心理状态，属于观点表达而非人身攻击。 &lt;br/&gt;&lt;br/&gt;请问你说的“上来就骂”具体体现在哪里？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#11 Danswerme&lt;/strong&gt;：@&lt;a href="/member/409164"&gt;409164&lt;/a&gt;  如果“自我阉割”这个词让你感到冒犯，那不是我的本意。 我想讨论的是这个现象本身。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#12 vz685&lt;/strong&gt;：鸡吧一旦被割掉，是不会再长出来的。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#13 How&lt;/strong&gt;：语言是思维的边界，不然 d 和 zf 为什么要大费周章河蟹你呢，今天你敢想，明天就要讨论，后天你就要 gm 。😋&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#14 8byte&lt;/strong&gt;：自我审查机制内化了，这难道不是 CCP 愿意看到的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#15 409164&lt;/strong&gt;：@&lt;a href="/member/Danswerme"&gt;Danswerme&lt;/a&gt; #9 目标人群是的确在这么做的人，并非特指 op&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#16 Rab&lt;/strong&gt;：心墙&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#17 alexluo1&lt;/strong&gt;：说明这些人肉身在国内，这是一种由不透明审查环境塑造的自我审查习惯，兼具条件化回避、寒蝉效应和群体语言规范。&lt;br/&gt;&lt;br/&gt;寒蝉效应（ Chilling Effect ）是一个法律与社会学名词，指人们因恐惧潜在的法律制裁、高额赔偿或行政打压而产生的自我审查或回避行为。即使相关言论并未被明文禁止，公众也会因过度担忧而选择“噤若寒蝉”。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#18 ndxxx&lt;/strong&gt;：它们彻底被阉割了，还不自知。&lt;br/&gt;&lt;br/&gt;而且最好笑的是，不少这种钛键谜语人被其他网友指出来之后，居然还不觉得丢人😁&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#19 ixcode&lt;/strong&gt;：遇到这种自我阉割的太监行为，心情好的时候直接开骂，心情不好直接拉黑&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#20 Ericcccccccc&lt;/strong&gt;：v 站也有敏感词（我理解这是站长为了论坛管理方便设置的）&lt;br/&gt;&lt;br/&gt;但很多人用缩写确实莫名其妙&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#21 js9528&lt;/strong&gt;：看这那么多指桑骂槐，希望以后站长改进&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#22 Lyet813&lt;/strong&gt;：因为挨打成了习惯，所以每次看见别人举起手都要躲闪一下&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#23 NewMoorj&lt;/strong&gt;：本站有事实上的违禁词机制。&lt;br/&gt;&lt;br/&gt;并不像你认为的：本站不在中国大陆备案，站长人也在境外，所以没有违禁词机制。&lt;br/&gt;&lt;br/&gt;对于站长为什么做这个设定，以前也讲过：帖子惹出事端，收律师函的是他，不是发帖人。&lt;br/&gt;&lt;br/&gt;站长不想莫名其妙替人去对抗什么东西，不满意的可以自己开个论坛随便发。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#24 Dispatcher&lt;/strong&gt;：目前，没见过有谁敢把国歌歌词完整版，以及 xian 法完整版一字不改，不缩写的发出来呢。&lt;br/&gt;&lt;br/&gt;毕竟那也是违法和不和谐之物。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#25 Danswerme&lt;/strong&gt;：@&lt;a href="/member/Dispatcher"&gt;Dispatcher&lt;/a&gt;  测试：  宪法&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#26 mackyuqi&lt;/strong&gt;：看这种缩写有时候没翻译过来是什么词，感觉还不如都替换成英语算了，检测的时候应该只检测中文吧&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 13 Jun 2026 03:05:48 +0000</pubDate></item><item><title>有人需要换汇吗？</title><link>https://www.v2ex.com/t/1220095</link><description>&lt;p&gt;美股不能投资了。把几万块钱现在转出到香港银行卡上了，但是转到国内比较麻烦，而且手续费也比较高，我看了下 wise 上面，基本要损失 1% 左右，想问下有老哥需要换汇吗？大概就是：你在境内（最好杭州，面对面），想转钱到香港卡，那我可以用香港卡转你，你国内再给我钱。有需要可以联系：amFtZXNqaWFuZ3g=&lt;/p&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 saving&lt;/strong&gt;：1 个点还高啊，我们做外贸的汇损都是 5 个点&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#2 lxxiil&lt;/strong&gt;：拿来刷卡消费就行&lt;/p&gt;&lt;hr/&gt;
@@ -89,126 +462,9 @@
 &lt;p&gt;&lt;strong&gt;#28 xing7673&lt;/strong&gt;：你能上 V2EX 为什么不能投资美股？&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#29 kumiko&lt;/strong&gt;：你们好黑啊，我和朋友对敲都是按汇率中间价来的&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#30 SunnyFeng&lt;/strong&gt;：疯了，违法行为还在论坛里公开讨论&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#31 rozbo&lt;/strong&gt;：疯了吧。。。你转给别人有没有考虑过别人会被质询甚至清退，香港对这种不能说明来源的陌生人转账查的比内地严多了。&lt;br/&gt;而别人冒这么大风险，你 1 个点都显贵。。。离了个大谱&lt;br/&gt;最简单就是绑微信支付宝 200 以内免手续费，顶多有汇损。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 13 Jun 2026 01:58:32 +0000</pubDate></item><item><title>Anthropic 因美国政府要求，关闭了所有外国公民的 Fable 5/ Mythos 5 的访问权限</title><link>https://www.v2ex.com/t/1220089</link><description>&lt;p&gt;&lt;img alt="" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://i.v2ex.co/4vLp3643.jpeg"/&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.anthropic.com/news/fable-mythos-access" rel="nofollow"&gt;https://www.anthropic.com/news/fable-mythos-access&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;在美国境内的外国人也不行，不知道他们要怎么识别。&lt;/p&gt;
-&lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-06-13 10:44:50 +08:00"&gt;7h 37m ago&lt;/span&gt;
-
-There's an issue with the selected model (claude-fable-5). It may not exist or you may not have access to it. Run /model to pick a different model.&lt;br/&gt;&lt;br/&gt;下周工作要受影响了，opus 4.7/4.8 比 GPT 5.5 差一点
-
-&lt;hr/&gt;
-Supplement 2  ·  &lt;span title="2026-06-13 11:17:11 +08:00"&gt;7h 5m ago&lt;/span&gt;
-&lt;a href="/i/MJyJCBoD.png" rel="nofollow noopener" target="_blank" title="在新窗口打开图片 MJyJCBoD.png"&gt;&lt;img referrerpolicy="no-referrer" src="//i.v2ex.co/MJyJCBoD.png"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;第三方云厂商也关闭了
-
-&lt;hr/&gt;
-Supplement 3  ·  &lt;span title="2026-06-13 14:53:17 +08:00"&gt;3h 29m ago&lt;/span&gt;
-&lt;a href="/i/tKt2icu1.png" rel="nofollow noopener" target="_blank" title="在新窗口打开图片 tKt2icu1.png"&gt;&lt;img referrerpolicy="no-referrer" src="//i.v2ex.co/tKt2icu1.png"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;周六还挺热闹
-
-&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;#1 kulove&lt;/strong&gt;：RNM 退钱！&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#2 kulove&lt;/strong&gt;：最近不是开始 kyc 了么 可以获取到国籍吧&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#3 lemoncoconut&lt;/strong&gt;：&lt;a href="https://i.imgur.com/n5AH4d7.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/n5AH4d7.png"/&gt;&lt;/a&gt;&lt;br/&gt;@&lt;a href="/member/Grok"&gt;Grok&lt;/a&gt;, is it true?&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#4 lvye&lt;/strong&gt;：@&lt;a href="/member/kulove"&gt;kulove&lt;/a&gt; 但是没有办法限制 api 或者部署到其它云服务厂商的模型&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#5 jamme&lt;/strong&gt;：Including foreign national Anthropic employees. &lt;a href="https://i.imgur.com/agAJ0Rd.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/agAJ0Rd.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#6 alexluo1&lt;/strong&gt;：一觉醒来天塌了，火速申请退款&lt;br/&gt;&lt;br/&gt;Claude Fable 5 is currently unavailable. Please use Opus 4.8 or another available model. Learn more: &lt;a href="https://www.anthropic.com/news/fable-mythos-access" rel="nofollow noopener" target="_blank"&gt;https://www.anthropic.com/news/fable-mythos-access&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#7 e23nome&lt;/strong&gt;：人家企业对政府百依百顺，为啥呢？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#8 YanSeven&lt;/strong&gt;：还好我昨天忍住了，没有升级到 200 美元的套餐&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#9 kingfire&lt;/strong&gt;：啊这，一定是体制的问题&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#10 gpt5&lt;/strong&gt;：整天他妈故弄玄虚&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#11 fds&lt;/strong&gt;：我看这说的是所有人都不让用了？不过我试了下目前还能选。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#12 wdv2ly&lt;/strong&gt;：试了，可以正常用啊&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#13 lvye&lt;/strong&gt;：@&lt;a href="/member/jamme"&gt;jamme&lt;/a&gt; 想想就好笑，内部员工也不给用&lt;br/&gt;&lt;br/&gt;@&lt;a href="/member/fds"&gt;fds&lt;/a&gt; 现在是还可以用，感觉没有彻底落地或者堵死&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#14 bush911&lt;/strong&gt;：这煞笔公司，一直对它没好感。那怕再先进，我还是退而求其次吧&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#15 x86&lt;/strong&gt;：账户套餐都是美国公司员工买的，嘎嘎稳定，ip 乱飞都没事&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#16 kingfire&lt;/strong&gt;：已经用不了了，A➗A➗&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#17 saltbo&lt;/strong&gt;：⏺ There's an issue with the selected model (claude-fable-5). It may not exist or you may not have access to it. Run /model to pick a different model.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;我正在跑的 session 都直接给我中断了，服了。昨天刚升级的 20x 套餐，淦&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#18 qiaobeier&lt;/strong&gt;：@&lt;a href="/member/fds"&gt;fds&lt;/a&gt; 能选不能用&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#19 jacketma&lt;/strong&gt;：这几家头部 AI 大模型公司都有内部模型（不公开的那种），能力远超市售模型（ OpenAI 证明埃尔德什猜想的模型就是不公开的），军用级的你别拿出来卖不就好了。&lt;br/&gt;Anthropic 这种做法确实吊胃口啊，你不市售大家不知道也就算了，拿出来晃一下，有收回去，耍猴啊&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#20 Magicdove&lt;/strong&gt;：经典 A\操作&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#21 beginor&lt;/strong&gt;：美国政府会赔钱么？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#22 x86&lt;/strong&gt;：回帖完就嘎了&lt;br/&gt;There's an issue with the selected model (claude-fable-5). It may not exist or you may not have access to it.&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#23 jsq2627&lt;/strong&gt;：还好早上刚用 fable 把手上最难的两个 bug 修复了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#24 billzhuang&lt;/strong&gt;：早上立刻爬起来，干了 4 个大 PR ，哈哈哈哈&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#25 jacketma&lt;/strong&gt;：@&lt;a href="/member/jsq2627"&gt;jsq2627&lt;/a&gt; 感觉以后“美国码农”要出 Fable 代干服务了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#26 liuxm6&lt;/strong&gt;：好幽默，这操作。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#27 kingfire&lt;/strong&gt;：现在是所有人都用不了 fable ，美国人也用不了&lt;br/&gt;&lt;br/&gt;As a result of a US government directive, we are suspending access to Claude Fable 5 for all users. You can continue to use all other Claude models.&lt;br/&gt;&lt;br/&gt;&lt;a href="https://x.com/ClaudeDevs/status/2065597942602531163" rel="nofollow noopener" target="_blank"&gt;https://x.com/ClaudeDevs/status/2065597942602531163&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#28 leegradyllljjjj&lt;/strong&gt;：现在要手持身份证验证，搞得跟裸贷一样，普通用户就是臭外地要饭的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#29 someonelikeyouah&lt;/strong&gt;：已经下了，美国人也不让用&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#30 syyyyy&lt;/strong&gt;：桌面版直接所有会话不能用了，只能用终端跑了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#31 NewYear&lt;/strong&gt;：“美国是一个开放的国家，&lt;br/&gt;&lt;br/&gt;其成功背后的重要因素之一便是开放性和包容性。”&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#32 409164&lt;/strong&gt;：幽默 A 畜&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#33 iyeatse&lt;/strong&gt;：天塌了，我攒着周限就等着周末用 fable 5 把我的疑难问题解决掉，结果 fable 用不了，credit 也重置了，错失一个亿&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#34 Y25tIGxpdmlk&lt;/strong&gt;：感觉这玩意从一开始就是拿出来给大家装逼的，因为大趋势干不过 openai 了，然后又想装个大 B ，就拿出来给大家试用一下，装一波。然后自导自演说政府合规要求，不给用了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#35 None123&lt;/strong&gt;：真的出生&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#36 burden7&lt;/strong&gt;：打开一看 心凉了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#37 forisra&lt;/strong&gt;：总算干点正经事了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#38 stararenas&lt;/strong&gt;：无论如何都是好事，Claude 我之前开了 Max 5X 深度用了一个月，基本全程都在帮倒忙，感觉比 Gemini 都垃圾多了，不如 Codex 一点，6 月 9 日刚到期，我已经决定 ban 了它了。它现在禁止非美国公民用，可以有效避免中国人上当，大家应该感到高兴。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#39 kingfire&lt;/strong&gt;：4.8 太蠢了，修改 bug 能在基本的错误上错一次，然后自相矛盾一次。claude 真是用不了一点&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#40 409164&lt;/strong&gt;：这下好了，A 畜自毁武功，OpenAI 不用降价也能揽走客户了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#41 so898&lt;/strong&gt;：笑死，A\最终被自己的宣传反杀了，以后就在美国境内局域网好好玩吧&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#42 ymlluo&lt;/strong&gt;：能用的时候蹬了一波，这算不算赚到了&lt;br/&gt; &lt;a href="https://i.imgur.com/gmlMmaE.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/gmlMmaE.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#43 lifei6671&lt;/strong&gt;：@&lt;a href="/member/e23nome"&gt;e23nome&lt;/a&gt; 美国政府还是不行，应该学西朝鲜，先备案再发布。&lt;a href="https://i.imgur.com/rjR4rdr.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/rjR4rdr.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#44 8byte&lt;/strong&gt;：fabel 5 相比 opus 4.8 也没高出一个量级，该蠢的地方一个都没少&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#45 tanglinchuanz&lt;/strong&gt;：经典借口 national security&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#46 pnczk2019&lt;/strong&gt;：发布前 应该先拿到什么 版权号 .什么 许可证..就没这么多 不合法合规了嘛.坑货.&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#47 andforce&lt;/strong&gt;：艹，能要求退钱吗。。。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#48 Sezxy&lt;/strong&gt;：吹太过了，引起美国政府的注意&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#49 Alloyt&lt;/strong&gt;：支持 anthropic ，不能让 ccp 获得顶级模型的机会&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#50 Ace518&lt;/strong&gt;：用不了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#51 ndxxx&lt;/strong&gt;：辣鸡 claude ，被自己的宣传反噬了。&lt;br/&gt;&lt;br/&gt;不过大家别慌，咱老中马上就有官方背景的 LLM 可用了，东大，未来可期😁&lt;br/&gt;&lt;br/&gt;&lt;a href="https://i.imgur.com/xqADkBj.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/xqADkBj.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#52 Nzelites&lt;/strong&gt;：实际上除了中美有 ai 外其它地方基本都没有吧 最慌的还不算我们了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#53 skadi&lt;/strong&gt;：glm 抓住机会一下发布了 fuck5&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#54 x4gz&lt;/strong&gt;：低端用户表示 GPT5.5 就够用了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#55 GeminiPro&lt;/strong&gt;：这就是 A/自导自演，归根结底就是个假旗行动。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#56 dearmymy&lt;/strong&gt;：我靠 至于么，还没来得及用就下了。这模型能牛到需要管控么。。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#57 sxw11&lt;/strong&gt;：垃圾公司 活该&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#58 nakun233&lt;/strong&gt;：@&lt;a href="/member/ymlluo"&gt;ymlluo&lt;/a&gt; cursor 用户什么收蹭都不亏！这等于白嫖了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#59 nakun233&lt;/strong&gt;：Hello, what utter nonsense to have to remove Fable 5 from Cursor and other IDEs. This means the state is having too much of a negative impact on global developments. This mistake must be rectified immediately, and powerful tools such as Fable 5 must be made freely available. In a democracy, I find this move by the government deeply concerning; it restricts the freedom of citizens far too severely.&lt;br/&gt;你好，真要命，居然得从 Cursor 和其他 IDE 中移除 Fable 5 。这意味着现状对全球发展产生了太多的负面影响。这个错误必须立即纠正，像 Fable 5 这样的强大工具必须免费提供。在民主国家，我认为政府的这一举动令人深感担忧；它严重限制了公民的自由。&lt;br/&gt;You can buy weapons designed for killing almost anywhere. Yet powerful digital tools are ‘banned’ for the people. I simply cannot understand that.&lt;br/&gt;你几乎可以在任何地方购买专门用于杀戮的武器。然而，强大的数字工具却被禁止给人民使用。我简直无法理解这一点。&lt;br/&gt;&lt;br/&gt;刚看到论坛有人发这个，最后一句崩不住&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#60 gogozs&lt;/strong&gt;：相信国家，相信政府！&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#61 wskymark&lt;/strong&gt;：给盘古吓到了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#62 hello2090&lt;/strong&gt;：@&lt;a href="/member/nakun233"&gt;nakun233&lt;/a&gt; 美国人不能用了吗？还能用吧。美国人能买枪能用 AI,外国人只能买枪不能用 AI,悲哀在哪里&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#63 nakun233&lt;/strong&gt;：@&lt;a href="/member/hello2090"&gt;hello2090&lt;/a&gt; 现在是全世界都停权了，美国人也不用能(暂时&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 13 Jun 2026 01:36:32 +0000</pubDate></item><item><title>大家用 codex 的时候没有觉得界面很卡吗</title><link>https://www.v2ex.com/t/1220086</link><description>&lt;p&gt;不知道是我个人感觉还是啥，感觉整个 codex 界面非常卡顿，思考的时间也很长，经常出现 time out 的情况，这是正常情况吗？&lt;/p&gt;
-&lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-06-13 11:35:34 +08:00"&gt;6h 47m ago&lt;/span&gt;
-
-看了下大家的回复，看来是一个共性问题，codex app windows 端的优化极差，基本是不可用状态
-
-&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;#1 journalistFromHK&lt;/strong&gt;：我是刚启动的时候会很卡,输入法切换也有问题&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#2 Zoopen&lt;/strong&gt;：没有哎，是不是 t 的问题&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#3 liuxm6&lt;/strong&gt;：没有呢，不觉得卡，是用的官方的通道么？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#4 han3sui&lt;/strong&gt;：windwos 感觉挺卡的，思考的时候，打开的时候，处理文件的时候，生成图片的时候，都卡卡的，不知道和应用商店版本有没有关系&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#5 qgewfg&lt;/strong&gt;：是 Intel Mac 吗？之前站里有讨论过 desktop 卡的问题，可以参考下&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#6 qgewfg&lt;/strong&gt;：&lt;a href="https://v2ex.com/t/1216077#reply20" rel="nofollow noopener" target="_blank"&gt;https://v2ex.com/t/1216077#reply20&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#7 anivie&lt;/strong&gt;：tui 没感觉有卡顿&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#8 susandownes&lt;/strong&gt;：Windows 端一直没人权，整个界面特别是刚启动总是慢半拍。time out 没遇到过，可能楼主网络问题&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#9 tojohnonly&lt;/strong&gt;：Windows11 .codex 文件夹 1 个 G 左右，每次启动固定要快 10 秒才能界面准备好可以输入文字&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#10 hay0577&lt;/strong&gt;：你们都用的官方的 codex 吗 有没有好用的中转站推荐啊&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#11 hustfox&lt;/strong&gt;：windows 感觉很卡，而且每次提问都要 reconnect 好几次才行，macOS 就不用，启动快，一次就能快速回答&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#12 femsdfq&lt;/strong&gt;：刚开会卡，用一会儿就不会了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#13 1450232082&lt;/strong&gt;：包卡的，做的不行&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#14 programApe&lt;/strong&gt;：windos 和 mac 都在用，windows 明显的卡顿，codex 和 claude code 都这样，所以我在 mac 上一般都用客户端，在 windows 上都是命令行。多 agent 任务的时候更是卡的不要不要的。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#15 paranoiagu&lt;/strong&gt;：我以为是我的电脑太老😳&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#16 xiaoyuanei668&lt;/strong&gt;：卡&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#17 Y25tIGxpdmlk&lt;/strong&gt;：用 chatgpt 才是真的卡&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#18 haisua&lt;/strong&gt;：windows 客户端的话，一直都很卡，刚启动那会儿还行，很快就 CPU 飙升&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#19 Feedmo&lt;/strong&gt;：只用过 windows 的 codex 客户端，确实卡，一会尝试用 codex-cli 试试，我觉得如果大多数场景能覆盖的话哪个流畅就用哪个了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#20 msg7086&lt;/strong&gt;：卡爆了，我(Windows)和同事(macOS)都觉得卡爆了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#21 huijian222&lt;/strong&gt;：@&lt;a href="/member/journalistFromHK"&gt;journalistFromHK&lt;/a&gt; #1 +1 我也会这样，而且不仅仅是 codex windows 桌面端  codex ubuntu cli 也会这样。。 应该是他每次重启都会索引一遍对话&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#22 pxlxh&lt;/strong&gt;：上下文长了就卡&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#23 baba5&lt;/strong&gt;：上下文长了就卡，一旦生几张图那更是直接卡死&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#24 deplives&lt;/strong&gt;：你说 Windows 啊，二等公民没人关心的，macOS 无感&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#25 chunqiuyiyu&lt;/strong&gt;：codex 的桌面端基本上是不可用的状态。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#26 aarones&lt;/strong&gt;：这都是老问题了，codex Windows 一直都这么卡，chatgpt 网页版也一样&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#27 ca2oh4&lt;/strong&gt;：在 win10 用过一次 codex 桌面版，个人感觉就像个 ppt 一样&lt;br/&gt;&lt;br/&gt;codex 不是号称 rust 写的吗，也不过如此啊&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#28 xjpz&lt;/strong&gt;：MacBookPro M1 Pro,也卡，甚至点击左侧项目会话直接卡死。而且 GPT 占用资源也较高。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#29 distleilei&lt;/strong&gt;：win 的 codex 巨卡&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#30 qian88199496&lt;/strong&gt;：我反而感觉豆包的 app 更卡&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#31 Orenoid&lt;/strong&gt;：@&lt;a href="/member/ca2oh4"&gt;ca2oh4&lt;/a&gt; rust 说的应该是 codex cli 吧，cli 是开源的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#32 asuraa&lt;/strong&gt;：electron 写的 不卡才怪了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#33 barathrum&lt;/strong&gt;：跟 kiro/antigravity 比确实卡的批爆，但是和 opencode 比我感觉差不多。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#34 nnnnnnamgn&lt;/strong&gt;：win 版卡，mac 版启动的时候卡一会，上下文长了也卡&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#35 bowencool&lt;/strong&gt;：mac 版挺丝滑&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#36 bowencool&lt;/strong&gt;：@&lt;a href="/member/bowencool"&gt;bowencool&lt;/a&gt; 我认为“慢”不属于“卡”的范畴&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#37 xubeiyou&lt;/strong&gt;：Mac 会的  我觉得最卡的还是 chatgpt 特么的 是真的不顺滑  m5pro 48g 版本且公司都是外网  以及我 Codex 上下文一多真的很卡好慢啊- -&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 13 Jun 2026 00:59:26 +0000</pubDate></item></channel></rss>
+&lt;p&gt;&lt;strong&gt;#31 rozbo&lt;/strong&gt;：疯了吧。。。你转给别人有没有考虑过别人会被质询甚至清退，香港对这种不能说明来源的陌生人转账查的比内地严多了。&lt;br/&gt;而别人冒这么大风险，你 1 个点都显贵。。。离了个大谱&lt;br/&gt;最简单就是绑微信支付宝 200 以内免手续费，顶多有汇损。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#32 2ruowqe9r&lt;/strong&gt;：@&lt;a href="/member/luck2023"&gt;luck2023&lt;/a&gt; 现在只能卖出了，不能买进了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#33 YFZZ&lt;/strong&gt;：这属于为了省小钱冒大风险的行为……&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#34 chempotato&lt;/strong&gt;：熊猫速汇适合你&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#35 handwork&lt;/strong&gt;：加微信验证一直没动静……&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#36 shijingshijing&lt;/strong&gt;：开个港卡，直接 FPS ，0 手续费&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 13 Jun 2026 01:58:32 +0000</pubDate></item></channel></rss>
