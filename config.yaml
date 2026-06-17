@@ -31,6 +31,8 @@ feeds:
   - name: "dianying4k"
     url: "rsshub://telegram/channel/dianying4K"
     translate: false
+    # 只保留含网盘下载链接的资源贴，自动剔除广告（多为博彩 emoji 标题，无规律）和预告/官宣/特辑等非资源贴
+    filter_in_content: ["pan.quark.cn", "pan.baidu.com", "pan.xunlei.com", "115cdn.com"]
   - name: "v2ex-hot"
     url: "rsshub://v2ex/topics/hot"
     fetch_full_content: true
