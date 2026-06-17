@@ -31,6 +31,7 @@
   filter_out: ["关键词"]     # 可选，标题含任一关键词则排除
   filter_in: ["关键词"]      # 可选，标题含任一关键词才保留（白名单）
   filter_out_content: ["关键词"] # 可选，正文含任一关键词则排除
+  filter_in_content: ["关键词"]  # 可选，正文含任一关键词才保留（正文白名单）
   summarize_title: true     # 可选，长标题总结为简短中文短语（≤15字）
   images_only: true         # 可选，正文只保留图片，去掉所有文字
   text_only: true           # 可选，正文去掉所有图片，只保留文字
@@ -70,7 +71,8 @@
 - **HTML 清理** — 去掉 CSS class、简化 `<picture>` 为 `<img>`、展开无用 `<span>`/`<div>` wrapper，让 RSS 阅读器渲染更干净
 - **标题总结** — `summarize_title` 用 DeepSeek 将长描述压缩为简短中文标题，适用于图片分享类 feed（如 some.pics），原始描述翻译后放入正文
 - **纯图模式** — `images_only` 配合 `summarize_title` 使用，正文只保留 `<img>` 标签，去掉所有文字，适用于 Pixelfed 等摄影类 feed
-- **关键词过滤** — `filter_out` 按标题排除、`filter_in` 按标题白名单保留、`filter_out_content` 按正文排除，用于去广告和不需要的内容类型（如 B 站视频嵌入）
+- **关键词过滤** — `filter_out` 按标题排除、`filter_in` 按标题白名单保留、`filter_out_content` 按正文排除、`filter_in_content` 按正文白名单保留，用于去广告和不需要的内容类型（如 B 站视频嵌入）
+- **正文白名单去广告** — `filter_in_content` 用于「广告无规律、但想要的内容有共同正文特征」的源。典型是 4K影视屋 Telegram（dianying4k）：广告多为博彩 emoji 标题（😂😂😂 / 🤩🤩 / Y3国际 / 6G.COM 等），标题毫无规律，黑名单是打地鼠；而真正的资源贴正文必带网盘下载链接。于是反向白名单 `filter_in_content: ["pan.quark.cn", "pan.baidu.com", "pan.xunlei.com", "115cdn.com"]`，只保留含网盘链接的条目，一条规则同时干掉广告 + 预告/官宣/特辑等非资源贴，且对未来新广告形态天然免疫。比按标题 `filter_in: ["名称"]` 更稳——少数从二级频道转发的资源贴标题没有「名称：」前缀，但正文一样有网盘链接，不会误删。`filter_in`/`filter_in_content` 触发时 `max_entries=None`（扫描源返回的全部条目，因为白名单会大幅缩减数量）
 - **分类过滤** — `filter_category` 按 RSS `<category>` 精确保留，注意部分第三方 feed 服务（如 feed.luobo8.com）不含 category 标签，此时应改用 `filter_in` 按标题过滤
 - **纯文字模式** — `text_only` 在 `fix_image_tags` 之后剥掉所有 `<img>`，适用于图片源防盗链无解、只想看文字的站点
 - **图片自托管** — `self_host_images` 适用于源站图片 CDN 防盗链严格、`referrerpolicy="no-referrer"` 也救不回来的源（如少数派 `cdnfile.sspai.com`，源站不接受空 Referer）。开启后在 `fix_image_tags` 之后把正文图片下载到 `feeds/images/{name}/`，下载时带源站 Referer 绕过防盗链，`<img src>` 改写为 GitHub Pages URL。文件名为图片 URL 的 md5，已下载的命中缓存跳过。图片清理用**保留期**机制（`SELF_HOST_RETENTION_DAYS`，默认 30 天）：图片滚出 feed 窗口后不立即删，再保留 30 天才删——因为 RSS 阅读器（Reeder 等）会长期缓存历史条目、仍指着这些本地图，删早了老文章图片就 404（少数派踩过的坑）。每张图最后一次出现在 feed 的日期记在 `feeds/images/{name}/.image_manifest.json`（CI 每次全新 clone，文件 mtime 不可靠，保留期只能靠它自己持久化）。这点不同于豆瓣海报的「离榜即删」。下载失败则保留原直链，下次运行重试

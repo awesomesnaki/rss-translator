@@ -608,9 +608,16 @@ def translate_feed(feed_config, cache):
     filter_out = feed_config.get('filter_out', [])
     filter_out_content = feed_config.get('filter_out_content', [])
     filter_in = feed_config.get('filter_in', [])
+    filter_in_content = feed_config.get('filter_in_content', [])
     filter_category = feed_config.get('filter_category')
-    max_entries = None if filter_in else (50 if (entry_filter or filter_out or filter_out_content or filter_category) else 5)
+    max_entries = None if (filter_in or filter_in_content) else (50 if (entry_filter or filter_out or filter_out_content or filter_category) else 5)
     entries = feed.entries[:max_entries] if max_entries else feed.entries
+
+    def get_entry_content(e):
+        if 'content' in e:
+            return e.content[0].get('value', '')
+        return e.get('summary', '')
+
     if entry_filter:
         entries = apply_entry_filter(entries, entry_filter)
         print(f"  过滤后保留 {len(entries)} 条 (类型: {entry_filter})")
@@ -620,16 +627,16 @@ def translate_feed(feed_config, cache):
         print(f"  标题过滤: {before} → {len(entries)} 条")
     if filter_out_content:
         before = len(entries)
-        def get_entry_content(e):
-            if 'content' in e:
-                return e.content[0].get('value', '')
-            return e.get('summary', '')
         entries = [e for e in entries if not any(kw in get_entry_content(e) for kw in filter_out_content)]
         print(f"  正文过滤: {before} → {len(entries)} 条")
     if filter_in:
         before = len(entries)
         entries = [e for e in entries if any(kw in e.get('title', '') for kw in filter_in)]
         print(f"  标题保留: {before} → {len(entries)} 条 (关键词: {filter_in})")
+    if filter_in_content:
+        before = len(entries)
+        entries = [e for e in entries if any(kw in get_entry_content(e) for kw in filter_in_content)]
+        print(f"  正文保留: {before} → {len(entries)} 条 (关键词: {filter_in_content})")
     if filter_category:
         before = len(entries)
         wanted = [filter_category] if isinstance(filter_category, str) else list(filter_category)
