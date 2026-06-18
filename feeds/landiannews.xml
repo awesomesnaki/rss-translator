@@ -1,5 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 18 Jun 2026 02:55:59 +0000</lastBuildDate><item><title>Codex团队已按约定重置当周配额 但因为时间重叠所以额外赠送1次手动重置机会</title><link>https://www.landian.news/archives/113542.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 18 Jun 2026 07:21:06 +0000</lastBuildDate><item><title>黑客利用壁纸引擎和Steam创意工坊发布美女图 实际暗藏木马窃取Steam账号</title><link>https://www.landian.news/archives/113546.html</link><description>
+&lt;p&gt;#安全资讯 有黑客在 Steam 创意工坊发布大量适用于壁纸引擎的美女图 (擦边内容) 吸引用户下载，里面暗藏后门程序用来窃取玩家的 Steam 账号。此次攻击受害者主要都是在中国，黑客还会使用窃取的 Steam 账号继续在创意工坊里发布内容，因此即便账号被封也能利用其他账号继续发，然后窃取更多账号。查看详情：https://ourl.co/113546&lt;/p&gt;&lt;p&gt;卡巴斯基实验室日前发布报告称从 2025 年年底开始黑客就在利用壁纸引擎 (Wallpaper Engine) 和 Steam 创意工坊传播病毒，壁纸引擎可以将视频或其他动态内容设置壁纸，该软件在 Steam 平台非常受欢迎，而用户则可以自己制作适用于壁纸引擎的主题包发布到 Steam 创意工坊，其他用户可以通过创意工坊下载主题包直接使用。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113546.png" rel="nofollow"&gt;&lt;img alt="黑客利用壁纸引擎和Steam创意工坊发布美女图 实际暗藏木马窃取Steam账号" data-src="https://img.lancdn.com/landian/2026/06/113546.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113546.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;卡巴斯基实验室追踪的数据表明，自 2025 年年底开始黑客就将后门程序伪装为游戏主题、系统监控小工具以及部分可能有点擦边球的壁纸，其中部分壁纸非常受欢迎，而用户安装黑客制作的主题包后则会感染后门程序，黑客使用后门程序窃取玩家的 Steam 账号密码，还有些玩家电脑甚至被安装挖矿程序。&lt;/p&gt;
+&lt;p&gt;部分恶意主题包的下载量超过 1,000 次，个别非常受欢迎的恶意主题包下载次数甚至超过 10,000 次，卡巴斯基的数据显示受害者主要集中在中国和俄罗斯，其中中国用户占比高达 89%，俄罗斯用户占比为 5.5%，其他国家或地区的受害者相对来说就非常少。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;黑客在主题包中添加受感染的 EXE、DLL 或脚本，或将恶意文件放在加密压缩包里，通过壁纸名称或 JSON 配置文件明文提示密码，诱导用户使用压缩管理器解压文件或自动运行，当壁纸运行时也会在后台释放后门程序，然后窃取 Steam 登录凭证发送到黑客控制的 C2 服务器。&lt;/p&gt;
+&lt;p&gt;黑客服务器使用的 IP 地址为 120.48.156.17 (百度云计算) 和 202.144.192.29 (香港 IPTELEGRAM 东京数据中心)，同时黑客还会使用 Dropbox 和谷歌文档用来提供恶意软件包落地页下载，在卡巴斯基向 Steam 报告问题后，Steam 已经删除部分包含恶意程序的主题包。&lt;/p&gt;
+&lt;p&gt;然而黑客目前还在继续发布更多恶意主题包，尤其是利用已经成功窃取的 Steam 账号发布恶意主题包，这样即便一个或多个账号被 Steam 封禁，黑客也可以继续传播恶意软件，卡巴斯基建议用户下载任何文件都要进行安全扫描，Steam 创意工坊的内容是由用户制作上传的，并非 Steam 官方或游戏 / 软件开发商发布，所以安全性是个问题。&lt;/p&gt;
+&lt;p aria-label="活动推荐"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;活动推荐终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Thu, 18 Jun 2026 07:21:06 +0000</pubDate></item><item><title>诺和诺德被黑后续：黑客要求2500万美元赎金但被拒绝 准备出售司美格鲁肽数据</title><link>https://www.landian.news/archives/113545.html</link><description>
+&lt;p&gt;#安全资讯 诺和诺德被黑后续：黑客窃取超过 1.3TB 数据，包括司美格鲁肽机密数据，索要 2,500 万美元被拒绝，黑客准备公开出售司美格鲁肽药物数据。在谈判破裂后黑客称实际窃取的数据高达 1.3TB，包括诺和诺德未发布的药物配方和用于发现药物的 AI 模型，但 2,500 万美元也确实是狮子大开口。查看详情：https://ourl.co/113545&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/113486.html" rel="noopener" target="_blank"&gt;早前丹麦制药公司诺和诺德遭到黑客攻击&lt;/a&gt;，诺和诺德就是知名减重药物司美格鲁肽的研发公司，所幸诺和诺德并未收集消费者信息所以没有消费者信息泄露，但对诺和诺德来说这回是损失惨重，因为该公司内部用于发掘药物的人工智能模型相关数据被窃取，如果竞争对手拿到这些数据可能会给诺和诺德的竞争力造成影响。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113486-1.png" rel="nofollow"&gt;&lt;img alt="诺和诺德被黑后续：黑客要求2500万美元赎金但被拒绝 准备出售司美格鲁肽数据" data-src="https://img.lancdn.com/landian/2026/06/113486-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113486-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;蓝点网最初的报道仅提到诺和诺德 AI 模型数据和部分容器数据被窃取，不过现在黑客正在公布更多数据，具体来说黑客从诺和诺德内部系统合计窃取高达 1.3TB 的数据 (尽管很多都是容器镜像)，关键在于诺和诺德未发布的药物配方和 AI 模型被窃取，这些数据如果泄露的话将对诺和诺德造成严重打击。&lt;/p&gt;
+&lt;p&gt;而黑客希望诺和诺德支付 2,500 万美元的赎金换取这些数据保密，对诺和诺德来说 2,500 万美元并不是特别巨大的款项，但放在整个勒索软件行业里 2,500 万美元也是极高的数字，这种狮子大开口般的要价被诺和诺德拒绝倒是可以理解的，按理说诺和诺德应该与黑客谈判压低赎金才对。&lt;/p&gt;
+&lt;p&gt;然而现在谈判似乎已经破裂，黑客决定在暗网中出售司美格鲁肽相关的机密数据，司美格鲁肽专利已经在 2026 年春季到期，其他制药公司确实可以利用相关技术制造司美格鲁肽替代品，但仿制药毕竟比不上原研药，而原研药机密数据如果被泄露，那仿制药就可能根据数据研发药效更好的版本。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;黑客倒是也透露如何黑掉诺和诺德：诺和诺德的 GitHub 仓库中存在遗留的私有令牌，黑客发现令牌后立即潜伏到诺和诺德内部系统并获得关键权限，此时诺和诺德作废私有令牌后也无济于事，而且黑客直接在诺和诺德内部系统里潜伏长达两个月。&lt;/p&gt;
+&lt;p&gt;为什么潜伏如此长的时间或许是黑客正在耐心收集环境数据，而不是一开始就直接窃取数据并外传，这样诺和诺德的防火墙可能会检测到异常并立即触发调查，黑客在收集必要的环境数据后觉得时机成熟，随后开始行动并窃取海量数据外传，当诺和诺德发现时为时已晚，数据已经被窃取。&lt;/p&gt;
+&lt;p aria-label="活动推荐"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;活动推荐终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Thu, 18 Jun 2026 05:47:03 +0000</pubDate></item><item><title>OpenAI成为Rust基金会白金赞助商 每年赞助32.5万美元 额外赞助27.5万美元</title><link>https://www.landian.news/archives/113544.html</link><description>
+&lt;p&gt;#行业资讯 OpenAI 成为 Rust 基金会的白金级赞助商，每年支付 32.5 万美元会费，同时额外捐赠 27.5 万美元。这笔合计 60 万美元的赞助将用来支持 Rust 项目目标、为广泛依赖的 Rust 项目维护者提供支持。查看详情：https://ourl.co/113544&lt;/p&gt;&lt;p&gt;日前知名编程开发语言 Rust 背后的非营利管理机构 Rust 基金会宣布，领先的人工智能研究和部署公司 OpenAI 已经成为该基金会的白金级赞助商，白金赞助商的年费是 32.5 万美元，OpenAI 还额外提供一次性的 27.5 万美元赞助，此次合作 OpenAI 合计提供 60 万美元的赞助。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113544.png" rel="nofollow"&gt;&lt;img alt="OpenAI成为Rust基金会白金赞助商 每年赞助32.5万美元 额外赞助27.5万美元" data-src="https://img.lancdn.com/landian/2026/06/113544.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113544.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这笔 60 万美元的赞助款主要用于对 Rust 语言生态系统维护者工作的支持，通过持续支持维护者、技术重点和关键项目来加强 Rust 生态系统，Rust 基金会称 OpenAI 的追加捐赠将支持基金会旗下的众多项目，包括 Rust 项目目标、Rust 创新实验室、为 Rust 生态系统重广泛依赖的项目维护者提供直接、结构化支持的新兴项目。&lt;/p&gt;
+&lt;p&gt;Rust 基金会称，可持续维护是人工智能系统背后安全可靠的软件基础设施基石，OpenAI 决定加入 Rust 基金会并支持多种 Rust 项目的关键优先事项，充分展示 OpenAI 支持开源领域的决心，这可以帮助 Rust 变得更加完善并造福所有人。&lt;/p&gt;
+&lt;p&gt;Rust 社区的长期成员、cargo-semver-checks 维护者 Predrag Gruevski 将加入 Rust 基金会董事会，担任 OpenAI 的白金赞助商代表。&lt;/p&gt;
+&lt;p aria-label="活动推荐"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;活动推荐终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Thu, 18 Jun 2026 05:29:05 +0000</pubDate></item><item><title>iPhone 18涨价已经不可避免 蒂姆库克称内存价格飙涨导致苹果承担极高的压力</title><link>https://www.landian.news/archives/113543.html</link><description>
+&lt;p&gt;#手机数码 iPhone 18 系列涨价已经不可避免，蒂姆库克称内存价格飙涨导致苹果承担极高的压力。此前有消息称 iPhone 18 系列起售价不会上涨，因为苹果会独自消化零部件成本上涨带来的压力以便获得更高的市场份额，但现在这种猜测被证实是错误的，因为库克强调涨价是不可避免的，其他产品例如 MacBook 可能也会涨价。查看详情：https://ourl.co/113543&lt;/p&gt;&lt;p&gt;苹果将在秋季发布会中推出 iPhone 18 系列，此前有传闻称苹果会尽可能保持产品价格的平稳以吸引消费者购买，因为其他智能手机制造商都因为内存和存储芯片价格飙涨而纷纷提高产品价格，如果苹果能够继续提供平稳的价格那对消费者的吸引力来说会更高，这也会帮助苹果获得更高的市场份额，但这种猜测可能是错误的，或者说苹果准备改变策略。&lt;/p&gt;
+&lt;figure&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/09/110622.png" rel="nofollow"&gt;&lt;img alt="iPhone 18涨价已经不可避免 蒂姆库克称内存价格飙涨导致苹果承担极高的压力" data-src="https://img.lancdn.com/landian/2025/09/110622.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/09/110622.png"/&gt;&lt;/a&gt;&lt;figcaption&gt;配图为iPhone 17 Pro Max&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;苹果现任首席执行官蒂姆库克在接受华尔街日报电话采访时透露，苹果正在尽最大努力减轻零部件价格上涨造成的巨大压力，苹果希望保护客户而不是将上游零部件涨价转嫁给消费者，然而这种情况已经难以为继，不幸的是，价格上涨是不可避免的。&lt;/p&gt;
+&lt;p&gt;蒂姆库克还补充说，苹果已经主动承担 2026 年零部件价格上涨的成本，不过库克没有具体说明哪些产品会涨价、可能会涨价多少，但从目前情况来看后续无论是 iPhone 18 系列还是 MacBook 系列可能都会涨价，尤其是苹果需要配备更大的内存用来在本地运行 AI 模型。&lt;/p&gt;
+&lt;p&gt;目前行业猜测是 iPhone 18 价格可能会比 iPhone 17 高出 200 美元，这部分上涨的成本很大程度上都是内存价格飙涨导致的，即便像是苹果这种利润率超高的公司，也难以独自承担高价内存芯片带来的成本上涨，所以苹果最终也会选择将部分成本转嫁到消费者的头上。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;近期确实有传闻称 iPhone 18 系列起售价与 iPhone 17 系列相同，就是本文开头所说的，苹果希望通过更平稳的销售价格提升销量和获得更高的市场占有率，但是蒂姆库克即将退休，约翰特纳斯将在 9 月成为苹果首席执行官，而秋季新品发布会也将由约翰特纳斯主持。&lt;/p&gt;
+&lt;p&gt;或许是苹果不希望新首席执行官刚上任就落个背刺用户的名声，所以现在蒂姆库克在离任退休前对价格问题进行澄清，到时候 iPhone 18 系列发布后涨价也不至于让约翰特纳斯太难堪。&lt;/p&gt;
+&lt;p aria-label="活动推荐"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;活动推荐终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Thu, 18 Jun 2026 05:14:32 +0000</pubDate></item><item><title>Codex团队已按约定重置当周配额 但因为时间重叠所以额外赠送1次手动重置机会</title><link>https://www.landian.news/archives/113542.html</link><description>
 &lt;p&gt;#人工智能 Codex 团队已按约定重置当周配额，但因重置时间重叠，所以额外赠送 1 次手动重置机会。此次全量重置与大多数用户自然周刷新时间差不多 (蓝点网原本是今晚 21 点刷新)，作为补偿，Codex 在早上 8 点左右重置后，额外赠送手动重置机会，开发者可以在当周额度耗尽后手动点击重置就能满血复活。查看详情：https://ourl.co/113542&lt;/p&gt;&lt;p&gt;前天夜里 Codex 发生短时间故障影响开发者的正常使用，所以在修复问题后 Codex 开发团队称将按照惯例为所有付费订阅用户提供重置，这次故障的重置时间是 6 月 18 日早晨 8 点左右，而很多用户正常的自然周刷新就是今天 (例如蓝点网本周自然刷新时间是今天 21 点)，所以重置没有给开发者带来多少额度上的好处。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113542-1.png" rel="nofollow"&gt;&lt;img alt="Codex团队已按约定重置当周配额 但因为时间重叠所以额外赠送1次手动重置机会" data-src="https://img.lancdn.com/landian/2026/06/113542-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113542-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -9,74 +50,4 @@
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;当开发者当前账户当周额度用尽并且距离下次自然重置时间还有几天的时候，开发者就可以转到 Codex 桌面版里进行重置，重置后当周使用额度会立即恢复到 100%，开发者可以在下次自然重置前将这些新额度全部用尽，真正做到物尽其用。&lt;/p&gt;
 &lt;p aria-label="活动推荐"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;活动推荐终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 18 Jun 2026 02:55:59 +0000</pubDate></item><item><title>阿里云法国巴黎和马来西亚柔佛州数据中心正式开服 合计新增4个可用区</title><link>https://www.landian.news/archives/113541.html</link><description>
-&lt;p&gt;#云计算 阿里云法国巴黎和马来西亚柔佛州数据中心正式开服，每个数据中心提供 2 个可用区，合计新增 4 个可用区。在法国巴黎凡尔赛举办的 VivaTech 峰会中，阿里云宣布这些数据中心开服，不过开服初期支持的产品不同，主流服务例如服务器类都支持，部分服务暂时还未上线。查看详情：https://ourl.co/113541&lt;/p&gt;&lt;p&gt;日前 VivaTech 峰会正在法国巴黎凡尔赛举办，期间阿里巴巴旗下的云计算平台阿里云宣布，阿里云位于法国巴黎的新数据中心正式开服，阿里云巴黎数据中心提供 2 个可用区，为国际客户在欧洲拓展业务和欧洲本土客户提供强有力的云计算支持。同时开服的还有阿里云位于马来西亚柔佛州的数据中心，该数据中心同样提供 2 个可用区。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113541.png" rel="nofollow"&gt;&lt;img alt="阿里云法国巴黎和马来西亚柔佛州数据中心正式开服 合计新增4个可用区" data-src="https://img.lancdn.com/landian/2026/06/113541.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113541.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;地域名称：法国巴黎 / 马来西亚柔佛州&lt;/li&gt;
-&lt;li&gt;地域代号：eu-west-2 (西欧 2) /ap-southeast-8 (东南亚 8)&lt;/li&gt;
-&lt;li&gt;可用区数量：2 / 2&lt;/li&gt;
-&lt;li&gt;可用区代号：eu-west-2a /eu-west-2b /ap-southeast-8a /ap-southeast-8b&lt;/li&gt;
-&lt;li&gt;数据中心属性：独立运营 / 非合作伙伴运营&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;阿里云巴黎数据中心目前仅提供云服务器、对象存储、容器镜像服务、容器服务 Kubernetes、块存储、文件存储、表格存储、日志服务、负载均衡、弹性公网 IP、云数据传输、专有网络、NAT 网关、高速通道、VPN 网关、密钥管理服务、可观测监控、云数据库、系统运维管理、操作审计。&lt;/p&gt;
-&lt;p&gt;阿里云柔佛州数据中心提供云服务器、对象存储、云企业网、容器计算服务、弹性容器实例、容器镜像服务、容器服务、块存储、表格存储、云备份、日志服务、转发路由器、高速通道、VPN 网关、密钥管理服务、可观测监控、云数据库、云原生多模数据库、云原生数据仓库、智算服务、系统运维管理、操作审计。&lt;/p&gt;
-&lt;p&gt;这些数据中心会在后续陆续提供更多阿里云服务，客户在选择这些数据中心时最好提前查看支持的所有服务，以免部分服务暂时还未上线影响到正常业务，具体可以在阿里云全球基础设施总览页面查看每个数据中心支持的具体服务清单。&lt;/p&gt;
-&lt;p aria-label="活动推荐"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;活动推荐终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 17 Jun 2026 08:30:19 +0000</pubDate></item><item><title>[下载] 开源虚拟机VirtualBox v7.2.10版发布 初步支持Linux Kernel 7.1</title><link>https://www.landian.news/download/113564.html</link><description>
-&lt;p&gt;#软件下载 开源虚拟机软件 VirtualBox v7.2.10 版发布，初步支持 Linux Kernel 7.1 版内核。此次更新还是维护更新，也就是聚焦于修复已知问题和提升兼容性、稳定性，修复的杂项包括 VMM、EFI、USB、存储、网络等等，使用 VBox 的用户可以下载最新版覆盖升级。下载地址：https://ourl.co/113564&lt;/p&gt;&lt;p&gt;甲骨文旗下的开源虚拟机软件 VirtualBox 日前发布新的维护版本，新版本为 v7.2.10 版，该版本聚焦于修复已知问题和提升兼容性，同时也初步支持 Linux Kernel 7.1，使用该虚拟机的用户可以前往官网下载最新版覆盖安装 / 更新。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2023/10/100730.png" rel="nofollow"&gt;&lt;img alt="[下载] 开源虚拟机VirtualBox v7.2.10版发布 初步支持Linux Kernel 7.1" data-src="https://img.lancdn.com/landian/2023/10/100730.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2023/10/100730.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;虚拟机监视器：修复 CentOS 10 虚拟机无法启动的问题，出现 CPU 不支持的错误&lt;/li&gt;
-&lt;li&gt;EFI 设备：修复 Arm 虚拟机内存小于 1024MiB 时无法启动的问题&lt;/li&gt;
-&lt;li&gt;USB 支持：修复 macOS 26.4.1 上的 Headless 虚拟机无法附加 USB 设备的问题&lt;/li&gt;
-&lt;li&gt;存储设备：修复 VIRTIO-SCSI 设备在客户机中无法被识别为 SSD 的问题&lt;/li&gt;
-&lt;li&gt;网络：修复 E1000 仿真代码中的多个问题，包括触发调试日志和导致 OS/2 客户机无法启动的问题&lt;/li&gt;
-&lt;li&gt;Linux 主机：修复内核 oops 导致虚拟机无法启动的问题&lt;/li&gt;
-&lt;li&gt;内核支持：初步支持 Linux Kernel 7.1 版&lt;/li&gt;
-&lt;li&gt;其他：改进 Wayland 下剪贴板共享支持，修复新内核下的 vboxvideo 模块构建问题&lt;/li&gt;
-&lt;li&gt;其他：修复共享文件夹自动挂载和剪贴板共享失效的问题&lt;/li&gt;
-&lt;li&gt;其他：本次更新还包含对 openSUSE 16.0、RHEL 9.8 等发行版的额外修复&lt;/li&gt;
-&lt;li&gt;下载地址：&lt;a href="https://www.landian.news/go?url=https://www.virtualbox.org/wiki/Downloads" rel="noopener" target="_blank"&gt;https://www.virtualbox.org/wiki/Downloads&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p aria-label="活动推荐"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;活动推荐终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 17 Jun 2026 08:00:26 +0000</pubDate></item><item><title>狗听了都摇头：欧洲云计算大厂Hetzner宣布服务器涨价 最高涨幅173%(月)</title><link>https://www.landian.news/archives/113523.html</link><description>
-&lt;p&gt;#云计算 狗听了都摇头：欧洲云计算大厂 Hetzner 宣布调整服务器价格，涨幅最高 173%，服务器真成传家宝了。此次调整涉及 Hetzner 多个区域、多种类型的实例，包括云服务器和独立服务器，但是！现有实例不涨价，新开通的实例、现有实例调整配置都会按照新价格计算。查看详情：https://ourl.co/113523&lt;/p&gt;&lt;p&gt;欧洲知名云计算服务提供商 Hetzner 日前发布文档宣布对云服务器和独立服务器价格进行调整，此次调整仅影响新实例，现有用户已经部署的实例可以继续以原价续费，但如果用户升级或调整配置导致产生新订单，则按照调整后的服务器价格进行计费，相信我看到价格涨幅你们肯定不会调整配置的。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2024/11/106851.png" rel="nofollow"&gt;&lt;img alt="狗听了都摇头：欧洲云计算大厂Hetzner宣布服务器涨价 最高涨幅173%(月)" data-src="https://img.lancdn.com/landian/2024/11/106851.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2024/11/106851.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;根据 Hetzner 发布的文档，此次调整涉及多个区域的云服务器和独立服务器，其中共享 CPU 套餐实例涨幅高达 150% 以上，专用 CPU 套餐涨幅高达 170% 以上，入门级套餐虽然涨幅不如前者那么大，但也有 30% 以上，这种价格涨幅会直接劝退准备购买新服务器的用户，幸好现有服务器实例价格不变，但这意味着用户不能再调整实例规格。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;共享 CPX22：原价 7.99 欧元或 9.49 美元 / 月，新价 19.49 欧元或 22.99 美元 / 月，涨幅约为 144%&lt;/li&gt;
-&lt;li&gt;共享 CPX32：原价 13.99 欧元或 15.99 美元 / 月，新价 35.49 欧元或 41.99 美元 / 月，涨幅约为 154%&lt;/li&gt;
-&lt;li&gt;共享 CPX42：原价 25.49 欧元或 29.99 美元 / 月，新价 69.49 欧元或 81.99 美元 / 月，涨幅约为 173%&lt;/li&gt;
-&lt;li&gt;专用 CCX13：原价 15.99 欧元或 18.49 美元 / 月，新价 42.99 欧元或 50.49 美元 / 月，涨幅约为 169%&lt;/li&gt;
-&lt;li&gt;专用 CCX23：原价 31.49 欧元或 36.99 美元 / 月，新价 85.99 欧元或 101.49 美元 / 月，涨幅约为 173%&lt;/li&gt;
-&lt;li&gt;专用 CCX33：原价 62.49 欧元或 73.99 美元 / 月，新价 138.49 欧元或 162.99 美元 / 月，涨幅约为 122%&lt;/li&gt;
-&lt;li&gt;入门 CX23：原价 3.99 欧元或 4.99 美元 / 月，新价 5.49 欧元或 6.49 美元 / 月，涨幅约为 38%&lt;/li&gt;
-&lt;li&gt;入门 CAX11：原价 4.49 欧元或 5.49 美元 / 月，新价 5.99 欧元或 6.99 美元 / 月，涨幅约为 33%&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;云服务器：德国 FSN 法尔肯施泰因、德国 NBG 纽伦堡&lt;/li&gt;
-&lt;li&gt;云服务器：芬兰 HEL 赫尔辛基&lt;/li&gt;
-&lt;li&gt;云服务器：美国 ASH 阿什本、美国 HIL 希尔斯伯勒&lt;/li&gt;
-&lt;li&gt;云服务器：新加坡 SIN&lt;/li&gt;
-&lt;li&gt;独服裸服：德国 FSN 法尔肯施泰因&lt;/li&gt;
-&lt;li&gt;独服裸服：德国 NBG 纽伦堡&lt;/li&gt;
-&lt;li&gt;独服裸服：芬兰 HEL 赫尔辛基&lt;/li&gt;
-&lt;li&gt;涨价时间：2026 年 6 月 15 日&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Sources：&lt;a href="https://www.landian.news/go?url=https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/#cloud-servers" rel="noopener" target="_blank"&gt;Hetzner Docs&lt;/a&gt;、&lt;a href="https://www.landian.news/go?url=https://www.nodeseek.com/post-778119-1" rel="noopener" target="_blank"&gt;NodeSeek&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="活动推荐"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;活动推荐终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 17 Jun 2026 07:30:35 +0000</pubDate></item><item><title>Sub2Api新版本新增Codex重置功能 但用户操作时需看清楚避免误点导致额度作废</title><link>https://www.landian.news/archives/113522.html</link><description>
-&lt;p&gt;#软件资讯 开源中转站项目 Sub2Api 新版本新增 Codex 重置功能，可以查询当前剩余重置次数和直接重置当前配额。功能很好但用户在操作时应当仔细查看各个按钮，因为点击重置后会立即重置额度，如果当前额度没用完就不慎点击重置那就血亏了。这个功能不需要用户通过 Codex 查询重置次数和执行重置操作，所以还是比较方便的。查看详情：https://ourl.co/113522&lt;/p&gt;&lt;p&gt;开源中转站项目 Sub2Api 在最新推出的 v0.1.137 中带来 Codex 重置功能，用户可以查询已经绑定的 ChatGPT OAuth 账号当前剩余的重置次数，有重置次数的情况下用户可以直接点重置按钮进行当周额度重置，这个功能让用户不需要在 Codex 桌面版里查询重置次数和进行重置操作。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;对于刚刚升级新版本看到重置按钮的用户，可能会好奇点击次数查询和重置按钮，但如果当前确实有重置次数那点击后就会重置，如果当前额度还未用完就直接重置那就是血亏，所以用户在操作前务必仔细查看各个按钮。&lt;/p&gt;
-&lt;p&gt;按照新版本的设计逻辑，用户需要先点击次数查询看看当前是否有剩余次数，在没有查询剩余次数的情况下无法点击重置按钮，这个逻辑应该也可以避免大多数用户出现误操作。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113522.png" rel="nofollow"&gt;&lt;img alt="Sub2Api新版本新增Codex重置功能 但用户操作时需看清楚避免误点导致额度作废" data-src="https://img.lancdn.com/landian/2026/06/113522.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113522.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="活动推荐"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;活动推荐终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 17 Jun 2026 07:00:32 +0000</pubDate></item></channel></rss>
+</description><pubDate>Thu, 18 Jun 2026 02:55:59 +0000</pubDate></item></channel></rss>
