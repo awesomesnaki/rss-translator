@@ -1,5 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 22 Jun 2026 03:00:18 +0000</lastBuildDate><item><title>Gemini CLI停止处理个人账户请求 用户需更换为反重力CLI 但企业用户不受影响</title><link>https://www.landian.news/archives/113559.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 22 Jun 2026 05:21:11 +0000</lastBuildDate><item><title>NGINX新漏洞曝光 这次涉及HTTP/3 QUIC 但总体来说仍然不用慌</title><link>https://www.landian.news/archives/113595.html</link><description>
+&lt;p&gt;#安全资讯 F5 发布 NGINX 新版本用于修复 HTTP/3 QUIC 模块中的安全漏洞，极端情况下可能会触发远程代码执行，但总体来说问题不是很大。虽然这次爆出的新漏洞影响很多典型 NGINX 配置，然而前提是 ASLR 要被禁用或绕过 (难度很大)，典型 Linux 系统默认开启 ASLR 所以 NGINX 的漏洞并不容易被触发。查看全文：https://ourl.co/113595&lt;/p&gt;&lt;p&gt;F5 公司日前发布 NGINX 的新安全公告并披露 CVE-2026-42530 和 CVE-2026-42055 漏洞，前者有可能会导致远程代码执行，后者在常规情况下可以触发崩溃导致拒绝服务，但在某些极端的情况下可能导致远程代码执行，和此前漏洞略有不同的是，大多数典型 NGINX 配置可能都会受 CVE-2026-42530 影响，不过可以开启 ASLR 进行缓解。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src="https://img.lancdn.com/landian/2025/08/110209.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/08/110209.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;漏洞编号：&lt;a href="https://www.landian.news/go?url=https://my.f5.com/manage/s/article/K000161616" rel="noopener" target="_blank"&gt;K000161616&lt;/a&gt; / CVE-2026-42530&lt;/li&gt;
+&lt;li&gt;模块说明：HTTP/3 QUIC 模块的释放后使用问题，模块为 ngx_http_v3_module&lt;/li&gt;
+&lt;li&gt;漏洞说明：未经认证的攻击者可以通过特制 HTTP/3 请求触发进程重启，在 ASLR 被禁用或绕过的情况下 RCE&lt;/li&gt;
+&lt;li&gt;影响版本：NGINX 1.31.0~1.31.1&lt;/li&gt;
+&lt;li&gt;修复版本：NGINX 1.30.3 / 1.31.2 (发布于 2026 年 6 月 17 日)&lt;/li&gt;
+&lt;li&gt;触发条件：必须显式启用 HTTP/3 QUIC 或启用 HTTP/3 模块&lt;/li&gt;
+&lt;li&gt;缓解方案：立即升级 1.31.2 + 版，或禁用 HTTP/3，或完整开启 ASLR 功能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;漏洞编号：&lt;a href="https://www.landian.news/go?url=https://my.f5.com/manage/s/article/K000161584" rel="noopener" target="_blank"&gt;K000161584&lt;/a&gt; / CVE-2026-42055&lt;/li&gt;
+&lt;li&gt;模块说明：ngx_http_proxy_v2_module /ngx_http_grpc_module 堆缓冲区溢出&lt;/li&gt;
+&lt;li&gt;漏洞说明：攻击者可以发送超大或异常的 HTTP Header 在特定条件下触发崩溃，极端情况下 RCE&lt;/li&gt;
+&lt;li&gt;影响版本：NGINX 1.31.0~1.31.1&lt;/li&gt;
+&lt;li&gt;修复版本：NGINX 1.30.3 / 1.31.2 (发布于 2026 年 6 月 17 日)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;满足代理 HTTP/2 或 gRPC 、ignore_invalid_headers off、large_client_header_buffers 大于 2MB 才能触发&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;缓解方案：立即升级 1.30.3 / 1.31.2 版&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;此前 NGINX 被爆出多个高危漏洞，这些漏洞多数都是 AI 发现的，&lt;a href="https://www.landian.news/archives/113106.html" rel="noopener" target="_blank"&gt;但漏洞被公开后就有安全研究员吐槽这些漏洞利用条件都比较极端&lt;/a&gt;，也就是大多数典型配置中压根不会触发漏洞。而此次爆出的漏洞中，CVE-2026-42530 影响范围更大，因为现在已经有很多网站启用 HTTP/3 QUIC (蓝点网服务器也已经启用)。&lt;/p&gt;
+&lt;p&gt;当然并不是说启用 HTTP/3 就会被利用，因为利用前提是 ASLR 被禁用或被成功绕过，而典型的 Linux 配置是开启 ASLR 的，例如蓝点网使用的 Debian 13 默认就是开启 ASLR 的，这种情况下黑客还需要想办法绕过 ASLR 才行 (难度更大)，所以即便没有升级也不是特别大的问题。&lt;/p&gt;
+&lt;p&gt;只不过如果可以的话还是尽早升级到不受影响的版本，毕竟没人知道这些旧版本里是否还会包含其他更容易被利用的漏洞，所以能升级肯定还是优先升级，不能升级再考虑其他缓解措施例如禁用 HTTP/3 或开启 ASLR 功能。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;# 使用命令
+cat /proc/sys/kernel/randomize_va_space
+# 或使用命令
+sysctl kernel.randomize_va_space
+# 返回结果如下
+0 = 禁用 ASLR
+1 = 部分启用
+2 = 完整启用&lt;/pre&gt;
+&lt;p aria-label="活动推荐"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;活动推荐终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 22 Jun 2026 05:21:11 +0000</pubDate></item><item><title>UniFi推出基于ZFS的企业级NAS服务器 采用3U设计16盘位和25GbE光口</title><link>https://www.landian.news/archives/113594.html</link><description>
+&lt;p&gt;#硬件设备 UniFi 推出基于 ZFS 存储系统的企业级 NAS 服务器，裸机售价 4,000 美元，配备 64GB ECC 内存，基于 Arm 平台。这款 ENAS 为 3U 机架设计，提供 16 盘位 + 2 盘位 NVMe SSD 做缓存，配备 2 个 25GbE SFP28 光口模块，不限制客户使用任何硬盘品牌或型号，不需要支付 UniFi 许可费用。查看全文：https://ourl.co/113594&lt;/p&gt;&lt;p&gt;知名网络设备制造商 Ubiquiti (UniFi 是其品牌) 日前推出基于 ZFS 存储系统的 NAS 服务器，这款服务器主要面向企业客户提供，采用 3U 机架式设计，提供 16 盘位并且不会限制客户使用任何硬盘 (&lt;a href="https://www.landian.news/archives/110830.html" rel="noopener" target="_blank"&gt;显然这里是蛐蛐群晖的&lt;/a&gt;)，采用的处理器则是基于 Arm 架构的，不过对于 NAS 来说这种处理器性能也是足够的。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113594-1.png" rel="nofollow"&gt;&lt;img alt="UniFi推出基于ZFS的企业级NAS服务器 采用3U设计16盘位和25GbE光口" data-src="https://img.lancdn.com/landian/2026/06/113594-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113594-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113594-2.png" rel="nofollow"&gt;&lt;img alt="UniFi推出基于ZFS的企业级NAS服务器 采用3U设计16盘位和25GbE光口" data-src="https://img.lancdn.com/landian/2026/06/113594-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113594-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113594-3.png" rel="nofollow"&gt;&lt;img alt="UniFi推出基于ZFS的企业级NAS服务器 采用3U设计16盘位和25GbE光口" data-src="https://img.lancdn.com/landian/2026/06/113594-3.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113594-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113594-4.png" rel="nofollow"&gt;&lt;img alt="UniFi推出基于ZFS的企业级NAS服务器 采用3U设计16盘位和25GbE光口" data-src="https://img.lancdn.com/landian/2026/06/113594-4.png" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113594-4.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113594-5.png" rel="nofollow"&gt;&lt;img alt="UniFi推出基于ZFS的企业级NAS服务器 采用3U设计16盘位和25GbE光口" data-src="https://img.lancdn.com/landian/2026/06/113594-5.png" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113594-5.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;底层系统：基于开源的 ZFS 存储系统&lt;/li&gt;
+&lt;li&gt;核心数量：8 颗 Arm Neoverse N2 内核 (基于 Armv9-A)&lt;/li&gt;
+&lt;li&gt;内存总量：64GB ECC 内存&lt;/li&gt;
+&lt;li&gt;缓存系统：提供 2 个 NVMe SSD 盘位，可选购买固态盘作为缓存&lt;/li&gt;
+&lt;li&gt;硬盘数量：3.5'' 盘位，共有 16 盘位，没有硬盘锁定政策&lt;/li&gt;
+&lt;li&gt;最大容量：可扩展到 1PB 甚至更高的存储容量&lt;/li&gt;
+&lt;li&gt;网络模块：配备 2 个 25GbE SFP28 光口 + 1 个 10GbE 电口&lt;/li&gt;
+&lt;li&gt;电源模块：提供冗余电源模块增强可靠性&lt;/li&gt;
+&lt;li&gt;授权费用：支持使用 UniFi 进行免许可管理，无需授权费&lt;/li&gt;
+&lt;li&gt;平台兼容：原生 iSCSI 共享块存储、兼容 PVE、VMware 和 Hyper-V 集群&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这款企业级 NAS 服务器的主要特点在于可以直接与 UniFi 平台进行集成，这意味着企业可以使用 UniFi 简化管理、配置跨团队的数据可见性、为文件存储 / 数据共享 / 备份提供集中的数据存储位置，UniFi ENAS 也为客户提供安全访问权限，客户可以使用 ENAS 与现有的身份验证提供商集成，从而使用基于角色的访问控制，在确保安全性的同时简化用户管理。&lt;/p&gt;
+&lt;p&gt;既然是定位企业级因此这款 ENAS 价格自然不会便宜，裸机售价 4,000 美元，客户需要自备机柜、机械硬盘、NVMe 固态硬盘以及光网设备，不过对使用 UniFi 的企业来说这应该不是问题，毕竟可以与 UniFi 集成，如果本来就已经使用 UniFi 的产品，那配合这款 ENAS 相对来说也会更方便。&lt;/p&gt;
+&lt;p aria-label="活动推荐"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;活动推荐终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 22 Jun 2026 04:42:28 +0000</pubDate></item><item><title>有传闻称AMD计划再次提高RX9000系列显卡价格 原因是显存价格继续上涨</title><link>https://www.landian.news/archives/113560.html</link><description>
+&lt;p&gt;#硬件设备 有传闻称 AMD 计划在 3 季度对 RX9000 系列显卡涨价，涨幅在 10%~15% 左右，涨价原因还是因为内存 / 显存价格持续上涨。发布该消息的源网站 GAZLOG 称，目前涨价只是在计划中并非最终定论，因为显卡价格过高势必会影响销量，此前也出现过涨价后部分显卡滞销的情况。查看全文：https://ourl.co/113560&lt;/p&gt;&lt;p&gt;科技网站 GAZLOG 发布的消息称，AMD 计划在 2026Q3 再次调整消费级显卡价格，此次调整涨幅预计为 10%~15%，涨价原因则是 AMD 预计显存芯片将在下半年继续涨价，这会直接导致显卡制造成本上涨，AMD 需要将这部分成本转嫁给消费者以确保利润率。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113560.png" rel="nofollow"&gt;&lt;img alt="有传闻称AMD计划再次提高RX9000系列显卡价格 原因是显存价格继续上涨" data-src="https://img.lancdn.com/landian/2026/06/113560.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113560.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在 2026 年上半年消费级显卡价格调整已经非常常见，我们已经看到 AMD 和英伟达因显存芯片涨价而提高出厂价格，下游 AIC 制造商也会跟着提价，最终到消费者环节就是显卡价格越来越高，尤其是高性能显卡的价格持续上涨，而配备大容量显存的显卡价格涨幅更加夸张。&lt;/p&gt;
+&lt;p&gt;人工智能基础设施对芯片的需求量非常高导致目前整个供应链都非常缺货，像是 SK 海力士等都在优先将产能转移到 AI 服务器使用的 HBM 芯片上，这导致面向普通消费级产品的内存 / 显存芯片供应量受限，制造商必须支付更高的价格才能获得内存芯片，当然即便支付高价也可能无法满足长期需求。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;GAZLOG 称 AMD 的涨价目前还在计划中而非最终定论，考虑到市场竞争问题，AMD 可能会谨慎调整消费级产品价格，因为目前英伟达似乎没有计划再次对消费级显卡涨价，当然即便不涨价现在高性能显卡的价格也同样非常高，对游戏玩家来说现在的局面是非常让人难受的。&lt;/p&gt;
+&lt;p&gt;显卡涨价对制造商来说也是问题，因为大多数用户不会购买超过 500 美元的显卡，因此价格过高就会导致显卡滞销，此前就曾出现过部分中高端显卡涨价后出现滞销的情况，最终零售商只能以折扣的形式降价以回收成本，当然零售商是不可能亏损的，最多也就是将价格降到显卡原本的建议零售价附近。&lt;/p&gt;
+&lt;p aria-label="活动推荐"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;活动推荐终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 22 Jun 2026 04:12:34 +0000</pubDate></item><item><title>Gemini CLI停止处理个人账户请求 用户需更换为反重力CLI 但企业用户不受影响</title><link>https://www.landian.news/archives/113559.html</link><description>
 &lt;p&gt;#软件资讯 谷歌 Gemini CLI 停止处理来自个人账户的请求，用户必须迁移到反重力 CLI。从 6 月 19 日开始 Gemini CLI 不再向个人用户提供服务，开通谷歌 AI 订阅的个人用户都必须迁移到反重力 CLI，但持有 Gemini Code Assist 和通过 API 验证的企业用户暂时还可以继续使用。查看全文：https://ourl.co/113559&lt;/p&gt;&lt;p&gt;此前谷歌已经提前发布通知将逐渐废弃 Gemini CLI 工具，谷歌的目的是将开发者陆续转移到反重力 CLI 工具，坊间也有传闻称这是谷歌内部斗争的结果，也就是反重力团队在斗争中获胜并占据主动权，问题在于反重力 CLI 无法提供所有 Gemini CLI 的功能，所以开发者是做不到平滑迁移的。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/113006.png" rel="nofollow"&gt;&lt;img alt="Gemini CLI停止处理个人账户请求 用户需更换为反重力CLI 但企业用户不受影响" data-src="https://img.lancdn.com/landian/2026/05/113006.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/113006.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -21,77 +91,4 @@
 &lt;p&gt;谷歌为开发者提供手势验证的根本目的就是对抗越来越强的基于人工智能技术的机器人，这类机器人可以轻松破解传统的图片 (红绿灯) 和文字验证码，而基于摄像头的验证方式绕过难度会非常高，首先设备需要摄像头或者模拟摄像头，其实就是上传手部视频。&lt;/p&gt;
 &lt;p&gt;理论上说通过模拟接口上传视频也是可以的，但谷歌应该也做了防御性处理，不至于可以如此简单地绕过，只不过这类对抗机制仍然会被破解，对机器人操纵者来说绕过难度会增加但绝对不是完全无法绕过的。&lt;/p&gt;
 &lt;p aria-label="活动推荐"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;活动推荐终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 22 Jun 2026 02:30:37 +0000</pubDate></item><item><title>遭到社区强烈反对后 AMD将为消费级RYZEN处理器恢复TSME加密功能</title><link>https://www.landian.news/archives/113557.html</link><description>
-&lt;p&gt;#硬件设备 遭到社区强烈批评后 AMD 决定恢复 RYZEN 消费级处理器的 TSME 透明安全内存加密功能，预计将随着 7 月 UEFI 固件更新重新推送给用户。此前有用户发现 AMD 在 4 月发布的固件更新中禁用 RYZEN 消费级处理器的 TSME，且 AMD 事前和事后都没有发布任何公告，这种不透明的做法引起社区广泛批评。查看全文：https://ourl.co/113557&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/113487.html" rel="noopener" target="_blank"&gt;此前有加密技术爱好者发现 AMD 通过固件更新悄悄禁用 RYZEN 消费级处理器的 TSME 透明安全内存加密功能&lt;/a&gt;，该功能最初是 AMD 为商用和工作站处理器提供的技术，虽然 AMD 从未说过会支持消费级处理器，但本身消费级处理器也提供这个功能而且可以通过固件更新获得支持。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113557.png" rel="nofollow"&gt;&lt;img alt="在遭到社区强烈反对后 AMD将为消费级RYZEN处理器恢复TSME加密功能" data-src="https://img.lancdn.com/landian/2026/06/113557.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113557.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;AMD 在 4 月份发布的 AGESA 微代码更新中禁用消费级 RYZEN 处理器的 TSME 功能，微代码随着主板 BIOS 固件或 UEFI 更新下发，所以在没有任何通知的情况下 AMD 禁用 TSME 并且事后也没有发布任何公告。甚至 AMD 都没有通知主板制造合作伙伴，以至于最先发现这个问题的网友与 MSI 微星工程师花费大量时间测试不同的主板和 CPU 最终确认这不是主板问题。&lt;/p&gt;
-&lt;p&gt;在用户联系 AMD 报告故障时才知道原来这是 AMD 主动禁用的，但是 AMD 工程师甚至表示 AMD 从未说过此功能支持 RYZEN 消费级处理器 (但这也是事实)，只不过 TSME 对于内存数据安全来说还是非常重要的，用户批评 AMD 的做法并对比英特尔处理器，英特尔在消费级酷睿处理器上提供类似的全内存加密功能 TME-MK，不局限于商用处理器。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;引起社区关注和批评后日前 AMD 宣布将通过新的 UEFI 固件更新重新为消费级 RYZEN 处理器提供 TSME 相关选项，AMD 称此次决定是基于社区宝贵反馈而做出的，预计会从 7 月开始提供新的 UEFI 固件更新，到时候主板制造商会发布相应的 BIOS 固件更新，用户安装固件更新后就可以在 BIOS 里重新启用 TSME。&lt;/p&gt;
-&lt;p&gt;AMD 也重申这项加密功能在 RYZEN PRO 产品线上会提供长期支持，AMD 称该技术是 RYZEN PRO 桌面与移动平台的基础安全功能，目前以及未来 AMD 都没有计划在 RYZEN PRO 产品线中移除 TSME 的支持，所以使用商用和工作站处理器的用户也无需担心 TSME 被删除。&lt;/p&gt;
-&lt;p aria-label="活动推荐"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;活动推荐终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 22 Jun 2026 02:00:37 +0000</pubDate></item><item><title>CO和COM.CO域名从7月1日再次大幅度涨价 单个域名涨价5美元 建议提前续费</title><link>https://www.landian.news/archives/113556.html</link><description>
-&lt;p&gt;#域名资讯 哥伦比亚国别顶级域名 CO 和 COM.CO 域名自 7 月 1 日起再次大幅度涨价，其中 CO 域名涨价幅度为 20%，COM.CO 域名涨价幅度为 50%。在国别顶级域名里敢这样涨价也是非常让人惊讶的，毕竟又不是热门域名，涨价后 CO 域名注册或续费价达到 31 美元，持有这些域名的用户建议尽早续费。查看全文：https://ourl.co/113556&lt;/p&gt;&lt;p&gt;CO 域名是哥伦比亚的国别顶级域名，COM.CO 则是 CO 域名下的子域名，目前负责这些域名的运营方再次宣布涨价，此次涨价将从 2026 年 7 月 1 日开始，每个域名的年注册或续费价涨价 5 美元，这个价格涨幅在国别域名里已经算是很大的了，不知道这家注册局哪来的底气。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113556.png" rel="nofollow"&gt;&lt;img alt="CO和COM.CO域名从7月1日再次大幅度涨价 单个域名涨价5美元 建议提前续费" data-src="https://img.lancdn.com/landian/2026/06/113556.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113556.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;原注册或续费价：CO 域名为 25.98 美元，COM.CO 域名为 10.35 美元&lt;/li&gt;
-&lt;li&gt;新注册或续费价：CO 域名为 31.05 美元，COM.CO 域名为 15.53 美元&lt;/li&gt;
-&lt;li&gt;以上价格参考域名注册商 Spaceship，其他注册商应该也会同步调整价格&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;值得注意的是 CO 域名在 2025 年 4 月已经涨价过，当时批发价从约 24 美元涨价到 26 美元，部分域名注册商仅收取批发和服务费因此涨价幅度较小，这次涨价幅度非常大达到 20%，而 COM.CO 域名价格涨幅达到 50%，大多数非热门的国别域名价格都比较稳定，直接大幅度涨价的情况非常少见。&lt;/p&gt;
-&lt;p&gt;而部分域名注册商本身就是靠转售域名获得利润所以还要在批发价的基础上加利润，例如域名注册商 Enom 发布的公告就是从 7 月 1 日开始 CO 域名从 35 美元涨价到 39 美元，而 COM.CO 域名从 15 美元涨价到 20 美元，也就是每个域名保持 5 美元的固定利润，上游注册局涨价那下游注册商也跟着涨价。&lt;/p&gt;
-&lt;p&gt;蓝点网目前主要在短链接系统里使用 CO 域名 (ourl.co)，而&lt;a href="https://www.landian.news/archives/99140.html" rel="noopener" target="_blank"&gt;谷歌注册局在被收购&lt;/a&gt;前曾为吸引用户而允许通过土耳其里拉长时间续费，&lt;a href="https://www.landian.news/archives/94054.html" rel="noopener" target="_blank"&gt;由于里拉汇率问题甚至谷歌还要给用户倒贴&lt;/a&gt;，蓝点网当时直接将 ourl.co 域名续费到 2030 年，所以现在也倒是不用担心涨价问题，不过未来继续持有这些域名的成本倒是会持续增加。&lt;/p&gt;
-&lt;p aria-label="活动推荐"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;活动推荐终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 22 Jun 2026 01:30:33 +0000</pubDate></item><item><title>[附解决方案] Codex桌面版/CLI版可能会频繁写入日志影响SSD寿命 每天写入1.76TB</title><link>https://www.landian.news/archives/113555.html</link><description>
-&lt;p&gt;#技术教程 [附临时解决方案] Codex 桌面版、CLI 版被发现持续写入低级别日志，这可能会导致固态硬盘寿命大幅下降。有开发者称 Codex 因某种故障会忽略进程环境变量的日志级别设置，导致 21 天写入 37TB 数据，这会严重缩短固态硬盘寿命。目前临时解决方案是阻止新日志插入，等待官方修复。查看全文：https://ourl.co/113555&lt;/p&gt;&lt;p&gt;近期有开发者反馈 Codex 应用可能因为某些异常导致频繁写入 TRACE 级别的日志，这种行为会将日志持久化到本地数据库中然后再进行删除，对用户而言造成的直接影响就是固态硬盘被频繁读写，进而降低固态硬盘寿命。有开发者称自己在 21 天内固态硬盘写入量约为 37TB，平均每天 1.76TB，按这种情况持续下去的话每年写入将达到 643TB，而固态硬盘本身是有写入寿命限制的。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/02/111836.png" rel="nofollow"&gt;&lt;img alt="[附解决方案] Codex桌面版/CLI版可能会频繁写入日志影响固态硬盘寿命 每天写入1.76TB" data-src="https://img.lancdn.com/landian/2026/02/111836.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/02/111836.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;消费级固态硬盘 (其实企业级固态硬盘同样有) 有 TBW 写入量总计，原因是 NAND 闪存芯片都有固有的编程 / 擦除周期，闪存芯片反复写入就会逐渐磨损，而固态硬盘制造商会通过磨损均衡、垃圾回收、纠错码、超量预留等技术来延长固态硬盘的写入寿命。&lt;/p&gt;
-&lt;p&gt;常见的 1TB 消费级固态硬盘通常官方标准是 600TBW，制造商提供 5 年有限保修，当固态硬盘购买超过 5 年或者 TBW 达到限额则会触发过保 (以先到者为准)。对大多数普通用户而言基本不需要关注写入寿命，因为 600TBW 按照每天写入 100GB 来算，大约需要 16 年才能达到标准。&lt;/p&gt;
-&lt;p&gt;但如果像开发者反馈的这种情况，同样假设是 1TB 的固态硬盘且含有 600TBW，如果每天写入 1.76TB 则只需要 11 个月就会达到 TBW 限额。触发限额后固态硬盘可能还可以继续使用，但如果出现问题将无法获得官方售后服务，而且部分固态硬盘会在固件里设置限制，触发 TBW 限额后可能进入只读模式或限制读写性能。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Codex 在启动后会持续向用户目录下的 SQLite 日志数据库写入数据，相关文件包括：`~/.codex/logs_2.sqlite`、`~/.codex/logs_2.sqlite-wal`、`~/.codex/logs_2.sqlite-shm`。这种情况并非偶尔，在部分用户环境中，正常对话、流式响应甚至后台运行时都可能触发持续写入。&lt;/p&gt;
-&lt;p&gt;根据 Codex Issue #17320 错误报告，用户在 Linux 环境下观察到 Codex 的 `app-server` 在模型流式输出期间持续向 `logs_2.sqlite-wal` 写入，速率约为 `5 MiB/s`，峰值速度可达 `16 MiB/s`。而且即便进程环境变量已经设置 `RUST_LOG=warn`，数据库日志写入似乎也没有遵循这种日志过滤级别，仍然将大量 TRACE 级别日志持久化到本地数据库中。&lt;/p&gt;
-&lt;p&gt;从反馈情况来看，这更像是 Codex 诊断日志的持久化策略过于激进，低价值或高频内部日志占比很高，也就是 Codex 可能将本应该短暂用于调试的内部事件当成长期日志写入数据库。在频繁使用 Codex 的情况下，这会给用户的固态硬盘带来寿命压力。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Codex Desktop for macOS&lt;/li&gt;
-&lt;li&gt;Codex CLI for Linux&lt;/li&gt;
-&lt;li&gt;Codex CLI for macOS (大概率受同类问题影响，但目前公开样本较少)&lt;/li&gt;
-&lt;li&gt;目前尚未看到关于 Codex Desktop for Windows 是否受影响的报告&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;# 用户可以在终端中执行如下命令查看数据库文件大小
-ls -lh ~/.codex/logs_2.sqlite*
-
-# 也可以在启动 Codex 并进行正常任务时运行命令，观察数据库文件是否持续大幅增加
-for i in 1 2 3 4 5; do
-date
-stat ~/.codex/logs_2.sqlite ~/.codex/logs_2.sqlite-wal ~/.codex/logs_2.sqlite-shm
-sleep 10
-done
-
-# 还可以检查日志级别分布，如果 TRACE / DEBUG 数量异常高则与反馈情况相同
-sqlite3 ~/.codex/logs_2.sqlite "SELECT level, COUNT(*) FROM logs GROUP BY level ORDER BY COUNT(*) DESC;"&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在 Codex 官方尚未确认问题或彻底修复这个问题前，开发者可以使用命令阻止新日志的插入。这种方案的优点是简单、可逆、对固态硬盘友好，缺点则是禁用 Codex 本地持久诊断日志后，后续关于 Codex 本身问题的排查可用信息会少一些，但这对大部分用户来说应该不是问题。&lt;/p&gt;
-&lt;pre&gt;# 完全退出 Codex 后执行如下命令阻止新日志的插入
-sqlite3 ~/.codex/logs_2.sqlite "CREATE TRIGGER IF NOT EXISTS block_log_inserts BEFORE INSERT ON logs BEGIN SELECT RAISE(IGNORE); END;"
-
-# 验证是否生效
-sqlite3 ~/.codex/logs_2.sqlite "SELECT name, tbl_name, sql FROM sqlite_master WHERE type='trigger';"
-
-# 如果命令执行结果看到 block_log_inserts 则代表成功添加
-# 如果需要恢复日志写入则执行如下命令
-sqlite3 ~/.codex/logs_2.sqlite "DROP TRIGGER IF EXISTS block_log_inserts;"&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;阻止日志插入后并不会自动缩减现有的日志库，如果要回收空间则需要在完全退出 Codex 后执行如下命令进行清理。清理后整个数据库应该会被缩小很多，后续持续使用 Codex 也不会因为低级别日志持续写入导致数据库继续膨胀，这对于固态硬盘较小的机器来说也是件好事。&lt;/p&gt;
-&lt;pre&gt;cp ~/.codex/logs_2.sqlite ~/.codex/logs_2.sqlite.bak
-sqlite3 ~/.codex/logs_2.sqlite "DELETE FROM logs;"
-sqlite3 ~/.codex/logs_2.sqlite "VACUUM;"&lt;/pre&gt;
-&lt;p&gt;via Codex Issue &lt;a href="https://www.landian.news/go?url=https://github.com/openai/codex/issues/17320" rel="noopener" target="_blank"&gt;#17320&lt;/a&gt;、&lt;a href="https://www.landian.news/go?url=https://github.com/openai/codex/issues/28224" rel="noopener" target="_blank"&gt;#28224&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="活动推荐"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;活动推荐终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 22 Jun 2026 01:00:33 +0000</pubDate></item></channel></rss>
+</description><pubDate>Mon, 22 Jun 2026 02:30:37 +0000</pubDate></item></channel></rss>
