@@ -1,67 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sun, 21 Jun 2026 06:25:50 +0000</lastBuildDate><item><title>Windows 11 26H2增加DirectX转储文件 帮助GPU开发商收集遥测数据改善稳定性</title><link>https://www.landian.news/archives/113552.html</link><description>
-&lt;p&gt;#系统资讯 Windows 11 26H2 将默认开启 DirectX 转储文件功能，自动收集 GPU 和驱动程序运行数据，供 GPU 驱动开发团队进行分析以改善稳定性。该功能通过 DX 12 API 提供，将在 Windows 11 26H2 版中提供支持，微软提供零开销模式，即占用极低的资源来收集数据并发送给 GPU 制造商。查看全文：https://ourl.co/113552&lt;/p&gt;&lt;p&gt;在 2026 年的 GDC 峰会上微软提到将在 DirectX 12 API 中新增转储文件功能，该功能可以自动收集与图形驱动程序有关的日志记录，这些日志记录可以发送给 GPU 制造商，以便开发团队可以分析图形驱动程序性能以及潜在的稳定性问题，这项功能将在 Windows 11 26H2 版中推出。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113552.png" rel="nofollow"&gt;&lt;img alt="Windows 11 26H2增加DirectX转储文件 帮助GPU开发商收集遥测数据改善稳定性" data-src="https://img.lancdn.com/landian/2026/06/113552.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113552.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 22 Jun 2026 03:00:18 +0000</lastBuildDate><item><title>Gemini CLI停止处理个人账户请求 用户需更换为反重力CLI 但企业用户不受影响</title><link>https://www.landian.news/archives/113559.html</link><description>
+&lt;p&gt;#软件资讯 谷歌 Gemini CLI 停止处理来自个人账户的请求，用户必须迁移到反重力 CLI。从 6 月 19 日开始 Gemini CLI 不再向个人用户提供服务，开通谷歌 AI 订阅的个人用户都必须迁移到反重力 CLI，但持有 Gemini Code Assist 和通过 API 验证的企业用户暂时还可以继续使用。查看全文：https://ourl.co/113559&lt;/p&gt;&lt;p&gt;此前谷歌已经提前发布通知将逐渐废弃 Gemini CLI 工具，谷歌的目的是将开发者陆续转移到反重力 CLI 工具，坊间也有传闻称这是谷歌内部斗争的结果，也就是反重力团队在斗争中获胜并占据主动权，问题在于反重力 CLI 无法提供所有 Gemini CLI 的功能，所以开发者是做不到平滑迁移的。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/113006.png" rel="nofollow"&gt;&lt;img alt="Gemini CLI停止处理个人账户请求 用户需更换为反重力CLI 但企业用户不受影响" data-src="https://img.lancdn.com/landian/2026/05/113006.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/113006.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;图形驱动程序超时 (超时和检测恢复) 是微软和显卡制造商正在持续解决的问题，微软在 WDDM 3.2 驱动程序模型里也提供专门的改进，这些改进已经在 Windows 11 24H2 和 25H2 版中提供，但微软觉得这还不够，所以推出新的 API 来收集更多必要的信息。&lt;/p&gt;
-&lt;p&gt;DirectX 转储文件功能核心就是记录图形驱动程序发生崩溃时的数据，具体来说记录的是崩溃时 GPU 执行的快照，驱动程序开发者可以通过快照理解和诊断与超时和检测恢复相关的错误，转储文件将以.dxdmp 文件形式提供，这里面还会包含硬件信息、驱动程序和版本信息、系统信息、受影响的应用程序或游戏信息等。&lt;/p&gt;
-&lt;p&gt;转储文件包含的详细信息例如 GPU 硬件状态信息，状态信息包含寄存器值、着色器程序计数器、页面错误虚拟地址、着色器内存数据和命令缓冲区；包含 DirectX Runtime 和内核信息，例如 D3D 对象、管线状态对象、设备错误数据、适配器详细数据和 CPU 调用堆栈等。&lt;/p&gt;
+&lt;p&gt;据谷歌 AI 团队发布的公告，从 2026 年 6 月 19 日起 Gemini CLI 停止处理来自个人账户的请求，也就是如果用户直接通过谷歌 AI 订阅账户登录的 Gemini CLI，现在将无法继续使用，但谷歌暂时还继续向企业客户提供服务，包括持有 Gemini Code Assist 许可证和 API 密钥身份验证的企业客户。&lt;/p&gt;
+&lt;p&gt;该政策也适用于 Gemini CLI for IDE 扩展程序，使用 Google AI Pro / Ultra 订阅以及使用个人版 Gemini Code Assist 的开发者都必须迁移到反重力 CLI，不过 Gemini CLI 对企业版的支持截止时间目前还没有公布，可能谷歌会给企业客户预留更长的迁移时间。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;微软为显卡或图形驱动程序开发商提供 3 种不同的转储收集模式，开发商可以根据实际情况选择不同的模式来收集特定的调试数据和详细信息，在兼容的 Tier 2 硬件上，零开销转储模式将会被默认启用，也就是用户使用图形驱动程序时肯定会被自动收集转储数据。&lt;/p&gt;
+&lt;p&gt;在公告中谷歌 AI 团队也强调这是重大变革，工作流程的调整并非易事，不过谷歌致力于整合开发工作全力打造更强大的反重力套件，反重力 CLI 可以替代 Gemini CLI 在终端中继续构建工作流，反重力 CLI 提供统一的、智能体优先的终端体验，重点是也和反重力桌面平台共享后端基础设施用来执行复杂任务。&lt;/p&gt;
+&lt;p&gt;目前反重力 CLI 可以直接从 Gemini CLI 中导入数据，在安装过程中会检测本地是否安装 Gemini CLI，如果安装则会导入已经安装的技能和自定义技能、自动迁移 MCP 服务器和相关设置、导入智能体资料和设置、与现有的 Gemini.md 文件兼容等。&lt;/p&gt;
+&lt;p&gt;有兴趣的开发者可以访问：&lt;a href="https://www.landian.news/go?url=https://github.com/google-antigravity/antigravity-cli" rel="noopener" target="_blank"&gt;https://github.com/google-antigravity/antigravity-cli&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="活动推荐"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;活动推荐终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 22 Jun 2026 03:00:18 +0000</pubDate></item><item><title>谷歌reCAPTCHA验证机制新增手势验证 需要用户拍摄手部视频进行真人验证</title><link>https://www.landian.news/archives/113558.html</link><description>
+&lt;p&gt;#行业资讯 谷歌 reCAPTCHA 验证机制新增手势验证，需要用户拍摄手部视频进行真人验证。该功能目前正在向部分开发者提供，是否启用此功能取决于开发者，AI 机器人想要绕过这种机制难度会增加，不过也会给大量普通用户造成麻烦，尤其是隐私方面的担忧。查看全文：https://ourl.co/113558&lt;/p&gt;&lt;p&gt;谷歌从 6 月中旬开始面向部分开发者有限测试 reCAPTCHA 手势验证机制，该验证机制需要用户拍摄手部视频并回传到谷歌服务器，这种验证机制主要是用来打击机器人绕过问题，传统的图片和文字验证码已经很容易被破解，所以谷歌提供更加极端的验证方式，当然是否部署这种验证方式取决于开发者。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113558A.png" rel="nofollow"&gt;&lt;img alt="谷歌reCAPTCHA验证机制新增手势验证 需要用户拍摄手部视频进行真人验证" data-src="https://img.lancdn.com/landian/2026/06/113558A.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113558A.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;根据谷歌的说明，谷歌会分析用户在执行各种操作或手势时的一段或多段手部视频，系统会处理视频以提取手部数据，包括 21 个指关节坐标，谷歌强调视频绝对不会与用户的身份关联，并且在验证结束后视频会被立即删除，同时录制视频时谷歌也不会录制音频。&lt;/p&gt;
+&lt;p&gt;谷歌给出的简要数据存储政策是：验证流程结束后谷歌不会保留用户手势的任何图片或视频，也不会将这些数据用于其他任何目的，完成验证后视频或图片会被自动删除，谷歌会根据谷歌隐私权政策来使用和存储所收集的信息。&lt;/p&gt;
+&lt;p&gt;权限方面要进行验证时用户必须授予摄像头使用权限，这项权限是基于浏览器设置的，用户在完成验证后可以禁用特定网站继续调用摄像头权限，谷歌也不会将相关数据或权限转移给第三方 (例如网站或其他合作伙伴)。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;谷歌为开发者提供手势验证的根本目的就是对抗越来越强的基于人工智能技术的机器人，这类机器人可以轻松破解传统的图片 (红绿灯) 和文字验证码，而基于摄像头的验证方式绕过难度会非常高，首先设备需要摄像头或者模拟摄像头，其实就是上传手部视频。&lt;/p&gt;
+&lt;p&gt;理论上说通过模拟接口上传视频也是可以的，但谷歌应该也做了防御性处理，不至于可以如此简单地绕过，只不过这类对抗机制仍然会被破解，对机器人操纵者来说绕过难度会增加但绝对不是完全无法绕过的。&lt;/p&gt;
+&lt;p aria-label="活动推荐"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;活动推荐终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 22 Jun 2026 02:30:37 +0000</pubDate></item><item><title>遭到社区强烈反对后 AMD将为消费级RYZEN处理器恢复TSME加密功能</title><link>https://www.landian.news/archives/113557.html</link><description>
+&lt;p&gt;#硬件设备 遭到社区强烈批评后 AMD 决定恢复 RYZEN 消费级处理器的 TSME 透明安全内存加密功能，预计将随着 7 月 UEFI 固件更新重新推送给用户。此前有用户发现 AMD 在 4 月发布的固件更新中禁用 RYZEN 消费级处理器的 TSME，且 AMD 事前和事后都没有发布任何公告，这种不透明的做法引起社区广泛批评。查看全文：https://ourl.co/113557&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/113487.html" rel="noopener" target="_blank"&gt;此前有加密技术爱好者发现 AMD 通过固件更新悄悄禁用 RYZEN 消费级处理器的 TSME 透明安全内存加密功能&lt;/a&gt;，该功能最初是 AMD 为商用和工作站处理器提供的技术，虽然 AMD 从未说过会支持消费级处理器，但本身消费级处理器也提供这个功能而且可以通过固件更新获得支持。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113557.png" rel="nofollow"&gt;&lt;img alt="在遭到社区强烈反对后 AMD将为消费级RYZEN处理器恢复TSME加密功能" data-src="https://img.lancdn.com/landian/2026/06/113557.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113557.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;AMD 在 4 月份发布的 AGESA 微代码更新中禁用消费级 RYZEN 处理器的 TSME 功能，微代码随着主板 BIOS 固件或 UEFI 更新下发，所以在没有任何通知的情况下 AMD 禁用 TSME 并且事后也没有发布任何公告。甚至 AMD 都没有通知主板制造合作伙伴，以至于最先发现这个问题的网友与 MSI 微星工程师花费大量时间测试不同的主板和 CPU 最终确认这不是主板问题。&lt;/p&gt;
+&lt;p&gt;在用户联系 AMD 报告故障时才知道原来这是 AMD 主动禁用的，但是 AMD 工程师甚至表示 AMD 从未说过此功能支持 RYZEN 消费级处理器 (但这也是事实)，只不过 TSME 对于内存数据安全来说还是非常重要的，用户批评 AMD 的做法并对比英特尔处理器，英特尔在消费级酷睿处理器上提供类似的全内存加密功能 TME-MK，不局限于商用处理器。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;引起社区关注和批评后日前 AMD 宣布将通过新的 UEFI 固件更新重新为消费级 RYZEN 处理器提供 TSME 相关选项，AMD 称此次决定是基于社区宝贵反馈而做出的，预计会从 7 月开始提供新的 UEFI 固件更新，到时候主板制造商会发布相应的 BIOS 固件更新，用户安装固件更新后就可以在 BIOS 里重新启用 TSME。&lt;/p&gt;
+&lt;p&gt;AMD 也重申这项加密功能在 RYZEN PRO 产品线上会提供长期支持，AMD 称该技术是 RYZEN PRO 桌面与移动平台的基础安全功能，目前以及未来 AMD 都没有计划在 RYZEN PRO 产品线中移除 TSME 的支持，所以使用商用和工作站处理器的用户也无需担心 TSME 被删除。&lt;/p&gt;
+&lt;p aria-label="活动推荐"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;活动推荐终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 22 Jun 2026 02:00:37 +0000</pubDate></item><item><title>CO和COM.CO域名从7月1日再次大幅度涨价 单个域名涨价5美元 建议提前续费</title><link>https://www.landian.news/archives/113556.html</link><description>
+&lt;p&gt;#域名资讯 哥伦比亚国别顶级域名 CO 和 COM.CO 域名自 7 月 1 日起再次大幅度涨价，其中 CO 域名涨价幅度为 20%，COM.CO 域名涨价幅度为 50%。在国别顶级域名里敢这样涨价也是非常让人惊讶的，毕竟又不是热门域名，涨价后 CO 域名注册或续费价达到 31 美元，持有这些域名的用户建议尽早续费。查看全文：https://ourl.co/113556&lt;/p&gt;&lt;p&gt;CO 域名是哥伦比亚的国别顶级域名，COM.CO 则是 CO 域名下的子域名，目前负责这些域名的运营方再次宣布涨价，此次涨价将从 2026 年 7 月 1 日开始，每个域名的年注册或续费价涨价 5 美元，这个价格涨幅在国别域名里已经算是很大的了，不知道这家注册局哪来的底气。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113556.png" rel="nofollow"&gt;&lt;img alt="CO和COM.CO域名从7月1日再次大幅度涨价 单个域名涨价5美元 建议提前续费" data-src="https://img.lancdn.com/landian/2026/06/113556.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113556.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;零开销模式：运行时基本不会有开销，也就是对硬件资源占用最小，适合大范围广泛部署&lt;/li&gt;
-&lt;li&gt;中开销模式：属于平衡模式，既可以获得额外的诊断数据，又不会占用太高的硬件资源&lt;/li&gt;
-&lt;li&gt;高开销模式：收集最详细的 GPU 和驱动程序日志以便进行深入调查，但代价是硬件资源开销最高&lt;/li&gt;
+&lt;li&gt;原注册或续费价：CO 域名为 25.98 美元，COM.CO 域名为 10.35 美元&lt;/li&gt;
+&lt;li&gt;新注册或续费价：CO 域名为 31.05 美元，COM.CO 域名为 15.53 美元&lt;/li&gt;
+&lt;li&gt;以上价格参考域名注册商 Spaceship，其他注册商应该也会同步调整价格&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p aria-label="活动推荐"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;活动推荐终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sun, 21 Jun 2026 06:25:50 +0000</pubDate></item><item><title>微软确认即将推出Windows 11 26H2版 微软提醒IT管理员提前做好升级准备</title><link>https://www.landian.news/archives/113551.html</link><description>
-&lt;p&gt;#系统资讯 微软确认即将推出 Windows 11 26H2 版，微软提醒 IT 管理员提前做好升级准备。26H2 版仍然是个小型更新，将通过 eKB 启用包推出新功能，这意味着 24H2/25H2/26H2 后续将使用相同的累积更新，正常情况下应该不会出现什么兼容性问题。查看全文：https://ourl.co/113551&lt;/p&gt;&lt;p&gt;前文我们提到微软推出 Windows 11 26H2 早期预览版，按照往年惯例微软最终将在 2026 年 10 月前后发布正式版，现在微软也在技术博客中发文提醒企业 / 机构 IT 管理员提前为新版本做好升级准备，同时微软公布 Windows 11 26H2 版的支持周期，其中消费者版仍然是 24 个月，企业版则是 36 个月。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/public/thumb/W11.png" rel="nofollow"&gt;&lt;img alt="微软确认即将推出Windows 11 26H2版 微软提醒IT管理员提前做好升级准备" data-src="https://img.lancdn.com/landian/public/thumb/W11.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/public/thumb/W11.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;微软确认 Windows 11 26H2 版属于 eKB 小型更新包，即微软将推送小型更新包用来启用系统里已经存在的但被默认禁用的功能，这意味着 26H2 版基座仍然是 24H2 版，Windows11 24H2/25H2/26H2 版共享相同的基础设施，后续发布的累积更新也将是通用的。&lt;/p&gt;
-&lt;p&gt;需要强调的是 Windows 11 26H1 版为不同的分支版本，26H1 是微软专门为搭载高通骁龙处理器推出的特殊版本，由于分支版本不同，26H1 版无法直接升级到 26H2 版，或许微软后续会为这类 Windows on Arm 设备继续准备专门的更新。&lt;/p&gt;
-&lt;p&gt;微软建议 IT 管理员积极在 Windows Insider 预览计划中提前测试 Windows 11 26H2 版以做好准备，IT 管理员可以在测试机上部署 Windows 11 实验频道版本 (目前为 Build 26300.xxxx)，然后在测试机上积极测试企业使用的各类软件是否存在兼容性错误。&lt;/p&gt;
+&lt;p&gt;值得注意的是 CO 域名在 2025 年 4 月已经涨价过，当时批发价从约 24 美元涨价到 26 美元，部分域名注册商仅收取批发和服务费因此涨价幅度较小，这次涨价幅度非常大达到 20%，而 COM.CO 域名价格涨幅达到 50%，大多数非热门的国别域名价格都比较稳定，直接大幅度涨价的情况非常少见。&lt;/p&gt;
+&lt;p&gt;而部分域名注册商本身就是靠转售域名获得利润所以还要在批发价的基础上加利润，例如域名注册商 Enom 发布的公告就是从 7 月 1 日开始 CO 域名从 35 美元涨价到 39 美元，而 COM.CO 域名从 15 美元涨价到 20 美元，也就是每个域名保持 5 美元的固定利润，上游注册局涨价那下游注册商也跟着涨价。&lt;/p&gt;
+&lt;p&gt;蓝点网目前主要在短链接系统里使用 CO 域名 (ourl.co)，而&lt;a href="https://www.landian.news/archives/99140.html" rel="noopener" target="_blank"&gt;谷歌注册局在被收购&lt;/a&gt;前曾为吸引用户而允许通过土耳其里拉长时间续费，&lt;a href="https://www.landian.news/archives/94054.html" rel="noopener" target="_blank"&gt;由于里拉汇率问题甚至谷歌还要给用户倒贴&lt;/a&gt;，蓝点网当时直接将 ourl.co 域名续费到 2030 年，所以现在也倒是不用担心涨价问题，不过未来继续持有这些域名的成本倒是会持续增加。&lt;/p&gt;
+&lt;p aria-label="活动推荐"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;活动推荐终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 22 Jun 2026 01:30:33 +0000</pubDate></item><item><title>[附解决方案] Codex桌面版/CLI版可能会频繁写入日志影响SSD寿命 每天写入1.76TB</title><link>https://www.landian.news/archives/113555.html</link><description>
+&lt;p&gt;#技术教程 [附临时解决方案] Codex 桌面版、CLI 版被发现持续写入低级别日志，这可能会导致固态硬盘寿命大幅下降。有开发者称 Codex 因某种故障会忽略进程环境变量的日志级别设置，导致 21 天写入 37TB 数据，这会严重缩短固态硬盘寿命。目前临时解决方案是阻止新日志插入，等待官方修复。查看全文：https://ourl.co/113555&lt;/p&gt;&lt;p&gt;近期有开发者反馈 Codex 应用可能因为某些异常导致频繁写入 TRACE 级别的日志，这种行为会将日志持久化到本地数据库中然后再进行删除，对用户而言造成的直接影响就是固态硬盘被频繁读写，进而降低固态硬盘寿命。有开发者称自己在 21 天内固态硬盘写入量约为 37TB，平均每天 1.76TB，按这种情况持续下去的话每年写入将达到 643TB，而固态硬盘本身是有写入寿命限制的。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/02/111836.png" rel="nofollow"&gt;&lt;img alt="[附解决方案] Codex桌面版/CLI版可能会频繁写入日志影响固态硬盘寿命 每天写入1.76TB" data-src="https://img.lancdn.com/landian/2026/02/111836.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/02/111836.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;消费级固态硬盘 (其实企业级固态硬盘同样有) 有 TBW 写入量总计，原因是 NAND 闪存芯片都有固有的编程 / 擦除周期，闪存芯片反复写入就会逐渐磨损，而固态硬盘制造商会通过磨损均衡、垃圾回收、纠错码、超量预留等技术来延长固态硬盘的写入寿命。&lt;/p&gt;
+&lt;p&gt;常见的 1TB 消费级固态硬盘通常官方标准是 600TBW，制造商提供 5 年有限保修，当固态硬盘购买超过 5 年或者 TBW 达到限额则会触发过保 (以先到者为准)。对大多数普通用户而言基本不需要关注写入寿命，因为 600TBW 按照每天写入 100GB 来算，大约需要 16 年才能达到标准。&lt;/p&gt;
+&lt;p&gt;但如果像开发者反馈的这种情况，同样假设是 1TB 的固态硬盘且含有 600TBW，如果每天写入 1.76TB 则只需要 11 个月就会达到 TBW 限额。触发限额后固态硬盘可能还可以继续使用，但如果出现问题将无法获得官方售后服务，而且部分固态硬盘会在固件里设置限制，触发 TBW 限额后可能进入只读模式或限制读写性能。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Codex 在启动后会持续向用户目录下的 SQLite 日志数据库写入数据，相关文件包括：`~/.codex/logs_2.sqlite`、`~/.codex/logs_2.sqlite-wal`、`~/.codex/logs_2.sqlite-shm`。这种情况并非偶尔，在部分用户环境中，正常对话、流式响应甚至后台运行时都可能触发持续写入。&lt;/p&gt;
+&lt;p&gt;根据 Codex Issue #17320 错误报告，用户在 Linux 环境下观察到 Codex 的 `app-server` 在模型流式输出期间持续向 `logs_2.sqlite-wal` 写入，速率约为 `5 MiB/s`，峰值速度可达 `16 MiB/s`。而且即便进程环境变量已经设置 `RUST_LOG=warn`，数据库日志写入似乎也没有遵循这种日志过滤级别，仍然将大量 TRACE 级别日志持久化到本地数据库中。&lt;/p&gt;
+&lt;p&gt;从反馈情况来看，这更像是 Codex 诊断日志的持久化策略过于激进，低价值或高频内部日志占比很高，也就是 Codex 可能将本应该短暂用于调试的内部事件当成长期日志写入数据库。在频繁使用 Codex 的情况下，这会给用户的固态硬盘带来寿命压力。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;消费者版：家庭版、专业版、专业教育版、专业工作站版，自发布日起提供 24 个月的支持服务&lt;/li&gt;
-&lt;li&gt;企业分支：企业版、企业教育版、物联网企业版、企业多会话版，自发布日起提供 36 个月的支持服务&lt;/li&gt;
+&lt;li&gt;Codex Desktop for macOS&lt;/li&gt;
+&lt;li&gt;Codex CLI for Linux&lt;/li&gt;
+&lt;li&gt;Codex CLI for macOS (大概率受同类问题影响，但目前公开样本较少)&lt;/li&gt;
+&lt;li&gt;目前尚未看到关于 Codex Desktop for Windows 是否受影响的报告&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;# 用户可以在终端中执行如下命令查看数据库文件大小
+ls -lh ~/.codex/logs_2.sqlite*
+
+# 也可以在启动 Codex 并进行正常任务时运行命令，观察数据库文件是否持续大幅增加
+for i in 1 2 3 4 5; do
+date
+stat ~/.codex/logs_2.sqlite ~/.codex/logs_2.sqlite-wal ~/.codex/logs_2.sqlite-shm
+sleep 10
+done
+
+# 还可以检查日志级别分布，如果 TRACE / DEBUG 数量异常高则与反馈情况相同
+sqlite3 ~/.codex/logs_2.sqlite "SELECT level, COUNT(*) FROM logs GROUP BY level ORDER BY COUNT(*) DESC;"&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在 Codex 官方尚未确认问题或彻底修复这个问题前，开发者可以使用命令阻止新日志的插入。这种方案的优点是简单、可逆、对固态硬盘友好，缺点则是禁用 Codex 本地持久诊断日志后，后续关于 Codex 本身问题的排查可用信息会少一些，但这对大部分用户来说应该不是问题。&lt;/p&gt;
+&lt;pre&gt;# 完全退出 Codex 后执行如下命令阻止新日志的插入
+sqlite3 ~/.codex/logs_2.sqlite "CREATE TRIGGER IF NOT EXISTS block_log_inserts BEFORE INSERT ON logs BEGIN SELECT RAISE(IGNORE); END;"
+
+# 验证是否生效
+sqlite3 ~/.codex/logs_2.sqlite "SELECT name, tbl_name, sql FROM sqlite_master WHERE type='trigger';"
+
+# 如果命令执行结果看到 block_log_inserts 则代表成功添加
+# 如果需要恢复日志写入则执行如下命令
+sqlite3 ~/.codex/logs_2.sqlite "DROP TRIGGER IF EXISTS block_log_inserts;"&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;阻止日志插入后并不会自动缩减现有的日志库，如果要回收空间则需要在完全退出 Codex 后执行如下命令进行清理。清理后整个数据库应该会被缩小很多，后续持续使用 Codex 也不会因为低级别日志持续写入导致数据库继续膨胀，这对于固态硬盘较小的机器来说也是件好事。&lt;/p&gt;
+&lt;pre&gt;cp ~/.codex/logs_2.sqlite ~/.codex/logs_2.sqlite.bak
+sqlite3 ~/.codex/logs_2.sqlite "DELETE FROM logs;"
+sqlite3 ~/.codex/logs_2.sqlite "VACUUM;"&lt;/pre&gt;
+&lt;p&gt;via Codex Issue &lt;a href="https://www.landian.news/go?url=https://github.com/openai/codex/issues/17320" rel="noopener" target="_blank"&gt;#17320&lt;/a&gt;、&lt;a href="https://www.landian.news/go?url=https://github.com/openai/codex/issues/28224" rel="noopener" target="_blank"&gt;#28224&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="活动推荐"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;活动推荐终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sun, 21 Jun 2026 05:27:36 +0000</pubDate></item><item><title>微软发布Windows 11 26H2早期预览版 正式版将在2026年10月前后发布</title><link>https://www.landian.news/archives/113550.html</link><description>
-&lt;p&gt;#系统资讯 微软发布 Windows 11 26H2 早期预览版，正式版将在 2026 年 10 月前后发布。微软本周发布 Build 26300.8697 / 26220.8690 预览版，此次更新主要是常规修复，不过实验频道分支版本已经更新为 26H2 版，后续更新实验频道获得的新功能将会明显增多。查看全文：https://ourl.co/113550&lt;/p&gt;&lt;p&gt;本周微软更新 Windows 11 实验频道 (原开发频道和金丝雀频道合并) 和测试频道，分别推出 Build 26300.8697 和 Build 26220.8690 预览版，这些预览版并没有什么新功能而是修复已知问题，不过重点是微软将实验频道的分支版本升级为 26H2 版，这是 Windows 11 26H2 的早期预览版，正式版会在 2026 年 10 月前后发布。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113550.png" rel="nofollow"&gt;&lt;img alt="微软发布Windows 11 26H2早期预览版 正式版将在2026年10月前后发布" data-src="https://img.lancdn.com/landian/2026/06/113550.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113550.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;尽管实验频道与测试频道版本号不同但更新日志是相同的，区别在于实验频道版本号已经正式更新为 Windows 11 26H2 版，而测试频道目前仍然是 Windows 11 25H2 版，后续版本更新可能会逐渐分离功能，也就是实验频道会获得更多新功能。&lt;/p&gt;
-&lt;p&gt;而在实验频道开发的新功能最终将逐步推送到测试频道，只不过实验频道更迭频率更高也意味着稳定性会更差，而测试频道更迭频率稍微慢些但整体稳定性要优于实验频道，对于追求新功能的用户可以切换为实验频道，但日常使用有可能遇到未知的问题。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;常规更新：实验频道的用户更新到最新版后，设置→系统→关于里版本号会显示为 26H2&lt;/li&gt;
-&lt;li&gt;常规更新：微软继续改进资源管理器的视觉效果，深色模式下复制对话框颜色修正和提高可靠性&lt;/li&gt;
-&lt;li&gt;开始菜单：微软继续提高开始菜单的可靠性，无需注销和重启即可显示最新安装的应用，或清理刚卸载的应用&lt;/li&gt;
-&lt;li&gt;常规更新：微软继续修复任务栏的相关问题，包括使用较小任务栏时系统托盘区可能会截断或超出屏幕问题&lt;/li&gt;
-&lt;li&gt;常规更新：微软继续提高 Windows 11 设置→应用→启动选项的可靠性&lt;/li&gt;
-&lt;li&gt;常规更新：此次更新解决系统重启、虚拟机操作或运行某些应用期间，由虚拟化引起的死机问题&lt;/li&gt;
-&lt;li&gt;补充代码：死机代码为 HYPERVISOR_ERROR (0x20001) 和 KMODE_EXCEPTION_NOT_HANDLED (0x1E)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p aria-label="活动推荐"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;活动推荐终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sun, 21 Jun 2026 04:46:05 +0000</pubDate></item><item><title>育碧联合创始人克劳德吉约莫去世 驾驶的轻型飞机在机场附近坠毁</title><link>https://www.landian.news/archives/113548.html</link><description>
-&lt;p&gt;#行业资讯 育碧联合创始人克劳德吉约莫 (Claude Guillemot) 去世，驾驶的轻型飞机在机场附近坠毁。吉约莫是飞行爱好者，当地时间 6 月 19 日，吉约莫与飞行教练驾驶塞斯纳 421 参加航空爱好者活动，但在目的地机场附近麦田坠毁，目前法国航空事故调查处正在收集数据进行调查。查看详情：https://ourl.co/113548&lt;/p&gt;&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113549.png" rel="nofollow"&gt;&lt;img alt="育碧联合创始人克劳德吉约莫去世 驾驶的轻型飞机在机场附近坠毁" data-src="https://img.lancdn.com/landian/2026/06/113549.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113549.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;法国知名游戏开发商育碧公司的联合创始人克劳德吉约莫 (Claude Guillemot) 在当地时间 2026 年 6 月 19 日去世，克劳德吉约莫与其他兄弟在 1986 年创立育碧公司开发游戏，在育碧公司克劳德吉约莫主要负责集团运营、全球渠道扩展和硬件业务，在育碧的国际化扩张中发挥重要作用。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;克劳德吉约莫是飞行爱好者，事发当天克劳德吉约莫与飞行教练驾驶轻型飞机 (塞斯纳 421) 从法国雷恩起飞，准备前往拉博勒埃斯库布拉克参加航空爱好者活动，不过在即将抵达目的地时这架轻型飞机坠毁在机场附近的麦田并起火。&lt;/p&gt;
-&lt;p&gt;当地管理机构出动大量消防人员和消防车前往事发地救援，不过塞斯纳 421 上的两名乘员包括克劳德吉约莫和飞行教练全部遇难，目前法国航空事故调查处 (BEA) 正在收集数据进行调查，具体事故原因暂时还没有任何消息。&lt;/p&gt;
-&lt;p aria-label="活动推荐"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;活动推荐终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 20 Jun 2026 13:36:04 +0000</pubDate></item><item><title>[下载] Codex Cockpit 可以检测Codex手动重置次数的截止时间 避免忘记重置失效</title><link>https://www.landian.news/download/113585.html</link><description>
-&lt;p&gt;#软件下载 Codex Cockpit --- 可以检测当前 Codex 手动重置次数的截止时间，避免用户忘记导致手动重置机会失效。目前大多数用户应该有 2 次手动重置机会，重置机会有效期都是 30 天，过期将自动失效无法重置，这个开源工具就可以检查具体的过期时间，让用户提前规划用量。下载地址：https://ourl.co/113585&lt;/p&gt;&lt;p&gt;早前 Codex 团队宣布因故障等问题重置配额时默认将会保留重置次数，也就是开发者可以根据自己的日常使用情况，在快使用完时手动进行额度重置，这样可以充分利用所有额度。而在 Codex 推出邀请功能时还向所有用户赠送 1 次手动重置额度，也就是目前多数用户实际剩余 2 次手动重置机会。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;目前 Codex 赠送或邀请获得的手动重置机会有效期都是 30 天，也就是如果在 30 天内用户没有手动重置，那么这些手动重置机会也会失效。但在 Codex 桌面版中目前没有直接渠道可以查询重置机会的剩余有效时间，所以有开发者推出工具可以读取本地数据库检查剩余有效期。&lt;/p&gt;
-&lt;p&gt;能够检查剩余有效期是因为 Codex 在本地数据库和相关请求里提供了重置次数查询，估计后续 Codex 桌面版更新后应该也会提供查询方式，而现在用户可以使用社区开发者提供的查询工具 Codex Cockpit (最初叫 Codex Reset Watcher，目前已经更名)。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113585-3A.png" rel="nofollow"&gt;&lt;img alt="[下载] Codex Cockpit 可以检测Codex手动重置次数的截止时间 避免忘记重置失效" data-src="https://img.lancdn.com/landian/2026/06/113585-3A.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113585-3A.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;该工具可以查询本地数据库检测 Codex 各类线程 / 对话状态，也可以用来检测当前账户剩余多少次手动重置机会、每个手动重置机会有效期，例如蓝点网目前剩余 2 次重置机会，到期时间分别是 7 月 12 日和 7 月 18 日。其中 7 月 12 日的就是 OpenAI 在 6 月 12 日开启邀请活动时赠送的，7 月 18 日的则是 6 月 18 日 Codex 故障后赠送的。&lt;/p&gt;
-&lt;p&gt;目前 Codex Cockpit 仅提供 macOS 版，且因为没有进行公证和开发者签名所以无法直接打开，下载后需要在设置里手动打开，项目本身是开源的，担忧潜在安全问题的用户也可以使用 AI 模型对项目进行审查。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113585-1.png" rel="nofollow"&gt;&lt;img alt="[下载] Codex Cockpit 可以检测Codex手动重置次数的截止时间 避免忘记重置失效" data-src="https://img.lancdn.com/landian/2026/06/113585-1.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113585-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113585-2.png" rel="nofollow"&gt;&lt;img alt="[下载] Codex Cockpit 可以检测Codex手动重置次数的截止时间 避免忘记重置失效" data-src="https://img.lancdn.com/landian/2026/06/113585-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113585-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p aria-label="活动推荐"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;活动推荐终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 20 Jun 2026 06:41:40 +0000</pubDate></item></channel></rss>
+</description><pubDate>Mon, 22 Jun 2026 01:00:33 +0000</pubDate></item></channel></rss>
