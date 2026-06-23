@@ -1,94 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 22 Jun 2026 05:21:11 +0000</lastBuildDate><item><title>NGINX新漏洞曝光 这次涉及HTTP/3 QUIC 但总体来说仍然不用慌</title><link>https://www.landian.news/archives/113595.html</link><description>
-&lt;p&gt;#安全资讯 F5 发布 NGINX 新版本用于修复 HTTP/3 QUIC 模块中的安全漏洞，极端情况下可能会触发远程代码执行，但总体来说问题不是很大。虽然这次爆出的新漏洞影响很多典型 NGINX 配置，然而前提是 ASLR 要被禁用或绕过 (难度很大)，典型 Linux 系统默认开启 ASLR 所以 NGINX 的漏洞并不容易被触发。查看全文：https://ourl.co/113595&lt;/p&gt;&lt;p&gt;F5 公司日前发布 NGINX 的新安全公告并披露 CVE-2026-42530 和 CVE-2026-42055 漏洞，前者有可能会导致远程代码执行，后者在常规情况下可以触发崩溃导致拒绝服务，但在某些极端的情况下可能导致远程代码执行，和此前漏洞略有不同的是，大多数典型 NGINX 配置可能都会受 CVE-2026-42530 影响，不过可以开启 ASLR 进行缓解。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src="https://img.lancdn.com/landian/2025/08/110209.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/08/110209.png"/&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 23 Jun 2026 02:30:15 +0000</lastBuildDate><item><title>A社员工称并非所有开发者都需要Claude身份验证 仅部分被检测到异常才需要认证</title><link>https://www.landian.news/archives/113600.html</link><description>
+&lt;p&gt;#人工智能 A 社员工澄清这段时间以来流传的必须完成身份验证后才能使用 Claude 的谣言，相关政策是 4 月发布的只是在 6 月进行了更新，而只有被检测到异常的账户才需要认证。简单来说就是并非所有账户都必须身份验证，但如果触发异常那就得认证，A 社使用认证来替代直接封号，这可以降低封号概率和申诉数量。查看全文：https://ourl.co/113600&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/112667.html" rel="noopener" target="_blank"&gt;2026 年 4 月份 A 社发布支持文章称使用 Claude 可能会触发身份验证机制&lt;/a&gt;，当触发身份验证机制时用户必须提交政府签发的法定身份证件进行认证，只有通过认证后才可以继续使用 Claude，当用户尝试开通或续费 Claude Pro 或 Max 订阅时也同样可能会触发此类验证。&lt;/p&gt;
+&lt;p&gt;而在 6 月份有关 Claude 身份验证的消息再次在 X/Twitter 上引起讨论，原因则是 A 社更新身份验证支持文章的发布日期，这让很多用户以为这是 A 社新推出的政策，而且还被传成所有用户都需要进行 Claude 身份验证后才可以继续使用 A 社的服务。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/05/109080-1.png" rel="nofollow"&gt;&lt;img alt="A社员工称并非所有开发者都需要Claude身份验证 仅部分被检测到异常才需要认证" data-src="https://img.lancdn.com/landian/2025/05/109080-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/05/109080-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; A 社员工称验证机制触发条件不变，与 Claude Fable 无关：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;昨天夜里 A 社员工在回应网友发布的身份验证帖子时表示，Claude 身份验证机制的触发条件不变，仅适用于小部分被标记为潜在异常的账户，当账户被检测到异常时 A 社会要求用户提交法定身份证件进行验证，验证通过后才可以继续使用 Claude 而不是直接封禁用户账户。&lt;/p&gt;
+&lt;p&gt;这与这段时间推出的 Claude Fable 和 Claude Mythos 模型没有任何直接关联，当然也不是所有用户都需要身份验证后才能使用，A 社的这种做法可能是为了降低封号概率，毕竟 A 社的检测机制甚至会达到 1 秒前注册账户，1 秒后就立即封号的情况，有身份验证机制后可以降低误封的概率。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;目前 A 社会通过多种机制检测账户是否异常，其中最典型的检测方式就是识别 IP，这也是很多用户追求纯净度更高的 IP 的原因，因为某些数据中心 IP 很容易被识别到异常，这甚至都不需要用户提交证件进行验证而直接封号。其他机制还包括用户的对话内容，某些对话内容触及安全边界后也会触发异常而要求提交身份验证。&lt;/p&gt;
+&lt;p&gt;触发身份验证机制后用户需要跳转到 Persona 提交法定身份证件，Persona 这家身份验证公司的名声其实也不太好，所以不少开发者对 A 社选择与 Persona 合作也多有抱怨。&lt;/p&gt;
+&lt;p aria-label="活动推荐"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;活动推荐终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 23 Jun 2026 02:30:15 +0000</pubDate></item><item><title>Codex v0.142.0版发布 砍掉高频低价值日志减少SSD写入量避免耗费SSD寿命</title><link>https://www.landian.news/archives/113599.html</link><description>
+&lt;p&gt;#软件资讯 Codex v0.142.0 版已经修复持续写盘问题减少对固态硬盘的磨损，Codex 的修复方法是砍掉高频低价值事件的本地持久化而非禁用 SQLite。这可以确保 Codex 团队继续收集遥测数据进行改善的同时，大幅度降低对 SSD 的写盘压力，至少不会再造成每天超过 1TB 的写入。查看全文：https://ourl.co/113599&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/113555.html" rel="noopener" target="_blank"&gt;昨天蓝点网提到 Codex 桌面版和 CLI 版会持续写入低级日志到本地数据库&lt;/a&gt;，这种高频写入会严重影响固态硬盘寿命，说起来最初开发者是在 4 月 10 日提交的但并未引起 Codex 团队关注，蓝点网在昨天报道这个问题后也引起其他开发者的关注和发帖，其中 @Kai 发布的帖子引起 Codex 团队的关注，所以这个问题得到立即修复。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/02/111836.png" rel="nofollow"&gt;&lt;img alt="Codex v0.142.0版发布 砍掉高频低价值日志减少SSD写入量避免耗费SSD寿命" data-src="https://img.lancdn.com/landian/2026/02/111836.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/02/111836.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; Codex v0.142.0 版提到已经解决问题：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在最新发布的版本里 Codex 团队提到通过移除每个事件的 WebSocket 有效负载日志记录和过滤重复的遥测记录来减少持久日志的变更，按照更新日志说明现在写入到本地数据库的日志数量应该会是明显减少了，很多低级别的日志可能会在内存中被使用后就直接丢弃，不需要再写入到本地数据库，这样可以减少对固态硬盘的磨损。&lt;/p&gt;
+&lt;p&gt;不过蓝点网也检查 Codex 更新日志中提到的 PR，PR 中提交的变更与我们昨天提到的阻止日志插入有些区别，仅从 PR 中提到的变更来看，Codex 新版本的修复方法主要是减少高频噪声日志进入 SQLite，并不是彻底关闭 SQLite 日志，这种修复方法应该有助于降低写入量，但可能比直接禁用日志效果要稍微差些 (若是彻底禁用则会影响故障排查)。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;PR #29432 停止将成功的 Responses WebSocket 事件都写成本地日志，之前每个成功的 WebSocket 事件会产生 3 条本地日志记录，包括完整的 payload 的 TRACE 日志、OpenTelemetry log 事件和 OpenTelemetry trace 事件。在忙碌的线程里，这些记录很快就会塞满每个分区的 1,000 行预算，然后触发持续的 SQLite 插入再裁剪 churn。&lt;/p&gt;
+&lt;p&gt;改动后则是不再将每个 WebSocket 都记录 TRACE、不再把 codex.websocket_event 发成 OpenTelemetry log 和 trace、保留 WebSocket 事件计数、耗时指标、响应时间指标、解析和错误处理等。&lt;/p&gt;
+&lt;p&gt;PR #29457 则对 SQLite sink 自身对所有 target 默认开 TRACE 问题进行处理，这个问题会将高频依赖日志和 OpenTelemetry 镜像事件也持久化进去，改动后依然会保留其他 target 的 TRACE 持久化，但把桥接过来的 target=log 排除掉，让 app-server 和 TUI 共用同一套过滤器，远程 OpenTelemetry 导出和 metrics 保持不变。&lt;/p&gt;
+&lt;p&gt;所以这些改动并不是彻底禁用 SQLite 日志，而是砍掉最吵、最没有价值、最容易造成写盘风暴的那部分事件，这应该可以显著降低 logs_2.sqlite 和 logs_2.sqlite-wal 的写入频率和 churn，这不等于彻底解决 SSD 的写入压力 (毕竟 Codex 团队依然要靠遥测事件来收集数据进行改善)，不过应该也不会造成每天超过 1TB 的写入。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://www.landian.news/go?url=https://github.com/openai/codex/releases/tag/rust-v0.142.0" rel="noopener" target="_blank"&gt;Codex&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="活动推荐"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;活动推荐终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 23 Jun 2026 02:00:56 +0000</pubDate></item><item><title>印度塔塔集团遭到黑客攻击泄露630GB数据 苹果和特斯拉部分内部机密被泄露</title><link>https://www.landian.news/archives/113598.html</link><description>
+&lt;p&gt;#安全资讯 印度塔塔集团遭到黑客攻击泄露超过 630GB 数据，包含苹果和特斯拉的部分机密数据。塔塔集团旗下公司塔塔电子为苹果组装 iPhone 和为特斯拉组装部分零部件，泄露的文件里就包含苹果的材料规格和组装信息，塔塔电子也证实收到黑客发出的勒索要求，按惯例如果没有支付赎金，黑客就会直接公开泄露所有数据。查看全文：https://ourl.co/113598&lt;/p&gt;&lt;p&gt;印度塔塔集团日前向路透社证实该公司近期遭到网络攻击，黑客声称已经窃取来自塔塔集团的苹果和特斯拉机密文件，塔塔集团为诸多客户提供代工服务，苹果和特斯拉等公司都是塔塔集团的客户，不过目前塔塔集团并未透露泄露的详细数据情况，苹果和特斯拉也没有就此事发布回应。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113598.png" rel="nofollow"&gt;&lt;img alt="印度塔塔集团遭到黑客攻击泄露630GB数据 苹果和特斯拉部分内部机密被泄露" data-src="https://img.lancdn.com/landian/2026/06/113598.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113598.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;黑客在名为世界泄密的网站 (这个网站也可以用作黑客的代号) 发布来自塔塔集团的苹果和特斯拉组件设计和规格文件，该网站表示从塔塔集团获取的数据合计超过 630GB，整个数据包有超过 20 万份文件，其中有个数据库名为 com.apple.factorydata，还有些文档提到苹果使用的材料规格。&lt;/p&gt;
+&lt;p&gt;样例文件中还提到带有苹果公司专有标记的文件，这份 52 页的文件详细说明 iPhone 电路板组件的质量校验标准，还有 33 个文件或文件夹与 Hosur 有关，这是塔塔集团在印度泰米尔纳德邦的 iPhone 组装厂所在地，也就是组装厂的部分文档或其他流程机密被泄露。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;值得注意的是此次安全事件并不是塔塔集团自己发现的，事实上黑客至少从 6 月 10 日开始就在暗网中泄露样本数据进行宣传，审阅过样本文件的印度安全研究员称文件中还包含海量电子邮件、跨越数年的事件日志以及包括外籍员工在内的多名员工护照复印件。&lt;/p&gt;
+&lt;p&gt;塔塔集团在官方声明中表示几周前该公司发现部分系统出现网络安全事件并立即启动应对方案，该事件没有给塔塔电子 (塔塔集团旗下公司) 的各项业务运营造成任何影响，塔塔集团的所有业务也都没有受到任何影响。&lt;/p&gt;
+&lt;p&gt;不过塔塔电子已经证实收到来自黑客的勒索要求，塔塔电子并未透露黑客索要多少赎金，按惯例如果塔塔电子没有支付赎金的话，这些客户机密数据都将会被公开泄露，这对苹果和特斯拉来说是难以接受的，所以不知道塔塔电子是否会支付赎金来换取数据保密。&lt;/p&gt;
+&lt;p aria-label="活动推荐"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;活动推荐终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 23 Jun 2026 01:30:26 +0000</pubDate></item><item><title>苹果宣布将废弃AirPort实用工具 不过暂时只是警告没有给出具体停用日期</title><link>https://www.landian.news/archives/113597.html</link><description>
+&lt;p&gt;#软件资讯 苹果宣布在 iOS/iPadOS 27 和 macOS 27 中弃用 AirPort 实用工具，已经安装的用户还可以继续使用，但苹果不保证其功能还可以正常工作。AirPort 实用工具是苹果推出的为 AirPort 无线基站系列 (即 WiFi 路由器) 管理工具，该设备早在 2018 年就已经停产，所以苹果正在逐渐废弃配套工具。查看全文：https://ourl.co/113597&lt;/p&gt;&lt;p&gt;看起来苹果正在积极废弃某些历史遗留内容，此前苹果在 macOS 27 开发者预览版中已经停止支持 Time Capsule 文件备份协议，现在苹果宣布 AirPort 实用工具很快也会被废弃，到时候 iOS 27 和 macOS 27 将无法从应用商店里获取该应用并继续用来对 AirPort 进行设置，当然这不会给大多数用户造成影响。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113597.png" rel="nofollow"&gt;&lt;img alt="苹果宣布将废弃AirPort实用工具 不过暂时只是警告没有给出具体停用日期" data-src="https://img.lancdn.com/landian/2026/06/113597.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113597.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这个实用工具是苹果开发的免费工具，用于配置和管理苹果的 AirPort 系列无线基站设备 (就是 WiFi 路由器)，苹果已经从 2018 年开始停产 AirPort 硬件系列，现有的设备仍然可以工作，尤其是作为桥接模式下的接入点，而用户可以通过 AirPort 实用工具设置和管理 WiFi、设备管理、高级诊断、网络诊断、多设备网络管理等。&lt;/p&gt;
+&lt;p&gt;对于仍然使用 AirPort 系列无线基站的用户来说这个实用工具还是有用处的，因此当后续苹果不再支持该工具时用户的日常使用可能会受到影响，当然如果用户还有运行较低版本的 iOS 或 macOS 的设备那可以继续使用，因为苹果只提到 iOS 27 和 macOS 27 后续将停用 AirPort 实用工具。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;iOS/iPadOS 27：AirPort 实用工具将不再通过应用商店提供下载，如果您此前已经下载过该应用，现在仍然可以重新下载，但在 iOS/iPadOS 27 及更高版本中使用 AirPort 实用工具时，功能可能无法保证正常使用。&lt;/p&gt;
+&lt;p&gt;macOS 27：该版本不再包含 AirPort 实用工具，但若您在已经安装 AirPort 实用工具的情况下升级到 macOS 27，则 AirPort 实用工具仍然会保留在系统中可以继续使用，但从 macOS 27 开始，其功能无法保证。&lt;/p&gt;
+&lt;p&gt;目前苹果只是说弃用但没有给出具体的弃用时间，也就是说现阶段已经安装 AirPort 实用工具的用户还可以继续使用，由于苹果已经停止维护 AirPort 实用工具，所以有些功能可能会出现兼容性故障或其他异常导致无法正常使用，最终苹果还是会彻底弃用 AirPort 实用工具。&lt;/p&gt;
+&lt;p aria-label="活动推荐"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;活动推荐终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 23 Jun 2026 01:00:26 +0000</pubDate></item><item><title>苹果推出iOS 27 Dev Beta 2版 提升稳定性、修复错误和增加部分新功能</title><link>https://www.landian.news/archives/113596.html</link><description>
+&lt;p&gt;#系统资讯 苹果推出 iOS 27 Developer Beta 2，钱包应用的见解功能扩展支持到更多地区、提升 iPhone 镜像的可靠性、RCS 富媒体消息现在支持内联回复等。当然这些是目前已经发现的新功能或变化，接下来应该还会有更多苹果没有提到的新功能或变化会被发掘出来。查看全文：https://ourl.co/113596&lt;/p&gt;&lt;p&gt;苹果日前向开发者们推出 iOS 27 Developer Beta 2 版，着急体验新功能的用户也可以在设置中切换开发者预览版，随后就可以检查更新获取最新版，不过开发者预览版属于早期版本因此可能存在某些未知的问题，建议用户在升级前完整备份所有数据，升级后如果出现问题也可以考虑回滚并通过备份恢复。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113596.png" rel="nofollow"&gt;&lt;img alt="苹果推出iOS 27 Dev Beta 2版 提升稳定性、修复错误和增加部分新功能" data-src="https://img.lancdn.com/landian/2026/06/113596.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113596.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; iOS 27 Dev Beta 2 带来哪些新功能：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;漏洞编号：&lt;a href="https://www.landian.news/go?url=https://my.f5.com/manage/s/article/K000161616" rel="noopener" target="_blank"&gt;K000161616&lt;/a&gt; / CVE-2026-42530&lt;/li&gt;
-&lt;li&gt;模块说明：HTTP/3 QUIC 模块的释放后使用问题，模块为 ngx_http_v3_module&lt;/li&gt;
-&lt;li&gt;漏洞说明：未经认证的攻击者可以通过特制 HTTP/3 请求触发进程重启，在 ASLR 被禁用或绕过的情况下 RCE&lt;/li&gt;
-&lt;li&gt;影响版本：NGINX 1.31.0~1.31.1&lt;/li&gt;
-&lt;li&gt;修复版本：NGINX 1.30.3 / 1.31.2 (发布于 2026 年 6 月 17 日)&lt;/li&gt;
-&lt;li&gt;触发条件：必须显式启用 HTTP/3 QUIC 或启用 HTTP/3 模块&lt;/li&gt;
-&lt;li&gt;缓解方案：立即升级 1.31.2 + 版，或禁用 HTTP/3，或完整开启 ASLR 功能&lt;/li&gt;
+&lt;li&gt;苹果钱包应用 (Apple Wallet) 将见解功能扩展到更多地区，支持更多地区金融机构发行的银行卡&lt;/li&gt;
+&lt;li&gt;现在 iOS 和 iPadOS 软件键盘上会出现使用 Siri 写作的建议，这个新选项用来取代此前的协作工具按钮&lt;/li&gt;
+&lt;li&gt;获得新版 Siri AI 使用权限的早期测试者现在应该可以感觉到 Siri AI 的性能得到明显的提升&lt;/li&gt;
+&lt;li&gt;Siri AI 的富有表现力的语音预览功能将「语速」和「表现力」列为 Beta 2 即将推出，可能很快就可以使用&lt;/li&gt;
+&lt;li&gt;iOS 27 与 macOS 27 之间的 iPhone 镜像功能在 Beta 1 版中崩溃问题已经修复，现在稳定性可能会更好&lt;/li&gt;
+&lt;li&gt;AirPods Max 2 获得新固件更新，更新后解决 Beta 1 中的已知问题，可以更好地与 iOS 27 搭配使用&lt;/li&gt;
+&lt;li&gt;现在 Apple Home 应用也可以像 HomePod 那样远程更新 Apple TV 4K&lt;/li&gt;
+&lt;li&gt;在信息应用中，RCS 富媒体消息功能现在支持内联回复及更多功能&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;漏洞编号：&lt;a href="https://www.landian.news/go?url=https://my.f5.com/manage/s/article/K000161584" rel="noopener" target="_blank"&gt;K000161584&lt;/a&gt; / CVE-2026-42055&lt;/li&gt;
-&lt;li&gt;模块说明：ngx_http_proxy_v2_module /ngx_http_grpc_module 堆缓冲区溢出&lt;/li&gt;
-&lt;li&gt;漏洞说明：攻击者可以发送超大或异常的 HTTP Header 在特定条件下触发崩溃，极端情况下 RCE&lt;/li&gt;
-&lt;li&gt;影响版本：NGINX 1.31.0~1.31.1&lt;/li&gt;
-&lt;li&gt;修复版本：NGINX 1.30.3 / 1.31.2 (发布于 2026 年 6 月 17 日)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;满足代理 HTTP/2 或 gRPC 、ignore_invalid_headers off、large_client_header_buffers 大于 2MB 才能触发&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;缓解方案：立即升级 1.30.3 / 1.31.2 版&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;此前 NGINX 被爆出多个高危漏洞，这些漏洞多数都是 AI 发现的，&lt;a href="https://www.landian.news/archives/113106.html" rel="noopener" target="_blank"&gt;但漏洞被公开后就有安全研究员吐槽这些漏洞利用条件都比较极端&lt;/a&gt;，也就是大多数典型配置中压根不会触发漏洞。而此次爆出的漏洞中，CVE-2026-42530 影响范围更大，因为现在已经有很多网站启用 HTTP/3 QUIC (蓝点网服务器也已经启用)。&lt;/p&gt;
-&lt;p&gt;当然并不是说启用 HTTP/3 就会被利用，因为利用前提是 ASLR 被禁用或被成功绕过，而典型的 Linux 配置是开启 ASLR 的，例如蓝点网使用的 Debian 13 默认就是开启 ASLR 的，这种情况下黑客还需要想办法绕过 ASLR 才行 (难度更大)，所以即便没有升级也不是特别大的问题。&lt;/p&gt;
-&lt;p&gt;只不过如果可以的话还是尽早升级到不受影响的版本，毕竟没人知道这些旧版本里是否还会包含其他更容易被利用的漏洞，所以能升级肯定还是优先升级，不能升级再考虑其他缓解措施例如禁用 HTTP/3 或开启 ASLR 功能。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;# 使用命令
-cat /proc/sys/kernel/randomize_va_space
-# 或使用命令
-sysctl kernel.randomize_va_space
-# 返回结果如下
-0 = 禁用 ASLR
-1 = 部分启用
-2 = 完整启用&lt;/pre&gt;
+&lt;p&gt;转到设置、通用、软件更新、Beta 版更新，在这里将更新通道切换为 iOS 27 Developer Beta，切换后点击检查更新即可获得 iOS 27 的最新开发者预览版更新，首次更新可能需要下载 10GB 甚至更高的安装包 (取决于机型)，安装时可能需要 15 分钟或更久，更新后设置中会显示自动索引，索引功能可能需要 7 天甚至更长时间才能完成。&lt;/p&gt;
+&lt;p&gt;总体来说 iOS 27 的软件兼容性几乎没有什么问题，比以前的 iOS 开发者预览版稳定性要高很多，当然代价是升级到 iOS 27 后也没有什么特别明显的功能变化，所以追求体验新功能的用户可以自行考虑是否要使用 iOS 27 开发者预览版。&lt;/p&gt;
 &lt;p aria-label="活动推荐"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;活动推荐终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 22 Jun 2026 05:21:11 +0000</pubDate></item><item><title>UniFi推出基于ZFS的企业级NAS服务器 采用3U设计16盘位和25GbE光口</title><link>https://www.landian.news/archives/113594.html</link><description>
-&lt;p&gt;#硬件设备 UniFi 推出基于 ZFS 存储系统的企业级 NAS 服务器，裸机售价 4,000 美元，配备 64GB ECC 内存，基于 Arm 平台。这款 ENAS 为 3U 机架设计，提供 16 盘位 + 2 盘位 NVMe SSD 做缓存，配备 2 个 25GbE SFP28 光口模块，不限制客户使用任何硬盘品牌或型号，不需要支付 UniFi 许可费用。查看全文：https://ourl.co/113594&lt;/p&gt;&lt;p&gt;知名网络设备制造商 Ubiquiti (UniFi 是其品牌) 日前推出基于 ZFS 存储系统的 NAS 服务器，这款服务器主要面向企业客户提供，采用 3U 机架式设计，提供 16 盘位并且不会限制客户使用任何硬盘 (&lt;a href="https://www.landian.news/archives/110830.html" rel="noopener" target="_blank"&gt;显然这里是蛐蛐群晖的&lt;/a&gt;)，采用的处理器则是基于 Arm 架构的，不过对于 NAS 来说这种处理器性能也是足够的。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113594-1.png" rel="nofollow"&gt;&lt;img alt="UniFi推出基于ZFS的企业级NAS服务器 采用3U设计16盘位和25GbE光口" data-src="https://img.lancdn.com/landian/2026/06/113594-1.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113594-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113594-2.png" rel="nofollow"&gt;&lt;img alt="UniFi推出基于ZFS的企业级NAS服务器 采用3U设计16盘位和25GbE光口" data-src="https://img.lancdn.com/landian/2026/06/113594-2.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113594-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113594-3.png" rel="nofollow"&gt;&lt;img alt="UniFi推出基于ZFS的企业级NAS服务器 采用3U设计16盘位和25GbE光口" data-src="https://img.lancdn.com/landian/2026/06/113594-3.png" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113594-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113594-4.png" rel="nofollow"&gt;&lt;img alt="UniFi推出基于ZFS的企业级NAS服务器 采用3U设计16盘位和25GbE光口" data-src="https://img.lancdn.com/landian/2026/06/113594-4.png" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113594-4.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113594-5.png" rel="nofollow"&gt;&lt;img alt="UniFi推出基于ZFS的企业级NAS服务器 采用3U设计16盘位和25GbE光口" data-src="https://img.lancdn.com/landian/2026/06/113594-5.png" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113594-5.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;底层系统：基于开源的 ZFS 存储系统&lt;/li&gt;
-&lt;li&gt;核心数量：8 颗 Arm Neoverse N2 内核 (基于 Armv9-A)&lt;/li&gt;
-&lt;li&gt;内存总量：64GB ECC 内存&lt;/li&gt;
-&lt;li&gt;缓存系统：提供 2 个 NVMe SSD 盘位，可选购买固态盘作为缓存&lt;/li&gt;
-&lt;li&gt;硬盘数量：3.5'' 盘位，共有 16 盘位，没有硬盘锁定政策&lt;/li&gt;
-&lt;li&gt;最大容量：可扩展到 1PB 甚至更高的存储容量&lt;/li&gt;
-&lt;li&gt;网络模块：配备 2 个 25GbE SFP28 光口 + 1 个 10GbE 电口&lt;/li&gt;
-&lt;li&gt;电源模块：提供冗余电源模块增强可靠性&lt;/li&gt;
-&lt;li&gt;授权费用：支持使用 UniFi 进行免许可管理，无需授权费&lt;/li&gt;
-&lt;li&gt;平台兼容：原生 iSCSI 共享块存储、兼容 PVE、VMware 和 Hyper-V 集群&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;这款企业级 NAS 服务器的主要特点在于可以直接与 UniFi 平台进行集成，这意味着企业可以使用 UniFi 简化管理、配置跨团队的数据可见性、为文件存储 / 数据共享 / 备份提供集中的数据存储位置，UniFi ENAS 也为客户提供安全访问权限，客户可以使用 ENAS 与现有的身份验证提供商集成，从而使用基于角色的访问控制，在确保安全性的同时简化用户管理。&lt;/p&gt;
-&lt;p&gt;既然是定位企业级因此这款 ENAS 价格自然不会便宜，裸机售价 4,000 美元，客户需要自备机柜、机械硬盘、NVMe 固态硬盘以及光网设备，不过对使用 UniFi 的企业来说这应该不是问题，毕竟可以与 UniFi 集成，如果本来就已经使用 UniFi 的产品，那配合这款 ENAS 相对来说也会更方便。&lt;/p&gt;
-&lt;p aria-label="活动推荐"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;活动推荐终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 22 Jun 2026 04:42:28 +0000</pubDate></item><item><title>有传闻称AMD计划再次提高RX9000系列显卡价格 原因是显存价格继续上涨</title><link>https://www.landian.news/archives/113560.html</link><description>
-&lt;p&gt;#硬件设备 有传闻称 AMD 计划在 3 季度对 RX9000 系列显卡涨价，涨幅在 10%~15% 左右，涨价原因还是因为内存 / 显存价格持续上涨。发布该消息的源网站 GAZLOG 称，目前涨价只是在计划中并非最终定论，因为显卡价格过高势必会影响销量，此前也出现过涨价后部分显卡滞销的情况。查看全文：https://ourl.co/113560&lt;/p&gt;&lt;p&gt;科技网站 GAZLOG 发布的消息称，AMD 计划在 2026Q3 再次调整消费级显卡价格，此次调整涨幅预计为 10%~15%，涨价原因则是 AMD 预计显存芯片将在下半年继续涨价，这会直接导致显卡制造成本上涨，AMD 需要将这部分成本转嫁给消费者以确保利润率。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113560.png" rel="nofollow"&gt;&lt;img alt="有传闻称AMD计划再次提高RX9000系列显卡价格 原因是显存价格继续上涨" data-src="https://img.lancdn.com/landian/2026/06/113560.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113560.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在 2026 年上半年消费级显卡价格调整已经非常常见，我们已经看到 AMD 和英伟达因显存芯片涨价而提高出厂价格，下游 AIC 制造商也会跟着提价，最终到消费者环节就是显卡价格越来越高，尤其是高性能显卡的价格持续上涨，而配备大容量显存的显卡价格涨幅更加夸张。&lt;/p&gt;
-&lt;p&gt;人工智能基础设施对芯片的需求量非常高导致目前整个供应链都非常缺货，像是 SK 海力士等都在优先将产能转移到 AI 服务器使用的 HBM 芯片上，这导致面向普通消费级产品的内存 / 显存芯片供应量受限，制造商必须支付更高的价格才能获得内存芯片，当然即便支付高价也可能无法满足长期需求。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;GAZLOG 称 AMD 的涨价目前还在计划中而非最终定论，考虑到市场竞争问题，AMD 可能会谨慎调整消费级产品价格，因为目前英伟达似乎没有计划再次对消费级显卡涨价，当然即便不涨价现在高性能显卡的价格也同样非常高，对游戏玩家来说现在的局面是非常让人难受的。&lt;/p&gt;
-&lt;p&gt;显卡涨价对制造商来说也是问题，因为大多数用户不会购买超过 500 美元的显卡，因此价格过高就会导致显卡滞销，此前就曾出现过部分中高端显卡涨价后出现滞销的情况，最终零售商只能以折扣的形式降价以回收成本，当然零售商是不可能亏损的，最多也就是将价格降到显卡原本的建议零售价附近。&lt;/p&gt;
-&lt;p aria-label="活动推荐"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;活动推荐终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 22 Jun 2026 04:12:34 +0000</pubDate></item><item><title>Gemini CLI停止处理个人账户请求 用户需更换为反重力CLI 但企业用户不受影响</title><link>https://www.landian.news/archives/113559.html</link><description>
-&lt;p&gt;#软件资讯 谷歌 Gemini CLI 停止处理来自个人账户的请求，用户必须迁移到反重力 CLI。从 6 月 19 日开始 Gemini CLI 不再向个人用户提供服务，开通谷歌 AI 订阅的个人用户都必须迁移到反重力 CLI，但持有 Gemini Code Assist 和通过 API 验证的企业用户暂时还可以继续使用。查看全文：https://ourl.co/113559&lt;/p&gt;&lt;p&gt;此前谷歌已经提前发布通知将逐渐废弃 Gemini CLI 工具，谷歌的目的是将开发者陆续转移到反重力 CLI 工具，坊间也有传闻称这是谷歌内部斗争的结果，也就是反重力团队在斗争中获胜并占据主动权，问题在于反重力 CLI 无法提供所有 Gemini CLI 的功能，所以开发者是做不到平滑迁移的。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/113006.png" rel="nofollow"&gt;&lt;img alt="Gemini CLI停止处理个人账户请求 用户需更换为反重力CLI 但企业用户不受影响" data-src="https://img.lancdn.com/landian/2026/05/113006.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/113006.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;据谷歌 AI 团队发布的公告，从 2026 年 6 月 19 日起 Gemini CLI 停止处理来自个人账户的请求，也就是如果用户直接通过谷歌 AI 订阅账户登录的 Gemini CLI，现在将无法继续使用，但谷歌暂时还继续向企业客户提供服务，包括持有 Gemini Code Assist 许可证和 API 密钥身份验证的企业客户。&lt;/p&gt;
-&lt;p&gt;该政策也适用于 Gemini CLI for IDE 扩展程序，使用 Google AI Pro / Ultra 订阅以及使用个人版 Gemini Code Assist 的开发者都必须迁移到反重力 CLI，不过 Gemini CLI 对企业版的支持截止时间目前还没有公布，可能谷歌会给企业客户预留更长的迁移时间。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在公告中谷歌 AI 团队也强调这是重大变革，工作流程的调整并非易事，不过谷歌致力于整合开发工作全力打造更强大的反重力套件，反重力 CLI 可以替代 Gemini CLI 在终端中继续构建工作流，反重力 CLI 提供统一的、智能体优先的终端体验，重点是也和反重力桌面平台共享后端基础设施用来执行复杂任务。&lt;/p&gt;
-&lt;p&gt;目前反重力 CLI 可以直接从 Gemini CLI 中导入数据，在安装过程中会检测本地是否安装 Gemini CLI，如果安装则会导入已经安装的技能和自定义技能、自动迁移 MCP 服务器和相关设置、导入智能体资料和设置、与现有的 Gemini.md 文件兼容等。&lt;/p&gt;
-&lt;p&gt;有兴趣的开发者可以访问：&lt;a href="https://www.landian.news/go?url=https://github.com/google-antigravity/antigravity-cli" rel="noopener" target="_blank"&gt;https://github.com/google-antigravity/antigravity-cli&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="活动推荐"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;活动推荐终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 22 Jun 2026 03:00:18 +0000</pubDate></item><item><title>谷歌reCAPTCHA验证机制新增手势验证 需要用户拍摄手部视频进行真人验证</title><link>https://www.landian.news/archives/113558.html</link><description>
-&lt;p&gt;#行业资讯 谷歌 reCAPTCHA 验证机制新增手势验证，需要用户拍摄手部视频进行真人验证。该功能目前正在向部分开发者提供，是否启用此功能取决于开发者，AI 机器人想要绕过这种机制难度会增加，不过也会给大量普通用户造成麻烦，尤其是隐私方面的担忧。查看全文：https://ourl.co/113558&lt;/p&gt;&lt;p&gt;谷歌从 6 月中旬开始面向部分开发者有限测试 reCAPTCHA 手势验证机制，该验证机制需要用户拍摄手部视频并回传到谷歌服务器，这种验证机制主要是用来打击机器人绕过问题，传统的图片和文字验证码已经很容易被破解，所以谷歌提供更加极端的验证方式，当然是否部署这种验证方式取决于开发者。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113558A.png" rel="nofollow"&gt;&lt;img alt="谷歌reCAPTCHA验证机制新增手势验证 需要用户拍摄手部视频进行真人验证" data-src="https://img.lancdn.com/landian/2026/06/113558A.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113558A.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;根据谷歌的说明，谷歌会分析用户在执行各种操作或手势时的一段或多段手部视频，系统会处理视频以提取手部数据，包括 21 个指关节坐标，谷歌强调视频绝对不会与用户的身份关联，并且在验证结束后视频会被立即删除，同时录制视频时谷歌也不会录制音频。&lt;/p&gt;
-&lt;p&gt;谷歌给出的简要数据存储政策是：验证流程结束后谷歌不会保留用户手势的任何图片或视频，也不会将这些数据用于其他任何目的，完成验证后视频或图片会被自动删除，谷歌会根据谷歌隐私权政策来使用和存储所收集的信息。&lt;/p&gt;
-&lt;p&gt;权限方面要进行验证时用户必须授予摄像头使用权限，这项权限是基于浏览器设置的，用户在完成验证后可以禁用特定网站继续调用摄像头权限，谷歌也不会将相关数据或权限转移给第三方 (例如网站或其他合作伙伴)。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;谷歌为开发者提供手势验证的根本目的就是对抗越来越强的基于人工智能技术的机器人，这类机器人可以轻松破解传统的图片 (红绿灯) 和文字验证码，而基于摄像头的验证方式绕过难度会非常高，首先设备需要摄像头或者模拟摄像头，其实就是上传手部视频。&lt;/p&gt;
-&lt;p&gt;理论上说通过模拟接口上传视频也是可以的，但谷歌应该也做了防御性处理，不至于可以如此简单地绕过，只不过这类对抗机制仍然会被破解，对机器人操纵者来说绕过难度会增加但绝对不是完全无法绕过的。&lt;/p&gt;
-&lt;p aria-label="活动推荐"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;活动推荐终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 22 Jun 2026 02:30:37 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 23 Jun 2026 00:30:15 +0000</pubDate></item></channel></rss>
