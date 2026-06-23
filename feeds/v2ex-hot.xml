@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>V2EX-最热主题</title><link>https://www.v2ex.com/</link><description>V2EX-最热主题 - Powered by RSSHub</description><language>zh-CN</language><lastBuildDate>Tue, 23 Jun 2026 07:39:25 +0000</lastBuildDate><item><title>做过后端的人来说说重构迁移数据库难度大吗</title><link>https://www.v2ex.com/t/1222278</link><description>业务耦合性高，基本就是一坨屎，而且还是国内不入流的技术栈 c#, 现在要想重构，先从数据库迁移开始，之前没干过迁移这种事情， 这事情难度大吗，现在基本就让 AI 搞，也不知道最终会不会搞好。&lt;br/&gt;人和库有一个能跑就行
 &lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-06-23 16:44:48 +08:00"&gt;5h 51m ago&lt;/span&gt;
+Supplement 1  ·  &lt;span title="2026-06-23 16:44:48 +08:00"&gt;9h 0m ago&lt;/span&gt;
 
 另外说明一下背景：&lt;br/&gt;本人之前干前端的，简历上也基本都是写前端项目，只有一个简单的的后端项目，&lt;br/&gt;对 mysql 也基本停留在简单的 curd 上面，&lt;br/&gt;这个 cto 每次问他问题都说让我掌控这个项目，说什么对我技术能力认可的，我 tm 才刚入职 2 月而已。
 
 &lt;hr/&gt;
-Supplement 2  ·  &lt;span title="2026-06-23 21:09:30 +08:00"&gt;1h 26m ago&lt;/span&gt;
+Supplement 2  ·  &lt;span title="2026-06-23 21:09:30 +08:00"&gt;4h 36m ago&lt;/span&gt;
 
 另外说一句，目前我只负责一块业务的解耦吧算是，20 个表，然后表里面有一些服务需要拆分的，通过 api 调用方式来交互，但是我心里也没底。虽然用 AI 已经迁移了表，但是各种服务要拆分出来，主要是心里没底
 
@@ -93,7 +93,14 @@ Supplement 2  ·  &lt;span title="2026-06-23 21:09:30 +08:00"&gt;1h 26m ago&lt
 &lt;p&gt;&lt;strong&gt;#80 FreeWong&lt;/strong&gt;：你在批评别人一坨屎的代码时，自己却想要用 AI 搞，而且要求就是跑起来就行，你是不是也太双标了?&lt;br/&gt;另外，你只看到了所谓一坨屎的代码，但是你也许不知道的也许有人对开发者提出过 100 次的修改?&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#81 xiaobai012&lt;/strong&gt;：看了你的情况，我的建议是别重构，真的，还不如直接推倒做一个&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#82 qiaoqiao881100&lt;/strong&gt;：@&lt;a href="/member/FreeWong"&gt;FreeWong&lt;/a&gt; 不是我评价这个项目是屎山啊，老板亲口说这个项目是屎山&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#83 sn0wdr1am&lt;/strong&gt;：1. 重构没 KPI 。 重构好了是应该的，重构导致到处炸雷就是你的问题。&lt;br/&gt;2. 没有人关心哪里有坑，哪里有类。领导只希望你加班加点，把他重构的漂漂亮亮的。&lt;br/&gt;3. 在没有摸清问题，没有足够排期，没有兜底方案的时候，别盲目重构。&lt;br/&gt;&lt;br/&gt;一句话：重构好了是应该的，重构出篓子了都是你的锅。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Tue, 23 Jun 2026 07:39:25 +0000</pubDate></item><item><title>你有多久没有进电影院看电影了？</title><link>https://www.v2ex.com/t/1222196</link><description>&lt;p&gt;摸鱼翻到说今年电影市场已经测底凉凉了，那些名导、名角的投资过亿的片子都扑该了，平等的撞飞了这个行业的每一个人。我只想说，爽！！&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#83 sn0wdr1am&lt;/strong&gt;：1. 重构没 KPI 。 重构好了是应该的，重构导致到处炸雷就是你的问题。&lt;br/&gt;2. 没有人关心哪里有坑，哪里有类。领导只希望你加班加点，把他重构的漂漂亮亮的。&lt;br/&gt;3. 在没有摸清问题，没有足够排期，没有兜底方案的时候，别盲目重构。&lt;br/&gt;&lt;br/&gt;一句话：重构好了是应该的，重构出篓子了都是你的锅。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#84 yuancoder&lt;/strong&gt;：不难，搞吧，年轻人要有闯劲，大不了跑路&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#85 nc&lt;/strong&gt;：非必要不迁移，sqlserver 各方面不比 mysql 差。stackoverflow 用过吧，&lt;a href="http://人家就是.net" rel="nofollow noopener" target="_blank"&gt;人家就是.net&lt;/a&gt; + sqlserver ，性能极佳，Redis 都不缓存数据库查询的，当然了，人家是几台 1TB 内存的服务器跑数据库。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#86 GeruzoniAnsasu&lt;/strong&gt;：1. golang 的生态绝不会比 c#好，.net 的生态都是 m$主导，重型框架从 desktop 到跨平台到 web 到 orm 一应俱全，相比之下 golang 的官方生态除了语言本身，基本都是围绕 grpc 和云原生来的（ docker/k8s ）&lt;br/&gt;2. golang 的抽象能力跟 c#比弱了两个数量级，意味着你要「重写」很可能面临 react/vue =&amp;gt; jq+ES5 级别的特性退化，痛苦很可能不减反增&lt;br/&gt;3. 「能力认可」这个话术老油条可太熟了，鸡肋的老项目我们也都是新招实习生去搞的，开发主线谁有空去开这种新坑&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#87 Rwing&lt;/strong&gt;：@&lt;a href="/member/nc"&gt;nc&lt;/a&gt; 确实不差，但是人家也大量使用了 Redis ，参考他们的 blog&lt;br/&gt;&lt;a href="https://nickcraver.com/blog/2016/03/29/stack-overflow-the-hardware-2016-edition/" rel="nofollow noopener" target="_blank"&gt;https://nickcraver.com/blog/2016/03/29/stack-overflow-the-hardware-2016-edition/&lt;/a&gt;&lt;br/&gt;```&lt;br/&gt;SQL Servers (Stack Overflow Cluster)&lt;br/&gt;2 Dell R720xd Servers, each with:&lt;br/&gt;Dual E5-2697v2 Processors (12 cores @&lt;a href="/member/2"&gt;2&lt;/a&gt;.7–3.5GHz each)&lt;br/&gt;384 GB of RAM (24x 16 GB DIMMs)&lt;br/&gt;&lt;br/&gt;Redis Servers (Cache)&lt;br/&gt;2 Dell R630 Servers, each with:&lt;br/&gt;Dual E5-2687W v3 Processors (10 cores @&lt;a href="/member/3"&gt;3&lt;/a&gt;.1–3.5GHz each)&lt;br/&gt;256 GB of RAM (16x 16 GB DIMMs)&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Elasticsearch Servers (Search)&lt;br/&gt;3 Dell R620 Servers, each with:&lt;br/&gt;Dual E5-2680 Processors (8 cores @&lt;a href="/member/2"&gt;2&lt;/a&gt;.7–3.5GHz each)&lt;br/&gt;192 GB of RAM (12x 16 GB DIMMs)&lt;br/&gt;```&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#88 nc&lt;/strong&gt;：@&lt;a href="/member/Rwing"&gt;Rwing&lt;/a&gt; 我记错了，他们确实用 Redis 缓存数据库查询。不过数据库服务器也是很强的，2022 年的数据显示单台就有 1.5T 内存。&lt;a href="https://archive.ph/9dEsB" rel="nofollow noopener" target="_blank"&gt;https://archive.ph/9dEsB&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#89 doyel&lt;/strong&gt;：@&lt;a href="/member/qiaoqiao881100"&gt;qiaoqiao881100&lt;/a&gt; #18 你这样重构的目的是什么啊。。。几乎就是按实际业务全部重写一遍了。测试覆盖和生产环境的并行一致性确认，光这些的产生的成本，抵得上你重构这个系统产生的收益吗。&lt;br/&gt;短视的角度去看，真有屎山系统，也是屎上雕花的效果可能会更好一点。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#90 webpan94&lt;/strong&gt;：前端仔+刚入职两月+重构 C#后端，不敢想。这 CTO 是有多业余啊，感做这样的决策。要么是项目不重要，要么是人不重要。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Tue, 23 Jun 2026 07:39:25 +0000</pubDate></item><item><title>你有多久没有进电影院看电影了？</title><link>https://www.v2ex.com/t/1222196</link><description>&lt;p&gt;摸鱼翻到说今年电影市场已经测底凉凉了，那些名导、名角的投资过亿的片子都扑该了，平等的撞飞了这个行业的每一个人。我只想说，爽！！&lt;/p&gt;
 &lt;p&gt;往年一年还能去电影院看 4 、5 部片子，今年只看了“阿嬷的情书”，还是移动优惠券 3.9 看的，其他电影连关注都没关注过，真不如刷刷 AI 短剧了。&lt;/p&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 EndlessMemory&lt;/strong&gt;：几年没去了，本来也没看电影的习惯，基本都是社交需求才去看&lt;/p&gt;&lt;hr/&gt;
@@ -454,7 +461,10 @@ cp ai-berkshire/skills/*.md ~/.claude/commands/
 &lt;p&gt;&lt;strong&gt;#76 Xbathy&lt;/strong&gt;：还有一个最重要的，买特斯拉的话可以用我的引荐码么帅锅&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#77 SteveRogers&lt;/strong&gt;：作为买了 Y 一年多的车主，我说屏幕换档很舒服，公司女同事每次看到都觉得很有科技感&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#78 StarsunYzL&lt;/strong&gt;：不理解那么多给屏幕换挡洗的，这东西主要目的是厂家为了省成本，而不是为了让用户使用更便利，至少国内目前是这样的，这种强行改变用户习惯又不是为了让产品更好用的做法，我为什么要去习惯它帮它辩解，图个啥，退一步讲就算能习惯它也不如怀档便利，即只要有得选我都不会首选它&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#79 jason94&lt;/strong&gt;：屏幕换挡不是问题&lt;br/&gt;自动雨刷要关掉&lt;br/&gt;百度地图还行，预计到达时间非常准&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Tue, 23 Jun 2026 02:22:42 +0000</pubDate></item><item><title>京津通勤的一天时间线</title><link>https://www.v2ex.com/t/1222164</link><description>&lt;p&gt;家住天津南站附近，每天天津南-北京南通勤，公司在永安里地铁站。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#79 jason94&lt;/strong&gt;：屏幕换挡不是问题&lt;br/&gt;自动雨刷要关掉&lt;br/&gt;百度地图还行，预计到达时间非常准&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#80 windblueos&lt;/strong&gt;：参考下我的过程， 叠个甲 周边朋友开的最多坐的最多是 Y ，但是&lt;br/&gt;&lt;br/&gt;试驾了不下 3 回，开过朋友两次， 始终说服不了自己接受屏幕换挡&lt;br/&gt;最后试驾一次 i6 后 终于死心+领导强烈要求放弃了 model y ， &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;结论： 多试试，有时候萝卜青菜，各有所爱&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#81 thx2u&lt;/strong&gt;：赞同楼上理想 i6 ，不过建议等 10 月份的马赫 M100 芯片的理想 i6&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#82 lifeintools&lt;/strong&gt;：我接受不了屏幕换挡。。太傻逼了。不着急 建议你 27 年买。。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Tue, 23 Jun 2026 02:22:42 +0000</pubDate></item><item><title>京津通勤的一天时间线</title><link>https://www.v2ex.com/t/1222164</link><description>&lt;p&gt;家住天津南站附近，每天天津南-北京南通勤，公司在永安里地铁站。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;06:00&lt;/strong&gt; 起床&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;06:00~06:20&lt;/strong&gt; 洗漱、喝一杯白开水、上厕所&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;06:20&lt;/strong&gt;              出门，骑自行车去高铁站，4.5 公里路程&lt;/p&gt;
