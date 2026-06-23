@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>V2EX-最热主题</title><link>https://www.v2ex.com/</link><description>V2EX-最热主题 - Powered by RSSHub</description><language>zh-CN</language><lastBuildDate>Tue, 23 Jun 2026 07:39:25 +0000</lastBuildDate><item><title>做过后端的人来说说重构迁移数据库难度大吗</title><link>https://www.v2ex.com/t/1222278</link><description>业务耦合性高，基本就是一坨屎，而且还是国内不入流的技术栈 c#, 现在要想重构，先从数据库迁移开始，之前没干过迁移这种事情， 这事情难度大吗，现在基本就让 AI 搞，也不知道最终会不会搞好。&lt;br/&gt;人和库有一个能跑就行
 &lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-06-23 16:44:48 +08:00"&gt;9h 0m ago&lt;/span&gt;
+Supplement 1  ·  &lt;span title="2026-06-23 16:44:48 +08:00"&gt;11h 9m ago&lt;/span&gt;
 
 另外说明一下背景：&lt;br/&gt;本人之前干前端的，简历上也基本都是写前端项目，只有一个简单的的后端项目，&lt;br/&gt;对 mysql 也基本停留在简单的 curd 上面，&lt;br/&gt;这个 cto 每次问他问题都说让我掌控这个项目，说什么对我技术能力认可的，我 tm 才刚入职 2 月而已。
 
 &lt;hr/&gt;
-Supplement 2  ·  &lt;span title="2026-06-23 21:09:30 +08:00"&gt;4h 36m ago&lt;/span&gt;
+Supplement 2  ·  &lt;span title="2026-06-23 21:09:30 +08:00"&gt;6h 44m ago&lt;/span&gt;
 
 另外说一句，目前我只负责一块业务的解耦吧算是，20 个表，然后表里面有一些服务需要拆分的，通过 api 调用方式来交互，但是我心里也没底。虽然用 AI 已经迁移了表，但是各种服务要拆分出来，主要是心里没底
 
@@ -100,7 +100,10 @@ Supplement 2  ·  &lt;span title="2026-06-23 21:09:30 +08:00"&gt;4h 36m ago&lt
 &lt;p&gt;&lt;strong&gt;#87 Rwing&lt;/strong&gt;：@&lt;a href="/member/nc"&gt;nc&lt;/a&gt; 确实不差，但是人家也大量使用了 Redis ，参考他们的 blog&lt;br/&gt;&lt;a href="https://nickcraver.com/blog/2016/03/29/stack-overflow-the-hardware-2016-edition/" rel="nofollow noopener" target="_blank"&gt;https://nickcraver.com/blog/2016/03/29/stack-overflow-the-hardware-2016-edition/&lt;/a&gt;&lt;br/&gt;```&lt;br/&gt;SQL Servers (Stack Overflow Cluster)&lt;br/&gt;2 Dell R720xd Servers, each with:&lt;br/&gt;Dual E5-2697v2 Processors (12 cores @&lt;a href="/member/2"&gt;2&lt;/a&gt;.7–3.5GHz each)&lt;br/&gt;384 GB of RAM (24x 16 GB DIMMs)&lt;br/&gt;&lt;br/&gt;Redis Servers (Cache)&lt;br/&gt;2 Dell R630 Servers, each with:&lt;br/&gt;Dual E5-2687W v3 Processors (10 cores @&lt;a href="/member/3"&gt;3&lt;/a&gt;.1–3.5GHz each)&lt;br/&gt;256 GB of RAM (16x 16 GB DIMMs)&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Elasticsearch Servers (Search)&lt;br/&gt;3 Dell R620 Servers, each with:&lt;br/&gt;Dual E5-2680 Processors (8 cores @&lt;a href="/member/2"&gt;2&lt;/a&gt;.7–3.5GHz each)&lt;br/&gt;192 GB of RAM (12x 16 GB DIMMs)&lt;br/&gt;```&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#88 nc&lt;/strong&gt;：@&lt;a href="/member/Rwing"&gt;Rwing&lt;/a&gt; 我记错了，他们确实用 Redis 缓存数据库查询。不过数据库服务器也是很强的，2022 年的数据显示单台就有 1.5T 内存。&lt;a href="https://archive.ph/9dEsB" rel="nofollow noopener" target="_blank"&gt;https://archive.ph/9dEsB&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#89 doyel&lt;/strong&gt;：@&lt;a href="/member/qiaoqiao881100"&gt;qiaoqiao881100&lt;/a&gt; #18 你这样重构的目的是什么啊。。。几乎就是按实际业务全部重写一遍了。测试覆盖和生产环境的并行一致性确认，光这些的产生的成本，抵得上你重构这个系统产生的收益吗。&lt;br/&gt;短视的角度去看，真有屎山系统，也是屎上雕花的效果可能会更好一点。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#90 webpan94&lt;/strong&gt;：前端仔+刚入职两月+重构 C#后端，不敢想。这 CTO 是有多业余啊，感做这样的决策。要么是项目不重要，要么是人不重要。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Tue, 23 Jun 2026 07:39:25 +0000</pubDate></item><item><title>你有多久没有进电影院看电影了？</title><link>https://www.v2ex.com/t/1222196</link><description>&lt;p&gt;摸鱼翻到说今年电影市场已经测底凉凉了，那些名导、名角的投资过亿的片子都扑该了，平等的撞飞了这个行业的每一个人。我只想说，爽！！&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#90 webpan94&lt;/strong&gt;：前端仔+刚入职两月+重构 C#后端，不敢想。这 CTO 是有多业余啊，感做这样的决策。要么是项目不重要，要么是人不重要。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#91 DeWjjj&lt;/strong&gt;：别重构了，包一层然后慢慢迁移。&lt;br/&gt;今天挪一点明天挪一点，几次迭代可能就挪干净了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#92 DeWjjj&lt;/strong&gt;：有一个外国搞电商的方法是，每个用户都维护最初使用的版本，用户不选不升级。&lt;br/&gt;做 v2 v3 v4 v5 ，你的目的就是做个 v2 ，然后新用户接进来老用户别去管。&lt;br/&gt;用户要迁移新版本，你再去把数据做个管道转移了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#93 msg7086&lt;/strong&gt;：有 Leader 掌控兜底，问题不大。先花点时间把测试覆盖率涂满，然后一块一块重构。&lt;br/&gt;你要问难度大不大，那肯定大的，但是这个难度大不是说做起来累，而是说你得有能力才能做。这事情你让一个有丰富 AI 和重构经验的人来做，不难。你让一个刚起步的人去做，那就很难了。&lt;br/&gt;假如你说的背景基本属实，没有妄自菲薄，那你们 CTO 就是坑子，开工前说相信你，开工后炸了你全责。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Tue, 23 Jun 2026 07:39:25 +0000</pubDate></item><item><title>你有多久没有进电影院看电影了？</title><link>https://www.v2ex.com/t/1222196</link><description>&lt;p&gt;摸鱼翻到说今年电影市场已经测底凉凉了，那些名导、名角的投资过亿的片子都扑该了，平等的撞飞了这个行业的每一个人。我只想说，爽！！&lt;/p&gt;
 &lt;p&gt;往年一年还能去电影院看 4 、5 部片子，今年只看了“阿嬷的情书”，还是移动优惠券 3.9 看的，其他电影连关注都没关注过，真不如刷刷 AI 短剧了。&lt;/p&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 EndlessMemory&lt;/strong&gt;：几年没去了，本来也没看电影的习惯，基本都是社交需求才去看&lt;/p&gt;&lt;hr/&gt;
