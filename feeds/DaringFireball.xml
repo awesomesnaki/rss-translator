@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Wed, 24 Jun 2026 19:10:27 +0000</lastBuildDate><item><title>Safari 27 Beta中的WebKit</title><link>https://webkit.org/blog/17967/news-from-wwdc26-webkit-in-safari-27-beta/</link><description>&lt;p&gt;WebKit（回溯至WWDC时期）：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Wed, 24 Jun 2026 21:52:43 +0000</lastBuildDate><item><title>WebKit 始终在每个应用中启用“复制”菜单项。</title><link>https://lapcatsoftware.com/articles/2026/6/5.html</link><description>&lt;p&gt;杰夫·约翰逊：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;几周前，&lt;a href="https://daringfireball.net/"&gt;Daring Fireball&lt;/a&gt; 的约翰·格鲁伯问我能否复现他在 Safari 中遇到的一个问题：当网页获得焦点时，主菜单中的“拷贝”菜单项始终处于启用状态，无论网页中是否有选中内容。我确实可以复现该问题，结果发现这是 WebKit 的错。这个问题同样出现在邮件应用中——当一封邮件获得焦点时也是如此。&lt;/p&gt;
+&lt;p&gt;在苹果平台上，WebKit 是一个公共 API，除了苹果自家的应用外，第三方应用也会使用它。格鲁伯和我各自偏好的 RSS 阅读器——&lt;a href="https://netnewswire.com/"&gt;NetNewsWire&lt;/a&gt; 和 &lt;a href="https://www.vienna-rss.com/"&gt;Vienna&lt;/a&gt;——都使用 WebKit 来显示 RSS 订阅中的文章。果然，这两款应用都表现出相同的问题：当文章获得焦点时，“拷贝”菜单项始终可用。&lt;/p&gt;
+&lt;p&gt;如果你在没有选中内容的情况下从 WebKit WebView 拷贝并粘贴，会发生什么？什么都不会发生，不会有任何内容被粘贴。然而，从技术上讲，剪贴板并非为空。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在大多数 Mac 应用中，自诞生以来，如果没有要拷贝的选中内容，“编辑”→“拷贝”（以及“剪切”）命令就会被禁用。如果在“拷贝”命令被禁用时按下 ⌘C 快捷键，你会听到一声提示音，告知你原本以为正在拷贝的内容无法被拷贝，因为它没有被选中。这一提示音提供了有用的上下文。这是所有菜单项应有的正确行为——如果它们无法执行某项操作，就应被禁用，而调用被禁用的菜单项快捷键则应发出提示音。在所有使用 WebKit 的应用中，自 2025 年初以来，当 WebKit 视图获得焦点时，“拷贝”命令&lt;em&gt;始终&lt;/em&gt;处于启用状态——但如果没有选中任何内容，你得到的将是无法被粘贴到任何地方的无用剪贴板数据。（而你剪贴板上原有的内容也会消失，如果你使用剪贴板历史工具，则会退回到之前的记录。）&lt;/p&gt;
+&lt;p&gt;这显然是一个 Bug。你竟然可以拷贝空内容，从而清除剪贴板上之前的所有内容，这是不可接受的。（或者说，更确切地讲，是复制了一个毫无用处、无法解读、无法粘贴到任何地方的 plist 数据块。）&lt;/p&gt;
+&lt;p&gt;约翰逊在 &lt;a href="https://bugs.webkit.org/show_bug.cgi?id=313835"&gt;WebKit 的 Bugzilla 系统中报告了这个 Bug&lt;/a&gt;，但被错误地标记为“无法修复”。WebKit 团队在关闭约翰逊的 Bug 报告时，混淆了两个方面：一是任何使用 WebKit 的应用中“编辑”→“拷贝”命令的行为，二是即使 WebKit 视图中没有选中内容，JavaScript 的 &lt;code&gt;document.execCommand("copy")&lt;/code&gt; 也需要保持可用。WebKit 工程师去年在尝试修复 &lt;a href="https://bugs.webkit.org/show_bug.cgi?id=156529"&gt;JavaScript 行为中一个存在了十年的 Bug&lt;/a&gt; 时，在应用行为中引入了这个新的 Bug。&lt;/p&gt;&lt;p&gt;我很高兴今天早上在WebKit博客上读到，&lt;a href="https://daringfireball.net/linked/2026/06/24/webkit-safari-27"&gt;就在今天早上&lt;/a&gt;，WebKit团队鼓励提交错误报告。&lt;a href="https://bugs.webkit.org/show_bug.cgi?id=313835"&gt;这里有一个错误&lt;/a&gt;已经报告过，附带大量细节，他们只需要重新审视一下。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/06/24/webkit-always-enables-the-copy-menu-item-in-every-app" title="Permanent link to ‘WebKit Always Enables the Copy Menu Item in Every App’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Wed, 24 Jun 2026 21:52:43 +0000</pubDate></item><item><title>Safari 27 Beta中的WebKit</title><link>https://webkit.org/blog/17967/news-from-wwdc26-webkit-in-safari-27-beta/</link><description>&lt;p&gt;WebKit（回溯至WWDC时期）：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;如果你浏览Safari 27的功能和修复列表，你会注意到，尽管有58项全新功能和525项修复——这是近年来Safari版本中修复数量最多的一次——但发布的大部分内容并非关于新事物。&lt;/p&gt;
 &lt;p&gt;这些工作大多涉及让现有功能更准确地运行、处理更多边界情况，并以你期望的方式与其他功能协同工作。我们将时间投入到提升质量上——这就是这次发布及其前一年的故事。[...]&lt;/p&gt;
@@ -23,10 +33,4 @@
 &lt;li&gt;&lt;a href="https://www.finalist.works/talkshow/"&gt;Finalist&lt;/a&gt; — 一款适用于 iPhone、iPad 和 Mac 的每日规划应用，基于经过验证的纸质规划方法构建。DF 读者可免费使用六个月；详情请见链接。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;a href="https://daringfireball.net/linked/2026/06/23/the-talk-show-450" title="指向《脱口秀：‘自拍游街示众’》的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Tue, 23 Jun 2026 16:23:43 +0000</pubDate></item><item><title>超广角0.5倍镜头的用途不止于“摄影”</title><link>https://daringfireball.net/linked/2026/06/22/gurman-iphone-air-2</link><description>&lt;p&gt;关于&lt;a href="https://daringfireball.net/linked/2026/06/22/gurman-iphone-air-2"&gt;我之前那篇文章&lt;/a&gt;的一些后续思考，涉及第二代iPhone Air的额外摄像头镜头是0.5倍超广角，而非3倍或4倍长焦：&lt;/p&gt;
-&lt;p&gt;归根结底，我使用0.5倍镜头主要不是为了摄影，而是用于扫描文件和笔记，以及拍摄手中物品的“这是什么？”图片，这解释了它相比长焦镜头的实用性。我认为摄影大致意味着“我试图捕捉一个美观的影像，打算永久保存，以便在未来多年里欣赏和回忆。”&lt;/p&gt;
-&lt;p&gt;从这个意义上说，长焦只适用于摄影。超广角镜头除了拍摄你想在艺术或情感上保留的照片之外，还有额外的实用性。如果没有长焦，你可以咬咬牙使用数字变焦，但你无法模拟更宽的视角，或者更重要的是，无法模拟更近的对焦距离。iPhone 17 Pro的1倍镜头最近对焦距离为20厘米。iPhone Air的1倍镜头最近对焦距离为15厘米。这额外的5厘米确实有区别，但iPhone Pro的0.5倍镜头最近对焦距离仅为2厘米。它几乎可以对焦任何放在它前面的物体。iPhone Air的1倍镜头无法做到这一点。随着苹果智能和Siri AI的发展，拍摄物体和文本的微距照片，仅仅为了向Siri或其他聊天机器人询问相关信息，变得越来越重要。&lt;/p&gt;
-&lt;p&gt;一位之前拥有iPhone Pro机型、但去年购买了iPhone Air的读者发邮件说：“能有长焦当然&lt;em&gt;好&lt;/em&gt;；但没有超广角&lt;em&gt;很烦人&lt;/em&gt;。买的时候我以为会想念长焦，但实际上恰恰相反。如果他们加上超广角，对我来说就是一次即时升级。”&lt;/p&gt;
-&lt;p&gt;我认为这种感受总结了一切。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/06/22/ultra-wide-05x-lenses-have-utility-beyond-photography" title="指向“超广角0.5倍镜头的实用性超越‘摄影’”的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Tue, 23 Jun 2026 01:21:38 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 23 Jun 2026 16:23:43 +0000</pubDate></item></channel></rss>
