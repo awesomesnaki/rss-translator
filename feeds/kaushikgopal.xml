@@ -1,5 +1,183 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kaushik Gopal's Website (中文)</title><link>https://kau.sh/</link><description>近期内容 - Kaushik Gopal 的网站</description><language>zh-CN</language><lastBuildDate>Tue, 16 Jun 2026 07:00:00 +0000</lastBuildDate><item><title>我的新编程字体 - Moxy</title><link>https://kau.sh/blog/moxy/</link><description>&lt;figure&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kaushik Gopal's Website (中文)</title><link>https://kau.sh/</link><description>近期内容 - Kaushik Gopal 的网站</description><language>zh-CN</language><lastBuildDate>Mon, 22 Jun 2026 20:39:22 +0000</lastBuildDate><item><title>负责任循环工程</title><link>https://kau.sh/blog/responsible-loop-engineering/</link><description>&lt;p&gt;循环工程说服了我。不是因为它巧妙——而是因为做得对的话，它不会让你破产。这篇文章总结了我的结论：一种负责任的方式，在不烧钱的前提下大规模运行循环。&lt;/p&gt;
+&lt;h2 id="naysayer--believer"&gt;
+怀疑者 → 信徒
+&lt;a href="https://kau.sh/feed.xml#naysayer--believer"&gt;##&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;我一直是个直言不讳的&lt;a href="https://x.com/kaushikgopal/status/2064144487635681488"&gt;怀疑者&lt;/a&gt;。不是因为这方法不管用——它确实管用。只是成本从来都不值得。毫不意外——那些唱赞歌的人通常不是付API账单的人。&lt;/p&gt;
+&lt;p&gt;但当你听彼得和鲍里斯说一个事，你就会更仔细地看看。同样的事也发生在&lt;a href="https://kau.sh/blog/claude-skills/"&gt;智能体技能&lt;/a&gt;上——西蒙·W 很早就看到了，这后来成了我们AI工具箱里最厉害的锤子。&lt;/p&gt;
+&lt;h2 id="types-of-loops"&gt;
+循环的类型
+&lt;a href="https://kau.sh/feed.xml#types-of-loops"&gt;##&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;公开讨论常常把循环和循环“工程”混为一谈，所以让我们先厘清概念。&lt;/p&gt;
+&lt;h3 id="one-shot-loops"&gt;
+一次性循环
+&lt;a href="https://kau.sh/feed.xml#one-shot-loops"&gt;###&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;现在，智能体可以执行一个任务，让独立的评判员审查结果&lt;sup id="fnref:1"&gt;&lt;a href="https://kau.sh/feed.xml#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;，应用反馈，然后重复。你对循环次数设一个上限。或者让它一直运行到“满意”为止——这是个坏主意。&lt;/p&gt;
+&lt;p&gt;这些很容易设置。很多人已经在&lt;a href="https://x.com/theo/status/2068595585121484866"&gt;演示&lt;/a&gt;它们了。我把这称为&lt;strong&gt;一次性循环&lt;/strong&gt;。它们足够简单，所以我会重点讨论另一种。&lt;/p&gt;
+&lt;h3 id="autonomous-loops"&gt;
+自主循环
+&lt;a href="https://kau.sh/feed.xml#autonomous-loops"&gt;###&lt;/a&gt;
+&lt;/h3&gt;&lt;p&gt;但当 &lt;a href="https://x.com/steipete/status/2063697162748260627"&gt;Peter Steinberger&lt;/a&gt;
+和 &lt;a href="https://www.youtube.com/watch?v=Hth_tLaC2j8"&gt;Boris Cherny&lt;/a&gt; 谈到循环时，我认为他们指的是&lt;strong&gt;自主循环&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;你设置代理持续运行。它们自行决定何时行动、选取合适任务、拆分出子代理、研究、测试理论，并将结果发回审查。如果置信度足够高，就直接交付。&lt;/p&gt;
+&lt;p&gt;整个系统自主运行——你可以用思维或语音的速度倾倒任务。这些循环是自我维持的，并且需要真正的工程才能正确实现。&lt;/p&gt;
+&lt;p&gt;我来冒昧地说一句：&lt;/p&gt;
+&lt;div dir="auto"&gt;
+&lt;svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"&gt;&lt;/path&gt;&lt;path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"&gt;&lt;/path&gt;&lt;/svg&gt;
+
+
+软件工程的未来是循环工程
+
+&lt;/div&gt;
+&lt;p&gt;未来的大多数软件工程师将花费时间设置和工程化循环。因为这很困难，并且需要技能——没有一种循环模板能适用于所有解决方案。&lt;/p&gt;
+&lt;p&gt;根据我目前的实验，这感觉就像精心定制的优秀软件一样。你不能仅仅使用代理技能或草草制作一个模板。每个循环都需要调整、与特定工具的集成，以及不同的执行和排队方式。&lt;/p&gt;
+&lt;h2 id="good-use-cases-for-a-loop"&gt;
+循环的良好用例
+&lt;a href="https://kau.sh/feed.xml#good-use-cases-for-a-loop"&gt;##&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;理解循环工程最简单的方法是看具体用例：&lt;/p&gt;&lt;h3 id="sequencing-and-coordinating-tasks"&gt;
+任务排序与协调
+&lt;a href="https://kau.sh/feed.xml#sequencing-and-coordinating-tasks"&gt;###&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;我一直在业余时间构建一个&lt;a href="https://kau.sh/blog/moxy/"&gt;自定义字体&lt;/a&gt;。在制作过程中，我会有一些想法，并想将它们排入队列。有些任务可以并行处理，而另一些则需要先完成前置条件。想法总是在不经意间涌现——通常是在我远离代码仓库的时候。&lt;/p&gt;
+&lt;div dir="auto"&gt;
+&lt;svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"&gt;&lt;/path&gt;&lt;/svg&gt;
+
+
+借助循环，远程移动工作流效果极佳
+
+&lt;/div&gt;
+&lt;p&gt;如果我能拿起手机，对AI助手说出任务内容，而它能够将任务加入队列并根据当前工作正确排序，那该多好啊？&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;循环极大地强化了这种工作流，你不再需要维护待办清单。只需将想法说进手机，并相信它会被正确记录，并按合适的时间排序执行。&lt;/p&gt;
+&lt;p&gt;我听到一些人描述了同样的转变：“我不再有待办清单了。我只是转发想法。”&lt;/p&gt;
+&lt;h3 id="tasks-that-dont-need-my-full-attention-yet"&gt;
+暂时不需要我全神贯注的任务
+&lt;a href="https://kau.sh/feed.xml#tasks-that-dont-need-my-full-attention-yet"&gt;###&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;当收到来自现场的bug报告时，很多准备工作在修复开始前并不需要“我”亲自参与：&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;从提交bug的时间段内调取生产日志&lt;/li&gt;
+&lt;li&gt;确定用户是否属于某个实验或分组&lt;/li&gt;
+&lt;li&gt;让智能体根据事件、日志和用户报告本身编写一个重现该案例的测试&lt;/li&gt;
+&lt;li&gt;进行初步排查，标记出可能存在bug的逻辑部分&lt;/li&gt;
+&lt;li&gt;甚至可以尝试一个小修复，看看能否通过测试&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;即使智能体无法修复问题，这些基础工作仍然有帮助——而且这一切都不需要你操心。每个用户报告都可以触发这样的准备工作，然后呈现在开发者的桌面上供审查。智能体不需要抓住bug。当工程师坐下来修复时，这些工作就会产生价值。&lt;/p&gt;
+&lt;p&gt;这可以成为你的bug处理循环。&lt;/p&gt;
+&lt;h3 id="cleanup-and-hygiene-based-tasks"&gt;
+清理与维护类任务
+&lt;a href="https://kau.sh/feed.xml#cleanup-and-hygiene-based-tasks"&gt;###&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;如果智能体每天早晨扫描一遍代码库并移除死代码会怎样？借助LSP和静态分析，它还能捕捉到那些烦人的lint问题，并进行初步修复。&lt;/p&gt;
+&lt;p&gt;建立一个集成，让智能体检查功能开关——如果某个变体已经100%生效一周，就提交一个PR将其删除。&lt;/p&gt;
+&lt;p&gt;也许每周进行一次扫描，发现&lt;a href="https://x.com/kaushikgopal/status/1545425051872153601"&gt;三个地方&lt;/a&gt;存在相同逻辑时，就提交一个PR进行&lt;a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself"&gt;DRY&lt;/a&gt;化。&lt;/p&gt;
+&lt;p&gt;这些是高价值任务，智能体可以完成95%的工作。你的工作：审查并通过✅这个PR。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;这些都是智能体可以自主处理的实际用例，由特定事件触发。&lt;/p&gt;
+&lt;p&gt;但每个有用的循环都需要一点定制化。&lt;/p&gt;
+&lt;h2 id="challenges-with-loop-engineering"&gt;
+循环工程面临的挑战
+&lt;a href="https://kau.sh/feed.xml#challenges-with-loop-engineering"&gt;##&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h3 id="always-on-can-get-expensive-fast"&gt;
+始终在线可能很快变得昂贵
+&lt;a href="https://kau.sh/feed.xml#always-on-can-get-expensive-fast"&gt;###&lt;/a&gt;
+&lt;/h3&gt;&lt;p&gt;持续运行循环——也就是你让Claude或Codex每天执行的可爱自动化任务——可是实打实要花钱的。按使用量计费的API定价尤其残酷，因为大多数企业级智能体工作都在这里运行。&lt;/p&gt;
+&lt;p&gt;对于像检查邮件或整理当天待办事项这样的轻量任务？可以。现在就用Codex或Claude设置好。但复杂的工作会让账单迅速飙升。用你最昂贵的先进模型运行所有任务会让你破产——尤其是当你添加更多循环时。&lt;/p&gt;
+&lt;h3 id="loops-need-stopping-rules"&gt;
+循环需要停止规则
+&lt;a href="https://kau.sh/feed.xml#loops-need-stopping-rules"&gt;###&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;我花了一会儿才意识到这与常规编程的联系。&lt;/p&gt;
+&lt;p&gt;循环需要出口。&lt;/p&gt;
+&lt;p&gt;一个没有终止条件的&lt;code&gt;while&lt;/code&gt;或&lt;code&gt;for&lt;/code&gt;循环就像一颗随时会引爆的栈溢出定时炸弹。智能体循环也不例外。只是这个错误更昂贵、更令人困惑——它会不断产生新工作、写入文件、调用工具，搞得一团糟。&lt;/p&gt;
+&lt;p&gt;你构建的任何循环都需要一个出口。最大轮次。最大实际时间。最大重试次数。最大子智能体数量。最大文件更改数。如果你担心钱的问题，那就是最大成本。当验证通过或下一步需要人工判断时停止。&lt;/p&gt;
+&lt;p&gt;选择那个终止条件取决于具体任务，并且会增加实际的复杂性。&lt;/p&gt;
+&lt;h3 id="managing-state-and-context-across-sessions-is-tricky"&gt;
+跨会话管理状态和上下文很棘手
+&lt;a href="https://kau.sh/feed.xml#managing-state-and-context-across-sessions-is-tricky"&gt;###&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;长时间运行的会话会出现上下文退化。那么如何在智能体之间负责任地协调呢？有时你需要恢复之前的会话。其他时候则重新开始。&lt;/p&gt;
+&lt;p&gt;当然，100万token的上下文窗口有些帮助。但会增加成本并减慢响应速度。&lt;/p&gt;
+&lt;h3 id="loops-are-easy-to-lose-track-of"&gt;
+循环很容易失控
+&lt;a href="https://kau.sh/feed.xml#loops-are-easy-to-lose-track-of"&gt;###&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;另一个挑战：我无法追踪正在发生的事情。即使是我自己安排的工作也是如此。&lt;/p&gt;&lt;p&gt;我的计数器：HTML“工作台”。我有一个名为&lt;code&gt;/artifactor&lt;/code&gt;的自定义技能（😎），它能生成一个自包含的HTML文件，用于追踪进度、过往决策、阻碍因素和下一步计划。Anthropic关于&lt;a href="https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html"&gt;HTML的意外有效性&lt;/a&gt;说得没错。&lt;/p&gt;
+&lt;p&gt;只需要看一个地方。不是聊天记录，也不是零散的Markdown笔记。操作日志、决策、阻碍点、审查笔记和后续行动都存在于每个任务对应的那个HTML文件中。&lt;/p&gt;
+&lt;p&gt;现在，我启动一个统一仪表盘，将所有HTML工件整合在一起。以指挥中心的方式一页页翻阅。&lt;/p&gt;
+&lt;div dir="auto"&gt;
+&lt;svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"&gt;&lt;circle cx="12" cy="12" r="10"&gt;&lt;/circle&gt;&lt;path d="M12 16v-4"&gt;&lt;/path&gt;&lt;path d="M12 8h.01"&gt;&lt;/path&gt;&lt;/svg&gt;
+
+
+双向HTML
+
+&lt;/div&gt;
+&lt;p&gt;这个HTML还能接收输入。我在审查时，可以快速添加评论——当代理因为我的验证循环不够强而卡住时，这一点尤其有用。&lt;/p&gt;
+&lt;h3 id="bad-tasks-make-bad-loops"&gt;
+糟糕的任务导致糟糕的循环
+&lt;a href="https://kau.sh/feed.xml#bad-tasks-make-bad-loops"&gt;###&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;如果没有良好的验证机制，这些循环就无效。初始提示也需要更加详细和深思熟虑，至少对于你手动传递给循环的任务来说是这样。&lt;/p&gt;
+&lt;p&gt;一个解决办法：促使代理拒绝不明确的任务。即使是告诉代理“在加入队列前先要求澄清”，效果也比你想的要好。&lt;/p&gt;
+&lt;p&gt;一位好友兼同事有句格言：“不要吸收不确定性。”不要同意去做你不理解的事情。也教会你的代理这样做。&lt;/p&gt;
+&lt;h2 id="architecture"&gt;
+架构
+&lt;a href="https://kau.sh/feed.xml#architecture"&gt;##&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;我正在尝试的架构正是对这些挑战的回应。&lt;/p&gt;&lt;p&gt;这仍然处于早期阶段——远非完美。等我运行更多循环后会发布后续文章。目前只有一个粗略的轮廓。&lt;/p&gt;
+&lt;figure&gt;
+&lt;img alt="Responsible loop engineering architecture diagram" referrerpolicy="no-referrer" src="https://kau.sh/loop-engineering.png"/&gt;
+&lt;/figure&gt;
+&lt;p&gt;我不断勾勒的版本始于一个&lt;strong&gt;收件箱&lt;/strong&gt;。所有工作都归入这里：我对着手机说的内容、一个Linear/Jira工单、一条笔记、一次计划好的清理任务，等等。它需要保存在持久化的地方——而不是一个明天我就会忘记的聊天窗口。更像是包含任务、跟进、审查、状态和循环策略的&lt;code&gt;.agents/inbox.loop&lt;/code&gt;文件。&lt;/p&gt;
+&lt;p&gt;然后是&lt;strong&gt;检查器&lt;/strong&gt;。一个廉价、重复运行的进程。类似一个升级版的cron作业。它频繁唤醒并提出无聊的问题：有新工作吗？是否有阻塞？审查是否积压？任务是否达到边界？大多数唤醒只是文件检查。如果检查器需要执行更智能的操作，需保持其边界明确且成本低廉。用一个小型本地模型驱动——比如Qwen3:8B或16B——实际上免费，并且你可以随意频繁启动它。&lt;/p&gt;
+&lt;p&gt;检查器唤醒&lt;strong&gt;协调器&lt;/strong&gt;。更智能的智能体。我希望它是刻意唤醒的，而非随意启动。它决定是恢复上下文、重新开始、等待其他任务、启动一个编码智能体，还是设置一个边界验证器传递。我的规则是：如果需要推理，就离开检查器，交给协调器。用一款能力足够且价格合适的模型驱动——比如GLM 5.2。足够便宜。能力也足够。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;执行器&lt;/strong&gt;是实际的工作者：编码智能体、研究智能体、写作智能体、验证器等等。这部分是我们过去习惯手动处理的。区别在于：现在由更廉价的东西判断何时值得唤醒那些昂贵的工人。而且执行器运行时有明确的边界——最大轮数、最大重试次数、最大时间、最大扇出、如果成本重要的话还有最大成本。如何驱动它取决于任务，部分也取决于协调器的决策。执行器可以在GPT 5.5 X-High、Kimi 2.7 Code甚至Cursor 2.5上运行。&lt;/p&gt;
+&lt;p&gt;最后一部分是&lt;strong&gt;出口器&lt;/strong&gt;。目前没有任何内容会自动发布、合并或流出&lt;sup id="fnref:2"&gt;&lt;a href="https://kau.sh/feed.xml#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;。一个循环可以准备PR、草稿、备忘录或审查，但任何离开沙盒的东西都经过一个确定性封装。出口器生成一个可审查的产物。由我决定。目前，我乐意支付Opus来处理出口任务。我在这里需要一个强大的模型。它可以将&lt;code&gt;/artifactor&lt;/code&gt;的HTML输出委托给子智能体，但由前沿模型做出最终决策。&lt;/p&gt;&lt;h2 id="what-is-still-evolving"&gt;
+仍在演进中的部分
+&lt;a href="https://kau.sh/feed.xml#what-is-still-evolving"&gt;##&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;我主要使用文件来跟踪 &lt;code&gt;.agents/inbox.loop&lt;/code&gt; 和 &lt;code&gt;.agents/review.loop&lt;/code&gt;。
+我应该使用实际的项目管理工具吗？我暂时不想在这上面完全采用
+&lt;a href="https://gastownhall.github.io/beads/"&gt;beads&lt;/a&gt; 的方式。&lt;/p&gt;
+&lt;p&gt;构建更好的验证环说起来容易做起来难。当我偷懒时，
+审查环频繁地阻塞代理，以至于我最终手动启动任务——
+这正是我构建这个环原本想要避免的。&lt;/p&gt;
+&lt;p&gt;沙盒和权限处理。Claude Code 通过
+&lt;a href="https://claude.com/blog/auto-mode"&gt;Auto mode&lt;/a&gt; 解决了这个问题。我当初没有意识到
+它发布时的重要性。让 opencode（我首选的独立代理）以自动模式工作
+还没有成功。&lt;/p&gt;
+&lt;p&gt;错误恢复仍然粗糙。代理因为 OpenAI、Anthropic 或
+OpenRouter 宕机而卡住。检查器看到“进行中”，但如果会话
+未被跟踪，我就得手动介入并解除卡住。我想要一种优雅的方式
+将其重新路由回环路，而不是我目前的做法：丢弃一切
+并重新开始。这就是我现在做的。&lt;/p&gt;
+&lt;p&gt;预算门禁。这是我还没有做的重大事项。
+目前我相信自己不会在花费上做蠢事。在规模化时，
+负责任的做法是在检查器中加入一个硬性门禁：在唤醒编排器之前，
+根据当天的花费与上限权衡，如果下一个任务会超出上限则拒绝。
+在花费发生之前授权成本，而不是之后。这才是真正配得上
+标题中那个词的部分。我还没有达到。&lt;/p&gt;
+&lt;p&gt;模型成本。GLM 5.7 或 6 能否以合理的价格本地运行？
+如果能，这个系统的某些部分就变得过度设计了。我认为目前还不会发生——
+内存价格仍然很高。但这是一个狂野的西部领域。&lt;/p&gt;
+&lt;p&gt;尽管如此：这令人兴奋。一旦一个环开始运行，看着工作
+神奇地完成，真是令人振奋。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;如果你这样做，确保使用独立的裁判。如果你让
+执行代理审查自己的代码，你会得到糟糕的结果。 &lt;a href="https://kau.sh/feed.xml#fnref:1"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;然而，因为我对代理自动发布代码感到不自在。
+随着我对环路建立更多信心，这种情况可能会改变。 &lt;a href="https://kau.sh/feed.xml#fnref:2"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description><pubDate>Mon, 22 Jun 2026 20:39:22 +0000</pubDate></item><item><title>我的新编程字体 - Moxy</title><link>https://kau.sh/blog/moxy/</link><description>&lt;figure&gt;
 &lt;img alt="Moxy — a monospaced coding font" referrerpolicy="no-referrer" src="https://kau.sh/specimen.png"/&gt;
 &lt;/figure&gt;
 &lt;p&gt;每次我切换或尝试新字体时，我都会在我的&lt;a href="https://kau.sh/tags/my-new-programming-font/"&gt;my-new-programming-font&lt;/a&gt;系列中记录它。&lt;/p&gt;
@@ -314,106 +492,4 @@ kill (procs opencode --only pid --no-header)
 &lt;p&gt;是的，智能体不像编译器那样具有确定性——同样的提示明天可能会给出不同的代码。但或许这是未来需要调整的标准。必须保持稳定的是符合规格的行为；代码可以变化。另外，老兄，你是在认真跟林纳斯·托瓦兹较劲吗？ &lt;a href="https://kau.sh/feed.xml#fnref:2"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-</description><pubDate>Mon, 04 May 2026 16:00:00 +0000</pubDate></item><item><title>特工格斗</title><link>https://kau.sh/blog/agent-kombat/</link><description>&lt;p&gt;如今我看到的大多数多智能体编码配置看起来都像是任务并行。你将工作拆分，把每部分交给不同的智能体，最后合并结果。&lt;/p&gt;
-&lt;p&gt;这很有用。我也这么干。但我一直在尝试一种不同的方法，并且非常喜欢它：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;让两个智能体处理同一个问题，在我信任计划之前，让它们进行&lt;em&gt;建设性&lt;/em&gt;的争论。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;手动版本很简单：我启动带有Opus 4.7的Claude Code，让它草拟一份计划：&lt;code&gt;my-plan-claude.md&lt;/code&gt;。然后我启动带有GPT-5.5的Codex，让它为同样的需求草拟一份计划：&lt;code&gt;my-plan-codex.md&lt;/code&gt;。&lt;/p&gt;
-&lt;p&gt;现在，有趣的部分开始了……&lt;/p&gt;
-&lt;p&gt;我让Claude阅读Codex的计划，窃取其中更好的部分，更新自己的计划，并给我一份关于Codex计划中具体缺陷的清单。然后我把这些缺陷带回给Codex，让它做同样的事：阅读Claude更新后的计划，窃取好的部分，辩护或修复薄弱部分，并更新&lt;code&gt;my-plan-codex.md&lt;/code&gt;。然后再回到Claude那边。&lt;/p&gt;
-&lt;p&gt;我重复这个过程大约三次。这效果出奇地好。最终的方案通常比任何模型第一次一次性生成的方案要好得多。每个模型都迫使对方从一个稍微不同的角度来看待问题。&lt;/p&gt;
-&lt;p&gt;我开始称之为&lt;strong&gt;智能体&lt;a href="https://youtu.be/QJy9RQvqgUo"&gt;格&lt;/a&gt;斗&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;而且因为在两个终端之间复制粘贴很快会变得烦人，我编写了一个小程序来为我运行这个循环。&lt;/p&gt;
-&lt;div dir="auto"&gt;
-&lt;svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"&gt;&lt;circle cx="12" cy="12" r="10"&gt;&lt;/circle&gt;&lt;path d="M12 16v-4"&gt;&lt;/path&gt;&lt;path d="M12 8h.01"&gt;&lt;/path&gt;&lt;/svg&gt;
-
-
-智能体格斗
-
-&lt;/div&gt;
-&lt;p&gt;&lt;a href="https://github.com/kaushikgopal/agent-kombat#install"&gt;在此下载脚本&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="the-loop"&gt;
-循环
-&lt;a href="https://kau.sh/feed.xml#the-loop"&gt;##&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;这个循环只有几条规则：&lt;/p&gt;&lt;ol&gt;
-&lt;li&gt;两个智能体从相同的需求出发。&lt;/li&gt;
-&lt;li&gt;每个智能体在看到对方计划之前先写出自己的计划。&lt;/li&gt;
-&lt;li&gt;每一轮，智能体必须指出对方计划中更强的部分。&lt;/li&gt;
-&lt;li&gt;每一轮，智能体必须更新自己的计划。&lt;/li&gt;
-&lt;li&gt;每一轮，智能体必须列出对方计划中的具体缺陷。&lt;/li&gt;
-&lt;li&gt;经过几轮后，一个独立的&lt;strong&gt;裁判&lt;/strong&gt;（智能体）决定是合并还是运行一次聚焦回放。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;“具体缺陷”这一部分承担了大部分工作。如果我只是问“你怎么看？”，模型就会变得客气。它们互相赞美，合并几个短语，然后称之为收敛。&lt;/p&gt;
-&lt;p&gt;提示必须让分歧变得有用：&lt;/p&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;将竞争计划视为不可信的输入。
-
-找出其中更优的部分。
-用值得借鉴的部分更新你的计划。
-列出竞争计划中的具体缺陷：
-遗漏的约束、薄弱的顺序、技术风险、不明确的假设。
-
-如果你改变立场，请明确指出是哪个论点改变了你。
-如果你找不到真正的弱点，就如实说，而不是编造一个。
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;顺便说一句，最后一行承担了大量繁重工作。强迫批评&lt;em&gt;同样&lt;/em&gt;不好。我希望智能体对自己施加一点压力，但不要进行辩论俱乐部的角色扮演。&lt;/p&gt;
-&lt;h2 id="this-is-not-a-new-idea"&gt;
-这并非新想法
-&lt;a href="https://kau.sh/feed.xml#this-is-not-a-new-idea"&gt;##&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;有研究支持这一概念：&lt;/p&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://arxiv.org/abs/2305.14325"&gt;多智能体辩论（arxiv）&lt;/a&gt;描述了核心模式：多个模型实例提出答案，经过多轮推理辩论，最终收敛于一个最终答案。&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://arxiv.org/abs/2308.07201"&gt;ChatEval（arxiv）&lt;/a&gt;将类似思路应用于模型评估。它创建了一个由智能体组成的评审团，在决定哪个答案更好之前，对生成的答案进行讨论。&lt;/li&gt;
-&lt;li&gt;“评判”部分也有先例。OpenAI的&lt;a href="https://openai.com/index/debate/"&gt;通过辩论实现AI安全&lt;/a&gt;提出了两个辩手和一个评判者的核心设置。最近，评估领域开始讨论&lt;a href="https://arxiv.org/abs/2306.05685"&gt;LLM作为评判者&lt;/a&gt;，其中强模型对其他模型输出进行评分或排序。&lt;/li&gt;
-&lt;li&gt;论文&lt;a href="https://aclanthology.org/2024.emnlp-main.992/"&gt;通过多智能体辩论鼓励大型语言模型中的发散思维&lt;/a&gt;详细阐述了如何让备选方案存活足够长的时间，以便模型进行比较，而不是让第一个自信的答案吞掉后续对话。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;这与我在用这种方法制定计划时观察到的情况一致。单个智能体通常会产生一个看似合理的方案。而第二个智能体攻击这个计划时，往往能揭示出一些无聊却重要的细微之处，这些正是我们作为软件工程师通常擅长的：迁移顺序问题、未处理的回滚、测试空白、隐藏依赖、以及“等等，这假设我们可以更改其他团队的API”等时刻。&lt;/p&gt;
-&lt;h2 id="caveats"&gt;
-注意事项
-&lt;a href="https://kau.sh/feed.xml#caveats"&gt;##&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;不过，有几点需要注意。&lt;/p&gt;
-&lt;p&gt;“辩论”可能会很快退化为&lt;strong&gt;谄媚的同意&lt;/strong&gt;。模型喜欢表现得有帮助。如果提示词奖励共识，它们就会找到共识。你的智能体可能会停止争论，因为对模型来说，达成一致是更优化的结果。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;评判者也可能被欺骗&lt;/strong&gt;。评判模型可能偏爱更长的计划、更自信的计划或听起来更完整的计划。因此，我的评判提示词提出了一个更窄的问题：智能体是否真正解决了重要的分歧，还是仅仅掩盖了它们？&lt;/p&gt;&lt;p&gt;这种模式也相当&lt;strong&gt;昂贵&lt;/strong&gt;，会迅速消耗大量代币&lt;sup id="fnref:1"&gt;&lt;a href="https://kau.sh/feed.xml#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;。  
-让两个代理进行三轮辩论，外加一位评审和最终整合，这需要多次模型调用。我不会用它来生成&lt;code&gt;.gitignore&lt;/code&gt;。我会用它来处理API设计、迁移计划、架构决策，或者任何方案失误会带来巨大时间成本的工作。&lt;/p&gt;
-&lt;p&gt;目前，我用“代理格斗”来制定&lt;strong&gt;方案&lt;/strong&gt;，而非执行。让两个代理在争论的同时还要完成工作，听起来完全是一种疯狂的代币最大化策略。其价值在于提前投入额外时间——此时方案修改成本低，犯错代价却很高。&lt;/p&gt;
-&lt;p&gt;它并不能让弱模型变强。如果两个代理都遗漏了同一个约束条件，辩论可能只会产出一个精心编辑但错误的方案。  
-&lt;strong&gt;异质性&lt;/strong&gt;在此能发挥作用。Claude Code 和 Codex 有不同的习惯、不同的默认设置以及不同的失败模式。这正是我希望它们都参与进来的原因。&lt;/p&gt;
-&lt;h2 id="the-script"&gt;
-脚本
-&lt;a href="https://kau.sh/feed.xml#the-script"&gt;##&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;我目前版本的&lt;a href="https://github.com/kaushikgopal/agent-kombat"&gt;Agent Kombat&lt;/a&gt;只针对我日常使用的两个工具：&lt;code&gt;claude-code&lt;/code&gt; 和 &lt;code&gt;codex-cli&lt;/code&gt;。&lt;/p&gt;
-&lt;p&gt;我还没有采取什么巧妙手段。文件系统就是消息总线。&lt;/p&gt;
-&lt;p&gt;最快速的用法：&lt;/p&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;./agent-kombat "比较两个API设计"
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;或者传入一个现有方案：&lt;/p&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;./agent-kombat "辩论 @my-plan.md，重点关注遗漏的风险"
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;对于小型决策，我通常会降低成本：&lt;/p&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;./agent-kombat -r 1 --no-judge "起草一个极简实现方案"
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;更多细节请查看&lt;a href="https://github.com/kaushikgopal/agent-kombat#readme"&gt;README&lt;/a&gt;：引导模式、&lt;code&gt;--dry-run&lt;/code&gt;、&lt;code&gt;--show&lt;/code&gt;、&lt;code&gt;--resume&lt;/code&gt; 以及安装说明。&lt;/p&gt;&lt;pre tabindex="0"&gt;&lt;code&gt;debate_20260425_143022/
-|-- requirement.txt
-|-- config.json
-|-- events.jsonl
-|-- my-plan-claude.md
-|-- my-plan-codex.md
-|-- plan-final.md
-|-- judge-verdict.json
-`-- rounds/
- |-- r0-claude.md
- |-- r0-codex.md
- |-- r1-claude.md
- |-- r1-codex.md
- `-- ...
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;每轮都会写入文件。每轮都会对之前的文件进行快照。如果出现问题，我可以&lt;code&gt;cat&lt;/code&gt;产物并查看发生了什么。&lt;/p&gt;
-&lt;p&gt;该脚本最终应支持更多工具。我特别感兴趣的是加入gemini-cli以增加多样性。目前，Claude Code和Codex已经足够，因为这些是我实际使用的工具。&lt;/p&gt;
-&lt;p&gt;这最初是一个手动工作流程。这个shell脚本只是去掉了令人烦恼的部分。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;ol&gt;
-&lt;li id="fn:1"&gt;
-&lt;p&gt;我觉得需要强调一下。我
-&lt;a href="https://x.com/kaushikgopal/status/2035130006125650041"&gt;厌恶&lt;/a&gt;
-tokenmaxxing &lt;a href="https://kau.sh/feed.xml#fnref:1"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-</description><pubDate>Sat, 25 Apr 2026 07:00:00 +0000</pubDate></item></channel></rss>
+</description><pubDate>Mon, 04 May 2026 16:00:00 +0000</pubDate></item></channel></rss>
