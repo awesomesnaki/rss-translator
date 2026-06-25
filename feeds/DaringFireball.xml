@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Wed, 24 Jun 2026 21:52:43 +0000</lastBuildDate><item><title>WebKit 始终在每个应用中启用“复制”菜单项。</title><link>https://lapcatsoftware.com/articles/2026/6/5.html</link><description>&lt;p&gt;杰夫·约翰逊：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Thu, 25 Jun 2026 16:58:16 +0000</lastBuildDate><item><title>苹果将多数产品价格上调15%至25%，但iPhone、Apple Watch和AirPods除外。</title><link>https://www.wsj.com/tech/apple-raises-prices-on-macs-ipads-by-200-or-more-on-some-models-a7463f99?st=zse57R</link><description>&lt;p&gt;《华尔街日报》的罗尔夫·温克勒报道（礼物链接）：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;今天凌晨，公司短暂关闭了苹果在线商店，这是其发布新产品时的惯常做法。当网站重新上线时，Mac电脑的价格标签上涨了约15%至20%，iPad价格则上涨了15%至25%。&lt;/p&gt;
+&lt;p&gt;在涨价产品中，基础款MacBook Air上涨200美元至1299美元；基础款MacBook Pro上涨300美元至1999美元；入门级MacBook Neo上涨100美元至699美元。iPad Air上涨150美元至749美元，iPad Pro上涨200美元至1199美元。&lt;/p&gt;
+&lt;p&gt;iPhone价格未变，但公司在声明中暗示可能会有更多涨价。&lt;/p&gt;
+&lt;p&gt;声明中表示：“我们现在已经到了需要开始提价的地步。我们从未见过零部件价格如此大幅度、如此迅速地增长。”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href="https://www.macrumors.com/2026/06/25/apple-just-increased-prices/"&gt;MacRumors列出了调价前后的价格对比&lt;/a&gt;。天哪，他们甚至把可怜的Vision Pro价格也提高了6%，从3500美元涨到3700美元。&lt;/p&gt;
+&lt;p&gt;任何在今年3月至今天早上期间以600美元（或教育优惠价500美元）购买MacBook Neo的人，都买到了苹果历史上售价最低的MacBook——而且很可能也是苹果未来售价最低的MacBook。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/06/25/apple-raises-prices" title="‘苹果对大部分产品提价15–25%，但iPhone、手表和AirPods除外’的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Thu, 25 Jun 2026 16:58:16 +0000</pubDate></item><item><title>WebKit 始终在每个应用中启用“复制”菜单项。</title><link>https://lapcatsoftware.com/articles/2026/6/5.html</link><description>&lt;p&gt;杰夫·约翰逊：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;几周前，&lt;a href="https://daringfireball.net/"&gt;Daring Fireball&lt;/a&gt; 的约翰·格鲁伯问我能否复现他在 Safari 中遇到的一个问题：当网页获得焦点时，主菜单中的“拷贝”菜单项始终处于启用状态，无论网页中是否有选中内容。我确实可以复现该问题，结果发现这是 WebKit 的错。这个问题同样出现在邮件应用中——当一封邮件获得焦点时也是如此。&lt;/p&gt;
 &lt;p&gt;在苹果平台上，WebKit 是一个公共 API，除了苹果自家的应用外，第三方应用也会使用它。格鲁伯和我各自偏好的 RSS 阅读器——&lt;a href="https://netnewswire.com/"&gt;NetNewsWire&lt;/a&gt; 和 &lt;a href="https://www.vienna-rss.com/"&gt;Vienna&lt;/a&gt;——都使用 WebKit 来显示 RSS 订阅中的文章。果然，这两款应用都表现出相同的问题：当文章获得焦点时，“拷贝”菜单项始终可用。&lt;/p&gt;
@@ -9,14 +19,14 @@
 &lt;p&gt;这显然是一个 Bug。你竟然可以拷贝空内容，从而清除剪贴板上之前的所有内容，这是不可接受的。（或者说，更确切地讲，是复制了一个毫无用处、无法解读、无法粘贴到任何地方的 plist 数据块。）&lt;/p&gt;
 &lt;p&gt;约翰逊在 &lt;a href="https://bugs.webkit.org/show_bug.cgi?id=313835"&gt;WebKit 的 Bugzilla 系统中报告了这个 Bug&lt;/a&gt;，但被错误地标记为“无法修复”。WebKit 团队在关闭约翰逊的 Bug 报告时，混淆了两个方面：一是任何使用 WebKit 的应用中“编辑”→“拷贝”命令的行为，二是即使 WebKit 视图中没有选中内容，JavaScript 的 &lt;code&gt;document.execCommand("copy")&lt;/code&gt; 也需要保持可用。WebKit 工程师去年在尝试修复 &lt;a href="https://bugs.webkit.org/show_bug.cgi?id=156529"&gt;JavaScript 行为中一个存在了十年的 Bug&lt;/a&gt; 时，在应用行为中引入了这个新的 Bug。&lt;/p&gt;&lt;p&gt;我很高兴今天早上在WebKit博客上读到，&lt;a href="https://daringfireball.net/linked/2026/06/24/webkit-safari-27"&gt;就在今天早上&lt;/a&gt;，WebKit团队鼓励提交错误报告。&lt;a href="https://bugs.webkit.org/show_bug.cgi?id=313835"&gt;这里有一个错误&lt;/a&gt;已经报告过，附带大量细节，他们只需要重新审视一下。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/06/24/webkit-always-enables-the-copy-menu-item-in-every-app" title="Permanent link to ‘WebKit Always Enables the Copy Menu Item in Every App’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Wed, 24 Jun 2026 21:52:43 +0000</pubDate></item><item><title>Safari 27 Beta中的WebKit</title><link>https://webkit.org/blog/17967/news-from-wwdc26-webkit-in-safari-27-beta/</link><description>&lt;p&gt;WebKit（回溯至WWDC时期）：&lt;/p&gt;
+</description><pubDate>Wed, 24 Jun 2026 21:52:43 +0000</pubDate></item><item><title>Safari 27 Beta中的WebKit</title><link>https://webkit.org/blog/17967/news-from-wwdc26-webkit-in-safari-27-beta/</link><description>&lt;p&gt;WebKit博客（在WWDC期间）：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;如果你浏览Safari 27的功能和修复列表，你会注意到，尽管有58项全新功能和525项修复——这是近年来Safari版本中修复数量最多的一次——但发布的大部分内容并非关于新事物。&lt;/p&gt;
-&lt;p&gt;这些工作大多涉及让现有功能更准确地运行、处理更多边界情况，并以你期望的方式与其他功能协同工作。我们将时间投入到提升质量上——这就是这次发布及其前一年的故事。[...]&lt;/p&gt;
-&lt;p&gt;如果某些功能一直困扰你，请在Safari 27测试版中试用。你可能会惊喜不已。如果问题尚未修复，请&lt;a href="https://bugs.webkit.org/"&gt;提交错误报告&lt;/a&gt;，或在现有问题上添加评论，附上具体场景、真实网站链接或精简测试案例。问题越具体，帮助就越大。&lt;/p&gt;
+&lt;p&gt;如果你查看Safari 27中的功能和修复列表，你会注意到，虽然有58个全新功能和525个修复——这是近年来任何Safari版本中修复数量最多的一次——但发布的大部分内容并不在于新东西。&lt;/p&gt;
+&lt;p&gt;这项工作的大部分是关于让现有功能更正确地运行，处理更多的边缘情况，并按你期望的方式与其他功能配合。我们将时间投入到提升质量上——这就是这次发布以及过去一年的故事。[...]&lt;/p&gt;
+&lt;p&gt;如果有什么一直困扰着你，请在Safari 27测试版中测试一下。你可能会惊喜。如果它尚未修复，&lt;a href="https://bugs.webkit.org/"&gt;提交一个bug报告&lt;/a&gt;，或在现有问题上添加评论，附带具体场景、真实网站的链接或简化的测试用例。问题越具体，帮助就越大。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;听起来，WebKit今年也迎来了一波“雪豹”年，而不仅仅是操作系统层面。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/06/24/webkit-safari-27" title="“Safari 27测试版中的WebKit”的永久链接"&gt; ★ &lt;/a&gt;
+&lt;p&gt;听起来对WebKit来说，今年也像是“雪豹”之年，而不仅仅是操作系统。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/06/24/webkit-safari-27" title="指向‘Safari 27 Beta中的WebKit’的永久链接"&gt; ★ &lt;/a&gt;
 </description><pubDate>Wed, 24 Jun 2026 19:10:27 +0000</pubDate></item><item><title>[赞助商] WorkOS：代理需要认证。现在有了一个规范。</title><link>http://workos.com/auth-md?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q32026</link><description>&lt;p&gt;当AI代理尝试完成需要新账户的任务时，它会遇到障碍：注册表单。目前没有标准来规定代理如何代表用户向应用注册。&lt;/p&gt;
 &lt;p&gt;auth.md 是一个托管在你域名下的文件，它告诉代理如何注册你的用户、支持哪些流程、暴露哪些作用域以及如何颁发凭证。可以将其视为针对代理注册的 robots.txt。它整合了现有的 OAuth 标准。&lt;/p&gt;
 &lt;p&gt;Cloudflare、Firecrawl 和 Resend 已经采用了它。&lt;/p&gt;
@@ -24,13 +34,4 @@
 &lt;a href="https://daringfireball.net/feeds/sponsors/2026/06/workos_agents_need_auth_theres" title="‘WorkOS：代理需要身份验证。现在有了规范。’的永久链接"&gt; ★ &lt;/a&gt;
 </description><pubDate>Wed, 24 Jun 2026 18:46:46 +0000</pubDate></item><item><title>设计于加利福尼亚：苹果历史播客</title><link>https://designed.fm/</link><description>&lt;p&gt;来自Jason Snell和Myke Hurley的Kickstarter众筹活动，旨在资助一部关于苹果50年历史的50集叙事播客。（实际上，随着延伸目标的实现，集数将超过50集。）该活动已达到主要筹资目标，但距离活动结束还有一周时间，还有更多延伸目标等待达成。Jason和我在&lt;a href="https://daringfireball.net/thetalkshow/2026/06/23/ep-450"&gt;我播客的最新一期节目中&lt;/a&gt;详细讨论了《Design in California》项目，正如我在那里所说——如果您喜欢《The Talk Show》和&lt;a href="https://relay.fm/upgrade"&gt;Upgrade&lt;/a&gt;这类播客，却没有支持这个众筹活动，那么您的连接方式一定出了问题。非常期待这个播客系列正式上线播出。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/06/24/designed-in-california" title="永久链接至‘Designed in California: An Apple History Podcast’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Wed, 24 Jun 2026 15:17:18 +0000</pubDate></item><item><title>脱口秀：'为自拍而游街示众'</title><link>https://daringfireball.net/thetalkshow/2026/06/23/ep-450</link><description>&lt;p&gt;杰森·斯内尔重返节目，回顾 WWDC 2026，并展望他与迈克·赫尔利即将推出的 50 集苹果历史播客《&lt;a href="https://designed.fm/"&gt;Designed in California&lt;/a&gt;》。&lt;/p&gt;
-&lt;p&gt;&lt;audio controls="controls" preload="none" src="https://traffic.libsyn.com/secure/daringfireball/thetalkshow-450-jason-snell.mp3"&gt;&lt;/audio&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;赞助商：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://factormeals.com/talkshow50off"&gt;Factor&lt;/a&gt;：健康饮食，轻松实现。使用优惠码 &lt;strong&gt;talkshow50off&lt;/strong&gt;，首单可享 50% 折扣，另免费获赠每日绿色蔬菜。&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://squarespace.com/talkshow"&gt;Squarespace&lt;/a&gt;：使用优惠码 &lt;strong&gt;TALKSHOW&lt;/strong&gt;，首次购买网站或域名可节省 10% 费用。&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.finalist.works/talkshow/"&gt;Finalist&lt;/a&gt; — 一款适用于 iPhone、iPad 和 Mac 的每日规划应用，基于经过验证的纸质规划方法构建。DF 读者可免费使用六个月；详情请见链接。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;a href="https://daringfireball.net/linked/2026/06/23/the-talk-show-450" title="指向《脱口秀：‘自拍游街示众’》的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Tue, 23 Jun 2026 16:23:43 +0000</pubDate></item></channel></rss>
+</description><pubDate>Wed, 24 Jun 2026 15:17:18 +0000</pubDate></item></channel></rss>
