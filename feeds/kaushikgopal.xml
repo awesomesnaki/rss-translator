@@ -128,15 +128,15 @@
 架构
 &lt;a href="https://kau.sh/feed.xml#architecture"&gt;##&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;我正在尝试的架构正是对这些挑战的回应。&lt;/p&gt;&lt;p&gt;这仍然处于早期阶段——远非完美。等我运行更多循环后会发布后续文章。目前只有一个粗略的轮廓。&lt;/p&gt;
+&lt;p&gt;我正在尝试的架构正是对这些挑战的回应。&lt;/p&gt;&lt;p&gt;这还处于早期阶段——远非完美。等我运行更多循环后会发布后续文章。目前只是大致的雏形。&lt;/p&gt;
 &lt;figure&gt;
-&lt;img alt="Responsible loop engineering architecture diagram" referrerpolicy="no-referrer" src="https://kau.sh/loop-engineering.png"/&gt;
+&lt;img alt="Responsible loop engineering architecture diagram" referrerpolicy="no-referrer" src="https://kau.sh/loop-engineering.webp"/&gt;
 &lt;/figure&gt;
-&lt;p&gt;我不断勾勒的版本始于一个&lt;strong&gt;收件箱&lt;/strong&gt;。所有工作都归入这里：我对着手机说的内容、一个Linear/Jira工单、一条笔记、一次计划好的清理任务，等等。它需要保存在持久化的地方——而不是一个明天我就会忘记的聊天窗口。更像是包含任务、跟进、审查、状态和循环策略的&lt;code&gt;.agents/inbox.loop&lt;/code&gt;文件。&lt;/p&gt;
-&lt;p&gt;然后是&lt;strong&gt;检查器&lt;/strong&gt;。一个廉价、重复运行的进程。类似一个升级版的cron作业。它频繁唤醒并提出无聊的问题：有新工作吗？是否有阻塞？审查是否积压？任务是否达到边界？大多数唤醒只是文件检查。如果检查器需要执行更智能的操作，需保持其边界明确且成本低廉。用一个小型本地模型驱动——比如Qwen3:8B或16B——实际上免费，并且你可以随意频繁启动它。&lt;/p&gt;
-&lt;p&gt;检查器唤醒&lt;strong&gt;协调器&lt;/strong&gt;。更智能的智能体。我希望它是刻意唤醒的，而非随意启动。它决定是恢复上下文、重新开始、等待其他任务、启动一个编码智能体，还是设置一个边界验证器传递。我的规则是：如果需要推理，就离开检查器，交给协调器。用一款能力足够且价格合适的模型驱动——比如GLM 5.2。足够便宜。能力也足够。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;执行器&lt;/strong&gt;是实际的工作者：编码智能体、研究智能体、写作智能体、验证器等等。这部分是我们过去习惯手动处理的。区别在于：现在由更廉价的东西判断何时值得唤醒那些昂贵的工人。而且执行器运行时有明确的边界——最大轮数、最大重试次数、最大时间、最大扇出、如果成本重要的话还有最大成本。如何驱动它取决于任务，部分也取决于协调器的决策。执行器可以在GPT 5.5 X-High、Kimi 2.7 Code甚至Cursor 2.5上运行。&lt;/p&gt;
-&lt;p&gt;最后一部分是&lt;strong&gt;出口器&lt;/strong&gt;。目前没有任何内容会自动发布、合并或流出&lt;sup id="fnref:2"&gt;&lt;a href="https://kau.sh/feed.xml#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;。一个循环可以准备PR、草稿、备忘录或审查，但任何离开沙盒的东西都经过一个确定性封装。出口器生成一个可审查的产物。由我决定。目前，我乐意支付Opus来处理出口任务。我在这里需要一个强大的模型。它可以将&lt;code&gt;/artifactor&lt;/code&gt;的HTML输出委托给子智能体，但由前沿模型做出最终决策。&lt;/p&gt;&lt;h2 id="what-is-still-evolving"&gt;
+&lt;p&gt;我不断勾勒的版本始于一个&lt;strong&gt;收件箱&lt;/strong&gt;。所有工作落在这里：我在手机里说的内容、一个Linear/Jira任务、一条笔记、一次预定的清理，诸如此类。它需要保存在一个持久的地方——而不是一个明天就会忘记的聊天窗口。更接近一个&lt;code&gt;.agents/inbox.loop&lt;/code&gt;文件，包含任务、待办事项、审查、状态和循环策略。&lt;/p&gt;
+&lt;p&gt;然后是&lt;strong&gt;检查器&lt;/strong&gt;。这个廉价、重复运行的进程。一个高级版的cron任务。它频繁唤醒并询问无聊的问题：有新工作吗？有任务被阻塞吗？审查积压了吗？任务达到限制了吗？大多数唤醒只是文件检查。如果检查器需要做更聪明的事，请保持其边界明确且成本低廉。用一个小型本地模型驱动它——比如Qwen3:8B或16B——实际上免费，而且你想启动多少次都行。&lt;/p&gt;
+&lt;p&gt;检查器会唤醒&lt;strong&gt;编排器&lt;/strong&gt;。这是更智能的代理。我希望它有意识地唤醒，而不是随意唤醒。它决定是否恢复上下文、重新开始、等待其他任务、启动一个编码代理，或设置一个有限制的验证器通道。我的规则是：如果需要推理，就离开检查器，交给编排器。用一个功能强大但价格合理的模型驱动它——比如GLM 5.2。足够便宜。能力也足够。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;执行器&lt;/strong&gt;是实际的工作者：编码代理、研究代理、写作代理、验证器，等等。这部分就是我们通常手动处理的内容。不同之处在于：由更便宜的东西决定何时值得唤醒那个昂贵的工作者。而且执行器在明确的限制条件下运行——最大轮次、最大重试次数、最大时间、最大扇出、以及在成本重要时的最大成本。如何驱动它取决于任务，部分取决于编排器的判断。执行器可以在GPT 5.5 X-High、Kimi 2.7 Code甚至Cursor 2.5上运行。&lt;/p&gt;
+&lt;p&gt;最后一部分是&lt;strong&gt;退出器&lt;/strong&gt;。目前没有内容会自动发布、合并或流出&lt;sup id="fnref:2"&gt;&lt;a href="https://kau.sh/feed.xml#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;。循环可以准备一个PR、草稿、备忘录或审查，但任何离开沙箱的内容都要经过一个确定性的封装层。退出器产生一个可审查的产物。我来做决定。目前我很乐意为退出任务支付Opus的费用。我希望这里有一个强大的模型。它可以把&lt;code&gt;/artifactor&lt;/code&gt;的HTML输出委托给子代理，但由前沿模型做决策。&lt;/p&gt;&lt;h2 id="what-is-still-evolving"&gt;
 仍在演进中的部分
 &lt;a href="https://kau.sh/feed.xml#what-is-still-evolving"&gt;##&lt;/a&gt;
 &lt;/h2&gt;
