@@ -1,84 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>V2EX-最热主题</title><link>https://www.v2ex.com/</link><description>V2EX-最热主题 - Powered by RSSHub</description><language>zh-CN</language><lastBuildDate>Sat, 27 Jun 2026 04:22:21 +0000</lastBuildDate><item><title>自己撸了个英语阅读抗阻力训练浏览器插件 Flipword ，让中文网页自然“长出”英语， 在日常浏览中不知不觉解锁英语能力</title><link>https://www.v2ex.com/t/1223287</link><description>&lt;p&gt;心里一直想提升英语，但不管是买单词书、用背单词 App 还是建生词本，最后基本都逃不过吃灰的命运。平时刷 Twitter/X 、看技术文档或者看新闻，遇到生词全篇翻字典，查完转头就忘，真的很挫败。&lt;/p&gt;
-&lt;p&gt;作为一个每天高强度冲浪的网民，我一直在想：&lt;strong&gt;能不能有一种办法，不用专门花时间去背，就在我天天上网的时候顺便把词给记了？&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;因为市面上没找到完全满意的，我干脆自己动手撸了一个 Chrome 插件 —— &lt;strong&gt;Flipword&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;我的核心逻辑其实很简单：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;不用专门跑去背单词。直接让中文网页自然长出英语，在日常瞎逛、浏览中，不知不觉解锁无翻译的语言直觉。&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>V2EX-最热主题</title><link>https://www.v2ex.com/</link><description>V2EX-最热主题 - Powered by RSSHub</description><language>zh-CN</language><lastBuildDate>Sat, 27 Jun 2026 08:00:35 +0000</lastBuildDate><item><title>男朋友对我很好，但是没钱，应不应该结婚</title><link>https://www.v2ex.com/t/1223312</link><description>&lt;p&gt;男朋友对我很好，也不会 chugui ，很细致，但是家里并不富裕，也不应该结婚呢&lt;/p&gt;
 &lt;hr/&gt;
-&lt;h2&gt;我是怎么解决这个痛点的？&lt;/h2&gt;
-&lt;p&gt;为了让我自己（以及跟我一样的懒人）用得爽，我给它塞了这几个核心功能：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;1. 网页双向沉浸 (Immersive Context)&lt;/strong&gt;
-看中文网页时智能替换英文词，看英文文档时精准高亮核心词。不打破阅读节奏，彻底免去频繁查词的痛苦。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;2. Decode 上下文面板 (Logical Decoding)&lt;/strong&gt;
-鼠标悬停一键拆解词根词缀。带你用母语者的“拼图逻辑”见词推意，拒绝机械死记。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;3. SM-2 算法自动抗遗忘 (SM-2 Algorithm)&lt;/strong&gt;
-内置 21,000+ 精选词库，利用 SM-2 算法在完美的抗遗忘时间点，让学过的词在其他网页上与你“再次偶遇”。用日常浏览代替刻意复习。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;4. 智能选词与个性化策略 (Vocabulary Strategy)&lt;/strong&gt;
-支持自定义选词策略。你可以根据自己的英语水平或当前感兴趣的领域，自由控单词的替换频率和过滤规则，不让无用词干扰阅读。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;5. 词库来源自由选择 (Lexicon Customization)&lt;/strong&gt;
-内置了多种场景词库（四六级、考研、雅思、托福、专业技术词汇等）。缺什么补什么，只学在你的日常高频场景里真正用得上的词。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr/&gt;
-&lt;h2&gt;送波福利&lt;/h2&gt;
-&lt;p&gt;我自己平时天天在用，感觉词汇内化效果确实上去了。今天发出来给社区的老铁们尝尝鲜，顺便送一波&lt;strong&gt;全功能不限量解锁&lt;/strong&gt;的邀请码。纯个人项目，不搞虚的，大家直接在插件内激活就行：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;FLIP-META-2026
-VIBE-READ-2026
-WORD-META-2026
-ROOT-LINK-2026
-GOLD-FREE-2026
-LUCK-WORD-2026
-READ-VIBE-2026
-MEMO-CORE-2026
-STAR-DECK-2026
-LIFE-TIME-2026
+Supplement 1  ·  &lt;span title="2026-06-27 17:21:48 +08:00"&gt;2h 16m ago&lt;/span&gt;
 
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr/&gt;
-&lt;h2&gt;插件链接 &amp;amp; 产品截图&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;下载通道：&lt;/strong&gt; &lt;a href="https://chromewebstore.google.com/detail/flipword-%E2%80%94-vibe-english-r/fcbjaaklolbkihgcfcppafhaanoilnkd?hl=en-US&amp;amp;utm_source=ext_sidebar" rel="nofollow"&gt;点击前往 Chrome Web Store 下载 Flipword&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;做完后的实际效果长这样，标准 Markdown 图片渲染：&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://lh3.googleusercontent.com/ImQ3bpez3xZByWqBmHrAC7bJS2oncVnC3SiBMMPFV6Ll7tZ2CGzsiB0v53-KPCHgBzkeF2UpUUFtkDhcdA0Nbevy=s1280-w1280-h800" rel="nofollow"&gt;&lt;img alt="Flipword 实际运行截图 1" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://lh3.googleusercontent.com/ImQ3bpez3xZByWqBmHrAC7bJS2oncVnC3SiBMMPFV6Ll7tZ2CGzsiB0v53-KPCHgBzkeF2UpUUFtkDhcdA0Nbevy=s1280-w1280-h800"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://lh3.googleusercontent.com/mZgI9PKGZ6WwlQpv6oXAvcCx4MEzlzFwtM3ky3cjwbkq3Po0XokXlqdB9lfigASaGZfYJxvQ8KaUVpFA-KeK2osO5g=s1280-w1280-h800" rel="nofollow"&gt;&lt;img alt="Flipword 实际运行截图 2" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://lh3.googleusercontent.com/mZgI9PKGZ6WwlQpv6oXAvcCx4MEzlzFwtM3ky3cjwbkq3Po0XokXlqdB9lfigASaGZfYJxvQ8KaUVpFA-KeK2osO5g=s1280-w1280-h800"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://lh3.googleusercontent.com/Diy90MxiYcK_0_2tS6_oGYvkZvNgFuiZEWPuxSnCAyvnP1lrD2MmwrO6XstmZSJY0yDNfY-Yl4YXtqksFcj28K_viQ=s1280-w1280-h800" rel="nofollow"&gt;&lt;img alt="Flipword 实际运行截图 3" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://lh3.googleusercontent.com/Diy90MxiYcK_0_2tS6_oGYvkZvNgFuiZEWPuxSnCAyvnP1lrD2MmwrO6XstmZSJY0yDNfY-Yl4YXtqksFcj28K_viQ=s1280-w1280-h800"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://lh3.googleusercontent.com/Q9pzwcLMr10vdE4PaLRSL1zF2t_HRKJEhIU08Nc7FVEa29jlGYttCGbAohQb4cZ2D8k-iLQvNjRsrlrrCtVJ8v6MdA=s1280-w1280-h800" rel="nofollow"&gt;&lt;img alt="Flipword 实际运行截图 4" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://lh3.googleusercontent.com/Q9pzwcLMr10vdE4PaLRSL1zF2t_HRKJEhIU08Nc7FVEa29jlGYttCGbAohQb4cZ2D8k-iLQvNjRsrlrrCtVJ8v6MdA=s1280-w1280-h800"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;刚写出来不久，可能还有不够完美的地方。大家用着觉得有任何 Bug 、或者有什么想吐槽/提建议的，随时在评论区拍砖，我一直在线，看到就改！&lt;/p&gt;
-&lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-06-27 15:29:36 +08:00"&gt;2h 30m ago&lt;/span&gt;
-
-邀请码 半年内 不限量激活哦
+说明：确实是做住宅 IP 的但是没骗币 不知道干嘛用 &lt;br/&gt;推广又没有乱发，就只发在了推广区，没有任何违规操作。&lt;br/&gt;这篇帖子纯发的自己的生活的问题 不是言论自由嘛 谢谢评论区帮忙打广告&lt;br/&gt;不想让我有铜币可以不回复，谢谢。也很抱歉给站长带来一些麻烦。
 
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;#1 jianny&lt;/strong&gt;：GOLD-FREE-2026 ，已使用，永久白嫖，谢谢大佬！&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#2 clemente&lt;/strong&gt;：@&lt;a href="/member/jianny"&gt;jianny&lt;/a&gt; 使用不爽的地方可以 喷 我来改&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#3 coderYang&lt;/strong&gt;：READ-VIBE-2026 已使用&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#4 transfer&lt;/strong&gt;：LUCK-WORD-2026 已使用，试试看！&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#5 DearFox&lt;/strong&gt;：LIFE-TIME-2026 已用,弄个美式发音,更完美了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#6 Litccc&lt;/strong&gt;：VIBE-READ-2026 已使用，感谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#7 ljspython&lt;/strong&gt;：MEMO-CORE-2026 已用&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#8 cosmicrock&lt;/strong&gt;：STAR-DECK-2026 已用，thanks&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#9 mutations&lt;/strong&gt;：STAR-DECK-2026 已使用&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#10 apie&lt;/strong&gt;：ROOT-LINK-2026 已使用，谢谢~&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#11 kokdemo&lt;/strong&gt;：这个插件有种看香港人说话的感觉&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#12 ptaritsu&lt;/strong&gt;：WORD-META-2026 已用，感谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#13 ptaritsu&lt;/strong&gt;：@&lt;a href="/member/clemente"&gt;clemente&lt;/a&gt; 希望插件也内置白名单模式，默认不替换，并方便的添加当前网站（比如只想在看新闻聚合时使用）。通过 chrome://extensions 设置白名单有点麻烦&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#14 FirerWire3&lt;/strong&gt;：WORD-META-2026 已使用，谢谢，请问这个激活逻辑是怎样的，保存在本机还是跟随账号的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#15 oldlemon&lt;/strong&gt;：LIFE-TIME-2026 已用，感谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#16 clemente&lt;/strong&gt;：@&lt;a href="/member/ptaritsu"&gt;ptaritsu&lt;/a&gt; oK&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#17 clemente&lt;/strong&gt;：@&lt;a href="/member/ptaritsu"&gt;ptaritsu&lt;/a&gt; 不知道你注意到右下角 有个小灰点没有&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#18 clemente&lt;/strong&gt;：特定单词放到中文语境里面去学，可能比单独背单词要更有效&lt;br/&gt;因为记忆是需要联系和类比来关联存储的，有时候不用看单词，看上下文中文背景能大概推测或者猜出来&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#19 clemente&lt;/strong&gt;：还有很多细节 没有细说&lt;br/&gt;&lt;br/&gt;对于键盘爱好者&lt;br/&gt;单词的指定和跳过 完全可以用键盘来完成 回车 和 方向键&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#20 clemente&lt;/strong&gt;：@&lt;a href="/member/FirerWire3"&gt;FirerWire3&lt;/a&gt; 目前是本机。刚开始做。不打算收费。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#21 youhong98&lt;/strong&gt;：READ-VIBE-2026 ，已用，谢谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#22 hihanley&lt;/strong&gt;：感谢，如果能加一个朗读单词功能就更好了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#23 ptaritsu&lt;/strong&gt;：@&lt;a href="/member/clemente"&gt;clemente&lt;/a&gt; wow 才发现，这个设计很精巧！&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#24 imicksoft&lt;/strong&gt;：LIFE-TIME-2026 ，已用谢谢，&lt;br/&gt;1.设置单词级别&lt;br/&gt;2.设置中文显示，前英后中或前中后英&lt;br/&gt;3.设置自设定义背景色&lt;br/&gt;4.朗诵单词&lt;br/&gt;初用想到几条了，看看要不要增加这些功能&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#25 n2l&lt;/strong&gt;：心理按摩而已，想提高英语水平就得踏实下功夫，背单词学语法，学习本质就是长脑子，即增加大脑突触连接的过程，这个过程需要耗费大量能量，你很轻松说明你根本没在长脑子。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 27 Jun 2026 04:22:21 +0000</pubDate></item><item><title>抽 5 个智友社的 GPTPLUS 稳定渠道成品号（满月测试稳定度 99% ）</title><link>https://www.v2ex.com/t/1223284</link><description>开奖时间：&lt;br/&gt;20260630 24 时 00 分 00 秒&lt;br/&gt;&lt;br/&gt;抽奖工具：&lt;br/&gt;用的 V 友 shoa 的开源项目： &lt;a href="https://github.com/wcwac/v2ex-lottery" rel="nofollow noopener" target="_blank"&gt;https://github.com/wcwac/v2ex-lottery&lt;/a&gt; ，在此感谢 shoa ！&lt;br/&gt;&lt;br/&gt;回复内容：&lt;br/&gt;聊聊您最近看的有意思的书&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;欢迎您加入：&lt;br/&gt;我们的官方 QQ 开放交流群：232793604&lt;br/&gt;我们的官方 TG 开放交流群： &lt;a href="https://t.me/+fzIWsUSbcq1kMDYx" rel="nofollow noopener" target="_blank"&gt;https://t.me/+fzIWsUSbcq1kMDYx&lt;/a&gt;&lt;br/&gt;我们的官方 店铺地址： &lt;a href="https://pay.ldxp.cn/shop/282D9KDL" rel="nofollow noopener" target="_blank"&gt;https://pay.ldxp.cn/shop/282D9KDL&lt;/a&gt;
+&lt;p&gt;&lt;strong&gt;#1 lezhou&lt;/strong&gt;：你这样问 我觉得其实你心里已经有答案了。  我觉得还是得看男孩子的发展潜力吧。 是自己不会赚钱还是家里本身没有钱。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#2 cheese&lt;/strong&gt;：买的号，为了住宅 ip 推广，第二天开始骗回复&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#3 aptupdate&lt;/strong&gt;：不去小红书来 V2 钓什么鱼&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#4 o0&lt;/strong&gt;：十全十美的难寻，身边有个条件不错的男生，收入高，父母工作好，有车有房有存款。&lt;br/&gt;但不着急结婚，三十几了也不急，对象急得团团转。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#5 hefish&lt;/strong&gt;：不应该，应该就这么嫖着。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#6 wskymark&lt;/strong&gt;：找个有钱的结婚，然后出轨他.&lt;br/&gt;&lt;br/&gt;完美&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#7 putaozhenhaochi&lt;/strong&gt;：v 站在 google 的权重很高. &lt;br/&gt;这是一种 seo?&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#8 5261&lt;/strong&gt;：@&lt;a href="/member/cheese"&gt;cheese&lt;/a&gt; 还是你眼尖,现在为了推广,啥下作的手段都来了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#9 spicy777&lt;/strong&gt;：钓的是鱼，没的是马&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#10 Sting1226&lt;/strong&gt;：当你心里开始因为他没有足够的钱而迟疑，答案便已经写在脸上了。&lt;br/&gt;&lt;br/&gt;婚后的日子远比想象中漫长，哪怕只是一点琐碎的摩擦、一次意外的窘迫，你都会忍不住回头埋怨此刻的自己——为什么要将就。&lt;br/&gt;&lt;br/&gt;与其将来在埋怨中互相磨损，不如现在体面地分开。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#11 solongbus&lt;/strong&gt;：@&lt;a href="/member/cheese"&gt;cheese&lt;/a&gt; 自己就不能有点烦恼了？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#12 lrabbit&lt;/strong&gt;：这种能让站长封号嘛,现在 v2 越来越多这种帖子了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#13 solongbus&lt;/strong&gt;：@&lt;a href="/member/lezhou"&gt;lezhou&lt;/a&gt; 也赚，就刚好养活自己吧&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#14 jarytom&lt;/strong&gt;：希望站长封号.怎么能 @&lt;a href="/member/Livid"&gt;Livid&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#15 darksword21&lt;/strong&gt;：@&lt;a href="/member/spicy777"&gt;spicy777&lt;/a&gt; 你打错字了，应该是‘钓到的是鱼，死了的是妈’&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#16 sangbiao&lt;/strong&gt;：@&lt;a href="/member/cheese"&gt;cheese&lt;/a&gt; 头像一眼顶真&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#17 adsjcxeicxzs&lt;/strong&gt;：废掉了，天天这种骗回复帖子😅&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#18 89adc64&lt;/strong&gt;：宝贝，我以后会多多挣钱的，只要大家都来买我住宅 ip ，我们一定能拥有温暖的小家，我们结婚吧！&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#19 abc0123xyz&lt;/strong&gt;：骗铜币的，建议永封&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#20 solongbus&lt;/strong&gt;：@&lt;a href="/member/Livid"&gt;Livid&lt;/a&gt; 此回复涉及人身攻击，请处理&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#21 solongbus&lt;/strong&gt;：@&lt;a href="/member/darksword21"&gt;darksword21&lt;/a&gt; &lt;br/&gt;@&lt;a href="/member/Livid"&gt;Livid&lt;/a&gt; 此回复涉及人身攻击，请处理&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#22 coderluan&lt;/strong&gt;：一般来说，问题的烦恼程度和发帖字数是成正比的，你看热搜那些哪个是磨磨唧唧发一堆的，别人质疑了又 append 一堆。楼主说自己是真有烦恼，别人也没办法证伪，只能说你对结婚这个问题的烦恼程度远低于有几个陌生网友说你骗硬币。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#23 solongbus&lt;/strong&gt;：@&lt;a href="/member/coderluan"&gt;coderluan&lt;/a&gt; 你没有看到评论说的多脏吗？我请问，有人在你下面评论，你不急？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#24 SZP1206&lt;/strong&gt;：joined on 2013-09-10 10:58:23 +08:00&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#25 SZP1206&lt;/strong&gt;：你的号注册了 13 年，第一个帖子就是推广，能解释下吗？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#26 darksword21&lt;/strong&gt;：@&lt;a href="/member/solongbus"&gt;solongbus&lt;/a&gt; #21 &lt;a href="https://i.imgur.com/U3hKhrT.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/U3hKhrT.png"/&gt;&lt;/a&gt;你的意思是你不是钓鱼？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#27 xiaxueme&lt;/strong&gt;：应该&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 27 Jun 2026 08:00:35 +0000</pubDate></item><item><title>抽 5 个智友社的 GPTPLUS 稳定渠道成品号（满月测试稳定度 99% ）</title><link>https://www.v2ex.com/t/1223284</link><description>开奖时间：&lt;br/&gt;20260630 24 时 00 分 00 秒&lt;br/&gt;&lt;br/&gt;抽奖工具：&lt;br/&gt;用的 V 友 shoa 的开源项目： &lt;a href="https://github.com/wcwac/v2ex-lottery" rel="nofollow noopener" target="_blank"&gt;https://github.com/wcwac/v2ex-lottery&lt;/a&gt; ，在此感谢 shoa ！&lt;br/&gt;&lt;br/&gt;回复内容：&lt;br/&gt;聊聊您最近看的有意思的书&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;欢迎您加入：&lt;br/&gt;我们的官方 QQ 开放交流群：232793604&lt;br/&gt;我们的官方 TG 开放交流群： &lt;a href="https://t.me/+fzIWsUSbcq1kMDYx" rel="nofollow noopener" target="_blank"&gt;https://t.me/+fzIWsUSbcq1kMDYx&lt;/a&gt;&lt;br/&gt;我们的官方 店铺地址： &lt;a href="https://pay.ldxp.cn/shop/282D9KDL" rel="nofollow noopener" target="_blank"&gt;https://pay.ldxp.cn/shop/282D9KDL&lt;/a&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 Y25tIGxpdmlk&lt;/strong&gt;：我报名一个&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#2 EdwardRio&lt;/strong&gt;：聊聊您最近看的有意思的书&lt;/p&gt;&lt;hr/&gt;
@@ -120,7 +74,13 @@ Supplement 1  ·  &lt;span title="2026-06-27 15:29:36 +08:00"&gt;2h 30m ago&lt
 &lt;p&gt;&lt;strong&gt;#38 kiii&lt;/strong&gt;：聊聊您最近看的有意思的书&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#39 maydays&lt;/strong&gt;：聊聊您最近看的有意思的书&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#40 MangoCloud&lt;/strong&gt;：小学语文课本，小孩的数字，再次阅读发现体验完全不一样&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#41 GGGoing&lt;/strong&gt;：聊聊您最近看的有意思的书&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 27 Jun 2026 04:18:27 +0000</pubDate></item><item><title>曾经倾力帮我的学长，如今再也不回消息。</title><link>https://www.v2ex.com/t/1223282</link><description>&lt;p&gt;想跟大家倾诉一下心里的困惑。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#41 GGGoing&lt;/strong&gt;：聊聊您最近看的有意思的书&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#42 E78F8D&lt;/strong&gt;：聊聊您最近看的有意思的书，也是在微信读书看的明朝那些事儿&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#43 Leez088&lt;/strong&gt;：聊聊您最近看的有意思的书&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#44 imik&lt;/strong&gt;：聊聊您最近看的有意思的书&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#45 9G&lt;/strong&gt;：小说算吗？我不是戏神&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#46 BerniLin&lt;/strong&gt;：看的漫画，镖人&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#47 QS0x01&lt;/strong&gt;：目测是把链动 20 一个的号拿出来卖 60 ，别家 60 都是 30 天质保的&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 27 Jun 2026 04:18:27 +0000</pubDate></item><item><title>曾经倾力帮我的学长，如今再也不回消息。</title><link>https://www.v2ex.com/t/1223282</link><description>&lt;p&gt;想跟大家倾诉一下心里的困惑。&lt;/p&gt;
 &lt;p&gt;有一位学长，从前真心提携我，给了我很多宝贵建议，大大小小帮过我不少忙，我一直心怀感激，平时逢年过节也会送上祝福。&lt;/p&gt;
 &lt;p&gt;这几年我主动给他发消息，前后发了五六条，他始终没有任何回复，也没有拉黑删除，就一直保持沉默。&lt;/p&gt;
 &lt;p&gt;我忍不住反复思索：是不是我已经无法给他带去任何价值，所以他才选择慢慢冷淡、刻意疏远？&lt;/p&gt;
@@ -208,7 +168,17 @@ Supplement 1  ·  &lt;span title="2026-06-27 15:29:36 +08:00"&gt;2h 30m ago&lt
 &lt;p&gt;&lt;strong&gt;#79 Light3&lt;/strong&gt;：2026 年了 没有正收益一直浪费自己的精力&lt;br/&gt;傻子都不会交这样的朋友&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#80 unusualcat&lt;/strong&gt;：你逢年过节就不能送点礼品给他吗&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#81 bajitanglang&lt;/strong&gt;：1.有事说事，真的有急事，电话或视频，结束后根据情况给与一定回报&lt;br/&gt;2.年龄到了，没有合作的可能性等等，一般都不联系&lt;br/&gt;3.期待是一种暴力，会导致一种情况，别人没有按照你的期待来做，好像做错了什么。这个真不应该&lt;br/&gt;4.相忘于江湖。大部分人都只是一起走了一段路，但是未来都会出现岔路口，然后走各自的路的。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#82 spike0100&lt;/strong&gt;：如果只是微信交流，平时不见面的话。真的一般没几个月就生疏了。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 27 Jun 2026 04:01:14 +0000</pubDate></item><item><title>”“亲历，接到过国内派出所关于“翻墙”的质询。”“</title><link>https://www.v2ex.com/t/1223269</link><description>&lt;p&gt;是协议问题还是什么原因？ 晶哥目前技术能知道在当地网络用 x ？&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#82 spike0100&lt;/strong&gt;：如果只是微信交流，平时不见面的话。真的一般没几个月就生疏了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#83 freefly111&lt;/strong&gt;：@&lt;a href="/member/aker91"&gt;aker91&lt;/a&gt; #70 谢谢你的理解。你说出了我的心声。我再观望观望吧，但是我看这关系够呛能持续下去了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#84 freefly111&lt;/strong&gt;：@&lt;a href="/member/aker91"&gt;aker91&lt;/a&gt; #70 我多补充一个故事，是我另外一位认识了 15 年的朋友。我上个月发现他把我给拉黑了，真的是没有任何的预警。我多方打探了一下，似乎这位朋友过的不好。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#85 TANG11&lt;/strong&gt;：@&lt;a href="/member/freefly111"&gt;freefly111&lt;/a&gt; #11 我觉得，你要请早请啊，你不能等人不理你才请吧，跟试探底线似的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#86 3191870&lt;/strong&gt;：高中的时候有个特别好特别好的朋友，一起度过了高中三年的快乐时光。大学又考到同一所大学，那时候还是有很多的联系。我本科毕业就工作了，他继续学业，这都七八年过去了，之前有一天，想起来问问他在干嘛？是在读博还是工作了？发了个微信，也没有任何回复。当时内心是有一点失落的，觉得我们的关系那么好，我们之前的友情会不一样。你问我答案吗？我也不知道。大家还是有一个共同的微信群，有一次看到他在里面说，小红书上刷到这一轮互联网公司的大裁员，我也没有接话，没有回复什么，我就是这一波从某大厂被裁员。不是很想回复这些东西，因为精力有限，而且也很累。没有精力和时间去接一些话题，所以我想，可能是，可能是他过的也没有那么好吧。 人是有不同的性格，有些人内心丰富，容易产生很多想法，大抵你也是这种吧。我觉得，自己在某些时候，终归是孤独的。被裁员之前，和几个饭搭子同事一起说的话也好多，lastday 还有几天，在家里休假，我也没有那么多话和他们讲了。 还是多专注当下，专注在自己的事情上吧。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#87 hefish&lt;/strong&gt;：人家忙，没空闲聊。 有事直接说。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#88 wangdef09&lt;/strong&gt;：或许他认为付出太多不值得何况同性，或许出了其他事，比如换了 v 。作为 op 记得他好就行。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#89 cai314494687&lt;/strong&gt;：我这几天微信号被封了，只能看不能回。还好只是一周，但是如果还有下次被封的时间会更久，然后就是永久被封&lt;br/&gt;&lt;br/&gt;有没有可能你这个学长微信号也被封了？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#90 freefly111&lt;/strong&gt;：@&lt;a href="/member/3191870"&gt;3191870&lt;/a&gt; #86 谢谢你，专注当下，祝你越来越好。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#91 weiwenhao&lt;/strong&gt;：你聊天有什么习惯么，可以导出来让 ai 分析一下。比如曾经不经意间晒出了自己的优越，或者你在收入上已经超过了你的学长，可能都会发生这种情况。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#92 jayLink&lt;/strong&gt;：你这学长是不是在大厂工作,可能就是太忙了,没有力气回复了,我就基本上朋友的信息都懒得回了,真的心累,只想独处休息&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 27 Jun 2026 04:01:14 +0000</pubDate></item><item><title>”“亲历，接到过国内派出所关于“翻墙”的质询。”“</title><link>https://www.v2ex.com/t/1223269</link><description>&lt;p&gt;是协议问题还是什么原因？ 晶哥目前技术能知道在当地网络用 x ？&lt;/p&gt;
 &lt;p&gt;“”“失业养猫中
 @&lt;a href="/member/Lwith3cats"&gt;Lwith3cats&lt;/a&gt;
 亲历，接到过国内派出所关于“翻墙”的质询。&lt;/p&gt;
@@ -269,7 +239,10 @@ Quote
 &lt;p&gt;&lt;strong&gt;#39 xiuming&lt;/strong&gt;：运营商有安插的后门 重点区域基站劫持&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#40 piaorenyong&lt;/strong&gt;：我去派出所写过保证书和问讯笔录&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#41 GeruzoniAnsasu&lt;/strong&gt;：别的我都懂，但为什么 OP 的双引号用得比。。。都神秘&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#42 leena&lt;/strong&gt;：他百分百用的不是苹果手机，至于是什么品牌，不好说，推特上面的实时监测，早都开始了，至于老马有没有问题，你就想想那个上海工厂是咋建立的，或许就有答案😂😂😂&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 27 Jun 2026 02:49:14 +0000</pubDate></item><item><title>PDD 百亿补贴发了个拆封 iPhone</title><link>https://www.v2ex.com/t/1223268</link><description>&lt;p&gt;昨天看到 Apple 全系涨价之后，只有 iPhone 17 系没涨，感觉等 18 大概率会涨价，然后索性就下在 PDD 上下单了 iPhone 17&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#42 leena&lt;/strong&gt;：他百分百用的不是苹果手机，至于是什么品牌，不好说，推特上面的实时监测，早都开始了，至于老马有没有问题，你就想想那个上海工厂是咋建立的，或许就有答案😂😂😂&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#43 alfawei&lt;/strong&gt;：@&lt;a href="/member/GeruzoniAnsasu"&gt;GeruzoniAnsasu&lt;/a&gt; #41 楼主只发了个帖 不回复任何内容 似乎就是引战讨论而已&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#44 cheng6563&lt;/strong&gt;：@&lt;a href="/member/xie8fei"&gt;xie8fei&lt;/a&gt; 所以现在的协议都是高仿 HTTPS 而且直接冒充苹果的域名...&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#45 crocoBaby&lt;/strong&gt;：看片不键政是规矩来的&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 27 Jun 2026 02:49:14 +0000</pubDate></item><item><title>PDD 百亿补贴发了个拆封 iPhone</title><link>https://www.v2ex.com/t/1223268</link><description>&lt;p&gt;昨天看到 Apple 全系涨价之后，只有 iPhone 17 系没涨，感觉等 18 大概率会涨价，然后索性就下在 PDD 上下单了 iPhone 17&lt;/p&gt;
 &lt;p&gt;顺丰非常效率，今天上午就派送，然后快递员打电话让我当面签收，我当面当着快递员的面打开了快递盒，把里面包装拿出来之后，发现封条完全是拆开的（撕开不退不换那个封条），我和顺丰小哥都惊呆了，就特么离谱，顺丰小哥也表示从来没见过这种事&lt;/p&gt;
 &lt;p&gt;听说过后封机，但没听说过全新拆封机，在 PDD 上买的电子产品应该也有十几个了（单价小几千）还没翻车过，今天也是开眼了，给我干无语了，直接在京东自营店下了一单&lt;/p&gt;
 &lt;p&gt;还有就是店铺客服在装死，目前已经申请 PDD 介入&lt;/p&gt;
