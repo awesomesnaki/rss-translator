@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sat, 27 Jun 2026 23:35:00 +0000</lastBuildDate><item><title>★ 伯尼·桑德斯：空想理论家与经济无知者</title><link>https://daringfireball.net/2026/06/bernie_sanders_ideologue</link><description>&lt;p&gt;&lt;a href="https://x.com/sensanders/status/2070213058950287865"&gt;伯尼·桑德斯周四在Twitter/X上发帖&lt;/a&gt;（别跟我抱怨他没用&lt;a href="https://bsky.app/profile/sanders.senate.gov"&gt;他的Bluesky账号&lt;/a&gt;）：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sun, 28 Jun 2026 17:21:42 +0000</lastBuildDate><item><title>PuffPal，一款访问大麻俱乐部的应用，泄露了100万用户的护照信息。</title><link>https://www.theverge.com/tech/947157/passports-data-breach-cannabis-club-systems-nefos-puffpal?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjdjV0Y5TTBuM0ciLCJwIjoiL3RlY2gvOTQ3MTU3L3Bhc3Nwb3J0cy1kYXRhLWJyZWFjaC1jYW5uYWJpcy1jbHViLXN5c3RlbXMtbmVmb3MtcHVmZnBhbCIsImV4cCI6MTc4MzA5NDY0NiwiaWF0IjoxNzgyNjYyNjQ2fQ.7SjX6B8AAGhzsdrtD5asJWBwzQvTDUD31hWte7K1oec</link><description>&lt;p&gt;肖恩·霍利斯特为The Verge撰稿（赠阅链接）：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果你去过西班牙的大麻俱乐部，[萨米]·阿兹杜法尔说，你的身份证照片很可能就在其中——可能还有你的电话号码、地址、你最喜欢的大麻品种，以及你在那里每月消费了多少。阿兹杜法尔表示，数据库中还包括名人，以及来自世界各地的游客，其中包括3万名来自美国的游客。“他们有名人，”阿兹杜法尔说，“那些不想让所有人知道自己抽大麻的人。”&lt;/p&gt;
+&lt;p&gt;但当阿兹杜法尔反编译这款PuffPal应用时，&lt;a href="https://github.com/xn0tsa/because-i-got-high"&gt;他在报告中解释称&lt;/a&gt;，他发现Nefos没有任何有意义的安全级别。他发现Stripe支付平台的密钥以明文形式存在于应用中。他发现只需更改一个数字就能调出任何会员的资料。如果这些资料包含他们的电话号码、家庭住址、护照和大麻偏好，他也能访问这些信息。&lt;/p&gt;
+&lt;p&gt;然后，他发现这些护照、驾照和身份证照片都存储在公开的URL中，简单到如此程度：&lt;code&gt;https://ccsnubev2.com/v8/images/_{club}/ID/{user_id}-front.jpg&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;阿兹杜法尔告诉我，这些俱乐部每天通过这些不安全的URL上传5000张新的身份证照片。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href="https://github.com/xn0tsa/because-i-got-high"&gt;阿兹杜法尔关于此次泄露的完整报告&lt;/a&gt;，包括他发现这一漏洞的轻松程度，都值得一读。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.schneier.com/blog/archives/2026/06/one-million-passports-leaked-online.html"&gt;布鲁斯·施奈尔&lt;/a&gt;：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注意发生了什么。一种高价值凭证——护照——被用于一个辅助性的低价值认证系统：大麻药房的身份验证。而正是这个低价值系统被黑客入侵，导致高价值凭证面临风险。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;访问大麻俱乐部必须经过年龄验证。安全性本不该如此糟糕，但年龄验证是这个行业的一部分。但现在想想世界各地正在提议和通过的立法，要求对任何在线行为进行年龄验证。这类身份泄露事件是不可避免的结果。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/06/28/puffpal-passport-leak" title="永久链接至‘PuffPal，一款用于访问大麻俱乐部的应用，泄露了100万用户的护照’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Sun, 28 Jun 2026 17:21:42 +0000</pubDate></item><item><title>★ 伯尼·桑德斯：空想理论家与经济无知者</title><link>https://daringfireball.net/2026/06/bernie_sanders_ideologue</link><description>&lt;p&gt;&lt;a href="https://x.com/sensanders/status/2070213058950287865"&gt;伯尼·桑德斯周四在Twitter/X上发帖&lt;/a&gt;（别跟我抱怨他没用&lt;a href="https://bsky.app/profile/sanders.senate.gov"&gt;他的Bluesky账号&lt;/a&gt;）：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;企业贪婪就是苹果CEO蒂姆·库克，他在公司去年获利1120亿美元、并花费3100亿美元进行股票回购后，声称将苹果产品价格上调超过200美元是“不可避免的”。&lt;/p&gt;
 &lt;p&gt;这些涨价并非不可避免。它们是不可接受的。&lt;/p&gt;
@@ -38,14 +52,4 @@
 &lt;p&gt;对于他们涨价，我并不感到生气。我唯一生气的是他们希望人们将“Xbox”全部大写。另外，对于他们喜欢搬出的那句“通常不以盈利为目的销售”，我表示呵呵。&lt;/p&gt;
 &lt;p&gt;最说明问题的是，微软正在逐步淘汰高端2TB存储的Xbox型号，而不是低端的512GB型号。高端配置通常利润率最高。但在这场危机中却并非如此。这类似于配备M3 Ultra的Mac Studio &lt;a href="https://9to5mac.com/2026/05/05/apples-most-powerful-mac-studio-loses-its-last-remaining-ram-upgrade-option/"&gt;现在仅提供基础RAM配置：96GB&lt;/a&gt;。当M3 Ultra芯片&lt;a href="https://9to5mac.com/2026/05/05/apples-most-powerful-mac-studio-loses-its-last-remaining-ram-upgrade-option/"&gt;于2025年3月首次亮相&lt;/a&gt;时，苹果提供升级至256GB和512GB RAM的选项，价格分别为1600美元和4000美元。现在，他们不再以任何价格提供这些RAM层级。购买超过96GB RAM的Mac Studio的唯一途径是购买二手产品——&lt;a href="https://www.ebay.com/sch/i.html?_nkw=mac+studio&amp;amp;_sacat=0&amp;amp;_from=R40&amp;amp;Release%2520Year=2025&amp;amp;_sop=16"&gt;eBay卖家的标价在25,000至30,000美元之间&lt;/a&gt;。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/06/27/microsoft-raises-xbox-prices" title="Permanent link to ‘Microsoft Raises Xbox Prices, Drops High-End Storage Model From Lineup’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sat, 27 Jun 2026 22:15:28 +0000</pubDate></item><item><title>FT报道称，苹果正游说从被列入黑名单的中国公司CXMT购买存储芯片。</title><link>https://www.ft.com/content/d72a25e2-7bde-4aa9-bd8d-0c4f3d6cb2cb</link><description>&lt;p&gt;Demetri Sevastopulo和Michael Acton为《金融时报》报道（遗憾的是，该文章需付费阅读）：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;据六位知情人士透露，苹果公司正在游说特朗普政府，希望获得批准从CXMT购买存储芯片。CXMT是一家中国公司，因被指控与中国人民解放军有关联而被美国五角大楼列入黑名单。 [...]&lt;/p&gt;
-&lt;p&gt;苹果并未被禁止从CXMT或另一家中国存储芯片制造商YMTC购买芯片。但五角大楼已将这两家公司列入其中国军事企业黑名单。这份所谓的1260H名单中包含数十家被指控与解放军有联系、从而损害美国国家安全的中国集团。 [...]&lt;/p&gt;
-&lt;p&gt;如果政府批准苹果从被视为中国国家冠军企业的CXMT采购，国会可能会强烈反对。“苹果选择与中国军工企业合作将是一个严重错误，”众议院中国委员会共和党主席John Moolenaar告诉《金融时报》。“在我们必须与盟友建立安全技术供应链之际，帮助中国共产党实现其主导关键供应链的计划，将使我国科技产业和经济更加依赖中国，”Moolenaar说。 [...]&lt;/p&gt;
-&lt;p&gt;一位前官员警告称，允许苹果从一家接受中国补贴的企业购买存储芯片，美国可能面临失去另一个产业的风险。&lt;/p&gt;
-&lt;p&gt;“特朗普可以展现出勇气，为了我们的安全和竞争力而保持美国存储芯片产业的活力，或者将其付诸东流，以便（苹果首席执行官）蒂姆·库克能挤出几个百分点的利润率。”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;在苹果公司关于&lt;a href="https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/"&gt;公司即将进行领导层交接的公告&lt;/a&gt;中，他们表示，库克在担任执行董事长的新角色中，“将协助公司某些方面的工作，包括与全球政策制定者进行接触。”我越来越觉得，库克可能不会比担任CEO时更轻松。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/06/27/ft-apple-cxmt" title="Permanent link to ‘FT Reports That Apple Is Lobbying to Buy Memory Chips From Blacklisted Chinese Company CXMT’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sat, 27 Jun 2026 20:24:18 +0000</pubDate></item></channel></rss>
+</description><pubDate>Sat, 27 Jun 2026 22:15:28 +0000</pubDate></item></channel></rss>
