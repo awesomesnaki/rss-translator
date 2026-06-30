@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 30 Jun 2026 00:59:08 +0000</lastBuildDate><item><title>印度供应商塔塔电子数据泄露，iPhone 18 Pro详细信息和照片曝光</title><link>https://www.reuters.com/business/media-telecom/apple-iphone-18-pro-supplier-list-parts-photos-exposed-tata-data-leak-2026-06-29/</link><description>&lt;p&gt;路透社记者Munsif Vengattil、Aditya Kalra和Stephen Nellis报道：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 30 Jun 2026 16:33:55 +0000</lastBuildDate><item><title>CMA关于移动应用引导和NFC访问的咨询</title><link>https://www.gov.uk/government/news/cma-consults-on-new-requirements-for-apple-and-googles-mobile-platforms</link><description>&lt;p&gt;英国竞争与市场管理局：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“引导”——即开发者能够与客户就平台外的选项进行沟通——目前在英国被苹果禁止，并受到谷歌的限制。解除这些限制将使开发者能够绕过平台设定的强制性费用。&lt;/p&gt;
+&lt;p&gt;CMA的咨询包括确保苹果和谷歌对引导行为收取的费用公平合理的原则。采用基于证据的框架，CMA预计引导费用将低于当前应用商店的收费，节省的费用将传递给英国客户或返还给开发者的业务，以支持未来的创新。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href="https://www.macrumors.com/2025/12/17/japan-app-store-feature-updates/"&gt;日本的MSCA&lt;/a&gt;为此&lt;a href="https://daringfireball.net/2025/12/apple_japan_msca_compliance"&gt;提供了一个良好的模式&lt;/a&gt;。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/06/30/cma-consultation" title="永久链接至‘CMA关于移动应用引导和NFC接入的咨询’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Tue, 30 Jun 2026 16:33:55 +0000</pubDate></item><item><title>英国监管机构考虑要求App Store允许引导至网页，并且iOS NFC需开放</title><link>https://www.reuters.com/world/uk-regulator-proposes-easing-apple-google-app-store-payment-rules-2026-06-30/</link><description>&lt;p&gt;路透社记者萨姆·塔巴里提报道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;英国竞争监管机构周二提议，允许应用开发者引导用户使用苹果和Alphabet旗下谷歌应用商店之外的其他支付选项，以降低费用并促进竞争。英国竞争与市场管理局表示，这些提议将取消目前禁止英国开发者引导用户使用平台外支付选项的限制，而这类做法被苹果禁止，并受到谷歌的限制。&lt;/p&gt;
+&lt;p&gt;该监管机构表示，这两家全球最大的科技公司若允许此类“引导”行为而收取的任何费用，都必须公平合理，且应低于当前应用商店的佣金比例，节省的费用应转嫁给消费者或重新投资于创新。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;如何强制要求将节省的费用转嫁给消费者？你或许记得，去年苹果发布了一项自行委托的研究，提出相反的观点。我曾在12月撰文写道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这归根结底是围绕苹果应用商店佣金推高价格的争论。一项近期由苹果资助（并由苹果推广）的研究表明，事实并非如此——在《数字市场法案》强制降低佣金后，消费者支付的价格保持不变，差额全部流向了开发者。这对开发者来说是好事，但这并非消费者权益倡导团体所持的论点。&lt;/p&gt;
+&lt;p&gt;话说回来，就在前几天我曾指出，苹果刚在2025年App大奖中评为年度iPhone应用的应用Tiimo，其网站订阅价格比应用内订阅低了约20%。对于苹果资助和推广的、声称应用商店佣金不会推高价格的研究，我们理应持保留态度。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;要求苹果允许应用引导用户通过网页进行支付，长期以来我一直认为，这是合理的监管。我也一直认为，苹果在拒绝这种做法上显得固执己见。如果应用内支付（通过苹果系统）无法与网页上的应用外支付竞争，那说明IAP（应用内购买）存在问题。但假设IAP之外的支付会为用户带来更低价格和更优政策，也是错误的。IAP订阅易于取消，并集中列在一处。而网页订阅通常以难以取消和管理而臭名昭著。&lt;/p&gt;
+&lt;p&gt;回到路透社的报道：&lt;/p&gt;&lt;blockquote&gt;
+&lt;p&gt;CMA表示，他们也在考虑要求苹果开放其近场通信技术（用于非接触式支付）的访问权限，这可能允许开发者在自己的iOS应用中提供支付服务。CMA称，这可能会让英国金融科技公司开发出替代苹果钱包的解决方案，包括账户间支付以及数字货币等新兴技术。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;相比于开放第三方应用内支付处理，这更像是只有“金融科技”公司会要求的举措。对用户而言，我认为唯一的结果将是互操作性的丧失和困惑的增加。如今用户只有一个钱包应用，里面包含所有信用卡、借记卡、会员卡，以及各种活动与旅行的票券。如果出现一种场景，让每家信用卡公司、航空公司、活动和票务公司都能强制用户安装自己的应用，并访问iPhone的NFC功能，这在我看来并不是一个好结果。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/06/30/uk-cma-regulations-app-store-nfc" title="‘英国监管机构考虑要求App Store允许引导至网页，并开放iOS的NFC功能’的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Tue, 30 Jun 2026 15:44:49 +0000</pubDate></item><item><title>印度供应商塔塔电子数据泄露，iPhone 18 Pro详细信息和照片曝光</title><link>https://www.reuters.com/business/media-telecom/apple-iphone-18-pro-supplier-list-parts-photos-exposed-tata-data-leak-2026-06-29/</link><description>&lt;p&gt;路透社记者Munsif Vengattil、Aditya Kalra和Stephen Nellis报道：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;根据文件和消息人士透露，敏感组件和供应商列表，以及苹果即将推出的iPhone 18 Pro机型的照片，是勒索软件团伙发布在暗网上的&lt;a href="https://www.reuters.com/business/media-telecom/indias-tata-electronics-hit-by-cyber-breach-claiming-expose-apple-tesla-trade-2026-06-22/"&gt;文件&lt;/a&gt;的一部分，该团伙从苹果的美国公司印度供应商塔塔电子窃取了数据。&lt;/p&gt;
 &lt;p&gt;此次泄露威胁到了苹果精心谈判的iPhone制造业务，苹果从全球众多供应商中组装iPhone。由于大多数供应商安排都受到苹果的严密保护，这也可能破坏苹果与塔塔的关系，并且可能让竞争对手、造假者以及苹果自己的供应商了解到谁在制造什么。[...]&lt;/p&gt;
@@ -17,27 +40,4 @@
 &lt;p&gt;Cloudflare、Firecrawl 和 Resend 已经采用了它。&lt;/p&gt;
 &lt;p&gt;一个由 WorkOS 编写的开放协议。&lt;a href="http://workos.com/auth-md?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q32026"&gt;阅读规范&lt;/a&gt;。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/06/28/workos-auth-md" title="永久链接至 ‘Auth.md — 来自 WorkOS 的代理注册开放协议’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 29 Jun 2026 01:32:24 +0000</pubDate></item><item><title>丹尼尔·阿吉：‘回忆奥姆’</title><link>https://glass.photo/highlights/remembering-om</link><description>&lt;p&gt;Glass团队早期成员丹尼尔·阿吉在Glass博客上写道：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我们深知，&lt;a href="https://glass.photo/om"&gt;奥姆的摄影作品&lt;/a&gt;常取材于北极圈内外的冰封之地，与他的人格特质截然相反。当他聚焦于微妙的形状与隐秘的风景时，他本人却是任何群体中的太阳。人们自然而然地就被吸引到他的轨道中。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;阿吉这篇感人的文章中充满了奥姆拍摄的照片。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;作为互联网出版领域的老将，他是最早从科技写作转向风险投资这条如今已司空见惯道路的人之一。我们曾短暂考虑进行一小轮VC融资以支持增长，当时第一个致电的就是奥姆。他接了电话，立刻说道：“我爱你们，如果你们需要，我会投这笔钱，但千万别这么做。你们拥有的是特别的东西。别他妈毁了它。”&lt;/p&gt;
-&lt;p&gt;这就是奥姆。简单直接。那种简洁也体现在他的摄影实践中。把照片中的一切剥离，只留下最纯粹的对比或阴影。你会关注什么？你会看到什么？如此简单的东西怎能如此令人满足？&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这正是奥姆说话的方式。一贯如此。直截了当。为什么要浪费时间？为什么要拐弯抹角？为什么要让人猜测你的真实想法？我们的直觉可能相反，但直言不讳并非无礼。&lt;a href="https://www.vanityfair.com/news/tech/2014/10/jony-ive-lessons-from-steve-jobs"&gt;不加修饰的诚实是一种深沉的礼貌&lt;/a&gt;。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/06/28/agee-om-glass" title="永久链接至‘Daniel Agee: ‘Remembering Om’’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 29 Jun 2026 01:21:49 +0000</pubDate></item><item><title>马特·穆伦维格：“条条大路通奥姆”</title><link>https://ma.tt/2026/06/om-forever/</link><description>&lt;p&gt;马特·穆伦维格：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;从根本上说，Om是一个热爱人类的人。无论他走到哪里，他都会迅速成为常客。他不只是买咖啡，还会了解每位咖啡师的名字和故事，以及南公园的狗和人。他深厚的好奇心和尊重不仅仅针对优秀和著名的人物，而是延伸到每一个与他相遇的灵魂。他百科全书式的知识和过目不忘的记忆力不仅在旧金山建立了联系，在我们旅行过的世界各地也是如此。（我需要查一下数据，但我们一起去了五个大洲，包括南极洲。）&lt;/p&gt;
-&lt;p&gt;他热爱人们和他们的故事。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;以及：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我从Om身上学到的最重要的一课是对手艺的深刻欣赏。当他对摄影或钢笔产生兴趣时，他总能找到那个领域最冷门、最高品质的表达方式。“Om会想要什么？”是我将永远思考的问题。我想打造出能让Om引以为傲的产品。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;如果你要投入某件事，就应该全力以赴。如果你没有足够的兴趣去做到这一点，那就别费心去涉足。找到你真正热爱的少数几件事；不要把时间浪费在那些你仅仅喜欢的众多事情上。&lt;/p&gt;
-&lt;p&gt;Matt正在维护&lt;a href="https://ma.tt/2026/06/om-links/"&gt;一个关于其他纪念和致敬Om的精彩链接列表&lt;/a&gt;。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/06/28/matt-om" title="Permanent link to ‘Matt Mullenweg: ‘All Roads Lead to Om’’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 29 Jun 2026 01:08:13 +0000</pubDate></item></channel></rss>
+</description><pubDate>Mon, 29 Jun 2026 01:32:24 +0000</pubDate></item></channel></rss>
