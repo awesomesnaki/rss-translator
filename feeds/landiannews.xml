@@ -1,5 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 30 Jun 2026 06:37:11 +0000</lastBuildDate><item><title>这要是拿来开中转站...美国加州政府与A社达成合作 使用Claude AI可以获得50%折扣</title><link>https://www.landian.news/archives/113707.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 30 Jun 2026 08:40:13 +0000</lastBuildDate><item><title>美团AI团队开源发布龙猫2.0模型 类似Claude Opus 4.6/4.7 适合在智能体中使用</title><link>https://www.landian.news/archives/113709.html</link><description>
+&lt;p&gt;#人工智能 美团 AI 团队开源发布龙猫 2.0 模型，智能化程度类似 Claude Opus 4.6/4.7，采用宽松的 MIT 协议，美团自己也提供 API 调用。调用价格方面，当前促销价为百万输入命中缓存 0.04 元、未命中缓存 2 元、百万输出 8 元。龙猫 2.0 总参数规模 1.6T，激活参数 48B，原生支持 1M 窗口，权重文件目前已经可以公开下载。查看全文：https://ourl.co/113709&lt;/p&gt;&lt;p&gt;美团 AI 团队日前宣布开源发布龙猫 2.0 模型 (LongCat-2.0)，该模型总体参数规模达到 1.6 万亿 (1.6T)，采用 MoE 混合专家架构，激活参数为 480 亿，龙猫 2.0 模型原生支持 1M 窗口，模型采用标准的 MIT 许可证开源发布，任何人都可以下载和使用龙猫模型，也可以基于该模型进行微调、修改、再分发等。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113709.png" rel="nofollow"&gt;&lt;img alt="美团AI团队开源发布龙猫2.0模型 类似Claude Opus 4.6/4.7 适合在智能体中使用" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113709.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;编码智能体类：Terminal-Bench 2.1 评测得分 70.8 分，略低于 Claude Opus 4.7&lt;/li&gt;
+&lt;li&gt;编码智能体类：SWE-bench Pro 评测得分 59.5 分，略高于 OpenAI GPT-5.5&lt;/li&gt;
+&lt;li&gt;编码智能体类：SWE-bench Multilingual 评测得分 77.3 分，相当于 Claude Opus 4.6&lt;/li&gt;
+&lt;li&gt;通用智能体类：FORTE 评测得分 73.2 分，相当于 Claude Opus 4.6&lt;/li&gt;
+&lt;li&gt;通用智能体类：RWSearch 评测得分 78.8 分，略低于 Claude Opus 4.7&lt;/li&gt;
+&lt;li&gt;通用智能体类：BrowseComp 评测得分 79.9 分，略高于 Claude Opus 4.7&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;龙猫 2.0 模型权重已经在 HF 和 GitHub 上开源发布，采用 MIT 许可证进行授权，美团自己的 API 平台也提供模型调用，兼容 OpenAI 和 Anthropic 格式，支持 Chat Completion 等接口，上下文窗口最高为 1M，最大输出为 128K。美团 AI 团队称龙猫 2.0 模型与主流开发环境例如 Claude Code 完全兼容，用户也可以在 OpenClaw 和 Hermes 等智能体工具中使用。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;美团自己提供的&lt;a href="https://www.landian.news/go?url=https://longcat.chat/platform/docs/zh/" rel="noopener" target="_blank"&gt;龙猫模型 API 平台&lt;/a&gt;提供 API 调用和 Token 资源包，其中 API 价格如下&lt;/li&gt;
+&lt;li&gt;龙猫 2.0 正常价：百万输入命中缓存 0.1 元、百万输入未命中缓存 5 元、百万输出 20 元&lt;/li&gt;
+&lt;li&gt;龙猫 2.0 促销价：百万输入命中缓存 0.04 元、百万输入未命中缓存 2 元、百万输出 8 元&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 30 Jun 2026 08:40:13 +0000</pubDate></item><item><title>Claude Fable将需要提交证件和自拍照认证才能使用 且需要单独购买积分不包含在套餐内</title><link>https://www.landian.news/archives/113708.html</link><description>
+&lt;p&gt;#人工智能 Claude Fable 5 将要求用户提交身份证件和自拍照进行实名认证，只有认证后才能单独购买积分使用，而该模型将不包括在 Claude 订阅套餐中。有开发者从 i18n 本地化字符串中发现这些新信息，A 社称 Fable 5 需要单独购买积分使用，充值积分需要审核，只有完成身份验证后才能添加积分。查看全文：https://ourl.co/113708&lt;/p&gt;&lt;p&gt;目前有传言称 A 社很快就会重新上线 Claude Fable 5 模型，也有开发者通过分析 Claude 和 Claude Code 本地化字符串发现 A 社增加大量与购买使用积分相关的 UI 文案，从文案描述来看后续 Claude Fable 很可能会进行单独计费且必须经过身份认证的用户才可以使用该模型。&lt;/p&gt;
+&lt;p&gt;此前 A 社变更隐私条款称部分账户可能需要进行实名认证后才能使用，&lt;a href="https://www.landian.news/archives/113600.html" rel="noopener" target="_blank"&gt;当时 A 社工程师强调仅被滥用系统标记的可疑账号才会触发实名认证&lt;/a&gt;，但现在 Claude Fable 应该是需要广泛认证的，没有经过认证的账号无法使用此模型，但具体哪些地区的用户可以使用该模型还有待观察，有可能 A 社还会继续遵守美国政府的出口管制指令仅限于美国公民使用此模型。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/05/109080-1.png" rel="nofollow"&gt;&lt;img alt="Claude Fable将需要提交证件和自拍照认证才能使用 且需要单独购买积分不包含在套餐内" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/05/109080-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; Claude Fable 将不包含在订阅套餐内使用：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;值得注意的是此前 Claude Fable 可以通过现有的订阅套餐使用，即开发者可以直接切换为该模型并使用套餐内使用配额进行调用，而新的本地化字符串表明，A 社很有可能将 Claude Fable 放在单独的付费墙之后，即用户需要额外充值购买积分后使用此模型，套餐内的使用配额只能使用其他模型例如 Claude Opus 4.8 等，但目前尚不清楚 Claude Mythos 5 是否也会放在付费墙之后。&lt;/p&gt;
+&lt;p&gt;i18n 文件里显示的字符串内容包括：Fable 5 使用积分运行，与您的订阅计划分开计费；购买后需要审核，审核通过后才会添加使用积分；无法在应用程序内直接购买积分；当前 Apple App Store 地区暂不支持购买积分；当前账号类型不符合购买条件；积分不可用；只有组织管理员才可以购买积分。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113708.png" rel="nofollow"&gt;&lt;img alt="Claude Fable将需要提交证件和自拍照认证才能使用 且需要单独购买积分不包含在套餐内" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113708.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在本地化字符串里还有个说明是「您购买的积分将在身份验证完成后添加」，这意味着开发者想要使用 Claude Fable 5 就必须先完成必要的实名认证，否则即便想要购买积分也无法通过审核，这种情况下仅开通 Claude Pro 或 Max 订阅无法使用 Claude Fable 5 模型。&lt;/p&gt;
+&lt;p&gt;实名认证方面，&lt;a href="https://www.landian.news/archives/112667.html" rel="noopener" target="_blank"&gt;在此前的变更中 A 社提到用户需要通过 Persona 平台提交必要信息&lt;/a&gt;，具体来说包括政府签发的身份证件和自拍照，这意味着 A 社的实名认证系统有些类似于人脸识别，通过自拍照识别用户是否与身份证件中的照片一致，对注重隐私保护的开发者来说这是很难接受的。&lt;/p&gt;
+&lt;p&gt;只不过此前只有触发异常的开发者账户才需要提交证件照和自拍照进行验证，现在可能所有想要使用 Claude Fable 5 的开发者都必须提交证件照和自拍照，目前尚不清楚这是美国政府的要求还是 A 社为满足合规要求制定的措施。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://www.landian.news/go?url=https://x.com/M1Astra/status/2071792190221664294" rel="noopener" target="_blank"&gt;@M1Astra&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 30 Jun 2026 08:07:25 +0000</pubDate></item><item><title>这要是拿来开中转站...美国加州政府与A社达成合作 使用Claude AI可以获得50%折扣</title><link>https://www.landian.news/archives/113707.html</link><description>
 &lt;p&gt;#人工智能 这要是拿来开中转站... 美国加州政府与 Anthropic 达成合作，将可以以 50% 的优惠价使用 Claude AI 服务。这项合作适用于加州州政府和地方政府，加州鼓励各级政府采用 Claude AI 来简化行政工作、分析海量信息、起草文档等。查看全文：https://ourl.co/113707&lt;/p&gt;&lt;p&gt;当地时间 2026 年 6 月 29 日，美国加利福尼亚州政府宣布与 Anthropic 达成首创合作协议，协议内容主要是加州政府层面将商用 AI 工具引入到日常工作中，目的是使用商用 AI 工具提升政府效率、改善公共服务，A 社还将为加州政府雇员提供 AI 培训帮助这些雇员使用 AI 工具。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113612-1.png" rel="nofollow"&gt;&lt;img alt="这要是拿来开中转站...美国加州政府与A社达成合作 使用Claude AI可以获得50%折扣" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113612-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -39,75 +74,4 @@
 &lt;p&gt;尤什凯维奇在博客中提到，将 Ampere Altra 80 核处理器重新换成 6 核心 12 线程的 AMD 处理器后，虽然 CPU 核心数量减少但所有运行都是正常的，线程都能加载、音乐可以继续播放、Steam 库中的所有游戏都能玩，所以接下来尤什凯维奇不用再花时间折腾 PCIe 控制器以及内核问题。&lt;/p&gt;
 &lt;p&gt;作为专门处理 ARM 架构的红帽工程师，遇到这种系统级的硬件问题也无能为力，目前英伟达已经推出基于 Arm 架构的 DGX SPARK 系统，或许在兼容性方面英伟达会做的更好，只不过 DGX SPARK 价格极其昂贵，对于大部分开发者来说购买该设备可能都有些难度。&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 30 Jun 2026 06:00:30 +0000</pubDate></item><item><title>DBrand为Steam蒸汽机发布的伴侣魔方保护壳竟然没获得授权 V社法务已要求停售产品</title><link>https://www.landian.news/archives/113704.html</link><description>
-&lt;p&gt;#硬件设备 DBrand 蒸汽机伴侣魔方保护壳竟然没有获得 V 社的授权，V 社法务已要求停售此产品并且拒绝提供授权。蒸汽机伴侣魔方是 DBrand 为 Steam Machine 制作的硅胶保护壳，其核心设计元素来自 V 社经典游戏传送门的伴侣魔方，但 DBrand 从去年 11 月开始立项到 6 月 22 日开售，竟然全程没有找 V 社获取授权。查看全文：https://ourl.co/113704&lt;/p&gt;&lt;p&gt;2025 年 11 月 V 社发布 Steam Machine 蒸汽机硬件，当时保护套制造商 DBrand 发布概念图和注册页面看看大家是否对蒸汽机伴侣魔方保护壳 (dbrand Companion Cube Steam Machine) 感兴趣，没想到页面上线首日就有超过 1.5 万名玩家注册，考虑到玩家的热情非常高，所以 DBrand 开始动手制造这些伴侣机箱，问题在于该公司并未取得任何授权。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113704.png" rel="nofollow"&gt;&lt;img alt="DBrand为Steam蒸汽机发布的伴侣魔方保护壳竟然没获得授权 V社法务已要求停售产品" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113704.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;6 月 22 日该公司正式发布蒸汽机伴侣机箱，不过很快 V 社的法务团队就联系 DBrand 要求后者立即删除与保护壳相关的产品、宣传图片或视频以及其他内容，原因很简单：Companion Cube 的知识产权是 V 社的，DBrand 竟然在没有获得任何授权的情况下使用这个名称以及游戏元素进行产品设计。&lt;/p&gt;
-&lt;p&gt;Companion Cube (伴侣魔方) 是传送门游戏中的标志性元素，所以 V 社对伴侣魔方设计元素拥有绝对的知识产权，DBrand 的侵权行为自然不可能被 V 社忽略，所以 V 社在 DBrand 正式发售产品后就立即发出侵权函，现在伴侣魔方保护壳项目已经完全停止。&lt;/p&gt;
-&lt;p&gt;DBrand 认为这确实是自己的失误，即没有提前联系 V 社沟通授权问题，而在开售后被 V 社法务联系才想起来授权问题，不过 V 社拒绝为该项目提供授权，显然这种授权应该在产品设计前就进行沟通，毕竟还要牵涉授权费用等诸多问题，V 社不愿意就这种已经发布的产品提供授权。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;基于知识产权问题目前 DBrand 已经决定彻底取消这个项目，与此同时所有已经预购的用户也将获得自动退款，DBrand 要为这次侵权行为负责，有消息称该公司在伴侣魔方项目上投入的资金超过 200 万美元，涉及前期的设计、开模和后期的量产等等，这次损失对 DBrand 来说非常大。&lt;/p&gt;
-&lt;p&gt;DBrand 在公告中坦承这是自己的错误，V 社要求下架产品并拒绝提供授权是完全合理的做法，DBrand 感谢社区成员的支持，也为这次失误向所有感兴趣的用户道歉。&lt;/p&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 30 Jun 2026 05:31:58 +0000</pubDate></item><item><title>[下载] WSL容器预览版现已发布 支持创建/管理/管控容器 无需安装Docker Desktop</title><link>https://www.landian.news/archives/113703.html</link><description>
-&lt;p&gt;#软件资讯 微软宣布 WSL 容器功能开始进行预览，开发者只需要将 WSL 更新到最新预览版即可使用 WSLC。WSLC 容器功能支持创建、管理、运行、导出容器等，原生支持 GPU 容器，支持网络管理。开发者无需安装 Docker Desktop 即可运行容器，而且不会被常驻进程占用额外的资源。下载地址：https://ourl.co/113703&lt;/p&gt;&lt;p&gt;微软开源的 WSL 容器 (WSL Containers) 即日起开始面向开发者提供公共预览版，开发者只需要将 WSL 子系统更新到最新版即可使用 WSLC 命令创建、查看、管理容器，WSLC 无需安装 Docker Desktop 版，底层基于 Hyper-V 虚拟化技术，为开发者提供轻量可控的容器运行环境。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113703.png" rel="nofollow"&gt;&lt;img alt="[下载] WSL容器预览版现已发布 支持创建/管理/管控容器 无需安装Docker Desktop" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113703.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;前置条件：已经启用 WSL 子系统，如尚未启用请先启用 WSL 子系统后再执行操作&lt;/p&gt;
-&lt;p&gt;简单命令：wsl --update --pre-release 该命令可以将 WSL 更新到最新预览版，支持 WSLC&lt;/p&gt;
-&lt;p&gt;离线安装：&lt;a href="https://www.landian.news/go?url=https://github.com/microsoft/WSL/releases/tag/2.9.3" rel="noopener" target="_blank"&gt;https://github.com/microsoft/WSL/releases/tag/2.9.3&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;管理命令：wslc [&amp;lt;命令&amp;gt;] [&amp;lt;选项&amp;gt;]&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;生命周期管理：支持创建、运行、启动、杀死、导出等完整操作，可设置资源限制和共享内存大小等&lt;/li&gt;
-&lt;li&gt;镜像管理功能：可以使用 build、pull、push、import、save、inspect、list/prune 等管理容器镜像&lt;/li&gt;
-&lt;li&gt;网络功能管理：支持创建和管理网络、容器绑定多个网络、网络别名、端口发布、网络清理等功能&lt;/li&gt;
-&lt;li&gt;容器存储功能：支持创建、列出、清理卷，兼容 VHD 后端存储，提供 UID/GID/Fixed 等驱动&lt;/li&gt;
-&lt;li&gt;支持调用显卡：通过 CDI 原生支持 GPU 容器，非 root 用户也可以访问 GPU 可执行文件和库，适合 AI 等场景&lt;/li&gt;
-&lt;li&gt;会话管理功能：支持命名会话、按需默认会话，可以配置存储空间 (默认 32GB)&lt;/li&gt;
-&lt;li&gt;开发者类工具：提供 C++ 和 C#/WinRT 的 SDK，支持插件 API、集成 MSBuild/CMAKE、支持企业管控&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;零额外安装开箱即用：无需下载 Docker Desktop 或额外配置守护进程，更新 WSL 后直接使用 wslc 命令即可&lt;/li&gt;
-&lt;li&gt;轻量和高效资源利用：WSL2 本身采用动态内存分配和轻量级架构，容器可按需请求资源，避免常驻高占用&lt;/li&gt;
-&lt;li&gt;与系统进行深度集成：通过 SDK，Windows 原生应用可以直接调用容器能力，采用 VirtioFS 实现跨系统共享&lt;/li&gt;
-&lt;li&gt;GPU 和 AI 工作负载友好：原生 GPU 支持让 AI 模型训练、推理等场景在 Windows 开发机上更便捷&lt;/li&gt;
-&lt;li&gt;安全性与可管理性：依托 Windows 平台安全模型，保持 Linux 容器的隔离性，企业用户可以通过 AD 域管控&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;container # 管理容器
-image # 管理映像
-network # 管理网络
-registry # 管理注册表凭据
-settings # 在默认编辑器中打开设置文件
-system # 系统级命令
-volume # 管理卷
-attach # 附加到容器
-build # 从 Dockerfile 生成映像
-create # 创建容器
-exec # 在正在运行的容器中执行命令
-export # 将容器的文件系统导出为 tar 存档
-images # 列出映像
-import # 从 tarball 导入映像
-inspect # 检查对象
-kill # 终止容器
-list # 列出容器
-load # 加载映像
-login # 登录到注册表
-logout # 从注册表注销
-logs # 查看容器日志
-pull # 拉取映像
-push # 将映像上传到注册表
-remove # 移除容器
-rmi # 移除映像
-run # 运行容器
-save # 保存映像
-start # 启动容器
-stats # 显示容器资源使用统计信息
-stop # 停止容器
-tag # 标记映像
-version # 显示版本信息&lt;/pre&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 30 Jun 2026 05:05:30 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 30 Jun 2026 06:00:30 +0000</pubDate></item></channel></rss>
