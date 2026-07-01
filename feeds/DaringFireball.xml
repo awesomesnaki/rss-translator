@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 30 Jun 2026 20:54:32 +0000</lastBuildDate><item><title>地精</title><link>https://lexfriedman.com/gnome/</link><description>&lt;p&gt;Gnome是由Lex Friedman开发的一款看似简单实则精妙的动画GIF应用：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Wed, 01 Jul 2026 15:48:09 +0000</lastBuildDate><item><title>脱口秀：“吃药增肥”</title><link>https://daringfireball.net/thetalkshow/2026/06/30/ep-451</link><description>&lt;p&gt;伟大的约翰·莫尔茨重返节目。本期话题包括：苹果因全球内存/固态硬盘短缺而提高硬件价格，以及我们对MacOS 27 Golden Gate测试版界面改动的一些随想。&lt;/p&gt;
+&lt;p&gt;&lt;audio controls="controls" preload="none" src="https://traffic.libsyn.com/secure/daringfireball/thetalkshow-451-john-moltz.mp3"&gt;&lt;/audio&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;赞助商：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://coaxtheapp.com"&gt;Coax&lt;/a&gt;：战胜选择的暴政。在Plex服务器上轻松切换频道。使用Coax放松身心。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://evenrealities.com/"&gt;Even Realities&lt;/a&gt;：Even G2，日常显示智能眼镜。使用优惠码&lt;strong&gt;talkshow&lt;/strong&gt;，购买R1 Ring和/或Even Clip可节省10%。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://squarespace.com/talkshow"&gt;Squarespace&lt;/a&gt;：使用代码&lt;strong&gt;TALKSHOW&lt;/strong&gt;，首次购买网站或域名可节省10%。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;a href="https://daringfireball.net/linked/2026/07/01/the-talk-show-451" title="《脱口秀：'嗑药变胖'》的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Wed, 01 Jul 2026 15:48:09 +0000</pubDate></item><item><title>404 Media：iCloud的‘隐藏我的电子邮件’漏洞暴露了用户的真实电子邮件地址</title><link>https://www.404media.co/apple-hide-my-email-vulnerability-reveals-peoples-real-email-addresses/</link><description>&lt;p&gt;Joseph Cox为404 Media报道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;404 Media不会披露该漏洞的具体细节，因为截至周一，该漏洞仍然可以被利用，当时404 Media用我们自己的一个隐藏电子邮件地址验证了这个问题。&lt;/p&gt;
+&lt;p&gt;“Apple的‘隐藏我的电子邮件’功能正在泄露本应被隐藏的电子邮件地址。我们在一年多前向Apple报告了该问题及复现说明。我们不知道为何至今未修复，但我们觉得不能再等下去了。‘隐藏我的电子邮件’的用户有权知道，攻击者有可能发现他们隐藏的电子邮件地址，”发现并向Apple报告该问题的EasyOptOuts联合创始人Tyler Murphy告诉404 Media。[...]&lt;/p&gt;
+&lt;p&gt;为了测试该问题，我生成了一个全新的‘隐藏我的电子邮件’地址并提供给Murphy。大约五分钟后，他回复了我的真实电子邮件地址，该地址关联到我的Apple账户，原本应该是隐藏的。&lt;/p&gt;
+&lt;p&gt;“我们不知道问题的全貌，但在与志愿者进行的有限测试中，100%的‘隐藏我的电子邮件’地址都是可利用的，”Murphy说。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这可不妙。尤其是“我们在一年多前向Apple报告了该问题及复现说明”这一部分。（这是否可能与WWDC上关于&lt;a href="https://daringfireball.net/linked/2026/06/18/new-domain-for-signinwithapple-and-icloudhidemyemail"&gt;Apple合并‘通过Apple登录’和‘隐藏我的电子邮件’所用域名&lt;/a&gt;的消息有关？我看不出其中关联，但谁知道呢？）&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/07/01/hide-my-email-not-so-hidden" title="永久链接至‘404 Media：iCloud‘隐藏我的电子邮件’漏洞泄露用户的真实电子邮件地址’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Wed, 01 Jul 2026 14:42:02 +0000</pubDate></item><item><title>地精</title><link>https://lexfriedman.com/gnome/</link><description>&lt;p&gt;Gnome是由Lex Friedman开发的一款看似简单实则精妙的动画GIF应用：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;动画GIF最真实的一点是，它们是现代人类交流的关键支柱，但要把一张GIF放进Slack消息、iMessage对话或邮件回复中，通常需要打开浏览器、导航到网站、搜索、右键点击、复制、切换回来、粘贴，并为延迟道歉。到那时，时机已过，笑话也凉了，这一切到底有什么意义呢？&lt;/p&gt;
 &lt;p&gt;Gnome驻留在你的Mac菜单栏中。你按下键盘快捷键，一个小搜索窗口就会出现。你输入你要找的内容——&lt;em&gt;怪异阿尔&lt;/em&gt;、&lt;em&gt;耸肩&lt;/em&gt;、&lt;em&gt;完美搞定&lt;/em&gt;、&lt;em&gt;这得挨打&lt;/em&gt;——然后一个GIF网格就会出现。点击你想要的GIF，它现在就在你的剪贴板上了。粘贴到你正在输入的任何地方。笑话得救，世界更美好。&lt;/p&gt;
@@ -31,31 +49,4 @@
 &lt;/blockquote&gt;
 &lt;p&gt;证明&lt;em&gt;我&lt;/em&gt;是美国公民的唯一证据就是我出生在这里。我的出生证明上写有父母的名字，但没有提及他们的公民身份。同样，&lt;em&gt;他们&lt;/em&gt;的出生证明也是如此。这就是这个最卓越国家的公民身份运作方式。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/06/30/supreme-court-upholds-birthright-citizenship" title="Permanent link to ‘Supreme Court Upholds Birthright Citizenship in 6-3 Decision’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Tue, 30 Jun 2026 19:40:38 +0000</pubDate></item><item><title>★ 最高法院裁定，执法部门使用“地理围栏令”构成“搜查”（但从技术上讲，自2024年起可能已无实际意义）</title><link>https://daringfireball.net/2026/06/scotus_geofence_warrant_search</link><description>&lt;p&gt;&lt;a href="https://www.scotusblog.com/2026/06/court-rules-that-law-enforcements-use-of-geofence-warrant-was-a-search/"&gt;艾米·豪在一直优秀的SCOTUS博客上写道&lt;/a&gt;：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;周一，最高法院裁定，当执法人员使用“地理围栏令状”——该令状指示谷歌提供在特定时间段内靠近特定地点的手机用户的位置数据——来获取证据，用于给一名弗吉尼亚男子在2019年银行抢劫案定罪时，他们进行了第四修正案意义上的“搜查”。以6比3的投票结果，大法官们将Okello Chatrie的案件发回下级法院，由其考虑该搜查是否“合理”，正如第四修正案所要求的那样。&lt;/p&gt;
-&lt;p&gt;代表多数意见撰写判决书的埃琳娜·卡根大法官强调，“个人对其手机位置记录有合理的隐私期待，当警方要求获取这些信息时——即使只是有限时间，且来自第三方科技公司——他们侵犯了这一受宪法保护的利益。” [...]&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.scotusblog.com/cases/chatrie-v-united-states/"&gt;&lt;em&gt;查特里诉美国案&lt;/em&gt;&lt;/a&gt;的核心问题源于一名持枪男子进入弗吉尼亚州里士满郊外的一家联邦信用合作社，并向出纳员递了一张索要现金的纸条。他带着近20万美元逃走，但执法人员在向谷歌送达地理围栏令状之前没有任何线索，该令状要求这家科技公司提供抢劫发生时靠近银行的手机用户的位置数据。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;我全心全意地赞同这一裁决。作为SCOTUS博客的报道，豪的文章不出所料地关注法律方面。但我也对技术方面着迷。首先，谷歌居然拥有这些地理围栏信息，这既引人注目又令人遗憾。这些数据是谷歌一个名为“位置历史”的极具侵入性且构思欠佳的功能的一部分，并用于支持谷歌地图中名为“时间线”的功能。这些数据由谷歌以未加密的形式存储在云端，并与你的谷歌账户关联，因此地理围栏令状能够获取这些数据。&lt;/p&gt;
-&lt;p&gt;早在2023年12月，&lt;a href="https://blog.google/products/maps/updates-to-location-history-and-new-controls-coming-soon-to-maps/"&gt;谷歌宣布&lt;/a&gt;正在改变其存储这些数据的方式，默认改为设备端存储，并对其在线保存的位置数据使用端到端加密（谷歌本身无法解密）。这一改变长期以来受到电子前沿基金会的倡导，&lt;a href="https://www.eff.org/deeplinks/2023/12/end-geofence-warrants"&gt;该基金会庆祝了谷歌的政策转变&lt;/a&gt;。（值得注意的是，查特里于2019年抢劫了那家信用合作社。）&lt;/p&gt;&lt;p&gt;绝大多数人都坚信一个广为流传的错误观念：我们在手机附近所做的“一切”——我们去过的每个地方，甚至&lt;a href="https://simonwillison.net/2025/Jan/2/they-spy-on-you-but-not-like-that/"&gt;我们说过的每一句话&lt;/a&gt;——都会被追踪、记录，并追溯到个人。这种信念如此普遍，其实一点也不荒唐，因为它在技术上是可行的。我们的手机是精准的GPS设备，拥有良好的麦克风，并且（几乎）始终连接着蜂窝网络和/或Wi-Fi。而监视广告产业综合体——主要是Meta和谷歌——在根据我们近期个人兴趣投放广告方面表现得异常精准，以至于对此最显而易见的解释就是：“他们监听我们、追踪我们，并记录我们的一举一动。”但这&lt;em&gt;不是&lt;/em&gt;他们实际的做法。然而，“他们监听我们、追踪我们，并记录我们的一举一动”是一个人人都能轻易理解的说法。如果Meta和谷歌&lt;em&gt;真的&lt;/em&gt;是这样向我们投放定向广告的，那么每个人都能明白为什么这些广告常常如此诡异而令人不安地精准。实际运作方式复杂繁琐，因此落入了&lt;a href="https://en.wikipedia.org/wiki/Clarke%27s_three_laws"&gt;阿瑟·C·克拉克格言&lt;/a&gt;的范畴：“任何足够先进的技术都与魔法无异。”人们能理解的错误解释会引起共鸣、扎根并成为根深蒂固的信念；而人们无法理解的正确解释则被忽视、不被相信。（例证A：进化论。）正因如此，能够以许多人都能理解的方式解释复杂的技术和科学主题，才是一份如此珍贵的礼物。&lt;sup id="fnr1-2026-06-30"&gt;&lt;a href="https://daringfireball.net/#fn1-2026-06-30"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;瞧，如今最高法院有一个案例表明，当警方要求提供某天特定时间出现在某特定银行附近手机的用户名单时，谷歌拥有这些信息并交了出来。&lt;em&gt;查特里诉美国案&lt;/em&gt;并不是一个特别著名的案件，但这只会进一步加深关于“他们”——大型科技公司——收集我们数据的那些迷信且错误的阴谋论。&lt;/p&gt;
-&lt;p&gt;但谷歌如今已不再以容易受地理围栏搜查令影响的方式收集这些信息，而更重要的是，&lt;em&gt;苹果从未这样做过&lt;/em&gt;。&lt;a href="https://daringfireball.net/linked/2023/12/18/google-geofence-warrants"&gt;从我2023年12月关于谷歌决定改变数据收集方式以确保隐私的帖子中&lt;/a&gt;可以看到：&lt;/p&gt;&lt;blockquote&gt;
-&lt;p&gt;这些过于宽泛的地理围栏搜查令“几乎总是”针对谷歌的原因是，苹果从未收集过可以像这样汇总的位置数据。根据&lt;a href="https://www.apple.com/legal/transparency/pdf/requests-2022-H1-en.pdf"&gt;苹果最新的政府透明度报告&lt;/a&gt;（PDF），该报告涵盖2022年上半年：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;苹果也可能收到政府机构的请求，要求获取与特定经纬度坐标（地理围栏）相关、指定时间段内的客户数据。苹果没有任何数据可以回应地理围栏请求。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;我向苹果内部的一位消息人士核实过，他们认为苹果从未以能够关联到特定区域或多区域群体的方式收集或存储地理位置数据。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;所以，关于地理围栏搜查令“钓鱼”的整个问题，可能两年前谷歌就已经为安卓用户消除了，而对iPhone用户来说从来就不是问题。除非，也许他们在iPhone上使用了谷歌地图应用，并授予了它所要求的“始终开启”位置访问权限。我怀疑（但并不确定）那些授予谷歌地图（或任何其他提出此要求的谷歌iOS应用？——它们所有的&lt;a href="https://apps.apple.com/us/app/google/id284815942"&gt;iOS应用&lt;/a&gt;似乎都请求位置权限，但我不知道除了谷歌地图之外还有多少应用要求始终开启权限） “始终开启”位置访问权限的iPhone用户，与安卓用户一样容易受到这些地理围栏搜查令的影响。&lt;/p&gt;
-&lt;p&gt;这一裁决仍应作为其他公司持有位置数据的良好先例，我希望这一裁决也能作为任何可搜索的&lt;a href="https://www.dol.gov/general/ppii"&gt;个人身份信息&lt;/a&gt;应对“钓鱼”搜查令的普遍良好先例。&lt;/p&gt;
-&lt;p&gt;但归根结底：苹果从未持有追踪你位置的数据，而谷歌虽然曾经持有，但现在也不再持有。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;ol&gt;
-&lt;li id="fn1-2026-06-30"&gt;
-&lt;p&gt;对专家来说也很好，&lt;a href="https://daringfireball.net/linked/2017/06/14/feynman-freshman-lecture"&gt;证明他们能够以大一新生讲座的水平解释复杂主题&lt;/a&gt;——这是证明他们真正理解自身知识的唯一方式。 &lt;a href="https://daringfireball.net/#fnr1-2026-06-30" title="跳回正文中的脚注1"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-</description><pubDate>Tue, 30 Jun 2026 18:52:47 +0000</pubDate></item><item><title>日本男子国家队的3名球员对阵100名学童</title><link>https://x.com/BallStreet/status/950382135969566720</link><description>&lt;p&gt;我知道本周有很多激动人心的世界杯赛事，但这段2018年日本的视频是我很久以来看过的最棒的足球视频。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/06/30/3-men-vs-100-kids" title="永久链接：‘日本男足国家队三名球员对阵100名小学生’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Tue, 30 Jun 2026 18:50:54 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 30 Jun 2026 19:40:38 +0000</pubDate></item></channel></rss>
