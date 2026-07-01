@@ -1,5 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kaushik Gopal's Website (中文)</title><link>https://kau.sh/</link><description>近期内容 - Kaushik Gopal 的网站</description><language>zh-CN</language><lastBuildDate>Mon, 22 Jun 2026 20:39:22 +0000</lastBuildDate><item><title>负责任循环工程</title><link>https://kau.sh/blog/responsible-loop-engineering/</link><description>&lt;p&gt;循环工程说服了我。不是因为它巧妙——而是因为做得对的话，它不会让你破产。这篇文章总结了我的结论：一种负责任的方式，在不烧钱的前提下大规模运行循环。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kaushik Gopal's Website (中文)</title><link>https://kau.sh/</link><description>近期内容 - Kaushik Gopal 的网站</description><language>zh-CN</language><lastBuildDate>Wed, 01 Jul 2026 20:00:00 +0000</lastBuildDate><item><title>成为真正AI原生软件公司意味着什么</title><link>https://kau.sh/blog/ai-native-company/</link><description>&lt;p&gt;每个人都说他们正在以AI原生的方式重建公司。但这意味着什么呢？&lt;/p&gt;
+&lt;p&gt;大多数公司会观察现有员工的工作内容，然后尝试用AI将其自动化。这并非真正的AI原生。这只是在浅尝辄止。一个真正的AI原生公司会重新思考每一个角色，并打破角色之间的壁垒。&lt;/p&gt;
+&lt;p&gt;没有人能完全预测这一切，但这里是我的草图。这并不详尽，但希望能激发一些灵感：&lt;/p&gt;
+更多 
+&lt;h1 id="role-changes"&gt;
+角色变化
+&lt;a href="https://kau.sh/feed.xml#role-changes"&gt;#&lt;/a&gt;
+&lt;/h1&gt;
+&lt;h2 id="quality-assurance"&gt;
+质量保证
+&lt;a href="https://kau.sh/feed.xml#quality-assurance"&gt;##&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;QA团队通常会找到bug，并尽职尽责地将其记录在Jira中。工程团队的能力有限，所以他们只修复P1级的bug，其他则被冻结。P2和P3级的bug在待办列表中逐渐被遗忘——那些界面小问题、文案、小修复等。&lt;/p&gt;
+&lt;p&gt;一个AI原生的QA团队会记录bug，并立即将一个代理指派给它。代理先进行初步分析，找出根本原因，提出修复方案，并创建一个PR——然后立即将测试版本发回给QA进行验证。在此过程中，bug的详细信息会不断更新，所以如果需要升级给构建该功能的工程师，所有上下文都已经准备就绪。更先进的团队会设置一个&lt;a href="https://kau.sh/blog/responsible-loop-engineering"&gt;循环&lt;/a&gt;，一旦bug被记录就会立即触发。&lt;/p&gt;
+&lt;h2 id="product-managers"&gt;
+产品经理
+&lt;a href="https://kau.sh/feed.xml#product-managers"&gt;##&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;产品经理对业务和目标非常了解。他们会写一份深思熟虑的PRD——但往往只完成了70%。他们怎么可能把完整的代码库和每一个边缘情况都记在脑子里呢？工程师开始构建，在功能开发过程中遇到这些边缘情况，就会反馈给直觉更敏锐的PM。PM调整PRD，再交回给工程师。这剩下的30%内容中的每一个细节都可能会经历这样的循环，这对所有人来说都非常令人沮丧。&lt;/p&gt;&lt;p&gt;一个AI原生产品经理派遣一个智能体去查看真实代码，提前找出那些分叉，并快速搭建一次性原型来探索每个分叉。他们维护一个过往决策简报的知识库，这样团队就不必重复构建已经被排除的方案。有了这些，他们就能产出一份完整规格的产品需求文档——甚至更进一步，包含定义完成标准的端到端测试。&lt;/p&gt;
+&lt;h2 id="designers"&gt;
+设计师
+&lt;a href="https://kau.sh/feed.xml#designers"&gt;##&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;设计师在Figma中绘制界面并交付出去，希望最终产品与他们的像素级完美规格一致。但实际上，这种情况多久会发生一次？当他们在进行用户研究或测试应用时，会发现大量设计瑕疵、用户体验缺陷和文案建议——然后提交工单并等待。&lt;/p&gt;
+&lt;p&gt;一个AI原生设计师会在真实应用上、使用真实数据和真实状态来制作多个原型变体。他们可以利用实际代码库的一次性构建进行尝试，并朝着更强大、更真实的规格进行设计——同时考虑真实限制，比如那个动画在Android 12设备上实际运行的效果。与打磨相关的工作不再在工单的荒芜之地中消亡。它通过QA使用的相同循环运行：智能体进行修改并预检一个构建版本，让设计师用眼睛检查。他们拥有品味，而现在也有了当场交付的能力。&lt;/p&gt;
+&lt;h2 id="data-scientists"&gt;
+数据科学家
+&lt;a href="https://kau.sh/feed.xml#data-scientists"&gt;##&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;数据科学家处于下游，因此他们最后感受到每一次变化。他们往往在功能基本完成、工程师需要添加埋点时被卷入。或者更糟，他们发现工程师在重构中重命名了某个事件，导致关键任务仪表盘在生产环境中悄然崩溃——几天后才被发现，而此时构建已经发布。&lt;/p&gt;
+&lt;p&gt;老做法：提交工单并等待工程团队处理。而一个AI原生数据科学家则会直接使用智能体——追踪到某个重命名事件导致的问题，并通过拉取请求发送修复，或者在他们自己还无法测量的指标上添加埋点，无需等待任何人。&lt;/p&gt;&lt;p&gt;更进一步，过去检验假设的方法是发布产品，等待真实数据积累，然后依靠工程和产品团队进行修改。而一个原生于AI的数据科学家在产品发布之前就进行测试——生成合成数据并使用智能体模拟场景，向产品经理展示哪个选项更优，然后将胜出的方法作为PR提交给工程团队审核、调整并最终发布。&lt;/p&gt;
+&lt;h1 id="so-what-does-the-engineers-role-look-like"&gt;
+那么工程师的角色是什么样子的？
+&lt;a href="https://kau.sh/feed.xml#so-what-does-the-engineers-role-look-like"&gt;#&lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;如果你注意到上述趋势，我们正在将工程团队通常所做的许多工作分配给其他角色。那么工程师还剩下什么？&lt;/p&gt;
+&lt;p&gt;很多。我看到三种角色正在出现：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;产品工程师&lt;/strong&gt;：说实话，这个角色与原生于AI的产品经理之间的界限变得模糊——最终会融合。我并不是说工程师变成产品经理，或者产品经理变成工程师。我认为两者都在走向一种“产品专家”的角色：这些人是高度有主见的，对产品了如指掌，能够在几天内将一个想法变成实际功能。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;系统工程师&lt;/strong&gt;：平台的守护者。他们确保代码库健康，理解基础设施的限制，并对架构如何发展做出判断。当有五种构建方式时，他们会选择将来不会造成问题的那一种。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;循环工程师&lt;/strong&gt;：我认为这成为了全栈软件工程师的角色。这些人为其他所有角色构建和维护循环：收件箱、触发器、验证门、升级路径。QA、产品经理、设计师和数据科学家不应该去连接这些连接器——他们应该做上面描述的工作。当角色之间的壁垒消失时，循环工程师就是承重结构。我在&lt;a href="https://kau.sh/blog/responsible-loop-engineering/"&gt;循环工程&lt;/a&gt;中深入探讨了其机制。这是真正的工程工作，必须有人来负责。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;将AI附加到我们现有的工作上，并不是建立一家原生于AI的软件公司的方法。你必须重新思考角色，并拆除它们之间的壁垒。&lt;/p&gt;</description><pubDate>Wed, 01 Jul 2026 20:00:00 +0000</pubDate></item><item><title>负责任循环工程</title><link>https://kau.sh/blog/responsible-loop-engineering/</link><description>&lt;p&gt;循环工程说服了我。不是因为它巧妙——而是因为做得对的话，它不会让你破产。这篇文章总结了我的结论：一种负责任的方式，在不烧钱的前提下大规模运行循环。&lt;/p&gt;
 &lt;h2 id="naysayer--believer"&gt;
 怀疑者 → 信徒
 &lt;a href="https://kau.sh/feed.xml#naysayer--believer"&gt;##&lt;/a&gt;
@@ -450,46 +498,4 @@ kill (procs opencode --only pid --no-header)
 &lt;a href="https://buttondown.com/fragmentedcast"&gt;订阅我的开发者播客的通讯&lt;/a&gt;，我会在那里发布一些我正在使用的技巧。 &lt;a href="https://kau.sh/feed.xml#fnref:2"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-</description><pubDate>Mon, 01 Jun 2026 17:00:00 +0000</pubDate></item><item><title>智能体是新的编译器。规范是新的代码。</title><link>https://kau.sh/blog/agent-compilers/</link><description>&lt;p&gt;&lt;a href="https://www.youtube.com/shorts/3tWRq1Dv1as"&gt;林纳斯·托瓦兹最近说&lt;/a&gt;&lt;sup id="fnref:1"&gt;&lt;a href="https://kau.sh/feed.xml#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;
-&lt;em&gt;AI之于代码，正如编译器之于汇编&lt;/em&gt; —— 让我们免于手动编写代码。&lt;/p&gt;
-&lt;p&gt;差不多同一时间，我和Jesse Vincent（最流行的代理技能之一 —— &lt;a href="https://github.com/obra/superpowers"&gt;超能力&lt;/a&gt;的创造者）聊了聊。他有一句话让我印象深刻：&lt;em&gt;规范将成为新的代码&lt;/em&gt;。&lt;/p&gt;
-&lt;p&gt;我意识到这两个想法完美地契合在一起。代理就是编译器&lt;sup id="fnref:2"&gt;&lt;a href="https://kau.sh/feed.xml#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;，规范将成为代码。软件工程正在提升到另一个抽象层次，我们以前就见过这种情况。&lt;/p&gt;
-&lt;h2 id="specs-as-source"&gt;
-规范作为源
-&lt;a href="https://kau.sh/feed.xml#specs-as-source"&gt;##&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;我亲手在我的小型USB-C线缆检测器——&lt;a href="https://kau.sh/blog/usbi/"&gt;&lt;code&gt;usbi&lt;/code&gt;&lt;/a&gt;上看到了这一点。它最初是在macOS的&lt;code&gt;system_profiler&lt;/code&gt;上的一个shell命令，然后变成了Go，因为我想要一个合适的二进制文件，接着变成Rust，因为我想练习Rust，后来又变成了一个&lt;a href="https://kau.sh/tags/kscript/"&gt;&lt;code&gt;.kts&lt;/code&gt;&lt;/a&gt;版本。&lt;/p&gt;
-&lt;p&gt;代码一直在变。但我在意的东西没有变：解析USB树、识别连接的设备、报告速度，以及让坏线缆一目了然。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kau.sh/blog/podsync/"&gt;&lt;code&gt;Podsync&lt;/code&gt;&lt;/a&gt;，我的音轨同步程序，也遵循了同样的模式。它开始是用Python写的，因为音频库在那里。然后我把它迁移到了&lt;a href="https://kau.sh/tags/rust/"&gt;Rust&lt;/a&gt;，因为我不想分发Python运行时，也不想关心机器上恰好安装了哪个Python版本。&lt;/p&gt;
-&lt;p&gt;同样，实现方式改变了。行为却异常稳定：获取主轨和本地轨道，找到偏移量，填充或裁剪每个文件，然后将对齐的音频放入DAW中。&lt;/p&gt;
-&lt;p&gt;编译器让我们免于编写汇编。代理可能让我们免于编写代码，因为代码变成了规范生成的人工制品。&lt;/p&gt;
-&lt;p&gt;最近在详细&lt;a href="https://kau.sh/blog/exec-plans/"&gt;执行计划&lt;/a&gt;上的推动，可能是一个早期信号，预示着更大规模转变的临近。&lt;/p&gt;&lt;h2 id="rebuilds-instead-of-patches"&gt;
-用重建代替修补
-&lt;a href="https://kau.sh/feed.xml#rebuilds-instead-of-patches"&gt;##&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;进一步推想。我们可能会习惯于重建整个模块，而不是给它们打补丁和重构。&lt;/p&gt;
-&lt;p&gt;我们保留系统的旧有形态，因为抛弃它的代价太高。即使你知道这个模块有问题，你也会打磨它：提取接口，一次迁移一个调用者，围绕无人完全理解的行为添加测试。你继续前进，因为另一种选择是重写，而重写有“生吞公司”的名声，这并非浪得虚名。&lt;/p&gt;
-&lt;p&gt;但智能体改变了这个成本曲线。如果一个智能体能够阅读规范、理解测试、检查生产痕迹，并在一个下午内重建一个模块，那么明智的做法可能就是完全替换整个模块。&lt;/p&gt;
-&lt;p&gt;再进一步，工作单元也变了。你不再要求智能体修补一个函数或文件，而是要求它根据调整后的规范重建整个支付模块。甚至，用新的库替换身份验证层。或者，既然领域模型更清晰了，重新生成API边界。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;这是我无法停止思考的部分。&lt;/p&gt;
-&lt;div dir="auto"&gt;
-&lt;svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"&gt;&lt;/path&gt;&lt;/svg&gt;
-&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;每次重建都可以从我们现在对整个模块的理解出发，而不是从第一次有人交付它时我们所相信的东西出发。&lt;/li&gt;
-&lt;li&gt;旧代码所承载的技术债（因为它是一次一个补丁堆积起来的）终于可以卸掉了。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;规范可以吸收我们从旧实现中学到的东西：计费中的奇怪边界情况，没人写下来的迁移路径，工作流程依赖于某个“bug”的客户，只在每月第一天失败的批处理作业。&lt;/p&gt;
-&lt;p&gt;规范成为系统记忆存留的地方。一旦那些经验教训进入规范，实现就变得可替换了。&lt;/p&gt;
-&lt;p&gt;我们正在成为规范编写者。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;ol&gt;
-&lt;li id="fn:1"&gt;
-&lt;p&gt;从1分48秒处开始 &lt;a href="https://kau.sh/feed.xml#fnref:1"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id="fn:2"&gt;
-&lt;p&gt;是的，智能体不像编译器那样具有确定性——同样的提示明天可能会给出不同的代码。但或许这是未来需要调整的标准。必须保持稳定的是符合规格的行为；代码可以变化。另外，老兄，你是在认真跟林纳斯·托瓦兹较劲吗？ &lt;a href="https://kau.sh/feed.xml#fnref:2"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-</description><pubDate>Mon, 04 May 2026 16:00:00 +0000</pubDate></item></channel></rss>
+</description><pubDate>Mon, 01 Jun 2026 17:00:00 +0000</pubDate></item></channel></rss>
