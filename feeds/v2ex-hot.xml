@@ -91,7 +91,17 @@
 &lt;p&gt;&lt;strong&gt;#79 wzzexe&lt;/strong&gt;：@&lt;a href="/member/xuanbg"&gt;xuanbg&lt;/a&gt; 有 asr tts 意图识别 freeswitch 客服 sop 流程处理 语音对话要快速响应 转接人工客服 语音审计 坐席系统等等还是比较复杂的&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#80 winglight2016&lt;/strong&gt;：问题在于，我们团队并没有专门的 AI Agent 工程师，成员基本都是 Java 和前端开发。&lt;br/&gt;——这里不是已经把问题说得很清楚了？没有不能招一个或多个吗？没有 hc 不能请个顾问吗？大家都不懂就不能先学一段时间再搞生产？这种搞法跟大炼钢铁有什么区别？&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#81 YGHMXFAL&lt;/strong&gt;：看我历史发言,老早就说了这种风险,AI 写得代码自然人看不懂,于是自然人就硬依赖于 AI,等着爆烟花吧&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#82 wzzexe&lt;/strong&gt;：@&lt;a href="/member/winglight2016"&gt;winglight2016&lt;/a&gt; 招了大多也是半路出家或者一知半解的，到现在都没有进人。时间节点倒排只能技术抽人顶上&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Thu, 02 Jul 2026 09:13:29 +0000</pubDate></item><item><title>[7 月] 一个真正一目了然的自建 Codex 中转站</title><link>https://www.v2ex.com/t/1224483</link><description>&lt;p&gt;之所以说它一目了然，是因为我把账号页开放给大家看：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#82 wzzexe&lt;/strong&gt;：@&lt;a href="/member/winglight2016"&gt;winglight2016&lt;/a&gt; 招了大多也是半路出家或者一知半解的，到现在都没有进人。时间节点倒排只能技术抽人顶上&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#83 levn&lt;/strong&gt;：一个新的技能种类和岗位不就出现了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#84 wuming2&lt;/strong&gt;：可惜 AI 背不了锅，ls 一哥们说的在理，找领导背锅&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#85 z9ln&lt;/strong&gt;：大胆猜测，lz 是也野鸡小厂内部推行扁平化管理，很多项目都是老板一拍脑袋就开工的公司。&lt;br/&gt;看了你们的情况我真是太有感触了，小老板们看到 ai 来了就把 ai 想的无所不能。&lt;br/&gt;现实是 vibe coding 在生产里其实更需要有人能把需求精细化、架构清晰、流程理顺，现阶段这套新的工作流的前置工作甚至比古法编程任务量还要大。&lt;br/&gt;但是一般能上马这种项目的团队往往最缺乏的就是上述能力，历史项目管理都可能存在很大问题（比如我们）。&lt;br/&gt;研发的团队面临的问题是，老板认为：随便是个人直接跟 ai 输入我要做个 xxx 系统 不就好了吗。&lt;br/&gt;甚至连个懂业务人都没有，但又只能照做。&lt;br/&gt;结果就是弄出来一大坨自己都看不懂的史，review 的体验比自己重新梭哈一遍还痛苦。&lt;br/&gt;你们还算是从真实需求出发开的工呢，我们就离谱多了，老板让我们用 ai 梭哈友商积淀十几年的项目，我们既不懂业务也没有源码，照着人家系统截图纯楞臆造。项目文件夹都还没建好，市场就已经卖出去七八套了。&lt;br/&gt;引用上面老哥的话，多领一天工资是一天吧&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#86 LuliYanng&lt;/strong&gt;：我也在负责我们公司的客服，跟 op 一样，也是同时在推进文字的客服和语音电话客服，不过我还是一个人在同时做这两个项目的测试性验证。尤其是语音客服，这种项目不仅仅是代码问题，每一个链路都容易出问题的，我已经测试 3 个月了，业务成功率也只能在 50%左右，而且波动很大，这种不仅仅是代码的问题，还有延迟、实际业务中电话这个形态导致的信任问题。op 的当务之急是先让公司内摆正对这种 ai 项目的期待才行，别被外部大吹特吹蒙蔽眼睛了，这个失败的原因是很多方面的，代码可能是其中一个小的方面了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#87 yidinghe&lt;/strong&gt;：你是技术负责人吗，如果是，那你可以说：&lt;br/&gt;&lt;br/&gt;&amp;gt; 这个项目某种程度上可以说是成功的。因为业界没人做过，我们是先行者。现在的这个系统让我们积累了很多经验，既包括业务方面的经验，也包括技术方面的。特别是哪些地方是坑。我们不怕踩坑，经验就是踩坑踩出来的。现在这个系统已经完成了自己的使命，我们接下来会启动二期项目，总结这个一期系统不够完善的地方，重新思索如何让 AI 无缝地成为客服岗位的赋能帮手，这是我们二期要达成的愿景。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#88 miniliuke&lt;/strong&gt;：vibecoding 时代架构师非常重要，真的好多人就没有架构的概念。大模型的上下文非常有限，不能让 ai 做非常发散的东西，给用一个一个盒子把 ai 的代码装起来，尽可能让 ai 只改一个盒子里面的内容&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#89 seven123&lt;/strong&gt;：等 AI 进化，相信后 AI 的智慧&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#90 catazshadow&lt;/strong&gt;：&lt;a href="https://www.v2ex.com/t/1219935" target="_blank"&gt;https://www.v2ex.com/t/1219935&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;重温一遍&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#91 XProxyAi&lt;/strong&gt;：@&lt;a href="/member/getadoggie"&gt;getadoggie&lt;/a&gt; #72 没有，harness 就是一整套脚手架跟管控 Agent 的 软件开发设施，硅谷那边基本上不写代码了，都在给 Agent 写配套，完全自主编码/测试/部署/灰度/验证，写代码已经可有可无了，他们的玩法基本上就是把软件构建弄成一个 Agent 自主迭代的可控系统，围绕着 Agent 来构建自己的软件应用&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#92 micean&lt;/strong&gt;：@&lt;a href="/member/wzzexe"&gt;wzzexe&lt;/a&gt; #21 我觉得不需要真人去看业务代码啊，我现在对于长流程，纯粹是让 AI 看完给我讲解，再剥茧抽丝&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Thu, 02 Jul 2026 09:13:29 +0000</pubDate></item><item><title>[7 月] 一个真正一目了然的自建 Codex 中转站</title><link>https://www.v2ex.com/t/1224483</link><description>&lt;p&gt;之所以说它一目了然，是因为我把账号页开放给大家看：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;有哪些账号，一眼清楚&lt;/li&gt;
 &lt;li&gt;账号类型是什么，明明白白&lt;/li&gt;
@@ -208,12 +218,12 @@
 &lt;p&gt;但是如果站在“做产品”的角度，不看代码也许能快速做出产品 Demo 验证市场，可能在产品力上会更有竞争力。&lt;/p&gt;
 &lt;p&gt;你觉得不看代码的程序员会被淘汰吗？&lt;/p&gt;
 &lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-07-02 16:26:15 +08:00"&gt;5h 16m ago&lt;/span&gt;
+Supplement 1  ·  &lt;span title="2026-07-02 16:26:15 +08:00"&gt;7h 34m ago&lt;/span&gt;
 
 许多 V 友说：“只要 AI 强大了，能解决问题了，我就不需要看了”。 但是，如果程序员不看代码，那么程序员的价值何在？仅仅是提需求？只提需求的话这活谁都能干，那么不是早晚要被他人取代？
 
 &lt;hr/&gt;
-Supplement 2  ·  &lt;span title="2026-07-02 18:25:03 +08:00"&gt;3h 18m ago&lt;/span&gt;
+Supplement 2  ·  &lt;span title="2026-07-02 18:25:03 +08:00"&gt;5h 35m ago&lt;/span&gt;
 
 补充：我发现大家讨论的点主要围绕“不阅读 AI 写的代码是否可以保障产品质量”的问题。但是我发这个帖子主要是想讨论“不阅读代码的程序员会不会被淘汰”的问题。
 
@@ -280,7 +290,11 @@ Supplement 2  ·  &lt;span title="2026-07-02 18:25:03 +08:00"&gt;3h 18m ago&lt
 &lt;p&gt;&lt;strong&gt;#60 getadoggie&lt;/strong&gt;：我突然有个想法：未来 AI 写代码的形态大概是：有一个高可信的写代码框架，由它来具体写代码，我们和它沟通，它充当一个“编译器”。为什么要抽象这么一层：因为 AI 要调教好太难了，要反反复复的提示词工程和边界约束。如果把这个做好，那写代码可靠性就高多了。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#61 leo72638&lt;/strong&gt;：让另一个 AI 看&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#62 getadoggie&lt;/strong&gt;：每个人指导 AI 写代码的能力都不同。如果讲这个能力抽象出来，就很有意义了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#63 xuanbg&lt;/strong&gt;：问题是你看了代码也不会有什么价值。AI 就能解决的问题，还要你干啥？&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Thu, 02 Jul 2026 05:39:03 +0000</pubDate></item><item><title>请警惕账号 w1573007 发布的开源项目 Termo</title><link>https://www.v2ex.com/t/1224475</link><description>&lt;p&gt;本人为 w1573007 号主，今天突然收到账号被挂了两步验证。赶紧上来看看。我这号好多年没用了最后发帖时间是 2021 年。然后就发现对方把注册邮箱，密码都改了。但他可能不知道会给我原始注册邮箱发送修改邮件。然后就发现对方发了一个项目分享的帖子 &lt;a href="https://www.v2ex.com/t/1224461" rel="nofollow"&gt;https://www.v2ex.com/t/1224461&lt;/a&gt;
+&lt;p&gt;&lt;strong&gt;#63 xuanbg&lt;/strong&gt;：问题是你看了代码也不会有什么价值。AI 就能解决的问题，还要你干啥？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#64 fanyingmao&lt;/strong&gt;：不管读不读代码的程序员也会被淘汰很多，ai 把开发门槛降低很多了，小学生都用 ai 开发了。不过项目大的话，感觉现在 ai 对全局的理解不够，不过随着发展或者用更好的 ai 应该也能弥补。当然现阶段读代码可以让项目更可控可以提高些的竞争力，不过投入产出感觉不划算&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#65 SethShi&lt;/strong&gt;：之前还在看, 这段时间已经不看代码了(不管公司的项目还是个人的项目), 我觉得重要的核心不是事后, 而是事前, 我基本每个事情, 比如产品提一个需求, 我会直接把文档发给 AI, 让它自己去理解, 给出一个计划, 让后我去修正这个计划, 直到计划按照我的大概意思(想要完全反而浪费时间)&lt;br/&gt;1. 基本就是上下文给足, 给我出一个计划先,&lt;br/&gt;2. doit&lt;br/&gt;3. 一般就结束了, 如果是重要的, 我会让它直接给我把核心部分代码给我看&lt;br/&gt;&lt;br/&gt;&amp;gt; 不看 diff, 只看核心总结, 看的原因是曾经开了 Opus4.8 ultracode 它还能给我写出查询数据库内存过滤的代码, 然后问它具体原因, 它告诉我不是上下文影响了它, 是因为它是 prompt 告诉它它要保守,加索引是额外的活,所以它优先考虑在内存中过滤&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#66 XProxyAi&lt;/strong&gt;：@&lt;a href="/member/rrreiper"&gt;rrreiper&lt;/a&gt; 是的，我用 AI 逆向了微信，hook 住了，它自己能发消息/收消息，代码跟逆向分析过程，我基本上完全看不懂，只能跟着它的经验来，基本上是跟不上它的思路的，opus-4-8 是真的强&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#67 L4Linux&lt;/strong&gt;：还好俺是开发编译器的&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Thu, 02 Jul 2026 05:39:03 +0000</pubDate></item><item><title>请警惕账号 w1573007 发布的开源项目 Termo</title><link>https://www.v2ex.com/t/1224475</link><description>&lt;p&gt;本人为 w1573007 号主，今天突然收到账号被挂了两步验证。赶紧上来看看。我这号好多年没用了最后发帖时间是 2021 年。然后就发现对方把注册邮箱，密码都改了。但他可能不知道会给我原始注册邮箱发送修改邮件。然后就发现对方发了一个项目分享的帖子 &lt;a href="https://www.v2ex.com/t/1224461" rel="nofollow"&gt;https://www.v2ex.com/t/1224461&lt;/a&gt;
 我不知道他为啥要盗号的方式发帖。而不注册一个账号？&lt;/p&gt;
 &lt;p&gt;手机编辑不太好当图片，如下是提示信息，已将相关情况发送给支持邮箱&lt;/p&gt;
 &lt;p&gt;[V2EX] 两步验证已经开启
@@ -291,11 +305,11 @@ Hi w1573007,&lt;/p&gt;
 &lt;p&gt;你刚刚为你的 V2EX 账号开启了两步验证。&lt;/p&gt;
 &lt;p&gt;在你下次登录时，会需要输入两步验证码。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.v2ex.com/" rel="nofollow"&gt;https://www.v2ex.com/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;如果这次操作不是由你发起的，那么你的账号可能存在安全问题。请使用你的注册邮箱发信到 &lt;a href="/cdn-cgi/l/email-protection#61121411110e131521175304194f020e0c"&gt;&lt;span data-cfemail="88fbfdf8f8e7fafcc8febaedf0a6ebe7e5"&gt;[email protected]&lt;/span&gt;&lt;/a&gt; 寻求协助。&lt;/p&gt;
+&lt;p&gt;如果这次操作不是由你发起的，那么你的账号可能存在安全问题。请使用你的注册邮箱发信到 &lt;a href="/cdn-cgi/l/email-protection#c5b6b0b5b5aab7b185b3f7a0bdeba6aaa8"&gt;&lt;span data-cfemail="65161015150a1711251357001d4b060a08"&gt;[email protected]&lt;/span&gt;&lt;/a&gt; 寻求协助。&lt;/p&gt;
 &lt;p&gt;V2EX&lt;/p&gt;
 &lt;p&gt;p.s. 作为安全备注，这次 2FA 开启操作是由 IP 地址 48.45.204.21 使用浏览器 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 在 2026-07-02 11:55:06 +08:00 完成的&lt;/p&gt;
 &lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-07-02 16:13:58 +08:00"&gt;5h 27m ago&lt;/span&gt;
+Supplement 1  ·  &lt;span title="2026-07-02 16:13:58 +08:00"&gt;7h 46m ago&lt;/span&gt;
 
 感谢项目 Termo 将我的账号还了回来，自我检讨弱密码&lt;br/&gt;&lt;br/&gt;本次事件如下：&lt;br/&gt;1 ，对方通过咸鱼购买了盗取的账号，并修改了账号密码和两步验证&lt;br/&gt;2 ，发布帖子来推广开源项目。&lt;br/&gt;3 ，号主我不知道发生了啥，用另一个号发帖子提醒。&lt;br/&gt;4 ，联系后，对方已还回账户&lt;br/&gt;5 ，本次事件不针对任何开源项目&lt;br/&gt;&lt;br/&gt;是号主傻，多年的弱密码，才导致了这么严重的后果。感觉大家围观。&lt;br/&gt;&lt;br/&gt;最后再次声明，本次事件不针对该开源项目，Termo ，如果对该项目存在漏洞等问题，请通过 issu 提出，而不是无端猜测和造谣&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;本帖子，已完结。如果可以的话，大佬们可不可以给（ lxc.rudy#&lt;a href="http://gmail.com" rel="nofollow noopener" target="_blank"&gt;gmail.com&lt;/a&gt; ） 发一个邀请码呀。
 
