@@ -1,5 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Fri, 03 Jul 2026 05:30:40 +0000</lastBuildDate><item><title>讽刺索尼停产PS游戏光盘 GitHub推出限量代码光盘 将你的仓库刻录到光盘上寄给你</title><link>https://www.landian.news/archives/113786.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sat, 04 Jul 2026 17:10:42 +0000</lastBuildDate><item><title>[下载] 开源激活工具MAS新版发布(v3.12) 优化激活方式/优化部分错误提示</title><link>https://www.landian.news/download/111697.html</link><description>
+&lt;p&gt;#软件下载 MAS 激活脚本 v3.10 版发布，新增 Windows Server 2016 ESU 扩展安全更新许可证，可以激活后继续获得来自微软的安全更新。MAS 激活脚本开源免费发布，支持 Windows 10/11 等多种版本，支持 Office 系列软件，支持 Windows Server 多种版本，亦可用来激活 ESU 扩展安全许可证等，属于日常居家必备软件。下载地址：https://ourl.co/111697&lt;/p&gt;&lt;p&gt;MAS是目前最流行的激活脚本, 该脚本可激活 Windows 10/11 等多个版本、Microsoft Office以及Windows Server。&lt;/p&gt;
+&lt;p&gt;脚本优势在于既可以通过HWID 或 TSFORGE机制进行数字许可证激活，也可以通过KMS来激活企业版等非零售许可。&lt;/p&gt;
+&lt;p&gt;最重要的是对于初级用户来说还可以同时激活Windows和Office等产品，基本不需要用户关心版本问题即可轻松激活。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在线激活：打开管理员模式PowerShell并粘贴命令按回车，之后操作如离线版： irm https://get.activated.win | iex&lt;/p&gt;
+&lt;p&gt;离线激活：下载MAS激活脚本压缩包后完全解压到桌面上，然后找到\MAS\All-In-One-Version-KL\MAS_AIO.CMD&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;a href="https://dl.landian.news/?dir=soft/mas" rel="noopener" target="_blank"&gt;https://dl.landian.news/?dir=soft/mas&lt;/a&gt; 请始终下载最新版确保最佳兼容性，旧版本可能存在激活问题。&lt;/p&gt;
+&lt;p&gt;版本区别：在线激活需要在线下载激活脚本，&lt;strong&gt;部分用户无法连接国外服务器&lt;/strong&gt;，这种情况下需要下载离线激活脚本操作。&lt;/p&gt;
+&lt;p&gt;操作如下：右键点击MAS_AIO脚本并选择使用管理员激活，之后按照下图中的标注选择你要激活的产品或执行的操作&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/01/111697-1.png" rel="nofollow"&gt;&lt;img alt="[下载] 开源激活脚本MAS新版发布(v3.10) 支持更多ESU扩展许可证激活 附离线版下载" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/01/111697-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;家庭版和专业版等Windows 10/11请优先选择 [3]TSFORGE 进行数字许可证激活，Windows 10 ESU同样选择3激活。&lt;/p&gt;
+&lt;p&gt;如果你使用的是某些企业版本或服务器系统无法使用TSFORGE激活，则请选择[4]使用在线KMS激活，算是保底选项。&lt;/p&gt;
+&lt;p&gt;如果是Office产品也优先选择[3]，如果出现无法激活问题再选择[4]，大多数情况下使用TSFORGE都能搞定产品激活。&lt;/p&gt;
+&lt;p&gt;更改版本说明：这里的更改版本指的是零售版和企业通道转换，请注意：并不能直接将Windows 10变成Windows 11。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/01/111697-2.png" rel="nofollow"&gt;&lt;img alt="[下载] 开源激活脚本MAS新版发布(v3.10) 支持更多ESU扩展许可证激活 附离线版下载" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/01/111697-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/01/111697-3.png" rel="nofollow"&gt;&lt;img alt="[下载] 开源激活脚本MAS新版发布(v3.10) 支持更多ESU扩展许可证激活 附离线版下载" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/01/111697-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;MAS v3.12版：发布于2026-07-04 [8周年纪念版]&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;默认激活选项：对于Windows 10/11 等操作系统产品，现在默认使用KMS4K而非StaticCID，这种激活方式也更友好。&lt;/p&gt;
+&lt;p&gt;默认激活时间：KMS4K激活系统后，有效期到4083年，因此对大多数用户而言这种KMS与数字许可证激活没有区别。&lt;/p&gt;
+&lt;p&gt;离线激活选项：KMS4K支持完全离线进行系统激活，对于无法连接外网的设备可以下载后通过U盘加载MAS实现激活。&lt;/p&gt;
+&lt;p&gt;其他更新内容：本次更新也更改 HWID 使用的安装ID，这不影响用户正常使用MAS激活，也没有对激活流程进行修改。&lt;/p&gt;
+&lt;p&gt;其他更新内容：加强激活脚本对某些类型漏洞的防御能力、移除使用用户提供的DLL替代脚本中包含DLL文件的功能。&lt;/p&gt;
+&lt;p&gt;其他更新内容：本次更新还对工具内部错误提示信息进行优化，当用户遇到错误时现在应该可以看到更清晰错误提示。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;MAS v3.10版：发布于2026-01-28&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;1.现在如果系统已经启用智能应用控制功能或处于评估模式 , 则向用户发出警告，部分用户反馈Ohook激活存在错误。&lt;/p&gt;
+&lt;p&gt;2.TSFROGE激活脚本现在新增Windows Server 2016 ESU许可证支持, 如果你还在使用该版本可激活ESU获取更新。&lt;/p&gt;
+&lt;p&gt;3.核心功能更新：如果脚本激活过程中发现缺少必要的许可证包文件，则不会要求用户执行操作，而是就地完成修复。&lt;/p&gt;
+&lt;p&gt;4.更改脚本执行过程部分显示与配色，例如蓝色建议行前的换行符已经被删除，这个属于小更新不影响脚本核心功能。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;MAS v3.9版：发布于2025-11-09&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;1.修复IoT物联网企业版中ESU扩展更新许可证无法正常工作的问题 , 这是微软导致的问题，脚本将改用客户端许可证。&lt;/p&gt;
+&lt;p&gt;2.针对Microsoft Office系列软件的频道变更问题 , 激活脚本删除已经被微软彻底废弃的半年预览频道(Semi-Annual)&lt;/p&gt;
+&lt;p&gt;3.为执行激活操作 , 后续脚本不会再将 IoT Enterprise版自动更改为企业版执行激活 ，现在是否转换都可以正常激活。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;MAS激活脚本为完全开源免费发布，该软件仅适用于激活操作不附带其他功能，如出现系统问题请排查其他已装软件。&lt;/p&gt;
+&lt;p&gt;该脚本仅供研究和学习用途等，请在下载或使用后的24小时内删除并清空激活信息，否则一切后果由使用者自行承担。&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sat, 04 Jul 2026 17:10:42 +0000</pubDate></item><item><title>讽刺索尼停产PS游戏光盘 GitHub推出限量代码光盘 将你的仓库刻录到光盘上寄给你</title><link>https://www.landian.news/archives/113786.html</link><description>
 &lt;p&gt;#网站应用 讽刺索尼停产 PS 游戏光盘，GitHub 推出限量代码光盘，将你的仓库刻录到光盘上寄给你长期保存。虽然这不是开玩笑，但 GitHub 也仅提供 1000 份光盘刻录服务，GitHub 没提到任何收费，所以开发者只需要提交自己的且必须是公开的仓库和收货地址即可，如果有幸被选中就可以耐心等待光盘到货。查看全文：https://ourl.co/113786&lt;/p&gt;&lt;p&gt;索尼日前宣布从 2028 年 1 月开始停止生产新游戏的实体光盘，也就是未来索尼 PS 平台将全面转向数字媒体时代，对很多喜欢收藏游戏光盘的玩家来说这是个坏消息，但没想到这件事在社交媒体上竟然引起诸多关注，包括 ProtonMail、达乐美披萨、肯德基等都发文嘲讽 (或者纯粹是营销目的)，但没想到真正的重磅嘉宾是 GitHub。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113786.png" rel="nofollow"&gt;&lt;img alt="讽刺索尼停产PS游戏光盘 GitHub推出限量代码光盘 将你的仓库刻录到光盘上寄给你" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113786.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -41,32 +80,4 @@
 &lt;p&gt;目前这个日志提示已经被很多开发者关注，大家关心的问题在于，本来模型的免费使用 (实际还要花订阅费) 就是在订阅额度内的，既然如此为什么在开发者明确使用 Claude Fable 5 的情况下还要被自动降级，更糟糕的时候降级也就算了，A 社竟然还在日志里给出嘲讽的提示。&lt;/p&gt;
 &lt;p&gt;Claude Code 还回复称没想到开发者会阅读日志，不得不说 A 社这作风从来没有变，毕竟要是其他公司被发现存在这种嘲讽性提示肯定会说这是某某程序员擅自写的，肯定不会由公司或团队层面来背锅这事儿 (虾米音乐在 2017 年被发现在客户端文件里将活动赠送的免费或短期 VIP 会员称为穷 X VIP，注释中还写着类似活动赠送的那种、搞活动送的等字样)。&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 03 Jul 2026 03:30:51 +0000</pubDate></item><item><title>[下载] U盘装机工具Rufus v4.15正式版发布 修复静默安装Windows 10/11失败问题</title><link>https://www.landian.news/download/113784.html</link><description>
-&lt;p&gt;#软件下载 U 盘刻录装机神器 Rufus v4.15 正式版发布，修复静默安装 Windows 10/11 出现的失败问题。Rufus 可以跳过 Windows 11 硬件限制、解除登录微软账号、禁用设备加密、优化使用体验等，属于目前 U 盘装机非常好的工具，建议经常装系统的用户下载 Rufus 备用。下载地址：https://ourl.co/113784&lt;/p&gt;&lt;p&gt;知名 U 盘刻录装机工具 Rufus 日前推出 v4.15 正式版，在推出正式版前开发者已经发布两个测试版用来解决 Windows 10/11 静默安装问题，建议经常装机尤其是使用静默安装的用户立即更换为最新版，避免使用 Rufus 旧版本生成的配置和刻录的镜像存在装机异常问题。&lt;/p&gt;
-&lt;p&gt;&lt;figure&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112753.png" rel="nofollow"&gt;&lt;img alt="[下载] U盘装机工具Rufus v4.15正式版发布 修复静默安装Windows 10/11失败问题" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112753.png"/&gt;&lt;/a&gt;&lt;figcaption&gt;配图为旧版本&lt;/figcaption&gt;&lt;/figure&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;移除微软的硬件要求，可在不受支持的硬件上安装 Windows 11 系统 (绕过 TPM 2.0 等)&lt;/li&gt;
-&lt;li&gt;可以在刻录阶段选择跳过 Windows 11 强制登录账户，这样进入 OOBE 后可以创建本地账户&lt;/li&gt;
-&lt;li&gt;支持静默安装模式，帮助用户完成必要配置后简化 Windows 10/11 的安装流程&lt;/li&gt;
-&lt;li&gt;可选禁用 Microsoft BitLocker 设备自动加密功能，用户也可以在装机后自己在设置里禁用加密&lt;/li&gt;
-&lt;li&gt;还可以选择优化使用体验，包括自动禁用 Microsoft Copilot、OneDrive、Outlook、快速启动等&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;为 UEFI:NTFS 添加 RISC-V 64 位的支持&lt;/li&gt;
-&lt;li&gt;改进对静默 Windows 安装选项的防护机制&lt;/li&gt;
-&lt;li&gt;改进写入重试过程中的取消操作能力&lt;/li&gt;
-&lt;li&gt;改进压缩镜像提取的进度报告&lt;/li&gt;
-&lt;li&gt;修复 ezxml 解析器中不受限制的 XML 实体扩展和整数溢出问题&lt;/li&gt;
-&lt;li&gt;修复大多数情况下静默安装 Windows 在 75% 时出现的失败问题&lt;/li&gt;
-&lt;li&gt;修复在基于高通骁龙 X 的 ARM64 平台上使用 UEFI:NTFS 时启动崩溃的问题&lt;/li&gt;
-&lt;li&gt;修复 WUE 选项始终默认勾选第一个选项的问题&lt;/li&gt;
-&lt;li&gt;修复使用多个 WIM 文件的 Windows ISO 时出现的无限循环问题&lt;/li&gt;
-&lt;li&gt;修复启用运行时 UEFI 媒体验证复选框后，有时候无法正确启用的问题&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;蓝点网下载服务器：&lt;a href="https://dl.landian.news/?dir=soft/rufus" rel="noopener" target="_blank"&gt;https://dl.landian.news/?dir=soft/rufus&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;官方 GitHub 仓库：&lt;a href="https://www.landian.news/go?url=https://github.com/pbatard/rufus/releases" rel="noopener" target="_blank"&gt;https://github.com/pbatard/rufus/releases&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;下载提示：默认为 x64 安装版、带 P 为便携版、带 x86 为 32 位版、带 arm64 为 Arm 版&lt;/p&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 03 Jul 2026 03:00:56 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 03 Jul 2026 03:30:51 +0000</pubDate></item></channel></rss>

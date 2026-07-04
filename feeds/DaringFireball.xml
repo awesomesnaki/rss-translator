@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Fri, 03 Jul 2026 21:24:05 +0000</lastBuildDate><item><title>★ 克劳德的极其糟糕的Electron Mac应用是内部人员所为</title><link>https://daringfireball.net/2026/07/claudes_criminally_bad_mac_app_is_an_inside_job</link><description>&lt;p&gt;Anthropic 于 2024 年 10 月发布了 Claude“桌面”应用的 MacOS 首个版本——一款让&lt;a href="https://x.com/sdw/status/1852065949312233854"&gt;界面设计师不以为然的&lt;/a&gt;Electron 笨重之作。该应用发布时，&lt;a href="https://daringfireball.net/linked/2024/10/31/anthropic-mac-app-electron-turd"&gt;我写道&lt;/a&gt;：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sat, 04 Jul 2026 16:57:22 +0000</lastBuildDate><item><title>Fantastical 4.1.15新增日历镜像功能</title><link>https://flexibits.com/blog/2026/06/double-booked-never-heard-of-it-meet-calendar-mirroring-in-fantastical/</link><description>&lt;p&gt;Flexibits:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;日历镜像功能允许你连接两个独立的日历（比如工作与个人），使一个日历上的事件自动显示在另一个日历上。&lt;/p&gt;
+&lt;p&gt;最棒的是？&lt;em&gt;没有任何事件信息会被发送到Flexibits服务器或保存在你的设备之外。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;你可以选择显示完整的事件详情，或仅将时间段标记为神秘的、专业的“忙碌”。你的同事无需知道你在做根管治疗，他们只需要知道你此时没空。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在Flexibits的示例场景中，理念是这样：你有一个个人日历，上面有重要事件，你想将其镜像到工作日历，以占用这些时间——而你或许只想在工作日历上将其标记为“忙碌”，而非暴露具体细节。&lt;/p&gt;
+&lt;p&gt;我已经试用这个测试版功能几个月了，非常喜欢，尽管我的使用场景看似简单。为了录制&lt;a href="https://dithering.fm/"&gt;Dithering&lt;/a&gt;播客，Ben Thompson和我共享一个Microsoft 365日历。（你可以猜到我们俩中谁设置了那个日历。）Fantastical长期以来对Microsoft 365账户有着极好的内置支持。所以对我来说，那些事件一直都会出现在Fantastical里。只是对我而言。&lt;/p&gt;
+&lt;p&gt;问题是，我和妻子共享一个iCloud日历，我们会把彼此需要知道的事件放进去。我的Dithering录制从未出现在那里。Ben和我录制时间相当规律，但妻子看不到我何时有Dithering录制，这始终是个小烦恼。Fantastical的新镜像功能完美解决了这个问题。我设置了一个镜像，将Dithering日历上的所有事件复制到家庭日历，保留原始事件标题，而不是模糊为“忙碌”。（标题都只写“Dithering”。）&lt;/p&gt;
+&lt;p&gt;锦上添花的是Fantastical长期以来的“合并相同事件”偏好设置。因为我已经开启此设置，所以看不到重复的“Dithering”事件——一个来自Dithering日历，另一个来自家庭日历。每个预定的录制我只看到一个事件，上面有条纹双色色块，表明该事件同时存在于两个日历中。简直完美。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;还有一件事：&lt;/strong&gt; 就在不久前，&lt;a href="https://flexibits.com/blog/2026/03/feature-spotlight-introducing-the-fantastical-connector-mcp-for-claude/"&gt;Fantastical 增加了对 Anthropic MCP 的支持&lt;/a&gt;，从而将你的日历与 Claude Desktop 集成。David Sparks 制作了一段&lt;a href="https://www.youtube.com/watch?app=desktop&amp;amp;v=BcO0R-DfOg4"&gt;简短的演示视频来展示这一功能&lt;/a&gt;。我自己并不怎么使用 Claude，所以这对我个人来说没什么影响，但它看起来足够酷，以至于我一度考虑从 ChatGPT 切换到 Claude。然后我想起了&lt;a href="https://daringfireball.net/2026/07/claudes_criminally_bad_mac_app_is_an_inside_job"&gt;Claude 的 Mac 应用是什么样子&lt;/a&gt;。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/07/04/fantastical-calendar-mirroring" title="永久链接至‘Fantastical 4.1.15 新增日历镜像功能’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Sat, 04 Jul 2026 16:57:22 +0000</pubDate></item><item><title>★ 克劳德的极其糟糕的Electron Mac应用是内部人员所为</title><link>https://daringfireball.net/2026/07/claudes_criminally_bad_mac_app_is_an_inside_job</link><description>&lt;p&gt;Anthropic 于 2024 年 10 月发布了 Claude“桌面”应用的 MacOS 首个版本——一款让&lt;a href="https://x.com/sdw/status/1852065949312233854"&gt;界面设计师不以为然的&lt;/a&gt;Electron 笨重之作。该应用发布时，&lt;a href="https://daringfireball.net/linked/2024/10/31/anthropic-mac-app-electron-turd"&gt;我写道&lt;/a&gt;：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;反观&lt;a href="https://openai.com/chatgpt/download/"&gt;ChatGPT 的原生 Mac 应用&lt;/a&gt;，它是一款真正的原生 Mac 应用。它的外观和体验都像 Mac 应用，因为它本身就是一款 Mac 应用。自从&lt;a href="https://www.cultofmac.com/news/chatgpt-finally-gets-official-mac-app"&gt;五月推出&lt;/a&gt;以来，我就一直喜欢它，而且它还在不断改进。我也越来越频繁地将其作为回答问题的首选工具。&lt;/p&gt;
 &lt;p&gt;我问 Claude：“怎样才是打造原生 Mac 应用的最佳方式？如果目标是获得出色的 Mac 体验，应该使用哪些框架和开发者工具？” &lt;a href="https://daringfireball.net/misc/2024/10/claude-mac-why.png"&gt;Claude 的回答&lt;/a&gt;首先将其视为 SwiftUI 和 AppKit 之间的选择。或许 Anthropic 的 Mac 工程师在打造这款 Electron 渣作之前，就该问问 Claude 同样的问题。&lt;/p&gt;
@@ -67,13 +78,4 @@
 &lt;p&gt;Daring Fireball下个月就满24年了，这听起来好像没有比30年轻多少。但在我看来，那些在我创办Daring Fireball之前就已经存在并持续运营的网站，才是真正的“老前辈”。与EveryMac这样的网站相比，我仍然觉得DF是个新人。1996年，天哪。那时史蒂夫·乔布斯甚至还没有回到苹果。EveryMac走过的这一段精彩旅程，至今仍在延续。&lt;/p&gt;
 &lt;p&gt;Michael Tsai（他那同名博客的&lt;a href="https://mjtsai.com/blog/archives/"&gt;年龄&lt;/a&gt;与Daring Fireball相同）&lt;a href="https://mjtsai.com/blog/2026/07/02/everymac-at-30/"&gt;问EveryMac的站长Brock Kyle这个网站是如何起步的&lt;/a&gt;。他回答的最后一句话是：“我怀念那些日子的精神。”&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/07/02/everymac-turns-30" title="“EveryMac迎来30周年”的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Thu, 02 Jul 2026 21:31:04 +0000</pubDate></item><item><title>我重复自己（5G vs. LTE 版本）</title><link>https://daringfireball.net/linked/2022/03/23/5g-battery-life</link><description>&lt;p&gt;早在2022年3月，《华尔街日报》的妮可·阮就在多款iPhone和iPad型号上通过流媒体视频对比了5G与LTE对电池续航的影响。她发现使用LTE能显著节省电量。（如果有人能在更新款设备上重复类似测试就好了——虽然iPhone 13 Pro上如此，但未必适用于当前机型。不过我猜结论应该依旧成立。）&lt;/p&gt;
-&lt;p&gt;总之，在引用她的报告时，我写道：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;在普通5G和LTE网络下，我的下行速度通常在50-100 Mbps之间——而且我遇到普通5G信号的频率远高于5G超宽带。我认为普通5G相比LTE并没有实际优势。那些快得离谱的超宽带下载速度就像拥有一台能开到200英里/小时的汽车。所以我干脆将iPhone设为始终使用LTE以节省电量。如果遇到LTE信号弱或速度慢的情况，我再重新开启5G自动模式。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这正好呼应了我昨天那篇《两个调制解调器的故事》文章，其中引用了AppleInsider的报道，称从苹果供应商塔塔电子窃取的数据显示，苹果只会在美国销售的iPhone 18 Pro机型中使用高通支持毫米波的蜂窝调制解调器。&lt;/p&gt;
-&lt;p&gt;但我的LTE设置后来怎么了？如果2022年我切换成LTE是因为省电效果显著且5G下载速度并无优势，那为什么2026年我又用回了5G，直到本月早些时候才再次切回LTE？&lt;/p&gt;
-&lt;p&gt;说实话，我记不太清了。但我确定自己从未因LTE速度慢而切换回5G。据我回忆，某次测试新iPhone时我切回了5G……然后就没再关注此事，再也没切回全时LTE。但现在我又用回LTE了，除非（a）我真觉得LTE速度慢，或（b）有测试结果显示在当前iPhone机型上5G不再比LTE更费电，否则我不会再切换回去。&lt;/p&gt;&lt;p&gt;哦，还有一点——几位读者发邮件说，选择5G的一个理由（尤其是如果你在毫米波塔覆盖范围内）是当通过热点共享蜂窝网络连接给一台Mac（或多台Mac）时。是的，确实如此。另一个被提及的点是，在拥挤/繁忙的场合，比如坐满人的体育场或竞技场，5G据说比LTE更好。也许吧？但在这两种情况下，当你遇到这些场景时你自然知道，而大多数时候你可以全天使用LTE，只有在将iPhone用作热点，或发现自己身处拥挤的体育场时才开启5G。我的意思是日常尝试关闭5G，而不是建议你办理不含5G的蜂窝套餐（我甚至不确定现在还能否买到这样的套餐）。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/07/02/i-repeat-myself" title="‘我重复一遍（5G vs. LTE版）’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Thu, 02 Jul 2026 20:32:31 +0000</pubDate></item></channel></rss>
+</description><pubDate>Thu, 02 Jul 2026 21:31:04 +0000</pubDate></item></channel></rss>
