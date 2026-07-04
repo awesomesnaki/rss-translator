@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sat, 04 Jul 2026 16:57:22 +0000</lastBuildDate><item><title>Fantastical 4.1.15新增日历镜像功能</title><link>https://flexibits.com/blog/2026/06/double-booked-never-heard-of-it-meet-calendar-mirroring-in-fantastical/</link><description>&lt;p&gt;Flexibits:&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sat, 04 Jul 2026 19:28:45 +0000</lastBuildDate><item><title>来自DF档案：‘Electron与原生应用的衰落’</title><link>https://daringfireball.net/2018/12/electron_and_the_decline_of_native_apps</link><description>&lt;p&gt;此致敬礼，回到2018年：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我并不像他们那样对原生应用感到极度悲观，
+但毫无疑问，Electron是一种祸害。我认为Mac比Windows更具韧性，
+因为Mac是吸引那些在意细节的人的平台。不过，我确实有所担忧。&lt;/p&gt;
+&lt;p&gt;从某些方面来说，Mac遭遇过最糟糕的事情，莫过于十年前它变得如此受欢迎。
+理论上，这对平台来说应该只有好处——更多用户意味着更多开发者的关注。
+Mac用户越多，我们看到的Mac应用就应该越多。问题在于，
+那些真正在意优秀原生应用的用户——那些看到
+&lt;a href="https://developer.apple.com/design/human-interface-guidelines/macos/"&gt;HIG&lt;/a&gt;违规行为就能识别，
+关心性能，在意Mac应用是否&lt;em&gt;正确&lt;/em&gt;的用户——大多数原本就已经在用Mac了。
+许多新Mac用户要么不知道，要么不关心什么才是好的Mac应用。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这篇八年前的文章依然站得住脚。我的担忧是有道理的，但同样地，我也没有陷入彻底的悲观主义。真正原生、符合习惯、地道的Mac应用正在复兴。Electron及其同类的非原生框架并未消退，但也没有进一步扩张。比如Claude（Electron）和ChatGPT（AppKit）。如今我看到的好新Mac应用比2018年更多，而长期坚守Mac的&lt;a href="https://sixcolors.com/post/2026/05/bbedit-16-offers-speed-boosts-and-shortcuts-and-emoji-upgrades/"&gt;老牌应用也在蓬勃发展&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;苹果自身就是一个很好的例子。首次在MacOS 26 Tahoe中推出的Mac版Journal令人大失所望——不仅仅是因为&lt;a href="https://daringfireball.net/linked/2026/06/25/apple-journal-undo-bug"&gt;严重的漏洞&lt;/a&gt;，更因为它以令人遗憾的方式不像Mac应用。例如，你无法将一条条目打开到单独的窗口中。但在MacOS 27 Golden Gate的开发者测试版中，全新的Siri应用却相当具有Mac风格。例如，你可以在列表视图中双击聊天记录，将其打开到单独的窗口中。（不过在网格视图中双击聊天记录却无法打开窗口——这大概是一个漏洞。）Siri并非出色的Mac应用，但它确实感觉像Mac应用，而这仅仅是第二个开发者测试版的1.0版本。它不像Journal那样，感觉像是运行在Mac窗口中的iOS应用。&lt;/p&gt;&lt;p&gt;讽刺的是，人们对&lt;a href="https://daringfireball.net/2026/07/claudes_criminally_bad_mac_app_is_an_inside_job"&gt;Anthropic的Claude应用是个Electron垃圾&lt;/a&gt;感到沮丧，因为Claude，尤其是Claude Code，在帮助创建优质原生Mac应用方面能力如此强大。像Notion、Slack或Discord这样有跨平台需求但缺乏Mac专业经验的大公司或组织，选择用Electron来开发Mac客户端是一回事。而像Anthropic这样的公司则是另一回事——它的唯一产品最令人印象深刻的单一能力就是生成编程代码，包括高质量的Mac版AppKit和SwiftUI代码。回到我&lt;a href="https://daringfireball.net/2026/07/claudes_criminally_bad_mac_app_is_an_inside_job"&gt;昨天用的那个“用锤子往墙上拧螺丝”的比喻&lt;/a&gt;，这就像Anthropic决定把所有螺丝钉进去的那栋建筑，本身就是一家知名的螺丝刀工厂。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/07/04/from-the-archive-electron-decline-of-native-apps" title="永久链接到“来自DF档案：《Electron与原生应用的衰落》”"&gt; ★ &lt;/a&gt;
+</description><pubDate>Sat, 04 Jul 2026 19:28:45 +0000</pubDate></item><item><title>Fantastical 4.1.15新增日历镜像功能</title><link>https://flexibits.com/blog/2026/06/double-booked-never-heard-of-it-meet-calendar-mirroring-in-fantastical/</link><description>&lt;p&gt;Flexibits:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;日历镜像功能允许你连接两个独立的日历（比如工作与个人），使一个日历上的事件自动显示在另一个日历上。&lt;/p&gt;
 &lt;p&gt;最棒的是？&lt;em&gt;没有任何事件信息会被发送到Flexibits服务器或保存在你的设备之外。&lt;/em&gt;&lt;/p&gt;
@@ -71,11 +87,4 @@
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;a href="https://www.anthropic.com/news/model-context-protocol"&gt;MCP是Anthropic的开放协议&lt;/a&gt;，因此它专为Claude设计，但各种其他工具也使用它——包括Gemini CLI、Cursor、GitHub Copilot等。MCP确实是开放的，而非“半开放”。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/07/02/safari-mcp" title="永久链接至‘为网络开发者推出Safari MCP服务器’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Thu, 02 Jul 2026 21:55:31 +0000</pubDate></item><item><title>EveryMac迎来30周年。</title><link>https://everymac.com/whatsnew/</link><description>&lt;p&gt;EveryMac：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;三十年是一段漫长的时间——自那时起很多事情都变了——但不变的是EveryMac.com一直在这里，为你提供从最初的128k到当前产品线的每一款Mac的详细信息。非常感谢您多年来的支持。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Daring Fireball下个月就满24年了，这听起来好像没有比30年轻多少。但在我看来，那些在我创办Daring Fireball之前就已经存在并持续运营的网站，才是真正的“老前辈”。与EveryMac这样的网站相比，我仍然觉得DF是个新人。1996年，天哪。那时史蒂夫·乔布斯甚至还没有回到苹果。EveryMac走过的这一段精彩旅程，至今仍在延续。&lt;/p&gt;
-&lt;p&gt;Michael Tsai（他那同名博客的&lt;a href="https://mjtsai.com/blog/archives/"&gt;年龄&lt;/a&gt;与Daring Fireball相同）&lt;a href="https://mjtsai.com/blog/2026/07/02/everymac-at-30/"&gt;问EveryMac的站长Brock Kyle这个网站是如何起步的&lt;/a&gt;。他回答的最后一句话是：“我怀念那些日子的精神。”&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/07/02/everymac-turns-30" title="“EveryMac迎来30周年”的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Thu, 02 Jul 2026 21:31:04 +0000</pubDate></item></channel></rss>
+</description><pubDate>Thu, 02 Jul 2026 21:55:31 +0000</pubDate></item></channel></rss>
