@@ -1,19 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>V2EX-最热主题</title><link>https://www.v2ex.com/</link><description>V2EX-最热主题 - Powered by RSSHub</description><language>zh-CN</language><lastBuildDate>Sun, 05 Jul 2026 05:52:24 +0000</lastBuildDate><item><title>[新用户送 10 刀] 超低价 Codex API，最低每刀不到 0.05R，纯血 gpt plus 号池反代，可用 gpt5.5， gpt5.4, gpt-image2，稳定好用</title><link>https://www.v2ex.com/t/1225059</link><description>&lt;p&gt;卡网： &lt;a href="https://pay.ldxp.cn/shop/O1Q7PYYC" rel="nofollow"&gt;https://pay.ldxp.cn/shop/O1Q7PYYC&lt;/a&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>V2EX-最热主题</title><link>https://www.v2ex.com/</link><description>V2EX-最热主题 - Powered by RSSHub</description><language>zh-CN</language><lastBuildDate>Sun, 05 Jul 2026 10:05:16 +0000</lastBuildDate><item><title>Claude 被封了也不要去用 codex</title><link>https://www.v2ex.com/t/1225093</link><description>&lt;ol&gt;
+&lt;li&gt;额度变少了&lt;/li&gt;
+&lt;li&gt;上下文压缩超时的问题依然没有解决&lt;/li&gt;
+&lt;li&gt;上下文太短&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;#1 xyooyx&lt;/strong&gt;：不应该呀&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#2 hengxiangbianhua&lt;/strong&gt;：@&lt;a href="/member/xyooyx"&gt;xyooyx&lt;/a&gt; 升级之后压缩上下文就好了😂&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#3 afxcn&lt;/strong&gt;：codex 很好用，又稳定，为什么不用呢？不过你不用也好，少挤一些。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#4 canyue7897&lt;/strong&gt;：我也觉得是&lt;br/&gt;大家都不要用&lt;br/&gt;这种罪我一个人承受就行了&lt;br/&gt;万恶的 OpenAI 就让我这种罪人用吧&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#5 NickyHaris&lt;/strong&gt;：codex plus 相比 Claude pro ，额度可能只有 1/5 甚至更少。对比 gpt 5.4 和 sonnet 4.6 的直观感受。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#6 Jensond&lt;/strong&gt;：openai 算力勉强跟得上，所以 tokens 直观比 claude 少，但是 codex 变向送周限，送了好几次了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#7 momo07&lt;/strong&gt;：建议和 claude 锁死，最好别用 codex...少挤一些 （ tibo 才会看到用量低给大家多重置。）&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#8 Jack927&lt;/strong&gt;：典型的“我不好过，大家也要像我一样不好过”&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#9 BeautifulSoap&lt;/strong&gt;：大家都别用，codex 用户少了 tibo 才会多发点福利给我们这些 codex 用户&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#10 WorkerMatt&lt;/strong&gt;：但 codex 经常能 reset..&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#11 Mingkinge&lt;/strong&gt;：codex 的性价比还是不错的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#12 Dream4U&lt;/strong&gt;：一直都是自动压缩&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#13 jko123&lt;/strong&gt;：都去舔 A/的 13 脸吧&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#14 hengxiangbianhua&lt;/strong&gt;：@&lt;a href="/member/NickyHaris"&gt;NickyHaris&lt;/a&gt; 现在不让用 5.4 了，只有 5.5 额度一会就没了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#15 hengxiangbianhua&lt;/strong&gt;：@&lt;a href="/member/Dream4U"&gt;Dream4U&lt;/a&gt; 一周前才合并的修复代码，怎么可能一直自动压缩&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#16 Y25tIGxpdmlk&lt;/strong&gt;：只能说一个愿打一个愿挨，封的好啊，直接锁死吧&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#17 ProphetN&lt;/strong&gt;：codex 的压缩一直是断档级领先的，单轮压缩基本可以说是无损的。1M 上下文的实际高可用也就 300k ，比起 Codex 的 250k 并没有领先多少。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#18 DisastrousNet&lt;/strong&gt;：codex 量大管饱，100 美元一个月 很香啊。coding + agent 都足够了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#19 isbase&lt;/strong&gt;：最近降智问题 基本废了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#20 AlangHa&lt;/strong&gt;：PRO 套餐是降智的，能把人气死。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#21 zlo309618100727&lt;/strong&gt;：codex 如何开 1M 上下文啊..。。被 claude 惯坏了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#22 Virace&lt;/strong&gt;：@&lt;a href="/member/hengxiangbianhua"&gt;hengxiangbianhua&lt;/a&gt; #15 你用的中转站吧，账号自动压缩一直没问题啊&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#23 Virace&lt;/strong&gt;：@&lt;a href="/member/zlo309618100727"&gt;zlo309618100727&lt;/a&gt; 就 285 ，就这么大&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#24 creepersssss&lt;/strong&gt;：codex 的压缩一直是遥遥领先，你不用我用😋&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#25 JarvisLee&lt;/strong&gt;：@&lt;a href="/member/hengxiangbianhua"&gt;hengxiangbianhua&lt;/a&gt; #14 ？你用免费号么？不然怎么会用不了 5.4&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#26 PerFectTime&lt;/strong&gt;：挺奇怪的, 这么喜欢引战搞拉踩? 工具不是趁手就行, 你管我用什么? 关你屁事, 爱舔你 a 爹赶紧舔&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 05 Jul 2026 10:05:16 +0000</pubDate></item><item><title>[新用户送 10 刀] 超低价 Codex API，最低每刀不到 0.05R，纯血 gpt plus 号池反代，可用 gpt5.5， gpt5.4, gpt-image2，稳定好用</title><link>https://www.v2ex.com/t/1225059</link><description>&lt;p&gt;卡网： &lt;a href="https://pay.ldxp.cn/shop/O1Q7PYYC" rel="nofollow"&gt;https://pay.ldxp.cn/shop/O1Q7PYYC&lt;/a&gt;
 中转站： &lt;a href="https://app.runcode.win" rel="nofollow"&gt;https://app.runcode.win&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;下方留言注册邮箱，送 10 刀&lt;/p&gt;
 &lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-07-05 14:45:06 +08:00"&gt;8h 20m ago&lt;/span&gt;
+Supplement 1  ·  &lt;span title="2026-07-05 14:45:06 +08:00"&gt;10h 14m ago&lt;/span&gt;
 
 用完觉得不错的兄弟们，记得买点啊，谢谢啦🙏
 
 &lt;hr/&gt;
-Supplement 2  ·  &lt;span title="2026-07-05 17:50:34 +08:00"&gt;5h 14m ago&lt;/span&gt;
+Supplement 2  ·  &lt;span title="2026-07-05 17:50:34 +08:00"&gt;7h 9m ago&lt;/span&gt;
 
 截止目前，已经送了三十多个 bro 了，今晚 24:00 截止赠送，我怕我破产了哈哈
 
 &lt;hr/&gt;
-Supplement 3  ·  &lt;span title="2026-07-05 17:52:21 +08:00"&gt;5h 12m ago&lt;/span&gt;
+Supplement 3  ·  &lt;span title="2026-07-05 17:52:21 +08:00"&gt;7h 7m ago&lt;/span&gt;
 
 QQ 交流群：1048288900 ，大家也可以加一下，有问题可以里面反馈
 
@@ -32,7 +63,7 @@ QQ 交流群：1048288900 ，大家也可以加一下，有问题可以里面反
 &lt;p&gt;&lt;strong&gt;#12 xi0729&lt;/strong&gt;：@&lt;a href="/member/runcode"&gt;runcode&lt;/a&gt; 已收到，谢谢！&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#13 wenjiu&lt;/strong&gt;：MjQzNTg5MDc2OUBxcS5jb20= 谢谢老板&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#14 Paranoid&lt;/strong&gt;：NDk0MjEyNDBAcXEuY29t&lt;br/&gt;谢谢老板&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#15 bitkuang&lt;/strong&gt;：&lt;a data-cfemail="6b080904120818042b0c060a020745080406" href="/cdn-cgi/l/email-protection"&gt;[email protected]&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#15 bitkuang&lt;/strong&gt;：&lt;a data-cfemail="294a4b46504a5a46694e44484045074a4644" href="/cdn-cgi/l/email-protection"&gt;[email protected]&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#16 Allenbayern&lt;/strong&gt;：d2FuZ3NodW9iYXllcm5AZ21haWwuY29tCg==  谢谢老板&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#17 izhangzhihao&lt;/strong&gt;：NzQ0MzUyNjgyQHFxLmNvbQ== 谢谢老板&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#18 runcode&lt;/strong&gt;：@&lt;a href="/member/wenjiu"&gt;wenjiu&lt;/a&gt; 已送，兄弟收到了在帖子给个回复哈，谢谢&lt;/p&gt;&lt;hr/&gt;
@@ -67,7 +98,7 @@ QQ 交流群：1048288900 ，大家也可以加一下，有问题可以里面反
 &lt;p&gt;&lt;strong&gt;#47 liaanj&lt;/strong&gt;：MTQ0Mjg5NjI1MEBxcS5jb20= 谢谢&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#48 barfi1316&lt;/strong&gt;：YmFyZmkueWFuZ0BnbWFpbC5jb20= 谢谢&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#49 g0blin&lt;/strong&gt;：NzQyMDA1NzkwQHFxLmNvbQ== 谢谢老板&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#50 Taxpayer&lt;/strong&gt;：&lt;a data-cfemail="f09c9985c1c5c9c2c8c5c1c3c5c5b0c1c2c6de939f9d" href="/cdn-cgi/l/email-protection"&gt;[email protected]&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#50 Taxpayer&lt;/strong&gt;：&lt;a data-cfemail="2844415d191d111a101d191b1d1d68191a1e064b4745" href="/cdn-cgi/l/email-protection"&gt;[email protected]&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#51 Taxpayer&lt;/strong&gt;：bGl1MTU5Mjg1MTM1NUAxMjYuY29t&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#52 M1KE&lt;/strong&gt;：cGVyZmVjdGNyZWF0ZUBob3RtYWlsLmNvbQ== 谢谢老板&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#53 han0101&lt;/strong&gt;：MTk3MDk4MDI4NEBxcS5jb20=&lt;br/&gt;谢谢老板&lt;/p&gt;&lt;hr/&gt;
@@ -102,7 +133,7 @@ QQ 交流群：1048288900 ，大家也可以加一下，有问题可以里面反
 &lt;p&gt;&lt;strong&gt;#82 runcode&lt;/strong&gt;：@&lt;a href="/member/Taxpayer"&gt;Taxpayer&lt;/a&gt; #50 已送，兄弟收到了在帖子给个回复哈，谢谢&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#83 runcode&lt;/strong&gt;：@&lt;a href="/member/Taxpayer"&gt;Taxpayer&lt;/a&gt; #51 已送，兄弟收到了在帖子给个回复哈，谢谢&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#84 rushi75&lt;/strong&gt;：SmFkeW5Td2lsbGVyMjI1QG91dGxvb2suY29t&lt;br/&gt;&lt;br/&gt;感谢老板&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#85 DesperateNeck&lt;/strong&gt;：&lt;a data-cfemail="340607030707010004027445451a575b59" href="/cdn-cgi/l/email-protection"&gt;[email protected]&lt;/a&gt;&lt;br/&gt;谢谢老板&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#85 DesperateNeck&lt;/strong&gt;：&lt;a data-cfemail="8bb9b8bcb8b8bebfbbbdcbfafaa5e8e4e6" href="/cdn-cgi/l/email-protection"&gt;[email protected]&lt;/a&gt;&lt;br/&gt;谢谢老板&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#86 shyling&lt;/strong&gt;：aUB1dXouaW8=&lt;br/&gt;&lt;br/&gt;感谢老板&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#87 FelixZeng&lt;/strong&gt;：Nzk5OTM3NzM1QHFxLmNvbQ==&lt;br/&gt;感谢老板&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#88 ccvip&lt;/strong&gt;：cWluZ3Fpbmc3Njg2QDE2My5jb20=&lt;br/&gt;谢谢老板&lt;/p&gt;&lt;hr/&gt;
@@ -192,7 +223,11 @@ QQ 交流群：1048288900 ，大家也可以加一下，有问题可以里面反
 &lt;p&gt;&lt;strong&gt;#43 evan9527&lt;/strong&gt;：医生本质也是一个工作诶，他不只是要对病人负责，也要考虑到自己的职业生涯和家庭等等很多因素，所以你从他嘴里得到的一定是他综合考虑过后的保守答案。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#44 apollo007&lt;/strong&gt;：@&lt;a href="/member/DrPika"&gt;DrPika&lt;/a&gt; #40 那你这个用的是哪一个 AI 呢？请教一下，谢谢&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#45 solecc&lt;/strong&gt;：@&lt;a href="/member/DrPika"&gt;DrPika&lt;/a&gt; 医生也用 AI 哈哈&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#46 catazshadow&lt;/strong&gt;：好医生都被老爷占了，牲口也配&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 05 Jul 2026 05:22:44 +0000</pubDate></item><item><title>有一些生活中的烦恼，希望大佬们指点迷津</title><link>https://www.v2ex.com/t/1225029</link><description>本人 97 年出生，男，普通本科毕业，毕业后在青岛写了一年代码，然后家中遭遇变故便回了老家，目前在一家食品公司上班，公司是家族式企业，托关系找了个车间的工作，到目前为止做了 6 年，已婚未育，到现在为止感觉干的很苦恼，不想做了。工作具体情况：&lt;br/&gt;	1 、早上 4 点半起床通勤半小时到公司，下午根据当天的产量下班，最早 6 点，最晚的时候能到 9 点，每天刷脸 4 次。&lt;br/&gt;    2 、工资每天 300 元，请假没有工资，除了 10 天年假，全年无休，没有节假日。&lt;br/&gt;    3 、晋升无望，调岗无望，感觉自己的能力也没有多少提升，离开这个平台什么都不是。&lt;br/&gt;    4 、各种考核、打分，处理职工各种乱七八糟的问题，比较费脑力，不是体力活。&lt;br/&gt;    5 、公司年底会有一部分奖金，根据当年的盈利情况大概在 5-8w 块，每个人有高有低全凭直系领导做主。刚建厂的一些老人虽然每天都在混，但是有原始的股份，每年赚的比我多的多。&lt;br/&gt;目前的烦恼：&lt;br/&gt;	1 、每天只能睡 6 小时左右，睡眠时间严重不足，每天昏昏沉沉，对工作失去了信心，现在比刚来的时候越来越差。&lt;br/&gt;    2 、目前有房贷 80w （结婚时候买的），每月 4000 元房贷，车贷刚刚全部结清，每个月工资只发 70%，剩余 30%年底发，工资除去房贷、有事请假大概只能剩 1500 元左右。&lt;br/&gt;    3 、老婆目前大半年没有上班，每天在家躺着，不想上班，但也没什么花钱的地方。&lt;br/&gt;    4 、在小县城工作不好找，干了 6 年也没什么人脉，也没学到什么东西，不知道能干什么。&lt;br/&gt;	5 、最近一直有些焦虑，我做什么事老是替别人考虑，所以一直很苦恼；老是为没有发生的事而担忧，怕辞职之后找不到工作连温饱都满足不了。&lt;br/&gt;    6 、一直被母亲催生，但是手头没钱，不想孩子生下来过苦日子。&lt;br/&gt;目前大概就这么个情况，想问问各位经验丰富的大佬帮我指点指点我现在应该怎么办？谢谢。
+&lt;p&gt;&lt;strong&gt;#46 catazshadow&lt;/strong&gt;：好医生都被老爷占了，牲口也配&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#47 GyroZeppeli13&lt;/strong&gt;：@&lt;a href="/member/akira"&gt;akira&lt;/a&gt; 问题在于医生的幻觉率也不低啊。普通人看病除非是水平挺高的，基本就是改改模板，保证 90%的正确率就行。实在不行，很多病本来开点药也能暂时压下去。&lt;br/&gt;&lt;br/&gt;大病不说，例如中耳炎，你真要彻底搞定的话其实挺麻烦。但如果你去社康之类的医生一般也就给你开点抗生素就打发了。&lt;br/&gt;&lt;br/&gt;对我来讲，一开始吃抗生素医生还没告诉我要吃满一个疗程，还是我自己做功课才知道的，差点搞得更麻烦。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#48 ffgrinder&lt;/strong&gt;：最近我也有同感，妹子最近突发皮疹，到医院去看医生也说不出个所以然，就是让吃抗组胺药物然后清淡饮食，回来用 AI 描述症状锁定 4-5 种可能病症，再到外网上搜索 paper 和对应的患者汇报，很快确定了一种罕见药疹，并锁定了是一种超敏反应。最后如果想要确定只需要去医院做几个检查就行了。&lt;br/&gt;&lt;br/&gt;当然，事后也找了认识的专家核对，大家意见差不多，而且他们临床上甚至没有见过这种药导致药疹的状况出现，连说明书都没写。&lt;br/&gt;&lt;br/&gt;大部分医生其实水平也就那样，或者说各行各业真正懂的人也就那么一点点。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#49 jworg&lt;/strong&gt;：和神经有关系的优先去神经外科吧，毕竟如果要动手术最后也得神外的。&lt;br/&gt;&lt;br/&gt;b 站有个账号 神经外科贺晓生，看他的视频就知道神外医生的层次不齐，有很多视频的患者在底层的医院走遍弯路。&lt;br/&gt;&lt;br/&gt;然后 ai 的结论最好也要找专家以上的医生确认下。我身上一个肿块，所有的彩超影像科医生都看走眼了，核磁也给不出结论，最后遇到一个血管外科刚好研究相关的东西，一槌定音，期间 ai 给出的六七种可能最后都不是。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#50 jworg&lt;/strong&gt;：@&lt;a href="/member/lozzow"&gt;lozzow&lt;/a&gt; 那就是骶管囊肿，很常见的，因为大概率没症状，所以论文上见的少，这个数字应该是论文的计数。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 05 Jul 2026 05:22:44 +0000</pubDate></item><item><title>有一些生活中的烦恼，希望大佬们指点迷津</title><link>https://www.v2ex.com/t/1225029</link><description>本人 97 年出生，男，普通本科毕业，毕业后在青岛写了一年代码，然后家中遭遇变故便回了老家，目前在一家食品公司上班，公司是家族式企业，托关系找了个车间的工作，到目前为止做了 6 年，已婚未育，到现在为止感觉干的很苦恼，不想做了。工作具体情况：&lt;br/&gt;	1 、早上 4 点半起床通勤半小时到公司，下午根据当天的产量下班，最早 6 点，最晚的时候能到 9 点，每天刷脸 4 次。&lt;br/&gt;    2 、工资每天 300 元，请假没有工资，除了 10 天年假，全年无休，没有节假日。&lt;br/&gt;    3 、晋升无望，调岗无望，感觉自己的能力也没有多少提升，离开这个平台什么都不是。&lt;br/&gt;    4 、各种考核、打分，处理职工各种乱七八糟的问题，比较费脑力，不是体力活。&lt;br/&gt;    5 、公司年底会有一部分奖金，根据当年的盈利情况大概在 5-8w 块，每个人有高有低全凭直系领导做主。刚建厂的一些老人虽然每天都在混，但是有原始的股份，每年赚的比我多的多。&lt;br/&gt;目前的烦恼：&lt;br/&gt;	1 、每天只能睡 6 小时左右，睡眠时间严重不足，每天昏昏沉沉，对工作失去了信心，现在比刚来的时候越来越差。&lt;br/&gt;    2 、目前有房贷 80w （结婚时候买的），每月 4000 元房贷，车贷刚刚全部结清，每个月工资只发 70%，剩余 30%年底发，工资除去房贷、有事请假大概只能剩 1500 元左右。&lt;br/&gt;    3 、老婆目前大半年没有上班，每天在家躺着，不想上班，但也没什么花钱的地方。&lt;br/&gt;    4 、在小县城工作不好找，干了 6 年也没什么人脉，也没学到什么东西，不知道能干什么。&lt;br/&gt;	5 、最近一直有些焦虑，我做什么事老是替别人考虑，所以一直很苦恼；老是为没有发生的事而担忧，怕辞职之后找不到工作连温饱都满足不了。&lt;br/&gt;    6 、一直被母亲催生，但是手头没钱，不想孩子生下来过苦日子。&lt;br/&gt;目前大概就这么个情况，想问问各位经验丰富的大佬帮我指点指点我现在应该怎么办？谢谢。
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 Brightt&lt;/strong&gt;：op 真能忍啊，我想象不到我过这样的生活会怎么样&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#2 ericcen&lt;/strong&gt;：有房贷死局了&lt;/p&gt;&lt;hr/&gt;
@@ -272,7 +307,7 @@ QQ 交流群：1048288900 ，大家也可以加一下，有问题可以里面反
 &lt;p&gt;Github 地址： &lt;a href="https://github.com/pwstrick/water-card" rel="nofollow"&gt;https://github.com/pwstrick/water-card&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;在线体验： &lt;a href="https://pwstrick.github.io/water-card/" rel="nofollow"&gt;https://pwstrick.github.io/water-card/&lt;/a&gt;&lt;/p&gt;
 &lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-07-05 16:08:56 +08:00"&gt;6h 55m ago&lt;/span&gt;
+Supplement 1  ·  &lt;span title="2026-07-05 16:08:56 +08:00"&gt;8h 51m ago&lt;/span&gt;
 &lt;p&gt;已增加每个好汉的人物介绍，并且增加了6大恶人的展示&lt;/p&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 iyuanyi&lt;/strong&gt;：不错啊&lt;/p&gt;&lt;hr/&gt;
@@ -316,40 +351,4 @@ Supplement 1  ·  &lt;span title="2026-07-05 16:08:56 +08:00"&gt;6h 55m ago&lt
 &lt;p&gt;&lt;strong&gt;#39 baizhu&lt;/strong&gt;：不错不错。另外今年小浣熊搞得红楼梦卡貌似不是很火。。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#40 YoungKing6&lt;/strong&gt;：我到现在都看到某些卡，都能想起小浣熊干脆面的味道&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#41 joyce95&lt;/strong&gt;：有点意思&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#42 Eagleyes&lt;/strong&gt;：这玩意怎么看下一张卡？&lt;br/&gt;这东西还有实体卡么？我买过一套，不贵，20-30 块钱。&lt;br/&gt;感谢楼主分享&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 05 Jul 2026 01:44:05 +0000</pubDate></item><item><title>原来 FM 调频转播站晚上会关站</title><link>https://www.v2ex.com/t/1225024</link><description>&lt;p&gt;一听到凌晨 12:05 就会突然没信号，小城仅有的 4 个电台全部离线，没有关站提示，就像跳闸了一样突然变成白噪音了。第一次以为是收音机坏了，换了一个收音机到点还是如此。过了 12 点只能听调幅了，干扰很大，把天线用导线一路引到阳台防盗网上才能收到信号，台灯都没法开呀。
-过去听父母说能从收音机听到对岸牧师传教，我还将信将疑，这次确实有收到香港、日本、韩国、俄罗斯的调幅信号，虽然完全听不懂，但这么折腾一番挺有成就感的。
-明明记得之前不是这样，高三偷偷用 iPod nano 的收音机听老梁故事会到凌晨也没问题，而且调频电台起码 8 个以上，或许是记混了。那样现在夜班出租车司机岂不是连个收音机都没得听，那也太孤独了。&lt;/p&gt;
-&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;#1 lanxisama&lt;/strong&gt;：之前初中时候天天晚上听广播放鬼故事，一般都是广播最后一档节目了，放完没了就白噪音了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#2 TimG&lt;/strong&gt;：@&lt;a href="/member/lanxisama"&gt;lanxisama&lt;/a&gt; 确实，我也是觉得到节目结束停止吧。但是现在节目放送一半突然就没信号了。查了一下有人说只有大城市的电台会 24 小时广播，小城市的转播台为了省电会在晚上收听率低的时段关闭转发。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#3 ysxb1145&lt;/strong&gt;：晚上要收台检修的，上至经济之声下至地方台，非 24 小时播出的会说晚安，24 小时的就会直接掐断&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#4 TimG&lt;/strong&gt;：@&lt;a href="/member/ysxb1145"&gt;ysxb1145&lt;/a&gt; 原来如此，之前 deepseek 也说过可能是检修，我觉得不会每晚都检修吧，这么追问了一句它就立刻认错了，看来确实是这样。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#5 MFWT&lt;/strong&gt;：小地方基本上都是晚上收台，县级自办台会和听众道别，转播上级广播的台就直接关发射机。&lt;br/&gt;&lt;br/&gt;有一个比较特殊的情况是，某些市级广播电台并非 24 小时播出，晚上也会收台，但收台之后发射机是不关的，要么循环播放音乐，要么循环播放语音提示，表示『本台已收台』。这主要是为了防止某些黑广播趁机而入，在正经电台的频率上放卖药广告，同时此操作也有凑频率的时间占用度的意思（部分无线电台执照对占用度有要求）&lt;br/&gt;&lt;br/&gt;至于调幅信号，不知道你听的是中波还是短波，但如果是能听到很多外语台，大概率是短波。现在城市里像中波短波这类低波段信号受干扰比较严重，比如我这里，日间 3MHz 以下报废，晚上 5MHz 以下报废，全是干扰。此时只能尽量往高一点的频率跑了，比如白天去 13-17MHz ，晚上 5-9MHz ，以及全天都可以在 9-11MHz 碰碰运气。当然，这并非绝对，比如隔壁三胖家的华语广播，就是（ A26 频率）晚上 9 点在 11735 和 13650 发射，东部沿海地区接收状况还算可以。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#6 MFWT&lt;/strong&gt;：至于那个『对岸牧师传教』，这个也是存在的。宗教类电台一直都是短波段的常客，比如良友电台（基督教电台，下午 9400 发射，22-24 点切换到 11600 ）就是一个案例。他的发射功率非常大，信号稳定，华南地区接收效果甚至比 CNR1 还要好，不过因为我并不信仰基督教，因此也只是用来测试机器而已。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#7 gpt5&lt;/strong&gt;：用短波能收到很多敌台&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#8 TimG&lt;/strong&gt;：@&lt;a href="/member/MFWT"&gt;MFWT&lt;/a&gt; 感谢大佬写了这么多字解惑。我这边听到的调频广播都是省级转播的，市级电台已经没有印象了，不知道是功率太小覆盖不到我这边还是已经停办了。国际电台这边，我在华北，记忆比较清晰的两个，一个是 1010khz 的，讲的好像是粤语？我似乎听到他说香港了。还有一个是 1300khz ，是一个日本电台。现在在网络上看到外国内容太方便了，以至于习以为常了，如今用收音机听到国外的信息，感觉世界又变得立体了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#9 wildlynx&lt;/strong&gt;：地方财政吃力，已经砍掉很多广播电台了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#10 TimG&lt;/strong&gt;：@&lt;a href="/member/gpt5"&gt;gpt5&lt;/a&gt; 哈哈哈，现在听调幅的人估计不多了，建敌台已经回不了本了。还在坚持广播的我愿称之为有情怀的敌台。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#11 MFWT&lt;/strong&gt;：@&lt;a href="/member/TimG"&gt;TimG&lt;/a&gt; 这个是中波段了，夜间的话，中波会走天波反射过来，所以夜间能接收到很多远处的中波台（有一部分是 CRI 的外语频道，也有部分可能真的是日本的中波台发射）。&lt;br/&gt;&lt;br/&gt;不过中波的话，『天线用导线一路引到阳台防盗网上』的效果其实不是很好，因为受限于波长原因，绝大多数情况下，收音机都是用机内磁棒天线来接收中波信号，拉杆天线仅用于调频以及短波。下次可以试一下转动机身，让磁棒天线朝向电台方位，有助于改善接收效果&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#12 TimG&lt;/strong&gt;：突然想起来，我在调幅有听到特殊的心跳信号，声音是明显的广播整点报时的“嘟嘟”声，每秒一声，偶尔停几秒。我还在想会不会是摩斯密码之类的，但是他传得太慢了，电视上那种发电报的密文一秒钟嘀好几声，这个一秒才嘟一声，所以我猜想可能是什么仪器的心跳信号，或者是干扰？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#13 TimG&lt;/strong&gt;：@&lt;a href="/member/MFWT"&gt;MFWT&lt;/a&gt; 原来如此，谢谢！今天下班就回家试试！&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#14 docx&lt;/strong&gt;：省级台一般不会停，市级看地方和收听率，大的每周固定时间段检修，小的就每晚凌晨。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#15 ahu&lt;/strong&gt;：你们可以去看一下新闻，这几年关掉的电台很多，电视频道也在收缩。&lt;br/&gt;我知道的知名音乐电台，原来北京台的 Metro Radio ，中央台的 HIT FM ，武汉的楚天音乐广播都关了。&lt;br/&gt;中央台每周二下午都是检修时间，没有节目播出（要等到 5 点才会恢复）。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#16 TimG&lt;/strong&gt;：@&lt;a href="/member/docx"&gt;docx&lt;/a&gt; 是的，我是倾向于收听的人太少，晚上关闭省电。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#17 Aixiaoa&lt;/strong&gt;：想起来以前小时候。自己攒了个矿石收音机。插个耳机。随便找个有声的就听着睡觉了😪&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#18 TimG&lt;/strong&gt;：@&lt;a href="/member/ahu"&gt;ahu&lt;/a&gt; 我这边似乎从来没有收到过中央电台信号，只有省里电台的转发。真可惜呀，就像报纸一样淡出视野了。之前还有人说只要还有司机电台就不会落寞呢，看来也不敌互联网线上内容。&lt;br/&gt;高中时每早班车司机都会放收音机，然后在迷迷糊糊中听到歌唱祖国“这里是中央人民广播电台，现在是新闻与报纸摘要节目时间......”&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#19 jackOff&lt;/strong&gt;：现在不是战时，等到战争时期这玩意就能满血复活了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#20 doyel&lt;/strong&gt;：如果有资源可以开无主持录播节目轮播的，比如音乐台什么的，一礼拜留一天设备检修停机就行了&lt;br/&gt;&lt;br/&gt;电台现在是真不行了，我前公司本来代理了全国 5 、60 条广播内容和广告，现在老板都成被执行人了。。。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#21 guanaco&lt;/strong&gt;：电台少了，可是还有很多网络电台。最可惜的是 SONY 最小的那款多波段收音机外壳都老化开裂，无法修复，九几年花了 950 元买的，真心疼。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#22 MFWT&lt;/strong&gt;：@&lt;a href="/member/TimG"&gt;TimG&lt;/a&gt; 中波段的嘟嘟声大概率是电气干扰，毕竟这个段没有已知的播出此类信号的电台。（如果是不是一秒一次嘟嘟声，而是莫尔斯电码，在长波段/中波低段的是机场 NDB 导航台；短波段就有很多可能性，比如频率 2500 、5000 ，10000 、15000 的话，就是 BPM 授时台，7000 ，14000 等频率附近，就是业余电台，等等等等）&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#23 Jiceburger&lt;/strong&gt;：推荐个网站：radio.garden&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#24 Rnreck&lt;/strong&gt;：@&lt;a href="/member/Jiceburger"&gt;Jiceburger&lt;/a&gt; 这是怎么实现的，连接不同地方的网络还可以听到不同地方的 radio&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#25 Jiceburger&lt;/strong&gt;：@&lt;a href="/member/Rnreck"&gt;Rnreck&lt;/a&gt; 我觉得可能是通过 m3u 串流实现的, fanmingming 还有一个更全的国内 FM: &lt;a href="https://github.com/fanmingming/live/blob/main/radio/m3u/fm.m3u" rel="nofollow noopener" target="_blank"&gt;https://github.com/fanmingming/live/blob/main/radio/m3u/fm.m3u&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#26 TimG&lt;/strong&gt;：@&lt;a href="/member/guanaco"&gt;guanaco&lt;/a&gt; 真可惜啊，听起来很有收藏价值。或者可以去闲鱼找一下外观比较新但功能损坏的，这种应该可以很便宜买到，然后自己动手把外壳换下来？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#27 MoeDisk&lt;/strong&gt;：有人还在用 CRadio 么（龙卷风。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#28 fredhwang&lt;/strong&gt;：我用功放上自带的电台，自购加长天线挂到阳台上，FM 能收到两个台，AM 则完全收不台。没好听的节目，就用电脑蓝牙传输歌曲到功放。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#29 littiefish&lt;/strong&gt;：@&lt;a href="/member/gpt5"&gt;gpt5&lt;/a&gt; 都是锣鼓声和中国之声&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#30 IsaacYoung&lt;/strong&gt;：啊哈 播客听的不少 电台倒是很少听了 感谢楼主 又发现了新的渠道&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#31 IamUNICODE&lt;/strong&gt;：这年头还有喜欢听广播的，小时候最喜欢的就是用收音机听各国中文短波，去年还想买一个德生 s2200 ，但是一想买了有啥用，收手了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#32 lumia1020&lt;/strong&gt;：现在就开车听 FM ，中波短波由于信号不佳，家里的收音机也吃灰了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#33 smlcgx&lt;/strong&gt;：收音机真的很有意思，小时候玩圆珠笔收音机，还有矿石机，晚上听着广播里主持人很磁性的声音，是上学时最浪漫的记忆之一了&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 05 Jul 2026 01:22:05 +0000</pubDate></item></channel></rss>
+&lt;p&gt;&lt;strong&gt;#42 Eagleyes&lt;/strong&gt;：这玩意怎么看下一张卡？&lt;br/&gt;这东西还有实体卡么？我买过一套，不贵，20-30 块钱。&lt;br/&gt;感谢楼主分享&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 05 Jul 2026 01:44:05 +0000</pubDate></item></channel></rss>
