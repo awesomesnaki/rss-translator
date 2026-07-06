@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Mon, 06 Jul 2026 18:34:38 +0000</lastBuildDate><item><title>Backblaze 对比 Dropbox</title><link>https://mjtsai.com/blog/2025/12/19/backblaze-no-longer-backs-up-dropbox/</link><description>&lt;p&gt;过去一年里，人们对Backblaze——一项在线备份服务，其简单宣传语是备份用户整台电脑、包括启动盘和外接硬盘——以及诸如iCloud Drive、Dropbox、Google Drive和Microsoft OneDrive等在线文件存储服务，产生了许多（合理的）担忧和惊愕。Backblaze已停止将此类服务的内容纳入其备份。Michael Tsai（一如既往地）收集了一份&lt;a href="https://mjtsai.com/blog/2025/12/19/backblaze-no-longer-backs-up-dropbox/"&gt;长长的相关链接列表&lt;/a&gt;。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Mon, 06 Jul 2026 20:38:43 +0000</lastBuildDate><item><title>Markdown 现在在苹果版本 27 的操作系统中拥有 UTI。</title><link>https://developer.apple.com/documentation/uniformtypeidentifiers/uttype-swift.struct/markdown</link><description>&lt;p&gt;苹果今日发布了其27个操作系统的第三个开发者测试版，而苹果开发者文档中的这一新页面引起了我的注意——一个用于Markdown数据的内置统一类型标识符：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;统一类型标识符：&lt;/strong&gt;&lt;code&gt;net.daringfireball.markdown&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;符合标准：&lt;/strong&gt;&lt;code&gt;public.utf8-plain-text&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我之前曾建议使用&lt;code&gt;public.plain-text&lt;/code&gt;作为符合标准，但指出文本编码应为UTF-8。我已将&lt;a href="https://daringfireball.net/linked/2011/08/05/markdown-uti"&gt;我自己的建议&lt;/a&gt;更新为&lt;code&gt;public.utf8-plain-text&lt;/code&gt;，以确立UTF-8编码的地位。（早在2004年，UTF-8支持远未普及，而今天已是常态。）&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/07/06/markdown-uti-os-27" title="Markdown现已在苹果的版本27操作系统中拥有统一类型标识符的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Mon, 06 Jul 2026 20:38:43 +0000</pubDate></item><item><title>Backblaze 对比 Dropbox</title><link>https://mjtsai.com/blog/2025/12/19/backblaze-no-longer-backs-up-dropbox/</link><description>&lt;p&gt;过去一年里，人们对Backblaze——一项在线备份服务，其简单宣传语是备份用户整台电脑、包括启动盘和外接硬盘——以及诸如iCloud Drive、Dropbox、Google Drive和Microsoft OneDrive等在线文件存储服务，产生了许多（合理的）担忧和惊愕。Backblaze已停止将此类服务的内容纳入其备份。Michael Tsai（一如既往地）收集了一份&lt;a href="https://mjtsai.com/blog/2025/12/19/backblaze-no-longer-backs-up-dropbox/"&gt;长长的相关链接列表&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;整件事复杂且令人困惑。我认为，基本要点是Backblaze已不再尝试备份这些服务中的内容，因为有时这些文件并不真正存在于你的本地文件系统中，但它们看起来又好像存在。这正是我今天早些时候在关于Maestral的文章中提到的，涉及苹果现代File Provider API的问题。你知道有时在iCloud Drive——或Dropbox、OneDrive或任何其他可能使用这些API的服务中——你可以在Finder里看到一个文件或文件夹，但旁边有一个“云”图标，你必须点击它才能实际下载吗？就是那种情况。&lt;/p&gt;
 &lt;p&gt;而使用Maestral就不会出现这些问题。Maestral只是让本地计算机上的一个文件夹与你的Dropbox账户内容保持同步，就像当年Dropbox的原生第一方应用一样。因此，如果你使用Maestral，Backblaze&lt;em&gt;确实&lt;/em&gt;会备份你的Dropbox文件夹，因为你的Dropbox文件夹只是一个普通文件夹（尽管可能很大）。它不是魔法文件夹，只是普通文件夹。而Maestral软件会保持其内容同步。使用苹果File Provider API的软件——实际上包括iCloud Drive——用户看到的是魔法文件夹，而魔法本身并未公开说明。&lt;/p&gt;
 &lt;p&gt;现在，事实证明Dropbox自家的Mac客户端仍有一种可用模式，不使用File Provider API。一些使用这种旧模式的人报告说Backblaze仍然备份他们的Dropbox文件夹。另一些人说不行。就像我说的，这令人困惑且复杂，各方都没有公开说明。我宁愿不去担心这些。而使用Maestral时，我就不必担心。当Maestral停止工作时，我可能就得开始担心了。&lt;/p&gt;
@@ -15,9 +22,10 @@
 &lt;blockquote&gt;
 &lt;p&gt;尽管 Anthropic 可能通过推出原生 Mac 应用让所有人吃惊，但我对此持怀疑态度。他们有很大的提升空间，只需在做好 Electron 应用上投资，在需要时融入原生代码片段，并沿着从“外壳中的网站”到“恰好使用网络技术的优秀应用”的路径逐步攀登。&lt;/p&gt;
 &lt;p&gt;正如 ChatGPT 出人意料的成功让 OpenAI 意识到以产品为中心的机会，Claude Code 的突然走红或许会让 Anthropic 重视投资于愉悦工具的重要性。去年他们&lt;a href="https://www.anthropic.com/news/mike-krieger-joins-anthropic"&gt;邀请 Mike Krieger 担任首席产品官&lt;/a&gt;，如果有机会，他似乎完全能朝这个方向凝聚团队。&lt;/p&gt;
-&lt;/blockquote&gt;&lt;p&gt;我不知道克里格在那里做什么，但他看起来绝对不像是在专注创造令人愉悦的工具。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;另见：&lt;/strong&gt; &lt;a href="https://daringfireball.net/thetalkshow/2024/12/02/ep-415"&gt;2024年12月，艾伦·派克在我的节目《The Talk Show》中担任嘉宾&lt;/a&gt;，那一集主要围绕人工智能展开。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/07/06/allen-pike-chatgpt" title="‘艾伦·派克，去年11月：’为什么Mac版ChatGPT如此出色？''的永久链接"&gt; ★ &lt;/a&gt;
+&lt;/blockquote&gt;&lt;p&gt;我不知道克里格在那里做什么，但看起来他确实没有专注于创造令人愉悦的工具。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;另见：&lt;/strong&gt; &lt;a href="https://daringfireball.net/thetalkshow/2024/12/02/ep-415"&gt;2024年12月，艾伦·派克作为嘉宾参加了我的《脱口秀》&lt;/a&gt;，这一集主要讨论人工智能。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;更新：&lt;/strong&gt;我猜对了——克里格仍在Anthropic，但&lt;a href="https://www.theverge.com/ai-artificial-intelligence/861475/anthropic-ai-c-suite-internal-incubator-labs-team-mike-krieger"&gt;今年年初&lt;/a&gt;他辞去了首席产品官的职务，转而领导他们的“&lt;a href="https://www.anthropic.com/news/introducing-anthropic-labs"&gt;实验室&lt;/a&gt;”团队，负责开发新的产品实验。克里格在上周&lt;a href="https://www.youtube.com/live/I2cbIws9j10?t=4343s"&gt;的一次采访中&lt;/a&gt;简要谈到了这一角色转变，该采访是在“AI工程师世界博览会”会议上进行的。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/07/06/allen-pike-chatgpt" title="Permanent link to ‘Allen Pike, Back in November: ‘Why Is ChatGPT for Mac So Good?’’"&gt; ★ &lt;/a&gt;
 </description><pubDate>Mon, 06 Jul 2026 17:37:05 +0000</pubDate></item><item><title>ATP会员特惠：Mac版Mac应用</title><link>https://atp.fm/atp-dev-mac-assed-mac-apps</link><description>&lt;p&gt;一期出色的《Accidental Tech Podcast》会员专属特辑，&lt;a href="https://daringfireball.net/2026/07/claudes_criminally_bad_mac_app_is_an_inside_job"&gt;准时登场&lt;/a&gt;。ATP会员仅需每月8美元或每年88美元，光是会员专属节目就物超所值。&lt;/p&gt;
 &lt;p&gt;他们出色地解释了什么样的Mac应用才算有“Mac范儿”，但更精彩的是他们阐述了为什么用户&lt;em&gt;和&lt;/em&gt;开发者都应该关注这些应用。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/07/06/atp-mac-assed" title="永久链接：‘ATP会员特辑：有Mac范儿的Mac应用’"&gt; ★ &lt;/a&gt;
@@ -35,12 +43,4 @@
 &lt;p&gt;理论上，因为 Maestral 是开源的，有人可以 fork 它并继续维护。但我的印象一直是，这完全是 Schott 一个人的项目，如果他本人不再使用 Dropbox，那么他失去维护 Maestral 的兴趣也就不难理解了。&lt;/p&gt;
 &lt;p&gt;世事如此。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/07/06/maestral-retired" title="永久链接至 'Maestral, the Open Source Splendidly Simple Mac Dropbox Client, Has Been Retired'"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 06 Jul 2026 17:04:44 +0000</pubDate></item><item><title>杰森·斯内尔在Macworld结束了他的专栏和28年的职业生涯。</title><link>https://www.macworld.com/article/3175482</link><description>&lt;p&gt;杰森·斯内尔，在Macworld上：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我在Macworld工作的第一天，苹果公司濒临倒闭。那是1997年秋天，史蒂夫·乔布斯已回到苹果，并策划了罢免吉尔·阿梅里奥的CEO职务，但那时尚没有iMac，产品方面也毫无可见的转机。除了标志性的“不同凡想”广告活动发布外，一无所获。&lt;/p&gt;
-&lt;p&gt;苹果的生存命悬一线。史蒂夫·乔布斯要求大家信任他。在&lt;a href="https://www.macworld.com/article/3100197/ive-been-to-a-lot-of-apple-keynotes-ill-never-forget-these-two.html"&gt;Macworld Expo&lt;/a&gt;上，他请来了比尔·盖茨——偏偏是比尔·盖茨！——来帮助他向世界灌输信念，让大家相信苹果会找到生存之道。&lt;/p&gt;
-&lt;p&gt;至少可以说，全世界都持怀疑态度。我的家人问我，一旦苹果倒闭，我打算找什么工作。我工作了四年的杂志《&lt;a href="https://go.skimresources.com/?id=111346X1569486&amp;amp;xs=1&amp;amp;url=https://vintageapple.org/macuser/&amp;amp;xcust=1-0-3175482-1-0-0-0-0&amp;amp;sref=https://www.macworld.com/article/3175482"&gt;MacUser&lt;/a&gt;》已经停刊，我们中的一些人被调到了竞争对手Macworld，大概是负责出刊直到苹果最终寿终正寝。我们存在的意义只是让各自出版公司的亏损降到最低。&lt;/p&gt;
-&lt;p&gt;1997年真是奇怪，伙计们。而我的Macworld职业生涯就这样开始了。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;a href="https://daringfireball.net/linked/2026/07/06/snell-macworld-column" title="'Jason Snell在Macworld结束专栏及28年生涯'的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 06 Jul 2026 14:35:02 +0000</pubDate></item></channel></rss>
+</description><pubDate>Mon, 06 Jul 2026 17:04:44 +0000</pubDate></item></channel></rss>
