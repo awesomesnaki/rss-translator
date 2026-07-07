@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Mon, 06 Jul 2026 22:23:46 +0000</lastBuildDate><item><title>★ 苹果应该取消应用图标的‘圆角矩形牢笼’</title><link>https://daringfireball.net/2026/07/eliminate_app_icon_squircle_jail</link><description>&lt;p&gt;保罗·卡法西斯在Rogue Amoeba博客的文章《&lt;a href="https://weblog.rogueamoeba.com/2026/06/26/free-the-icons/"&gt;解放图标&lt;/a&gt;》中写道：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 07 Jul 2026 15:22:26 +0000</lastBuildDate><item><title>OS 27 开发者测试版 3 为 Siri 的新声音启用了新的“语速”和“表现力”滑块。</title><link>https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/</link><description>&lt;p&gt;莎拉·佩雷兹为TechCrunch撰稿：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;苹果对形状的禁令是应用图标可用性和创意性上的倒退。图标现在更难区分，因为它们不再被允许保持独特性。但这背后没有任何技术原因。苹果本可以、也应该再次允许图标采用多种多样的形状。&lt;/p&gt;
-&lt;p&gt;很明显，苹果内部一些人认识到向液态玻璃的过渡带来了错误。他们似乎也有权修正这些错误。在“金门”版本中对苹果自己图标的改进是值得欢迎的修正，正如备受赞誉的液态玻璃不透明度滑块一样。现在是时候纠正禁止图标形状的错误了。&lt;/p&gt;
-&lt;p&gt;苹果不应再强迫每个图标都使用相同的圆角方形。&lt;/p&gt;
+&lt;p&gt;随着最新的iOS 27开发者测试版发布，苹果让测试者得以提前窥见其&lt;a href="https://techcrunch.com/2026/06/08/apples-long-awaited-ai-siri-overhaul-is-finally-here/"&gt;AI驱动的Siri&lt;/a&gt;即将到来的改进之一：调整AI助手的语速和表现力。在今天发布的iOS 27 beta 3中，苹果启用了此前在首个开发者测试版中标注为“即将推出”的“语速”和“表现力”语音控制功能。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;我要指出的是，圆角方形本身并非问题所在。如果强制使用任何其他形状，比如VisionOS的圆形，问题也是一样的。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://mastodon.social/@siracusa/116817604907166515"&gt;约翰·西拉库萨&lt;/a&gt;：&lt;/p&gt;
+&lt;p&gt;在WWDC发布当天，我就在备用iPhone上安装了开发者测试版1。它表现得非常稳定，Siri AI也极为实用，以至于我在测试版2时就已将主力机iPhone 17 Pro升级到了iOS 27测试版。到现在，我使用iOS 27开发者测试版已经差不多一个月了。如果你和我一样不顾后果，可能也已经在这么做了。如果你不是，那你至少应该等到公测版发布，我打赌第一个公测版很快就会到来。这些测试版从一开始就非常稳定，这证明了今年确实是像雪豹那样的修复和改进基础之年。我喜欢这样。&lt;/p&gt;
+&lt;p&gt;至于新的Siri语音，我认为目前可用的两个新语音都非常出色。语音1是女声，语音2是男声；我用了好几天这两个语音，但更偏爱女声。（如果有一个听起来像HAL 9000的男声，我愿意花大价钱；我不喜欢这个听起来——怎么说呢——像是儿童心理学家之类的男声。我不想要“友好”，对我来说那从电脑里听来显得甜腻而虚假。女声听起来更冷淡，因此在我看来也更诚实。）&lt;/p&gt;
+&lt;p&gt;这里要给苹果点赞。既然现在有了这些滑块，我不得不说他们默认设置做得很好。在没有滑块的情况下使用了一个月后，我以为一旦设置可用，我可能会想把表现力&lt;em&gt;调低&lt;/em&gt;一档，和/或把语速&lt;em&gt;加快&lt;/em&gt;一档。但结果并非如此。稍微减少一点表现力，并没有让语音1听起来不那么虚假——反而让她听起来有点飘飘欲仙。而语速哪怕加快一点，对我来说都太快了——显得匆忙，而不是简练。默认设置很难把握，我认为苹果这次做到了。&lt;/p&gt;
+&lt;p&gt;（系统词典对&lt;em&gt;简练&lt;/em&gt;的定义：“粗鲁地简短”。这正是我希望AI语音所能达到的效果。那是电脑对自己本质的诚实展现。）&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/07/07/dev-beta-3-siri-voice-sliders" title="永久链接至‘OS 27开发者测试版3为Siri新语音启用新的“语速”和“表现力”滑块’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Tue, 07 Jul 2026 15:22:26 +0000</pubDate></item><item><title>★ 苹果应该取消应用图标的‘圆角矩形牢笼’</title><link>https://daringfireball.net/2026/07/eliminate_app_icon_squircle_jail</link><description>&lt;p&gt;Paul Kafasis 在 Rogue Amoeba 博客上一篇题为“&lt;a href="https://weblog.rogueamoeba.com/2026/06/26/free-the-icons/"&gt;解放图标&lt;/a&gt;”的文章中写道：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;圆形方形监狱是苹果对Mac开发者做过的最糟糕的设计相关事情，甚至可能是图标相关事情中最糟糕的，没有之一。对开发者极度不友好。&lt;/p&gt;
-&lt;p&gt;如果圆形方形的图标确实更好，那就让这个设计在市场上胜出。就像我们从经典Mac OS图标风格过渡到更逼真的Mac OS X图标风格那样。开发者之所以采用，是因为他们愿意，也因为用户渴望如此。&lt;/p&gt;
+&lt;p&gt;苹果禁止使用异形图标，这对应用程序图标的可用性和创意性而言是一种倒退。现在的图标更难区分，因为它们不再被允许拥有独特性。但这背后并没有技术上的理由。苹果可以，也应该再次允许图标呈现多种多样的形状。&lt;/p&gt;
+&lt;p&gt;很明显，苹果内部有些人已经意识到转向 Liquid Glass 风格带来了错误。他们似乎也有权纠正这些错误。在 Golden Gate 中对苹果自家图标进行的改进是受欢迎的纠偏之举，同样备受赞誉的还有 Liquid Glass 的不透明度滑块。现在也是时候纠正禁止图标形状的错误了。&lt;/p&gt;
+&lt;p&gt;苹果不应该再强迫每个图标都塞进同一个圆角矩形里。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;约翰·西拉库萨记性很好，对Mac设计非常上心，并且不倾向于夸大其词（说得客气点）。我不确定是否同意他说这是“苹果对Mac开发者做过的最糟糕的设计相关事情”，但这绝对在候选名单上。而且我想不出还有任何其他苹果强加给Mac开发者的设计罪行，我会（和西拉库萨一样）认为比这更糟糕。&lt;/p&gt;&lt;p&gt;苹果强迫自家所有应用图标采用相同形状是一回事。这已经够糟糕了，因为苹果自家的Mac应用数量众多且广受欢迎，作为平台所有者，苹果必然为许多第三方应用指明方向。但要在整个平台范围内强制执行，这简直&lt;em&gt;恶意满满&lt;/em&gt;。苹果决定不再设计那些拥有独特、有趣且最关键的是&lt;em&gt;具有辨识度&lt;/em&gt;形状的精美图标——但他们也不允许第三方应用继续使用。这就像苹果让自家每个应用都必须戴上一顶傻乎乎的帽子，并且无论第三方应用的开发者是否愿意，也给他们戴上这些傻帽子。打住。不是&lt;em&gt;帽子&lt;/em&gt;，而是&lt;em&gt;头盔&lt;/em&gt;。强制性的圆角方形图标让一眼识别应用变得更困难，就像如果所有人都戴着相同形状的头盔，就很难分辨出每个人一样。真正的头盔至少还有重要的安全用途。而这些圆角方形就像愚蠢的&lt;em&gt;不必要的&lt;/em&gt;头盔。&lt;/p&gt;
+&lt;p&gt;我要指出的是，圆角矩形本身并不是问题。换成任何强制形状——比如 VisionOS 的圆形——都会带来同样的问题。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mastodon.social/@siracusa/116817604907166515"&gt;John Siracusa&lt;/a&gt; 表示：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“圆角矩形牢笼”是苹果对 Mac 开发者做过的最糟糕的设计相关事情，甚至可能是苹果做过的最糟糕的图标相关事情，没有之一。极其敌视开发者。&lt;/p&gt;
+&lt;p&gt;如果圆角矩形图标真的更好，那就让这种设计在市场中胜出。当年我们从经典 Mac OS 图标风格过渡到更逼真的 Mac OS X 图标风格时就是这样做的。开发者采用它是因为他们愿意，也因为用户渴望它。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;John Siracusa 记忆悠久，对 Mac 设计深怀关切，并且不轻易夸大其词（说得委婉些）。我不确定自己是否同意他认为这是“苹果对 Mac 开发者做过的最糟糕的设计相关事情”，但这绝对值得列入候选名单。而且，和 Siracusa 一样，我也想不出苹果强加给 Mac 开发者的其他设计罪行，能让我（与 Siracusa 的观点一致）认为是更糟糕的。&lt;/p&gt;&lt;p&gt;苹果强迫自家所有应用图标采用相同形状是一回事。这已经够糟糕了，因为苹果自家的Mac应用数量众多且广受欢迎，作为平台所有者，苹果必然为许多第三方应用指明方向。但要在整个平台范围内强制执行，这简直&lt;em&gt;恶意满满&lt;/em&gt;。苹果决定不再设计那些拥有独特、有趣且最关键的是&lt;em&gt;具有辨识度&lt;/em&gt;形状的精美图标——但他们也不允许第三方应用继续使用。这就像苹果让自家每个应用都必须戴上一顶傻乎乎的帽子，并且无论第三方应用的开发者是否愿意，也给他们戴上这些傻帽子。打住。不是&lt;em&gt;帽子&lt;/em&gt;，而是&lt;em&gt;头盔&lt;/em&gt;。强制性的圆角方形图标让一眼识别应用变得更困难，就像如果所有人都戴着相同形状的头盔，就很难分辨出每个人一样。真正的头盔至少还有重要的安全用途。而这些圆角方形就像愚蠢的&lt;em&gt;不必要的&lt;/em&gt;头盔。&lt;/p&gt;
 &lt;p&gt;关于这一点，&lt;a href="https://bsky.app/profile/jim-nielsen.com/post/3mnfvbd5cok2h"&gt;Jim Nielsen提出了一个更贴切的类比&lt;/a&gt;——交通标志：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;交通标志的一致性！让我们先把它们都重新设计成统一形状。&lt;/p&gt;
@@ -39,12 +48,12 @@
 &lt;/blockquote&gt;
 &lt;p&gt;我之前曾建议使用&lt;code&gt;public.plain-text&lt;/code&gt;作为符合标准，但指出文本编码应为UTF-8。我已将&lt;a href="https://daringfireball.net/linked/2011/08/05/markdown-uti"&gt;我自己的建议&lt;/a&gt;更新为&lt;code&gt;public.utf8-plain-text&lt;/code&gt;，以确立UTF-8编码的地位。（早在2004年，UTF-8支持远未普及，而今天已是常态。）&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/07/06/markdown-uti-os-27" title="Markdown现已在苹果的版本27操作系统中拥有统一类型标识符的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 06 Jul 2026 20:38:43 +0000</pubDate></item><item><title>Backblaze 对比 Dropbox</title><link>https://mjtsai.com/blog/2025/12/19/backblaze-no-longer-backs-up-dropbox/</link><description>&lt;p&gt;过去一年里，对于Backblaze（一项在线备份服务，其简单卖点是备份整个电脑，包括启动盘&lt;em&gt;和&lt;/em&gt;外置硬盘）以及iCloud Drive、Dropbox、Google Drive、Microsoft OneDrive等在线文件存储服务，人们存在着大量（合理的）担忧和震惊。Backblaze已停止在其备份中包含这些服务的内容。Michael Tsai（一如既往地）收集了一份&lt;a href="https://mjtsai.com/blog/2025/12/19/backblaze-no-longer-backs-up-dropbox/"&gt;关于此事的链接长清单&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;整件事复杂且令人困惑。我认为基本要点是，Backblaze已停止尝试备份这些服务中的内容，因为有时文件并不真正存在于你的本地文件系统中，但它们看起来又似乎存在。这就是我今天早些时候关于Maestral的帖子中提到的Apple现代File Provider API的问题。你知道有时在iCloud Drive——或Dropbox、OneDrive或任何其他可能使用这些API的服务——里，你能在Finder中看到一个文件或文件夹，但旁边有个“云”图标，你必须点击该图标才能实际下载它？就是这个情况。&lt;/p&gt;
-&lt;p&gt;使用Maestral时，这些情况都不会出现。Maestral只是将你本地电脑上的一个文件夹与Dropbox账户中的内容保持同步，就像当年原始的Dropbox第一方应用一样。所以如果你使用Maestral，Backblaze&lt;em&gt;确实&lt;/em&gt;会备份你的Dropbox文件夹，因为你的Dropbox文件夹只是一个普通文件夹（尽管可能是个大文件夹）。它不是魔法文件夹，只是一个普通文件夹。而Maestral软件会保持其内容同步。对于使用Apple File Provider API（实际上包括iCloud Drive）的软件，你作为用户看到的是魔法文件夹，而这些魔法是未记录在案的。&lt;/p&gt;
-&lt;p&gt;现在，事实证明Dropbox自家的第一方Mac客户端仍然有一种不使用File Provider API的可用模式。一些使用这种老派模式的人报告说Backblaze仍然会备份他们的Dropbox文件夹。也有人表示不会。正如我所说，这令人困惑且复杂，各方都没有明确文档说明。我宁愿不去担心这个问题。而使用Maestral，我至今不必担心。当Maestral停止工作时，我可能就得开始担心了。&lt;/p&gt;
-&lt;p&gt;Tsai链接的第一个条目是&lt;a href="https://talk.tidbits.com/t/warning-backblaze-now-ignoring-dropbox-google-drive-onedrive-icloud-drive-etc/32529"&gt;Rob Halliday在著名的TidBITS-Talk论坛上发表的这篇帖子&lt;/a&gt;。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/07/06/backblaze-versus-dropbox" title="《Backblaze对阵Dropbox》的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Mon, 06 Jul 2026 20:38:43 +0000</pubDate></item><item><title>Backblaze 对比 Dropbox</title><link>https://mjtsai.com/blog/2025/12/19/backblaze-no-longer-backs-up-dropbox/</link><description>&lt;p&gt;在过去一年里，人们对Backblaze——一项在线备份服务，其简单宣传是备份你的整个电脑，包括启动盘&lt;em&gt;和&lt;/em&gt;外置硬盘——以及像iCloud Drive、Dropbox、Google Drive和Microsoft OneDrive这样的在线文件存储服务产生了大量（合理的）担忧和惊愕。Backblaze停止了将这些服务的内容包含在其备份中。Michael Tsai（一如既往地）收集了&lt;a href="https://mjtsai.com/blog/2025/12/19/backblaze-no-longer-backs-up-dropbox/"&gt;一长串关于此事的链接&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;整件事复杂又令人困惑。我认为基本要点是，Backblaze已经停止尝试备份这些服务的内容，因为有时文件并不真的存在于你的本地文件系统上，但它们看起来又好像在那里。这就是我今天早些时候关于Maestral那篇文章里所指的，涉及苹果现代File Provider API的情况。你知道有时候在iCloud Drive——或者Dropbox、OneDrive或其他可能使用这些API的服务中——你可以在Finder中看到一个文件或文件夹，但旁边有一个“云”图标，你必须点击云图标才能实际下载它吗？就是那样。&lt;/p&gt;
+&lt;p&gt;使用Maestral时，这些都不会发生。Maestral只是让本地电脑上的一个文件夹与你的Dropbox账户内容保持同步。就像当年原始的Dropbox第一方应用一样。所以如果你使用Maestral，Backblaze&lt;em&gt;确实&lt;/em&gt;会备份你的Dropbox文件夹，因为你的Dropbox文件夹就是一个普通文件夹（虽然可能很大）。它不是魔法文件夹。就是一个普通文件夹。而Maestral软件会保持其内容同步。而对于使用苹果File Provider API的软件——实际上包括iCloud Drive——用户看到的是魔法文件夹，而且这种魔法没有文档说明。&lt;/p&gt;
+&lt;p&gt;现在，事实证明Dropbox自家的第一方Mac客户端仍然有一种可用的模式，不使用File Provider API。一些使用这种老派模式的人报告说Backblaze仍然备份他们的Dropbox文件夹。另一些人说不会。就像我说的，这一切都很令人困惑、复杂且各方都缺乏文档说明。我宁愿不去担心它。而通过Maestral，我一直不必担心。当Maestral停止工作时，我可能就要开始担心了。&lt;/p&gt;
+&lt;p&gt;Tsai链接的第一个条目是&lt;a href="https://talk.tidbits.com/t/warning-backblaze-now-ignoring-dropbox-google-drive-onedrive-icloud-drive-etc/32529"&gt;Rob Halliday在备受尊敬的TidBITS-Talk论坛上发的这个帖子&lt;/a&gt;。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/07/06/backblaze-versus-dropbox" title="Permanent link to ‘Backblaze Versus Dropbox’"&gt; ★ &lt;/a&gt;
 </description><pubDate>Mon, 06 Jul 2026 18:34:38 +0000</pubDate></item><item><title>艾伦·派克，去年十一月：‘为什么ChatGPT for Mac如此出色？’</title><link>https://allenpike.com/2025/why-is-chatgpt-so-good-claude/</link><description>&lt;p&gt;艾伦·派克，去年十一月（及对应&lt;a href="https://news.ycombinator.com/item?id=46105896"&gt;Hacker News 讨论帖&lt;/a&gt;）：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;尽管如此，我仍不会排除这里出现转向的可能性。虽然移动端占据主导地位，但桌面端仍是工作发生的地方。当 OpenAI &lt;a href="https://techcrunch.com/2025/10/23/openai-buys-sky-an-ai-interface-for-mac/"&gt;收购 Sky&lt;/a&gt; 以加大桌面端投入时，谷歌却始终全力押注浏览器。这使得 Anthropic 成为桌面端的挑战者，其最新模型亟待与精心设计的应用相结合。&lt;/p&gt;
@@ -59,7 +68,4 @@
 &lt;p&gt;&lt;strong&gt;另见：&lt;/strong&gt; &lt;a href="https://daringfireball.net/thetalkshow/2024/12/02/ep-415"&gt;2024年12月，艾伦·派克作为嘉宾参加了我的《脱口秀》&lt;/a&gt;，这一集主要讨论人工智能。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;更新：&lt;/strong&gt;我猜对了——克里格仍在Anthropic，但&lt;a href="https://www.theverge.com/ai-artificial-intelligence/861475/anthropic-ai-c-suite-internal-incubator-labs-team-mike-krieger"&gt;今年年初&lt;/a&gt;他辞去了首席产品官的职务，转而领导他们的“&lt;a href="https://www.anthropic.com/news/introducing-anthropic-labs"&gt;实验室&lt;/a&gt;”团队，负责开发新的产品实验。克里格在上周&lt;a href="https://www.youtube.com/live/I2cbIws9j10?t=4343s"&gt;的一次采访中&lt;/a&gt;简要谈到了这一角色转变，该采访是在“AI工程师世界博览会”会议上进行的。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/07/06/allen-pike-chatgpt" title="Permanent link to ‘Allen Pike, Back in November: ‘Why Is ChatGPT for Mac So Good?’’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 06 Jul 2026 17:37:05 +0000</pubDate></item><item><title>ATP会员特惠：Mac版Mac应用</title><link>https://atp.fm/atp-dev-mac-assed-mac-apps</link><description>&lt;p&gt;一期出色的《Accidental Tech Podcast》会员专属特辑，&lt;a href="https://daringfireball.net/2026/07/claudes_criminally_bad_mac_app_is_an_inside_job"&gt;准时登场&lt;/a&gt;。ATP会员仅需每月8美元或每年88美元，光是会员专属节目就物超所值。&lt;/p&gt;
-&lt;p&gt;他们出色地解释了什么样的Mac应用才算有“Mac范儿”，但更精彩的是他们阐述了为什么用户&lt;em&gt;和&lt;/em&gt;开发者都应该关注这些应用。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/07/06/atp-mac-assed" title="永久链接：‘ATP会员特辑：有Mac范儿的Mac应用’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 06 Jul 2026 17:13:52 +0000</pubDate></item></channel></rss>
+</description><pubDate>Mon, 06 Jul 2026 17:37:05 +0000</pubDate></item></channel></rss>
