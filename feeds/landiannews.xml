@@ -1,104 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 06 Jul 2026 05:30:59 +0000</lastBuildDate><item><title>维修专家要起诉三星：990 PRO故障后三星拒绝换新 仅愿意以购买价300美元退款</title><link>https://www.landian.news/archives/113796.html</link><description>
-&lt;p&gt;#行业资讯 知名维修专家 Louis Rossmann 准备起诉三星：990 PRO 故障后三星只愿意按购买价退款，不愿意换全新硬盘。990 PRO 4TB 版购买时 300 美元，现在 950 美元，三星售后称没货可换新只能原价退款，但亚马逊和三星自己零售渠道都可以以 950 美元随时购买，Louis 称三星这是为了更高的利益不愿意为老客户提供售后服务。查看全文：https://ourl.co/113796&lt;/p&gt;&lt;p&gt;知名维修专家兼博主 Louis Rossmann 在 6 月发布的视频中详细讲述他因为 Samsung 990 PRO 4TB 版固态硬盘的售后问题而决定起诉三星的经历，这名维修专家遇到的问题也非常俗套：在硬盘价格大幅度上涨后，三星售后拒绝为消费者更换全新的硬盘，而是要以购买时的价格全额退款。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113796.png" rel="nofollow"&gt;&lt;img alt="维修专家要起诉三星：990 PRO故障后三星拒绝换新 仅愿意以购买价300美元退款 " decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113796.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 07 Jul 2026 02:30:03 +0000</lastBuildDate><item><title>Cloudflare推出Workers Cache前端缓存层 可以显著提升响应速度并降低使用成本</title><link>https://www.landian.news/archives/113801.html</link><description>
+&lt;p&gt;#网站应用 Cloudflare 推出 Workers Cache 前端缓存层，可以显著提升响应速度并降低使用成本。Workers Cache 包含下层缓存和上层缓存，前者位于距离用户最近的边缘数据中心，后者通过聚合全球请求填充从而实现更高的命中率。实际访问时命中缓存时直接从边缘拉取不需要 Workers 执行，未命中缓存时 Workers 执行一次同时填充下层和上层缓存，后面可以复用。查看全文：https://ourl.co/113801&lt;/p&gt;&lt;p&gt;网络服务提供商 Cloudflare 日前发布博客宣布推出 Workers Cache 缓存功能，这是专门为 Cloudflare Workers 开发的专属前端缓存层，让 Workers 本身可以作为源站而且可以享受更高效的边缘缓存支持。Workers Cache 为开发者提供的直接优势就是可以直接提升响应速度并降低使用成本。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113801.png" rel="nofollow"&gt;&lt;img alt="Cloudflare推出Workers Cache前端缓存层 可以显著提升响应速度并降低使用成本" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113801.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;具体来说 Louis Rossmann 使用的这块固态硬盘购买时为 300 美元，在使用不到 18 个月后彻底损坏，按照流程他联系三星寻求售后支持，然后恶心的经历从这里开始：在申请保修过程中，客服向他索要实物照片后，在不到 24 小时内以未收到回复为由强行关闭售后服务工单，正常来说用户不可能随时盯着工单提交回复，所以不到 24 小时就强行关闭工单非常不合理。&lt;/p&gt;
-&lt;p&gt;再次提交工单申请后，Louis Rossmann 按要求将故障硬盘寄回三星售后服务中心，但三星售后检测后表示产品通过测试没有问题，于是又将故障硬盘重新寄回给 Louis Rossmann，但毕竟作为专业玩家，Louis Rossmann 使用 PC3000 数据恢复设备对故障盘进行测试，测试发现硬盘写入速度只有 40~60MB / 秒且很快就会彻底死机。&lt;/p&gt;
-&lt;p&gt;于是 Louis Rossmann 再次联系三星售后提交工单并附上自己的证据，这回三星终于承认问题，但客服又说现在没货所以只能退款不能换新，退款的话按照 Louis Rossmann 购买时的价格退款，也就是 300 美元，问题在于现在 990 PRO 4TB 版全新的要 950 美元，如果 Louis Rossmann 自行购买的话要支付超过 600 美元的差价。&lt;/p&gt;
+&lt;p&gt;Workers Cache 包含下层缓存和上层缓存，其中下层缓存位于距离用户最近的边缘数据中心，上层缓存通过聚合全球请求填充从而实现更高的命中率。当请求命中缓存时，Workers 无需执行即可直接返回响应；当未命中缓存时，Workers 需要执行一次并同时填充上层缓存和下层缓存。&lt;/p&gt;
+&lt;p&gt;缓存行为由标准的 HTTP Cache-Control 响应头控制，同时支持 SWR 策略，可以在后台刷新时立即返回陈旧响应，避免用户感知到延迟。该功能也支持 Vary 头进行内容协商、通过 Cache-Tag 实现标签化缓存失效、实现多租户安全隔离 (适用于带用户认证的动态响应)。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Louis Rossmann 指出，三星声称的无货可换纯属谎言，因为在亚马逊和三星官方商城，消费者随时可以以 950 美元的价格购买 990 PRO 4TB 版，三星售后实际就是在做利益权衡，宁愿把库存以更高的价格卖给其他人，也不愿意履行义务为老用户提供保修服务。&lt;/p&gt;
-&lt;p&gt;为此 Louis Rossmann 向三星发送正式信函，要求三星在 60 天内更换一块全新的同款固态硬盘，如果超时没有更换，Louis Rossmann 将前往法院起诉三星。这名维修专家表示，起诉成本可能要远高于 900 美元且会浪费他的时间和精力，但即便如此他也绝对不会妥协，只有让企业为恶劣的售后付出代价，才能迫使他们尊重消费者。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;显著降低成本与延迟：缓存命中时不需要执行 Workers 代码，不需要 CPU 计费，且响应速度更快。&lt;/li&gt;
+&lt;li&gt;提升动态内容性能：适合 Server-Side Rendering 场景，可在保持动态渲染的同时获得接近静态资源的性能。&lt;/li&gt;
+&lt;li&gt;简化多租户与认证场景：无需因 Authorization 头而禁用缓存，通过 ctx.props 安全实现用户级缓存隔离。&lt;/li&gt;
+&lt;li&gt;强大的失效功能：支持写时失效，在数据更新时通过标签精准清理相关缓存。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;目前 Cloudflare Workers Cache 已经向所有订阅计划的开发者提供，开发者只需要在 Wrangler 配置中启用即可。目前响应体大小限制为 512MB，后续 Cloudflare 将根据计划调整。缓存指标已经集成到 Workers Observability 仪表盘中，可以用来查看命中率、更新、绕过等数据。&lt;/p&gt;
+&lt;p&gt;Cloudflare 还为 Astro 框架提供官方的 cacheCloudflare 集成，其他框架例如 Next.js、TanStack Start 等支持正在进行中。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://www.landian.news/go?url=https://blog.cloudflare.com/workers-cache/" rel="noopener" target="_blank"&gt;Cloudflare&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 06 Jul 2026 05:30:59 +0000</pubDate></item><item><title>全球规模最大的盗版动漫网站HiAnime多名运营者被逮捕 非法获利超过1,285万美元</title><link>https://www.landian.news/archives/113795.html</link><description>
-&lt;p&gt;#行业资讯 全球规模最大的盗版动漫网站 HiAnime 多名运营者被逮捕，通过广告非法获利超过 1,285 万美元。此次逮捕行动由越南公安部负责，全球反盗版联盟和美国国土安全调查局提前收集运营者信息和其他情报共享给越南执法机构，目前被逮捕的犯罪嫌疑人共有 7 人，初步调查发现 HiAnime 未经授权上传并传播 2.6 万部版权作品。查看全文：https://ourl.co/113795&lt;/p&gt;&lt;p&gt;2026 年 3 月，全球规模最大可能也是体验最好的盗版动漫网站 HiAnime 突然宣布停止服务并发布告别声明，当时外界就普遍猜测这可能是运营团队受到版权问题和执法压力而选择关闭，不过关闭网站并不意味着侵权问题可以解决，现在越南警方已经在当地逮捕 7 名与 HiAnime 网站有关的犯罪嫌疑人。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113795.png" rel="nofollow"&gt;&lt;img alt="全球规模最大的盗版动漫网站HiAnime多名运营者被逮捕 非法获利超过1,285万美元" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113795.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 07 Jul 2026 02:30:03 +0000</pubDate></item><item><title>开源XP模块哔哩漫游(BiliRoaming)因收到B站律师函 目前已经删库跑路</title><link>https://www.landian.news/archives/113800.html</link><description>
+&lt;p&gt;#软件资讯 开源 XP 模块哔哩漫游 (BiliRoaming) 因收到 B 站律师函，目前已经删库跑路。该模块主要用于解除番剧区域限制以及提供自定义去广告等功能，客观上这确实存在侵犯 B 站版权的行为，所以在收到 B 站律师函后，开发者已经删除代码并将项目仓库存档。查看全文：https://ourl.co/113800&lt;/p&gt;&lt;p&gt;非常热门的哔哩哔哩安卓客户端开源模块哔哩漫游 (&lt;a href="https://www.landian.news/go?url=https://github.com/yujincheng08/BiliRoaming" rel="noopener" target="_blank"&gt;BiliRoaming&lt;/a&gt;) 目前已经删库并存档，开发者也在项目主页发布删库原因，B 站委托律师事务所向开发者发送侵权告知函，要求开发者妥善处理侵权问题并在 2 日内回复，为避免法律纠纷，开发者直接删除项目库。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113800.png" rel="nofollow"&gt;&lt;img alt="开源XP模块哔哩漫游(BiliRoaming)因收到B站律师函 目前已经删库跑路" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113800.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;近期越南公安部经济犯罪调查局和网络安全与高科技犯罪预防局在美国国土安全调查局和全球反盗版联盟的支持下，在越南境内逮捕 7 名与盗版动漫网站 HiAnime 相关的犯罪嫌疑人，其中 4 名犯罪嫌疑人已经被越南执法机构拘留，3 名犯罪嫌疑人被限制居住。&lt;/p&gt;
-&lt;p&gt;调查显示该犯罪团伙在 2020~2026 年 4 月年间，通过 HiAnime 以及超过 100 个关联网站，未经授权上传并传播 2.6 万部影视作品 (包含大量动漫内容)，通过广告非法获利 3,080 亿越南盾 (约合 1,285 万美元)。&lt;/p&gt;
-&lt;p&gt;HiAnime 曾是全球访问量最大的动漫盗版网站，甚至在 2024~2025 年间流量超过部分合法平台。HiAnime 为规避封锁也尝试更换多个不同的域名来提供持续访问，不过全球反盗版联盟和美国国土安全调查局在持续追踪其运营团队，在收集到足够多的信息后，反盗版联盟和美国国土安全调查局将信息共享给越南当局，由越南执法机构实施抓捕和证据收集。&lt;/p&gt;
+&lt;p&gt;这是基于 Android Xposed 和 LSPosed 的开源模块，主要用于哔哩哔哩安卓客户端，包括常规版和概念版等。模块核心功能就是解除客户端的番剧区域限制，让用户能够观看港澳台、东亚等地区限制的番剧，同时提供大量自定义和优化功能。&lt;/p&gt;
+&lt;p&gt;该模块包含的功能包括：解除番剧区域限制、港澳台 CDN 加速、支持缓存受限制地区的番剧、支持多版本客户端 (国际版 / 国内版均支持)、界面与体验优化、关闭青少年模式弹窗、显示评论区楼层等。当然最重要的还有去广告相关功能，这个功能也受安卓用户欢迎。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在 HiAnime 关停后目前已经有很多新出现的盗版动漫网站继续为网友提供免费资源，事实上只要有需求就总有人冒险提供这些资源来解决网友需求，正常来说这些盗版网站都是通过广告或会员服务来获利，所以在 HiAnime 关停后，部分新兴平台选择在 Telegram 频道和其他平台继续提供服务。&lt;/p&gt;
-&lt;p&gt;不过 HiAnime 运营团队被逮捕事件也释放信号：只要涉及大规模知识产权侵权问题，无论规模多大、运营多久，都有可能面临跨国执法的追责。&lt;/p&gt;
+&lt;p&gt;B 站委托的律师事务所在侵权告知函中称，哔哩漫游项目针对哔哩哔哩平台的相关技术代码更新以及技术方案，通过技术手段对哔哩哔哩平台的非公开接口、认证体系、访问控制机制、付费内容保护和会员体系进行逆向分析和适配，以模块和脚本等形式向不特定公众传播。&lt;/p&gt;
+&lt;p&gt;具体表现形式包括但不限于维护播放鉴权 Hook 与协议层改造、将受限付费番剧改写为可观看、绕过安全传输锁定以及隐蔽连接代理服务器、改写 CDN 回源盗用平台分发资源等。&lt;/p&gt;
+&lt;p&gt;上述行为已明显超出正常技术交流与合理使用的范围，客观上削弱并干扰了哔哩哔哩平台对接口调用及访问管理的正常秩序，不当增加了哔哩哔哩平台资源滥用及数据安全风险，并为更大规模的未授权的数据访问、资源抓取及其他不当利用行为提供了直接的技术基础与便利，严重妨碍了哔哩哔哩平台合法技术服务的正常运行与安全保障机制的有效性。&lt;/p&gt;
+&lt;p&gt;B 站要求开发者立即停止侵权行为，包括但不限于停止针对哔哩哔哩平台相关内容的数据抓取、解析、适配开发、代码更新及公开传播；删除或回滚相关代码、补丁、脚本、文档及相关功能模块；停止以任何形式继续提交、发布针对哔哩哔哩平台技术措施进行逆向分析或规避的代码、补丁及技术方案；采取有效措施防止类似侵权行为的再次发生。&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 06 Jul 2026 05:00:58 +0000</pubDate></item><item><title>[解决办法] Windows 11启动后桌面出现白色窗口且几秒后自行消失 可能与某计划任务有关</title><link>https://www.landian.news/archives/113794.html</link><description>
-&lt;p&gt;#技术教程 Windows 11 解锁后屏幕上出现空白的白色窗口怎么回事？可能与谷歌浏览器的计划任务有关，临时解决方案是暂时禁用这个任务。问题表现是 Windows 11 启动或解锁后，桌面出现白色窗口，几秒后自动消失，目前没有观察到其他负面问题，但如果用户觉得烦可以先临时解决问题。查看全文：https://ourl.co/113794&lt;/p&gt;&lt;p&gt;近期使用 Windows 11 系统和谷歌浏览器的用户可能会遇到启动后桌面出现空白的白色窗口问题，这个窗口没有任何内容，并且正常情况下会在几秒后自动消失，消失后也不会给系统正常使用或谷歌浏览器的使用造成任何问题。但在窗口消失前用户无法点击被遮挡的应用程序图标或任何文件。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113794-1.png" rel="nofollow"&gt;&lt;img alt="[指南] Windows 11启动后桌面出现白色窗口且几秒后自行消失 可能与某计划任务有关" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113794-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 07 Jul 2026 02:00:02 +0000</pubDate></item><item><title>微策略MSTR出售3,588枚比特币套现2.16亿美元 用于支付优先股股息和补充现金储备</title><link>https://www.landian.news/archives/113799.html</link><description>
+&lt;p&gt;#加密货币 微策略 MSTR 出售 3,588 个比特币套现 2.16 亿美元用于支付优先股股息和补充现金储备，平均出售价格为 6,0773 美元。目前微策略优先股 STRC 交易价格已经跌到 88.70 美元，而其面值是 100 美元，这意味着在比特币熊市的情况下，愿意购买 STRC 的投资者越来越少，即投资者不看好这种模式。查看全文：https://ourl.co/113799&lt;/p&gt;&lt;p&gt;6 月初全球规模最大的比特币持仓公司微策略 MSTR 出售 32 个比特币，这也是微策略自 2022 年以来首次公开披露出售比特币，这种行为立即遭到比特币和加密货币用户的痛骂，很多用户质疑微策略创始人迈克尔塞勒不讲武德，鼓励用户不要卖出任何比特币结果自己偷偷卖币，没想到迈克尔塞勒回应称只是让你们不要卖，又没说自己不卖。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113338.png" rel="nofollow"&gt;&lt;img alt="微策略MSTR出售3,588枚比特币套现2.16亿美元 用于支付优先股股息和补充现金储备" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113338.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;最初没人知道这个白色窗口是怎么回事，不过在 Reddit 论坛上有不少网友遇到类似情况，有网友经过分析发现问题根源似乎在 GoogleUserPEH 文件夹下，这个文件夹用来托管 RunPlatformExperienceHelperOnUnlock 任务。通过谷歌搜索发现，这个任务与谷歌浏览器关联的后台组件有关，组件功能主要用于管理浏览器与外部组件例如扩展程序、插件和更新任务之间的交互。&lt;/p&gt;
-&lt;p&gt;所以针对这个白色窗口的解决方案就是临时禁止谷歌浏览器产生的计划任务，不过暂时不知道禁止后是否会对谷歌浏览器的扩展程序更新之类的产生影响，最终可能还需要谷歌浏览器开发团队检查问题并给出真正的修复方案。&lt;/p&gt;
+&lt;p&gt;如果此前出售 32 个比特币只是测试的话，这回出售 3,588 个比特币就是动真格了，据微策略最新提交的监管文件，该公司在上周合计出售 3,588 个比特币，平均出售价格为 60,773 美元，出售后套现 2.16 亿美元。微策略称出售比特币回笼资金是因为需要支付优先股股息，这波出售后微策略比特币总持仓量降到 843775 个。&lt;/p&gt;
+&lt;p&gt;总体来说微策略仍然是目前比特币市场规模最大的净买家，只不过目前币圈行情比较差也让微策略的永久优先股 STRC 价格持续下跌，如果微策略无法扭转目前的困境，这可能会给该公司后续筹资继续购买比特币造成困难，毕竟微策略的模式就是左脚踩右脚。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;1. 打开 Windows 11 任务计划程序 (在搜索框搜索任务计划即可找到)&lt;/p&gt;
-&lt;p&gt;2. 在任务计划程序库中切换到 GoogleUserPEH 路径&lt;/p&gt;
-&lt;p&gt;3. 找到 RunPlatformExperienceHelperOnUnlock 将其属性修改为禁用即可&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113794-2.png" rel="nofollow"&gt;&lt;img alt="[指南] Windows 11启动后桌面出现白色窗口且几秒后自行消失 可能与某计划任务有关" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113794-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;微策略通过股票和债券市场筹集资金用来购买比特币，当比特币涨势良好的时候，这些股票和债券价格也会持续上涨，这就可以让微策略筹集更多资金继续购买更多比特币，通过比特币投资浮盈又可以继续刺激股票和债券价格上涨从而筹集到更多资金。&lt;/p&gt;
+&lt;p&gt;然而在比特币进入熊市的时候这种情况就难以为继，例如现在微策略的永久优先股 STRC 交易价格为 88.70 美元，但票面值是 100 美元，这代表着投资者并不看好这些优先股所以不愿购买，当购买的投资者比较少时，其价格就可能持续下跌。&lt;/p&gt;
+&lt;p&gt;需要强调的是微策略也可能随时会筹集资金继续购买比特币，例如在 6 月初卖出 32 个比特币后，微策略又购买 1,550 个比特币，所以没人知道下次微策略会在什么时候再次购买比特币，但这段时间以来比特币价格总体来说比较平稳，稳定在 6,1500 美元左右，不知道是否还会继续下跌。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;声明：本文旨在传递信息之目的，不得作为任何投资建议，加密货币市场风险极高，入市需谨慎。&lt;/em&gt;&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 06 Jul 2026 03:56:01 +0000</pubDate></item><item><title>开源中转站应用Sub2API现在也可以查询Codex重置次数到期时间 方便用户提前计划</title><link>https://www.landian.news/archives/113793.html</link><description>
-&lt;p&gt;#软件资讯 开源中转站应用 Sub2API 现在也可以查询 Codex 重置次数到期时间，方便用户提前计划重置避免到期。目前 Codex 赠送的重置次数为 4 次，首次重置到期时间是 7 月 12 日，Sub2API 现在可以显示所有重置次数的到期时间，所以各位可以提前计划，避免过期浪费重置次数。查看全文：https://ourl.co/113793&lt;/p&gt;&lt;p&gt;此前开源中转站应用 Sub2API 在连接 Codex 的情况下已经可以查看剩余重置次数，查看剩余次数后用户还可以直接点击重置按钮来立即重置 5 小时和当周配额，不过此前该应用尚未支持查询重置次数到期时间，用户想要查看到期时间还得使用脚本或者其他应用程序来查询。&lt;/p&gt;
+</description><pubDate>Tue, 07 Jul 2026 01:30:03 +0000</pubDate></item><item><title>微软宣布裁员4,800人 30%来自Xbox部门 微软还将剥离四家游戏工作室</title><link>https://www.landian.news/archives/113798.html</link><description>
+&lt;p&gt;#行业资讯 微软宣布裁员 4,800 人，其中 30% 来自 Xbox 团队，并且微软将剥离四家游戏工作室。此次裁员只是前奏，微软预计会在本月继续宣布裁员，其中 Xbox 总共会被裁员 20%。四家游戏工作室中有两家被原创始人买回转为独立运营，另外两家也将被微软出售，剥离后这些工作室将脱离微软的掌控。查看全文：https://ourl.co/113798&lt;/p&gt;&lt;p&gt;微软日前宣布裁员 4,800 人，这波裁员只是前奏而非最终裁员人数，因为微软计划在 7 月份的 2027 财年结束前总共裁减约 20% 的 Xbox 游戏部门员工，所以接下来某个时候微软游戏部门还会继续宣布裁员，但具体有多少员工受影响还需要等待后续消息。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2024/06/104389.png" rel="nofollow"&gt;&lt;img alt="微软宣布裁员4,800人 30%来自Xbox部门 微软还将剥离四家游戏工作室" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2024/06/104389.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在近期发布的 Sub2API v0.1.143 版中，用户点击剩余次数查询后底部会出现到期时间按钮，如果有多个重置次数则会折叠起来，用户展开后就可以查看当前所有重置次数的到期时间，用户可以根据到期时间来安排自己的重置计划。Codex 赠送的手动重置次数通常有效期都是 30 天，到期后没有重置也会自动过期。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113793.png" rel="nofollow"&gt;&lt;img alt="开源中转站应用Sub2API现在也可以查询Codex重置次数到期时间 方便用户提前计划" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113793.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;目前 Codex 累计赠送的重置次数为 4 次，如果你从未重置过那首次重置到期时间是 7 月 12 日，为避免到期浪费，建议用户在当周配额耗尽时直接重置，毕竟有 5 小时配额滚动限制，重置后也不能快速将当周配额耗尽，所以可能还是要尽早完成重置以免配额无法使用。&lt;/p&gt;
+&lt;p&gt;微软游戏部门被裁员并不让人意外，此前微软首席执行官萨蒂亚纳德拉已经强调不会再贴补游戏部门，相反游戏部门必须自负盈亏。随后就有消息传出微软可能会出售或关闭某个 Xbox 游戏工作室，现在已经确认的消息是微软将剥离四家游戏工作室让这些游戏工作室成为独立工作室自负盈亏。&lt;/p&gt;
+&lt;p&gt;微软游戏部门首席执行官阿莎夏尔马在内部备忘录中表示，此次裁员是 Xbox 部门的重置时刻，这次裁员将影响 1,600 名游戏部门成员。夏尔马称被裁成员里很多来自此前微软的收购，也有很多成员是被游戏部门单独招募的，裁员非常痛苦，但这是无法避免的。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;如果你使用 Sub2API 通过 Codex OAuth 接入那查询比较方便，但如果并未使用这种接入方式当然也没必要为了查询到期时间而部署 Sub2API。对于 macOS 用户可以使用这个开源工具：&lt;a href="https://www.landian.news/download/113585.html" rel="noopener" target="_blank"&gt;[下载] Codex Cockpit 可以检测 Codex 手动重置次数的截止时间 避免忘记重置失效 &lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;如果不想安装这些开源工具，也可以通过下面的命令来查询，直接将命令发送给 Codex，让 Codex 执行并读取本地的 token 查询，这样同样可以显示所有重置次数和对应到期时间。&lt;/p&gt;
-&lt;p&gt;#macOS 版 需要安装 jq，如果没有安装可以 brew install jq 安装&lt;/p&gt;
-&lt;pre&gt;AUTH="${CODEX_HOME:-$HOME/.codex}/auth.json"
-curl -sS 'https://chatgpt.com/backend-api/wham/rate-limit-reset-credits' \
-  -H "Authorization: Bearer $(jq -r '.tokens.access_token' "$AUTH")" \
-  -H 'originator: Codex Desktop' \
-  -H 'OAI-Product-Sku: CODEX' \
-  -H 'Accept: application/json' \
-  | jq -r '
-    "可用重置数量: \(.available_count)",
-    (.credits[]? | select((.status // "" | ascii_downcase) == "available") |
-    "到期时间 (UTC): \(.expires_at) | 本地时间: \(.expires_at | fromdateiso8601 | strftime("%Y-%m-%d %H:%M:%S"))")
-  '&lt;/pre&gt;
-&lt;p&gt;#Windows PowerShell 版&lt;/p&gt;
-&lt;pre&gt;$authPath = "$env:USERPROFILE\.codex\auth.json"
-if (-not (Test-Path $authPath)) {
-    Write-Host "未找到 auth.json 文件，请确认 Codex 已登录" -ForegroundColor Red
-    exit
-}
-$auth = Get-Content $authPath | ConvertFrom-Json
-$headers = @{
-    Authorization     = "Bearer $($auth.tokens.access_token)"
-    originator        = "Codex Desktop"
-    "OAI-Product-Sku" = "CODEX"
-    Accept            = "application/json"
-}
-try {
-    $response = Invoke-RestMethod `
-        -Uri "https://chatgpt.com/backend-api/wham/rate-limit-reset-credits" `
-        -Headers $headers `
-        -Method Get
-    Write-Host "可用重置数量: $($response.available_count)" -ForegroundColor Green
-    $availableCredits = $response.credits | Where-Object { $_.status -eq "available" }
-    if ($availableCredits) {
-        $availableCredits | ForEach-Object {
-            $expireUtc = [datetime]::Parse($_.expires_at)
-            $expireLocal = $expireUtc.ToLocalTime()
-            Write-Host "到期时间 (本地): $($expireLocal.ToString('yyyy-MM-dd HH:mm:ss'))" -ForegroundColor Yellow
-        }
-    } else {
-        Write-Host "当前没有可用的重置次数" -ForegroundColor Gray
-    }
-}
-catch {
-    Write-Host "查询失败: $($_.Exception.Message)" -ForegroundColor Red
-}&lt;/pre&gt;
+&lt;p&gt;需要强调的是被剥离的游戏工作室将脱离微软的掌控，这些游戏工作室未来可能会继续与微软合作，当然工作室也可以选择与其他游戏平台合作，毕竟剥离后已经是自由身。这些游戏工作室本来就是微软收购的，所以现在剥离其实就是原本的创始人花钱从微软手里重新买回工作室，这对工作室来说可能不是坏事。&lt;/p&gt;
+&lt;p&gt;Double Fine，该工作室是微软在 2019 年收购的，现在将由其原创始人蒂姆谢弗买回并独立运营；Compulsion Games 是加拿大蒙特利尔的游戏工作室，现在将由其原创始人吉约姆普罗沃斯特买回并独立运营；Ninja Theory 是英国游戏工作室，代表作是地狱之刃系列，该工作室将被微软出售；腐烂国度系列游戏的开发商 Undead Labs 也将被微软出售，确保腐烂国度系列可以继续开发。&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 06 Jul 2026 03:30:30 +0000</pubDate></item><item><title>微软使用GDID设备标识符追踪黑客 除非重装系统否则GDID不会变 可收集网络活动</title><link>https://www.landian.news/archives/113792.html</link><description>
-&lt;p&gt;#行业资讯 微软使用 GDID 设备标识符帮助执法机构追踪黑客，除非重装系统否则 GDID 就不会改变，而微软可以通过 GDID 持续追踪用户网络活动。7 月 1 日 19 岁的黑客彼得斯托克斯被从芬兰引渡到美国受审，美国司法部公开的文件显示，微软的 GDID 帮助执法机构识别黑客。微软通过 GDID 可以关联到：精确的网页浏览活动与时间戳、IP 地址历史、整体互联网使用模式，目前 GDID 问题已经引起安全社区的广泛关注。查看全文：https://ourl.co/113792&lt;/p&gt;&lt;p&gt;2026 年 7 月 1 日，美国司法部与美国联邦调查局宣布 19 岁的美国 / 爱沙尼亚籍黑客彼得斯托克斯已经从芬兰引渡到美国，将在芝加哥联邦法院受审。斯托克斯被指控参与臭名昭著的黑客集团「散乱蜘蛛」并参与多起网络攻击，斯托克斯在 4 月 10 日准备从芬兰赫尔辛基机场前往日本时被逮捕，当时美国已经发出国际通缉令。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113792.png" rel="nofollow"&gt;&lt;img alt="微软使用GDID设备标识符追踪黑客 除非重装系统否则GDID不会变 可收集网络活动" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113792.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 07 Jul 2026 01:00:01 +0000</pubDate></item><item><title>Windows 11新问题会耗尽磁盘空间 单个文件可能高达513GB 微软正在修复中</title><link>https://www.landian.news/archives/113797.html</link><description>
+&lt;p&gt;#系统资讯 Windows 11 新问题会直接耗尽整个磁盘空间，单个数据库文件会膨胀到 513GB，微软正在修复中。具体来说该问题是 CAM 功能访问管理器产生的日志，正常情况下日志应该只有几 MB，但 BUG 会导致日志文件持续膨胀，目前微软已经承认该问题并发布可选更新进行修复。查看全文：https://ourl.co/113797&lt;/p&gt;&lt;p&gt;如果你的 Windows 11 系统盘存储空间会被快速耗尽但找不到原因，或许是受最新 BUG 影响，这个问题是系统本身的问题，系统创建的数据库日志文件会持续膨胀，最高可能会占用超过 500GB 的存储空间，而存储感知里会显示系统和保留类别的占用异常飙升。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;目前在安全社区的讨论中，大家对微软使用 GDID 标识符帮助执法机构识别黑客的讨论热度最高，在美国司法部公布的文件里明确提到微软使用 GDID 持久化 Windows 设备标识符识别黑客，GDID 指的是微软全局设备标识符，这是 Windows 系统在安装时生成的唯一标识符，除非彻底擦除并重装系统，否则标识符将保持不变。&lt;/p&gt;
-&lt;p&gt;GDID 可以通过遥测系统和 Azure 监控日志系统上报设备活动，具体来说微软可能可以根据 GDID 关联到标识符下的：精确网页浏览活动与时间戳、IP 地址历史 (即便使用 VPN 也可以继续)、整体互联网使用模式。&lt;strong&gt;(注意：此内容目前存在争议，因为还无法确定微软到底能收集哪些数据)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;早在 2022 年微软就已经识别到斯托克斯，GDID 将同一台 Windows 设备在爱沙尼亚、纽约、泰国等多地的活动与犯罪时间线精确匹配，即便黑客在入侵期间使用 VPN 或移动到其他地方，设备指纹仍然可以精确识别并持续跟踪。到 2024 年 10 月微软可以精确识别斯托克斯，至此归因彻底完成。&lt;/p&gt;
-&lt;p&gt;微软在公开的 MSDN 文档中极少提及 GDID 标识符，这个标识符主要为微软内部使用，这也体现 Windows 生态中设备级遥测的强大归因能力，所以关注网络安全的社交账号 vx-underground 表示是 Windows 出卖了斯托克斯。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; 此案件接下来可能会引起社区对 GDID 的大范围讨论：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;很多专业用户甚至网络安全研究领域的人士此前都不知道 GDID 标识符的存在，更不知道微软竟然可以通过 GDID 对特定 Windows 设备进行持久化跟踪。彼得斯托克斯案可能是首次大规模公开 Windows 设备级遥测能力在真实执法场景中的强大能力，这既是归因技术的胜利，也是一面镜子 --- 这提醒我们在享受数字化便利的同时，设备指纹和数据收集边界正在被重新定义。&lt;/p&gt;
-&lt;p&gt;值得注意的是在社区讨论中还有关注安全的社交账号称微软还会通过 TPM 可信平台芯片进行追踪，这意味着即便用户完全擦除硬盘和重装系统，只要没有更换 TPM 芯片也依然会被追踪，因此无论用户使用 VPN 还是 Tor 都无济于事，至少对于微软来说想要追踪应该还是可以实现的。不过关于基于 TPM 的追踪目前没有公开文档确认。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://www.landian.news/go?url=https://x.com/vxunderground/status/2073427396535963967" rel="noopener" target="_blank"&gt;vx-underground&lt;/a&gt;、&lt;a href="https://www.landian.news/go?url=https://x.com/vxunderground/status/2073428555812258047?s=20" rel="noopener" target="_blank"&gt;DOJ&lt;/a&gt;、&lt;a href="https://www.landian.news/go?url=https://x.com/shotgunner101/status/2073517760685195463" rel="noopener" target="_blank"&gt;shotgunner101&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;出现问题的是名为功能访问管理器的服务项 (Capability Access Manager)，该服务用于记录应用权限，例如调用摄像头、麦克风、位置、屏幕捕获等日志文件，正常情况下日志数据库仅为几 MB，但部分用户遇到这个日志文件膨胀到 70GB~200GB，极端的案例是数据库文件膨胀到 513GB。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113797.png" rel="nofollow"&gt;&lt;img alt="Windows 11新问题会耗尽磁盘空间 单个文件可能高达513GB 微软正在修复中" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113797.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;该问题主要影响 Windows 11 24H2/25H2 版，问题表现是系统盘空间在没有明显操作的情况下被悄无声息得吞噬，异常的数据库日志文件位于：&lt;/p&gt;
+&lt;pre&gt;C:\ProgramData\Microsoft\Windows\CapabilityAccessManager\CapabilityAccessManager.db-wal&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;转到 Windows 11 设置、系统、存储、本地磁盘、显示更多类别、系统和保留，如果系统文件和保留的存储异常高，则说明你的系统可能受影响，这个时候可以去检查日志文件体积，但本身 db-wal 所在目录已经被权限锁定无法直接查看，所以我们需要使用管理员模式的命令提示符。&lt;/p&gt;
+&lt;pre&gt;robocopy "C:\ProgramData\Microsoft\Windows\CapabilityAccessManager" "%TEMP%\CAMCheck" /L /B /R:0 /W:0 /NP&lt;/pre&gt;
+&lt;p&gt;正常情况下数据库日志文件应该只有几 MB，例如在蓝点网的测试机上这个文件只有 1.41MB 说明我们并未受影响，如果你的检测结果显示的是 GB 级别那就是受影响。不过说起来暂时没有比较好的解决办法，通常不建议直接删除文件，除非系统空间已经不足，所以直接安装最新的可选更新是个好办法。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;微软已经在 KB5095093 号预览更新中修复这个问题，微软称此更新改进 CAM 文件磁盘空间使用情况，该更新包含的错误修复将在下周发布的 B 类稳定版更新中面向所有用户推送，而已经遇到问题的用户则可以提前安装预览版更新来解决问题。&lt;/p&gt;
+&lt;p&gt;用户只需要转到系统更新里多点击几次检查更新，正常情况下应该会看到 KB5095093 号预览版更新(也可以&lt;a href="https://www.landian.news/go?url=https://catalog.update.microsoft.com/Search.aspx?q=KB5095093" rel="noopener" target="_blank"&gt;点击这里&lt;/a&gt;下载该更新的离线安装文件)，按照正常流程安装并重启系统即可，安装后 CAM 数据库文件应该可以自动清理并回到正常的大小。&lt;/p&gt;
+&lt;p&gt;如果安装更新后仍然无效，则可以考虑打开系统服务，找到 Capability Access Manager Service 服务并将其禁用，禁用后或许也可以阻止数据库文件膨胀。&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 06 Jul 2026 03:00:32 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 07 Jul 2026 00:30:00 +0000</pubDate></item></channel></rss>
