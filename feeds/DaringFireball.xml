@@ -41,13 +41,13 @@
 &lt;p&gt;随着新的 Creator Studio 套件推出，苹果在很大程度上（对于某些应用则是完全）&lt;a href="https://daringfireball.net/2026/01/thoughts_and_observations_regarding_apple_creator_studio"&gt;移除了其自有应用图标中具有语义含义的插图&lt;/a&gt;。唯一剩下用以区分它们的是圆角方形内简陋涂鸦的颜色。 &lt;a href="https://daringfireball.net/#fnr1-2026-07-06" title="跳回正文脚注1。"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-</description><pubDate>Mon, 06 Jul 2026 22:23:46 +0000</pubDate></item><item><title>Markdown 现在在苹果版本 27 的操作系统中拥有 UTI。</title><link>https://developer.apple.com/documentation/uniformtypeidentifiers/uttype-swift.struct/markdown</link><description>&lt;p&gt;苹果今日发布了其27个操作系统的第三个开发者测试版，而苹果开发者文档中的这一新页面引起了我的注意——一个用于Markdown数据的内置统一类型标识符：&lt;/p&gt;
+</description><pubDate>Mon, 06 Jul 2026 22:23:46 +0000</pubDate></item><item><title>Markdown 现在在苹果的 27 版本操作系统中拥有统一类型标识符 (UTI)。</title><link>https://developer.apple.com/documentation/uniformtypeidentifiers/uttype-swift.struct/markdown</link><description>&lt;p&gt;苹果公司今天发布了其27个操作系统的第三个开发者测试版，而苹果开发者文档中的这一新页面引起了我的注意——Markdown数据的内置统一类型标识符：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;统一类型标识符：&lt;/strong&gt;&lt;code&gt;net.daringfireball.markdown&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;UTI：&lt;/strong&gt;&lt;code&gt;net.daringfireball.markdown&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;符合标准：&lt;/strong&gt;&lt;code&gt;public.utf8-plain-text&lt;/code&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;我之前曾建议使用&lt;code&gt;public.plain-text&lt;/code&gt;作为符合标准，但指出文本编码应为UTF-8。我已将&lt;a href="https://daringfireball.net/linked/2011/08/05/markdown-uti"&gt;我自己的建议&lt;/a&gt;更新为&lt;code&gt;public.utf8-plain-text&lt;/code&gt;，以确立UTF-8编码的地位。（早在2004年，UTF-8支持远未普及，而今天已是常态。）&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/07/06/markdown-uti-os-27" title="Markdown现已在苹果的版本27操作系统中拥有统一类型标识符的永久链接"&gt; ★ &lt;/a&gt;
+&lt;p&gt;我之前曾建议使用&lt;code&gt;public.plain-text&lt;/code&gt;，但指出文本编码应为UTF-8。现已将&lt;a href="https://daringfireball.net/linked/2011/08/05/markdown-uti"&gt;我自己的推荐&lt;/a&gt;更新为&lt;code&gt;public.utf8-plain-text&lt;/code&gt;，以明确固化UTF-8编码。（早在2004年，UTF-8支持远未普及，而如今已成常态。）&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/07/06/markdown-uti-os-27" title="转到‘Markdown在苹果版本27操作系统中现拥有统一类型标识符（UTI）’的永久链接"&gt; ★ &lt;/a&gt;
 </description><pubDate>Mon, 06 Jul 2026 20:38:43 +0000</pubDate></item><item><title>Backblaze 对比 Dropbox</title><link>https://mjtsai.com/blog/2025/12/19/backblaze-no-longer-backs-up-dropbox/</link><description>&lt;p&gt;在过去一年里，人们对Backblaze——一项在线备份服务，其简单宣传是备份你的整个电脑，包括启动盘&lt;em&gt;和&lt;/em&gt;外置硬盘——以及像iCloud Drive、Dropbox、Google Drive和Microsoft OneDrive这样的在线文件存储服务产生了大量（合理的）担忧和惊愕。Backblaze停止了将这些服务的内容包含在其备份中。Michael Tsai（一如既往地）收集了&lt;a href="https://mjtsai.com/blog/2025/12/19/backblaze-no-longer-backs-up-dropbox/"&gt;一长串关于此事的链接&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;整件事复杂又令人困惑。我认为基本要点是，Backblaze已经停止尝试备份这些服务的内容，因为有时文件并不真的存在于你的本地文件系统上，但它们看起来又好像在那里。这就是我今天早些时候关于Maestral那篇文章里所指的，涉及苹果现代File Provider API的情况。你知道有时候在iCloud Drive——或者Dropbox、OneDrive或其他可能使用这些API的服务中——你可以在Finder中看到一个文件或文件夹，但旁边有一个“云”图标，你必须点击云图标才能实际下载它吗？就是那样。&lt;/p&gt;
 &lt;p&gt;使用Maestral时，这些都不会发生。Maestral只是让本地电脑上的一个文件夹与你的Dropbox账户内容保持同步。就像当年原始的Dropbox第一方应用一样。所以如果你使用Maestral，Backblaze&lt;em&gt;确实&lt;/em&gt;会备份你的Dropbox文件夹，因为你的Dropbox文件夹就是一个普通文件夹（虽然可能很大）。它不是魔法文件夹。就是一个普通文件夹。而Maestral软件会保持其内容同步。而对于使用苹果File Provider API的软件——实际上包括iCloud Drive——用户看到的是魔法文件夹，而且这种魔法没有文档说明。&lt;/p&gt;
