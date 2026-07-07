@@ -16,7 +16,7 @@
 &lt;p&gt;#人工智能 腾讯开源模型混元 HY3 在 OpenRouter 平台显示免费调用，在 7 月 21 日前都可以无限用。当然免费用在高峰期时可能会比较慢，但这应该不是大问题。有兴趣的用户也可以购买腾讯云 TokenPlan 订阅使用 HY3，或通过腾讯云 API 进行调用，价格还是很便宜的。查看全文：https://ourl.co/113804&lt;/p&gt;&lt;p&gt;本周腾讯混元团队推出最新开源模型 HY3，该模型基于 Apache 2.0 许可证完全开源发布，从基准测试来看整体能力应该与 GLM 5.1 类似。开源模型的好处就是社区所有人都可以参与进来，所以现在 NovitaAI 公司在 OpenRouter 平台提供混元模型的免费调用，此次活动有效期至 2026 年 7 月 21 日。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113804-1.png" rel="nofollow"&gt;&lt;img alt="腾讯开源模型混元HY3在OpenRouter限时免费调用 有效期至7月21日" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113804-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这是腾讯开发的总参数规模 295B 的开源模型，采用 MoE 混合专家架构，其中激活参数为 21B、采用 192 哥专家和 Top-8 路由机制，该模型专门为推理、智能体工作流以及实际生产环境应用而设计。&lt;/p&gt;
+&lt;p&gt;这是腾讯开发的总参数规模 295B 的开源模型，采用 MoE 混合专家架构，其中激活参数为 21B、采用 192 个专家和 Top-8 路由机制，该模型专门为推理、智能体工作流以及实际生产环境应用而设计。&lt;/p&gt;
 &lt;p&gt;该模型支持可配置的推理强度：默认采用直接无思考模式提供更快的响应速度，也提供低强度和高强度思维链模式，以应对复杂的数学、编程和多步骤推理问题。HY3 模型的窗口长度为 256K，针对长时域任务进行优化，包括提升指代消解能力、多轮约束跟踪、跨不同智能体框架稳定工作的工具调用能力等。&lt;/p&gt;
 &lt;p&gt;腾讯将 HY3 模型定位为编码、文档处理、金融分析、游戏开发和前端设计等领域可靠且高性价比的选择，腾讯还强调 HY3 基于事实、反幻觉的行为风格：当有充分依据时才会给出答案，在证据不足时会明确标记说明，而不是随意捏造内容。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
