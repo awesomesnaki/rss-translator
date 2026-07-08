@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 07 Jul 2026 15:22:26 +0000</lastBuildDate><item><title>OS 27 开发者测试版 3 为 Siri 的新声音启用了新的“语速”和“表现力”滑块。</title><link>https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/</link><description>&lt;p&gt;莎拉·佩雷斯为TechCrunch撰稿：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Wed, 08 Jul 2026 14:36:57 +0000</lastBuildDate><item><title>来自原始Macintosh的应用图标惯例</title><link>https://leancrew.com/all-this/2026/07/old-icons/</link><description>&lt;p&gt;德朗博士在一篇充斥着初代Macintosh流行应用图标示例的博文中，谈到它们单色像素的辉煌时代：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;你可以看到，苹果喜欢将应用图标设计成倾斜的矩形，矩形内部放置一些图像来指示应用的功能。手掌是苹果用来告诉你这个图标代表“操作”的方式，而矩形则倾斜以配合手掌的方向。（如果你是左撇子，这不过是残酷的右撇子世界强加给你的又一种不公。）&lt;/p&gt;
+&lt;p&gt;文档图标通常是直立的矩形，带有折角，矩形内部有类似的设计——没有手掌，因为文档不会执行任何操作。但我们今天要谈的不是文档图标。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我从未喜欢过这些图标上的手掌。感觉太千篇一律了。它就像一个“这是应用程序”的徽章，但我从不觉得这种徽章有必要存在。但它太普遍了，以至于我几乎视而不见，现在回想起来，反而带着一丝怀旧的温暖。不过，从一开始，TeachText就没有手掌——只有一支铅笔。这是System 1.0的截图：&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://daringfireball.net/misc/2026/06/system-1-teachtext-font_mover.png"&gt;
+&lt;img alt="Screenshot from Macintosh System 1.0 (1984), showing the icons for the TeachText and Font Mover applications in the Finder." referrerpolicy="no-referrer" src="https://daringfireball.net/misc/2026/06/system-1-teachtext-font_mover.png" width="300"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;那个TeachText图标预示了&lt;a href="https://old.reddit.com/r/mac/comments/v6ylwz/does_anyone_recall_this_old_textedit_icon_mac/"&gt;优秀图标设计的未来&lt;/a&gt;。一年后，更名为并扩展功能（现在除了字体外还能移动桌面配件）的Font/DA Mover去掉了手掌，变成了一辆有趣的卡车（同样预示了&lt;a href="https://www.macosicongallery.com/icons/transmit-2013-07-08/"&gt;未来伟大的图标&lt;/a&gt;）：&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://daringfireball.net/misc/2026/06/system-2-teachtext-font_da_mover.png"&gt;
+&lt;img alt="Screenshot from Macintosh System 2.0 (1985), showing the icons for the TeachText and (renamed and expanded) Font/DA Mover applications in the Finder." referrerpolicy="no-referrer" src="https://daringfireball.net/misc/2026/06/system-2-teachtext-font_da_mover.png" width="300"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;（在那个原始年代，有太多细小的东西仍在变化。注意System 1的Finder窗口状态栏标题中的粗体文字。不过看起来有点酷。但日内瓦字体中的单层“a”——那就不对了，让我起鸡皮疙瘩。）&lt;/p&gt;
+&lt;p&gt;德朗继续说道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;其他发行商要么放弃了手掌，要么放弃了倾斜矩形，或者两者都放弃了。随着人们越来越习惯使用Mac，这些区分应用与非应用的线索变得不再必要，图标设计也变得更加自由。即使是苹果，也在Disk First Aid和Font/DA Mover等实用工具中放弃了它们。&lt;/p&gt;
+&lt;/blockquote&gt;&lt;p&gt;我认为与其说是苹果放弃了它们，不如说人们逐渐意识到，“手执笔放在菱形文档上”的惯例原本是为基于文档的应用程序设计的。它表示“&lt;em&gt;这是一种你用来创建文档的创意工具&lt;/em&gt;”。那些并非用于创建文档文件的应用——比如磁盘急救和字体/DA移动器——则使用了不同的图标。系统2中字体/DA移动器的卡车图标表示你使用这个工具来移动东西。磁盘急救的救护车则明显是修复故障的隐喻。移动和修复与创建的目的截然不同。系统1中的字体移动器图标虽然只是微妙地暗示，但错误地表明了它是一种用于创建某种与字体相关的文档文件的工具。&lt;/p&gt;
+&lt;p&gt;但关于“手执笔放在菱形上”这一惯例的关键在于，它仅仅是一种&lt;em&gt;惯例&lt;/em&gt;。如果苹果对圆角方形的痴迷仅仅是一种惯例，那么第三方开发者完全可以忽略它。有些惯例只是短暂的风潮——它们来得快去得也快。有些则是持久的长期趋势。但那些被证明不仅仅是短暂风潮的惯例，是靠其内在价值在思想市场中胜出的。用“圆角方形监狱”来强制推行圆角方形并不会让它们成为一个成功的理念。这就像是在声称赢得了选举，&lt;a href="https://en.wikipedia.org/wiki/Electoral_history_of_Vladimir_Putin"&gt;却不让可信的对手出现在选票上&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;（此外，我完全同意&lt;a href="https://leancrew.com/all-this/2026/07/old-icons/"&gt;Drang&lt;/a&gt;关于那个时代我最喜欢的应用图标的看法。它如此完美、如此有趣，但却难以言喻它&lt;em&gt;为什么&lt;/em&gt;如此完美。）&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/07/08/app-icon-conventions-from-the-original-macintosh" title="Permanent link to ‘App Icon Conventions From the Original Macintosh’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Wed, 08 Jul 2026 14:36:57 +0000</pubDate></item><item><title>[赞助商] WorkOS Pipes：更多上下文打造更智能的产品</title><link>https://workos.com/pipes?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q32026</link><description>&lt;p&gt;用户期望应用和代理能够连接他们已经在使用的工具。每一次实现这种连接的集成都意味着不同的OAuth流程、不同的令牌生命周期，以及在你编写一行产品代码之前需要花费数周的基础设施工作。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://workos.com/pipes?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q32026"&gt;WorkOS Pipes 通过一个API调用即可处理这一切&lt;/a&gt;。它提供了针对GitHub、Slack、Salesforce、Google Drive等平台的预建连接器。Pipes处理OAuth、令牌刷新和凭据存储。每次你都使用新令牌调用真实的供应商API。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://workos.com/pipes?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q32026"&gt;连接100+服务提供商 →&lt;/a&gt;&lt;/p&gt;
+&lt;a href="https://daringfireball.net/feeds/sponsors/2026/07/workos_pipes_more_context_make" title="固定链接至‘WorkOS Pipes：更多背景信息打造更智能的产品’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Wed, 08 Jul 2026 14:15:28 +0000</pubDate></item><item><title>OS 27 开发者测试版 3 为 Siri 的新声音启用了新的“语速”和“表现力”滑块。</title><link>https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/</link><description>&lt;p&gt;莎拉·佩雷斯为TechCrunch撰稿：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;随着最新的iOS 27开发者测试版发布，苹果让测试人员提前一睹其&lt;a href="https://techcrunch.com/2026/06/08/apples-long-awaited-ai-siri-overhaul-is-finally-here/"&gt;AI增强版Siri&lt;/a&gt;即将推出的改进之一：调整AI助手说话速度和表现力程度的能力。在今天发布的iOS 27 Beta 3中，苹果启用了此前在首个开发者测试版中标注为“即将推出”的“语速”和“表现力”语音控制功能。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -48,24 +71,4 @@
 &lt;/blockquote&gt;
 &lt;p&gt;我之前曾建议使用&lt;code&gt;public.plain-text&lt;/code&gt;，但指出文本编码应为UTF-8。现已将&lt;a href="https://daringfireball.net/linked/2011/08/05/markdown-uti"&gt;我自己的推荐&lt;/a&gt;更新为&lt;code&gt;public.utf8-plain-text&lt;/code&gt;，以明确固化UTF-8编码。（早在2004年，UTF-8支持远未普及，而如今已成常态。）&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/07/06/markdown-uti-os-27" title="转到‘Markdown在苹果版本27操作系统中现拥有统一类型标识符（UTI）’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 06 Jul 2026 20:38:43 +0000</pubDate></item><item><title>Backblaze 对比 Dropbox</title><link>https://mjtsai.com/blog/2025/12/19/backblaze-no-longer-backs-up-dropbox/</link><description>&lt;p&gt;在过去一年里，人们对Backblaze——一项在线备份服务，其简单宣传是备份你的整个电脑，包括启动盘&lt;em&gt;和&lt;/em&gt;外置硬盘——以及像iCloud Drive、Dropbox、Google Drive和Microsoft OneDrive这样的在线文件存储服务产生了大量（合理的）担忧和惊愕。Backblaze停止了将这些服务的内容包含在其备份中。Michael Tsai（一如既往地）收集了&lt;a href="https://mjtsai.com/blog/2025/12/19/backblaze-no-longer-backs-up-dropbox/"&gt;一长串关于此事的链接&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;整件事复杂又令人困惑。我认为基本要点是，Backblaze已经停止尝试备份这些服务的内容，因为有时文件并不真的存在于你的本地文件系统上，但它们看起来又好像在那里。这就是我今天早些时候关于Maestral那篇文章里所指的，涉及苹果现代File Provider API的情况。你知道有时候在iCloud Drive——或者Dropbox、OneDrive或其他可能使用这些API的服务中——你可以在Finder中看到一个文件或文件夹，但旁边有一个“云”图标，你必须点击云图标才能实际下载它吗？就是那样。&lt;/p&gt;
-&lt;p&gt;使用Maestral时，这些都不会发生。Maestral只是让本地电脑上的一个文件夹与你的Dropbox账户内容保持同步。就像当年原始的Dropbox第一方应用一样。所以如果你使用Maestral，Backblaze&lt;em&gt;确实&lt;/em&gt;会备份你的Dropbox文件夹，因为你的Dropbox文件夹就是一个普通文件夹（虽然可能很大）。它不是魔法文件夹。就是一个普通文件夹。而Maestral软件会保持其内容同步。而对于使用苹果File Provider API的软件——实际上包括iCloud Drive——用户看到的是魔法文件夹，而且这种魔法没有文档说明。&lt;/p&gt;
-&lt;p&gt;现在，事实证明Dropbox自家的第一方Mac客户端仍然有一种可用的模式，不使用File Provider API。一些使用这种老派模式的人报告说Backblaze仍然备份他们的Dropbox文件夹。另一些人说不会。就像我说的，这一切都很令人困惑、复杂且各方都缺乏文档说明。我宁愿不去担心它。而通过Maestral，我一直不必担心。当Maestral停止工作时，我可能就要开始担心了。&lt;/p&gt;
-&lt;p&gt;Tsai链接的第一个条目是&lt;a href="https://talk.tidbits.com/t/warning-backblaze-now-ignoring-dropbox-google-drive-onedrive-icloud-drive-etc/32529"&gt;Rob Halliday在备受尊敬的TidBITS-Talk论坛上发的这个帖子&lt;/a&gt;。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/07/06/backblaze-versus-dropbox" title="Permanent link to ‘Backblaze Versus Dropbox’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 06 Jul 2026 18:34:38 +0000</pubDate></item><item><title>艾伦·派克，去年十一月：‘为什么ChatGPT for Mac如此出色？’</title><link>https://allenpike.com/2025/why-is-chatgpt-so-good-claude/</link><description>&lt;p&gt;艾伦·派克，去年十一月（及对应&lt;a href="https://news.ycombinator.com/item?id=46105896"&gt;Hacker News 讨论帖&lt;/a&gt;）：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;尽管如此，我仍不会排除这里出现转向的可能性。虽然移动端占据主导地位，但桌面端仍是工作发生的地方。当 OpenAI &lt;a href="https://techcrunch.com/2025/10/23/openai-buys-sky-an-ai-interface-for-mac/"&gt;收购 Sky&lt;/a&gt; 以加大桌面端投入时，谷歌却始终全力押注浏览器。这使得 Anthropic 成为桌面端的挑战者，其最新模型亟待与精心设计的应用相结合。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;几个月前，谷歌为 Mac 推出了原生的 Gemini 应用。一个月前，&lt;a href="https://daringfireball.net/linked/2026/06/04/google-gemini-mac"&gt;我写道为何它并不出色，且令人恼火地自以为是&lt;/a&gt;。几乎所有优秀的 Mac 应用都是原生的；但不是所有原生 Mac 应用都是优秀的。&lt;/p&gt;
-&lt;p&gt;让我持续使用 ChatGPT 而避开 Claude 的原因，并非 ChatGPT 恰好使用了 AppKit 这样的原生 API 编写，而在于它的外观和感觉像一款 Mac 应用——你知道，它的设置窗口……是一个窗口。更关键的是，它拥有诸如能将聊天内容附加到 BBEdit 或 Notes 中打开的文档上这样非常酷的功能。当 ChatGPT 附加到另一应用中的开放文档时，这并非附加时刻的静态快照（就像通过复制粘贴整个内容到聊天中，或拖动当前版本文件到聊天中所得到的那样）。它是一个实时的持续附加，因此当被附加的文档/笔记发生变化时，ChatGPT 能感知到这些变化。这是个绝佳的功能，我认为它只存在于 Mac 平台，在 iOS 上&lt;em&gt;不可能&lt;/em&gt;存在——因为 iOS 的&lt;a href="https://daringfireball.net/linked/2024/01/03/unknown-items-in-icloud-photos"&gt;幼儿园剪刀式设计&lt;/a&gt;，不允许应用间通信。&lt;/p&gt;
-&lt;p&gt;不过，&lt;a href="https://daringfireball.net/linked/2026/03/24/openai-superapp"&gt;我担忧&lt;/a&gt; ChatGPT 的&lt;a href="https://daringfireball.net/2026/04/openai_future"&gt;未来&lt;/a&gt;。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;尽管 Anthropic 可能通过推出原生 Mac 应用让所有人吃惊，但我对此持怀疑态度。他们有很大的提升空间，只需在做好 Electron 应用上投资，在需要时融入原生代码片段，并沿着从“外壳中的网站”到“恰好使用网络技术的优秀应用”的路径逐步攀登。&lt;/p&gt;
-&lt;p&gt;正如 ChatGPT 出人意料的成功让 OpenAI 意识到以产品为中心的机会，Claude Code 的突然走红或许会让 Anthropic 重视投资于愉悦工具的重要性。去年他们&lt;a href="https://www.anthropic.com/news/mike-krieger-joins-anthropic"&gt;邀请 Mike Krieger 担任首席产品官&lt;/a&gt;，如果有机会，他似乎完全能朝这个方向凝聚团队。&lt;/p&gt;
-&lt;/blockquote&gt;&lt;p&gt;我不知道克里格在那里做什么，但看起来他确实没有专注于创造令人愉悦的工具。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;另见：&lt;/strong&gt; &lt;a href="https://daringfireball.net/thetalkshow/2024/12/02/ep-415"&gt;2024年12月，艾伦·派克作为嘉宾参加了我的《脱口秀》&lt;/a&gt;，这一集主要讨论人工智能。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;更新：&lt;/strong&gt;我猜对了——克里格仍在Anthropic，但&lt;a href="https://www.theverge.com/ai-artificial-intelligence/861475/anthropic-ai-c-suite-internal-incubator-labs-team-mike-krieger"&gt;今年年初&lt;/a&gt;他辞去了首席产品官的职务，转而领导他们的“&lt;a href="https://www.anthropic.com/news/introducing-anthropic-labs"&gt;实验室&lt;/a&gt;”团队，负责开发新的产品实验。克里格在上周&lt;a href="https://www.youtube.com/live/I2cbIws9j10?t=4343s"&gt;的一次采访中&lt;/a&gt;简要谈到了这一角色转变，该采访是在“AI工程师世界博览会”会议上进行的。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/07/06/allen-pike-chatgpt" title="Permanent link to ‘Allen Pike, Back in November: ‘Why Is ChatGPT for Mac So Good?’’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 06 Jul 2026 17:37:05 +0000</pubDate></item></channel></rss>
+</description><pubDate>Mon, 06 Jul 2026 20:38:43 +0000</pubDate></item></channel></rss>
