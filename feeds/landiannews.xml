@@ -1,87 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 08 Jul 2026 02:00:44 +0000</lastBuildDate><item><title>如果你想在蒸汽机上安装Windows 11：V社发布新的图形/无线/蓝牙/读卡器驱动</title><link>https://www.landian.news/archives/113837.html</link><description>
-&lt;p&gt;#硬件设备 如果你想在 Steam Machine 上安装 Windows 11 的话：V 社发布适用于蒸汽机的 Windows 11 图形驱动、Wi-Fi 驱动、蓝牙驱动和读卡器驱动。需要特别强调的是目前不支持双系统，因为适用于双系统的 SteamOS 引导程序还未完成开发，所以要安装 Windows 11 就必须完全清除 SteamOS。查看全文：https://ourl.co/113837&lt;/p&gt;&lt;p&gt;Steam Machine 蒸汽机受到很多游戏玩家的欢迎，这款设备默认搭载的是开源的 SteamOS 系统，但如果用户愿意的话也可以安装 Windows 11 系统，V 社不会限制用户安装其他操作系统，这在发布蒸汽机时 V 社就已经强调不会封闭生态，所以用户可以根据自己喜好选择系统。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113602-1.png" rel="nofollow"&gt;&lt;img alt="如果你想在蒸汽机上安装Windows 11：V社发布新的图形/无线/蓝牙/读卡器驱动" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113602-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 08 Jul 2026 05:30:17 +0000</lastBuildDate><item><title>微信聊天记录解密和导出工具WeFlow收到版权通知 目前已经删除项目代码</title><link>https://www.landian.news/archives/113843.html</link><description>
+&lt;p&gt;#软件资讯 知名开源项目 WeFlow 收到 DMCA 通知后删除代码和安装包，该工具用于提取微信本地聊天记录解密密钥，帮助用户导出聊天记录备份。WeFlow 收到 GitHub 转发的 DMCA 通知，该通知由相关方委托国际律所 MSK 发送给 GitHub，目前完整通知内容尚未公开。查看全文：https://ourl.co/113843&lt;/p&gt;&lt;p&gt;知名开源项目 WeFlow 日前收到 DMCA 通知，随后为遵守法律要求开发者已经删除项目代码和所有已经编译的安装包，接下来这个项目应该是停止更新。这个项目在 GitHub 上获得 12.6K 星星，主要功能则是解密微信本地聊天记录数据库，帮助用户导出所有聊天记录并备份保存。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113843-1.png" rel="nofollow"&gt;&lt;img alt="微信聊天记录解密和导出工具WeFlow收到版权通知 目前已经删除项目代码" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113843-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;为方便用户在蒸汽机上安装并使用 Windows 11 系统，V 社现在已经发布适用于蒸汽机的图形驱动程序、Wi-Fi 驱动程序、蓝牙驱动程序和 SD 读卡器驱动程序，用户在安装 Windows 11 后需要单独下载这些驱动程序执行安装，因为蒸汽机可能无法直接从微软自动下载最佳的驱动程序。&lt;/p&gt;
-&lt;p&gt;下载地址：&lt;a href="https://www.landian.news/go?url=https://help.steampowered.com/en/faqs/view/6121-ECCD-D643-BAA8" rel="noopener" target="_blank"&gt;https://help.steampowered.com/en/faqs/view/6121-ECCD-D643-BAA8&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;蒸汽机硬件方面主要使用的是 AMD CPU 和 GPU，从硬件兼容性角度来说这是没什么问题的，不过 V 社和 AMD 也得提供经过优化调整的其他驱动程序帮助玩家获得更好的使用体验。只是对游戏玩家来说在蒸汽机上安装 Windows 11 可能是没什么必要的，否则还不如以更低的成本自己组迷你机或台式机。&lt;/p&gt;
+&lt;p&gt;项目开发者 @hicccc77 分享的图片显示，GitHub 收到来自国际律师事务所 MSK 发送的 DMCA 通知，该律师事务所受委托向 GitHub 提交 DMCA 通知，随后 GitHub 将 DMCA 通知转发给开发者，收到 DMCA 通知后基于合规问题，开发者已经删除项目代码和安装包，同时更新项目主页增加说明。&lt;/p&gt;
+&lt;p&gt;通常情况下 GitHub 在处理完 DMCA 通知后才会公布完整通知内容，截至本文发布时 GitHub DMCA 仓库中尚未看到通知内容，不过我们也可以大致猜测到通知内容，无非是相关数据受法律保护、未经授权获取本地解密密钥是侵权的等等。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113843-2.png" rel="nofollow"&gt;&lt;img alt="微信聊天记录解密和导出工具WeFlow收到版权通知 目前已经删除项目代码" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113843-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;需要特别说明的是如果你准备在蒸汽机上安装 Windows 11，则必须完全清除预装的 SteamOS 系统，至少目前蒸汽机不支持同时安装 Windows 11 + SteamOS。有这种情况是因为 V 社还未准备好支持双系统引导启动的 SteamOS 安装程序，后续 V 社完成引导程序的开发应该就可以支持双系统。&lt;/p&gt;
-&lt;p&gt;有趣的是从描述来看玩家安装 Windows 11 + 其他 Linux 发行版应该是没问题的，毕竟 V 社强调的是 SteamOS 双启动引导未准备好，其他支持双系统启动的 Linux 发行版肯定没问题，不过这还需要有兴趣的玩家自己测试。&lt;/p&gt;
+&lt;p&gt;根据某公司法务部门发来的长篇布道我们顿悟出伟大的法律哲学：你确实拥有你的数据，但你不能看它，因为装这些数据的那个精美的、由 456 个字段和 34 个类别组成的 SQLite 盒子，是神圣不可侵犯的。&lt;/p&gt;
+&lt;p&gt;为遵守美国数字千年版权法以及某公司长达数万字的用户服务协议，&lt;strong&gt;WeFlow 项目现在已进行史诗级合规重构：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;我们删除了什么？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;不再提取密钥： 我们深刻反省了获取本地解密密钥的恶劣行径。你的电脑是你的，但存在你电脑内存里的那串字符是神圣的。&lt;/p&gt;
+&lt;p&gt;不再解密数据库： 我们绝对不会再 “绕过技术保护措施”。请享受你的数据被锁在自己硬盘里的安全感。&lt;/p&gt;
+&lt;p&gt;不再干扰软件运行： 你发出的每一条消息，都将以最原汁原味、且你永远无法轻易导出的加密形态，静静地躺在那里。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;我们新增了什么？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;纯意念聊天记录导出功能：&lt;/strong&gt; 既然我们不能读取物理数据库，WeFlow 现在要求用户闭上眼睛，用意念回想昨天的聊天记录。绝对符合 TOS，100% 环保。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;薛定谔的数据浏览器：&lt;/strong&gt; 只要你不去读取它，你的聊天记录就同时处于存在和不存在的叠加态。WeFlow 现在是一个 UI 壳子，只接受用户自行手动破译后输入的 0 和 1。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://www.landian.news/go?url=https://github.com/hicccc77/WeFlow" rel="noopener" target="_blank"&gt;GitHub&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 08 Jul 2026 02:00:44 +0000</pubDate></item><item><title>开发者们颤抖吧！Claude Code 周限额提高50%活动将在7月14日结束</title><link>https://www.landian.news/archives/113836.html</link><description>
-&lt;p&gt;#人工智能 开发者们颤抖吧：Claude Code 周限额增加 50% 活动将在 7 月 14 日上午结束，目前 A 社并未宣布延长活动时间。该活动从 5 月 14 日开始，适用于所有 Claude 付费订阅用户，到期后开发者的直观体验就是 Claude Code 周限额只有原来的约 2/3 (相比活动期间减少 33.3%)，这意味着在实际使用时可能更容易触发周限额。查看全文：https://ourl.co/113836&lt;/p&gt;&lt;p&gt;2026 年 5 月 14 日，A 社宣布面向开发者推出临时活动，所有付费订阅层级（包括企业订阅）在 Claude Code 中的每周使用限额临时提高 50%，这个临时活动将在太平洋夏令时 7 月 13 日结束，也就是到下周所有订阅层级的周限额将恢复到原状，这意味着实际使用配额将会被缩减 33.3%。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113836.png" rel="nofollow"&gt;&lt;img alt="开发者们颤抖吧！Claude Code 周限额提高50%活动将在7月14日结束" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113836.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 08 Jul 2026 05:30:17 +0000</pubDate></item><item><title>诸多VPS商家临时停机升级内核修复KVM逃逸漏洞 未及时修复漏洞可能危害母鸡</title><link>https://www.landian.news/archives/113842.html</link><description>
+&lt;p&gt;#云计算 诸多 VPS 商家临时停机升级内核修复 KVM 逃逸漏洞，该漏洞可以从小鸡中逃逸提权并在母鸡上执行任意代码。目前蓝点网获悉多个业界知名的 VPS / 云服务器提供商安排时间非常短的临时停机计划来升级内核，这个过程基本不会有太大影响，不过如果用户的 VPS 运行着关键业务，建议联系商家获取准确的更新计划。查看全文：https://ourl.co/113842&lt;/p&gt;&lt;p&gt;本周安全研究人员公布 Linux Kernel CVE-2026-53359 漏洞 (该漏洞被称为 &lt;a href="https://www.landian.news/go?url=https://github.com/V4bel/Januscape" rel="noopener" target="_blank"&gt;Januscape&lt;/a&gt;)，这属于 KVM x86 架构中影子内存管理单元的释放后重用 (UAF) 漏洞，攻击者利用该漏洞可以从虚拟机中逃逸并在宿主机上以 Root 权限执行任意代码。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113842.png" rel="nofollow"&gt;&lt;img alt="诸多VPS商家临时停机升级内核修复KVM逃逸漏洞 未及时修复漏洞可能危害母鸡" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113842.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;该漏洞位于 Linux 内核且同时影响搭载英特尔和 AMD 处理器的 x86 系统，我们经常接触的各类 VPS 服务器通常底层都是使用英特尔或 AMD 的处理器，商家会在物理机 (母鸡) 上安装虚拟化系统，再分成多个小鸡来出售。现在的问题是在拥有小鸡 Root 权限的前提下，借助漏洞就有可能逃逸并直接在母鸡上执行命令。&lt;/p&gt;
+&lt;p&gt;假如黑客拿到母鸡权限那就可以获取这个节点上所有小鸡的数据，同时还可以对所有数据进行加密然后来勒索小鸡持有者或商家，&lt;a href="https://www.landian.news/archives/111679.html" rel="noopener" target="_blank"&gt;此前 CloudCone 被勒索软件感染&lt;/a&gt;，只不过当时黑客通过其他面板中的漏洞实现的攻击。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;目前蓝点网已经获悉多个业界知名的 VPS / 云服务器提供商安排临时停机计划升级内核，KVM 漏洞已经在 6 月中旬发布的 Linux 内核新版本中得到修复，对商家而言只需要将宿主机内核升级到最新版即可，所以整个修复过程其实也是非常顺畅的。&lt;/p&gt;
+&lt;p&gt;例如蓝点网使用的某个 VPS 服务器，商家在昨天夜里临时停机 5 分钟完成内核升级，升级期间节点上的所有 VPS 服务器临时下线，不过升级时间非常短所以也没产生比较严重的影响。&lt;/p&gt;
+&lt;p&gt;可能需要注意的问题是，部分用户使用的 VPS 是国外的，国外夜间时间与我们存在差异，所以有可能商家在当地时间夜里维护，但我们这里是白天，这就有可能会影响业务的运行，所以建议用户关注商家发布的公告或提交工单进行咨询。&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 08 Jul 2026 05:00:16 +0000</pubDate></item><item><title>虚拟号码服务Google Voice新增两项个人收费层级 开通后不会被收回号码</title><link>https://www.landian.news/archives/113841.html</link><description>
+&lt;p&gt;#软件资讯 谷歌虚拟运营商服务 Google Voice 面向个人推出两种收费层级，每月 10 美元起步，不会被回收号码。现在个人版分为基础版、Starter 版和标准版，基础版就是我们使用的免费版，Starter 版每月 10 美元，提供客户支持和三方通话等。标准版每月 20 美元，额外增加 AI 文本转录，可以录制通话内容并转文本。查看全文：https://ourl.co/113841&lt;/p&gt;&lt;p&gt;谷歌旗下虚拟运营商服务 Google Voice 日前面向美国用户推出两款个人套餐，如果用户有需要的话，开通付费套餐后可以获得更多增强功能以及可以确保号码不会被谷歌收回，即便长时间没有使用也不会被收回，只不过这种保号价格有些高，起步价每月 10 美元。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113841.png" rel="nofollow"&gt;&lt;img alt="虚拟号码服务Google Voice新增两项个人收费层级 开通后不会被收回号码" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113841.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;活动开始时间：2026 年 5 月 14 日 所有订阅用户将会自动调整配额 无需申请&lt;/li&gt;
-&lt;li&gt;美国东部时间：2026 年 7 月 13 日 21:00 (EDT)&lt;/li&gt;
-&lt;li&gt;太平洋夏令时：2026 年 7 月 13 日 18:00 (PDT)&lt;/li&gt;
-&lt;li&gt;格林尼治时间：2026 年 7 月 14 日 01:00 (GMT)&lt;/li&gt;
-&lt;li&gt;换算国内时间：2026 年 7 月 14 日 09:00 (CST)&lt;/li&gt;
+&lt;li&gt;Google Voice Basic：即大家使用的免费版，长时间未主动拨打电话或发送短信可能会被收回。&lt;/li&gt;
+&lt;li&gt;Google Voice Starter：每月 10 美元，该套餐增加谷歌客户支持、三方通话等功能，不会回收号码。&lt;/li&gt;
+&lt;li&gt;Google Voice Standard：每月 20 美元，额外增加 AI 文本转录功能，该功能支持录制通话音频。&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;限时优惠活动：标准版每月 20 美元，但用户初次开通可以享受 6 个月折扣，每月为 10 美元。折扣期结束后谷歌将按照标准定价也就是每月 20 美元的价格扣费，准备开通 Google Voice 付费套餐的用户可以仔细考虑下是否使用这些功能、订阅费是否值得。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这次调整主要影响的还是重度使用 Claude Code 的开发者，开发者可能已经习惯于原本额外增加的 50% 周额度用来编写代码、审阅项目或处理其他工作任务，如果继续按照当前习惯进行使用的话，那开发者可能更容易碰到触发周限额的问题，触发限额后要么升级到更贵的版本，例如 Claude Max 20x 版，要么只能等待额度恢复。&lt;/p&gt;
-&lt;p&gt;原本有开发者猜测 A 社可能会在活动到期后继续延长该活动，遗憾的是截至本文发布时，A 社并未宣布类似的延长政策，所以重度使用的开发者使用体验就类似于周限额被砍掉 33.3%。所以开发者可能需要关注日常用量，可以在设置的用量页面查看当前的 5 小时剩余配额和当周剩余配额，避免遇到重大任务必须依赖 Claude Code 执行操作时突然发现配额完全不够用。&lt;/p&gt;
+&lt;p&gt;20 美元的标准版订阅支持使用谷歌 Gemini 记录通话内容，在通话过程中用户可以点击备注按钮启动 AI 录音开始录制音频和转录为文本，为确保透明度和获得对方同意，通话参与者会收到语音提醒：本次通话正在被 AI 录音。&lt;/p&gt;
+&lt;p&gt;挂断电话后谷歌会立即生成转录后的通话内容文本并提供要点和待办事项摘要等，同时这些内容还会被发送到用户的绑定邮箱，确保所有重要信息不会遗漏和丢失。&lt;/p&gt;
+&lt;p&gt;该功能是这次 Google Voice 更新的重要功能，谷歌主要希望通过 AI 文本转录功能为小型商家提供支持，此前谷歌已经向基于 Workspace 订阅套餐的企业推出类似功能，现在个人用户也可以通过开通 20 美元的标准版来获得相同的功能。&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 08 Jul 2026 01:30:41 +0000</pubDate></item><item><title>Ubuntu 25.10版明天结束支持 建议用户升级到26.04 LTS版以继续接收安全更新</title><link>https://www.landian.news/archives/113835.html</link><description>
-&lt;p&gt;#系统资讯 Ubuntu 25.10 版将在明天结束支持，用户应当升级到 Ubuntu 26.04 LTS 版。25.10 版并非长期支持版，所以只有 9 个月支持周期，当然对桌面版用户来说这不是问题，因为滚动更新非常方便。在旧版本结束支持后将无法获得必要的安全更新，所以 Canonical 提醒用户该升级 26.04 版了。升级方法：https://ourl.co/113835&lt;/p&gt;&lt;p&gt;开源操作系统 Ubuntu 通常会以间隔形式发布 LTS 长期支持版和非长期支持版，长期支持版至少提供 5 年的安全更新支持，部分版本甚至可以获得长达 10 年的安全更新支持，而非长期支持版类似于滚动发布，这些版本的支持周期非常短，所以用户需要经常升级系统。&lt;/p&gt;
-&lt;p&gt;对于使用 Ubuntu 桌面版的用户来说是否使用长期支持版都没有太大区别，毕竟桌面环境可以频繁升级，而且滚动升级还可以获得最新功能，而在服务器等环境中使用则通常都是 LTS 长期支持版，避免经常升级系统造成潜在的兼容性问题。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/09/110499.png" rel="nofollow"&gt;&lt;img alt="Ubuntu 25.10版明天结束支持 建议用户升级到26.04 LTS版以继续接收安全更新" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/09/110499.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; Ubuntu 25.10 非长期支持版将在明天结束支持：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Ubuntu 25.10 版就是非长期支持版因此整体支持周期非常短，根据开发商 Canonical 公布的生命周期信息，该版本将在 2026 年 7 月 9 日结束支持，结束支持后仍然使用 25.10 版的用户将无法及时获得必要的安全更新，随着时间的推移，因无法安装安全更新而暴露的漏洞会越来越多，这会严重影响系统安全性。&lt;/p&gt;
-&lt;p&gt;因此 Canonical 也提醒使用 Ubuntu 25.10 版的用户尽快升级到 Ubuntu 26.04 LTS 版，升级后可以继续获得安全更新，又可以体验新版本带来的其他更新和功能，而且桌面用户很快就可以升级到后续版本。按照开发计划，Ubuntu 26.10 版将在 10 月前后发布，目前该版本已经在开发中。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; 升级 Ubuntu 26.04 LTS 也非常简单：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;对桌面版用户来说升级操作系统非常简单，只需要打开更新管理器并点击检查更新即可，启动更新后，更新程序将会自动下载 Ubuntu 26.04 LTS 版并安装。尽管这种小版本升级出现问题的概率非常低，但蓝点网仍然建议用户在升级前备份重要数据，然后预留半个小时左右执行升级，下载过程可能要花点时间，升级过程其实很快。&lt;/p&gt;
-&lt;p&gt;当然你也可以通过命令行方式升级，只需要打开终端并执行下面的升级脚本即可，执行命令时需要提权并输入账号密码进行确认，部分命令可能要按回车进行确认。&lt;/p&gt;
-&lt;pre&gt;# ==================== Ubuntu 25.10 升级到 26.04 LTS ====================
-# 强烈建议：先备份重要数据！（推荐使用 Timeshift 或手动备份 /home）
-
-echo "=== 步骤1: 更新当前系统到最新状态 ==="
-sudo apt update
-sudo apt full-upgrade -y
-sudo apt autoremove -y
-
-echo "=== 步骤2: 安装/更新升级工具 ==="
-sudo apt install update-manager-core -y
-
-echo "=== 步骤3: 检查并设置升级策略（允许升级到新版本） ==="
-# 如果文件不存在或需要修改，自动设置 Prompt=normal
-sudo sed -i 's/^Prompt=.*/Prompt=normal/' /etc/update-manager/release-upgrades 2&amp;gt;/dev/null || echo "Prompt=normal" | sudo tee -a /etc/update-manager/release-upgrades
-
-echo "=== 当前升级策略 ==="
-cat /etc/update-manager/release-upgrades
-
-echo "=== 步骤4: 开始升级到 Ubuntu 26.04 LTS ==="
-echo "升级过程会较长，请保持网络稳定和电源连接。"
-sudo do-release-upgrade
-
-# 如果提示“没有新版本”，可改用下面这行强制升级（现在通常不需要）：
-# sudo do-release-upgrade -d&lt;/pre&gt;
+</description><pubDate>Wed, 08 Jul 2026 04:00:11 +0000</pubDate></item><item><title>安全公司发布Android远程root漏洞 只需点击恶意URL即可自动完成root和提权</title><link>https://www.landian.news/archives/113840.html</link><description>
+&lt;p&gt;#安全资讯 安全公司 Nebula 发布 Android 远程 root 演示视频，只需点击恶意 URL 即可在不到 1 分钟内自动安装 su 二进制文件和获得持久化 root 权限。该漏洞利用 Firefox v151.0.2 及之前版本中存在的漏洞和 Linux 内核中存在的漏洞，可以直接在 Android 17 上提权，目前概念验证代码已经发布。查看全文：https://ourl.co/113840&lt;/p&gt;&lt;p&gt;网络安全公司 Nebula 日前发布演示视频揭露安卓系统的内核级漏洞和远程提权方法，这种提权方法涉及 Firefox v151.0.2 及此前版本中的浏览器漏洞以及 Linux Kernel 中存在长达 15 年的内核漏洞，通过漏洞链，安全公司开发攻击方法，实现点击恶意 URL 即可自动 root 并提权。&lt;/p&gt;
+&lt;p&gt;&lt;video controls="" playsinline="" preload="metadata"&gt;&lt;source src="https://dl.landian.news/?file=media/video/113840.mp4" type="video/mp4"/&gt;您的浏览器不支持视频标签。&lt;/video&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;浏览器阶段：攻击者通过恶意网页或地址触发火狐浏览器中的某个安全漏洞，实现任意代码执行或沙盒逃逸。&lt;/p&gt;
+&lt;p&gt;内核阶段：利用 Linux Kernel 中潜伏的长期漏洞，实现任意内核内存读写，这允许攻击者禁用 SELinux 并提升权限。&lt;/p&gt;
+&lt;p&gt;后续工作：在禁用 SELinux 并提权后，可以在安卓系统上安装 su 二进制文件和获得持久化 root 权限。&lt;/p&gt;
+&lt;p&gt;演示视频显示，整个过程从用户点击恶意链接开始到设备被完全控制仅需极短的时间，攻击成功后设备会出现安全公司设置的演示动态壁纸，并且可以通过 adb 访问 root shell。安全公司还公布漏洞概念验证代码，包含针对特定设备的适配逻辑，目前已知在 Google Pixel 系列设备上攻击链是有效的。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;安全公司已经提前将漏洞通报给相关厂商进行修复，因此短时间内完整漏洞细节应该还不会公布，不过随着时间的推移肯定会有其他安全研究人员通过概念验证代码反推出漏洞细节，到时候各种利用方式可能会逐渐曝光。当然，部分用户来说可能还是期待漏洞曝光的，因为这可以用来简单直接的 root 设备。&lt;/p&gt;
+&lt;p&gt;代码仓库：&lt;a href="https://www.landian.news/go?url=https://github.com/NebuSec/CyberMeowfia" rel="noopener" target="_blank"&gt;https://github.com/NebuSec/CyberMeowfia&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 08 Jul 2026 01:00:42 +0000</pubDate></item><item><title>埃隆马斯克宣布xAI不再作为独立公司运营 现已更名为SpaceXAI 相当于是产品</title><link>https://www.landian.news/archives/113834.html</link><description>
-&lt;p&gt;#人工智能 埃隆马斯克宣布 xAI 不再作为独立公司运营，现已更名为 SpaceXAI，合并后相当于成为 SpaceX 的产品。展望未来，xAI 这个品牌可能会逐渐淡出，而 Grok AI 和其他相关 AI 服务会在 SpaceXAI 这个更大的品牌下继续提供服务，后者也将继续训练和发布智能化程度更高的人工智能模型。查看全文：https://ourl.co/113834&lt;/p&gt;&lt;p&gt;埃隆马斯克旗下人工智能公司 xAI 的品牌和公司架构调整已经进入新阶段，根据埃隆马斯克的说法，xAI 将不再作为独立公司存在和运营，后续会被称为 SpaceXAI 并作为母公司旗下的产品，这意味着 xAI 作为独立人工智能品牌的时代正在结束，而 xAI 官方社交账号目前也已经更名为 SpaceXAI。&lt;/p&gt;
-&lt;p&gt;&lt;img decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113834.png"/&gt;&lt;/p&gt;
+</description><pubDate>Wed, 08 Jul 2026 03:30:02 +0000</pubDate></item><item><title>[解决方案] macOS 27 Beta 3 launchd/logd进程持续高占用？搜狗输入法与系统的问题</title><link>https://www.landian.news/archives/113839.html</link><description>
+&lt;p&gt;#技术教程 升级 macOS 27 Beta 3 后，launchd 和 logd 进程持续高占用 CPU 的解决方案。这个问题与搜狗输入法有关，但本质上这是 Beta 3 的已知问题，即 launchd 无法启动带有 quarantine 属性的 plist 文件，搜狗输入法的后台服务就包含这种属性，因此会出现反复启动失败并写入日志的问题，这会直接导致两个系统核心进程持续占用 CPU 来启动和写日志。解决方案：https://ourl.co/113839&lt;/p&gt;&lt;p&gt;苹果昨天发布 macOS 27 Beta 3 版，基于测试目的蓝点网也立即升级新版本，然后就发现翻车问题，系统核心进程 launchd 和 logd 持续占用极高的 CPU 资源，导致 CPU 温度飙升到 89 度且系统出现明显卡顿，即便多次重启系统也没能恢复正常。&lt;/p&gt;
+&lt;p&gt;这要是在以前纯粹靠人工排查是很难发现问题的，不过在 AI 帮助下可以通过检查系统日志发现问题所在，蓝点网使用 Codex 检查最终发现问题根源是搜狗输入法的关联后台服务，当然这也和苹果在 macOS 27 Beta 3 中的已知问题有关。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113839A.png" rel="nofollow"&gt;&lt;img alt="[解决方案] macOS 27 Beta 3 launchd/logd进程持续高占用？搜狗输入法与系统的问题" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113839A.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;当地时间 2026 年 7 月 6 日，原 xAI 官方账号发布消息宣布更名为 SpaceXAI，同时也展示新的品牌标识；xAI 官网标题也已经改为 SpaceXAI，不过网站底部的版权信息仍然显示为 xAI Corp.，这可能意味着目前品牌展示已经率先完成，而公司的法律主体或站点等细节仍然处于过渡阶段。&lt;/p&gt;
-&lt;p&gt;目前 x.ai 官网仍然继续展示 Grok、API、企业解决方案和政府解决方案，因此这次调整并不代表 Grok AI 或 xAI API 停止运营，只是这些 AI 产品全部被合并到 SpaceX 的产品体系中。&lt;/p&gt;
+&lt;p&gt;搜狗输入法 Mac 版的 LaunchAgent 文件带有 com.apple.quarantine 扩展属性，在 macOS 27 Beta 3 版中有个已知问题就是不支持加载带有 quarantine 标记的 launchd plist 文件，因此在升级到 Beta 3 并进入桌面后，/sbin/launchd 和 /usr/libexec/logd 进程持续占用极高的 CPU 资源。&lt;/p&gt;
+&lt;p&gt;系统日志显示搜狗输入法相关的 plist 被 launchd 标记为 quarantined/untrusted，这会造成这些服务被反复加载、加载失败、反复写日志，最终拖高 launchd 和 logd 进程，检查搜狗输入法的两个 plist 文件后也确认这两个文件都带有 quarantine 和 provenance 属性。&lt;/p&gt;
+&lt;p&gt;按照苹果在发布日志中的已知问题部分的说明，macOS 27 Beta 3 中，launchd 不支持加载带有 quarantine 扩展属性的 launchd plist 文件，这就是反复加载、加载失败、反复写日志的原因。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;2025 年 3 月埃隆马斯克宣布 xAI 以全股票交易方式收购社交平台 X/Twitter，当时 xAI 整体估值为 800 亿美元，而 X/Twitter 整体估值约为 330 亿美元。此举也让 X/Twitter 平台、Grok 聊天机器人以及 xAI 的训练数据和分发渠道进行深度绑定。&lt;/p&gt;
-&lt;p&gt;到 2026 年 2 月，SpaceX 全资收购 xAI，当时 xAI 的估值为 2500 亿美元，SpaceX 的估值为 1 万亿美元，合并后的公司估值高达 1.25 万亿美元，也就是 xAI 从独立 AI 初创公司变成 SpaceX 体系内业务，本身已经有交易基础，这次 SpaceXAI 更名更像是对前期整合的正式品牌化。&lt;/p&gt;
-&lt;p&gt;未来 xAI 这个品牌可能会逐渐淡出，而 Grok AI 和相关 AI 服务不会消失，这些服务将换到 SpaceXAI 这个更大的品牌和业务框架下继续运营，SpaceXAI 也将继续训练和提供智能化程度更高的人工智能模型。&lt;/p&gt;
+&lt;p&gt;在已经遇到 launchd 和 logd 进程持续高占用的情况下，可以在终端中执行如下命令临时禁用搜狗输入法的两个 LaunchAgent 进行止血，之后可以再修改 plist 文件进行处理，这可以临时解决问题。&lt;/p&gt;
+&lt;pre&gt;#禁用服务
+launchctl disable gui/501/com.sogou.SogouTaskManager
+launchctl bootout gui/501/com.sogou.SogouTaskManager 2&amp;gt;/dev/null || true
+
+launchctl disable gui/501/com.sogou.SogouServices
+launchctl bootout gui/501/com.sogou.SogouServices 2&amp;gt;/dev/null || true
+
+#验证是否生效
+
+launchctl print-disabled gui/501 | rg -i 'com.sogou'
+
+#如果看到下面的则代表成功
+
+"com.sogou.SogouTaskManager" =&amp;gt; disabled
+"com.sogou.SogouServices" =&amp;gt; disabled&lt;/pre&gt;
+&lt;p&gt;以上操作不会删除任何文件，只是禁用搜狗输入法的后台 LaunchAgent，搜狗输入法的主程序仍然可以正常运行，但是部分后台功能可能无法使用。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;要永久解决这个问题我们需要修改搜狗输入法的 plist 文件删除 quarantine 属性，这样在苹果发布新版本修复问题前都可以稳定使用，避免再出现 launchd 和 logd 进程持续占用极高 CPU 的问题。&lt;/p&gt;
+&lt;pre&gt;#备份源文件到桌面
+
+mkdir -p ~/Desktop/sogou-launchagent-backup
+
+sudo cp -p /Library/LaunchAgents/com.sogou.SogouTaskManager.plist ~/Desktop/sogou-launchagent-backup/
+sudo cp -p /Library/LaunchAgents/com.sogou.SogouServices.plist ~/Desktop/sogou-launchagent-backup/
+
+#移除扩展属性
+
+sudo xattr -d com.apple.quarantine /Library/LaunchAgents/com.sogou.SogouTaskManager.plist
+sudo xattr -d com.apple.quarantine /Library/LaunchAgents/com.sogou.SogouServices.plist
+
+#验证属性已经消失
+
+ls -lO@ /Library/LaunchAgents/com.sogou.SogouTaskManager.plist \
+/Library/LaunchAgents/com.sogou.SogouServices.plist
+
+#正常情况下验证结果应该看不到 com.apple.quarantine
+
+#重新启用搜狗输入法后台服务
+
+launchctl enable gui/501/com.sogou.SogouTaskManager
+launchctl enable gui/501/com.sogou.SogouServices&lt;/pre&gt;
+&lt;p&gt;必要时可以重启系统再观察进程占用情况，正常情况下由搜狗输入法引起的 launchd 和 logd 进程持续高占用问题应该是可以解决的，但可能也有其他软件存在类似的遗留属性问题，这个建议用户也使用 Codex 进行排查。&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 08 Jul 2026 00:30:42 +0000</pubDate></item><item><title>微软为Windows 11推出云重建功能 系统无法开机也能联网自动重装系统</title><link>https://www.landian.news/archives/113805.html</link><description>
-&lt;p&gt;#系统资讯 微软在 Windows 11 预览版中测试云重建功能，可在 WinRE 恢复环境中联网下载镜像和驱动程序重装系统，无需依赖 U 盘或其他工具。然而该功能仅适合在紧急情况下使用，因为用户数据会全丢，如果日常没有提前做数据备份，那可能还需要拆机把硬盘拿到其他 PC 上转移数据，开启设备加密的情况下还需要准备 BitLocker 恢复密钥。查看全文：https://ourl.co/113805&lt;/p&gt;&lt;p&gt;为解决系统故障时用户无法恢复的问题，微软正在 Windows 11 预览版中测试新的云重建功能，该功能可以在联网情况下通过 WinRE 恢复环境在线下载镜像文件和驱动程序并执行安装，在紧急情况下用户可以通过这种方式快速重装系统以恢复设备的使用，当然重装系统意味着数据会丢失。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113805.png" rel="nofollow"&gt;&lt;img alt="微软为Windows 11推出云重建功能 系统无法开机也能联网自动重装系统" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113805.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;此前微软已经在 WinRE 恢复环境中增加重置电脑选项，该选项本身里面也包含从云端下载的功能，不过重置下载选项主要是在 Windows 11 可以正常启动的情况下，重建系统映像并从本地获取驱动程序。在系统已经彻底崩溃的情况下重置电脑的云端下载可能也无法拯救系统，所以微软提供更强有力的恢复选项。&lt;/p&gt;
-&lt;p&gt;而云重建功能整体仅依赖于 WinRE 恢复环境，这相当于刷不死的恢复固件，只要能进入 WinRE 就可以联网下载镜像和驱动程序，用户不需要准备 U 盘、正常的系统、下载镜像文件，也不依赖当前操作系统的健康状况，可以在最极端的情况下也云重建系统恢复设备的使用。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;云重建功能的重装系统会覆盖系统盘因此用户原有数据会丢失，但其实也不算是彻底丢失，因此对于用户而言如果有重要数据，那整个过程还是会非常麻烦，因为可能需要拆机将硬盘拿出来放在其他正常的 PC 上读取数据，如果开启了 Windows 11 设备加密功能还需要输入 Microsoft BitLocker 恢复密钥。&lt;/p&gt;
-&lt;p&gt;微软称在使用云重建开始前系统会弹出提示警告数据丢失，用户必须确认数据会丢失后再启动重建功能，这也提醒我们日常要做好必要的数据备份工作，在紧急情况下还可以通过备份数据恢复，否则数据全部丢失造成的损失可能会非常大。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;直接通过 WinRE 恢复环境启动，具体来说在恢复环境中点击疑难解答、恢复和卸载/故障排除、云重建，使用云重建必须联网，建议通过网线连接，但也可以通过 WiFi 联网。随后云重建功能会检查系统版本、版本号和语言让用户确认，在用户确认原有数据会丢失后即可启动重装。&lt;/p&gt;
-&lt;p&gt;如何进入恢复环境：如果系统启动后无法正常进入系统或 WinRE 恢复环境，还有备用方式，在已经启动进入故障页面的情况下，长按电源按钮强制关机，再开机，再强制关机，第三次启动时系统就会自动进入恢复环境。&lt;/p&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 07 Jul 2026 05:59:12 +0000</pubDate></item></channel></rss>
+</description><pubDate>Wed, 08 Jul 2026 03:00:01 +0000</pubDate></item></channel></rss>
