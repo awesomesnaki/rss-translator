@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Thu, 09 Jul 2026 19:17:37 +0000</lastBuildDate><item><title>★ 约翰·特努斯应该扭转苹果在广告滑坡上的下滑趋势</title><link>https://daringfireball.net/2026/07/ternus_apple_slippery_slope</link><description>&lt;p&gt;2014年9月，在&lt;a href="https://daringfireball.net/linked/2014/09/02/icloud-security"&gt;一系列黑客入侵事件导致多位名人的iCloud账户私密照片被盗&lt;/a&gt;之后，蒂姆·库克在&lt;code&gt;apple.com/privacy&lt;/code&gt;上公开发布了一封致用户的公开信。苹果似乎已不再保存这封信的副本。（这&lt;a href="https://daringfireball.net/2007/02/reading_between_the_lines"&gt;常常是&lt;/a&gt;苹果CEO们&lt;a href="https://daringfireball.net/linked/2010/04/29/jobs-thoughts-on-flash"&gt;那些令人难忘的公开信&lt;/a&gt;的结局。）《华尔街日报》的快速加载网站&lt;a href="https://blogs.wsj.com/digits/2014/09/18/read-apple-ceo-tim-cooks-letter-on-privacy/?st=fRtsBk"&gt;仍然保存着这封信的副本&lt;/a&gt;，&lt;a href="https://web.archive.org/web/20140927000921/http://www.apple.com/privacy/"&gt;互联网档案馆的重要但加载缓慢的网站&lt;/a&gt;也同样如此。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Thu, 09 Jul 2026 20:13:57 +0000</lastBuildDate><item><title>今天就是OpenAI搞砸ChatGPT Mac应用的日子。</title><link>https://9to5mac.com/2026/07/09/openai-announcing-the-next-chapter-for-chatgpt-today-watch-here/</link><description>&lt;p&gt;扎克·霍尔（Zac Hall）在 9to5Mac 上撰文，讨论 OpenAI 今天&lt;a href="https://openai.com/index/gpt-5-6/"&gt;发布的一系列产品公告&lt;/a&gt;：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;总结一下今天桌面应用的变动：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;现有的 ChatGPT 应用现已更名为 ChatGPT 经典版（ChatGPT Classic）。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Codex 现已成为新的 ChatGPT 桌面应用。它外观仍与 Codex 相似，并保留 Codex 图标作为选项，但如今被称为 ChatGPT。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;ChatGPT 桌面版包含 ChatGPT Work 和 ChatGPT Codex，两者共享插件。ChatGPT Codex 模式会显示更多技术细节，而 ChatGPT Work 则将这些细节对用户隐藏。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;虽然可以同时安装 ChatGPT 经典版、ChatGPT 和 Codex，但未来的方向似乎是只运行新的 ChatGPT 桌面应用。Codex 用户仍可使用 Codex 应用图标，但应用名称将改为 ChatGPT。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;看来我选错了戒掉吸胶的时机。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ChatGPT 经典版应用的外观更接近原生 Mac 风格，因此这可能是用户面临的一个问题。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;长期以来原生的 ChatGPT Mac 应用——也就是现在显然被称为 ChatGPT 经典版的那个——是一个 159 MB 的安装包。而新的 ChatGPT 超级应用——除了将简单的聊天机器人、&lt;a href="https://openai.com/index/chatgpt-for-your-most-ambitious-work/"&gt;ChatGPT Work&lt;/a&gt; 和 Codex 整合到一起外，还包含了&lt;a href="https://9to5mac.com/2026/07/09/openai-is-discontinuing-chatgpt-atlas-its-standalone-desktop-browser/"&gt;现已停用的 Atlas 独立桌面浏览器&lt;/a&gt;的残余部分——&lt;a href="https://mastodon.social/@ccgus/116891511328402300"&gt;是一个体积达 1.5 GB 的 Electron 安装包&lt;/a&gt;，这对我来说一点都不“超级”。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/07/09/todays-the-day-openai-fucked-up-the-chatgpt-mac-app" title="指向《今天，OpenAI 搞砸了 ChatGPT Mac 应用》的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Thu, 09 Jul 2026 20:13:57 +0000</pubDate></item><item><title>苹果经典Mac时代涉足“将应用作为平铺按钮”简化计算：At Ease 和 Launcher</title><link>https://daringfireball.net/2026/07/whats_good_for_the_ios_goose_is_often_not_good_for_the_macos_gander</link><description>&lt;p&gt;以下是关于“一键启动”和以统一方块形状的平铺按钮形式呈现的应用程序的一些历史回顾。早在20世纪90年代的System 7时代，&lt;a href="http://toastytech.com/guis/atease.html"&gt;苹果曾出售（是的，出售！）一款名为At Ease的产品&lt;/a&gt;（来源：Nathan Lineback著名的GUI画廊）：&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://daringfireball.net/misc/2026/06/at-ease.png"&gt;
+&lt;img alt="Screenshot of At Ease on System 7.5." referrerpolicy="no-referrer" src="https://daringfireball.net/misc/2026/06/at-ease.png" width="320"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;我不记得自己用过At Ease，也没见过任何人使用它。&lt;/p&gt;
+&lt;p&gt;几年后，苹果在Mac OS 8中内置了&lt;a href="https://www.linkedresources.com/teach/MacOS_classic/launcher.php"&gt;一个名为Launcher的功能&lt;/a&gt;（来源：LinkedResources）：&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://daringfireball.net/misc/2026/06/mac-os-launcher.gif"&gt;
+&lt;img alt="Screenshot of Launcher on Mac OS 8." referrerpolicy="no-referrer" src="https://daringfireball.net/misc/2026/06/mac-os-launcher.gif"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Launcher，我个人从未用过，但我记得它当时还算是个存在感不弱的功能。At Ease是为Mac打造的一种原始“不会搞砸”的简易电脑模式的早期尝试。而Launcher则更像是对诸如&lt;a href="https://daringfireball.net/linked/2019/10/08/dragthing-rip"&gt;DragThing&lt;/a&gt;（安息吧）这类优秀实用工具的生硬模仿。它并非简易电脑模式，而是一种提供些许高级用户模式的尝试。我的意思是，当你第一次尝试时，它默认包含的应用程序之一竟然是脚本编辑器。甚至“Launcher”这个名称也让人联想到如今的高级用户实用工具，比如&lt;a href="https://www.alfredapp.com/"&gt;Alfred&lt;/a&gt;、&lt;a href="https://www.raycast.com/"&gt;Raycast&lt;/a&gt;，以及我最喜欢的&lt;a href="https://www.obdev.at/launchbar"&gt;LaunchBar&lt;/a&gt;。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/07/09/at-ease-and-launcher" title="永久链接至‘苹果经典Mac时代对‘应用程序作为平铺按钮’的简化计算尝试：At Ease与Launcher’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Thu, 09 Jul 2026 19:50:58 +0000</pubDate></item><item><title>★ 约翰·特努斯应该扭转苹果在广告滑坡上的下滑趋势</title><link>https://daringfireball.net/2026/07/ternus_apple_slippery_slope</link><description>&lt;p&gt;2014年9月，在&lt;a href="https://daringfireball.net/linked/2014/09/02/icloud-security"&gt;一系列黑客入侵事件导致多位名人的iCloud账户私密照片被盗&lt;/a&gt;之后，蒂姆·库克在&lt;code&gt;apple.com/privacy&lt;/code&gt;上公开发布了一封致用户的公开信。苹果似乎已不再保存这封信的副本。（这&lt;a href="https://daringfireball.net/2007/02/reading_between_the_lines"&gt;常常是&lt;/a&gt;苹果CEO们&lt;a href="https://daringfireball.net/linked/2010/04/29/jobs-thoughts-on-flash"&gt;那些令人难忘的公开信&lt;/a&gt;的结局。）《华尔街日报》的快速加载网站&lt;a href="https://blogs.wsj.com/digits/2014/09/18/read-apple-ceo-tim-cooks-letter-on-privacy/?st=fRtsBk"&gt;仍然保存着这封信的副本&lt;/a&gt;，&lt;a href="https://web.archive.org/web/20140927000921/http://www.apple.com/privacy/"&gt;互联网档案馆的重要但加载缓慢的网站&lt;/a&gt;也同样如此。&lt;/p&gt;
 &lt;p&gt;库克的信条理清晰、内容明确，今天完全值得一读。但当你阅读时，你会发现苹果不再保存副本的原因：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;几年前，互联网服务的用户开始意识到，当一项在线服务免费时，你并不是客户。你就是产品。但在苹果，我们相信卓越的客户体验不应以牺牲你的隐私为代价。&lt;/p&gt;
@@ -42,37 +67,21 @@
 &lt;p&gt;（b）不过 iOS 一直如此，所以苹果并没有在这个平台上剥夺过丰富创意的图标形状；&lt;/p&gt;
 &lt;p&gt;（c）MacOS 是一个远比 iOS 更丰富、更精确的环境。&lt;/p&gt;
 &lt;p&gt;iOS 主屏幕上的应用图标实际上就是简单的按钮。我认为很明显，这就是为什么它们自 &lt;a href="https://daringfireball.net/misc/2026/06/iphone-indexhero20070109.jpeg"&gt;2007 年 1 月 iPhone 发布以来&lt;/a&gt;（&lt;a href="https://web.archive.org/web/20070115035115/apple.com/iphone/"&gt;来源&lt;/a&gt;）一直采用那种圆角方形/圆角方形形状的原因。它们就是点一下就启动的工具。MacOS 中的应用图标不仅仅是按钮。你可以拖拽它们、移动它们，并把东西拖放到它们上面。你可以单击选择，双击启动。它们是更丰富的对象，值得拥有更丰富的视觉语言。iOS 是一个为粗头马克笔和钝安全剪刀设计的世界。MacOS 是一个旨在支持细头绘图笔和精密锋利的 X-ACTO 刻刀的世界。&lt;/p&gt;
-&lt;p&gt;此外，Macintosh 图标拥有四十年辉煌的&lt;a href="https://basicappleguy.com/basicappleblog/macos-icon-history"&gt;历史&lt;/a&gt;。风格和时尚会随时间改变。但在曾经自由的地方，不应强加限制。&lt;/p&gt;&lt;p&gt;将外形作为差异化因素绝不仅仅是装饰。我们早就明白这一点。所有人都知道。不仅苹果公司知道，我们其他人也知道，因为我们是从苹果公司学到的。通过互联网档案，&lt;a href="https://web.archive.org/web/20181206014649/https://developer.apple.com/design/human-interface-guidelines/macos/icons-and-images/app-icon/"&gt;这是苹果2018年的Macintosh人机界面指南&lt;/a&gt;，&lt;sup id="fnr1-2026-07-08"&gt;&lt;a href="https://daringfireball.net/#fn1-2026-07-08"&gt;1&lt;/a&gt;&lt;/sup&gt; 其实也没过去多久：&lt;/p&gt;
+&lt;p&gt;此外，Macintosh 图标拥有四十年辉煌的&lt;a href="https://basicappleguy.com/basicappleblog/macos-icon-history"&gt;历史&lt;/a&gt;。风格和时尚会随时间改变。但在曾经自由的地方，不应强加限制。&lt;/p&gt;&lt;p&gt;形状作为差异化因素并非仅仅装饰。我们早已明白这一点。所有人都心知肚明。苹果知道，我们其他人也知道，因为正是从苹果那里学到的。通过互联网档案馆，&lt;a href="https://web.archive.org/web/20181206014649/https://developer.apple.com/design/human-interface-guidelines/macos/icons-and-images/app-icon/"&gt;这里有苹果2018年的Macintosh人机界面指南&lt;/a&gt;，&lt;sup id="fnr1-2026-07-08"&gt;&lt;a href="https://daringfireball.net/#fn1-2026-07-08"&gt;1&lt;/a&gt;&lt;/sup&gt;那不过是八年前的事：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;考虑为你的应用图标赋予一个逼真、独特的外形。&lt;/em&gt;在macOS中，应用图标可以采用其所描绘对象的形状。独特的轮廓能聚焦注意力于对象本身，让人一眼就能识别图标。如有必要，你也可以用圆形来容纳一组图像。避免使用人们与iOS应用图标关联的圆角矩形形状。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;考虑赋予你的应用图标一个真实、独特的形状。&lt;/em&gt;在
+macOS中，应用图标可以呈现其所描绘对象的形状。独特的
+轮廓能聚焦于对象，使其一眼即可识别。
+如有必要，你可以使用圆形
+来封装一组图像。避免使用
+人们会联想到iOS应用图标的圆角矩形形状。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;“独特的轮廓能聚焦注意力于对象本身，让人一眼就能识别图标。”仅仅八年前的话。这不是对一时潮流或风尚的描述，而是对人类感知的描述——我们不变的本性。&lt;/p&gt;
-&lt;p&gt;如此之多来之不易的集体智慧最近被忽视了。但它&lt;a href="https://github.com/gingerbeardman/apple-human-interface-guidelines"&gt;并未丢失或被遗忘&lt;/a&gt;。&lt;a href="https://daringfireball.net/misc/2026/06/2002%20Aqua%20Human%20Interface%20Guidelines.pdf"&gt;2002版Aqua人机界面指南&lt;/a&gt;的第11章是重温的好起点。那些指南背后蕴含着&lt;a href="https://blog.cocoia.com/2008/the-origin-of-the-inimitable-icons/"&gt;深思熟虑、严谨和逻辑&lt;/a&gt;——这一切都是为了创造一套图标视觉语言，而大多数人只觉得这些图标酷毙了。&lt;/p&gt;
+&lt;p&gt;“独特的轮廓能聚焦于对象，使其一眼即可识别。”仅仅八年前。这不是对一时风尚或潮流的描述，而是对人类感知的描述——我们不变的本性。&lt;/p&gt;
+&lt;p&gt;近来，太多集体积累的宝贵智慧被忽视了。但它们并未&lt;a href="https://github.com/gingerbeardman/apple-human-interface-guidelines"&gt;丢失或遗忘&lt;/a&gt;。&lt;a href="https://daringfireball.net/misc/2026/06/2002%20Aqua%20Human%20Interface%20Guidelines.pdf"&gt;2002年Aqua人机界面指南&lt;/a&gt;的第11章是一个重新记起的好起点。那些指南背后蕴含了&lt;a href="https://blog.cocoia.com/2008/the-origin-of-the-inimitable-icons/"&gt;极其缜密的思考、严谨性和逻辑&lt;/a&gt;——所有这一切，都是为了创造一种大多数人单纯觉得酷毙了的图标视觉语言。&lt;/p&gt;
 &lt;hr/&gt;
 &lt;ol&gt;
 &lt;li id="fn1-2026-07-08"&gt;
 &lt;p&gt;我注意到，就在2018年，苹果仍然发布针对不同平台的人机界面指南。在那之后的某个时间点，他们对整个体系进行了一次&lt;a href="https://daringfireball.net/2025/12/bad_dye_job"&gt;染发式改造&lt;/a&gt;，现在只剩下单一的&lt;a href="https://developer.apple.com/design/human-interface-guidelines/"&gt;苹果人机界面指南&lt;/a&gt;。不再有各平台专属的HIG，而是一份指南，仅通过侧边栏标注平台差异。这绝非小事。它象征着苹果推出的用户界面已经背离了苹果自身在过去几十年间建立的原则。这就像试图制作电影却从未观看和研究过历史上最优秀的作品，或者写小说却从未读过一本书。不仅是Mac需要自己的HIG，苹果的每个平台都应该有。（iPadOS可以共享iOS的。）可以有一份"基础"HIG作为原理入门，但各平台专属的HIG本可以——过去也确实如此——详细解释它们为何是拥有不同习惯用法、能力和需求的独立平台。 &lt;a href="https://daringfireball.net/#fnr1-2026-07-08" title="跳回正文脚注1"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-</description><pubDate>Thu, 09 Jul 2026 01:45:08 +0000</pubDate></item><item><title>'帕里遇见医生' — 1973年左右的聊天机器人之战</title><link>https://www.rfc-editor.org/info/rfc439/</link><description>&lt;p&gt;在人工智能的原始时代，帕里（Parry）是一款ELIZA风格的聊天机器人，由精神病学家肯尼斯·科尔比（Kenneth Colby）创建，用于模拟偏执型精神分裂症患者的言语。有人天才般地将其连接到伊丽莎（Eliza）（也称为“医生”）。文特·瑟夫（Vint Cerf）于1973年将对话记录作为RFC发布，我读完后笑得前仰后合。尝一口：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;你知道赌注经纪人吗？&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;你怎么会认为我知道赌注经纪人？&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;有一次一个赌注经纪人没给我付钱。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;这让你想到了什么？&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;我揍了那个没付钱的赌注经纪人，我担心他会利用他在黑道的朋友来报复我。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;你还想讨论什么？&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;你知道敲诈勒索者是怎么回事吗？&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a href="https://mastodon.social/@HootenHaller/116886431616601833"&gt;感谢鲍勃·彼得森&lt;/a&gt;提供链接。&lt;/p&gt;
-&lt;p&gt;顺便提一下，文特·瑟夫&lt;a href="https://techcrunch.com/2026/06/30/the-father-of-the-internet-is-finally-retiring/"&gt;上周从谷歌退休&lt;/a&gt;，享年83岁，精神矍铄。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/07/08/parry" title="Permanent link to ‘‘Parry Encounters the Doctor’ — Chatbot on Chatbot Action Circa 1973’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Wed, 08 Jul 2026 22:38:06 +0000</pubDate></item><item><title>如果Mac应用不在Mac App Store中，它们就可以逃脱Squircle监狱。</title><link>https://tyler.io/2026/07/05/escape-from-squircle-jail/</link><description>&lt;p&gt;泰勒·霍尔：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我们都知道 macOS Tahoe 的&lt;a href="https://daringfireball.net/linked/2025/11/07/tahoes-terrible-icons"&gt;可怕应用图标&lt;/a&gt;，以及第三方开发者如何被限制在&lt;a href="https://atp.fm/643?utm_source=irisphotos"&gt;圆角矩形监狱&lt;/a&gt;中。&lt;/p&gt;
-&lt;p&gt;如果你足够幸运，能在 Mac App Store 之外分发应用，你可以通过 &lt;a href="https://developer.apple.com/documentation/appkit/nsdocktileplugin"&gt;NSDockTilePlugIn&lt;/a&gt; 打破圆角矩形监狱。这严格来说并非该 API 的预期用途，而且在 Mac App Store 中也不被允许。但它能解决这个问题。&lt;/p&gt;
-&lt;p&gt;所以今天发布的 Iris 在应用的&lt;em&gt;特殊&lt;/em&gt; &lt;s&gt;偏好设置&lt;/s&gt; 设置面板中增加了三个额外的应用图标供选择。由于它们使用了 NSDockTilePlugIn API，即使你退出应用，自定义图标也会保留。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Iris 远非唯一使用这种或 &lt;a href="https://mastodon.social/@ccgus/116852529899432537"&gt;其他技术&lt;/a&gt; 来某种程度逃离圆角矩形监狱的应用。我所知的所有这样做的&lt;a href="https://www.barebones.com/products/bbedit/"&gt;应用&lt;/a&gt;都是&lt;a href="https://blog.cyberduck.io/2026/07/08/resist-the-squircle-jail/"&gt;纯正 Mac 风格的应用&lt;/a&gt;。这是一个很好的试金石。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/07/08/escape-from-squircle-jail" title="永久链接到‘Mac 应用可以逃离圆角矩形监狱——只要它们不在 Mac App Store 中’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Wed, 08 Jul 2026 21:03:21 +0000</pubDate></item></channel></rss>
+</description><pubDate>Thu, 09 Jul 2026 01:45:08 +0000</pubDate></item></channel></rss>
