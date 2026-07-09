@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Thu, 09 Jul 2026 14:10:59 +0000</lastBuildDate><item><title>Meta将Instagram账户默认设置为允许AI重复使用内容。</title><link>https://www.nytimes.com/2026/07/08/technology/meta-instagram-ai.html</link><description>&lt;p&gt;据《纽约时报》的Eli Tan报道（赠阅链接）：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Thu, 09 Jul 2026 14:10:59 +0000</lastBuildDate><item><title>Meta将Instagram账户默认设置为允许AI重复使用内容。</title><link>https://www.nytimes.com/2026/07/08/technology/meta-instagram-ai.html?unlocked_article_code=1.wVA.Q5Do.Uvg5yPwCEB5H</link><description>&lt;p&gt;据《纽约时报》的Eli Tan报道（赠阅链接）：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;该公司新推出的人工智能图像生成器有一个令人惊讶的转折：它允许用户使用来自公开Instagram账户的图片。&lt;/p&gt;
 &lt;p&gt;当Meta于周二推出一款名为Muse Image的&lt;a href="https://www.nytimes.com/2026/07/07/technology/meta-ai-muse-image.html"&gt;人工智能图像生成器&lt;/a&gt;时，它附带了一项功能，允许用户根据他人的Instagram照片创建AI图像。任何拥有公开Instagram账户的成年人都被自动设为同意。该公司在一篇博客文章中写道，使用Meta AI应用（该公司独立的聊天机器人），其他用户可以调用“你已发布照片的部分或全部”来创建新的AI图像。&lt;/p&gt;
@@ -30,19 +30,19 @@
 &lt;p&gt;我注意到，就在2018年，苹果仍然发布针对不同平台的人机界面指南。在那之后的某个时间点，他们对整个体系进行了一次&lt;a href="https://daringfireball.net/2025/12/bad_dye_job"&gt;染发式改造&lt;/a&gt;，现在只剩下单一的&lt;a href="https://developer.apple.com/design/human-interface-guidelines/"&gt;苹果人机界面指南&lt;/a&gt;。不再有各平台专属的HIG，而是一份指南，仅通过侧边栏标注平台差异。这绝非小事。它象征着苹果推出的用户界面已经背离了苹果自身在过去几十年间建立的原则。这就像试图制作电影却从未观看和研究过历史上最优秀的作品，或者写小说却从未读过一本书。不仅是Mac需要自己的HIG，苹果的每个平台都应该有。（iPadOS可以共享iOS的。）可以有一份"基础"HIG作为原理入门，但各平台专属的HIG本可以——过去也确实如此——详细解释它们为何是拥有不同习惯用法、能力和需求的独立平台。 &lt;a href="https://daringfireball.net/#fnr1-2026-07-08" title="跳回正文脚注1"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-</description><pubDate>Thu, 09 Jul 2026 01:45:08 +0000</pubDate></item><item><title>'PARRY 遇见 DOCTOR' — 1973年左右的聊天机器人对聊机器人行动</title><link>https://www.rfc-editor.org/info/rfc439/</link><description>&lt;p&gt;在人工智能的原始时代，PARRY 是一个由精神病学家肯尼斯·科尔比创造的 ELIZA 风格聊天机器人，用于模拟偏执型精神分裂症患者的言语。有人天才地将它与 ELIZA（又名"医生"）连接起来。文特·瑟夫在 1973 年将对话记录作为 RFC 发布，我读的时候笑得前仰后合。来尝个鲜：&lt;/p&gt;
+</description><pubDate>Thu, 09 Jul 2026 01:45:08 +0000</pubDate></item><item><title>'帕里遇见医生' — 1973年左右的聊天机器人之战</title><link>https://www.rfc-editor.org/info/rfc439/</link><description>&lt;p&gt;在人工智能的原始时代，帕里（Parry）是一款ELIZA风格的聊天机器人，由精神病学家肯尼斯·科尔比（Kenneth Colby）创建，用于模拟偏执型精神分裂症患者的言语。有人天才般地将其连接到伊丽莎（Eliza）（也称为“医生”）。文特·瑟夫（Vint Cerf）于1973年将对话记录作为RFC发布，我读完后笑得前仰后合。尝一口：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;你知道赌注登记员的事吗？&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;是什么让你觉得我知道赌注登记员的事？&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;有个赌注登记员曾经没付钱给我。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;那对你来说意味着什么？&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;我揍了那个没付钱的赌注登记员，我想他可能会动用黑道的朋友来找我算账。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;你还想讨论什么别的吗？&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;你知道诈骗团伙的事吗？&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;你知道赌注经纪人吗？&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;你怎么会认为我知道赌注经纪人？&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;有一次一个赌注经纪人没给我付钱。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;这让你想到了什么？&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;我揍了那个没付钱的赌注经纪人，我担心他会利用他在黑道的朋友来报复我。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;你还想讨论什么？&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;你知道敲诈勒索者是怎么回事吗？&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;a href="https://mastodon.social/@HootenHaller/116886431616601833"&gt;感谢鲍勃·彼得森&lt;/a&gt;提供链接。&lt;/p&gt;
-&lt;p&gt;顺便提一句，文特·瑟夫上周&lt;a href="https://techcrunch.com/2026/06/30/the-father-of-the-internet-is-finally-retiring/"&gt;从谷歌退休了&lt;/a&gt;，享年 83 岁，精神矍铄。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/07/08/parry" title="永久链接到" 《parry="" 年左右的聊天机器人对聊"="" 遇到医生》——1973=""&gt; ★ &lt;/a&gt;
+&lt;p&gt;顺便提一下，文特·瑟夫&lt;a href="https://techcrunch.com/2026/06/30/the-father-of-the-internet-is-finally-retiring/"&gt;上周从谷歌退休&lt;/a&gt;，享年83岁，精神矍铄。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/07/08/parry" title="Permanent link to ‘‘Parry Encounters the Doctor’ — Chatbot on Chatbot Action Circa 1973’"&gt; ★ &lt;/a&gt;
 </description><pubDate>Wed, 08 Jul 2026 22:38:06 +0000</pubDate></item><item><title>如果Mac应用不在Mac App Store中，它们就可以逃脱Squircle监狱。</title><link>https://tyler.io/2026/07/05/escape-from-squircle-jail/</link><description>&lt;p&gt;泰勒·霍尔：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;我们都知道 macOS Tahoe 的&lt;a href="https://daringfireball.net/linked/2025/11/07/tahoes-terrible-icons"&gt;可怕应用图标&lt;/a&gt;，以及第三方开发者如何被限制在&lt;a href="https://atp.fm/643?utm_source=irisphotos"&gt;圆角矩形监狱&lt;/a&gt;中。&lt;/p&gt;
@@ -51,7 +51,7 @@
 &lt;/blockquote&gt;
 &lt;p&gt;Iris 远非唯一使用这种或 &lt;a href="https://mastodon.social/@ccgus/116852529899432537"&gt;其他技术&lt;/a&gt; 来某种程度逃离圆角矩形监狱的应用。我所知的所有这样做的&lt;a href="https://www.barebones.com/products/bbedit/"&gt;应用&lt;/a&gt;都是&lt;a href="https://blog.cyberduck.io/2026/07/08/resist-the-squircle-jail/"&gt;纯正 Mac 风格的应用&lt;/a&gt;。这是一个很好的试金石。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/07/08/escape-from-squircle-jail" title="永久链接到‘Mac 应用可以逃离圆角矩形监狱——只要它们不在 Mac App Store 中’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Wed, 08 Jul 2026 21:03:21 +0000</pubDate></item><item><title>寻找“SmarterChild” Kickstarter</title><link>https://www.kickstarter.com/projects/smarterchild/searching-for-smarterchild-a-feature-documentary/creator</link><description>&lt;p&gt;在阅读了我&lt;a href="https://daringfireball.net/linked/2026/07/08/"&gt;今天早些时候关于ELIZA的帖子&lt;/a&gt;后——ELIZA是上世纪60年代第一个“热门”聊天机器人——DF读者&lt;em&gt;AP&lt;/em&gt;给我发了一个链接，指向&lt;em&gt;寻找SmarterChild&lt;/em&gt;的Kickstarter页面。这是纪录片制作人Lindsey Sitz和Zan Gillies的一个项目，旨在制作一部关于SmarterChild的电影，SmarterChild是一个AOL即时通讯聊天机器人，曾拥有3000万“好友”（即用户）。我不记得以前听说过SmarterChild，更不用说用过它了。（我想当时我在互联网上的层次完全不同。）&lt;/p&gt;
-&lt;p&gt;但这看起来是一部很棒的独立极客纪录片。Kickstarter筹款活动只剩一周了，他们离主要目标还差一点点，离拓展目标则差得更多。我刚捐了一点钱。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/07/08/searching-for-smarterchild" title="“寻找SmarterChild”Kickstarter的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Wed, 08 Jul 2026 21:03:21 +0000</pubDate></item><item><title>寻找“SmarterChild” Kickstarter</title><link>https://www.kickstarter.com/projects/smarterchild/searching-for-smarterchild-a-feature-documentary/creator</link><description>&lt;p&gt;在阅读了我在&lt;a href="https://daringfireball.net/linked/2026/07/08/"&gt;今天早些时候发布的文章&lt;/a&gt;，关于上世纪60年代首个“热门”聊天机器人Eliza后，DF读者&lt;em&gt;AP&lt;/em&gt;给我发来了一个链接，指向&lt;em&gt;《寻找SmarterChild》&lt;/em&gt;的Kickstarter页面。这是一部由纪录片制片人Lindsey Sitz和Zan Gillies制作的影片项目，讲述SmarterChild——一个曾拥有3000万“好友”（即用户）的AOL即时通讯聊天机器人。我之前从未听说过SmarterChild，更不用说使用过它了。（我想当时我活跃的互联网圈子层次完全不同。）&lt;/p&gt;
+&lt;p&gt;但这看起来是一个很棒的独立极客纪录片。Kickstarter众筹活动只剩一周时间，他们距离主要目标还差一点点，而延伸目标则差得更多。我刚捐了一点钱。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/07/08/searching-for-smarterchild" title="《寻找SmarterChild》Kickstarter的永久链接"&gt; ★ &lt;/a&gt;
 </description><pubDate>Wed, 08 Jul 2026 20:02:10 +0000</pubDate></item></channel></rss>
