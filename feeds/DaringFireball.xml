@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Wed, 08 Jul 2026 22:38:06 +0000</lastBuildDate><item><title>'PARRY 遇见 DOCTOR' — 1973年左右的聊天机器人对聊机器人行动</title><link>https://www.rfc-editor.org/info/rfc439/</link><description>&lt;p&gt;在人工智能的原始时代，PARRY 是一个由精神病学家肯尼斯·科尔比创造的 ELIZA 风格聊天机器人，用于模拟偏执型精神分裂症患者的言语。有人天才地将它与 ELIZA（又名"医生"）连接起来。文特·瑟夫在 1973 年将对话记录作为 RFC 发布，我读的时候笑得前仰后合。来尝个鲜：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Thu, 09 Jul 2026 01:45:08 +0000</lastBuildDate><item><title>★ 对iOS鹅有利的往往对MacOS雄鹅不利</title><link>https://daringfireball.net/2026/07/whats_good_for_the_ios_goose_is_often_not_good_for_the_macos_gander</link><description>&lt;p&gt;托比亚斯·施坦克（Tobias Steinke）在 Mastodon 上 &lt;a href="https://mstdn.social/@gewappnet/116878216947000298"&gt;回复&lt;/a&gt; 我关于“&lt;a href="https://daringfireball.net/2026/07/eliminate_app_icon_squircle_jail"&gt;苹果应消除应用图标‘圆角方形牢笼’&lt;/a&gt;”的文章：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;但 iOS 应用图标（以及 iPadOS）一直是圆角方形的。为什么这对你来说过去和现在都可以接受，而在 macOS 上就不行呢？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这是一个很好的、公平的问题。但我不仅有答案，而且我的答案能阐明为什么整场辩论如此重要。那句“设计即其运作方式”甚至适用于像图标这样看似肤浅的东西。&lt;/p&gt;
+&lt;p&gt;iOS 中存在各种各样的限制和简化，如果将它们带到 MacOS 上，将是糟糕的主意，其影响从令人失望、令人沮丧、令人恼火到具有破坏性不等。圆角方形牢笼在这条尺度上落在哪里是主观的。它当然不是破坏性的，但我会说它令人恼火。（如果带到 MacOS 上会具有破坏性的 iOS 婴儿式计算机主义包括：杀死 AppKit、移除 Unix 终端层，或要求所有应用都来自 App Store。）&lt;/p&gt;
+&lt;p&gt;MacOS 之前也遭受过许多这样令人沮丧的决定。例如，iOS 省略始终可见的滚动条也许有道理，因为屏幕空间非常有限。&lt;a href="https://daringfireball.net/2026/01/resizing_windows_macos_26"&gt;但在 Mac 上这毫无道理&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;至于应用图标强制采用圆角方形形状：&lt;/p&gt;
+&lt;p&gt;（a）我认为这对 iOS 来说也不是一个好规定；&lt;/p&gt;
+&lt;p&gt;（b）不过 iOS 一直如此，所以苹果并没有在这个平台上剥夺过丰富创意的图标形状；&lt;/p&gt;
+&lt;p&gt;（c）MacOS 是一个远比 iOS 更丰富、更精确的环境。&lt;/p&gt;
+&lt;p&gt;iOS 主屏幕上的应用图标实际上就是简单的按钮。我认为很明显，这就是为什么它们自 &lt;a href="https://daringfireball.net/misc/2026/06/iphone-indexhero20070109.jpeg"&gt;2007 年 1 月 iPhone 发布以来&lt;/a&gt;（&lt;a href="https://web.archive.org/web/20070115035115/apple.com/iphone/"&gt;来源&lt;/a&gt;）一直采用那种圆角方形/圆角方形形状的原因。它们就是点一下就启动的工具。MacOS 中的应用图标不仅仅是按钮。你可以拖拽它们、移动它们，并把东西拖放到它们上面。你可以单击选择，双击启动。它们是更丰富的对象，值得拥有更丰富的视觉语言。iOS 是一个为粗头马克笔和钝安全剪刀设计的世界。MacOS 是一个旨在支持细头绘图笔和精密锋利的 X-ACTO 刻刀的世界。&lt;/p&gt;
+&lt;p&gt;此外，Macintosh 图标拥有四十年辉煌的&lt;a href="https://basicappleguy.com/basicappleblog/macos-icon-history"&gt;历史&lt;/a&gt;。风格和时尚会随时间改变。但在曾经自由的地方，不应强加限制。&lt;/p&gt;&lt;p&gt;将外形作为差异化因素绝不仅仅是装饰。我们早就明白这一点。所有人都知道。不仅苹果公司知道，我们其他人也知道，因为我们是从苹果公司学到的。通过互联网档案，&lt;a href="https://web.archive.org/web/20181206014649/https://developer.apple.com/design/human-interface-guidelines/macos/icons-and-images/app-icon/"&gt;这是苹果2018年的Macintosh人机界面指南&lt;/a&gt;，&lt;sup id="fnr1-2026-07-08"&gt;&lt;a href="https://daringfireball.net/#fn1-2026-07-08"&gt;1&lt;/a&gt;&lt;/sup&gt; 其实也没过去多久：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;考虑为你的应用图标赋予一个逼真、独特的外形。&lt;/em&gt;在macOS中，应用图标可以采用其所描绘对象的形状。独特的轮廓能聚焦注意力于对象本身，让人一眼就能识别图标。如有必要，你也可以用圆形来容纳一组图像。避免使用人们与iOS应用图标关联的圆角矩形形状。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;“独特的轮廓能聚焦注意力于对象本身，让人一眼就能识别图标。”仅仅八年前的话。这不是对一时潮流或风尚的描述，而是对人类感知的描述——我们不变的本性。&lt;/p&gt;
+&lt;p&gt;如此之多来之不易的集体智慧最近被忽视了。但它&lt;a href="https://github.com/gingerbeardman/apple-human-interface-guidelines"&gt;并未丢失或被遗忘&lt;/a&gt;。&lt;a href="https://daringfireball.net/misc/2026/06/2002%20Aqua%20Human%20Interface%20Guidelines.pdf"&gt;2002版Aqua人机界面指南&lt;/a&gt;的第11章是重温的好起点。那些指南背后蕴含着&lt;a href="https://blog.cocoia.com/2008/the-origin-of-the-inimitable-icons/"&gt;深思熟虑、严谨和逻辑&lt;/a&gt;——这一切都是为了创造一套图标视觉语言，而大多数人只觉得这些图标酷毙了。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;ol&gt;
+&lt;li id="fn1-2026-07-08"&gt;
+&lt;p&gt;我注意到，就在2018年，苹果仍然发布针对不同平台的人机界面指南。在那之后的某个时间点，他们对整个体系进行了一次&lt;a href="https://daringfireball.net/2025/12/bad_dye_job"&gt;染发式改造&lt;/a&gt;，现在只剩下单一的&lt;a href="https://developer.apple.com/design/human-interface-guidelines/"&gt;苹果人机界面指南&lt;/a&gt;。不再有各平台专属的HIG，而是一份指南，仅通过侧边栏标注平台差异。这绝非小事。它象征着苹果推出的用户界面已经背离了苹果自身在过去几十年间建立的原则。这就像试图制作电影却从未观看和研究过历史上最优秀的作品，或者写小说却从未读过一本书。不仅是Mac需要自己的HIG，苹果的每个平台都应该有。（iPadOS可以共享iOS的。）可以有一份"基础"HIG作为原理入门，但各平台专属的HIG本可以——过去也确实如此——详细解释它们为何是拥有不同习惯用法、能力和需求的独立平台。 &lt;a href="https://daringfireball.net/#fnr1-2026-07-08" title="跳回正文脚注1"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description><pubDate>Thu, 09 Jul 2026 01:45:08 +0000</pubDate></item><item><title>'PARRY 遇见 DOCTOR' — 1973年左右的聊天机器人对聊机器人行动</title><link>https://www.rfc-editor.org/info/rfc439/</link><description>&lt;p&gt;在人工智能的原始时代，PARRY 是一个由精神病学家肯尼斯·科尔比创造的 ELIZA 风格聊天机器人，用于模拟偏执型精神分裂症患者的言语。有人天才地将它与 ELIZA（又名"医生"）连接起来。文特·瑟夫在 1973 年将对话记录作为 RFC 发布，我读的时候笑得前仰后合。来尝个鲜：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;你知道赌注登记员的事吗？&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;是什么让你觉得我知道赌注登记员的事？&lt;/p&gt;
@@ -48,23 +72,4 @@
 &lt;/blockquote&gt;
 &lt;p&gt;那些把当今聊天机器人当作朋友或伴侣的人有问题。但那些认为ELIZA是个有用的知己的人，问题就更大了。不是一般的——是那种“遭受过严重头部损伤”的问题。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/07/08/my-conversation-with-eliza" title="永久链接到‘我与ELIZA的对话’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Wed, 08 Jul 2026 17:33:05 +0000</pubDate></item><item><title>ELIZA考古项目</title><link>https://findingeliza.org/</link><description>&lt;p&gt;ELIZA考古项目：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;ELIZA是开创性的、极具影响力的聊天机器人，它开启了使用基于文本的代理进行人机交互的模式。该程序由约瑟夫·魏泽鲍姆于20世纪60年代在麻省理工学院作为MAC项目的一部分设计并编写，当时由[&lt;em&gt;原文如此&lt;/em&gt;]其设计者和程序员完成。ELIZA不仅让魏泽鲍姆发展出了一种高度交互的计算机交互模式，还影响了人们开始将计算机视为能够进行有效对话的实体。你可以&lt;a href="https://sites.google.com/view/elizaarchaeology/try-eliza?authuser=0"&gt;尝试本项目开发的ELIZA精确重制版&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;我们计划将程序置于历史语境中，提供其历史背景，并详细解释&lt;a href="https://sites.google.com/view/elizaarchaeology/code?authuser=0"&gt;代码的工作原理&lt;/a&gt;。本项目将审视魏泽鲍姆当时所处的编程文化，并探讨他从ELIZA/DOCTOR项目转向开始警告将机器当作人类对待的危险的过程。我们还将研究受ELIZA启发的后期作品，并考虑其对会话式计算机程序在文学和影视作品中表现方式的影响。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a href="https://kottke.org/26/07/0049283-inventing-eliza"&gt;来自Jason Kottke&lt;/a&gt;，他还链接到了&lt;a href="https://mitpress.mit.edu/9780262052481/inventing-eliza/"&gt;同一团队即将出版的著作&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;他们的博客中有一篇文章讨论了我一直想转发的内容，&lt;a href="https://sites.google.com/view/elizaarchaeology/blog/3-weizenbaums-secretary"&gt;关于魏泽鲍姆的秘书&lt;/a&gt;：&lt;/p&gt;&lt;blockquote&gt;
-&lt;p&gt;尽管如此，很明显维森鲍姆的秘书确实使用了ELIZA系统。正如他在《维森鲍姆》(1967: 477)中所写：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我的秘书长时间看着我编写这个程序。有一天，她请求允许与系统对话。当然，她知道自己在和机器交谈。然而，在我看到她输入几个句子后，她转向我说：“你能离开房间吗？”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;维森鲍姆描述了这种双人对话在用户与计算机之间可能产生的效果，后来实际上被称为“ELIZA效应”：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我没有意识到的是，极短时间接触一个相对简单的计算机程序，就能在完全正常的人身上引发强烈的妄想思维。这一洞察让我重新重视个人与计算机之间关系的问题，并因此决心思考这些问题。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;ELIZA效应是指人类倾向于将理解和智能归因于计算机系统。霍夫施塔特（1995: 167）将其描述为“人们容易从计算机串连起来的符号串——尤其是词语——中读出远超实际的理解”，这个1995年写下的生动描述准确描述了当今像ChatGPT这样的生成式AI系统。同样，特克尔描述道：“ELIZA效应指的是我们更普遍的倾向，即将响应式计算机程序视为比实际更智能。极少的交互性就让我们将自己的复杂性投射到不值得的对象上。”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;自20世纪60年代以来，聊天机器人技术发生了巨大变化。人性却从未改变。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/07/08/eliza-archaeology" title="永久链接至‘ELIZA考古项目’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Wed, 08 Jul 2026 17:20:44 +0000</pubDate></item></channel></rss>
+</description><pubDate>Wed, 08 Jul 2026 17:33:05 +0000</pubDate></item></channel></rss>
