@@ -1,87 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Fri, 10 Jul 2026 02:00:30 +0000</lastBuildDate><item><title>埃隆马斯克透露 X/Twitter将通过私信辟谣 用户点赞/转发/评论过谣言就会收到通知</title><link>https://www.landian.news/archives/113875.html</link><description>
-&lt;p&gt;#网站应用 埃隆马斯克透露 X/Twitter 将通过私信进行直接且大范围辟谣，当用户与某个误导性推文互动过 (转发 / 评论 / 点赞)，就可能收到私信提醒。该功能基于社区笔记扩展而来，当社区成员将某个帖子标记为误导性内容时，系统就可能会向互动过的用户批量发送辟谣消息。查看全文：https://ourl.co/113875&lt;/p&gt;&lt;p&gt;埃隆马斯克日前发帖透露称，X/Twitter 社区笔记功能将增加直接消息通知，这个功能主要是用来辟谣的，即如果某个帖子是谣言或者其他误导性内容，当用户与这个帖子互动过 (点赞 / 转发 / 评论等)，当帖子被确定是误导性内容后，社区笔记功能就会向用户发送私信进行提醒。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113875.png" rel="nofollow"&gt;&lt;img alt="埃隆马斯克透露 X/Twitter将通过私信辟谣 用户点赞/转发/评论过谣言就会收到通知" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113875.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Fri, 10 Jul 2026 07:06:24 +0000</lastBuildDate><item><title>微软发现恶性后门程序：可以擦除整个磁盘/覆写系统盘/加密文件但不保留解密密钥</title><link>https://www.landian.news/archives/113896.html</link><description>
+&lt;p&gt;#安全资讯 微软对恶性后门程序 GigaWiper 发布拆解分析报告：可以擦除整个磁盘、覆写系统分区、使用随机密钥加密所有文件。GigaWiper 最早可以追溯到 2023 年，这个后门程序主要用于间谍攻击，当黑客察觉到调查分析时就可能启动破坏性组件，将这个硬盘上的数据擦除避免被查到蛛丝马迹。查看全文：https://ourl.co/113896&lt;/p&gt;&lt;p&gt;微软安全团队日前发文曝光名为 GigaWiper 的破坏性后门程序，这个后门程序性质极其恶劣，简单来说就是黑客的目的是破坏而不是出于经济利益，不过分析显示黑客的真正目的其实还是间谍攻击。微软称这个后门程序支持完整擦除整个磁盘、覆写系统盘，以及运行伪造的勒索软件加密用户文件，但黑客压根不会保存加密密钥。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113896.png" rel="nofollow"&gt;&lt;img alt="微软发现恶性后门程序：可以擦除整个磁盘/覆写系统盘/加密文件但不保留解密密钥" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113896.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;目前 X/Twitter 已经没有人工审核，现在依靠的主要是名为社区笔记的功能，该功能由受邀的真实人类用户和 Grok 机器人共同参与，当某个帖子是误导性内容时，社区成员可以撰写笔记，当笔记获得其他成员赞同时，就会显示在推文底部用来提醒看到帖子的用户。&lt;/p&gt;
-&lt;p&gt;Grok AI 机器人现在也会自动检查热门内容并对内容进行核实，如果帖子被判定为误导性内容，Grok AI 也会添加社区笔记进行澄清，只不过目前 Grok AI 添加的社区笔记准确性不太高，至少现阶段还没法和人类社区成员相比。&lt;/p&gt;
-&lt;p&gt;埃隆马斯克提到的功能是基于社区笔记的扩展，即社区笔记如果被多数成员赞同并展示出来，则后续笔记内容会通过私信发送给互动过的用户，这样大量互动过的用户可以快速收到辟谣内容，这可以快速、大范围地进行辟谣，但如果用户只是浏览过误导性内容，并未转发、点赞或评论过，则不会收到私信提醒。&lt;/p&gt;
+&lt;p&gt;原始磁盘擦除工具：该工具会在系统重启前覆盖物理驱动器并擦除分区表，这不是简单地删除文件，而是直接摧毁磁盘内容，受害者想要通过常规方式恢复硬盘的难度非常大，即便是专业的数据恢复软件想要完整恢复数据估计也很困难。&lt;/p&gt;
+&lt;p&gt;擦除系统分区数据：该工具会使用多种不同的数据模式多次覆写系统分区，由于系统分区数据出现损坏，因此关机后系统也无法再重新启动。同理，这种多次对系统分区的覆写行为，让数据恢复难度极大，可以说基本没有恢复的可能性。&lt;/p&gt;
+&lt;p&gt;伪装勒索软件加密：值得注意的是这个破坏性后门程序还会伪装成勒索软件对用户数据进行高强度加密，微软分析后发现，黑客确实使用勒索软件对数据进行加密，但并为回传解密密钥到服务器，这意味着连黑客自己都不可能再解密这些数据。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;此前 X/Twitter 产品经理已经透露过这个功能，但已经过去很长时间这个功能还未上线，现在埃隆马斯克再次提到这个功能，不知道这是否意味着辟谣功能很快就会上线，埃隆马斯克也没有在推文中透露此功能的具体上线时间。&lt;/p&gt;
+&lt;p&gt;尽管后门程序包含诸多破坏性行为，但微软经过仔细分析后认为这个后门程序主要可能还是用于间谍目的，其包含的多个功能可以用来监视和控制受感染的设备，例如对显示器进行截图、在用户工作时悄悄录制屏幕，还可以开启隐藏的 VNC 会话来串流显示画面。&lt;/p&gt;
+&lt;p&gt;从分析和其他公开数据来看，黑客在前期将这个后门程序用于间谍目的收集目标设备的各类敏感信息，当达成目标或察觉被调查时，就可以启动破坏性组件直接将硬盘数据摧毁，这样调查机构也难以从被摧毁的硬盘里收集数据进行分析。&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 10 Jul 2026 02:00:30 +0000</pubDate></item><item><title>Claude上线防沉迷系统 当使用AI时间达到阈值后就弹出提醒 避免用户沉迷AI</title><link>https://www.landian.news/archives/113874.html</link><description>
-&lt;p&gt;#人工智能 Claude 推出反思面板和防沉迷系统，当你使用 AI 时间达到阈值后就触发防沉迷系统并弹出提醒。不过这个功能只防君子，因为用户可以随时忽略提醒或彻底关闭防沉迷。反思面板会收集用户日常使用数据给出总结和分析，有时候 Claude 还会向用户提出反思性问题，例如哪些事应该由用户自己亲力亲为而不是依赖 AI。查看全文：https://ourl.co/113874&lt;/p&gt;&lt;p&gt;日前 A 社宣布向用户推出 Claude 使用反思面板，用户可以通过该功能查看自己如何使用 Claude、主要使用场景是什么、使用频率是否符合个人目标，用户还可以调整自己与 AI 工具的协作方式等。目前反思面板还处在测试阶段，面向已经开启记忆功能的 Claude Free、Pro、Max 用户开放，具体用户可以在网页或桌面版的设置页面中找到。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;很多用户在接受 A 社访谈时都提到共同问题：AI 到底应该如何融入日常生活？哪些任务适合交给 AI？哪些事情仍然应该由人类自己完成？这次 A 社推出的反思面板就是为了帮助用户更清楚地理解自己使用 Claude AI 的方式，而不是单纯增加模型调用或者延长在线时间。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113874-1.png" rel="nofollow"&gt;&lt;img alt="Claude上线防沉迷系统 当使用AI时间达到阈值后就弹出提醒 避免用户沉迷AI" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113874-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;反思面板会生成用户的使用总结，涵盖用户经常聊的关键话题、使用模式以及经常通过 Claude 处理的任务类型。用户可以查看过去 1 个月、3 个月、6 个月或 12 个月的 Claude 聊天活动，从而了解自己在哪些方向上最依赖 AI。&lt;/p&gt;
-&lt;p&gt;反思面板还会展示用户最常在什么时候使用 Claude，这些时间主要花在什么任务上，A 社称后续还会增加使用 Claude 花费多少时间的视图，让用户可以更直观地了解自己在 AI 工具上的时间投入。&lt;/p&gt;
-&lt;p&gt;更重要的是反思面板还会定期向用户提出反思性问题，例如即使使用 Claude 可以更快完成，有哪些事你仍然希望自己亲自完成。用户可以继续与 Claude 讨论这些问题，并按照 Claude 给出的建议，减少使用 Claude，至少在一些事情上自己亲力亲为。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113874-2.png" rel="nofollow"&gt;&lt;img alt="Claude上线防沉迷系统 当使用AI时间达到阈值后就弹出提醒 避免用户沉迷AI" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113874-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;反思面板提供的其他功能还包括，用户可以设置安静时间，或者设置 Claude 防沉迷系统，当使用时间达到阈值后就提醒自己休息。当然这个防沉迷系统只防君子，因为用户可以随时忽略防沉迷提醒或彻底关闭防沉迷设置。&lt;/p&gt;
-&lt;p&gt;需要说明的是反思面板不会读取隐身聊天的内容，也不会读取连接工具中的底层文件，例如用户可能曾让 Claude 总结过收件箱，总结邮件这个行为可能出现在反思报告里，但源邮件本身不会被放在反思内容里，避免出现潜在的隐私安全问题。&lt;/p&gt;
+</description><pubDate>Fri, 10 Jul 2026 07:06:24 +0000</pubDate></item><item><title>微软证实WSL容器也支持Windows 10 其他可以安装WSL的系统也都支持</title><link>https://www.landian.news/archives/113895.html</link><description>
+&lt;p&gt;#软件资讯 微软证实 Windows 10 也可以安装部署 WSL 容器功能，可以替代 Docker Desktop 且无需常驻进程减少资源占用。简而言之，WSL 容器不属于系统级功能，所以即便 Windows 10 结束支持也不影响 WSL 容器继续安装，有兴趣的用户可以部署试试。部署方法：https://ourl.co/113895&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/113703.html" rel="noopener" target="_blank"&gt;早前微软发布 WSL 容器&lt;/a&gt;，这是微软开发的原生容器平台，让用户无需安装 Docker Desktop 即可安装 / 部署 / 使用容器，不需要桌面客户端常驻后台也意味着可以节省更多硬件资源，所以目前 WSL 容器还是比较受经常玩容器的用户和开发者欢迎的。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113703.png" rel="nofollow"&gt;&lt;img alt="微软证实WSL容器也支持Windows 10 其他可以安装WSL的系统也都支持" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113703.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 微软确认 WSL 容器也支持 Windows 10 系统：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;微软目前已经结束 Windows 10 的支持，正常来说对于已经结束支持的操作系统，微软不会再为其提供新功能。但 WSL 容器属于例外情况，负责 Linux 子系统开发的微软产品经理克雷格证实，WSL 容器可以在 Windows 10 以及其他支持 WSL 的系统上运行。&lt;/p&gt;
+&lt;p&gt;具体来说对于 Windows 10 而言，用户至少要使用 V2004 版 (构建版本号为 Build 19041)，这是因为 WSL 对系统版本有最低要求，所以只要系统能够正常安装使用 WSL 子系统，那就可以安装和使用 WSL 容器，这并不算是 Windows 10 的新功能，而是 WSL 容器作为 WSL 更新安装，不受操作系统本身的功能限制。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 如何优雅地在 Windows 10 上使用 WSL 容器：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;默认情况下 Windows 10 既没有安装 WSL 也没有安装 Windows Terminal，如果想要优雅地使用 WSL 容器，建议用户安装微软开源的 Windows Terminal 终端应用，然后安装 WSL2 和 WSL 容器，当然前提是系统版本号要满足最低要求，具体可以按照下面的部署进行检查。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;检查系统版本号：Win+R 打开运行后输入 winver 按回车即可在弹窗中看到版本号&lt;/li&gt;
+&lt;li&gt;打开管理员模式的命令提示符，然后使用 wsl --install 命令安装，这个过程可能会持续几分钟&lt;/li&gt;
+&lt;li&gt;更新容器构建，使用命令 wsl --update --pre-release&lt;/li&gt;
+&lt;li&gt;关闭子系统再启用，使用命令 wsl --shutdown&lt;/li&gt;
+&lt;li&gt;重新打开命令提示符，使用命令 wslc --version 检查 WSL 容器是否已经完成部署&lt;/li&gt;
+&lt;li&gt;接下来你可以使用 wslc 命令查看容器帮助教程&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;container # 管理容器
+image # 管理映像
+network # 管理网络
+registry # 管理注册表凭据
+settings # 在默认编辑器中打开设置文件
+system # 系统级命令
+volume # 管理卷
+attach # 附加到容器
+build # 从 Dockerfile 生成映像
+create # 创建容器
+exec # 在正在运行的容器中执行命令
+export # 将容器的文件系统导出为 tar 存档
+images # 列出映像
+import # 从 tarball 导入映像
+inspect # 检查对象
+kill # 终止容器
+list # 列出容器
+load # 加载映像
+login # 登录到注册表
+logout # 从注册表注销
+logs # 查看容器日志
+pull # 拉取映像
+push # 将映像上传到注册表
+remove # 移除容器
+rmi # 移除映像
+run # 运行容器
+save # 保存映像
+start # 启动容器
+stats # 显示容器资源使用统计信息
+stop # 停止容器
+tag # 标记映像
+version # 显示版本信息&lt;/pre&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 10 Jul 2026 01:30:28 +0000</pubDate></item><item><title>微软与中国人大合作开发Flint开源项目 让AI智能体可以创建内容丰富的交互式图表</title><link>https://www.landian.news/archives/113873.html</link><description>
-&lt;p&gt;#开源项目 微软与中国人民大学合作开发 Flint 开源项目，让 AI 智能体可以创建内容丰富的交互式图表。目前传统的开源图表库都是让用户提供详细的参数后「画图表」，而 Flint 则是根据开发者描述先生成简短和语义化的图表规则，然后编译器会根据数据、语义类型等自动推导坐标轴、比例尺、格式化等。查看全文：https://ourl.co/113873&lt;/p&gt;&lt;p&gt;日前微软研究院与中国人民大学创新研究院联合开源发布面向 AI 智能体的图表可视化语言项目 Flint，该项目属于面向 AI 智能体的可视化中间语言，目标是让 AI 智能体可以更稳定地生成美观、可读、可交互和可维护的数据图表。&lt;/p&gt;
-&lt;p&gt;本文发布时 Flint 项目已经可以公开访问源代码，&lt;a href="https://www.landian.news/go?url=https://microsoft.github.io/flint-chart/#/" rel="noopener" target="_blank"&gt;提供在线项目页&lt;/a&gt;、JavaScript 和 TypeScript 库以及 MCP 服务器，方便开发者和 AI 工具通过项目文档快速部署，然后用来生成丰富多彩的可交互图表。&lt;/p&gt;
-&lt;figure&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113873.png" rel="nofollow"&gt;&lt;img alt="微软与中国人大合作开发Flint开源项目 让AI智能体可以创建内容丰富的交互式图表" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113873.png"/&gt;&lt;/a&gt;&lt;figcaption&gt;这是蓝点网用 Flint 制作的数据雷达，表格是可以交互的，但截图无法点击&lt;/figcaption&gt;&lt;/figure&gt;
+</description><pubDate>Fri, 10 Jul 2026 06:40:26 +0000</pubDate></item><item><title>OpenAI宣布Atlas浏览器停止开发 浏览器相关功能也集成到ChatGPT中</title><link>https://www.landian.news/archives/113894.html</link><description>
+&lt;p&gt;#软件资讯 OpenAI 宣布 Atlas 浏览器停止开发并弃用，浏览器相关功能也集成到 ChatGPT 中。不过说是集成但其实风马牛不相及，OpenAI 说的集成指的是 Codex 原本内置的浏览器功能，这也确实可以加载网页，但整个功能体验与独立的浏览器完全不同。使用 Atlas 的用户需要尽早备份数据，包括书签和历史记录等。查看全文：https://ourl.co/113894&lt;/p&gt;&lt;p&gt;OpenAI 今天宣布基于人工智能的独立桌面浏览器 Atlas 将被弃用，取而代之的是全新的 ChatGPT 桌面应用程序，OpenAI 正在打造统一的桌面应用程序，所以现在 Codex 已经被集成到 ChatGPT 中，而后续 Atlas 相关功能也会被集成到 ChatGPT 中。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/public/thumb/atlas.png" rel="nofollow"&gt;&lt;img alt="OpenAI宣布Atlas浏览器停止开发 浏览器相关功能也集成到ChatGPT中" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/public/thumb/atlas.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;微软研究院表示，目前 AI 智能体生成图表时存在多个现实问题，即现有的开源可视化库功能强大，但完整的配置往往非常冗长，涉及坐标轴、比例尺、颜色、标签、间距、布局、日期解析等大量细节，而 AI 模型直接生成这些底层配置时，很容易出现代码脆弱、图表难看、标签溢出或语义错误等问题。&lt;/p&gt;
-&lt;p&gt;Flint 的做法不是让 AI 直接编写复杂图表配置，而是先生成更简短和更加语义化的图表规格，开发者或 AI 模型只需要描述数据字段的含义、图表类型以及字段到视觉通道的映射，例如哪个字段是价格、哪个字段是国家或地区、哪个字段用于横轴或颜色，随后 Flint 编译器会根据数据、语义类型、图表类型和编码关系，自动推导坐标轴、比例尺、格式化、颜色方案、图例和布局等底层设置。&lt;/p&gt;
-&lt;p&gt;即传统图表库更像是直接画图工具，用户需要精确控制每个参数；而 Flint 更像是图表意图描述层，把人类和 AI 更容易理解的图表需求，编译成不同图表库可以执行的原生配置，同时 Flint 提供非常不错的兼容性，开发者还可以在不重写图表逻辑的情况下，将使用其他图表库生成的图表切换渲染后端。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Flint 目前提供库集成或作为 MCP 服务器提供给 AI 智能体，开发者和用户可以根据自己的使用场景以及实际使用需求来进行部署，目前微软仅提供 Node.js 版，Python 版正在开发中目前已经提供源代码，但尚未发布到 PyPI 仓库。&lt;/p&gt;
-&lt;pre&gt;# 安装 Flint 库
-
-npm install flint-chart
-
-# 启动 MCP 服务器
-
-npx -y flint-chart-mcp
-
-# 本地开发示例
-
-git clone https://github.com/microsoft/flint-chart
-cd flint-chart
-npm install
-npm run typecheck
-npm run test
-npm run build
-npm run site
-
-# 启动本地示例站点
-
-http://localhost:5274/&lt;/pre&gt;
+&lt;p&gt;目前最新发布的集成 Codex 的 ChatGPT，甚至已经弱化 ChatGPT 原本的功能，也就是以 Codex 为主，聊天功能变成小窗口形式提供。而新版 ChatGPT 也继承 Codex 原本提供的浏览器功能，OpenAI 所说的集成浏览器功能说的就是 Codex 内置的浏览器。&lt;/p&gt;
+&lt;p&gt;现在 ChatGPT 集成的浏览器确实可以在用户要求的情况下加载网站，但显然这与独立桌面浏览器的体验是完全不同的，所以说是集成其实最终还是弃用，Atlas 浏览器最终将在 8 月 9 日停用，到时候用户可能无法继续使用 Atlas 浏览器，所以用户需要考虑将书签和浏览记录导出另存。&lt;/p&gt;
+&lt;p&gt;接下来几天 OpenAI 会陆续向使用 Atlas 浏览器的用户发送应用内和邮件通知，提醒用户升级到新版 ChatGPT 以及分享 Atlas 弃用的消息，虽然距离弃用还有一个月，不过建议用户提前做好迁移准备。&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 10 Jul 2026 01:00:29 +0000</pubDate></item><item><title>1分钟部署静态网站到全球：Cloudflare Drop上线 无需域名和服务器</title><link>https://www.landian.news/archives/113872.html</link><description>
-&lt;p&gt;#网站应用 Cloudflare 推出新玩具：Drop，可以 1 分钟部署静态网站到全球，无需域名和服务器。该功能主要支持上传静态网站文件实现快捷部署，默认情况下部署的网站有效期 60 分钟，但也可以绑定到账户里实现永久访问。注意仅限于静态网站，不能调用数据库 / Node 后端等。查看全文：https://ourl.co/113872&lt;/p&gt;&lt;p&gt;网络服务提供商 Cloudflare 日前推出名为 Drop 的新功能，该功能可以用来托管纯静态网站，按照设计逻辑，默认情况下用户上传的网站文件将在 60 分钟内过期，用户可以上传部署后将其分享给好友查看。但 Cloudflare 也提供认领功能，可以将快捷部署的网站绑定到自己的账号里实现永久访问。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113872-1.png" rel="nofollow"&gt;&lt;img alt="1分钟部署静态网站到全球：Cloudflare Drop上线 无需域名和服务器" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113872-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113872-2.png" rel="nofollow"&gt;&lt;img alt="1分钟部署静态网站到全球：Cloudflare Drop上线 无需域名和服务器" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113872-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113872-3.png" rel="nofollow"&gt;&lt;img alt="1分钟部署静态网站到全球：Cloudflare Drop上线 无需域名和服务器" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113872-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113872-4.png" rel="nofollow"&gt;&lt;img alt="1分钟部署静态网站到全球：Cloudflare Drop上线 无需域名和服务器" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113872-4.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Cloudflare Drop 支持上传压缩包或文件夹，只要文件里的网站结构完整，后端服务器会自动识别和处理内容然后在云端启动隔离环境部署网站，完成部署后网站还支持通过 Cloudflare CDN 实现全球加速访问，这样无论访问者身在何处都可以快速打开这个网站。&lt;/p&gt;
-&lt;p&gt;PS：虽然创建时动态显示网站会被部署到全球 CDN 节点，但按照 Cloudflare 的逻辑，其实应该是有人访问后资源才会被传输到访问者附近的节点，这样可以节省节点资源，避免太多低频访问内容被存储到节点后浪费硬盘空间。&lt;/p&gt;
-&lt;p&gt;默认情况下生成的网站有效期为 60 分钟，通过 Workers.dev 域名提供公网访问，如果用户有需要的话也可以将其绑定到自己的账号里，也就是认领功能，这样这个网站未来也都可以持续访问，不会被 Cloudflare 自动回收和删除。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;是否收费：完全免费提供&lt;/li&gt;
-&lt;li&gt;随机域名：Cloudflare 提供随机域名可供公网访问&lt;/li&gt;
-&lt;li&gt;资源支持：静态网站，这里的静态网站指的是不需要调用数据库/PHP/Node.js/Python等&lt;/li&gt;
-&lt;li&gt;动态路由：Drop 本身仅支持静态资源，但开发者也可以通过 API 调用其他动态资源&lt;/li&gt;
-&lt;li&gt;构建地址：&lt;a href="https://www.landian.news/go?url=https://www.cloudflare.com/drop/" rel="noopener" target="_blank"&gt;https://www.cloudflare.com/drop/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+</description><pubDate>Fri, 10 Jul 2026 03:41:22 +0000</pubDate></item><item><title>单纯恶心OpenAI？Claude Code重置所有订阅用户额度 让用户可以继续使用Fable 5</title><link>https://www.landian.news/archives/113893.html</link><description>
+&lt;p&gt;#人工智能 朴实无华的竞争只需要不停地点重置即可：Claude Code 为所有订阅用户重置额度，让用户可以继续使用 Fable 5。选择在 GPT-5.6 发布的时候重置多少有些恶心 OpenAI 的意思，不过开发者们可能更希望两家公司更激烈的竞争，这样我们就可以获得更多的使用额度。查看全文：https://ourl.co/113893&lt;/p&gt;&lt;p&gt;前文我们提到 Codex 团队重置所有付费订阅用户额度让用户可以体验最新发布的 GPT-5.6 系列模型，没想到这个时候 Claude Code 也重置额度让开发者们可以继续使用 Claude Fable 5 模型，A 社选择在这个时候重置额度似乎就是单纯恶心 OpenAI。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113385-1.png" rel="nofollow"&gt;&lt;img alt="单纯恶心OpenAI？Claude Code重置所有订阅用户额度 让用户可以继续使用Fable 5" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113385-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.landian.news/archives/113838.html" rel="noopener" target="_blank"&gt;Claude Fable 5 的订阅套餐内免费使用经过延期后将在 7 月 12 日结束&lt;/a&gt;，之后开发者们必须单独充值使用积分才可以继续使用 Claude Fable 5，而充值积分的价格与 API 完全相同，对开发者而言后面继续使用 Fable 5 成本还是非常高的。&lt;/p&gt;
+&lt;p&gt;所以即便重置额度 A 社也不可能阻止部分开发者转向 GPT-5.6 Sol，这也是为什么我们说选择这个时候重置额度似乎就是单纯恶心 OpenAI，不过 Codex 产品经理也不甘示弱，Tibo 在 Claude Code 重置额度的推文下表示「闻到了恐惧的味道」。&lt;/p&gt;
+&lt;p&gt;当然无论 A 社出于什么目的都无所谓，激烈的市场竞争对开发者来说自然是好事，想要获得开发者的关注其实很简单，只需要不停地点击重置即可，说不好接下来 Claude Code 和 Codex 都会进行更多的重置。&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 10 Jul 2026 00:30:27 +0000</pubDate></item><item><title>微软终于修复被研究人员公开曝光的Microsoft Defender提权漏洞 已自动推送给所有设备</title><link>https://www.landian.news/archives/113871.html</link><description>
-&lt;p&gt;#安全资讯 在漏洞被公开曝光 1 个月后，微软发布更新修复 Microsoft Defender 反病毒引擎中的权限提升漏洞。该漏洞最初被安全研究人员公开曝光，原因是研究人员与微软威胁情报中心出现争议，随后微软还发文称将打击这种提前公布漏洞的行为。现在微软终于发布更新修复漏洞，修复程序会被自动下载安装。查看全文：https://ourl.co/113871&lt;/p&gt;&lt;p&gt;此前有研究人员直接公开曝光微软尚未修复的 Microsoft Defender 权限提升漏洞，正常情况下研究人员应该向微软通报安全漏洞等待修复，后续等漏洞修复完成后再按照约定的时间公开发布漏洞。但是研究人员与微软威胁情报中心的工作人员产生争议，因此研究人员直接在微软尚未修复漏洞的情况下曝光漏洞。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113871.png" rel="nofollow"&gt;&lt;img alt="微软终于修复被研究人员公开曝光的Microsoft Defender提权漏洞 已自动推送给所有设备" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113871.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 10 Jul 2026 03:11:36 +0000</pubDate></item><item><title>Codex已完成硬重置让用户体验最新发布的GPT-5.6 (直接重置不增加重置次数)</title><link>https://www.landian.news/archives/113892.html</link><description>
+&lt;p&gt;#人工智能 Codex 已完成硬重置让用户体验最新发布的 GPT-5.6 系列模型，此次是直接重置而不是增加手动重置次数。现在用户查看 5 小时和当周剩余额度应该可以看到都是 100%，接下来可以去体验 GPT-5.6。另外 OpenAI 赠送的首次手动重置机会将在 7 月 12 日到期，各位可能要合理安排尽快用掉次数避免浪费。查看全文：https://ourl.co/113892&lt;/p&gt;&lt;p&gt;昨天夜里 GPT-5.6 系列模型正式发布并向用户开放，按照惯例新模型发布时 Codex 团队也会重置用户额度，让大家可以充分体验新模型，所以这次 GPT-5.6 发布后 OpenAI 也同样重置额度，大家现在查询应该就可以看到当前额度恢复为 100%，下次刷新时间顺延 7 天。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;攻击者可以利用该漏洞从普通用户权限提升管理员，对于企业级环境来说，攻击者可以利用这个漏洞提权并进行更多危害操作，说起来这个漏洞曝光已经挺长时间，直到现在微软才发布安全公告宣布修复这个漏洞。微软自己给漏洞的评分为 7.6 分，利用可能性评估则为更有可能被利用。&lt;/p&gt;
-&lt;p&gt;微软目前向所有用户推送 Microsoft 恶意软件防护引擎 1.1.26060.3008 及更高版本用来修复漏洞，更新过程是自动的，即便用户已经安装其他安全软件而禁用 Microsoft Defender，反病毒引擎仍然会下载和安装更新，不过在被禁用的情况下攻击者无法利用漏洞进行提权。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;发现该漏洞的是安全研究人员 @ChaoticEclipse0，该漏洞被研究人员称为 RoguePlanet，研究人员最初在 2026 年 6 月 8 日公开曝光该漏洞，随后微软威胁情报中心发布关于该漏洞 (CVE-2026-50656) 的相关说明，只是当时微软并未提供安全更新。&lt;/p&gt;
-&lt;p&gt;今天微软更新这篇安全公告增加关于修复程序的信息，也就是上文提到的 Microsoft Defender Protection Engine 1.1.26060.3008 版，对个人用户而言，如果使用 Microsoft Defender 则保持联网即可，若是企业环境则 IT 管理员可以检查员工设备的更新情况，在没有设置额外策略的情况下，当前应该也已经完成更新。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://www.landian.news/go?url=https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2026-50656" rel="noopener" target="_blank"&gt;MSRC&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;遗憾的是此次 Codex 团队的做法是直接硬重置而不是保留手动重置次数，所以部分用户此前当周额度用的比较少那现在就比较亏，这还不如直接提供手动重置次数，这样大家可以在有需要的时候手动重置避免造成浪费。&lt;/p&gt;
+&lt;p&gt;说起来 OpenAI 赠送的首次手动重置机会将在 7 月 12 日到期，到期后这次重置机会将会自动过期无法使用，所以还未手动重置过的用户应当合理安排使用计划，尽快将这次手动重置机会用掉。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113892.png" rel="nofollow"&gt;&lt;img alt="Codex已完成硬重置让用户体验最新发布的GPT-5.6 (直接重置不增加重置次数)" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113892.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 09 Jul 2026 13:04:51 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 10 Jul 2026 02:49:21 +0000</pubDate></item></channel></rss>
