@@ -1,2 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>landiannews</title><link/><description>&lt;div id="app"&gt;&lt;/div&gt;</description><language>zh-CN</language><lastBuildDate>Fri, 10 Jul 2026 10:48:12 +0000</lastBuildDate></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Fri, 10 Jul 2026 07:06:24 +0000</lastBuildDate><item><title>微软发现恶性后门程序：可以擦除整个磁盘/覆写系统盘/加密文件但不保留解密密钥</title><link>https://www.landian.news/archives/113896.html</link><description>
+&lt;p&gt;#安全资讯 微软对恶性后门程序 GigaWiper 发布拆解分析报告：可以擦除整个磁盘、覆写系统分区、使用随机密钥加密所有文件。GigaWiper 最早可以追溯到 2023 年，这个后门程序主要用于间谍攻击，当黑客察觉到调查分析时就可能启动破坏性组件，将这个硬盘上的数据擦除避免被查到蛛丝马迹。查看全文：https://ourl.co/113896&lt;/p&gt;&lt;p&gt;微软安全团队日前发文曝光名为 GigaWiper 的破坏性后门程序，这个后门程序性质极其恶劣，简单来说就是黑客的目的是破坏而不是出于经济利益，不过分析显示黑客的真正目的其实还是间谍攻击。微软称这个后门程序支持完整擦除整个磁盘、覆写系统盘，以及运行伪造的勒索软件加密用户文件，但黑客压根不会保存加密密钥。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113896.png" rel="nofollow"&gt;&lt;img alt="微软发现恶性后门程序：可以擦除整个磁盘/覆写系统盘/加密文件但不保留解密密钥" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113896.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;原始磁盘擦除工具：该工具会在系统重启前覆盖物理驱动器并擦除分区表，这不是简单地删除文件，而是直接摧毁磁盘内容，受害者想要通过常规方式恢复硬盘的难度非常大，即便是专业的数据恢复软件想要完整恢复数据估计也很困难。&lt;/p&gt;
+&lt;p&gt;擦除系统分区数据：该工具会使用多种不同的数据模式多次覆写系统分区，由于系统分区数据出现损坏，因此关机后系统也无法再重新启动。同理，这种多次对系统分区的覆写行为，让数据恢复难度极大，可以说基本没有恢复的可能性。&lt;/p&gt;
+&lt;p&gt;伪装勒索软件加密：值得注意的是这个破坏性后门程序还会伪装成勒索软件对用户数据进行高强度加密，微软分析后发现，黑客确实使用勒索软件对数据进行加密，但并未回传解密密钥到服务器，这意味着连黑客自己都不可能再解密这些数据。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;尽管后门程序包含诸多破坏性行为，但微软经过仔细分析后认为这个后门程序主要可能还是用于间谍目的，其包含的多个功能可以用来监视和控制受感染的设备，例如对显示器进行截图、在用户工作时悄悄录制屏幕，还可以开启隐藏的 VNC 会话来串流显示画面。&lt;/p&gt;
+&lt;p&gt;从分析和其他公开数据来看，黑客在前期将这个后门程序用于间谍目的收集目标设备的各类敏感信息，当达成目标或察觉被调查时，就可以启动破坏性组件直接将硬盘数据摧毁，这样调查机构也难以从被摧毁的硬盘里收集数据进行分析。&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 10 Jul 2026 07:06:24 +0000</pubDate></item><item><title>微软证实WSL容器也支持Windows 10 其他可以安装WSL的系统也都支持</title><link>https://www.landian.news/archives/113895.html</link><description>
+&lt;p&gt;#软件资讯 微软证实 Windows 10 也可以安装部署 WSL 容器功能，可以替代 Docker Desktop 且无需常驻进程减少资源占用。简而言之，WSL 容器不属于系统级功能，所以即便 Windows 10 结束支持也不影响 WSL 容器继续安装，有兴趣的用户可以部署试试。部署方法：https://ourl.co/113895&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/113703.html" rel="noopener" target="_blank"&gt;早前微软发布 WSL 容器&lt;/a&gt;，这是微软开发的原生容器平台，让用户无需安装 Docker Desktop 即可安装 / 部署 / 使用容器，不需要桌面客户端常驻后台也意味着可以节省更多硬件资源，所以目前 WSL 容器还是比较受经常玩容器的用户和开发者欢迎的。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113703.png" rel="nofollow"&gt;&lt;img alt="微软证实WSL容器也支持Windows 10 其他可以安装WSL的系统也都支持" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113703.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 微软确认 WSL 容器也支持 Windows 10 系统：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;微软目前已经结束 Windows 10 的支持，正常来说对于已经结束支持的操作系统，微软不会再为其提供新功能。但 WSL 容器属于例外情况，负责 Linux 子系统开发的微软产品经理克雷格证实，WSL 容器可以在 Windows 10 以及其他支持 WSL 的系统上运行。&lt;/p&gt;
+&lt;p&gt;具体来说对于 Windows 10 而言，用户至少要使用 V2004 版 (构建版本号为 Build 19041)，这是因为 WSL 对系统版本有最低要求，所以只要系统能够正常安装使用 WSL 子系统，那就可以安装和使用 WSL 容器，这并不算是 Windows 10 的新功能，而是 WSL 容器作为 WSL 更新安装，不受操作系统本身的功能限制。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 如何优雅地在 Windows 10 上使用 WSL 容器：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;默认情况下 Windows 10 既没有安装 WSL 也没有安装 Windows Terminal，如果想要优雅地使用 WSL 容器，建议用户安装微软开源的 Windows Terminal 终端应用，然后安装 WSL2 和 WSL 容器，当然前提是系统版本号要满足最低要求，具体可以按照下面的部署进行检查。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;检查系统版本号：Win+R 打开运行后输入 winver 按回车即可在弹窗中看到版本号&lt;/li&gt;
+&lt;li&gt;打开管理员模式的命令提示符，然后使用 wsl --install 命令安装，这个过程可能会持续几分钟&lt;/li&gt;
+&lt;li&gt;更新容器构建，使用命令 wsl --update --pre-release&lt;/li&gt;
+&lt;li&gt;关闭子系统再启用，使用命令 wsl --shutdown&lt;/li&gt;
+&lt;li&gt;重新打开命令提示符，使用命令 wslc --version 检查 WSL 容器是否已经完成部署&lt;/li&gt;
+&lt;li&gt;接下来你可以使用 wslc 命令查看容器帮助教程&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;container # 管理容器
+image # 管理映像
+network # 管理网络
+registry # 管理注册表凭据
+settings # 在默认编辑器中打开设置文件
+system # 系统级命令
+volume # 管理卷
+attach # 附加到容器
+build # 从 Dockerfile 生成映像
+create # 创建容器
+exec # 在正在运行的容器中执行命令
+export # 将容器的文件系统导出为 tar 存档
+images # 列出映像
+import # 从 tarball 导入映像
+inspect # 检查对象
+kill # 终止容器
+list # 列出容器
+load # 加载映像
+login # 登录到注册表
+logout # 从注册表注销
+logs # 查看容器日志
+pull # 拉取映像
+push # 将映像上传到注册表
+remove # 移除容器
+rmi # 移除映像
+run # 运行容器
+save # 保存映像
+start # 启动容器
+stats # 显示容器资源使用统计信息
+stop # 停止容器
+tag # 标记映像
+version # 显示版本信息&lt;/pre&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 10 Jul 2026 06:40:26 +0000</pubDate></item><item><title>OpenAI宣布Atlas浏览器停止开发 浏览器相关功能也集成到ChatGPT中</title><link>https://www.landian.news/archives/113894.html</link><description>
+&lt;p&gt;#软件资讯 OpenAI 宣布 Atlas 浏览器停止开发并弃用，浏览器相关功能也集成到 ChatGPT 中。不过说是集成但其实风马牛不相及，OpenAI 说的集成指的是 Codex 原本内置的浏览器功能，这也确实可以加载网页，但整个功能体验与独立的浏览器完全不同。使用 Atlas 的用户需要尽早备份数据，包括书签和历史记录等。查看全文：https://ourl.co/113894&lt;/p&gt;&lt;p&gt;OpenAI 今天宣布基于人工智能的独立桌面浏览器 Atlas 将被弃用，取而代之的是全新的 ChatGPT 桌面应用程序，OpenAI 正在打造统一的桌面应用程序，所以现在 Codex 已经被集成到 ChatGPT 中，而后续 Atlas 相关功能也会被集成到 ChatGPT 中。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/public/thumb/atlas.png" rel="nofollow"&gt;&lt;img alt="OpenAI宣布Atlas浏览器停止开发 浏览器相关功能也集成到ChatGPT中" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/public/thumb/atlas.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;目前最新发布的集成 Codex 的 ChatGPT，甚至已经弱化 ChatGPT 原本的功能，也就是以 Codex 为主，聊天功能变成小窗口形式提供。而新版 ChatGPT 也继承 Codex 原本提供的浏览器功能，OpenAI 所说的集成浏览器功能说的就是 Codex 内置的浏览器。&lt;/p&gt;
+&lt;p&gt;现在 ChatGPT 集成的浏览器确实可以在用户要求的情况下加载网站，但显然这与独立桌面浏览器的体验是完全不同的，所以说是集成其实最终还是弃用，Atlas 浏览器最终将在 8 月 9 日停用，到时候用户可能无法继续使用 Atlas 浏览器，所以用户需要考虑将书签和浏览记录导出另存。&lt;/p&gt;
+&lt;p&gt;接下来几天 OpenAI 会陆续向使用 Atlas 浏览器的用户发送应用内和邮件通知，提醒用户升级到新版 ChatGPT 以及分享 Atlas 弃用的消息，虽然距离弃用还有一个月，不过建议用户提前做好迁移准备。&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 10 Jul 2026 03:41:22 +0000</pubDate></item><item><title>单纯恶心OpenAI？Claude Code重置所有订阅用户额度 让用户可以继续使用Fable 5</title><link>https://www.landian.news/archives/113893.html</link><description>
+&lt;p&gt;#人工智能 朴实无华的竞争只需要不停地点重置即可：Claude Code 为所有订阅用户重置额度，让用户可以继续使用 Fable 5。选择在 GPT-5.6 发布的时候重置多少有些恶心 OpenAI 的意思，不过开发者们可能更希望两家公司更激烈的竞争，这样我们就可以获得更多的使用额度。查看全文：https://ourl.co/113893&lt;/p&gt;&lt;p&gt;前文我们提到 Codex 团队重置所有付费订阅用户额度让用户可以体验最新发布的 GPT-5.6 系列模型，没想到这个时候 Claude Code 也重置额度让开发者们可以继续使用 Claude Fable 5 模型，A 社选择在这个时候重置额度似乎就是单纯恶心 OpenAI。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113385-1.png" rel="nofollow"&gt;&lt;img alt="单纯恶心OpenAI？Claude Code重置所有订阅用户额度 让用户可以继续使用Fable 5" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113385-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.landian.news/archives/113838.html" rel="noopener" target="_blank"&gt;Claude Fable 5 的订阅套餐内免费使用经过延期后将在 7 月 12 日结束&lt;/a&gt;，之后开发者们必须单独充值使用积分才可以继续使用 Claude Fable 5，而充值积分的价格与 API 完全相同，对开发者而言后面继续使用 Fable 5 成本还是非常高的。&lt;/p&gt;
+&lt;p&gt;所以即便重置额度 A 社也不可能阻止部分开发者转向 GPT-5.6 Sol，这也是为什么我们说选择这个时候重置额度似乎就是单纯恶心 OpenAI，不过 Codex 产品经理也不甘示弱，Tibo 在 Claude Code 重置额度的推文下表示「闻到了恐惧的味道」。&lt;/p&gt;
+&lt;p&gt;当然无论 A 社出于什么目的都无所谓，激烈的市场竞争对开发者来说自然是好事，想要获得开发者的关注其实很简单，只需要不停地点击重置即可，说不好接下来 Claude Code 和 Codex 都会进行更多的重置。&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 10 Jul 2026 03:11:36 +0000</pubDate></item><item><title>Codex已完成硬重置让用户体验最新发布的GPT-5.6 (直接重置不增加重置次数)</title><link>https://www.landian.news/archives/113892.html</link><description>
+&lt;p&gt;#人工智能 Codex 已完成硬重置让用户体验最新发布的 GPT-5.6 系列模型，此次是直接重置而不是增加手动重置次数。现在用户查看 5 小时和当周剩余额度应该可以看到都是 100%，接下来可以去体验 GPT-5.6。另外 OpenAI 赠送的首次手动重置机会将在 7 月 12 日到期，各位可能要合理安排尽快用掉次数避免浪费。查看全文：https://ourl.co/113892&lt;/p&gt;&lt;p&gt;昨天夜里 GPT-5.6 系列模型正式发布并向用户开放，按照惯例新模型发布时 Codex 团队也会重置用户额度，让大家可以充分体验新模型，所以这次 GPT-5.6 发布后 OpenAI 也同样重置额度，大家现在查询应该就可以看到当前额度恢复为 100%，下次刷新时间顺延 7 天。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;遗憾的是此次 Codex 团队的做法是直接硬重置而不是保留手动重置次数，所以部分用户此前当周额度用的比较少那现在就比较亏，这还不如直接提供手动重置次数，这样大家可以在有需要的时候手动重置避免造成浪费。&lt;/p&gt;
+&lt;p&gt;说起来 OpenAI 赠送的首次手动重置机会将在 7 月 12 日到期，到期后这次重置机会将会自动过期无法使用，所以还未手动重置过的用户应当合理安排使用计划，尽快将这次手动重置机会用掉。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113892.png" rel="nofollow"&gt;&lt;img alt="Codex已完成硬重置让用户体验最新发布的GPT-5.6 (直接重置不增加重置次数)" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113892.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 10 Jul 2026 02:49:21 +0000</pubDate></item></channel></rss>
