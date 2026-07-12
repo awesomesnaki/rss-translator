@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sun, 12 Jul 2026 19:51:16 +0000</lastBuildDate><item><title>用户界面如何随时间退化</title><link>https://grumpy.website/1723</link><description>&lt;p&gt;这些例子来自Windows，但MacOS警告的标准外观也存在同样的退化。曾有一段时间，系统UI界面的清晰度在不断提高，无处不在。而如今，我们生活在一个清晰度普遍下降的时代。这相当令人费解。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sun, 12 Jul 2026 22:17:54 +0000</lastBuildDate><item><title>WorkOS Pipes</title><link>https://workos.com/pipes?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q32026</link><description>&lt;p&gt;再次感谢WorkOS上周赞助DF。用户期望应用和代理能够接入他们已在使用的工具。每一次实现这一点的集成都意味着不同的OAuth流程、不同的令牌生命周期，以及在编写一行产品代码前需要花费数周的基础设施搭建。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://workos.com/pipes?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q32026"&gt;WorkOS Pipes通过一次API调用即可处理这一切&lt;/a&gt;。内置GitHub、Slack、Salesforce、Google Drive等预构建连接器。Pipes负责处理OAuth、令牌刷新和凭证存储。每次你都将使用全新令牌调用真实的提供商API。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://workos.com/pipes?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q32026"&gt;通过WorkOS Pipes连接100多个提供商&lt;/a&gt;。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/07/12/workos-pipes" title="Permanent link to ‘WorkOS Pipes’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Sun, 12 Jul 2026 22:17:54 +0000</pubDate></item><item><title>Paulo Andrade: ‘用SwiftUI构建Mac应用的最新动态：WWDC 27更新’</title><link>https://pfandrade.me/blog/swiftui-mac-assed-wwdc27-update/</link><description>&lt;p&gt;保罗·安德拉德：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我上一篇关于使用SwiftUI构建一个“Mac风格”应用的&lt;a href="https://pfandrade.me/blog/mac-assed-swiftui-app/"&gt;文章&lt;/a&gt;，获得的关注度超出了我的预期。它在Mastodon上被提及了&lt;a href="https://mastodon.social/@stroughtonsmith/116545164468952303"&gt;好几次&lt;/a&gt; &lt;a href="https://mastodon.social/@stroughtonsmith/116545164468952303/quotes"&gt;多次&lt;/a&gt;，被收录在&lt;a href="https://iosdevweekly.com/issues/750/#fuwtRgx"&gt;iOS Dev Weekly&lt;/a&gt;中，启发了5月版的&lt;a href="https://swiftcarnival.github.io/"&gt;Swift博客嘉年华&lt;/a&gt;，最终还被&lt;a href="https://mastodon.social/@gruber"&gt;约翰·格鲁伯&lt;/a&gt;——可以说是最该为推广“Mac风格”这个术语负责的人——在&lt;a href="https://daringfireball.net/2026/06/swiftui_only_makes_it_easy_to_develop_bad_apps"&gt;Daring Fireball&lt;/a&gt;上提及。&lt;/p&gt;
+&lt;p&gt;这些关注也引来了一位苹果工程师联系我，并提供了一些备注。我们交换了几封邮件，我提交了一些雷达反馈，现在WWDC 27已经结束，这篇帖子是对我之前写的问题的简要更新。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这里确实有进展，但我认为&lt;a href="https://daringfireball.net/2026/06/swiftui_only_makes_it_easy_to_develop_bad_apps"&gt;我的核心观点&lt;/a&gt;依然成立：SwiftUI已经七年了，但它并没有让创建优秀的Mac应用变得容易。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/07/12/andrade-swiftui" title="永久链接至‘保罗·安德拉德：WWDC 27关于用SwiftUI构建Mac风格应用的更新’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Sun, 12 Jul 2026 21:18:24 +0000</pubDate></item><item><title>用户界面如何随时间退化</title><link>https://grumpy.website/1723</link><description>&lt;p&gt;这些例子来自Windows，但MacOS警告的标准外观也存在同样的退化。曾有一段时间，系统UI界面的清晰度在不断提高，无处不在。而如今，我们生活在一个清晰度普遍下降的时代。这相当令人费解。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/07/12/how-uis-degrade-over-time" title="永久链接至“用户界面如何随时间退化”"&gt; ★ &lt;/a&gt;
 </description><pubDate>Sun, 12 Jul 2026 19:51:16 +0000</pubDate></item><item><title>每一帧完美</title><link>https://tonsky.me/blog/every-frame-perfect/</link><description>&lt;p&gt;尼基塔·"汤斯基"·普罗科波夫：&lt;/p&gt;
 &lt;blockquote&gt;
@@ -28,28 +39,4 @@
 &lt;/blockquote&gt;
 &lt;p&gt;这是对 &lt;a href="https://daringfireball.net/linked/2026/06/13/pcc-severely-limited-third-party-developers"&gt;苹果当前限制&lt;/a&gt; 的一种变通方案——该限制仅允许“首次 App Store 下载量少于两百万次的 App Store 小型企业计划开发者”访问私有云计算。因此，Rambo 为这个框架取了个巧妙的名称。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/07/12/twomillionkit" title="永久链接至‘TwoMillionKit：在 macOS 27 基础模型中使用私有云计算，无需授权’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sun, 12 Jul 2026 18:04:05 +0000</pubDate></item><item><title>萨姆·奥尔特曼与埃隆·马斯克争论谁在搞更大的骗局。</title><link>https://x.com/sama/status/2075982617976230043</link><description>&lt;p&gt;&lt;a href="https://x.com/elonmusk/status/2075892136604573903"&gt;埃隆·马斯克&lt;/a&gt;，引用他自己三月份的那条推文“山姆·奥特曼非常擅长诈骗”：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;他把诈骗提升到了一个全新的高度&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a href="https://x.com/sama/status/2075982617976230043"&gt;山姆·奥特曼&lt;/a&gt;：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;老铁，你才是那个向公开市场投资者兜售短期太空数据中心的人&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a href="https://x.com/elonmusk/status/2076070258654183767"&gt;马斯克&lt;/a&gt;：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我们明年就开始把它们飞起来。如果你的假释官批准的话，也许你可以来看看。&lt;/p&gt;
-&lt;p&gt;在窃取了一个开源人工智能慈善项目之后，你又偷走了苹果所有的手机技术！哇哦。&lt;/p&gt;
-&lt;p&gt;你下一步打算做什么？这可难以超越。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;（所有拼写、大写和标点符号均保持原文。）&lt;/p&gt;
-&lt;p&gt;这是地球上最有价值的两家公司的首席执行官。随便你怎么说，但马斯克的Twitter/X是前所未有的存在。&lt;a href="https://daringfireball.net/misc/2026/06/musk-altman-scamming.png"&gt;对话截图&lt;/a&gt;留存纪念，以及&lt;a href="https://xcancel.com/sama/status/2075982617976230043"&gt;XCancel链接&lt;/a&gt;供那些对X本身感到不适的人使用。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/07/12/altman-musk" title="永久链接至‘山姆·奥特曼和埃隆·马斯克争论谁在搞更大的骗局’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sun, 12 Jul 2026 17:45:57 +0000</pubDate></item><item><title>疯狂——杰夫·哈尔特的疯狂边缘玩家</title><link>https://morphing.cloud/lunacy/</link><description>&lt;p&gt;在&lt;a href="https://daringfireball.net/linked/2026/07/12/stacks"&gt;链接&lt;/a&gt;到&lt;a href="https://morphing.cloud/hypercard/"&gt;Stacks&lt;/a&gt;（他那款出色的全新现代化HyperCard播放器）之后，我犯了个大错，在Jeff Halter网站的其他部分点来点去，然后发现了Lunacy：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;由&lt;a href="https://www.benhaller.com/"&gt;Ben Haller&lt;/a&gt;创建并于90年代早期作为Macintosh &lt;em&gt;More After Dark&lt;/em&gt;软件包的一部分发布，&lt;em&gt;Lunatic Fringe&lt;/em&gt;在屏幕保护程序中独树一帜——它不仅仅是被动的动画观赏，而是一款交互式游戏！在屏保运行时切换Caps Lock键，你就能进入一个太空射击游戏，可以四处飞行、收集强化道具、轰爆各种坏人，只为追求高分。玩起来超爽。&lt;/p&gt;
-&lt;p&gt;在现代计算机上运行&lt;em&gt;Lunatic Fringe&lt;/em&gt;一直是个挑战。Greg Parker开发的&lt;a href="http://www.sealiesoftware.com/fringe/index.html"&gt;Fringe Player&lt;/a&gt;曾在苹果的PPC和Intel时代满足了这一需求，但已不支持现代苹果平台。Lunacy将&lt;em&gt;Lunatic Fringe&lt;/em&gt;带到了当下：一款原生Swift应用，内置仿真引擎，能在现代苹果平台上原封不动地运行原始模块。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Lunatic Fringe是我一直以来最喜欢的经典Mac游戏之一。Lunacy是一款出色的现代化播放器，包含CRT模拟功能，让游戏看起来更像当年的样子。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/07/12/lunacy" title="Permanent link to ‘Lunacy — Jeff Halter’s Lunatic Fringe Player’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sun, 12 Jul 2026 17:19:36 +0000</pubDate></item></channel></rss>
+</description><pubDate>Sun, 12 Jul 2026 18:04:05 +0000</pubDate></item></channel></rss>
