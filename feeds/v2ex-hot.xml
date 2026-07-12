@@ -1,5 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>V2EX-最热主题</title><link>https://www.v2ex.com/</link><description>V2EX-最热主题 - Powered by RSSHub</description><language>zh-CN</language><lastBuildDate>Sat, 11 Jul 2026 08:25:25 +0000</lastBuildDate><item><title>国模 Minimax 的能力到底如何？ glm 抢不到 打算买一下 minimax</title><link>https://www.v2ex.com/t/1226577</link><description>&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>V2EX-最热主题</title><link>https://www.v2ex.com/</link><description>V2EX-最热主题 - Powered by RSSHub</description><language>zh-CN</language><lastBuildDate>Sat, 11 Jul 2026 13:36:34 +0000</lastBuildDate><item><title>魔兽争霸 3 网页版</title><link>https://www.v2ex.com/t/1226611</link><description>完全在浏览器运行的魔兽争霸 3 ，魔改 github v86 实现了 opengl 转 webgl ，感兴趣的老哥可以试试：&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="https://retrogaming.dpdns.org/" rel="nofollow noopener" target="_blank"&gt;https://retrogaming.dpdns.org/&lt;/a&gt;
+&lt;hr/&gt;
+Supplement 1  ·  &lt;span title="2026-07-11 22:23:40 +08:00"&gt;11h 42m ago&lt;/span&gt;
+&lt;a href="https://i.imgur.com/J6szPTG.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/J6szPTG.png"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="https://i.imgur.com/0bBVu35.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/0bBVu35.png"/&gt;&lt;/a&gt;
+&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;#1 deavorwei&lt;/strong&gt;：? &lt;a href="https://i.imgur.com/mXSke9a.jpeg" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/mXSke9a.jpeg"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#2 SayHelloHi&lt;/strong&gt;：@&lt;a href="/member/professionaler"&gt;professionaler&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;完全不能玩呀&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#3 professionaler&lt;/strong&gt;：是不是没挂梯子，可能 cloudflare bucket 或者服务器被墙了&lt;br/&gt;@&lt;a href="/member/SayHelloHi"&gt;SayHelloHi&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#4 professionaler&lt;/strong&gt;：@&lt;a href="/member/deavorwei"&gt;deavorwei&lt;/a&gt; 要挂梯子，资源和图片都在 cloudflare 和搬瓦工 vps 上&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#5 deavorwei&lt;/strong&gt;：@&lt;a href="/member/professionaler"&gt;professionaler&lt;/a&gt; #4  &lt;a href="https://i.imgur.com/9jHqQt9.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/9jHqQt9.png"/&gt;&lt;/a&gt;&lt;br/&gt; &lt;a href="https://i.imgur.com/2FeokqS.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/2FeokqS.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#6 professionaler&lt;/strong&gt;：@&lt;a href="/member/deavorwei"&gt;deavorwei&lt;/a&gt; 不是很清楚原因，我这里江苏电信宽带是正常的。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#7 furlxy&lt;/strong&gt;：还是有些问题的,比如播音效,本地没缓存会卡一下&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#8 jianglai&lt;/strong&gt;：不是梯子的问题，我在墙外，看到的是一样的。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#9 jianglai&lt;/strong&gt;：好像是浏览器的问题，没有适配 firefox 。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#10 professionaler&lt;/strong&gt;：@&lt;a href="/member/jianglai"&gt;jianglai&lt;/a&gt; 我手上只有 mac 的 chrome 和 safari ，还没试 firefox 哈哈&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#11 professionaler&lt;/strong&gt;：@&lt;a href="/member/furlxy"&gt;furlxy&lt;/a&gt; 是的，这是 github v86 项目本身的问题，因为磁盘是分片存在 cloudflare bucket 上的，加载时声音就会跟着卡一下，cpu 性能也不太够。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#12 professionaler&lt;/strong&gt;：正常应该是这样：&lt;br/&gt;&lt;a href="https://imgur.com/a/G7RJVnp" rel="nofollow noopener" target="_blank"&gt;https://imgur.com/a/G7RJVnp&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#13 csfreshman&lt;/strong&gt;：卡成 PPT 了，怀旧呀，全是老家伙&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#14 xnplus&lt;/strong&gt;：自带的系统，98 和 xp 都优秀&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#15 StudyFung&lt;/strong&gt;：卡成 ppt 了，哈哈哈哈&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#16 pizzamx&lt;/strong&gt;：@&lt;a href="/member/jianglai"&gt;jianglai&lt;/a&gt; #8 浏览器开 adp 了？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#17 sNullp&lt;/strong&gt;：妈呀 LZ 你实现了我的童年梦想！&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#18 ellermister&lt;/strong&gt;：不如做个冒险岛，我看 b 站有人做了，只是没开源。底层也是读的 WZ 资源，如果 web 端可以原生读 wz 而不是洗格式那改端就很强&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#19 jianglai&lt;/strong&gt;：@&lt;a href="/member/pizzamx"&gt;pizzamx&lt;/a&gt; 看来是 ublock origin 拦住了。chrome 上是 ublock origin lite ，没有影响。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#20 wuzhewuyou&lt;/strong&gt;：这就离谱了，还能这么玩&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#21 professionaler&lt;/strong&gt;：@&lt;a href="/member/ellermister"&gt;ellermister&lt;/a&gt; 之前做过，有点麻烦，要猜很多数据怎么从 wz 读&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#22 Folder&lt;/strong&gt;：@&lt;a href="/member/professionaler"&gt;professionaler&lt;/a&gt; #4 我在国外访问也是这样.&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#23 testsb&lt;/strong&gt;：我一开始用了梯子也无法正常显示网页，后来把 AdBlock 禁用了就正常了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#24 matcloud&lt;/strong&gt;：卡成 PPT&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 11 Jul 2026 13:36:34 +0000</pubDate></item><item><title>GPT-5.6 被曝重大 bug！硅谷大佬 Mac 被一键清空</title><link>https://www.v2ex.com/t/1226604</link><description>&lt;p&gt;&lt;a href="https://mp.weixin.qq.com/s/lzMsA4LZwfrC39nL3EFAzg" rel="nofollow"&gt;https://mp.weixin.qq.com/s/lzMsA4LZwfrC39nL3EFAzg&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这个 DCG 大家装了吗
+&lt;a href="https://github.com/Dicklesworthstone/destructive_command_guard" rel="nofollow"&gt;https://github.com/Dicklesworthstone/destructive_command_guard&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;#1 ludyleocn&lt;/strong&gt;：不重要，关注的都是写文章的自媒体，本身没几个靠 ai 挣钱的活。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#2 1874w&lt;/strong&gt;：1. wx 上的新闻，我只能信一半。&lt;br/&gt;2. 我去翻看了原 po 的 twitter 。初步从评论区看起来有点「开局一张图，内容全靠编」的倾向。再观望一下&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#3 ntdll&lt;/strong&gt;：且不论真假，就是真的，使用者开 YOLO ，模型的锅再大，也大不过使用者自己。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#4 inza9hi&lt;/strong&gt;：@&lt;a href="/member/1874w"&gt;1874w&lt;/a&gt; 特意去 X 上看了下，没觉得是编的。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#5 1874w&lt;/strong&gt;：@&lt;a href="/member/inza9hi"&gt;inza9hi&lt;/a&gt; 我看起来和国内营销号差不多，半真半假的那种&lt;br/&gt;&lt;br/&gt;1. 原 PO 只描述结果现象，不描述事情经过。&lt;br/&gt;2. 评论区让他拿出当时的场景，他没回答过。&lt;br/&gt;3. 最近几篇推文只输出情绪，没有输出有用的信息&lt;br/&gt;4. 从历史推文来看，不像是编程圈的人，更像是自媒体&lt;br/&gt;&lt;br/&gt;这不就和国内营销号差不多嘛，而且如果真有 BUG ，这个问题不应该从国内 WX 渠道首发。我也暂时没在任何社区看到有关讨论。&lt;br/&gt;&lt;br/&gt;我更多偏向于原 PO 使用不当，或者带点炒作的嫌疑。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#6 potatowish&lt;/strong&gt;：自媒体的文章大部分是编的，尤其不懂技术的，编的很离谱，骗流量来的。&lt;br/&gt;&lt;br/&gt;自媒体 be like:&lt;br/&gt;&lt;a href="https://i.imgur.com/N3WeSoO.jpeg" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/N3WeSoO.jpeg"/&gt;&lt;/a&gt;安装包、应用数据分不清，app store 安装包就几百 M ，几 G 的应用数据偷换成安装包大小。 就这帖子 50w 浏览量……&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#7 yisal&lt;/strong&gt;：这个论坛都没人管的吗,大摇大摆直接放了两个获利链接&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#8 inza9hi&lt;/strong&gt;：@&lt;a href="/member/1874w"&gt;1874w&lt;/a&gt; &lt;br/&gt;再使用不当，只要不是使用者下命令，AI 也不不该去全删文件。&lt;br/&gt;&lt;br/&gt;这个事确实有炒作嫌疑&lt;br/&gt;但是这个人其实还挺有名的，不至于为了炒作而罔顾事实：&lt;br/&gt;之前他写过一篇 Something Big Is Happening ，到处都在讨论。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#9 inza9hi&lt;/strong&gt;：@&lt;a href="/member/yisal"&gt;yisal&lt;/a&gt; 第一个也就罢了&lt;br/&gt;第二个但凡你点开一下，也不会觉得是获利链接&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#10 dingawm&lt;/strong&gt;：@&lt;a href="/member/inza9hi"&gt;inza9hi&lt;/a&gt; #8 &lt;br/&gt;&amp;gt; 再使用不当，只要不是使用者下命令，AI 也不不该去全删文件。&lt;br/&gt;&lt;br/&gt;不该 ≠ 不会 ≠ 能做到&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.theguardian.com/technology/2026/apr/29/claude-ai-deletes-firm-database" rel="nofollow noopener" target="_blank"&gt;https://www.theguardian.com/technology/2026/apr/29/claude-ai-deletes-firm-database&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;就现在的技术路线，只要是大模型，就不能完全排除它执行用户没有明确要求的操作。这也是为什么 Agent 需要 Guardrails 和沙盒机制，就是为了最大限度的避免这个问题&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#11 XnEnokq9vkvVq4&lt;/strong&gt;：开头这个 matt shummer 是个屁的大佬，他就是个 fraudster ，搜一下 reflection 70B 模型的骗局就知道了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#12 dingawm&lt;/strong&gt;：@&lt;a href="/member/inza9hi"&gt;inza9hi&lt;/a&gt; #9 看了一下第一个链接，原来是新智元，这个我早就取关了。单就这个事我也在别的公众号里看到过，没仔细看是否真实。&lt;br/&gt;不过新智元是 AI 公众号御三家里最离谱的，那个什么“奥特曼被吓到瘫坐，仿佛看到原子弹爆炸”就是他们造的，其他两家虽然也有夸张，但是相比新智元还是单纯不少&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#13 inza9hi&lt;/strong&gt;：@&lt;a href="/member/dingawm"&gt;dingawm&lt;/a&gt; 模型确实有这问题，问题是原作者是在 Codex 这种 Agent 里面操作的，可以看截图。&lt;br/&gt;无论是再次调用大模型 API double check 确认，还是在执行时候在软件层再做拦截，都应该去避免这种危险操作。&lt;br/&gt;&lt;br/&gt;所以我觉得 DCG 这种东西挺好的，我安装了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#14 msg7086&lt;/strong&gt;：我给 Codex 开了个 VM ，他把整个 VM 炸了也没大影响……&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#15 est&lt;/strong&gt;：被你 bug 完了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#16 crackidz&lt;/strong&gt;：是最喜欢的纯傻 X 无脑相信 AI 的环节&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#17 kissice&lt;/strong&gt;：AI 那么牛逼能清空就能还原吧？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#18 cheng6563&lt;/strong&gt;：@&lt;a href="/member/inza9hi"&gt;inza9hi&lt;/a&gt; 该不该我都碰到过，让 AI 把文件传服务器，然后 AI 跑一个 rsync --delete 这么传，你说呢。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 11 Jul 2026 13:11:36 +0000</pubDate></item><item><title>请教，现在团队扩招，我希望招朋友进来，该注意些什么？</title><link>https://www.v2ex.com/t/1226585</link><description>&lt;p&gt;之前在其他公司时，我跟朋友平级，后面各自发展，他其实当时发展的比我好，他人性格挺好的，能力在原本的方向也绝对够格。&lt;/p&gt;
+&lt;p&gt;现在我算是技术负责人，团队需要招一个人，刚好他的技能水平和性格，个人感觉很合适这个岗位。&lt;/p&gt;
+&lt;p&gt;最近问了一下近况，他那边也比较累，我就希望他能加入过来一起做事。我对他能适应这份工作，是有信心的；而且我能帮他谈下的薪资，不会低于之前的工作，天花板也比之前高得多。&lt;/p&gt;
+&lt;p&gt;但这个岗位和他过去的业务方向，差别略大，他比较担忧。&lt;/p&gt;
+&lt;p&gt;我几乎很少“社交/人脉”的经验，叫我上桌吃饭，都只会吃菜的那种，所以特地来求助大家：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;朋友来了之后，我该怎么处理工作上的要求？向面对社招同事一样，直接提出来，还是需要稍微委婉点&lt;/li&gt;
+&lt;li&gt;我需要考虑其他方面的情况吗，比如向投资人解释“拉朋友进来，会不会影响团队战斗力”之类的问题&lt;/li&gt;
+&lt;li&gt;我们是远程办公，早期需要跟对方经常语音、视频吗？我怕有时候说话分不清轻重，对方误会了&lt;/li&gt;
+&lt;li&gt;“如果朋友来了，真的做的不好，我该怎么办？”，如果我抱有这种疑虑，是不是不拉他来，是最好的选择？&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;谢谢大家！&lt;/p&gt;
+&lt;hr/&gt;
+Supplement 1  ·  &lt;span title="2026-07-12 07:53:50 +08:00"&gt;2h 10m ago&lt;/span&gt;
+
+@&lt;a href="/member/freemoon" rel="nofollow noopener" target="_blank"&gt;freemoon&lt;/a&gt; &lt;br/&gt;@&lt;a href="/member/smlcgx" rel="nofollow noopener" target="_blank"&gt;smlcgx&lt;/a&gt; &lt;br/&gt;@&lt;a href="/member/iixy" rel="nofollow noopener" target="_blank"&gt;iixy&lt;/a&gt; &lt;br/&gt;@&lt;a href="/member/zhhmax" rel="nofollow noopener" target="_blank"&gt;zhhmax&lt;/a&gt; &lt;br/&gt;@&lt;a href="/member/shmilypeter" rel="nofollow noopener" target="_blank"&gt;shmilypeter&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;谢谢几位佬。没想到多数大佬的意见这么一致。&lt;br/&gt;&lt;br/&gt;听了你们的话，昨晚又想了想。&lt;br/&gt;&lt;br/&gt;的确，现在有点“都是为你好”的感觉，我去跟他解释一下，让他自己决定吧。&lt;br/&gt;&lt;br/&gt;@&lt;a href="/member/yidinghe" rel="nofollow noopener" target="_blank"&gt;yidinghe&lt;/a&gt; &lt;br/&gt;@&lt;a href="/member/urlk" rel="nofollow noopener" target="_blank"&gt;urlk&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;哈哈，谢谢两位佬，我最初也是抱着这种想法，因为我们工作环境比较宽松，而且相当长的时间里，不会遇到资方压力，一两个月甚至三五个月，最后总会熟悉、熟练的。&lt;br/&gt;&lt;br/&gt;可，朋友他也是很成熟的职场工作人了，每个心理相对成熟的人，都有自己的思考方式，轻易不会改变。&lt;br/&gt;&lt;br/&gt;他的确持续的对这些方面抱有疑虑，另一方面，他自己也有家里的压力嘛。&lt;br/&gt;&lt;br/&gt;现在想想，还是理解万岁，希望他能加入，但也不强求了。
+
+&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;#1 rimworld&lt;/strong&gt;：“工作的时候要称植物！”&lt;br/&gt;“我才是火影！”&lt;br/&gt;“请陛下称我为太子！”&lt;br/&gt;还是入职前就敞开说好，说明白，上下级关系，公私分明些吧。&lt;br/&gt;工作里就当社招进来的，就说以前认识的大牛。工作就拿结果说话。&lt;br/&gt;要是感觉朋友最近情绪不对了，私下里可以经常聚个餐，说说情况。&lt;br/&gt;朋友真拿你当好朋友的话，应该也会明白，体谅你的。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#2 rimworld&lt;/strong&gt;：@&lt;a href="/member/rimworld"&gt;rimworld&lt;/a&gt; 简单贴一下 ai 的意见：1.走公开招聘流程。2.情绪靠私下解决，工作上的公事、指标不达标不能私下解决。3.如果真的给你带来很大困扰，给团队带来很大困扰，不如不招。而且你还怕你朋友做的不好。你朋友也不是没有工作，或者找不到工作。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#3 uiosun&lt;/strong&gt;：@&lt;a href="/member/rimworld"&gt;rimworld&lt;/a&gt; 受教了，谢谢大佬！&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#4 freemoon&lt;/strong&gt;：我认为不合适。&lt;br/&gt;&lt;br/&gt;相信你自己也觉得别扭吧？他进来也会觉得别扭的，原本同级的人现在直接上下级了，多少会影响情绪。一旦因为工作上的安排/配合发送摩擦，都会导致两人心里不舒服，也很难说的开，由于上下级的关系。到时候，他来个主动离职，对他影响也大，朋友也没得做了。&lt;br/&gt;&lt;br/&gt;解法：做朋友就做朋友，既然他能力不错就无需为他担心职业发展的问题，最多给些建议（其他的机会）。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#5 yidinghe&lt;/strong&gt;：你没什么要担心的，反倒是他在担心自己能否胜任，你尽可以告诉他：业务上不清楚的只管找我，我不怕你多问，就怕你问的太少。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#6 smlcgx&lt;/strong&gt;：经历过，我把朋友拉过去，是上下级关系，但是平时关系挺好，但是后来领导认为朋友不太适合这边，留下了我，但是我因为这个事跟领导闹的很僵，后来不爽摆烂也只能步其后尘。在工作和友情之间，我选择了后者，是不是我自己才是那个沙雕？&lt;br/&gt;&lt;br/&gt;如果让我现在选，我还是会招朋友进来，毕竟知根知底，但是真的到了该选择工作还是朋友的时候，我会尊重公司和领导的意见，很多时候不是你不好，而是没办法的事情。&lt;br/&gt;&lt;br/&gt;希望这段经历能帮到你&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#7 longzhou6431&lt;/strong&gt;：@&lt;a href="/member/smlcgx"&gt;smlcgx&lt;/a&gt; 兄弟，你的这个经历我咋没看懂，领导为何跨过你管理下属，他那么有空的吗&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#8 smlcgx&lt;/strong&gt;：@&lt;a href="/member/longzhou6431"&gt;longzhou6431&lt;/a&gt; 我和朋友是上下级，领导-我-朋友，这么个关系&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#9 iixy&lt;/strong&gt;：他要是失业了你就帮一把，要是好好的光是累就别折腾了，最后朋友都没得做。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#10 iixy&lt;/strong&gt;：@&lt;a href="/member/iixy"&gt;iixy&lt;/a&gt; 真爱结婚都得面临生活的柴米油盐过不下去，更何况朋友当上下级。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#11 zhhmax&lt;/strong&gt;：你需要注意的点就是：别招朋友，除非你觉得以后失去这个朋友无所谓。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#12 urlk&lt;/strong&gt;：各位的职场真可怕, 都交的什么腹黑朋友&lt;br/&gt;&lt;br/&gt;正常公司都挺欢迎内推的, 知根知底 , 知会领导一声 面试的时候氛围都能轻松不少&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#13 ChiuLam&lt;/strong&gt;：招我吧，我想远程办公，做事也负责任。一直业务在学英语，就是为了远程工作。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#14 NonClockworkChen&lt;/strong&gt;：@&lt;a href="/member/urlk"&gt;urlk&lt;/a&gt; 能挣钱的公司氛围是好的，不挣钱的公司，只能零和博弈。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#15 imba97&lt;/strong&gt;：@&lt;a href="/member/rimworld"&gt;rimworld&lt;/a&gt; #1 好嘞勇植物&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#16 shmilypeter&lt;/strong&gt;：如果你需要在公司里面拉帮结派，招酒肉朋友进来可以的。但如果是学生时代跟过来的发小，强烈不建议跟朋友有任何利益交集或者冲突，这样的朋友是存量不可能再多掰一个少一个。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#17 uiosun&lt;/strong&gt;：@&lt;a href="/member/ChiuLam"&gt;ChiuLam&lt;/a&gt; 谢谢，但好像不太对口哈哈哈，不是招软件开发的岗位&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#18 sir283&lt;/strong&gt;：它要是辞职了，你就可以顺理成章的招过来，人家还在职，就别打扰人家了，别吃力不讨好。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 11 Jul 2026 09:40:45 +0000</pubDate></item><item><title>国模 Minimax 的能力到底如何？ glm 抢不到 打算买一下 minimax</title><link>https://www.v2ex.com/t/1226577</link><description>&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 midasplus&lt;/strong&gt;：很烂，别买&lt;br/&gt;当时本着支持 IO 的想法试了下，实在是没办法用...&lt;br/&gt;虽然量是真的大&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#2 ntdll&lt;/strong&gt;：minimax 得和豆包坐一桌。&lt;br/&gt;&lt;br/&gt;国产模型值得尝试的只有 GLM/QWEN/DEEPSEEK ，但是 Deepseek 主要还是便宜的同时，又没那么拉&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#3 squirrel7105&lt;/strong&gt;：@&lt;a href="/member/midasplus"&gt;midasplus&lt;/a&gt; 但是没啥买的了。。。glm 买不到 之前和别人拼的 4 个人拼 现在质谱还不允许 直接把号封了 无语&lt;/p&gt;&lt;hr/&gt;
@@ -60,6 +144,24 @@
 &lt;p&gt;虽然这不影响整个流程，但感觉还是有点奇怪，而且他在做 Skill 设计、项目文档的时候也会存在这个问题，我遇到很多次了&lt;/p&gt;
 &lt;p&gt;我想着如果我不改变我和 AI 的沟通方式的话，好像只能将它这种「幽灵判断」的行为加入了全局 &lt;a href="http://AGENTS.md" rel="nofollow"&gt;AGENTS.md&lt;/a&gt; 来限制了。&lt;/p&gt;
 &lt;h2&gt;不知道大伙有没有遇到这种情况，其他模型会不会有这个问题&lt;/h2&gt;
+&lt;hr/&gt;
+Supplement 1  ·  &lt;span title="2026-07-12 08:26:54 +08:00"&gt;1h 39m ago&lt;/span&gt;
+&lt;h2&gt;该行为不稳定复现，即使使用相同稳定和相同说辞，也不一定能稳定出现。偶尔会彻底排除，偶尔保留幽灵规则&lt;/h2&gt;
+&lt;p&gt;我让 AI 帮我总结出来的全局规则，不确定是否真的会显著减少，我先试用一段时间。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;## 避免幽灵规则
+
+当用户纠正、取消或排除一个当前不会使用的行为时，默认让该行为从文档中消失，不要额外写入“明确不做”“暂不支持”“未来需要时再处理”等反向说明。
+
+文档应描述当前有效的系统，而不是保存已被排除需求的影子。
+
+只有以下情况才保留显式的负面规则：
+
+- 该行为很可能被 Agent 的默认习惯反复触发。
+- 涉及安全、权限、数据损坏或其他高风险边界。
+- 用户明确要求记录取舍过程。
+- 文档本身是 ADR、决策日志或历史记录。
+
+&lt;/code&gt;&lt;/pre&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 Ericcccccccc&lt;/strong&gt;：这就是典型的 ai 不具备判断力，所以说当下的 ai 依然只能是辅助。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#2 lujiaosama&lt;/strong&gt;：是的. 我叫它别干什么, 就顺便把这个别做什么写进去了. 有些理论上提供给第三方看的文档, 这种操作就画蛇添足了.&lt;/p&gt;&lt;hr/&gt;
@@ -82,91 +184,6 @@
 &lt;p&gt;&lt;strong&gt;#19 weiwenhao&lt;/strong&gt;：经常这样，太恶心了。之前当你交代不要干什么的时候会产生严重的刻板行为。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#20 monosolo1on1&lt;/strong&gt;：这种问题对我来说真的是太常见了。&lt;br/&gt;&lt;br/&gt;我甚至专门搞了一个 skill ，来让他去评估我的各种文档，在里面排除各种旁白之类的对话，并且还要去删除那种没有补充额外信息、没有强调语义的否定句。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#21 abc612008&lt;/strong&gt;：而且写注释的时候喜欢加上特定于本次修改 prompt 的说明。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#22 ninqq&lt;/strong&gt;：是因为 ai 根本没有理解能力&lt;br/&gt;&lt;br/&gt;我复制一大段文本发给 gpt 让他制图&lt;br/&gt;&lt;br/&gt;然后补充一句 xx 段排除掉&lt;br/&gt;&lt;br/&gt;结果 gpt 做的图让排除的还在图上 补充的话也放上去了&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 11 Jul 2026 05:18:41 +0000</pubDate></item><item><title>Codex 今天是不是放开了五小时限额？</title><link>https://www.v2ex.com/t/1226550</link><description>&lt;p&gt;Pro 20x 感觉现在五小时限额用满可以占用 40%-50%左右的周限额
-之前是 12%-15%左右
-是我的幻觉吗？&lt;/p&gt;
-&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;#1 raycloud&lt;/strong&gt;：好像是的，五小时限额用完好久了任务还在跑&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#2 Keine&lt;/strong&gt;：。。。刚刚又重置了 这是 36 小时内的第四次重置？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#3 Keine&lt;/strong&gt;：刚刚没重置 显示出 bug 了 不过 36 小时内重置了到底几次了？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#4 liuzhihang&lt;/strong&gt;：之前就是呀。只要剩余一些的时候，你给他安排一个长任务会继续干&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#5 Keine&lt;/strong&gt;：@&lt;a href="/member/liuzhihang"&gt;liuzhihang&lt;/a&gt; 我说的是五小时限额没用完&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#6 xfxz&lt;/strong&gt;：又重置了，关键今天早上就只用满了一次 5h ，这么短的重置干嘛呢。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#7 Keine&lt;/strong&gt;：@&lt;a href="/member/xfxz"&gt;xfxz&lt;/a&gt; 昨天消耗快到半小时吃完五小时额度，今天切了更低的推理难度 这又频繁重置 烦了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#8 fbu11&lt;/strong&gt;：刚看了 X ，又重置了，重置的很随便。。。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#9 Keine&lt;/strong&gt;：大概半小时内又重置了一次 两天内的第五次吧？ 干嘛啊这是 一个五小时空间都没有&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#10 zuosiruan&lt;/strong&gt;：奥特曼大善人&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#11 wikisu&lt;/strong&gt;：就是昨天说的吧，未来 24 小时内还会重置两次，凌晨一次、中午一次，应该就结束了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#12 Keine&lt;/strong&gt;：@&lt;a href="/member/wikisu"&gt;wikisu&lt;/a&gt; 5.6 发布后这是四次了？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#13 royzxq&lt;/strong&gt;：刚才是不是又重置了.?&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#14 SayHelloHi&lt;/strong&gt;：@&lt;a href="/member/royzxq"&gt;royzxq&lt;/a&gt; 是的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#15 zhongshenss&lt;/strong&gt;：下午又重置了额度，而且有段时间可能是出 bug 了，历史 session 加载不出来，插件也出现几次 reconnecting&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#16 dingawm&lt;/strong&gt;：感觉是这次大更新有不少 bug ，所以就频繁重置。。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#17 programApe&lt;/strong&gt;：我看到这边打开 chatgpt 看了下，上一秒五小时还有 41%，突然弹出了 &lt;a href="https://i.imgur.com/05H8JK8.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/05H8JK8.png"/&gt;&lt;/a&gt;显示五小时额度为 0&lt;a href="https://i.imgur.com/NIvxivj.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/NIvxivj.png"/&gt;&lt;/a&gt; 5xpro 订阅&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#18 iwh718&lt;/strong&gt;：从 pro 降級 plus 五分钟额度用完了。简直离谱，绝对有 bug&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#19 liuzhihang&lt;/strong&gt;：@&lt;a href="/member/Keine"&gt;Keine&lt;/a&gt; 我没注意。我现在感觉 5 小时的用的真快&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#20 canyue7897&lt;/strong&gt;：静等继续重置&lt;br/&gt;爱死奥特曼了&lt;br/&gt;真是大善人&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#21 royzxq&lt;/strong&gt;：ber 重置也没用啊，好慢啊&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#22 yjiefl&lt;/strong&gt;：同时开 8 个 agent 跑，周额度还是 100%，20x&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#23 ntdll&lt;/strong&gt;：@&lt;a href="/member/iwh718"&gt;iwh718&lt;/a&gt; #18 这是正常的，我之前开通 plus 订阅的时候测试过，5 小时滚动窗口额度大约是 10 刀左右。而 gpt 5.5 上下文满了以后，一次 compact 就要大概 1 刀的额度。（至少 200K 的输入无缓存命中）&lt;br/&gt;&lt;br/&gt;然后现在如果使用 auto approvals （或者叫 auto review)，调用 codex-auto-review 模型也是收费的，具体的费用 OpenAI 没公示，约摸大概 gpt 5.3 左右的价格&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 11 Jul 2026 05:09:30 +0000</pubDate></item><item><title>功夫女足口碑</title><link>https://www.v2ex.com/t/1226549</link><description>&lt;p&gt;有喜欢周星驰的吗？看过的人来说说真实的感受，我很纠结去不去看&lt;/p&gt;
-&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;#1 eventlooped&lt;/strong&gt;：你这头像啥玩意儿，我看着不对劲&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#2 banzhi&lt;/strong&gt;：我准备去 走个面儿 ~&lt;br/&gt;&lt;br/&gt;如果是资深星迷、反复刷过他早年作品的，不管片子好坏，去贡献下票房不过分吧？&lt;br/&gt;&lt;br/&gt;要是怕踩坑就再蹲一波真实口碑再定.&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#3 lymanbernadette6&lt;/strong&gt;：&amp;gt;???? 你这头像？？？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#4 None123&lt;/strong&gt;：头像有点意思&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#5 gotOwt&lt;/strong&gt;：@&lt;a href="/member/eventlooped"&gt;eventlooped&lt;/a&gt; 这头像之前在贴吧看过。。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#6 cortexm3&lt;/strong&gt;：这是个鼠标？？？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#7 Lowlife&lt;/strong&gt;：又不是他自己出演，有什么意思呢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#8 w3cll&lt;/strong&gt;：鼠标头像&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#9 nightlight9&lt;/strong&gt;：豆瓣上瞟了一眼，评价褒贬不一&lt;br/&gt;&lt;br/&gt;今晚去看&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#10 Yjhenan&lt;/strong&gt;：交领变成蜈蚣扣了🤣🤣&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#11 409164&lt;/strong&gt;：头像是鼠标，楼上在惊讶...什么&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#12 IanHo&lt;/strong&gt;：早上看了，不好看。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#13 goojia&lt;/strong&gt;：刚看完出来，很无聊的电影。可能是我笑点高吧，完全 get 不到笑点。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#14 ebushicao&lt;/strong&gt;：周星驰的电影只有周星驰参演的才好看，没有周星驰参演的西游降魔和美人鱼我觉得都很一般，西游降魔还好点，美人鱼是真的尬...&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#15 tangshengxiang&lt;/strong&gt;：很一般！很一般...&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#16 kkth&lt;/strong&gt;：头像哪来的鼠标？不是一个男人吗？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#17 lucays&lt;/strong&gt;：@&lt;a href="/member/kkth"&gt;kkth&lt;/a&gt; 换头像了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#18 godmiracle&lt;/strong&gt;：粉丝向/打发时间电影&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#19 qiudx&lt;/strong&gt;：挺好看的   近几年最佳， 票价也不贵不如自己去看看&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#20 happy99&lt;/strong&gt;：星爷的电影， 还是走个面吧！&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#21 HeyVincent&lt;/strong&gt;：周星驰复出导的电影，一部比一部差，除了美人鱼，其它的都是靠炒冷饭卖情怀，照这样下去，估计周星驰要晚节不保。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#22 461229187&lt;/strong&gt;：演员演的尴尬死我了，看着我太难受了。&lt;br/&gt;就当给星爷走个面了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#23 ZZITE&lt;/strong&gt;：在商场吃完晚饭临时起意去看的，事先没看过预告片也没刷过网上的评价。很后悔没先看一眼预告片，开场两分钟就想走。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#24 CNM47589&lt;/strong&gt;：周星驰拍的最后一部好电影是西游降魔篇，从美人鱼开始开始生产垃圾圈钱&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#25 flytutu&lt;/strong&gt;：周星驰也就当演员的时候 还有点意思  自己当导演的就算了吧&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 11 Jul 2026 04:21:20 +0000</pubDate></item><item><title>7.11 号土区续费的 GPT plus 还是 499 里拉，下个周期也是</title><link>https://www.v2ex.com/t/1226541</link><description>&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;#1 dododook&lt;/strong&gt;：羡慕&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#2 JoeJoeJoe&lt;/strong&gt;：苹果开始限制没有支付方式只有礼品卡的账号了, 都给发了邮件.&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#3 yakun4566&lt;/strong&gt;：@&lt;a href="/member/JoeJoeJoe"&gt;JoeJoeJoe&lt;/a&gt; 还未收到邮件&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#4 apkapb&lt;/strong&gt;：@&lt;a href="/member/JoeJoeJoe"&gt;JoeJoeJoe&lt;/a&gt; 老哥，具体发的意思是？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#5 JoeJoeJoe&lt;/strong&gt;：@&lt;a href="/member/yakun4566"&gt;yakun4566&lt;/a&gt; &lt;br/&gt;@&lt;a href="/member/apkapb"&gt;apkapb&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;&lt;a href="https://i.imgur.com/CdDOWlv.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/CdDOWlv.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#6 dreamk&lt;/strong&gt;：@&lt;a href="/member/JoeJoeJoe"&gt;JoeJoeJoe&lt;/a&gt; 我也收到了，但还是支付成功了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#7 apkapb&lt;/strong&gt;：@&lt;a href="/member/JoeJoeJoe"&gt;JoeJoeJoe&lt;/a&gt; 我也收到了，我感觉是余额不足下次续费的提示？？？&lt;br/&gt;&lt;br/&gt;但是，也续费成功了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#8 willygeek007&lt;/strong&gt;：@&lt;a href="/member/JoeJoeJoe"&gt;JoeJoeJoe&lt;/a&gt; 可否绑 visa 卡&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#9 JoeJoeJoe&lt;/strong&gt;：@&lt;a href="/member/willygeek007"&gt;willygeek007&lt;/a&gt; 能不能绑 visa 完全看卡 bin 吧, 有些 U 卡是不行的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#10 yakun4566&lt;/strong&gt;：@&lt;a href="/member/willygeek007"&gt;willygeek007&lt;/a&gt; #8 我觉得先不用绑吧，国内的卡用哪个付款地址，用礼品卡的原因不就是因为不能绑卡直接付吗，这种方式在苹果商店正常吧，这一限制得炸多少&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#11 ktyang&lt;/strong&gt;：@&lt;a href="/member/JoeJoeJoe"&gt;JoeJoeJoe&lt;/a&gt; 这只是你账号里余额不够吧，都收了好几个月了，一直续费也没啥事。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#12 JoeJoeJoe&lt;/strong&gt;：@&lt;a href="/member/ktyang"&gt;ktyang&lt;/a&gt; 我朋友的号, 他昨天告诉我的, 哈哈哈哈.&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#13 jst0701&lt;/strong&gt;：@&lt;a href="/member/JoeJoeJoe"&gt;JoeJoeJoe&lt;/a&gt; 你们都是头一次开始用苹果账号买东西么?这是你余额不足以支付订阅费,提前给你发的提醒邮件,你是怎么判断出这是苹果在限制你账号的?&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#14 JoeJoeJoe&lt;/strong&gt;：@&lt;a href="/member/jst0701"&gt;jst0701&lt;/a&gt; 我没用过礼品卡, 这是我朋友昨天给我说的, 可能我理解错了, 变成传谣了.&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#15 menghuitangchao&lt;/strong&gt;：@&lt;a href="/member/JoeJoeJoe"&gt;JoeJoeJoe&lt;/a&gt; 消息来源？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#16 JoeJoeJoe&lt;/strong&gt;：@&lt;a href="/member/menghuitangchao"&gt;menghuitangchao&lt;/a&gt; 我误判了, 可以忽略&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#17 Lowlife&lt;/strong&gt;：@&lt;a href="/member/JoeJoeJoe"&gt;JoeJoeJoe&lt;/a&gt; 这只是你没支付方式，和涨价没关系。。。。。。。。。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#18 JoeJoeJoe&lt;/strong&gt;：@&lt;a href="/member/Lowlife"&gt;Lowlife&lt;/a&gt; 我主要是也没说涨价啊 这个截图不也是 499 么&lt;br/&gt;&lt;br/&gt;我只是把这个邮件理解成了必须要绑卡了而已😂&lt;br/&gt;&lt;br/&gt;怎么节奏就给带成这样了.&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#19 JoeJoeJoe&lt;/strong&gt;：@&lt;a href="/member/JoeJoeJoe"&gt;JoeJoeJoe&lt;/a&gt; #2 我理解错了, 大家忽略我的这条回复吧&lt;br/&gt;&lt;br/&gt;我没用 appstore 订阅, 这是我朋友昨天给我说他的账号要求绑卡, 我寻思给分享一下, 大家忽略我吧&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#20 JayLuoShui&lt;/strong&gt;：@&lt;a href="/member/JoeJoeJoe"&gt;JoeJoeJoe&lt;/a&gt; 是没钱了 只要礼品卡再提前冲一下 就又能愉快的玩耍了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#21 Keine&lt;/strong&gt;：没取消不会影响涨价 土区多邻国的家庭订阅涨价都两年了 依旧 99rmb 一年正常续费中&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#22 www12222&lt;/strong&gt;：oyunfor 把加密充值关了，换了招行双币卡充了 500 74.5&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#23 showonder&lt;/strong&gt;：@&lt;a href="/member/Keine"&gt;Keine&lt;/a&gt; 应该是账户发行方可以选择，我的土区 gpt plus 号也还是 499 ，但是 claude 的 1x pro 发了个邮件通知后续订涨成 999 了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#24 Keine&lt;/strong&gt;：@&lt;a href="/member/showonder"&gt;showonder&lt;/a&gt; 那应该是开发者方的可选项 无非是契约精神的履行和商人趋利的选择&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#25 PromiseResolve&lt;/strong&gt;：@&lt;a href="/member/JoeJoeJoe"&gt;JoeJoeJoe&lt;/a&gt; #5 上个月都收到了，每次要到期之前都会发&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#26 Planarians&lt;/strong&gt;：羡慕 都想买个成品土耳其号了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#27 Reach&lt;/strong&gt;：@&lt;a href="/member/JoeJoeJoe"&gt;JoeJoeJoe&lt;/a&gt; 发邮件的时候，你账户里有足够下次续费的 499 里拉余额吗？&lt;br/&gt;我也收到邮件了，离续费日提前 10 天&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#28 Mar5&lt;/strong&gt;：前几天刚 499 续费成功，暂未收到邮件下一期还是 499 ，oyunfor 上也只充值 500 ，省得涨价了用不掉。&lt;br/&gt;话说土区如果没了还有哪里划算的啊？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#29 kingfire&lt;/strong&gt;：o➗还是比 a➗拟人&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#30 AAAmos&lt;/strong&gt;：苹果商店的订阅机制，如果订阅涨价了，由开发者设置原来订阅用户是保持原价还是也涨价，这说明 openai 还没有取消老用户的福利&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#31 zhengfan2016&lt;/strong&gt;：我觉得这种自己偷着乐就行，万一有神人跑去 openai 论坛举报，有人在手握大量 499 里拉的 applestore 账号倒卖牟利。。。&lt;a href="https://i.imgur.com/agAJ0Rd.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/agAJ0Rd.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#32 phinrod&lt;/strong&gt;：请问大佬们如果其中有一个月没有续费，套餐还有效吗？后面还能充钱继续用吗？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#33 solitude23456&lt;/strong&gt;：一样 直接屯了好多里拉 就看什么时候收回老玩家优惠了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#34 myTrip&lt;/strong&gt;：卧槽，openai 为什么要这样啊，我嫉妒了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#35 godmiracle&lt;/strong&gt;：我目前也是 499 。。。偷偷用吧&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 11 Jul 2026 03:05:34 +0000</pubDate></item></channel></rss>
+&lt;p&gt;&lt;strong&gt;#22 ninqq&lt;/strong&gt;：是因为 ai 根本没有理解能力&lt;br/&gt;&lt;br/&gt;我复制一大段文本发给 gpt 让他制图&lt;br/&gt;&lt;br/&gt;然后补充一句 xx 段排除掉&lt;br/&gt;&lt;br/&gt;结果 gpt 做的图让排除的还在图上 补充的话也放上去了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#23 slackerman&lt;/strong&gt;：这个问题特别常见，特别是改写 spec 的时候。我还没找到比较好的解决方法。以前 &lt;a href="http://Agents.md" rel="nofollow noopener" target="_blank"&gt;Agents.md&lt;/a&gt; 文件里会加简洁，最小必要，不过度展开说明，不说不怎么做之类的，效果也不是很好。甚至会专门让他去整理 spec 中说不怎么做的内容。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#24 Folder&lt;/strong&gt;：Claude 没遇到过, 基本上只有我语气很重的时候, 如永远不要 xxx, 它才会加入到规则或者 memory 里.&lt;br/&gt;Codex, 反重力, CC 都用过, 最后还是停在 CC. 只有 Claude 有那种一起开发的感觉, 而不是开发的同时我还要防备着它.&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 11 Jul 2026 05:18:41 +0000</pubDate></item></channel></rss>
