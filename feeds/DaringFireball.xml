@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sun, 12 Jul 2026 18:04:05 +0000</lastBuildDate><item><title>TwoMillionKit: 在无需授权的情况下在 macOS 27 基础模型中使用私有云计算</title><link>https://github.com/insidegui/TwoMillionKit</link><description>&lt;p&gt;Guilherme Rambo：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sun, 12 Jul 2026 19:51:16 +0000</lastBuildDate><item><title>用户界面如何随时间退化</title><link>https://grumpy.website/1723</link><description>&lt;p&gt;这些例子来自Windows，但MacOS警告的标准外观也存在同样的退化。曾有一段时间，系统UI界面的清晰度在不断提高，无处不在。而如今，我们生活在一个清晰度普遍下降的时代。这相当令人费解。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/07/12/how-uis-degrade-over-time" title="永久链接至“用户界面如何随时间退化”"&gt; ★ &lt;/a&gt;
+</description><pubDate>Sun, 12 Jul 2026 19:51:16 +0000</pubDate></item><item><title>每一帧完美</title><link>https://tonsky.me/blog/every-frame-perfect/</link><description>&lt;p&gt;尼基塔·"汤斯基"·普罗科波夫：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;经验法则是：&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;如果在任意时刻截取你的应用的屏幕截图，你应该能解释我看到了什么。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;为什么要关注每一帧？这能建立信任。用户看不到代码，因此 UI 是他们判断应用质量的唯一途径。如果 UI 看起来出色，意味着开发者有时间打磨它，也就意味着他们可能投入了相当的时间来优化代码。这是一个启发式方法，但很合理。&lt;/p&gt;
+&lt;p&gt;那么，在实践中这意味着什么？我能想到几点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;没有屏幕之间的白色闪烁。&lt;/li&gt;
+&lt;li&gt;没有部分加载的内容。&lt;/li&gt;
+&lt;li&gt;内容加载时没有重新布局。&lt;/li&gt;
+&lt;li&gt;内部一致。如果 UI 的一部分显示“有1个更新可用”，另一部分不应显示“正在检查更新...”。&lt;/li&gt;
+&lt;li&gt;精确的动画。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;动画常常被遗忘。UI 可能在起始和结束状态看起来很棒，但中间状态却非常卡顿。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;“每一帧完美”是 UI 工艺的绝佳准则。如果你关注每一帧，这种严谨会显而易见，尽管几乎没有用户会逐帧检查你的动画和过渡，而且大多数过渡发生得很快，难以实时看清。如果你因为“没人会注意到”而在过渡状态上偷工减料，那么你也会在其他地方开始偷工减料。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/07/12/every-frame-perfect" title="指向‘“每一帧完美”’的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Sun, 12 Jul 2026 19:48:09 +0000</pubDate></item><item><title>TwoMillionKit: 在无需授权的情况下在 macOS 27 基础模型中使用私有云计算</title><link>https://github.com/insidegui/TwoMillionKit</link><description>&lt;p&gt;Guilherme Rambo：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;苹果在 macOS 27 中内置了 &lt;code&gt;fm&lt;/code&gt; 命令行工具，你可以通过终端或脚本，用它来运行本地系统模型或私有云计算（Private Cloud Compute）的推理。你猜还有什么能运行命令行工具？Mac 应用！😃&lt;/p&gt;
 &lt;p&gt;我决定花掉一些 Codex 代币，让 GPT 5.6 Sol 试试手。我让它创建了这个 Swift 包。它所做的就是提供一个 &lt;code&gt;LanguageModel&lt;/code&gt; 实现，底层调用 &lt;code&gt;fm&lt;/code&gt; 命令行工具，这意味着任何 Mac 应用都可以使用私有云计算模型，而无需从苹果那里获取特殊授权。&lt;/p&gt;
@@ -33,31 +52,4 @@
 &lt;/blockquote&gt;
 &lt;p&gt;Lunatic Fringe是我一直以来最喜欢的经典Mac游戏之一。Lunacy是一款出色的现代化播放器，包含CRT模拟功能，让游戏看起来更像当年的样子。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/07/12/lunacy" title="Permanent link to ‘Lunacy — Jeff Halter’s Lunatic Fringe Player’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sun, 12 Jul 2026 17:19:36 +0000</pubDate></item><item><title>Stacks — 适用于现代MacOS的HyperCard播放器</title><link>https://morphing.cloud/hypercard/</link><description>&lt;p&gt;这真是太令人愉快了：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;在现代Mac上直接运行HyperCard堆栈。无需模拟器！&lt;/li&gt;
-&lt;li&gt;浏览互联网档案馆的HyperCard收藏，一键运行堆栈。&lt;/li&gt;
-&lt;li&gt;时代精准的排版。&lt;/li&gt;
-&lt;li&gt;声音、乐器和MacinTalk语音合成。&lt;/li&gt;
-&lt;li&gt;跨堆栈导航。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Stacks是一款真正精美的原生Mac应用，它对经典HyperCard堆栈的呈现精致地忠实于那个时代。它同时兼具Mac风格的2026年和Mac风格的1987年风格。来自开发者&lt;a href="https://morphing.cloud/hypercard"&gt;Jeff Halter&lt;/a&gt;的出色作品。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/07/12/stacks" title="永久链接到‘Stacks — HyperCard Player for Modern MacOS’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sun, 12 Jul 2026 15:42:21 +0000</pubDate></item><item><title>有人能解释一下如何获得‘ChatGPT Classic’吗？</title><link>https://help.openai.com/en/articles/20001276-moving-to-the-new-chatgpt-desktop-app</link><description>&lt;p&gt;&lt;a href="https://daringfireball.net/linked/2026/07/11/whats-wrong-with-the-new-chatgpt"&gt;另一个&lt;/a&gt;来自OpenAI帮助中心的链接，这次解释如何从旧版Mac应用升级到新的“超级”应用版本：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;按照应用中的提示下载新的ChatGPT桌面应用。然后使用同一ChatGPT账户登录。&lt;/p&gt;
-&lt;p&gt;新应用可能与你当前的应用一起安装。如果两者都保留安装，你会看到：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;ChatGPT&lt;/em&gt;：包含Chat、Work和Codex的新应用。&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;ChatGPT Classic&lt;/em&gt;：之前的ChatGPT桌面应用。你可以继续使用它；启动时无需迁移。它继续接收模型更新、错误修复、安全补丁，并支持其现有的企业功能。新的代理功能可能仅在新应用中可用。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这些都不是我的经历。我在三台不同的Mac上安装了现有的旧版ChatGPT应用。在这三台Mac上，内置的“检查更新”命令只安装经典应用的最新版本。我想这还不错。但如果你没有跟进新闻了解OpenAI发布了一款全新的MacOS和Windows“超级”应用，你从经典Mac应用内置的“检查更新”命令中根本无从得知。&lt;/p&gt;
-&lt;p&gt;所以我没有看到“应用中提示下载新的ChatGPT桌面应用”。如果我手动下载新应用，我会得到一个磁盘映像。挂载磁盘映像后，说明指示双击磁盘映像上的“ChatGPT”应用——而不是将其拖到“应用程序”文件夹。如果我在旧版ChatGPT应用仍在运行时这样做，它会来回弹跳几次，但不会安装任何新内容，也不会删除或重命名旧内容。我最终只有经典ChatGPT应用，仍然名为“ChatGPT”。&lt;/p&gt;
-&lt;p&gt;如果我在旧版ChatGPT应用未运行时运行磁盘映像上的安装程序，旧应用会被新应用替换到我的“应用程序”文件夹中，而旧应用会被移到废纸篓。没有名为“ChatGPT Classic”的应用。&lt;/p&gt;
-&lt;p&gt;我的意思是，他们的帮助文档确实说“新应用&lt;em&gt;可能&lt;/em&gt;会与你的当前应用一起安装”，以及“&lt;em&gt;如果&lt;/em&gt;两者都保留安装”，所以他们似乎和我一样困惑。虽然你可以至少在目前继续使用旧版应用并仍然获得模型更新和错误修复，但如果你没有经典ChatGPT Mac应用的副本，似乎无法下载一个新的。更新安装似乎是非确定性的。&lt;/p&gt;
-&lt;p&gt;这是一个拥有超过十亿用户的应用。我知道原生Mac应用没有十亿用户，但即便如此。它是任何公司有史以来最受欢迎的应用之一，而他们发布的最大更新却是一场混乱不清的烂摊子。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/07/11/can-someone-explain-to-me-how-to-get-chatgpt-classic" title="永久链接到‘有人能解释如何获取‘ChatGPT经典版’吗？’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sat, 11 Jul 2026 22:38:39 +0000</pubDate></item></channel></rss>
+</description><pubDate>Sun, 12 Jul 2026 17:19:36 +0000</pubDate></item></channel></rss>

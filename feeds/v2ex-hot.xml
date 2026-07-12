@@ -78,7 +78,9 @@
 &lt;p&gt;&lt;strong&gt;#36 1273712403&lt;/strong&gt;：感觉你应该从一些小的事情做起，不要想太大先&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#37 nofishing&lt;/strong&gt;：看了你的帖子我开始抑郁了，能不能分享一下你的这个风口缓解我的抑郁&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#38 Donahue&lt;/strong&gt;：能理解，有条件还是谈谈恋爱吧，人生苦短。不过一定要筛选掉那些冲着钱来的人&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#39 lin007&lt;/strong&gt;：看 op 主都是发完贴就不回的，emm ，不评价了&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 12 Jul 2026 06:21:19 +0000</pubDate></item><item><title>中国人的 homeLab，从 matrix 聊天服务器开始</title><link>https://www.v2ex.com/t/1226693</link><description>&lt;p&gt;今天的互联网，已经高度发达、停滞不前。要想继续发展，只剩下“家庭”这个没被开发的领域。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#39 lin007&lt;/strong&gt;：看 op 主都是发完贴就不回的，emm ，不评价了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#40 conge&lt;/strong&gt;：@&lt;a href="/member/xidaduo"&gt;xidaduo&lt;/a&gt; &lt;br/&gt;我真要给别人出主意，&lt;br/&gt;是要收钱的。&lt;br/&gt;这里只是玩儿。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#41 ismysheller&lt;/strong&gt;：找点自己喜欢的东西做吧 顺便来学习 最近也很焦虑&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 12 Jul 2026 06:21:19 +0000</pubDate></item><item><title>中国人的 homeLab，从 matrix 聊天服务器开始</title><link>https://www.v2ex.com/t/1226693</link><description>&lt;p&gt;今天的互联网，已经高度发达、停滞不前。要想继续发展，只剩下“家庭”这个没被开发的领域。&lt;/p&gt;
 &lt;p&gt;HomeLab 在欧美流行，在中国冷淡。为什么？因为缺乏刚需、杀手级应用，国人顶多用一下 NAS 。但我认为每个家庭需要的不只是 NAS 网盘，更需要真正的服务器。因为这涉及到个人隐私、数据主权。最典型的就是聊天软件：你以为你在私聊，但它在运营商眼里享有和微博、知乎同样的风控。&lt;/p&gt;
 &lt;p&gt;为了推动“家庭服务器”的发展，我打算开发一种 matrix 聊天服务器、聊天盒子。它看起来像机顶盒、安卓盒子，功率只有 5~10w ，但确有完整的 debian 系统、1~2G 内存、64G 储存空间。用户需填写自己在 cloudflare 购买的域名，然后就能自动创建 tunnel ，从而实现公网暴露。&lt;/p&gt;
 &lt;p&gt;请大家说说：是应该用 cloudflare tunnel 做中继，还是像 NAS 厂商那样建设中继给客户用？
