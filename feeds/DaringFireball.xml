@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sun, 12 Jul 2026 22:17:54 +0000</lastBuildDate><item><title>WorkOS Pipes</title><link>https://workos.com/pipes?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q32026</link><description>&lt;p&gt;再次感谢WorkOS上周赞助DF。用户期望应用和代理能够接入他们已在使用的工具。每一次实现这一点的集成都意味着不同的OAuth流程、不同的令牌生命周期，以及在编写一行产品代码前需要花费数周的基础设施搭建。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Mon, 13 Jul 2026 15:24:53 +0000</lastBuildDate><item><title>还记得马斯克指控苹果与OpenAI合谋的诉讼吗？</title><link>https://arstechnica.com/tech-policy/2025/08/elon-musk-sues-apple-openai-to-block-exclusive-iphone-chatgpt-integration/</link><description>&lt;p&gt;阿什利·贝朗热（Ashley Belanger）于2025年8月为Ars Technica报道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在&lt;a href="https://arstechnica.com/tech-policy/2025/08/apple-gets-yanked-into-elon-musks-chatbot-war-with-openai/"&gt;因Grok在App Store排名而公开爆发&lt;/a&gt;后，周一，埃隆·马斯克（Elon Musk）兑现了他的威胁，起诉了苹果（Apple）和OpenAI。&lt;/p&gt;
+&lt;p&gt;起初，马斯克似乎执着于ChatGPT持续占据苹果"必备应用"榜单的榜首——而Grok从未上榜——他声称苹果似乎偏袒其合作伙伴OpenAI，而非所有聊天机器人竞争对手。但马斯克的&lt;a href="https://cdn.arstechnica.net/wp-content/uploads/2025/08/X-Corp-v-Apple-8-25-25-Complaint.pdf"&gt;诉状&lt;/a&gt;显示，这位X和xAI的所有者不仅仅是想推动Grok在iPhone上的下载量——他担心苹果和OpenAI联手彻底粉碎了他的&lt;a href="https://arstechnica.com/tech-policy/2024/03/elon-musks-improbable-path-to-making-x-an-everything-app/"&gt;"万能应用"梦想&lt;/a&gt;，而这正是他&lt;a href="https://arstechnica.com/tech-policy/2023/03/fast-moving-musk-makes-very-slow-progress-turning-twitter-into-everything-app/"&gt;收购Twitter的原因&lt;/a&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;无论如何，我刚刚查看了App Store中&lt;a href="https://daringfireball.net/misc/2026/06/app-store-popular-list-2026-07-13.png"&gt;编辑精心策划的"热门iPhone应用"列表&lt;/a&gt;，ChatGPT位居榜首。考虑到&lt;a href="https://daringfireball.net/linked/2026/07/10/apple-sues-openai"&gt;苹果上周对OpenAI提起的诉讼&lt;/a&gt;，我认为这是一个很好的轶事证据，表明这些App Store的编辑决策并非由偏袒驱动。目前免费iPhone应用下载量排名前十的列表如下（对我所在的美国App Store而言）：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Paramount+&lt;/li&gt;
+&lt;li&gt;Netflix Game Controller&lt;/li&gt;
+&lt;li&gt;ChatGPT&lt;/li&gt;
+&lt;li&gt;Kalshi: Trade the World Cup&lt;/li&gt;
+&lt;li&gt;Peacock TV: Stream TV &amp;amp; Movies&lt;/li&gt;
+&lt;li&gt;Netshort - Popular Dramas &amp;amp; TV&lt;/li&gt;
+&lt;li&gt;Threads&lt;/li&gt;
+&lt;li&gt;TikTok Pro - Events&lt;/li&gt;
+&lt;li&gt;Freecash - Get Paid Real Money&lt;/li&gt;
+&lt;li&gt;Depop - Buy &amp;amp; Sell Clothes&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;这个列表里有一些真正的赢家。但只有一款AI应用：ChatGPT。&lt;/p&gt;
+&lt;p&gt;马斯克声称下载量排行榜也存在不公。这不过是投射心理。如果马斯克运营一个热门App Store，他一定会暗中操纵，确保自己的应用总是位列榜首。这正是他在Twitter/X上对&lt;a href="https://daringfireball.net/linked/2026/06/05/musk-x-freak-show"&gt;他的个人账户&lt;/a&gt;以及与他的政治立场一致的账户所做的。因为这就是他会做的事，他认为苹果也在做同样的事。我真的认为他相信App Store的下载量排行榜是被人为操控的，而Grok恰恰站在了这种操控的对立面。骗子认为所有人都是骗子。这只是马斯克思维不正常的几种表现之一。&lt;/p&gt;&lt;p&gt;我怀疑，不过，&lt;a href="https://daringfireball.net/linked/2026/07/12/altman-musk"&gt;他不再担心&lt;/a&gt;苹果会偏向OpenAI。也许他应该&lt;em&gt;别管&lt;/em&gt;这起诉讼了。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/07/13/musk-v-apple" title="Permanent link to ‘Remember Musk’s Suit Alleging a Conspiracy Between Apple and OpenAI?’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Mon, 13 Jul 2026 15:24:53 +0000</pubDate></item><item><title>WorkOS Pipes</title><link>https://workos.com/pipes?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q32026</link><description>&lt;p&gt;再次感谢WorkOS上周赞助DF。用户期望应用和代理能够接入他们已在使用的工具。每一次实现这一点的集成都意味着不同的OAuth流程、不同的令牌生命周期，以及在编写一行产品代码前需要花费数周的基础设施搭建。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://workos.com/pipes?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q32026"&gt;WorkOS Pipes通过一次API调用即可处理这一切&lt;/a&gt;。内置GitHub、Slack、Salesforce、Google Drive等预构建连接器。Pipes负责处理OAuth、令牌刷新和凭证存储。每次你都将使用全新令牌调用真实的提供商API。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://workos.com/pipes?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q32026"&gt;通过WorkOS Pipes连接100多个提供商&lt;/a&gt;。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/07/12/workos-pipes" title="Permanent link to ‘WorkOS Pipes’"&gt; ★ &lt;/a&gt;
@@ -29,14 +50,4 @@
 &lt;/blockquote&gt;
 &lt;p&gt;“每一帧完美”是 UI 工艺的绝佳准则。如果你关注每一帧，这种严谨会显而易见，尽管几乎没有用户会逐帧检查你的动画和过渡，而且大多数过渡发生得很快，难以实时看清。如果你因为“没人会注意到”而在过渡状态上偷工减料，那么你也会在其他地方开始偷工减料。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/07/12/every-frame-perfect" title="指向‘“每一帧完美”’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sun, 12 Jul 2026 19:48:09 +0000</pubDate></item><item><title>TwoMillionKit: 在无需授权的情况下在 macOS 27 基础模型中使用私有云计算</title><link>https://github.com/insidegui/TwoMillionKit</link><description>&lt;p&gt;Guilherme Rambo：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;苹果在 macOS 27 中内置了 &lt;code&gt;fm&lt;/code&gt; 命令行工具，你可以通过终端或脚本，用它来运行本地系统模型或私有云计算（Private Cloud Compute）的推理。你猜还有什么能运行命令行工具？Mac 应用！😃&lt;/p&gt;
-&lt;p&gt;我决定花掉一些 Codex 代币，让 GPT 5.6 Sol 试试手。我让它创建了这个 Swift 包。它所做的就是提供一个 &lt;code&gt;LanguageModel&lt;/code&gt; 实现，底层调用 &lt;code&gt;fm&lt;/code&gt; 命令行工具，这意味着任何 Mac 应用都可以使用私有云计算模型，而无需从苹果那里获取特殊授权。&lt;/p&gt;
-&lt;p&gt;主要限制是：这无法在沙盒化的 Mac 应用中使用，因此通过 Mac App Store 分发的任何 Mac 应用都无法使用它。&lt;/p&gt;
-&lt;p&gt;但对于在 Mac App Store 之外分发 Mac 应用的开发者来说，这提供了一种简单且无需授权的途径，可以在他们的应用中使用私有云计算。&lt;/p&gt;
-&lt;p&gt;请谨慎使用，风险自负。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这是对 &lt;a href="https://daringfireball.net/linked/2026/06/13/pcc-severely-limited-third-party-developers"&gt;苹果当前限制&lt;/a&gt; 的一种变通方案——该限制仅允许“首次 App Store 下载量少于两百万次的 App Store 小型企业计划开发者”访问私有云计算。因此，Rambo 为这个框架取了个巧妙的名称。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/07/12/twomillionkit" title="永久链接至‘TwoMillionKit：在 macOS 27 基础模型中使用私有云计算，无需授权’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sun, 12 Jul 2026 18:04:05 +0000</pubDate></item></channel></rss>
+</description><pubDate>Sun, 12 Jul 2026 19:48:09 +0000</pubDate></item></channel></rss>
