@@ -1,5 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sun, 12 Jul 2026 10:02:27 +0000</lastBuildDate><item><title>Codex反代使用真不会封号？Codex产品经理推荐开发者在Claude Code中使用GPT-5.6</title><link>https://www.landian.news/archives/113898.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 13 Jul 2026 02:07:32 +0000</lastBuildDate><item><title>在被曝光收集开发者仓库后 Grok Build通过云端更新悄悄关闭数据上传但未发布任何回应</title><link>https://www.landian.news/archives/113901.html</link><description>
+&lt;p&gt;#人工智能 在被曝光擅自收集开发者完整仓库后，Grok Build 昨夜悄悄调整云端策略不再上传数据，这似乎是有意识的行为而非 BUG。昨天蓝点网提到 Grok Build 会上传开发者的整个仓库，这远远超出模型所需的上下文代码范围，SpaceXAI 到现在还未发布任何回应，但调整服务器临时关闭了数据上传。查看全文：https://ourl.co/113901&lt;/p&gt;&lt;p&gt;昨天蓝点网提到有安全研究人员发现 SpaceXAI Grok Build CLI 编程开发工具会在未经用户同意的情况下，&lt;a href="https://www.landian.news/archives/113897.html" rel="noopener" target="_blank"&gt;将工具未使用的代码仓库乃至 Git 提交历史都上传到谷歌对象存储中&lt;/a&gt;，这种行为存在非常严重的数据泄露风险，尤其是对企业来说这可能会泄露内部机密信息。&lt;/p&gt;
+&lt;p&gt;Grok Build 的行为在开发者社区引起广泛关注且同时引起诸多开发者的恐慌，因为没有开发者想自己的完整仓库内容都被商业公司获取，大量开发者呼吁立即停用 Grok Build 确保安全，而 SpaceXAI 似乎也看到研究人员发布的消息，所以通过云端悄悄禁用数据上传开关。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113870.png" rel="nofollow"&gt;&lt;img alt="在被曝光收集开发者仓库后 Grok Build通过云端更新悄悄关闭数据上传但未发布任何回应" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113870.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;发布原始报告的安全研究人员 CereLab 在 2026 年 7 月 13 日 3 点左右发布&lt;a href="https://www.landian.news/go?url=https://www.reddit.com/r/LocalLLaMA/comments/1ut7tis/comment/ox4zamk/?utm_source=share&amp;amp;utm_medium=web3x&amp;amp;utm_name=web3xcss&amp;amp;utm_term=1&amp;amp;utm_content=share_button" rel="noopener" target="_blank"&gt;帖子&lt;/a&gt;称，Grok Build 的数据上传选项已经通过云端禁用，具体来说 Grok 服务器返回 disable_codebase_upload: true 该选项指的是开启关闭上传代码仓库，显然 SpaceXAI 这也是有意识的操作。&lt;/p&gt;
+&lt;p&gt;然而问题在于开发团队可以随时从云端重新启用数据收集选项，Grok Build 并非开源软件因此无法进行完整的代码审计，如果是开源的至少社区还可以通过代码进行分析和识别，而没有开源就只能依靠安全研究人员花时间进行监视、逆向工程以及抓包分析。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;值得注意的是，研究人员的安全分析报告最早是在 7 月 11 日发布的，随后在 7 月 12 日和 13 日引起的关注越来越多，到 7 月 13 日夜里 SpaceXAI 通过云端禁用仓库上传功能合计已经有 3 天，如果说开发团队没注意到这件事那是不可能的，但问题在于到现在 SpaceXAI 并未发布任何官方回应来解释这件事。&lt;/p&gt;
+&lt;p&gt;信任这种东西失去后很难找回，即便 Grok 4.5 模型再好用也有前提那就是足够安全，现在 Grok Build 擅自收集开发者的完整仓库显然已经违反信任原则，而悄悄禁用上传功能但不发布任何回应的做法更加糟糕，这只会让更多开发者远离 Grok Build。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;还有更多使用 Grok Build 的开发者担忧自己已经被上传的数据怎么办，这些仓库里可能包含大量敏感信息，被 SpaceXAI 收集总归不是好事，所以这里又回到透明度问题，如果 SpaceXAI 能够正面回应或许还有沟通的机会，至少也应该从云端删除所有仓库不再留存未经开发者同意收集的数据。&lt;/p&gt;
+&lt;p&gt;问题是现在 SpaceXAI 完全是在装死，所以现在除了继续声讨 SpaceXAI 外好像也没有其他好办法。&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 13 Jul 2026 02:07:32 +0000</pubDate></item><item><title>A社将Fable 5订阅内免费使用权限延长到7月19日 周限额提高50%活动也跟随延期</title><link>https://www.landian.news/archives/113900.html</link><description>
+&lt;p&gt;#人工智能 A 社宣布继续延长 Claude Fable 5 订阅套餐内免费使用时间，这次延长到 7 月 19 日。然而最高还是 50% 限额，即用户只能将套餐内最高 50% 的使用额度用在 Fable 5 上，达到限额后需要额外充值积分继续使用或切换到其他模型。查看全文：https://ourl.co/113900&lt;/p&gt;&lt;p&gt;A 社正在继续延长 Claude Fable 5 的套餐内免费访问时间，最初该模型访问权限到 7 月 7 日结束，后来 A 社将其延期到 7 月 13 日。现在 A 社再次宣布延期，这次延期到 7 月 19 日，看起来 A 社可能是根据后端服务器负载情况来决定是否继续为订阅用户提供免费使用权限。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113385-1.png" rel="nofollow"&gt;&lt;img alt="A社宣布将Fable 5订阅内免费使用权限延长到7月19日 周限额提高50%活动也跟随延期" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113385-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A 社在最新发布的通知中表示，正在为所有付费订阅用户 (Claude Pro/Max 和团队及企业订阅等) 延长 Claude Fable 5 访问权限。在原始推文中 A 社还提到 Claude Code 每周配额限制提高 50%，然而这种模糊性的描述非常容易引起误解，因为在随后的推文中 A 社强调用户可以实际使用的 Fable 5 限额依然是 50%。&lt;/p&gt;
+&lt;p&gt;即用户最高可以在自己的订阅限额内将 50% 的使用额度用于 Claude Fable 5 模型，达到 50% 后用户要么额外充值积分继续使用模型，要么切换到其他模型，这和之前其实没什么变化。&lt;/p&gt;
+&lt;p&gt;而 A 社强调的每周限额提高 50% 指的是此前的福利活动，即在 Claude Code 中使用 Claude 订阅，整体使用限额提高 50%，具体可以参考这篇文章：&lt;a href="https://www.landian.news/archives/113836.html" rel="noopener" target="_blank"&gt;开发者们颤抖吧！Claude Code 周限额提高50%活动将在7月14日结束&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;太平洋夏令时：2026 年 7 月 19 日 23:59:59 (PDT)&lt;/li&gt;
+&lt;li&gt;美国东部时间：2026 年 7 月 20 日 02:59:59 (EDT)&lt;/li&gt;
+&lt;li&gt;中国标准时间：2026 年 7 月 20 日 14:59:59 (CST)&lt;/li&gt;
+&lt;li&gt;世界协调时间：2026 年 7 月 20 日 06:59:59 (UTC)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;via &lt;a href="https://www.landian.news/go?url=https://support.claude.com/en/articles/15424964-claude-fable-5-promotional-access" rel="noopener" target="_blank"&gt;Claude&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 13 Jul 2026 01:47:29 +0000</pubDate></item><item><title>Codex再次进行硬重置且临时取消5小时限额 现在可以疯狂消耗周限额</title><link>https://www.landian.news/archives/113899.html</link><description>
+&lt;p&gt;#人工智能 Codex 再次执行硬重置让各位回血，同时临时取消 5 小时滚动限额机制，现在各位可以开着快速模式和使用手动重置次数疯狂消耗周限额。例如蓝点网目前有 3 次手动重置次数，这意味着我可以开着快速模式在 3~5 小时内消耗相当于 4 周的额度 (刚刚的硬重置 + 3 次手动重置)。查看全文：https://ourl.co/113899&lt;/p&gt;&lt;p&gt;昨天夜里 Codex 工程经理蒂博宣布再次执行硬重置，即为所有付费订阅用户执行重置，此次依然不会保留手动重置次数，当然这次硬重置本身就是为了解决手动重置问题的，待后续解决手动重置配额相关操作问题后，Codex 会向所有用户加赠可以保留的手动重置次数。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113899.png" rel="nofollow"&gt;&lt;img alt="Codex再次进行硬重置且临时取消5小时限额 现在可以疯狂消耗周限额" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113899.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;此前 OpenAI 向所有订阅用户赠送手动重置次数，其中最早过期的就是 7 月 12 日，但由于产品设计问题在 ChatGPT 移动端用户不太方便执行重置，Codex 服务端统计数据显示大约只有 10% 用户完成重置。所以在这次手动重置次数过期前 Codex 决定直接帮助所有用户执行重置 (当然即便你之前已经用掉重置次数也无所谓)。&lt;/p&gt;
+&lt;p&gt;这属于产品层面的问题，目前 OpenAI 正在陆续修复问题，包括在 ChatGPT 桌面版中增加重置次数、到期时间和重置按钮 (已提供)，接下来 ChatGPT 移动端也会添加类似功能(更新：升级到最新版后也已经有重置选项)，因此后续用户也可以在移动端轻松管理手动重置次数并执行重置操作。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;更大的惊喜是 Codex 目前已经临时取消 5 小时滚动限额机制，即用户可以在短时间内直接将 1 周限额全部耗尽，如果用户当前有多次手动重置机会，那甚至可以在极短的时间内快速消耗 1 周配额然后手动重置再继续消耗；如果开发者有紧急项目需要处理的话，还可以开着快速模式用 GPT-5.6 Sol 来处理任务，反正限额足够 + 没有时间限制。&lt;/p&gt;
+&lt;p&gt;例如蓝点网目前还有 3 次手动重置次数，如果我愿意的话，可以开着快速模式在大约 3~5 小时内消耗 4 周额度 (1 次刚刚的重置 + 3 次手动重置)，OpenAI 也希望测试临时取消 5 小时滚动限额会对负载产生何种影响，如果情况良好的话，或许未来 OpenAI 会直接取消 5 小时限额。&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 13 Jul 2026 01:22:42 +0000</pubDate></item><item><title>Codex反代使用真不会封号？Codex产品经理推荐开发者在Claude Code中使用GPT-5.6</title><link>https://www.landian.news/archives/113898.html</link><description>
 &lt;p&gt;#人工智能 Codex 反代使用真不会封号？Codex 产品经理推荐开发者在 Claude Code 中反代使用 GPT-5.6 Sol。具体来说是推荐开发者使用 CLIProxyAPI，该工具可以 OAuth 登录 ChatGPT 然后输出 API 给 CC 或其他编码工具使用。蒂博发出的建议是否也意味着 OpenAI 官方确认不会禁止反代使用？至少目前通过反代使用的开发者应该不需要担心封号问题。查看全文：https://ourl.co/113898&lt;/p&gt;&lt;p&gt;长期以来很多开发者都会通过反代方式使用 Codex 订阅账号中的配额，但经常有用户抱怨以这种方式调用模型会被封号，不过也有用户长期使用反代方式也没有遇到过问题，所以 OpenAI 是否允许用户通过反代方式使用 Codex 中的订阅额度呢？至少目前来看是允许的。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113898.png" rel="nofollow"&gt;&lt;img alt="Codex反代使用真不会封号？Codex产品经理推荐开发者在Claude Code中使用GPT-5.6" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113898.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;p&gt; 产品经理建议在 CC 中反代使用 GPT-5.6 Sol：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -32,72 +72,4 @@
 &lt;p&gt;研究人员认为该选项更可能用于控制数据是否参与模型训练或产品改进，而不是控制代码是否发送到服务器，不过目前也没有证据表明 SpaceXAI 使用这些代码训练模型，也没有证据证明员工查看、出售或共享用户代码，所以争议的核心主要是数据上传范围和透明度问题。&lt;/p&gt;
 &lt;p&gt;via &lt;a href="https://www.landian.news/go?url=https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547" rel="noopener" target="_blank"&gt;Cereb Lab&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sun, 12 Jul 2026 09:35:36 +0000</pubDate></item><item><title>微软发现恶性后门程序：可以擦除整个磁盘/覆写系统盘/加密文件但不保留解密密钥</title><link>https://www.landian.news/archives/113896.html</link><description>
-&lt;p&gt;#安全资讯 微软对恶性后门程序 GigaWiper 发布拆解分析报告：可以擦除整个磁盘、覆写系统分区、使用随机密钥加密所有文件。GigaWiper 最早可以追溯到 2023 年，这个后门程序主要用于间谍攻击，当黑客察觉到调查分析时就可能启动破坏性组件，将这个硬盘上的数据擦除避免被查到蛛丝马迹。查看全文：https://ourl.co/113896&lt;/p&gt;&lt;p&gt;微软安全团队日前发文曝光名为 GigaWiper 的破坏性后门程序，这个后门程序性质极其恶劣，简单来说就是黑客的目的是破坏而不是出于经济利益，不过分析显示黑客的真正目的其实还是间谍攻击。微软称这个后门程序支持完整擦除整个磁盘、覆写系统盘，以及运行伪造的勒索软件加密用户文件，但黑客压根不会保存加密密钥。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113896.png" rel="nofollow"&gt;&lt;img alt="微软发现恶性后门程序：可以擦除整个磁盘/覆写系统盘/加密文件但不保留解密密钥" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113896.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;原始磁盘擦除工具：该工具会在系统重启前覆盖物理驱动器并擦除分区表，这不是简单地删除文件，而是直接摧毁磁盘内容，受害者想要通过常规方式恢复硬盘的难度非常大，即便是专业的数据恢复软件想要完整恢复数据估计也很困难。&lt;/p&gt;
-&lt;p&gt;擦除系统分区数据：该工具会使用多种不同的数据模式多次覆写系统分区，由于系统分区数据出现损坏，因此关机后系统也无法再重新启动。同理，这种多次对系统分区的覆写行为，让数据恢复难度极大，可以说基本没有恢复的可能性。&lt;/p&gt;
-&lt;p&gt;伪装勒索软件加密：值得注意的是这个破坏性后门程序还会伪装成勒索软件对用户数据进行高强度加密，微软分析后发现，黑客确实使用勒索软件对数据进行加密，但并未回传解密密钥到服务器，这意味着连黑客自己都不可能再解密这些数据。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;尽管后门程序包含诸多破坏性行为，但微软经过仔细分析后认为这个后门程序主要可能还是用于间谍目的，其包含的多个功能可以用来监视和控制受感染的设备，例如对显示器进行截图、在用户工作时悄悄录制屏幕，还可以开启隐藏的 VNC 会话来串流显示画面。&lt;/p&gt;
-&lt;p&gt;从分析和其他公开数据来看，黑客在前期将这个后门程序用于间谍目的收集目标设备的各类敏感信息，当达成目标或察觉被调查时，就可以启动破坏性组件直接将硬盘数据摧毁，这样调查机构也难以从被摧毁的硬盘里收集数据进行分析。&lt;/p&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 10 Jul 2026 07:06:24 +0000</pubDate></item><item><title>微软证实WSL容器也支持Windows 10 其他可以安装WSL的系统也都支持</title><link>https://www.landian.news/archives/113895.html</link><description>
-&lt;p&gt;#软件资讯 微软证实 Windows 10 也可以安装部署 WSL 容器功能，可以替代 Docker Desktop 且无需常驻进程减少资源占用。简而言之，WSL 容器不属于系统级功能，所以即便 Windows 10 结束支持也不影响 WSL 容器继续安装，有兴趣的用户可以部署试试。部署方法：https://ourl.co/113895&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/113703.html" rel="noopener" target="_blank"&gt;早前微软发布 WSL 容器&lt;/a&gt;，这是微软开发的原生容器平台，让用户无需安装 Docker Desktop 即可安装 / 部署 / 使用容器，不需要桌面客户端常驻后台也意味着可以节省更多硬件资源，所以目前 WSL 容器还是比较受经常玩容器的用户和开发者欢迎的。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113703.png" rel="nofollow"&gt;&lt;img alt="微软证实WSL容器也支持Windows 10 其他可以安装WSL的系统也都支持" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113703.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; 微软确认 WSL 容器也支持 Windows 10 系统：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;微软目前已经结束 Windows 10 的支持，正常来说对于已经结束支持的操作系统，微软不会再为其提供新功能。但 WSL 容器属于例外情况，负责 Linux 子系统开发的微软产品经理克雷格证实，WSL 容器可以在 Windows 10 以及其他支持 WSL 的系统上运行。&lt;/p&gt;
-&lt;p&gt;具体来说对于 Windows 10 而言，用户至少要使用 V2004 版 (构建版本号为 Build 19041)，这是因为 WSL 对系统版本有最低要求，所以只要系统能够正常安装使用 WSL 子系统，那就可以安装和使用 WSL 容器，这并不算是 Windows 10 的新功能，而是 WSL 容器作为 WSL 更新安装，不受操作系统本身的功能限制。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; 如何优雅地在 Windows 10 上使用 WSL 容器：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;默认情况下 Windows 10 既没有安装 WSL 也没有安装 Windows Terminal，如果想要优雅地使用 WSL 容器，建议用户安装微软开源的 Windows Terminal 终端应用，然后安装 WSL2 和 WSL 容器，当然前提是系统版本号要满足最低要求，具体可以按照下面的部署进行检查。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;检查系统版本号：Win+R 打开运行后输入 winver 按回车即可在弹窗中看到版本号&lt;/li&gt;
-&lt;li&gt;打开管理员模式的命令提示符，然后使用 wsl --install 命令安装，这个过程可能会持续几分钟&lt;/li&gt;
-&lt;li&gt;更新容器构建，使用命令 wsl --update --pre-release&lt;/li&gt;
-&lt;li&gt;关闭子系统再启用，使用命令 wsl --shutdown&lt;/li&gt;
-&lt;li&gt;重新打开命令提示符，使用命令 wslc --version 检查 WSL 容器是否已经完成部署&lt;/li&gt;
-&lt;li&gt;接下来你可以使用 wslc 命令查看容器帮助教程&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;container # 管理容器
-image # 管理映像
-network # 管理网络
-registry # 管理注册表凭据
-settings # 在默认编辑器中打开设置文件
-system # 系统级命令
-volume # 管理卷
-attach # 附加到容器
-build # 从 Dockerfile 生成映像
-create # 创建容器
-exec # 在正在运行的容器中执行命令
-export # 将容器的文件系统导出为 tar 存档
-images # 列出映像
-import # 从 tarball 导入映像
-inspect # 检查对象
-kill # 终止容器
-list # 列出容器
-load # 加载映像
-login # 登录到注册表
-logout # 从注册表注销
-logs # 查看容器日志
-pull # 拉取映像
-push # 将映像上传到注册表
-remove # 移除容器
-rmi # 移除映像
-run # 运行容器
-save # 保存映像
-start # 启动容器
-stats # 显示容器资源使用统计信息
-stop # 停止容器
-tag # 标记映像
-version # 显示版本信息&lt;/pre&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 10 Jul 2026 06:40:26 +0000</pubDate></item><item><title>OpenAI宣布Atlas浏览器停止开发 浏览器相关功能也集成到ChatGPT中</title><link>https://www.landian.news/archives/113894.html</link><description>
-&lt;p&gt;#软件资讯 OpenAI 宣布 Atlas 浏览器停止开发并弃用，浏览器相关功能也集成到 ChatGPT 中。不过说是集成但其实风马牛不相及，OpenAI 说的集成指的是 Codex 原本内置的浏览器功能，这也确实可以加载网页，但整个功能体验与独立的浏览器完全不同。使用 Atlas 的用户需要尽早备份数据，包括书签和历史记录等。查看全文：https://ourl.co/113894&lt;/p&gt;&lt;p&gt;OpenAI 今天宣布基于人工智能的独立桌面浏览器 Atlas 将被弃用，取而代之的是全新的 ChatGPT 桌面应用程序，OpenAI 正在打造统一的桌面应用程序，所以现在 Codex 已经被集成到 ChatGPT 中，而后续 Atlas 相关功能也会被集成到 ChatGPT 中。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/public/thumb/atlas.png" rel="nofollow"&gt;&lt;img alt="OpenAI宣布Atlas浏览器停止开发 浏览器相关功能也集成到ChatGPT中" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/public/thumb/atlas.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;目前最新发布的集成 Codex 的 ChatGPT，甚至已经弱化 ChatGPT 原本的功能，也就是以 Codex 为主，聊天功能变成小窗口形式提供。而新版 ChatGPT 也继承 Codex 原本提供的浏览器功能，OpenAI 所说的集成浏览器功能说的就是 Codex 内置的浏览器。&lt;/p&gt;
-&lt;p&gt;现在 ChatGPT 集成的浏览器确实可以在用户要求的情况下加载网站，但显然这与独立桌面浏览器的体验是完全不同的，所以说是集成其实最终还是弃用，Atlas 浏览器最终将在 8 月 9 日停用，到时候用户可能无法继续使用 Atlas 浏览器，所以用户需要考虑将书签和浏览记录导出另存。&lt;/p&gt;
-&lt;p&gt;接下来几天 OpenAI 会陆续向使用 Atlas 浏览器的用户发送应用内和邮件通知，提醒用户升级到新版 ChatGPT 以及分享 Atlas 弃用的消息，虽然距离弃用还有一个月，不过建议用户提前做好迁移准备。&lt;/p&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 10 Jul 2026 03:41:22 +0000</pubDate></item></channel></rss>
+</description><pubDate>Sun, 12 Jul 2026 09:35:36 +0000</pubDate></item></channel></rss>
