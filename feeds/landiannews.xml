@@ -1,62 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 14 Jul 2026 01:30:10 +0000</lastBuildDate><item><title>英特尔推出航天级AI芯片 可以在太空中使用 不过仅限美国政府使用</title><link>https://www.landian.news/archives/113919.html</link><description>
-&lt;p&gt;#硬件设备 英特尔发布航空级 AI 芯片星火系列 (Starfire)，可以忍受辐射和极端温度，不过仅限美国政府使用 (属于军工类芯片)。星火系列提供最高 75TOPS 算力，支持 12 条 PCIe 4.0 通道，可以在零下 55 到零上 125 摄氏度范围内工作。此类芯片通常是英特尔与美国国防部合作开发，因此受到严格的出口管制。查看全文：https://ourl.co/113919&lt;/p&gt;&lt;p&gt;英特尔日前发布名为星火 (Starfire) 的航天级 AI 芯片，该芯片基于英特尔 18A 制程制造，配备 8 颗核心并提供 10 年的使用寿命，芯片本身确实支持轨道数据中心使用，不过英特尔的星火系列芯片并非面向民用市场，而是为美国政府和美国军工项目提供。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113919-1.png" rel="nofollow"&gt;&lt;img alt="英特尔推出航天级AI芯片 可以在太空中使用 不过仅限美国政府使用" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113919-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 14 Jul 2026 04:00:26 +0000</lastBuildDate><item><title>微软爆改Windows 11搜索框(搜索功能) 删除广告和必应搜索推荐 侧重本地优先</title><link>https://www.landian.news/archives/113924.html</link><description>
+&lt;p&gt;#系统资讯 微软爆改 Windows 11 搜索框 (搜索功能)，删除广告和推广信息、禁用来自必应搜索的乱七八糟的内容、侧重于本地文件和设置优先。目前这波改进正在面向 Windows 11 预览版用户提供，使用预览版的用户请转到实验性功能标志里手动启用新版搜索框。查看全文：https://ourl.co/113924&lt;/p&gt;&lt;p&gt;微软今天发布博客宣布向 Windows 11 预览版用户推出改进后的搜索框，满足大家要求的搜索框搜索速度更快、相关性更高以及使用更方便。这波改进的重点就是允许用户禁用来自必应搜索的乱七八糟的内容推荐和其他推广内容，让搜索框回归搜索功能，侧重于为用户提供本地文件搜索。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;英特尔星火系列芯片提供低功耗版和高性能版，芯片本身采用 8 核心配置，包括 4 颗 P 核和 4 颗 LPE 核心，其中低功耗版 P 核心主频为 1GHz、LPE 核心主频为 0.85GHz；高性能版 P 核心主频为 3.1GHz、LPE 核心为 2.1GHz。无论是低功耗版还是高性能版，均采用 Intel Panther Lake 4 Xe3 芯片。&lt;/p&gt;
-&lt;p&gt;这些芯片提供 TID、SEL 和 SEE 等辐射防护，工作温度范围为 - 55 °C 至 125 °C，提供 12 条 PCIe Gen 4 通道，支持 LPDDR5/DDR5 内存，提供 10 年保修服务。&lt;/p&gt;
-&lt;p&gt;芯片算力方面，星火低功耗版提供 45TOPS 的运算性能，而高性能版则提供 75TOPS 的运算性能，当然也可以通过集成多块芯片的方式来提高系统整体运算性能，这种情况下功耗会明显增加，所以最终如何搭配还是要看使用场景。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113919-2.png" rel="nofollow"&gt;&lt;img alt="英特尔推出航天级AI芯片 可以在太空中使用 不过仅限美国政府使用" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113919-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;改进后的搜索框目前以受控发布形式向 Windows 11 预览版用户提供，已经使用预览版的用户也可以通过高级实验性标志手动启用，启用后就可以体验新版搜索框。蓝点网简单体验后认为改进后的搜索框比以前好太多，尤其是打开时不会显示太多乱七八糟的内容，整个界面都清爽无比。&lt;/p&gt;
+&lt;p&gt;下面是实验性标志启用方法：Windows 11 设置、更新、预览体验计划、功能标志，找到 Refined Windows Search 选项，将其后面的无替代修改为已启用，然后重启系统使之生效。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;星火系列芯片并非面向民用市场提供，按照目前英特尔的说法，星火系列芯片主要为美国政府提供，经过美国政府授权的军工承包商以及授权盟国机构也可以使用。星火系列芯片能够忍受太空中的各种因素，包括辐射和极端温度，此类芯片通常会受到美国政府的严格出口管制。&lt;/p&gt;
-&lt;p&gt;如果没有意外的话星火芯片应该也是英特尔与美国国防部联合开发的产品，英特尔此前经常和美国国防部合作开发特殊用途的芯片，最终这些芯片都仅限于美国国防项目使用，民用或非授权实体难以获得这些芯片。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;启动搜索框时提供简化的功能面板：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;搜索界面上的各类视觉干扰 (例如来自必应搜索的当前热门主题、图片、历史上的今天等) 都被删除，高亮部分会侧重于近期打开的文件。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113924-1.png" rel="nofollow"&gt;&lt;img alt="微软爆改Windows 11搜索框(搜索功能) 删除广告和必应搜索推荐 侧重本地优先" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113924-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;更清晰的搜索结果：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;现在搜索功能会更好地显示结果来源，包括应用、设置、文件、网页结果或应用商店建议，因此用户在点击前更容易了解正在查看的内容以及点击后将跳转到哪里。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113924-2.png" rel="nofollow"&gt;&lt;img alt="微软爆改Windows 11搜索框(搜索功能) 删除广告和必应搜索推荐 侧重本地优先" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113924-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;搜索结果中删除推广内容：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;现在搜索结果会优先显示最相关的答案而不是先展示相关产品和促销信息，这有助于用户更专注于搜索结果本身，降低被推广内容干扰的概率。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113924-3.png" rel="nofollow"&gt;&lt;img alt="微软爆改Windows 11搜索框(搜索功能) 删除广告和必应搜索推荐 侧重本地优先" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113924-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;控制是否使用联网搜索：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;用户还可以在设置、隐私和安全、搜索中控制搜索功能是否调用必应网络搜索内容和来自微软商店的搜索内容，关闭该功能后搜索功能将只显示来自本地的干净搜索结果。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;本地搜索结果优先：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;当内容更符合搜索条件时，应用、设置和文件会更可靠地优先于网页和应用商店搜索结果，这也可以让系统项目例如此电脑和回收站等功能更容易被搜索找到。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113924-4.png" rel="nofollow"&gt;&lt;img alt="微软爆改Windows 11搜索框(搜索功能) 删除广告和必应搜索推荐 侧重本地优先" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113924-4.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;查找应用程序的容错率更高：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;现在搜索功能可以更好地处理拼写错误、漏字、多余字符以及不完整的单词，例如当用户搜索的是 otlook 那么仍然可以正常显示关键词 outlook 的搜索结果。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="微软爆改Windows 11搜索框(搜索功能) 删除广告和必应搜索推荐 侧重本地优先" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113924-5.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;设置搜索结果将靠前显示：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;微软还针对搜索权重进行优化，让更多相关的设置出现在搜索结果更靠前的位置，这样用户通过搜索框查找功能设置时要更方便。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113924-6.png" rel="nofollow"&gt;&lt;img alt="微软爆改Windows 11搜索框(搜索功能) 删除广告和必应搜索推荐 侧重本地优先" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113924-6.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 14 Jul 2026 01:30:10 +0000</pubDate></item><item><title>欧盟表示自己没有理由阻止索尼停产PS实体游戏光盘 因为这属于索尼商业决策范畴</title><link>https://www.landian.news/archives/113906.html</link><description>
-&lt;p&gt;#游戏资讯 欧盟表示自己没有理由阻止索尼停产 PS 实体游戏光盘，因为这属于索尼商业决策范畴。只要索尼和其他公司没有违反消费者权益保护法，那就可以自由选择以任何形式提供游戏和服务。负责消费者保护事务的欧盟专员迈克尔麦格拉斯称，问题归根结底还是商业和合同自由。查看全文：https://ourl.co/113906&lt;/p&gt;&lt;p&gt;指望欧盟迫使索尼继续生产 PS 实体游戏光盘的希望已经破灭，日前欧盟官员表示自己没有任何理由阻止索尼停产 PS 实体游戏光盘，因为任何公司都可以自由选择游戏制作方式，包括停止发行实体游戏光盘和全面转向通过互联网下载的游戏。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113906.png" rel="nofollow"&gt;&lt;img alt="欧盟表示自己没有理由阻止索尼停产PS实体游戏光盘 因为这属于索尼商业决策范畴" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113906.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 14 Jul 2026 04:00:26 +0000</pubDate></item><item><title>Telegram主要短域名t.me被注册局封锁 多个涉及用户个人和分享的链接无法加载</title><link>https://www.landian.news/archives/113923.html</link><description>
+&lt;p&gt;#软件资讯 Telegram 主要短域名 t.me 被注册局封锁，多个涉及用户个人主页/联系和分享链接无法加载。t.me 主要承载 Telegram 用户联系和消息分享，域名被封锁后不影响 Telegram 软件内的正常使用，但涉及分享到公网的内容无法打开。Telegram 已经联系 domainME 注册局，不过目前域名还未解封。查看全文：https://ourl.co/113923&lt;/p&gt;&lt;p&gt;即时通讯工具 Telegram 日前出现服务降级问题，此次问题源自外部，Telegram 使用的主要短域名 t.me 遭到注册局封锁，目前该域名显示为 serverHold 状态，这种状态下域名无法正常解析，所以 Telegram 用户联系短链接以及分享短链接全部无法正常加载。&lt;/p&gt;
+&lt;p&gt;&lt;img decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113923.png"/&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;负责消费者保护事务的欧盟专员迈克尔麦格拉斯日前被问到欧盟是否可以干预索尼在 2028 年停产实体游戏光盘的计划，迈克尔麦格拉斯称只要消费者权益得到充分保护，公司就可以自由地以他们任何合适的方式提供游戏和服务，问题归根结底在于商业和合同自由。&lt;/p&gt;
-&lt;p&gt;尽管欧盟对科技公司的立场非常强硬，但至少目前欧盟的强硬监管姿态还未延伸到强制软件发行商或平台持有者以实体媒介发行游戏，即只要索尼遵守现有的消费者保护法，则 PS 游戏的销售形式仍然属于商业决策范畴，这种情况下欧盟作为监管机构不会出手干预。&lt;/p&gt;
-&lt;p&gt;接受采访时迈克尔麦格拉斯也提到与「停止游戏消亡」运动有关的欧洲公民倡议，停止游戏希望运行的重点在于确保已经销售的游戏在发行商停止支持后仍然可以玩 (而不是关停服务器后就消亡)，该运动并不要求发行商制作实体版游戏光盘。&lt;/p&gt;
+&lt;p&gt;Telegram 使用 t.me 域名承载用户联系地址，例如用户名为 @12345，那么其他用户在 Telegram 外部可以通过 https://t.me/12345 打开网页或拉起 Telegram 发起会话。其次就是分享链接，Telegram 内容分享例如复制消息链接时使用的也是 t.me。&lt;/p&gt;
+&lt;p&gt;目前域名被封锁导致无法正常解析后，海量使用 t.me 分享的内容在互联网上无法打开，所以现在 Telegram 已经紧急启用后备域名 telegram.me 用于新内容分享，但已经分享出来的内容只能等待链接恢复后才能继续打开。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.landian.news/archives/113749.html" rel="noopener" target="_blank"&gt;目前索尼的计划是从 2028 年开始停止为新发行的游戏制作实体游戏光盘&lt;/a&gt;，而此前已经发行的且已经提供实体游戏光盘的游戏，还会继续提供 (但数量可能会持续减少直到彻底停产)。而现阶段索尼也没有停产实体游戏光盘，索尼强调任何想要购买实体游戏光盘的用户都可以订购在 2028 年 1 月前发行的游戏。&lt;/p&gt;
-&lt;p&gt;对索尼而言直接砍掉实体游戏光盘也可以让索尼获得更高的利润和控制权，实体光盘从生产到销售需要经历多个环节，每个环节都有非常高的成本，尤其是最终零售环节商家也需要获得利润，而全面转向数字游戏后索尼可以节省制造、运输成本以及最关键的零售商分成，这意味着索尼也可以获得更高的利润。&lt;/p&gt;
-&lt;p&gt;未来其他游戏平台可能也都会陆续弃用实体游戏光盘和实体游戏卡带等，最终所有游戏都会转向数字版。&lt;/p&gt;
+&lt;p&gt;ME 属于国别顶级域名 (ccTLD)，该域名是黑山共和国的国别域名，由注册局 domainME 负责管理。比较讽刺的是 domainME 官网还挂着该域名受到 Telegram 信任，结果没想到现在竟然把 t.me 封锁，只不过封锁缘由暂时还不清除。&lt;/p&gt;
+&lt;p&gt;Telegram 创始人杜洛夫在 X/Twitter 上艾特 domainME 想要获取帮助，当然 Telegram 可能也已经通过其他渠道联系注册局解封域名，不过已经过去几个小时，目前域名还未被解封。&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 14 Jul 2026 01:00:10 +0000</pubDate></item><item><title>苹果计划在2028年推出配备高达1.5TB内存的M7系列芯片 AI性能堪比英伟达加速器</title><link>https://www.landian.news/archives/113905.html</link><description>
-&lt;p&gt;#科技资讯 爆料称苹果计划在 2028 年推出配备高达 1.5TB 内存的 M7 系列芯片，AI 性能堪比英伟达数据中心级 Blackwell 加速器。彭博社知名编辑马克古尔曼在最新爆料中揭示苹果的本地 AI 工作站策略，当然能否实现 1.5TB 内存还取决于市场供应以及最终产品需求。查看全文：https://ourl.co/113905&lt;/p&gt;&lt;p&gt;彭博社知名编辑马克古尔曼日前发布最新消息让我们可以提前了解苹果 M 系列芯片路线图，其中最值得关注的莫过于 M7 Ultra 芯片，苹果计划为该芯片提供最高 1.5TB 的内存，这样可以让芯片的 AI 能力达到与英伟达 Blackwell 加速器相当级别。&lt;/p&gt;
-&lt;p&gt;然而配备如此高的内存能否实现还需要观察，因为这可能取决于内存市场的供应状况，而且即便顺利的话 M7 Ultra 芯片也可能要到 2028 年才会发布，这还是苹果缩短 M 系列芯片研发周期的情况下。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113905.png" rel="nofollow"&gt;&lt;img alt="苹果计划在2028年推出配备高达1.5TB内存的M7系列芯片 AI性能堪比英伟达加速器" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113905.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 14 Jul 2026 03:30:27 +0000</pubDate></item><item><title>SpaceXAI回应Grok Build上传开发者仓库用于模型训练：谁让你们没自己禁用</title><link>https://www.landian.news/archives/113922.html</link><description>
+&lt;p&gt;#人工智能 SpaceXAI 终于回应 Grok Build 上传完整仓库内容：谁让你们自己没有禁用数据共享。说是回应但看起来 SpaceXAI 的态度非常强硬，只表示用户可以通过 /privacy 命令禁用数据共享，但完全没有回应为什么在没有明确获得开发者授权的情况下，擅自上传与编码无关的完整仓库内容。查看全文：https://ourl.co/113922&lt;/p&gt;&lt;p&gt;在经过周末发酵后 SpaceXAI 终于发文回应 Grok Build 上传开发者仓库问题，该公司只强调开发者可以通过隐私设置禁用数据共享改进模型，说是回应但 SpaceXAI 的态度似乎非常强硬，完全没有解释为什么会收集与 AI 编码无关的完整仓库数据以及为什么未经用户同意就收集。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;目前苹果在 M3 Ultra 里配备最高 512GB 内存并支持每秒 819GB 的内存带宽，对传统 PC 用户来说，512GB 内存已经是极高的配置，但在人工智能本地推理、视频生成、科学计算和专业创作场景中，更大的内存会直接决定能否将更大参数规模的模型或数据集完整放进本地设备。&lt;/p&gt;
-&lt;p&gt;苹果的统一内存架构可以让 CPU、GPU、NPU 共享高速内存池，这可以减少传统独立显卡与系统内存之间的数据搬运。对本地 AI 工作负载来说，这种设计非常适合处理人工智能模型推理、媒体生成和多模态任务。如果 M7 Ultra 真可以提供 1.5TB 内存，这就不只是更大的 M 芯片，而是苹果试图将高端 Mac 推向本地 AI 工作站市场的信号。&lt;/p&gt;
-&lt;p&gt;当然 M7 Ultra 的人工智能算力接近英伟达 Blackwell 级别加速器，这是苹果希望提高芯片的 AI 能力使其更加接近专用 AI 加速器的等级，这并不是说靠 1 颗 M7 Ultra 芯片就能直接吊打英伟达数据中心级的 AI 加速系统。&lt;/p&gt;
+&lt;p&gt;如果你还在继续使用 Grok Build 的话，对于个人和小型团队可以使用命令 /privacy 查看当前数据共享模式，毫无疑问默认情况下数据共享是被开启的，只要是开启状态你的本地仓库完整代码就会被 Grok Build 发送到谷歌 GCP 平台进行数据存储。&lt;/p&gt;
+&lt;p&gt;目前 Grok Build 通过后端服务器操作临时禁用数据上传功能，现在 SpaceXAI 发布回应，这意味着后续数据上传功能可能还会被重新开启，到时候如果用户没有主动禁用数据共享模式那就无话可说，所以建议使用 Grok Build 的开发者立即禁用数据共享模式。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113922-1.png" rel="nofollow"&gt;&lt;img alt="SpaceXAI回应Grok Build上传开发者仓库用于模型训练：谁让你们没自己禁用" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113922-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113922-2.png" rel="nofollow"&gt;&lt;img alt="SpaceXAI回应Grok Build上传开发者仓库用于模型训练：谁让你们没自己禁用" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113922-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113922-3.png" rel="nofollow"&gt;&lt;img alt="SpaceXAI回应Grok Build上传开发者仓库用于模型训练：谁让你们没自己禁用" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113922-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;# 查看当前数据共享模式
+
+/privacy
+
+# 默认情况下会显示 share data 代表已经启用数据共享
+
+# 禁用数据共享模式
+
+/privacy opt-out
+
+# 重新使用  /privacy 查看是否关闭
+
+/privacy
+
+# 如果显示 privacy mode 则代表数据共享关闭&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; SpaceXAI 称禁用数据共享后也会从云端删除仓库：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;值得注意的是 SpaceXAI 还强调当禁用数据共享模式后，这也会删除此前已经同步的数据，即被上传到谷歌 GCP 存储的仓库代码和其他数据也会被删除。需要注意的是这没有任何审计保障，也就是说数据是否真被从云端删除没人知道，如果没有删除的话 SpaceXAI 还可能继续通过这些数据训练模型。&lt;/p&gt;
+&lt;p&gt;基于安全考虑，任何未经授权发送到云端的数据都应当被视为已泄露，所以如果开发者被上传到云端的仓库数据包含敏感内容则应当立即轮换，例如.env 中的密码、API KEY 等内容，没人知道这些内容是否会被泄露，毕竟也有可能未来这些数据被用于模型训练且模型出现幻觉时，有可能会向未知用户透露敏感内容。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;按照爆料消息来看，苹果 2028 年推出的芯片将包括 M8 以及面向高端设备的新芯片，相关芯片可能会转向台积电 1.4 纳米制程级别。台积电的官方资料显示，其 A14 技术计划在 2028 年开始量产，号称相比 N2 制程可以提供更高性能和更低功耗，如果苹果能成为早期客户，这确实可能为 M7 Ultra 或后续 M8 带来更强的能效基础。&lt;/p&gt;
-&lt;p&gt;不过当前距离 2028 年仍然有相当长的时间，在这期间变量非常多，AI 内存需求是否会继续挤压供应、台积电 A14 制程量产是否能按计划推进、苹果是否会调整 Mac 产品线，以及本地 AI 应用是否真能形成足够大的高端 Mac 需求，这些都会影响 M7 Ultra 的最终形态。&lt;/p&gt;
+&lt;p&gt;此次 Grok Build 信任危机的关键在于，通常 AI 编码工具只需要发送实际需要使用的代码片段，而 Grok Build 的做法是直接将整个仓库内容都上传到云端 (而不是发送给 AI 模型)，这种做法着实让人无法理解，尤其是很多仓库可能涉及敏感内容和商业机密。&lt;/p&gt;
+&lt;p&gt;更关键的在于 Grok Build 并未提前说明会上传仓库内容，SpaceXAI 的回应也没有就此事作出详细解释，这似乎让人觉得 SpaceXAI 的态度就是：只要你使用 Grok Build 就要默认接受所有敏感数据都要共享给 SpaceXAI 进行模型训练。&lt;/p&gt;
+&lt;p&gt;至少从目前开发者社区的反应来看，Grok Build 的行为已经不值得开发者继续信任。&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 14 Jul 2026 00:30:12 +0000</pubDate></item><item><title>微软正在充分利用AI扫描代码库发掘漏洞 确保漏洞在被黑客利用前就可以修复</title><link>https://www.landian.news/archives/113904.html</link><description>
-&lt;p&gt;#行业资讯 微软正在充分利用 AI 发掘系统漏洞，确保漏洞在被黑客利用前就得到修复。微软发布博客介绍该公司的 MDASH 工具，这个多模型智能体工具可以扫描代码库并发掘漏洞，发现漏洞后需要经过二次复核再交给人类工程师审阅。微软也在开发过程中使用 AI 检测错误并给出修复方案，微软强调部署到生产环境前会由人类工程师验证。查看全文：https://ourl.co/113904&lt;/p&gt;&lt;p&gt;微软日前发布技术博客透露人工智能技术的进步正在显著加快漏洞发现的速度，这也让软件工程师能够在安全问题被黑客利用前找到更多问题并提前进行修复，随着深入使用人工智能技术发掘漏洞，未来 Windows 用户应该会收到更多用于修复漏洞的安全更新。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113904.png" rel="nofollow"&gt;&lt;img alt="微软正在充分利用AI扫描代码库发掘漏洞 确保漏洞在被黑客利用前就可以修复" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113904.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 14 Jul 2026 03:00:13 +0000</pubDate></item><item><title>[后续] A社向韩国开发者扣款1,662万美元 经过多次联系后A社终于承认错误并撤销账单</title><link>https://www.landian.news/archives/113921.html</link><description>
+&lt;p&gt;#人工智能 后续：韩国开发者被 A 社扣款 1,662 万美元的后续，开发者终于联系上人工客服找到扣款原因，不过开发者信用卡已经被银行冻结。上周韩国开发者 REMY 连续收到多封「钓鱼邮件」声称扣款 150 万美元失败，鉴于这种钓鱼伎俩太拙劣，所以开发者直接无视了。万万没想到随后开发者收到银行发来的交易失败短信，信用卡也被冻结，原来那是真在扣款。在发送十几封邮件后开发者终于联系上人工客服，A 社承认这是计费系统问题，已经撤销账单，但 A 社并未提到任何补救措施，例如是否提供补偿以及帮助开发者与银行沟通解决信用卡冻结和产生的信用风险问题。查看全文：https://ourl.co/113921&lt;/p&gt;&lt;p&gt;上周韩国开发者 REMY 发帖称自己收到 A 社发来的异常扣款邮件，该邮件来自知名支付平台 Stripe，邮件中显示的扣款金额为 166.99 万美元，开发者认为这种「钓鱼邮件」水平太差 (毕竟自己压根没这么多钱)，所以直接忽略邮件。&lt;/p&gt;
+&lt;p&gt;此后扣款钓鱼邮件不断增加，每次邮件都显示有数百万美元扣款失败，累计金额高达 1,662.77 万美元，但考虑到这种扣款金额还是过于离谱，所以 REMY 始终都认为自己成为钓鱼团伙的目标，对于钓鱼邮件通常直接忽略即可。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113921-2.png" rel="nofollow"&gt;&lt;img alt="[后续] A社向韩国开发者扣款1,662万美元 经过多次联系后A社终于承认错误并撤销账单" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113921-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;微软开发团队目前正在使用微软安全部门的多模型智能体扫描工具 MDASH 进行代码扫描，该工具由人工智能驱动且主要目标就是发现漏洞，MDASH 会使用多个人工智能模型扫描关键二进制文件并验证潜在漏洞。当发现潜在漏洞后再使用多个 AI 模型对漏洞进行验证。&lt;/p&gt;
-&lt;p&gt;当漏洞被人工智能初步确认后会交给第二个验证流程进行复核，在完成复核确认漏洞后，该漏洞的信息才会被交给微软工程师，接下来微软工程师会手动验证漏洞并准备潜在的修复方案，这样可以减少误报避免消耗人类工程师精力。&lt;/p&gt;
+&lt;p&gt;天都塌了！事情很快变得不对劲，因为这名开发者竟然收到韩国 KB 国民银行发来的扣款失败短信，KB 国民银行通过短信提示来自美国 ANTHROPIC 公司的海外交易被拒绝，原因是单笔可授权额度超限 (毕竟开发者的信用卡额度可没有 100 万美元)。&lt;/p&gt;
+&lt;p&gt;也就是说此前开发者收到的并不是钓鱼邮件，支付平台确实按照 A 社的计费请求向开发者绑定的信用卡发起真实扣款，扣款金额包括 166 万美元、170 万美元、175 万美元等，最终累计扣款金额达到 1,662 万美元。&lt;/p&gt;
+&lt;p&gt;虽然这些交易都被银行成功拦截而没有真正扣款成功，但这种异常交易行为很快引起银行层面的风控关注，随后 KB 国民银行联系开发者了解情况，此时开发者本身也是完全懵逼的，银行并不清楚这是怎么回事，客服称开发者只能联系 A 社查找原因。&lt;/p&gt;
+&lt;p&gt;值得注意的是 KB 国民银行也基于安全和风控原因直接冻结开发者的信用卡，虽然没有实际资金流出，但开发者的主要信用卡被冻结后已经影响到日常支付，而且相关异常发票或拒付记录持续存在，也可能带来银行风控和信用记录方面的问题。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113921-1.png" rel="nofollow"&gt;&lt;img alt="[后续] A社向韩国开发者扣款1,662万美元 经过多次联系后A社终于承认错误并撤销账单" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113921-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;值得注意的是微软也在开发过程中使用 AI 检测安全问题，这可以让产品或功能在发布前解决安全问题，避免发布后出现安全问题再发布更新进行修复。使用人工智能扫描的也不仅仅是安全漏洞，对于常规的功能故障也同样有用，所以微软工程师会让 AI 帮忙找到问题原因并提出可能的错误修复方案。&lt;/p&gt;
-&lt;p&gt;当然最终是否采纳和部署修复方案都还是由人类工程师决定，人类工程师将进行监督和代码审查，在修复方案发布到生产环境前进行验证。&lt;/p&gt;
+&lt;p&gt;开发者 REMY 也运行着诸多 AI 自动化工具，所以在确认并非钓鱼邮件后开发者也立即自查是不是某个 AI 自动化工具调用 Claude API 并产生海量账单，但是经过排查后开发者发现自己的 AI 自动化工具并未调用 Claude API。&lt;/p&gt;
+&lt;p&gt;更离谱的是开发者检查 Claude API 控制台发现自己压根没有创建 API 所以更不可能是 API 泄露，当然 Claude API 控制台也显示本月支出是 0 美元，开发者此时的担心已经减少，因为这可以确认不是自己问题，这更像是 A 社的计费系统出现异常。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;更让开发者不满的是后续沟通过程，开发者开始尝试联系 A 社客服时只有机器人自动回复，让开发者自己查看安全防护中心或联系客户支持邮箱，部分邮件还被误判为合作、品牌或营销类资讯，这导致扣费问题迟迟没有进入真正的人工处理流程。&lt;/p&gt;
+&lt;p&gt;为推动处理，REMY 让 AI 帮忙起草更多邮件然后分别发送给 A 社负责用户安全、媒体联系、客户支持等不同的邮箱，而且主题中明确写明 1600 万美元错误账单需要人工客服处理等信息，即便如此开发者也等待很长时间没有收到任何人工回复。&lt;/p&gt;
+&lt;p&gt;开发者总结说自己最终向 A 社客服、技术、市场、隐私等团队累计发送约 15 封邮件，直到 4 天后才收到「问题将转交给人工成员处理」的自动回复邮件，而且该邮件也明确标注仍然由 A 社的 AI 智能体撰写和自动回复。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在事件引发关注后 A 社最终承认这是自己的计费系统出现错误，客服称开发者账户的自动充值设置被错误配置成远高于正常值的金额，因此这并不是已经生成的 API 调用账单，而是金额为 0 的情况下 A 社持续尝试按照错误配置的金额进行自动充值。&lt;/p&gt;
+&lt;p&gt;客服还强调这既不是未经授权的访问，也不是开发者账户遭到入侵，纯粹是计费系统出现问题。为避免再出现类似问题，A 社直接将开发者账户的自动充值功能关闭并重置相关充值金额，如果开发者后续要继续使用 API，需要自行重新开启自动充值功能。&lt;/p&gt;
+&lt;p&gt;最后 A 社也撤销这些异常账单，只不过开发者对这个处理结果非常不满，因为 A 社的错误行为导致开发者的主要信用卡被冻结，开发者还需要自行处理银行风控问题和信用问题，A 社并未提到后续是否会协助开发者处理信用卡冻结、信用风险或其他任何补偿问题。&lt;/p&gt;
+&lt;p&gt;目前开发者准备从本周开始继续发邮件联系 A 社客服进行后续处理，不过想要从这种公司手里获得补偿感觉是比较困难的，甚至想要让 A 社联系 KB 国民银行进行扣款问题沟通都比较难，最终信用卡冻结和信用风险可能都需要开发者自己处理。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://www.landian.news/go?url=https://www.threads.com/@remy_notes" rel="noopener" target="_blank"&gt;Threads@Remy_Notes&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 13 Jul 2026 05:03:02 +0000</pubDate></item><item><title>Windows操作系统市场份额从79%暴跌到56%？统计公司承认数据有误已经修正</title><link>https://www.landian.news/archives/113903.html</link><description>
-&lt;p&gt;#行业资讯 Windows 操作系统市场份额从 79% 暴跌到 56%？统计公司承认数据有误目前已经修正。上周 StatCounter 发布的 6 月报告显示 Windows 市场份额跌到 56%，单月暴跌超过 20%，于是部分网站以 Windows 市场份额首次跌破 60% 进行报道。不过显然这是有问题的数据，目前最新数据恢复到 72%，可能数据还在继续修正。查看全文：https://ourl.co/113903&lt;/p&gt;&lt;p&gt;市场数据调查公司 StatCounter 经常发布操作系统、浏览器以及其他产品的市场统计情况，近期该公司发布的 2026 年 6 月报告显示，Windows 操作系统的整体市场份额从 79% 暴跌到 56%，随后很多网站以 Windows 市场份额首次跌破 60% 为题发布报道。&lt;/p&gt;
-&lt;p&gt;这种市场份额快速暴跌也被认为与 Linux 系统快速崛起有关，也有网友认为桌面操作系统格局正在发生剧烈变化。然而事实证明 StatCounter 发布的统计数据有误，Windows 并未经历剧烈的暴跌，现在相关统计数据已经被修正。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113903.png" rel="nofollow"&gt;&lt;img alt="Windows操作系统市场份额从79%暴跌到56%？统计公司承认数据有误已经修正" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113903.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.landian.news/go?url=https://gs.statcounter.com/os-market-share/desktop/worldwide" rel="noopener" target="_blank"&gt;点击这里可查看最新数据&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 14 Jul 2026 02:30:14 +0000</pubDate></item><item><title>谋智基金会将Firefox 115 ESR版延长支持到2027年3月 当然预计还会继续延长</title><link>https://www.landian.news/archives/113920.html</link><description>
+&lt;p&gt;#软件资讯 谋智基金会再次延长 Firefox v115 ESR 版的支持，新的支持时间到 2027 年 3 月。该版本主要供 Windows 7/8/8.1 和 macOS 10.12/10.13/10.14 用户使用，这些旧版操作系统已经无法获得微软和苹果提供的安全更新，谷歌浏览器也早已停止支持，所以使用火狐是个不错的选择。查看全文：https://ourl.co/113920&lt;/p&gt;&lt;p&gt;谋智基金会日前已经宣布将 Mozilla Firefox v115 ESR 版延长支持到 2027 年 3 月，这是谋智基金会用来支持旧版操作系统的流程，通常谋智基金会会观察活跃用户数量，如果活跃用户数量仍然比较多那 ESR 版就会连续延长支持以提高安全性。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/public/thumb/firefox.png" rel="nofollow"&gt;&lt;img alt="谋智基金会将Firefox 115 ESR版延长支持到2027年3月 当然预计还会继续延长" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/public/thumb/firefox.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;异常版数据显示，Windows 市场份额突然暴跌到 56.55%，而此前 Windows 市场份额稳定在 78%~79% 左右，如果单纯看统计数据，确实很容易得出 Windows 市场份额正在崩盘的结论。&lt;/p&gt;
-&lt;p&gt;但问题在于，同时期其他操作系统份额并未出现明显增长，例如 Linux 市场份额微涨到 4.39%，macOS 市场份额微涨到 16.37%，即便 Linux 和 macOS 市场份额有所上涨，但也无法解释为什么 Windows 市场份额暴跌 20% 多。&lt;/p&gt;
-&lt;p&gt;另一个重大异常数据是未知系统分类，通常情况下未知系统分类的市场份额都比较低，但在 6 月报告中未知分类份额突然暴涨到 21.45%，因此看起来这更像是 Windows 的市场份额因为统计和识别问题被归类到未知分类中。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; StatCounter 承认数据存在错误目前已经修正：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在引起热烈讨论后 StatCounter 也发现 6 月桌面操作系统市场份额数据存在异常，随后该公司开始修正数据，初步修正结果为 Windows 市场份额 72%，这仍然低于正常的 78%~79%，但相较于 56% 已经好很多。&lt;/p&gt;
-&lt;p&gt;72% 的市场份额数据看起来仍然存在异常，后续 StatCounter 可能会继续对数据进行修正，否则单一操作系统市场份额在一个月暴跌 6% 也是明显不正常的，这种异常数据无法提供准确的参考价值。&lt;/p&gt;
-&lt;p&gt;另外 StatCounter 的统计数据来源于部署其统计代码的网站访问情况，所以本身数据也只是预估而不是来自微软的官方数据，统计代码出现异常的话也可能导致数据出现异常。&lt;/p&gt;
+&lt;p&gt;通常使用 ESR 长期支持的要么是企业用户要么是使用旧版操作系统的用户，例如 Windows 7、Windows 8、Windows 8.1、macOS 10.12、macOS 10.13、macOS 10.14。这些操作系统版本已经结束官方支持，因此微软和苹果不会再提供安全更新。&lt;/p&gt;
+&lt;p&gt;谷歌认为在操作系统已经不安全的情况下继续提供浏览器安全更新是没有意义的，所以谷歌浏览器很早就已经停止支持这些旧版操作系统，火狐浏览器算是例外，谋智基金会的考虑是让这些无法升级新操作系统的用户使用受支持的火狐浏览器以提高安全性。&lt;/p&gt;
+&lt;p&gt;至少用户可以使用经过漏洞修复的火狐浏览器规避部分通过浏览器漏洞展开攻击的尝试，像是谷歌浏览器旧版本部分漏洞已经曝光，黑客可以制作针对这些漏洞的钓鱼网站实现零点击或一点击攻击，所以实在无法升级受支持操作系统的用户，使用火狐浏览器 ESR 版确实可以提高安全性。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Mozilla Firefox v115 ESR 版最初发布于 2023 年 7 月 4 日，但基于对旧版操作系统支持的考虑，火狐浏览器目前仍然在积极为该版本修复安全漏洞，当然也仅限于修复安全漏洞而不会添加任何新功能。&lt;/p&gt;
+&lt;p&gt;谋智基金会已经多次对该版本延长支持，&lt;a href="https://www.landian.news/archives/112158.html" rel="noopener" target="_blank"&gt;上次的延长支持是到 2026 年 8 月&lt;/a&gt;，现在临近 8 月所以谋智基金会再次宣布延长支持，新的到期时间为 2027 年 3 月，按惯例到期前例如 2027 年 2 月谋智基金会可能会继续宣布延长支持周期。&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;a href="https://www.landian.news/go?url=https://ftp.mozilla.org/pub/firefox/releases/" rel="noopener" target="_blank"&gt;https://ftp.mozilla.org/pub/firefox/releases/&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 13 Jul 2026 04:33:10 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 14 Jul 2026 02:00:14 +0000</pubDate></item></channel></rss>
