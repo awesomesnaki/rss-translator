@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Mon, 13 Jul 2026 15:24:53 +0000</lastBuildDate><item><title>还记得马斯克指控苹果与OpenAI合谋的诉讼吗？</title><link>https://arstechnica.com/tech-policy/2025/08/elon-musk-sues-apple-openai-to-block-exclusive-iphone-chatgpt-integration/</link><description>&lt;p&gt;阿什利·贝朗热（Ashley Belanger）于2025年8月为Ars Technica报道：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 14 Jul 2026 05:02:00 +0000</lastBuildDate><item><title>[赞助商] 论文</title><link>https://paper.design/?utm_source=df</link><description>&lt;p&gt;Paper是一个专业设计工具，其中每一层都是真实的HTML和CSS。你的设计已经是代码，这意味着在设计内容和最终交付物之间的交接和转换更少。&lt;/p&gt;
+&lt;p&gt;Paper是双向的：从代码到设计，以及从设计到代码。通过MCP连接任何代理，它都可以读取和编辑你的设计。或者使用Paper Snapshot将你的实时网站捕获为可编辑的图层，并进行新的迭代。&lt;/p&gt;
+&lt;p&gt;代理处理繁琐的工作，这样你就可以专注于你的技艺和重要的决策。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://paper.design?utm_source=df"&gt;在paper.design上试用Paper&lt;/a&gt;。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/feeds/sponsors/2026/07/paper" title="‘Paper’的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Tue, 14 Jul 2026 05:02:00 +0000</pubDate></item><item><title>还记得马斯克指控苹果与OpenAI合谋的诉讼吗？</title><link>https://arstechnica.com/tech-policy/2025/08/elon-musk-sues-apple-openai-to-block-exclusive-iphone-chatgpt-integration/</link><description>&lt;p&gt;阿什利·贝朗热（Ashley Belanger）于2025年8月为Ars Technica报道：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;在&lt;a href="https://arstechnica.com/tech-policy/2025/08/apple-gets-yanked-into-elon-musks-chatbot-war-with-openai/"&gt;因Grok在App Store排名而公开爆发&lt;/a&gt;后，周一，埃隆·马斯克（Elon Musk）兑现了他的威胁，起诉了苹果（Apple）和OpenAI。&lt;/p&gt;
 &lt;p&gt;起初，马斯克似乎执着于ChatGPT持续占据苹果"必备应用"榜单的榜首——而Grok从未上榜——他声称苹果似乎偏袒其合作伙伴OpenAI，而非所有聊天机器人竞争对手。但马斯克的&lt;a href="https://cdn.arstechnica.net/wp-content/uploads/2025/08/X-Corp-v-Apple-8-25-25-Complaint.pdf"&gt;诉状&lt;/a&gt;显示，这位X和xAI的所有者不仅仅是想推动Grok在iPhone上的下载量——他担心苹果和OpenAI联手彻底粉碎了他的&lt;a href="https://arstechnica.com/tech-policy/2024/03/elon-musks-improbable-path-to-making-x-an-everything-app/"&gt;"万能应用"梦想&lt;/a&gt;，而这正是他&lt;a href="https://arstechnica.com/tech-policy/2023/03/fast-moving-musk-makes-very-slow-progress-turning-twitter-into-everything-app/"&gt;收购Twitter的原因&lt;/a&gt;。&lt;/p&gt;
@@ -33,21 +38,4 @@
 &lt;a href="https://daringfireball.net/linked/2026/07/12/andrade-swiftui" title="永久链接至‘保罗·安德拉德：WWDC 27关于用SwiftUI构建Mac风格应用的更新’"&gt; ★ &lt;/a&gt;
 </description><pubDate>Sun, 12 Jul 2026 21:18:24 +0000</pubDate></item><item><title>用户界面如何随时间退化</title><link>https://grumpy.website/1723</link><description>&lt;p&gt;这些例子来自Windows，但MacOS警告的标准外观也存在同样的退化。曾有一段时间，系统UI界面的清晰度在不断提高，无处不在。而如今，我们生活在一个清晰度普遍下降的时代。这相当令人费解。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/07/12/how-uis-degrade-over-time" title="永久链接至“用户界面如何随时间退化”"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sun, 12 Jul 2026 19:51:16 +0000</pubDate></item><item><title>每一帧完美</title><link>https://tonsky.me/blog/every-frame-perfect/</link><description>&lt;p&gt;尼基塔·"汤斯基"·普罗科波夫：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;经验法则是：&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;如果在任意时刻截取你的应用的屏幕截图，你应该能解释我看到了什么。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;为什么要关注每一帧？这能建立信任。用户看不到代码，因此 UI 是他们判断应用质量的唯一途径。如果 UI 看起来出色，意味着开发者有时间打磨它，也就意味着他们可能投入了相当的时间来优化代码。这是一个启发式方法，但很合理。&lt;/p&gt;
-&lt;p&gt;那么，在实践中这意味着什么？我能想到几点：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;没有屏幕之间的白色闪烁。&lt;/li&gt;
-&lt;li&gt;没有部分加载的内容。&lt;/li&gt;
-&lt;li&gt;内容加载时没有重新布局。&lt;/li&gt;
-&lt;li&gt;内部一致。如果 UI 的一部分显示“有1个更新可用”，另一部分不应显示“正在检查更新...”。&lt;/li&gt;
-&lt;li&gt;精确的动画。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;动画常常被遗忘。UI 可能在起始和结束状态看起来很棒，但中间状态却非常卡顿。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;“每一帧完美”是 UI 工艺的绝佳准则。如果你关注每一帧，这种严谨会显而易见，尽管几乎没有用户会逐帧检查你的动画和过渡，而且大多数过渡发生得很快，难以实时看清。如果你因为“没人会注意到”而在过渡状态上偷工减料，那么你也会在其他地方开始偷工减料。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/07/12/every-frame-perfect" title="指向‘“每一帧完美”’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sun, 12 Jul 2026 19:48:09 +0000</pubDate></item></channel></rss>
+</description><pubDate>Sun, 12 Jul 2026 19:51:16 +0000</pubDate></item></channel></rss>

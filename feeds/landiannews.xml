@@ -1,5 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 14 Jul 2026 04:00:26 +0000</lastBuildDate><item><title>微软爆改Windows 11搜索框(搜索功能) 删除广告和必应搜索推荐 侧重本地优先</title><link>https://www.landian.news/archives/113924.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 14 Jul 2026 06:20:36 +0000</lastBuildDate><item><title>Telegram域名被封锁疑似与美国制裁有关 但更可能属于注册局的误伤</title><link>https://www.landian.news/archives/113928.html</link><description>
+&lt;p&gt;#软件资讯 Telegram 域名被封锁疑似与美国制裁有关，但更可能属于注册局的误伤。美国外国资产控制办公室 OFAC 在最新公布的制裁公告中提到乌克兰某 VPN 服务提供商，该提供商涉及黑客和网络攻击类。这个服务提供商有多个网站以及 TG 订阅频道，而订阅频道以 t [.] me 开头，所以 OFAC 直接将频道地址当做网站发布。我们严重怀疑 DomainME 注册局看到公告后就直接封锁域名，而不是与 Telegram 以及 OFAC沟通。当然 OFAC 做法也有问题，频道封禁应当告知 Telegram，而不是直接将频道地址当网站发出来。查看全文：https://ourl.co/113928&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/113923.html" rel="noopener" target="_blank"&gt;早前蓝点网提到即时通讯工具 Telegram 使用的主要短域名 t.me 被冻结&lt;/a&gt;，在域名被冻结后相关解析全部被停掉，这导致用户个人主页 URL 和内容分享短链全部无法访问，ME 域名是黑山共和国的国别顶级域名，主要由 DomainME 注册局管理，而 Telegram 则将域名托管在 GoDaddy。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113928.png" rel="nofollow"&gt;&lt;img alt="Telegram域名被封锁疑似与美国制裁有关 但更可能属于注册局的误伤" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113928.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;ICANN 规定域名可以设置多种不同的状态，其中 serverHold 和 clientHold 都是域名被冻结，不过前者由域名注册局负责操作，后者可以由域名注册商操作，域名注册商也就是 GoDaddy 无法直接对域名设置 serverHold 状态，所以即便 GoDaddy 名声非常差，但这次的问题也不能由 GoDaddy 背锅。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;serverHold：注册局暂停该域名解析，常见原因包括法律 / 合规、严重滥用、注册局风控、上级要求&lt;/li&gt;
+&lt;li&gt;clientHold：注册商暂停该域名解析，常见原因包括欠费、滥用投诉、风控、违反注册商政策&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;美国政府下属的外国资产控制办公室 OFAC 在 7 月 13 日发布新的制裁指令，该指令针对乌克兰某 VPN 服务提供商。这个服务提供商有多个网站被列入制裁清单，该服务商还有 Telegram 订阅频道，订阅频道也同样使用 t.me 域名，所以我们严重怀疑这是 DomainME 收到指令后未仔细分辨就直接执行禁令。&lt;/p&gt;
+&lt;p&gt;这个乌克兰 VPN 服务提供商提供的服务涉及黑客和网络攻击，这也是被 OFAC 列入制裁名单的原因，但订阅频道并非网站，OFAC 正确做法应该是明确指出这是订阅频道或群组，然后由 Telegram 执行封禁，而不是看到群组链接后直接列入制裁名单。&lt;/p&gt;
+&lt;p&gt;目前尚不清楚 t.me 域名什么时候能够恢复正常，不过这可能需要 DomainME 与 Telegram 合作联系 OFAC 办公室沟通，在解除误会后或许域名可以重新使用，只是这种流程可能要一段时间，办事效率估计没那么高。&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 14 Jul 2026 06:20:36 +0000</pubDate></item><item><title>A社开始在印度使用卢比定价Claude Pro/Max 但很遗憾并没有什么优惠</title><link>https://www.landian.news/archives/113927.html</link><description>
+&lt;p&gt;#人工智能 A 社开始在印度使用卢比定价 Claude Pro/Max/Team，别急着换区迁移，因为目前印区没有任何价格优势。从目前 A 社公布的价格来看，在印度开通订阅实际上价格比美区还要高，例如 Claude Pro 年付平均到月为 21 美元，而美区为 17 美元；Max 5x 版印区 125 美元，美区则是 100 美元。查看全文：https://ourl.co/113927&lt;/p&gt;&lt;p&gt;A 社近期开始在印度采用当地货币卢比定价，此前 A 社在印度提供的 Claude Pro/Max 订阅主要通过美元定价，但现在改成卢比定价后价格也并没有便宜，所以希望迁移到印度区薅羊毛的用户暂时不用考虑，因为税费问题印度区价格甚至还要更高。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113927.png" rel="nofollow"&gt;&lt;img alt="A社开始在印度使用卢比定价Claude Pro/Max 但很遗憾并没有什么优惠" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113927.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Claude Pro 印区按年付款：平均到每月为 2,000 卢比，约合 21 美元 (含税价)&lt;/li&gt;
+&lt;li&gt;Claude Pro 美区按年付款：200 美元，平均到每月为 17 美元 (部分州需支付税款)&lt;/li&gt;
+&lt;li&gt;Claude Max 印区按月付款：5x 版，每月 11,999 卢比，约合 125 美元 (含税) (没有年付)&lt;/li&gt;
+&lt;li&gt;Claude Max 美区按月付款：5x 版，每月 100 美元 (部分州需支付税款)(没有年付)&lt;/li&gt;
+&lt;li&gt;Claude Team 印区按月付款：每席位每月 2,399 卢比，约合 25 美元 (含税) (没有年付)&lt;/li&gt;
+&lt;li&gt;Claude Team 美区按月付款：每席位每月 25 美元 (部分州需支付税款) (年付到月为 20 美元)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;从上面的价格清单可以看到印区开通 Claude Pro/Max 的价格比美区还要高，所以迁移到印区并不能便宜，至少目前 Anthropic 并未按照不同市场的情况在印度提供优惠价格，&lt;a href="https://www.landian.news/archives/113389.html" rel="noopener" target="_blank"&gt;像是 OpenAI 此前在土耳其按照里拉计价还是有优惠的&lt;/a&gt; (新开通已经没有优惠，老用户优惠价被保留)。&lt;/p&gt;
+&lt;p&gt;值得注意的是在印度开通 Claude Pro/Max 必须通过 Apple App Store 或 Google Play 进行内购支付，A 社目前并未启用印度当地的 UPI 即时支付网络，所以用户需要在苹果或谷歌商店绑定银行卡付款。&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 14 Jul 2026 06:00:27 +0000</pubDate></item><item><title>不！开启隐私模式不能阻止Grok Build上传仓库数据 SpaceXAI在混淆视听</title><link>https://www.landian.news/archives/113926.html</link><description>
+&lt;p&gt;#安全资讯 不！开启隐私模式并不能阻止 Grok Build 继续上传仓库数据，SpaceXAI 在混淆视听。昨夜 SpaceXAI 就上传开发者仓库数据问题发布回应，该公司称开发者可以通过 /privacy 退出数据共享。然而研究人员指出，数据共享模式与上传仓库是两个不同的通道，前者只是上传大约 18KB 的数据帮助 SpaceXAI 改进产品，后者是通过请求头来控制的。也就是说即便开发者退出数据共享，只要 SpaceXAI 重新启用上传仓库的功能标志，数据就会被重新上传。查看全文：https://ourl.co/113926&lt;/p&gt;&lt;p&gt;上周安全研究人员 @Cereblab 曝光 Grok Build 未经开发者明确授权，&lt;a href="https://www.landian.news/archives/113897.html" rel="noopener" target="_blank"&gt;擅自将开发者本地仓库发送到云端存储&lt;/a&gt;，正常情况下编码工具仅应该将需要使用的代码片段发送给云端模型，而 Grok Build 的做法是将整个仓库都上传到云端而且不是发送给模型，而是发送到谷歌 GCP 存储。&lt;/p&gt;
+&lt;p&gt;这种做法在开发者社区引起很大的担忧，因为各种项目仓库里可能包含敏感数据，显然 SpaceXAI 收集仓库数据可能是用于后续的模型训练，这有可能造成敏感信息泄露，当然这也是在践踏开发者的隐私权。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113926.png" rel="nofollow"&gt;&lt;img alt="不！开启隐私模式不能阻止Grok Build上传仓库数据 SpaceXAI在混淆视听" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113926.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.landian.news/archives/113922.html" rel="noopener" target="_blank"&gt;昨天夜里 SpaceXAI 就上传仓库问题发布回应&lt;/a&gt;，该公司称开发者可以通过 /privacy 启用隐私模式，默认情况下 Grok Build 启用的是数据共享模式，这意味着开发者的使用数据会被 SpaceXAI 收集并用于改进产品和模型，开发者如果启用隐私模式则可以避免数据共享，同时已经发送到云端的数据也会被删除。&lt;/p&gt;
+&lt;p&gt;这听起来似乎是个解决方案，然而在原始推文中 SpaceXAI 避重就轻并未详细解释为什么要收集开发者的项目仓库，事实上根据安全研究人员 @Cereblab 发布的最新消息，SpaceXAI 完全是在混淆视听，/privacy 并不能阻止仓库被继续上传。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;安全研究人员在最初的分析报告中就提到 Grok Build 通过云端的请求头来判断是否上传整个仓库数据，&lt;a href="https://www.landian.news/archives/113901.html" rel="noopener" target="_blank"&gt;在被曝光后 SpaceXAI 在云端禁用上传仓库数据&lt;/a&gt;，这个功能开关到现在还是禁用的，开发者也可以检查 Grok Build 请求头验证，请求头为 disable_codebase_upload: true 这个请求头代表启用「关闭仓库上传」，之前的选项为 false 代表允许上传仓库。&lt;/p&gt;
+&lt;p&gt;要明确的是 Grok Build 有两种数据收集模式，第一种就是 /privacy 的产品改进，该功能指的是 Grok Build 发送到模型的代码片段会被用于改进产品和模型，如果用户选择退出数据共享模式，SpaceXAI 会删除已经保存的数据。&lt;/p&gt;
+&lt;p&gt;关键是第二种，即上传仓库数据，上传仓库数据完全由 HTTP 请求头来控制，当云端下发的指令是启用仓库上传时，即便开发者退出数据共享模式也无济于事，因为 /privacy 压根就不是用来控制仓库上传的，所以 SpaceXAI 发布的声明完全是在混淆视听。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;@Cereblab 也在 SpaceXAI 发布声明后重新进行验证，研究人员确认 /privacy 只适用于数据跟踪通道，在共享数据的情况下，该通道每次发送约 18KB 的数据，这并不是用来控制仓库数据上传，仓库数据上传可能达到 5GB 甚至更多 (有网友被发送超过 100GB 数据)。&lt;/p&gt;
+&lt;p&gt;所以 SpaceXAI 真正要做的是在未来的版本中彻底删除请求头和上传路径，只有删除后才无法通过云端开关进行控制，也无法继续上传开发者的仓库。另外目前上传仓库被禁用，所以无论是否退出数据共享模式，当前都不会再继续上传仓库到云端。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://www.landian.news/go?url=https://x.com/cereblab/status/2076743151105216588" rel="noopener" target="_blank"&gt;@Cereblab&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 14 Jul 2026 05:30:31 +0000</pubDate></item><item><title>Codex向所有订阅用户赠送1次新手动重置机会 用户可以根据需求自行重置</title><link>https://www.landian.news/archives/113925.html</link><description>
+&lt;p&gt;#人工智能 Codex 向所有订阅用户赠送 1 次新的手动重置机会，各位可以根据需求自行重置周配额。这次重置机会有效期到 8 月 13 日凌晨 1 点，昨天还有部分用户收到到期时间是 8 月 12 日的重置次数，但蓝点网并未收到，如果用户运气好那么应该同时获得 8/12 和 8/13 的两次重置机会。查看全文：https://ourl.co/113925&lt;/p&gt;&lt;p&gt;上周 OpenAI 向所有用户推出 GPT-5.6 系列模型，推出该模型后 Codex 团队收集用户反馈的同时也在处理 Codex 与 ChatGPT 合并产生的各种问题，为此 Codex 团队为用户提供多次硬重置确保用户有足够多的额度使用 GPT-5.6 Sol，同时 Codex 还临时取消 5 小时限额机制。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113925.png" rel="nofollow"&gt;&lt;img alt="Codex向所有订阅用户赠送1次新手动重置机会 用户可以根据需求自行重置" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113925.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;早前 Codex 团队不停地硬重置还和 BUG 有关，例如在旧版 ChatGPT 移动端中用户无法看到重置功能，所以在 7 月 12 日到期的手动重置次数其实无法使用，不过整体来说上周大家使用 Codex 应该还是比较愉快的，毕竟连续 4 次硬重置后额度基本够用。&lt;/p&gt;
+&lt;p&gt;当然 Codex 技术经理蒂博也按照约定在情况稳定后向用户提供手动重置次数，这个重置次数是被保留下来的，用户可以在 30 天内自己选择在合适的时候进行重置，这比直接硬重置体验更好。&lt;/p&gt;
+&lt;p&gt;昨天部分用户还收到另外一次手动重置次数，到期时间是 8 月 12 日，但蓝点网并未收到这次手动重置次数，不知道这是什么原因，但这波 8 月 13 日到期的重置次数已经到账，各位可以检查下自己的账户。&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 14 Jul 2026 05:00:27 +0000</pubDate></item><item><title>微软爆改Windows 11搜索框(搜索功能) 删除广告和必应搜索推荐 侧重本地优先</title><link>https://www.landian.news/archives/113924.html</link><description>
 &lt;p&gt;#系统资讯 微软爆改 Windows 11 搜索框 (搜索功能)，删除广告和推广信息、禁用来自必应搜索的乱七八糟的内容、侧重于本地文件和设置优先。目前这波改进正在面向 Windows 11 预览版用户提供，使用预览版的用户请转到实验性功能标志里手动启用新版搜索框。查看全文：https://ourl.co/113924&lt;/p&gt;&lt;p&gt;微软今天发布博客宣布向 Windows 11 预览版用户推出改进后的搜索框，满足大家要求的搜索框搜索速度更快、相关性更高以及使用更方便。这波改进的重点就是允许用户禁用来自必应搜索的乱七八糟的内容推荐和其他推广内容，让搜索框回归搜索功能，侧重于为用户提供本地文件搜索。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;改进后的搜索框目前以受控发布形式向 Windows 11 预览版用户提供，已经使用预览版的用户也可以通过高级实验性标志手动启用，启用后就可以体验新版搜索框。蓝点网简单体验后认为改进后的搜索框比以前好太多，尤其是打开时不会显示太多乱七八糟的内容，整个界面都清爽无比。&lt;/p&gt;
@@ -26,81 +80,4 @@
 &lt;p&gt;微软还针对搜索权重进行优化，让更多相关的设置出现在搜索结果更靠前的位置，这样用户通过搜索框查找功能设置时要更方便。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113924-6.png" rel="nofollow"&gt;&lt;img alt="微软爆改Windows 11搜索框(搜索功能) 删除广告和必应搜索推荐 侧重本地优先" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113924-6.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 14 Jul 2026 04:00:26 +0000</pubDate></item><item><title>Telegram主要短域名t.me被注册局封锁 多个涉及用户个人和分享的链接无法加载</title><link>https://www.landian.news/archives/113923.html</link><description>
-&lt;p&gt;#软件资讯 Telegram 主要短域名 t.me 被注册局封锁，多个涉及用户个人主页/联系和分享链接无法加载。t.me 主要承载 Telegram 用户联系和消息分享，域名被封锁后不影响 Telegram 软件内的正常使用，但涉及分享到公网的内容无法打开。Telegram 已经联系 domainME 注册局，不过目前域名还未解封。查看全文：https://ourl.co/113923&lt;/p&gt;&lt;p&gt;即时通讯工具 Telegram 日前出现服务降级问题，此次问题源自外部，Telegram 使用的主要短域名 t.me 遭到注册局封锁，目前该域名显示为 serverHold 状态，这种状态下域名无法正常解析，所以 Telegram 用户联系短链接以及分享短链接全部无法正常加载。&lt;/p&gt;
-&lt;p&gt;&lt;img decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113923.png"/&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Telegram 使用 t.me 域名承载用户联系地址，例如用户名为 @12345，那么其他用户在 Telegram 外部可以通过 https://t.me/12345 打开网页或拉起 Telegram 发起会话。其次就是分享链接，Telegram 内容分享例如复制消息链接时使用的也是 t.me。&lt;/p&gt;
-&lt;p&gt;目前域名被封锁导致无法正常解析后，海量使用 t.me 分享的内容在互联网上无法打开，所以现在 Telegram 已经紧急启用后备域名 telegram.me 用于新内容分享，但已经分享出来的内容只能等待链接恢复后才能继续打开。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;ME 属于国别顶级域名 (ccTLD)，该域名是黑山共和国的国别域名，由注册局 domainME 负责管理。比较讽刺的是 domainME 官网还挂着该域名受到 Telegram 信任，结果没想到现在竟然把 t.me 封锁，只不过封锁缘由暂时还不清除。&lt;/p&gt;
-&lt;p&gt;Telegram 创始人杜洛夫在 X/Twitter 上艾特 domainME 想要获取帮助，当然 Telegram 可能也已经通过其他渠道联系注册局解封域名，不过已经过去几个小时，目前域名还未被解封。&lt;/p&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 14 Jul 2026 03:30:27 +0000</pubDate></item><item><title>SpaceXAI回应Grok Build上传开发者仓库用于模型训练：谁让你们没自己禁用</title><link>https://www.landian.news/archives/113922.html</link><description>
-&lt;p&gt;#人工智能 SpaceXAI 终于回应 Grok Build 上传完整仓库内容：谁让你们自己没有禁用数据共享。说是回应但看起来 SpaceXAI 的态度非常强硬，只表示用户可以通过 /privacy 命令禁用数据共享，但完全没有回应为什么在没有明确获得开发者授权的情况下，擅自上传与编码无关的完整仓库内容。查看全文：https://ourl.co/113922&lt;/p&gt;&lt;p&gt;在经过周末发酵后 SpaceXAI 终于发文回应 Grok Build 上传开发者仓库问题，该公司只强调开发者可以通过隐私设置禁用数据共享改进模型，说是回应但 SpaceXAI 的态度似乎非常强硬，完全没有解释为什么会收集与 AI 编码无关的完整仓库数据以及为什么未经用户同意就收集。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;如果你还在继续使用 Grok Build 的话，对于个人和小型团队可以使用命令 /privacy 查看当前数据共享模式，毫无疑问默认情况下数据共享是被开启的，只要是开启状态你的本地仓库完整代码就会被 Grok Build 发送到谷歌 GCP 平台进行数据存储。&lt;/p&gt;
-&lt;p&gt;目前 Grok Build 通过后端服务器操作临时禁用数据上传功能，现在 SpaceXAI 发布回应，这意味着后续数据上传功能可能还会被重新开启，到时候如果用户没有主动禁用数据共享模式那就无话可说，所以建议使用 Grok Build 的开发者立即禁用数据共享模式。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113922-1.png" rel="nofollow"&gt;&lt;img alt="SpaceXAI回应Grok Build上传开发者仓库用于模型训练：谁让你们没自己禁用" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113922-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113922-2.png" rel="nofollow"&gt;&lt;img alt="SpaceXAI回应Grok Build上传开发者仓库用于模型训练：谁让你们没自己禁用" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113922-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113922-3.png" rel="nofollow"&gt;&lt;img alt="SpaceXAI回应Grok Build上传开发者仓库用于模型训练：谁让你们没自己禁用" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113922-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;pre&gt;# 查看当前数据共享模式
-
-/privacy
-
-# 默认情况下会显示 share data 代表已经启用数据共享
-
-# 禁用数据共享模式
-
-/privacy opt-out
-
-# 重新使用  /privacy 查看是否关闭
-
-/privacy
-
-# 如果显示 privacy mode 则代表数据共享关闭&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; SpaceXAI 称禁用数据共享后也会从云端删除仓库：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;值得注意的是 SpaceXAI 还强调当禁用数据共享模式后，这也会删除此前已经同步的数据，即被上传到谷歌 GCP 存储的仓库代码和其他数据也会被删除。需要注意的是这没有任何审计保障，也就是说数据是否真被从云端删除没人知道，如果没有删除的话 SpaceXAI 还可能继续通过这些数据训练模型。&lt;/p&gt;
-&lt;p&gt;基于安全考虑，任何未经授权发送到云端的数据都应当被视为已泄露，所以如果开发者被上传到云端的仓库数据包含敏感内容则应当立即轮换，例如.env 中的密码、API KEY 等内容，没人知道这些内容是否会被泄露，毕竟也有可能未来这些数据被用于模型训练且模型出现幻觉时，有可能会向未知用户透露敏感内容。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;此次 Grok Build 信任危机的关键在于，通常 AI 编码工具只需要发送实际需要使用的代码片段，而 Grok Build 的做法是直接将整个仓库内容都上传到云端 (而不是发送给 AI 模型)，这种做法着实让人无法理解，尤其是很多仓库可能涉及敏感内容和商业机密。&lt;/p&gt;
-&lt;p&gt;更关键的在于 Grok Build 并未提前说明会上传仓库内容，SpaceXAI 的回应也没有就此事作出详细解释，这似乎让人觉得 SpaceXAI 的态度就是：只要你使用 Grok Build 就要默认接受所有敏感数据都要共享给 SpaceXAI 进行模型训练。&lt;/p&gt;
-&lt;p&gt;至少从目前开发者社区的反应来看，Grok Build 的行为已经不值得开发者继续信任。&lt;/p&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 14 Jul 2026 03:00:13 +0000</pubDate></item><item><title>[后续] A社向韩国开发者扣款1,662万美元 经过多次联系后A社终于承认错误并撤销账单</title><link>https://www.landian.news/archives/113921.html</link><description>
-&lt;p&gt;#人工智能 后续：韩国开发者被 A 社扣款 1,662 万美元的后续，开发者终于联系上人工客服找到扣款原因，不过开发者信用卡已经被银行冻结。上周韩国开发者 REMY 连续收到多封「钓鱼邮件」声称扣款 150 万美元失败，鉴于这种钓鱼伎俩太拙劣，所以开发者直接无视了。万万没想到随后开发者收到银行发来的交易失败短信，信用卡也被冻结，原来那是真在扣款。在发送十几封邮件后开发者终于联系上人工客服，A 社承认这是计费系统问题，已经撤销账单，但 A 社并未提到任何补救措施，例如是否提供补偿以及帮助开发者与银行沟通解决信用卡冻结和产生的信用风险问题。查看全文：https://ourl.co/113921&lt;/p&gt;&lt;p&gt;上周韩国开发者 REMY 发帖称自己收到 A 社发来的异常扣款邮件，该邮件来自知名支付平台 Stripe，邮件中显示的扣款金额为 166.99 万美元，开发者认为这种「钓鱼邮件」水平太差 (毕竟自己压根没这么多钱)，所以直接忽略邮件。&lt;/p&gt;
-&lt;p&gt;此后扣款钓鱼邮件不断增加，每次邮件都显示有数百万美元扣款失败，累计金额高达 1,662.77 万美元，但考虑到这种扣款金额还是过于离谱，所以 REMY 始终都认为自己成为钓鱼团伙的目标，对于钓鱼邮件通常直接忽略即可。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113921-2.png" rel="nofollow"&gt;&lt;img alt="[后续] A社向韩国开发者扣款1,662万美元 经过多次联系后A社终于承认错误并撤销账单" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113921-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;天都塌了！事情很快变得不对劲，因为这名开发者竟然收到韩国 KB 国民银行发来的扣款失败短信，KB 国民银行通过短信提示来自美国 ANTHROPIC 公司的海外交易被拒绝，原因是单笔可授权额度超限 (毕竟开发者的信用卡额度可没有 100 万美元)。&lt;/p&gt;
-&lt;p&gt;也就是说此前开发者收到的并不是钓鱼邮件，支付平台确实按照 A 社的计费请求向开发者绑定的信用卡发起真实扣款，扣款金额包括 166 万美元、170 万美元、175 万美元等，最终累计扣款金额达到 1,662 万美元。&lt;/p&gt;
-&lt;p&gt;虽然这些交易都被银行成功拦截而没有真正扣款成功，但这种异常交易行为很快引起银行层面的风控关注，随后 KB 国民银行联系开发者了解情况，此时开发者本身也是完全懵逼的，银行并不清楚这是怎么回事，客服称开发者只能联系 A 社查找原因。&lt;/p&gt;
-&lt;p&gt;值得注意的是 KB 国民银行也基于安全和风控原因直接冻结开发者的信用卡，虽然没有实际资金流出，但开发者的主要信用卡被冻结后已经影响到日常支付，而且相关异常发票或拒付记录持续存在，也可能带来银行风控和信用记录方面的问题。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113921-1.png" rel="nofollow"&gt;&lt;img alt="[后续] A社向韩国开发者扣款1,662万美元 经过多次联系后A社终于承认错误并撤销账单" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113921-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;开发者 REMY 也运行着诸多 AI 自动化工具，所以在确认并非钓鱼邮件后开发者也立即自查是不是某个 AI 自动化工具调用 Claude API 并产生海量账单，但是经过排查后开发者发现自己的 AI 自动化工具并未调用 Claude API。&lt;/p&gt;
-&lt;p&gt;更离谱的是开发者检查 Claude API 控制台发现自己压根没有创建 API 所以更不可能是 API 泄露，当然 Claude API 控制台也显示本月支出是 0 美元，开发者此时的担心已经减少，因为这可以确认不是自己问题，这更像是 A 社的计费系统出现异常。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;更让开发者不满的是后续沟通过程，开发者开始尝试联系 A 社客服时只有机器人自动回复，让开发者自己查看安全防护中心或联系客户支持邮箱，部分邮件还被误判为合作、品牌或营销类资讯，这导致扣费问题迟迟没有进入真正的人工处理流程。&lt;/p&gt;
-&lt;p&gt;为推动处理，REMY 让 AI 帮忙起草更多邮件然后分别发送给 A 社负责用户安全、媒体联系、客户支持等不同的邮箱，而且主题中明确写明 1600 万美元错误账单需要人工客服处理等信息，即便如此开发者也等待很长时间没有收到任何人工回复。&lt;/p&gt;
-&lt;p&gt;开发者总结说自己最终向 A 社客服、技术、市场、隐私等团队累计发送约 15 封邮件，直到 4 天后才收到「问题将转交给人工成员处理」的自动回复邮件，而且该邮件也明确标注仍然由 A 社的 AI 智能体撰写和自动回复。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在事件引发关注后 A 社最终承认这是自己的计费系统出现错误，客服称开发者账户的自动充值设置被错误配置成远高于正常值的金额，因此这并不是已经生成的 API 调用账单，而是金额为 0 的情况下 A 社持续尝试按照错误配置的金额进行自动充值。&lt;/p&gt;
-&lt;p&gt;客服还强调这既不是未经授权的访问，也不是开发者账户遭到入侵，纯粹是计费系统出现问题。为避免再出现类似问题，A 社直接将开发者账户的自动充值功能关闭并重置相关充值金额，如果开发者后续要继续使用 API，需要自行重新开启自动充值功能。&lt;/p&gt;
-&lt;p&gt;最后 A 社也撤销这些异常账单，只不过开发者对这个处理结果非常不满，因为 A 社的错误行为导致开发者的主要信用卡被冻结，开发者还需要自行处理银行风控问题和信用问题，A 社并未提到后续是否会协助开发者处理信用卡冻结、信用风险或其他任何补偿问题。&lt;/p&gt;
-&lt;p&gt;目前开发者准备从本周开始继续发邮件联系 A 社客服进行后续处理，不过想要从这种公司手里获得补偿感觉是比较困难的，甚至想要让 A 社联系 KB 国民银行进行扣款问题沟通都比较难，最终信用卡冻结和信用风险可能都需要开发者自己处理。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://www.landian.news/go?url=https://www.threads.com/@remy_notes" rel="noopener" target="_blank"&gt;Threads@Remy_Notes&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 14 Jul 2026 02:30:14 +0000</pubDate></item><item><title>谋智基金会将Firefox 115 ESR版延长支持到2027年3月 当然预计还会继续延长</title><link>https://www.landian.news/archives/113920.html</link><description>
-&lt;p&gt;#软件资讯 谋智基金会再次延长 Firefox v115 ESR 版的支持，新的支持时间到 2027 年 3 月。该版本主要供 Windows 7/8/8.1 和 macOS 10.12/10.13/10.14 用户使用，这些旧版操作系统已经无法获得微软和苹果提供的安全更新，谷歌浏览器也早已停止支持，所以使用火狐是个不错的选择。查看全文：https://ourl.co/113920&lt;/p&gt;&lt;p&gt;谋智基金会日前已经宣布将 Mozilla Firefox v115 ESR 版延长支持到 2027 年 3 月，这是谋智基金会用来支持旧版操作系统的流程，通常谋智基金会会观察活跃用户数量，如果活跃用户数量仍然比较多那 ESR 版就会连续延长支持以提高安全性。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/public/thumb/firefox.png" rel="nofollow"&gt;&lt;img alt="谋智基金会将Firefox 115 ESR版延长支持到2027年3月 当然预计还会继续延长" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/public/thumb/firefox.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;通常使用 ESR 长期支持的要么是企业用户要么是使用旧版操作系统的用户，例如 Windows 7、Windows 8、Windows 8.1、macOS 10.12、macOS 10.13、macOS 10.14。这些操作系统版本已经结束官方支持，因此微软和苹果不会再提供安全更新。&lt;/p&gt;
-&lt;p&gt;谷歌认为在操作系统已经不安全的情况下继续提供浏览器安全更新是没有意义的，所以谷歌浏览器很早就已经停止支持这些旧版操作系统，火狐浏览器算是例外，谋智基金会的考虑是让这些无法升级新操作系统的用户使用受支持的火狐浏览器以提高安全性。&lt;/p&gt;
-&lt;p&gt;至少用户可以使用经过漏洞修复的火狐浏览器规避部分通过浏览器漏洞展开攻击的尝试，像是谷歌浏览器旧版本部分漏洞已经曝光，黑客可以制作针对这些漏洞的钓鱼网站实现零点击或一点击攻击，所以实在无法升级受支持操作系统的用户，使用火狐浏览器 ESR 版确实可以提高安全性。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Mozilla Firefox v115 ESR 版最初发布于 2023 年 7 月 4 日，但基于对旧版操作系统支持的考虑，火狐浏览器目前仍然在积极为该版本修复安全漏洞，当然也仅限于修复安全漏洞而不会添加任何新功能。&lt;/p&gt;
-&lt;p&gt;谋智基金会已经多次对该版本延长支持，&lt;a href="https://www.landian.news/archives/112158.html" rel="noopener" target="_blank"&gt;上次的延长支持是到 2026 年 8 月&lt;/a&gt;，现在临近 8 月所以谋智基金会再次宣布延长支持，新的到期时间为 2027 年 3 月，按惯例到期前例如 2027 年 2 月谋智基金会可能会继续宣布延长支持周期。&lt;/p&gt;
-&lt;p&gt;下载地址：&lt;a href="https://www.landian.news/go?url=https://ftp.mozilla.org/pub/firefox/releases/" rel="noopener" target="_blank"&gt;https://ftp.mozilla.org/pub/firefox/releases/&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 14 Jul 2026 02:00:14 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 14 Jul 2026 04:00:26 +0000</pubDate></item></channel></rss>
