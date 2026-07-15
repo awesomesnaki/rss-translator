@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>张洪Heo</title><link>https://blog.zhheo.com/</link><description>产品设计师、独立开发者、设计与科技领域自媒体博主</description><language>zh-CN</language><lastBuildDate>Wed, 08 Jul 2026 03:08:54 +0000</lastBuildDate><item><title>混元hy3模型上手：腾讯送了云函数个人版6个月，怎么才能用上</title><link>https://blog.zhheo.com/p/2orxjo9r.html</link><description>&lt;p&gt;昨天看到混元送Token了，这就迫不及待去装了，曾经小米送Token的活动还历历在目。混元这个送了10亿虽然没小米的多，但也是很大方的了。但是有一个点，就是送了10亿Token&lt;strong&gt;只能用于小程序cloudbase云函数调用&lt;/strong&gt;，OpenClaw等AI工具不能直接调用。不过因为给了cloudbase个人版免费6个月，还是有一定额度的。本文的教程主要说一下如何利用个人版送的积分来接入OpenClaw。&lt;/p&gt;
+&lt;div data-question="什么是cloudbase云函数"&gt;
+&lt;i aria-hidden="true"&gt;&lt;/i&gt;
+询问AI
+
+什么是cloudbase云函数
+&lt;button type="button"&gt;
+&lt;i&gt;&lt;/i&gt;
+询问
+&lt;/button&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;img alt="送的额度" referrerpolicy="no-referrer" src="https://p.zhheo.com/7d5491783499049.png!blogimg"/&gt;&lt;/p&gt;
 &lt;p&gt;首先领取环节可以简单说一下。需要你有微信小程序，没有的话可以申请一个，不用上架就能。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="申请Token" referrerpolicy="no-referrer" src="https://p.zhheo.com/484711783480420.png!blogimg"/&gt;&lt;/p&gt;
