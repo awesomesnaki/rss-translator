@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 14 Jul 2026 05:02:00 +0000</lastBuildDate><item><title>[赞助商] 论文</title><link>https://paper.design/?utm_source=df</link><description>&lt;p&gt;Paper是一个专业设计工具，其中每一层都是真实的HTML和CSS。你的设计已经是代码，这意味着在设计内容和最终交付物之间的交接和转换更少。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Wed, 15 Jul 2026 22:52:22 +0000</lastBuildDate><item><title>Eric Seufert: ‘苹果刚刚暗示了苹果广告的第三方扩展吗？’</title><link>https://mobiledevmemo.com/did-apple-just-signal-a-third-party-expansion-of-apple-ads/</link><description>&lt;p&gt;Eric Seufert, Mobile Dev Memo:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;新语言可能只是为了让苹果自有服务能够在网页上以及通过第三方设备和操作系统上使用；例如，Apple TV 应用在智能电视、流媒体设备和游戏主机上均可使用。但“其他资产”的加入明显过于宽泛，似乎赋予了苹果在完全超出其自有服务的范围内分发广告的合同自由度。这将使得公司广告覆盖面积实现实质性扩张。&lt;/p&gt;
+&lt;p&gt;此外，如果苹果确实计划将 Apple Ads 扩展到第三方平台，那么这就能解释为何该公司在今年的 WWDC 上&lt;a href="https://mobiledevmemo.com/wwdc-2026-implications-for-the-app-economy/"&gt;没有透露更新&lt;/a&gt;其 AdAttributionKit（AAK，前身为 SKAdNetwork 或 SKAN）归因框架。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这会是其中一种方式。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/07/15/seufert-apple-ads" title="Permanent link to ‘Eric Seufert: ‘Did Apple Just Signal a Third-Party Expansion of Apple Ads?’’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Wed, 15 Jul 2026 22:52:22 +0000</pubDate></item><item><title>苹果更新广告服务政策，为地图中的广告制定新规则</title><link>https://techcrunch.com/2026/07/15/apple-quietly-reveals-how-its-maps-ads-will-differ-from-googles/</link><description>&lt;p&gt;萨拉·佩雷斯，TechCrunch：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在一项新发布的&lt;a href="https://ads.apple.com/news-and-stocks-maps-and-sports-programming-policies"&gt;苹果广告服务政策&lt;/a&gt;中，该政策自2026年7月14日起生效，这家iPhone制造商分享了其在苹果地图上投放广告的规则。值得注意的是，该政策禁止了家庭服务行业的广泛类别，例如管道、电气、锁匠、暖通空调、害虫防治、屋顶及总承包服务等。[...]&lt;/p&gt;
+&lt;p&gt;更广泛的政策还禁止了欺骗性或亵渎性广告、政治广告，以及以武器、暴力、管制物质、诽谤性材料等为特色的广告。&lt;/p&gt;
+&lt;p&gt;尽管苹果未来可能会扩展到其他广告类别，但其初步策略将地图及其广告定位为一款更精心策划、专注于导航的产品，而非网页搜索引擎的延伸。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;阻止欺诈性和掠夺性广告进入苹果地图的最简单方法，你知道，就是&lt;a href="https://daringfireball.net/2026/07/ternus_apple_slippery_slope"&gt;不在苹果地图中销售广告&lt;/a&gt;。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/07/15/apple-maps-ad-rules" title="‘苹果更新广告服务政策，为地图广告制定新规则’的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Wed, 15 Jul 2026 22:48:20 +0000</pubDate></item><item><title>苹果智能获准在中国推出，使用百度与阿里巴巴的AI模型。</title><link>https://www.scmp.com/tech/policy/article/3360685/china-approves-apple-intelligence-phones-alibaba-baidu-emerging-partners</link><description>&lt;p&gt;Ben Jiang 从北京为《南华早报》报道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;中国监管机构已授予苹果公司一项期待已久的许可证，允许其在中国境内的iPhone上推出人工智能服务，阿里巴巴集团控股和百度将作为技术合作伙伴。&lt;/p&gt;
+&lt;p&gt;中国国家互联网信息办公室（CAC），即中国的互联网监管机构，于周三发布公告，确认了苹果智能（Apple Intelligence）的许可证——该AI功能用于摘要电子邮件、起草报告、编辑图像以及执行其他任务。该许可证与其他六项基于智能手机的AI服务一同获批，包括针对三星和华为技术的服务。&lt;/p&gt;
+&lt;p&gt;阿里巴巴一位代表周三告诉《南华早报》，其Qwen大语言模型将“在中国用户的iOS、iPadOS、macOS和visionOS系统中集成到苹果智能体验中”。该代表表示，这将使用户能够访问该模型的文本和图像生成等功能。阿里巴巴拥有《南华早报》。&lt;/p&gt;
+&lt;p&gt;百度一位代表周三也告诉《南华早报》，该公司正与苹果合作，为中国市场的苹果智能开发AI功能。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这并非关于上个月在WWDC上为iOS 27宣布的Siri AI——这是对两年前宣布并在iOS 18中推出的苹果智能的初步批准。在今天的任何&lt;a href="https://www.techmeme.com/260715/p12#a260715p12"&gt;报道&lt;/a&gt;中都不清楚这是否也是今年Siri AI的绿灯。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/07/15/apple-intelligence-china-baidu-alibaba" title="永久链接：‘苹果智能获准在中国推出，使用百度和阿里巴巴的AI模型’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Wed, 15 Jul 2026 22:35:18 +0000</pubDate></item><item><title>[赞助商] 论文</title><link>https://paper.design/?utm_source=df</link><description>&lt;p&gt;Paper是一个专业设计工具，其中每一层都是真实的HTML和CSS。你的设计已经是代码，这意味着在设计内容和最终交付物之间的交接和转换更少。&lt;/p&gt;
 &lt;p&gt;Paper是双向的：从代码到设计，以及从设计到代码。通过MCP连接任何代理，它都可以读取和编辑你的设计。或者使用Paper Snapshot将你的实时网站捕获为可编辑的图层，并进行新的迭代。&lt;/p&gt;
 &lt;p&gt;代理处理繁琐的工作，这样你就可以专注于你的技艺和重要的决策。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://paper.design?utm_source=df"&gt;在paper.design上试用Paper&lt;/a&gt;。&lt;/p&gt;
@@ -25,17 +49,4 @@
 &lt;p&gt;这个列表里有一些真正的赢家。但只有一款AI应用：ChatGPT。&lt;/p&gt;
 &lt;p&gt;马斯克声称下载量排行榜也存在不公。这不过是投射心理。如果马斯克运营一个热门App Store，他一定会暗中操纵，确保自己的应用总是位列榜首。这正是他在Twitter/X上对&lt;a href="https://daringfireball.net/linked/2026/06/05/musk-x-freak-show"&gt;他的个人账户&lt;/a&gt;以及与他的政治立场一致的账户所做的。因为这就是他会做的事，他认为苹果也在做同样的事。我真的认为他相信App Store的下载量排行榜是被人为操控的，而Grok恰恰站在了这种操控的对立面。骗子认为所有人都是骗子。这只是马斯克思维不正常的几种表现之一。&lt;/p&gt;&lt;p&gt;我怀疑，不过，&lt;a href="https://daringfireball.net/linked/2026/07/12/altman-musk"&gt;他不再担心&lt;/a&gt;苹果会偏向OpenAI。也许他应该&lt;em&gt;别管&lt;/em&gt;这起诉讼了。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/07/13/musk-v-apple" title="Permanent link to ‘Remember Musk’s Suit Alleging a Conspiracy Between Apple and OpenAI?’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 13 Jul 2026 15:24:53 +0000</pubDate></item><item><title>WorkOS Pipes</title><link>https://workos.com/pipes?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q32026</link><description>&lt;p&gt;再次感谢WorkOS上周赞助DF。用户期望应用和代理能够接入他们已在使用的工具。每一次实现这一点的集成都意味着不同的OAuth流程、不同的令牌生命周期，以及在编写一行产品代码前需要花费数周的基础设施搭建。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://workos.com/pipes?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q32026"&gt;WorkOS Pipes通过一次API调用即可处理这一切&lt;/a&gt;。内置GitHub、Slack、Salesforce、Google Drive等预构建连接器。Pipes负责处理OAuth、令牌刷新和凭证存储。每次你都将使用全新令牌调用真实的提供商API。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://workos.com/pipes?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q32026"&gt;通过WorkOS Pipes连接100多个提供商&lt;/a&gt;。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/07/12/workos-pipes" title="Permanent link to ‘WorkOS Pipes’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sun, 12 Jul 2026 22:17:54 +0000</pubDate></item><item><title>Paulo Andrade: ‘用SwiftUI构建Mac应用的最新动态：WWDC 27更新’</title><link>https://pfandrade.me/blog/swiftui-mac-assed-wwdc27-update/</link><description>&lt;p&gt;保罗·安德拉德：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我上一篇关于使用SwiftUI构建一个“Mac风格”应用的&lt;a href="https://pfandrade.me/blog/mac-assed-swiftui-app/"&gt;文章&lt;/a&gt;，获得的关注度超出了我的预期。它在Mastodon上被提及了&lt;a href="https://mastodon.social/@stroughtonsmith/116545164468952303"&gt;好几次&lt;/a&gt; &lt;a href="https://mastodon.social/@stroughtonsmith/116545164468952303/quotes"&gt;多次&lt;/a&gt;，被收录在&lt;a href="https://iosdevweekly.com/issues/750/#fuwtRgx"&gt;iOS Dev Weekly&lt;/a&gt;中，启发了5月版的&lt;a href="https://swiftcarnival.github.io/"&gt;Swift博客嘉年华&lt;/a&gt;，最终还被&lt;a href="https://mastodon.social/@gruber"&gt;约翰·格鲁伯&lt;/a&gt;——可以说是最该为推广“Mac风格”这个术语负责的人——在&lt;a href="https://daringfireball.net/2026/06/swiftui_only_makes_it_easy_to_develop_bad_apps"&gt;Daring Fireball&lt;/a&gt;上提及。&lt;/p&gt;
-&lt;p&gt;这些关注也引来了一位苹果工程师联系我，并提供了一些备注。我们交换了几封邮件，我提交了一些雷达反馈，现在WWDC 27已经结束，这篇帖子是对我之前写的问题的简要更新。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这里确实有进展，但我认为&lt;a href="https://daringfireball.net/2026/06/swiftui_only_makes_it_easy_to_develop_bad_apps"&gt;我的核心观点&lt;/a&gt;依然成立：SwiftUI已经七年了，但它并没有让创建优秀的Mac应用变得容易。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/07/12/andrade-swiftui" title="永久链接至‘保罗·安德拉德：WWDC 27关于用SwiftUI构建Mac风格应用的更新’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sun, 12 Jul 2026 21:18:24 +0000</pubDate></item><item><title>用户界面如何随时间退化</title><link>https://grumpy.website/1723</link><description>&lt;p&gt;这些例子来自Windows，但MacOS警告的标准外观也存在同样的退化。曾有一段时间，系统UI界面的清晰度在不断提高，无处不在。而如今，我们生活在一个清晰度普遍下降的时代。这相当令人费解。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/07/12/how-uis-degrade-over-time" title="永久链接至“用户界面如何随时间退化”"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sun, 12 Jul 2026 19:51:16 +0000</pubDate></item></channel></rss>
+</description><pubDate>Mon, 13 Jul 2026 15:24:53 +0000</pubDate></item></channel></rss>
