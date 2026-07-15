@@ -1,83 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 14 Jul 2026 06:20:36 +0000</lastBuildDate><item><title>Telegram域名被封锁疑似与美国制裁有关 但更可能属于注册局的误伤</title><link>https://www.landian.news/archives/113928.html</link><description>
-&lt;p&gt;#软件资讯 Telegram 域名被封锁疑似与美国制裁有关，但更可能属于注册局的误伤。美国外国资产控制办公室 OFAC 在最新公布的制裁公告中提到乌克兰某 VPN 服务提供商，该提供商涉及黑客和网络攻击类。这个服务提供商有多个网站以及 TG 订阅频道，而订阅频道以 t [.] me 开头，所以 OFAC 直接将频道地址当做网站发布。我们严重怀疑 DomainME 注册局看到公告后就直接封锁域名，而不是与 Telegram 以及 OFAC沟通。当然 OFAC 做法也有问题，频道封禁应当告知 Telegram，而不是直接将频道地址当网站发出来。查看全文：https://ourl.co/113928&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/113923.html" rel="noopener" target="_blank"&gt;早前蓝点网提到即时通讯工具 Telegram 使用的主要短域名 t.me 被冻结&lt;/a&gt;，在域名被冻结后相关解析全部被停掉，这导致用户个人主页 URL 和内容分享短链全部无法访问，ME 域名是黑山共和国的国别顶级域名，主要由 DomainME 注册局管理，而 Telegram 则将域名托管在 GoDaddy。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113928.png" rel="nofollow"&gt;&lt;img alt="Telegram域名被封锁疑似与美国制裁有关 但更可能属于注册局的误伤" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113928.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 15 Jul 2026 04:36:19 +0000</lastBuildDate><item><title>CPUID团队重新实现RTX50系显卡温度监控 此前英伟达移除温度测量且未恢复</title><link>https://www.landian.news/archives/113933.html</link><description>
+&lt;p&gt;#软件资讯 CPUID 开发团队重新实现 RTX50 系显卡的温度监控功能，此前英伟达因未知原因禁用显卡温度测量且至今未恢复。不过对玩家来说监控显卡温度至关重要，这牵涉到温度过高的降频问题，所以当发现温度持续过高时就应检查散热组件。现在 HWMonitor 1.65 版已经可以重新读取温度传感器数据。下载地址：https://ourl.co/113933&lt;/p&gt;&lt;p&gt;此前英伟达因未知原因禁用 RTX50 系显卡的温度监控功能，当然英伟达的禁用只是通过软件层面实现的，显卡本身包含的硬件温度传感器还是可以工作的，对玩家来说监控温度还是非常重要的，因为温度过高意味着散热组件可能存在故障，而且还可能导致 GPU 芯片降频影响性能。&lt;/p&gt;
+&lt;figure&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113933.png" rel="nofollow"&gt;&lt;img alt="CPUID团队重新实现RTX50系显卡温度监控 此前英伟达移除温度测量且未恢复" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113933.png"/&gt;&lt;/a&gt;&lt;figcaption&gt;图片来自X@d0cTB&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;ICANN 规定域名可以设置多种不同的状态，其中 serverHold 和 clientHold 都是域名被冻结，不过前者由域名注册局负责操作，后者可以由域名注册商操作，域名注册商也就是 GoDaddy 无法直接对域名设置 serverHold 状态，所以即便 GoDaddy 名声非常差，但这次的问题也不能由 GoDaddy 背锅。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;serverHold：注册局暂停该域名解析，常见原因包括法律 / 合规、严重滥用、注册局风控、上级要求&lt;/li&gt;
-&lt;li&gt;clientHold：注册商暂停该域名解析，常见原因包括欠费、滥用投诉、风控、违反注册商政策&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;知名硬件信息读取工具 CPUID 的开发团队在最新发布的 HWMonitor 1.65 版中已经重新实现对 RTX50 系显卡的温度读取，具体来说 CPUID 团队设法重新读取显卡里的两个温度传感器，因此现在玩家安装 HWMonitor 后就可以重新显示显卡温度。&lt;/p&gt;
+&lt;p&gt;此前确实有玩家通过修改显卡配置的方式恢复温度监控功能，不过这种方式似乎有缺陷，即显示的显卡温度不高但芯片还是被降频，说明通过修改显卡获得的温度是不准确的，而 HWMonitor 可以实现比较准确的温度监控，推荐有需要的玩家还是使用 HWMonitor 1.65+ 版。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;美国政府下属的外国资产控制办公室 OFAC 在 7 月 13 日发布新的制裁指令，该指令针对乌克兰某 VPN 服务提供商。这个服务提供商有多个网站被列入制裁清单，该服务商还有 Telegram 订阅频道，订阅频道也同样使用 t.me 域名，所以我们严重怀疑这是 DomainME 收到指令后未仔细分辨就直接执行禁令。&lt;/p&gt;
-&lt;p&gt;这个乌克兰 VPN 服务提供商提供的服务涉及黑客和网络攻击，这也是被 OFAC 列入制裁名单的原因，但订阅频道并非网站，OFAC 正确做法应该是明确指出这是订阅频道或群组，然后由 Telegram 执行封禁，而不是看到群组链接后直接列入制裁名单。&lt;/p&gt;
-&lt;p&gt;目前尚不清楚 t.me 域名什么时候能够恢复正常，不过这可能需要 DomainME 与 Telegram 合作联系 OFAC 办公室沟通，在解除误会后或许域名可以重新使用，只是这种流程可能要一段时间，办事效率估计没那么高。&lt;/p&gt;
+&lt;p&gt;从玩家测试来看 HWMonitor 现在可以读取 GPU 温度和供电模块温度，这些温度数据还会被整合显示为短时间内的平均温度，玩家可以通过温度数据来判断散热组件是否需要优化、当前显卡是否可能因为温度过高而降频等，在高负载的情况下显卡温度会比较高，但通常除非散热不佳不然也不容易触发降频。&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;a href="https://www.landian.news/go?url=https://www.cpuid.com/softwares/hwmonitor.html" rel="noopener" target="_blank"&gt;https://www.cpuid.com/softwares/hwmonitor.html&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 14 Jul 2026 06:20:36 +0000</pubDate></item><item><title>A社开始在印度使用卢比定价Claude Pro/Max 但很遗憾并没有什么优惠</title><link>https://www.landian.news/archives/113927.html</link><description>
-&lt;p&gt;#人工智能 A 社开始在印度使用卢比定价 Claude Pro/Max/Team，别急着换区迁移，因为目前印区没有任何价格优势。从目前 A 社公布的价格来看，在印度开通订阅实际上价格比美区还要高，例如 Claude Pro 年付平均到月为 21 美元，而美区为 17 美元；Max 5x 版印区 125 美元，美区则是 100 美元。查看全文：https://ourl.co/113927&lt;/p&gt;&lt;p&gt;A 社近期开始在印度采用当地货币卢比定价，此前 A 社在印度提供的 Claude Pro/Max 订阅主要通过美元定价，但现在改成卢比定价后价格也并没有便宜，所以希望迁移到印度区薅羊毛的用户暂时不用考虑，因为税费问题印度区价格甚至还要更高。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113927.png" rel="nofollow"&gt;&lt;img alt="A社开始在印度使用卢比定价Claude Pro/Max 但很遗憾并没有什么优惠" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113927.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 15 Jul 2026 04:36:19 +0000</pubDate></item><item><title>欧盟委员会修订电池法规将苹果手表等智能可穿戴设备豁免 无需搭配可拆卸电池</title><link>https://www.landian.news/archives/113932.html</link><description>
+&lt;p&gt;#科技资讯 欧盟发布修订版电池法规将苹果智能手表等可穿戴设备豁免范围，这些设备不必提供简易电池更换方法，也就是不需要提供能让消费者轻易换电池的设计。豁免原因主要是这些小型可穿戴设备尺寸太小无法安全更换锂离子电池，而且产品本身可能还依赖紧凑和高度密封的外壳，可拆卸设计可能影响产品寿命和安全性。查看全文：https://ourl.co/113932&lt;/p&gt;&lt;p&gt;欧盟委员会的电池法规将在明年实施，到时候很多消费级电子产品都必须提供简易电池拆卸和更换，&lt;a href="https://www.landian.news/archives/113802.html" rel="noopener" target="_blank"&gt;所以任天堂将从明年开始在欧盟销售改进版的 Switch 2 游戏掌机&lt;/a&gt;，改进版拆卸和更换电池都更简单，不需要使用专门的拆机设备或其他工具辅助操作。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/11/111101.png" rel="nofollow"&gt;&lt;img alt="欧盟委员会修订电池法规将苹果手表等智能可穿戴设备豁免 无需搭配可拆卸电池" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/11/111101.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Claude Pro 印区按年付款：平均到每月为 2,000 卢比，约合 21 美元 (含税价)&lt;/li&gt;
-&lt;li&gt;Claude Pro 美区按年付款：200 美元，平均到每月为 17 美元 (部分州需支付税款)&lt;/li&gt;
-&lt;li&gt;Claude Max 印区按月付款：5x 版，每月 11,999 卢比，约合 125 美元 (含税) (没有年付)&lt;/li&gt;
-&lt;li&gt;Claude Max 美区按月付款：5x 版，每月 100 美元 (部分州需支付税款)(没有年付)&lt;/li&gt;
-&lt;li&gt;Claude Team 印区按月付款：每席位每月 2,399 卢比，约合 25 美元 (含税) (没有年付)&lt;/li&gt;
-&lt;li&gt;Claude Team 美区按月付款：每席位每月 25 美元 (部分州需支付税款) (年付到月为 20 美元)&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;早前美国官员批评欧盟电池法规限制 Meta 智能眼镜后，现在欧盟委员会已经修订电池法规将部分可穿戴设备纳入豁免范围，即这些可穿戴产品不需要按照新电池法规的要求提供简易的电池拆卸方法，像是 Apple Watch 等产品也在豁免范围内，所以可以继续提供更好的密封性。&lt;/p&gt;
+&lt;p&gt;值得注意的是欧盟委员会修订后的电池法规还需要等待欧洲议会和欧盟理事会的审查，只有在审查通过后才算是正式法律，不过考虑到电池法规到明年才生效，所以今年剩下的时间应该足够欧盟通过修订版电池法规或进行其他补充性修改。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;从上面的价格清单可以看到印区开通 Claude Pro/Max 的价格比美区还要高，所以迁移到印区并不能便宜，至少目前 Anthropic 并未按照不同市场的情况在印度提供优惠价格，&lt;a href="https://www.landian.news/archives/113389.html" rel="noopener" target="_blank"&gt;像是 OpenAI 此前在土耳其按照里拉计价还是有优惠的&lt;/a&gt; (新开通已经没有优惠，老用户优惠价被保留)。&lt;/p&gt;
-&lt;p&gt;值得注意的是在印度开通 Claude Pro/Max 必须通过 Apple App Store 或 Google Play 进行内购支付，A 社目前并未启用印度当地的 UPI 即时支付网络，所以用户需要在苹果或谷歌商店绑定银行卡付款。&lt;/p&gt;
+&lt;p&gt;此次修订版的电池法规主要豁免部分可穿戴设备，豁免原因是这些设备的安全性、耐用性和防水性可能会因为接触电池而受影响，而像是苹果智能手表等产品则是尺寸太小无法安全更换锂离子电池，这些产品可能还依赖紧凑且高度密封的外壳，提供可拆卸设计有可能会影响产品寿命。&lt;/p&gt;
+&lt;p&gt;被豁免的产品包括智能手表、智能眼镜、健身追踪器和其他小型可穿戴设备，目前还有其他设备制造商正在向欧盟申请豁免，不过最终能否获得豁免还需要欧盟委员会仔细审查，像是可穿戴设备的豁免就是行业申请并经过广泛磋商后通过的。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;值得注意的是在被美国官员批评后欧盟就修订电池法规，这难免让人觉得欧盟这是屈服于美国的压力，所以欧盟官方发言人在声明中特别强调，欧盟没有屈服于任何人的压力，修订版的电池法规是在与消费者协会、行业利益相关者和欧盟成员国进行广泛公众磋商后提出的。&lt;/p&gt;
+&lt;p&gt;欧盟还表示电池法规中的豁免部分并非旨在监管特定类别的产品，而是为了在打开设备可能造成安全风险的情况下，确保消费品和工业产品的安全性，避免消费者受到伤害。&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 14 Jul 2026 06:00:27 +0000</pubDate></item><item><title>不！开启隐私模式不能阻止Grok Build上传仓库数据 SpaceXAI在混淆视听</title><link>https://www.landian.news/archives/113926.html</link><description>
-&lt;p&gt;#安全资讯 不！开启隐私模式并不能阻止 Grok Build 继续上传仓库数据，SpaceXAI 在混淆视听。昨夜 SpaceXAI 就上传开发者仓库数据问题发布回应，该公司称开发者可以通过 /privacy 退出数据共享。然而研究人员指出，数据共享模式与上传仓库是两个不同的通道，前者只是上传大约 18KB 的数据帮助 SpaceXAI 改进产品，后者是通过请求头来控制的。也就是说即便开发者退出数据共享，只要 SpaceXAI 重新启用上传仓库的功能标志，数据就会被重新上传。查看全文：https://ourl.co/113926&lt;/p&gt;&lt;p&gt;上周安全研究人员 @Cereblab 曝光 Grok Build 未经开发者明确授权，&lt;a href="https://www.landian.news/archives/113897.html" rel="noopener" target="_blank"&gt;擅自将开发者本地仓库发送到云端存储&lt;/a&gt;，正常情况下编码工具仅应该将需要使用的代码片段发送给云端模型，而 Grok Build 的做法是将整个仓库都上传到云端而且不是发送给模型，而是发送到谷歌 GCP 存储。&lt;/p&gt;
-&lt;p&gt;这种做法在开发者社区引起很大的担忧，因为各种项目仓库里可能包含敏感数据，显然 SpaceXAI 收集仓库数据可能是用于后续的模型训练，这有可能造成敏感信息泄露，当然这也是在践踏开发者的隐私权。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113926.png" rel="nofollow"&gt;&lt;img alt="不！开启隐私模式不能阻止Grok Build上传仓库数据 SpaceXAI在混淆视听" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113926.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 15 Jul 2026 04:13:29 +0000</pubDate></item><item><title>Windows 11安装7月更新后可以无限期暂停更新 不过用户需要每35天设置1次</title><link>https://www.landian.news/archives/113931.html</link><description>
+&lt;p&gt;#系统资讯 Windows 11 安装 7 月更新后可以无限期暂停更新，不过用户需要每 35 天设置 1 次。该功能已经在预览版中完成测试，现在推送给正式版用户。在安装最新累积更新 KB5010650 后，用户可以在设置里选择暂停更新日期，每次最多 35 天，但到期前可以继续向后延期，实现无限期暂停更新 (虽然很麻烦)。查看全文：https://ourl.co/113931&lt;/p&gt;&lt;p&gt;此前蓝点网已经提到过在 Windows 11 预览版中微软测试无限期暂停更新功能，说是无限期其实是每次可以暂停最多 35 天，但用户可以在到期前继续设置延期以达到无限期暂停更新的目的。而在旧版本中到暂停时间后系统会强制检查更新，但并非所有用户都希望安装更新。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112823-3.png" rel="nofollow"&gt;&lt;img alt="Windows 11安装7月更新后可以无限期暂停更新 不过用户需要每35天设置1次" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112823-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.landian.news/archives/113922.html" rel="noopener" target="_blank"&gt;昨天夜里 SpaceXAI 就上传仓库问题发布回应&lt;/a&gt;，该公司称开发者可以通过 /privacy 启用隐私模式，默认情况下 Grok Build 启用的是数据共享模式，这意味着开发者的使用数据会被 SpaceXAI 收集并用于改进产品和模型，开发者如果启用隐私模式则可以避免数据共享，同时已经发送到云端的数据也会被删除。&lt;/p&gt;
-&lt;p&gt;这听起来似乎是个解决方案，然而在原始推文中 SpaceXAI 避重就轻并未详细解释为什么要收集开发者的项目仓库，事实上根据安全研究人员 @Cereblab 发布的最新消息，SpaceXAI 完全是在混淆视听，/privacy 并不能阻止仓库被继续上传。&lt;/p&gt;
+&lt;p&gt;微软今天向 Windows 11 正式版发布 &lt;a href="https://www.landian.news/go?url=https://catalog.update.microsoft.com/Search.aspx?q=KB5101650" rel="noopener" target="_blank"&gt;KB5010650&lt;/a&gt; 等月度例行更新，安装该更新后使用正式版的用户也可以设置无限期暂停更新。至于为什么要提供无限期暂停更新，说到底还是微软不应该控制和强迫用户安装更新，用户可能会因为各种原因无法安装更新。&lt;/p&gt;
+&lt;p&gt;例如有些长期开机的电脑在以前经常因为被系统自动安装更新而导致中断，部分设备存在兼容性问题或其他影响使用的问题，这种情况下用户也会主动卸载更新。还有些用户认为安装更新后系统会变卡顿所以也不愿意安装 (这个问题很玄学，正常来说安装更新不会导致系统卡顿)。&lt;/p&gt;
+&lt;p&gt;当然对用户而言安装例行更新是非常有必要的，这些更新包含大量的漏洞修复以及各类功能错误修复，及时安装更新有助于提高系统安全性和获得更好的使用体验，所以除非有特别原因，否则用户最好还是开着自动更新或定期手动安装更新。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;安全研究人员在最初的分析报告中就提到 Grok Build 通过云端的请求头来判断是否上传整个仓库数据，&lt;a href="https://www.landian.news/archives/113901.html" rel="noopener" target="_blank"&gt;在被曝光后 SpaceXAI 在云端禁用上传仓库数据&lt;/a&gt;，这个功能开关到现在还是禁用的，开发者也可以检查 Grok Build 请求头验证，请求头为 disable_codebase_upload: true 这个请求头代表启用「关闭仓库上传」，之前的选项为 false 代表允许上传仓库。&lt;/p&gt;
-&lt;p&gt;要明确的是 Grok Build 有两种数据收集模式，第一种就是 /privacy 的产品改进，该功能指的是 Grok Build 发送到模型的代码片段会被用于改进产品和模型，如果用户选择退出数据共享模式，SpaceXAI 会删除已经保存的数据。&lt;/p&gt;
-&lt;p&gt;关键是第二种，即上传仓库数据，上传仓库数据完全由 HTTP 请求头来控制，当云端下发的指令是启用仓库上传时，即便开发者退出数据共享模式也无济于事，因为 /privacy 压根就不是用来控制仓库上传的，所以 SpaceXAI 发布的声明完全是在混淆视听。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;@Cereblab 也在 SpaceXAI 发布声明后重新进行验证，研究人员确认 /privacy 只适用于数据跟踪通道，在共享数据的情况下，该通道每次发送约 18KB 的数据，这并不是用来控制仓库数据上传，仓库数据上传可能达到 5GB 甚至更多 (有网友被发送超过 100GB 数据)。&lt;/p&gt;
-&lt;p&gt;所以 SpaceXAI 真正要做的是在未来的版本中彻底删除请求头和上传路径，只有删除后才无法通过云端开关进行控制，也无法继续上传开发者的仓库。另外目前上传仓库被禁用，所以无论是否退出数据共享模式，当前都不会再继续上传仓库到云端。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://www.landian.news/go?url=https://x.com/cereblab/status/2076743151105216588" rel="noopener" target="_blank"&gt;@Cereblab&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;必要条件是安装 KB5010650 更新，安装该更新后才能获得无限期暂停更新功能。安装更新并重启后，转到设置、点击暂停更新按钮后的日期选择功能，目前用户最多可以设置 35 天暂停更新。当到第 35 天时系统就会重新启用更新并自动检查和下载更新。&lt;/p&gt;
+&lt;p&gt;所以用户需要在第 34 天或 35 天时再次点击暂停更新后的日期选择按钮，然后向后再推迟 35 天，如此循环往复。当然这种操作说起来还是很麻烦的，不如找到第三方开源工具一劳永逸地暂停更新 (注意：再次强调不推荐长期暂停更新)。&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 14 Jul 2026 05:30:31 +0000</pubDate></item><item><title>Codex向所有订阅用户赠送1次新手动重置机会 用户可以根据需求自行重置</title><link>https://www.landian.news/archives/113925.html</link><description>
-&lt;p&gt;#人工智能 Codex 向所有订阅用户赠送 1 次新的手动重置机会，各位可以根据需求自行重置周配额。这次重置机会有效期到 8 月 13 日凌晨 1 点，昨天还有部分用户收到到期时间是 8 月 12 日的重置次数，但蓝点网并未收到，如果用户运气好那么应该同时获得 8/12 和 8/13 的两次重置机会。查看全文：https://ourl.co/113925&lt;/p&gt;&lt;p&gt;上周 OpenAI 向所有用户推出 GPT-5.6 系列模型，推出该模型后 Codex 团队收集用户反馈的同时也在处理 Codex 与 ChatGPT 合并产生的各种问题，为此 Codex 团队为用户提供多次硬重置确保用户有足够多的额度使用 GPT-5.6 Sol，同时 Codex 还临时取消 5 小时限额机制。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113925.png" rel="nofollow"&gt;&lt;img alt="Codex向所有订阅用户赠送1次新手动重置机会 用户可以根据需求自行重置" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113925.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 15 Jul 2026 03:42:21 +0000</pubDate></item><item><title>Telegram短域名已经解封 相关域名注册局承认确实与美国制裁有关</title><link>https://www.landian.news/archives/113930.html</link><description>
+&lt;p&gt;#软件资讯 Telegram 短域名 T[.]ME 已经解封恢复使用，相关域名注册局承认确实与美国制裁有关。DomainME 称会根据适用法律监控并缓解 ME 域名中的问题，在收到美国外国资产控制办公室的制裁通知后该注册局封禁 T[.]ME 域名，在 Telegram 删除与乌克兰被制裁实体的频道后，DomainME 解除域名封禁。查看全文：https://ourl.co/113930&lt;/p&gt;&lt;p&gt;昨天即时通讯工具 Telegram 的主要短域名 T.ME 被域名注册局封禁，注册局设置的状态是 serverHold 代表可能与滥用或合规问题有关，当时蓝点网搜索相关消息时看到封禁可能与美国制裁有关，&lt;a href="https://www.landian.news/archives/113928.html" rel="noopener" target="_blank"&gt;而且可能属于美国外国资产控制办公室与域名注册局都存在操作失误&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113928.png" rel="nofollow"&gt;&lt;img alt="Telegram短域名已经解封 相关域名注册局承认确实与美国制裁有关" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113928.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;早前 Codex 团队不停地硬重置还和 BUG 有关，例如在旧版 ChatGPT 移动端中用户无法看到重置功能，所以在 7 月 12 日到期的手动重置次数其实无法使用，不过整体来说上周大家使用 Codex 应该还是比较愉快的，毕竟连续 4 次硬重置后额度基本够用。&lt;/p&gt;
-&lt;p&gt;当然 Codex 技术经理蒂博也按照约定在情况稳定后向用户提供手动重置次数，这个重置次数是被保留下来的，用户可以在 30 天内自己选择在合适的时候进行重置，这比直接硬重置体验更好。&lt;/p&gt;
-&lt;p&gt;昨天部分用户还收到另外一次手动重置次数，到期时间是 8 月 12 日，但蓝点网并未收到这次手动重置次数，不知道这是什么原因，但这波 8 月 13 日到期的重置次数已经到账，各位可以检查下自己的账户。&lt;/p&gt;
+&lt;p&gt;ME 域名注册局 DomainME 在发布的消息中表示，该注册局与执法部门密切合作并根据适用法律包括制裁要求监控并缓解 ME 域名中的问题，2026 年 7 月 13 日美国财政部下属的外国资产控制办公室 OFAC 将乌克兰 1VPNS 列为受制裁实体，该实体使用多个域名且使用 T.ME 域名开头的 Telegram 订阅频道，这是该域名被封禁的原因。&lt;/p&gt;
+&lt;p&gt;7 月 14 日 Telegram 经过沟通后确认已经从平台删除与 1VPNS 相关的链接，因此 DomainME 经过审查和验证后解除 T.ME 域名的封禁，目前 T.ME 域名已经可以正常解析和使用。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在昨天发布的文章中蓝点网猜测域名被封禁可能与制裁有关，而且还可能存在操作失误，即 OFAC 直接将 Telegram 订阅频道链接当做网站地址添加到制裁列表中，而 DomainME 也没有经过严格识别就直接封禁整个域名。&lt;/p&gt;
+&lt;p&gt;像是这种平台公共链接不应该被直接封禁，尤其是 OFAC 本身列出的是特定频道链接而非整个域名，DomainME 直接封域名的操作显然是不合理的，最起码也应该与 Telegram 沟通，要求 Telegram 删除特定频道链接。&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 14 Jul 2026 05:00:27 +0000</pubDate></item><item><title>微软爆改Windows 11搜索框(搜索功能) 删除广告和必应搜索推荐 侧重本地优先</title><link>https://www.landian.news/archives/113924.html</link><description>
-&lt;p&gt;#系统资讯 微软爆改 Windows 11 搜索框 (搜索功能)，删除广告和推广信息、禁用来自必应搜索的乱七八糟的内容、侧重于本地文件和设置优先。目前这波改进正在面向 Windows 11 预览版用户提供，使用预览版的用户请转到实验性功能标志里手动启用新版搜索框。查看全文：https://ourl.co/113924&lt;/p&gt;&lt;p&gt;微软今天发布博客宣布向 Windows 11 预览版用户推出改进后的搜索框，满足大家要求的搜索框搜索速度更快、相关性更高以及使用更方便。这波改进的重点就是允许用户禁用来自必应搜索的乱七八糟的内容推荐和其他推广内容，让搜索框回归搜索功能，侧重于为用户提供本地文件搜索。&lt;/p&gt;
+</description><pubDate>Wed, 15 Jul 2026 03:12:17 +0000</pubDate></item><item><title>Codex再次为所有订阅用户重置额度(硬重置不保留次数) 庆祝用户量达到800万名</title><link>https://www.landian.news/archives/113929.html</link><description>
+&lt;p&gt;#人工智能 Codex 再次为所有订阅用户重置额度，庆祝用户量达到 800 万名，此次依然是硬重置不会保留次数。好在现在已经临时取消 5 小时限额，所以现在重度用户可以敞开使用，额度不够就使用现有的手动重置次数，毕竟部分重置次数很快就要过期。查看全文：https://ourl.co/113929&lt;/p&gt;&lt;p&gt;Codex 昨天夜里再次为所有订阅用户重置额度，此次重置依然属于硬重置，即直接重置额度而不是保留手动重置次数。这次重置主要是庆祝 Codex 用户量达到 800 万名，不得不说现在 Codex 用户量增长速度是真快，这显然也和 Codex 与 ChatGPT 合并有关。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113929.png" rel="nofollow"&gt;&lt;img alt="Codex再次为所有订阅用户重置额度(硬重置不保留次数) 庆祝用户量达到800万名" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113929.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;改进后的搜索框目前以受控发布形式向 Windows 11 预览版用户提供，已经使用预览版的用户也可以通过高级实验性标志手动启用，启用后就可以体验新版搜索框。蓝点网简单体验后认为改进后的搜索框比以前好太多，尤其是打开时不会显示太多乱七八糟的内容，整个界面都清爽无比。&lt;/p&gt;
-&lt;p&gt;下面是实验性标志启用方法：Windows 11 设置、更新、预览体验计划、功能标志，找到 Refined Windows Search 选项，将其后面的无替代修改为已启用，然后重启系统使之生效。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;启动搜索框时提供简化的功能面板：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;搜索界面上的各类视觉干扰 (例如来自必应搜索的当前热门主题、图片、历史上的今天等) 都被删除，高亮部分会侧重于近期打开的文件。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113924-1.png" rel="nofollow"&gt;&lt;img alt="微软爆改Windows 11搜索框(搜索功能) 删除广告和必应搜索推荐 侧重本地优先" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113924-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;更清晰的搜索结果：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;现在搜索功能会更好地显示结果来源，包括应用、设置、文件、网页结果或应用商店建议，因此用户在点击前更容易了解正在查看的内容以及点击后将跳转到哪里。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113924-2.png" rel="nofollow"&gt;&lt;img alt="微软爆改Windows 11搜索框(搜索功能) 删除广告和必应搜索推荐 侧重本地优先" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113924-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;搜索结果中删除推广内容：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;现在搜索结果会优先显示最相关的答案而不是先展示相关产品和促销信息，这有助于用户更专注于搜索结果本身，降低被推广内容干扰的概率。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113924-3.png" rel="nofollow"&gt;&lt;img alt="微软爆改Windows 11搜索框(搜索功能) 删除广告和必应搜索推荐 侧重本地优先" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113924-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;控制是否使用联网搜索：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;用户还可以在设置、隐私和安全、搜索中控制搜索功能是否调用必应网络搜索内容和来自微软商店的搜索内容，关闭该功能后搜索功能将只显示来自本地的干净搜索结果。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;本地搜索结果优先：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;当内容更符合搜索条件时，应用、设置和文件会更可靠地优先于网页和应用商店搜索结果，这也可以让系统项目例如此电脑和回收站等功能更容易被搜索找到。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113924-4.png" rel="nofollow"&gt;&lt;img alt="微软爆改Windows 11搜索框(搜索功能) 删除广告和必应搜索推荐 侧重本地优先" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113924-4.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;查找应用程序的容错率更高：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;现在搜索功能可以更好地处理拼写错误、漏字、多余字符以及不完整的单词，例如当用户搜索的是 otlook 那么仍然可以正常显示关键词 outlook 的搜索结果。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="微软爆改Windows 11搜索框(搜索功能) 删除广告和必应搜索推荐 侧重本地优先" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113924-5.png"/&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;设置搜索结果将靠前显示：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;微软还针对搜索权重进行优化，让更多相关的设置出现在搜索结果更靠前的位置，这样用户通过搜索框查找功能设置时要更方便。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113924-6.png" rel="nofollow"&gt;&lt;img alt="微软爆改Windows 11搜索框(搜索功能) 删除广告和必应搜索推荐 侧重本地优先" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113924-6.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;上周 Codex 与 ChatGPT 合并，现在 ChatGPT 原本的聊天功能反而被弱化，用户可以选择 ChatGPT Work 和 Codex 模式，而每个模式里可以并行使用聊天功能。当然像是蓝点网则是直接通过 Codex 聊天 (这会消耗配额) 而不是使用 ChatGPT 的聊天 (这不需要消耗配额)。&lt;/p&gt;
+&lt;p&gt;需要提醒的是目前还有个重置次数是在 7 月 18 日到期，各位可能需要合理安排使用计划，避免浪费重置次数。好在现在已经临时取消 5 小时限额，所以想要将 1 周额度消耗掉也不是难事。&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 14 Jul 2026 04:00:26 +0000</pubDate></item></channel></rss>
+</description><pubDate>Wed, 15 Jul 2026 02:54:52 +0000</pubDate></item></channel></rss>
