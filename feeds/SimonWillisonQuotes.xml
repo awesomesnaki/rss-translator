@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Thu, 16 Jul 2026 13:26:10 +0000</lastBuildDate><item><title>引用Linus Torvalds的话</title><link>https://simonwillison.net/2026/Jul/16/linus-torvalds/#atom-everything</link><description>&lt;blockquote cite="https://lore.kernel.org/linux-media/CAHk-=wi4zC+Ze8e+p3tMv8TtG_80KzsZ1syL9anBtmEh5Z40vg@mail.gmail.com/"&gt;&lt;p&gt;我意识到有些人非常不喜欢人工智能，但在这个领域，我愿意以顶级维护者的身份坚决表态。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simon Willison's Weblog (中文)</title><link>http://simonwillison.net/</link><description/><language>zh-CN</language><lastBuildDate>Thu, 16 Jul 2026 17:45:59 +0000</lastBuildDate><item><title>引用蒂博·索蒂奥的话</title><link>https://simonwillison.net/2026/Jul/16/bad-codex-bug/#atom-everything</link><description>&lt;blockquote cite="https://twitter.com/thsottiaux/status/2077630111499882637"&gt;&lt;p&gt;关于文件删除。我们已经调查了几起关于GPT-5.6意外删除文件的报告。&lt;/p&gt;
+&lt;p&gt;我们发现，这种情况最常发生在以下场景：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;启用了完全访问模式，并且在没有沙盒保护（包括未启用自动审核）的情况下运行Codex。&lt;/li&gt;
+&lt;li&gt;模型尝试覆盖$HOME环境变量以定义临时目录。&lt;/li&gt;
+&lt;li&gt;模型出现无意的错误，错误地删除了$HOME目录。&lt;/li&gt;
+&lt;/ul&gt;&lt;/blockquote&gt;
+&lt;p&gt;— &lt;a href="https://twitter.com/thsottiaux/status/2077630111499882637"&gt;Thibault Sottiaux&lt;/a&gt;，描述了一个相当棘手的Codex bug&lt;/p&gt;
+&lt;p&gt;标签：&lt;a href="https://simonwillison.net/tags/codex"&gt;codex&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/coding-agents"&gt;coding-agents&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/generative-ai"&gt;generative-ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/ai"&gt;ai&lt;/a&gt;, &lt;a href="https://simonwillison.net/tags/llms"&gt;llms&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 16 Jul 2026 17:45:59 +0000</pubDate></item><item><title>引用Linus Torvalds的话</title><link>https://simonwillison.net/2026/Jul/16/linus-torvalds/#atom-everything</link><description>&lt;blockquote cite="https://lore.kernel.org/linux-media/CAHk-=wi4zC+Ze8e+p3tMv8TtG_80KzsZ1syL9anBtmEh5Z40vg@mail.gmail.com/"&gt;&lt;p&gt;我意识到有些人非常不喜欢人工智能，但在这个领域，我愿意以顶级维护者的身份坚决表态。&lt;/p&gt;
 &lt;p&gt;Linux 不是那些反人工智能的项目之一，如果有人对此有异议，他们可以走开源路线并将其分叉。&lt;/p&gt;
 &lt;p&gt;或者直接离开。&lt;/p&gt;
 &lt;p&gt;AI 是一种工具，就像我们使用的其他工具一样。而且它显然是有用的。&lt;/p&gt;

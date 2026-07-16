@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Wed, 15 Jul 2026 23:02:54 +0000</lastBuildDate><item><title>古尔曼谈OpenAI即将推出的硬件产品：“可移动无屏音箱，打造为AI伴侣”</title><link>https://www.bloomberg.com/news/articles/2026-07-14/openai-s-first-device-will-be-moveable-screenless-speaker-built-as-ai-companion?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4NDA2MjAxMywiZXhwIjoxNzg0NjY2ODEzLCJhcnRpY2xlSWQiOiJUSTYwSllUOU5KTFMwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.DfRN0afk0TFIaHFw9zEKYjehnfMsZfKC7gPoVos8WPI&amp;leadSource=article-gifting</link><description>&lt;p&gt;彭博社的马克·古尔曼报道：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Thu, 16 Jul 2026 18:07:28 +0000</lastBuildDate><item><title>路易·曼蒂亚：《应用之形》</title><link>https://parakeet.co/blog/the-shape-of-apps/</link><description>&lt;p&gt;路易·曼蒂亚（Louie Mantia）在Parakeet博客上撰写了一篇关于应用图标设计以及&lt;a href="https://daringfireball.net/search/squircle+jail"&gt;圆角方形困境&lt;/a&gt;争议的深刻文章：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;值得注意的是，平台上一些最好的图标看起来更差了，而一些最差的图标反而看起来更好了。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;归根结底，这就是我反对圆角方形强制要求的原因。它通过限制顶级设计来纵容底层水平。它让糟糕的图标变得平庸，但也把优秀的图标推向平庸。这可不是&lt;a href="https://guykawasaki.com/books/the-macintosh-way/"&gt;《麦金塔之道》&lt;/a&gt;。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;将所有应用图标统一遮罩为圆角方形，甚至对其应用液态玻璃效果，目的就是解决&lt;em&gt;这个&lt;/em&gt;问题。这与iOS 7的理念一脉相承：让所有应用都能更容易地融入平台，尤其是那些由不熟悉如何打造与系统图标相得益彰的设计师和开发者构建的应用。&lt;/p&gt;
+&lt;p&gt;为明确我的偏好，我真心希望苹果能提供一种方式，让设计师们可以突破圆角方形的边界。我喜爱的一些应用图标就曾这样做。但同样，过去五年里，当所有系统图标都采用这种形状时，一些我最不喜欢的应用图标却完全无视它。每当&lt;em&gt;那些&lt;/em&gt;应用出现在我的程序坞中，就像衣服上洗不掉的污渍。&lt;/p&gt;
+&lt;p&gt;尽管圆角方形限制确实带来了损失，但仍有多种方式可以与之共舞设计。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这篇文章非常精彩，当然，其中充满了示例图标。它令人信服地捍卫了苹果在Mac应用图标设计上采取的方向。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/07/16/mantia-shape-of-apps" title="指向‘路易·曼蒂亚：《应用的形状》’的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Thu, 16 Jul 2026 18:07:28 +0000</pubDate></item><item><title>OpenAI 发布 Codex Micro，一个愚蠢的 230 美元硬件小键盘</title><link>https://openai.com/supply/co-lab/work-louder/</link><description>&lt;p&gt;还记得&lt;a href="https://daringfireball.net/linked/2026/03/24/openai-superapp"&gt;三月份&lt;/a&gt;时，时任联合首席执行官Fidji Simo&lt;a href="https://www.wsj.com/tech/openai-plans-launch-of-desktop-superapp-to-refocus-simplify-user-experience-9e19931d?st=25wiu1"&gt;向公司宣布&lt;/a&gt;“我们不能因为旁枝末节而分心，错失这个时机”？然而几周后，他们却花费“数亿美元”&lt;a href="https://daringfireball.net/linked/2026/04/02/openai-tbpn"&gt;收购了TBPN YouTube频道&lt;/a&gt;？如今，他们继续努力聚焦核心产品，又开始销售&lt;a href="https://x.com/OpenAIDevs/status/2077425991790870644"&gt;一款售价230美元的硬件键盘&lt;/a&gt;，名义上是为Codex配套使用——而Codex早已不是独立应用，只是他们那款糟糕的超级应用里的一个标签页。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://x.com/SnazzyLabs/status/2077535153153593675"&gt;Quinn Nelson&lt;/a&gt;：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;不会吧，这也太离谱了。我过去一直像个傻子一样，白白用着笔记本电脑自带的键盘和触控板。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;a href="https://daringfireball.net/linked/2026/07/16/openai-codex-micro" title="永久链接：‘OpenAI发布Codex Micro，一款愚蠢的230美元硬件键盘’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Thu, 16 Jul 2026 17:45:59 +0000</pubDate></item><item><title>古尔曼谈OpenAI即将推出的硬件产品：“可移动无屏音箱，打造为AI伴侣”</title><link>https://www.bloomberg.com/news/articles/2026-07-14/openai-s-first-device-will-be-moveable-screenless-speaker-built-as-ai-companion?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4NDA2MjAxMywiZXhwIjoxNzg0NjY2ODEzLCJhcnRpY2xlSWQiOiJUSTYwSllUOU5KTFMwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.DfRN0afk0TFIaHFw9zEKYjehnfMsZfKC7gPoVos8WPI&amp;leadSource=article-gifting</link><description>&lt;p&gt;彭博社的马克·古尔曼报道：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;OpenAI认为，这款产品的核心特色将是它的个性以及像人类一样与用户建立联系的能力。这款音箱集成了可自主移动的机械元件，营造出一种它是有生命的、而非仅仅是对命令做出反应的物体的感觉。该设备还将利用电子邮件等个人信息来更好地了解其主人。&lt;/p&gt;
 &lt;p&gt;目标是让这款设备感觉像是一位伴侣，并成为OpenAI的ChatGPT的物理化身。不过，随着公司推进开发和法律程序，具体计划可能会有变化。[...]&lt;/p&gt;
@@ -23,18 +41,4 @@
 &lt;/blockquote&gt;
 &lt;p&gt;阻止欺诈性和掠夺性广告进入苹果地图的最简单方法，你知道，就是&lt;a href="https://daringfireball.net/2026/07/ternus_apple_slippery_slope"&gt;不在苹果地图中销售广告&lt;/a&gt;。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/07/15/apple-maps-ad-rules" title="‘苹果更新广告服务政策，为地图广告制定新规则’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Wed, 15 Jul 2026 22:48:20 +0000</pubDate></item><item><title>苹果智能获准在中国推出，使用百度与阿里巴巴的AI模型。</title><link>https://www.scmp.com/tech/policy/article/3360685/china-approves-apple-intelligence-phones-alibaba-baidu-emerging-partners</link><description>&lt;p&gt;Ben Jiang 从北京为《南华早报》报道：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;中国监管机构已授予苹果公司一项期待已久的许可证，允许其在中国境内的iPhone上推出人工智能服务，阿里巴巴集团控股和百度将作为技术合作伙伴。&lt;/p&gt;
-&lt;p&gt;中国国家互联网信息办公室（CAC），即中国的互联网监管机构，于周三发布公告，确认了苹果智能（Apple Intelligence）的许可证——该AI功能用于摘要电子邮件、起草报告、编辑图像以及执行其他任务。该许可证与其他六项基于智能手机的AI服务一同获批，包括针对三星和华为技术的服务。&lt;/p&gt;
-&lt;p&gt;阿里巴巴一位代表周三告诉《南华早报》，其Qwen大语言模型将“在中国用户的iOS、iPadOS、macOS和visionOS系统中集成到苹果智能体验中”。该代表表示，这将使用户能够访问该模型的文本和图像生成等功能。阿里巴巴拥有《南华早报》。&lt;/p&gt;
-&lt;p&gt;百度一位代表周三也告诉《南华早报》，该公司正与苹果合作，为中国市场的苹果智能开发AI功能。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这并非关于上个月在WWDC上为iOS 27宣布的Siri AI——这是对两年前宣布并在iOS 18中推出的苹果智能的初步批准。在今天的任何&lt;a href="https://www.techmeme.com/260715/p12#a260715p12"&gt;报道&lt;/a&gt;中都不清楚这是否也是今年Siri AI的绿灯。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/07/15/apple-intelligence-china-baidu-alibaba" title="永久链接：‘苹果智能获准在中国推出，使用百度和阿里巴巴的AI模型’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Wed, 15 Jul 2026 22:35:18 +0000</pubDate></item><item><title>[赞助商] 论文</title><link>https://paper.design/?utm_source=df</link><description>&lt;p&gt;Paper是一个专业设计工具，其中每一层都是真实的HTML和CSS。你的设计已经是代码，这意味着在设计内容和最终交付物之间的交接和转换更少。&lt;/p&gt;
-&lt;p&gt;Paper是双向的：从代码到设计，以及从设计到代码。通过MCP连接任何代理，它都可以读取和编辑你的设计。或者使用Paper Snapshot将你的实时网站捕获为可编辑的图层，并进行新的迭代。&lt;/p&gt;
-&lt;p&gt;代理处理繁琐的工作，这样你就可以专注于你的技艺和重要的决策。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://paper.design?utm_source=df"&gt;在paper.design上试用Paper&lt;/a&gt;。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/feeds/sponsors/2026/07/paper" title="‘Paper’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Tue, 14 Jul 2026 05:02:00 +0000</pubDate></item></channel></rss>
+</description><pubDate>Wed, 15 Jul 2026 22:48:20 +0000</pubDate></item></channel></rss>
