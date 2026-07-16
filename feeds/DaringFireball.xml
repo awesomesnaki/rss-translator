@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Wed, 15 Jul 2026 22:52:22 +0000</lastBuildDate><item><title>Eric Seufert: ‘苹果刚刚暗示了苹果广告的第三方扩展吗？’</title><link>https://mobiledevmemo.com/did-apple-just-signal-a-third-party-expansion-of-apple-ads/</link><description>&lt;p&gt;Eric Seufert, Mobile Dev Memo:&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Wed, 15 Jul 2026 23:02:54 +0000</lastBuildDate><item><title>古尔曼谈OpenAI即将推出的硬件产品：“可移动无屏音箱，打造为AI伴侣”</title><link>https://www.bloomberg.com/news/articles/2026-07-14/openai-s-first-device-will-be-moveable-screenless-speaker-built-as-ai-companion?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4NDA2MjAxMywiZXhwIjoxNzg0NjY2ODEzLCJhcnRpY2xlSWQiOiJUSTYwSllUOU5KTFMwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.DfRN0afk0TFIaHFw9zEKYjehnfMsZfKC7gPoVos8WPI&amp;leadSource=article-gifting</link><description>&lt;p&gt;彭博社的马克·古尔曼报道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;OpenAI认为，这款产品的核心特色将是它的个性以及像人类一样与用户建立联系的能力。这款音箱集成了可自主移动的机械元件，营造出一种它是有生命的、而非仅仅是对命令做出反应的物体的感觉。该设备还将利用电子邮件等个人信息来更好地了解其主人。&lt;/p&gt;
+&lt;p&gt;目标是让这款设备感觉像是一位伴侣，并成为OpenAI的ChatGPT的物理化身。不过，随着公司推进开发和法律程序，具体计划可能会有变化。[...]&lt;/p&gt;
+&lt;p&gt;另一个关键区别是，该设备配备了一块可充电电池，使其可以在一天内从一间屋子带到另一间屋子。用户可以在做家务时把它带到洗衣房，移动到厨房辅助烹饪，之后放在客厅或卧室里播放音乐。如果用户愿意，它也可以一直插电固定在一个房间里。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这个描述对我来说一点也不吸引人。如果它能移动，那它应该能自主移动。在我看来，《星球大战》风格的机器人是终极形态。但这很雄心勃勃。我认为无论是人工智能还是机器人技术都还没达到那个水平。但如果它不能自行移动，那它应该是可穿戴的，而不是可提携的。&lt;/p&gt;
+&lt;p&gt;没有人想要一个需要费劲搬来搬去的伴侣。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/07/15/gurman-io-product" title="永久链接至‘古尔曼谈OpenAI即将推出的硬件产品：可移动的无屏幕音箱，作为AI伴侣打造’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Wed, 15 Jul 2026 23:02:54 +0000</pubDate></item><item><title>Eric Seufert: ‘苹果刚刚暗示了苹果广告的第三方扩展吗？’</title><link>https://mobiledevmemo.com/did-apple-just-signal-a-third-party-expansion-of-apple-ads/</link><description>&lt;p&gt;Eric Seufert, Mobile Dev Memo:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;新语言可能只是为了让苹果自有服务能够在网页上以及通过第三方设备和操作系统上使用；例如，Apple TV 应用在智能电视、流媒体设备和游戏主机上均可使用。但“其他资产”的加入明显过于宽泛，似乎赋予了苹果在完全超出其自有服务的范围内分发广告的合同自由度。这将使得公司广告覆盖面积实现实质性扩张。&lt;/p&gt;
 &lt;p&gt;此外，如果苹果确实计划将 Apple Ads 扩展到第三方平台，那么这就能解释为何该公司在今年的 WWDC 上&lt;a href="https://mobiledevmemo.com/wwdc-2026-implications-for-the-app-economy/"&gt;没有透露更新&lt;/a&gt;其 AdAttributionKit（AAK，前身为 SKAdNetwork 或 SKAN）归因框架。&lt;/p&gt;
@@ -28,25 +37,4 @@
 &lt;p&gt;代理处理繁琐的工作，这样你就可以专注于你的技艺和重要的决策。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://paper.design?utm_source=df"&gt;在paper.design上试用Paper&lt;/a&gt;。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/feeds/sponsors/2026/07/paper" title="‘Paper’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Tue, 14 Jul 2026 05:02:00 +0000</pubDate></item><item><title>还记得马斯克指控苹果与OpenAI合谋的诉讼吗？</title><link>https://arstechnica.com/tech-policy/2025/08/elon-musk-sues-apple-openai-to-block-exclusive-iphone-chatgpt-integration/</link><description>&lt;p&gt;阿什利·贝朗热（Ashley Belanger）于2025年8月为Ars Technica报道：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;在&lt;a href="https://arstechnica.com/tech-policy/2025/08/apple-gets-yanked-into-elon-musks-chatbot-war-with-openai/"&gt;因Grok在App Store排名而公开爆发&lt;/a&gt;后，周一，埃隆·马斯克（Elon Musk）兑现了他的威胁，起诉了苹果（Apple）和OpenAI。&lt;/p&gt;
-&lt;p&gt;起初，马斯克似乎执着于ChatGPT持续占据苹果"必备应用"榜单的榜首——而Grok从未上榜——他声称苹果似乎偏袒其合作伙伴OpenAI，而非所有聊天机器人竞争对手。但马斯克的&lt;a href="https://cdn.arstechnica.net/wp-content/uploads/2025/08/X-Corp-v-Apple-8-25-25-Complaint.pdf"&gt;诉状&lt;/a&gt;显示，这位X和xAI的所有者不仅仅是想推动Grok在iPhone上的下载量——他担心苹果和OpenAI联手彻底粉碎了他的&lt;a href="https://arstechnica.com/tech-policy/2024/03/elon-musks-improbable-path-to-making-x-an-everything-app/"&gt;"万能应用"梦想&lt;/a&gt;，而这正是他&lt;a href="https://arstechnica.com/tech-policy/2023/03/fast-moving-musk-makes-very-slow-progress-turning-twitter-into-everything-app/"&gt;收购Twitter的原因&lt;/a&gt;。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;无论如何，我刚刚查看了App Store中&lt;a href="https://daringfireball.net/misc/2026/06/app-store-popular-list-2026-07-13.png"&gt;编辑精心策划的"热门iPhone应用"列表&lt;/a&gt;，ChatGPT位居榜首。考虑到&lt;a href="https://daringfireball.net/linked/2026/07/10/apple-sues-openai"&gt;苹果上周对OpenAI提起的诉讼&lt;/a&gt;，我认为这是一个很好的轶事证据，表明这些App Store的编辑决策并非由偏袒驱动。目前免费iPhone应用下载量排名前十的列表如下（对我所在的美国App Store而言）：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Paramount+&lt;/li&gt;
-&lt;li&gt;Netflix Game Controller&lt;/li&gt;
-&lt;li&gt;ChatGPT&lt;/li&gt;
-&lt;li&gt;Kalshi: Trade the World Cup&lt;/li&gt;
-&lt;li&gt;Peacock TV: Stream TV &amp;amp; Movies&lt;/li&gt;
-&lt;li&gt;Netshort - Popular Dramas &amp;amp; TV&lt;/li&gt;
-&lt;li&gt;Threads&lt;/li&gt;
-&lt;li&gt;TikTok Pro - Events&lt;/li&gt;
-&lt;li&gt;Freecash - Get Paid Real Money&lt;/li&gt;
-&lt;li&gt;Depop - Buy &amp;amp; Sell Clothes&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;这个列表里有一些真正的赢家。但只有一款AI应用：ChatGPT。&lt;/p&gt;
-&lt;p&gt;马斯克声称下载量排行榜也存在不公。这不过是投射心理。如果马斯克运营一个热门App Store，他一定会暗中操纵，确保自己的应用总是位列榜首。这正是他在Twitter/X上对&lt;a href="https://daringfireball.net/linked/2026/06/05/musk-x-freak-show"&gt;他的个人账户&lt;/a&gt;以及与他的政治立场一致的账户所做的。因为这就是他会做的事，他认为苹果也在做同样的事。我真的认为他相信App Store的下载量排行榜是被人为操控的，而Grok恰恰站在了这种操控的对立面。骗子认为所有人都是骗子。这只是马斯克思维不正常的几种表现之一。&lt;/p&gt;&lt;p&gt;我怀疑，不过，&lt;a href="https://daringfireball.net/linked/2026/07/12/altman-musk"&gt;他不再担心&lt;/a&gt;苹果会偏向OpenAI。也许他应该&lt;em&gt;别管&lt;/em&gt;这起诉讼了。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/07/13/musk-v-apple" title="Permanent link to ‘Remember Musk’s Suit Alleging a Conspiracy Between Apple and OpenAI?’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 13 Jul 2026 15:24:53 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 14 Jul 2026 05:02:00 +0000</pubDate></item></channel></rss>
