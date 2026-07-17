@@ -34,16 +34,51 @@ def load_config():
     with open('config.yaml', 'r', encoding='utf-8') as f:
         return yaml.safe_load(f)
 
+# 翻译缓存淘汰：条目最后一次被命中/写入后超过这么多天未再使用即删除。
+# 缓存曾涨到 100MB 撞上 GitHub 单文件限制导致 push 被拒，必须只保留活跃窗口内的条目。
+# 正常情况下 feed 窗口内的条目每 2 小时都会命中一次，30 天足够容忍源站长时间抓取失败。
+CACHE_RETENTION_DAYS = 30
+
+class TranslationCache:
+    """dict 式翻译缓存，记录每个 key 的最后使用日期，保存时淘汰过期条目。
+
+    新格式：{key: {"v": 译文, "t": "YYYY-MM-DD"}}；旧格式（值为字符串）加载时
+    视为日期未知，本次运行未命中即在保存时被清掉，实现一次性瘦身。
+    """
+
+    def __init__(self, data):
+        self._store = {}
+        for k, v in (data or {}).items():
+            if isinstance(v, dict) and 'v' in v:
+                self._store[k] = [v['v'], v.get('t', '')]
+            else:
+                self._store[k] = [v, '']
+
+    def __contains__(self, key):
+        return key in self._store
+
+    def __getitem__(self, key):
+        entry = self._store[key]
+        entry[1] = date.today().isoformat()
+        return entry[0]
+
+    def __setitem__(self, key, value):
+        self._store[key] = [value, date.today().isoformat()]
+
+    def to_json(self):
+        cutoff = (date.today() - timedelta(days=CACHE_RETENTION_DAYS)).isoformat()
+        return {k: {'v': v, 't': t} for k, (v, t) in self._store.items() if t >= cutoff}
+
 def load_cache():
     cache_file = Path('cache.json')
     if cache_file.exists():
         with open(cache_file, 'r', encoding='utf-8') as f:
-            return json.load(f)
-    return {}
+            return TranslationCache(json.load(f))
+    return TranslationCache({})
 
 def save_cache(cache):
     with open('cache.json', 'w', encoding='utf-8') as f:
-        json.dump(cache, f, ensure_ascii=False, indent=2)
+        json.dump(cache.to_json(), f, ensure_ascii=False, separators=(',', ':'))
 
 def get_hash(text):
     return hashlib.md5(text.encode()).hexdigest()
