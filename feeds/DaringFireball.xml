@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Fri, 17 Jul 2026 02:01:37 +0000</lastBuildDate><item><title>欧盟委员会在便携式电池拆卸规定中为手表和耳塞增加豁免</title><link>https://environment.ec.europa.eu/news/commission-adds-exemptions-portable-battery-removal-rules-2026-07-14_en</link><description>&lt;p&gt;欧洲委员会：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Fri, 17 Jul 2026 17:05:20 +0000</lastBuildDate><item><title>ArtfulType: 适用于68K Macintosh的Markdown写作应用</title><link>https://github.com/ActionRetro/ArtfulType</link><description>&lt;p&gt;肖恩·马尔西德（Sean Malseed）——YouTube上的“Action Retro”频道——为最初的Macintosh创作了一款Markdown编辑器。&lt;a href="https://github.com/ActionRetro/ArtfulType"&gt;GitHub上的源代码&lt;/a&gt;；&lt;a href="https://youtu.be/HEheu_r9UGw?is=LZ_HTonXROFGnYcS"&gt;YouTube上的介绍视频&lt;/a&gt;。它用C语言编写，而非Pascal，并使用基于现代&lt;a href="https://github.com/autc04/Retro68"&gt;Retro68&lt;/a&gt; GCC的编译器。&lt;/p&gt;
+&lt;p&gt;我非常喜欢这款应用的存在。但我完全不欣赏它实际的应用表现。我猜“全屏”模式是一些“无干扰”编辑器的卖点，但对于我来说，我绝不会多看一个不使用窗口的Mac应用第二眼。在那个年代，除了游戏，全屏模式根本不存在。ArtfulType并不是一款有1984年Mac风味的应用。&lt;/p&gt;
+&lt;p&gt;如果我想在经典Mac上使用Markdown写作，我会用BBEdit——这是我最初为Markdown创作所使用的那款应用。也是&lt;a href="https://www.barebones.com/products/bbedit/"&gt;其中一款&lt;/a&gt;、&lt;a href="https://redsweater.com/marsedit/"&gt;两款之一&lt;/a&gt;至今我仍在主要使用的应用。但BBEdit无法在最初的128 KB Macintosh上运行，因为Rich Siegel直到1989年才创建它，最早的公开版本是1992年的&lt;a href="https://daringfireball.net/misc/2026/06/bbedit-2.1.3.png"&gt;BBEdit 2&lt;/a&gt;。BBEdit 2.1.3确实能在&lt;a href="https://infinitemac.org/1987/System%205.0"&gt;Infinite Mac上的System 5&lt;/a&gt;中运行，但在&lt;a href="https://infinitemac.org/1986/System%203.0"&gt;System 3&lt;/a&gt;上启动会崩溃。我百分之百理解使用1980年代复古Mac的吸引力，但我不理解使用一台连System 6都无法运行的Mac的吸引力。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/07/17/artfultype" title="永久链接至‘ArtfulType：面向68K Macintosh的Markdown写作应用’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Fri, 17 Jul 2026 17:05:20 +0000</pubDate></item><item><title>快乐的iCal日</title><link>https://www.threads.com/@joannastern/post/Da5rgIvjrLM</link><description>&lt;p&gt;Joanna Stern 解释为何今天这个表情符号是正确的：📅。（这个也是：📆）&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/07/17/happy-ical-day" title="永久链接到‘Happy iCal Day’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Fri, 17 Jul 2026 16:55:59 +0000</pubDate></item><item><title>Google和Epic停止争斗——第三方Android应用商店下周即将到来</title><link>https://www.theverge.com/policy/965792/google-epic-withdraw-injunction-third-party-app-stores-coming-google-play?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IkZpdmhlVXFoV0giLCJwIjoiL3BvbGljeS85NjU3OTIvZ29vZ2xlLWVwaWMtd2l0aGRyYXctaW5qdW5jdGlvbi10aGlyZC1wYXJ0eS1hcHAtc3RvcmVzLWNvbWluZy1nb29nbGUtcGxheSIsImV4cCI6MTc4NDczNTA1NSwiaWF0IjoxNzg0MzAzMDU1fQ.zPHCDeRVkCOK73sdt6bKC2evAofTI582EsJ0N-rk79g</link><description>&lt;p&gt;肖恩·霍利斯特（Sean Hollister）为The Verge（赠阅链接）报道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;以下是谷歌就撤销对多纳托法官永久禁令所提议修改方案的完整声明，由谷歌发言人丹·杰克逊（Dan Jackson）提供：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我们已与Epic达成一致，撤回我们修改美国法院禁令的动议，而非延长这一为生态系统带来不确定性的过程。这使我们能够专注于执行我们&lt;a href="https://android-developers.googleblog.com/2026/03/a-new-era-for-choice-and-openness.html"&gt;近期宣布的&lt;/a&gt;全球商业模式演进，为开发者与用户提供更丰富的应用商店选择、更低的价格以及更多机会。我们仍致力于维护安卓行业领先的安全性，并培育一个每个应用商店和开发者都能自由竞争的生态系统。与此同时，我们将继续遵守美国法院的禁令。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;谷歌此前已宣布，将在全球其他地区推出侧载注册应用商店计划，从今年晚些时候的新版安卓系统开始。这意味着安卓可能将出现两条不同的轨道：在美国是“店中店”模式，在其他地区则是注册应用商店。&lt;/p&gt;
+&lt;p&gt;谷歌&lt;a href="https://support.google.com/googleplay/android-developer/answer/17187609?hl=en&amp;amp;ref_topic=15819563&amp;amp;sjid=17922790483947429196-NC"&gt;已通知美国应用开发者&lt;/a&gt;，从7月22日起，除非他们选择退出，否则其应用和游戏列表将自动提供给第三方应用商店。此外，谷歌还&lt;a href="https://support.google.com/googleplay/android-developer/answer/17117200?hl=en"&gt;为第三方应用商店开设了“Play目录访问计划”的专门页面&lt;/a&gt;，供其注册加入。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我猜测，谷歌与Epic之间的这项新协议，是否包括废除那位原则性极强的&lt;a href="https://daringfireball.net/linked/2026/03/06/sweeney-google-gag"&gt;蒂姆·斯威尼（Tim Sweeney）&lt;/a&gt;在3月份为换取8亿美元而同意接受的“不得批评Play商店”的封口令？&lt;/p&gt;
+&lt;p&gt;无论如何，开发者们将作何反应，这很值得关注。我猜测所有大型应用开发者都会选择退出。不过，游戏开发商可能未必如此？&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/07/17/google-third-party-android-app-stores" title="永久链接：“谷歌与Epic放弃争斗——第三方安卓应用商店下周到来”"&gt; ★ &lt;/a&gt;
+</description><pubDate>Fri, 17 Jul 2026 15:53:16 +0000</pubDate></item><item><title>欧盟委员会在便携式电池拆卸规定中为手表和耳塞增加豁免</title><link>https://environment.ec.europa.eu/news/commission-adds-exemptions-portable-battery-removal-rules-2026-07-14_en</link><description>&lt;p&gt;欧洲委员会：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;欧洲委员会今天（7月14日）通过了一项&lt;a href="https://environment.ec.europa.eu/publications/delegated-regulation-removability-and-replaceability-portable-batteries_en"&gt;授权法案&lt;/a&gt;，推出新规定，豁免部分产品符合欧盟关于便携电池可拆卸和可更换的要求。&lt;/p&gt;
 &lt;p&gt;根据欧盟的&lt;a href="https://eur-lex.europa.eu/eli/reg/2023/1542/oj"&gt;电池法规&lt;/a&gt;，在欧盟销售的产品中的便携电池通常必须可由消费者拆卸和更换。这有助于通过允许更换电池来延长产品寿命，并通过更易于收集废旧电池来支持回收。[...]&lt;/p&gt;
@@ -19,30 +37,4 @@
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;a href="https://daringfireball.net/linked/2026/03/20/quiche-browser"&gt;我几个月前写过关于Quiche浏览器&lt;/a&gt;的文章，称赞其内置的JavaScript切换开关（以及其他众多功能和方面）。这是另一个杀手级功能。传统的无AI网页搜索是一个极好的默认设置。将其作为可选功能，如果你需要的话再开启，这才是正确的做法。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/07/16/quiche-browser-now-defaults-to-no-ai-web-search-results" title="‘Quiche浏览器现已默认使用无AI网页搜索结果’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Fri, 17 Jul 2026 00:17:35 +0000</pubDate></item><item><title>犹豫不决：‘苹果起诉OpenAI’</title><link>https://dithering.passport.online/member/episode/apple-sues-open-ai</link><description>&lt;p&gt;&lt;a href="https://dithering.fm/"&gt;
-&lt;img alt="Cover art for Dithering in July 2026. Two young women jumping and frolicking in the summer." referrerpolicy="no-referrer" src="https://daringfireball.net/misc/2026/06/dithering-cover-jul-2026.jpg"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;周二播出的《踌躇》节目质量很高，尤其适合DF的听众，因此我们已将其从付费墙中移出，并&lt;a href="https://dithering.passport.online/member/episode/apple-sues-open-ai"&gt;在网站上免费提供收听&lt;/a&gt;。（遗憾的是，我们目前（还？）没有RSS订阅源，供您将这些偶尔的免费节目添加到播客播放器中。）关于苹果对OpenAI的诉讼，我的看法与其他地方表达的略有不同。&lt;/p&gt;
-&lt;p&gt;如果您尚未订阅《踌躇》，也许应该考虑订阅。每周两期，每期15分钟，不多不少。每月7美元或每年70美元——或者，也可通过Stratechery Plus套餐一并获取。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/07/16/dithering-apple-sues-openai" title="《踌躇：苹果起诉OpenAI》的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Thu, 16 Jul 2026 23:28:09 +0000</pubDate></item><item><title>OpenAI再次尝试回应苹果的商业秘密盗窃诉讼</title><link>https://www.bloomberg.com/news/articles/2026-07-14/openai-says-it-s-not-aware-of-any-evidence-that-apple-lawsuit-has-merit</link><description>&lt;p&gt;OpenAI本周在给彭博社的一份声明中表示：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“虽然我们严肃对待这些指控，但我们并不知晓任何证据能证明这份投诉有法律依据。我们相信公平竞争，并允许人们自由选择工作地点，我们专注于构建能够赋能全球各地人民的创新技术。”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;“我们并不知晓任何证据能证明这份投诉有法律依据”与“这份投诉毫无法律依据”截然不同。&lt;a href="https://daringfireball.net/linked/2026/07/10/openai-pusateri-statement"&gt;同样&lt;/a&gt;，这是一个耐人寻味的回应。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/07/16/openai-takes-a-second-crack" title="永久链接至‘OpenAI对苹果商业秘密盗窃诉讼的再次回应’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Thu, 16 Jul 2026 19:44:47 +0000</pubDate></item><item><title>苹果的律师搞混了两名OpenAI员工的名字，在二月份把一封邮件发给了错误的人。</title><link>https://www.nbcnews.com/tech/apple/apple-openai-lawsuit-suit-trade-product-hardware-email-sam-altman-rcna587376</link><description>&lt;p&gt;戴维·英格拉姆为NBC新闻（近日增设付费墙且不带赠阅链接，唉）撰文报道：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;苹果公司上周在诉讼中指控OpenAI“从未回应”其今年提出的有关苹果认为的商业机密窃取问题。但NBC新闻查阅的邮件显示，事实并非如此：OpenAI确实在2月份回应了苹果的初次联系。沟通陷入僵局，据OpenAI称，在苹果委托的外部律师混淆了两位分别姓王和姓张的OpenAI员工的姓名和邮箱地址后，沟通突然中断。&lt;/p&gt;
-&lt;p&gt;邮件显示，苹果委托律所韦尔高夏曼格斯的律师加布里埃尔·格罗斯本意是给一位姓王的OpenAI员工发邮件，却误发给了另一位姓张的员工，并混淆了双方的沟通内容。格罗斯次日为自己的错误道歉，但此举似乎惹恼了OpenAI的总法律顾问，后者要求苹果从该事务中撤换这位外部律师。苹果拒绝了。[...]&lt;/p&gt;
-&lt;p&gt;到了次日早上（周二），格罗斯意识到错误，给张写了第三封邮件。他说自己本打算把第二封邮件发给那位曾为苹果工作、现已跳槽OpenAI的前员工。&lt;/p&gt;
-&lt;p&gt;“昨天我们给王先生发邮件讨论保留苹果信息一事，他立即回电并愿意配合苹果解决问题。我本打算再给他发邮件，却不小心回复了与你的邮件往来。造成了困惑，我深表歉意，”格罗斯写道。&lt;/p&gt;
-&lt;p&gt;OpenAI发言人普萨泰里称，基于这封邮件，张认为问题已解决，便没有回复。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;混淆两个押韵的姓氏，把本想发给一个人的邮件错发给另一个人，确实有点尴尬，但我不觉得这有什么大不了的。而且我完全看不出这如何反驳苹果的说法——OpenAI并未回复苹果2月份那封阐述初步指控的信函。双方的往来大致如下（概括性转述）：&lt;/p&gt;
-&lt;p&gt;苹果律师：&lt;em&gt;这里有一封信和三份附件，阐述我们对OpenAI商业机密违规行为的指控。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;苹果律师（对错收件人）：&lt;em&gt;感谢来电。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;尚未回复的OpenAI律师：&lt;em&gt;搞什么？我从来没给他打过电话。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;苹果律师：&lt;em&gt;抱歉，第二封邮件不是给你的，我搞错了。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;然后从那一刻起，我们就要相信OpenAI律师以为整件事已经解决了？这完全说不通。如果这就是OpenAI的辩解，那他们的麻烦比我想象的还大。而且NBC新闻为什么会认为这有任何开脱作用？&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/07/16/apple-lawyer-name-mixup" title="永久链接：‘苹果律师搞混两名OpenAI员工名字，2月份发错邮件给另一个人’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Thu, 16 Jul 2026 19:34:13 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 17 Jul 2026 00:17:35 +0000</pubDate></item></channel></rss>
