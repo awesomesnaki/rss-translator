@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sat, 18 Jul 2026 04:26:26 +0000</lastBuildDate><item><title>[安全预警] 内容管理系统WordPress出现高危远程代码执行漏洞 请立即升级</title><link>https://www.landian.news/archives/113967.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sat, 18 Jul 2026 05:00:11 +0000</lastBuildDate><item><title>Cloudflare已紧急部署云端WAF规则 拦截针对WordPress高危远程执行代码漏洞的攻击</title><link>https://www.landian.news/archives/113968.html</link><description>
+&lt;p&gt;#安全资讯 Cloudflare 已紧急部署云端 WAF 规则拦截针对 WordPress 高危远程代码执行漏洞和 SQL 注入漏洞的攻击。相关规则完全免费提供，使用 Cloudflare Free 的网站将自动启用这些规则，使用 Pro 或企业版的用户请转到后台检查规则是否启用 (可能需要管理员批准后才能启用)。查看全文：https://ourl.co/113968&lt;/p&gt;&lt;p&gt;网络服务提供商 Cloudflare 日前发布博客宣布增加紧急 WAF 规则用来拦截 wp2shell 漏洞攻击，该漏洞指的是知名内容管理系统 WordPress 核心代码中出现的远程代码执行漏洞，攻击者可以在无需身份验证的情况下获取网站和数据库管理权限，这可能会造成严重安全风险。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113968.png" rel="nofollow"&gt;&lt;img alt="Cloudflare已紧急部署云端WAF规则 拦截针对WordPress高危远程执行代码漏洞的攻击" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113968.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;安全公司将漏洞通报给 WordPress 后，WordPress 团队已经发布多个紧急发布 6.9.x、6.8.x、7.0.x、7.1.x 分支版本用于修复漏洞，考虑到这次漏洞的危害性极高，WordPress 团队使用自动推送升级网站使用的 WP 核心版本。&lt;/p&gt;
+&lt;p&gt;但考虑到兼容性问题，WordPress 只会在分支版本内执行小版本升级，例如 6.8.x 不会被直接更新到 7.1.x 系列，使用 WordPress 的开发者、站长、博主请转到后台检查版本更新。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; Cloudflare 紧急部署 WAF 规则拦截攻击：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Cloudflare 也接到来自 WordPress 团队的安全通报，所以 Cloudflare 直接在防火墙规则里新增两项规则用来拦截 WordPress REST API 中未经身份验证的远程代码执行漏洞和 SQL 注入漏洞，这些规则将针对免费用户自动生效，付费用户请管理员自行在后台检查相关规则是否启用。&lt;/p&gt;
+&lt;p&gt;因此托管在 Cloudflare 的 WordPress 网站将可以通过免费 WAF 规则自动缓解攻击，但更稳妥的办法依然是升级到不受影响的新版本，这样可以彻底解决安全漏洞。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;新增规则集 1：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;规则说明：CVE-2026-63030 WordPress RCE 漏洞&lt;/li&gt;
+&lt;li&gt;托管规则集 ID：7dfb2bd4708d4b88b9911dc0550664b6&lt;/li&gt;
+&lt;li&gt;免费规则集 ID：ebd3f2df15c74ddcbf6220c9b5ec246a&lt;/li&gt;
+&lt;li&gt;默认动作：阻止 (即检测到相关利用直接拦截)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;新增规则集 2：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;规则说明：CVE-2026-60137 WordPress SQL 注入&lt;/li&gt;
+&lt;li&gt;托管规则集 ID：1c060d3a371549219ee290d7ed933fcc&lt;/li&gt;
+&lt;li&gt;免费规则集 ID：db003b39b7774859a8d588ce33697a1a&lt;/li&gt;
+&lt;li&gt;默认动作：阻止 (即检测到相关利用直接拦截)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;via &lt;a href="https://www.landian.news/go?url=https://blog.cloudflare.com/wordpress-vulnerabilities/" rel="noopener" target="_blank"&gt;Cloudflare&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sat, 18 Jul 2026 05:00:11 +0000</pubDate></item><item><title>[安全预警] 内容管理系统WordPress出现高危远程代码执行漏洞 请立即升级</title><link>https://www.landian.news/archives/113967.html</link><description>
 &lt;p&gt;#安全资讯 [紧急安全预警] 知名内容管理系统 / 博客系统 WordPress 出现高危安全漏洞，请务必立即升级到 7.0.2 或更高版本。攻击者利用该漏洞可以获得网站和数据库访问权限，全球有数千万个使用 WP 搭建的网站，这次漏洞可能会引起严重的安全风暴。查看全文：https://ourl.co/113967&lt;/p&gt;&lt;p&gt;网络安全公司 Searchlight Cyber 在知名内容管理系统 WordPress 核心代码中发现无需身份验证的远程代码执行漏洞，该攻击不需要任何前置条件，任何未经授权的用户可以在默认系统配置中利用此漏洞执行任意代码，最终可以获得网站和数据库访问权限。&lt;/p&gt;
 &lt;p&gt;&lt;img decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113967.png"/&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -48,16 +74,4 @@
 &lt;p&gt;例如 NotebookLM 最初叫 Project Tailwind，之后更名为 NotebookLM，现在更名为 Gemini Notebook。Bard 上线后不久被更名为 Gemini。从谷歌角度来说将 AI 产品放到 Gemini 品牌下确实有意义，Gemini 既是模型品牌，也是聊天助手、订阅服务等等，继续保留太多独立名称确实会让产品线更混乱。&lt;/p&gt;
 &lt;p&gt;但从用户角度来说，频繁改名也会带来额外成本，用户刚记住 NotebookLM 是个基于资料的 AI 笔记工具，现在又要理解 Gemini Notebook 和 Gemini App、Google AI 订阅、Workspace 版 Gemini 之间的关系，也就是用户学习和理解起来更麻烦。&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 17 Jul 2026 03:34:29 +0000</pubDate></item><item><title>为避免误删文件 Codex新版本建议用户不要启用完全访问 GPT-5.6 Sol禁止完全访问</title><link>https://www.landian.news/archives/113963.html</link><description>
-&lt;p&gt;#人工智能 降低误删用户文件风险：Codex 新版本会强烈建议用户不要开完全访问。如果使用 GPT-5.6 Sol + 极高模式则不允许使用完全访问权限，也就是最高只能设置替我审批模式。这虽然可以降低误删文件的风险，但也会导致模型操作效率和落地效果变差，或许 Codex 还是应该给开发者自主选择权。查看全文：https://ourl.co/113963&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/113958.html" rel="noopener" target="_blank"&gt;近期有部分用户在 Codex 中使用 GPT-5.6 Sol 时出现模型误删用户文件的情况&lt;/a&gt;，Codex 技术经理蒂博在昨天发布的消息中也解释问题发生原因，主要是模型尝试自定义和覆盖 $HOME 目录，如果成功操作则用户主目录中的文件可能全部会被删除。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;目前 Codex 有多种审批模式，默认情况下模型进行命令操作时需要用户审阅并批准，但频繁弹出批准多少有些烦人，所以 Codex 也提供替我审批选项，该选项使用 Codex-Auto-Review 对模型发起的请求进行审核，如果是低危操作则可以通过审核，高危操作会被自动拒绝。&lt;/p&gt;
-&lt;p&gt;而完全访问权限是全授权状态，即模型执行任何操作都被允许，发生删除文件的情况主要就是使用完全访问权限，这种模式下 Codex 和模型拥有的权限太高，因此即便模型犯错也可以继续执行命令，这有可能会删除文件或破坏项目等。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113963-1A.png" rel="nofollow"&gt;&lt;img alt="为避免误删文件 Codex新版本建议用户不要启用完全访问 GPT-5.6 Sol禁止完全访问" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113963-1A.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113963-2.png" rel="nofollow"&gt;&lt;img alt="为避免误删文件 Codex新版本建议用户不要启用完全访问 GPT-5.6 Sol禁止完全访问" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113963-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;为降低误删用户文件的概率，ChatGPT/Codex 新版本已经对授权机制进行优化，其中若用户尝试切换到完全访问权限时，Codex 会弹出提醒建议用户谨慎使用，甚至还会单独弹窗提醒完全访问权限下 Codex 可以获得的权限、可能存在的安全风险等。&lt;/p&gt;
-&lt;p&gt;但以上只是提醒，用户可以忽略并继续在线程对话中启用完全访问权限，如果用户使用 GPT-5.6 Sol + 极高模式就有可能无法启用完全访问权限，蓝点网测试目前我们的账号更新到最新版还可以在极高模式下使用完全访问，但在 X 上诸多开发者抱怨无法开启完全访问，最多只能替我审批。&lt;/p&gt;
-&lt;p&gt;这种方式倒是可以降低潜在的风险，只不过替我审批模式中很多高危命令会被拒绝，但如果支持这些高危命令那模型操作效率和落地效果可能会更好，说起来 Codex 或许还是应该给开发者自主选择权，而不是直接禁止开发者切换到完全访问。&lt;/p&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 17 Jul 2026 03:00:55 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 17 Jul 2026 03:34:29 +0000</pubDate></item></channel></rss>
