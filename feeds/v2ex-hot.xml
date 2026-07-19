@@ -10,7 +10,7 @@
 ZeroTier 或 WireGuard 好用吗？&lt;/p&gt;
 &lt;p&gt;提前感谢各位大佬！&lt;/p&gt;
 &lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-07-19 14:51:23 +08:00"&gt;2h 51m ago&lt;/span&gt;
+Supplement 1  ·  &lt;span title="2026-07-19 14:51:23 +08:00"&gt;4h 15m ago&lt;/span&gt;
 &lt;p&gt;&lt;strong&gt;补充&lt;/strong&gt;: &lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;em&gt;&lt;strong&gt;在美国使用中国网络访问淘宝等网站&lt;/strong&gt;&lt;/em&gt;&lt;/li&gt;
@@ -48,7 +48,11 @@ Supplement 1  ·  &lt;span title="2026-07-19 14:51:23 +08:00"&gt;2h 51m ago&lt
 &lt;p&gt;&lt;strong&gt;#20 qqqyh&lt;/strong&gt;：两个局域网均有公网 IP ，这不是 S2S VPN 的应用场景吗？&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#21 ajyz&lt;/strong&gt;：买个机场中转就不错，不然相当于直连，稳定性堪忧&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#22 mooyo&lt;/strong&gt;：流量不大的话搞个按流量计费的专线 VPS ，跑 wireguard 就行了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#23 laminux29&lt;/strong&gt;：正确的落地方案应该是：&lt;br/&gt;&lt;br/&gt;1.在中国通过美国网络访问 Google 、ChatGPT 等：&lt;br/&gt;买搬瓦工的 CN2 GIA VPS ，这样就有独享的美国 IPv4 。需要开 IPv4 白名单 + fail2ban + 至少 16 位强密码，然后在国内使用 SSH 反向隧道访问，才是正解。速度快，周五晚高峰不丢包，全年稳定。&lt;br/&gt;&lt;br/&gt;2.在美国使用中国网络访问淘宝等网站：&lt;br/&gt;买个阿里云的 Windows VPS ，开远程桌面 + IPv4 白名单 + wail2ban + 至少 16 位强密码，然后美国电脑直接用远程桌面连接过去就行。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 19 Jul 2026 03:49:18 +0000</pubDate></item><item><title>有结婚后上交工资卡，让妻子管理家庭财政的吗？</title><link>https://www.v2ex.com/t/1228313</link><description>&lt;p&gt;1 ，前奥运冠军、世界拳王邹市明退役 7 年跨界创业、投资，累计亏损超 2 亿，卖掉房产偿债、陷入资金链危机;
+&lt;p&gt;&lt;strong&gt;#23 laminux29&lt;/strong&gt;：正确的落地方案应该是：&lt;br/&gt;&lt;br/&gt;1.在中国通过美国网络访问 Google 、ChatGPT 等：&lt;br/&gt;买搬瓦工的 CN2 GIA VPS ，这样就有独享的美国 IPv4 。需要开 IPv4 白名单 + fail2ban + 至少 16 位强密码，然后在国内使用 SSH 反向隧道访问，才是正解。速度快，周五晚高峰不丢包，全年稳定。&lt;br/&gt;&lt;br/&gt;2.在美国使用中国网络访问淘宝等网站：&lt;br/&gt;买个阿里云的 Windows VPS ，开远程桌面 + IPv4 白名单 + wail2ban + 至少 16 位强密码，然后美国电脑直接用远程桌面连接过去就行。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#24 stephCurry&lt;/strong&gt;：@&lt;a href="/member/sansam"&gt;sansam&lt;/a&gt; 国内腾讯云自建 derp 然后走 tailscale 的节点的 exit node ，我理解等于美国穿 gfw 进 derp 然后这个协议还是会被识别啊，就是新加坡腾讯云 derp 也需要传走 gfw 到国内，也还是没有跳过 gfw 探测。当然，不确定个人这样做会不会被 gfw ban ，几年前个人用境外家宽部署 ss ，国内链接仅个人用，链接一会 port 会被临时 ban 掉一段时间，当时用机场节点当中转解决。大家说的 wireguard 协议明显容易被 gfw 识别，不知道真正实践又有多少，ss 我是亲自实践亲自部署的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#25 stephCurry&lt;/strong&gt;：@&lt;a href="/member/laminux29"&gt;laminux29&lt;/a&gt; 我推测 ssh 反代小流量看看网页 ok ，持续大流量应该不行吧，毕竟早期 gfw 就对 ssh 方案有对应方法&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#26 FringJX&lt;/strong&gt;：1.国内的家里放一台 macmini ，装一个 surge ，打开 Ponte 。&lt;br/&gt;&lt;br/&gt;2.美国的家里也放一台 macmin ，安装 surge ，把国内的所有地址和 ip 都分流到国内的 Ponte 作为流量出口。&lt;br/&gt;&lt;br/&gt;3.结束。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#27 crackself&lt;/strong&gt;：中美互联 WireGuard 协议会被墙，用 xray 或者 singbox 加密互联，指定域名设置规则分流&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 19 Jul 2026 03:49:18 +0000</pubDate></item><item><title>有结婚后上交工资卡，让妻子管理家庭财政的吗？</title><link>https://www.v2ex.com/t/1228313</link><description>&lt;p&gt;1 ，前奥运冠军、世界拳王邹市明退役 7 年跨界创业、投资，累计亏损超 2 亿，卖掉房产偿债、陷入资金链危机;
 2 ，我朋友的前妻，离婚时指责他没有上交工资卡，结果离婚几年后，朋友经常收到关于他前妻追债的短信；&lt;/p&gt;
 &lt;p&gt;我就打死都不上交，各管各的，只允许她审计资金流水&lt;/p&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
@@ -81,7 +85,8 @@ Supplement 1  ·  &lt;span title="2026-07-19 14:51:23 +08:00"&gt;2h 51m ago&lt
 &lt;p&gt;&lt;strong&gt;#27 winnerczwx&lt;/strong&gt;：很难想象要让渡自己的经济权利才换来的婚姻, 未来几十年这男人的日子过的要有多惨, 可能这种男人就没过过好日子&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#28 ebushicao&lt;/strong&gt;：&lt;a href="https://pic1.zhimg.com/80/v2-badbbd68829fd016a0a962797d9065b5_1440w.webp?source=1def8aca" rel="nofollow noopener" target="_blank"&gt;https://pic1.zhimg.com/80/v2-badbbd68829fd016a0a962797d9065b5_1440w.webp?source=1def8aca&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#29 ebushicao&lt;/strong&gt;：&lt;a href="https://pic1.zhimg.com/80/v2-badbbd68829fd016a0a962797d9065b5_1440w.webp" rel="nofollow noopener" target="_blank"&gt;https://pic1.zhimg.com/80/v2-badbbd68829fd016a0a962797d9065b5_1440w.webp&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#30 ebushicao&lt;/strong&gt;：... 好久没发图片都不会了...&lt;br/&gt;&lt;br/&gt;反正就是那个知乎经典回复&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 19 Jul 2026 02:39:49 +0000</pubDate></item><item><title>灵魂拷问：未来的 vibe coding 平民化了，那我现在还迭代个锤子啊</title><link>https://www.v2ex.com/t/1228303</link><description>&lt;p&gt;重构了一版扔在产品库的老掉牙的屎山产品。过程中，来灵魂拷问一下大家，按照 AI 发展趋势+端侧能力，&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#30 ebushicao&lt;/strong&gt;：... 好久没发图片都不会了...&lt;br/&gt;&lt;br/&gt;反正就是那个知乎经典回复&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#31 laminux29&lt;/strong&gt;：遇到过那种能管钱的女性，但稀有度比会管钱的男性还少。至少智商在线，不会被资本的消费主义洗脑。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 19 Jul 2026 02:39:49 +0000</pubDate></item><item><title>灵魂拷问：未来的 vibe coding 平民化了，那我现在还迭代个锤子啊</title><link>https://www.v2ex.com/t/1228303</link><description>&lt;p&gt;重构了一版扔在产品库的老掉牙的屎山产品。过程中，来灵魂拷问一下大家，按照 AI 发展趋势+端侧能力，&lt;/p&gt;
 &lt;p&gt;未来用户需求=产品了，都个性自定义化了，那么我们现在还迭戈锤子啊。。。。动力感不强劲了&lt;/p&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 iceriver99&lt;/strong&gt;：买车的人多了 但是打车的人也不少啊&lt;/p&gt;&lt;hr/&gt;
@@ -132,7 +137,7 @@ Supplement 1  ·  &lt;span title="2026-07-19 14:51:23 +08:00"&gt;2h 51m ago&lt
 &lt;hr/&gt;
 &lt;p&gt;&lt;img alt="image" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://cdn.nodeimage.com/i/95k1o36gWED66GzHEmXqujp6MPcwtiw9.png"/&gt;&lt;/p&gt;
 &lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-07-19 11:46:36 +08:00"&gt;5h 59m ago&lt;/span&gt;
+Supplement 1  ·  &lt;span title="2026-07-19 11:46:36 +08:00"&gt;7h 17m ago&lt;/span&gt;
 &lt;p&gt;因为我是直接复制的之前自己的别的平台的评论，所以有错别字和没有段落，故优化下：&lt;/p&gt;
 &lt;p&gt;本电脑本人自营购买，有发票，有盒子，配件齐全，未激活电脑。&lt;/p&gt;
 &lt;p&gt;到手后，没登录 iCloud，只设置了本地账户（不设本地账户进不去系统），随后用了大概半年。此前密码一直是 &lt;strong&gt;0000&lt;/strong&gt;，前天改成了 &lt;strong&gt;6 位纯数字密码&lt;/strong&gt;（和手机一起改的，同样的密码）。&lt;/p&gt;
@@ -203,7 +208,7 @@ Supplement 1  ·  &lt;span title="2026-07-19 11:46:36 +08:00"&gt;5h 59m ago&lt
 &lt;p&gt;&lt;strong&gt;#49 GGGG430&lt;/strong&gt;：楼主这排版水平实在不敢恭维&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#50 zryadj&lt;/strong&gt;：@&lt;a href="/member/ranaanna"&gt;ranaanna&lt;/a&gt; #35 注意：这里是知道正确的密码。同时被电脑认为错误的密码，其次不存在磁盘恢复密钥，再着开局第一句话就描述了有发票，有包装盒，可以提供一切能证明这台电脑是我的证明，甚至连第一次开箱的记录视频都有。但是客服表示无法进行远程相关操作，因为解除激活锁的操作是建立在 iCloud 上，本地账户无解，他让我寻求第三方帮助。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#51 zryadj&lt;/strong&gt;：@&lt;a href="/member/GGGG430"&gt;GGGG430&lt;/a&gt; 抱歉，没办法修改原文了。请点击 展开主题。可以查看 APPEND 后的优化段落版本哈。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#52 zryadj&lt;/strong&gt;：@&lt;a href="/member/ranaanna"&gt;ranaanna&lt;/a&gt; #47 这里步骤应该有些问题，没登陆 iCloud ，是不需要输入 iCloud 账号密码就可以进行重置的。这个网上可以搜到相关视频（ &lt;a href="https://v.douyin.com/lHZqv8ZOu4s/" rel="nofollow noopener" target="_blank"&gt;https://v.douyin.com/lHZqv8ZOu4s/&lt;/a&gt; Eus:/ &lt;a data-cfemail="faadba80d48e9f" href="/cdn-cgi/l/email-protection"&gt;[email protected]&lt;/a&gt; :0pm 08/29 ）。当然如果登录了 iCloud 就不存在这个帖子了。我之前是已经走到了最后一步，看到了自己头像，只需要输入新密码就可以修改，但是我很奇怪为什么不对，明明就是对的，非想再去试一下，不行再回来，就因为这个念想导致了一切无可挽回。事后我也无比后悔，为什么不直接改密码。。。也无比的气愤为什么重置只有一次这种奇怪的逻辑。别的都还好，主要是资料都丢了，很烦很难受。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#52 zryadj&lt;/strong&gt;：@&lt;a href="/member/ranaanna"&gt;ranaanna&lt;/a&gt; #47 这里步骤应该有些问题，没登陆 iCloud ，是不需要输入 iCloud 账号密码就可以进行重置的。这个网上可以搜到相关视频（ &lt;a href="https://v.douyin.com/lHZqv8ZOu4s/" rel="nofollow noopener" target="_blank"&gt;https://v.douyin.com/lHZqv8ZOu4s/&lt;/a&gt; Eus:/ &lt;a data-cfemail="6d3a2d17431908" href="/cdn-cgi/l/email-protection"&gt;[email protected]&lt;/a&gt; :0pm 08/29 ）。当然如果登录了 iCloud 就不存在这个帖子了。我之前是已经走到了最后一步，看到了自己头像，只需要输入新密码就可以修改，但是我很奇怪为什么不对，明明就是对的，非想再去试一下，不行再回来，就因为这个念想导致了一切无可挽回。事后我也无比后悔，为什么不直接改密码。。。也无比的气愤为什么重置只有一次这种奇怪的逻辑。别的都还好，主要是资料都丢了，很烦很难受。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#53 ranaanna&lt;/strong&gt;：@&lt;a href="/member/zryadj"&gt;zryadj&lt;/a&gt; 完全同意。local account 不连接到 apple account ，那么一旦忘记密码是没有恢复数据的机会的，resetpassword 也没有用。第三方？除非你的数据值得这样做可以试试看&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#54 zryadj&lt;/strong&gt;：@&lt;a href="/member/ptg2008"&gt;ptg2008&lt;/a&gt; 谢谢你的评论&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#55 ngn999&lt;/strong&gt;：@&lt;a href="/member/di11wei"&gt;di11wei&lt;/a&gt; 這個習慣好。&lt;/p&gt;&lt;hr/&gt;
@@ -232,7 +237,22 @@ Supplement 1  ·  &lt;span title="2026-07-19 11:46:36 +08:00"&gt;5h 59m ago&lt
 &lt;p&gt;&lt;strong&gt;#78 luofei&lt;/strong&gt;：我年纪大了，记忆力不如少时。发生过好几次输入正确密码，但各种网站/App 误判错误的情况。我相信我的输入一定没错，哎，二十一世纪了，怎么这些高科技，连我的密码都能判错呢。&lt;br/&gt;但很奇怪的是，自从我用密码管理软件自动填写之后，这种情况就不再发生了。&lt;br/&gt;🐶&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#79 crstudio&lt;/strong&gt;：我不评价，提出一个方法：既然你非常确认你输入的密码是对的，那么极有可能你输入的密码有 1 位是错的，或者整体错位 1 位，比如你本来想输入 1234,可能你输入的是 2345. 或者是 1235. 反正你也没有别的办法了，你也别总想着肯定你输入的密码绝对没错，这样想也没用，不如试试我的办法。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#80 xubeiyou&lt;/strong&gt;：我好像在 B 站刷到过你  这个问题确实也是老问题了 因为他们也不清楚为什么会有人一直用本地账户&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#81 xubeiyou&lt;/strong&gt;：就像 win  有个更新并关机 但是经常会出现重启的情况  老 bug le&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 19 Jul 2026 01:34:29 +0000</pubDate></item><item><title>把 app 的每一个页面 copy 给 AI， ai 能复刻出这个 app 吗？它能自动发掘其后的逻辑，复刻出来吗？</title><link>https://www.v2ex.com/t/1228298</link><description>&lt;p&gt;复刻程序是否越来越容易了？&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#81 xubeiyou&lt;/strong&gt;：就像 win  有个更新并关机 但是经常会出现重启的情况  老 bug le&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#82 zryadj&lt;/strong&gt;：@&lt;a href="/member/crstudio"&gt;crstudio&lt;/a&gt; 这个也试过了，甚至把 6 位数只固定第一位，然后后面的随机排列组合，120 种密码，全部试过了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#83 cnrting&lt;/strong&gt;：你穿越了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#84 zryadj&lt;/strong&gt;：@&lt;a href="/member/wuxkwnjjwoxk"&gt;wuxkwnjjwoxk&lt;/a&gt; #63 1.resetpassword 的具体流程，你可以参考一下我 47 楼的回复，2.通过硬盘启动或者开启诊断输入的密码没有次数限制可以进行无限次输入。3.这个密码我是和手机同时改的，并且改完进行了验证进入。即使你这个假设成立，我也尝试过了，我输入固定第一位的后 5 位随机的 120 种可能，最后都是错误。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#85 zryadj&lt;/strong&gt;：回复累了，目前决定的方法就是通过 Apple Configurator 来修复固件，看看是不是固件 bug 导致系统错乱。如果还是救不回来就全盘抹除。最后希望攻击我的人永远都不遇到密码正确但进不去系统的情况。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#86 zryadj&lt;/strong&gt;：&lt;a href="https://www.v2ex.com/t/1094457" target="_blank"&gt;https://www.v2ex.com/t/1094457&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#87 zryadj&lt;/strong&gt;：&lt;a href="https://www.v2ex.com/t/1005349" target="_blank"&gt;https://www.v2ex.com/t/1005349&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;![image]( &lt;a href="https://cdn.nodeimage.com/i/mJW1Ao4nt5IIUTsjmwtZ3xX5SEuPMFHz.png" rel="nofollow noopener" target="_blank"&gt;https://cdn.nodeimage.com/i/mJW1Ao4nt5IIUTsjmwtZ3xX5SEuPMFHz.png&lt;/a&gt;)&lt;br/&gt;有点想笑，评论区很多人是连搜索都不会使用的，但是却异常的自信。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#88 daweii&lt;/strong&gt;：我之前用公司 macbook 的时候就出现过 &lt;br/&gt;明明密码对 就是显示错了&lt;br/&gt;后来是打电话给公司 it 部门拿到恢复密钥后改回来的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#89 systemsettings&lt;/strong&gt;：哈哈哈哈哈。只看到了一个数据丢了、求助无门，只能上网发帖谴责苹果的绝望中年人。本来只是想来寻求一点安慰，结果安慰没得到，反而收获了一堆嘲讽，最后还得和 V 友对线。早知道 V 站是这个德行，何必呢～&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#90 zryadj&lt;/strong&gt;：@&lt;a href="/member/systemsettings"&gt;systemsettings&lt;/a&gt; 哎呦我擦，哥们你真的说到我的心坎里去了，我好久没发 v 站了，应该是快一年多了吧。发个帖子让大家一起骂，结果“挨打”了。呜呜呜。哥们感觉你这个人非常棒，洞察力很强。谢谢你&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#91 zryadj&lt;/strong&gt;：@&lt;a href="/member/daweii"&gt;daweii&lt;/a&gt; 还是公司好啊，IT 部门永远兜底。我这个人电脑，啥都没设置，无解咯 &lt;a href="https://i.imgur.com/YGIx7lh.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/YGIx7lh.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#92 zryadj&lt;/strong&gt;：&lt;a href="https://i.imgur.com/7S5Vuts.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/7S5Vuts.png"/&gt;&lt;/a&gt; &lt;a href="https://i.imgur.com/QvI7Enx.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/QvI7Enx.png"/&gt;&lt;/a&gt;&lt;br/&gt;这个帖子和我同款芯片，会不会是芯片设计问题啊？&lt;br/&gt;&lt;a href="https://us.v2ex.com/t/978194" rel="nofollow noopener" target="_blank"&gt;https://us.v2ex.com/t/978194&lt;/a&gt;&lt;br/&gt;不过我并没有修改过用户名之类的。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#93 wuxkwnjjwoxk&lt;/strong&gt;：@&lt;a href="/member/zryadj"&gt;zryadj&lt;/a&gt; 自己刚改了密码和根本没改过密码的情况又不同&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#94 zryadj&lt;/strong&gt;：我刚刚的重刷固件思路和这个回答不谋而合，希望明天修复固件能成功。那样可能就是第一个解决本地账户这种情况的人了。然后我要把它传播到互联网到处都是，拯救后面本地账户遇到此问题的所有人！！！ &lt;a href="https://i.imgur.com/PQEdynq.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/PQEdynq.png"/&gt;&lt;/a&gt; &lt;a href="https://i.imgur.com/ehrQJmq.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/ehrQJmq.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#95 zryadj&lt;/strong&gt;：我这个上传图片的插件好像有点 bug ，会上传两遍链接。&lt;br/&gt;后续的话，我只回复长得帅的人。没回复的就抱歉了哈。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#96 zryadj&lt;/strong&gt;：这个帖子乱的就像屎山代码一样，说实话我自己都看不下去了哈哈哈哈。。。。逼死强迫症了&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 19 Jul 2026 01:34:29 +0000</pubDate></item><item><title>把 app 的每一个页面 copy 给 AI， ai 能复刻出这个 app 吗？它能自动发掘其后的逻辑，复刻出来吗？</title><link>https://www.v2ex.com/t/1228298</link><description>&lt;p&gt;复刻程序是否越来越容易了？&lt;/p&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 evan9527&lt;/strong&gt;：我认为功能上完全可以复刻，可能要人为引导 ai 去分析。&lt;br/&gt;引导的方向不是让 ai 去了解这个 app ，是要让 ai 知道你想要什么，希望达到什么效果。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#2 revival83&lt;/strong&gt;：估计以后会越来越容易&lt;/p&gt;&lt;hr/&gt;
@@ -255,4 +275,5 @@ Supplement 1  ·  &lt;span title="2026-07-19 11:46:36 +08:00"&gt;5h 59m ago&lt
 &lt;p&gt;&lt;strong&gt;#19 someonelikeyouah&lt;/strong&gt;：不可能，比如 erp 系统 客户经验和设计本身就是护城河，代码开发倒不是，你能说给一个交互 就能让 llm 给数据流转猜清楚吗？这个不确定的成本比找个 业务专家来可贵太多了&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#20 Dispatcher&lt;/strong&gt;：别推论，建议实践一下。&lt;br/&gt;&lt;br/&gt;方法：&lt;br/&gt;b 站前几年泄露过后端源码，能跑起来；&lt;br/&gt;anthropic 前一阵子也泄露过源码。&lt;br/&gt;&lt;br/&gt;路径：&lt;br/&gt;提供给 ai 截图，让 ai 生成可运行的代码。&lt;br/&gt;&lt;br/&gt;结果：&lt;br/&gt;个人推断 100%失败。&lt;br/&gt;&lt;br/&gt;原因有很多，因为 ai 只能照猫画虎，最后得到一个四不像； ai 能做到定义通信协议，包结构等等，但是无法做到面面俱到，业务是随时变化的，什么时候扩容，什么时候启用备用协议，哪里有云控参数，ai 哪里知道人心的险恶。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#21 hongye&lt;/strong&gt;：UI 只是冰山一角。尤其是 B 端业务系统，复杂的根本不是前端长啥样，而是背后的权限控制（ RBAC/ABAC ）和数据流转。不同的角色、不同的权限，看到的页面和操作按钮完全不一样。而且很多业务状态、配置和审计日志在运行态都是直接保存在数据库里的，光靠看几张前端截图，AI 连完整的权限矩阵都拼不出来，更别说去“盲猜”后端的业务流和状态机了。照猫画虎弄个纯静态的壳子还行，碰上复杂的 C/S 架构，连数据怎么交互的都抓不到，根本谈不上复刻。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#22 charlie21&lt;/strong&gt;：TINKER 桌面工具箱&lt;br/&gt; &lt;a href="/t/1179641" rel="nofollow noopener" target="_blank"&gt;/t/1179641&lt;/a&gt;&lt;br/&gt;&lt;a href="https://tinker.liriliri.io/zh/guide/" rel="nofollow noopener" target="_blank"&gt;https://tinker.liriliri.io/zh/guide/&lt;/a&gt;&lt;br/&gt;作者半年写了 100+ 个小工具 &lt;a href="http://v2ex.com/member/surunzi" rel="nofollow noopener" target="_blank"&gt;v2ex.com/member/surunzi&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 19 Jul 2026 00:58:23 +0000</pubDate></item></channel></rss>
+&lt;p&gt;&lt;strong&gt;#22 charlie21&lt;/strong&gt;：TINKER 桌面工具箱&lt;br/&gt; &lt;a href="/t/1179641" rel="nofollow noopener" target="_blank"&gt;/t/1179641&lt;/a&gt;&lt;br/&gt;&lt;a href="https://tinker.liriliri.io/zh/guide/" rel="nofollow noopener" target="_blank"&gt;https://tinker.liriliri.io/zh/guide/&lt;/a&gt;&lt;br/&gt;作者半年写了 100+ 个小工具 &lt;a href="http://v2ex.com/member/surunzi" rel="nofollow noopener" target="_blank"&gt;v2ex.com/member/surunzi&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#23 soulflysimple123&lt;/strong&gt;：给个淘宝 app 截图能复刻一个淘宝吗&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 19 Jul 2026 00:58:23 +0000</pubDate></item></channel></rss>
