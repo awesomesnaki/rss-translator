@@ -63,7 +63,7 @@
 &lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;我目前的动作是停止了功能的更新，开始做用户的增长，但是这块确实不太擅长，想听听大家的建议，下一步应该怎么做？&lt;/p&gt;
 &lt;p&gt;项目地址：&lt;a href="https://stocks.matraceai.com/" rel="nofollow"&gt;新闻雷达&lt;/a&gt;&lt;/p&gt;
 &lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-07-19 23:06:51 +08:00"&gt;5h 28m ago&lt;/span&gt;
+Supplement 1  ·  &lt;span title="2026-07-19 23:06:51 +08:00"&gt;7h 36m ago&lt;/span&gt;
 
 成本已经是最少成本了，属于必要支出，需要搭建 RAG ，导入各类公告信息，财报信息，使用 AI 分析相关性，再精简可能对效果影响。
 
@@ -161,7 +161,8 @@ Supplement 1  ·  &lt;span title="2026-07-19 23:06:51 +08:00"&gt;5h 28m ago&lt
 &lt;p&gt;&lt;strong&gt;#22 laikicka&lt;/strong&gt;：作为国模之光，大家多多支持，把弱智 gpt 的算力让给我 😂😂&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#23 eroneko&lt;/strong&gt;：幻觉率中等吧，没 GPT 高，GPT 可是高到爆表的&lt;br/&gt; &lt;a href="https://i.imgur.com/ls7ywKy.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/ls7ywKy.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#24 v400127&lt;/strong&gt;：前些天 GLM5.2 也是类似的 没坚挺啊&lt;br/&gt;'&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#25 ifoto&lt;/strong&gt;：刚发布的时候，69 没买。现在 299&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 19 Jul 2026 10:11:37 +0000</pubDate></item><item><title>我开发了一个开源版 Surge，把 Mac 变成可导入规则、可按设备分流的全屋透明代理网关。</title><link>https://www.v2ex.com/t/1228353</link><description>OpenSurge for Mac 是一个开源应用，提供类似 Surge 的体验，可以把你的 Mac 变成全屋的代理网关：同一局域网里的手机、电视、PS5 、游戏机、VR 设备和虚拟机，无需逐台设置代理；设备一接入网络，便自动通过 Mac 的全屋代理网关，并按各自策略选择直连或代理出口。&lt;br/&gt;&lt;br/&gt;&lt;a href="https://i.imgur.com/WS4dl0V.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/WS4dl0V.png"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;你可以为每台设备设置不同的出口策略：手机和 Mac 一起走代理、游戏机连美服、电视走流媒体节点。DHCP/DNS 、分流策略和流量状态，都由 OpenSurge 集中管理。&lt;br/&gt;&lt;br/&gt;&lt;a href="https://i.imgur.com/0hwnbG7.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/0hwnbG7.png"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;- 可导入已有的 mihomo 配置或订阅，保留原有节点、代理组和规则&lt;br/&gt;- Web GUI 实时展示每台设备的连接、上下行流量和实际出口链；菜单栏随时查看网关状态与恢复提醒。&lt;br/&gt;- 底层由 dnsmasq 提供 DHCP/DNS ，mihomo 负责代理与策略，macOS pf 和 IPv4 forwarding 提供 NAT 与转发。&lt;br/&gt;&lt;br/&gt;&lt;a href="https://i.imgur.com/ubAeY1G.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/ubAeY1G.png"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;仓库链接在下面：&lt;br/&gt;🔗 &lt;a href="https://github.com/YTwsy/OpenSurge-for-Mac" rel="nofollow noopener" target="_blank"&gt;https://github.com/YTwsy/OpenSurge-for-Mac&lt;/a&gt;
+&lt;p&gt;&lt;strong&gt;#25 ifoto&lt;/strong&gt;：刚发布的时候，69 没买。现在 299&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#26 JimmyChan1506&lt;/strong&gt;：@&lt;a href="/member/v400127"&gt;v400127&lt;/a&gt; 你好， 请问可以说一下 GLM 在使用中有什么问题吗？&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 19 Jul 2026 10:11:37 +0000</pubDate></item><item><title>我开发了一个开源版 Surge，把 Mac 变成可导入规则、可按设备分流的全屋透明代理网关。</title><link>https://www.v2ex.com/t/1228353</link><description>OpenSurge for Mac 是一个开源应用，提供类似 Surge 的体验，可以把你的 Mac 变成全屋的代理网关：同一局域网里的手机、电视、PS5 、游戏机、VR 设备和虚拟机，无需逐台设置代理；设备一接入网络，便自动通过 Mac 的全屋代理网关，并按各自策略选择直连或代理出口。&lt;br/&gt;&lt;br/&gt;&lt;a href="https://i.imgur.com/WS4dl0V.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/WS4dl0V.png"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;你可以为每台设备设置不同的出口策略：手机和 Mac 一起走代理、游戏机连美服、电视走流媒体节点。DHCP/DNS 、分流策略和流量状态，都由 OpenSurge 集中管理。&lt;br/&gt;&lt;br/&gt;&lt;a href="https://i.imgur.com/0hwnbG7.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/0hwnbG7.png"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;- 可导入已有的 mihomo 配置或订阅，保留原有节点、代理组和规则&lt;br/&gt;- Web GUI 实时展示每台设备的连接、上下行流量和实际出口链；菜单栏随时查看网关状态与恢复提醒。&lt;br/&gt;- 底层由 dnsmasq 提供 DHCP/DNS ，mihomo 负责代理与策略，macOS pf 和 IPv4 forwarding 提供 NAT 与转发。&lt;br/&gt;&lt;br/&gt;&lt;a href="https://i.imgur.com/ubAeY1G.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/ubAeY1G.png"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;仓库链接在下面：&lt;br/&gt;🔗 &lt;a href="https://github.com/YTwsy/OpenSurge-for-Mac" rel="nofollow noopener" target="_blank"&gt;https://github.com/YTwsy/OpenSurge-for-Mac&lt;/a&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 Tink&lt;/strong&gt;：牛的老哥&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#2 xialaoban&lt;/strong&gt;：没有 Intel 版啊。。&lt;/p&gt;&lt;hr/&gt;
@@ -253,7 +254,7 @@ Supplement 1  ·  &lt;span title="2026-07-19 23:06:51 +08:00"&gt;5h 28m ago&lt
 ZeroTier 或 WireGuard 好用吗？&lt;/p&gt;
 &lt;p&gt;提前感谢各位大佬！&lt;/p&gt;
 &lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-07-19 14:51:23 +08:00"&gt;13h 43m ago&lt;/span&gt;
+Supplement 1  ·  &lt;span title="2026-07-19 14:51:23 +08:00"&gt;15h 49m ago&lt;/span&gt;
 &lt;p&gt;&lt;strong&gt;补充&lt;/strong&gt;: &lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;em&gt;&lt;strong&gt;在美国使用中国网络访问淘宝等网站&lt;/strong&gt;&lt;/em&gt;&lt;/li&gt;
