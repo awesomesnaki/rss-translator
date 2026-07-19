@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sun, 19 Jul 2026 00:38:17 +0000</lastBuildDate><item><title>★ 库比蒂诺的早晨再次弥漫着凝固汽油弹的味道</title><link>https://daringfireball.net/2026/07/mornings_in_cupertino_have_the_aroma_of_napalm_once_again</link><description>&lt;h2&gt;“看来你的政策不同”&lt;/h2&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sun, 19 Jul 2026 17:18:57 +0000</lastBuildDate><item><title>9to5Mac发现苹果巴西应用商店中存在数十个伪装成其他应用的赌博应用</title><link>https://9to5mac.com/2026/07/17/investigation-reveals-dozens-of-disguised-gambling-apps-on-the-app-store-in-brazil/</link><description>&lt;p&gt;9to5Mac:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;巴西用户在浏览App Store中导航、旅行和天气等类别的排行榜时，注意到排名靠前的结果中出现了越来越多制作粗糙的游戏，其中许多游戏使用AI生成的动物插图作为应用图标。&lt;/p&gt;
+&lt;p&gt;事实证明，这些就是所谓的“马甲应用”，它们只是隐藏的投注和赌博应用的前端。9to5Mac的一项调查发现，超过60款应用在世界上几乎任何地方访问时，其行为都与App Store截图描述一致，除了巴西。&lt;/p&gt;
+&lt;p&gt;当从巴西IP地址打开时，同样的应用却显示为在线博彩平台，如下例所示，该应用目前是天气类别中排名第一的应用。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;显然，主要问题是这些应用伪装成特洛伊木马风格，并悄无声息地通过了App Store审核。不过，我认为指望App Store审核能抓住所有此类尝试并不合理——如果木马伪装得足够好，总会有一些漏网之鱼。这其实也没关系。&lt;/p&gt;
+&lt;p&gt;但9to5Mac引用的第一个例子伪装得并不好。“PotatoPlot Puzzle”这款以兔子土豆农场主为特色的游戏，怎么会是一个&lt;em&gt;天气&lt;/em&gt;应用呢？这怎么能不算是明显的危险信号呢？&lt;/p&gt;
+&lt;p&gt;此外，这款应用不仅变得流行，还成为了巴西（一个拥有超过2亿人口的国家）排名第一的天气应用。在我&lt;a href="https://daringfireball.net/search/bunco+squad"&gt;多年以来一直呼吁苹果应组建内部反诈小组&lt;/a&gt;以专门追查App Store中骗子的论述中，我始终提到，这样一个小组的目标不应该是让App Store百分之百没有骗子——我认为这是一个不可能实现的目标，会导致团队失败。目标应该只是让App Store没有&lt;em&gt;成功&lt;/em&gt;的骗局。重点放在最受欢迎和最赚钱的应用上。对于PotatoPlot Puzzle成为巴西最受欢迎的“天气应用”，根本没有任何合理的借口。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/07/19/9to5mac-brazil-gambling-apps" title="Permanent link to ‘9to5Mac Uncovers Dozens of Disguised Gambling Apps on the App Store in Brazil’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Sun, 19 Jul 2026 17:18:57 +0000</pubDate></item><item><title>★ 库比蒂诺的早晨再次弥漫着凝固汽油弹的味道</title><link>https://daringfireball.net/2026/07/mornings_in_cupertino_have_the_aroma_of_napalm_once_again</link><description>&lt;h2&gt;“看来你的政策不同”&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://stratechery.com/2026/the-openai-super-app-chatgpt-codex-whither-chat/"&gt;本·汤普森在周二Stratechery会员专属更新中写道&lt;/a&gt;：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;我从苹果前高管、Nest创始人、曾做客Stratechery访谈的托尼·法德尔那里收到了一封有趣的邮件，回应我昨天关于苹果起诉OpenAI的更新（已获许可发布）：&lt;/p&gt;
@@ -106,12 +116,4 @@
 &lt;p&gt;拖延上诉程序从来就没有理由不去做，但当你的利润以异常速度增长时，这一点尤其如此。通过将利润增长约5倍，他们将此笔罚款的相对冲击力也削减了5倍。&lt;/p&gt;
 &lt;p&gt;而这还未考虑通货膨胀的影响——过去八年间其影响相当显著。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/07/17/google-eu-fine" title="永久链接至“谷歌上诉穷尽，必须支付创纪录的47亿欧元欧盟反垄断罚款”"&gt; ★ &lt;/a&gt;
-</description><pubDate>Fri, 17 Jul 2026 23:47:16 +0000</pubDate></item><item><title>Roblox 即将推出AI游戏构建功能，包括在iOS上</title><link>https://about.roblox.com/newsroom/2026/07/build-without-limits-on-roblox</link><description>&lt;p&gt;Roblox高管尼克·托诺夫和弗拉德·洛克捷夫在Roblox博客中写道：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;二十年前，Roblox带着一个简单的理念诞生：“你来制作游戏。”在当时，这是一个颠覆性的主张——大多数游戏由工作室和专业人士制作，而任何人都有可能成为创作者的观念远非显而易见。但我们相信这一点。数百万在Roblox上创作的创作者证明了这一点。当我们展望未来，Roblox的1.32亿日活跃用户中任何一位都可能推出下一款爆款游戏时，我们正以前所未有的方式将这一初衷发扬光大。未来几个月，我们将发布一系列公告，为每位创作者提供一条清晰的跑道，让他们走得更远，并让比以往更多的人兑现“你来制作游戏”的承诺。&lt;/p&gt;
-&lt;p&gt;今天，我们宣布推出Build——Roblox应用内一个新的移动优先创作标签——以及Studio中面向各层级创作者的一套全新AI驱动工具套件。7月28日，我们将开始测试这些新的代理工具。借助Build和Studio，创作者可以将那些无需全神贯注的开发环节委托出去。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这听起来确实很酷很有趣。但你知道还有什么也很酷很有趣吗？那些在iOS上运行的AI编程应用，比如&lt;a href="https://bitrig.com/"&gt;Bitrig&lt;/a&gt;、&lt;a href="https://replit.com/"&gt;Replit&lt;/a&gt;和&lt;a href="https://www.vibecodeapp.com/"&gt;Vibecode&lt;/a&gt;——而所有这些应用都在去年冬天被&lt;a href="https://mjtsai.com/blog/2026/03/20/updates-to-vibe-coding-apps-rejected-from-the-app-store/"&gt;苹果封杀了&lt;/a&gt;。你当然可以在桌面电脑上自由使用任何工具来为iOS构建应用，但苹果却决定禁止在iOS上构建iOS应用。&lt;/p&gt;
-&lt;p&gt;但Roblox在iOS上允许AI辅助游戏生成就没问题……因为Roblox已经如此庞大和受欢迎？苹果怎么能一边禁止其他所有人这样做，一边却允许Roblox这么做呢？&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/07/17/roblox-game-building-ai" title="永久链接至‘Roblox将引入AI游戏构建功能，包括在iOS平台上’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Fri, 17 Jul 2026 21:20:04 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 17 Jul 2026 23:47:16 +0000</pubDate></item></channel></rss>
