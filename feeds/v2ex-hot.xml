@@ -63,7 +63,7 @@
 &lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;我目前的动作是停止了功能的更新，开始做用户的增长，但是这块确实不太擅长，想听听大家的建议，下一步应该怎么做？&lt;/p&gt;
 &lt;p&gt;项目地址：&lt;a href="https://stocks.matraceai.com/" rel="nofollow"&gt;新闻雷达&lt;/a&gt;&lt;/p&gt;
 &lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-07-19 23:06:51 +08:00"&gt;3h 49m ago&lt;/span&gt;
+Supplement 1  ·  &lt;span title="2026-07-19 23:06:51 +08:00"&gt;5h 28m ago&lt;/span&gt;
 
 成本已经是最少成本了，属于必要支出，需要搭建 RAG ，导入各类公告信息，财报信息，使用 AI 分析相关性，再精简可能对效果影响。
 
@@ -97,7 +97,8 @@ Supplement 1  ·  &lt;span title="2026-07-19 23:06:51 +08:00"&gt;3h 49m ago&lt
 &lt;p&gt;&lt;strong&gt;#27 Julaoshi&lt;/strong&gt;：这个产品最大的风险来自于不具备股票经纪人的资质以及不符合经营性网站的条件（会员），可能也没有发布财经信息的资质。这些都是合规风险。在国内，这个业务可能不合法。&lt;br/&gt;&lt;br/&gt;其次才是考虑业务的可行性和收入/成本分析。未验证市场需求和付费意愿的情况下，投入过多。其次，API 、服务器、AI 的成本是持续产生的。这个业务可能不是个好的模式。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#28 duuu&lt;/strong&gt;：用户 400 人的情况下，你的服务器去到 4000 一年，近期模型费用推算每个月至少要 3000 。&lt;br/&gt;你说这个费用没办法再少了，那么假设你用户再翻一倍，你的服务器是不是要翻倍？模型费用是不是要翻倍？&lt;br/&gt;也就是说，你现在从收入/成本去思考，要么客单价收低了，要么成本高了。如果你没办法解决这个事情，客户越多，你亏的越多，你还怎么做。你首要的不是要解决这个问题么，为什么还会想推广的事。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#29 matrace&lt;/strong&gt;：@&lt;a href="/member/duuu"&gt;duuu&lt;/a&gt; 成本是为了实现新闻关联股票这个技术造成的，但用户翻倍不会造成成本线性的变化&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#30 it4anonymous&lt;/strong&gt;：我也是 1700 的收入，服务器成本 200 不到&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 19 Jul 2026 11:17:09 +0000</pubDate></item><item><title>Kimi K3 这波真的爆了，你们用着感觉怎么样？</title><link>https://www.v2ex.com/t/1228376</link><description>&lt;p&gt;这几天被 Kimi K3 刷屏了，X 上在吹，HN 上在吹，都说是国产之光，deepseek 时刻 2.0 来了。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#30 it4anonymous&lt;/strong&gt;：我也是 1700 的收入，服务器成本 200 不到&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#31 leafiy&lt;/strong&gt;：@&lt;a href="/member/Dispatcher"&gt;Dispatcher&lt;/a&gt; 你们的库不是以分为单位吗&lt;br/&gt;@&lt;a href="/member/lovelylain"&gt;lovelylain&lt;/a&gt; 库里不都是分吗&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 19 Jul 2026 11:17:09 +0000</pubDate></item><item><title>Kimi K3 这波真的爆了，你们用着感觉怎么样？</title><link>https://www.v2ex.com/t/1228376</link><description>&lt;p&gt;这几天被 Kimi K3 刷屏了，X 上在吹，HN 上在吹，都说是国产之光，deepseek 时刻 2.0 来了。&lt;/p&gt;
 &lt;p&gt;我也试了一下，浅浅分享自己的体验吧。&lt;/p&gt;
 &lt;p&gt;先说好的地方：&lt;/p&gt;
 &lt;ul&gt;
@@ -190,7 +191,8 @@ Supplement 1  ·  &lt;span title="2026-07-19 23:06:51 +08:00"&gt;3h 49m ago&lt
 &lt;p&gt;&lt;strong&gt;#26 chooy&lt;/strong&gt;：是否提供 brew install&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#27 shilianmlxg&lt;/strong&gt;：op 能成大事&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#28 mooyo&lt;/strong&gt;：既然是 mihomo ，按理说应该能做 linux/openwrt 版？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#29 wsy95613373&lt;/strong&gt;：@&lt;a href="/member/Tink"&gt;Tink&lt;/a&gt; 对填 192.168.5.123 即可&lt;br/&gt;之后需要走 OpenSurge 的其他设备手工把网关和 DNS 指向 Mac ，或是让主路由统一下发旁路由网关或是做策略路由：&lt;br/&gt;IPv4：使用未冲突的地址，例如 192.168.5.124&lt;br/&gt;掩码：255.255.255.0&lt;br/&gt;网关：192.168.5.123 //同 MAC 网关 IPv4&lt;br/&gt;DNS：192.168.5.123 //同 MAC 网关 IPv4&lt;br/&gt;&lt;br/&gt;推荐试一试新的 Release ，旧版本第二个模式的流量观测 GUI 显示有点问题，而且启停得用 CLI ，新的 Release 补齐了完整的 GUI 能力 &lt;a href="https://github.com/YTwsy/OpenSurge-for-Mac/releases/tag/v0.1.17" rel="nofollow noopener" target="_blank"&gt;https://github.com/YTwsy/OpenSurge-for-Mac/releases/tag/v0.1.17&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 19 Jul 2026 07:47:57 +0000</pubDate></item><item><title>性生活是不是人的刚需</title><link>https://www.v2ex.com/t/1228347</link><description>刚刚刷到知乎的一个评论，也是被震撼到了，只能说荷兰是一个真的很人性的国家，瞬间有想移民到荷兰的冲动&lt;br/&gt;&lt;a href="/i/1oOj8577.jpeg" rel="nofollow noopener" target="_blank" title="在新窗口打开图片 1oOj8577.jpeg"&gt;&lt;img referrerpolicy="no-referrer" src="//i.v2ex.co/1oOj8577.jpeg"/&gt;&lt;/a&gt;
+&lt;p&gt;&lt;strong&gt;#29 wsy95613373&lt;/strong&gt;：@&lt;a href="/member/Tink"&gt;Tink&lt;/a&gt; 对填 192.168.5.123 即可&lt;br/&gt;之后需要走 OpenSurge 的其他设备手工把网关和 DNS 指向 Mac ，或是让主路由统一下发旁路由网关或是做策略路由：&lt;br/&gt;IPv4：使用未冲突的地址，例如 192.168.5.124&lt;br/&gt;掩码：255.255.255.0&lt;br/&gt;网关：192.168.5.123 //同 MAC 网关 IPv4&lt;br/&gt;DNS：192.168.5.123 //同 MAC 网关 IPv4&lt;br/&gt;&lt;br/&gt;推荐试一试新的 Release ，旧版本第二个模式的流量观测 GUI 显示有点问题，而且启停得用 CLI ，新的 Release 补齐了完整的 GUI 能力 &lt;a href="https://github.com/YTwsy/OpenSurge-for-Mac/releases/tag/v0.1.17" rel="nofollow noopener" target="_blank"&gt;https://github.com/YTwsy/OpenSurge-for-Mac/releases/tag/v0.1.17&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#30 wuzhi1234&lt;/strong&gt;：牛啊，完成度很高&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 19 Jul 2026 07:47:57 +0000</pubDate></item><item><title>性生活是不是人的刚需</title><link>https://www.v2ex.com/t/1228347</link><description>刚刚刷到知乎的一个评论，也是被震撼到了，只能说荷兰是一个真的很人性的国家，瞬间有想移民到荷兰的冲动&lt;br/&gt;&lt;a href="/i/1oOj8577.jpeg" rel="nofollow noopener" target="_blank" title="在新窗口打开图片 1oOj8577.jpeg"&gt;&lt;img referrerpolicy="no-referrer" src="//i.v2ex.co/1oOj8577.jpeg"/&gt;&lt;/a&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 moefishtang&lt;/strong&gt;：可是你如果因为这个想要移民过去的话，可能还得把自己弄残...&lt;br/&gt;我觉得比起这个健康才是刚需（&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#2 jko123&lt;/strong&gt;：编乎发什么就信什么？&lt;/p&gt;&lt;hr/&gt;
@@ -239,7 +241,8 @@ Supplement 1  ·  &lt;span title="2026-07-19 23:06:51 +08:00"&gt;3h 49m ago&lt
 &lt;p&gt;&lt;strong&gt;#45 cxtrinityy&lt;/strong&gt;：@&lt;a href="/member/jony83"&gt;jony83&lt;/a&gt; 底层不会因为没有补贴而造反，造反只会是因为活不下去，因为造反是提着脑袋干活，真要是因为补贴出事，那也只会因为患不均。&lt;br/&gt;政宽则民慢，慢则纠之以猛，政猛则民残，残则施之以宽，宽猛相济，政是以和。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#46 jony83&lt;/strong&gt;：@&lt;a href="/member/cxtrinityy"&gt;cxtrinityy&lt;/a&gt; 补贴也叫二次分配，没有二次分配则穷者恒穷，富者恒富，阶级固化，中层人担心害怕落入底层，造成恶性竞争而不敢消费。如果有补贴，则底层人也能体面的活下去，中层也敢消费，因为他不担心自己会落入底层，就算步入也能体面活下去。造反不是底层人，而是中高层人得民心造反，因为紧绷的社会会崩塌。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#47 Hyschtaxjh&lt;/strong&gt;：來日本也能嫖 進了情人酒店你們就是自由戀愛&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#48 bao3&lt;/strong&gt;：很多男性，在 35 之后欲望消退，他们的夫人都要想办法解决。&lt;br/&gt;这也就是为什么那些成人软件上，弟弟们喜欢找少妇，因为生理需求是真实存在的，再逼真的玩具，不如肉体碰撞来的刺激。&lt;br/&gt;如狼似虎的年纪，似乎也不用再什么证明了。&lt;br/&gt;性，必然是刚需。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 19 Jul 2026 06:42:48 +0000</pubDate></item><item><title>如何将中美两国的家庭网络组成局域网?</title><link>https://www.v2ex.com/t/1228327</link><description>&lt;p&gt;中国、美国各有一个家庭网络，均有公网 ipv4 ，且可以互相直连，延迟 150ms 左右，比较稳定。
+&lt;p&gt;&lt;strong&gt;#48 bao3&lt;/strong&gt;：很多男性，在 35 之后欲望消退，他们的夫人都要想办法解决。&lt;br/&gt;这也就是为什么那些成人软件上，弟弟们喜欢找少妇，因为生理需求是真实存在的，再逼真的玩具，不如肉体碰撞来的刺激。&lt;br/&gt;如狼似虎的年纪，似乎也不用再什么证明了。&lt;br/&gt;性，必然是刚需。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#49 cxtrinityy&lt;/strong&gt;：@&lt;a href="/member/jony83"&gt;jony83&lt;/a&gt; 你这离题了，op 说的是补贴残疾人嫖娼，残疾人是小众人群，不适合你的理论。&lt;br/&gt;财富是必然会流动的，不存在必须由政府补贴才能避免穷者恒穷的情况，顶层聚集了财富，需要把钱花出去，他们需要雇人来满足自己的生产与生活。&lt;br/&gt;造反的必然是底层人，因为水漫上来的时候，底层人永远是第一个被逼到死路的。你所谓的中高层只不过顺势而为，他们对造反的渴望来自欲望，底层人则是对生存的需求，另外一种造反则是顶层内部的争斗。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 19 Jul 2026 06:42:48 +0000</pubDate></item><item><title>如何将中美两国的家庭网络组成局域网?</title><link>https://www.v2ex.com/t/1228327</link><description>&lt;p&gt;中国、美国各有一个家庭网络，均有公网 ipv4 ，且可以互相直连，延迟 150ms 左右，比较稳定。
 两个局域网内各有几十台家用设备。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;希望&lt;/strong&gt;: &lt;/p&gt;
 &lt;ol&gt;
@@ -250,7 +253,7 @@ Supplement 1  ·  &lt;span title="2026-07-19 23:06:51 +08:00"&gt;3h 49m ago&lt
 ZeroTier 或 WireGuard 好用吗？&lt;/p&gt;
 &lt;p&gt;提前感谢各位大佬！&lt;/p&gt;
 &lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-07-19 14:51:23 +08:00"&gt;12h 5m ago&lt;/span&gt;
+Supplement 1  ·  &lt;span title="2026-07-19 14:51:23 +08:00"&gt;13h 43m ago&lt;/span&gt;
 &lt;p&gt;&lt;strong&gt;补充&lt;/strong&gt;: &lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;em&gt;&lt;strong&gt;在美国使用中国网络访问淘宝等网站&lt;/strong&gt;&lt;/em&gt;&lt;/li&gt;
@@ -304,4 +307,5 @@ Supplement 1  ·  &lt;span title="2026-07-19 14:51:23 +08:00"&gt;12h 5m ago&lt
 &lt;p&gt;&lt;strong&gt;#36 Autonomous&lt;/strong&gt;：选一侧网关架设 VLESS+Reality+Vision 或者 Hysteria2 服务端，另一侧网关用客户端连。&lt;br/&gt;分别是 TCP 和 QUIC 的方案，两者都试试，哪个好用就留哪个。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#37 92493&lt;/strong&gt;：@&lt;a href="/member/fyq"&gt;fyq&lt;/a&gt; 我感觉是错误的。例子是：我在国内的 exit node 已平稳运行 300 余天，平日连接速度也比较快，两边都是家宽。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#38 enrolls&lt;/strong&gt;：WireGuard + wg-friend 撸起衣袖，用起来再说，出现被墙，生物自然会进化。BTW 小路由(内存小于 512M)的 Hysteria2 我自己发现有转发 bug （在 pve ）下，爬坑的时候注意点。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#39 laminux29&lt;/strong&gt;：@&lt;a href="/member/stephCurry"&gt;stephCurry&lt;/a&gt; #25 SFTP 也是走 SSH 的，GFW 不敢断 SSH ，不然各种互联网基础设施、业务，就得挂掉一大片。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 19 Jul 2026 03:49:18 +0000</pubDate></item></channel></rss>
+&lt;p&gt;&lt;strong&gt;#39 laminux29&lt;/strong&gt;：@&lt;a href="/member/stephCurry"&gt;stephCurry&lt;/a&gt; #25 SFTP 也是走 SSH 的，GFW 不敢断 SSH ，不然各种互联网基础设施、业务，就得挂掉一大片。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#40 zsqduke&lt;/strong&gt;：两边各搞一个 shadowsocks 服务器即可&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 19 Jul 2026 03:49:18 +0000</pubDate></item></channel></rss>
