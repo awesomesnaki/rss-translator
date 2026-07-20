@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sun, 19 Jul 2026 22:31:11 +0000</lastBuildDate><item><title>纸</title><link>https://paper.design/?utm_source=df</link><description>&lt;p&gt;感谢Paper赞助上周在DF的活动。Paper是一款全新的专业设计工具，每一层都是真实的HTML和CSS。你的设计已经等同于代码，这意味着在设计与实际交付之间，减少了交接、转换和抽象层。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Mon, 20 Jul 2026 16:27:36 +0000</lastBuildDate><item><title>'谁害怕中国模式？'</title><link>https://stratechery.com/2026/whos-afraid-of-chinese-models/</link><description>&lt;p&gt;Ben Thompson在Stratechery上对Kimi K3的热议评论道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这一点值得反复强调：由于美国的开放权重模型制造商必须遵守前沿实验室的服务条款，它们（1）比中国的替代方案更差，（2）最终只是在对蒸馏结果进行再蒸馏，只不过绕道经过了中国的实验室。西方开放权重模型制造商如果能直接从源头获取，岂不是更好？&lt;/p&gt;
+&lt;p&gt;为此，关于蒸馏还有一个更有趣的问题：为什么蒸馏一定是坏事？毕竟，大型语言模型本质上不正是前沿实验室从开放互联网上抓取所有知识，蒸馏成模型，而这些模型本身又成为被蒸馏的对象吗？这里究竟谁受了委屈？&lt;/p&gt;
+&lt;p&gt;事实上，这个悖论本身就是解决方案。我认为开放权重模型有利于创新（而且如上所述，我认为前沿实验室不会受太大影响），但依赖中国是个问题。美国应该通过一项法律，（1）明确规定收集数据用于训练模型属于合理使用，（2）至少禁止美国公司在其服务条款中禁止蒸馏。阻止蒸馏——本质上只是查询API——几乎是不可能的；美国应该反其道而行之，推行一项新的版权政策，既保护实验室的利益，又确保它们学到的东西能够为其他人的进一步创新提供动力。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;需要明确的是——Thompson也强调了这一点——像K3这样的中国领先模型并不仅仅因为蒸馏而优秀。它们并非完全抄袭。但蒸馏显然是他们不断发布比美国前沿技术落后6到9个月模型的关键手段。因此，中国把所有模型都视为“开放”，无视服务条款。但任何在美国或尊重版权的其他西方国家想要蒸馏一个好模型的人，都必须等待中国发布他们的模型，比如K3。&lt;/p&gt;
+&lt;p&gt;而我上面引用的第二段恰好提炼出（抱歉用了双关）我为什么想拿出世界上最小的小提琴，为OpenAI和Anthropic演奏一曲悲歌——他们反对自己的前沿模型被违反服务条款进行蒸馏。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/07/20/thompson-chinese-models-distillation" title="Permanent link to ‘‘Who’s Afraid of Chinese Models?’’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Mon, 20 Jul 2026 16:27:36 +0000</pubDate></item><item><title>纸</title><link>https://paper.design/?utm_source=df</link><description>&lt;p&gt;感谢Paper赞助上周在DF的活动。Paper是一款全新的专业设计工具，每一层都是真实的HTML和CSS。你的设计已经等同于代码，这意味着在设计与实际交付之间，减少了交接、转换和抽象层。&lt;/p&gt;
 &lt;p&gt;Paper提供双向工作流：从代码到设计，以及从设计到代码。通过MCP连接任何AI代理，代理可以读取和编辑你的设计。或者使用Paper Snapshot将你的实时网站捕获为可编辑图层，进行新的迭代。代理处理繁琐的工作，让你专注于工艺和重要决策。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://paper.design?utm_source=df"&gt;在paper.design尝试Paper&lt;/a&gt;（域名很棒），并查看&lt;a href="https://paper.design/docs/support?utm_source=df"&gt;文档和常见问题解答以获取更多信息&lt;/a&gt;。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/07/19/paper" title="‘Paper’的永久链接"&gt; ★ &lt;/a&gt;
@@ -96,18 +105,4 @@
 &lt;p&gt;向员工发送个人法律信函的决定突显了苹果的激进策略，此前苹果于上周提起了一起重磅诉讼，指控OpenAI及其两名员工窃取了秘密硬件计划。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;a href="https://daringfireball.net/linked/2026/07/18/apple-letters-to-openai-employees" title="Permanent link to ‘Apple Sends Letters to Dozens of Former Employees Now at OpenAI’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sat, 18 Jul 2026 22:47:59 +0000</pubDate></item><item><title>苹果图书和亚马逊充斥着AI生成的书籍，侵害正版作者</title><link>https://thenewthings.com/p/apple-big-ai-book-slop-problem</link><description>&lt;p&gt;&lt;a href="https://thenewthings.com/p/apple-big-ai-book-slop-problem"&gt;上个月，乔安娜·斯特恩在New Things写道&lt;/a&gt;：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;上个月，就在我的书上架几天后，苹果图书（Apple Books）上便充斥着由人工智能生成的盗版电子书。其中有一本索菲·默瑟写的《乔安娜·斯特恩谈我不是机器人》，还有芬恩·科技写的《我不是机器人》，以及乔安娜·斯特恩（少了一个“n”）写的《我不是机器人》。（&lt;a href="https://www.youtube.com/shorts/IFLMpFzdtgc?feature=share&amp;amp;utm_campaign=apple-s-big-ai-book-slop-problem&amp;amp;utm_medium=referral&amp;amp;utm_source=thenewthings.com"&gt;观看我们最新的视频&lt;/a&gt;，了解所有这些书名及更多内容。）&lt;/p&gt;
-&lt;p&gt;总共，我发现了十本明显是蹭我热度的AI生成电子书，它们用AI生成的封面模仿我真实封面的风格——同样的蓝、黄、红配色。大多数定价为9.99美元，但有些高达20.99美元。[...]&lt;/p&gt;
-&lt;p&gt;今年五月，当我就自己这本书的仿冒品联系苹果公司后，这些盗版书很快就被删除了。[...] 但如今，距离苹果第一次清理过去一个月，问题又来了。本周初，苹果图书上至少还有另外三本《我不是机器人》的仿冒品。（它们似乎后来已被删除。）&lt;/p&gt;
-&lt;p&gt;遭遇这种事的并不只有我。莉娜·邓纳姆的《思乡病》在平台上有多个高仿版。海莉·萨克斯的《未来富人》也出现了高仿品，其封面甚至使用了与真实作者相像的AI生成女性形象。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a href="https://www.nytimes.com/2026/07/16/technology/ai-slop-books-biography-amazon.html?unlocked_article_code=1.ylA.d9nK.UpBzYfszrwa_"&gt;今天，《纽约时报》的喀什米尔·希尔写道&lt;/a&gt;（赠阅链接）：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;最近，我收到一位新熟人发来的奇怪短信。“你竟然有自己的传记？？？”短信写道，“你怎么没告诉我这件事？”&lt;/p&gt;
-&lt;p&gt;我对此毫不知情。于是我上亚马逊去查。结果还真有。一本关于喀什米尔·希尔的传记——标题是《喀什米尔·希尔传记》——已于近一年前，即2025年8月发布。我的生平故事有一个斑驳的棕色封面，出版方是我从未听说过的。这本书没有任何评论，直到我以这本书主人公的身份写了一篇评论，询问我是否可以与作者对话。精装版售价26.99美元，似乎有点贵，但我的编辑还是自掏腰包买了一本，而我被迫读完了它。&lt;/p&gt;
-&lt;p&gt;我的传记有90页，其实应该更短。它结合了互联网上随处可得的关于我的事实，例如我在哪里长大，以及一些对任何人都适用的泛泛之谈，就像一份长达几十页的星座分析。“不理解她的矛盾之处，就无法理解喀什米尔·希尔，”我的传记作者写道，同时还对我繁琐的泡咖啡仪式进行了极其冗长的描述。（事实核查：那是我丈夫做的事。）&lt;/p&gt;
-&lt;/blockquote&gt;&lt;p&gt;这不仅是电子书的问题。如今的打印服务价格如此低廉，以至于有些这类伪书（比如希尔采访到的一位“作者”）会为数百本这种粗制滥造的作品委托印刷版。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/07/17/joanna-stern-ai-ripoff-books" title="Permanent link to ‘Apple Books and Amazon Are Lousy With AI-Generated Books Ripping Off Legitimate Authors’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sat, 18 Jul 2026 00:33:15 +0000</pubDate></item></channel></rss>
+</description><pubDate>Sat, 18 Jul 2026 22:47:59 +0000</pubDate></item></channel></rss>
