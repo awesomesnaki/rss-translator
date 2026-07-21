@@ -1,84 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 21 Jul 2026 01:51:11 +0000</lastBuildDate><item><title>NGINX修复自2011年就引入的高危安全漏洞 在特定配置下可以触发远程代码执行</title><link>https://www.landian.news/archives/113999.html</link><description>
-&lt;p&gt;#安全资讯 NGINX 发布新版本修复 2011 年起就存在的高危安全漏洞，在特定配置下可以触发崩溃以及远程代码执行。该漏洞从 2011 年发布的 0.9.6 版中开始引入，直到近期才被安全研究员发现并报告给 F5 公司。目前 F5 已经发布 1.30.4 稳定版和 1.31.3 主线版修复漏洞，使用 NGINX 的开发者需要及时升级。查看全文：https://ourl.co/113999&lt;/p&gt;&lt;p&gt;反向代理服务器 NGINX 开发商 F5 日前发布新的安全公告披露 CVE-2026-42533 漏洞，攻击者借助该漏洞可以对特定配置下的 NGINX 实例发起攻击，例如导致 NGINX Worker 崩溃以及触发远程代码执行等。目前 F5 已经发布 NGINX 1.30.4 和 1.31.3 版修复漏洞。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113999.png" rel="nofollow"&gt;&lt;img alt="NGINX修复自2011年就引入的高危安全漏洞 在特定配置下可以触发远程代码执行" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113999.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 21 Jul 2026 06:19:35 +0000</lastBuildDate><item><title>OVH披露如何修复数万台宿主机KVM漏洞 未提前通知客户直接中断服务升级</title><link>https://www.landian.news/archives/114007.html</link><description>
+&lt;p&gt;#云计算 OVH 发布报告披露如何修复数万台宿主机和数百万台虚拟机的 KVM 漏洞，漏洞危害太高以至于 OVH 决定不提前通知客户直接操作升级。毫无疑问这种内核升级需要重启宿主机会导致客户业务中断，即便如此 OVH 也认为安全性最重要，不可能协调所有客户进行维护。在实际升级过程中也出现多种问题，例如硬件上的内存故障、BIOS 问题、网卡问题、电源问题等等，这些都靠现场工程师立即拆机修复。查看全文：https://ourl.co/114007&lt;/p&gt;&lt;p&gt;欧洲云计算公司 OVH 日前发布复盘文章介绍该公司如何在不到 10 天内修复数万台服务器和数百万台虚拟机存在的 KVM 虚拟化漏洞，这次修复有个重点值得关注的做法：OVH 并未提前通知所有客户，该公司认为与所有客户协调升级时间是不现实的，所以 OVH 支持团队直接部署升级，这导致诸多虚拟机出现中断。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114007.png" rel="nofollow"&gt;&lt;img alt="OVH披露如何修复数万台宿主机KVM漏洞 未提前通知客户直接中断服务升级" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114007.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; KVM 漏洞对 OVH 以及云计算厂商来说影响非常重大：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.landian.news/archives/113842.html" rel="noopener" target="_blank"&gt;CVE-2026-53359 是影响 Linux Kernel x86 KVM 虚拟化子系统的安全漏洞&lt;/a&gt;，该漏洞属于释放后使用，攻击者可以在虚拟机内触发宿主机 (母鸡) 崩溃，在更严重的情况下，黑客甚至可以穿透虚拟机直接获得母鸡的管理员权限，因此这个漏洞对云计算厂商来说影响非常重大。&lt;/p&gt;
+&lt;p&gt;OVH 托管的大量 VPS 服务器和公有云实例都运行在 KVM 虚拟化架构上，就 OVH 而言，承载这数百万台虚拟机的数万台宿主机需要升级内核修复漏洞，OVH 的内部测试表明，在未修复的宿主机上执行漏洞利用代码，只需要 2 分钟就可以触发宿主机崩溃，因此 OVH 必须立即执行内核升级。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;CVE-2026-42533 并非只要安装 NGINX 就可以被攻击，该漏洞触发条件与具体配置有关，主要是出现在使用基于正则表达式的 map 指令上，并且相关变量还需要在字符串表达式中引用前面正则匹配产生的捕获值时才能触发。&lt;/p&gt;
-&lt;p&gt;简单来说问题出在 NGINX 处理这类表达式时会先计算需要多大的缓冲区再把内容写进去，但是在特定配置下中间的正则匹配会改变捕获状态，导致 NGINX 分配的缓冲区大小与实际写入内容不一致，最终出现堆栈缓冲区溢出问题。&lt;/p&gt;
-&lt;p&gt;F5 按照 CVSS 不同版本对 CVE-2026-42533 给出不同的评分，在 CVSS 4.0 体系下该漏洞评分为 9.2 分，在 CVSS 3.1 体系下该漏洞评分为 8.1 分，F5 称该漏洞攻击复杂度为高，受影响的版本范围为 0.9.6~1.31.2，也就是该漏洞也已经存在十几年。&lt;/p&gt;
+&lt;p&gt;此次漏洞修复工作中存在的争议是，OVH 没有提前通知客户就直接执行会中断业务运行的升级操作。OVH 认为单个 VPS 用户触发漏洞就可能导致承载该 VPS 的物理宿主机崩溃，连带影响这台宿主机上的其他虚拟机，甚至可能出现虚拟化逃逸、获得宿主机控制权、窃取数据等严重情况。&lt;/p&gt;
+&lt;p&gt;而在公有云场景下，虽然宿主机上运行的实例数量比较少，但这些实例往往承载的是数据库、队列、负载均衡等更加关键的业务组件，所以公有云实例也同样受到严重的安全威胁。&lt;/p&gt;
+&lt;p&gt;有鉴于此 OVH 最终决定按照自己的计划执行内核升级措施，而不是挨个联系所有客户协商升级时间，不过 OVH 通过单独渠道联系企业级客户告知升级时间，至于大量 VPS 用户除非登录控制台否则不会看到升级通知，因为群发邮件数量太大可能会导致工单系统爆炸，所以 OVH 也没有群发邮件通知。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;F5 建议使用 NGINX 的开发者立即升级到不受影响的新版本，其中稳定版需要更新到 NGINX 1.30.4 版，主线版需要更新到 NGINX 1.31.3 版，商业版本需要升级到 NGINX Plus 37.0.3.1 版。如果暂时无法升级到新版本，则需要部署缓解措施尽可能避免漏洞被触发，例如将受影响的正则 map 配置为命名捕获，避免使用 $1、$2 这类编号捕获值。&lt;/p&gt;
-&lt;p&gt;不过需要注意的是，发现漏洞的安全研究员称命名捕获只能覆盖主要利用路径，在非常特定的配置下仍然存在变体风险，因此临时缓解方案只能是在无法升级时的过渡方案，想要彻底解决这个安全问题必须升级到修复漏洞的新版本。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://www.landian.news/go?url=https://nginx.org/en/security_advisories.html" rel="noopener" target="_blank"&gt;F5 NGINX&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;数万台宿主机要升级重启肯定会出现意外情况，尤其是这些物理服务器可能会因为硬件问题出现中断，在实际升级过程中 OVH 遇到诸多问题，例如部分虚拟机在宿主机重启后没有自动恢复、部分同步服务数据损坏、宿主机无法正常重启 (必须将 CMOS 电池拆掉释放电量后再装回去)。&lt;/p&gt;
+&lt;p&gt;所以 OVH 各地的支持团队都严阵以待，待在机房里的工程师需要随时响应虚拟机无法恢复的情况，如果是软件问题 (部分服务死锁导致无法恢复) 需要立即联机进行干预，如果是硬件问题则需要定位对应的宿主机并拆下来排查，例如在第一波升级中 6000 台宿主机有 20~30 台无法自行恢复，现场工程师就地拆机处理内存、BIOS、网卡以及电源问题等等。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 虽然导致客户业务中断但 OVH 认为这是有必要的：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;OVH 始终认为所有客户的业务稳定和数据安全是最重要的事情，所以即便在升级前 OVH 已经预料到可能会出现意外问题导致客户业务出现长时间中断，OVH 仍然决定推进升级，OVH 觉得在漏洞风险面前，逐台等待客户确认维护窗口并不现实，迟一秒修复漏洞带来的风险都在增加。&lt;/p&gt;
+&lt;p&gt;这次事件其实也说明，云计算厂商在处理关键漏洞时，必须在安全风险、客户可用性、热迁移能力、硬件故障率和通知机制等因素之间做取舍，如果单纯为客户可用性而延迟升级，就有可能造成更大的安全风险。&lt;/p&gt;
+&lt;p&gt;对普通云服务用户而言，能做的事情主要就是保障业务具备基本冗余特性，不要将关键服务放在单台实例上，至少出现服务器中断时还可以通过冗余服务器继续为下游用户提供服务。&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 21 Jul 2026 01:51:11 +0000</pubDate></item><item><title>[技巧] 如何阻止Windows 10/11自动下载LG显示器静默下载安装广告软件</title><link>https://www.landian.news/archives/113998.html</link><description>
-&lt;p&gt;#技术教程 如何阻止 Windows 10/11 自动下载安装 LG 显示器捆绑的广告软件？早前 LG 显示器未经用户同意静默安装配套软件弹广告引起用户关注，其他 OEM 例如雷蛇等也会静默安装配套软件 (冗余软件)。微软确实预留组策略入口可以实现禁止下载，这样用户就可以按照自己需求决定是否自行去软件官网下载配套软件，而不是被强制安装。操作方法：https://ourl.co/113998&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/113846.html" rel="noopener" target="_blank"&gt;前段时间有网友发现自己购买的 LG 显示器会自动下载安装广告软件然后在桌面上弹窗推广迈克菲&lt;/a&gt;，这种行为引起大量用户的关注和讨论，而从网上搜索相关信息可以查到最初在 2025 年 7 月 LG 就开始通过显示器自动安装配套软件 (被网友称为垃圾软件)，这个配套软件是强制自动安装的。&lt;/p&gt;
-&lt;p&gt;LG 称配套软件可以控制和微调显示器，例如执行多显示器切换以及对屏幕色彩进行调整等，只不过近期 LG 更新配套软件并添加推广功能，由于微软商店很多年前就已经删除应用更新日期，所以目前无法查清 LG 具体在什么时候添加带有广告的新版本配套软件。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113846.png" rel="nofollow"&gt;&lt;img alt="[技巧] 如何阻止Windows 10/11自动下载LG显示器静默下载安装广告软件" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113846.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 21 Jul 2026 06:19:35 +0000</pubDate></item><item><title>升级UEFI CA 2023不容易 在微软交流会上诸多IT管理员反馈更新证书存在问题</title><link>https://www.landian.news/archives/114006.html</link><description>
+&lt;p&gt;#系统资讯 升级 UEFI CA 2023 不容易，在微软交流会上诸多 IT 管理员反馈证书迁移问题。UEFI CA 2011 证书已经在 6 月过期，微软从年初开始就在推送新证书，理论上说整个过程都是平滑迁移的。只不过在实际落地过程中受限于硬件年代、BIOS 固件和 OEM 支持，很多设备无法正常迁移证书，尤其是 HP 设备。查看全文：https://ourl.co/114006&lt;/p&gt;&lt;p&gt;微软上周在&lt;a href="https://www.landian.news/go?url=https://techcommunity.microsoft.com/event/windowsevents/oem-secure-boot-office-hours/4530352" rel="noopener" target="_blank"&gt;技术交流社区&lt;/a&gt;邀请企业 IT 管理员参与讨论 UEFI CA 2023 证书更新问题，包括宏碁、华硕、戴尔、惠普、联想以及微软自家的 Microsoft Surface 团队都参与进来回答 IT 管理员提出的安全启动证书更新问题，不过从 IT 管理员反馈来看，目前更新证书存在诸多问题。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114006.png" rel="nofollow"&gt;&lt;img alt="升级UEFI CA 2023不容易 在微软交流会上诸多IT管理员反馈更新证书存在问题" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114006.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;为什么 LG 显示器在连接后可以实现自动下载垃圾软件而无需用户同意呢？这说到底还是和微软执行的策略有关，微软向 OEM 提供设备元数据关联应用下载功能，OEM 只需要提前准备好配套软件然后在设备元数据里添加相关标记即可，在 LG 显示器案例中，只要用户连接 LG 显示器且已经联网，那么 Windows 10/11 就会自动从微软商店里下载安装这个配套软件，无需经过用户同意。&lt;/p&gt;
-&lt;p&gt;遗憾的是尽管 LG 显示器广告问题引起诸多关注，但直到现在 LG 和微软都没有发布任何回应，从某些方面来说 LG 可以说是在滥用微软的元数据关联应用机制，原本这个功能是用来下载配套软件和必要驱动程序的，LG 拿它来捆绑软件弹广告。&lt;/p&gt;
+&lt;p&gt;此次交流会的背景是 UEFI CA 2011 证书已经在 2026 年 6 月到期，从年初开始微软就在向设备推送 UEFI CA 2023 证书，对于个人设备而言微软会直接通过系统更新推送证书，部分设备可以平滑更新证书不需要执行额外的步骤，而企业设备则需要 IT 管理员执行证书更新。&lt;/p&gt;
+&lt;p&gt;对于尚未更新证书的设备，虽然不至于导致设备无法启动或无法正常使用，但长期未更新证书会影响后续安装累积更新，当然也可能导致系统无法正常升级到 Windows 11 后续版本。对于合规要求较高的企业，IT 管理员都在陆续更新证书，避免无法安装必要的安全更新。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;对于下载关联应用这事儿，微软也给企业用户预留开关，IT 管理员可以通过组策略禁止硬件设备自动关联下载应用，对于普通用户而言也可以自己修改组策略实现阻止，像是 LG 显示器以及部分雷蛇硬件都有自动捆绑下载冗余软件的情况，用户完全可以阻止后自己按需下载配套软件。&lt;/p&gt;
-&lt;p&gt;不过这个方法不太推荐给普通用户使用，因为禁止元数据下载关联应用后可能会导致部分硬件无法下载配套软件，如果普通用户又不知道如何自行下载配套软件那就有可能影响后续的使用体验，所以在这里蓝点网仅推荐专业用户操作组策略实现阻止。&lt;/p&gt;
-&lt;p&gt;注意：Windows 10/11 家庭版没有组策略功能，通过组策略进行配置仅适用于专业版和企业版系列。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113998-1.png" rel="nofollow"&gt;&lt;img alt="[技巧] 如何阻止Windows 10/11自动下载LG显示器静默下载安装广告软件" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113998-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113998-2.png" rel="nofollow"&gt;&lt;img alt="[技巧] 如何阻止Windows 10/11自动下载LG显示器静默下载安装广告软件" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113998-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在交流会上很多 IT 管理员反馈自己更新证书遇到的问题，有 IT 管理员咨询是否存在停留在 2011 证书且永远无法升级 2023 证书的设备，微软 Surface 团队给出的答复是符合更新条件的 Surface 设备仍然可以更新，但是在 Windows 8 时代推出的 Surface 设备不符合条件，例如 Surface Pro 3、Surface 3 以及更旧的机型都无法更新证书。&lt;/p&gt;
+&lt;p&gt;惠普方面也给出类似说明，2019 年及之后推出的惠普商用设备在升级到最新版 BIOS 固件后会默认启用 2023 证书，HP G8 及后续发布的商用设备也可以通过更新 BIOS 固件获得新证书，换句话说，厂商支持边界和 BIOS 版本会直接影响迁移结果。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;1.Windows 10/11 搜索框搜索关键词 组策略 或 Win+R 打开运行然后输入 gpedit.msc 按回车。&lt;/p&gt;
-&lt;p&gt;2. 打开组策略后依次转到：计算机配置、管理模板、系统、设备安装。&lt;/p&gt;
-&lt;p&gt;3. 在设备安装里找到子选项：阻止自动下载与设备元数据关联的应用程序。&lt;/p&gt;
-&lt;p&gt;4. 双击这个子选项打开对话框然后将其策略从 未配置 改成 已启用 保存即可。&lt;/p&gt;
+&lt;p&gt;交流会中有关惠普设备更新证书的反馈最多，例如有 IT 管理员在 HP EliteBook 840 G6 上迁移证书遇到问题，文档写明最低 BIOS 版本为 01.33.00，但实际直到 01.35.01 才能更新证书，随后更新证书后又陷入 Microsoft BitLocker 恢复循环。&lt;/p&gt;
+&lt;p&gt;这名 IT 管理员表示，惠普曾表示 2018 年及之后的设备都可以更新证书，但后来部分设备疑似因为 NVRAM 空间不足，被惠普从兼容性列表里移除，导致这些设备无法获得惠普官方支持的证书迁移。&lt;/p&gt;
+&lt;p&gt;也有 IT 管理员反馈称，自己的团队管理超过 7000 台 HP EliteBook/ZBook，测试最新版 BIOS 后如果强制更新证书，会触发 Microsoft BitLocker 恢复界面，因此如果批量部署后大量设备同时要求恢复密钥，那 IT 支持团队会遇到非常麻烦的支持压力。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;从目前反馈来看还有大量机型无法平滑迁移到新证书，微软并未公布个人设备里有多少无法更新的，但从 IT 管理员反馈来看，个人设备可能也有大量设备没有正常更新证书，这就会影响后续接收安全更新，也就是 Windows 11 安全性会被削弱。&lt;/p&gt;
+&lt;p&gt;而要解决这些问题最终还是得靠微软和 OEM，理论上说整个过程应该是自动无缝迁移的，但实际落地明显受硬件年代、BIOS 支持以及企业配置影响，所以如果 OEM 不提供 BIOS 更新和支持的话，IT 管理员想要批量迁移几乎是不可能的。&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 21 Jul 2026 01:30:38 +0000</pubDate></item><item><title>真是活久见！在短短24小时内Linux Kernel发布高达440个漏洞CVE公告</title><link>https://www.landian.news/archives/113997.html</link><description>
-&lt;p&gt;#安全资讯 真是活久见！在短短 24 小时内 Linux Kernel 发布高达 440 个漏洞公告，涉及部分高危安全漏洞。其中在 7 月 19 日内核项目发布 431 个漏洞 CVE 公告，在 7 月 20 日又补充发布 9 个漏洞 CVE 公告。可能是漏洞太多以至于内核团队并未单独注明每个漏洞的 CVSS 评分，不过这些漏洞里大多数都已经在公布前就已经修复并合并到内核稳定版中。查看全文：https://ourl.co/113997&lt;/p&gt;&lt;p&gt;人工智能的漏洞检测效率正在秒杀人类安全研究员，过去一段时间已经有很多知名项目被爆出高危安全漏洞，这里面有很多漏洞都是人工智能模型发掘出来的，而最为知名的 Linux 内核项目也同样在被人工智能发掘漏洞，尤其是现在竟然在 24 小时内集中发布 440 个漏洞公告。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113997.png" rel="nofollow"&gt;&lt;img alt="真是活久见！在短短24小时内Linux Kernel发布高达440个漏洞CVE公告" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113997.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 21 Jul 2026 05:14:11 +0000</pubDate></item><item><title>开源私有云软件Nextcloud遭到黑客攻击 网站被黑但开发商谎称基础架构问题</title><link>https://www.landian.news/archives/114005.html</link><description>
+&lt;p&gt;#安全资讯 开源私有云软件 Nextcloud 遭到黑客攻击，网站被黑但开发商谎称是基础设施架构问题。这件事发生在昨天早晨，当时 Nextcloud 被重定向到某个钓鱼网站，被发现异常后 Nextcloud 主站点被下线，IT 团队称是基础设施架构问题正在恢复数据。值得注意的是 Nextcloud 官网使用的也是 WP 系统，不知道这次被黑是否与 wp2shell 漏洞有关。查看全文：https://ourl.co/114005&lt;/p&gt;&lt;p&gt;知名的开源私有云软件 Nextcloud 在昨天上午遭到黑客攻击 (国内时间大约是 7 月 20 日早晨 7 点前后)，目前尚不清楚此次攻击发生的具体原因，因为 Nextcloud 到现在也没有发布详细的安全公告，在支持论坛中该公司称基础架构遇到问题正在从备份中恢复数据。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114005.png" rel="nofollow"&gt;&lt;img alt="开源私有云软件Nextcloud遭到黑客攻击 网站被黑但开发商谎称基础架构问题" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114005.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在 2026 年 7 月 19 日内核项目更新安全公告页面，发布 431 个漏洞 CVE 编号和对应的漏洞安全公告，而在 7 月 20 日又补充发布 9 个漏洞 CVE 编号和对应的漏洞安全公告，这使得这批漏洞公告合计达到 440 个。需要注意的是正常来说发布漏洞公告的同时意味着漏洞已经在修复或已经着手修复中，所以使用 Linux 的用户无需恐慌。&lt;/p&gt;
-&lt;p&gt;这 440 个漏洞里大多数都已经完成修复并合并到内核稳定版，所以对使用 Linux 的用户而言只需要将内核升级到最新版即可，当然优先建议用户使用 Linux 发行版开发商提供的适配的内核，如果长时间没有内核更新才需要考虑手动下载内核源代码进行编译。&lt;/p&gt;
+&lt;p&gt;Nextcloud 被黑后网站被重定向到某个仿冒的钓鱼网站，期初 IT 管理团队并未发现相关异常情况，随后在社交网站很多用户注意到访问 Nextcloud 官网但被跳转到名为 Cloudbox 的网站，后面 IT 管理团队发现异常后临时将 Nextcloud 主站下线并开始检查问题。&lt;/p&gt;
+&lt;p&gt;Nextcloud 主站点使用的也是内容管理系统 WordPress，&lt;a href="https://www.landian.news/archives/114000.html" rel="noopener" target="_blank"&gt;这不得不让人怀疑此次被黑是否与最新爆出的 wp2shell 漏洞有关&lt;/a&gt;，如果 Nextcloud 没有及时升级修复漏洞就有可能被黑客利用，黑客可以创建管理员账号并修改首页文件将其重定向到钓鱼网站。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;由于这批漏洞公告是集中发布的，内核团队并未单独公布每个漏洞的 CVSS 评分，或者说漏洞太多暂时还没顾上对漏洞进行评分，所以暂时无法判断哪些漏洞危害程度更高，哪些漏洞可能属于小问题。仅从漏洞描述上看部分涉及网络存储服务、SMB 服务以及 KVM 虚拟化方面的漏洞可能危害更高。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;CVE-2026-53362：新的 frag 变种漏洞，该漏洞可在 RHEL 等系统上进行提权或容器逃逸等。&lt;/li&gt;
-&lt;li&gt;CVE-2026-53383：ksmbd 会话校验及越界读取，启用内核 SMB 服务的服务器需要关注。&lt;/li&gt;
-&lt;li&gt;CVE-2026-63801：TIPC 相关的使用后释放，在启用并暴露 TIPC 时具有一定的安全风险。&lt;/li&gt;
-&lt;li&gt;CVE-2026-63794：KVM/SEV 页面溢出和 guest-triggerable BUG_ON 以及缓冲区校验问题。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;via &lt;a href="https://www.landian.news/go?url=https://lore.kernel.org/linux-cve-announce/" rel="noopener" target="_blank"&gt;Linux CVE Announce&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Nextcloud 在其&lt;a href="https://www.landian.news/go?url=https://help.nextcloud.com/t/nextcloud-com-offline/247123/14" rel="noopener" target="_blank"&gt;官方支持论坛&lt;/a&gt;中强调此次临时故障属于基础设施架构问题，IT 团队已经通过备份数据恢复网站，受影响的也只有主站点，更新和下载流程不受影响，而客户相关数据都在其他服务器上因此也没有出现数据泄露问题。&lt;/p&gt;
+&lt;p&gt;只是 Nextcloud 并未承认这是安全问题以及没有发布详细的安全调查报告，所以是否有客户数据泄露可能还需要观察。&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 21 Jul 2026 01:05:33 +0000</pubDate></item><item><title>源代码显示Codex已经将窗口从372K下调到272K 还特别注明禁止删除用户目录</title><link>https://www.landian.news/archives/113979.html</link><description>
-&lt;p&gt;#软件资讯 源代码显示 Codex 已经将窗口从 372K 下调到 272K，系统提示词还特别增加：无论如何都禁止执行 rm -rf $HOME 命令。下调窗口主要是解决 GPT-5.6 Sol 计费异常问题，此前蒂博已经提前预告过，而且后续解决问题后会重新调回来。预设禁止执行命令则是缓解 Sol 删除用户文件问题，此前有开发者主目录被误删损失惨重。查看全文：https://ourl.co/113979&lt;/p&gt;&lt;p&gt;Codex 开源代码所以我们可以从代码库中看到开发团队日常提交的部分值得关注的变更，2 天前 Codex 新变更的代码显示，现在窗口长度已经从 372K 下调到 272K，并且还特别注明无论如何都不能使用 rm -rf 命令删除用户主目录，这次变更也是对近期 Codex 出现的各类问题进行修正。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/02/111836.png" rel="nofollow"&gt;&lt;img alt="源代码显示Codex已经将窗口从372K下调到272K 还特别注明禁止删除用户目录" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/02/111836.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;此次 Codex 将窗口长度从 372K 下调到 272K 并不是悄悄进行的，Codex 技术经理蒂博已经提前预告会暂时下调到 272K，后续修复问题后再重新恢复到 372K。下调原因主要是在 372K 窗口下使用 GPT-5.6 Sol 可能出现计费方面的问题，即开发者可能会注意到用量消耗过快。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113979-1.png" rel="nofollow"&gt;&lt;img alt="源代码显示Codex已经将窗口从372K下调到272K 还特别注明禁止删除用户目录" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113979-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;调整为 272K 后有助于解决用量消耗过快问题，不过这也可能导致 Codex 更频繁地触发压缩机制，也有开发者称频繁触发压缩可能会导致 Codex 失忆，尤其是在执行长任务时，压缩后 Codex 丢失部分记忆以至于执行重复工作，但这个问题暂时还未确认。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;有趣的是在系统提示词里 Codex 现在还特别注明无论如何都不能执行 rm -rf $HOME 命令，这是因为近期有开发者使用 GPT-5.6 Sol 时遇到被 Codex 删除主目录的情况，蒂博此前解释称问题发生原因主要与模型做法有关，即模型尝试覆盖 $HOME 环境变量来自定义临时目录，当模型犯错时就有可能导致整个主目录被删。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113979-2.png" rel="nofollow"&gt;&lt;img alt="源代码显示Codex已经将窗口从372K下调到272K 还特别注明禁止删除用户目录" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113979-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;删除用户文件属于非常严重的错误，&lt;a href="https://www.landian.news/archives/113963.html" rel="noopener" target="_blank"&gt;所以 Codex 现在会更频繁地提醒用户不要开启完全访问模式&lt;/a&gt;，尽可能手动审批命令或使用替我审批选项，这种情况下有助于阻止模型使用 rm -rf 命令删除敏感路径，但要说方便肯定还是完全访问权限方便，模型可以不受阻碍地执行各类命令来完成任务，只不过风险也是非常高的。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113963-2.png" rel="nofollow"&gt;&lt;img alt="源代码显示Codex已经将窗口从372K下调到272K 还特别注明禁止删除用户目录" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113963-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;现在在系统提示词里预设指令禁止模型执行 rm -rf $HOME 或许也有助于改善误删用户主目录问题，对仍然使用完全访问权限的开发者来说，升级到新版本是非常有必要的，至少懒得审批时还有系统提示词来阻止模型执行删除目录命令。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://www.landian.news/go?url=https://github.com/openai/codex/pull/33972/changes" rel="noopener" target="_blank"&gt;Codex Pull #33972&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 20 Jul 2026 03:49:38 +0000</pubDate></item><item><title>微软发布KB5121767紧急带外更新用于替代7月例行更新 解决部分戴尔设备故障</title><link>https://www.landian.news/archives/113978.html</link><description>
-&lt;p&gt;#系统资讯 微软发布紧急带外更新 KB5121767 用于替代 7 月例行更新，解决部分戴尔设备可能出现的意外关机、性能下降、过热和电池消耗过快问题。该更新只会面向受影响的设备推送，所以其他未受影响的设备不会收到更新，用户也无需反复点击检查更新按钮获取更新。查看全文：https://ourl.co/113978&lt;/p&gt;&lt;p&gt;上周微软发布 2026 年 7 月的例行安全更新，&lt;a href="https://www.landian.news/archives/113960.html" rel="noopener" target="_blank"&gt;不过当时该更新被发现在戴尔设备上与英特尔 USB-C 驱动存在兼容性故障&lt;/a&gt;，这可能导致受影响的设备意外关机、性能下降、过热以及电池消耗过快等问题。为此当时微软直接在云端屏蔽受影响戴尔设备获取更新，现在修复版已经发布。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113978.png" rel="nofollow"&gt;&lt;img alt="微软发布KB5121767紧急带外更新用于替代7月例行更新 解决部分戴尔设备故障" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113978.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;微软发布的原始更新编号为 KB5101650，为解决兼容性故障，微软已经发布紧急带外更新 KB5121767 用于替代原始更新，这个新的带外更新只会面向受影响的设备推送，其他不受影响的设备无需安装该更新，因为更新内容本质上没有太大差别。&lt;/p&gt;
-&lt;p&gt;微软在支持文档中表示：部分戴尔设备此前因故障暂时无法接收 KB5101650 安全更新，现在这些设备可以安装此带外更新 (OOB)，这个带外更新仅建议受影响的设备安装。其他不受影响的设备无需安装，所以用户也不需要前往更新页面反复点击检查更新。&lt;/p&gt;
+</description><pubDate>Tue, 21 Jul 2026 04:38:00 +0000</pubDate></item><item><title>A社调整Claude Team订阅成员限制 起步从5人下调到2人以便更多小团队开通订阅</title><link>https://www.landian.news/archives/114004.html</link><description>
+&lt;p&gt;#人工智能 A 社宣布调整 Claude Team 团队订阅机制，从最小 5 人席位下调到 2 人席位，即现在只需要 2 个成员就可以开通团队账号。此次调整有利于让规模更小的团队开通订阅，例如有的团队只有 3 名成员，以前是无法开通团队订阅的。现在调整后可以开通并且将工作内容共享到工作区中方便所有成员查看。查看全文：https://ourl.co/114004&lt;/p&gt;&lt;p&gt;A 社本周发布消息宣布调整 Claude Team 团队版订阅，此次调整主要涉及成员人数变化而不是价格变化，原本团队订阅最起码要开通 5 个订阅席位，此次更新后缩减到 2 个席位，这样更多小团队可以开通 Claude Team 订阅并使用团队管理等功能。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114004.png" rel="nofollow"&gt;&lt;img alt="A社调整Claude Team订阅成员限制 起步从5人下调到2人以便更多小团队开通订阅" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114004.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Dell Pro Max 14 Premium MA14250&lt;/li&gt;
-&lt;li&gt;Dell Pro Max 16 Premium MA16250&lt;/li&gt;
-&lt;li&gt;Dell Pro Precision 7 14 PW714260&lt;/li&gt;
-&lt;li&gt;Dell Pro Precision 7 16 PW716260&lt;/li&gt;
-&lt;li&gt;Dell Precision 5470&lt;/li&gt;
-&lt;li&gt;Dell Precision 5480&lt;/li&gt;
-&lt;li&gt;Dell Precision 5490&lt;/li&gt;
-&lt;li&gt;Dell Precision 5770&lt;/li&gt;
-&lt;li&gt;Dell XPS 17 9720&lt;/li&gt;
-&lt;li&gt;Dell XPS 17 9730&lt;/li&gt;
+&lt;li&gt;成员数量：开通团队订阅至少需要两名成员，不支持个人用户开通&lt;/li&gt;
+&lt;li&gt;企业邮箱：开通团队订阅必须使用企业邮箱注册，不支持公共域名邮箱&lt;/li&gt;
+&lt;li&gt;支持升级：已经开通个人订阅后，可以升级到 Claude Team 订阅&lt;/li&gt;
+&lt;li&gt;账号独立：团队订阅与个人订阅不冲突，用户可以在不同订阅之间切换&lt;/li&gt;
+&lt;li&gt;合并迁移：如果用户不想使用多个账号，也可以将个人账号直接迁移到团队账号&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;如果用户明确同意将个人账号迁移到团队订阅账号，迁移的同时会将聊天记录、项目、文件以及记忆等可能包含大量隐私信息的内容迁移到团队工作区，同时如果个人账号已经开通 Claude Pro 或 Claude Max 订阅，则这些订阅会被自动取消并换成 Claude Team (若通过苹果 IAP 开通的订阅则必须在迁移前先取消订阅)。&lt;/p&gt;
+&lt;p&gt;需要特别注意的是个人账号的所有内容被迁移到团队工作区后，无法再迁移回个人账号，所以建议用户最好还是继续同时保持个人账号和团队账号，这样以后要是退出团队现有的聊天内容也不会丢失。&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 20 Jul 2026 03:07:26 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 21 Jul 2026 04:04:40 +0000</pubDate></item><item><title>编码软件OpenCode封禁8,000个账号 使用黑卡订阅转售API再申请退款</title><link>https://www.landian.news/archives/114003.html</link><description>
+&lt;p&gt;#人工智能 AI 编码软件 OpenCode 封禁 8,000 个违法薅羊毛账号，使用黑卡订阅再转售 API 给下游中转站。8,000 个账号理论成本为每月 80,000 美元，只不过黑灰产团伙使用的都是被盗信用卡。当信用卡持有人发现被盗刷后就会提交争议最后拿回退款，最后受伤的也只有 OpenCode。查看全文：https://ourl.co/114003&lt;/p&gt;&lt;p&gt;开源人工智能编码软件 OpenCode 团队日前发布消息称，已经封禁某个运营超过 8,000 个欺诈性 OpenCode Go 账号的团队，这个团队 (可能是中游) 通过开通大量订阅然后将 AI 模型权益反代出去转售，每月转售价值超过 48 万美元的 AI 模型权益。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114003.png" rel="nofollow"&gt;&lt;img alt="编码软件OpenCode封禁8,000个账号 使用黑卡订阅转售API再申请退款" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114003.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;OpenCode Go 账号首月开通优惠价为 5 美元，次月开始每月 10 美元，8,000 个账号每月订阅成本为 80,000 美元，对 OpenCode 团队来说如果正常开通账号然后转售 API 权益那估计还能接受，毕竟自己也能拿到 8 万美元的收益，只是这个团队开通订阅使用的是黑卡。&lt;/p&gt;
+&lt;p&gt;使用被盗的信用卡开通订阅，当信用卡持有人发现异常交易并向银行或支付通道发起申诉时，银行或支付通道就有可能要求 OpenCode 全额退款，这种违法薅羊毛方式当然也会让 OpenCode 损失惨重，所以彻底封禁这些账号是必须的。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;对于黑灰产团队而言尽可能降低成本是必须的，尤其是 API 中转站行业竞争非常激烈，中转站必须提供足够低的价格才能吸引更多用户使用。所以作为上游的黑灰产团伙压根不会真金白银地开通订阅，毕竟这样成本非常高即便转售 API 利润非常低。&lt;/p&gt;
+&lt;p&gt;所以有不同的黑灰产团伙负责不同的环节，例如上游黑客负责通过钓鱼网站窃取信用卡信息然后转售，中游黑灰产团伙购买被盗信用卡信息开通 OpenCode Go 订阅，然后再将开通好的成品账号转售给下游 API 中转站，下游 API 中转站最后反代账号将订阅配额提供给最终用户。&lt;/p&gt;
+&lt;p&gt;大家看到的各种超低价 API 中转站可能就是这么来的，中转站运营者可能都不知道上游成品账号的来路，毕竟对中转站来说只要账号数量足够、使用稳定、成本非常低那就万事大吉了。&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 21 Jul 2026 03:24:09 +0000</pubDate></item></channel></rss>
