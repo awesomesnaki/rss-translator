@@ -85,4 +85,5 @@ feeds:
     fetch_full_content: true
   - name: "testingcatalog"
     url: "https://www.testingcatalog.com/rss/"
+    fetch_full_content: true
   # 按这个格式添加更多源
