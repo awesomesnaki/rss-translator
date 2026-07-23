@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 21 Jul 2026 22:49:03 +0000</lastBuildDate><item><title>★ 欧盟委员会：《关于安卓系统AI互操作性及谷歌搜索共享对谷歌的指导》</title><link>https://daringfireball.net/2026/07/ec_google_guidance_android_ai_and_search_sharing</link><description>&lt;p&gt;&lt;a href="https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1634"&gt;上周，欧盟委员会&lt;/a&gt;：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Thu, 23 Jul 2026 15:41:25 +0000</lastBuildDate><item><title>Flighty新连接助手功能</title><link>https://9to5mac.com/2026/07/07/flighty-update-adds-powerful-new-connection-assistant-feature/</link><description>&lt;p&gt;9to5Mac的Chance Miller：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Flighty的新连接助手功能会为你的具体转机提供分步指引。这包括航站楼变更、安检点、护照检查等事项。连接助手还会估算每个转机步骤通常所需的时间。&lt;/p&gt;
+&lt;p&gt;“新的连接助手将Flighty顶级的航班追踪数据与机场特定流程以及数百万次过往航班的统计模型相结合，然后为你的具体行程提供引导，”Flighty团队在今天的&lt;a href="https://docs.craft.do/editor/d/a89c6d38-642e-8105-e733-9c434670c92d/7548402b-cf3f-4f0f-97a5-b064e2eae53c?s=ZH1ghei9FDddBnK4k6Q3R5xLCTukRr2wWjERBd6VJYc7"&gt;新闻稿&lt;/a&gt;中解释道。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我不知道iPhone应用应该如何对应“Mac范儿”这个说法，但无论是什么，Flighty就是它的典范。在功能上极其实用，在视觉外观、手感和组织结构上堪称楷模。它是一款iOS范儿十足的应用。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/07/23/flighty-connection-update" title="永久链接至‘Flighty新连接助手功能’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Thu, 23 Jul 2026 15:41:25 +0000</pubDate></item><item><title>★ 欧盟委员会：《关于安卓系统AI互操作性及谷歌搜索共享对谷歌的指导》</title><link>https://daringfireball.net/2026/07/ec_google_guidance_android_ai_and_search_sharing</link><description>&lt;p&gt;&lt;a href="https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1634"&gt;上周，欧盟委员会&lt;/a&gt;：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;今天，欧盟委员会根据《数字市场法案》向谷歌发布了两套具有约束力的规格措施。&lt;/p&gt;
 &lt;p&gt;第一套规格措施的目的是确保竞争对手的人工智能（AI）服务能够与谷歌自身的AI服务（如Gemini）竞争，通过平等获取谷歌安卓设备上的功能。&lt;/p&gt;
@@ -55,18 +62,4 @@
 &lt;p&gt;Paper提供双向工作流：从代码到设计，以及从设计到代码。通过MCP连接任何AI代理，代理可以读取和编辑你的设计。或者使用Paper Snapshot将你的实时网站捕获为可编辑图层，进行新的迭代。代理处理繁琐的工作，让你专注于工艺和重要决策。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://paper.design?utm_source=df"&gt;在paper.design尝试Paper&lt;/a&gt;（域名很棒），并查看&lt;a href="https://paper.design/docs/support?utm_source=df"&gt;文档和常见问题解答以获取更多信息&lt;/a&gt;。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/07/19/paper" title="‘Paper’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sun, 19 Jul 2026 22:31:11 +0000</pubDate></item><item><title>9to5Mac发现苹果巴西应用商店中存在数十个伪装成其他应用的赌博应用</title><link>https://9to5mac.com/2026/07/17/investigation-reveals-dozens-of-disguised-gambling-apps-on-the-app-store-in-brazil/</link><description>&lt;p&gt;9to5Mac：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;浏览 App Store 排行榜的巴西用户发现，在导航、旅行和天气等类别中，越来越多的粗制滥造的游戏出现在前列，其中许多游戏使用 AI 生成的动物插图作为应用图标。&lt;/p&gt;
-&lt;p&gt;事实证明，这些就是所谓的“夹克应用”，它们只是隐藏的博彩和赌博应用的前端。9to5Mac 的一项调查发现了 60 多个此类应用，当从世界上几乎任何地方（巴西除外）访问时，它们的行为与 App Store 截图完全一致。&lt;/p&gt;
-&lt;p&gt;当从巴西 IP 地址打开时，同样的应用会显示出在线赌博平台，如下例所示，该应用目前是天气类别的第一名。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;显然，主要问题在于这些应用以特洛伊木马的方式伪装自己，并通过 App Store 审核而不被发现。不过，我认为指望 App Store 审核能抓住所有此类尝试并不合理——如果马伪装得足够好，总会有一些漏网之鱼。这其实没问题。&lt;/p&gt;
-&lt;p&gt;但 9to5Mac 引用的第一个例子伪装得并不好。一款以兔子土豆农民为特色的游戏“PotatoPlot Puzzle”，怎么会成为&lt;em&gt;天气&lt;/em&gt;应用？这难道不是明显的危险信号吗？&lt;/p&gt;
-&lt;p&gt;此外，这款应用不仅流行起来，还成为了巴西（一个拥有超过 2 亿公民的国家）排名第一的天气应用。在我&lt;a href="https://daringfireball.net/search/bunco+squad"&gt;多年来主张苹果应成立内部反诈骗小组&lt;/a&gt;专门追查 App Store 中欺诈者的论点中，我一直提到，这样的团队的目标不应该是让 App Store 百分之百没有欺诈者——我认为这是一个不可能实现的目标，会导致团队失败。目标应该是让 App Store 没有&lt;em&gt;成功的&lt;/em&gt;欺诈。专注于最受欢迎和最赚钱的应用。对于 PotatoPlot Puzzle 成为巴西最受欢迎的“天气应用”，根本找不到任何合理的借口。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;更新：&lt;/strong&gt; &lt;a href="https://9to5mac.com/2026/07/17/investigation-reveals-dozens-of-disguised-gambling-apps-on-the-app-store-in-brazil/#:~:text=Update%20July%2020"&gt;苹果向 9to5Mac 发布了一份声明&lt;/a&gt;：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;该公司感谢 9to5Mac 的调查，并补充说，在我们报道之前，他们已经调查并采取了针对 25 个类似应用的行动，同时终止了与之关联的开发者账户。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;a href="https://daringfireball.net/linked/2026/07/19/9to5mac-brazil-gambling-apps" title="永久链接至‘9to5Mac 揭露巴西 App Store 上数十款伪装赌博应用’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sun, 19 Jul 2026 17:18:57 +0000</pubDate></item></channel></rss>
+</description><pubDate>Sun, 19 Jul 2026 22:31:11 +0000</pubDate></item></channel></rss>
