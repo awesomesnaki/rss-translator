@@ -1,68 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 23 Jul 2026 02:00:04 +0000</lastBuildDate><item><title>苹果称已经修复iCloud+隐藏邮箱地址功能会泄露用户真实邮箱地址的漏洞</title><link>https://www.landian.news/archives/114036.html</link><description>
-&lt;p&gt;#安全资讯 苹果称已经彻底修复 iCloud+ 隐藏邮箱地址会泄露用户真实邮箱地址的漏洞，这回是真修复了！该漏洞最初是安全研究员泰勒墨菲在 2025 年 6 月发现的，通报给苹果后，苹果确实修复了漏洞但并不彻底，以至于仍然会泄露用户邮箱。日前苹果发布回应称已经在 7 月 3 日部署补丁，该问题已经完全解决。查看全文：https://ourl.co/114036&lt;/p&gt;&lt;p&gt;早在 2025 年 6 月，安全研究员泰勒墨菲就发现苹果 iCloud+ 提供的「隐藏我的电子邮件」功能存在漏洞，原本用来保护用户真实邮箱地址不被泄露的功能，反而会被攻击者或广告公司利用漏洞获取用户的真实邮箱地址。&lt;/p&gt;
-&lt;p&gt;泰勒墨菲发现问题后立即向苹果安全团队报告漏洞，苹果也确实积极核实漏洞并发布修复程序解决用户的真实邮箱泄露问题，只不过安全研究员经过验证后发现苹果修复得不够彻底，仍然可以通过漏洞获取用户真实邮箱地址。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114036.png" rel="nofollow"&gt;&lt;img alt="苹果称已经修复iCloud+隐藏邮箱地址功能会泄露用户真实邮箱地址的漏洞" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114036.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 23 Jul 2026 06:14:06 +0000</lastBuildDate><item><title>受AI冲击GitHub改革漏洞奖励计划 大幅度下调奖励金额 但升级VIP后奖励翻四倍</title><link>https://www.landian.news/archives/114044.html</link><description>
+&lt;p&gt;#安全资讯 受 AI 冲击 GitHub 宣布改革漏洞奖励项目，大幅度下调漏洞奖励金额，但如果成为 VIP 则漏洞奖励直接翻四倍。安全研究员需要提交有价值的漏洞证明自己，这样有可能受邀参与 VIP 项目，成功参与 VIP 项目后获得的奖励更高。但如果连续多次提交无效漏洞报告，则可能会彻底失去向 GitHub 提交漏洞的资格。查看全文：https://ourl.co/114044&lt;/p&gt;&lt;p&gt;微软旗下代码托管平台 GitHub 日前发布博客宣布对漏洞奖励计划进行大幅度改革，此次改革的重点是放弃此前的浮动奖励区间改成按漏洞严重性评估支付固定金额，同时 GitHub 推出 VIP 计划，对于受邀或升级到 VIP 计划的安全研究员，漏洞奖励金额直接翻四倍。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114044.png" rel="nofollow"&gt;&lt;img alt="受AI冲击GitHub改革漏洞奖励计划 大幅度下调奖励金额 但升级VIP后奖励直接翻四倍" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114044.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;针对安全研究员所说的漏洞并未彻底修复问题，苹果日前发布回应称，团队已经在 2026 年 7 月 3 日部署针对这个问题的专用补丁，这个补丁已经完全解决问题。不过是否真的彻底修复可能还需要安全研究员的验证，希望这回是真彻底修复、没有遗留其他问题。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;该功能的工作原理其实并不复杂，苹果通过自己的邮件服务器为用户生成多个不同的随机邮箱地址，这些邮箱地址会自动将收到的邮件转发到用户真实邮箱中。当用户注册各类账户时就可以提供这个随机地址，即便随机地址泄露也无所谓，当收到垃圾邮件时用户也可以随时终止这个邮箱。&lt;/p&gt;
-&lt;p&gt;隐藏邮箱功能既可以单独使用也可以配合 Apple 登录功能使用，例如部分应用或网站提供 Apple 快捷登录功能，用户在登录时就可以选择隐藏邮箱功能，这时候苹果也会自动帮用户创建随机邮箱地址，蓝点网高频次使用这个功能，确实可以用来避免真实邮箱遭到广告邮件轰炸。&lt;/p&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 23 Jul 2026 02:00:04 +0000</pubDate></item><item><title>[可免费使用] Ubuntu企业应用商店正式上线 可在内网分发软件 提供审计等</title><link>https://www.landian.news/archives/114035.html</link><description>
-&lt;p&gt;#系统资讯 可免费使用：Ubuntu 企业版应用商店正式上线，可在内网分发软件、提供审计、版本控制等。该商店基于 Ubuntu Pro 订阅，个人用户可以免费获得 5 台专业版授权，因此也可以使用企业版商店。只不过普通用户可能不太需要内网分发和版本控制，所以估计用不上。查看全文：https://ourl.co/114035&lt;/p&gt;&lt;p&gt;Canonical 日前宣布在 Ubuntu Pro 订阅方案的基础上为企业和组织推出企业应用商店，企业应用商店主要可以帮助组织分发软件，即使设备在防火墙后或者物理隔离环境中也能轻松分发软件。企业应用商店还遵循严格的安全协议，以可控、可审计和可预测的方式运行。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114035.png" rel="nofollow"&gt;&lt;img alt="[可免费使用] Ubuntu企业应用商店正式上线 可在内网分发软件 提供审计等" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114035.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;企业应用商店属于是在本地部署的边缘代理，这个边缘代理位于设备与 Ubuntu 软件商店之间，因此设备无需直接出站访问即可安装和更新软件。Canonical 表示，企业应用商店适合以下场景：企业网络具有严格的出口控制、物理隔离和离线环境、需要变更控制和审计的受监管行业等。&lt;/p&gt;
-&lt;p&gt;企业应用商店基于 Ubuntu Pro 订阅提供，对于个人用户而言可以注册账号获得 5 台设备的专业版订阅授权，开发者还可以申请获得更高的专业版订阅授权，因此企业应用商店也可以免费使用。只不过对于大多数普通用户和开发者而言是用不上企业应用商店的。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;按照新规则，GitHub 公开漏洞奖励项目不再使用此前的浮动奖励区间，而是按照严重性等级评估支付固定奖励金额，坏消息是这种模式会大幅度下调奖励金额，当然这也是 GitHub 鼓励安全研究员提交高质量漏洞的激励措施，因为提交高质量漏洞有可能会被升级为 VIP。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;缓存支持：本地缓存的数据可以重复使用，避免多台设备重复下载造成带宽占用&lt;/li&gt;
-&lt;li&gt;离线模式：即便在没有公网连接时也可以通过内网传输本地缓存的数据继续安装和更新软件&lt;/li&gt;
-&lt;li&gt;故障迁移：企业应用商店还支持高可用性，即在反向代理后部署多个商店实例，实现故障转移&lt;/li&gt;
-&lt;li&gt;版本控制：企业应用商店提供精细的版本控制，IT 管理员可以锁定版本，避免在关键操作期间出现意外&lt;/li&gt;
-&lt;li&gt;生命周期：企业应用商店为团队提供统一代理管理 snap 和 charm，涵盖从交付到运营的整个软件生命周期&lt;/li&gt;
+&lt;li&gt;低危评级：250 美元，原浮动奖励区间为 617~2000 美元&lt;/li&gt;
+&lt;li&gt;中危评级：2000 美元，原浮动奖励区间为 4000~10000 美元&lt;/li&gt;
+&lt;li&gt;高危评级：5000 美元，原浮动奖励区间为 10000~20000 美元&lt;/li&gt;
+&lt;li&gt;严重评级：10000 美元，原浮动奖励区间为 20000~30000 美元&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;via &lt;a href="https://www.landian.news/go?url=https://ubuntu.com/blog/canonical-announces-the-enterprise-store" rel="noopener" target="_blank"&gt;Canonical&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;GitHub 称固定金额可以减少安全研究员与漏洞审核团队之间的不确定性，此前漏洞奖励由安全团队进行评估，因此可能会出现安全研究员认为奖励太低、而安全审核团队认为漏洞价值不高的情况。同时这种改变也可以降低处理成本，因为不需要再花时间详细评估漏洞应该有多少奖励。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;与此同时 GitHub 正式推出永久性的邀请制 VIP 漏洞奖励项目，VIP 研究员的奖励明显高于公开项目，从金额来看 VIP 项目相当于原公开项目浮动奖励区间的中位数或上限，如果安全研究员能受邀参与 VIP 计划，那获得的漏洞奖励可能和之前类似或者更高。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;低危评级：1000 美元 / VIP 漏洞奖励项目&lt;/li&gt;
+&lt;li&gt;中危评级：7500 美元 / VIP 漏洞奖励项目&lt;/li&gt;
+&lt;li&gt;高危评级：20000 美元 / VIP 漏洞奖励项目&lt;/li&gt;
+&lt;li&gt;严重评级：30000 美元或更高 / VIP 漏洞奖励项目&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;VIP 研究员初步资格要求包括：至少提交 1 个严重评级漏洞、或 2 个高危评级漏洞、或 4 个中危评级漏洞、或 7 个低危评级漏洞，GitHub 会在后续详细公布完整的 VIP 评估条件，不过 GitHub 暂时没有透露这些漏洞需要在多长时间内提交、也没有说明达到门槛后是否一定会获得邀请。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;GitHub 此次调整漏洞奖励项目的背景是，漏洞奖励平台正在面对越来越多的低质量报告，尤其是 AI 辅助生成的候选漏洞。GitHub 表示，公开项目将引入 HackerOne Signal 要求，不满足门槛的安全研究员只能获得有限的提交次数来建立自己的信用记录。&lt;/p&gt;
+&lt;p&gt;GitHub 强调这不是阻止新安全研究员的参与，而是为了让项目保持可运行，简单来说就是连续多次提交无效漏洞报告可能会失去提交漏洞的资格。HackerOne 通常会给新研究员每个项目最多 4 次提交机会，GitHub 认为这足够让真正有发现的新人证明自己。&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 23 Jul 2026 01:30:03 +0000</pubDate></item><item><title>谷歌开始初步启用跨大西洋海底光缆NUVEM 为美东与欧洲新增384T容量</title><link>https://www.landian.news/archives/114034.html</link><description>
-&lt;p&gt;#行业资讯 谷歌投资建造的 NUVEM 海底光缆开始初步启用，连接美国东海岸与欧洲大陆，设计容量 384T，长度达到 6,900 公里。这条海底光缆从美国东海岸出发经过百慕大和亚速尔群岛，最终在葡萄牙西海岸登陆。按照谷歌计划从下半年开始这条海底光缆将全面运营。查看全文：https://ourl.co/114034&lt;/p&gt;&lt;p&gt;由谷歌投资和控制的跨大西洋海底光缆 NUVEM 即将全面启用，这条海底光缆主要连接美国东海岸和欧洲大陆，中途经过百慕大和亚速尔群岛，总长度达到 6,900 公里。从 2026 年 5 月开始谷歌初步连接美国东海岸的登陆点，从下半年开始这条新建的海底光缆将全面运营。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114034.png" rel="nofollow"&gt;&lt;img alt="谷歌开始初步启用跨大西洋海底光缆NUVEM 为美东与欧洲新增384T容量" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114034.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Thu, 23 Jul 2026 06:14:06 +0000</pubDate></item><item><title>苹果更新文件系统迁移指南 加密HFS+移动硬盘可以直接转换为加密APFS卷</title><link>https://www.landian.news/archives/114043.html</link><description>
+&lt;p&gt;#系统资讯 苹果更新文件系统迁移指南，加密 HFS+ 卷现在可以直接转换为加密 APFS 卷，不需要再先解密、格式化转换、再加密的步骤。此前苹果已经宣布从明年发布的 macOS 28 开始，不再支持加密的 HFS+ 卷，非加密卷仍然支持。如果用户需要继续使用加密卷，则应该将其解密，或者迁移到 APFS 文件系统。查看全文：https://ourl.co/114043&lt;/p&gt;&lt;p&gt;尽管 macOS 27 正式版尚未发布，但苹果此前已经公布 macOS 28 的文件系统兼容性指南，&lt;a href="https://www.landian.news/archives/113868.html" rel="noopener" target="_blank"&gt;具体来说是苹果将在明年停止支持加密的 Mac OS Extended 文件系统&lt;/a&gt; (无论是磁盘还是其他存储设备)，所以升级系统前用户应当解密 HFS+ 硬盘或将其转换为 APFS 文件系统。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113868.png" rel="nofollow"&gt;&lt;img alt="苹果更新文件系统迁移指南 加密HFS+移动硬盘可以直接转换为加密APFS卷" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113868.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;NUVEM 在葡萄牙语中意为云，这条海底光缆由美国海洋系统供应商 SubCom 建造铺设，谷歌通过旗下公司投资和控制这条海底光缆。NUVEM 海底光缆部署 16 对光纤，每对光纤的额定速率为每秒 24Tbps，总设计容量为 384Tbps (约为每秒 48TB)，海底光缆长度达到 6,900 公里。&lt;/p&gt;
-&lt;p&gt;NUVEM 海底光缆从美国东部南卡罗来纳州的默特尔比奇出发，经过大西洋中部的百慕大和亚速尔群岛的圣米格尔岛，最终在葡萄牙西海岸的锡内斯登陆。对百慕大而言这是个重大消息，因为这是首条途经百慕大的海底光缆，百慕大希望从 NUVEM 开始，将自己打造为大西洋中部交通枢纽。&lt;/p&gt;
+&lt;p&gt;在此前发布的迁移指南中，苹果称用户要继续使用移动硬盘则应该先将加密的 HFS + 卷解除密码保护，或者将整个磁盘数据备份然后重新格式化为 APFS 后再执行加密，加密完成后再将数据迁移回来，这样可以确保磁盘可以继续在 macOS 28 上正常使用。&lt;/p&gt;
+&lt;p&gt;现在苹果更新迁移指南提供新选项，该选项允许用户直接将加密的 HFS+ 卷转换为加密的 APFS 卷而不需要事先解密或格式化。对用户而言这种迁移流程相对来说会简单很多，而且苹果还在迁移指南中删除了原本所说的需要先解密、格式化、再加密的说明。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;近些年来大型科技公司尤其是云计算公司都在快速建造更多海底光缆，这些海底光缆可以提供更高承载容量以及作为其他线路的冗余线路，当主要线路出现异常时运营商可以将流量迅速路由到正常的线路避免造成业务中断。&lt;/p&gt;
-&lt;p&gt;以 NUVEM 海底光缆为例，谷歌其实在 2023 年就已经投资建造连接葡萄牙和西非的海底光缆，这条海底光缆与 NUVEM 存在重叠，因此当其中一条海底光缆故障时，谷歌就可以将流量切换到另一条海底光缆，这对谷歌云来说可以大幅度提高跨州 / 跨大洋数据传输的冗余性。&lt;/p&gt;
-&lt;p&gt;不过谷歌如此快速的投资建造海底光缆可能还和人工智能有关，训练和运行模型都需要在不同地区之间传输海量数据，人工智能数据中心需求的激增也让超大规模数据中心运营商竞相确保自己拥有可控的带宽。当然这也可以控制成本，因为租用光纤线路会受运营商的定价控制，自己投资运营海底光缆具有长期优势。&lt;/p&gt;
+&lt;p&gt;连接外部磁盘或存储设备，打开磁盘工具并点击菜单栏的视图菜单选择仅显示卷，在磁盘工具侧边栏中选择卷的名称，再点击菜单栏的编辑菜单选择转换为 APFS 进行转换确认，待转换完成后退出磁盘工具即可。&lt;/p&gt;
+&lt;p&gt;但该功能不适用于加密的时间机器备份磁盘，而且考虑到转换文件系统的潜在风险，建议用户在执行转换前先将所有数据备份，如果迁移过程出现问题也可以通过备份数据恢复。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;特别注意：APFS 文件系统对机械硬盘极其不友好，如果你的外部卷是机械硬盘，建议继续使用 HFS+，但代价是不能再为硬盘采用文件加密机制。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://www.landian.news/go?url=https://support.apple.com/en-us/125615" rel="noopener" target="_blank"&gt;Apple&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 23 Jul 2026 01:00:04 +0000</pubDate></item><item><title>OpenAI要求网络安全从业者必须绑定硬件安全密钥才能获得更高的访问权限</title><link>https://www.landian.news/archives/114033.html</link><description>
-&lt;p&gt;#人工智能 OpenAI 要求网络安全从业者必须绑定硬件安全密钥才能获得更高的访问权限。这是来自网友的投稿，主要涉及的是 OpenAI TAC 计划，网络安全从业者可以申请 TAC 计划，通过审核后可以获得更宽松的安全边界以及使用前沿网络安全模型。从 6 月开始 OpenAI 逐步要求 TAC 用户绑定硬件密钥，从 9 月 1 日开始 TAC 用户必须绑定硬件密钥，否则模型会被降级到普通权限。查看全文：https://ourl.co/114033&lt;/p&gt;&lt;p&gt;来自蓝点网网友分享的消息：这名网友属于网络安全行业的从业者，在申请使用前沿网络安全模型时 OpenAI 要求用户必须绑定硬件安全密钥 (例如 YubiKey)，蓝点网查询后发现该政策已经从 2026 年 6 月开始逐步执行，到 2026 年 9 月 1 日起将强制执行，届时未绑定硬件安全密钥的用户将无法访问前沿网络安全模型。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114033.png" rel="nofollow"&gt;&lt;img alt="OpenAI要求网络安全从业者必须绑定硬件安全密钥才能获得更高的访问权限" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114033.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Thu, 23 Jul 2026 05:35:59 +0000</pubDate></item><item><title>树莓派推出新款10英寸10点触控显示屏 可通过树莓派直接供电 起售价80美元</title><link>https://www.landian.news/archives/114042.html</link><description>
+&lt;p&gt;#硬件设备 树莓派基金会推出支持 10 点触控的 10 英寸版树莓派触控显示屏 2，可通过树莓派主机直接供电，起售价 80 美元。遗憾的是这款显示屏仅支持树莓派 5 等新款设备，因为显示屏需要四条 DSI 通道，旧款树莓派并不支持。所以真要搭配使用的话，开发者还需要考虑自己的树莓派兼容性。查看全文：https://ourl.co/114042&lt;/p&gt;&lt;p&gt;树莓派基金会日前推出新款树莓派触控显示屏，此前树莓派已经在 2024 年和 2025 年推出 7 英寸和 5 英寸版，这次新增屏幕更大的 10 英寸版，新款显示器产品名称为「树莓派触控显示屏 2」，其中 10 英寸版起售价为 80 美元，即日起感兴趣的开发者可以通过树莓派经销商网络订购这款显示屏。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114042-1.png" rel="nofollow"&gt;&lt;img alt="树莓派推出新款10英寸10点触控显示屏 可通过树莓派直接供电 起售价80美元" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114042-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;正常情况下 GPT 系列模型有严格的安全边界，当用户提示词可能包含涉及网络安全方面的问题时，就有可能被安全边界拦截导致无法正常响应会话。而网络安全从业者以及网络安全公司则可以申请 TAC 计划，该计划为从业者提供特殊访问权限。&lt;/p&gt;
-&lt;p&gt;这个特殊访问权限包括能使用能力更强的安全 / 网络安全类类型例如 GPT-5.5-CYBER，而在使用 GPT-5.6 系列时安全边界相对来说也会更宽松，这样网络安全从业者就可以利用人工智能发掘漏洞、验证代码缺陷、生成漏洞修复方案等。&lt;/p&gt;
-&lt;p&gt;对于已经通过 TAC 计划获得特殊访问权限的用户，当前可选为自己的 ChatGPT 账号绑定硬件安全密钥，但从 9 月 1 日开始这项政策将强制执行，到时候如果用户没有绑定硬件安全密钥将会被降级到普通权限，也就是无法再通过特殊权限获得网络安全方面的能力。&lt;/p&gt;
-&lt;p&gt;至于为什么要求绑定硬件安全密钥，OpenAI 的出发点主要是确保账号安全，即这些获得特殊权限的账号不会被盗，绑定硬件安全密钥后即便账号密码泄露也无所谓，除非攻击者获得硬件安全密钥，否则无法直接登录账号并使用前沿网络安全模型。&lt;/p&gt;
+&lt;p&gt;10 英寸版树莓派触控显示屏 2 屏幕分辨率提高到 1200 x 1920，提供 85 度可视角度，配备支持 10 点触控的触摸屏控制器。旧款也就是 5 英寸和 7 英寸版最高支持 5 点触控，开发者可以根据实际使用场景选择最合适的产品，例如常规点餐机其实并不需要太多的触控点支持。&lt;/p&gt;
+&lt;p&gt;值得注意的是 10 英寸触控显示屏也可以直接通过树莓派主机进行供电，因此在构建成品设备时开发者不需要考虑额外的供电，这可以简化设备构建。当然考虑到供电问题，开发者可能需要使用功率更大的电源，确保树莓派主机和显示屏都能稳定运行。&lt;/p&gt;
+&lt;p&gt;另外树莓派官方操作系统 Raspberry Pi OS 已经预装完整的触控屏驱动程序，购买显示器后连接即用，不需要进行额外的手动配置。显示屏包装内提供必要的线缆、连接器和安装硬件，到货后简单组装并连接树莓派主机即可。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114042-2.png" rel="nofollow"&gt;&lt;img alt="树莓派推出新款10英寸10点触控显示屏 可通过树莓派直接供电 起售价80美元" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114042-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;对于普通用户而言 ChatGPT 也提供基于软件的通行密钥和基于硬件的安全密钥支持，如果用户觉得自己账号可能涉及诸多私密内容那就可以考虑设置更强的访问限制。例如用户可以通过绑定硬件安全密钥来禁用密码，每次登录时都必须验证硬件安全密钥才能登录。&lt;/p&gt;
-&lt;p&gt;这种登录方式安全性直接拉满，但会降低便利性，即用户登录时每次都需要验证硬件安全密钥，如果硬件安全密钥不在身边那就无法登录。另外用户应该配备两个硬件安全密钥且全部绑定到账号上，这样某个硬件密钥丢失后也能通过备用密钥继续登录账号。&lt;/p&gt;
-&lt;p&gt;当然用户也可以选择通行密钥，包括账号 + 密码 + 通行密钥的验证方式，这也可以提高安全性，对大多数用户而言这种验证方式已经足够，也不是非得绑定基于硬件的安全密钥。&lt;/p&gt;
+&lt;p&gt;稍显遗憾的是 10 英寸版树莓派触控显示屏 2 不支持树莓派 4 或更早的型号，包括树莓派 Zero 系列也全部不兼容。这是因为新款显示屏需要四条 DSI 通道，而旧款树莓派主机并不支持，所以真要使用开发者可能还需要购买树莓派 5 或后续机型。&lt;/p&gt;
+&lt;p&gt;树莓派基金会表示，新款触控显示屏 2 非常适合构建各种应用，包括家庭自动化仪表盘、自助服务终端、机器人界面、数字标牌、游戏系统、车间或实验室设备控制面板等等。购买地址：https://www.raspberrypi.com/products/touch-display-2/&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 23 Jul 2026 00:30:02 +0000</pubDate></item><item><title>火狐浏览器原生容器功能预览版上线 可以隔离工作/生活账号并阻止跨站追踪</title><link>https://www.landian.news/archives/114032.html</link><description>
-&lt;p&gt;#软件资讯 火狐浏览器原生账户容器功能预览版上线，可以通过容器隔离工作和生活账号并阻止跨容器、跨站点追踪。国内浏览器通常将容器功能称为小号窗口，也就是可以隔离多个不同账号的 Cookie。火狐浏览器容器功能可以隔离浏览记录和 Cookie 等，可以分别登录不同账号进行数据同步。启用方法：https://ourl.co/114032&lt;/p&gt;&lt;p&gt;谋智基金会日前推出 Firefox v153.0 正式版，在新版本中谋智基金会终于带来原生的容器功能 (国内浏览器的小号窗口)，不需要用户再额外下载火狐浏览器开发的容器扩展程序。容器功能可以用来隔离账号与身份并阻止跨容器站点追踪，不需要用户额外新建多个浏览器配置文件。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114032-4.png" rel="nofollow"&gt;&lt;img alt="火狐浏览器原生容器功能预览版上线 可以隔离工作/生活账号并阻止跨站追踪" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114032-4.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Thu, 23 Jul 2026 05:20:06 +0000</pubDate></item><item><title>算法美元稳定币BLC遭预言机操纵后脱锚 价格从1美元跌至接近归零 投资者损失惨重</title><link>https://www.landian.news/archives/114041.html</link><description>
+&lt;p&gt;#加密货币 美元算法稳定币 BLC 遭预言机操纵后脱锚，从原本 1 美元跌至 0.0008 美元，可以说就是直接归零。此次 BLC 脱锚源于协议中的漏洞，攻击者将人为压低的抵押品价格写入系统，协议并未将价格与外部市场对比，也没有设置足够的价格偏离保护机制。发生攻击后协议按流程直接清算抵押品，导致攻击者获得大量抵押品。查看全文：https://ourl.co/114041&lt;/p&gt;&lt;p&gt;基于币安智能链的美元算法稳定币 BLC 在 2026 年 7 月 22 日遭遇攻击后严重脱锚，原本该稳定币与美元锚定也就是 1BLC=1USD，但遭到攻击后 BLC 价格直接跌到 0.0008 美元，24 小时跌幅超过 99%，可以说这个美元算法稳定币已经归零。&lt;/p&gt;
+&lt;p&gt;BLC 原本设计为与美元挂钩的稳定币，用户可以抵押 BTCB，也就是基于币安智能链上锚定比特币的资产来铸造 BLC 代币。但此次攻击说明，所谓稳定币如果底层预言机和清算机制设计不完善，稳定性可能只存在于正常的市场环境下。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114041.png" rel="nofollow"&gt;&lt;img alt="算法美元稳定币BLC遭预言机操纵后脱锚 价格从1美元跌至接近归零 投资者损失惨重" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114041.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;此前火狐浏览器已经开发官方版的容器扩展程序，用户通过多账户容器扩展程序可以将工作、生活和隐私敏感的浏览活动分开，不需要安装多个不同的浏览器或者在火狐浏览器新建多个不同的用户配置文件。&lt;/p&gt;
-&lt;p&gt;对许多用户而言账户容器功能还是非常有用的，只不过以前用户必须安装扩展程序实现账户容器，谋智基金会收到诸多反馈，用户认为没必要继续以扩展程序提供，毕竟直接内置到浏览器里其实更方便。所以听取用户反馈后谋智基金会决定将其直接内置到浏览器中以原生功能提供。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114032-3.png" rel="nofollow"&gt;&lt;img alt="火狐浏览器原生容器功能预览版上线 可以隔离工作/生活账号并阻止跨站追踪" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114032-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;根据链上安全公司慢雾发布的技术分析，Balance Protocol 使用类似 MakerDAO 的抵押债务系统，正常情况下用户将 BTCB 锁进金库然后根据抵押品价值铸造 BLC 代币，如果抵押率不足协议就会触发清算。&lt;/p&gt;
+&lt;p&gt;问题出在价格预言机上，攻击者调用合约中的函数把人为压低的 BTCB 价格写入系统，协议没有把价格与外部市场进行校验，也没有设置足够的价格偏离保护机制，因此系统误以为原本健康的金库已经资不抵债。&lt;/p&gt;
+&lt;p&gt;随后负责清算的模块按照规则接管抵押品，攻击者再通过 PancakeSwap 出售这些资产获利。整个过程中攻击者不需要窃取私钥、不需要破解钱包，而是利用协议轻信错误价格问题，让清算流程自己把正常的抵押品交出去。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这个主要取决于用户的使用方式，简单场景就是用户可能有多个社交网站账号且需要分别进行管理，这个时候就可以使用容器功能分别在不同的容器里登录不同的账户，容器会将用户的浏览数据、Cookie 隔离开，不同的容器之间不能相互读取数据。&lt;/p&gt;
-&lt;p&gt;对于工作用户来说也可以通过容器功能区分工作内容和生活内容，例如在办公设备上主要浏览的可能是办公相关的内容，但用户可能也需要偶尔查查与工作无关的内容，这时候就可以开个生活容器然后登录自己的浏览器账号，相关数据也可以通过账号进行同步。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114032-2.png" rel="nofollow"&gt;&lt;img alt="火狐浏览器原生容器功能预览版上线 可以隔离工作/生活账号并阻止跨站追踪" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114032-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;此功能从 Mozilla Firefox v153.0 版开始进行预览，升级到最新版后用户可以转到设置、标签页与浏览、身份设置、添加新身份或使用预设的身份，请注意：此功能目前在预览，并非所有用户都能收到功能推送，如果看不到身份设置则说明未收到推送，用户可以手动安装火狐开发的多账户容器扩展程序临时使用。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114032-1.png" rel="nofollow"&gt;&lt;img alt="火狐浏览器原生容器功能预览版上线 可以隔离工作/生活账号并阻止跨站追踪" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114032-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;启用容器功能后，后续点击新建标签页时将需要选择容器，选择对应容器后地址栏右侧也会显示对应的容器标志，用户可以在身份设置里自由设置容器名称、颜色、图标等信息以便自己区分。&lt;/p&gt;
+&lt;p&gt;在此次攻击发生前 BLC 代币的价格基本维持在 0.995~1 美元左右，攻击发生后代币价格迅速跌至约 0.0014 美元，之后继续滑落到 0.0008~0.0013 美元区间，最低时该代币价格甚至跌到 0.000795 美元，24 小时跌幅达到 99.92%。&lt;/p&gt;
+&lt;p&gt;在脱锚前 BLC 代币流通供应量约为 350 万枚，名义市值接近 350 万美元，价格崩盘后该代币市值只剩 2800 美元，虽然 24 小时交易量攀升到 10.3 万美元，但这更多是持有人出逃和投机者抄底交易，并没有让 BLC 代币恢复锚定。&lt;/p&gt;
+&lt;p&gt;截至本文发布时，42DAO 尚未公布恢复计划或用户补偿方案，而被盗的 BTCB 资产仍然在攻击者控制的钱包中，部分频繁使用 BLC 的投资者损失惨重，如果开发商不提供补偿的话，这些投资者可能会血本无归。&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 22 Jul 2026 05:30:06 +0000</pubDate></item></channel></rss>
+</description><pubDate>Thu, 23 Jul 2026 04:59:45 +0000</pubDate></item><item><title>Ubuntu出现新的权限提升漏洞 默认桌面版安装受影响 可从普通用户提权至root</title><link>https://www.landian.news/archives/114040.html</link><description>
+&lt;p&gt;#安全资讯 Ubuntu 默认桌面版安装环境出现权限提升漏洞，拥有本地用户权限的攻击者可以提权到 root 进而接管系统。出现问题的是 snap-confine 组件，漏洞影响范围则是 Ubuntu 桌面版的 26.04/25.10/24.04 版。目前 Canonical 已经发布新版 snapd 修复漏洞，使用桌面版的用户请注意更新。查看全文：https://ourl.co/114040&lt;/p&gt;&lt;p&gt;网络安全公司 QUALYS 日前披露 Ubuntu 默认桌面版安装存在的安全漏洞，该漏洞位于 snap-confine 组件中，漏洞编号为 CVE-2026-8933，漏洞评分为 7.8 分。受影响的版本包括 Ubuntu Desktop 24.04、25.10 和 26.04 版，攻击者如果已经获得本地用户权限，则可以利用漏洞提权到 root。&lt;/p&gt;
+&lt;p&gt;Canonical 已经发布 snapd 更新以修复该漏洞，使用 Ubuntu 桌面版的用户应该尽快安装更新以封堵漏洞。需要注意的是，这并不是远程漏洞，攻击者不能直接通过互联网无认证接管系统，但如果攻击者已经拿到普通用户 shell 或者能在本机执行代码，漏洞就会成为后续提权入口。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/113067.png" rel="nofollow"&gt;&lt;img alt="Ubuntu出现新的权限提升漏洞 默认桌面版安装受影响 可从普通用户提权至root" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/113067.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;snap-confine 是 snapd 内部使用的组件，主要负责为 Snap 应用创建运行环境和沙箱。Snap 是 Canonical 推出的 Linux 应用打包格式，在 Ubuntu 桌面版中默认启用，例如 Mozilla Firefox 就经常通过 Snap 分发。&lt;/p&gt;
+&lt;p&gt;有趣的是这个漏洞本身属于 Canonical 进行安全加固调整引入的，在最近几个 Ubuntu 版本中，Canonical 将 snap-confine 从传统的 setuid-root 模式调整为 set-capabilities 模式，希望减少攻击面并遵循最小权限原则。但这个变化意外引入了竞争条件。&lt;/p&gt;
+&lt;p&gt;在沙箱初始化时 snap-confine 会在 /tmp/ 下创建临时目录和文件，这些对象最初归普通本地用户所有，稍后才会被转交给 root。在这个很短的时间窗口内，攻击者可以通过竞争条件控制相关路径，并把 snap-confine 的文件操作重定向到敏感系统位置。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;安全公司明确提到，受影响的是默认安装中使用 set-capabilities 版本 snap-confine 的 Ubuntu 桌面版，包括 26.04/25.10/24.04。Ubuntu 24.04 虽然属于比较老的 LTS 版，但如果系统已经更新到包含受影响 snap-confine 变体的软件包，也可能在影响范围内。&lt;/p&gt;
+&lt;p&gt;因此 IT 管理员不能只看系统大版本，还需要确认 snapd/snap-confine 是否已经更新到修复版本。&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Thu, 23 Jul 2026 04:41:11 +0000</pubDate></item></channel></rss>
