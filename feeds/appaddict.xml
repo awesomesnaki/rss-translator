@@ -1,5 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AppAddict (中文)</title><link>https://appaddict.app</link><description>我是以高级用户和效率爱好者的身份，强调真实、实用的评测——而非营销人员。我特别喜欢独立Mac生态、注重隐私的软件、开源工具和工作流自动化。我也会涉及自托管、数字化生活的去谷歌化/去苹果化，以及如何通过组合小巧专注的应用来构建高效Mac工作流。文章内容涵盖从单一应用的深度解析到多应用的综合评测、工作流指南和开发者专题。如果你是一名开发者，有希望我体验的应用，请告诉我。</description><language>zh-CN</language><lastBuildDate>Thu, 23 Jul 2026 09:23:00 +0000</lastBuildDate><item><title>一封网络情书</title><link>https://appaddict.app/post/an-internet-love-letter</link><description>&lt;figure&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AppAddict (中文)</title><link>https://appaddict.app</link><description>我是以高级用户和效率爱好者的身份，强调真实、实用的评测——而非营销人员。我特别喜欢独立Mac生态、注重隐私的软件、开源工具和工作流自动化。我也会涉及自托管、数字化生活的去谷歌化/去苹果化，以及如何通过组合小巧专注的应用来构建高效Mac工作流。文章内容涵盖从单一应用的深度解析到多应用的综合评测、工作流指南和开发者专题。如果你是一名开发者，有希望我体验的应用，请告诉我。</description><language>zh-CN</language><lastBuildDate>Thu, 23 Jul 2026 17:40:58 +0000</lastBuildDate><item><title>Iris，一款为不信任iCloud、存有8万张照片的用户设计的Mac照片应用</title><link>https://appaddict.app/post/iris-the-mac-photo-app-for-people-who-don-t-trust-icloud-with-80-000-photos</link><description>&lt;figure&gt;
+&lt;img referrerpolicy="no-referrer" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMGJmQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--54a50f7f497d51bb9b3b2f56cb1b1ce0ee50678c/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJZ0Eya0NJQU02Q25OaGRtVnlld2M2REhGMVlXeHBkSGxwV1RvS2MzUnlhWEJVIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--8cebb1c2983a7e4106444e274de6ebedc86813b1/CleanShot%202026-07-23%20at%2011.33.35.jpg"/&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;太长不看版：&lt;/strong&gt;&lt;br/&gt;Iris 是一款 Mac 照片查看器，它可以直接索引照片现有的位置（文件夹、外置硬盘或你已有的 Apple Photos 图库），而无需将它们导入管理的数据库。它支持本地人脸识别、OCR/语音搜索，以及一个真实的地图（Photo Trails），可以标记每张带有地理信息的照片，方便你按位置浏览。无需云端、无需账户、无需订阅；一次购买，14天试用。它是一款查看器而非编辑器，因此 RAW/Lightroom 工作流并非其目标使用场景。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://tyler.io/"&gt;Tyler Hall&lt;/a&gt; 推出了一款新应用 &lt;a href="https://irisphotos.app/"&gt;Iris&lt;/a&gt;，这是一款针对特定工作流而构建的照片管理应用。我是 Tyler Hall 的粉丝。他是一位备受尊敬的 Mac 开发者，在弗吉尼亚州里士满经营着一家&lt;a href="https://retina.studio/"&gt;一人工作室&lt;/a&gt;，履历扎实。资深 Mac 用户会记得他的网页开发工具 VirtualHostX；他在 2021 年停止了对它的更新，转而围绕一小部分原生、单一用途的应用进行重建。他产品目录中的其他应用正是我喜欢的那种类型：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li value="1"&gt;
+&lt;a href="https://retina.studio/textbuddy/"&gt;TextBuddy&lt;/a&gt;（$19）：一款纯文本的瑞士军刀；比打开 IDE 更快，比记住正确的命令行咒语更简单。&lt;/li&gt;
+&lt;li value="2"&gt;
+&lt;a href="https://retina.studio/fastmarks/"&gt;Fastmarks&lt;/a&gt;（$9）：通过一个热键从任何位置搜索并打开浏览器书签，100% 键盘驱动。这正是我钟爱的那种消除摩擦的工具。&lt;/li&gt;
+&lt;li value="3"&gt;
+&lt;a href="https://retina.studio/ears/"&gt;Ears&lt;/a&gt;（$9）：一款即时音频输出切换器，用于在扬声器、AirPods 和那个奇怪的 USB 麦克风之间快速跳转。&lt;/li&gt;
+&lt;li value="4"&gt;
+&lt;a href="https://retina.studio/steve/"&gt;Steve&lt;/a&gt;（免费）：一款轻松的每日益智游戏，适合你需要放空五分钟的时候。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Iris 目前在其官网或 Mac App Store 上售价 $19，推广期结束后将涨至 $29。信不信由你，你可以免费获得 Iris。你只需要&lt;a href="https://irisphotos.app/do-good/"&gt;向任一慈善机构捐赠 $20&lt;/a&gt; 并提交收据即可。（包括圣犹达儿童研究医院、电子前哨基金会、988 自杀与危机生命热线等。）&lt;/p&gt;&lt;p&gt;作为一名有资历的老年人，我积累数码照片的时间远早于拥有iPhone。我拥有超过8万张照片，来源多样：过去几十年家族历史的黑白照片扫描件、用全画幅佳能Mark V单反拍摄的数GB照片，以及来自各种老式数码相机和古董手机的杂乱图像。基于iCloud的Apple照片库是日常管理当前工作中照片、截图和下载文件的便捷工具，但对于像我这样拥有大量收藏的人来说，我绝不会推荐它，原因如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li value="1"&gt;任何认为非自身过错导致无法访问Apple账户是绝不可能的人，都在自欺欺人。快速搜索网络就能找到大量关于这种罕见但真实噩梦的案例。&lt;/li&gt;
+&lt;li value="2"&gt;同样，意外删除iCloud照片的情况时有发生，即使是经验丰富的用户也不例外。去Reddit的r/iCloud板块逛一圈，你会看到一大堆因这种情况而心碎的人。&lt;/li&gt;
+&lt;li value="3"&gt;Apple照片是Apple“我们最懂你”管理风格的典型代表。虽然并非完全无法突破，但它几乎就是一个封闭的花园，你的照片被吞进一个Apple不希望你去碰的.photoslibrary数据库文件中。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Iris则采取了相反的做法。它指向你存储照片的任何位置：一个文件夹、外置硬盘，甚至是以只读模式打开你现有的Apple照片库。它从不移动、复制或修改任何一张原始照片。然后在现有基础上构建自己的快速智能索引，让你在不交出文件或隐私的情况下获得优质功能（设备端人脸识别、真实地图、文本和语音搜索）。它不需要云账户或订阅。&lt;/p&gt;
+&lt;p&gt;Iris本身有着悠久的研发历程。它始于2020年11月的一个名为AntiPhoto的项目，多年来的大量精力都投入到一个并不光鲜的问题上：让一个六位数规模的图库流畅滚动。Tyler在2022年4月达到了一个里程碑——成功流畅滚动了一个包含101,706个项目的图库。这就是演示版与工具之间的区别，也解释了为什么这款应用会有如此体验。另外值得一提的是，Apple最初拒绝了Iris进入App Store；但后来它成功入驻，你可以在那里或直接购买。&lt;/p&gt;
+&lt;h2&gt;对Mac高级用户至关重要的五项功能&lt;/h2&gt;&lt;ul&gt;
+&lt;li value="1"&gt;
+&lt;strong&gt;以文件系统为先，只读且无损：&lt;/strong&gt;Iris 会读取您现有的文件夹或 Apple 照片图库，并保持原始文件原封不动。您的图库依然是您拥有的文件；Iris 是一面透镜，而非一个容器。&lt;/li&gt;
+&lt;li value="2"&gt;
+&lt;strong&gt;设备端面部识别：&lt;/strong&gt;通过 Apple 自身的机器学习框架，在本地完成面部识别。数据不会离开 Mac，Iris 甚至能根据生日计算并显示照片中人物的年龄。&lt;/li&gt;
+&lt;li value="3"&gt;
+&lt;strong&gt;带有照片轨迹的真实地图：&lt;/strong&gt;每张带有地理标签的照片都会被标记在地图上；您可以跳转到附近的照片，收藏喜欢的地点，并回溯您在某次旅行中实际走过的路线。&lt;/li&gt;
+&lt;li value="4"&gt;
+&lt;strong&gt;能读懂照片、听懂视频的搜索功能：&lt;/strong&gt;Iris 会对图像中的文字进行 OCR 识别，并转录音视频中的语音，让所有内容都可搜索。这样您就能找到那张白板照片或您确信自己保存过的收据。&lt;/li&gt;
+&lt;li value="5"&gt;
+&lt;strong&gt;本地多设备，无云端费用：&lt;/strong&gt;通过家庭 Wi-Fi，将 Mac 应用与 iPhone、iPad 和 Apple TV 上的 Iris 配对。您的 Mac 将始终作为数据源：无需重新上传，无需云账户，无需二次订阅。而且该应用本身只需一次性购买。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这是一款由热爱品质和原则的开发者打造的应用，以至于 Iris 的网站上还发布了一份宣言，阐述了一系列原则，并解释道：“Iris &lt;em&gt;不是&lt;/em&gt;一款为专业摄影师设计的应用。它也&lt;em&gt;不是&lt;/em&gt;为那些用手机拍照、上传到 Facebook 后就忘掉的人准备的。Iris 是为那些&lt;em&gt;珍视&lt;/em&gt;自己照片和视频的人准备的，他们相信这些内容值得以私密、面向未来的格式保存，能够流传给子孙后代。Iris 是为家庭历史学家和档案管理员打造的。”&lt;/p&gt;
+&lt;p&gt;我不赘述其功能集，而是建议您直接访问网站并仔细阅读。&lt;/p&gt;
+&lt;p&gt;为了说明为什么这是一款由特殊类型的开发者打造的特别应用，请允许我分享一个故事。在 Iris 公开发布之前，我就一直在关注它的开发。泰勒联系了我，但这并非市场宣传的一部分。他只是想就应用质量获得一些反馈。发布后，当最初（也是意料之中的）错误报告陆续传来时，他经历了以下事情，并将其分享给了我。&lt;/p&gt;&lt;blockquote&gt;
+&lt;p&gt;我希望Iris能呈现一种"人性化"的方式来浏览你的回忆。我不希望这个应用变成又一条无止境的照片流，或是半成品的相册。我希望这个应用能让用户探索并沉浸在自己的照片库中，就像你在阁楼翻阅实体相册、或是在维基百科上顺着相关链接漫游时那样忘记时间。&lt;/p&gt;
+&lt;p&gt;根据反馈，我认为我做到了——或者说接近做到了。但这也凸显了我需要多么&lt;strong&gt;谨慎&lt;/strong&gt;地处理数据的呈现方式。当人们与一款软件产生情感联系时，错误带来的冲击会被放大。&lt;/p&gt;
+&lt;p&gt;举个例子：有位女士发来一个让我心碎的Bug报告。她把母亲添加到Iris中——这样就可以按她的照片筛选。她还填了母亲的生日，这样Iris就能显示照片中人物的年龄。她也填了母亲去世的日期。然而有个Bug漏掉了：Iris正确识别出照片中的母亲，但那张照片的拍摄日期是在母亲去世&lt;em&gt;十年后&lt;/em&gt;，而Iris尽职尽责地标注了母亲从未活到的年龄。（我预料到这种情况会发生并做了防范，但UI中有两个边界案例漏掉了。）&lt;/p&gt;
+&lt;p&gt;从工程角度来看，这样的Bug并不致命，但从情感角度来看却至关重要。它比其他任何崩溃或Bug报告都更让我难受。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;希望我已经说清楚这款应用是为谁而设的。&lt;/p&gt;
+&lt;p&gt;当然，它并不适合所有人。Iris显然是一个查看器，而不是整理器或编辑器；如果你拍摄RAW格式并在Lightroom Classic中工作，Iris会显示未经编辑的原始文件，忽略你目录中的编辑和元数据，所以它不能替代那个工作流程。如果Apple Photos已经满足你的需求，并且你在iCloud中很开心，那么内置应用是免费的，涵盖了同样的三个主要功能。而且Tyler坦诚表示，Iris在处理复杂搜索和真正庞大的照片库时仍可能出现性能问题，所以如果你的收藏规模巨大，请先试用14天再做购买决定。&lt;/p&gt;
+&lt;h2&gt;如何比较&lt;/h2&gt;
+&lt;p&gt;我的重点是帮助人们找到合适的应用，而不是因为自己喜欢就说服别人使用某个东西。为此，我通常会列出替代方案。&lt;/p&gt;
+&lt;p&gt;Iris集成的这些功能单独来看并不独特。人脸识别、地图和照片搜索都只是更大应用中的功能；Apple Photos免费提供这三项，而像Lightroom和Peakto这样的专业目录则把它们整合到更重的工具中。&lt;/p&gt;&lt;ul&gt;
+&lt;li value="1"&gt;
+&lt;strong&gt;Apple Photos&lt;/strong&gt;（免费，内置）：这是现有的Iris想要替代的。它已经能很好地处理人脸、地图和搜索，但会将照片导入到一个受管理的图库中，并引导你使用iCloud存储。如果你已经适应这种模式，内置应用免费且好用；Iris是为那些特别不希望被封闭花园束缚的人准备的。
+&lt;/li&gt;
+&lt;li value="2"&gt;
+&lt;strong&gt;Lyn&lt;/strong&gt;（一次性付费约20美元，&lt;a href="https://www.lynapp.com/"&gt;lynapp.com&lt;/a&gt;）[验证此信息]：一款轻量级、历史悠久的图片浏览器，可读取文件夹甚至Aperture/Photos/Lightroom图库，并添加了真正的非破坏性编辑。这是最接近的一次性付费竞品，但它更像是一个经典查看器/编辑器，缺少Iris的设备端人脸识别和视频转录功能。
+&lt;/li&gt;
+&lt;li value="3"&gt;
+&lt;strong&gt;digiKam&lt;/strong&gt;（免费，开源，&lt;a href="https://www.digikam.org/"&gt;digikam.org&lt;/a&gt;）：面向高级用户的数字资产管理系统（DAM），具备人脸识别、标签、地理标记和重复检测功能，甚至可以运行在NAS上。它是目前功能最强大的免费选项，但跨平台、不够原生Mac风格，学习曲线也更陡。我自己处理繁重任务时就用这个。
+&lt;/li&gt;
+&lt;li value="4"&gt;
+&lt;strong&gt;Mylio Photos&lt;/strong&gt;（提供免费套餐；Photos+每年99.99美元，&lt;a href="https://mylio.com/"&gt;mylio.com&lt;/a&gt;）：同样基于文件系统，无需云存储费用即可在设备间同步。范围比Iris更广，但大多数人想要的功能通常需要订阅才能使用。
+&lt;/li&gt;
+&lt;li value="5"&gt;
+&lt;strong&gt;Peakto&lt;/strong&gt;（订阅约10美元/月或终身许可约270美元，&lt;a href="https://cyme.io/"&gt;cyme.io&lt;/a&gt;）：AI编目与搜索，可同时跨多个文件夹和编辑目录。功能强大，但采用订阅定价，面向专业摄影师而非只想整理家庭相册的人。
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Iris,%20The%20Mac%20Photo%20App%20for%20People%20Who%20Don"&gt;✉️ 通过邮件回复&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 23 Jul 2026 17:40:58 +0000</pubDate></item><item><title>一封网络情书</title><link>https://appaddict.app/post/an-internet-love-letter</link><description>&lt;figure&gt;
 &lt;img referrerpolicy="no-referrer" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOEhlQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--1fd65d12721936f57924dc89c9d609645a6502ca/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJZ0Eya0NJQU02Q25OaGRtVnlld2M2REhGMVlXeHBkSGxwV1RvS2MzUnlhWEJVIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--8fe891a5dc77b0b4cf610c06a33c58f51f95ff02/Screenshot%202026-07-23%20at%205.21.26%E2%80%AFAM.png"/&gt;
 &lt;/figure&gt;
 &lt;p&gt;作为一个使用Reddit超过20年的用户，我认为自己有资格深入探讨我最喜欢的子版块&lt;a href="https://www.reddit.com/r/MacApps"&gt;r/MacApps&lt;/a&gt;。我最近分析了那里形成的文化。&lt;/p&gt;
@@ -198,24 +262,4 @@
 &lt;li value="3"&gt;&lt;a href="https://appaddict.app/post/dropzone-4-a-little-pricey-but-versatile"&gt;Dropzone 4——价格略高但功能多样 | AppAddict&lt;/a&gt;&lt;/li&gt;
 &lt;li value="4"&gt;&lt;a href="https://appaddict.app/post/daisy-disk-best-in-its-class"&gt;Daisy Disk——同类最佳 | AppAddict&lt;/a&gt;&lt;/li&gt;
 &lt;li value="5"&gt;&lt;a href="https://appaddict.app/post/setapp-is-worth-it"&gt;Setapp 物有所值 | AppAddict&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Apptorium,%20the%20developers%20best%20known..."&gt;✉️ 通过邮件回复&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 17 Jul 2026 13:14:20 +0000</pubDate></item><item><title>AudioBo：有声书构建器，无需你选择第1、2、3部分</title><link>https://appaddict.app/post/audiobo-the-audiobook-builder-that-doesn-t-make-you-choose-parts-1-2-and-3</link><description>&lt;figure&gt;
-&lt;img referrerpolicy="no-referrer" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNVhRQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--0c4e64e74391329b0b2c5a03bb3078b21f40b708/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJZ0Eya0NJQU02Q25OaGRtVnlld2M2REhGMVlXeHBkSGxwV1RvS2MzUnlhWEJVIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--8fe891a5dc77b0b4cf610c06a33c58f51f95ff02/AudioBo%20-%20Before%20After%20Graphic.png"/&gt;
-&lt;/figure&gt;
-&lt;p&gt;&lt;em&gt;TL;DR - 将几乎任何有声读物文件合集（FLAC、WAV、MP3）转换为单个兼容iPhone的M4B文件，并附带元数据和章节。Mac平台，售价9.99美元，独立开发者作品。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;我从有声读物还被称为“磁带书”的时候就开始听了。后来从磁带升级到CD，再到各种下载文件。如今，至少对于苹果粉丝来说，黄金标准格式是将有声读物打包成单个M4B文件，无论书籍多长，都附带章节和元数据。这样你可以随时暂停和继续收听，无需寻找上次的位置，还能添加书签，并获取作者和叙述者的描述信息。我常用的有声读物转换工具是AudioBo，由OrsoLabs的独立开发者Vlad制作，在&lt;a href="https://apps.apple.com/us/app/audiobo-audiobook-maker/id6754019673?mt=12"&gt;Mac App Store&lt;/a&gt;上售价9.99美元。它能将装满旧MP3文件和各种杂物的文件夹，转换成可以在iPhone、iPad、Apple TV甚至经典iPod上收听的内容。时长不是问题。如果你有一本60小时的奇幻小说，AudioBo也能处理。&lt;/p&gt;
-&lt;p&gt;长期以来，Reddit上推荐的是Audiobook Builder，这个工具也不错，但它会把输出时长限制住，导致任何长篇内容都被迫分割成多个文件。这不是工作流程，而是权宜之计。只花一个巨无霸套餐的钱，你就能买到AudioBo，它可以将MP3、FLAC、WAV及其他常见格式转换为精致的有声读物，并简化管理和播放，一劳永逸。&lt;/p&gt;
-&lt;h2&gt;功能特点&lt;/h2&gt;
-&lt;p&gt;AudioBo的三大卖点是：&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;元数据获取&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;AudioBo一键从Audible、Apple Books和Google Books抓取标题、作者和封面图。构建有声读物中最繁琐的部分，现在交给它来完成。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;非破坏性编辑&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;你可以在现有M4B文件上调整章节和元数据，而无需重新编码。这既保留了音频质量，又节省了大量时间，因为重新编码长文件并不快。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;无时长限制&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;长篇有声读物保持为单一文件，而不会因为应用无法处理时长而被分割成多个部分。&lt;/p&gt;
-&lt;h2&gt;无形优势&lt;/h2&gt;&lt;p&gt;在为本篇评测研究AudioBo时，我发现多次有用户提出功能需求后，开发者在几天内就回复并上线了更新。对我而言，这是该应用将持续维护的明确信号。我通常对App Store的评论持谨慎态度，因为存在水军和含糊的"好应用！"帖子，但仔细阅读AudioBo的评论后，结果相当令人信服。书面评论用具体细节支撑观点，而非空洞的表扬。"毫无疑问，这是我找到的最佳有声书转换应用，"一位评论者写道。另一位则称其为"目前App Store上有声书转换器的黄金标准"。9to5Mac对其进行了详尽评测而非简单提及，评测者（知名Mac记者Bradley Chambers）在多个大型项目上测试后的结论直截了当：它确实有效，现在已是他的首选工具。&lt;/p&gt;
-&lt;h2&gt;发展路线图&lt;/h2&gt;
-&lt;p&gt;这款应用仍缺少一些功能。目前不支持批量/多实例处理。打开新窗口会清空你当前正在处理的书，即使导出中途也不行。所以，别指望把整个书库扔进一个文件夹就撒手不管。好消息是，根据开发者说法，这项功能即将到来。唯一的其他问题比较特殊：在将现有M4B文件重新编码，从立体声转为单声道或更改比特率时，有几位用户报告遇到问题。我从未做过这种操作，所以没有亲身经历。&lt;/p&gt;
-&lt;h2&gt;适用人群&lt;/h2&gt;
-&lt;p&gt;如果你在Mac上制作或维护有声书时遇到了Audiobook Builder的长度上限，或者你希望元数据抓取无需三次分开查找，那么AudioBo是更好的选择。它只专注Apple/M4B格式，所以如果你需要处理Audible AAX/DRM，或为Kobo、Kindle提供跨平台输出，这不是你要找的工具，它也没打算成为那样的工具。&lt;/p&gt;
-&lt;p&gt;一次性付费9.99美元，免费演示版可在&lt;a href="https://orsolabs.dev/audiobo/"&gt;开发者网站&lt;/a&gt;获取。无订阅制——这一点我们都喜欢。&lt;/p&gt;
-&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=AudioBo:%20The%20Audiobook%20Builder%20That%20Doesn"&gt;✉️ 通过邮件回复&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 16 Jul 2026 14:42:06 +0000</pubDate></item></channel></rss>
+&lt;/ul&gt;&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Apptorium,%20the%20developers%20best%20known..."&gt;✉️ 通过邮件回复&lt;/a&gt;&lt;/p&gt;</description><pubDate>Fri, 17 Jul 2026 13:14:20 +0000</pubDate></item></channel></rss>
