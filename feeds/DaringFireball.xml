@@ -1,5 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Fri, 24 Jul 2026 18:51:29 +0000</lastBuildDate><item><title>‘垃圾化’一词的创造者认可‘Dickover’</title><link>https://pluralistic.net/2026/07/21/dickovers/</link><description>&lt;p&gt;&lt;a href="https://daringfireball.net/linked/2026/07/24/dickover-of-the-week-tomtoc"&gt;说到干扰行为&lt;/a&gt;，本周科里·多克托罗在《多元主义》上撰文写道：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Fri, 24 Jul 2026 20:57:20 +0000</lastBuildDate><item><title>★ 关于广告拦截器与Daring Fireball</title><link>https://daringfireball.net/2026/07/regarding_ad_blockers_and_daring_fireball</link><description>&lt;p&gt;今天继续上一篇的话题，关于&lt;a href="https://daringfireball.net/linked/2026/07/24/coiner-of-enshittification-endorses-dickover"&gt;内容拦截与广告屏蔽&lt;/a&gt;，几周前我的专栏文章“&lt;a href="https://daringfireball.net/2026/07/ternus_apple_slippery_slope"&gt;约翰·特努斯应逆转苹果在广告滑坡上的下滑&lt;/a&gt;”遇到一个奇怪的情况。那篇文章包含以下Markdown句子：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;而且——撰写本文时，仍然“即将推出”——苹果正在推出[Apple Maps上的广告][🗺️]。
+
+[🗺️]: https://ads.apple.com/maps
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;问题是，任何在NetNewsWire中阅读那篇文章的人看到的是这样的渲染效果，其中“ads on Apple Maps”&lt;sup id="fnr1-2026-07-24"&gt;&lt;a href="https://daringfireball.net/#fn1-2026-07-24"&gt;1&lt;/a&gt;&lt;/sup&gt;一词被省略了：&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://daringfireball.net/misc/2026/07/nnw-ad-blocking.png"&gt;
+&lt;img alt="Screenshot of article text from NetNewsWire." referrerpolicy="no-referrer" src="https://daringfireball.net/misc/2026/07/nnw-ad-blocking.png" width="550"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;看起来我好像忘了写完那个句子。但实际上我写了。NetNewsWire只是省略了那些超链接的词语。在几位读者报告这个问题后，我立刻怀疑问题出在“ads.apple.com”域名上。我以前从未链接过那个域名，而且许多广告屏蔽器会屏蔽任何以类似&lt;code&gt;ads.*&lt;/code&gt;的域名前缀开头的域名。&lt;/p&gt;
+&lt;p&gt;而这正是问题所在。我完全不知道NetNewsWire会过滤任何内容（而且我某种程度上认为它不应该这样做），但DF读者Antonio Germano搜索了NetNewsWire的开源代码，在&lt;a href="https://github.com/Ranchero-Software/NetNewsWire/blob/main/Shared/Article%20Rendering/core.css"&gt;&lt;code&gt;core.css&lt;/code&gt;文件&lt;/a&gt;第49行找到了它：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;38  /*屏蔽广告和垃圾信息*/
+39  
+40  iframe[src*="feedads" ],
+41  iframe[src*="doubleclick"],
+42  iframe[src*="plusone.google"] {
+43      display: none !important;
+44  }
+45  
+46  a[href*=".ads."],
+47  a[href*="feedads" ],
+48  a[href*="doubleclick"],
+49  a[href*="//ads."],
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;查明罪魁祸首后，我尽责地联系了我的朋友 &lt;a href="https://inessential.com/"&gt;布伦特·西蒙斯&lt;/a&gt; 报告了这个问题。但随后我必须决定如何处理。我不知道有哪些阅读器正在被用来读取 Daring Fireball 的 &lt;a href="https://daringfireball.net/feeds/"&gt;供稿&lt;/a&gt;，但 NetNewsWire 肯定是最流行的之一，很可能就是 &lt;em&gt;最&lt;/em&gt; 流行的。我自己就在用这个阅读器。我无法更改 NetNewsWire 的 &lt;code&gt;core.css&lt;/code&gt; 文件内容，所以无法阻止 NetNewsWire 删除那些链接到苹果 &lt;code&gt;ads.apple.com&lt;/code&gt; 域名的词语。我能做的是不再链接到 &lt;code&gt;ads.apple.com&lt;/code&gt;，比如将我的链接从 &lt;code&gt;ads.apple.com/maps&lt;/code&gt; 改为像 &lt;code&gt;bit.ly/4wmXFSE&lt;/code&gt; 这样的短链重定向 URL，&lt;a href="https://bit.ly/4wmXFSE"&gt;指向&lt;/a&gt; 苹果的原始 URL。&lt;/p&gt;
+&lt;p&gt;但我没这么做。我不喜欢为了绕过其他软件中的错误而玩打地鼠游戏。光是修正自己的错误就已经够我头疼的了。我也不喜欢让所有人都看到来自 Bitly 的“点击它，看看它实际指向哪”的神秘 URL，而不是直接显示目标链接。这关乎一个基本原则，而且对于旨在长期有效的链接来说，这种做法也远非最佳策略。&lt;/p&gt;
+&lt;p&gt;我真正不喜欢 NetNewsWire 这里广告拦截的地方是，它直接就 &lt;em&gt;省略&lt;/em&gt; 了链接文本。它不是移除链接但保留文字；而是移除了链接到被屏蔽域名的那些词语。我在其他内容拦截扩展中也遇到过同样的问题。例如，Safari 的 Banish 扩展，&lt;a href="https://daringfireball.net/linked/2022/08/02/banish"&gt;我在 2022 年曾推荐过它&lt;/a&gt;。大概一两年前的某个时候，Banish 开始屏蔽指向苹果 App Store 域名的链接，它采取的方式就是删除那些链接到 App Store 的词语。这太疯狂了。在我推荐 Banish 的那篇帖子里，我链接到了 App Store，这意味着如果你安装了 Banish 并阅读那篇帖子，你就看不到帖子的标题（也无法点击那个链接）。我认为还有其他一些内容拦截器对指向 App Store 的文本也做了同样的事情。&lt;sup id="fnr2-2026-07-24"&gt;&lt;a href="https://daringfireball.net/#fn2-2026-07-24"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;&lt;p&gt;那么我该怎么办呢？停止链接到App Store吗？那太蠢了。为我创建的每个App Store链接都设置自定义URL重定向吗？那是我不需要也不想做的工作，而且还会增加一层抽象，让那些没有使用带有这种愚蠢规则的内容拦截器的用户感到困惑。所以我干脆忽略它。但这意味着，无数使用此类内容拦截器的读者，只要我链接到App Store，就会错过我文章中的单词。好吧，就这样吧。理想情况下，内容拦截器“正常运作”——只屏蔽你想屏蔽的东西，绝不屏蔽你不想屏蔽的。然而，没有什么是完美的。那些移除链接到特定域名的实际单词的拦截器之所以有害，是因为这不是预期的行为。从读者的角度来看，这看起来就像是网站编辑错误，而不是内容拦截器有过于激进的模式匹配规则。&lt;/p&gt;
+&lt;p&gt;但归根结底，当你安装内容拦截器扩展时，你要为它拦截内容的任何过度行为负责。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;让我借此机会提出一个小小的个人请求。Daring Fireball上的展示广告毫不显眼，每页只有一条。它们也完全是私密的，并且一直如此。不仅没有尝试追踪你的cookie或JavaScript，而且广告本身也来自&lt;code&gt;daringfireball.net&lt;/code&gt;域名。我会拒绝那些要求从&lt;em&gt;他们&lt;/em&gt;的域名提供图片（或“追踪像素”，那只是不可见的图片）的广告商。（谢天谢地，这种请求很少见。）我不会在文章中间段落之间展示广告——这种做法在我看来既对作者&lt;em&gt;和&lt;/em&gt;读者不尊重。简而言之，我努力让Daring Fireball上的广告不仅不令人反感，而且实际上能为网站增色。我实际上喜欢某些高质量印刷杂志（如《纽约客》）中的广告。我对DF广告的目标就是让它们达到那种效果。&lt;/p&gt;
+&lt;p&gt;简而言之，我希望它们是读者不想屏蔽的那种广告。我很高兴地说，我个人尝试过的大多数广告拦截内容拦截扩展在默认情况下都不会屏蔽Daring Fireball上的广告。在其他情况下，它们会屏蔽，但很容易调整按域设置以允许显示。在&lt;a href="https://daringfireball.net/linked/2026/07/24/coiner-of-enshittification-endorses-dickover"&gt;上一篇文章&lt;/a&gt;中，我推荐了&lt;a href="https://apps.apple.com/us/app/ublock-origin-lite/id6745342698"&gt;uBlock Origin Lite&lt;/a&gt;（免费，有点复杂）和&lt;a href="https://www.magiclasso.co/"&gt;Magic Lasso&lt;/a&gt;（付费，简单得多）。Magic Lasso默认情况下不会屏蔽DF上的广告。我不记得uBlock Origin默认会怎样，但很容易改成允许显示。&lt;/p&gt;&lt;p&gt;如果你使用广告拦截器并且它当前屏蔽了DF上的广告，我恳请你考虑花点时间调整设置以允许它们。如果你是一名广告拦截器的开发者，我要求你考虑默认将Daring Fireball加入&lt;em&gt;白名单&lt;/em&gt;。&lt;/p&gt;
+&lt;p&gt;如果你是一名读者，并且你真的想屏蔽DF的广告，请便。我觉得这是一种奇怪的心态，但这是你的浏览器，你的决定。没有恶意。（还请进一步注意，我没有编写任何试图检测你是否屏蔽DF广告以便烦扰你的JavaScript代码。）&lt;/p&gt;
+&lt;hr/&gt;
+&lt;ol&gt;
+&lt;li id="fn1-2026-07-24"&gt;
+&lt;p&gt;为了清晰起见，我省略了在“仍然‘即将推出’”这个词上创建链接的Markdown，以强调我原始文章中唯一有问题的链接。（另外，像这个例子一样，使用emoji作为命名链接定义也很有趣。） &lt;a href="https://daringfireball.net/#fnr1-2026-07-24" title="跳回正文脚注1。"&gt;↩︎︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn2-2026-07-24"&gt;
+&lt;p&gt;我当然向Banish的开发者报告了此事两次，但他从未回复。我，呃，从自己的设备上移除了Banish，并且在完成这篇文章后，我将更新我2022年对Banish的推荐，改为不推荐它。 &lt;a href="https://daringfireball.net/#fnr2-2026-07-24" title="跳回正文脚注2。"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description><pubDate>Fri, 24 Jul 2026 20:57:20 +0000</pubDate></item><item><title>‘垃圾化’一词的创造者认可‘Dickover’</title><link>https://pluralistic.net/2026/07/21/dickovers/</link><description>&lt;p&gt;&lt;a href="https://daringfireball.net/linked/2026/07/24/dickover-of-the-week-tomtoc"&gt;说到干扰行为&lt;/a&gt;，本周科里·多克托罗在《多元主义》上撰文写道：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;夺取计算手段并非盗窃，而是&lt;em&gt;讨价还价&lt;/em&gt;。商业监控公司会告诉你，通过监视你，他们只是在参与一场市场交换：你用自己的隐私换取在线服务的访问权。但他们运作的是一个非常奇特的市场：在这个“市场”里，一旦你停下来浏览某人的商品，摊主就会把手伸进你的口袋，掏空你的钱包。在真正的“市场”中，价格是公布并经过讨价还价决定的，而不是单方面设定并从任何不够谨慎踏入门槛的人那里强行攫取。&lt;/p&gt;
 &lt;p&gt;广告拦截、干扰拦截以及其他自定义功能，正是你用来反击的方式——用来回应对方开出的“不如你把所有数据永远给我，让我随心所欲地使用？”这个首发价，你的回应是“不如‘算了吧’？”&lt;/p&gt;
@@ -29,6 +68,4 @@
 &lt;li&gt;&lt;a href="https://squarespace.com/talkshow"&gt;Squarespace&lt;/a&gt;：使用优惠码 &lt;strong&gt;TALKSHOW&lt;/strong&gt;，首次购买网站或域名可享 10% 折扣。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;a href="https://daringfireball.net/linked/2026/07/24/the-talk-show-452" title="《脱口秀：一场靠爱国主义和金色涂料维系的骗局》永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Fri, 24 Jul 2026 15:44:11 +0000</pubDate></item><item><title>邦德电影拍摄地点地图</title><link>https://department-m.agency/</link><description>&lt;p&gt;“来自一位邦德粉丝，献给全球的邦德粉丝。” 干得好。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/07/23/bond-movie-filming-locations-map" title="邦德电影取景地图的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Thu, 23 Jul 2026 19:35:45 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 24 Jul 2026 15:44:11 +0000</pubDate></item></channel></rss>
