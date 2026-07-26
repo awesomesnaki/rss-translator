@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sun, 26 Jul 2026 05:01:16 +0000</lastBuildDate><item><title>被智能体自主攻击后 🤗抱抱脸要求OpenAI公布全部细节且赔偿1亿美元计算资源</title><link>https://www.landian.news/archives/114070.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sun, 26 Jul 2026 09:31:10 +0000</lastBuildDate><item><title>Fedora Linux 45计划提供基于浏览器的远程安装 不过仅限Atomic桌面版镜像</title><link>https://www.landian.news/archives/114069.html</link><description>
+&lt;p&gt;#系统资讯 Fedora Linux 计划在 45 版中提供基于浏览器的远程安装支持，即启动安装后可以通过其他设备的浏览器访问远程安装界面。该功能的好处是进行图形化安装时用户不必盯着原机屏幕，可以通过其他设备便捷访问安装流程和执行操作。不过此功能将仅支持 Fedora Atomic Desktop 版镜像。查看全文：https://ourl.co/114069&lt;/p&gt;&lt;p&gt;对于经常安装 Linux 系统的用户来说，安装时需要连接屏幕执行操作总归是比较麻烦的，所以很多专业用户会配置无人值守文件实现自动化安装。现在 Fedora Linux 团队则准备提供新的安装方式，即用户可以通过其他设备的浏览器来访问安装进程，这样可以通过浏览器实现类似图形化的安装操作。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114069.png" rel="nofollow"&gt;&lt;img alt="Fedora Linux 45计划提供基于浏览器的远程安装 不过仅限Atomic桌面版镜像" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114069.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;基于浏览器提供的图形化远程安装仅限于 Fedora Atomic 桌面版镜像，该版本并非常规的服务器版本，而是基于镜像的、不可变的桌面操作系统变体。该变体系统的设计目标是提供极高的稳定性和可靠性，特别适合开发者和以容器为中心的工作流。&lt;/p&gt;
+&lt;p&gt;当然用户日常使用 Fedora Atomic Desktop 与常规的桌面版其实体验非常接近，只不过底层架构完全不同，而本次我们提到的基于浏览器的远程安装也仅限于 Atomic 桌面版变体，Fedora Linux 的其他变体或常规版还不会提供支持。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 计划在 Fedora Linux 45 版中提供支持：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这项变更已经提交且需要等待 Fedora Linux 工程与指导委员会的批准，按照目前变更计划，如果获得批准则开发团队会在 Fedora Linux 45 版中开始实施。这个新功能主要基于 Anaconda WebUI，后者也已经开发很长时间所以现在即将作为新的安装选项向 Fedora Atomic Desktop 用户开放。&lt;/p&gt;
+&lt;p&gt;后续提供支持后，在实际部署时用户可以使用 inst.webui.remote 内核参数启动系统，然后就可以在其他设备例如手机上通过浏览器访问安装流程。为确保安全，Anaconda WebUI 支持基于 PIN 码的身份验证，所以并不是所有设备打开浏览器都能直接访问安装流程。&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sun, 26 Jul 2026 09:31:10 +0000</pubDate></item><item><title>UTM团队推出DX11驱动程序 可在QEMU虚拟机中获得比较完整的DX11支持</title><link>https://www.landian.news/archives/114074.html</link><description>
+&lt;p&gt;#软件资讯 开源虚拟机工具 UTM 推出新的 DX11 驱动程序，可在 QEMU 虚拟机中获得比较完整的 DX11 支持。这个新驱动程序代表 QEMU Windows 图形加速取得重大进步，不过在 Mac 上由于技术授权问题，暂时还存在其他限制。另外 UTM 团队已经将相关代码开源和提交到上游，未来的 UTM 版本会提供更易用的支持。查看全文：https://ourl.co/114074&lt;/p&gt;&lt;p&gt;UTM 团队日前宣布推出名为 Triton 的新驱动程序，这是面向 QEMU 虚拟机的 Windows DirectX 11 图形驱动程序，配合此前发布的 D3D 转发协议后，QEMU 虚拟机已经可以获得比较完整的 DX11 支持。开发者还展示在 macOS 上通过 UTM 运行的 Windows 11 Arm64 虚拟机，可以成功启动古惑狼三部曲等游戏。&lt;/p&gt;
+&lt;p&gt;UTM 是 macOS 和 iOS 平台常用的开源虚拟机工具，底层主要是基于 QEMU 构建，简单来说 QEMU 负责真正运行虚拟机，而 UTM 则提供图形界面、配置管理和系统集成。因此此次 Triton 的意义不局限于 UTM，该驱动实际是在改进 QEMU Windows 虚拟机的图形加速能力。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114074.png" rel="nofollow"&gt;&lt;img alt="UTM团队推出DX11驱动程序 可在QEMU虚拟机中获得比较完整的DX11支持" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114074.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;此前 UTM 团队已经推出 Neptune，用于把 D3D API 调用通过 VirtIO 转发给宿主机。Neptune 最初更适合 Linux 虚拟机里的 Wine 场景，也就是让 Linux 虚拟机中的 Windows 应用把 D3D 调用转发出去渲染。&lt;/p&gt;
+&lt;p&gt;但 Windows 虚拟机的问题更复杂，不能简单把 d3d11.dll 和 dxgi.dll 放到游戏目录里解决，否则 Windows 桌面合成器 DWM 仍然无法真正识别 GPU 能力，容易造成 CPU 复制、性能下降和桌面体验不流畅。同时部分带有反作弊系统的游戏也可能检测到 DLL 替换。&lt;/p&gt;
+&lt;p&gt;Triton 采用的是更接近原生驱动的方案：实现 Windows DX 的 DDI。应用仍然调用系统自带的 D3D 和 DXGI 组件，Windows 再把底层图形命令交给 Triton 用户态驱动和内核态驱动程序。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; Triton 与 Neptune 配合完成 DX11 转发：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;按照 UTM 团队的说明，Triton 会把 Windows DDI 调用重新转换为 DX11 API 调用，再交给 Neptune 序列化，通过 QEMU/VirtIO 传递到宿主机，宿主机再由 virglrenderer 和对应图形后端完成渲染。&lt;/p&gt;
+&lt;p&gt;这样做的好处是减少中间转换层，开发者提到，VirtualBox 的旧方案会把 DDI 调用转换为中间字节码，再在宿主机上解释执行；而 Triton 尽量把图形命令重新映射回 DX11 调用，理论上说更直接，也更容易提高兼容性。&lt;/p&gt;
+&lt;p&gt;不过这个方案仍然有难点，尤其是 DX11 使用的 DXBC Shader 字节码，Triton 不需要把 DXBC 完整反编译再转换，但需要重建部分元数据，让宿主机渲染器能够识别和处理这些 Shader。开发者也承认，这是目前最脆弱和最容易出现问题的部分。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;UTM 团队称 D3DMetal 性能表现更好，即使部分渲染进程需要通过 Rosetta 运行，仍然比原生 ARM64 DXMT 更快。但关键问题在于授权，苹果的许可条款限制该组件用途为通过苹果平台开发、测试和评估游戏，且只能用于非商业分发。&lt;/p&gt;
+&lt;p&gt;因此 UTM 目前不能直接将 D3DMetal 打包进应用，除非未来获得类似 CrossOver 的授权安排。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;UTM 团队称相关用户态和内核态驱动代码都已经开源，高级用户可以自行编译进行测试，团队也在尝试把更多修改提交到上游项目，而且团队还计划在后续的 UTM 版本中提供更易用的支持。&lt;/p&gt;
+&lt;p&gt;对普通用户来说现阶段还不用急着折腾，但对于 macOS 用户、QEMU 用户和虚拟机开发者来说，Triton 仍然值得关注，该驱动距离替代原生 Windows 游戏环境还有距离，但 QEMU Windows 图形加速确实取得重大进步。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://www.landian.news/go?url=https://blog.getutm.app/2026/introducing-triton-directx-11-driver-for-qemu/" rel="noopener" target="_blank"&gt;UTM&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sun, 26 Jul 2026 08:59:31 +0000</pubDate></item><item><title>被智能体自主攻击后 🤗抱抱脸要求OpenAI公布全部细节且赔偿1亿美元计算资源</title><link>https://www.landian.news/archives/114070.html</link><description>
 &lt;p&gt;#人工智能 HF 抱抱脸首席执行官要求 OpenAI 赔偿 1 亿美元算力和公开 AI 智能体攻击的完整细节，不过目前 OpenAI 尚未发布回应。此前 HF 遭到未知智能体攻击，事后 OpenAI 承认这个智能体是从内部环境中逃逸的。不过 OpenAI 到现在也没有公布细节，HF 认为这是业界首次出现 AI 智能体自主发起的攻击，本身这就是史无前例的事件，所以也应该采用史无前例的应对措施。查看全文：https://ourl.co/114070&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/114008.html" rel="noopener" target="_blank"&gt;此前人工智能平台抱抱脸 (HuggingFace) 发布博客透露自己遭到未知 AI 智能体发起的网络攻击&lt;/a&gt;，AI 智能体通过上传的数据集寻找平台安全漏洞 (并且成功找到)，随后利用漏洞进入平台内部基础设施且尝试进行横向移动。&lt;/p&gt;
 &lt;p&gt;对于此次攻击抱抱脸通过开源的智谱 AI 模型完成必要的取证分析，随后该公司也直接将相关事件报告给美国联邦调查局 (FBI)，而 OpenAI 在抱抱脸发布博客透露被攻击后才承认&lt;a href="https://www.landian.news/archives/114029.html" rel="noopener" target="_blank"&gt;失控的智能体来自 OpenAI 内部测试环境&lt;/a&gt;。&lt;/p&gt;
 &lt;figure&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114008.png" rel="nofollow"&gt;&lt;img alt="被智能体自主攻击后 🤗抱抱脸要求OpenAI公布全部细节且赔偿1亿美元计算资源" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114008.png"/&gt;&lt;/a&gt;&lt;figcaption&gt;图片来源：The Hacker News&lt;/figcaption&gt;&lt;/figure&gt;
@@ -16,7 +46,7 @@
 &lt;p&gt;抱抱脸平台创始人兼首席执行官克莱门特德朗格在 OpenAI 联系后已经前往该公司总部就此事进行沟通，不过现在克莱门特也没有透露更多细节 (与 OpenAI 的沟通细节)。在抱抱脸的博客中，该公司已经对攻击细节进行详细说明，克莱门特认为 OpenAI 也应该保持透明度。&lt;/p&gt;
 &lt;p&gt;在最新发布的推文中克莱门特要求 OpenAI 彻底公开失控 AI 智能体的痕迹，以便整个研究社区能够研究到底发生了什么。同时 OpenAI 需赔偿 1 亿美元的算力，让抱抱脸使用最佳的开源和闭源模型构建更强大的网络安全防御能力。&lt;/p&gt;
 &lt;p&gt;克莱门特称这是业界首次出现 AI 智能体自主发起网络攻击，本身这是史无前例的事件，所以也应该采用史无前例的应对措施。&lt;/p&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 </description><pubDate>Sun, 26 Jul 2026 05:01:16 +0000</pubDate></item><item><title>[关注] 谷歌工程师提议禁止安卓ADB本地连接 Shizuku等高级应用将受到严重影响</title><link>https://www.landian.news/archives/114073.html</link><description>
 &lt;p&gt;#系统资讯 谷歌工程师提议限制安卓本机 ADB 连接，Shizuku 等多种高级工具可能会受影响，即这些工具的诸多功能可能会无法使用。注意：目前仅在提议阶段，提议由核心 ADB 维护者 (也是谷歌员工) 提出，旨在解决 ADB 的安全问题。具体来说提议是禁止通过 localhost 回环地址连接本机，因此想要在本机启用 ADB 并实现本机连接操作将被阻止。查看全文：https://ourl.co/114073&lt;/p&gt;&lt;p&gt;日前有开发者注意到谷歌工程师为解决安卓调试桥 (ADB) 中的潜在安全漏洞，提议要限制安卓系统上的本机 ADB 连接，发起提议的是核心 ADB 维护者 (谷歌工程师)。如果这项方案最终实施，依赖本机 ADB 回环连接的工具可能受影响，例如 Shizuku 和 aShell 等等。&lt;/p&gt;
 &lt;p&gt;这项功能请求原本是希望允许开发者选择 ADBD 监听的网络接口从而减少无线 ADB 的暴露面，但谷歌工程师则提到可以考虑让 ADBD 只绑定到 Wi-Fi 接口的 wlan0，这会限制 localhost 连接。&lt;/p&gt;
@@ -35,7 +65,7 @@
 &lt;p&gt;对开发者来说这个问题也不小，Termux、libadb-android 等工具让开发者可以直接在安卓设备上运行 ADB 客户端，适合没有电脑、临时排查问题、移动开发或特殊自动化场景。如果本机连接被永久禁止，这些场景都有可能被直接切断。&lt;/p&gt;
 &lt;p&gt;开发者的建议是谷歌可以默认限制本机 ADB 但应该保留持久开关，让明确知道风险的开发者和高级用户自行启用持久开关从而维持以前的功能。持久开关指的是启用后即便重启系统也会自动启动，这样 Shizuku 类工具不需要在每次重启后都重新折腾。&lt;/p&gt;
 &lt;p&gt;Sources：&lt;a href="https://www.landian.news/go?url=https://issuetracker.google.com/issues/526109803" rel="noopener" target="_blank"&gt;Google Issue Track&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 </description><pubDate>Sun, 26 Jul 2026 04:37:23 +0000</pubDate></item><item><title>消费级显卡价格继续上涨：英伟达已通知AIC/AIB上调GDDR显存价格</title><link>https://www.landian.news/archives/114082.html</link><description>
 &lt;p&gt;#硬件设备 消费级显卡价格继续上涨：产业链消息称英伟达已经通知 AIC/AIB 上调 GDDR 显存价格，随后诸多厂商直接封仓等待调价政策 8 月落地。封仓停止出货导致 7 月末显卡供应继续缩减因此价格持续上涨，而 8 月份调价落地后显卡价格可能还会继续涨。价格方面，8GB 显存涨价 76 美元，12GB 显存涨价 114 美元，16GB 显存涨价 152 美元。查看全文：https://ourl.co/114082&lt;/p&gt;&lt;p&gt;本周产业链消息称英伟达已经通知 AIC/AIB 显卡合作伙伴，将上调部分显卡相关的 GDDR 显存成本，本轮调整覆盖 GDDR7 显存但也包括部分仍然使用 GDDR6 显存的产品，因此影响范围可能不只是 RTX50 系高端显卡，其他非高端显卡可能同样会受影响。&lt;/p&gt;
 &lt;p&gt;目前英伟达并未公开确认该消息，具体涨幅、执行时间和影响型号也没有官方公告。不过从近期显存市场情况来看，这类调价并不意外，AI 服务器正在继续挤占高端内存产品，GDDR6/7 这类显存价格也在持续承压，最终成本会被传导给显卡制造商和终端消费者。&lt;/p&gt;
@@ -47,86 +77,5 @@
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;需要注意的是目前消息是英伟达已经通知合作伙伴但具体的涨价政策落地时间是在 8 月，所以目前诸多 AIC 厂商已经直接封仓暂停出货，等待 8 月份英伟达的涨价政策落地后再调整产品售价重新出货，这也导致 7 月末显卡供应直接缩减，所以已经有很多商家开始提高价格出售显卡，尤其是高端显卡例如 RTX 5090D V2。&lt;/p&gt;
 &lt;p&gt;价格方面，8GB 显存涨价 76 美元，12GB 显存涨价 114 美元，16GB 显存涨价 152 美元。部分 AIC 厂商原本准备推出 RTX 50 SUPER 系列，但因为现在 GDDR7 采购价过高难以承担压力，所以现在英伟达似乎也因为显存供应问题暂缓发售 RTX 50 SUPER 系列。&lt;/p&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 25 Jul 2026 06:34:13 +0000</pubDate></item><item><title>华硕发布多款搭载AMD EPYC 9006处理器的全闪存服务器 提供完整PCIe 6.0协议支持</title><link>https://www.landian.news/archives/114068.html</link><description>
-&lt;p&gt;#硬件设备 华硕推出搭载 AMD EPYC 9006 系列处理器的机架式全闪存服务器，完整支持 PCIe 6.0 协议最高支持 32 块固态硬盘。这些服务器包含单路和双路版，双路版主要为旗舰级，可以提供更高的性能，适合资源密集型负载场景。华硕称这些服务器可以企业级人工智能、虚拟化、存储和云环境的工作要求。查看全文：https://ourl.co/114068&lt;/p&gt;&lt;p&gt;华硕日前发布新闻稿宣布推出多款搭载 AMD EPYC 9006 处理器的全新服务器产品线，华硕称这些服务器旨在为要求最苛刻的密集型企业工作负载提供无与伦比的性能。从产品介绍来看，这些机架服务器重点都是固态硬盘，也就是企业可以构建全闪存服务器，为资源密集型应用例如数据库等提供高性能支撑。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114068.png" rel="nofollow"&gt;&lt;img alt="华硕发布多款搭载AMD EPYC 9006处理器的全闪存服务器 提供完整PCIe 6.0协议支持" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114068.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; 双路 / 单路服务器以及完整 PCIe 6.0 支持：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;此次华硕推出的这些机架式服务器中包含单路和双路版本，例如旗舰级双路服务器 ASUS RS700A/RS720A，这些服务器可以提供极致的计算密度。单路服务器 ASUS RS500A/RS520A，这些服务器可以提供更高的空间利用率和部署灵活性。&lt;/p&gt;
-&lt;p&gt;华硕强调无论是单路还是双路服务器均支持完整的 PCIe 6.0 协议，这意味着企业可以选购支持该协议的固态硬盘从而获得更高的读写速度。这些服务器还提供卓越的散热管理和运行效率，满足企业级人工智能、虚拟化、存储和云环境的要求。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;外形尺寸：2U&lt;/li&gt;
-&lt;li&gt;主处理器：2 颗 AMD 威尼斯 SP8 处理器，最高功耗 400W&lt;/li&gt;
-&lt;li&gt;内存规格：32 个 DDR5 DIMM 插槽，2DPC 最高可达 8000MT / 秒，使用 MRDIMM 最高可达 11200MT / 秒&lt;/li&gt;
-&lt;li&gt;硬盘数量：取决于不同的 SKU&lt;/li&gt;
-&lt;li&gt;硬盘可选：32 个 E3.S PCIe 6.0 固态盘&lt;/li&gt;
-&lt;li&gt;硬盘可选：24 个 2.5 英寸 NVMe 固态盘&lt;/li&gt;
-&lt;li&gt;硬盘可选：12 个 2.5/3.5 英寸 NVMe 固态盘&lt;/li&gt;
-&lt;li&gt;扩展槽位：最多 10 个 PCIe 6.0 插槽，包含 6 个 x8 链路或 3 个 x16 链路 FHFL 插槽，2 个 x16 链路 FHFL 插槽&lt;/li&gt;
-&lt;li&gt;扩展槽位：2 个 OCP 3.0&lt;/li&gt;
-&lt;li&gt;显卡支持：最多可以安装 3 张双槽 GPU 卡，功耗最高为 450W&lt;/li&gt;
-&lt;li&gt;主要电源：1+1 冗余 3200W/2700W 80 PLUS 钛金电源&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;外形尺寸：1U&lt;/li&gt;
-&lt;li&gt;主处理器：2 颗 AMD 威尼斯 SP8 处理器，最高功耗 400W&lt;/li&gt;
-&lt;li&gt;内存规格：32 个 DDR5 DIMM 插槽，2DPC 最高可达 8000MT / 秒，使用 MRDIMM 最高可达 11200MT / 秒&lt;/li&gt;
-&lt;li&gt;硬盘数量：取决于不同的 SKU&lt;/li&gt;
-&lt;li&gt;硬盘可选：4 个 2.5/3.5 英寸 NVMe 固态盘&lt;/li&gt;
-&lt;li&gt;硬盘可选：12 个 2.5 英寸 NVMe 固态盘&lt;/li&gt;
-&lt;li&gt;硬盘可选：16 个 E3.S PCIe 6.0 固态盘&lt;/li&gt;
-&lt;li&gt;扩展槽位：最多 4 个 PCIe 6.0 插槽，包含 2 个 PCIe 6.0 x16 链路 FHHL 插槽，另配 2 个 OCP 3.0 插槽&lt;/li&gt;
-&lt;li&gt;显卡支持：最多可以安装 2 张单槽 GPU 卡，功耗最高为 140W&lt;/li&gt;
-&lt;li&gt;主要电源：1+1 冗余 2000W 80 PLUS 钛金电源&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;外形尺寸：2U&lt;/li&gt;
-&lt;li&gt;主处理器：1 颗 AMD SP8 处理器，最高功耗 400W&lt;/li&gt;
-&lt;li&gt;内存规格：16 个 DDR5 DIMM 插槽，2DPC 最高可达 8000MT / 秒，使用 MRDIMM 最高可达 11200MT / 秒&lt;/li&gt;
-&lt;li&gt;硬盘数量：取决于不同的 SKU&lt;/li&gt;
-&lt;li&gt;硬盘可选：12 个 3.5/2.5 英寸 NVMe 固态盘 + 4 个 E1.S 中置硬盘位 (部分型号)&lt;/li&gt;
-&lt;li&gt;硬盘可选：24 个 2.5 英寸 NVMe 固态盘&lt;/li&gt;
-&lt;li&gt;硬盘可选：16 个 2.5 英寸 NVMe 固态盘 + 8 个 2.5 英寸 SAS 硬盘&lt;/li&gt;
-&lt;li&gt;扩展槽位：12 盘位或 16 盘位 SKU 提供 1 个 PCIe 6.0 x16 链路 FHFL 插槽&lt;/li&gt;
-&lt;li&gt;扩展槽位：2 个 PCIe 6.0 x8 链路 FHFL 插槽，2 个 OCP 3.0 插槽&lt;/li&gt;
-&lt;li&gt;扩展槽位：24 盘位 SKU 提供 1 个 PCIe 6.0 x16 链路 FHFL 插槽、1 个 OCP 3.0 插槽&lt;/li&gt;
-&lt;li&gt;显卡支持：12 盘位或 16 盘位 SKU 最多可以安装 3 张单槽 GPU 卡&lt;/li&gt;
-&lt;li&gt;显卡支持：1 张双槽 GPU 卡 + 2 张单槽 GPU 卡，功耗最高为 350W&lt;/li&gt;
-&lt;li&gt;显卡支持：24 盘位 SKU 最多可以安装 1 张双槽 GPU 卡，功耗最高为 350W&lt;/li&gt;
-&lt;li&gt;主要电源：1+1 冗余 2700W/2000W 80 PLUS 钛金电源&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;外形尺寸：1U&lt;/li&gt;
-&lt;li&gt;主处理器：1 颗 AMD SP8 处理器，最高功耗 400W&lt;/li&gt;
-&lt;li&gt;内存规格：16 个 DDR5 DIMM 插槽，2DPC 最高可达 8000MT / 秒，使用 MRDIMM 最高可达 11200MT / 秒&lt;/li&gt;
-&lt;li&gt;硬盘数量：取决于不同的 SKU&lt;/li&gt;
-&lt;li&gt;硬盘可选：12 个 2.5 英寸 NVMe 固态盘 + 4 个 E1.S 中置硬盘位 (部分型号) 或 16 个 E3.S 硬盘&lt;/li&gt;
-&lt;li&gt;扩展槽位：最多 2 个 PCIe 插槽，包含 2 个 PCIe 6.0 x16 链路 FHHL 插槽，另配 2 个 OCP 3.0 插槽&lt;/li&gt;
-&lt;li&gt;显卡支持：最多可以安装 2 张单槽 GPU 卡，功耗最高为 72W&lt;/li&gt;
-&lt;li&gt;主要电源：1+1 冗余 2000W 80 PLUS 钛金电源&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 25 Jul 2026 06:06:29 +0000</pubDate></item><item><title>微软加强KMS激活验证 要求主机必须支持TPM验证 以后可能无法随便搭建激活服务器</title><link>https://www.landian.news/archives/114067.html</link><description>
-&lt;p&gt;#系统资讯 微软正在加强 KMS 批量激活机制的验证，后续将无法随意搭建 KMS 服务器，因为主机必须拥有 TPM 模块且经过微软验证才可以使用。这项改进对普通用户来说暂时没有影响，不过在未来用户可能无法随意在本地或路由器上搭建 KMS 服务器。这个过渡过程可能还需要很多年，所以暂时用户不需担心这方面的问题。查看全文：https://ourl.co/114067&lt;/p&gt;&lt;p&gt;KMS 密钥管理服务是微软主要面向企业和大型组织提供的批量激活技术，这种激活技术可以简化企业激活系统的复杂度，同时在云计算领域搭载 Windows Server 的虚拟机也可以按需激活，例如服务器实例开通时使用 KMS 激活，删除时自动撤销激活授权。&lt;/p&gt;
-&lt;p&gt;对于普通用户来说想要搭建 KMS 激活服务器也非常简单，网上有相关开源仓库，用户可以在任意主机或服务器上搭建激活服务器，例如部分路由器固件甚至都自带 KMS 插件可以用来在局域网里快速搭建激活服务器，实现局域网内设备快速激活。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114067.png" rel="nofollow"&gt;&lt;img alt="微软加强KMS激活验证 要求主机必须支持TPM验证 以后可能无法随便搭建激活服务器" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114067.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;微软日前宣布加强 KMS 激活验证机制，微软希望通过新的硬件支持信任模型来加强批量激活的安全性。这项名为 KMS 硬件安全的增强功能将适用于基于可信平台模块 TPM 的认证机制，在 KMS 服务器激活下游系统前，微软会预先验证激活服务器是否运行在可信硬件上。&lt;/p&gt;
-&lt;p&gt;微软表示，新的 KMS 硬件安全功能旨在解决伪造或克隆 KMS 服务器带来的安全和合规风险，「攻击者」曾利用这些服务器绕过控制。通过增加可信平台模块的验证，微软可以确保只有在未受损的硬件上运行经过验证的 KMS 激活服务器，而经过验证的激活服务器才能为下游系统颁发许可证。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在新激活模式下，KMS 服务器会先使用可信平台模块支持的认证来建立其硬件身份，随后微软服务器会对这个硬件身份进行独立安全验证，通过验证后这台 KMS 激活服务器才能向下游系统颁发激活许可证。可信平台模块还会确认平台的完整性，如果激活服务器遭到篡改则无法通过验证。&lt;/p&gt;
-&lt;p&gt;目前微软正在鼓励使用 KMS 激活服务器的企业和机构在过渡之前开始评估生产环境，而对于虚拟化的 KMS 激活服务器，微软会在后续发布相关技术指南，帮助 IT 管理员完成必要的准备和迁移工作 (虚拟化服务器可能没有可信平台模块认证)。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;根据计划，微软将从 2026 年 8 月开始率先在 Windows Server 2025 上带来可信平台模块验证功能，到时候 IT 管理员可以在该系统上部署 KMS 服务然后验证服务器是否满足新的硬件要求。&lt;/p&gt;
-&lt;p&gt;部署服务后 IT 管理员可以通过命令 slmgr -dlv 查看信息，符合条件的设备将会显示：此设备符合条件，可用作基于硬件的安全功能的 KMS 主机。不符合条件的设备则会显示为：此设备不满足使用具有基于硬件的安全功能的 KMS 主机的要求。&lt;/p&gt;
-&lt;p&gt;微软还透露后续发布的 Windows Server LTSC 将强制要求 KMS 服务器必须满足可信平台模块验证，下个长期服务版应该就是 Windows Server 2028，所以对于企业来说确实要提前准备过渡，以免未来出现批量激活问题。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;微软这项改进短期内不会对普通用户产生任何影响，因为微软推进硬件验证也是需要时间的，因此对于自行搭建 KMS 服务器的用户来说暂时没有任何影响。部分激活工具也内置 KMS 功能在本机环境搭建 KMS 服务器实现本机激活，这个暂时也没有影响。&lt;/p&gt;
-&lt;p&gt;展望未来，任意搭建 KMS 服务器的做法可能会受到限制，到时候用户可能不能随意搭建 KMS 服务器，不过到时候可能还会有其他社区用户想办法绕过微软的限制，继续提供不需要 TPM 模块就可以通过微软身份验证的搭建方式。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://www.landian.news/go?url=https://techcommunity.microsoft.com/blog/windows-itpro-blog/strengthening-key-management-service---kms-with-hardware-based-trust/4539465?" rel="noopener" target="_blank"&gt;Microsoft&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://www.landian.news/archives/113199.html?utm_source=internal&amp;amp;utm_medium=recommendation&amp;amp;utm_campaign=footer_activity&amp;amp;utm_content=pc&amp;amp;utm_term=%E7%BB%88%E4%BA%8E%E8%A1%A5%E8%B4%A7%EF%BC%8199%E5%85%83/%E5%B9%B4%E5%A2%83%E5%A4%96CN2%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%88%E5%8F%AF%E4%BB%A5%E8%B4%AD%E4%B9%B0%EF%BC%8C%E9%99%90%E9%87%8F%E9%94%80%E5%94%AE%EF%BC%8C%E5%94%AE%E5%AE%8C%E5%8D%B3%E6%AD%A2%E3%80%82%E5%8F%A6%E6%9C%893%E5%B9%B4%E8%B6%85%E4%BD%8E%E4%BB%B7%E5%9B%BD%E5%86%85VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 25 Jul 2026 05:24:39 +0000</pubDate></item></channel></rss>
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sat, 25 Jul 2026 06:34:13 +0000</pubDate></item></channel></rss>
