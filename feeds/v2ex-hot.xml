@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>V2EX-最热主题</title><link>https://www.v2ex.com/</link><description>V2EX-最热主题 - Powered by RSSHub</description><language>zh-CN</language><lastBuildDate>Sat, 25 Jul 2026 12:48:36 +0000</lastBuildDate><item><title>推荐下磷酸铁锂的五号和七号电池</title><link>https://www.v2ex.com/t/1229778</link><description>&lt;p&gt;家里用电池的东西越来越多，门锁，电子秤，小孩玩具，手柄，键盘鼠标等，保险柜，燃气表等，不得不得备好些电池。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>V2EX-最热主题</title><link>https://www.v2ex.com/</link><description>V2EX-最热主题 - Powered by RSSHub</description><language>zh-CN</language><lastBuildDate>Sat, 25 Jul 2026 13:43:51 +0000</lastBuildDate><item><title>独立开发者（opc）收款的问题</title><link>https://www.v2ex.com/t/1229785</link><description>&lt;p&gt;一个独立开发者，无法注册企业和个体工商户，做了好几个作品，一直卡在收款支付上。&lt;/p&gt;
+&lt;p&gt;海外的收款我使用 Creem ，虽然费率高，但是算是解决。&lt;/p&gt;
+&lt;p&gt;国内的收款，一直找不到解决方案。看了自媒体上介绍的什么易支付之类，总感觉不靠谱。&lt;/p&gt;
+&lt;p&gt;困扰了好久，各位大神是怎么解决这个问题。最好正规点的，费率高点也无所谓。感谢🙏&lt;/p&gt;
+&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;#1 jacketma&lt;/strong&gt;：注册一个 OPC，很多地方 zf 都有支持的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#2 AIwts&lt;/strong&gt;：虎皮椒 10 年有的了吧  我知道的就 6 年了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#3 Curtion&lt;/strong&gt;：最简单肯定是个体户，除非你的公司要查，否则都建议注册一个，我用的淘宝网店注册的，甚至不需要线下经营地址。&lt;br/&gt;如果确实注册不了就选择 yungouos 这种平台商户，走代理商的 api 接口，但是收款实时到账，不要选择平台代收然后提现这种，容易跑路。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#4 suhu&lt;/strong&gt;：@&lt;a href="/member/Curtion"&gt;Curtion&lt;/a&gt; “用的淘宝网店注册的” 是阿里的服务么？还是看当地政策&lt;br/&gt;&lt;br/&gt;而且貌似有个很大的问题是如果是一人公司（独资公司）的话貌似无法“有限责任”？&lt;br/&gt;参考：《个人独资企业法》第三十一条：个人独资企业财产不足以清偿债务的，投资人应当以其个人的其他财产予以清偿。&lt;br/&gt;如果是走“一人有限责任公司”的话貌似避免“财产混同”也很麻烦。。&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;对楼主说的：&lt;br/&gt;  可以看看面包多、蓝兔支付这种服务商模式的签约的收款通道，可以直接身份证做 KYC ，也是直接支付宝微信结算给你的，但是代价是会被中间商（也就是服务商模式的服务商）抽手续费，而且不低&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#5 JoeJoeJoe&lt;/strong&gt;：如果没法注册公司和个体的话，那只能走那些三方代收的，实时到账的费率高一些，门槛提现的费率低一些，但是得勤看着点&lt;br/&gt;&lt;br/&gt;国内支付还是得注册公司才方便，有个公司很多事情都能解决&lt;br/&gt;&lt;br/&gt;ps：/go/isv 这是一个专门为独立开发者而开的一个节点&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#6 manbudezhu&lt;/strong&gt;：@&lt;a href="/member/Curtion"&gt;Curtion&lt;/a&gt; 没办法注册😩，国外 creem 、paypal 好像都支持个人，国内好难。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#7 ajaxfunction&lt;/strong&gt;：不理解 你注册一个 资本很小的有限责任公司就完了，个体户也可以。为什么不呢。不注册意味着你做大陆所有业务都是非法经营，都不合规&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#8 manbudezhu&lt;/strong&gt;：@&lt;a href="/member/JoeJoeJoe"&gt;JoeJoeJoe&lt;/a&gt; 就是找不合适的第三方代收，困扰了好久了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#9 pfjhetg&lt;/strong&gt;：费率高，不如你一年花几千办理一个公司啊。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#10 grimbedroom&lt;/strong&gt;：creem 最新已经支持了支付宝，&lt;a href="http://pancake.waffo.ai" rel="nofollow noopener" target="_blank"&gt;pancake.waffo.ai&lt;/a&gt; 支持了微信，不过 waffo 的微信路径是 美元-港币-人民币，汇差挺多，看自己选择吧&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#11 Curtion&lt;/strong&gt;：@&lt;a href="/member/suhu"&gt;suhu&lt;/a&gt; 不是阿里的服务, 是当地政策, 在以前注册个体户需要提供一个经营地址, 需要很多资料(房产证, 如果是租赁还要合同, 如果是住宅还要更多的资料), 现在个体户注册的时候可以把经营地址填成网店地址, 需要的资料大大减少, 很简单就注册完了。 &lt;br/&gt;&lt;br/&gt;至于无限责任确实是个问题, 其实还有个解决方案就是注册一个国外的公司，每年最低大概 2000RMB 不到就可以维护, 可以使用 stripe 接入支付宝收款&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#12 Solix&lt;/strong&gt;：注册 stripe 就行了呀，有支付宝微信支持。stripe 海外公司也可以用支付宝微信，只要审核通过就行。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#13 suhu&lt;/strong&gt;：@&lt;a href="/member/grimbedroom"&gt;grimbedroom&lt;/a&gt; 后面这个是国人的作品么？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#14 aimuz&lt;/strong&gt;：支付宝直接个人申请就行了，只不过限额，一天最多收款 2000&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#15 aimuz&lt;/strong&gt;：支付宝 APP 直接搜索 签约助手，可以直接个人申请了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#16 kulove&lt;/strong&gt;：stripe 就支持微信支付宝的 印象中是点一下就开通了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#17 suhu&lt;/strong&gt;：@&lt;a href="/member/Solix"&gt;Solix&lt;/a&gt; stripe 的支付宝微信有门槛么 我港区的 stripe 商户申请了支付宝微信但是一直都是 PENDING 状态&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#18 Wcowin&lt;/strong&gt;：Zpay 就行  看看我这个写的： &lt;a href="https://github.com/Wcowin/OneClip-License-Manager/blob/main/docs/PAYMENT.md" rel="nofollow noopener" target="_blank"&gt;https://github.com/Wcowin/OneClip-License-Manager/blob/main/docs/PAYMENT.md&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#19 zerovoid&lt;/strong&gt;：咸鱼卖兑换码可以吧&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#20 Solix&lt;/strong&gt;：@&lt;a href="/member/suhu"&gt;suhu&lt;/a&gt; 需要找客服，客服会给你发邮件告诉你补充什么资料，一直等是没用的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#21 ntdll&lt;/strong&gt;：合规方式只有个体户，自己淘宝上随便申请开个店，不需要实质经营，然后去你当地工商，申请营业执照就行，表明是线上经营，就不用线下的经营地址证明&lt;br/&gt;&lt;br/&gt;至于无限责任，本就不是问题。在国内，即使你以个人身份进行，同样也是无限责任（以你个人全部财产为限）。个体户/个人独资企业/一人公司并没有加重此责任。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#22 cooper&lt;/strong&gt;：@&lt;a href="/member/ntdll"&gt;ntdll&lt;/a&gt; 我就是这么开的，但是需要开票的话，税务那边还是需要地址证明的。&lt;br/&gt;&lt;br/&gt;@&lt;a href="/member/manbudezhu"&gt;manbudezhu&lt;/a&gt; 前几天正好整理了一些独立开发者收款渠道 &lt;a href="https://gaome.de/posts/indie-developer-payment-platforms-cn/" rel="nofollow noopener" target="_blank"&gt;https://gaome.de/posts/indie-developer-payment-platforms-cn/&lt;/a&gt; ，没有包含境内的渠道。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 25 Jul 2026 13:43:51 +0000</pubDate></item><item><title>推荐下磷酸铁锂的五号和七号电池</title><link>https://www.v2ex.com/t/1229778</link><description>&lt;p&gt;家里用电池的东西越来越多，门锁，电子秤，小孩玩具，手柄，键盘鼠标等，保险柜，燃气表等，不得不得备好些电池。&lt;/p&gt;
 &lt;p&gt;调研了下稍新点电池发展，简单介绍下我的研究成果，不涉及具体品牌，可能稍有纰漏，大家自己选择时要研究清楚，用错电池可能会损坏设备。&lt;/p&gt;
 &lt;p&gt;通常我们口语的电量应是功率乘时间，即瓦时，电池普遍标的毫安时 mah ，乘以电压后即 mwh 毫瓦时，这个才是电量，当我们讨论起不太常见的锂电池时，这点至关重要。为什么？比如一个 1.2v 五号碱性电池足足 3000mah ，而一个 14500 同样尺寸锂电池，只有 1000mah ，是否意味着，碱性电池电量更多？实际上一个是 1.2v×3000mah=3600mwh ，一个是 3.7v×1000mah=3700mwh ，锂电池的储能密度更高。因此，下边我会以 mwh 表达电量，尽管读者未必能在电池上看到规格，知道如何算出来的就好。&lt;/p&gt;
 &lt;p&gt;最常见的一次性碱性电池，常见 7 号约 1500mwh ，5 号约 3600mwh ，电压有 1.2v/1.5v 的选择。由于电压不稳定，我们可以理解为使用干电池的设备对电压没那么敏感，基于此，我们可以选择同尺寸的电池作为替代品，电压差不那么离谱，就都可以尝试。&lt;/p&gt;
@@ -37,7 +63,12 @@
 &lt;p&gt;&lt;strong&gt;#27 whileFalse&lt;/strong&gt;：@&lt;a href="/member/lslqtz"&gt;lslqtz&lt;/a&gt; @&lt;a href="/member/jqknono"&gt;jqknono&lt;/a&gt; 上 1688 看看，锂变压 5 号电池只要个位数&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#28 zsqduke&lt;/strong&gt;：别去算金钱成本，直接用南孚最省心，不想让这种事情占用注意力&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#29 zsqduke&lt;/strong&gt;：用充电电池太多坑了，家里买了一堆，很多很劣质，冲几次就废了，回头算一下这些年买充电电池的钱可以直接买 10 年的南孚了。&lt;br/&gt;2.如果你的设备总共 20 节电池，你最好备 30 节充电电池，不然等充电是麻烦。还要分 5 号 7 号&lt;br/&gt;&lt;br/&gt;南孚就非常无脑，唯一只需要记得保持家里有库存&lt;br/&gt;&lt;br/&gt;唯一适合用充电电池的，是玩具这种，循环量特别大的。其他像遥控器燃气灶门锁这种长时间待机一年换一两次的，都不值得折腾&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#30 shench&lt;/strong&gt;：松下爱老婆电池，给力。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 25 Jul 2026 12:48:36 +0000</pubDate></item><item><title>吃瓜 openai gpt 全网 503</title><link>https://www.v2ex.com/t/1229759</link><description>&lt;p&gt;&lt;a href="https://status.openai.com/" rel="nofollow"&gt;https://status.openai.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#30 shench&lt;/strong&gt;：松下爱老婆电池，给力。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#31 xuanbg&lt;/strong&gt;：@&lt;a href="/member/zbinlin"&gt;zbinlin&lt;/a&gt; 两节干电池串联不是 1.5+1.5=3.0 伏吗，锂电池一节真的 3.2 伏+一节假的 0 伏，串联输出 3.2 伏。明白了吗&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#32 aheadlead&lt;/strong&gt;：碱性电池还有一个问题是漏液，磷酸铁锂的充电电池应该不存在这种问题吧？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#33 jqknono&lt;/strong&gt;：@&lt;a href="/member/aheadlead"&gt;aheadlead&lt;/a&gt; 杂牌碱性电池确实容易漏液，锂电池暂未遇到漏液&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#34 GeruzoniAnsasu&lt;/strong&gt;：1. 锂电池的电解质没有液态的，不可能漏液&lt;br/&gt;2. 镍氢电池天然不适合用于门锁，无论是记忆效应还是大量串并联潜在的不均匀放电问题都会放大镍氢的缺陷&lt;br/&gt;3. 锂电池有保护板，放电电压会被截断，不适合仪表、打火设备（某些灶和热水器）之类能深度榨干电池能量的设备&lt;br/&gt;4. 充电电池要算上充电器的成本。这玩意就跟读卡器一样，明明看上去结构又简单又没多少钱，但你就是会觉得麻烦、找不到、坏掉、不好使……&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#35 aheadlead&lt;/strong&gt;：@&lt;a href="/member/jqknono"&gt;jqknono&lt;/a&gt; 双鹿和南孚均有漏液案例… 推荐一点 3v 的 5 、7 号的锂电池&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 25 Jul 2026 12:48:36 +0000</pubDate></item><item><title>吃瓜 openai gpt 全网 503</title><link>https://www.v2ex.com/t/1229759</link><description>&lt;p&gt;&lt;a href="https://status.openai.com/" rel="nofollow"&gt;https://status.openai.com/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;兄弟们等你们的 codex 还活着吗？&lt;/p&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 MacsedProtoss&lt;/strong&gt;：codex 正在跑的任务是正常的 GPT app 的话凉了&lt;/p&gt;&lt;hr/&gt;
@@ -156,7 +187,8 @@
 &lt;p&gt;&lt;strong&gt;#77 Feedmo&lt;/strong&gt;：@&lt;a href="/member/germain"&gt;germain&lt;/a&gt; wc&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#78 germain&lt;/strong&gt;：@&lt;a href="/member/Feedmo"&gt;Feedmo&lt;/a&gt; 前几个小时我的 20x weekly 的 limit 下降的比我以前 5h limit 还快，Codex 真实扶不上墙&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#79 v2mo&lt;/strong&gt;：AI 不在线，生产力重置到 0 了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#80 whooc&lt;/strong&gt;：我也遇到了&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 25 Jul 2026 09:11:08 +0000</pubDate></item><item><title>算了一下我要是有 100W 的话， 35 岁就差不多可以躺平了。</title><link>https://www.v2ex.com/t/1229751</link><description>前几天突发奇想，要是 35 岁不想工作了，我就按照每个月最基本 3000 块钱的生活费活着，那么到 60 岁，需要 90W 。&lt;br/&gt;&lt;br/&gt;这样 100W 减去 90W ，还剩下 10W ，正好给自己每个月交一个 800 块钱的灵活就业养老金。交 10 年正好差不多 10W 。加上我之钱上班交了差不多 10 年的社保，那么养老金也就一共交了 20 年了。按目前的政策，退休后每个月能领个 2000 多块钱，一个人也够了。当然，计划赶不上变化，只是目前这样想挺好。另外生病不考虑，小病不用治，大病更不用治。&lt;br/&gt;&lt;br/&gt;不过，目前最残酷的问题是，我没有 100W 。。。。还是得上班当牛马。。
+&lt;p&gt;&lt;strong&gt;#80 whooc&lt;/strong&gt;：我也遇到了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#81 TAFMT&lt;/strong&gt;：已经重置了&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 25 Jul 2026 09:11:08 +0000</pubDate></item><item><title>算了一下我要是有 100W 的话， 35 岁就差不多可以躺平了。</title><link>https://www.v2ex.com/t/1229751</link><description>前几天突发奇想，要是 35 岁不想工作了，我就按照每个月最基本 3000 块钱的生活费活着，那么到 60 岁，需要 90W 。&lt;br/&gt;&lt;br/&gt;这样 100W 减去 90W ，还剩下 10W ，正好给自己每个月交一个 800 块钱的灵活就业养老金。交 10 年正好差不多 10W 。加上我之钱上班交了差不多 10 年的社保，那么养老金也就一共交了 20 年了。按目前的政策，退休后每个月能领个 2000 多块钱，一个人也够了。当然，计划赶不上变化，只是目前这样想挺好。另外生病不考虑，小病不用治，大病更不用治。&lt;br/&gt;&lt;br/&gt;不过，目前最残酷的问题是，我没有 100W 。。。。还是得上班当牛马。。
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 tanszhe&lt;/strong&gt;：我计划 500w 躺平&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#2 yahon&lt;/strong&gt;：如果真的不工作了 其实一个月花不到 3000&lt;a href="https://i.imgur.com/io2SM1h.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/io2SM1h.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
@@ -206,29 +238,7 @@
 &lt;p&gt;&lt;strong&gt;#46 laminux29&lt;/strong&gt;：有钱人，一定要积极寻求与之匹配的政治权力，不然：&lt;br/&gt;&lt;br/&gt;1.明朝沈万三，家产充公，满门抄斩。&lt;br/&gt;&lt;br/&gt;2.晚清胡雪岩，倾家荡产，郁郁而终。&lt;br/&gt;&lt;br/&gt;3.法国雅克·科尔，财产被没收，越狱逃亡，客死他乡。&lt;br/&gt;&lt;br/&gt;还有当权者直接没收财产、战乱年代被武装团队劫掠等等，这种事情太多了。&lt;br/&gt;&lt;br/&gt;当代国内的巨富们，但凡头脑清楚的，都会砸重金为子女或老婆买一个体制内的正式编制，就算只是做些边角料的活，那也算是向当权组织投诚，花钱买保护。不然，搜一下三亚天悦城土拨鼠乐园、Cure Cafe 的下场？特别是 Cure Cafe ，你看看它在哪个城市？&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#47 zryadj&lt;/strong&gt;：不建议躺平，躺平真的很没意思。&lt;br/&gt;已经躺平两年，市面能追的剧几乎都追完了，想做的东西也做了，反正除了无聊就是无聊，并且我还在城市里，有女朋友。都能无聊。。。如果是单身，且在乡下不敢想象会无聊到什么地步。感觉人只会一个极端走向另一个极端。每天上班还是挺好的，有个事一直磨着，还有稳定的固定工资。说真的送外卖都比躺着强。和大多数人过不一样的生活，注定只有非常非常少数的人能接受。不过在上班的时候有个躺平的信念支撑着也挺好的，不然知道真相人也会崩溃。（如果有钱躺平的话，那就是另外一回事了，比如把每个月生活费拉到最低 1 万）&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#48 Eagleyes&lt;/strong&gt;：有房无贷，不婚不育 100w 勉强，否则根本不够。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#49 iintothewind&lt;/strong&gt;：我觉得按一辈子的长度的话, 100w 其实不多, 但是你真的有 100w, 对普通人, 那可是不少的钱了. 而且是单身一个人, 想躺平一会怎么就不行, 躺平又不是进棺材, 中国人也不是只能有一种活法.&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 25 Jul 2026 08:59:03 +0000</pubDate></item><item><title>大家一年旅行的费用占支出的百分比是多少啊</title><link>https://www.v2ex.com/t/1229726</link><description>&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;#1 hylcn&lt;/strong&gt;：我先来，每年差不多一万块左右&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#2 AEDaydreamer&lt;/strong&gt;：0 元 😂&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#3 tangzhik&lt;/strong&gt;：多的时候 8000 ，少的时候 5000 ，都是附近省份旅游或者本省知名景点玩，没有出国或者跨好几个省旅游。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#4 Lyn321&lt;/strong&gt;：0 元&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#5 rongwenqi&lt;/strong&gt;：现在放了假，就直接把手机关机，和家里人待一待，去逛逛超市转转公园啥的。时间长点就开车回老家，对于景点现在是一点兴致都没有了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#6 guanhui07&lt;/strong&gt;：自驾游 一万吧 ,只国内 大头在交通 吃住&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#7 freemoon&lt;/strong&gt;：纯旅游风景真的看不够吗？在我看来，远没有和旅途中的人交流来得有趣，比如女大什么的。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#8 linshuizhaoying&lt;/strong&gt;：差不多都是公积金提出来去玩的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#9 chanssl&lt;/strong&gt;：0.x%吧，基本不旅游&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#10 coderlxm&lt;/strong&gt;：0 元，旅行没啥意思&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#11 wweerrgtc&lt;/strong&gt;：要是回老家的交通费也算的话，还是有一些的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#12 AmericanExpress&lt;/strong&gt;：机票酒店都是信用卡积分换&lt;br/&gt;吃吃喝喝花不了多少&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#13 tedaz&lt;/strong&gt;：0 这公司 领导不给批假  之前的公司很好批&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#14 NotNEO&lt;/strong&gt;：好长时间没有旅行过 我之前旅行都是失业的时候四处逛逛 现在也同样失业 但是对之后预期不够 所以紧衣缩食 不想出去了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#15 1Satoshi&lt;/strong&gt;：0&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#16 zpxshl&lt;/strong&gt;：3w 。旅游是我最花钱的兴趣了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#17 8byte&lt;/strong&gt;：3 到 5 万&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#18 NetworkManager&lt;/strong&gt;：活了快 30 年了 没咋旅游过 只能说最像的一次就是去隔壁县爬了个山&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#19 Dganzh&lt;/strong&gt;：你们是节假日还是年假+周末出去旅游的？&lt;br/&gt;年假没几天，不舍得用，节假日人多不想去，所以花费是 0.&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#20 JoeDH&lt;/strong&gt;：0 ，不是没钱，是缺一个陪我去旅游的人，一个人我真的懒得出去&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#21 MarsCloud&lt;/strong&gt;：zero&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#22 zerovoid&lt;/strong&gt;：去郊区公园踏青算旅游么，&lt;br/&gt;油费加停车费。&lt;br/&gt;&lt;br/&gt;旅游实在太烧钱了，&lt;br/&gt;前年去了一趟嵩山少林寺，&lt;br/&gt;交通费+住宿费+吃饭+门票钱，花了几千块。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#23 kulove&lt;/strong&gt;：一个月一万左右了 然后还在增加&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#24 xiangran0028&lt;/strong&gt;：几万&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#25 tactac&lt;/strong&gt;：0 ，主要不是没意思，主要是没钱。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 25 Jul 2026 06:00:51 +0000</pubDate></item></channel></rss>
+&lt;p&gt;&lt;strong&gt;#49 iintothewind&lt;/strong&gt;：我觉得按一辈子的长度的话, 100w 其实不多, 但是你真的有 100w, 对普通人, 那可是不少的钱了. 而且是单身一个人, 想躺平一会怎么就不行, 躺平又不是进棺材, 中国人也不是只能有一种活法.&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#50 EndlessMemory&lt;/strong&gt;：通货膨胀下 100 万不够的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#51 iixy&lt;/strong&gt;：@&lt;a href="/member/kakki"&gt;kakki&lt;/a&gt; 你去跟 [国家怕股市跌]  [银行比你更怕房子跌] 的坐一桌&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#52 lumia1020&lt;/strong&gt;：没结婚没小孩的话，太容易了。如果没有不良嗜好，花不完的钱。&lt;br/&gt;&lt;br/&gt;不建议完全躺平，还是要有个没那么累，能有年假，哪怕收入低的工作。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 25 Jul 2026 08:59:03 +0000</pubDate></item></channel></rss>
