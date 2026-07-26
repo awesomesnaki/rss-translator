@@ -1,28 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>V2EX-最热主题</title><link>https://www.v2ex.com/</link><description>V2EX-最热主题 - Powered by RSSHub</description><language>zh-CN</language><lastBuildDate>Sun, 26 Jul 2026 06:47:18 +0000</lastBuildDate><item><title>自研 markdown 编辑器内核支持了实时协同能力，做一个基于 webrtc p2p 协同 demo 有没有被喝茶风险</title><link>https://www.v2ex.com/t/1229892</link><description>&lt;p&gt;&lt;strong&gt;项目地址： &lt;a href="https://github.com/do-md/domd" rel="nofollow"&gt;https://github.com/do-md/domd&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;协同 playground： &lt;a href="https://www.domd.app/playground/live" rel="nofollow"&gt;https://www.domd.app/playground/live&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;domd 内核 0.4.0 发布，支持了实时协同能力，代码已经 push 。editor 页面也支持了邀请协同编辑，无需登入。不过担心被喝茶，代码还没推送&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>V2EX-最热主题</title><link>https://www.v2ex.com/</link><description>V2EX-最热主题 - Powered by RSSHub</description><language>zh-CN</language><lastBuildDate>Sun, 26 Jul 2026 06:51:42 +0000</lastBuildDate><item><title>大家觉得的躺平就是完全不工作吗？</title><link>https://www.v2ex.com/t/1229894</link><description>我一直觉得躺平是找个轻松的班上，或者开个小店（自己不坐班那种），每个月有个两三千利润就可以了。
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;#1 SummerGrow&lt;/strong&gt;：很刑啊，能不能加个阅后即焚、双方加密&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#2 jaydenWang&lt;/strong&gt;：@&lt;a href="/member/SummerGrow"&gt;SummerGrow&lt;/a&gt; 真很刑的话就算了，阅后即焚、双方加密也没什么用吧&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#3 lysShub&lt;/strong&gt;：没出事通常没人管你&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#4 Leon6868&lt;/strong&gt;：domd 有可能支持 Knuth-Plass 排版算法吗？&lt;br/&gt;还想问问流式输出的时候是否能允许用户选择输出完的文字&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#5 Leon6868&lt;/strong&gt;：报告一个 BUG ，协同 playground 在一边的编辑器内选择一段文字，开启输入法输入一些字符，并在输入法处于选词状态时点击另外一边的编辑器，则会页面崩溃&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#6 jaydenWang&lt;/strong&gt;：@&lt;a href="/member/Leon6868"&gt;Leon6868&lt;/a&gt; Knuth–Plass 看上去更适合阅读场景和导出场景，编辑场景支持可能比较困难。流式输出过程中目前是禁用了用户操作，底层是支持的，后续会开放。针对流式输入还有一个想法，把 AI 流式输入设计成一个协作者，可以直接召唤 AI 修改文档，AI 协作的同时，人可以直接选择修改已经输出完的文字。理论上可以支持多人多 AI 一起协作修改文档&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#7 ThirdFlame&lt;/strong&gt;：为啥要分两栏 ，两个人都同时在左边就不能正常工作了么？&lt;br/&gt;&lt;br/&gt;类似的开源项目有 codimd ，很好用 多人一起也不会乱&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#8 jaydenWang&lt;/strong&gt;：@&lt;a href="/member/Leon6868"&gt;Leon6868&lt;/a&gt; 稳定复线，会尽快修复，非常感谢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#9 sesine&lt;/strong&gt;：@&lt;a href="/member/jaydenWang"&gt;jaydenWang&lt;/a&gt; #2 加了这 2 个功能以后，更刑了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#10 jaydenWang&lt;/strong&gt;：@&lt;a href="/member/ThirdFlame"&gt;ThirdFlame&lt;/a&gt; playground 是分两栏模拟多用户，真实的 editor 协同页面只有一栏。目前预估 15 人同时编辑会比较丝滑，需要真实环境测试一下&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#11 cp19890714&lt;/strong&gt;：多人同时编辑一个 md ，源 md 是在哪里？ 是某个人的本地 md 吗？还是在服务器上？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#12 jaydenWang&lt;/strong&gt;：@&lt;a href="/member/sesine"&gt;sesine&lt;/a&gt; 😅，webrtc 信令服务是托管在 cloudflare 上，需要 VPN 才能建立连接，不服务于墙内用户会不会好一点&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#13 wangbin11&lt;/strong&gt;：交个朋友有联系方式吗。我没在 GitHub 看到有联系方式&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#14 Leon6868&lt;/strong&gt;：@&lt;a href="/member/jaydenWang"&gt;jaydenWang&lt;/a&gt; #6 也许可以考虑在排版层结合 pretext ，比如将每个单词或者文字当成自定义行内组件渲染？ &lt;a href="https://chenglou.me/pretext/justification-comparison/" rel="nofollow noopener" target="_blank"&gt;https://chenglou.me/pretext/justification-comparison/&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#15 jaydenWang&lt;/strong&gt;：@&lt;a href="/member/cp19890714"&gt;cp19890714&lt;/a&gt; 没有服务器，同步某个节点的 md 。流程大概是：host 写 md ，分享协同链接（可以设置密码），其他人打开链接，初始同步其他节点的文档，后续增量同步变更。支持节点离线编辑，上线后可以同步其他人文档，也把自己的变更同步给其他节点。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#16 jaydenWang&lt;/strong&gt;：@&lt;a href="/member/wangbin11"&gt;wangbin11&lt;/a&gt; 微信：XIHATAL&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#17 Meltdown&lt;/strong&gt;：只给外国人服务可以规避这种问题吗&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#18 jaydenWang&lt;/strong&gt;：@&lt;a href="/member/Meltdown"&gt;Meltdown&lt;/a&gt; 不确定。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#19 jaydenWang&lt;/strong&gt;：@&lt;a href="/member/Leon6868"&gt;Leon6868&lt;/a&gt; 有调研过，评估是 roi 不高，就没有进一步推进。有借鉴实现过将 markdown 排版渲染到 canvas 上，实现简单的链接打开，图片点击放大，不过不支持在 canvas 上编辑&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#20 AEDaydreamer&lt;/strong&gt;：@&lt;a href="/member/jaydenWang"&gt;jaydenWang&lt;/a&gt; #12 和服务在不在墙内没关系, 主要是你人在墙里&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 26 Jul 2026 06:47:18 +0000</pubDate></item><item><title>程序员能不能解决“放暑假娃很吵”这个问题？</title><link>https://www.v2ex.com/t/1229854</link><description>&lt;p&gt;程序员能不能解决“放暑假娃很吵”这个问题？ 程序员应该什么都能做吧！！！&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#1 opengps&lt;/strong&gt;：从来不是不工作，只是不用去干那些糟心的工作&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#2 wonderfulcxm&lt;/strong&gt;：不工作也要在其它事情上找成就感&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#3 iOCZS&lt;/strong&gt;：要是租的，根本没法躺&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#4 Anarchy&lt;/strong&gt;：你可以选择工作也可以选择不工作，重点在心态低标准可以参考三和大神的。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#5 yuanmomo9090&lt;/strong&gt;：正常上班，工作不用加班，没有 996 ，周末不加班，一个人的收入，可以养一家人，不用担心养老，宝宝的教育，不用担心存钱，一家人生病。&lt;br/&gt;&lt;br/&gt;现在就剩我父母还不知道怎么弄&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#6 yidinghe&lt;/strong&gt;：躺平的起码要一个要求就是只管好自己，对父母朋友的命运只表示尊重，不加干涉。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#7 QingXuJiaZhi&lt;/strong&gt;：如果开个小店，不用自己坐班也能赚钱，那不需要躺平也可以开店啊，反正不占用时间，能赚一千是一千，你现在就可以立即开店。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#8 GyroZeppeli13&lt;/strong&gt;：实际上我现在不想工作倒不是因为工作太累，年轻的时候确实是觉得上班太累但是现在适应之后反而没这样的想法了。&lt;br/&gt;&lt;br/&gt;不想工作主要原因是工作中很多人素质很低，而且你拿这些人也没啥特别大的办法。要搞他们是可以，但是自己的工作反而会变得更麻烦。&lt;br/&gt;&lt;br/&gt;我现在还在工作的动力就是以后能离这些煞笔远一点。以后要是躺平了去工作环境碰上这些煞笔，那我不是白工作了吗？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#9 jacketma&lt;/strong&gt;：牛马躺平：实在干不动了&lt;br/&gt;老板躺平：怎么赚更一点&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#10 Awes0me&lt;/strong&gt;：@&lt;a href="/member/QingXuJiaZhi"&gt;QingXuJiaZhi&lt;/a&gt; 不坐班和不占用时间是两回事呀&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#11 jacketma&lt;/strong&gt;：#9 怎么赚多一点&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#12 crysislinux&lt;/strong&gt;：上班还怎么轻松，心里多少有点事情。就是要屁事不干游手好闲才舒服&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#13 Awes0me&lt;/strong&gt;：@&lt;a href="/member/crysislinux"&gt;crysislinux&lt;/a&gt; 这种状态需要特别多的钱，普通人几乎是不太可能积累到这么多本金的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#14 wqhui&lt;/strong&gt;：我估计会偶尔做点兼职，全职就不做了，一个月赚两三千就够，时间自由点而且也不至于长期脱离社会&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#15 idragonet&lt;/strong&gt;：2-3K 如何生活？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#16 xiapipi&lt;/strong&gt;：不需要为了工作而工作就行了了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#17 loading&lt;/strong&gt;：开店？这不是最快的亏钱方式吗？装修起码几个 w 吧（就刮大白，刮个招牌），连锁或者大铺面，几十 w 。多久回本，能一两年回本的话，你觉得为什么外面的门店为啥越来越少吗？就你懂开店？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#18 loading&lt;/strong&gt;：op 你是不是个父母住一块？&lt;br/&gt;2-3k ，去去掉隐形成本没有，房子，水电费，网费。现在光吃饭一天 50 能或者而已，一个月 1.5k ，剩下 500 ，你自己盘着用。每天喝一下 9.9 ，买瓶可乐就没了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#19 bybyte&lt;/strong&gt;：生存容易，生活难&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#20 juggtt213&lt;/strong&gt;：我也好奇大家说的 2-3k 每月含不含房租，是不是都隐含和父母住或者住家里多的房子.感觉这个数字如果不含房租对于待在家里自娱自乐来说还说的过去，属于有点憋屈的级别，如果还要考虑房租的话感觉有点极限了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#21 catch&lt;/strong&gt;：开店不是坐牢吗，这个配叫躺平？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#22 OWLS&lt;/strong&gt;：又不是福利发达国家。真的什么都不做，是会饿死人的。最起码，得网络乞讨吧。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#23 nah&lt;/strong&gt;：我觉得关键是可不可以不做自己不想做的事。&lt;br/&gt;躺平基本上就是降低自己的生活标准和要求，但同时能够极大程度上拥有拒绝的自由。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#24 Awes0me&lt;/strong&gt;：是我没说清楚，我是指的有小几百万存款以后，不做辛苦的工作，找个轻松的班上，再加上吃存款和利息。&lt;br/&gt;&lt;br/&gt;@&lt;a href="/member/idragonet"&gt;idragonet&lt;/a&gt; &lt;br/&gt;@&lt;a href="/member/loading"&gt;loading&lt;/a&gt; #17&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#25 crysislinux&lt;/strong&gt;：@&lt;a href="/member/Awes0me"&gt;Awes0me&lt;/a&gt; 500 万完全够了，说实话两三千的工资有没有都不影响大局&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 26 Jul 2026 06:51:42 +0000</pubDate></item><item><title>程序员能不能解决“放暑假娃很吵”这个问题？</title><link>https://www.v2ex.com/t/1229854</link><description>&lt;p&gt;程序员能不能解决“放暑假娃很吵”这个问题？ 程序员应该什么都能做吧！！！&lt;/p&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 unknow1&lt;/strong&gt;：给你老婆五万块，让她把孩子带出去玩。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#2 coderluan&lt;/strong&gt;：你给我十万块钱，然后我给你开发一个完全仿真机器人，长的和孩子妈妈一模一样，然后她会带孩子出去玩。&lt;/p&gt;&lt;hr/&gt;
@@ -112,7 +115,31 @@
 &lt;p&gt;&lt;strong&gt;#31 lmui&lt;/strong&gt;：同 莫名其妙。通篇都是自己的爹味感悟。自己身体什么样自己几十年没批数吗。每天的饮食和运动量。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#32 ke1e&lt;/strong&gt;：哪有比穷更焦虑的事情&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#33 travelinglight&lt;/strong&gt;：是不是给自己的压力太大了，既然不好屏蔽，那就不刷短视频了，就看看自己喜欢的综艺也可以呀。&lt;br/&gt;&lt;br/&gt;有时候真的是自己吓自己，你妈妈听到你不舒服的消息，肯定也是十分的焦急与忧心的。&lt;br/&gt;&lt;br/&gt;把自己照顾的好好的，才有能力去照顾自己想要照顾的妈妈呀，对不&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#34 getadoggie&lt;/strong&gt;：身体和心理就是这样的，你了解它，你就能更好的使用它（是了解，不是“学习知识）&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 26 Jul 2026 02:01:41 +0000</pubDate></item><item><title>Codex 又又又又又又又又又又又又又又又又又又又又又又又又又又又又重置了</title><link>https://www.v2ex.com/t/1229825</link><description>RT&lt;br/&gt;&lt;br/&gt;前几天续费升级到 20x 没重置，终于补足了  HHHHHH
+&lt;p&gt;&lt;strong&gt;#34 getadoggie&lt;/strong&gt;：身体和心理就是这样的，你了解它，你就能更好的使用它（是了解，不是“学习知识）&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#35 oIIo&lt;/strong&gt;：有一种说法叫*自我实现预言*，就是你越想不好的事情，不好的事情就会发生。你应该打破这种心理暗示，每当脑子里出现这种不好的想法的时候，要自我有意识的打断、转移，多想点积极的事情。  祝好~&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#36 Maxwe11&lt;/strong&gt;：关于心脏、心理相关的信息，我之前其实科普过很多了。&lt;br/&gt;&lt;br/&gt;1. 基本检查指标基本正常，没有明显器质性病变，就没什么大问题，对于应急性的心脏问题，如何快速自我及时判断、如果是真的问题，我在之前发过的指北都详细说过。&lt;br/&gt;2. 心脏、心理、胃部不适的关系，我也之前都科普过，心理上常见的表征体现就包含皮肤、胃部，当然心脏（准确说是心血管问题）也有胃部不适的表现，但一个源发神经，一个源发供血和位置接近的辨别不清。&lt;br/&gt;3. 在完成充分病理性检查的前提下，心理问题识别中有一些很简单的基本判断方法，我之前也都科普过，通常心理焦虑导致的血压变化，低压（舒张压）提升更高，根据以往自己的基础血压，简单判断焦虑引起的血压变化，主要关注低压数值，这个数值更高，和高压的压差低，那么心理问题的概率就更高。&lt;br/&gt;4. 所说的焦虑，在这种表现上更规范的表达是：惊恐障碍发作，你去搜大概就是说什么通常没有明显直接诱因，在几分钟内快速发作，心率快速提升，然后在几分钟内又会逐步恢复，患者可能会同步伴有心理上的强烈濒死感。但和心梗的差异在于心梗是缺血，会伴随强烈的痛感，但心理上的惊恐障碍不会，此外，我也科普过，惊恐障碍发作导致的心率区间（在静息状态下）一般在 120 ～ 140 ，而心梗是缺血性的表现，严重时会导致室颤（心律不齐），如果此时测量心率大概率看到 200+，是一种心律不规律的表现。&lt;br/&gt;&lt;br/&gt;总而言之，很多信息我之前都发过，op 可以去翻一下历史，这里就不反复说更多同样的话了。&lt;br/&gt;&lt;br/&gt;另外 4 ～ 5 的血糖很健康，当然这时对自身的焦虑担忧会导致你高度敏感自身的各种感觉，因为神经紧绷，身体各个器官都需要更大的工作强度，所以心脏会提高速度以增强供血，肌肉处于随时启动状态也会消耗糖源，因为这种紧绷视觉听觉嗅觉听觉都会加强雷达工作范围和精度，同时也还会关注各种内部器官都运作，因为加强了“监测”强度，也自然更易于查阅到任何风吹草动，以往前额叶可以过滤掉的信息，现在被统统放进来，导致感官过载，稍微有些不正常的内外部信号都会被加载进来，导致被迫投入更多专注和精力进行更严密的监测，继而进入恶性循环。&lt;br/&gt;&lt;br/&gt;所以，首先关闭那些社交媒体，实在看就点不感兴趣，你贪图的是社交媒体的“利息”，社交媒体贪图的是你的“本金”，先转移注意力。&lt;br/&gt;&lt;br/&gt;如果实在频发，并且持续超过一个月，想要控制，到精神心理科一般可以开具苯二氮䓬类的药物，价格不贵，但是长期服用可能有成瘾风险，短期控制效果一流，30 分钟内起效，立刻恢复平静。关于日常的疏导，我之前也写过相关的内容，op 可以参考。&lt;br/&gt;&lt;br/&gt;总而言之，社交媒体可以看，既然自己都做过个性化推荐的事儿，就更得明白其中的道理，别被社交媒体拖进去。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 26 Jul 2026 02:01:41 +0000</pubDate></item><item><title>看看大家的意见，这 3 个 offer 如何选择</title><link>https://www.v2ex.com/t/1229834</link><description>本人目前在一家市场化国企，工作一年左右，想听听大家对下一步选择的建议。&lt;br/&gt;&lt;br/&gt;目前的工作&lt;br/&gt;&lt;br/&gt;工作时间：965&lt;br/&gt;税前工资：9k&lt;br/&gt;工作地点距离老家长沙约 1300 公里&lt;br/&gt;工作强度整体不算高&lt;br/&gt;周末需要去单位待半天，基本属于“作秀”，没有实际工作&lt;br/&gt;需要承担业绩指标，而且业绩要求会逐年增加，但工资基本不涨&lt;br/&gt;需要随时回复用户消息、处理用户技术问题，包括周末和节假日&lt;br/&gt;技术成长空间比较有限。我才来一年，技术水平在部门里已经算比较靠前，继续留下感觉很难再有明显提升&lt;br/&gt;简单来说，这份工作不算累，稳定性也还可以，但人在外地、收入一般，工作和生活的边界比较模糊，而且长期来看既没有技术成长，业绩压力还会越来越大。&lt;br/&gt;&lt;br/&gt;目前手上的三个机会&lt;br/&gt;&lt;br/&gt;1. 长沙本地 Office 岗&lt;br/&gt;&lt;br/&gt;工资：12k—15k&lt;br/&gt;工作时间：995&lt;br/&gt;工作内容：纯技术岗&lt;br/&gt;优点：离家近、收入有所提升、能继续积累技术&lt;br/&gt;顾虑：平台和未来发展暂时不太确定&lt;br/&gt;2. 成都 Office 岗&lt;br/&gt;&lt;br/&gt;工资：20k—25k&lt;br/&gt;工作时间：996&lt;br/&gt;工作内容和发展机会目前看起来最好&lt;br/&gt;优点：工资涨幅最大，职业发展可能也更好&lt;br/&gt;顾虑：公司风评不太好，担心实际工作强度、绩效制度，以及最后拿不到承诺的薪资&lt;br/&gt;3. 上海车企大厂&lt;br/&gt;&lt;br/&gt;工资：20k&lt;br/&gt;工作时间：985&lt;br/&gt;优点：大厂平台、履历认可度高，工作时间相对可接受&lt;br/&gt;顾虑：上海生活成本较高，距离家也比较远，不确定 20k 实际能剩下多少&lt;br/&gt;目前自己的想法&lt;br/&gt;&lt;br/&gt;我比较倾向于离开现在的单位。&lt;br/&gt;&lt;br/&gt;虽然目前工作不算累，但需要随时响应用户，周末和节假日也很难完全放松；同时技术上几乎没有提升空间，业绩要求却会逐年增加，工资又没有明显增长。&lt;br/&gt;&lt;br/&gt;现在比较纠结的是：&lt;br/&gt;&lt;br/&gt;选长沙，离家近、做纯技术，生活更稳定；&lt;br/&gt;选成都，工资和发展最好，但担心公司不靠谱、钱拿不全；&lt;br/&gt;选上海，大厂平台不错、工作时间也可以，但生活成本和离家距离是问题。&lt;br/&gt;想请教大家，如果是你们，会怎么选？
+&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;#1 coderluan&lt;/strong&gt;：最终归宿可能是 1 ，但是刚干一年明显是 3 （ 2 明显不如 3 ，工资得算时薪），干几年跳几次再去 1 ，比你现在去 1 的工资能高不少。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#2 niboy&lt;/strong&gt;：上海车企大厂 -- 20k 税后到手估计就 15k+，房租至少三四千吧，吃饭交通节省一点，一个月还剩 10k&lt;br/&gt;&lt;br/&gt;趁年轻，能赚大钱就去赚打钱，肯定成都 20-25k 了，房租和消费肯定比上海少。工作强度，你年轻一点，多学一点，后面再跳槽也以这个基数开始谈工资。&lt;br/&gt;&lt;br/&gt;担心公司不靠谱、钱拿不全 --- 你在网上多搜搜这家公司&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#3 jasonchen168&lt;/strong&gt;：3 ，风评不好的不能去&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#4 Nasdaq&lt;/strong&gt;：闭眼睛 3 呀，985 如果不加班还真比 1 、2 强。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#5 zpxshl&lt;/strong&gt;：大厂，好的话一直呆，不好当跳版&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#6 wxiao333&lt;/strong&gt;：有一个办法，你对比一下这三家还有你现在的公司，工作 5 年，10 年的员工，如果没有数据就看看你直属领导的状态，看看哪一个你比较欣赏，哪个你无论如何也无法接受，就有答案了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#7 wobuchiyu&lt;/strong&gt;：如何 从 9k 要到 25 的。。 这涨幅 人事不问吗&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#8 wetalk&lt;/strong&gt;：与其在 2 和 3 之间纠结，不如多想想接下来打算向哪个方向发展，以及岗位职责是否属于公司的核心业务流&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#9 nyw17&lt;/strong&gt;：给的信息太少了，2 不一定差，2 和 3 的信息不够，没法进一步分析&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#10 idouble&lt;/strong&gt;：3 ，上海还是比较规矩的，跳槽也合适&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#11 voidmnwzp&lt;/strong&gt;：9k 跳到 25k 就算是 bat 也不会批这个 offer 的吧 都不背调的吗&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#12 dxk611&lt;/strong&gt;：Office 岗是什么&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#13 LLLeo&lt;/strong&gt;：刚出来工作，绝对选大厂而且还是大城市。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#14 SanjinGG&lt;/strong&gt;：我选 1 ，跳槽涨薪时代已经过去了，这份工资高，下份不一定能借力。如果出去不能定居，最终都是要回去的，哪怕你在外面薪资再高，本地接不住没意义&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#15 xubeiyou&lt;/strong&gt;：刚出来强烈建议去大城市大厂干 以后有更多选择  我是你的话 会选 3 过几年赚到钱了 想回来了再说&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#16 catscan&lt;/strong&gt;：@&lt;a href="/member/voidmnwzp"&gt;voidmnwzp&lt;/a&gt; 哥，我这工资要是卡涨薪幅度那基本上不用考虑一线城市了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#17 daiisdai&lt;/strong&gt;：直接 3&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#18 ndxxx&lt;/strong&gt;：硬要选选 1 ，其实都不如你现在这个😂&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#19 fkmc&lt;/strong&gt;：只有 3 比较靠谱&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#20 catscan&lt;/strong&gt;：@&lt;a href="/member/ndxxx"&gt;ndxxx&lt;/a&gt; 现在这个要业绩呀 今年 100w 明年就是 200w ，完成了又不加工资，没完成倒是要扣&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#21 zhuanggu&lt;/strong&gt;：首先排除 2 ，程度，996 拿这么多为啥不选 3.如果想要平衡，就选 1&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 26 Jul 2026 01:20:50 +0000</pubDate></item><item><title>Codex 又又又又又又又又又又又又又又又又又又又又又又又又又又又又重置了</title><link>https://www.v2ex.com/t/1229825</link><description>RT&lt;br/&gt;&lt;br/&gt;前几天续费升级到 20x 没重置，终于补足了  HHHHHH
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 jerseyhero&lt;/strong&gt;：我才用了卡，亏大了啊😭&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#2 geese1028&lt;/strong&gt;：还好这礼拜蹬的痕，昨天还剩下 8%&lt;/p&gt;&lt;hr/&gt;
@@ -140,34 +167,4 @@
 &lt;p&gt;&lt;strong&gt;#24 liyafe1997&lt;/strong&gt;：血亏，刚用了卡。&lt;br/&gt;昨天 OpenAI 翻车就预感会重置了，但是可惜额度刚用完，也不得不用卡了。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#25 deplives&lt;/strong&gt;：正常明天还有一次手动充重置的机会，今天得 fast utrl 站起来蹬了&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#26 Feedmo&lt;/strong&gt;：有人说重置之后额度消耗的比之前快多了，这是真的吗？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#27 alexluo1&lt;/strong&gt;：昨晚一个任务长任务把 5x 周额度蹬完了，但是一打开 x 就发现重置了，笑死&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 25 Jul 2026 21:05:57 +0000</pubDate></item><item><title>快 35 了， offer 二选一</title><link>https://www.v2ex.com/t/1229798</link><description>&lt;p&gt;老哥们，帮忙出出主意，不知道选哪个&lt;/p&gt;
-&lt;p&gt;offer1 制造业，公司 2000 来个人，中日合资。
-薪资: n*16 ；
-优点:基本不加班，工作相对稳定，传统行业裁员相对少点；
-缺点:单程通勤 1 小时，技术和业务相对传统，感觉工作中更多是沟通汇报类，假如被优化跳槽相对劣势。&lt;/p&gt;
-&lt;p&gt;offer2 游戏公司，公司也是 2000 来个人，大厂控股 50%。
-薪资: (n+7)*16 ；
-优点:技术和业务比较跟得上市场，假如被优化跳槽有优势，单程通勤 20 分钟；
-缺点:加班多，游戏行业裁员比较多？&lt;/p&gt;
-&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;#1 hzzgj&lt;/strong&gt;：35 了的话，推荐 1 吧&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#2 digitv&lt;/strong&gt;：明显是 1 啊&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#3 zuosiruan&lt;/strong&gt;：游戏行业路过，选 1 吧，游戏大多数拼命的，发版熬到半夜是经常的。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#4 zuosiruan&lt;/strong&gt;：另外游戏行业裁员是一个游戏没起来一个组直接干掉&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#5 v2mo&lt;/strong&gt;：35 了，压力也不大，就 1 ，&lt;br/&gt;经济压力大，就冲 2&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#6 nofishing&lt;/strong&gt;：制造业那个是啥行业的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#7 jackOff&lt;/strong&gt;：游戏行业在 ai 之前裁员都是高度频繁的，ai 后时代简直不敢想&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#8 jordan20618&lt;/strong&gt;：同意。也看你身体，身体感觉不累就上 2&lt;br/&gt;@&lt;a href="/member/v2mo"&gt;v2mo&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#9 3191870&lt;/strong&gt;：再被优化 年龄在哪里放着，什么公司，跳槽都没有优势&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#10 wildlynx&lt;/strong&gt;：我觉得选 1&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#11 wobuchiyu&lt;/strong&gt;：制造业 ，太稳了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#12 icanfork&lt;/strong&gt;：未来中国的制造业会会成为主要的支柱产业，互联网滞后&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#13 liuhaitaoSB&lt;/strong&gt;：主要看手头紧不紧张.&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#14 echotriggle&lt;/strong&gt;：感谢大家的回复，基本都是选 1 ，主要是 1 通勤太远了搞的我这么纠结&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#15 Danswerme&lt;/strong&gt;：2 的加班比通勤远更煎熬吧&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#16 echotriggle&lt;/strong&gt;：@&lt;a href="/member/Danswerme"&gt;Danswerme&lt;/a&gt; #15 确实更难受，但是薪资高，就是这个行业不稳定&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#17 Hyschtaxjh&lt;/strong&gt;：場子肯定在郊區了吧 租個便宜掛逼房&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#18 nenseso&lt;/strong&gt;：2 其实也还行，如果做起来的话有升职加薪的可能&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#19 Moishine&lt;/strong&gt;：1 一般不卷的公司，相对对老年人都比较友好。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#20 tiandishi&lt;/strong&gt;：这个时候，稳定性和加班强度比钱多钱少更重要。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#21 hxzhouh1&lt;/strong&gt;：要我选 n&amp;gt;=15 我就选 1&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 25 Jul 2026 15:02:37 +0000</pubDate></item></channel></rss>
+&lt;p&gt;&lt;strong&gt;#27 alexluo1&lt;/strong&gt;：昨晚一个任务长任务把 5x 周额度蹬完了，但是一打开 x 就发现重置了，笑死&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 25 Jul 2026 21:05:57 +0000</pubDate></item></channel></rss>
