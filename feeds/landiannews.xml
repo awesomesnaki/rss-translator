@@ -1,5 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 28 Jul 2026 01:30:38 +0000</lastBuildDate><item><title>[快速止损] 英国GiffGaff卡激活14天以内可以申请退款 详细指南如下</title><link>https://www.landian.news/archives/114100.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 28 Jul 2026 03:31:06 +0000</lastBuildDate><item><title>Kimi K3在强化训练中也尝试越狱 月之暗面没有渲染威胁论 而是加固安全边界</title><link>https://www.landian.news/archives/114104.html</link><description>
+&lt;p&gt;#人工智能 月之暗面在 K3 论文中提到，该模型在强化训练过程中，相关智能体展现出更加激进的探索行为，甚至尝试奖励黑客，部分非预期操作多次引起宿主机内核恐慌和死锁，直接威胁整个训练集群。不过月之暗面并没有像某些公司那样在公开场合反复强调模型逃逸威胁，而是选择以工程手段直接加固安全边界，公开透明地分享解决方案。为解决这类沙盒隔离问题，月之暗面与合作伙伴开发 AgentENV 系统加强隔离，该系统目前也已经开源发布。查看全文：https://ourl.co/114104&lt;/p&gt;&lt;p&gt;昨天夜里 AI 社区迎来狂欢，因为备受关注的月之暗面 Kimi K3 模型已经开放权重，K3 是目前全球首款 3T 级别的开放权重模型，该模型总参数规模为 2.8T，采用混合专家架构 (MoE)，实际激活参数为 104B，支持原生视觉功能和 1M 上下文窗口，在各项评测中也名列前茅。&lt;/p&gt;
+&lt;p&gt;月之暗面也同步发布 K3 的技术论文，在论文中月之暗面提到，K3 模型在训练过程中，相关智能体表现出更加激进的探索行为，甚至尝试奖励黑客 (Reward Hacking)。部分非预期操作还曾引起宿主机内核恐慌和死锁，直接威胁训练集群的稳定性。月之暗面采取的方案是升级整个沙盒架构加强隔离。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114104.png" rel="nofollow"&gt;&lt;img alt="Kimi K3在强化训练中也尝试越狱 月之暗面没有渲染威胁论 而是加固安全边界" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114104.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;月之暗面在技术论文中明确指出，随着智能体能力提升和任务复杂度增加，Kimi K3 相关的智能体开始展现更加激进的探索行为，甚至尝试奖励黑客。在早期实验中，月之暗面团队采用传统容器作为沙盒运行时。&lt;/p&gt;
+&lt;p&gt;然而智能体的非预期操作多次引发宿主机内核恐慌 (Kernel Panics) 和死锁，这也直接威胁整个训练集群的稳定性，这些行为本质上挑战了容器共享内核的隔离边界，让沙盒逃逸从理论风险变成实际工程问题。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;面对智能体带来的沙盒隔离挑战，月之暗面团队并没有选择简单地限制智能体能力，而是升级整个沙盒架构。月之暗面与合作伙伴共同开发 AgentENV 系统，核心改为基于 Firecracker 的轻量级微虚拟机 (microVMs)。这种方案实现更高保真度的隔离：每个沙盒都拥有独立内核，智能体可以挂载磁盘、运行容器甚至启动虚拟机，同时大幅度降低对宿主机的影响。&lt;/p&gt;
+&lt;p&gt;月之暗面在论文中强调，AgentENV 在保持高探索自由度的同时，也提供了容器无法比拟的安全与隔离水平。在训练与评估期间，团队累计创建超过 5,100 万个沙盒环境，AgentENV 支持快速快照、恢复与分叉，为大规模并行智能体工作流提供基础设施支撑。&lt;/p&gt;
+&lt;p&gt;目前月之暗面也在 GitHub 开源 AgentENV，有兴趣的开发者可以访问：&lt;a href="https://www.landian.news/go?url=https://github.com/kvcache-ai/AgentENV" rel="nofollow"&gt;https://github.com/kvcache-ai/AgentENV&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;月之暗面提到的智能体异常探索行为也在 AI 社区引起诸多讨论，与部分 AI 公司在公开场合反复强调模型逃逸威胁的叙事不同，月之暗面选择以工程手段直接加固安全边界，公开透明地分享解决方案。&lt;/p&gt;
+&lt;p&gt;而随着智能体从单轮对话走向长时程自主任务，沙盒逃逸已经从可选优化变为核心安全要求。容器级别的隔离在面对高能力智能体时可能不再足够，微虚拟机或更强的硬件级隔离未来可能会成为行业标配。&lt;/p&gt;
+&lt;p&gt;Kimi K3 技术报告与 AgentENV 的同步开源也为全球 AI 社区提供可复用的参考，即模型开始展现高风险探索行为时，最有效的回应或许不是恐慌，而是构建更加坚固、更透明的安全围栏。&lt;/p&gt;
+&lt;p&gt;来源：&lt;a href="https://www.landian.news/go?url=https://github.com/MoonshotAI/Kimi-K3/blob/main/k3_tech_report.pdf" rel="noopener" target="_blank"&gt;MoonshotAI Kimi-K3&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 28 Jul 2026 03:31:06 +0000</pubDate></item><item><title>时间炸弹来袭：Windows 11未来平台旧版本将在8月11日到期 请务必升级新版本</title><link>https://www.landian.news/archives/114103.html</link><description>
+&lt;p&gt;#系统资讯 时间炸弹来袭：Windows 11 未来平台旧版本将在 8 月 11 日到期，请务必升级到最新版。每个预览版都有专门的数字证书控制过期时间，旧版本过期后会每 4 小时强制全屏弹窗和定时重启。遇到这种情况的解决办法也非常简单，将系统升级到最新预览版即可。查看全文：https://ourl.co/114103&lt;/p&gt;&lt;p&gt;Windows 10/11 预览版都有内置的专用数字证书用来控制到期时间，所以经常会有旧版本因为到期而出现时间炸弹，所谓时间炸弹指的是屏幕上频繁弹出系统已经到期的强制弹窗，因此使用 Windows 11 预览版也需要经常更新系统避免出现时间炸弹问题。&lt;/p&gt;
+&lt;figure&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114103.png" rel="nofollow"&gt;&lt;img alt="时间炸弹来袭：Windows 11未来平台旧版本将在8月11日到期 请务必升级新版本" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114103.png"/&gt;&lt;/a&gt;&lt;figcaption&gt;旧版出现的时间炸弹示例&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;据微软最新发布的博客，Windows 11 实验性未来平台旧版本的数字证书将在 2026 年 8 月 11 日到期，因此如果用户使用实验性未来平台必须升级到最新版，最新版已经包含新的数字证书 (通常会延后 6~9 个月)，用户只需要升级到最新版即可避免出现时间炸弹弹窗。&lt;/p&gt;
+&lt;p&gt;最新发布的实验性未来平台版本为 Windows 11 Build 29634.1000 版，其他通道例如测试版等有自己的数字证书，本次出现的时间炸弹问题仅影响实验性未来平台。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;时间炸弹比系统没激活的弹窗还要烦人，当系统版本过期后通常每 4 小时会强制全屏弹窗提醒需要升级，而且还存在定时重启问题，无论是强制全屏弹窗还是强制定时重启都会严重影响正常使用，所以当收到时间炸弹的消息时各位务必及时升级到新版本。&lt;/p&gt;
+&lt;p&gt;来源：&lt;a href="https://www.landian.news/go?url=https://blogs.windows.com/windows-insider/2026/07/27/announcing-windows-11-insider-preview-build-29634-1000-for-experimental-future-platforms/" rel="noopener" target="_blank"&gt;Microsoft&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 28 Jul 2026 03:02:41 +0000</pubDate></item><item><title>如果你还不知道的话：谷歌Gmail邮箱支持设置发送邮件后30秒内撤回</title><link>https://www.landian.news/archives/114102.html</link><description>
+&lt;p&gt;#软件资讯 如果你还不知道的话：谷歌 Gmail 邮箱支持设置发送邮件后 30 秒内撤回，默认情况下谷歌设置的是 5 秒。用户可以在设置中将其修改为 30 秒，这并不是新功能，谷歌很早就已经提供。而撤回其实就是邮件延迟 30 秒发送，在实际发送前用户可以将邮件撤回。设置方法：https://ourl.co/114102&lt;/p&gt;&lt;p&gt;日常工作中失误发错邮件是很正常的，有时候邮件没写完或者存在明显错误就直接发出去，有时候则可能将邮件发送给错误的接收者，所以通常邮件平台都会提供撤回发送功能，只不过不同平台提供的撤回时间不同，例如谷歌 Gmail 邮箱最长可以在邮件发送 30 秒内撤回。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114102.png" rel="nofollow"&gt;&lt;img alt="如果你还不知道的话：谷歌Gmail邮箱支持设置发送邮件后30秒内撤回" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114102.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这并不是 Gmail 添加的新功能，事实上谷歌还早就已经为 Gmail 提供邮件撤回功能，不过可能很多用户还不知道有这个功能。默认情况下谷歌设置的 Gmail 邮件撤回功能为 5 秒，即邮件发送后的 5 秒内可以撤回，但用户可以在设置中将其修改为 30 秒。&lt;/p&gt;
+&lt;p&gt;需要提醒的是，这里的邮件撤回其实就是延迟发送，即当用户发送邮件后，Gmail 实际等待 [设置时间] 后再将邮件发出去，例如设置 30 秒的情况下，邮件会被延迟 30 秒再发送，所以撤回相当于在邮件实际发送前取消发送。&lt;/p&gt;
+&lt;p&gt;设置方法：转到 Gmail 网页版设置、常规、撤销发送，在这里将 5 秒切换为 30 秒即可，下次发送邮件时就可以看到撤回提醒，当然超过 30 秒后就无法再撤回邮件。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;部分邮件平台在自家邮件体系内还提供更长时间的邮件撤回，这里的撤回是真真意义上的撤回，即邮件已经抵达对方收件箱的情况下，在对方尚未阅读时将邮件撤回，不过邮件撤回没有统一标准，所以半小时内撤回这种功能通常只能在同一个邮件平台提供。&lt;/p&gt;
+&lt;p&gt;所以像是跨不同品牌的邮箱想要长时间撤回就无法做到，除非未来有相关的邮件标准。&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 28 Jul 2026 02:35:48 +0000</pubDate></item><item><title>Debian社区讨论是否禁止使用AI提交代码：有要求全面禁止 也有主张允许但必须披露</title><link>https://www.landian.news/archives/114101.html</link><description>
+&lt;p&gt;#人工智能 Debian 社区正在讨论是否禁止使用 AI 提交代码和其他贡献：已有提案要求全面禁止，也有提案主张允许但贡献者必须承担责任并进行披露。目前讨论形成四项提案，提案 A 主张全面禁止，理由是 AI 生成内容存在版权和许可不清晰问题，同时可能存在错误。提案 B 和 D 主张允许使用 AI，但贡献者需负责，并应披露或标注。提案 C 则是尽可能拒绝 AI，但承认上游和整个软件行业都广泛使用 AI，完全禁止也不现实。查看全文：https://ourl.co/114101&lt;/p&gt;&lt;p&gt;开源操作系统 Debian 日前正在围绕使用人工智能模型提交代码和其他贡献展开讨论，这项投票目前仍然处在讨论阶段，讨论期限从 2026 年 7 月 24 日开始，目前尚未形成最终结果。核心问题是：Debian 是否应该允许开发者继续使用生成式 AI 工具参与 Debian 相关贡献。&lt;/p&gt;
+&lt;p&gt;从目前公开页面来看，社区已经形成 4 个不同的提案，立场从全面禁止使用 AI 模型辅助贡献，到允许使用但贡献者必须承担责任并进行披露不等，这也说明开源社区对 AI 代码和 AI 文档的态度仍然处在高度分裂阶段。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114101.png" rel="nofollow"&gt;&lt;img alt="Debian社区讨论是否禁止使用AI提交代码：有要求全面禁止 也有主张允许但必须披露" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114101.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 提案 A：全面禁止 AI 辅助贡献进入 Debian &lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;最严格的是提案 A，该提案要求明确禁止任何使用或借助人工智能模型或生成式 AI 工具编写、生成或实质辅助生成的直接贡献进入 Debian，范围包括 Debian 源代码包、Debian 官方软件、Debian 网站资源、Debian 文档、Debian 翻译以及官方沟通内容等。&lt;/p&gt;
+&lt;p&gt;提案理由主要包括版权、质量、社区和伦理等方面。支持者认为，AI 模型输出的版权和许可状态不清晰，可能混入训练数据中的受版权保护内容；同时 AI 模型经常生成错误内容，而 Debian 作为强调稳定性和可靠性的发行版，不能把大量审核成本转嫁给维护者。&lt;/p&gt;
+&lt;p&gt;提案还提到，新的开源贡献者如果依赖 AI 生成的内容，可能无法真正理解 Debian 打包规则和维护流程，反而增加审查负担，这也会造成维护者倦怠，最终不利于整个 Debian 项目的发展。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 提案 B 和 D：允许使用 AI 但贡献者必须对贡献负责 &lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;与提案 A 相反的是，提案 B 主张允许使用人工智能辅助贡献，但要求贡献者必须满足多项条件，包括确认 AI 工具条款不会影响 Debian 分发和修改权利，检查输出内容是否包含第三方版权材料，对技术质量、安全性、许可合规和实用性承担全部责任。&lt;/p&gt;
+&lt;p&gt;提案 B 还要求，如果贡献中有重要部分由 AI 生成或明显受到 AI 辅助，则贡献者应当进行披露，例如在提交信息中注明 Generated-By 或 Assisted-By 等标记。批量或自动生成贡献也应该提前讨论并由人类监管。&lt;/p&gt;
+&lt;p&gt;提案 D 的思路与 B 类似：Debian 不推荐或背书生成式 AI 开发，但承认这类工具已经存在，与其完全禁止，不如要求贡献者理解、评估并能解释自己提交的内容。同时禁止把非公开或敏感的 Debian 项目信息提交给云端 AI 工具处理。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 提案 C：尽可能拒绝 AI，但承认完全阻止也不现实 &lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;提案 C 的立场介于允许和禁止之间，但该提案整体更偏向反对使用 AI 生成内容，提案要求 Debian 贡献者尽量避免在 Debian 工作中使用 AI，同时要求 Debian 决策者尽可能劝阻相关使用。&lt;/p&gt;
+&lt;p&gt;不过提案 C 也承认，由于上游项目和整个软件行业已经广泛使用 AI，完全禁止在 Debian 中出现任何 AI 输出并不现实，因此提案 C 提出更具体的限制：面向人类的消息例如 BUG 报告、邮件列表讨论、Salsa 讨论和 Planet Debian 博客文章，应该完全由人类撰写而不应该使用 AI 辅助，同时任何 Debian 工作中的 AI 使用都必须披露。&lt;/p&gt;
+&lt;p&gt;值得注意的是，提案 C 还允许单个项目和维护者完全禁止 AI 贡献，要求其他贡献者必须尊重这类禁令。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://www.landian.news/go?url=https://www.debian.org/vote/2026/vote_002" rel="noopener" target="_blank"&gt;Debian&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 28 Jul 2026 02:00:39 +0000</pubDate></item><item><title>[快速止损] 英国GiffGaff卡激活14天以内可以申请退款 详细指南如下</title><link>https://www.landian.news/archives/114100.html</link><description>
 &lt;p&gt;#行业资讯 快速止损：英国 GiffGaff 卡激活 14 天以内可以申请退款，无论是按量付费还是套餐计划都能部分或全额退款。该政策仅限于激活 14 天以内，其中按量付费退款未使用部分，套餐计划按照使用时间计算比例退款。需要特别提醒的是，如果你准备申请 PAC/STAC 携号转网，请务必先申请 PAC 码和转出，因为申请退款后账户会被立即关闭。查看全文：https://ourl.co/114100&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/114097.html" rel="noopener" target="_blank"&gt;昨天蓝点网提到英国神卡 GiffGaff 正在进行大规模封号清退&lt;/a&gt;，即如果用户长期在英国以外使用该卡就有可能收到封号清退邮件，从目前情况来看这波封号清退规模非常大，确实有少数用户持有的 GiffGaff 卡还未被封禁，但收到封号清退邮件的用户数不胜数。&lt;/p&gt;
 &lt;p&gt;值得注意的是 GiffGaff 在封号清退邮件中并未提到任何退款政策，也就是说如果用户有充值余额那可能也无法拿回来，至少 GiffGaff 可能不会自动向用户提供退款。不过根据英国消费者保护相关法律，GiffGaff 卡在激活 14 天内是可以申请退款的。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114100.png" rel="nofollow"&gt;&lt;img alt="[快速止损] 英国GiffGaff卡激活14天以内可以申请退款 详细指南如下" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114100.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -23,54 +79,4 @@
 &lt;p&gt;未知，按照英国移动运营商的政策，超过 14 天冷却期后通常不再享受无条件退款，而账户余额退款也仅限于部分特定场景，这些场景下能否获批还要运营商客服审核。特定场景包括：通过 PAC/STAC 成功携号转网后申请余额退款、明确属于误充值提交说明后客服批准可退款，而违反服务条款导致封号时通常不能退款。&lt;/p&gt;
 &lt;p&gt;因此按照目前情况来说激活 14 天以内退款概率还是非常大的，而激活超过 14 天想要拿回退款难度很大，除非用户申请携号转网且已经成功转出，但携号转网问题对大多数用户来说可能并不适用。&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 28 Jul 2026 01:30:38 +0000</pubDate></item><item><title>英伟达联合微软等科技公司成立开放安全AI联盟 旨在提高网络安全防御能力</title><link>https://www.landian.news/archives/114099.html</link><description>
-&lt;p&gt;#人工智能 英伟达联合微软等 26 家公司成立开放安全 AI 联盟，旨在利用开放模型和 AI 技术提高网络安全防御能力。成立开放安全 AI 联盟的直接原因就是近期🤗抱抱脸遭到 OpenAI 模型驱动的智能体发起的攻击，抱抱脸原本使用前沿封闭模型进行调查取证，却频繁触发安全边界导致无法工作。最终抱抱脸在本地集群部署开源模型 GLM-5.2 完成取证分析，这件事也在业界引起诸多讨论。查看全文：https://ourl.co/114099&lt;/p&gt;&lt;p&gt;英伟达创始人黄仁勋日前宣布联合微软等公司成立开放安全人工智能联盟(Open Secure AI Alliance)，该联盟的主要目标是提高网络安全防御水平，27 家创始成员包括英伟达、微软、Linux 基金会、SpaceX、戴尔、Cloudflare 等。而 OpenAI 和 Anthropic 等公司并没有参与该联盟。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114099.png" rel="nofollow"&gt;&lt;img alt="英伟达联合微软等科技公司成立开放安全AI联盟 旨在提高网络安全防御能力" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114099.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;早前开放人工智能模型和数据集托管平台&lt;a href="https://www.landian.news/archives/114008.html" rel="noopener" target="_blank"&gt;抱抱脸 (Hugging Face) 遭到未知 AI 智能体发起的自主攻击&lt;/a&gt; (&lt;a href="https://www.landian.news/archives/114029.html" rel="noopener" target="_blank"&gt;这个 AI 智能体属于 OpenAI&lt;/a&gt;)，抱抱脸在发现异常后准备使用前沿人工智能模型进行安全审计和取证，但因为频繁触发网络安全防御边界导致无法使用。&lt;/p&gt;
-&lt;p&gt;最终抱抱脸在本地集群部署来自中国人工智能公司智谱发布的开源人工智能模型 GLM-5.2 并完成对攻击者的 17000 余次操作分析和取证，可以说如果没有开源人工智能模型，仅靠人工执行取证和安全分析将会严重影响效率。&lt;/p&gt;
-&lt;p&gt;英伟达在新闻稿中表示，开放安全 AI 联盟依托 Linux 基金会和 OpenSSF 社区的工作，将致力于利用开放技术修复和披露漏洞。开放安全 AI 联盟则提到抱抱脸攻击案例，这可能也是英伟达发起开放安全联盟的直接原因。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;英伟达及其部分合作伙伴正在积极为开放安全 AI 联盟贡献不同功能要素，英伟达表示，该联盟将提供开放模型、模型权重、数据和新型智能体框架以加速新型网络安全工具和技术的开发。&lt;/p&gt;
-&lt;p&gt;HPE 惠普企业将提供可用于加密验证 AI 智能体和服务的标准和方法，抱抱脸将提供名为 Safetensors 的安全格式来存储 AI 模型权重，微软、SpaceXAI、IBM 和红帽也将提供开源 AI 技术等。&lt;/p&gt;
-&lt;p&gt;开放安全 AI 联盟还呼吁各国政府与企业展开积极合作，共同投资开放的人工智能基础设施。即监管机构应将开放模式视为防御性资产而非负债，因为封闭式前沿人工智能系统会削弱防御能力，将权力集中在少数封闭的提供商手中。&lt;/p&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 28 Jul 2026 01:00:38 +0000</pubDate></item><item><title>谷歌推出Chrome for Linux Arm64原生版 支持账号数据同步和DRM数字版权保护机制</title><link>https://www.landian.news/archives/114098.html</link><description>
-&lt;p&gt;#软件资讯 终于！谷歌推出 Chrome for Linux Arm64 原生版，附带 Widevine DRM 版权保护机制，可观看各类视频网站。值得注意的是，谷歌目前并未宣布官方消息，即 Chrome 下载页面提供的仍然是 amd64 版。有网友手动修改下载链接的架构，发现新版本已经悄悄推出可以使用。查看全文：https://ourl.co/114098&lt;/p&gt;&lt;p&gt;如果你使用树莓派桌面版系统，那现在谷歌浏览器推出 Chrome for Linux Arm64 原生版对你来说可能是个好消息。3 月份谷歌就表示要推出 Linux Arm64 版，但之后谷歌并未提供进度说明，而现在谷歌已经悄悄推出新版本，只是谷歌仍然没有在官网提供详细说明。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114098.png" rel="nofollow"&gt;&lt;img alt="谷歌推出Chrome for Linux Arm64原生版 支持账号数据同步和DRM数字版权保护机制" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114098.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;有网友使用树莓派桌面版系统 (Raspberry Pi OS，基于 Debian 开发) 访问谷歌浏览器官方下载页面时，发现页面检测和提供的版本是 amd64 版，该版本在基于 Arm64 架构的树莓派上无法正常工作。于是网友手动修改下载链接的架构部分，没想到这个链接并不是 HTTP 404，而是真的可以下载到新版本。&lt;/p&gt;
-&lt;p&gt;下载地址：&lt;a href="https://www.landian.news/go?url=https://dl.google.com/linux/direct/google-chrome-stable_current_arm64.deb" rel="noopener" target="_blank"&gt;https://dl.google.com/linux/direct/google-chrome-stable_current_arm64.deb&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;谷歌浏览器此前并未提供官方版的 Linux Arm64 版，但上游开源项目也就是 Chromium 却提供支持，只不过后者并不支持登录谷歌账号实现数据同步，所以对谷歌浏览器用户来说算是半残版本。谷歌新推出的 Chrome for Linux Arm64 提供账号数据同步功能，重点是还支持 Widevine DRM 保护机制。&lt;/p&gt;
-&lt;p&gt;DRM 数字版权保护技术的支持对浏览器而言至关重要，因为有很多网站尤其是视频网站采用这种机制来保护视频，如果缺少 DRM 机制的支持，浏览器访问这些视频网站就可能出现无法正常播放的情况。&lt;/p&gt;
-&lt;p&gt;谷歌浏览器使用的 Widevine 模块是 aarch64 原生版本而非兼容层，所以使用 Linux Arm64 桌面版的用户使用新推出的谷歌浏览器应该还是比较方便的，只不过谷歌目前并未宣布相关消息，不知道是不是因为 Chrome for Linux Arm64 还未达到稳定阶段。&lt;/p&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 28 Jul 2026 00:30:38 +0000</pubDate></item><item><title>英国神卡GiffGaff正在大规模封号清退 禁止用户长期在英国境外漫游使用</title><link>https://www.landian.news/archives/114097.html</link><description>
-&lt;p&gt;#行业资讯 英国神卡 GiffGaff UK 正在大规模封号清退，禁止用户长期在英国境外漫游使用。目前大量用户收到账号被终止邮件，GiffGaff 称其服务主要面向英国境内用户，漫游服务也仅适用于短期旅行。由于用户长期或永久在英国境外使用，因此账户不再符合服务资格的要求。值得注意的是，GiffGaff 在邮件中并未提到账户余额问题，所以充值金额能不能退款都是问题。查看全文：https://ourl.co/114097&lt;/p&gt;&lt;p&gt;英国移动网络运营商 O2 旗下的 GiffGaff 卡在 2026 年 7 月 27 日下午向大量用户发送封号清退邮件，邮件称 GiffGaff 主要面向英国境内的用户提供服务，而漫游服务仅适用于短期旅行。长期在英国境外漫游使用违反服务条款，因此相关卡号被终止服务。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="英国运营商giffgaff对海外用卡执行大规模封号 开通未满1年在中国使用封号概率更高" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/01/111467.png"/&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;很多用户购买 GiffGaff 卡后并未使用蜂窝流量漫游服务，而是侧重于充值保号和接收各类短信等，从目前网友反馈来看无论是否开启蜂窝流量漫游服务都不影响封号，部分用户使用漫游流量被封号，而部分用户长期不使用漫游流量也同样遭到封号。&lt;/p&gt;
-&lt;p&gt;值得注意的是很多用户账户还有英镑余额，在通知邮件中 GiffGaff 并未说明账户余额如何处理，如果用户账户余额较多且无法正常退款的话可以说是损失惨重，毕竟部分用户本身就是通过第三方渠道购买 (在封号前这段时间购买通常要 150~200 元)。&lt;/p&gt;
-&lt;p&gt;GiffGaff 卡免费申请甚至提供免费寄送服务，&lt;a href="https://www.landian.news/archives/111467.html" rel="noopener" target="_blank"&gt;不过此前该卡片也经历过多次小规模的封号潮&lt;/a&gt;，之后由于相关需求量增加因此商家也开始付费售卡，因此用户如果是付费购买且卡内有较多余额在不能退款的情况下只能承担全部损失。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;您好，&lt;/p&gt;
-&lt;p&gt;我们想通知您，经过对您的账户使用情况的审核，我们决定终止您的服务 (手机号码尾号 XXX)。根据我们的条款和条件，我们的服务主要面向英国境内用户，漫游服务仅适用于短期旅行。由于您的使用模式表明您在英国境外长期或永久使用我们的服务，因此您的账户不再符合服务资格要求。因此您的服务很快终止，所有相关访问权限也将停止。&lt;/p&gt;
-&lt;p&gt;请注意：这是我们对此事的最终决定。&lt;/p&gt;
-&lt;p&gt;感谢您的理解，并感谢您一直以来的支持。&lt;/p&gt;
-&lt;p&gt;giffgaff team&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 27 Jul 2026 10:05:41 +0000</pubDate></item><item><title>Xbox正在改进游戏下载体验 将自动评估多个节点使用速度最快的节点下载游戏内容</title><link>https://www.landian.news/archives/114096.html</link><description>
-&lt;p&gt;#游戏资讯 微软正在改进 Xbox 游戏下载体验，将自动评估多个节点使用速度最快的节点下载内容。长期以来都有玩家抱怨即便自己的宽带速度很高，但通过 Xbox 下载游戏时也跑不满带宽，以至于下载大型游戏时需要等待很长时间。Xbox 的新功能是下载时定时评估节点速度并无缝切换到最快的节点，以此缩短整个下载过程。查看全文：https://ourl.co/114096&lt;/p&gt;&lt;p&gt;长期以来都有用户抱怨 Xbox 游戏下载速度太慢太慢，即便用户的家庭宽带速度更快但实际下载时速度仍然很慢，现在很多大型游戏体积超过 100GB，如果用户下载多个游戏则可能需要等待很长时间，显然对用户而言 Xbox 游戏下载体验非常差。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2024/06/104389.png" rel="nofollow"&gt;&lt;img alt="Xbox正在改进游戏下载体验 将自动评估多个节点使用速度最快的节点下载游戏内容" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2024/06/104389.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;为解决这个问题，微软目前正在 Xbox Insider 中测试名为智能下载客户端的新功能，该功能会将用户连接到最快的节点下载数据以加快游戏下载、安装和更新速度。&lt;/p&gt;
-&lt;p&gt;该功能的原理其实非常简单，在执行下载前微软将使用用户的家庭宽带连接到多个下载节点进行评估，微软在后端有多个服务器池，评估时会按照节点速度排名优先使用下载速度最快的节点。&lt;/p&gt;
-&lt;p&gt;有趣的是在整个下载过程中可能会随时切换到不同的节点，即微软内置比较短的定时网络评估功能，当检测到其他节点速度更快时那就直接无缝切换到新节点，确保用户始终都能获得最佳的下载速度。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;对玩家而言下载游戏安装包只是开始，接下来还需要安装或更新游戏，但考虑到部分大型游戏体积非常大，因此对大多数用户来说下载速度可能是等待时间最长的环节。&lt;/p&gt;
-&lt;p&gt;按照微软预估，使用智能下载客户端服务后整个游戏的下载过程会变得更快、玩家等待时间明显缩短，后续游戏安装或更新时间虽然没有变化，但整个游戏下载安装时间是被缩短的，所以用户不需要等待太长时间。&lt;/p&gt;
-&lt;p&gt;智能下载客户端服务目前仅限于 Xbox Insider Alpha Skip-Ahead 用户进行测试，等到测试没问题后微软会向所有用户提供，到时候玩家可以下载游戏进行测速看看效果怎么样。&lt;/p&gt;
-&lt;p&gt;via &lt;a href="https://www.landian.news/go?url=https://support.xbox.com/en-US/help/hardware-network/xbox-insider-release-notes/console/alpha/2026/07/alpha-2608-260719-2200" rel="noopener" target="_blank"&gt;Xbox&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 27 Jul 2026 04:00:50 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 28 Jul 2026 01:30:38 +0000</pubDate></item></channel></rss>
