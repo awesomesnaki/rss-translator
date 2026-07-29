@@ -1,5 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 29 Jul 2026 02:00:42 +0000</lastBuildDate><item><title>月之暗面推出Kimi大使计划 成功入选者可获得API额度/提前体验新产品和模型</title><link>https://www.landian.news/archives/114110.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 29 Jul 2026 04:31:15 +0000</lastBuildDate><item><title>重大噩耗！Codex已再次硬重置 但从明天开始将重新恢复5小时使用限额</title><link>https://www.landian.news/archives/114115.html</link><description>
+&lt;p&gt;#人工智能 重大噩耗！Codex 再次重置付费订阅用户额度，但从明天开始将恢复 5 小时滚动限额机制。此前暂停 5 小时限额是因为很多开发者抱怨 Sol 消耗太高，所以 Codex 团队频繁重置额度以及让大家敞开用来分析问题。现在问题已经解决所以 5 小时限额又要回来了，不过 Sol 消耗太快问题也将获得明显改善。查看全文：https://ourl.co/114115&lt;/p&gt;&lt;p&gt;据 Codex 技术经理蒂博发布的最新消息，Codex 所有付费订阅用户的当周额度已经完成重置，但非常遗憾的是 Codex 预计从明天开始恢复 5 小时滚动限额机制，接下来大家可能又要回到焦虑的状态：还有 5 小时窗口限额时必须抓紧时间使用，避免错过浪费窗口期。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114115.png" rel="nofollow"&gt;&lt;img alt="重大噩耗！Codex已经再次重置 但从明天开始将重新恢复5小时使用限额" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114115.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在推出 GPT-5.6 后很多开发者反馈订阅额度不够用，即很简单的任务也会在短时间内消耗大量配额，蓝点网也有类似的感受，即简单的任务 GPT-5.6 Sol 也会以非常复杂的方式去解决，这不仅需要用户长时间等待，还会造成大量的配额浪费。&lt;/p&gt;
+&lt;p&gt;蒂博称团队并没有减少任何订阅计划的使用量，&lt;a href="https://www.landian.news/archives/113899.html" rel="noopener" target="_blank"&gt;所以此前暂停 5 小时限额以及频繁重置让大家敞开用&lt;/a&gt;，这样 Codex 团队也能调查问题并发布改进，现在团队已经部署多项改进优化使用量问题。蒂博称预计在 Sol 的典型使用中，现在的使用限额预计会比此前增加 18% 左右。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;在问题已经调查清楚和部署解决方案后，Codex 团队也决定从明天开始重新启用 5 小时滚动限额机制&lt;/strong&gt;，不过现在 Codex 已经完成重置，不确定明天恢复 5 小时限额时是否还会继续重置，所以暂时各位还是保守使用不要直接开着快速模式将周额度蹬完。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;- Sol 模型更愿意长时间工作并进行额外的工具调用，尤其是在工具与子智能体之间协调复杂的流程，这让 Sol 模型更擅长解决复杂问题，但有些任务消耗的资源也确实远远超过 Codex 团队的预期。&lt;/p&gt;
+&lt;p&gt;- Sol 在相同的推理努力程度下也比其他模型更加努力，所以在 Sol+High 模式可能比 GPT-5.5+High 模式消耗更多的用量，这可能也是大家觉得订阅配额被快速耗尽的主要原因。&lt;/p&gt;
+&lt;p&gt;- 程序化调用也赋予 Sol 更大的灵活性，Sol 可以并行运行工具调用或在等待期间继续工作，但这也导致出现每轮响应过多、缓存输入更多、远超预期的更高使用量，而且用户还需要长时间等待。&lt;/p&gt;
+&lt;p&gt;- Sol 等待工具调用完成或运行大量网络搜索时出现的问题更多，所以 Codex 团队也改进这些情况的处理方式，继续提高代码模式的效率避免响应过多、输入缓存太多以及消耗太多的使用额度。&lt;/p&gt;
+&lt;p&gt;- Sol 实际带来的问题也存在影响不均衡，即中位数用户发现 Sol 的令牌效率相当高，而处理更复杂任务的资深用户例如开发者会注意到自己的订阅额度消耗更快，Codex 团队在推出模型前非常关注平均和中位数使用量而忽略部分长尾情况，这种情况可能导致更高的使用量。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://x.com/thsottiaux/status/2082317452755751098" rel="noopener" target="_blank"&gt;@Thsottiaux&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 29 Jul 2026 04:31:15 +0000</pubDate></item><item><title>破坏性更新：MCP协议新版规范 取消会话和初始化握手 协议核心改为无状态架构</title><link>https://www.landian.news/archives/114113.html</link><description>
+&lt;p&gt;#人工智能 重大破坏性更新：A 社发布 MCP 模型上下文协议 2026-07-28 版，取消会话和初始化握手、协议核心改为无状态架构。无状态设计意味着任何请求都可以被普通的负载均衡器分配到任意服务器实例，不再要求客户端持续连接固定实例，这可以显著降低 MCP 服务进行集群部署和自动扩容的复杂度。查看全文：https://ourl.co/114113&lt;/p&gt;&lt;p&gt;由 A 社开发和主导的 MCP 协议 (模型上下文协议) 日前发布 2026-07-28 版规范，本次更新的核心变化是将 MCP 从双向和有状态协议改造为基于请求与响应的无状态协议，同时加入多轮往返请求、HTTP 标头路由、列表缓存、扩展框架和授权安全改进。&lt;/p&gt;
+&lt;p&gt;需要特别说明的是，本次更新属于包含破坏性变更的大型版本更新，TypeScript、Python、Go 和 C# 等 SDK 已经支持新版规范，Rust SDK 目前提供测试版支持，现有 MCP 客户端和服务器则需要参考迁移文档进行适配。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114113.png" rel="nofollow"&gt;&lt;img alt="破坏性更新：MCP协议新版规范 取消会话和初始化握手 协议核心改为无状态架构" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114113.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;旧版 MCP 协议要求客户端首先执行 &lt;code&gt;initialize&lt;/code&gt; 和 &lt;code&gt;initialized&lt;/code&gt; 握手，然后通过 &lt;code&gt;Mcp-Session-Id&lt;/code&gt; 维持会话。新版规范已经取消这套机制，每个请求都需要携带协议版本、客户端身份和能力信息，可以独立完成处理。&lt;/p&gt;
+&lt;p&gt;如果客户端希望提前了解服务器支持的功能，可以调用新增的 &lt;code&gt;server/discover&lt;/code&gt; 接口，但这不是发送其他请求前的必要步骤，不过建议客户端开发者适配这个新接口，这样可以为用户罗列 MCP 服务器支持的功能。&lt;/p&gt;
+&lt;p&gt;无状态设计也意味着任何请求都可以被普通负载均衡器分配到任意服务器实例，不再要求相同客户端持续连接固定实例，也不需要服务器通过共享存储维持协议会话。这可以明显降低 MCP 服务进行集群部署和自动扩容时的复杂度。&lt;/p&gt;
+&lt;p&gt;应用本身仍然可以保存状态，例如工具需要跨请求维持任务进度时，可以生成显式句柄，再由模型在后续调用中将句柄作为参数传回。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;无状态协议取消了长期保持的双向连接，但 MCP 工具执行过程中仍然可能需要用户确认或补充参数，新版规范为此加入了多轮往返请求，即 MRTR 机制。当工具需要更多信息时，服务器可以返回 &lt;code&gt;input_required&lt;/code&gt; 状态以及需要回答的问题，客户端收集用户输入后，重新发送原始调用并附上答案以完成后续操作。&lt;/p&gt;
+&lt;p&gt;这套机制将替代此前需要服务器主动向客户端发起的 &lt;code&gt;elicitation/create&lt;/code&gt;、&lt;code&gt;sampling/createMessage&lt;/code&gt; 和 &lt;code&gt;roots/list&lt;/code&gt; 请求，例如工具准备删除数据时，可以先要求用户确认再继续执行，不需要始终保持双向数据流。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;新版 Streamable HTTP 请求必须通过 &lt;code&gt;Mcp-Method&lt;/code&gt; 和 &lt;code&gt;Mcp-Name&lt;/code&gt; 标头注明调用方法和工具名称，网关、负载均衡器、限速系统以及 WAF 防火墙可以直接读取标头完成路由、计费和权限判断，不必解析 JSON 请求正文。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;tools/list&lt;/code&gt;、&lt;code&gt;prompts/list&lt;/code&gt;、&lt;code&gt;resources/list&lt;/code&gt; 和 &lt;code&gt;resources/read&lt;/code&gt; 等响应也可以携带缓存时间及缓存范围，客户端可以缓存工具和资源列表以减少重复请求，同时让重新连接后的工具顺序保持稳定，避免上游 AI 模型的提示词缓存频繁失效。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 加强 OAuth 授权并公布至少 12 个月弃用期：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;本次更新 A 社也对 MCP 协议的安全性进行改进，新版要求客户端验证授权服务器返回的发行者信息，防止授权服务器混淆攻击；客户端凭据必须绑定签发凭据的授权服务器，不能在不同的 MCP 服务器之间重复使用。&lt;/p&gt;
+&lt;p&gt;动态客户端注册 &lt;code&gt;DCR&lt;/code&gt; 目前已经被正式弃用，MCP 协议将转向客户端 ID 元数据文档 &lt;code&gt;CIMD&lt;/code&gt;，&lt;code&gt;DCR&lt;/code&gt; 功能暂时还可以继续使用，但 A 社已经强调该功能会在未来版本中被彻底删除，所以开发者必须提前进行改进和适配。&lt;/p&gt;
+&lt;p&gt;最后 &lt;code&gt;Tasks&lt;/code&gt; 任务功能从实验性核心移入到正式扩展框架，&lt;code&gt;MCP Apps&lt;/code&gt; 和企业托管授权等功能同样可以通过扩展提供。&lt;code&gt;Roots&lt;/code&gt;、&lt;code&gt;Sampling&lt;/code&gt;、&lt;code&gt;Logging&lt;/code&gt; 以及旧版 &lt;code&gt;HTTP+SSE&lt;/code&gt; 传输方式都已经转为弃用阶段，不过官方承诺至少保留 12 个月兼容期。&lt;/p&gt;
+&lt;p&gt;消息来源：&lt;a href="https://www.landian.news/go?url=https://blog.modelcontextprotocol.io/posts/2026-07-28/" rel="noopener" target="_blank"&gt;MCP&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 29 Jul 2026 03:42:46 +0000</pubDate></item><item><title>Java版我的世界更新硬件要求 推荐最低16GB内存以获得最佳体验  最低也得8GB内存</title><link>https://www.landian.news/archives/114112.html</link><description>
+&lt;p&gt;#游戏资讯 Java 版我的世界更新硬件要求，Mojang 推荐最低 8GB 内存 + 独立显卡，如果想要获得更高帧率最好使用 16GB 内存。新的硬件要求分为快速模式和精美模式，前者要求至少 8GB 内存 + 独立显卡或 12GB 内存 + 集成显卡，后者要求 16GB 内存。两种模式的目标分辨率都是 1080P，不过快速模式为 30FPS，精美模式为 60FPS。查看全文：https://ourl.co/114112&lt;/p&gt;&lt;p&gt;微软旗下沙盒游戏我的世界 (Minecraft) 近期更新硬件要求，新的硬件要求涵盖快速和精美两种预设模式，不同预设模式对处理器、内存和显卡的要求不同，如果玩家想要获得最佳游戏体验则应该使用更加强大的现代处理器和 16GB 内存。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114112.png" rel="nofollow"&gt;&lt;img alt="Java版我的世界更新硬件要求 推荐最低16GB内存以获得最佳体验 最低也得8GB内存" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114112.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;快速模式：该模式的目标分辨率为 1080P、帧率为 30FPS，快速模式在配备独立显卡的机器上至少需要 8GB 内存，而在配备集成显卡的机器上至少需要 12GB 内存。&lt;/p&gt;
+&lt;p&gt;精美模式：该模式的目标分辨率是 1080P、帧率为 60FPS，精美模式需要 16GB 或更高的内存，以便在可预见的未来继续流畅运行 Java 版我的世界。&lt;/p&gt;
+&lt;p&gt;处理器方面，Mojang 推荐玩家使用更加强大的现代处理器，包括 x86-64 处理器和 Arm64 处理器，如果玩家使用的处理器太过老旧也可能影响游戏性能和玩家体验。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; Mojang 认为与 3A 游戏相比要求还是很低的：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;比较有意思的是 Mojang 竟然拿 3A 游戏做对比，该公司认为与现代 3A 游戏相比，Java 版我的世界硬件要求仍然是非常低的，所以在大多数配置良好的机器上都可以流畅运行。当然毕竟 3A 游戏对硬件的要求要显著高于我的世界，这种对比其实没有太大意义。&lt;/p&gt;
+&lt;p&gt;如果玩家继续在配置太差的机器上使用 Java 版，则可能随着更新推进，游戏出现帧率低、画面问题、加载时间过长或者性能无法达到玩家的预期等。基岩版我的世界硬件要求不变，不过玩家如果想要在 PC 上使用自定义模组则需要 Java 版。&lt;/p&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://www.minecraft.net/en-us/article/minecraft-java-edition-system-requirements" rel="noopener" target="_blank"&gt;Minecraft&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 29 Jul 2026 03:12:35 +0000</pubDate></item><item><title>[下载] 微软推出Windows 24H2/25H2可选更新 资源管理器带来KB/MB/GB支持</title><link>https://www.landian.news/archives/114111.html</link><description>
+&lt;p&gt;#下载 微软发布 Windows 11 24H2/25H2 新的非安全可选更新，带来大量新功能或变更，例如资源管理器支持自动以 KB、MB、GB、TB 显示文件大小。这项变更此前已经在 Windows 11 开发版中测试，现在终于要抵达稳定版，感兴趣的用户安装最新更新即可获得新的资源管理器体验。查看全文：https://ourl.co/114111&lt;/p&gt;&lt;p&gt;微软日前向 Windows 11 24H2/25H2 版用户推出本月份的非安全预览更新，这类更新主要是微软用来提前测试新功能或变更的，更新本身不包含任何漏洞修复，但更新带有测试性质因此可能会出现某些预料之外的问题。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/111288.png" rel="nofollow"&gt;&lt;img alt="[下载] 微软推出Windows 24H2/25H2可选更新 资源管理器带来KB/MB/GB支持" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/111288.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;1. &lt;a href="https://www.landian.news/archives/112888.html" rel="noopener" target="_blank"&gt;资源管理器现在可以自动按适当的单位显示文件大小&lt;/a&gt;，例如 KB、MB、GB、TB 等。&lt;/p&gt;
+&lt;p&gt;2. 本次更新已经修复资源管理器首页加载时可能出现的灰色闪烁和意外滚动到顶部的问题。&lt;/p&gt;
+&lt;p&gt;3. 本次更新改进应用搜索功能，在查找已安装应用时可以更好地处理拼写错误和不完整的应用名称。&lt;/p&gt;
+&lt;p&gt;4. Windows Hello 增强型登录安全性现已支持外置指纹传感器，需 USB 指纹传感器支持 ESS。&lt;/p&gt;
+&lt;p&gt;5. 本次更新已提高电源设置的可靠性，即设置后会应用到所有电源计划，包括显示 / 睡眠 / 休眠 / 合盖等。&lt;/p&gt;
+&lt;p&gt;6. 本次更新包括对更新本身清理逻辑的更改，这样在安装更新后可以立即提高性能，而不是拖慢系统性能。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;1. 提高在某些场景下 DHCP 续订的可靠性，尤其是在收到来自 DHCP 服务器的 NACK 时。&lt;/p&gt;
+&lt;p&gt;2. 本次更新提高 IPP 互联网安全打印协议打印机的打印速度 (每分钟可打印页数)。&lt;/p&gt;
+&lt;p&gt;3. 本次更新提高资源管理器的可靠性，包括打开跳转列表和最近使用的文件、共享文件、文件夹等。&lt;/p&gt;
+&lt;p&gt;4. 本次更新还提高登录和锁屏界面的稳定性，尤其是在系统内存不足的情况下。&lt;/p&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://support.microsoft.com/zh-cn/servicing/os/windows-11/2026/07/july-28-2026-kb5101684-preview" rel="noopener" target="_blank"&gt;Microsoft&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 29 Jul 2026 02:48:37 +0000</pubDate></item><item><title>月之暗面推出Kimi大使计划 成功入选者可获得API额度/提前体验新产品和模型</title><link>https://www.landian.news/archives/114110.html</link><description>
 &lt;p&gt;#人工智能 月之暗面面向全球 AI 社区用户推出 Kimi 大使计划，成功入选者可以获得 Kimi API 额度、提前体验新模型、产品新功能等。Kimi 大使的主要工作包括搭建本地 AI 社区、创作与传播实用内容、参与产品共建等。Kimi 大使创建的教程、项目和社区活动还有机会通过 Kimi 官方渠道推广并获得官方身份和成果认证。查看全文：https://ourl.co/114110&lt;/p&gt;&lt;p&gt;月之暗面日前面向全球社区用户推出 Kimi 全球大使计划，该计划旨在吸引 AI 社区用户、开发者和内容创作者参与，成功成为 Kimi 全球大使可以获得多种福利，包括获得月之暗面提供的 API 额度以及新模型内测资格，还有机会与 Kimi 团队交流等。&lt;/p&gt;
 &lt;p&gt;全球大使计划不直接以粉丝数量作为主要评判标准，但月之暗面也没有公布硬性任务或考核指标，申请者更重要的是具备真实 AI 实战经验和持续分享能力，或者能够组织和维护本地技术社区等。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114110.png" rel="nofollow"&gt;&lt;img alt="月之暗面推出Kimi大使计划 成功入选者可获得API额度/提前体验新产品和模型" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114110.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -17,47 +84,4 @@
 &lt;p&gt;此外，Kimi 大使创建的教程、项目和社区活动还有机会通过 Kimi 官方渠道推广并获得官方身份和成果认证，月之暗面也计划通过大使计划连接不同地区的开发者、研究人员和创作者，建立面向全球的 AI 实践社区。&lt;/p&gt;
 &lt;p&gt;申请地址：&lt;a href="https://www.landian.news/go?url=https://www.kimi.com/zh-cn/lp/kimi-ambassador" rel="noopener" target="_blank"&gt;https://www.kimi.com/zh-cn/lp/kimi-ambassador&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 29 Jul 2026 02:00:42 +0000</pubDate></item><item><title>苹果正式在美国设备推出租赁计划(订阅制) 按月付费到期可换机或归还设备</title><link>https://www.landian.news/archives/114109.html</link><description>
-&lt;p&gt;#手机数码 苹果正式在美国推出设备租赁计划 (硬件订阅制)，用户每月支付 20~40 美元就可以使用设备，但到期后用户需归还设备，因为没有设备所有权。对追求新设备体验的用户来说租赁计划还是有吸引力的，用户可以每次只租 1 年，然后每年到期都更换新机。另外设备人为损坏或丢失等需要用户自行承担损失，例如支付维修费和买断费。查看全文：https://ourl.co/114109&lt;/p&gt;&lt;p&gt;苹果正式在美国市场推出 Apple Upgrade 设备租赁计划，该计划即此前盛传的硬件订阅制，消费者可以按月租用 iPhone、iPad、Mac 和 Apple Watch 等产品。&lt;/p&gt;
-&lt;p&gt;与分期付款不同的是，用户支付的月租和总金额虽然更低，但租期结束后消费者无法获得设备所有权，而是需要将设备退回给苹果、换租新品或者额外支付买断费用。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/09/110622.png" rel="nofollow"&gt;&lt;img alt="苹果正式在美国设备推出租赁计划(订阅制) 按月付费到期可换机或归还设备" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/09/110622.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;苹果设备租赁计划为 iPhone 和 Apple Watch 提供 12 个月或 24 个月租期，iPad 和 Mac 则可以选择 24 个月或 36 个月租期，租期越长，每月需要支付的金额越低，但用户使用同一台设备的时间也会更长。&lt;/p&gt;
-&lt;p&gt;以基础存储版本为例，选择 24 个月租期时，iPhone 17e 每月 17.99 美元，两年合计 431.76 美元；iPhone 17 每月 22.99 美元，合计 551.76 美元；iPhone Air 每月 28.99 美元，合计 695.76 美元；iPhone 17 Pro 每月 31.99 美元，合计 767.76 美元。&lt;/p&gt;
-&lt;p&gt;其他设备中，iPad mini 的 36 个月租期每月 11.99 美元，iPad Pro 每月 24.99 美元，13 英寸的 MacBook Air 每月 24.99 美元，14 英寸的 MacBook Pro 每月 38.99 美元。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;设备租赁计划的价格低于直接购买设备，这是因为用户支付的并不是设备完整售价。当租赁期结束后用户需要归还现有设备并换租新品，也可以退出租赁计划并归还设备。如果用户希望退出租赁但保留设备，则需要支付额外的买断费用。&lt;/p&gt;
-&lt;p&gt;当然租赁方案的优势还有用户可以始终使用最新设备，例如每年苹果推出新款 iPhone 后，用户都可以到期换租新品，这样每年 500~700 美元就可以始终使用新款设备，对于追求新设备体验的用户来说这可能也是亮点。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;由于设备租赁本身用户是没有所有权的，所以如果设备出现人为损坏则用户需要支付维修费用，如果设备丢失或被盗则用户需要支付提前终止费和买断费用。&lt;/p&gt;
-&lt;p&gt;当然用户也可以选择为租赁设备购买 AppleCare 服务，这样不慎损坏或丢失后还有苹果兜底，只不过这样整个使用成本又会增加。&lt;/p&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 29 Jul 2026 01:30:42 +0000</pubDate></item><item><title>R星确认GTA6盒装版兑换码在PS5上有严格的锁区机制 但在Xbox上没有任何限制</title><link>https://www.landian.news/archives/114108.html</link><description>
-&lt;p&gt;#游戏资讯 R 星确认 GTA6 兑换码 (实体盒装版) 在 PS5 上有严格的锁区机制，这并不是 R 星锁区，而是索尼按照 PSN 账号所在区域进行锁区。不过 R 星也确认 Xbox 版兑换码没有任何锁区机制，玩家可以在任意地区购买以及在任意地区激活。GTA6 将在 11 月 19 日发售，所谓盒装版其实就是兑换码，R 星不再提供实体光盘。查看全文：https://ourl.co/114108&lt;/p&gt;&lt;p&gt;GTA6 零售版将在 2026 年 11 月 19 日在全球发售，这里的零售版指的是实体盒装版，也就是大家可以在线下游戏商店购买的版本。&lt;a href="https://www.landian.news/archives/113660.html" rel="noopener" target="_blank"&gt;不过说是盒装版但其实 R 星已经不提供实体游戏光盘&lt;/a&gt;，因此玩家购买后实际可以获得游戏兑换码，最终玩家需要通过线上渠道下载游戏并使用兑换码激活游戏。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113660.png" rel="nofollow"&gt;&lt;img alt="R星确认GTA6盒装版兑换码在PS5上有严格的锁区机制 但在Xbox上没有任何限制" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113660.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;日前 R 星已经确认适用于 Microsoft Xbox 的游戏兑换码没有任何区域限制，即玩家在任意区域购买的兑换码都可以在全球任意区域激活游戏(Xbox支持的区域)，不需要将兑换码与账户关联的国家或地区匹配。而适用于索尼 PS5 的兑换码则有严格的锁区机制，玩家不能跨区域激活游戏。&lt;/p&gt;
-&lt;p&gt;具体来说索尼将游戏兑换码与特定的 PSN 地区绑定，玩家必须从自己的 PSN 账号所在地区购买 GTA6 盒装版 / 兑换码，例如在北美购买的兑换码仅支持美国和加拿大账户，在英国购买的兑换码仅支持英国账户。&lt;/p&gt;
-&lt;p&gt;其他地区还包括巴西、拉丁美洲、日本、韩国、沙特阿拉伯、阿联酋、亚洲部分地区，以及涵盖欧洲、印度、澳大利亚和新西兰的泛区域，具体政策取决于索尼设置的锁区机制。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;当然索尼有锁区机制，而玩家也可以跨区注册账号，只不过索尼官方规定不允许使用虚假的账号信息，像是跨区注册账号原则上已经违反索尼的规定，所以仅为 GTA6 兑换码问题跨区注册账号是完全不值得的。&lt;/p&gt;
-&lt;p&gt;另外由于日本相关法律限制，在日本销售的 GTA6 兑换码将在发码日起 170 天后过期，所以玩家购买后必须尽早激活，以及在购买时咨询店员确认游戏的激活时效问题。&lt;/p&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 29 Jul 2026 01:00:42 +0000</pubDate></item><item><title>开源路由系统OpenWrt发布紧急安全更新修复DHCPv6漏洞 内网设备可提权执行代码</title><link>https://www.landian.news/archives/114107.html</link><description>
-&lt;p&gt;#安全资讯 开源路由系统 OpenWrt 发布紧急安全更新修复 DHCPv6 中的严重级安全漏洞，相邻网络攻击者最高可以 root 权限执行代码。该漏洞对家庭用户来说影响不是非常大，因为攻击者需要先加入对应的网络才能发起攻击，因此不能直接通过公网发起攻击。公共网络、访客网络、企业网络用户需立即升级到不受影响的版本，例如 24.10.8 和 25.12.5 版。查看全文：https://ourl.co/114107&lt;/p&gt;&lt;p&gt;开源路由系统 OpenWrt 日前发布紧急安全更新 24.10.8 用于修复默认启用的网络服务中的多个安全漏洞，其中最严重的是 DHCPv6 服务组件堆栈缓冲区溢出漏洞，未经身份验证的相邻网络攻击者可以发送特制数据包触发漏洞，极端情况下攻击者可以 root 权限执行任意代码。&lt;/p&gt;
-&lt;p&gt;项目团队表示，本次更新修复的部分漏洞可以通过默认启用的网络服务远程触发，因此强烈建议仍然在使用 OpenWrt 24.10 系列的用户尽快升级到最新版本。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114107.png" rel="nofollow"&gt;&lt;img alt="开源路由系统OpenWrt发布紧急安全更新修复DHCPv6漏洞 内网设备可提权执行代码" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114107.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;ODHCPD 是该路由系统默认使用的 DHCPv6/v4 和路由器通告服务组件，主要负责地址分配以及 IPv6 前缀委派等功能。最新爆出的漏洞编号为 CVE-2026-53921，该漏洞出现在服务组件处理 DHCPv6 身份关联选项并生成响应数据的过程中。&lt;/p&gt;
-&lt;p&gt;根据 OpenWrt 官方发布的漏洞公告，该组件使用 512 字节的堆栈缓冲区保存响应内容，但部分代码在继续写入状态选项前并没有正确检查缓冲区的剩余空间。当攻击者在 DHCPv6 REQUEST 数据包中添加足够多的 IA_NA 或 IA_PD 选项时，就可能让程序向缓冲区边界外写入数据。&lt;/p&gt;
-&lt;p&gt;如果攻击者配合其他相关漏洞，理论上说攻击者只要可以访问目标设备的 DHCPv6 服务，就可以在不登录设备或没有任何凭据的情况下，发送特制数据包触发问题。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;DHCPv6 服务通常监听 UDP547 端口，这类端口正常情况下只会面向局域网接口开放，因此该漏洞更准确的攻击场景是网络相邻攻击，攻击者并不能直接通过公网利用漏洞并发起攻击。&lt;/p&gt;
-&lt;p&gt;不过在公共网络、访客网络、企业内网或者存在不受信任终端的环境中，攻击者仍然可能直接接触 DHCPv6 服务，成功利用漏洞可能造成 ODHCPD 崩溃、IPv6 地址分配中断，甚至可以控制程序执行流程。&lt;/p&gt;
-&lt;p&gt;由于 ODHCPD 组件通常以 ROOT 权限运行，因此如果攻击者可以实现稳定代码执行，就可能直接取得设备最高权限。OpenWrt 团队在官方公告中也强调，部分嵌入式设备缺少完整的堆栈保护和地址空间随机化机制，因此不能将该问题只视为可能导致服务崩溃的拒绝服务漏洞 (DoS)。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;如果你使用的是 OpenWrt 官方固件且硬件支持，则应该立即升级到不受影响的版本，其中 24.10.x 系列应该升级到 24.10.8 版，如果使用 25.12.x 系列则应该升级到 25.12.5 版。用户可以通过项目地址获取对应设备的最新固件，使用非官方固件的用户需要关注固件作者及时获取更新。&lt;/p&gt;
-&lt;p&gt;需要提醒的是 OpenWrt 24.10 系列目前已经进入安全维护阶段，按照计划该系列将在 2026 年 9 月结束支持，到时候项目官方不会再提供必要的安全更新。&lt;/p&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://github.com/openwrt/openwrt/releases/tag/v24.10.8" rel="noopener" target="_blank"&gt;OpenWrt&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 29 Jul 2026 00:30:41 +0000</pubDate></item><item><title>[新应用] 在iOS桌面添加Codex/Claude Code/Grok剩余额度 支持重置提醒</title><link>https://www.landian.news/download/114130.html</link><description>#软件下载 [新应用] nowdex：在 iOS/macOS 桌面上添加 Codex、Claude Code、Grok 剩余额度，支持重置提醒、查看重置时间、查看重置卡和到期时间等。虽然 nowdex 未适配 macOS，不过实测安装后也能在桌面上正常显示小工具，这样随时可以看到剩余额度情况。查看全文：https://ourl.co/114130</description><pubDate>Tue, 28 Jul 2026 06:16:51 +0000</pubDate></item></channel></rss>
+</description><pubDate>Wed, 29 Jul 2026 02:00:42 +0000</pubDate></item></channel></rss>
