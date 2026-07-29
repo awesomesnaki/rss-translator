@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Wed, 29 Jul 2026 15:28:02 +0000</lastBuildDate><item><title>数数那些下划线</title><link>https://arstechnica.com/tech-policy/2026/07/police-missed-one-underscore-and-sent-the-wrong-man-to-prison/</link><description>&lt;p&gt;内特·安德森在为Ars Technica撰写的报道中，标题为“一个缺失的下划线让无辜者入狱18个月”：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Wed, 29 Jul 2026 16:51:15 +0000</lastBuildDate><item><title>Apple升级计划——与Klarna合作的新方案，以近乎零利率租赁iPhone、Mac、iPad等产品</title><link>https://www.apple.com/newsroom/2026/07/apple-upgrade-launches-in-the-united-states/</link><description>&lt;p&gt;苹果新闻室：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;苹果今日宣布了&lt;a href="https://www.apple.com/shop/apple-upgrade"&gt;苹果升级计划&lt;/a&gt;，这是一项由Klarna提供的新产品租赁计划，适用于iPhone、Apple Watch、Mac和iPad，可通过美国境内的苹果在线商店、Apple Store应用及Apple Store零售店获取。苹果升级计划让顾客能够以适合自身的租赁方案，更轻松地获得他们钟爱的苹果产品。[...]&lt;/p&gt;
+&lt;p&gt;苹果升级计划为iPhone和Apple Watch提供12个月和24个月的租赁选项，为Mac和iPad提供24个月和36个月的租赁选项。租赁价格低至iPhone每月17.99美元、Apple Watch每月11.99美元、Mac每月24.99美元、iPad每月11.99美元。顾客首次加入苹果升级计划时，可通过&lt;a href="https://www.apple.com/shop/trade-in/"&gt;苹果以旧换新&lt;/a&gt;折抵当前拥有的设备，进一步降低月租赁费用。使用Apple Card支付租赁费用时，还可获得3%的每日返现。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href="https://mjtsai.com/blog/2026/07/28/apple-upgrade/"&gt;迈克尔·蔡&lt;/a&gt;引用MacRumors的朱莉·克洛弗：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href="https://www.macrumors.com/2026/07/28/apple-upgrade-program-klarna/"&gt;朱莉·克洛弗&lt;/a&gt;：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;结算金额是租赁期间已支付金额与设备零售价之间的差额，再减去任何剩余的以旧换新额度。Klarna未对此租赁计划收取费用，因此一台售价1099美元的iPhone可以租赁，之后以1099美元购得，除税费外无任何额外费用。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我想这意味着，只需稍加麻烦，你基本上就能以标价0%利息购买该设备。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;如果你更倾向于分期租赁或购买，这似乎是你能期待的最优方案，没有任何附加条件。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/07/29/apple-upgrade" title="永久链接至‘苹果升级计划——与Klarna合作推出近乎零利率租赁iPhone、Mac、iPad等产品的新计划’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Wed, 29 Jul 2026 16:51:15 +0000</pubDate></item><item><title>Pastebot 3</title><link>https://tapbots.com/pastebot/</link><description>&lt;p&gt;Tapbots 推出了新版本：适用于 Mac 的优秀剪贴板管理器第三版。Mac 上 &lt;em&gt;有太多&lt;/em&gt; 剪贴板管理器了。我运行着另外两个应用——&lt;a href="https://www.keyboardmaestro.com/"&gt;Keyboard Maestro&lt;/a&gt; 和 &lt;a href="https://www.obdev.at/launchbar"&gt;LaunchBar&lt;/a&gt;——它们也将不错的剪贴板管理作为附属功能提供。但多年来我选择使用 Pastebot。其中我最喜欢的功能包括：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;最多可记住 1500 条剪贴内容（从 v2 版的仅 1000 条提升而来）。&lt;/li&gt;
+&lt;li&gt;通过 iCloud 同步。如果我在一台 Mac 上复制了某内容，它就会出现在我其他 Mac 的 Pastebot 历史记录中。&lt;/li&gt;
+&lt;li&gt;那甜美的 Tapbots 用户界面。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pastebot 3 需要 MacOS 26 Tahoe 或更高版本。这意味着我目前只在次要 Mac 上使用它——我的主力工作站将继续运行 MacOS 15 Sequoia，直到今年晚些时候我直接升级到 27 Golden Gate。但 iCloud 同步在 Pastebot 2 和 3 之间仍能正常工作。&lt;/p&gt;
+&lt;p&gt;新功能包括更强大的过滤器（例如，你可以使用过滤器复制一个 URL，然后以 Markdown 链接语法粘贴该 URL）、一个命令行工具（尚未提供文档）以及快捷指令支持。&lt;/p&gt;
+&lt;p&gt;直接购买许可证价格为 39 美元，旧版本用户可享受 13 美元折扣。该应用仍在等待 Mac App Store 的审核，届时将以每年 25 美元或每月 3 美元的价格提供。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/07/29/pastebot-3" title="“Pastebot 3”的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Wed, 29 Jul 2026 16:07:03 +0000</pubDate></item><item><title>数数那些下划线</title><link>https://arstechnica.com/tech-policy/2026/07/police-missed-one-underscore-and-sent-the-wrong-man-to-prison/</link><description>&lt;p&gt;内特·安德森在为Ars Technica撰写的报道中，标题为“一个缺失的下划线让无辜者入狱18个月”：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;警方当时正在寻找一名使用Kik消息服务的用户，用户名为“fus__ro_dah”（“fus”后面两个下划线），但警方意外地请求了用户名“fus_ro_dah”（“fus”后面一个下划线）的记录。这一个字符的差异导致他们找到的不是罪犯，而是一名叫做布兰登·克莱姆的加拿大男子。[...]&lt;/p&gt;
 &lt;p&gt;尽管在他的数字设备上没有发现犯罪证据，加拿大警方仍在2020年以儿童性虐待罪名逮捕了克莱姆。他在2023年审判后被判有罪，并于2024年被判处18个月监禁。他服满了全部刑期。&lt;/p&gt;
@@ -32,17 +57,4 @@
 &lt;p&gt;乔布斯这里的"我们"值得深思。如今苹果的高级领导层，基本上还是2011年担任高级领导职位的那些人。蒂姆·库克、菲尔·席勒、埃迪·库、克雷格·费德里吉、格雷格·乔斯维亚克，甚至约翰·特努斯（我相信当时他是iPad团队硬件工程总监），大概都包含在乔布斯的"我们"之中。如今乔布斯2011年"我们"中唯一缺席的大人物是斯科特·福斯特尔。&lt;/p&gt;
 &lt;p&gt;人没有变，但苹果变了。强势的领导者不可避免地会随着时间的推移塑造组织的个性——即精神。2011年的苹果是史蒂夫·乔布斯的巅峰苹果。2026年的苹果是蒂姆·库克的巅峰苹果。但&lt;a href="https://daringfireball.net/2026/07/ternus_apple_slippery_slope"&gt;正是库克推广了&lt;/a&gt;针对"免费带广告"在线服务的"你不是客户，你是产品"这一论点。不过那是&lt;a href="https://blogs.wsj.com/digits/2014/09/18/read-apple-ceo-tim-cooks-letter-on-privacy/?st=fRtsBk"&gt;2014年&lt;/a&gt;的事了。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/07/28/jobs-we-dont-want-ads" title="永久链接至‘史蒂夫·乔布斯在2011年：’我们打造的产品也是我们自己想要的，而我们就是不想要广告‘’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Tue, 28 Jul 2026 16:22:51 +0000</pubDate></item><item><title>[赞助商] 介绍Agent Fone</title><link>https://fail.xyz/phone/</link><description>&lt;p&gt;现在每部手机都自带一个助手。你提问，它回答。真没劲。我们造了一台能写软件的手机。你笔记里存了好几年的应用创意、你永远没时间开发的副业项目、只有你想要的奇怪小玩意——描述它，回答几个问题，它就会出现在你的主屏幕上——属于你，能运行，能发送给朋友。没有应用商店横亘在你和你的创意之间。前五十台将提供给那些愿意&lt;a href="https://fail.xyz/phone/"&gt;猛戳它并告诉我们哪里出问题&lt;/a&gt;的团队。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/feeds/sponsors/2026/07/introducing_agent_fone" title="“介绍 Agent Fone”的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Tue, 28 Jul 2026 01:31:54 +0000</pubDate></item><item><title>始终选择好肥皂</title><link>https://sixcolors.com/post/2026/07/always-choose-the-good-soap/</link><description>&lt;p&gt;Jason Snell:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;苹果最宝贵的资产是它的品牌。不是它的房地产，不是它的知识产权，甚至不是任何特定的产品。即便是强大的iPhone，如果随着时间的推移，使其区别于竞争对手产品的特性被抹去，它也会失去价值。苹果的品牌始终代表着更高质量的产品——你付出更多，但你得到更多。苹果从来不想成为价格领先者。它没有为了从英特尔获得一些营销费用而在第一批英特尔Mac上&lt;a href="https://daringfireball.net/2026/07/ads_in_software_are_like_stickers_on_laptops"&gt;贴标签&lt;/a&gt;。它不会像许多PC那样在新Mac上预装大量糟糕的捆绑第三方软件。&lt;/p&gt;
-&lt;p&gt;这些都是苹果做出的选择，这些选择让公司损失了收入，但它们有更大的目的。它们强化了品牌。&lt;/p&gt;
-&lt;p&gt;对于任何在追求利润的公司工作的人来说，选择&lt;em&gt;不&lt;/em&gt;为底线增加更多收入是一个艰难的决定。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;伟大的头脑在同一天讨论同一个话题。&lt;/p&gt;
-&lt;p&gt;Snell的专栏明确指出，苹果通过在其软件中投放糟糕广告所获得的增量收入是有代价的。它们是在从苹果的品牌资产中提款。苹果因强行推送这些广告而失去的品牌资产，远比其从中赚取的边际美元更有价值。确实有利润，但这正是利润不值得榨取的完美案例。&lt;/p&gt;
-&lt;p&gt;用户不应该能轻易想到苹果软件显而易见的改进方式。但任何用户都能毫不费力地想到App Store的一个明显改进方式：从搜索结果中移除广告。如果有一个偏好设置可以移除App Store搜索结果中的广告，每个人都会打开它。苹果正在做一件显然让体验变得更糟的事情。这是一件小事。体验只是稍微变差了一点。但把所有这些小事做对，才能达到极度优秀，而极度优秀是苹果的北极星。&lt;/p&gt;
-&lt;p&gt;苹果的竞争对手充斥着广告。简直糟糕透顶。苹果似乎正在选择一条路：“不喜欢广告？选苹果，我们塞到你脸上的广告&lt;em&gt;更少&lt;/em&gt;。”这远不如“不喜欢广告？选苹果，我们根本&lt;em&gt;不&lt;/em&gt;往你脸上塞广告”那样清晰有力的营销信息。如果你竞争对手的店铺到处弥漫着狗屎味，不要立志于成为闻起来狗屎味最轻的店铺。要立志于拥有一间闻起来清新的店铺。“我们的店铺只有一丝狗屎味”可不是极度优秀。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/07/27/always-choose-the-good-soap" title="指向“永远选择好肥皂”的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Tue, 28 Jul 2026 01:13:55 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 28 Jul 2026 16:22:51 +0000</pubDate></item></channel></rss>
