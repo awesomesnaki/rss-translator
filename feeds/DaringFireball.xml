@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Thu, 30 Jul 2026 16:59:39 +0000</lastBuildDate><item><title>寻找苹果升级中的陷阱</title><link>https://www.theatlantic.com/technology/2026/07/apple-lease-upgrade-program/688106/</link><description>&lt;p&gt;达蒙·贝雷斯在为《大西洋月刊》撰稿，文章标题及副标题为：“苹果新款低端机：苹果的租赁计划是个陷阱”：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Thu, 30 Jul 2026 20:41:43 +0000</lastBuildDate><item><title>苹果发布iOS和MacOS 26.6、MacOS 15.7.8等多个版本。</title><link>https://arstechnica.com/gadgets/2026/07/ios-and-macos-26-6-arrive-today-paving-the-way-for-ios-and-macos-27/</link><description>&lt;p&gt;Samuel Axon，Ars Technica：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;苹果已发布iOS、iPadOS、macOS、watchOS及tvOS 26.6。除了潜在的安全补丁外，这些很可能是iOS 27、macOS 27等版本到来前的最后一次更新。&lt;/p&gt;
+&lt;p&gt;今天的所有版本都包含少量错误修复，并有大量安全更新：&lt;a href="https://support.apple.com/en-gb/128067"&gt;macOS 26.6 有超过150项安全更新&lt;/a&gt;。苹果还为旧款设备推出了macOS 14.8.8和macOS 15.7.8，同样专注于安全修复。&lt;/p&gt;
+&lt;p&gt;在新功能方面，这些版本中你不会找到太多，因为它们主要是为下一次重大系统更新铺路，很可能在九月份到来。最值得注意的是，iOS和iPadOS 26.6的发布说明称，该更新“优化了Spotlight索引，为iOS 27做准备”。此次更新将启动一些索引工作，这些工作随后将在下月iOS 27发布时，用于一个表面上强大得多的Spotlight搜索功能。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我并不是想吹毛求疵，但这其中并无“表面”可言。你可以在OS 27测试版中通过Siri AI使用新的Spotlight索引，它&lt;em&gt;真的&lt;/em&gt;很好。对我而言，iOS上的初始后台索引花了将近整整一周，我怀疑是因为我归档的邮件太多，但任何现在升级到这些26.6版本的人，在九月份升级到27.0后都不必等待。甚至如果你等到27.1版本再升级——你也不需要等待Siri AI获取完整的语义索引。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/07/30/ios-macos-26-6" title="永久链接至‘苹果发布iOS与MacOS 26.6、MacOS 15.7.8及更多’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Thu, 30 Jul 2026 20:41:43 +0000</pubDate></item><item><title>流氓变形虫：不引人注意的更新通知</title><link>https://weblog.rogueamoeba.com/2026/04/28/unobtrusive-update-notifications/</link><description>&lt;p&gt;保罗·卡法西斯今年四月在Rogue Amoeba博客上写道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;尽管Sparkle非常好用，但它有一个明显的缺点。
+更新通知最有可能在最不方便的时候出现：就在你启动应用之后。例如，你想用Audio Hijack开始录音，但应用却在提醒你新版本。&lt;/p&gt;
+&lt;p&gt;我们一直希望避免这些干扰。基于这一点，我们正在调整应用中更新通知的显示方式。未来，当软件的定时自动检查检测到新版本时，它将不再弹出像上面那样突兀的窗口。&lt;/p&gt;
+&lt;p&gt;相反，应用界面中会显示一个小的“更新可用”指示。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这是件小事，但正如我&lt;a href="https://daringfireball.net/linked/2026/07/27/always-choose-the-good-soap"&gt;本周早些时候&lt;/a&gt;所写的，把每件小事都做好，才能达到出类拔萃的境界。每个使用Sparkle的Mac应用都应该效仿这一点。这样好多了。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/07/30/rogue-amoeba-unobtrusive-update-notifications" title="永久链接至‘Rogue Amoeba：不打扰的更新通知’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Thu, 30 Jul 2026 20:33:59 +0000</pubDate></item><item><title>寻找苹果升级中的陷阱</title><link>https://www.theatlantic.com/technology/2026/07/apple-lease-upgrade-program/688106/</link><description>&lt;p&gt;达蒙·贝雷斯在为《大西洋月刊》撰稿，文章标题及副标题为：“苹果新款低端机：苹果的租赁计划是个陷阱”：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Klarna计划——“苹果升级计划”，取代了iPhone升级计划——从法律上讲，确实是一份租赁协议。这很让人困惑！之所以令人困惑，部分原因是Klarna这家知名的先买后付服务商通常不这么操作：当你用Klarna在SHEIN买衣服、在Sephora买唇膏套装，或在GameStop买Xbox时，你是在偿还贷款，跟在原有iPhone升级计划中一样。如果你用Klarna购买&lt;a href="https://www.samsung.com/us/klarna-payment-plan/"&gt;三星Galaxy&lt;/a&gt;手机也是如此。但苹果升级计划是租赁：在付清最后一笔款项之前，Mac或Apple Watch并不属于你。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -9,9 +26,9 @@
 &lt;p&gt;设想一名学生或年轻职场人士，或许还有一名工作不稳定的大龄人士，需要一台新笔记本电脑。他们决定买一台MacBook。苹果升级计划看起来最划算：在&lt;a href="https://www.apple.com/newsroom/2026/07/apple-upgrade-launches-in-the-united-states/"&gt;公告&lt;/a&gt;中，苹果举例说，一台零售价为1999美元的14英寸MacBook Pro，可以通过月租形式获得。也许这个人选择了两年期租赁，每月支付54美元。百思买目前同款电脑售价1849美元，提供18个月分期贷款，每期103美元。苹果的方案看起来更便宜：24个月租赁总计1296美元；百思买18个月贷款的总价为店铺全零售价1849美元。&lt;/p&gt;
 &lt;p&gt;为什么百思买的笔记本电脑看起来更贵？因为该计划实际上是为了让你完全付清设备费用。而与此同时，在24个月MacBook Pro租赁期结束时，消费者仍需支付703美元，这意味着苹果方案的实际总价为1999美元——高于百思买的报价。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;这与苹果升级计划的租赁条款和百思买18个月贷款之间的差异无关。关键在于苹果零售价1999美元与百思买1849美元的价差。猜怎么着？1849美元比1999美元少。&lt;/p&gt;&lt;p&gt;我通常喜欢提前付清所有购买物品的费用。目前我唯一有贷款的就是我们的房子。所以当Apple Upgrade计划宣布时，我持怀疑态度，认为参与者最终支付的总金额会超过直接一次性购买设备。但事实并非如此。没有利息惩罚。甚至可以说，如果你认为未来几年通货膨胀仍会略高，通过Apple Upgrade购买设备可能比一次性付款更划算。&lt;/p&gt;
-&lt;p&gt;如果在24个月租期结束时，你想要买断设备还需支付703美元，这算是一个“陷阱”吗？我认为这根本不是陷阱，因为对于一台1999美元的设备，你到那时只支付了1296美元。我不是在装傻。我理解。如果你一次性付清1999美元，或者通过贷款在24个月内付清全款，那么两年后你就完全拥有设备，可能几年内都不会想买新设备。相反，如果你租用设备，24个月后还需支付703美元，你可能觉得支付703美元买断一台已经用了两年的MacBook一点也不有趣，即使价格完全公平且没有利息惩罚。只是不有趣。到那时，可能有趣的做法是直接把租用的MacBook还给苹果，开始&lt;em&gt;新&lt;/em&gt;的租赁，换一台全新的MacBook。从苹果的角度来看，这无疑是整个计划的吸引力所在——租赁诱使人们每两年重新开始租赁，而不是安享一台已付清全款的设备再多用几年。不过，我认为把这称为“陷阱”有些牵强。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/07/30/looking-for-the-catch-in-apple-upgrade" title="Permanent link to ‘Looking for the Catch in Apple Upgrade’"&gt; ★ &lt;/a&gt;
+&lt;p&gt;这与苹果升级计划的租赁条款和百思买18个月贷款之间的差异无关。关键在于苹果零售价1999美元与百思买1849美元的价差。猜怎么着？1849美元比1999美元少。&lt;/p&gt;&lt;p&gt;我通常喜欢提前付清所有购买的商品。目前我唯一有贷款的就是我们的房子。所以当苹果升级计划（Apple Upgrade）宣布时，我持怀疑态度，认为参与者最终会比直接一次性购买设备支付更多。但事实并非如此。没有利息惩罚。如果说有什么不同的话，如果你认为未来几年通货膨胀仍会偏高，那么通过苹果升级计划购买设备可能比提前付款稍微划算一些。&lt;/p&gt;
+&lt;p&gt;在24个月租期结束时，如果你想买下设备，还需支付703美元，这是“陷阱”吗？我认为这根本不是陷阱，因为迄今为止你只为一台1999美元的设备支付了1296美元。我不是在装傻。我明白。如果你一次性支付全部1999美元，或者贷款24个月付清全部金额，那么两年后你就完全拥有设备，并且可能几年内都不会想买新设备。如果你选择租赁，24个月后仍欠703美元，你可能会觉得支付703美元来完成购买一台已经用了两年的MacBook一点意思都没有，即使价格完全公平且没有利息惩罚。就是没意思。而那时看起来有意思的，可能是把租来的MacBook直接还给苹果，然后开始租赁一台全新的MacBook。从苹果的角度来看，这整个计划的吸引力肯定就在这里——租赁诱使人们每两年开始新的租赁，而不是安于享受一台已经付清的设备再多用几年。不过，我认为把这称为“陷阱”有点牵强。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/07/30/looking-for-the-catch-in-apple-upgrade" title="寻找苹果升级计划中的隐藏条款"&gt; ★ &lt;/a&gt;
 </description><pubDate>Thu, 30 Jul 2026 16:59:39 +0000</pubDate></item><item><title>新的“苹果升级计划”与旧的“iPhone升级计划”之间的区别</title><link>https://9to5mac.com/2026/07/30/apple-upgrade-vs-iphone-upgrade-program-here-are-the-key-differences/</link><description>&lt;p&gt;Ryan Christoffel 为 9to5Mac 撰文：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;本周 Apple Upgrade 上线，而 iPhone Upgrade Program 因此被停用。但尽管两者存在某些相似之处，这两项服务并不相同。以下是关键区别。&lt;/p&gt;
@@ -41,29 +58,4 @@
 &lt;p&gt;监管机构现在可能允许一种更有限的版本。正如路透社5月报道的那样，印度储备银行提议允许贷款机构在贷款逾期至少90天后限制融资手机的某些功能，前提是借款人在合同中同意该措施，并收到提前通知。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;a href="https://daringfireball.net/linked/2026/07/29/ios-27-restricted-mode" title="Permanent link to ‘Apple Says iOS 27 ‘Restricted Mode’ Isn’t for Users Who Miss Payments in New Apple Upgrade Program’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Wed, 29 Jul 2026 20:56:33 +0000</pubDate></item><item><title>Apple升级计划——与Klarna合作的新方案，以近乎零利率租赁iPhone、Mac、iPad等产品</title><link>https://www.apple.com/newsroom/2026/07/apple-upgrade-launches-in-the-united-states/</link><description>&lt;p&gt;苹果新闻室：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;苹果今日宣布了&lt;a href="https://www.apple.com/shop/apple-upgrade"&gt;苹果升级计划&lt;/a&gt;，这是一项由Klarna提供的新产品租赁计划，适用于iPhone、Apple Watch、Mac和iPad，可通过美国境内的苹果在线商店、Apple Store应用及Apple Store零售店获取。苹果升级计划让顾客能够以适合自身的租赁方案，更轻松地获得他们钟爱的苹果产品。[...]&lt;/p&gt;
-&lt;p&gt;苹果升级计划为iPhone和Apple Watch提供12个月和24个月的租赁选项，为Mac和iPad提供24个月和36个月的租赁选项。租赁价格低至iPhone每月17.99美元、Apple Watch每月11.99美元、Mac每月24.99美元、iPad每月11.99美元。顾客首次加入苹果升级计划时，可通过&lt;a href="https://www.apple.com/shop/trade-in/"&gt;苹果以旧换新&lt;/a&gt;折抵当前拥有的设备，进一步降低月租赁费用。使用Apple Card支付租赁费用时，还可获得3%的每日返现。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a href="https://mjtsai.com/blog/2026/07/28/apple-upgrade/"&gt;迈克尔·蔡&lt;/a&gt;引用MacRumors的朱莉·克洛弗：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href="https://www.macrumors.com/2026/07/28/apple-upgrade-program-klarna/"&gt;朱莉·克洛弗&lt;/a&gt;：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;结算金额是租赁期间已支付金额与设备零售价之间的差额，再减去任何剩余的以旧换新额度。Klarna未对此租赁计划收取费用，因此一台售价1099美元的iPhone可以租赁，之后以1099美元购得，除税费外无任何额外费用。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;我想这意味着，只需稍加麻烦，你基本上就能以标价0%利息购买该设备。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;如果你更倾向于分期租赁或购买，这似乎是你能期待的最优方案，没有任何附加条件。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/07/29/apple-upgrade" title="永久链接至‘苹果升级计划——与Klarna合作推出近乎零利率租赁iPhone、Mac、iPad等产品的新计划’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Wed, 29 Jul 2026 16:51:15 +0000</pubDate></item><item><title>Pastebot 3</title><link>https://tapbots.com/pastebot/</link><description>&lt;p&gt;Tapbots 推出了新版本：适用于 Mac 的优秀剪贴板管理器第三版。Mac 上 &lt;em&gt;有太多&lt;/em&gt; 剪贴板管理器了。我运行着另外两个应用——&lt;a href="https://www.keyboardmaestro.com/"&gt;Keyboard Maestro&lt;/a&gt; 和 &lt;a href="https://www.obdev.at/launchbar"&gt;LaunchBar&lt;/a&gt;——它们也将不错的剪贴板管理作为附属功能提供。但多年来我选择使用 Pastebot。其中我最喜欢的功能包括：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;最多可记住 1500 条剪贴内容（从 v2 版的仅 1000 条提升而来）。&lt;/li&gt;
-&lt;li&gt;通过 iCloud 同步。如果我在一台 Mac 上复制了某内容，它就会出现在我其他 Mac 的 Pastebot 历史记录中。&lt;/li&gt;
-&lt;li&gt;那甜美的 Tapbots 用户界面。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Pastebot 3 需要 MacOS 26 Tahoe 或更高版本。这意味着我目前只在次要 Mac 上使用它——我的主力工作站将继续运行 MacOS 15 Sequoia，直到今年晚些时候我直接升级到 27 Golden Gate。但 iCloud 同步在 Pastebot 2 和 3 之间仍能正常工作。&lt;/p&gt;
-&lt;p&gt;新功能包括更强大的过滤器（例如，你可以使用过滤器复制一个 URL，然后以 Markdown 链接语法粘贴该 URL）、一个命令行工具（尚未提供文档）以及快捷指令支持。&lt;/p&gt;
-&lt;p&gt;直接购买许可证价格为 39 美元，旧版本用户可享受 13 美元折扣。该应用仍在等待 Mac App Store 的审核，届时将以每年 25 美元或每月 3 美元的价格提供。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/07/29/pastebot-3" title="“Pastebot 3”的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Wed, 29 Jul 2026 16:07:03 +0000</pubDate></item></channel></rss>
+</description><pubDate>Wed, 29 Jul 2026 20:56:33 +0000</pubDate></item></channel></rss>
