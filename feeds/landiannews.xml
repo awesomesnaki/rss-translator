@@ -1,5 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 30 Jul 2026 09:27:38 +0000</lastBuildDate><item><title>微软向用户推送不可卸载的OneDrive Photos应用  还是基于WebView开发的</title><link>https://www.landian.news/archives/114144.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sat, 01 Aug 2026 05:53:54 +0000</lastBuildDate><item><title>微软发文介绍自3月以来对Windows 11的质量改进 包括改进资源管理器和减少干扰等</title><link>https://www.landian.news/archives/114148.html</link><description>
+&lt;p&gt;#系统资讯 微软发文介绍自 3 月以来 Windows 11 的质量改进，包括提高内存效率减少内存开销、改进资源管理器可靠性、改进驱动程序质量等等。3 月份微软发文称要重点改进 Windows 11 质量解决客户长期抱怨的可靠性问题，现在微软再次发文提到这段时间的工作成果。这些改进已经在预览版中测试，将在秋季陆续推送给所有用户。查看全文：https://ourl.co/114148&lt;/p&gt;&lt;p&gt;3 月份微软发文声称要重点改进 Windows 11 质量，解决客户长期以来抱怨的可靠性和性能问题，这段时间关注 Windows 11 预览版的用户可以注意到微软确实正在进行多种改进，包括改进资源管理器功能和可靠性、减少垃圾 AI 功能、降低系统更新带来的干扰等等。&lt;/p&gt;
+&lt;p&gt;所以现在微软再次发文介绍已经准备好的改进，这些改进已经在 Windows 11 预览版中上线，微软最终将在秋季通过累积更新或 Windows 11 26H2 版更新将这些改进推送给所有用户。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Windows 11任务栏已经可以放在顶部/左侧/右侧 并且可以默认设置窗口不合并" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/112973-1.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.landian.news/archives/113924.html" rel="noopener" target="_blank"&gt;改进任务栏搜索框&lt;/a&gt;：包括更简洁的主屏幕和更清晰的搜索结果，从网页搜索结果中删除广告等干扰内容。&lt;/li&gt;
+&lt;li&gt;开发者方面的改进：针对开发者优化 Windows 11 体验，帮助开发者更快地构建和发布产品。&lt;/li&gt;
+&lt;li&gt;开发者方面的改进：&lt;a href="https://www.landian.news/archives/113703.html" rel="noopener" target="_blank"&gt;针对开发者和专业用户推出 WSL 容器预览版&lt;/a&gt;，用户可以直接运行容器无需 Docker 桌面版。&lt;/li&gt;
+&lt;li&gt;开发者方面的改进：推出带有开发者配置的 Windows 365、Microsoft 执行容器等 (均为企业类功能)。&lt;/li&gt;
+&lt;li&gt;增加 WinUI3 基础架构：强化基础架构并将其扩展到 Windows Shell 更多部分，例如小部件和全新的「运行」体验。&lt;/li&gt;
+&lt;li&gt;架构方面的未来改进：微软还将通过 WinUI3 架构强化平台基础，加速 Windows 11 和应用生态系统现代化进程。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.landian.news/archives/112973.html" rel="noopener" target="_blank"&gt;新版可移动位置任务栏&lt;/a&gt;：现在任务栏已经可以放到屏幕顶部、左侧和右侧，不再强迫用户将其放在屏幕底部。&lt;/li&gt;
+&lt;li&gt;新版开始菜单：&lt;a href="https://www.landian.news/archives/112704.html" rel="noopener" target="_blank"&gt;开始菜单现在可以进行更多个性化设置&lt;/a&gt;，例如不同的列表模式 / 网格模式和内容设置等。&lt;/li&gt;
+&lt;li&gt;减少垃圾 AI 功能：简化 Windows 11 AI 功能，将部分垃圾 AI 功能删掉或替换掉，避免干扰用户。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.landian.news/archives/114111.html" rel="noopener" target="_blank"&gt;资源管理器改进&lt;/a&gt;：提高资源管理器可靠性，提升地址栏、文件大小格式、键盘导航和重命名的易用性等等。&lt;/li&gt;
+&lt;li&gt;驱动程序质量计划：该计划旨在提高驱动程序质量、可靠性和安全性，已经部署的改进包括提高 USB4 扩展坞性能。&lt;/li&gt;
+&lt;li&gt;响应速度和调度：微软还在加大技术栈的投入，从内核到 Shell 及各类工具，目标是从根本上提升性能和响应速度。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;微软还提到正在改进 Windows 11 内存效率，例如利用更高效的内存分配器减少应用程序和组件的开销、持续调整 WinUI3 使其构建的应用程序在设计上就使用更少的内存。提高 Chromium 和 WebView2 组件在操作系统中的效率以减少内存开销等。&lt;/p&gt;
+&lt;p&gt;值得注意的是，说是在减少内存开销结果这段时间微软还向用户&lt;a href="https://www.landian.news/archives/114144.html" rel="noopener" target="_blank"&gt;推送基于 WebView2 构建的 OneDrive Photos&lt;/a&gt;，该应用属于捆绑在 OneDrive 中的因此不能单独卸载，所以 Windows 团队的改进计划优先级可能还是要低于商业化部门的？&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://blogs.windows.com/windows-insider/2026/07/31/windows-quality-an-update-on-the-commitment-we-made-in-march/" rel="noopener" target="_blank"&gt;微软官方博客&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sat, 01 Aug 2026 05:53:54 +0000</pubDate></item><item><title>比特币硬件钱包COLDCARD使用假随机数生成种子 黑客在15分钟内窃取594个比特币</title><link>https://www.landian.news/archives/114147.html</link><description>
+&lt;p&gt;#加密货币 比特币硬件钱包 COLDCARD 出现重大安全问题，该钱包使用的随机数存在缺陷导致生成范围极小的助记词。黑客发现该漏洞后在自己的机器上生成大量地址并与链上匹配，成功匹配的活跃钱包被黑客使用私钥直接转走。链上数据显示，黑客在短短 15 分钟内清空 500 个钱包，抽走 594 个比特币(约人民币2.54亿元或3,742万美元)。查看全文：https://ourl.co/114147&lt;/p&gt;&lt;p&gt;知名比特币硬件钱包 COLDCARD 日前出现重大安全问题，该硬件钱包在 2021 年 3 月的构建错误导致钱包固件使用可预测的设备和时钟值构建种子 (即种子助记词)，正常来说生成种子时应该使用随机数 (虽然也是伪随机数)，使用足够长的随机数派生时会让破解难度呈指数级增长。&lt;/p&gt;
+&lt;p&gt;COLDCARD 使用有缺陷的生成器导致实际生成的种子空间范围很小，种子空间从原本的天文数字范围缩小到可搜索的范围，例如 MK3 钱包原本设计的种子空间为 128 位，因为缺陷该钱包实际生成的种子池空间 40 位，有黑客发现这个问题后对缺陷加以利用。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114147.png" rel="nofollow"&gt;&lt;img alt="比特币硬件钱包COLDCARD使用假随机数生成种子 黑客在15分钟内窃取594个比特币" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114147.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;链上数据显示，黑客利用漏洞在短短 15 分钟内从 500 个地址中抽走 594.48 个比特币(约人民币2.54亿元或3,742万美元)，要知道整个过程不需要用户进行任何交互，事实上可能到现在还有很多用户并不清楚自己的钱包已经被洗劫，后续用户查看钱包发现钱包已经失效，这时候估计才会发现自己的比特币已经归零。&lt;/p&gt;
+&lt;p&gt;安全研究员 &lt;a href="https://www.landian.news/go?url=https://x.com/IntCyberDigest/status/2083286507062776096" rel="noopener" target="_blank"&gt;ICD&lt;/a&gt; 分析后认为，黑客直接在自己的机器上重建 COLDCARD 有缺陷的种子生成器，然后为每个种子派生出对应的比特币地址，随后将这些地址与比特币链上数据对比。如果对比显示对应的钱包地址有比特币余额说明这就是活跃的钱包。&lt;/p&gt;
+&lt;p&gt;而黑客本身在自己机器派生比特币地址时有对应的私钥，所以黑客可以直接通过私钥将匹配的钱包余额直接转出，而在用户升级钱包固件或迁移比特币余额前，理论上黑客可以继续派生、扫描、匹配、洗劫钱包。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;COLDCARD 在发布的安全公告中提到多款硬件钱包受影响，目前该公司也已经发布对应的固件用于修复漏洞，而在升级固件前用户不应该再继续使用钱包生成种子，否则对应钱包仍然有被窃取风险。&lt;/p&gt;
+&lt;p&gt;目前该公司也没有提及任何潜在补偿措施，接下来估计被窃取比特币的用户可能会发起集体诉讼，否则就只能自己承担损失。COLDCARD 称目前相关问题还在继续调查中，后续会发布正式技术报告来保持透明度。&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sat, 01 Aug 2026 04:45:36 +0000</pubDate></item><item><title>Codex再次重置周额度 而且目前测试5小时限额也没有恢复 所以还能敞开用</title><link>https://www.landian.news/archives/114146.html</link><description>
+&lt;p&gt;#人工智能 Codex 再次重置周额度，而且目前测试 5 小时限额也没有恢复，所以还能继续敞开用。不过这次蒂博重置的时间太迟，很多开发者在昨天等待 1 天没有重置后已经使用重置卡。现在 Codex 几乎不赠送重置卡，邀请赠送重置卡活动也结束了，所以重置卡可以说是战略储备了，被白白浪费着实让开发者心疼。查看全文：https://ourl.co/114146&lt;/p&gt;&lt;p&gt;Codex 技术经理蒂博刚刚宣布再次重置周额度算是周末福利，此次重置同时适用于 Codex 与 ChatGPT Work (共享额度)，而且蓝点网测试发现目前 5 小时滚动限额并未恢复，也就是用户还是可以敞开用，例如在复杂任务中直接清空周额度。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114146.png" rel="nofollow"&gt;&lt;img alt="Codex再次重置周额度 而且目前测试5小时限额也没有恢复 所以还能敞开用" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114146.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;此前蒂博已经提前透露 Codex 将在 2026 年 7 月 31 日恢复 5 小时滚动限额，因此社区普遍猜测 Codex 会在恢复 5 小时滚动限额时再次重置，结果很多用户等待很长时间也没等来重置，于是只能使用重置卡恢复自己的当周额度。&lt;/p&gt;
+&lt;p&gt;没想到蒂博这次重置的时间太迟，所以在 X/Twitter 上有很多开发者抱怨自己浪费了重置卡，尤其是现在已经无法通过邀请获得重置卡，Codex 也没有继续发放重置卡，所以现在重置卡被消耗掉属于非常严重后果的浪费行为。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;对用户而言没有 5 小时滚动限额使用 Codex 体验非常不错，因为滚动限额太少执行复杂任务时很容易触发限额，只能等待下个 5 小时窗口再恢复任务。所以现在有很多开发者甚至在 1 个复杂任务里就会将周额度耗尽，如果恢复 5 小时窗口那可能需要很长时间才能将任务做完。&lt;/p&gt;
+&lt;p&gt;只不过既然蒂博已经提前预告要恢复 5 小时限额，那大概率限额窗口就会在 1~2 天内启动，Codex 不太可能继续长期暂停 5 小时限额，所以有复杂任务的开发者们可以趁着现在还未恢复 5 小时限额的情况下，先把任务做完等待下次重置或使用重置卡。&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sat, 01 Aug 2026 04:13:56 +0000</pubDate></item><item><title>CF/TK/GQ所有免费域名已在7月31日到期 必须付费注册后才能继续使用</title><link>https://www.landian.news/archives/114145.html</link><description>
+&lt;p&gt;#域名资讯 重要通知！Freenom 免费域名 CF/TK/GQ 均在 7 月 31 日到期，用户必须付费注册才能重新使用。简而言之，Freenom 不再提供免费域名服务，现有免费域名无论之前续费 9 年还是 10 年，都在 7 月 31 日到期。到期后域名将被暂停解析直到回收释放，而付费注册使用起步价 8.22 欧元 / 年。查看全文：https://ourl.co/114145&lt;/p&gt;&lt;p&gt;曾经被大量用户注册使用的免费域名包括 CF、TK、GQ 等目前已经转入付费模式，原本用户免费续期 9 年或 10 年被取消，只要是免费注册的域名过期时间都被设置为 2026 年 7 月 31 日，如果用户没有付费注册域名则这些域名会被暂停解析以及后续会被释放。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114145.png" rel="nofollow"&gt;&lt;img alt="&amp;lt;b&amp;gt;CF/TK/GQ所有免费域名已在7月31日到期 必须付费注册后才能继续使用&amp;lt;/b&amp;gt;" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114145.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;负责这些域名运营的是 Freenom，此前这些免费域名被频繁用于各类钓鱼网站和诈骗网站因此遇到诸多法律诉讼，最终 Freenom 决定永久取消免费域名计划，所有域名全部转为付费使用模式，与常规域名付费注册 / 转入 / 续费相同，起步价为 8.22 欧元 / 年。&lt;/p&gt;
+&lt;p&gt;Freenom 也同时重新开放 CF、TK、GQ 域名的付费注册模式，8.22 欧元只是普通域名，部分关键词和优质域名价格更高，所以已经注册这些免费域名的用户当前要么选择付费继续使用，要么等待域名被彻底释放，如果域名已经被用于实际业务，可能这时候只能付费继续使用。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;除了 CF、TK 和 GQ 域名外，此前 Freenom 还运营着免费域名 ML 和 GA，不过因为滥用问题域名所属国家或地区已经收回这些域名的控制权，同时也同样不再提供免费注册模式。Freenom 已经将 ML 和 GA 的运营权还给马里和加蓬的域名注册局。&lt;/p&gt;
+&lt;p&gt;也就是说现在基本已经没有比较可靠的免费一级域名，对于需要长期使用的用户来说还是要考虑付费注册域名，至少这些域名付费后稳定性更高，不容易因为运营商政策问题经常出现各种各样的问题。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CF：该域名属于中非共和国，域名注册局为 SOCATEL (Freenom 为域名注册商 / 运营商)&lt;/li&gt;
+&lt;li&gt;TK：该域名属于新西兰属地托克劳 (南太平洋)，域名注册局为 Teletok&lt;/li&gt;
+&lt;li&gt;GQ：该域名属于赤道几内亚，域名注册局为 GETESA&lt;/li&gt;
+&lt;li&gt;ML：该域名属于马里，域名注册局为 AGETIC&lt;/li&gt;
+&lt;li&gt;GA：该域名属于加蓬，域名注册局为 ANINF&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sat, 01 Aug 2026 03:06:02 +0000</pubDate></item><item><title>微软向用户推送不可卸载的OneDrive Photos应用  还是基于WebView开发的</title><link>https://www.landian.news/archives/114144.html</link><description>
 &lt;p&gt;#软件资讯 诸多用户抱怨微软静默推送安装 OneDrive Photos 应用，而且还不是原生应用而是基于 WebView2 开发的。该应用本身捆绑在 OneDrive 客户端里，所以用户不能单独卸载。蓝点网怀疑这是微软提高 Microsoft 365 订阅的方式，因为该应用会扫描本机图片和推荐用户将图片备份到 OneDrive。查看全文：https://ourl.co/114144&lt;/p&gt;&lt;p&gt;近期诸多用户反馈电脑被自动安装名为 Microsoft OneDrive Photos 的应用，该应用属于捆绑应用因此不能单独卸载，除非用户选择将整个 OneDrive 应用彻底卸载。微软并未在公告里提到会安装 OneDrive Photos 应用，而且这个应用目前还挂着测试版标签，所以还在测试就直接推送给用户？&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114144-2.png" rel="nofollow"&gt;&lt;img alt="微软向用户推送不可卸载的OneDrive Photos应用  还是基于WebView开发的" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114144-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114144-3.png" rel="nofollow"&gt;&lt;img alt="微软向用户推送不可卸载的OneDrive Photos应用  还是基于WebView开发的" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114144-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -11,153 +76,4 @@
 &lt;p&gt;更糟糕的是 OneDrive Photos 又是个基于 WebView2 开发的网络应用而非 Windows 11 原生应用，启动后除了主进程外，还会通过 WebView2 进程消耗 240MB 左右的内存，微软这之前还说准备优化系统减少内存占用么？这转头就继续静默推送安装 WebView2 应用。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114144-1.png" rel="nofollow"&gt;&lt;img alt="微软向用户推送不可卸载的OneDrive Photos应用  还是基于WebView开发的" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114144-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 30 Jul 2026 09:27:38 +0000</pubDate></item><item><title>谷歌解散诺奖级项目AlphaFold 诺奖得主等核心成员已经加盟A社</title><link>https://www.landian.news/archives/114143.html</link><description>
-&lt;p&gt;#人工智能 谷歌解散诺奖级项目 AlphaFold 团队，多名核心成员已经加盟 A 社继续研究人工智能技术。原团队成员主要被分配到 Gemini 部门和 Isomorphic Labs 实验室，后者是谷歌母公司旗下的药物研究公司。核心成员出走肯定会对项目产生影响，不过 IsoLabs 基本就是基于 AlphaFold 构建的，所以项目应该还会继续运行。查看全文：https://ourl.co/114143&lt;/p&gt;&lt;p&gt;据英国金融时报发布的消息，谷歌已经解散原 AlphaFold 项目团队并将多名研究人员重新分配到 Gemini 等项目中。目前尚不清楚谷歌解散该团队的原因，不过团队多名核心成员已经加盟 A 社，可能是谷歌觉得在核心人员出走后已经没必要继续维持这个项目。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114143.png" rel="nofollow"&gt;&lt;img alt="谷歌解散诺奖级项目AlphaFold 诺奖得主等核心成员已经加盟A社" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114143.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;AlphaFold 是个基于人工智能的复杂系统，该系统可以在短短数分钟内根据蛋白质的氨基酸序列准确预测其三维结构，而在以前可能需要多名研究人员合作数年才能搞清楚蛋白质的三维结构。&lt;/p&gt;
-&lt;p&gt;2024 年谷歌 DeepMind 首席执行官德米斯哈萨比斯和约翰詹伯因 AlphaFold 项目荣获诺贝尔化学奖，约翰詹伯在谷歌启动 AlphaFold 项目时是研究科学家，后来晋升为 DeepMind 副总裁兼工程研究员。&lt;/p&gt;
-&lt;p&gt;如今 AlphaFold 仍然被用于加速药物研发、疫苗开发以及理解与阿尔茨海默症和帕金森病等神经退行性疾病相关的蛋白质结构变化，而现在谷歌解散 AlphaFold 团队，这意味着项目发展可能会受到重大影响。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;金融时报发布的消息称，谷歌解散团队后将很多研究人员重新分配到 Gemini 等项目，而包括诺奖得主约翰詹伯在内的多名核心人员已经加盟 Anthropic 公司继续进行人工智能技术方面的研究。&lt;/p&gt;
-&lt;p&gt;不过解散团队并不意味着 AlphaFold 项目就会被彻底关闭，因为谷歌的 Isomorphic Labs 实验室基本上就是基于 AlphaFold 构建的，此次谷歌重组团队也将很多研究人员分配到这个实验室。这个实验室则是谷歌母公司旗下的药物研究公司，属于 DeepMind 的衍生公司。&lt;/p&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 30 Jul 2026 08:52:34 +0000</pubDate></item><item><title>俄罗斯指控Telegram创始人协助(乌兰克)进行恐怖主义活动 已发布国际通缉令</title><link>https://www.landian.news/archives/114142.html</link><description>
-&lt;p&gt;#行业资讯 俄罗斯指控 Telegram 创始人帕维尔杜罗夫协助恐怖主义活动，目前已通过国际刑警组织向杜罗夫发出国际通缉令。俄罗斯称 Telegram 长期被用于在俄罗斯境内策划和协调破坏和恐怖活动，且该应用未能删除乌克兰使用的频道、聊天记录和机器人。杜罗夫本人并未回应此事，不过 Telegram 官方社交账号发了个竖中指图片。查看全文：https://ourl.co/114142&lt;/p&gt;&lt;p&gt;俄罗斯联邦安全局 (FSB) 日前已通过国际刑警组织向即时通讯工具 Telegram 创始人帕维尔杜罗夫发出国际通缉令，俄罗斯指控杜罗夫长期通过 Telegram 协助恐怖主义活动，即 Telegram 被乌克兰秘密机构用于招募情报人员或其他人员。&lt;/p&gt;
-&lt;p&gt;帕维尔杜罗夫出生在前苏联并拥有俄罗斯原生国籍，2014 年杜罗夫离开俄罗斯前往阿拉伯联合酋长国迪拜，Telegram 总部也设立在迪拜。之后杜罗夫先后取得圣基茨和尼维斯、阿联酋和法国国籍，也就是说当前杜罗夫实际持有四国国籍。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114142.png" rel="nofollow"&gt;&lt;img alt="俄罗斯指控Telegram创始人协助(乌兰克)进行恐怖主义活动 已发布国际通缉令" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114142.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;俄罗斯联邦安全局在公告中表示，即时通讯工具 Telegram 长期被用于在俄罗斯境内策划和协调破坏和恐怖活动，且该应用未能删除乌克兰使用的频道、聊天记录和相关机器人。为此俄罗斯政府通过国际刑警组织向帕维尔杜罗夫发出国际通缉令。&lt;/p&gt;
-&lt;p&gt;这段时间俄罗斯也在境内封禁 Telegram，该应用曾是俄罗斯最受欢迎的即时通讯工具，不过在被封禁后很多用户开始转向基于 Telegram API 开发的第三方版本，部分第三方版本可以绕过封禁继续连接服务器。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;帕维尔杜罗夫本人并未就此事发布任何回应，目前也不清楚其他国家或地区当局是否会遵守俄罗斯签发的国际通缉令，不过 Telegram 官方社交账号在 X/Twitter 上发了张多年前帕维尔杜罗夫竖中指的图片算是对此事进行回应，可见 Telegram 完全不屑于回应俄罗斯的通缉令。&lt;/p&gt;
-&lt;p&gt;在 2024 年帕维尔杜罗夫前往法国时还被法国当局逮捕，法国政府称 Telegram 未能采取措施减少犯罪活动，在被羁押多天且杜罗夫承诺进行改善后，法国当局批准杜罗夫回到阿联酋。&lt;/p&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 30 Jul 2026 08:14:53 +0000</pubDate></item><item><title>新玩具！PanstarCloud德国法兰克福三网精品优化服务器 2.79美元/月 30%循环优惠</title><link>https://www.landian.news/archives/114141.html</link><description>
-&lt;p&gt;服务器提供商 PanstarCloud 日前推出德国法兰克福数据中心活动，提供精品优化线路服务器 7 折促销，这些服务器提供起步 500M 带宽，面向高访问站点、API 服务、内容分发和长期运行业务的开发者。&lt;/p&gt;
-&lt;p&gt;价格方面目前有库存的机型起步价为 2.79 美元 / 月，这个价格放在当下已经是相当便宜，不过库存不多售完即止。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;PanstarCloud 法兰克福服务器线路正在调优中，目前实际上线的是中国移动和中国联通走 AS9929 优化线路，中国电信去程走 RETN 回程走 AS9929。后续线路优化完成后将走运营商各自的优化线路。&lt;/p&gt;
-&lt;p&gt;PanstarCloud 预计在 8 月份完成法兰克福服务器线路优化，当前购买服务器的用户会在后续获得天数补偿，当前中国电信单线程下载实测 10MB / 秒、多线程下载实测 26MB / 秒，这应该也可以满足大部分用户的使用需求。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114141.png" rel="nofollow"&gt;&lt;img alt="新玩具！PanstarCloud德国法兰克福三网优化服务器 2.79美元/月 30%循环优惠" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114141.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;北京电信 v4 219.141.140.10     检测不到回程路由节点的 IPV4 地址
-北京联通 v4 202.106.195.68     检测不到回程路由节点的 IPV4 地址
-北京移动 v4 221.179.155.161     检测不到回程路由节点的 IPV4 地址
-上海电信 v4 202.96.209.133     联通 9929 [优质线路]
-上海联通 v4 210.22.97.1     联通 9929 [优质线路]      联通 4837 [普通线路]
-上海移动 v4 211.136.112.200     联通 9929 [优质线路]      联通 4837 [普通线路]
-广州电信 v4 58.60.188.222     联通 9929 [优质线路]
-广州联通 v4 210.21.196.6     联通 9929 [优质线路]
-广州移动 v4 120.196.165.24     联通 9929 [优质线路]
-成都电信 v4 61.139.2.69     检测不到回程路由节点的 IPV4 地址
-成都联通 v4 119.6.6.6     检测不到回程路由节点的 IPV4 地址
-成都移动 v4 211.137.96.205     检测不到回程路由节点的 IPV4 地址
-北京电信 v6 2400:89c0:1053:3::69     电信 CN2GIA [精品线路]      联通 9929 [优质线路]      联通 4837 [普通线路]
-北京联通 v6 2400:89c0:1013:3::54     联通 9929 [优质线路]      联通 4837 [普通线路]
-北京移动 v6 2409:8c00:8421:1303::55     联通 4837 [普通线路]      联通 9929 [优质线路]
-上海电信 v6 240e:e1:aa00:4000::24     联通 9929 [优质线路]
-上海联通 v6 2408:80f1:21:5003::a     联通 4837 [普通线路]      联通 9929 [优质线路]
-上海移动 v6 2409:8c1e:75b0:3003::26     联通 9929 [优质线路]
-广州电信 v6 240e:97c:2f:3000::44     联通 9929 [优质线路]
-广州联通 v6 2408:8756:f50:1001::c     联通 9929 [优质线路]
-广州移动 v6 2409:8c54:871:1001::12     联通 9929 [优质线路]&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;循环优惠券(续费时也按优惠后价格)：&lt;strong&gt;DEP726&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;DEP NANO：1 核心、0.5GB 内存、5GB 存储、500Mbps 带宽、每月流量 512GB，&lt;a href="https://ourl.co/de387" rel="noopener" target="_blank"&gt;循环优惠价每月 2.79 美元&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;DEP MINI：1 核心、1GB 内存、5GB 存储、1Gbps 带宽、每月流量 1024GB，&lt;a href="https://ourl.co/de236" rel="noopener" target="_blank"&gt;循环优惠价每月 4.89 美元&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;DEP STARTR：1 核心、2GB 内存、20GB 存储、1Gbps 带宽、每月流量 2048GB，&lt;a href="https://ourl.co/de241" rel="noopener" target="_blank"&gt;循环优惠价每月 8.39 美元&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;DEP GROWTH：2 核心、2GB 内存、20GB 存储、1Gbps 带宽、每月流量 4096GB，&lt;a href="https://ourl.co/de238" rel="noopener" target="_blank"&gt;循环优惠价每月 13.99 美元&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;DEP SCALE：2 核心、4GB 内存、40GB 存储、1Gbps 带宽、每月流量 8192GB，&lt;a href="https://ourl.co/de239" rel="noopener" target="_blank"&gt;循环优惠价每月 27.29 美元&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;DEP MAX：4 核心、4GB 内存、40GB 存储、1Gbps 带宽、每月流量 16384GB，&lt;a href="https://ourl.co/de338" rel="noopener" target="_blank"&gt;循环优惠价每月 50.39 美元&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;#IPv4Amazon Prime Video YES (Region: DE)
-Apple YES (Region: DEU)
-BingSearch YES (Region: DE)
-ChatGPT YES (Region: DE)
-Claude Banned (WAF)
-Coze YES (Region: DE)
-DeepSeek YES
-Disney+ YES (Region: DE)
-Gemini YES (Region: DE)
-Google Play Store YES (Region: DE)
-GoogleSearch YES
-Grok YES (Region: DE)
-Instagram Licensed Audio YES
-Kimi YES (Region: OVERSEA)
-KOCOWA YES
-MathsSpot YES (Region: DE)
-MetaAI YES
-Microsoft Copilot YES (Region: DE)
-Mistral AI Banned (WAF)
-Netflix YES (Region: DE)
-Netflix CDN YES (Region: HU)
-OneTrust YES (Region: DE HESSE)
-ParamountPlus YES
-Perplexity AI Banned (WAF)
-Poe YES (Region: DE)
-Reddit YES
-SonyLiv Error
-Sora YES (Region: DE)
-Spotify Registration YES (Region: DE)
-Steam Store YES (Community Available) (Region: DE)
-TikTok YES (Region: DE)
-TVBAnywhere+ YES (Region: DE)
-Viu.com YES
-WeTV YES (Region: DE)
-Wikipedia Editability YES
-YouTube CDN NO (Google Global CacheCDN - ISP Cooperation Main Service Unavailable) (Region: RETNUKR - HRK)
-YouTube Region NO
-
-#IPv6
-
-Amazon Prime Video N/A (No IPv6 Support)
-Apple YES (Region: DEU)
-BingSearch YES (Region: DE)
-ChatGPT Unknown
-Claude Banned (WAF)
-Coze N/A (No IPv6 Support)
-DeepSeek N/A (No IPv6 Support)
-Disney+ YES (Region: DE)
-Gemini YES (Region: DE)
-Google Play Store YES (Region: DE)
-GoogleSearch YES
-Grok YES (Region: DE)
-Instagram Licensed Audio YES
-IQiYi N/A (No IPv6 Support)
-Kimi YES (Region: OVERSEA)
-KOCOWA N/A (No IPv6 Support)
-MathsSpot N/A (No IPv6 Support)
-MetaAI YES
-Microsoft Copilot YES (Region: DE)
-Mistral AI Banned (WAF)
-Netflix YES (Region: DE)
-Netflix CDN YES (Region: HU)
-OneTrust YES (Region: DE HAMBURG)
-ParamountPlus YES
-Perplexity AI Banned (WAF)
-Poe N/A (No IPv6 Support)
-Reddit N/A (No IPv6 Support)
-SonyLiv Error
-Sora YES (Region: DE)
-Spotify Registration YES (Region: DE)
-Steam Store N/A (No IPv6 Support)
-TikTok N/A (No IPv6 Support)
-TVBAnywhere+ N/A (No IPv6 Support)
-Viu.com N/A (No IPv6 Support)
-WeTV YES (Region: DE)
-Wikipedia Editability YES
-YouTube CDN NO (Google Global CacheCDN - ISP Cooperation Main Service Unavailable) (Region: RETNUKR - HRK)
-YouTube Region NO&lt;/pre&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 30 Jul 2026 03:59:42 +0000</pubDate></item><item><title>OpenAI开始测试「使用ChatGPT登录」开发者需申请接口和应用 让用户可以快捷登录</title><link>https://www.landian.news/archives/114140.html</link><description>
-&lt;p&gt;#人工智能 OpenAI 开始测试「使用 ChatGPT 登录」，受邀开发者申请接口和应用后就可以让用户不需要单独注册、直接使用 ChatGPT 登录网站。该功能会分享用户的基本资料，例如昵称、邮箱地址和头像，与使用谷歌账号登录没有区别。目前 OpenAI 尚未广泛推出该功能，不过感兴趣的开发者可以提前准备起来。查看全文：https://ourl.co/114140&lt;/p&gt;&lt;p&gt;OpenAI 日前面向少数插件和合作伙伴网站测试「使用 ChatGPT 登录」功能，该功能与使用谷歌账号登录相同，都属于关联账号的快捷登录功能，这样用户就不需要在网站单独注册账号，后续可以直接使用 ChatGPT 账号快速完成登录 (登录时也包括自动注册)。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114140.png" rel="nofollow"&gt;&lt;img alt="OpenAI开始测试「使用ChatGPT登录」开发者需申请接口和应用 让用户可以快捷登录" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114140.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;ChatGPT 登录方案会向网站或应用提供用户的姓名 (昵称)、电子邮件地址和头像 (如果有)，这些信息将被网站或应用用于内部系统的用户注册功能，ChatGPT 登录仅适用于账号注册和登录，当应用或插件需要申请访问用户的 ChatGPT 账户访问权限时，仍然需要单独弹出请求让用户批准。&lt;/p&gt;
-&lt;p&gt;所以用户使用 ChatGPT 登录时不必担心应用会获取 ChatGPT 功能权限，本身 ChatGPT 登录与 ChatGPT 功能之间就是独立的，所以除了姓名、邮箱、头像外，用户的其他信息和权限都不会授权应用获取。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;根据 OpenAI 公布的消息，首批集成 ChatGPT 登录的网站或插件包括 Airtable、GitLab、HubSpot、Notion、Supabase 和 Vercel。随着测试的深入，OpenAI 也会陆续邀请更多插件、应用或网站使用 ChatGPT 登录功能。&lt;/p&gt;
-&lt;p&gt;现阶段开发者还不能直接申请 ChatGPT 登录，但可以提前准备起来，这种测试通常比较快，可能很快 OpenAI 就会面向所有开发者提供使用 ChatGPT 登录功能。&lt;/p&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 30 Jul 2026 02:59:30 +0000</pubDate></item></channel></rss>
+</description><pubDate>Thu, 30 Jul 2026 09:27:38 +0000</pubDate></item></channel></rss>
