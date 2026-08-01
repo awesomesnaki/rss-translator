@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AppAddict (中文)</title><link>https://appaddict.app</link><description>我是以高级用户和效率爱好者的身份，强调真实、实用的评测——而非营销人员。我特别喜欢独立Mac生态、注重隐私的软件、开源工具和工作流自动化。我也会涉及自托管、数字化生活的去谷歌化/去苹果化，以及如何通过组合小巧专注的应用来构建高效Mac工作流。文章内容涵盖从单一应用的深度解析到多应用的综合评测、工作流指南和开发者专题。如果你是一名开发者，有希望我体验的应用，请告诉我。</description><language>zh-CN</language><lastBuildDate>Fri, 31 Jul 2026 13:11:43 +0000</lastBuildDate><item><title>使用Orbit管理我不想要的Google账户</title><link>https://appaddict.app/post/using-orbit-to-manage-the-google-accounts-i-didn-t-want</link><description>&lt;figure&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AppAddict (中文)</title><link>https://appaddict.app</link><description>我是以高级用户和效率爱好者的身份，强调真实、实用的评测——而非营销人员。我特别喜欢独立Mac生态、注重隐私的软件、开源工具和工作流自动化。我也会涉及自托管、数字化生活的去谷歌化/去苹果化，以及如何通过组合小巧专注的应用来构建高效Mac工作流。文章内容涵盖从单一应用的深度解析到多应用的综合评测、工作流指南和开发者专题。如果你是一名开发者，有希望我体验的应用，请告诉我。</description><language>zh-CN</language><lastBuildDate>Sat, 01 Aug 2026 17:35:58 +0000</lastBuildDate><item><title>macOS版RAD Weather向你展示各天气预报的分歧之处</title><link>https://appaddict.app/post/rad-weather-for-macos-shows-you-where-the-forecasts-disagree</link><description>&lt;figure&gt;
+&lt;img referrerpolicy="no-referrer" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNzN3QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--cfec00d6195276204152f593930f33fb9a9c6cd3/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJZ0Eya0NJQU02Q25OaGRtVnlld2M2REhGMVlXeHBkSGxwV1RvS2MzUnlhWEJVIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--8cebb1c2983a7e4106444e274de6ebedc86813b1/CleanShot%202026-08-01%20at%2013.27.19.jpg"/&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;太长不看：&lt;/strong&gt;RAD Weather从四家服务获取预报，并向你展示它们之间的分歧，而不是用平均值把分歧抹平。免费使用，RAD Ultra定价为每月1.99美元、每年19.99美元或一次性99.99美元，另有MultiPass层级每月2.99美元或每年29.99美元。Mac版本是真正的Mac应用，订阅费用由每条预报的数据成本支撑，且没有雷达功能。RAD TV随7.6.7版本发布，并已宣布推出Apple TV版本。&lt;/p&gt;
+&lt;h1&gt;RAD Weather的独特之处&lt;/h1&gt;
+&lt;p&gt;多年痴迷于骑行，自然伴随着多年痴迷于查看天气预报。虽然我们谁都无法改变天气（除非搬去另一座城市），但每当我有长途骑行计划时，总觉得有必要每天多次查看温度、风速和降雨预报。我收集了各种天气应用，当Dark Sky消失时，我感到非常悲痛。&lt;/p&gt;
+&lt;p&gt;大多数天气应用都是某个人（或某个算法）的最佳猜测，却被当作事实呈现。有人从几个意见不一的气象服务中挑出一个，然后把其余的全部丢弃。&lt;a href="https://apps.apple.com/us/app/rad-weather-honest-forecast/id6758575355"&gt;RAD Weather&lt;/a&gt;什么都不丢弃——而这正是它的产品本身。&lt;/p&gt;
+&lt;h2&gt;R.A.D. Cortex在幕后做什么&lt;/h2&gt;
+&lt;p&gt;这个引擎现在有了名字，叫R.A.D. Cortex，它的工作是从美国国家气象局、Open-Meteo、加拿大环境与气候变化部和Apple WeatherKit拉取预报，然后进行对比。在模型预测一致的地方，你会得到高置信度评级；在它们分道扬镳的地方，应用会向你展示分歧范围，而不是用平均值把它藏起来。开发者在较早的版本中添加了考虑提前期的加权机制，因此未来几小时内区域性高分辨率模型权重更高，而ECMWF在远期预报中拥有优先权。这是合理的做法，而且是大多数天气应用会默默做出的那种决定——如果它们真会做的话。&lt;/p&gt;
+&lt;h2&gt;Mac版本中值得关注的五件事&lt;/h2&gt;&lt;ul&gt;
+&lt;li value="1"&gt;它是一款真正的 Mac 应用。很多天气应用只是把 iPad 版本移植到 Apple silicon 上就完事了。CARROT Weather 有独立的 Mac 应用，但自 2023 年以来就没再更新过。而 RAD Weather 还提供 Mac 小组件、菜单栏图标，以及与 iPhone 和 Watch 版本的 iCloud 同步。需要 macOS 15.0 或更高版本。&lt;/li&gt;
+&lt;li value="2"&gt;多源视图是最亮眼的功能。详情卡片分项展示温度、风力、降水、紫外线、气压、湿度、能见度、露点、花粉、空气质量和对流风险，置信度深度解析会告诉你哪些模型参与了该数值的计算。这是整个应用里我最喜欢的部分，我总忍不住去摆弄它。&lt;/li&gt;
+&lt;li value="3"&gt;RAD Atlas 是一个显示实时天气状况的交互式 3D 地球仪，听起来像个玩具，实际上也差不多，但如果你想快速查看某个关注地点的情况，又不想输入城市名，这是个很便捷的方式。&lt;/li&gt;
+&lt;li value="4"&gt;Brutality Levels（残暴级别）可以在五种设置中调整文字简报的语气，从专业到放飞自我。和 CARROT 一样，RAD Weather 也很有幽默感。既然幽默是主观的，我就不下结论了。如果你不想要天气应用跟你闲聊，调到专业模式，它就会闭嘴。&lt;/li&gt;
+&lt;li value="5"&gt;隐私声明很干净。Rozzi Labs 声明除了位置信息外不收集任何数据，数据与你的身份无关，仅用于获取天气预报，没有追踪或分析。对于一款联网天气应用来说，这已经是能做到的最好程度了。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;订阅费用花在了哪里&lt;/h2&gt;
+&lt;p&gt;RAD Weather 是免费的。RAD Ultra 每月 1.99 美元、每年 19.99 美元或一次性支付 99.99 美元，Ultra 可以解锁 Atlas 地球仪、额外的保存地点、Savage 和 Unhinged 语气设置、完整详情卡片和高级通知。还有 RAD MultiPass，每月 2.99 美元或每年 29.99 美元，可以适用于其他 Rozzi Labs 应用以及 radweather.cloud 网络服务。&lt;/p&gt;
+&lt;p&gt;没人喜欢没有道理的订阅。我最近一直尽量避免写订阅制应用。天气预报应用是例外。这个应用每拉取一次预报，开发者都要付钱，而且是从四个服务商而不是一个拉取数据；小组件和手表复杂功能的刷新会让这笔费用在每个用户身上不断累加，日复一日，永无休止。一次性购买无法支撑应用整个生命周期里每月如期而至的账单。CARROT Weather 的开发者多年来一直在讲同样的道理，他说得对。&lt;/p&gt;&lt;p&gt;整个高端类别都是这样运作的。CARROT Weather 可免费下载，Premium 价格为每月4.99美元或每年19.99美元，Premium Ultra 价格为每月9.99美元或每年39.99美元。&lt;a href="https://apps.apple.com/us/app/mercury-weather/id1621800675"&gt;Mercury Weather&lt;/a&gt; 免费，订阅价格为每月2.99美元或每年14.99美元。&lt;a href="https://helloweather.com/"&gt;Hello Weather&lt;/a&gt; 在订阅之前限制你只能使用一个预报源，且没有小组件。相比之下，RAD Weather 是这里仅有的两款能让你一次性买断的应用之一。RAD Ultra 终身版售价99.99美元，相当于五年的年度订阅费用；Mercury 的终身版为59.99美元，相当于四年年度订阅。两者在第一天都不算划算。CARROT 没有任何价位的终身版，这是我在意的地方。&lt;/p&gt;
+&lt;h2&gt;当前不足&lt;/h2&gt;
+&lt;p&gt;RAD Weather 目前不提供雷达地图，所以如果你在恶劣天气时依靠它来做决策，就需要另找其他应用。还有其他有着悠久且可靠记录的气象应用。它的 App Store 评分很高，但背后的评价数量仍然太少，我不会完全依赖它。&lt;/p&gt;
+&lt;h2&gt;其他天气应用&lt;/h2&gt;
+&lt;p&gt;简要介绍其他选择。&lt;strong&gt;CARROT Weather&lt;/strong&gt; 是我订阅多年的应用，是“个性天气”领域的现有巨头，在雷达和地图图层方面表现更好；请注意，&lt;a href="https://apps.apple.com/us/app/carrot-weather/id993487541?mt=12"&gt;独立的 Mac 应用&lt;/a&gt;售价14.99美元，自2023年5月以来就没有更新过，所以在 Mac 上你应该改用 iPhone 和 iPad 版本。&lt;a href="https://apps.apple.com/us/app/mercury-weather/id1621800675"&gt;&lt;strong&gt;Mercury Weather&lt;/strong&gt;&lt;/a&gt; 是我过去用过的另一个应用，如果你想要平静清晰而不是喧闹张扬，它就是选择。&lt;strong&gt;Apple Weather&lt;/strong&gt; 免费、内置，满足基本需求没问题。&lt;a href="https://github.com/inderdhir/DatWeatherDoe"&gt;&lt;strong&gt;DatWeatherDoe&lt;/strong&gt;&lt;/a&gt; 免费，基于 Apache 2.0 开源，通过 &lt;code&gt;brew install --cask datweatherdoe&lt;/code&gt; 安装，将天气情况显示在菜单栏中；你需要自己提供 WeatherAPI 密钥。&lt;/p&gt;
+&lt;p&gt;除非另有说明，上述提到的替代应用均基于研究而非个人测试。&lt;/p&gt;
+&lt;h2&gt;适合你吗？&lt;/h2&gt;
+&lt;p&gt;如果你想要一款天气应用提供准确和详细的信息，并且愿意为此付费，那么答案是肯定的。跨平台覆盖也很有帮助，尤其是最近为 Mac 推出的全屏 RAD TV 模式，以及即将推出的 Apple TV 应用。&lt;/p&gt;
+&lt;p&gt;如果你需要雷达功能，或者需求很简单，那么答案是否定的。对于设计爱好者来说，仿终端风格的呈现可能会让人反感。我不是设计爱好者，所以我觉得没问题。&lt;/p&gt;
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=RAD%20Weather%20for%20macOS%20Shows%20You%20Where%20the%20Forecasts%20Disagree"&gt;✉️ 通过电子邮件回复&lt;/a&gt;&lt;/p&gt;</description><pubDate>Sat, 01 Aug 2026 17:35:58 +0000</pubDate></item><item><title>使用Orbit管理我不想要的Google账户</title><link>https://appaddict.app/post/using-orbit-to-manage-the-google-accounts-i-didn-t-want</link><description>&lt;figure&gt;
 &lt;img alt="The interface for Orbit, a native Mac Gmail app." referrerpolicy="no-referrer" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNHZ2QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--35fbc9cd9c3b399790d01d667298c86d4ef3cf23/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJZ0Eya0NJQU02Q25OaGRtVnlld2M2REhGMVlXeHBkSGxwV1RvS2MzUnlhWEJVIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--8cebb1c2983a7e4106444e274de6ebedc86813b1/orbit.jpg"/&gt;
 &lt;/figure&gt;
 &lt;p&gt;&lt;strong&gt;TL;DR：&lt;/strong&gt;Orbit 在单个原生 Mac 窗口中为你的每个 Google 账户运行独立的 WebKit 会话，一次性支付 89 美元，而其他替代方案每年要价 50 到 200 美元。它的存在是因为你可以让自己摆脱 Google，但你无法让你的父亲也摆脱 Google。问题在于，它只有在 Google 继续允许 Mac 应用登录的情况下才能工作，而仅使用通行密钥和启用了高级保护的账户已经无法登录。&lt;/p&gt;
@@ -164,23 +191,4 @@
 &lt;li value="4"&gt;Unfold 的 Markdown/源代码预览感觉不如 Looq 精致（不总是能正确适配浅色/深色模式，没有代码换行选项，侧边栏和文本选择高亮的颜色不够清晰）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Quick%20Look%20Showdown:%20Peek,%20Looq,%20and%20Unfold"&gt;✉️ 通过电子邮件回复&lt;/a&gt;&lt;/p&gt;</description><pubDate>Tue, 28 Jul 2026 08:58:15 +0000</pubDate></item><item><title>Zipic很好。但我还是不会从Clop切换过来。</title><link>https://appaddict.app/post/zipic-is-good-i-m-still-not-switching-from-clop</link><description>&lt;figure&gt;
-&lt;img referrerpolicy="no-referrer" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMnZsQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--54993402210eb1dde3b2f8ef02b922986111ff54/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hSeVpYTnBlbVZmZEc5ZmJHbHRhWFJiQjJrQ0lBTnBBaUFET2dwellYWmxjbnNIT2d4eGRXRnNhWFI1YVZrNkNuTjBjbWx3VkE9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--6b540d5bfcfeca9a1dc6d345f6876757413a9f8d/29039.jpeg"/&gt;
-&lt;/figure&gt;
-&lt;p&gt;是否能在 Mac 上使用原生工具缩小图片文件体积？可以，但附带不少前提条件。预览应用可以在导出对话框中调整质量滑块来减小文件大小，照片应用在导出时也能做到类似效果，但两者都不会记住你上次的操作，也不会监控文件夹。在存在替代方案的情况下，这种操作过于繁琐。没人愿意活得像个原始人。&lt;/p&gt;
-&lt;p&gt;图像压缩早已是成熟的解决方案。好工具与平庸工具的区别不在于压缩算法，而在于它是否能无缝融入你的工作流程，还是让你分心思考。 &lt;a href="https://zipic.app/"&gt;Zipic&lt;/a&gt; 是一款围绕这一理念构建的原生 Mac 应用：拖拽、放手、完成，自动化层叠在引擎之上，mozjpeg、pngquant 等开源工具——这是同类应用普遍采用的开源技术栈。&lt;/p&gt;
-&lt;p&gt;我将 Zipic 与我当前的图像压缩工具链进行了对比，虽然它确实有用，但除了一种特定场景外，它并未超越我目前使用的方案。&lt;/p&gt;
-&lt;h2&gt;实际功能&lt;/h2&gt;
-&lt;p&gt;Zipic 来自 5KM Tech，可压缩、转换和调整 12 种图像格式，所有操作均在 Mac 本地完成，无需上传步骤。免费版提供 7 天完整专业版试用，之后每天可压缩 25 次基础格式（JPEG、PNG、WebP、HEIC、GIF）。专业版为一次性购买（单设备版 19.99 美元，双设备版 29.99 美元），包含终身升级。无订阅选项。购买授权后解锁无限压缩和额外格式（AVIF、JXL、TIFF、ICNS、PDF、SVG、APNG）。杀手级功能是文件夹监控和剪贴板自动压缩。&lt;/p&gt;
-&lt;h2&gt;为何需要它&lt;/h2&gt;&lt;ul&gt;
-&lt;li value="1"&gt;它将图片压缩从琐事变成工作流程中自动化的部分。指向一个文件夹（你的截图目录、设计工具的导出文件夹），它会压缩任何新放入的文件，无需交互。&lt;/li&gt;
-&lt;li value="2"&gt;压缩你复制到剪贴板的任何图片。配合 Shottr 或 CleanShot X 使用，可以压缩你截取的每一张截图。很快它就会感觉像操作系统的一部分。&lt;/li&gt;
-&lt;li value="3"&gt;大多数压缩应用只支持 JPEG/PNG/WebP。Zipic 的 Pro 版在同一批处理窗口中增加了 AVIF、JPEG XL、TIFF、ICNS（如果你构建应用图标很有用）、PDF、SVG 以及动画格式（GIF、APNG、动画 WebP）。&lt;/li&gt;
-&lt;li value="4"&gt;你可以从 Finder 上下文菜单、Raycast 或 Shortcuts 中访问 Zipic。这款工具并没有强制你使用单一入口，而是适配了多种流行的工作流程。&lt;/li&gt;
-&lt;li value="5"&gt;如果你的刘海屏没有被 Droppy 或其他应用占用，你可以将其用作投放位置。将图片拖到刘海屏上，Zipic 就会压缩它们，无需打开应用窗口。这是一个小功能，有点噱头，但在你忙于其他事情时，这是一种不打断流程就能压缩单个文件的简便方法。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;我使用的工具&lt;/h2&gt;
-&lt;p&gt;我在这个领域长期使用两个特定工具。它们都有悠久的历史和大量来自满意用户（包括我）的推荐。目前，我还不打算放弃它们。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;ImageOptim&lt;/strong&gt; 是免费开源的（捐赠软件），长期以来是该类别的默认推荐。它专注于无损压缩，没有格式转换、没有文件夹监控、没有剪贴板自动化。它是一个拖放文件夹到 Dock 的工具，而不是工作流程层。我偶尔用它来无损压缩，因为它不花钱。 &lt;a href="https://appaddict.app/post/imageoptim-free-and-open-source-utility-to-reduce-file-sizes"&gt;ImageOptim - 免费开源的减小文件大小工具 | AppAddict&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://appaddict.app/post/clop-copy-big-paste-small-send-fast"&gt;&lt;strong&gt;Clop: 复制大图，粘贴小图，快速发送&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;。&lt;/strong&gt;Zipic 相对 ImageOptim 最大的区别在于自动化。但与 Clop 相比，这一优势基本消失了。Clop 提供相同的文件夹监控和剪贴板自动化，一次性购买仅需 15 欧元，开源，并且还能压缩视频和 PDF，这是 Zipic 做不到的。Zipic 的剩余优势在于它对更多图片格式的支持，如 AVIF、JPEG XL、ICNS 和 SVG。这些格式不在我的工作流程中，所以我坚持使用 Clop 和 The Low Tech Guys。&lt;/p&gt;
-&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Zipic%20Is%20Good.%20I"&gt;✉️ 通过邮件回复&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 27 Jul 2026 09:44:36 +0000</pubDate></item></channel></rss>
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Quick%20Look%20Showdown:%20Peek,%20Looq,%20and%20Unfold"&gt;✉️ 通过电子邮件回复&lt;/a&gt;&lt;/p&gt;</description><pubDate>Tue, 28 Jul 2026 08:58:15 +0000</pubDate></item></channel></rss>
