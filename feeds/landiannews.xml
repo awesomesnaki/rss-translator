@@ -1,5 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sat, 01 Aug 2026 05:53:54 +0000</lastBuildDate><item><title>微软发文介绍自3月以来对Windows 11的质量改进 包括改进资源管理器和减少干扰等</title><link>https://www.landian.news/archives/114148.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sat, 01 Aug 2026 07:52:55 +0000</lastBuildDate><item><title>OpenAI发现更多智能体逃逸案例 但目前尚未公开发布完整的内部调查细节</title><link>https://www.landian.news/archives/114151.html</link><description>
+&lt;p&gt;#人工智能 OpenAI 在内部调查中发现更多智能体逃逸迹象，但目前尚未公开发布完整的内部调查细节。路透社从知情人士获得的消息称，OpenAI 在调查 HF 抱抱脸攻击事件时，又发现其他自主 AI 智能体突破隔离环境的迹象。不过知情人士称新发现的情况被描述为范围有限，这些智能体目前被认为尚未离开 OpenAI 自身网络，但 OpenAI 已经将这些线索纳入进一步调查。查看全文：https://ourl.co/114151&lt;/p&gt;&lt;p&gt;早前 OpenAI 发现自己的内部测试模型驱动的智能体从隔离环境中逃逸，随后这个智能体针对开源模型和数据集托管平台抱抱脸🤗(HuggingFace) 发起攻击并在基础设施中横向移动。抱抱脸检测到攻击后及时阻断并使用智谱开源模型完成审计，事后 OpenAI 才承认发起攻击的智能体来自该公司内部。&lt;/p&gt;
+&lt;p&gt;之后 Anthropic 进行内部调查后也发现智能体逃逸证据，后者 AI 模型驱动的智能体在网络安全评测中出现 3 起真实系统访问事件，而且要不是 Anthropic 调查，估计被入侵的公司也没有发现自己的生产环境已经遭到未经授权的访问。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="华尔街日报称OpenAI考虑大幅度降低Token价格与A社打价格战 抢夺企业客户" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2024/09/105878.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;路透社在 7 月 31 日发布报告称，两名知情人士透露，OpenAI 在调查此前抱抱脸安全事件时，又发现其他自主 AI 智能体突破隔离环境的迹象。需要注意的是，新发现的情况目前被描述为范围有限，知情人士称这些智能体目前被认为并未离开 OpenAI 自身网络，不过 OpenAI 已经将这些线索纳入进一步调查。&lt;/p&gt;
+&lt;p&gt;不过当前知情人士并未透露新发现的逃逸迹象详情，也没有说明发生时间，而 OpenAI 可能会在完成调查后才会发布详细的技术报告，所以现阶段我们无法知晓新发现的逃逸情况是否严重，如果没有离开 OpenAI 自身网络，那可能不会对其他公司造成影响，至少不应该出现直接入侵其他公司生产系统的情况。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在 OpenAI 和 Anthropic 相继披露 AI 智能体越界事件后，美国和欧洲监管机构已经开始关注这类风险。美国总统特朗普在被问及此事时表示正在考虑相关控制措施；欧盟委员会也称已就这些黑客事件与 OpenAI 和 Anthropic 进行沟通。&lt;/p&gt;
+&lt;p&gt;美国参议院情报委员会民主党高层 Mark Warner 则表示，Anthropic 事件说明要求先进模型进行强制能力测试是有必要的。&lt;/p&gt;
+&lt;p&gt;这类事件目前还不算是传统意义上的大规模恶意攻击，但这也已经把一个长期停留在安全论文和红队测试里的问题推到现实环境：当 AI 智能体拥有足够强的网络攻击能力时，实验室是否真的能稳定限制智能体的行动边界。&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sat, 01 Aug 2026 07:52:55 +0000</pubDate></item><item><title>Chrome近期3个版本修复1,442个漏洞 比之前23个版本修复的漏洞总和还多😬😬</title><link>https://www.landian.news/archives/114150.html</link><description>
+&lt;p&gt;#安全资讯 谷歌透露 Chrome 近期 3 个版本合计修复 1,442 个漏洞，比之前 23 个版本修复的漏洞总和还多。具体来说在 6 月发布的 149/150 版中谷歌修复 1,072 个漏洞，而 126~148 合计修复的漏洞都没超过 1,000 个。如此快的漏洞发掘速度自然是靠 AI 实现的，无论是谷歌还是安全公司现在都在积极使用 AI 发掘漏洞。查看全文：https://ourl.co/114150&lt;/p&gt;&lt;p&gt;谷歌日前在博客中透露，Chrome 149.x 和 150.x 合计修复高达 1,072 个安全漏洞，以上版本均为谷歌在 6 月发布的，而在本周发布的 Chrome 151.x 版中谷歌修复 370 个漏洞，也就是说近期 3 个主要版本中谷歌合计修复高达 1,442 个漏洞。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114150-1.png" rel="nofollow"&gt;&lt;img alt="Chrome近期3个版本修复1,442个漏洞 比之前23个版本修复的漏洞总和还多😬😬" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114150-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;根据谷歌自己发布的数据，Chrome 126.x 到 148.x 合计修复的漏洞都没有超过 1,000 个，而 Chrome 149.x 和 150.x 修复 1072 个漏洞，如果加上 Chrome v151.x 则合计修复 1442 个漏洞。&lt;/p&gt;
+&lt;p&gt;以最新的 Chrome v151.x 为例，该版本合计修复 370 个漏洞，其中 349 个漏洞是谷歌自己发现和报告的，剩余漏洞由外部安全公司 / 安全研究员报告，而这 370 个漏洞里有 7 个被评为严重级别，黑客可以使用这些漏洞发起实际攻击。&lt;/p&gt;
+&lt;p&gt;&lt;img decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114150-2.png"/&gt;&lt;/p&gt;
+&lt;p&gt;如此多的漏洞显然不是靠人工发掘的，大部分漏洞都是谷歌或外部安全研究员通过人工智能发掘漏洞，也就是借助人工智能，整个行业的漏洞发掘速度都在快速增长。甚至漏洞太多 Chrome 团队都来不及或者没空写详细日志，最终也靠 AI 发布漏洞说明和 CVE 描述。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;谷歌此前已经透露 Chrome 浏览器的安全更新将缩短到 2 周发布，也就是每 2 周谷歌就会发布 Chrome 新版本 (漏洞修复版本) 来解决漏洞问题，缩短安全更新时间也是为了尽快修复漏洞，谷歌称这是面对快速发展的 AI 驱动型攻击的应对方式。&lt;/p&gt;
+&lt;p&gt;在博客中谷歌还强调妥善的公开漏洞披露仍然至关重要，所有进入 Chrome 稳定版的安全漏洞，无论是内部发现还是外部报告，谷歌都会按照标准最佳实践进行记录并公开披露，让客户、安全公司、研究人员都可以跟踪和查阅漏洞，这可以保持 Chrome 安全透明度。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://blog.google/security/chrome-stronger-with-every-update/" rel="noopener" target="_blank"&gt;谷歌安全博客&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sat, 01 Aug 2026 06:55:29 +0000</pubDate></item><item><title>微软首次明确将8GB内存作为优化目标 要优化Windows 11在8GB内存的使用体验</title><link>https://www.landian.news/archives/114149.html</link><description>
+&lt;p&gt;#系统资讯 微软在博客中首次提到将针对 8GB 内存设备进行优化，这是内存价格太高带来的直接影响。现在越来越多的 OEM 重新推出 8GB 内存设备，配备更多的内存会导致零售价太高因而存在销量问题。所以最终还是得靠微软在软件层面进行优化，至少要让 Windows 11+8GB 内存不至于太卡、要达到能正常使用的水平。查看全文：https://ourl.co/114149&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/114148.html" rel="noopener" target="_blank"&gt;前文我们提到微软发文介绍这段时间以来团队对 Windows 11 系统的改进&lt;/a&gt;，这些改进被微软称为质量优化，也就是解决客户长期以来抱怨的 Windows 11 可靠性太差、响应速度慢和体验比较糟糕的问题，在博客结尾微软还特别提到将对 8GB 内存设备进行优化。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114149.png" rel="nofollow"&gt;&lt;img alt="微软首次明确将8GB内存作为优化目标 要优化Windows 11在8GB内存的使用体验" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114149.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;此前微软已经透露将会针对 Windows 11 进行优化以减少内存开销，要优化内存使用的主要原因是现在内存价格太高，以至于现在很多新推出的笔记本电脑又开始预装 8GB 内存，但对 Windows 11 而言 8GB 内存其实是完全不够用的，稍微多开点应用程序就会明显卡顿。&lt;/p&gt;
+&lt;p&gt;但内存价格太高迫使 OEM 只能预装 8GB 内存以平衡成本和零售价格，就连微软自己都推出搭载 8GB 内存的 Microsoft Surface 设备，不出所料：这款微软品牌的 8GB 设备体验也同样非常糟糕，原因就是 8GB 内存太少，很容易被谷歌浏览器等内存大户吃掉。&lt;/p&gt;
+&lt;p&gt;考虑到行业问题微软作为操作系统开发商，也只能想办法优化系统的内存开销，当然不只是微软，谷歌早前也透露将优化安卓系统的内存效率，虽然谷歌没有明说，但大家都知道这是因为安卓 OEM 也开始预装更低的内存模块。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;微软在博客结尾的原话是：针对 8GB 及以上内存进行优化，减少 Windows 11 的内存占用，从而在用户日常使用的 PC 上提供快速响应的 Windows 体验。&lt;/p&gt;
+&lt;p&gt;如果我们没记错的话，这应该是微软官方近几年来首次明确提到 8GB 内存也作为优化目标，以前微软虽然也经常提到优化内存开销，但从未特别提到过 8GB 作为最低下限，所以可以看到微软现在也因为内存问题非常着急，毕竟这个问题也会直接影响 Windows 11 设备销量。&lt;/p&gt;
+&lt;p&gt;对 OEM 而言现在推出 8GB 内存设备也是必须的，因为配备更高的内存会导致设备零售价格太高因而存在销量问题，所以最终还是得靠微软从软件层面进行优化，至少要让 Windows 11+8GB 内存不至于太卡、要达到能正常使用的水平。&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sat, 01 Aug 2026 06:35:20 +0000</pubDate></item><item><title>微软发文介绍自3月以来对Windows 11的质量改进 包括改进资源管理器和减少干扰等</title><link>https://www.landian.news/archives/114148.html</link><description>
 &lt;p&gt;#系统资讯 微软发文介绍自 3 月以来 Windows 11 的质量改进，包括提高内存效率减少内存开销、改进资源管理器可靠性、改进驱动程序质量等等。3 月份微软发文称要重点改进 Windows 11 质量解决客户长期抱怨的可靠性问题，现在微软再次发文提到这段时间的工作成果。这些改进已经在预览版中测试，将在秋季陆续推送给所有用户。查看全文：https://ourl.co/114148&lt;/p&gt;&lt;p&gt;3 月份微软发文声称要重点改进 Windows 11 质量，解决客户长期以来抱怨的可靠性和性能问题，这段时间关注 Windows 11 预览版的用户可以注意到微软确实正在进行多种改进，包括改进资源管理器功能和可靠性、减少垃圾 AI 功能、降低系统更新带来的干扰等等。&lt;/p&gt;
 &lt;p&gt;所以现在微软再次发文介绍已经准备好的改进，这些改进已经在 Windows 11 预览版中上线，微软最终将在秋季通过累积更新或 Windows 11 26H2 版更新将这些改进推送给所有用户。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Windows 11任务栏已经可以放在顶部/左侧/右侧 并且可以默认设置窗口不合并" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/112973-1.png"/&gt;&lt;/p&gt;
@@ -36,44 +74,4 @@
 &lt;p&gt;COLDCARD 在发布的安全公告中提到多款硬件钱包受影响，目前该公司也已经发布对应的固件用于修复漏洞，而在升级固件前用户不应该再继续使用钱包生成种子，否则对应钱包仍然有被窃取风险。&lt;/p&gt;
 &lt;p&gt;目前该公司也没有提及任何潜在补偿措施，接下来估计被窃取比特币的用户可能会发起集体诉讼，否则就只能自己承担损失。COLDCARD 称目前相关问题还在继续调查中，后续会发布正式技术报告来保持透明度。&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 01 Aug 2026 04:45:36 +0000</pubDate></item><item><title>Codex再次重置周额度 而且目前测试5小时限额也没有恢复 所以还能敞开用</title><link>https://www.landian.news/archives/114146.html</link><description>
-&lt;p&gt;#人工智能 Codex 再次重置周额度，而且目前测试 5 小时限额也没有恢复，所以还能继续敞开用。不过这次蒂博重置的时间太迟，很多开发者在昨天等待 1 天没有重置后已经使用重置卡。现在 Codex 几乎不赠送重置卡，邀请赠送重置卡活动也结束了，所以重置卡可以说是战略储备了，被白白浪费着实让开发者心疼。查看全文：https://ourl.co/114146&lt;/p&gt;&lt;p&gt;Codex 技术经理蒂博刚刚宣布再次重置周额度算是周末福利，此次重置同时适用于 Codex 与 ChatGPT Work (共享额度)，而且蓝点网测试发现目前 5 小时滚动限额并未恢复，也就是用户还是可以敞开用，例如在复杂任务中直接清空周额度。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114146.png" rel="nofollow"&gt;&lt;img alt="Codex再次重置周额度 而且目前测试5小时限额也没有恢复 所以还能敞开用" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114146.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;此前蒂博已经提前透露 Codex 将在 2026 年 7 月 31 日恢复 5 小时滚动限额，因此社区普遍猜测 Codex 会在恢复 5 小时滚动限额时再次重置，结果很多用户等待很长时间也没等来重置，于是只能使用重置卡恢复自己的当周额度。&lt;/p&gt;
-&lt;p&gt;没想到蒂博这次重置的时间太迟，所以在 X/Twitter 上有很多开发者抱怨自己浪费了重置卡，尤其是现在已经无法通过邀请获得重置卡，Codex 也没有继续发放重置卡，所以现在重置卡被消耗掉属于非常严重后果的浪费行为。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;对用户而言没有 5 小时滚动限额使用 Codex 体验非常不错，因为滚动限额太少执行复杂任务时很容易触发限额，只能等待下个 5 小时窗口再恢复任务。所以现在有很多开发者甚至在 1 个复杂任务里就会将周额度耗尽，如果恢复 5 小时窗口那可能需要很长时间才能将任务做完。&lt;/p&gt;
-&lt;p&gt;只不过既然蒂博已经提前预告要恢复 5 小时限额，那大概率限额窗口就会在 1~2 天内启动，Codex 不太可能继续长期暂停 5 小时限额，所以有复杂任务的开发者们可以趁着现在还未恢复 5 小时限额的情况下，先把任务做完等待下次重置或使用重置卡。&lt;/p&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 01 Aug 2026 04:13:56 +0000</pubDate></item><item><title>CF/TK/GQ所有免费域名已在7月31日到期 必须付费注册后才能继续使用</title><link>https://www.landian.news/archives/114145.html</link><description>
-&lt;p&gt;#域名资讯 重要通知！Freenom 免费域名 CF/TK/GQ 均在 7 月 31 日到期，用户必须付费注册才能重新使用。简而言之，Freenom 不再提供免费域名服务，现有免费域名无论之前续费 9 年还是 10 年，都在 7 月 31 日到期。到期后域名将被暂停解析直到回收释放，而付费注册使用起步价 8.22 欧元 / 年。查看全文：https://ourl.co/114145&lt;/p&gt;&lt;p&gt;曾经被大量用户注册使用的免费域名包括 CF、TK、GQ 等目前已经转入付费模式，原本用户免费续期 9 年或 10 年被取消，只要是免费注册的域名过期时间都被设置为 2026 年 7 月 31 日，如果用户没有付费注册域名则这些域名会被暂停解析以及后续会被释放。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114145.png" rel="nofollow"&gt;&lt;img alt="&amp;lt;b&amp;gt;CF/TK/GQ所有免费域名已在7月31日到期 必须付费注册后才能继续使用&amp;lt;/b&amp;gt;" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114145.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;负责这些域名运营的是 Freenom，此前这些免费域名被频繁用于各类钓鱼网站和诈骗网站因此遇到诸多法律诉讼，最终 Freenom 决定永久取消免费域名计划，所有域名全部转为付费使用模式，与常规域名付费注册 / 转入 / 续费相同，起步价为 8.22 欧元 / 年。&lt;/p&gt;
-&lt;p&gt;Freenom 也同时重新开放 CF、TK、GQ 域名的付费注册模式，8.22 欧元只是普通域名，部分关键词和优质域名价格更高，所以已经注册这些免费域名的用户当前要么选择付费继续使用，要么等待域名被彻底释放，如果域名已经被用于实际业务，可能这时候只能付费继续使用。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;除了 CF、TK 和 GQ 域名外，此前 Freenom 还运营着免费域名 ML 和 GA，不过因为滥用问题域名所属国家或地区已经收回这些域名的控制权，同时也同样不再提供免费注册模式。Freenom 已经将 ML 和 GA 的运营权还给马里和加蓬的域名注册局。&lt;/p&gt;
-&lt;p&gt;也就是说现在基本已经没有比较可靠的免费一级域名，对于需要长期使用的用户来说还是要考虑付费注册域名，至少这些域名付费后稳定性更高，不容易因为运营商政策问题经常出现各种各样的问题。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;CF：该域名属于中非共和国，域名注册局为 SOCATEL (Freenom 为域名注册商 / 运营商)&lt;/li&gt;
-&lt;li&gt;TK：该域名属于新西兰属地托克劳 (南太平洋)，域名注册局为 Teletok&lt;/li&gt;
-&lt;li&gt;GQ：该域名属于赤道几内亚，域名注册局为 GETESA&lt;/li&gt;
-&lt;li&gt;ML：该域名属于马里，域名注册局为 AGETIC&lt;/li&gt;
-&lt;li&gt;GA：该域名属于加蓬，域名注册局为 ANINF&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 01 Aug 2026 03:06:02 +0000</pubDate></item><item><title>微软向用户推送不可卸载的OneDrive Photos应用  还是基于WebView开发的</title><link>https://www.landian.news/archives/114144.html</link><description>
-&lt;p&gt;#软件资讯 诸多用户抱怨微软静默推送安装 OneDrive Photos 应用，而且还不是原生应用而是基于 WebView2 开发的。该应用本身捆绑在 OneDrive 客户端里，所以用户不能单独卸载。蓝点网怀疑这是微软提高 Microsoft 365 订阅的方式，因为该应用会扫描本机图片和推荐用户将图片备份到 OneDrive。查看全文：https://ourl.co/114144&lt;/p&gt;&lt;p&gt;近期诸多用户反馈电脑被自动安装名为 Microsoft OneDrive Photos 的应用，该应用属于捆绑应用因此不能单独卸载，除非用户选择将整个 OneDrive 应用彻底卸载。微软并未在公告里提到会安装 OneDrive Photos 应用，而且这个应用目前还挂着测试版标签，所以还在测试就直接推送给用户？&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114144-2.png" rel="nofollow"&gt;&lt;img alt="微软向用户推送不可卸载的OneDrive Photos应用  还是基于WebView开发的" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114144-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114144-3.png" rel="nofollow"&gt;&lt;img alt="微软向用户推送不可卸载的OneDrive Photos应用  还是基于WebView开发的" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114144-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;不知道微软是不是准备废弃目前系统预装的照片应用，因为 OneDrive Photos 应用与预装照片应用本质上没有太大的区别，例如可以在没有登录微软账号的情况下自动搜索本地照片并整理为简单的图库，用户可以在 OneDrive Photos 图库中查看这些照片。&lt;/p&gt;
-&lt;p&gt;包含的其他功能还有按时间线整理照片、图库、联系人、相册、收藏夹等，OneDrive Photos 还可以识别图片中的人脸部分，这样可以将多个包含相同人脸的照片整理到相同分类下，从这方面来说甚至其功能还要比系统预装的相册应用更好。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;OneDrive Photos 应用不能单独卸载，因为该应用直接捆绑在 OneDrive 客户端中，除非用户直接卸载 OneDrive 客户端。我们严重怀疑微软这是为了继续提高 OneDrive 或 Microsoft 365 付费订阅量而开发的新工具，因为 OneDrive Photos 会建议用户将所有照片都保存到 OneDrive 中。&lt;/p&gt;
-&lt;p&gt;更糟糕的是 OneDrive Photos 又是个基于 WebView2 开发的网络应用而非 Windows 11 原生应用，启动后除了主进程外，还会通过 WebView2 进程消耗 240MB 左右的内存，微软这之前还说准备优化系统减少内存占用么？这转头就继续静默推送安装 WebView2 应用。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114144-1.png" rel="nofollow"&gt;&lt;img alt="微软向用户推送不可卸载的OneDrive Photos应用  还是基于WebView开发的" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114144-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 30 Jul 2026 09:27:38 +0000</pubDate></item></channel></rss>
+</description><pubDate>Sat, 01 Aug 2026 04:45:36 +0000</pubDate></item></channel></rss>
