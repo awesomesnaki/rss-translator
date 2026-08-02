@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>V2EX-最热主题</title><link>https://www.v2ex.com/</link><description>V2EX-最热主题 - Powered by RSSHub</description><language>zh-CN</language><lastBuildDate>Sun, 02 Aug 2026 05:43:08 +0000</lastBuildDate><item><title>似乎开源项目作者不知道/不想利用 AI 来加速自己的开发？</title><link>https://www.v2ex.com/t/1231528</link><description>&lt;p&gt;我关注的几个开源项目，gopeed,FluxDown, retainpdf 等似乎进展很慢。  为啥不利用 fable5 来加速呢？&lt;/p&gt;
 &lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-08-02 14:48:41 +08:00"&gt;2h 59m ago&lt;/span&gt;
+Supplement 1  ·  &lt;span title="2026-08-02 14:48:41 +08:00"&gt;4h 24m ago&lt;/span&gt;
 
 我一个代码门外汉，都能利用 AI 来做一些简单的东西了。那是否是说简单东西 AI 来做没问题，复杂的功能哪怕逻辑没问题，AI 也做不出来？
 
@@ -32,7 +32,11 @@ Supplement 1  ·  &lt;span title="2026-08-02 14:48:41 +08:00"&gt;2h 59m ago&lt
 &lt;p&gt;&lt;strong&gt;#24 KuAoaoaoao&lt;/strong&gt;：ai 不会创造 只会复制，人才会创造&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#25 AkaGhost&lt;/strong&gt;：对自己的项目有代码质量要求，想要在上面施行最佳实践，容忍不了 AI 一通乱改。  &lt;br/&gt;&lt;br/&gt;特别是 AI 幻觉严重，本来一点小改动让 AI 秃噜一大长串最后四处漏风漏水。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#26 lilililili2020&lt;/strong&gt;：ai 拉屎拉出来的好东西 &lt;a href="https://github.com/bbs1org/bbs1org" rel="nofollow noopener" target="_blank"&gt;https://github.com/bbs1org/bbs1org&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#27 Building&lt;/strong&gt;：项目刚起步的时候，代码量是你需求的 100 倍，ai 做的比你多的多，用 ai 当然没问题&lt;br/&gt;项目大起来以后，需求复杂度是写代码的 1000-10000 倍，这时候你硬写需求，那你才是 ai&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 02 Aug 2026 05:43:08 +0000</pubDate></item><item><title>知乎里一眼望去都是 gpt 生成的文章，为什么每个文章下面都是一片祥和</title><link>https://www.v2ex.com/t/1231526</link><description>&lt;p&gt;如题，&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#27 Building&lt;/strong&gt;：项目刚起步的时候，代码量是你需求的 100 倍，ai 做的比你多的多，用 ai 当然没问题&lt;br/&gt;项目大起来以后，需求复杂度是写代码的 1000-10000 倍，这时候你硬写需求，那你才是 ai&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#28 msg7086&lt;/strong&gt;：之前我收到过一位开源项目开发者关于使用 AI 的看法。&lt;br/&gt;其中有很大一项就是：&lt;br/&gt;许可证污染。&lt;br/&gt;&lt;br/&gt;你做自己的项目，你想怎么搞就怎么搞，反正你自己负责，开 AI 拉多大的都无所谓。（我现在 vibe 的一个项目已经非常大了，几千个提交，就是这么做的。）&lt;br/&gt;但是这是别人的项目，而且是开源项目，想必还是比较出名的项目。&lt;br/&gt;那么问题就来了，你怎么保证 AI 生成的代码不是和其他私有项目或者许可证不兼容项目里的代码一个样？&lt;br/&gt;比如你在给 MIT 项目贡献某种算法，结果后来被爆出来和另一个 GPL 项目里的算法非常类似。&lt;br/&gt;怎么办？整个项目都给你污染成 GPL 了。&lt;br/&gt;&lt;br/&gt;所以很多人非常忌讳这种 AI vibe 大功能的 PR 。&lt;br/&gt;如果是简单的修改，比如你找到一个 C++内存溢出问题，修改一下缓冲区长度，又或者是 double free 了你给修一下条件，这种属于著作权法上「简单修改」的情形，一般维护者是接受的。&lt;br/&gt;&lt;br/&gt;后来那位维护者也提到，如果只是生成简单的测试用例，或者参与 debug 工作找到代码错误，这些一般都是可接受的。所以后来我给这个开源项目做的贡献就是写了一个独立于项目的测试框架套件，由我反向导入开源项目作为子模块，然后跑测试用例。&lt;br/&gt;&lt;br/&gt;当然楼上几位提到的维护者的精力也是很重要的一点。你是作为一个第三方开发者去贡献代码的，而第一方开发者对项目的了解程度远比你高，你无心引入的一些变更，对方仔细审核以后就可能会发现隐藏的 bug 。再加上万一对方合并 PR 以后出现问题，责任在对方头上，而不是你头上。维护者身上的压力远比一个 PR 作者要大。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#29 300&lt;/strong&gt;：我自己的项目，AI 重构了一遍再也不想看了…&lt;br/&gt;接受 AI 代码只有〇次和无数次&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#30 arischow&lt;/strong&gt;：在公司项目加一个功能都要考虑很多事&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#31 gogozs&lt;/strong&gt;：为什么不用 ai 加速干死微信&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 02 Aug 2026 05:43:08 +0000</pubDate></item><item><title>知乎里一眼望去都是 gpt 生成的文章，为什么每个文章下面都是一片祥和</title><link>https://www.v2ex.com/t/1231526</link><description>&lt;p&gt;如题，&lt;/p&gt;
 &lt;p&gt;打开知乎，一眼望去都是 gpt 风味文章，gpt 的文章风味太熟悉了。&lt;/p&gt;
 &lt;p&gt;但是评论区甚至能看到“我的收藏夹就是为了这类文章而生的‘&lt;/p&gt;
 &lt;p&gt;看到这个评论，我久久不能自已，沉默了很久，让我的脑子出现了逻辑错误&lt;/p&gt;
@@ -60,31 +64,12 @@ Supplement 1  ·  &lt;span title="2026-08-02 14:48:41 +08:00"&gt;2h 59m ago&lt
 &lt;p&gt;&lt;strong&gt;#16 darkway&lt;/strong&gt;：@&lt;a href="/member/w568w"&gt;w568w&lt;/a&gt; 会不会在 ai slop 年代出生的孩子以后真的分辨不了 ai 味，或许他们的教材是 ai 写的，以后他们说话也是 ai 味的&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#17 zhuanggu&lt;/strong&gt;：因为评论也是 AI 生成的&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#18 nianyu&lt;/strong&gt;：@&lt;a href="/member/darkway"&gt;darkway&lt;/a&gt; 所谓的大 V 都有几十个群，作者之间互相转发，跟早期站长友链一样，互评&lt;br/&gt;仅限于能赚钱有流量的大 v ， 个人用 ai 回答的可能是尝试看看能不能赚钱&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#19 neilwong&lt;/strong&gt;：有 AI 了，逛知乎的动力是什么？ AI 比知乎获取信息的能力上高多了&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 02 Aug 2026 05:23:56 +0000</pubDate></item><item><title>梁老板的 deepseek api 对用户数据有隐私保护吗？</title><link>https://www.v2ex.com/t/1231522</link><description>&lt;p&gt;假设我用 ds api 问了一个策略思路，结果效果还不错，这个思路会不会被 ds 收集成训练数据呢？或者直接被 ds 拿去做策略了。。。&lt;/p&gt;
-&lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-08-02 14:56:27 +08:00"&gt;2h 50m ago&lt;/span&gt;
-
-。。。看了大家的回复我震惊了。。过去两个月我一直在敏感数据上直接用 ds 的 api 。。。&lt;br/&gt;&lt;br/&gt;话说回来，连最起码的用户隐私都保护不了，还圣什么，圣个 p 啊，后悔死了操
-
-&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;#1 JustGoGoGO&lt;/strong&gt;：世界上所有云上服务都没有隐私可言，用户数据良心点的脱敏用，不良心的直接用。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#2 ZeroClover&lt;/strong&gt;：&lt;a href="https://i.imgur.com/pMFVJpi.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/pMFVJpi.png"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;没有的，别想了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#3 Danswerme&lt;/strong&gt;：他说他保证不收集，你相信吗？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#4 kristofer&lt;/strong&gt;：比“我永远爱你”还不可信。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#5 ntdll&lt;/strong&gt;：不针对 Deepseek ，是所有厂家。&lt;br/&gt;&lt;br/&gt;怕别用，用别怕。&lt;br/&gt;&lt;br/&gt;他们说自己不用你的数据，你就信嘛，就是用了，你也不知道。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#6 aceboy&lt;/strong&gt;：有的模型服务医疗等大客户，会说明不用，但是也只能相信，不能冒险。deepseek 连说都没有说，不是很明白吗&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#7 leoding&lt;/strong&gt;：搞 IT 为什么会问出这个问题，隐私就说薛定谔的猫。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#8 Cu635&lt;/strong&gt;：@&lt;a href="/member/ntdll"&gt;ntdll&lt;/a&gt; #5&lt;br/&gt;阶级属性对吧&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#9 isbase&lt;/strong&gt;：你只要用 DeepSeek 官方的 API ，那就是明确告诉你他要拿你的数据训练的啊。&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;不想被训练，那就用 OpenRouter 。上面是有设置的，可以把 ZDR 打开，就不会自动路由到这种 provider 了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#10 icanfork&lt;/strong&gt;：会&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#11 w568w&lt;/strong&gt;：&amp;gt; 连最起码的用户隐私都保护不了，还圣什么，圣个 p 啊，后悔死了操&lt;br/&gt;&lt;br/&gt;1. 你都关注隐私了，应该默认所有云服务都会永久保存你传递的所有数据。毕竟这是单向信任，你无法证伪不会保存。&lt;br/&gt;&lt;br/&gt;2. 人家说「 DeepSeek 是圣人」是因为成本低，你还真把戏言当真，以为商业公司是严格定义下完美无缺的「圣人」啊？&lt;br/&gt;&lt;br/&gt;3. 不是说 DeepSeek 保存就对，但 OP 光骂 DS 有点好笑，有一种第一天上网的感觉。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#12 zbinlin&lt;/strong&gt;：每个时期都有属于那个时期的“百度”&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#13 jacketma&lt;/strong&gt;：梁圣至少开源了呀，土豪自己内网部署总可以放心用的。&lt;br/&gt;比 A\家、closeai 闭源没的选，还是胸怀宽广不少了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#14 Ericcccccccc&lt;/strong&gt;：你都把数据传到对方服务器上了，你感觉呢。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#15 kagangtuya&lt;/strong&gt;：7w 买两个英伟达 ds sqark ，自己部署 deepseek-4-flash 就行&lt;br/&gt;或者百万预算买几个 b100 部署之后的 Pro&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#16 Tink&lt;/strong&gt;：这个价格，他收集数据不是他的错，是我的错&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#17 wonderfulcxm&lt;/strong&gt;：梁圣一会就要 ssh 登录你的服务器了 &lt;a href="https://i.imgur.com/agAJ0Rd.jpeg" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/agAJ0Rd.jpeg"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#18 cabing&lt;/strong&gt;：你把你的信息发给大模型，又要大模型不用你的信息分析。像楼上说的自己部署微调模型。。自己玩把。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 02 Aug 2026 04:41:47 +0000</pubDate></item><item><title>请教：除了 api 直连，有没有更便宜也保质量的办法可以用 deepseek-v4-flash？</title><link>https://www.v2ex.com/t/1231509</link><description>&lt;p&gt;v4 flash 确实给力，有什么办法可以更便宜的用？&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#19 neilwong&lt;/strong&gt;：有 AI 了，逛知乎的动力是什么？ AI 比知乎获取信息的能力上高多了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#20 mizkan&lt;/strong&gt;：一般看我知道的 id 或者短回答……&lt;br/&gt;没人味儿的直接拉黑&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#21 ouqihang&lt;/strong&gt;：很多不相关的回答，硬是把话题扯到不太相关的方面，多举些风马牛不相及的例子。&lt;br/&gt;重复问题里面新闻链接的内容，稍微加工一下，换种口吻，这种回答经常排第一，除非后面有更好的回答。因为点进去回答列表里的人，不会点开问题。有些回答是推送，不是随问题页来的。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#22 loveleyla2013&lt;/strong&gt;：很多中文网站，我看了一眼，就觉得脑袋脏了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#23 cnrting&lt;/strong&gt;：快进到人类由 AI 生成&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#24 Pending&lt;/strong&gt;：@&lt;a href="/member/darkway"&gt;darkway&lt;/a&gt; 抖音里点赞的也是 AI&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 02 Aug 2026 05:23:56 +0000</pubDate></item><item><title>请教：除了 api 直连，有没有更便宜也保质量的办法可以用 deepseek-v4-flash？</title><link>https://www.v2ex.com/t/1231509</link><description>&lt;p&gt;v4 flash 确实给力，有什么办法可以更便宜的用？&lt;/p&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 menfrexu&lt;/strong&gt;：官方还不够便宜吗，昨天烧了 6 亿多 token ，只收我 20 块钱，便宜到想哭了...&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#2 hanbaoji&lt;/strong&gt;：@&lt;a href="/member/menfrexu"&gt;menfrexu&lt;/a&gt; 肯定是越便宜越好呀&lt;/p&gt;&lt;hr/&gt;
@@ -123,7 +108,9 @@ Supplement 1  ·  &lt;span title="2026-08-02 14:56:27 +08:00"&gt;2h 50m ago&lt
 &lt;p&gt;&lt;strong&gt;#35 ETiV&lt;/strong&gt;：小兄弟，你要不要看看咱俩注册时间差多久 🤣&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#36 defunct9&lt;/strong&gt;：DGX Spark ，厉害了，可以开个中转了。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#37 wujingquan&lt;/strong&gt;：@&lt;a href="/member/wujingquan"&gt;wujingquan&lt;/a&gt; 已经支持最新的 deepseek-v4-flash-0731 正式版了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#38 wonderfulcxm&lt;/strong&gt;：v 站也有，已经支持最新的 deepseek-v4-flash-0731 正式版了，但我还没接入过。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 02 Aug 2026 03:09:51 +0000</pubDate></item><item><title>AI 生成文案最恶心的四个字</title><link>https://www.v2ex.com/t/1231506</link><description>&lt;p&gt;想象一下，当你看一段视频介绍某个工具或者某种技术，然后正在念文案的 AI 突然读出四个字：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#38 wonderfulcxm&lt;/strong&gt;：v 站也有，已经支持最新的 deepseek-v4-flash-0731 正式版了，但我还没接入过。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#39 msg7086&lt;/strong&gt;：可以自建。&lt;br/&gt;DS 自建机房出来卖你算力他挣钱，你买硬件回来自己跑，不就把中间差价给省下来了么。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#40 dys0327&lt;/strong&gt;：@&lt;a href="/member/dys0327"&gt;dys0327&lt;/a&gt; 没注册的老哥们可以试试我的邀请链接😁&lt;br/&gt;https://tokenrhythm.studio/i/rf_tr_uxiXNxQwN75V9DAn4F3tkgLT&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 02 Aug 2026 03:09:51 +0000</pubDate></item><item><title>AI 生成文案最恶心的四个字</title><link>https://www.v2ex.com/t/1231506</link><description>&lt;p&gt;想象一下，当你看一段视频介绍某个工具或者某种技术，然后正在念文案的 AI 突然读出四个字：&lt;/p&gt;
 &lt;p&gt;"想象一下。"&lt;/p&gt;
 &lt;p&gt;你的脑海中是不是立刻涌现出一种不好的预感？天哪，糟了，我操你妈的，接下来将要出现一段跟当前的专业内容话题毫不相干的、极其牵强附会的、而且还是长篇大论的比喻场景了。&lt;/p&gt;
 &lt;p&gt;如果你觉得 AI 这么写文案无所谓，甚至觉得是介绍专业知识的正常写法，那么请你想象一下，你正坐在电脑前，认真想搞懂一个新工具的用法，或者弄明白某种技术的核心原理。结果文案突然甩出“想象一下”这四个字，然后给你整出一段长达一两分钟的、跟正题八竿子打不着的生活场景：什么你是一位厨师在厨房里切洋葱、什么你是快递员在雨天送快递、什么你是宇航员在火星上种土豆……最后硬生生把这些乱七八糟的画面，强行套回那个工具或者技术上。你的注意力被彻底打断了。原本清晰的技术逻辑被稀释成一锅浆糊，大脑被迫在“专业知识点”和“无厘头比喻”之间来回横跳。你不得不先消化那个莫名其妙的场景，再费力把比喻翻译回真正的概念，最后还得自己判断这比喻到底靠不靠谱。本来三句话能讲清楚的事，现在被拖成十分钟的精神折磨。&lt;/p&gt;
@@ -148,4 +135,37 @@ Supplement 1  ·  &lt;span title="2026-08-02 14:56:27 +08:00"&gt;2h 50m ago&lt
 &lt;p&gt;&lt;strong&gt;#17 EngelEyes&lt;/strong&gt;：歪个题，最讨厌人类生成的一句话是“你懂我意思吧。”&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#18 jcsmallming&lt;/strong&gt;：想象一下，你现在正在知乎看到了一个开头很不错的回答，然后第二段开始出现了大量的不是...而是...&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#19 Anarchy&lt;/strong&gt;：使用 Agent 的场景“你说的对”。网页的场景 ChatGPT“不是而是”，一般这时候就开始罗里吧嗦了自己乱扩展问题了;Gemini 的情况就是老赞同和夸人。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#20 haah&lt;/strong&gt;：&lt;a href="https://suno.com/song/829f95a1-3aa9-493a-af50-3642295396cb" rel="nofollow noopener" target="_blank"&gt;https://suno.com/song/829f95a1-3aa9-493a-af50-3642295396cb&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 02 Aug 2026 02:17:36 +0000</pubDate></item></channel></rss>
+&lt;p&gt;&lt;strong&gt;#20 haah&lt;/strong&gt;：&lt;a href="https://suno.com/song/829f95a1-3aa9-493a-af50-3642295396cb" rel="nofollow noopener" target="_blank"&gt;https://suno.com/song/829f95a1-3aa9-493a-af50-3642295396cb&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#21 xiaoyureed&lt;/strong&gt;：还有彩虹屁. 我最开始以为自己真的是大聪明呢&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 02 Aug 2026 02:17:36 +0000</pubDate></item><item><title>资本喜欢利用女性收割男性，部分低质女性蠢不自知</title><link>https://www.v2ex.com/t/1231502</link><description>&lt;p&gt;核心关键词：帝 8 台球俱乐部
+男子消费一万多，女助教经常发一些暧昧关系的话做顾客留存，男子信以为真，以为关系可以进一步
+拍了一下屁股，喜提行拘 5 天&lt;/p&gt;
+&lt;p&gt;这些利用女性勾勾搭搭，收割男性的场所，有些下作无耻。而这些女性也蠢不自知，和资本一起狼狈，利用自己收割男性，美其名曰，笑贫不笑娼。摆明了就是做婊子还要立牌坊，这里的婊子是 ： 资本+利用女色吸引男性消费的群体。&lt;/p&gt;
+&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;#1 eventlooped&lt;/strong&gt;：女的坏不是蠢&lt;br/&gt;男的才是蠢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#2 leegradyllljjjj&lt;/strong&gt;：任何时代都要学一点裤裆管理学&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#3 homewORK&lt;/strong&gt;：愿意为“蠢”的女人花钱的男的难道就很聪明？ 明明都差不多 何必互相嫌弃&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#4 conge&lt;/strong&gt;：人家女的门儿清的很&lt;br/&gt;挣的就是这份儿钱&lt;br/&gt;话术说不定都是培训过的&lt;br/&gt;这个年头别把人当傻子&lt;br/&gt;&lt;br/&gt;人家&lt;br/&gt;没啥赚钱技能&lt;br/&gt;有攀不上权贵&lt;br/&gt;再不附庸资本&lt;br/&gt;怎么赚钱&lt;br/&gt;&lt;br/&gt;你给？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#5 starrys&lt;/strong&gt;：那家店不是全面停业整改了吗？老板也亏大了，不过也是应得的。&lt;br/&gt;&lt;br/&gt;那女的，倒是为了自身利益，寸步不让。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#6 godmiracle&lt;/strong&gt;：别人是受益者，什么不自知。&lt;br/&gt;有没有可能某些男的才是真的蠢。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#7 Sawyerhou&lt;/strong&gt;：崩老头的女的并不蠢，被崩的老头也不蠢，跟正常的服务消费没区别。但有的人能接受，有的人不能，主要在于各人的尺度偏好有所不同。越偏好传统观念，对大尺度的服务就越抵触。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#8 wusheng0&lt;/strong&gt;：@&lt;a href="/member/conge"&gt;conge&lt;/a&gt; 经典笑贫不笑娼了属于是，好像没得选一样。&lt;br/&gt;&lt;br/&gt;脚踏实地，正经工作没有吗？&lt;br/&gt;&lt;br/&gt;退一万步，搞点擦边直播，套个什么 COSER 皮钓榜一大哥呢。&lt;br/&gt;&lt;br/&gt;现在是又当又立，搞个仙人跳，还让你共情上了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#9 AEDaydreamer&lt;/strong&gt;：就这个按理来说单纯是崩老头没把握好尺度，只能说资本太贪了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#10 huanxianghao&lt;/strong&gt;：感觉乱判的，看那聊天女的明显有勾引的意思了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#11 Moishine&lt;/strong&gt;：@&lt;a href="/member/conge"&gt;conge&lt;/a&gt; 三观不正被你说的理直气壮&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#12 left7410&lt;/strong&gt;：唉，资本，唉，女性&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#13 Seck&lt;/strong&gt;：在中国，一切社会矛盾，都可以甩锅给资本&lt;br/&gt;&lt;br/&gt;咋一看，还真对&lt;br/&gt;&lt;br/&gt;仔细一想，狗屁不通，和资本有啥关系&lt;br/&gt;&lt;br/&gt;没有资本，呵呵，掌控世界背后就是资本，所有改开，不是就是，资本+技术 来搞定一切&lt;br/&gt;&lt;br/&gt;不要用一些极少数傻子二代，代表全体&lt;br/&gt;&lt;br/&gt;特定极少数现象罢了&lt;br/&gt;&lt;br/&gt;我能把屎做成蛋糕卖出去，你信不，十几亿人，屎是甜的在抖音天天发，你看有没有人买一坨回去尝尝&lt;br/&gt;&lt;br/&gt;和资本没一毛关系，和男人也没一毛关系，和女人更没一毛关系&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#14 conge&lt;/strong&gt;：@&lt;a href="/member/Moishine"&gt;Moishine&lt;/a&gt; &lt;br/&gt;只说了人家怎么想的&lt;br/&gt;三观正的&lt;br/&gt;就别碰人家&lt;br/&gt;人家不会上赶着找你&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#15 Moishine&lt;/strong&gt;：@&lt;a href="/member/conge"&gt;conge&lt;/a&gt; 你倒是会站在🐔的角度思考问题&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#16 conge&lt;/strong&gt;：@&lt;a href="/member/wusheng0"&gt;wusheng0&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;老子不笑娼不假&lt;br/&gt;哪里笑贫了？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#17 conge&lt;/strong&gt;：@&lt;a href="/member/Moishine"&gt;Moishine&lt;/a&gt; &lt;br/&gt;我还会站在你角度看问题呢&lt;br/&gt;我就不&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#18 dsw0719&lt;/strong&gt;：《我就不》哈哈哈哈哈，我还是第一次在 V2EX 上看到这么傻逼的帖子，哈哈哈哈哈哈，《我就不》这三个字含金量堪比《那咋了》哈哈哈哈哈哈哈。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#19 fredhwang&lt;/strong&gt;：@&lt;a href="/member/conge"&gt;conge&lt;/a&gt; 搁这儿换行写诗呢？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#20 Orange2269&lt;/strong&gt;：有些经验总结方面的老话还是有道理的，比如“既要当婊子，又要立牌坊”&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#21 PopRain&lt;/strong&gt;：干不正经的事情，要求正经对待，也是无语了。 这种事出有因的竟然直接拘留，感觉公安也是只看结果不看过程，应该教育罚个款就过去了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#22 sosme&lt;/strong&gt;：拍一下 pg5k ，这 pg 比金子还值钱啊；还有那个帝 8 老板自己也丑的一比还吐槽自己的客户丑……&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#23 crying1ncel&lt;/strong&gt;：没必要一味谴责女性；这样的人的遭遇配得上他们的压抑心理&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#24 wonderfulcxm&lt;/strong&gt;：感觉在 1818 黄金眼看到过，不过又是性压抑理论的商业化运营。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#25 EndlessMemory&lt;/strong&gt;：老二接管老大，就会变蠢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#26 wweerrgtc&lt;/strong&gt;：大学同学，才毕业 3 年多，美颜一开，胸一垫，已经是 80 万粉丝的博主了&lt;br/&gt;&lt;br/&gt;ip 到处飞，吃吃逛逛 拍拍视频，太舒服了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#27 zpxshl&lt;/strong&gt;：性压抑活该，洗个脚才多少钱&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#28 ndxxx&lt;/strong&gt;：@&lt;a href="/member/huanxianghao"&gt;huanxianghao&lt;/a&gt; 女法官，女警司，这种中层体制内女性是最恶心的。&lt;br/&gt;&lt;br/&gt;&lt;a href="https://i.imgur.com/Ue4rTPH.jpeg" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/Ue4rTPH.jpeg"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 02 Aug 2026 01:33:36 +0000</pubDate></item></channel></rss>
