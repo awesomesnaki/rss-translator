@@ -1,5 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sat, 01 Aug 2026 09:58:50 +0000</lastBuildDate><item><title>ICANN已完成顶级域名.web的委派 威瑞信计划从下半年开放域名注册</title><link>https://www.landian.news/archives/114152.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sun, 02 Aug 2026 04:31:08 +0000</lastBuildDate><item><title>即便玩家发起请愿也不行 索尼高管称仔细考虑后决定继续停产实体游戏光盘</title><link>https://www.landian.news/archives/114155.html</link><description>#游戏资讯 玩家发起请愿也没用：索尼首席财务官陶琳证实公司已经关注玩家发起的请愿和社交媒体活动，不过仔细审查该计划后索尼仍然决定继续推进停产实体游戏光盘的计划。索尼认为随着玩家向数字化内容转型，停产实体 PS 游戏光盘是合理的做法，而且目前数字下载占比已经远远超过实体游戏光盘。查看全文：https://ourl.co/114155</description><pubDate>Sun, 02 Aug 2026 04:31:08 +0000</pubDate></item><item><title>黑客正在继续攻击ColdCard比特币硬件钱包 目前已经窃取价值8,860万美元的比特币</title><link>https://www.landian.news/archives/114154.html</link><description>
+&lt;p&gt;#加密货币 黑客正在继续洗劫 ColdCard 比特币硬件钱包，目前已经窃取高达 1,367 个比特币，总价值超过 8,860 万美元。而 ColdCard 完全无法干预黑客的攻击，事实上该公司目前除了通过各种渠道通知客户尽快转移钱包资金外，没有任何解决办法。遗憾的是还有大量用户并不清楚这次攻击，因此随着时间的推移，被黑用户只会越来越多。查看全文：https://ourl.co/114154&lt;/p&gt;&lt;p&gt;昨天蓝点网提到加拿大比特币硬件钱包 ColdCard 出现重大安全问题，该钱包使用有缺陷的随机数算法生成钱包种子，黑客发现该缺陷后直接搭建环境批量生成钱包种子和比特币钱包地址与链上地址进行匹配，当发现钱包地址有余额时就可以使用本地生成钱包种子的私钥直接洗劫钱包。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114154-1.png" rel="nofollow"&gt;&lt;img alt="黑客正在继续攻击ColdCard比特币硬件钱包 目前已经窃取价值8,860万美元的比特币" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114154-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;区块链上分析团队星系研究所 (Galaxy Research) 通过链上数据追踪发现，疑似与 ColdCard 硬件钱包漏洞有关的比特币转移规模正在持续增加，目前黑客成功转移的比特币累计达到 1367 个，按照转移时价格计算目前也有 8,860 万美元，这些比特币来自 4,585 个钱包地址。&lt;/p&gt;
+&lt;p&gt;目前黑客发起的洗劫行动有三波，第一波发生在 2026 年 7 月 30 日，攻击者在 41 分钟内从 1,195 个地址转走 1,082.65 个比特币，这也是目前已知规模最大的一波。第二波洗劫行动发生在 2026 年 7 月 31 日，黑客从 1478 个钱包地址中转走 76.16 个比特币。&lt;/p&gt;
+&lt;p&gt;第三波攻击从 2026 年 7 月 31 日持续到 8 月 1 日，涉及 1,912 个钱包地址，转走约 208 个比特币。但第三波转移与前两波有着明显区别，第三波资金没有简单的转入少数资金归集地址，而是被分散到 293 个 P2WSH 地址中，这种地址在资金被花费前不会公开具体脚本条件，因此外部观察者更难判断这些资金是否属于同一攻击者控制。&lt;/p&gt;
+&lt;p&gt;研究人员提醒称，目前仅靠链上数据还不能确定第三波攻击是否仍然是最先发现漏洞的原攻击者发起的，也可能是其他人发现了同一批脆弱地址后跟进发起攻击和转移资金。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在研究人员追踪被盗比特币的同时，中心化交易所也出现大量比特币现货流入情况，在 7 月 31 日中心化交易所净流入 11163 个比特币，其中 River、币安、Kraken 和 OKX 等平台流入的比特币数量都在明显增加。&lt;/p&gt;
+&lt;p&gt;不过这并不代表转入的比特币都是黑客操作的，事实上黑客可能担心转入中心化交易所被冻结，因此更有可能选择其他非中心化交易所清洗这些比特币，而中心化交易所流入的这些比特币有可能是其他 ColdCard 看到消息后选择立即将余额转入到中心化交易所确保安全。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;说起来非常讽刺，很多专业用户喜欢使用硬件钱包来提高资金安全性，因为硬件钱包完全由用户自己控制，而中心化交易所和其他托管钱包存在平台转移用户资金、倒闭的风险，从这个角度来说硬件钱包的安全性要更高。&lt;/p&gt;
+&lt;p&gt;只不过在 ColdCard 事件中硬件钱包的缺陷也暴露无遗，即安全性完全取决于钱包制造商，如果钱包制造商采用的固件、算法存在缺陷，就有可能导致用户资金被盗，甚至钱包制造商现在都没法干预黑客的攻击，因为钱包无法远程升级。&lt;/p&gt;
+&lt;p&gt;现在 ColdCard 唯一能做的事情就是通过各种渠道提醒客户立即转移资金并更新固件，遗憾的是还有大量用户并不清楚这次攻击事件，所以随着时间的推移被黑的用户也只会越来越多。&lt;/p&gt;
+&lt;p&gt;PS：这次黑客事件只是暴露硬件钱包的缺陷，并不意味着所有硬件钱包都不安全。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息来源：&lt;a href="https://www.landian.news/go?url=https://x.com/glxyresearch/status/2083623500183421043?s=20" rel="noopener" target="_blank"&gt;Galaxy Research&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sun, 02 Aug 2026 04:07:28 +0000</pubDate></item><item><title>Codex蒂博称在谷歌时曾开发类似ChatGPT产品 但谷歌担心与搜索竞争因此并未发布</title><link>https://www.landian.news/archives/114153.html</link><description>
+&lt;p&gt;#人工智能 Codex 技术经理蒂博称在 DeepMind 时谷歌已经研发类似 ChatGPT 产品，但谷歌担心与搜索业务竞争因此并未发布。ChatGPT 是在 2022 年发布的，而在 2021 年谷歌已经研发 LMChat，即基于人工智能的对话工具。不过彼时这类工具还存在质量和安全问题，即回答内容可能存在明显错误。最终谷歌领导层出于安全、质量和搜索业务颠覆风险的考虑，并未推出该产品。查看全文：https://ourl.co/114153&lt;/p&gt;&lt;p&gt;Codex 技术经理蒂博此前在谷歌旗下公司 DeepMind 工作，蒂博称在 OpenAI 发布 ChatGPT 前其实谷歌已经开发类似的应用，该应用名为 LMChat 即基于人工智能的对话工具，这款工具开发时间在 2021 年。遗憾的是最终谷歌并未推出该工具，原因与安全、质量和搜索业务颠覆风险有关。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114153.png" rel="nofollow"&gt;&lt;img alt="Codex蒂博称在谷歌时曾开发类似ChatGPT产品 但谷歌担心与搜索竞争因此并未发布" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114153.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;根据公开报道，谷歌早在 ChatGPT 发布前就已经拥有先进的内部对话模型，包括 Meena/LaMDA 以及员工聊天工具。其中 Meena 是在 2020 年 1 月开发的，而 LaMDA 是在 2021 年开发的，此后 DeepMind 开发多款人工智能模型并改进质量和安全性。&lt;/p&gt;
+&lt;p&gt;但早期的人工智能模型确实存在质量和安全问题，即回答内容可能存在明显错误，对于谷歌这种规模的公司来说稳定性的优先级可能高于变革，尤其是这类应用还可能颠覆谷歌搜索业务，谷歌搜索业务是谷歌的支柱业务，说到底其实就是谷歌的广告业务。&lt;/p&gt;
+&lt;p&gt;最终谷歌领导层出于安全、质量和搜索业务颠覆风险的考虑，推迟相关产品的发布，而 DeepMind 面临产品限制，后续仍然专注于论文和研究，直到 OpenAI 推出 ChatGPT 后引爆人工智能行业，谷歌之后推出 Bard，后更名为 Gemini。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息来源：&lt;a href="https://www.landian.news/go?url=https://x.com/thsottiaux/status/2083596911060324570?s=20" rel="noopener" target="_blank"&gt;Thsottiaux&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sun, 02 Aug 2026 03:35:45 +0000</pubDate></item><item><title>ICANN已完成顶级域名.web的委派 威瑞信计划从下半年开放域名注册</title><link>https://www.landian.news/archives/114152.html</link><description>
 &lt;p&gt;#域名资讯 ICANN 已完成顶级域名 .web 的 DNS 根区委派，威瑞信 (Verisign) 计划从下半年开始开放该域名的注册。WEB 域名早在 2016 年已经完成竞拍，但因为存在法律争议，直到 2026 年 7 月所有域名注册机构才达成 PY 交易解决法律争议。最终该域名还是被威瑞信拿下，好消息是威瑞信品牌管控非常严格，不至于出现大量滥用，坏消息是威瑞信运营的域名价格都比较贵。查看全文：https://ourl.co/114152&lt;/p&gt;&lt;p&gt;据行业最新消息，数字域名分配机构 ICANN 近期已经完成对顶级域名 .web 的委派，委派指的是将域名委派到全球 DNS 根区，通常新域名完成委派也意味着可以正常使用 (前提是域名注册局已经开放注册和解析)。&lt;/p&gt;
 &lt;p&gt;WEB 域名的官方注册机构是威瑞信 (Verisign)，作为全球规模最大的域名注册管理机构，威瑞信负责管理 WEB 域名好处是不会存在品牌问题 (例如域名滥用)，然而威瑞信管理的域名注册和续费价格通常都比较高，这对用户来说可能是个问题。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114152.png" rel="nofollow"&gt;&lt;img alt="ICANN已完成顶级域名.web的委派 威瑞信计划从下半年开放域名注册" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114152.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -24,55 +53,4 @@
 &lt;p&gt;美国参议院情报委员会民主党高层 Mark Warner 则表示，Anthropic 事件说明要求先进模型进行强制能力测试是有必要的。&lt;/p&gt;
 &lt;p&gt;这类事件目前还不算是传统意义上的大规模恶意攻击，但这也已经把一个长期停留在安全论文和红队测试里的问题推到现实环境：当 AI 智能体拥有足够强的网络攻击能力时，实验室是否真的能稳定限制智能体的行动边界。&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 01 Aug 2026 07:52:55 +0000</pubDate></item><item><title>Chrome近期3个版本修复1,442个漏洞 比之前23个版本修复的漏洞总和还多😬😬</title><link>https://www.landian.news/archives/114150.html</link><description>
-&lt;p&gt;#安全资讯 谷歌透露 Chrome 近期 3 个版本合计修复 1,442 个漏洞，比之前 23 个版本修复的漏洞总和还多。具体来说在 6 月发布的 149/150 版中谷歌修复 1,072 个漏洞，而 126~148 合计修复的漏洞都没超过 1,000 个。如此快的漏洞发掘速度自然是靠 AI 实现的，无论是谷歌还是安全公司现在都在积极使用 AI 发掘漏洞。查看全文：https://ourl.co/114150&lt;/p&gt;&lt;p&gt;谷歌日前在博客中透露，Chrome 149.x 和 150.x 合计修复高达 1,072 个安全漏洞，以上版本均为谷歌在 6 月发布的，而在本周发布的 Chrome 151.x 版中谷歌修复 370 个漏洞，也就是说近期 3 个主要版本中谷歌合计修复高达 1,442 个漏洞。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114150-1.png" rel="nofollow"&gt;&lt;img alt="Chrome近期3个版本修复1,442个漏洞 比之前23个版本修复的漏洞总和还多😬😬" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114150-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;根据谷歌自己发布的数据，Chrome 126.x 到 148.x 合计修复的漏洞都没有超过 1,000 个，而 Chrome 149.x 和 150.x 修复 1072 个漏洞，如果加上 Chrome v151.x 则合计修复 1442 个漏洞。&lt;/p&gt;
-&lt;p&gt;以最新的 Chrome v151.x 为例，该版本合计修复 370 个漏洞，其中 349 个漏洞是谷歌自己发现和报告的，剩余漏洞由外部安全公司 / 安全研究员报告，而这 370 个漏洞里有 7 个被评为严重级别，黑客可以使用这些漏洞发起实际攻击。&lt;/p&gt;
-&lt;p&gt;&lt;img decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114150-2.png"/&gt;&lt;/p&gt;
-&lt;p&gt;如此多的漏洞显然不是靠人工发掘的，大部分漏洞都是谷歌或外部安全研究员通过人工智能发掘漏洞，也就是借助人工智能，整个行业的漏洞发掘速度都在快速增长。甚至漏洞太多 Chrome 团队都来不及或者没空写详细日志，最终也靠 AI 发布漏洞说明和 CVE 描述。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;谷歌此前已经透露 Chrome 浏览器的安全更新将缩短到 2 周发布，也就是每 2 周谷歌就会发布 Chrome 新版本 (漏洞修复版本) 来解决漏洞问题，缩短安全更新时间也是为了尽快修复漏洞，谷歌称这是面对快速发展的 AI 驱动型攻击的应对方式。&lt;/p&gt;
-&lt;p&gt;在博客中谷歌还强调妥善的公开漏洞披露仍然至关重要，所有进入 Chrome 稳定版的安全漏洞，无论是内部发现还是外部报告，谷歌都会按照标准最佳实践进行记录并公开披露，让客户、安全公司、研究人员都可以跟踪和查阅漏洞，这可以保持 Chrome 安全透明度。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://blog.google/security/chrome-stronger-with-every-update/" rel="noopener" target="_blank"&gt;谷歌安全博客&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 01 Aug 2026 06:55:29 +0000</pubDate></item><item><title>微软首次明确将8GB内存作为优化目标 要优化Windows 11在8GB内存的使用体验</title><link>https://www.landian.news/archives/114149.html</link><description>
-&lt;p&gt;#系统资讯 微软在博客中首次提到将针对 8GB 内存设备进行优化，这是内存价格太高带来的直接影响。现在越来越多的 OEM 重新推出 8GB 内存设备，配备更多的内存会导致零售价太高因而存在销量问题。所以最终还是得靠微软在软件层面进行优化，至少要让 Windows 11+8GB 内存不至于太卡、要达到能正常使用的水平。查看全文：https://ourl.co/114149&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/114148.html" rel="noopener" target="_blank"&gt;前文我们提到微软发文介绍这段时间以来团队对 Windows 11 系统的改进&lt;/a&gt;，这些改进被微软称为质量优化，也就是解决客户长期以来抱怨的 Windows 11 可靠性太差、响应速度慢和体验比较糟糕的问题，在博客结尾微软还特别提到将对 8GB 内存设备进行优化。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114149.png" rel="nofollow"&gt;&lt;img alt="微软首次明确将8GB内存作为优化目标 要优化Windows 11在8GB内存的使用体验" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114149.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;此前微软已经透露将会针对 Windows 11 进行优化以减少内存开销，要优化内存使用的主要原因是现在内存价格太高，以至于现在很多新推出的笔记本电脑又开始预装 8GB 内存，但对 Windows 11 而言 8GB 内存其实是完全不够用的，稍微多开点应用程序就会明显卡顿。&lt;/p&gt;
-&lt;p&gt;但内存价格太高迫使 OEM 只能预装 8GB 内存以平衡成本和零售价格，就连微软自己都推出搭载 8GB 内存的 Microsoft Surface 设备，不出所料：这款微软品牌的 8GB 设备体验也同样非常糟糕，原因就是 8GB 内存太少，很容易被谷歌浏览器等内存大户吃掉。&lt;/p&gt;
-&lt;p&gt;考虑到行业问题微软作为操作系统开发商，也只能想办法优化系统的内存开销，当然不只是微软，谷歌早前也透露将优化安卓系统的内存效率，虽然谷歌没有明说，但大家都知道这是因为安卓 OEM 也开始预装更低的内存模块。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;微软在博客结尾的原话是：针对 8GB 及以上内存进行优化，减少 Windows 11 的内存占用，从而在用户日常使用的 PC 上提供快速响应的 Windows 体验。&lt;/p&gt;
-&lt;p&gt;如果我们没记错的话，这应该是微软官方近几年来首次明确提到 8GB 内存也作为优化目标，以前微软虽然也经常提到优化内存开销，但从未特别提到过 8GB 作为最低下限，所以可以看到微软现在也因为内存问题非常着急，毕竟这个问题也会直接影响 Windows 11 设备销量。&lt;/p&gt;
-&lt;p&gt;对 OEM 而言现在推出 8GB 内存设备也是必须的，因为配备更高的内存会导致设备零售价格太高因而存在销量问题，所以最终还是得靠微软从软件层面进行优化，至少要让 Windows 11+8GB 内存不至于太卡、要达到能正常使用的水平。&lt;/p&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 01 Aug 2026 06:35:20 +0000</pubDate></item><item><title>微软发文介绍自3月以来对Windows 11的质量改进 包括改进资源管理器和减少干扰等</title><link>https://www.landian.news/archives/114148.html</link><description>
-&lt;p&gt;#系统资讯 微软发文介绍自 3 月以来 Windows 11 的质量改进，包括提高内存效率减少内存开销、改进资源管理器可靠性、改进驱动程序质量等等。3 月份微软发文称要重点改进 Windows 11 质量解决客户长期抱怨的可靠性问题，现在微软再次发文提到这段时间的工作成果。这些改进已经在预览版中测试，将在秋季陆续推送给所有用户。查看全文：https://ourl.co/114148&lt;/p&gt;&lt;p&gt;3 月份微软发文声称要重点改进 Windows 11 质量，解决客户长期以来抱怨的可靠性和性能问题，这段时间关注 Windows 11 预览版的用户可以注意到微软确实正在进行多种改进，包括改进资源管理器功能和可靠性、减少垃圾 AI 功能、降低系统更新带来的干扰等等。&lt;/p&gt;
-&lt;p&gt;所以现在微软再次发文介绍已经准备好的改进，这些改进已经在 Windows 11 预览版中上线，微软最终将在秋季通过累积更新或 Windows 11 26H2 版更新将这些改进推送给所有用户。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Windows 11任务栏已经可以放在顶部/左侧/右侧 并且可以默认设置窗口不合并" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/112973-1.png"/&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.landian.news/archives/113924.html" rel="noopener" target="_blank"&gt;改进任务栏搜索框&lt;/a&gt;：包括更简洁的主屏幕和更清晰的搜索结果，从网页搜索结果中删除广告等干扰内容。&lt;/li&gt;
-&lt;li&gt;开发者方面的改进：针对开发者优化 Windows 11 体验，帮助开发者更快地构建和发布产品。&lt;/li&gt;
-&lt;li&gt;开发者方面的改进：&lt;a href="https://www.landian.news/archives/113703.html" rel="noopener" target="_blank"&gt;针对开发者和专业用户推出 WSL 容器预览版&lt;/a&gt;，用户可以直接运行容器无需 Docker 桌面版。&lt;/li&gt;
-&lt;li&gt;开发者方面的改进：推出带有开发者配置的 Windows 365、Microsoft 执行容器等 (均为企业类功能)。&lt;/li&gt;
-&lt;li&gt;增加 WinUI3 基础架构：强化基础架构并将其扩展到 Windows Shell 更多部分，例如小部件和全新的「运行」体验。&lt;/li&gt;
-&lt;li&gt;架构方面的未来改进：微软还将通过 WinUI3 架构强化平台基础，加速 Windows 11 和应用生态系统现代化进程。&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.landian.news/archives/112973.html" rel="noopener" target="_blank"&gt;新版可移动位置任务栏&lt;/a&gt;：现在任务栏已经可以放到屏幕顶部、左侧和右侧，不再强迫用户将其放在屏幕底部。&lt;/li&gt;
-&lt;li&gt;新版开始菜单：&lt;a href="https://www.landian.news/archives/112704.html" rel="noopener" target="_blank"&gt;开始菜单现在可以进行更多个性化设置&lt;/a&gt;，例如不同的列表模式 / 网格模式和内容设置等。&lt;/li&gt;
-&lt;li&gt;减少垃圾 AI 功能：简化 Windows 11 AI 功能，将部分垃圾 AI 功能删掉或替换掉，避免干扰用户。&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.landian.news/archives/114111.html" rel="noopener" target="_blank"&gt;资源管理器改进&lt;/a&gt;：提高资源管理器可靠性，提升地址栏、文件大小格式、键盘导航和重命名的易用性等等。&lt;/li&gt;
-&lt;li&gt;驱动程序质量计划：该计划旨在提高驱动程序质量、可靠性和安全性，已经部署的改进包括提高 USB4 扩展坞性能。&lt;/li&gt;
-&lt;li&gt;响应速度和调度：微软还在加大技术栈的投入，从内核到 Shell 及各类工具，目标是从根本上提升性能和响应速度。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;微软还提到正在改进 Windows 11 内存效率，例如利用更高效的内存分配器减少应用程序和组件的开销、持续调整 WinUI3 使其构建的应用程序在设计上就使用更少的内存。提高 Chromium 和 WebView2 组件在操作系统中的效率以减少内存开销等。&lt;/p&gt;
-&lt;p&gt;值得注意的是，说是在减少内存开销结果这段时间微软还向用户&lt;a href="https://www.landian.news/archives/114144.html" rel="noopener" target="_blank"&gt;推送基于 WebView2 构建的 OneDrive Photos&lt;/a&gt;，该应用属于捆绑在 OneDrive 中的因此不能单独卸载，所以 Windows 团队的改进计划优先级可能还是要低于商业化部门的？&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://blogs.windows.com/windows-insider/2026/07/31/windows-quality-an-update-on-the-commitment-we-made-in-march/" rel="noopener" target="_blank"&gt;微软官方博客&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 01 Aug 2026 05:53:54 +0000</pubDate></item></channel></rss>
+</description><pubDate>Sat, 01 Aug 2026 07:52:55 +0000</pubDate></item></channel></rss>
