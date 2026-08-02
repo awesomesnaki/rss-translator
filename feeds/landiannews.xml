@@ -24,7 +24,21 @@
 &lt;p&gt;美国参议院情报委员会民主党高层 Mark Warner 则表示，Anthropic 事件说明要求先进模型进行强制能力测试是有必要的。&lt;/p&gt;
 &lt;p&gt;这类事件目前还不算是传统意义上的大规模恶意攻击，但这也已经把一个长期停留在安全论文和红队测试里的问题推到现实环境：当 AI 智能体拥有足够强的网络攻击能力时，实验室是否真的能稳定限制智能体的行动边界。&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 01 Aug 2026 07:52:55 +0000</pubDate></item><item><title>Chrome近期3个版本修复1,442个漏洞 比之前23个版本修复的漏洞总和还多😬😬</title><link>https://www.landian.news/archives/114150.html</link><description>#安全资讯 谷歌透露 Chrome 近期 3 个版本合计修复 1,442 个漏洞，比之前 23 个版本修复的漏洞总和还多。具体来说在 6 月发布的 149/150 版中谷歌修复 1,072 个漏洞，而 126~148 合计修复的漏洞都没超过 1,000 个。如此快的漏洞发掘速度自然是靠 AI 实现的，无论是谷歌还是安全公司现在都在积极使用 AI 发掘漏洞。查看全文：https://ourl.co/114150</description><pubDate>Sat, 01 Aug 2026 06:55:29 +0000</pubDate></item><item><title>微软首次明确将8GB内存作为优化目标 要优化Windows 11在8GB内存的使用体验</title><link>https://www.landian.news/archives/114149.html</link><description>
+</description><pubDate>Sat, 01 Aug 2026 07:52:55 +0000</pubDate></item><item><title>Chrome近期3个版本修复1,442个漏洞 比之前23个版本修复的漏洞总和还多😬😬</title><link>https://www.landian.news/archives/114150.html</link><description>
+&lt;p&gt;#安全资讯 谷歌透露 Chrome 近期 3 个版本合计修复 1,442 个漏洞，比之前 23 个版本修复的漏洞总和还多。具体来说在 6 月发布的 149/150 版中谷歌修复 1,072 个漏洞，而 126~148 合计修复的漏洞都没超过 1,000 个。如此快的漏洞发掘速度自然是靠 AI 实现的，无论是谷歌还是安全公司现在都在积极使用 AI 发掘漏洞。查看全文：https://ourl.co/114150&lt;/p&gt;&lt;p&gt;谷歌日前在博客中透露，Chrome 149.x 和 150.x 合计修复高达 1,072 个安全漏洞，以上版本均为谷歌在 6 月发布的，而在本周发布的 Chrome 151.x 版中谷歌修复 370 个漏洞，也就是说近期 3 个主要版本中谷歌合计修复高达 1,442 个漏洞。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114150-1.png" rel="nofollow"&gt;&lt;img alt="Chrome近期3个版本修复1,442个漏洞 比之前23个版本修复的漏洞总和还多😬😬" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114150-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;根据谷歌自己发布的数据，Chrome 126.x 到 148.x 合计修复的漏洞都没有超过 1,000 个，而 Chrome 149.x 和 150.x 修复 1072 个漏洞，如果加上 Chrome v151.x 则合计修复 1442 个漏洞。&lt;/p&gt;
+&lt;p&gt;以最新的 Chrome v151.x 为例，该版本合计修复 370 个漏洞，其中 349 个漏洞是谷歌自己发现和报告的，剩余漏洞由外部安全公司 / 安全研究员报告，而这 370 个漏洞里有 7 个被评为严重级别，黑客可以使用这些漏洞发起实际攻击。&lt;/p&gt;
+&lt;p&gt;&lt;img decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114150-2.png"/&gt;&lt;/p&gt;
+&lt;p&gt;如此多的漏洞显然不是靠人工发掘的，大部分漏洞都是谷歌或外部安全研究员通过人工智能发掘漏洞，也就是借助人工智能，整个行业的漏洞发掘速度都在快速增长。甚至漏洞太多 Chrome 团队都来不及或者没空写详细日志，最终也靠 AI 发布漏洞说明和 CVE 描述。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;谷歌此前已经透露 Chrome 浏览器的安全更新将缩短到 2 周发布，也就是每 2 周谷歌就会发布 Chrome 新版本 (漏洞修复版本) 来解决漏洞问题，缩短安全更新时间也是为了尽快修复漏洞，谷歌称这是面对快速发展的 AI 驱动型攻击的应对方式。&lt;/p&gt;
+&lt;p&gt;在博客中谷歌还强调妥善的公开漏洞披露仍然至关重要，所有进入 Chrome 稳定版的安全漏洞，无论是内部发现还是外部报告，谷歌都会按照标准最佳实践进行记录并公开披露，让客户、安全公司、研究人员都可以跟踪和查阅漏洞，这可以保持 Chrome 安全透明度。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://blog.google/security/chrome-stronger-with-every-update/" rel="noopener" target="_blank"&gt;谷歌安全博客&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sat, 01 Aug 2026 06:55:29 +0000</pubDate></item><item><title>微软首次明确将8GB内存作为优化目标 要优化Windows 11在8GB内存的使用体验</title><link>https://www.landian.news/archives/114149.html</link><description>
 &lt;p&gt;#系统资讯 微软在博客中首次提到将针对 8GB 内存设备进行优化，这是内存价格太高带来的直接影响。现在越来越多的 OEM 重新推出 8GB 内存设备，配备更多的内存会导致零售价太高因而存在销量问题。所以最终还是得靠微软在软件层面进行优化，至少要让 Windows 11+8GB 内存不至于太卡、要达到能正常使用的水平。查看全文：https://ourl.co/114149&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/114148.html" rel="noopener" target="_blank"&gt;前文我们提到微软发文介绍这段时间以来团队对 Windows 11 系统的改进&lt;/a&gt;，这些改进被微软称为质量优化，也就是解决客户长期以来抱怨的 Windows 11 可靠性太差、响应速度慢和体验比较糟糕的问题，在博客结尾微软还特别提到将对 8GB 内存设备进行优化。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114149.png" rel="nofollow"&gt;&lt;img alt="微软首次明确将8GB内存作为优化目标 要优化Windows 11在8GB内存的使用体验" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114149.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
