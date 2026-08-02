@@ -20,9 +20,11 @@
 &lt;p&gt;&lt;strong&gt;#15 Amose2024&lt;/strong&gt;：前天我正好搞了一个下载工具，目前还在完善中，欢迎提意见。&lt;a href="https://github.com/AmoseCP/TubeGrab/releases/tag/v0.2.0" rel="nofollow noopener" target="_blank"&gt;https://github.com/AmoseCP/TubeGrab/releases/tag/v0.2.0&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#16 osilinka&lt;/strong&gt;：Yt-dlp 可以用 cookies 模式&lt;br/&gt;有可能你 IP 被控了&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#17 cue&lt;/strong&gt;：用 metube 。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#18 franklioxygen&lt;/strong&gt;：&lt;a href="https://github.com/franklioxygen/MyTube" rel="nofollow noopener" target="_blank"&gt;https://github.com/franklioxygen/MyTube&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;自己 host 一个&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 02 Aug 2026 07:37:02 +0000</pubDate></item><item><title>似乎开源项目作者不知道/不想利用 AI 来加速自己的开发？</title><link>https://www.v2ex.com/t/1231528</link><description>&lt;p&gt;我关注的几个开源项目，gopeed,FluxDown, retainpdf 等似乎进展很慢。  为啥不利用 fable5 来加速呢？&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#18 franklioxygen&lt;/strong&gt;：&lt;a href="https://github.com/franklioxygen/MyTube" rel="nofollow noopener" target="_blank"&gt;https://github.com/franklioxygen/MyTube&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;自己 host 一个&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#19 wniming&lt;/strong&gt;：yt-dlp ，不需要 cookies ，只要你的 ip 干净就行，我经常用，过去一年都下载几百个 youtube 视频和音乐了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#20 wclebb&lt;/strong&gt;：一直用 downie 下载，从未断过。&lt;br/&gt;感觉你更像是 IP 脏。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 02 Aug 2026 07:37:02 +0000</pubDate></item><item><title>似乎开源项目作者不知道/不想利用 AI 来加速自己的开发？</title><link>https://www.v2ex.com/t/1231528</link><description>&lt;p&gt;我关注的几个开源项目，gopeed,FluxDown, retainpdf 等似乎进展很慢。  为啥不利用 fable5 来加速呢？&lt;/p&gt;
 &lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-08-02 14:48:41 +08:00"&gt;10h 0m ago&lt;/span&gt;
+Supplement 1  ·  &lt;span title="2026-08-02 14:48:41 +08:00"&gt;12h 7m ago&lt;/span&gt;
 
 我一个代码门外汉，都能利用 AI 来做一些简单的东西了。那是否是说简单东西 AI 来做没问题，复杂的功能哪怕逻辑没问题，AI 也做不出来？
 
@@ -72,7 +74,9 @@ Supplement 1  ·  &lt;span title="2026-08-02 14:48:41 +08:00"&gt;10h 0m ago&lt
 &lt;p&gt;&lt;strong&gt;#43 sky96111&lt;/strong&gt;：FluxDown 都快把纯 AI 写在脸上了，并非“不知道/不想利用 AI”&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#44 billccn&lt;/strong&gt;：正常团队维护代码都是站在代码构架的立场上“吸收”新的功能，如果完全不适合的功能就会拒绝或者安排重构，重构的时候还会考虑如何解决其他的技术债或者实现新的能力等，让重构的时间更有价值。&lt;br/&gt;&lt;br/&gt;AI 基本上是把完成用户的指示作为唯一目的，还有系统提示词基本上都有减少询问用户的指示，即使构架完全不适合，AI 也通常会蛮力完成，生成的代码如💩一般，大家应该都见过。&lt;br/&gt;&lt;br/&gt;即使 AI 也进行了重构，但是重构的方向和维护团队的不同，那谁愿意花时间去审阅它，那这个 PR 也无法合并。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#45 aojunhao123&lt;/strong&gt;：你都说你是门外汉了就不要想当然地下结论了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#46 osilinka&lt;/strong&gt;：软件的复杂度越来越高，编码只是最简单的一部分了。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 02 Aug 2026 05:43:08 +0000</pubDate></item><item><title>知乎里一眼望去都是 gpt 生成的文章，为什么每个文章下面都是一片祥和</title><link>https://www.v2ex.com/t/1231526</link><description>&lt;p&gt;如题，&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#46 osilinka&lt;/strong&gt;：软件的复杂度越来越高，编码只是最简单的一部分了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#47 aes114514gcm&lt;/strong&gt;：SQLite 数据库的作者 Richard Hipp，在一次采访中解释，为什么他的项目一律不接受外部的 PR。&lt;br/&gt;&lt;br/&gt;"&lt;br/&gt;假设你有一个关于 SQLite 的 PR。你对我说：” 嘿，我为 SQLite 开发了一个新功能，这是我提交的 PR。”&lt;br/&gt;&lt;br/&gt;你想让我把它合并到代码库中时，你说：” 哦，它是免费的。”&lt;br/&gt;&lt;br/&gt;不，PR 不是免费的。&lt;br/&gt;&lt;br/&gt;你实际上是对我提要求：你开发了这个很棒的功能，然后希望我帮你维护它、帮你编写文档、帮你测试，并在接下来的二十五年里一直为你维护它。这可不是免费的。&lt;br/&gt;&lt;br/&gt;Linus 曾说过一句名言：Free 既可以指免费啤酒，也可以指言论自由。但还有另一种 Free：免费的小狗。” 瞧，我这儿有只免费的小狗送给你。” 你明白我的意思了吧？&lt;br/&gt;&lt;br/&gt;提交一个 pull request 就相当于有人送你一只小狗。一天下来，你的小屋里就多了一只小狗。你不能把它扔掉 —- 你有道义上的责任照顾它，直到它自然死亡。&lt;br/&gt;&lt;br/&gt;我可不要任何免费的小狗。&lt;br/&gt;"&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#48 ffalex&lt;/strong&gt;：他们都有用 ai 开发吧，提交里面也有 claude 的共同提交，你所谓的加速是什么？&lt;br/&gt;一些 bug 在发布前就解决了，更多的 bug 靠用户反馈，然后是新功能也是想出来的，也不是随便加进去的。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 02 Aug 2026 05:43:08 +0000</pubDate></item><item><title>知乎里一眼望去都是 gpt 生成的文章，为什么每个文章下面都是一片祥和</title><link>https://www.v2ex.com/t/1231526</link><description>&lt;p&gt;如题，&lt;/p&gt;
 &lt;p&gt;打开知乎，一眼望去都是 gpt 风味文章，gpt 的文章风味太熟悉了。&lt;/p&gt;
 &lt;p&gt;但是评论区甚至能看到“我的收藏夹就是为了这类文章而生的‘&lt;/p&gt;
 &lt;p&gt;看到这个评论，我久久不能自已，沉默了很久，让我的脑子出现了逻辑错误&lt;/p&gt;
@@ -173,7 +177,9 @@ Supplement 1  ·  &lt;span title="2026-08-02 14:48:41 +08:00"&gt;10h 0m ago&lt
 &lt;p&gt;&lt;strong&gt;#58 dosin&lt;/strong&gt;：有没有比你还 cheap 的人？&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#59 chengtx&lt;/strong&gt;：怎么破甲&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#60 Jacobson&lt;/strong&gt;：@&lt;a href="/member/seers"&gt;seers&lt;/a&gt; vulkan 现在看来可以用用了，我正好有块 9070 ，迟点我也试试，写不了代码，那也可以干别的嘛&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#61 kukuos123&lt;/strong&gt;：我都是用 sensenova 白嫖免费 deepseek-v4-flash ，有每 5 小时 500 次限制，我两个号一起用不用实名认证。"公测期完全免费开放，各模型单独计量，具体请参照文档说明。（同账户所有 Key 共享）"&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 02 Aug 2026 03:09:51 +0000</pubDate></item><item><title>一个 Flutter 独立开发者，用 AI 做了一款跑步音乐 App，上线后只有几个下载，想听听大家的建议</title><link>https://www.v2ex.com/t/1231508</link><description>&lt;p&gt;大家好，我是一名 Flutter 全栈 独立开发者。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#61 kukuos123&lt;/strong&gt;：我都是用 sensenova 白嫖免费 deepseek-v4-flash ，有每 5 小时 500 次限制，我两个号一起用不用实名认证。"公测期完全免费开放，各模型单独计量，具体请参照文档说明。（同账户所有 Key 共享）"&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#62 honjow&lt;/strong&gt;：opencode go 便宜，速度也快&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#63 EVJohn&lt;/strong&gt;：不是，现在除了官方之外，还有那些 api 渠道有版本 DeepSeek-V4-Flash-0731 这个的&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 02 Aug 2026 03:09:51 +0000</pubDate></item><item><title>一个 Flutter 独立开发者，用 AI 做了一款跑步音乐 App，上线后只有几个下载，想听听大家的建议</title><link>https://www.v2ex.com/t/1231508</link><description>&lt;p&gt;大家好，我是一名 Flutter 全栈 独立开发者。&lt;/p&gt;
 &lt;p&gt;最近做了一款叫 RunStar 的 App 。&lt;/p&gt;
 &lt;p&gt;起因其实很简单：&lt;/p&gt;
 &lt;p&gt;我自己跑步的时候发现一个问题——&lt;/p&gt;
