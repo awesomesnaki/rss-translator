@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sun, 02 Aug 2026 18:43:11 +0000</lastBuildDate><item><title>代理电话</title><link>https://fail.xyz/phone/</link><description>&lt;p&gt;感谢 Agent Fone 上周在 DF 的赞助。Agent Fone 是一款极具野心的全新智能手机，它不仅仅搭载了内置 AI 助手。相反，它的核心理念是让你能在手机本身上创建自定义软件。那些你存在笔记里多年的应用创意，那些只有你才会想要的古怪小应用创意。描述你的想法，回答几个问题，Agent Fone 就会构建一个应用或小组件，放到你的主屏幕上。他们正在寻找 50 位个人和小型团队，将首批 50 台硬件设备销售给他们。如果你感兴趣，&lt;a href="https://fail.xyz/phone/"&gt;可以访问他们的网站&lt;/a&gt;，获取所需的所有信息以及该平台的更全面介绍。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sun, 02 Aug 2026 21:02:00 +0000</lastBuildDate><item><title>代理电话</title><link>https://fail.xyz/phone/</link><description>&lt;p&gt;感谢 Agent Fone 上周在 DF 的赞助。Agent Fone 是一款极具野心的全新智能手机，它不仅仅搭载了内置 AI 助手。相反，它的核心理念是让你能在手机本身上创建自定义软件。那些你存在笔记里多年的应用创意，那些只有你才会想要的古怪小应用创意。描述你的想法，回答几个问题，Agent Fone 就会构建一个应用或小组件，放到你的主屏幕上。他们正在寻找 50 位个人和小型团队，将首批 50 台硬件设备销售给他们。如果你感兴趣，&lt;a href="https://fail.xyz/phone/"&gt;可以访问他们的网站&lt;/a&gt;，获取所需的所有信息以及该平台的更全面介绍。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/08/02/agent-fone" title="Permanent link to ‘Agent Fone’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sun, 02 Aug 2026 18:43:11 +0000</pubDate></item><item><title>苹果升级情况</title><link>https://randsinrepose.com/archives/the-apple-upgrade-situation/</link><description>&lt;p&gt;Michael Lopp 在 Rands in Repose 上写道：&lt;/p&gt;
+</description><pubDate>Sun, 02 Aug 2026 21:02:00 +0000</pubDate></item><item><title>Boris Cherny谈尝试用Claude Code重写Claude应用</title><link>https://www.ycrootaccess.com/p/boris-cherny-building-claude-code</link><description>&lt;p&gt;上周，在Y Combinator创业学校2026的舞台上，Anthropic公司Claude Code负责人Boris Cherny接受了Diana Hu的采访。在&lt;a href="https://youtu.be/qyPCVqFUyDo?t=1230"&gt;视频约20:30处&lt;/a&gt;，他简短地讨论了如何引导Claude完成困难任务：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Cherny：&lt;/strong&gt;我觉得如今的技能已经不太关乎提示工程，而更在于弄清楚如何给Claude一个看似有点太难的任务。然后你如何让Claude在过程中能够验证自己的工作？验证大概是人们普遍做得最不到位的一件事。&lt;/p&gt;
+&lt;p&gt;举个例子——我们有一个Claude桌面应用，是用Electron构建的。我们把它做得相当快了。现在体验非常棒。六个月前它还反应迟钝，不太可靠。现在真的很棒了。这是团队大多数人都在用的东西。作为实验，我想看看如果用原生代码实现会是什么感觉。所以我做的是，我启动了一个Claude Tag会话。Claude Tag是我们的一个新产品，就是运行在Slack里的Claude。我的第一个问题是：“嘿，Tag，你能访问GitHub上的macOS runner吗？”它说不能。然后我连接了一个runner。这样它就能用GitHub启动一个Mac虚拟机。我的第二个问题是，我创建了一个空代码库，那是用Swift重写的Claude桌面应用。&lt;/p&gt;
+&lt;p&gt;我问：“你能访问这个代码库吗？”它说不能。然后我给了它访问权限，它说：“好的，太好了。现在我有了访问权限。”然后我说：“好的，现在我要你做的是，用Swift重写那个Electron应用。我要你在Mac虚拟机里运行Electron应用，截图，然后逐像素查看。把它和Swift版本做对比。不完成不要停。”&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hu：&lt;/strong&gt;基本上那就是你的提示词？&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Cherny：&lt;/strong&gt;那就是我的提示词。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hu：&lt;/strong&gt;那这跑了多长时间？&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Cherny：&lt;/strong&gt;它还在跑。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hu：&lt;/strong&gt;你什么时候开始的？&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Cherny：&lt;/strong&gt;已经跑了两个多星期了。大概14天、15天吧。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我觉得这确实很有趣，但我不认为它像某些给我发这段采访链接的人所想的那样有趣。我不认为这是一个为Claude打造真正原生Mac客户端的认真尝试。而且就算真是如此，Cherny的做法也完全是错的。&lt;/p&gt;</description><pubDate>Sun, 02 Aug 2026 21:01:12 +0000</pubDate></item><item><title>苹果升级情况</title><link>https://randsinrepose.com/archives/the-apple-upgrade-situation/</link><description>&lt;p&gt;Michael Lopp 在 Rands in Repose 上写道：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;自从&lt;a href="https://www.apple.com/shop/iphone/iphone-upgrade-program"&gt;苹果 iPhone 升级计划&lt;/a&gt;发布以来，我一直觉得这不只是一笔划算的交易，简直是白捡的便宜。具体来说：&lt;/p&gt;
 &lt;ul&gt;
@@ -40,6 +52,4 @@
 &lt;li&gt;&lt;a href="https://squarespace.com/talkshow"&gt;Squarespace&lt;/a&gt;：使用代码 &lt;strong&gt;TALKSHOW&lt;/strong&gt; 首次购买网站或域名可享受 10% 优惠。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;a href="https://daringfireball.net/linked/2026/07/31/the-talk-show-453" title="《The Talk Show：'Louie 的钱包里有什么'》的固定链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Fri, 31 Jul 2026 22:50:04 +0000</pubDate></item><item><title>&lt;strong&gt;★ Temu 是一款滑稽至极的糟糕应用&lt;/strong&gt;</title><link>https://daringfireball.net/2026/07/temu_is_a_comically_bad_app</link><description>&lt;p&gt;Temu如今已不再是美国App Store免费应用榜单的榜首，但仍排在25名以内。（今天早上还排在第19位，下午就滑到了第22位。）Temu的口号始终如一：“像亿万富翁一样购物。”我有什么资格反驳呢？我们知道&lt;a href="https://www.wsj.com/business/elon-musk-illegal-drugs-e826a9e1?st=rAN3Cp"&gt;其中一位&lt;/a&gt;吸了不少毒品——也许他们全都如此，而Temu就是那种感觉。&lt;/p&gt;
-&lt;p&gt;在我下了第一笔订单后，Temu的邮件就开始源源不断地涌来。其中有七封与我的订单相关：订单确认、发货通知、物流更新、另一封物流更新、一封“我们注意到您的订单未按时送达，因此奉上5美元优惠券”的通知、送达确认，然后是一条邀请我留下“关于产品品质和整体体验的诚实评价”的提示。邮件继续接踵而至。我决定让它们一直开着，直到我在Daring Fireball上写完我的Temu体验为止。就在我敲下这句话的当下，我已经收到了整整916封邮件。自我在他们那儿下了唯一一单以来的1,076天里，差不多平均每天不到一封。&lt;a href="https://daringfireball.net/misc/2026/07/Temu-Email-Subjects-(916).text"&gt;这是一份文本文件，列出了全部916封邮件的日期和主题行&lt;/a&gt;。在我下单后的最初几个月里，他们每天都会给我发好几封邮件，一天都不落。我特别欣赏的一点是，在主题行中，他们偶尔会把我的名字缩写为“John Gru...”（为了隐私？），尽管事实上（a）这些邮件全都是发给我的，而且（b）在很多其他邮件里，他们又在主题里完整拼出了我的全名。&lt;/p&gt;
-&lt;p&gt;别学我那样真的去试Temu。&lt;a href="https://social.panic.com/@cabel/116987028774035194"&gt;直接看Sasser的视频就行了&lt;/a&gt;。它会告诉你所有你需要知道的事情。&lt;/p&gt;</description><pubDate>Fri, 31 Jul 2026 18:27:50 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 31 Jul 2026 22:50:04 +0000</pubDate></item></channel></rss>
