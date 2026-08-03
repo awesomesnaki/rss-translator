@@ -1,5 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sun, 02 Aug 2026 21:02:00 +0000</lastBuildDate><item><title>代理电话</title><link>https://fail.xyz/phone/</link><description>&lt;p&gt;感谢 Agent Fone 上周在 DF 的赞助。Agent Fone 是一款极具野心的全新智能手机，它不仅仅搭载了内置 AI 助手。相反，它的核心理念是让你能在手机本身上创建自定义软件。那些你存在笔记里多年的应用创意，那些只有你才会想要的古怪小应用创意。描述你的想法，回答几个问题，Agent Fone 就会构建一个应用或小组件，放到你的主屏幕上。他们正在寻找 50 位个人和小型团队，将首批 50 台硬件设备销售给他们。如果你感兴趣，&lt;a href="https://fail.xyz/phone/"&gt;可以访问他们的网站&lt;/a&gt;，获取所需的所有信息以及该平台的更全面介绍。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Mon, 03 Aug 2026 17:19:34 +0000</lastBuildDate><item><title>★ 为什么苹果要求通过三大运营商之一开通蜂窝账户才能租赁iPhone</title><link>https://daringfireball.net/2026/08/followup_big_three_carrier_requirement</link><description>&lt;p&gt;延续上周的话题，&lt;a href="https://daringfireball.net/linked/2026/07/30/apple-upgrade-vs-iphone-upgrade-program"&gt;当时我曾问道&lt;/a&gt;：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;当您通过 Apple Upgrade 租赁 iPhone 时，您需要在三家美国大型运营商中拥有一家的话费账户：AT&amp;amp;T、T-Mobile 或 Verizon。这有点令人不爽，而且我不太明白为什么。您是通过 Apple 和 Klarna 租赁 iPhone，而不是通过运营商，所以我不明白 Apple 为何在意这一点。如果您知道原因，&lt;a href="https://daringfireball.net/contact/"&gt;请给我发消息&lt;/a&gt;解释一下。这难道仅仅是一种简单的信用风险评估，将预付费套餐用户和 MVNO 用户一概视为可疑对象？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我收到了大量关于此问题的消息。信用风险评估似乎是其中的一部分原因。iPhone 购买以及整个手机服务领域确实存在大量欺诈行为。三大运营商在允许您开通新的后付费账户之前会进行大量的风险评估；您在其中一家拥有活跃账户，这本身就是一个信号，表明您不是试图使用虚假身份租赁 iPhone 然后再转卖。&lt;/p&gt;
+&lt;p&gt;但更主要的原因在于 Apple 与三大运营商之间合同的复杂性。一位曾在 Apple 运营商团队工作多年（但几年前离职）的读者写道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;关于您提出的问题——为什么 Apple 只为新的升级计划在“三大运营商”上提供 iPhone：每年，Apple 的运营商团队都会与这三大运营商分别谈判一项协议/计划（涉及数亿美元）。作为这些资金的回报，Apple 会做出诸如此类（或类似的）让步。这也是为什么，例如，它们的标志会出现在更显眼的位置，或者是在标牌、广告等上唯一被提及的运营商。尽管它们实际上并不受 MVNO（非其旗下的那些）或区域性运营商的威胁，这更像是 Apple 将其作为一揽子交易的一部分来销售，而这一揽子交易是专门提供给其最大、最好的“一级”合作伙伴的。这也起到了一个诱饵的作用，不断试图激励较小的合作伙伴按照 Apple 期望的方向行事。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这种情况可能会改变——一些较大的 MVNO 正在努力跻身“一级”合作伙伴（或者也许创造一个新的“一级半”）。但多年来，Apple 与三大运营商之间的联合营销协议中，有一部分内容就是 Apple 同意要求所有“特殊”iPhone 融资交易都必须拥有三大运营商之一的后付费账户，这包括旧的 iPhone 升级计划和新的 Apple Upgrade 租赁计划。&lt;/p&gt;
+&lt;p&gt;一个有趣的例外是，Boost Mobile 与三大运营商一起被纳入 Apple 卡月度分期（ACMI）计划，该计划在您使用 Apple 卡购买某些产品时提供 0% 年利率。&lt;a href="https://support.apple.com/en-us/104950"&gt;根据 ACMI 的细则&lt;/a&gt;：&lt;/p&gt;&lt;blockquote&gt;
+&lt;p&gt;要通过ACMI购买iPhone，你必须选择以下运营商之一（不支持预付运营商套餐）：AT&amp;amp;T、Boost Mobile、T-Mobile或Verizon。通过ACMI购买的iPhone始终是无锁版，因此你可以随时更换运营商，但需遵守你所在运营商的相关条款。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;所以，或许一些较大的MVNO运营商会设法进入Apple Upgrade计划——但如果他们真的进入，听起来他们需要为此向苹果付费。&lt;/p&gt;
+&lt;p&gt;关于欺诈问题，一位前Apple Store零售员工写道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我2019年离职，但我估计在某些日子里，门店现场手机销售中有两位数的百分比是欺诈交易。&lt;/p&gt;
+&lt;p&gt;当店里开始支持运营商分期付款后，这种行为彻底爆发了。他们盗用了合法账户持有人的身份，带着访问账户所需的信息走进店里。他们总是想要最高端的手机，并用现金支付销售时的税费。从不想要任何配件。从不想打开盒子或激活手机。&lt;/p&gt;
+&lt;p&gt;尽管有激活要求时情况已经很糟糕，但没有这个要求的话只会更糟。我相信现在已经好多了，运营商也部署了更先进的系统来检测和阻止这种行为。但归根结底，运营商为那些从未收到付款的设备承担了数百万美元的成本。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我怀疑那位读者是对的，苹果与运营商合作，已经严厉打击了这种行为。&lt;/p&gt;</description><pubDate>Mon, 03 Aug 2026 17:19:34 +0000</pubDate></item><item><title>Ulysses S. Grant on the Future Dividing Line
+
+尤利西斯·S·格兰特论未来的分界线</title><link>https://www.snopes.com/fact-check/grant-next-civil-war/</link><description>&lt;p&gt;尤利西斯·S·格兰特，1875年：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在公民为主权者、官员为仆人的地方，在除了人民意志之外没有任何权力行使的地方，重要的是主权者——即人民——应当拥有智慧。&lt;/p&gt;
+&lt;p&gt;公立学校是那种智慧的推动者，这种智慧将使我们作为一个自由国家得以存续。如果我们国家的存续在不久的将来面临另一场较量，我预测分界线将不再是梅森-迪克森线，而是一边是爱国主义与智慧，另一边是迷信、野心与无知。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;不确定2020年代算不算“不久的将来”，但天哪，这简直是对我们当下时刻一针见血的概括。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/08/03/grant" title="Permanent link to ‘Ulysses S. Grant on the Future Dividing Line’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Mon, 03 Aug 2026 17:14:42 +0000</pubDate></item><item><title>Truth Social 推出特朗普帖子的付费抢先访问</title><link>https://www.npr.org/2026/08/01/nx-s1-5912219/trump-truth-social-access-insider-trading</link><description>&lt;p&gt;Bobby Allyn，NPR报道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;特朗普媒体与科技集团正在&lt;a href="https://s3.amazonaws.com/b2icontent.irpass.cc/2660/rl168199.pdf"&gt;向交易员和投资者推销&lt;/a&gt;
+Truth Social的付费高级版本，可提前获取包括总统在内的高知名度用户的信息流。从周六起，交易公司每月最高支付10万美元，
+即可通过“Truth API”在全世界其他人之前，抢先看到总统那些经常&lt;a href="https://www.npr.org/2026/05/08/nx-s1-5749358/trump-truth-social-online-posts-iran-white-house-ballroom"&gt;引发市场波动的&lt;/a&gt;
+经济政策和全球事务公告。&lt;/p&gt;
+&lt;p&gt;特朗普的媒体公司表示，客户已经开始注册。这样的服务将为机构投资者在高速交易等金融领域提供优势，在那些领域，
+几毫秒的领先可能意味着数百万美元的差异。但这项服务会被华尔街广泛采用吗？&lt;/p&gt;
+&lt;p&gt;“这太疯狂了，”一位华尔街高管表示，他因担心遭到特朗普政府报复而要求匿名。“我可以代表我自己和金融界的200个朋友说，
+我们绝不会碰这东西。换一届政府，这将被视为犯罪。”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这&lt;em&gt;确实&lt;/em&gt;是犯罪。这是表面上的“内幕交易即服务”，或者至少它的&lt;em&gt;意图&lt;/em&gt;就是如此。而在下一届政府任内，
+没有理由认为它不会被以同样的罪名起诉。特朗普2.0政府如此肆无忌惮地秉承“只要公开做就不算腐败”的理念，实在令人震惊。
+有句老话说，让你栽跟头的不是罪行本身，而是掩盖罪行的行为。他们对此心领神会，干脆省去了掩盖这一步。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/08/03/truth-social-paid-access" title="‘Truth Social推出特朗普帖子付费提前访问’的固定链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Mon, 03 Aug 2026 16:00:29 +0000</pubDate></item><item><title>代理电话</title><link>https://fail.xyz/phone/</link><description>&lt;p&gt;感谢 Agent Fone 上周在 DF 的赞助。Agent Fone 是一款极具野心的全新智能手机，它不仅仅搭载了内置 AI 助手。相反，它的核心理念是让你能在手机本身上创建自定义软件。那些你存在笔记里多年的应用创意，那些只有你才会想要的古怪小应用创意。描述你的想法，回答几个问题，Agent Fone 就会构建一个应用或小组件，放到你的主屏幕上。他们正在寻找 50 位个人和小型团队，将首批 50 台硬件设备销售给他们。如果你感兴趣，&lt;a href="https://fail.xyz/phone/"&gt;可以访问他们的网站&lt;/a&gt;，获取所需的所有信息以及该平台的更全面介绍。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/08/02/agent-fone" title="Permanent link to ‘Agent Fone’"&gt; ★ &lt;/a&gt;
 </description><pubDate>Sun, 02 Aug 2026 21:02:00 +0000</pubDate></item><item><title>Boris Cherny谈尝试用Claude Code重写Claude应用</title><link>https://www.ycrootaccess.com/p/boris-cherny-building-claude-code</link><description>&lt;p&gt;上周，在Y Combinator创业学校2026的舞台上，Anthropic公司Claude Code负责人Boris Cherny接受了Diana Hu的采访。在&lt;a href="https://youtu.be/qyPCVqFUyDo?t=1230"&gt;视频约20:30处&lt;/a&gt;，他简短地讨论了如何引导Claude完成困难任务：&lt;/p&gt;
 &lt;blockquote&gt;
@@ -13,43 +57,4 @@
 &lt;p&gt;&lt;strong&gt;Hu：&lt;/strong&gt;你什么时候开始的？&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Cherny：&lt;/strong&gt;已经跑了两个多星期了。大概14天、15天吧。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;我觉得这确实很有趣，但我不认为它像某些给我发这段采访链接的人所想的那样有趣。我不认为这是一个为Claude打造真正原生Mac客户端的认真尝试。而且就算真是如此，Cherny的做法也完全是错的。&lt;/p&gt;</description><pubDate>Sun, 02 Aug 2026 21:01:12 +0000</pubDate></item><item><title>苹果升级情况</title><link>https://randsinrepose.com/archives/the-apple-upgrade-situation/</link><description>&lt;p&gt;Michael Lopp 在 Rands in Repose 上写道：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;自从&lt;a href="https://www.apple.com/shop/iphone/iphone-upgrade-program"&gt;苹果 iPhone 升级计划&lt;/a&gt;发布以来，我一直觉得这不只是一笔划算的交易，简直是白捡的便宜。具体来说：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;你可以申请一笔 0% 利率的贷款，购买全价 iPhone。&lt;/li&gt;
-&lt;li&gt;如果获批，款项分 24 个月分摊支付。&lt;/li&gt;
-&lt;li&gt;付满 24 个月，手机就归你了。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;这只是交易本身；而“白捡的便宜”在于，每年换新手机几乎毫不费力。我会续约换新机，苹果则会免除我之前贷款剩余的还款，因为我签了又一轮 24 个月。哦，还有额外的福利：AppleCare 也包含在内，这简直太划算了，因为我讨厌 iPhone 手机壳（iPhone 设计出来就是让人用手感受的），而且，呃，我这个人吧，也确实出名的爱摔手机。[……]&lt;/p&gt;
-&lt;p&gt;乍一看，新计划似乎更便宜。原计划：一年 iPhone 17 Pro（256GB，标价 1,099 美元）大约是每月 57 美元。12 期还款，以旧换新，再来一轮：&lt;em&gt;一年约 684 美元&lt;/em&gt;。新计划，同样的手机：12 个月租赁，每月 45.99 美元：&lt;em&gt;一年 552 美元&lt;/em&gt;。&lt;/p&gt;
-&lt;p&gt;但是等等！新计划第一个也是最重要的变化是，AppleCare &lt;em&gt;不再包含在内&lt;/em&gt;。把它加回到这部手机上，每月 13.99 美元：&lt;em&gt;一年 720 美元&lt;/em&gt;。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-这大概是最能说明新计划“猫腻”的一个论据了。旧版 iPhone 升级计划包含 AppleCare 保障，而新的 Apple 升级租赁计划不包含。
-
-就我个人而言，自从 1991 年给大学时用的 Macintosh LC 买过 AppleCare 之后，我再没给任何设备买过 AppleCare，无论是给自己还是给家人。苹果产品自带不错的保修。这几十年下来，我从不买 AppleCare，而是偶尔自费维修，省下了几千美元。（我有两次摔裂过 iPhone 屏幕，都是花钱换的。）但我知道，有些人如果没有 AppleCare，根本不会考虑买 iPhone（尤其是作为一件可能摔落的设备）。&lt;strong&gt;更新：&lt;/strong&gt;Lopp 算的 AppleCare 费用是按月支付的；如果按年支付（1,099 美元的 iPhone 对应 139 美元），那么新的按月 Apple 升级计划加上 AppleCare 的年成本是 691 美元——这和旧版 iPhone 升级计划每年 684 美元的成本&lt;em&gt;非常&lt;/em&gt;接近。
-
-&lt;a href="https://daringfireball.net/linked/2026/08/01/the-apple-upgrade-situation" title="指向“苹果升级计划的现状”的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sat, 01 Aug 2026 16:30:40 +0000</pubDate></item><item><title>苹果2026财年第三季度业绩</title><link>https://sixcolors.com/post/2026/07/apple-announces-record-q3-results/</link><description>&lt;p&gt;Jason Snell：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;周四，苹果公布了&lt;a href="https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/"&gt;创纪录的第三季度财报&lt;/a&gt;，总营收达1094亿美元，同比增长16%。iPhone营收增长22%，Mac营收增长10.4%，服务营收增长12%，可穿戴设备营收增长6%。iPad营收下降6%。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Six Colors也照例发布了&lt;a href="https://sixcolors.com/post/2026/07/one-last-time-this-is-tim-transcript-of-apples-q3-2026-financial-call/"&gt;分析师电话会议记录&lt;/a&gt;，这是蒂姆·库克（Tim Cook）的第90次，也是最后一次。&lt;/p&gt;
-&lt;p&gt;在MacRumors上，&lt;a href="https://www.macrumors.com/2026/07/31/tim-cook-apple-15-years/"&gt;Juli Clover写了一篇回顾蒂姆·库克15年CEO生涯的文章&lt;/a&gt;：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;库克出任CEO时，苹果2011年全年营收为1080亿美元。而苹果2026年第三季度营收就达到1094亿美元，相当于一个季度就赚到了2011年全年的营收。我们还没有2026财年的数据，但2025财年营收为4160亿美元。[……]&lt;/p&gt;
-&lt;p&gt;2011年8月库克接任后的第二天，苹果股价为13.35美元（经拆股调整）。如今开盘价为304.81美元，大约是23倍的涨幅。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;在库克的领导下，苹果表现得相当不错。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/08/01/apple-q3-2026-results" title="Permanent link to ‘Apple Q3 2026 Results’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sat, 01 Aug 2026 16:15:15 +0000</pubDate></item><item><title>脱口秀：“路易的钱包里有什么”</title><link>https://daringfireball.net/thetalkshow/2026/07/31/ep-453</link><description>&lt;p&gt;Louie Mantia 回归本节目，讨论 Apple 各平台上 UI 与图标设计的现状，并对 Apple 针对 OpenAI 的商业机密诉讼进行了一些猜测。&lt;/p&gt;
-&lt;p&gt;&lt;audio controls="controls" preload="none" src="https://traffic.libsyn.com/secure/daringfireball/thetalkshow-453-louie-mantia.mp3"&gt;&lt;/audio&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;由以下品牌赞助：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://notion.com/talkshow"&gt;Notion&lt;/a&gt;：协作式 AI 工作空间，团队与智能体并肩工作，并提供开发者平台供团队在其基础上进行构建。&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://evenrealities.com/"&gt;Even Realities&lt;/a&gt;：Even G2，日常佩戴的显示智能眼镜。使用促销代码 &lt;strong&gt;talkshow&lt;/strong&gt;，可在购买 R1 Ring 和/或 Even Clip 时享受 10% 折扣。&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://squarespace.com/talkshow"&gt;Squarespace&lt;/a&gt;：使用代码 &lt;strong&gt;TALKSHOW&lt;/strong&gt; 首次购买网站或域名可享受 10% 优惠。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;a href="https://daringfireball.net/linked/2026/07/31/the-talk-show-453" title="《The Talk Show：'Louie 的钱包里有什么'》的固定链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Fri, 31 Jul 2026 22:50:04 +0000</pubDate></item></channel></rss>
+&lt;p&gt;我觉得这确实很有趣，但我不认为它像某些给我发这段采访链接的人所想的那样有趣。我不认为这是一个为Claude打造真正原生Mac客户端的认真尝试。而且就算真是如此，Cherny的做法也完全是错的。&lt;/p&gt;</description><pubDate>Sun, 02 Aug 2026 21:01:12 +0000</pubDate></item></channel></rss>

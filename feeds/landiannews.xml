@@ -28,7 +28,7 @@
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114175.png" rel="nofollow"&gt;&lt;img alt="史诗级灾难：AI仅花费8分钟就找到ColdCard钱包漏洞 根源是工程师偷懒糊代码" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114175.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;ColdCard 标榜自己仅支持比特币以及通过开源固件代码来提升社区信任度，遗憾的是现在来看该公司的代码审计其实完全流于形式，有网友使用 Claude Code 审计开源固件代码，模型在 8 分钟内就直接定位问题，认为固件生成私钥时调用的是软件伪随机数，而不是芯片上的硬件真随机数生成器。&lt;/p&gt;
-&lt;p&gt;由于使用的伪随机数生成器有问题，这导致生成的种子空间范围非常有限，黑客可以在极端的时间内生成大量种子、比特币钱包地址和私钥，然后将地址与链上数据匹配，如果对应钱包地址有余额的话，就可以直接使用私钥将钱包清空。&lt;/p&gt;
+&lt;p&gt;由于使用的伪随机数生成器有问题，这导致生成的种子空间范围非常有限，黑客可以在极短的时间内生成大量种子、比特币钱包地址和私钥，然后将地址与链上数据匹配，如果对应钱包地址有余额的话，就可以直接使用私钥将钱包清空。&lt;/p&gt;
 &lt;p&gt;如此简单的问题竟然存在 5 年都没有被发现，可见 ColdCard 本身代码审计就是流于形式，但凡工程团队仔细阅读代码就很容易发现问题，这个简单的问题在 5 年后的今天造成了史诗级灾难。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;由于 ColdCard 固件代码开源因此我们可以很轻松的通过 AI 审计代码并分析此次问题的发生根源，从审计结果来看这次问题与工程师偷懒糊代码有直接关系，因为编写代码的工程师在编译时遇到错误，于是这名工程师直接禁用钱包内置的硬件随机数生成器，改成软件生成伪随机数。&lt;/p&gt;
