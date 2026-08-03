@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 03 Aug 2026 04:00:53 +0000</lastBuildDate><item><title>开发者在8GB内存上部署Kimi K3模型并成功运行 只是...速度为33秒/Token</title><link>https://www.landian.news/archives/114176.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 03 Aug 2026 09:33:23 +0000</lastBuildDate><item><title>在Windows 11最新版中，你甚至还可以看到微软小娜(Cortana)的身影</title><link>https://www.landian.news/archives/114177.html</link><description>
+&lt;p&gt;#系统资讯 在 Windows 11 中你甚至还可以看到已经被停止支持很久的微软小娜，当然仅仅只是描述，不知道微软为什么到现在还未更新文本说明。如果用户在 Windows 11 中使用本地账户登录，但在设置中登录微软在线账户，那登录时就可以看到小娜的身影。查看全文：https://ourl.co/114177&lt;/p&gt;&lt;p&gt;微软在近年多次将控制面板里的传统选项迁移到设置里，部分旧版窗口例如「运行」也都换成新样式，不过微软似乎到现在都还没注意到系统登录账户时还会出现微软小娜 (Cortana) 的身影，这处残留已经存在很多年没有被微软删除。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114177.png" rel="nofollow"&gt;&lt;img alt="在Windows 11最新版中，你甚至还可以看到微软小娜(Cortana)的身影" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114177.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Windows 11 中残留的微软小娜身影主要是在系统的登录账户选项，如果用户安装系统时在 OOBE 界面直接登录账户那可能看不到微软小娜，但如果创建本地账户并在进入桌面后，在系统设置里登录账户那弹出的窗口就还存在微软小娜相关的描述。&lt;/p&gt;
+&lt;p&gt;如图：在成功验证账户密码后微软会提醒选择全局登录还是仅限于 Microsoft 应用，在这里可以看到向 Cortana 寻求帮助的描述。这个选项已经存在很多很多年，蓝点网近期在虚拟机中测试功能时再次看到这个提示，不知道微软为什么到现在都还没有修正文案将 Cortana 相关的说明删除。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;2014 年微软在开发者大会中首次宣布 Cortana 数字助理，随后微软将其中文官方名称定为微软小娜，之后微软将微软小娜集成到 Windows 10 桌面版和移动版中，以及推出适用于 iOS 和安卓的独立小娜应用。&lt;/p&gt;
+&lt;p&gt;不过到 2019 年微软就宣布调整策略，不再将微软小娜视为消费级数字助理，而是将其转向生产力助手，只不过后来生产力方面的各类功能也逐渐被削弱或弃用，到 2021 年微软小娜的独立应用也从全球各地应用商店下架，最终在 2023 年 8 月前后微软小娜相关功能被彻底停止支持，无法继续使用。&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 03 Aug 2026 09:33:23 +0000</pubDate></item><item><title>开发者在8GB内存上部署Kimi K3模型并成功运行 只是...速度为33秒/Token</title><link>https://www.landian.news/archives/114176.html</link><description>
 &lt;p&gt;#人工智能 有开发者在本地部署 Kimi K3 模型，仅需 8.24GB 内存就可以实现运行，只是运行速度为 33 秒 / Token (注意看单位)。如果将内存提升到 128GB 则可以实现 20 秒 / Token，不过这也基本是性能上限，继续堆内存无法继续提高效率。目前开发者已经将基于 C99 开发的推理引擎开源，有兴趣的用户可以研究看看。查看全文：https://ourl.co/114176&lt;/p&gt;&lt;p&gt;开发者 FareedKhan 想要在自己的机器上测试 Kimi K3 模型，正常来说消费级设备是肯定无法运行这种规模的模型，但开发者使用 C99 写了个推理引擎实现了本地运行，最快的情况下模型速度可以达到 20 秒 / Token，不过在 8GB 内存的情况下运行速度为 33 秒 / Token (注意看单位)。&lt;/p&gt;
 &lt;p&gt;这个推理引擎的核心就是尝试在不使用显卡、深度学习框架或 BLAS 库的情况下，让 Kimi K3 可以在单颗 CPU+8GB 内存的环境中完成推理，当然项目本身并不追求实用性能，重点是通过实现推理流程理解 Kimi K3 的混合专家架构，以及验证超大规模模型在低内存设备上运行的可行性。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114176.png" rel="nofollow"&gt;&lt;img alt="开发者在8GB内存上部署Kimi K3模型并成功运行 只是...速度为33秒/Token" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114176.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -55,21 +65,4 @@
 &lt;p&gt;在特朗普媒体与科技集团推出该服务后，美国民主党部分议员批评该服务可能构成内幕优势，因为特朗普家族通过信托持有该集团 40% 的股份，而作为美国总统的特朗普发布的帖子可以直接影响市场，机构投资者可以借此获得比普通公众更快的反应窗口。&lt;/p&gt;
 &lt;p&gt;美国众议院司法委员会民主党成员已经启动相关调查，呼吁美国证券交易委员会审查特朗普媒体与科技集团推出的这项服务是否存在不当服务，不过后者回应称，API 仅加速已公开发布内容的传递，而不是提前泄露未发布的消息，所以不存在违规行为。&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 03 Aug 2026 02:30:56 +0000</pubDate></item><item><title>发生多起API盗用事件后 谷歌将从9月起禁用旧版API密钥调用AI服务</title><link>https://www.landian.news/archives/114172.html</link><description>
-&lt;p&gt;#人工智能 发生多起 API 盗用事件后，谷歌终于要改进 GCP API KEY 管理功能，从 9 月开始禁用旧版 API 调用 AI 服务。具体来说，谷歌云平台为 Gemini AI API 创建单独的密钥类型，该密钥名为授权密钥，默认情况下仅用于调用 AI 服务。开发者在谷歌云创建的项目级标准密钥无法再调用 AI 服务，所以开发者必须在 9 月前完成迁移。查看全文：https://ourl.co/114172&lt;/p&gt;&lt;p&gt;此前有诸多开发者在完全没有使用谷歌 Gemini AI API 服务的情况下收到数万美元的天价账单，发生这种情况的根本原因是谷歌云平台的 API 管理非常混乱，只要是通过谷歌云创建的 API 密钥都可以调用 AI 甚至其他服务，而最初开发者创建的 API 密钥可能只是用来调用地图而已。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112673.png" rel="nofollow"&gt;&lt;img alt="发生多起API盗用事件后 谷歌将从9月起禁用旧版API密钥调用AI服务" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112673.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;说谷歌云平台 API 管理混乱是因为谷歌没有做好必要的权限隔离，&lt;a href="https://www.landian.news/archives/112703.html" rel="noopener" target="_blank"&gt;例如有开发者多年前申请密钥在自己的开源应用里调用谷歌地图&lt;/a&gt;，本身这个调用是免费的，所以开发者直接在配置文件中公开 API 密钥，因为当时是否泄露 API 密钥没有任何潜在影响。&lt;/p&gt;
-&lt;p&gt;多年后的现在，黑客通过扫描器在开源项目里寻找有价值的密钥，只要是谷歌云平台的 API 密钥那都是有价值的，因为这些密钥也可以用来调用 Gemini AI API 服务，于是开发者在完全不知情的情况下，密钥被盗用并产生数万美元的账单。&lt;/p&gt;
-&lt;p&gt;最终谷歌确实会为这些被盗用的 API 产生的账单免单，但并非所有人都是幸运的，有开发者遇到这种情况后在社交网络上发帖才引起 Gemini 团队的关注，但直到现在谷歌才准备彻底修复这个漏洞，阻止常规密钥用来调用 Gemini AI API 服务。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;谷歌云在 2026 年 7 月 30 日更新开发者文档，在文档中谷歌称为确保安全使用，Gemini API 将从标准密钥改用身份验证密钥，从 2026 年 9 月开始，所有来自标准密钥的请求都会被阻止，因此开发者必须在 9 月前迁移到新的身份验证密钥才能避免中断。&lt;/p&gt;
-&lt;p&gt;标准密钥：与谷歌云项目关联，标准密钥无法识别调用者，因此也无法提供必要的权限和访问控制精细程度。&lt;/p&gt;
-&lt;p&gt;授权密钥：该密钥直接绑定到谷歌云服务账户，可以提供精细的访问权限控制，同时此密钥默认仅适用于 AI API。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;按照谷歌云文档的描述，如果开发者要调用 AI 服务则必须单独创建授权密钥，该密钥默认情况下也只能用于调用 AI 服务，当然如果开发者愿意的话也可以编辑权限为授权密钥提供更多服务的访问，但基于安全考虑建议开发者在不同项目中使用不同的密钥以实现精细化和安全控制。&lt;/p&gt;
-&lt;p&gt;所以在 9 月前所有调用 Gemini AI API 的开发者都必须创建账户级的新授权密钥，其他项目级的标准密钥无法再继续调用 AI 服务，开发者也可以继续在 Google AI Studio 中管理项目和密钥，具体可以参考谷歌的支持文档。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息来源：&lt;a href="https://www.landian.news/go?url=https://ai.google.dev/gemini-api/docs/api-key?hl=zh-cn" rel="noopener" target="_blank"&gt;谷歌开发者平台&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 03 Aug 2026 02:00:00 +0000</pubDate></item></channel></rss>
+</description><pubDate>Mon, 03 Aug 2026 02:30:56 +0000</pubDate></item></channel></rss>
