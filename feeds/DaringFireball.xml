@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Mon, 03 Aug 2026 20:34:12 +0000</lastBuildDate><item><title>Om Malik的最后一篇文章：‘神话、神话体系与那个人’</title><link>https://om.co/2026/06/07/the-myth-the-mythos-and-the-man/</link><description>&lt;p&gt;Om 于6月7日星期一发布了这篇文章——正是 WWDC 主题演讲当天。他给我发了一条留言，内容过于私密，不便全文分享。他称之为自己的"最后一击"——"以防我撑不过去"。&lt;a href="https://daringfireball.net/2026/06/om"&gt;他终究没能撑过去&lt;/a&gt;。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Mon, 03 Aug 2026 22:26:01 +0000</lastBuildDate><item><title>[赞助商] MCP 对比 REST：将智能代理连接到您的 API 的正确方式</title><link>https://workos.com/blog/mcp-vs-rest?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q32026</link><description>&lt;p&gt;REST服务于那些基于你的API进行开发的开发者。&lt;a href="https://workos.com/guide/model-context-protocol?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q32026&amp;amp;utm_content=body_guide"&gt;MCP则服务于现在试图使用它的代理&lt;/a&gt;。大多数团队将这些视为竞争标准，不得不二选一。&lt;/p&gt;
+&lt;p&gt;它们并非对手，而是分层关系：大多数MCP服务器内部只是调用REST来完成实际工作。最好的MCP服务器不会把每个端点都转换成工具，而是围绕代理试图达成的目标来设计。&lt;/p&gt;
+&lt;p&gt;发布这样的服务器也意味着要发布带有作用域令牌的OAuth 2.1。&lt;a href="https://workos.com/docs/authkit/mcp?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q32026&amp;amp;utm_content=body_authkit"&gt;WorkOS AuthKit已经支持该规范&lt;/a&gt;，因此你无需再额外构建认证提供者。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://workos.com/blog/mcp-vs-rest?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q32026"&gt;阅读详细分析 →&lt;/a&gt;&lt;/p&gt;
+&lt;a href="https://daringfireball.net/feeds/sponsors/2026/08/mcp_vs_rest_the_right_way_to_c" title="Permanent link to ‘MCP vs. REST: The Right Way to Connect Agents to Your API’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Mon, 03 Aug 2026 22:26:01 +0000</pubDate></item><item><title>John Ternus 已重新聘用前硬件副总裁 Laura Legros</title><link>https://www.macrumors.com/2026/08/03/apple-john-ternus-hiring-retired-vp/</link><description>&lt;p&gt;朱莉·克洛弗，MacRumors：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;据彭博社报道，即将上任的苹果CEO约翰·特努斯正在重新聘用劳拉·勒格罗斯，她曾任苹果硬件工程副总裁，于2022年从苹果退休。勒格罗斯此前负责产品交付、开发进度以及工程团队之间的协调。在特努斯领导下，她将跨部门工作，并直接向他汇报。&lt;/p&gt;
+&lt;p&gt;据彭博社报道，勒格罗斯在退休前是特努斯最信任的副手之一。她曾在过去的苹果活动中发表演讲，介绍了2018年MacBook Air和2020年iPad Air。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;2018年首款视网膜MacBook Air的发布是一个有趣的事件。我当时就注意到，尽管当时发布的所有产品都搭载英特尔芯片，但苹果提到“英特尔”的频率却少得显眼。然后你对比一下那款MacBook Air与当时iPad Pro的配置，就能明白苹果私下里为什么如此恼火。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/08/03/ternus-rehired-legros" title="Permanent link to ‘John Ternus Has Rehired Former Hardware VP Laura Legros’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Mon, 03 Aug 2026 22:01:41 +0000</pubDate></item><item><title>The Information：苹果将iCloud用于机密工作的不寻常做法</title><link>https://www.theinformation.com/articles/apple-icloud-policy-fueled-employee-leaks-ahead-openai-suit?rc=jfy0lk</link><description>&lt;p&gt;Aaron “&lt;a href="https://daringfireball.net/linked/2024/03/28/apple-sues-leaker-andrew-aude"&gt;Homeboy&lt;/a&gt;” Tilley 为 The Information 撰写的报道（可惜有付费墙，没有礼物链接，但 &lt;a href="https://www.macrumors.com/2026/08/03/apple-icloud-sharing-ex-employees/"&gt;MacRumors 有摘要&lt;/a&gt;）：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;当新员工加入苹果时，公司通常会为他们配备一台iPhone和一台Mac，并为他们支付一个拥有大量在线存储容量的iCloud账户。关键的是，在入职流程中，苹果鼓励新员工使用他们已有的个人Apple ID来配合这个iCloud账户，这样一来，他们的同事就可以通过这个账户与他们共享苹果内部文档和其他文件。&lt;/p&gt;
+&lt;p&gt;苹果这项政策有一个实际原因。iPhone用户一次只能登录一个主要Apple ID，该ID解锁所有iCloud功能。想要保持工作和个人Apple ID分开的苹果员工，需要随身携带两部iPhone。因此，据前员工称，大多数苹果员工选择使用个人Apple ID来访问他们的iCloud账户。&lt;/p&gt;
+&lt;p&gt;当员工离开苹果时，公司会撤销他们对一个专用iCloud目录（用于存放苹果工作文件）以及一个认证系统（用于登录Slack等其他内部服务）的访问权限。但前员工表示，公司在离职流程中并没有彻底查找那些漏网的机密文件。由于这些前员工通常继续使用个人Apple ID访问他们的iCloud账户，因此存储在工作目录之外的任何苹果文档对他们仍然可用。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;如果你使用个人Apple ID，你的iCloud云盘中会出现一个神奇的“Apple Work”文件夹。当你离开苹果时，那个“Apple Work”文件夹就会消失。但任何分享给你的、位于这个神奇文件夹之外的其他文件或文件夹，仍然留在你的iCloud云盘中，因为它仍然是你的个人iCloud账户。&lt;/p&gt;&lt;p&gt;我认为，另一个与此相关但Tilley并未提及的因素是：你的Apple ID并不是一个电子邮件地址。你的Apple ID是一个账户，该账户关联着一个或多个电子邮件地址。假设你的个人iCloud账户关联了两个电子邮件地址：example@icloud.com和example@gmail.com。然后你入职苹果公司，获得了example@apple.com这个地址。当你离开苹果时，你便失去了对@apple.com地址的访问权限。但通过iCloud与你的Apple ID共享的任何内容，仍然是与&lt;em&gt;你&lt;/em&gt;共享的。你仍然拥有同一个Apple ID账户，即使你不再拥有员工的@apple.com邮箱账户。总体而言，这是一种处理数字身份的以人为本的方式。你的Apple ID账户就是&lt;em&gt;你&lt;/em&gt;，这个人本身，而不是“example@icloud.com”这个特定的唯一电子邮件地址。而你，作为一个人，很可能拥有多个电子邮件地址——所有这些地址都可以关联到你的同一个Apple ID账户。这使得Apple ID比简单的“一个电子邮件地址＝一个账户”的映射更加细致入微、更加复杂。而且这显然也让访问权限限制变得更加复杂。&lt;/p&gt;
+&lt;p&gt;假设你删除了你的Gmail账户。现在你无法再访问你以前的example@gmail.com电子邮件地址。但你对通过iCloud与你的Apple ID共享内容的访问仍然有效，即使是发送到你已删除的@gmail.com地址的内容也是如此。而在大多数公司，“工作内容”的访问方式并不是这样的。&lt;/p&gt;
+&lt;p&gt;Tilley在The Information上的报道被认为可能与苹果针对OpenAI的商业秘密诉讼有关，但苹果在给The Information的一份声明中表示并非如此：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;苹果在一份声明中表示：“这起案件涉及OpenAI员工
+不当窃取苹果关于我们未发布技术、流程和
+产品的机密和保密信息。
+诉讼文件中没有任何内容与通过iCloud共享或
+存储在iCloud中的文档有关。”该公司表示，它不会对
+意外将苹果文档保留在个人iCloud账户中的
+前雇员提起法律诉讼。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;a href="https://daringfireball.net/linked/2026/08/03/the-information-apple-employees-icloud" title="《The Information：苹果将iCloud用于机密工作的不寻常做法》的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Mon, 03 Aug 2026 21:45:40 +0000</pubDate></item><item><title>Om Malik的最后一篇文章：‘神话、神话体系与那个人’</title><link>https://om.co/2026/06/07/the-myth-the-mythos-and-the-man/</link><description>&lt;p&gt;Om 于6月7日星期一发布了这篇文章——正是 WWDC 主题演讲当天。他给我发了一条留言，内容过于私密，不便全文分享。他称之为自己的"最后一击"——"以防我撑不过去"。&lt;a href="https://daringfireball.net/2026/06/om"&gt;他终究没能撑过去&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;我没有立刻阅读，因为当时正忙于 WWDC。后来他去世了，我依然没有读，因为实在不忍心去读。直到今天，我终于读完了。写得太好了，见解深刻。摘录一段：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;奥古斯都拥有元老院和祭司。达里奥拥有椭圆形办公室和梵蒂冈。结构如出一辙，相隔两千年。&lt;/p&gt;
@@ -27,30 +58,4 @@
 &lt;p&gt;当店里开始支持运营商分期付款后，这种行为彻底爆发了。他们盗用了合法账户持有人的身份，带着访问账户所需的信息走进店里。他们总是想要最高端的手机，并用现金支付销售时的税费。从不想要任何配件。从不想打开盒子或激活手机。&lt;/p&gt;
 &lt;p&gt;尽管有激活要求时情况已经很糟糕，但没有这个要求的话只会更糟。我相信现在已经好多了，运营商也部署了更先进的系统来检测和阻止这种行为。但归根结底，运营商为那些从未收到付款的设备承担了数百万美元的成本。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;我怀疑那位读者是对的，苹果与运营商合作，已经严厉打击了这种行为。&lt;/p&gt;</description><pubDate>Mon, 03 Aug 2026 17:19:34 +0000</pubDate></item><item><title>Ulysses S. Grant on the Future Dividing Line
-
-尤利西斯·S·格兰特论未来的分界线</title><link>https://www.snopes.com/fact-check/grant-next-civil-war/</link><description>&lt;p&gt;尤利西斯·S·格兰特，1875年：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;在公民为主权者、官员为仆人的地方，在除了人民意志之外没有任何权力行使的地方，重要的是主权者——即人民——应当拥有智慧。&lt;/p&gt;
-&lt;p&gt;公立学校是那种智慧的推动者，这种智慧将使我们作为一个自由国家得以存续。如果我们国家的存续在不久的将来面临另一场较量，我预测分界线将不再是梅森-迪克森线，而是一边是爱国主义与智慧，另一边是迷信、野心与无知。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;不确定2020年代算不算“不久的将来”，但天哪，这简直是对我们当下时刻一针见血的概括。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/08/03/grant" title="Permanent link to ‘Ulysses S. Grant on the Future Dividing Line’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 03 Aug 2026 17:14:42 +0000</pubDate></item><item><title>Truth Social 推出特朗普帖子的付费抢先访问</title><link>https://www.npr.org/2026/08/01/nx-s1-5912219/trump-truth-social-access-insider-trading</link><description>&lt;p&gt;Bobby Allyn，NPR报道：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;特朗普媒体与科技集团正在&lt;a href="https://s3.amazonaws.com/b2icontent.irpass.cc/2660/rl168199.pdf"&gt;向交易员和投资者推销&lt;/a&gt;
-Truth Social的付费高级版本，可提前获取包括总统在内的高知名度用户的信息流。从周六起，交易公司每月最高支付10万美元，
-即可通过“Truth API”在全世界其他人之前，抢先看到总统那些经常&lt;a href="https://www.npr.org/2026/05/08/nx-s1-5749358/trump-truth-social-online-posts-iran-white-house-ballroom"&gt;引发市场波动的&lt;/a&gt;
-经济政策和全球事务公告。&lt;/p&gt;
-&lt;p&gt;特朗普的媒体公司表示，客户已经开始注册。这样的服务将为机构投资者在高速交易等金融领域提供优势，在那些领域，
-几毫秒的领先可能意味着数百万美元的差异。但这项服务会被华尔街广泛采用吗？&lt;/p&gt;
-&lt;p&gt;“这太疯狂了，”一位华尔街高管表示，他因担心遭到特朗普政府报复而要求匿名。“我可以代表我自己和金融界的200个朋友说，
-我们绝不会碰这东西。换一届政府，这将被视为犯罪。”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这&lt;em&gt;确实&lt;/em&gt;是犯罪。这是表面上的“内幕交易即服务”，或者至少它的&lt;em&gt;意图&lt;/em&gt;就是如此。而在下一届政府任内，
-没有理由认为它不会被以同样的罪名起诉。特朗普2.0政府如此肆无忌惮地秉承“只要公开做就不算腐败”的理念，实在令人震惊。
-有句老话说，让你栽跟头的不是罪行本身，而是掩盖罪行的行为。他们对此心领神会，干脆省去了掩盖这一步。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/08/03/truth-social-paid-access" title="‘Truth Social推出特朗普帖子付费提前访问’的固定链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 03 Aug 2026 16:00:29 +0000</pubDate></item><item><title>代理电话</title><link>https://fail.xyz/phone/</link><description>&lt;p&gt;感谢 Agent Fone 上周在 DF 的赞助。Agent Fone 是一款极具野心的全新智能手机，它不仅仅搭载了内置 AI 助手。相反，它的核心理念是让你能在手机本身上创建自定义软件。那些你存在笔记里多年的应用创意，那些只有你才会想要的古怪小应用创意。描述你的想法，回答几个问题，Agent Fone 就会构建一个应用或小组件，放到你的主屏幕上。他们正在寻找 50 位个人和小型团队，将首批 50 台硬件设备销售给他们。如果你感兴趣，&lt;a href="https://fail.xyz/phone/"&gt;可以访问他们的网站&lt;/a&gt;，获取所需的所有信息以及该平台的更全面介绍。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/08/02/agent-fone" title="Permanent link to ‘Agent Fone’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sun, 02 Aug 2026 21:02:00 +0000</pubDate></item></channel></rss>
+&lt;p&gt;我怀疑那位读者是对的，苹果与运营商合作，已经严厉打击了这种行为。&lt;/p&gt;</description><pubDate>Mon, 03 Aug 2026 17:19:34 +0000</pubDate></item></channel></rss>
