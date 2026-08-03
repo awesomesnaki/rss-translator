@@ -1,56 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sun, 02 Aug 2026 04:31:08 +0000</lastBuildDate><item><title>即便玩家发起请愿也不行 索尼高管称仔细考虑后决定继续停产实体游戏光盘</title><link>https://www.landian.news/archives/114155.html</link><description>#游戏资讯 玩家发起请愿也没用：索尼首席财务官陶琳证实公司已经关注玩家发起的请愿和社交媒体活动，不过仔细审查该计划后索尼仍然决定继续推进停产实体游戏光盘的计划。索尼认为随着玩家向数字化内容转型，停产实体 PS 游戏光盘是合理的做法，而且目前数字下载占比已经远远超过实体游戏光盘。查看全文：https://ourl.co/114155</description><pubDate>Sun, 02 Aug 2026 04:31:08 +0000</pubDate></item><item><title>黑客正在继续攻击ColdCard比特币硬件钱包 目前已经窃取价值8,860万美元的比特币</title><link>https://www.landian.news/archives/114154.html</link><description>
-&lt;p&gt;#加密货币 黑客正在继续洗劫 ColdCard 比特币硬件钱包，目前已经窃取高达 1,367 个比特币，总价值超过 8,860 万美元。而 ColdCard 完全无法干预黑客的攻击，事实上该公司目前除了通过各种渠道通知客户尽快转移钱包资金外，没有任何解决办法。遗憾的是还有大量用户并不清楚这次攻击，因此随着时间的推移，被黑用户只会越来越多。查看全文：https://ourl.co/114154&lt;/p&gt;&lt;p&gt;昨天蓝点网提到加拿大比特币硬件钱包 ColdCard 出现重大安全问题，该钱包使用有缺陷的随机数算法生成钱包种子，黑客发现该缺陷后直接搭建环境批量生成钱包种子和比特币钱包地址与链上地址进行匹配，当发现钱包地址有余额时就可以使用本地生成钱包种子的私钥直接洗劫钱包。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114154-1.png" rel="nofollow"&gt;&lt;img alt="黑客正在继续攻击ColdCard比特币硬件钱包 目前已经窃取价值8,860万美元的比特币" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114154-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 03 Aug 2026 02:00:00 +0000</lastBuildDate><item><title>发生多起API盗用事件后 谷歌将从9月起禁用旧版API密钥调用AI服务</title><link>https://www.landian.news/archives/114172.html</link><description>
+&lt;p&gt;#人工智能 发生多起 API 盗用事件后，谷歌终于要改进 GCP API KEY 管理功能，从 9 月开始禁用旧版 API 调用 AI 服务。具体来说，谷歌云平台为 Gemini AI API 创建单独的密钥类型，该密钥名为授权密钥，默认情况下仅用于调用 AI 服务。开发者在谷歌云创建的项目级标准密钥无法再调用 AI 服务，所以开发者必须在 9 月前完成迁移。查看全文：https://ourl.co/114172&lt;/p&gt;&lt;p&gt;此前有诸多开发者在完全没有使用谷歌 Gemini AI API 服务的情况下收到数万美元的天价账单，发生这种情况的根本原因是谷歌云平台的 API 管理非常混乱，只要是通过谷歌云创建的 API 密钥都可以调用 AI 甚至其他服务，而最初开发者创建的 API 密钥可能只是用来调用地图而已。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112673.png" rel="nofollow"&gt;&lt;img alt="发生多起API盗用事件后 谷歌将从9月起禁用旧版API密钥调用AI服务" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112673.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;区块链上分析团队星系研究所 (Galaxy Research) 通过链上数据追踪发现，疑似与 ColdCard 硬件钱包漏洞有关的比特币转移规模正在持续增加，目前黑客成功转移的比特币累计达到 1367 个，按照转移时价格计算目前也有 8,860 万美元，这些比特币来自 4,585 个钱包地址。&lt;/p&gt;
-&lt;p&gt;目前黑客发起的洗劫行动有三波，第一波发生在 2026 年 7 月 30 日，攻击者在 41 分钟内从 1,195 个地址转走 1,082.65 个比特币，这也是目前已知规模最大的一波。第二波洗劫行动发生在 2026 年 7 月 31 日，黑客从 1478 个钱包地址中转走 76.16 个比特币。&lt;/p&gt;
-&lt;p&gt;第三波攻击从 2026 年 7 月 31 日持续到 8 月 1 日，涉及 1,912 个钱包地址，转走约 208 个比特币。但第三波转移与前两波有着明显区别，第三波资金没有简单的转入少数资金归集地址，而是被分散到 293 个 P2WSH 地址中，这种地址在资金被花费前不会公开具体脚本条件，因此外部观察者更难判断这些资金是否属于同一攻击者控制。&lt;/p&gt;
-&lt;p&gt;研究人员提醒称，目前仅靠链上数据还不能确定第三波攻击是否仍然是最先发现漏洞的原攻击者发起的，也可能是其他人发现了同一批脆弱地址后跟进发起攻击和转移资金。&lt;/p&gt;
+&lt;p&gt;说谷歌云平台 API 管理混乱是因为谷歌没有做好必要的权限隔离，&lt;a href="https://www.landian.news/archives/112703.html" rel="noopener" target="_blank"&gt;例如有开发者多年前申请密钥在自己的开源应用里调用谷歌地图&lt;/a&gt;，本身这个调用是免费的，所以开发者直接在配置文件中公开 API 密钥，因为当时是否泄露 API 密钥没有任何潜在影响。&lt;/p&gt;
+&lt;p&gt;多年后的现在，黑客通过扫描器在开源项目里寻找有价值的密钥，只要是谷歌云平台的 API 密钥那都是有价值的，因为这些密钥也可以用来调用 Gemini AI API 服务，于是开发者在完全不知情的情况下，密钥被盗用并产生数万美元的账单。&lt;/p&gt;
+&lt;p&gt;最终谷歌确实会为这些被盗用的 API 产生的账单免单，但并非所有人都是幸运的，有开发者遇到这种情况后在社交网络上发帖才引起 Gemini 团队的关注，但直到现在谷歌才准备彻底修复这个漏洞，阻止常规密钥用来调用 Gemini AI API 服务。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在研究人员追踪被盗比特币的同时，中心化交易所也出现大量比特币现货流入情况，在 7 月 31 日中心化交易所净流入 11163 个比特币，其中 River、币安、Kraken 和 OKX 等平台流入的比特币数量都在明显增加。&lt;/p&gt;
-&lt;p&gt;不过这并不代表转入的比特币都是黑客操作的，事实上黑客可能担心转入中心化交易所被冻结，因此更有可能选择其他非中心化交易所清洗这些比特币，而中心化交易所流入的这些比特币有可能是其他 ColdCard 看到消息后选择立即将余额转入到中心化交易所确保安全。&lt;/p&gt;
+&lt;p&gt;谷歌云在 2026 年 7 月 30 日更新开发者文档，在文档中谷歌称为确保安全使用，Gemini API 将从标准密钥改用身份验证密钥，从 2026 年 9 月开始，所有来自标准密钥的请求都会被阻止，因此开发者必须在 9 月前迁移到新的身份验证密钥才能避免中断。&lt;/p&gt;
+&lt;p&gt;标准密钥：与谷歌云项目关联，标准密钥无法识别调用者，因此也无法提供必要的权限和访问控制精细程度。&lt;/p&gt;
+&lt;p&gt;授权密钥：该密钥直接绑定到谷歌云服务账户，可以提供精细的访问权限控制，同时此密钥默认仅适用于 AI API。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;说起来非常讽刺，很多专业用户喜欢使用硬件钱包来提高资金安全性，因为硬件钱包完全由用户自己控制，而中心化交易所和其他托管钱包存在平台转移用户资金、倒闭的风险，从这个角度来说硬件钱包的安全性要更高。&lt;/p&gt;
-&lt;p&gt;只不过在 ColdCard 事件中硬件钱包的缺陷也暴露无遗，即安全性完全取决于钱包制造商，如果钱包制造商采用的固件、算法存在缺陷，就有可能导致用户资金被盗，甚至钱包制造商现在都没法干预黑客的攻击，因为钱包无法远程升级。&lt;/p&gt;
-&lt;p&gt;现在 ColdCard 唯一能做的事情就是通过各种渠道提醒客户立即转移资金并更新固件，遗憾的是还有大量用户并不清楚这次攻击事件，所以随着时间的推移被黑的用户也只会越来越多。&lt;/p&gt;
-&lt;p&gt;PS：这次黑客事件只是暴露硬件钱包的缺陷，并不意味着所有硬件钱包都不安全。&lt;/p&gt;
+&lt;p&gt;按照谷歌云文档的描述，如果开发者要调用 AI 服务则必须单独创建授权密钥，该密钥默认情况下也只能用于调用 AI 服务，当然如果开发者愿意的话也可以编辑权限为授权密钥提供更多服务的访问，但基于安全考虑建议开发者在不同项目中使用不同的密钥以实现精细化和安全控制。&lt;/p&gt;
+&lt;p&gt;所以在 9 月前所有调用 Gemini AI API 的开发者都必须创建账户级的新授权密钥，其他项目级的标准密钥无法再继续调用 AI 服务，开发者也可以继续在 Google AI Studio 中管理项目和密钥，具体可以参考谷歌的支持文档。&lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;消息来源：&lt;a href="https://www.landian.news/go?url=https://x.com/glxyresearch/status/2083623500183421043?s=20" rel="noopener" target="_blank"&gt;Galaxy Research&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;消息来源：&lt;a href="https://www.landian.news/go?url=https://ai.google.dev/gemini-api/docs/api-key?hl=zh-cn" rel="noopener" target="_blank"&gt;谷歌开发者平台&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sun, 02 Aug 2026 04:07:28 +0000</pubDate></item><item><title>Codex蒂博称在谷歌时曾开发类似ChatGPT产品 但谷歌担心与搜索竞争因此并未发布</title><link>https://www.landian.news/archives/114153.html</link><description>
-&lt;p&gt;#人工智能 Codex 技术经理蒂博称在 DeepMind 时谷歌已经研发类似 ChatGPT 产品，但谷歌担心与搜索业务竞争因此并未发布。ChatGPT 是在 2022 年发布的，而在 2021 年谷歌已经研发 LMChat，即基于人工智能的对话工具。不过彼时这类工具还存在质量和安全问题，即回答内容可能存在明显错误。最终谷歌领导层出于安全、质量和搜索业务颠覆风险的考虑，并未推出该产品。查看全文：https://ourl.co/114153&lt;/p&gt;&lt;p&gt;Codex 技术经理蒂博此前在谷歌旗下公司 DeepMind 工作，蒂博称在 OpenAI 发布 ChatGPT 前其实谷歌已经开发类似的应用，该应用名为 LMChat 即基于人工智能的对话工具，这款工具开发时间在 2021 年。遗憾的是最终谷歌并未推出该工具，原因与安全、质量和搜索业务颠覆风险有关。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114153.png" rel="nofollow"&gt;&lt;img alt="Codex蒂博称在谷歌时曾开发类似ChatGPT产品 但谷歌担心与搜索竞争因此并未发布" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114153.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 03 Aug 2026 02:00:00 +0000</pubDate></item><item><title>Debian 13发布内核安全更新修复68个安全漏洞 包括4个评分高达9.8分的漏洞</title><link>https://www.landian.news/archives/114158.html</link><description>
+&lt;p&gt;#系统资讯 Debian 13.5 发布更新修复 68 个内核安全漏洞，包括 4 个严重级别的内核漏洞和多个高危级别的内核漏洞。不过实际风险取决于功能是否启用，对用户而言最稳妥的处理方式仍然是安装项目组已经发布的所有内核更新，而不是逐项判断自己是否受影响，因为这样实在是太麻烦。查看全文：https://ourl.co/114158&lt;/p&gt;&lt;p&gt;Debian 项目组日前发布 DSA-6405-1 安全公告，为 Debian 13 推送新的 Linux 内核安全更新，此次更新合计修复 68 个内核安全漏洞，影响范围包括本地权限提升、拒绝服务以及信息泄露等。Debian 项目组建议所有使用 Debian 13.x 的用户都尽快升级到最新版。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/07/109843.png" rel="nofollow"&gt;&lt;img alt="Debian 13发布内核安全更新修复68个安全漏洞 包括4个评分高达9.8分的漏洞" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/07/109843.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;根据公开报道，谷歌早在 ChatGPT 发布前就已经拥有先进的内部对话模型，包括 Meena/LaMDA 以及员工聊天工具。其中 Meena 是在 2020 年 1 月开发的，而 LaMDA 是在 2021 年开发的，此后 DeepMind 开发多款人工智能模型并改进质量和安全性。&lt;/p&gt;
-&lt;p&gt;但早期的人工智能模型确实存在质量和安全问题，即回答内容可能存在明显错误，对于谷歌这种规模的公司来说稳定性的优先级可能高于变革，尤其是这类应用还可能颠覆谷歌搜索业务，谷歌搜索业务是谷歌的支柱业务，说到底其实就是谷歌的广告业务。&lt;/p&gt;
-&lt;p&gt;最终谷歌领导层出于安全、质量和搜索业务颠覆风险的考虑，推迟相关产品的发布，而 DeepMind 面临产品限制，后续仍然专注于论文和研究，直到 OpenAI 推出 ChatGPT 后引爆人工智能行业，谷歌之后推出 Bard，后更名为 Gemini。&lt;/p&gt;
+&lt;p&gt;CVE-2026-64530：该漏洞位于 Linux Kernel 的 net/sched 流量控制子系统，最终可以造成使用后释放。&lt;/p&gt;
+&lt;p&gt;CVE-2026-64534：该漏洞与 NVMe over TCP 有关，在数据摘要校验失败路径中没有正确检查初始化失败状态。&lt;/p&gt;
+&lt;p&gt;CVE-2026-64535：该漏洞与 NVMe over TCP 有关，在特定数据传输过程中发生摘要不匹配时存在使用后释放风险。&lt;/p&gt;
+&lt;p&gt;CVE-2026-64541：该漏洞位于 Linux Kernel SMC-R 网络通信子系统中，可以被用来访问已释放的内存。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Linux 内核漏洞公告经常罗列大量 CVE 漏洞列表，但并非所有系统都会暴露在同等风险下，例如 NVMe/TCP Target 相关漏洞主要影响启用并暴露该服务的存储服务器，SMC-R 主要与 RDMA 场景有关，Open vSwitch 相关漏洞更多影响虚拟化、容器网络或软件定义网络，蓝牙漏洞则需要蓝牙控制器和对应权限条件。&lt;/p&gt;
+&lt;p&gt;不过内核漏洞的麻烦在于攻击面比较分散，很多服务器管理员未必清楚系统是否加载过相关模块，或者容器和虚拟化平台是否间接使用相关功能。因此对 Debian 13 用户来说，最稳妥的处理方式仍然是安装项目组已发布的所有内核更新，而不是逐项判断自己是否受影响。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Debian 用户可以通过常规安全更新命令安装新版内核，内核软件包升级完成后还需要重启系统使之生效，重启完成后可以使用 uname -a 查看当前运行的内核版本，或者检查已经安装的 Debian 内核包是否已经更新到 6.12.100-1 对应版本。&lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;消息来源：&lt;a href="https://www.landian.news/go?url=https://x.com/thsottiaux/status/2083596911060324570?s=20" rel="noopener" target="_blank"&gt;Thsottiaux&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;消息来源：&lt;a href="https://www.landian.news/go?url=https://lists.debian.org/debian-security-announce/2026/msg00316.html" rel="noopener" target="_blank"&gt;Debian DSA-6405-1&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sun, 02 Aug 2026 03:35:45 +0000</pubDate></item><item><title>ICANN已完成顶级域名.web的委派 威瑞信计划从下半年开放域名注册</title><link>https://www.landian.news/archives/114152.html</link><description>
-&lt;p&gt;#域名资讯 ICANN 已完成顶级域名 .web 的 DNS 根区委派，威瑞信 (Verisign) 计划从下半年开始开放该域名的注册。WEB 域名早在 2016 年已经完成竞拍，但因为存在法律争议，直到 2026 年 7 月所有域名注册机构才达成 PY 交易解决法律争议。最终该域名还是被威瑞信拿下，好消息是威瑞信品牌管控非常严格，不至于出现大量滥用，坏消息是威瑞信运营的域名价格都比较贵。查看全文：https://ourl.co/114152&lt;/p&gt;&lt;p&gt;据行业最新消息，数字域名分配机构 ICANN 近期已经完成对顶级域名 .web 的委派，委派指的是将域名委派到全球 DNS 根区，通常新域名完成委派也意味着可以正常使用 (前提是域名注册局已经开放注册和解析)。&lt;/p&gt;
-&lt;p&gt;WEB 域名的官方注册机构是威瑞信 (Verisign)，作为全球规模最大的域名注册管理机构，威瑞信负责管理 WEB 域名好处是不会存在品牌问题 (例如域名滥用)，然而威瑞信管理的域名注册和续费价格通常都比较高，这对用户来说可能是个问题。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114152.png" rel="nofollow"&gt;&lt;img alt="ICANN已完成顶级域名.web的委派 威瑞信计划从下半年开放域名注册" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114152.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; WEB 域名注册已经 10 年但此前存在法律纠纷：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;2016 年 7 月，ICANN 举行最后拍卖，威瑞信合作公司 NuDotCo 以 1.35 亿美元中标获得 WEB 域名的运营权，但此后 Altanovo Domains (原 Afilias) 等多方提出异议，经历多次 IRP 等法律程序后 WEB 域名始终未能上线。&lt;/p&gt;
-&lt;p&gt;存在纠纷的原因主要是威瑞信并未参与竞拍 WEB 域名，而是提前与 NuDotCo 秘密签订代理协议由后者参与竞拍，成功中标后再将域名运营权转让给威瑞信。NuDotCo 既没有向 ICANN 披露代理协议，也没有更新申请材料，其他域名注册机构认为这种行为违反多种合规协议。&lt;/p&gt;
-&lt;p&gt;不过在 2023 年 6 月，ICANN 董事会裁定 NuDotCo 并未违反规则因此允许继续推进 WEB 域名的注册运营，最终到 2026 年 7 月，所有剩余争议都已经解决 (但细节是保密的，可能是这些域名注册机构相互达成了某些协议)，Altanovo IRP 请求也已经撤回，所以 ICANN 正式完成 WEB 域名的根区委派。&lt;/p&gt;
+</description><pubDate>Mon, 03 Aug 2026 01:30:58 +0000</pubDate></item><item><title>谷歌在Chrome for Mac上测试动态更新技术 利用后台驻留进程实施零重启更新</title><link>https://www.landian.news/archives/114157.html</link><description>
+&lt;p&gt;#软件资讯 谷歌在 Chrome for Mac 版中实施动态补丁技术，利用后台驻留进程实施自动更新，无需用户完全重启浏览器。不过这个功能存在矛盾，谷歌的描述是某些用户不想重启浏览器，问题是动态补丁技术需要关闭所有标签页，通过 macOS 的后台运行机制实施更新。所以实际情况是用户仍然需要关闭所有标签页，这种情况下谷歌才能实施动态更新，与直接重启浏览器实施更新没有太大的区别。查看全文：https://ourl.co/114157&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/114150.html" rel="noopener" target="_blank"&gt;谷歌日前发布博客介绍谷歌浏览器中近期的安全更新情况&lt;/a&gt;，在博客中谷歌也提到正在投资开发动态补丁技术，该技术可以在不需要完全重启浏览器的情况下实施自动更新。投资该技术的原因是很多用户不能或不想完全退出浏览器执行更新，动态补丁技术有助于帮助用户更快实施更新。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114150-1.png" rel="nofollow"&gt;&lt;img alt="谷歌在Chrome for Mac上测试动态更新技术 利用后台驻留进程实施零重启更新" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114150-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;威瑞信已经发布新闻稿宣布 WEB 域名完成根区委派，根据威瑞信的计划，该公司计划从 2026 年下半年开始面向注册商渠道开放 WEB 域名注册，包括 Sunrise 期和有限注册期。&lt;/p&gt;
-&lt;p&gt;根据行业规范，通常新域名上线后会有品牌方率先进行注册避免域名被抢注，例如到时候 Google.web 这样的域名都会被谷歌率先注册，等品牌方完成注册或放弃注册后，域名注册商再逐渐开放注册。&lt;/p&gt;
-&lt;p&gt;开放注册后顶级优质域名会以溢价方式进行抢注，例如 a.web 这样的域名可能会以极高的溢价进行注册，不过到时候普通域名应该也会同步开放注册，普通域名不存在溢价，但具体定价暂时还不清楚。&lt;/p&gt;
+&lt;p&gt;谷歌浏览器默认情况下也会在后台使用自动更新程序以及预留后台驻留程序，这些驻留程序可以在浏览器关闭所有窗口的情况下继续运行，然后可以接收网站推送的通知或执行其他任务。而动态补丁技术主要就是动态将后台子进程文件替换为更新后的版本，这可以在不中断用户会话的情况下实施更新。&lt;/p&gt;
+&lt;p&gt;谷歌浏览器的后台子进程有很多例如渲染器进程和 GPU 进程，不过目前谷歌仅在 Chrome for Mac 版上实施动态补丁技术，因为该版本利用 macOS 上独特的应用程序状态：即使浏览器所有窗口都已经关闭，应用程序通常也会在后台运行，所以可以执行动态更新。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;蓝点网目前的主力浏览器就是 Chrome for Mac 版，通常我会开启大量页面并且不希望重启浏览器和关闭页面，在这种情况下谷歌的动态补丁技术其实没什么用，因为按照谷歌的描述只有所有窗口都关闭后才会通过后台驻留进程实施更新。&lt;/p&gt;
+&lt;p&gt;问题是如果我将所有窗口都关闭那完全可以自己转到设置页面检查更新或点击更新按钮实施自动重启，我更希望谷歌实施的是在不关闭任何窗口 / 标签页的情况下实施动态更新，而不是最终还是要我关闭所有窗口。&lt;/p&gt;
+&lt;p&gt;当然关闭所有窗口后恢复也不是难事，使用 Ctrl+Shift+T 或 Command+Shift+T 就可以批量恢复窗口，所以日常我更新谷歌浏览器都是使用这种方式恢复所有窗口，只不过每个标签页都需要重新加载，所以重启前必须先保留数据，否则未保存数据都存在丢失风险。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息来源：&lt;a href="https://www.landian.news/go?url=https://blog.google/security/chrome-stronger-with-every-update/" rel="noopener" target="_blank"&gt;谷歌官方博客&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 01 Aug 2026 09:58:50 +0000</pubDate></item><item><title>OpenAI发现更多智能体逃逸案例 但目前尚未公开发布完整的内部调查细节</title><link>https://www.landian.news/archives/114151.html</link><description>
-&lt;p&gt;#人工智能 OpenAI 在内部调查中发现更多智能体逃逸迹象，但目前尚未公开发布完整的内部调查细节。路透社从知情人士获得的消息称，OpenAI 在调查 HF 抱抱脸攻击事件时，又发现其他自主 AI 智能体突破隔离环境的迹象。不过知情人士称新发现的情况被描述为范围有限，这些智能体目前被认为尚未离开 OpenAI 自身网络，但 OpenAI 已经将这些线索纳入进一步调查。查看全文：https://ourl.co/114151&lt;/p&gt;&lt;p&gt;早前 OpenAI 发现自己的内部测试模型驱动的智能体从隔离环境中逃逸，随后这个智能体针对开源模型和数据集托管平台抱抱脸🤗(HuggingFace) 发起攻击并在基础设施中横向移动。抱抱脸检测到攻击后及时阻断并使用智谱开源模型完成审计，事后 OpenAI 才承认发起攻击的智能体来自该公司内部。&lt;/p&gt;
-&lt;p&gt;之后 Anthropic 进行内部调查后也发现智能体逃逸证据，后者 AI 模型驱动的智能体在网络安全评测中出现 3 起真实系统访问事件，而且要不是 Anthropic 调查，估计被入侵的公司也没有发现自己的生产环境已经遭到未经授权的访问。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="华尔街日报称OpenAI考虑大幅度降低Token价格与A社打价格战 抢夺企业客户" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2024/09/105878.png"/&gt;&lt;/p&gt;
+</description><pubDate>Mon, 03 Aug 2026 01:00:57 +0000</pubDate></item><item><title>Fedora Linux 46计划默认启用影子堆栈保护 增强系统整体安全性</title><link>https://www.landian.news/archives/114156.html</link><description>
+&lt;p&gt;#系统资讯 Fedora Linux 计划在 46 版中默认启用 Shadow Stack 影子堆栈保护技术，可以增强 64 位 x86 设备的安全性。影子堆栈保护是 Intel CET 技术的组成部分，AMD 新款处理器也支持该技术。启用影子堆栈保护后，当攻击者试图利用内存漏洞篡改调用栈返回地址时，系统可以检测到异常并自动阻止。查看全文：https://ourl.co/114156&lt;/p&gt;&lt;p&gt;开源操作系统 Fedora Linux 项目组计划在未来发布的 46 版中默认启用影子堆栈保护 (Shadow Stack) 用来增强 64 位 x86 设备的系统安全性，这项变更原本计划在 Fedora Linux 45 中实施的，但由于还需要处理英伟达驱动程序和部分 Python 应用的兼容性问题，因此实施被推迟到 46 版。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114156.png" rel="nofollow"&gt;&lt;img alt="Fedora Linux 46计划默认启用影子堆栈保护 增强系统整体安全性" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114156.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;路透社在 7 月 31 日发布报告称，两名知情人士透露，OpenAI 在调查此前抱抱脸安全事件时，又发现其他自主 AI 智能体突破隔离环境的迹象。需要注意的是，新发现的情况目前被描述为范围有限，知情人士称这些智能体目前被认为并未离开 OpenAI 自身网络，不过 OpenAI 已经将这些线索纳入进一步调查。&lt;/p&gt;
-&lt;p&gt;不过当前知情人士并未透露新发现的逃逸迹象详情，也没有说明发生时间，而 OpenAI 可能会在完成调查后才会发布详细的技术报告，所以现阶段我们无法知晓新发现的逃逸情况是否严重，如果没有离开 OpenAI 自身网络，那可能不会对其他公司造成影响，至少不应该出现直接入侵其他公司生产系统的情况。&lt;/p&gt;
+&lt;p&gt;影子堆栈保护是 Intel CET 技术的组成部分，目前也被新款 AMD 处理器支持。影子堆栈保护的作用是使用额外保存的受保护的函数返回地址副本，当攻击者试图利用内存漏洞篡改调用栈返回地址时，系统可以检测到异常从而阻止常见的 ROP 攻击。&lt;/p&gt;
+&lt;p&gt;Fedora Linux 已经从 2018 年起默认使用相关编译参数构建软件包，因此大量系统组件和应用已经带有影子堆栈保护支持标记，Fedora Linux 46 要做的是在应用程序运行时默认启用这项保护。&lt;/p&gt;
+&lt;p&gt;对普通用户而言这项变更基本无感，既不需要用户手动打开额外的开关，启用后也不会明显影响系统性能，只不过影子堆栈保护可能只有较新的处理器才支持，例如第 11 代及后续发布的英特尔处理器和 AMD ZEN 3 及后续发布的处理器。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在 OpenAI 和 Anthropic 相继披露 AI 智能体越界事件后，美国和欧洲监管机构已经开始关注这类风险。美国总统特朗普在被问及此事时表示正在考虑相关控制措施；欧盟委员会也称已就这些黑客事件与 OpenAI 和 Anthropic 进行沟通。&lt;/p&gt;
-&lt;p&gt;美国参议院情报委员会民主党高层 Mark Warner 则表示，Anthropic 事件说明要求先进模型进行强制能力测试是有必要的。&lt;/p&gt;
-&lt;p&gt;这类事件目前还不算是传统意义上的大规模恶意攻击，但这也已经把一个长期停留在安全论文和红队测试里的问题推到现实环境：当 AI 智能体拥有足够强的网络攻击能力时，实验室是否真的能稳定限制智能体的行动边界。&lt;/p&gt;
+&lt;p&gt;影子堆栈保护对系统自带软件的影响非常小，主要风险还是在第三方二进制库、闭源驱动程序、手写汇编代码和部分动态加载模块。如果应用程序已经启用影子堆栈保护，但运行时加载的库存在兼容性问题，那可能会出现启动失败或者加载失败的情况。&lt;/p&gt;
+&lt;p&gt;这也是 Fedora Linux 项目组推迟默认启用影子堆栈保护的原因，也就是给维护者更多时间来处理兼容性问题，当然系统本身也提供临时关闭方式，方便用户或开发者在少数应用不兼容时进行规避。&lt;/p&gt;
+&lt;p&gt;另外需要强调的是 Intel CET 技术还包括 IBT 间接分支跟踪，但 Fedora Linux 此次准备默认启用的只有影子堆栈保护，IBT 不在此次变更范围内，未来是否默认启用还需要看后续兼容性和维护情况。&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 01 Aug 2026 07:52:55 +0000</pubDate></item></channel></rss>
+</description><pubDate>Mon, 03 Aug 2026 00:30:57 +0000</pubDate></item><item><title>即便玩家发起请愿也不行 索尼高管称仔细考虑后决定继续停产实体游戏光盘</title><link>https://www.landian.news/archives/114155.html</link><description>#游戏资讯 玩家发起请愿也没用：索尼首席财务官陶琳证实公司已经关注玩家发起的请愿和社交媒体活动，不过仔细审查该计划后索尼仍然决定继续推进停产实体游戏光盘的计划。索尼认为随着玩家向数字化内容转型，停产实体 PS 游戏光盘是合理的做法，而且目前数字下载占比已经远远超过实体游戏光盘。查看全文：https://ourl.co/114155</description><pubDate>Sun, 02 Aug 2026 04:31:08 +0000</pubDate></item></channel></rss>
