@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Mon, 03 Aug 2026 22:26:01 +0000</lastBuildDate><item><title>[赞助商] MCP 对比 REST：将智能代理连接到您的 API 的正确方式</title><link>https://workos.com/blog/mcp-vs-rest?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q32026</link><description>&lt;p&gt;REST服务于那些基于你的API进行开发的开发者。&lt;a href="https://workos.com/guide/model-context-protocol?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q32026&amp;amp;utm_content=body_guide"&gt;MCP则服务于现在试图使用它的代理&lt;/a&gt;。大多数团队将这些视为竞争标准，不得不二选一。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 04 Aug 2026 02:32:33 +0000</lastBuildDate><item><title>终端小部件 1.0</title><link>https://terminalwidget.app/</link><description>&lt;p&gt;Brett Terpstra 的新应用：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;TerminalWidget 可将命令、脚本、API 和快捷指令的输出直接发送到 macOS、iOS 和 iPadOS 上的小组件，支持丰富的格式、进度条、迷你走势图和图像。它作为通用应用在 App Store 上售价 19.99 美元。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我不知道我会用它做什么，但我知道我想用它。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/08/03/terminalwidget" title="指向‘TerminalWidget 1.0’的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Tue, 04 Aug 2026 02:32:33 +0000</pubDate></item><item><title>[赞助商] MCP 对比 REST：将智能代理连接到您的 API 的正确方式</title><link>https://workos.com/blog/mcp-vs-rest?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q32026</link><description>&lt;p&gt;REST服务于那些基于你的API进行开发的开发者。&lt;a href="https://workos.com/guide/model-context-protocol?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q32026&amp;amp;utm_content=body_guide"&gt;MCP则服务于现在试图使用它的代理&lt;/a&gt;。大多数团队将这些视为竞争标准，不得不二选一。&lt;/p&gt;
 &lt;p&gt;它们并非对手，而是分层关系：大多数MCP服务器内部只是调用REST来完成实际工作。最好的MCP服务器不会把每个端点都转换成工具，而是围绕代理试图达成的目标来设计。&lt;/p&gt;
 &lt;p&gt;发布这样的服务器也意味着要发布带有作用域令牌的OAuth 2.1。&lt;a href="https://workos.com/docs/authkit/mcp?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q32026&amp;amp;utm_content=body_authkit"&gt;WorkOS AuthKit已经支持该规范&lt;/a&gt;，因此你无需再额外构建认证提供者。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://workos.com/blog/mcp-vs-rest?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q32026"&gt;阅读详细分析 →&lt;/a&gt;&lt;/p&gt;
@@ -38,24 +44,4 @@
 &lt;/blockquote&gt;
 &lt;p&gt;如果你还没读过，请抽出时间读一读。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/08/03/malik-mythos" title="Permanent link to 'Om Malik's Final Essay: 'The Myth, the Mythos and the Man''"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 03 Aug 2026 20:34:12 +0000</pubDate></item><item><title>★ 为什么苹果要求通过三大运营商之一开通蜂窝账户才能租赁iPhone</title><link>https://daringfireball.net/2026/08/followup_big_three_carrier_requirement</link><description>&lt;p&gt;延续上周的话题，&lt;a href="https://daringfireball.net/linked/2026/07/30/apple-upgrade-vs-iphone-upgrade-program"&gt;当时我曾问道&lt;/a&gt;：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;当您通过 Apple Upgrade 租赁 iPhone 时，您需要在三家美国大型运营商中拥有一家的话费账户：AT&amp;amp;T、T-Mobile 或 Verizon。这有点令人不爽，而且我不太明白为什么。您是通过 Apple 和 Klarna 租赁 iPhone，而不是通过运营商，所以我不明白 Apple 为何在意这一点。如果您知道原因，&lt;a href="https://daringfireball.net/contact/"&gt;请给我发消息&lt;/a&gt;解释一下。这难道仅仅是一种简单的信用风险评估，将预付费套餐用户和 MVNO 用户一概视为可疑对象？&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;我收到了大量关于此问题的消息。信用风险评估似乎是其中的一部分原因。iPhone 购买以及整个手机服务领域确实存在大量欺诈行为。三大运营商在允许您开通新的后付费账户之前会进行大量的风险评估；您在其中一家拥有活跃账户，这本身就是一个信号，表明您不是试图使用虚假身份租赁 iPhone 然后再转卖。&lt;/p&gt;
-&lt;p&gt;但更主要的原因在于 Apple 与三大运营商之间合同的复杂性。一位曾在 Apple 运营商团队工作多年（但几年前离职）的读者写道：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;关于您提出的问题——为什么 Apple 只为新的升级计划在“三大运营商”上提供 iPhone：每年，Apple 的运营商团队都会与这三大运营商分别谈判一项协议/计划（涉及数亿美元）。作为这些资金的回报，Apple 会做出诸如此类（或类似的）让步。这也是为什么，例如，它们的标志会出现在更显眼的位置，或者是在标牌、广告等上唯一被提及的运营商。尽管它们实际上并不受 MVNO（非其旗下的那些）或区域性运营商的威胁，这更像是 Apple 将其作为一揽子交易的一部分来销售，而这一揽子交易是专门提供给其最大、最好的“一级”合作伙伴的。这也起到了一个诱饵的作用，不断试图激励较小的合作伙伴按照 Apple 期望的方向行事。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这种情况可能会改变——一些较大的 MVNO 正在努力跻身“一级”合作伙伴（或者也许创造一个新的“一级半”）。但多年来，Apple 与三大运营商之间的联合营销协议中，有一部分内容就是 Apple 同意要求所有“特殊”iPhone 融资交易都必须拥有三大运营商之一的后付费账户，这包括旧的 iPhone 升级计划和新的 Apple Upgrade 租赁计划。&lt;/p&gt;
-&lt;p&gt;一个有趣的例外是，Boost Mobile 与三大运营商一起被纳入 Apple 卡月度分期（ACMI）计划，该计划在您使用 Apple 卡购买某些产品时提供 0% 年利率。&lt;a href="https://support.apple.com/en-us/104950"&gt;根据 ACMI 的细则&lt;/a&gt;：&lt;/p&gt;&lt;blockquote&gt;
-&lt;p&gt;要通过ACMI购买iPhone，你必须选择以下运营商之一（不支持预付运营商套餐）：AT&amp;amp;T、Boost Mobile、T-Mobile或Verizon。通过ACMI购买的iPhone始终是无锁版，因此你可以随时更换运营商，但需遵守你所在运营商的相关条款。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;所以，或许一些较大的MVNO运营商会设法进入Apple Upgrade计划——但如果他们真的进入，听起来他们需要为此向苹果付费。&lt;/p&gt;
-&lt;p&gt;关于欺诈问题，一位前Apple Store零售员工写道：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我2019年离职，但我估计在某些日子里，门店现场手机销售中有两位数的百分比是欺诈交易。&lt;/p&gt;
-&lt;p&gt;当店里开始支持运营商分期付款后，这种行为彻底爆发了。他们盗用了合法账户持有人的身份，带着访问账户所需的信息走进店里。他们总是想要最高端的手机，并用现金支付销售时的税费。从不想要任何配件。从不想打开盒子或激活手机。&lt;/p&gt;
-&lt;p&gt;尽管有激活要求时情况已经很糟糕，但没有这个要求的话只会更糟。我相信现在已经好多了，运营商也部署了更先进的系统来检测和阻止这种行为。但归根结底，运营商为那些从未收到付款的设备承担了数百万美元的成本。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;我怀疑那位读者是对的，苹果与运营商合作，已经严厉打击了这种行为。&lt;/p&gt;</description><pubDate>Mon, 03 Aug 2026 17:19:34 +0000</pubDate></item></channel></rss>
+</description><pubDate>Mon, 03 Aug 2026 20:34:12 +0000</pubDate></item></channel></rss>
