@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 04 Aug 2026 18:34:06 +0000</lastBuildDate><item><title>昨日TBPN上的我</title><link>https://www.youtube.com/live/ruL8Q-TsbbI?t=4085</link><description>&lt;p&gt;TBPN看起来像是一个我不会喜欢去做客的节目，但实际上我还挺喜欢的。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 04 Aug 2026 22:51:19 +0000</lastBuildDate><item><title>★ OpenAI回应苹果诉讼及初步禁令动议：“苹果搞错了”</title><link>https://daringfireball.net/2026/08/openai_apple_is_getting_this_wrong</link><description>&lt;p&gt;&lt;a href="https://openai.com/index/apple-is-getting-this-wrong/"&gt;OpenAI 昨晚发布了一篇未署名的博客文章&lt;/a&gt;，以公开方式——但尚未在法庭上——回应苹果新提出的初步禁令动议。用博客文章回应高风险的法庭文件是不寻常的举动，但 OpenAI 本就是一家不寻常的公司。以下是他们文章中的几段摘录，以及一些评论：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;苹果曾声称他们在二月份联系过 OpenAI，而我们没有回应。他们现在承认，是他们的外部律师在混淆了两个亚洲姓氏之后，把邮件发错人了——而且直到我们指出这一点，他们才承认。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;OpenAI 一直在抓着苹果外部律师 Gabriel Gross 发错一封邮件并迅速致歉的事情不放。按照 OpenAI 的说法，听起来似乎是苹果的律师将最初的整封关切信发错了人，这才导致 OpenAI 从未回应——因为信没有发给正确的人（OpenAI 总法律顾问 Che Chang）。但事实并非如此。最初那封重磅信件——大意是“嘿，我们认为你们在窃取我们的商业秘密，想跟你们谈谈”——&lt;em&gt;确实&lt;/em&gt;发给了 Che Chang。而 Che Chang 也确实没有回应苹果的律师。另外那封错误发送的邮件，内容是感谢 Che Chang 参加一场从未发生过的电话会议（因为这封邮件本来发给 OpenAI 的另一位员工），这封邮件无关紧要。我不明白 OpenAI 为什么继续紧抓这个无关紧要的错误不放。（&lt;a href="https://storage.courtlistener.com/recap/gov.uscourts.cand.474095/gov.uscourts.cand.474095.38.0.pdf"&gt;苹果的动议&lt;/a&gt;中包含了那封错误邮件及随后的致歉全文。）&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;苹果指责 Chang Liu 在离开公司后访问了苹果的机密信息，但现在才承认，是苹果员工主动联系他，请他帮忙查找这些信息（你可以在这&lt;a href="https://openai.com/index/apple-is-getting-this-wrong/#messages"&gt;里&lt;/a&gt;看到这些消息）。苹果现在试图将责任推给“残留访问权限”，但他们也没有披露，这在苹果是个常见问题，原因是苹果未能妥善管理离职员工的系统访问权限。这在实践中意味着，那些在离职时试图做正确事情的前员工，依然能够访问苹果的文件——尽管他们并不想要这些权限，甚至根本不知道这些权限的存在。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;OpenAI 似乎是在暗指苹果将 iCloud Drive 与员工的个人 Apple ID 绑定这一不寻常做法，&lt;a href="https://daringfireball.net/linked/2026/08/03/the-information-apple-employees-icloud"&gt;我（巧合地？）昨天刚写过这个话题&lt;/a&gt;。然而，苹果的禁令动议恰恰就这一点作出了回应。动议第 3 页写道：&lt;/p&gt;&lt;blockquote&gt;
+&lt;p&gt;刘先生于2026年1月22日（星期四）辞职，并通知称他将在下周二入职OpenAI。在最后一天，他未能回应苹果公司安排离职面谈的请求，也未签署保密提醒。&lt;/p&gt;
+&lt;p&gt;离职后的几天里，刘先生最初似乎很配合，也清楚自己对苹果公司的义务。他与前苹果团队的其他成员合作，将个人iCloud账户中残留的部分苹果信息归还给苹果。&lt;sup&gt;1&lt;/sup&gt;他还继续与前同事交流，例如回答有关他之前工作以及某些信息存储位置的问题。但这些互动和交流无法解释下文讨论的刘先生多次未经授权从苹果云存储下载大量技术文件的行为——他在2026年2月至4月期间受雇于OpenAI时多次进行了此类下载。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;该脚注内容如下：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;sup&gt;1&lt;/sup&gt;尽管苹果公司正在通过证据开示程序调查刘先生在离职后从其个人存储账户（包括iCloud）和设备中访问了哪些苹果机密信息，但诉状中提及并成为本动议核心的具体未经授权下载行为并非基于iCloud活动，而是涉及苹果公司的第三方云存储。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在苹果公司提交的任何文件中，都没有说明第三方云存储提供商是谁（&lt;a href="https://www.courtlistener.com/docket/73602437/apple-inc-v-liu/"&gt;这里是Court Listener索引页面&lt;/a&gt;，列出了该案所有提交文件），但我几乎可以肯定就是Box，据我所知Box在苹果公司内部被广泛使用。&lt;/p&gt;
+&lt;p&gt;OpenAI在帖子底部提供的iMessage记录与苹果的主张完全不矛盾。苹果的动议称，刘先生曾帮助前同事找到iCloud中的某些文件；这正是OpenAI的记录所显示的。但这一点并无争议。苹果还声称，刘先生在五个不同场合访问了机密信息——大概是在Box中，而绝对不是iCloud Drive——直到2026年4月27日，即他离开苹果三个多月后。这些聊天记录并未对此作出解释。聊天记录解释的是iCloud Drive的访问情况，而苹果自己也表示这一点无争议，同时无法解释刘先生从第三方云提供商（Box？）下载的37份文件，苹果称这些文件是在诉讼中点名他的核心原因。&lt;a href="https://storage.courtlistener.com/recap/gov.uscourts.cand.474095/gov.uscourts.cand.474095.45.0_4.pdf"&gt;这是苹果公司数字取证专家Daniel Roffman的声明&lt;/a&gt;，记录了刘先生离职后访问机密文件的情况（尽管有大量删节）。&lt;/p&gt;&lt;p&gt;我不明白为什么OpenAI把这当作公关问题而不是法律问题来处理。丹·莫伦&lt;a href="https://sixcolors.com/link/2026/08/openai-apple-is-getting-this-wrong/"&gt;在Six Colors撰写文章并链接到此报道&lt;/a&gt;，也持相似看法，他写道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;读这篇文章时，我脑海中反复浮现那句法律界的经典名言："如果你的手中握有事实，那就猛攻事实；如果你的手中握有法律，那就猛攻法律；如果你两者皆无，那就猛拍桌子。"&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;到目前为止，在我看来，OpenAI给人的感觉确实是在拍桌子。不过，他们的博客文章确实把立场从"对苹果的商业机密&lt;a href="https://daringfireball.net/linked/2026/07/10/openai-pusateri-statement"&gt;不感兴趣&lt;/a&gt;"转变为"我们没有这些机密"（强调为原文所加）：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;苹果还指控汤·谭试图获取并利用他们的商业机密。然而，谭先生一直明确告知团队，我们不需要、也绝不能使用来自其他公司的任何机密信息。谭先生为苹果服务超过24年，被公认为该公司最具创新力的领导者之一。[...]&lt;/p&gt;
+&lt;p&gt;苹果提出的初步禁令请求既基于虚假信息，也完全没有必要&lt;em&gt;，因为我们没有、也不想要他们的任何商业机密&lt;/em&gt;。我们更感兴趣的是开发推动前沿的创新产品和技术。&lt;/p&gt;
+&lt;/blockquote&gt;</description><pubDate>Tue, 04 Aug 2026 22:51:19 +0000</pubDate></item><item><title>昨日TBPN上的我</title><link>https://www.youtube.com/live/ruL8Q-TsbbI?t=4085</link><description>&lt;p&gt;TBPN看起来像是一个我不会喜欢去做客的节目，但实际上我还挺喜欢的。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/08/04/yours-truly-on-tbpn-yesterday" title="Permanent link to ‘Yours Truly on TBPN Yesterday’"&gt; ★ &lt;/a&gt;
 </description><pubDate>Tue, 04 Aug 2026 18:34:06 +0000</pubDate></item><item><title>苹果在商业秘密案中寻求对OpenAI的初步禁令</title><link>https://www.reuters.com/legal/litigation/apple-seeks-preliminary-injunction-against-openai-trade-secrets-case-2026-08-04/</link><description>&lt;p&gt;路透社：&lt;/p&gt;
 &lt;blockquote&gt;
@@ -26,9 +51,4 @@
 &lt;/blockquote&gt;
 &lt;p&gt;我不知道我会用它做什么，但我知道我想用它。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/08/03/terminalwidget" title="指向‘TerminalWidget 1.0’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Tue, 04 Aug 2026 02:32:33 +0000</pubDate></item><item><title>[赞助商] MCP 对比 REST：将智能代理连接到您的 API 的正确方式</title><link>https://workos.com/blog/mcp-vs-rest?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q32026</link><description>&lt;p&gt;REST服务于那些基于你的API进行开发的开发者。&lt;a href="https://workos.com/guide/model-context-protocol?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q32026&amp;amp;utm_content=body_guide"&gt;MCP则服务于现在试图使用它的代理&lt;/a&gt;。大多数团队将这些视为竞争标准，不得不二选一。&lt;/p&gt;
-&lt;p&gt;它们并非对手，而是分层关系：大多数MCP服务器内部只是调用REST来完成实际工作。最好的MCP服务器不会把每个端点都转换成工具，而是围绕代理试图达成的目标来设计。&lt;/p&gt;
-&lt;p&gt;发布这样的服务器也意味着要发布带有作用域令牌的OAuth 2.1。&lt;a href="https://workos.com/docs/authkit/mcp?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q32026&amp;amp;utm_content=body_authkit"&gt;WorkOS AuthKit已经支持该规范&lt;/a&gt;，因此你无需再额外构建认证提供者。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://workos.com/blog/mcp-vs-rest?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q32026"&gt;阅读详细分析 →&lt;/a&gt;&lt;/p&gt;
-&lt;a href="https://daringfireball.net/feeds/sponsors/2026/08/mcp_vs_rest_the_right_way_to_c" title="Permanent link to ‘MCP vs. REST: The Right Way to Connect Agents to Your API’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 03 Aug 2026 22:26:01 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 04 Aug 2026 02:32:33 +0000</pubDate></item></channel></rss>
