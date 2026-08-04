@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 04 Aug 2026 03:44:27 +0000</lastBuildDate><item><title>应微软要求，苹果将开发新功能允许iPhone与Windows PC跨设备共享剪贴板内容</title><link>https://www.landian.news/archives/114187.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 04 Aug 2026 08:09:44 +0000</lastBuildDate><item><title>研究人员披露新劫持方法：本地恶意软件可以劫持Chrome同步的通行密钥</title><link>https://www.landian.news/archives/114201.html</link><description>
+&lt;p&gt;#安全资讯 研究人员发布报告披露谷歌浏览器内置密码管理器同步 Passkey 存在的安全缺陷，在本地植入恶意软件的情况下，可以劫持用户登录。这种攻击方式并非破解通行密钥，而是滥用设备信任机制绕过原本应该由用户进行的 PIN、指纹或面容识别认证，攻击过程也不需要管理员权限。查看全文：https://ourl.co/114201&lt;/p&gt;&lt;p&gt;网络安全公司 PAN 旗下的安全研究团队 UNIT42 日前发布技术报告披露针对谷歌浏览器内置密码管理器的攻击方式，这些攻击方式主要是用来针对通行密钥 (Passkey) 的。受影响的则是 Chrome for Windows 且使用谷歌密码管理器同步通行密钥的用户，尤其是启用 TPM 可信平台模块的设备。&lt;/p&gt;
+&lt;p&gt;需要特别强调的是，通行密钥本身仍然是安全的而非加密机制遭到破解，这些攻击方式的前提都是黑客已经在本地安装恶意软件，攻击者在终端设备已经失陷的情况下，滥用谷歌浏览器、谷歌云端认证器、设备信任以及恢复流程中的实现问题，绕过原本应该由 PIN、指纹或面容识别完成的用户验证。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114201.png" rel="nofollow"&gt;&lt;img alt="研究人员披露新劫持方法：本地恶意软件可以劫持Chrome同步的通行密钥" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114201.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;通行密钥的安全基础是公钥和私钥认证，用户登录网站并创建通行密钥时，网站会生成密钥对并在服务器上保存用户公钥，私钥保存在用户设备或密码管理器 / 凭据管理器中，登录时由私钥完成签名验证并与服务器保存的公钥进行匹配。&lt;/p&gt;
+&lt;p&gt;研究人员发现谷歌密码管理器在同步通行密钥的实现中存在安全隐患，攻击者可以从终端设备的信任流程下手，利用普通权限的恶意软件模拟受信任的设备，向谷歌云端认证器请求某个同步通行密钥的有效认证响应，在这种情况下，受害者可能不会看到 PIN、指纹或面容识别提示，攻击过程也不需要管理员权限。&lt;/p&gt;
+&lt;p&gt;这种攻击可能不会对所有网站都有效，WebAuthn 认证结果中包含 User Verified 标志用来表示用户是否完成本地验证，如果网站将该标志设置为必须并严格检查返回结果中的验证标志，则常规攻击方案就会失效。&lt;/p&gt;
+&lt;p&gt;研究人员对 GitHub 进行测试发现该网站已经设置必要的验证因此无法成功展开攻击，而电商网站 eBay 就没有设置这种验证导致可以被攻击，接到通报后 eBay 已经加强安全策略实施验证以阻断此类攻击。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这项研究的关键结论就是通行密钥可以显著降低传统密码的攻击风险，但并不能替代终端安全。只要攻击者已经能在用户电脑上运行恶意软件，那就可以操作浏览器本地状态、读取同步元数据、滥用恢复流程，甚至尝试抓取敏感内存数据。&lt;/p&gt;
+&lt;p&gt;对网站和服务提供商来说，研究人员建议在部署通行密钥登录时将用户验证设置为必须，并严格检查 WebAuthn 返回结果中的 UV 标志，不能只判断认证是否完成。对凭据管理器和浏览器开发商来说，则需继续收紧设备注册、密钥恢复和主密钥保护机制，避免同步通行密钥的信任链被本地恶意软件滥用。&lt;/p&gt;
+&lt;p&gt;对普通用户而言通行密钥仍然比传统密码更安全，尤其是在防钓鱼和防撞库方面优势明显。但用户仍然需要保持系统和浏览器更新，避免安装来历不明的软件，毕竟如果系统本身都被植入恶意软件，那其他安全措施都很容易被削弱甚至破解。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息来源：&lt;a href="https://www.landian.news/go?url=https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/" rel="noopener" target="_blank"&gt;Unit 42&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 04 Aug 2026 08:09:44 +0000</pubDate></item><item><title>苹果收到举报称Telegram存在儿童性虐内容因此下架该应用 在删除内容后恢复上架</title><link>https://www.landian.news/archives/114188.html</link><description>
+&lt;p&gt;#软件资讯 苹果收到举报称 Telegram 存在儿童性虐内容因此将其下架，在删除内容后苹果重新上架该应用。苹果发布声明称，其审核团队发现该应用存在违反儿童性虐内容准则的内容，因此将其下架。在开发者迅速删除内容并封禁对应用户后，该应用可以重新上架。这种情况大概率是有人向苹果提交了举报，苹果确认举报真实后就直接下架，下架后再通知开发者处理。查看全文：https://ourl.co/114188&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/114185.html" rel="noopener" target="_blank"&gt;早前苹果在全球范围内将即时通讯工具 Telegram 从应用商店里下架&lt;/a&gt;，在被下架前 Telegram 并未收到苹果提前发送的通知，因此发现下架后 Telegram 也只能联系苹果咨询问题发生原因以及与苹果协商尽快重新上架 Telegram。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2024/09/105751.png" rel="nofollow"&gt;&lt;img alt="苹果收到举报称Telegram存在儿童性虐内容因此下架该应用 在删除内容后恢复上架" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2024/09/105751.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;此次下架时间不算长，苹果很快将 Telegram 重新上架并恢复正常的下载和更新，之后苹果向 9to5mac 发布声明解释此次下架的原因：我们曾短暂地将 Telegram 从应用商店中下架，原因是我们的审核发现该应用存在违反我们严格禁止儿童性虐内容准则的内容。在开发者迅速删除相关内容并封禁发布该内容的用户后，该应用已经重新上架。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;苹果在声明中的说法是审核发现违规内容，不过 Telegram 作为即时通讯工具，里面有大量用户日常发送的内容，所以苹果自己的审核团队不太可能可以直接发现违规内容，更大的可能是苹果收到其他用户的举报然后迅速定位问题并执行下架。&lt;/p&gt;
+&lt;p&gt;Telegram 本身也有内容举报机制，但如果其他用户发现特定群组或用户发送违规内容，也可以直接向苹果提交举报线索，对苹果来说即便是 Telegram 这种规模的应用，只要涉及儿童性虐内容那也必须立即下架，然后将线索同步给开发者，由开发者执行删除操作。&lt;/p&gt;
+&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 04 Aug 2026 07:33:43 +0000</pubDate></item><item><title>应微软要求，苹果将开发新功能允许iPhone与Windows PC跨设备共享剪贴板内容</title><link>https://www.landian.news/archives/114187.html</link><description>
 &lt;p&gt;#系统资讯 苹果批准微软提出的互操作性请求，将开发功能允许 iPhone 与 Windows PC 互相同步剪贴板内容。微软提出的请求是基于欧盟互操作性法律规定，因此该功能最终很有可能仅支持欧盟市场。苹果计划在 2027 年秋季完成功能开发，也就是要到 iOS 28 才会提供该功能。查看全文：https://ourl.co/114187&lt;/p&gt;&lt;p&gt;苹果公司应微软公司在欧盟提出的操作系统互操作性请求，将允许用户在 iPhone 与 Windows PC 之间跨设备共享剪贴板内容。该功能最终将在 iOS 28 中实现 (注意这是明年的版本)，当然目前来说该功能也仅限于欧盟市场，毕竟其他市场没有欧盟这种法律级别的互操作性规定。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114187.png" rel="nofollow"&gt;&lt;img alt="应微软要求，苹果将开发新功能允许iPhone与Windows PC跨设备共享剪贴板内容" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114187.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -28,60 +53,4 @@
 &lt;p&gt;不过目前行业的趋势就是哪家公司开出的薪资水平足够高，那就可以获得更多 AI 人才，AXIOS 称这些公司可以花钱买走研究人员的时间，但长久的忠诚是买不到的，而那些出价最高的实验室 (其实说的就是 A 社) 往往最先领悟到这一点，这恰恰与这些实验室强调的「金钱并非目的」的使命背道而驰。&lt;/p&gt;
 &lt;p&gt;AXIOS 也分析这种频繁挖角带来的潜在隐患，科研依赖于信任和人员的连续性，而人员的频繁流动会中断项目，也会迫使实验室为同一批核心人才支付双倍费用。目前已经有超过 400 名苹果前员工在 OpenAI 工作，而苹果正在就商业机密问题起诉 OpenAI，如此频繁的挖墙角最终只会留下诉讼和半途而废的工作。&lt;/p&gt;
 &lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 04 Aug 2026 03:17:18 +0000</pubDate></item><item><title>苹果短暂从全球市场下架Telegram然后重新上架 目前尚不清楚具体原因</title><link>https://www.landian.news/archives/114185.html</link><description>
-&lt;p&gt;#软件资讯 苹果将 Telegram 从 AppStore 下架，现在已经恢复上架，尚不清楚发生了什么。现在用户可以重新从 AppStore 下载或更新 Telegram。查看全文：https://ourl.co/114185&lt;/p&gt;&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114185.png" rel="nofollow"&gt;&lt;img alt="苹果从全球市场下架即时通讯工具Telegram 目前尚不清楚具体原因" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114185.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;2026 年 8 月 4 日，苹果因未知原因从全球各地的 Apple App Store 中下架即时通讯工具 Telegram，已经安装 Telegram 的用户可以继续使用，但 iOS/iPadOS 用户无法从应用商店重新下载安装，而 Mac App Store 版的 Telegram 是正常的，没有被下架。&lt;/p&gt;
-&lt;p&gt;目前尚不清楚苹果为什么下架，苹果没有发布任何官方声明，Telegram 目前也没有发布相关的消息，不过能让苹果从全球市场中下架，通常都是大问题。&lt;/p&gt;
-&lt;p&gt;正常情况下，如果是应用存在政策类问题遭到个别市场的监管机构投诉，那苹果可能会在对应市场下架，而不是全球范围内下架。但如果是存在安全问题那苹果就有可能实施全球下架，所以我们猜测这次苹果下架可能与 Telegram 本身存在的未知问题有关。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;更新：苹果已经重新上架 Telegram，用户可以正常下载和安装更新。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;本文将继续更新后续消息。&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 04 Aug 2026 02:35:14 +0000</pubDate></item><item><title>腾讯云8月活动：99元/年CN2GIA硅谷和首尔服务器 另有109元/年的4核4GB高配服务器</title><link>https://www.landian.news/archives/114184.html</link><description>
-&lt;p&gt;#云计算 腾讯云 8 月活动更新：99 元 / 年的 CN2 硅谷服务器上货，另有国内低价高配服务器，低至 109 元 / 年。腾讯云提供各类 AI 智能体部署模板，可以一键安装 Hermes Agent、OpenClaw、DeepSeek-TUI 等。查看全文：https://ourl.co/114184&lt;/p&gt;&lt;p&gt;腾讯云日前已经&lt;a href="https://ourl.co/tcact" rel="noopener" target="_blank"&gt;更新 8 月活动&lt;/a&gt;，每年仅需 99 元的硅谷和首尔 CN2 服务器再次补货，这些服务器虽然配置比较低但 99 元的价格已经相当便宜，尤其是现在服务器价格都非常贵。这次腾讯云还为 AI 智能体用户提供仅需每年 109 元的境内服务器，这款服务器 4 核心 4GB 内存，用来运行 Hermes Agent、OpenClaw 和 DeeoSeek-TUI 都绰绰有余。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;美国硅谷：2 核心 2GB 内存 30M 带宽 50GB 存储 1TB 流量 99 元 / 年，回程线路为 CN2GIA/CMI/AS4837&lt;/li&gt;
-&lt;li&gt;韩国首尔：2 核心 2GB 内存 30M 带宽 50GB 存储 1TB 流量 99 元 / 年，回程线路为 163/CMI/AS4837&lt;/li&gt;
-&lt;li&gt;法兰克福：2 核心 2GB 内存 30M 带宽 50GB 存储 1TB 流量 99 元 / 年，回程线路未测试&lt;/li&gt;
-&lt;li&gt;区域推荐：硅谷区域，首尔虽然延迟较低但高峰期稳定性不够，硅谷延迟较高但稳定性更好&lt;/li&gt;
-&lt;li&gt;购买方法：转到 &lt;a href="https://ourl.co/tcact" rel="noopener" target="_blank"&gt;活动主页&lt;/a&gt; 下拉找到「业务出海」板块，选择轻量应用服务器 2 核 2GB 30M Linux&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114184-1.png" rel="nofollow"&gt;&lt;img alt="腾讯云8月活动：99元/年CN2硅谷和首尔服务器 另有109元/年的4核4GB高配服务器" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114184-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; 配置更高的境外 CN2 服务器：199 元 / 年 &lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;美国硅谷：2 核心 4GB 内存 30M 带宽 60GB 存储 1.5TB 流量 199 元 / 年，回程线路为 CN2GIA/CMI/AS4837&lt;/li&gt;
-&lt;li&gt;韩国首尔：2 核心 4GB 内存 30M 带宽 60GB 存储 1.5TB 流量 199 元 / 年，回程线路为 163/CMI/AS4837&lt;/li&gt;
-&lt;li&gt;区域推荐：硅谷稳定性更好，首尔高峰期容易炸线路，泰国曼谷延迟太高不推荐&lt;/li&gt;
-&lt;li&gt;购买方法：转到 &lt;a href="https://ourl.co/tcact" rel="noopener" target="_blank"&gt;活动主页&lt;/a&gt; 下拉找到「同价续费」板块，切换到境外地域即可看到以上机型&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114184-2.png" rel="nofollow"&gt;&lt;img alt="腾讯云8月活动：99元/年CN2硅谷和首尔服务器 另有109元/年的4核4GB高配服务器" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114184-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;国内多区：4 核心 4GB 内存 3M 带宽 40GB 存储 300GB 流量 109 元 / 年，可部署网站 / 博客或各类 AI 智能体&lt;/li&gt;
-&lt;li&gt;国内多区：4 核心 8GB 内存 5M 带宽 60GB 存储 500GB 流量 450 元 / 年，可部署网站 / 博客或各类 AI 智能体&lt;/li&gt;
-&lt;li&gt;区域选择：以上机型支持上海、广州和北京，自用的话选择离自己最近的区域以降低延迟，部署网站推荐选上海&lt;/li&gt;
-&lt;li&gt;购买方法：转到 &lt;a href="https://ourl.co/tcact" rel="noopener" target="_blank"&gt;活动主页&lt;/a&gt; 点击导航栏的「热卖服务器」或下拉找到服务器专区即可看到这款机型&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114184-3.png" rel="nofollow"&gt;&lt;img alt="腾讯云8月活动：99元/年CN2硅谷和首尔服务器 另有109元/年的4核4GB高配服务器" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114184-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;国内多区：2 核心 4GB 内存 6M 带宽 70GB 存储 600GB 流量 528 元 / 3 年，一次购买 3 年可解决续费价格高的问题&lt;/li&gt;
-&lt;li&gt;区域选择：以上机型支持上海、广州和北京，自用的话选择离自己最近的区域以降低延迟，部署网站推荐选上海&lt;/li&gt;
-&lt;li&gt;购买方法：转到 &lt;a href="https://ourl.co/tcact" rel="noopener" target="_blank"&gt;活动主页&lt;/a&gt; 点击导航栏的「热卖服务器」或下拉找到服务器专区即可看到这款机型&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 04 Aug 2026 02:30:55 +0000</pubDate></item><item><title>谷歌正在为Chrome开发新安全功能 阻止垃圾软件通过策略劫持新标签页和默认搜索</title><link>https://www.landian.news/archives/114181.html</link><description>
-&lt;p&gt;#软件资讯 谷歌正在为 Chrome 开发新安全功能，阻止垃圾软件通过策略劫持新标签页和默认搜索引擎。这种问题已经存在数十年，现在谷歌准备通过新安全功能阻止垃圾软件通过策略劫持新标签页和默认搜索引擎。但用户手动安装的新标签页扩展程序不受影响，只有未经用户同意安装的扩展才会被拦截。查看全文：https://ourl.co/114181&lt;/p&gt;&lt;p&gt;谷歌浏览器默认使用谷歌搜索，并在新标签页中默认添加谷歌搜索框，对谷歌来说这是获取自然搜索流量的重要入口，不过也有很多垃圾软件甚至是恶意软件通过各种方式劫持谷歌浏览器，例如将默认搜索引擎篡改为国内搜索引擎且用户无法修改，或者直接劫持新标签页到垃圾网站导航。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/public/thumb/chrome.png" rel="nofollow"&gt;&lt;img alt="谷歌正在为Chrome开发新安全功能 阻止垃圾软件通过策略劫持新标签页和默认搜索" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/public/thumb/chrome.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;谷歌允许企业 IT 管理员通过策略锁定默认搜索引擎和新标签页地址 / 扩展程序，以接管浏览器默认设置，但恶意软件和垃圾软件也可以通过策略强制锁定消费者设备上谷歌浏览器的默认设置，这种问题已经存在数十年，而现在谷歌准备采取新方式拦截这种未经用户同意通过策略锁定的劫持方式。&lt;/p&gt;
-&lt;p&gt;谷歌称，在低信任环境（即非托管的普通消费者 PC）中，企业策略的强制安装和推荐功能遭到滥用，被用于锁定默认搜索引擎或安装新标签页劫持程序，谷歌测试的新功能则会阻止在这类设备上安装策略控制的扩展程序，谷歌浏览器还会记录扩展程序 ID 并放在阻止列表中，后续如果恶意软件再次尝试安装，也会默认阻止该扩展程序。&lt;/p&gt;
-&lt;p&gt;不过谷歌也在解决用户手动安装的扩展程序问题，即用户仍然可以手动安装新标签页类扩展程序，而通过策略安装的扩展程序则不受影响，用户主动安装的扩展程序不应该被限制。基于这个问题，谷歌还需要更多时间进行开发，所以阻止通过策略安装扩展程序的安全功能短时间内不会在 Chrome 正式版中提供。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;对于在托管环境中使用域控验证或 MDM 服务控制的设备，这些设备上安装的 Chrome 仍然可以正常通过策略进行控制，即 IT 管理员可以通过 Chrome 策略强制锁定默认搜索引擎、锁定主页、锁定新标签页扩展程序等，这些属于合法使用，所以不会被阻止。&lt;/p&gt;
-&lt;p&gt;而如果原本属于托管设备并且安装了企业策略，但之后该设备不再接受托管，则谷歌也会自动删除这些策略，包括卸载受影响的新标签页扩展程序和搜索引擎覆盖程序。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息来源：&lt;a href="https://www.landian.news/go?url=https://chromium-review.googlesource.com/c/chromium/src/+/8165095" rel="noopener" target="_blank"&gt;Chromium Gerrit&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="即将结束"&gt;&lt;a href="https://ourl.co/tcact" title="终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。"&gt;即将结束终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;span aria-hidden="true"&gt;终于补货！99元/年境外CN2服务器又可以购买，限量销售，售完即止。另有3年超低价国内VPS服务器。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 04 Aug 2026 02:00:03 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 04 Aug 2026 03:17:18 +0000</pubDate></item><item><title>苹果短暂从全球市场下架Telegram然后重新上架 目前尚不清楚具体原因</title><link>https://www.landian.news/archives/114185.html</link><description>#软件资讯 苹果将 Telegram 从 AppStore 下架，现在已经恢复上架，尚不清楚发生了什么。现在用户可以重新从 AppStore 下载或更新 Telegram。查看全文：https://ourl.co/114185</description><pubDate>Tue, 04 Aug 2026 02:35:14 +0000</pubDate></item></channel></rss>
