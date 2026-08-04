@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 04 Aug 2026 02:32:33 +0000</lastBuildDate><item><title>终端小部件 1.0</title><link>https://terminalwidget.app/</link><description>&lt;p&gt;Brett Terpstra 的新应用：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 04 Aug 2026 16:02:35 +0000</lastBuildDate><item><title>苹果在商业秘密案中寻求对OpenAI的初步禁令</title><link>https://www.reuters.com/legal/litigation/apple-seeks-preliminary-injunction-against-openai-trade-secrets-case-2026-08-04/</link><description>&lt;p&gt;路透社：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;苹果周一请求美国法官发布初步禁令，禁止两名前员工及OpenAI访问、获取、使用或披露涉嫌的机密信息，苹果正在推进其商业秘密诉讼。[...]&lt;/p&gt;
+&lt;p&gt;这家iPhone制造商周一还提交了一项并行动议，寻求加快证据开示，包括要求提供与被告涉嫌访问苹果专有和商业秘密信息相关的文件。苹果请求法官命令诉讼中点名的两名前苹果员工Chang Liu和Tang Yew Tan，以及OpenAI员工Yu-Ting Peng和一名未具名、曾在苹果工作的OpenAI员工接受取证。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;加快证据开示和取证的要求，我理解。苹果想快速推进，他们现在就想进行取证（我相信尤其是对Tan）。不过，初步禁令请求，我认为路透社在这里轻描淡写了。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://storage.courtlistener.com/recap/gov.uscourts.cand.474095/gov.uscourts.cand.474095.38.0.pdf"&gt;我建议阅读苹果的实际动议&lt;/a&gt;，而不是新闻报道。苹果动议中提到：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;不应允许OpenAI、其人员和合作伙伴开发、发布并受益于使用苹果商业秘密并借助其开发的产品。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;a href="https://daringfireball.net/linked/2026/08/04/apple-seeks-preliminary-injunction-against-openai" title="Permanent link to ‘Apple Seeks Preliminary Injunction Against OpenAI in Trade Secrets Case’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Tue, 04 Aug 2026 16:02:35 +0000</pubDate></item><item><title>Bending Spoons将以13亿美元收购Airtable</title><link>https://techcrunch.com/2026/08/04/bending-spoons-to-buy-airtable-for-1-28b/</link><description>&lt;p&gt;伊万·梅塔为TechCrunch报道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在上个月上市后的首次收购中，Bending Spoons周二表示，已同意以12.8亿美元现金收购电子表格和数据库初创公司Airtable。&lt;/p&gt;
+&lt;p&gt;Airtable成立于2013年，迄今已在多轮融资中筹集超过14亿美元。在2021年的繁荣鼎盛时期，其估值曾超过110亿美元，但今年早些时候，据称其股票在二级市场的交易估值已降至40亿美元。&lt;/p&gt;
+&lt;p&gt;Bending Spoons表示，加上当前的净现金及现金等价物余额，Airtable目前的估值约为22.5亿美元。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;问题不在于Airtable不是一款好产品，也不在于它没有一项好业务。根据公告，Airtable的年收入已达4.8亿美元，同比增长20%。这很好。但这只是达不到110亿美元估值所对应的那种好。从抽象意义上讲，打造一家价值10亿美元的公司是一种成功；但如果其财务状况需要支撑一个比实际价值高出一个数量级的估值，那就有问题了。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/08/04/bending-spoons-to-buy-airtable" title="Permanent link to ‘Bending Spoons to Buy Airtable for $1.3 Billion’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Tue, 04 Aug 2026 15:13:48 +0000</pubDate></item><item><title>终端小部件 1.0</title><link>https://terminalwidget.app/</link><description>&lt;p&gt;Brett Terpstra 的新应用：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;TerminalWidget 可将命令、脚本、API 和快捷指令的输出直接发送到 macOS、iOS 和 iPadOS 上的小组件，支持丰富的格式、进度条、迷你走势图和图像。它作为通用应用在 App Store 上售价 19.99 美元。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -12,36 +31,9 @@
 &lt;a href="https://daringfireball.net/feeds/sponsors/2026/08/mcp_vs_rest_the_right_way_to_c" title="Permanent link to ‘MCP vs. REST: The Right Way to Connect Agents to Your API’"&gt; ★ &lt;/a&gt;
 </description><pubDate>Mon, 03 Aug 2026 22:26:01 +0000</pubDate></item><item><title>John Ternus 已重新聘用前硬件副总裁 Laura Legros</title><link>https://www.macrumors.com/2026/08/03/apple-john-ternus-hiring-retired-vp/</link><description>&lt;p&gt;Juli Clover，MacRumors：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;即将上任的苹果CEO约翰·特努斯（John Ternus）正在重新聘用劳拉·莱格罗斯（Laura Legros），她曾任硬件工程副总裁，于2022年从苹果退休，&lt;a href="https://www.bloomberg.com/news/articles/2026-08-03/apple-s-new-ceo-taps-retired-hardware-executive-for-management-team"&gt;彭博社报道&lt;/a&gt;。莱格罗斯此前负责产品交付、开发进度以及工程团队间的协调工作。在特努斯领导下，她将跨公司不同部门工作，并直接向他汇报。&lt;/p&gt;
-&lt;p&gt;据彭博社报道，莱格罗斯在退休前是特努斯最信任的副手之一。她曾在过去的苹果活动中登台，介绍2018年MacBook Air和2020年iPad Air。&lt;/p&gt;
+&lt;p&gt;即将上任的苹果CEO约翰·特努斯正在重新聘请劳拉·莱格罗斯，她曾任硬件工程副总裁，于2022年从苹果退休，&lt;a href="https://www.bloomberg.com/news/articles/2026-08-03/apple-s-new-ceo-taps-retired-hardware-executive-for-management-team"&gt;据彭博社报道&lt;/a&gt;。莱格罗斯此前负责产品交付、开发进度管理以及工程团队之间的协调工作。在特努斯领导下，她将跨部门协作，直接向他汇报。&lt;/p&gt;
+&lt;p&gt;据彭博社报道，莱格罗斯在退休前是特努斯最信任的副手之一。她曾出席过往苹果发布会，介绍2018年MacBook Air和2020年iPad Air。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;2018年首款视网膜MacBook Air的发布&lt;a href="https://daringfireball.net/2018/11/the_2018_retina_macbook_air"&gt;是一个有趣的事件&lt;/a&gt;。我当时注意到，苹果很少提及“英特尔”这一点很显眼，尽管当时发布的所有产品都运行在英特尔芯片上。再看看那款MacBook Air与当时最新的iPad Pro的规格对比（见上面的链接），你就会明白苹果私下里为什么如此愤怒。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/08/03/ternus-rehired-legros" title="Permanent link to ‘John Ternus Has Rehired Former Hardware VP Laura Legros’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 03 Aug 2026 22:01:41 +0000</pubDate></item><item><title>The Information：苹果将iCloud用于机密工作的不寻常做法</title><link>https://www.theinformation.com/articles/apple-icloud-policy-fueled-employee-leaks-ahead-openai-suit?rc=jfy0lk</link><description>&lt;p&gt;Aaron “&lt;a href="https://daringfireball.net/linked/2024/03/28/apple-sues-leaker-andrew-aude"&gt;Homeboy&lt;/a&gt;” Tilley 为 The Information 撰写的报道（可惜有付费墙，没有礼物链接，但 &lt;a href="https://www.macrumors.com/2026/08/03/apple-icloud-sharing-ex-employees/"&gt;MacRumors 有摘要&lt;/a&gt;）：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;当新员工加入苹果时，公司通常会为他们配备一台iPhone和一台Mac，并为他们支付一个拥有大量在线存储容量的iCloud账户。关键的是，在入职流程中，苹果鼓励新员工使用他们已有的个人Apple ID来配合这个iCloud账户，这样一来，他们的同事就可以通过这个账户与他们共享苹果内部文档和其他文件。&lt;/p&gt;
-&lt;p&gt;苹果这项政策有一个实际原因。iPhone用户一次只能登录一个主要Apple ID，该ID解锁所有iCloud功能。想要保持工作和个人Apple ID分开的苹果员工，需要随身携带两部iPhone。因此，据前员工称，大多数苹果员工选择使用个人Apple ID来访问他们的iCloud账户。&lt;/p&gt;
-&lt;p&gt;当员工离开苹果时，公司会撤销他们对一个专用iCloud目录（用于存放苹果工作文件）以及一个认证系统（用于登录Slack等其他内部服务）的访问权限。但前员工表示，公司在离职流程中并没有彻底查找那些漏网的机密文件。由于这些前员工通常继续使用个人Apple ID访问他们的iCloud账户，因此存储在工作目录之外的任何苹果文档对他们仍然可用。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;如果你使用个人Apple ID，你的iCloud云盘中会出现一个神奇的“Apple Work”文件夹。当你离开苹果时，那个“Apple Work”文件夹就会消失。但任何分享给你的、位于这个神奇文件夹之外的其他文件或文件夹，仍然留在你的iCloud云盘中，因为它仍然是你的个人iCloud账户。&lt;/p&gt;&lt;p&gt;我认为，另一个与此相关但Tilley并未提及的因素是：你的Apple ID并不是一个电子邮件地址。你的Apple ID是一个账户，该账户关联着一个或多个电子邮件地址。假设你的个人iCloud账户关联了两个电子邮件地址：example@icloud.com和example@gmail.com。然后你入职苹果公司，获得了example@apple.com这个地址。当你离开苹果时，你便失去了对@apple.com地址的访问权限。但通过iCloud与你的Apple ID共享的任何内容，仍然是与&lt;em&gt;你&lt;/em&gt;共享的。你仍然拥有同一个Apple ID账户，即使你不再拥有员工的@apple.com邮箱账户。总体而言，这是一种处理数字身份的以人为本的方式。你的Apple ID账户就是&lt;em&gt;你&lt;/em&gt;，这个人本身，而不是“example@icloud.com”这个特定的唯一电子邮件地址。而你，作为一个人，很可能拥有多个电子邮件地址——所有这些地址都可以关联到你的同一个Apple ID账户。这使得Apple ID比简单的“一个电子邮件地址＝一个账户”的映射更加细致入微、更加复杂。而且这显然也让访问权限限制变得更加复杂。&lt;/p&gt;
-&lt;p&gt;假设你删除了你的Gmail账户。现在你无法再访问你以前的example@gmail.com电子邮件地址。但你对通过iCloud与你的Apple ID共享内容的访问仍然有效，即使是发送到你已删除的@gmail.com地址的内容也是如此。而在大多数公司，“工作内容”的访问方式并不是这样的。&lt;/p&gt;
-&lt;p&gt;Tilley在The Information上的报道被认为可能与苹果针对OpenAI的商业秘密诉讼有关，但苹果在给The Information的一份声明中表示并非如此：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;苹果在一份声明中表示：“这起案件涉及OpenAI员工
-不当窃取苹果关于我们未发布技术、流程和
-产品的机密和保密信息。
-诉讼文件中没有任何内容与通过iCloud共享或
-存储在iCloud中的文档有关。”该公司表示，它不会对
-意外将苹果文档保留在个人iCloud账户中的
-前雇员提起法律诉讼。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;a href="https://daringfireball.net/linked/2026/08/03/the-information-apple-employees-icloud" title="《The Information：苹果将iCloud用于机密工作的不寻常做法》的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 03 Aug 2026 21:45:40 +0000</pubDate></item><item><title>Om Malik的最后一篇文章：‘神话、神话体系与那个人’</title><link>https://om.co/2026/06/07/the-myth-the-mythos-and-the-man/</link><description>&lt;p&gt;Om 于6月7日星期一发布了这篇文章——正是 WWDC 主题演讲当天。他给我发了一条留言，内容过于私密，不便全文分享。他称之为自己的"最后一击"——"以防我撑不过去"。&lt;a href="https://daringfireball.net/2026/06/om"&gt;他终究没能撑过去&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;我没有立刻阅读，因为当时正忙于 WWDC。后来他去世了，我依然没有读，因为实在不忍心去读。直到今天，我终于读完了。写得太好了，见解深刻。摘录一段：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;奥古斯都拥有元老院和祭司。达里奥拥有椭圆形办公室和梵蒂冈。结构如出一辙，相隔两千年。&lt;/p&gt;
-&lt;p&gt;柏拉图会一眼认出这种结构。他毕生致力于区分追求真理的哲学家与制造说服的诡辩家。诡辩家并非在撒谎。诡辩家通过筛选、排序和呈现，让受众不经思考便产生信念。在柏拉图看来，神话（Mythos）属于诗人和神话制造者的领域。用于教育年轻人是有用的，但当它取代成年人之间严谨的论证时，就变得危险了。他会审视 Anthropic 的命名策略，看到穿着哲学外衣的诡辩术。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;如果你还没读过，请抽出时间读一读。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/08/03/malik-mythos" title="Permanent link to 'Om Malik's Final Essay: 'The Myth, the Mythos and the Man''"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 03 Aug 2026 20:34:12 +0000</pubDate></item></channel></rss>
+&lt;p&gt;2018年首款视网膜MacBook Air的发布&lt;a href="https://daringfireball.net/2018/11/the_2018_retina_macbook_air"&gt;是一个值得关注的事件&lt;/a&gt;。我当时注意到，尽管所有发布的产品都搭载英特尔芯片，苹果却鲜少提及“英特尔”，这一点非常明显。再看看那款MacBook Air与当时iPad Pro的规格对比（见上方链接），就能明白苹果私下为何如此不满。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/08/03/ternus-rehired-legros" title="‘约翰·特努斯已重新聘请前硬件副总裁劳拉·莱格罗斯’的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Mon, 03 Aug 2026 22:01:41 +0000</pubDate></item></channel></rss>
