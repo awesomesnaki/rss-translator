@@ -225,70 +225,78 @@ OpenRouter 宕机而卡住。检查器看到“进行中”，但如果会话
 随着我对环路建立更多信心，这种情况可能会改变。 &lt;a href="https://kau.sh/feed.xml#fnref:2"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-</description><pubDate>Mon, 22 Jun 2026 20:39:22 +0000</pubDate></item><item><title>我的新编程字体 - Moxy</title><link>https://kau.sh/blog/moxy/</link><description>&lt;figure&gt;
+</description><pubDate>Mon, 22 Jun 2026 20:39:22 +0000</pubDate></item><item><title>Moxy - 我的新编程字体</title><link>https://kau.sh/blog/moxy/</link><description>&lt;figure&gt;
 &lt;img alt="Moxy — a monospaced coding font" referrerpolicy="no-referrer" src="https://kau.sh/specimen.png"/&gt;
 &lt;/figure&gt;
-&lt;p&gt;每次我切换或尝试新字体时，我都会在我的&lt;a href="https://kau.sh/tags/my-new-programming-font/"&gt;my-new-programming-font&lt;/a&gt;系列中记录它。&lt;/p&gt;
-&lt;p&gt;一些流行的字体有：&lt;a href="https://kau.sh/blog/ibm-plex-mono/"&gt;IBM Plex Mono&lt;/a&gt;，&lt;a href="https://kau.sh/blog/recursive/"&gt;Recursive&lt;/a&gt;，&lt;a href="https://kau.sh/blog/commit-mono/"&gt;Commit Mono&lt;/a&gt;，Berkeley Mono。&lt;/p&gt;
-&lt;p&gt;这次有点不同。这是一个我“自制”的字体，我把它叫做&lt;a href="https://github.com/kaushikgopal/font-moxy"&gt;&lt;strong&gt;Moxy&lt;/strong&gt;&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;每次我切换或试用新字体时，我都会在 &lt;a href="https://kau.sh/tags/my-new-programming-font/"&gt;my-new-programming-font&lt;/a&gt; 系列中记录下来。&lt;/p&gt;
+&lt;p&gt;其中比较受欢迎的有：&lt;a href="https://kau.sh/blog/ibm-plex-mono/"&gt;IBM Plex Mono&lt;/a&gt;、&lt;a href="https://kau.sh/blog/recursive/"&gt;Recursive&lt;/a&gt;、&lt;a href="https://kau.sh/blog/commit-mono/"&gt;Commit Mono&lt;/a&gt;、Berkeley Mono。&lt;/p&gt;
+&lt;p&gt;这次有点不同。这是一个我自己“制作”的字体，我称之为 &lt;a href="https://github.com/kaushikgopal/font-moxy"&gt;&lt;strong&gt;Moxy&lt;/strong&gt;&lt;/a&gt;。&lt;/p&gt;
 &lt;h2 id="built-on-strong-bones"&gt;
-基于坚实的基础
+建立在坚实的基础之上
 &lt;a href="https://kau.sh/feed.xml#built-on-strong-bones"&gt;##&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;Moxy 是基于 &lt;a href="https://www.recursive.design/"&gt;Recursive&lt;/a&gt; 构建的。说它是一种新字体有点牵强——它是在Recursive基础上加入了一套有主见的字符选择和一些对原版的修正。&lt;/p&gt;
-&lt;p&gt;关于Recursive，有两件事我特别喜欢：&lt;/p&gt;
+&lt;p&gt;Moxy 是基于 &lt;a href="https://www.recursive.design/"&gt;Recursive&lt;/a&gt; 构建的。说它是一款新字体有些牵强——它只是在 Recursive 的基础上，加入了一套个性化的字符选择，并对原版做了一些修正。&lt;/p&gt;
+&lt;p&gt;我喜欢 Recursive 的两点：&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;它是目前最清晰易读的字体之一&lt;/li&gt;
-&lt;li&gt;它充满格调&lt;sup id="fnref:1"&gt;&lt;a href="https://kau.sh/feed.xml#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;它是最易读、最清晰的字体之一&lt;/li&gt;
+&lt;li&gt;它很有格调&lt;sup id="fnref:1"&gt;&lt;a href="https://kau.sh/feed.xml#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Recursive也是推动可变字体发展的&lt;a href="https://www.recursive.design/process/"&gt;先驱&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;另一个我一直在测试和玩耍的字体是&lt;a href="https://github.com/mishamyrt/Lilex"&gt;Lilex&lt;/a&gt;。它再次流行起来是因为像Zed这样的编辑器将其设为默认字体。Lilex实际上就是IBM Plex Mono加上一套特殊字符和连字选择。它在很多方面都是一款优秀的字体，而且我经常发现自己会切换到它。&lt;/p&gt;
-&lt;p&gt;Lilex有一些我非常喜欢的编程连字。于是，借助AI编程的力量，我心想：如果我拥有Recursive，但带有Lilex的一些字形呢？&lt;/p&gt;
-&lt;p&gt;Moxy就这样诞生了。&lt;/p&gt;
+&lt;p&gt;Recursive 也是推动可变字体发展的 &lt;a href="https://www.recursive.design/process/"&gt;先驱&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;我一直在测试和把玩的另一款字体是 &lt;a href="https://github.com/mishamyrt/Lilex"&gt;Lilex&lt;/a&gt;。它再次流行起来，是因为像 Zed 这样的编辑器把它作为默认字体。Lilex 实际上只是 IBM Plex Mono 加上一套特殊字符和连字选择。它在很多方面都是一款出色的字体，也是我经常切换过去的字体。&lt;/p&gt;
+&lt;p&gt;Lilex 有一些我绝对喜欢用于编程的连字。所以，借助 AI 编程的力量，我心想：如果我能用上 Recursive，但又带有 Lilex 的一些字形，那会怎么样？&lt;/p&gt;
+&lt;p&gt;于是，Moxy 诞生了。&lt;/p&gt;
 &lt;h2 id="whats-different"&gt;
-不同之处：
+有什么不同：
 &lt;a href="https://kau.sh/feed.xml#whats-different"&gt;##&lt;/a&gt;
 &lt;/h2&gt;
 &lt;figure&gt;
 &lt;img alt="Recursive vs Moxy, side by side — parentheses, long arrows, connected bars, dashes, escape backslash, letterforms, and extra arrows" referrerpolicy="no-referrer" src="https://kau.sh/comparison.png"/&gt;
 &lt;/figure&gt;
-&lt;p&gt;该字体内置了我特定的Recursive字符选择。但你可以根据个人喜好更换它们。&lt;/p&gt;&lt;figure&gt;
+&lt;p&gt;这款字体预置了我对 Recursive 的特定字符选择。但你可以根据自己的偏好随时替换它们。&lt;/p&gt;&lt;figure&gt;
 &lt;img alt="Customizability for Moxy" referrerpolicy="no-referrer" src="https://kau.sh/opentype-features.png"/&gt;
 &lt;/figure&gt;
 &lt;h2 id="install-it"&gt;
-安装
+安装它
 &lt;a href="https://kau.sh/feed.xml#install-it"&gt;##&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;下载 &lt;a href="https://github.com/kaushikgopal/font-moxy/releases/tag/v1"&gt;v1 版本&lt;/a&gt;，
-解压缩，然后像其他字体一样安装 &lt;code&gt;.ttf&lt;/code&gt; 文件。&lt;/p&gt;
+&lt;p&gt;下载 &lt;a href="https://github.com/kaushikgopal/font-moxy/releases/tag/v1"&gt;v1 发行版&lt;/a&gt;，解压缩，然后像安装其他字体一样安装这些 &lt;code&gt;.ttf&lt;/code&gt; 文件。&lt;/p&gt;
 &lt;p&gt;或者，使用 &lt;code&gt;brew&lt;/code&gt;：&lt;/p&gt;
 &lt;pre tabindex="0"&gt;&lt;code&gt;brew install --cask kaushikgopal/tools/font-moxy
 &lt;/code&gt;&lt;/pre&gt;
 &lt;hr/&gt;
 &lt;ol&gt;
 &lt;li id="fn:1"&gt;
-&lt;p&gt;人们理所当然地喜爱并信赖 JetBrains Mono。他们一直问我为什么没有引用或提及它。我喜欢 JetBrains Mono 的存在，但我发现它是一种“单调”的字体——这并不总是坏事。当你看到 Recursive 时，它本身就在传递一种态度。 &lt;a href="https://kau.sh/feed.xml#fnref:1"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;人们理所当然地喜爱并推崇 JetBrains Mono。他们一直问我为什么不引用或提及它。我很高兴 JetBrains Mono 存在，但我发现它是一种“单调”的字体——这并不总是坏事。当你看到 Recursive 时，它会让你眼前一亮。 &lt;a href="https://kau.sh/feed.xml#fnref:1"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-</description><pubDate>Tue, 16 Jun 2026 07:00:00 +0000</pubDate></item><item><title>OpenCode 高级用户技巧</title><link>https://kau.sh/blog/opencode-power-user-tips/</link><description>&lt;p&gt;在这篇文章中，我想分享一些关于OpenCode的高级用户技巧——这是一个&lt;a href="https://github.com/anomalyco/opencode"&gt;开源&lt;/a&gt;、模型无关的工具框架，应该被更多人使用。希望其中一些高级用例能说服你尝试一下&lt;a href="https://opencode.ai/"&gt;OpenCode&lt;/a&gt;（以及&lt;a href="https://openchamber.dev/"&gt;OpenChamber&lt;/a&gt;）。&lt;/p&gt;
+</description><pubDate>Tue, 16 Jun 2026 07:00:00 +0000</pubDate></item><item><title>OpenCode 高级用户技巧</title><link>https://kau.sh/blog/opencode-power-user-tips/</link><description>&lt;p&gt;在这篇文章中，我想聊聊一些关于 OpenCode 的高级用户技巧——它是一个
+&lt;a href="https://github.com/anomalyco/opencode"&gt;开源&lt;/a&gt;、模型无关的 agent 框架，
+值得更多人使用。希望其中一些高级用例能说服你尝试一下
+&lt;a href="https://opencode.ai/"&gt;OpenCode&lt;/a&gt;（以及
+&lt;a href="https://openchamber.dev/"&gt;OpenChamber&lt;/a&gt;）。&lt;/p&gt;
 &lt;div dir="auto"&gt;
 &lt;svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"&gt;&lt;circle cx="12" cy="12" r="10"&gt;&lt;/circle&gt;&lt;path d="M12 16v-4"&gt;&lt;/path&gt;&lt;path d="M12 8h.01"&gt;&lt;/path&gt;&lt;/svg&gt;
 
 
-仅限中级到高级技巧
+仅限中高级技巧
 
 &lt;/div&gt;
-&lt;p&gt;我特意选择在这篇文章中讨论一些高级技巧。如果你从未使用过代理工具框架，或者正在学习如何使用OpenCode，这篇文章可能会有帮助，但请注意，读者需自行斟酌。&lt;/p&gt;
+&lt;p&gt;我在这篇文章中特意选择讨论一些高级技巧。如果你
+从未使用过 agent 框架，或者想学习如何使用
+OpenCode，这篇文章可能会有帮助，但读者请注意。&lt;/p&gt;
 &lt;h2 id="unleash-the-leader-key"&gt;
-释放 &lt;code&gt;leader&lt;/code&gt; 键
+释放 &lt;code&gt;leader&lt;/code&gt; 键的威力
 &lt;a href="https://kau.sh/feed.xml#unleash-the-leader-key"&gt;##&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;虽然 &lt;code&gt;⌃p&lt;/code&gt;（Ctrl + P）会列出所有可能的命令（这很有帮助），但OpenCode有一个“leader”键的概念（默认为 &lt;code&gt;⌃x&lt;/code&gt;）。Leader键允许你更快地执行有针对性的有用命令，并且预定义了一系列有用的命令&lt;sup id="fnref:1"&gt;&lt;a href="https://kau.sh/feed.xml#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
+&lt;p&gt;虽然 &lt;code&gt;⌃p&lt;/code&gt;（Ctrl + P）会列出所有可能的命令（这很有帮助），
+但 OpenCode 有一个“leader”键的概念（默认为 &lt;code&gt;⌃x&lt;/code&gt;）。leader
+键让你可以更快地执行有针对性的实用命令，而且
+预设了一系列有用的命令&lt;sup id="fnref:1"&gt;&lt;a href="https://kau.sh/feed.xml#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
 &lt;figure&gt;
 &lt;div align="center"&gt;
 &lt;img alt="ctrl-p shows all commands" referrerpolicy="no-referrer" src="https://kau.sh/0-ctrlp.webp"/&gt;
 &lt;figcaption&gt;
-ctrl-p 显示所有命令。注意一些命令绑定了 leader 键
+ctrl-p 显示所有命令。注意 leader 键绑定到了其中一些命令上
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/figure&gt;
@@ -296,25 +304,26 @@ ctrl-p 显示所有命令。注意一些命令绑定了 leader 键
 管理多个会话 - &lt;code&gt;leader l&lt;/code&gt;
 &lt;a href="https://kau.sh/feed.xml#manage-multiple-sessions---leader-l"&gt;##&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;人们常常使用整个终端和额外工具来协调多个代理会话。&lt;/p&gt;&lt;p&gt;我以前也有一个&lt;a href="https://x.com/kaushikgopal/status/2032181317442682977"&gt;过度定制&lt;/a&gt;的tmux配置，看起来像这样：&lt;/p&gt;
+&lt;p&gt;人们会借助整个终端和额外的工具来在多个 agent
+会话之间切换。&lt;/p&gt;&lt;p&gt;我也有一个&lt;a href="https://x.com/kaushikgopal/status/2032181317442682977"&gt;过度定制&lt;/a&gt;的 tmux 设置，看起来像这样：&lt;/p&gt;
 &lt;figure&gt;
 &lt;div align="center"&gt;
 &lt;img alt="Before: agent session listing via tmux" referrerpolicy="no-referrer" src="https://kau.sh/2-tmuxbefore.webp"/&gt;
 &lt;figcaption&gt;
-之前：通过tmux列出的代理会话
+之前：通过 tmux 查看 agent 会话列表
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/figure&gt;
-&lt;p&gt;OpenCode简化了这一点。只需按下&lt;code&gt;leader + l&lt;/code&gt;，你就能查看当前会话，并可以通过从列表中选择来立即切换到该会话。&lt;/p&gt;
+&lt;p&gt;OpenCode 简化了这一切。只需按下 &lt;code&gt;leader + l&lt;/code&gt; 即可查看当前会话，并且可以从列表中选择并立即切换到该会话。&lt;/p&gt;
 &lt;figure&gt;
 &lt;div align="center"&gt;
 &lt;img alt="After: leader-l allows quick session switching" referrerpolicy="no-referrer" src="https://kau.sh/1-leaderl.webp"/&gt;
 &lt;figcaption&gt;
-之后：leader-l允许快速切换会话
+之后：leader-l 支持快速切换会话
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/figure&gt;
-&lt;p&gt;从这个视图快速重命名会话的功能对我来说是天赐之物，它让我保持条理。&lt;/p&gt;
+&lt;p&gt;能够在此视图中快速重命名会话对我来说简直是天赐之物，也是让我保持条理的关键。&lt;/p&gt;
 &lt;div dir="auto"&gt;
 &lt;svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"&gt;&lt;/path&gt;&lt;/svg&gt;
 
@@ -322,145 +331,144 @@ ctrl-p 显示所有命令。注意一些命令绑定了 leader 键
 会话目录过滤
 
 &lt;/div&gt;
-&lt;p&gt;你可以在启动&lt;code&gt;opencode&lt;/code&gt;时传递一个&lt;code&gt;--dir .&lt;/code&gt;标志，这会将会话列表默认过滤到仅此工作区/目录。你也可以不传递该标志，那么会话列表将显示&lt;em&gt;所有&lt;/em&gt;会话。&lt;/p&gt;
+&lt;p&gt;启动 &lt;code&gt;opencode&lt;/code&gt; 时可以传递 &lt;code&gt;--dir .&lt;/code&gt; 标志，默认情况下它会将会话列表过滤为仅显示当前工作区/目录。你也可以不传递该标志，会话列表将显示&lt;em&gt;所有&lt;/em&gt;会话。&lt;/p&gt;
 &lt;h2 id="fork-or-branch-sessions-fork"&gt;
-分叉（或分支）会话 &lt;code&gt;/fork&lt;/code&gt;
+Fork（或 Branch）会话 &lt;code&gt;/fork&lt;/code&gt;
 &lt;a href="https://kau.sh/feed.xml#fork-or-branch-sessions-fork"&gt;##&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;分叉会获取你当前所在的会话并生成一个新的。你会分支到一个单独的对话中，而主代理会继续处理你留给它的任何任务。&lt;/p&gt;
-&lt;p&gt;我喜欢这个功能，甚至在大多数工具推出之前，我就用tmux&lt;a href="https://kau.sh/blog/agent-forking/"&gt;拼凑了我自己的版本&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;Claude Code、Codex和其他工具已经跟进并支持这一功能。但OpenCode的用户体验是最流畅的。&lt;/p&gt;
-&lt;video controls="controls" loop="loop" width="100%"&gt;
+&lt;p&gt;Fork 操作会基于你当前所在的会话生成一个新的会话。你分支到一个独立的对话中，而主 agent 会继续处理你之前交给它的任务。&lt;/p&gt;
+&lt;p&gt;我非常喜欢这个功能，甚至在大多数工具链提供该功能之前，我就已经用 tmux &lt;a href="https://kau.sh/blog/agent-forking/"&gt;拼凑了自己的版本&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;Claude Code、Codex 和其他工具链已经赶上并支持了这一功能。但 OpenCode 的用户体验是最流畅的。&lt;/p&gt;&lt;video controls="controls" loop="loop" width="100%"&gt;
 &lt;source src="https://kau.sh/3-forking.mp4" type="video/mp4"/&gt;
-&lt;/video&gt;&lt;p&gt;你只需在聊天中输入 &lt;code&gt;/fork&lt;/code&gt;。它为你提供了分叉当前聊天或从消息中某个先前点分叉的选项。然后你可以直接从列表界面重命名分叉的会话，并来回跳转。便捷的会话切换功能在这里再次派上用场。&lt;/p&gt;
+您的浏览器不支持HTML5视频。请改为&lt;a href="https://kau.sh/3-forking.mp4"&gt;下载&lt;/a&gt;视频。
+&lt;/video&gt;
+&lt;p&gt;你只需在聊天中输入&lt;code&gt;/fork&lt;/code&gt;。它会让你选择从当前聊天或从消息中的先前位置分叉。然后你可以直接从列表界面重命名分叉的会话，并来回切换。轻松的会话切换在这里又派上了用场。&lt;/p&gt;
 &lt;h2 id="going-back-in-a-conversation---leader-g"&gt;
-回到对话中的某个点 - &lt;code&gt;leader g&lt;/code&gt;
+回到对话中的先前位置 - &lt;code&gt;leader g&lt;/code&gt;
 &lt;a href="https://kau.sh/feed.xml#going-back-in-a-conversation---leader-g"&gt;##&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;需要回到同一对话中较早的某个点？在OpenCode中，没有繁琐的退出操作。leader g会显示一个时间线，你可以立即回溯对话，从那里分叉一个新的会话，或者直接复制消息文本。&lt;/p&gt;
+&lt;p&gt;需要倒回同一对话中更早的点？在OpenCode中，没有按两次esc的麻烦操作。按下leader g会显示时间线，你可以立即还原对话、从该处派生新会话，或者直接复制消息文本。&lt;/p&gt;
 &lt;video controls="controls" loop="loop" width="100%"&gt;
 &lt;source src="https://kau.sh/4-gotomessage.mp4" type="video/mp4"/&gt;
+您的浏览器不支持HTML5视频。请改为&lt;a href="https://kau.sh/4-gotomessage.mp4"&gt;下载&lt;/a&gt;视频。
 &lt;/video&gt;
 &lt;h2 id="model-switching---leader-m"&gt;
 模型切换 - &lt;code&gt;leader m&lt;/code&gt;
 &lt;a href="https://kau.sh/feed.xml#model-switching---leader-m"&gt;##&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;这很可能是我难以切换离开OpenCode的主要原因之一。我只需按下 &lt;code&gt;leader m&lt;/code&gt;&lt;sup id="fnref:2"&gt;&lt;a href="https://kau.sh/feed.xml#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;，就可以在GPT-5.5、Kimi K2.6和Opus之间来回切换。&lt;/p&gt;
+&lt;p&gt;这大概是我很难从OpenCode切换走的主要原因之一。只需按&lt;code&gt;leader m&lt;/code&gt;&lt;sup id="fnref:2"&gt;&lt;a href="https://kau.sh/feed.xml#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;，我就能在GPT-5.5、Kimi K2.6和Opus之间来回切换。&lt;/p&gt;
 &lt;div dir="auto"&gt;
 &lt;svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"&gt;&lt;/path&gt;&lt;/svg&gt;
 
 
-切换模型与推理
+更改模型和推理方式
 
 &lt;/div&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;leader&lt;/code&gt; + &lt;code&gt;m&lt;/code&gt; 即时切换模型。&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ctrl+t&lt;/code&gt; 更改推理类型。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;leader&lt;/code&gt; + &lt;code&gt;m&lt;/code&gt; 可即时切换模型。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ctrl+t&lt;/code&gt; 可更改推理类型。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;我设想未来我们将拥有可以在本地运行的更小模型。OpenCode也可以指向你在自己机器上运行的ollama模型。&lt;/p&gt;&lt;p&gt;如果你对我的模型选择感兴趣，&lt;a href="https://kau.sh/tags/ai-model-choice/"&gt;点击这里&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;我预见未来我们将能在本地运行更小的模型。OpenCode 也可以指向你本机正在运行的 ollama 模型。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kau.sh/tags/ai-model-choice/"&gt;点击这里&lt;/a&gt; 如果你对我的模型选择感兴趣。&lt;/p&gt;
 &lt;h2 id="lsp-support"&gt;
 LSP 支持
 &lt;a href="https://kau.sh/feed.xml#lsp-support"&gt;##&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;并非所有人都意识到，但 OpenCode 内置了 LSP 服务器
-&lt;a href="https://opencode.ai/docs/lsp/"&gt;集成&lt;/a&gt;。这意味着 OpenCode 内部的编码智能体能够更好地理解如何导航不同的编程语言。你将发现更少的文件搜索和 grep 操作。&lt;/p&gt;
-&lt;p&gt;Anthropic 甚至推荐
-&lt;a href="https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start"&gt;LSP 服务器集成&lt;/a&gt;
-作为让工具在大型代码库中表现更佳的高级技巧。&lt;/p&gt;
-&lt;p&gt;OpenCode 免费提供了其中的大部分功能。&lt;/p&gt;
+&lt;p&gt;并非所有人都知道，OpenCode 内置了 LSP 服务器。这意味着 OpenCode 中的编码智能体能够更好地理解如何驾驭不同编程语言。你会发现文件搜索和 grep 操作更少了。&lt;/p&gt;
+&lt;p&gt;Anthropic 甚至推荐&lt;a href="https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start"&gt;LSP 服务器集成&lt;/a&gt;，这是在大型代码库中让工具运行良好的高级做法。&lt;/p&gt;
+&lt;p&gt;OpenCode 免费提供了其中大部分功能。&lt;/p&gt;
 &lt;h2 id="custom-agents"&gt;
 自定义智能体
 &lt;a href="https://kau.sh/feed.xml#custom-agents"&gt;##&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;我热衷于 OpenCode 的另一个原因是：按下 &lt;code&gt;tab&lt;/code&gt; 键即可循环切换自定义智能体。以下是我经常使用的几个：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;red-team&lt;/strong&gt; — 以独立的对抗性视角，从与实现者不同的角度思考，寻找失败模式。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ghostwriter&lt;/strong&gt; — 草拟消息、帖子，语气不那么像 AI 套路。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;brainstormer&lt;/strong&gt; — 专门调优以帮助我进行创意、计划等头脑风暴的自定义智能体。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;pr-reviewer&lt;/strong&gt; — 严格的审查者，忽略过去的对话，以全新的视角进行审查。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;kimi-coder&lt;/strong&gt; — 受 Kimi 约束的编码智能体：快速、便宜的实现。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;agent-kombat&lt;/strong&gt; — 参见我的 &lt;a href="https://kau.sh/blog/agent-kombat/"&gt;agent-kombat&lt;/a&gt; 文章。我已将其集成到一个自定义智能体中以便快速使用。&lt;/li&gt;
+&lt;p&gt;我信赖 OpenCode 的另一个原因：按 &lt;code&gt;tab&lt;/code&gt; 键可循环切换自定义智能体。以下是我经常使用的几个：&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;red-team&lt;/strong&gt; — 以独立的对抗性视角，与实现者不同的方式思考，并寻找失败模式。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ghostwriter&lt;/strong&gt; — 以不太AI腔的语气起草消息和帖子。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;brainstormer&lt;/strong&gt; — 自定义代理，专门调整来帮助我进行观点、计划等的头脑风暴。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;pr-reviewer&lt;/strong&gt; — 严格审查者，忽略过往对话，以全新视角审查。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;kimi-coder&lt;/strong&gt; — 受Kimi约束的编码代理：快速、廉价的实现。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;agent-kombat&lt;/strong&gt; — 参见我的 &lt;a href="https://kau.sh/blog/agent-kombat/"&gt;agent-kombat&lt;/a&gt; 文章。我已将它接入自定义代理以便快速使用。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div dir="auto"&gt;
 &lt;svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"&gt;&lt;/path&gt;&lt;/svg&gt;
 
 
-查看子代理的工作
+查看子代理工作
 
 &lt;/div&gt;
-&lt;p&gt;当智能体将工作分发给子代理时，按&lt;code&gt;leader&lt;/code&gt; + &lt;code&gt;down&lt;/code&gt;可调出子代理视图以便观察其工作。&lt;/p&gt;
+&lt;p&gt;当代理将工作扇出给子代理时，&lt;code&gt;leader&lt;/code&gt; + &lt;code&gt;down&lt;/code&gt; 会调出子代理视图，以便你观察它们的工作。&lt;/p&gt;
 &lt;h2 id="headless-mode"&gt;
 无头模式
 &lt;a href="https://kau.sh/feed.xml#headless-mode"&gt;##&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;与其他人一样，你可以使用OpenCode进行脚本编写和一次性审查：&lt;/p&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;opencode --prompt "审查src/auth.ts中的代码" --output review.md
+&lt;p&gt;与其他工具类似，你可以使用OpenCode进行脚本编写和一次性审查：&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;opencode --prompt "Review the code in src/auth.ts" --output review.md
 &lt;/code&gt;&lt;/pre&gt;&lt;h1 id="enter-openchamber"&gt;
 进入OpenChamber
 &lt;a href="https://kau.sh/feed.xml#enter-openchamber"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
-&lt;p&gt;到目前为止，我主要是在终端用户界面（TUI）的背景下讨论功能。我的好友YY最近向我介绍了OpenChamber，这对我改变了很多。&lt;/p&gt;
-&lt;p&gt;OpenChamber是OpenCode的图形界面包装器。顺便提一下，OpenCode已经有一个Web客户端。但OpenChamber有很多不错的功能。&lt;/p&gt;
+&lt;p&gt;到目前为止，我主要是在TUI的背景下谈论功能。我的好朋友YY最近向我介绍了OpenChamber，它为我改变了很多。&lt;/p&gt;&lt;p&gt;OpenChamber 是 OpenCode 的一个 GUI 封装。顺便说一句，OpenCode 本身已经有网页客户端了。但 OpenChamber 还附带了许多很棒的附加功能。&lt;/p&gt;
 &lt;figure&gt;
 &lt;div align="center"&gt;
 &lt;img alt="OpenChamber: a super nice GUI over your running OpenCode server" referrerpolicy="no-referrer" src="https://kau.sh/6-openchamber.webp"/&gt;
 &lt;figcaption&gt;
-OpenChamber：运行中的OpenCode服务器上一个非常漂亮的图形界面
+OpenChamber：一个运行在 OpenCode 服务器之上的超赞 GUI
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/figure&gt;
-&lt;p&gt;但关键是，它使用的是同一个OpenCode服务器。在&lt;a href="https://kau.sh/blog/opencode-openclaw/"&gt;之前的一篇文章&lt;/a&gt;中，我深入探讨了OpenCode的服务器-客户端架构：你将OpenCode作为&lt;em&gt;服务器&lt;/em&gt;运行，并连接多个&lt;em&gt;客户端&lt;/em&gt;到它。&lt;/p&gt;&lt;p&gt;一个客户端可以是终端标签页、你的手机、桌面、浏览器——每一个都是指向同一服务器的隔离会话，完全同步。OpenChamber 只是另一个客户端，但是一个超级强大的图形界面客户端。&lt;/p&gt;
+&lt;p&gt;但关键点在于，它使用的是你同一个 OpenCode 服务器。在
+&lt;a href="https://kau.sh/blog/opencode-openclaw/"&gt;上一篇文章&lt;/a&gt;中，我深入探讨了 OpenCode 的服务器-客户端架构：你将 OpenCode 作为&lt;em&gt;服务器&lt;/em&gt;运行，然后连接多个&lt;em&gt;客户端&lt;/em&gt;到它上面。&lt;/p&gt;
+&lt;p&gt;客户端可以是终端标签页、你的手机、桌面端或浏览器——每一个都是指向同一台服务器、完全同步的独立会话。OpenChamber 只是另一个客户端，但拥有超级强大的 GUI。&lt;/p&gt;
 &lt;h2 id="free-remote-control-from-your-phone"&gt;
-手机免费远程控制
+用手机免费远程控制
 &lt;a href="https://kau.sh/feed.xml#free-remote-control-from-your-phone"&gt;##&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;这个功能风靡全球，尤其是自从 Codex 推出他们的实现以来。&lt;/p&gt;
-&lt;p&gt;OpenChamber 免费为你提供这个功能，并且用户体验极佳。&lt;/p&gt;
+&lt;p&gt;这个功能火遍了全世界；尤其是 Codex 推出它们的实现之后。&lt;/p&gt;
+&lt;p&gt;OpenChamber 以超级出色的用户体验，免费为你提供这个功能。&lt;/p&gt;
 &lt;figure&gt;
 &lt;div align="center"&gt;
 &lt;img alt="OpenChamber gives you remote control for free" referrerpolicy="no-referrer" src="https://kau.sh/5-remotecontrol.webp"/&gt;
 &lt;figcaption&gt;
-OpenChamber 免费提供远程控制
+OpenChamber 免费提供远程控制功能
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/figure&gt;
-&lt;p&gt;只需点击一个按钮，内部使用 &lt;code&gt;cloudflared&lt;/code&gt; 或 &lt;code&gt;ngrok&lt;/code&gt;，它就会打开一个安全的&lt;sup id="fnref:3"&gt;&lt;a href="https://kau.sh/feed.xml#fn:3"&gt;3&lt;/a&gt;&lt;/sup&gt;隧道，你可以将手机或其他客户端连接到该隧道。因此，现在你的手机可以控制 OpenChamber，并通过代理控制 OpenCode，就像你在电脑上操作一样。&lt;/p&gt;
-&lt;p&gt;使用 OpenCode 和 tailscale 也可以实现这一点（正如我在上一篇文章中提到的），但 OpenChamber 的用户体验和安全隧道方法使这一切更加流畅。&lt;/p&gt;
-&lt;p&gt;现在出门时，我几乎从不带工作笔记本电脑。只需对着我的手机和一个打开了 OpenChamber 的浏览器标签页说话。&lt;/p&gt;
+&lt;p&gt;一键点击，内部会使用 &lt;code&gt;cloudflared&lt;/code&gt; 或 &lt;code&gt;ngrok&lt;/code&gt;，就能打开一条安全&lt;sup id="fnref:3"&gt;&lt;a href="https://kau.sh/feed.xml#fn:3"&gt;3&lt;/a&gt;&lt;/sup&gt;隧道，让你可以将手机或其他客户端连接上来。这样，你的手机就能像在电脑上一样，精确地控制 OpenChamber，进而控制 OpenCode。&lt;/p&gt;
+&lt;p&gt;这一点以前用 OpenCode 配合 tailscale 也能实现（正如我在上一篇文章中提到的），但 OpenChamber 的用户体验和安全隧道方案让整个过程变得流畅自如。&lt;/p&gt;
+&lt;p&gt;现在，我出门时几乎再也不带工作笔记本电脑了。只需要对着手机说话，外加一个打开着 OpenChamber 的浏览器标签页就行了。&lt;/p&gt;
 &lt;h3 id="multi-run"&gt;
-多模型运行
+多运行
 &lt;a href="https://kau.sh/feed.xml#multi-run"&gt;###&lt;/a&gt;
-&lt;/h3&gt;
-&lt;p&gt;我依赖的另一项 OpenChamber 功能是：多模型运行。你有一个提示，并希望同时在多个模型上尝试。我认为 Cursor 是第一个引入这个功能的。OpenChamber 为此提供了一个非常漂亮的界面。这就是我一直在测试 Opus 4.8 并更新我的&lt;a href="https://kau.sh/blog/ai-model-choices-2026-06/"&gt;模型选择&lt;/a&gt;的方式。&lt;/p&gt;
+&lt;/h3&gt;&lt;p&gt;我依赖的另一个 OpenChamber 功能是多模型运行（multi-run）。你有一个提示词，想同时在多个模型上尝试。我认为 Cursor 是第一个引入这个功能的。OpenChamber 为此提供了一个非常出色的界面。我就是这样来试用 Opus 4.8 并更新我的&lt;a href="https://kau.sh/blog/ai-model-choices-2026-06/"&gt;模型选择&lt;/a&gt;的。&lt;/p&gt;
 &lt;h1 id="tip-on-syncing-opencode-and-openchamber"&gt;
-同步 OpenCode 和 OpenChamber 的提示
+关于同步 OpenCode 和 OpenChamber 的提示
 &lt;a href="https://kau.sh/feed.xml#tip-on-syncing-opencode-and-openchamber"&gt;#&lt;/a&gt;
-&lt;/h1&gt;&lt;p&gt;有一个需要注意的事项。默认情况下，OpenChamber 会检测 &lt;code&gt;127.0.0.1:4096&lt;/code&gt; 上是否运行着 OpenCode 服务器。如果未找到，它会静默地启动自己的实例。&lt;/p&gt;
-&lt;p&gt;因此，如果你真的希望所有会话保持同步，请先在端口 &lt;code&gt;4096&lt;/code&gt; 上启动你的 OpenCode 服务器，&lt;em&gt;然后&lt;/em&gt; 再正常打开 OpenChamber，这样它就会连接到已有的服务器上。&lt;/p&gt;
-&lt;p&gt;我设置了一个方便的 shell 别名，可以像这样后台启动 OpenCode 服务器：&lt;/p&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;# 在后台启动 opencode 服务器，端口 4096
+&lt;/h1&gt;
+&lt;p&gt;只有一个注意事项需要了解。OpenChamber 默认会探测 &lt;code&gt;127.0.0.1:4096&lt;/code&gt;，寻找正在运行的 OpenCode 服务器。如果在那里没有找到 OpenCode 服务器，它就会静默地启动自己的服务器。&lt;/p&gt;
+&lt;p&gt;所以，如果你真的想让所有会话保持同步，你应该先在 &lt;code&gt;4096&lt;/code&gt; 端口启动 OpenCode 服务器，&lt;em&gt;然后&lt;/em&gt;再正常打开 OpenChamber，它就会连接到你已经启动的那一个。&lt;/p&gt;
+&lt;p&gt;我现在有一个方便的 shell 别名，可以像这样在后台启动 OpenCode 服务器：&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;# start opencode server in the background on port 4096
 abbr -a -- ocs "nohup opencode serve --port 4096 &amp;gt;/tmp/opencode.log 2&amp;gt;&amp;amp;1 &amp;amp;"
 
-# 将新的 opencode TUI 实例连接到上述服务器
+# attach a new opencode TUI instance to above
 abbr -a -- oca "opencode attach http://127.0.0.1:4096" # --dir .
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;如果你没能及时看到这个提示，需要终止之前运行的 OpenCode 服务器实例，我推荐使用方便的 &lt;a href="https://github.com/dalance/procs"&gt;procs&lt;/a&gt; 命令行工具。&lt;/p&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;
-# 显示正在运行的 opencode 服务器及其端口
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;如果你没有及时看到这个提示，并且需要终止之前的 OpenCode 服务器实例，我建议使用方便的 &lt;a href="https://github.com/dalance/procs"&gt;procs&lt;/a&gt; 命令行工具。&lt;/p&gt;&lt;pre tabindex="0"&gt;&lt;code&gt;
+# 显示 opencode 服务器及其运行的端口
 procs -i TcpPort opencode
 
-# 这是 fish shell 的一个便利特性：它会正确解析输出并传递给 kill
+# 这是 fish shell 的一个便利特性，它能正确解析输出并将其传递给 kill 命令
 kill (procs opencode --only pid --no-header)
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;OpenCode 和 OpenChamber 远不止这些功能，但这些是我每天都会用到的东西。最让我印象深刻的是"单服务器、多客户端"的架构——只需运行一个 OpenCode 服务器，然后把所有东西都指向它：TUI、OpenChamber、你的手机。随便拿走这里对你有用的东西，如果有什么我还没发现的技巧，请告诉我。&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;OpenCode 和 OpenChamber 都远不止这些，但这是我日常最常用的部分。最让我印象深刻的是单服务器、多客户端的设置——运行一个 OpenCode 服务器，然后让所有客户端都指向它：TUI、OpenChamber、你的手机。这里有用的东西尽管拿去用，如果你有什么我还没意识到的技巧，也欢迎告诉我。&lt;/p&gt;
 &lt;hr/&gt;
 &lt;ol&gt;
 &lt;li id="fn:1"&gt;
-&lt;p&gt;你还可以绑定没有预定义快捷键的命令。例如，我将"退出应用"命令绑定到 &lt;code&gt;⌃x + q&lt;/code&gt;，这样就能快速退出 OpenCode。 &lt;a href="https://kau.sh/feed.xml#fnref:1"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;你还可以绑定没有预定义按键的命令。例如，我将“退出应用”命令绑定到 &lt;code&gt;⌃x + q&lt;/code&gt;，这样就能快速退出 OpenCode。 &lt;a href="https://kau.sh/feed.xml#fnref:1"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id="fn:2"&gt;
-&lt;p&gt;是是是，你可能正在清除你的提示词/缓存，但你本来就不该有长时间运行的对话。 &lt;a href="https://kau.sh/feed.xml#fnref:2"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;是的，是的，你可能会破坏你的提示词/KV 缓存，但无论如何你都不该有长时间运行的对话。 &lt;a href="https://kau.sh/feed.xml#fnref:2"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id="fn:3"&gt;
-&lt;p&gt;一次性 + 有效期 + 可撤销的链接 &lt;a href="https://kau.sh/feed.xml#fnref:3"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;一次性 + TTL + 可撤销的连接链接 &lt;a href="https://kau.sh/feed.xml#fnref:3"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 </description><pubDate>Wed, 03 Jun 2026 16:00:00 +0000</pubDate></item><item><title>AI模型选择 2026-06</title><link>https://kau.sh/blog/ai-model-choices-2026-06/</link><description>&lt;p&gt;我的2026年一月AI工具栈。&lt;/p&gt;
