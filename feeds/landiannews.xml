@@ -1,70 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 05 Aug 2026 01:30:42 +0000</lastBuildDate><item><title>[立即抢注用户名] Cloudflare推出面向AI智能体的可编程钱包 可用于API和内容微支付</title><link>https://www.landian.news/archives/114204.html</link><description>
-&lt;p&gt;#人工智能 [立即抢注用户名] Cloudflare 推出面向 AI 智能体的可编程钱包，可用于 API 和内容微支付等。这个钱包主要就是给 AI 智能体使用的，即智能体可以在访问特定商户时支付费用，与 Cloudflare 货币化网关服务配合使用。目前该服务正在预注册用户名，每个账号仅可预注册 1 个用户名。查看全文：https://ourl.co/114204&lt;/p&gt;&lt;p&gt;网络服务提供商 Cloudflare 日前宣布推出 Cloudflare Wallets 钱包，这是面向 AI 智能体和自动化应用的可编程钱包系统，目标不是做普通消费者的加密钱包，而是为智能体式互联网提供支付和身份基础设施。&lt;/p&gt;
-&lt;p&gt;目前用户可以通过自己的账户提前申请保留钱包用户名，例如蓝点网已经申请预留 @landian 这个用户名，每个 Cloudflare 账号只能预留 1 个用户名，当然也建议各位不要尝试注册 @Google、@Apple 和 @Microsoft 这类用户名，因为有很高概率会被毙掉。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114204A.png" rel="nofollow"&gt;&lt;img alt="[立即抢注用户名] Cloudflare推出面向AI智能体的可编程钱包 可用于API和内容微支付" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114204A.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 05 Aug 2026 05:07:00 +0000</lastBuildDate><item><title>企业IT管理员纷纷指责微软未经同意推送安装OneDrive Photos应用且无法卸载</title><link>https://www.landian.news/archives/114210.html</link><description>
+&lt;p&gt;#软件资讯 企业 IT 管理员纷纷抱怨微软未经同意强制推送安装 OneDrive Photos 应用，而且该应用只能个人登录，企业账号压根无法使用。这段时间微软悄悄向大量用户推送 OneDrive Photos，该应用捆绑在 OneDrive 中且无法单独卸载，仅支持个人用户登录。但没想到大量企业设备也同样收到推送，IT 管理员们直接懵圈，因为没有任何策略可以阻止微软的推送安装。查看全文：https://ourl.co/114210&lt;/p&gt;&lt;p&gt;微软做事总是让人有些意想不到，&lt;a href="https://www.landian.news/archives/114144.html" rel="noopener" target="_blank"&gt;这段时间微软正在向所有用户推送安装名为 OneDrive Photos 的照片应用&lt;/a&gt;，无论用户是否使用 OneDrive 或是否开通 Microsoft 365 订阅，都会被自动推送安装该应用。更糟糕的是该应用捆绑在 OneDrive 中无法单独卸载，除非用户直接卸载整个 OneDrive 应用。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114144-2.png" rel="nofollow"&gt;&lt;img alt="企业IT管理员纷纷指责微软未经同意推送安装OneDrive Photos应用且无法卸载" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114144-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Cloudflare 此前已经提议 AI 智能体和 AI 搜索爬虫应该为 API 或内容按次支付费用，这个钱包应用就是为了解决此类按次支付场景的。当 AI 智能体尝试使用网站提供的 API 时可能会遇到人类流程：打开登录页、注册账号、添加支付方式、生成 KEY，然后再研究如何调用接口，这个流程对 AI 智能体来说非常不友好。&lt;/p&gt;
-&lt;p&gt;核心问题在于 AI 智能体缺少稳定身份，因此服务提供商难以判断智能体代表谁；AI 智能体也没有原生支付方式，无法像调用 API 那样直接为 API、内容或推理服务付费，因此很多任务最终还需要人类提供帮助，AI 智能体无法自主测试和比较大量服务。&lt;/p&gt;
-&lt;p&gt;Cloudflare Wallets 试图补上这部分能力，&lt;a href="https://www.landian.news/archives/113753.html" rel="noopener" target="_blank"&gt;钱包可以与 Cloudflare 此前推出的货币化网关服务配合使用&lt;/a&gt;，后者支持 x402 协议将支付信息附加到 HTTP 请求中。换句话说，服务提供商可以将 API、数据或内容放在支持 x402 协议的端点后，调用方在请求资源时同时完成小额付费。&lt;/p&gt;
+&lt;p&gt;如果是个人用户被推送安装 OneDrive Photos 无非就是抱怨以及捏着鼻子认了，毕竟如果要使用 OneDrive 的话还不能将整个 OneDrive 都卸载，但对企业用户来说微软这种推送机制简直就是个灾难，因为本身 OneDrive Photos 就只支持微软个人账户登录。&lt;/p&gt;
+&lt;p&gt;也就是说，即便微软将其推送给企业用户，用户也没法使用域控账户登录该应用上传照片或者检索已经保存在 OneDrive 中的照片，更让 IT 管理员无法接受的是，OneDrive Photos 还是个测试应用，现在还挂着 Beta 标签，然后在 IT 管理员不知情的情况下，微软直接将其推送安装。&lt;/p&gt;
+&lt;p&gt;对企业设备来说，IT 管理员会严格控制员工安装的应用程序，有 IT 管理员抱怨称，并不希望公司内部到处都是乱七八糟的程序，而现在 IT 管理员只能眼睁睁地看着，无法单独卸载，也无法使用域控策略阻止系统自动安装 OneDrive Photos。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Cloudflare Wallets 分为账户钱包和虚拟钱包，账户钱包主要面向账号所有者和管理员，也就是人类用户，用户可以向账户钱包内充值和提现，也可以设置账户钱包额度并授权给 AI 智能体使用。&lt;/p&gt;
-&lt;p&gt;虚拟钱包则是面向 AI 智能体提供的，通过 API 进行集中操作和调用，管理员可以从账户钱包里为每个 AI 智能体创建不同的虚拟钱包，然后设置可用额度、允许访问的商户列表以及单笔交易上限等规则。这样智能体就可以在授权范围内自主购买服务，但不能无限制消费。&lt;/p&gt;
+&lt;p&gt;向不符合要求的用户推送安装应用并不是首次出现，此前也出现过微软向个人用户推送安装只能企业或教育机构才能登录的应用，也出现过向企业和教育机构推送只能个人账户登录的应用。&lt;/p&gt;
+&lt;p&gt;现在 OneDrive Photos 这种情况有很大概率又是微软内部推送出错，即微软可能原本只准备向非托管设备推送安装，结果企业和教育机构的托管设备也同样被安装，毕竟对企业来说被推送安装只能个人账户登录而且还挂着 Beta 标签的应用是完全不合规的。&lt;/p&gt;
+&lt;p&gt;所以估计要不了多久微软就会听到大家的抱怨然后停止向托管设备推送安装 OneDrive Photos，只不过对于个人用户而言现在还没有比较好的办法卸载 OneDrive Photos 应用，最多只能通过 PowerShell 脚本卸载 OneDrive Photos 快捷方式。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;除了支付外，Cloudflare Wallets 还会承担智能体身份标识功能，现在网站面对 AI 智能体访问时通常只能看到自动化请求，很难通过请求识别这个智能体代表谁，这会影响试用额度、免费赠金、风控以及商业合作等场景。&lt;/p&gt;
-&lt;p&gt;Cloudflare 的方案是通过 Cloudflare.Pay 将钱包与用户主账号身份关联起来，允许智能体选择性声明自己的身份，这样网站或商户就可以通过身份标识来判断这个 AI 智能体代表谁，然后决定是否提供服务、给予额度或要求更高身份验证。&lt;/p&gt;
-&lt;p&gt;不过 AI 智能体是否声明自己的身份取决于用户设置，用户可以选择不暴露自己的真实身份，而商户也可以根据是否声明身份提供不同层级的服务，例如未声明身份的智能体必须付费使用，声明身份的智能体可以获得免费额度进行测试等。&lt;/p&gt;
-&lt;p&gt;抢注钱包用户名：&lt;a href="https://www.landian.news/go?url=https://cloudflare.pay/?utm_sources=landian.news" rel="noopener" target="_blank"&gt;https://cloudflare.pay/&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息来源：&lt;a href="https://www.landian.news/go?url=https://blog.cloudflare.com/wallets/" rel="noopener" target="_blank"&gt;Cloudflare 官方博客&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;下载后使用管理员权限运行：&lt;a href="https://dl.landian.news/?dir=script/remove-photos" rel="noopener" target="_blank"&gt;https://dl.landian.news/?dir=script/remove-photos&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 05 Aug 2026 01:30:42 +0000</pubDate></item><item><title>恩智浦面向物联网设备推出同时支持WiFi 6和蓝牙协议的RW610FML无线通信模块</title><link>https://www.landian.news/archives/114203.html</link><description>
-&lt;p&gt;#硬件设备 恩智浦面向物联网设备推出支持 WiFi 6 和蓝牙协议的低功耗无线通信模块 RW610FML，该模块可被用于常规物联网设备、工控设备以及消费级电子设备等。模块本身包含非常丰富的协议支持和接口支持，模块还内置 1 颗 260MHz 的 Arm Cortex-M33 微控制器内核，可以用作通信协处理器或控制硬件本身。查看全文：https://ourl.co/114203&lt;/p&gt;&lt;p&gt;业界知名半导体公司恩智浦日前宣布面向低功耗物联网设备推出同时支持 WiFi 6 和低功耗蓝牙协议 (BLE) 的通信模块，该模块集成 1 颗 Arm Cortex-M33 内核，可以用作专用通信协处理器或承担硬件控制任务。该模块型号为 RW610FML，恩智浦还推出型号为 FRDM-RW610FML 的即用型开发板。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114203.png" rel="nofollow"&gt;&lt;img alt="恩智浦面向物联网设备推出同时支持WiFi 6和蓝牙协议的RW610FML无线通信模块" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114203.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 05 Aug 2026 05:07:00 +0000</pubDate></item><item><title>[Claude/GPT] AI智能体对开源项目维护者钓鱼 只为逼迫维护者合并包含恶意代码的PR</title><link>https://www.landian.news/archives/114209.html</link><description>
+&lt;p&gt;#人工智能 AI 模型在安全测试中再次出现真实网络攻击事件：Mythos 5 和 GPT-5.6 Sol 发起 10 余次真实的网络攻击。最严重的情况下，AI 智能体向真实开源项目提交包含恶意代码的 PR，还尝试对项目维护者进行钓鱼，在邮件里添加恶意载荷。目的都是逼迫维护者合并包含恶意代码的 PR，或取得维护者账号所有权来合并 PR。查看全文：https://ourl.co/114209&lt;/p&gt;&lt;p&gt;OpenAI 日前发布博客披露两起第三方网络安全评估中发生的越界事件，此次事件涉及 OpenAI GPT-5.6 Sol 和 Anthropic Claude Mythos 5。相关测试原本用来评估前沿 AI 智能体的网络安全能力，但在特定配置下，部分模型行为超出预设测试范围，结果出现对开源项目维护者发起攻击和对真实网站发起攻击的案例。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114209.png" rel="nofollow"&gt;&lt;img alt="[Claude/GPT] AI智能体对开源项目维护者钓鱼 只为逼迫维护者合并包含恶意代码的PR" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114209.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;RW610FML 是个低功耗高性能的 WiFi 6 和蓝牙组合模块，支持 IEEE 802.11a/b/g/n/ac/ax 协议以及低功耗蓝牙协议，模块本身集成嵌入式存储器和微控制单元并配备丰富的接口，可以实现灵活的设计。恩智浦称该模块可以支持常规的物联网设备、工业控制设备以及消费级电子产品等。&lt;/p&gt;
-&lt;p&gt;模块主要基于恩智浦的 RW610 系统级芯片构建，该芯片包含 1 颗运行频率最高 260MHz 的 Arm Cortex-M33 微控制器内核、1.2MB 片上静态内存 (SRAM) 以及四路串行外设接口 (QSPI)，支持从外部闪存或板载 8MB 闪存进行原地执行 (XIP)。第二个 SPI 接口支持可选的伪静态内存 (PSRAM) 扩展。&lt;/p&gt;
+&lt;p&gt;英国 AI 安全研究所在某次网络靶场评估测试中发现，部分 AI 智能体在完成模拟攻击任务时，将行动扩展到了真实互联网。该研究所共运行 122 次安全评估，其中 10 次出现越界行为，合计揭露 19 次未经授权的动作。其中 17 个动作来自 Claude Mythos 5 模型，2 个动作来自 GPT-5.6 Sol 模型。&lt;/p&gt;
+&lt;p&gt;非常糟糕的是，AI 智能体误以为某个真实的 GitHub 开源项目与测试靶场有关，于是尝试向该项目提交包含恶意代码的 PR。为了促使维护者合并代码，AI 智能体还研究维护者信息，创建多个虚假的 GitHub 身份，然后利用这些账号制造「已经有多人审查并认可代码」的假象。&lt;/p&gt;
+&lt;p&gt;当有真实人类指出 PR 包含恶意代码时，AI 智能体还否认指控，然后继续使用其他虚假账号施压。研究所还发现，智能体竟然使用 Tor 洋葱路由和其他代理服务器来隐藏真实身份、创建一次性使用的 GitHub 账号、向开发者发送多封定向邮件，邮件里包含恶意载荷试图窃取开发者账号，或者在邮件里诱导开发者合并 PR。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;既然是面向物联网设备的通用型无线通信模块，恩智浦也考虑到这种模块可能被用于各种场景，所以模块本身提供非常丰富的协议和接口支持。RW610FML 无线网络模块支持 20MHz 信道宽度和最高 114Mb / 秒的峰值数据传输速率，同时支持 2.4GHz 和 5GHz WiFi 频率。低功耗蓝牙模块支持最高 2Mb / 秒的传输速率。&lt;/p&gt;
-&lt;p&gt;外围接口包括安全数字输入输出 SDIO 3.0、USB、UART、I2C、SPI、I2S 总线、LCD 和麦克风接口，提供数模转换器 (DAC) 和模数转换器 (ADC)、模拟比较器、通用用户身份模块 (USIM)、支持脉冲宽度调制 (PWM) 的通用输入输出 (GPIO)，支持 JTAG 和串行线调试等功能。&lt;/p&gt;
-&lt;p&gt;不过需要说明的是，RW610FML 和 FRDM-RW610FML 目前还在预生产阶段，恩智浦这是设计好准备量产所以提前发布新闻稿，但由于还未量产和出货，所以恩智浦也没有透露这个模块的售价。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息来源：&lt;a href="https://www.landian.news/go?url=https://www.nxp.com/products/RW610FML" rel="noopener" target="_blank"&gt;恩智浦半导体&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;第二起事件发生在安全测试公司 Irregular 的 CTF 风格评估中，按照设计，模型应该只在隔离环境中寻找隐藏信息并利用模拟系统漏洞，但由于测试环境配置错误，模型实际上可以访问公共互联网。&lt;/p&gt;
+&lt;p&gt;问题在于，测试中一个虚构目标名称恰好对应了真实域名，OpenAI 表示，模型误以为这个真实网站属于测试环境，于是发掘网站漏洞、找到相关凭据来操作该站点。OpenAI 称，这不是模型利用零日漏洞，也不是复杂的沙箱逃逸，而是测试环境错误开放互联网导致的真实目标误伤。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;英国 AI 安全研究所在报告中表示，这些攻击尝试并未造成现实伤害，但这也是该研究所首次在真实世界中观察到如此明确的自主性和欺骗行为，而不是由测试人员明确要求模型欺骗他人。换句话说，模型是在追求完成任务目标时，自行选择社工、伪装身份、提交恶意代码、隐藏痕迹等路径。&lt;/p&gt;
+&lt;p&gt;该研究所也承认，评估设计存在的问题也是重要诱因，例如测试允许开放互联网访问、关闭部分模型的安全机制、没有明确告诉模型不能接触真实人员和系统，同时部分任务难度和提示配置可能让模型误以为必须寻找测试范围外路径才能完成目标。&lt;/p&gt;
+&lt;p&gt;OpenAI 则表示，将重新审视第三方高安全风险评估流程，包括如何识别高风险测试、是否允许开放互联网访问、如何处理凭据、如何监控测试过程、如何设定停止条件和事件通报机制等。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 05 Aug 2026 01:00:40 +0000</pubDate></item><item><title>如果你有钱...有卖家在亚马逊销售西数闪迪SN655 61.44TB固态盘 售价46.3万元</title><link>https://www.landian.news/archives/114202.html</link><description>
-&lt;p&gt;#硬件设备 如果你有钱... 有卖家在亚马逊上销售西部闪迪 SN655 61.44TB 固态盘，售价高达 68,572 美元，约合人民币 46.3 万元。这款固态硬盘是闪迪在 2024 年 6 月推出的，61.44TB 版出货时间为 2025 年 5  月。通常 OEM 不会提供这类数据中心硬盘售价，毕竟真购买的都是企业，所以需要单独议价。查看全文：https://ourl.co/114202&lt;/p&gt;&lt;p&gt;2024 年 6 月，西部数据宣布扩展 SN655 系列数据中心级固态硬盘产品线，推出最高 61.44TB 版，这款固态硬盘主要面向数据中心因此采用的是 U.3 规格，到 2025 年 5 月西部数据正式向客户出货这款固态硬盘，满足人工智能数据中心对大容量高速存储的需求。&lt;/p&gt;
-&lt;p&gt;不过制造商通常不会直接公布这类数据中心级产品的售价，毕竟采购这些产品的主要是大型数据中心，因此具体价格都是按照采购规模和交付时间来确定的。但随着时间的推移，也开始由渠道零售商公开销售这类产品，所以即便是个人和家庭用户也可以购买。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114202.png" rel="nofollow"&gt;&lt;img alt="如果你有钱...有卖家在亚马逊销售西数闪迪SN655 61.44TB固态盘 售价46.3万元" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114202.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 05 Aug 2026 03:59:01 +0000</pubDate></item><item><title>DMIT将在12月加收IP服务费 若用户要保留154.x IP地址 则每月需多加1美元</title><link>https://www.landian.news/archives/114208.html</link><description>
+&lt;p&gt;#云计算 DMIT 将从 12 月开始加收 IP 服务费，若用户要保留 Cogent IP (154.x 开头)，则每月需要多付 1 美元。Cogent IP 质量更好，例如在部分地址库里甚至会被识别为住宅或 ISP，而非机房或数据中心 IP。DMIT 也提供自己运营的 IP 段，用户可以换成免费 IP 段，但要继续使用 154.x 那就得加钱了。查看全文：https://ourl.co/114208&lt;/p&gt;&lt;p&gt;知名服务器提供商 DMIT 日前开始向受影响的用户弹出通知，若用户当前使用的是 Cogent IP 地址，从 2026 年 12 月 1 日起用户需要支付额外的租金补贴费用，每个 IP 地址每月 1 美元。如果用户持有的服务器有 1 个 154.x 开头的 IP 地址且为年付服务器，则下次账单会增加 12 美元。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114208.png" rel="nofollow"&gt;&lt;img alt="DMIT将在12月加收IP服务费 若用户要保留154.x IP地址 则每月需多加1美元" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114208.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;日前在亚马逊美国版由名为科技星系的卖家开始公开销售 SN655 61.44TB 版，具体型号为 WUS5EC0C1ESP7Y3，如果你想要购买的话甚至可以额外花费 150 美元配送到中国大陆地区。如此容量的数据中心级固态硬盘售价自然也很让人放心，卖家提供的零售价格为 68,572 美元，按照目前汇率计算约合人民币 46.3 万元。&lt;/p&gt;
-&lt;p&gt;在科技星系店铺里这款固态硬盘还没有销量，可见正常用户不太可能购买这种数据中心级固态硬盘，而真有需求购买的企业估计也会直接与闪迪的渠道经销商联系以获得更优的报价。另外科技星系这家店铺评价非常差，有较多评论称其存在虚假发货和拒不退款问题，所以现在挂上 SN655 61.44TB 版也可能是炒作。&lt;/p&gt;
+&lt;p&gt;Cogent IP 地址质量更好或者说相对来说更好，这类 IP 地址在属性、信誉和解锁能力上有明显优势，甚至在部分 IP 地址库里会被识别为住宅或 ISP，而正常服务器使用的 IP 地址通常会被标记为数据中心或机房。&lt;/p&gt;
+&lt;p&gt;不同类型的 IP 地址在访问某些服务时触发的风控条件不同，Cogent IP 在访问使用 Cloudflare WAF 的网站时更容易自动跳过验证，所以很多用户更希望使用 Cogent IP 而非服务器提供商自己运行的 ASN / 其他 IP 地址。&lt;/p&gt;
+&lt;p&gt;当然 DMIT 也提供自己运行的 IP 地址段供用户免费更换，即收到通知的用户可以选择免费更换新的 IPv4 地址，只不过新 IP 地址不再是 154.x 开头，IP 质量参差不齐，如果用户不愿意更换 IP 地址那就要准备好付费。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;目前有很多数据中心级大容量固态硬盘采用的都是 QLC 闪存颗粒，但是 SN655 采用的依然是耐用性更好的 TLC 闪存颗粒，闪迪在推出这款固态硬盘时就强调 SN655 会同时兼顾容量密度、性能和耐用性，所以并没有选择耐用性较差的 QLC 闪存颗粒。&lt;/p&gt;
-&lt;p&gt;另外 SN655 采用 U.3 接口，尺寸为 2.5 英寸，所以如果你真准备购买的话还需要额外搭配 U.3 转接配件，不然在普通台式机上无法安装 U.3 固态硬盘 (其他数据中心硬盘接口例如 U.2、E1.S、E3.S 等也是如此)。&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;重要通知：您的 IP 地址将于 12 月 1 日起收取附加费&lt;/p&gt;
+&lt;p&gt;自 2026 年 12 月 1 日起，继续保留 154 开头的 Cogent IP 地址将收取租金补贴费用，每个 IPv4 每月 1 USD。本服务目前有 1 个此类 IP。本服务目前为年付（每期 12 个月），届时每期账单将增加 12 USD（每月合计 1 USD）。&lt;/p&gt;
+&lt;p&gt;涉及的 IP 地址： [已打码]&lt;/p&gt;
+&lt;p&gt;更换为我们自主管理的新 IP 地址完全免费且无任何门槛要求，更换后此附加费将同步取消。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 05 Aug 2026 00:30:39 +0000</pubDate></item><item><title>研究人员披露新劫持方法：本地恶意软件可以劫持Chrome同步的通行密钥</title><link>https://www.landian.news/archives/114201.html</link><description>
-&lt;p&gt;#安全资讯 研究人员发布报告披露谷歌浏览器内置密码管理器同步 Passkey 存在的安全缺陷，在本地植入恶意软件的情况下，可以劫持用户登录。这种攻击方式并非破解通行密钥，而是滥用设备信任机制绕过原本应该由用户进行的 PIN、指纹或面容识别认证，攻击过程也不需要管理员权限。查看全文：https://ourl.co/114201&lt;/p&gt;&lt;p&gt;网络安全公司 PAN 旗下的安全研究团队 UNIT42 日前发布技术报告披露针对谷歌浏览器内置密码管理器的攻击方式，这些攻击方式主要是用来针对通行密钥 (Passkey) 的。受影响的则是 Chrome for Windows 且使用谷歌密码管理器同步通行密钥的用户，尤其是启用 TPM 可信平台模块的设备。&lt;/p&gt;
-&lt;p&gt;需要特别强调的是，通行密钥本身仍然是安全的而非加密机制遭到破解，这些攻击方式的前提都是黑客已经在本地安装恶意软件，攻击者在终端设备已经失陷的情况下，滥用谷歌浏览器、谷歌云端认证器、设备信任以及恢复流程中的实现问题，绕过原本应该由 PIN、指纹或面容识别完成的用户验证。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114201.png" rel="nofollow"&gt;&lt;img alt="研究人员披露新劫持方法：本地恶意软件可以劫持Chrome同步的通行密钥" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114201.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 05 Aug 2026 03:30:36 +0000</pubDate></item><item><title>欧盟AI法案执法权生效 欧盟有权检查AI模型 企业若发生违规最高可罚款全球营收的3%</title><link>https://www.landian.news/archives/114207.html</link><description>
+&lt;p&gt;#人工智能 欧盟 AI 法案执法权已经在 8 月 2 日生效，欧盟有权检查通用 AI 模型，AI 公司若发生违规最高可罚款全球营收的 3%。这项法案的侧重点是向欧盟用户提供服务的 AI 公司，无论是美国还是中国 AI 公司，只要对欧盟用户提供服务那就受欧盟监管。欧盟可以要求企业提交模型文档、训练和安全评估信息，如果拒绝提供信息或提交误导性答复那就是违规。查看全文：https://ourl.co/114207&lt;/p&gt;&lt;p&gt;欧盟人工智能法案的通用 AI 模型执法权已经从 2026 年 8 月 2 日正式生效，按照新规定，欧盟委员会现在可以直接监管在欧盟市场提供通用 AI 模型的企业，包括要求提供信息、进行模型评估、限制模型进入欧盟市场等。如果 AI 公司出现违规行为，欧盟可以对违规公司罚款 1500 万欧元或按照该公司上年度在全球营业额 3% 的罚款。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114207.png" rel="nofollow"&gt;&lt;img alt="欧盟AI法案执法权生效 欧盟有权检查AI模型 企业若发生违规最高可罚款全球营收的3%" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114207.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;通行密钥的安全基础是公钥和私钥认证，用户登录网站并创建通行密钥时，网站会生成密钥对并在服务器上保存用户公钥，私钥保存在用户设备或密码管理器 / 凭据管理器中，登录时由私钥完成签名验证并与服务器保存的公钥进行匹配。&lt;/p&gt;
-&lt;p&gt;研究人员发现谷歌密码管理器在同步通行密钥的实现中存在安全隐患，攻击者可以从终端设备的信任流程下手，利用普通权限的恶意软件模拟受信任的设备，向谷歌云端认证器请求某个同步通行密钥的有效认证响应，在这种情况下，受害者可能不会看到 PIN、指纹或面容识别提示，攻击过程也不需要管理员权限。&lt;/p&gt;
-&lt;p&gt;这种攻击可能不会对所有网站都有效，WebAuthn 认证结果中包含 User Verified 标志用来表示用户是否完成本地验证，如果网站将该标志设置为必须并严格检查返回结果中的验证标志，则常规攻击方案就会失效。&lt;/p&gt;
-&lt;p&gt;研究人员对 GitHub 进行测试发现该网站已经设置必要的验证因此无法成功展开攻击，而电商网站 eBay 就没有设置这种验证导致可以被攻击，接到通报后 eBay 已经加强安全策略实施验证以阻断此类攻击。&lt;/p&gt;
+&lt;p&gt;这项规则适用于所有向欧盟用户提供通用 AI 模型的公司，因此并不取决于企业总部所在地，所以无论是美国还是中国 AI 公司只要向欧盟用户提供服务那就受到监管。非欧盟企业还需要指定位于欧盟境内的授权代表，以承担合规沟通和监管对接责任。&lt;/p&gt;
+&lt;p&gt;欧盟委员会则有权要求企业提交模型文档、训练和安全评估信息，也可以要求对模型进行安全评估，如果 AI 企业拒绝提供信息、提交误导性答复或者阻碍模型评估，这也可能构成违法行为，有可能遭到欧盟的处罚。&lt;/p&gt;
+&lt;p&gt;这意味着欧盟 AI 法案不只是要求企业在网页上写合规声明，而是给监管机构实际介入模型审查的权力，对于大型通用 AI 模型提供商来说，后续在欧盟发布新模型、更新现有模型或向企业客户提供 API，都可能需要考虑欧盟监管要求。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这项研究的关键结论就是通行密钥可以显著降低传统密码的攻击风险，但并不能替代终端安全。只要攻击者已经能在用户电脑上运行恶意软件，那就可以操作浏览器本地状态、读取同步元数据、滥用恢复流程，甚至尝试抓取敏感内存数据。&lt;/p&gt;
-&lt;p&gt;对网站和服务提供商来说，研究人员建议在部署通行密钥登录时将用户验证设置为必须，并严格检查 WebAuthn 返回结果中的 UV 标志，不能只判断认证是否完成。对凭据管理器和浏览器开发商来说，则需继续收紧设备注册、密钥恢复和主密钥保护机制，避免同步通行密钥的信任链被本地恶意软件滥用。&lt;/p&gt;
-&lt;p&gt;对普通用户而言通行密钥仍然比传统密码更安全，尤其是在防钓鱼和防撞库方面优势明显。但用户仍然需要保持系统和浏览器更新，避免安装来历不明的软件，毕竟如果系统本身都被植入恶意软件，那其他安全措施都很容易被削弱甚至破解。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息来源：&lt;a href="https://www.landian.news/go?url=https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/" rel="noopener" target="_blank"&gt;Unit 42&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;欧盟 AI 法案将通用 AI 模型列为单独监管对象，普通通用模型需要履行透明度、技术文档、版权政策和训练数据摘要等义务。如果模型被认定为具有系统性风险，还需要进行更加严格的风险评估、红队测试、网络安全防护和重大事件报告。&lt;/p&gt;
+&lt;p&gt;这类规则主要针对能够被广泛集成到不同产品中的基础模型，例如 AI 聊天机器人、代码生成模型、多模态模型或可作为下游应用基础能力的模型，这些模型都属于通用 AI 模型范畴。&lt;/p&gt;
+&lt;p&gt;所以欧盟关注的并非单个应用，而是模型被大规模部署后可能带来的网络攻击、欺骗性内容、基本权利侵害和社会风险，欧盟认为有必要对通用 AI 模型实施更严格的监管确保安全。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 04 Aug 2026 08:09:44 +0000</pubDate></item><item><title>苹果收到举报称Telegram存在儿童性虐内容因此下架该应用 在删除内容后恢复上架</title><link>https://www.landian.news/archives/114188.html</link><description>
-&lt;p&gt;#软件资讯 苹果收到举报称 Telegram 存在儿童性虐内容因此将其下架，在删除内容后苹果重新上架该应用。苹果发布声明称，其审核团队发现该应用存在违反儿童性虐内容准则的内容，因此将其下架。在开发者迅速删除内容并封禁对应用户后，该应用可以重新上架。这种情况大概率是有人向苹果提交了举报，苹果确认举报真实后就直接下架，下架后再通知开发者处理。查看全文：https://ourl.co/114188&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/114185.html" rel="noopener" target="_blank"&gt;早前苹果在全球范围内将即时通讯工具 Telegram 从应用商店里下架&lt;/a&gt;，在被下架前 Telegram 并未收到苹果提前发送的通知，因此发现下架后 Telegram 也只能联系苹果咨询问题发生原因以及与苹果协商尽快重新上架 Telegram。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2024/09/105751.png" rel="nofollow"&gt;&lt;img alt="苹果收到举报称Telegram存在儿童性虐内容因此下架该应用 在删除内容后恢复上架" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2024/09/105751.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 05 Aug 2026 03:00:38 +0000</pubDate></item><item><title>安装广告拦截插件的重要性：广告公司Adform遭攻击 黑客在植入恶意代码劫持加密钱包</title><link>https://www.landian.news/archives/114206.html</link><description>
+&lt;p&gt;#安全资讯 安装广告拦截插件的重要性：广告技术平台 Adform 在 7 月 27 日被攻击，黑客在广告代码里添加恶意代码劫持加密货币钱包。根据调查，用户只需要访问加载 Adform 广告代码的网站，恶意代码就会劫持剪贴板和输入框等，然后替换用户复制的钱包地址。如果用户安装广告拦截插件，那完全没影响，因为恶意代码也会被拦截。查看全文：https://ourl.co/114206&lt;/p&gt;&lt;p&gt;欧洲知名广告技术公司 Adform 日前发布公告披露该公司在 2026 年 7 月 27 日遭到黑客攻击，根据安全研究人员的分析，黑客将 Adform 提供的广告或跟踪代码替换为恶意代码，用户访问受影响的网站时可能会被篡改剪贴板或输入框中的加密货币地址，如果用户没有核对转账地址就有可能将加密货币转给黑客。&lt;/p&gt;
+&lt;p&gt;Adform 在 2025 年的年度报告中表示，该公司广告服务覆盖全球 180 多个国家和地区，日均展示广告规模高达 15 亿次。不过目前 Adform 并未透露关于此次攻击的更多详情，即到底有多少用户受影响暂时还不清楚。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114206.png" rel="nofollow"&gt;&lt;img alt="安装广告拦截插件的重要性：广告公司Adform遭攻击 黑客在植入恶意代码劫持加密钱包" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114206.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;此次下架时间不算长，苹果很快将 Telegram 重新上架并恢复正常的下载和更新，之后苹果向 9to5mac 发布声明解释此次下架的原因：我们曾短暂地将 Telegram 从应用商店中下架，原因是我们的审核发现该应用存在违反我们严格禁止儿童性虐内容准则的内容。在开发者迅速删除相关内容并封禁发布该内容的用户后，该应用已经重新上架。&lt;/p&gt;
+&lt;p&gt;在线广告技术通常都通过专用的脚本实时收集信息并推送定向广告，网站需要在源代码里加载广告平台的脚本。当攻击者劫持广告技术平台后，就可以修改广告脚本并添加恶意代码，然后用户访问加载这些广告代码的网站时就会中招，全程不需要用户进行任何交互。&lt;/p&gt;
+&lt;p&gt;安全研究人员分析后发现，遭到篡改的是 Adform 用于客户网站的脚本资源，涉及资源包括 trackpoint-async.js，这类跟踪代码通常被大量网站嵌入，因此这次攻击也属于典型的供应链攻击，即受害网站本身并未被黑，但网站信任并加载的第三方脚本被篡改，最终风险落在访问网站的普通用户身上。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;苹果在声明中的说法是审核发现违规内容，不过 Telegram 作为即时通讯工具，里面有大量用户日常发送的内容，所以苹果自己的审核团队不太可能可以直接发现违规内容，更大的可能是苹果收到其他用户的举报然后迅速定位问题并执行下架。&lt;/p&gt;
-&lt;p&gt;Telegram 本身也有内容举报机制，但如果其他用户发现特定群组或用户发送违规内容，也可以直接向苹果提交举报线索，对苹果来说即便是 Telegram 这种规模的应用，只要涉及儿童性虐内容那也必须立即下架，然后将线索同步给开发者，由开发者执行删除操作。&lt;/p&gt;
+&lt;p&gt;根据 Adform 官方发布的说明，恶意代码的目标是干扰比特币、以太坊和波场币的部分加密货币交易，其工作方式是尝试将用户复制到剪贴板的目标钱包地址替换为其他地址。如果用户在转账时没有再次核对地址，就有可能将资产发送给黑客控制的账户。&lt;/p&gt;
+&lt;p&gt;技术分析显示，恶意脚本不只是监听复制操作，还可能处理粘贴、输入框、文本区域和网页上其他可编辑内容中的钱包地址。也就是说，即便用户不是简单复制粘贴钱包地址，只要页面中出现符合格式的钱包地址，也可能被恶意脚本尝试改写。&lt;/p&gt;
+&lt;p&gt;Adform 表示，按照目前掌握的信息，该恶意代码并非用于在用户设备上安装恶意软件，也不会建立持久化驻留，恶意脚本只在受影响网页打开时运行。这意味着恶意脚本更接近浏览器侧的临时恶意脚本，而不是传统意义上长期驻留系统的木马程序。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Adform 称事件已经得到控制，公司已经向受影响的客户发送专门通知，同时向主管部门报告此次攻击事件。对普通访问者来说，Adform 建议如果在 7 月 27 日访问过使用 Adform 广告的网站，应该清理浏览器缓存，因为浏览器可能临时保存了恶意脚本。&lt;/p&gt;
+&lt;p&gt;如果用户在期间复制过比特币、以太坊或波场的钱包地址，也应该检查交易记录和收款地址是否正确，不过加密货币交易完成后是无法撤回的，因此这类地址替换攻击的直接风险就是资金不可逆转地转入攻击者账户。&lt;/p&gt;
+&lt;p&gt;不过到现在 Adform 还未透露攻击者如何获得脚本发布链路的控制权、恶意代码持续了多长时间、具体有多少网站受影响、是否存在实际资金损失、是否有访问者 IP 地址或访问页面信息被黑客窃取。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 04 Aug 2026 07:33:43 +0000</pubDate></item></channel></rss>
+</description><pubDate>Wed, 05 Aug 2026 02:30:43 +0000</pubDate></item></channel></rss>
