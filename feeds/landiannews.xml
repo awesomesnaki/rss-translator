@@ -1,5 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 04 Aug 2026 08:09:44 +0000</lastBuildDate><item><title>研究人员披露新劫持方法：本地恶意软件可以劫持Chrome同步的通行密钥</title><link>https://www.landian.news/archives/114201.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 05 Aug 2026 01:30:42 +0000</lastBuildDate><item><title>[立即抢注用户名] Cloudflare推出面向AI智能体的可编程钱包 可用于API和内容微支付</title><link>https://www.landian.news/archives/114204.html</link><description>
+&lt;p&gt;#人工智能 [立即抢注用户名] Cloudflare 推出面向 AI 智能体的可编程钱包，可用于 API 和内容微支付等。这个钱包主要就是给 AI 智能体使用的，即智能体可以在访问特定商户时支付费用，与 Cloudflare 货币化网关服务配合使用。目前该服务正在预注册用户名，每个账号仅可预注册 1 个用户名。查看全文：https://ourl.co/114204&lt;/p&gt;&lt;p&gt;网络服务提供商 Cloudflare 日前宣布推出 Cloudflare Wallets 钱包，这是面向 AI 智能体和自动化应用的可编程钱包系统，目标不是做普通消费者的加密钱包，而是为智能体式互联网提供支付和身份基础设施。&lt;/p&gt;
+&lt;p&gt;目前用户可以通过自己的账户提前申请保留钱包用户名，例如蓝点网已经申请预留 @landian 这个用户名，每个 Cloudflare 账号只能预留 1 个用户名，当然也建议各位不要尝试注册 @Google、@Apple 和 @Microsoft 这类用户名，因为有很高概率会被毙掉。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114204A.png" rel="nofollow"&gt;&lt;img alt="[立即抢注用户名] Cloudflare推出面向AI智能体的可编程钱包 可用于API和内容微支付" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114204A.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Cloudflare 此前已经提议 AI 智能体和 AI 搜索爬虫应该为 API 或内容按次支付费用，这个钱包应用就是为了解决此类按次支付场景的。当 AI 智能体尝试使用网站提供的 API 时可能会遇到人类流程：打开登录页、注册账号、添加支付方式、生成 KEY，然后再研究如何调用接口，这个流程对 AI 智能体来说非常不友好。&lt;/p&gt;
+&lt;p&gt;核心问题在于 AI 智能体缺少稳定身份，因此服务提供商难以判断智能体代表谁；AI 智能体也没有原生支付方式，无法像调用 API 那样直接为 API、内容或推理服务付费，因此很多任务最终还需要人类提供帮助，AI 智能体无法自主测试和比较大量服务。&lt;/p&gt;
+&lt;p&gt;Cloudflare Wallets 试图补上这部分能力，&lt;a href="https://www.landian.news/archives/113753.html" rel="noopener" target="_blank"&gt;钱包可以与 Cloudflare 此前推出的货币化网关服务配合使用&lt;/a&gt;，后者支持 x402 协议将支付信息附加到 HTTP 请求中。换句话说，服务提供商可以将 API、数据或内容放在支持 x402 协议的端点后，调用方在请求资源时同时完成小额付费。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Cloudflare Wallets 分为账户钱包和虚拟钱包，账户钱包主要面向账号所有者和管理员，也就是人类用户，用户可以向账户钱包内充值和提现，也可以设置账户钱包额度并授权给 AI 智能体使用。&lt;/p&gt;
+&lt;p&gt;虚拟钱包则是面向 AI 智能体提供的，通过 API 进行集中操作和调用，管理员可以从账户钱包里为每个 AI 智能体创建不同的虚拟钱包，然后设置可用额度、允许访问的商户列表以及单笔交易上限等规则。这样智能体就可以在授权范围内自主购买服务，但不能无限制消费。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;除了支付外，Cloudflare Wallets 还会承担智能体身份标识功能，现在网站面对 AI 智能体访问时通常只能看到自动化请求，很难通过请求识别这个智能体代表谁，这会影响试用额度、免费赠金、风控以及商业合作等场景。&lt;/p&gt;
+&lt;p&gt;Cloudflare 的方案是通过 Cloudflare.Pay 将钱包与用户主账号身份关联起来，允许智能体选择性声明自己的身份，这样网站或商户就可以通过身份标识来判断这个 AI 智能体代表谁，然后决定是否提供服务、给予额度或要求更高身份验证。&lt;/p&gt;
+&lt;p&gt;不过 AI 智能体是否声明自己的身份取决于用户设置，用户可以选择不暴露自己的真实身份，而商户也可以根据是否声明身份提供不同层级的服务，例如未声明身份的智能体必须付费使用，声明身份的智能体可以获得免费额度进行测试等。&lt;/p&gt;
+&lt;p&gt;抢注钱包用户名：&lt;a href="https://www.landian.news/go?url=https://cloudflare.pay/?utm_sources=landian.news" rel="noopener" target="_blank"&gt;https://cloudflare.pay/&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息来源：&lt;a href="https://www.landian.news/go?url=https://blog.cloudflare.com/wallets/" rel="noopener" target="_blank"&gt;Cloudflare 官方博客&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 05 Aug 2026 01:30:42 +0000</pubDate></item><item><title>恩智浦面向物联网设备推出同时支持WiFi 6和蓝牙协议的RW610FML无线通信模块</title><link>https://www.landian.news/archives/114203.html</link><description>
+&lt;p&gt;#硬件设备 恩智浦面向物联网设备推出支持 WiFi 6 和蓝牙协议的低功耗无线通信模块 RW610FML，该模块可被用于常规物联网设备、工控设备以及消费级电子设备等。模块本身包含非常丰富的协议支持和接口支持，模块还内置 1 颗 260MHz 的 Arm Cortex-M33 微控制器内核，可以用作通信协处理器或控制硬件本身。查看全文：https://ourl.co/114203&lt;/p&gt;&lt;p&gt;业界知名半导体公司恩智浦日前宣布面向低功耗物联网设备推出同时支持 WiFi 6 和低功耗蓝牙协议 (BLE) 的通信模块，该模块集成 1 颗 Arm Cortex-M33 内核，可以用作专用通信协处理器或承担硬件控制任务。该模块型号为 RW610FML，恩智浦还推出型号为 FRDM-RW610FML 的即用型开发板。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114203.png" rel="nofollow"&gt;&lt;img alt="恩智浦面向物联网设备推出同时支持WiFi 6和蓝牙协议的RW610FML无线通信模块" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114203.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;RW610FML 是个低功耗高性能的 WiFi 6 和蓝牙组合模块，支持 IEEE 802.11a/b/g/n/ac/ax 协议以及低功耗蓝牙协议，模块本身集成嵌入式存储器和微控制单元并配备丰富的接口，可以实现灵活的设计。恩智浦称该模块可以支持常规的物联网设备、工业控制设备以及消费级电子产品等。&lt;/p&gt;
+&lt;p&gt;模块主要基于恩智浦的 RW610 系统级芯片构建，该芯片包含 1 颗运行频率最高 260MHz 的 Arm Cortex-M33 微控制器内核、1.2MB 片上静态内存 (SRAM) 以及四路串行外设接口 (QSPI)，支持从外部闪存或板载 8MB 闪存进行原地执行 (XIP)。第二个 SPI 接口支持可选的伪静态内存 (PSRAM) 扩展。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;既然是面向物联网设备的通用型无线通信模块，恩智浦也考虑到这种模块可能被用于各种场景，所以模块本身提供非常丰富的协议和接口支持。RW610FML 无线网络模块支持 20MHz 信道宽度和最高 114Mb / 秒的峰值数据传输速率，同时支持 2.4GHz 和 5GHz WiFi 频率。低功耗蓝牙模块支持最高 2Mb / 秒的传输速率。&lt;/p&gt;
+&lt;p&gt;外围接口包括安全数字输入输出 SDIO 3.0、USB、UART、I2C、SPI、I2S 总线、LCD 和麦克风接口，提供数模转换器 (DAC) 和模数转换器 (ADC)、模拟比较器、通用用户身份模块 (USIM)、支持脉冲宽度调制 (PWM) 的通用输入输出 (GPIO)，支持 JTAG 和串行线调试等功能。&lt;/p&gt;
+&lt;p&gt;不过需要说明的是，RW610FML 和 FRDM-RW610FML 目前还在预生产阶段，恩智浦这是设计好准备量产所以提前发布新闻稿，但由于还未量产和出货，所以恩智浦也没有透露这个模块的售价。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息来源：&lt;a href="https://www.landian.news/go?url=https://www.nxp.com/products/RW610FML" rel="noopener" target="_blank"&gt;恩智浦半导体&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 05 Aug 2026 01:00:40 +0000</pubDate></item><item><title>如果你有钱...有卖家在亚马逊销售西数闪迪SN655 61.44TB固态盘 售价46.3万元</title><link>https://www.landian.news/archives/114202.html</link><description>
+&lt;p&gt;#硬件设备 如果你有钱... 有卖家在亚马逊上销售西部闪迪 SN655 61.44TB 固态盘，售价高达 68,572 美元，约合人民币 46.3 万元。这款固态硬盘是闪迪在 2024 年 6 月推出的，61.44TB 版出货时间为 2025 年 5  月。通常 OEM 不会提供这类数据中心硬盘售价，毕竟真购买的都是企业，所以需要单独议价。查看全文：https://ourl.co/114202&lt;/p&gt;&lt;p&gt;2024 年 6 月，西部数据宣布扩展 SN655 系列数据中心级固态硬盘产品线，推出最高 61.44TB 版，这款固态硬盘主要面向数据中心因此采用的是 U.3 规格，到 2025 年 5 月西部数据正式向客户出货这款固态硬盘，满足人工智能数据中心对大容量高速存储的需求。&lt;/p&gt;
+&lt;p&gt;不过制造商通常不会直接公布这类数据中心级产品的售价，毕竟采购这些产品的主要是大型数据中心，因此具体价格都是按照采购规模和交付时间来确定的。但随着时间的推移，也开始由渠道零售商公开销售这类产品，所以即便是个人和家庭用户也可以购买。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114202.png" rel="nofollow"&gt;&lt;img alt="如果你有钱...有卖家在亚马逊销售西数闪迪SN655 61.44TB固态盘 售价46.3万元" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114202.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;日前在亚马逊美国版由名为科技星系的卖家开始公开销售 SN655 61.44TB 版，具体型号为 WUS5EC0C1ESP7Y3，如果你想要购买的话甚至可以额外花费 150 美元配送到中国大陆地区。如此容量的数据中心级固态硬盘售价自然也很让人放心，卖家提供的零售价格为 68,572 美元，按照目前汇率计算约合人民币 46.3 万元。&lt;/p&gt;
+&lt;p&gt;在科技星系店铺里这款固态硬盘还没有销量，可见正常用户不太可能购买这种数据中心级固态硬盘，而真有需求购买的企业估计也会直接与闪迪的渠道经销商联系以获得更优的报价。另外科技星系这家店铺评价非常差，有较多评论称其存在虚假发货和拒不退款问题，所以现在挂上 SN655 61.44TB 版也可能是炒作。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;目前有很多数据中心级大容量固态硬盘采用的都是 QLC 闪存颗粒，但是 SN655 采用的依然是耐用性更好的 TLC 闪存颗粒，闪迪在推出这款固态硬盘时就强调 SN655 会同时兼顾容量密度、性能和耐用性，所以并没有选择耐用性较差的 QLC 闪存颗粒。&lt;/p&gt;
+&lt;p&gt;另外 SN655 采用 U.3 接口，尺寸为 2.5 英寸，所以如果你真准备购买的话还需要额外搭配 U.3 转接配件，不然在普通台式机上无法安装 U.3 固态硬盘 (其他数据中心硬盘接口例如 U.2、E1.S、E3.S 等也是如此)。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 05 Aug 2026 00:30:39 +0000</pubDate></item><item><title>研究人员披露新劫持方法：本地恶意软件可以劫持Chrome同步的通行密钥</title><link>https://www.landian.news/archives/114201.html</link><description>
 &lt;p&gt;#安全资讯 研究人员发布报告披露谷歌浏览器内置密码管理器同步 Passkey 存在的安全缺陷，在本地植入恶意软件的情况下，可以劫持用户登录。这种攻击方式并非破解通行密钥，而是滥用设备信任机制绕过原本应该由用户进行的 PIN、指纹或面容识别认证，攻击过程也不需要管理员权限。查看全文：https://ourl.co/114201&lt;/p&gt;&lt;p&gt;网络安全公司 PAN 旗下的安全研究团队 UNIT42 日前发布技术报告披露针对谷歌浏览器内置密码管理器的攻击方式，这些攻击方式主要是用来针对通行密钥 (Passkey) 的。受影响的则是 Chrome for Windows 且使用谷歌密码管理器同步通行密钥的用户，尤其是启用 TPM 可信平台模块的设备。&lt;/p&gt;
 &lt;p&gt;需要特别强调的是，通行密钥本身仍然是安全的而非加密机制遭到破解，这些攻击方式的前提都是黑客已经在本地安装恶意软件，攻击者在终端设备已经失陷的情况下，滥用谷歌浏览器、谷歌云端认证器、设备信任以及恢复流程中的实现问题，绕过原本应该由 PIN、指纹或面容识别完成的用户验证。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114201.png" rel="nofollow"&gt;&lt;img alt="研究人员披露新劫持方法：本地恶意软件可以劫持Chrome同步的通行密钥" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114201.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -24,33 +67,4 @@
 &lt;p&gt;苹果在声明中的说法是审核发现违规内容，不过 Telegram 作为即时通讯工具，里面有大量用户日常发送的内容，所以苹果自己的审核团队不太可能可以直接发现违规内容，更大的可能是苹果收到其他用户的举报然后迅速定位问题并执行下架。&lt;/p&gt;
 &lt;p&gt;Telegram 本身也有内容举报机制，但如果其他用户发现特定群组或用户发送违规内容，也可以直接向苹果提交举报线索，对苹果来说即便是 Telegram 这种规模的应用，只要涉及儿童性虐内容那也必须立即下架，然后将线索同步给开发者，由开发者执行删除操作。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 04 Aug 2026 07:33:43 +0000</pubDate></item><item><title>应微软要求，苹果将开发新功能允许iPhone与Windows PC跨设备共享剪贴板内容</title><link>https://www.landian.news/archives/114187.html</link><description>
-&lt;p&gt;#系统资讯 苹果批准微软提出的互操作性请求，将开发功能允许 iPhone 与 Windows PC 互相同步剪贴板内容。微软提出的请求是基于欧盟互操作性法律规定，因此该功能最终很有可能仅支持欧盟市场。苹果计划在 2027 年秋季完成功能开发，也就是要到 iOS 28 才会提供该功能。查看全文：https://ourl.co/114187&lt;/p&gt;&lt;p&gt;苹果公司应微软公司在欧盟提出的操作系统互操作性请求，将允许用户在 iPhone 与 Windows PC 之间跨设备共享剪贴板内容。该功能最终将在 iOS 28 中实现 (注意这是明年的版本)，当然目前来说该功能也仅限于欧盟市场，毕竟其他市场没有欧盟这种法律级别的互操作性规定。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114187.png" rel="nofollow"&gt;&lt;img alt="应微软要求，苹果将开发新功能允许iPhone与Windows PC跨设备共享剪贴板内容" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114187.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;互操作性规定要求科技公司向其他平台开放某些特定功能，当然并不是所有请求都必须满足，但如果是合理的要求那被请求方就应当满足，否则这可能引起欧盟监管机构的调查。&lt;/p&gt;
-&lt;p&gt;微软在 2026 年 3 月 25 日向苹果提出关于通用剪贴板的互操作性请求，但当时苹果拒绝这项请求，随后微软请求苹果提供持久化的剪贴板访问权限，以便实现 Windows PC 与 iPhone 之间可以持续同步剪贴板内容。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;用户可以将 iPhone 上的文本或其他支持复制的内容直接粘贴到 Windows PC 上，反之亦然。&lt;/li&gt;
-&lt;li&gt;无需将应用程序放在前台或者采取明确的重复操作即可启动传输，这可以用于常见的生产力工作流。&lt;/li&gt;
-&lt;li&gt;体验轻量级、持续的剪贴板同步功能，而不是手动、由应用程序驱动的操作。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;到 2026 年 4 月 27 日，苹果在对微软的请求进行初步评估后决定将其作为 iOS 互操作性流程中的功能进行推进，6 月 26 日苹果经过内部评估后认为这项功能确实可以实现，不会损害 iOS 完整性和对苹果知识产权造成影响，因此将开发解决方案。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;我们将推出新的解决方案，其模式与 iOS 26.5 中引入的配件通知和配件实时活动框架类似，该方案允许您创建扩展程序，以便与已经配对的配件共享和导入剪贴板内容。当剪贴板内容被复制时，系统会通知您的扩展程序。&lt;/p&gt;
-&lt;p&gt;然后您的扩展程序可以使用配件传输扩展框架，根据需要，通过可用的传输方式与配件共享内容。(注：这里的配件指的是 Windows PC，可用传输方式可能包括局域网 WiFi、蓝牙)&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;在实际使用时用户需要先为配件授权，授权后就可以在 Windows PC 和 iPhone 之间共享剪贴板内容，苹果将该功能描述为重大工程，预计将在 2027 年秋季完成开发，也就是要到 iOS 28 才能提供跨设备剪贴板共享。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 04 Aug 2026 03:44:27 +0000</pubDate></item><item><title>A社CEO达里奥称人们来A社工作竟然是为了钱 而不是为了崇高的AI使命</title><link>https://www.landian.news/archives/114186.html</link><description>
-&lt;p&gt;#人工智能 Anthropic CEO 达里奥阿莫迪称人们来 A 社工作竟然是为了钱，而不是为了崇高的 AI 使命！这则消息来自知名出版物 AXIOS，在报道中 AXIOS 援引消息人士称，达里奥越来越担心新员工加入 A 社是为了钱，而不是为了公司的使命。值得注意的是 A 社的薪资水平甚至要高于 OpenAI，也就是以更高的薪资吸引研究员，然后抱怨研究员是为了钱才来 A 社。查看全文：https://ourl.co/114186&lt;/p&gt;&lt;p&gt;在美国，顶级人工智能实验室的人员流动非常频繁，近期谷歌就有诸多人工智能研究员加盟 A 社或 OpenAI，由于此前美国已经禁止相关行业的竞业限制，因此对人工智能研究员来说频繁跳槽并没有什么问题。&lt;/p&gt;
-&lt;p&gt;当然想要挖竞争对手的研究员首先就要支付足够高的薪资，事实上很多研究员也是通过跳槽来获得更高的薪资，像是 A 社就会给研究员开出非常高的薪资，不过没想到 A 社创始人达里奥担心人们是为了钱而加盟 A 社。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114186.png" rel="nofollow"&gt;&lt;img alt="A社CEO达里奥称人们来A社工作竟然是为了钱 而不是为了崇高的AI使命" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114186.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;知名出版物 AXIOS 日前发布关于人才争夺战的报道，在这篇报道中，AXIOS 援引消息人士称，A 社创始人兼首席执行官达里奥阿莫迪越来越担心新员工加入公司是为了钱，而不是为了公司的使命。&lt;/p&gt;
-&lt;p&gt;AXIOS 发布这篇报道后，相关消息也立即在社交媒体上引起关注，大多数都是开玩笑，例如有网友发文「突发新闻：人们为了钱而工作」、「当地人发现了经济之道」，事实上 A 社的薪资水平甚至要高于 OpenAI，所以现在达里奥却抱怨人们是为了钱而来工作，这着实让人费解。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;不过目前行业的趋势就是哪家公司开出的薪资水平足够高，那就可以获得更多 AI 人才，AXIOS 称这些公司可以花钱买走研究人员的时间，但长久的忠诚是买不到的，而那些出价最高的实验室 (其实说的就是 A 社) 往往最先领悟到这一点，这恰恰与这些实验室强调的「金钱并非目的」的使命背道而驰。&lt;/p&gt;
-&lt;p&gt;AXIOS 也分析这种频繁挖角带来的潜在隐患，科研依赖于信任和人员的连续性，而人员的频繁流动会中断项目，也会迫使实验室为同一批核心人才支付双倍费用。目前已经有超过 400 名苹果前员工在 OpenAI 工作，而苹果正在就商业机密问题起诉 OpenAI，如此频繁的挖墙角最终只会留下诉讼和半途而废的工作。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 04 Aug 2026 03:17:18 +0000</pubDate></item><item><title>苹果短暂从全球市场下架Telegram然后重新上架 目前尚不清楚具体原因</title><link>https://www.landian.news/archives/114185.html</link><description>#软件资讯 苹果将 Telegram 从 AppStore 下架，现在已经恢复上架，尚不清楚发生了什么。现在用户可以重新从 AppStore 下载或更新 Telegram。查看全文：https://ourl.co/114185</description><pubDate>Tue, 04 Aug 2026 02:35:14 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 04 Aug 2026 07:33:43 +0000</pubDate></item></channel></rss>
