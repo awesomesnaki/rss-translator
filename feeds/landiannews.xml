@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 05 Aug 2026 07:18:35 +0000</lastBuildDate><item><title>VMRack洛杉矶顶级精品线路机补货 CN2/AS9929/CMIN2高速直连</title><link>https://www.landian.news/archives/114214.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 06 Aug 2026 01:54:39 +0000</lastBuildDate><item><title>印度VPS服务器提供商HostDzire被勒索软件攻击 用户必须使用自己的备份恢复数据</title><link>https://www.landian.news/archives/114215.html</link><description>
+&lt;p&gt;#云计算 印度 VPS 服务器提供商 HostDzire 遭到勒索软件攻击，直接格式化磁盘重装系统和重建节点，所有客户数据灰飞烟灭。事实证明使用各类 VPS 服务器时日常做好数据备份是非常重要的，此前 CloudCone 被勒索软件攻击后也是直接重装系统。如果用户没有备份数据，潜在损失不可估量。查看全文：https://ourl.co/114215&lt;/p&gt;&lt;p&gt;使用各种 VPS 服务器最重要的就是日常要做好数据备份，&lt;a href="https://www.landian.news/archives/111679.html" rel="noopener" target="_blank"&gt;此前 CloudCone 遭到勒索软件攻击后所有用户数据灰飞烟灭&lt;/a&gt;，现在印度服务器提供商 HostDzire 也同样遭到勒索软件攻击，这些提供商自己没有任何数据备份，而解决办法就是直接格式化硬盘重装系统。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114215.png" rel="nofollow"&gt;&lt;img alt="印度VPS服务器提供商HostDzire被勒索软件攻击 用户必须使用自己的备份恢复数据" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114215.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;HostDzire 在最初发布的公告中透露遭到勒索软件攻击后，部分虚拟机和独立服务器受影响无法正常使用，当时该公司应该是在停机排查，实际上独立服务器并未受到直接影响。在后续更新通知里，HostDzire 强调受影响服务器的虚拟磁盘被加密，导致受影响节点上的数据全部丢失。&lt;/p&gt;
+&lt;p&gt;也就是部分宿主机 (母鸡) 被黑客入侵后使用勒索软件加密存储磁盘，所以所有虚拟机的数据也被加密无法正常恢复，HostDzire 采取的措施与 CloudCone 完全相同，直接隔离受影响的宿主机然后格式化磁盘重新开始建立节点。&lt;/p&gt;
+&lt;p&gt;对 HostDzire 来说这事儿除了影响声誉外基本不会造成实际经济损失，毕竟不可能向黑客支付赎金换取解密密钥，至于用户自己要是没有备份数据的话，那责任全在用户，事后最多补偿点服务器使用时间了事。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;发生时间：2026 年 8 月 5 日凌晨 2 点 (UTC+0000)&lt;/li&gt;
+&lt;li&gt;影响范围：HostDzire 多区域 VMware ESXi 宿主机 + 虚拟机&lt;/li&gt;
+&lt;li&gt;影响地域：印度所有节点、美国多个节点、荷兰多个节点&lt;/li&gt;
+&lt;li&gt;例外情况：HostDzire Leaseweb VPS 未受影响&lt;/li&gt;
+&lt;li&gt;数据备份：受影响的虚拟机磁盘被加密，无数据备份，需客户利用自己的数据恢复&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Thu, 06 Aug 2026 01:54:39 +0000</pubDate></item><item><title>VMRack洛杉矶顶级精品线路机补货 CN2/AS9929/CMIN2高速直连</title><link>https://www.landian.news/archives/114214.html</link><description>
 &lt;p&gt;这段时间由于人工智能行业对硬件的需求太大，导致现在常规的云服务器都处在非常缺货的窘境里，主要原因就是硬件采购价格太高。蓝点网此前推荐过的服务器提供商 VMRack 也出现缺货情况，现在 VMRack 洛杉矶机房已经上架新服务器，有兴趣的用户可以看看这些顶级优化线路机。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;VMRack 洛杉矶机房提供精品线路机、常规优化线路机和美国原生线路机，满足不同用户的使用需求。例如精品线路机采用中国电信 CN2、中国联通 AS9929 和中国移动 CMIN2 线路，提供优质稳定的线路连接。而常规优化线路机采用的是中国电信 163、中国联通 AS10099 和中国移动 CMI，这些线路不如精品线路但价格更便宜。&lt;/p&gt;
@@ -70,18 +86,4 @@
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;按照框架规定，AI 公司自愿将模型交给美国政府审查，没人知道 AI 公司如果没有将闭源模型提交给美国政府审查会发生什么，不过像是 OpenAI、Anthropic 和 Google 等 AI 公司肯定会自愿提交模型，毕竟现在这些 AI 公司的一举一动都在影响着当前或未来的监管政策。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 05 Aug 2026 05:27:15 +0000</pubDate></item><item><title>企业IT管理员纷纷指责微软未经同意推送安装OneDrive Photos应用且无法卸载</title><link>https://www.landian.news/archives/114210.html</link><description>
-&lt;p&gt;#软件资讯 企业 IT 管理员纷纷抱怨微软未经同意强制推送安装 OneDrive Photos 应用，而且该应用只能个人登录，企业账号压根无法使用。这段时间微软悄悄向大量用户推送 OneDrive Photos，该应用捆绑在 OneDrive 中且无法单独卸载，仅支持个人用户登录。但没想到大量企业设备也同样收到推送，IT 管理员们直接懵圈，因为没有任何策略可以阻止微软的推送安装。查看全文：https://ourl.co/114210&lt;/p&gt;&lt;p&gt;微软做事总是让人有些意想不到，&lt;a href="https://www.landian.news/archives/114144.html" rel="noopener" target="_blank"&gt;这段时间微软正在向所有用户推送安装名为 OneDrive Photos 的照片应用&lt;/a&gt;，无论用户是否使用 OneDrive 或是否开通 Microsoft 365 订阅，都会被自动推送安装该应用。更糟糕的是该应用捆绑在 OneDrive 中无法单独卸载，除非用户直接卸载整个 OneDrive 应用。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114144-2.png" rel="nofollow"&gt;&lt;img alt="企业IT管理员纷纷指责微软未经同意推送安装OneDrive Photos应用且无法卸载" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114144-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;如果是个人用户被推送安装 OneDrive Photos 无非就是抱怨以及捏着鼻子认了，毕竟如果要使用 OneDrive 的话还不能将整个 OneDrive 都卸载，但对企业用户来说微软这种推送机制简直就是个灾难，因为本身 OneDrive Photos 就只支持微软个人账户登录。&lt;/p&gt;
-&lt;p&gt;也就是说，即便微软将其推送给企业用户，用户也没法使用域控账户登录该应用上传照片或者检索已经保存在 OneDrive 中的照片，更让 IT 管理员无法接受的是，OneDrive Photos 还是个测试应用，现在还挂着 Beta 标签，然后在 IT 管理员不知情的情况下，微软直接将其推送安装。&lt;/p&gt;
-&lt;p&gt;对企业设备来说，IT 管理员会严格控制员工安装的应用程序，有 IT 管理员抱怨称，并不希望公司内部到处都是乱七八糟的程序，而现在 IT 管理员只能眼睁睁地看着，无法单独卸载，也无法使用域控策略阻止系统自动安装 OneDrive Photos。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;向不符合要求的用户推送安装应用并不是首次出现，此前也出现过微软向个人用户推送安装只能企业或教育机构才能登录的应用，也出现过向企业和教育机构推送只能个人账户登录的应用。&lt;/p&gt;
-&lt;p&gt;现在 OneDrive Photos 这种情况有很大概率又是微软内部推送出错，即微软可能原本只准备向非托管设备推送安装，结果企业和教育机构的托管设备也同样被安装，毕竟对企业来说被推送安装只能个人账户登录而且还挂着 Beta 标签的应用是完全不合规的。&lt;/p&gt;
-&lt;p&gt;所以估计要不了多久微软就会听到大家的抱怨然后停止向托管设备推送安装 OneDrive Photos，只不过对于个人用户而言现在还没有比较好的办法卸载 OneDrive Photos 应用，最多只能通过 PowerShell 脚本卸载 OneDrive Photos 快捷方式。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;下载后使用管理员权限运行：&lt;a href="https://dl.landian.news/?dir=script/remove-photos" rel="noopener" target="_blank"&gt;https://dl.landian.news/?dir=script/remove-photos&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 05 Aug 2026 05:07:00 +0000</pubDate></item></channel></rss>
+</description><pubDate>Wed, 05 Aug 2026 05:27:15 +0000</pubDate></item></channel></rss>
