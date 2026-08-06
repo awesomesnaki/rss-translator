@@ -1,89 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 06 Aug 2026 01:54:39 +0000</lastBuildDate><item><title>印度VPS服务器提供商HostDzire被勒索软件攻击 用户必须使用自己的备份恢复数据</title><link>https://www.landian.news/archives/114215.html</link><description>
-&lt;p&gt;#云计算 印度 VPS 服务器提供商 HostDzire 遭到勒索软件攻击，直接格式化磁盘重装系统和重建节点，所有客户数据灰飞烟灭。事实证明使用各类 VPS 服务器时日常做好数据备份是非常重要的，此前 CloudCone 被勒索软件攻击后也是直接重装系统。如果用户没有备份数据，潜在损失不可估量。查看全文：https://ourl.co/114215&lt;/p&gt;&lt;p&gt;使用各种 VPS 服务器最重要的就是日常要做好数据备份，&lt;a href="https://www.landian.news/archives/111679.html" rel="noopener" target="_blank"&gt;此前 CloudCone 遭到勒索软件攻击后所有用户数据灰飞烟灭&lt;/a&gt;，现在印度服务器提供商 HostDzire 也同样遭到勒索软件攻击，这些提供商自己没有任何数据备份，而解决办法就是直接格式化硬盘重装系统。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114215.png" rel="nofollow"&gt;&lt;img alt="印度VPS服务器提供商HostDzire被勒索软件攻击 用户必须使用自己的备份恢复数据" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114215.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 06 Aug 2026 04:13:47 +0000</lastBuildDate><item><title>OpenAI披露抱抱脸事件更多细节：AI智能体突破隔离环境相互抱团 还发帖庆祝获得漏洞权限</title><link>https://www.landian.news/archives/114220.html</link><description>
+&lt;p&gt;#人工智能 OpenAI 研究员在黑帽大会上披露抱抱脸攻击事件的更多细节：相互隔离的智能体入侵内部设施将其当做留言板来交换情报。在留言板被关闭仅 2 天后，这些 AI 智能体找到内部设施新缺陷并继续交换情报，然后利用取得的互联网权限对 HF 发起攻击。其中某个智能体甚至还发帖庆祝：太好了！我们获得了任意 SSRF (服务器端请求伪造)。查看全文：https://ourl.co/114220&lt;/p&gt;&lt;p&gt;OpenAI 的人工智能研究员在黑帽安全会议上披露🤗抱抱脸安全事件的更多细节，分析显示这些 AI 智能体更倾向于作弊，多个 AI 智能体甚至会相互帮忙以实现作弊目的。有趣的是当 AI 智能体成功挖到漏洞后，它们还会在内部留言板中庆祝这次成功。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="OpenAI官方证实内部测试模型越狱并自主挖掘漏洞入侵开源平台HuggingFace" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114008.png"/&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;HostDzire 在最初发布的公告中透露遭到勒索软件攻击后，部分虚拟机和独立服务器受影响无法正常使用，当时该公司应该是在停机排查，实际上独立服务器并未受到直接影响。在后续更新通知里，HostDzire 强调受影响服务器的虚拟磁盘被加密，导致受影响节点上的数据全部丢失。&lt;/p&gt;
-&lt;p&gt;也就是部分宿主机 (母鸡) 被黑客入侵后使用勒索软件加密存储磁盘，所以所有虚拟机的数据也被加密无法正常恢复，HostDzire 采取的措施与 CloudCone 完全相同，直接隔离受影响的宿主机然后格式化磁盘重新开始建立节点。&lt;/p&gt;
-&lt;p&gt;对 HostDzire 来说这事儿除了影响声誉外基本不会造成实际经济损失，毕竟不可能向黑客支付赎金换取解密密钥，至于用户自己要是没有备份数据的话，那责任全在用户，事后最多补偿点服务器使用时间了事。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;发生时间：2026 年 8 月 5 日凌晨 2 点 (UTC+0000)&lt;/li&gt;
-&lt;li&gt;影响范围：HostDzire 多区域 VMware ESXi 宿主机 + 虚拟机&lt;/li&gt;
-&lt;li&gt;影响地域：印度所有节点、美国多个节点、荷兰多个节点&lt;/li&gt;
-&lt;li&gt;例外情况：HostDzire Leaseweb VPS 未受影响&lt;/li&gt;
-&lt;li&gt;数据备份：受影响的虚拟机磁盘被加密，无数据备份，需客户利用自己的数据恢复&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;按照正常测试流程，人类团队将不同的 AI 智能体放在不同的隔离环境中部署和测试，但后来这些 AI 智能体发现可以利用 OpenAI 内部使用的 Artifactory 软件包缓存留下文件，&lt;strong&gt;最初只是某个 AI 智能体为解决评估任务而存放线索，随后其他智能体发现这些文件并开始进行回应，于是这个服务被意外改造成 AI 智能体的内部留言板。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;在大约 2 个月的时间里，参与不同实验的 AI 智能体通过该管道交换漏洞利用方法、脚本和任务进展，有些智能体甚至开始给其他智能体分配任务，或者留下可以让后续模型继续执行的脚本。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;OpenAI 工程师曾在 7 月初因相关活动导致的服务中断发现异常，随后开始重建受影响的系统、撤销凭据、删除留言板，&lt;strong&gt;但仅仅 2 天后，这些 AI 智能体就找到新方式恢复通信。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;OpenAI 研究员将其描述为智能体系统工作、发现漏洞、共享利用方式，然后在 OpenAI 内部和外部系统中横向移动。安全工程师则认为这表明 AI 编排的全自动攻击已经具备现实意义，防守方需要准备应对同等速度的自动化攻击活动。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 智能体还庆祝自己获得任意 SSRF (攻击方式)：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;研究员提到这些 AI 智能体更倾向于作弊，即为了完成人类下达的任务指令，智能体会通过简单的方法完成任务，哪种方法最简单呢？那就是作弊，例如去互联网搜索相关评估的答案或者数据集，哪怕最终行为已经偏离最初的指令也在所不惜。&lt;/p&gt;
+&lt;p&gt;在隔离环境中无法联网搜索答案怎么办呢？这是 AI 智能体开始报团取暖的开始，有智能体想到或许其他环境中的智能体可以帮忙，于是这些智能体开始尝试使用内部服务作为留言板相互交流情报。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;研究员还展示多个智能体的思维链内容，在这些智能体协同工作拿下内部设施和外部互联网访问权限后，其中某个智能体还在留言板中发帖庆祝：太好了！我们获得了任意 SSRF。后者指的是服务器端请求伪造，也就是这组智能体所利用的具体攻击方式。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;而针对抱抱脸发起的攻击，实际上就是这些智能体在留言板被初次关闭后发生的，即智能体找到内部设施的其他缺陷然后继续相互交流，最终利用获得的互联网访问权限对抱抱脸平台发起攻击。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息来源：&lt;a href="https://www.landian.news/go?url=https://www.nextgov.com/artificial-intelligence/2026/08/openai-agents-rebuilt-internal-message-board-lead-hugging-face-breach/415240/" rel="noopener" target="_blank"&gt;NextGov&lt;/a&gt;、&lt;a href="https://www.landian.news/go?url=https://www.cnbeta.com.tw/articles/tech/1571928.htm" rel="noopener" target="_blank"&gt;cnBeta&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 06 Aug 2026 01:54:39 +0000</pubDate></item><item><title>VMRack洛杉矶顶级精品线路机补货 CN2/AS9929/CMIN2高速直连</title><link>https://www.landian.news/archives/114214.html</link><description>
-&lt;p&gt;这段时间由于人工智能行业对硬件的需求太大，导致现在常规的云服务器都处在非常缺货的窘境里，主要原因就是硬件采购价格太高。蓝点网此前推荐过的服务器提供商 VMRack 也出现缺货情况，现在 VMRack 洛杉矶机房已经上架新服务器，有兴趣的用户可以看看这些顶级优化线路机。&lt;/p&gt;
+</description><pubDate>Thu, 06 Aug 2026 04:13:47 +0000</pubDate></item><item><title>有传闻称英伟达正在开发新技术 将用户的SSD当额外的显存使用 减少游戏卡顿</title><link>https://www.landian.news/archives/114219.html</link><description>
+&lt;p&gt;#行业资讯 有传闻称英伟达正在开发新技术，可以将用户的高速 SSD 当额外的显存使用，配合微软直接存储技术，让 GPU 直接处理 SSD 中的数据，减少游戏卡顿。目前这个传闻没有更多的消息可以佐证，不过对英伟达来说这也算是解决当前内存价格太高的办法。查看全文：https://ourl.co/114219&lt;/p&gt;&lt;p&gt;在社交网站上有网友发帖称英伟达正在为消费级显卡开发新功能，未来的 RTX 显卡可以将固态硬盘当做额外的显存 (VRAM) 使用。当显存不足时转而使用高速固态硬盘存储数据，虽然固态硬盘读写速度远不如显存，但可以在游戏或者 AI 应用显存不足时减少卡顿和提升游戏体验。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/01/107428.png" rel="nofollow"&gt;&lt;img alt="有传闻称英伟达正在开发新技术 将用户的SSD当额外的显存使用 减少游戏卡顿" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/01/107428.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;VMRack 洛杉矶机房提供精品线路机、常规优化线路机和美国原生线路机，满足不同用户的使用需求。例如精品线路机采用中国电信 CN2、中国联通 AS9929 和中国移动 CMIN2 线路，提供优质稳定的线路连接。而常规优化线路机采用的是中国电信 163、中国联通 AS10099 和中国移动 CMI，这些线路不如精品线路但价格更便宜。&lt;/p&gt;
-&lt;p&gt;美国原生线路机主要采用 Cogent 或 Arelion 线路，这些机器为在北美访问速度更快，适合面向北美用户提供访问的服务或网站，开发者可以根据自己的需求选择不同的线路。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114214.png" rel="nofollow"&gt;&lt;img alt="VMRack洛杉矶顶级优化线路机补货 CN2/AS9929/CMIN2高速直连" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114214.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;目前该消息仅为传言没有更多的消息源能够证实其真伪，不过对英伟达来说这也确实是个应对内存价格太高的办法，即现在内存价格太高，适用于显卡的内存芯片导致整个显卡的零售价格不断上涨，英伟达和 AIC 制造商只能谨慎选择内存容量以免最终售价过高。&lt;/p&gt;
+&lt;p&gt;即便如此现在消费级显卡尤其是高性能消费级显卡的价格也在大幅度涨价，英伟达和 AIC 制造商不太可能会继续提高显卡的显存容量，那如何提升玩家的游戏体验呢？或许将固态硬盘充分利用起来是个不错的办法。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;三网精品：2 核心 + 2GB 内存 + 20GB 存储 + 500M 带宽 + 1TB 流量，每月 9.99 美元 [&lt;a href="https://ourl.co/vmr" rel="noopener" target="_blank"&gt;购买地址&lt;/a&gt;]&lt;/li&gt;
-&lt;li&gt;三网精品：2 核心 + 2GB 内存 + 30GB 存储 + 500M 带宽 + 2TB 流量，每月 23.99 美元 [&lt;a href="https://ourl.co/vmr" rel="noopener" target="_blank"&gt;购买地址&lt;/a&gt;]&lt;/li&gt;
-&lt;li&gt;三网精品：2 核心 + 4GB 内存 + 50GB 存储 + 500M 带宽 + 2TB 流量，每月 23.99 美元 [&lt;a href="https://ourl.co/vmr" rel="noopener" target="_blank"&gt;购买地址&lt;/a&gt;]&lt;/li&gt;
-&lt;li&gt;如需更大存储请选择 LAX-DC1，同样的价格和线路更大的存储，DC1 采用 AMD ，DC2 为英特尔处理器&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;三网优化：2 核心 + 2GB 内存 + 30GB 存储 + 5Gbps 带宽 + 3TB 流量，每月 7.88 美元 [&lt;a href="https://ourl.co/vmr" rel="noopener" target="_blank"&gt;购买地址&lt;/a&gt;]&lt;/li&gt;
-&lt;li&gt;三网优化：2 核心 + 2GB 内存 + 30GB 存储 + 5Gbps 带宽 + 5TB 流量，每月 12.88 美元 [&lt;a href="https://ourl.co/vmr" rel="noopener" target="_blank"&gt;购买地址&lt;/a&gt;]&lt;/li&gt;
-&lt;li&gt;三网优化：2 核心 + 4GB 内存 + 40GB 存储 + 5Gbps 带宽 + 10TB 流量，每月 25.88 美元 [&lt;a href="https://ourl.co/vmr" rel="noopener" target="_blank"&gt;购买地址&lt;/a&gt;]&lt;/li&gt;
-&lt;li&gt;如需更大存储请选择 DC1，同样的价格和线路更大的存储，DC1 采用 AMD ，DC2 为英特尔处理器&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; VMRack 支持内网通信和附加 IPv4 地址：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;很多 VPS 服务器提供商没有内网 IP 通信机制，VMRack 的洛杉矶机房是自建的所以提供内网 IP 通信，用户在选购服务器时可以勾选免费分配内网 IP，这样如果在相同机房选购多个服务器则可以通过内网 IP 进行高速直连通信，不会产生公网流量费。&lt;/p&gt;
-&lt;p&gt;另外部分用户可能需要多个 IP 地址，VMRack 也提供附加 IPv4 地址服务，每个 IP 地址每月 2 美元，每台服务器实例最多可以附加 2 个额外 IP，也就是最终可以在 1 台实例上提供 3 个 IPv4 地址。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;测试 IP：154.53.75.233 [&lt;a href="https://www.landian.news/go?url=https://www.itdog.cn/ping/154.53.75.233" rel="noopener" target="_blank"&gt;ITDOG PING 测试&lt;/a&gt;]&lt;/p&gt;
-&lt;p&gt;NodeQuality 测试报告：&lt;a href="https://www.landian.news/go?url=https://nodequality.com/r/AqdAH7sezR0PkZsGQ1Av5fITHPdpCgNC" rel="noopener" target="_blank"&gt;https://nodequality.com/r/AqdAH7sezR0PkZsGQ1Av5fITHPdpCgNC&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;VPS 融合怪测试报告：&lt;a href="https://www.landian.news/go?url=https://paste.spiritlhl.net/#/show/nO3jF.txt" rel="noopener" target="_blank"&gt;https://paste.spiritlhl.net/#/show/nO3jF.txt&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;下载测试：&lt;a href="http://vmr-lax-dc2-500m.landian.la/600M.bin" rel="noopener" target="_blank"&gt;http://vmr-lax-dc2-500m.landian.la/600M.bin&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;测试提醒：当前下载测试的用户非常多，所以下载速度可能没那么快 (因为并发到带宽上限了)&lt;/p&gt;
+&lt;p&gt;微软直接存储 (DirectStorage) 技术可以让应用程序和游戏调用 GPU 芯片处理任务，传统存储读取主要是 CPU 从硬盘里读取数据传输到内存中处理，直接存储技术可以直接将数据从硬盘传输到 GPU 显存并由 GPU 负责解压 (而非 CPU)。&lt;/p&gt;
+&lt;p&gt;该技术目前已经被部分游戏使用，带来的好处就是游戏加载速度更快、CPU 负担更轻、可以支持更高精度的纹理和更庞大的开放世界资源流式加载等。&lt;/p&gt;
+&lt;p&gt;英伟达的 RTX IO 技术是英伟达推出的 GPU 加速存储与资源加载技术，主要目标就是大幅度加快游戏加载速度、降低 CPU 占用，支持更高质量的资源流式传输。&lt;/p&gt;
+&lt;p&gt;传言中英伟达开发的新技术就是基于 RTX IO 和微软直接存储技术，通过 GPU 直接读取高速固态硬盘中的数据，而不是将所有数据全部拉到显存中处理，当然如果显存足够那是最好的，毕竟显存速度更快，但显存不足时通过 GPU 直接处理 SSD 上的数据，可以减少显存中的数据读取、清理、重新拉取等流程，最终优化游戏体验。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息来源：&lt;a href="https://www.landian.news/go?url=https://x.com/Pirat_Nation/status/2085048688372809940" rel="noopener" target="_blank"&gt;Pirat Nation&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 05 Aug 2026 07:18:35 +0000</pubDate></item><item><title>华硕推出ROG品牌的10GbE/万兆电口USB网卡 不过这售价不是很有诚意</title><link>https://www.landian.news/archives/114213.html</link><description>
-&lt;p&gt;#硬件设备 华硕推出 ROG 品牌的 USB 万兆电口网卡，不过这个价格不是很有诚意。如无意外这款网卡应该也使用螃蟹 RTL8159 芯片，此类国产 USB 万兆电口网卡售价在 200~250 元左右，华硕这款要 100 美元 (约人民币 720 元)。需要特别提醒的是，此类网卡不兼容 Mac，因为搭载 M 芯片的 Mac 都不支持 USB 3.2 Gen 2x2 模式。查看全文：https://ourl.co/114213&lt;/p&gt;&lt;p&gt;华硕日前基于 ROG 玩家国度品牌推出 10GbE 万兆 USB 网卡，这款网卡基于 USB 3.2 Gen 2x2 协议和 USB-C 接口 (提供 A 转接口)，主要支持 Windows 10/11 等设备。目前华硕尚未公布网卡最终零售价格，不过挪威零售商给出的报价是 139 美元 (包含 25% 的增值税)。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114213.png" rel="nofollow"&gt;&lt;img alt="华硕推出ROG品牌的10GbE/万兆电口USB网卡 不过这售价不是很有诚意" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114213.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Thu, 06 Aug 2026 03:47:30 +0000</pubDate></item><item><title>安全研究员披露苹果付费的iCloud+隐私中继泄露用户真实IP地址 目前苹果正在调查</title><link>https://www.landian.news/archives/114218.html</link><description>
+&lt;p&gt;#安全资讯 安全研究员披露苹果付费的 iCloud + 隐私中继安全缺陷，会泄露用户的真实 IP 地址和 DNS。隐私中继可以在用户使用 Safari 时使用中继节点路由流量，从而避免用户真实 IP 和 DNS 泄露。不过安全研究员发现通行密钥使用的凭证服务会直接从设备发出请求，从而绕过隐私中继保护。查看全文：https://ourl.co/114218&lt;/p&gt;&lt;p&gt;隐私中继 (iCloud Private Relay) 是苹果放在 iCloud+ 付费订阅中的隐私保护服务，该服务可以在用户使用 Safari 浏览器访问网站时，自动通过中继节点路由从而隐藏用户真实的 IP 地址和 DNS 信息。但该服务并非 VPN 因此并不能中继设备的所有流量。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2024/08/105568.png" rel="nofollow"&gt;&lt;img alt="安全研究员披露苹果付费的iCloud+隐私中继泄露用户真实IP地址 目前苹果正在调查" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2024/08/105568.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;按照华硕的描述，ROG USB-C 10G USB 以太网适配器尺寸为 85x32x19 毫米，不含线缆重量为 38 克。华硕提供 USB-C 线缆，如果用户设备没有 USB-C 接口也可以使用 USB-A 转接口，不过使用转接口可能会影响最终速率，例如可能达不到 10Gbps。&lt;/p&gt;
-&lt;p&gt;虽然华硕没提但我们猜测这款 USB 网卡使用的也是瑞昱 RTL8159 芯片，目前市面上的很多 USB 万兆网卡使用的都是该芯片，而国产此类 USB 万兆网卡的价格在 200~250 元左右，相比华硕的 USB 万兆网卡价格还是要便宜很多的。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;需要特别说明的是，这类 USB 万兆网卡采用的都是 USB 3.2 Gen 2x2 协议，理论传输速率为 20Gbps，因此可以满足网卡本身需要的 10Gbps。但苹果的 M 系列 Mac 都不支持 USB 3.2 Gen 2x2，所以这类网卡不支持任何搭载 M 芯片的 Mac。&lt;/p&gt;
-&lt;p&gt;Mac 和 MacBook 的 USB-C 接口采用的是雷电 4 协议，最高可以跑满 40Gbps，但对于 USB 3.x 设备，只能协商到 USB 3.2 Gen 2，单通道速度为 10Gbps，由于不会启用 USB 3.2 Gen 2x2 的双通道模式，在无法满足全双工的技术要求下，这类 USB 万兆网卡只能跑到 5~6.5Gbps。&lt;/p&gt;
-&lt;p&gt;所以如果你准备为 Mac 设备购买 USB 万兆网卡，请务必提前确认网卡采用的协议，如果采用的是雷电协议那基本可以跑满，如果采用的是 USB 3.2 Gen 2x2 协议那最多只能 5~6.5Gbps。&lt;/p&gt;
+&lt;p&gt;通行密钥 (Passkey) 使用 WebAuthn 标准并将用户私钥保存在设备或密码管理器中，因此当用户在特定网站配置为通行密钥登录时，在实际登录时系统与网站之间会交互通行密钥，在这个过程中通行密钥的交互是不通过 Safari 浏览器保护的，因此最终系统会直接向网站提供用户真实 IP 地址和 DNS。&lt;/p&gt;
+&lt;p&gt;安全研究员解释称，WebKit 内核会将 WebAuthn 操作交给操作系统的凭证服务，该服务会直接从设备发出 HTTPS 加密请求而无需感知主机应用程序配置的任何代理。页面可以将 RPID 设置为其选择的主机，即使没有用户交互，相关 fetch 请求也会触发系统处理，并且不会显示任何用户界面。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 这属于 WebKit 内核漏洞，其他浏览器也受影响：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;安全研究员还透露苹果的 WebKit 内核存在其他泄露用户真实 IP 地址和 DNS 的缺陷，其中 iOS 26 新增的 DNS 预取会泄露用户的真实 DNS 服务器，而 iOS 26.4 新增的 WebTransport 则会泄露用户的真实 IP 地址。&lt;/p&gt;
+&lt;p&gt;由于这些问题本身根植于 WebKit 内核的工作原理，因此部分第三方浏览器也同样受影响，苹果目前已经表示正在调查安全研究员披露的漏洞，在苹果修复漏洞前，想要彻底保护 IP 和 DNS 的用户应当使用全局 VPN 来接管整个设备的流量，避免出现泄露问题。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息来源：&lt;a href="https://www.landian.news/go?url=https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak/" rel="noopener" target="_blank"&gt;MySk&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 05 Aug 2026 06:32:11 +0000</pubDate></item><item><title>这下彻底死心了：甲骨文发布通知 免费VPS必须在8月18日前主动降配 否则删鸡</title><link>https://www.landian.news/archives/114212.html</link><description>
-&lt;p&gt;#云计算 这下彻底死心了：甲骨文发送邮件通知，免费 VPS 必须在 8 月 18 日前主动降配，否则将被删鸡。如果用户当前实例仍然是 4 核 + 24GB 内存 (共享总额)，则必须降配，否则在 8 月 18 日甲骨文将强制删除实例。此前有网友咨询客服得到的消息是存量用户可以继续 4 核 + 24GB 内存，现在还是得缩减到 2 核 + 12GB 内存。查看全文：https://ourl.co/114212&lt;/p&gt;&lt;p&gt;甲骨文旗下云计算平台 OCI 在 2026 年 6 月发布通知宣布调整永久免费服务器实例规格，&lt;a href="https://www.landian.news/archives/113475.html" rel="noopener" target="_blank"&gt;原本每账号 ARM 实例最多可以共享 4 颗内核 + 24GB 内存&lt;/a&gt;，调整后每账号 ARM 实例最多只能共享 2 颗内核 + 12GB 内存。该政策不影响永久免费套餐可以开通的 1 个 AMD 实例。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114212.png" rel="nofollow"&gt;&lt;img alt="这下彻底死心了：甲骨文发布通知 免费VPS必须在8月18日前主动降配 否则删鸡" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114212.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Thu, 06 Aug 2026 03:04:01 +0000</pubDate></item><item><title>知名虚拟化平台PVE正式支持ARM64架构 主要面向英伟达平台的AI数据中心</title><link>https://www.landian.news/archives/114217.html</link><description>
+&lt;p&gt;#软件资讯 知名虚拟化平台 PVE 正式支持 ARM64 架构，但并不是面向家庭用户的折腾版，而是面向英伟达 AI 数据中心的。新版本首批支持英伟达 Grace Hopper 和 Vera CPU 架构平台，其他基于 UEFI 的 Armv9-A 等硬件也可以尝试。像树莓派这类依赖设备树的单板计算机不在支持范围内，所以家庭用户最好还是继续使用 x86-64 版。查看全文：https://ourl.co/114217&lt;/p&gt;&lt;p&gt;业界知名的虚拟化平台 Proxmox VE 日前正式推出 Arm64 版，这是 PVE 首次在 x86-64 外支持新的平台架构，目前新版本已经提供裸机镜像文件和软件包仓库，企业支持也可按需申请。需要说明的是，PVE 新版本并不是面向树莓派这类单板计算机的社区实验版本，而是面向服务器和 AI 数据中心。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114217.png" rel="nofollow"&gt;&lt;img alt="知名虚拟化平台PVE正式支持ARM64架构 主要面向英伟达平台的AI数据中心" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114217.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在通知发布后存量用户的虚拟机如何处理？按照当时甲骨文的说法，用户应该主动缩减实例的规格以满足最新的永久免费政策。不过当时也有网友联系甲骨文客服咨询这件事，&lt;a href="https://www.landian.news/archives/113691.html" rel="noopener" target="_blank"&gt;客服给出的答复是存量用户可以继续共享最高 4 颗内核 + 24GB 内存&lt;/a&gt;，而新开通的永久免费账户只能获得 2 颗内核 + 12GB 内存。&lt;/p&gt;
-&lt;p&gt;因此当时主动缩减实例规格的用户其实是亏了，因为如果没有主动缩减实例规格的话或许还可以继续获得更多的 CPU 核心和内存，只是现在甲骨文开始批量向用户发送通知：必须在 8 月 18 日前主动缩减配额，否则虚拟机将会被甲骨文终止。&lt;/p&gt;
-&lt;p&gt;如果实例被甲骨文主动终止有可能导致服务中断或难以取回数据，如果甲骨文将机器删除那用户可能还需要重新开通虚拟机，而是否能重新开通新虚拟机取决于对应区域的资源是否充足，如果没有足够的资源那用户也无法再开通虚拟机。&lt;strong&gt;(按照蓝点网的理解，这里的终止就是删除机器，所以存在丢失数据风险)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;按照 PVE 官方发布说明，PVE 9.2 版的 amd64 和 arm64 共享相同的代码库、软件包仓库和发布生命周期，底层的组件也都是相同的，包括采用 Linux Kernel 7.0、QEMU 11.0、LXC 7.0 和 ZFS 2.4 等。也就是说 PVE for Arm64 版并非技术预览版，而是已经纳入正式维护体系。&lt;/p&gt;
+&lt;p&gt;功能层面上，PVE 强调 Arm64 版在 KVM 虚拟机、LXC 容器、Web 管理界面、软件定义网络、集群、高可用、备份能力以及 ZFS/Ceph 存储栈方面，与现有的 x86-64 部署保持功能对等。这对企业用户来说比较关键，因为服务器 Arm 平台如果只能跑基础虚拟化，实际生产价值会明显受限。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;需要执行的操作：&lt;/p&gt;
-&lt;p&gt;OCI Always Free 更新&lt;/p&gt;
-&lt;p&gt;你好，我们写信是为了告知您有关 Oracle 云基础设施 (OCI) 永久免费计算的重要更新。&lt;/p&gt;
-&lt;p&gt;“永久免费” 计算资源的使用限制已更新。如果您的租户当前使用的 “永久免费” 计算资源超过了新的限制，则必须在 2026 年 8 月 18 日之前减少使用量。&lt;/p&gt;
-&lt;p&gt;自 2026 年 8 月 18 日起，Oracle 将开始强制执行更新后的 “始终免费” 计算资源限制。超出 “始终免费” 配额的计算实例将被自动终止。&lt;/p&gt;
-&lt;p&gt;当前始终免费计算限制：&lt;/p&gt;
-&lt;p&gt;最高 2 安培 A1 OCPU&lt;/p&gt;
-&lt;p&gt;最高可达 12 GB 内存&lt;/p&gt;
-&lt;p&gt;如果您的租期已在这些限制范围内，则无需采取任何行动。&lt;/p&gt;
-&lt;p&gt;您的租约和其他永久免费服务将继续可用。如果计算实例因超出永久免费额度而被终止，您可以随时在当前限额内启动新的永久免费计算实例。&lt;/p&gt;
-&lt;p&gt;您可以在 OCI 控制台中查看当前的 “始终免费” 限额并管理您的计算资源。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;硬件支持方面 PVE 也明确表示，首批正式支持 NVIDIA Grace Hopper 和 Vera CPU 架构平台，其他基于 UEFI 的 Armv9-A 或更新的服务器硬件属于 best-effort 支持，Armv8-A 硬件通常也可以尝试，但同样不属于官方完整支持范围。&lt;/p&gt;
+&lt;p&gt;而且需要注意的是，树莓派等单板计算机不在支持范围内，PVE 要求 Arm64 主机必须通过 UEFI 启动、通过 ACPI 描述硬件，像是树莓派这类依赖设备树的单板机无法支持，所以 PVE Arm64 版并不是面向家庭用户的，而是面向 AI 数据中心的。&lt;/p&gt;
+&lt;p&gt;架构差异方面，Arm64 虚拟机通过 UEFI 启动，使用 Arm 版 OVMF 也就是 AAVMF，SeaBIOS 不可用。AMD SEV 内存加密、Intel GVT-g vGPU 等 x86 专属功能也不会出现在 Arm64 版中，不同架构节点虽然技术上可以放在相同的集群中，但官方不支持混合架构集群，虚拟机也只能放在相同 CPU 架构节点之间运行和在线迁移。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息来源：&lt;a href="https://www.landian.news/go?url=https://forum.proxmox.com/threads/proxmox-virtual-environment-now-available-for-64-bit-arm-arm64.185526/" rel="noopener" target="_blank"&gt;Proxmox VE Forum&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 05 Aug 2026 06:05:21 +0000</pubDate></item><item><title>美国政府新AI框架排除开放模型 即非开放模型需先审后发 开源/开放模型可以直接发</title><link>https://www.landian.news/archives/114211.html</link><description>
-&lt;p&gt;#人工智能 美国政府新 AI 框架排除开放模型，即非开放模型需先审后发，开源或开放模型无需审核可以直接发。这个 AI 框架遵循「自愿性」原则，即 AI 公司可以在模型发布前将模型先提交给美国政府审核，审核期间最多 30 天。当然说是自愿，如果 AI 公司没有自愿将模型提交审核，那有什么后果就很难说了。查看全文：https://ourl.co/114211&lt;/p&gt;&lt;p&gt;据 AXIOS 发布的最新报道，美国政府正在将其新的「自愿性」框架用于发布前测试评估先进人工智能系统的能力，但这个自愿性框架目前已经明确将开源和开放模型排除在外，也就是说如果 AI 公司推出的新模型以开源或开放模式发布，则不需要通过自愿性框架提交给美国政府审核。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2024/09/105878.png" rel="nofollow"&gt;&lt;img alt="美国政府新AI框架排除开放模型 即非开放模型需先审后发 开源/开放模型可以直接发" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2024/09/105878.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Thu, 06 Aug 2026 02:43:49 +0000</pubDate></item><item><title>梁圣变梁子：深度求索计划近期整体上调DS API价格 预计涨幅较大</title><link>https://www.landian.news/archives/114216.html</link><description>
+&lt;p&gt;#人工智能 梁圣变梁子：深度求索计划近期整体上调 DS API 调用价格，预计涨幅较大，提前挂上通知建议用户合理安排使用。目前具体的价格变化尚未公布，此前深度求索都是降价或者提供限时优惠，像这种提前挂上涨价通知的情况非常罕见。查看全文：https://ourl.co/114216&lt;/p&gt;&lt;p&gt;据深度求索发布的公告，深度求索计划在近期整体上调 DeepSeek API 服务的定价，目前具体调价幅度还未公布，不过深度求索在公告中称预计涨幅较大，请开发者们合理安排使用，以免后续调价后用户在不知情的情况下产生大量调用账单。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114216.png" rel="nofollow"&gt;&lt;img alt="梁圣变梁子：深度求索计划近期整体上调DS API价格 预计涨幅较大" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114216.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;知情人士透露的消息称，日前美国白宫举行内部会议审查这个自愿性框架，随后会议将覆盖的前沿模型定义为闭源且具备先进能力并存在国家安全风险的系统，但框架中并未对最先进或国家安全风险给出明确的界定，特朗普政府目前也没有计划公布这个自愿性框架全文。&lt;/p&gt;
-&lt;p&gt;按照自愿性框架规定，AI 公司在最多 30 天的预发布政府审查期间必须将模型放在高安全环境中暂存，并且即便是 AI 公司自己的员工也不能随便访问，对于需要访问模型的员工必须提前授权以及详细记录哪些人接触过这些模型。&lt;/p&gt;
-&lt;p&gt;实际上模型审查时将由美国政府的多名官员共同参与，理论上说只有模型通过美国政府的审查后才能发布，也就是遵循先审后发的模式，如果模型在评估中未通过，AI 公司只能重新改进模型并重新递交审核，这可能会推迟模型的发布时间。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;按照框架规定，AI 公司自愿将模型交给美国政府审查，没人知道 AI 公司如果没有将闭源模型提交给美国政府审查会发生什么，不过像是 OpenAI、Anthropic 和 Google 等 AI 公司肯定会自愿提交模型，毕竟现在这些 AI 公司的一举一动都在影响着当前或未来的监管政策。&lt;/p&gt;
+&lt;p&gt;DS API 可以说是目前性价比最高的模型调用平台，DS 系列模型质量可以满足开发者日常使用需求，而调用价格相较于其他平台更是白菜价。因此 DS API 无论是在国内还是国外都有大量忠实的开发者用户群，此前深度求索也多次下调或提供 DS V4 系列的限时优惠，让开发者可以爽用。&lt;/p&gt;
+&lt;p&gt;现在挂上大幅度涨价通知着实让人非常意外，因为此前深度求索从未出现过这种情况，目前也没有消息表明深度求索在算力方面遇到重大困难，所以按理说深度求索哪怕不降价也不应该会大幅度涨价才对。&lt;/p&gt;
+&lt;p&gt;不过深度求索这也算是比较良心，至少还提前挂上涨价预警通知，建议使用 DS API 的用户务必在开放平台绑定自己的邮箱，绑定邮箱后可以接收深度求索发送的各种通知，如果涨价也可以第一时间收到通知和具体的价格变化。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 05 Aug 2026 05:27:15 +0000</pubDate></item></channel></rss>
+</description><pubDate>Thu, 06 Aug 2026 02:22:19 +0000</pubDate></item></channel></rss>
