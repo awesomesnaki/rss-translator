@@ -1,66 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Wed, 05 Aug 2026 23:16:47 +0000</lastBuildDate><item><title>Shawn Smucker：'请使用AI'</title><link>https://shawnsmucker.substack.com/p/please-use-ai</link><description>&lt;p&gt;我觉得大多数诗歌都晦涩难懂，绕着弯子说话，而非一针见血。但这首不是。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/08/05/please-use-ai" title="肖恩·斯穆克：‘请使用AI’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Wed, 05 Aug 2026 23:16:47 +0000</pubDate></item><item><title>Matthew Green 谈 Anthropic 的新密码分析结果</title><link>https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/</link><description>&lt;p&gt;马修·格林：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Thu, 06 Aug 2026 23:47:32 +0000</lastBuildDate><item><title>古尔曼谈OpenAI设备：“一个售价超过300美元的甜甜圈状扬声器”</title><link>https://www.bloomberg.com/news/articles/2026-08-06/what-is-openai-s-device-a-doughnut-shaped-speaker-that-costs-over-300?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4NjA0NjY3NSwiZXhwIjoxNzg2NjUxNDc1LCJhcnRpY2xlSWQiOiJUSjlNQ01UOU5KTFUwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.pj0oCNz7Ez90rn67tMWib-ed2PxcUAhAG2-hlVQ_DRg&amp;leadSource=article-gifting</link><description>&lt;p&gt;马克·古尔曼为彭博社撰写的报道（赠阅链接）：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;如果你以为这些模型只是“被美化的自动补全”，或者以为进展正在放缓，那我必须提醒你：&lt;em&gt;别这么想了。&lt;/em&gt;这些模型非常聪明、能力很强，而且正在飞速进步。仅就我让它们研究的具体问题类型而言，过去五个月里取得的进步是可量化且令人印象深刻的。就算真有什么天花板，我目前也还没有看到任何证据。那些觉得模型很蠢的人，大多只是用谷歌免费的AI搜索功能，而没有接触过高端产品（其实只需20美元，并非遥不可及），而且他们大多没有在探索新的领域。&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;另一方面：&lt;/em&gt;如果你认为模型超级智能，或者AGI已经到来，那你也应该打消这种想法。使用这些工具就像在池塘里游泳，水底地势陡然下降。前一秒你还在舒适地蹚水，脚下有支撑；下一秒你突然越过某条分界线，又得靠自己游了。这个比喻是我能想到的最好的解释——描述模型从得力助手突然变得一无所知的那种感觉。&lt;/p&gt;
+&lt;p&gt;OpenAI希望用户全天候依赖这款智能音箱。它的工作方式将与公司智能手机应用中的ChatGPT语音模式类似，但会采用更先进的模型来实现类人交互。该设备的设计使其能随着时间推移不断了解用户，从而定制对话，表现得更像一个真实的人。&lt;/p&gt;
+&lt;p&gt;据知情人士透露，这款圆形设备将包含可自主移动的部件，用于显示其正在响应和与用户互动。目标是要让这个物件比当今固定不动的音箱产品更有生命力。产品将配备扬声器格栅和麦克风，用于接收指令和与用户对话。该设备采用电池供电，设计上可在不同位置使用——比如握在用户手中，或放在床头柜和厨房台面上。&lt;/p&gt;
+&lt;p&gt;OpenAI还计划在设备上加入灯光，以显示其正在聆听，让互动感觉更加个性化。同时，摄像头系统和其他传感器将感知周围环境，并将视觉信息输入人工智能。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;在把深奥的密码学讲得通俗易懂又不失深度这方面，格林的能力无人能及。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/08/05/green-ai-cryptography" title="Permanent link to ‘Matthew Green on Anthropic’s New Cryptanalysis Results’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Wed, 05 Aug 2026 23:08:52 +0000</pubDate></item><item><title>呃，我相当确定人们会知道</title><link>https://www.nytimes.com/2026/08/04/magazine/trump-rfk-steak-kimchi-diet.html?unlocked_article_code=1.21A.ymed.OyFVP85xWyNK</link><description>&lt;p&gt;《纽约时报杂志》故事编辑威利·斯特利尝试了肖恩·奥马拉的“活着饮食法”（只吃牛排和发酵食品，如酸菜）一周：&lt;/p&gt;
+&lt;p&gt;这听起来不像带灯光、可动部件、摄像头和其他传感器的“智能音箱”。这听起来像是一个机器人伴侣，而机器人伴侣显然需要一个扬声器，这只是其众多基本特征之一。就像把R2-D2称作“智能音箱”——这么说没错，但完全没有抓住重点。（严格来说你也能把iPhone叫作“智能音箱”。）这款io设备似乎缺少的是自主移动能力。所以你需要像随身带着小魔怪一样把它拎来拎去，而不是让它跟着你走或者自己到处跑。如果OpenAI的“智能音箱”只是用来播放音乐和播客，我根本毫不在乎；但一个手持版、介于R2-D2和C-3PO之间的东西，&lt;em&gt;那&lt;/em&gt;可能真的酷毙了。&lt;/p&gt;
+&lt;p&gt;这听起来像是一只宠物。如果他们真做成了，那就是一只革命性的宠物。而人们对自己的宠物爱得深沉。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/08/06/gurman-openai-device" title="‘古尔曼谈OpenAI设备：一款售价超300美元的甜甜圈形音箱’的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Thu, 06 Aug 2026 23:47:32 +0000</pubDate></item><item><title>OpenAI 提交28页动议，要求驳回苹果的诉讼（PDF链接）</title><link>https://storage.courtlistener.com/recap/gov.uscourts.cand.474095/gov.uscourts.cand.474095.59.0.pdf</link><description>&lt;p&gt;这才像样。这里没有含糊其辞，也没有优柔寡断。这是一份措辞犀利的辩护。我现在只引用其中一句：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;对奥马拉来说，这种饮食法不仅仅是暂时的减肥手段，
-而是一种终身坚持的饮食习惯。他已经坚持了10年，
-并认为这让他的人生发生了转变。在我们的对话中，他曾调出布里斯托大便分类法，
-从第一型（“独立硬块，如坚果”）到第七型（“水状，无固体块”）。
-奥马拉一直稳定地排出第四型（“光滑柔软，如蛇一般”），末端尖细，
-他告诉我这表明直肠功能健康。“当你开始健康饮食时，
-你根本不需要卫生纸，”他声称。“野生动物肛门上没有残留粪便。”
-他向我这样描述一次完美的排便：无味、无需擦拭、三到七秒结束、
-而且“近乎高潮般的体验”。&lt;/p&gt;
-&lt;p&gt;“我可以在一场晚宴的角落里，隔着一块床单排便，”他说，
-“没有人会发现。”&lt;/p&gt;
+&lt;p&gt;苹果公司拿不出任何东西，因为它没有任何东西，因为根本什么都没有。其诉状既无法也并未对被告谭提出盗用商业秘密的指控。&lt;/p&gt;
 &lt;/blockquote&gt;
-
-我读到这里的第一个念头是，《这他妈全是屁话。》然后我意识到，嗯，没错，字面意义上的。
-
-然后我仔细想了想，意识到这是一切胡扯言论的柏拉图式完美典范。如果我告诉你，比如说，我可以倒立着吃完一整顿饭，你可以说“我不信，你证明给我看”。但哪个正常人会在这件事上质疑奥马拉这个江湖郎中呢？晚宴的主人肯定不会，这点是肯定的。
-
-
-&lt;a href="https://daringfireball.net/linked/2026/08/05/uh-im-pretty-sure-people-would-know" title="永久链接至“呃，我很确定人们会发现”"&gt; ★ &lt;/a&gt;
-</description><pubDate>Wed, 05 Aug 2026 21:53:24 +0000</pubDate></item><item><title>山姆·奥特曼，绝对不是什么食尸鬼</title><link>https://www.businessinsider.com/ai-parenting-debate-sam-altman-2026-8</link><description>&lt;p&gt;&lt;a href="https://x.com/sama/status/2083221585792762171"&gt;Sam Altman 在 Twitter/X 上&lt;/a&gt;：&lt;/p&gt;
+&lt;p&gt;我稍后会再分享更多想法，但如果你在关注这起诉讼，你应该亲自读一读OpenAI的动议。它说理透彻、行文清晰，没有陷入法律术语的泥沼。法律术语堆砌通常是烂律师的标志。法律由律师来实践，但应当被所有人理解。法律不是祭司的专属领域；诉讼中的动议也不是仅供少数圣徒研读的圣典。让我百思不得其解的是，今天报道此事的媒体几乎&lt;em&gt;没有一家&lt;/em&gt;链接到OpenAI的动议原文。（点名表扬The Verge的Jess Weatherbed，&lt;a href="https://www.theverge.com/tech/976042/openai-apple-trade-secrets-lawsuit-dismissal-request"&gt;她做到了&lt;/a&gt;。）摘要必不可少，评论也有价值，但看在老天爷的份上，好歹链接一下原始文件吧。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/08/06/openai-files-motion-to-dismiss" title="Permanent link to ‘OpenAI Files 28-Page Motion to Dismiss Apple’s Lawsuit (PDF Link)’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Thu, 06 Aug 2026 21:13:04 +0000</pubDate></item><item><title>布伦丹·伦纳德：“用这一招，慢14,000倍去做”</title><link>https://semi-rad.com/2026/08/do-it-14000-times-slower-with-this-one-trick/</link><description>&lt;p&gt;布伦丹·伦纳德的这幅漫画，与昨天关于暂停思考AI使用方式的两篇文章（&lt;a href="https://daringfireball.net/linked/2026/08/05/altman-notopoulos-parenting"&gt;此处&lt;/a&gt;和&lt;a href="https://daringfireball.net/linked/2026/08/05/please-use-ai"&gt;此处&lt;/a&gt;）相得益彰——我们是否在利用AI将时间专注于自己热爱之事，还是反而被其剥夺了那些让我们成为人的东西。其中关于做三明治的桥段太过贴近我的生活，让我忍不住笑出声来。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/08/06/do-it-14000-times-slower" title="布伦丹·伦纳德：『用这个技巧慢14,000倍做一件事』的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Thu, 06 Aug 2026 20:23:52 +0000</pubDate></item><item><title>在控制中心添加一个快捷方式，以在“设置”应用中打开当前应用的偏好设置。</title><link>https://x.com/SnazzyLabs/status/1969247088488624253?s=20</link><description>&lt;p&gt;关于我之前&lt;a href="https://daringfireball.net/linked/2026/08/06/stopthescript-is-a-dickover-killer"&gt;抱怨过&lt;/a&gt;在iOS的“设置”应用中打开Safari偏好设置非常繁琐这件事，几位读者让我看了Quinn Nelson去年发的一条推文，其中展示了如何创建（或&lt;a href="https://www.icloud.com/shortcuts/5d69e334840d4493a32db5ab330c712b"&gt;从iCloud下载&lt;/a&gt;）一个简单的“快捷指令”，你可以将它添加到“控制中心”，在“设置”中打开当前应用的偏好设置。效果很好。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;更新：&lt;/strong&gt; &lt;a href="https://mastodon.social/@stephenrobles/117049907923574037"&gt;Stephen Robles&lt;/a&gt;：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;昨晚我听说的一个 ChatGPT 功能很酷的用例：&lt;/p&gt;
-&lt;p&gt;连接你们家的日历，并把你孩子们的兴趣告诉它。&lt;/p&gt;
-&lt;p&gt;每天早上开车送孩子上学时，让它制作一个播客，谈论某个孩子当天下午的足球赛、另一个孩子即将到来的生日、一些新闻等等。&lt;/p&gt;
+&lt;p&gt;我也在那个基础上做了一些变体：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://shortcut.bot/46qt0sY"&gt;跳转到当前应用的通知设置&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://shortcut.bot/4rH7AAp"&gt;当前应用的存储信息&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://shortcut.bot/4u1MJbA"&gt;在App Store中打开当前应用&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;a href="https://www.businessinsider.com/ai-parenting-debate-sam-altman-2026-8"&gt;Katie Notopoulos 在 Business Insider 上&lt;/a&gt;：&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/08/06/shortcut-control-center-current-app-settings" title="“将快捷指令添加到控制中心，在设置应用中打开当前应用的偏好设置”的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Thu, 06 Aug 2026 17:36:22 +0000</pubDate></item><item><title>BMW高管在2023年表示：暂无计划销售车载广告</title><link>https://www.mediapost.com/publications/article/391876/bmw-exec-no-plans-to-sell-in-vehicle-ads.html</link><description>&lt;p&gt;Tanya Gazdik于2023年12月为MediaPost撰写的报道：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;与孩子们谈论他们即将到来的足球赛或生日，是育儿过程中令人愉快、愉悦的体验之一。那些在车里聊天、建立积极连接的美好时刻，我怀疑大多数父母并不会想要放弃或外包。&lt;/p&gt;
-&lt;p&gt;这是当前人工智能发展面临的一个总体挑战：AI 或许能够完成一些我们觉得愉快和享受的任务（比如创意写作或绘画），但许多人想要的是让它承担那些我们不想做的事情。&lt;/p&gt;
+&lt;p&gt;尽管宝马车辆配备的屏幕越来越大，包括一块可选的31英寸后排影院屏幕，但宝马并没有打算在这些屏幕上销售任何广告。该品牌互联公司发展高级副总裁Stephan Durach表示，广播广告已经够烦人了。&lt;/p&gt;
+&lt;p&gt;“归根结底，我认为你的车是你最后的私人空间，”Durach上周在一次圆桌讨论中对一小群媒体人士说。“在这里你可以独自做任何想做的事——温度适宜，音乐随心。要说我会把屏幕卖出去播放广告——我完全无法想象。这是一个私人空间。”&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;我开始觉得，也许 Sam Altman 没接对线。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/08/05/altman-notopoulos-parenting" title="Permanent link to ‘Sam Altman, Definitely Not a Ghoul’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Wed, 05 Aug 2026 21:10:24 +0000</pubDate></item><item><title>大卫·波格：“Alexa+ 是个充满Bug的尴尬之作”</title><link>https://pogueman.substack.com/p/alexa-is-a-buggy-embarrassment</link><description>&lt;p&gt;David Pogue 在 Pogue’s Posts 上写道：&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://daringfireball.net/linked/2026/08/06/bmw-spider-man-ad"&gt;这话算是白说了&lt;/a&gt;。&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;亚马逊的“50多项可尝试内容”列表中提到，Alexa可以“帮你找到家庭维修专业人员”。于是我去试了试。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我：我需要维修化粪池系统。&lt;/p&gt;
-&lt;p&gt;ALEXA：目前不支持这项服务。我可以帮你联系水管维修服务。&lt;/p&gt;
-&lt;p&gt;我：好吧，行，那就水管维修。&lt;/p&gt;
-&lt;p&gt;ALEXA：您的水管出了什么问题？&lt;/p&gt;
-&lt;p&gt;我：未经处理的污水正从我厨房的水龙头里涌出来。&lt;/p&gt;
-&lt;p&gt;ALEXA：情况紧急吗？&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;呃……你觉得呢，白痴？但好吧：&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;我：是的。&lt;/p&gt;
-&lt;p&gt;ALEXA：您需要什么时间前完成？&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;显示了四个选项：&lt;strong&gt;尽快&lt;/strong&gt;、&lt;strong&gt;一周之内&lt;/strong&gt;、&lt;strong&gt;更晚一些&lt;/strong&gt;和&lt;strong&gt;还没想好&lt;/strong&gt;。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;我：尽快。&lt;/p&gt;
-&lt;p&gt;ALEXA：我是Alexa，不是Shaq。&lt;/p&gt;
+&lt;p&gt;宝马从不惧怕突破常规，寻找新的赚钱方式。这家汽车制造商率先在部分海外市场对其车辆的加热座椅功能收费。但在今年秋天早些时候，由于客户对必须付费才能解锁车内已有功能表示不满，宝马取消了座椅加热订阅选项。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;如果Alexa当时回答“贵族们！”，那就更搞笑了。&lt;/p&gt;
-&lt;p&gt;（事实上，这部很棒的影片可以在&lt;a href="https://www.amazon.com/Aristocrats-Jason-Alexander/dp/B07VQNWBLT"&gt;Amazon Prime上观看&lt;/a&gt;。）&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/08/05/pogue-alexa-plus" title="Permanent link to ‘David Pogue: ‘Alexa+ Is a Buggy Embarrassment’’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Wed, 05 Aug 2026 20:56:09 +0000</pubDate></item></channel></rss>
+&lt;p&gt;“不满”这个词用在这里，可真是轻描淡写。&lt;/p&gt;
+&lt;p&gt;我是从&lt;a href="https://www.spiegel.de/wirtschaft/unternehmen/bmw-spider-man-werbung-auf-autodisplay-nervt-fahrer-a-e5d25764-6425-4d33-a93a-f4b34e811f02"&gt;《明镜周刊》的这篇文章&lt;/a&gt;中看到这个MediaPost链接的，文章报道了上周宝马将蜘蛛侠广告塞进其全球各地车辆仪表盘所引发的众怒。《明镜周刊》的文章是德语的，但根据Safari浏览器的英文翻译，宝马的一位发言人竟然厚着脸皮声称，蜘蛛侠推广活动不是广告，而是“为客户准备的特别惊喜”，并称“并非意在宣传这部电影，也不是传统的电影预告片。就此而言，这也不算经典广告——而且车辆内不会继续展示任何广告。”&lt;/p&gt;
+&lt;p&gt;如果宝马是收了索尼的钱才这么做，那从定义上讲，这就是广告。如果我拥有一辆宝马，而这他妈的东西出现在我的仪表盘上，我会觉得自己必须把车开回经销商那里，径直撞穿橱窗冲进展示厅，以此回敬他们一份“特别惊喜”。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/08/06/bmw-no-ads" title="Permanent link to ‘BMW Executive in 2023: No Plans to Sell in-Vehicle Ads’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Thu, 06 Aug 2026 16:46:02 +0000</pubDate></item></channel></rss>
