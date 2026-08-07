@@ -1,27 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Fri, 07 Aug 2026 03:42:40 +0000</lastBuildDate><item><title>谷歌更新Chrome本地AI模型支持文档 需要20GB的可用磁盘空间下载模型</title><link>https://www.landian.news/archives/114242.html</link><description>
-&lt;p&gt;#软件资讯 谷歌更新 Chrome 浏览器下载 AI 模型的支持文档，需要 20GB 可用磁盘空间且系统性能足够。按照谷歌说明，如果磁盘剩余空间不足 20GB、系统性能达不到要求，谷歌都不会自动下载 Gemini Nano 模型。当然如果用户不想被占用 4GB 左右的空间或不使用设备端 AI，可以在设置里禁用下载。查看全文：https://ourl.co/114242&lt;/p&gt;&lt;p&gt;从 2025 年开始谷歌就在陆续向 Chrome 浏览器用户推送 Gemini Nano 模型，该模型在设备本地运行并用来识别诈骗或钓鱼网站以及提供某些由 AI 驱动的功能，但谷歌并没有提前通知用户，而是通过 Chrome 在后台静默下载模型权重文件，实际下载的模型权重文件约为 4~5GB。&lt;/p&gt;
-&lt;p&gt;像是蓝点网在 macOS 上同时安装 Chrome 稳定版、测试版和金丝雀版，每个版本都会单独下载模型权重文件，所以实际消耗的空间达到 15GB 以上，并且即便手动删除模型权重文件也没用，因为 Chrome 还会重新自动下载 (目前谷歌已经提供开关可以禁用设备端 AI 来禁用模型自动下载)。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112538-3.png" rel="nofollow"&gt;&lt;img alt="谷歌更新Chrome本地AI模型支持文档 需要20GB的可用磁盘空间下载模型" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112538-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;近期谷歌在帮助中心更新 Chrome 浏览器设备端生成式 AI 模型的文档，谷歌在更新后的文档中表示，要安装和使用支持本地 AI 功能的模型需要大约 20GB 的可用磁盘空间，同时还需要使用不限流量的数据连接 (部分用户使用按流量计费的网络) 以及足够的设备性能。&lt;/p&gt;
-&lt;p&gt;谷歌并没有明确说明足够的设备性能意味着什么，不过谷歌强调只有机器达到性能要求时 Chrome 才会自动下载本地 AI 功能所需的模型权重文件。需要说明的，模型权重文件依然是 4~5GB，只不过只有可用磁盘空间大于 20GB 时 Chrome 才会启动下载。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;谷歌也在支持文档中强调，用户不应该手动尝试删除 Chrome 下载的模型权重文件，因为删除后 Chrome 还会自动尝试重新下载这些权重文件。要彻底关闭设备端 AI 功能和阻止下载模型权重文件，用户需要转到 Chrome 浏览器设置、系统、设备端 AI，将设备端 AI 关闭后，已经下载的模型权重文件也会被自动删除。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/112872-1.png" rel="nofollow"&gt;&lt;img alt="谷歌更新Chrome本地AI模型支持文档 需要20GB的可用磁盘空间下载模型" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/112872-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;根据蓝点网的测试，禁用设备端 AI 功能后谷歌会立即自动删除已经下载到本地的设备端模型文件，所以用户也可以在禁用功能后转到模型权重文件夹检查模型是否存在，正常情况下整个文件夹都会被删除。&lt;/p&gt;
-&lt;p&gt;如果你手动展开文件夹到 OptGuideOnDeviceModel 后发现里面是空的，说明禁用设备端 AI 已经生效，此时谷歌已经自动删除该文件夹下的 2025.8.x.x 文件夹，原本模型文件就是放在这个文件夹里的。&lt;/p&gt;
-&lt;pre&gt;#Windows 10/11：
-
-C:\Users\{你的用户名}\AppData\Local\Google\Chrome\User Data\OptGuideOnDeviceModel\2025.8.21.1028\weights.bin
-
-#macOS：
-
-/Users/{你的用户名}/Library/Application Support/Google/Chrome/OptGuideOnDeviceModel/2025.8.8.1141/weights.bin
-/Users/{你的用户名}/Library/Application Support/Google/Chrome Canary/OptGuideOnDeviceModel/2025.8.8.1141/weights.bin&lt;/pre&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 07 Aug 2026 03:42:40 +0000</pubDate></item><item><title>Linux内核爆出新KVM漏洞：大量VPS母鸡又要停机安装补丁</title><link>https://www.landian.news/archives/114241.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Fri, 07 Aug 2026 03:42:40 +0000</lastBuildDate><item><title>谷歌更新Chrome本地AI模型支持文档 需要20GB的可用磁盘空间下载模型</title><link>https://www.landian.news/archives/114242.html</link><description>#软件资讯 谷歌更新 Chrome 浏览器下载 AI 模型的支持文档，需要 20GB 可用磁盘空间且系统性能足够。按照谷歌说明，如果磁盘剩余空间不足 20GB、系统性能达不到要求，谷歌都不会自动下载 Gemini Nano 模型。当然如果用户不想被占用 4GB 左右的空间或不使用设备端 AI，可以在设置里禁用下载。查看全文：https://ourl.co/114242</description><pubDate>Fri, 07 Aug 2026 03:42:40 +0000</pubDate></item><item><title>Linux内核爆出新KVM漏洞：大量VPS母鸡又要停机安装补丁</title><link>https://www.landian.news/archives/114241.html</link><description>
 &lt;p&gt;#安全资讯 Linux 内核爆出新的 KVM 漏洞，与 7 月份漏洞类似，大量 VPS / 公有云提供商又要临时停机安装补丁。目前蓝点网已经接到部分 VPS 提供商发来的消息，即准备临时停机升级内核封堵漏洞。但部分 VPS 提供商可能不会提前发通知，建议用户提前备份自己的数据，如果提供商升级母鸡出现异常，用户还能通过备份恢复服务。查看全文：https://ourl.co/114241&lt;/p&gt;&lt;p&gt;7 月份 Linux Kernel KVM 漏洞让众多服务器托管商如临大敌，该漏洞的特点是虚拟机用户可以利用漏洞逃逸隔离环境并侵入宿主机，因此对于 VPS 服务器或云服务器托管商来说，漏洞带来的潜在危害极高，如果没有及时升级内核修复漏洞，黑客就有可能直接入侵宿主机。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113997.png" rel="nofollow"&gt;&lt;img alt="Linux内核爆出新KVM漏洞：大量VPS母鸡又要停机安装补丁" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113997.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
