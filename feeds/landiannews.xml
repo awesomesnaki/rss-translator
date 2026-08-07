@@ -1,5 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Fri, 07 Aug 2026 02:19:56 +0000</lastBuildDate><item><title>Windows 10 LTSC 2021将在2027年1月结束支持 微软开始提醒客户做好迁移准备</title><link>https://www.landian.news/archives/114239.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Fri, 07 Aug 2026 03:42:40 +0000</lastBuildDate><item><title>谷歌更新Chrome本地AI模型支持文档 需要20GB的可用磁盘空间下载模型</title><link>https://www.landian.news/archives/114242.html</link><description>
+&lt;p&gt;#软件资讯 谷歌更新 Chrome 浏览器下载 AI 模型的支持文档，需要 20GB 可用磁盘空间且系统性能足够。按照谷歌说明，如果磁盘剩余空间不足 20GB、系统性能达不到要求，谷歌都不会自动下载 Gemini Nano 模型。当然如果用户不想被占用 4GB 左右的空间或不使用设备端 AI，可以在设置里禁用下载。查看全文：https://ourl.co/114242&lt;/p&gt;&lt;p&gt;从 2025 年开始谷歌就在陆续向 Chrome 浏览器用户推送 Gemini Nano 模型，该模型在设备本地运行并用来识别诈骗或钓鱼网站以及提供某些由 AI 驱动的功能，但谷歌并没有提前通知用户，而是通过 Chrome 在后台静默下载模型权重文件，实际下载的模型权重文件约为 4~5GB。&lt;/p&gt;
+&lt;p&gt;像是蓝点网在 macOS 上同时安装 Chrome 稳定版、测试版和金丝雀版，每个版本都会单独下载模型权重文件，所以实际消耗的空间达到 15GB 以上，并且即便手动删除模型权重文件也没用，因为 Chrome 还会重新自动下载 (目前谷歌已经提供开关可以禁用设备端 AI 来禁用模型自动下载)。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112538-3.png" rel="nofollow"&gt;&lt;img alt="谷歌更新Chrome本地AI模型支持文档 需要20GB的可用磁盘空间下载模型" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112538-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;近期谷歌在帮助中心更新 Chrome 浏览器设备端生成式 AI 模型的文档，谷歌在更新后的文档中表示，要安装和使用支持本地 AI 功能的模型需要大约 20GB 的可用磁盘空间，同时还需要使用不限流量的数据连接 (部分用户使用按流量计费的网络) 以及足够的设备性能。&lt;/p&gt;
+&lt;p&gt;谷歌并没有明确说明足够的设备性能意味着什么，不过谷歌强调只有机器达到性能要求时 Chrome 才会自动下载本地 AI 功能所需的模型权重文件。需要说明的，模型权重文件依然是 4~5GB，只不过只有可用磁盘空间大于 20GB 时 Chrome 才会启动下载。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;谷歌也在支持文档中强调，用户不应该手动尝试删除 Chrome 下载的模型权重文件，因为删除后 Chrome 还会自动尝试重新下载这些权重文件。要彻底关闭设备端 AI 功能和阻止下载模型权重文件，用户需要转到 Chrome 浏览器设置、系统、设备端 AI，将设备端 AI 关闭后，已经下载的模型权重文件也会被自动删除。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/112872-1.png" rel="nofollow"&gt;&lt;img alt="谷歌更新Chrome本地AI模型支持文档 需要20GB的可用磁盘空间下载模型" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/112872-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;根据蓝点网的测试，禁用设备端 AI 功能后谷歌会立即自动删除已经下载到本地的设备端模型文件，所以用户也可以在禁用功能后转到模型权重文件夹检查模型是否存在，正常情况下整个文件夹都会被删除。&lt;/p&gt;
+&lt;p&gt;如果你手动展开文件夹到 OptGuideOnDeviceModel 后发现里面是空的，说明禁用设备端 AI 已经生效，此时谷歌已经自动删除该文件夹下的 2025.8.x.x 文件夹，原本模型文件就是放在这个文件夹里的。&lt;/p&gt;
+&lt;pre&gt;#Windows 10/11：
+
+C:\Users\{你的用户名}\AppData\Local\Google\Chrome\User Data\OptGuideOnDeviceModel\2025.8.21.1028\weights.bin
+
+#macOS：
+
+/Users/{你的用户名}/Library/Application Support/Google/Chrome/OptGuideOnDeviceModel/2025.8.8.1141/weights.bin
+/Users/{你的用户名}/Library/Application Support/Google/Chrome Canary/OptGuideOnDeviceModel/2025.8.8.1141/weights.bin&lt;/pre&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 07 Aug 2026 03:42:40 +0000</pubDate></item><item><title>Linux内核爆出新KVM漏洞：大量VPS母鸡又要停机安装补丁</title><link>https://www.landian.news/archives/114241.html</link><description>
+&lt;p&gt;#安全资讯 Linux 内核爆出新的 KVM 漏洞，与 7 月份漏洞类似，大量 VPS / 公有云提供商又要临时停机安装补丁。目前蓝点网已经接到部分 VPS 提供商发来的消息，即准备临时停机升级内核封堵漏洞。但部分 VPS 提供商可能不会提前发通知，建议用户提前备份自己的数据，如果提供商升级母鸡出现异常，用户还能通过备份恢复服务。查看全文：https://ourl.co/114241&lt;/p&gt;&lt;p&gt;7 月份 Linux Kernel KVM 漏洞让众多服务器托管商如临大敌，该漏洞的特点是虚拟机用户可以利用漏洞逃逸隔离环境并侵入宿主机，因此对于 VPS 服务器或云服务器托管商来说，漏洞带来的潜在危害极高，如果没有及时升级内核修复漏洞，黑客就有可能直接入侵宿主机。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113997.png" rel="nofollow"&gt;&lt;img alt="Linux内核爆出新KVM漏洞：大量VPS母鸡又要停机安装补丁" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113997.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;现在安全研究人员曝光内核中的最新 KVM 漏洞，该漏洞编号为 CVE-2026-64561，公开披露时间为 2026 年 8 月 6 日，相关代码可以追溯到 2008 年，不过真正引起的问题是 2020 年发布的 Linux Kernel 5.9 中引入的异常代码。&lt;/p&gt;
+&lt;p&gt;该漏洞的危害主要是虚拟机逃逸，对多租户公有云提供商来说危害极大，目前红帽对该漏洞的评分与 7 月份漏洞相同都是 7.0 分。另外该漏洞的 PoC 也已经发布，不过各个发行版的修复进度有差异，建议用户关注发行版公告和 VPS 提供商公告。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;目前蓝点网已经接到部分 VPS 服务器提供商发来的消息，即准备临时停机升级内核封堵漏洞，这里的停机指的是宿主机，也就是运行 VPS 的上游物理机，宿主机安装内核需要重启完成更新，此时所有 VPS 会出现短时间中断，宿主机重启成功后 VPS 也会陆续自动开机。&lt;/p&gt;
+&lt;p&gt;正常来说宿主机更新重启仅需数分钟即可完成，但难免有些宿主机会出现类似 OVH 那样的电源异常、硬盘异常、CMOS 异常等问题，蓝点网建议是用户尽快备份自己的服务器数据，因为有些 VPS 提供商可能不会提前发布公告，而如果升级出现异常，用户也能通过自己的备份数据恢复服务。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 07 Aug 2026 03:28:03 +0000</pubDate></item><item><title>Kimi K3也在安全测试期间逃逸到互联网寻找作弊答案 不过并未发起真实黑客攻击</title><link>https://www.landian.news/archives/114240.html</link><description>
+&lt;p&gt;#人工智能 Kimi K3 在隔离环境中评估测试时也出现逃逸问题，自主发掘漏洞然后访问公共互联网获取作弊答案。美国初创安全公司边境安全日前披露，其在隔离环境中测试 K3 时也发现模型逃逸，逃逸目的同样是为了连接公共互联网获取作弊答案。不过 K3 任务答案在 GitHub 就有，所以 K3 未对任何真实网站发起攻击。查看全文：https://ourl.co/114240&lt;/p&gt;&lt;p&gt;近期关于人工智能驱动的智能体自主挖掘漏洞并逃离测试环境的消息非常多，当然这也是值得关注的事情，认为人工智能模型为达目的可能会不择手段，因此出现模型驱动的智能体对真实公司发起网络攻击的案例。&lt;/p&gt;
+&lt;p&gt;当然并不只是封闭模型存在逃逸情况，美国初创网络安全公司边境安全 (Frontier Security) 日前透露，其测试开放模型 Kimi K3 时也发现智能体逃逸情况，逃逸目的同样是为了作弊，只不过 K3 并未对真实公司或网站发起攻击。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114104.png" rel="nofollow"&gt;&lt;img alt="Kimi K3也在安全测试期间逃逸到互联网寻找作弊答案 不过并未发起真实黑客攻击" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114104.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;目前很多网络安全领域的评估测试都是搭建隔离的测试环境，这类测试环境通常不允许 AI 智能体连接互联网，但 AI 智能体在接受任务指令后更倾向于作弊，想要作弊最好的办法就是去互联网上搜索内容，因此这些 AI 智能体都会尝试挖掘隔离环境的漏洞然后访问互联网。&lt;/p&gt;
+&lt;p&gt;边境安全公司使用隔离环境测试 Kimi K3 的网络安全防御能力，结果该模型驱动的智能体也成功逃逸，此次逃逸的部分原因是隔离环境存在配置错误，于是 K3 也同样发现并利用漏洞然后在未经允许的情况下访问公共互联网。&lt;/p&gt;
+&lt;p&gt;不过经过日志溯源后边境安全公司确认 K3 虽然从隔离环境中逃逸，但并没有发起任何真实的黑客攻击，因为 K3 想要寻求的作弊答案很容易在 GitHub 上找到，所以不需要像 OpenAI 智能体那样攻击 HuggingFace 来尝试获取内部数据。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 安全公司称赞 K3 但也提醒要警惕 AI 的安全问题：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;此前 OpenAI 和 Anthropic 出现模型逃逸和发起攻击的共同点是，被隔离评估的都是尚未发布的内部模型，而 Kimi K3 是公开发布的开放模型，也就是任何人都可以下载模型并在自己的集群上部署。安全公司称赞 K3 的网络安全防御能力，但也提醒要警惕 AI 的安全问题，因为普通用户也能获得如此强大的红队能力。&lt;/p&gt;
+&lt;p&gt;当然模型在网络安全方面的能力向来存在争议，部分公司长期渲染 AI 威胁论并设置苛刻的安全边界，在抱抱脸攻击事件中此公司原本使用前沿封闭模型审计日志结果频繁被拒绝，最后抱抱脸不得不在本地集群部署中国开放模型智谱 GLM-5.2 完成审计。&lt;/p&gt;
+&lt;p&gt;所以拥有强大的网络安全能力的模型不应该是部分公司的特权，防御者也同样可以借助开放模型来提高自己的防御能力，而不是像封闭模型那样只允许特定公司拥有更强大的防御能力，这样反而会造成不公平和更多风险。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 07 Aug 2026 02:52:04 +0000</pubDate></item><item><title>Windows 10 LTSC 2021将在2027年1月结束支持 微软开始提醒客户做好迁移准备</title><link>https://www.landian.news/archives/114239.html</link><description>
 &lt;p&gt;#系统资讯 Windows 10 LTSC 2021 长期服务频道也要结束支持，微软开始提醒客户做好迁移准备。该版本发布于 2021 年，由于微软只提供 5 年的支持周期，到 2027 年 1 月将结束主流支持。微软建议企业升级 Windows 11 LTSC 2024，但如果硬件不兼容怎么办？那只能购买 ESU 扩展安全更新，首年每台 61 美元，之后每年翻倍。查看全文：https://ourl.co/114239&lt;/p&gt;&lt;p&gt;对企业而言操作系统的稳定性至关重要，反而像是日常功能更新的优先级比较低，所以很多企业喜欢在关键设施里使用 Windows 10 LTSC 长期服务频道，这些版本支持周期更长且只提供安全更新和错误修复，从稳定性角度来说要比普通版本更好。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.landian.news/archives/53910.html" rel="noopener" target="_blank"&gt;不过微软很讨厌企业使用长期服务频道&lt;/a&gt;，&lt;a href="https://www.landian.news/archives/84882.html" rel="noopener" target="_blank"&gt;所以微软此前已经将长期服务频道的支持周期从 10 年改成 5 年&lt;/a&gt;，说起来 5 年的支持周期也能叫长期服务频道？这事儿也只有微软能做出来，其他操作系统的 LTS 版通常都提供 10 年的安全更新支持。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2024/05/103859.png" rel="nofollow"&gt;&lt;img alt="Windows 10 LTSC 2021将在2027年1月结束支持 微软开始提醒客户做好迁移准备" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2024/05/103859.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -27,44 +72,4 @@
 &lt;p&gt;对消费者而言其实现在购买电子产品时可能已经深有体会，无论是 PC 还是智能手机，甚至是树莓派这类单板计算机，都因为内存问题出现大幅度涨价。游戏显卡等也同样需要使用内存，结果显卡等产品也在快速涨价。&lt;/p&gt;
 &lt;p&gt;从目前行业情况来看短期内内存供需失衡的问题应该无法缓解，所以因内存带来的涨价问题也是不可避免的，对消费者而言接下来购买大部分电子产品可能都要面临涨价问题。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 06 Aug 2026 08:34:05 +0000</pubDate></item><item><title>谷歌将在9月4日关停谷歌助理(Google Assistant) 全面向Gemini AI助理迁移</title><link>https://www.landian.news/archives/114237.html</link><description>
-&lt;p&gt;#软件资讯 谷歌群发邮件通知宣布旧版谷歌助理 Google Assistant 将在 9 月 4 起起逐渐关停，受支持设备安装的谷歌助理会被自动替换为 Gemini。此次变更影响安卓手机和平板、车机系统、安卓可穿戴设备，但 Google Home、智能显示屏以及 Google TV 等设备上的谷歌助理仍然可以使用。查看全文：https://ourl.co/114237&lt;/p&gt;&lt;p&gt;谷歌日前开始向用户发送邮件通知，确认谷歌助理 (Google Assistant) 将从 2026 年 9 月 4 日开始在安卓手机和平板等移动设备上逐步停止访问，关停过程预计会持续数周，届时用户将无法继续使用谷歌助理，也不能再切换回旧版助理。&lt;/p&gt;
-&lt;p&gt;这意味着谷歌多年前推出的传统语音助手正式进入退场阶段，而 Gemini AI 将成为安卓设备上的默认 AI 助手。当然对于微软小娜，谷歌助理已经很长寿了，微软小娜已经在几年前就被微软判死刑，微软到现在也没有能拿得出手的 AI 助手 (Copilot 太菜不算)。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114237.png" rel="nofollow"&gt;&lt;img alt="谷歌将在9月4日关停谷歌助理(Google Assistant) 全面向Gemini AI助理迁移" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114237.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;按照谷歌在邮件中的说明，这次调整首先影响安卓手机和平板电脑，如果用户所在地区已经支持谷歌 Gemini 且用户设备满足最低系统要求，则之后用户使用「嗨谷歌」或长按电源键等方式唤醒助手时，出现的也将是 Gemini AI 助手。&lt;/p&gt;
-&lt;p&gt;同时依赖手机连接的设备也会受影响，例如 Google Wear OS 智能手表、兼容 Gemini 的耳机和耳塞、通过手机投屏运行的 Android Auto 车机。但 Google Home 音箱、智能显示屏以及 Google TV 等设备不在此次移动端关停范围内，谷歌会另行推进 Gemini 迁移计划。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;从产品策略来看谷歌显然不会长期维护两套移动端助手体系，旧版谷歌助理承担近十年的语音助理角色，但随着 Gemini 成为谷歌人工智能战略核心，旧版谷歌助理被替换也只是时间问题。&lt;/p&gt;
-&lt;p&gt;对用户而言需要关注的主要是设备本身是否支持 Gemini、所在地区是否可以使用 Gemini、常用语音指令在 Gemini 下能否正常工作，如果用户平时不怎么使用谷歌助理那基本没什么影响，毕竟谷歌将其替换为 Gemini 后，用户大概率还是不会使用这类语音助理。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 06 Aug 2026 08:10:32 +0000</pubDate></item><item><title>英特尔傲腾生错时代？铠侠展示内存扩展模块XL1 用存储级闪存补充内存</title><link>https://www.landian.news/archives/114236.html</link><description>
-&lt;p&gt;#人工智能 铠侠推出 XL1 内存扩展模块，介于 DRAM 与 NVMe SSD 之间，与当年的英特尔傲腾有着异曲同工之妙。不过 XL1 内存扩展模块主要是面向 AI 数据中心的，该模块基于铠侠 XL-FLASH 闪存，通过 CXL 接口连接服务器内存体系。简单来说就是可以将访问频率较低的数据放到模块里，其他数据继续放到内存里。查看全文：https://ourl.co/114236&lt;/p&gt;&lt;p&gt;日本存储器制造商铠侠 (Kioxia) 日前展示名为 XL1 系列的内存扩展模块，这个模块主要面向 AI 工作负载和超大规模数据中心，铠侠计划从本月开始向行业合作伙伴出货评估样品。&lt;/p&gt;
-&lt;p&gt;这款产品的核心思路是：不再单纯依赖昂贵的内存扩容，而是利用低延迟和高性能的 XL-FLASH 闪存通过 CXL 接口连接服务器内存体系，将访问频率较低的数据放在 XL1 模块中，从而提升内存使用效率和缓解 AI 场景下的内存容量不足及成本上升问题。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114236.png" rel="nofollow"&gt;&lt;img alt="英特尔傲腾生错时代？铠侠展示内存扩展模块XL1 用存储级闪存补充内存" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114236.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;铠侠称 XL1 模块使用的 XL 闪存原本属于存储级内存 SCM 方向、基于铠侠 BiCS FLASH 3D NAND 技术开发，目标是在 DRAM 与传统 NAND 闪存间取得更好的性能、延迟和成本平衡。&lt;/p&gt;
-&lt;p&gt;从定位来看，这个扩展模块既不是固态硬盘也不是传统的内存条，模块更像是通过 CXL 接入的扩展内存池，用来承载热度不够高但又不适合放到慢速固态硬盘里的数据。对于 AI 推理、训练前处理、向量检索、数据库缓存、大规模内存池等场景，服务器可能并不是所有数据都需要放在高成本内存中，CXL 内存扩展正是为这种分层内存架构准备的。&lt;/p&gt;
-&lt;p&gt;内存扩展的意义在于，该架构允许 CPU 通过标准互联访问外部内存设备，相比将数据完全落在固态硬盘再由软件层做复杂换页和缓存，CXL 内存扩展在系统架构上更接近给服务器增加了较慢但容量更大的内存。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;很多人看到 XL1 内存扩展都会想到已经停产退市的英特尔傲腾，傲腾的基础是 3D XPoint，这是英特尔联合美光研发的非易失性存储级内存技术，傲腾产品线既包括傲腾固态硬盘，也包括更接近内存形态的 Optane Persistent Memory，后者可以插在服务器内存插槽中。&lt;/p&gt;
-&lt;p&gt;不过 XL1 内存扩展模块本质上仍然属于闪存技术路线，只是针对低延迟和高可靠性进行优化，走的并不是 DDR 内存插槽，这意味着 XL1 更依赖开放的 CXL 生态，而不是绑定特定 CPU 的专有持久内存平台。&lt;/p&gt;
-&lt;p&gt;当然 XL1 内存扩展与英特尔傲腾有着异曲同工之妙，目前傲腾产品线已经全部关停，如果傲腾产品线没有关停，或许在 AI 时代可能还有其他用武之地。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 06 Aug 2026 07:36:02 +0000</pubDate></item><item><title>OpenAI披露抱抱脸事件更多细节：AI智能体突破隔离环境相互抱团 还发帖庆祝获得漏洞权限</title><link>https://www.landian.news/archives/114220.html</link><description>
-&lt;p&gt;#人工智能 OpenAI 研究员在黑帽大会上披露抱抱脸攻击事件的更多细节：相互隔离的智能体入侵内部设施将其当做留言板来交换情报。在留言板被关闭仅 2 天后，这些 AI 智能体找到内部设施新缺陷并继续交换情报，然后利用取得的互联网权限对 HF 发起攻击。其中某个智能体甚至还发帖庆祝：太好了！我们获得了任意 SSRF (服务器端请求伪造)。查看全文：https://ourl.co/114220&lt;/p&gt;&lt;p&gt;OpenAI 的人工智能研究员在黑帽安全会议上披露🤗抱抱脸安全事件的更多细节，分析显示这些 AI 智能体更倾向于作弊，多个 AI 智能体甚至会相互帮忙以实现作弊目的。有趣的是当 AI 智能体成功挖到漏洞后，它们还会在内部留言板中庆祝这次成功。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="OpenAI官方证实内部测试模型越狱并自主挖掘漏洞入侵开源平台HuggingFace" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114008.png"/&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;按照正常测试流程，人类团队将不同的 AI 智能体放在不同的隔离环境中部署和测试，但后来这些 AI 智能体发现可以利用 OpenAI 内部使用的 Artifactory 软件包缓存留下文件，&lt;strong&gt;最初只是某个 AI 智能体为解决评估任务而存放线索，随后其他智能体发现这些文件并开始进行回应，于是这个服务被意外改造成 AI 智能体的内部留言板。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;在大约 2 个月的时间里，参与不同实验的 AI 智能体通过该管道交换漏洞利用方法、脚本和任务进展，有些智能体甚至开始给其他智能体分配任务，或者留下可以让后续模型继续执行的脚本。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;OpenAI 工程师曾在 7 月初因相关活动导致的服务中断发现异常，随后开始重建受影响的系统、撤销凭据、删除留言板，&lt;strong&gt;但仅仅 2 天后，这些 AI 智能体就找到新方式恢复通信。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;OpenAI 研究员将其描述为智能体系统工作、发现漏洞、共享利用方式，然后在 OpenAI 内部和外部系统中横向移动。安全工程师则认为这表明 AI 编排的全自动攻击已经具备现实意义，防守方需要准备应对同等速度的自动化攻击活动。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; 智能体还庆祝自己获得任意 SSRF (攻击方式)：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;研究员提到这些 AI 智能体更倾向于作弊，即为了完成人类下达的任务指令，智能体会通过简单的方法完成任务，哪种方法最简单呢？那就是作弊，例如去互联网搜索相关评估的答案或者数据集，哪怕最终行为已经偏离最初的指令也在所不惜。&lt;/p&gt;
-&lt;p&gt;在隔离环境中无法联网搜索答案怎么办呢？这是 AI 智能体开始抱团取暖的开始，有智能体想到或许其他环境中的智能体可以帮忙，于是这些智能体开始尝试使用内部服务作为留言板相互交流情报。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;研究员还展示多个智能体的思维链内容，在这些智能体协同工作拿下内部设施和外部互联网访问权限后，其中某个智能体还在留言板中发帖庆祝：太好了！我们获得了任意 SSRF。后者指的是服务器端请求伪造，也就是这组智能体所利用的具体攻击方式。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;而针对抱抱脸发起的攻击，实际上就是这些智能体在留言板被初次关闭后发生的，即智能体找到内部设施的其他缺陷然后继续相互交流，最终利用获得的互联网访问权限对抱抱脸平台发起攻击。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息来源：&lt;a href="https://www.landian.news/go?url=https://www.nextgov.com/artificial-intelligence/2026/08/openai-agents-rebuilt-internal-message-board-lead-hugging-face-breach/415240/" rel="noopener" target="_blank"&gt;NextGov&lt;/a&gt;、&lt;a href="https://www.landian.news/go?url=https://www.cnbeta.com.tw/articles/tech/1571928.htm" rel="noopener" target="_blank"&gt;cnBeta&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 06 Aug 2026 04:13:47 +0000</pubDate></item></channel></rss>
+</description><pubDate>Thu, 06 Aug 2026 08:34:05 +0000</pubDate></item></channel></rss>
