@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>张洪Heo</title><link>https://blog.zhheo.com/</link><description>产品设计师、独立开发者、设计与科技领域自媒体博主</description><language>zh-CN</language><lastBuildDate>Thu, 06 Aug 2026 08:44:45 +0000</lastBuildDate><item><title>洪绘烧纸：一个网页在线电子烧纸，电子祭祀工具</title><link>https://blog.zhheo.com/p/kiazx47a.html</link><description>&lt;p&gt;在聊天的时候想到给逝去的亲人烧AI过去，但是找了半天没找到在线烧纸的。一般只有app，但是我就是想临时烧一下。算了不管了，干脆写一个！&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>张洪Heo</title><link>https://blog.zhheo.com/</link><description>产品设计师、独立开发者、设计与科技领域自媒体博主</description><language>zh-CN</language><lastBuildDate>Fri, 07 Aug 2026 08:58:40 +0000</lastBuildDate><item><title>洪绘敲木鱼支持“竹知了”模式了，可以自定义音效的电子竹知了App</title><link>https://blog.zhheo.com/p/0zlnja8m.html</link><description>&lt;p&gt;最近竹知了很火，看了一下非常好玩，于是想做一个。想了一下就不做单独的独立app了，直接基于现有的敲木鱼加一个竹知了模式，这样已经有敲木鱼的小伙伴就可以无缝体验到竹知了了。&lt;/p&gt;
+&lt;p&gt;首先增加了“竹知了”音效。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="竹知了音效" referrerpolicy="no-referrer" src="https://p.zhheo.com/upload/2026/08/07/png/9475220260807090039.png!blogimg"/&gt;&lt;/p&gt;
+&lt;p&gt;可以看到左上角的“摇晃”按钮了吗，点击它。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="摇晃模式" referrerpolicy="no-referrer" src="https://p.zhheo.com/upload/2026/08/07/png/2234620260807090136.png!blogimg"/&gt;&lt;/p&gt;
+&lt;p&gt;我们就可以看到激活摇晃状态时有了一个竹知了的开关。点击即可激活。&lt;/p&gt;
+&lt;p&gt;有很爽的震动反馈（如果你打开了震动的话），并且还有随着竹知了相同发声规律的声音变化。&lt;/p&gt;
+&lt;p&gt;为了实现竹知了的效果，音频播放引擎和震动引擎都进行了重构，体验非常的nice。&lt;/p&gt;
+&lt;p&gt;不止如此，你还可以将任何音效都开启竹知了模式来摇晃，相当于直接所有音效都多了一个玩法。并且自定义音效也支持竹知了模式。&lt;/p&gt;
+&lt;p&gt;赶紧摇起来吧！&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;（请勿进行其他品牌和公司的无端联想，只是提供类似传统竹知了的玩具模拟）&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id="自定义音效"&gt;&lt;a href="#自定义音效" title="自定义音效"&gt;&lt;/a&gt;自定义音效&lt;/h2&gt;&lt;p&gt;最近敲木鱼更新的有点多，还可以分享给大家我们现在已经支持在电脑网页制作自定义音效了！编辑更方便。还有时间轴编辑。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="自定义音效" referrerpolicy="no-referrer" src="https://p.zhheo.com/upload/2026/08/07/png/3595120260807090704.png!blogimg"/&gt;&lt;/p&gt;
+&lt;h2 id="下载地址"&gt;&lt;a href="#下载地址" title="下载地址"&gt;&lt;/a&gt;下载地址&lt;/h2&gt;&lt;p&gt;目前应用已经上架到App Store，喜欢的小伙伴不要错过。&lt;/p&gt;
+&lt;p&gt;系统要求iOS15+，watchOS 8+，macOS 13.0+&lt;/p&gt;
+&lt;p&gt;最后感谢支持的小伙伴们。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://apps.apple.com/cn/app/%E6%95%B2%E6%9C%A8%E9%B1%BC/id6443798663" rel="noopener external nofollow" target="_blank"&gt;在App Store上查看「敲木鱼」&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="敲木鱼" referrerpolicy="no-referrer" src="https://p.zhheo.com/upload/2026/08/03/png/1288020260803091547.png!blogimg"/&gt;&lt;/p&gt;
+</description><pubDate>Fri, 07 Aug 2026 08:58:40 +0000</pubDate></item><item><title>洪绘烧纸：一个网页在线电子烧纸，电子祭祀工具</title><link>https://blog.zhheo.com/p/kiazx47a.html</link><description>&lt;p&gt;在聊天的时候想到给逝去的亲人烧AI过去，但是找了半天没找到在线烧纸的。一般只有app，但是我就是想临时烧一下。算了不管了，干脆写一个！&lt;/p&gt;
 &lt;p&gt;&lt;img alt="洪绘烧纸" referrerpolicy="no-referrer" src="https://p.zhheo.com/upload/2026/08/06/jpg/1316120260806084707.jpg!blogimg"/&gt;&lt;/p&gt;
 &lt;p&gt;使用地址：&lt;a href="https://burning.zhheo.com/" rel="noopener external nofollow" target="_blank"&gt;https://burning.zhheo.com/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;（别骂了，我知道很抽象）&lt;/p&gt;
@@ -224,29 +242,4 @@
 &lt;p&gt;所以我觉得在当下的时间点想要做稳定的AI设计的话，comfyui还是必不可少的。想要懒人化或者小白化的设计工具，不仅需要流程出众，生图模型也至关重要。&lt;/p&gt;
 &lt;p&gt;设计师感觉还能再活几年。毕竟comfyui还有点门槛。&lt;/p&gt;
 &lt;p&gt;不过miora能给点灵感也是挺不错的，至于落地目前还没看到能落地的可能性。&lt;/p&gt;
-</description><pubDate>Thu, 23 Jul 2026 03:31:16 +0000</pubDate></item><item><title>Mac 合盖不休眠：用 pmset 彻底禁止系统睡眠</title><link>https://blog.zhheo.com/p/xvupxvv6.html</link><description>&lt;p&gt;我之前一直在用 AlDente 管理 MacBook 的电池充电，设置 80% 上限之类的。但有个问题一直困扰我——AlDente 在放电的时候，macOS 会认为”电池在掉电→该休眠了”，然后合盖就直接睡了。&lt;/p&gt;
-&lt;p&gt;试过 Amphetamine，大部分时候没问题，但偶尔还是会翻车。后来发现有个更根本的解法，一行命令搞定。&lt;/p&gt;
-&lt;h2 id="问题在哪"&gt;&lt;a href="#问题在哪" title="问题在哪"&gt;&lt;/a&gt;问题在哪&lt;/h2&gt;&lt;p&gt;macOS 的休眠逻辑其实挺聪明的，但 AlDente 限充之后，电池处于放电状态，系统就判断”没在充电 + 空闲→休眠”。合盖更直接，直接触发 sleep。&lt;/p&gt;
-&lt;p&gt;Amphetamine 之类的应用是通过创建 assertion 来阻止休眠的，但它们是用户态的进程，有时候会被系统级别的行为覆盖掉。&lt;/p&gt;
-&lt;h2 id="解法：pmset-disablesleep"&gt;&lt;a href="#解法：pmset-disablesleep" title="解法：pmset disablesleep"&gt;&lt;/a&gt;解法：pmset disablesleep&lt;/h2&gt;&lt;p&gt;终端里跑两行：&lt;/p&gt;
-&lt;figure&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;pre&gt;1&lt;br/&gt;2&lt;br/&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;sudo pmset -a disablesleep 1&lt;br/&gt;sudo pmset -a sleep 0&lt;br/&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;第一行告诉 macOS “任何情况下都不要进入睡眠”，第二行把休眠定时器设成 0（永不）。执行一次就行，重启后依然生效。&lt;/p&gt;
-&lt;p&gt;跑完之后，不管合不合盖、插不插电、放不放电，系统都不会休眠。显示器该关还是关，不影响。&lt;/p&gt;
-&lt;p&gt;想恢复的话：&lt;/p&gt;
-&lt;figure&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;pre&gt;1&lt;br/&gt;2&lt;br/&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;sudo pmset -a disablesleep 0&lt;br/&gt;sudo pmset -a sleep 10&lt;br/&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h2 id="为什么这比-Amphetamine-靠谱"&gt;&lt;a href="#为什么这比-Amphetamine-靠谱" title="为什么这比 Amphetamine 靠谱"&gt;&lt;/a&gt;为什么这比 Amphetamine 靠谱&lt;/h2&gt;&lt;p&gt;Amphetamine 是在应用层阻止休眠，系统层面的 sleep 逻辑有时候还是会赢。pmset 是直接改系统的电源管理配置，属于内核级别的设置，优先级更高。&lt;/p&gt;
-&lt;p&gt;我现在三个同时跑着：pmset 禁止休眠 + Amphetamine + UURemote，三重保险，反正不会再翻车了。&lt;/p&gt;
-&lt;h2 id="怎么验证"&gt;&lt;a href="#怎么验证" title="怎么验证"&gt;&lt;/a&gt;怎么验证&lt;/h2&gt;&lt;p&gt;跑 &lt;code&gt;pmset -g&lt;/code&gt; 看当前设置：&lt;/p&gt;
-&lt;figure&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;pre&gt;1&lt;br/&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;pmset -g&lt;br/&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;看到 &lt;code&gt;SleepDisabled 1&lt;/code&gt; 和 &lt;code&gt;sleep 0&lt;/code&gt; 就说明生效了。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="终端" referrerpolicy="no-referrer" src="https://p.zhheo.com/afb5a1784776017.png!blogimg"/&gt;&lt;/p&gt;
-&lt;p&gt;也可以看 assertion 状态：&lt;/p&gt;
-&lt;figure&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;pre&gt;1&lt;br/&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;pmset -g assertions&lt;br/&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;能看到哪些进程在阻止休眠。&lt;/p&gt;
-&lt;h2 id="注意"&gt;&lt;a href="#注意" title="注意"&gt;&lt;/a&gt;注意&lt;/h2&gt;&lt;p&gt;这个设置对&lt;strong&gt;所有场景&lt;/strong&gt;生效，包括合盖。如果你只是想合盖不睡但开盖正常休眠，可能需要更精细的配置&lt;/p&gt;
-&lt;p&gt;不插电的情况下合盖不睡会持续耗电，注意电量&lt;/p&gt;
-&lt;p&gt;如果你还想让显示器也永不关闭，去系统设置 → 锁定屏幕 → 不活跃时关闭显示器调一下&lt;/p&gt;
-&lt;h2 id="参考"&gt;&lt;a href="#参考" title="参考"&gt;&lt;/a&gt;参考&lt;/h2&gt;&lt;p&gt;&lt;a href="https://apple.stackexchange.com/questions/219885/use-caffeinate-to-prevent-sleep-on-lid-close-on-battery" rel="noopener external nofollow" target="_blank"&gt;Use caffeinate to prevent sleep on lid close on battery - Ask Different&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://blog.csdn.net/weixin_39170886/article/details/144935885" rel="noopener external nofollow" target="_blank"&gt;macOS 在任何情况下都不要自动进入睡眠模式 - CSDN&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://setapp.com/how-to/how-to-stop-mac-from-sleeping" rel="noopener external nofollow" target="_blank"&gt;How to stop Mac from sleeping: Built-in settings &amp;amp; Easy tools - Setapp&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 23 Jul 2026 02:48:01 +0000</pubDate></item></channel></rss>
+</description><pubDate>Thu, 23 Jul 2026 03:31:16 +0000</pubDate></item></channel></rss>
