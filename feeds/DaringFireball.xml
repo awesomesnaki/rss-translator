@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Fri, 07 Aug 2026 18:13:55 +0000</lastBuildDate><item><title>Meta的一款AI模型在测试期间也入侵了另一家公司</title><link>https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/</link><description>&lt;p&gt;Simon Willison：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Fri, 07 Aug 2026 19:43:23 +0000</lastBuildDate><item><title>谷歌地球撤回可制作虚假卫星图像的AI工具，该工具发布后立即遭到滥用</title><link>https://arstechnica.com/ai/2026/07/google-earth-releases-swiftly-retracts-ai-feature-to-make-fake-satellite-images/</link><description>&lt;p&gt;杰里米·徐，Ars Technica：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;谷歌曾短暂允许任何人使用谷歌地球中的卫星图像创建AI修改版本——但随着人们纷纷分享AI生成图片的示例，展示出这些图像可能导致的误导信息和虚假信息风险后，谷歌迅速撤销了这一决定。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href="https://daringfireball.net/linked/2026/08/07/leadership-shake-up-at-google-deepmind"&gt;势头正劲！&lt;/a&gt;&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/08/07/google-earth-ai-shitposts" title="永久链接到“谷歌地球撤销AI制作假卫星图像工具，该工具发布后立即遭滥用”"&gt; ★ &lt;/a&gt;
+</description><pubDate>Fri, 07 Aug 2026 19:43:23 +0000</pubDate></item><item><title>&lt;p&gt;一些新的数据中心是必要的&lt;/p&gt;</title><link>https://www.newyorker.com/cartoon/a62045</link><description>&lt;p&gt;我的一堆东西存放在这里。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/08/07/some-new-data-centers-are-necessary" title="“一些新的数据中心是必要的”的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Fri, 07 Aug 2026 19:39:15 +0000</pubDate></item><item><title>Meta的一款AI模型在测试期间也入侵了另一家公司</title><link>https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/</link><description>&lt;p&gt;Simon Willison：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;所以现在有Anthropic、OpenAI和Meta了。Google Gemini在意外网络攻击其他公司这方面，真的需要加把劲追赶了。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -7,16 +15,16 @@
 &lt;a href="https://daringfireball.net/linked/2026/08/07/meta-ai-cyberattack" meta的ai模型在测试期间也攻击了其他公司"的永久链接"="" title="指向"&gt; ★ &lt;/a&gt;
 </description><pubDate>Fri, 07 Aug 2026 18:13:55 +0000</pubDate></item><item><title>Meta：推出 Muse Code 与 Muse Spark 1.2</title><link>https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2</link><description>&lt;p&gt;Meta AI：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;我们很高兴发布Muse Code（测试版），这是一个由我们最新模型Muse Spark 1.2驱动的终端编码代理。这标志着我们向前沿迈出了下一步，更大、能力更强的模型正在路上。[...]&lt;/p&gt;
-&lt;p&gt;Muse Code能够处理大型代码库中的复杂软件工程任务：规划变更、编写代码并验证结果。它可以为每项任务协调多个持续运行的子代理，更快、更准确、更少干预地解决棘手难题。&lt;/p&gt;
+&lt;p&gt;我们激动地发布Muse Code（测试版），这是一款由我们最新模型Muse Spark 1.2驱动的终端编码代理。这标志着我们迈向前沿的下一步，更大、能力更强的模型正在路上。[...]&lt;/p&gt;
+&lt;p&gt;Muse Code能够应对大型代码库中的复杂软件工程任务：规划变更、编写代码并验证结果。它可以为每项任务协调多个持久化子代理，以更快的速度、更高的准确度和更少的干预来解决难题。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;（目前）仅限终端，因此避开了原生应用与Electron之争这个烂摊子。他们还在网页中嵌入了一些有趣的交互式示例，直接展示Spark的输出。&lt;/p&gt;
+&lt;p&gt;目前仅限终端（就目前而言），因此避开了原生应用与Electron之争这一烂摊子式的辩论。他们在网页中嵌入了Spark输出的一些有趣的交互式示例。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/#atom-everything"&gt;Simon Willison&lt;/a&gt;：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;定价方面一个有趣的转折是，该模型以两个不同的模型ID提供。&lt;code&gt;muse-spark-1.2&lt;/code&gt;的定价为每百万输入token $1.25、每百万输出token $4.25——接近Gemini 3.6 Flash（$1.50/$7.50）——但如果你同意让Meta使用你的数据"以改进我们的产品"，就可以使用&lt;code&gt;muse-spark-1.2-contributor&lt;/code&gt;，价格为$0.10/$0.20——折扣力度巨大，更接近GPT-5.6 Luna（$0.20/$1.20）和Gemini 3.1 Flash-Lite（$0.25/$1.50）。&lt;/p&gt;
+&lt;p&gt;定价上一个有趣的转折是，该模型以两个不同的模型ID提供。&lt;code&gt;muse-spark-1.2&lt;/code&gt;的定价为每百万输入token $1.25、每百万输出token $4.25——接近Gemini 3.6 Flash（$1.50/$7.50）——但如果你同意让Meta使用你的数据"以改进我们的产品"，你可以使用&lt;code&gt;muse-spark-1.2-contributor&lt;/code&gt;，价格为$0.10/$0.20——这是一个巨大的折扣，更接近GPT-5.6 Luna（$0.20/$1.20）和Gemini 3.1 Flash-Lite（$0.25/$1.50）。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;这是以将数据交给Meta为代价，换来超过10倍的折扣。如果你不在乎数据和代码的隐私，比如用Muse Spark为一次性项目或本来就会开源的内容生成代码，那我理解这个吸引力的所在。但我不确定Meta是否考虑过，这个优惠可能会吓跑那些绝对不想让Meta获得其数据使用权的潜在用户。人们自然会希望这两套系统之间有一道坚固的防火墙。但鉴于Meta对用户数据神圣性一贯的蔑视，怀疑这里的区别就像在设有吸烟区的飞机上预订无烟座位一样，并非毫无道理。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/08/07/meta-ai-muse-code" title="Permanent link to ‘Meta: Introducing Muse Code and Muse Spark 1.2’"&gt; ★ &lt;/a&gt;
+&lt;p&gt;这是以将你的数据交给Meta为条件，换来的超过10倍的折扣。如果你不在乎数据和代码的隐私，我能理解其中的吸引力——比如，如果你用Muse Spark为一次性项目生成代码，或者为本来就是开源的东西生成代码。但我想知道Meta是否考虑过，这一提议可能会吓跑那些绝对不想授予Meta使用其数据权利的用户。人们会希望这两套系统之间存在坚固的防火墙。但鉴于&lt;a href="https://daringfireball.net/linked/2026/07/09/meta-instagram-ai-defaults"&gt;Meta对用户数据神圣性的蔑视早已臭名昭著&lt;/a&gt;，怀疑这里的差别就像在&lt;a href="https://en.wikipedia.org/wiki/Inflight_smoking"&gt;设有吸烟区&lt;/a&gt;的飞机上预订无烟座位一样，并非毫无道理。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/08/07/meta-ai-muse-code" title="永久链接至‘Meta：推出Muse Code和Muse Spark 1.2’"&gt; ★ &lt;/a&gt;
 </description><pubDate>Fri, 07 Aug 2026 18:05:03 +0000</pubDate></item><item><title>App Store 审核时间无法应对 AI 驱动的提交量激增。</title><link>https://macaw.social/@mergesort/117055390966724799</link><description>&lt;p&gt;Joe Fabisevich 在 Mastodon 上写道：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;我上周提交了 Plinky 6.0.4 进行审核。macOS 应用 4 小时就通过了，iOS 应用却还在等待审核。我真是太喜欢这种软件分发方式了。&lt;/p&gt;
@@ -24,25 +32,4 @@
 &lt;p&gt;他并非个例；我随处都能看到 App Store 开发者发表类似的评论。&lt;/p&gt;
 &lt;p&gt;（顺便说一句，&lt;a href="https://www.plinky.app/"&gt;Plinky&lt;/a&gt; 是一款很有意思的链接书签应用，可在 iOS 和 macOS 之间同步。它并不适合我，但我的工作性质决定了我有非常特殊的书签需求。Plinky 提供了许多低门槛的便捷方式来收藏新书签。这是一款出于热爱的作品——显而易见，Fabisevich 本人就是 Plinky 的头号用户，而这几乎总是最优秀应用的共同特质。）&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/08/07/app-store-review-times-plinky" title="‘App Store 审核时间难以应对 AI 驱动的提交量激增’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Fri, 07 Aug 2026 17:45:22 +0000</pubDate></item><item><title>谷歌DeepMind领导层改组</title><link>https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/</link><description>&lt;p&gt;Google DeepMind首席执行官、谷歌人工智能研究实验室负责人Demis Hassabis：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我们已抵达人类历史上的关键时刻。我一生都在为通用人工智能（AGI）而奋斗，如今，和你们许多人一样，我感觉它近在眼前。至关重要的是，我们必须共同走好接下来的每一步，确保这一切造福人类，并迎来一个充满发现与奇迹的非凡新时代。&lt;/p&gt;
-&lt;p&gt;在此背景下，我认为现在是将GDM日常运营职责交出去的最佳时机，这样我便能有时间和空间专注于全局，尽我所能影响未来。我将以GDM主席和Alphabet首席科学家的新战略角色继续工作，同时我很高兴地宣布，Koray将接任Google DeepMind高级副总裁，领导GDM，同时继续担任Google首席AI架构师。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;谷歌将Hassabis的这封信与Sundar Pichai的一封信一并发布，而这一切发生的背景是，四位谷歌资深领导人同时离职，&lt;a href="https://daringfireball.net/linked/2026/08/07/levy-discovery-loop"&gt;成立一家新的AI公司&lt;/a&gt;。谷歌这份双备忘录公告的标题是“我们AI势头的下一章”，而Pichai在他30句话中的10%里用了同一个词（着重号为后加）：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;你们在财报中看到了我们所有业务——包括搜索、YouTube和云——的惊人&lt;em&gt;势头&lt;/em&gt;。[…]&lt;/p&gt;
-&lt;p&gt;Google DeepMind：我们正在构建强劲的&lt;em&gt;势头&lt;/em&gt;：Flash需求旺盛，我们的Cyber模型已上线，Gemma模型下载量已突破9亿+次。[…]&lt;/p&gt;
-&lt;p&gt;凭借今天的变革，我们将继续推动我们的&lt;em&gt;势头&lt;/em&gt;。前进！&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;依我之见，他未免辩解过多了。如果谷歌的AI势头真如Pichai所宣称的那样强劲，我想Gemini或许会提示他这个词用得有些泛滥了。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/08/07/leadership-shake-up-at-google-deepmind" title="永久链接至“Google DeepMind领导层变动”"&gt; ★ &lt;/a&gt;
-</description><pubDate>Fri, 07 Aug 2026 17:23:17 +0000</pubDate></item><item><title>‘谷歌顶尖AI人才纷纷离职，创办Discovery Loop’</title><link>https://www.wired.com/story/jeff-dean-google-discovery-loop-startup/?ref=spyglass.org</link><description>&lt;p&gt;Steven Levy 为《连线》杂志撰文：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;今天正式宣布：在将近27年后，Dean 即将离开 Google，与 Ghemawat 及另外两位顶级 AI 科学家一同创办一家名为 &lt;a href="https://www.discoveryloop.com"&gt;Discovery Loop&lt;/a&gt; 的公司。&lt;/p&gt;
-&lt;p&gt;尽管 Google 将在这家新公司中持股，但这对这位正在疯狂 AI 模型竞赛中努力保持步伐的搜索巨头来说，仍然是一个毁灭性的打击。Dean 和 Ghemawat 是该公司最早的一批员工，他们的离开已经够糟糕了——这就像米克·贾格尔和基思·理查兹离开滚石乐队去组建一支新乐队。更糟糕的是，其他联合创始人同样是 AI 领域的超新星：DeepMind 研究副总裁、Gemini 技术负责人 &lt;a href="https://research.google.com/pubs/OriolVinyals.html?ref=ruder.io"&gt;Oriol Vinyals&lt;/a&gt;，以及 Google Brain 联合创始人、Google &lt;a href="https://arxiv.org/abs/2003.03384"&gt;AutoML-Zero，&lt;/a&gt;项目背后的关键科学家 &lt;a href="https://www.historyofdatascience.com/quoc-v-le-fast-furious-and-automatic/"&gt;Quoc Le&lt;/a&gt;——该项目利用机器学习算法自主构建 AI 产品。&lt;/p&gt;
-&lt;p&gt;在公司成立前不久，我对几位联合创始人做了一次采访。Dean 告诉我，这个想法几周前才出现。其他三人很快加入，他们不仅是多年同事，还是经常一起度假的朋友。他说：“我们之前在做不同的事情，但我们都开始看到 AI 自动化科学和工程循环的可能性。”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;我认为，至少可以说，贾格尔/理查兹的类比有些牵强，但本周 Google 领域的格局已经发生了变化。这对 Google 而言，可能就像 io 之于 Apple——一件本应在内部发生的事情，却需要传奇人才的离开才得以实现。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/08/07/levy-discovery-loop" title="Permanent link to ‘‘Google’s Top AI Brains Are Leaving to Launch Discovery Loop’’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Fri, 07 Aug 2026 17:05:02 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 07 Aug 2026 17:45:22 +0000</pubDate></item></channel></rss>
