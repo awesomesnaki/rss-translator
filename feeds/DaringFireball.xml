@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Fri, 07 Aug 2026 20:36:58 +0000</lastBuildDate><item><title>Simon Willison谈博客</title><link>https://writethatblog.substack.com/p/simon-willison-on-technical-blogging</link><description>&lt;p&gt;西蒙·威尔逊（Simon Willison）与辛西娅·邓洛普（Cynthia Dunlop）的访谈，属于她的科技博主采访系列（这段访谈其实是一月份录的，但他直到最近才&lt;a href="https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging/"&gt;发出链接&lt;/a&gt;，所以我也才刚刚看到）：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sat, 08 Aug 2026 19:31:52 +0000</lastBuildDate><item><title>也许“挥霍巨款购买AI代币来偷内裤”实际上并不是一个好商业计划</title><link>https://www.404media.co/the-tokenpocalypse-is-here-companies-are-scrambling-to-stop-spending-so-much-on-ai/</link><description>&lt;p&gt;Joseph Cox 在 404 Media 上撰文写道（有付费墙，可惜没有赠阅链接）：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;根据 404 Media 获得的泄露音频，咨询巨头埃森哲正试图找出办法，阻止非技术员工把公司的 AI token 预算浪费在诸如将 PDF 转换为演示文稿幻灯片之类的琐碎任务上。音频显示，埃森哲在整个行业中看到“token 支出飙升”。[...] 这也削弱了那种叙事，即超级强大的工程师生成海量代码才是 AI 热潮的幕后推手。在很多情况下，是那些非技术员工在为了非专业任务而烧掉大量 token。[...]&lt;/p&gt;
+&lt;p&gt;会议中有一刻，Kwak 和该公司高级 AI 中心的产品管理高级经理 Eduardo Salamanca de Diego 开始展示所谓的“token 运维”相关内容。&lt;/p&gt;
+&lt;p&gt;Kwak 说他知道现在人们不用幻灯片了，但他还是准备了一些。就在他似乎准备开始展示时，埃森哲的客户群负责人 Stuart Henderson 打断了他。他开玩笑说，希望 Kwak 没有把 PDF 转换成图片，然后再转换成 Markdown 文件。“我听说那可是吃 token 的大户，”Henderson 说，“把 PDF 转成 Markdown：是这样吗？”&lt;/p&gt;
+&lt;p&gt;就在这时，Kwak 说这正是埃森哲自己的数据显示的结果。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我对像埃森哲这样的咨询巨头（麦肯锡、贝恩、德勤、毕马威……）的印象一直是：它们非常擅长&lt;em&gt;看起来&lt;/em&gt;聪明，但实际上非常不擅长&lt;em&gt;真正&lt;/em&gt;聪明。一想到他们花大把真金白银的 AI token 去把 PDF 和&lt;a href="https://www.edwardtufte.com/book/the-cognitive-style-of-powerpoint-pitching-out-corrupts-within-ebook/"&gt;PowerPoint 演示文稿&lt;/a&gt;转换成 Markdown，我只会觉得我之前高估了在那里工作的人的中位智力水平。我真的以为 Markdown 已经不可能更成功了，但这真是登峰造极。我很高兴我的这个小宝贝正在帮助烧掉这些公司的钱。这事蠢到让人想想都心疼。&lt;/p&gt;
+&lt;p&gt;Markdown 是你&lt;em&gt;一开始&lt;/em&gt;就该用的东西，因为它写起来容易，而且人人都能读。你写 Markdown，然后用它来做幻灯片——比如说，用&lt;a href="https://ia.net/presenter"&gt;iA Presenter&lt;/a&gt;——而不是反过来。&lt;/p&gt;
+&lt;p&gt;（&lt;a href="https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/"&gt;来源：Simon Willison&lt;/a&gt;。）&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/08/08/accenture-stealing-underpants-ai-markdown" title="‘也许“烧一大笔钱买 AI token 去偷内裤”实际上并不是个好商业计划’的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Sat, 08 Aug 2026 19:31:52 +0000</pubDate></item><item><title>Simon Willison谈博客</title><link>https://writethatblog.substack.com/p/simon-willison-on-technical-blogging</link><description>&lt;p&gt;西蒙·威尔逊（Simon Willison）与辛西娅·邓洛普（Cynthia Dunlop）的访谈，属于她的科技博主采访系列（这段访谈其实是一月份录的，但他直到最近才&lt;a href="https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging/"&gt;发出链接&lt;/a&gt;，所以我也才刚刚看到）：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;有什么想分享给社区的经验教训吗？&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;我给博客写作的头号建议就是：降低你的标准！在你还对写出来的东西感到不满意的时候，就果断点击发布，因为唯一的替代方案就是一个装满草稿的巨大文件夹，最终什么也不会发表。&lt;/p&gt;
@@ -30,16 +41,4 @@
 &lt;/blockquote&gt;
 &lt;p&gt;我很惊讶Willison竟然没听说过&lt;a href="https://daringfireball.net/linked/2026/08/07/leadership-shake-up-at-google-deepmind"&gt;Gemini现在的势头有多猛&lt;/a&gt;。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/08/07/meta-ai-cyberattack" meta的ai模型在测试期间也攻击了其他公司"的永久链接"="" title="指向"&gt; ★ &lt;/a&gt;
-</description><pubDate>Fri, 07 Aug 2026 18:13:55 +0000</pubDate></item><item><title>Meta：推出 Muse Code 与 Muse Spark 1.2</title><link>https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2</link><description>&lt;p&gt;Meta AI：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我们激动地发布Muse Code（测试版），这是一款由我们最新模型Muse Spark 1.2驱动的终端编码代理。这标志着我们迈向前沿的下一步，更大、能力更强的模型正在路上。[...]&lt;/p&gt;
-&lt;p&gt;Muse Code能够应对大型代码库中的复杂软件工程任务：规划变更、编写代码并验证结果。它可以为每项任务协调多个持久化子代理，以更快的速度、更高的准确度和更少的干预来解决难题。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;目前仅限终端（就目前而言），因此避开了原生应用与Electron之争这一烂摊子式的辩论。他们在网页中嵌入了Spark输出的一些有趣的交互式示例。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/#atom-everything"&gt;Simon Willison&lt;/a&gt;：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;定价上一个有趣的转折是，该模型以两个不同的模型ID提供。&lt;code&gt;muse-spark-1.2&lt;/code&gt;的定价为每百万输入token $1.25、每百万输出token $4.25——接近Gemini 3.6 Flash（$1.50/$7.50）——但如果你同意让Meta使用你的数据"以改进我们的产品"，你可以使用&lt;code&gt;muse-spark-1.2-contributor&lt;/code&gt;，价格为$0.10/$0.20——这是一个巨大的折扣，更接近GPT-5.6 Luna（$0.20/$1.20）和Gemini 3.1 Flash-Lite（$0.25/$1.50）。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这是以将你的数据交给Meta为条件，换来的超过10倍的折扣。如果你不在乎数据和代码的隐私，我能理解其中的吸引力——比如，如果你用Muse Spark为一次性项目生成代码，或者为本来就是开源的东西生成代码。但我想知道Meta是否考虑过，这一提议可能会吓跑那些绝对不想授予Meta使用其数据权利的用户。人们会希望这两套系统之间存在坚固的防火墙。但鉴于&lt;a href="https://daringfireball.net/linked/2026/07/09/meta-instagram-ai-defaults"&gt;Meta对用户数据神圣性的蔑视早已臭名昭著&lt;/a&gt;，怀疑这里的差别就像在&lt;a href="https://en.wikipedia.org/wiki/Inflight_smoking"&gt;设有吸烟区&lt;/a&gt;的飞机上预订无烟座位一样，并非毫无道理。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/08/07/meta-ai-muse-code" title="永久链接至‘Meta：推出Muse Code和Muse Spark 1.2’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Fri, 07 Aug 2026 18:05:03 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 07 Aug 2026 18:13:55 +0000</pubDate></item></channel></rss>
