@@ -1,113 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>mac52ipod</title><link/><description>&lt;div id="cf-wrapper"&gt;
-    &lt;div class="p-0" id="cf-error-details"&gt;
-        &lt;header class="mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-8"&gt;
-            &lt;h1 class="inline-block sm:block sm:mb-2 font-light text-60 lg:text-4xl text-black-dark leading-tight mr-2"&gt;
-                &lt;span class="inline-block"&gt;A timeout occurred&lt;/span&gt;
-                &lt;span class="code-label"&gt;Error code 524&lt;/span&gt;
-            &lt;/h1&gt;
-            &lt;div&gt;
-                Visit &lt;a href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_524&amp;amp;utm_campaign=www.mac52ipod.cn" rel="noopener noreferrer" target="_blank"&gt;cloudflare.com&lt;/a&gt; for more information.
-            &lt;/div&gt;
-            &lt;div class="mt-3"&gt;2026-08-08 12:36:47 UTC&lt;/div&gt;
-        &lt;/header&gt;
-        &lt;div class="my-8 bg-gradient-gray"&gt;
-            &lt;div class="w-240 lg:w-full mx-auto"&gt;
-                &lt;div class="clearfix md:px-8"&gt;
-                    &lt;div class=" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center" id="cf-browser-status"&gt;
-  &lt;div class="relative mb-10 md:m-0"&gt;
-    
-    &lt;span class="cf-icon-browser block md:hidden h-20 bg-center bg-no-repeat"&gt;&lt;/span&gt;
-    &lt;span class="cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"&gt;&lt;/span&gt;
-    
-  &lt;/div&gt;
-  &lt;span class="md:block w-full truncate"&gt;You&lt;/span&gt;
-  &lt;h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3"&gt;
-  
-    Browser
-  
-  &lt;/h3&gt;
-  
-  &lt;span class="leading-1.3 text-2xl text-green-success"&gt;Working&lt;/span&gt;
-  
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>苹果fans博客</title><link>https://www.mac52ipod.cn/index.php</link><description>每天一两篇真正有用苹果教程或新闻的中文博客</description><language>zh-CN</language><lastBuildDate>Wed, 05 Aug 2026 02:51:52 +0000</lastBuildDate><item><title>Mac技巧之在苹果电脑上管理 Android 手机（读写文件、同步剪切板和通知、屏幕镜像、运行App）：AndroMeld</title><link>https://www.mac52ipod.cn/post/andromeld-manage-android-read-write-files-sync-clipboard-screen-mirror-run-apps.php</link><description>&lt;div id="zoomtext"&gt;&lt;p&gt;
+	 	AndroMeld 的核心功能就三个：在 Mac 的访达里像本地硬盘一样读写 Android 手机上的文件、在 Mac 上以独立窗口运行 Android App、在 Mac 上实现 Android 手机屏幕镜像、在 Mac 和 Android 手机之间实现剪贴板/通知同步和链接互甩 …… 基本实现 Mac + iPhone 的自家组合效果了。&lt;/p&gt;&lt;p&gt;至于连接方式，USB 和 Wi-Fi 都支持，使用前需要在 Android 上开启 ADB 调试并授权当前 Mac，再按提示在手机上安装配套的 AndDrive Helper，就行了。&lt;/p&gt;&lt;p&gt;AndroMeld 在苹果 App Store 应用商店的下载地址 &lt;u&gt;&lt;a href="https://apps.apple.com/app/id6762439757" rel="nofollow" target="_blank" title="AndroMeld: Android 手机伴侣 - 文件传输 + 屏幕镜像 + 剪切板通知同步"&gt;&lt;font&gt;https://apps.apple.com/app/id6762439757&lt;/font&gt;&lt;/a&gt;&lt;/u&gt;&lt;/p&gt;&lt;a name="entrymore"&gt;&lt;/a&gt;
+&lt;p&gt;
+&lt;/p&gt;
 &lt;/div&gt;
-                    &lt;div class=" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center" id="cf-cloudflare-status"&gt;
-  &lt;div class="relative mb-10 md:m-0"&gt;
-    &lt;a href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_524&amp;amp;utm_campaign=www.mac52ipod.cn" rel="noopener noreferrer" target="_blank"&gt;
-    &lt;span class="cf-icon-cloud block md:hidden h-20 bg-center bg-no-repeat"&gt;&lt;/span&gt;
-    &lt;span class="cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"&gt;&lt;/span&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-  &lt;span class="md:block w-full truncate"&gt;Dallas&lt;/span&gt;
-  &lt;h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3"&gt;
-  &lt;a href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_524&amp;amp;utm_campaign=www.mac52ipod.cn" rel="noopener noreferrer" target="_blank"&gt;
-    Cloudflare
-  &lt;/a&gt;
-  &lt;/h3&gt;
-  
-  &lt;span class="leading-1.3 text-2xl text-green-success"&gt;Working&lt;/span&gt;
-  
+</description><pubDate>Wed, 05 Aug 2026 02:51:52 +0000</pubDate></item><item><title>Apple新闻之苹果公布2026财年第三季财报</title><link>https://www.mac52ipod.cn/post/apple-2026-q3-result.php</link><description>&lt;div id="zoomtext"&gt;&lt;p&gt;
+	 	苹果本周公布了2026财年第三季财报：营收 1094.2 亿美元，同比增长 16%；净利润 297.9 亿美元，同比增长 27%；大中华区营收188.2亿美元，同比增长22% …… 这也是 Tim Cook 以苹果 CEO 身份出席的最后一场财报电话会。按照&lt;/p&gt;&lt;u&gt;&lt;a href="https://www.mac52ipod.cn/post/apple-ceo-tim-cook-to-john-ternus.php" rel="nofollow" target="_blank" title="Apple新闻之 Tim Cook 卸任苹果 CEO，John Ternus 接班"&gt;&lt;font&gt;此前公布的计划&lt;/font&gt;&lt;/a&gt;&lt;/u&gt;&lt;p&gt;，他将于9月1日正式交棒，由硬件工程高级副总裁 John Ternus 接任 CEO&lt;/p&gt;&lt;p&gt;虽然苹果早已不再公布具体销量，但各产品线的财务数据如下：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;iPhone 营收 542.5 亿美元，同比增长 22%&lt;/li&gt;&lt;li&gt;Mac 营收 103.5 亿美元，同比增长 29%&lt;/li&gt;&lt;li&gt;iPad 营收 61.9 亿美元，同比下降 6%&lt;/li&gt;&lt;li&gt;可穿戴设备、家居设备和配件营收 78.8 亿美元，同比增长 6%&lt;/li&gt;&lt;li&gt;服务营收 307.4 亿美元，同比增长 12%&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;苹果官网财报原文 &lt;u&gt;&lt;a href="https://www.apple.com.cn/newsroom/2026/07/apple-reports-third-quarter-results/" rel="nofollow" target="_blank" title="Apple 公布第三季度业绩"&gt;&lt;font&gt;https://www.apple.com.cn/newsroom/2026/07/apple-reports-third-quarter-results/&lt;/font&gt;&lt;/a&gt;&lt;/u&gt;&lt;/p&gt;&lt;a name="entrymore"&gt;&lt;/a&gt;
+&lt;p&gt;
+&lt;/p&gt;
 &lt;/div&gt;
-                    &lt;div class="cf-error-source relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center" id="cf-host-status"&gt;
-  &lt;div class="relative mb-10 md:m-0"&gt;
-    
-    &lt;span class="cf-icon-server block md:hidden h-20 bg-center bg-no-repeat"&gt;&lt;/span&gt;
-    &lt;span class="cf-icon-error w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"&gt;&lt;/span&gt;
-    
-  &lt;/div&gt;
-  &lt;span class="md:block w-full truncate"&gt;www.mac52ipod.cn&lt;/span&gt;
-  &lt;h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3"&gt;
-  
-    Host
-  
-  &lt;/h3&gt;
-  
-  &lt;span class="leading-1.3 text-2xl text-red-error"&gt;Error&lt;/span&gt;
-  
+</description><pubDate>Sun, 02 Aug 2026 08:14:36 +0000</pubDate></item><item><title>查看苹果 Apple One 在各个国家的价格：Apple One Global Pricing Comparison</title><link>https://www.mac52ipod.cn/post/apple-one-global-pricing-comparison-find-the-best-apple-one-deal-worldwide.php</link><description>此前介绍过&lt;u&gt;&lt;a href="http://www.mac52ipod.cn/post/icloud-plus-global-pricing-comparison-find-the-best-icloud-plus-deal-worldwide.php" target="_blank" title="查看苹果 iCloud+ 在各个国家的价格：iCloud+ Global Pricing Comparison"&gt;&lt;font color="#0000FF"&gt;比较 iCloud+ 在不同国家价格的网站&lt;/font&gt;&lt;/a&gt;&lt;/u&gt;，同一个开发者还做了个比较 Apple One 在各个国家价格的网站：Apple One Global Pricing Comparison，如果你想从 iCloud+ 升级到 Apple One，可以看看。地址 &lt;u&gt;&lt;a href="https://appleone.owo.nz/" rel="nofollow" target="_blank" title="Apple One Global Pricing Comparison, Find the best Apple One deal worldwide"&gt;&lt;font color="#0000FF"&gt;https://appleone.owo.nz/&lt;/font&gt;&lt;/a&gt;&lt;/u&gt;&lt;p&gt;&lt;img alt="苹果fans 博客" border="0" referrerpolicy="no-referrer" src="http://www.mac52ipod.cn/attachment.php?fid=6888" title="苹果fans 博客"/&gt;&lt;/p&gt;&lt;br/&gt;Tags - &lt;a href="https://www.mac52ipod.cn/tag.php?tag=appleone" rel="tag"&gt;appleone&lt;/a&gt;</description><pubDate>Tue, 28 Jul 2026 08:28:00 +0000</pubDate></item><item><title>Apple新闻之 AppleCare+ 涨价了</title><link>https://www.mac52ipod.cn/post/applecare-plus-price-increase.php</link><description>&lt;div id="zoomtext"&gt;&lt;p&gt;
+	 	苹果在上周宣布：由于核心零部件（如屏幕、存储芯片）的采购成本增加，以及设备维修所需的人工与物料费用持续上升，AppleCare+ 涨价。iPad 涨 100 元，Mac 涨 150 元（Mac Pro 的 AppleCare+ 没涨价，不过那玩意儿应该没什么人买了）&lt;/p&gt;&lt;p&gt;还算「好消息」的是：虽然购买 AppleCare+ 的费用涨了，但万一设备损坏，真要用到 AppleCare+ 的时候，维修费没涨价。比如 Mac 屏幕坏掉还是收 ¥799，进水还是收 ¥2299&lt;/p&gt;&lt;a name="entrymore"&gt;&lt;/a&gt;
+&lt;p&gt;
+&lt;/p&gt;
 &lt;/div&gt;
-                &lt;/div&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-
-        &lt;div class="w-240 lg:w-full mx-auto mb-8 lg:px-8"&gt;
-            &lt;div class="clearfix"&gt;
-                &lt;div class="w-1/2 md:w-full float-left pr-6 md:pb-10 md:pr-0 leading-relaxed"&gt;
-                    &lt;h2 class="text-3xl font-normal leading-1.3 mb-4"&gt;What happened?&lt;/h2&gt;
-                    &lt;p class="mb-2"&gt;The origin web server timed out responding to this request.&lt;/p&gt;&lt;p&gt;The likely cause is an overloaded background task, database or application, stressing the resources on the host web server.&lt;/p&gt;
-                &lt;/div&gt;
-                &lt;div class="w-1/2 md:w-full float-left leading-relaxed"&gt;
-                    &lt;h2 class="text-3xl font-normal leading-1.3 mb-4"&gt;What can I do?&lt;/h2&gt;
-                    
-              &lt;h3 class="text-15 font-semibold mb-2"&gt;If you're a visitor of this website:&lt;/h3&gt;
-              &lt;p class="mb-6"&gt;Please try again in a few minutes.&lt;/p&gt;
-
-              &lt;h3 class="text-15 font-semibold mb-2"&gt;If you're the owner of this website:&lt;/h3&gt;
-              &lt;p&gt;Please refer to the &lt;a href="https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-5xx-errors/error-524/" rel="noopener noreferrer"&gt;Error 524&lt;/a&gt; article:&lt;/p&gt;
-              &lt;ul class="ml-4"&gt;
-                &lt;li&gt;Contact your hosting provider; check for long-running processes or an overloaded web server.&lt;/li&gt;
-                &lt;li&gt;Use status polling of large HTTP processes to avoid this error.&lt;/li&gt;
-                &lt;li&gt;Run the long-running scripts on a &lt;a href="https://developers.cloudflare.com/dns/proxy-status/#dns-only-records" rel="noopener noreferrer"&gt;grey-clouded subdomain&lt;/a&gt;.&lt;/li&gt;
-                &lt;li&gt;Enterprise customers can &lt;a href="https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-5xx-errors/error-524/#resolution-on-cloudflare" rel="noopener noreferrer"&gt;increase the timeout setting&lt;/a&gt; globally or for specific requests using Cache Rules.&lt;/li&gt;
-              &lt;/ul&gt;
-                &lt;/div&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-
-        &lt;div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300"&gt;
-    &lt;p class="text-13"&gt;
-      &lt;span class="cf-footer-item sm:block sm:mb-1"&gt;Cloudflare Ray ID: &lt;strong class="font-semibold"&gt;a27e8e87ba851d9d&lt;/strong&gt;&lt;/span&gt;
-      &lt;span class="cf-footer-separator sm:hidden"&gt;•&lt;/span&gt;
-      &lt;span class="cf-footer-item hidden sm:block sm:mb-1" id="cf-footer-item-ip"&gt;
-        Your IP:
-        &lt;button class="cf-footer-ip-reveal-btn" id="cf-footer-ip-reveal" type="button"&gt;Click to reveal&lt;/button&gt;
-        &lt;span class="hidden" id="cf-footer-ip"&gt;172.215.216.194&lt;/span&gt;
-        &lt;span class="cf-footer-separator sm:hidden"&gt;•&lt;/span&gt;
-      &lt;/span&gt;
-      &lt;span class="cf-footer-item sm:block sm:mb-1"&gt;&lt;span&gt;Performance &amp;amp; security by&lt;/span&gt; &lt;a href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_524&amp;amp;utm_campaign=www.mac52ipod.cn" id="brand_link" rel="noopener noreferrer" target="_blank"&gt;Cloudflare&lt;/a&gt;&lt;/span&gt;
-      
-    &lt;/p&gt;
-    &amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;
-  &lt;/div&gt;
-
-    &lt;/div&gt;
-&lt;/div&gt;</description><language>zh-CN</language><lastBuildDate>Sat, 08 Aug 2026 12:36:47 +0000</lastBuildDate></channel></rss>
+</description><pubDate>Fri, 24 Jul 2026 08:05:51 +0000</pubDate></item><item><title>这个网站整理了苹果历史上的失败产品</title><link>https://www.mac52ipod.cn/post/apple-failed-products.php</link><description>这个网站整理了苹果历史上的失败产品 &lt;u&gt;&lt;a href="https://startuptalky.com/apple-failed-products/" rel="nofollow" target="_blank" title="Biggest Failed Products of Apple That Apple Wants You to Forget"&gt;&lt;font color="#0000FF"&gt;https://startuptalky.com/apple-failed-products/&lt;/font&gt;&lt;/a&gt;&lt;/u&gt;。有时间轴，有每款产品的详细介绍，既有硬件也有软件和互联网服务，从上世纪 80 年代到现在的产品都覆盖，只是我不明白为什么 iPhone 6 也被列入失败产品了。&lt;p&gt;&lt;img alt="苹果历史上的失败产品" border="0" referrerpolicy="no-referrer" src="http://www.mac52ipod.cn/attachment.php?fid=6868" title="苹果历史上的失败产品"/&gt;&lt;/p&gt;&lt;br/&gt;Tags - &lt;a href="https://www.mac52ipod.cn/tag.php?tag=%25E8%258B%25B9%25E6%259E%259C%25E5%258E%2586%25E5%258F%25B2" rel="tag"&gt;苹果历史&lt;/a&gt; , &lt;a href="https://www.mac52ipod.cn/tag.php?tag=history" rel="tag"&gt;history&lt;/a&gt;</description><pubDate>Mon, 20 Jul 2026 03:44:12 +0000</pubDate></item></channel></rss>
