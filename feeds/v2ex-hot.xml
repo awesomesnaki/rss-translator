@@ -1,301 +1,222 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>V2EX-最热主题</title><link>https://www.v2ex.com/</link><description>V2EX-最热主题 - Powered by RSSHub</description><language>zh-CN</language><lastBuildDate>Fri, 07 Aug 2026 07:29:24 +0000</lastBuildDate><item><title>沉浸式翻译开源轻量替代 Duo Translator v2.1.0 发布</title><link>https://www.v2ex.com/t/1232738</link><description>&lt;p&gt;特点：完全免费、开箱即用、没有登录注册、没有营销弹窗。&lt;/p&gt;
-&lt;p&gt;截图
-&lt;img alt="settings" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://img.zeroflx.com/duo-settings.png"/&gt;&lt;/p&gt;
-&lt;p&gt;本次更新主要功能&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>V2EX-最热主题</title><link>https://www.v2ex.com/</link><description>V2EX-最热主题 - Powered by RSSHub</description><language>zh-CN</language><lastBuildDate>Sat, 08 Aug 2026 04:23:12 +0000</lastBuildDate><item><title>终于看到 V2 有人发 mac 不好用了....我一直以为只有我觉得难用</title><link>https://www.v2ex.com/t/1232881</link><description>看了一下整个评论区，给我的感觉好像就是要用 Mac ，你得去看官网的教程，你得去了解各种插件，各种快捷方式，然后你还得熟悉使用触摸板。但是想想最早小时候接触 win ，好像没有那么多东西要学习的...像是自来熟一样，根本就不需要学习，拿起鼠标键盘就能用了，不知道各位有没有类似的感触？&lt;br/&gt;&lt;br/&gt;然后就是，国区账号非常不友好，想下一个东西，就是搜不到，之前为了连远程桌面下 Windows APP 就得切外区账户，除此之外别无其他安装方式，好多东西没有提供 dmg 安装包....像微软这边，就只需要把区域切成美国就好了
+&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;#1 liuzhihang&lt;/strong&gt;：没有这个感触。小时候学习 win 也学了很久，只不过是学校有微机课，加上小时候想玩游戏，才学的。 &lt;br/&gt;&lt;br/&gt;用了 mac 之后，我也没觉得 mac 多难上手。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#2 syubo2810&lt;/strong&gt;：如果只是按拿起来就能用，mac 不是也是拿起来就能用，你说的学习我不明白是啥？？复杂的功能 win 也要学的啊，软件没有不是系统的问题吧，大部分软件都是有的，没有的就是没有，这不赖系统吧，你也不能要求 win 支持 mac 独占的那些软件吧&lt;br/&gt;你觉得 win 要好用只是一直用的 win ，习惯也是 win 的习惯，我两个系统都用，新手使用两个系统差不多的，大部分软件安装反倒是 mac 简单，都不用选装哪里，也不用勾奇奇怪怪的东西&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#3 baiyuncangshu&lt;/strong&gt;：插件是什么意思？&lt;br/&gt;快捷方式不需要吧，可以用 raycast ，win 上也有版本了，或者国内的 utools ，启动文件很快的。日常找文件用终端也挺方便或者访达，和 win 的文件管理器似乎没啥区别。&lt;br/&gt;&lt;br/&gt;触摸板其实很方便。。。。这个不评价了，喜欢鼠标就用鼠标呗，和 windows 有什么区别吗？&lt;br/&gt;&lt;br/&gt;mac 上应该 dmg 安装包还挺多的。常用的基本都有，不然也没这么多破解软件了。并非都需要在 appstore 安装。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#4 Tiande&lt;/strong&gt;：用 Mac 没咋重装过，用 Win 感觉自己永远像一个学徒🤡&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#5 xxxxi&lt;/strong&gt;：你用 mca 多久了发出这种言论？ 别把自己的不习惯怪罪于系统&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#6 ndxxx&lt;/strong&gt;：母语和外语能一样嘛😁&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#7 Ryanzlab&lt;/strong&gt;：@&lt;a href="/member/xxxxi"&gt;xxxxi&lt;/a&gt; 你先把字打对，用了有 6 年了，只不过有 win 的时候 mac 拿去盖泡面的那种&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#8 PolarBears&lt;/strong&gt;：每个系统都有他有点缺点，别非踩一捧一，另外 Windows APP 并非没有其他安装方式，官方文档就有提供你.pkg 下载： &lt;a href="https://learn.microsoft.com/en-us/windows-app/whats-new?tabs=macos" rel="nofollow noopener" target="_blank"&gt;https://learn.microsoft.com/en-us/windows-app/whats-new?tabs=macos&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#9 LotusChuan&lt;/strong&gt;：我第一台个人电脑是 Mac ，所以还挺适应的。反而是 Windows 我一直用不惯，现在只用 Windows 打游戏&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#10 strobber16&lt;/strong&gt;：感觉都不如ａｒｃｈ&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#11 Ryanzlab&lt;/strong&gt;：@&lt;a href="/member/PolarBears"&gt;PolarBears&lt;/a&gt; Windows 只需要换区就可以了，并不需要切号的。苹果你要重新再搞一个美区号，而不是国区号，这个就不麻烦了吗&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#12 Ryanzlab&lt;/strong&gt;：@&lt;a href="/member/PolarBears"&gt;PolarBears&lt;/a&gt; 为了下一个东西，要花更多的时间去一个官网的详情页里面找到安装包的下载..。。。真的是过于自适应了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#13 Fennix&lt;/strong&gt;：@&lt;a href="/member/Tiande"&gt;Tiande&lt;/a&gt; #4 都 2026 年了还在拿“重装系统”说事，多少有点活在上古 PC 时代了。&lt;br/&gt;&lt;br/&gt;Win10 都是 11 年前的东西了，从那一代开始 Windows 早就稳定到根本几乎不会碰到要用重装来解决问题。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#14 kyochilian&lt;/strong&gt;：Mac 的一些操作确实需要学习，甚至反人类，但这不是 Mac 不好用的理由啊。&lt;br/&gt;类 unix 系统的优势在开发时非常大，如果是一个拥有基本运维（甚至基础 Linux 知识即可）的人，Mac 的上手会非常快，有 windows 无法比拟的优势，这里也包括国区账号的问题。homebrew 安装就可以了，很多在 Linux 上的知识、命令都能复用，包管理器的统一优势在 Windows 这边也是没有的。&lt;br/&gt;&lt;br/&gt;---&lt;br/&gt;&lt;br/&gt;我在使用 Mac 时的唯一问题是与其他人协作的 office 格式不兼容，但这不是 Mac 本身的问题，两个操作系统之间的格式兼容问题很正常。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#15 niubilewodev&lt;/strong&gt;：```&lt;br/&gt;但是想想最早小时候接触 win ，好像没有那么多东西要学习的...像是自来熟一样，根本就不需要学习，拿起鼠标键盘就能用了，不知道各位有没有类似的感触？&lt;br/&gt;```&lt;br/&gt;&lt;br/&gt;记忆美化而已&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#16 liuliuliuliu&lt;/strong&gt;：我是绝对中立，我觉得各自 50%，有人说 mac 比 win 好用我嗤之以鼻，反之亦然&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#17 kyochilian&lt;/strong&gt;：@&lt;a href="/member/kyochilian"&gt;kyochilian&lt;/a&gt; 另外，我不知道其他人怎么想，但是我很清楚记得第一次用 Windows ，我根本不知道怎么卸载软件...&lt;br/&gt;&lt;br/&gt;因此如果按照易用性来排名，那易用性第一名应该是 andriod x86 ，小孩老人都能用 XD&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#18 Fennix&lt;/strong&gt;：桌面两台电脑，一台 Windows ，一台 Mac ，主力是 Windows 。&lt;br/&gt;&lt;br/&gt;Mac 那套文件管理和快捷操作，我只能说，属于远远看到 Windows 在前面狂奔，自己在后面死活追不上的水平。&lt;br/&gt;&lt;br/&gt;前段时间装了个 duet ，想让 Mac 给 Windows 当副屏。然后新的痛苦来了，画质拉高，卡。速度拉快，糊。&lt;br/&gt;&lt;br/&gt;唉。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#19 paopjian&lt;/strong&gt;："甚至反人类，但这不是 Mac 不好用的理由啊" 这是人话么, 反人类了还不能叫不好用么&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#20 Tiande&lt;/strong&gt;：@&lt;a href="/member/Fennix"&gt;Fennix&lt;/a&gt; 要不是我自己真的在用我就信你了😂&lt;br/&gt;&lt;br/&gt;2026-07&lt;br/&gt;• KB: KB5101650 / KB5095093&lt;br/&gt;• 核心伤害: Dell 意外关机、过热&lt;br/&gt;• 微软态度: 承认并屏蔽/OOB&lt;br/&gt;&lt;br/&gt;2026-06&lt;br/&gt;• KB: KB5094126&lt;br/&gt;• 核心伤害: 启动失败/BSOD/BitLocker&lt;br/&gt;• 微软态度: 部分确认，启动问题多社区&lt;br/&gt;&lt;br/&gt;2026-03&lt;br/&gt;• KB: KB5079473&lt;br/&gt;• 核心伤害: 卡死、重启、需重装&lt;br/&gt;• 微软态度: 大量用户报告&lt;br/&gt;&lt;br/&gt;2026-01&lt;br/&gt;• KB: KB5074109&lt;br/&gt;• 核心伤害: 无法启动&lt;br/&gt;• 微软态度: 确认 + 双 OOB&lt;br/&gt;&lt;br/&gt;2025-10&lt;br/&gt;• KB: KB5066835&lt;br/&gt;• 核心伤害: localhost + WinRE 废&lt;br/&gt;• 微软态度: 确认 + OOB&lt;br/&gt;&lt;br/&gt;2025-08&lt;br/&gt;• KB: 八月安全更新&lt;br/&gt;• 核心伤害: 恢复/重置坏&lt;br/&gt;• 微软态度: 报道确认&lt;br/&gt;&lt;br/&gt;2025-08&lt;br/&gt;• KB: KB5063878&lt;br/&gt;• 核心伤害: SSD 损坏争议&lt;br/&gt;• 微软态度: 官方否认因果&lt;br/&gt;&lt;br/&gt;等&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#21 wild80&lt;/strong&gt;：触摸板这玩意对于我个人而言一直感觉挺难用的，其它还好&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#22 wild80&lt;/strong&gt;：@&lt;a href="/member/wild80"&gt;wild80&lt;/a&gt; 没用过 mac ，这是 win 的触摸板对于我的感受&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#23 Fennix&lt;/strong&gt;：@&lt;a href="/member/Tiande"&gt;Tiande&lt;/a&gt; #20 #20 不知道你列出这些想表达什么，意思是这些时间节点都要重装一次系统吗？我现在这台 Windows 装机 4 年了，一次都没重装过是怎么回事？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#24 Tiande&lt;/strong&gt;：@&lt;a href="/member/Fennix"&gt;Fennix&lt;/a&gt; 互 b 吧，费劲&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#25 june4&lt;/strong&gt;：人的自适应能力是强大的，哪怕难用，用一段时间就适应了，甚至再用回原来的会不适应。&lt;br/&gt;我自己从键盘、鼠标，甚至系统上都体会到了。&lt;br/&gt;更别说苹果强品牌效应一开始不适应只会认为自己还不配这么牛逼的 os 而不是系统的问题，再忍忍变化成苹果的形状就没问题了。不象我大 linux 桌面大部分人一开始不适应直接就喊 linux 桌面果然垃圾。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#26 C64NRD&lt;/strong&gt;：与其说好不好用，不如说适不适合自己；当你发现一个东西适合自己的时候你可能会忽略它的缺点。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#27 erquren&lt;/strong&gt;：难用也要用，从 &lt;a href="https://support.apple.com/zh-cn/102650" rel="nofollow noopener" target="_blank"&gt;https://support.apple.com/zh-cn/102650&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#28 Dream4U&lt;/strong&gt;：菜就要多练，不用找各种理由&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#29 Erroad&lt;/strong&gt;：先入为主+记忆美化而已。一开始还不是要了解什么是菜单栏、什么是开始按钮、什么是我的电脑，之后进阶了还要了解注册表项之类，包括以前下 windows 软件各种下载站、下载器的坑。问题不说就等于没有&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#30 notapple&lt;/strong&gt;：我觉得都挺好用 &lt;a href="https://i.imgur.com/ee8Lq7H.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/ee8Lq7H.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#31 yuruizhe&lt;/strong&gt;：我不是针对谁，我是说，win 和 mac 都是辣鸡，linux 才是王&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#32 PolarBears&lt;/strong&gt;：@&lt;a href="/member/Ryanzlab"&gt;Ryanzlab&lt;/a&gt; 我找这个只花了打字的时间提问 AI 就秒出的结果，都这年代了用点现代工具吧。至于为什么国区那么多 app 没得下，为什么你不怪一下源头？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#33 phinrod&lt;/strong&gt;：自己喜欢哪个就用哪个，都喜欢就都用，都不喜欢就都不用&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#34 COOOOOOde&lt;/strong&gt;：mac 开发 win 娱乐，完美。如果硬要一台机器一个系统干完所有事，难免难受&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#35 davidqw&lt;/strong&gt;：上班时公司老板每月补贴 mbp200 ，win 本 150 ，然后自从换到 mac 以后就回不去了。PC 平时打打游戏，跑跑 AI 本地模型&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#36 RyougiShiki&lt;/strong&gt;：我记的我第一次接触电脑两个小时都没把歌曲倒入到 mp3 里，费劲点广告和注册 qq 号和注册百度号，即使之前已经在学校里练过打字和 office 三件套等基本技能。&lt;br/&gt;&lt;br/&gt;windows 你是从自带商店下载软件吗，肯定不是，所以要去软件官网上找软件，很多软件用的还是盗版需要找破解。mac 也是一样。&lt;br/&gt;&lt;br/&gt;不习惯的地方，确实有，用 mac 系统的半年内我都把它挂闲鱼了，因为没卖出后面才适应逻辑。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#37 catazshadow&lt;/strong&gt;：对于很多人苹果依旧是自己身份的象征，你敢说苹果不好就是贬低他的人格，当然要往死里批判你了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#38 clementewy&lt;/strong&gt;：@&lt;a href="/member/paopjian"&gt;paopjian&lt;/a&gt; 哈哈，自适应嘛&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#39 Fennix&lt;/strong&gt;：@&lt;a href="/member/davidqw"&gt;davidqw&lt;/a&gt; #35 没懂有什么回不去的，我 Windows 和 Mac 同时用，明显感觉做同样的事情，Windows 效率更高。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#40 jayhuang0044&lt;/strong&gt;：@&lt;a href="/member/Fennix"&gt;Fennix&lt;/a&gt; #13 现实 大部分 win 问题 用重装来解决问题。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#41 wakarimasen&lt;/strong&gt;：虽然 Mac 确实有不好用的地方。&lt;br/&gt;&lt;br/&gt;比如说 Mac 的设计者似乎假设用户至少有两块显示器，窗口的切分拖拽真的做的一拖四。&lt;br/&gt;&lt;br/&gt;又比如说他们似乎鼓励开发者去商店里面上架一些小玩意赚钱。实用工具类里面，连个像样的截图和剪贴板工具都没有。那个叫 Finder 的东西更是甲级战犯，易用程度不明显高于 UEFI 里面的文件管理器。&lt;br/&gt;&lt;br/&gt;另外一些 cli utils 也和 Linux 是有差异的，有时候用起来也不顺手。&lt;br/&gt;&lt;br/&gt;又比如说我至今无法理解通过某种看上去像是载入光盘的方式安装软件&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;不过，&lt;br/&gt;&lt;br/&gt;某某区你找不到某个软件这种问题你还要提一嘴，实在是。。。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#42 jayhuang0044&lt;/strong&gt;：@&lt;a href="/member/clementewy"&gt;clementewy&lt;/a&gt; 学东西 那个不是自适应?&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;@&lt;a href="/member/paopjian"&gt;paopjian&lt;/a&gt; 幼儿觉得筷子反人类 中学觉得英语反人类 适应了辩证法 逻辑反人类...&lt;br/&gt;不就是因为自己已经自适应一套东西,转换另一套的时候的反人类那种感觉,需所谓的自适应...&lt;br/&gt;反过来也一样...&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#43 CNM47589&lt;/strong&gt;：Windows 适合那种不在乎外观好看难看、乱不乱、有没有秩序的人，十年二十年前的 UI 和操作逻辑在最新的系统里居然还存在，跟新的设计语言完全割裂。我之前用 Windows 那么多年，给自己重装系统的次数肯定上百次了，有时候单纯觉得用着用着觉得这系统脏了，各种国产软件处心积虑的算计用户，装一次这辈子你都摆脱不掉它，除非格盘重装。这些细节对粗线条的人可能是不可理解的，他们会觉得你没事找事、装，“能打游戏不就行了吗？！”“能工作不就行了吗？！”&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#44 weegc&lt;/strong&gt;：本来好不好用，就是每个人都不一样，个人的体验没必要拿出来说，没那么重要&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#45 jamme&lt;/strong&gt;：虽然我两个系统都用，但是我真没觉得 mac 的学习成本有多高，从来没专门去搜索过什么使用攻略之类的东西。倒是偶尔刷手机的时候，刷到有博主讲冷门功能或快捷操作方式等内容时，会觉得“咦，还可以这样”。但是我不会这些东西丝毫没有影响到我使用 mac 。至于你说的国区账号不友好、切换商店地区麻烦，不如 win ，这个问题确实存在，说的没毛病。但我有个疑问，我在 Microsoft store 下载东西比较少，假设下载付费软件的话，Microsoft store 也是全球统一账户么？因为我接触到的一些做数字产品生意的企业，可能是为了便于规避汇率等问题导致影响创作者的收入，大都使用分区定价，比如 Nintendo eshop 、steam 等，区服是绑定账号的，在什么区消费，就要登录那个地区的账号，这个痛点好像确实不太好解决。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#46 Ley&lt;/strong&gt;：用了二十多年 Windows ，去年开始用 Mac 当主力生产力工具，很快就上手了，没有遇到什么大问题&lt;br/&gt;感觉 Mac 和 Windows 易用性上各有优劣，不过现在在用的工具软件，Mac 上的速度远超 Windows ，节省了很多时间，所以总体好评&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#47 Fennix&lt;/strong&gt;：@&lt;a href="/member/jayhuang0044"&gt;jayhuang0044&lt;/a&gt; #40 #40 你说的是哪个年代的 Windows 系统？&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 08 Aug 2026 04:23:12 +0000</pubDate></item><item><title>codex 似乎要重置啦</title><link>https://www.v2ex.com/t/1232843</link><description>&lt;p&gt;快点重置吧 不然下周上班天才程序员要陨落啦&lt;/p&gt;
+&lt;p&gt;&lt;img alt="https://i.imgur.com/IgUsJ0u.png" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/IgUsJ0u.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="https://i.imgur.com/3W3V2Lo.png" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/3W3V2Lo.png"/&gt;&lt;/p&gt;
+&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;#1 licoycn&lt;/strong&gt;：本来今天就要重置了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#2 zw2019&lt;/strong&gt;：@&lt;a href="/member/licoycn"&gt;licoycn&lt;/a&gt; 我用了重置卡的 如果重置的话 我就赚啦&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#3 nettest&lt;/strong&gt;：毫无意义，再有 7h 41m 就重置了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#4 pmer&lt;/strong&gt;：坐等晚上 10 点 19 分的重置，先接 deepseek flash 过渡下&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#5 jkjoy&lt;/strong&gt;：还有 4h 我就重置了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#6 dirstart&lt;/strong&gt;：I need a reset ，我 8.12 重置&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#7 dirstart&lt;/strong&gt;：为啥你们能发图&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#8 gibber&lt;/strong&gt;：周中重置才有意义&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#9 zw2019&lt;/strong&gt;：@&lt;a href="/member/dirstart"&gt;dirstart&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;图片上传到 &lt;a href="https://imgur.com/" rel="nofollow noopener" target="_blank"&gt;https://imgur.com/&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="https://i.imgur.com/OcPSCEV.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/OcPSCEV.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#10 Alwaysonline&lt;/strong&gt;：晚上 7 点周重置。  以后估计没临时重置的机会了，省着点用了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#11 wzw&lt;/strong&gt;：Plus 吗，你 sub2api 开 ws 吗&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#12 VoidDream&lt;/strong&gt;：好耶&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#13 menghuitangchao&lt;/strong&gt;：还有不到 1 小时我就自然重置了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#14 zw2019&lt;/strong&gt;：@&lt;a href="/member/wzw"&gt;wzw&lt;/a&gt; 是的，我用的 sub2api ， 但是 ws 是啥 。。。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#15 avenger&lt;/strong&gt;：早上还看到这个&lt;br/&gt;&lt;a href="https://codex-resets.com" rel="nofollow noopener" target="_blank"&gt;https://codex-resets.com&lt;/a&gt;&lt;br/&gt;已经被点了 100w 次了，哈哈&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#16 deplives&lt;/strong&gt;：&lt;a href="https://i.imgur.com/tZaia0Z.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/tZaia0Z.png"/&gt;&lt;/a&gt;&lt;br/&gt;再坚持一下&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#17 hanswu&lt;/strong&gt;：已经重置了今天 略亏&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#18 wonderfulcxm&lt;/strong&gt;：@&lt;a href="/member/avenger"&gt;avenger&lt;/a&gt; 网站不错&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#19 DigitalG&lt;/strong&gt;：为啥那么多人都说本来就要重置了？这个不是看每个人的付费时间吗？我的账号上显示的 12 号重置。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#20 fanwei&lt;/strong&gt;：@&lt;a href="/member/DigitalG"&gt;DigitalG&lt;/a&gt; 那不暴露了你是刚加入吗？ &lt;br/&gt;不管你之前是多少号买的，重置一次后，大家不都一样了吗。&lt;br/&gt;不一样的要么是新加入还没经历过雨露均沾的，要么上次重置后用了重置卡的。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#21 wild80&lt;/strong&gt;：@&lt;a href="/member/DigitalG"&gt;DigitalG&lt;/a&gt; 上次 Tibo 统一重置了，根据上次重置的时间计算的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#22 deplives&lt;/strong&gt;：@&lt;a href="/member/DigitalG"&gt;DigitalG&lt;/a&gt; 因为之前 Tibo 经常统一重置，充值后大家的的重置时间都是统一的了，如果还有不一样的，要么是新号，要么是自己用了手动重置次数的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#23 winnerczwx&lt;/strong&gt;：@&lt;a href="/member/DigitalG"&gt;DigitalG&lt;/a&gt; 上次重置后, 老用户重置日期几乎都是同一天, 区别只在于小时&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#24 yuge1201&lt;/strong&gt;：最近怎么不送重置次数了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#25 sjqboss&lt;/strong&gt;：ChatGPT 和 codex 合并后为什么在里边聊天也消耗额度，我记得之前窗口里有个可以弹出聊天的窗口，现在找不到了。现在只能到原来 ChatGPT 里聊天才不消耗额度了&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 08 Aug 2026 00:11:15 +0000</pubDate></item><item><title>如何 vibe 成本那么低，什么才是护城河？或者我们需要护城河吗？</title><link>https://www.v2ex.com/t/1232841</link><description>最近看了很多新工具，确实也有做的非常棒的。&lt;br/&gt;很多基于 obsidian 的，基于本地屏幕录制、剪贴板的，可以说是百花齐放了。&lt;br/&gt;&lt;br/&gt;tibo 还没有重置，本人已经被 codex 使用完了，还想要被 AI 大人继续使用😭&lt;br/&gt;&lt;br/&gt;vibe 那么快，什么才是软件的护城河？
+&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;#1 kulove&lt;/strong&gt;：低是低啊 但是非专业的搞出来的确实还只是一个玩具 不过大部分软件也没有护城河&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#2 786375312123&lt;/strong&gt;：软件如果没有护城河谷歌和英伟达为什么还雇那么多软件工程师&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#3 thinkm&lt;/strong&gt;：销售&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#4 dirstart&lt;/strong&gt;：@&lt;a href="/member/786375312123"&gt;786375312123&lt;/a&gt; 是，这也是我最近的思考，产品深度其实很深。&lt;br/&gt;软件如 raycast 、硬件如安克，就不提苹果了，不断扩充细节，其实个体在这些场景很难追上。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#5 dirstart&lt;/strong&gt;：@&lt;a href="/member/kulove"&gt;kulove&lt;/a&gt; 是的，毕竟软件不是一次性的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#6 dirstart&lt;/strong&gt;：@&lt;a href="/member/thinkm"&gt;thinkm&lt;/a&gt; 分发确实重要&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#7 Voyager2718&lt;/strong&gt;：最难和最重要的是怎么触碰到客户，让客户信任你的软件，并且愿意交钱。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#8 codeface&lt;/strong&gt;：数据、资源&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#9 humanbait&lt;/strong&gt;：本来一款优秀的软件，编码所占的部分就不高&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#10 jko123&lt;/strong&gt;：自从 ai 发展越来越强大，越来越多的人产生了幻觉&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#11 codeface&lt;/strong&gt;：品味&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#12 dirstart&lt;/strong&gt;：@&lt;a href="/member/Voyager2718"&gt;Voyager2718&lt;/a&gt; 是，信任是整个商业的基石。人和人的合作就是。&lt;br/&gt;同时，个体的信任往往有上限，个体制造封闭式产品可以，制造开放式程序还是需要团队。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#13 dirstart&lt;/strong&gt;：@&lt;a href="/member/jko123"&gt;jko123&lt;/a&gt; AI 厂商乐见其成哈哈&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#14 xyooyx&lt;/strong&gt;：针对 ToC 业务，研发完成之后还有营销和运营的环节，即便在没有 AI 的时代，单纯的技术垄断也很难形成真正的护城河。而 ToB 方面，研发结束后仍需面对销售、交付、服务以及生态建设，技术优势往往只是用来敲开客户大门的入场券，真正的壁垒在于对业务场景的深刻理解、客户关系的维护、组织的交付能力，以及长期积累下来的经验。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#15 Alwaysonline&lt;/strong&gt;：理解业务需求（产品经理） + 能讲清楚你做的内容（商务/洽谈能力）&lt;br/&gt;&lt;br/&gt;先达到产品经理的需求理解程度，再去谈护城河。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#16 wvv8oo&lt;/strong&gt;：从产品的角度看：自己用(1)、程序员用(10)、普通用户用(100)，差别非常大&lt;br/&gt;从商业的角度看：大多数技术，本来就是最不重要的一环&lt;br/&gt;&lt;br/&gt;多数公司，没什么太深的护城河；绝大多数公司，护城河不是技术。&lt;br/&gt;人人都“知道”的事情，能做出来并不容易，做出来卖出去更不容易。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#17 davidyin&lt;/strong&gt;：如果依赖技术作为护城河，基本上靠不住，技术进步的速度会很快把护城河摧毁。&lt;br/&gt;&lt;br/&gt;只有技术之外的，才能长久一些。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#18 sn0wdr1am&lt;/strong&gt;：1. 你有独一无二的技术，且别人目前还难以赶超。Claude  &lt;br/&gt;2. 你有独一无二的生态，且别人目前还难以赶超。Windows ，Linux ，MacOS ，CUDA&lt;br/&gt;3. 你有独一无二的权利，一张 A4 纸足矣。（准入，通行证，牌照）&lt;br/&gt;&lt;br/&gt;别幻想护城河了。&lt;br/&gt;把东西做出来，有价值，实现价值就完事了。&lt;br/&gt;一个行业都能被 A4 纸干翻，你个人的护城河能比一个行业护城河要深？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#19 SuperDaniel313&lt;/strong&gt;：护城河在于业务。&lt;br/&gt;&lt;br/&gt;不管是商务能力、技术能力、财务能力。这些能力如果想组合起来持久地进行盈利。那么都需要有一个介质，让这些能力进行依附，那就是业务。&lt;br/&gt;&lt;br/&gt;也就是很多人说，找这种市场机会，或者说找什么赛道，持续不断去做的这一件事情。围绕着这件事情，你需要有商务能力、有技术能力、有财务能力进行推动。&lt;br/&gt;&lt;br/&gt;如果没有这件事情的话。所谓的技术、商务、财务，这些东西在赚钱、盈利的这个角度上来说，都是一文不值。&lt;br/&gt;&lt;br/&gt;比如现在的 AI ，如果没有发展到现在，可以编码、可以绘图、可以生成视频，这种具有非常高业务价值的能力。那么就像十年前大家听到机器学习、深度学习这种技术一样，只会听起来哇，好厉害，但是不会说哇，这个真赚钱。&lt;br/&gt;&lt;br/&gt;我最近在写的一个供应链相关的工具。&lt;br/&gt;&lt;br/&gt;产品难度很低，技术要求也很低，我一个非专业用户就能操作 Codex 干出来。&lt;br/&gt;&lt;br/&gt;那护城河在哪里？&lt;br/&gt;&lt;br/&gt;我花了好几个月读了 MAB 的供应链教材，把这些供应链知识产品化、工具化。这就是护城河。&lt;br/&gt;&lt;br/&gt;别人只有比我研究的更透彻才抄得了。&lt;br/&gt;&lt;br/&gt; &lt;a href="https://i.imgur.com/uOZhsZG.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/uOZhsZG.png"/&gt;&lt;/a&gt;&lt;br/&gt; &lt;a href="https://i.imgur.com/nGPGegE.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/nGPGegE.png"/&gt;&lt;/a&gt;&lt;br/&gt; &lt;a href="https://i.imgur.com/LgVyCVs.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/LgVyCVs.png"/&gt;&lt;/a&gt;&lt;br/&gt; &lt;a href="https://i.imgur.com/JUBwbsl.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/JUBwbsl.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#20 Conty&lt;/strong&gt;：那如果你作为用户 决策者 然后软件商跟你说我们已经实现 95 ％ AI 编程，你是高兴呢还是痛苦呢？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#21 foryou2023&lt;/strong&gt;：换个角度思考吧，用户角度，如果你是用户，什么样子的产品让你很难换。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#22 deplives&lt;/strong&gt;：&lt;a href="https://www.v2ex.com/t/1227624" target="_blank"&gt;https://www.v2ex.com/t/1227624&lt;/a&gt;&lt;br/&gt;我觉得这个写的很好，很有感触&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#23 winnerczwx&lt;/strong&gt;：软件不只有编码这一步, vibe 也只是降低了编码这一步的成本, 现在玩具软件成本已经很低了, 但一个可靠的商业软件成本还是在的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#24 xianyulaoye&lt;/strong&gt;：产品体验，业务深度，市场营销，团队管理等除了编码以外的任何一环都可以成为护城河。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 07 Aug 2026 21:53:04 +0000</pubDate></item><item><title>WitNote 2.0.1：一次 macOS 原生重构，也把本地 AI 放回了自己的 Mac</title><link>https://www.v2ex.com/t/1232801</link><description>&lt;p&gt;大家好，我是 WitNote 的独立开发者。&lt;/p&gt;
+&lt;p&gt;这是 WitNote 2.0.1 。对我来说，它不是一次普通更新，而是一次把自己第一个 Vibe Coding 项目推翻重做的记录。&lt;/p&gt;
+&lt;p&gt;去年开始做 WitNote 时，我会写 Markdown ，也会大量使用 AI ，于是想做一个真正围绕写作的工具：不把文章复制进网页，而是在自己的文件夹里写作，让 Markdown 、本地文件和 AI 放在同一个工作流里。为了快速验证想法，第一版用了 Electron 。&lt;/p&gt;
+&lt;p&gt;Electron 让我很快做出了能运行的产品，也让我第一次经历了开源、上架、审核、推广和有人付费。但真实用户出现以后，启动速度、内存、界面响应和 macOS 融合感的问题也一起出现了。“能用”和“真正好用”之间，还有很长一段距离。&lt;/p&gt;
+&lt;p&gt;当 WitNote 越来越强调本地 AI ，我开始重新想：既然它主要给 Mac 用户使用，为什么不真正用 Swift 和 Apple Silicon 的 MLX 路线重做？于是大约两个月前，我决定从 Electron 转向 Swift 原生 macOS 。文件系统、Markdown 编辑器、窗口状态、模型运行、权限、沙盒、StoreKit ，几乎都要重新处理。&lt;/p&gt;
+&lt;p&gt;这次重构里 Codex 也成了重要的开发搭档。我会先让它理解旧版功能，再一起讨论原生 macOS 应该怎么设计；它帮我写代码、查 Bug 、做重构，我负责判断哪些功能该留下，哪些应该删掉。Vibe Coding 并没有让产品自动变简单，却让我能一边做，一边更快理解架构、性能、权限和用户体验。&lt;/p&gt;
+&lt;h3&gt;2.0.1 留下了什么&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;微软翻译接口失效修复&lt;/li&gt;
-&lt;li&gt;YouTube 双语字幕
-&lt;img alt="youtube" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://img.zeroflx.com/youtube-subtitles.png"/&gt;&lt;/li&gt;
-&lt;li&gt;引入更加可定制化的网站翻译规则系统 (控制翻译和不翻译区域, 提升阅读体验)&lt;/li&gt;
+&lt;li&gt;Swift 原生 macOS 写作工作区：本地 Markdown 文件夹、编辑/预览分栏、Focus Mode 、Finder 打开文稿。&lt;/li&gt;
+&lt;li&gt;随 App 内置 Qwen3 0.6B 4-bit 模型，通过随包的 Swift MLX runner 和 Metal library 在 Apple Silicon 上运行，不依赖 Python 或额外开发工具。&lt;/li&gt;
+&lt;li&gt;AI 是可预览、可拒绝的辅助动作：标题、语法、润色、摘要、选区解释/改写、结构检查、阅读摘录、双语翻译和写回前 Diff 。&lt;/li&gt;
+&lt;li&gt;PDF 、Word 、表格、图片、EPUB 预览与 Markdown 旁注、多格式导出。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;常用翻译场景均已覆盖，&lt;a href="https://chromewebstore.google.com/detail/duo-translator-ai-transla/pjniaipnjcdiiglednmhgmjmpmllelke" rel="nofollow"&gt;chrome 插件地址直达&lt;/a&gt;，更多功能介绍请访问&lt;a href="https://github.com/linuxscreen/duo-translator" rel="nofollow"&gt;github&lt;/a&gt;和&lt;a href="https://duotranslator.com/zh" rel="nofollow"&gt;官网&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;三大浏览器商店均已上架，欢迎大家尝试和提意见。&lt;/p&gt;
-&lt;p&gt;碎碎念:&lt;/p&gt;
-&lt;p&gt;1 、最近（ 8 月 4 日）微软翻译接口调整，导致大部分插件微软翻译都失效了，感觉应该当天就先发布一个最小修复版本（那天卸载量 40 ，当天发布应该数据就打正了😢）。主要由于新增的功能还有很多问题需要解决，就拖到昨天才提交商店审核，今天通过。&lt;/p&gt;
-&lt;p&gt;2 、目前 chrome 商店已突破 400 用户。edge 还是 300 多一直没怎么变，也没有评论和反馈。推广和增长是真的难啊。&lt;/p&gt;
-&lt;p&gt;3 、本次更新商店审核速度：Firefox 立即通过(应该都是直接通过, 后续可能审核)、Edge 当天通过（这次很快）、Chrome 第二天通过。&lt;/p&gt;
+&lt;p&gt;我最在意的是：用户选择的文件夹就是工作区，文章仍是普通 &lt;code&gt;.md&lt;/code&gt; 文件，不被锁进私有格式。内置模型默认在本机推理，不把草稿默认交给第三方托管 AI ；但小模型有速度、内存和上下文边界，它不是万能 Agent ，也不宣称替代云端大模型。&lt;/p&gt;
+&lt;p&gt;2.0.1 已通过 App Store 审核：&lt;a href="https://apps.apple.com/app/id6756833873" rel="nofollow"&gt;https://apps.apple.com/app/id6756833873&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;如果你是 Mac 用户、程序员或独立开发者，欢迎试试，也想听听内置 Qwen3 0.6B 的真实速度、Markdown 工作区和本地 AI 动作是否符合你的工作流。这个版本不是终点，而是 WitNote 真正开始长期维护的起点。&lt;/p&gt;
+&lt;h2&gt;送 50 个 WitNote Pro 一次性内购兑换码&lt;/h2&gt;
+&lt;p&gt;这是 App Store 的 &lt;strong&gt;IAP Offer Code&lt;/strong&gt;，不是 App 下载码。兑换后用于解锁 WitNote Pro Lifetime ，一次性使用，有效期至 &lt;strong&gt;2026-09-30&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;兑换方式：在 App Store 或 App 的兑换入口选择“兑换礼品卡或代码”，输入下面任意一个代码。用过后请回复代码编号，避免后来的人重复尝试；如果兑换失败，也请说明代码编号和系统环境。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;01  74R46J6E3RXRYMMJA3
+02  8FFYLXEAH7A63E8XM3
+03  JJRXENE4L4H4MN33MM
+04  FW868TKKMNJYF4AR48
+05  KLJPEXKKP3FNT4JXLL
+06  WLMY66LAWKF7AM8RLJ
+07  86FKFARNTPEELYY6J6
+08  AYTHN3LNXL7PF7KR8H
+09  T6PPWTXKTX4EEEXWXA
+10  M474X7YAXWE3WXL8TA
+11  7NEHPMF6MW668J3PXM
+12  RFPERJE6KNFHFPEK7A
+13  N34W6L34JTX8W7JT4W
+14  KW4KJLNHERFY76P3TP
+15  7WN6NWKM46K7867YXN
+16  F67MJNXP6RE4NTF83M
+17  RTKA48MRMFWHK8EM7R
+18  PALE3F4LXANE74RPX6
+19  JHKF76WXW888Y7M7WE
+20  WJ87A637PTNK3JKPY3
+21  XREWPF4F8LXP8P3LH8
+22  W6MMRAPAN6PHR46JE7
+23  FRXWKYYAJL8YEAAPJT
+24  E867A4FEK8E4RRHPEP
+25  FYELMAHKKLWAFJ74LE
+26  8PT483AET77JLNANX6
+27  AETMXXPL3JNJKY3744
+28  NYNA8EWTEH4HYKX6HW
+29  47E6R6WK8YXFMP7HMR
+30  KP4LRYYYJ3J6EXNNJM
+31  XP7AM7JXYNPN3XPYJY
+32  RA3EJLHMKWLYMKJN6Y
+33  JLJ4PTLRT63WWHK464
+34  W66YHARHEXLL7M886W
+35  HENXLRFYWRRYWRTAM7
+36  K3KLXEHNRL367P6NM7
+37  87LW4PE6M8LHNFXKWF
+38  HFTWYH6H473Y37XTN4
+39  RKH36MHNF8KAN7PW8Y
+40  P8Y8XANJWMHT4YK4PY
+41  F6T48KK4WWRJA7JW83
+42  4EXELRT3AJPRL4MT7K
+43  KRNXKKLRATTRWEKTTW
+44  E7PHTA4LKPJ8NE4XMJ
+45  JJKXXXX33MMPLREMLF
+46  A4WF3HFAJKPNP446FP
+47  6TYWPMKRH43JPJH8H6
+48  NHPL83PLNFEEHXYKNY
+49  863FN6XYAE8FW74YPA
+50  4PEFP3F46HXMKPNM88
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;谢谢大家。如果你愿意试，欢迎把真实体验和不顺手的地方直接写在回复里。&lt;/p&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;#1 vnues&lt;/strong&gt;：你双语对照怎么搞的 我看 github 双语对照 界面有点丑&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#2 Sh4wnny&lt;/strong&gt;：沉浸式翻译现在是真的臃肿... 一直在用但是越来越感觉眼花缭乱了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#3 trumpmaga&lt;/strong&gt;：@&lt;a href="/member/vnues"&gt;vnues&lt;/a&gt; 有截图吗&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#4 trumpmaga&lt;/strong&gt;：@&lt;a href="/member/Sh4wnny"&gt;Sh4wnny&lt;/a&gt; 我这个大小 1.8M ，沉浸式翻译都 12M 了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#5 vnues&lt;/strong&gt;：&lt;a href="https://imgur.com/a/dAPln71" rel="nofollow noopener" target="_blank"&gt;https://imgur.com/a/dAPln71&lt;/a&gt; @&lt;a href="/member/trumpmaga"&gt;trumpmaga&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#6 Chicagoake&lt;/strong&gt;：效果不错，天下苦沉浸式翻译久矣。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#7 trumpmaga&lt;/strong&gt;：@&lt;a href="/member/vnues"&gt;vnues&lt;/a&gt; 我更新下规则，github 页面比较多和复杂，那块感觉不应该翻译的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#8 vnues&lt;/strong&gt;：@&lt;a href="/member/trumpmaga"&gt;trumpmaga&lt;/a&gt; 我感觉你可以参考沉浸式的规则 全部搞过来，现在就收录了几个网站而已&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#9 trumpmaga&lt;/strong&gt;：@&lt;a href="/member/vnues"&gt;vnues&lt;/a&gt; 收到，感谢建议！&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#10 tim9527&lt;/strong&gt;：在用了 确实效果不错，搭配梁圣的 deepseke 美滋滋&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#11 ffalex&lt;/strong&gt;：试试，一直在用 kiss&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#12 mosfet&lt;/strong&gt;：相对陪读蛙感觉没啥优势啊&lt;br/&gt;我也只用他的“多接口文本翻译”，用不同的模型翻译比对，选一个看着顺眼的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#13 xy19009188&lt;/strong&gt;：我给你增加一个 edge 用户，一直在用 kiss 那个，看看哪个好看点&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#14 trumpmaga&lt;/strong&gt;：@&lt;a href="/member/mosfet"&gt;mosfet&lt;/a&gt; 这类插件本来就多。我主要自己就是重度用户，有问题及时解决，最起码项目不会黄。另外我想要的双语逐句对照功能，别的插件都没有，只能自己开发了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#15 trumpmaga&lt;/strong&gt;：@&lt;a href="/member/xy19009188"&gt;xy19009188&lt;/a&gt; 感谢支持&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#16 trumpmaga&lt;/strong&gt;：@&lt;a href="/member/tim9527"&gt;tim9527&lt;/a&gt; deepseek 是要涨价了吗&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#17 GeekSuPro&lt;/strong&gt;：Firefox 下使用微软服务正常，使用 StepPlan 的 api 测试成功，实际翻译页面报错：网页翻译失败&lt;br/&gt;&lt;br/&gt;JSON.parse: unexpected character at line 1 column 1 of the JSON data&lt;br/&gt;&lt;br/&gt;还是要给你点个赞&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#18 trumpmaga&lt;/strong&gt;：@&lt;a href="/member/GeekSuPro"&gt;GeekSuPro&lt;/a&gt; 我去测试下，自己是用的 deepseek ，其他的 AI 提供商缺少实际验证&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#19 JYii&lt;/strong&gt;：已试用，暂时觉得不错&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#20 likeme&lt;/strong&gt;：可以，ui 挺好看&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#21 explorerproxy&lt;/strong&gt;：陪读蛙总是有页面不翻译，沉浸式翻译口碑太差，试试这个&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#22 Helsing7&lt;/strong&gt;：请求个 safari 支持&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#23 trumpmaga&lt;/strong&gt;：@&lt;a href="/member/JYii"&gt;JYii&lt;/a&gt; 感谢试用，有问题可以抽空反馈下，我会第一时间处理&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#24 jianny&lt;/strong&gt;：上次发布后就一直在用了，翻译速度非常快&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#25 trumpmaga&lt;/strong&gt;：@&lt;a href="/member/Helsing7"&gt;Helsing7&lt;/a&gt; wxt 框架我看了下是支持 safari 的，我适配下&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#26 lizhenda&lt;/strong&gt;：抄一下 沉浸式翻译 的悬浮球自动贴边收起的样式？现在这个滑动按钮太奇怪了吧 。。。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#27 tim9527&lt;/strong&gt;：@&lt;a href="/member/trumpmaga"&gt;trumpmaga&lt;/a&gt; #16 暂时还没有。现在正在狂蹬哈哈&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#28 trumpmaga&lt;/strong&gt;：@&lt;a href="/member/lizhenda"&gt;lizhenda&lt;/a&gt; 感谢建议！下个版本计划调整下&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#29 NickyPP&lt;/strong&gt;：挺不错的，先主力用了，而且喜欢这种专一简洁的软件，希望以后不会太臃肿&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#30 xinyana&lt;/strong&gt;：我一直觉得豆包插件已经很极致了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#31 chenall&lt;/strong&gt;：@&lt;a href="/member/Helsing7"&gt;Helsing7&lt;/a&gt; k ，&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#32 seven777&lt;/strong&gt;：@&lt;a href="/member/xinyana"&gt;xinyana&lt;/a&gt; #30 我也觉得是,甚至都不愿意尝试其他了.&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#33 tuot&lt;/strong&gt;：不错耶，下载支持，希望一直是简洁好用&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#34 imqiyue&lt;/strong&gt;：不错，沉浸式翻译太臃肿了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#35 24&lt;/strong&gt;：蹲一手 safari 插件&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#36 seven777&lt;/strong&gt;：@&lt;a href="/member/seven777"&gt;seven777&lt;/a&gt; #32 我试用了,非常不错!!!轻量,简洁.&lt;br/&gt;说实话,我有付费的欲望.&lt;br/&gt;另外:划词翻译,划词弹出按钮还是要有的吧?&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#37 love4taylor&lt;/strong&gt;：如果出 safari 版本会上架商店么？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#38 wonderfulcxm&lt;/strong&gt;：收藏，明天开电脑就试试&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#39 trumpmaga&lt;/strong&gt;：@&lt;a href="/member/love4taylor"&gt;love4taylor&lt;/a&gt; 大概率会，后面我还打算上架 macOS 软件，插件上架可以提前跑下流程&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#40 Armor&lt;/strong&gt;：刚下载就删了，悬浮一个绿色点，一个橙色开关，有点乱，我还是习惯划词翻译&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#41 yeeyeung&lt;/strong&gt;：也从 kiss 换过来试试看。我看 kiss 有调用 build in AI 接口，可以的话也请加入吧～&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#42 trumpmaga&lt;/strong&gt;：@&lt;a href="/member/Armor"&gt;Armor&lt;/a&gt; 两个都可以很方便的永久禁用，悬浮球下个版本不再使用胶囊，改成自动贴边收起的类型&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#43 Pinkmemory&lt;/strong&gt;：试用了下确实简洁，希望能一直保持。safari 版本希望能早日上架~&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#44 trumpmaga&lt;/strong&gt;：@&lt;a href="/member/yeeyeung"&gt;yeeyeung&lt;/a&gt; 感谢建议！下个版本加入&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#45 EricXuu&lt;/strong&gt;：期待支持 deeplx 的接口&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#46 Armor&lt;/strong&gt;：@&lt;a href="/member/trumpmaga"&gt;trumpmaga&lt;/a&gt; #42 能否出个，选中，然后翻译这段话这样的，我习惯这样操作，我个人小建议 🐶&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#47 a566&lt;/strong&gt;：会只翻译 youtube 视频吗&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#48 ahu&lt;/strong&gt;：不错，用上了。能不能缺省不翻译，由我手动开启翻译？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#49 dirstart&lt;/strong&gt;：你也搞了个哈哈哈哈，真巧，我今天也搞了个！学习一下！&lt;br/&gt;不过翻译要做好，细节真的真的真的不少！&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/yuukiLike/web-translate" rel="nofollow noopener" target="_blank"&gt;https://github.com/yuukiLike/web-translate&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#50 dirstart&lt;/strong&gt;：@&lt;a href="/member/vnues"&gt;vnues&lt;/a&gt; 我今天在做翻译插件的时候就发现了； github 很多技术词汇、button 、绿点 table 都比较特殊；&lt;br/&gt;也许我该对 github 、hacknews 这种极客网站做特殊的适配 😏&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#51 ahu&lt;/strong&gt;：开启翻译和关闭翻译的快捷键最好是统一，按一下快捷键开启翻译，再按一下关闭这样子&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#52 hcwhan&lt;/strong&gt;：希望增加 按住某快捷键 滑动选择一段文本后 自动弹出翻译窗口 功能&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#53 trumpmaga&lt;/strong&gt;：@&lt;a href="/member/ahu"&gt;ahu&lt;/a&gt; 默认翻译策略改成“不翻译所有网站”就可以了，&lt;a href="https://imgur.com/a/4uDH7PX" rel="nofollow noopener" target="_blank"&gt;https://imgur.com/a/4uDH7PX&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#54 trumpmaga&lt;/strong&gt;：@&lt;a href="/member/ahu"&gt;ahu&lt;/a&gt; 默认 Alt （ Option ）+S 就是翻译或恢复页面，你可以到快捷键里看下“翻译/恢复 页面”这个是否有值&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#55 trumpmaga&lt;/strong&gt;：@&lt;a href="/member/hcwhan"&gt;hcwhan&lt;/a&gt; 当前支持滑动选择一段文本后，双击 Ctrl 弹窗翻译窗口，你看下满足你的需求不&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#56 kiii&lt;/strong&gt;：用了，还行，没有按三次空格翻译的输入框，变成一个多余的按钮菜单。缺少单独的翻译框&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#57 trumpmaga&lt;/strong&gt;：@&lt;a href="/member/dirstart"&gt;dirstart&lt;/a&gt; 支持支持！互相学习😂&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#58 trumpmaga&lt;/strong&gt;：@&lt;a href="/member/kiii"&gt;kiii&lt;/a&gt; 输入框中双击 Ctrl 就可以翻译，或者右键-&amp;gt;翻译输入框&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#59 trumpmaga&lt;/strong&gt;：@&lt;a href="/member/Armor"&gt;Armor&lt;/a&gt; 你的意思是选中后立即就弹出翻译弹窗吗，当前支持选中后双击 Ctrl 弹出翻译弹窗&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#60 rpish&lt;/strong&gt;：@&lt;a href="/member/Sh4wnny"&gt;Sh4wnny&lt;/a&gt; 感觉是好几个工具整合到一起了 网页翻译，视频翻译，漫画翻译 啥都有 但是配置菜单飞机仪表盘&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#61 trumpmaga&lt;/strong&gt;：@&lt;a href="/member/a566"&gt;a566&lt;/a&gt; 是问有没有其他视频平台的支持计划吗，Netflix 后续可能会支持&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#62 WayneCmd&lt;/strong&gt;：你这个对我来说赶得早不如赶得巧，刚刚用沉浸式翻译去翻一段句子，我用自己的本地服务都开始跟我要钱了，干完活马上就来找替代品了，我还没开始搜索，主页上就能看得到，真好！&lt;br/&gt; &lt;a href="https://i.imgur.com/3qCXutb.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/3qCXutb.png"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;而且他这个很怪，只是翻个句子还必须要打开他这个网站，完了国内国外还是分开运营的 还不互通，难道是阿里腾讯华为退役下来的人做的？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#63 bowencool&lt;/strong&gt;：为啥都不做油猴脚本呢？明明可以少装一个插件，脚本还能同步&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#64 trumpmaga&lt;/strong&gt;：@&lt;a href="/member/EricXuu"&gt;EricXuu&lt;/a&gt; 本来准备上的，但是发现速度有点慢，且容易报错 too many requests ，代码回退了，我后面再研究下吧&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#65 Yorkzhu&lt;/strong&gt;：支持手机上的 Edge 不？有时候手机端浏览也需要翻译&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#66 imdoge&lt;/strong&gt;：也是 GPL T_T ，我想给自己的侧边栏（形式和陪读蛙/沉浸翻译/楼主的不一样）加个翻译 skill ，但这些协议都让我不好抄算法……&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#67 trumpmaga&lt;/strong&gt;：@&lt;a href="/member/Yorkzhu"&gt;Yorkzhu&lt;/a&gt; 目前还不支持&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#68 vectorer123&lt;/strong&gt;：@&lt;a href="/member/dirstart"&gt;dirstart&lt;/a&gt; 沉浸式翻译可以拿到哪些规则 可以直接拿过来 不用再费时间 可以用 AI 跑一下&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#69 whatalittleboy&lt;/strong&gt;：&lt;a href="https://i.imgur.com/xr1UOz1.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/xr1UOz1.png"/&gt;&lt;/a&gt;翻译响应速度很快，要是有单词翻译就更好了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#70 SadNoooo&lt;/strong&gt;：插个眼支持，希望有 Safari ～&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#71 trumpmaga&lt;/strong&gt;：@&lt;a href="/member/whatalittleboy"&gt;whatalittleboy&lt;/a&gt; 就是词典翻译吗，是打算支持的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#72 Armor&lt;/strong&gt;：@&lt;a href="/member/trumpmaga"&gt;trumpmaga&lt;/a&gt; #59 选中后，出现一个翻译按钮，点击就在扩展里面翻译&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#73 milksofter&lt;/strong&gt;：和开源的 kiss-translator 相比，有什么特色吗？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#74 77158158&lt;/strong&gt;：这个插件有些动态评论打开，也会自动翻译成功，这个蛮好的，其他一些插件，一些网址下面的评论展开的时候，就不会继续动态自动翻译，要重新按键才能翻译，这个翻译挺不错的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#75 liuxyon&lt;/strong&gt;：不好用，刚测试翻译没有任何反映&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#76 ahu&lt;/strong&gt;：@&lt;a href="/member/bowencool"&gt;bowencool&lt;/a&gt; 刚刚去看 KISS 的 README ，看到的：&lt;br/&gt;&lt;br/&gt;注：基于以下原因，建议优先使用浏览器扩展&lt;br/&gt;&lt;br/&gt;浏览器扩展的功能更完整（本地语言识别、右键菜单等）&lt;br/&gt;油猴脚本会遇到更多使用上的问题（跨域问题、脚本冲突等）&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#77 Rrrrrr&lt;/strong&gt;：有一个不好的用户体验，我点了原生的字幕开关，你的插件应该跟它才对，一起开一起关。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#78 MoGeJiEr&lt;/strong&gt;：在用了大兄弟,第一观看还是比较好的,比较简洁&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#79 MoGeJiEr&lt;/strong&gt;：希望添加支持连接谷歌云盘进行备份动功能.&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#80 MCC12138&lt;/strong&gt;：用了一下，非常简洁，要的就是简单的翻译功能，好东西&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#81 trumpmaga&lt;/strong&gt;：@&lt;a href="/member/liuxyon"&gt;liuxyon&lt;/a&gt; 方便反馈下是哪个网站吗&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#82 woniuge&lt;/strong&gt;：@&lt;a href="/member/trumpmaga"&gt;trumpmaga&lt;/a&gt; #81 &lt;br/&gt;&lt;br/&gt;我测试的这个页面 &lt;a href="https://go-review.googlesource.com/q/status:open+-is:wip" rel="nofollow noopener" target="_blank"&gt;https://go-review.googlesource.com/q/status:open+-is:wip&lt;/a&gt; 点击启用开关没有反应。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#83 trumpmaga&lt;/strong&gt;：@&lt;a href="/member/Armor"&gt;Armor&lt;/a&gt; 了解了，大部分翻译插件都有这个，个人感觉有点吵人就没加，打算加个开关支持这个功能。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#84 trumpmaga&lt;/strong&gt;：@&lt;a href="/member/woniuge"&gt;woniuge&lt;/a&gt; 这个是影子元素的问题，目前插件还不支持影子元素，我尽快适配下&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#85 JarvisLee&lt;/strong&gt;：译文 的样式加个 弱化 呗😁&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#86 trumpmaga&lt;/strong&gt;：@&lt;a href="/member/Rrrrrr"&gt;Rrrrrr&lt;/a&gt; 感谢建议！这块加个设置项，插件字幕开关跟随 YouTube 原生字幕开关。另外问下你的建议：如果插件里关闭字幕开关，预期应该关闭 YouTube 原生字幕吗，个人倾向于不关闭&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#87 trumpmaga&lt;/strong&gt;：@&lt;a href="/member/MoGeJiEr"&gt;MoGeJiEr&lt;/a&gt; 感谢建议！代码其实已经有了，下个版本上&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#88 trumpmaga&lt;/strong&gt;：@&lt;a href="/member/JarvisLee"&gt;JarvisLee&lt;/a&gt; 好，这个比较容易加&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#89 alading11&lt;/strong&gt;：在用了，很简洁。我最常用的是 youtube 的双语翻译，刚刚发现稍微有点奇怪的是双语字幕源语言貌似是根据节点来的，日本节点放英文视频双语显示的上面是日语下面是中文，是这样设置的吗&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#90 qianlifeng&lt;/strong&gt;：多谢，苦沉浸式翻译已久&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 07 Aug 2026 07:29:24 +0000</pubDate></item><item><title>AI Coding 还看源代码吗？要是不看，会害怕血崩吗？</title><link>https://www.v2ex.com/t/1232732</link><description>&lt;p&gt;V2EX 帖子，AI Coding 到无法掌控局面：
-&lt;a href="https://v2ex.com/t/1224558" rel="nofollow"&gt;https://v2ex.com/t/1224558&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;还有报道 AI Coding 9 秒内删除整个业务数据库的：
-&lt;a href="https://www.theguardian.com/technology/2026/apr/29/claude-ai-deletes-firm-database" rel="nofollow"&gt;https://www.theguardian.com/technology/2026/apr/29/claude-ai-deletes-firm-database&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;我个人也有经历。去年 8 月份开始，给公司做一个爬虫项目，AI coding 上功能很快，
-住宅 ip 轮换这一块，用的供应商平台接口，自动按城市地区动态返回。
-后面对需求，要求每个社交媒体的账户，要尽量固定一个 ip 地址，不能每次发起请求都变。
-这个功能也很快用 ai coding 做好。也让 ai 做了测试，没问题，我就交付了。
-不几天，几万个社交媒体账户，跑起来。&lt;/p&gt;
-&lt;p&gt;第二天来，发现，爬取任务的报错率超过 50% ，md,吓出冷汗！！！&lt;/p&gt;
-&lt;p&gt;然后开始查问题、啃 ai 写的代码;
-发现，住宅 ip 供应商给的固定 ip ，很大概率出现 cloudflare/谷歌的 http 测试端点能通，但爬具体的业务例如 &lt;a href="http://x.com" rel="nofollow"&gt;x.com&lt;/a&gt; 会访问超时。
-然后决定，在具体业务逻辑里做 ip 超时的回退策略(超时则重新获取 ip ），当时涉及貌似三四十个工作流，，用的 cursor …… &lt;/p&gt;
-&lt;p&gt;总共下来化了一两周吧，不在项目排期里的，真特么的焦头烂额的……&lt;/p&gt;
-&lt;p&gt;为什么前面 ai 测试良好？因为 AI 测试时,是用了洛杉矶等热门地区的账户，可能供应商 ip 充足；爬虫项目为了分摊风险，几万个社交媒体账户有不同国家、城市的。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;现在 AI 更强，对于 ai coding 的情况掌控，我似乎仅限于这些了：&lt;/p&gt;
-&lt;p&gt;1 了解和规划项目目录结构，要求按功能领域拆分目录，ai 改的时候，看看它动了哪些目录里的文件。
-2 框架和代码组织上，尽量去中心化、模块化，那怕代码重复，也要解耦，减少怀疑“改了 AB 是否被牵连”
-3 好像也没了，就看看每次它新增和删除了多少行代码，和预期是否相符。&lt;/p&gt;
-&lt;p&gt;我今年都是离职自己玩（闭门造车）。不知道现在阶段了，各位 AI Coding 时，是如何保持，对项目掌控方面的自信心？&lt;/p&gt;
-&lt;p&gt;或者说白了，就是你让 AI Coding 时想爽，但是否会担心，或做些什么，来保证自己对项目的持续开发、持续维护、甚至上线，都仍然有信心担责？这方面你会用些啥策略，或行为吗？&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#1 bao626&lt;/strong&gt;：33 已，谢佬～先试用几天哈&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#2 Shayan&lt;/strong&gt;：47 已用，感谢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#3 nonozone&lt;/strong&gt;：感谢 39 已用。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#4 83f420984&lt;/strong&gt;：Markdown 开启编辑和预览快速滚动的时候感觉有点卡顿，看看能不能引用这个库进行优化？&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/liyanan2004/MarkdownView" rel="nofollow noopener" target="_blank"&gt;https://github.com/liyanan2004/MarkdownView&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#5 nonozone&lt;/strong&gt;：首先反馈几个小 bug ，我加载了一个 以前用 typora 写的文件夹，可能里面文本有点多，点开目录的时候，有点卡，会卡住 。第二， 你看我的格式，明明 MD 没问题的，但是把第一段都识别成了标题，除非我再次回车一次才行。&lt;br/&gt;&lt;br/&gt; &lt;a href="https://i.imgur.com/7OEwjch.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/7OEwjch.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#6 NafIyIz&lt;/strong&gt;：44 已用&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#7 hashtome&lt;/strong&gt;：@&lt;a href="/member/83f420984"&gt;83f420984&lt;/a&gt; 谢谢测评，这里我研究下，我做了一个性能优化，就是滚动结束右侧才会追踪，因为如果实时追踪就会真卡顿，这里牵扯万字长文的性能优化问题，谢谢您的反馈我下一步取舍一下这个算法。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#8 hashtome&lt;/strong&gt;：@&lt;a href="/member/nonozone"&gt;nonozone&lt;/a&gt; 是的我看到了，这个我研究下，可能是其他 md 格式的识别出错了，我研究研究哈，谢谢大哥测试&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#9 iThink&lt;/strong&gt;：#10 已用，谢谢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#10 hashtome&lt;/strong&gt;：@&lt;a href="/member/bao626"&gt;bao626&lt;/a&gt; 记得反馈 bug 谢谢老板&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#11 hashtome&lt;/strong&gt;：@&lt;a href="/member/iThink"&gt;iThink&lt;/a&gt; 记得反馈 bug 谢谢老板&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#12 marcoseaver&lt;/strong&gt;：#24 已用，谢谢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#13 Rokaki&lt;/strong&gt;：#28 已用，谢谢🙏&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#14 hashtome&lt;/strong&gt;：@&lt;a href="/member/marcoseaver"&gt;marcoseaver&lt;/a&gt; 得反馈 bug 谢谢老板&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#15 xingheng&lt;/strong&gt;：#08 已用，谢谢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#16 hashtome&lt;/strong&gt;：@&lt;a href="/member/xingheng"&gt;xingheng&lt;/a&gt; 谢谢测试，大家都是夜里才开始玩电脑么？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#17 hellsakura&lt;/strong&gt;：#17 已用，先试试看能不能习惯&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#18 Uinx&lt;/strong&gt;：20 已用&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#19 zhs227&lt;/strong&gt;：下载了一个简单试了一下，不记得用了 31 还是 37 ，挺好用，只是本地这个 AI 目前看来还是比较弱，其它探索中&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#20 lstt&lt;/strong&gt;：45 已用，谢谢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#21 org100&lt;/strong&gt;：4EXELRT3AJPRL4MT7K  42 兑换了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#22 hashtome&lt;/strong&gt;：@&lt;a href="/member/zhs227"&gt;zhs227&lt;/a&gt; 上一版本就是 AI 做的功能太多给人误导，这次我就弱化了 AI 场景、简单聊天润化都在聊天框引导一下，双语翻译座位重点&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#23 marcoseaver&lt;/strong&gt;：@&lt;a href="/member/hashtome"&gt;hashtome&lt;/a&gt; #14 发现一个情况，点 x 关不掉，窗口会自己还原打开（包括还原窗口大小）。是设置问题吗？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#24 hashtome&lt;/strong&gt;：@&lt;a href="/member/marcoseaver"&gt;marcoseaver&lt;/a&gt; 这个不是，应该是程序问题 我最近收集奇怪 bug 最后统一更新 2.0.2&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#25 MicroPan&lt;/strong&gt;：50 已用, 谢谢&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 07 Aug 2026 10:16:15 +0000</pubDate></item><item><title>中了甲状腺癌之后，才知道原来得这个癌的人这么多？</title><link>https://www.v2ex.com/t/1232777</link><description>男，中招了，才知道年轻人现在好多得这个的&lt;br/&gt;&lt;br/&gt;特别是女生，建议大家着重检查下&lt;br/&gt;&lt;br/&gt;唉
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;#1 thinkm&lt;/strong&gt;：自己的项目，之前每次都看改了哪些，后来有次赶时间，没 review ，后来再也没看过了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#2 MHPSY&lt;/strong&gt;：我确实会担心 但是目前一个礼拜的任务已经压缩到一天了 我也只能差不多就行了 大概看一下关键的节点 能行就提交了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#3 Mandelo&lt;/strong&gt;：所以上了 codex ，之前 DeepSeek 老给我把别的改坏。或者你让他添加记忆，修改业务代码先检查影响范围&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#4 UmiKz&lt;/strong&gt;：血崩倒不至于，就是有些你可能只要优化调整几行代码的，它有可能给你来个上百行多个文件协同调整，调整就罢了，后续你来一句，还是改为原来方案把，它又给你来一顿操作....都是烧的 token&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#5 seekerZhang&lt;/strong&gt;：会看的，而且我从来不给很足的权限，怕有注入，同时做完任务，会交替 code-review&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#6 NQ&lt;/strong&gt;：建议别看，看的越多 git reset 越多&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#7 ethanwan9&lt;/strong&gt;：@&lt;a href="/member/UmiKz"&gt;UmiKz&lt;/a&gt; 是你自己的问题。不会用 git worktree 吗？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#8 yshan&lt;/strong&gt;：你这属于场景没覆盖到，或者就没想到，review 估计也发现不了吧&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#9 snarkprayer&lt;/strong&gt;：根本来不及看&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#10 ffalex&lt;/strong&gt;：对于自用的项目，你不要老是骂她，调查她，她自己可以做得很好&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#11 c0nstantien&lt;/strong&gt;：多看设计文档，少看代码，文档挑方案设计看，实施文档不看，有不明白的直接问，问多了让 ai 出产品文档&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#12 nc&lt;/strong&gt;：不算暴论吧，AI 写的代码一眼都不要看，让 AI 写测试验证代码，前提你用的是前沿模型。不同意本观点只能说你 vibe 的不够多&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#13 jaskle&lt;/strong&gt;：根本看不过来的，改动少用 ide 看看哪些地方动了。改动多就问他逻辑，看看和预期实现的有没有差异。完全不看会导致上线后逻辑对不上，不闭环。注意不是为了找 bug ，bug 几乎没有，主要是逻辑是否完整实现，是否有偏差。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#14 7beloved&lt;/strong&gt;：自从 codex 自己有 code-review 就再也没看过&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#15 7beloved&lt;/strong&gt;：组里但凡日用 1Btoken 以上的，我觉得都是不看的，因为根本看不过来，我日用差不多 0.5B&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#16 duanxianze&lt;/strong&gt;：我反正是肯定要看的，除了在初始化这种大规模创建代码可能看不全，单独的 bug 修改或者小需求我肯定要自己看一遍代码&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#17 JYii&lt;/strong&gt;：重点项目，只让 AI 修改关键点，然后人力来串起来。&lt;br/&gt;非重点项目，一眼都不看。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#18 lm1368&lt;/strong&gt;：@&lt;a href="/member/thinkm"&gt;thinkm&lt;/a&gt; 这种事情当然是有一次就会有无数次啦😂&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#19 bbxx11&lt;/strong&gt;：不看代码，ai 就会用惯性经验给我整代码～&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#20 dwSun&lt;/strong&gt;：不需要，让 AI 自己编写一堆测试，测试通过就放心上线就得了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#21 Dengddd&lt;/strong&gt;：用 sol 和 fable 写的从来不看&lt;br/&gt;其他的模型我会看看思考过程，代码不看&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#22 liushuang&lt;/strong&gt;：早崩晚崩，早晚会崩，放心吧，不管你咋写都会有问题的。我是反复拷问，把它当骡子就行了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#23 dinjufen&lt;/strong&gt;：曾经一次修改几十个文件，怎么看？后面就完全信任 AI 了，看个 der&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#24 balusch&lt;/strong&gt;：@&lt;a href="/member/ethanwan9"&gt;ethanwan9&lt;/a&gt; 这个场景和 worktree 没有关系&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#25 edgeedge&lt;/strong&gt;：@&lt;a href="/member/yshan"&gt;yshan&lt;/a&gt; 是这个理，，，&lt;br/&gt;但若不是 AI Coding ，而是自己一行行写的话，我估计当时首先可能不会慌，而是立即就打开 IDE 看代码了。。&lt;br/&gt;觉得主要还是掌控感方面问题：东西你不熟，责任要你来担。自己写的代码是：东西我熟，责任我担~&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#26 jakson&lt;/strong&gt;：看场景，如果是公司场景，重点环节得生产环境必须得看，还得 codereview 。 比如我现在负责的项目，稍微一点 bug 就是影响上亿的用户，组内允许 vibe coding ，但是禁止不 review 上生产环境&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#27 edgeedge&lt;/strong&gt;：觉得真正专业的 AI Coding ，应该做类似元编程的东西，我不看代码，但是我要把涉及编程的高维规范抓起来：&lt;br/&gt;框架设计（代码怎么组织怎么管理）、开发规范（功能怎么增删改查）和验收测试，抓在手里，而且不能仅仅是通过提示，而是要用可执行的 tool 、skills 、harness……&lt;br/&gt;&lt;br/&gt;用于检查 Coding 规范的 tool 、harness 本质也是代码。所以说白了，就是用一个代码仓库，来‘驱动’一个项目。&lt;br/&gt;不看源代码，但是要搞项目‘驱动’。把 ci/cd 、devops 那一套再扩大一圈，把 AI Coding 也纳管&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#28 flyxl&lt;/strong&gt;：写好 review 规则，开一个全新的会话让 ai review 代码，指出架构问题。然后就是让 ai 写测试，改完代码跑一次回归测试，再然后是人肉测试。。。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#29 zuokanyunqishi&lt;/strong&gt;：@&lt;a href="/member/dinjufen"&gt;dinjufen&lt;/a&gt; 改十几个文件,你也敢提交..&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#30 fanhed&lt;/strong&gt;：只看 spec, 具体代码已经来不及看了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#31 msg7086&lt;/strong&gt;：&amp;gt; 但若不是 AI Coding ，而是自己一行行写的话&lt;br/&gt;&lt;br/&gt;自己一行行写那么多代码早就加班到猝死了。&lt;br/&gt;&lt;br/&gt;&amp;gt; 吓出冷汗&lt;br/&gt;&lt;br/&gt;吓出什么冷汗，只是个公司业务而已，报错率高就高了，让 AI 快速排查原因就完事了。你们都代码写完直接上生产了，想必本来也对产品质量没有变态苛刻的需求，遇到问题原地迭代再上线就行了。自己吓自己。&lt;br/&gt;&lt;br/&gt;&amp;gt; 是否会担心，或做些什么，来保证自己对项目的持续开发、持续维护、甚至上线，都仍然有信心担责&lt;br/&gt;&lt;br/&gt;我用 AI Coding 如果出了问题，那就是我测试用例写得还不够，AI code review 做得还不够暴力。Vibe 时代，代码可以被看成是黑盒，你要做的是在黑盒之上，用测试，用流程，用行政角度的方法，去保证这个黑盒的可用性。纯 Vibe 项目我几乎不会看实现，而且很多时候我也看不懂，因为我不会要求他用我能看懂的语言来写。我只关心行为是否正确，所有的功能是否都由测试覆盖到了。&lt;br/&gt;&lt;br/&gt;之前 vibe 了一个字节码反编译器，大约 20 万行代码，两三千个测试用例，全方面覆盖所有代码细节，用官方测试自己编译器的压力套件来测试我自己的项目。那至少我知道我的项目可用性和官方编译器的可用性会在同一个等级上。那我也不可能自己去读这 20 万行代码吧。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#32 edgeedge&lt;/strong&gt;：@&lt;a href="/member/msg7086"&gt;msg7086&lt;/a&gt; 😄😄，很多事情，我觉得都是自己吓自己吧，天塌了有高个顶着？……但不争气的人，就是会很难说服自己。&lt;br/&gt;&lt;br/&gt;可能一开始就是没处理好，面子 + 入了局：用 AI 快速交付了，产品那边会觉得你很屌，但你 AI Coding 了多少，一开始就没和别人说清楚，暗暗享受了 AI Coding 的爽。现在出问题了，然后能不能修复、修复需要多久，心理没底。就像是做了把小偷。&lt;br/&gt;&lt;br/&gt;现在不看代码的信心是更足了，去年那时候，我记得 AI Coding 还经常陷入死胡同、对库/框架的运用-常常是旧版本的记忆-要人类去把最新文档查出来给它之类。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#33 ArrayBuffer&lt;/strong&gt;：应该重视软件测试, 保持尽量高的测试覆盖率, 也可以专门用单独的 agent 跑 code review, 可以在不做人工审查的情况下最大程度避免出问题&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#34 bigdogbigpig&lt;/strong&gt;：准确的来说，我连 ai 写的代码用 ai code review 都不做。&lt;br/&gt;&lt;br/&gt;我觉得最关键的是测试，测试能到什么级别，决定了 vibe coding 的质量。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 07 Aug 2026 07:23:53 +0000</pubDate></item><item><title>准备做一个反假货网站，有得搞吗？</title><link>https://www.v2ex.com/t/1232714</link><description>最近在闲鱼买到了假药，而且上面同类型的假药有很多，但想到其他人应该不知道或者不会辨别假药。&lt;br/&gt;所以想做一个反假货的网站，曝光卖假货的商家，包括如果辨别这是假货。防止再有人受骗。&lt;br/&gt;&lt;br/&gt;请各位大佬，用你最严厉的语言反驳这个需求，看下这个是不是伪需求。
-&lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-08-07 15:22:06 +08:00"&gt;21h 24m ago&lt;/span&gt;
-
-如果增加厂商入住呢？厂商可以主动加入，对于用户反馈的假药线索进行识别，这样是不是能少吃点律师函了
-
-&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;#1 coderluan&lt;/strong&gt;：需求不能做， 不一定是伪需求，而是做这个是对个人来说是肯定是风险大于受益，比如楼主你这个网站，只要弄错一次，赔钱都是小事。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#2 LaLy&lt;/strong&gt;：@&lt;a href="/member/coderluan"&gt;coderluan&lt;/a&gt; 这个确实，搞错一次，律师函警告⚠️&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#3 coderluan&lt;/strong&gt;：@&lt;a href="/member/LaLy"&gt;LaLy&lt;/a&gt; 我说赔钱都是小事，你还律师函警告，直接把你跨省了信不信.....&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#4 Nasdaq&lt;/strong&gt;：正规医药尤其是外企每年律师费不少的，抓 OP 当典型很有可能的。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#5 SuperDaniel313&lt;/strong&gt;：谁来鉴定假货？&lt;br/&gt;谁来认定卖假货的商家？&lt;br/&gt;吃官司了之后，谁来应诉？&lt;br/&gt;网站做大了，挂的广告里出现假货了怎么办？不做广告靠什么盈利？充值才能曝光？还是充值才能查看？服务器用爱发电吗？&lt;br/&gt;有人卖假的竹知了怎么办？单反拍的照片伪装成手机样片，这算不算假货？能不能上这种信息？&lt;br/&gt;鸿茅药酒算假货吗？&lt;br/&gt;掺了西药的中成药算不算假货？&lt;br/&gt;&lt;br/&gt;帽子上门来了，是先关站还是先跑路？应急预案有没有？ 251 天临时编制的故事有没有了解过？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#6 frankies&lt;/strong&gt;：吃官司吃到饱，蹲大狱是迟早的。越公正，死得越快。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#7 LaLy&lt;/strong&gt;：@&lt;a href="/member/SuperDaniel313"&gt;SuperDaniel313&lt;/a&gt; 已老实&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#8 LaLy&lt;/strong&gt;：@&lt;a href="/member/Nasdaq"&gt;Nasdaq&lt;/a&gt; 我是帮助药企打假&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#9 LaLy&lt;/strong&gt;：@&lt;a href="/member/frankies"&gt;frankies&lt;/a&gt; 哈哈哈，撑了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#10 JiafuYuan&lt;/strong&gt;：做小了,没影响力,做大了,看看雷军,于东来,韩红,这些大佬都扛不住黑子,你连大嘴的假话都没能力指正&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#11 94&lt;/strong&gt;：是否在找 [黑猫投诉]( &lt;a href="https://tousu.sina.com.cn/" rel="nofollow noopener" target="_blank"&gt;https://tousu.sina.com.cn/&lt;/a&gt;)&lt;br/&gt;&lt;br/&gt;买到了假药直接举报就是了。曝光的意义在哪里？别人今天可以是网店 A ，明天可以是网店 B ，参考哪些卖网课资源的怎么躲避的。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#12 Nasdaq&lt;/strong&gt;：@&lt;a href="/member/LaLy"&gt;LaLy&lt;/a&gt; #8 了解一下咱大清特色贴牌药企，没给钱就是假药，给钱了是 XX ？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#13 hahastudio&lt;/strong&gt;：这种网站，从来不想同行恶意举报怎么处理&lt;br/&gt;比如 A 卖假药，然后弄一批账号在你这举报真药 B 是假药，你怎么处理？&lt;br/&gt;A 甚至可以把你的网站正着使反着使：正着使说你看这么多人都说 B 是假药，我卖的 A 可是真药；反着使说你看 B 明明是真药，这网站这么多人说是假药，一看就不靠谱，这上面也说 A 是假药，肯定也不可信&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#14 saranz&lt;/strong&gt;：你有律师兄弟吗，没有最好不要乱搞。这活容易被人搞的。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#15 4seasons&lt;/strong&gt;：xd ，要是没有强硬的背景给你站台，不是天天去喝茶，就是天天去赔款，谨慎啊&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#16 Yanlongli&lt;/strong&gt;：平台: 商家卖假药关我平台什么事，但你要提到我平台就律师函&lt;br/&gt;&lt;br/&gt;你以为平台不知道有人卖假货吗？一不担责任二有服务费收，管你呢！&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#17 mov1erq&lt;/strong&gt;：“私自赈灾等于谋反”&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#18 shadowyue&lt;/strong&gt;：纯反假货，曝光假货风险太大了，难做。&lt;br/&gt;&lt;br/&gt;不过你可以反过来弄，做一个教大家怎么识别是真货的，这个风险就小很多了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#19 zerovoid&lt;/strong&gt;：所有测评网站，&lt;br/&gt;做到最后都难免变成收黑钱的网站，&lt;br/&gt;有的还被判敲诈勒索罪去吃牢饭。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#20 WayneCmd&lt;/strong&gt;：烟艹局都不敢针对个人消费者给出鉴定报告，最多给口头说明。你再仔细想想动的是谁的利益？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#21 cpalead&lt;/strong&gt;：为什么会去闲鱼买二手的药？想不通&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#22 jackerbauer&lt;/strong&gt;：对你的人身安全感到深深的担忧啊&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#23 qiuhang&lt;/strong&gt;：风险比做黄色网站都大&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#24 qiuhang&lt;/strong&gt;：风险比做黄色网站都大，至于厂商入驻，你有多大能量让厂商入驻你平台。药企利益错综复杂盘根错节，别说你了，阿里去搞个这种平台可能都难让厂商蜂拥入驻。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#25 v1&lt;/strong&gt;：罗永浩：你如果被包养呢，就不要谈独立人格&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#26 dimwoodxi27&lt;/strong&gt;：并不是啥伪需求，确实市场需要这种，但厂商入住感觉不太现实，做起来了很有可能被人跨省抓走，药类打假这种不是咱普通老百姓能与之对抗的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#27 dimwoodxi27&lt;/strong&gt;：有些事不上称没四两重，上称了一千斤也打不住&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 07 Aug 2026 06:36:06 +0000</pubDate></item><item><title>WorkBuddy 是真好用</title><link>https://www.v2ex.com/t/1232713</link><description>&lt;p&gt;一开始用的动机就是现在有送的额度，而且用 hy 模型还免费，不消耗额度&lt;/p&gt;
-&lt;p&gt;这几天就在重度使用&lt;/p&gt;
-&lt;p&gt;现在的感觉是用过的这类工具里面最好用的&lt;/p&gt;
-&lt;p&gt;个人最喜欢的几点：&lt;br/&gt;
-1 ，内置的专家团丰富，都是多智能体协作，我用的几个效果都很好，远超预期。这几天基本上全是在用专家和专家团&lt;br/&gt;
-2 ，UI 干净，对于我来说布局很清晰也很合理，没啥理解成本，根据选择的文件夹进行归类点赞，这里我就不点名批评某些应用了，都平铺在一起，还得我自己分辨&lt;br/&gt;
-3 ，生态对接很简单。比如微信小程序能直接跟本地应用同步，扫个码就行。做图标的时候对接另一个平台也是点一下就举行&lt;/p&gt;
-&lt;p&gt;来做个自来水，趁现在有优惠，感受一下&lt;/p&gt;
-&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;#1 maocat&lt;/strong&gt;：最大的问题是文档限制 10mb ，想创建项目构建知识库，第一步上传把我给卡住了，服了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#2 cowcomic&lt;/strong&gt;：@&lt;a href="/member/maocat"&gt;maocat&lt;/a&gt; 我没用上传过文件&lt;br/&gt;我的文件都是放到文件夹下面，然后 @给他的，不过我不是知识库的场景，文件也都是给专家干活用的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#3 cutecore&lt;/strong&gt;：细节还是不行，比如不显示在哪个分支，也不能切分支。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#4 ktyang&lt;/strong&gt;：除了笨，剩下的还行，翻来覆去说半天听不懂人话，动不动就把之前的设定忘了。反正上手还是简单的，真拿他干活总感觉会干着急，现在就是每天给我自动分析分析盘面，也不指望能干啥正经工作。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#5 shilianmlxg&lt;/strong&gt;：真的吗，之前用的时候 还是很难崩得住，&lt;a href="https://i.imgur.com/XJsVZod.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/XJsVZod.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#6 chunpuyin&lt;/strong&gt;：我今天用 trae 写读后感和 ppt 感觉也不错。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#7 cowcomic&lt;/strong&gt;：@&lt;a href="/member/cutecore"&gt;cutecore&lt;/a&gt; 可能我的开发比较简单，倒不涉及切多分支并行开发&lt;br/&gt;&lt;br/&gt;@&lt;a href="/member/ktyang"&gt;ktyang&lt;/a&gt; 你用的是哪个模型，我是 auto 和 hy 换着用，感觉还挺好的，倒没遇到说不明白的情况&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#8 cowcomic&lt;/strong&gt;：@&lt;a href="/member/shilianmlxg"&gt;shilianmlxg&lt;/a&gt; 现在用的是 hy3 ，感觉还行，没遇到特别笨的情况&lt;br/&gt;&lt;br/&gt;我主要还是觉的它内置的专家和专家团好用&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#9 unmayx&lt;/strong&gt;：hy3 效果确实不差，最近做的几个感觉很厉害的东西都是它做的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#10 hubaq&lt;/strong&gt;：用于日常处理工作基本够用了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#11 jimmyczm&lt;/strong&gt;：写代码不行，很垃圾&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#12 zengyuxi&lt;/strong&gt;：根本原因难道不是国产大模型蠢吗？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#13 MHPSY&lt;/strong&gt;：主要用来做什么的情况下比较好用 说的优势专家团 UI 干净 生态对接 没什么不可替代&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#14 Yuanlaoer&lt;/strong&gt;：@&lt;a href="/member/maocat"&gt;maocat&lt;/a&gt; 让他帮你做文件的剪裁😂&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#15 CykaBlyat&lt;/strong&gt;：@&lt;a href="/member/shilianmlxg"&gt;shilianmlxg&lt;/a&gt; #5 太牛逼了 真的很难绷&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#16 zhw2590582&lt;/strong&gt;：hy3 写代码不行，干杂务没问题&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#17 cowcomic&lt;/strong&gt;：@&lt;a href="/member/zhw2590582"&gt;zhw2590582&lt;/a&gt; @&lt;a href="/member/jimmyczm"&gt;jimmyczm&lt;/a&gt; 我写代码是切的 auto ，代码以外的工作，文档、设计、出图之类的都是用的 hy3🤭&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#18 tt83&lt;/strong&gt;：你在什么场景下用，如果是写代码我用下来属于最拉的那一档，功能缺失细节粗糙，也就是免费还能用用&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#19 tt83&lt;/strong&gt;：@&lt;a href="/member/zengyuxi"&gt;zengyuxi&lt;/a&gt; 相对 hy3 的水平，我觉得这个产品更拉，拖模型后腿&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#20 Maxwe11&lt;/strong&gt;：WorkBuddy 主力客群应该是那群写 word 、excel 、ppt 的人，不是开发人群，对于大部分普通白领来说，应该还算是整合的挺好，没有太过陡峭的学习成本，基本上手就能用，通用生产力工具，我有些杂事儿刷免费积分用一下感觉也还行，但是专注任务还是更喜欢终端 cli 类，效率高，快就是真理。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#21 ButcherHu&lt;/strong&gt;：我感觉值得蹬的就是他的内置环境和搜索功能，查资料，python 做统计，做实验还挺好用的。没有免费环境肯定就不用他了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#22 lululau&lt;/strong&gt;：感觉不如千问办公好用&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#23 v00O&lt;/strong&gt;：2000 积分问了 26 个问题，是对话形式，总共 3 个对话，然后用掉 1900+积分，企业会员，还没有 claude pro 耐用&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#24 lifeiqifen&lt;/strong&gt;：用了 WorkBuddy 和 trae solo ，感觉不如后者，WorkBuddy 现在就是便宜&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#25 Sunyin&lt;/strong&gt;：trae 也有个 work ，我觉得比 workbuddy 强，不过 workbuddy 现在 hy3 免费，先蹬为敬。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#26 cowcomic&lt;/strong&gt;：@&lt;a href="/member/lululau"&gt;lululau&lt;/a&gt; 我看了一下，千问办公新用户也有免费额度，等 workbuddy 的免费期过了，就去用千问办公🤭&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#27 B9hkc&lt;/strong&gt;：@&lt;a href="/member/chunpuyin"&gt;chunpuyin&lt;/a&gt; 老兄，你的 PPT 用的什么方案呀，哪个 SKILL 吗？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#28 ktyang&lt;/strong&gt;：@&lt;a href="/member/cowcomic"&gt;cowcomic&lt;/a&gt; #7 送的那点积分干活都没正式开始就用完了，主要还是靠大善人 hy3 ，但是能力吧。。。一言难尽。。。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#29 yemoluo&lt;/strong&gt;：专家里面的东西最重要的是没有搜索提示，看起来很多，实际上，我懒得翻&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#30 leonvxe&lt;/strong&gt;：我只直到 workbuddy 上个月 投了海量广告,  trae 做了 1 年都没做好, workbuddy 做了几个月就能做好了?&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#31 VeteranCat&lt;/strong&gt;：藤子只是喜欢抄，但是他打定抄的东西，能给你抄的非常不错。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#32 shibasaki4love&lt;/strong&gt;：hy3 模型差点意思,  harness 工程还可以, 适合国人基因&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#33 seven777&lt;/strong&gt;：玩具.&lt;br/&gt;超过 30 页以上,有严格要求,有标准模板的 PPT,从来没成功过.&lt;br/&gt;超过 50 页以上的文档, 胡说八道不足以形容它.&lt;br/&gt;PDF 就更不要说了, 简单几张可以,30 张以上的一定烂透了.&lt;br/&gt;玩具.&lt;br/&gt;对泛营销类的工作帮助较大,比如单张海报,单篇水文等,尤其擅长.&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#34 micjoyce90&lt;/strong&gt;：随着模型变强，国内很多 workbuddy ，qwenwork 的 harness 都没有相对的调整，我觉得用起来主要一个问题就是慢，我今天看了一个 &lt;a href="https://xopc.ai" rel="nofollow noopener" target="_blank"&gt;https://xopc.ai&lt;/a&gt; 的开源的，感觉还可以，主要是 byok ，而且使用 github 或者 gmail 登陆，还有每天 100 万免费 deepseek-flash-token 可以用，不知道这个开发者是谁，感觉挺有意思的，我用下来比其他几个 agent 执行上快的很多。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#35 sasalaolao&lt;/strong&gt;：workbuddy 是什么呀&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#36 wilddog&lt;/strong&gt;：当个豆包平替还行&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#37 seven777&lt;/strong&gt;：@&lt;a href="/member/micjoyce90"&gt;micjoyce90&lt;/a&gt; #34 当前,个人或者小组织做这类产品几乎走不出来.即使它再优秀.&lt;br/&gt;底层技术都是 AI 模型,坊间的所有 workAssistance 方案都不太可能超出几家大厂的产品和方案.&lt;br/&gt;速度可能更快,但一定有其他方面的损失,比如边界情况的考虑.&lt;br/&gt;workbuddy 的专家团,无非就是群殴战术.&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#38 lingyired&lt;/strong&gt;：移动 app 不支持接收 pc 版的任务，这点比较可惜，trae 都支持&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#39 cue&lt;/strong&gt;：hy3 写代码真就一坨，思考了半小时，然后告诉你 1+1=2 。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#40 micjoyce90&lt;/strong&gt;：@&lt;a href="/member/seven777"&gt;seven777&lt;/a&gt; 非常赞同，现在模型之上的产品能力差异真的太小了，模型强，很多时候就够了，但是我一直在考虑一个点，如果 ai 只是把事情做好，可能是这个样子，如果未来 ai 要成为人类的助手，或者更懂人类，除了模型 + harness 工程之外，还有什么最重要呢？ 比如 openhuman 这种，把人的信息图谱之后进行理解，更懂用户吗？ 不知道下一个或带来 openclaw 时刻的产品场景是啥&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#41 zsh2401&lt;/strong&gt;：感谢大家喜欢我们的产品。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#42 seven777&lt;/strong&gt;：@&lt;a href="/member/micjoyce90"&gt;micjoyce90&lt;/a&gt; #40 技术发展的终极目标是战争.&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#43 sickworm&lt;/strong&gt;：确实很方便，比 openclaw 方便很多。我只用来处理些事务，复杂任务调 codex headless&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#44 Lockroach&lt;/strong&gt;：其实还可以，开发使用 codebuddy cli ，model 用 dsv4f ，基本上可以搞定，送的积分也挺慷慨&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#45 rb6221&lt;/strong&gt;：其实我觉得维持现在的智力就挺好的，让国人都能深入骨子里的明白一分钱一分货的道理，能真正树立起付费意识。从这个角度来说，现在大模型厂商的确是在做善事&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#46 AiBoy&lt;/strong&gt;：@&lt;a href="/member/maocat"&gt;maocat&lt;/a&gt; 不能本地文件夹项目吗？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#47 bojue&lt;/strong&gt;：@&lt;a href="/member/tt83"&gt;tt83&lt;/a&gt; #19 有推荐的没，我现在用 ClaudeCode 和 TARE 企业版，感觉开发前端 C 端样式差很多&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#48 flyico&lt;/strong&gt;：感觉 workbuddy 最近在海量推广告，电梯间里经常见到&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#49 sn0wdr1am&lt;/strong&gt;：好不好用不知道。&lt;br/&gt;反正感觉 腾讯在加大力度推广 workbuddy 。&lt;br/&gt;收到好几个营销电话推广说让试试 workbuddy 的。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#50 LovingYoung&lt;/strong&gt;：带着对国产的偏见试用了一下，办公完全够用了，打通了 wps 和腾讯文档就是善人，代码还是 cc 和 codex ，日常放 workbuddy 没什么问题&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#51 KadisWang&lt;/strong&gt;：没问题，我也觉得好用&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 07 Aug 2026 06:34:43 +0000</pubDate></item><item><title>如果是这种情况你们还跑路吗？</title><link>https://www.v2ex.com/t/1232711</link><description>如果你最初提涨新，公司因为种种原因不给涨。&lt;br/&gt;你寒心了，开始投简历约面试，公司看你真的要走，开始找你谈话。&lt;br/&gt;说一定涨，而且是你先前要求涨幅的双倍。&lt;br/&gt;哪怕最后实在没办法，给其他同事降薪也要给你涨。&lt;br/&gt;你还想留在这公司吗？
-&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;#1 williamz13&lt;/strong&gt;：那你很保证自己不是下一个“被降薪的同事”&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#2 soleils&lt;/strong&gt;：开弓没有回头箭&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#3 oldlemon&lt;/strong&gt;：公司涨公司的，你跑你的，冲突吗？不都是双向选择嘛&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#4 Johngodme&lt;/strong&gt;：先稳住，再拿下，最后没有价值丢弃&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#5 lucays&lt;/strong&gt;：有 offer 就走&lt;br/&gt;没有再看情况&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#6 davidyin&lt;/strong&gt;：先涨再说，这样换公司起点不也能更高一点吗&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#7 coderluan&lt;/strong&gt;：单纯涨两倍我可能犹豫，公司直接可能只是犯蠢，看钱的份上可以原谅。但是说给其它同事降薪给我涨，那我肯定就走了，公司即傻逼又恶心，还自作聪明，之后肯定一堆想不到骚操作等着我呢。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#8 syntaxj&lt;/strong&gt;："给其他同事降薪也要给你涨"&lt;a href="https://i.imgur.com/ZveiiGy.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/ZveiiGy.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#9 OutOfMemery&lt;/strong&gt;：《给其他同事降薪也要给你涨》这是正常人能说出来的话啊&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#10 kakakakaka8889&lt;/strong&gt;：到手的才是真材实料的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#11 iOCZS&lt;/strong&gt;：先稳住你，然后找人替代你。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#12 emSaVya&lt;/strong&gt;：再坚持 6 个月 base 涨上去再跳&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#13 94&lt;/strong&gt;：难就难在你怎么表演出来自己会留下来，但是一边又真真切切的找工作。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#14 guanhui07&lt;/strong&gt;：你继续找你自己的,找到立马走&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#15 fish2050&lt;/strong&gt;：“你想涨工资可以给你涨，但是用另外一个公司发，本公司不能让别人知道”&lt;br/&gt;不是真心想涨，也没谈涨多少，就是意思意思走个挽留的过场&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#16 malusama&lt;/strong&gt;：那降薪那个不是也要走的吗？ 走了活是你干不&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#17 erbin&lt;/strong&gt;：@&lt;a href="/member/williamz13"&gt;williamz13&lt;/a&gt; @&lt;a href="/member/soleils"&gt;soleils&lt;/a&gt; @&lt;a href="/member/oldlemon"&gt;oldlemon&lt;/a&gt; @&lt;a href="/member/Johngodme"&gt;Johngodme&lt;/a&gt; @&lt;a href="/member/lucays"&gt;lucays&lt;/a&gt; &lt;br/&gt;@&lt;a href="/member/davidyin"&gt;davidyin&lt;/a&gt; @&lt;a href="/member/coderluan"&gt;coderluan&lt;/a&gt; @&lt;a href="/member/syntaxj"&gt;syntaxj&lt;/a&gt; @&lt;a href="/member/OutOfMemery"&gt;OutOfMemery&lt;/a&gt; @&lt;a href="/member/kakakakaka8889"&gt;kakakakaka8889&lt;/a&gt; &lt;br/&gt;@&lt;a href="/member/iOCZS"&gt;iOCZS&lt;/a&gt; @&lt;a href="/member/emSaVya"&gt;emSaVya&lt;/a&gt; @&lt;a href="/member/94"&gt;94&lt;/a&gt; @&lt;a href="/member/guanhui07"&gt;guanhui07&lt;/a&gt; &lt;br/&gt;都有道理，但我还是想跑😄&lt;br/&gt;太寒心了，因为公司都知道当初我为了处理新功能中的问题，一个人加班到凌晨两三点……&lt;br/&gt;无论工作态度和能力，自认为问心无愧了，结果就像大家说的，用人朝前不用人朝后😑&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#18 SoulFlame&lt;/strong&gt;：我有过经历：提涨薪，找我谈话我要求涨 3000 ，主管向上反馈后表示只能涨 1000 。我不接受直接提辞职走人了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#19 erbin&lt;/strong&gt;：@&lt;a href="/member/fish2050"&gt;fish2050&lt;/a&gt; &lt;br/&gt;也倒没有那么混乱了🤣&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#20 erbin&lt;/strong&gt;：@&lt;a href="/member/malusama"&gt;malusama&lt;/a&gt; &lt;br/&gt;这个就不知道了呐&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#21 erbin&lt;/strong&gt;：@&lt;a href="/member/SoulFlame"&gt;SoulFlame&lt;/a&gt; 对对，很久以前我的几次涨新也是和你一样，每次都被砍一半还多😶&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#22 SoulFlame&lt;/strong&gt;：@&lt;a href="/member/erbin"&gt;erbin&lt;/a&gt; #17 其实你想法有点过于感性了。我的经历和你有点像，但我看的开，我看法是这样的：&lt;br/&gt;公司对这个岗位的定薪有个范围的，公司定这个薪资，并不能说明你不值这么多钱、工资态度和能力不好。而是这个岗位定的薪资就这样，你不干了，花一样的钱再招一个一样干。&lt;br/&gt;看开点吧，感觉自己的价值、能力提升了，跳槽到更好的舞台。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#23 erbin&lt;/strong&gt;：@&lt;a href="/member/SoulFlame"&gt;SoulFlame&lt;/a&gt; 嗯嗯🙏&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#24 ldy619354397&lt;/strong&gt;：开弓没有回头箭&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#25 noahjsn&lt;/strong&gt;：一看就不是什么有格局的老板。寒了心就走。跟着内心走没错。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#26 giter&lt;/strong&gt;：还是不要回头的好，以后可以先提涨薪，不通过再提辞职&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#27 abigeater&lt;/strong&gt;：我不太信。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#28 members&lt;/strong&gt;：“哪怕最后实在没办法，给其他同事降薪也要给你涨。”&lt;br/&gt;能说出这种话的人，就像跪在地上扇自己巴掌求不要分手的那种。过于变态。&lt;br/&gt;&lt;br/&gt;“说一定涨，而且是你先前要求涨幅的双倍。”&lt;br/&gt;早™干啥去了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#29 jackOff&lt;/strong&gt;：场面话谁不会说，说假话难道会罚款吗？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#30 ohmyzsh&lt;/strong&gt;：外面又不是没公司，果断点离职&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#31 ninjaJ&lt;/strong&gt;：永远不要和没有信用的人合作&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#32 lxqxqxq&lt;/strong&gt;：说一定涨，而且是你先前要求涨幅的双倍。 &lt;br/&gt;&lt;br/&gt;？？？敲定时间啊 超过一个月就是画饼&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#33 xialaoban&lt;/strong&gt;：当然是继续投简历，然后等公司真的涨薪，拿着这个薪酬标准去下一家&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#34 hafuhafu&lt;/strong&gt;：像画饼的话术。&lt;br/&gt;给双倍倒也还好，但是说给别人降薪也要给你涨，那我觉得大概率是画饼了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#35 erbin&lt;/strong&gt;：@&lt;a href="/member/members"&gt;members&lt;/a&gt; 我第一个反应也是这想法😅&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#36 erbin&lt;/strong&gt;：@&lt;a href="/member/ldy619354397"&gt;ldy619354397&lt;/a&gt; @&lt;a href="/member/noahjsn"&gt;noahjsn&lt;/a&gt; @&lt;a href="/member/giter"&gt;giter&lt;/a&gt; @&lt;a href="/member/abigeater"&gt;abigeater&lt;/a&gt; @&lt;a href="/member/jackOff"&gt;jackOff&lt;/a&gt; &lt;br/&gt;@&lt;a href="/member/ohmyzsh"&gt;ohmyzsh&lt;/a&gt; @&lt;a href="/member/ninjaJ"&gt;ninjaJ&lt;/a&gt; @&lt;a href="/member/lxqxqxq"&gt;lxqxqxq&lt;/a&gt; @&lt;a href="/member/hafuhafu"&gt;hafuhafu&lt;/a&gt; &lt;br/&gt;是的，其实我也觉得是在画饼……&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#37 erbin&lt;/strong&gt;：@&lt;a href="/member/xialaoban"&gt;xialaoban&lt;/a&gt; 这样有点不道德吧🤣……并且不会被背调出来吗？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#38 bomb77&lt;/strong&gt;：不要回头不要回头不要回头&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#39 NewMoorj&lt;/strong&gt;：等你加完薪，领导跟你同事说，他的降薪都加在你头上了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#40 erbin&lt;/strong&gt;：@&lt;a href="/member/bomb77"&gt;bomb77&lt;/a&gt; 嗯&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#41 erbin&lt;/strong&gt;：@&lt;a href="/member/NewMoorj"&gt;NewMoorj&lt;/a&gt; 对啊，就怕这个&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#42 gabezhao&lt;/strong&gt;：同事：阿米诺斯！！！&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#43 actopas&lt;/strong&gt;：正常流程是先给你涨给同事降然后找到你的替代再把同事降薪原因放出去，把你孤立架空，你就自己离职了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#44 godall&lt;/strong&gt;：我觉得核心能力是你是否可以随时找一家新公司，比如公司翻倍工资留你（一般是你前面工资太低或者这个岗位公司真的一下子离不了），如果你可以随时找新公司，那留下来也可以，比较熟悉环境及高工资（当然指高于你新找的公司）。&lt;br/&gt;等你留下来后，公司有 2 个选择，一个是你物有所值（工资翻倍对公司来说也是值的），那就比较稳固一些。另一个是公司也开始找备胎，你的工作让其他人学习掌握，一旦到了时间再把你一脚踢了。这都正常操作。&lt;br/&gt;&lt;br/&gt;所以，你留下来的话，看你找新工作的能力，这样无论公司怎么操作都不怕。否则好不容易找到新公司，给公司这么一搞，自己贪小钱，隔半年黄了，你有找不到新工作就麻烦了。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 07 Aug 2026 06:23:28 +0000</pubDate></item></channel></rss>
+&lt;p&gt;&lt;strong&gt;#1 Maxwe11&lt;/strong&gt;：我记得前两年，甲状腺肿瘤已经从肿瘤疾病分类里删了，因为治疗没有什么难度，治愈率太高了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#2 iiimichael&lt;/strong&gt;：@&lt;a href="/member/Maxwe11"&gt;Maxwe11&lt;/a&gt; 没，还在这个类别，甲乳科&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#3 horizon&lt;/strong&gt;：保险公司最喜欢说这个&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#4 iOCZS&lt;/strong&gt;：坏消息：患癌了&lt;br/&gt;好消息：是甲状腺癌&lt;br/&gt;&lt;br/&gt;不幸中的万幸&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#5 wudaye&lt;/strong&gt;：怎么发现的？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#6 ylsc633&lt;/strong&gt;：是切了 还是消融了？&lt;br/&gt;&lt;br/&gt;不同医院的医生给的结果都有点差距的&lt;br/&gt;&lt;br/&gt;我是消融的&lt;br/&gt;&lt;br/&gt;公司每年体检发现的，体检的时候，那个体检的医生就建议我最好尽快挂个医院的号，去查一下&lt;br/&gt;&lt;br/&gt;刚开始感觉没啥，但是没做病理之前，还是有担心的&lt;br/&gt;&lt;br/&gt;甲癌不止一种，像 分化 的那种，死亡率还是挺高的，谁敢赌自己不是那 5% &lt;br/&gt;&lt;br/&gt;后面我心态就放宽了，开心的活着就挺好的，工作 卷不过别人就不卷了，也不想往更大的公司爬了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#7 Rache1&lt;/strong&gt;：早期的时候，支付宝的相宝保刚出来的时候，就有很多人就去这个病去申请，当时据说是给三十万？&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;有段时间相互宝里面大部分病例都是这个病相关的，然后后面被人发现了，根本花不了那么多，后面支付宝好像调低了赔付额度，据说追回来部分的赔付。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#8 iiimichael&lt;/strong&gt;：@&lt;a href="/member/wudaye"&gt;wudaye&lt;/a&gt; 就常规体检，彩超&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#9 iiimichael&lt;/strong&gt;：@&lt;a href="/member/ylsc633"&gt;ylsc633&lt;/a&gt; 切了右侧，消融担心搞不干净&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#10 iiimichael&lt;/strong&gt;：@&lt;a href="/member/horizon"&gt;horizon&lt;/a&gt; 是真的很多，可以小红书搜下，很多&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#11 iiimichael&lt;/strong&gt;：@&lt;a href="/member/Rache1"&gt;Rache1&lt;/a&gt; 我这次报销之后，差不多 1 万多点&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#12 furlxy&lt;/strong&gt;：我觉得这个病是过度治疗了&lt;br/&gt;左边有个 0.3*0.3*0.4 4b&lt;br/&gt;医生说可切也可以继续观察，那我的感觉就是可以不用管，定期复查&lt;br/&gt;毕竟这是一个器官&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#13 iiimichael&lt;/strong&gt;：@&lt;a href="/member/furlxy"&gt;furlxy&lt;/a&gt; 我的也是 4b ，这个要判断，因为会转移，我的有转移到淋巴&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#14 iiimichael&lt;/strong&gt;：@&lt;a href="/member/iOCZS"&gt;iOCZS&lt;/a&gt; 是的，懒癌&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#15 Orchestr&lt;/strong&gt;：我的说是结节，观察&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#16 ylsc633&lt;/strong&gt;：@&lt;a href="/member/furlxy"&gt;furlxy&lt;/a&gt; 要看大小和形状&lt;br/&gt;&lt;br/&gt;如果 纵横比 不是大于 1 ，边界尚规则  都没有啥问题&lt;br/&gt;&lt;br/&gt;如果 纵横比大于 1 ，边界毛玻璃了   这种基本 95%以上了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#17 iiimichael&lt;/strong&gt;：@&lt;a href="/member/Orchestr"&gt;Orchestr&lt;/a&gt; 给评了等级没？我是 4b&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#18 iiimichael&lt;/strong&gt;：男女比例据说是 2:8 ，但是男性多恶性。目前是半切，每天吃优甲乐补充甲状腺素，吃 5 年，如果没问题，后面就不用吃了。如果是全切，要终生吃药补充甲状腺素。小红书很多病友贴&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#19 TimPeake&lt;/strong&gt;：确定不是普通的甲状腺结节？这个很普遍了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#20 voidemoer&lt;/strong&gt;：我两年前体检查出来结节，说是 3 级，一直没在意也没复查。。。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#21 iiimichael&lt;/strong&gt;：@&lt;a href="/member/TimPeake"&gt;TimPeake&lt;/a&gt; 不是普通的结节&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#22 iiimichael&lt;/strong&gt;：@&lt;a href="/member/voidemoer"&gt;voidemoer&lt;/a&gt; 建议可以去查下甲状腺彩超，2 年时间还是蛮久了&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 07 Aug 2026 08:49:13 +0000</pubDate></item></channel></rss>

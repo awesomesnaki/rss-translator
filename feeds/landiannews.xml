@@ -1,5 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Fri, 07 Aug 2026 03:42:40 +0000</lastBuildDate><item><title>谷歌更新Chrome本地AI模型支持文档 需要20GB的可用磁盘空间下载模型</title><link>https://www.landian.news/archives/114242.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sat, 08 Aug 2026 06:13:26 +0000</lastBuildDate><item><title>AI比人类更可靠？Claude Code将切换为自动模式 不需要用户手动确认命令或调用</title><link>https://www.landian.news/archives/114245.html</link><description>
+&lt;p&gt;#人工智能 A 社宣布从 8 月 14 日开始 Claude Code 将切换为自动模式无需人类手动审批命令，因为 A 社的研究显示 AI 比人类更可靠。具体来说频繁弹出审批会让开发者疲劳，因此开发者也不会真审查命令而是机械地点放行。而使用 AI 安全分类器审查命令安全性更高，虽然不能阻止所有危险命令，但安全性比人类要好。查看全文：https://ourl.co/114245&lt;/p&gt;&lt;p&gt;A 社日前发布博客宣布从 2026 年 8 月 14 日开始将逐步把 Claude Code 设置为自动模式，该模式将覆盖 Claude Pro、Claude Max 和 Claude Team 套餐的新对话。启用后 Claude Code 不再针对每次工具调用都要求用户手动确认，而是先交给安全分类器判断命令是否存在破坏性、不可逆或越权风险。&lt;/p&gt;
+&lt;p&gt;如果用户此前已经设置为其他默认模式，则后续用户会看到 Claude Code 弹出的切换到自动模式的提醒，已经设置自动模式的用户不会受到任何影响。另外自动模式安全分类器本身会产生少量配额消耗，但从 8 月 7 日起 A 社不再向上述订阅用户收取这部分费用。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/07/109974.png" rel="nofollow"&gt;&lt;img alt="AI比人类更可靠？Claude Code将切换为自动模式 不需要用户手动确认命令或调用" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/07/109974.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;此次变更的核心就是将审批权限由人类转接给 AI，测试数据显示开发者在实际使用过程中会批准大约 97% 的权限审批请求，真正拒绝的比例仅有 3%。而用户在看到完整执行计划时的拒绝比例为 39%，A 社认为频繁出现的权限提示会让用户形成机械点击习惯，长时间工作后难以识别危险命令。&lt;/p&gt;
+&lt;p&gt;A 社招募 1053 名付费专业测试者进行受控实验，研究人员将危险命令替换到普通权限提示中，受控测试者中只有 13.6% 识别到危险命令，而自动模式拦截率为 89%。&lt;/p&gt;
+&lt;p&gt;A 社还分析 2026 年 5~6 月同意数据用于分析的真实会话，数据显示采用手动确认的会话出现严重非预期有害操作的比例超过自动模式两倍。在生产级严重程度的事故中，手动模式的比例为 6.3%，而自动模式的比例为 2.4%。&lt;/p&gt;
+&lt;p&gt;简而言之就是让开发者自己审核每条命令是不现实的，长期审核下开发者也会疲劳并错误将危险命令放行，使用安全分类器虽然也会出现放行危险命令的情况，但整体比例要远远低于人类用户审批。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A 社还强调自动模式也可以让 Claude Code 更适合长时间运行，即频繁弹出调用审批会中断会话，尤其是如果开发者不在电脑前无法审批那整个任务就会被中断，而换成自动模式后 Claude Code 可以自己审批命令和推进任务，减少中断的概率。&lt;/p&gt;
+&lt;p&gt;自动模式的安全分类器会自动识别命令并判断是否允许执行，如果命令被拒绝则 Claude Code 会寻找替代方式继续执行，但如果连续三次被拒绝或单个会话中累计出现 20 次拒绝，自动模式就会被关闭并转为手动模式，这时候需要开发者手动审批。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sat, 08 Aug 2026 06:13:26 +0000</pubDate></item><item><title>X/Twitter宣布修改创作者收益分成计划打击垃圾账号 重点扶持原创内容账号</title><link>https://www.landian.news/archives/114244.html</link><description>
+&lt;p&gt;#行业资讯 X/Twitter 宣布对内容分成计划进行大幅度修改，打击营销号复制粘贴和偷内容来获得收益。此次更新后申请收益奖励门槛更高，刷浏览量和通过 AI 自动回复等不再计入收益。另外免费用户产生的流量也不再提供任何收益，即只有开通 X Premium 的用户浏览才有效。查看全文：https://ourl.co/114244&lt;/p&gt;&lt;p&gt;本周社交网站 X/Twitter 产品经理尼基塔宣布辞职回归家庭，尼基塔在职期间推出内容创作者收益分成计划，吸引更多内容创作者迁移到 X 平台增加活跃度。不过收益分成计划也引起各类垃圾账号关注，例如在东南亚就有很多团伙运营内容农场从 X 上获得收益。&lt;/p&gt;
+&lt;p&gt;而在尼基塔宣布辞职后现在 X 立即对创作者收益分成计划进行调整，具体来说现有的创作者收益分成计划将被取消，从 2026 年 9 月 8 日开始 X 将启动新的原创内容奖励计划，该计划的主要目的是鼓励用户发布原创内容而不是复制粘贴或者偷内容。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114244.png" rel="nofollow"&gt;&lt;img alt="X/Twitter宣布修改创作者收益分成计划打击垃圾账号 重点扶持原创内容账号" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114244.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;即日起 X 创作者收益分成计划不再接受新用户报名审核，对于已经加入收益分成计划的创作者，可以继续获得收益直到 2026 年 9 月 7 日。X 最终会分成 3 笔付款结束项目，其中 8 月 14 日和 8 月 28 日创作者可以收到前 2 笔付款，到 9 月 7 日之前的收益则会在 9 月 11 日左右发放。&lt;/p&gt;
+&lt;p&gt;之后除非创作者报名原创内容奖励计划且审核通过，否则不会再收到 X 提供的任何收益分成，而想要报名原创内容奖励计划有较高的门槛，可能大部分现有收益分成计划用户都无法达到门槛或报名审核。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;该计划旨在鼓励内容创作者分享原创想法、专业知识、新闻报道、自己的创意和评论内容等，计划核心就是鼓励用户原创而不是抄袭，当前在 X 上有大量营销号每天盯着热门内容复制粘贴或使用 AI 洗稿后重新发布，还有大量的内容农场使用 AI 自动发布或评论内容。&lt;/p&gt;
+&lt;p&gt;新的原创内容奖励计划不再将评论展示量纳入分成范围，即垃圾账号使用 AI 自动发布评论不会再有任何收益，更关键的是计费规则改成只有 X Premium 用户浏览才算，而免费用户无论浏览多少次也不会给创作者增加收益。&lt;/p&gt;
+&lt;p&gt;所以对于关注者里很多已经开通 X Premium 的创作者来说这是个好消息，当然如果自己的内容被算法推荐给更多 X Premium 用户也同样会获得更高的收益，而靠机器刷量的内容农场来说，以后再怎么用免费账号刷量也没有意义。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;前置条件：自己已经开通订阅，包括 X Premium、Premium + 或 Premium Business&lt;/li&gt;
+&lt;li&gt;必要条件：必须已经年满 18 周岁&lt;/li&gt;
+&lt;li&gt;粉丝要求：现有粉丝里至少有 500 名已经开通 X Premium 的用户&lt;/li&gt;
+&lt;li&gt;展示要求：过去 90 天内帖子至少在已开通订阅用户时间线上展示超过 50 万次，评论不算&lt;/li&gt;
+&lt;li&gt;无效展示：同一账号对同一帖子的重复展示、付费推广、机器刷量、其他欺诈性展示&lt;/li&gt;
+&lt;li&gt;地区要求：创作者必须居住在原创内容奖励计划可用的国家或地区&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;从 2026 年 9 月 8 日开始，满足以上要求的内容创作者可以转到创作者空间提交申请，X 将在 3 个工作日内对申请进行审核，如果未通过审核，则创作者 90 天后可以再次重新申请。通过申请的创作者无需提交额外资料，X 会自动使用现有用户资料和付款方式。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sat, 08 Aug 2026 05:29:21 +0000</pubDate></item><item><title>WordPress再次爆出高危安全漏洞XSS2Shell 全网约有5亿个网站受影响</title><link>https://www.landian.news/archives/114243.html</link><description>
+&lt;p&gt;#安全资讯 内容管理系统 WordPress 再次爆出高危漏洞 XSS2Shell，攻击者利用漏洞诱导管理员交互最终可以获得 PHP 执行权限。目前 WordPress 官方已经发布多个安全更新修复该漏洞，使用 WordPress 构建的站点必须立即升级到不受影响的分支版本。查看全文：https://ourl.co/114243&lt;/p&gt;&lt;p&gt;知名内容管理系统 WordPress 再次爆出高危安全漏洞，该漏洞被安全研究员命名为 XSS2Shell (CVE-2026-64638)，漏洞存在于 WordPress 核心登录界面，攻击者无需登录即可触发反射型跨站脚本漏洞，在诱导管理员访问恶意页面并完成特定交互后，攻击链可以获得管理员权限最终执行任意 PHP 代码。&lt;/p&gt;
+&lt;p&gt;WordPress 团队已经在 2026 年 8 月 6 日发布 7.0.3 紧急安全更新修复该漏洞，同时相关修复补丁也已经回溯到 4.7 分支系列，使用 WordPress 的网站请立即升级到不受影响的分支版本。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114243.png" rel="nofollow"&gt;&lt;img alt="WordPress再次爆出高危安全漏洞XSS2Shell 全网约有5亿个网站受影响 " decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114243.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;该漏洞起点位于 WordPress 核心登录文件 wp-login.php，当用户提交不存在的用户名时，WordPress 会将用户名写入登录失败提示信息。相关输入虽然经过函数处理，但安全研究员发现，PHP 端的标签过滤方式与浏览器 HTML 解析规则之间存在差异。&lt;/p&gt;
+&lt;p&gt;攻击者可以构造特殊用户名使部分内容在服务端被当做普通文本处理，但传回浏览器后重新解析为 HTML 元素。由于 WordPress 登录页面同时加载密码生成器等脚本，这些脚本会自动查找特定的页面元素并执行相应操作，攻击者可以利用 DOM 结构干扰和全局变量覆盖，让原本属于 WordPress 自身的 JavaScript 代码执行非预期请求。&lt;/p&gt;
+&lt;p&gt;简单来说攻击者并不是直接在登录接口上执行服务器命令，而是先利用登录失败页面获得 WordPress 站点来源下的 JavaScript 执行能力，这也是漏洞被安全研究员称为 XSS2Shell 的原因。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;目前研究人员展示的完整攻击链需要受害者访问攻击者控制的恶意网页，攻击页面会利用浏览器窗口之间的关系将受害者引导至 WordPress 应用程序密码授权页面，再通过执行 XSS 漏洞链触发授权按钮。&lt;/p&gt;
+&lt;p&gt;当授权流程被自动完成后，攻击者就可以获得管理员账户对应的应用程序密码，该凭据可以用来调用 WordPress REST API，随后攻击者可以在站点上发布包含恶意脚本的内容，并借助管理员浏览器已有的登录状态访问后台功能。&lt;/p&gt;
+&lt;p&gt;这意味着漏洞并不是零点击可以触发，攻击者仍然需要诱导管理员进行交互、满足登录态、权限和浏览器行为等条件，WordPress 官方也表示升级为远程代码执行需要成功的社会工程学攻击以及受害者明确交互。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;该漏洞对应的安全更新版本包括：7.0.3、6.9.6、6.8.7、6.7.6、6.6.6、6.5.9、6.4.9、6.3.9、6.2.10、6.1.11、6.0.13、5.9.14、5.8.14、5.7.16、5.6.18、5.5.19、5.4.20、5.3.22、5.2.25、5.1.23、5.0.26、4.9.30、4.8.29 和 4.7.34。&lt;/p&gt;
+&lt;p&gt;即如果你的站点使用上述分支版本则必须更新到分支版本的最新版以修复漏洞，考虑到目前 AI 挖洞的能力，即便完整 PoC 并未公开，攻击者也可以使用 AI 找到漏洞的详细利用方法，所以立即升级是非常有必要的。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息来源：&lt;a href="https://www.landian.news/go?url=https://pwn.ai/blog/xss2shell" rel="noopener" target="_blank"&gt;PWNAI&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sat, 08 Aug 2026 04:57:19 +0000</pubDate></item><item><title>谷歌更新Chrome本地AI模型支持文档 需要20GB的可用磁盘空间下载模型</title><link>https://www.landian.news/archives/114242.html</link><description>
 &lt;p&gt;#软件资讯 谷歌更新 Chrome 浏览器下载 AI 模型的支持文档，需要 20GB 可用磁盘空间且系统性能足够。按照谷歌说明，如果磁盘剩余空间不足 20GB、系统性能达不到要求，谷歌都不会自动下载 Gemini Nano 模型。当然如果用户不想被占用 4GB 左右的空间或不使用设备端 AI，可以在设置里禁用下载。查看全文：https://ourl.co/114242&lt;/p&gt;&lt;p&gt;从 2025 年开始谷歌就在陆续向 Chrome 浏览器用户推送 Gemini Nano 模型，该模型在设备本地运行并用来识别诈骗或钓鱼网站以及提供某些由 AI 驱动的功能，但谷歌并没有提前通知用户，而是通过 Chrome 在后台静默下载模型权重文件，实际下载的模型权重文件约为 4~5GB。&lt;/p&gt;
 &lt;p&gt;像是蓝点网在 macOS 上同时安装 Chrome 稳定版、测试版和金丝雀版，每个版本都会单独下载模型权重文件，所以实际消耗的空间达到 15GB 以上，并且即便手动删除模型权重文件也没用，因为 Chrome 还会重新自动下载 (目前谷歌已经提供开关可以禁用设备端 AI 来禁用模型自动下载)。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112538-3.png" rel="nofollow"&gt;&lt;img alt="谷歌更新Chrome本地AI模型支持文档 需要20GB的可用磁盘空间下载模型" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112538-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -31,45 +84,4 @@ C:\Users\{你的用户名}\AppData\Local\Google\Chrome\User Data\OptGuideOnDevic
 &lt;p&gt;目前蓝点网已经接到部分 VPS 服务器提供商发来的消息，即准备临时停机升级内核封堵漏洞，这里的停机指的是宿主机，也就是运行 VPS 的上游物理机，宿主机安装内核需要重启完成更新，此时所有 VPS 会出现短时间中断，宿主机重启成功后 VPS 也会陆续自动开机。&lt;/p&gt;
 &lt;p&gt;正常来说宿主机更新重启仅需数分钟即可完成，但难免有些宿主机会出现类似 OVH 那样的电源异常、硬盘异常、CMOS 异常等问题，蓝点网建议是用户尽快备份自己的服务器数据，因为有些 VPS 提供商可能不会提前发布公告，而如果升级出现异常，用户也能通过自己的备份数据恢复服务。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 07 Aug 2026 03:28:03 +0000</pubDate></item><item><title>Kimi K3也在安全测试期间逃逸到互联网寻找作弊答案 不过并未发起真实黑客攻击</title><link>https://www.landian.news/archives/114240.html</link><description>
-&lt;p&gt;#人工智能 Kimi K3 在隔离环境中评估测试时也出现逃逸问题，自主发掘漏洞然后访问公共互联网获取作弊答案。美国初创安全公司边境安全日前披露，其在隔离环境中测试 K3 时也发现模型逃逸，逃逸目的同样是为了连接公共互联网获取作弊答案。不过 K3 任务答案在 GitHub 就有，所以 K3 未对任何真实网站发起攻击。查看全文：https://ourl.co/114240&lt;/p&gt;&lt;p&gt;近期关于人工智能驱动的智能体自主挖掘漏洞并逃离测试环境的消息非常多，当然这也是值得关注的事情，认为人工智能模型为达目的可能会不择手段，因此出现模型驱动的智能体对真实公司发起网络攻击的案例。&lt;/p&gt;
-&lt;p&gt;当然并不只是封闭模型存在逃逸情况，美国初创网络安全公司边境安全 (Frontier Security) 日前透露，其测试开放模型 Kimi K3 时也发现智能体逃逸情况，逃逸目的同样是为了作弊，只不过 K3 并未对真实公司或网站发起攻击。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114104.png" rel="nofollow"&gt;&lt;img alt="Kimi K3也在安全测试期间逃逸到互联网寻找作弊答案 不过并未发起真实黑客攻击" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114104.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;目前很多网络安全领域的评估测试都是搭建隔离的测试环境，这类测试环境通常不允许 AI 智能体连接互联网，但 AI 智能体在接受任务指令后更倾向于作弊，想要作弊最好的办法就是去互联网上搜索内容，因此这些 AI 智能体都会尝试挖掘隔离环境的漏洞然后访问互联网。&lt;/p&gt;
-&lt;p&gt;边境安全公司使用隔离环境测试 Kimi K3 的网络安全防御能力，结果该模型驱动的智能体也成功逃逸，此次逃逸的部分原因是隔离环境存在配置错误，于是 K3 也同样发现并利用漏洞然后在未经允许的情况下访问公共互联网。&lt;/p&gt;
-&lt;p&gt;不过经过日志溯源后边境安全公司确认 K3 虽然从隔离环境中逃逸，但并没有发起任何真实的黑客攻击，因为 K3 想要寻求的作弊答案很容易在 GitHub 上找到，所以不需要像 OpenAI 智能体那样攻击 HuggingFace 来尝试获取内部数据。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; 安全公司称赞 K3 但也提醒要警惕 AI 的安全问题：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;此前 OpenAI 和 Anthropic 出现模型逃逸和发起攻击的共同点是，被隔离评估的都是尚未发布的内部模型，而 Kimi K3 是公开发布的开放模型，也就是任何人都可以下载模型并在自己的集群上部署。安全公司称赞 K3 的网络安全防御能力，但也提醒要警惕 AI 的安全问题，因为普通用户也能获得如此强大的红队能力。&lt;/p&gt;
-&lt;p&gt;当然模型在网络安全方面的能力向来存在争议，部分公司长期渲染 AI 威胁论并设置苛刻的安全边界，在抱抱脸攻击事件中此公司原本使用前沿封闭模型审计日志结果频繁被拒绝，最后抱抱脸不得不在本地集群部署中国开放模型智谱 GLM-5.2 完成审计。&lt;/p&gt;
-&lt;p&gt;所以拥有强大的网络安全能力的模型不应该是部分公司的特权，防御者也同样可以借助开放模型来提高自己的防御能力，而不是像封闭模型那样只允许特定公司拥有更强大的防御能力，这样反而会造成不公平和更多风险。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 07 Aug 2026 02:52:04 +0000</pubDate></item><item><title>Windows 10 LTSC 2021将在2027年1月结束支持 微软开始提醒客户做好迁移准备</title><link>https://www.landian.news/archives/114239.html</link><description>
-&lt;p&gt;#系统资讯 Windows 10 LTSC 2021 长期服务频道也要结束支持，微软开始提醒客户做好迁移准备。该版本发布于 2021 年，由于微软只提供 5 年的支持周期，到 2027 年 1 月将结束主流支持。微软建议企业升级 Windows 11 LTSC 2024，但如果硬件不兼容怎么办？那只能购买 ESU 扩展安全更新，首年每台 61 美元，之后每年翻倍。查看全文：https://ourl.co/114239&lt;/p&gt;&lt;p&gt;对企业而言操作系统的稳定性至关重要，反而像是日常功能更新的优先级比较低，所以很多企业喜欢在关键设施里使用 Windows 10 LTSC 长期服务频道，这些版本支持周期更长且只提供安全更新和错误修复，从稳定性角度来说要比普通版本更好。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.landian.news/archives/53910.html" rel="noopener" target="_blank"&gt;不过微软很讨厌企业使用长期服务频道&lt;/a&gt;，&lt;a href="https://www.landian.news/archives/84882.html" rel="noopener" target="_blank"&gt;所以微软此前已经将长期服务频道的支持周期从 10 年改成 5 年&lt;/a&gt;，说起来 5 年的支持周期也能叫长期服务频道？这事儿也只有微软能做出来，其他操作系统的 LTS 版通常都提供 10 年的安全更新支持。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2024/05/103859.png" rel="nofollow"&gt;&lt;img alt="Windows 10 LTSC 2021将在2027年1月结束支持 微软开始提醒客户做好迁移准备" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2024/05/103859.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; Windows 10 LTSC 2021 即将结束支持：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Windows 10 LTSC 2021 是微软基于 Windows 10 21H2 版开发的企业长期服务频道，主要为专注功能稳定性而非新功能的企业客户设计，企业客户安装该版本后只需要每月安装必要的安全更新即可，由于微软不会向该版本提供常规的功能更新，所以这类版本稳定性更好。&lt;/p&gt;
-&lt;p&gt;现在 Windows 10 LTSC 2021 的支持周期也要抵达终点，根据微软的产品生命周期规划，该版本将在 2027 年 1 月结束支持，结束支持后微软不再提供任何安全更新，如果企业愿意付费的话则可以购买扩展安全更新，微软最多提供 3 年的扩展安全更新支持 (ESU)。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;为避免关键业务中断，微软建议企业 IT 管理员现在就开始制定迁移计划，而不是等到支持结束后再迁移。微软称，很多客户部署需要数月时间进行应用程序验证、硬件兼容性测试、试点推广和分阶段部署，尤其是对于执行关键业务功能的设备而言。&lt;/p&gt;
-&lt;p&gt;对于仍然需要使用长期服务频道的企业来说，微软推荐企业直接升级到 Windows 11 LTSC 2024 版，但可能有很多硬件无法满足兼容性要求，这种情况下对企业来说会比较尴尬，因为要么更换硬件要么购买微软的扩展安全支持。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;如果企业无法迁移或者不愿意迁移，要想继续接收安全更新那只能付费开通微软的扩展安全支持，微软向 Windows 10 LTSC 2021 提供 3 年的扩展安全更新支持，从 2027 年 1 月 12 日开始到 2032 年 1 月 8 日结束，扩展安全更新的销售开始时间为 2026 年 9 月 1 日，微软通过批量许可渠道销售扩展安全支持许可证。&lt;/p&gt;
-&lt;p&gt;费用方面，首年每台设备为 61 美元，次年每台设备 122 美元，第三年每台设备 244 美元，如果企业使用微软基于云的更新管理解决方案，例如 Microsoft Intune 或 Windows Autopatch，可以享受 25% 的优惠。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息来源：&lt;a href="https://www.landian.news/go?url=https://techcommunity.microsoft.com/blog/Windows-ITPro-blog/plan-for-windows-10-enterprise-ltsc-2021-end-of-support/4539866" rel="noopener" target="_blank"&gt;微软技术社区&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 07 Aug 2026 02:19:56 +0000</pubDate></item><item><title>消息称苹果急缺内存 A20系列芯片已经量产 但缺少内存无法封装</title><link>https://www.landian.news/archives/114238.html</link><description>
-&lt;p&gt;#行业资讯 消息称苹果急缺内存，台积电已经量产 A20 Pro 但缺少足够的内存颗粒供应因此无法封装。业界知名商业科技作者高燦鳴在其专栏中表示，苹果及其供应链合作伙伴正在紧急协调以购买更多移动 DRAM 芯片，避免 9 月份新机发布前出现内存芯片短缺。查看全文：https://ourl.co/114238&lt;/p&gt;&lt;p&gt;业界知名商业科技作者高燦鳴 (Tim Culpan) 日前在其专栏发布报道称，苹果及其供应链合作伙伴正在紧急协调以购买更多移动 DRAM 芯片，避免 9 月份新机发布前出现内存芯片短缺的问题。&lt;/p&gt;
-&lt;p&gt;当前距离外界预期的 iPhone Ultra (折叠屏)、iPhone 18 和 iPhone 18 Pro 系列发布只剩不到六周，苹果和封装供应商都在与供应链合作，确保更多内存芯片到货以及争取购买到更多内存芯片。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114238.png" rel="nofollow"&gt;&lt;img alt="消息称苹果急缺内存 A20系列芯片已经量产 但缺少内存无法封装" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114238.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; 台积电已经量产 A20 系列芯片但缺少内存无法封装：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;消息称台积电目前已经生产价值超过 10 亿美元的 A20 Pro 芯片，这些芯片基于台积电 N2 工艺制造，而且整个产线的良率还是非常不错的。问题是苹果要将处理器芯片与内存芯片合并封装，现在处理器芯片已经制造出来，但内存芯片还存在差额，所以还有很多芯片没有完成封装&lt;/p&gt;
-&lt;p&gt;高燦鳴称 iPhone 新机量产节奏通常非常紧，关键物料如果在上市前几周仍然紧张，就可能影响首批备货，即后续的整机组装和出货都有可能受到影响。最终结果未必是延期发布，更有可能是部分型号或容量版本供货紧缺。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;过去智能手机和电脑是 DRAM 和 NAND 的主要需求来源，现在 AI 服务器、GPU 集群和云计算客户正在用更高的价格、更长周期的订单锁定产能，AI 需求已经改变内存供应链的优先级。&lt;/p&gt;
-&lt;p&gt;对消费者而言其实现在购买电子产品时可能已经深有体会，无论是 PC 还是智能手机，甚至是树莓派这类单板计算机，都因为内存问题出现大幅度涨价。游戏显卡等也同样需要使用内存，结果显卡等产品也在快速涨价。&lt;/p&gt;
-&lt;p&gt;从目前行业情况来看短期内内存供需失衡的问题应该无法缓解，所以因内存带来的涨价问题也是不可避免的，对消费者而言接下来购买大部分电子产品可能都要面临涨价问题。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 06 Aug 2026 08:34:05 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 07 Aug 2026 03:28:03 +0000</pubDate></item></channel></rss>
