@@ -23,7 +23,9 @@
 &lt;p&gt;&lt;strong&gt;#21 4seasons&lt;/strong&gt;：电话卡+自建+机场&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#22 Clannad0708&lt;/strong&gt;：@&lt;a href="/member/AutumnVerse"&gt;AutumnVerse&lt;/a&gt; 可以给个自建的方案吗？或者有没有推荐，我想问下我打算买个香港的服务器，然后自建+做我的服务（比如一些个人网站）部署的机器可以吗？现在不知道买什么好，而且直接买香港的话 国内外都可以访问而且不用 备案&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#23 WebKit&lt;/strong&gt;：想要便宜稳定选机场&lt;br/&gt;想要有一个稳定的 IP ，自建&lt;br/&gt;目前比较便宜的 vps ，比如搬瓦工，优化过的线路，这个价格可以买非常不错的机场了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#24 Tory12138&lt;/strong&gt;：@&lt;a href="/member/dianso"&gt;dianso&lt;/a&gt; 这个还可以呀&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 09 Aug 2026 07:23:58 +0000</pubDate></item><item><title>你们都如何 review AI 生成的大量代码，保障功能质量</title><link>https://www.v2ex.com/t/1233025</link><description>&lt;p&gt;用 codex 这么久，从刚开始的屎山横飞慢慢调教到现在 99%的代码都由 AI 生成，并且上线质量比我自己写的还高，我以为我自己练成了。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#24 Tory12138&lt;/strong&gt;：@&lt;a href="/member/dianso"&gt;dianso&lt;/a&gt; 这个还可以呀&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#25 YGHMXFAL&lt;/strong&gt;：月付多家机场,过 GFW+我懒得解决可用性问题&lt;br/&gt;自建节点落地,过机场墙+固定出口 IP 减少风控&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#26 royo&lt;/strong&gt;：主用自建固定 ip ，机场按量作为多地区多 ip 备用&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 09 Aug 2026 07:23:58 +0000</pubDate></item><item><title>你们都如何 review AI 生成的大量代码，保障功能质量</title><link>https://www.v2ex.com/t/1233025</link><description>&lt;p&gt;用 codex 这么久，从刚开始的屎山横飞慢慢调教到现在 99%的代码都由 AI 生成，并且上线质量比我自己写的还高，我以为我自己练成了。&lt;/p&gt;
 &lt;p&gt;直到我最近接了一个新模块的需求，灾难发生了。&lt;/p&gt;
 &lt;p&gt;这个模块因为比较老，从代码风格到项目规范都与我一直在维护的模块差异很大，并且由于我从来没碰过这块业务的细节，导致 codex 也没有这个模块的记忆。&lt;/p&gt;
 &lt;p&gt;为了补业务细节，从阅读需求开始我就让 AI 全程参与，并且让$Grill with Docs 一致拷问我，讨论并设计完后生成了一堆 ticket ，AI 照着 ticket 一个个执行并验收。&lt;/p&gt;
@@ -63,7 +65,8 @@
 &lt;p&gt;&lt;strong&gt;#21 sora2blue&lt;/strong&gt;：需求复杂时只能降低拆分粒度了&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#22 sora2blue&lt;/strong&gt;：@&lt;a href="/member/msg7086"&gt;msg7086&lt;/a&gt; #7 ai 对抗性相互审查真的靠谱吗，上下文的问题还是没解决，别说测试也让 ai 写&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#23 kirory&lt;/strong&gt;：还记得摩尔定律吗&lt;br/&gt;等更长的上下文和更好的模型来了，一切就解决了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#24 xue777hua&lt;/strong&gt;：@&lt;a href="/member/ylsc633"&gt;ylsc633&lt;/a&gt; 很精彩。等着下一个跑路的帖子。好奇一下，是啥业务？电商么？&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 09 Aug 2026 04:36:28 +0000</pubDate></item><item><title>昨天一天用 Codex 5.6 Sol 搞定的，基于 ESP32-C5 WiFi CSI 睡眠监测，经过一夜的睡眠监测，确实很准</title><link>https://www.v2ex.com/t/1233022</link><description>&lt;p&gt;昨天一天用 Codex 5.6 Sol 搞定的，基于 ESP32-C5 WiFi CSI 睡眠监测，经过一夜的睡眠监测，确实很准啊。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#24 xue777hua&lt;/strong&gt;：@&lt;a href="/member/ylsc633"&gt;ylsc633&lt;/a&gt; 很精彩。等着下一个跑路的帖子。好奇一下，是啥业务？电商么？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#25 msg7086&lt;/strong&gt;：@&lt;a href="/member/sora2blue"&gt;sora2blue&lt;/a&gt; 对你算不算靠谱我不知道，我自己用着还行反正。&lt;br/&gt;测试当然都是 AI 写的，一个项目几千个测试用例难道要我自己一个一个写吗。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 09 Aug 2026 04:36:28 +0000</pubDate></item><item><title>昨天一天用 Codex 5.6 Sol 搞定的，基于 ESP32-C5 WiFi CSI 睡眠监测，经过一夜的睡眠监测，确实很准</title><link>https://www.v2ex.com/t/1233022</link><description>&lt;p&gt;昨天一天用 Codex 5.6 Sol 搞定的，基于 ESP32-C5 WiFi CSI 睡眠监测，经过一夜的睡眠监测，确实很准啊。&lt;/p&gt;
 &lt;p&gt;AI 算法能力已经超过博士了，我看了下代码和思路，和我当年读博的思路基本一致，在算法和实现上比我当时的强。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://i.v2ex.co/090cUeHs.png"/&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://i.v2ex.co/HfZu99Ga.jpeg"/&gt;&lt;/p&gt;
