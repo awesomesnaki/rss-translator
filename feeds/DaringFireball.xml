@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sat, 08 Aug 2026 20:32:11 +0000</lastBuildDate><item><title>&lt;p&gt;腐心同念&lt;/p&gt;</title><link>https://www.nytimes.com/2026/08/06/business/fifa-world-cup-privatization.html?unlocked_article_code=1.3VA.4zqH.Pul7X9bQ2kv0&amp;smid=bs-share</link><description>&lt;p&gt;Tariq Panja，为《纽约时报》报道：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sun, 09 Aug 2026 03:16:24 +0000</lastBuildDate><item><title>★ 撤回：本周的App Store拒绝案例，实际上是一次正确的拒绝</title><link>https://daringfireball.net/2026/08/retraction_app_store_rejection_of_the_week</link><description>&lt;p&gt;昨天我发表了一篇文章，标题为“本周 App Store 拒绝上架：黑暗时刻”。我已经将其撤回。它的前提从根本上就是错误的，因此仅仅修正或编辑毫无意义。正如我下面所解释的，甚至连标题都不准确。虽然原文现已撤回，但我不会将其抹去。为了透明和问责，原文文本可在&lt;a href="https://daringfireball.net/misc/2026/08/app_store_rejection_of_the_week_dark_hours.text"&gt;纯文本&lt;/a&gt;（自然是 Markdown 格式）和&lt;a href="https://daringfireball.net/misc/2026/08/App_Store_Rejection_of_the_Week_-_Dark_Hours.pdf"&gt;PDF&lt;/a&gt;（保留原始排版）中查阅。这两个版本的开头都包含一段序言，链接到本撤回声明。&lt;a href="https://daringfireball.net/2026/08/app_store_rejection_of_the_week_dark_hours"&gt;原文的 URL&lt;/a&gt; 现在会重定向到您正在阅读的这篇文章。&lt;/p&gt;
+&lt;p&gt;据我所知，这是我在撰写 Daring Fireball 的 24 年里撤回的第一篇文章。我希望这也是最后一篇。我在多个方面被误导了，既包括公开的误导，也包括通过隐瞒造成的误导，但发布什么内容是我的责任，我为这个错误致歉。&lt;/p&gt;
+&lt;p&gt;我第一次注意到 Terry Godier 是在二月份，当时我&lt;a href="https://daringfireball.net/linked/2026/02/25/godier-phantom-obligation"&gt;链接到了&lt;/a&gt;他那篇关于 RSS 阅读器设计的精彩互动文章《&lt;a href="https://www.terrygodier.com/phantom-obligation"&gt;幻影义务&lt;/a&gt;》，这篇文章介绍了&lt;a href="https://www.terrygodier.com/current"&gt;Current&lt;/a&gt;——Godier 为践行其文章中的理念而开发的新款 RSS 阅读器。Current 当之无愧地获得了不小的成功。（例如，The Verge 的 David Pierce 将它列入了一份&lt;a href="https://www.theverge.com/tech/899602/best-phone-android-ios-app-store?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IkpKUk05aEQ3ZHYiLCJwIjoiL3RlY2gvODk5NjAyL2Jlc3QtcGhvbmUtYW5kcm9pZC1pb3MtYXBwLXN0b3JlIiwiZXhwIjoxNzc2MDMzMDU5LCJpYXQiOjE3NzU2MDEwNTl9.c8VIrq4Kl5DbAbr8ujYsehwxWVKN7dvXMV7yYkqADu0"&gt;极简清单&lt;/a&gt;，这份清单收录了让他舍不得转投 Android 的 iOS 独占独立应用。）三月份，我又&lt;a href="https://daringfireball.net/linked/2026/03/16/the-last-quiet-thing"&gt;链接到了&lt;/a&gt;Godier 的另一篇互动文章《&lt;a href="https://www.terrygodier.com/the-last-quiet-thing"&gt;最后的寂静之物&lt;/a&gt;》，四月份还链接了他&lt;a href="https://daringfireball.net/linked/2026/04/16/app-store-reviews-are-busted"&gt;一篇关于 App Store 五星评价体系的文章&lt;/a&gt;。大约在我第一次链接到他的作品时，我开始与 Godier 通过 iMessage 通信。&lt;/p&gt;
+&lt;p&gt;昨天，Godier 发表了《&lt;a href="https://blog.terrygodier.com/2026/08/07/browsers-have-standards-the-app.html"&gt;浏览器有标准，App Store 只有判断&lt;/a&gt;》。该文章最初发布时包含以下两段内容：&lt;/p&gt;&lt;blockquote&gt;
+&lt;p&gt;不久前，我尝试为我的天文网站 &lt;a href="https://darkhours.io/"&gt;Dark Hours&lt;/a&gt;（面向普通人的天文网站）提交一款 iOS 应用。它以涉及占星术为由被拒绝了。它没有塔罗功能，没有星座运势，也没有任何我或我问过的其他人会将其与占星术联系起来的内容。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在撰写本文时（美东时间 8 月 8 日晚 11 点），上述段落已被删除，替换为以下内容：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注：本文原始版本在这里有一段关于我正在开发的一款天文应用的内容，该应用最初是一款占星应用，在移除占星内容后被拒绝。App store [&lt;em&gt;原文如此&lt;/em&gt;] 审核团队联系了我，告诉我他们显然从未收到更新后的版本，现在提交应该没问题了。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;现在你可以看到问题所在了，这让我彻底撤回了原来的帖子，因为我那篇帖子完全基于一个前提，即 Godier 对被拒应用的最初描述是真实的——该应用“没有塔罗功能，没有星座运势，也没有任何我或我问过的其他人会将其与占星术联系起来的内容”。事实是，Godier 最初提交给 App Store 的应用（名为“Asterly”，而非“Dark Hours”）完全致力于占星术，而非天文学，而且确实包含“每日塔罗牌”功能，以及其他一堆神秘学的胡说八道。&lt;/p&gt;
+&lt;p&gt;Apple 最初拒绝该应用的理由，以及 App 审核委员会维持这一拒绝的决定，都是正确的。&lt;sup id="fnr1-2026-08-08"&gt;&lt;a href="https://daringfireball.net/#fn1-2026-08-08"&gt;1&lt;/a&gt;&lt;/sup&gt; 我错误地相信了 Godier 的话——无论是他在公开博客文章中的说法，还是昨天在私人 iMessage 通信中的说法——即该拒绝不仅是值得商榷的，而且是完全、相当荒谬地毫无根据的。Godier 是否曾向 App Store 提交过一版不含任何神秘学胡说八道、只包含他上周上线的“Dark Hours”网站中那些严谨科学的天文学功能的“Asterly”版本，我不知道。但我没有理由相信他这样做过。&lt;/p&gt;
+&lt;p&gt;我对占星术的鄙夷如此彻底，对 Godier 以往作品的敬重如此之高，以至于我根本没想到他可能真的制作并提交了一款占星应用给 App Store，更不用说他会假装对一款占星应用因是占星应用而被拒感到惊讶和沮丧。在发布之前，我把帖子草稿给他看，以确保我掌握的情况准确无误，而他没有任何提醒，只对我引起公众关注此事表示感谢。&lt;/p&gt;&lt;p&gt;事情变得更加复杂了。Godier 于今年一月提交给 App Store 的占星应用名为“Asterly”。四月 App 审核委员会维持驳回决定时，该应用仍沿用这个名字。据 Godier 所说，因对 App Store 的驳回感到沮丧，他将天文版本移植到了网页上，于上周以“Dark Hours”之名在 &lt;code&gt;darkhours.io&lt;/code&gt; 域名&lt;a href="https://bsky.app/profile/terrygodier.com/post/3ms2lm4kcfc2j"&gt;上线&lt;/a&gt;。（这就是为什么我在文章标题中声称 Apple 拒绝了一款名为“Dark Hours”的应用是错误的——他们拒绝的是一款名为“Asterly”的应用，而且从未见过 Godier 的“Dark Hours”应用。）昨天，在我链接了 Godier 的帖子、&lt;a href="https://news.ycombinator.com/item?id=49214863"&gt;Hacker News 随后又链接了我的帖子&lt;/a&gt;之后，Godier 的“Dark Hours”（带空格）&lt;a href="https://bsky.app/profile/mmmeh.bsky.social/post/3msjump44fs2h"&gt;引起了&lt;/a&gt; Miguel Beher 的注意（以及合理的惊讶）。Beher 是一个名为 DarkHours（不带空格）的开源“天文摄影与暗夜天空规划”项目的创建者。&lt;a href="https://github.com/mbeher2200/DarkHours"&gt;Beher 的 GitHub 项目&lt;/a&gt;包含源代码，实际网页应用可在 &lt;code&gt;darkhours.app&lt;/code&gt; 域名&lt;a href="https://darkhours.app/"&gt;免费访问&lt;/a&gt;。在 Beher 与 Godier 在 Bluesky 上一段令人不适的交流中，Beher 指出 Godier 的 Dark Hours 与他的应用存在相同的 bug——会将用户&lt;a href="https://bsky.app/profile/mmmeh.bsky.social/post/3mslc3b3u4c2l"&gt;导向“墨西哥的随机田野”&lt;/a&gt;。今天早些时候，Godier 撤下了他的网页应用，并将其 &lt;code&gt;darkhours.io&lt;/code&gt; 域名重定向到了 Beher 的 &lt;code&gt;darkhours.app&lt;/code&gt;。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;错误在所难免。但在一个正常运转的系统中，错误会得到纠正，而像这样明显的错误几乎会立即得到纠正，并且会迅速为混淆之处道歉。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;显然，弄错的人正是&lt;em&gt;我&lt;/em&gt;。&lt;em&gt;这篇&lt;/em&gt;文章就是我的更正。我向所有阅读并相信了我那篇已撤回帖子的&lt;a href="https://news.ycombinator.com/item?id=49214863"&gt;人&lt;/a&gt;道歉，也向我诋毁过的 App Store 审核人员道歉——我玷污了他们的能力，甚至可以说是基本素养。对此我深感抱歉。不会再犯了。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;ol&gt;
+&lt;li id="fn1-2026-08-08"&gt;
+&lt;p&gt;无论一个人对伪科学和通灵之类的鬼话持何种看法——赞成、反对还是无所谓——都可能合理地认为，苹果公司禁止或阻挠这类应用上架App Store是不对的。事实上，App Store里有很多这类应用，苹果甚至推出过“&lt;a href="https://apps.apple.com/us/story/id1681180517"&gt;最佳占星术应用&lt;/a&gt;”编辑推荐专题。苹果的立场基本上是，App Store已经有足够多的这类应用了（而且我怀疑这类应用是常见的诈骗来源，因为它们的本质就是针对容易上当的人）。&lt;a href="https://developer.apple.com/app-store/review/guidelines/"&gt;指南4.3(b)规定&lt;/a&gt;（强调为原文所加）：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;某些类型的应用，如交友、手电筒、音效、壁纸、简易计时器和&lt;i&gt;算命&lt;/i&gt;，在App Store上已经很成熟，除非它们能提供有明显差异或改进的体验，否则我们不会接受新的提交。如果这些应用没有得到更新、改进，或者不能吸引用户，我们未来可能会将它们从App Store中移除。其他类型的应用，如喝酒游戏、爱经、放屁和打嗝应用，平庸、低质量或不用心，不能为App Store增加价值。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;那个序列逗号一如既往地有用，给任何正在努力开发“放屁和打嗝”应用的人带来了希望。&lt;a href="https://daringfireball.net/#fnr1-2026-08-08" title="Jump back to footnote 1 in the text."&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description><pubDate>Sun, 09 Aug 2026 03:16:24 +0000</pubDate></item><item><title>&lt;p&gt;腐心同念&lt;/p&gt;</title><link>https://www.nytimes.com/2026/08/06/business/fifa-world-cup-privatization.html?unlocked_article_code=1.3VA.4zqH.Pul7X9bQ2kv0&amp;smid=bs-share</link><description>&lt;p&gt;Tariq Panja，为《纽约时报》报道：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;这五个人本该沉浸在庆祝的氛围中。国际足联（FIFA）刚刚成功举办了一届在多个方面打破纪录的世界杯，其精彩绝伦的高潮——决赛——距离开球仅剩一天。&lt;/p&gt;
 &lt;p&gt;但他们的心情毫无喜悦可言。据三位知情人士透露（因讨论内容属于私密，他们要求匿名），这几名男子——一个被称为“国际足联管理委员会主席团”的高层董事团队——被召集到曼哈顿华尔道夫酒店参加一场临时安排的会议。这些董事必须在午夜前签署一项计划，该计划有可能永远改变足球运动，并且几乎必然会导致这项运动领导人之间的重大分裂。&lt;/p&gt;
@@ -41,6 +68,4 @@
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;a href="https://daringfireball.net/linked/2026/08/07/leadership-shake-up-at-google-deepmind"&gt;势头正劲！&lt;/a&gt;&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/08/07/google-earth-ai-shitposts" title="永久链接到“谷歌地球撤销AI制作假卫星图像工具，该工具发布后立即遭滥用”"&gt; ★ &lt;/a&gt;
-</description><pubDate>Fri, 07 Aug 2026 19:43:23 +0000</pubDate></item><item><title>&lt;p&gt;一些新的数据中心是必要的&lt;/p&gt;</title><link>https://www.newyorker.com/cartoon/a62045</link><description>&lt;p&gt;我的一堆东西存放在这里。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/08/07/some-new-data-centers-are-necessary" title="“一些新的数据中心是必要的”的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Fri, 07 Aug 2026 19:39:15 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 07 Aug 2026 19:43:23 +0000</pubDate></item></channel></rss>
