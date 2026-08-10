@@ -1,5 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AppAddict (中文)</title><link>https://appaddict.app</link><description>我是以高级用户和效率爱好者的身份，强调真实、实用的评测——而非营销人员。我特别喜欢独立Mac生态、注重隐私的软件、开源工具和工作流自动化。我也会涉及自托管、数字化生活的去谷歌化/去苹果化，以及如何通过组合小巧专注的应用来构建高效Mac工作流。文章内容涵盖从单一应用的深度解析到多应用的综合评测、工作流指南和开发者专题。如果你是一名开发者，有希望我体验的应用，请告诉我。</description><language>zh-CN</language><lastBuildDate>Sun, 09 Aug 2026 09:04:48 +0000</lastBuildDate><item><title>Autoshelf 有一个你可能并不需要的 MCP 服务器，而且规则引擎也很弱——评测</title><link>https://appaddict.app/post/autoshelf-has-an-mcp-server-you-probably-don-t-need-and-the-rule-engine-is-weak-a-review</link><description>&lt;figure&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AppAddict (中文)</title><link>https://appaddict.app</link><description>我是以高级用户和效率爱好者的身份，强调真实、实用的评测——而非营销人员。我特别喜欢独立Mac生态、注重隐私的软件、开源工具和工作流自动化。我也会涉及自托管、数字化生活的去谷歌化/去苹果化，以及如何通过组合小巧专注的应用来构建高效Mac工作流。文章内容涵盖从单一应用的深度解析到多应用的综合评测、工作流指南和开发者专题。如果你是一名开发者，有希望我体验的应用，请告诉我。</description><language>zh-CN</language><lastBuildDate>Mon, 10 Aug 2026 14:39:53 +0000</lastBuildDate><item><title>Caption Snap：会议转录——无需机器人，无需下载模型，无需传输数据，不占用CPU——免费试用，一次性购买，$9.99</title><link>https://appaddict.app/post/caption-snap-meeting-transcriptions-with-no-bot-no-model-to-download-no-data-transferred-and-no-drain-on-your-cpu-free-trial-one-time-9-99</link><description>&lt;figure&gt;
+&lt;img referrerpolicy="no-referrer" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMS81QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--fcc267ef12d11c90615dbce2f428bcb1d76204e9/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJZ0Eya0NJQU02Q25OaGRtVnlld2M2REhGMVlXeHBkSGxwV1RvS2MzUnlhWEJVIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--8cebb1c2983a7e4106444e274de6ebedc86813b1/CleanShot%202026-08-10%20at%2010.24.33.jpg"/&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;TL;DR：&lt;/strong&gt;CaptionSnap 是一款 9.99 美元一次性买断的菜单栏应用，它通过读取会议应用已经显示的实时字幕来保存你的 Teams、Zoom 和 Google Meet 会议记录。不录制音频、不需要机器人加入通话、不涉及云端、无需下载模型，辅助功能（Accessibility）是它唯一请求的权限。发言人姓名来自会议平台本身，因此发言归属是直接查表，而不是靠猜测。你需要自己开启字幕，记录质量取决于平台的字幕准确度，而且它要求在 Apple 芯片上运行 macOS 26。&lt;/p&gt;
+&lt;h1&gt;CaptionSnap 读取你的会议应用已经在显示的字幕&lt;/h1&gt;
+&lt;p&gt;以下列出我对转录应用诸多不满之处的清单。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li value="1"&gt;在会议中使用转录应用，通常意味着会有一个机器人加入通话，而你不得不向所有人解释它是什么。&lt;/li&gt;
+&lt;li value="2"&gt;本地模型需要庞大的下载量。&lt;/li&gt;
+&lt;li value="3"&gt;远程模型会把我的对话发送到别人的服务器上。&lt;/li&gt;
+&lt;li value="4"&gt;它们要求大量的隐私和安全豁免。&lt;/li&gt;
+&lt;li value="5"&gt;本地模型对处理器负载很高。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;不过，我找到了一款应用，这些事情它一件都不沾，而且准确率高于平均水平，CPU 占用却微乎其微。它叫 &lt;a href="https://captionsnap.app/"&gt;CaptionSnap&lt;/a&gt;。&lt;/p&gt;
+&lt;h2&gt;巧妙之处&lt;/h2&gt;
+&lt;p&gt;Teams、Zoom 和 Google Meet 本来就在转录你的会议。实时字幕就是干这个的。文字就在屏幕上，由平台生成，关联到正确的发言人，然后会议一结束就被丢弃。&lt;/p&gt;
+&lt;p&gt;这个类别里的其他所有工具都无视这一点，而是从头另起炉灶。录制音频，丢给模型处理，猜测谁说了什么，祈祷说话人分离能撑得住。CaptionSnap 只是读取会议应用已经在显示的字幕，然后把它们连同时间戳和平台提供的发言人姓名一起写入一个 Markdown 文件。&lt;/p&gt;
+&lt;p&gt;这一个决定就是整个应用的前提。正因如此，它才不需要下载模型、没有音频处理流程、不需要麦克风权限，也不会有机器人加入你的通话。没有任何可以让你多花钱的地方。&lt;/p&gt;
+&lt;h2&gt;这能给你带来什么&lt;/h2&gt;&lt;p&gt;如果你需要的是音频而不仅仅是文本，或者你的同事从不开启字幕，那么这个应用不适合你。如果你使用Intel芯片或较旧版本的macOS，或者想要AI生成的任务事项和CRM同步功能，也不要购买。对于最后一点，这显然是错误的工具，下面提到的订阅产品才是合适的。&lt;/p&gt;
+&lt;h2&gt;替代方案&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;macOS Live Captions。&lt;/strong&gt;免费，内置于系统中。一旦关闭就消失，没有说话人姓名，没有时间戳，不会保存任何内容。当下有用，过一天就毫无用处。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;MacWhisper。&lt;/strong&gt;有免费版，也可以一次性支付€64升级到Pro（&lt;a href="https://www.macwhisper.com/"&gt;macwhisper.com&lt;/a&gt;）。它使用Whisper和Parakeet转录本地音频，无需机器人即可录制Zoom、Teams、Webex、Skype和Discord会议，Pro版还包括自动检测会议开始和结束以及说话人识别功能。这是一款更庞大的工具，承担的任务也更重。它负责处理CaptionSnap所回避的模型下载和CPU计算工作，但同时也支持访谈、讲座、播客和系统级听写。如果你需要的是一般性的转录而不只是会议记录，那么选这个。我在2024年写过相关文章：&lt;a href="https://appaddict.app/post/macwhisper-transcription-powerhouse"&gt;MacWhisper - 转录利器&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Granola。&lt;/strong&gt;免费Basic版有历史记录限制，Business版每位用户每月$14，Enterprise版$35（&lt;a href="https://www.granola.ai/pricing"&gt;granola.ai/pricing&lt;/a&gt;）。它也避免以机器人身份加入会议，但它在云端处理，并且围绕AI增强的笔记和团队集成而构建，而不是提供你完全拥有的原始转录文本。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Otter.ai。&lt;/strong&gt;免费版每月300分钟，Pro版每位用户每月$16.99（按月付费）或$8.33（按年付费），Business版每位用户每月$30（按月付费）或$19.99（按年付费）（&lt;a href="https://otter.ai/pricing"&gt;otter.ai/pricing&lt;/a&gt;）。这正是CaptionSnap所反对的东西：它作为会议记录员加入你的Zoom、Teams和Meet通话，所有内容都保存在Otter的服务器上。我用Otter做过听写，但没有用于会议。&lt;/p&gt;
+&lt;p&gt;除非另有说明，上述替代应用均基于研究而非个人实测。&lt;/p&gt;
+&lt;h2&gt;价格与评价&lt;/h2&gt;
+&lt;p&gt;提供14天试用，无需信用卡，之后一次性支付$9.99即可在最多三台Mac上使用，并享受30天退款政策（&lt;a href="https://captionsnap.app/"&gt;CaptionSnap定价&lt;/a&gt;）。十美元一次性付费，对比订阅式记录工具每月$14至$17的费用。&lt;/p&gt;
+&lt;p&gt;这是Wes Stockfisch发布的第一款应用。我愿意给开发者一些信任，但要注意，这里没有维护记录，而且需要macOS 26加Apple Silicon，意味着你必须拥有一台最新的M系列芯片Mac。但这个想法是对的。字幕本来就已经存在。直接读取它们而不是重新生成，这是一种显而易见却没有人做过的做法，因为，嗯，他们可能在这件事上想得太复杂了。&lt;/p&gt;&lt;p&gt;在给出结论之前先说明一点：我未能对其进行大规模测试。退休人员并没有很多Zoom通话。但在我能进行的测试中，CaptionSnap表现得不错。&lt;/p&gt;
+&lt;p&gt;在我看来，花十美元省去向客户解释机器人的麻烦，这并不难决定。&lt;/p&gt;
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Caption%20Snap:%20Meeting%20Transcriptions%20With%20No%20Bot,%20No%20Model%20to%20Download,%20No%20Data%20Transferred%20and%20No%20Drain%20on%20Your%20CPU%20-%20Free%20Trial,%20One%20Time,%20$9.99"&gt;✉️ 通过邮件回复&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 10 Aug 2026 14:39:53 +0000</pubDate></item><item><title>Autoshelf 有一个你可能并不需要的 MCP 服务器，而且规则引擎也很弱——评测</title><link>https://appaddict.app/post/autoshelf-has-an-mcp-server-you-probably-don-t-need-and-the-rule-engine-is-weak-a-review</link><description>&lt;figure&gt;
 &lt;img referrerpolicy="no-referrer" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNm40QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--aae62fbd1bdbad221b27ae404f33d70857238f53/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJZ0Eya0NJQU02Q25OaGRtVnlld2M2REhGMVlXeHBkSGxwV1RvS2MzUnlhWEJVIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--8cebb1c2983a7e4106444e274de6ebedc86813b1/CleanShot%202026-08-09%20at%2004.56.26.jpg"/&gt;
 &lt;/figure&gt;
 &lt;p&gt;太长不看版：&lt;a href="https://apps.apple.com/us/app/autoshelf-file-organizer/id6762361021?mt=12"&gt;AutoShelf&lt;/a&gt;（19.99美元一次性买断）内置了一个可用的MCP服务器，但你真的需要它吗？AI模型可以写一个launchd LaunchAgent和一个shell脚本，然后永远运行下去，不需要应用、不需要守护进程、不需要花钱。MCP的真正价值只有在你管理的规则多到想要用对话式审计和编辑而不是手工维护脚本时才会体现出来，而且即便到了那个程度，我的实际测试发现其底层规则引擎相当薄弱：没有动态子文件夹分类，按文件大小管理的功能有限，动作列表也只有Hazel的一小部分。AutoShelf用AI实现的效果不如其营销承诺，而且在文件整理这个核心论点上彻底落败。&lt;/p&gt;
@@ -199,19 +228,4 @@
 &lt;/ul&gt;
 &lt;p&gt;这四个应用中有三个几乎没有任何独立的评测记录。这对早期独立软件来说很正常，但意味着你就是测试案例。&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;除非另有说明，上面提到的替代应用是基于研究而非个人测试得出的。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=When%20You%20Need%20a%20Mac,%20But%20All%20You%20Have%20is%20a%20Phone%20-%20The%20Verdict%20on%20Four%20Free%20Alternatives%20to%20Leaving%20Work%20Undone"&gt;✉️ 通过邮件回复&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 03 Aug 2026 23:39:20 +0000</pubDate></item><item><title>TextSniper、MacPilot、Unite Pro、PDF Squeezer和Video Paw现正由开发者直接促销，折扣高达75%以上，持续至周五结束。</title><link>https://appaddict.app/post/textsniper-macpilot-unite-pro-pdf-squeezer-and-video-paw-on-sale-from-their-devs-until-friday-for-75-off</link><description>&lt;p&gt;本周（截至8月7日）你有机会以我所见过的历史最低价入手五款应用。&lt;a href="https://bundlehunt.com"&gt;促销详情&lt;/a&gt;。&lt;/p&gt;
-&lt;h3&gt;我个人实测过的应用评测&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li value="1"&gt;
-&lt;a href="https://appaddict.app/post/textsniper"&gt;TextSniper - 比原生OCR更好用 | AppAddict&lt;/a&gt;（$7.99 - 促销价$1.99 - 75%折扣）按下热键，在屏幕上的任意内容上拖出一个选框（锁定的PDF、视频画面、别人发给你的截图），文本就会自动进入你的剪贴板；它还能读取二维码和条形码，并能朗读捕获的文本。OCR完全在你的Mac上本地运行。&lt;a href="https://www.textsniper.app/"&gt;textsniper.app&lt;/a&gt;，&lt;a href="https://apps.apple.com/us/app/textsniper-ocr-copy-paste/id1528890965?mt=12"&gt;App Store&lt;/a&gt;
-&lt;/li&gt;
-&lt;li value="2"&gt;
-&lt;a href="https://appaddict.app/post/macpilot-tweaks-some-hard-to-get-to-settings-in-macos"&gt;MacPilot 调整macOS中一些难以触及的设置&lt;/a&gt;（$29.95 - 促销价$3.50 - 88%折扣）- 一个覆盖约1,200项隐藏macOS设置和&lt;code&gt;defaults write&lt;/code&gt;调整的图形界面：显示Finder隐藏文件、关闭开机提示音、添加Dock间隔、更改截图格式、运行维护脚本，全程无需打开终端。&lt;a href="https://www.koingosw.com/products/macpilot/"&gt;koingosw.com&lt;/a&gt;
-&lt;/li&gt;
-&lt;li value="3"&gt;
-&lt;a href="https://appaddict.app/post/unite-5-and-coherence-x-4-site-specific-browsers"&gt;Unite 5 - 站点专用浏览器&lt;/a&gt;（$39.99 - 促销价$5.00 - 87%折扣）将任何网站变成一个独立的原生Mac应用，可以以普通窗口、菜单栏下拉或侧边栏形式运行；你可以获得每个应用独立的cookies、自定义图标、广告拦截、用户脚本和CSS、键盘快捷键重映射，以及应用间的链接路由。Dock角标、Google/Outlook会议提醒和浮动AI助手悬浮窗等额外功能，是Safari的“添加到程序坞”无法企及的。&lt;a href="https://www.bzgapps.com/unite"&gt;bzgapps.com/unite&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;我（还）没试过的另外两款是：&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.cisdem.com/video-converter-mac/reviews.html"&gt;&lt;strong&gt;VideoPaw&lt;/strong&gt;&lt;/a&gt;（$69.99 - 促销价$6.50 - 91%折扣）- Cisdem的一体化媒体工具：批量转换600多种格式的视频和音频，从支持的网站下载片段，翻录DVD和蓝光光盘，压缩文件，以及录制屏幕/网络摄像头并支持实时标注。包含基础编辑功能（剪切、裁剪、合并、水印、字幕），因此可以替代三四个单一用途的下载工具。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.witt-software.com/pdfsqueezer/"&gt;&lt;strong&gt;PDF Squeezer&lt;/strong&gt;&lt;/a&gt;（$19.99 - 促销价$3.98 - 80%折扣）-- 拖入一个臃肿的PDF，它会通过重新压缩图像、去除未使用的字体和资源来缩小体积，并带有并排预览，让你直观看到自己会损失多少质量。批量处理、保存预设以及与Finder、Automator、快捷指令和命令行的集成，在我看来物超所值。&lt;/p&gt;&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=TextSniper,%20MacPilot,%20Unite%20Pro,%20PDF%20Squeezer%20and%20Video%20Paw%20on%20Sale%20from%20Their%20Devs%20Until%20Friday%20for%20%75+%20Off"&gt;✉️ 通过电子邮件回复&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 03 Aug 2026 15:17:44 +0000</pubDate></item></channel></rss>
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=When%20You%20Need%20a%20Mac,%20But%20All%20You%20Have%20is%20a%20Phone%20-%20The%20Verdict%20on%20Four%20Free%20Alternatives%20to%20Leaving%20Work%20Undone"&gt;✉️ 通过邮件回复&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 03 Aug 2026 23:39:20 +0000</pubDate></item></channel></rss>
