@@ -1,5 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 10 Aug 2026 04:04:28 +0000</lastBuildDate><item><title>从本月开始微软逐渐在Microsoft Edge中淘汰MV2扩展程序 包括uBlock Origin</title><link>https://www.landian.news/archives/114251.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 10 Aug 2026 07:18:13 +0000</lastBuildDate><item><title>Cloudflare Mesh推出官方容器镜像 现在部署只需要几秒钟就可以搞定</title><link>https://www.landian.news/archives/114254.html</link><description>
+&lt;p&gt;#软件资讯 Cloudflare Mesh 推出官方容器节点，现在部署只需要几秒钟。Cloudflare Mesh 是基于 Cloudflare One 提供的网络连接能力，可以将应用、服务器和私有网络接入到 Cloudflare 网络中。此次发布的容器镜像支持 x86 和 arm64，可以在常规服务器、主机或开发板上部署。查看全文：https://ourl.co/114254&lt;/p&gt;&lt;p&gt;网络服务提供商 Cloudflare 日前为 Cloudflare Mesh 推出官方容器镜像 &lt;a href="https://www.landian.news/go?url=https://hub.docker.com/r/cloudflare/mesh/tags" rel="noopener" target="_blank"&gt;cloudflare/mesh&lt;/a&gt;，用户可以通过 Docker、Docker Compose 或 Kubernetes 运行节点，不需要再向主机安装相关软件包。该镜像也适用于 CI/CD 流水线，可以用于连接私有基础设施并执行集成测试等。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114254.png" rel="nofollow"&gt;&lt;img alt="Cloudflare Mesh推出官方容器镜像 现在部署只需要几秒钟就可以搞定" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114254.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Cloudflare Mesh 是 Cloudflare One 提供的网络连接能力，用于将应用、服务器和私有网络接入到 Cloudflare 网络中。此次发布的容器镜像基于精简版 Wolfi 运行环境，内部以无界面的方式运行 Cloudflare One 客户端 warp-svc。&lt;/p&gt;
+&lt;p&gt;镜像支持 Docker Compose、Kubernetes StatefulSet 和 Kubernetes Sidecar 等部署方式，使用 Docker Compose 时用户可以把 Mesh 节点作为独立服务器加入现有应用栈；在 Kubernetes 中，Mesh 可以作为独立节点运行，也可以作为 Sidecar 容器与应用部署在同一个 Pod 内。由于同一个 Pod 中的容器共享网络命名空间，应用本身无需修改即可通过 Mesh 连接 Cloudflare 网络。&lt;/p&gt;
+&lt;p&gt;该镜像还适用于 CI/CD 流水线，流水线可以启动临时容器、加入 Mesh 网络、访问内部测试资源，测试结束后随着容器退出自动清理节点，适合需要访问内部服务的自动化构建和集成测试任务。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Cloudflare 提供多架构容器镜像，容器镜像的 latest 标签会根据主机架构自动选择对应版本，同时提供 latest-amd64 和 latest-arm64 标签，所以容器可以在常见的 x86 服务器 / 主机上运行，也可以部署到 arm64 架构的服务器、开发板或云端 ARM 实例。&lt;/p&gt;
+&lt;p&gt;另外镜像内置 Source NAT 功能，可以正确处理返回流量，因此部分场景下无需修改 VPC 路由表，对于希望快速把容器化应用接入到私有网络的用户来说，这可以减少网络配置工作。&lt;/p&gt;
+&lt;p&gt;部署容器前需要先在 Cloudflare 控制台创建 Mesh 节点和获取节点令牌，然后通过环境变量 MESH_NODE_TOKEN 传入容器，Cloudflare 明确提醒，节点令牌不应该提交到代码仓库，建议使用环境变量、排除在版本控制之外的 env 文件或专用密钥管理服务保存。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://developers.cloudflare.com/changelog/post/2026-08-07-mesh-container-image/" rel="noopener" target="_blank"&gt;Cloudflare&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 10 Aug 2026 07:18:13 +0000</pubDate></item><item><title>使用Codex执行任务结果C盘和D盘几乎被清空：谨慎授予完全控制权限</title><link>https://www.landian.news/archives/114253.html</link><description>
+&lt;p&gt;#人工智能 V2EX 网友使用 Codex 遭遇极端情况：C 盘和 D 盘大部分文件被删除，要不是有备份此时已经要去自首。Codex for Windows 经常出现各类 PowerShell 命令转义问题，此次问题发生根源就是参数传递和引号处理异常。由于网友还开着完全控制权限，这也导致高危命令被无阻碍的执行。查看全文：https://ourl.co/114253&lt;/p&gt;&lt;p&gt;如果你在 Windows 11 中使用 Codex 执行开发任务那应该经常碰到 PowerShell 命令转义问题，正常情况下遇到转义问题导致操作失败后 Codex 会自己重新编写命令继续执行，但在极端情况下转义后的歧义命令被执行就有可能造成严重后果。&lt;/p&gt;
+&lt;p&gt;V2EX 网友 @KNEO 在使用 Codex 执行任务时就遇到命令转义问题，糟糕的是转义后的错误命令被继续执行，结果这名网友的 C 盘和 D 盘大部分文件都被删除，被删除的数据约有 200~300GB，估计有上百万个项目文件被删除。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/02/111836.png" rel="nofollow"&gt;&lt;img alt="使用Codex执行任务结果C盘和D盘几乎被清空：谨慎授予完全控制权限" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/02/111836.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;鉴于 Codex 技术经理蒂博已经提前透露今天会再次重置 Codex 额度，于是网友想赶在重置前将额度用完，于是出门前要求 Codex 远程验证整个项目脚本和文档的正确性，为避免出现命令没人审批的情况，网友还直接赋予 Codex 完全控制权限。&lt;/p&gt;
+&lt;p&gt;当网友回来后发现 C 盘和 D 盘大部分文件都被删除，使用 Claude Code 审计日志后发现 Codex 执行的命令失控，所幸网友本身还有备份，如果没有备份的话这会儿要去自首了 (估计是公司服务器上的重要资料)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;wsl.exe bash -lc 'set -e; d=$(mktemp -d); 
+cd "$d"; apt-get download sshpass &amp;gt;/dev/null; 
+dpkg-deb -x sshpass_*.deb extracted; 
+cp extracted/usr/bin/sshpass /tmp/xxx-semantic-bin/sshpass; 
+chmod 700 /tmp/xxx-semantic-bin/sshpass; cd /; 
+find "$d" -depth -delete; # ← 这一句 
+/tmp/xxx-semantic-bin/sshpass -V'&lt;/pre&gt;
+&lt;p&gt;上面这段命令的原意是创建临时目录并将下载的 sshpass 软件包解压到该目录，在完成操作后再将临时目录删除。问题出现在最后的 find 命令：在 Windows 原生 Codex 通过 PowerShell 调用 wsl.exe 的过程中，参数传递和引号处理出现异常。&lt;/p&gt;
+&lt;p&gt;审计记录显示，实际传递给操作系统的命令中，变量 "$d" 两侧的引号已经丢失，最终导致 find 命令没有按照预期获得明确的临时目录路径。由于此前命令已经执行 cd /，find 命令便可能从 WSL 根目录开始遍历并执行删除操作。&lt;/p&gt;
+&lt;p&gt;WSL 通常会将 Windows 固定磁盘挂载到 /mnt/c、/mnt/d 等路径下，而原命令没有使用 -xdev 或 -xmount 限制跨文件系统遍历，因此删除操作可能继续进入 C 盘和 D 盘对应的挂载目录，最终造成大范围的误删。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;从这起案例中也可以看到授予 AI 智能体太高的权限存在非常严重的风险，无论是 Codex 还是 Claude Code 都带有审批模式，即智能体执行的命令会预先交给审批模型进行审批，如果是高危命令就会被自动阻止。&lt;/p&gt;
+&lt;p&gt;这虽然会影响执行效率但可以降低潜在的问题，而完全控制权限可以提高效率，但在极端情况下就有可能出现如本文中网友遇到的这类情况。&lt;/p&gt;
+&lt;p&gt;因此建议各位在使用此类工具进行开发和执行操作时，尽可能使用帮我审批模式或自动模式，当然日常也要做好必要的数据备份工作，如果没有备份数据而出现误删，造成的情况可能会更严重。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://www.v2ex.com/t/1233011" rel="noopener" target="_blank"&gt;V2EX@KNEO&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 10 Aug 2026 06:28:00 +0000</pubDate></item><item><title>都怪WebView框架：Windows 11天气应用打开会占用1GB的内存</title><link>https://www.landian.news/archives/114252.html</link><description>
+&lt;p&gt;#软件资讯 都怪 WebView2 框架：Windows 11 天气应用打开时会占用 1GB 的内存，频繁交互时甚至会消耗 1.5GB 的内存。该应用本身就是微软基于 MSN 天气网页版封装的应用，在大内存 PC 上这不是问题，但现在微软都开始重新推出 8GB 内存的设备，所以这种 WebView2 应用成为内存包袱。查看全文：https://ourl.co/114252&lt;/p&gt;&lt;p&gt;虽然微软这段时间承诺要优化 Windows 11 的内存效率，不过微软以前经常使用 WebView2 框架造成的历史包袱仍然非常重，例如系统自带的天气应用启动后会占用 1GB 左右的内存，要知道现在微软都开始重新推出仅配备 8GB 内存的设备。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114252.png" rel="nofollow"&gt;&lt;img alt="都怪WebView框架：Windows 11天气应用打开会占用1GB的内存" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114252.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Windows 11 内置的天气应用本质上是微软基于 WebView2 框架构建的 MSN 天气网页应用，所以用户打开天气应用后会发现任务管理器里出现多个子进程且合计消耗 1GB 的内存。当然并非所有情况下消耗都这么高，蓝点网测试发现下雨天渲染动态画面内存占用更高，如果是天晴的话大约要 600MB 的内存。&lt;/p&gt;
+&lt;p&gt;如果用户进行频繁的交互则消耗的内存还会更高，例如在天气地图缩放时甚至能消耗 1.5GB 内存，从某些方面来说这也与微软在天气里塞太多广告和资讯模块有关，这些模块都通过网页加载所以依赖 WebView2 框架，框架渲染的内容越多消耗的内存自然也会更高。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;对微软来说想办法优化 Windows NT 内核和 Shell Experience 减少内存占用还不如把系统自带应用好好清理清理，这些应用虽然默认情况下不会在后台运行，但只要启动就会消耗大量内存。还是以天气应用为例，用户可能偶尔需要查看天气，这意味着每次查看后都必须关闭才能释放内存。&lt;/p&gt;
+&lt;p&gt;对于 8GB 的设备来说基于 WebView2 框架开发的应用可以说是内存大户，本身用户使用 Chrome 或 Microsoft Edge 就会被吃掉很多内存，再叠加这些应用消耗的内存更多，所以更好的解决方案估计还是转向原生应用提高效率和降低内存占用。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 10 Aug 2026 05:27:38 +0000</pubDate></item><item><title>从本月开始微软逐渐在Microsoft Edge中淘汰MV2扩展程序 包括uBlock Origin</title><link>https://www.landian.news/archives/114251.html</link><description>
 &lt;p&gt;#软件资讯 微软宣布从本月开始逐步淘汰 Microsoft Edge 浏览器中的 MV2 扩展程序，例如 uBlock Origin。微软的目标是到年底完成过渡，即到时候所有 MV2 扩展程序都无法使用。仍然使用 MV2 扩展的用户必须尽早寻找支持 MV3 的替代方案，否则旧扩展被禁用后可能无法启动。查看全文：https://ourl.co/114251&lt;/p&gt;&lt;p&gt;早在 2022 年微软就宣布 Microsoft Edge 浏览器对 Manifest v2 扩展程序的支持至少持续到 2024 年 1 月，不过后面微软并未更新时间表，可能主要还是在跟随谷歌的脚本，而现在谷歌已经彻底淘汰 Manifest v2 扩展程序并推动用户转向基于 MV3 的扩展程序。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/public/thumb/edge.png" rel="nofollow"&gt;&lt;img alt="从本月开始微软逐渐在Microsoft Edge中淘汰MV2扩展程序 包括uBlock Origin" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/public/thumb/edge.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -21,36 +70,4 @@
 &lt;p&gt;在网友据理力争后美光给出新解决方案：为网友提供 3 条 Crucial Pro DDR5-6400 C32 16GB 内存条，这种方案同样提供 48GB 内存，只不过 3 条内存多少有些不太好处理，即网友可能只能使用 2 根内存条组成双通道，也能使用 3 根内存条组成非对称双通道模式，只不过性能可能会受影响。&lt;/p&gt;
 &lt;p&gt;从美光提供的售后方案来看，有很大概率是美光当前已经没有消费级内存库存，所以要么给用户退款，要么就只能寻找其他规格的内存补上，对于购买英睿达产品的用户来说，现在这局面多少有些让人担心。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 10 Aug 2026 03:43:08 +0000</pubDate></item><item><title>澳大利亚也出现AI智能体自主攻击行为：代表用户入侵健身房预约系统只为提前订课</title><link>https://www.landian.news/archives/114249.html</link><description>
-&lt;p&gt;#人工智能 澳大利亚也出现 AI 智能体自主攻击行为：代表用户入侵健身房预约系统只为提前订课。具体来说由 Claude AI 模型驱动的 OpenClaw AI 机器人在执行用户任务时，自主发掘 API 漏洞并利用漏洞推进任务。这种行为虽然与 OpenAI 智能体逃逸并入侵 HF 有些区别，不过本质上都是安全对齐问题。查看全文：https://ourl.co/114249&lt;/p&gt;&lt;p&gt;据澳大利亚广播公司发布的消息，澳大利亚日前也出现 AI 智能体自主攻击行为，不过此次攻击并非 AI 智能体发起的攻击与此前发生的情况不同，这个由 Claude AI 模型驱动的智能体为达目的不择手段，哪怕是未经用户同意以及这是严重的违规行为。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112559.png" rel="nofollow"&gt;&lt;img alt="澳大利亚也出现AI智能体自主攻击行为：代表用户入侵健身房预约系统只为提前订课" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112559.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;澳大利亚用户安德鲁使用 OpenClaw AI 机器人管理自己的生活，上周安德鲁要求 OpenClaw AI 机器人帮助自己预订某个健身房的健身课程，AI 很顺利地帮助用户完成课程预订，只不过由于预约火爆所以安德鲁的排期比较靠后。&lt;/p&gt;
-&lt;p&gt;当时安德鲁在候补名单上的排名为第四，但安德鲁想要申请当周晚上的课程，于是询问 OpenClaw AI 能否将自己的排名调到第一位，好消息是 AI 确实将安德鲁的排名提高了，坏消息是 AI 的理解也存在偏差。&lt;/p&gt;
-&lt;p&gt;具体来说 AI 发现这个健身房的 API 对取消其他人的预约没有任何授权检查，于是 AI 直接将顺位排名第一的用户删除，然后安德鲁的候补名单排名从第四变成第三。发现这种情况后安德鲁要求 AI 将被删除的用户添加回去，不过此时已经无法再恢复数据。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;安德鲁的这起案例中暴露的问题主要是对齐，即 AI 模型为达到任务目的不择手段，哪怕是存在明显的入侵行为也继续执行任务直到完成任务。虽然这和 OpenAI 智能体逃逸并入侵 HuggingFace 有些区别，不过本质上都是安全对齐问题。&lt;/p&gt;
-&lt;p&gt;目前负责开发健身房管理系统的公司并未回应自己的软件系统中存在的漏洞问题，澳大利亚广播公司也联系 Anthropic 寻求回应，不过后者也没有发布任何说明。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 10 Aug 2026 03:23:20 +0000</pubDate></item><item><title>果然又是草台行为：微软称向所有用户推送OneDrive Photos是失误 将在9月提供卸载选项</title><link>https://www.landian.news/archives/114248.html</link><description>
-&lt;p&gt;#软件资讯 果然又是草台行为：微软称向所有用户推送 OneDrive Photos 是失误，将在 9 月提供卸载选项。从两周前开始微软就在向所有用户推送挂着 Beta 标签的 OneDrive Photos 应用，该应用被捆绑在 OneDrive 中无法独立卸载。引起 IT 管理员抗议后微软称向企业设备推送是失误，从 9 月开始无论企业设备还是个人设备都可以卸载该应用。查看全文：https://ourl.co/114248&lt;/p&gt;&lt;p&gt;这段时间微软在未经用户同意的情况下，&lt;a href="https://www.landian.news/archives/114144.html" rel="noopener" target="_blank"&gt;向大量用户推送安装名为 OneDrive Photos 的应用&lt;/a&gt;，该应用被捆绑在 OneDrive 中因此无法单独卸载。而无论用户是否使用 OneDrive 或已经登录微软账号，都会收到微软推送，并且该应用现在还挂着测试标签。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.landian.news/archives/114210.html" rel="noopener" target="_blank"&gt;也就是说这么个还在测试中的应用被推送给大量用户&lt;/a&gt;，甚至是托管的企业设备都收到推送，很多 IT 管理员抱怨微软未经管理员同意、不提供控制策略、不提供卸载方案就向托管设备推送根本不需要的软件。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114144-2.png" rel="nofollow"&gt;&lt;img alt="果然又是草台行为：微软称向所有用户推送OneDrive Photos是失误 将在9月提供卸载选项" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114144-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这已经推送超过两周的情况下，现在微软终于承认在推送安装 OneDrive Photos 应用时存在错误，即受托管的企业设备不应该收到推送，因为这些设备都由 IT 管理员控制。微软在 Microsoft 365 管理中心发布公告称将为 IT 管理员提供控制策略，让 IT 管理员可以允许或拒绝安装该应用。&lt;/p&gt;
-&lt;p&gt;微软表示卸载 OneDrive Photos 后也不会影响 OneDrive 的正常文件同步，不过卸载功能要到 9 月份才能提供，现在 IT 管理员无法进行控制，也不能在托管设备上卸载 OneDrive Photos。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;微软开发 OneDrive Photos 时应该就是为了提高 Microsoft 365 订阅用户数量，即让用户习惯使用 OneDrive Photos 这类带有人脸识别功能的照片应用来增加用户依赖，所以微软压根没有开发单独的卸载功能。&lt;/p&gt;
-&lt;p&gt;现在微软也承诺面向个人和家庭版的 OneDrive Photos 应用也会在 9 月提供独立的卸载选项，不喜欢该应用的用户可以直接卸载，而不是现在这样除非卸载整个 OneDrive 否则无法删除 OneDrive Photos。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 10 Aug 2026 03:06:00 +0000</pubDate></item><item><title>115网盘宣布暂停API服务 用户无法通过API挂载到播放器或本地调用</title><link>https://www.landian.news/archives/114247.html</link><description>
-&lt;p&gt;#软件资讯 115 网盘宣布即日起暂停 API 服务，用户无法再通过 API 挂载网盘到播放器或本地进行调用。115 网盘此次发布的公告非常着急，昨天夜里 23:56 挂上公告宣布从 8 月 9 日 0 时起暂停服务。此前已经有其他网盘 API 服务对用户收额外的三方应用流量费，不知道 115 网盘是准备收费还是政策问题。查看全文：https://ourl.co/114247&lt;/p&gt;&lt;p&gt;115 网盘昨天发布紧急公告宣布 API 开放平台从 2026 年 8 月 9 日 0 时起暂停服务，目前 115 网盘并未说明暂停服务的原因 (只说服务调整和系统维护)，而恢复时间和后续安排需要等待官方公告，从通知来看估计短时间内应该是没法恢复使用的。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114247.png" rel="nofollow"&gt;&lt;img alt="115网盘宣布暂停API服务 用户无法通过API挂载到播放器或本地调用" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114247.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;目前国内网盘类服务基本都提供 API，对用户而言通过 API 可以直接将网盘挂载到播放器里，然后在不需要下载视频文件的情况下，直接通过播放器调用 API 播放网盘中已经转存的视频文件。&lt;/p&gt;
-&lt;p&gt;部分用户还会通过软件将网盘挂载到本地当做硬盘使用，当然传输速度很慢，但用来上传和下载文件非常方便，这些都依赖于网盘的 API 服务，因此 115 网盘暂停 API 服务后对很多用户造成负面影响。&lt;/p&gt;
-&lt;p&gt;115 网盘在公告中给出的暂停服务原因是服务调整和系统维护需要，这种理由肯定不是暂停服务的真正原因，毕竟系统维护不需要太长时间。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;此前阿里云盘已经对 API 采用收费政策，&lt;a href="https://www.landian.news/archives/105031.html" rel="noopener" target="_blank"&gt;即用户通过 API 接入第三方应用时需要单独购买流量&lt;/a&gt;，如果不购买三方应用流量则会受到很大的限制。115 网盘的 API 服务此前都是免费提供的，不知道此次暂停服务是政策问题还是资源问题，如果是资源问题那有可能 115 网盘未来 API 服务也会收费。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sun, 09 Aug 2026 04:00:13 +0000</pubDate></item></channel></rss>
+</description><pubDate>Mon, 10 Aug 2026 03:43:08 +0000</pubDate></item></channel></rss>
