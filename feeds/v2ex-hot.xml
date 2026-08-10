@@ -3,12 +3,12 @@
 type-token 的概念在语言学里都上百年了。
 不知道大家吵的“词元”翻译有什么意思？ 如果不是搞 NLP 的，单拿出来 token ，谁会知道这是个“形符”？&lt;/p&gt;
 &lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-08-10 21:51:10 +08:00"&gt;6h 41m ago&lt;/span&gt;
+Supplement 1  ·  &lt;span title="2026-08-10 21:51:10 +08:00"&gt;8h 36m ago&lt;/span&gt;
 
 我发现这个问题有些乱！&lt;br/&gt;到底大家把什么翻译成“词元”了？这得考虑预警吧？&lt;br/&gt;最早 NLP 和语言学课本里，管语料库里的 token （元素）叫词元。&lt;br/&gt;看大家帖子，怎么 access token 都变词元了？&lt;br/&gt;所以这问题到底出在哪？
 
 &lt;hr/&gt;
-Supplement 2  ·  &lt;span title="2026-08-10 22:02:41 +08:00"&gt;6h 29m ago&lt;/span&gt;
+Supplement 2  ·  &lt;span title="2026-08-10 22:02:41 +08:00"&gt;8h 25m ago&lt;/span&gt;
 
 我明白了，原来大家争论的不是技术问题。&lt;br/&gt;不管什么语境，总之 token 不能叫“词元”。&lt;br/&gt;谢谢大家提点。
 
@@ -106,7 +106,8 @@ Supplement 2  ·  &lt;span title="2026-08-10 22:02:41 +08:00"&gt;6h 29m ago&lt
 &lt;p&gt;&lt;strong&gt;#91 Bluecoda&lt;/strong&gt;：因为 token = 词元&lt;br/&gt;所以：&lt;br/&gt;区块链 NFT 的收藏品 叫作 NFT 词元&lt;br/&gt;API 加密用的 token ，也叫作 API 词元，OAuth 词元&lt;br/&gt;编译器词法分析之后的 token ，比如 int 的词元类型叫作 keyword&lt;br/&gt;Token bucket 限流算法，之前叫作令牌桶，现在要叫作 词元桶？&lt;br/&gt;&lt;br/&gt;是这样翻译吗？&lt;br/&gt;什么？你说不行？只有 LLM 的 token 要叫作词元，其他地方的 token 不能叫作词元？&lt;br/&gt;&lt;br/&gt;汉朝的时候，发生过一件事情&lt;br/&gt;那时候有个人翻译佛经，他发现梵文里有个概念，汉语里无法找一样意思的词语，他没有搞了一个类似“词元”的词来意译，而是用音译，叫作“般若”，发音也不是 ban ruo ，是 bo re 。&lt;br/&gt;我想现在这些赞同“词元”的人一定认为这个人是个傻逼。&lt;br/&gt;这个人为什么这么做？我想他第一：谦卑，他不认为他可以代表所有人去意译。第二，他不想剥夺其他人重新理解这个词的机会。到现在，汉语里也没有能够 100%代替般若的词。&lt;br/&gt;&lt;br/&gt;反观 2000 年后的今天，出现一个汉语不能 100%替换的词，此时，还要竞争一番，还想意图替代掉原词的意思。竟然还有那么多人点赞，不得不说，这是一种妥妥的倒退，这些人的眼里，只有种族，只有赢。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#92 1208nn&lt;/strong&gt;：我们很多时候说的 token ，实际上就是它的本意：代币。是作为一个计费单位的。资本是贪婪的，是要赚钱的。使用词元作为这样的场景的翻译，是对资本的洗白和美化。这里的 token 与我们很多时候所说的传统的 token 是一样的，比如天气 api 的 token 。这与人工智能没有强关联。key 具有使用 token 的能力，就像一个钱包，和过往一样，人们在某些场合也将其称为 token 。&lt;br/&gt;&lt;br/&gt;可笑的是，credit 横空出世。可是为什么不叫积分呢？是谁发明的啊，好奇怪啊，一定是外国人吧。这下子，钱得先“购汇”买积分了。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#93 LUO12826&lt;/strong&gt;：抛开立场不谈，其实也是某种隐匿的羞耻心理和优越感吧，觉得 token 翻译成词元是把一个熟悉的东西变成了一个陌生的东西，把一个“有着丰富的难以言表的意味的词”压成了一个“扁平”的汉语词汇，好像自己失去了什么。&lt;br/&gt;&lt;br/&gt;实际上大家工作中爱咋说咋说呗，这种翻译都是面向最广大的群众群体的，不是所有人都有英文能力和行业背景。&lt;br/&gt;&lt;br/&gt;换位思考一下，如果现在把别的领域的专有词汇和概念全都换回外文，难道就很舒服么？多少人知道 “扑热息痛”“布洛芬”原文怎么拼写？再去医学书里随便挑几个病症名看看呢？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#94 flyqie&lt;/strong&gt;：主要是 token 翻译后的泛化问题。&lt;br/&gt;&lt;br/&gt;比如#1 那个图。&lt;br/&gt;&lt;br/&gt;要是单指 llm token 的话还勉强能理解为是考虑到 ai 时代大家都在用搞的一个折中，虽然个人也是非常不喜欢。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Mon, 10 Aug 2026 09:40:38 +0000</pubDate></item><item><title>有人把「词元」一词塞进了 opencode</title><link>https://www.v2ex.com/t/1233284</link><description>&lt;p&gt;今天看到 opencode 发版了, 才注意到这个三天前的 PR: &lt;a href="https://github.com/anomalyco/opencode/pull/40977" rel="nofollow"&gt;https://github.com/anomalyco/opencode/pull/40977&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#94 flyqie&lt;/strong&gt;：主要是 token 翻译后的泛化问题。&lt;br/&gt;&lt;br/&gt;比如#1 那个图。&lt;br/&gt;&lt;br/&gt;要是单指 llm token 的话还勉强能理解为是考虑到 ai 时代大家都在用搞的一个折中，虽然个人也是非常不喜欢。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#95 Neear&lt;/strong&gt;：关我屁事和关你屁事的典型代表 😅&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Mon, 10 Aug 2026 09:40:38 +0000</pubDate></item><item><title>有人把「词元」一词塞进了 opencode</title><link>https://www.v2ex.com/t/1233284</link><description>&lt;p&gt;今天看到 opencode 发版了, 才注意到这个三天前的 PR: &lt;a href="https://github.com/anomalyco/opencode/pull/40977" rel="nofollow"&gt;https://github.com/anomalyco/opencode/pull/40977&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;PR 里的讨论现在还不多，但是已经有偏离技术和翻译本身的迹象了。
 不过抛开其他因素不谈，我也自始至终都觉得这是个糟糕的翻译。&lt;/p&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
