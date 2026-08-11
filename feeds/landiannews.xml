@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 10 Aug 2026 07:18:13 +0000</lastBuildDate><item><title>Cloudflare Mesh推出官方容器镜像 现在部署只需要几秒钟就可以搞定</title><link>https://www.landian.news/archives/114254.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 11 Aug 2026 01:00:04 +0000</lastBuildDate><item><title>加密即时通讯工具Signal正在开发无手机号注册 但需要一次性支付注册费</title><link>https://www.landian.news/archives/114268.html</link><description>
+&lt;p&gt;#软件资讯 默认采用端到端加密的即时通讯工具 Signal 正在开发无手机号注册功能，但用户需要支付一次性费用。Signal 追求隐私保护，埃隆马斯克都推荐和使用 Signal，不过长期以来 Signal 必须通过手机号注册，原因主要是打击欺诈和滥用。现在开发一次性收费注册服务算是给不愿意提供手机号码的用户多一种选择。查看全文：https://ourl.co/114268&lt;/p&gt;&lt;p&gt;长期以来端到端加密即时通讯工具 Signal 都只能通过手机号注册账号，这对于追求隐私的用户而言并不是个好选择，尽管 Signal 默认隐藏用户手机号并可以控制哪些用户可以查看自己的手机号，所以很多用户仍然期望 Signal 可以提供无需手机号码的注册方式。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2024/07/104893.png" rel="nofollow"&gt;&lt;img alt="加密即时通讯工具Signal正在开发无手机号注册 但需要一次性支付注册费" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2024/07/104893.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Signal 默认采用端到端加密传递消息，这与 Telegram 的机制完全不同，Telegram 默认采用非加密通讯并且仅在双方都指定 / 同意的情况下才会采用端到端加密，所以连埃隆马斯克都推荐和使用 Signal，而不是 Telegram 或 WhatsApp 等工具。&lt;/p&gt;
+&lt;p&gt;而 Signal 长期要求用户通过手机号注册本身就与隐私保护背道而驰，不过 Signal 首席执行官此前解释过，强制手机号码注册主要还是为了防止垃圾账号和滥用行为，即便是 Signal 平台也存在各类欺诈信息，强制手机号注册可以提高黑灰产滥用成本。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;目前 Signal 正在开发免手机号注册功能，该功能尚未上线，不过源代码显示 Signal 的免手机号注册将作为付费功能提供，用户只需要在注册的时候支付费用即可，并非订阅制。不过现在还不清楚 Signal 计划如何收费，既然考虑到打击滥用和验证身份，Signal 有可能会设置稍微高一些的价格以及要求用户通过信用卡支付等。&lt;/p&gt;
+&lt;p&gt;Signal 本身是非营利组织，所以通过收费注册也可以为该组织带来少量收入。Telegram 在部分国家也采用收费注册制，不过主要原因是发送短信验证码费用太高，部分国家的号码注册 Telegram 时甚至要支付 1 美元的短信通道费，所以 Signal 与 Telegram 收费的目的完全不同。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 11 Aug 2026 01:00:04 +0000</pubDate></item><item><title>当Windows Server 2025测试版没有更新触发时间炸弹后会发生什么？程序无法启动</title><link>https://www.landian.news/archives/114255.html</link><description>
+&lt;p&gt;#系统资讯 Windows 11/Windows Server 预览版过期后遇到时间炸弹会怎样？Windows 11 会每 4 小时弹出提醒，Windows Server 2025 则可能很多文件无法运行。服务器版很多文件签名证书与系统过期时间类似，所以出现时间炸弹后情况更严重，这些文件会被 UAC 拦截，有些可以手动启动，有些被系统策略阻挡无法启动。查看全文：https://ourl.co/114255&lt;/p&gt;&lt;p&gt;使用 Windows 11 测试版时必须保证及时更新，因为微软已经为每个版本设置固定的过期时间，通常过期时间在 8 个月～1 年左右，因此有些用户通过虚拟机安装测试版后不经常使用而没有更新，就有可能在开机的时候遇到时间炸弹。&lt;/p&gt;
+&lt;p&gt;所谓时间炸弹指的是系统过期而触发的弹窗提醒，时间炸弹在 Windows 11 常规测试版、Windows Server 2025 预览版中都存在，对用户而言定期更新系统版本至关重要，否则触发时间炸弹后可能会遇到各种定时弹窗和软件无法启动的情况。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; Windows 11 出现的时间炸弹通常是这样的：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Windows 11 出现时间炸弹问题时会每 4 小时弹出提醒，这个提醒不能关闭，也没有临时解决方案，要解决问题必须升级到最新版。有些用户通过 UUPDL 制作的测试版镜像文件安装虚拟机，本身并没有登录账户和开通 Windows Insider 预览计划，这种情况下也无法更新。&lt;/p&gt;
+&lt;p&gt;如果用户登录账号开通预览计划则需要最长 24 小时才能收到更新，所以更快的解决方案就是再次通过 UUPDL 制作离线安装镜像，然后通过镜像文件手动升级到最新版。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114103.png" rel="nofollow"&gt;&lt;img alt="当Windows Server 2025测试版没有更新触发时间炸弹后会发生什么？程序无法启动" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114103.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; Windows Server 预览版时间炸弹更严重：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;如果你安装 Windows Server 2025 等服务器版的预览版，当长期未更新出现时间炸弹时，情况还会更严重。主要问题还是很多二进制文件签名证书过期导致无法通过 UAC 校验，有些文件可以在用户确认后启动，有些文件则会被系统策略彻底拦截无法运行。&lt;/p&gt;
+&lt;p&gt;遇到这种情况同样是要立即更新系统，如果无法正常更新那同样可以依赖 UUPDL 这个开源网站提供的程序，自己手动打包离线安装镜像后升级即可，所以建议通过虚拟机安装测试版的用户，也不需要频繁更新，但至少得保证 6 个月左右升级新版本。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114255-1.png" rel="nofollow"&gt;&lt;img alt="当Windows Server 2025测试版没有更新触发时间炸弹后会发生什么？文件无法启动" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114255-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114255-2.png" rel="nofollow"&gt;&lt;img alt="当Windows Server 2025测试版没有更新触发时间炸弹后会发生什么？文件无法启动" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114255-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114255-3.png"/&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;图片源：&lt;a href="https://www.landian.news/go?url=https://x.com/XenoPanther/status/2086138112632127747/photo/3" rel="noopener" target="_blank"&gt;Xeno&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 11 Aug 2026 00:30:29 +0000</pubDate></item><item><title>Cloudflare Mesh推出官方容器镜像 现在部署只需要几秒钟就可以搞定</title><link>https://www.landian.news/archives/114254.html</link><description>
 &lt;p&gt;#软件资讯 Cloudflare Mesh 推出官方容器节点，现在部署只需要几秒钟。Cloudflare Mesh 是基于 Cloudflare One 提供的网络连接能力，可以将应用、服务器和私有网络接入到 Cloudflare 网络中。此次发布的容器镜像支持 x86 和 arm64，可以在常规服务器、主机或开发板上部署。查看全文：https://ourl.co/114254&lt;/p&gt;&lt;p&gt;网络服务提供商 Cloudflare 日前为 Cloudflare Mesh 推出官方容器镜像 &lt;a href="https://www.landian.news/go?url=https://hub.docker.com/r/cloudflare/mesh/tags" rel="noopener" target="_blank"&gt;cloudflare/mesh&lt;/a&gt;，用户可以通过 Docker、Docker Compose 或 Kubernetes 运行节点，不需要再向主机安装相关软件包。该镜像也适用于 CI/CD 流水线，可以用于连接私有基础设施并执行集成测试等。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114254.png" rel="nofollow"&gt;&lt;img alt="Cloudflare Mesh推出官方容器镜像 现在部署只需要几秒钟就可以搞定" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114254.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -48,26 +74,4 @@ find "$d" -depth -delete; # ← 这一句
 &lt;p&gt;对微软来说想办法优化 Windows NT 内核和 Shell Experience 减少内存占用还不如把系统自带应用好好清理清理，这些应用虽然默认情况下不会在后台运行，但只要启动就会消耗大量内存。还是以天气应用为例，用户可能偶尔需要查看天气，这意味着每次查看后都必须关闭才能释放内存。&lt;/p&gt;
 &lt;p&gt;对于 8GB 的设备来说基于 WebView2 框架开发的应用可以说是内存大户，本身用户使用 Chrome 或 Microsoft Edge 就会被吃掉很多内存，再叠加这些应用消耗的内存更多，所以更好的解决方案估计还是转向原生应用提高效率和降低内存占用。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 10 Aug 2026 05:27:38 +0000</pubDate></item><item><title>从本月开始微软逐渐在Microsoft Edge中淘汰MV2扩展程序 包括uBlock Origin</title><link>https://www.landian.news/archives/114251.html</link><description>
-&lt;p&gt;#软件资讯 微软宣布从本月开始逐步淘汰 Microsoft Edge 浏览器中的 MV2 扩展程序，例如 uBlock Origin。微软的目标是到年底完成过渡，即到时候所有 MV2 扩展程序都无法使用。仍然使用 MV2 扩展的用户必须尽早寻找支持 MV3 的替代方案，否则旧扩展被禁用后可能无法启动。查看全文：https://ourl.co/114251&lt;/p&gt;&lt;p&gt;早在 2022 年微软就宣布 Microsoft Edge 浏览器对 Manifest v2 扩展程序的支持至少持续到 2024 年 1 月，不过后面微软并未更新时间表，可能主要还是在跟随谷歌的脚本，而现在谷歌已经彻底淘汰 Manifest v2 扩展程序并推动用户转向基于 MV3 的扩展程序。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/public/thumb/edge.png" rel="nofollow"&gt;&lt;img alt="从本月开始微软逐渐在Microsoft Edge中淘汰MV2扩展程序 包括uBlock Origin" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/public/thumb/edge.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;日前微软宣布从本月开始 Microsoft Edge 浏览器将开始逐步淘汰基于 MV2 的扩展程序，微软首先会在 Microsoft Edge Canary、Dev 和 Beta 版中进行淘汰，随后几个月逐步扩展到稳定版，微软的目标是在 2026 年年底前完成消费者过渡。&lt;/p&gt;
-&lt;p&gt;到时候所有基于 MV2 的扩展程序都将被自动禁用，包括备受好评的广告拦截扩展程序 uBlock Origin，用户必须寻找替代扩展程序例如 uBlock Origin Lite 版，如果某些扩展程序已经被开发者放弃，那可能没有可以正常使用的新版本。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;针对在托管设备上运行 Microsoft Edge 浏览器的用户，微软按惯例会给企业提供额外的过渡时间，具体来说微软从 2027 年年初开始逐步淘汰企业设备上的 Microsoft Edge MV2 扩展程序，虽然有过渡时间但不是很长，所以 IT 管理员还是要提前迁移扩展程序，尤其是企业内部自用的扩展程序。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://blogs.windows.com/msedgedev/2026/08/07/moving-the-microsoft-edge-extensions-ecosystem-forward-with-manifest-version-3/" rel="noopener" target="_blank"&gt;微软官方博客&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 10 Aug 2026 04:04:28 +0000</pubDate></item><item><title>美光英睿达退出消费级市场后出现售后问题 用户内存故障后美光只愿意原价退款</title><link>https://www.landian.news/archives/114250.html</link><description>
-&lt;p&gt;#硬件设备 美光英睿达停产内存和固态硬盘后用户遇到售后问题，48GB 内存套装出问题后美光只愿意原价退款 240 美元，但重新购买要 1400 美元。美光目前应该是没有消费级内存库存了，所以不提供退换货服务，在网友据理力争后美光最终提供 3 根 16GB 的内存条。查看全文：https://ourl.co/114250&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/111265.html" rel="noopener" target="_blank"&gt;美光旗下消费级产品品牌英睿达目前已经退出市场不再销售内存和固态硬盘等产品&lt;/a&gt;，美光将所有产品线转向利润更高的企业市场，尽管在退市时美光承诺会继续提供必要的售后服务，不过当用户真寻求售后服务时可能会遇到糟心的问题，比如美光只愿意原价退款。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2024/07/105014.png" rel="nofollow"&gt;&lt;img alt="美光英睿达退出消费级市场后出现售后问题 用户内存故障后美光只愿意原价退款" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2024/07/105014.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;有网友购买的美光英睿达内存套装 48GB (2x24GB) DDR5 故障后，按照正常流程向美光提出售后服务请求，网友购买这个内存套装时仅为 240 美元左右，由于这是内存套装因此哪怕只有 1 根内存条故障，网友也必须将 2 根内存条都寄回给美光进行检测。&lt;/p&gt;
-&lt;p&gt;美光给出的解决方案竟然是全额退款，美光称该公司不再为保修产品提供换货服务，所以用户可以提交购买凭证以获得全额退款，根据邮件截图，用户购买时含税实际付款 241.86 美元，因此美光准备向用户退款 241.86 美元。&lt;/p&gt;
-&lt;p&gt;这种解决方案直接激怒网友，因为现在同等规格的内存套装售价大约在 1400 美元左右，如果网友接受退款则必须额外花费 1200 美元左右重新购买内存条，这对用户而言显然就是血亏，所以网友无法接受这种解决方案。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在网友据理力争后美光给出新解决方案：为网友提供 3 条 Crucial Pro DDR5-6400 C32 16GB 内存条，这种方案同样提供 48GB 内存，只不过 3 条内存多少有些不太好处理，即网友可能只能使用 2 根内存条组成双通道，也能使用 3 根内存条组成非对称双通道模式，只不过性能可能会受影响。&lt;/p&gt;
-&lt;p&gt;从美光提供的售后方案来看，有很大概率是美光当前已经没有消费级内存库存，所以要么给用户退款，要么就只能寻找其他规格的内存补上，对于购买英睿达产品的用户来说，现在这局面多少有些让人担心。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 10 Aug 2026 03:43:08 +0000</pubDate></item></channel></rss>
+</description><pubDate>Mon, 10 Aug 2026 05:27:38 +0000</pubDate></item></channel></rss>
