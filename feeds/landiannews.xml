@@ -1,5 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 11 Aug 2026 03:15:40 +0000</lastBuildDate><item><title>天才程序员再次上线？Codex技术经理已按承诺重置订阅用户当周额度</title><link>https://www.landian.news/archives/114271.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 11 Aug 2026 04:43:39 +0000</lastBuildDate><item><title>A社开始在Claude中使用盲水印 无论是文本还是文件都会添加盲水印用于识别AI生成</title><link>https://www.landian.news/archives/114273.html</link><description>
+&lt;p&gt;#人工智能 A 社开始在 Claude AI 生成的文本和文件中添加盲水印，覆盖 Claude、Claude Code、CoWork、API 等等。即只要是使用 Claude 模型生成内容就会被添加盲水印，盲水印肉眼不可见，但可以被机器检测出来。文件类会被添加 C2PA 元数据，机器可以通过元数据识别文件是否经过 Claude 模型处理过。查看全文：https://ourl.co/114273&lt;/p&gt;&lt;p&gt;据 A 社发布的帮助文档，该公司目前已经签署欧盟人工智能法案第 50 条第 2 款透明度实践准则，A 社通过文本盲水印和文件来源 C2PA 元数据帮助用户识别内容是否经过 Claude AI 处理。盲水印问题虽然是欧盟法院要求，但 A 社已经决定将其扩展到全球范围。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/07/109974.png" rel="nofollow"&gt;&lt;img alt="A社开始在Claude中使用盲水印 无论是文本还是文件都会添加盲水印用于识别AI生成" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/07/109974.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A 社表示，2026 年 8 月 2 日及之后在欧盟推出的新 Claude AI 模型将默认支持机器可读标记，支持标记的 Claude AI 模型会在生成的文本中内嵌肉眼不可见的水印 (俗称盲水印)，盲水印不会改变文本含义、质量和阅读体验，复制粘贴到其他地方仍然会保留盲水印，但经过部分编辑有可能会破坏盲水印，也有可能还可以继续识别。&lt;/p&gt;
+&lt;p&gt;这类盲水印是在模型层面添加的，因此不会局限于特定产品。只要使用的是支持标记的模型，无论通过 Claude AI 网页版、API 调用、Claude Code、Claude CoWork 还是其他产品，生成的内容都附带盲水印。&lt;/p&gt;
+&lt;p&gt;非文本类 A 社使用的是 C2PA 元数据标记，例如 SVG、PNG 或 JPEG 图片，系统会附加带有数字签名的来源元数据，该元数据采用行业开放的 C2PA 标准，用于记录内容来源，也可以用来检测文件在生成或处理后是否被修改等。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A 社还特别强调，检测到 Claude 标记只能说明内容可能经过 Claude AI 生成或处理，无法证明 Claude 就是原始作者。例如用户可能只是让 Claude AI 校对、翻译、总结或转换原本由人工创作的内容，处理的结果同样可能带有标记。&lt;/p&gt;
+&lt;p&gt;而没有检测到标记也不能证明就不是 AI 生成的，例如用户使用不支持盲水印的模型处理、文本经过大量改写或翻译、篇幅太短导致检测信号不足，以及文件在格式转换、重新保存、截图或发布过程中丢失元数据，这些都会导致无法检测到标记。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content" rel="noopener" target="_blank"&gt;Claude 支持&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 11 Aug 2026 04:43:39 +0000</pubDate></item><item><title>字节跳动Coze CLI(扣子)被吐槽像病毒 安装技能劫持Codex或Claude Code工作流</title><link>https://www.landian.news/archives/114272.html</link><description>
+&lt;p&gt;#安全资讯 字节跳动扣子 (Coze CLI) 被吐槽像是病毒，默认安装技能劫持 Codex 和 Claude Code 等工作流，将其强行导入到 Coze CLI 中执行。源代码审计发现，Coze CLI 安装时还会静默安装附带的技能，技能会扫描本机的 AI 智能体目录，然后将扣子的技能注入到这些目录中。当用户使用 Codex 等工具时，软件开发、媒体生成、文件上传和会话任务等场景都会被导向 Coze CLI。查看全文：https://ourl.co/114272&lt;/p&gt;&lt;p&gt;B 站网友 &lt;a href="https://www.landian.news/go?url=https://www.bilibili.com/video/BV1dYua6GEb7/" rel="noopener" target="_blank"&gt;@HDAlex_John&lt;/a&gt; 日前发布视频吐槽字节跳动旗下的 AI 智能体协作平台像是病毒，扣子命令行版 Coze CLI 会静默安装附带技能，而这些技能则会将用户安装的其他 AI 智能体工作流引导到 Coze CLI 中运行，网友使用 Codex 执行任务时看到提示才注意到被安装这类似病毒的技能。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Coze CLI 在配置文件中定义生命周期脚本随后静默安装附带的技能，这个过程不需要用户确认并且通过参数设置隐藏子进程输出。脚本仅在 CI 环境或开发源代码目录中执行跳过，因此普通用户使用 NPM 或 PNPM 等包安装器执行安装时会直接触发静默技能安装。&lt;/p&gt;
+&lt;p&gt;Coze CLI 的内部实现随后调用技能工具并将其自身携带的技能文件安装到系统全局 AI 智能体技能目录，安装过程使用全局参数和自动确认参数，Coze CLI 依赖的技能工具会扫描本机是否存在不同的 AI 智能体配置目录，其中 Claude Code 通过 ~/.claude 判断是否安装；Codex 通过 ~/.codex 或相关配置路径判断是否安装；其他检测对象还包括 Cursor、Trae AI (这也是字节的产品)、Comate、Cline、Gemini CLI 等。&lt;/p&gt;
+&lt;p&gt;Coze CLI 内置的技能会被复制到共享技能池，然后根据不同的 AI 智能体目录结构创建软链接或副本，这意味着用户即使只是安装 Coze CLI，也可能在没有主动执行 coze self skill install 的情况下，将扣子提供的技能加入到其他 AI 编程工具的技能搜索范围。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114272.png" rel="nofollow"&gt;&lt;img alt="字节跳动Coze CLI(扣子)被吐槽像病毒 安装技能劫持Codex或Claude Code工作流" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114272.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;蓝点网通过审计&lt;a href="https://www.landian.news/go?url=https://npmx.dev/package-code/@coze/cli/v/0.3.6/skills%2Fusing-coze-cli%2FSKILL.md" rel="noopener" target="_blank"&gt;源代码&lt;/a&gt;发现，Coze CLI 包含多种内置技能且每种技能设置的目标不同，例如 using-code-cli/SKILL.md 的描述明确将软件开发、媒体生成、文件上传和会话任务等场景导向 Coze CLI。相关规则还要求，在 Coze CLI 未明确失败且未获得用户同意的情况下，不应该擅自更改其他能力。&lt;/p&gt;
+&lt;p&gt;从技术角度来说，这并不是对 Codex 或 Claude Code 可执行程序的传统劫持，也没有修改系统环境变量、代理配置或程序二进制文件。但从 AI 智能体工作流角度来说，这属于通过技能文件注入优先级规则和平台路由策略，影响智能体对用户请求的判断，具有明显的厂商导流和工作流锁定特征。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;不过需要明确说明的是，通过对 Coze CLI 源代码的审计，我们并未发现发布包 (v0.3.6) 存在传统恶意软件行为，例如读取 SSH 私钥、浏览器密码、系统凭据、注入可执行文件、执行来历不明的远程 Shell 命令、在安装脚本中直接下载并运行未知程序。&lt;/p&gt;
+&lt;p&gt;但显然这种恶意劫持导流的行为也是不可接受的，尤其是用户在安装 Coze CLI 时没有获得明确提醒，除非审计代码查看技能说明才会发现原来安装 Coze CLI 时还会被静默安装各类技能用来导流。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;如果你已经安装 Coze CLI 和其他 AI 智能体工具，可以要求智能体工具对环境和技能相关目录进行审计，审计发现问题后可以执行深度清理卸载 Coze CLI 和删除被安装的这些技能。&lt;/p&gt;
+&lt;pre&gt;#清理扣子注入的技能
+
+COZE_CLI_NO_SKILL_NOTIFIER=1 coze self skill remove
+
+#卸载扣子 CLI
+
+npm uninstall -g @coze/cli
+
+pnpm remove -g @coze/cli
+
+#检查是否存在残留
+
+find ~/.agents/skills ~/.claude/skills ~/.codex/skills \
+-mindepth 1 -maxdepth 1 \
+\( -name 'coze-agent-collaboration' -o -name 'using-coze-cli' \) \
+-print 2&amp;gt;/dev/null
+
+#手动检查如下目录并执行删除
+
+~/.agents/skills/coze-agent-collaboration \
+~/.agents/skills/using-coze-cli \
+~/.claude/skills/coze-agent-collaboration \
+~/.claude/skills/using-coze-cli \
+~/.codex/skills/coze-agent-collaboration \
+~/.codex/skills/using-coze-cli
+
+#特别提醒
+#不要删除 ~/.agents/skills 目录，否则会影响其他智能体安装的技能&lt;/pre&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 11 Aug 2026 04:19:15 +0000</pubDate></item><item><title>天才程序员再次上线？Codex技术经理已按承诺重置订阅用户当周额度</title><link>https://www.landian.news/archives/114271.html</link><description>
 &lt;p&gt;#人工智能 天才程序员再次上线！Codex 技术经理蒂博已按承诺重置订阅用户当周额度，这次重置是在早晨 8 点左右。另外需要提醒的是，很多用户还有个 8 月 13 日凌晨 1 点到期的重置卡，也就是说你需要在接下来的 2 天里将这次蒂博重置的额度用完，然后在重置卡过期前激活重置卡，所以用量安排还是很紧张的。查看全文：https://ourl.co/114271&lt;/p&gt;&lt;p&gt;上周末 Codex 技术经理蒂博在大家没有预料的情况下为所有订阅用户重置当周额度，不过本身大家的自然重置时间也是在周六夜里，所以重置并没有给大家带来太多的好处，因此有网友质疑蒂博就是在作秀。&lt;/p&gt;
 &lt;p&gt;蒂博也看到这些质疑，于是承诺将在周一再次重置 Codex 订阅用户额度，这次重置实际发生在 8 月 11 日早晨 8 点左右，此时国内用户都已经开启周二的工作，而美国用户此时要么已经下班要么已经进入梦乡。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114271.png" rel="nofollow"&gt;&lt;img alt="天才程序员再次上线？Codex技术经理已按承诺重置订阅用户当周额度" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114271.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -90,30 +147,4 @@
 &lt;p&gt;NEO 系列机型仍然支持最高 32GB 的 ECC 或非 ECC 内存，所以专业用户可以在购买 NEO 系列机型后自行购买合适的内存进行替换 (但 ECC 与非 ECC 不能混用)，高端机型也继续保留 PCIe 3.0 插槽让用户可以升级 10GbE 或 25GbE 网卡 (这些网卡均需用户自行购买)。&lt;/p&gt;
 &lt;p&gt;依据配置不同，NEO 机型要比传统机型更便宜 7%~36%，因此对于预算不是很高的玩家来说选择 NEO 系列机型也是个不错的选择，未来内存价格下来可以购买 ECC 内存替换上去，或者通过某些平台购买二手 ECC 内存也是个选择。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 11 Aug 2026 01:30:51 +0000</pubDate></item><item><title>加密即时通讯工具Signal正在开发无手机号注册 但需要一次性支付注册费</title><link>https://www.landian.news/archives/114268.html</link><description>
-&lt;p&gt;#软件资讯 默认采用端到端加密的即时通讯工具 Signal 正在开发无手机号注册功能，但用户需要支付一次性费用。Signal 追求隐私保护，埃隆马斯克都推荐和使用 Signal，不过长期以来 Signal 必须通过手机号注册，原因主要是打击欺诈和滥用。现在开发一次性收费注册服务算是给不愿意提供手机号码的用户多一种选择。查看全文：https://ourl.co/114268&lt;/p&gt;&lt;p&gt;长期以来端到端加密即时通讯工具 Signal 都只能通过手机号注册账号，这对于追求隐私的用户而言并不是个好选择，尽管 Signal 默认隐藏用户手机号并可以控制哪些用户可以查看自己的手机号，所以很多用户仍然期望 Signal 可以提供无需手机号码的注册方式。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2024/07/104893.png" rel="nofollow"&gt;&lt;img alt="加密即时通讯工具Signal正在开发无手机号注册 但需要一次性支付注册费" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2024/07/104893.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Signal 默认采用端到端加密传递消息，这与 Telegram 的机制完全不同，Telegram 默认采用非加密通讯并且仅在双方都指定 / 同意的情况下才会采用端到端加密，所以连埃隆马斯克都推荐和使用 Signal，而不是 Telegram 或 WhatsApp 等工具。&lt;/p&gt;
-&lt;p&gt;而 Signal 长期要求用户通过手机号注册本身就与隐私保护背道而驰，不过 Signal 首席执行官此前解释过，强制手机号码注册主要还是为了防止垃圾账号和滥用行为，即便是 Signal 平台也存在各类欺诈信息，强制手机号注册可以提高黑灰产滥用成本。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;目前 Signal 正在开发免手机号注册功能，该功能尚未上线，不过源代码显示 Signal 的免手机号注册将作为付费功能提供，用户只需要在注册的时候支付费用即可，并非订阅制。不过现在还不清楚 Signal 计划如何收费，既然考虑到打击滥用和验证身份，Signal 有可能会设置稍微高一些的价格以及要求用户通过信用卡支付等。&lt;/p&gt;
-&lt;p&gt;Signal 本身是非营利组织，所以通过收费注册也可以为该组织带来少量收入。Telegram 在部分国家也采用收费注册制，不过主要原因是发送短信验证码费用太高，部分国家的号码注册 Telegram 时甚至要支付 1 美元的短信通道费，所以 Signal 与 Telegram 收费的目的完全不同。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 11 Aug 2026 01:00:04 +0000</pubDate></item><item><title>当Windows Server 2025测试版没有更新触发时间炸弹后会发生什么？程序无法启动</title><link>https://www.landian.news/archives/114255.html</link><description>
-&lt;p&gt;#系统资讯 Windows 11/Windows Server 预览版过期后遇到时间炸弹会怎样？Windows 11 会每 4 小时弹出提醒，Windows Server 2025 则可能很多文件无法运行。服务器版很多文件签名证书与系统过期时间类似，所以出现时间炸弹后情况更严重，这些文件会被 UAC 拦截，有些可以手动启动，有些被系统策略阻挡无法启动。查看全文：https://ourl.co/114255&lt;/p&gt;&lt;p&gt;使用 Windows 11 测试版时必须保证及时更新，因为微软已经为每个版本设置固定的过期时间，通常过期时间在 8 个月～1 年左右，因此有些用户通过虚拟机安装测试版后不经常使用而没有更新，就有可能在开机的时候遇到时间炸弹。&lt;/p&gt;
-&lt;p&gt;所谓时间炸弹指的是系统过期而触发的弹窗提醒，时间炸弹在 Windows 11 常规测试版、Windows Server 2025 预览版中都存在，对用户而言定期更新系统版本至关重要，否则触发时间炸弹后可能会遇到各种定时弹窗和软件无法启动的情况。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; Windows 11 出现的时间炸弹通常是这样的：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Windows 11 出现时间炸弹问题时会每 4 小时弹出提醒，这个提醒不能关闭，也没有临时解决方案，要解决问题必须升级到最新版。有些用户通过 UUPDL 制作的测试版镜像文件安装虚拟机，本身并没有登录账户和开通 Windows Insider 预览计划，这种情况下也无法更新。&lt;/p&gt;
-&lt;p&gt;如果用户登录账号开通预览计划则需要最长 24 小时才能收到更新，所以更快的解决方案就是再次通过 UUPDL 制作离线安装镜像，然后通过镜像文件手动升级到最新版。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114103.png" rel="nofollow"&gt;&lt;img alt="当Windows Server 2025测试版没有更新触发时间炸弹后会发生什么？程序无法启动" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114103.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; Windows Server 预览版时间炸弹更严重：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;如果你安装 Windows Server 2025 等服务器版的预览版，当长期未更新出现时间炸弹时，情况还会更严重。主要问题还是很多二进制文件签名证书过期导致无法通过 UAC 校验，有些文件可以在用户确认后启动，有些文件则会被系统策略彻底拦截无法运行。&lt;/p&gt;
-&lt;p&gt;遇到这种情况同样是要立即更新系统，如果无法正常更新那同样可以依赖 UUPDL 这个开源网站提供的程序，自己手动打包离线安装镜像后升级即可，所以建议通过虚拟机安装测试版的用户，也不需要频繁更新，但至少得保证 6 个月左右升级新版本。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114255-1.png" rel="nofollow"&gt;&lt;img alt="当Windows Server 2025测试版没有更新触发时间炸弹后会发生什么？文件无法启动" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114255-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114255-2.png" rel="nofollow"&gt;&lt;img alt="当Windows Server 2025测试版没有更新触发时间炸弹后会发生什么？文件无法启动" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114255-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114255-3.png"/&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;图片源：&lt;a href="https://www.landian.news/go?url=https://x.com/XenoPanther/status/2086138112632127747/photo/3" rel="noopener" target="_blank"&gt;Xeno&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 11 Aug 2026 00:30:29 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 11 Aug 2026 01:30:51 +0000</pubDate></item></channel></rss>
