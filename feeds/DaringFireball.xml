@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Mon, 10 Aug 2026 22:25:00 +0000</lastBuildDate><item><title>[赞助商] Drata</title><link>https://drata.com/daring</link><description>&lt;p&gt;利用自主AI智能体实现合规自动化，管理内部与第三方风险，并持续证明您的安全态势。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 11 Aug 2026 17:59:22 +0000</lastBuildDate><item><title>Anthropic发布“Claude如何标记AI生成内容”一文，却未解释Claude如何标记AI生成内容</title><link>https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content</link><description>&lt;p&gt;Anthropic 支持页面：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;作为生成式AI模型和生成式AI系统的提供商，Anthropic已签署欧盟《人工智能法案》第50(2)条关于AI生成内容透明度的实践准则。本文介绍了我们计划如何将这些承诺付诸实践、标记机制如何运作及其局限性。随着更多信息的公布，我们将更新本文并发布更详细的技术指南。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;关于生成的纯文本输出：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;当受支持的Claude模型生成文本时，它会在文本本身中嵌入一个不可感知的水印。您不会看到它，也不会改变Claude回复的含义、质量或可读性。&lt;/p&gt;
+&lt;p&gt;由于水印是文本的一部分，当文本被复制粘贴到其他地方时，水印会随文本一同传播，并可能在某些编辑操作后仍然保留。水印将在模型层面应用，这意味着无论文本来自哪个Claude产品或界面，水印都会存在。[...]&lt;/p&gt;
+&lt;p&gt;我们还在努力让用户和其他第三方能够检测Claude嵌入的水印和来源元数据。检测会检查一段文本或文件是否带有受支持的Claude标记。如果找到受支持的标记，则表明该内容可能由Claude处理过。&lt;/p&gt;
+&lt;p&gt;我们将在后续的技术文档中分享检测机制的细节。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Anthropic声称这是为了遵守欧盟法律，但“标记将适用于全球范围内所有提供Claude的地方的受支持模型输出。”&lt;/p&gt;
+&lt;p&gt;这令人气愤地不透明。我不打算讨论他们声称将嵌入生成的&lt;em&gt;文件&lt;/em&gt;（如PDF、SVG、PNG和JPEG）中的“签名来源元数据”。那很重要但很复杂。纯文本很简单。一串文本就是一个字符接一个字符。我&lt;em&gt;推测&lt;/em&gt;Claude将开始在可见字符之间“嵌入”不可见字符/字节序列？坦率地说，他们在这里声称要做的事情似乎是不可能的，而且他们试图隐形嵌入的任何东西都会立即引发问题。&lt;/p&gt;&lt;p&gt;假设我让Claude生成短语“Hello world”。（两个单词实在短得没必要做“AI生成”检测——我在这个例子中用两个单词只是为了简单。）Claude会创建一串字符“&lt;em&gt;Hello«此处为构成“水印”的不可见字符&lt;/em&gt;» world”。我把它粘贴到网上。看到它的人会看到“Hello world”，但不可见字符就在那里。有字符数限制的社交媒体平台会显示该字符串包含的字符数超过“Hello world”中可见的11个字符。如果“水印”不是由不可见字符组成，而是可见字符，那它怎么可能跟“难以察觉”的说法相符？（&lt;a href="https://www.reddit.com/r/ClaudeAI/comments/1vky8at/claude_will_watermark_generated_content_thank_you/"&gt;这个Reddit帖子&lt;/a&gt;声称那就是它的工作方式——“这是一种隐写术，模型会微妙地偏向某些词汇选择，形成一种日后可检测的统计模式。”这又怎么能跟“它不会改变含义、质量或可读性”相调和？）而且任何这类语义检测都会导致误报问题。&lt;/p&gt;
+&lt;p&gt;如果你复制我的文本并手动引用到你写的东西里，会发生什么？现在你的文稿里就有了水印——不可见字符或其他什么东西——暗示你的文稿是AI生成的？即使你根本没使用AI，只是从我这儿复制粘贴了文本？荒唐。&lt;/p&gt;
+&lt;p&gt;他们显然需要确切解释他们在文本中嵌入了什么，这样才有人能真正检测出来；但如果他们解释了，任何人都能轻易将其移除。而且，举个例子，如果有人直接对Claude生成的文本进行OCR而不是选中并复制，会发生什么？这一切都&lt;a href="https://www.reddit.com/r/ClaudeAI/comments/1vky8at/claude_will_watermark_generated_content_thank_you/"&gt;太愚蠢了&lt;/a&gt;。我从未像现在这样庆幸自己从未用Claude做过任何事。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/08/11/anthropic-claude-watermarks" title="Permanent link to ‘Anthropic Posts ‘How Claude Marks AI-Generated Content’ Without Explaining How Claude Marks AI-Generated Content’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Tue, 11 Aug 2026 17:59:22 +0000</pubDate></item><item><title>[赞助商] Drata</title><link>https://drata.com/daring</link><description>&lt;p&gt;利用自主AI智能体实现合规自动化，管理内部与第三方风险，并持续证明您的安全态势。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/feeds/sponsors/2026/08/drata_6" title="Permanent link to ‘Drata’"&gt; ★ &lt;/a&gt;
 </description><pubDate>Mon, 10 Aug 2026 22:25:00 +0000</pubDate></item><item><title>iOS 27 Beta 5 的新功能</title><link>https://9to5mac.com/2026/08/10/heres-whats-new-with-ios-27-beta-5/</link><description>&lt;p&gt;9to5Mac 的 Zac Hall 对 beta 5 中的新功能和变化做了很好的梳理。一些应用图标进行了调整（尤其是 Siri 应用现在看起来酷多了），而且现有的一大堆美式和英式 Siri 语音现在都支持语速（Pace）和表现力（Expressivity）调节滑块。&lt;/p&gt;
 &lt;p&gt;另外有趣的是：OS 27 的测试版本停留在 beta 4 长达 22 天，这比往常多了一周。Will Hains（我的 Kotoba 朋友）维护着一个很棒的单页网站，追踪 iOS 版本发布日期历史。对于这些夏季"下一个大版本"的比较，最好筛选"*.0"版本来查看。在 Hains 的网站上这样做，你可以看到一个相当清晰的规律：beta 1 到 beta 4 通常每个大约持续两周；然后从 beta 5 开始，Apple 切换到大约每周一更的节奏，直到测试周期结束。我不会对此过度解读，只是预期下周会有 beta 6，再下周会有 beta 7。&lt;/p&gt;
@@ -17,11 +33,4 @@
 &lt;/blockquote&gt;
 &lt;p&gt;同感。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/08/10/tsai-app-store-retraction" title="Permanent link to ‘Michael Tsai on My Retraction of the Astrology/Astronomy App Store Rejection Story’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 10 Aug 2026 20:18:48 +0000</pubDate></item><item><title>“凭感觉编码式奉承的问题”</title><link>https://tedium.co/2026/08/09/vibe-coding-insincerity/</link><description>&lt;p&gt;Tedium 的 Ernie Smith 写道：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我收到一封又一封邮件，都在暗示这些用户构建了一个他们真正热爱的东西。但如果我们无法相信这种热情是真实的、正当的、发自内心的，那我们就麻烦了。&lt;/p&gt;
-&lt;p&gt;退一步看。你构建的这东西，是否反映了你自己？&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;我觉得收到越来越多关于新应用的邮件既有趣又令人兴奋。但其中相当一部分邮件明显是由 AI 聊天机器人写的，这太明显了。那些邮件直接进了垃圾桶。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/08/10/the-problem-with-vibe-coded-flattery" title="《氛围编码式奉承的问题》的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 10 Aug 2026 16:42:01 +0000</pubDate></item></channel></rss>
+</description><pubDate>Mon, 10 Aug 2026 20:18:48 +0000</pubDate></item></channel></rss>
