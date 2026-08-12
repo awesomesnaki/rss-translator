@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 11 Aug 2026 21:37:06 +0000</lastBuildDate><item><title>《经济学人》：如何识别AI写作</title><link>https://www.economist.com/culture/2026/07/30/how-to-spot-ai-writing?giftId=NzBlNTc2OGItMDgxNS00N2EzLWE4NmUtZDgzZmE4Y2FkM2Mw</link><description>&lt;p&gt;《经济学人》（那是一篇赠送链接，但唉，我想赠送的阅读次数已经用完了）：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 11 Aug 2026 21:37:06 +0000</lastBuildDate><item><title>《经济学人》：如何识别AI写作</title><link>https://www.economist.com/culture/2026/07/30/how-to-spot-ai-writing?giftId=NzBlNTc2OGItMDgxNS00N2EzLWE4NmUtZDgzZmE4Y2FkM2Mw</link><description>&lt;p&gt;《经济学人》（这是一条礼物链接，但可惜，恐怕礼物阅读次数已经用完了——这里给你一个&lt;a href="https://archive.ph/20260811223012/https://www.economist.com/culture/2026/07/30/how-to-spot-ai-writing"&gt;存档链接&lt;/a&gt;，以防礼物链接让你烦心）：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;你可以通过比较人与机器的写作来发现AI的特征。要做到这一点，你需要一个独特且熟悉的基线。《经济学人》转向了我们确信为人类所写、且读者能够认出的散文：我们自己的文章。我们设计了一项研究，要求顶级大语言模型——OpenAI的ChatGPT、Anthropic的Claude、Google的Gemini和xAI的Grok——在不查阅网络的情况下写出我们文章的版本。（作为提示，我们给它们提供了我们实验性添加到某些文章中的AI生成的摘要。）&lt;/p&gt;
-&lt;p&gt;这给了我们一个由人类和AI创作组成的语料库，我们对它们进行了比较，涉及55,940个句子和120万词。为了确保我们检测到的是AI的怪癖而不是我们自己的，我们还将AI文本与CNN、《纽约时报》和《华盛顿邮报》的新闻报道进行了比对。出版于1950年至2022年间的畅销小说摘录提供了另一项测试。&lt;/p&gt;
-&lt;p&gt;我们的发现令人惊讶。AI散文可以通过词汇和标点的选择以及句子和段落的结构来区分。但其特征并非你所预料的那样，部分原因是其写作风格随着软件更新而改变。这并不意味着大语言模型是伟大的作家：它们的散文缺乏清晰性和优雅，而且往往公式化。因此，那些渴望成为令人印象深刻的（人类）讲故事的人，应该在自己的散文中避免以下这些怪癖。&lt;/p&gt;
+&lt;p&gt;你可以通过比较人类与机器的写作来发现AI的显著特征。要做到这一点，你需要一个独特且熟悉的基准。《经济学人》转而使用了我们确信属于人类、且读者会认得出的文字：我们自己的文章。我们设计了一项研究，要求顶尖大语言模型——OpenAI的ChatGPT、Anthropic的Claude、Google的Gemini和xAI的Grok——在不查阅网络的情况下撰写我们文章的版本。（作为提示词，我们向它们提供了我们实验性地添加到部分文章中的AI生成摘要。）&lt;/p&gt;
+&lt;p&gt;这使得我们拥有了一组人类与AI创作语料，并对其进行了跨越55,940个句子和120万词的比较。为了确保我们检测到的是AI的怪癖而非我们自己的风格，我们还将AI文本与CNN、《纽约时报》和《华盛顿邮报》的新闻报道进行了对照。1950年至2022年间出版的热门小说摘录则提供了另一项测试。&lt;/p&gt;
+&lt;p&gt;我们的发现令人惊讶。AI散文可以通过词汇和标点选择以及句子和段落结构来加以区分。但它的显著特征并非你所想象的那样，部分原因在于其写作风格随着软件更新而不断变化。这并不意味着大语言模型是出色的写作者：它们的文字缺乏清晰和优雅，往往流于公式化。因此，那些渴望成为令人印象深刻（人类）故事讲述者的人，应避免在自己的文字中出现以下这些独特怪癖。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;这与&lt;a href="https://daringfireball.net/linked/2026/08/11/anthropic-claude-watermarks"&gt;今天的文章&lt;/a&gt;很贴切。&lt;/p&gt;
+&lt;p&gt;对于&lt;a href="https://daringfireball.net/linked/2026/08/11/anthropic-claude-watermarks"&gt;今天&lt;/a&gt;的话题来说，这一点切中要害。&lt;/p&gt;
 &lt;p&gt;一些具体发现：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;这种语言的大部分都可以用乔治·奥威尔所说的“矫揉造作的措辞”来形容。他痛斥那些用复杂的词汇和行话来“包装简单陈述”以显得聪明的作家。奥威尔观察到，这些自命不凡的笔杆子还相信“拉丁语或希腊语词汇比撒克逊语词汇更高级”。（机器人也同意：它们的文章比人类文本出现更多的拉丁后缀。）&lt;/p&gt;
-&lt;p&gt;再看看标点。许多人认为大语言模型会在文章中塞满破折号，但在最近的更新之后，情况并非如此。如今，只有Claude使用的破折号比人类作者多，而ChatGPT在我们研究中使用破折号的频率明显低于任何其他作者。人类欢呼吧——重新开始使用破折号吧。&lt;/p&gt;
-&lt;p&gt;识别AI生成文本的一个更好的方法是寻找那些几乎没有任何标点的文本。大语言模型在这点上非常“乔伊斯式”：它们比人类使用更少的逗号和分号（而且几乎不用括号）。它们使用更少的标点，部分是因为它们写更长的句子——“and”是它们最过度使用的词——部分是因为它们不引用专家。&lt;/p&gt;
+&lt;p&gt;这类语言中有很大一部分可以称为乔治·奥威尔所说的“浮夸措辞”。他痛斥那些用复杂词汇和行话“把简单陈述装点起来”以显得聪明的作者。奥威尔指出，这些好说教的写作者还相信“拉丁语或希腊语词汇比盎格鲁-撒克逊语词汇更气派”。（机器持同样看法：它们文字中出现的拉丁语后缀比人类文本更多。）&lt;/p&gt;
+&lt;p&gt;再看看标点。许多人认为大语言模型会用大量破折号来填充文字，但在最新更新之后，这已不再属实。如今只有Claude使用的破折号多于人类作者，而ChatGPT使用的破折号明显少于我们研究中的任何其他作者。人类大可欢欣鼓舞——重新开始使用破折号吧。&lt;/p&gt;
+&lt;p&gt;识别AI生成文字的一个更好的方法是寻找几乎没有任何标点的文本。大语言模型在这方面非常乔伊斯式：它们使用的逗号和分号比人类少（而且几乎不用括号）。它们使用较少标点，部分是因为它们写更长的句子——“and”是它们最过度使用的词——部分是因为它们不引用专家的话。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;a href="https://daringfireball.net/linked/2026/08/11/economist-ai-writing" title="Permanent link to ‘The Economist: ‘How to Spot AI Writing’’"&gt; ★ &lt;/a&gt;
+&lt;a href="https://daringfireball.net/linked/2026/08/11/economist-ai-writing" title="指向《经济学人》文章《如何识别AI写作》的永久链接"&gt; ★ &lt;/a&gt;
 </description><pubDate>Tue, 11 Aug 2026 21:37:06 +0000</pubDate></item><item><title>亚历克斯·米塞克谈宝马iDrive的“特别惊喜”</title><link>https://tumbledry.org/2026/08/07/idrive_ads</link><description>&lt;p&gt;Alex Micek：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;在未来，如果我的车把我抛在路边，我会感到愤怒。&lt;br/&gt;
