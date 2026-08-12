@@ -1,5 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 12 Aug 2026 03:10:45 +0000</lastBuildDate><item><title>终于！ChatGPT/Codex for Linux桌面版现已发布 支持Ubuntu/Debian/Fedora</title><link>https://www.landian.news/archives/114284.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 12 Aug 2026 05:28:35 +0000</lastBuildDate><item><title>YouTube在全球范围推出Premium Lite小会员 免部分广告以及部分视频可下载观看</title><link>https://www.landian.news/archives/114287.html</link><description>
+&lt;p&gt;#网站应用 YouTube 在全球范围内推出 Premium Lite 小会员，价格较大会员更便宜，可以免除大部分视频广告。YouTube 近年疯狂反屏蔽广告策略让很多用户苦不堪言，谷歌也在吸引用户开通付费订阅来弥补屏蔽广告的损失。Lite 会员支持免除大部分视频广告、离线下载播放等，价格相当于大会员的 50%。查看全文：https://ourl.co/114287&lt;/p&gt;&lt;p&gt;谷歌在年初的时候面向全球 20 多个国家和地区推出 YouTube Premium Lite 版订阅，该订阅价格要便宜当然权益也要少些，但对很多用户来说可以免除大部分视频的广告。近年谷歌疯狂实施反屏蔽广告策略让很多用户苦不堪言，所以现在谷歌推出小会员也是吸引用户付费来免除广告。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/08/110416.png" rel="nofollow"&gt;&lt;img alt="YouTube在全球范围推出Premium Lite小会员 免部分广告以及部分视频可下载观看" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/08/110416.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;订阅价格：以美国市场为例，大会员每月 15.99 美元，小会员每月 8.99 美元&lt;/li&gt;
+&lt;li&gt;视频广告：大会员可以免除所有视频广告，小会员可以免除大部分视频广告&lt;/li&gt;
+&lt;li&gt;不免广告：小会员使用 YouTube Music、观看音乐 MV、刷 YouTube 短视频仍然有广告&lt;/li&gt;
+&lt;li&gt;后台播放：大会员支持所有视频和音乐类型后台播放，小会员仅支持大部分非音乐类型的视频后台播放&lt;/li&gt;
+&lt;li&gt;离线观看：大会员支持所有类型的视频离线下载后观看，小会员支持大部分非音乐类型的视频离线下载&lt;/li&gt;
+&lt;li&gt;音乐权益：大会员包含完整的 YouTube Music Premium 权益，小会员不包含任何此类权益&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;YouTube Premium Lite 不支持自动播放、继续观看和待播清单等功能，正常情况下观看游戏、时尚、美妆、新闻等类型的视频时可以免除广告，音乐内容、YouTube 短视频、YouTube 搜索界面、YouTube 浏览界面仍然会显示广告。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 12 Aug 2026 05:28:35 +0000</pubDate></item><item><title>扣子团队继续发布Coze CLI更新 目前已经停止静默安装和同步技能</title><link>https://www.landian.news/archives/114286.html</link><description>
+&lt;p&gt;#人工智能 扣子团队继续发布 Coze CLI 更新彻底解决静默安装技能劫持 AI 工作流问题，目前不再默认安装技能。在 0.3.7 版中扣子将默认劫持导流改成仅在用户明确要求下才会将工作流导入到扣子，0.3.8 版则是不再默认安装技能。现在安装完成后会提醒用户可以安装技能，若用户主动安装技能则继续全局写入。但因为技能不再被默认触发，所以即便全局写入后也不会再干扰 Codex、Claude Code 等工作流。查看全文：https://ourl.co/114286&lt;/p&gt;&lt;p&gt;字节跳动旗下的扣子团队针对 Coze CLI 静默安装技能劫持其他 AI 智能体工作流问题发布更新，最新发布的版本为 v0.3.8 版，此次更新后 Coze CLI 不再默认安装技能，仅在用户指定的情况下安装技能并在用户明确要求时再将工作流导入到 Coze CLI 中。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114286.png" rel="nofollow"&gt;&lt;img alt="扣子团队继续发布Coze CLI更新 目前已经停止静默安装和同步技能" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114286.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;扣子团队在昨天夜里 10 点发布 Coze CLI v0.3.8 版，针对引发争议的安装后注入技能和导流问题进行调整，此前版本在 NPM 安装阶段通过 postinstall.js 静默执行技能安装，可以将内置技能写入或链接至用户本地的 AI 智能体目录，因此被用户质疑存在劫持工作流行为。&lt;/p&gt;
+&lt;p&gt;蓝点网已对 v0.3.8 版安装包和运行代码进行审计，新版本安装文件已经删除自动执行技能安装逻辑，用户安装 Coze CLI 后程序只会显示提示信息，告知用户可以通过命令主动选择接收技能的 AI 智能体，不再默认执行全局安装、不再静默执行操作。&lt;/p&gt;
+&lt;p&gt;另外新版本默认技能模式也从此前的 auto 调整为 notify，这意味着 CLI 运行时也不再自动同步技能，而是改为通知用户，因此 v0.3.8 版属于对此前劫持工作流问题的实质性修复，用户全新安装新版本时不再安装技能，但升级的话现有技能会被保留，用户可以通过 AI 智能体排查技能目录选择是否要清理。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;审计还发现新版本并未移除技能同步功能，即当用户主动安装技能后，程序仍然会调用相关技能管理工具，并可能写入 ~/.agents/skills、~/.codex/skills 或 ~/.claude/skills 等目录。不过这里不存在默认风险，除非用户主动选择安装。&lt;/p&gt;
+&lt;p&gt;写入的这些技能默认情况下也不会被调用，在 v0.3.7 版中扣子团队已经将其修改为仅在用户明确要求时才调用技能并将工作流导入到 Coze CLI，所以用户继续使用 Codex、Claude Code 等时也不会再被这些技能干扰。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 12 Aug 2026 04:49:57 +0000</pubDate></item><item><title>管不住自己的手：有参加黑客大会的乘客在达美航空591上启用钓鱼WiFi 下机就被抓</title><link>https://www.landian.news/archives/114285.html</link><description>
+&lt;p&gt;#安全资讯 管不住自己的手：有参加黑客大会的乘客在达美航空 591 航班上启用钓鱼 WiFi 窃取其他乘客数据，下机就被抓。机组检测到异常后立即切断航班自带的 WiFi，随后将安全事件报告给地面安全中心、美国联邦执法机构和美国航空监管机构。飞机落地后执法机构直接堵在出口，涉事黑客目前似乎已经被逮捕且便携式 WiFi 设备也被扣押。查看全文：https://ourl.co/114285&lt;/p&gt;&lt;p&gt;美国达美航空日前正在调查 591 航班上出现的未经授权的 WiFi 网络，该航班从拉斯维加斯飞往亚特兰大，而且这次航班上的不少乘客曾参与 DEF CON 黑客大会，显然这个未经授权的 WiFi 网络就是某个黑客发起的。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114285.png" rel="nofollow"&gt;&lt;img alt="管不住自己的手：有参加黑客大会的乘客在达美航空591上启用钓鱼WiFi 下机就被抓" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114285.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;达美航空 591 航班的机组监测到航班上出现名为 Delta WiFi Fast 的无线网络，这并非达美航空提供的空中网络服务，黑客实施名为 WiFi 取消认证的攻击手段，这导致其他乘客与航班上提供的无线机载网络断开连接。&lt;/p&gt;
+&lt;p&gt;机组成员检测到异常后迅速关闭航班本身提供的 WiFi，随后将此次安全事件报告给地面安全中心、美国联邦执法机构、美国航空监管机构，目前达美航空正在和执法机构调查此事件。&lt;/p&gt;
+&lt;p&gt;涉事黑客似乎已经被逮捕，据某位乘客提供的消息，达美航空 591 航班落地后停靠在登机口，随后美国联邦执法机构和机场警察对乘客进行问询并扣押某些便携式 WiFi 设备，毕竟飞机没落地黑客也没法跑路，所以执法机构堵在出口很容易找到线索。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 黑客伪造的 WiFi 试图窃取其他乘客的谷歌账号密码：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;需要特别强调的是，此次攻击并非白帽黑客的恶作剧，因为有乘客称连接到黑客设置的 WiFi 后会弹出钓鱼页面，该页面会收集个人凭证和谷歌登录数据，如果是普通的恶作剧也就算了，这种试图窃取数据的做法已经属于黑客行为(以上均为乘客说法，未得到官方证实)。&lt;/p&gt;
+&lt;p&gt;另外黑客通过钓鱼 WiFi 发起的取消身份验证攻击本质上就是为了钓鱼，这种攻击会不断发送伪造的取消认证帧迫使客户端与合法 AP 断开连接，然后还可以迫使客户端重新连接到钓鱼 AP，接着黑客就可以拦截流量和将目标重定向到恶意页面。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 12 Aug 2026 04:12:50 +0000</pubDate></item><item><title>终于！ChatGPT/Codex for Linux桌面版现已发布 支持Ubuntu/Debian/Fedora</title><link>https://www.landian.news/archives/114284.html</link><description>
 &lt;p&gt;#软件资讯 终于！ChatGPT/Codex for Linux 桌面版现已发布，目前支持 Ubuntu、Debian 和 Fedora Linux。桌面版支持 ChatGPT、Codex 和 Work 等功能，可以正常登录账号同步数据，也支持远程控制。对于有需要的开发者，可以通过图形化界面进行开发、代码审计和调试等。下载地址：https://ourl.co/114284&lt;/p&gt;&lt;p&gt;OpenAI 今天宣布推出 ChatGPT for Linux 桌面预览版，该版本支持 Ubuntu、Debian 和 Fedora Linux，安装后支持使用 ChatGPT、Codex 和 Work 等功能，可以正常登录账号同步其他设备的数据，也支持通过 ChatGPT 手机版进行远程控制等。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114284-1.png" rel="nofollow"&gt;&lt;img alt="终于！ChatGPT/Codex for Linux桌面版现已发布 支持Ubuntu/Debian/Fedora" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114284-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114284-2.png" rel="nofollow"&gt;&lt;img alt="终于！ChatGPT/Codex for Linux桌面版现已发布 支持Ubuntu/Debian/Fedora" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114284-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -27,58 +65,4 @@
 &lt;p&gt;从网友发布的截图来看，谷歌搜索测试版有些像是将 ChatGPT 与传统搜索融合，即搜索框底部甚至还会显示创建图片和上传文件等功能，这种模式下的谷歌搜索已经不是传统搜索引擎，更倾向于 ChatGPT 的问答搜索。&lt;/p&gt;
 &lt;p&gt;需要说明的是谷歌经常悄咪咪的测试各种新功能或模式，测试中的样式不一定会最终发布，所以如果谷歌评估后觉得效果不好的话可能就会直接放弃，不会推送给所有用户使用。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 12 Aug 2026 03:00:30 +0000</pubDate></item><item><title>嗯？火狐浏览器GPG密钥被意外发布到某个无关的私有仓库 现已轮换密钥</title><link>https://www.landian.news/archives/114282.html</link><description>
-&lt;p&gt;#软件资讯 奇怪的问题又增加了：Mozilla 不慎将 GPG 签名密钥上传到某个私有的存储库中，目前已经紧急吊销旧签名密钥换成新签名密钥。该问题仅影响 Linux 版 Firefox 和 Thunderbird，签名文件主要用来校验安装包。如果用户需要手动校验，需要下载导入新签名和旧签名的吊销信息。查看全文：https://ourl.co/114282&lt;/p&gt;&lt;p&gt;奇怪的问题又增加了：据谋智基金会发布的官方博客，适用于 Firefox for Linux 和 Thunderbird for Linux 的 GPG 签名密钥已经轮换，原因是由于某些未知原因，谋智基金会似乎将此前使用的子密钥副本提交到某个私有的 GitHub 存储库中。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114282.png" rel="nofollow"&gt;&lt;img alt="嗯？火狐浏览器GPG密钥被意外发布到某个无关的私有仓库 现已轮换密钥" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114282.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;谋智基金会审查现有的审计记录没有发现任何证据表明密钥在存储库中存在期间出现未经授权的访问，这个存储库访问权限仅限于 Mozilla 内部的少数员工，这些员工本身就有密钥的访问权限，至于密钥为什么会上传到私有的存储库，这点谋智基金会并未解释原因。&lt;/p&gt;
-&lt;p&gt;作为安全措施，谋智基金会已经轮换 GPG 签名子密钥，而旧的 GPG 签名子密钥也被吊销，现在用户要验证签名时必须先移除旧密钥并导入新密钥，导入成功后即可对安装包进行正常验证。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;如果用户手动验证 GPG 签名：需要同时导入新的签名密钥和旧密钥的吊销信息&lt;/li&gt;
-&lt;li&gt;如果使用 Firefox RPM 包：可能需要执行手动操作，具体可以参考帮助文档&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://blog.mozilla.org/security/2026/08/10/updated-gpg-key-for-signing-firefox-and-thunderbird-releases/" rel="noopener" target="_blank"&gt;Mozilla Blog&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 12 Aug 2026 02:15:27 +0000</pubDate></item><item><title>清华大学开源镜像站移除OpenWrt等镜像 原因是存储空间严重不足</title><link>https://www.landian.news/archives/114281.html</link><description>
-&lt;p&gt;#网站应用 因存储资源不足，清华大学镜像站宣布停止镜像 OpenWrt 等项目，目前已经做好重定向，不过建议用户还是手动切换到其他镜像站。停止镜像的项目包括 Anaconda、OpenWrt、GitLab EE 和 Flutter，在这些项目里使用清华大学镜像站的用户建议切换到其他国内镜像站。镜像站列表：查看全文：https://ourl.co/114281&lt;/p&gt;&lt;p&gt;日前清华大学开源软件镜像站发布通知宣布移除包括 OpenWrt 在内的部分项目镜像，清华大学镜像站给出的原因是存储资源严重受限，即硬盘不足所以要清理部分镜像腾出空间。&lt;/p&gt;
-&lt;p&gt;通常这类开源镜像站托管着海量资源，仅仅是 Debian 或 Ubuntu 这类系统镜像就占据着海量空间，随着时间的推移镜像站运营方必须定期增加硬盘来扩充存储资源，但资源增长速度也非常快，如果存储资源不足就可能出现像清华大学镜像站这样有选择的停止同步某些项目。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114281.png" rel="nofollow"&gt;&lt;img alt="清华大学开源镜像站移除OpenWrt等镜像 原因是存储空间严重不足" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114281.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Anaconda - 流行的 Python 科学计算发行版&lt;/li&gt;
-&lt;li&gt;OpenWrt - 开源路由器系统，属于嵌入式 Linux 系统&lt;/li&gt;
-&lt;li&gt;Flutter - 谷歌推出的跨平台 UI 开发框架&lt;/li&gt;
-&lt;li&gt;GitLab EE - GitLab 企业版&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;清华大学镜像站已经停止对上游镜像进行 rsync 同步，为避免影响用户，相关路径的访问也会被自动重定向到教育网联合镜像站或各软件对应的上游。不过建议用户主动切换镜像站并配置国内连接速度更快的镜像站，毕竟切换到软件上游后可能存在连接速度缓慢的问题。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;对于镜像站而言同步的数据可能达到数百 TB 甚至更高，不过由于资源问题通常镜像站运营方也会有选择的同步项目，即不会无脑同步所有项目。而停止镜像部分项目可能是这些项目访问量较其他项目来说更低，单纯从占用的存储空间而言，无论是 Debian 还是 Ubuntu 也同样占据海量空间。&lt;/p&gt;
-&lt;p&gt;蓝点网预估停止镜像 OpenWrt 等项目后清华大学镜像站应该可以腾出 5TB 甚至更多的空间，像是 OpenWrt 完整多版本镜像和软件包就需要 1.5TB~2TB，Anaconda 完整镜像可能也超过 2TB，Flutter 占用的空间不多，所以也被停止镜像大概率就是访问量比较低？&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;开源软件镜像站都是用爱发电，在国内大部分开源镜像站都是高校计算机协会运营的，运营这些项目没有收益并且还需要申请经费购买服务器、硬盘以及获得足够高的服务器带宽，当然日常还需要运维，毕竟镜像站偶尔也会出现问题需要人工处理。&lt;/p&gt;
-&lt;p&gt;国内云计算公司也提供诸多镜像站，像是网易镜像站、阿里云镜像站、腾讯云镜像站也都非常不错，都是用爱发电为开源生态系统做贡献，所以真出现停止镜像某些项目各位也需要理解。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;如果你使用 OpenWrt 路由器建议选择其他国内镜像站以获得更快的连接速度，OpenWrt 也需要定期更新软件包，如果直连官方软件仓库那下载速度会非常慢，替换为国内的镜像站还是有必要的。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 12 Aug 2026 01:45:29 +0000</pubDate></item><item><title>英伟达RTX50系显卡大幅度涨价 其中RTX 5060 Ti 16GB版涨幅高达39%</title><link>https://www.landian.news/archives/114280.html</link><description>
-&lt;p&gt;#硬件设备 英伟达 RTX50 系显卡大幅度涨价，其中 RTX 5060 Ti 16GB 版涨幅高达 39%。7 月份已经有消息称英伟达将提高消费级显卡价格，当时 AIC 厂商就直接封仓停止出货等待正式调价。当然调价影响全球市场，新蛋网美国数据显示，与 6 月价格中位数相比，除了 RTX 5070 Ti 价格持平外，其他全部都在涨价。查看全文：https://ourl.co/114280&lt;/p&gt;&lt;p&gt;从 7 月开始就有传闻称英伟达要对消费级显卡涨价，&lt;a href="https://www.landian.news/archives/114082.html" rel="noopener" target="_blank"&gt;所以当时很多 AIC 制造商已经封仓停止出货等待正式调价通知&lt;/a&gt;，当然涨价不仅影响中国大陆市场，其他市场的 RTX50 系显卡也同样涨价，例如在美国市场 RTX 5060 Ti 16GB 版新蛋网平均售价就较 6 月份涨价 39%。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/03/112048.png" rel="nofollow"&gt;&lt;img alt="英伟达RTX50系显卡大幅度涨价 其中RTX 5060 Ti 16GB版涨幅高达39%" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/03/112048.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; 新蛋网美国市场 RTX50 系显卡价格中位数变化：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;RTX 5050 默认显存：6 月份中位数价格为 299.99 美元，当前中位数价格 314.99 美元，涨幅 5%&lt;/li&gt;
-&lt;li&gt;RTX 5060 默认显存：6 月份中位数价格为 369.99 美元，当前中位数价格 469.99 美元，涨幅 27%&lt;/li&gt;
-&lt;li&gt;RTX 5060 Ti 8GB 版：6 月份中位数价格为 469.99 美元，当前中位数价格 529.99 美元，涨幅 13%&lt;/li&gt;
-&lt;li&gt;RTX 5060 Ti 16GB 版：6 月份中位数价格为 569.99 美元，当前中位数价格 804.99 美元，涨幅 39%&lt;/li&gt;
-&lt;li&gt;RTX 5070 默认显存：6 月份中位数价格为 659.99 美元，当前中位数价格 899.99 美元，涨幅 36%&lt;/li&gt;
-&lt;li&gt;RTX 5070 Ti 默认显存：6 月份中位数价格为 1,099.99 美元，当前中位数价格 1,099.99 美元，持平&lt;/li&gt;
-&lt;li&gt;RTX 5080 默认显存：6 月份中位数价格为 1,461.99 美元，当前中位数价格 1,499.99 美元，涨幅 3%&lt;/li&gt;
-&lt;li&gt;RTX 5090 默认显存：6 月份中位数价格为 4,299.99 美元，当前中位数价格 4,699.99 美元，涨幅 9%&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;以目前的情况来看，短期内行业对内存的需求不会降低，同时内存供不应求的情况也不会发生改变，所以无论是内存还是显卡使用的显存价格可能都会继续上涨，即后续英伟达的这些显卡价格可能也会继续上涨。&lt;/p&gt;
-&lt;p&gt;对于准备装机的用户来说现在处在非常艰难的阶段，因为购买大容量内存套装就需要支付不菲的费用，而想要购买大显存显卡也需要支付更高的费用。不过从当前情况来看，建议确实需要装机的用户长痛不如短痛，尽早购买，毕竟再等 6~12 个月这些产品也不太可能降价，反而是继续涨价的可能性更高。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 12 Aug 2026 01:15:27 +0000</pubDate></item></channel></rss>
+</description><pubDate>Wed, 12 Aug 2026 03:00:30 +0000</pubDate></item></channel></rss>
