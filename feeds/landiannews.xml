@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 12 Aug 2026 05:28:35 +0000</lastBuildDate><item><title>YouTube在全球范围推出Premium Lite小会员 免部分广告以及部分视频可下载观看</title><link>https://www.landian.news/archives/114287.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 13 Aug 2026 01:00:18 +0000</lastBuildDate><item><title>uBlock Origin停止拦截Facebook广告 原因是后者反复采用对抗手段反广告屏蔽</title><link>https://www.landian.news/archives/114303.html</link><description>
+&lt;p&gt;#软件资讯 知名广告拦截程序 uBlock Origin 宣布放弃拦截 Facebook 网页版上的广告，原因是后者不停地采取对抗措施反广告屏蔽。脸书会使用各类动态 DIV 和其他方式对抗广告拦截，甚至可能有团队专门盯着 uBlock Origin 的拦截策略并进行反拦截策略。这让 uBlock Origin 团队身心俱疲，所以决定放弃支持对脸书广告的拦截。查看全文：https://ourl.co/114303&lt;/p&gt;&lt;p&gt;知名广告拦截扩展程序 uBlock Origin 的开发团队透露，该扩展程序后续将不再支持过滤社交网站脸书 (Facebook) 网页版上的广告内容，原因是 Facebook 工程团队反复采用对抗手段反广告屏蔽，这也导致 uBlock Origin 开发团队需要花费大量时间精力去研究拦截。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2024/10/106014.png" rel="nofollow"&gt;&lt;img alt="uBlock Origin停止拦截Facebook广告 原因是后者反复采用对抗手段反广告屏蔽" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2024/10/106014.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;目前主流的广告拦截方式都是屏蔽特定广告域名或识别到特定 DIV 后将对应模块屏蔽，很多网站采用的反广告拦截方式就是采用动态 DIV 模块，即广告模块使用随机字符串每次都会刷新，这导致广告拦截工具无法根据固定规则屏蔽特定的模块。&lt;/p&gt;
+&lt;p&gt;uBlock Origin 作为开源软件，社区有很多成员积极反馈脸书出现的各种对抗方法，但最终这还需要开发团队进行测试和适配，而脸书似乎也有团队进行针对性的对抗，即发现 uBlock Origin 更新规则后也立即采用新的反广告拦截策略。&lt;/p&gt;
+&lt;p&gt;举个例子：脸书页面上的广告模块会标记赞助 (Sponsored) 字样，正常来说广告拦截工具只需要识别赞助模块并进行屏蔽即可，但脸书的做法是将 Sponsored 这个单词的每个字母拆分，每个字母都被放在单独的行中，因此广告拦截工具无法识别。&lt;/p&gt;
+&lt;p&gt;这种猫鼠游戏让 uBlock Origin 团队感到疲惫，所以该团队决定后续不再研究针对脸书的广告拦截方案，社区成员仍然可以提交 PR 制作过滤器，也就是拦截机制由开发团队转移到社区，如果有足够多的社区成员积极发掘针对脸书的广告拦截方案，那还是可以继续造福其他用户。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;脸书网页版含有大量的广告内容，其中很多广告是非法的甚至是钓鱼网站，在过去多年脸书经常被爆出为了广告营收允许某些不合规的广告，当然也有很多用户因为脸书上的非法广告而被诈骗和遭遇钱财损失。&lt;/p&gt;
+&lt;p&gt;因此对脸书用户来说屏蔽广告是非常重要的，现在脸书通过对抗机制迫使 uBlock Origin 放弃屏蔽脸书上的广告，对脸书而言这是巨大的胜利，这意味着广告营收还能继续提高，但对用户来说这可是非常糟糕的事情。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://www.reddit.com/r/uBlockOrigin/comments/1vgcjg5/about_disgusting_facebook_devs/" rel="noopener" target="_blank"&gt;Reddit&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Thu, 13 Aug 2026 01:00:18 +0000</pubDate></item><item><title>火狐浏览器宣布将继续支持uBlock Origin 为用户提供更加完善的广告拦截服务</title><link>https://www.landian.news/archives/114302.html</link><description>
+&lt;p&gt;#软件资讯 火狐浏览器将继续支持完整版的 uBlock Origin 广告拦截程序，虽然也升级 MV3 但保留拦截和修改网络请求能力。在 Microsoft Edge 宣布要清退 MV2 扩展程序时，火狐浏览器表示将继续支持 uBlock Origin，因为火狐的 MV3 为广告拦截程序单独保留功能接口，不会弱化广告拦截程序的能力。查看全文：https://ourl.co/114302&lt;/p&gt;&lt;p&gt;日前微软也宣布将在 Microsoft Edge 浏览器中逐渐淘汰基于 MV2 标准的扩展程序，这意味着备受好评的开源广告拦截程序 uBlock Origin 也将被微软清退，谷歌浏览器也同样清退基于旧版协议的扩展程序，这给用户的正常使用带来很多麻烦。&lt;/p&gt;
+&lt;p&gt;不过火狐浏览器虽然也在推动扩展程序迁移到 MV3 但会保留拦截和修改网络请求的功能 (webRequestBlocking)，因此在火狐浏览器上用户可以继续使用完整版的 uBlock Origin，其他需要使用拦截和修改网络请求的扩展程序也可以继续使用该功能。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/public/thumb/firefox.png" rel="nofollow"&gt;&lt;img alt="火狐浏览器宣布将继续支持uBlock Origin 为用户提供更加完善的广告拦截服务" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/public/thumb/firefox.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;谷歌浏览器在 MV3 协议中对扩展程序拦截和修改网络请求功能进行调整，调整后广告拦截程序的能力被弱化，迫于无奈 uBlock Origin 只能推出基于 MV3 的轻量版，轻量版在广告拦截效率上不如完整版。&lt;/p&gt;
+&lt;p&gt;火狐浏览器的做法则是在 MV3 中单独保留拦截和修改请求功能，所以即便扩展程序迁移到 MV3 标准后依然可以使用该功能，这意味着 uBlock Origin 这类广告扩展程序还可以继续使用，用户不需要被迫安装 uBlock Origin Lite 版。&lt;/p&gt;
+&lt;p&gt;除了火狐浏览器外，基于 Chromium 内核的 Brave 浏览器也表示会继续支持原版 uBlock Origin，该浏览器将通过自己的服务器托管这类特殊的扩展程序，避免谷歌从应用商店里下架 uBlock Origin 后，用户找不到地方安装。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Thu, 13 Aug 2026 00:30:18 +0000</pubDate></item><item><title>YouTube在全球范围推出Premium Lite小会员 免部分广告以及部分视频可下载观看</title><link>https://www.landian.news/archives/114287.html</link><description>
 &lt;p&gt;#网站应用 YouTube 在全球范围内推出 Premium Lite 小会员，价格较大会员更便宜，可以免除大部分视频广告。YouTube 近年疯狂反屏蔽广告策略让很多用户苦不堪言，谷歌也在吸引用户开通付费订阅来弥补屏蔽广告的损失。Lite 会员支持免除大部分视频广告、离线下载播放等，价格相当于大会员的 50%。查看全文：https://ourl.co/114287&lt;/p&gt;&lt;p&gt;谷歌在年初的时候面向全球 20 多个国家和地区推出 YouTube Premium Lite 版订阅，该订阅价格要便宜当然权益也要少些，但对很多用户来说可以免除大部分视频的广告。近年谷歌疯狂实施反屏蔽广告策略让很多用户苦不堪言，所以现在谷歌推出小会员也是吸引用户付费来免除广告。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/08/110416.png" rel="nofollow"&gt;&lt;img alt="YouTube在全球范围推出Premium Lite小会员 免部分广告以及部分视频可下载观看" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/08/110416.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -37,32 +60,4 @@
 &lt;p&gt;需要特别强调的是，此次攻击并非白帽黑客的恶作剧，因为有乘客称连接到黑客设置的 WiFi 后会弹出钓鱼页面，该页面会收集个人凭证和谷歌登录数据，如果是普通的恶作剧也就算了，这种试图窃取数据的做法已经属于黑客行为(以上均为乘客说法，未得到官方证实)。&lt;/p&gt;
 &lt;p&gt;另外黑客通过钓鱼 WiFi 发起的取消身份验证攻击本质上就是为了钓鱼，这种攻击会不断发送伪造的取消认证帧迫使客户端与合法 AP 断开连接，然后还可以迫使客户端重新连接到钓鱼 AP，接着黑客就可以拦截流量和将目标重定向到恶意页面。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 12 Aug 2026 04:12:50 +0000</pubDate></item><item><title>终于！ChatGPT/Codex for Linux桌面版现已发布 支持Ubuntu/Debian/Fedora</title><link>https://www.landian.news/archives/114284.html</link><description>
-&lt;p&gt;#软件资讯 终于！ChatGPT/Codex for Linux 桌面版现已发布，目前支持 Ubuntu、Debian 和 Fedora Linux。桌面版支持 ChatGPT、Codex 和 Work 等功能，可以正常登录账号同步数据，也支持远程控制。对于有需要的开发者，可以通过图形化界面进行开发、代码审计和调试等。下载地址：https://ourl.co/114284&lt;/p&gt;&lt;p&gt;OpenAI 今天宣布推出 ChatGPT for Linux 桌面预览版，该版本支持 Ubuntu、Debian 和 Fedora Linux，安装后支持使用 ChatGPT、Codex 和 Work 等功能，可以正常登录账号同步其他设备的数据，也支持通过 ChatGPT 手机版进行远程控制等。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114284-1.png" rel="nofollow"&gt;&lt;img alt="终于！ChatGPT/Codex for Linux桌面版现已发布 支持Ubuntu/Debian/Fedora" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114284-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114284-2.png" rel="nofollow"&gt;&lt;img alt="终于！ChatGPT/Codex for Linux桌面版现已发布 支持Ubuntu/Debian/Fedora" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114284-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Ubuntu 24.04 LTS&lt;/li&gt;
-&lt;li&gt;Ubuntu 26.04 LTS&lt;/li&gt;
-&lt;li&gt;Debian 13&lt;/li&gt;
-&lt;li&gt;Fedora Linux 43&lt;/li&gt;
-&lt;li&gt;Fedora Linux 44&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;对于使用 Linux 桌面环境的开发者来说，安装 ChatGPT 桌面版也是个不错的选择，可以通过图形化界面进行开发、代码审计和调试等。不过 ChatGPT for Linux 支持的发行版还比较少，更多开发者估计在使用 Codex CLI 或使用社区提供的 Linux 桌面版。&lt;/p&gt;
-&lt;p&gt;有兴趣的开发者可以在这里获取 Linux 预览版：&lt;a href="https://www.landian.news/go?url=https://openai.com/zh-Hans-CN/codex/" rel="noopener" target="_blank"&gt;https://openai.com/zh-Hans-CN/codex/&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 12 Aug 2026 03:10:45 +0000</pubDate></item><item><title>谷歌搜索面向极少数用户测试纯AI模式 没有搜索按钮 输入问题后激活AI回答</title><link>https://www.landian.news/archives/114283.html</link><description>
-&lt;p&gt;#网站应用 谷歌搜索面向极少数用户测试纯 AI 模式，没有搜索按钮，但可以直接调用 Nano Banana 创建图片、上传文件并默认激活 AI 模式。需要说明的是，纯 AI 模式指的是无论用户输入什么关键词，默认都由 AI 回答，但底部仍然会显示传统搜索结果。当前正式版的谷歌搜索中，并非所有关键词都会出现 AI 回答。查看全文：https://ourl.co/114283&lt;/p&gt;&lt;p&gt;谷歌搜索日前正在面向极少数用户测试纯 AI 模式，这里的纯 AI 模式指的是搜索框旁边的搜索按钮被替换为 AI 模式，当用户按回车时会优先在顶部显示 AI 生成的回答，用户也可以继续与 AI 进行交互例如继续询问后续步骤等。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114283-1.png" rel="nofollow"&gt;&lt;img alt="谷歌搜索面向极少数用户测试纯AI模式 没有搜索按钮 输入问题后激活AI回答" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114283-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114283-2.png" rel="nofollow"&gt;&lt;img alt="谷歌搜索面向极少数用户测试纯AI模式 没有搜索按钮 输入问题后激活AI回答" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114283-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114283-3.png" rel="nofollow"&gt;&lt;img alt="谷歌搜索面向极少数用户测试纯AI模式 没有搜索按钮 输入问题后激活AI回答" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114283-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;纯 AI 模式也同样会显示常规的搜索结果，即 AI 问答底部按照正常流程显示搜索结果，不过这个模式侧重点可能是强制激活 AI 模式，即无论用户输入的是哪些关键词默认都使用 AI 模式响应。&lt;/p&gt;
-&lt;p&gt;当前谷歌搜索并不会匹配所有关键词，因此有些内容会正常显示搜索结果不会在顶部显示 AI 问答，谷歌目的有可能是测试 AI 模式使用率，即默认所有词都激活 AI 模式，然后看看用户是继续通过 AI 模式交互还是点击常规的搜索结果链接。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;从网友发布的截图来看，谷歌搜索测试版有些像是将 ChatGPT 与传统搜索融合，即搜索框底部甚至还会显示创建图片和上传文件等功能，这种模式下的谷歌搜索已经不是传统搜索引擎，更倾向于 ChatGPT 的问答搜索。&lt;/p&gt;
-&lt;p&gt;需要说明的是谷歌经常悄咪咪的测试各种新功能或模式，测试中的样式不一定会最终发布，所以如果谷歌评估后觉得效果不好的话可能就会直接放弃，不会推送给所有用户使用。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 12 Aug 2026 03:00:30 +0000</pubDate></item></channel></rss>
+</description><pubDate>Wed, 12 Aug 2026 04:12:50 +0000</pubDate></item></channel></rss>
