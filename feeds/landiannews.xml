@@ -1,5 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 13 Aug 2026 01:00:18 +0000</lastBuildDate><item><title>uBlock Origin停止拦截Facebook广告 原因是后者反复采用对抗手段反广告屏蔽</title><link>https://www.landian.news/archives/114303.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 13 Aug 2026 03:00:16 +0000</lastBuildDate><item><title>SpaceXAI推出Grok 4.6系列模型 专注于长时程任务和处理交互式可视化工作</title><link>https://www.landian.news/archives/114307.html</link><description>
+&lt;p&gt;#人工智能 SpaceXAI 推出 Grok 4.6 模型，专注于长时程任务和可视化交互式复杂任务。该模型在 4.5 基础上进行更长时间的补充训练，覆盖软件工程、知识工作、通用编程、内核优化、网页开发和计算机辅助设计任务等。价格方面输入输出缓存分别为 2/6/0.5 美元，超过 200K 部分翻倍收费。提供快速模式，快速模式定价是标准定价的两倍，超出 200K 部分则是四倍。查看全文：https://ourl.co/114307&lt;/p&gt;&lt;p&gt;SpaceXAI 日前宣布推出 Grok 4.6 系列模型，该系列模型重点提升模型处理长时程任务、代码开发以及交互式视觉项目的能力。SpaceXAI 称模型可以在多个步骤中持续推进工作，适合执行资料研究、信息分析、跨文件代码修改以及从产品创意开发可运行的应用原型等。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;SpaceXAI 称，Grok 4.6 在此前模型基础上进行更长时间的补充训练，训练数据包括模型生成的推理数据、软件工程数据以及高质量技术资料等。同时开发团队还改进优化器和整体训练方案，使用 Grok 4.5 重新生成不同的推理强度和不同智能体工具环境下的训练轨迹。&lt;/p&gt;
+&lt;p&gt;这些训练覆盖软件工程、知识工作、通用编程、内核优化、网页开发以及计算机辅助设计等任务。新模型也加强了在长时程任务中的自我测试和结果验证能力，减少智能体执行到中途后出现偏离目标、无法收尾或交付结果质量不稳定等问题。&lt;/p&gt;
+&lt;p&gt;对于交互式和视觉项目，Grok 4.6 更容易在首次尝试中建立清晰的应用结构和视觉风格，不过这些能力主要体现在 Grok Build 等应用开发场景中，实际效果仍然取决于任务复杂度、工具调用环境以及模型是否能够正确理解用户需求。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114307.png" rel="nofollow"&gt;&lt;img alt="SpaceXAI推出Grok 4.6系列模型 专注于长时程任务和处理交互式可视化工作" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114307.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Grok 4.6 在多种模型基准测试中的表现要比此前版本更好，不过整体来说没有特别领先的地方，即要么与 GPT-5.6 SOL 持平，要么低于 Claude Fable 5 等模型。所以在多种测试中，Grok 4.6 处在头部地位但并没有领先，而且部分竞争模型的成绩来自公开系统卡或排行榜，相关数据并非全部由独立机构重新测试。&lt;/p&gt;
+&lt;p&gt;SpaceXAI 也强调 Grok 4.6 所说的达到前沿水平主要指的是在多个智能体和知识工作测试中具备竞争力，所以实际能力如何还需要开发者日常使用来感受。&lt;/p&gt;
+&lt;p&gt;Grok 4.6 目前已经在 Cursor 和 Grok Build 中提供，发布首周以上工具的订阅用户可以获得两倍额度。开发者也可以通过 API 调用该模型，除了 SpaceXAI 官方 API 外，其他模型平台也会陆续提供 Grok 4.6 的调用。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;模型名称：grok-4.6&lt;/li&gt;
+&lt;li&gt;模型窗口：500K&lt;/li&gt;
+&lt;li&gt;知识库时间：2026 年 2 月 1 日&lt;/li&gt;
+&lt;li&gt;模态支持：文本和图像输入、文本输出&lt;/li&gt;
+&lt;li&gt;百万输入：2 美元&lt;/li&gt;
+&lt;li&gt;百万输出：6 美元&lt;/li&gt;
+&lt;li&gt;百万缓存：0.5 美元&lt;/li&gt;
+&lt;li&gt;额外定价：超过 200K 部分，百万输入 4 美元、百万输出 12 美元、百万缓存 1 美元&lt;/li&gt;
+&lt;li&gt;快速模式：为标准定价的两倍，快速模式下的超出 200K 部分也翻倍，也就是标准定价普通模式的四倍&lt;/li&gt;
+&lt;li&gt;努力程度：低、中、高、超高，默认为高&lt;/li&gt;
+&lt;li&gt;API 接口支持： Responses API，Chat Completions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://x.ai/news/grok-4-6" rel="noopener" target="_blank"&gt;发布新闻稿&lt;/a&gt;、&lt;a href="https://www.landian.news/go?url=https://docs.x.ai/developers/models/grok-4.6" rel="noopener" target="_blank"&gt;Grok 4.6 定价&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Thu, 13 Aug 2026 03:00:16 +0000</pubDate></item><item><title>微信宣布推出WeLM模型 参数规模为617B 目前已经内置到微信原生AI助手小微中</title><link>https://www.landian.news/archives/114306.html</link><description>
+&lt;p&gt;#人工智能 微信团队宣布推出 WeLM 系列模型，参数规模最高 617B，采用混合专家架构，目前已经内置到微信原生 AI 助手小微中。WeLM 系列公开模型包括 80B 和 617B 版，其中 617B 版还在开发中，80B 版则内置到小微中。微信追求的并非参数规模而是资源效率优先，即在有限的算力与数据资源下构建高效模型。查看全文：https://ourl.co/114306&lt;/p&gt;&lt;p&gt;微信团队日前在社交网站 X/Twitter 上以英文宣布推出自研模型 WeLM，该模型设计理念并非追求参数规模的军备竞赛，而是以资源效率为先，旨在支撑微信海量用户的日常 AI 交互与生态服务。但目前微信似乎未在国内中文官方账号宣布相关消息，不知道这是什么原因。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114306.png" rel="nofollow"&gt;&lt;img alt="微信宣布推出WeLM模型 参数规模为617B 目前已经内置到微信原生AI助手小微中" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114306.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;微信称 WeLM 系列模型由微信团队独立打造，目前公开的两款模型分别是 WeLM-80B 和 WeLM-617B，前者总参数规模为 800 亿并在推理时仅激活 30 亿参数；后者总参数规模为 6170 亿，激活参数为 230 亿，采用混合专家架构 (MoE)，目前仍然在开发中。&lt;/p&gt;
+&lt;p&gt;目前该系列模型已经部署到微信内置原生 AI 助手小微中，用户可以通过自然语言实现对话与搜索、直接调用微信原生功能例如发消息和打电话等，以及无缝访问小程序服务，实现语音交互的场景落地。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;与行业普遍追求的大规模参数和激活更多参数、冲榜评测的路线不同，WeLM 系列模型从开始就锚定微信超大规模用户场景的实际需求，微信团队此前在技术博客中多次提到，团队通过稀疏 MoE 架构和深度扩展等手段，在有限算力与数据资源下构建高效模型，目标是支撑十亿级用户的高频调用。&lt;/p&gt;
+&lt;p&gt;所以对微信而言资源效率是最重要的，所以微信并没有依赖腾讯混元系列模型，而是长期迭代自有的 WeLM 体系 (此前版本已经在内部支撑小微测试)。未来 WeLM-617B 落地后，应该可以继续加速小程序智能化与个性化工具的爆发。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Thu, 13 Aug 2026 02:30:18 +0000</pubDate></item><item><title>英特尔CEO暗示重返内存制造市场 甚至还重新考虑将内存与CPU堆叠(不可更换内存)</title><link>https://www.landian.news/archives/114305.html</link><description>
+&lt;p&gt;#行业资讯 英特尔 CEO 陈立武透露英特尔重新考虑杀回内存市场，要知道英特尔 1968 年成立之初就是生产 DRAM 的，只不过后来因为竞争问题退出市场。陈立武还透露英特尔重新考虑将内存与 CPU 堆叠封装，在 2024 年英特尔推出月亮湖系列处理器就封装内存，用户不可更换内存，但这种情况很快被 OEM 抵制，于是英特尔不再堆叠内存。查看全文：https://ourl.co/114305&lt;/p&gt;&lt;p&gt;英特尔首席执行官陈立武日前表示，随着人工智能数据中心持续消耗内存资源，原本视为商品业务的存储器已经重新成为具有战略价值的领域。陈立武暗示，英特尔正在研究新的内存架构，并探索重新将内存与 CPU 堆叠的可能性。&lt;/p&gt;
+&lt;p&gt;陈立武以前觉得不应该投资存储器业务，因为内存产品同质化严重以及利润非常有限。只不过现在市场情况已经发生变化，大量 AI 服务器正在抢购 DRAM、NAND 和高带宽内存，存储器制造商的盈利能力明显提升，行业也重新出现技术创新空间。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2024/06/104296.png" rel="nofollow"&gt;&lt;img alt="英特尔CEO暗示重返内存制造市场 甚至还重新考虑将内存与CPU堆叠(不可更换内存)" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2024/06/104296.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;需要说明的是，英特尔最初就是存储器厂商，英特尔在 1968 年成立，曾长期生产 DRAM。不过到 20 世纪 80 年代受到日本厂商的激烈竞争后，英特尔退出存储器市场。此后英特尔又尝试通过 NAND 闪存、傲腾以及 RDRAM 等方式重新进入存储器领域，但最终都没有形成长期业务。&lt;/p&gt;
+&lt;p&gt;目前英特尔的主要业务是 CPU 芯片和晶圆代工等，英特尔的主要优势在于拥有自己的晶圆厂，因此英特尔可以自己研发技术并通过现有的晶圆厂生产存储器，对英特尔来说这既是老本行也有硬件设施基础，当然要杀入现代存储器市场的难度也是很大的。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;目前陈立武并未公布具体项目名称、产品规划或时间表，只是称新的内存架构是重点项目之一，而且英特尔近期还聘请曾经担任 SK 海力士首席执行官的李锡熙 (Seok-Hee Lee)，这或许与英特尔正在思考的存储器战略有关。&lt;/p&gt;
+&lt;p&gt;在谈到未来方向时，陈立武还表示 CPU 与内存之间存在多种堆叠方式，将两者更紧密地结合起来可能具有实际意义。与传统 CPU 通过主板连接 DDR 内存相比，内存堆叠或先进封装可以缩短信号传输距离，提高带宽并降低延迟，同时减少系统中芯片与互联部件的数量。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 早前英特尔的 CPU 内存堆叠刚被 OEM 抛弃：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.landian.news/archives/104296.html" rel="noopener" target="_blank"&gt;英特尔在 2024 年推出适用于笔记本电脑的月亮湖系列移动处理器&lt;/a&gt;，这些处理器将内存与 CPU 封装到一起，用户不可自行更换内存。当时英特尔给出的理由是，这可以提高能效并降低延迟，而且主板不需要预留内存插槽也可以改善主板设计等。&lt;/p&gt;
+&lt;p&gt;但这种做法很快就被 OEM 抵制，OEM 需要针对不同层级的产品给出不同的硬件配置，英特尔当时只提供 LPDDR5X 16GB 和 32GB 版，实际降低了 OEM 的灵活性，当然也提高了 OEM 的成本价，因为 OEM 自己采购内存更便宜。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.landian.news/archives/106394.html" rel="noopener" target="_blank"&gt;最终将内存嵌入到 CPU 封装的做法很快就被英特尔放弃&lt;/a&gt;，英特尔称月亮湖系列算是实验，所以现在英特尔再次考虑将内存和 CPU 封装到一起，估计还是会引起 OEM 的抵制，但如果英特尔自己生产内存并封装到 CPU，那应该有价格优势。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Thu, 13 Aug 2026 02:00:22 +0000</pubDate></item><item><title>英伟达专业级显卡RTX PRO 6000 96GB版建议零售价从8,000美元翻倍到16,000美元</title><link>https://www.landian.news/archives/114304.html</link><description>
+&lt;p&gt;#硬件设备 英伟达专业工作站级显卡 RTX PRO 6000 96GB 版官方建议零售价从发布时的 8,000 美元翻倍到 16,000 美元。6 月份英伟达已经将其调价到 13,250 美元，现在英伟达再次调整官方商店里的 RTX PRO 6000 显卡建议零售价，现已调整为 16,000 美元。当然下游零售商会以更高的价格销售，所以实际购买时可能需要 17,000~18,000 美元甚至更高的价格。查看全文：https://ourl.co/114304&lt;/p&gt;&lt;p&gt;英伟达近期已经提高 RTX50 系显卡的价格，英伟达提高的主要是 GPU+VRAM 的价格，下游 AIC 制造商需要支付更高的费用才能购买核心和显存，因此直接后果就是消费者购买显卡时需要支付更高的价格，例如 RTX 5060 Ti 16GB 版从 569.99 美元涨价到 804.99 美元 (零售商报价)。&lt;/p&gt;
+&lt;p&gt;受显存价格影响的也不只是消费级显卡，英伟达面向专业用户和工作站的 RTX PRO 6000 系列显卡也同样在大幅度涨价，这些显卡最初官方建议零售价是 8,000 美元，现在英伟达已经将其调整到 16,000 美元。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114304.png" rel="nofollow"&gt;&lt;img alt="英伟达专业级显卡RTX PRO 6000 96GB版建议零售价从8,000美元翻倍到16,000美元" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114304.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;RTX PRO 6000 Blackwell 是英伟达针对 AI 开发者和 AI 工作站推出的专业级显卡，该显卡配备 96GB GDDR7 高性能显存，最初发布时英伟达给出的定价就高达 8,000 美元，然而现在来看当时的 8,000 美元定价已经非常便宜。&lt;/p&gt;
+&lt;p&gt;当然这也不是英伟达直接翻倍式调价，在 6 月份英伟达已经将 RTX PRO 6000 系列官方建议零售价调整为 13,250 美元，而下游零售商实际以更高的价格销售，而这次调价到 16,000 美元后，下游估计会涨价到 17,000~18,000 美元甚至更高的价格。&lt;/p&gt;
+&lt;p&gt;目前英伟达官方商店提供 3 款 RTX PRO 6000 显卡，其中 PNY 提供的工作站版处于缺货状态，而英伟达自己提供的版本均已调整为 16,000 美元，显卡厂商 PNY 也证实英伟达确实已经调价，不过 PNY 没有透露自家的 RTX PRO 6000 调整后价格是多少。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 下面是英伟达商店在售的 RTX PRO 6000 显卡：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;NVIDIA RTX PRO 6000 Blackwell：96GB GDDR7 显存，最新建议零售价为 16,000 美元&lt;/li&gt;
+&lt;li&gt;NVIDIA RTX PRO 6000 Blackwell Max-Q：96GB GDDR7-ECC 显存，最新建议零售价为 16,000 美元&lt;/li&gt;
+&lt;li&gt;PNY RTX PRO 6000 Blackwell：96GB GDDR7-ECC 显存，11359.99 美元 (暂未调整且处在无货状态)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Thu, 13 Aug 2026 01:30:18 +0000</pubDate></item><item><title>uBlock Origin停止拦截Facebook广告 原因是后者反复采用对抗手段反广告屏蔽</title><link>https://www.landian.news/archives/114303.html</link><description>
 &lt;p&gt;#软件资讯 知名广告拦截程序 uBlock Origin 宣布放弃拦截 Facebook 网页版上的广告，原因是后者不停地采取对抗措施反广告屏蔽。脸书会使用各类动态 DIV 和其他方式对抗广告拦截，甚至可能有团队专门盯着 uBlock Origin 的拦截策略并进行反拦截策略。这让 uBlock Origin 团队身心俱疲，所以决定放弃支持对脸书广告的拦截。查看全文：https://ourl.co/114303&lt;/p&gt;&lt;p&gt;知名广告拦截扩展程序 uBlock Origin 的开发团队透露，该扩展程序后续将不再支持过滤社交网站脸书 (Facebook) 网页版上的广告内容，原因是 Facebook 工程团队反复采用对抗手段反广告屏蔽，这也导致 uBlock Origin 开发团队需要花费大量时间精力去研究拦截。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2024/10/106014.png" rel="nofollow"&gt;&lt;img alt="uBlock Origin停止拦截Facebook广告 原因是后者反复采用对抗手段反广告屏蔽" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2024/10/106014.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -13,51 +81,4 @@
 &lt;hr/&gt;
 &lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://www.reddit.com/r/uBlockOrigin/comments/1vgcjg5/about_disgusting_facebook_devs/" rel="noopener" target="_blank"&gt;Reddit&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 13 Aug 2026 01:00:18 +0000</pubDate></item><item><title>火狐浏览器宣布将继续支持uBlock Origin 为用户提供更加完善的广告拦截服务</title><link>https://www.landian.news/archives/114302.html</link><description>
-&lt;p&gt;#软件资讯 火狐浏览器将继续支持完整版的 uBlock Origin 广告拦截程序，虽然也升级 MV3 但保留拦截和修改网络请求能力。在 Microsoft Edge 宣布要清退 MV2 扩展程序时，火狐浏览器表示将继续支持 uBlock Origin，因为火狐的 MV3 为广告拦截程序单独保留功能接口，不会弱化广告拦截程序的能力。查看全文：https://ourl.co/114302&lt;/p&gt;&lt;p&gt;日前微软也宣布将在 Microsoft Edge 浏览器中逐渐淘汰基于 MV2 标准的扩展程序，这意味着备受好评的开源广告拦截程序 uBlock Origin 也将被微软清退，谷歌浏览器也同样清退基于旧版协议的扩展程序，这给用户的正常使用带来很多麻烦。&lt;/p&gt;
-&lt;p&gt;不过火狐浏览器虽然也在推动扩展程序迁移到 MV3 但会保留拦截和修改网络请求的功能 (webRequestBlocking)，因此在火狐浏览器上用户可以继续使用完整版的 uBlock Origin，其他需要使用拦截和修改网络请求的扩展程序也可以继续使用该功能。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/public/thumb/firefox.png" rel="nofollow"&gt;&lt;img alt="火狐浏览器宣布将继续支持uBlock Origin 为用户提供更加完善的广告拦截服务" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/public/thumb/firefox.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;谷歌浏览器在 MV3 协议中对扩展程序拦截和修改网络请求功能进行调整，调整后广告拦截程序的能力被弱化，迫于无奈 uBlock Origin 只能推出基于 MV3 的轻量版，轻量版在广告拦截效率上不如完整版。&lt;/p&gt;
-&lt;p&gt;火狐浏览器的做法则是在 MV3 中单独保留拦截和修改请求功能，所以即便扩展程序迁移到 MV3 标准后依然可以使用该功能，这意味着 uBlock Origin 这类广告扩展程序还可以继续使用，用户不需要被迫安装 uBlock Origin Lite 版。&lt;/p&gt;
-&lt;p&gt;除了火狐浏览器外，基于 Chromium 内核的 Brave 浏览器也表示会继续支持原版 uBlock Origin，该浏览器将通过自己的服务器托管这类特殊的扩展程序，避免谷歌从应用商店里下架 uBlock Origin 后，用户找不到地方安装。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 13 Aug 2026 00:30:18 +0000</pubDate></item><item><title>YouTube在全球范围推出Premium Lite小会员 免部分广告以及部分视频可下载观看</title><link>https://www.landian.news/archives/114287.html</link><description>
-&lt;p&gt;#网站应用 YouTube 在全球范围内推出 Premium Lite 小会员，价格较大会员更便宜，可以免除大部分视频广告。YouTube 近年疯狂反屏蔽广告策略让很多用户苦不堪言，谷歌也在吸引用户开通付费订阅来弥补屏蔽广告的损失。Lite 会员支持免除大部分视频广告、离线下载播放等，价格相当于大会员的 50%。查看全文：https://ourl.co/114287&lt;/p&gt;&lt;p&gt;谷歌在年初的时候面向全球 20 多个国家和地区推出 YouTube Premium Lite 版订阅，该订阅价格要便宜当然权益也要少些，但对很多用户来说可以免除大部分视频的广告。近年谷歌疯狂实施反屏蔽广告策略让很多用户苦不堪言，所以现在谷歌推出小会员也是吸引用户付费来免除广告。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/08/110416.png" rel="nofollow"&gt;&lt;img alt="YouTube在全球范围推出Premium Lite小会员 免部分广告以及部分视频可下载观看" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/08/110416.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;订阅价格：以美国市场为例，大会员每月 15.99 美元，小会员每月 8.99 美元&lt;/li&gt;
-&lt;li&gt;视频广告：大会员可以免除所有视频广告，小会员可以免除大部分视频广告&lt;/li&gt;
-&lt;li&gt;不免广告：小会员使用 YouTube Music、观看音乐 MV、刷 YouTube 短视频仍然有广告&lt;/li&gt;
-&lt;li&gt;后台播放：大会员支持所有视频和音乐类型后台播放，小会员仅支持大部分非音乐类型的视频后台播放&lt;/li&gt;
-&lt;li&gt;离线观看：大会员支持所有类型的视频离线下载后观看，小会员支持大部分非音乐类型的视频离线下载&lt;/li&gt;
-&lt;li&gt;音乐权益：大会员包含完整的 YouTube Music Premium 权益，小会员不包含任何此类权益&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;YouTube Premium Lite 不支持自动播放、继续观看和待播清单等功能，正常情况下观看游戏、时尚、美妆、新闻等类型的视频时可以免除广告，音乐内容、YouTube 短视频、YouTube 搜索界面、YouTube 浏览界面仍然会显示广告。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 12 Aug 2026 05:28:35 +0000</pubDate></item><item><title>扣子团队继续发布Coze CLI更新 目前已经停止静默安装和同步技能</title><link>https://www.landian.news/archives/114286.html</link><description>
-&lt;p&gt;#人工智能 扣子团队继续发布 Coze CLI 更新彻底解决静默安装技能劫持 AI 工作流问题，目前不再默认安装技能。在 0.3.7 版中扣子将默认劫持导流改成仅在用户明确要求下才会将工作流导入到扣子，0.3.8 版则是不再默认安装技能。现在安装完成后会提醒用户可以安装技能，若用户主动安装技能则继续全局写入。但因为技能不再被默认触发，所以即便全局写入后也不会再干扰 Codex、Claude Code 等工作流。查看全文：https://ourl.co/114286&lt;/p&gt;&lt;p&gt;字节跳动旗下的扣子团队针对 Coze CLI 静默安装技能劫持其他 AI 智能体工作流问题发布更新，最新发布的版本为 v0.3.8 版，此次更新后 Coze CLI 不再默认安装技能，仅在用户指定的情况下安装技能并在用户明确要求时再将工作流导入到 Coze CLI 中。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114286.png" rel="nofollow"&gt;&lt;img alt="扣子团队继续发布Coze CLI更新 目前已经停止静默安装和同步技能" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114286.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;扣子团队在昨天夜里 10 点发布 Coze CLI v0.3.8 版，针对引发争议的安装后注入技能和导流问题进行调整，此前版本在 NPM 安装阶段通过 postinstall.js 静默执行技能安装，可以将内置技能写入或链接至用户本地的 AI 智能体目录，因此被用户质疑存在劫持工作流行为。&lt;/p&gt;
-&lt;p&gt;蓝点网已对 v0.3.8 版安装包和运行代码进行审计，新版本安装文件已经删除自动执行技能安装逻辑，用户安装 Coze CLI 后程序只会显示提示信息，告知用户可以通过命令主动选择接收技能的 AI 智能体，不再默认执行全局安装、不再静默执行操作。&lt;/p&gt;
-&lt;p&gt;另外新版本默认技能模式也从此前的 auto 调整为 notify，这意味着 CLI 运行时也不再自动同步技能，而是改为通知用户，因此 v0.3.8 版属于对此前劫持工作流问题的实质性修复，用户全新安装新版本时不再安装技能，但升级的话现有技能会被保留，用户可以通过 AI 智能体排查技能目录选择是否要清理。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;审计还发现新版本并未移除技能同步功能，即当用户主动安装技能后，程序仍然会调用相关技能管理工具，并可能写入 ~/.agents/skills、~/.codex/skills 或 ~/.claude/skills 等目录。不过这里不存在默认风险，除非用户主动选择安装。&lt;/p&gt;
-&lt;p&gt;写入的这些技能默认情况下也不会被调用，在 v0.3.7 版中扣子团队已经将其修改为仅在用户明确要求时才调用技能并将工作流导入到 Coze CLI，所以用户继续使用 Codex、Claude Code 等时也不会再被这些技能干扰。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 12 Aug 2026 04:49:57 +0000</pubDate></item><item><title>管不住自己的手：有参加黑客大会的乘客在达美航空591上启用钓鱼WiFi 下机就被抓</title><link>https://www.landian.news/archives/114285.html</link><description>
-&lt;p&gt;#安全资讯 管不住自己的手：有参加黑客大会的乘客在达美航空 591 航班上启用钓鱼 WiFi 窃取其他乘客数据，下机就被抓。机组检测到异常后立即切断航班自带的 WiFi，随后将安全事件报告给地面安全中心、美国联邦执法机构和美国航空监管机构。飞机落地后执法机构直接堵在出口，涉事黑客目前似乎已经被逮捕且便携式 WiFi 设备也被扣押。查看全文：https://ourl.co/114285&lt;/p&gt;&lt;p&gt;美国达美航空日前正在调查 591 航班上出现的未经授权的 WiFi 网络，该航班从拉斯维加斯飞往亚特兰大，而且这次航班上的不少乘客曾参与 DEF CON 黑客大会，显然这个未经授权的 WiFi 网络就是某个黑客发起的。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114285.png" rel="nofollow"&gt;&lt;img alt="管不住自己的手：有参加黑客大会的乘客在达美航空591上启用钓鱼WiFi 下机就被抓" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114285.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;达美航空 591 航班的机组监测到航班上出现名为 Delta WiFi Fast 的无线网络，这并非达美航空提供的空中网络服务，黑客实施名为 WiFi 取消认证的攻击手段，这导致其他乘客与航班上提供的无线机载网络断开连接。&lt;/p&gt;
-&lt;p&gt;机组成员检测到异常后迅速关闭航班本身提供的 WiFi，随后将此次安全事件报告给地面安全中心、美国联邦执法机构、美国航空监管机构，目前达美航空正在和执法机构调查此事件。&lt;/p&gt;
-&lt;p&gt;涉事黑客似乎已经被逮捕，据某位乘客提供的消息，达美航空 591 航班落地后停靠在登机口，随后美国联邦执法机构和机场警察对乘客进行问询并扣押某些便携式 WiFi 设备，毕竟飞机没落地黑客也没法跑路，所以执法机构堵在出口很容易找到线索。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; 黑客伪造的 WiFi 试图窃取其他乘客的谷歌账号密码：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;需要特别强调的是，此次攻击并非白帽黑客的恶作剧，因为有乘客称连接到黑客设置的 WiFi 后会弹出钓鱼页面，该页面会收集个人凭证和谷歌登录数据，如果是普通的恶作剧也就算了，这种试图窃取数据的做法已经属于黑客行为(以上均为乘客说法，未得到官方证实)。&lt;/p&gt;
-&lt;p&gt;另外黑客通过钓鱼 WiFi 发起的取消身份验证攻击本质上就是为了钓鱼，这种攻击会不断发送伪造的取消认证帧迫使客户端与合法 AP 断开连接，然后还可以迫使客户端重新连接到钓鱼 AP，接着黑客就可以拦截流量和将目标重定向到恶意页面。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 12 Aug 2026 04:12:50 +0000</pubDate></item></channel></rss>
+</description><pubDate>Thu, 13 Aug 2026 01:00:18 +0000</pubDate></item></channel></rss>
