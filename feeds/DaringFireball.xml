@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Fri, 14 Aug 2026 16:33:55 +0000</lastBuildDate><item><title>Google的“Material 3”设计文档93.3%令人尴尬</title><link>https://design.google/library/expressive-material-design-google-research</link><description>&lt;p&gt;Google Design 上这篇关于其“Material 3”UI 语言的页面，是在我发表&lt;a href="https://daringfireball.net/linked/2026/08/12/google-design-pants-pissed"&gt;那篇讽刺性帖子&lt;/a&gt;之后才引起我注意的。那篇帖子是关于他们本周在 Twitter/X 上&lt;a href="https://x.com/googledesign/status/2087195277094695096"&gt;奇怪地大肆吹嘘&lt;/a&gt;的那款笨拙的新待办事项应用。我觉得这个“Material 3”页面并不是什么新内容——我想它已经有好几年了——但我以前从未见过。&lt;/p&gt;
-&lt;p&gt;首先，太离谱了：（在带鼠标光标的桌面浏览器中）他们把用于文本选择的 I 型光标改成了……一个圆圈。我猜它看起来有点好玩，但 I 型光标的全部意义就在于实现精确的字符选择。他们却把它改成了让精确选择难上加难的东西。与其用个该死的圆圈，还不如干脆用个箭头指针。这可是出自 UI 设计团队的手笔。&lt;/p&gt;
-&lt;p&gt;其次，这一段让我真的怀疑自己是不是在读一篇恶搞文——一篇多年前的、一点都不好笑的愚人节“玩笑”。但据我所知，这完全是正经内容，不是什么玩笑：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Fri, 14 Aug 2026 17:16:15 +0000</lastBuildDate><item><title>★ 你无需担心iPhone摄像头镜片被刮花</title><link>https://daringfireball.net/2026/08/iphone_camera_lens_scratch_resistance</link><description>&lt;p&gt;延续我&lt;a href="https://daringfireball.net/linked/2026/08/13/ceramic-shield-2-is-the-real-deal"&gt;昨天关于现代iPhone和抗刮擦性能的文章&lt;/a&gt;，以及我个人的习惯：（a）几乎从不给iPhone戴壳，（b）除非是柔软（布料）表面，否则从不把iPhone屏幕朝下放置。&lt;/p&gt;
+&lt;p&gt;我本该预料到这一点，因为近几年我已经和现实世界中的普通用户反复进行过这种对话，但我还是收到了&lt;a href="https://mastodon.social/@irace/117085815636856963"&gt;一堆&lt;/a&gt;来自&lt;a href="https://mastodon.social/@febuiles/117089438630870060"&gt;网友&lt;/a&gt;的&lt;a href="https://mastodon.social/@febuiles/117089438630870060"&gt;提问&lt;/a&gt;，他们说不敢把iPhone背面朝下放，因为担心刮花摄像头镜片。这种担心并非毫无道理。那些镜片看起来是玻璃做的；玻璃会被刮花；而且一块被刮花的摄像头镜片似乎确实可能永远毁掉你用相机拍下的所有照片和视频。&lt;/p&gt;
+&lt;p&gt;不过这里有几点误解。首先，手机背面那些裸露的玻璃状圆形平面并不是摄像头镜片本身。它们是覆盖在镜片上的保护盖，真正的镜片更小，呈球面（而非平面），并且是内嵌的。你可以透过保护盖看到里面真正的球面镜片。裸露的镜片保护盖是由蓝宝石而非玻璃制成的，因此具有令人难以置信的耐刮擦性能。它们是手机中最耐刮擦的部件。我从未在任何一部iPhone的摄像头镜片保护盖上发现过哪怕一条细小的划痕，而且我从未特意小心避免刮花它们。我的意思是，我不会把镜片朝下在表面上拖拽。我不是&lt;em&gt;故意&lt;/em&gt;去刮它们。但我经常把手机背面朝下放在硬质表面上，它们似乎连细微的划痕都不会留下。&lt;/p&gt;
+&lt;p&gt;Zack（网名"JerryRigEverything"）Nelson就是&lt;a href="https://www.youtube.com/JerryRigEverything"&gt;YouTube上那位&lt;/a&gt;专门制作视频、用各种方式把产品刮得面目全非来测试其耐用性的博主。（他还会弯折、火烧，以及用其他各种残酷而有创意的方式蹂躏产品。）在他的iPhone 17 Pro视频中，&lt;a href="https://youtu.be/KrOBzFwVzwA?t=250"&gt;大约从4分10秒处开始&lt;/a&gt;，他尝试用锋利的剃须刀片刮蓝宝石镜片保护盖。毫无效果。蓝宝石远比玻璃更可能碎烈而非被刮花，因为它太硬了。（你可能还记得，十年前苹果曾试图用蓝宝石来制造iPhone的&lt;em&gt;屏幕&lt;/em&gt;，但&lt;a href="https://daringfireball.net/linked/2014/10/06/gt-advanced"&gt;最终没有成功&lt;/a&gt;。）只要别用钻石硬度的刻刀去刮你的镜片，就完全不用担心。&lt;/p&gt;&lt;p&gt;而且，信不信由你，镜头盖上一道细微的划痕几乎完全不会影响图像质量。你可以试着把一根头发（其粗细可能远超一般划痕）贴在iPhone 1×主摄像头的镜片表面，拍一张照片，然后把头发从镜片上清理掉，再拍一张同样的照片。你几乎不会看出&lt;em&gt;任何区别&lt;/em&gt;。&lt;a href="https://www.dpreview.com/videos/4128862298/dpreview-tv-how-much-do-scratches-dust-and-fingerprints-affect-lens-image-quality/"&gt;这里是DPReview在2020年发布的一段很棒的视频&lt;/a&gt;，展示了需要在镜头外部积攒多少灰尘或划痕才会真正降低图像质量。这看似有违直觉，但镜片表面并不是光线聚焦的地方——真正聚焦光线的是相机内部的传感器。&lt;/p&gt;</description><pubDate>Fri, 14 Aug 2026 17:16:15 +0000</pubDate></item><item><title>Google的“Material 3”设计文档93.3%令人尴尬</title><link>https://design.google/library/expressive-material-design-google-research</link><description>&lt;p&gt;这篇来自Google Design关于其“Material 3”UI语言的文章，是在我发布了那篇&lt;a href="https://daringfireball.net/linked/2026/08/12/google-design-pants-pissed"&gt;吐槽帖&lt;/a&gt;之后引起我注意的——那篇帖子是关于本周他们在Twitter/X上&lt;a href="https://x.com/googledesign/status/2087195277094695096"&gt;莫名其妙自吹自擂&lt;/a&gt;的一款笨拙的新待办事项应用。我觉得这个“Material 3”页面不是什么新东西——我猜它已经存在好几年了——但我之前从没见过。&lt;/p&gt;
+&lt;p&gt;首先，他们竟然（在带鼠标光标的桌面浏览器中）把用于文本选择的I形光标改成了……一个圆圈，这太疯狂了。我猜它看起来可能有点好玩，但I形光标存在的全部意义就是实现精确的字符选择。他们却把它换成了让精确选择变得尽可能困难的东西。与其用一个该死的圆圈来取代I形光标，还不如直接用箭头指针呢。这可是出自UI设计团队之手。&lt;/p&gt;
+&lt;p&gt;其次，这一段让我真的怀疑自己是不是在读一篇恶搞文，或者是一个多年前一点也不好笑的愚人节“玩笑”。但据我所知，这完全是认真的，不是恶搞：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;这些因素可以通过用户对新的 M3 表现力（Expressive）设计的反应来量化。我们发现亚文化感知提升了 32%，这表明表现力设计能让品牌感觉更相关、更“懂行”。我们还看到现代感提升了 34%，让品牌显得新颖且具有前瞻性。除此之外，叛逆感跃升了 30%，表明表现力设计将品牌定位为大胆、创新、敢于打破常规。&lt;/p&gt;
+&lt;p&gt;这些因素可以通过用户对全新M3
+表现力设计（Expressive designs）的反应来量化。我们发现亚文化
+感知度提升了32%，这表明表现力设计能让品牌
+感觉更贴近潮流、更“懂行”。我们还看到现代感
+提升了34%，让品牌显得清新且具有前瞻性。在此
+基础上，叛逆感也跃升了30%，这表明
+表现力设计将品牌定位为大胆、创新，且
+愿意打破常规。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;没有什么比给“叛逆感”、“现代感”和“亚文化感知”标上精确的百分比，更能彰显“叛逆”和“懂行”的了。&lt;/p&gt;
+&lt;p&gt;没有什么比给“叛逆感”“现代感”和“亚文化感知度”分配精确百分比更能体现叛逆和“懂行”了。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;更新：&lt;/strong&gt;信不信由你，还真有&lt;a href="https://www.youtube.com/watch?v=AySXu8x-RnA"&gt;Google Design团队进行这项研究的视频&lt;/a&gt;。值得一看。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/08/14/google-design-93-percent" title="Permanent link to ‘Google’s ‘Material 3’ Design Write-Up Is 93.3 Percent Embarrassing’"&gt; ★ &lt;/a&gt;
 </description><pubDate>Fri, 14 Aug 2026 16:33:55 +0000</pubDate></item><item><title>&lt;p&gt;Ceramic Shield 2 名副其实&lt;/p&gt;</title><link>https://www.tomsguide.com/phones/iphones/iphone-17-and-iphone-air-durability-testing-heres-how-the-new-iphones-stand-up-to-bending-scratching-and-dropping</link><description>&lt;p&gt;菲利普·迈克尔（Philip Michaels）去年九月为《Tom's Guide》撰文：&lt;/p&gt;
 &lt;blockquote&gt;
@@ -27,14 +38,4 @@
 &lt;p&gt;我对这个功能毫无兴趣，因为几年前我就不再把我的iPhone屏幕朝下放在任何表面上了。我不使用手机壳，所以把手机屏幕朝下放置很容易刮花。我不再那么做了，再也不了，而现在我这台用了快一年的iPhone 17 Pro，显示屏玻璃上看起来连一道&lt;em&gt;微&lt;/em&gt;小的划痕都没有。&lt;/p&gt;
 &lt;p&gt;而且发布时只支持电话来电，这看起来简直有点蠢。谷歌连在自家Pixel手机上做一个闪烁灯都做不利索。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/08/12/stern-pixel-hilight" title="‘Joanna Stern谈Pixel 11“HiLight”通知灯’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Wed, 12 Aug 2026 21:23:30 +0000</pubDate></item><item><title>Google随Pixel 11手机推出“相机外观”功能</title><link>https://www.theverge.com/tech/978084/google-camera-looks-interview-computational-photography</link><description>&lt;p&gt;David Imel，《The Verge》：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;但在当下，人们被吸引的照片并非完美无瑕——这给智能手机相机制造商带来了真正的难题。“两个随机的人对相机需求的差距正在急剧扩大，”谷歌Pixel相机团队负责人Isaac Reynolds表示。Reynolds说，有些人想要一张经过完美优化的照片。“但越来越多的人想要的是他们自己认为更真实或更传统的照片。”&lt;/p&gt;
-&lt;p&gt;这正是Reynolds和Pixel团队希望通过“相机风格”（Camera Looks）解决的问题，这是对Pixel 11系列相机如何捕捉和渲染图像的一次彻底重新思考。这些手机包含一套新的处理工具，旨在让人们更好地控制相机的输出。乍一看，它们很像滤镜，名字有Black Tie、Classic，最引人注目的是Digi，这个名称指的是近年来购买2000年代早期廉价数码相机的日渐兴起的趋势。但与一般在处理完成后应用编辑调整的滤镜不同，“相机风格”正在改变传感器层面图像数据的处理方式。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这听起来很像苹果iPhone 13及后续机型中的“摄影风格”（Photographic Styles），但增加了一些对颗粒感和锐度的控制。我喜欢颗粒感，而苹果内置照片处理中最让我不喜欢的一点就是它试图消除所有噪点。我喜欢那些接受噪点并努力使其悦目的数码相机，而不是过度处理，试图假装这些小型传感器本质上并没有噪点。所以我要为Google点赞，他们放松了“所有人得到的都是过度锐化、过度平滑的外观”这种处理方式。&lt;/p&gt;
-&lt;p&gt;但是，话虽如此，过去一年让我开心的是，我几乎用第三方应用拍摄所有照片——特别是Halide、Not Boring Camera和Analogue——它们通过LUT（或者用Halide的说法，“looks”）让我对处理过程进行底层控制。这些应用让我只需简单随手拍就能得到我想要的外观，拍后无需处理图片。但由于它们（可选）拍摄RAW格式，我可以在后期重新处理而不会丢失任何原始传感器数据。我可以先拍黑白照片，之后改变主意，用彩色外观重新处理。这些应用实现了真正的胶片感摄影，看起来一点都不花哨，也不会在相册中的图像数据里固化任何滤镜效果。这是两全其美。但同时也比内置相机应用应该有的操作要繁琐得多，繁琐得多。&lt;/p&gt;&lt;p&gt;总之，今天这波Pixel发布新闻让我想到，这些年来我很少再听到关于Pixel相机或图像处理的消息了。在Pixel系列早期，人们普遍认为Pixel手机是世界上最好的拍照手机。我从不认同这种说法，但我确实认为它们是一个有趣的另类选择，与苹果采取了不同但同样合理的哲学取向。苹果一直坚持即时处理——按下快门，iPhone瞬间保存图像。而Pixel相机常常需要数秒的处理时间，这使其能够提供iPhone无法实现的功能。&lt;/p&gt;
-&lt;p&gt;我认为很容易就能指出Pixel的转折点——&lt;a href="https://www.theverge.com/2020/7/20/21331331/google-pixel-camera-app-lead-adobe-marc-levoy?scrolla=5eb6d68b7fedc32c19ef33b4"&gt;2020年Marc Levoy离开谷歌加盟Adobe&lt;/a&gt;（如今他在那里带领团队开发&lt;a href="https://research.adobe.com/articles/indigo/indigo.html"&gt;非常引人入胜的Indigo相机应用&lt;/a&gt;，该应用仅限iPhone使用，提供了一系列创新的计算摄影功能）。&lt;/p&gt;
-&lt;p&gt;当Levoy领导谷歌相机摄影团队时，有理由相信Pixel手机是世界上最优秀的&lt;em&gt;静态&lt;/em&gt;拍照手机。（在视频方面它们从来都相差甚远。）自那以后，除了每年八月中旬谷歌发布新的Pixel硬件之外，我再也没有听到过关于它们的消息。12个月后再见。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/08/12/google-introduces-camera-looks" title="Permanent link to ‘Google Introduces ‘Camera Looks’ With Pixel 11 Phones’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Wed, 12 Aug 2026 20:58:15 +0000</pubDate></item></channel></rss>
+</description><pubDate>Wed, 12 Aug 2026 21:23:30 +0000</pubDate></item></channel></rss>
