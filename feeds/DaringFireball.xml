@@ -1,5 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sun, 16 Aug 2026 14:33:16 +0000</lastBuildDate><item><title>XCancel — 一个非官方的Twitter/X镜像</title><link>https://xcancel.com/about</link><description>&lt;p&gt;XCancel：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sun, 16 Aug 2026 17:36:34 +0000</lastBuildDate><item><title>The Information 介绍卡米·克拉克：达里奥·阿莫迪的妻子、伊万卡·特朗普的朋友、曾一度想成为色情片制作人的人，以及Anthropic的“第一夫人”。</title><link>https://www.theinformation.com/articles/anthropics-first-lady-took-winding-road-top?rc=jfy0lk</link><description>&lt;p&gt;Cory Weinberg、Jemima McEvoy、Jessica E. Lessin 和 Stephanie Palazzolo 在付费无赠阅链接的《The Information》上撰文：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在 Amodei 周游世界、宣扬人工智能的潜力与风险之际——从新德里到达沃斯再到太阳谷——Clark 几乎总是陪伴在他身边。几位认识这对夫妇的人形容 Clark 是 Amodei 的情感压舱石，在 Anthropic 的发展动荡以及与华盛顿方面围绕人工智能未来的交锋中，她是他寻求建议的人。&lt;/p&gt;
+&lt;p&gt;Clark 很可能是 Anthropic 内部最具影响力却没有任何正式职务的人。你甚至可以将她称为 Anthropic 的第一夫人。[...]&lt;/p&gt;
+&lt;p&gt;而在 Female Algorithm Technologies 之前，Clark 曾尝试创办一家色情电影公司 Eddice，计划制作高制作水准、以女性为主角的电影。她还希望这家公司能具备在线购物功能。2011 年，她试图从 Jeffrey Epstein 那里为 Eddice 筹集资金——据今年早些时候司法部公开的 Epstein 档案中的电子邮件显示，Epstein 三年前已对教唆未成年人卖淫的指控认罪。她将希望制作的一系列电影中的第一部剧本通过电子邮件发给了 Epstein（片名：《美国女孩在巴黎》）。&lt;/p&gt;
+&lt;p&gt;“我们觉得您和女士们可能会喜欢，”Clark 写道。随后她附上了一个眨眼警告：“有点 NSFW，”这是“不适合工作场合”的缩写。Epstein 没有投资。&lt;/p&gt;
+&lt;p&gt;尽管大量关注聚焦于人工智能以及开发这些公司的背后人物，Clark 在很大程度上一直未被外界注意。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;a href="https://daringfireball.net/linked/2026/08/16/the-information-cami-clark" title="永久链接至‘《The Information》介绍 Cami Clark：Dario Amodei 的妻子、Ivanka Trump 的朋友、曾经的准色情片制片人、Anthropic 的‘第一夫人’’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Sun, 16 Aug 2026 17:36:34 +0000</pubDate></item><item><title>Anthropic的薄弱水印恰好迎合了一部薄弱的法律</title><link>https://blog.j11y.io/2026-08-12_Anthropics-weak-watermarks-appease-a-weak-law/</link><description>&lt;p&gt;詹姆斯·帕多西（James Padolsey）评论克劳德为遵守欧盟法规而添加文本水印这桩纠葛：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;催生出这项法律的同一思路，若放在计算器问世之初，本也可适用于计算器——只要其输出结果能以某种痕迹自我显露。所幸，人脑算出的总和与计算器算出的总和，受到的对待并无二致。拼写检查器亦然。仅仅因为工具强大到能写出完整句子，就对其协助产生怀疑，这并非一条有原则的界限。这是对难度本身课征的道德溢价。&lt;/p&gt;
+&lt;p&gt;然而，Anthropic 还是选择了一种一刀切的、模型层面的实施方案，其范围似乎比法律的最低要求更为宽泛。这或许是便捷的合规工程，但它抹杀了法律明确试图保留的那些区分。其结果是：信号覆盖面过广，足以将无害的、辅助性的使用也牵连进来，同时又脆弱到能被一个有心之人通过大幅改写轻松去除。这有可能将怀疑集中于普通用户和辅助性使用者身上，而对蓄意欺骗却始终是最薄弱的防线。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;帕多西是 &lt;a href="https://declaude.org/"&gt;Declaude&lt;/a&gt; 的创建者，这是一个简单得令人愉悦的网页应用，让你可以“把带有 AI 味道的文本粘贴进来，然后拿回同样内容但读起来像平实散文的版本”。Declaude 最初的用途是把文本中那种矫揉造作的克劳德式人格气味清除掉（无论文本出自克劳德还是其他任何大语言模型）。但如果 Anthropic 坚持其已宣布的计划，开始污染克劳德生成的所有文本，那么 Declaude 也将充当一个复制粘贴、只需多一步操作就能去除这些标记的工具。Declaude 本身就已经既有趣又实用，但它恰恰说明了 &lt;a href="https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content"&gt;这项欧盟法规&lt;/a&gt; 是多么欠考虑。&lt;/p&gt;
+&lt;p&gt;帕多西 &lt;em&gt;还&lt;/em&gt; 撰写并编程制作了 &lt;a href="https://declaude.org/watermarking/"&gt;一篇精彩的交互式文章&lt;/a&gt;，解释并图示了 Anthropic 正在采用（而 Google Gemini 已经采用）的“水印”方案是如何运作的。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/08/16/padolsey-anthropic-eu-weak-law" title="“Anthropic 的弱水印迎合了一部弱法律”的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Sun, 16 Aug 2026 17:07:37 +0000</pubDate></item><item><title>特朗普政府“不支持”苹果使用中国产内存</title><link>https://www.wsj.com/tech/apple-china-memory-chip-plan-57773a83?st=vfe1SA</link><description>&lt;p&gt;《华尔街日报》（赠阅链接）：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;为了帮助缓解供应紧张，苹果正在寻求中国制造商的帮助。&lt;/p&gt;
+&lt;p&gt;“特朗普政府不赞成这样做，”卢特尼克在参观完苹果位于休斯顿的制造设施后接受采访时表示。必须有“解决内存问题的其他方案，但美国大公司使用中国内存并不是好办法。”&lt;/p&gt;
+&lt;p&gt;当被问及是否已向苹果明确转达这一信息时，卢特尼克表示“已经明确转达”。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;但是：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;美国政府规定要求美国公司在与长鑫存储（CXMT）和长江存储（YMTC）共享产品信息之前必须获得许可证。如果中国芯片制造商要为苹果生产定制芯片，就需要这些信息。但苹果可以自由地从这些公司购买现成部件，并与它们协商价格。&lt;/p&gt;
+&lt;p&gt;苹果首席运营官萨比赫·汗（Sabih Khan）周四在接受采访时拒绝证实苹果正在测试中国内存芯片。但他表示，鉴于供应短缺的严重程度，“我们必须考虑所有选项”，包括与现有供应商合作以增加美国本土产量。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;a href="https://daringfireball.net/linked/2026/08/16/lutnick-trump-apple-chinese-ram" title="“特朗普政府‘不赞成’苹果使用中国内存”的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Sun, 16 Aug 2026 16:34:12 +0000</pubDate></item><item><title>XCancel — 一个非官方的Twitter/X镜像</title><link>https://xcancel.com/about</link><description>&lt;p&gt;XCancel：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;XCancel 是 Nitter 的一个实例。&lt;/p&gt;
 &lt;p&gt;Nitter 是一个免费开源、注重隐私和性能的 Twitter 替代前端。其源代码可在 GitHub 上获取，地址为 &lt;a href="https://github.com/zedeus/nitter"&gt;https://github.com/zedeus/nitter&lt;/a&gt; [...]&lt;/p&gt;
@@ -15,31 +44,4 @@
 &lt;a href="https://daringfireball.net/linked/2026/08/16/xcancel" title="固定链接至'XCancel — 一个非官方的Twitter/X镜像'"&gt; ★ &lt;/a&gt;
 </description><pubDate>Sun, 16 Aug 2026 14:33:16 +0000</pubDate></item><item><title>Drata</title><link>https://drata.com/daring</link><description>&lt;p&gt;感谢 Drata 上周在 DF 的赞助。他们的信息简短而精炼：利用自主 AI 代理来自动化合规、管理内部和第三方风险，并持续证明您的安全态势。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/08/15/drata" title="“Drata”的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sat, 15 Aug 2026 21:40:15 +0000</pubDate></item><item><title>★ 你无需担心iPhone摄像头镜片被刮花</title><link>https://daringfireball.net/2026/08/iphone_camera_lens_scratch_resistance</link><description>&lt;p&gt;继&lt;a href="https://daringfireball.net/linked/2026/08/13/ceramic-shield-2-is-the-real-deal"&gt;我昨天关于现代iPhone和耐刮擦性的文章&lt;/a&gt;之后，想谈谈我个人的习惯：(a)几乎从不给iPhone戴保护壳，(b)除非是柔软（布料）表面，否则从不将iPhone屏幕朝下放置。&lt;/p&gt;
-&lt;p&gt;我本该预料到这一点，因为近年来我多次与普通用户进行过这样的对话，但我还是收到了&lt;a href="https://mastodon.social/@irace/117085815636856963"&gt;一堆&lt;/a&gt;来自&lt;a href="https://mastodon.social/@febuiles/117089438630870060"&gt;一些人的提问&lt;/a&gt;——他们说对于将iPhone&lt;em&gt;背面&lt;/em&gt;朝下放置这件事总是心存顾虑，因为担心会刮花相机镜头。这种担心并非毫无道理。那些看起来像是玻璃的部件；玻璃会刮花；而且一块被刮花的相机镜头似乎确实可能永久性地毁掉你用相机拍摄的所有照片和视频。&lt;/p&gt;
-&lt;p&gt;不过这里有几个误解。首先，手机背面那些暴露在外的玻璃状圆形部件并不是相机镜头本身。它们只是镜头外面的保护盖，而真正的镜头更小，是&lt;a href="https://www.meetoptics.com/academy/spherical-lenses#what-is-a-bi-convex-lens-and-plano-convex-lens"&gt;球面&lt;/a&gt;（凸面而非平面）的，并且是内嵌的。你可以透过保护盖看到里面真正的球面镜头。这些暴露在外的镜头保护盖是由蓝宝石制成的，而非玻璃，因此具有极佳的耐刮擦性。它们是手机上最耐刮擦的部件。我从来没有在任何一部iPhone的相机镜头保护盖上发现过哪怕一丝微小的划痕，而且我从未刻意去避免刮伤它们。我的意思是，我不会刻意把镜头朝下在表面上拖拽。我并不是&lt;em&gt;故意&lt;/em&gt;要去刮花它们。但我经常把手机镜头朝下放在坚硬表面上，它们似乎连细小的划痕都不会留下。&lt;/p&gt;
-&lt;p&gt;扎克（网名“JerryRigEverything”）·尼尔森是&lt;a href="https://www.youtube.com/JerryRigEverything"&gt;YouTube上&lt;/a&gt;那个专门拍摄视频的人，他在视频中会疯狂地刮擦产品来测试它们的耐用性。（他还会弯折、焚烧产品，以及用其他各种残忍而富有创意的方式折磨它们。）在他关于iPhone 17 Pro的视频中，&lt;a href="https://youtu.be/KrOBzFwVzwA?t=250"&gt;大约从4分10秒处开始&lt;/a&gt;，他尝试用锋利的剃须刀片刮擦蓝宝石镜头保护盖。结果毫无损伤。蓝宝石更可能碎裂而非被刮花，因为它太硬了。（你可能还记得，十年前苹果曾尝试在iPhone的&lt;em&gt;屏幕&lt;/em&gt;上使用蓝宝石，但&lt;a href="https://daringfireball.net/linked/2014/10/06/gt-advanced"&gt;最终没有成功&lt;/a&gt;。）只要别用钻石硬度的划痕笔去刮你的镜头，你就完全不用担心。&lt;/p&gt;&lt;p&gt;另外，信不信由你，镜头保护盖上的细微划痕几乎完全不会影响画质&lt;em&gt;丝毫&lt;/em&gt;。试着把一根头发（它可能比典型划痕粗得多）贴在你的iPhone 1倍主摄镜片表面上，拍一张照片。把头发从镜片上清理掉，再拍同一张照片。你几乎肯定不会发现&lt;em&gt;任何区别&lt;/em&gt;。&lt;a href="https://www.dpreview.com/videos/4128862298/dpreview-tv-how-much-do-scratches-dust-and-fingerprints-affect-lens-image-quality/"&gt;这里是DPReview在2020年发布的一段很棒的视频&lt;/a&gt;，展示了需要在镜头外部积聚多少灰尘或划痕才会真正降低画质。这虽然违反直觉，但镜片表面并不是光线聚焦的地方——真正聚焦光线的是相机内部的传感器。&lt;/p&gt;</description><pubDate>Fri, 14 Aug 2026 17:16:15 +0000</pubDate></item><item><title>Google的“Material 3”设计文档93.3%令人尴尬</title><link>https://design.google/library/expressive-material-design-google-research</link><description>&lt;p&gt;这篇来自Google Design关于其“Material 3”UI语言的文章，是在我发布了那篇&lt;a href="https://daringfireball.net/linked/2026/08/12/google-design-pants-pissed"&gt;吐槽帖&lt;/a&gt;之后引起我注意的——那篇帖子是关于本周他们在Twitter/X上&lt;a href="https://x.com/googledesign/status/2087195277094695096"&gt;莫名其妙自吹自擂&lt;/a&gt;的一款笨拙的新待办事项应用。我觉得这个“Material 3”页面不是什么新东西——我猜它已经存在好几年了——但我之前从没见过。&lt;/p&gt;
-&lt;p&gt;首先，他们竟然（在带鼠标光标的桌面浏览器中）把用于文本选择的I形光标改成了……一个圆圈，这太疯狂了。我猜它看起来可能有点好玩，但I形光标存在的全部意义就是实现精确的字符选择。他们却把它换成了让精确选择变得尽可能困难的东西。与其用一个该死的圆圈来取代I形光标，还不如直接用箭头指针呢。这可是出自UI设计团队之手。&lt;/p&gt;
-&lt;p&gt;其次，这一段让我真的怀疑自己是不是在读一篇恶搞文，或者是一个多年前一点也不好笑的愚人节“玩笑”。但据我所知，这完全是认真的，不是恶搞：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;这些因素可以通过用户对全新M3
-表现力设计（Expressive designs）的反应来量化。我们发现亚文化
-感知度提升了32%，这表明表现力设计能让品牌
-感觉更贴近潮流、更“懂行”。我们还看到现代感
-提升了34%，让品牌显得清新且具有前瞻性。在此
-基础上，叛逆感也跃升了30%，这表明
-表现力设计将品牌定位为大胆、创新，且
-愿意打破常规。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;没有什么比给“叛逆感”“现代感”和“亚文化感知度”分配精确百分比更能体现叛逆和“懂行”了。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;更新：&lt;/strong&gt;信不信由你，还真有&lt;a href="https://www.youtube.com/watch?v=AySXu8x-RnA"&gt;Google Design团队进行这项研究的视频&lt;/a&gt;。值得一看。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/08/14/google-design-93-percent" title="Permanent link to ‘Google’s ‘Material 3’ Design Write-Up Is 93.3 Percent Embarrassing’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Fri, 14 Aug 2026 16:33:55 +0000</pubDate></item><item><title>&lt;p&gt;Ceramic Shield 2 名副其实&lt;/p&gt;</title><link>https://www.tomsguide.com/phones/iphones/iphone-17-and-iphone-air-durability-testing-heres-how-the-new-iphones-stand-up-to-bending-scratching-and-dropping</link><description>&lt;p&gt;菲利普·迈克尔（Philip Michaels）去年九月为《Tom's Guide》撰文：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=i9HXGAOtn2A"&gt;JerryRigEverything 的 iPhone 17 暴力测试视频&lt;/a&gt;表明，Ceramic Shield 2 确实能够抵抗划痕，在莫氏硬度标尺的7级测试中只留下了轻微的划痕。而玻璃通常在该标尺的5级或6级就会出现划痕。&lt;/p&gt;
-&lt;p&gt;“Ceramic Shield 2 确实是我们见过的最好的，”JerryRigEverything 在&lt;a href="https://www.youtube.com/watch?v=KrOBzFwVzwA"&gt;iPhone 17 Pro 测试视频&lt;/a&gt;中如此评价。&lt;/p&gt;
-&lt;p&gt;这印证了&lt;a href="https://www.tomsguide.com/phones/iphones/apples-iphone-durability-test-clips-show-how-it-made-sure-the-iphone-air-and-iphone-17-series-are-built-to-last"&gt;苹果自己的 Ceramic Shield 2 视频&lt;/a&gt;，其中可以看到一个矿物尖端在覆盖了 Ceramic Shield 2 的显示屏上摩擦。屏幕上留下了残留物，但那是尖端上的材料，很容易就能擦掉。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;我&lt;a href="https://daringfireball.net/linked/2026/08/12/stern-pixel-hilight"&gt;昨天提到过&lt;/a&gt;，我尽量不把 iPhone 屏幕朝下放置，以避免划痕，而我使用了将近一年的 iPhone 17 Pro 的正面玻璃上似乎没有一个可见的划痕。即使我关掉屏幕，倾斜手机仔细寻找，也看不到哪怕一个微小的磨损。毫无疑问，苹果的 Ceramic Shield 2——旨在提供史上最佳抗刮擦性能——也是一个因素，而且很可能是最大的因素。这就是苹果的巅峰水准。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/08/13/ceramic-shield-2-is-the-real-deal" title="Permanent link to ‘Ceramic Shield 2 Is the Real Deal’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Thu, 13 Aug 2026 15:46:41 +0000</pubDate></item></channel></rss>
+</description><pubDate>Sat, 15 Aug 2026 21:40:15 +0000</pubDate></item></channel></rss>
