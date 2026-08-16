@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Fri, 14 Aug 2026 10:41:41 +0000</lastBuildDate><item><title>ChatGPT for Mac实现微软Copilot AI的时间线功能 收集用户操作并建立时间线</title><link>https://www.landian.news/archives/114330.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sun, 16 Aug 2026 06:11:05 +0000</lastBuildDate><item><title>现已覆盖更多常规应用：Windows 11通过短暂强行提升CPU频率加速软件启动</title><link>https://www.landian.news/archives/114332.html</link><description>
+&lt;p&gt;#系统资讯 现已覆盖 Chrome 等常规应用：Windows 11 安装 8 月更新后部署低延迟配置文件技术。该技术会在启动软件时，短暂强行提升 CPU 频率来加快启动过程。对用户而言就是点击开始菜单、搜索框、启动 Chrome 或 EPIC 游戏商店都更快了，卡卡的感觉会减少。查看全文：https://ourl.co/114332&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/112877.html" rel="noopener" target="_blank"&gt;此前蓝点网已经提到过微软开发的低延迟配置文件技术&lt;/a&gt;，该技术的开发目标是在用户启动软件或进行关键交互时，通过短暂大幅度提升 CPU 频率来提高加载速度。最初微软仅面向 Windows 11 开始菜单和搜索框等系统关键组件启用低延迟配置文件，不过现在该功能已经覆盖更多常规软件。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/public/thumb/W11.png" rel="nofollow"&gt;&lt;img alt="现已覆盖更多常规应用：Windows 11通过短暂强行提升CPU频率加速软件启动" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/public/thumb/W11.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;软件启动时或用户进行某些关键交互时，系统和软件都可能需要读取文件、加载到内存、使用 CPU 进行计算，这个过程其实还是挺复杂的因此存在时间延迟，而用户的直观体验就是点击开始菜单后有些卡卡的、没有秒加载等。&lt;/p&gt;
+&lt;p&gt;低延迟配置文件的工作原理就是在用户启动软件或进行关键交互时，瞬间提升 CPU 频率从而缩短计算时间。以开始菜单为例：在中等配置的硬件上，启用低延迟配置文件后开始菜单可以做到即点即开，用户会觉得响应速度大幅度提升，因为基本不需要等待。&lt;/p&gt;
+&lt;p&gt;微软的官方说明是，低延迟配置文件技术采用竞速休眠机制，可以快速处理即将启动的应用程序发起的请求，该机制会短暂强制提升 CPU 频率从而可能加快应用程序的启动速度。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;最初低延迟配置文件技术仅适用于系统自带的关键组件，不过在测试后微软现在也为非系统组件启用该技术，例如谷歌浏览器、EPIC 商店、记事本、计算器等等，现在用户安装 Windows 11 8 月更新后应该可以发现启动软件时的速度比以前要稍微快些。&lt;/p&gt;
+&lt;p&gt;但需要强调的是，低延迟配置文件目前正在逐步推送，因此并非所有用户安装 8 月更新后都可以发现响应速度提升，微软需要通过受控发布来收集数据并进行优化，后续会继续扩大推送范围最终覆盖所有用户 (Windows 11 24H2+ 版)。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sun, 16 Aug 2026 06:11:05 +0000</pubDate></item><item><title>GPT-5.6 Sol超快模式(UltraFast)面向企业预览 运行速度提升14倍 每秒最多750tokens</title><link>https://www.landian.news/archives/114331.html</link><description>
+&lt;p&gt;#人工智能 OpenAI 面向企业预览 GPT-5.6 Sol UltraFast 超快模式，运行速度是标准模式的 14 倍，每秒最多可以生成 750tokens。OpenAI 称超快模式适合实时或接近生产环境的工作负载，例如实时语音、支持、商务、开发智能体、金融研究和安全响应等。查看全文：https://ourl.co/114331&lt;/p&gt;&lt;p&gt;OpenAI 日前面向企业推出 GPT-5.6 Sol UltraFast 超快模式预览，该模式下模型运行速度将提升最高 14 倍，最高每秒可以生成 750tokens。不过超快模式需要 OpenAI 根据企业场景进行审批，企业可以提交申请但是否可以获得批准取决于 OpenAI 审核。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114331.png" rel="nofollow"&gt;&lt;img alt="GPT-5.6 Sol超快模式(UltraFast)面向企业预览 运行速度提升14倍 每秒最多750tokens" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114331.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;OpenAI 称超快模式由 Cerebras 提供支持，目前仅适用于 GPT-5.6 Sol 模型，在开启超快模式后模型的生成速度最高每秒 750tokens，相当于标准模式的 14 倍。&lt;/p&gt;
+&lt;p&gt;当然并非所有工作负载都需要超快模式，OpenAI 称该模式专门为需要实时或接近生产环境的工作负载设计，例如实时语音、客户支持、商务、开发智能体、金融研究和安全研究等场景。&lt;/p&gt;
+&lt;p&gt;在预览阶段 Cerebras 提供的资源有限，因此企业提交申请后，OpenAI 将根据客户提供的使用场景决定是否批准使用超快模式，OpenAI 也会根据工作负载逐步提高覆盖范围，未来可能超快模式会支持更多企业通过 API 调用。&lt;/p&gt;
+&lt;p&gt;有兴趣的企业客户可以点击这里提交申请：&lt;a href="https://www.landian.news/go?url=https://openai.com/form/ultrafast/" rel="noopener" target="_blank"&gt;https://openai.com/form/ultrafast/&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sun, 16 Aug 2026 05:53:43 +0000</pubDate></item><item><title>ChatGPT for Mac实现微软Copilot AI的时间线功能 收集用户操作并建立时间线</title><link>https://www.landian.news/archives/114330.html</link><description>
 &lt;p&gt;#人工智能 ChatGPT 实现微软在 Windows 11 中重点推荐的 Recall 回顾功能，ChatGPT for Mac 推出名为计算机历史的新功能。该功能会记录用户的点击、输入、应用程序打开 / 切换等，信标事件会被记录并上传服务器生成 AI 时间线和记忆。用户可以使用该功能快速回溯内容，例如生成当日工作总结、查找最近打开的文档、将重复工作转换为技能或自动化流程等。查看全文：https://ourl.co/114330&lt;/p&gt;&lt;p&gt;微软在 Windows 11 中重点推荐的人工智能功能回顾 (Recall) 目前已经听不到声音，这个功能在开发之初就因为存在严重的安全缺陷而被吐槽，此后微软进行多次优化和修正解决潜在的安全问题。当前回顾功能还未被微软彻底放弃，微软还在继续开发和优化，只不过似乎没有重大变更。&lt;/p&gt;
 &lt;p&gt;现在 ChatGPT for Mac 也要实现类似的回顾功能，在最新发布的 ChatGPT 新版本中，OpenAI 推出名为计算机历史的新功能，该功能会利用 macOS 辅助功能显示的交互事件，将用户的各类操作全部记录下来再形成 AI 时间线。&lt;/p&gt;
 &lt;p&gt;&lt;video controls="" playsinline="" preload="auto"&gt;&lt;source src="https://img.lancdn.com/landian/2026/08/114330.mp4" type="video/mp4"/&gt;您的浏览器不支持 HTML5 视频播放。&lt;/video&gt;&lt;br/&gt;
@@ -47,23 +67,4 @@
 &lt;hr/&gt;
 &lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://z.ai/blog/glm-5.3" rel="noopener" target="_blank"&gt;智谱官方博客&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 14 Aug 2026 09:22:55 +0000</pubDate></item><item><title>ChatGPT玻区大幅度涨价后目前已经没有低价区 仅菲律宾区稍微便宜些</title><link>https://www.landian.news/archives/114327.html</link><description>
-&lt;p&gt;#人工智能 ChatGPT 玻区大幅度涨价后目前已经没有低价区，仅菲律宾区价格稍微便宜些。本周 OpenAI 调整 ChatGPT Plus 等订阅在玻利维亚的订阅价格，调整前约 11.94 美元，调整后约 20.3 美元，因此已经没有价格优势。当前价格稍微便宜些的是菲律宾区，免税后每月 16.31 美元。查看全文：https://ourl.co/114327&lt;/p&gt;&lt;p&gt;本周 OpenAI 对 ChatGPT 玻利维亚区价格进行调整，此次调整后 ChatGPT 已经没有传统的低价区，仅菲律宾和巴基斯坦等按照汇率来算稍微较其他区便宜些，不过 OpenAI 通常会给老用户继续设置原价订阅，所以已经开通玻区的用户可以继续低价续费。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114327.png" rel="nofollow"&gt;&lt;img alt="ChatGPT玻区大幅度涨价后目前已经没有低价区 仅菲律宾区稍微便宜些" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114327.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;本周涨价前 ChatGPT Plus 订阅在玻利维亚区为每月 139.99 玻利维亚诺，约合 11.94 美元，调整后每月 237.98 玻利维亚诺，约合 20.30 美元，这个价格已经与美区持平所以没有价格优势。&lt;/p&gt;
-&lt;p&gt;价格稍微比其他区便宜的目前主要是菲律宾区，ChatGPT Plus 订阅改为免税后为 999 菲律宾比索，约合 16.31 美元，而巴基斯坦区每月为 17.63 美元，对比所有区当前最便宜的就是菲律宾区，也就是 16.31 美元已经是最低价。&lt;/p&gt;
-&lt;p&gt;蓝点网网友提供的消息显示，通过 Apple App Store 开通的玻利维亚区 ChatGPT Plus 订阅目前仍然按照原价续费，但新开通订阅则按照调整后价格开通，此前 OpenAI 调整土耳其区时也是这么操作的，即老用户还能按原价续费，新用户按照新价格开通和续费。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 14 Aug 2026 08:31:10 +0000</pubDate></item><item><title>下载次数超过1,100万次的长截图工具GoFullPage被谷歌下架禁用 开发者称谷歌过度执法</title><link>https://www.landian.news/archives/114316.html</link><description>
-&lt;p&gt;#软件资讯 下载次数超过 1,100 万的长截图工具 GoFullPage 被谷歌下架，开发者称谷歌过度执法。该工具仅提供网页长截图功能，工具本身没有版权问题，开发者质疑谷歌这是在过度执法，目前已经联系谷歌进行沟通。查看全文：https://ourl.co/114316&lt;/p&gt;&lt;p&gt;下载次数超过 1,100 万次的长截图工具 GoFullPage 日前被谷歌下架，已经安装该扩展程序的用户也会注意到扩展程序被禁用且挂上安全提醒，其他使用谷歌浏览器扩展商店的浏览器例如 Brave Browser 等也会收到相同的提醒。&lt;/p&gt;
-&lt;p&gt;与常见恶意扩展程序被下架标记不同的是，GoFullPage 被标记的说明是违反谷歌政策，该扩展程序开发者表示目前遇到的是版权问题，已经积极联系谷歌沟通恢复问题，现阶段用户仍然可以手动启用扩展，只不过无法通过商店在线安装。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114316-1.png" rel="nofollow"&gt;&lt;img alt="下载次数超过1,100万次的长截图工具GoFullPage被谷歌下架禁用 开发者谷歌过度执法" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114316-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114316-2.png" rel="nofollow"&gt;&lt;img alt="下载次数超过1,100万次的长截图工具GoFullPage被谷歌下架禁用 开发者谷歌过度执法" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114316-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114316-3.png" rel="nofollow"&gt;&lt;img alt="下载次数超过1,100万次的长截图工具GoFullPage被谷歌下架禁用 开发者谷歌过度执法" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114316-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;GoFullPage 开发者对此次谷歌下架非常不满，作为网页截图工具 GoFullPage 仅仅只为帮助用户对网页截图，工具本身没有侵犯版权的情况。而谷歌以违反版权政策将其下架属于过度执法，不过暂时不清楚这是谷歌自动化扫描执行的下架还是谷歌收到某些举报后执行的下架。&lt;/p&gt;
-&lt;p&gt;对于有网友猜测 GoFullPage 已经被卖给新公司，开发者也进行了回应，目前原始开发团队拥有 GoFullPage 的控制权，该扩展程序没有被卖给任何公司，所以用户不需要担心扩展程序被卖后新公司拿来作恶。&lt;/p&gt;
-&lt;p&gt;另外 Microsoft Edge 上的 GoFullPage 仍然可用，微软已经构建自己的浏览器扩展程序商店，所以谷歌的下架不影响微软。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 14 Aug 2026 05:17:45 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 14 Aug 2026 09:22:55 +0000</pubDate></item></channel></rss>
