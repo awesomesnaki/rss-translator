@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>TestingCatalog AI News (中文)</title><link>https://www.testingcatalog.com</link><description>TestingCatalog - AI智能体、模型发布、工具、泄露和传闻的最新AI新闻</description><language>zh-CN</language><lastBuildDate>Thu, 13 Aug 2026 21:22:35 +0000</lastBuildDate><item><title>谷歌为Gemini迷你应用推出Sheets画布功能</title><link>https://www.testingcatalog.com/google-launches-sheets-canvas-for-gemini-mini-apps/</link><description>&lt;figure&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://storage.ghost.io/c/2a/1b/2a1b1782-8506-4d7d-bf53-ad3fb52e2a0f/content/images/size/w1200/2026/08/banner-13.webp"/&gt;&lt;/figure&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>TestingCatalog AI News (中文)</title><link>https://www.testingcatalog.com</link><description>TestingCatalog - AI智能体、模型发布、工具、泄露和传闻的最新AI新闻</description><language>zh-CN</language><lastBuildDate>Sun, 16 Aug 2026 14:15:26 +0000</lastBuildDate><item><title>Claude变身超级应用，为Cowork新增网页浏览器功能。</title><link>https://www.testingcatalog.com/claude-turns-into-super-app-adding-web-browser-for-cowork/</link><description>&lt;figure&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://storage.ghost.io/c/2a/1b/2a1b1782-8506-4d7d-bf53-ad3fb52e2a0f/content/images/size/w1200/2026/08/Screenshot-2026-08-15-at-12.40.06.webp"/&gt;&lt;/figure&gt;
+&lt;section id="post-body"&gt;
+&lt;p&gt;Anthropic 持续增强 Claude Desktop，近期应用开发动态表明，两项潜在新增功能可能推动该产品迈向全面的 AI 超级应用。&lt;/p&gt;&lt;p&gt;TestingCatalog 发现了 Cowork 会话内置网页浏览器的开发工作。虽然 Claude Code 中已有类似功能，但目前从 Cowork 访问并不方便。即将推出的实现方案旨在将浏览功能直接集成到 Cowork 会话中，使用户能够在执行任务的同时打开网页，而 Claude 则保持周围的上下文。&lt;/p&gt;&lt;p&gt;这一增强将帮助 Anthropic 缩小与 OpenAI Codex 之间的功能差距——在 Codex 中，浏览、编码和智能体工作流越来越紧密地集成在同一个桌面环境中。Anthropic 似乎将此举视为 Claude Desktop 的更大机遇，而不仅仅是一个孤立的浏览器功能。&lt;/p&gt;&lt;p&gt;这一举措与 AI 桌面超级应用的整体趋势相契合。微软正在朝这个方向推进，谷歌正在开发 Gemini 桌面应用，Meta 也在打造自己的桌面应用，而 xAI 已推出 Grok 应用。随着大多数主要 AI 公司都在向结合智能体、工具和浏览功能的持久化桌面环境迈进，Anthropic 面临着明显的竞争压力，必须跟上这些发展步伐。&lt;/p&gt;&lt;figure&gt;&lt;img alt="Claude" loading="lazy" referrerpolicy="no-referrer" src="https://storage.ghost.io/c/2a/1b/2a1b1782-8506-4d7d-bf53-ad3fb52e2a0f/content/images/2026/08/Screenshot-2026-08-16-at-15.32.45.png"/&gt;&lt;/figure&gt;&lt;p&gt;与此同时，TestingCatalog 还观察到一个专门的对比模式的开发工作。该功能将允许用户在普通聊天与专为对比不同 &lt;a href="https://www.testingcatalog.com/tag/claude/"&gt;Claude&lt;/a&gt; 模型回复而设计的视图之间手动切换。例如，用户可以将 Opus 与 Fable 5 进行对比，以判断输出差异是否值得花费更多积分。&lt;/p&gt;&lt;p&gt;这似乎并非内部 A/B 测试界面。相反，对比模式正作为面向用户的功能进行开发，可以在需要时启用，在普通对话时关闭。&lt;/p&gt;&lt;p&gt;这两项功能均尚未发布，也未公布上线日期。它们是通过近期 Claude 构建版本中出现的引用而发现的。&lt;/p&gt;
+&lt;/section&gt;
+</description><pubDate>Sun, 16 Aug 2026 14:15:26 +0000</pubDate></item><item><title>谷歌为Gemini迷你应用推出Sheets画布功能</title><link>https://www.testingcatalog.com/google-launches-sheets-canvas-for-gemini-mini-apps/</link><description>&lt;figure&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://storage.ghost.io/c/2a/1b/2a1b1782-8506-4d7d-bf53-ad3fb52e2a0f/content/images/size/w1200/2026/08/banner-13.webp"/&gt;&lt;/figure&gt;
 &lt;section id="post-body"&gt;
 &lt;p&gt;谷歌正在推出Sheets canvas，这是一项由Gemini驱动的功能，可将电子表格数据转化为Google Sheets中的自定义交互式"迷你应用"。这一全新的读写层直接位于电子表格之上，让用户无需公式、编程或单独的应用，就能以可视化方式组织、编辑和浏览信息。&lt;/p&gt;&lt;p&gt;用户可以打开电子表格，在Ask Gemini侧边面板中选择"Create canvas"（创建画布），然后用自然语言描述他们想要的结果。Gemini会根据现有数据构建布局，后续提示可以更改其设计、排列或功能。在画布或底层表格中所做的编辑会实时同步。由于该画布以标签页形式存在于Google Sheets中，因此也可以像普通表格一样与协作者共享。&lt;/p&gt;&lt;figure&gt;
 &lt;/figure&gt;&lt;p&gt;谷歌将Sheets canvas定位为日常项目工具，针对那些长行和列使得关键细节难以查看的场景。学生可以将作业清单转化为带有进度、提醒和未来一周视图的可视化学习追踪器。梦幻足球玩家可以创建阵容指挥中心，用于比较球员统计数据和排名。婚礼策划人可以将RSVP记录转换为座位表，在桌位之间移动宾客，并保持主表格的最新状态。&lt;/p&gt;&lt;p&gt;此次发布赋予了Gemini在人们展示和使用Sheets中已有数据方面的新角色。Sheets canvas无需代码或单独工具，让人们通过提示就能构建特定任务的视图，同时保持底层电子表格不变。其双向同步是这一方法的核心：可视化层不是静态展示，更新始终与源数据保持连接。&lt;/p&gt;&lt;p&gt;Sheets canvas现已面向Google AI Pro和Ultra订阅用户在全球范围内提供英文版。谷歌也已开始向使用Business或Enterprise Standard和Plus套餐的Workspace客户，以及Google AI Pro for Education附加组件的订阅用户推出该功能。用户可以通过现有Google Sheets电子表格中的Ask Gemini侧边面板开始使用。&lt;/p&gt;&lt;p&gt;&lt;a href="https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/?ref=testingcatalog.com"&gt;来源&lt;/a&gt;&lt;/p&gt;
@@ -22,45 +26,4 @@
 &lt;/figure&gt;&lt;p&gt;该模型背后是比 Grok 4.5 更长的补充训练过程。xAI 使用了精选的模型生成推理与技术材料、高质量的工程数据，以及经过改进的优化器和训练方案。随后，Grok 4.5 在推理层级、智能体框架、STEM、软件工程和知识工作等领域重新生成了 SFT（监督微调）轨迹。强化学习涵盖了通用编码、内核优化、Web 开发和计算机辅助设计环境。&lt;/p&gt;&lt;p&gt;xAI 报告称，Grok 4.6 在 Artificial Analysis 智能指数上得分 61，高于 Grok 4.5 High 的 56 分，与 GPT-5.6 Sol Max 持平，而 Fable 5 Max 得分 62。在 GDPVal-AA v2 和 AA-Briefcase 上，Grok 4.6 领先于所列系统，但在 DeepSWE 和 Terminal-Bench 上落后于 GPT-5.6 Sol Max 和 Fable 5 Max。这种喜忧参半的结果使其处于前沿附近，同时也表明其最显著的提升并非均匀地体现在每项编码任务上。&lt;/p&gt;&lt;p&gt;除了基准测试分数之外，xAI 表示该模型在视觉和交互项目的首轮生成上表现更强，能够一次性确立应用程序结构和视觉语言，并且在更长的运行中展现出更多的自我测试能力。它能够研究陌生领域、实现核心功能，并通过反馈不断完善结果，使持续的项目工作成为核心卖点，而非一次性的代码生成。&lt;/p&gt;&lt;figure&gt;
 &lt;/figure&gt;&lt;p&gt;Grok 4.6 现已可在 Cursor、Grok Build、xAI API、OpenRouter、Vercel 和 Cloudflare 中使用。API 定价为每百万输入 token 2 美元、每百万输出 token 6 美元起，快速版本的价格则翻倍。Cursor 和 Grok Build 在首周提供双倍用量。xAI 还表示，安全防护措施已根据模型能力进行校准，并辅以其最广泛的部署前测试套件，以及持续的部署后测试和第三方测试。&lt;/p&gt;&lt;p&gt;&lt;a href="https://x.ai/news/grok-4-6?ref=testingcatalog.com"&gt;来源&lt;/a&gt;&lt;/p&gt;
 &lt;/section&gt;
-</description><pubDate>Thu, 13 Aug 2026 21:01:30 +0000</pubDate></item><item><title>&lt;p&gt;Matic机器人新增支持75种语言的手势与语音控制功能&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Matic&lt;/strong&gt;是一款通过众筹诞生的智能扫地机器人，它通过先进的技术和功能，将智能家居助手的理念提升到了全新的高度。&lt;/p&gt;
-
-&lt;p&gt;在智能家居机器人领域，大多数产品都是通过移动应用或智能音箱进行控制的。Matic则通过&lt;strong&gt;"导航摄像头"&lt;/strong&gt;引入了&lt;strong&gt;手势控制功能&lt;/strong&gt;，该摄像头能够理解一系列手势并执行相应指令。例如，用户指向家中的某一特定位置，机器人就会前往该地点。&lt;/p&gt;
-
-&lt;p&gt;据该公司介绍，该机器人能够理解约&lt;strong&gt;20种不同的手势&lt;/strong&gt;，其中包括"过来"、"停止"、"去那儿"以及"开始清洁"等指令。有趣的是，这些手势还支持用户通过&lt;strong&gt;手势与语音的组合方式&lt;/strong&gt;下达指令。例如，指向一个位置并说"打扫这里"，机器人就会前往指定区域进行清洁。这种双重交互模式为用户提供了更直观、更灵活的控制体验。&lt;/p&gt;
-
-&lt;p&gt;在语音控制方面，Matic声称其内置的语音助手在发布时即可支持75种语言。这种广泛的语音识别能力使其能够跨越语言障碍，满足全球用户的多样化需求。&lt;/p&gt;
-
-&lt;p&gt;Matic创始人Mehdi N.解释了为什么他们的方法与众不同。&lt;em&gt;"当其他公司专注于制造一个能够完成所有任务的通用机器人时，我们则聚焦于打造一个在基础任务上表现出色的专用机器人，这正是我们创造Matic的原因。我们的机器人拥有专用的3D视觉传感器和人工智能驱动的软件栈，其性能远超市场上其他任何产品，同时价格仅为它们的一小部分。"&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;除了手势和语音之外，Matic还通过其智能功能提供多重便利。它能够自动检测家中的宠物并避开它们，还能识别宠物的意外排泄物，并提醒用户进行清理。它拥有长达12小时的电池续航时间，可以长时间不间断地进行清洁工作。&lt;/p&gt;
-
-&lt;p&gt;让我们来看看Matic的主要功能：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;导航与感知：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Matic配备了一颗专用的&lt;strong&gt;3D视觉传感器&lt;/strong&gt;，能够实时构建并绘制完整的家居环境地图。其先进的障碍物检测系统可精准识别家具、墙壁和宠物，从而高效地规划清洁路径。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;交互与控制：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;通过手势控制，用户可以通过简单的指向或手势向机器人发出指令。语音助手支持75种语言，让用户能够通过自然语言控制机器人。同时，它还能识别家庭成员，并根据不同成员的位置或偏好提供个性化的清洁方案。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;电池与充电：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;内置大容量电池，单次充电可持续工作长达12小时。当电量不足时，Matic会自动返回充电座进行充电，并在充电完成后从上次中断的位置继续完成清洁任务。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;应用与生态系统：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;用户可以通过配套的iOS和Android应用轻松控制Matic，设置清洁计划、调整设置并实时查看清洁进度。同时，Matic还支持OTA（空中下载）固件更新，确保机器人始终拥有最新的功能和优化。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Matic vs 传统扫地机器人：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;与传统扫地机器人相比，Matic通过3D视觉导航实现了更精准的环境感知和路径规划。手势和语音控制提供了更自然的交互方式，而12小时的长效续航则显著减少了充电中断的频率。Matic不仅清洁地面，还通过AI驱动的垃圾识别和自动倾倒功能，减少了用户的维护负担。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;定价与上市时间：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Matic目前在Indiegogo上发起众筹，早鸟价为699美元，预计零售价为1,099美元。该公司计划于2025年底开始向支持者发货。&lt;/p&gt;
-
-&lt;p&gt;Matic计划于2025年10月开始发货，在Indiegogo上的众筹活动已经吸引了大量关注。支持者可以以699美元的早鸟价订购这款机器人。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://www.indiegogo.com/projects/matic-the-world-s-first-truly-smart-home-robot"&gt;点击此处了解Matic在Indiegogo上的更多信息&lt;/a&gt;&lt;/p&gt;</title><link>https://www.testingcatalog.com/matic-robot-adds-gesture-and-voice-controls-in-75-languages/</link><description>&lt;figure&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://storage.ghost.io/c/2a/1b/2a1b1782-8506-4d7d-bf53-ad3fb52e2a0f/content/images/2026/08/matic.jpg"/&gt;&lt;/figure&gt;
-&lt;section id="post-body"&gt;
-&lt;p&gt;Matic为其家用清洁机器人新增了语音和手势控制功能，用户只需说出语音指令并配合指向手势，就能让机器人前往地板上的特定位置。比如，指着洒落物说“嘿，Matic，清理这里”，机器人就会准确到达该区域，无需打开应用程序。该公司称，该功能支持75种语言。&lt;/p&gt;&lt;figure data-kg-custom-thumbnail="" data-kg-thumbnail="https://storage.ghost.io/c/2a/1b/2a1b1782-8506-4d7d-bf53-ad3fb52e2a0f/content/media/2026/08/Matic_thumb.jpg"&gt;
-&lt;/figure&gt;&lt;p&gt;该功能基于Matic自2017年以来一直在构建的感知系统。五个RGB-IR摄像头将图像数据送入机载NVIDIA计算机，由其在本地完成地图构建、导航和物体识别。为了解析“清理这里”这类命令，系统必须在画面中找到手臂，推断其指向的方向，并将该方向与房间3D模型中已有的物体进行匹配。Matic表示，原始摄像头画面会被实时丢弃，不会上传任何内容到服务器，并且机器人可以在无网络连接的情况下完成设置。&lt;/p&gt;&lt;p&gt;相同的视觉层也决定了机器人的清洁方式。它能识别家具、地毯、电线、玩具、宠物和地板类型，然后根据所见调整刷子速度、吸力、气流、拖把压力和移动模式。3D地图会随着家具移动或人员走动而持续重建，因此房间重新布置后会被当作更新来记录。Matic先对硬质地板和地毯吸尘，再对硬质地板拖地，自己能切换这两种模式，并利用红外线在完全黑暗的环境中导航。垃圾和脏水都收集在密封的HEPA袋中，袋内的吸水粉末会使液体凝胶化，因此无需脏水箱。该公司标称吸尘时噪音为55分贝，并称这款机器人比交谈声更安静。&lt;/p&gt;&lt;p&gt;Matic在美国直接销售，一台机器人和一个充电座的售价为1,245美元，提供一年质保和六个月退货期。每台设备均在加利福尼亚州山景城组装并通过质量检查。&lt;/p&gt;&lt;p&gt;该公司以Matician名义运营，由Navneet Dalal和Mehul Nariyawala创立。两人在Like.com相识，这是一家被谷歌收购的早期视觉搜索公司；后来他们开发了Flutter，这是一款同样被谷歌收购的手势检测产品。Matic于2023年结束隐身模式，获得约3000万美元融资，并表示室内机器人可以仅靠摄像头运行，所有处理都在边缘设备上完成。语音和手势控制功能紧接在今年早些时候推出的Apple Home和Google Home集成之后，也体现了创始人长期以来的观点：机器应该像房间里的人一样接受指令。&lt;/p&gt;
-&lt;/section&gt;
-</description><pubDate>Thu, 13 Aug 2026 18:12:44 +0000</pubDate></item></channel></rss>
+</description><pubDate>Thu, 13 Aug 2026 21:01:30 +0000</pubDate></item></channel></rss>
