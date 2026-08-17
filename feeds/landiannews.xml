@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sun, 16 Aug 2026 06:11:05 +0000</lastBuildDate><item><title>现已覆盖更多常规应用：Windows 11通过短暂强行提升CPU频率加速软件启动</title><link>https://www.landian.news/archives/114332.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 17 Aug 2026 00:30:43 +0000</lastBuildDate><item><title>[测试] 微软在Windows 11中开发自定义右键菜单 可折叠部分不常用选项</title><link>https://www.landian.news/archives/114333.html</link><description>
+&lt;p&gt;#系统资讯 微软正在 Windows 11 中开发自定义右键菜单，适用于桌面和资源管理器等。用户可以将不常用的菜单折叠起来，这种菜单样式重点就是折叠 + 二级菜单，用户可以根据偏好设置折叠应用注入的菜单。但这可能需要应用进行适配，目前只有微软自家应用支持禁用菜单和折叠到二级菜单。查看全文：https://ourl.co/114333&lt;/p&gt;&lt;p&gt;微软当前正在 Windows 11 中开发可以自定义的右键菜单，新版右键菜单适用于桌面和资源管理器选项，解决用户长期抱怨的右键菜单被塞太多选项导致操作效率下降等问题。&lt;/p&gt;
+&lt;p&gt;不过从目前截图来看可以被折叠或控制的主要是微软自家应用，例如 Windows Terminal、OneDrive、记事本、画图、相册等，其他支持新版右键菜单集成的应用可能还需要后续开发者进行适配。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114333-2.png" rel="nofollow"&gt;&lt;img alt="[测试] 微软在Windows 11中开发自定义右键菜单 可折叠部分不常用选项" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114333-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114333-3.png" rel="nofollow"&gt;&lt;img alt="[测试] 微软在Windows 11中开发自定义右键菜单 可折叠部分不常用选项" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114333-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114333-5.png" rel="nofollow"&gt;&lt;img alt="[测试] 微软在Windows 11中开发自定义右键菜单 可折叠部分不常用选项" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114333-5.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在测试版中 (注意：尚未公开发布) 桌面和资源管理器右键菜单底部增加自定义菜单选项，点击后将转到设置、个性化设置、菜单、应用扩展，这里的应用扩展指的是应用程序向系统注入的右键菜单。&lt;/p&gt;
+&lt;p&gt;对于已经适配支持的应用程序，用户可以在应用扩展里手动关闭菜单，关闭后对应程序的右键菜单不再出现在应用扩展里。从这里可以看到：默认情况下微软将应用注入的右键菜单折叠，而不是默认在右键菜单中显示，而用户关闭的是应用扩展里的选项。&lt;/p&gt;
+&lt;p&gt;不过 OneDrive 似乎还可以单独显示菜单，由于该功能尚未上线所以暂时还没法动手测试，按我们预估，最终微软可能会允许用户拼凑菜单，即用户常用选项可以放到一级菜单里、不常用的折叠起来放到二级菜单里、应用程序如果注入多个扩展则折叠到该应用对应的二级菜单里。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114333-4.png" rel="nofollow"&gt;&lt;img alt="[测试] 微软在Windows 11中开发自定义右键菜单 可折叠部分不常用选项" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114333-4.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114333-6.png" rel="nofollow"&gt;&lt;img alt="[测试] 微软在Windows 11中开发自定义右键菜单 可折叠部分不常用选项" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114333-6.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;还有个关键的改动是，复制、粘贴、剪切、重命名、分享、删除这些关键菜单允许设置为传统样式，即按照条目放在右键菜单里，而不是按照当前样式以按钮样式放在菜单顶部或底部。&lt;/p&gt;
+&lt;p&gt;目前蓝点网并未想到这处改动的意义，因为现在横向并排显示按钮已经增加底部文字说明，用户操作时可以看到对应按钮的含义，换成传统样式可能是照顾刚刚从 Windows 10 升级过来的用户？对长期使用 Windows 11 的用户来说横向并排显示按钮应该不是问题。&lt;/p&gt;
+&lt;p&gt;这些改动目前还在测试中，暂未向 Windows 11 预览版用户推送，不过考虑到开发进度，估计近期发布的 Windows 11 预览版应该就会陆续上线自定义右键菜单功能。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114333-7.png" rel="nofollow"&gt;&lt;img alt="[测试] 微软在Windows 11中开发自定义右键菜单 可折叠部分不常用选项" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114333-7.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114333-8.png" rel="nofollow"&gt;&lt;img alt="[测试] 微软在Windows 11中开发自定义右键菜单 可折叠部分不常用选项" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114333-8.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：@Phantomofearth&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 17 Aug 2026 00:30:43 +0000</pubDate></item><item><title>现已覆盖更多常规应用：Windows 11通过短暂强行提升CPU频率加速软件启动</title><link>https://www.landian.news/archives/114332.html</link><description>
 &lt;p&gt;#系统资讯 现已覆盖 Chrome 等常规应用：Windows 11 安装 8 月更新后部署低延迟配置文件技术。该技术会在启动软件时，短暂强行提升 CPU 频率来加快启动过程。对用户而言就是点击开始菜单、搜索框、启动 Chrome 或 EPIC 游戏商店都更快了，卡卡的感觉会减少。查看全文：https://ourl.co/114332&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/112877.html" rel="noopener" target="_blank"&gt;此前蓝点网已经提到过微软开发的低延迟配置文件技术&lt;/a&gt;，该技术的开发目标是在用户启动软件或进行关键交互时，通过短暂大幅度提升 CPU 频率来提高加载速度。最初微软仅面向 Windows 11 开始菜单和搜索框等系统关键组件启用低延迟配置文件，不过现在该功能已经覆盖更多常规软件。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/public/thumb/W11.png" rel="nofollow"&gt;&lt;img alt="现已覆盖更多常规应用：Windows 11通过短暂强行提升CPU频率加速软件启动" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/public/thumb/W11.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -46,25 +67,4 @@
 &lt;p&gt;谋智基金会强烈反对美国联邦和州竞争管理机构要求推翻的搜索收益分成的想法，该基金会称，如果火狐浏览器被迫将默认搜索引擎从谷歌换成微软必应搜索，其营收将会大幅度下降。这种情况会切断火狐浏览器的收入来源，最终让这个支持隐私保护的开源浏览器彻底死亡。&lt;/p&gt;
 &lt;p&gt;此前微软为提高必应搜索的市场占有率，曾寻求多家分销商合作，这就包括谋智基金会和苹果，不过即便微软愿意支付更高的费用，最终苹果也没答应将 Safari 默认搜索从谷歌替换为必应。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 14 Aug 2026 09:50:21 +0000</pubDate></item><item><title>智谱推出GLM-5.3 重点提升编程开发和网络安全能力 将在两周后开放权重下载</title><link>https://www.landian.news/archives/114328.html</link><description>
-&lt;p&gt;#人工智能 智谱推出 GLM-5.3，新版本在编程开发和网络安全领域能力显著提升。据智谱公布的数据，该模型已被用于 269 个真实项目，发现 2436 个有效漏洞，包括 1097 个中高危漏洞。智谱目前还在对模型进行安全评估和加固，完成加固后将开放权重下载。查看全文：https://ourl.co/114328&lt;/p&gt;&lt;p&gt;中国人工智能公司智谱日前推出 GLM-5.3 模型，该模型没有更换基础模型，而是继续使用 GLM-5.2 底座，主要通过扩大后训练规模来提升长时程编程、智能体任务和网络安全能力。&lt;/p&gt;
-&lt;p&gt;智谱在博客中表示，目前团队还在继续进行安全评估和加固，所以当前没有开放模型权重，后续完成安全评估和加固后将继续以开放形式发布，GLM-5.3 预计在两周后开放权重文件下载。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114328-1.png" rel="nofollow"&gt;&lt;img alt="智谱推出GLM-5.3 重点提升编程开发和网络安全能力 将在两周后开放权重下载" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114328-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;GLM-5.3 的主要工作就是扩大后训练规模，开发团队在近期投入更多、更复杂且持续时间更长的任务环境。与传统的代码训练题不同，这些任务要求模型在完整的工作环境中读取代码、调用工具、运行测试、定位问题并完成最终交付。&lt;/p&gt;
-&lt;p&gt;为此智谱继续使用 IndexShare、SAO 和 slime 等工具，其中 IndexShare 用于提升长上下文处理效率，SAO 用于训练长时程强化学习任务，slime 则是智谱开源的后训练框架，负责连接模型训练、推理和任务环境。&lt;/p&gt;
-&lt;p&gt;智谱搭建自动生成和验证任务环境的流水线，由研究智能体从真实工作中提取任务模式，再生成可以运行的长期任务。其他智能体负责验证任务是否可完成，检查模型是否通过投机方式获得奖励，排除没有明确结果或无法验证的任务等。&lt;/p&gt;
-&lt;p&gt;这意味着模型训练重点正在从准备更多问答数据转向构建更多可执行、验证和反复运行的工作环境。对编程智能体来说，模型能否持续完成数十个步骤，往往比单次生成代码的质量更加重要。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114328-2.png" rel="nofollow"&gt;&lt;img alt="智谱推出GLM-5.3 重点提升编程开发和网络安全能力 将在两周后开放权重下载" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114328-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;智谱公布的测试数据显示，GLM-5.3 在多种模型基准测试中的表现都有所提升，在更多侧重于接近真实编程工作、需要模型操作终端、修改项目文件、运行测试并处理连续错误的基准测试中，GLM-5.3 的表现要比 GLM-5.2 好很多。&lt;/p&gt;
-&lt;p&gt;值得注意的是，智谱内部测试还表明，GLM-5.3 可以使用更少的 Token 完成任务，例如在某些任务中，GLM-5.2 需要 95K 才能完成任务，而 GLM-5.3 只需要 78K 左右就可以完成任务，因此在复杂任务中 GLM-5.3 可以节省更多资源用量。&lt;/p&gt;
-&lt;p&gt;不过这些数据主要来自智谱公布的测试结果，不能简单地理解为 GLM-5.3 已经全面超越所有闭源模型。在部分公开测试中，GPT-5.6 Sol 和其他前沿闭源模型仍然领先，GLM-5.3 的主要变化是大幅度缩小差距，并在开放模型中达到较高水平。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;网络安全能力是 GLM-5.3 此次升级中最受关注的部分，智谱原本只是希望增加漏洞发现数据和相关环境，让模型更擅长寻找安全问题，但在扩大后训练规模后，模型的能力提升速度超过预期。&lt;/p&gt;
-&lt;p&gt;GLM-5.3 已经不只是发现简单漏洞，还可以将多个步骤串联起来从而形成完整的漏洞利用计划。智谱称研究团队目前已经将 GLM-5.3 用于 269 个真实项目，经过专家复核、筛选和去重后，合计发现 2436 个有效漏洞，其中 1097 个属于中高危漏洞，目前已经有 53 个漏洞公开披露，其他漏洞仍然处于延期披露状态。&lt;/p&gt;
-&lt;p&gt;智谱计划在完成安全测试和模型加固后公开 GLM-5.3 权重，到时候安全研究团体也可以使用 GLM-5.3 模型提高漏洞发掘效率，提升网络安全。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://z.ai/blog/glm-5.3" rel="noopener" target="_blank"&gt;智谱官方博客&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 14 Aug 2026 09:22:55 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 14 Aug 2026 09:50:21 +0000</pubDate></item></channel></rss>
