@@ -1,5 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 17 Aug 2026 02:30:44 +0000</lastBuildDate><item><title>[数字礼品] ChatGPT Codex推出礼品卡功能 20美元赠送500积分</title><link>https://www.landian.news/archives/126278.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 17 Aug 2026 04:07:37 +0000</lastBuildDate><item><title>全球规模最大的API中转站OpenRouter被支付公司Stripe以70亿美元的价格收购</title><link>https://www.landian.news/archives/126282.html</link><description>
+&lt;p&gt;#人工智能 支付平台 Stripe 以 70 亿美元的价格收购 API 中转站 OpenRouter，此时距离 OpenRouter 在 5 月份完成的 B 轮融资仅过去 3 个月，当时估值还是 13 亿美元。OpenRouter 的商业模式非常简单，为客户提供超过 400 个模型的调用，平台按照用户使用量向 AI 公司抽成 5%，现在 OpenRouter 每周处理超过 25 万亿 tokens。查看全文：https://ourl.co/126282&lt;/p&gt;&lt;p&gt;据彭博社发布的消息，全球知名的支付平台 Stripe 已经与 AI 初创公司 OpenRouter 达成最终协议，Stripe 以超过 70 亿美元的价格完全收购 OpenRouter，此交易距离 OpenRouter 在 2026 年 5 月完成 1.13 亿美元 B 轮融资仅过去 3 个月，彼时 OpenRouter 的估值为 13 亿美元。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126282.png" rel="nofollow"&gt;&lt;img alt="全球规模最大的API中转站OpenRouter被支付公司Stripe以70亿美元的价格收购" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126282.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;OpenRouter 是目前全球规模最大的 API 中转站，在国外诸多开发者和企业选择通过 OpenRouter 使用 AI 服务，该平台提供智能路由、自动故障转移、使用量跟踪、统一计费与结算，可以帮助企业避免被单一供应商锁定。&lt;/p&gt;
+&lt;p&gt;OpenRouter 支持全球超过 400 个模型，覆盖 OpenAI、Anthropic、Meta、Google、DeepSeek 等各类闭源或开源模型，其智能路由功能会基于成本、速度和性能选择最佳模型，企业通过 OpenRouter 调用时可以降低成本。&lt;/p&gt;
+&lt;p&gt;当然更多企业注重的是避免被单一供应商锁定，例如如果与 Anthropic 签订协议那需要支付很高的价格，而如果使用 OpenRouter，那就可以在需要时调用 Claude AI 模型，在某些要求不高的场景下使用其他成本更低的模型。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;尽管彭博社表示双方已经达成最终协议，不过当前无论是 Stripe 还是 OpenRouter 都没有发布任何官方消息，可能相关交易的谈判还在最终收尾阶段。华尔街日报此前称 OpenRouter 潜在估值接近 100 亿美元，虽然 Stripe 最终以 70 亿美元收购，但这个价格仍然远超市场预期。&lt;/p&gt;
+&lt;p&gt;另外这里简单提下 OpenRouter 的商业模式，该平台的模式非常简单，与各大 AI 公司合作转售 API，OpenRouter 按照用户使用量抽成 5%，例如用户调用某个模型消耗 100 元，OpenRouter 可以拿到 5 元的抽成，这个比例不算高，但现在 OpenRouter 服务超过 800 万名用户，每周处理高达 25 万亿 tokens，所以抽成收入也是挺可观的。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 17 Aug 2026 04:07:37 +0000</pubDate></item><item><title>[指南] Codex可以通过配置文件开启1M上下文窗口 但配额消耗会更快</title><link>https://www.landian.news/archives/126281.html</link><description>
+&lt;p&gt;#技术教程 Codex 可以通过配置文件开启 1M 上下文窗口，在某些场景下可能可以提高效率，但配额消耗更快。Codex 技术经理蒂博已经在 ChatGPT 订阅用户也开启 GPT-5.6 1M 窗口，以前这仅适用于 API 平台。不过蒂博强调当前 Codex 272K 自动压缩已经是最佳配置，如果开启 1M 那用户会注意到配额被更快消耗掉。配置方法：https://ourl.co/126281&lt;/p&gt;&lt;p&gt;GPT-5.6 系列模型本身是支持 1M 窗口的，不过在 Codex 中默认配置都是 272K，因此开发者在执行长任务时可能会经常看到压缩上下文的提示。不过如果开发者愿意的话，也可以通过修改 TOML 配置文件的方式启用 1M 窗口，并在 900K 时触发压缩。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126281.png" rel="nofollow"&gt;&lt;img alt="[指南] Codex可以通过配置文件开启1M上下文窗口 但配额消耗会更快" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126281.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 如何启用 GPT-5.6 系列模型的 1M 窗口：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;转到 ChatGPT/Codex 设置、配置、打开 config.toml 文件，然后在文件顶部新增如下内容，模型支持 gpt-5.6-luna、gpt-5.6-terra 和 gpt-5.6-sol，用户可以根据自己需要进行配置。&lt;/p&gt;
+&lt;pre&gt;model = "gpt-5.6-sol"
+model_context_window = 1000000 #开启约 1M 窗口预算
+model_auto_compact_token_limit = 900000 #在 900K 时自动压缩留出余量&lt;/pre&gt;
+&lt;p&gt;修改配置后保存并退出 Codex 再重启，接下来新开启的对话将启用 1M 窗口，已经产生的对话不能修改，所以如果你在现有对话中测试会发现默认还是 272K。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;启用 1M 窗口后配额消耗会更快，虽然这有助于减少压缩并在某些场景下避免丢失关键信息。Codex 技术经理蒂博的意思是，目前 Codex 已经设置为最佳优化状态，即便出现频繁压缩也不会产生太大的影响，反而开启 1M 窗口后消耗过多。&lt;/p&gt;
+&lt;p&gt;另外此前 1M 窗口仅限 API 调用，但在开发者反馈后蒂博也已经为 ChatGPT 账户开启 1M 窗口，ChatGPT 订阅用户现在可以修改配置文件开启 1M 窗口并进行体验。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 17 Aug 2026 03:47:17 +0000</pubDate></item><item><title>爱快路由系统(iKuai)发布安全公告：持续遭到攻击 用户需立即升级固件</title><link>https://www.landian.news/archives/126280.html</link><description>
+&lt;p&gt;#安全资讯 爱快路由系统 iKuai 发布安全公告：持续遭到攻击，用户需立即升级固件。近期诸多爱快用户发现路由 DNS 被篡改，访问网站被劫持到非法网站，凌晨 3~6 点断网等。经过发酵现在爱快官方终于发布安全公告并推出新版固件修复漏洞，但具体攻击细节目前还不清楚。查看全文：https://ourl.co/126280&lt;/p&gt;&lt;p&gt;近期国内商业路由系统爱快出现多起安全问题，诸多用户反馈路由器使用的 DNS 被强制篡改，随后用户访问某些网站时会被劫持到博彩和其他非法网站，这种情况已经持续很长时间。&lt;/p&gt;
+&lt;p&gt;爱快官方现在也终于发布安全公告称遭到持续攻击，但具体的攻击源头还在溯源中，此次攻击主要影响路由器 DNS 功能，还针对部分路由器强制断网，爱快已经发布新版固件建议用户立即升级。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126280.png" rel="nofollow"&gt;&lt;img alt="爱快路由系统(iKuai)发布安全公告：持续遭到攻击 用户需立即升级固件" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126280.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;从爱快官方论坛网友反馈的消息来看，受影响的路由器不分运营商和地区，但主要是使用拨号的路由器会被劫持。劫持表现则是每日凌晨 3~6 点准时断网必须重启系统或重新拨号，而系统使用的 DNS 服务器也会被篡改。&lt;/p&gt;
+&lt;p&gt;当用户访问某些网站时可能会被篡改的 DNS 服务器强制劫持到非法网站，当然这里还可能出现其他钓鱼网站和诈骗网站，即便用户手动修改 DNS 服务器后随后又被改回黑客控制的 DNS 服务器，目前还不清楚黑客是利用漏洞直接下发配置修改 DNS 还是在爱快里植入后门。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;目前爱快团队通过对异常行为的样本分析已经定位到部分受影响的客户，技术团队正在与客户沟通协助解决问题并加固安全。同时爱快也发布新版安全更新，考虑到部分用户无法跨版本升级，所以旧版本也有专用的安全更新。&lt;/p&gt;
+&lt;p&gt;爱快团队建议用户尽快升级到 4.0.307 及以上版本，对于使用旧版的用户也可以升级到 3.7.24 版，另外用户最好关注近期爱快的安全公告，爱快应该还会继续发布新版本修复漏洞。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://bbs.ikuai8.com/thread-173273-1-1.html" rel="noopener" target="_blank"&gt;iKuai BBS&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 17 Aug 2026 03:25:33 +0000</pubDate></item><item><title>SK海力士固态盘故障后怎么售后？当下只提供原价退款 换新是不可能的</title><link>https://www.landian.news/archives/126279.html</link><description>
+&lt;p&gt;#硬件设备 SK 海力士固态硬盘故障后怎么售后？SK 海力士只提供原价退款，想要换新是不可能的。有网友分享自己关于 SK 海力士固态盘的售后经历，SK 海力士保修政策已经明确说明要么为用户换新，要么为用户原价退款或按照市场公平价值退款，以较低者为准。实际上当下 SK 海力士不会为用户提供换新，而固态盘价格大涨，因此用户只能拿到原购买金额的退款，然后需要自己补差价重新购买硬盘。查看全文：https://ourl.co/126279&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/114250.html" rel="noopener" target="_blank"&gt;上周蓝点网提到有用户的美光英睿达 48GB 内存套条故障后寻求售后服务&lt;/a&gt;，结果美光以没有库存为由拒绝提供换新服务，美光只愿意给用户原价退款，但显然原价退款难以重新购买合适的内存条。最终在用户据理力争后，美光同意换成 3 条 16GB 的内存条。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126279.png" rel="nofollow"&gt;&lt;img alt="SK海力士固态盘故障后怎么售后？当下只提供原价退款 换新是不可能的" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126279.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;有网友在美光内存条售后的帖子下分享自己的 SK 海力士固态盘故障后的售后经历，SK 海力士&lt;a href="https://www.landian.news/go?url=https://ssd.skhynix.com/warranty/" rel="noopener" target="_blank"&gt;明确表示&lt;/a&gt;对于故障的固态硬盘产品，如果在保修期内则提供原价退款或更换为类似或同等规格的硬盘，但以价格较低者为准。&lt;/p&gt;
+&lt;p&gt;现在固态硬盘价格比以前也涨很多，因此用户实际寻求 SK 海力士进行售后时，SK 海力士只提供原价退款服务，绝对不会提供换新服务，而现在退款金额并不能再重新购买同等规格的固态硬盘，用户可能还需要补较多差价。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在保修期内若 SK 海力士认为任何产品存在缺陷，则授权经销商可以根据保修政策和 SK 海力士的决定对产品进行维修或更换。若不进行产品维修或更换，原购买者可以选择获得退款，退款金额为原购买价格或公平的市场价值，以较低者为准。&lt;/p&gt;
+&lt;p&gt;这个售后政策在固态硬盘低价时其实问题不大，因为 SK 海力士会选择直接为用户换新，这种情况下用户基本没有损失。但如果像现在这样固态硬盘价格也大幅度上涨，那 SK 海力士会选择原价退款，而消费者获得退款后还需要自行购买新硬盘，新硬盘价格太高需要自己补差价。&lt;/p&gt;
+&lt;p&gt;以前很少有用户会注意到 SK 海力士的这种保修条款，要不是现在硬盘价格大幅度上涨估计都没人提这事儿，没想到 SK 海力士还在保修条款里埋雷，只是已经购买的用户没有其他选择，真遇到故障时也只能原价退款。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://www.reddit.com/r/pcmasterrace/comments/1vnf521/comment/p3ieg23/" rel="noopener" target="_blank"&gt;Reddit&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 17 Aug 2026 03:00:09 +0000</pubDate></item><item><title>[数字礼品] ChatGPT Codex推出礼品卡功能 20美元赠送500积分</title><link>https://www.landian.news/archives/126278.html</link><description>
 &lt;p&gt;#人工智能 OpenAI 推出 ChatGPT 数字礼品卡，20 美元向好友赠送 500 积分 / 信用额度。这个价格其实挺贵的，还不如 20 美元直接开 Plus 订阅。信用额度根据 API 价格进行映射，以 Sol 为例，百万输入 125 积分、百万缓存 12.5 积分、百万输出 750 积分。查看全文：https://ourl.co/126278&lt;/p&gt;&lt;p&gt;近期 ChatGPT 也推出数字礼品卡，不过这个数字礼品卡不是用来开通订阅的，而是直接向好友赠送 Codex 或 Work 积分 / 信用额度。该功能通过电子邮件发送，然而拿到链接的用户都可以领取额度，领取后额度有效期 365 天。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126278-1.png" rel="nofollow"&gt;&lt;img alt="[数字礼品] ChatGPT Codex推出礼品卡功能 20美元赠送500积分" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126278-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126278-2.png" rel="nofollow"&gt;&lt;img alt="[数字礼品] ChatGPT Codex推出礼品卡功能 20美元赠送500积分" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126278-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -19,62 +69,4 @@
 &lt;p&gt;不过信用额度不代表具体用量， 根据 OpenAI 的支持文档，信用额度基于 token 使用量映射，实际消耗的信用额度取决于每个任务中的输入、输出和缓存。&lt;/p&gt;
 &lt;p&gt;以 GPT-5.6 Sol 为例：百万输入 125 信用额度、百万缓存 12.5 信用额度、百万输出 750 信用额度，所以如果使用 Sol 那 20 美元 500 信用额度很容易被耗尽。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 17 Aug 2026 02:30:44 +0000</pubDate></item><item><title>A社公布Claude文本盲水印机制详情：并非添加Unicode字符 复制粘贴仍然可检测</title><link>https://www.landian.news/archives/114336.html</link><description>
-&lt;p&gt;#人工智能 A 社深度解释 Claude AI 文本盲水印机制，并非添加 Unicode 字符或不可见字符，而是使用统计学特征。即模型在预测下个词时，遇到同义词时会随机选择，但水印机制会控制模型选择偏好。在长内容中，只要检测句子中的特定词就可以用来识别，而且即便是轻度润色的文案也会被识别为 AI 生成。查看全文：https://ourl.co/114336&lt;/p&gt;&lt;p&gt;上周 A 社宣布在 Claude 模型中添加文本水印引起关注，这种文本水印会覆盖 Claude AI 所有端，哪怕是通过 API 调用模型生成的文本也同样会自带可以检测的水印，而且这种水印并非添加某些 Unicode 字符，而是基于词语的替换机制。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Claude AI 文本水印并非在生成内容后再进行后处理，而是模型在选择字词时就会添加统计学的标记，系统会根据前文内容在符合多个语义的候选词之间调整随机选择过程，然后利用密钥控制这种选择。&lt;/p&gt;
-&lt;p&gt;单个词看起来与普通输出并没有明显区别，但如果大量词语按照类似规则生成后，整段文本内容就会形成可供检测的统计特征，因此即便复制粘贴删除某些特殊字符也不影响正常检测，除非用户使用其他 AI 工具或手动改写整段内容。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114336.png" rel="nofollow"&gt;&lt;img alt="A社公布Claude文本盲水印机制详情：并非添加Unicode字符 复制粘贴仍然可检测" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114336.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;举个例子：「今天的天气很冷，而且... 」在这句话中模型生成的下个词语不太可能是「甜的」，但很可能是「阴天」或「灰色的」，在大多数情况下模型选择阴天或灰色的对用户来说并不重要，因为这不会改变整句话的意思。&lt;/p&gt;
-&lt;p&gt;在这种情况下模型未经干预时可能会随机选择「阴天」或「灰色的」，而文本水印技术就是利用类似的低风险选择，只要在长内容中按照密钥控制的算法选择特定词语，就可以使用工具反向检测到内容是否是 AI 生成的。&lt;/p&gt;
-&lt;p&gt;A 社强调这种文本水印不会增加生成的文本长度、不会添加 Unicode 特殊字符或隐藏元数据，文本水印也不会记录用户、组织或对话编号，水印密钥本身不包含任何身份信息，该机制也不会产生额外费用，而对模型生成速度和输出质量的影响也基本可以忽略。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;由于文本水印本身被深度融入到词语选择过程中，因此用户直接复制 Claude AI 生成的文本，或者进行少量语法修正和格式调整等通常仍然可以保留部分检测信号。而 Claude AI 生成的翻译内容也同样会带有文本水印，因为翻译过程中也使用可统计的水印文本。&lt;/p&gt;
-&lt;p&gt;不过水印并不是在任何情况下都可以使用，文本越长则检测信号越稳定，如果内容属于代码、固定格式文本、事实性很强的内容，或者只能使用少量固定词汇进行表达，这时候模型可以选择的替代词语比较少因此水印信号就比较弱，所以检测成功率也会降低。&lt;/p&gt;
-&lt;p&gt;所以当内容显示可能由 Claude AI 生成不能简单地等同于文本完全由 AI 生成，因为用户可能是用 AI 进行翻译、校对或轻度润色。而检测不到水印也不代表文本就 100% 不是 AI 生成的，因为内容也可能经过深度修改，毕竟用户也可以用其他同义词替代 (所谓洗稿)。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 17 Aug 2026 02:00:44 +0000</pubDate></item><item><title>币安从8月23日开始禁止与火币交易 发送或接收资产都会被冻结/审查/封号</title><link>https://www.landian.news/archives/114335.html</link><description>
-&lt;p&gt;#加密货币 币安从 8 月 23 日开始禁止与火币进行任何交易，向火币发送资产或接收来自火币的资产都将被冻结和审查。禁止交易并非行业竞争，而是火币自己作死导致被欧盟和英国列入制裁实体，币安从合规性角度考虑必须阻止与火币交易。币安同时强调，用户通过币安与火币交易也违反币安使用条款，这意味着用户也会被封号。查看全文：https://ourl.co/114335&lt;/p&gt;&lt;p&gt;据币安发布的交易类公告，币安决定从 2026 年 8 月 23 日开始禁止用户与火币 (HTX) 进行任何交易，无论是从币安发送资产到火币还是从火币发送资产到币安，都会触发自动冻结资产和额外的合规性审查，用户可能还需要配合提交相关资料证明才能通过审查。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114335.png" rel="nofollow"&gt;&lt;img alt="币安从8月23日开始禁止与火币交易 发送或接收资产都会被冻结/审查/封号" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114335.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;火币作为曾经非常知名的加密货币交易所，在被孙宇晨收购后情况变得越来越糟糕，尤其是现在因为合规性问题已经被欧盟和英国纳入制裁名单，此次币安发布的禁止交易公告本身并非行业竞争，而是币安从合规性角度考虑必须切断与火币的任何交易。&lt;/p&gt;
-&lt;p&gt;欧盟在 2026 年 7 月 25 日发布公告宣布将火币等 18 个实体添加到制裁名单，原因是这些实体帮助俄罗斯规避相关制裁。欧盟称任何为俄罗斯在俄乌战争中提供资金支持的金融机构、信贷机构或提供加密资产服务的实体都会被欧盟制裁。&lt;/p&gt;
-&lt;p&gt;英国则是在 5 月份就已经将火币添加到制裁清单，英国政府当时在公告中表示，有合理理由怀疑火币为俄罗斯提供金融服务和资金支持等。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;币安在公告中强调，自生效日起用户请勿通过币安直接或间接向这些被制裁实体发送、接收或以其他任何方式进行交易，发生任何交易后这些交易都有可能被冻结并触发合规性审查，在审查期间相关钱包可能会受影响，同时以上交易行为也违反币安使用条款 (即可能会被封号)。&lt;/p&gt;
-&lt;p&gt;火币辩称被制裁的是 Huobi Global SA 实体，而火币交易所是由其他实体运营的因此不受影响，不过这种文字游戏没有任何意义，英国监管机构都强调 HTX 交易所本身隶属于 Huobi Global SA，因此交易所也受制裁。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 17 Aug 2026 01:30:48 +0000</pubDate></item><item><title>智谱向安全研究员和安全研究机构开放GLM-5.3网安权限申请 获批后自由度更高</title><link>https://www.landian.news/archives/114334.html</link><description>
-&lt;p&gt;#人工智能 智谱面向安全研究员和安全研究机构开放 GLM-5.3 网安权限申请，获批后使用 GLM-5.3 时自由度更高。按照智谱说明，安全研究员、AI 评估和基准测试机构、网安研究机构、学术研究机构、安全公司、基础设施公司等都可以提交申请。详细说明：https://ourl.co/114334&lt;/p&gt;&lt;p&gt;智谱日前面向网络安全领域的研究人员推出网络安全合作伙伴计划，安全研究员可以提交申请并等待智谱的审核，审核通过后研究员使用 GLM-5.3 时可以获得更高的权限，即进行网络安全领域的审查和分析时触发的安全拦截可能会更低。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114334.png" rel="nofollow"&gt;&lt;img alt="智谱向安全研究员和安全研究机构开放GLM-5.3网安权限申请 获批后自由度更高" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114334.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这项合作伙伴计划不仅面向网络安全研究员，也适用于人工智能评估和基准测试机构、网络安全研究机构、学术研究机构、人工智能应用开发公司、网络安全公司、开发者平台和基础设施公司、企业和最终用户。&lt;/p&gt;
-&lt;p&gt;每种类别的用户使用 GLM-5.3 执行的网络安全分析都有所不同，但无论是哪种类别的用户，都可以在获得权限后使用 GLM-5.3 提高网络安全能力，例如基础设施公司可以通过 GLM-5.3 审计系统修复漏洞提高安全性，避免攻击者利用漏洞发起攻击并造成严重影响。&lt;/p&gt;
-&lt;p&gt;当然提交申请后能否获得批准取决于智谱的审核，在人工智能安全领域目前开发公司都保持比较谨慎的态度，即模型确实可以提高网络安全能力，但黑客也可以使用模型寻找漏洞并发起攻击，甚至开发攻击程序等，所以部分模型在网络安全领域的限制非常多。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;申请表：&lt;a href="https://www.landian.news/go?url=https://forms.gle/34wVWqtgJtkTy6Hv9" rel="noopener" target="_blank"&gt;https://forms.gle/34wVWqtgJtkTy6Hv9&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;原则上支持个人、企业和其他机构提交申请，为提高申请成功率，建议提交申请时详细说明为什么要申请、自己从事的领域、计划获得权限后用来做什么。个人网络安全研究员最好提交过往发掘漏洞的相关公开证明，这也可以提高申请成功率。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 17 Aug 2026 01:00:42 +0000</pubDate></item><item><title>[测试] 微软在Windows 11中开发自定义右键菜单 可折叠部分不常用选项</title><link>https://www.landian.news/archives/114333.html</link><description>
-&lt;p&gt;#系统资讯 微软正在 Windows 11 中开发自定义右键菜单，适用于桌面和资源管理器等。用户可以将不常用的菜单折叠起来，这种菜单样式重点就是折叠 + 二级菜单，用户可以根据偏好设置折叠应用注入的菜单。但这可能需要应用进行适配，目前只有微软自家应用支持禁用菜单和折叠到二级菜单。查看全文：https://ourl.co/114333&lt;/p&gt;&lt;p&gt;微软当前正在 Windows 11 中开发可以自定义的右键菜单，新版右键菜单适用于桌面和资源管理器选项，解决用户长期抱怨的右键菜单被塞太多选项导致操作效率下降等问题。&lt;/p&gt;
-&lt;p&gt;不过从目前截图来看可以被折叠或控制的主要是微软自家应用，例如 Windows Terminal、OneDrive、记事本、画图、相册等，其他支持新版右键菜单集成的应用可能还需要后续开发者进行适配。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114333-2.png" rel="nofollow"&gt;&lt;img alt="[测试] 微软在Windows 11中开发自定义右键菜单 可折叠部分不常用选项" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114333-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114333-3.png" rel="nofollow"&gt;&lt;img alt="[测试] 微软在Windows 11中开发自定义右键菜单 可折叠部分不常用选项" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114333-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114333-5.png" rel="nofollow"&gt;&lt;img alt="[测试] 微软在Windows 11中开发自定义右键菜单 可折叠部分不常用选项" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114333-5.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在测试版中 (注意：尚未公开发布) 桌面和资源管理器右键菜单底部增加自定义菜单选项，点击后将转到设置、个性化设置、菜单、应用扩展，这里的应用扩展指的是应用程序向系统注入的右键菜单。&lt;/p&gt;
-&lt;p&gt;对于已经适配支持的应用程序，用户可以在应用扩展里手动关闭菜单，关闭后对应程序的右键菜单不再出现在应用扩展里。从这里可以看到：默认情况下微软将应用注入的右键菜单折叠，而不是默认在右键菜单中显示，而用户关闭的是应用扩展里的选项。&lt;/p&gt;
-&lt;p&gt;不过 OneDrive 似乎还可以单独显示菜单，由于该功能尚未上线所以暂时还没法动手测试，按我们预估，最终微软可能会允许用户拼凑菜单，即用户常用选项可以放到一级菜单里、不常用的折叠起来放到二级菜单里、应用程序如果注入多个扩展则折叠到该应用对应的二级菜单里。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114333-4.png" rel="nofollow"&gt;&lt;img alt="[测试] 微软在Windows 11中开发自定义右键菜单 可折叠部分不常用选项" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114333-4.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114333-6.png" rel="nofollow"&gt;&lt;img alt="[测试] 微软在Windows 11中开发自定义右键菜单 可折叠部分不常用选项" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114333-6.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;还有个关键的改动是，复制、粘贴、剪切、重命名、分享、删除这些关键菜单允许设置为传统样式，即按照条目放在右键菜单里，而不是按照当前样式以按钮样式放在菜单顶部或底部。&lt;/p&gt;
-&lt;p&gt;目前蓝点网并未想到这处改动的意义，因为现在横向并排显示按钮已经增加底部文字说明，用户操作时可以看到对应按钮的含义，换成传统样式可能是照顾刚刚从 Windows 10 升级过来的用户？对长期使用 Windows 11 的用户来说横向并排显示按钮应该不是问题。&lt;/p&gt;
-&lt;p&gt;这些改动目前还在测试中，暂未向 Windows 11 预览版用户推送，不过考虑到开发进度，估计近期发布的 Windows 11 预览版应该就会陆续上线自定义右键菜单功能。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114333-7.png" rel="nofollow"&gt;&lt;img alt="[测试] 微软在Windows 11中开发自定义右键菜单 可折叠部分不常用选项" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114333-7.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114333-8.png" rel="nofollow"&gt;&lt;img alt="[测试] 微软在Windows 11中开发自定义右键菜单 可折叠部分不常用选项" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114333-8.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息源：@Phantomofearth&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 17 Aug 2026 00:30:43 +0000</pubDate></item></channel></rss>
+</description><pubDate>Mon, 17 Aug 2026 02:30:44 +0000</pubDate></item></channel></rss>
