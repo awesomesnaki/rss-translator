@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 18 Aug 2026 03:37:14 +0000</lastBuildDate><item><title>macOS 26.7 Tahoe候选版包含一段视频，展示了配备摄像头的AirPods的实际运行。</title><link>https://www.macrumors.com/2026/08/17/camera-equipped-airpods-macos-26-7/</link><description>&lt;p&gt;哎呀。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 18 Aug 2026 12:32:38 +0000</lastBuildDate><item><title>自然在愈合：MacOS 27 Golden Gate Beta 6 新增重新设计的红绿灯窗口控制</title><link>https://9to5mac.com/2026/08/17/macos-27-golden-gate-beta-6-features-redesigned-traffic-light-window-controls/</link><description>&lt;p&gt;Zac Hall，9to5Mac：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;macOS 27 Golden Gate beta 6 引入了重新设计的红绿灯式窗口控制按钮。新外观类似于更早期的 Mac OS X 系统，每个按钮的细节都更加丰富。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;不错。但这些改进对我来说还不够快——我是个没耐心的人。多年来，macOS 用户界面一直在缓慢、稳定、可悲且毫无乐趣地走下坡路，然后，一年前，26 Tahoe 的灾难让一切彻底崩盘。&lt;/p&gt;
+&lt;p&gt;但 27 Golden Gate 的&lt;em&gt;所有&lt;/em&gt;变化都朝着正确的方向前进。Golden Gate 不是好坏参半。有品味、有才华的设计师显然已&lt;a href="https://daringfireball.net/linked/2026/08/12/nature-is-healing"&gt;重新掌舵&lt;/a&gt;。而且我很喜欢他们在八月中旬仍在推进 UI 和&lt;a href="https://www.macrumors.com/2026/08/10/ios-27-beta-5-icons/"&gt;图标&lt;/a&gt;方面的改动，正进入 .0 测试周期的&lt;a href="https://daringfireball.net/linked/2026/08/10/ios-27-beta-5"&gt;最后冲刺阶段&lt;/a&gt;。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/08/18/golden-gate-27-window-controls" title="Permanent link to ‘Nature Is Healing: MacOS 27 Golden Gate Beta 6 Adds Redesigned Traffic Light Window Controls’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Tue, 18 Aug 2026 12:32:38 +0000</pubDate></item><item><title>macOS 26.7 Tahoe候选版包含一段视频，展示了配备摄像头的AirPods的实际运行。</title><link>https://www.macrumors.com/2026/08/17/camera-equipped-airpods-macos-26-7/</link><description>&lt;p&gt;哎呀。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/08/17/macos-267-tahoe-camera-airpods" title="永久链接至‘macOS 26.7 Tahoe候选版本包含展示配备摄像头的AirPods实际操作的视频’"&gt; ★ &lt;/a&gt;
 </description><pubDate>Tue, 18 Aug 2026 03:37:14 +0000</pubDate></item><item><title>★ 关于AI生成文本水印方案的后续思考</title><link>https://daringfireball.net/2026/08/follow-up_thoughts_on_watermarking</link><description>&lt;p&gt;关于周末那篇长篇大论“&lt;a href="https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing"&gt;Anthropic 在 Claude 中的‘水印’文本篡改是对写作的一种扭曲&lt;/a&gt;”，这里有一些后续补充：&lt;/p&gt;
 &lt;h2&gt;温度&lt;/h2&gt;
@@ -77,13 +84,4 @@
 &lt;p&gt;至于苹果的Trusted System Agent（可信系统代理）提案究竟有多详细，我们遇到了一个双方各执一词的争议。苹果在WWDC新闻发布会上表示，该提案相当详细。而一位匿名的“欧盟委员会官员”在此向《金融时报》表示，“除了总体概念之外，该提案缺乏具体的方案或关于该代理如何运作的细节”。在这件事上，苹果的可信度更高，哪怕仅仅是因为他们声称提案很详细的表态并非来自匿名消息源。这些表态都是有据可查的。&lt;/p&gt;
 &lt;p&gt;与此同时，我们也看到了&lt;a href="https://daringfireball.net/2026/07/ec_google_guidance_android_ai_and_search_sharing"&gt;欧盟委员会在Android平台上针对第三方大语言模型向谷歌提出了哪些要求&lt;/a&gt;。我无法想象苹果会同意在iOS上采用这样的系统。我们不知道苹果TSA提案的细节，但如果它能实现欧盟委员会对Android上第三方AI提供商所要求的那些功能，比如不受限制的后台运行，我会相当震惊。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/08/17/no-update-since-early-july-regarding-siri-ai-coming-to-the-eu-ever" title="Permanent link to ‘No Update Since Early July Regarding Siri AI Coming to the EU, Ever’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 17 Aug 2026 21:43:50 +0000</pubDate></item><item><title>The Information 撰文介绍 Cami Clark——Dario Amodei 的妻子、Ivanka Trump 的朋友、曾经的色情行业向往者，以及 Anthropic 的“第一夫人”</title><link>https://www.theinformation.com/articles/anthropics-first-lady-took-winding-road-top?rc=jfy0lk</link><description>&lt;p&gt;Cory Weinberg、Jemima McEvoy、Jessica E. Lessin 和 Stephanie Palazzolo 在付费且无赠阅链接的 The Information 上撰文写道：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;当 Amodei 穿梭于全球各地，宣讲 AI 的潜力与风险——从新德里到达沃斯再到太阳谷——Clark 几乎始终伴随其侧。多位认识这对夫妇的人将 Clark 描述为 Amodei 的情感压舱石，在 Anthropic 成长过程中的风浪以及该公司与华盛顿围绕 AI 未来走向的冲突中，她始终是他寻求建议的对象。&lt;/p&gt;
-&lt;p&gt;Clark 很可能是 Anthropic 圈内最具影响力却又在这家初创公司没有正式职务的人。你甚至可以称她为 Anthropic 的第一夫人。[...]&lt;/p&gt;
-&lt;p&gt;而在 Female Algorithm Technologies 之前，Clark 曾尝试创办一家色情电影公司 Eddice，计划制作高制作水准、以女性为主角的影片。她还希望该公司具备在线购物功能。根据今年早些时候司法部公布的 Epstein 文件中的公开邮件，2011 年她曾试图向 Jeffrey Epstein 为 Eddice 筹集资金，而 Epstein 三年前已对教唆未成年人卖淫的指控认罪。她将希望制作的首部系列电影剧本（片名：《美国女孩在巴黎》）通过邮件发给了 Epstein。&lt;/p&gt;
-&lt;p&gt;“我们觉得您和女士们可能会喜欢，”Clark 写道。随后她附上了一个带有眨眼表情的警告：“有点 NSFW，”这是“not safe for work”（不适合工作场合观看）的缩写。Epstein 并未投资。&lt;/p&gt;
-&lt;p&gt;尽管大量关注聚焦于 AI 及其开发公司的幕后人物，Clark 在很大程度上一直未被外界注意。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;a href="https://daringfireball.net/linked/2026/08/16/the-information-cami-clark" title="Permanent link to ‘The Information Profiles Cami Clark — Dario Amodei’s Wife, Ivanka Trump’s Friend, One-Time Would-Be Pornographer, and Anthropic’s ‘First Lady’’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sun, 16 Aug 2026 19:30:00 +0000</pubDate></item></channel></rss>
+</description><pubDate>Mon, 17 Aug 2026 21:43:50 +0000</pubDate></item></channel></rss>
