@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 17 Aug 2026 04:07:37 +0000</lastBuildDate><item><title>全球规模最大的API中转站OpenRouter被支付公司Stripe以70亿美元的价格收购</title><link>https://www.landian.news/archives/126282.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 18 Aug 2026 00:30:01 +0000</lastBuildDate><item><title>Linux Kernel 7.2正式版发布 持续扩展硬件支持并改善内核基础设施</title><link>https://www.landian.news/archives/126283.html</link><description>
+&lt;p&gt;#系统资讯 Linux Kernel 7.2 正式版发布，继续扩展硬件支持并改善内核基础设施。需要说明的是，7.2 并非 LTS 长期支持版，普通用户是否升级新版本内核仍需结合使用的发行版和硬件环境来判断。稍后各 Linux 发行版应该都会陆续适配新内核，建议用户关注发行版的更新动态。查看全文：https://ourl.co/126283&lt;/p&gt;&lt;p&gt;经过多个候选版本的测试后现在 Linux Kernel 7.2 正式版已经发布，新版本改动主要集中在硬件驱动、文件系统、网络、虚拟化、架构支持和内核安全等方向。不过该版本并非 LTS 长期支持版，普通用户是否升级到新版本内核仍需结合使用的发行版和硬件环境来判断。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2023/08/99983.png" rel="nofollow"&gt;&lt;img alt="Linux Kernel 7.2正式版发布 持续扩展硬件支持并改善内核基础设施" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2023/08/99983.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Linux Kernel 7.2 包含大量驱动程序代码更新，覆盖显卡、网络控制器、存储设备、输入设备以及各类平台控制器。对于新发布的处理器、主板、无线网卡和固态硬盘等产品来说，新内核通常能够更早提供识别和基本支持，部分设备的功耗管理、休眠恢复以及热插拔能力也会得到改善。&lt;/p&gt;
+&lt;p&gt;显卡和显示相关代码同样继续演进，AMD、英特尔和其他硬件平台的开源驱动都获得不同程度的修正。需要注意的是，内核驱动得到支持并不代表所有发行版都能立即使用，发行版可能会继续采用经过测试的旧内核，或者将部分补丁移植到现有版本中。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Linux Kernel 7.2 对多种文件系统、块设备和存储路径进行改进，重点包括性能、并发访问、错误处理以及异常情况下的数据稳定性。面向服务器和工作站的文件系统功能仍然是开发重点，网络文件系统、闪存存储和虚拟块设备也获得相应更新。&lt;/p&gt;
+&lt;p&gt;这些变化对普通桌面用户未必会立即体现为明显的速度提升，但在大型数据库、虚拟机、容器和高并发文件服务中，内核对存储队列、缓存和错误恢复机制的优化，可能带来更稳定的运行表现。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;新版本也继续改进对 KVM 等虚拟化组件，更新对不同处理器架构的支持，相关改动有助于提升虚拟机的设备兼容性、性能和稳定性，也为云计算平台部署更新一代处理器提供基础。&lt;/p&gt;
+&lt;p&gt;安全方面，Linux Kernel 7.2 延续对内存保护、权限控制、BPF 以及内核自我防护机制的改进，此类更新通常不会增加明显的用户界面功能，但能够降低内核遭受攻击或因异常操作导致系统失效的风险。&lt;/p&gt;
+&lt;p&gt;使用滚动更新发行版的用户可能会较早获得该版本，Ubuntu、Debian、RHEL 等发行版通常会根据自身维护周期决定是否采用。服务器和生产环境不建议仅因版本号更新就立即切换，建议 IT 管理员先确认驱动、文件系统、虚拟化平台以及第三方模块的兼容性。&lt;/p&gt;
+&lt;p&gt;获取内核源代码：&lt;a href="https://www.landian.news/go?url=https://www.kernel.org/" rel="noopener" target="_blank"&gt;https://www.kernel.org/&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 18 Aug 2026 00:30:01 +0000</pubDate></item><item><title>全球规模最大的API中转站OpenRouter被支付公司Stripe以70亿美元的价格收购</title><link>https://www.landian.news/archives/126282.html</link><description>
 &lt;p&gt;#人工智能 支付平台 Stripe 以 70 亿美元的价格收购 API 中转站 OpenRouter，此时距离 OpenRouter 在 5 月份完成的 B 轮融资仅过去 3 个月，当时估值还是 13 亿美元。OpenRouter 的商业模式非常简单，为客户提供超过 400 个模型的调用，平台按照用户使用量向 AI 公司抽成 5%，现在 OpenRouter 每周处理超过 25 万亿 tokens。查看全文：https://ourl.co/126282&lt;/p&gt;&lt;p&gt;据彭博社发布的消息，全球知名的支付平台 Stripe 已经与 AI 初创公司 OpenRouter 达成最终协议，Stripe 以超过 70 亿美元的价格完全收购 OpenRouter，此交易距离 OpenRouter 在 2026 年 5 月完成 1.13 亿美元 B 轮融资仅过去 3 个月，彼时 OpenRouter 的估值为 13 亿美元。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126282.png" rel="nofollow"&gt;&lt;img alt="全球规模最大的API中转站OpenRouter被支付公司Stripe以70亿美元的价格收购" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126282.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -49,24 +64,4 @@ model_auto_compact_token_limit = 900000 #在 900K 时自动压缩留出余量&lt
 &lt;hr/&gt;
 &lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://www.reddit.com/r/pcmasterrace/comments/1vnf521/comment/p3ieg23/" rel="noopener" target="_blank"&gt;Reddit&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 17 Aug 2026 03:00:09 +0000</pubDate></item><item><title>[数字礼品] ChatGPT Codex推出礼品卡功能 20美元赠送500积分</title><link>https://www.landian.news/archives/126278.html</link><description>
-&lt;p&gt;#人工智能 OpenAI 推出 ChatGPT 数字礼品卡，20 美元向好友赠送 500 积分 / 信用额度。这个价格其实挺贵的，还不如 20 美元直接开 Plus 订阅。信用额度根据 API 价格进行映射，以 Sol 为例，百万输入 125 积分、百万缓存 12.5 积分、百万输出 750 积分。查看全文：https://ourl.co/126278&lt;/p&gt;&lt;p&gt;近期 ChatGPT 也推出数字礼品卡，不过这个数字礼品卡不是用来开通订阅的，而是直接向好友赠送 Codex 或 Work 积分 / 信用额度。该功能通过电子邮件发送，然而拿到链接的用户都可以领取额度，领取后额度有效期 365 天。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126278-1.png" rel="nofollow"&gt;&lt;img alt="[数字礼品] ChatGPT Codex推出礼品卡功能 20美元赠送500积分" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126278-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126278-2.png" rel="nofollow"&gt;&lt;img alt="[数字礼品] ChatGPT Codex推出礼品卡功能 20美元赠送500积分" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126278-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;10 美元：250 积分 / 信用额度&lt;/li&gt;
-&lt;li&gt;20 美元：500 积分 / 信用额度&lt;/li&gt;
-&lt;li&gt;40 美元：1,000 积分 / 信用额度&lt;/li&gt;
-&lt;li&gt;60 美元：1,500 积分 / 信用额度&lt;/li&gt;
-&lt;li&gt;100 美元：2,500 积分 / 信用额度&lt;/li&gt;
-&lt;li&gt;200 美元：5,000 积分 / 信用额度&lt;/li&gt;
-&lt;li&gt;250 美元：6,250 积分 / 信用额度&lt;/li&gt;
-&lt;li&gt;礼品卡地址：&lt;a href="https://www.landian.news/go?url=https://chatgpt.com/gifts/credits" rel="noopener" target="_blank"&gt;https://chatgpt.com/gifts/credits&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;目前 OpenAI 并未提供赠送订阅功能，这个价格用来开通订阅其实更划算，例如 20 美元就可以开通 1 个月 ChatGPT Plus 订阅，开通订阅后 Codex 使用量可以达到 150 美元以上。&lt;/p&gt;
-&lt;p&gt;不过信用额度不代表具体用量， 根据 OpenAI 的支持文档，信用额度基于 token 使用量映射，实际消耗的信用额度取决于每个任务中的输入、输出和缓存。&lt;/p&gt;
-&lt;p&gt;以 GPT-5.6 Sol 为例：百万输入 125 信用额度、百万缓存 12.5 信用额度、百万输出 750 信用额度，所以如果使用 Sol 那 20 美元 500 信用额度很容易被耗尽。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 17 Aug 2026 02:30:44 +0000</pubDate></item></channel></rss>
+</description><pubDate>Mon, 17 Aug 2026 03:00:09 +0000</pubDate></item></channel></rss>
