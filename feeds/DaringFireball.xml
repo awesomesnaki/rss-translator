@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 18 Aug 2026 00:55:13 +0000</lastBuildDate><item><title>★ 关于AI生成文本水印方案的后续思考</title><link>https://daringfireball.net/2026/08/follow-up_thoughts_on_watermarking</link><description>&lt;p&gt;对周末那篇重磅长文“&lt;a href="https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing"&gt;Anthropic 在 Claude 中的‘水印’文本篡改是对写作的亵渎&lt;/a&gt;”的一些后续跟进：&lt;/p&gt;
-&lt;h2&gt;温度（Temperature）&lt;/h2&gt;
-&lt;p&gt;与 Hacker News 等地的许多蠢货的看法相反，我理解流行的 LLM 在每个决策点并不会仅仅选择“最佳”词元（单词）。反直觉的是，总是选择最高概率的选项会产生不理想的结果。因此模型会应用一些随机化，“温度”就是所应用权重的术语，使得“更好”（模型排序更高）的选择有更高的概率被选中。&lt;/p&gt;
-&lt;p&gt;当温度为 1 时，模型使用其内置的概率分布。当温度大于 1 时，该分布变得更平坦——不太可能被选中的替代方案获得更高的被选概率，而更可能被选中的替代方案概率降低。当温度低于 1 时，概率分布更倾向于排名更高的选项。当温度为 0 时，总是选择排名最高的选项。温度为 0 通常会产生不理想的结果——过于可预测，更容易陷入僵局。就像对相机传感器的图像进行过度平滑处理，消除所有噪点会使整体结果更差，即使每一个单独的“噪点位”在孤立评估时在某种意义上都是错误的。&lt;/p&gt;
-&lt;p&gt;基于温度的随机性——这正是使 LLM 输出非确定性的原因——是为了帮助使输出变得&lt;em&gt;更好&lt;/em&gt;。温度为 1（带加权随机性）时的文字质量明显优于温度为 0（无随机性）时的结果。另一方面，水印方案是在应用带有密钥的可预测随机性，其目的与提高输出质量完全不同，因此，我认为，它们从本质上会使输出至少略微变差。&lt;/p&gt;
-&lt;p&gt;LLM 文本水印方案的倡导者认为，这些方案不一定降低生成文字的质量，因为它们不改变温度——它们只改变随机性的来源。&lt;a href="https://bitsplitting.org/2026/08/17/ai-cant-adulterate-its-own-writing/"&gt;Daniel Jalkut 今天写了一篇关于这个问题的好文章&lt;/a&gt;。我希望这是真的。我相信这有可能是真的。但我认为这极不可能是真的。如果这&lt;em&gt;确实&lt;/em&gt;是真的，我想他们会展示证明这一点的例子。此外，&lt;a href="https://www.anthropic.com/news/claude-text-watermark"&gt;Anthropic 自己承认，它无法对编程语言代码进行适当的水印处理&lt;/a&gt;：&lt;/p&gt;&lt;blockquote&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 18 Aug 2026 03:37:14 +0000</lastBuildDate><item><title>macOS 26.7 Tahoe候选版包含一段视频，展示了配备摄像头的AirPods的实际运行。</title><link>https://www.macrumors.com/2026/08/17/camera-equipped-airpods-macos-26-7/</link><description>&lt;p&gt;哎呀。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/08/17/macos-267-tahoe-camera-airpods" title="永久链接至‘macOS 26.7 Tahoe候选版本包含展示配备摄像头的AirPods实际操作的视频’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Tue, 18 Aug 2026 03:37:14 +0000</pubDate></item><item><title>★ 关于AI生成文本水印方案的后续思考</title><link>https://daringfireball.net/2026/08/follow-up_thoughts_on_watermarking</link><description>&lt;p&gt;关于周末那篇长篇大论“&lt;a href="https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing"&gt;Anthropic 在 Claude 中的‘水印’文本篡改是对写作的一种扭曲&lt;/a&gt;”，这里有一些后续补充：&lt;/p&gt;
+&lt;h2&gt;温度&lt;/h2&gt;
+&lt;p&gt;与&lt;a href="https://news.ycombinator.com/item?id=49324087"&gt;Hacker News&lt;/a&gt;和其他地方的一帮蠢货相反，我理解流行的 LLM 并不是在每个决策点只挑选“最佳”的词元（单词）。与直觉相反，总是选择最高概率的选项会产生不尽人意的结果。因此，模型会应用一些随机化，而“温度”就是用于加权的术语，使得“更好”（模型排名更高）的选择有更高的机会被选中。&lt;/p&gt;
+&lt;p&gt;当温度为 1 时，模型使用其内置的概率分布。当温度大于 1 时，这个分布会变得扁平——可能性较小的备选项被选中的概率增加，而可能性较大的备选项概率降低。当温度低于 1 时，概率分布更倾向于排名较高的选项。而当温度为 0 时，总是选择排名最高的选项。温度为 0 通常会产生不尽人意的结果——过于可预测，容易陷入僵局。就像对相机传感器的图像进行过度平滑处理，消除所有噪声会让整体结果更差，即使每一小片“噪声”孤立地评估时在某种意义上都是错误的。&lt;/p&gt;
+&lt;p&gt;基于温度的随机性——正是它使 LLM 的输出不确定——是为了帮助产出&lt;em&gt;更好&lt;/em&gt;的结果。温度为 1（带有加权随机性）时的散文质量显然优于温度为 0（没有随机性）时。而水印方案则是在应用带有密钥可预测的随机性，其目的与提高输出质量完全不同，因此，我认为，它本质上至少会让输出稍微变差。&lt;/p&gt;
+&lt;p&gt;支持对文本使用 LLM 水印方案的人认为，这些方案不一定降低生成散文的质量，因为它们不改变温度——只改变随机性的来源。&lt;a href="https://bitsplitting.org/2026/08/17/ai-cant-adulterate-its-own-writing/"&gt;Daniel Jalkut 今天写了一篇关于这个问题的好文章&lt;/a&gt;。我希望这是真的。我相信这有可能是真的。我认为它极不可能是真的。我看不出如何在词汇选择中加入可检测的信号&lt;a href="https://social.coop/@gregtitus/117111452635879834"&gt;而不影响散文的含义&lt;/a&gt;。如果它&lt;em&gt;确实&lt;/em&gt;是真的，我想他们会展示一些例子来证明这一点。此外，&lt;a href="https://www.anthropic.com/news/claude-text-watermark"&gt;Anthropic 自己也承认无法对编程语言代码进行恰当的水印处理&lt;/a&gt;：&lt;/p&gt;&lt;blockquote&gt;
 &lt;p&gt;出于同样的原因，代码——在很多情况下必须精确无误——通常比其他形式的文本更难打水印。&lt;/p&gt;
 &lt;p&gt;话虽如此，在代码中某些可以随意选择特定词语或术语的地方，水印可以派上用场，比如代码中的注释。但顾名思义，水印对实际生成的代码产生的影响微乎其微。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -84,158 +86,4 @@
 &lt;p&gt;尽管大量关注聚焦于 AI 及其开发公司的幕后人物，Clark 在很大程度上一直未被外界注意。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;a href="https://daringfireball.net/linked/2026/08/16/the-information-cami-clark" title="Permanent link to ‘The Information Profiles Cami Clark — Dario Amodei’s Wife, Ivanka Trump’s Friend, One-Time Would-Be Pornographer, and Anthropic’s ‘First Lady’’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sun, 16 Aug 2026 19:30:00 +0000</pubDate></item><item><title>★ Anthropic在Claude中的‘水印’文本掺假是对写作的亵渎</title><link>https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing</link><description>&lt;p&gt;本周我&lt;a href="https://daringfireball.net/linked/2026/08/11/anthropic-claude-watermarks"&gt;撰文讨论&lt;/a&gt;了Anthropic的公告——全球所有Claude模型即将开始对其生成的包括文本在内的一切内容进行“水印”标记，以遵守&lt;a href="https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content"&gt;这项欧盟法规&lt;/a&gt;。当时我们只能猜测这&lt;em&gt;究竟&lt;/em&gt;会如何运作，因为Anthropic对其运作方式连一个模糊的描述都没有提供——尽管该公告的标题荒谬且带有侮辱性地写着“&lt;a href="https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content"&gt;Claude如何标记AI生成内容&lt;/a&gt;”。&lt;/p&gt;
-&lt;p&gt;我最初的猜测是，也许他们会在文本中隐藏不可见的非打印Unicode字符。纯属随口猜测。事实证明这并非他们的计划。他们实际要做的是应用一种隐写术——在推理时对词汇（或其他令牌输出）的选择会留下指纹，日后或许可以通过概率方式检测出来。&lt;/p&gt;
-&lt;p&gt;我最初猜的是“不可见字符”，不是因为我想不到语义词汇选择这一技术，而是因为我是个傻瓜，竟把Anthropic对其方案的那番描述当真了。他们最初的支持文档声称：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;当受支持的Claude模型生成文本时，它会将一种
-不可感知的水印直接编织到文本本身之中。你不会
-看到它，它也不会改变Claude回复的含义、质量或可读性。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;他们说“不可感知”，说“不会改变含义、质量或可读性”。这是他们的原话。不是&lt;em&gt;几乎&lt;/em&gt;不可感知。不是&lt;em&gt;略微&lt;/em&gt;改变含义、质量或可读性。这对我来说说得通，因为这正是我对我个人使用的任何工具的要求——不，是&lt;em&gt;诉求&lt;/em&gt;。一个工具若为了在文本中嵌入隐藏线索以暗示其出处，而牺牲哪怕一丝一毫的清晰度、连贯性、含义、质量等，那都是不可接受的。这是我曾经也会继续坚持的要求。而Anthropic（最初的）支持文档毫不含糊地声称他们的系统就能做到这一点。所以如果那是真的，我想不出除了在文本中隐藏不可见字符之外还能有什么别的办法。&lt;/p&gt;
-&lt;p&gt;我的错误在于相信了Anthropic所说的他们的系统不会掺杂和破坏其模型生成文本的语义。而&lt;em&gt;那&lt;/em&gt;恰恰正是他们计划要做的事。我竟会相信一篇题为“Claude如何标记AI生成内容”却完全未解释Claude如何（或将如何）标记AI生成内容的文档中的任何一个字，我真该去检查一下脑子。&lt;/p&gt;
-&lt;h2&gt;实际上&lt;em&gt;将&lt;/em&gt;如何运作&lt;/h2&gt;&lt;p&gt;昨天，在一个完全不同于&lt;a href="https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content"&gt;原始&lt;/a&gt;“Claude如何标记AI生成内容”文章（那篇完全没解释其工作原理的文章）的网站上，Anthropic发布了“&lt;a href="https://www.anthropic.com/news/claude-text-watermark"&gt;Claude的文本水印如何运作&lt;/a&gt;”，这篇文章确实以通俗易懂的语言解释了它将如何运作。我稍后会回到Anthropic这个高度委婉且略带误导性的新描述。&lt;/p&gt;
-&lt;p&gt;关于这个主题有一大堆研究，其中一些我也在下面附上了链接。但对该技术背后总体思想的最佳描述是James Padolsey的一篇交互式文章，“&lt;a href="https://declaude.org/watermarking/"&gt;AI文本水印如何运作”&lt;/a&gt;。这是一篇非常清晰易懂的读物，交互元素精彩地阐释了主要概念。一流的工作。如果你对此有任何兴趣，我敢说你一定要读——并且动手玩一玩——Padolsey的作品。&lt;/p&gt;
-&lt;p&gt;但以下是我以一个外行人的视角给出的高层面总结。如果你掷一枚硬币&lt;em&gt;N&lt;/em&gt;次并记录结果，你可以在一定程度上确定这枚硬币是公平的还是偏斜的。LLM在其流行的形态中是非确定性的。向同一个模型问同样的问题，你通常会得到至少略有不同的答案。也许意思相同，但措辞不同。在生成下一个令牌的每个决策点，模型都会做出一个选择。借助这些语义水印技术，模型会根据可以称为“绿名单”和“红名单”的词表对某些令牌做出不同的选择。在每个决策点，它们选择绿名单词汇的可能性会比红名单词汇略高。这并不意味着它们从不选择红名单上的词。只是与没有加入这种掺杂标记技术时相比，它们选择红词的可能性更低了。（就像一枚偏向51-49的硬币，平均每100次仍有49次会翻到“错误”的一面。）&lt;/p&gt;
-&lt;p&gt;词汇或短语会在每个“下一个令牌”生成点被确定性地、即时地分入绿名单和红名单。因此，有时一个特定的词会在绿名单上，而其他时候又会在红名单上。拥有密钥的人可以确定在每个令牌生成点上哪个词会出现在哪个名单上（这正是水印被检测出来的方式）；没有密钥的人则无法做到。这意味着永远不会存在一份Claude偏好或回避的词汇清单。&lt;/p&gt;&lt;p&gt;如同抛硬币一样，&lt;em&gt;N&lt;/em&gt; 越大——即抛掷次数越多——你就越能确信硬币是均匀的还是偏倚的。语义水印也是如此。文本中的单词越多，判断该文本是否由特定AI模型生成的分析就会越准确。抛硬币次数太少，你根本无法对硬币的均匀性建立任何信心。单词（或词元）太少，也就无法对某段文本是否由AI生成建立任何信心。&lt;/p&gt;
-&lt;p&gt;对于一段需要检测特定水印系统痕迹的文本，如果标记为绿色的单词数量超出预期、标记为红色的单词数量少于预期，那么就可以以一定的置信度将该文本标记为——由应用特定密钥水印系统的AI系统生成，或仅被其修改。这种判断的置信度显然会因文本长度以及绿名单和红名单中单词的随机权重而有显著差异。但只有Anthropic能够判断文本是否看似由Claude生成，而且Anthropic也只能检测出Claude所应用的水印。Claude无法检测出例如Gemini生成的隐藏水印信号，Gemini也无法检测出Claude创建的隐藏水印信号，因为每种实现都依赖于仅由大语言模型提供商持有的密钥。&lt;/p&gt;
-&lt;h2&gt;对技术前提的异议&lt;/h2&gt;
-&lt;p&gt;我对此的一个根本性问题是，没有任何两个同义词带有&lt;em&gt;完全&lt;/em&gt;相同的含义。"&lt;em&gt;He leaped at the chance&lt;/em&gt;"（他抓住机会）和"&lt;em&gt;He jumped at the opportunity&lt;/em&gt;"（他抓住机遇）是表达相同总体情感但非常相似的句子，但它们&lt;em&gt;并不&lt;/em&gt;相同。我们写作时选择的每一个词都很重要。我希望我所使用的任何大语言模型在每个决策点都选择最优、最精准的词汇。我接受的一个明显约束是时间和计算成本。在快速执行推理并以一定的每词元成本为前提下，我想要最好的词汇。这个约束与人类写作相符。我当然可以花更长时间写出一篇更好的专栏。我写作时会考虑到每一个用词和标点选择应投入多少心思。当直觉告诉我应该在某些段落、句子甚至个别词语上多花时间时，我就会这样做。&lt;/p&gt;
-&lt;p&gt;换句话说，这些是&lt;em&gt;必要&lt;/em&gt;的取舍。这些因素都符合&lt;em&gt;我的&lt;/em&gt;利益：速度、成本、质量。理想情况下，我希望拥有完美的文字、瞬间的生成速度和零成本。但这些都不可能实现。计算并非免费（使用领先模型的云上大语言模型推理实际上相当昂贵）。推理也不是瞬时的。而伟大的写作，无论是自然的还是人工的，只能&lt;em&gt;接近&lt;/em&gt;完美。&lt;/p&gt;&lt;p&gt;除了&lt;em&gt;我&lt;/em&gt;的需求之外，任何其他因素都不应影响&lt;em&gt;为我&lt;/em&gt;生成的文本，这个想法真是令人气愤。&lt;/p&gt;
-&lt;p&gt;这不仅仅关乎某人可能生成文本并意图冒充自己原创作品的情况。甚至也无关用LLM校对手写作品。Anthropic的意思是，&lt;em&gt;所有&lt;/em&gt;新的Claude模型将在它们生成的每段超过200个词元（约150个词）的文本中掺入杂质，包括它呈现给用户阅读的一切内容。因此，即使在用户与Claude之间的私人对话中（除了用户自己，永远不会被其他人读到），Claude也会开始以可统计预测的方式标记其输出为由进行选词，而不是为了最大程度地清晰和精确。&lt;/p&gt;
-&lt;p&gt;即便是今天的所谓前沿模型，也已然&lt;a href="https://daringfireball.net/linked/2026/08/11/economist-ai-writing"&gt;缺乏清晰度&lt;/a&gt;。Claude、ChatGPT、Grok等是比大多数人类“更好的写作者”，产出的文章比一般人类写得更好。但：废话。大多数人写作水平很差。“普通人”相当愚蠢，而&lt;a href="https://www.youtube.com/watch?v=WDUIX2-akuQ"&gt;一半的人比那更蠢&lt;/a&gt;。而且有许多聪明、有趣的人写作却糟糕透顶。所以，尽管LLM令人印象深刻，但门槛很低。我从这些模型中看到的最佳写作，比任何我自愿阅读以供消遣的东西都要差。现在Anthropic还说他们要故意让它变得更糟，为了对我没有任何益处的目的？即便只是稍微糟糕一点？&lt;/p&gt;
-&lt;p&gt;滚你妈的。&lt;/p&gt;
-&lt;h2&gt;对欧盟法规的反对&lt;/h2&gt;
-&lt;p&gt;说到反对，促使这一切的欧盟相关法规——“&lt;a href="https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content"&gt;关于AI生成内容透明度的行为准则&lt;/a&gt;”——是繁文缛节、保姆国家式的白日梦废话。以下是Ben Thompson在&lt;a href="https://stratechery.com/2026/anthropics-watermarking-how-it-probably-works-worse-than-it-seems/"&gt;本周Stratechery付费更新&lt;/a&gt;中的总结：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;该法规适用于超过200个词元的文本。&lt;/li&gt;
-&lt;li&gt;提供商必须在其服务条款中强制规定用户不得移除水印。&lt;/li&gt;
-&lt;li&gt;解决方案应能稳健地规避“典型处理方案”，如截图、扫描和OCR、复制粘贴、翻译等。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;按字面解释，合规的LLM服务条款必须禁止用户改写符从此法规的模型输出，因为选词本身就是标记。但并非欧盟试图将其荒谬、不切实际、助长猎巫的法规强加给整个世界。那是Anthropic干的。&lt;/p&gt;&lt;p&gt;遵守这一规定，尤其是在&lt;em&gt;文本&lt;/em&gt;方面，只会给诚实用户制造麻烦。那些试图将AI生成的文本冒充为自己作品的不诚实用户（学生、员工，无论什么人），只需使用不合规的AI改写工具，就能轻松规避检测。&lt;/p&gt;
-&lt;p&gt;詹姆斯·帕多尔西（James Padolsey）——我在上面链接过他对这些方案运作机制的交互式可视化解释——在一篇题为“&lt;a href="https://blog.j11y.io/2026-08-12_Anthropics-weak-watermarks-appease-a-weak-law/"&gt;Anthropic的弱水印迎合了一部弱法律&lt;/a&gt;”的文章中对此进行了阐释（如果你觉得这个标题耳熟，我今天早些时候在&lt;a href="https://daringfireball.net/linked/2026/08/16/padolsey-anthropic-eu-weak-law"&gt;一篇单独的文章&lt;/a&gt;中链接过它）：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;催生这部法律的同一种思路，如果用在计算器刚问世的时候，只要它们的输出会通过某种痕迹暴露自己，也完全可以套用到计算器上。所幸，大脑算出的和与计算器算出的和，得到了同等对待。拼写检查工具也是如此。仅仅因为工具的能力强大到足以写出完整句子，就开始怀疑这种辅助，这并不是一个有原则的界限。这是一种把难度本身当作道德溢价的做法。&lt;/p&gt;
-&lt;p&gt;然而，Anthropic选择了一种一刀切式的模型级实施方案，其范围似乎超出了法律的最低要求。这或许是便捷的合规工程，但它抛弃了法律明确试图保留的那些区分。其结果是，这个信号的覆盖面广到足以波及无害的、辅助性的使用场景，却又脆弱到可以被一个有意为之的人通过大幅重写轻易去除。它有可能把怀疑集中在普通用户和辅助性用户身上，而面对蓄意欺骗时却依然是最薄弱的。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;帕多尔西是&lt;a href="https://declaude.org/"&gt;DeClaude&lt;/a&gt;的创建者，这是一个极其简洁的网页应用，让你可以“粘贴带有AI味道的文本，得到同样内容但更朴素自然的散文版本”。DeClaude最初的用途是去除文本中那股甜腻的Claude人格气息（无论文本是由Claude还是其他大语言模型生成的），但如果Anthropic坚持其已宣布的、开始在Claude生成的所有文本中掺入水印的计划，DeClaude也将成为一个只需复制粘贴、多一步操作就能消除这些标记的方法。DeClaude本身就已经很有趣、很有用了，但它恰恰说明了这项欧盟法规在处理散文文本时是多么欠考虑、多么徒劳无功。&lt;/p&gt;
-&lt;h2&gt;Google SynthID&lt;/h2&gt;&lt;p&gt;Google已经部署了一个名为SynthID的水印系统，将其应用于AI生成的图像、视频、音频和文本。在这篇文章中，我只关心文本。对于多媒体，嵌入的水印可以是&lt;em&gt;文件&lt;/em&gt;中的元数据，而且确实不影响观看或聆听时的体验质量。而对于文本，我们谈论的是实际选择的词语。摘自&lt;a href="https://deepmind.google/models/synthid/"&gt;Google DeepMind对SynthID的官方描述&lt;/a&gt;中的“AI生成文本”部分：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我们已将SynthID扩展到对Gemini应用和网页体验生成的文本进行水印标记和识别。大语言模型一次生成一个词（token）。每个词都会根据其接下来被生成的可能性被分配一个概率分数。所以对于像“我最喜欢的热带水果是芒果和……”这样的句子，“香蕉”这个词会比“飞机”这个词有更高的概率分数。SynthID调整这些概率分数以生成水印。人眼察觉不到，也不影响输出质量。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;在一个群聊中，我的一位朋友引用了上述内容，我回复说，如果聊天机器人写出“我最喜欢的热带水果是芒果和飞机”，我相当确定我会他妈的注意到。然后另一位朋友回复了这张图：&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://daringfireball.net/misc/2026/08/tropical-fruit-airplane.jpeg"&gt;
-&lt;img alt="AI-generated image of an airplane carved out of a pineapple or something, on a tropical beach." referrerpolicy="no-referrer" src="https://daringfireball.net/misc/2026/08/tropical-fruit-airplane.jpeg" width="500"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;几天后，我仍然觉得这很搞笑。&lt;/p&gt;
-&lt;p&gt;但Google这个荒谬的描述恰恰揭穿了他们自己声称的“不可察觉”这一谎言，并且它恰恰表明，这些生成文本指纹识别方案背后的人对真正的写作技艺有多么漠不关心。当然，&lt;em&gt;香蕉&lt;/em&gt;比&lt;em&gt;飞机&lt;/em&gt;有更高的概率分数，因为飞机不是水果。但&lt;em&gt;菠萝&lt;/em&gt;呢？这个句子应该补全为“芒果和香蕉”还是“芒果和菠萝”？这是一个好问题，而关于LLM为什么应该选择&lt;em&gt;香蕉&lt;/em&gt;而不是&lt;em&gt;菠萝&lt;/em&gt;（或&lt;em&gt;椰子&lt;/em&gt;、&lt;em&gt;番石榴&lt;/em&gt;、&lt;em&gt;木瓜&lt;/em&gt;……）唯一可接受的答案是，它已经确定这是最符合文本预期含义、语气和情感的选择。而不是因为&lt;em&gt;香蕉&lt;/em&gt;在水印的“绿色”名单上，而&lt;em&gt;菠萝&lt;/em&gt;在“红色”名单上，即使&lt;em&gt;菠萝&lt;/em&gt;可能是更好的选择。Google自己那条本应诙谐的关于SynthID工作原理的描述，实际上恰恰揭示了这种方案是如何扭曲它所生成的文本的。&lt;/p&gt;&lt;p&gt;他们说你不会注意到这一点，因为如果它只是为了这些指纹识别目的而选择&lt;em&gt;香蕉&lt;/em&gt;而不是&lt;em&gt;菠萝&lt;/em&gt;，好吧，它们都是热带水果，谁在乎呢。但说这种差异“人眼察觉不到”完全是胡说八道。&lt;em&gt;香蕉&lt;/em&gt;和&lt;em&gt;菠萝&lt;/em&gt;之间的语义差异，在人眼看来，就像这两种水果的味道在人类味蕾上的区别一样明显。&lt;/p&gt;
-&lt;p&gt;如果它真的生成了“我最喜欢的热带水果是芒果和飞机”，那确实蠢得离谱，但这并不&lt;em&gt;冒犯&lt;/em&gt;，因为我们都明白是某个完全不搭调的事情发生了。冒犯之处在于，有了 SynthId 这样的系统，指纹识别决策由一个秘密密钥驱动，我们完全不知道它生成“芒果和香蕉”是因为&lt;em&gt;香蕉&lt;/em&gt;被判定为最好的下一个词元，还是因为&lt;em&gt;香蕉&lt;/em&gt;属于“绿色”词桶。这让每一个词的选择都变得可疑。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.nature.com/articles/s41586-024-08025-4"&gt;这里有一篇发表在《自然》杂志上的论文&lt;/a&gt;，谷歌的 SynthID 团队在将其部署到 Gemini（原 Bard）的生产环境后发表了他们的工作成果：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我们分析了大约两千万条带水印和不带水印的
-回复，并计算了点赞率和点踩率（两者
-均按收到的总点赞数和点踩数的比例计算）。
-我们发现，两个模型的点赞率相差 0.01%（带水印的
-模型更高）；点踩率相差 0.02%（带水印的
-模型更低）。我们发现这两个差异
-在统计上均不显著，且完全在 95% 的
-置信区间内。&lt;/p&gt;
-&lt;p&gt;通过这个实验，我们得出结论：在各种真实的
-聊天机器人互动场景中，由人类评判的回复质量和
-实用性的差异可以忽略不计。随后，
-非失真的 SynthID-Text 已投入生产，并
-目前正在为 Gemini 和 Gemini Advanced 中的回复添加水印。据
-我们所知，这项评估代表了在
-大规模生产系统中首次进行的此类系统性水印研究。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;对此，我要说的是：&lt;/p&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Gemini/Bard的点赞/点踩按钮并不是评估质量影响的良好实验。如果一个聊天机器人告诉我“我最喜欢的热带水果是芒果和香蕉”，而不是“芒果和菠萝”，我不会因为它选择的水果而给这个回答点踩。如果它说的是“飞机”，我会点踩，但那是稻草人论证。（《自然》杂志的论文甚至用“我最喜欢的热带水果是……”作为示例，但在论文中，仅考虑的四个下一个词元按概率分布依次是芒果、荔枝、木瓜和榴莲。没有飞机。而且，巧合的是，在论文的示例中，水印“锦标赛”的“赢家”恰好是芒果，也就是在没有水印的情况下会被选为最佳的那个。）&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;“由人类判断的，响应质量和实用性上的‘差异’是‘可忽略不计的’”，这并不意味着&lt;em&gt;不可察觉&lt;/em&gt;。他们真正的意思是，只是稍微差一点，而且所有人要么太笨而注意不到，要么太冷漠而不在乎。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;普遍认为Gemini在质量上落后于ChatGPT和Claude。也许他们已经将SynthID-text投入生产这一事实是诸多原因之一。我个人同意Gemini的散文质量较差。也许SynthID的使用与我以及公众共识认为Gemini是二流聊天机器人这一事实无关——但在那种情况下，也许正是Gemini是二流聊天机器人这一事实，使得当谷歌开始在其结果中混入由SynthID驱动的词元时，差异变得“可忽略不计”。如果你的餐厅原本的咖啡就是二流的，那么顾客更不可能注意到你把普通咖啡换成了&lt;a href="https://www.youtube.com/watch?v=3CoLiyUZXW4"&gt;Folgers速溶咖啡&lt;/a&gt;。&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Anthropic&lt;/h2&gt;
-&lt;p&gt;现在，最后，回到Anthropic昨天发布的新文章“&lt;a href="https://www.anthropic.com/news/claude-text-watermark"&gt;Claude文本水印的工作原理&lt;/a&gt;”。我有一些评论。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;总结一下：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;我们使用的水印方法不会对Claude输出的质量或内容产生任何实际影响；&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;水印文本和未水印文本之间的差异对读者来说是无法区分的；&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;翻译：&lt;em&gt;具体的词语无关紧要，我们认为没有人会仔细阅读任何内容。&lt;/em&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;文本中不会添加任何内容，也不存在隐藏字符；&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这一点在一开始就应该澄清。&lt;/p&gt;&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;水印并非Claude独有。自8月2日起，欧盟要求服务其市场的AI提供商标记AI生成的内容。其他主要模型开发商也签署了同一份《行为准则》，并将实施各自的水印。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;除欧盟外，没有任何其他AI提供商表示将应用这种标记，对所有生成的文本进行掺假。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;以“今天的天气寒冷且……”这句话为例。下一个词不太可能是“甜的”。但很有可能的是“阴天”或“灰色”。在大多数情况下，模型最终选择这两个词中的哪一个对读者来说并不太重要——句子的含义无论哪种方式都大致相同。在这种情况下，这个选择是由一个随机数决定的。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;认为&lt;em&gt;灰色&lt;/em&gt;与&lt;em&gt;阴天&lt;/em&gt;“对读者无关紧要”这一说法，正是我论点的关键所在：这整个努力是对写作或阅读意义的一种反常的掺假。它在某些方面很微妙，这使它&lt;em&gt;更加&lt;/em&gt;反常，因为它是偷偷摸摸的。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;在内部测试中，我们未发现水印对Claude文本的内容、创意水平或可读性有任何影响。在介绍我们所使用技术的&lt;a href="https://www.nature.com/articles/s41586-024-08025-4"&gt;SynthID-Text论文&lt;/a&gt;中，Google DeepMind通过将使用水印的模型服务于部分Gemini流量，并比较点赞和点踩评级来测试这一影响。他们发现与无水印模型相比没有统计学上的显著差异。在一项受控研究中，人类评分者并排比较水印和无水印答案时，也未发现质量差异。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;上文已阐述我的观点：这些点赞/点踩数据在评估SynthID式词偏置水印是否使文本变差方面毫无价值。从定义上说，它&lt;em&gt;必然&lt;/em&gt;会使文本变差，除非底层LLM模型的评分是错误的，因为水印算法的本质要求它有时要增加选择&lt;em&gt;更差&lt;/em&gt;词的概率，并降低选择模型&lt;em&gt;最佳&lt;/em&gt;选择的概率。问题只在于差多少。谷歌的点赞/点踩数据所显示的仅仅是，它并没有差到让Gemini用户点击点踩按钮的程度。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;水印不会改变读者阅读时的含义或体验，但如果你事后想要检查文本是否可能由Claude生成，水印可以让你做到这一点。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;不，它不能。因为整个方案与仅由AI提供商持有的密钥绑定，它只允许Anthropic（而不是“你”）检查任何东西。&lt;/p&gt;&lt;blockquote&gt;
-&lt;p&gt;当Claude校对人类撰写的文本时，它返回的内容通常只经过轻度编辑；因为几乎所有文字都出自本人之手，水印几乎没有（如果有的话）可以附着的地方。根据文本长度以及Claude编辑的力度，这些改动可能不足以使Claude的参与被检测出来。Claude写得越多，它需要做的决策就越多，水印可施展的空间也就越大。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;翻译：&lt;em&gt;没有人能再使用Claude来校对自己的文稿，除非他们愿意冒险让整篇内容被标记为Claude生成。&lt;/em&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;例如，一旦模型写出了“2 + 2 =”，下一个标记就有一个非常明确的最佳选择（如果模型是在完成加法运算，就没有任何答案能与“4”同样好；如果它是在谈论乔治·奥威尔的《一九八四》，就没有任何答案能与“5”同样好）。水印的“微推”不会用在这里。出于同样的原因，代码——在绝大多数情况下必须精确无误——相比某些其他形式的文本，其水印标记通常较少。&lt;/p&gt;
-&lt;p&gt;话虽如此，在代码中对特定词语或术语确实存在任意选择的领域，水印仍然可以使用，例如代码中的注释。但顾名思义，它对实际生成的代码产生的影响将微乎其微。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;翻译：&lt;em&gt;我们重视编程代码的精确性；对散文却不以为然。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;而在为一种以“具体词汇无关紧要”为前提的文本篡改方案辩护时，引用乔治·奥威尔的《一九八四》并加以赞许，这实在荒谬至极。我的意思是，这到底他妈的怎么回事？奥威尔！&lt;/p&gt;
-&lt;p&gt;最后，关于他们为什么这么做：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我们正在实施水印技术，以遵守《欧盟人工智能法案》。Anthropic与其他几家主要AI模型提供商以及约&lt;a href="https://www.anthropic.com/news/claude-text-watermark"&gt;190家签署方&lt;/a&gt;一起，于2026年7月签署了《欧盟人工智能生成内容透明度行为准则》。这要求AI系统提供商使用“标记”AI生成文本的方法。我们将在发布时在全球范围内应用水印，因为目前我们还没有一种持久可靠的方法来按地区界定适用范围。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;说这话的这家公司，&lt;a href="https://www.ft.com/content/840ac156-af1c-4a82-b260-ae791072fcfa?syn-25a6b1a6=1"&gt;《金融时报》刚刚报道&lt;/a&gt;其距离IPO仅剩数周，目标估值达2万亿美元，这将使其跻身全球市值最高的10家公司之列——&lt;a href="https://companiesmarketcap.com/time-machine/2026-08-14/"&gt;截至今天&lt;/a&gt;，它将排在第7位，介于台积电（2.2万亿美元）和博通（1.9万亿美元）之间。&lt;/p&gt;
-&lt;p&gt;这让我们不得不相信，以下情况中必有一个是真实的：&lt;/p&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;一家估值与亚马逊和台积电相当的技术公司，在技术上却无法仅在欧盟境内遵守一项欧盟区域性法律，这是完全合理的。&lt;sup id="fnr1-2026-08-16"&gt;&lt;a href="https://daringfireball.net/#fn1-2026-08-16"&gt;1&lt;/a&gt;&lt;/sup&gt; 完全不值得担心。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Anthropic 已经力不从心，对其自身技术栈的控制力惊人地薄弱，而他们即将进行的 IPO 很可能只会被铭记为狂热的全球 AI 泡沫中的新高峰。&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;另外，如果另一个主要的全球市场让 AI 秘密给生成的文本加水印这件事变得&lt;em&gt;非法&lt;/em&gt;，又会怎样呢？&lt;/p&gt;
-&lt;h2&gt;OpenAI&lt;/h2&gt;
-&lt;p&gt;来自一份 OpenAI 支持文档，标题为“&lt;a href="https://help.openai.com/en/articles/8912793-provenance-signals-content-credentials-synthid-in-openai-generated-content"&gt;OpenAI 生成内容中的来源信号（内容凭证、SynthID）&lt;/a&gt;”：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;根据我们在欧洲委员会关于 AI 生成内容透明度的《行为准则》下作出的&lt;a href="https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem/"&gt;承诺&lt;/a&gt;，我们的目标是将来源信号扩展到包括文本在内的所有模态，以便客户和开发者随着标准和工具的不断成熟，有清晰的方式履行自身的透明度义务。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这句简短的声明有很大的回旋余地，它同样可能意味着 OpenAI 模型只会在用户或开发者要求时，才用指纹标记掺入文本，或者这种要求只会对欧盟用户强制实施。如果我在 OpenAI，我会毫不含糊地公开表示，ChatGPT 永远不会给其生成的文本加水印，&lt;em&gt;除非你要求它这么做&lt;/em&gt;；而如果你想要的是那些背着你偷偷运作、不告诉你其工作原理、用你看不见的方式为你的文字做标记的工具，那就尽管用 Claude 吧。&lt;/p&gt;
-&lt;h2&gt;进一步阅读&lt;/h2&gt;
-&lt;p&gt;ArXiv 上的三篇论文：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;“&lt;a href="https://arxiv.org/abs/2301.10226"&gt;大语言模型的水印&lt;/a&gt;”，最后修订于2024年5月。&lt;/li&gt;
-&lt;li&gt;“&lt;a href="https://arxiv.org/abs/2311.04378"&gt;沙中水印：生成模型强水印的不可实现性&lt;/a&gt;”，最后修订于2025年5月。&lt;/li&gt;
-&lt;li&gt;“&lt;a href="https://arxiv.org/abs/2606.31602"&gt;基于双语义嵌入的大语言模型鲁棒文本水印&lt;/a&gt;”，最后修订于2026年6月。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;我承认，尽管我个人对使用那些试图在其生成或接触的文本中留下此类水印的工具这一想法深感反感，但其背后的数学原理却令人着迷。&lt;/p&gt;
-&lt;p&gt;Michael Lopp 在 Rands in Repose 上发表的文章“&lt;a href="https://randsinrepose.com/archives/rip-claude/"&gt;安息吧，Claude&lt;/a&gt;”：&lt;/p&gt;&lt;blockquote&gt;
-&lt;p&gt;作为一个过去不得不与欧盟法规周旋的人，我非常清楚这个繁琐的官僚程序牵涉到什么。我能猜到Anthropic正面临什么样的威胁。然而，这是他们在水印策略上发出的一个不合时宜、笨拙且令人警觉的开场炮。[...]&lt;/p&gt;
-&lt;p&gt;我的文字就是我的工作，而Anthropic当前的策略对写作者抱有强烈敌意。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Jeff Gamet，“&lt;a href="https://jeffgamet.com/anthropics-claude-watermark-is-akin-to-an-ai-poison-pill/"&gt;Anthropic的Claude水印犹如一颗AI毒丸&lt;/a&gt;”：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;需要说清楚的是，水印几乎嵌入到Claude接触过的任何文本中。除了Claude生成的文本外，它也适用于它处理的文本，比如校对和总结。我预计我们会看到太多不准确的指控，说某人使用Claude撰写文档，而实际上内容是人类写的，只是经过AI校对。&lt;/p&gt;
-&lt;p&gt;水印还会在复制粘贴后一直附着在文档上。想象一下，你从博客文章或电子邮件中复制文本，结果你写的内容被打上“可能由AI生成”的标签。事实上，这篇文章很可能就是这种情况。我个人写作时完全不使用AI工具，但我把文章开头的引文直接从Anthropic的网站上复制了过来。这是否意味着我在这里写的内容会被显示为AI生成的？如果他们用自家的模型生成或编辑了我引用的内容，那么答案很可能就是“会”。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;我上面引用的ArXiv上发表的论文之一&lt;a href="https://arxiv.org/abs/2606.31602"&gt;声称这种水印甚至在一篇原本以英语生成的文本被翻译成德语后依然存在&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;秘密才是这里的毒药。当只有Anthropic掌握着既能产生水印又执行这些标记概率检测的密钥时，我们只能心存疑虑。疑虑我们正在阅读的内容是否被秘密打上了水印，我们&lt;em&gt;引用&lt;/em&gt;的内容是否被秘密打上了水印，以及我们自己写的内容是否会基于我们不知道、看不见的秘密而被不公正地指控为AI生成。&lt;em&gt;有毒&lt;/em&gt;这个词用得恰如其分。&lt;/p&gt;
-&lt;p&gt;或者我该说&lt;em&gt;“毒性”&lt;/em&gt;？还是&lt;em&gt;“飞机”&lt;/em&gt;？&lt;/p&gt;
-&lt;hr/&gt;
-&lt;ol&gt;
-&lt;li id="fn1-2026-08-16"&gt;
-&lt;p&gt;这是知名行家&lt;a href="https://finance.yahoo.com/technology/ai/articles/anthropic-eyes-2-trillion-ipo-100226783.html"&gt;Jim Cramer所支持的一方&lt;/a&gt;。 &lt;a href="https://daringfireball.net/#fnr1-2026-08-16" title="Jump back to footnote 1 in the text."&gt;↩︎&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-</description><pubDate>Sun, 16 Aug 2026 19:26:33 +0000</pubDate></item></channel></rss>
+</description><pubDate>Sun, 16 Aug 2026 19:30:00 +0000</pubDate></item></channel></rss>

@@ -1,5 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 18 Aug 2026 02:30:02 +0000</lastBuildDate><item><title>研究显示西数和HGST硬盘故障率更低 而希捷和东芝的故障率明显更高</title><link>https://www.landian.news/archives/126287.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 18 Aug 2026 04:01:48 +0000</lastBuildDate><item><title>Cursor Origin代码托管服务开始测试 面向AI智能体的高性能Git服务</title><link>https://www.landian.news/archives/126290.html</link><description>
+&lt;p&gt;#网站应用 Cursor Origin 代码托管服务开始面向付费订阅用户进行测试，剑指天天崩溃的 GitHub。Cursor Origin 主要定位是面向 AI 智能体的 Git 仓库，支持多个 AI 智能体并行提交更改，例如每秒提交 22 次更改、在单个仓库上维持每小时 8.1 万次推送等。查看全文：https://ourl.co/126290&lt;/p&gt;&lt;p&gt;此前 SpaceXAI 已经预告将推出代码托管服务 Cursor Origin，现在这项服务已经开始面向 Cursor 付费订阅用户推出测试版，当前 Cursor Pro、Cursor Teams 和 Cursor Enterprise 订阅用户可以率先获得权限进行测试。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126290.png" rel="nofollow"&gt;&lt;img alt="Cursor Origin代码托管服务开始测试 面向AI智能体的高性能Git服务" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126290.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Cursor Origin 首先推出的功能就是 GitHub 同步，该功能允许开发者将 GitHub 存储库实时镜像到 Cursor Origin，同时可以继续保持 GitHub 作为当前项目的主要数据来源。&lt;/p&gt;
+&lt;p&gt;Cursor Origin 也具备 Git 托管服务应有的其他功能，例如直接从 Cursor 创建仓库、使用差异查看堆叠的拉取请求、管理设置、将自动化流程连接到仓库、通过全新的 Web 界面浏览代码。开发者还可以连接 Vercel 等第三方集成工具进行预览部署，结合 Depot 和 Buildkite 来运行 CI 工作流。&lt;/p&gt;
+&lt;p&gt;SpaceXAI 对 Cursor Origin 的定位是面向智能体的 Git 仓库，该公司称 GitHub 和 GitLab 设计理念是围绕开发者编写代码、提交 PR 并等待审核而展开的，这个过程可能需要数天时间。&lt;/p&gt;
+&lt;p&gt;而 AI 智能体可以更快地生成更改，有时候甚至同时提交多个更改，这给 GitHub 等 Git 平台带来截然不同的负载，在 6 月份的演示中，Cursor 展示了一群 AI 智能体以每秒 22.6 次的速度推送提交，同时在单个仓库上维持每小时 8.1 万次推送和 29.5 万次克隆。&lt;/p&gt;
+&lt;p&gt;过去几个月，GitHub 一直饱受服务中断的困扰，昨天夜里 GitHub 再次发生大范围和长时间的中断，大量开发者下载安装软件包和 Docker 构建时遇到故障，开发者们对 GitHub 频繁发生的故障越来越不满。&lt;/p&gt;
+&lt;p&gt;访问：&lt;a href="https://www.landian.news/go?url=https://cursor.com/cn/origin" rel="noopener" target="_blank"&gt;https://cursor.com/cn/origin&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 18 Aug 2026 04:01:48 +0000</pubDate></item><item><title>有开发者发现Kimi Work存在隐私问题 提交反馈时自动打包上传最近5个会话记录</title><link>https://www.landian.news/archives/126289.html</link><description>
+&lt;p&gt;#软件资讯 开发者发现 Kimi Work 存在隐私问题，当用户主动点击应用内的问题反馈时，Kimi Work 会自动打包上传最近 5 个智能体会话记录。会话记录可能会包含某些敏感数据，核心问题在于 Kimi Work 并未在反馈界面里说明会上传会话记录，也没有提供选择或完全关闭上传会话记录的选项 (非诊断日志，诊断日志会另行自动上传)。查看全文：https://ourl.co/126289&lt;/p&gt;&lt;p&gt;RuntimeWire 网站的开发者日前注意到月之暗面的 Kimi Work 桌面客户端存在隐私问题，当用户在应用内提交问题反馈时，客户端除上传必要的诊断日志外，还会自动打包上传最近更新的 5 个智能体会话记录，反馈界面不会明确显示这些会话附件，也没有提供单独取消上传的选项。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126289.png" rel="nofollow"&gt;&lt;img alt="有开发者发现Kimi Work存在隐私问题 提交反馈时自动打包上传最近5个会话记录" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126289.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;开发者测试的是 Kimi Work for Windows v3.1.5 版 (即 Kimi 官方桌面客户端)，以及随客户端自动安装的 Daimon 0.5.49 后台组件。分析显示当用户提交反馈后，客户端会读取 Kimi Work 会话列表并按照最后更新时间进行排序，最后直接选择最近更新的 5 个会话，而不是仅上传用户当前正在反馈问题的会话。&lt;/p&gt;
+&lt;p&gt;这意味着即使用户只针对某个简单的软件问题提交反馈，最近进行过的其他代码开发、文档处理或智能体自动化任务，也可能会被自动打包上传发送给 Kimi 团队进行分析。当然这仅限于用户主动在应用内点击反馈，如果没有点击反馈提交问题那不会被上传这些会话。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;值得注意的是，被上传的数据并不只是普通的文本聊天内容，Kimi Work 会读取智能体会话中的原始运行记录，其中可能包含模型请求、工具定义、MCP 工具信息以及智能体调用工具和执行任务过程中产生的数据。&lt;/p&gt;
+&lt;p&gt;按照开发者的分析，每个会话最多可以包含 100 个记录文件，每个文件最多读取最后 500 条 JSONL 记录，单个会话压缩后的数据上限约为 8MB。也就是说 5 个会话理论上最多可能产生约 40MB 的原始会话记录，此外还会另外上传客户端的诊断日志。&lt;/p&gt;
+&lt;p&gt;客户端在上传过程中确实会进行部分数据过滤，例如删除体积较大的 Base64 数据以及限制超长字符串，但这种过滤主要针对数据尺寸，并不会主动识别密码和其他敏感数据或路径并进行排除。因此如果某些敏感信息以普通文本形式出现在智能体的运行记录中，那就有可能随着反馈数据被上传。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;需要说明的是，目前没有证据表明这属于安全问题，问题核心主要在于数据收集范围以及用户是否充分知情。目前 Kimi Work 的反馈窗口主要提示用户填写问题描述以及上传截图，但不会明确列出即将随反馈上传的最近 5 个智能体会话，也没有提供附件预览、单独勾选或关闭会话上传选项。&lt;/p&gt;
+&lt;p&gt;对普通应用来说自动上传诊断日志用于排查故障是很常见的，但桌面 AI 智能体应用掌握的数据范围明显更广泛，因此更合理的方式应该是用户提交反馈前，Kimi Work 明确显示即将上传哪些会话和文件、允许用户自行选择、检查或完全关闭相关数据上传。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://runtimewire.com/article/scoop-kimi-work-secretly-attaches-raw-records-from-five-recent-agent-sessions-to" rel="noopener" target="_blank"&gt;RuntimeWire&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 18 Aug 2026 03:30:03 +0000</pubDate></item><item><title>可能与AI有关？WSL Ubuntu安装量激增 很快就会超过Ubuntu桌面版安装量</title><link>https://www.landian.news/archives/126288.html</link><description>
+&lt;p&gt;#系统资讯 可能与 AI 有关？WSL Ubuntu 安装量激增，很快就会超过 Ubuntu 桌面版安装量。Canonical 都没想到，近期通过 WSL 安装的 Ubuntu 实例会如此多，Ubuntu 原生桌面版多年来积累的安装数量很快就会被超越。这种情况很可能与 AI 有关，即很多 AI 工具在 Windows 上需要通过 WSL 安装 Linux 发行版运行。查看全文：https://ourl.co/126288&lt;/p&gt;&lt;p&gt;在 Windows 10/11 里运行 Linux 发行版算是微软的重大创新，微软通过 Windows SubSystem for Linux 平台帮助开发者部署子系统，这样开发者可以在 Windows 10/11 上直接运行 Linux 并获得比较完整的功能。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/04/112749.png" rel="nofollow"&gt;&lt;img alt="可能与AI有关？WSL Ubuntu安装量激增 很快就会超过Ubuntu桌面版安装量" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/04/112749.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Ubuntu 开发商日前发布消息称，这段时间以来通过 WSL 子系统安装的 Ubuntu 实例数量正在激增，而且很快 WSL Ubuntu 实例数量就会超过 Ubuntu 原生桌面版的安装量。&lt;/p&gt;
+&lt;p&gt;Ubuntu 原生桌面版在 Linux 桌面版里算是体验比较好的发行版，很多图形界面用户会选择 Ubuntu 桌面版，但如此多年的用户积累还不如 WSL Ubuntu 爆发的安装量，所以这个消息还是挺让人震惊的。&lt;/p&gt;
+&lt;p&gt;微软官方并未提供 WSL 子系统的安装统计数据，Ubuntu 等发行版也没有公开提供 WSL 版的安装数据，所以在以前可能都没人想到用户在 Windows 10/11 上通过 WSL 安装的 Linux 实例会这么多。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;WSL 子系统的开发目的是方便开发者在 Windows 10/11 上使用原生 Linux 工具进行开发，至少在以前 WSL 虽然口碑也不错但并未出现安装量激增的情况，现在 WSL 安装量激增很可能与人工智能技术的爆火有关。&lt;/p&gt;
+&lt;p&gt;对人工智能和机器学习开发者来说通过 WSL 部署 Linux 发行版使用非常方便，但这部分用户应该还不是导致数量激增的主要来源，我们猜测 WSL 安装实例激增主要可能与 AI 有关，像是 OpenClaw AI 机器人 (原生 Windows 版) 等都需要通过 WSL 运行。&lt;/p&gt;
+&lt;p&gt;当然其他用户例如在 Windows 上使用 Codex 和 Claude Code 的用户，通常也会安装 WSL 实例方便日常使用，这些都会推动 WSL 子系统的安装量快速增长。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 18 Aug 2026 03:00:03 +0000</pubDate></item><item><title>研究显示西数和HGST硬盘故障率更低 而希捷和东芝的故障率明显更高</title><link>https://www.landian.news/archives/126287.html</link><description>
 &lt;p&gt;#硬件设备 研究显示 HGST (日立) 与西部数据机械硬盘故障率更低，而希捷和东芝硬盘故障率要明显更高。有研究团队获取 Backblaze 集群中使用的 44.3 万块硬盘数据，然后深度分析后发布研究论文，该论文已经被 IEEE 接收。故障率：HGST 39%、西部数据 51%、希捷 100%、东芝 107%。研究还发现，东芝硬盘运行满 5 年后故障率会明显增加 (通常保修期就是 5 年)，而希捷在早期使用阶段故障率相比其他盘更高，但如果早期没挂，使用超过 5 年平均故障率也没有明显增加。查看全文：https://ourl.co/126287&lt;/p&gt;&lt;p&gt;业界知名的云存储服务提供商 Backblaze 使用自建数据中心为客户托管着海量数据，由于存储容量非常大因此 Backblaze 使用大量机械硬盘，所以也可以通过机械硬盘的运行数据来分析不同品牌的硬盘故障率。&lt;/p&gt;
 &lt;p&gt;日前有研究团队获取 Backblaze 自 2013~2025Q2 使用的 44.3 万块机械硬盘使用数据并撰写分析报告，分析报告显示西部数据和 HGST 硬盘故障率更低，而希捷和东芝硬盘的故障率更高。目前相关研究论文已经被 IEEE 接收。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126287.png" rel="nofollow"&gt;&lt;img alt="研究显示西数和HGST硬盘故障率更低 而希捷和东芝的故障率明显更高" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126287.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -27,38 +65,4 @@
 &lt;p&gt;iOS 版火狐浏览器的原生广告拦截功能目前正在测试中，谋智基金会称该功能正在逐步向用户推送。用户可以转到设置检查是否有广告拦截器选项，如果没有那说明暂时还未收到推送，谋智基金会需要收集数据进行评估，暂时没有全面开放的时间表。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.landian.news/archives/109955.html" rel="noopener" target="_blank"&gt;另外考虑到现在火狐浏览器原中国运营主体已经退出市场&lt;/a&gt;，所以提供原生广告拦截功能不是大问题，否则可能会出现&lt;a href="https://www.landian.news/archives/93097.html" rel="noopener" target="_blank"&gt;此前的某些视频网站以火狐浏览器托管广告拦截扩展而起诉火狐浏览器&lt;/a&gt;，当时火狐浏览器败诉且从扩展程序商店里屏蔽中国用户获取 uBlock Origin 等广告拦截工具。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 18 Aug 2026 02:00:03 +0000</pubDate></item><item><title>亚马逊变更使用条款 禁止用户发起集体诉讼 仅允许通过仲裁程序解决争议</title><link>https://www.landian.news/archives/126285.html</link><description>
-&lt;p&gt;#行业资讯 亚马逊变更使用条款，禁止消费者和律师对亚马逊发起集体诉讼，只要使用亚马逊或其服务即默认接受该条款。新条款规定，有争议时必须使用亚马逊提供的仲裁解决方案，如果仲裁无法解决则可以提起小额诉讼。但条款禁止消费者代表自己或其他人发起集体诉讼。查看全文：https://ourl.co/126285&lt;/p&gt;&lt;p&gt;美国电商公司亚马逊日前向所有用户发送电子邮件通知关于使用条款的变更，此次变更亚马逊明确禁止用户发起或参与任何形式的集体诉讼，如果出现争议只能通过仲裁程序解决，新版使用条款在发送日已经生效，因此任何继续在亚马逊购物或使用亚马逊服务的行为都视为接受新条款。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2024/03/102721.png" rel="nofollow"&gt;&lt;img alt="亚马逊变更使用条款 禁止用户发起集体诉讼 仅允许通过仲裁程序解决争议" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2024/03/102721.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;根据亚马逊修订后的使用条款，几乎所有与亚马逊服务或通过亚马逊销售的产品和服务相关的争议，都必须通过具有约束力的仲裁解决，而不能诉诸法庭。这意味着仲裁程序中没有法官或陪审团，法院对仲裁裁决的审查权限也受到限制。&lt;/p&gt;
-&lt;p&gt;符合条件的顾客仍然可以向小额索赔法庭提起诉讼，但随附的集体诉讼豁免条款要求仲裁必须以个人为单位进行，这意味着消费者无法参与集体诉讼或作为代表发起诉讼，条款还禁止消费者代表其他人请求公共禁令救济和其他补救措施。&lt;/p&gt;
-&lt;p&gt;互联网公司这种使用条款具有前置性，即所谓的使用前必读，当用户使用这些服务时即默认接受互联网公司设置的条款。之后消费者和律师仍然可能会尝试对亚马逊提起集体诉讼，但亚马逊可能会请求法院强制执行其新协议，即用户已经同意只能使用仲裁作为解决争议的方式。&lt;/p&gt;
-&lt;p&gt;另外仲裁程序将由第三方仲裁员私下进行，因此争议和任何和解结果通常都不会公开，亚马逊称这个流程为客户提供快速且经济高效的投诉解决方式，如果仲裁无法解决问题，客户也可以提起小额诉讼。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 18 Aug 2026 01:30:04 +0000</pubDate></item><item><title>Windows Server 2022即将结束主流更新 后续不再提供新功能但提供安全更新</title><link>https://www.landian.news/archives/126284.html</link><description>
-&lt;p&gt;#系统资讯 服务器系统 Windows Server 2022 将在 10 月结束主流支持转为扩展支持，不过企业仍然可以按照正常节奏接收 5 年安全更新。作为 LTSC 版，Windows Server 2022 提供 5 年主流更新和 5 年扩展更新，不过转为扩展支持后微软不再提供新功能。微软也建议企业升级到 Windows Server 2025，旧版本可以无需重装即可无损迁移到 2025 (但需要购买新许可证)。查看全文：https://ourl.co/126284&lt;/p&gt;&lt;p&gt;据微软发布的官方公告，适用于服务器的 Windows Server 2022 将在 2026 年 10 月结束主流支持阶段并转为扩展支持，该版本发布于 2021 年 3 月且为 LTSC 长期服务频道版，此类版本通常会获得 5 年主流支持 + 5 年扩展安全更新支持，合计提供 10 年的安全更新。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/01/107632.png" rel="nofollow"&gt;&lt;img alt="Windows Server 2022服务器系统即将结束主流更新 后续不再提供新功能但提供安全更新" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/01/107632.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Windows Server 2022 在 10 月份结束主流支持后会自动转为扩展支持，转为扩展支持后微软仍然会按月发布必要的安全更新修复漏洞，因此对于使用该版本的企业来说不必急于升级。不过按照惯例结束主流支持后微软不再向其提供功能更新，即扩展安全更新仅维持必要的安全更新。&lt;/p&gt;
-&lt;p&gt;Windows Server 2022 发布于 2021 年 3 月，主流支持到 2026 年 10 月结束，而扩展支持则会到 2031 年 10 月 14 日，在扩展支持到期前 IT 管理员可以按照正常流程继续安装和部署必要的安全更新。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; 微软建议企业升级到 Windows Server 2025：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Windows Server 2022 基于 Windows 10 分支版本开发，之后微软推出 Windows Server 2025 且该版本基于 Windows 11 开发，&lt;a href="https://www.landian.news/archives/103145.html" rel="noopener" target="_blank"&gt;Windows Server 2025 已经支持无损升级&lt;/a&gt;，即企业不必重装系统就可以从旧版本直接升级到 Windows Server 2025。&lt;/p&gt;
-&lt;p&gt;目前微软正在推荐企业升级到 Windows Server 2025，因为新版本带来更多新功能以及 AI 管理方面的优势。微软建议 IT 管理员提前评估 Windows Server 2025 以便尽早完成迁移，当然升级 Windows Server 2025 并不是免费的，企业需要购买许可证后才能使用 (服务器版都不支持免费升级，每个版本都需要购买许可证)。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 18 Aug 2026 01:00:03 +0000</pubDate></item><item><title>Linux Kernel 7.2正式版发布 持续扩展硬件支持并改善内核基础设施</title><link>https://www.landian.news/archives/126283.html</link><description>
-&lt;p&gt;#系统资讯 Linux Kernel 7.2 正式版发布，继续扩展硬件支持并改善内核基础设施。需要说明的是，7.2 并非 LTS 长期支持版，普通用户是否升级新版本内核仍需结合使用的发行版和硬件环境来判断。稍后各 Linux 发行版应该都会陆续适配新内核，建议用户关注发行版的更新动态。查看全文：https://ourl.co/126283&lt;/p&gt;&lt;p&gt;经过多个候选版本的测试后现在 Linux Kernel 7.2 正式版已经发布，新版本改动主要集中在硬件驱动、文件系统、网络、虚拟化、架构支持和内核安全等方向。不过该版本并非 LTS 长期支持版，普通用户是否升级到新版本内核仍需结合使用的发行版和硬件环境来判断。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2023/08/99983.png" rel="nofollow"&gt;&lt;img alt="Linux Kernel 7.2正式版发布 持续扩展硬件支持并改善内核基础设施" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2023/08/99983.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Linux Kernel 7.2 包含大量驱动程序代码更新，覆盖显卡、网络控制器、存储设备、输入设备以及各类平台控制器。对于新发布的处理器、主板、无线网卡和固态硬盘等产品来说，新内核通常能够更早提供识别和基本支持，部分设备的功耗管理、休眠恢复以及热插拔能力也会得到改善。&lt;/p&gt;
-&lt;p&gt;显卡和显示相关代码同样继续演进，AMD、英特尔和其他硬件平台的开源驱动都获得不同程度的修正。需要注意的是，内核驱动得到支持并不代表所有发行版都能立即使用，发行版可能会继续采用经过测试的旧内核，或者将部分补丁移植到现有版本中。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Linux Kernel 7.2 对多种文件系统、块设备和存储路径进行改进，重点包括性能、并发访问、错误处理以及异常情况下的数据稳定性。面向服务器和工作站的文件系统功能仍然是开发重点，网络文件系统、闪存存储和虚拟块设备也获得相应更新。&lt;/p&gt;
-&lt;p&gt;这些变化对普通桌面用户未必会立即体现为明显的速度提升，但在大型数据库、虚拟机、容器和高并发文件服务中，内核对存储队列、缓存和错误恢复机制的优化，可能带来更稳定的运行表现。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;新版本也继续改进对 KVM 等虚拟化组件，更新对不同处理器架构的支持，相关改动有助于提升虚拟机的设备兼容性、性能和稳定性，也为云计算平台部署更新一代处理器提供基础。&lt;/p&gt;
-&lt;p&gt;安全方面，Linux Kernel 7.2 延续对内存保护、权限控制、BPF 以及内核自我防护机制的改进，此类更新通常不会增加明显的用户界面功能，但能够降低内核遭受攻击或因异常操作导致系统失效的风险。&lt;/p&gt;
-&lt;p&gt;使用滚动更新发行版的用户可能会较早获得该版本，Ubuntu、Debian、RHEL 等发行版通常会根据自身维护周期决定是否采用。服务器和生产环境不建议仅因版本号更新就立即切换，建议 IT 管理员先确认驱动、文件系统、虚拟化平台以及第三方模块的兼容性。&lt;/p&gt;
-&lt;p&gt;获取内核源代码：&lt;a href="https://www.landian.news/go?url=https://www.kernel.org/" rel="noopener" target="_blank"&gt;https://www.kernel.org/&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 18 Aug 2026 00:30:01 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 18 Aug 2026 02:00:03 +0000</pubDate></item></channel></rss>
