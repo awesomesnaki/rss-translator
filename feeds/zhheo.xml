@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>张洪Heo</title><link>https://blog.zhheo.com/</link><description>产品设计师、独立开发者、设计与科技领域自媒体博主</description><language>zh-CN</language><lastBuildDate>Fri, 14 Aug 2026 09:46:33 +0000</lastBuildDate><item><title>给DeepSeek-V4-Flash借一双眼睛：ZCode视觉子Agent方案</title><link>https://blog.zhheo.com/p/3gr7k8xj.html</link><description>&lt;p&gt;我平时用 ZCode 配 deepseek-v4-flash 当主力模型。速度快、便宜、写代码够用，唯一的问题是它是个纯文本模型，看不了图。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>张洪Heo</title><link>https://blog.zhheo.com/</link><description>产品设计师、独立开发者、设计与科技领域自媒体博主</description><language>zh-CN</language><lastBuildDate>Wed, 19 Aug 2026 05:55:39 +0000</lastBuildDate><item><title>分享一下博客的全新聚合搜索</title><link>https://blog.zhheo.com/p/mgii3qy1.html</link><description>&lt;p&gt;近日博客涉及到大量重构，比如性能问题、屎山清理、hexo版本重新开始追更、插件系统优化、大量动画和冗余代码移除、评论系统重构等等（详见博客&lt;a href="https://log.zhheo.com/explore?filter=tagSearch:HeoBlog" rel="noopener external nofollow" target="_blank"&gt;更新日志&lt;/a&gt;），其中搜索功能的重构是我最近重要的功能之一。&lt;/p&gt;
+&lt;p&gt;针对站内的博客搜索功能，我就在想，“谁在用？期望能搜索到什么？”&lt;/p&gt;
+&lt;p&gt;一个个人博客而言，只有一千来个文章，不可能覆盖到方方面面。用内置搜索不如用搜索引擎。这个问题似乎是无解的。我用ai搜索功能实现了模糊搜索和扩展搜索，但是这远远不够，文章的量就很少，从根本上就没办法。&lt;/p&gt;
+&lt;p&gt;量少…&lt;/p&gt;
+&lt;p&gt;数量少…&lt;/p&gt;
+&lt;p&gt;诶！量少的话我自建过博客聚合平台&lt;a href="https://sky.zhheo.com/" rel="noopener external nofollow" target="_blank"&gt;洪绘星空&lt;/a&gt;，直接接入到我博客不就行了。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="洪绘星空" referrerpolicy="no-referrer" src="https://p.zhheo.com/upload/2026/08/19/png/0991020260819060115.png!blogimg"/&gt;&lt;/p&gt;
+&lt;p&gt;现在你可以在搜索窗口中搜索洪绘星空中所有作者的文章，适用面大大增加了。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="全新搜索功能" referrerpolicy="no-referrer" src="https://p.zhheo.com/upload/2026/08/19/png/9129120260819060437.png!blogimg"/&gt;&lt;/p&gt;
+&lt;p&gt;你可以搜索到友链人、文章、洪绘星空文章以及评论。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="搜索" referrerpolicy="no-referrer" src="https://p.zhheo.com/upload/2026/08/19/png/2892420260819060519.png!blogimg"/&gt;&lt;/p&gt;
+&lt;p&gt;成功将多个项目连接在了一起，搜索变得更加全面了。在搜索一些泛领域内容时，甚至可以做搜索引擎的平替。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="洪绘星空结果" referrerpolicy="no-referrer" src="https://p.zhheo.com/7615820260819062142.png!blogimg"/&gt;&lt;/p&gt;
+&lt;p&gt;也欢迎大家入驻&lt;a href="https://sky.zhheo.com/" rel="noopener external nofollow" target="_blank"&gt;洪绘星空&lt;/a&gt;或者&lt;a href="https://twikoo.zhheo.com/me#friendLink" rel="noopener external nofollow" target="_blank"&gt;添加友链&lt;/a&gt;。让博客共同进步。&lt;/p&gt;
+</description><pubDate>Wed, 19 Aug 2026 05:55:39 +0000</pubDate></item><item><title>给DeepSeek-V4-Flash借一双眼睛：ZCode视觉子Agent方案</title><link>https://blog.zhheo.com/p/3gr7k8xj.html</link><description>&lt;p&gt;我平时用 ZCode 配 deepseek-v4-flash 当主力模型。速度快、便宜、写代码够用，唯一的问题是它是个纯文本模型，看不了图。&lt;/p&gt;
 &lt;p&gt;以前遇到要识图的场景就很尴尬：截图、报错信息、设计稿，发过去模型只会收到一个文件路径，内容完全看不见。要么手动把图里的文字敲进去，要么临时换个支持视觉的模型，看完再换回来，会话上下文还断了，成本也上去了。&lt;/p&gt;
 &lt;p&gt;后来逛 GitHub 看到 &lt;a href="https://github.com/50kg/zcode-deepseek-eye" rel="noopener external nofollow" target="_blank"&gt;zcode-deepseek-eye&lt;/a&gt;，思路正好对胃口：主模型不换，在 ZCode 里挂一个支持视觉的子 Agent 当”眼睛”。主模型遇到图片，自动把图交给眼睛模型看，再把文字描述拿回来继续干活。对使用者来说整个过程是无感的。&lt;/p&gt;
 &lt;h2 id="安装"&gt;&lt;a href="#安装" title="安装"&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;p&gt;首先zcode中配置好支持视觉的模型，我这里配置了opencode go中很便宜的&lt;code&gt;mimo-v2.5&lt;/code&gt;。&lt;/p&gt;
@@ -93,19 +107,4 @@
 &lt;p&gt;全程本地运算，速度很快。&lt;/p&gt;
 &lt;p&gt;像是下面这种冷门需求，也能得到满足了。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="deb系统需求" referrerpolicy="no-referrer" src="https://p.zhheo.com/upload/2026/08/10/png/1250420260810071230.png!blogimg"/&gt;&lt;/p&gt;
-</description><pubDate>Mon, 10 Aug 2026 06:40:39 +0000</pubDate></item><item><title>分享一下我最近制作的一些AI音乐，以及解决唱歌错字和音质的一些小技巧</title><link>https://blog.zhheo.com/p/4c5g2me1.html</link><description>&lt;p&gt;这接近以来做了十多首歌了，我觉得AI做歌主要是两个点，一个是命题的灵感，一个是抽卡。&lt;/p&gt;
-&lt;p&gt;随着做的越来越多，明显可以感觉最近做的越来越成熟了，说错字的情况和质量明显更强。这其实主要是使用了文字替换法和cover翻唱的方式。&lt;/p&gt;
-&lt;p&gt;比如一些复杂的文字“老槐树”可以用简单的文字替代比如“老坏树”。&lt;/p&gt;
-&lt;p&gt;这样就能有效避免说错字的情况了。这个方法适用于你制作AI视频、AI TTS、音乐。&lt;/p&gt;
-&lt;p&gt;另外汽水音乐的AI&lt;a href="https://music.douyin.com/studio" rel="noopener external nofollow" target="_blank"&gt;妙响&lt;/a&gt;生成的音乐音质比suno强不少。我用的这个来进行翻唱的。&lt;/p&gt;
-&lt;p&gt;另外heoweb我重新写了一个独立的音乐播放页。这样可以很方便的分享音乐了，而不是单独分享一个主页，访问音乐还得向下滚动好久。&lt;/p&gt;
-&lt;p&gt;推荐的一些歌曲：&lt;/p&gt;
-&lt;h2 id="梧桐叶落时的光"&gt;&lt;a href="#梧桐叶落时的光" title="梧桐叶落时的光"&gt;&lt;/a&gt;梧桐叶落时的光&lt;/h2&gt;&lt;p&gt;&lt;a href="https://zhheo.com/music/11" rel="noopener external nofollow" target="_blank"&gt;https://zhheo.com/music/11&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="梧桐叶落时的光" referrerpolicy="no-referrer" src="https://p.zhheo.com/upload/2026/08/10/jpg/8108720260810044325.jpg!blogimg"/&gt;&lt;/p&gt;
-&lt;h2 id="逍遥王"&gt;&lt;a href="#逍遥王" title="逍遥王"&gt;&lt;/a&gt;逍遥王&lt;/h2&gt;&lt;p&gt;&lt;a href="https://zhheo.com/music/9" rel="noopener external nofollow" target="_blank"&gt;https://zhheo.com/music/9&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="逍遥王" referrerpolicy="no-referrer" src="https://p.zhheo.com/upload/2026/08/10/png/2122020260810044405.png!blogimg"/&gt;&lt;/p&gt;
-&lt;h2 id="时光里的布娃娃"&gt;&lt;a href="#时光里的布娃娃" title="时光里的布娃娃"&gt;&lt;/a&gt;时光里的布娃娃&lt;/h2&gt;&lt;p&gt;&lt;a href="https://zhheo.com/music/7" rel="noopener external nofollow" target="_blank"&gt;https://zhheo.com/music/7&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="时光里的布娃娃" referrerpolicy="no-referrer" src="https://p.zhheo.com/upload/2026/08/10/png/8471320260810044443.png!blogimg"/&gt;&lt;/p&gt;
-&lt;h2 id="苔藓独白"&gt;&lt;a href="#苔藓独白" title="苔藓独白"&gt;&lt;/a&gt;苔藓独白&lt;/h2&gt;&lt;p&gt;&lt;a href="https://zhheo.com/music/8" rel="noopener external nofollow" target="_blank"&gt;https://zhheo.com/music/8&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="苔藓独白" referrerpolicy="no-referrer" src="https://p.zhheo.com/upload/2026/08/10/png/7796820260810044512.png!blogimg"/&gt;&lt;/p&gt;
-</description><pubDate>Mon, 10 Aug 2026 04:26:47 +0000</pubDate></item></channel></rss>
+</description><pubDate>Mon, 10 Aug 2026 06:40:39 +0000</pubDate></item></channel></rss>
