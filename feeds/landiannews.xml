@@ -1,5 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 18 Aug 2026 06:30:36 +0000</lastBuildDate><item><title>群联电子预计固态硬盘将涨价到2030年 目前群联自己正在囤货应对短缺</title><link>https://www.landian.news/archives/126327.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 19 Aug 2026 04:12:26 +0000</lastBuildDate><item><title>英国giffgaff卡暂停封号且开始解封账号 允许用户携号转网和提取余额</title><link>https://www.landian.news/archives/126330.html</link><description>
+&lt;p&gt;#行业资讯 英国 giffgaff卡暂停封号且开始解封账号，允许用户携号转网和提取账户余额。看起来大规模投诉还是有用的，giffgaff卡现在愿意解封账号并退余额，但其仍然强调仅限英国境内使用，所以后续长期国际漫游仍然有封号风险。giffgaff这招应该是缓兵之计，用来临时解决大规模客诉问题，建议使用 giffgaff的用户尽快联系客服退余额和携号转网到英国其他运营商。查看全文：https://ourl.co/126330&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/114097.html" rel="noopener" target="_blank"&gt;早前英国 giffgaff 卡封禁大量用户并引发规模非常大的投诉&lt;/a&gt;，当时 giffgaff 卡说明的封禁原因是其服务主要面向英国居住的用户提供，虽然允许在境外短期旅行使用，但如果长期在英国境外漫游使用那是违反服务条款的。&lt;/p&gt;
+&lt;p&gt;只不过以前 giffgaff 卡经常小规模封号并未引起太大的问题，而大规模封号后引起很多用户的不满，尤其是账户余额都不能退款，所以很多用户使用短信捐赠余额、向消保机构发起投诉以及申请携号转网等。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/01/111467.png" rel="nofollow"&gt;&lt;img alt="英国giffgaff卡暂停封号且开始解封账号 允许用户携号转网和提取余额" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/01/111467.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;据蓝点网网友分享的消息，网友收到 giffgaff 发来的邮件通知，在通知中 giffgaff 卡称用户服务被错误断开，目前正在恢复用户账户，同时 giffgaff 卡向被错误封禁的用户赠送 10 英镑余额作为补偿。&lt;/p&gt;
+&lt;p&gt;如果你使用 giffgaff卡请检查自己的邮箱，正常情况下重新插卡后应该在 48 小时内就会恢复服务，但如果使用数据漫游的话则可能需要重启手机才能重新使用。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;值得注意的是现在解封账号很可能是 giffgaff 解决投诉的缓兵之计，giffgaff依然强调其服务主要为英国居民设计，不支持长期或永久性的国际使用。如果用户觉得 giffgaff 无法满足这些要求，可以在账号恢复后申请携号转网并联系客服退还余额 (赠金不可退)。&lt;/p&gt;
+&lt;p&gt;简单来说就是 giffgaff 依然限制在英国境内使用，长期国际漫游使用依然可能会被封号，因此建议使用 giffgaff 卡的用户尽快联系客服提取余额以及携号转网到英国其他运营商 (发送短信 PAC 到 65075 即可申请携号转网码)。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 19 Aug 2026 04:12:26 +0000</pubDate></item><item><title>GitHub公布本周大规模长时间中断的复盘报告 高流量叠加内部BUG导致重试风暴</title><link>https://www.landian.news/archives/126329.html</link><description>
+&lt;p&gt;#网站应用 GitHub 就本周发生的大规模长时间中断发布事故复盘报告，高流量冲击叠加内部基础设施的缺陷引发重试风暴。中断直接原因是美国中部数据中心流量极高引起堵塞，而 GitHub 内部扩容机制存在问题没能成功扩容节点，同时 GitHub 重试机制导致循环发起重试风暴继续堵塞网络。复盘报告：https://ourl.co/126329&lt;/p&gt;&lt;p&gt;代码托管网站 GitHub 在本周出现大规模长时间的中断，此次中断时间非常长因此也导致大量用户的正常使用受影响。按惯例 GitHub 会在问题解决后发布详细的复盘报告来保持透明度，此次中断问题由外部流量太高引起，而 GitHub 内部基础设施存在多种错误，这些问题叠加起来导致长时间中断。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/03/112349.png" rel="nofollow"&gt;&lt;img alt="GitHub公布本周大规模长时间中断的复盘报告 高流量叠加内部BUG导致重试风暴" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/03/112349.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;GitHub 部分服务通过 Istio Service Mesh 运行，应用容器旁会部署负责网络通信的 Sidecar。事故发生时其中部分 Sidecar 已经达到最大并发处理能力，但 GitHub 的自动扩容策略主要根据应用自身判断是否扩容，没有充分考虑 Sidecar 的连接和并发状态。&lt;/p&gt;
+&lt;p&gt;因此即便网络代理已经接近处理极限，系统仍然没有及时增加实例。随着部分节点无法继续正常处理流量，请求开始转移到其他节点，随后更多高可用负载均衡器节点也逐渐达到容量上限，最终导致负责身份验证等关键服务的网络路径严重堵塞。&lt;/p&gt;
+&lt;p&gt;由于 GitHub.com、GitHub API、GitHub Actions 等诸多服务都依赖身份验证和网关基础设施，因此路径发生严重堵塞后影响范围被迅速扩大。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;正常情况下服务暂时出现错误时进行自动重试可以提高请求成功率，但在此次事故中自动重试机制反而加剧故障，当身份验证请求开始超时时，大量客户端和内部服务不断发起新请求，已经过载的负载均衡器因此收到更多流量，这种现象被称为重试风暴。&lt;/p&gt;
+&lt;p&gt;简单来说原本只是部分请求失败，但系统为提高成功率自动重新发送请求，结果让后端服务压力继续增加并导致更多超时，然后系统再次触发更多重试最终形成恶性循环。GitHub 后续通过暂停部分异常负载均衡器节点将部分流量转移到其他数据中心才逐渐恢复主要服务。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;GitHub Copilot 是此次事故中恢复时间最长的服务，调查发现适用于 Microsoft Visual Studio Code 中的 GitHub Copilot 存在异常重试问题，当负责签发身份验证令牌的服务响应缓慢或失败时，部分客户端会持续请求新的身份验证令牌。&lt;/p&gt;
+&lt;p&gt;正常情况下签发身份令牌的服务每秒需要处理 7000~9000 个请求，但在事故发生时请求量暴增到每秒 7 万次～10 万次，相当于正常水平的 10 倍，这些额外请求继续增加身份验证基础设施的压力，所以其他服务恢复后 GitHub Copilot 仍然无法正常工作。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在复盘报告中 GitHub 还提到，事故恢复期间 Codeload 代码下载服务遭遇多轮大规模自动化爬取流量，这些异常流量并不是此次事故的主因，但在恢复期间这些流量给基础设施造成更大压力并加大故障恢复难度。&lt;/p&gt;
+&lt;p&gt;针对此次事故暴露的问题，GitHub 表示将调整自动扩容策略，同时还会重新检查内部网关和客户端的自动重试策略，避免发生故障后大量重试请求反而会压垮后台服务。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://www.githubstatus.com/incidents/zkxwbgr0cnmx" rel="noopener" target="_blank"&gt;GitHub Status&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 19 Aug 2026 03:54:25 +0000</pubDate></item><item><title>Codex加强安全措施和高危命令审查 减少再出现意外删除用户全盘文件的情况</title><link>https://www.landian.news/archives/126328.html</link><description>
+&lt;p&gt;#人工智能 Codex 团队正在加强安全和删除逻辑，减少出现删除用户 $HOME 目录的问题。此前有开发者使用 Codex 执行任务时遇到命令转义问题，结果 Codex 直接删除 C 盘和 D 盘的大部分文件。现在 Codex 发布多项措施改进模型操作，包括在操作前检查删除目标、避免重用系统环境变量、识别到高风险命令时自动审查。完整改进：https://ourl.co/126328&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/114253.html" rel="noopener" target="_blank"&gt;10 天前 V2EX 网友使用 Codex 开放完全访问权限执行任务时&lt;/a&gt;，因遇到命令转义问题结果 Codex 不慎删除 C 盘和 D 盘的大量文件，得亏网友平时有备份所以还能通过备份数据恢复。当然也有其他开发者遇到类似问题导致文件被误删，现在 Codex 团队已经发布新版本并加强安全措施用来降低误删文件的发生概率。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/02/111836.png" rel="nofollow"&gt;&lt;img alt="Codex加强安全措施和高危命令审查 减少再出现意外删除用户全盘文件的情况" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/02/111836.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Codex 在工作中有时候会创建临时文件夹并在用完后主动清理这些文件夹，在极少数情况下 GPT-5.6 会弄错清理操作，例如涉及重用系统环境变量 $HOME 来进行临时操作，这时候格式错误的清理命令有可能会指向实际的用户主目录，而不是最初创建的临时目录。&lt;/p&gt;
+&lt;p&gt;还有些情况是模型试图删除或覆盖临时文件时没有预先检查对应路径里是否存在其他文件，如果模型提前进行检查也可以降低或完全避免出现这种误删文件的情况。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;1.现在明确指示 Codex 在操作前检查删除目标、创建全新的临时目录、避免重用系统环境变量、优先选择可以恢复的操作，在范围不明确时必须停止操作。&lt;/p&gt;
+&lt;p&gt;2.加强执行检查逻辑和机制，这些机制会在识别到高风险删除命令时将其升级审查 (由审查模型自动审批)，如果命令被拒绝，模型将被引导采取更安全的做法来执行操作。&lt;/p&gt;
+&lt;p&gt;3.继续优化完全访问权限的开启，除非用户明确选择使用完全访问权限 (Full Access)，否则 Codex 只会使用用户审批或自动审批模式，而且也难以出现被意外启用完全访问权限的情况。&lt;/p&gt;
+&lt;p&gt;4.OpenAI 还在云端更新 GPT-Auto-Review 审阅模型，该模型负责对常规模型发出的命令进行审阅，如果使用破坏性命令则会被审阅模型自动拦截，避免放行高危命令。&lt;/p&gt;
+&lt;p&gt;5.OpenAI 构建针对性的评估，这些评估会重放观察到的失败执行，同时通过强化学习任务和评分器从训练数据中过滤掉破坏性操作，模型在使用时可能会降低出现破坏性命令的概率。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Codex 技术经理蒂博建议用户升级到 Codex 最新版以获得更好的安全性、性能和其他改进，同时用户应当使用用户审批或自动审批模式，仅在完全可信且可以恢复的环境中才可以考虑使用完全访问模式。&lt;/p&gt;
+&lt;p&gt;当然如果还遇到其他极端情况也建议用户提交反馈，这也可以继续帮助 OpenAI 改进 Codex 并最终造福所有用户和开发者。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 19 Aug 2026 03:22:44 +0000</pubDate></item><item><title>群联电子预计固态硬盘将涨价到2030年 目前群联自己正在囤货应对短缺</title><link>https://www.landian.news/archives/126327.html</link><description>
 &lt;p&gt;#行业资讯 固态硬盘主控芯片制造商群联电子称，固态硬盘预计将涨价到 2030 年，因为 NAND 闪存产能无法满足市场需求。群联电子自己现在正在囤积 NAND 库存专供大客户，这些库存不会被轻易出售，以免破坏与大客户的合作。群联 CEO 潘建成透露，市场认为 NAND 产能从投资到量产只需要 2 年，但 NAND 制造商称这个过程要 4 年，所以 SSD 涨价短时间内并不能拉动产能。查看全文：https://ourl.co/126327&lt;/p&gt;&lt;p&gt;固态硬盘主控芯片制造商群联电子首席执行官潘建成日前在接受采访时透露，考虑到 NAND 闪存产能短期内无法满足市场需求，群联电子目前正在构建战略库存以确保未来两年内向 CSP 和 AI 公司稳定供应企业级固态硬盘。&lt;/p&gt;
 &lt;p&gt;潘建成预计闪存产能短缺问题可能会持续到 2030 年，这意味着到 2030 年之前市场上的固态硬盘都会处于供不应求的地步，因此固态硬盘价格可能会在未来持续上涨直到闪存产能重新满足市场需求。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126327.png" rel="nofollow"&gt;&lt;img alt="群联电子预计固态硬盘将涨价到2030年 目前群联自己正在囤货应对短缺" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126327.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -20,42 +66,4 @@
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;需要特别说明的是被弃用的是 WMI 命令行版本也就是 WMIC，而 WMI 管理规范工具本身还是会继续保留的。对于专业用户来说，微软建议用户使用 PowerShell 和.NET 等工具替代 WMIC，但如果用户仍然需要使用 WMIC 那可以自己去可选功能里安装。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 18 Aug 2026 05:58:02 +0000</pubDate></item><item><title>微软改进Windows RE恢复环境的网络连接 现在可以自动使用已保存WiFi</title><link>https://www.landian.news/archives/126292.html</link><description>
-&lt;p&gt;#系统资讯 微软在 Windows 11 测试版中改进 WinRE 恢复环境的网络连接，现在可以自动使用已经保存的 WiFi。在恢复环境中用户可以使用快速计算机恢复和云重建功能，这些功能都需要连接网络。以前用户还需要手动选择 WiFi 并输入密码来联网，这次改进后系统可以自动连接此前已经连接过的 WiFi，方便用户快速连接微软服务器下载镜像执行重装。查看全文：https://ourl.co/126292&lt;/p&gt;&lt;p&gt;微软在最新推出的 Windows 11 测试版中改进 WinRE 恢复环境的网络功能，这次增强的网络功能可以让用户在 WinRE 中快速计算机恢复或云重建等场景中自动联网，IT 管理员也不需要提前配置网络连接信息。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113805.png" rel="nofollow"&gt;&lt;img alt="微软改进Windows RE恢复环境的网络连接 现在可以自动使用已保存WiFi" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113805.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在此前版本中 WinRE 恢复环境的网络连接功能只能自动连接到已经单独预配置的有线未认证以太网或 WiFi 网络，当用户需要联网时实际还需要手动输入 WPA2/WPA3 WiFi 的密码才能连接，对用户而言这个流程其实是没有必要的，毕竟正常情况下在系统故障前已经连接对应的 WiFi。&lt;/p&gt;
-&lt;p&gt;所以这次的改进就是 WinRE 恢复环境可以自动连接已经保存过的 WiFi，用户进入 WinRE 恢复环境后默认就带有网络连接支持，此时用户再尝试使用云重建等功能时就可以直接联网从微软服务器下载镜像文件。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;目前微软在 WinRE 中提供的联网功能包括快速计算机恢复和云重建，其中云重建功能是近期增加的新功能，当系统出现严重故障无法启动时，用户可以在不借助其他计算机和 U 盘的情况下，直接在恢复环境里使用云重建功能联网下载镜像并执行重装。&lt;/p&gt;
-&lt;p&gt;当然这个功能可以在极端情况下帮助用户恢复设备的使用，但重装过程会丢失文件和其他数据，因此建议用户日常做好备份，最好平时准备个微 PE U 盘，真出现严重故障时好歹也能通过 PE 启动然后先把自己的数据备份好再重装。&lt;/p&gt;
-&lt;p&gt;注：WinRE 自动联网功能默认开启，也适用于企业托管设备，但 IT 管理员可以配置为默认禁用。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;article&gt;&lt;a href="https://www.landian.news/archives/113805.html" title="微软为Windows 11推出云重建功能 系统无法开机也能联网自动重装系统"&gt;&lt;h3&gt;微软为Windows 11推出云重建功能 系统无法开机也能联网自动重装系统&lt;/h3&gt;&lt;/a&gt;&lt;p&gt;#系统资讯 微软在 Windows 11 预览版中测试云重建功能，可在 WinRE 恢复环境中联网下载镜像和驱动程序重装系统，无需依赖 U 盘或…&lt;/p&gt;&lt;/article&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 18 Aug 2026 05:32:52 +0000</pubDate></item><item><title>积核(Geekom)官网提供的驱动程序带毒 建议下载过积核驱动的用户直接重装系统</title><link>https://www.landian.news/archives/126291.html</link><description>
-&lt;p&gt;#安全资讯 国内迷你机制造商积核 Geekom 官网提供的驱动程序带有后门，建议积核 AMD 用户全盘杀毒甚至直接重装系统确保安全。积核官网的旧驱动下载页面疑似被攻击，如果用户主动通过谷歌搜索等渠道进入旧下载页面就有可能下载的是带毒驱动。积核还要求 VideoCardz 删除关于驱动带毒的原始报道，不过 VideoCardz 认为自己的报道并不是错误内容，因此拒绝删除。查看全文：https://ourl.co/126291&lt;/p&gt;&lt;p&gt;国内迷你机制造商积核日前被发现官网提供的驱动程序下载竟然包含后门程序，Reddit 网友发现异常后立即发帖进行预警，随后 VideoCardz 等网站也前往积核官网下载对应的驱动程序进行测试，测试发现适用于积核多款 AMD 迷你机的驱动程序带毒。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126291.png" rel="nofollow"&gt;&lt;img alt="积核(Geekom)官网提供的驱动程序带毒 建议下载过积核驱动的用户直接重装系统" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126291.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;从目前情况来看这并不是积核主动投放的病毒，而是积核官网基础设施遭到黑客入侵篡改驱动程序，受影响的主要是适用于积核 A7、A8、AE7、AE8、AX7 Pro 和 AX8 Pro 的驱动程序，后门程序最终放在 LAN 驱动程序文件夹里，文件名称为 Install_PCIE_Win11_11.10.0720.2022_11222022.exe。&lt;/p&gt;
-&lt;p&gt;值得注意的是，此次投毒时间至少可以追溯到 2024 年 12 月，但积核长期未发现自己的基础设施被入侵并提供带毒驱动程序，原因与积核的日常管理有关，因为黑客篡改的是旧支持页面的下载链接，如果用户通过积核官网点击支持或下载驱动程序则不会进入投毒页面。&lt;/p&gt;
-&lt;p&gt;相反如果用户直接通过谷歌搜索积核驱动程序下载，谷歌搜索仍然会索引旧的驱动程序下载页面，这种情况下用户会被带到投毒页面，因此下载的驱动程序也是带有后门的。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在 VideoCardz 发布报道后，积核团队联系该网站解释问题发生原因，同时积核团队希望 VideoCardz 删除报道。不过 VideoCardz 认为自己的报道并不存在错误因此拒绝删除，该网站称除非整篇报道都是错误的，否则不应该直接删除原文。&lt;/p&gt;
-&lt;p&gt;积核在回应中并未透露带毒驱动程序如何进入旧版下载页面的，不清楚这是供应链攻击还是网站服务器被入侵。此前有类似案例中主要是供应链攻击，即小型 OEM 没有能力自行开发驱动，而下游帮忙开发的驱动程序在交付过程中被感染病毒 (还是通过 U 盘交付的，应该是原始机器就被感染)。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;积核在回应中也建议用户使用杀毒软件进行全盘扫描，甚至可以下载镜像直接重装系统确保安全。如果用户曾主动通过谷歌搜索积核并下载驱动程序则建议重装系统，积核预装的驱动程序没有问题，所以如果用户没有主动下载安装积核驱动程序通常应该是安全的，建议用户执行全盘扫描排除异常。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://videocardz.com/newz/geekom-apologizes-for-hosting-malware-in-driver-package-for-its-mini-pcs" rel="noopener" target="_blank"&gt;VideoCardz&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 18 Aug 2026 04:58:26 +0000</pubDate></item><item><title>Cursor Origin代码托管服务开始测试 面向AI智能体的高性能Git服务</title><link>https://www.landian.news/archives/126290.html</link><description>
-&lt;p&gt;#网站应用 Cursor Origin 代码托管服务开始面向付费订阅用户进行测试，剑指天天崩溃的 GitHub。Cursor Origin 主要定位是面向 AI 智能体的 Git 仓库，支持多个 AI 智能体并行提交更改，例如每秒提交 22 次更改、在单个仓库上维持每小时 8.1 万次推送等。查看全文：https://ourl.co/126290&lt;/p&gt;&lt;p&gt;此前 SpaceXAI 已经预告将推出代码托管服务 Cursor Origin，现在这项服务已经开始面向 Cursor 付费订阅用户推出测试版，当前 Cursor Pro、Cursor Teams 和 Cursor Enterprise 订阅用户可以率先获得权限进行测试。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126290.png" rel="nofollow"&gt;&lt;img alt="Cursor Origin代码托管服务开始测试 面向AI智能体的高性能Git服务" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126290.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Cursor Origin 首先推出的功能就是 GitHub 同步，该功能允许开发者将 GitHub 存储库实时镜像到 Cursor Origin，同时可以继续保持 GitHub 作为当前项目的主要数据来源。&lt;/p&gt;
-&lt;p&gt;Cursor Origin 也具备 Git 托管服务应有的其他功能，例如直接从 Cursor 创建仓库、使用差异查看堆叠的拉取请求、管理设置、将自动化流程连接到仓库、通过全新的 Web 界面浏览代码。开发者还可以连接 Vercel 等第三方集成工具进行预览部署，结合 Depot 和 Buildkite 来运行 CI 工作流。&lt;/p&gt;
-&lt;p&gt;SpaceXAI 对 Cursor Origin 的定位是面向智能体的 Git 仓库，该公司称 GitHub 和 GitLab 设计理念是围绕开发者编写代码、提交 PR 并等待审核而展开的，这个过程可能需要数天时间。&lt;/p&gt;
-&lt;p&gt;而 AI 智能体可以更快地生成更改，有时候甚至同时提交多个更改，这给 GitHub 等 Git 平台带来截然不同的负载，在 6 月份的演示中，Cursor 展示了一群 AI 智能体以每秒 22.6 次的速度推送提交，同时在单个仓库上维持每小时 8.1 万次推送和 29.5 万次克隆。&lt;/p&gt;
-&lt;p&gt;过去几个月，GitHub 一直饱受服务中断的困扰，昨天夜里 GitHub 再次发生大范围和长时间的中断，大量开发者下载安装软件包和 Docker 构建时遇到故障，开发者们对 GitHub 频繁发生的故障越来越不满。&lt;/p&gt;
-&lt;p&gt;访问：&lt;a href="https://www.landian.news/go?url=https://cursor.com/cn/origin" rel="noopener" target="_blank"&gt;https://cursor.com/cn/origin&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 18 Aug 2026 04:01:48 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 18 Aug 2026 05:58:02 +0000</pubDate></item></channel></rss>
