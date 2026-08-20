@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>张洪Heo</title><link>https://blog.zhheo.com/</link><description>产品设计师、独立开发者、设计与科技领域自媒体博主</description><language>zh-CN</language><lastBuildDate>Wed, 19 Aug 2026 05:55:39 +0000</lastBuildDate><item><title>分享一下博客的全新聚合搜索</title><link>https://blog.zhheo.com/p/mgii3qy1.html</link><description>&lt;p&gt;近日博客涉及到大量重构，比如性能问题、屎山清理、hexo版本重新开始追更、插件系统优化、大量动画和冗余代码移除、评论系统重构等等（详见博客&lt;a href="https://log.zhheo.com/explore?filter=tagSearch:HeoBlog" rel="noopener external nofollow" target="_blank"&gt;更新日志&lt;/a&gt;），其中搜索功能的重构是我最近重要的功能之一。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>张洪Heo</title><link>https://blog.zhheo.com/</link><description>产品设计师、独立开发者、设计与科技领域自媒体博主</description><language>zh-CN</language><lastBuildDate>Thu, 20 Aug 2026 05:05:32 +0000</lastBuildDate><item><title>个人小项目vibecoding方案推荐：opencode spark 1.2 和 zcode</title><link>https://blog.zhheo.com/p/1bwuf82b.html</link><description>&lt;p&gt;zcode是我目前最喜欢的vibecoding工具，在deepseek没涨价那会，智能程度和浏览器调用调试等还有稳定度、缓存比例都很不错。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="zcode使用统计" referrerpolicy="no-referrer" src="https://p.zhheo.com/2414120260820050807.png!blogimg"/&gt;&lt;/p&gt;
+&lt;p&gt;opencode昨天出了个 muse-spark-1.2-contributor 模型，这个模型相当于允许拿你的数据做训练，来便宜的使用模型。&lt;/p&gt;
+&lt;p&gt;那感情好啊，个人小项目vibecoding场景下，数据敏感度没那么高，用用没啥问题。&lt;/p&gt;
+&lt;p&gt;毕竟我博客都不知道被多少奇奇怪怪的东西做预训练了。&lt;/p&gt;
+&lt;p&gt;go的额度给的非常慷慨。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="额度" referrerpolicy="no-referrer" src="https://p.zhheo.com/9939820260820051000.png!blogimg"/&gt;&lt;/p&gt;
+&lt;p&gt;实测在我vibecoding下，5000w的token用量，用了0.28刀。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="5000w" referrerpolicy="no-referrer" src="https://p.zhheo.com/7579320260820051034.png!blogimg"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="消费" referrerpolicy="no-referrer" src="https://p.zhheo.com/5495220260820051057.png!blogimg"/&gt;&lt;/p&gt;
+&lt;p&gt;按照我的典型使用情况，我相当于30人民币买了&lt;strong&gt;111.4亿&lt;/strong&gt;token，我得每天花4亿左右才能耗光。（不多线程跑根本花不完）&lt;/p&gt;
+&lt;p&gt;实测速度稳定性比opencode现在的deepseek v4 flash强多了。opencode现在的deepseek流口水速度慢还经常断。实测智能情况与deepseek v4 flash差不多（也可能更好，没用出明显差别）。&lt;/p&gt;
+&lt;p&gt;另外opencode的hy3八倍容量我用在OpenClaw龙虾里了，这样可以避免龙虾的数据用作训练了。&lt;/p&gt;
+&lt;p&gt;也不知道muse-spark-1.2-contributor能撸多久，小扎现在可以成为扎圣了（限时）。&lt;/p&gt;
+&lt;p&gt;对了，muse-spark-1.2不只支持1M上下文，还支持视觉输入，这样就不需要用vision skill了。&lt;/p&gt;
+&lt;h2 id="推荐环节"&gt;&lt;a href="#推荐环节" title="推荐环节"&gt;&lt;/a&gt;推荐环节&lt;/h2&gt;&lt;p&gt;目前我使用的是opencode订阅套餐。5刀（33块钱左右）首月 ，用完换号继续首月。支持支付宝。&lt;strong&gt;记得开通完关闭自动扣款。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="支付宝支付" referrerpolicy="no-referrer" src="https://p.zhheo.com/8652420260820051733.png!blogimg"/&gt;&lt;/p&gt;
+&lt;p&gt;邀请链接：&lt;a href="https://opencode.ai/go?ref=TDE2DJ47E9" rel="noopener external nofollow" target="_blank"&gt;https://opencode.ai/go?ref=TDE2DJ47E9&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;使用邀请链接注册，我和你可以共同获得5刀额度（订阅后才可兑换，用于抵扣已用的额度，不通过邀请链接无额度）。&lt;/p&gt;
+</description><pubDate>Thu, 20 Aug 2026 05:05:32 +0000</pubDate></item><item><title>分享一下博客的全新聚合搜索</title><link>https://blog.zhheo.com/p/mgii3qy1.html</link><description>&lt;p&gt;近日博客涉及到大量重构，比如性能问题、屎山清理、hexo版本重新开始追更、插件系统优化、大量动画和冗余代码移除、评论系统重构等等（详见博客&lt;a href="https://log.zhheo.com/explore?filter=tagSearch:HeoBlog" rel="noopener external nofollow" target="_blank"&gt;更新日志&lt;/a&gt;），其中搜索功能的重构是我最近重要的功能之一。&lt;/p&gt;
 &lt;p&gt;针对站内的博客搜索功能，我就在想，“谁在用？期望能搜索到什么？”&lt;/p&gt;
 &lt;p&gt;一个个人博客而言，只有一千来个文章，不可能覆盖到方方面面。用内置搜索不如用搜索引擎。这个问题似乎是无解的。我用ai搜索功能实现了模糊搜索和扩展搜索，但是这远远不够，文章的量就很少，从根本上就没办法。&lt;/p&gt;
 &lt;p&gt;量少…&lt;/p&gt;
@@ -101,13 +120,4 @@
 &lt;p&gt;夸克网盘：&lt;a href="https://pan.quark.cn/s/8c663f2a687a?pwd=Ng4M" rel="noopener external nofollow" target="_blank"&gt;https://pan.quark.cn/s/8c663f2a687a?pwd=Ng4M&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;百度网盘：&lt;a href="https://pan.baidu.com/s/1p5NfaR7-X46GFdqfDTdM3A?pwd=ko0v" rel="noopener external nofollow" target="_blank"&gt;https://pan.baidu.com/s/1p5NfaR7-X46GFdqfDTdM3A?pwd=ko0v&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;感谢 &lt;a href="https://id.zhheo.com/user/HaoUp" rel="noopener external nofollow" target="_blank"&gt;HaoUp&lt;/a&gt; 提供的信源，脚本由我制作，欢迎使用反馈。&lt;/p&gt;
-</description><pubDate>Wed, 12 Aug 2026 02:31:44 +0000</pubDate></item><item><title>洪绘压图网页版上线，这下可以随时随地在线压缩图片了</title><link>https://blog.zhheo.com/p/tbp0pls8.html</link><description>&lt;p&gt;之前做过压缩图片的软件叫“&lt;a href="https://blog.zhheo.com/p/bp85fpdb.html"&gt;洪绘压图&lt;/a&gt;”，目前是支持mac和Windows，但是有的时候需要iOS/安卓或者Linux系统使用就显得捉襟见肘了。想了一下把浏览器支持的功能先搬到网页上，这样大多数基础功能直接通过浏览器就能实现，非常方便。&lt;/p&gt;
-&lt;h2 id="使用地址"&gt;&lt;a href="#使用地址" title="使用地址"&gt;&lt;/a&gt;使用地址&lt;/h2&gt;&lt;p&gt;&lt;a href="https://yatu.zhheo.com/" rel="noopener external nofollow" target="_blank"&gt;https://yatu.zhheo.com/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="洪绘压图" referrerpolicy="no-referrer" src="https://p.zhheo.com/upload/2026/08/10/png/1458320260810070447.png!blogimg"/&gt;&lt;/p&gt;
-&lt;p&gt;一些扩展格式不支持，是因为浏览器不支持这些格式的解码。&lt;/p&gt;
-&lt;p&gt;高级格式可以使用客户端实现。但是常用的png、jpg、webp都是支持浏览器在线直接转换的。&lt;/p&gt;
-&lt;p&gt;使用方法因为是浏览器限制，所以不能自动保存，你需要手动点击下载按钮或者全部下载按钮来保存转换后的图片。&lt;/p&gt;
-&lt;p&gt;全程本地运算，速度很快。&lt;/p&gt;
-&lt;p&gt;像是下面这种冷门需求，也能得到满足了。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="deb系统需求" referrerpolicy="no-referrer" src="https://p.zhheo.com/upload/2026/08/10/png/1250420260810071230.png!blogimg"/&gt;&lt;/p&gt;
-</description><pubDate>Mon, 10 Aug 2026 06:40:39 +0000</pubDate></item></channel></rss>
+</description><pubDate>Wed, 12 Aug 2026 02:31:44 +0000</pubDate></item></channel></rss>
