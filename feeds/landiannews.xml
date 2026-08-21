@@ -1,5 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Fri, 21 Aug 2026 04:00:42 +0000</lastBuildDate><item><title>DeepSeek Harness 插件推荐：DSH-IM 连接飞书/钉钉/微信/QQ等多种聊天工具</title><link>https://www.landian.news/download/126377.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Fri, 21 Aug 2026 06:00:42 +0000</lastBuildDate><item><title>GitHub CTO回应宕机 宝宝心里苦但宝宝必须说：每月提交量从5,000万暴增到29亿次</title><link>https://www.landian.news/archives/126366.html</link><description>
+&lt;p&gt;#网站应用 GitHub CTO 回应本周的长时间大范围宕机，宝宝心里苦但宝宝必须说：每月代码提交次数从 5,000 万暴增到 29 亿次，资源是真不够用。今年以来 GitHub 已经新增 300 万颗 CPU 核心和 120PB 高速存储，这种扩展的规模确保 GitHub 在大部分时间保持正常。另外 GitHub 正在将更多人力资源投入到可用性方面，可用性已经成为 GitHub 最大的问题之一。查看全文：https://ourl.co/126366&lt;/p&gt;&lt;p&gt;本周微软旗下代码托管平台 GitHub 出现长时间和大范围故障，此次故障持续时间很长因此影响大量依赖 GitHub 的开发者和用户。昨天 GitHub 已经发布事故复盘报告，报告指出引起故障的主要原因是使用量激增引发内部基础设施错误，而基础设施也存在其他不合理问题导致故障被放大。&lt;/p&gt;
+&lt;p&gt;现在 GitHub 首席技术官弗拉基米尔・费多罗夫也发布博文再次回应这件事，费多罗夫强调本次故障的根本原因都不是代码或配置变更引起，单纯就是流量太高引起的叠加问题。简单来说就是：宝宝心里苦，但宝宝必须说出来。&lt;/p&gt;
+&lt;figure aria-describedby="caption-attachment-126396" id="attachment_126396"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126366-1.png" rel="nofollow"&gt;&lt;img alt="GitHub CTO回应宕机 宝宝心里苦但宝宝必须说：每月提交量从5,000万暴增到29亿次" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126366-1.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-126396"&gt;自2023年以来GitHub PR、代码提交、新建仓库趋势&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 每月提交量从 5,000 万次暴增到 29 亿次：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在博客中费多罗夫分享自 2023 年开始的 GitHub PR、代码提交、新存储库创建的增长数据，数据显示：在 2023~2024 年，GitHub 每月代码提交次数还只有 5,000 万次左右，到 2025 年年初有所增长但也只有 6,000 万～7,000 万次。&lt;/p&gt;
+&lt;p&gt;然而从 2025 年下半年开始每月代码提交次数以一种极为恐怖的速度增长，到 2026 年 8 月，每月代码提交次数已经增长到恐怖的 29 亿次，当然 PR 和新存储库创建数量也屡创新高，GitHub 有点顶不住了。&lt;/p&gt;
+&lt;p&gt;费多罗夫强调近期两次宕机都不是代码或配置变更引起的，两次事件的根本原因都是容量不足，GitHub 未能及时扩展关键组件，导致需求超过容量。当然这不能成为借口，所以 GitHub 正在加速迁移和扩容。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 新增 300 万颗 CPU 核心和 120PB 高速存储：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;为应对流量激增问题，GitHub 正在加速向 Microsoft Azure 迁移，如今 Azure 承担 GitHub 约 58% 的平台负载和 50% 的 Git 操作，远高于 5 月份的 12%。&lt;/p&gt;
+&lt;p&gt;与此同时 GitHub 也在疯狂增加 CPU 数量和存储空间，仅在今年 GitHub 就已经新增 300 万颗 CPU 核心和 120PB 高速存储 (12 万 TB)，靠这种扩展的规模 GitHub 才能保持大部分时间稳定运行。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;还有个 AI 时代的奇观是，GitHub 现在竟然需要将更多人力资源调配到确保可用性方面，在以前可用性方面通常不需要特别大的团队，但在现在的 GitHub，稳定性已经成为最大问题之一，所以 GitHub 不得不将更多团队和资源重新分配到可用性方面。&lt;/p&gt;
+&lt;p&gt;这个团队将加大测试、提高安全部署能力、推出更好的可观测行机制以及构建更有效的告警机制，也就是从方方面面提高 GitHub 的整体可用性。费多罗夫称现在在可用性方面已经取得进展，但工作尚未完成，所以还需要更多时间。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/?utm_source=x-vlad&amp;amp;amp;utm_medium=social&amp;amp;amp;utm_campaign=outage-and-the-work-blog" rel="noopener" target="_blank"&gt;GitHub Blog&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 21 Aug 2026 06:00:42 +0000</pubDate></item><item><title>OpenAI大翻车？Codex当前每周额度缩水高达55% 大量用户抱怨消耗太快</title><link>https://www.landian.news/archives/126365.html</link><description>
+&lt;p&gt;#人工智能 OpenAI 大翻车？Codex 当前每周额度缩水高达 55%，大量用户抱怨现在消耗太快完全不够用。在 X 和 Reddit 上大量网友抱怨 Codex 消耗极快，高频使用下周额度甚至不如之前的 5 小时额度。通过 tokens 用量统计可以发现，以前每周额度按 API 价大约可以使用 160 美元，现在只有 80 美元甚至更低。而 Codex 技术经理蒂博仍然正常发帖但没有回应额度缩水方面的质疑，多半是蒂博知道内情正在调查，亦或者这就是 OpenAI 的暗箱操作，所以蒂博知道也不能说。查看全文：https://ourl.co/126365&lt;/p&gt;&lt;p&gt;如果你近期使用 Codex 可能已经注意到现在额度消耗非常快，原本 ChatGPT Plus 订阅每周可以使用的额度在 160 美元，有时候甚至能达到 190 美元，而现在这类订阅实际可用额度只有不到 80 美元 (注：这里的金额都是根据 API 价格推算出来的)。&lt;/p&gt;
+&lt;p&gt;很多用户通过分析过往使用的 tokens 数量得出基本相似的结论，即现在付费订阅每周额度缩水 50% 甚至是 55%，这导致用户哪怕使用最便宜的 GPT-5.6-Luna 模型也会快速消耗，如果使用 GPT-5.6-Sol 等模型周额度可能在几小时内就被耗尽。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126365-1.png" rel="nofollow"&gt;&lt;img alt="多方统计分析显示 Codex当前每周额度缩水高达55% 大量用户抱怨消耗太快" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126365-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126365-2.png" rel="nofollow"&gt;&lt;img alt="多方统计分析显示 Codex当前每周额度缩水高达55% 大量用户抱怨消耗太快" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126365-2.png"/&gt;&lt;/a&gt;&lt;em&gt;原帖地址：&lt;a href="https://www.landian.news/go?url=https://www.reddit.com/r/codex/comments/1vpz69p/yall_need_to_make_more_noise_on_social_media/" rel="noopener" target="_blank"&gt;Reddit&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;目前在社交媒体上有大量用户抱怨现在 Codex 额度实在太低完全没法使用，当然用户也纷纷艾特 Codex 技术经理蒂博反馈这个问题，不过蒂博虽然正常发帖但并未回应过额度问题。&lt;/p&gt;
+&lt;p&gt;这种情况多半是蒂博知道内情正在调查情况看看是不是出现什么严重错误，亦或者这就是 OpenAI 的暗箱操作，所以蒂博即便知道情况也没法公开说明这事。&lt;/p&gt;
+&lt;p&gt;而且目前 AI 订阅额度都是黑箱机制，没人知道开通订阅后实际能使用多少额度，所以使用量都是用户按照日常使用预估出来的，所以现在集中出现用户反馈额度缩减，那大概率就是 OpenAI 在后台削减了可用的实际用量，单纯说是某种 BUG 估计也没人信。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 21 Aug 2026 05:30:44 +0000</pubDate></item><item><title>Cloudflare重新恢复DNS解析类型原地切换 无需再先删除然后重新添加</title><link>https://www.landian.news/archives/126364.html</link><description>
+&lt;p&gt;#网络服务 Cloudflare 重新恢复 DNS 解析类型切换，现在用户无需先删除原有记录即可直接编辑，然后在 A 记录与 CNAME 之间互相切换。当然底层仍然是先删除后添加，只不过这个过程由 Cloudflare 代用户执行操作。对于长主机头内容，代操作也可以避免用户核对时出现的几分钟无解析状态 (因为原解析被删除，如果 TTL 较短就有可能出现域名未解析)。查看全文：https://ourl.co/126364&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/113103.html" rel="noopener" target="_blank"&gt;此前网络服务提供商 Cloudflare 宣布为遵守 RFC 相关规范&lt;/a&gt;，将 DNS 解析类型切换功能删除，改为用户需要先删除原有的解析类型然后重新添加新的解析类型。例如 A 记录与 CNAME 记录互相切换时就必须遵循先删除再添加的流程，不过这个流程对用户来说比较麻烦。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;原有的支持 DNS 解析类型直接切换功能使用非常方便，因为在实际修改时不需要动主机头就可以直接修改解析类型和解析值，当然底层原理依然是先删除再添加，只不过 Cloudflare 在用户界面帮我们完成这个操作，所以看起来就像是可以原地切换解析类型。&lt;/p&gt;
+&lt;p&gt;而 Cloudflare 改成先删除再添加后操作变得麻烦，例如某些邮件配置的主机头带有下划线以及非常长，用户先复制主机头、删除原解析记录、然后重新增加解析类型，接着还需要复制目标解析值。而此前的原地切换可以直接变更解析类型并粘贴解析值。&lt;/p&gt;
+&lt;p&gt;还有个问题是用户先删除再添加需要时间，长主机头配置可能需要几分钟核对内容，此时原有主机头对应的子域名处于无解析状态 (也取决于 TTL 生存时间)，而原地切换是在用户提交后 Cloudflare 在后端完成处理，理论上说是秒切换，因此不存在中间几分钟的无解析状态。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126364-1.png" rel="nofollow"&gt;&lt;img alt="Cloudflare重新恢复DNS解析类型原地切换 无需再先删除然后重新添加" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126364-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126364-2.png" rel="nofollow"&gt;&lt;img alt="Cloudflare重新恢复DNS解析类型原地切换 无需再先删除然后重新添加" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126364-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 被吐槽后 Cloudflare 已经改回原地切换：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;据蓝点网网友分享的消息，现在 Cloudflare 已经改回 DNS 解析记录原地切换功能，而且还专门增加提示说明底层仍然是先删除后添加，只不过这个过程由 Cloudflare 代用户执行操作，所以实际效果和之前是完全相同的。&lt;/p&gt;
+&lt;p&gt;蓝点网也查询了 API 文档，不过目前 API 方面没有变更，所以如果通过 API 修改 DNS 解析类型的话，依然要遵循先删除再添加的操作。不过通过 API 可以编排，提前准备好命令后提交即可，这种情况下响应速度很快所以应该也不会出现几分钟的无解析状态。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 21 Aug 2026 05:00:40 +0000</pubDate></item><item><title>DeepSeek Harness 插件推荐：DSH-IM 连接飞书/钉钉/微信/QQ等多种聊天工具</title><link>https://www.landian.news/download/126377.html</link><description>
 &lt;p&gt;#DSH 插件推荐 适用于 DeepSeek Harness 的 DSH-IM 插件，可以连接微信、企业微信、飞书、钉钉、Telegram、QQ、Discord 等。每个渠道都支持绑定多个机器人，实现机器人连接 DSH 并进行对话，支持普通私聊和群聊等。下载地址：https://ourl.co/126377&lt;/p&gt;&lt;p&gt;开发者 @Xmanrui 日前开源发布适用于 DeepSeek Harness 的 IM 聊天工具插件，安装该插件后可以将 DSH 连接多种不同的 IM 工具，而且每个渠道都支持绑定多个机器人，各个机器人的连接状态、工作区和会话绑定也都彼此独立。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126377-5.png" rel="nofollow"&gt;&lt;img alt="DeepSeek Harness 插件推荐：DSH-IM 连接飞书/钉钉/微信/QQ等多种聊天工具" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126377-5.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126377-4.png" rel="nofollow"&gt;&lt;img alt="DeepSeek Harness 插件推荐：DSH-IM 连接飞书/钉钉/微信/QQ等多种聊天工具" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126377-4.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -71,38 +110,4 @@ npx -y github:xmanrui/dsh-im install&lt;/pre&gt;
 &lt;hr/&gt;
 &lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://android-developers.googleblog.com/2026/08/app-broader-memory-limits.html" rel="noopener" target="_blank"&gt;Android Developer Blog&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 21 Aug 2026 03:30:36 +0000</pubDate></item><item><title>阿里巴巴公布27Q1财报 净利润暴跌75% 大量资金被投入到AI数据中心</title><link>https://www.landian.news/archives/126362.html</link><description>
-&lt;p&gt;#行业资讯 阿里巴巴集团公布 2027 财年 Q1 季度财报：净利润暴跌 75%，大量资金被投入到 AI 数据中心建设、算力采购和模型研发等领域。本季度阿里资本开支高达 676.8 亿元，同比直接暴增 75%。不过投资也是有回报的，本季度阿里云 AI 相关业务同比增长 45%，AI 相关业务正在成为阿里重要的增长来源。查看全文：https://ourl.co/126362&lt;/p&gt;&lt;p&gt;阿里巴巴集团日前公布 2027 财年 Q1 季度财报 (阿里巴巴财年与自然年不同步)，财报显示本季度阿里营收继续保持增长，但利润端受人工智能基础设施投入增加等因素影响而出现大幅度下滑。本季度阿里净利润同比下降高达 75%，与此同时阿里云等 AI 云计算业务保持高速增长，人工智能正在成为阿里未来发展的核心战略。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/02/107985.png" rel="nofollow"&gt;&lt;img alt="阿里巴巴公布27Q1财报 净利润暴跌75% 大量资金被投入到AI数据中心" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/02/107985.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;财报显示阿里巴巴集团本季度实现营收 2,689.5 亿元 (人民币，下同)，与 26Q1 相比增长约 9%，整体营收表现符合市场预期。不过本季度阿里利润数据出现明显下降，季度净利润同比下降高达 75%，调整后利润也低于市场预期。&lt;/p&gt;
-&lt;p&gt;阿里表示，利润下降主要是受运营成本增加、投资收益变化以及持续扩大 AI 基础设施投资等因素影响。具体来说，本季度阿里资本开支高达 676.8 亿元，同比直接暴增 75%，大量资金被投资到 AI 数据中心建设、算力资源采购和相关技术研发中。&lt;/p&gt;
-&lt;p&gt;当然以目前 AI 发展速度，未来大量企业可能都需要使用 AI，阿里希望通过提前建设人工智能方面的算力和模型能力，在未来的人工智能竞争中占据优势，所以当下保持海量投资是非常有必要的。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;虽然季度净利润受到明显影响，但阿里巴巴 AI 相关的业务正在成为重要增长来源。财报显示，本季度阿里云 AI 相关的云服务以及计算业务营收同比大增 45%，达到 484.4 亿元。阿里表示，目前越来越多的企业客户正在从传统云计算需求转向 AI 计算需求，包括模型训练、模型推理、行业大模型开发以及智能应用部署等。&lt;/p&gt;
-&lt;p&gt;随着企业开始部署 AI 服务、智能体以及生成式 AI 应用，市场对 AI 算力、云基础设施和模型服务的需求持续增加，阿里云作为国内规模最大的云计算服务提供商，正在受益于这种趋势。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 21 Aug 2026 03:00:21 +0000</pubDate></item><item><title>ChatGPT for iOS版更新：现在可以设置为每次启动直接打开Codex 无需手动切换</title><link>https://www.landian.news/archives/126345.html</link><description>
-&lt;p&gt;#软件资讯 ChatGPT for iOS 版更新：现在可以设置为每次启动时直接打开 Codex，无需进入聊天界面后再切换到 Codex。该功能需要在设置的远程控制中开启，开启后下次启动 ChatGPT 时将自动跳过聊天界面。此前使用捷径配置快捷启动的用户也可以继续保留捷径，目前仍然可以正常跳转启动。查看全文：https://ourl.co/126345&lt;/p&gt;&lt;p&gt;目前很多开发者依赖 ChatGPT 移动版来操作桌面上使用的 ChatGPT&amp;amp;Codex，不过此前用户每次都需要打开 ChatGPT 后切换到远程模式即 Codex，对高频使用的用户来说这个体验非常糟糕。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.landian.news/download/113719.html" rel="noopener" target="_blank"&gt;所以蓝点网提前提供 iOS 捷径快捷跳转配置&lt;/a&gt;，只需要配置好捷径后，点击桌面上的图标就可以自动打开 ChatGPT 并跳转到 Codex，不过现在这种方法已经不再需要，因为官方版 ChatGPT 也提供了相同功能。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126345.png" rel="nofollow"&gt;&lt;img alt="ChatGPT for iOS版更新：现在可以设置为每次启动直接打开Codex 无需手动切换" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126345.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在 8 月 20 日发布的 ChatGPT for iOS 1.2026.223 版中，ChatGPT 在设置中新增每次启动自动打开远程，勾选此设置后每次启动 ChatGPT 时将跳过聊天界面，自动进入已经配对的远程设备界面，这样开发者就可以立即查看当前的所有设备和任务。&lt;/p&gt;
-&lt;p&gt;开启方法也很简单：更新到 ChatGPT for iOS 最新版后，点击设置、远程控制、勾选自动打开远程控制即可，此前使用捷径启动的用户也可以继续保留捷径，这样还可以继续使用 Codex Logo。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 21 Aug 2026 02:30:59 +0000</pubDate></item><item><title>这也2选1？YouTube向部分顶级创作者支付费用获得独占权 禁止创作者授权给奈飞</title><link>https://www.landian.news/archives/126344.html</link><description>
-&lt;p&gt;#行业资讯 这也能 2 选 1？国内电商网站的 2 选 1 模式被 YouTube 抄去了！YouTube 开始寻求与部分顶级创作者合作，阻止节目被发布到奈飞。YouTube 向这些创作者提供现金激励以获得独占期，独占期过后节目才能授权给奈飞。如果创作者不接受这种合作，则会失去 YouTube 官方营销和大型推广活动的额外分成。查看全文：https://ourl.co/126344&lt;/p&gt;&lt;p&gt;不得不说国内某些公司的做法在某些方面来说还是非常领先的：日前 YouTube 被爆出向部分顶级视频创作者提供数百万美元的优惠方案，确保这些创作者发布的视频节目不会被授权给奈飞，如果创作者不同意这种方案，则会失去 YouTube 官方的营销分成。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/08/110416.png" rel="nofollow"&gt;&lt;img alt="这也2选1？YouTube向部分顶级创作者支付费用获得独占权 禁止创作者授权奈飞" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/08/110416.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;据彭博社发布的消息，YouTube 向顶级创作者提供的合作形式包括：直接付费资助创作者的节目、分享 YouTube 与广告商谈判达成的平台合作协议的部分收益、向创作者直接预付独占期合作现金。&lt;/p&gt;
-&lt;p&gt;作为交换条件，创作者需要保证在特定时间段内只能将自己的视频节目发布到 YouTube 上，尤其是创作者不能与奈飞等平台合作，将自己的视频发布到奈飞等平台，这可以确保 YouTube 有顶级内容可以继续吸引观众。&lt;/p&gt;
-&lt;p&gt;奈飞也与创作者合作但通常采用非独家授权，创作者可以保留频道、广告收入、赞助和周边产品，奈飞只会付费获得视频授权，然后将这些顶级创作者的节目发布到奈飞上供奈飞平台的用户观看。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;YouTube 只会挑选顶级视频创作者进行这种合作，不过如果被选中的创作者不同意 YouTube 提出的合作方案，那也会有负面影响。同时接受 YouTube 和奈飞合作的创作者可能会失去 YouTube 的营销推广、大型活动以及平台品牌推广活动的分成。&lt;/p&gt;
-&lt;p&gt;简单来说就是 YouTube 通过限制创作者获得更高的额外收益来逼迫创作者签署独占合作协议，因此这种模式其实与国内部分电商平台要求商家的 2 选 1 模式基本没有区别，此前监管机构已经严查电商平台的 2 选 1，毕竟这已经属于垄断行为。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;从 2025 年开始就有很多 YouTube 创作者与奈飞合作，授权自己的节目在奈飞上播放，奈飞不需要创作者进行视频独占，相反创作者的节目可以同时发布在奈飞和 YouTube 上。&lt;/p&gt;
-&lt;p&gt;奈飞的这种做法也确实引起诸多关注，部分创作者的节目在奈飞上获得上亿次播放，对 YouTube 来说这可能会导致这些节目的潜在用户转移到奈飞，所以 YouTube 破天荒的开始在常规广告外，选择与顶级创作者签署独家合作协议。&lt;/p&gt;
-&lt;p&gt;目前无论是奈飞还是 YouTube 都没有就彭博社的报道发布回应，相关报道来源则是知情人士而非 YouTube 内部的官方文件。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 21 Aug 2026 02:00:25 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 21 Aug 2026 03:30:36 +0000</pubDate></item></channel></rss>
