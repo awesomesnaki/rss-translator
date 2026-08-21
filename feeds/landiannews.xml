@@ -1,5 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Fri, 21 Aug 2026 02:30:59 +0000</lastBuildDate><item><title>ChatGPT for iOS版更新：现在可以设置为每次启动直接打开Codex 无需手动切换</title><link>https://www.landian.news/archives/126345.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Fri, 21 Aug 2026 04:00:42 +0000</lastBuildDate><item><title>DeepSeek Harness 插件推荐：DSH-IM 连接飞书/钉钉/微信/QQ等多种聊天工具</title><link>https://www.landian.news/download/126377.html</link><description>
+&lt;p&gt;#DSH 插件推荐 适用于 DeepSeek Harness 的 DSH-IM 插件，可以连接微信、企业微信、飞书、钉钉、Telegram、QQ、Discord 等。每个渠道都支持绑定多个机器人，实现机器人连接 DSH 并进行对话，支持普通私聊和群聊等。下载地址：https://ourl.co/126377&lt;/p&gt;&lt;p&gt;开发者 @Xmanrui 日前开源发布适用于 DeepSeek Harness 的 IM 聊天工具插件，安装该插件后可以将 DSH 连接多种不同的 IM 工具，而且每个渠道都支持绑定多个机器人，各个机器人的连接状态、工作区和会话绑定也都彼此独立。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126377-5.png" rel="nofollow"&gt;&lt;img alt="DeepSeek Harness 插件推荐：DSH-IM 连接飞书/钉钉/微信/QQ等多种聊天工具" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126377-5.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126377-4.png" rel="nofollow"&gt;&lt;img alt="DeepSeek Harness 插件推荐：DSH-IM 连接飞书/钉钉/微信/QQ等多种聊天工具" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126377-4.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;字节飞书：通过长连接接收消息，通过飞书流式卡片显示思考、工具进度和回答&lt;/li&gt;
+&lt;li&gt;普通微信：使用微信扫码绑定机器人，使用腾讯 iLink 长轮询功能实现消息收发&lt;/li&gt;
+&lt;li&gt;企业微信：通过官方 WebSocket 长连接，原生显示正在思考中、工具执行进度和流式回答&lt;/li&gt;
+&lt;li&gt;阿里钉钉：使用钉钉 Stream 长连接，通过 AI 卡片实现流式显示回答&lt;/li&gt;
+&lt;li&gt;腾讯 QQ：使用 QQ WebSocket 长连接，私聊显示输入状态和流式回答，群聊被 @后回复&lt;/li&gt;
+&lt;li&gt;Telegram：私聊直接回复，群聊被提及或收到对机器人消息的回复时响应，支持流式回答&lt;/li&gt;
+&lt;li&gt;Discord：使用 Bot Gateway v10 长连接，私信直接回复，在服务器频道中被提及时响应，支持流式回答&lt;/li&gt;
+&lt;li&gt;WhatsApp：使用 WhatsApp Web 网页版实现长连接，显示已读和输入状态，再发送最终回答&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;其他说明：以上渠道均支持 JPEG、PNG、WebP 格式的图片，以及以图片文件形式发送 GIF 动态图。最终将图片和可选文字说明发送给 DeepSeek Harness，单张图片最大为 5MB、单条消息中的图片总体积上限为 20MB。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;稳定版：&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;# 直接使用 NPM 安装已经发布的稳定版
+
+dsh plugin --profile web add -w @xmanrui/dsh-im&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;预览版：&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;# 可以从 GitHub 获取最新代码执行安装
+
+npx -y github:xmanrui/dsh-im install&lt;/pre&gt;
+&lt;p&gt;安装后需要&lt;strong&gt;重启&lt;/strong&gt; DeepSeek Harness Web 服务，然后转到设置、插件、IM 机器人开始执行绑定流程。建议先申请各大 IM 的机器人或 Token 凭证方便后续操作。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;项目地址：&lt;/strong&gt;&lt;a href="https://www.landian.news/go?url=https://github.com/xmanrui/dsh-im" rel="noopener" target="_blank"&gt;https://github.com/xmanrui/dsh-im&lt;/a&gt; 记得顺手点个⭐️ 这对开发者来说非常重要&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126377-1.png" rel="nofollow"&gt;&lt;img alt="DeepSeek Harness 插件推荐：DSH-IM 连接飞书/钉钉/微信/QQ等多种聊天工具" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126377-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126377-2.png" rel="nofollow"&gt;&lt;img alt="DeepSeek Harness 插件推荐：DSH-IM 连接飞书/钉钉/微信/QQ等多种聊天工具" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126377-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126377-3.png" rel="nofollow"&gt;&lt;img alt="DeepSeek Harness 插件推荐：DSH-IM 连接飞书/钉钉/微信/QQ等多种聊天工具" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126377-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;/help #显示机器人支持的命令和使用方法
+
+/new #解除当前聊天的会话绑定，下条普通消息将开启全新的 Harness 会话
+
+/status #检查当前机器人与 DSH 的连接状态
+
+/models #按序号列出当前已经配置的全部可用模型
+
+/model #查看当前聊天绑定会话正在使用的模型，支持切换模型
+
+/stop #立即停止当前聊天正在运行的任务，保留尚未开始的队列消息
+
+/steer #用于补充指令，将补充指令立即加入到当前聊天正在运行的任务
+
+/compact #立即压缩当前聊天绑定会话的较早上下文
+
+/workspacelist #立即列出当前 Harness Host 上仍然存在的工作区绝对路径
+
+/workspace &amp;lt; 工作区绝对路径 &amp;gt; #用于切换当前机器人的 DSH 工作区
+
+/sessionlist #列出指定工作区登记的所有会话 ID 和标题，省略参数时使用当前工作区
+
+/session &amp;lt;ID&amp;gt; #将当前聊天绑定到指定的已有 DSH 会话
+
+#其他命令：交互式提问回复序号、选项文字或自定义文字，远程审批回复同意或拒绝 (Yes/No)&lt;/pre&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 21 Aug 2026 04:00:42 +0000</pubDate></item><item><title>谷歌在安卓17中引入更严格的内存限制机制 垃圾应用吃太多内存将被杀掉进程</title><link>https://www.landian.news/archives/126363.html</link><description>
+&lt;p&gt;#系统资讯 谷歌在安卓 17 中引入更严格的内存限制机制，垃圾应用如果吃太多内存将被系统杀掉进程。谷歌日前发布博客强调开发者必须优化应用，避免出现严重的内存泄露和异常占用问题。新机制会根据设备总内存来设定限制，超过内存限制就有可能被杀。查看全文：https://ourl.co/126363&lt;/p&gt;&lt;p&gt;据安卓开发者博客发布的最新博文，谷歌正在继续加强整个安卓生态系统的内存管理机制，谷歌在 Android 17 开发者说明中表示，该公司将针对应用引入更加严格的内存限制机制，根据设备实际 RAM 容量限制应用可使用的内存资源，避免单个应用占用过多内存影响系统稳定性。&lt;/p&gt;
+&lt;p&gt;这意味着未来如果安卓应用存在严重的内存泄露问题、长期占用大量内存以及因为其他异常原因消耗太多的内存，系统将根据管理机制自动杀掉对应的进程，这会直接导致应用发生崩溃而无法使用。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/114079.png" rel="nofollow"&gt;&lt;img alt="谷歌在安卓17中引入更严格的内存限制机制 垃圾应用吃太多内存将被杀掉进程" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/114079.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在旧版安卓系统中，内存管理主要靠系统动态回收机制，如果某个应用持续占用大量内存时，系统通常会通过 LMK 机制关闭后台应用来释放资源，确保前台正在运行的应用可以获得更多资源以流畅运行。&lt;/p&gt;
+&lt;p&gt;但这种机制存在明显弊端：如果某个应用存在内存泄露或异常占用大量内存资源时，系统为维持运行，可能不得不关闭大量正常运行的后台应用，导致用户再次打开这些应用时需要重新加载。&lt;/p&gt;
+&lt;p&gt;谷歌强调，过度占用内存不仅会导致应用自身出现卡顿等影响用户体验的问题，还会增加垃圾回收频率、提高 CPU 负载、增加电量消耗以及降低系统多任务体验等等。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;新的内存限制会根据设备总内存容量进行动态调整，而不是采用完全固定的标准，这样在不同容量的设备上可以尽可能优化用户体验。而当应用占用的内存超过系统设定的内存限制时，系统会直接终止该进程。&lt;/p&gt;
+&lt;p&gt;不过谷歌也强调系统强行杀掉进程主要是针对极端情况，例如部分应用存在严重的内存泄露和异常资源占用等问题，而正常优化良好的应用程序不会受到明显的负面影响。&lt;/p&gt;
+&lt;p&gt;为帮助开发者定位问题，谷歌也通过 Android 17 为开发者提供新的检测工具，如果应用因为内存限制被系统杀掉，开发者可以通过 ApplicationExitInfo 查看原因，系统会返回包含 MemoryLimiter 的相关信息。同时安卓还增加新的异常分析机制，可以在达到内存限制时自动收集堆内存信息，帮助开发者定位泄露位置。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://android-developers.googleblog.com/2026/08/app-broader-memory-limits.html" rel="noopener" target="_blank"&gt;Android Developer Blog&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 21 Aug 2026 03:30:36 +0000</pubDate></item><item><title>阿里巴巴公布27Q1财报 净利润暴跌75% 大量资金被投入到AI数据中心</title><link>https://www.landian.news/archives/126362.html</link><description>
+&lt;p&gt;#行业资讯 阿里巴巴集团公布 2027 财年 Q1 季度财报：净利润暴跌 75%，大量资金被投入到 AI 数据中心建设、算力采购和模型研发等领域。本季度阿里资本开支高达 676.8 亿元，同比直接暴增 75%。不过投资也是有回报的，本季度阿里云 AI 相关业务同比增长 45%，AI 相关业务正在成为阿里重要的增长来源。查看全文：https://ourl.co/126362&lt;/p&gt;&lt;p&gt;阿里巴巴集团日前公布 2027 财年 Q1 季度财报 (阿里巴巴财年与自然年不同步)，财报显示本季度阿里营收继续保持增长，但利润端受人工智能基础设施投入增加等因素影响而出现大幅度下滑。本季度阿里净利润同比下降高达 75%，与此同时阿里云等 AI 云计算业务保持高速增长，人工智能正在成为阿里未来发展的核心战略。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/02/107985.png" rel="nofollow"&gt;&lt;img alt="阿里巴巴公布27Q1财报 净利润暴跌75% 大量资金被投入到AI数据中心" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/02/107985.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;财报显示阿里巴巴集团本季度实现营收 2,689.5 亿元 (人民币，下同)，与 26Q1 相比增长约 9%，整体营收表现符合市场预期。不过本季度阿里利润数据出现明显下降，季度净利润同比下降高达 75%，调整后利润也低于市场预期。&lt;/p&gt;
+&lt;p&gt;阿里表示，利润下降主要是受运营成本增加、投资收益变化以及持续扩大 AI 基础设施投资等因素影响。具体来说，本季度阿里资本开支高达 676.8 亿元，同比直接暴增 75%，大量资金被投资到 AI 数据中心建设、算力资源采购和相关技术研发中。&lt;/p&gt;
+&lt;p&gt;当然以目前 AI 发展速度，未来大量企业可能都需要使用 AI，阿里希望通过提前建设人工智能方面的算力和模型能力，在未来的人工智能竞争中占据优势，所以当下保持海量投资是非常有必要的。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;虽然季度净利润受到明显影响，但阿里巴巴 AI 相关的业务正在成为重要增长来源。财报显示，本季度阿里云 AI 相关的云服务以及计算业务营收同比大增 45%，达到 484.4 亿元。阿里表示，目前越来越多的企业客户正在从传统云计算需求转向 AI 计算需求，包括模型训练、模型推理、行业大模型开发以及智能应用部署等。&lt;/p&gt;
+&lt;p&gt;随着企业开始部署 AI 服务、智能体以及生成式 AI 应用，市场对 AI 算力、云基础设施和模型服务的需求持续增加，阿里云作为国内规模最大的云计算服务提供商，正在受益于这种趋势。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 21 Aug 2026 03:00:21 +0000</pubDate></item><item><title>ChatGPT for iOS版更新：现在可以设置为每次启动直接打开Codex 无需手动切换</title><link>https://www.landian.news/archives/126345.html</link><description>
 &lt;p&gt;#软件资讯 ChatGPT for iOS 版更新：现在可以设置为每次启动时直接打开 Codex，无需进入聊天界面后再切换到 Codex。该功能需要在设置的远程控制中开启，开启后下次启动 ChatGPT 时将自动跳过聊天界面。此前使用捷径配置快捷启动的用户也可以继续保留捷径，目前仍然可以正常跳转启动。查看全文：https://ourl.co/126345&lt;/p&gt;&lt;p&gt;目前很多开发者依赖 ChatGPT 移动版来操作桌面上使用的 ChatGPT&amp;amp;Codex，不过此前用户每次都需要打开 ChatGPT 后切换到远程模式即 Codex，对高频使用的用户来说这个体验非常糟糕。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.landian.news/download/113719.html" rel="noopener" target="_blank"&gt;所以蓝点网提前提供 iOS 捷径快捷跳转配置&lt;/a&gt;，只需要配置好捷径后，点击桌面上的图标就可以自动打开 ChatGPT 并跳转到 Codex，不过现在这种方法已经不再需要，因为官方版 ChatGPT 也提供了相同功能。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126345.png" rel="nofollow"&gt;&lt;img alt="ChatGPT for iOS版更新：现在可以设置为每次启动直接打开Codex 无需手动切换" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126345.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -22,38 +105,4 @@
 &lt;p&gt;奈飞的这种做法也确实引起诸多关注，部分创作者的节目在奈飞上获得上亿次播放，对 YouTube 来说这可能会导致这些节目的潜在用户转移到奈飞，所以 YouTube 破天荒的开始在常规广告外，选择与顶级创作者签署独家合作协议。&lt;/p&gt;
 &lt;p&gt;目前无论是奈飞还是 YouTube 都没有就彭博社的报道发布回应，相关报道来源则是知情人士而非 YouTube 内部的官方文件。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 21 Aug 2026 02:00:25 +0000</pubDate></item><item><title>黑色幽默：安装8月更新后 微软重点推广的新版Outlook在Arm64设备上无法启动</title><link>https://www.landian.news/archives/126343.html</link><description>
-&lt;p&gt;#系统资讯 黑色幽默：新版 Outlook 和 Microsoft Teams 在 Windows 11 Arm 上无法启动，只要安装 8 月更新后就无法启动。相反，传统的 Win32 软件可以正常运行，只有微软重点推广的这些基于 WebView2 封装的新版 MSIX/AppX 应用受影响。目前微软尚未启动调查，所以还不清楚问题发生原因。查看全文：https://ourl.co/126343&lt;/p&gt;&lt;p&gt;前文我们提到诸多游戏玩家安装 Windows 11 8 月更新后发现很多游戏出现问题，包括画面异常、游戏卡顿、崩溃乃至系统异常重启等，关于这个问题微软已经开始调查，不过还有用户注意到 Microsoft Outlook 和 Microsoft Teams 应用无法启动。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.landian.news/go?url=https://img.lancdn.com/landian/2024/11/106504-3.webp" rel="nofollow"&gt;&lt;img alt="黑色幽默：安装8月更新后 微软重点推广的新版Outlook在Arm64设备上无法启动" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2024/11/106504-3.webp"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;受影响的设备主要是采用 Arm 芯片的设备，也就是运行 Windows 11 Arm 版的设备，而受影响的应用主要是基于 WebView2 Runtime 封装的微软新版应用，包括新版 Outlook 和 Microsoft Teams，这些应用的特点都是 MSIX/AppX 封装。&lt;/p&gt;
-&lt;p&gt;而传统 Win32 软件并未受到任何影响，例如基于 Win32 的经典版 Outlook 可以正常启动和使用，反而是微软重点推广的各类新版应用出现问题，不得不说这也算是黑色幽默。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;已经有用户尝试卸载重装、通过 DISM 或 SFC 命令扫描修复系统、甚至是直接重装系统，但只要安装 8 月更新后新版 Outlook 和 Microsoft Teams 就无法启动，当前微软也没有发布消息说要调查这个问题。&lt;/p&gt;
-&lt;p&gt;因此对用户而言最简单的解决方案就是暂时卸载 8 月更新，只要卸载就能恢复使用，不过对企业而言可能无法轻易卸载更新，因为这还牵涉合规问题，建议 IT 管理员尽快联系微软反馈问题，敦促微软修复这个错误。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 21 Aug 2026 01:30:37 +0000</pubDate></item><item><title>微软正在调查Windows 11 8月更新带来的游戏问题 诸多游戏发生异常崩溃</title><link>https://www.landian.news/archives/126342.html</link><description>
-&lt;p&gt;#游戏资讯 安装 8 月更新后 Windows 11 24H2/25H2 出现游戏问题，多款游戏画面异常、卡顿、崩溃甚至引起系统重启。微软接到多名用户反馈后目前已经开始调查，以确定是 Windows NT 代码问题还是游戏问题或第三方组件问题。现阶段玩家除了卸载更新外基本也没有什么好办法解决问题。查看全文：https://ourl.co/126342&lt;/p&gt;&lt;p&gt;在接到多名游戏玩家反馈后，微软官方正在调查 Windows 11 安装 8 月例行累积更新后出现的游戏问题，该问题影响 Windows 11 24H2/25H2 版，受影响的游戏包括弧光猎人、漫威斗魂以及最终决战等。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/public/thumb/W11.png" rel="nofollow"&gt;&lt;img alt="微软正在调查Windows 11 8月更新带来的游戏问题 诸多游戏发生异常崩溃" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/public/thumb/W11.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;从玩家反馈来看，受影响的游戏在成功加载后可能出现画面问题、频繁出现卡顿问题、意外的系统重启以及弹出 EXCEPTION_ACCESS_VIOLATION 等错误提示，这导致玩家基本没法正常玩游戏。&lt;/p&gt;
-&lt;p&gt;微软官方收到反馈后也发布更新日志称团队正在调查这些问题是 Windows 11 代码引起的还是游戏问题或者第三方组件引起的，不过目前尚未有明确的调查结果，受影响的用户可能需要临时卸载 8 月更新。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;有玩家猜测这可能与微软在 8 月份累积更新中部署的安全更新有关，微软在 8 月更新中合计修复高达 400 个安全漏洞，其中包括 2 个已经被安全研究员提前披露的零日漏洞。&lt;/p&gt;
-&lt;p&gt;在这次安全更新中，微软还加强了 Windows NT 内核句柄安全验证用来提高安全性，这些安全方面的改动可能会导致某些依赖较宽松验证规则的游戏出现问题，不过具体还只能等待微软的调查，估计此时游戏开发商应该也已经与微软合作展开调查。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://learn.microsoft.com/en-us/windows/release-health/status-windows-11-25H2#3731msgdesc" rel="noopener" target="_blank"&gt;Microsoft Learn&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 21 Aug 2026 01:00:43 +0000</pubDate></item><item><title>日本云计算厂商樱花网络(Sakura Internet)遭黑客攻击 可能影响136万名客户</title><link>https://www.landian.news/archives/126341.html</link><description>
-&lt;p&gt;#安全资讯 日本顶级云计算厂商樱花网络 (Sakura Internet) 遭到黑客攻击，可能影响多达 136 万客户。樱花网络在日本提供网站托管、VPS 服务器、公有云、数据中心和 GPU 计算等服务，也是日本政府的供应商。根据初步调查，黑客入侵樱花网络的客户管理系统，实际窃取的数据数量还有待审计。查看全文：https://ourl.co/126341&lt;/p&gt;&lt;p&gt;日本云计算和数据中心服务提供商樱花网络 (Sakura Internet) 日前发布安全公告，樱花网络称黑客在 2026 年 8 月 9 日入侵其客户管理系统，该系统存储约 136 万名客户的签约合同和各类个人 / 企业信息。&lt;/p&gt;
-&lt;p&gt;樱花网络是日本的大型数字基础设施服务提供商，提供网站托管、VPS 服务器、公有云、数据中心和 GPU 计算等服务，樱花网络也是入选日本政府云计划的国内供应商，即帮助日本政府在云计算领域保持数字主权。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126341.png" rel="nofollow"&gt;&lt;img alt="日本云计算厂商樱花网络(Sakura Internet)遭黑客攻击 可能影响136万名客户" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126341.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;樱花网络在调查 Sakura Rental Server 服务发生的安全事件时注意到客户管理系统出现异常，根据初步调查结果，涉及未经授权登录的账户有 583 个、黑客访问面向客户的系统和客户数据、黑客在樱花网络的系统上安装恶意软件。&lt;/p&gt;
-&lt;p&gt;在发现异常后樱花网络安全团队立即清理恶意软件并轮换所有可能泄露的凭证，然而随着深入调查，这起安全事件影响的客户数量要多得多，根据后续调查中收集的证据，可能有 1,360,563 个账户受影响，但当前尚未发生实际数据泄露事件。&lt;/p&gt;
-&lt;p&gt;不过樱花网络还没低级到使用明文存储密码，所以即便黑客窃取数据也只能拿到哈希加盐后的密码，这些密码想要破解出来并不容易，所以黑客暂时应该没法通过哈希加密的密码登录用户账户。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;值得注意的是目前没有任何黑客团体声称对此事负责，通常如果是勒索软件攻击的话，黑客得手后会在自己的暗网站点公布相关攻击事件然后向受害公司索要赎金，但此次并没有任何黑客站出来索要赎金。&lt;/p&gt;
-&lt;p&gt;另外樱花网络官方也证实此次攻击确实与勒索软件无关，樱花网络表示：我们已经确认此次事件与勒索软件无关，也没有涉及任何赎金要求。但出于安全考虑，我们目前无法透露有关所涉恶意软件的更多细节。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 21 Aug 2026 00:30:39 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 21 Aug 2026 02:00:25 +0000</pubDate></item></channel></rss>
