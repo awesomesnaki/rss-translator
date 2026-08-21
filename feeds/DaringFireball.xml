@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Fri, 21 Aug 2026 16:09:11 +0000</lastBuildDate><item><title>★ 当新的DF帖子掉进森林，而那里没有人在读它们</title><link>https://daringfireball.net/2026/08/df_posts_drop_in_a_forest</link><description>&lt;p&gt;昨晚我忽然意识到，最近几篇文章收到的读者反馈比平时少。这几天里，我发了几篇&lt;a href="https://daringfireball.net/2026/08/apple_testflight_list_sort_order"&gt;文章&lt;/a&gt;和&lt;a href="https://daringfireball.net/linked/2026/08/20/bluesky-threads-sneak-logo-into-screenshots"&gt;条目&lt;/a&gt;，本以为一定会收到读者来信，有赞有弹。结果呢？什么都没有。一片寂静。比如，我每次写苹果和《数字市场法》时，几乎总能听到欧盟那边“吱吱作响的轮子”发出的声音，但昨天我发了一篇&lt;a href="https://daringfireball.net/2026/08/apple_eu_business_terms_conceding_little"&gt;关于苹果实际上让欧盟委员会当众出丑的文章&lt;/a&gt;，谈的是App Store佣金问题，结果什么反响都没有。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Fri, 21 Aug 2026 19:34:55 +0000</lastBuildDate><item><title>沃尔玛终于让步，即将支持Apple Pay</title><link>https://corporate.walmart.com/news/2026/08/21/more-ways-to-pay-tap-to-pay-is-coming-to-walmart-and-sams-club</link><description>&lt;p&gt;沃尔玛：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;当我们想到便利时，我们考虑的方面有很多，但让购物从始至终都更简单、更顺畅是其中很重要的一部分。而最关键的环节之一就是结账。&lt;/p&gt;
+&lt;p&gt;我们希望顾客和会员在支付方式上有更多选择，以便他们能以最适合自己的方式结账。现在，从8月24日起，我们将在部分沃尔玛门店和山姆会员店的支付选项中增加轻触支付（Tap to Pay），并计划在2026年底前推广至全美所有门店和会员店，2027年年中前推广至加油站。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;当我想到便利时，我想起的是CurrentC、扫那些愚蠢透顶的二维码，以及等了12年才用上Apple Pay。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/08/21/walmart-apple-pay-finally" title="「沃尔玛终于松口，即将支持Apple Pay」的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Fri, 21 Aug 2026 19:34:55 +0000</pubDate></item><item><title>★ 当新的DF帖子掉进森林，而那里没有人在读它们</title><link>https://daringfireball.net/2026/08/df_posts_drop_in_a_forest</link><description>&lt;p&gt;昨晚我忽然意识到，最近几篇文章收到的读者反馈比平时少。这几天里，我发了几篇&lt;a href="https://daringfireball.net/2026/08/apple_testflight_list_sort_order"&gt;文章&lt;/a&gt;和&lt;a href="https://daringfireball.net/linked/2026/08/20/bluesky-threads-sneak-logo-into-screenshots"&gt;条目&lt;/a&gt;，本以为一定会收到读者来信，有赞有弹。结果呢？什么都没有。一片寂静。比如，我每次写苹果和《数字市场法》时，几乎总能听到欧盟那边“吱吱作响的轮子”发出的声音，但昨天我发了一篇&lt;a href="https://daringfireball.net/2026/08/apple_eu_business_terms_conceding_little"&gt;关于苹果实际上让欧盟委员会当众出丑的文章&lt;/a&gt;，谈的是App Store佣金问题，结果什么反响都没有。&lt;/p&gt;
 &lt;p&gt;今天早上我注意到，那个自动把新文章发布到&lt;a href="https://mastodon.social/@daringfireball"&gt;DF账户Mastodon&lt;/a&gt;的机器人自从周二晚上起就没再发过东西。但问题不在Mastodon发布机器人。坏的是另一个负责更新RSS和JSON订阅源的后台任务。大概是在周二晚上到周三早上之间出了故障。Mastodon发布机器人读取的是RSS订阅源，如果RSS里没有新内容，机器人自然没东西可发。不过，我还是觉得奇怪，居然没有一个&lt;a href="https://daringfireball.net/feeds/"&gt;通过订阅源关注DF&lt;/a&gt;的人发邮件、发短信或@我，抱怨网站上的新文章没有出现在订阅源里。一个都没有。&lt;/p&gt;
 &lt;p&gt;然后我想起来了，DF网站首页就是由……RSS订阅源生成的。&lt;sup id="fnr1-2026-08-21"&gt;&lt;a href="https://daringfireball.net/#fn1-2026-08-21"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;所以，是啊，基本上除了我，没人意识到自周二晚上最后一次更新之后，我已经写了七篇新文章。哎。难怪这几天没收到任何读者来信，这完全说得通了。很抱歉把本周的大部分内容一次性发了出来。咱们就假装今天的DF是一份周报吧。&lt;/p&gt;
@@ -33,33 +40,4 @@
 &lt;p&gt;那些抱怨我今天早些时候关闭帖子回复的人，正在用他们自己的行动完美地证明我关闭回复是对的。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;a href="https://daringfireball.net/linked/2026/08/21/bluesky-is-full-of-anti-ai-zealots" title="Permanent link to ‘Bluesky Is Full of Anti-AI Zealots’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Fri, 21 Aug 2026 12:52:47 +0000</pubDate></item><item><title>Bluesky和Threads如何将Logo悄然融入iOS截图</title><link>https://timmarinin.net/2026/bluesky-screenshots/</link><description/><pubDate>Fri, 21 Aug 2026 03:03:08 +0000</pubDate></item><item><title>苹果与欧盟委员会就《数字市场法》下的应用支付条款达成协议，苹果让步甚微</title><link>https://daringfireball.net/2026/08/apple_eu_business_terms_conceding_little</link><description>&lt;p&gt;&lt;a href="https://www.apple.com/newsroom/2026/08/apple-announces-changes-for-apps-in-the-european-union/"&gt;苹果新闻室，周二&lt;/a&gt;：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;苹果今天宣布了对欧盟应用业务条款的变更，此前苹果与欧盟委员会进行了密切合作。这些变更解决了苹果与委员会在业务条款和替代分发方式上的分歧。同时，这些变更通过将每个在欧盟分发应用的开发者统一到一套业务条款下，降低了复杂性。开发者今天即可签署新条款，变更将于10月1日生效。[...] 新条款如下：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;对于使用苹果应用内购买系统的App Store应用&lt;/strong&gt;，佣金为26%。对于绝大多数开发者，包括参与App Store小型企业计划、小程序合作伙伴计划或视频合作伙伴计划的开发者，以及续订一年后的自动续订订阅，佣金为15%。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;对于使用替代支付处理方式的App Store应用&lt;/strong&gt;，佣金为20%。上述计划中的开发者将享受10%的优惠费率。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;对于通过应用外链接完成购买的App Store应用&lt;/strong&gt;，佣金为15%。上述计划中的开发者将享受10%的优惠费率。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;对于通过替代应用市场或网页分发的应用&lt;/strong&gt;，苹果将收取5%的核心技术费。&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这对苹果来说几乎是一场全面的胜利。唯一真正的让步是，在欧盟，使用苹果自有支付系统（默认方式）的App Store应用，主要佣金从30%降至26%。这就是欧盟从苹果那里为欧盟开发者争取到的条件：购买和订阅首年的佣金从30%降至26%。&lt;/p&gt;
-&lt;p&gt;所有应用至少需要支付5%的核心技术费，即使它们是在App Store之外分发的。我可以从那些曾告诉我苹果的CTC永远不可能过关的人那里收集到大量打脸证据。也许在玛格丽特·维斯塔格这位&lt;a href="https://daringfireball.net/2024/03/more_on_the_eus_market_might#:~:text=Margrethe%20Vestager%20herself"&gt;虚伪的十字军式人物&lt;/a&gt;和&lt;a href="https://daringfireball.net/linked/2024/09/16/breton-resigns"&gt;滑稽可笑的蒂埃里·布雷顿&lt;/a&gt;所代表的旧欧盟委员会体制下确实不可能，但如今的欧盟委员会正处在&lt;a href="https://daringfireball.net/linked/2026/05/12/teresa-ribera-visited-the-us-and-no-one-noticed"&gt;新的&lt;/a&gt;、&lt;a href="https://daringfireball.net/linked/2026/05/12/new-dma-compliance-features-for-eu-users-in-ios-265"&gt;更为温和的领导层&lt;/a&gt;之下。&lt;/p&gt;&lt;p&gt;Ben Thompson在&lt;a href="https://stratechery.com/2026/apple-settles-with-e-u-u-s-app-store-fees-att-rules-in-germany/"&gt;一篇仅限订阅用户的Stratechery更新中&lt;/a&gt;，从这些费用中推算出了隐含价值：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;Apple API的隐含价值为应用收入的5%&lt;/li&gt;
-&lt;li&gt;App Store分发的隐含价值为应用收入的10%&lt;/li&gt;
-&lt;li&gt;应用内支付API的隐含价值为应用收入的5%&lt;/li&gt;
-&lt;li&gt;使用Apple支付处理进行应用内购买的隐含价值为应用收入的6%&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;不过对这些数字应持保留态度——鉴于欧盟委员会似乎已经认可了这些数字，它们几乎可以肯定是通过谈判达成的——但这些数字在方向上似乎是正确的：进入App Store最有价值（因此是10%），然后5%被归于各种形式的Apple API；其中“核心技术费”显然比第三方用于应用内支付处理的API更有价值，但你能理解他们为什么最终落在同一个数值上。&lt;/p&gt;
-&lt;p&gt;有趣的数字是Apple支付处理隐含的6%。信用卡手续费的全负荷成本——既包括刷卡费又包括百分比费——再加上退款、争议处理等，非常接近6%；换句话说，欧盟委员会似乎已经决定Apple不应该从实际收款中赚取任何利润。而且我同样能理解他们为什么得出这个结论：任何人都可以收款，但确实是Apple开发了开发者使用的各种API，以及App Store。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;支付处理6%的无利润费用，正是全球30%与欧盟新26%之间差额的落点。如果让Apple自行选择的话，很明显它会为支付处理收取10%而非6%，好让自己在支付处理上保有一些利润空间。&lt;/p&gt;
-&lt;p&gt;不要只相信我说这项协议是Apple的全面胜利——该公司仅让步了App Store支付从30%降至26%——也是欧盟委员会的屈服。&lt;a href="https://x.com/EpicNewsroom/status/2089787577062559951"&gt;这是Epic Games在Twitter/X上发布的帖子&lt;/a&gt;：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Apple在欧盟宣布了新的垃圾费用，这些费用完全没有按照《数字市场法案》的要求，向竞争开放移动应用生态系统。[原文如此] [...]&lt;/p&gt;
-&lt;p&gt;法律明确规定，Apple必须允许开发者免费提供指向网页购买的外部链接，并且必须允许“有效使用”竞争性商店。Apple的条款蓄意违反《数字市场法案》。如果欧盟委员会接受这些条款并放弃正在进行的执法行动，这项法律将变得毫无意义，消费者和开发者将无法享受到它旨在提供的好处。&lt;/p&gt;
-&lt;/blockquote&gt;&lt;p&gt;我认为Epic没有意识到&lt;a href="https://www.independent.ie/business/apple-will-change-its-app-store-rules-to-end-its-dispute-with-the-eu/a/160196535.html"&gt;欧盟委员会&lt;em&gt;已经&lt;/em&gt;接受了这些条款&lt;/a&gt;，而这些条款是谈判的结果。这件事已经结束了。&lt;/p&gt;
-&lt;p&gt;另一种看清这显然是苹果胜诉的方式，是回溯并设想一个完全不同的《数字市场法》。设想一下，如果《数字市场法》仅仅规定，对于"守门人"平台上的应用商店而言，30%的佣金率过高，而该法案唯一的目的就是设定一个新的、更合理的最高佣金率。如果情况如此，这个费率绝不可能是26%。几乎可以肯定最多只有20%，甚至更可能是15%左右。正因为《数字市场法》覆盖面过广、过于复杂且管得过宽，苹果最终仅从应用商店30%的佣金中让出了4个百分点，而对于第二年之后的订阅费15%的费率则完全没有做出任何让步。&lt;/p&gt;
-&lt;p&gt;苹果现在能做的最有趣的事情，就是把全球其他所有地方的基准佣金从30%降至25%。&lt;/p&gt;</description><pubDate>Thu, 20 Aug 2026 15:12:16 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 21 Aug 2026 12:52:47 +0000</pubDate></item><item><title>Bluesky和Threads如何将Logo悄然融入iOS截图</title><link>https://timmarinin.net/2026/bluesky-screenshots/</link><description/><pubDate>Fri, 21 Aug 2026 03:03:08 +0000</pubDate></item></channel></rss>
