@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sat, 22 Aug 2026 14:12:07 +0000</lastBuildDate><item><title>荷兰监管机构对优步处以10亿美元罚款，停用不诚信司机</title><link>https://www.reuters.com/world/dutch-regulator-fines-uber-966-million-automating-driver-suspensions-document-2026-08-21/</link><description>&lt;p&gt;Toby Sterling，为路透社报道：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sat, 22 Aug 2026 14:18:29 +0000</lastBuildDate><item><title>WorkOS：智能体现在可以注册你的应用</title><link>https://workos.com/auth-md?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q32026</link><description>&lt;p&gt;感谢 WorkOS 本周赞助 &lt;a href="https://daringfireball.net/2026/08/df_posts_drop_in_a_forest"&gt;Daring Fireball 每周通讯&lt;/a&gt;，以推广他们的 Agent 注册功能。智能体正在涌入你的注册流程，却被一个为人类设计的浏览器登录页面挡在门外。每一个放弃离开的智能体，都意味着一个你永远不会看到的注册用户。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://workos.com/docs/authkit/agent-auth?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q32026"&gt;WorkOS Agent 注册&lt;/a&gt;能将这部分流量转化为注册。通过仪表盘完成配置后，AuthKit 会发布一个 auth.md 文件，智能体读取该文件即可注册，获取由你控制的范围限定、短期有效的凭据。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://workos.com/auth-md?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q32026"&gt;立即让你的应用为智能体做好准备&lt;/a&gt;。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/08/22/workos-agents-sign-up" title="指向“WorkOS：智能体现在可以为你的应用注册”的固定链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Sat, 22 Aug 2026 14:18:29 +0000</pubDate></item><item><title>荷兰监管机构因优步暂停不诚实司机而对其处以10亿美元罚款</title><link>https://www.reuters.com/world/dutch-regulator-fines-uber-966-million-automating-driver-suspensions-document-2026-08-21/</link><description>&lt;p&gt;路透社记者托比·斯特林报道：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;荷兰数据保护局对Uber处以8.25亿欧元（约合9.66亿美元）的罚款，原因是Uber通过自动化系统停用司机账户，却未充分告知司机。根据路透社查阅的一份8月17日的决定，处罚金额如此之高。&lt;/p&gt;
-&lt;p&gt;这一罚款是欧洲《通用数据保护条例》实施以来开出的第二高罚单，仅次于2023年爱尔兰对Meta处以的12亿欧元罚款——后者因非法将欧洲Facebook用户数据传输至美国而受罚。Meta正在上诉。&lt;/p&gt;
-&lt;p&gt;Uber表示也将提起上诉。[...]&lt;/p&gt;
-&lt;p&gt;荷兰数据保护局于周五晚些时候确认了这一决定。该机构副主席Monique Verdier在一份声明中表示，Uber在未发出警告且无人为介入的情况下停用司机账户，构成了“严重违规”。“他们瞬间失去了收入……一台计算机不应自行做出具有如此重大影响的决定。”&lt;/p&gt;
+&lt;p&gt;荷兰数据保护局对优步处以8.25亿欧元（约合9.66亿美元）罚款，原因是优步通过自动化系统停用司机账户，却未充分告知司机本人，据路透社查阅的一份8月17日的决定显示。&lt;/p&gt;
+&lt;p&gt;这笔罚款是欧洲《通用数据保护条例》实施以来开出的第二高罚单，仅次于2023年爱尔兰对Meta处以的12亿欧元罚款，后者因非法将欧洲Facebook用户数据转移至美国而被罚。Meta正在上诉。&lt;/p&gt;
+&lt;p&gt;优步表示也将提起上诉。[...]&lt;/p&gt;
+&lt;p&gt;荷兰数据保护局于周五晚些时候确认了该决定。“优步存在严重侵权行为，”该机构副主席莫妮克·韦迪尔在一份声明中表示，指出优步在未事先警告、无人参与的情况下停用司机账户。“转眼之间他们就没有了任何收入……计算机不应独自做出具有（如此）重大影响的决定。”&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;这真是令人无语：&lt;/p&gt;
+&lt;p&gt;说“计算机”做出了这些决定，就好比说公司停职或解雇一名经常迟到的员工时，是“打卡钟”做了决定。公司的管理人员制定了政策，而设备只是衡量员工的合规情况。韦迪尔的声明把这件事说得好像是HAL 9000决定杀死发现号飞船上的宇航员一样。&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;《通用数据保护条例》规定，当计算机算法单独做出的决定对人们的生活产生重大影响时，此类决定必须经过有意义的人工审核，并提供质疑决定的途径。&lt;/p&gt;
-&lt;p&gt;Uber曾暂时停用了一些涉嫌欺诈的司机账户，包括其系统认定司机通过不必要的绕路抬高车费，或接单后无意完成行程的情况。Uber表示，此类停用通常时间较短，并且不会在未经人工审核的情况下永久停用此类账户。荷兰数据保护机构称，评分较低的司机有时会被计算机永久停用。Uber对此表示异议，称其从未将永久停用决定自动化。&lt;/p&gt;
-&lt;p&gt;该公司表示，认为罚款不成比例的一个原因是受影响司机人数较少——2021年欧洲仅有126名司机因客户评分低而被停用。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;也许路透社的报道并不完整，但没有任何指控称这些停用决定所依据的理由是错误的。Uber停用的司机，要么是那些通过长途绕路骗取高额车费的骗子，要么是那些接单后却从不出现、指望顾客最终因不耐烦而主动取消行程的讨厌鬼。（我理解，这些司机同时为Uber和Lyft等平台开车时就会这样操作。他们接了Uber的单，然后如果Lyft那边出现更划算的订单，他们会同时接下Lyft的单，然后对Uber这边已经接单的乘客置之不理。）&lt;/p&gt;&lt;p&gt;根据这项罚款，Uber在欧盟监控司机是否对乘客实施诈骗，或者干脆不接载乘客、任由他们滞留，均属违法行为。我的意思是，我并不是所谓“Uber劳工实践”粉丝俱乐部的成员，但相比出租车，Uber最好的地方之一就在于他们会监控并处理诈骗司机。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/08/22/dutch-regular-uber-fine" title="固定链接：‘荷兰监管机构对Uber处以10亿美元罚款，暂停不诚实司机资格’"&gt; ★ &lt;/a&gt;
+&lt;p&gt;《通用数据保护条例》禁止在计算机算法单独做出决定且对人们生活产生重大影响的情况下使用此种做法，规定此类决定需要有意义的人工审查以及质疑决定的途径。&lt;/p&gt;
+&lt;p&gt;优步暂时停用了一些涉嫌欺诈的司机的账户，包括在其系统认定司机通过不必要的绕路抬高车费或接单后无意完成行程的情况下。优步表示，此类停用通常持续时间较短，且未经人工审查不会永久停用此类账户。荷兰数据保护局称，评分较低的司机有时会被计算机永久停用。优步对此提出异议，称其从未将永久停用决定自动化处理。&lt;/p&gt;
+&lt;p&gt;该公司表示，认为罚款不成比例的一个原因是，只有少数司机受到影响，2021年欧洲仅有126名司机因客户评分低而被停用。&lt;/p&gt;
+&lt;/blockquote&gt;&lt;p&gt;路透社的报道可能并不完整，但这里没有任何指控称这些暂停服务的理由不正确。优步暂停了那些对&lt;em&gt;顾客&lt;/em&gt;实施绕路诈骗以抬高车费的司机，以及那些做出令人恼火行为——接了单却从不出现，希望顾客最终因不耐烦而自己取消行程——的司机。（据我所知，司机们同时为优步和来福车等平台开车时会这样做。他们会接下一笔优步订单，然后如果来福车那边来了更吸引人的订单，他们也会接下那一单，就干脆不去接优步这边的顾客了。）&lt;/p&gt;
+&lt;p&gt;根据这笔罚款，在欧盟，优步监控司机是否对顾客实施诈骗，或者干脆不接乘客、让他们被晾在原地，属于违法行为。我的意思是，我并不是“优步劳工实践”粉丝俱乐部的成员，但相比出租车，优步最好的地方之一就是他们会监控并处理诈骗司机。&lt;/p&gt;
+&lt;p&gt;这不是员工（司机）与大型企业（优步）之间的两方冲突。这是三方博弈。客户体验在这个问题里算什么呢？司机在诈骗顾客，优步采取行动加以制止。在我看来，这正是一个行之有效的机制。而欧盟的法规似乎完全没有把顾客考虑进去。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/08/22/dutch-regular-uber-fine" title="Permanent link to ‘Dutch Regulator Fines Uber $1 Billion for Suspending Dishonest Drivers’"&gt; ★ &lt;/a&gt;
 </description><pubDate>Sat, 22 Aug 2026 14:12:07 +0000</pubDate></item><item><title>&lt;p&gt;文件格式霸权天启的第四位骑士&lt;/p&gt;</title><link>https://techcommunity.microsoft.com/blog/onedriveblog/introducing-markdown-support-in-sharepoint-and-onedrive/4512174</link><description>&lt;p&gt;微软的iPhone版OneDrive应用长期以来一直支持通过文件查看器中一个大的“+”按钮创建三种新文档类型：Excel、Word、PowerPoint。我&lt;a href="https://bsky.app/profile/jontatum.com/post/3mtknwk6vhc26"&gt;最近&lt;/a&gt;注意到他们增加了第四种文档类型，而且他们甚至给它配了一个真正的微软风格、“&lt;a href="https://www.youtube.com/watch?v=UiOzGI4MqSU"&gt;毫无品味可言&lt;/a&gt;”的文件图标。&lt;a href="https://daringfireball.net/misc/2026/08/onedrive-fourth-horseman.png"&gt;看看这个图标吧&lt;/a&gt;。整个世界都要完蛋了，Mallory。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/08/21/fourth-horseman-of-the-apocalypse-markdow" title="永久链接至‘文件格式霸权末日的第四位骑士’"&gt; ★ &lt;/a&gt;
 </description><pubDate>Fri, 21 Aug 2026 23:18:40 +0000</pubDate></item><item><title>沃尔玛终于让步，即将支持Apple Pay</title><link>https://corporate.walmart.com/news/2026/08/21/more-ways-to-pay-tap-to-pay-is-coming-to-walmart-and-sams-club</link><description>&lt;p&gt;沃尔玛：&lt;/p&gt;
@@ -33,13 +38,4 @@
 &lt;p&gt;这个出故障的系统反过来导致订阅源生成脚本无法看到新内容，在最近的记忆中它曾出过一次故障——去年十月。但十月那次故障发生后的几个小时内我就发现了，因为读者一直在抱怨同一个错别字——我已经在CMS中修正了——但主页上仍然可见，因为主页只会从订阅源内容进行更新。我从未考虑过添加某种警报来检查这一点，因为我总是以为，如果我发布的新内容没有出现在主页或订阅源中，我会注意到。 &lt;a href="https://daringfireball.net/#fnr1-2026-08-21" title="跳回正文中的脚注1。"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-</description><pubDate>Fri, 21 Aug 2026 16:09:11 +0000</pubDate></item><item><title>Bluesky 的活跃用户基数正在萎缩，相比 Threads 和 Twitter/X，其规模仍然很小。</title><link>https://techcrunch.com/2026/08/11/blueskys-active-user-base-is-shrinking-as-its-focus-expands-beyond-the-app/</link><description>&lt;p&gt;Sarah Perez 上周在 TechCrunch 上写道：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;去中心化社交网络 Bluesky 是 2024 年 11 月美国大选后用户大规模逃离 Elon Musk 旗下 X 平台的最大受益者之一。但如今，将近两年过去，这个社交网络和 X 的潜在竞争对手正在艰难维持其发展势头。&lt;/p&gt;
-&lt;p&gt;根据数字情报提供商 &lt;a href="http://similarweb.com/"&gt;Similarweb&lt;/a&gt; 的数据，2026 年 6 月 Bluesky 移动应用在全球拥有 1040 万月活跃用户，同比下降 27.2%。此外，移动端日活跃用户持续下滑，7 月同比下降 25.6%，降至约 300 万。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;一如既往，对第三方关于应用使用情况的所有分析和数据都要持极大的保留态度。第三方数据公司只能估算这些数据，他们无法确切知晓。这就像拿民调数据与选举结果相比较。&lt;/p&gt;
-&lt;p&gt;但我认为以下事实显而易见：Threads 和 Twitter/X 都拥有数亿活跃用户，而 Bluesky 大概只有 1000 万左右。即使 Bluesky 的实际用户数是 Similarweb 数据所显示的三倍，那仍然意味着 Bluesky 的用户基数比 Threads 或 Twitter/X 小整整一个数量级。而 Mastodon 规模太小，在这些比较中甚至已经没人再提及了。Mastodon 和整个 ActivityPub 世界让 Bluesky 看起来规模庞大且具有文化影响力。&lt;/p&gt;
-&lt;p&gt;规模小未必是坏事。就我个人而言，这些网络中最喜欢的是 Mastodon。我喜欢那里的社区，&lt;em&gt;因为&lt;/em&gt;它规模小，通常既没有戏剧性冲突也没有无聊的喧嚣。但规模小就意味着无法获得主流文化的关注。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/08/21/bluesky-user-base-is-tiny" title="Permanent link to ‘Bluesky’s Active User Base Is Shrinking, and Remains Tiny Compared to Threads and Twitter/X’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Fri, 21 Aug 2026 13:36:58 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 21 Aug 2026 16:09:11 +0000</pubDate></item></channel></rss>
