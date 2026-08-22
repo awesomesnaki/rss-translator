@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Fri, 21 Aug 2026 19:34:55 +0000</lastBuildDate><item><title>沃尔玛终于让步，即将支持Apple Pay</title><link>https://corporate.walmart.com/news/2026/08/21/more-ways-to-pay-tap-to-pay-is-coming-to-walmart-and-sams-club</link><description>&lt;p&gt;沃尔玛：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Fri, 21 Aug 2026 23:18:40 +0000</lastBuildDate><item><title>&lt;p&gt;文件格式霸权天启的第四位骑士&lt;/p&gt;</title><link>https://techcommunity.microsoft.com/blog/onedriveblog/introducing-markdown-support-in-sharepoint-and-onedrive/4512174</link><description>&lt;p&gt;微软的iPhone版OneDrive应用长期以来一直支持通过文件查看器中一个大的“+”按钮创建三种新文档类型：Excel、Word、PowerPoint。我&lt;a href="https://bsky.app/profile/jontatum.com/post/3mtknwk6vhc26"&gt;最近&lt;/a&gt;注意到他们增加了第四种文档类型，而且他们甚至给它配了一个真正的微软风格、“&lt;a href="https://www.youtube.com/watch?v=UiOzGI4MqSU"&gt;毫无品味可言&lt;/a&gt;”的文件图标。&lt;a href="https://daringfireball.net/misc/2026/08/onedrive-fourth-horseman.png"&gt;看看这个图标吧&lt;/a&gt;。整个世界都要完蛋了，Mallory。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/08/21/fourth-horseman-of-the-apocalypse-markdow" title="永久链接至‘文件格式霸权末日的第四位骑士’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Fri, 21 Aug 2026 23:18:40 +0000</pubDate></item><item><title>沃尔玛终于让步，即将支持Apple Pay</title><link>https://corporate.walmart.com/news/2026/08/21/more-ways-to-pay-tap-to-pay-is-coming-to-walmart-and-sams-club</link><description>&lt;p&gt;沃尔玛：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;当我们想到便利时，我们考虑的方面有很多，但让购物从始至终都更简单、更顺畅是其中很重要的一部分。而最关键的环节之一就是结账。&lt;/p&gt;
 &lt;p&gt;我们希望顾客和会员在支付方式上有更多选择，以便他们能以最适合自己的方式结账。现在，从8月24日起，我们将在部分沃尔玛门店和山姆会员店的支付选项中增加轻触支付（Tap to Pay），并计划在2026年底前推广至全美所有门店和会员店，2027年年中前推广至加油站。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;当我想到便利时，我想起的是CurrentC、扫那些愚蠢透顶的二维码，以及等了12年才用上Apple Pay。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/08/21/walmart-apple-pay-finally" title="「沃尔玛终于松口，即将支持Apple Pay」的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Fri, 21 Aug 2026 19:34:55 +0000</pubDate></item><item><title>★ 当新的DF帖子掉进森林，而那里没有人在读它们</title><link>https://daringfireball.net/2026/08/df_posts_drop_in_a_forest</link><description>&lt;p&gt;昨晚我忽然意识到，最近几篇文章收到的读者反馈比平时少。这几天里，我发了几篇&lt;a href="https://daringfireball.net/2026/08/apple_testflight_list_sort_order"&gt;文章&lt;/a&gt;和&lt;a href="https://daringfireball.net/linked/2026/08/20/bluesky-threads-sneak-logo-into-screenshots"&gt;条目&lt;/a&gt;，本以为一定会收到读者来信，有赞有弹。结果呢？什么都没有。一片寂静。比如，我每次写苹果和《数字市场法》时，几乎总能听到欧盟那边“吱吱作响的轮子”发出的声音，但昨天我发了一篇&lt;a href="https://daringfireball.net/2026/08/apple_eu_business_terms_conceding_little"&gt;关于苹果实际上让欧盟委员会当众出丑的文章&lt;/a&gt;，谈的是App Store佣金问题，结果什么反响都没有。&lt;/p&gt;
-&lt;p&gt;今天早上我注意到，那个自动把新文章发布到&lt;a href="https://mastodon.social/@daringfireball"&gt;DF账户Mastodon&lt;/a&gt;的机器人自从周二晚上起就没再发过东西。但问题不在Mastodon发布机器人。坏的是另一个负责更新RSS和JSON订阅源的后台任务。大概是在周二晚上到周三早上之间出了故障。Mastodon发布机器人读取的是RSS订阅源，如果RSS里没有新内容，机器人自然没东西可发。不过，我还是觉得奇怪，居然没有一个&lt;a href="https://daringfireball.net/feeds/"&gt;通过订阅源关注DF&lt;/a&gt;的人发邮件、发短信或@我，抱怨网站上的新文章没有出现在订阅源里。一个都没有。&lt;/p&gt;
-&lt;p&gt;然后我想起来了，DF网站首页就是由……RSS订阅源生成的。&lt;sup id="fnr1-2026-08-21"&gt;&lt;a href="https://daringfireball.net/#fn1-2026-08-21"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;所以，是啊，基本上除了我，没人意识到自周二晚上最后一次更新之后，我已经写了七篇新文章。哎。难怪这几天没收到任何读者来信，这完全说得通了。很抱歉把本周的大部分内容一次性发了出来。咱们就假装今天的DF是一份周报吧。&lt;/p&gt;
+</description><pubDate>Fri, 21 Aug 2026 19:34:55 +0000</pubDate></item><item><title>★ 当新的DF帖子掉进森林，而那里没有人在读它们</title><link>https://daringfireball.net/2026/08/df_posts_drop_in_a_forest</link><description>&lt;p&gt;昨晚我突然想到，关于最近的帖子，我收到的反馈比平时少。最近几天我发的一些内容，我原以为肯定会收到读者的反馈，无论赞成还是反对。但：什么都没有。只有蟋蟀在叫。比如，每当我写到苹果和《数字市场法》（DMA）时，几乎总能听到欧盟那边刺耳的声音，但关于我昨天的观点——&lt;a href="https://daringfireball.net/2026/08/apple_eu_business_terms_conceding_little"&gt;苹果实际上让欧盟委员会在App Store佣金问题上颜面扫地&lt;/a&gt;——我却什么都没听到。&lt;/p&gt;
+&lt;p&gt;今天早上我注意到，自动将新文章发布到&lt;a href="https://mastodon.social/@daringfireball"&gt;DF Mastodon账户&lt;/a&gt;的机器人自周二晚上起就没有发布过内容。但出问题的不是Mastodon发布机器人，而是另一个更新RSS和JSON订阅源的自动化任务。它是在周二晚上到周三早上之间的某个时候坏掉的。Mastodon发布机器人会读取RSS订阅源，如果RSS订阅源里没有新内容，机器人就没什么可发布的。不过，我仍然觉得奇怪，为什么没有一位&lt;a href="https://daringfireball.net/feeds/"&gt;通过订阅源关注DF&lt;/a&gt;的读者发邮件、发短信或@我，抱怨网站上的新文章不再出现在订阅源里。一个都没有。&lt;/p&gt;
+&lt;p&gt;然后，我想起来了，DF网站的主页是由……RSS订阅源生成的。&lt;sup id="fnr1-2026-08-21"&gt;&lt;a href="https://daringfireball.net/#fn1-2026-08-21"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;所以，是的，除了我之外，几乎没有人意识到我在周二晚上最后一次更新后又写了七篇新文章。哎呀。不用说，这几天没有收到任何读者反馈这件事，现在看来一点都不奇怪了。很抱歉这周的大部分内容是一次性发布的。我们可以假装今天的DF是一份周报。&lt;/p&gt;
 &lt;hr/&gt;
 &lt;ol&gt;
 &lt;li id="fn1-2026-08-21"&gt;
-&lt;p&gt;这次出故障的系统导致订阅源生成脚本无法看到新内容，而在近期的记忆中——去年十月——它也出过一次故障。但十月份那次，我在几小时内就发现了，因为读者不断抱怨同一个错别字——那是我在CMS里已经修正、但在首页上仍然可见的错字，因为首页只从订阅源内容更新。我以前从没想过要加某种警报来监测这件事，因为我总以为自己会注意到新发布的文章没出现在首页或订阅源里。 &lt;a href="https://daringfireball.net/#fnr1-2026-08-21" title="跳回正文中的脚注1。"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这个出故障的系统反过来导致订阅源生成脚本无法看到新内容，在最近的记忆中它曾出过一次故障——去年十月。但十月那次故障发生后的几个小时内我就发现了，因为读者一直在抱怨同一个错别字——我已经在CMS中修正了——但主页上仍然可见，因为主页只会从订阅源内容进行更新。我从未考虑过添加某种警报来检查这一点，因为我总是以为，如果我发布的新内容没有出现在主页或订阅源中，我会注意到。 &lt;a href="https://daringfireball.net/#fnr1-2026-08-21" title="跳回正文中的脚注1。"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 </description><pubDate>Fri, 21 Aug 2026 16:09:11 +0000</pubDate></item><item><title>Bluesky 的活跃用户基数正在萎缩，相比 Threads 和 Twitter/X，其规模仍然很小。</title><link>https://techcrunch.com/2026/08/11/blueskys-active-user-base-is-shrinking-as-its-focus-expands-beyond-the-app/</link><description>&lt;p&gt;Sarah Perez 上周在 TechCrunch 上写道：&lt;/p&gt;
@@ -40,4 +42,4 @@
 &lt;p&gt;那些抱怨我今天早些时候关闭帖子回复的人，正在用他们自己的行动完美地证明我关闭回复是对的。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;a href="https://daringfireball.net/linked/2026/08/21/bluesky-is-full-of-anti-ai-zealots" title="Permanent link to ‘Bluesky Is Full of Anti-AI Zealots’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Fri, 21 Aug 2026 12:52:47 +0000</pubDate></item><item><title>Bluesky和Threads如何将Logo悄然融入iOS截图</title><link>https://timmarinin.net/2026/bluesky-screenshots/</link><description/><pubDate>Fri, 21 Aug 2026 03:03:08 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 21 Aug 2026 12:52:47 +0000</pubDate></item></channel></rss>
