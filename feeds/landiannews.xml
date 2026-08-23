@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sun, 23 Aug 2026 04:33:12 +0000</lastBuildDate><item><title>Linux Kernel CIFS/SMB2/SMB3/KSMBD 主要维护者史蒂夫·弗伦奇因病离世</title><link>https://www.landian.news/archives/126373.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sun, 23 Aug 2026 07:12:23 +0000</lastBuildDate><item><title>Codex将在8月24日早5点重置 同时修复近期出现的用量消耗快问题</title><link>https://www.landian.news/archives/126374.html</link><description>
+&lt;p&gt;#人工智能 Codex 将在明天早晨 5 点进行重置，同时将发布新版本修复近期出现的用量高问题。需要说明的是，蒂博刚刚列出的几个原因可能并不是用量高的主要原因，具体 Codex 团队还需要继续调查，但作为补偿先重置恢复用户的用量。蒂博列出的问题包括：长会话中发送图片后出现低效问题、计算机历史功能 P95 + 使用率过高 (大部分用户不使用这个功能)、用于生成对话标题的功能用量要略微超出预期。查看全文：https://ourl.co/126374&lt;/p&gt;&lt;p&gt;近期在社交媒体上大量用户抱怨 Codex 配额消耗速度太快，&lt;a href="https://www.landian.news/archives/126367.html" rel="noopener" target="_blank"&gt;即便蒂博为所有用户赠送 1 张重置卡也无法缓解大家的抱怨&lt;/a&gt;，毕竟如果无法解决问题的话靠重置卡没有任何意义，而且很多用户并未使用 Sub2Api 反代也出现配额严重缩减问题。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/02/111836.png" rel="nofollow"&gt;&lt;img alt="Codex将在8月25日早6点重置 同时修复近期出现的用量消耗快问题" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/02/111836.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Codex 技术经理在昨天发布的最新推文中透露，某些用户在本周的缓存命中率要比之前几周的稳定状态更差，这或许可以解释为什么这些用户观察到的使用量消耗会更快，毕竟缓存价格是更便宜的，如果缓存命中率较低就有可能导致输入内容更多从而消耗更多配额。&lt;/p&gt;
+&lt;p&gt;不过当前还不清楚具体问题所在，有用户称这可能与 Codex 调用工具有关，在每轮会话中 Codex 可能会根据情况调用多种工具，如果要调用新工具的话则 Codex 会将新工具放在提示词头部，这有可能导致旧缓存失效，进而引起实际用量显著增高。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;据蒂博刚刚发布的最新推文，蒂博调查后发现目前在用量方面存在如下问题：1. 在长会话 / 多轮会话中如果发送图片则可能在进行多次压缩后出现低效问题；2. 计算机历史功能 P95 + 使用率过高；3. 原本用于生成对话标题的功能其使用量要高于预期。&lt;/p&gt;
+&lt;p&gt;目前导致用量消耗增加的原因可能与多轮会话中的图像压缩有关，该功能也会导致计算机流量显著增加，即图片可能会被反复发送。而其他问题造成的用量增加不明显，因为计算机历史功能仅限于部分用户使用，大部分用户应该无法或从未使用过该功能。而生成对话标题即便消耗部分用量也不至于太多。&lt;/p&gt;
+&lt;p&gt;所以 Codex 团队目前还在继续调查用量消耗快问题，但在明天 Codex 团队将发布新版本用于修复这些已经找到的问题，下周 Codex 还会部署新方案用来提升效率并降低使用量。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;作为故障的补偿措施，蒂博已经宣布将在太平洋标准时间 2026 年 8 月 24 日 14:00 对所有订阅用户进行额度重置，按照时间换算国内时间是 8 月 24 日早晨 5 点。考虑到大家的自然重置额度可能恢复不久、当前还有不少剩余配额，那用户就可以规划下用量情况，赶在 8 月 24 日早晨 5 点前将配额用尽。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sun, 23 Aug 2026 07:12:23 +0000</pubDate></item><item><title>Linux Kernel CIFS/SMB2/SMB3/KSMBD 主要维护者史蒂夫·弗伦奇因病离世</title><link>https://www.landian.news/archives/126373.html</link><description>
 &lt;p&gt;#行业资讯 Linux Kernel CIFS/SMB2/SMB3/KSMBD 主要维护者、微软首席软件工程师史蒂夫・弗伦奇因病离世。在最近的 Linux Kernel 7.3 代码中，有社区成员注意到 CIFS/SMB3 代码维护者发生变化，长期维护者史蒂夫因健康原因卸任，但没想到短短几天后史蒂夫家人就证实史蒂夫已经离世。现在 CIFS/SMB3 主要维护者已经变更为保罗・阿尔坎塔拉和全南宰，这两名工程师将共同维护 CIFS 和 SMB3。查看全文：https://ourl.co/126373&lt;/p&gt;&lt;p&gt;近期社区有人注意到 Linux Kernel 7.3 中的通用互联网文件系统 (CIFS) 和 SMB3 代码的维护者发生变化，长期维护者、Linux Kernel CIFS 的主要作者、微软工程师史蒂夫・弗伦奇 (Steve French) 因健康原因卸任，离开长期的内核维护者岗位。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126373.png" rel="nofollow"&gt;&lt;img alt="Linux Kernel CIFS/SMB2/SMB3/KSMBD 主要维护者史蒂夫·弗伦奇因病离世 " decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126373.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -101,20 +114,4 @@
 &lt;p&gt;至少现阶段还未发现微软直接向用户静默推送安装这个广告程序，可能是微软还在测试，未来测试完毕后再推送安装，然后弹出窗口引导用户接受设置。只要用户接受设置微软就可以通过这个广告程序接管用户浏览器设置。&lt;/p&gt;
 &lt;p&gt;不过谷歌浏览器现在对篡改搜索引擎也有安全措施，当某个扩展程序试图篡改默认搜索引擎时，谷歌浏览器会弹出警告窗口并提醒用户是否要改回去，因此微软可能还没法通过正规手段直接静默劫持，所以整个流程都需要用户确认才可以。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sun, 23 Aug 2026 03:01:48 +0000</pubDate></item><item><title>多名行业大佬联合成立Omacom基金会 用于推动Omarchy Linux系统的发展</title><link>https://www.landian.news/archives/126369.html</link><description>
-&lt;p&gt;#行业资讯 DHH 联合戴尔创始人、Cloudflare CEO 等行业大佬成立 Omacom 基金会，用于推动 Omarchy Linux 系统的发展。近期 DHH 开发的 Omarchy Linux 系统热度非常高，现在 DHH 成立非营利基金会来推动该系统的发展。基金会启动资金 800 万美元，基金会持有相关商标、资助基础设施、推动工作发展、支持 Omarchy 系统依赖的开源项目和开发者。查看全文：https://ourl.co/126369&lt;/p&gt;&lt;p&gt;日前知名开发者 DHH 宣布成立 Omacom 基金会用于推动 Omarchy Linux 系统的发展，Omarchy 是 DHH 打造的 Linux 桌面版系统，该系统与传统的 Linux 桌面系统完全不同，更像是 TUI 与桌面环境的组合，目前 Omarchy 系统在社交媒体上的热度非常高。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126369.png" rel="nofollow"&gt;&lt;img alt="多名行业大佬联合成立Omacom基金会 用于推动Omarchy Linux系统的发展" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126369.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Omacom 基金会创始人为 8 名行业大佬，每名大佬出资 100 万美元合计 800 万美元作为启动资金，基金会本身也是非营利的，基金会将持有 Omarchy 相关商标、资助基础设施、推动工作发展、支持 Omarchy 系统依赖的开源项目和开发者。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;DHH：Ruby on Rails 的创建者，也是 Omarchy 系统的核心开发者&lt;/li&gt;
-&lt;li&gt;迈克尔戴尔：戴尔创始人&lt;/li&gt;
-&lt;li&gt;Matthew Prince：网络服务提供商 Cloudflare 首席执行官&lt;/li&gt;
-&lt;li&gt;Tobi：电商平台 Shopify 首席执行官&lt;/li&gt;
-&lt;li&gt;Patrickc：支付平台 Stripe 首席执行官&lt;/li&gt;
-&lt;li&gt;杰克多西：推特创始人&lt;/li&gt;
-&lt;li&gt;Brendan Irvine：Oculus 联合创始人&lt;/li&gt;
-&lt;li&gt;Jasonfried：37signals 首席执行官&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 22 Aug 2026 04:25:57 +0000</pubDate></item></channel></rss>
+</description><pubDate>Sun, 23 Aug 2026 03:01:48 +0000</pubDate></item></channel></rss>
