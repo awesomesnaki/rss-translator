@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sun, 23 Aug 2026 07:12:23 +0000</lastBuildDate><item><title>Codex将在8月24日早5点重置 同时修复近期出现的用量消耗快问题</title><link>https://www.landian.news/archives/126374.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 24 Aug 2026 00:30:57 +0000</lastBuildDate><item><title>Claude Code Fable 5推理强度被悄悄降低？官方回应仅为配置测试不影响实际性能</title><link>https://www.landian.news/archives/126375.html</link><description>
+&lt;p&gt;#人工智能 Claude Code Fable 5 推理强度被悄悄降低？A 社回应称仅为配置测试不影响实际性能。有开发者发现在 Claude Code 中使用 Fable 5 且设置高努力程度时，模型表示当前努力程度为 10 分 (满分 100 分，10 分相当于低努力程度)，这可能是 Fable 5 降智的原因。不过 CC 团队成员表示，这是测试 API 服务配置，努力程度的数值映射并非 10~100，这些数值本身没有独立意义，CC 也会继续按照用户选择的努力程度进行推理。查看全文：https://ourl.co/126375&lt;/p&gt;&lt;p&gt;近期有开发者注意到 Claude Fable 5 模型在使用过程中出现明显的降智现象，即模型的聪明程度远不如以前；同时有开发者发现即便自己在 Claude Code 中将努力程度设置为高，但模型自身仍然会报告当前推理努力仅为 10 分 (满分为 100 分)，而 10 分对应着低努力程度。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126375.png" rel="nofollow"&gt;&lt;img alt="Claude Code Fable 5推理强度被悄悄降低？官方回应仅为配置测试不影响实际性能" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126375.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;从开发者们发布的截图来看，在设置高努力程度下询问模型当前的努力程度，模型会表示自己当前正在进行快速且浅层的思考，对应的努力程度分数为 10 分。也有开发者设置 xHigh 努力程度进行测试，模型给出的反馈是 40 分，相当于中等努力程度。&lt;/p&gt;
+&lt;p&gt;这让很多开发者不满，因为在 Claude Code 更新日志中 A 社并未提到过这部分调整，因此这有可能是 A 社在服务端执行的更改，即压缩努力级别的数字映射。旧版 Claude Code 和 Claude Opus 系列模型不受影响，社区猜测这有可能是 A 社正在进行 A/B 对照测试。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;引起关注后 Claude Code 团队成员 @Thariq 发布回应称这是在测试 API 服务配置，目前有测试选项在对努力程度的数值进行不同的映射，这也是 Claude Code 有时候可能会告诉用户即便在高努力模式下分数也是 10 的原因。&lt;/p&gt;
+&lt;p&gt;@Thariq 也特别强调目前努力程度的数值映射并非 0~100，当前这些数值本身没有独立意义，用户选择什么努力程度模型就会以相同的努力程度推理，A 社目前也在进行分析，确保这项测试不会影响模型的实际性能。&lt;/p&gt;
+&lt;p&gt;另外开发者询问模型努力程度时，对于简单的问题模型依然会表示自己只是进行简单思考，这个与努力程度无关，即模型对于任何简单的问题都会以简单方式进行思考，而不是简单的问题也使用复杂推理再回答用户。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://x.com/trq212/status/2091247114869432543" rel="noopener" target="_blank"&gt;X@Thariq&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 24 Aug 2026 00:30:57 +0000</pubDate></item><item><title>Codex将在8月24日早5点重置 同时修复近期出现的用量消耗快问题</title><link>https://www.landian.news/archives/126374.html</link><description>
 &lt;p&gt;#人工智能 Codex 将在明天早晨 5 点进行重置，同时将发布新版本修复近期出现的用量高问题。需要说明的是，蒂博刚刚列出的几个原因可能并不是用量高的主要原因，具体 Codex 团队还需要继续调查，但作为补偿先重置恢复用户的用量。蒂博列出的问题包括：长会话中发送图片后出现低效问题、计算机历史功能 P95 + 使用率过高 (大部分用户不使用这个功能)、用于生成对话标题的功能用量要略微超出预期。查看全文：https://ourl.co/126374&lt;/p&gt;&lt;p&gt;近期在社交媒体上大量用户抱怨 Codex 配额消耗速度太快，&lt;a href="https://www.landian.news/archives/126367.html" rel="noopener" target="_blank"&gt;即便蒂博为所有用户赠送 1 张重置卡也无法缓解大家的抱怨&lt;/a&gt;，毕竟如果无法解决问题的话靠重置卡没有任何意义，而且很多用户并未使用 Sub2Api 反代也出现配额严重缩减问题。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/02/111836.png" rel="nofollow"&gt;&lt;img alt="Codex将在8月25日早6点重置 同时修复近期出现的用量消耗快问题" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/02/111836.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -100,18 +113,4 @@
 &lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;消息源：&lt;/strong&gt;&lt;a href="https://www.landian.news/go?url=https://mp.weixin.qq.com/s/ipei4VrTTII0DgZqzMIzyw" rel="noopener" target="_blank"&gt;e-Science&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sun, 23 Aug 2026 03:38:59 +0000</pubDate></item><item><title>微软开发了纯广告软件 安装后会将你的所有浏览器默认搜索都切换为必应</title><link>https://www.landian.news/archives/126370.html</link><description>
-&lt;p&gt;#软件资讯 微软开发了纯广告软件：安装后会将你的所有浏览器默认搜索、主页和新标签页都换成必应搜索和必应信息流广告页。这个广告程序名为 Microsoft Recommended Search Settings，主要功能就是在各个浏览器上安装必应搜索扩展然后接管默认搜索。不过现阶段这个广告软件还未被静默推送安装，可能是微软还在测试中。查看全文：https://ourl.co/126370&lt;/p&gt;&lt;p&gt;微软日前开发了名为 Microsoft Recommended Search Settings 的新独立应用程序，该应用程序并未默认推送安装或通过弹窗推荐安装，可能是还在测试阶段所以还没有明显的流氓行为。&lt;/p&gt;
-&lt;p&gt;该应用的主要功能就是检查本地已经安装的所有 Chromium 浏览器，然后安装对应的扩展程序，这个扩展程序会自动接管浏览器的默认搜索引擎、新标签页、主页等，当然都是自动重定向到必应搜索。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126370.png" rel="nofollow"&gt;&lt;img alt="微软开发了纯广告软件 安装后会将你的所有浏览器默认搜索都切换为必应" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126370.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;检查本地已安装的所有 Chromium 浏览器和 Firefox 浏览器&lt;/li&gt;
-&lt;li&gt;自动安装 Microsoft Bing Homepage &amp;amp; Search for Chrome 扩展程序&lt;/li&gt;
-&lt;li&gt;自动接管以上浏览器的默认搜索引擎、主页和新标签页并设置为必应搜索和必应信息流主页&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;至少现阶段还未发现微软直接向用户静默推送安装这个广告程序，可能是微软还在测试，未来测试完毕后再推送安装，然后弹出窗口引导用户接受设置。只要用户接受设置微软就可以通过这个广告程序接管用户浏览器设置。&lt;/p&gt;
-&lt;p&gt;不过谷歌浏览器现在对篡改搜索引擎也有安全措施，当某个扩展程序试图篡改默认搜索引擎时，谷歌浏览器会弹出警告窗口并提醒用户是否要改回去，因此微软可能还没法通过正规手段直接静默劫持，所以整个流程都需要用户确认才可以。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sun, 23 Aug 2026 03:01:48 +0000</pubDate></item></channel></rss>
+</description><pubDate>Sun, 23 Aug 2026 03:38:59 +0000</pubDate></item></channel></rss>
