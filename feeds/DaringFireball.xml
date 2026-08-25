@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Mon, 24 Aug 2026 16:37:54 +0000</lastBuildDate><item><title>BitCam：1位相机应用迎来2.0版本</title><link>https://bitcam-app.com/</link><description>&lt;p&gt;10年前，&lt;a href="https://daringfireball.net/linked/2016/06/10/bitcam"&gt;我写过关于BitCam 1.0的文章&lt;/a&gt;：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 25 Aug 2026 00:37:24 +0000</lastBuildDate><item><title>[赞助商] 入围者4：受纸质日程本启发</title><link>https://www.finalist.works/?utm_source=df-aug-2026</link><description>&lt;p&gt;Finalist 4 是迄今最大的一次更新，为这款以纸张为灵感的日程规划应用带来了 iPhone、iPad、Mac 以及现在 Apple Watch 的支持。最引人注目的是 Notes 功能，既可以在应用内使用，也可以作为一整套 Markdown 文件文件夹，与 Obsidian 双向同步。这些文件中的任务会出现在正确的日期上，紧随你的提醒事项和日历事件，甚至可以显示在 macOS 菜单栏应用中。&lt;/p&gt;
+&lt;p&gt;重新构建的 Timeline 功能让你可以将任务像用铅笔画进日程表一样轻松排入一天，而 Apple Pencil 则拥有特殊能力，让你在几秒钟内快速勾勒出计划。&lt;/p&gt;
+&lt;p&gt;还有更多精彩内容，历经四个月与 1,000 名测试者共同打磨。现在可以在 App Store 免费试用。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/feeds/sponsors/2026/08/finalist_4_inspired_by_paper_d" title="“Finalist 4：以纸张日程规划为灵感”的固定链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Tue, 25 Aug 2026 00:37:24 +0000</pubDate></item><item><title>苹果重新考虑将“隐藏我的电子邮件”域名与“通过Apple登录”合并的计划</title><link>https://developer.apple.com/news/?id=1ptvdtcm</link><description>&lt;p&gt;苹果开发者新闻：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;从今年晚些时候开始，新的“通过 Apple 登录”地址将改为在 &lt;code&gt;private.icloud.com&lt;/code&gt; 上发放，而此前这些地址是在 &lt;code&gt;privaterelay.appleid.com&lt;/code&gt; 上发放的。&lt;code&gt;privaterelay.appleid.com&lt;/code&gt; 上的现有地址将继续正常工作，并将邮件无缝转发给用户，不会中断。&lt;/p&gt;
+&lt;p&gt;经过进一步考量并审阅社区反馈后，iCloud+“隐藏我的电子邮件”地址将继续保留在 &lt;code&gt;icloud.com&lt;/code&gt; 上。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href="https://daringfireball.net/linked/2026/06/18/new-domain-for-signinwithapple-and-icloudhidemyemail"&gt;今年六月，苹果曾宣布&lt;/a&gt;计划将两套系统合并到新的 &lt;code&gt;private.icloud.com&lt;/code&gt; 域名下。对这一计划的反对意见相当明显：“通过 Apple 登录”使用一个容易辨识的域名没有问题，因为只有支持“通过 Apple 登录”（SIWA）的网站才会看到这类电子邮件地址。而将“隐藏我的电子邮件”（HME）地址迁移到一个容易辨识的域名的问题在于，我们常常希望在一些更倾向于屏蔽这类地址、试图迫使我们使用“真实”地址的网站上使用隐藏电子邮件地址。六月我撰写相关文章后，有位知情人士向我透露，HME 一方从一开始就对这一合并计划存在强烈反对意见。现在看来，这些反对意见最终占了上风。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/08/24/apple-rethinks-hide-my-email-domain" title="‘Apple Rethinks Plan to Merge ‘Hide My Email’ Domain Name With ‘Sign In With Apple’’的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Mon, 24 Aug 2026 23:33:50 +0000</pubDate></item><item><title>★ DMA的意义何在？</title><link>https://daringfireball.net/2026/08/what_is_the_point_of_the_dma</link><description>&lt;p&gt;Wesley Hilliard，&lt;a href="https://appleinsider.com/articles/26/08/20/european-commission-approves-of-apples-new-app-store-terms-even-if-epic-doesnt"&gt;上周为AppleInsider报道&lt;/a&gt;：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href="https://www.independent.ie/business/apple-will-change-its-app-store-rules-to-end-its-dispute-with-the-eu/a/160196535.html"&gt;一篇报道&lt;/a&gt;来自《爱尔兰独立报》，详细介绍了欧盟委员会对苹果针对欧盟新商业条款的回应。他们表示欢迎这些变化，并将监督苹果对这些条款的实施情况。&lt;/p&gt;
+&lt;p&gt;以下是欧盟委员会的完整声明：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“欧盟委员会欢迎苹果对其商业条款的修改，这些修改是在2025年4月欧盟委员会就苹果的引导条款发布不合规决定，以及就替代应用分发提出初步调查结果之后，欧盟委员会与苹果密切对话的基础上达成的，”发言人表示。&lt;/p&gt;
+&lt;p&gt;“在今天的公告之后，欧盟委员会将监督苹果对新条款的有效实施。根据《数字市场法案》，欧盟用户有权充分有效地选择替代应用分发渠道。”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href="https://appleinsider.com/articles/25/10/21/apple-goes-on-the-legal-offensive-against-eu-digital-markets-act"&gt;《数字市场法案》&lt;/a&gt;的重点是为开发者开放竞争和选择，欧盟委员会似乎认为苹果的条款已经实现了这一目标。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我不认为这曾经是《数字市场法案》的重点。这是许多自己希望在iOS上获得更多竞争、选择和自由的开发者所臆测的法案重点。欧盟委员会对这些理想口惠而实不至，这鼓励人们认为这些理想才是《数字市场法案》的宗旨。但我一直主张的是，《数字市场法案》唯一真正的目的是让欧盟委员会在其此前毫无存在感的主要市场中强加不必要的官僚主义和麻烦。他们没有崇高的目标。他们只是想搭建一个官僚架构，明确展示“&lt;em&gt;欧盟委员会来过这里，并且做了些事。&lt;/em&gt;”对苹果、谷歌、微软和Meta处以巨额罚款；给这些公司&lt;em&gt;及其在欧盟的用户&lt;/em&gt;制造不便；这一切都是为了表明有所作为。（顺便收取他们&lt;a href="https://daringfireball.net/linked/2026/07/25/eu-fines-google-1b"&gt;最终&lt;/a&gt;&lt;a href="https://daringfireball.net/linked/2026/07/17/google-eu-fine"&gt;征收的&lt;/a&gt;罚款支票。）&lt;/p&gt;
+&lt;p&gt;这就是为什么&lt;a href="https://eur-lex.europa.eu/eli/reg/2022/1925/oj/eng"&gt;《数字市场法案》的文本本身&lt;/a&gt;如此难以阅读和理解。在这部法案晦涩难懂、令人费解的措辞中，并没有隐藏着“开放竞争和选择”的明确意图。法律本身的晦涩难懂反映了其真实意图：晦涩难懂的官僚主义。&lt;/p&gt;&lt;p&gt;&lt;a href="https://news.ycombinator.com/item?id=49348358"&gt;这位Hacker News上的评论者&lt;/a&gt;（via &lt;a href="https://mjtsai.com/blog/2026/08/18/new-eu-app-store-terms-to-comply-with-dma/"&gt;Michael Tsai的汇总&lt;/a&gt;）简直不敢相信：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这太离谱了，我无法相信欧盟委员会竟然同意了。DMA要解决的核心问题依然存在：苹果仍然对应用开发者与用户之间的交易拥有最终控制权。&lt;/p&gt;
+&lt;p&gt;欧盟本应推动的现状——也是DMA第6条第7款所要求的——是开发者无需与苹果建立任何合同关系就能将iOS应用分发给用户。大多数应用使用的操作系统API，用户在购买设备时就已经付过钱了。苹果想要双向收费，向开发者收取用户因为拥有包含所有必要iOS设施的iDevice而已经获得的价值。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;如果你认为DMA的目的是为开发者引入竞争、选择和自由，那确实，欧洲委员会批准这样的合规方案——苹果对App Store上分发的应用里的网页链接收取15%佣金，而且即使是通过第三方应用市场、使用第三方支付处理分发应用，苹果也要收取5%的核心技术费——看起来确实离谱。但如果你像我一样相信，DMA的目的是给苹果（以及谷歌、微软）——以及使用这些“守门人”平台的欧盟公民——强加明显的监管负担和官僚程序，那么欧洲委员会“欢迎”这些变化就完全不令人意外。委员会已经从苹果那里得到了它想要的一切：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;第三方应用市场（即使几乎没人用）。&lt;/li&gt;
+&lt;li&gt;越来越多对欧盟 withheld 的功能，比如iPhone镜像和Siri AI（这表明DMA“起作用了”，他们确实做了点什么）。&lt;/li&gt;
+&lt;li&gt;一堆罚款。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;我相信你们中有些人认为我的论点——DMA的目的仅仅是强加持续的官僚复杂性——完全站不住脚。但我的观点与实际情况是吻合的。比较一下&lt;a href="https://daringfireball.net/2025/12/apple_japan_msca_compliance"&gt;日本《移动软件竞争法》&lt;/a&gt;。苹果毫无波澜地遵守了MSCA明确规定的要求，日本用户没有错过iPhone镜像这样的功能，而Siri AI在日本唯一的延迟&lt;a href="https://www.apple.com/apple-intelligence/#footnote-1"&gt;只是语言支持&lt;/a&gt;。日本iOS用户获得了欧盟用户所享有的苹果监管合规的所有“好东西”，却没有那些相当严重的阻碍。&lt;/p&gt;</description><pubDate>Mon, 24 Aug 2026 22:47:20 +0000</pubDate></item><item><title>BitCam：1位相机应用迎来2.0版本</title><link>https://bitcam-app.com/</link><description>&lt;p&gt;10年前，&lt;a href="https://daringfireball.net/linked/2016/06/10/bitcam"&gt;我写过关于BitCam 1.0的文章&lt;/a&gt;：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;一款华丽且令人难以置信地忠实于原版Mac风格的iPhone单比特相机应用。这是对&lt;a href="https://www.google.com/search?q=bill+atkinson+dithering+algorithm"&gt;比尔·阿特金森非凡抖动算法&lt;/a&gt;的可爱致敬。&lt;a href="https://twitter.com/siracusa/status/740989106268831744"&gt;约翰·西拉库萨说&lt;/a&gt;：“对老派Mac用户来说简直是猫薄荷。”看看&lt;a href="https://twitter.com/cdespinosa/with_replies"&gt;刚加入苹果的克里斯·埃斯皮诺萨玩得多开心&lt;/a&gt;。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -10,32 +43,4 @@
 &lt;p&gt;奇怪的是，在8月13日，iPhone 版 TestFlight 又开始按最近更新时间顺序显示我的列表。TestFlight 应用本身并没有更新。我只是又开始看到列表以正确的顺序显示。不过只有我的 iPhone 是这样——在我的 Mac 和 iPad 上，TestFlight 仍在按字母顺序对应用排序。然后，两天后，我的 iPhone 又变回字母顺序，而且从那以后就一直卡在那里。&lt;/p&gt;
 &lt;p&gt;当列表按最近更新时间排序时，列表顶部会有一个“正在测试”（Currently Testing）标题，列表底部还有“不兼容”（Incompatible）和“先前测试过”（Previously Tested）等其他（可显示的）分类。当列表按字母顺序排序时，这些分类标题都不可见。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/08/24/more-on-testflights-screwy-sort-order" title="Permanent link to ‘More on TestFlight’s Screwy Sort Order’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 24 Aug 2026 15:22:16 +0000</pubDate></item><item><title>Cooper Sharp证明美式奶酪也能成为优质奶酪</title><link>https://sixcolors.com/member/2026/08/this-week-in-apple-lets-fight/</link><description>&lt;p&gt;约翰·莫尔茨在他为Six Colors撰写的每周会员专属专栏中写道（没有赠阅链接，但莫尔茨的专栏&lt;a href="https://sixcolors.com/subscribe/"&gt;本身就值得订阅&lt;/a&gt;）：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;本周&lt;a href="https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content"&gt;Anthropic宣布&lt;/a&gt;，为了区分AI生成的内容与人类创作的内容，它将通过微妙地改变模型选择下一个词时的随机性，为其生成的所有文本添加水印。尽管这看起来是一种实现崇高目标的完全合理的手段，但它却让约翰·格鲁伯大为光火，仿佛有人提议在他的费城奶酪牛排AI上加上自动补全版的瑞士奶酪。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a href="https://coopercheese.com/products/cooper-sharp-white"&gt;Cooper Sharp&lt;/a&gt;奶酪才是正解。城里最好的新奶酪牛排店——&lt;a href="https://readingterminalmarket.org/merchant/uncle-gus/"&gt;Uncle Gus’s&lt;/a&gt;——实际上&lt;em&gt;只&lt;/em&gt;提供Cooper Sharp奶酪。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;毫无疑问，格鲁伯那顶极其华丽的帽子里嗡嗡作响的成百上千只蜜蜂，很大程度是因为这一切表面上都是为了回应欧盟的一项指令。但正如詹姆斯·汤姆森所言，Anthropic可能实际上是&lt;em&gt;想要&lt;/em&gt;加水印，以免把自己的输出当作训练数据捡回去，从而导致模型质量下降。事实上，这家公司大概很乐意能识别出其他公司的水印，同时让自己的水印不被他人识破。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;需要说明的是，我反对Claude计划在全球范围内对所有生成的文本进行水印掺假，与它表面上是为了遵守欧盟法规无关。我确实认为欧盟的这项法规考虑得极不周全（而且它的起草时间是2024年，在技术上已经过时了），但即使欧盟没有任何与AI相关的法规，我也会写下我写的那些内容（并将继续写下去）。事实上，在撰写&lt;a href="https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing"&gt;我的第一篇文章&lt;/a&gt;时，我真的希望这事与欧盟无关，因为指出这项法规的愚蠢之处（以及一家据称价值2万亿美元的公司竟然在技术上无法在不全球范围内应用变更的情况下遵守欧盟法规的荒谬性），似乎偏离了我的重点——即通过可检测的用词选择给文本加水印所带来的种种影响。莫尔茨在这里的旁注恰好印证了这一点。&lt;/p&gt;&lt;p&gt;此外，我越来越觉得这跟欧盟法规关系不大，而完全是因为Anthropic和谷歌想给Claude和Gemini生成的文本打上水印，出于自身目的识别这些文本，避免将其用于训练未来的模型，从而防止&lt;a href="https://en.wikipedia.org/wiki/Model_collapse"&gt;模型崩溃/人工智能近亲繁殖&lt;/a&gt;。我怀疑Anthropic把这一决定归咎于欧盟《行为准则》法规，只不过是在找替罪羊。&lt;/p&gt;
-&lt;p&gt;（额外福利：Moltz对MacStories重返Twitter/X这出充满幸灾乐祸的大戏，发表了一番精辟犀利的评论（绝非奶酪双关语）。）&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/08/23/moltz-cooper-sharp" title="Permanent link to ‘Cooper Sharp Proves That American Cheese Can Be Great Cheese’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sun, 23 Aug 2026 17:36:28 +0000</pubDate></item><item><title>马克·卡尼谈特朗普治下的美国：“有时，它的签名是用铅笔写的”</title><link>https://www.nytimes.com/2026/08/22/world/canada/carney-tariffs-trade-trump.html?unlocked_article_code=1.7VA.r3Ue.GTc_tOhX0qSn</link><description>&lt;p&gt;伊恩·奥斯汀为《纽约时报》报道（赠阅链接）：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;在总理马克·卡尼撤回加拿大谈判代表、退出华盛顿贸易谈判并引发新一轮美国关税的次日早晨，他于周六向加拿大人解释了为何选择退出，称美方提案是“一笔糟糕的交易”。&lt;/p&gt;
-&lt;p&gt;“我们从一开始就认识到，美国已经变了，”卡尼说。“我们也认识到，有时它的签名是用铅笔写下的。”&lt;/p&gt;
-&lt;p&gt;“我们不能接受他们的条件，也不会答应他们的要求，”他补充道。“我们不愿拿加拿大的主权做妥协，也不愿损害我们的关键产业。”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-要是Sharpie也出铅笔就好了。
-
-卡尼在关键时刻挺身而出，向全世界展示了该如何与特朗普政府打交道。特朗普反复无常、情绪不稳、无知且不诚实。卡尼则始终如一、坚定沉着、博学且正直。对付一个骗子的唯一正确方式，就是&lt;a href="https://talkingpointsmemo.com/edblog/what-did-trump-do-that-made-carney-walk-away"&gt;跟他划清界限，并当面揭穿他的真面目&lt;/a&gt;。
-
-
-&lt;a href="https://daringfireball.net/linked/2026/08/22/canada-pm-on-us-trustworthiness" title="永久链接至《卡尼谈特朗普治下的美国：“有时，它的签名是用铅笔写下的”》"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sat, 22 Aug 2026 16:47:10 +0000</pubDate></item><item><title>WorkOS：智能体现在可以注册你的应用</title><link>https://workos.com/auth-md?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q32026</link><description>&lt;p&gt;感谢 WorkOS 本周赞助 &lt;a href="https://daringfireball.net/2026/08/df_posts_drop_in_a_forest"&gt;Daring Fireball 每周通讯&lt;/a&gt;，以推广他们的 Agent 注册功能。智能体正在涌入你的注册流程，却被一个为人类设计的浏览器登录页面挡在门外。每一个放弃离开的智能体，都意味着一个你永远不会看到的注册用户。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://workos.com/docs/authkit/agent-auth?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q32026"&gt;WorkOS Agent 注册&lt;/a&gt;能将这部分流量转化为注册。通过仪表盘完成配置后，AuthKit 会发布一个 auth.md 文件，智能体读取该文件即可注册，获取由你控制的范围限定、短期有效的凭据。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://workos.com/auth-md?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q32026"&gt;立即让你的应用为智能体做好准备&lt;/a&gt;。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/08/22/workos-agents-sign-up" title="指向“WorkOS：智能体现在可以为你的应用注册”的固定链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sat, 22 Aug 2026 14:18:29 +0000</pubDate></item></channel></rss>
+</description><pubDate>Mon, 24 Aug 2026 15:22:16 +0000</pubDate></item></channel></rss>
