@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 25 Aug 2026 14:38:01 +0000</lastBuildDate><item><title>★ 新款Mac Mini（M6/M5 Pro）和Mac Studio（M5 Max/M5 Ultra）的内存与存储配置及定价</title><link>https://daringfireball.net/2026/08/configurations_and_pricing_for_new_mac_minis_and_mac_studios</link><description>&lt;p&gt;苹果今天发布了全新的 Mac Mini（M6 和 M5 Pro）以及 Mac Studio（M5 Max 和 M5 Ultra）台式机产品线。Apple Newsroom 中关于 &lt;a href="https://www.apple.com/newsroom/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/"&gt;Mac Mini&lt;/a&gt; 和 &lt;a href="https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/"&gt;Mac Studio&lt;/a&gt; 的公告只标明了基础型号的价格。我尝试将所有内存/固态硬盘配置整理成简明表格，以便你查看每种芯片可选哪些存储和内存选项，以及它们的价格。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 25 Aug 2026 15:46:27 +0000</lastBuildDate><item><title>&lt;HTML&gt;关于GDPR和Cookie许可提示的脚注&lt;/HTML&gt;</title><link>https://daringfireball.net/2026/08/what_is_the_point_of_the_dma#fn1-2026-08-24</link><description>&lt;p&gt;如果你昨天已经读过我的“&lt;a href="https://daringfireball.net/2026/08/what_is_the_point_of_the_dma"&gt;DMA的意义何在？&lt;/a&gt;”一文，今天早上我添加了一条关于DMA前身——GDPR的长篇脚注。点击进入阅读完整注释，但关键内容是这样的：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;GDPR在10年前生效。从他们的不作为来看，他们显然认为它运作得很好。我认为他们审视形势后意识到，每当任何网站弹出cookie许可的坑爹提示时，那个提示实际上都带着一块“由欧盟委员会为您呈现”的徽章。他们来过这里，做了些事，全世界每个人每次打开浏览器都能看到GDPR cookie法规的成果。干得漂亮。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;a href="https://daringfireball.net/linked/2026/08/25/footnote-regarding-the-gdpr-and-cookie-permission-prompts" title="‘GDPR与Cookie许可弹窗脚注’的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Tue, 25 Aug 2026 15:46:27 +0000</pubDate></item><item><title>★ 新款Mac Mini（M6/M5 Pro）和Mac Studio（M5 Max/M5 Ultra）的内存与存储配置及定价</title><link>https://daringfireball.net/2026/08/configurations_and_pricing_for_new_mac_minis_and_mac_studios</link><description>&lt;p&gt;苹果今天发布了全新系列的 Mac Mini（M6 和 M5 Pro）以及 Mac Studio（M5 Max 和 M5 Ultra）台式电脑。Apple Newsroom 关于 &lt;a href="https://www.apple.com/newsroom/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/"&gt;Mac Mini&lt;/a&gt; 和 &lt;a href="https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/"&gt;Mac Studio&lt;/a&gt; 的公告只提到了基础型号的价格。我试着将所有内存/固态硬盘配置整理成简明的表格，这样你就可以看到每款芯片有哪些存储和内存选项，以及它们的价格。&lt;/p&gt;
 &lt;h2&gt;Mac Mini M6&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;12核CPU、12核GPU：$900
   内存：
@@ -48,7 +53,7 @@
   内存：
        96 GB       $0
       256 GB    $4000
-      512 GB   “即将于十月下旬上市”
+      512 GB   “10月下旬上市”
   固态硬盘：
         1 TB       $0
         2 TB     $500
@@ -58,12 +63,12 @@
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2&gt;备注&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;以太网：所有 Mac Mini 机型从 2.5 千兆升级到 10 千兆需要 100 美元。Mac Studio 所有机型标配 10 千兆以太网。&lt;/li&gt;
-&lt;li&gt;如果你给 M6 Mac Mini 配置 2 TB 存储，那么固态硬盘升级费用（1,000 美元）比整台基础型号电脑（900 美元）还要高。M5 Pro Mac Mini 的 4 TB 固态硬盘升级也是如此（升级费 1,800 美元，电脑基础价 1,700 美元）。&lt;/li&gt;
-&lt;li&gt;Mac Mini 和 Mac Studio 都有多种炫酷颜色可供选择，包括银色。&lt;/li&gt;
-&lt;li&gt;有点遗憾的是，Studio 在 96 GB 基础内存和 4,000 美元的 256 GB 升级之间没有任何内存选项。&lt;/li&gt;
-&lt;li&gt;一台配置拉满的 Studio（36/80 核、256 GB 内存、16 TB 固态硬盘）售价 18,300 美元。但如果你能接受基础版 30/64 核芯片和 8 TB 存储，价格可以降到刚好 13,000 美元。&lt;/li&gt;
-&lt;li&gt;“十月下旬上市” = “等着挨宰吧”&lt;/li&gt;
+&lt;li&gt;以太网：所有 Mac Mini 机型从 2.5 千兆升级到 10 千兆需要 100 美元。Mac Studio 的所有机型均标配 10 千兆以太网。&lt;/li&gt;
+&lt;li&gt;如果你将 M6 Mac Mini 配置为 2 TB 存储，固态硬盘升级费用（1000 美元）比整台基础版电脑（900 美元）还贵。M5 Pro Mini 的 4 TB 固态硬盘升级也是如此（1800 美元的升级费，而电脑基础价格 1700 美元）。&lt;/li&gt;
+&lt;li&gt;Mac Mini 和 Mac Studio 都有多种很酷的颜色可选，包括银色。&lt;/li&gt;
+&lt;li&gt;有点糟糕的是，Studio 在 96 GB 基础版和 4000 美元的 256 GB 升级之间没有内存选项。&lt;/li&gt;
+&lt;li&gt;目前可订购的最强 Mac Studio（36/80 核、256 GB 内存、16 TB 固态硬盘）售价 18,300 美元。但如果你接受基础版 30/64 核芯片和仅 8 TB 存储，价格可以降到整整 13,000 美元。&lt;/li&gt;
+&lt;li&gt;“10月下旬上市” = “等着挨宰”。&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 25 Aug 2026 14:38:01 +0000</pubDate></item><item><title>苹果发布M6与M5 Ultra芯片，搭载于新款Mac Mini和Mac Studio</title><link>https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/</link><description>&lt;p&gt;Apple Newsroom：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Apple今日在全新Mac mini中推出M6芯片，并在全新Mac Studio中推出M5 Ultra芯片，实现了性能和AI能力的非凡飞跃。M6是Apple首款采用尖端2纳米制程的芯片，全面升级了每个计算单元，在性能的各个维度都带来了提升。该芯片配备更大的12核CPU集群，拥有全球最快的CPU核心，以及搭载神经加速器的更大12核GPU、双16核神经引擎，并支持高达170GB/s的统一内存带宽。M5 Ultra是面向专业和AI工作负载的终极性能巨兽，采用下一代UltraFusion技术，首次在M系列片上系统（SoC）中形成四晶粒架构。该芯片配备最高36核CPU和最高80核GPU，拥有高达1.2TB/s的统一内存带宽，比M3 Ultra高出50%。&lt;/p&gt;
@@ -82,26 +87,4 @@
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;a href="https://daringfireball.net/linked/2026/06/18/new-domain-for-signinwithapple-and-icloudhidemyemail"&gt;今年六月，苹果曾宣布&lt;/a&gt;计划将两套系统合并到新的 &lt;code&gt;private.icloud.com&lt;/code&gt; 域名下。对这一计划的反对意见相当明显：“通过 Apple 登录”使用一个容易辨识的域名没有问题，因为只有支持“通过 Apple 登录”（SIWA）的网站才会看到这类电子邮件地址。而将“隐藏我的电子邮件”（HME）地址迁移到一个容易辨识的域名的问题在于，我们常常希望在一些更倾向于屏蔽这类地址、试图迫使我们使用“真实”地址的网站上使用隐藏电子邮件地址。六月我撰写相关文章后，有位知情人士向我透露，HME 一方从一开始就对这一合并计划存在强烈反对意见。现在看来，这些反对意见最终占了上风。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/08/24/apple-rethinks-hide-my-email-domain" title="‘Apple Rethinks Plan to Merge ‘Hide My Email’ Domain Name With ‘Sign In With Apple’’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 24 Aug 2026 23:33:50 +0000</pubDate></item><item><title>★ DMA的意义何在？</title><link>https://daringfireball.net/2026/08/what_is_the_point_of_the_dma</link><description>&lt;p&gt;Wesley Hilliard，&lt;a href="https://appleinsider.com/articles/26/08/20/european-commission-approves-of-apples-new-app-store-terms-even-if-epic-doesnt"&gt;上周为AppleInsider报道&lt;/a&gt;：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href="https://www.independent.ie/business/apple-will-change-its-app-store-rules-to-end-its-dispute-with-the-eu/a/160196535.html"&gt;一篇报道&lt;/a&gt;来自《爱尔兰独立报》，详细介绍了欧盟委员会对苹果针对欧盟新商业条款的回应。他们表示欢迎这些变化，并将监督苹果对这些条款的实施情况。&lt;/p&gt;
-&lt;p&gt;以下是欧盟委员会的完整声明：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“欧盟委员会欢迎苹果对其商业条款的修改，这些修改是在2025年4月欧盟委员会就苹果的引导条款发布不合规决定，以及就替代应用分发提出初步调查结果之后，欧盟委员会与苹果密切对话的基础上达成的，”发言人表示。&lt;/p&gt;
-&lt;p&gt;“在今天的公告之后，欧盟委员会将监督苹果对新条款的有效实施。根据《数字市场法案》，欧盟用户有权充分有效地选择替代应用分发渠道。”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a href="https://appleinsider.com/articles/25/10/21/apple-goes-on-the-legal-offensive-against-eu-digital-markets-act"&gt;《数字市场法案》&lt;/a&gt;的重点是为开发者开放竞争和选择，欧盟委员会似乎认为苹果的条款已经实现了这一目标。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;我不认为这曾经是《数字市场法案》的重点。这是许多自己希望在iOS上获得更多竞争、选择和自由的开发者所臆测的法案重点。欧盟委员会对这些理想口惠而实不至，这鼓励人们认为这些理想才是《数字市场法案》的宗旨。但我一直主张的是，《数字市场法案》唯一真正的目的是让欧盟委员会在其此前毫无存在感的主要市场中强加不必要的官僚主义和麻烦。他们没有崇高的目标。他们只是想搭建一个官僚架构，明确展示“&lt;em&gt;欧盟委员会来过这里，并且做了些事。&lt;/em&gt;”对苹果、谷歌、微软和Meta处以巨额罚款；给这些公司&lt;em&gt;及其在欧盟的用户&lt;/em&gt;制造不便；这一切都是为了表明有所作为。（顺便收取他们&lt;a href="https://daringfireball.net/linked/2026/07/25/eu-fines-google-1b"&gt;最终&lt;/a&gt;&lt;a href="https://daringfireball.net/linked/2026/07/17/google-eu-fine"&gt;征收的&lt;/a&gt;罚款支票。）&lt;/p&gt;
-&lt;p&gt;这就是为什么&lt;a href="https://eur-lex.europa.eu/eli/reg/2022/1925/oj/eng"&gt;《数字市场法案》的文本本身&lt;/a&gt;如此难以阅读和理解。在这部法案晦涩难懂、令人费解的措辞中，并没有隐藏着“开放竞争和选择”的明确意图。法律本身的晦涩难懂反映了其真实意图：晦涩难懂的官僚主义。&lt;/p&gt;&lt;p&gt;&lt;a href="https://news.ycombinator.com/item?id=49348358"&gt;这位Hacker News上的评论者&lt;/a&gt;（via &lt;a href="https://mjtsai.com/blog/2026/08/18/new-eu-app-store-terms-to-comply-with-dma/"&gt;Michael Tsai的汇总&lt;/a&gt;）简直不敢相信：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;这太离谱了，我无法相信欧盟委员会竟然同意了。DMA要解决的核心问题依然存在：苹果仍然对应用开发者与用户之间的交易拥有最终控制权。&lt;/p&gt;
-&lt;p&gt;欧盟本应推动的现状——也是DMA第6条第7款所要求的——是开发者无需与苹果建立任何合同关系就能将iOS应用分发给用户。大多数应用使用的操作系统API，用户在购买设备时就已经付过钱了。苹果想要双向收费，向开发者收取用户因为拥有包含所有必要iOS设施的iDevice而已经获得的价值。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;如果你认为DMA的目的是为开发者引入竞争、选择和自由，那确实，欧洲委员会批准这样的合规方案——苹果对App Store上分发的应用里的网页链接收取15%佣金，而且即使是通过第三方应用市场、使用第三方支付处理分发应用，苹果也要收取5%的核心技术费——看起来确实离谱。但如果你像我一样相信，DMA的目的是给苹果（以及谷歌、微软）——以及使用这些“守门人”平台的欧盟公民——强加明显的监管负担和官僚程序，那么欧洲委员会“欢迎”这些变化就完全不令人意外。委员会已经从苹果那里得到了它想要的一切：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;第三方应用市场（即使几乎没人用）。&lt;/li&gt;
-&lt;li&gt;越来越多对欧盟 withheld 的功能，比如iPhone镜像和Siri AI（这表明DMA“起作用了”，他们确实做了点什么）。&lt;/li&gt;
-&lt;li&gt;一堆罚款。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;我相信你们中有些人认为我的论点——DMA的目的仅仅是强加持续的官僚复杂性——完全站不住脚。但我的观点与实际情况是吻合的。比较一下&lt;a href="https://daringfireball.net/2025/12/apple_japan_msca_compliance"&gt;日本《移动软件竞争法》&lt;/a&gt;。苹果毫无波澜地遵守了MSCA明确规定的要求，日本用户没有错过iPhone镜像这样的功能，而Siri AI在日本唯一的延迟&lt;a href="https://www.apple.com/apple-intelligence/#footnote-1"&gt;只是语言支持&lt;/a&gt;。日本iOS用户获得了欧盟用户所享有的苹果监管合规的所有“好东西”，却没有那些相当严重的阻碍。&lt;/p&gt;</description><pubDate>Mon, 24 Aug 2026 22:47:20 +0000</pubDate></item></channel></rss>
+</description><pubDate>Mon, 24 Aug 2026 23:33:50 +0000</pubDate></item></channel></rss>
