@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 25 Aug 2026 05:05:50 +0000</lastBuildDate><item><title>.NET Framework 8月更新导致Windows 11打印异常 微软已分享临时解决方案</title><link>https://www.landian.news/archives/126446.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 25 Aug 2026 07:37:47 +0000</lastBuildDate><item><title>另类开源！Grok Bot打包失误忘记关闭源码映射文件 现在算是半开源</title><link>https://www.landian.news/archives/126448.html</link><description>
+&lt;p&gt;#人工智能 另类开源！Cursor 团队发布 Grok Bot 时也出现打包失误忘记关闭 Runtime Source Map，已经有开发者利用 MAP 文件重建大量可读的核心源代码。借助源代码我们可以研究 Grok Bot 的运行原理，也可以切换到 Codex、Claude Code、OpenRouter 等。此前 Claude Code 也出现过类似失误，当时 A 社直接发送大量 DMCA 通知函要求下架仓库，可见 A 社有多小气。Cursor 并未发送 DMCA 通知，所以现在源代码还是可以继续获取的。查看全文：https://ourl.co/126448&lt;/p&gt;&lt;p&gt;昨天夜里 Cursor 团队在发布 Grok Bot 0.18.0 版时忘记关闭 Runtime Source Map (源码映射文件)，有开发者发现这个问题后迅速利用这些 MAP 文件和压缩后的 JS/CSS 等成功重建大量可读的 TypeScript 核心源代码，目前相关源代码已经公布到 GitHub。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126448.png" rel="nofollow"&gt;&lt;img alt="另类开源！Grok Bot打包失误忘记关闭源码映射文件 现在算是直接开源" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126448.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;可读取部分：系统提示词、工具定义、路由映射逻辑、智能体协调层、远程 VM / 沙箱结构、协议与执行逻辑&lt;/li&gt;
+&lt;li&gt;未完整包含：官方前端原始 React 源码和完整设计系统 (只有优化后的生产包，部分为开发者重建)&lt;/li&gt;
+&lt;li&gt;额外的功能：开发者额外添加的演示功能还包括自定义路由支持、本地 Docker VM 支持、保留原有 MCP&lt;/li&gt;
+&lt;li&gt;自定义路由：可以切换到 Codex、OpenRouter、Claude Code 等&lt;/li&gt;
+&lt;li&gt;也可以打包：可以使用官方打包前端启动形成可用体验&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;发现失误后 Cursor 团队立即重发版本关闭源码映射文件，不过开发者已经保留并公开到 GitHub 仓库中的文件还是可以继续研究的，至少目前开发者还未收到 DMCA 通知函，所以仓库可以继续分发和下载等。&lt;/p&gt;
+&lt;p&gt;此前 Claude Code 也出现过类似的失误，导致很多内部尚未发布的功能被公开，&lt;a href="https://www.landian.news/archives/112428.html" rel="noopener" target="_blank"&gt;而 Anthropic 的做法就是直接发 DMCA 通知函要求 GitHub 删除相关仓库&lt;/a&gt;，当时这件事还引起非常大的争议 (毕竟已经泄露想要彻底从网上删除是不可能的)。&lt;/p&gt;
+&lt;p&gt;仓库地址：&lt;a href="https://www.landian.news/go?url=https://github.com/b-nnett/grok-bot-0.18-reconstructed" rel="noopener" target="_blank"&gt;https://github.com/b-nnett/grok-bot-0.18-reconstructed&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 25 Aug 2026 07:37:47 +0000</pubDate></item><item><title>苹果将在本周或下周推出新款Mac mini 可能搭载M5或M6芯片</title><link>https://www.landian.news/archives/126447.html</link><description>
+&lt;p&gt;#硬件设备 苹果将在本周或下周推出新款 Mac mini，可能搭载 M5 或 M6 芯片。彭博社马克古尔曼发布的最新消息称，苹果计划在秋季发布会前推出 2026 款 Mac mini。苹果已经测试搭载 M5 和 M6 芯片的 Mac mini，但即将发布的新款搭载 M5 还是 M6 还不确定。查看全文：https://ourl.co/126447&lt;/p&gt;&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126447.png" rel="nofollow"&gt;&lt;img alt="苹果将在本周或下周推出新款Mac mini 可能搭载M5或M6芯片" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126447.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;彭博社马克古尔曼发布最新消息称，苹果将在本周或下周推出 2026 款 Mac mini，即这款设备会在 iPhone 18 Pro 系列发布前推出，但具体新款 Mac mini 搭载 M5 还是 M6 芯片暂时还无法确定，苹果内部已经测试过搭载 M5 和 M6 的 Mac mini。&lt;/p&gt;
+&lt;p&gt;值得注意的是苹果首席执行官蒂姆库克即将退休，所以 2026 款 Mac mini 也可能是库克在任时推出的最终产品，当然既然赶在苹果秋季发布会前推出，说明 Mac mini 也不会有什么发布会，苹果可能会通过新闻稿形式推出这款产品。&lt;/p&gt;
+&lt;p&gt;至于价格那肯定是非常高的，目前搭载 M4 系列的 Mac mini 提供 M4 或 M4 Pro 芯片，内存容量从 16GB 到 48GB 不等，存储空间最高可以选择 8TB 款。不过近期因产品价格调整苹果曾短暂停售 256GB 版的 Mac mini，&lt;a href="https://www.landian.news/archives/113656.html" rel="noopener" target="_blank"&gt;之后苹果大幅度调整所有型号的 Mac、iPad、Apple TV、HomePod 等产品价格&lt;/a&gt;，之后苹果以 799 美元的价格重新销售 256GB 版 Mac mini。&lt;/p&gt;
+&lt;p&gt;新款 Mac mini 搭载 M5 或 M6 芯片都要比 2024 款性能更好，再叠加现在内存价格太高，因此估计基础款 2026 Mac mini 的售价也不会便宜，最起码也会与 M4 Mac mini 持平。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 25 Aug 2026 06:42:57 +0000</pubDate></item><item><title>.NET Framework 8月更新导致Windows 11打印异常 微软已分享临时解决方案</title><link>https://www.landian.news/archives/126446.html</link><description>
 &lt;p&gt;#系统资讯 安装.NET Framework 8 月更新后 Windows 11 打印出现异常，受影响的主要是 WPF 应用生成的 PDF 或 XPS 文档。这个问题与字体有关，只要更换不受影响的字体那就可以打印。微软目前也在寻找永久解决方案，初步调查显示这与微软部署的安全措施有关。解决方案：https://ourl.co/126446&lt;/p&gt;&lt;p&gt;据微软日前发布的支持文档，当用户在 Windows 11 上安装 8 月份发布的.NET Framework 框架更新，则某些 WPF 应用生成的文档无法正常打印。无法打印的文档主要使用 Calibri、Cambria、Constantia 或 Corbel 字体，如果使用的是其他字体则可以打印。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/public/thumb/W11.png" rel="nofollow"&gt;&lt;img alt=".NET Framework 8月更新导致Windows 11打印异常 微软已分享临时解决方案" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/public/thumb/W11.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -50,25 +73,4 @@
 &lt;hr/&gt;
 &lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://developer.apple.com/news/?id=1ptvdtcm" rel="noopener" target="_blank"&gt;Apple Developer&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 25 Aug 2026 03:05:02 +0000</pubDate></item><item><title>美好时光即将过去：Codex将从明天开始恢复5小时限额(仅Plus订阅用户)</title><link>https://www.landian.news/archives/126444.html</link><description>
-&lt;p&gt;#人工智能 美好时光即将过去：Codex 将从明天开始恢复 5 小时限额机制，但仅限 Plus 订阅用户。对于开通 100 或 200 美元的 Pro 用户来说暂时还是没有 5 小时限额，从某些意义上说即低价用户给高价用户让路，算力优先确保高价用户的稳定使用。查看全文：https://ourl.co/126444&lt;/p&gt;&lt;p&gt;此前 Codex 技术经理蒂博已经提前预告将恢复 5 小时限额机制，不过中间因为出现其他问题所以到现在 5 小时限额机制都还没有恢复。据蒂博发布的最新消息，从明天开始 Codex 将针对 Plus 订阅用户恢复 5 小时限额机制，而价格更高的订阅暂时不恢复。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/02/111836.png" rel="nofollow"&gt;&lt;img alt="美好时光即将过去：Codex将从明天开始恢复5小时限额(仅Plus订阅用户)" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/02/111836.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;需要说明的是此次调整仅针对 20 美元的 ChatGPT Plus 订阅用户，即从明天开始 ChatGPT Plus 订阅用户将恢复 5 小时限额机制，而 ChatGPT Pro 订阅用户将继续暂停 5 小时限额机制，这些用户可以获得更高的自由度。&lt;/p&gt;
-&lt;p&gt;ChatGPT Pro 5x 订阅为每月 100 美元，ChatGPT Pro 20x 订阅为每月 200 美元，显然 OpenAI 的这种策略也可能会吸引用户开通价格更高的订阅方案。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;蒂博给出的理由是 5 小时限额机制可以帮助 OpenAI 保持平滑的计算负载，即避免出现某些时候例如工作日时计算量出现峰值影响所有用户体验。蒂博还表示 Plus 订阅用户可能是休闲型或新手玩家，这些玩家有时候可能在无意中直接耗尽当周配额，然后会困惑：为啥我的用量这么快就没了。&lt;/p&gt;
-&lt;p&gt;从某些意义上说这也是低价用户让高价用户让路，即算力优先确保 ChatGPT Pro 订阅用户的稳定使用，如果 Plus 用户也想获得更高用量和没有时间限制的使用，那就得加钱开通 Pro 订阅。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 25 Aug 2026 02:43:06 +0000</pubDate></item><item><title>OpenCode已取消首月5美元优惠价 原因也是号商批量注册薅羊毛再通过API转售</title><link>https://www.landian.news/archives/126442.html</link><description>
-&lt;p&gt;#人工智能 开源 AI 编码工具 OpenCode 已取消首月 5 美元优惠价，原因也是号商批量注册账号再通过 API 转售。此前 GitHub Copilot 免费试用就被取消，原因就是遭到滥用。现在 OpenCode 取消首月优惠价原因相同，大量号商注册新号薅羊毛再去通过 API 转售，这让 OpenCode 不胜其烦，所以干脆取消优惠。查看全文：https://ourl.co/126442&lt;/p&gt;&lt;p&gt;开源 AI 编码工具 OpenCode 已经决定取消此前提供的首月 5 美元优惠订阅，即现在所有用户开通订阅时都是 10 美元，取消优惠价主要是有号商发现通过新账户开通有利可图，可以通过开通账号后将其反代通过 API 转售获得利润。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126442.png" rel="nofollow"&gt;&lt;img alt="OpenCode已取消首月5美元优惠价 原因也是号商批量注册薅羊毛再通过API转售" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126442.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;目前开发者们对于价格较低的 AI 服务需求量还是非常高的，因此很多中转站提供比较实惠的价格来吸引用户，不过实惠的背后通常都是注册大量账户进行反代。对平台来说原本用于吸引新开发者的优惠价反而变成号商和 API 中转站薅羊毛的方法。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.landian.news/archives/112671.html" rel="noopener" target="_blank"&gt;此前 GitHub Copilot 就取消免费试用计划&lt;/a&gt;，原因就是很多号商滥用免费试用注册大量账号再出售给下游 API 中转站，此次 OpenCode 取消 5 美元首月优惠也是相同的原因，本质上都是为了打击批量注册再进行转售。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;5 美元对号商和 API 中转站的吸引力更大，但 10 美元订阅也同样可以继续转售，就像现在很多中转站从号商批发 ChatGPT Pro 和 Claude Max 再反代转售，所以 OpenCode 取消首月优惠并不能彻底解决转售问题，但可以在一定程度上提高号商成本，至少骚扰情况可以稍微少点。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息源：𝕏&lt;a href="https://www.landian.news/go?url=https://x.com/noctus91/status/2091899455029015020" rel="noopener" target="_blank"&gt;@Thdxr&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 25 Aug 2026 02:19:18 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 25 Aug 2026 03:05:02 +0000</pubDate></item></channel></rss>
