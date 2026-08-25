@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 25 Aug 2026 03:49:46 +0000</lastBuildDate><item><title>Windows 11会在某些情况下自动删除驱动程序 有用户安装的N卡驱动被悄悄卸载</title><link>https://www.landian.news/archives/126445.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 25 Aug 2026 05:05:50 +0000</lastBuildDate><item><title>.NET Framework 8月更新导致Windows 11打印异常 微软已分享临时解决方案</title><link>https://www.landian.news/archives/126446.html</link><description>
+&lt;p&gt;#系统资讯 安装.NET Framework 8 月更新后 Windows 11 打印出现异常，受影响的主要是 WPF 应用生成的 PDF 或 XPS 文档。这个问题与字体有关，只要更换不受影响的字体那就可以打印。微软目前也在寻找永久解决方案，初步调查显示这与微软部署的安全措施有关。解决方案：https://ourl.co/126446&lt;/p&gt;&lt;p&gt;据微软日前发布的支持文档，当用户在 Windows 11 上安装 8 月份发布的.NET Framework 框架更新，则某些 WPF 应用生成的文档无法正常打印。无法打印的文档主要使用 Calibri、Cambria、Constantia 或 Corbel 字体，如果使用的是其他字体则可以打印。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/public/thumb/W11.png" rel="nofollow"&gt;&lt;img alt=".NET Framework 8月更新导致Windows 11打印异常 微软已分享临时解决方案" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/public/thumb/W11.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;经过初步调查微软发现这个问题主要影响使用 Calibri 字体的 PDF 文档或 XPS 文档，即如果在文档中使用相关字体那打印时就会报错。实际打印时用户可能会看到诸如 System.IO.FileFormatException 的错误代码。&lt;/p&gt;
+&lt;p&gt;要临时解决这个问题其实也很简单，用户通过 WPF 应用将文档内容修改为其他字体即可正常打印，或者用户也可以通过微软提供的临时解决方案进行修复，后续微软应该会发布更新彻底解决问题。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;安全方案：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;直接通过 WPF 应用编辑文档将文档字体修改为其他不受影响的字体，但每次都需要修改字体。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;不安全方案：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在 WPF 应用程序配置文件 (app.config) 里添加指令，但这会禁用微软在 8 月更新中部署的安全措施&lt;/p&gt;
+&lt;pre&gt;&amp;lt;configuration&amp;gt;
+ &amp;lt;runtime&amp;gt;
+   &amp;lt;AppContextSwitchOverrides
+     value="Switch.MS.Internal.TtfDelta.DisableCmapAndSbitOverflowProtection=true"/&amp;gt;
+ &amp;lt;/runtime&amp;gt;
+&amp;lt;/configuration&amp;gt;&lt;/pre&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 25 Aug 2026 05:05:50 +0000</pubDate></item><item><title>Windows 11会在某些情况下自动删除驱动程序 有用户安装的N卡驱动被悄悄卸载</title><link>https://www.landian.news/archives/126445.html</link><description>
 &lt;p&gt;#系统资讯 Windows 10/11 还内置了自动清理驱动程序的机制，华硕 ROG 游戏本用户发现自己的 N 卡驱动程序被自动卸载。排查后发现在奥创软件里启用 ECO 节能模式后，独立显卡会被断电，相当于从 PCIe 总线上移除。此时系统会在后台检测，超过 15 天没有恢复连接时，系统就会直接删除独显元数据和对应的驱动。查看全文：https://ourl.co/126445&lt;/p&gt;&lt;p&gt;部分华硕玩家国度游戏本用户近期发现了个非常有趣的问题：如果长期使用玩家国度奥创软件的节能模式，Windows 11 可能会在数周后自动删除已经安装的英伟达显卡驱动程序。当玩家关闭节能模式后驱动程序也不会被自动装回来，用户必须重新下载安装英伟达驱动程序。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126445.png" rel="nofollow"&gt;&lt;img alt="Windows 11会在某些情况下自动删除驱动程序 有用户安装的N卡驱动被悄悄卸载" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126445.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -53,16 +71,4 @@
 &lt;hr/&gt;
 &lt;p&gt;消息源：𝕏&lt;a href="https://www.landian.news/go?url=https://x.com/noctus91/status/2091899455029015020" rel="noopener" target="_blank"&gt;@Thdxr&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 25 Aug 2026 02:19:18 +0000</pubDate></item><item><title>达到生产级可以公开发布：Mozilla Firefox v157开始将默认全平台支持JPEG XL图像</title><link>https://www.landian.news/archives/126441.html</link><description>
-&lt;p&gt;#软件资讯 火狐浏览器将从 v157 版开始默认在全平台支持 JPEG XL 图像格式，即经过长时间的测试后谋智基金会工程师认为该功能已经达到生产级别。JPEG XL 提供更优秀的压缩效率且支持有损或无损压缩，该格式此前已经被谷歌弃用，但在苹果提供支持后现在谷歌也在讨论是否要恢复支持。查看全文：https://ourl.co/126441&lt;/p&gt;&lt;p&gt;据谋智基金会工程师蒂莫西发布的最新消息，火狐浏览器团队已经计划从 Mozilla Firefox v157 正式版开始默认在全平台启用 JPEG XL 图像格式解码，这也意味着火狐浏览器对于 JPEG XL 图像的支持达到生产级别可以公开发布。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2024/08/105604.png" rel="nofollow"&gt;&lt;img alt="达到生产级别可以公开发布：Mozilla Firefox v157开始将默认全平台支持JPEG XL图像" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2024/08/105604.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;JPEG XL (文件扩展名.jxl) 是 JPEG 委员会标准化的新图像编码格式，目标是可以同时替代 JPEG、PNG、GIF 等旧格式的通用编解码器。JPEG XL 支持有损和无损压缩、强调高保真度、高效压缩、快速解码以及现代特性。&lt;/p&gt;
-&lt;p&gt;在相同视觉质量下 JPEG XL 图像通常比传统 JPEG 图像体积小 50%~60%，比 WebP 图像小 20%~30%，在多数真实场景下略微优于或与 AVIF 格式相当，而在无损模式下 JPEG XL 通常优于 PNG 格式。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;火狐浏览器在很久前的每夜构建版中就已经支持 JPEG XL 图像格式，现在经过长时间测试后谋智基金会工程师认为已经达到生产级别，所以从 Mozilla Firefox v157 版开始火狐浏览器将会默认在所有平台启用 JPEG XL 的支持，用户无需通过手动开启实验性选项来解码 JPEG XL 图像。&lt;/p&gt;
-&lt;p&gt;目前还存在的问题主要是 HDR，对于 HDR 图像火狐浏览器仍然会以 SDR 格式显示，除了这个问题外火狐浏览器对 JPEG XL 的支持已经非常好，包括支持动画和渐进式显示等，而其他浏览器要么还未支持 JPEG XL 要么支持的功能不全面，例如 Safari 就不支持渐进式渲染和动画，而谷歌暂时还未重新支持 JPEG XL 图像。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://groups.google.com/a/mozilla.org/g/dev-platform/c/3YMV4MS34KA" rel="noopener" target="_blank"&gt;谷歌群组&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 25 Aug 2026 01:46:21 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 25 Aug 2026 02:19:18 +0000</pubDate></item></channel></rss>
