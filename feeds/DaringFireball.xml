@@ -1,26 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 25 Aug 2026 15:46:27 +0000</lastBuildDate><item><title>&lt;HTML&gt;关于GDPR和Cookie许可提示的脚注&lt;/HTML&gt;</title><link>https://daringfireball.net/2026/08/what_is_the_point_of_the_dma#fn1-2026-08-24</link><description>&lt;p&gt;如果你昨天已经读过我的“&lt;a href="https://daringfireball.net/2026/08/what_is_the_point_of_the_dma"&gt;DMA的意义何在？&lt;/a&gt;”一文，今天早上我添加了一条关于DMA前身——GDPR的长篇脚注。点击进入阅读完整注释，但关键内容是这样的：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 25 Aug 2026 22:17:40 +0000</lastBuildDate><item><title>关于M5 Max Mac Studio基础价格的更新</title><link>https://daringfireball.net/2026/08/configurations_and_pricing_for_new_mac_minis_and_mac_studios</link><description>&lt;p&gt;我今天早些时候在&lt;a href="https://daringfireball.net/2026/08/configurations_and_pricing_for_new_mac_minis_and_mac_studios"&gt;表格&lt;/a&gt;中关于&lt;a href="https://www.apple.com/shop/buy-mac/mac-studio/m5-max-chip-18-core-cpu-32-core-gpu-36gb-memory-512gb-storage"&gt;M5 Max Mac Studio&lt;/a&gt;的基础价格犯了错误，但我的错误是因为苹果购买流程中一个相当隐蔽的设计。苹果的网页界面如下：&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://daringfireball.net/misc/2026/08/m5-max-mac-studio-sneaky-pricing.png"&gt;
+&lt;img alt="Screenshot from Apple.com, showing the 40-core GPU version of the M5 Max Mac Studio as “+ $300”." referrerpolicy="no-referrer" src="https://daringfireball.net/misc/2026/08/m5-max-mac-studio-sneaky-pricing.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;两款可选的 M5 Max SoC 均配备 18 核 CPU，但入门型号（起价 2,500 美元）配备 32 核 GPU，而升级版芯片配备 40 核 GPU。该升级标为“+ 300 美元”，看起来 18/40 核型号的起价似乎是 2,800 美元。这就是我在表格最初版本中填写的价格。&lt;/p&gt;
+&lt;p&gt;但如果你选择该选项，你会注意到实际起售价从 2,500 美元跃升至 3,100 美元 — 相差 600 美元，而非 300 美元。原因是 2,500 美元的 18/32 核版本只有一种内存选项：32 GB。18/40 核芯片提供三档内存：48、64 和 128 GB。因此，当你从 18/32 核芯片切换到 18/40 核芯片时，你不仅会获得额外的 8 个 GPU 核心（苹果称其价格为 300 美元），而且基础内存会从 32 GB 跃升至 48 GB，这会让你花费&lt;em&gt;额外&lt;/em&gt;的 300 美元。&lt;/p&gt;
+&lt;p&gt;苹果在这里更换芯片时确实会显示一条蓝色通知条，上面写着：“根据你的新选择，配置的其他部分已更新。请检查更改。”但由于两个 M5 Max 版本之间的内存选项是互斥的，你很容易犯像我一样的错误，以为 18/40 核 M5 Max Studio 的基础价格是 &lt;code&gt;$2,500 + $300 = $2,800&lt;/code&gt;，而实际上它是 &lt;code&gt;$2,500 + $300 + $300 = $3,100&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;我为这个错误感到抱歉，而我们也都为这一切变得如此昂贵而感到遗憾。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/08/25/update-regarding-the-base-prices-of-the-m5-max-mac-studio" title="Permanent link to ‘Update Regarding the Base Prices of the M5 Max Mac Studio’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Tue, 25 Aug 2026 22:17:40 +0000</pubDate></item><item><title>&lt;HTML&gt;关于GDPR和Cookie许可提示的脚注&lt;/HTML&gt;</title><link>https://daringfireball.net/2026/08/what_is_the_point_of_the_dma#fn1-2026-08-24</link><description>&lt;p&gt;如果你昨天已经读过我的“&lt;a href="https://daringfireball.net/2026/08/what_is_the_point_of_the_dma"&gt;DMA的意义何在？&lt;/a&gt;”一文，今天早上我添加了一条关于DMA前身——GDPR的长篇脚注。点击进入阅读完整注释，但关键内容是这样的：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;GDPR在10年前生效。从他们的不作为来看，他们显然认为它运作得很好。我认为他们审视形势后意识到，每当任何网站弹出cookie许可的坑爹提示时，那个提示实际上都带着一块“由欧盟委员会为您呈现”的徽章。他们来过这里，做了些事，全世界每个人每次打开浏览器都能看到GDPR cookie法规的成果。干得漂亮。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;a href="https://daringfireball.net/linked/2026/08/25/footnote-regarding-the-gdpr-and-cookie-permission-prompts" title="‘GDPR与Cookie许可弹窗脚注’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Tue, 25 Aug 2026 15:46:27 +0000</pubDate></item><item><title>★ 新款Mac Mini（M6/M5 Pro）和Mac Studio（M5 Max/M5 Ultra）的内存与存储配置及定价</title><link>https://daringfireball.net/2026/08/configurations_and_pricing_for_new_mac_minis_and_mac_studios</link><description>&lt;p&gt;苹果今天发布了全新系列的 Mac Mini（M6 和 M5 Pro）以及 Mac Studio（M5 Max 和 M5 Ultra）台式电脑。Apple Newsroom 关于&lt;a href="https://www.apple.com/newsroom/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/"&gt;Mac Mini&lt;/a&gt; 和 &lt;a href="https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/"&gt;Mac Studio&lt;/a&gt; 的公告仅列出了基础型号价格。我尝试将所有 RAM/SSD 配置整理成简明的表格，以便您查看每款芯片可用的存储和内存选项，以及它们的价格。&lt;/p&gt;
+</description><pubDate>Tue, 25 Aug 2026 15:46:27 +0000</pubDate></item><item><title>★ 新款Mac Mini（M6/M5 Pro）和Mac Studio（M5 Max/M5 Ultra）的内存与存储配置及定价</title><link>https://daringfireball.net/2026/08/configurations_and_pricing_for_new_mac_minis_and_mac_studios</link><description>&lt;p&gt;苹果今天发布了全新的 Mac Mini（M6 和 M5 Pro）以及 Mac Studio（M5 Max 和 M5 Ultra）台式机产品线。Apple Newsroom 关于 &lt;a href="https://www.apple.com/newsroom/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/"&gt;Mac Mini&lt;/a&gt; 和 &lt;a href="https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/"&gt;Mac Studio&lt;/a&gt; 的公告只列出了基础型号的价格。我试着把所有 RAM/SSD 配置整理成简明表格，方便您查看每种芯片可选哪些存储和内存方案，以及各自的价格。&lt;/p&gt;
 &lt;h2&gt;Mac Mini M6&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;12核 CPU，12核 GPU：$900
-  内存：
+&lt;pre&gt;&lt;code&gt;12 核 CPU、12 核 GPU：$900
+  RAM：
        16 GB      $0
-       24 GB    +200
-       32 GB    +400
+       24 GB    $200
+       32 GB    $400
   SSD：
       256 GB      $0
-      512 GB    +200
-        1 TB    +500
-        2 TB   +1000
+      512 GB    $200
+        1 TB    $500
+        2 TB   $1000
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2&gt;Mac Mini M5 Pro&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;15核 CPU，16核 GPU：$1,700
-18核 CPU，20核 GPU：$1,900
-  内存：
+&lt;pre&gt;&lt;code&gt;15 核 CPU、16 核 GPU：$1,700
+18 核 CPU、20 核 GPU：$1,900
+  RAM：
        24 GB       $0
        48 GB     $600
        64 GB    $1000
@@ -32,11 +40,11 @@
         8 TB    $3800
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2&gt;Mac Studio M5 Max&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;18核 CPU，32核 GPU：$2,500
-  内存：
+&lt;pre&gt;&lt;code&gt;18 核 CPU、32 核 GPU：$2,500
+  RAM：
        36 GB       $0
-18核 CPU，40核 GPU：$2,800
-  内存：
+18 核 CPU、40 核 GPU：$3,100
+  RAM：
        48 GB       $0
        64 GB     $400
       128 GB    $2000
@@ -48,12 +56,12 @@
         8 TB    $3800
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2&gt;Mac Studio M5 Ultra&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;30核 CPU，64核 GPU：$5,500
-36核 CPU，80核 GPU：$6,800
-  内存：
+&lt;pre&gt;&lt;code&gt;30 核 CPU、64 核 GPU：$5,500
+36 核 CPU、80 核 GPU：$6,800
+  RAM：
        96 GB       $0
       256 GB    $4000
-      512 GB   “10月下旬推出”
+      512 GB    "十月下旬上市"
   SSD：
         1 TB       $0
         2 TB     $500
@@ -61,14 +69,14 @@
         8 TB    $3500
        16 TB    $7500
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2&gt;备注&lt;/h2&gt;
+&lt;h2&gt;说明&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;以太网：在所有 Mac Mini 机型上，从 2.5 千兆升级到 10 千兆需要 100 美元。在 Mac Studio 上，所有机型均标配 10 千兆以太网。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;如果你将 M6 Mac Mini 配置为 2 TB 存储，SSD 升级费用（1,000 美元）将超过整台基础型号电脑（900 美元）。M5 Pro Mini 的 4 TB SSD 升级也是如此（1,800 美元的升级费用，而电脑本身为 1,700 美元）。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Mac Mini 和 Mac Studio 都有多种酷炫的颜色可选，包括银色。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;有点糟糕的是，M5 Ultra Studio 在 96 GB 基础配置和 4,000 美元的 256 GB 升级之间没有内存选项。“按理说”应该有一个 128 GB 档位，但如果你眯起眼睛看看&lt;a href="https://mastodon.social/@ajfrompgh/117156994437443045"&gt;你就会明白&lt;/a&gt;他们为什么这样做了。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;目前可选的最佳配置 Mac Studio（36/80 核、256 GB 内存、16 TB SSD）售价为 18,300 美元。但如果你满足于基础的 30/64 核芯片和仅 8 TB 存储，你可以将价格降至刚好 13,000 美元。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;“10月下旬推出” = “等着挨宰吧”。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;以太网：所有 Mac Mini 机型从 2.5 千兆升级到 10 千兆需加价 $100。Mac Studio 所有机型均标配 10 千兆以太网。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;如果你把 M6 Mac Mini 配置为 2 TB 存储，SSD 升级费用（$1,000）比整台基础版电脑（$900）还贵。M5 Pro Mini 的 4 TB SSD 升级也是如此（一台 $1,700 的电脑，升级费用 $1,800）。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Mac Mini 和 Mac Studio 都有多种炫酷颜色可选，包括银色。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;M5 Ultra Studio 的 RAM 选项从 96 GB 直接跳到 $4,000 的 256 GB 升级，中间没有其他选择，这有点令人不爽。按理说"应该有"一个 128 GB 的档位，不过如果你仔细琢磨，&lt;a href="https://mastodon.social/@ajfrompgh/117156994437443045"&gt;你就能明白他们为什么要这样设计&lt;/a&gt;。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;目前可以下单的顶配 Mac Studio（36/80 核、256 GB RAM、16 TB SSD）售价为 $18,300。但如果你接受基础版 30/64 核芯片，存储只需 8 TB，价格就能降到整整 $13,000。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;"十月下旬上市"＝"乖乖等着挨宰吧"。&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 25 Aug 2026 14:38:01 +0000</pubDate></item><item><title>苹果发布M6与M5 Ultra芯片，搭载于新款Mac Mini和Mac Studio</title><link>https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/</link><description>&lt;p&gt;Apple Newsroom：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Apple今日在全新Mac mini中推出M6芯片，并在全新Mac Studio中推出M5 Ultra芯片，实现了性能和AI能力的非凡飞跃。M6是Apple首款采用尖端2纳米制程的芯片，全面升级了每个计算单元，在性能的各个维度都带来了提升。该芯片配备更大的12核CPU集群，拥有全球最快的CPU核心，以及搭载神经加速器的更大12核GPU、双16核神经引擎，并支持高达170GB/s的统一内存带宽。M5 Ultra是面向专业和AI工作负载的终极性能巨兽，采用下一代UltraFusion技术，首次在M系列片上系统（SoC）中形成四晶粒架构。该芯片配备最高36核CPU和最高80核GPU，拥有高达1.2TB/s的统一内存带宽，比M3 Ultra高出50%。&lt;/p&gt;
@@ -80,11 +88,4 @@
 &lt;p&gt;重新构建的 Timeline 功能让你可以将任务像用铅笔画进日程表一样轻松排入一天，而 Apple Pencil 则拥有特殊能力，让你在几秒钟内快速勾勒出计划。&lt;/p&gt;
 &lt;p&gt;还有更多精彩内容，历经四个月与 1,000 名测试者共同打磨。现在可以在 App Store 免费试用。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/feeds/sponsors/2026/08/finalist_4_inspired_by_paper_d" title="“Finalist 4：以纸张日程规划为灵感”的固定链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Tue, 25 Aug 2026 00:37:24 +0000</pubDate></item><item><title>苹果重新考虑将“隐藏我的电子邮件”域名与“通过Apple登录”合并的计划</title><link>https://developer.apple.com/news/?id=1ptvdtcm</link><description>&lt;p&gt;苹果开发者新闻：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;从今年晚些时候开始，新的“通过 Apple 登录”地址将改为在 &lt;code&gt;private.icloud.com&lt;/code&gt; 上发放，而此前这些地址是在 &lt;code&gt;privaterelay.appleid.com&lt;/code&gt; 上发放的。&lt;code&gt;privaterelay.appleid.com&lt;/code&gt; 上的现有地址将继续正常工作，并将邮件无缝转发给用户，不会中断。&lt;/p&gt;
-&lt;p&gt;经过进一步考量并审阅社区反馈后，iCloud+“隐藏我的电子邮件”地址将继续保留在 &lt;code&gt;icloud.com&lt;/code&gt; 上。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a href="https://daringfireball.net/linked/2026/06/18/new-domain-for-signinwithapple-and-icloudhidemyemail"&gt;今年六月，苹果曾宣布&lt;/a&gt;计划将两套系统合并到新的 &lt;code&gt;private.icloud.com&lt;/code&gt; 域名下。对这一计划的反对意见相当明显：“通过 Apple 登录”使用一个容易辨识的域名没有问题，因为只有支持“通过 Apple 登录”（SIWA）的网站才会看到这类电子邮件地址。而将“隐藏我的电子邮件”（HME）地址迁移到一个容易辨识的域名的问题在于，我们常常希望在一些更倾向于屏蔽这类地址、试图迫使我们使用“真实”地址的网站上使用隐藏电子邮件地址。六月我撰写相关文章后，有位知情人士向我透露，HME 一方从一开始就对这一合并计划存在强烈反对意见。现在看来，这些反对意见最终占了上风。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/08/24/apple-rethinks-hide-my-email-domain" title="‘Apple Rethinks Plan to Merge ‘Hide My Email’ Domain Name With ‘Sign In With Apple’’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 24 Aug 2026 23:33:50 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 25 Aug 2026 00:37:24 +0000</pubDate></item></channel></rss>
