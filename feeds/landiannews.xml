@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 25 Aug 2026 02:43:06 +0000</lastBuildDate><item><title>美好时光即将过去：Codex将从明天开始恢复5小时限额(仅Plus订阅用户)</title><link>https://www.landian.news/archives/126444.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 25 Aug 2026 03:49:46 +0000</lastBuildDate><item><title>Windows 11会在某些情况下自动删除驱动程序 有用户安装的N卡驱动被悄悄卸载</title><link>https://www.landian.news/archives/126445.html</link><description>
+&lt;p&gt;#系统资讯 Windows 10/11 还内置了自动清理驱动程序的机制，华硕 ROG 游戏本用户发现自己的 N 卡驱动程序被自动卸载。排查后发现在奥创软件里启用 ECO 节能模式后，独立显卡会被断电，相当于从 PCIe 总线上移除。此时系统会在后台检测，超过 15 天没有恢复连接时，系统就会直接删除独显元数据和对应的驱动。查看全文：https://ourl.co/126445&lt;/p&gt;&lt;p&gt;部分华硕玩家国度游戏本用户近期发现了个非常有趣的问题：如果长期使用玩家国度奥创软件的节能模式，Windows 11 可能会在数周后自动删除已经安装的英伟达显卡驱动程序。当玩家关闭节能模式后驱动程序也不会被自动装回来，用户必须重新下载安装英伟达驱动程序。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126445.png" rel="nofollow"&gt;&lt;img alt="Windows 11会在某些情况下自动删除驱动程序 有用户安装的N卡驱动被悄悄卸载" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126445.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Windows 10/11 等版本内置设备和驱动程序清理机制，系统会定期检查长期没有再次检测到的硬件设备，如果检测到到长期没有使用，就会自动清理相关硬件设备记录以及不再被使用的驱动程序。&lt;/p&gt;
+&lt;p&gt;通常情况下这项功能适合处理已经很久没有连接过的特定 USB 设备、旧硬件以及残留驱动程序，避免系统长期积累大量无用的设备信息和元数据以及这些设备附带的驱动程序。&lt;/p&gt;
+&lt;p&gt;相关日志显示，这套自动清理机制设定的有效期是 30 天，即如果系统超过 30 天没有检测到某个硬件那就有可能会删除记录和驱动程序，而独立显卡等硬件的清理时间只有 15 天，即两周没有检测到曾连接过的独立显卡那驱动程序就会被删除。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;玩家国度奥创软件的 ECO 节能模式为最大限度降低功耗或发热，会彻底关闭游戏本内置的独立显卡，这点也得到华硕官方的证实，即开启节能模式后系统会自动切换到处理器附带的集成显卡用于继续显示内容。&lt;/p&gt;
+&lt;p&gt;在 Windows 11 看来，当独立显卡被彻底断电后那就是从 PCIe 总线上消失，这时候就相当于直接把独立显卡拔掉了，因此系统会认为这个硬件已经被移除，而超过期限后就会触发清理机制，于是 Windows 11 直接将英伟达显卡驱动程序卸载。&lt;/p&gt;
+&lt;p&gt;遇到这个问题的用户通过检查日志发现，至少对于独立显卡而言，微软设置的清理时间是 15 天而非 30 天，因此开启节能模式超过 15 天且期间没有切换过其他模式，那显卡驱动程序就会被自动卸载。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;分享该问题的网友还表示，即便关闭节能模式让独立显卡恢复供电，由于英伟达显卡驱动程序已经被卸载，此时 Windows 11 会将其当做新硬件并默认加载微软的图形基础通用驱动程序。&lt;/p&gt;
+&lt;p&gt;这时候设备管理器里看不到独立显卡，只能看到处理器附带的集成显卡，同时设备管理器还可能出现 Code 10 或 Code 28 错误，英伟达控制面板也会提示当前驱动不兼容。&lt;/p&gt;
+&lt;p&gt;要解决这个问题其实很简单，只需要重新下载安装英伟达驱动程序即可，而且这个问题也不会影响大多数用户，毕竟游戏玩家不太可能长期开启节能模式，只要玩游戏那肯定还是得启用正常模式避免影响游戏性能。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://www.reddit.com/r/ZephyrusG14/comments/1vt5gdg/psa_if_your_laptop_gpu_turned_into_microsoft/" rel="noopener" target="_blank"&gt;Reddit&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 25 Aug 2026 03:49:46 +0000</pubDate></item><item><title>听劝：经过用户反馈后苹果不再调整iCloud+隐藏邮箱使用的域名 避免其他平台屏蔽</title><link>https://www.landian.news/archives/126443.html</link><description>
+&lt;p&gt;#行业资讯 听劝：经过社区反馈后苹果决定放弃此前调整 iCloud 隐藏邮箱域名的决定，避免其他平台屏蔽用户生成的随机邮箱。此前苹果决定将隐藏电子邮件和使用 Apple 登录生成的随机邮箱都放到 private[.]icloud[.]com 域名下，这个决定遭到专业用户的反对，因为其他平台可以轻易识别并禁止用户使用隐私邮箱注册。经过反馈后，苹果决定 iCloud+ 隐藏邮箱功能继续使用 iCloud[.]com 域名，但使用 Apple 登录生成的邮箱仍然会使用新域名。查看全文：https://ourl.co/126443&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/113507.html" rel="noopener" target="_blank"&gt;此前苹果已经发布通知&lt;/a&gt;宣布将使用 Apple 登录和隐藏我的电子邮件服务使用的邮箱域名变更为 &lt;em&gt;@private.icloud.com&lt;/em&gt;，即后续用户使用相关服务时苹果都会使用新域名来创建隐私邮箱。&lt;/p&gt;
+&lt;p&gt;这个决定遭到部分专业用户的反对，反对原因主要是使用这个新域名容易被平台拒绝，而使用此前的 &lt;em&gt;@iCloud.com&lt;/em&gt; 则不会有这个问题，因为后者使用量极大平台难以屏蔽。&lt;/p&gt;
+&lt;figure&gt;&lt;img alt="听劝：经过用户反馈后苹果不再调整iCloud+隐藏邮箱使用的域名 避免其他平台屏蔽" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113507-1.png"/&gt;&lt;figcaption&gt;上图为使用 Apple ID 登录后产生的随机转发邮箱 图源：蓝点网&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/06/113507-2.png" rel="nofollow"&gt;&lt;img alt="听劝：经过用户反馈后苹果不再调整iCloud+隐藏邮箱使用的域名 避免其他平台屏蔽" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/06/113507-2.png"/&gt;&lt;/a&gt;&lt;figcaption&gt;上图为创建 iCloud+ 隐藏我的电子邮箱产生的虚拟邮箱 图源：蓝点网&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;部分网站或服务会禁止用户使用临时邮箱注册，极端情况下部分网站甚至只允许使用 Gmail、Outlook 或 iCloud 等知名邮箱注册，这种做法的原因主要是黑灰产团伙可以通过自定义域名邮箱批量注册账号，如果限制只能使用知名邮箱就可以拦截部分攻击。&lt;/p&gt;
+&lt;p&gt;用户反对苹果将隐私邮箱域名改为 &lt;em&gt;@private.icloud.com&lt;/em&gt; 也是相同的道理，即这个域名太容易被识别因此网站或服务可能会禁止用户使用隐私邮箱注册，到时候用户只能选择其他域名邮箱或暴露自己的真实邮箱。&lt;/p&gt;
+&lt;p&gt;但如果继续使用 &lt;em&gt;@iCloud.com&lt;/em&gt; 就没有这个问题，因为这个域名被太多苹果用户使用，平台无法通过域名直接禁止所有 iCloud 用户注册，这也是部分专业用户反对苹果进行更改的主要原因。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;苹果刚刚在开发者社区发布消息透露计划外的变更，即苹果听取社区反馈意见后对此前的决定进行更改，其中 iCloud+ 隐藏电子邮件功能将继续使用 &lt;em&gt;@iCloud.com&lt;/em&gt; 域名，使用 Apple 登录功能将使用 &lt;em&gt;@private.icloud.com&lt;/em&gt; (新域名) 域名而非 &lt;em&gt;@privaterelay.appleid.com&lt;/em&gt; (旧域名) 域名。&lt;/p&gt;
+&lt;p&gt;简单来说就是苹果对原计划进行部分更新，为确保隐藏电子邮件功能不会被其他平台屏蔽，苹果将继续使用 &lt;em&gt;@iCloud.com&lt;/em&gt; 创建邮箱。而登录功能变更为新域名，所以对平台和服务提供商来说接下来还是要将 &lt;em&gt;@private.icloud.com&lt;/em&gt; 添加到白名单，避免因为反垃圾问题导致用户无法注册。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://developer.apple.com/news/?id=1ptvdtcm" rel="noopener" target="_blank"&gt;Apple Developer&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 25 Aug 2026 03:05:02 +0000</pubDate></item><item><title>美好时光即将过去：Codex将从明天开始恢复5小时限额(仅Plus订阅用户)</title><link>https://www.landian.news/archives/126444.html</link><description>
 &lt;p&gt;#人工智能 美好时光即将过去：Codex 将从明天开始恢复 5 小时限额机制，但仅限 Plus 订阅用户。对于开通 100 或 200 美元的 Pro 用户来说暂时还是没有 5 小时限额，从某些意义上说即低价用户给高价用户让路，算力优先确保高价用户的稳定使用。查看全文：https://ourl.co/126444&lt;/p&gt;&lt;p&gt;此前 Codex 技术经理蒂博已经提前预告将恢复 5 小时限额机制，不过中间因为出现其他问题所以到现在 5 小时限额机制都还没有恢复。据蒂博发布的最新消息，从明天开始 Codex 将针对 Plus 订阅用户恢复 5 小时限额机制，而价格更高的订阅暂时不恢复。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/02/111836.png" rel="nofollow"&gt;&lt;img alt="美好时光即将过去：Codex将从明天开始恢复5小时限额(仅Plus订阅用户)" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/02/111836.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -32,38 +65,4 @@
 &lt;hr/&gt;
 &lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://groups.google.com/a/mozilla.org/g/dev-platform/c/3YMV4MS34KA" rel="noopener" target="_blank"&gt;谷歌群组&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 25 Aug 2026 01:46:21 +0000</pubDate></item><item><title>联想终于承认Legion Go游戏掌机更新BIOS固件后变砖 将为用户提供免费维修</title><link>https://www.landian.news/archives/126440.html</link><description>
-&lt;p&gt;#游戏资讯 联想终于承认 Legion Go 游戏掌机安装固件后变砖问题，将为用户提供免费售后服务，无论是否在保。7 月份就有玩家发帖称安装 BIOS 后掌机变砖，结果联想悄悄从下载页面删除固件就当这事儿没发生过。直到现在联想才发布声明承认问题，联想认为这可能与部分批次的产品搭载的特定硬件有关。查看全文：https://ourl.co/126440&lt;/p&gt;&lt;p&gt;从 7 月开始就有用户抱怨联想 Legion Go 游戏掌机在安装 BIOS 固件更新后变砖，用户无法通过简单的办法恢复设备运行。当时联想并未发布任何官方声明，而是悄悄从下载页面将问题 BIOS 固件删除，就当这事儿没发生过。&lt;/p&gt;
-&lt;p&gt;问题是悄悄删除固件下载并不能解决玩家的设备已经变砖，玩家只能联系联想售后服务寻求解决方案，如果设备已经过保则需要支付额外的维修费用，过保维修最高可能会被收费超过 200 美元。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126440.png" rel="nofollow"&gt;&lt;img alt="联想终于承认Legion Go游戏掌机更新BIOS固件后变砖 将为用户提供免费维修" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126440.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;日前联想在其官方社区发布声明承认部分 Legion Go 游戏掌机安装固件后可能出现异常，联想在欧洲的 L2.5 实验室里复现该问题，但联想也称内部其他团队正常安装问题固件并未遇到任何问题，因此联想怀疑此次故障可能与某些生产批次中存在特定硬件或其他触发故障的条件有关。&lt;/p&gt;
-&lt;p&gt;从网上反馈来看，安装问题 BIOS 更新后用户可能遇到黑屏和启动失败问题，在极端情况下系统彻底无法启动并且 LED 指示灯会持续显示红色也就是无法正常开机使用。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;联想现在决定为所有遇到该问题的用户提供免费维修服务，无论在保还是过保都可以免费维修，遇到变砖问题的玩家请尽快联系联想售后服务新建售后服务工单，到时候需要将设备寄送到联想售后中心进行处理。&lt;/p&gt;
-&lt;p&gt;有消息称联想采取的售后服务方法可能是直接更换设备，即联想自己也没搞清楚问题怎么发生的所以也没法修复，直接给用户更换设备是个简单快捷的办法，而且联想还可以收集问题设备进行分析调查故障的真正原因。&lt;/p&gt;
-&lt;p&gt;另外联想也强调玩家切勿从网上下载已经被下架的固件，尽管联想已经从其下载页面撤回固件，但部分第三方网站可能还有转存的固件，如果玩家不慎下载该固件并安装则还是有可能引起变砖问题。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://forums.lenovo.com/t5/Legion-Go-and-Gaming-Hub/Legion-Go-Briccato-Boot-Loop-Schermo-nero-e-LED-rosso-dopo-aggiornamento-BIOS-ufficiale-N3CN42WW/m-p/10035652?page=3" rel="noopener" target="_blank"&gt;联想官方论坛&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 25 Aug 2026 01:07:04 +0000</pubDate></item><item><title>又涨价！YouTube Premium在欧洲和亚洲多国涨价 涨幅最高17%</title><link>https://www.landian.news/archives/126439.html</link><description>
-&lt;p&gt;#网站应用 又涨价！YouTube Premium 在欧洲和亚洲多个国家涨价，涨幅最高 17%。本轮涨价主要涉及欧洲多个国家和亚洲的新加坡，谷歌给出的理由依然是改进 Premium 并支持创作者和艺术家。近年来谷歌采取激进的反广告拦截策略刺激更多用户开通订阅，不过 Premium 订阅的价格也越来越高。查看全文：https://ourl.co/126439&lt;/p&gt;&lt;p&gt;近期欧洲和亚洲多个国家的 YouTube Premium 订阅用户收到谷歌发来的涨价通知，谷歌称如果用户没有提前取消订阅的话，则从 2026 年 9 月 23 日开始按照新价格进行续费，对于新开通的用户则立即按照调整后的价格进行计费。&lt;/p&gt;
-&lt;p&gt;不过谷歌并未发布完整的官方全球价格变化清单，基于用户在社交媒体上发布的反馈，此次涨价主要集中在欧洲，而在亚洲只有新加坡也在涨价范围内，涨幅约为 14%。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/08/110416.png" rel="nofollow"&gt;&lt;img alt="又涨价！YouTube Premium在欧洲和亚洲多国涨价 涨幅最高17%" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/08/110416.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;西班牙：个人订阅从每月 13.99 欧元涨价到 15.99 欧元，家庭订阅从每月 25.99 欧元涨价到 29.99 欧元&lt;/li&gt;
-&lt;li&gt;葡萄牙：个人订阅从每月 17.99 欧元涨价到 20.99 欧元，家庭订阅从每月 25.99 欧元涨价到 29.99 欧元&lt;/li&gt;
-&lt;li&gt;意大利：个人订阅从每月 17.99 欧元涨价到 20.99 欧元，家庭订阅从每月 25.99 欧元涨价到 29.99 欧元&lt;/li&gt;
-&lt;li&gt;芬兰：个人订阅从每月 14.99 欧元涨价到 16.99 欧元&lt;/li&gt;
-&lt;li&gt;罗马尼亚：个人订阅从每月 29 列伊涨价到 32 列伊，部分用户需主动接受新价格，否则订阅到期自动取消&lt;/li&gt;
-&lt;li&gt;荷兰：个人订阅从每月 13.99 欧元涨价到 15.99 欧元，家庭订阅涨价到每月 29.99 欧元&lt;/li&gt;
-&lt;li&gt;匈牙利：个人订阅从每月 2390 福林涨价到 2690 福林，家庭订阅从每月 4790 福林涨价到 5390 福林&lt;/li&gt;
-&lt;li&gt;乌克兰：价格也有所调整但具体价格未知&lt;/li&gt;
-&lt;li&gt;新加坡：个人订阅从每月 13.98 新币涨价到 15.98 新币，家庭订阅从每月 27.98 新币涨价到 31.98 新币&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;谷歌近年来频繁调整 YouTube Premium 订阅价格，每次涨价给出的理由都是相同的：继续改进 Premium 并支持创作者和艺术家。近年来随着订阅价格调整，YouTube Premium 订阅价格越来越高，谷歌也通过更激进的反广告拦截策略刺激更多用户开通订阅。&lt;/p&gt;
-&lt;p&gt;对用户而言开通订阅后可以获得更多功能，当然最主要的功能还是可以直接跳过大部分广告，这也是谷歌采取激进的反广告拦截策略的原因。不过因为价格越来越高，不知道现在 YouTube Premium 整体订阅用户增长率是否有所下滑。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 25 Aug 2026 00:50:55 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 25 Aug 2026 01:46:21 +0000</pubDate></item></channel></rss>
