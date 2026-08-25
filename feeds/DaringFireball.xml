@@ -1,5 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 25 Aug 2026 00:37:24 +0000</lastBuildDate><item><title>[赞助商] 入围者4：受纸质日程本启发</title><link>https://www.finalist.works/?utm_source=df-aug-2026</link><description>&lt;p&gt;Finalist 4 是迄今最大的一次更新，为这款以纸张为灵感的日程规划应用带来了 iPhone、iPad、Mac 以及现在 Apple Watch 的支持。最引人注目的是 Notes 功能，既可以在应用内使用，也可以作为一整套 Markdown 文件文件夹，与 Obsidian 双向同步。这些文件中的任务会出现在正确的日期上，紧随你的提醒事项和日历事件，甚至可以显示在 macOS 菜单栏应用中。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 25 Aug 2026 14:38:01 +0000</lastBuildDate><item><title>★ 新款Mac Mini（M6/M5 Pro）和Mac Studio（M5 Max/M5 Ultra）的内存与存储配置及定价</title><link>https://daringfireball.net/2026/08/configurations_and_pricing_for_new_mac_minis_and_mac_studios</link><description>&lt;p&gt;苹果今天发布了全新的 Mac Mini（M6 和 M5 Pro）以及 Mac Studio（M5 Max 和 M5 Ultra）台式机产品线。Apple Newsroom 中关于 &lt;a href="https://www.apple.com/newsroom/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/"&gt;Mac Mini&lt;/a&gt; 和 &lt;a href="https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/"&gt;Mac Studio&lt;/a&gt; 的公告只标明了基础型号的价格。我尝试将所有内存/固态硬盘配置整理成简明表格，以便你查看每种芯片可选哪些存储和内存选项，以及它们的价格。&lt;/p&gt;
+&lt;h2&gt;Mac Mini M6&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;12核CPU、12核GPU：$900
+  内存：
+       16 GB      $0
+       24 GB    $200
+       32 GB    $400
+  固态硬盘：
+      256 GB      $0
+      512 GB    $200
+        1 TB    $500
+        2 TB   $1000
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Mac Mini M5 Pro&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;15核CPU、16核GPU：$1,700
+18核CPU、20核GPU：$1,900
+  内存：
+       24 GB       $0
+       48 GB     $600
+       64 GB    $1000
+  固态硬盘：
+      512 GB       $0
+        1 TB     $300
+        2 TB     $800
+        4 TB    $1800
+        8 TB    $3800
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Mac Studio M5 Max&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;18核CPU、32核GPU：$2,500
+  内存：
+       36 GB       $0
+18核CPU、40核GPU：$2,800
+  内存：
+       48 GB       $0
+       64 GB     $400
+      128 GB    $2000
+  固态硬盘：
+      512 GB       $0
+        1 TB     $300
+        2 TB     $800
+        4 TB    $1800
+        8 TB    $3800
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Mac Studio M5 Ultra&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;30核CPU、64核GPU：$5,500
+36核CPU、80核GPU：$6,800
+  内存：
+       96 GB       $0
+      256 GB    $4000
+      512 GB   “即将于十月下旬上市”
+  固态硬盘：
+        1 TB       $0
+        2 TB     $500
+        4 TB    $1500
+        8 TB    $3500
+       16 TB    $7500
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;备注&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;以太网：所有 Mac Mini 机型从 2.5 千兆升级到 10 千兆需要 100 美元。Mac Studio 所有机型标配 10 千兆以太网。&lt;/li&gt;
+&lt;li&gt;如果你给 M6 Mac Mini 配置 2 TB 存储，那么固态硬盘升级费用（1,000 美元）比整台基础型号电脑（900 美元）还要高。M5 Pro Mac Mini 的 4 TB 固态硬盘升级也是如此（升级费 1,800 美元，电脑基础价 1,700 美元）。&lt;/li&gt;
+&lt;li&gt;Mac Mini 和 Mac Studio 都有多种炫酷颜色可供选择，包括银色。&lt;/li&gt;
+&lt;li&gt;有点遗憾的是，Studio 在 96 GB 基础内存和 4,000 美元的 256 GB 升级之间没有任何内存选项。&lt;/li&gt;
+&lt;li&gt;一台配置拉满的 Studio（36/80 核、256 GB 内存、16 TB 固态硬盘）售价 18,300 美元。但如果你能接受基础版 30/64 核芯片和 8 TB 存储，价格可以降到刚好 13,000 美元。&lt;/li&gt;
+&lt;li&gt;“十月下旬上市” = “等着挨宰吧”&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Tue, 25 Aug 2026 14:38:01 +0000</pubDate></item><item><title>苹果发布M6与M5 Ultra芯片，搭载于新款Mac Mini和Mac Studio</title><link>https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/</link><description>&lt;p&gt;Apple Newsroom：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Apple今日在全新Mac mini中推出M6芯片，并在全新Mac Studio中推出M5 Ultra芯片，实现了性能和AI能力的非凡飞跃。M6是Apple首款采用尖端2纳米制程的芯片，全面升级了每个计算单元，在性能的各个维度都带来了提升。该芯片配备更大的12核CPU集群，拥有全球最快的CPU核心，以及搭载神经加速器的更大12核GPU、双16核神经引擎，并支持高达170GB/s的统一内存带宽。M5 Ultra是面向专业和AI工作负载的终极性能巨兽，采用下一代UltraFusion技术，首次在M系列片上系统（SoC）中形成四晶粒架构。该芯片配备最高36核CPU和最高80核GPU，拥有高达1.2TB/s的统一内存带宽，比M3 Ultra高出50%。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;新款&lt;a href="https://www.apple.com/newsroom/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/"&gt;Mac Mini&lt;/a&gt;（M6和M5 Pro）和&lt;a href="https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/"&gt;Mac Studio&lt;/a&gt;（M5 Max和M5 Ultra）今日起可预购，但均需到9月22日才开始发货。&lt;/p&gt;
+&lt;p&gt;所有机型都将预装MacOS 27 Golden Gate。在昨天关于这些新台式机的背景简报会上，我问这是否意味着MacOS 27将在9月22日或之前向公众发布，Apple的人只是笑了笑，表示除了新硬件之外，他们无可奉告。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/08/25/m6-and-m5-ultra-chips" title="Permanent link to ‘Apple Introduces M6 and M5 Ultra Chips, in New Mac Mini and Mac Studio’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Tue, 25 Aug 2026 13:10:18 +0000</pubDate></item><item><title>[赞助商] 入围者4：受纸质日程本启发</title><link>https://www.finalist.works/?utm_source=df-aug-2026</link><description>&lt;p&gt;Finalist 4 是迄今最大的一次更新，为这款以纸张为灵感的日程规划应用带来了 iPhone、iPad、Mac 以及现在 Apple Watch 的支持。最引人注目的是 Notes 功能，既可以在应用内使用，也可以作为一整套 Markdown 文件文件夹，与 Obsidian 双向同步。这些文件中的任务会出现在正确的日期上，紧随你的提醒事项和日历事件，甚至可以显示在 macOS 菜单栏应用中。&lt;/p&gt;
 &lt;p&gt;重新构建的 Timeline 功能让你可以将任务像用铅笔画进日程表一样轻松排入一天，而 Apple Pencil 则拥有特殊能力，让你在几秒钟内快速勾勒出计划。&lt;/p&gt;
 &lt;p&gt;还有更多精彩内容，历经四个月与 1,000 名测试者共同打磨。现在可以在 App Store 免费试用。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/feeds/sponsors/2026/08/finalist_4_inspired_by_paper_d" title="“Finalist 4：以纸张日程规划为灵感”的固定链接"&gt; ★ &lt;/a&gt;
@@ -32,15 +104,4 @@
 &lt;li&gt;越来越多对欧盟 withheld 的功能，比如iPhone镜像和Siri AI（这表明DMA“起作用了”，他们确实做了点什么）。&lt;/li&gt;
 &lt;li&gt;一堆罚款。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;我相信你们中有些人认为我的论点——DMA的目的仅仅是强加持续的官僚复杂性——完全站不住脚。但我的观点与实际情况是吻合的。比较一下&lt;a href="https://daringfireball.net/2025/12/apple_japan_msca_compliance"&gt;日本《移动软件竞争法》&lt;/a&gt;。苹果毫无波澜地遵守了MSCA明确规定的要求，日本用户没有错过iPhone镜像这样的功能，而Siri AI在日本唯一的延迟&lt;a href="https://www.apple.com/apple-intelligence/#footnote-1"&gt;只是语言支持&lt;/a&gt;。日本iOS用户获得了欧盟用户所享有的苹果监管合规的所有“好东西”，却没有那些相当严重的阻碍。&lt;/p&gt;</description><pubDate>Mon, 24 Aug 2026 22:47:20 +0000</pubDate></item><item><title>BitCam：1位相机应用迎来2.0版本</title><link>https://bitcam-app.com/</link><description>&lt;p&gt;10年前，&lt;a href="https://daringfireball.net/linked/2016/06/10/bitcam"&gt;我写过关于BitCam 1.0的文章&lt;/a&gt;：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;一款华丽且令人难以置信地忠实于原版Mac风格的iPhone单比特相机应用。这是对&lt;a href="https://www.google.com/search?q=bill+atkinson+dithering+algorithm"&gt;比尔·阿特金森非凡抖动算法&lt;/a&gt;的可爱致敬。&lt;a href="https://twitter.com/siracusa/status/740989106268831744"&gt;约翰·西拉库萨说&lt;/a&gt;：“对老派Mac用户来说简直是猫薄荷。”看看&lt;a href="https://twitter.com/cdespinosa/with_replies"&gt;刚加入苹果的克里斯·埃斯皮诺萨玩得多开心&lt;/a&gt;。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;BitCam最初由The Iconfactory创作，现在由&lt;a href="https://heliographe.studio/"&gt;Héliographe&lt;/a&gt;（曾提出&lt;a href="https://www.threads.com/@heliographe.studio/post/DTeOwAykwQ1"&gt;史上最佳图标设计妙语&lt;/a&gt;的团队）精心维护。2.0版本拥有BitCam 1的所有优点，而且远不止如此。这是对原版Mac的一首美妙颂歌，细节之处&lt;a href="https://mastodon.social/@heliographe_studio/117139385118413865"&gt;充满&lt;/a&gt;&lt;a href="https://mastodon.social/@heliographe_studio/117150743301554818"&gt;非凡的&lt;/a&gt;&lt;a href="https://mastodon.social/@heliographe_studio/117149403714856951"&gt;用心&lt;/a&gt;。在iPhone上乐趣无穷（尤其是作为相机），在Mac上同样乐趣无穷（尤其是探索其复古风格界面的细节）。在App Store上免费下载，只需一次性支付10美元即可解锁全部功能。&lt;/p&gt;
-&lt;p&gt;如果BitCam不能打动你，那说明你的连接方式不对。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/08/24/bitcam-1-bit-version-2" title="“BitCam：单比特相机应用升级至2.0”的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 24 Aug 2026 16:37:54 +0000</pubDate></item><item><title>更多关于TestFlight混乱排序方式的内容</title><link>https://daringfireball.net/2026/08/apple_testflight_list_sort_order</link><description>&lt;p&gt;&lt;a href="https://daringfireball.net/2026/08/apple_testflight_list_sort_order"&gt;我上周抱怨过&lt;/a&gt;，从上个月的一次更新开始，我在 Apple 的 TestFlight 应用中测试的应用列表按字母顺序排序，而不是按最近更新时间排序。无论这种排序方式是怎么回事，它并没有影响到所有人。约翰·西拉库萨（John Siracusa）和其他许多人一样，&lt;a href="https://mastodon.social/@siracusa/117135117635246786"&gt;也遇到了和我一样的问题&lt;/a&gt;——他的列表现在也是按字母顺序排列，这同样让他抓狂。瑞安·布克（Ryan Booker）和其他许多人一样，&lt;a href="https://mastodon.social/@ryanbooker/117141821370254238"&gt;他的列表仍然按最近更新时间排序&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;奇怪的是，在8月13日，iPhone 版 TestFlight 又开始按最近更新时间顺序显示我的列表。TestFlight 应用本身并没有更新。我只是又开始看到列表以正确的顺序显示。不过只有我的 iPhone 是这样——在我的 Mac 和 iPad 上，TestFlight 仍在按字母顺序对应用排序。然后，两天后，我的 iPhone 又变回字母顺序，而且从那以后就一直卡在那里。&lt;/p&gt;
-&lt;p&gt;当列表按最近更新时间排序时，列表顶部会有一个“正在测试”（Currently Testing）标题，列表底部还有“不兼容”（Incompatible）和“先前测试过”（Previously Tested）等其他（可显示的）分类。当列表按字母顺序排序时，这些分类标题都不可见。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/08/24/more-on-testflights-screwy-sort-order" title="Permanent link to ‘More on TestFlight’s Screwy Sort Order’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 24 Aug 2026 15:22:16 +0000</pubDate></item></channel></rss>
+&lt;p&gt;我相信你们中有些人认为我的论点——DMA的目的仅仅是强加持续的官僚复杂性——完全站不住脚。但我的观点与实际情况是吻合的。比较一下&lt;a href="https://daringfireball.net/2025/12/apple_japan_msca_compliance"&gt;日本《移动软件竞争法》&lt;/a&gt;。苹果毫无波澜地遵守了MSCA明确规定的要求，日本用户没有错过iPhone镜像这样的功能，而Siri AI在日本唯一的延迟&lt;a href="https://www.apple.com/apple-intelligence/#footnote-1"&gt;只是语言支持&lt;/a&gt;。日本iOS用户获得了欧盟用户所享有的苹果监管合规的所有“好东西”，却没有那些相当严重的阻碍。&lt;/p&gt;</description><pubDate>Mon, 24 Aug 2026 22:47:20 +0000</pubDate></item></channel></rss>
