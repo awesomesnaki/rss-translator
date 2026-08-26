@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 25 Aug 2026 13:59:56 +0000</lastBuildDate><item><title>苹果发布2026款Mac mini和Mac Studio 外观不变性能暴增 起售价899美元</title><link>https://www.landian.news/archives/126450.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 26 Aug 2026 04:12:36 +0000</lastBuildDate><item><title>研究发现微软在画图/照片里为AI图片添加像素级盲水印 截图/裁剪也不能去除水印</title><link>https://www.landian.news/archives/126452.html</link><description>
+&lt;p&gt;#软件资讯 安全研究员通过逆向分析发现微软的画图和照片 / 相册应用会给 AI 生成图片添加不可见的盲水印。这种盲水印直接嵌入在图片多个区域的像素中，通过裁剪、截图、部分遮盖等也依然可以识别图片。这种盲水印机制与 C2PA 不同，用户可以删除 C2PA 但无法彻底清除微软的像素级盲水印。查看全文：https://ourl.co/126452&lt;/p&gt;&lt;p&gt;据安全研究员 Xusheng Li 发布的逆向分析报告，微软会在画图和照片 / 相册应用里为 AI 生成的图片添加不可见的盲水印，盲水印使用的标识符来自微软服务器，并且这套机制与用户可以自己开启 / 关闭的 Microsoft Copilot 水印完全独立，所以用户无法彻底关闭盲水印。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126452.png" rel="nofollow"&gt;&lt;img alt="研究发现微软在画图/照片里为AI图片添加像素级盲水印 截图/裁剪也不能去除水印" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126452.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 在 AI PC 上本地生成图片依然需要连接微软服务器：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;研究发现画图应用的创建功能虽然可以使用 AI PC 本地的 Stable Diffusion 模型生成图片，但整个过程并不是完全离线的。在开始生成前画图应用会将用户填写的提示词和所选风格发送到微软服务器进行审核，服务器随后会返回修改后的提示词、提示词生成 ID 和水印 ID，之后图片才会在电脑本地通过 NPU 单元生成。&lt;/p&gt;
+&lt;p&gt;图片生成完毕后画图应用会调用盲水印控件将服务器返回的 16 字节盲水印相关参数写入图片像素，盲水印本身是肉眼不可见的，但微软可以通过某些检测机制识别出来图片是否是由画图应用生成。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;逆向分析显示盲水印机制会将 16 字节 GUID 扩展为 144 位数据再通过对图片多个区块进行细微修改的方式嵌入，研究人员使用 512x512 像素的图片进行测试，在微软添加盲水印后有超过 19 万个像素发生细微变化。&lt;/p&gt;
+&lt;p&gt;更值得注意的是，在画图应用中如果盲水印机制写入失败则本次 AI 图片生成任务会被直接视为失败，而不是返回没有添加水印的图片，可见微软将这个流程视为 AI 生成中的必要环节，除非完成盲水印标记否则不会生成图片。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;除了修改像素外画图应用也会给图片添加行业通用的 C2PA 内容凭证，研究人员检查实际生成的 PNG 文件后发现，其中的 C2PA 清单不仅明确标注图片由 AI 生成，还记录 Microsoft InvisMark 盲水印信息。&lt;/p&gt;
+&lt;p&gt;其中保存的水印值与服务器此前返回并实际写入图片像素的盲水印 ID 完全相同，这意味着微软实际上使用两层来源证明：C2PA 元数据 + 隐藏在图片像素中的隐形水印。因此即便用户通过某些工具删除 C2PA 元数据微软也依然可以通过像素识别水印，例如简单的截图、裁剪等无法彻底破坏盲水印。&lt;/p&gt;
+&lt;p&gt;另外微软的照片 / 相册应用中的 AI 图片生成和风格转换功能也同样使用盲水印机制，有些区别的是：画图应用如果写入水印失败会直接终止图片生成，而相册应用会记录错误后继续返回生成结果。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/" rel="noopener" target="_blank"&gt;Xusheng Li&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 26 Aug 2026 04:12:36 +0000</pubDate></item><item><title>悲报：开源项目Nitter收到X法律通知函 目前该项目已下线 开发者正在寻求法律咨询</title><link>https://www.landian.news/archives/126451.html</link><description>
+&lt;p&gt;#行业资讯 悲报：开源项目 Nitter 收到 X/Twitter 侵权法律通知函，目前相关网站已经下线无法访问、开源项目暂停开发。Nitter 可以绕过 X 的限制获得无广告、无追踪和干净的浏览环境，此前 X 通过多种技术手段阻止 Nitter 抓取内容，现在 X 决定直接走法律途径。Nitter 开发者表示项目暂停开发，正在寻求法律咨询。查看全文：https://ourl.co/126451&lt;/p&gt;&lt;p&gt;热门开源项目 Nitter 日前收到来自 X/Twitter 的侵权法律通知函，收到通知函后 Nitter 开发者已经立即下线网站同时暂停项目的开发，鉴于 X 声称该项目违反美国联邦和州多项法律，目前 Nitter 开发者正在咨询律师寻求帮助。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126451.png" rel="nofollow"&gt;&lt;img alt="悲报：开源项目Nitter收到X侵权法律通知函 目前该项目已下线 开发者正在寻求法律咨询" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126451.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Nitter 开源项目提供 Nitter.net 网站和自托管实例，最初用户可以在不需要注册账户的情况下直接获取 X 上的内容，后 X 调整访问策略后用户被迫需要登录自己的账户，但登录账户后可以继续通过 Nitter 获得无广告浏览体验。&lt;/p&gt;
+&lt;p&gt;X 在被埃隆马斯克收购后就在收紧访问限制，例如现在在未登录账号的情况下最多通过直链访问特定帖子或用户主页，无法直接查看用户的更多帖子。Nitter 相当于绕过 X 的限制获取内容，对 X 来说这是不能接受的。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;此前 X 已经通过多种技术手段用来对抗 Nitter 的数据抓取，不过开发者和社区总能找到其他办法继续获取内容，所以现在 X 决定直接通过法律手段摧毁该项目。事实证明这也是有效的，因为开发者收到法律通知函后立即停掉网站和开发工作。&lt;/p&gt;
+&lt;p&gt;X 在通知函中表示：Nitter 通过其服务非法使用和规避 X 公司的 API 及相关数据，X 有证据表明 Nitter 违反 X 公司规则、非法抓取 X 的数据并访问 X 的账户和会话令牌。这种行为违反多项美国联邦和州法律，包括但不限于德州的计算机有害访问法和兰哈姆法。&lt;/p&gt;
+&lt;p&gt;X 在通知函中要求 Nitter 在美国东部时间 2026 年 8 月 25 日下午 5 点前关闭网站，收到通知后 Nitter 开发和运营者停掉网站访问，在 GitHub 上也挂上相关说明表示项目暂时停止开发，开发者目前正在寻求法律咨询。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 26 Aug 2026 03:44:28 +0000</pubDate></item><item><title>苹果发布2026款Mac mini和Mac Studio 外观不变性能暴增 起售价899美元</title><link>https://www.landian.news/archives/126450.html</link><description>
 &lt;p&gt;#硬件设备 苹果推出 2026 款 Mac mini 和 Mac Studio，前者起售价 899 美元，后者起售价 2499 美元。其中 Mac mini 提供 M5 Pro 和 M6 芯片款，标配内存 16GB，但硬盘还是 256GB 起，最高可以选择 64GB 内存。Mac Studio 主要面向专业用户，提供性能更强的芯片和 PCIe 6.0 硬盘，可以在本地运行数千亿参数规模的 AI 模型。查看全文：https://ourl.co/126450&lt;/p&gt;&lt;p&gt;苹果刚刚通过新闻稿发布 2026 款 Mac mini 和 Mac Studio，这些新产品继续沿用现有的外观设计，但内部全面升级采用苹果最新发布的 M 系列芯片，这些产品都明显加强本地 AI、专业创作和多机计算能力。&lt;/p&gt;
 &lt;p&gt;其中 Mac mini 提供 M6 和 M5 Pro 两种芯片，Mac Studio 则提供 M5 Max 和 M5 Ultra，最高可选 36 核心 CPU、80 核心 GPU、512GB 统一内存和 16TB 固态硬盘。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126450-1.png" rel="nofollow"&gt;&lt;img alt="苹果发布2026款Mac mini和Mac Studio 外观不变性能暴增 起售价899美元" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126450-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -48,29 +75,4 @@
 &lt;p&gt;此前 Claude Code 也出现过类似的失误，导致很多内部尚未发布的功能被公开，&lt;a href="https://www.landian.news/archives/112428.html" rel="noopener" target="_blank"&gt;而 Anthropic 的做法就是直接发 DMCA 通知函要求 GitHub 删除相关仓库&lt;/a&gt;，当时这件事还引起非常大的争议 (毕竟已经泄露想要彻底从网上删除是不可能的)。&lt;/p&gt;
 &lt;p&gt;仓库地址：&lt;a href="https://www.landian.news/go?url=https://github.com/b-nnett/grok-bot-0.18-reconstructed" rel="noopener" target="_blank"&gt;https://github.com/b-nnett/grok-bot-0.18-reconstructed&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 25 Aug 2026 07:37:47 +0000</pubDate></item><item><title>苹果将在本周或下周推出新款Mac mini 可能搭载M5或M6芯片</title><link>https://www.landian.news/archives/126447.html</link><description>
-&lt;p&gt;#硬件设备 苹果将在本周或下周推出新款 Mac mini，可能搭载 M5 或 M6 芯片。彭博社马克古尔曼发布的最新消息称，苹果计划在秋季发布会前推出 2026 款 Mac mini。苹果已经测试搭载 M5 和 M6 芯片的 Mac mini，但即将发布的新款搭载 M5 还是 M6 还不确定。查看全文：https://ourl.co/126447&lt;/p&gt;&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/126447.png" rel="nofollow"&gt;&lt;img alt="苹果将在本周或下周推出新款Mac mini 可能搭载M5或M6芯片" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/126447.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;彭博社马克古尔曼发布最新消息称，苹果将在本周或下周推出 2026 款 Mac mini，即这款设备会在 iPhone 18 Pro 系列发布前推出，但具体新款 Mac mini 搭载 M5 还是 M6 芯片暂时还无法确定，苹果内部已经测试过搭载 M5 和 M6 的 Mac mini。&lt;/p&gt;
-&lt;p&gt;值得注意的是苹果首席执行官蒂姆库克即将退休，所以 2026 款 Mac mini 也可能是库克在任时推出的最终产品，当然既然赶在苹果秋季发布会前推出，说明 Mac mini 也不会有什么发布会，苹果可能会通过新闻稿形式推出这款产品。&lt;/p&gt;
-&lt;p&gt;至于价格那肯定是非常高的，目前搭载 M4 系列的 Mac mini 提供 M4 或 M4 Pro 芯片，内存容量从 16GB 到 48GB 不等，存储空间最高可以选择 8TB 款。不过近期因产品价格调整苹果曾短暂停售 256GB 版的 Mac mini，&lt;a href="https://www.landian.news/archives/113656.html" rel="noopener" target="_blank"&gt;之后苹果大幅度调整所有型号的 Mac、iPad、Apple TV、HomePod 等产品价格&lt;/a&gt;，之后苹果以 799 美元的价格重新销售 256GB 版 Mac mini。&lt;/p&gt;
-&lt;p&gt;新款 Mac mini 搭载 M5 或 M6 芯片都要比 2024 款性能更好，再叠加现在内存价格太高，因此估计基础款 2026 Mac mini 的售价也不会便宜，最起码也会与 M4 Mac mini 持平。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 25 Aug 2026 06:42:57 +0000</pubDate></item><item><title>.NET Framework 8月更新导致Windows 11打印异常 微软已分享临时解决方案</title><link>https://www.landian.news/archives/126446.html</link><description>
-&lt;p&gt;#系统资讯 安装.NET Framework 8 月更新后 Windows 11 打印出现异常，受影响的主要是 WPF 应用生成的 PDF 或 XPS 文档。这个问题与字体有关，只要更换不受影响的字体那就可以打印。微软目前也在寻找永久解决方案，初步调查显示这与微软部署的安全措施有关。解决方案：https://ourl.co/126446&lt;/p&gt;&lt;p&gt;据微软日前发布的支持文档，当用户在 Windows 11 上安装 8 月份发布的.NET Framework 框架更新，则某些 WPF 应用生成的文档无法正常打印。无法打印的文档主要使用 Calibri、Cambria、Constantia 或 Corbel 字体，如果使用的是其他字体则可以打印。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/public/thumb/W11.png" rel="nofollow"&gt;&lt;img alt=".NET Framework 8月更新导致Windows 11打印异常 微软已分享临时解决方案" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/public/thumb/W11.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;经过初步调查微软发现这个问题主要影响使用 Calibri 字体的 PDF 文档或 XPS 文档，即如果在文档中使用相关字体那打印时就会报错。实际打印时用户可能会看到诸如 System.IO.FileFormatException 的错误代码。&lt;/p&gt;
-&lt;p&gt;要临时解决这个问题其实也很简单，用户通过 WPF 应用将文档内容修改为其他字体即可正常打印，或者用户也可以通过微软提供的临时解决方案进行修复，后续微软应该会发布更新彻底解决问题。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;安全方案：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;直接通过 WPF 应用编辑文档将文档字体修改为其他不受影响的字体，但每次都需要修改字体。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;不安全方案：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在 WPF 应用程序配置文件 (app.config) 里添加指令，但这会禁用微软在 8 月更新中部署的安全措施&lt;/p&gt;
-&lt;pre&gt;&amp;lt;configuration&amp;gt;
- &amp;lt;runtime&amp;gt;
-   &amp;lt;AppContextSwitchOverrides
-     value="Switch.MS.Internal.TtfDelta.DisableCmapAndSbitOverflowProtection=true"/&amp;gt;
- &amp;lt;/runtime&amp;gt;
-&amp;lt;/configuration&amp;gt;&lt;/pre&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 25 Aug 2026 05:05:50 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 25 Aug 2026 07:37:47 +0000</pubDate></item></channel></rss>
