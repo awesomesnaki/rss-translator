@@ -1,52 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Wed, 26 Aug 2026 20:18:04 +0000</lastBuildDate><item><title>POSIWID：系统的目的是它所做的事情</title><link>https://en.wikipedia.org/wiki/The_purpose_of_a_system_is_what_it_does</link><description>&lt;p&gt;维基百科：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Fri, 28 Aug 2026 02:59:46 +0000</lastBuildDate><item><title>美国法官阻止特朗普国防部将Anthropic列入黑名单</title><link>https://www.reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28/</link><description>&lt;p&gt;路透社杰克·奎恩报道：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;系统的目的就是它所做的事情（POSIWID）是英国管理顾问&lt;a href="https://en.wikipedia.org/wiki/Stafford_Beer"&gt;Stafford Beer&lt;/a&gt;提出的一种系统思维启发式方法，他说：“声称系统的目的是去做它一直做不到的事情，这是没有意义的。”这一概念用于系统理论，通常被用来反驳那种认为系统的目的可以或应该从设计、运营或推广系统者的意图中读出的观点。当系统的副作用或意外后果暴露出其行为未被充分理解时，POSIWID视角可以平衡对系统行为的政治性理解与更直接的描述性观点。&lt;/p&gt;
+&lt;p&gt;美国一名法官周四阻止了五角大楼将Anthropic列入黑名单，这是这家Claude开发商与军方就战场AI安全问题展开的高风险较量中的最新转折。&lt;/p&gt;
+&lt;p&gt;Anthropic在加州联邦法院提起的诉讼称，国防部长皮特·赫格塞斯在将Anthropic认定为国家安全供应链风险时超越了其权限——政府可以将这一标签施加于那些让军事系统面临对手潜在渗透或破坏风险的公司。[...]&lt;/p&gt;
+&lt;p&gt;美国地区法官丽塔·林由前民主党总统乔·拜登任命，她在长达59页的裁决书中认定五角大楼的决定“非法且毫无根据”。&lt;/p&gt;
+&lt;p&gt;“空洞地援引国家安全并非惩罚和报复政府批评者的空白支票，”她写道。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;我不记得之前见过POSIWID，但我喜欢这个概念。一位朋友把它发给我，并调侃说我忘了在本周的《&lt;a href="https://daringfireball.net/2026/08/what_is_the_point_of_the_dma"&gt;数字市场法的意义何在？&lt;/a&gt;》一文中加入这个链接。确实，它概括了我对DMA以及整个欧盟委员会的论点。DMA的目的就是它所做的事情，而不是你想象它&lt;em&gt;打算&lt;/em&gt;做的事情。&lt;/p&gt;
-&lt;p&gt;同样，我也一直在思考&lt;a href="https://fortune.com/article/inside-apple/"&gt;亚当·拉辛斯基2011年为《财富》杂志报道&lt;/a&gt;的那个著名轶事：&lt;/p&gt;
+&lt;p&gt;特朗普2.0的帝国色彩正日益分崩离析。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/08/27/anthropic-beats-defense-department" title="指向‘美国法官阻止特朗普国防部对Anthropic的黑名单决定’的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Fri, 28 Aug 2026 02:59:46 +0000</pubDate></item><item><title>Afterglow — 经典After Dark屏保在今日macOS上的重现</title><link>https://morphing.cloud/afterglow/</link><description>&lt;p&gt;Jeff Halter 又做到了：在&lt;a href="https://daringfireball.net/linked/2026/07/12/lunacy"&gt;带回&lt;/a&gt;史上最伟大的 After Dark 模块（Ben Haller 的 Lunatic Fringe 游戏，借助名为 &lt;a href="https://morphing.cloud/lunacy/"&gt;Lunacy&lt;/a&gt; 的现代运行时）之后，他现在又发布了 Afterglow：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;史蒂夫·乔布斯容不下废物。发布活动后不久，他把MobileMe团队召来，让他们聚集在苹果园区4号楼的市政厅礼堂——这是公司用来向记者小范围发布产品的场地。据一位与会者说，乔布斯走进来，身穿标志性的黑色高领套头衫和蓝色牛仔裤，双手交叉，问了一个简单的问题：&lt;/p&gt;
-&lt;p&gt;“有人能告诉我MobileMe应该做什么吗？”在得到满意的回答后，他接着说：“那他妈的为什么它做不到？”&lt;/p&gt;
+&lt;p&gt;如今运行 After Dark 模块，需要对 Mac OS 模拟器或老式硬件进行繁琐的配置。即便如此，也没有任何一款模拟器或老式电脑能够忠实地运行所有模块：有些动画太快，有些太慢。&lt;/p&gt;
+&lt;p&gt;Afterglow 是一款专为运行 After Dark 模块而打造的模拟器——运行的是原始 68k 模块代码，而非重制版或移植版——不依赖任何 ROM 或经典 Mac OS。秉承软件保存的理念，它让人们在今天乃至未来多年都能轻松享受 After Dark。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;你可以随意争辩说，DMA旨在给开发者和用户选择与自由。我的反驳是：“那他妈的为什么它做不到？”DMA的意义就是它所做的事——而不是你所想的那样。&lt;/p&gt;
-&lt;p&gt;（另外，如果你点击上面引用的&lt;a href="https://en.wikipedia.org/wiki/Stafford_Beer"&gt;Stafford Beer的维基百科条目&lt;/a&gt;——天哪，给这家伙戴顶帽子，他保准看起来就像&lt;a href="https://daringfireball.net/misc/2026/08/dalrymple-gruber.jpeg"&gt;Jim Dalrymple&lt;/a&gt;。如果他的名字是Stafford Heineken，那就更诡异了。）&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/08/26/posiwid" title="‘POSIWID：系统的目的就是它所做的事情’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Wed, 26 Aug 2026 20:18:04 +0000</pubDate></item><item><title>苹果抛光布现仅售9美元</title><link>https://9to5mac.com/2026/08/25/apple-releases-new-polishing-cloth-for-9/</link><description>&lt;p&gt;Chance Miller：&lt;/p&gt;
+&lt;p&gt;这一切都发生在&lt;a href="https://daringfireball.net/linked/2026/07/12/stacks"&gt;同一个夏天&lt;/a&gt;——Halter 在这个夏天发布了 &lt;a href="https://morphing.cloud/hypercard/"&gt;Stacks&lt;/a&gt;，他那精美的原生现代 HyperCard 播放器。更别提他复刻的 &lt;a href="https://morphing.cloud/macwarehouse/1997/"&gt;1997 年 MacWarehouse 第 68 卷&lt;/a&gt;了。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/08/27/afterglow" title="“Afterglow——今日 macOS 上的经典 After Dark 屏幕保护程序”的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Thu, 27 Aug 2026 21:49:50 +0000</pubDate></item><item><title>Claude的支柱词汇</title><link>https://louisabraham.github.io/load-bearing/</link><description>&lt;p&gt;来自Louis Abraham的一个有趣（但令人沮丧？）的数据分析项目，展示了Claude在提交GitHub拉取请求时的用词有多么重复。Abraham在项目README中写道：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;为了不被新款&lt;a href="https://9to5mac.com/2026/08/25/apple-announces-new-mac-mini-heres-everything-new/"&gt;Mac mini&lt;/a&gt;和&lt;a href="https://9to5mac.com/2026/08/25/apple-unveils-next-generation-mac-studio-with-m5-max-and-m5-ultra/"&gt;Mac Studio&lt;/a&gt;抢去风头，苹果今天还发布了其抛光布的更新版本。在这个万物皆涨的时代，新款抛光布&lt;a href="https://apple.sjv.io/X45RDb"&gt;比之前更便宜，仅需9美元&lt;/a&gt;（原价19美元）。[...]&lt;/p&gt;
-&lt;p&gt;苹果于2021年10月&lt;a href="https://9to5mac.com/2021/10/18/apple-introduces-new-polishing-cloth-for-all-devices-sold-separately-for-19/"&gt;发布&lt;/a&gt;了这款抛光布，几乎&lt;a href="https://9to5mac.com/2022/01/11/the-nightmare-is-over-the-apple-polishing-cloth-is-back-in-stock-and-ready-to-ship/"&gt;瞬间售罄&lt;/a&gt;。虽然它已成为一个梗，但用它来擦拭你的苹果设备确实效果很好。&lt;/p&gt;
+&lt;p&gt;GitHub拉取请求描述，按其撰写所用词汇分组，而非按照任何预先指定的查找条件：八种写作模式，每段描述都属于其中之一。其中一种在2025年初占语料库的1.0%，到2026年中期已占45%。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;摩尔定律最终会降临到一切事物上。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/08/26/apple-polishing-cloth-9-bucks" title="永久链接至“苹果抛光布现仅售9美元”"&gt; ★ &lt;/a&gt;
-</description><pubDate>Wed, 26 Aug 2026 19:18:40 +0000</pubDate></item><item><title>‘惊喜与闪耀’苹果发布会：9月9日（星期三）</title><link>https://9to5mac.com/2026/08/26/apple-officially-announces-iphone-18-pro-foldable-event/</link><description>&lt;p&gt;Zac Hall，9to5Mac：&lt;/p&gt;
+&lt;p&gt;如果你想变得更沮丧一点，我一直在更深入地钻研AI水印研究，而谷歌关于SynthID-Text（即Anthropic表示Claude将开始使用的水印方案）的白皮书中承认的一点是：该技术会"在一定程度上降低响应间的多样性"。这意味着针对同一提示的不同回答会变得更加相似——水印文本响应的多样性减少了。鉴于Claude在对其输出加水印&lt;em&gt;之前&lt;/em&gt;显然已经在这方面存在问题，这是一个承重问题。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/08/27/the-load-bearing-vocabulary-of-claude" title="指向《Claude的承重词汇》的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Thu, 27 Aug 2026 21:09:42 +0000</pubDate></item><item><title>伊丽莎白·沃伦对苹果关税退税的语无伦次的愤怒。</title><link>https://www.warren.senate.gov/newsroom/press-releases/warren-pushes-giant-corporations-to-give-billions-in-tariff-refunds-back-to-consumers/</link><description>&lt;p&gt;&lt;a href="https://daringfireball.net/linked/2026/08/27/panic-playdate-tariff-refunds"&gt;说到关税退款&lt;/a&gt;，这里有几周前参议员伊丽莎白·沃伦发布的一份官方声明：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;苹果已正式宣布其下一场产品发布会，届时将推出iPhone 18 Pro系列以及首款折叠屏iPhone。发布会将于太平洋时间9月9日上午10点举行。宣传语为“惊喜闪耀”（Surprise and shine），邀请函上是一个发光的苹果标志，阳光从中穿透而过。&lt;/p&gt;
+&lt;p&gt;美国参议员伊丽莎白·沃伦（马萨诸塞州民主党人）致信塔吉特、苹果、亚马逊、耐克、摩托罗拉、沃尔玛和劲量，敦促这些公司——它们每家都已获得或预计将获得特朗普政府针对去年所缴关税的巨额退税——向消费者提供退款。&lt;/p&gt;
+&lt;p&gt;沃伦参议员写道：“我敦促你们将可能收到的任何退款转交给那些在关税实施期间为你们的产品支付了更高价格的消费者。”&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;苹果通常偏好周二举办活动，但在劳工节落在九月第二周的年份，他们会将发布会改到周三。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/08/26/surprise-and-shine-apple-event" title="Permanent link to ''Surprise and Shine' Apple Event: Wednesday 9 September'"&gt; ★ &lt;/a&gt;
-</description><pubDate>Wed, 26 Aug 2026 19:16:34 +0000</pubDate></item><item><title>XCancel，这个Twitter/X镜像站，在收到X Corp那帮好心人的停止函后关闭了。</title><link>https://xcancel.com/</link><description>&lt;p&gt;XCancel：&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://x.com/SenWarren/status/2085880463982281196"&gt;她在Twitter/X上发帖称&lt;/a&gt;：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;8月24日（周一）美国东部时间晚上8点，我们收到了X公司发来的一封信，要求我们停止并终止XCancel服务。&lt;/p&gt;
-&lt;p&gt;XCancel服务已暂停，直至另行通知。&lt;/p&gt;
-&lt;p&gt;我们正在寻求法律建议，目前不会透露更多细节。&lt;/p&gt;
-&lt;p&gt;感谢你们在这两年间对XCancel的信任。&lt;/p&gt;
+&lt;p&gt;最新消息：据报道，苹果获得了22亿美元的关税退款。亚马逊获得了6亿美元。&lt;/p&gt;
+&lt;p&gt;他们打算如何把钱还给你？&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;我不想乌鸦嘴，但悬在他们头上的这个明显威胁，正是我&lt;a href="https://daringfireball.net/linked/2026/08/16/xcancel"&gt;从不只链接到XCancel而不直接链接到x.com上的推文&lt;/a&gt;的主要原因。这很糟糕，不仅因为有些人不愿意访问x.com，还因为XCancel是一个加载更快、没有那些乱七八糟东西的网站。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;更新：&lt;/strong&gt;Nitter——XCancel所基于的开源项目——&lt;a href="https://daringfireball.net/misc/2026/08/nitter-cease-and-desist.png"&gt;也收到了同样的停止并终止通知&lt;/a&gt;，并已关闭。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/08/25/xcancel-cease-and-desist" title="“XCancel，Twitter/X镜像站，在收到X公司诸位好人的停止并终止通知后关闭”的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Tue, 25 Aug 2026 22:44:18 +0000</pubDate></item><item><title>多莉·帕顿去世，享年80岁</title><link>https://www.nytimes.com/2026/08/25/arts/music/dolly-parton-dead.html</link><description>&lt;p&gt;Bill Friskics-Warren为《纽约时报》撰稿：&lt;/p&gt;
+&lt;p&gt;沃伦公布了发给各位CEO的信函，&lt;a href="https://www.warren.senate.gov/wp-content/uploads/2026/08/Tariff-Refund-Letters.pdf"&gt;包括致蒂姆·库克的一封&lt;/a&gt;：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;她的死讯由其侄子Bryan Seaver在社交媒体上发布的一段视频中宣布。未提供死因。去年，帕顿女士因&lt;a href="https://www.nytimes.com/2025/09/29/arts/music/dolly-parton-las-vegas.html"&gt;推迟&lt;/a&gt;并最终取消拉斯维加斯驻场演出而引发外界对她健康状况的担忧，这些担忧一度加剧，以至于她在10月通过社交媒体宣布：&lt;a href="https://www.nytimes.com/2025/10/08/arts/music/dolly-parton-health.html"&gt;“我还没死呢。”&lt;/a&gt;今年5月，她曾表示，在近些年她的免疫系统和消化系统——用她的话说——“彻底乱了套”之后，她对治疗反应良好。&lt;/p&gt;
-&lt;p&gt;从艰苦的出身到璀璨的巨星之路，帕顿女士的一生如同传奇故事。凭借丰满的身材、闪亮的舞台服装和金色蓬松假发，她被作家Chet Flippo比作“大岩石糖果山”——大萧条时期象征丰饶的形象。她的歌曲触动了数百万人的心，既直面贫困与失落，又散发着无限可能与希望。&lt;/p&gt;
-&lt;p&gt;从根本上说，她是一个将人们凝聚在一起的人。2019年，《纽约时报》&lt;a href="https://www.nytimes.com/2019/11/21/arts/music/dolly-parton.html"&gt;刊登了一篇报道&lt;/a&gt;，标题是：“有什么事是我们都能达成一致的？有：Dolly Parton。”&lt;/p&gt;
+&lt;p&gt;报道显示，苹果已就其2025年支付的大约33亿美元关税申请退税，截至7月30日，你方已收到近22亿美元的退款。这相当于一笔数十亿美元的意外之财，如果你方更多退税申请获批，这笔款项还可能继续增加。你方声称“计划将收到的任何款项重新投资于美国创新和先进制造业”，但这一模糊表态并未说明这笔资金的去向：实际上，它暗示你方不会将这笔钱返还给去年购买苹果产品并支付了更高价格的数百万消费者。[……]&lt;/p&gt;
+&lt;p&gt;你方以关税退款的形式获得了巨额现金注入，而那些因关税名义上支付了更高价格的苹果产品消费者，理应知道这笔钱将如何使用。你方关于“再投资”退款的模糊说法，让那些多花了数百美元购买苹果产品的辛勤工作的美国人无法理解他们为何支付了更高的价格，以及他们的钱将流向何处。为了更好地了解你方可能收到的任何关税退款的处置方式，我要求你方在2026年8月21日前回答以下问题。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;a href="https://www.threads.com/share/BANzyTBX7-/"&gt;希拉里·克林顿，在Threads上&lt;/a&gt;：&lt;/p&gt;
+&lt;p&gt;她提出的11个问题中，唯一似乎切中要害的是第5个：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Dolly Parton尽其所能，为所有她能够帮助的人，做了所有她能够做的善事，直到生命的最后一刻。&lt;/p&gt;
-&lt;p&gt;从她传奇的歌曲创作，到“想象图书馆”——每月向全国儿童送出100万册图书——她是美国最美好的一面。&lt;/p&gt;
-&lt;p&gt;Dolly，我们会想念你伟大的心灵。&lt;/p&gt;
+&lt;p&gt;（5）2025年苹果对产品提价了多少？&lt;br/&gt;
+（a）苹果对哪些产品提了价，其中有多少产品直接受到关税影响？&lt;/p&gt;
+&lt;/blockquote&gt;&lt;p&gt;除非我遗漏了什么，否则答案是“0美元”和“没有”。苹果在2025年没有因关税而提高任何产品的价格。事实上，iPhone 17系列让许多观察人士感到意外，并&lt;a href="https://www.investing.com/news/stock-market-news/apple-event-expected-to-feature-a-slimmer-iphone-as-pricing-ai-questions-linger-4230858"&gt;因维持价格不变而成为新闻&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;2025年5月，&lt;a href="https://www.warren.senate.gov/newsroom/press-releases/warren-gallego-whitehouse-booker-delauro-colleagues-demand-ftc-stop-corporations-from-using-trumps-tariffs-as-an-excuse-to-price-gouge-americans/"&gt;沃伦联名签署了一封致联邦贸易委员会的信函&lt;/a&gt;，鼓励该机构阻止大型盈利企业以特朗普关税为由抬高价格。苹果——一家大型盈利企业——完全没有涨价，这似乎正是沃伦认为它们应该做的。但如今她对苹果获得关税退款表示愤怒，因为这些关税成本是由苹果自己承担的，而她的支持者们则被引导相信苹果&lt;em&gt;确实&lt;/em&gt;涨了价并扣留了这笔钱。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/08/27/elizabeth-warren-apple-tariff-refunds" title="‘伊丽莎白·沃伦对苹果关税退款一事自相矛盾的愤慨’的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Thu, 27 Aug 2026 20:46:08 +0000</pubDate></item><item><title>Panic将向Playdate买家退还关税费用</title><link>https://www.gamedeveloper.com/business/playdate-maker-is-refunding-tariff-fees-to-customers</link><description>&lt;p&gt;Nicole Carpenter 和 Diego Argüello 为 Game Developer 报道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;"今年有一段时间我们确实向客户收取了关税，"Panic 联合创始人 Cabel Sasser 在一封确认此消息的电子邮件中向 Game Developer 解释道。"我们曾尝试自行消化这部分成本，但对我们这样一家小公司来说，在经济上实在难以为继。我们让关税成为结账页面上一项非常醒目、标注清晰的费用条目，供所有受影响的客户查看。"&lt;/p&gt;
+&lt;p&gt;Panic 还&lt;a href="https://help.play.date/orders/tariffs/"&gt;设立了一个网站&lt;/a&gt;来解释这 19% 的关税附加费。
+[...] 客户能拿回的退款金额取决于他们的购买金额。&lt;/p&gt;
+&lt;p&gt;"这笔钱本就不属于我们，能把它退还回去，感觉非常好，"Sasser 说道。"这是判断你做了正确决定的一种简单方式。"&lt;/p&gt;
+&lt;p&gt;他继续说道："不过，向政府申请退税需要我们填写大量文件，还要搭建一个小系统来处理退款，这花了不少功夫。有时候会觉得，等等，为什么我们在这件事上做的比那些巨型公司还要多？这感觉有点奇怪。但我想这在某种程度上也说得通，因为我们的规模小，意味着像关税这样的问题对我们的影响要直接得多。"&lt;/p&gt;
+&lt;p&gt;Sasser 表示，他希望 Panic 以后再也不用谈论关税了。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;帕顿成就了太多伟大的事业，但天啊，“想象图书馆”简直令人难以置信。他们已经向儿童分发了超过3.3亿册图书——&lt;em&gt;而且数字还在增长&lt;/em&gt;。她的家人表示，如果你愿意以捐款的方式表达对她的敬意，请不要送花或其他物品，而是将心意&lt;a href="https://imaginationlibrary.com/"&gt;捐赠给图书馆&lt;/a&gt;。算我一个。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/08/25/dolly-parton-rip" title="Permanent link to ‘Dolly Parton Dies at 80’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Tue, 25 Aug 2026 22:39:12 +0000</pubDate></item></channel></rss>
+
+一个很酷的公司带来的很酷的故事，也希望我们再也听不到关于关税的消息，阿门。
+
+
+&lt;a href="https://daringfireball.net/linked/2026/08/27/panic-playdate-tariff-refunds" title="固定链接至 'Panic 正在向 Playdate 买家退还关税费用'"&gt; ★ &lt;/a&gt;
+</description><pubDate>Thu, 27 Aug 2026 20:10:13 +0000</pubDate></item></channel></rss>
