@@ -14,9 +14,10 @@
 - `config.yaml` — Feed 配置（URL、是否翻译、是否抓全文、过滤规则）
 - `translate_rss.py` — 核心脚本，处理所有 feed
 - `cache.json` — 翻译缓存（key 为内容 MD5 hash），避免重复调用 API
+- `content_cache.json` — `fetch_full_content` 抓回来的正文快照（key 为文章链接），保证送去翻译的内容稳定
 - `feeds/*.xml` — 生成的 RSS 文件，通过 GitHub Pages 发布
 - `feeds/images/{collection}/` — 豆瓣海报，由 GitHub Pages 自托管避防盗链
-- `.github/workflows/translate.yml` — 每 2 小时自动运行
+- `.github/workflows/translate.yml` — 每天在 DeepSeek 谷时时段运行 10 次
 - `douban_scraper.py` — 豆瓣榜单爬虫，独立于 translate_rss.py
 - `.github/workflows/douban.yml` — 每周一 08:00（北京时间）自动运行
 
@@ -37,6 +38,7 @@
   text_only: true           # 可选，正文去掉所有图片，只保留文字
   filter_category: "xxx"    # 可选，只保留带该 <category> 标签的条目（可为字符串或列表）
   self_host_images: true    # 可选，图片下载到 feeds/images/{name}/ 自托管，绕过源站 CDN 防盗链
+  max_entries: 20           # 可选，每次处理的条目数上限（默认 5，带过滤时 50，白名单过滤时不限）
 ```
 
 ## douban_scraper.py 配置
@@ -77,6 +79,11 @@
 - **分类过滤** — `filter_category` 按 RSS `<category>` 精确保留，注意部分第三方 feed 服务（如 feed.luobo8.com）不含 category 标签，此时应改用 `filter_in` 按标题过滤
 - **纯文字模式** — `text_only` 在 `fix_image_tags` 之后剥掉所有 `<img>`，适用于图片源防盗链无解、只想看文字的站点
 - **图片自托管** — `self_host_images` 适用于源站图片 CDN 防盗链严格、`referrerpolicy="no-referrer"` 也救不回来的源（如少数派 `cdnfile.sspai.com`，源站不接受空 Referer）。开启后在 `fix_image_tags` 之后把正文图片下载到 `feeds/images/{name}/`，下载时带源站 Referer 绕过防盗链，`<img src>` 改写为 GitHub Pages URL。文件名为图片 URL 的 md5，已下载的命中缓存跳过。图片清理用**保留期**机制（`SELF_HOST_RETENTION_DAYS`，默认 30 天）：图片滚出 feed 窗口后不立即删，再保留 30 天才删——因为 RSS 阅读器（Reeder 等）会长期缓存历史条目、仍指着这些本地图，删早了老文章图片就 404（少数派踩过的坑）。每张图最后一次出现在 feed 的日期记在 `feeds/images/{name}/.image_manifest.json`（CI 每次全新 clone，文件 mtime 不可靠，保留期只能靠它自己持久化）。这点不同于豆瓣海报的「离榜即删」。下载失败则保留原直链，下次运行重试
+- **谷时调度** — DeepSeek 按峰谷计费，谷时单价是峰时的一半。峰时是**北京时间周一至周五** 09:00-12:00、14:00-18:00，其余（含整个周末）都是谷时。换算成 cron 用的 UTC 是周一至周五 01:00-04:00、06:00-10:00（北京时间减 8 小时不跨日，星期几不用平移）。工作日的 cron 避开这两个窗口，并且不排在峰时开始前一小时内（否则一次运行会跨进峰时）；周末全天谷时，没有窗口要避，照每 2 小时跑。代价是工作日 UTC 04:00 → 10:00 有个 6 小时空档
+- **max_entries 与运行间隔配套** — 默认窗口 5 条。运行间隔拉长后，更新快的源会在两次运行之间推出超过 5 条，多出来的就永远漏掉了。cnbeta（约 25 条/天）、v2ex-hot（约 12 条/天）、landiannews、sspai、somepics 因此显式配了更大的 `max_entries`。加新源或再改调度间隔时都要按「源的日更条数 × 最大间隔」重新核一遍
+- **全文抓取必须稳定，否则翻译缓存形同虚设** — 这是历史上最大的 token 黑洞。`fetch_full_content` 每次运行都重新抓原网页，而抓取结果并不稳定：超时截断、Cloudflare 拦截页、模板噪音，都会改变内容 hash → 翻译缓存全部失效 → 整篇重新翻译。franzgraf（The Beauty of Nature，已移除）和 workspaces 两个源在两个月里几乎没有新文章，却吃掉了九成 token——franzgraf 同一篇文章的正文长度在 0 / 379 / 989 / 5400 字之间反复横跳，每次运行重翻一遍。现在抓取结果先经过 `stable_full_content` 和 `content_cache.json` 里的上一版快照对齐：可见文字相同 → 沿用旧正文（翻译缓存照常命中）；旧正文完整出现在新正文里 → 作者真的追加了内容，重新翻译；明显变短 → 按抓取降级处理，要连续 3 次抓到一模一样的短正文才认（抓取抖动每次截断位置都不同，凑不齐 3 次；有的源会稳定截断在同一位置，所以 2 次确认不够，会让 feed 在完整版和半截版之间来回翻）。副作用是 feed 里不会再出现空正文和半截文章
+- **content_cache.json 保留期只有 7 天** — 存的是整篇 HTML，不能像翻译缓存那样开 30 天，否则文件会涨到几十 MB（`cache.json` 撞过 GitHub 单文件限制）。7 天足够覆盖 feed 窗口内的文章
+- **翻译失败绝不写缓存** — 以前 API 出错时 `translate_with_deepseek` 会原样返回英文原文，然后被当成译文永久缓存，一次网络抖动能污染到缓存过期。模型偶尔还会拒答、回一句「请提供需要翻译的内容」，同样会被缓存下来顶掉正文或标题（已移除的 franzgraf 源标题就这样坏了很久）。现在失败和拒答一律返回 `None`，本次运行用原文顶上、不写缓存，下次运行重试；加载缓存时也会顺手清掉历史上被污染的条目
 - **RSSHub URL 策略** — `rsshub://` 协议走 CI 本地实例；直接写 `https://rsshub.app/...` 则走官方实例不被改写，适用于本地实例无法抓取的源
 - **豆瓣图片自托管** — wsrv.nl 等代理对 doubanio 返回 404（海外 IP 段被拦），改为 Actions 直接下载海报到 `feeds/images/{name}/`，由 GH Pages 提供，零防盗链。每次运行只保留本期榜单的图，已离榜的自动清理
 - **豆瓣海报下载重试** — `download_image` 每个 URL 重试 3 次（1s/2s backoff），并按 `pic.large` → `pic.normal` → `cover_url` → `pic.small` 顺序 fallback。任一组合成功即可。下载彻底失败的条目从 `name_map` 移除，正文不带图（不回落 doubanio 直链，防盗链拉不到）
@@ -95,5 +102,7 @@
 - `filter_out` 和 `filter_out_content` 可叠加使用，先过滤标题再过滤正文
 - 图片 CDN 防盗链严格、`no-referrer` 无效的源（如少数派），加 `self_host_images: true` 把图下载到本仓库自托管，代价是仓库体积会随运行增长
 - 开发请在独立分支上进行，通过 PR 合并到 main
+- 改 `translate.yml` 的 cron 时注意别排进 DeepSeek 峰时（UTC 周一至周五 01:00-04:00、06:00-10:00），也别排在峰时开始前一小时内（运行会跨进去）；周末不受限
+- 排查 token 消耗：`git log` 里逐个 commit 对比 `feeds/*.xml`，区分「新 guid」和「同一 guid 正文变了」——后者就是缓存失效在重复翻译，是真正的花钱大户
 - 加新豆瓣榜单：`douban_scraper.py` 顶部 `COLLECTIONS` 列表加一项，slug 即豆瓣 URL `/subject_collection/` 后面那部分
 - 豆瓣订阅地址：`https://awesomesnaki.github.io/rss-translator/feeds/douban-{collection}.xml`，不进 config.yaml 流程
