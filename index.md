@@ -12,7 +12,6 @@
 - cnbeta: https://awesomesnaki.github.io/rss-translator/feeds/cnbeta.xml
 - dereksivers: https://awesomesnaki.github.io/rss-translator/feeds/dereksivers.xml
 - dianying4k: https://awesomesnaki.github.io/rss-translator/feeds/dianying4k.xml
-- franzgraf: https://awesomesnaki.github.io/rss-translator/feeds/franzgraf.xml
 - indieapp: https://awesomesnaki.github.io/rss-translator/feeds/indieapp.xml
 - kaushikgopal: https://awesomesnaki.github.io/rss-translator/feeds/kaushikgopal.xml
 - landiannews: https://awesomesnaki.github.io/rss-translator/feeds/landiannews.xml
