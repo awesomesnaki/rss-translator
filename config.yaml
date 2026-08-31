@@ -37,14 +37,17 @@ feeds:
     url: "rsshub://v2ex/topics/hot"
     fetch_full_content: true
     translate: false
+    max_entries: 12          # 约 12 条/天，谷时调度最大间隔 6 小时，留出漏条目的余量
   - name: "cnbeta"
     url: "rsshub://cnbeta"
     fetch_full_content: true
     translate: false
+    max_entries: 20          # 约 25 条/天，是所有源里更新最快的，窗口必须开大
   - name: "sspai"
     url: "rsshub://sspai/index"
     translate: false
     self_host_images: true
+    max_entries: 8
   - name: "mac52ipod"
     url: "http://www.mac52ipod.cn/feed.php"
     fetch_full_content: true
@@ -53,6 +56,7 @@ feeds:
     url: "https://www.landiannews.com/feed"
     fetch_full_content: true
     translate: false
+    max_entries: 10
   - name: "luobo8"
     url: "https://feed.luobo8.com/"
     translate: false
@@ -67,6 +71,7 @@ feeds:
   - name: "somepics"
     url: "https://some.pics/rss"
     summarize_title: true
+    max_entries: 10          # 约 10 条/天；只翻标题，加大窗口几乎不增加 token
   - name: "pixelfed-JessStetson"
     url: "https://pixelfed.social/users/Jess.Stetson.atom"
     summarize_title: true

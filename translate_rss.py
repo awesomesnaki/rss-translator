@@ -5,6 +5,7 @@ import time
 import hashlib
 import json
 import re
+import difflib
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from bs4 import BeautifulSoup
@@ -39,6 +40,17 @@ def load_config():
 # 正常情况下 feed 窗口内的条目每 2 小时都会命中一次，30 天足够容忍源站长时间抓取失败。
 CACHE_RETENTION_DAYS = 30
 
+# 模型偶尔不翻译，反过来回一句「请提供需要翻译的内容」。这种回复一旦写进缓存就永久顶掉
+# 正文或标题（feeds/franzgraf.xml 的标题就被这样顶掉过），必须当成翻译失败处理。
+REFUSAL_MARKERS = (
+    '请提供需要翻译', '请提供您希望翻译', '请提供具体的英文', '请发送您需要翻译',
+    '没有提供需要翻译', '未提供需要翻译', '您似乎只提供了', '我只收到了标题',
+    '注意到您没有提供', '您未提供需要翻译',
+)
+
+def looks_like_refusal(reply):
+    return any(marker in reply[:200] for marker in REFUSAL_MARKERS)
+
 class TranslationCache:
     """dict 式翻译缓存，记录每个 key 的最后使用日期，保存时淘汰过期条目。
 
@@ -49,10 +61,11 @@ class TranslationCache:
     def __init__(self, data):
         self._store = {}
         for k, v in (data or {}).items():
-            if isinstance(v, dict) and 'v' in v:
-                self._store[k] = [v['v'], v.get('t', '')]
-            else:
-                self._store[k] = [v, '']
+            value, stamp = (v['v'], v.get('t', '')) if isinstance(v, dict) and 'v' in v else (v, '')
+            # 历史上被拒答污染的条目在这里一次性清掉，下次运行会重新翻译
+            if looks_like_refusal(value):
+                continue
+            self._store[k] = [value, stamp]
 
     def __contains__(self, key):
         return key in self._store
@@ -83,8 +96,130 @@ def save_cache(cache):
 def get_hash(text):
     return hashlib.md5(text.encode()).hexdigest()
 
+# fetch_full_content 抓回来的正文快照保留期。存的是整篇 HTML，保留期不能像翻译缓存那样
+# 开到 30 天，否则文件会涨到几十 MB；只要够覆盖 feed 窗口内的文章就行。
+CONTENT_RETENTION_DAYS = 7
+# 新抓的正文和上次的可见文字相似度高于此值，视为同一版本，沿用旧正文以命中翻译缓存
+FULL_CONTENT_SIMILARITY = 0.97
+# 新抓的正文短于上次的这个比例，视为抓取降级而非作者删内容
+FULL_CONTENT_SHRINK_LIMIT = 0.8
+# 变短的正文要连续这么多次抓到一模一样的内容，才认为是作者真的删了内容。
+# 只要求两次是不够的：有的源会稳定地截断在同一个位置，两次确认会让 feed 在
+# 完整版和半截版之间来回翻，每翻一次就白翻译一遍。
+FULL_CONTENT_SHRINK_CONFIRMATIONS = 3
+
+class ContentStore:
+    """fetch_full_content 抓回来的正文快照，key 为文章链接。
+
+    同一篇文章每次抓到的 HTML 常有微小抖动（模板噪音、CDN 差异、抓取被截断、拦截页），
+    抖动会改变内容 hash → 翻译缓存全部失效 → 整篇重新翻译。franzgraf 和 workspaces
+    就是这样在两个月里几乎没有新文章的情况下吃掉了九成 token。这里记住上次真正翻译过
+    的那一版正文，只有内容确实变了才替换。
+
+    格式：{url: {"c": 正文HTML, "i": 封面图, "t": 最后使用日期,
+                 "p": 待确认的短正文 hash, "n": 连续抓到该短正文的次数}}
+    """
+
+    def __init__(self, data):
+        self._store = {}
+        for k, v in (data or {}).items():
+            if isinstance(v, dict) and 'c' in v:
+                self._store[k] = {'c': v['c'], 'i': v.get('i', ''), 't': v.get('t', ''),
+                                  'p': v.get('p', ''), 'n': v.get('n', 0)}
+
+    def get(self, url):
+        entry = self._store.get(url)
+        if entry is None:
+            return None, None
+        entry['t'] = date.today().isoformat()
+        return entry['c'], (entry['i'] or None)
+
+    def put(self, url, content, cover):
+        self._store[url] = {'c': content, 'i': cover or '',
+                            't': date.today().isoformat(), 'p': '', 'n': 0}
+
+    def bump_shrink(self, url, digest):
+        """记一次「抓到明显更短的正文」，返回连续抓到同样内容的次数（内容一变就归零）"""
+        entry = self._store.get(url)
+        if entry is None:
+            return 0
+        entry['n'] = entry['n'] + 1 if entry['p'] == digest else 1
+        entry['p'] = digest
+        return entry['n']
+
+    def to_json(self):
+        cutoff = (date.today() - timedelta(days=CONTENT_RETENTION_DAYS)).isoformat()
+        return {k: v for k, v in self._store.items() if v['t'] >= cutoff}
+
+def load_content_store():
+    store_file = Path('content_cache.json')
+    if store_file.exists():
+        with open(store_file, 'r', encoding='utf-8') as f:
+            return ContentStore(json.load(f))
+    return ContentStore({})
+
+def save_content_store(store):
+    with open('content_cache.json', 'w', encoding='utf-8') as f:
+        json.dump(store.to_json(), f, ensure_ascii=False, separators=(',', ':'))
+
+def visible_text(html):
+    """取 HTML 里的可见文字，用来判断两次抓取是不是同一篇正文（忽略标签和属性的抖动）"""
+    return re.sub(r'\s+', ' ', BeautifulSoup(html, 'html.parser').get_text(' ', strip=True)).strip()
+
+def same_article(old_text, new_text):
+    """两段正文文字是否只是抖动（视为同一版本），而不是文章本身改了"""
+    if old_text == new_text:
+        return True
+    if not old_text or not new_text:
+        return False
+    # 旧正文原封不动地出现在新正文里 → 作者确实追加了内容（比如补了一段 Update），
+    # 这种情况哪怕只多了 1% 也要重新翻译；散点式的噪音则不会保留旧正文的完整片段。
+    if len(new_text) > len(old_text) and old_text in new_text:
+        return False
+    short, long_ = sorted((len(old_text), len(new_text)))
+    if short < long_ * FULL_CONTENT_SIMILARITY:
+        return False
+    # quick_ratio 只比字符构成，O(n)，判断「同一篇文章的轻微抖动」够用，
+    # 也不会像 ratio() 那样在上万字的正文上跑到超时
+    return difflib.SequenceMatcher(None, old_text, new_text).quick_ratio() >= FULL_CONTENT_SIMILARITY
+
+def stable_full_content(url, fetched, cover, store):
+    """把这次抓取的结果和上次的快照对齐，返回真正拿去翻译的 (正文, 封面图)。
+
+    抓取失败或被截断时沿用上次的正文：既省掉重复翻译，也避免 feed 里突然冒出空正文
+    或半截文章（franzgraf 的正文长度曾在 0 / 379 / 5400 字之间反复横跳）。
+    """
+    previous, prev_cover = store.get(url)
+    if not fetched or not fetched.strip():
+        return previous, (prev_cover or cover)
+    if previous is None:
+        store.put(url, fetched, cover)
+        return fetched, cover
+    if fetched == previous:                         # 完全没变，省掉两次 HTML 解析
+        return previous, (prev_cover or cover)
+
+    old_text, new_text = visible_text(previous), visible_text(fetched)
+    if same_article(old_text, new_text):
+        return previous, (prev_cover or cover)      # 只是抖动，沿用旧正文，翻译缓存照常命中
+
+    if len(new_text) >= len(old_text) * FULL_CONTENT_SHRINK_LIMIT:
+        store.put(url, fetched, cover)              # 正文确实变了（补充内容 / 新增评论）
+        return fetched, cover
+
+    # 明显变短：更可能是这次抓取降级，而不是作者删了内容。要连续多次抓到一模一样的短正文
+    # 才认——抓取抖动每次截断的位置都不一样，凑不齐连续几次；作者真删了则很快就通过。
+    digest = get_hash(new_text)
+    times = store.bump_shrink(url, digest)
+    if times >= FULL_CONTENT_SHRINK_CONFIRMATIONS:
+        store.put(url, fetched, cover)
+        return fetched, cover
+    print(f"  正文比上次短很多（{len(new_text)} vs {len(old_text)} 字，第 {times} 次），"
+          f"按抓取降级处理，沿用上次内容")
+    return previous, (prev_cover or cover)
+
 def translate_with_deepseek(text):
-    """调用 DeepSeek API 翻译"""
+    """调用 DeepSeek API 翻译。失败或模型拒答时返回 None，调用方不要把结果写进缓存——
+    以前这里出错会原样返回英文，然后被当成译文永久缓存下来，一次网络抖动污染到缓存过期。"""
     if not text or not text.strip():
         return text
     
@@ -104,10 +239,14 @@ def translate_with_deepseek(text):
             temperature=0.3,
             max_tokens=8192
         )
-        return response.choices[0].message.content.strip()
+        reply = response.choices[0].message.content.strip()
+        if not reply or looks_like_refusal(reply):
+            print(f"模型未返回译文（拒答或空回复），本次跳过缓存: {text[:40]!r}")
+            return None
+        return reply
     except Exception as e:
         print(f"DeepSeek API 调用失败: {e}")
-        return text
+        return None
 
 def translate_text(text, cache):
     """翻译纯文本，带缓存"""
@@ -127,8 +266,10 @@ def translate_text(text, cache):
         return cache[text_hash]
     
     translated = translate_with_deepseek(text)
-    cache[text_hash] = translated
     time.sleep(0.3)  # 避免请求过快
+    if translated is None:
+        return text  # 本次先用原文，不写缓存，下次运行重试
+    cache[text_hash] = translated
     return translated
 
 def summarize_title_text(text, cache):
@@ -157,8 +298,10 @@ def summarize_title_text(text, cache):
             max_tokens=100
         )
         result = response.choices[0].message.content.strip()
-        cache[cache_key] = result
         time.sleep(0.3)
+        if not result or looks_like_refusal(result):
+            return translate_text(text, cache)
+        cache[cache_key] = result
         return result
     except Exception as e:
         print(f"标题总结失败: {e}")
@@ -166,7 +309,7 @@ def summarize_title_text(text, cache):
 
 
 def translate_html_direct(html_content, cache):
-    """调用 API 翻译一段 HTML，保留标签结构"""
+    """调用 API 翻译一段 HTML，保留标签结构。翻译失败返回 None（不写缓存，留待下次重试）"""
     if not html_content or not html_content.strip():
         return html_content
 
@@ -184,6 +327,8 @@ def translate_html_direct(html_content, cache):
     protected = re.sub(r'<img\s[^>]*/?>', replace_img, html_content)
 
     translated = translate_with_deepseek(protected)
+    if translated is None:
+        return None
 
     # 还原 img 标签
     for placeholder, original in img_store.items():
@@ -209,6 +354,8 @@ def translate_html_content(html_content, cache):
     # 短内容（<=3000字符），直接整段翻译
     if len(html_content) <= 3000:
         translated = translate_html_direct(html_content, cache)
+        if translated is None:
+            return html_content
         cache[content_hash] = translated
         return translated
 
@@ -234,13 +381,19 @@ def translate_html_content(html_content, cache):
 
     # 翻译每个分组
     translated_parts = []
+    any_failed = False
     for group in groups:
         group_html = "".join(str(el) for el in group)
         translated_group = translate_html_direct(group_html, cache)
+        if translated_group is None:
+            any_failed = True
+            translated_group = group_html
         translated_parts.append(translated_group)
 
     result = "".join(translated_parts)
-    cache[content_hash] = result
+    # 有分组翻译失败就不写整段缓存，否则半中半英会被永久缓存下来
+    if not any_failed:
+        cache[content_hash] = result
     return result
 
 def fix_image_tags(html_content):
@@ -446,6 +599,18 @@ def normalize_image_basename(url):
     name = url.split('?')[0].rsplit('/', 1)[-1]
     return re.sub(r'-\d+x\d+(\.\w+)$', r'\1', name)
 
+# 被 Cloudflare / WAF 拦下时页面里根本没有正文，readability 会把拦截页当正文抽出来，
+# 于是拦截页被送去翻译、写进缓存，还顶掉了 feed 里的真正文。
+BLOCKED_PAGE_MARKERS = (
+    'cf-error-details', 'cf-browser-verification', 'cf-challenge-running',
+    'Just a moment...', 'Attention Required! | Cloudflare',
+    'Checking your browser before accessing',
+    'Enable JavaScript and cookies to continue',
+)
+
+def looks_blocked(html):
+    return any(marker in html for marker in BLOCKED_PAGE_MARKERS)
+
 def fetch_full_article(url):
     """从原文 URL 抓取完整文章内容和封面图，返回 (content, cover_image_url)"""
     try:
@@ -454,6 +619,10 @@ def fetch_full_article(url):
         })
         resp.raise_for_status()
         resp.encoding = resp.apparent_encoding
+
+        if looks_blocked(resp.text):
+            print(f"  抓取被拦截（Cloudflare/WAF），当作抓取失败: {url}")
+            return None, None
 
         # V2EX 帖子用专用解析，避免 readability 乱排版
         if 'v2ex.com/t/' in url:
@@ -616,7 +785,7 @@ def apply_entry_filter(entries, filter_type):
         print(f"  警告: 未知的过滤类型 '{filter_type}'，跳过过滤")
         return entries
 
-def translate_feed(feed_config, cache):
+def translate_feed(feed_config, cache, content_store):
     print(f"处理: {feed_config['name']}")
     url = resolve_feed_url(feed_config['url'])
     print(f"  URL: {url}")
@@ -645,7 +814,13 @@ def translate_feed(feed_config, cache):
     filter_in = feed_config.get('filter_in', [])
     filter_in_content = feed_config.get('filter_in_content', [])
     filter_category = feed_config.get('filter_category')
-    max_entries = None if (filter_in or filter_in_content) else (50 if (entry_filter or filter_out or filter_out_content or filter_category) else 5)
+    # max_entries 可在 config.yaml 里显式指定：更新快的源在两次运行的间隔里会推出
+    # 好几条，窗口太小就会漏条目（谷时调度把运行间隔拉长之后尤其明显）
+    configured_max = feed_config.get('max_entries')
+    if configured_max:
+        max_entries = configured_max
+    else:
+        max_entries = None if (filter_in or filter_in_content) else (50 if (entry_filter or filter_out or filter_out_content or filter_category) else 5)
     entries = feed.entries[:max_entries] if max_entries else feed.entries
 
     def get_entry_content(e):
@@ -725,7 +900,12 @@ def translate_feed(feed_config, cache):
             # 如果配置了全文抓取，从原文 URL 获取完整内容
             if should_fetch_full and entry.get('link'):
                 print(f"  抓取全文: {entry['link']}")
-                full_content, cover_image = fetch_full_article(entry['link'])
+                fetched, fetched_cover = fetch_full_article(entry['link'])
+                # 和上次抓到的正文对齐：抖动/截断/拦截页一律沿用上次内容，
+                # 保证送去翻译的内容稳定，翻译缓存才命中得住
+                full_content, cover_image = stable_full_content(
+                    entry['link'], fetched, fetched_cover, content_store
+                )
                 if full_content:
                     # 智能回退：如果抓回来的内容图片数比 RSS 自带的少，
                     # 说明原网页可能是 JS 渲染或被改版，readability 拿不全，
@@ -793,10 +973,10 @@ def translate_feed(feed_config, cache):
     
     return translated_feed
 
-def process_single_feed(feed_config, cache, output_dir):
+def process_single_feed(feed_config, cache, content_store, output_dir):
     """处理单个 feed（供线程池调用）"""
     try:
-        translated_feed = translate_feed(feed_config, cache)
+        translated_feed = translate_feed(feed_config, cache, content_store)
 
         # 保存 feed
         output_file = output_dir / f"{feed_config['name']}.xml"
@@ -819,6 +999,7 @@ def main():
 
     config = load_config()
     cache = load_cache()
+    content_store = load_content_store()
 
     # 创建输出目录
     output_dir = Path('feeds')
@@ -828,7 +1009,7 @@ def main():
     completed_feeds = []
     with ThreadPoolExecutor(max_workers=3) as executor:
         futures = {
-            executor.submit(process_single_feed, fc, cache, output_dir): fc
+            executor.submit(process_single_feed, fc, cache, content_store, output_dir): fc
             for fc in config['feeds']
         }
         for future in as_completed(futures):
@@ -837,6 +1018,7 @@ def main():
                 completed_feeds.append(name)
 
     save_cache(cache)
+    save_content_store(content_store)
     
     # 生成索引页
     index_content = f"""# RSS 中文翻译源
