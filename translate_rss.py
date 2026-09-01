@@ -96,6 +96,28 @@ def save_cache(cache):
 def get_hash(text):
     return hashlib.md5(text.encode()).hexdigest()
 
+# GitHub Push Protection 会扫描 push 内容里的云服务秘钥（腾讯云 AKID、AWS AKIA 等）。
+# 源站正文里出现别人泄露的 key（比如 V2EX 讨论泄露事件的帖子）会随全文抓取进入
+# feeds/*.xml 和 content_cache.json，push 被拒（GH013）、workflow 失败。
+# 在内容进入翻译/缓存/feed 之前统一打码；打码是确定性的（同样输入同样输出），
+# 不会引起内容 hash 抖动导致翻译缓存失效。
+SECRET_PATTERNS = [
+    re.compile(r'AKID[A-Za-z0-9]{32}'),            # 腾讯云 SecretId
+    re.compile(r'AKIA[A-Z0-9]{16}'),               # AWS Access Key ID
+    re.compile(r'AIza[0-9A-Za-z_\-]{35}'),         # Google API Key
+    re.compile(r'gh[pousr]_[A-Za-z0-9]{36,}'),     # GitHub token
+    re.compile(r'github_pat_[A-Za-z0-9_]{22,}'),   # GitHub fine-grained PAT
+    re.compile(r'LTAI[A-Za-z0-9]{12,24}'),         # 阿里云 AccessKey ID
+    re.compile(r'xox[baprs]-[A-Za-z0-9\-]{10,}'),  # Slack token
+]
+
+def redact_secrets(text):
+    if not text:
+        return text
+    for pat in SECRET_PATTERNS:
+        text = pat.sub(lambda m: m.group(0)[:6] + '****[已打码]', text)
+    return text
+
 # fetch_full_content 抓回来的正文快照保留期。存的是整篇 HTML，保留期不能像翻译缓存那样
 # 开到 30 天，否则文件会涨到几十 MB；只要够覆盖 feed 窗口内的文章就行。
 CONTENT_RETENTION_DAYS = 7
@@ -189,6 +211,7 @@ def stable_full_content(url, fetched, cover, store):
     抓取失败或被截断时沿用上次的正文：既省掉重复翻译，也避免 feed 里突然冒出空正文
     或半截文章（franzgraf 的正文长度曾在 0 / 379 / 5400 字之间反复横跳）。
     """
+    fetched = redact_secrets(fetched)
     previous, prev_cover = store.get(url)
     if not fetched or not fetched.strip():
         return previous, (prev_cover or cover)
@@ -868,7 +891,7 @@ def translate_feed(feed_config, cache, content_store):
         images_dir.mkdir(parents=True, exist_ok=True)
 
     for entry in entries:
-        original_title = entry.get('title', '')
+        original_title = redact_secrets(entry.get('title', ''))
 
         if should_summarize_title and should_translate:
             title = summarize_title_text(original_title, cache)
@@ -883,6 +906,7 @@ def translate_feed(feed_config, cache, content_store):
             content = entry.content[0].get('value', '')
         elif 'summary' in entry:
             content = entry.summary
+        content = redact_secrets(content)
 
         cover_image = None
 
