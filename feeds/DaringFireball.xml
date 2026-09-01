@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 01 Sep 2026 07:59:07 +0000</lastBuildDate><item><title>[赞助商] WorkOS：如何给智能体一个任务而不是一个令牌</title><link>https://workos.com/blog/delegated-access-for-ai-agents?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q32026</link><description>&lt;p&gt;给Agent一个访问令牌，它就会扩散：进入上下文窗口、进入工具调用日志、进入其在步骤之间保留的笔记中。每一份副本都能在事后长期从任何地方发挥作用。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 01 Sep 2026 17:36:08 +0000</lastBuildDate><item><title>苹果在OpenAI诉讼中披露了刘畅MacBook的取证证据。</title><link>https://9to5mac.com/2026/08/31/apple-openai-forensic-macbook-evidence/</link><description>&lt;p&gt;Chance Miller，9to5Mac：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在今天提交的文件中，苹果表示，刘的律师最近交出了他在离开苹果后使用的MacBook。据苹果称，对该MacBook的“初步取证分析”揭示了四件事，以下引自苹果的文件：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;刘先生不仅下载了苹果的保密电路原理图，还在他在OpenAI的工作中使用了它；&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;刘先生对自己未经授权访问苹果第三方云存储一事并非不知情，事实上，刘先生和OpenAI的其他人都清楚这一访问；&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;刘先生在得知苹果对他进行内部调查后，向一位OpenAI同事发送了销毁证据的指示，该同事确认她会照办；以及&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;刘先生在OpenAI工作中使用的一个工具，与苹果内部用于开发工作的工程应用程序同名。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;9to5Mac提供了一份来自苹果律师的&lt;a href="https://9to5mac.com/wp-content/uploads/sites/6/2026/08/Apple_Inc_v_Liu_et_al__candce-26-07078__0094.1.pdf"&gt;原始文件副本&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;第一点对OpenAI来说似乎非常不利。关于第四点，我不确定苹果在这里指控什么——我&lt;em&gt;认为&lt;/em&gt;他们是在指控刘把苹果内部的工程应用带到了OpenAI？这是苹果文件中关于这一点的全部内容：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;D. 新证据显示，OpenAI使用了一种与苹果内部工程工具同名的工具，这一情况此前不为人知。&lt;/p&gt;
+&lt;p&gt;这台MacBook还揭示了此前苹果未知的其他潜在商业秘密盗用行为。在OpenAI工作期间，刘先生提到使用了名称与苹果内部专有工程工具相同的工具和相关软件包。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;听起来，苹果检查的这台MacBook上并没有这个专有应用——只有刘提到使用该应用的电子邮件或消息。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/09/01/apple-reveals-change-liu-evidence-openai-lawsuit" title="指向‘苹果在OpenAI诉讼中公布刘的MacBook取证证据’的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Tue, 01 Sep 2026 17:36:08 +0000</pubDate></item><item><title>[赞助商] WorkOS：如何给智能体一个任务而不是一个令牌</title><link>https://workos.com/blog/delegated-access-for-ai-agents?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q32026</link><description>&lt;p&gt;给Agent一个访问令牌，它就会扩散：进入上下文窗口、进入工具调用日志、进入其在步骤之间保留的笔记中。每一份副本都能在事后长期从任何地方发挥作用。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://workos.com/docs/pipes/relay?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q32026&amp;amp;utm_content=docs"&gt;Relay&lt;/a&gt;将凭据保存在WorkOS。你的Agent指定用户，WorkOS附加该令牌、刷新它，并且仅将其释放给已列入白名单的主机。一个被劫持的Agent会话是一个你可以终止的活动进程。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://workos.com/blog/delegated-access-for-ai-agents?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q32026"&gt;了解其运作方式 →&lt;/a&gt;&lt;/p&gt;
 &lt;a href="https://daringfireball.net/feeds/sponsors/2026/09/workos_how_to_give_an_agent_a" title="永久链接至'WorkOS：如何给Agent一个任务而不是一个令牌'"&gt; ★ &lt;/a&gt;
@@ -46,10 +64,4 @@ Apple One 家庭版和 Apple One 尊享版的价格，但个人版未作调整�
 &lt;/blockquote&gt;
 &lt;p&gt;颇具讽刺意味的是，蒂姆·库克作为 CEO 的最后一个举动，竟是给服务收入加了一把油。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/08/28/apple-tv-price-hike" title="永久链接至‘苹果宣布上调 Apple TV 和 Apple One 订阅价格’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Fri, 28 Aug 2026 21:52:37 +0000</pubDate></item><item><title>我就是那个把古籍扫描进公司那永不知足的AI平台之后，再将它们销毁的人。</title><link>https://www.mcsweeneys.net/articles/im-the-guy-who-destroys-antique-books-after-we-scan-them-into-our-companys-insatiable-ai-platform</link><description>&lt;p&gt;杰克·洛夫特斯，在McSweeney's上写道：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;人们以为扫描才是激动人心的部分。当然，这确实令人印象深刻。他们剪掉书脊，拆散书页，将一切送入那些巨大的机器，让电脑吸收所有写过的句子，并用它来炮制一些相当引人注目的领英帖子。但是，天哪，那辆载着这些残骸的手推车来到了我这里。这才是流程中注入人情味的地方——如果你把工业碎纸机和后院那个巨大的焚烧坑算作手的延伸的话，我当然算。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;（&lt;a href="https://sippey.com/2026/08/28/some-fairly-compelling-linkedin-posts.html"&gt;来自迈克尔·西佩&lt;/a&gt;。）&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/08/28/mcsweeneys-book-destroyer" title="永久链接：‘我是那个在把古籍扫描进我们公司永不知足的AI平台后负责销毁它们的人’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Fri, 28 Aug 2026 21:35:22 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 28 Aug 2026 21:52:37 +0000</pubDate></item></channel></rss>
