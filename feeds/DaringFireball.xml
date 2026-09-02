@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 01 Sep 2026 18:11:57 +0000</lastBuildDate><item><title>蒂姆·库克在担任CEO最后一天发布的离职备忘录</title><link>https://9to5mac.com/2026/08/31/read-tim-cooks-full-memo-to-apple-employees-on-his-last-day-as-ceo/</link><description>&lt;p&gt;蒂姆·库克：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Wed, 02 Sep 2026 20:58:28 +0000</lastBuildDate><item><title>iOS 27推出全新‘iPhone Handoff’功能</title><link>https://www.macrumors.com/2026/09/02/ios-27-iphone-handoff-feature/</link><description>&lt;p&gt;Joe Rossignol，MacRumors：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“iPhone Handoff”可以从“设置”应用的“蜂窝网络”菜单下进行设置。在设置过程中，你可以选择哪部iPhone作为你最常使用的主设备，哪部作为辅助设备。&lt;/p&gt;
+&lt;p&gt;苹果表示，用户的主eSIM将保留在主iPhone上，而辅助iPhone将获得一个配套eSIM，这样你就能在使用同一电话号码的情况下，在两部设备之间来回切换。&lt;/p&gt;
+&lt;p&gt;所有蜂窝网络设置都在主iPhone上管理，位置共享则基于当前正在使用该电话号码的那部iPhone。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这对我们这些使用多部iPhone的人来说听起来太棒了。这不是一个常见的使用场景，但也并非&lt;em&gt;那么&lt;/em&gt;罕见。我立刻想到了开发者，还有，&lt;em&gt;嗯哼&lt;/em&gt;，新机评测者们。我猜在库比蒂诺也有很多人使用多部iPhone。&lt;/p&gt;
+&lt;p&gt;唯一的缺点是它需要运营商的支持。希望运营商们能像当初支持蜂窝网络版Apple Watch那样迅速采纳这一功能。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/09/02/iphone-handoff" title="Permanent link to ‘iOS 27 Introduces New ‘iPhone Handoff’ Feature’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Wed, 02 Sep 2026 20:58:28 +0000</pubDate></item><item><title>蒂姆·库克在担任CEO最后一天发布的离职备忘录</title><link>https://9to5mac.com/2026/08/31/read-tim-cooks-full-memo-to-apple-employees-on-his-last-day-as-ceo/</link><description>&lt;p&gt;蒂姆·库克：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;关于Apple，有一些真正特别的东西。我最引以为傲的是那些年报永远无法捕捉的东西。这个地方证明了文化胜过一切。我们共同相信，我们所创造的东西很重要，而且我们既有机会也有责任让世界比我们最初发现时更好。这个目标正是让这个地方与众不同的部分原因。Apple帮助培育了这种信念，但我相信在你们每个人来到这里之前，它就已经存在于你们心中。是它把你们带到了这家公司，也是它继续驱动着你们每天所做的工作。我们共同创造了一些远比我们任何一个人所能想象或独自完成的东西更伟大的成就。这就是我们成功的秘诀。我们激发出彼此最好的一面，我们互相扶持。正如史蒂夫曾经描述的那样，我们已经有可能在宇宙中留下我们的“印记”，这是因为我们是谁、我们相信什么，因为我们珍视什么、我们如何看待世界。我们是多么幸运。我是多么幸运。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -36,27 +45,4 @@
 &lt;p&gt;几周前刚刚发布的 Finalist 4，是迄今最大的一次更新。最引人注目的新功能是笔记，既可以在应用内使用，也可以作为一整套 Markdown 文件，与 &lt;a href="https://obsidian.md/"&gt;Obsidian&lt;/a&gt; 实现双向同步。这些文件中的任务会落到对应的日期上，与你的提醒事项和日历事件并列展示，甚至在 Mac 的菜单栏应用里也能看到。Finalist 重新构建的 Timeline（时间线）让你可以用笔轻松规划一天，而 Apple Pencil 则拥有特殊的能力，让你在几秒钟内就能勾勒出计划。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.finalist.works/changelog-4-0/"&gt;还有更多精彩内容&lt;/a&gt;，这是历时四个月、与一千名 Beta 测试者共同打磨的成果。&lt;a href="https://apps.apple.com/app/id6447014685?ref=finalist.works"&gt;在 App Store 上免费试用&lt;/a&gt;——适用于 iPhone、iPad、Mac，现在也支持 Apple Watch。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/08/30/finalist-4" title="Permanent link to ‘Finalist 4’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sun, 30 Aug 2026 18:35:22 +0000</pubDate></item><item><title>★ 关于苹果首次沉浸式MLB转播的思考与观察：洋基队1-0战胜红袜队</title><link>https://daringfireball.net/2026/08/thoughts_and_observations_apple_immersive_mlb_broadcast</link><description>&lt;p&gt;Jason Snell在Six Colors上撰写的&lt;a href="https://sixcolors.com/post/2026/08/apple-takes-first-immersive-baseball-swings-from-the-on-deck-circle/"&gt;这篇体验评测堪称典范&lt;/a&gt;：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我并不介意NBA转播中较慢的节奏——画面在两个篮架下的摄像机之间切换。不过Stratechery的Ben Thompson&lt;a href="https://stratechery.com/2026/apple-you-still-dont-understand-the-vision-pro/"&gt;强烈认为&lt;/a&gt;，最佳方案应该是在球场中央设置单一摄像机位，彻底消除令人眩晕的切换，还原现场观赛的真实体验。&lt;/p&gt;
-&lt;p&gt;苹果在棒球转播上的做法，至少从周五这场比赛来看，似乎更倾向于Thompson所推崇的方案——而且确实从中获益。每一半局都由设置在休息区栏杆旁、紧邻候打圈的单一摄像机位呈现，无论是投手、击球员还是内场，乃至界外区休息区正前方的动向，都一览无余。摄像机在每局之间切换，因此你总是从当前进攻方休息区的视角观看比赛。&lt;/p&gt;
-&lt;p&gt;让这一切更臻完美的是苹果新增的“虚拟巨型屏幕”——一块悬浮在空中的记分牌，配有图形界面以及Apple TV上标准16:9转播的视频画面。抬头就能轻松看到回放，或是更清晰地观察远处外野发生的情况，同时又不会遮挡我观看比赛本身的视线。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;我认同Snell的评测。摄像机位的设置堪称绝妙。你可以从每支球队自己休息区的视角观看他们的进攻。完美。还有几点其他想法：&lt;/p&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;这件事从头到尾都令人难以置信地&lt;em&gt;兴奋&lt;/em&gt;。Vision Pro之所以口碑不佳，是因为苹果没卖出多少台，而且在新一代更便宜、更轻便、更省心的型号推出之前，也不会有多少人买。但不可否认，这些沉浸式体验简直太他妈酷了。而沉浸式的&lt;em&gt;直播&lt;/em&gt;体验又增添了另一种东西。这种感觉难以言喻。很难说清&lt;em&gt;为什么&lt;/em&gt;，但身临其境般观看某件事&lt;em&gt;现场&lt;/em&gt;发生的感受，就像魔法一样。就在几年前，这还需要真正的魔法才能实现。当时是不可能的。现在它成了现实。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;沉浸式音频效果绝佳。听起来真的就像置身洋基体育场，极大地增强了身临其境的感觉。说起来可能有点老套，但我真的在奏国歌时有种想要站起来的冲动，而且不把"帽子"（也就是Vision Pro）摘下来感觉有点不对劲。感受四万三千名球迷在你&lt;em&gt;周围&lt;/em&gt;欢呼沸腾，实在太令人激动了。棒球是一项节奏缓慢的运动，但当人群爆发出呐喊时，那种爆发力是排山倒海的。这种感觉在普通的电视转播中永远体会不到。但在这里感受到了。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;不过，和斯内尔一样，我觉得苹果的解说员话太多了。我希望有一个选项可以开关解说，只体验球场自然的环境音。&lt;sup id="fnr1-2026-08-29"&gt;&lt;a href="https://daringfireball.net/#fn1-2026-08-29"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;唯一缺失的是气味。水泥、草地、泥土、汗水、啤酒、花生、配料十足的热狗。棒球场闻起来就是欢乐的味道。（芬威球场也不例外。）但这种身临其境的体验太过真实，以至于我发誓自己&lt;em&gt;几乎&lt;/em&gt;闻到了那些气味。就像大脑在自动填补缺失的感觉。这不像是看3D电视转播。也不像是电视转播的升级版。这感觉像是全新的、截然不同的东西。它之于电视观看的差异，至少相当于电视观看之于单纯收听广播的差异。这是一种深刻的体验。电视很小——笔记本电脑、平板电脑和手机更小。而洋基体育场是巨大的。沉浸式观看这场比赛，感觉是恢宏的。是字面意义上的"令人敬畏"。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;我特别喜欢的是，你可以环顾四周，看到棒球场上的一切其实有多脏：打击准备区的垫子、休息区的内部、警告跑道上细碎的污垢。到处都是泥土和不少口水。&lt;a href="https://rotowear.com/products/thats-baseball-suzyn-mens-t-shirt"&gt;这就是棒球，苏珊&lt;/a&gt;。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;摄像头存在分辨率和/或景深的限制，再加上Vision Pro的显示屏与现实相比分辨率偏低，问题更加明显。它们已经是市面上分辨率最高的VR显示屏了，但一旦球离开内野，我就看不见了。当球被打到外野时，你只能通过内野手和跑垒员的动作来判断发生了什么。本·赖斯在第一局打了一个二垒安打，我还以为红袜队的外野手接住了球，纳闷赖斯为什么还在往二垒跑。原来是因为外野手停下了脚步——赖斯把球打到了他头顶上方，他是在等球从左侧外野墙上弹回来。我很高兴自己搞错了。再过几年，有了更好的摄像头和更好的Vision头显显示屏，这些问题就能解决。但就目前而言，外野区域看起来是模糊的。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;与传统转播相比，沉浸式视角最大的优点，是能看到内野防守实际上有多复杂。在投球前快速环顾整个内野非常有趣。你能真切地看到，一旦垒上有人——更不用说多个人了——投手的压力会成倍增加。这正是我喜欢去现场看球的原因——能看到更多复杂而精妙的细节——而观看这场沉浸式转播也能带来同样的体验。你可以随时看到全场局势，而不仅仅是投手、捕手和击球手。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;虚拟"大屏幕"的想法不错，但我希望能把它的位置调高一些，如果能让你自定义显示&lt;em&gt;你&lt;/em&gt;想看的统计数据就更好了。不过把它放得更高一点是我最大的诉求。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;不得不承认，在昨晚那场比赛之前，我已经好几个星期没用我的Vision Pro了。有一点让我深有感触——几乎可以肯定是因为棒球比赛时间很长——那就是它真的很重。戴着它的时候，我的下巴想要往下垂，脸也总想朝下看。让我觉得它除了短内容之外都让人疲惫的原因，主要是重量而不是隔离感——至少对我来说是如此。&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;整件事非常成功。我是周六下午写下这些笔记的，一边看这轮四场系列赛第二场的旧平面转播，感觉……嗯，很无聊。而且很小气。这对体育的未来是个好兆头。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;ol&gt;
-&lt;li id="fn1-2026-08-29"&gt;
-&lt;p&gt;更棒的是可以加入本地电台广播的选项，就像带着便携收音机去球场一样。让界面走拟物化风格，做成老式手持&lt;a href="https://www.amazon.com/Sony-ICF-P27-Portable-Radio-Speaker/dp/B09QBZSYTS/?tag=df-amzn-20"&gt;索尼&lt;/a&gt;或&lt;a href="https://www.amazon.com/Panasonic-RF-P50d-Pocket-Silver-RF-P50D/dp/B0756S4BM7/?tag=df-amzn-20"&gt;松下&lt;/a&gt;晶体管收音机的样子，切换开关时要有“咔哒”声。音频也做拟物化——让它听起来像是从小喇叭或小耳机里传出来的，当你切换主队/客队（以及英语/西班牙语）电台时，调谐器还会发出沙沙的静电声。那会非常有趣。而且普通的周五棒球之夜电视转播&lt;a href="https://www.apple.com/newsroom/2026/08/apple-mlb-announce-september-friday-night-baseball-schedule/#:~:text=local%20radio%20broadcasts"&gt;已经支持&lt;/a&gt;切换本地电台广播——他们早就拿到了版权。把这项功能带到这些沉浸式比赛中来吧！ &lt;a href="https://daringfireball.net/#fnr1-2026-08-29" title="跳回正文中的脚注 1。"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-</description><pubDate>Sat, 29 Aug 2026 17:53:34 +0000</pubDate></item></channel></rss>
+</description><pubDate>Sun, 30 Aug 2026 18:35:22 +0000</pubDate></item></channel></rss>
