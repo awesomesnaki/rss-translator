@@ -118,10 +118,10 @@
 &lt;p&gt;在 Windows 10/11 上也是进入 Word 或 Outlook 设置选项，找到自动更正相关选项取消建议即可，后续这类功能会默认禁用，如果用户要启用则可以手动勾选。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 </description><pubDate>Thu, 03 Sep 2026 01:30:48 +0000</pubDate></item><item><title>GitHub CLI现在可以通过命令行添加文件 例如上传图片或视频附加到PR中</title><link>https://www.landian.news/archives/126631.html</link><description>
-&lt;p&gt;#软件资讯 GitHub CLI 版现在支持附加文件命令，可以将本地图片或视频直接上传到 Issue、PR 以及评论中。该功能适用于所有用户，只需要将 GitHub CLI 升级到 2.99.012+ 版即可。文件大小限制与网页版相同，免费用户单个文件 10MB，付费用户可以上传最高 100MB 的视频。查看全文：https://ourl.co/126631&lt;/p&gt;&lt;p&gt;GitHub CLI 2.99.0 版为使用命令行工具的开发者们带来附件上传功能，现在开发者无需打开浏览器即可通过新的添加文件功能将本地图片或视频直接上传到 Issue、PR 以及评论中。该功能适用于所有订阅层级的用户 (包括免费用户)，只需要将其更新到 2.99.0+ 版即可。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126631-1.png" rel="nofollow"&gt;&lt;img alt="GitHub CLI现在可以通过命令行添加文件 例如上传图片或视频附加到PR中" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126631-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126631-2.png" rel="nofollow"&gt;&lt;img alt="GitHub CLI现在可以通过命令行添加文件 例如上传图片或视频附加到PR中" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126631-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;#è½¯ä»¶èµ„è®¯ GitHub CLI ç‰ˆç�°åœ¨æ”¯æŒ�é™„åŠ æ–‡ä»¶å‘½ä»¤ï¼Œå�¯ä»¥å°†æœ¬åœ°å›¾ç‰‡æˆ–è§†é¢‘ç›´æ�¥ä¸Šä¼ åˆ° Issueã€�PR ä»¥å�Šè¯„è®ºä¸­ã€‚è¯¥åŠŸèƒ½é€‚ç”¨äº�æ‰€æœ‰ç”¨æˆ·ï¼Œå�ªéœ€è¦�å°† GitHub CLI å�‡çº§åˆ° 2.99.012+ ç‰ˆå�³å�¯ã€‚æ–‡ä»¶å¤§å°�é™�åˆ¶ä¸�ç½‘é¡µç‰ˆç›¸å�Œï¼Œå…�è´¹ç”¨æˆ·å�•ä¸ªæ–‡ä»¶ 10MBï¼Œä»˜è´¹ç”¨æˆ·å�¯ä»¥ä¸Šä¼ æœ€é«˜ 100MB çš„è§†é¢‘ã€‚æŸ¥çœ‹å…¨æ–‡ï¼šhttps://ourl.co/126631&lt;/p&gt;&lt;p&gt;GitHub CLI 2.99.0 ç‰ˆä¸ºä½¿ç”¨å‘½ä»¤è¡Œå·¥å…·çš„å¼€å�‘è€…ä»¬å¸¦æ�¥é™„ä»¶ä¸Šä¼ åŠŸèƒ½ï¼Œç�°åœ¨å¼€å�‘è€…æ— éœ€æ‰“å¼€æµ�è§ˆå™¨å�³å�¯é€šè¿‡æ–°çš„æ·»åŠ æ–‡ä»¶åŠŸèƒ½å°†æœ¬åœ°å›¾ç‰‡æˆ–è§†é¢‘ç›´æ�¥ä¸Šä¼ åˆ° Issueã€�PR ä»¥å�Šè¯„è®ºä¸­ã€‚è¯¥åŠŸèƒ½é€‚ç”¨äº�æ‰€æœ‰è®¢é˜…å±‚çº§çš„ç”¨æˆ· (åŒ…æ‹¬å…�è´¹ç”¨æˆ·)ï¼Œå�ªéœ€è¦�å°†å…¶æ›´æ–°åˆ° 2.99.0+ ç‰ˆå�³å�¯ã€‚&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126631-1.png" rel="nofollow"&gt;&lt;img alt="GitHub CLIç�°åœ¨å�¯ä»¥é€šè¿‡å‘½ä»¤è¡Œæ·»åŠ æ–‡ä»¶ ä¾‹å¦‚ä¸Šä¼ å›¾ç‰‡æˆ–è§†é¢‘é™„åŠ åˆ°PRä¸­" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126631-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126631-2.png" rel="nofollow"&gt;&lt;img alt="GitHub CLIç�°åœ¨å�¯ä»¥é€šè¿‡å‘½ä»¤è¡Œæ·»åŠ æ–‡ä»¶ ä¾‹å¦‚ä¸Šä¼ å›¾ç‰‡æˆ–è§†é¢‘é™„åŠ åˆ°PRä¸­" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126631-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; ä»¥ä¸‹å¸¸ç”¨å‘½ä»¤éƒ½æ”¯æŒ�é™„åŠ æ–‡ä»¶ï¼š&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;gh issue create&lt;/li&gt;
 &lt;li&gt;gh issue edit&lt;/li&gt;
@@ -130,11 +130,12 @@
 &lt;li&gt;gh pr edit&lt;/li&gt;
 &lt;li&gt;gh pr comment&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;附加文件使用 --attach ./screenshot.png 格式，通过该命令附加的文件会被自动上传到服务器并附加到正文中，例如要在评论中添加图片可以使用：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; ä½¿ç”¨æ–¹æ³•ä¹Ÿå¾ˆç®€å�•ï¼š&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;é™„åŠ æ–‡ä»¶ä½¿ç”¨ --attach ./screenshot.png æ ¼å¼�ï¼Œé€šè¿‡è¯¥å‘½ä»¤é™„åŠ çš„æ–‡ä»¶ä¼šè¢«è‡ªåŠ¨ä¸Šä¼ åˆ°æœ�åŠ¡å™¨å¹¶é™„åŠ åˆ°æ­£æ–‡ä¸­ï¼Œä¾‹å¦‚è¦�åœ¨è¯„è®ºä¸­æ·»åŠ å›¾ç‰‡å�¯ä»¥ä½¿ç”¨ï¼š&lt;/p&gt;
 &lt;pre&gt;gh issue comment --attach ./screenshot.png&lt;/pre&gt;
-&lt;p&gt;如果在 MD 格式里已经存在！[alt](./login.png) 类型的引用，GitHub CLI 还会自动把路径替换成上传后的 GitHub 远程资源引用地址，同时保留原有的说明文本。未在正文引用的附件则会被自动追加到末尾。&lt;/p&gt;
-&lt;p&gt;目前 GitHub CLI 附加文件支持常见的图片和视频格式，包括 PNG/JPEG/GIF/WebP/SVG/MP4/MOV/WebM，图片可以在文件路径后使用 #指定 Alt 替代文本，例如 --attach './login.png#登录错误界面'。（注意需使用英文半角的单引号包裹）&lt;/p&gt;
-&lt;p&gt;可以上传的文件大小与 GitHub 网页版相同，图片和动态图最高为 10MB，免费套餐视频最高 10MB，付费套餐视频最高 100MB，上传附件时需要同时拥有目标仓库的写入权限。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;å¦‚æ�œåœ¨ MD æ ¼å¼�é‡Œå·²ç»�å­˜åœ¨ï¼�[alt](./login.png) ç±»å�‹çš„å¼•ç”¨ï¼ŒGitHub CLI è¿˜ä¼šè‡ªåŠ¨æŠŠè·¯å¾„æ›¿æ�¢æˆ�ä¸Šä¼ å��çš„ GitHub è¿œç¨‹èµ„æº�å¼•ç”¨åœ°å�€ï¼Œå�Œæ—¶ä¿�ç•™å�Ÿæœ‰çš„è¯´æ˜�æ–‡æœ¬ã€‚æœªåœ¨æ­£æ–‡å¼•ç”¨çš„é™„ä»¶åˆ™ä¼šè¢«è‡ªåŠ¨è¿½åŠ åˆ°æœ«å°¾ã€‚&lt;/p&gt;
+&lt;p&gt; æ”¯æŒ�å¸¸è§�å›¾ç‰‡å’Œè§†é¢‘æ ¼å¼�ï¼š&lt;/p&gt;
+&lt;p&gt;ç›®å‰� GitHub CLI é™„åŠ æ–‡ä»¶æ”¯æŒ�å¸¸è§�çš„å›¾ç‰‡å’Œè§†é¢‘æ ¼å¼�ï¼ŒåŒ…æ‹¬ PNG/JPEG/GIF/WebP/SVG/MP4/MOV/WebMï¼Œå›¾ç‰‡å�¯ä»¥åœ¨æ–‡ä»¶è·¯å¾„å��ä½¿ç”¨ #æŒ‡å®š Alt æ›¿ä»£æ–‡æœ¬ï¼Œä¾‹å¦‚ --attach './login.png#ç™»å½•é”™è¯¯ç•Œé�¢'ã€‚ï¼ˆæ³¨æ„�éœ€ä½¿ç”¨è‹±æ–‡å�Šè§’çš„å�•å¼•å�·åŒ…è£¹ï¼‰&lt;/p&gt;
+&lt;p&gt;å�¯ä»¥ä¸Šä¼ çš„æ–‡ä»¶å¤§å°�ä¸� GitHub ç½‘é¡µç‰ˆç›¸å�Œï¼Œå›¾ç‰‡å’ŒåŠ¨æ€�å›¾æœ€é«˜ä¸º 10MBï¼Œå…�è´¹å¥—é¤�è§†é¢‘æœ€é«˜ 10MBï¼Œä»˜è´¹å¥—é¤�è§†é¢‘æœ€é«˜ 100MBï¼Œä¸Šä¼ é™„ä»¶æ—¶éœ€è¦�å�Œæ—¶æ‹¥æœ‰ç›®æ ‡ä»“åº“çš„å†™å…¥æ�ƒé™�ã€‚&lt;/p&gt;
+&lt;p aria-label="çƒ­é—¨æ�¨è��"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="ä»…éœ€99å…ƒ/å¹´ï¼Œç¡…è°·CN2GIAæœ�åŠ¡å™¨ï¼Œå�¦æœ‰3å¹´ç‰ˆä»…éœ€528å…ƒï¼Œé™�é‡�é”€å”®ï¼Œå”®å®Œå�³æ­¢"&gt;çƒ­é—¨æ�¨è��ä»…éœ€99å…ƒ/å¹´ï¼Œç¡…è°·CN2GIAæœ�åŠ¡å™¨ï¼Œå�¦æœ‰3å¹´ç‰ˆä»…éœ€528å…ƒï¼Œé™�é‡�é”€å”®ï¼Œå”®å®Œå�³æ­¢&lt;span aria-hidden="true"&gt;ä»…éœ€99å…ƒ/å¹´ï¼Œç¡…è°·CN2GIAæœ�åŠ¡å™¨ï¼Œå�¦æœ‰3å¹´ç‰ˆä»…éœ€528å…ƒï¼Œé™�é‡�é”€å”®ï¼Œå”®å®Œå�³æ­¢&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 </description><pubDate>Thu, 03 Sep 2026 01:00:42 +0000</pubDate></item></channel></rss>
