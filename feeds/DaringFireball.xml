@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Thu, 03 Sep 2026 16:39:09 +0000</lastBuildDate><item><title>菲尔·席勒卸任App Store和产品发布会主管</title><link>https://www.bloomberg.com/news/articles/2026-08-31/apple-s-phil-schiller-steps-down-from-running-app-store-and-product-events?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4ODE5Mzk5NywiZXhwIjoxNzg4Nzk4Nzk3LCJhcnRpY2xlSWQiOiJUS0VDTE1LSkg2VjQwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.G1fAbZQH31AQBLUajPYPUJ7BqRyeIUN7SbxQZFAqMXE</link><description>&lt;p&gt;马克·古尔曼：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Fri, 04 Sep 2026 01:35:24 +0000</lastBuildDate><item><title>OpenAI 低调发布 GPT-6 Astra</title><link>https://simonwillison.net/2026/Sep/3/gpt6-astra/</link><description>&lt;p&gt;Simon Willison：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;GPT-6 Astra“今日起向有限的一组机构推出，未来几天将面向所有ChatGPT Plus、Pro、Business和Enterprise用户开放，也通过OpenAI API和AWS提供”——我自己还没有尝试过，所以目前没有太多可说的。&lt;/p&gt;
+&lt;p&gt;它的API定价与Claude Fable 5和5.1相同：输入每百万token 10美元，输出每百万token 50美元。这显然是OpenAI对标Fable的竞品，而且根据OpenAI自我报告的基准，在大多数项目上的得分似乎都高于Fable。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;a href="https://daringfireball.net/linked/2026/09/03/gpt-6-astra" title="指向‘OpenAI软发布GPT‑6 Astra’的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Fri, 04 Sep 2026 01:35:24 +0000</pubDate></item><item><title>菲尔·席勒卸任App Store和产品发布会主管</title><link>https://www.bloomberg.com/news/articles/2026-08-31/apple-s-phil-schiller-steps-down-from-running-app-store-and-product-events?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4ODE5Mzk5NywiZXhwIjoxNzg4Nzk4Nzk3LCJhcnRpY2xlSWQiOiJUS0VDTE1LSkg2VjQwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.G1fAbZQH31AQBLUajPYPUJ7BqRyeIUN7SbxQZFAqMXE</link><description>&lt;p&gt;马克·古尔曼：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;苹果公司的菲尔·席勒是史蒂夫·乔布斯与蒂姆·库克两个时代中最引人注目、最具影响力的高管之一，他已卸任负责App Store及产品发布活动的职务。&lt;/p&gt;
 &lt;p&gt;据知情人士透露，这位66岁的高管在近日做出了这一最新调整。他此前担任苹果公司市场营销高级副总裁，直至2020年卸任该职位。&lt;/p&gt;
@@ -35,22 +41,4 @@
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;em&gt;这才&lt;/em&gt;是蒂姆·库克。他现在显然和当初在接任CEO之前对艾萨克森说这番话时的感受一样。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/09/01/tim-cook-departure-memo" title="指向‘蒂姆·库克在CEO最后一天的离职备忘录’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Tue, 01 Sep 2026 18:11:57 +0000</pubDate></item><item><title>苹果在OpenAI诉讼中披露了刘畅MacBook的取证证据。</title><link>https://9to5mac.com/2026/08/31/apple-openai-forensic-macbook-evidence/</link><description>&lt;p&gt;Chance Miller，9to5Mac：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;在今天的法律文件中，苹果称刘先生的律师最近交出了他在离开苹果后使用的那台MacBook。苹果表示，对该MacBook的“初步法证分析”揭示了四点内容，以下引自苹果的法律文件：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;刘先生不仅下载了苹果的机密电路原理图，还在OpenAI的工作中使用了它；&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;刘先生对自己未经授权访问苹果第三方云存储一事并非不知情，恰恰相反，他和OpenAI的其他人都非常清楚这一访问行为；&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;刘先生在得知苹果对他展开内部调查后，向一位OpenAI同事发送了销毁证据的指示，而该同事确认会照办；以及&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;刘先生在OpenAI工作中使用的一个工具，与苹果内部用于开发工作的工程应用程序同名。&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;9to5Mac提供了苹果律师提交的&lt;a href="https://9to5mac.com/wp-content/uploads/sites/6/2026/08/Apple_Inc_v_Liu_et_al__candce-26-07078__0094.1.pdf"&gt;原始法律文件副本&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;第一点对OpenAI来说似乎非常不利。关于第四点，我不太确定苹果在这里指控的是什么——我&lt;em&gt;认为&lt;/em&gt;他们是在指控刘先生把苹果的内部工程应用程序带到了OpenAI？以下是苹果法律文件中该项指控的全部内容：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;D. 新证据显示，在OpenAI使用的一个工具与苹果内部工程工具同名，这一使用情况此前不为人知。&lt;/p&gt;
-&lt;p&gt;这台MacBook还揭示了苹果此前未知的其他潜在商业秘密盗用行为。在OpenAI工作期间，刘先生提到使用了一个工具及相关软件包，其名称与苹果使用的专有内部工程工具完全相同。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;听起来，苹果检查的这台MacBook上并没有安装这个专有应用程序——只有刘先生提到使用该应用的电子邮件或消息记录。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/09/01/apple-reveals-change-liu-evidence-openai-lawsuit" title="指向“苹果在OpenAI诉讼中披露刘昌MacBook取证证据”的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Tue, 01 Sep 2026 17:36:08 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 01 Sep 2026 18:11:57 +0000</pubDate></item></channel></rss>
