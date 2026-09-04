@@ -1,59 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Fri, 04 Sep 2026 16:15:43 +0000</lastBuildDate><item><title>FBI调查出售超1.53亿张驾照信息的服务</title><link>https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/</link><description>&lt;p&gt;Brian Krebs, reporting at KrebsOnSecurity:&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Fri, 04 Sep 2026 20:04:47 +0000</lastBuildDate><item><title>苹果修复了TestFlight混乱的排序顺序</title><link>https://apps.apple.com/us/app/testflight/id899247664</link><description>&lt;p&gt;&lt;a href="https://daringfireball.net/2026/08/apple_testflight_list_sort_order"&gt;两周前我曾写道&lt;/a&gt;，TestFlight 的 v4.3.0 更新（于 7 月 21 日发布）破坏了侧边栏中应用的排序顺序。苹果昨天发布了 v4.3.1，并附上了这些“有帮助的”版本说明：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;On Monday, Aug. 31, a source alerted KrebsOnSecurity to a service
-advertised by a new user on the Russian cybercrime forum Exploit,
-offering access to digital scans of identity documents on more
-than 170 million people in North America. The source brought it to
-my attention because the proprietor of this identity theft service
-offered my Virginia drivers license as a free sample in their
-initial sales thread on Exploit.&lt;/p&gt;
-&lt;p&gt;The service, dubbed Nexus, claims to have more than 153 million
-drivers licenses for people in the United States and Canada, as
-well as more than 10 million identification cards; more than three
-million travel documents and/or international IDs; and at least
-579,000 medical cards.&lt;/p&gt;
-&lt;p&gt;A quick look around Nexus finds they are likely not exaggerating
-about that 153 million number: Running a blank search in Nexus
-(with no search parameters entered) returns approximately 11.5
-million pages of results, with roughly 15 results displayed per
-page. It includes documents from people in both Canada and the
-United States, but the bulk of these records are on Americans:
-searching for just Canadian drivers licenses returns approximately
-1.1 million results, with the largest concentration from Ontario
-(473,673 records).&lt;/p&gt;
+&lt;p&gt;此更新包含稳定性改进和错误修复。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Krebs seemingly tracked down the source: &lt;a href="https://idscan.net/"&gt;IDScan.net&lt;/a&gt;, an outfit that is used by car rental agencies like Hertz (seemingly where they got Krebs’s own drivers license) and marijuana dispensaries. They kept over 150 million ID card scans and lost them all in a data breach. Unreal.&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/09/04/fbi-krebs-153-million-ids" title="Permanent link to ‘FBI Probes Service Selling 153M+ Drivers Licenses’"&gt; ★ &lt;/a&gt;
+&lt;p&gt;这个排序 bug 最诡异的一点在于，&lt;a href="https://daringfireball.net/linked/2026/08/24/more-on-testflights-screwy-sort-order"&gt;它只影响了一部分人&lt;/a&gt;。我显然就是其中之一；&lt;a href="https://mastodon.social/@siracusa/117135117635246786"&gt;John Siracusa 也是如此&lt;/a&gt;。对我们两人来说，昨天的 v4.3.1 更新修复了这个 bug。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/09/04/testflight-sort-order-fixed" title="“苹果修复了 TestFlight 的错乱排序问题”的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Fri, 04 Sep 2026 20:04:47 +0000</pubDate></item><item><title>Vinted</title><link>https://www.vinted.com/</link><description>&lt;p&gt;谈到MapQuest在App Store中攀升至榜首（此前他们决定无视特朗普总统将安大略湖强制改名为“美国湖”的政令），&lt;a href="https://daringfireball.net/linked/2026/09/03/mapquest-surge"&gt;我昨天提到过&lt;/a&gt;，我从未听说过排名第三的Vinted应用。（顺便说一句，一天过去了，MapQuest仍然位列第一。）&lt;/p&gt;
+&lt;p&gt;原来，Vinted是一个类似eBay的二手服装买卖市场。&lt;a href="https://www.vinted.com/about"&gt;源自一家立陶宛初创公司&lt;/a&gt;，整个平台在欧洲已经流行了一段时间，显然现在正开始在美国走红。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/09/04/vinted" title="“Vinted”的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Fri, 04 Sep 2026 19:55:45 +0000</pubDate></item><item><title>★ 在非自然约束下写作</title><link>https://daringfireball.net/2026/09/writing_with_unnatural_constraints</link><description>&lt;p&gt;Marcin Wichary在&lt;a href="https://unsung.aresluna.org/i-just-chose-words-carefully/"&gt;Unsung上写道&lt;/a&gt;，谈到&lt;a href="https://gamefaqs.gamespot.com/snes/588741-super-metroid/faqs/10114"&gt;一份为游戏《超级银河战士》编写的、令人颇为惊叹的FAQ&lt;/a&gt;，它由“rs1n”在1990年代末完成。全文超过17,000字，使用等宽字体查看时通篇两端对齐，且没有借助额外空格或连字符等任何取巧手段来实现这种排版：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;作者在FAQ末尾轻描淡写地提到：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;你用什么程序来实现文本对齐？&lt;/p&gt;
+&lt;p&gt;没有用任何程序。我只是精心选词，让每一行都能在右侧对齐。全部工作都是用ASCII编辑器完成的。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我分享这件事主要是出于好奇；在纸质书中为了避免孤行和寡行而进行改写是常有的事，但在屏幕文字中你很少见到这样的做法。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这份FAQ读起来相当流畅，但依我之见，它明显有些不对劲。这种两端对齐的把戏非常有趣，而文字本身能保持如此可读性，更是rs1n值得骄傲的成就。他尝试了一件非常困难的事情，并且从容地做到了。我相信很多人读过这份FAQ却完全没有注意到这一壮举，或者没意识到在如此严苛的约束下写作有多难。在纯文本时代，确实有很多FAQ和其他文档实现了两端对齐，靠的是在单词和段落之间添加额外空格，偶尔使用连字符来达到效果。而rs1n的FAQ没有用任何取巧手段就实现了同样的效果，结果看起来如此自然，以至于不会引起注意。它就是看起来很美观。&lt;/p&gt;
+&lt;p&gt;但它读起来并非完全自然。行文有些生硬，仿佛出自一个英语为第二语言的人之手。虽然就我所知，rs1n可能确实如此，但我对此表示怀疑——我认为那种类似非母语者的生硬感，只是为了让选词适配行宽而付出的代价，而非单纯出于对意义和语气的考量。&lt;/p&gt;&lt;p&gt;The line-length constraint brings to mind &lt;a href="https://en.wikipedia.org/wiki/Lipogram"&gt;lipograms&lt;/a&gt;, “writing paragraphs or longer works in which a particular letter or group of letters is avoided”. Ernest Vincent Wright published an entire novel in 1939, &lt;em&gt;&lt;a href="https://en.wikipedia.org/wiki/Gadsby_(novel)"&gt;Gadsby&lt;/a&gt;&lt;/em&gt;, without using the letter &lt;em&gt;e&lt;/em&gt;. The Wikipedia page for lipograms lists more examples. That’s a hell of a trick, but there’s a reason why &lt;em&gt;Gadsby&lt;/em&gt; is almost unheard-of, and Fitzgerald’s &lt;em&gt;The Great Gatsby&lt;/em&gt; remains famous. &lt;em&gt;Gadsby&lt;/em&gt; is &lt;a href="https://www.gutenberg.org/ebooks/47342"&gt;miserable to read&lt;/a&gt;. Wright was obviously a fine writer. &lt;em&gt;Gadsby&lt;/em&gt;’s “Introduction” is written without the no-&lt;em&gt;e&lt;/em&gt;’s constraint — and largely about the no-&lt;em&gt;e&lt;/em&gt;’s constraint — and it reads just fine. But the text of the novel is a goddamn laborious slog. I couldn’t get through more than two paragraphs before deciding that my point was proven. It’s a fun challenge to compose lipograms but it’s no way to actually write. The gimmick necessarily becomes the highest priority of your word choices, not clarity or meaning.&lt;/p&gt;
+&lt;p&gt;So too, goes my thinking, regarding the “watermarking” of AI-generated text through word choices alone. Fitting words into the watermarking pattern surely results in prose &lt;em&gt;far&lt;/em&gt; less stilted than omitting the letter &lt;em&gt;e&lt;/em&gt;, and surely also less stilted than rs1n’s hard-wrapped-at-75-characters-per-line Super Metroid FAQ, but it’s necessarily stilted to some degree. It’s sophistry to argue that one can write within a constraint without the constraint affecting the quality of the writing.&lt;/p&gt;
+&lt;h2&gt;Bonus Quibble&lt;/h2&gt;
+&lt;p&gt;Wichary opens his post with the following:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I don’t think anyone particularly enjoys typesetting in monospace.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I disagree! I think typesetting in monospace is fun — or at least &lt;em&gt;satisfying&lt;/em&gt;. I think it’s part of the appeal of Markdown that you can make a document look &lt;em&gt;just right&lt;/em&gt;. &lt;a href="https://daringfireball.net/2026/09/writing_with_unnatural_constraints.text"&gt;What you see reading Markdown&lt;/a&gt; is what I saw writing it. And just look at the fun people still have printing “large type” banners &lt;a href="https://www.figlet.org/"&gt;using ASCII punctuation characters&lt;/a&gt; or &lt;a href="https://www.macstories.net/news/notesctl-a-club-macstories-preview-of-federicos-advanced-apple-notes-cli-tool/"&gt;fancier box-drawing Unicode glyphs&lt;/a&gt;. When you format something in plain text, you know exactly how it’s going to look everywhere.&lt;/p&gt;</description><pubDate>Fri, 04 Sep 2026 18:07:18 +0000</pubDate></item><item><title>FBI调查出售超1.53亿张驾照信息的服务</title><link>https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/</link><description>&lt;p&gt;布莱恩·克雷布斯在KrebsOnSecurity报道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;8月31日周一，一名消息人士向KrebsOnSecurity通报了一项服务，该服务由俄罗斯网络犯罪论坛Exploit上的一位新用户发帖出售，提供对北美超过1.7亿人身份证件数字扫描件的访问权限。这位消息人士之所以引起我的注意，是因为这项身份盗窃服务的运营者在Exploit上的首个销售帖子中，将我的弗吉尼亚州驾照作为免费样本提供。&lt;/p&gt;
+&lt;p&gt;这项名为Nexus的服务声称拥有超过1.53亿份美国和加拿大居民的驾照，以及超过1000万张身份证件；超过300万份旅行文件和/或国际身份证件；以及至少57.9万张医疗卡。&lt;/p&gt;
+&lt;p&gt;快速浏览Nexus后发现，他们关于1.53亿这个数字的说法可能并不夸张：在Nexus中运行一次空白搜索（不输入任何搜索参数）会返回约1150万页结果，每页显示约15条结果。其中包含来自加拿大和美国居民的文件，但这些记录的大部分涉及美国人：仅搜索加拿大驾照就返回约110万条结果，其中最大集中地在安大略省（473,673条记录）。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;克雷布斯似乎找到了数据来源：&lt;a href="https://idscan.net/"&gt;IDScan.net&lt;/a&gt;，这家公司被赫兹（Hertz）等租车公司（克雷布斯自己的驾照似乎就是从这里泄露的）和大麻药房所使用。他们存有超过1.5亿张身份证扫描件，却在一次数据泄露中全部丢失。简直难以置信。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/09/04/fbi-krebs-153-million-ids" title="“FBI调查销售1.53亿余份驾照服务”的永久链接"&gt; ★ &lt;/a&gt;
 </description><pubDate>Fri, 04 Sep 2026 16:15:43 +0000</pubDate></item><item><title>OpenAI 低调发布 GPT-6 Astra</title><link>https://simonwillison.net/2026/Sep/3/gpt6-astra/</link><description>&lt;p&gt;Simon Willison：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;GPT-6 Astra“今日起向有限的一组机构推出，未来几天将面向所有ChatGPT Plus、Pro、Business和Enterprise用户开放，也通过OpenAI API和AWS提供”——我自己还没有尝试过，所以目前没有太多可说的。&lt;/p&gt;
 &lt;p&gt;它的API定价与Claude Fable 5和5.1相同：输入每百万token 10美元，输出每百万token 50美元。这显然是OpenAI对标Fable的竞品，而且根据OpenAI自我报告的基准，在大多数项目上的得分似乎都高于Fable。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;a href="https://daringfireball.net/linked/2026/09/03/gpt-6-astra" title="指向‘OpenAI软发布GPT‑6 Astra’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Fri, 04 Sep 2026 01:35:24 +0000</pubDate></item><item><title>菲尔·席勒卸任App Store和产品发布会主管</title><link>https://www.bloomberg.com/news/articles/2026-08-31/apple-s-phil-schiller-steps-down-from-running-app-store-and-product-events?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4ODE5Mzk5NywiZXhwIjoxNzg4Nzk4Nzk3LCJhcnRpY2xlSWQiOiJUS0VDTE1LSkg2VjQwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.G1fAbZQH31AQBLUajPYPUJ7BqRyeIUN7SbxQZFAqMXE</link><description>&lt;p&gt;马克·古尔曼：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;苹果公司的菲尔·席勒是史蒂夫·乔布斯与蒂姆·库克两个时代中最引人注目、最具影响力的高管之一，他已卸任负责App Store及产品发布活动的职务。&lt;/p&gt;
-&lt;p&gt;据知情人士透露，这位66岁的高管在近日做出了这一最新调整。他此前担任苹果公司市场营销高级副总裁，直至2020年卸任该职位。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;此消息属实，我已确认。此事恰逢CEO交接之际发生，也属顺理成章。席勒的这一段历程，何其精彩。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/09/03/schiller-steps-down" title="Permanent link to ‘Phil Schiller Steps Down From Running App Store and Product Events’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Thu, 03 Sep 2026 16:39:09 +0000</pubDate></item><item><title>MapQuest拒绝重新标注安大略湖，反而收获人气激增</title><link>https://thehill.com/homenews/administration/6063924-mapquest-tops-apple-google-maps-in-downloads-after-refusing-trumps-lake-america-change/?ref=ihnatko.com</link><description>&lt;p&gt;Finya Swai两天前为《国会山报》报道：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;在特朗普总统签署行政命令更改湖名之后，MapQuest因宣布不会将安大略湖改名为“美国湖”而在应用榜单上人气飙涨。&lt;/p&gt;
-&lt;p&gt;该公司表示，尽管特朗普指示内政部在地名信息系统（GNIS）中更新该湖的名称，但该公司于周四宣布其应用将继续保留“安大略湖”的名称，此后其移动应用获得了数十万次下载。&lt;/p&gt;
-&lt;p&gt;到周一上午，MapQuest已攀升至苹果美国应用商店导航应用的第一名，以及非游戏应用的第四名。在与美国共享该湖的加拿大，该应用在周末升至总榜第二。据MapQuest称，该应用的使用量也跃升至正常水平的约50倍。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;现在已是周四，MapQuest&lt;a href="https://apps.apple.com/us/iphone/charts/36?chart=top-free"&gt;仍然占据榜首位置&lt;/a&gt;，领先于ChatGPT、Vinted（从没听说过）、“TikTok Pro - Events”（一个令人困惑的新应用，与主TikTok客户端不同）、ESPN Fantasy Sports（NFL赛季即将开始）、Claude和Gemini。&lt;/p&gt;
-&lt;p&gt;当机会来敲门时，你必须开门。当唐纳德·特朗普为既有地理特征提出新名称时，苹果和谷歌都被&lt;a href="https://daringfireball.net/linked/2026/08/28/df-archive-golfo-del-gringo-loco"&gt;逼入了政治死角&lt;/a&gt;，而这正是像MapQuest这样的弱势者面临的巨大机会。干得漂亮。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/09/03/mapquest-surge" title="Permanent link to ‘MapQuest Refuses to Relabel Lake Ontario, Rewarded With Surge in Popularity’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Thu, 03 Sep 2026 16:30:09 +0000</pubDate></item><item><title>iOS 27推出全新‘iPhone Handoff’功能</title><link>https://www.macrumors.com/2026/09/02/ios-27-iphone-handoff-feature/</link><description>&lt;p&gt;Joe Rossignol，MacRumors：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“iPhone Handoff”可以从“设置”应用的“蜂窝网络”菜单下进行设置。在设置过程中，你可以选择哪部iPhone作为你最常使用的主设备，哪部作为辅助设备。&lt;/p&gt;
-&lt;p&gt;苹果表示，用户的主eSIM将保留在主iPhone上，而辅助iPhone将获得一个配套eSIM，这样你就能在使用同一电话号码的情况下，在两部设备之间来回切换。&lt;/p&gt;
-&lt;p&gt;所有蜂窝网络设置都在主iPhone上管理，位置共享则基于当前正在使用该电话号码的那部iPhone。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这对我们这些使用多部iPhone的人来说听起来太棒了。这不是一个常见的使用场景，但也并非&lt;em&gt;那么&lt;/em&gt;罕见。我立刻想到了开发者，还有，&lt;em&gt;嗯哼&lt;/em&gt;，新机评测者们。我猜在库比蒂诺也有很多人使用多部iPhone。&lt;/p&gt;
-&lt;p&gt;唯一的缺点是它需要运营商的支持。希望运营商们能像当初支持蜂窝网络版Apple Watch那样迅速采纳这一功能。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/09/02/iphone-handoff" title="Permanent link to ‘iOS 27 Introduces New ‘iPhone Handoff’ Feature’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Wed, 02 Sep 2026 20:58:28 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 04 Sep 2026 01:35:24 +0000</pubDate></item></channel></rss>
