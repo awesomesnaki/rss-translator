@@ -52,32 +52,8 @@
 &lt;p&gt;&lt;strong&gt;#28 baabaalamb&lt;/strong&gt;：bGlhbnBlbmc1MjdAZ21haWwuY29t&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#29 mwesx&lt;/strong&gt;：å�‚ä¸�æ”¯æŒ�ä¸€ä¸‹ï¼Œè°¢è°¢æ¥¼ä¸» NjAzMTAyMzIxQHFxLmNvbQ==&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#30 yzbomo&lt;/strong&gt;：æ”¯æŒ�ä¸€ä¸‹&lt;br/&gt;eXpvYkBvdXRsb29rLmNvbQ==&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#31 zcomo&lt;/strong&gt;：å�‚ä¸�ä¸€ä¸‹&lt;br/&gt;b3dvaUBtc24uY29t&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 05 Sep 2026 09:21:51 +0000</pubDate></item><item><title>给我整乐呵了，商汤上了 deepseek v4 flash 和 pro</title><link>https://www.v2ex.com/t/1239687</link><description>大概率是自己部署的，不清楚量化程度，有 1M 上下文&lt;br/&gt;我测试了 deepseek v4 flash ，输出比较忙，只有 40t/s 的水平（牛来水平）&lt;br/&gt;目前公测，仅用免费挡位，5 小时窗口 60000 积分，周额度 600000 积分（ 10 倍 5 小时）&lt;br/&gt;但是有意思的是，在我测试 deepseekv4flash 的时候，1M 的 token ，80%的缓存，大约用了 2000 积分&lt;br/&gt;也就是说它 5 小时窗口有 30M 的 deepseek v4 flash ，一周有 3 亿&lt;br/&gt;这个是免费的啊？&lt;br/&gt;笑，甚至还有个生图模型
-&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;#1 qaq13037&lt;/strong&gt;：商汤纯粹是起了个大早，赶了个晚集。自己没那么多卡，还学人卖 token plan ，用免费来吸引用户是个好策略，但是给的并发实测不超过 3 ，放 agent 里根本不可用，你哪怕少点用量呢，大家还想去体验下，完全不明白他们的思路，反人类行为。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#2 Danswerme&lt;/strong&gt;：国内这些公司搞的所谓积分我一直没搞明白是怎么算的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#3 flning&lt;/strong&gt;：嘘，小点声，我怕人多给他冲跨了，连这点小毛都不给用了，我把它挂上龙虾，跑点定时任务，收集点任务啥的，还是够用的。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#4 Frankcox&lt;/strong&gt;：现在的不清楚，之前它家 deepseek 的 api 有自己的审核，官网能破限的内容会被商汤他们 api 卡死&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#5 cinhoo&lt;/strong&gt;：实际用下来 v4flash 很耐用，完全用不完。&lt;br/&gt;但是其他的 glm ，k3 很不耐用，分析个项目就没了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#6 coderluan&lt;/strong&gt;：他那个 plan 除了 ds ，还有他家自己的模型，重点是双方是单独的计量的，所以这个商业目的其实挺明显的，就是当 ds 用光之后，用户可以顺手尝试下自家模型，之后去掉 ds 模型，相当于给自家模型拉了波用户。但是现在看应该是效果不行，因为他之前去掉过 ds 了，但是现在又给加回去了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#7 docx&lt;/strong&gt;：一直都有啊，都用好几个月了，火星救援&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#8 unpay&lt;/strong&gt;：在用电信提供的 deepseek v4 。。3 折爽呆了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#9 flning&lt;/strong&gt;：@&lt;a href="/member/unpay"&gt;unpay&lt;/a&gt; 求一下电信路径，我两地电信卡，我限制基本上 DSV4 重度了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#10 unpay&lt;/strong&gt;：@&lt;a href="/member/flning"&gt;flning&lt;/a&gt; 电信天翼云 tokenhub 具体折扣找客户经理谈&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#11 la9998372&lt;/strong&gt;：不知道为啥，我调用商汤的模型，经常容易 429&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#12 ada65line&lt;/strong&gt;：@&lt;a href="/member/unpay"&gt;unpay&lt;/a&gt; 这个是需要一定用量才能谈的嘛？还是可以无条件谈的？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#13 LostMoonkin&lt;/strong&gt;：@&lt;a href="/member/la9998372"&gt;la9998372&lt;/a&gt; 429+1,在 dsh 里用经常 5 次重试都失败然后断掉思考。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#14 dushixiang&lt;/strong&gt;：免费账户限速特别严重，已经弃了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#15 la9998372&lt;/strong&gt;：@&lt;a href="/member/dushixiang"&gt;dushixiang&lt;/a&gt; 是的，之前不咋触发 429 。看来收费势在必行。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#16 cq812187426&lt;/strong&gt;：@&lt;a href="/member/unpay"&gt;unpay&lt;/a&gt; #8  &lt;a href="https://i.imgur.com/928Mu4A.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/928Mu4A.png"/&gt;&lt;/a&gt;电信的 token 套餐不是只有 Deepseek V3.2 吗？哪里有 v4 ？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#17 zturns&lt;/strong&gt;：商汤那个我接 zcode 用，没法使用&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#18 cq812187426&lt;/strong&gt;：@&lt;a href="/member/cq812187426"&gt;cq812187426&lt;/a&gt; &lt;br/&gt; &lt;a href="https://i.imgur.com/4tZPHsf.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/4tZPHsf.png"/&gt;&lt;/a&gt;&lt;br/&gt;zzz ，找到了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#19 Fred18&lt;/strong&gt;：不是很行啊  她说她是 “关键线索是 "Volcano Ark Console"（火山引擎·方舟控制台）——这是字节跳动火山引擎的大模型平台。”&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#20 crocoBaby&lt;/strong&gt;：一直 429 ，薅了给 v 友们用，压根用不了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#21 foryou2023&lt;/strong&gt;：@&lt;a href="/member/cq812187426"&gt;cq812187426&lt;/a&gt; 这价格也太贵了吧，v4flash 空闲大概 14 块钱左右 1 亿 token&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#22 jetsung&lt;/strong&gt;：它这 6W 积分，连 1W 都用不动。动不动就 429 。浪费时间，压根没有体验。连 deepseek v4 flash 都玩不明白，还上 K3 等模型。。。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#23 stefwoo&lt;/strong&gt;：429 太多了，浪费时间。跑 agent 甚至不如接 google aistudio 免费的 gemini&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#24 linbenyi&lt;/strong&gt;：免费就是说个 hello 让你换个 token 用的。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 05 Sep 2026 07:42:27 +0000</pubDate></item><item><title>搞了个开源大模型 API 中转站，官方价 3.5 折，送 25 份 5 刀额度</title><link>https://www.v2ex.com/t/1239673</link><description>&lt;p&gt;自己搭的站，TokenUs： &lt;a href="https://tokenus.net" rel="nofollow"&gt;https://tokenus.net&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#31 zcomo&lt;/strong&gt;：å�‚ä¸�ä¸€ä¸‹&lt;br/&gt;b3dvaUBtc24uY29t&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#32 id999&lt;/strong&gt;：MTk5M2JvLnlhbmdAZ21haWwuY29t&lt;br/&gt;å�‚ä¸�ä¸€ä¸‹&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 05 Sep 2026 09:21:51 +0000</pubDate></item><item><title>搞了个开源大模型 API 中转站，官方价 3.5 折，送 25 份 5 刀额度</title><link>https://www.v2ex.com/t/1239673</link><description>&lt;p&gt;自己搭的站，TokenUs： &lt;a href="https://tokenus.net" rel="nofollow"&gt;https://tokenus.net&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;先说清楚，这就是个 API 中转站，基于 new-api 改的，没什么黑科技。接的都是开源模型，DeepSeek V4 全系、GLM 5.x 、Kimi K2.5/K3 、Qwen3.8 ，一共 15 个。接口和 OpenAI 兼容，base_url 换掉就能用。&lt;/p&gt;
 &lt;p&gt;价格是官方价的 3.5 折，举两个例子：&lt;/p&gt;
 &lt;ul&gt;
@@ -153,7 +129,32 @@ Supplement 1  ·  &lt;span title="2026-09-05 15:48:20 +08:00"&gt;9h 56m ago&lt
 &lt;p&gt;&lt;strong&gt;#46 TokenUs&lt;/strong&gt;：@&lt;a href="/member/K3v1Nz"&gt;K3v1Nz&lt;/a&gt; 兑好，蹬起&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#47 TokenUs&lt;/strong&gt;：@&lt;a href="/member/saigo"&gt;saigo&lt;/a&gt; 兑好，客气&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#48 TokenUs&lt;/strong&gt;：@&lt;a href="/member/ThinkZ"&gt;ThinkZ&lt;/a&gt; 有，已兑~&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#49 TokenUs&lt;/strong&gt;：@&lt;a href="/member/K120"&gt;K120&lt;/a&gt; 刚好最后一个，好运&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 05 Sep 2026 06:04:15 +0000</pubDate></item><item><title>我又又又重构了我的站点</title><link>https://www.v2ex.com/t/1239655</link><description>æ�¥ä¸Šæ¬¡å¸–å­�ï¼Œç«™ç‚¹é‡�æ�„ &lt;a href="/t/1227951" rel="nofollow noopener" target="_blank"&gt;/t/1227951&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;åœ°å�€ï¼š &lt;a href="https://www.oolaf.top" rel="nofollow noopener" target="_blank"&gt;https://www.oolaf.top&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;1. æˆ‘å�ˆé‡�æ�„äº†æˆ‘çš„é¡µé�¢ UI ï¼Œå¢�åŠ äº†é»‘å¤œç™½å¤©æ¨¡å¼�ï¼Œå¢�åŠ äº† agent ï¼ˆè™½ç„¶å¾ˆå¼±ï¼‰&lt;br/&gt;2. ä¸€ç‚¹ç‚¹æ‰£ç»†èŠ‚ï¼Œè‡ªæˆ‘æ„Ÿè§‰ç›¸å¯¹æ¯”ä¹‹å‰�æ��å�‡äº†å¾ˆå¤šï¼Œä¸‹é�¢ä¼šè´´å›¾&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;ä¹‹å‰�çš„ï¼š&lt;br/&gt;&lt;a href="https://s2.oolaf.top/oolaf/oolaf/2026/08/13/15/15/e8c93979e42970c8b59eadf5ccc5319e.webp" rel="nofollow noopener" target="_blank"&gt;https://s2.oolaf.top/oolaf/oolaf/2026/08/13/15/15/e8c93979e42970c8b59eadf5ccc5319e.webp&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;ç�°åœ¨çš„:&lt;br/&gt;&lt;a href="https://pub-d2a6dcd506134792b1c8284b7b32c7ec.r2.dev/gallery/1/ec427db9-f2b6-4325-a24f-1ff7efcb9e81.webp" rel="nofollow noopener" target="_blank"&gt;https://pub-d2a6dcd506134792b1c8284b7b32c7ec.r2.dev/gallery/1/ec427db9-f2b6-4325-a24f-1ff7efcb9e81.webp&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;å¤§å®¶çœ‹çœ‹ï¼Œè¿˜æœ‰å“ªäº›æ”¹è¿›çš„ç©ºé—´ ğŸ™�
+&lt;p&gt;&lt;strong&gt;#49 TokenUs&lt;/strong&gt;：@&lt;a href="/member/K120"&gt;K120&lt;/a&gt; 刚好最后一个，好运&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 05 Sep 2026 06:04:15 +0000</pubDate></item><item><title>外接显示器时，你会把 Mac 打开作为副屏用吗？</title><link>https://www.v2ex.com/t/1239671</link><description>本来外接两台显示器，但副显示器和桌面音响有点冲突，桌面实在不好摆。&lt;br/&gt;&lt;br/&gt;现在改成只接一台显示器，Mac 盒盖使用后，桌面一下整洁了不少。&lt;br/&gt;&lt;br/&gt;但不知道为什么，总感觉 Mac 一直盒盖着，有点浪费……
+&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;#1 di11wei&lt;/strong&gt;：看情况吧，多数情况合盖，玩帝国时代的时候开盖，一是散热，二是可以放个视频看看。&lt;br/&gt;这玩意又不是合上了就打不开。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#2 yidinghe&lt;/strong&gt;：买个支架，将 Mac 屏幕放到合适的位置即可。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#3 ern&lt;/strong&gt;：上支架，左边 MBP ，右边大屏。双屏在需要比对资料什么的时候远比单大屏舒服&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#4 Absofknglutely&lt;/strong&gt;：小屏摸鱼, 大屏开工&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#5 anghunk&lt;/strong&gt;：我是外接当主屏，mac 放左边当副屏看文档&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#6 junie365&lt;/strong&gt;：因为我的 MBP 是 14 寸的缘故，稍微离得远一点，字体太小看不清楚，所以我采用的方法是，外接的 27 寸显示器底下使用了一个增高支架，木制的，然后把 MBP 屏幕完全打开放到显示器的下方，我看 V 站大部分都是把 Mac 和外接显示器摆放成左右模式，我是上下模式，然后就不用外接键盘了，直接用 Mac 上的键盘和触控板+蓝牙鼠标。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#7 FawkesV&lt;/strong&gt;：同 小屏摸鱼 单独用 edge 刷 V2 之类的， 大屏 Google 浏览器，idea ，codex ，  跑任务的时候就小屏摸鱼&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#8 FawkesV&lt;/strong&gt;：@&lt;a href="/member/junie365"&gt;junie365&lt;/a&gt; #6 同样的 我也是这样子&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#9 yiranw09&lt;/strong&gt;：不会...打开 macbook 屏幕如果开启了原彩显示，外界屏幕的颜色也会变得很奇怪&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#10 yiranw09&lt;/strong&gt;：@&lt;a href="/member/yiranw09"&gt;yiranw09&lt;/a&gt; 而且我觉的 mac 的多显示器逻辑很奇怪啊，哪个 dock 栏只能在一个显示器上显示，不能两个显示器都固定一个 dock 栏&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#11 abc8678&lt;/strong&gt;：macbook,出门是 macbook,在家是 mac mini ，机器放在桌子底下&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#12 haruhi&lt;/strong&gt;：买支架，上下放就行——之前就打算左右放近场监听音箱，可惜一直没钱换。&lt;br/&gt;&lt;a href="https://i.imgur.com/XqmQsle.jpeg" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/XqmQsle.jpeg"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#13 resphoina21&lt;/strong&gt;：@&lt;a href="/member/haruhi"&gt;haruhi&lt;/a&gt; 老哥，键盘是燃风 R4 ？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#14 haruhi&lt;/strong&gt;：@&lt;a href="/member/resphoina21"&gt;resphoina21&lt;/a&gt; 是的，R4 。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#15 ACSOUV&lt;/strong&gt;：买个大点的桌子，按照自己需求调整下，没什么放不下的&lt;br/&gt;&lt;a href="https://imgur.com/a/P4tRTW3" rel="nofollow noopener" target="_blank"&gt;https://imgur.com/a/P4tRTW3&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#16 eventlooped&lt;/strong&gt;：不是，难道你们不用这块全世界最顶级的触控板吗？？？&lt;br/&gt;&lt;br/&gt;&lt;a href="https://i.imgur.com/hkiYc4t.jpeg" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/hkiYc4t.jpeg"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#17 poporange630&lt;/strong&gt;：14 寸 上面是加高的 27 寸 4K 下面是笔记本掀开 用笔记本自己的屏和键盘 然后外接无线鼠标&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#18 onojyun&lt;/strong&gt;：会，因为非常需要原彩显示。以及丢在旁边开 YouTube 的页面。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#19 freedomSky&lt;/strong&gt;：@&lt;a href="/member/haruhi"&gt;haruhi&lt;/a&gt; 大佬屏显示器什么型号&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#20 dengjunwen&lt;/strong&gt;：@&lt;a href="/member/di11wei"&gt;di11wei&lt;/a&gt; 合上，散热口朝上，更加好散热吧&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#21 haruhi&lt;/strong&gt;：@&lt;a href="/member/freedomSky"&gt;freedomSky&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;LG UltraFine 5K ，完全不建议购买 (现在应该也买不到了)。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#22 Amigoer&lt;/strong&gt;：@&lt;a href="/member/di11wei"&gt;di11wei&lt;/a&gt; mac 还能玩帝国时代吗？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#23 aker91&lt;/strong&gt;：不用，因为我用 lg 电视做显示器，大小差距太大，摆不到一块&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#24 di11wei&lt;/strong&gt;：@&lt;a href="/member/Amigoer"&gt;Amigoer&lt;/a&gt; 《帝国时代 2 决定版》，Steam 原生 macOS 版本，年底还会上架 AppStore 。&lt;br/&gt;&lt;br/&gt;@&lt;a href="/member/dengjunwen"&gt;dengjunwen&lt;/a&gt; 我的是 Air ，没风扇，开盖好一些。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 05 Sep 2026 06:01:15 +0000</pubDate></item><item><title>我又又又重构了我的站点</title><link>https://www.v2ex.com/t/1239655</link><description>æ�¥ä¸Šæ¬¡å¸–å­�ï¼Œç«™ç‚¹é‡�æ�„ &lt;a href="/t/1227951" rel="nofollow noopener" target="_blank"&gt;/t/1227951&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;åœ°å�€ï¼š &lt;a href="https://www.oolaf.top" rel="nofollow noopener" target="_blank"&gt;https://www.oolaf.top&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;1. æˆ‘å�ˆé‡�æ�„äº†æˆ‘çš„é¡µé�¢ UI ï¼Œå¢�åŠ äº†é»‘å¤œç™½å¤©æ¨¡å¼�ï¼Œå¢�åŠ äº† agent ï¼ˆè™½ç„¶å¾ˆå¼±ï¼‰&lt;br/&gt;2. ä¸€ç‚¹ç‚¹æ‰£ç»†èŠ‚ï¼Œè‡ªæˆ‘æ„Ÿè§‰ç›¸å¯¹æ¯”ä¹‹å‰�æ��å�‡äº†å¾ˆå¤šï¼Œä¸‹é�¢ä¼šè´´å›¾&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;ä¹‹å‰�çš„ï¼š&lt;br/&gt;&lt;a href="https://s2.oolaf.top/oolaf/oolaf/2026/08/13/15/15/e8c93979e42970c8b59eadf5ccc5319e.webp" rel="nofollow noopener" target="_blank"&gt;https://s2.oolaf.top/oolaf/oolaf/2026/08/13/15/15/e8c93979e42970c8b59eadf5ccc5319e.webp&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;ç�°åœ¨çš„:&lt;br/&gt;&lt;a href="https://pub-d2a6dcd506134792b1c8284b7b32c7ec.r2.dev/gallery/1/ec427db9-f2b6-4325-a24f-1ff7efcb9e81.webp" rel="nofollow noopener" target="_blank"&gt;https://pub-d2a6dcd506134792b1c8284b7b32c7ec.r2.dev/gallery/1/ec427db9-f2b6-4325-a24f-1ff7efcb9e81.webp&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;å¤§å®¶çœ‹çœ‹ï¼Œè¿˜æœ‰å“ªäº›æ”¹è¿›çš„ç©ºé—´ ğŸ™�
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 lscho&lt;/strong&gt;：ä¿¡æ�¯å¯†åº¦å¤ªå¤§äº†ï¼Œç�°åœ¨çš„äººæ�¥å�—ä¸�äº†è¿™ä¹ˆå¯†é›†çš„ä¿¡æ�¯äº†&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#2 yujianweb&lt;/strong&gt;：é—²çš„å˜›&lt;/p&gt;&lt;hr/&gt;
