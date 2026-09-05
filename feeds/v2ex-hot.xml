@@ -44,7 +44,10 @@
 &lt;p&gt;&lt;strong&gt;#20 iThink&lt;/strong&gt;：ä¸‡ä¸€å‘¢&lt;br/&gt;b25zeUAxNjMuY29t&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#21 css3&lt;/strong&gt;：ZHNqc253QGdtYWlsLmNvbQo= æŠ½ä¸ªè¯•è¯•ğŸ˜‚&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#22 wuai825&lt;/strong&gt;：é‡�åœ¨å�‚ä¸�&lt;br/&gt;d3VhaTgyNUBnbWFpbC5jb20=&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#23 in211240520&lt;/strong&gt;：é‡�åœ¨å�‚ä¸�&lt;br/&gt;NDQ0ODMzMEBnbWFpbC5jb20=&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 05 Sep 2026 09:21:51 +0000</pubDate></item><item><title>给我整乐呵了，商汤上了 deepseek v4 flash 和 pro</title><link>https://www.v2ex.com/t/1239687</link><description>大概率是自己部署的，不清楚量化程度，有 1M 上下文&lt;br/&gt;我测试了 deepseek v4 flash ，输出比较忙，只有 40t/s 的水平（牛来水平）&lt;br/&gt;目前公测，仅用免费挡位，5 小时窗口 60000 积分，周额度 600000 积分（ 10 倍 5 小时）&lt;br/&gt;但是有意思的是，在我测试 deepseekv4flash 的时候，1M 的 token ，80%的缓存，大约用了 2000 积分&lt;br/&gt;也就是说它 5 小时窗口有 30M 的 deepseek v4 flash ，一周有 3 亿&lt;br/&gt;这个是免费的啊？&lt;br/&gt;笑，甚至还有个生图模型
+&lt;p&gt;&lt;strong&gt;#23 in211240520&lt;/strong&gt;：é‡�åœ¨å�‚ä¸�&lt;br/&gt;NDQ0ODMzMEBnbWFpbC5jb20=&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#24 btpuadom&lt;/strong&gt;：ä½œè€…ç«Ÿç„¶æ�¥ v ç«™äº† åœ¨ç”¨ tf ç‰ˆ é��å¸¸å¥½ç”¨ å¼ºçƒˆæ�¨è��&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#25 nah&lt;/strong&gt;：v2ex æ²¡æœ‰ç§�ä¿¡å•Šï¼Œæ€�ä¹ˆå�‘ 5 æŠ˜åˆ¸&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#26 cai709962401&lt;/strong&gt;：@&lt;a href="/member/nah"&gt;nah&lt;/a&gt; è¿˜çœŸæ˜¯ã€‚ã€‚ã€‚çœ‹æˆ‘èµ„æ–™è�”ç³»æˆ‘ tg å�§ï¼Œç›´æ�¥å�‘å‡ºæ�¥ä¸�å¤ªå¥½&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 05 Sep 2026 09:21:51 +0000</pubDate></item><item><title>给我整乐呵了，商汤上了 deepseek v4 flash 和 pro</title><link>https://www.v2ex.com/t/1239687</link><description>大概率是自己部署的，不清楚量化程度，有 1M 上下文&lt;br/&gt;我测试了 deepseek v4 flash ，输出比较忙，只有 40t/s 的水平（牛来水平）&lt;br/&gt;目前公测，仅用免费挡位，5 小时窗口 60000 积分，周额度 600000 积分（ 10 倍 5 小时）&lt;br/&gt;但是有意思的是，在我测试 deepseekv4flash 的时候，1M 的 token ，80%的缓存，大约用了 2000 积分&lt;br/&gt;也就是说它 5 小时窗口有 30M 的 deepseek v4 flash ，一周有 3 亿&lt;br/&gt;这个是免费的啊？&lt;br/&gt;笑，甚至还有个生图模型
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 qaq13037&lt;/strong&gt;：商汤纯粹是起了个大早，赶了个晚集。自己没那么多卡，还学人卖 token plan ，用免费来吸引用户是个好策略，但是给的并发实测不超过 3 ，放 agent 里根本不可用，你哪怕少点用量呢，大家还想去体验下，完全不明白他们的思路，反人类行为。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#2 Danswerme&lt;/strong&gt;：国内这些公司搞的所谓积分我一直没搞明白是怎么算的&lt;/p&gt;&lt;hr/&gt;
@@ -65,7 +68,11 @@
 &lt;p&gt;&lt;strong&gt;#17 zturns&lt;/strong&gt;：商汤那个我接 zcode 用，没法使用&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#18 cq812187426&lt;/strong&gt;：@&lt;a href="/member/cq812187426"&gt;cq812187426&lt;/a&gt; &lt;br/&gt; &lt;a href="https://i.imgur.com/4tZPHsf.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/4tZPHsf.png"/&gt;&lt;/a&gt;&lt;br/&gt;zzz ，找到了&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#19 Fred18&lt;/strong&gt;：不是很行啊  她说她是 “关键线索是 "Volcano Ark Console"（火山引擎·方舟控制台）——这是字节跳动火山引擎的大模型平台。”&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#20 crocoBaby&lt;/strong&gt;：一直 429 ，薅了给 v 友们用，压根用不了&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 05 Sep 2026 07:42:27 +0000</pubDate></item><item><title>搞了个开源大模型 API 中转站，官方价 3.5 折，送 25 份 5 刀额度</title><link>https://www.v2ex.com/t/1239673</link><description>&lt;p&gt;自己搭的站，TokenUs： &lt;a href="https://tokenus.net" rel="nofollow"&gt;https://tokenus.net&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#20 crocoBaby&lt;/strong&gt;：一直 429 ，薅了给 v 友们用，压根用不了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#21 foryou2023&lt;/strong&gt;：@&lt;a href="/member/cq812187426"&gt;cq812187426&lt;/a&gt; 这价格也太贵了吧，v4flash 空闲大概 14 块钱左右 1 亿 token&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#22 jetsung&lt;/strong&gt;：它这 6W 积分，连 1W 都用不动。动不动就 429 。浪费时间，压根没有体验。连 deepseek v4 flash 都玩不明白，还上 K3 等模型。。。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#23 stefwoo&lt;/strong&gt;：429 太多了，浪费时间。跑 agent 甚至不如接 google aistudio 免费的 gemini&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#24 linbenyi&lt;/strong&gt;：免费就是说个 hello 让你换个 token 用的。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 05 Sep 2026 07:42:27 +0000</pubDate></item><item><title>搞了个开源大模型 API 中转站，官方价 3.5 折，送 25 份 5 刀额度</title><link>https://www.v2ex.com/t/1239673</link><description>&lt;p&gt;自己搭的站，TokenUs： &lt;a href="https://tokenus.net" rel="nofollow"&gt;https://tokenus.net&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;先说清楚，这就是个 API 中转站，基于 new-api 改的，没什么黑科技。接的都是开源模型，DeepSeek V4 全系、GLM 5.x 、Kimi K2.5/K3 、Qwen3.8 ，一共 15 个。接口和 OpenAI 兼容，base_url 换掉就能用。&lt;/p&gt;
 &lt;p&gt;价格是官方价的 3.5 折，举两个例子：&lt;/p&gt;
 &lt;ul&gt;
@@ -86,9 +93,9 @@
 &lt;p&gt;a7cc61803dde48c9b91cac6abed72209&lt;/p&gt;
 &lt;p&gt;ac4c4f82eff7416bae1600e089436508&lt;/p&gt;
 &lt;p&gt;2d617d4ba92240078a8d55e212b46ebe&lt;/p&gt;
-&lt;p&gt;有问题直接回帖，或者写邮件给 &lt;a href="/cdn-cgi/l/email-protection#eb989e9b9b84999fab9f84808e859e98c5858e9f"&gt;&lt;span data-cfemail="6b181e1b1b04191f2b1f04000e051e1845050e1f"&gt;[email protected]&lt;/span&gt;&lt;/a&gt; 。站刚上线不久，欢迎拍砖，哪里难用直接骂&lt;/p&gt;
+&lt;p&gt;有问题直接回帖，或者写邮件给 &lt;a href="/cdn-cgi/l/email-protection#67141217170815132713080c0209121449090213"&gt;&lt;span data-cfemail="d0a3a5a0a0bfa2a490a4bfbbb5bea5a3febeb5a4"&gt;[email protected]&lt;/span&gt;&lt;/a&gt; 。站刚上线不久，欢迎拍砖，哪里难用直接骂&lt;/p&gt;
 &lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-09-05 15:48:20 +08:00"&gt;6h 26m ago&lt;/span&gt;
+Supplement 1  ·  &lt;span title="2026-09-05 15:48:20 +08:00"&gt;9h 56m ago&lt;/span&gt;
 
 有兴趣的可以关注一下，会时不时放一些码给大家
 
@@ -100,7 +107,7 @@ Supplement 1  ·  &lt;span title="2026-09-05 15:48:20 +08:00"&gt;6h 26m ago&lt
 &lt;p&gt;&lt;strong&gt;#5 TokenUs&lt;/strong&gt;：@&lt;a href="/member/plusultra"&gt;plusultra&lt;/a&gt; 兑换了，enjoy&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#6 GGGoing&lt;/strong&gt;：amFzZXJ5ZGV2QDE2My5jb20= 谢谢老板&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#7 TokenUs&lt;/strong&gt;：@&lt;a href="/member/GGGoing"&gt;GGGoing&lt;/a&gt; 已兑，enjoy~&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#8 dlj342784178&lt;/strong&gt;：&lt;a data-cfemail="b2818680858a8683858af2c3c39cd1dddf" href="/cdn-cgi/l/email-protection"&gt;[email protected]&lt;/a&gt; 谢谢老板&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#8 dlj342784178&lt;/strong&gt;：&lt;a data-cfemail="1d2e292f2a25292c2a255d6c6c337e7270" href="/cdn-cgi/l/email-protection"&gt;[email protected]&lt;/a&gt; 谢谢老板&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#9 TokenUs&lt;/strong&gt;：@&lt;a href="/member/dlj342784178"&gt;dlj342784178&lt;/a&gt; 你要先注册哦，才能给你兑换&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#10 akzudd&lt;/strong&gt;：YWt6dWRkQGdtYWlsLmNvbQ== 谢谢&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#11 TokenUs&lt;/strong&gt;：@&lt;a href="/member/akzudd"&gt;akzudd&lt;/a&gt; 兑换啦，enjoy ！&lt;/p&gt;&lt;hr/&gt;
@@ -113,7 +120,7 @@ Supplement 1  ·  &lt;span title="2026-09-05 15:48:20 +08:00"&gt;6h 26m ago&lt
 &lt;p&gt;&lt;strong&gt;#18 xiepen&lt;/strong&gt;：ID 263&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#19 TokenUs&lt;/strong&gt;：@&lt;a href="/member/xiepen"&gt;xiepen&lt;/a&gt; 好啦，好啦，这下好啦&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#20 Sosocould&lt;/strong&gt;：ID 264&lt;br/&gt;谢谢老板&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#21 dlj342784178&lt;/strong&gt;：@&lt;a href="/member/TokenUs"&gt;TokenUs&lt;/a&gt;  注册了 &lt;a data-cfemail="6c5f585e5b54585d5b542c1d1d420f0301" href="/cdn-cgi/l/email-protection"&gt;[email protected]&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#21 dlj342784178&lt;/strong&gt;：@&lt;a href="/member/TokenUs"&gt;TokenUs&lt;/a&gt;  注册了 &lt;a data-cfemail="3e0d0a0c09060a0f09067e4f4f105d5153" href="/cdn-cgi/l/email-protection"&gt;[email protected]&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#22 TokenUs&lt;/strong&gt;：@&lt;a href="/member/Sosocould"&gt;Sosocould&lt;/a&gt; 已兑，enjoy&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#23 TokenUs&lt;/strong&gt;：@&lt;a href="/member/dlj342784178"&gt;dlj342784178&lt;/a&gt; 兑啦，开蹬吧&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#24 fantasynoff&lt;/strong&gt;：ZmFudGFzeW5vZmZAZ21haWwuY29t&lt;br/&gt;谢谢&lt;/p&gt;&lt;hr/&gt;
@@ -132,7 +139,16 @@ Supplement 1  ·  &lt;span title="2026-09-05 15:48:20 +08:00"&gt;6h 26m ago&lt
 &lt;p&gt;&lt;strong&gt;#37 chen22&lt;/strong&gt;：id:270 谢谢&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#38 humbass&lt;/strong&gt;：aHVtYmFzc0BnbWFpbC5jb20=&lt;br/&gt;&lt;br/&gt;谢谢老板&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#39 K3v1Nz&lt;/strong&gt;：dXd6Z0BvdXRsb29rLmNvbQ==&lt;br/&gt;感谢老板~&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#40 saigo&lt;/strong&gt;：NTE2MzUwNDI3QHFxLmNvbQ==  感谢老板！&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 05 Sep 2026 06:04:15 +0000</pubDate></item><item><title>我又又又重构了我的站点</title><link>https://www.v2ex.com/t/1239655</link><description>æ�¥ä¸Šæ¬¡å¸–å­�ï¼Œç«™ç‚¹é‡�æ�„ &lt;a href="/t/1227951" rel="nofollow noopener" target="_blank"&gt;/t/1227951&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;åœ°å�€ï¼š &lt;a href="https://www.oolaf.top" rel="nofollow noopener" target="_blank"&gt;https://www.oolaf.top&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;1. æˆ‘å�ˆé‡�æ�„äº†æˆ‘çš„é¡µé�¢ UI ï¼Œå¢�åŠ äº†é»‘å¤œç™½å¤©æ¨¡å¼�ï¼Œå¢�åŠ äº† agent ï¼ˆè™½ç„¶å¾ˆå¼±ï¼‰&lt;br/&gt;2. ä¸€ç‚¹ç‚¹æ‰£ç»†èŠ‚ï¼Œè‡ªæˆ‘æ„Ÿè§‰ç›¸å¯¹æ¯”ä¹‹å‰�æ��å�‡äº†å¾ˆå¤šï¼Œä¸‹é�¢ä¼šè´´å›¾&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;ä¹‹å‰�çš„ï¼š&lt;br/&gt;&lt;a href="https://s2.oolaf.top/oolaf/oolaf/2026/08/13/15/15/e8c93979e42970c8b59eadf5ccc5319e.webp" rel="nofollow noopener" target="_blank"&gt;https://s2.oolaf.top/oolaf/oolaf/2026/08/13/15/15/e8c93979e42970c8b59eadf5ccc5319e.webp&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;ç�°åœ¨çš„:&lt;br/&gt;&lt;a href="https://pub-d2a6dcd506134792b1c8284b7b32c7ec.r2.dev/gallery/1/ec427db9-f2b6-4325-a24f-1ff7efcb9e81.webp" rel="nofollow noopener" target="_blank"&gt;https://pub-d2a6dcd506134792b1c8284b7b32c7ec.r2.dev/gallery/1/ec427db9-f2b6-4325-a24f-1ff7efcb9e81.webp&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;å¤§å®¶çœ‹çœ‹ï¼Œè¿˜æœ‰å“ªäº›æ”¹è¿›çš„ç©ºé—´ ğŸ™�
+&lt;p&gt;&lt;strong&gt;#40 saigo&lt;/strong&gt;：NTE2MzUwNDI3QHFxLmNvbQ==  感谢老板！&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#41 ThinkZ&lt;/strong&gt;：ID:274 &lt;br/&gt;bml1cGFpQG91dGxvb2suY29tCg==&lt;br/&gt;&lt;br/&gt;如果还有剩余的，谢谢。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#42 K120&lt;/strong&gt;：ID:276.   谢谢老板&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#43 TokenUs&lt;/strong&gt;：剩余的名额已经发完了哦，期待下次吧~&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#44 TokenUs&lt;/strong&gt;：@&lt;a href="/member/chen22"&gt;chen22&lt;/a&gt; 兑啦&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#45 TokenUs&lt;/strong&gt;：@&lt;a href="/member/humbass"&gt;humbass&lt;/a&gt; 兑了哦&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#46 TokenUs&lt;/strong&gt;：@&lt;a href="/member/K3v1Nz"&gt;K3v1Nz&lt;/a&gt; 兑好，蹬起&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#47 TokenUs&lt;/strong&gt;：@&lt;a href="/member/saigo"&gt;saigo&lt;/a&gt; 兑好，客气&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#48 TokenUs&lt;/strong&gt;：@&lt;a href="/member/ThinkZ"&gt;ThinkZ&lt;/a&gt; 有，已兑~&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#49 TokenUs&lt;/strong&gt;：@&lt;a href="/member/K120"&gt;K120&lt;/a&gt; 刚好最后一个，好运&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 05 Sep 2026 06:04:15 +0000</pubDate></item><item><title>我又又又重构了我的站点</title><link>https://www.v2ex.com/t/1239655</link><description>æ�¥ä¸Šæ¬¡å¸–å­�ï¼Œç«™ç‚¹é‡�æ�„ &lt;a href="/t/1227951" rel="nofollow noopener" target="_blank"&gt;/t/1227951&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;åœ°å�€ï¼š &lt;a href="https://www.oolaf.top" rel="nofollow noopener" target="_blank"&gt;https://www.oolaf.top&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;1. æˆ‘å�ˆé‡�æ�„äº†æˆ‘çš„é¡µé�¢ UI ï¼Œå¢�åŠ äº†é»‘å¤œç™½å¤©æ¨¡å¼�ï¼Œå¢�åŠ äº† agent ï¼ˆè™½ç„¶å¾ˆå¼±ï¼‰&lt;br/&gt;2. ä¸€ç‚¹ç‚¹æ‰£ç»†èŠ‚ï¼Œè‡ªæˆ‘æ„Ÿè§‰ç›¸å¯¹æ¯”ä¹‹å‰�æ��å�‡äº†å¾ˆå¤šï¼Œä¸‹é�¢ä¼šè´´å›¾&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;ä¹‹å‰�çš„ï¼š&lt;br/&gt;&lt;a href="https://s2.oolaf.top/oolaf/oolaf/2026/08/13/15/15/e8c93979e42970c8b59eadf5ccc5319e.webp" rel="nofollow noopener" target="_blank"&gt;https://s2.oolaf.top/oolaf/oolaf/2026/08/13/15/15/e8c93979e42970c8b59eadf5ccc5319e.webp&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;ç�°åœ¨çš„:&lt;br/&gt;&lt;a href="https://pub-d2a6dcd506134792b1c8284b7b32c7ec.r2.dev/gallery/1/ec427db9-f2b6-4325-a24f-1ff7efcb9e81.webp" rel="nofollow noopener" target="_blank"&gt;https://pub-d2a6dcd506134792b1c8284b7b32c7ec.r2.dev/gallery/1/ec427db9-f2b6-4325-a24f-1ff7efcb9e81.webp&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;å¤§å®¶çœ‹çœ‹ï¼Œè¿˜æœ‰å“ªäº›æ”¹è¿›çš„ç©ºé—´ ğŸ™�
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 lscho&lt;/strong&gt;：ä¿¡æ�¯å¯†åº¦å¤ªå¤§äº†ï¼Œç�°åœ¨çš„äººæ�¥å�—ä¸�äº†è¿™ä¹ˆå¯†é›†çš„ä¿¡æ�¯äº†&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#2 yujianweb&lt;/strong&gt;：é—²çš„å˜›&lt;/p&gt;&lt;hr/&gt;
@@ -157,7 +173,12 @@ Supplement 1  ·  &lt;span title="2026-09-05 15:48:20 +08:00"&gt;6h 26m ago&lt
 &lt;p&gt;&lt;strong&gt;#21 leeshong27&lt;/strong&gt;：å¤ªå¯†äº†  ä½ è¿™ä¸�å¦‚ç…§æŠ„ nodeloc ç®—äº†&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#22 lino68&lt;/strong&gt;：æˆ‘ä¹Ÿå�—ä¸�äº†å®‹ä½“å­—ï¼Œè€Œä¸”æ��é»‘èƒŒæ™¯+å¾ˆäº®çš„å­—ä½“é¢œè‰²ï¼Œçœ¼ç�›è¦�ç��äº†ã€‚ã€‚&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#23 ANYJIAWEI&lt;/strong&gt;：![å¥¶é£�å½±è§†.png]( &lt;a href="https://picui.ogmua.cn/s1/2026/09/05/6a9c170d886e5.webp" rel="nofollow noopener" target="_blank"&gt;https://picui.ogmua.cn/s1/2026/09/05/6a9c170d886e5.webp&lt;/a&gt;)&lt;br/&gt;çœ‹çœ‹æˆ‘çš„æ›´æ��ç®€ï¼š &lt;a href="https://naiflix.netlify.app/" rel="nofollow noopener" target="_blank"&gt;https://naiflix.netlify.app/&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#24 ToDayMkCode&lt;/strong&gt;：@&lt;a href="/member/ANYJIAWEI"&gt;ANYJIAWEI&lt;/a&gt; æ��ç®€ ğŸ˜‚ï¼š &lt;a href="https://xujingyichang.top/" rel="nofollow noopener" target="_blank"&gt;https://xujingyichang.top/&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 05 Sep 2026 03:42:43 +0000</pubDate></item><item><title>梳理一下 Google AI Pro 赠送的所有权益，每月竟然价值几千块</title><link>https://www.v2ex.com/t/1239651</link><description>&lt;ol&gt;
+&lt;p&gt;&lt;strong&gt;#24 ToDayMkCode&lt;/strong&gt;：@&lt;a href="/member/ANYJIAWEI"&gt;ANYJIAWEI&lt;/a&gt; æ��ç®€ ğŸ˜‚ï¼š &lt;a href="https://xujingyichang.top/" rel="nofollow noopener" target="_blank"&gt;https://xujingyichang.top/&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#25 purelind&lt;/strong&gt;：@&lt;a href="/member/ToDayMkCode"&gt;ToDayMkCode&lt;/a&gt; è¿™ä¸ªå¥½çœ‹ï¼Œæœ‰è®¾è®¡æ„Ÿï¼Œçœ‹ç�€èˆ’æœ�&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#26 tianhehechu&lt;/strong&gt;：ç«™é•¿ï¼Œèƒ½çœ‹å‡ºæ�¥å¾ˆåŠªåŠ›åœ¨å�šã€‚ä½†ç¡®å®�é¦–é¡µä¿¡æ�¯å¯†åº¦å¤ªå¤§äº†ï¼Œé¦–é¡µå�¯ä»¥å�šæˆ�åˆ—è¡¨ï¼Œå›¾ç‰‡æ”¶åˆ°åˆ—è¡¨é¡¹å·¦ä¾§ã€‚é¡µé�¢å†…éƒ¨å�šå†³ä¸�è¦�å‡ºç�°æ»šåŠ¨æ�¡ã€‚&lt;br/&gt;ç„¶å��è¯·æ•™ä¸€ä¸‹ç«™é•¿ï¼ŒICP å¤‡æ¡ˆå¤§æ¦‚éœ€è¦�å¤šä¹…ï¼Œæœ‰ä»€ä¹ˆéœ€è¦�æ³¨æ„�çš„å�—ã€‚æˆ‘å�Ÿæœ¬å�¬è¯´å¸¦è¯„è®ºçš„è¿‡ä¸�äº†å®¡æ ¸ï¼Œä½†çœ‹ä½ çš„ Oolaf æ˜¯æ”¯æŒ�ç™»å½•å’Œè¯„è®ºçš„ã€‚æœ‰ä»€ä¹ˆç»�éªŒå�—ï¼Œä¼ æ�ˆä¸€ä¸‹ã€‚&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#27 koa&lt;/strong&gt;：@&lt;a href="/member/jenhe"&gt;jenhe&lt;/a&gt; ç»™å¤§ä½¬ç‚¹çƒŸ~&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#28 1874w&lt;/strong&gt;：@&lt;a href="/member/lscho"&gt;lscho&lt;/a&gt; ä¿¡æ�¯å¯†åº¦å¤ªå¤§ +1 ï¼Œç�°åœ¨æ˜¯çœŸçœ‹ä¸�äº†è¿™ç§�å�šå®¢ã€‚æˆ‘æ„Ÿè§‰æˆ‘çš„å�šå®¢ï¼ˆ https://blog.1874.cool/ï¼‰è¿˜æŒºç®€æ´�çš„ï¼Œä¸�è¿‡å�šå®¢ç«™ç‚¹æ›´å¤šæ˜¯æœ�åŠ¡è‡ªå·±ï¼Œè®°å½•è‡ªå·±çš„å®�è·µç»�éªŒï¼Œå¦‚æ�œæŒ�ç»­å�šæŒ�å†™ä¸‹å�»ï¼Œå…¶å®�å¤–è§‚å€’æ²¡é‚£ä¹ˆé‡�è¦�ã€‚&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#29 herozzm&lt;/strong&gt;：æ€�ä¹ˆæ„Ÿè§‰å›¾ç‰‡æ¯«æ— æ„�ä¹‰&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 05 Sep 2026 03:42:43 +0000</pubDate></item><item><title>梳理一下 Google AI Pro 赠送的所有权益，每月竟然价值几千块</title><link>https://www.v2ex.com/t/1239651</link><description>&lt;ol&gt;
 &lt;li&gt;æ¯�æœˆå›ºå®šå�‘æ”¾çš„ã€ŒçœŸé‡‘ç™½é“¶ã€�&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;ğŸ’¾ 5 TB è¶…å¤§äº‘ç©ºé—´ï¼šDrive / Gmail / ç›¸å†Œå…±ç”¨ï¼Œæ”¯æŒ�å®¶åº­å…±äº«ä¸”æ–‡ä»¶å�„è‡ªç§�å¯†ã€‚&lt;/p&gt;
@@ -282,7 +303,12 @@ Supplement 1  ·  &lt;span title="2026-09-05 15:48:20 +08:00"&gt;6h 26m ago&lt
 &lt;p&gt;&lt;strong&gt;#46 ylual&lt;/strong&gt;：听说现在招聘需求又回暖了一些？&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#47 jessiepan2017&lt;/strong&gt;：@&lt;a href="/member/zuosiruan"&gt;zuosiruan&lt;/a&gt; ，哥们说得对，我感觉嵌入式应该算是当下比较容易找工作的一个技术方向吧，其中之一&lt;br/&gt;&lt;br/&gt;本人已满 47 快 48 岁了，嵌入式软件开发，学历自考专科、本科，计算机应用专业，坐标深圳。白天在公司上班，晚上在 BOSS 上投简历，有接到一些面试邀约、也参加过线上的面试。不过，我只想再找一份兼职，暂时还没有谈到合适的。。。身边认识一些做半导体芯片、存储方案（ SSD 、EMMC ）开发的朋友，经常聊天，很是羡慕他们公司的福利待遇。。&lt;br/&gt;&lt;br/&gt;现在的单位不是很忙，工作之余本人也承接各类音视频、流媒体项目方案以及安防监控 IPCAM 、NVR 产品的定制开发&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.v2ex.com/t/1063294#reply27" target="_blank"&gt;https://www.v2ex.com/t/1063294#reply27&lt;/a&gt;&lt;br/&gt;还有一个副业，知识付费。业余时间带做互联网、搞 Java 的朋友们（前、后端、软件项目实施、运维）转行嵌入式，自己有注册公司，还可以提供简历修改和面试指导等服务。目前已经有几个成功案例 :)&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#48 Tory12138&lt;/strong&gt;：钣金加工&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#49 dinjufen&lt;/strong&gt;：@&lt;a href="/member/xujiang"&gt;xujiang&lt;/a&gt; 考证了后续好找工作吗&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 05 Sep 2026 01:03:02 +0000</pubDate></item><item><title>周六清早起来快蹬 马上又要重置了....</title><link>https://www.v2ex.com/t/1239621</link><description>怀疑这次的重置是直接重置 不是发重置卡
+&lt;p&gt;&lt;strong&gt;#49 dinjufen&lt;/strong&gt;：@&lt;a href="/member/xujiang"&gt;xujiang&lt;/a&gt; 考证了后续好找工作吗&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#50 kleos&lt;/strong&gt;：电工吧，我去年考了个电工证，现在无论是什么单位都在招人，除了工资低，其他没得说，哪怕是在厂里，也是长白班，不会三班倒。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#51 sjxiang2023922&lt;/strong&gt;：@&lt;a href="/member/idouble"&gt;idouble&lt;/a&gt; 男的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#52 207524zyD&lt;/strong&gt;：@&lt;a href="/member/zhiyu1998"&gt;zhiyu1998&lt;/a&gt; 厨师是真的，好吃的东西绝对不会卖不出去&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#53 mayahs&lt;/strong&gt;：容易找工作的感觉不少，但是值多少钱就不好说了，国内的话只搞技术不挣钱&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#54 bzj&lt;/strong&gt;：@&lt;a href="/member/sir283"&gt;sir283&lt;/a&gt; 那为什么你不自己开公司&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 05 Sep 2026 01:03:02 +0000</pubDate></item><item><title>周六清早起来快蹬 马上又要重置了....</title><link>https://www.v2ex.com/t/1239621</link><description>怀疑这次的重置是直接重置 不是发重置卡
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 jerseyhero&lt;/strong&gt;：消息准确么，OP ，我这 1%在犹豫要不要用卡&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#2 V2Q&lt;/strong&gt;：又送了一张重置卡&lt;/p&gt;&lt;hr/&gt;
