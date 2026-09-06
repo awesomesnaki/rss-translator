@@ -1,41 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>landiannews</title><link/><description>&lt;div class="t"&gt;
-&lt;div class="h"&gt;
-&lt;span class="d"&gt;&lt;/span&gt;
-&lt;span class="d"&gt;&lt;/span&gt;
-&lt;span class="d"&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;div class="c"&gt;
-&lt;div class="p"&gt;TIMEOUT_ERROR&lt;span class="cur"&gt;&lt;/span&gt;&lt;/div&gt;
-&lt;div class="s"&gt;
-&lt;div class="i"&gt;
-
-
-
-
-&lt;/div&gt;
-&lt;div class="e"&gt;504&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="m"&gt;
-&lt;h1&gt;GATEWAY_TIMEOUT&lt;/h1&gt;
-&lt;p&gt;Origin server timeout, please try again later&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="data"&gt;
-&lt;div class="r"&gt;
-&lt;span class="k"&gt;client_ip&lt;/span&gt;
-&lt;span class="v"&gt;4.246.62.224&lt;/span&gt;
-&lt;/div&gt;
-&lt;div class="r"&gt;
-&lt;span class="k"&gt;request_id&lt;/span&gt;
-&lt;span class="v"&gt;178870549157841004565&lt;/span&gt;
-&lt;/div&gt;
-&lt;div class="r"&gt;
-&lt;span class="k"&gt;timestamp&lt;/span&gt;
-&lt;span class="v"&gt;2026-09-06T22:38:11.606+08:00&lt;/span&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="f"&gt;
-Protected By &lt;a href="https://peekabo.io" target="_blank"&gt;Peekabo&lt;/a&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description><language>zh-CN</language><lastBuildDate>Sun, 06 Sep 2026 14:39:17 +0000</lastBuildDate></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sun, 06 Sep 2026 04:48:19 +0000</lastBuildDate><item><title>谷歌浏览器还有隐藏小技能：遇到HSTS网站无法加载时 键盘盲打thisisunsafe即可加载</title><link>https://www.landian.news/archives/126681.html</link><description>
+&lt;p&gt;#软件资讯 谷歌浏览器还有个隐藏小技能：遇到 HSTS 网站无法加载时，通过键盘盲打 thisisunsafe 即可加载。部分网站已经设置 HSTS 严格传输安全，这时候如果证书过期、被吊销或使用自签名证书，Chrome 就会拦截访问且点击高级选项也没用。但如果通过键盘按 thisisunsafe 就可以加载，这个功能主要是面向开发者用于调试，普通用户遇到此类加载问题时应该关闭页面，因为网站服务器可能出现问题或真出现劫持的情况。查看全文：https://ourl.co/126681&lt;/p&gt;&lt;p&gt;基于安全考虑目前很多网站都已经部署 HTTPS 加密连接，但有时候网站服务器出现问题时可能会退回到 HTTP 明文连接。而谷歌浏览器采用的 HSTS 严格传输安全机制，会强制浏览器和服务器之间必须通过 HTTPS 加密连接。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126681-1.png" rel="nofollow"&gt;&lt;img alt="谷歌浏览器还有隐藏小技能：遇到HSTS网站无法加载时 键盘盲打thisisunsafe即可加载" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126681-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;遇到 HSTS 导致的无法加载时，正常情况下对访问者来说应该直接关闭页面，因为这种情况要么是网站服务器出现问题，要么是用户到该网站之间的连接遭到劫持，因此继续尝试访问存在潜在的安全隐患。&lt;/p&gt;
+&lt;p&gt;不过谷歌也在 Chrome 中预留小技能，只需要通过键盘盲打 thisisunsafe 即可绕过 HSTS 继续加载，输入 thisisunsafe 时页面不会有任何提示，当完成输入时 Chrome 就会自动重新加载这个页面。&lt;/p&gt;
+&lt;p&gt;试试看：&lt;a href="https://hsts.landian.la/" rel="noopener" target="_blank"&gt;https://hsts.landian.la/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126681-2.png" rel="nofollow"&gt;&lt;img alt="谷歌浏览器还有隐藏小技能：遇到HSTS网站无法加载时 键盘盲打thisisunsafe即可加载" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126681-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;虽然可能有很多用户都是首次听说这个功能 (包括蓝点网)，但其实谷歌浏览器很早就已经添加这个小技能，开发者在调试时遇到问题可以通过这个小技能临时进入页面检查潜在的问题，所以本质上这个功能并不是面向普通用户的。&lt;/p&gt;
+&lt;p&gt;当然要触发这种情况也有前置条件，即网站使用不受信任的证书 (包括自签名证书、证书已被吊销、证书过期等)、HTTPS 响应要发送 HSTS 头、浏览器已经拥有该域名的 HSTS 状态，此时域名访问会被拦截。&lt;/p&gt;
+&lt;p&gt;在这种情况下通过键盘盲打 thisisunsafe 才可以进入页面，相当于用户已经知道这个连接不安全但签了个免责协议，所以谷歌会重新允许用户进行加载。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sun, 06 Sep 2026 04:48:19 +0000</pubDate></item><item><title>Linux Kernel 7.1已经结束生命周期不再提供更新 用户应尽快升级到7.2系列</title><link>https://www.landian.news/archives/126682.html</link><description>
+&lt;p&gt;#系统资讯 Linux Kernel 7.1 系列最终版发布：Linux Kernel 7.1.13，至此 7.1 全系列结束生命周期支持。内核团队建议用户立即升级 7.2 系列，不过下游发行版通常维护自己的内核版本并移植补丁。所以用户需要查询使用的发行版网站，看看当前的内核支持状态。查看全文：https://ourl.co/126682&lt;/p&gt;&lt;p&gt;Linux Kernel 7.1 系列已经结束生命周期不再提供任何安全更新，该版本最初是在 2026 年 6 月 14 日发布的，由于 7.1 系列并非 LTS 长期支持版因此生命周期非常短。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2023/08/99983.png" rel="nofollow"&gt;&lt;img alt="Linux Kernel 7.1已经结束生命周期不再提供更新 用户应尽快升级到7.2系列" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2023/08/99983.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在整个 7.1 系列里共有 13 个稳定版维护更新，最终版本为 9 月 2 日发布的 Linux Kernel 7.1.13 版，该版本包含 76 项修复，涉及 KVM、USB、音频、WiFi、文件系统和加密等组件。&lt;/p&gt;
+&lt;p&gt;结束生命周期后内核团队不再提供任何错误修复和安全更新，官方建议仍然使用该分支的用户应该尽快迁移到 Linux Kernel 7.2 系列。如果不想频繁更新内核则可以考虑迁移到 Linux Kernel LTS 系列。&lt;/p&gt;
+&lt;p&gt;这种非长期支持版属于 Linux 普通稳定内核的常见维护方式，普通版本会在新版本发布后结束维护，只有被选为长期支持的版本才会获得更长的支持周期。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 最新稳定版为 Linux Kernel 7.2.3：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Linux Kernel 7.2 系列在 2026 年 8 月 16 日发布，目前稳定版更新已经到 7.2.3 版，所以内核团队也建议使用 7.2 系列的用户升级到 7.2.3 版，新版本修复大量已知错误和安全问题。&lt;/p&gt;
+&lt;p&gt;需要区分上游内核与下游 Linux 发行版内核，像是 Ubuntu、Debian、RHEL 等发行版通常会自行维护所使用的内核并移植安全补丁，因此系统显示的版本低于 7.2 不代表已经停止安全更新，所以用户应当查询发行版网站确认内核支持信息。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Linux Kernel 6.18&lt;/li&gt;
+&lt;li&gt;Linux Kernel 6.12&lt;/li&gt;
+&lt;li&gt;Linux Kernel 6.6&lt;/li&gt;
+&lt;li&gt;Linux Kernel 6.1&lt;/li&gt;
+&lt;li&gt;Linux Kernel 5.15&lt;/li&gt;
+&lt;li&gt;Linux Kernel 5.10&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sun, 06 Sep 2026 04:33:03 +0000</pubDate></item><item><title>Codex向部分用户赠送第二张重置卡 GPT-6 Astra也开始推送</title><link>https://www.landian.news/archives/126688.html</link><description>
+&lt;p&gt;#人工智能 Codex 向部分用户赠送第二张重置卡，GPT-6 Astra 也开始陆续向用户推送。目前情况有些混乱：按蒂博的说法今天 Plus、Pro、Ent 用户都收到新重置卡。而 Pro 用户应该已经收到 GPT-6 的推送，但少量 Plus 用户其实也收到推送。所以是否有新重置卡和能否使用 GPT-6 需要用户自行测试。查看全文：https://ourl.co/126688&lt;/p&gt;&lt;p&gt;本周 OpenAI 推出 GPT-6 Astra 模型但初期仅面向部分认证机构提供，现在该模型已经按照约定陆续向 ChatGPT Pro 等订阅用户提供，而尚未获得推送的 ChatGPT Plus 用户则可以继续获得重置卡作为补偿。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126688.png" rel="nofollow"&gt;&lt;img alt="Codex向部分用户赠送第二张重置卡 GPT-6 Astra也开始推送" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126688.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;不过实际上部分 ChatGPT Pro 和 Enterprise 用户也获得新重置卡，而少量 ChatGPT Plus 用户也获得 GPT-6 Astra 推送，所以目前的情况有些混乱，具体是否收到重置卡以及是否可以使用 GPT-6 Astra 模型需要用户在 ChatGPT &amp;amp; Codex 里进行测试检查。&lt;/p&gt;
+&lt;p&gt;蓝点网的 ChatGPT Plus 订阅账号目前并未获得 GPT-6 Astra 模型，所以收到新重置卡，重置卡发放时间是今天早晨 6 点，叠加昨天和此前发放的重置卡，目前合计有 3 张重置卡，如果明天还未获得 GPT-6 Astra 推送那还可以继续收到重置卡。&lt;/p&gt;
+&lt;p&gt;有趣的是还有网友想着 Plus 账号继续获得重置卡，然后将账号升级到 Pro 后岂不是稳赚？按理说获得的重置卡应该都是通用的，所以这种思路或许是可行的，如果有多个 Plus 账号的话倒是可以留一个进行测试。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sat, 05 Sep 2026 04:16:44 +0000</pubDate></item><item><title>AI对存储需求暴增也促进磁带销量暴涨：26Q1磁带存储出货容量增长57%</title><link>https://www.landian.news/archives/126680.html</link><description>
+&lt;p&gt;#行业资讯 AI 行业的存储需求也推动磁带存储销量暴涨：26Q1 磁带存储出货容量同比增长达 57%。磁带主要适合低频存储，即里面的数据不需要经常拿出来读取。AI 公司的训练数据集、历史模型、日志和冷数据没有必要保存在昂贵的在线存储中，所以磁带存储现在成为香饽饽。查看全文：https://ourl.co/126680&lt;/p&gt;&lt;p&gt;目前人工智能数据中心正在对计算机行业产生越来越深刻的影响，这些数据中心不仅需要大量高性能内存，数据中心运行时产生的海量数据也需要存储，因此无论是机械硬盘还是固态硬盘也都出现比较严重的供应问题。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126680.png" rel="nofollow"&gt;&lt;img alt="AI对存储需求暴增也促进磁带销量暴涨：26Q1磁带存储出货容量增长57%" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126680.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;LTO 联盟公布的数据显示，2025 年 LTO 磁带出货容量达到 160.3EB，虽然较 2024 年的 176.5EB 下降 9%，但仍然处于出货量高位阶段。而进入 2026 年后磁带存储需求量开始恢复，仅在 2026Q1 磁带出货容量就同比增长 57%。&lt;/p&gt;
+&lt;p&gt;联盟认为 AI 和机器学习正在增加数据归档需求，同时传统备份、合规存档和勒索软件防护仍然是主要的市场使用场景。在人工智能行业，越来越多的公司开始使用磁带对原始数据进行存储归档，这些数据通常短时间内不会再访问，所以适合使用磁带存储。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;磁带的技术原理就决定其不适合进行频繁的数据访问，因此不能直接替代传统机械硬盘和固态硬盘。但磁带存储的优势在于低频访问和长期存储：介质单位容量成本低、离线磁带不需要持续通电、可以与生产网络进行物理隔离，降低勒索软件直接加密备份的风险。&lt;/p&gt;
+&lt;p&gt;对 AI 数据中心来说，训练数据集、历史模型、日志和冷数据没有必要长期保存在昂贵的在线存储中。随着数据规模持续扩大，磁带也成为传统硬盘之外的冷存储层，这也是磁带出货量大涨的主要原因。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sat, 05 Sep 2026 03:52:43 +0000</pubDate></item><item><title>Cloudflare D1开始强制执行免费额度：超额后数据库查询直接失败 次日0点恢复</title><link>https://www.landian.news/archives/126644.html</link><description>
+&lt;p&gt;#行业资讯 Cloudflare D1 数据库免费版开始执行强制免费额度：每日免费额度耗尽后不会产生额外账单，而是直接停掉数据库功能。好消息是这不会导致被刷产生巨额账单，坏消息是如果被刷那业务会出现中断。建议使用 D1 的用户关注每日用量并考虑是否要升级付费版，每日重置额度时间为国内时间早上 8 点整。查看全文：https://ourl.co/126644&lt;/p&gt;&lt;p&gt;据 Cloudflare 发布的最新通知，D1 数据库已经从 2026 年 9 月 1 日开始对免费套餐执行强制额度查询，免费账户达到每日行读取或行写入上限后，后续 D1 数据库查询会直接返回错误，直到 UTC 时间次日 0 点后额度重置可以再次查询。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126644.png" rel="nofollow"&gt;&lt;img alt="Cloudflare D1开始强制执行免费额度：超额后数据库查询直接失败 次日0点恢复" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126644.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;D1 按照数据库实际扫描和修改的行数而非简单按照 SQL 查询次数计费，目前 Workers Free 用户每天包含免费的 500 万行读取和 10 万行写入，账户总存储空间为 5GB、单个数据库最大为 500MB。&lt;/p&gt;
+&lt;p&gt;例如某个包含 5,000 行数据的表执行单次没有索引的全表扫描，即使最终只返回几条搜索结果，也可能按照 5,000 行读取。而插入 / 更新 / 删除等数据库操作命令则会消耗写入额度，建立索引可以减少查询扫描的行数，但索引本身也会增加部分写入量。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;按照最新政策 D1 数据库免费套餐达量后会直接停止执行查询，而不是继续执行然后产生后付费账单。因此好消息是用户不会因为网站或服务突然涌入大量流量导致出现超额账单，而坏消息则是如果被刷就有可能导致服务出现中断。&lt;/p&gt;
+&lt;p&gt;按照 UTC+0 重置每日额度的话，国内用户的时间点是每天早晨 8 点，所以开发者们可能要关注 D1 面板中的实际消耗，如果存在用量较大的情况应该及时升级付费版，避免出现业务中断问题。&lt;/p&gt;
+&lt;p&gt;升级 Workers Paid 后每日数据库读取为 250 亿行、每日写入为 5,000 万行、存储总量依然是 5GB。不过超额后需要额外支付用量账单，价格为每百万行读取 0.001 美元、每百万行写入为 1 美元、额外存储为每 GB 每月 0.75 美元。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 04 Sep 2026 05:31:46 +0000</pubDate></item><item><title>啊这？微软商店里的《Grim Trials》游戏并不免费 微软正在撤销玩家授权</title><link>https://www.landian.news/archives/126687.html</link><description>
+&lt;p&gt;#游戏资讯 啊这？微软商店里的 Grim Trials 游戏并不免费，微软正在撤销此前免费领取该游戏的玩家授权。半个月前微软商店出现名为 Grim Trials 的游戏，该游戏可以免费下载畅玩。现在微软证实这是设置失误，该游戏 19.99 美元，只有付费购买的副本才可以继续玩。查看全文：https://ourl.co/126687&lt;/p&gt;&lt;p&gt;半个月前有玩家发现微软商店里有款名为《Grim Trials》的游戏可以免费领取，该游戏属于动作类游戏，既然免费所有很多玩家直接领取该游戏并畅玩而且没有任何授权方面的问题。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126687.png" rel="nofollow"&gt;&lt;img alt="啊这？微软商店里的《Grim Trials》游戏并不免费 微软正在撤销玩家授权" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126687.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;现在微软证实当时因为设置错误导致 Grim Trials 可以免费领取和下载，尤其是可以在游戏正式发售前下载。这款游戏的标准售价是 19.99 美元，微软从未宣传该游戏是免费，目前纯粹是微软当时在上架游戏时出现失误。&lt;/p&gt;
+&lt;p&gt;现在微软正在批量撤销当时免费领取 Grim Trials 玩家的授权，有玩家称收到微软通知说这款游戏并不是免费提供的，随后游戏也从应用库中消失。也有玩家表示，撤销似乎是分批进行的，直到现在还有玩家的授权才被撤销。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;需要说目的是通过正常价格购买的玩家不受任何影响，游戏授权不会被撤销、也不影响玩家的正常游戏。只有此前免费获得该游戏的玩家授权才会被撤销，相当于撤销游戏副本，已经下载的玩家可能会注意到无法正常进行游戏，因为微软商店也会校验应用或游戏的许可证。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 04 Sep 2026 04:48:53 +0000</pubDate></item><item><title>英伟达以129.303亿美元收购抱抱脸 交易金额暗藏🤗表情字符串</title><link>https://www.landian.news/archives/126686.html</link><description>
+&lt;p&gt;#äººå·¥æ™ºèƒ½ è‹±ä¼Ÿè¾¾ä»¥ 129.303 äº¿ç¾�å…ƒæ”¶è´­ğŸ¤—æŠ±æŠ±è„¸ï¼Œä¸ºä»€ä¹ˆæ”¶è´­é‡‘é¢�æœ‰é›¶æœ‰æ•´ï¼Ÿå› ä¸ºè¿™é‡Œæš—è—�å°�å½©è›‹ã€‚129303 æ˜¯ U+1F917 çš„å��è¿›åˆ¶è¡¨ç¤ºï¼Œè½¬ä¸ºå��å…­è¿›åˆ¶å°±æ˜¯ 1F917ï¼Œå¯¹åº”ğŸ¤—è¿™ä¸ªè¡¨æƒ…ã€‚è‹¥ä½¿ç”¨å��å…­è¿›åˆ¶é¢œè‰²å�³ #129303 åˆ™æ˜¯ç»¿è‰²ï¼Œä¸�è‹±ä¼Ÿè¾¾çš„å“�ç‰Œè‰²æ¯”è¾ƒæ�¥è¿‘ã€‚æŸ¥çœ‹å…¨æ–‡ï¼šhttps://ourl.co/126686&lt;/p&gt;&lt;p&gt;è‹±ä¼Ÿè¾¾æ—¥å‰�æ­£å¼�å®£å¸ƒä»¥ 129.303 äº¿ç¾�å…ƒæ”¶è´­ AI æ¨¡å�‹ç¤¾åŒºæŠ±æŠ±è„¸ (Hugging Face)ï¼Œç›®å‰�ç›¸å…³å��è®®å·²ç»�å®Œæˆ�ç­¾ç½²ï¼Œè‹±ä¼Ÿè¾¾é¢„è®¡è¯¥äº¤æ˜“æœ€ç»ˆå°†åœ¨æ˜�å¹´ä¸Šå�Šå¹´å®Œæˆ�ï¼Œå‰�æ��æ˜¯æ²¡æœ‰ç›‘ç®¡æœºæ�„é˜»æ­¢è¿™åœºæ”¶è´­ã€‚&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126686.png" rel="nofollow"&gt;&lt;img alt="è‹±ä¼Ÿè¾¾ä»¥129.303äº¿ç¾�å…ƒæ”¶è´­æŠ±æŠ±è„¸ äº¤æ˜“é‡‘é¢�æš—è—�ğŸ¤—è¡¨æƒ…å­—ç¬¦ä¸²" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126686.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; ä¸ºä»€ä¹ˆæ”¶è´­é‡‘é¢�æœ‰é›¶æœ‰æ•´ï¼š&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;è‹±ä¼Ÿè¾¾æ��äº¤çš„ç›‘ç®¡æ–‡ä»¶æ˜¾ç¤ºï¼Œè‹±ä¼Ÿè¾¾å°†æ”¯ä»˜ 119 äº¿ç¾�å…ƒæ”¶è´­æŠ±æŠ±è„¸å½“å‰�è‚¡ä¸œæŒ�æœ‰çš„è‚¡ä»½ (è‹±ä¼Ÿè¾¾æœ¬èº«å°±æ˜¯è¯¥å¹³å�°çš„æŠ•èµ„è€…)ï¼Œå‰©ä½™ 10 äº¿ç¾�å…ƒå°†ä½œä¸ºè‚¡æ�ƒæ¿€åŠ±ç”¨æ�¥ç•™ä½�åŠ ç›Ÿè‹±ä¼Ÿè¾¾çš„æŠ±æŠ±è„¸ç�°æœ‰å‘˜å·¥ã€‚&lt;/p&gt;
+&lt;p&gt;é€šå¸¸è¿™ç±»æ”¶è´­éƒ½æ˜¯æ•´æ•°é‡‘é¢�ï¼Œé‚£ä¸ºä»€ä¹ˆè‹±ä¼Ÿè¾¾å¼€å‡ºçš„ä»·æ ¼æ˜¯ 129.303 äº¿ç¾�å…ƒå‘¢ï¼Ÿ&lt;strong&gt;æ”¶è´­é‡‘é¢�è¿™é‡Œå…¶å®�æš—è—�å°�å½©è›‹ï¼š&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;129303 æ˜¯ Unicode ç �ä½� U+1F917 çš„å��è¿›åˆ¶è¡¨ç¤ºï¼Œè‹¥å°†å…¶è½¬æ�¢ä¸ºå��å…­è¿›åˆ¶åˆ™æ˜¯ 1F917ï¼Œå¯¹åº”çš„å°±æ˜¯ğŸ¤—è¿™ä¸ªè¡¨æƒ…ã€‚129303 å†™æˆ�å��å…­è¿›åˆ¶é¢œè‰² #129303 å��ä¼šå¾—åˆ°ç»¿è‰²ï¼Œè¿™ç§�é¢œè‰²ä¸�è‹±ä¼Ÿè¾¾ä¼ ç»Ÿä½¿ç”¨çš„ç»¿è‰²å“�ç‰Œè‰²ä¹Ÿé��å¸¸æ�¥è¿‘ã€‚&lt;/p&gt;
+&lt;p&gt;è‹±ä¼Ÿè¾¾æ‰¿è¯ºæ”¶è´­æŠ±æŠ±è„¸å��ä¸�ä¼šå°†å…¶å�˜æˆ�è‹±ä¼Ÿè¾¾ä¸“å±�å¹³å�°ï¼Œå¼€å�‘è€…ä»�ç„¶å�¯ä»¥è‡ªè¡Œé€‰æ‹©æ¨¡å�‹ã€�æ¡†æ�¶ã€�äº‘æœ�åŠ¡ã€�æ�¨ç�†æœ�åŠ¡å•†å’Œè®¡ç®—å¹³å�°ã€‚æŠ±æŠ±è„¸ä¹Ÿä¸�ä¼šè¢«è¦�æ±‚å¿…é¡»é‡‡ç”¨è‹±ä¼Ÿè¾¾ GPUï¼Œè‹±ä¼Ÿè¾¾ç§°å¹³å�°å°†ç»§ç»­æ”¯æŒ�å…¶ä»–å…¬å�¸çš„èŠ¯ç‰‡ã€‚&lt;/p&gt;
+&lt;p aria-label="çƒ­é—¨æ�¨è��"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="ä»…éœ€99å…ƒ/å¹´ï¼Œç¡…è°·CN2GIAæœ�åŠ¡å™¨ï¼Œå�¦æœ‰3å¹´ç‰ˆä»…éœ€528å…ƒï¼Œé™�é‡�é”€å”®ï¼Œå”®å®Œå�³æ­¢"&gt;çƒ­é—¨æ�¨è��ä»…éœ€99å…ƒ/å¹´ï¼Œç¡…è°·CN2GIAæœ�åŠ¡å™¨ï¼Œå�¦æœ‰3å¹´ç‰ˆä»…éœ€528å…ƒï¼Œé™�é‡�é”€å”®ï¼Œå”®å®Œå�³æ­¢&lt;span aria-hidden="true"&gt;ä»…éœ€99å…ƒ/å¹´ï¼Œç¡…è°·CN2GIAæœ�åŠ¡å™¨ï¼Œå�¦æœ‰3å¹´ç‰ˆä»…éœ€528å…ƒï¼Œé™�é‡�é”€å”®ï¼Œå”®å®Œå�³æ­¢&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 04 Sep 2026 04:30:35 +0000</pubDate></item><item><title>服务器管理销售面板WHMCS出现高危安全漏洞 无需登录即可窃取用户资料</title><link>https://www.landian.news/archives/126685.html</link><description>
+&lt;p&gt;#å®‰å…¨èµ„è®¯ æœ�åŠ¡å™¨ç®¡ç�†é”€å”®é�¢æ�¿ WHMCS å‡ºç�°é«˜å�±å®‰å…¨æ¼�æ´�ï¼Œæ”»å‡»è€…æ— éœ€ç™»å½•å�³å�¯å…¥ä¾µæœ�åŠ¡å™¨å¹¶è�·å¾—å�„ç±»å®¢æˆ·èµ„æ–™ã€‚ç›®å‰�å®˜æ–¹è¦�æ±‚ä½¿ç”¨è¯¥ç‰ˆæœ¬çš„æœ�åŠ¡å™¨æ��ä¾›å•†å�‡çº§åˆ° 8.13.7 æˆ– 9.0.8 ç‰ˆï¼Œå…¶ä»–ç‰ˆæœ¬éƒ½å�—æ¼�æ´�å½±å“�ã€‚æŸ¥çœ‹å…¨æ–‡ï¼šhttps://ourl.co/126685&lt;/p&gt;&lt;p&gt;é€‚ç”¨äº�æœ�åŠ¡å™¨æ��ä¾›å•†çš„ä¸šåŠ¡è‡ªåŠ¨åŒ–å’Œç®¡ç�†ç³»ç»Ÿ WHMCS æ—¥å‰�å�‘å¸ƒ 9 æœˆå®‰å…¨æ›´æ–°ï¼Œæœ¬æ¬¡æ›´æ–° WHMCS ä¿®å¤� CVE-2026-67398 å’Œ CVE-2026-67399 å®‰å…¨æ¼�æ´�ï¼Œä½¿ç”¨è¯¥é�¢æ�¿çš„æœ�åŠ¡å™¨å•†å®¶éœ€è¦�ç«‹å�³å�‡çº§åˆ° 8.13.7 æˆ– 9.0.8 ç‰ˆï¼Œä»¥å…�æ”»å‡»è€…åˆ©ç”¨æ¼�æ´�å±•å¼€æ”»å‡»ã€‚&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126685.png" rel="nofollow"&gt;&lt;img alt="æœ�åŠ¡å™¨ç®¡ç�†é”€å”®é�¢æ�¿WHMCSå‡ºç�°é«˜å�±å®‰å…¨æ¼�æ´� æ— éœ€ç™»å½•å�³å�¯çªƒå�–ç”¨æˆ·èµ„æ–™" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126685.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; æ— éœ€è®¤è¯�å�³å�¯è�·å¾—æœ�åŠ¡å™¨æ�§åˆ¶æ�ƒï¼š&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;CVE-2026-67399 å½±å“� WHMCS 8.0.x å�Šä¹‹å��ç‰ˆæœ¬ï¼Œæ”»å‡»è€…å�¯ä»¥å�‘æœ�åŠ¡å™¨æ��äº¤ç»�è¿‡æ�„é€ çš„ Payloadï¼Œå†�é€šè¿‡å¤šé˜¶æ®µè¯·æ±‚å’Œå��åº�åˆ—åŒ–é“¾è§¦å�‘å¯¹è±¡æ³¨å…¥ï¼Œåœ¨æ²¡æœ‰ç™»å½•å‡­æ�®çš„æƒ…å†µä¸‹æ‰§è¡Œä»»æ„�ä»£ç �ã€‚&lt;/p&gt;
+&lt;p&gt;ç”±äº� WHMCS é€šå¸¸ä¿�å­˜å®¢æˆ·èµ„æ–™ã€�è´¦å�•ã€�è®¢å�•ã€�æœ�åŠ¡ä¿¡æ�¯å¹¶è¿�æ�¥æ”¯ä»˜ç½‘å…³ã€�åŸŸå��æ³¨å†Œå•†å’Œæœ�åŠ¡å™¨ç®¡ç�†æ�¥å�£ï¼Œå½“ Web æœ�åŠ¡å™¨è¢«æ”»ç ´å��å½±å“�å�¯èƒ½ä¼šè¶…è¿‡ WHMCS æ•°æ�®åº“æœ¬èº«ï¼Œè¯¥æ¼�æ´�æ²¡æœ‰å�¯ç”¨çš„å®¢æˆ·ç«¯ä¸´æ—¶ç¼“è§£æ–¹æ¡ˆï¼Œå¿…é¡»å�‡çº§åˆ°æœ€æ–°ç‰ˆã€‚&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; CVE-2026-67398 æ”¯ä»˜æ�¥å�£é—®é¢˜ï¼š&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;2Checkout æ˜¯å›½å¤–è€�ç‰Œçš„æ”¯ä»˜ç½‘å…³æœ�åŠ¡æ��ä¾›å•†ï¼ŒCVE-2026-67398 å°±å­˜åœ¨äº�è¿™ä¸ªæ”¯ä»˜ç½‘å…³æ¨¡å�—ä¸­ï¼Œæ”»å‡»è€…æ— éœ€ç™»å½•å�³å�¯åœ¨ç‰¹å®šæ�¡ä»¶ä¸‹æ�šä¸¾å�‘ç¥¨å¹¶è�·å�–å®¢æˆ·èµ„æ–™ï¼ŒåŒ…æ‹¬å§“å��ã€�åœ°å�€ã€�åŸ�å¸‚ã€�å·�ã€�çœ�ã€�é‚®ç¼–ã€�å›½å®¶ã€�é‚®ç®±å’Œç”µè¯�å�·ç �ã€‚&lt;/p&gt;
+&lt;p&gt;è¿™ä¸ªæ¼�æ´�ä»� WHMCS 4.5.0 ç‰ˆå¼€å§‹å­˜åœ¨ï¼Œå…¶ä¸­ 9.x ä¸­ä½�äº� 9.0.8 ç‰ˆæˆ– 8.x ä¸­ä½�äº� 8.13.7 ç‰ˆéƒ½å�—å½±å“�ï¼Œå·²ç»�å�œæ­¢æ”¯æŒ�çš„ WHMCS ä¹Ÿå�Œæ ·å�—å½±å“�ï¼Œä½†å®˜æ–¹ç›®å‰�å�ªæ��ä¾› 8.13.7 å’Œ 9.0.8 ç‰ˆï¼Œæš‚æ—¶æ— æ³•å�‡çº§çš„å®¢æˆ·å�¯ä»¥ç›´æ�¥å�œæ�‰ 2Checkout æ”¯ä»˜ç½‘å…³é˜»æ–­å…¥å�£ã€‚&lt;/p&gt;
+&lt;p aria-label="çƒ­é—¨æ�¨è��"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="ä»…éœ€99å…ƒ/å¹´ï¼Œç¡…è°·CN2GIAæœ�åŠ¡å™¨ï¼Œå�¦æœ‰3å¹´ç‰ˆä»…éœ€528å…ƒï¼Œé™�é‡�é”€å”®ï¼Œå”®å®Œå�³æ­¢"&gt;çƒ­é—¨æ�¨è��ä»…éœ€99å…ƒ/å¹´ï¼Œç¡…è°·CN2GIAæœ�åŠ¡å™¨ï¼Œå�¦æœ‰3å¹´ç‰ˆä»…éœ€528å…ƒï¼Œé™�é‡�é”€å”®ï¼Œå”®å®Œå�³æ­¢&lt;span aria-hidden="true"&gt;ä»…éœ€99å…ƒ/å¹´ï¼Œç¡…è°·CN2GIAæœ�åŠ¡å™¨ï¼Œå�¦æœ‰3å¹´ç‰ˆä»…éœ€528å…ƒï¼Œé™�é‡�é”€å”®ï¼Œå”®å®Œå�³æ­¢&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 04 Sep 2026 04:15:57 +0000</pubDate></item><item><title>GPT-6不再收取超过272K部分超额费用 开发者可以在Codex里直接启用1M窗口</title><link>https://www.landian.news/archives/126684.html</link><description>
+&lt;p&gt;#人工智能 GPT-6 Astra 不再收取超过 272K 部分超额费用，开发者可以在 Codex 里直接启用 1M 上下文窗口。特别注意：此政策仅限于 GPT-6 Astra 模型 + Codex 组合。GPT-5.4/5.5/5.6 如果输入输出超过 272K，超出部分仍然按照倍率计费，倍率为 1.5~2 倍。查看全文：https://ourl.co/126684&lt;/p&gt;&lt;p&gt;据 OpenAI 更新的支持文档，GPT-6 Astra 上下文窗口最高支持 1M，且如果用户在 Codex 里使用 GPT-6 Astra，那不需要为超出 272K 部分额外付费。&lt;/p&gt;
+&lt;p&gt;此次计费政策调整仅限在 Codex 中使用 GPT-6 Astra 模型，其他模型仍然会对超长内容进行额外收费，建议在使用前先测试确认未产生额外计费后再长期使用。&lt;/p&gt;
+&lt;p&gt;在之前的模型中，虽然模型本身也支持 1M 上下文，但 OpenAI 会对超长内容额外计费，即在 272K 以内适用于标准费率，超过 272K 部分按照 1.5~2 倍标准费率计算，因此对用户来说配置超长上下文支持后，Codex 额度会被更快耗尽。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126684.png" rel="nofollow"&gt;&lt;img alt="GPT-6不再收取超过272K部分超额费用 开发者可以在Codex里直接启用1M窗口" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126684.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;GPT-5.4/5.5/5.6 全系列支持 272K 以上的模型：272K 以内按标准费率计费，超出部分输入按 2 倍费率计算、缓存输入按 2 倍费率计算、输出按 1.5 倍费率计算。&lt;/p&gt;
+&lt;p&gt;GPT-6 Astra：在 Codex 中使用该模型时，输入超过 272K 部分不再额外按倍率计费，Codex 也不会对缓存输入收费，即在 1M 窗口内全部按照标准费率计费。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://help.openai.com/en/articles/20001415-chatgpt-rate-card-enterprise-token-based-pricing" rel="noopener" target="_blank"&gt;OpenAI&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 04 Sep 2026 02:41:55 +0000</pubDate></item><item><title>Codex接下来将在每天向付费订阅用户赠送1个重置卡 直到GPT-6 Astra可用</title><link>https://www.landian.news/archives/126683.html</link><description>
+&lt;p&gt;#人工智能 Codex 接下来将每天向付费订阅用户赠送 1 个重置卡，直到 GPT-6 Astra 模型可用。目前该模型仅限部分认证机构使用，而不是发布后大家就能立即使用。作为补偿措施，OpenAI 将向用户赠送重置卡，延迟几天才能用那就赠送几张重置卡，每天 1 张。查看全文：https://ourl.co/126683&lt;/p&gt;&lt;p&gt;昨天夜里 OpenAI 推出最新模型 GPT-6 Astra，在拉丁语中 Astra 的意思星星 / 群星 / 星辰，在 OpenAI 模型里天体等级越高也意味着模型越先进，目前排序是 Astra (星辰) &amp;gt; Sol (太阳) &amp;gt; Terra (地球) &amp;gt; Luna (月亮)。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126683.png" rel="nofollow"&gt;&lt;img alt="Codex接下来将在每天向付费订阅用户赠送1个重置卡 直到GPT-6 Astra可用" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126683.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;坏消息是目前 GPT-6 Astra 仅面向部分机构用户开放，OpenAI 计划接下来几天陆续向 ChatGPT Pro、ChatGPT Team、ChatGPT Enterprise、ChatGPT Plus 用户开放该模型，这种发布后无法立即使用的做法也引起用户抱怨。&lt;/p&gt;
+&lt;p&gt;作为补偿措施，OpenAI 已经决定在延迟上线时间里为所有订阅用户赠送重置卡，延迟几天就赠送几张重置卡，例如 ChatGPT Plus 用户可能还需要 4~5 天才能使用 GPT-6 Astra，那用户将获得 4~5 张重置卡。&lt;/p&gt;
+&lt;p&gt;重置卡可以积累且有效期为 1 个月，这样后面用户也可以随时通过重置卡来恢复订阅配额以便继续使用 GPT-6 Astra，只不过 Plus 用户恢复 5 小时限额后使用非常不方便，所以这波福利对 ChatGPT Pro 用户来说可能是最好的。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 04 Sep 2026 02:11:39 +0000</pubDate></item></channel></rss>
