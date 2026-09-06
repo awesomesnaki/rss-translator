@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sun, 06 Sep 2026 19:06:27 +0000</lastBuildDate><item><title>WorkOS：如何赋予Agent任务，而非令牌</title><link>https://workos.com/blog/delegated-access-for-ai-agents?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q32026</link><description>&lt;p&gt;My thanks to WorkOS for once again sponsoring Daring Fireball. Give an agent an access token and it spreads: into the context window, into tool call logs, into notes it keeps between steps. Each copy works from anywhere, long after the fact.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://workos.com/docs/pipes/relay?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q32026&amp;amp;utm_content=docs"&gt;Relay&lt;/a&gt; keeps the credential at WorkOS. Your agent names the user, WorkOS attaches that token, refreshes it, and releases it only to allowlisted hosts. A hijacked agent session is a live process you can kill.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://workos.com/blog/delegated-access-for-ai-agents?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q32026"&gt;Learn how it works&lt;/a&gt; at WorkOS’s blog.&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sun, 06 Sep 2026 20:44:27 +0000</lastBuildDate><item><title>Meta AI 现在推出了 Mac 原生应用，看起来还不错</title><link>https://9to5mac.com/2026/08/19/meta-ai-is-now-available-as-a-more-capable-desktop-app-for-mac/</link><description>&lt;p&gt;Zac Hall, writing for 9to5Mac on August 19:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The &lt;a href="https://ai.meta.com/meta-ai/assistant/"&gt;new Meta AI desktop app&lt;/a&gt; is version 1.0 beta at launch and
+weighs just 16MB once installed. Based on initial inspection, it
+runs natively on Apple silicon Macs with macOS 15 or later, using
+an AppKit and SwiftUI shell with WebKit for richer chat content.
+In other words, this is not an Electron app or a repackaged iPad
+release.&lt;/p&gt;
+&lt;p&gt;It includes Mac-specific hooks, making the desktop experience more
+robust than the Meta AI mobile app. Quick Invoke uses Option-Space
+to place a compact Meta AI composer over whatever you are doing. A
+separate dictation feature lets you hold a shortcut, speak, and
+have the resulting words typed into any app, from Mail and
+documents to code editors.&lt;/p&gt;
+&lt;p&gt;Meta AI can also attach another Mac window to a conversation. With
+Screen Recording and Accessibility permission, the app reads the
+window’s visible text and captures a screenshot for the next
+question. This is context gathering rather than computer control
+for now.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Passes the Settings window sniff test too — it actually has a Settings window.&lt;/p&gt;
+&lt;p&gt;Meta, institutionally, seems more keen on native Mac apps &lt;a href="https://daringfireball.net/2025/11/meta_whatsapp_windows_shitty_web_app"&gt;than they are native Windows apps&lt;/a&gt;.&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/09/06/meta-ai-mac-app" title="Permanent link to ‘Meta AI Has a Native Mac App Now, and It Seems Decent’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Sun, 06 Sep 2026 20:44:27 +0000</pubDate></item><item><title>WorkOS：如何赋予Agent任务，而非令牌</title><link>https://workos.com/blog/delegated-access-for-ai-agents?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q32026</link><description>&lt;p&gt;感谢 WorkOS 再次赞助 Daring Fireball。给智能体一个访问令牌，它就会扩散：进入上下文窗口，进入工具调用日志，进入它在步骤之间保存的笔记。每份副本都能在任何地方运行，并且在事后很久依然有效。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://workos.com/docs/pipes/relay?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q32026&amp;amp;utm_content=docs"&gt;Relay&lt;/a&gt; 将凭据保存在 WorkOS。你的智能体指定用户，WorkOS 会附加该令牌、刷新它，并且只将其发放给白名单主机。被劫持的智能体会话就是一个你可以终止的活跃进程。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://workos.com/blog/delegated-access-for-ai-agents?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q32026"&gt;了解其工作原理&lt;/a&gt;，详见 WorkOS 的博客。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/09/06/workos-agent-task" title="Permanent link to ‘WorkOS: How to Give an Agent a Task Instead of a Token’"&gt; ★ &lt;/a&gt;
 </description><pubDate>Sun, 06 Sep 2026 19:06:27 +0000</pubDate></item><item><title>Matt Haughey：汽车行业对销售带和不带CarPlay的汽车进行了A/B测试，结果并不令人意外。</title><link>https://a.wholelottanothing.org/the-car-industry-a-b-tested-selling-the-same-car-with-and-without-carplay-and-the-results-are-not-shocking/</link><description>&lt;p&gt;Matt Haughey：&lt;/p&gt;
 &lt;blockquote&gt;
@@ -30,6 +53,4 @@
 &lt;p&gt;仅抛出一个想法：一旦我们每年从App Store赚到超过10亿美元的利润，是否就足以让我们考虑一种模式——从70/30下调至75/25，甚至80/20——前提是我们能保持每年10亿美元的收入规模？我知道这有争议，我只是把它当作看待这项业务规模、我们想要实现什么以及如何保持竞争力的另一个角度。再说一次，仅供思考。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;a href="https://daringfireball.net/linked/2026/09/06/gurman-schiller-app-store" title="Permanent link to ‘Gurman on Schiller’s Departure and Ternus’s Goals for the App Store’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sun, 06 Sep 2026 17:00:01 +0000</pubDate></item><item><title>本周迪克欧弗：Slashdot在他们的RSS源里放了一条</title><link>https://discourse.netnewswire.com/t/dickover-in-the-slashdot-rss-feed/372</link><description>&lt;p&gt;这到底是怎么发生的？这是给谁看的？在RSS订阅源的条目正文中通过iframe注入一段“我们重视您的隐私”&lt;a href="https://daringfireball.net/2026/05/what_is_a_dickover"&gt;坑人玩意儿&lt;/a&gt;，能有什么意义？&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/09/06/dickover-slashdot-rss" title="‘本周坑人奖：Slashdot往自家RSS订阅源里塞了一个’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sun, 06 Sep 2026 16:30:00 +0000</pubDate></item></channel></rss>
+</description><pubDate>Sun, 06 Sep 2026 17:00:01 +0000</pubDate></item></channel></rss>
