@@ -1,46 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sun, 06 Sep 2026 20:44:27 +0000</lastBuildDate><item><title>Meta AI 现在推出了 Mac 原生应用，看起来还不错</title><link>https://9to5mac.com/2026/08/19/meta-ai-is-now-available-as-a-more-capable-desktop-app-for-mac/</link><description>&lt;p&gt;Zac Hall, writing for 9to5Mac on August 19:&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sun, 06 Sep 2026 20:44:27 +0000</lastBuildDate><item><title>Meta AI 现在推出了 Mac 原生应用，看起来还不错</title><link>https://9to5mac.com/2026/08/19/meta-ai-is-now-available-as-a-more-capable-desktop-app-for-mac/</link><description>&lt;p&gt;Zac Hall 于8月19日为 9to5Mac 撰文：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;The &lt;a href="https://ai.meta.com/meta-ai/assistant/"&gt;new Meta AI desktop app&lt;/a&gt; is version 1.0 beta at launch and
-weighs just 16MB once installed. Based on initial inspection, it
-runs natively on Apple silicon Macs with macOS 15 or later, using
-an AppKit and SwiftUI shell with WebKit for richer chat content.
-In other words, this is not an Electron app or a repackaged iPad
-release.&lt;/p&gt;
-&lt;p&gt;It includes Mac-specific hooks, making the desktop experience more
-robust than the Meta AI mobile app. Quick Invoke uses Option-Space
-to place a compact Meta AI composer over whatever you are doing. A
-separate dictation feature lets you hold a shortcut, speak, and
-have the resulting words typed into any app, from Mail and
-documents to code editors.&lt;/p&gt;
-&lt;p&gt;Meta AI can also attach another Mac window to a conversation. With
-Screen Recording and Accessibility permission, the app reads the
-window’s visible text and captures a screenshot for the next
-question. This is context gathering rather than computer control
-for now.&lt;/p&gt;
+&lt;p&gt;全新的&lt;a href="https://ai.meta.com/meta-ai/assistant/"&gt;Meta AI 桌面应用&lt;/a&gt;在发布时为 1.0 测试版，安装后大小仅 16MB。根据初步检查，它可在搭载 macOS 15 或更高版本的 Apple 芯片 Mac 上原生运行，外壳采用 AppKit 和 SwiftUI，并使用 WebKit 来呈现更丰富的聊天内容。换句话说，这不是一个 Electron 应用，也不是重新打包的 iPad 版本。&lt;/p&gt;
+&lt;p&gt;它包含了针对 Mac 的专属钩子，使桌面体验比 Meta AI 移动应用更强大。快速调用功能使用 Option-空格键，在你正在进行的任何操作上方唤起一个紧凑的 Meta AI 撰写框。另有一个独立的听写功能，让你可以按住快捷键说话，识别出的文字便会输入到任意应用中，无论是邮件、文档还是代码编辑器。&lt;/p&gt;
+&lt;p&gt;Meta AI 还可以将另一个 Mac 窗口附加到对话中。在获得屏幕录制和辅助功能权限后，该应用会读取窗口中的可见文本并截取截图，以供下一个问题使用。目前这属于上下文收集，而不是计算机控制。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Passes the Settings window sniff test too — it actually has a Settings window.&lt;/p&gt;
-&lt;p&gt;Meta, institutionally, seems more keen on native Mac apps &lt;a href="https://daringfireball.net/2025/11/meta_whatsapp_windows_shitty_web_app"&gt;than they are native Windows apps&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;它也通过了“设置窗口”检验——它确实有一个设置窗口。&lt;/p&gt;
+&lt;p&gt;从机构层面来看，Meta 似乎更热衷于原生 Mac 应用，&lt;a href="https://daringfireball.net/2025/11/meta_whatsapp_windows_shitty_web_app"&gt;而非原生 Windows 应用&lt;/a&gt;。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/09/06/meta-ai-mac-app" title="Permanent link to ‘Meta AI Has a Native Mac App Now, and It Seems Decent’"&gt; ★ &lt;/a&gt;
 </description><pubDate>Sun, 06 Sep 2026 20:44:27 +0000</pubDate></item><item><title>WorkOS：如何赋予Agent任务，而非令牌</title><link>https://workos.com/blog/delegated-access-for-ai-agents?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q32026</link><description>&lt;p&gt;感谢 WorkOS 再次赞助 Daring Fireball。给智能体一个访问令牌，它就会扩散：进入上下文窗口，进入工具调用日志，进入它在步骤之间保存的笔记。每份副本都能在任何地方运行，并且在事后很久依然有效。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://workos.com/docs/pipes/relay?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q32026&amp;amp;utm_content=docs"&gt;Relay&lt;/a&gt; 将凭据保存在 WorkOS。你的智能体指定用户，WorkOS 会附加该令牌、刷新它，并且只将其发放给白名单主机。被劫持的智能体会话就是一个你可以终止的活跃进程。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://workos.com/blog/delegated-access-for-ai-agents?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q32026"&gt;了解其工作原理&lt;/a&gt;，详见 WorkOS 的博客。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/09/06/workos-agent-task" title="Permanent link to ‘WorkOS: How to Give an Agent a Task Instead of a Token’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sun, 06 Sep 2026 19:06:27 +0000</pubDate></item><item><title>Matt Haughey：汽车行业对销售带和不带CarPlay的汽车进行了A/B测试，结果并不令人意外。</title><link>https://a.wholelottanothing.org/the-car-industry-a-b-tested-selling-the-same-car-with-and-without-carplay-and-the-results-are-not-shocking/</link><description>&lt;p&gt;Matt Haughey：&lt;/p&gt;
+</description><pubDate>Sun, 06 Sep 2026 19:06:27 +0000</pubDate></item><item><title>Matt Haughey：汽车行业对有无CarPlay的车辆销售进行了A/B测试，结果并不令人意外</title><link>https://a.wholelottanothing.org/the-car-industry-a-b-tested-selling-the-same-car-with-and-without-carplay-and-the-results-are-not-shocking/</link><description>&lt;p&gt;Matt Haughey：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;一个典型的例子是本田Prologue EV。这是本田与雪佛兰的合作项目，Prologue基本上就是雪佛兰Blazer EV换了本田的车标，车身钣金和内饰有一些细微的视觉差异，但所有底层架构都完全是雪佛兰的。即使Prologue的钥匙上写着本田，那其实是通用汽车的钥匙设计，只是盖上了本田的标志。&lt;/p&gt;
-&lt;p&gt;但Prologue与其所基于的Blazer有一个重大区别：它集成了Apple CarPlay和Android Auto。[...]&lt;/p&gt;
-&lt;p&gt;在这些车型同期销售的几年里，本田Prologue在每个时期的销量分别比Blazer高出43%、73%和166%。到了2026年的今天，人们购买本田Prologue的频率比其所基于的雪佛兰Blazer EV高出1.5倍以上。&lt;/p&gt;
+&lt;p&gt;一个典型的例子是本田Prologue EV。它是本田与雪佛兰的合作产物，Prologue基本上就是换上了本田标志的雪佛兰Blazer EV——车身钣金和内饰有细微的视觉差异，但所有底层架构完全来自雪佛兰。尽管Prologue的钥匙上写着本田，但那其实是通用汽车的钥匙设计，只是盖了一个本田的标志。&lt;/p&gt;
+&lt;p&gt;然而，Prologue与其原型Blazer有一个重大区别：它支持Apple CarPlay和Android Auto集成。[...]&lt;/p&gt;
+&lt;p&gt;在这两款车同台销售的几年间，本田在每个时间段的销量分别比Blazer高出43%、73%和166%。到了2026年的今天，人们购买本田Prologue的频率，是它基于的雪佛兰Blazer EV的1.5倍以上。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;这算不上一个完美的测试。可以说，本田的品牌和声誉比雪佛兰更好，而且在卖车这件事上也明显更擅长。但过去三年的趋势线已经非常明显了。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/09/06/haughey-chevy-honda-carplay" title="永久链接到“Matt Haughey：『汽车行业对有无CarPlay售车进行A/B测试，结果并不令人意外』”"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sun, 06 Sep 2026 19:04:12 +0000</pubDate></item><item><title>特朗普政府在Arcade.gov推出山寨电子游戏</title><link>https://x.com/WhiteHouse/status/2095615734567100766</link><description>&lt;p&gt;一些Temu风格的山寨游戏，如像素鸟、贪吃蛇（就是那个围捕越境移民的游戏），以及&lt;a href="https://variety.com/2026/digital/news/tetris-company-trump-white-house-build-the-wall-game-copyright-1236851993/"&gt;最具代表性的&lt;/a&gt;俄罗斯方块（就是那个“筑墙”来阻止越境移民的游戏）——其版权归以好讼闻名的俄罗斯方块公司所有，该公司&lt;a href="https://x.com/tetris_official/status/2095933372019216384"&gt;发推文称&lt;/a&gt;：&lt;/p&gt;
+&lt;p&gt;这并非一个完美的测试。说本田的品牌和声誉优于雪佛兰，而且就是更擅长卖车，这种说法也有一定道理。但过去三年的趋势线相当鲜明。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/09/06/haughey-chevy-honda-carplay" title="Permanent link to ‘Matt Haughey: ‘The Car Industry A/B Tested Selling a Car With and Without CarPlay and the Results Are Not Shocking’’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Sun, 06 Sep 2026 19:04:12 +0000</pubDate></item><item><title>特朗普政府在Arcade.gov推出山寨电子游戏</title><link>https://x.com/WhiteHouse/status/2095615734567100766</link><description>&lt;p&gt;有几款Temu风格的山寨游戏，模仿了Flappy Bird、Snake（就是围捕越境移民的那款），以及——&lt;a href="https://variety.com/2026/digital/news/tetris-company-trump-white-house-build-the-wall-game-copyright-1236851993/"&gt;最值得注意的是&lt;/a&gt;——Tetris（就是那个要“筑墙”把越境移民挡在外面的游戏），后者的版权归以好诉著称的俄罗斯方块公司（The Tetris Company）所有，于是该公司&lt;a href="https://x.com/tetris_official/status/2095933372019216384"&gt;发推文表示&lt;/a&gt;：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;俄罗斯方块相信连接的力量，是将人们聚在一起，而不是分裂他们。致我们所有的粉丝：我们爱你们，我们看到你们，我们很感激你们成为我们社区的一员。&lt;/p&gt;
-&lt;p&gt;附言：俄罗斯方块公司并未参与“筑墙”游戏的创作。&lt;/p&gt;
-&lt;p&gt;再附言：我们非常严肃地对待侵犯版权问题。&lt;/p&gt;
+&lt;p&gt;Tetris相信连接的力量，相信将人们聚在一起而不是分裂开来。对所有粉丝们：我们爱你们，我们能看见你们，也感谢你们身处我们这个社区之中。&lt;/p&gt;
+&lt;p&gt;附言：俄罗斯方块公司并未参与“Build the Wall”的制作。&lt;/p&gt;
+&lt;p&gt;再附言：我们非常严肃地对待侵犯版权的行为。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;无论你如何看待这些游戏，就像安大略湖更名一样，特朗普街机向美国选民表明，本届政府正专注于他们的问题和关切。&lt;/p&gt;
+&lt;p&gt;无论你怎么看待这些游戏，就像安大略湖被重新命名一样，Trump Arcade向美国选民表明：本届政府正专注于他们的问题和关切。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/09/06/trump-arcade" title="Permanent link to ‘Trump Administration Launches Rip-Off Video Games at Arcade.gov’"&gt; ★ &lt;/a&gt;
 </description><pubDate>Sun, 06 Sep 2026 17:51:09 +0000</pubDate></item><item><title>古尔曼谈席勒离职及特努斯对App Store的目标</title><link>https://www.bloomberg.com/news/newsletters/2026-09-06/apple-s-new-ceo-like-cook-pay-package-shows-he-s-going-nowhere-sept-9-event-mtpvpcj1?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4ODcwNTgwOCwiZXhwIjoxNzg5MzEwNjA4LCJhcnRpY2xlSWQiOiJUS1k0ODFLR0NURlEwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.VPVLP03ZWjEbH48efjq8Q7n0_vk4t7OynYeaUbOfYzU&amp;leadSource=article-gifting</link><description>&lt;p&gt;马克·古尔曼在彭博社周末Power On专栏（赠阅链接）中写道：&lt;/p&gt;
 &lt;blockquote&gt;
