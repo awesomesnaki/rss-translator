@@ -1,5 +1,121 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sun, 06 Sep 2026 04:48:19 +0000</lastBuildDate><item><title>谷歌浏览器还有隐藏小技能：遇到HSTS网站无法加载时 键盘盲打thisisunsafe即可加载</title><link>https://www.landian.news/archives/126681.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 07 Sep 2026 07:06:21 +0000</lastBuildDate><item><title>微软发布安全警告：TerminalFix终端点击钓鱼猖獗 用户不要随意在终端中执行命令</title><link>https://www.landian.news/archives/126693.html</link><description>
+&lt;p&gt;#安全资讯 微软发布安全警告：TerminalFix 终端点击钓鱼骗局猖獗，用户切记不要随意执行命令。TerminalFix 与 ClickFix 攻击类似，后者要求用户打开运行窗口粘贴命令，而现在的 TerminalFix 则要求用户打开终端或 PowerShell 粘贴执行命令。这类攻击最终结果都是远程下载恶意程序并注入到可信进程中，实现感染、信息窃取、开机启动和持久化。查看全文：https://ourl.co/126693&lt;/p&gt;&lt;p&gt;微软近期发布安全博客提醒用户提防新型 TerminalFix 终端点击钓鱼攻击，这种攻击源于流行的 ClickFix 并且主要通过伪造验证界面来诱导用户执行高危命令。目前这类钓鱼网站都喜欢伪造 Cloudflare Turnstile 的验证界面，部分初级用户很容易被诱导执行命令。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126693.png" rel="nofollow"&gt;&lt;img alt="微软发布安全警告：TerminalFix终端点击钓鱼猖獗 用户不要随意在终端中执行命令" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126693.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; TerminalFix 与 ClickFix 的区别：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;ClickFix：钓鱼网站伪造验证界面要求用户按 Win+R 打开运行窗口，然后复制命令在运行里执行。&lt;/p&gt;
+&lt;p&gt;TerminalFix：同样是伪造验证界面，但要求打开 Windows 11 自带的终端 (默认使用 PowerShell) 粘贴执行命令。&lt;/p&gt;
+&lt;p&gt;本质上其实区别不是很大，对攻击者而言无论是运行窗口还是终端应用都可以用来执行高危命令，只不过不同方式需要额外适配并且获得的权限可能不同。另外也有可能是近期关于 ClickFix 的提醒比较多，所以黑客转向 TerminalFix 来提高钓鱼成功率。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;按照微软分析，攻击者将钓鱼网站伪造为验证界面要求用户打开终端应用，当用户点击验证时恶意 PowerShell 命令已经被自动写入剪贴板，当用户打开终端或 PowerShell 时就可以直接粘贴命令。&lt;/p&gt;
+&lt;p&gt;恶意命令由用户主动执行因此可以绕过部分针对浏览器的恶意文件下载、可执行程序检查，恶意文件中包含的恶意代码则会被注入到可信进程中运行，随后恶意程序还会下载隐藏在 PNG 图片像素数据中的后续载荷、通过注册表配置启动项和计划任务并建立持久化。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 关键在于正常 CAPTCHA 验证不会要求用户执行命令：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;对普通用户而言判断是否是钓鱼网站其实非常简单：正常的 Cloudflare、谷歌人机验证机制都不会要求用户主动执行命令，Cloudflare 通常是点击验证，而谷歌人机验证最多要求用户点击红绿灯，也不会要求执行命令。&lt;/p&gt;
+&lt;p&gt;任何要求执行命令验证的网站都是钓鱼网站，所以无论是要求打开运行窗口、Terminal 终端应用还是 PowerShell 执行命令，那都是有问题的。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 07 Sep 2026 07:06:21 +0000</pubDate></item><item><title>谷歌反重力团队成员与社区用户就封号问题打嘴炮 明明是自己问题死活不承认</title><link>https://www.landian.news/archives/126692.html</link><description>
+&lt;p&gt;#人工智能 谷歌 Antigravity 团队真是非常奇怪：与用户打嘴炮称用户造谣。2 月份开始社区用户就在讨论反重力封号问题，按谷歌所说用户反代账号或存在其他滥用行为可能导致反重力服务被封禁。但关键在于，谷歌也有权直接封禁用户整个谷歌账号。当时反重力员工澄清说最多只封禁反重力服务，但自己的使用协议一直不更新，还保留着封谷歌账号条款。被社区用户拿出来讨论后，反重力团队员工直接说用户造谣，宁愿打嘴炮也不更新协议。被喷太多后现在反重力更新协议强调不再封禁谷歌账号，但谷歌整个账号体系的使用协议仍然写着有权封号。反重力团队成员称将提供更新，不过这可能要经过法务层层审核，最终能不能更新还是个未知数。查看全文：https://ourl.co/126692&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/111955.html" rel="noopener" target="_blank"&gt;从 2 月开始社区用户就在讨论谷歌反重力 (Google Antigravity) 封号问题&lt;/a&gt;，按照谷歌所说如果用户反代账号使用就有可能导致反重力服务被封禁，这倒是可以理解。问题在于，谷歌账号体系总的使用协议规定此类服务封禁有可能触发整个谷歌账号被封禁。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126692-2.png" rel="nofollow"&gt;&lt;img alt="谷歌反重力团队成员与社区用户就封号问题打嘴炮 明明是自己问题死活不承认" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126692-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;最近关于反重力服务封号问题再次引起社区讨论，原因还是谷歌以及反重力使用协议中的问题。按照反重力服务协议如果用户违反条款那确实会被封号，这里要说明的是封号指的是整个谷歌账号被封号，而不是仅仅反重力服务封号。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126692-1.png" rel="nofollow"&gt;&lt;img alt="谷歌反重力团队成员与社区用户就封号问题打嘴炮 明明是自己问题死活不承认" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126692-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.landian.news/go?url=https://x.com/_mohansolo/status/2095358343980163468" rel="noopener" target="_blank"&gt;在社区讨论后谷歌员工竟然说用户造谣&lt;/a&gt;，说是在 2 月份就已经澄清过不会封号，谷歌员工所说从某些意义上也没错，但问题在于员工承诺与反重力服务协议相比哪个是真正有法律效力的？显然是后者。&lt;/p&gt;
+&lt;p&gt;然后这看起来就非常让人奇怪：一方面自己的协议明明写了违反服务条款会封谷歌账号，另一方面员工就跟用户打嘴炮说用户造谣。原本很简单的问题变得非常复杂，其实说到底就是服务协议问题，谷歌员工难道不知道自己协议有问题吗？&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在社区用户坚持不懈的反击下谷歌反重力团队承认原始协议确实有问题，所以现在反重力产品的使用协议已经更新，明确如果出现滥用或违反服务条款的情况后，&lt;a href="https://www.landian.news/go?url=https://x.com/EvanOtero/status/2095616180895543469" rel="noopener" target="_blank"&gt;对应账号的反重力服务会被封禁&lt;/a&gt;，而不是整个谷歌账号被封禁。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126692-3.png" rel="nofollow"&gt;&lt;img alt="谷歌反重力团队成员与社区用户就封号问题打嘴炮 明明是自己问题死活不承认" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126692-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;但这里还有问题，谷歌账号的使用协议中规定，如果用户实质性或屡次违反本条款、特定服务的附加条款或相关政策，&lt;a href="https://www.landian.news/go?url=https://policies.google.com/terms" rel="noopener" target="_blank"&gt;那谷歌仍然有权直接封禁整个账号&lt;/a&gt;，谷歌反重力协议属于特定服务的附加条款。&lt;/p&gt;
+&lt;p&gt;因此理论上说如果用户违反反重力使用协议后，谷歌仍然有权直接封禁整个谷歌账号。谷歌会不会这么做另说，但至少从使用协议上看谷歌确实有权这么做。&lt;/p&gt;
+&lt;p&gt;现在反重力团队成员已经承诺将反馈相关问题更新服务条款，但谷歌整个体系的服务条款变更起来可能会相当麻烦，不知道要经过多少层法务审核，最终能不能更新都还是个未知数。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 07 Sep 2026 05:35:18 +0000</pubDate></item><item><title>[下载] 免费虚拟机软件VMware Workstation 26H1u1发布 修复微软UEFI证书更新问题</title><link>https://www.landian.news/download/126726.html</link><description>
+&lt;p&gt;#软件下载 博通发布免费虚拟机软件 VMware Workstation 26H1u1 Build 25688693 版，该版本主要修复危害等级较高的虚拟机逃逸问题。如果你使用 Windows 10/11 虚拟机也应该更新，新版本修复微软 UEFI 安全启动证书更新方面的错误，虚拟机内需安装 2026 年 7 月或之后的微软补丁。下载地址：https://ourl.co/126725&lt;/p&gt;&lt;p&gt;博通虚拟化团队日前发布 VMware Workstation 26H1u1 Build 25688693 版，该版本主要以安全更新为主修复危害等级较高的虚拟机逃逸问题，同时新增安全密钥平台自动修复机制，避免微软的安全启动证书更新失败。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2024/12/107344.png" rel="nofollow"&gt;&lt;img alt="[下载] 免费虚拟机软件VMware Workstation 26H1u1发布 修复微软UEFI证书更新问题" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2024/12/107344.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CVE-2026-59346：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;该漏洞位于 VMXNET3 虚拟网卡中且属于整数溢出漏洞，博通给出的漏洞评分为 9.3 分。攻击者需要先获得虚拟机内的本地管理员权限并要求虚拟机使用 VMXNET3 网卡，满足条件后可以利用漏洞跨越来宾与宿主机边界从而在运行 VMware Workstation 的 Windows 或 Linux 上执行代码。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CVE-2026-59347：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;该漏洞位于 HGFS 共享文件系统组件中且属于缓冲区溢出漏洞，博通给出的漏洞评分为 8.1 分。虚拟机内具有管理员权限的攻击者可以借此以宿主机 VMX 进程权限执行代码。该漏洞由腾讯玄武实验室研究人员报告。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;此次更新还新增平台密钥自动修复功能，该功能用于处理部分旧虚拟机中的 VMW.NULLPK 问题，避免微软的 UEFI 安全启动证书更新失败。启用安全启动但没有 vTPM 的虚拟机可以在虚拟机重启时静默更新平台密钥，启用 vTPM 的虚拟机可以继续通过 Capsule 机制更新，减少对依赖 TPM 应用的影响。&lt;/p&gt;
+&lt;p&gt;这项功能依赖 VMware Tools 13.1.5 提供的平台密钥更新驱动程序，Windows 10/11 虚拟机需要先安装 2026 年 7 月或之后的更新，然后再升级 VMware Tools 并重启虚拟机。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;法语和西班牙系统的托盘菜单错误显示为英语问题&lt;/li&gt;
+&lt;li&gt;虚拟机关闭全部显示后 Workstation 无法重新捕获键鼠输入问题&lt;/li&gt;
+&lt;li&gt;启用硬件加速的情况下，在资源管理器主页和这台 PC 之间切换可能导致虚拟机画面缩放异常&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;通过博通官网下载：&lt;a href="https://www.landian.news/go?url=https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware%20Workstation%20Pro&amp;amp;freeDownloads=true" rel="noopener" target="_blank"&gt;Broadcom VMware Workstation 26H1u1&lt;/a&gt; (需注册博通账号并通过审核)&lt;/p&gt;
+&lt;p&gt;从蓝点网服务器下载：&lt;a href="https://dl.landian.news/?dir=soft/vmware/workstation" rel="noopener" target="_blank"&gt;https://dl.landian.news/?dir=soft/vmware/workstation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/download/126725.html" title="[Mac虚拟机] VMware Fusion 26H1u1版发布 修复虚拟机逃逸漏洞和安全密钥问题"&gt;&lt;h3&gt;[Mac虚拟机] VMware Fusion 26H1u1版发布 修复虚拟机逃逸漏洞和安全密钥问题&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#软件下载 博通发布 macOS 免费虚拟机软件 VMware Fusion 26H1u1 Build 25689522 版，该版本主要修复危害…&lt;/p&gt;&lt;p&gt;&lt;span title="发布日期"&gt;2026年9月7日 12:57&lt;/span&gt;&lt;span title="浏览数量"&gt;1.42K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 07 Sep 2026 04:57:56 +0000</pubDate></item><item><title>[Mac虚拟机] VMware Fusion 26H1u1版发布 修复虚拟机逃逸漏洞和安全密钥问题</title><link>https://www.landian.news/download/126725.html</link><description>
+&lt;p&gt;#软件下载 博通发布 macOS 免费虚拟机软件 VMware Fusion 26H1u1 Build 25689522 版，该版本主要修复危害等级较高的虚拟机逃逸问题。如果你使用 Windows 10/11 虚拟机也应该更新，新版本修复微软 UEFI 安全启动证书更新方面的错误，虚拟机内需安装 2026 年 7 月或之后的微软补丁。下载地址：https://ourl.co/126725&lt;/p&gt;&lt;p&gt;博通虚拟化团队日前发布 VMware Fusion 26H1u1 Build 25689522 版，该版本主要以安全更新为主修复危害等级较高的虚拟机逃逸问题，同时新增安全密钥平台自动修复机制，避免微软的安全启动证书更新失败。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/112982.png" rel="nofollow"&gt;&lt;img alt="[虚拟机] VMware Fusion 26H1u1版发布 修复虚拟机逃逸漏洞和安全密钥问题" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/112982.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CVE-2026-59346：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;该漏洞位于 VMXNET3 虚拟网卡中且属于整数溢出漏洞，博通给出的漏洞评分为 9.3 分。攻击者需要先获得虚拟机内的本地管理员权限并要求虚拟机使用 VMXNET3 网卡，满足条件后可以利用漏洞跨越来宾与宿主机边界从而在运行 VMware Fusion 的 macOS 上执行代码。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CVE-2026-59347：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;该漏洞位于 HGFS 共享文件系统组件中且属于缓冲区溢出漏洞，博通给出的漏洞评分为 8.1 分。虚拟机内具有管理员权限的攻击者可以借此以宿主机 VMX 进程权限执行代码。该漏洞由腾讯玄武实验室研究人员报告。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;此次更新还新增平台密钥自动修复功能，该功能用于处理部分旧虚拟机中的 VMW.NULLPK 问题，避免微软的 UEFI 安全启动证书更新失败。启用安全启动但没有 vTPM 的虚拟机可以在虚拟机重启时静默更新平台密钥，启用 vTPM 的虚拟机可以继续通过 Capsule 机制更新，减少对依赖 TPM 应用的影响。&lt;/p&gt;
+&lt;p&gt;这项功能依赖 VMware Tools 13.1.5 提供的平台密钥更新驱动程序，Windows 10/11 虚拟机需要先安装 2026 年 7 月或之后的更新，然后再升级 VMware Tools 并重启虚拟机。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;通过博通官网下载：&lt;a href="https://www.landian.news/go?url=https://support.broadcom.com/group/ecx/productfiles?subFamily=VMware%20Fusion&amp;amp;displayGroup=VMware%20Fusion%2026H1&amp;amp;release=26H1&amp;amp;os=&amp;amp;servicePk=543219&amp;amp;language=EN&amp;amp;freeDownloads=true" rel="noopener" target="_blank"&gt;Broadcom VMware Fusion 26H1u1&lt;/a&gt; (需注册博通账号并通过审核)&lt;/p&gt;
+&lt;p&gt;从蓝点网服务器下载：&lt;a href="https://dl.landian.news/?dir=soft/vmware/fusion" rel="noopener" target="_blank"&gt;https://dl.landian.news/?dir=soft/vmware/fusion&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/download/126726.html" title="[下载] 免费虚拟机软件VMware Workstation 26H1u1发布 修复微软UEFI证书更新问题"&gt;&lt;h3&gt;[下载] 免费虚拟机软件VMware Workstation 26H1u1发布 修复微软UEFI证书更新问题&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#软件下载 博通发布免费虚拟机软件 VMware Workstation 26H1u1 Build 25688693 版，该版本主要修复危害等级…&lt;/p&gt;&lt;p&gt;&lt;span title="发布日期"&gt;2026年9月7日 12:57&lt;/span&gt;&lt;span title="浏览数量"&gt;1.19K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 07 Sep 2026 04:57:50 +0000</pubDate></item><item><title>有开发者分析发现：Codex使用重置卡获得的额度只有正常量的50%</title><link>https://www.landian.news/archives/126691.html</link><description>
+&lt;p&gt;#人工智能 有开发者分析发现：Codex 使用重置卡获得的额度只有正常量的 50%，更糟糕的是使用重置卡后自然重置时间还被顺延 7 天。Reddit 上有开发者使用重置卡发现额度消耗很快，使用 Codex 分析使用日志后发现用量确实被大幅度缩减。不过额度消耗取决于内容长度、智能体数量、调用的工具数量、任务实际难度等，所以这也没法标准量化。也有其他用户称自己的感觉类似，不过蒂博已经否认这种说法，称重置卡与自然周额度是完全相同的。查看全文：https://ourl.co/126691&lt;/p&gt;&lt;p&gt;Codex 近期向用户赠送 2 张重置卡，不过社区用户发现使用重置卡获得的额度消耗很快，于是继续使用 Codex 对整个使用日志进行分析。分析显示重置卡的额度远低于正常周额度，大约相当于正常周额度的 50%。更糟糕的是使用重置卡后周限额自动顺延 7 天，而不是 Claude Code 按原周重置时间自动重置。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 同样消耗周限额的 14%，输入量从 1.14 亿降到 6360 万：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;重置前这名开发者的周使用量是 85%，之后正常使用将周使用量消耗到 99%，在这个期间合计产生 738 次模型响应，总输入为 1.1441 亿 tokens，其中 94.5% 命中缓存，总输出为 46.55 万 tokens。&lt;/p&gt;
+&lt;p&gt;接着开发者使用重置卡进行重置，然后将使用量从 0% 运行到 14%，期间合计产生 489 次响应，总输入为 6360 万 tokens，其中 96.5% 命中缓存，总输出为 28.47 万 tokens。&lt;/p&gt;
+&lt;p&gt;无论是总输入量还是总输出量，使用重置卡后都只有正常水平的 50%，响应次数其实也类似，不过响应次数相当于 66%，单纯从数据来看用户肯定认为重置卡赠予的配额存在严重缩水。&lt;/p&gt;
+&lt;p&gt;但需要特别说明的是，模型用量取决于平均内容长度、智能体数量、调用的工具数量、任务实际难度等等，因此即便是完全相同的任务也可能产生差异，只不过开发者认为差异达到 50% 还是让人难以接受。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126691.png" rel="nofollow"&gt;&lt;img alt="有开发者分析发现：Codex使用重置卡获得的额度只有正常量的50%" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126691.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;关于重置时间是目前争议最大的部分，即其他使用体验没法准确量化，但自然重置时间是大家都面临的问题。Codex 使用重置卡后直接将自然重置时间顺延 7 天，导致用户会错过原本就要重置的自然重置时间。&lt;/p&gt;
+&lt;p&gt;例如当我的账号还有 1 天自然重置，此时如果我使用重置卡则下次自然重置时间会变成 6 天后，因此我直接错过 1 天后的自然重置，而如果重置卡赠予的额度被我在 1 天内消耗完，那我还得继续使用重置卡或额外购买额度，否则接下来 6 天将面临无额度可用的窘境。&lt;/p&gt;
+&lt;p&gt;这个争议其实非常大且经常有用户向 Codex 技术经理蒂博提交反馈，但直到现在这种情况也未被改变，只能说重置卡送得多也是有代价的，对用户而言代价就是虽然重置卡更灵活，但有时候也会造成不便。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;另外针对 Codex 使用重置卡获得的额度只有正常量 50% 的说法，蒂博也在 X/Twitter 上否认，蒂博称重置卡与自然重置获得的额度是完全相同的。&lt;/p&gt;
+&lt;p&gt;当然这也引起透明度方面的问题，即目前这些 AI 订阅都存在透明度问题，没有明确的线性机制导致额度都是黑盒，对 AI 公司来说黑盒机制更有用，所以估计他们也不会放弃这种机制。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;原贴地址：&lt;a href="https://www.landian.news/go?url=https://www.reddit.com/r/codex/comments/1w8zbz9/i_analyzed_the_allowance_a_banked_reset_gives_vs/" rel="noopener" target="_blank"&gt;Reddit&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 07 Sep 2026 04:02:00 +0000</pubDate></item><item><title>微软面向开发者推出无干扰的特别版Windows 11 但你通过脚本也能轻松实现类似体验</title><link>https://www.landian.news/archives/126690.html</link><description>
+&lt;p&gt;#系统资讯 微软向开发者推出无干扰的 Windows 11 特别版，名为 Project Zenith 项目，但需要 64GB 内存运行本地 AI 模型。Project Zenith 项目旨在为开发者提供开箱即编码的使用体验，这并不是新系统，而是经过特别配置的版本。微软其实维护了个适用于开发者的脚本，实现的功能与 Zenith 类似，所以开发者也可以直接使用该脚本获得相同体验，包括禁用 Windows 11 默认设置的那些干扰开发体验的功能。查看全文：https://ourl.co/126690&lt;/p&gt;&lt;p&gt;微软近期发布名为 Project Zenith 的新系统，该系统面向开发者提供开箱即编码的 Windows 11 PC 体验。当然说是新系统其实就是在 Windows 11 基础上进行优化改进，例如预装常用开发工具以及关闭某些可能影响开发者日常使用的无关功能。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126690.png" rel="nofollow"&gt;&lt;img alt="微软面向开发者推出无干扰的特别版Windows 11 但你通过脚本也能轻松实现类似体验" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126690.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Project Zenith 是微软与硬件制造商合作打造的项目，说是系统其实应该说是某种标准，即满足该项目的软硬件要求才能被称为 Project Zenith 设备。而要满足硬件要求，设备至少配备 64GB 内存、内存带宽达到 250GB / 秒且必须配备 AI 处理器或附带 NPU 单元。&lt;/p&gt;
+&lt;p&gt;但实际上 Project Zenith 相关体验也可以通过微软维护的开源 &lt;a href="https://www.landian.news/go?url=https://github.com/microsoft/WindowsDeveloperConfig" rel="noopener" target="_blank"&gt;Windows Developer Config&lt;/a&gt; 实现，也就是启用 Windows 11 默认并未开启的开发者功能，配置完成后与 Project Zenith 并没有太大的区别，所以有兴趣的玩家可以直接试试微软的开源脚本，没必要寻找 Project Zenith 系统。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Project Zenith 会默认预装开发工具，Windows Terminal 和 Visual Studio Code 默认固定到任务栏，文件资源管理器会默认显示文件扩展名、隐藏文件和完整路径，并启用长路径支持。&lt;/p&gt;
+&lt;p&gt;像是最近使用的文件、同步服务提示、开始菜单提示、账户通知等无关且可能干扰开发者使用的功能则被会被关闭。另外 WSL 子系统会被默认启用用于 Linux 和容器开发等环境。&lt;/p&gt;
+&lt;p&gt;也就是说 Project Zenith 设备其实主要亮点就是必须搭载 64GB 或更高的内存用来本地运行 AI 模型，所以至少对于大多数普通用户来说这是没有必要的，开发者们也可以直接通过微软的脚本获得相似体验，无非就是不能在本地运行模型。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://blogs.windows.com/windowsdeveloper/2026/09/04/announcing-project-zenith-the-ready-to-code-windows-experience/" rel="noopener" target="_blank"&gt;Microsoft&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 07 Sep 2026 03:12:41 +0000</pubDate></item><item><title>赛博善人！Cloudflare Workers放宽代码体积限制 免费和付费套餐均提高至64MiB</title><link>https://www.landian.news/archives/126689.html</link><description>
+&lt;p&gt;#软件资讯 Cloudflare Workers 放宽代码体积限制，免费和付费套餐均提高至 64MiB。以前免费套餐最多 3MB、付费套餐最多 10MB，超过限制将无法正常部署。新规则改成检查未压缩的 Bundle 体积，都是 64MiB，GZIP 压缩体积作为参考信息显示，不再决定能否部署。查看全文：https://ourl.co/126689&lt;/p&gt;&lt;p&gt;据赛博菩萨 Cloudflare 发布的更新日志，即日起 Workers 免费和付费订阅方案都支持最高 64MiB 的未压缩代码包。此前 Workers 使用压缩后的 Bundle 体积判断是否超限，其中免费套餐最高为 3MB，而付费套餐最高为 10MB。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/07/113801.png" rel="nofollow"&gt;&lt;img alt="赛博善人！Cloudflare Workers放宽代码体积限制 免费和付费套餐均提高至64MiB" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/07/113801.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;以前开发者部署时相关工具会将代码和依赖打包并压缩上传，即使原始项目能够正常构建，但只要免费套餐压缩后的体积超过 3MB 或付费套餐压缩后的体积超过 10MB，部署就会被拒绝。&lt;/p&gt;
+&lt;p&gt;新规则改成只检查未压缩 Bundle 体积，免费和付费套餐限制全部都是 64MiB，而 GZIP 压缩体积只作为参考信息显示，因此不能简单将新旧限制换算为免费套餐提升 21 倍，因此前后使用的计量方式不同。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;开发者在部署项目前可以使用 Wrangler 工具进行包体积检查，其中 Total Upload 就是参与 64MiB 限制计算的未压缩大小，GZIP 字段不再决定能否部署。&lt;/p&gt;
+&lt;pre&gt;wrangler deploy --outdir bundled/--dry-run
+
+Total Upload: 259.61 KiB / gzip: 47.23 KiB&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这项调整主要解决大型 JavaScript 依赖、框架和生成代码导致 Workers 无法部署的问题。过去部分应用需要删除依赖、拆分 Workers 或者将数据移动到 KV、R2 或 D1 中，仅为满足较低的 Bundle 限制。&lt;/p&gt;
+&lt;p&gt;不过 64MiB 只代表代码包大小，不代表 Workers 运行资源同步增加，免费套餐目前仍然是每天最多 10 万次请求、10 毫秒 CPU 时间和 128MB 内存。付费套餐内存同样是 128MB，但请求数和 CPU 时间会更长。&lt;/p&gt;
+&lt;p&gt;Cloudflare 也提醒开发者们，更大的 Workers 可能增加启动开销，因此没有必要将静态文件、配置和大型二进制数据直接打包进 Workers。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 07 Sep 2026 02:48:46 +0000</pubDate></item><item><title>谷歌浏览器还有隐藏小技能：遇到HSTS网站无法加载时 键盘盲打thisisunsafe即可加载</title><link>https://www.landian.news/archives/126681.html</link><description>
 &lt;p&gt;#软件资讯 谷歌浏览器还有个隐藏小技能：遇到 HSTS 网站无法加载时，通过键盘盲打 thisisunsafe 即可加载。部分网站已经设置 HSTS 严格传输安全，这时候如果证书过期、被吊销或使用自签名证书，Chrome 就会拦截访问且点击高级选项也没用。但如果通过键盘按 thisisunsafe 就可以加载，这个功能主要是面向开发者用于调试，普通用户遇到此类加载问题时应该关闭页面，因为网站服务器可能出现问题或真出现劫持的情况。查看全文：https://ourl.co/126681&lt;/p&gt;&lt;p&gt;基于安全考虑目前很多网站都已经部署 HTTPS 加密连接，但有时候网站服务器出现问题时可能会退回到 HTTP 明文连接。而谷歌浏览器采用的 HSTS 严格传输安全机制，会强制浏览器和服务器之间必须通过 HTTPS 加密连接。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126681-1.png" rel="nofollow"&gt;&lt;img alt="谷歌浏览器还有隐藏小技能：遇到HSTS网站无法加载时 键盘盲打thisisunsafe即可加载" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126681-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -40,72 +156,4 @@
 &lt;p&gt;蓝点网的 ChatGPT Plus 订阅账号目前并未获得 GPT-6 Astra 模型，所以收到新重置卡，重置卡发放时间是今天早晨 6 点，叠加昨天和此前发放的重置卡，目前合计有 3 张重置卡，如果明天还未获得 GPT-6 Astra 推送那还可以继续收到重置卡。&lt;/p&gt;
 &lt;p&gt;有趣的是还有网友想着 Plus 账号继续获得重置卡，然后将账号升级到 Pro 后岂不是稳赚？按理说获得的重置卡应该都是通用的，所以这种思路或许是可行的，如果有多个 Plus 账号的话倒是可以留一个进行测试。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 05 Sep 2026 04:16:44 +0000</pubDate></item><item><title>AI对存储需求暴增也促进磁带销量暴涨：26Q1磁带存储出货容量增长57%</title><link>https://www.landian.news/archives/126680.html</link><description>
-&lt;p&gt;#行业资讯 AI 行业的存储需求也推动磁带存储销量暴涨：26Q1 磁带存储出货容量同比增长达 57%。磁带主要适合低频存储，即里面的数据不需要经常拿出来读取。AI 公司的训练数据集、历史模型、日志和冷数据没有必要保存在昂贵的在线存储中，所以磁带存储现在成为香饽饽。查看全文：https://ourl.co/126680&lt;/p&gt;&lt;p&gt;目前人工智能数据中心正在对计算机行业产生越来越深刻的影响，这些数据中心不仅需要大量高性能内存，数据中心运行时产生的海量数据也需要存储，因此无论是机械硬盘还是固态硬盘也都出现比较严重的供应问题。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126680.png" rel="nofollow"&gt;&lt;img alt="AI对存储需求暴增也促进磁带销量暴涨：26Q1磁带存储出货容量增长57%" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126680.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;LTO 联盟公布的数据显示，2025 年 LTO 磁带出货容量达到 160.3EB，虽然较 2024 年的 176.5EB 下降 9%，但仍然处于出货量高位阶段。而进入 2026 年后磁带存储需求量开始恢复，仅在 2026Q1 磁带出货容量就同比增长 57%。&lt;/p&gt;
-&lt;p&gt;联盟认为 AI 和机器学习正在增加数据归档需求，同时传统备份、合规存档和勒索软件防护仍然是主要的市场使用场景。在人工智能行业，越来越多的公司开始使用磁带对原始数据进行存储归档，这些数据通常短时间内不会再访问，所以适合使用磁带存储。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;磁带的技术原理就决定其不适合进行频繁的数据访问，因此不能直接替代传统机械硬盘和固态硬盘。但磁带存储的优势在于低频访问和长期存储：介质单位容量成本低、离线磁带不需要持续通电、可以与生产网络进行物理隔离，降低勒索软件直接加密备份的风险。&lt;/p&gt;
-&lt;p&gt;对 AI 数据中心来说，训练数据集、历史模型、日志和冷数据没有必要长期保存在昂贵的在线存储中。随着数据规模持续扩大，磁带也成为传统硬盘之外的冷存储层，这也是磁带出货量大涨的主要原因。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 05 Sep 2026 03:52:43 +0000</pubDate></item><item><title>Cloudflare D1开始强制执行免费额度：超额后数据库查询直接失败 次日0点恢复</title><link>https://www.landian.news/archives/126644.html</link><description>
-&lt;p&gt;#行业资讯 Cloudflare D1 数据库免费版开始执行强制免费额度：每日免费额度耗尽后不会产生额外账单，而是直接停掉数据库功能。好消息是这不会导致被刷产生巨额账单，坏消息是如果被刷那业务会出现中断。建议使用 D1 的用户关注每日用量并考虑是否要升级付费版，每日重置额度时间为国内时间早上 8 点整。查看全文：https://ourl.co/126644&lt;/p&gt;&lt;p&gt;据 Cloudflare 发布的最新通知，D1 数据库已经从 2026 年 9 月 1 日开始对免费套餐执行强制额度查询，免费账户达到每日行读取或行写入上限后，后续 D1 数据库查询会直接返回错误，直到 UTC 时间次日 0 点后额度重置可以再次查询。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126644.png" rel="nofollow"&gt;&lt;img alt="Cloudflare D1开始强制执行免费额度：超额后数据库查询直接失败 次日0点恢复" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126644.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;D1 按照数据库实际扫描和修改的行数而非简单按照 SQL 查询次数计费，目前 Workers Free 用户每天包含免费的 500 万行读取和 10 万行写入，账户总存储空间为 5GB、单个数据库最大为 500MB。&lt;/p&gt;
-&lt;p&gt;例如某个包含 5,000 行数据的表执行单次没有索引的全表扫描，即使最终只返回几条搜索结果，也可能按照 5,000 行读取。而插入 / 更新 / 删除等数据库操作命令则会消耗写入额度，建立索引可以减少查询扫描的行数，但索引本身也会增加部分写入量。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;按照最新政策 D1 数据库免费套餐达量后会直接停止执行查询，而不是继续执行然后产生后付费账单。因此好消息是用户不会因为网站或服务突然涌入大量流量导致出现超额账单，而坏消息则是如果被刷就有可能导致服务出现中断。&lt;/p&gt;
-&lt;p&gt;按照 UTC+0 重置每日额度的话，国内用户的时间点是每天早晨 8 点，所以开发者们可能要关注 D1 面板中的实际消耗，如果存在用量较大的情况应该及时升级付费版，避免出现业务中断问题。&lt;/p&gt;
-&lt;p&gt;升级 Workers Paid 后每日数据库读取为 250 亿行、每日写入为 5,000 万行、存储总量依然是 5GB。不过超额后需要额外支付用量账单，价格为每百万行读取 0.001 美元、每百万行写入为 1 美元、额外存储为每 GB 每月 0.75 美元。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 04 Sep 2026 05:31:46 +0000</pubDate></item><item><title>啊这？微软商店里的《Grim Trials》游戏并不免费 微软正在撤销玩家授权</title><link>https://www.landian.news/archives/126687.html</link><description>
-&lt;p&gt;#游戏资讯 啊这？微软商店里的 Grim Trials 游戏并不免费，微软正在撤销此前免费领取该游戏的玩家授权。半个月前微软商店出现名为 Grim Trials 的游戏，该游戏可以免费下载畅玩。现在微软证实这是设置失误，该游戏 19.99 美元，只有付费购买的副本才可以继续玩。查看全文：https://ourl.co/126687&lt;/p&gt;&lt;p&gt;半个月前有玩家发现微软商店里有款名为《Grim Trials》的游戏可以免费领取，该游戏属于动作类游戏，既然免费所有很多玩家直接领取该游戏并畅玩而且没有任何授权方面的问题。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126687.png" rel="nofollow"&gt;&lt;img alt="啊这？微软商店里的《Grim Trials》游戏并不免费 微软正在撤销玩家授权" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126687.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;现在微软证实当时因为设置错误导致 Grim Trials 可以免费领取和下载，尤其是可以在游戏正式发售前下载。这款游戏的标准售价是 19.99 美元，微软从未宣传该游戏是免费，目前纯粹是微软当时在上架游戏时出现失误。&lt;/p&gt;
-&lt;p&gt;现在微软正在批量撤销当时免费领取 Grim Trials 玩家的授权，有玩家称收到微软通知说这款游戏并不是免费提供的，随后游戏也从应用库中消失。也有玩家表示，撤销似乎是分批进行的，直到现在还有玩家的授权才被撤销。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;需要说目的是通过正常价格购买的玩家不受任何影响，游戏授权不会被撤销、也不影响玩家的正常游戏。只有此前免费获得该游戏的玩家授权才会被撤销，相当于撤销游戏副本，已经下载的玩家可能会注意到无法正常进行游戏，因为微软商店也会校验应用或游戏的许可证。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 04 Sep 2026 04:48:53 +0000</pubDate></item><item><title>英伟达以129.303亿美元收购抱抱脸 交易金额暗藏🤗表情字符串</title><link>https://www.landian.news/archives/126686.html</link><description>
-&lt;p&gt;#äººå·¥æ™ºèƒ½ è‹±ä¼Ÿè¾¾ä»¥ 129.303 äº¿ç¾�å…ƒæ”¶è´­ğŸ¤—æŠ±æŠ±è„¸ï¼Œä¸ºä»€ä¹ˆæ”¶è´­é‡‘é¢�æœ‰é›¶æœ‰æ•´ï¼Ÿå› ä¸ºè¿™é‡Œæš—è—�å°�å½©è›‹ã€‚129303 æ˜¯ U+1F917 çš„å��è¿›åˆ¶è¡¨ç¤ºï¼Œè½¬ä¸ºå��å…­è¿›åˆ¶å°±æ˜¯ 1F917ï¼Œå¯¹åº”ğŸ¤—è¿™ä¸ªè¡¨æƒ…ã€‚è‹¥ä½¿ç”¨å��å…­è¿›åˆ¶é¢œè‰²å�³ #129303 åˆ™æ˜¯ç»¿è‰²ï¼Œä¸�è‹±ä¼Ÿè¾¾çš„å“�ç‰Œè‰²æ¯”è¾ƒæ�¥è¿‘ã€‚æŸ¥çœ‹å…¨æ–‡ï¼šhttps://ourl.co/126686&lt;/p&gt;&lt;p&gt;è‹±ä¼Ÿè¾¾æ—¥å‰�æ­£å¼�å®£å¸ƒä»¥ 129.303 äº¿ç¾�å…ƒæ”¶è´­ AI æ¨¡å�‹ç¤¾åŒºæŠ±æŠ±è„¸ (Hugging Face)ï¼Œç›®å‰�ç›¸å…³å��è®®å·²ç»�å®Œæˆ�ç­¾ç½²ï¼Œè‹±ä¼Ÿè¾¾é¢„è®¡è¯¥äº¤æ˜“æœ€ç»ˆå°†åœ¨æ˜�å¹´ä¸Šå�Šå¹´å®Œæˆ�ï¼Œå‰�æ��æ˜¯æ²¡æœ‰ç›‘ç®¡æœºæ�„é˜»æ­¢è¿™åœºæ”¶è´­ã€‚&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126686.png" rel="nofollow"&gt;&lt;img alt="è‹±ä¼Ÿè¾¾ä»¥129.303äº¿ç¾�å…ƒæ”¶è´­æŠ±æŠ±è„¸ äº¤æ˜“é‡‘é¢�æš—è—�ğŸ¤—è¡¨æƒ…å­—ç¬¦ä¸²" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126686.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; ä¸ºä»€ä¹ˆæ”¶è´­é‡‘é¢�æœ‰é›¶æœ‰æ•´ï¼š&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;è‹±ä¼Ÿè¾¾æ��äº¤çš„ç›‘ç®¡æ–‡ä»¶æ˜¾ç¤ºï¼Œè‹±ä¼Ÿè¾¾å°†æ”¯ä»˜ 119 äº¿ç¾�å…ƒæ”¶è´­æŠ±æŠ±è„¸å½“å‰�è‚¡ä¸œæŒ�æœ‰çš„è‚¡ä»½ (è‹±ä¼Ÿè¾¾æœ¬èº«å°±æ˜¯è¯¥å¹³å�°çš„æŠ•èµ„è€…)ï¼Œå‰©ä½™ 10 äº¿ç¾�å…ƒå°†ä½œä¸ºè‚¡æ�ƒæ¿€åŠ±ç”¨æ�¥ç•™ä½�åŠ ç›Ÿè‹±ä¼Ÿè¾¾çš„æŠ±æŠ±è„¸ç�°æœ‰å‘˜å·¥ã€‚&lt;/p&gt;
-&lt;p&gt;é€šå¸¸è¿™ç±»æ”¶è´­éƒ½æ˜¯æ•´æ•°é‡‘é¢�ï¼Œé‚£ä¸ºä»€ä¹ˆè‹±ä¼Ÿè¾¾å¼€å‡ºçš„ä»·æ ¼æ˜¯ 129.303 äº¿ç¾�å…ƒå‘¢ï¼Ÿ&lt;strong&gt;æ”¶è´­é‡‘é¢�è¿™é‡Œå…¶å®�æš—è—�å°�å½©è›‹ï¼š&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;129303 æ˜¯ Unicode ç �ä½� U+1F917 çš„å��è¿›åˆ¶è¡¨ç¤ºï¼Œè‹¥å°†å…¶è½¬æ�¢ä¸ºå��å…­è¿›åˆ¶åˆ™æ˜¯ 1F917ï¼Œå¯¹åº”çš„å°±æ˜¯ğŸ¤—è¿™ä¸ªè¡¨æƒ…ã€‚129303 å†™æˆ�å��å…­è¿›åˆ¶é¢œè‰² #129303 å��ä¼šå¾—åˆ°ç»¿è‰²ï¼Œè¿™ç§�é¢œè‰²ä¸�è‹±ä¼Ÿè¾¾ä¼ ç»Ÿä½¿ç”¨çš„ç»¿è‰²å“�ç‰Œè‰²ä¹Ÿé��å¸¸æ�¥è¿‘ã€‚&lt;/p&gt;
-&lt;p&gt;è‹±ä¼Ÿè¾¾æ‰¿è¯ºæ”¶è´­æŠ±æŠ±è„¸å��ä¸�ä¼šå°†å…¶å�˜æˆ�è‹±ä¼Ÿè¾¾ä¸“å±�å¹³å�°ï¼Œå¼€å�‘è€…ä»�ç„¶å�¯ä»¥è‡ªè¡Œé€‰æ‹©æ¨¡å�‹ã€�æ¡†æ�¶ã€�äº‘æœ�åŠ¡ã€�æ�¨ç�†æœ�åŠ¡å•†å’Œè®¡ç®—å¹³å�°ã€‚æŠ±æŠ±è„¸ä¹Ÿä¸�ä¼šè¢«è¦�æ±‚å¿…é¡»é‡‡ç”¨è‹±ä¼Ÿè¾¾ GPUï¼Œè‹±ä¼Ÿè¾¾ç§°å¹³å�°å°†ç»§ç»­æ”¯æŒ�å…¶ä»–å…¬å�¸çš„èŠ¯ç‰‡ã€‚&lt;/p&gt;
-&lt;p aria-label="çƒ­é—¨æ�¨è��"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="ä»…éœ€99å…ƒ/å¹´ï¼Œç¡…è°·CN2GIAæœ�åŠ¡å™¨ï¼Œå�¦æœ‰3å¹´ç‰ˆä»…éœ€528å…ƒï¼Œé™�é‡�é”€å”®ï¼Œå”®å®Œå�³æ­¢"&gt;çƒ­é—¨æ�¨è��ä»…éœ€99å…ƒ/å¹´ï¼Œç¡…è°·CN2GIAæœ�åŠ¡å™¨ï¼Œå�¦æœ‰3å¹´ç‰ˆä»…éœ€528å…ƒï¼Œé™�é‡�é”€å”®ï¼Œå”®å®Œå�³æ­¢&lt;span aria-hidden="true"&gt;ä»…éœ€99å…ƒ/å¹´ï¼Œç¡…è°·CN2GIAæœ�åŠ¡å™¨ï¼Œå�¦æœ‰3å¹´ç‰ˆä»…éœ€528å…ƒï¼Œé™�é‡�é”€å”®ï¼Œå”®å®Œå�³æ­¢&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 04 Sep 2026 04:30:35 +0000</pubDate></item><item><title>服务器管理销售面板WHMCS出现高危安全漏洞 无需登录即可窃取用户资料</title><link>https://www.landian.news/archives/126685.html</link><description>
-&lt;p&gt;#安全资讯 服务器管理销售面板 WHMCS 出现高危安全漏洞，攻击者无需登录即可入侵服务器并获得各类客户资料。目前官方要求使用该版本的服务器提供商升级到 8.13.7 或 9.0.8 版，其他版本都受漏洞影响。查看全文：https://ourl.co/126685&lt;/p&gt;&lt;p&gt;适用于服务器提供商的业务自动化和管理系统 WHMCS 日前发布 9 月安全更新，本次更新 WHMCS 修复 CVE-2026-67398 和 CVE-2026-67399 安全漏洞，使用该面板的服务器商家需要立即升级到 8.13.7 或 9.0.8 版，以免攻击者利用漏洞展开攻击。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126685.png" rel="nofollow"&gt;&lt;img alt="服务器管理销售面板WHMCS出现高危安全漏洞 无需登录即可窃取用户资料" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126685.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;CVE-2026-67399 影响 WHMCS 8.0.x 及之后版本，攻击者可以向服务器提交经过构造的 Payload，再通过多阶段请求和反序列化链触发对象注入，在没有登录凭据的情况下执行任意代码。&lt;/p&gt;
-&lt;p&gt;由于 WHMCS 通常保存客户资料、账单、订单、服务信息并连接支付网关、域名注册商和服务器管理接口，当 Web 服务器被攻破后影响可能会超过 WHMCS 数据库本身，该漏洞没有可用的客户端临时缓解方案，必须升级到最新版。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;2Checkout 是国外老牌的支付网关服务提供商，CVE-2026-67398 就存在于这个支付网关模块中，攻击者无需登录即可在特定条件下枚举发票并获取客户资料，包括姓名、地址、城市、州、省、邮编、国家、邮箱和电话号码。&lt;/p&gt;
-&lt;p&gt;这个漏洞从 WHMCS 4.5.0 版开始存在，其中 9.x 中低于 9.0.8 版或 8.x 中低于 8.13.7 版都受影响，已经停止支持的 WHMCS 也同样受影响，但官方目前只提供 8.13.7 和 9.0.8 版，暂时无法升级的客户可以直接停掉 2Checkout 支付网关阻断入口。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 04 Sep 2026 04:15:57 +0000</pubDate></item><item><title>GPT-6不再收取超过272K部分超额费用 开发者可以在Codex里直接启用1M窗口</title><link>https://www.landian.news/archives/126684.html</link><description>
-&lt;p&gt;#äººå·¥æ™ºèƒ½ GPT-6 Astra ä¸�å†�æ”¶å�–è¶…è¿‡ 272K éƒ¨åˆ†è¶…é¢�è´¹ç”¨ï¼Œå¼€å�‘è€…å�¯ä»¥åœ¨ Codex é‡Œç›´æ�¥å�¯ç”¨ 1M ä¸Šä¸‹æ–‡çª—å�£ã€‚ç‰¹åˆ«æ³¨æ„�ï¼šæ­¤æ”¿ç­–ä»…é™�äº� GPT-6 Astra æ¨¡å�‹ + Codex ç»„å�ˆã€‚GPT-5.4/5.5/5.6 å¦‚æ�œè¾“å…¥è¾“å‡ºè¶…è¿‡ 272Kï¼Œè¶…å‡ºéƒ¨åˆ†ä»�ç„¶æŒ‰ç…§å€�ç�‡è®¡è´¹ï¼Œå€�ç�‡ä¸º 1.5~2 å€�ã€‚æŸ¥çœ‹å…¨æ–‡ï¼šhttps://ourl.co/126684&lt;/p&gt;&lt;p&gt;æ�® OpenAI æ›´æ–°çš„æ”¯æŒ�æ–‡æ¡£ï¼ŒGPT-6 Astra ä¸Šä¸‹æ–‡çª—å�£æœ€é«˜æ”¯æŒ� 1Mï¼Œä¸”å¦‚æ�œç”¨æˆ·åœ¨ Codex é‡Œä½¿ç”¨ GPT-6 Astraï¼Œé‚£ä¸�éœ€è¦�ä¸ºè¶…å‡º 272K éƒ¨åˆ†é¢�å¤–ä»˜è´¹ã€‚&lt;/p&gt;
-&lt;p&gt;æ­¤æ¬¡è®¡è´¹æ”¿ç­–è°ƒæ•´ä»…é™�åœ¨ Codex ä¸­ä½¿ç”¨ GPT-6 Astra æ¨¡å�‹ï¼Œå…¶ä»–æ¨¡å�‹ä»�ç„¶ä¼šå¯¹è¶…é•¿å†…å®¹è¿›è¡Œé¢�å¤–æ”¶è´¹ï¼Œå»ºè®®åœ¨ä½¿ç”¨å‰�å…ˆæµ‹è¯•ç¡®è®¤æœªäº§ç”Ÿé¢�å¤–è®¡è´¹å��å†�é•¿æœŸä½¿ç”¨ã€‚&lt;/p&gt;
-&lt;p&gt;åœ¨ä¹‹å‰�çš„æ¨¡å�‹ä¸­ï¼Œè™½ç„¶æ¨¡å�‹æœ¬èº«ä¹Ÿæ”¯æŒ� 1M ä¸Šä¸‹æ–‡ï¼Œä½† OpenAI ä¼šå¯¹è¶…é•¿å†…å®¹é¢�å¤–è®¡è´¹ï¼Œå�³åœ¨ 272K ä»¥å†…é€‚ç”¨äº�æ ‡å‡†è´¹ç�‡ï¼Œè¶…è¿‡ 272K éƒ¨åˆ†æŒ‰ç…§ 1.5~2 å€�æ ‡å‡†è´¹ç�‡è®¡ç®—ï¼Œå› æ­¤å¯¹ç”¨æˆ·æ�¥è¯´é…�ç½®è¶…é•¿ä¸Šä¸‹æ–‡æ”¯æŒ�å��ï¼ŒCodex é¢�åº¦ä¼šè¢«æ›´å¿«è€—å°½ã€‚&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126684.png" rel="nofollow"&gt;&lt;img alt="GPT-6ä¸�å†�æ”¶å�–è¶…è¿‡272Kéƒ¨åˆ†è¶…é¢�è´¹ç”¨ å¼€å�‘è€…å�¯ä»¥åœ¨Codexé‡Œç›´æ�¥å�¯ç”¨1Mçª—å�£" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126684.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; é¢�å¤–è®¡è´¹è´¹ç�‡å¦‚ä¸‹ï¼š&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;GPT-5.4/5.5/5.6 å…¨ç³»åˆ—æ”¯æŒ� 272K ä»¥ä¸Šçš„æ¨¡å�‹ï¼š272K ä»¥å†…æŒ‰æ ‡å‡†è´¹ç�‡è®¡è´¹ï¼Œè¶…å‡ºéƒ¨åˆ†è¾“å…¥æŒ‰ 2 å€�è´¹ç�‡è®¡ç®—ã€�ç¼“å­˜è¾“å…¥æŒ‰ 2 å€�è´¹ç�‡è®¡ç®—ã€�è¾“å‡ºæŒ‰ 1.5 å€�è´¹ç�‡è®¡ç®—ã€‚&lt;/p&gt;
-&lt;p&gt;GPT-6 Astraï¼šåœ¨ Codex ä¸­ä½¿ç”¨è¯¥æ¨¡å�‹æ—¶ï¼Œè¾“å…¥è¶…è¿‡ 272K éƒ¨åˆ†ä¸�å†�é¢�å¤–æŒ‰å€�ç�‡è®¡è´¹ï¼ŒCodex ä¹Ÿä¸�ä¼šå¯¹ç¼“å­˜è¾“å…¥æ”¶è´¹ï¼Œå�³åœ¨ 1M çª—å�£å†…å…¨éƒ¨æŒ‰ç…§æ ‡å‡†è´¹ç�‡è®¡è´¹ã€‚&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;æ¶ˆæ�¯æº�ï¼š&lt;a href="https://www.landian.news/go?url=https://help.openai.com/en/articles/20001415-chatgpt-rate-card-enterprise-token-based-pricing" rel="noopener" target="_blank"&gt;OpenAI&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="çƒ­é—¨æ�¨è��"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="ä»…éœ€99å…ƒ/å¹´ï¼Œç¡…è°·CN2GIAæœ�åŠ¡å™¨ï¼Œå�¦æœ‰3å¹´ç‰ˆä»…éœ€528å…ƒï¼Œé™�é‡�é”€å”®ï¼Œå”®å®Œå�³æ­¢"&gt;çƒ­é—¨æ�¨è��ä»…éœ€99å…ƒ/å¹´ï¼Œç¡…è°·CN2GIAæœ�åŠ¡å™¨ï¼Œå�¦æœ‰3å¹´ç‰ˆä»…éœ€528å…ƒï¼Œé™�é‡�é”€å”®ï¼Œå”®å®Œå�³æ­¢&lt;span aria-hidden="true"&gt;ä»…éœ€99å…ƒ/å¹´ï¼Œç¡…è°·CN2GIAæœ�åŠ¡å™¨ï¼Œå�¦æœ‰3å¹´ç‰ˆä»…éœ€528å…ƒï¼Œé™�é‡�é”€å”®ï¼Œå”®å®Œå�³æ­¢&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 04 Sep 2026 02:41:55 +0000</pubDate></item><item><title>Codex接下来将在每天向付费订阅用户赠送1个重置卡 直到GPT-6 Astra可用</title><link>https://www.landian.news/archives/126683.html</link><description>
-&lt;p&gt;#人工智能 Codex 接下来将每天向付费订阅用户赠送 1 个重置卡，直到 GPT-6 Astra 模型可用。目前该模型仅限部分认证机构使用，而不是发布后大家就能立即使用。作为补偿措施，OpenAI 将向用户赠送重置卡，延迟几天才能用那就赠送几张重置卡，每天 1 张。查看全文：https://ourl.co/126683&lt;/p&gt;&lt;p&gt;昨天夜里 OpenAI 推出最新模型 GPT-6 Astra，在拉丁语中 Astra 的意思星星 / 群星 / 星辰，在 OpenAI 模型里天体等级越高也意味着模型越先进，目前排序是 Astra (星辰) &amp;gt; Sol (太阳) &amp;gt; Terra (地球) &amp;gt; Luna (月亮)。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126683.png" rel="nofollow"&gt;&lt;img alt="Codex接下来将在每天向付费订阅用户赠送1个重置卡 直到GPT-6 Astra可用" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126683.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;坏消息是目前 GPT-6 Astra 仅面向部分机构用户开放，OpenAI 计划接下来几天陆续向 ChatGPT Pro、ChatGPT Team、ChatGPT Enterprise、ChatGPT Plus 用户开放该模型，这种发布后无法立即使用的做法也引起用户抱怨。&lt;/p&gt;
-&lt;p&gt;作为补偿措施，OpenAI 已经决定在延迟上线时间里为所有订阅用户赠送重置卡，延迟几天就赠送几张重置卡，例如 ChatGPT Plus 用户可能还需要 4~5 天才能使用 GPT-6 Astra，那用户将获得 4~5 张重置卡。&lt;/p&gt;
-&lt;p&gt;重置卡可以积累且有效期为 1 个月，这样后面用户也可以随时通过重置卡来恢复订阅配额以便继续使用 GPT-6 Astra，只不过 Plus 用户恢复 5 小时限额后使用非常不方便，所以这波福利对 ChatGPT Pro 用户来说可能是最好的。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 04 Sep 2026 02:11:39 +0000</pubDate></item></channel></rss>
+</description><pubDate>Sat, 05 Sep 2026 04:16:44 +0000</pubDate></item></channel></rss>
