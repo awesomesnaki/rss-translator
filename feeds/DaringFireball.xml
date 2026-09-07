@@ -1,42 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sun, 06 Sep 2026 20:44:27 +0000</lastBuildDate><item><title>Meta AI 现在推出了 Mac 原生应用，看起来还不错</title><link>https://9to5mac.com/2026/08/19/meta-ai-is-now-available-as-a-more-capable-desktop-app-for-mac/</link><description>&lt;p&gt;Zac Hall 于8月19日为 9to5Mac 撰文：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Mon, 07 Sep 2026 20:09:27 +0000</lastBuildDate><item><title>《洋葱报》对拉里·埃里森的独家专访</title><link>https://theonion.com/the-onions-exclusive-interview-with-larry-ellison/</link><description>&lt;p&gt;《洋葱报》：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;全新的&lt;a href="https://ai.meta.com/meta-ai/assistant/"&gt;Meta AI 桌面应用&lt;/a&gt;在发布时为 1.0 测试版，安装后大小仅 16MB。根据初步检查，它可在搭载 macOS 15 或更高版本的 Apple 芯片 Mac 上原生运行，外壳采用 AppKit 和 SwiftUI，并使用 WebKit 来呈现更丰富的聊天内容。换句话说，这不是一个 Electron 应用，也不是重新打包的 iPad 版本。&lt;/p&gt;
-&lt;p&gt;它包含了针对 Mac 的专属钩子，使桌面体验比 Meta AI 移动应用更强大。快速调用功能使用 Option-空格键，在你正在进行的任何操作上方唤起一个紧凑的 Meta AI 撰写框。另有一个独立的听写功能，让你可以按住快捷键说话，识别出的文字便会输入到任意应用中，无论是邮件、文档还是代码编辑器。&lt;/p&gt;
-&lt;p&gt;Meta AI 还可以将另一个 Mac 窗口附加到对话中。在获得屏幕录制和辅助功能权限后，该应用会读取窗口中的可见文本并截取截图，以供下一个问题使用。目前这属于上下文收集，而不是计算机控制。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;《洋葱报》：你是如何进入娱乐行业的？&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;埃里森：我记得小时候去电影院，当场内灯光暗下、人群中一片肃静时，我心里暗想：有朝一日我要打造一个庞大的宣传机器。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;它也通过了“设置窗口”检验——它确实有一个设置窗口。&lt;/p&gt;
-&lt;p&gt;从机构层面来看，Meta 似乎更热衷于原生 Mac 应用，&lt;a href="https://daringfireball.net/2025/11/meta_whatsapp_windows_shitty_web_app"&gt;而非原生 Windows 应用&lt;/a&gt;。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/09/07/onion-ellison" title="指向‘《洋葱报》对拉里·埃里森的独家采访’的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Mon, 07 Sep 2026 20:09:27 +0000</pubDate></item><item><title>Matt Birchler 对可折叠 iPhone 的预测</title><link>https://birchtree.me/blog/my-folding-iphone-predictions/</link><description>&lt;p&gt;马特·伯奇勒：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;是的，我确实认为，尤其是今年，其销量将远远落后于18 Pro系列、普通iPhone 18，可能还有Air 2和18e。我认为明年也会因为类似原因而落后。我不知道它是否会成为最&lt;em&gt;受欢迎&lt;/em&gt;的iPhone，但我认为它不会失败，而且我认为在上市的头几年，它的销量会逐年增长（尤其是如果期间他们还能把价格降下来）。&lt;/p&gt;
+&lt;p&gt;我的依据是折叠屏手机在Android世界中的市场份额不断增长，以及我个人使用与苹果即将发布的产品非常相似的设备时的体验——我也有了自己的“顿悟时刻”，那种真正击中我的感觉。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;伯奇勒在过去一个月左右一直在使用三星Galaxy Fold8——那款抢先模仿了折叠iPhone长宽比的新机。所以，他对于相同的整体形态的第一手经验让我很感兴趣。但我完全不知道他说的“折叠屏手机在Android世界中的市场份额不断增长”是指什么。2025年，&lt;a href="https://counterpointresearch.com/en/insights/Foldable-Smartphone-Market-Set-for-20-percent-Growth-in-2026"&gt;Counterpoint&lt;/a&gt;和&lt;a href="https://www.trendforce.com/presscenter/news/20250722-12649.html"&gt;TrendForce&lt;/a&gt;都将折叠屏手机在全球市场的份额定为1.6%。就&lt;em&gt;今天&lt;/em&gt;，&lt;a href="https://counterpointresearch.com/en/insights/global-foldable-shipments-to-hit-100-million-cumulative-milestone-by-end-of-2026"&gt;Counterpoint发布了一份报告&lt;/a&gt;，称“折叠屏手机目前仅占整个智能手机市场的约2%，该品类还有很大的增长空间。”&lt;/p&gt;
+&lt;p&gt;就个人所见，我并不相信那2%的数字。我生性就会留意人们使用的手机，我看到的人中绝不可能每50个里就有1个用折叠屏手机。我甚至觉得每100个里都不到1个。最近一次度假时，无论是在机场还是在我们住的度假酒店，我都没有看到一部折叠屏手机。显然，我自己的“轶事数据”可能完全不靠谱，但我认为“2%”已经是很乐观的估计了。这就像在iPhone出现之前说“触屏手机”在“市场份额不断增长”一样。从0.1%涨到0.2%是份额翻倍，但份额仍然微乎其微。&lt;/p&gt;
+&lt;p&gt;关于命名，伯奇勒随口提了一个不错的建议：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;最后是名称。似乎每个人都认为它会叫iPhone Ultra，我想如果我要押注的话，我也会押这个。&lt;/p&gt;
+&lt;p&gt;但我就是不喜欢这个名字。我不喜欢它，是因为它在很多方面并不“ultra”，还因为一两年后如果出了更大的版本，你叫它什么？Ultra Max？也许你会这么叫……&lt;/p&gt;
+&lt;p&gt;我个人认为它应该叫iPhone Folio。我觉得我有99%的可能性是错的，但嘿，如果我是对的，那不是很棒吗？&lt;/p&gt;
+&lt;/blockquote&gt;&lt;p&gt;“Folio”这个名字的问题在于，它仅仅描述了产品的外形形态，而未能传达出应有的感觉。我更看好“Ultra”，不过&lt;a href="https://daringfireball.net/linked/2026/04/14/name-of-foldable-iphone"&gt;依然支持“Duo”&lt;/a&gt;这个名字，它&lt;a href="https://everymac.com/systems/apple/powerbook_duo/index-powerbook-duo.html"&gt;有着一定的历史渊源&lt;/a&gt;，&lt;em&gt;而且&lt;/em&gt;听起来和“Neo”是很搭的搭档形容词。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/09/07/birchler-folding-iphone-predictions" title="‘Matt Birchler 对可折叠 iPhone 的预测’的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Mon, 07 Sep 2026 19:59:36 +0000</pubDate></item><item><title>★ 我确实偷了你的打火机，但我也确实把地图弄丢了</title><link>https://daringfireball.net/2026/09/its_true_that_i_stole_your_lighter</link><description>&lt;p&gt;上周，&lt;a href="https://blog.google/products-and-platforms/products/maps/gnis-lake-ontario-lake-america-name-change/"&gt;谷歌&lt;/a&gt;和&lt;a href="https://www.macrumors.com/2026/09/01/apple-maps-lake-america/"&gt;苹果&lt;/a&gt;都更新了各自的地图，以配合特朗普将美国地质调查局认可的安大略湖名称改为“美利坚湖”。正如特朗普在2.0政府执政最初几天以行政命令将墨西哥湾重新命名一样，谷歌和苹果按地区向同一人群显示相同的名称。以下是你现在根据设备所设置的地区看到的安大略湖名称：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;美国：“美利坚湖”&lt;/li&gt;
+&lt;li&gt;加拿大：“安大略湖”&lt;/li&gt;
+&lt;li&gt;世界其他地区：“安大略湖（美利坚湖）”&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这与&lt;a href="https://daringfireball.net/2025/02/golfo_del_gringo_loco"&gt;他们针对墨西哥湾更名的联合解决方案&lt;/a&gt;完全相同——美国用户看到“美利坚湾”，墨西哥用户看到“墨西哥湾”，世界其他地区用户看到“墨西哥湾（美利坚湾）”。&lt;/p&gt;
+&lt;p&gt;以下是我坚信谷歌和苹果&lt;em&gt;应该&lt;/em&gt;采取的解决方案：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;美国：“美利坚湖（安大略湖）”和“美利坚湾（墨西哥湾）”&lt;/li&gt;
+&lt;li&gt;世界其他地区：“安大略湖”和“墨西哥湾”&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;没有任何理由在美国以外的地方显示这些特朗普钦定的新名称，哪怕是用括号标注。也没有任何理由只对加拿大用户（就安大略湖而言）和墨西哥用户（就海湾而言）单独显示真正的传统名称。将加拿大和墨西哥视为特殊案例，只有当它们身处某种命名争端中时才说得通。但它们并没有。这两处水域的名称并不存在争议。关于它们并没有像&lt;a href="https://en.wikipedia.org/wiki/Denali–Mount_McKinley_naming_dispute"&gt;阿拉斯加的德纳利/麦金利山&lt;/a&gt;那样长期悬而未决的争论。这个星球上唯一一个由疯子充斥的政府声称这些水域有新名称的国家是美国；唯一应该看到新名称的国家也应该是美国。&lt;sup id="fnr1-2026-09-07-maps"&gt;&lt;a href="https://daringfireball.net/#fn1-2026-09-07-maps"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;所以，我不同意谷歌和苹果选择处理这些更名的方式。但美国用户确实能看到新名称，这一点是对的。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ihnatko.com/she-made-harry-eat/"&gt;这是安迪·伊纳特科在他的同名网站上写的&lt;/a&gt;：&lt;/p&gt;&lt;blockquote&gt;
+&lt;p&gt;We all have every right to be upset. Google’s receiving plenty of
+flak over this move (as is Apple; Apple Maps now shows “Lake
+America,” reportedly after &lt;a href="https://apnews.com/article/apple-lake-ontario-america-trump-93232341c99a10d35338d3f1afd54171?ref=ihnatko.com"&gt;being pressured directly by
+Trump&lt;/a&gt;). I dislike Google’s and Apple’s choices, but I can’t
+personally fault them.&lt;/p&gt;
+&lt;p&gt;That said, Trump’s move is clearly meant to antagonize Canada
+during a volatile period in our relations. He’s throwing gasoline
+on a tariff fight that’s already creating uncertainty and
+suffering among vulnerable businesses and consumers on both sides
+of what was once an impeccably peaceful border. Google and Apple
+didn’t need to move so damned &lt;em&gt;quickly&lt;/em&gt;. I wish they’d deferred
+the name change long enough for things to cool down a little.
+Doing so would have avoided creating the perception of handing one
+side a swift, validating victory.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I doubt a cooling-off period would help. Wounds don’t feel better when they’re reopened after healing. It’s best to get it over with. Applying the change to Google and Apple Maps while the &lt;a href="https://www.usgs.gov/tools/geographic-names-information-system-gnis"&gt;GNIS&lt;/a&gt; database ink is still wet at least serves to remind &lt;em&gt;who&lt;/em&gt; made this change and why. And whose change it rightfully is to make.&lt;/p&gt;
+&lt;p&gt;This is a bitter pill for some to swallow. What a lot of people want is for Google and Apple to just ignore the U.S. government’s official new names. E.g., to pick just one high-profile pundit, here’s Kara Swisher &lt;a href="https://www.threads.com/@karaswisher/post/Dcq_BjdEQyF"&gt;regarding Google&lt;/a&gt; (“quislings”) &lt;a href="https://www.threads.com/@karaswisher/post/DcwocY9kio6"&gt;and Apple&lt;/a&gt; (“craven”, “pathetic”). But I suspect, quite strongly, that the people who profess to be the most angry at Apple and Google for going along with this change are the same people who would argue most strongly that Goliath tech companies and mega-billionaires wield too much anti-democratic power and influence.&lt;/p&gt;
+&lt;p&gt;It’s not coherent to argue that Google and Apple should decide which names to put on their maps only when &lt;em&gt;you&lt;/em&gt; want them to ignore the names from the official government database. Neither Google nor Apple are going to sell their maps apps, but it’s not outlandish to think that in some alternative universe, one or more of the leading maps app might be owned by, say, Elon Musk or Larry Ellison. Would the people who want Apple and Google to ignore the official names from the GNIS support the same stance if the two leading maps apps were owned by SpaceX and Oracle instead? Obviously they would not.&lt;/p&gt;
+&lt;p&gt;我们想要的是一个通过投票民主决定地理名称的制度。而事实上我们正是这样的制度。特朗普赢了。内政部有权更改这些名称。如果你愤怒于它们在美国的官方名称现在是“美洲湖”和“美洲湾”，那就继续为特朗普赢得2024年大选而愤怒吧。继续为我们的总统不断贬损其职务尊严、令国家蒙羞而愤怒吧。将怒火指向谷歌和苹果，因为它们在反映这一变化，是在责打传信的人。&lt;/p&gt;
+&lt;p&gt;但正因如此，我认为谷歌和苹果将这些荒谬名称强加给世界其他地方——哪怕只是放在括号里——是令人难堪的。这些名称毫无意义，而且这是美国人自己的糟心事，该由美国人自己去处理。&lt;/p&gt;
+&lt;p&gt;中国是另一个拥有荒谬地理教条的国家。中国要求将台湾——一个独立的自由国家——&lt;a href="https://www.rfa.org/english/news/afcl/fact-check-apple-maps-taiwan-03072024174451.html"&gt;虚假标注为中国的一个省份&lt;/a&gt;。苹果地图反映了这一政策——&lt;em&gt;仅限于中国境内&lt;/em&gt;。在中国以外的地图上，它并没有将台湾标注为“（中国的一个省）”。括号里的胡扯依然是胡扯。不太严重但更荒唐的是，中国政府还坚持要求将中日长期领土争端中涉及的偏远钓鱼岛&lt;a href="https://daringfireball.net/2025/02/golfo_del_gringo_loco#:~:text=China%E2%80%99s%20State%20Bureau%20of%20Surveying%20and%20Mapping"&gt;在地图上绘制得比实际更大&lt;/a&gt;。苹果地图忠实地向中国用户显示这些被夸大、失真的岛屿大小，却不会向世界其他任何地方的用户展示——甚至不会以虚线轮廓的形式。中国用户看到的是中国政府教条式的胡扯，其他所有人则看不到。&lt;/p&gt;
+&lt;p&gt;美国政府教条式的胡扯也应该如此处理。把这种胡扯传播到全世界只会让事情更加难堪。&lt;/p&gt;
+&lt;p&gt;谷歌和苹果都没有声称自己是制图编辑领域的权威。我认为我们也不应该希望它们成为这样的权威。其他非政府机构确实声称自己是独立权威。&lt;a href="https://en.wikipedia.org/wiki/Associated_Press_v._Budowich"&gt;美联社坚持了自己的立场&lt;/a&gt;，即使面临因拒绝采用“美洲湾”这一名称而失去白宫新闻团席位的后果。还有维基百科，它的声誉、诚信、人气和独立性&lt;a href="https://gizmodo.com/is-elon-musks-grokipedia-dead-no-longer-updates-articles-2000795280"&gt;令右翼感到困扰&lt;/a&gt;。&lt;a href="https://www.politico.com/news/2026/09/02/tech-lake-ontario-01062631"&gt;来自Politico，上周的报道&lt;/a&gt;：&lt;/p&gt;&lt;blockquote&gt;
+&lt;p&gt;一位高级政府官员周二对Politico表示，其他平台也将很快跟进。“我们已在谷歌地图上把‘美国湖’改了过来，许多其他地图几天后也会更改。维基百科也会改。”这位要求匿名以便直言的官员说道。&lt;/p&gt;
+&lt;p&gt;截至周三，维基百科仍在使用墨西哥湾和安大略湖的原有名称，同时注明特朗普已签署命令将其更名。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;对此，&lt;a href="https://bsky.app/profile/molly.wiki/post/3murrlnufd22w"&gt;莫莉·怀特指出&lt;/a&gt;：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;一位维基百科编辑说得好：“你几乎想拍拍他们的脑袋说‘是的，当然会改’，就像你哄小孩说圣诞老人会来送礼物一样。”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr/&gt;
+&lt;ol&gt;
+&lt;li id="fn1-2026-09-07-maps"&gt;
+&lt;p&gt;而且，我强烈认为，传统名称应该保留可见，放在括号里，即使对美国用户来说，也应当保留一段时间，比如五年。如果一个不关注时事的人（愿上帝保佑他们）去谷歌地图或苹果地图上找安大略湖却找不到，他们会怎么想？ &lt;a href="https://daringfireball.net/#fnr1-2026-09-07-maps" title="跳回正文中脚注1。"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description><pubDate>Mon, 07 Sep 2026 16:31:55 +0000</pubDate></item><item><title>Meta AI 现在推出了 Mac 原生应用，看起来还不错</title><link>https://9to5mac.com/2026/08/19/meta-ai-is-now-available-as-a-more-capable-desktop-app-for-mac/</link><description>&lt;p&gt;Zac Hall 于8月19日为9to5Mac撰文写道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href="https://ai.meta.com/meta-ai/assistant/"&gt;新版Meta AI桌面应用&lt;/a&gt;发布时为1.0测试版，安装后仅有16MB大小。根据初步检查，它原生运行于macOS 15或更高版本的Apple Silicon Mac上，采用AppKit和SwiftUI外壳，并使用WebKit来呈现更丰富的聊天内容。换句话说，这不是Electron应用，也不是重新打包的iPad版本。&lt;/p&gt;
+&lt;p&gt;它包含面向Mac的特定接口，使桌面体验比Meta AI移动应用更加强大。Quick Invoke使用Option-Space快捷键，在你当前正在进行的任何操作上方弹出一个精简的Meta AI输入框。另有一项独立的听写功能，让你按住快捷键说话，然后将识别出的文字输入到任何应用中，从Mail、文档到代码编辑器均可。&lt;/p&gt;
+&lt;p&gt;Meta AI还可以将另一个Mac窗口附加到对话中。在获得“屏幕录制”和“辅助功能”权限后，该应用会读取窗口中的可见文本，并截取屏幕截图以供下一个问题使用。就目前而言，这属于上下文收集，而非计算机控制。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;它也通过了“设置窗口”的基本检查——它确实有一个设置窗口。Meta作为一家机构，似乎更青睐原生Mac应用，&lt;a href="https://daringfireball.net/2025/11/meta_whatsapp_windows_shitty_web_app"&gt;而非原生Windows应用&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;更新：&lt;/strong&gt;这款Mac应用&lt;em&gt;并未&lt;/em&gt;在App Store上架。你需要从Meta的网页直接下载，使用&lt;a href="https://daringfireball.net/misc/2026/09/meta-ai-mac-download-link.png"&gt;“下载Mac版（Beta）”链接&lt;/a&gt;。ChatGPT和Claude的Mac应用同样不在Mac App Store中——它们所做的许多事超出了App Store强制性&lt;a href="https://news.ycombinator.com/item?id=16351522"&gt;沙盒&lt;/a&gt;的范围（并且所使用的API在App Store中可能也需要特殊授权）。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/09/06/meta-ai-mac-app" title="Permanent link to ‘Meta AI Has a Native Mac App Now, and It Seems Decent’"&gt; ★ &lt;/a&gt;
 </description><pubDate>Sun, 06 Sep 2026 20:44:27 +0000</pubDate></item><item><title>WorkOS：如何赋予Agent任务，而非令牌</title><link>https://workos.com/blog/delegated-access-for-ai-agents?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q32026</link><description>&lt;p&gt;感谢 WorkOS 再次赞助 Daring Fireball。给智能体一个访问令牌，它就会扩散：进入上下文窗口，进入工具调用日志，进入它在步骤之间保存的笔记。每份副本都能在任何地方运行，并且在事后很久依然有效。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://workos.com/docs/pipes/relay?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q32026&amp;amp;utm_content=docs"&gt;Relay&lt;/a&gt; 将凭据保存在 WorkOS。你的智能体指定用户，WorkOS 会附加该令牌、刷新它，并且只将其发放给白名单主机。被劫持的智能体会话就是一个你可以终止的活跃进程。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://workos.com/blog/delegated-access-for-ai-agents?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q32026"&gt;了解其工作原理&lt;/a&gt;，详见 WorkOS 的博客。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/09/06/workos-agent-task" title="Permanent link to ‘WorkOS: How to Give an Agent a Task Instead of a Token’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sun, 06 Sep 2026 19:06:27 +0000</pubDate></item><item><title>Matt Haughey：汽车行业对有无CarPlay的车辆销售进行了A/B测试，结果并不令人意外</title><link>https://a.wholelottanothing.org/the-car-industry-a-b-tested-selling-the-same-car-with-and-without-carplay-and-the-results-are-not-shocking/</link><description>&lt;p&gt;Matt Haughey：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;一个典型的例子是本田Prologue EV。它是本田与雪佛兰的合作产物，Prologue基本上就是换上了本田标志的雪佛兰Blazer EV——车身钣金和内饰有细微的视觉差异，但所有底层架构完全来自雪佛兰。尽管Prologue的钥匙上写着本田，但那其实是通用汽车的钥匙设计，只是盖了一个本田的标志。&lt;/p&gt;
-&lt;p&gt;然而，Prologue与其原型Blazer有一个重大区别：它支持Apple CarPlay和Android Auto集成。[...]&lt;/p&gt;
-&lt;p&gt;在这两款车同台销售的几年间，本田在每个时间段的销量分别比Blazer高出43%、73%和166%。到了2026年的今天，人们购买本田Prologue的频率，是它基于的雪佛兰Blazer EV的1.5倍以上。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这并非一个完美的测试。说本田的品牌和声誉优于雪佛兰，而且就是更擅长卖车，这种说法也有一定道理。但过去三年的趋势线相当鲜明。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/09/06/haughey-chevy-honda-carplay" title="Permanent link to ‘Matt Haughey: ‘The Car Industry A/B Tested Selling a Car With and Without CarPlay and the Results Are Not Shocking’’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sun, 06 Sep 2026 19:04:12 +0000</pubDate></item><item><title>特朗普政府在Arcade.gov推出山寨电子游戏</title><link>https://x.com/WhiteHouse/status/2095615734567100766</link><description>&lt;p&gt;有几款Temu风格的山寨游戏，模仿了Flappy Bird、Snake（就是围捕越境移民的那款），以及——&lt;a href="https://variety.com/2026/digital/news/tetris-company-trump-white-house-build-the-wall-game-copyright-1236851993/"&gt;最值得注意的是&lt;/a&gt;——Tetris（就是那个要“筑墙”把越境移民挡在外面的游戏），后者的版权归以好诉著称的俄罗斯方块公司（The Tetris Company）所有，于是该公司&lt;a href="https://x.com/tetris_official/status/2095933372019216384"&gt;发推文表示&lt;/a&gt;：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Tetris相信连接的力量，相信将人们聚在一起而不是分裂开来。对所有粉丝们：我们爱你们，我们能看见你们，也感谢你们身处我们这个社区之中。&lt;/p&gt;
-&lt;p&gt;附言：俄罗斯方块公司并未参与“Build the Wall”的制作。&lt;/p&gt;
-&lt;p&gt;再附言：我们非常严肃地对待侵犯版权的行为。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;无论你怎么看待这些游戏，就像安大略湖被重新命名一样，Trump Arcade向美国选民表明：本届政府正专注于他们的问题和关切。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/09/06/trump-arcade" title="Permanent link to ‘Trump Administration Launches Rip-Off Video Games at Arcade.gov’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sun, 06 Sep 2026 17:51:09 +0000</pubDate></item><item><title>古尔曼谈席勒离职及特努斯对App Store的目标</title><link>https://www.bloomberg.com/news/newsletters/2026-09-06/apple-s-new-ceo-like-cook-pay-package-shows-he-s-going-nowhere-sept-9-event-mtpvpcj1?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4ODcwNTgwOCwiZXhwIjoxNzg5MzEwNjA4LCJhcnRpY2xlSWQiOiJUS1k0ODFLR0NURlEwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.VPVLP03ZWjEbH48efjq8Q7n0_vk4t7OynYeaUbOfYzU&amp;leadSource=article-gifting</link><description>&lt;p&gt;马克·古尔曼在彭博社周末Power On专栏（赠阅链接）中写道：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;席勒的退出更值得注意。与马埃斯特里不同，他仍有一份实质性的工作：这位资深高管负责App Store和苹果发布会。单是App Store这块业务就不可小觑。它每年大约产生300亿美元收入，而且管理起来极具挑战。苹果的应用商店深受许多消费者喜爱，却经常受到开发者批评，还要面对越来越繁重的监管。这份工作繁忙且包罗万象，与半退休状态相去甚远。与此同时，苹果发布会是公司向客户传达新品发布的方式，也同样绝非轻松玩乐之事。&lt;/p&gt;
-&lt;p&gt;如今席勒66岁，显然希望能以某种形式退休。他可以专注于慈善事业，多花时间陪伴家人。但据我所知，事情还有更多隐情。特努斯和服务业务主管埃迪·库伊想从App Store赚到更多钱，想办法提高利润率，并从该平台榨取更多经常性收入。另一方面，席勒似乎认为这些举动只会进一步激怒开发者和政府。虽然没有发生内部争执之类的事，但这是他不想参与的部分。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;我当然希望这不是真的，因为那将会非常糟糕——让本已糟糕的情况雪上加霜——而且几乎与苹果应当做的完全相反。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;来自存档：&lt;/strong&gt;席勒&lt;a href="https://daringfireball.net/2021/06/app_store_the_schiller_cut"&gt;在2011年写给库伊和史蒂夫·乔布斯的电子邮件中&lt;/a&gt;说：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;仅抛出一个想法：一旦我们每年从App Store赚到超过10亿美元的利润，是否就足以让我们考虑一种模式——从70/30下调至75/25，甚至80/20——前提是我们能保持每年10亿美元的收入规模？我知道这有争议，我只是把它当作看待这项业务规模、我们想要实现什么以及如何保持竞争力的另一个角度。再说一次，仅供思考。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;a href="https://daringfireball.net/linked/2026/09/06/gurman-schiller-app-store" title="Permanent link to ‘Gurman on Schiller’s Departure and Ternus’s Goals for the App Store’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sun, 06 Sep 2026 17:00:01 +0000</pubDate></item></channel></rss>
+</description><pubDate>Sun, 06 Sep 2026 19:06:27 +0000</pubDate></item></channel></rss>
