@@ -1,86 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Mon, 07 Sep 2026 20:09:27 +0000</lastBuildDate><item><title>《洋葱报》对拉里·埃里森的独家专访</title><link>https://theonion.com/the-onions-exclusive-interview-with-larry-ellison/</link><description>&lt;p&gt;《洋葱报》：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Mon, 07 Sep 2026 22:16:26 +0000</lastBuildDate><item><title>[赞助商] Glyphs 4</title><link>https://glyphsapp.com/</link><description>&lt;p&gt;Glyphs 4 正式发布：一款用于创建字体、字标、图标和象形图的 Mac 原生应用。使用灵活笔画进行绘制，在庞大的字形集中高效复用形状，探索具有复杂高阶插值的可变矢量设计。轻松构建和管理大型字体家族与图标集，导出所有现代字体格式、SVG、PNG 和 PDF。数百项改进和对 Tahoe 的原生支持，让设计、测试和发布矢量图形比以往更加顺畅。Glyphs 4：创造，热爱过程。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://glyphsapp.com/"&gt;了解 Glyphs 4&lt;/a&gt;，如您在接下来一个月内购买，使用代码 &lt;strong&gt;FIREBALL&lt;/strong&gt; 可节省 $30。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/feeds/sponsors/2026/09/glyphs_4" title="Permanent link to ‘Glyphs 4’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Mon, 07 Sep 2026 22:16:26 +0000</pubDate></item><item><title>可追踪物 1.5</title><link>https://trackables.app/</link><description>&lt;p&gt;Trackables:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;《洋葱报》：你是如何进入娱乐行业的？&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;埃里森：我记得小时候去电影院，当场内灯光暗下、人群中一片肃静时，我心里暗想：有朝一日我要打造一个庞大的宣传机器。&lt;/p&gt;
+&lt;p&gt;There are plenty of health tracking apps. Surprisingly, nearly all
+of them are bloated, subscription-gated, or blatantly harvesting
+our data; often all three. We wanted something simpler, less
+annoying and more fun, that’s where it started.&lt;/p&gt;
+&lt;p&gt;Trackables turns the data your Apple Watch already collects — activity, sleep, steps, heart rate — into a clear, friendly,
+transparent interface.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;a href="https://daringfireball.net/linked/2026/09/07/onion-ellison" title="指向‘《洋葱报》对拉里·埃里森的独家采访’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 07 Sep 2026 20:09:27 +0000</pubDate></item><item><title>Matt Birchler 对可折叠 iPhone 的预测</title><link>https://birchtree.me/blog/my-folding-iphone-predictions/</link><description>&lt;p&gt;马特·伯奇勒：&lt;/p&gt;
+&lt;p&gt;Totally free of charge, totally private, made by a small team of ex-Apple folks. (They might add a paid tier in the future, but core functionality will remain free.) I’ve been using Trackables for months and it’s just a better dashboard to the stats I care about than the Health app itself.&lt;/p&gt;
+&lt;p&gt;(One interesting detail: HealthKit only makes raw data available to apps. Apple Health’s “sleep score” isn’t part of that data — only the raw input, like how many hours you slept, and how much time was spent in each sleep stage. So Trackables computes its own sleep score. When I bother to compare, Trackable’s score is almost always similar to Apple’s, but seldom exactly the same. But I personally find that Trackable’s sleep score corresponds better to how I feel I slept. Which, admittedly, is &lt;a href="https://mastodon.social/@gruber/116137135641505082"&gt;usually pretty good&lt;/a&gt;.)&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/09/07/trackables" title="Permanent link to ‘Trackables 1.5’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Mon, 07 Sep 2026 22:01:27 +0000</pubDate></item><item><title>《洋葱报》对拉里·埃里森的独家专访</title><link>https://theonion.com/the-onions-exclusive-interview-with-larry-ellison/</link><description>&lt;p&gt;洋葱新闻：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;是的，我确实认为，尤其是今年，其销量将远远落后于18 Pro系列、普通iPhone 18，可能还有Air 2和18e。我认为明年也会因为类似原因而落后。我不知道它是否会成为最&lt;em&gt;受欢迎&lt;/em&gt;的iPhone，但我认为它不会失败，而且我认为在上市的头几年，它的销量会逐年增长（尤其是如果期间他们还能把价格降下来）。&lt;/p&gt;
-&lt;p&gt;我的依据是折叠屏手机在Android世界中的市场份额不断增长，以及我个人使用与苹果即将发布的产品非常相似的设备时的体验——我也有了自己的“顿悟时刻”，那种真正击中我的感觉。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;洋葱新闻：你是如何进入娱乐行业的？&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;埃里森：我记得小时候去看电影，当影院的灯光暗下来，人群安静下来时，我会暗想：有朝一日我要建立一台庞大的宣传机器。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;伯奇勒在过去一个月左右一直在使用三星Galaxy Fold8——那款抢先模仿了折叠iPhone长宽比的新机。所以，他对于相同的整体形态的第一手经验让我很感兴趣。但我完全不知道他说的“折叠屏手机在Android世界中的市场份额不断增长”是指什么。2025年，&lt;a href="https://counterpointresearch.com/en/insights/Foldable-Smartphone-Market-Set-for-20-percent-Growth-in-2026"&gt;Counterpoint&lt;/a&gt;和&lt;a href="https://www.trendforce.com/presscenter/news/20250722-12649.html"&gt;TrendForce&lt;/a&gt;都将折叠屏手机在全球市场的份额定为1.6%。就&lt;em&gt;今天&lt;/em&gt;，&lt;a href="https://counterpointresearch.com/en/insights/global-foldable-shipments-to-hit-100-million-cumulative-milestone-by-end-of-2026"&gt;Counterpoint发布了一份报告&lt;/a&gt;，称“折叠屏手机目前仅占整个智能手机市场的约2%，该品类还有很大的增长空间。”&lt;/p&gt;
-&lt;p&gt;就个人所见，我并不相信那2%的数字。我生性就会留意人们使用的手机，我看到的人中绝不可能每50个里就有1个用折叠屏手机。我甚至觉得每100个里都不到1个。最近一次度假时，无论是在机场还是在我们住的度假酒店，我都没有看到一部折叠屏手机。显然，我自己的“轶事数据”可能完全不靠谱，但我认为“2%”已经是很乐观的估计了。这就像在iPhone出现之前说“触屏手机”在“市场份额不断增长”一样。从0.1%涨到0.2%是份额翻倍，但份额仍然微乎其微。&lt;/p&gt;
-&lt;p&gt;关于命名，伯奇勒随口提了一个不错的建议：&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/09/07/onion-ellison" title="Permanent link to ‘The Onion’s Exclusive Interview With Larry Ellison’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Mon, 07 Sep 2026 20:09:27 +0000</pubDate></item><item><title>麦金利 1.0</title><link>https://mckinleysymbols.com/</link><description>&lt;p&gt;来自开发者Amy Worrall的一款全新Crackerjack Mac应用，用于创建和编辑自定义&lt;a href="https://developer.apple.com/sf-symbols/"&gt;SF Symbols&lt;/a&gt;：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;最后是名称。似乎每个人都认为它会叫iPhone Ultra，我想如果我要押注的话，我也会押这个。&lt;/p&gt;
-&lt;p&gt;但我就是不喜欢这个名字。我不喜欢它，是因为它在很多方面并不“ultra”，还因为一两年后如果出了更大的版本，你叫它什么？Ultra Max？也许你会这么叫……&lt;/p&gt;
-&lt;p&gt;我个人认为它应该叫iPhone Folio。我觉得我有99%的可能性是错的，但嘿，如果我是对的，那不是很棒吗？&lt;/p&gt;
-&lt;/blockquote&gt;&lt;p&gt;“Folio”这个名字的问题在于，它仅仅描述了产品的外形形态，而未能传达出应有的感觉。我更看好“Ultra”，不过&lt;a href="https://daringfireball.net/linked/2026/04/14/name-of-foldable-iphone"&gt;依然支持“Duo”&lt;/a&gt;这个名字，它&lt;a href="https://everymac.com/systems/apple/powerbook_duo/index-powerbook-duo.html"&gt;有着一定的历史渊源&lt;/a&gt;，&lt;em&gt;而且&lt;/em&gt;听起来和“Neo”是很搭的搭档形容词。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/09/07/birchler-folding-iphone-predictions" title="‘Matt Birchler 对可折叠 iPhone 的预测’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 07 Sep 2026 19:59:36 +0000</pubDate></item><item><title>★ 我确实偷了你的打火机，但我也确实把地图弄丢了</title><link>https://daringfireball.net/2026/09/its_true_that_i_stole_your_lighter</link><description>&lt;p&gt;上周，&lt;a href="https://blog.google/products-and-platforms/products/maps/gnis-lake-ontario-lake-america-name-change/"&gt;谷歌&lt;/a&gt;和&lt;a href="https://www.macrumors.com/2026/09/01/apple-maps-lake-america/"&gt;苹果&lt;/a&gt;都更新了各自的地图，以配合特朗普将美国地质调查局认可的安大略湖名称改为“美利坚湖”。正如特朗普在2.0政府执政最初几天以行政命令将墨西哥湾重新命名一样，谷歌和苹果按地区向同一人群显示相同的名称。以下是你现在根据设备所设置的地区看到的安大略湖名称：&lt;/p&gt;
+&lt;p&gt;McKinley是一个一站式工作室，用于绘制和标注SF Symbols。它结合了矢量工具与对SF Symbols结构的深入理解，让你可以跨多种字重、尺寸和颜色编辑同一组对象。导入SVG或从零开始创作，使用苹果自家的渲染器实时预览你的作品，并直接导出到Xcode，你再也不需要碰SF Symbols应用了！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;McKinley把Mac特性发挥到了极致：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;美国：“美利坚湖”&lt;/li&gt;
-&lt;li&gt;加拿大：“安大略湖”&lt;/li&gt;
-&lt;li&gt;世界其他地区：“安大略湖（美利坚湖）”&lt;/li&gt;
+&lt;li&gt;丰富的AppleScript支持，附带一系列实用示例脚本库。&lt;/li&gt;
+&lt;li&gt;支持文档的快速查看预览和缩略图。&lt;/li&gt;
+&lt;li&gt;编写精良且全面的&lt;a href="https://mckinleysymbols.com/docs/welcome"&gt;用户手册&lt;/a&gt;。（我，&lt;a href="https://daringfireball.net/linked/2026/05/12/kagi-snaps"&gt;几个月前&lt;/a&gt;说过：“有好产品没有文档或文档写得不好，但很少有差产品却能配上出色的文档。”）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;这与&lt;a href="https://daringfireball.net/2025/02/golfo_del_gringo_loco"&gt;他们针对墨西哥湾更名的联合解决方案&lt;/a&gt;完全相同——美国用户看到“美利坚湾”，墨西哥用户看到“墨西哥湾”，世界其他地区用户看到“墨西哥湾（美利坚湾）”。&lt;/p&gt;
-&lt;p&gt;以下是我坚信谷歌和苹果&lt;em&gt;应该&lt;/em&gt;采取的解决方案：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;美国：“美利坚湖（安大略湖）”和“美利坚湾（墨西哥湾）”&lt;/li&gt;
-&lt;li&gt;世界其他地区：“安大略湖”和“墨西哥湾”&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;没有任何理由在美国以外的地方显示这些特朗普钦定的新名称，哪怕是用括号标注。也没有任何理由只对加拿大用户（就安大略湖而言）和墨西哥用户（就海湾而言）单独显示真正的传统名称。将加拿大和墨西哥视为特殊案例，只有当它们身处某种命名争端中时才说得通。但它们并没有。这两处水域的名称并不存在争议。关于它们并没有像&lt;a href="https://en.wikipedia.org/wiki/Denali–Mount_McKinley_naming_dispute"&gt;阿拉斯加的德纳利/麦金利山&lt;/a&gt;那样长期悬而未决的争论。这个星球上唯一一个由疯子充斥的政府声称这些水域有新名称的国家是美国；唯一应该看到新名称的国家也应该是美国。&lt;sup id="fnr1-2026-09-07-maps"&gt;&lt;a href="https://daringfireball.net/#fn1-2026-09-07-maps"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;所以，我不同意谷歌和苹果选择处理这些更名的方式。但美国用户确实能看到新名称，这一点是对的。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://ihnatko.com/she-made-harry-eat/"&gt;这是安迪·伊纳特科在他的同名网站上写的&lt;/a&gt;：&lt;/p&gt;&lt;blockquote&gt;
-&lt;p&gt;We all have every right to be upset. Google’s receiving plenty of
-flak over this move (as is Apple; Apple Maps now shows “Lake
-America,” reportedly after &lt;a href="https://apnews.com/article/apple-lake-ontario-america-trump-93232341c99a10d35338d3f1afd54171?ref=ihnatko.com"&gt;being pressured directly by
-Trump&lt;/a&gt;). I dislike Google’s and Apple’s choices, but I can’t
-personally fault them.&lt;/p&gt;
-&lt;p&gt;That said, Trump’s move is clearly meant to antagonize Canada
-during a volatile period in our relations. He’s throwing gasoline
-on a tariff fight that’s already creating uncertainty and
-suffering among vulnerable businesses and consumers on both sides
-of what was once an impeccably peaceful border. Google and Apple
-didn’t need to move so damned &lt;em&gt;quickly&lt;/em&gt;. I wish they’d deferred
-the name change long enough for things to cool down a little.
-Doing so would have avoided creating the perception of handing one
-side a swift, validating victory.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;I doubt a cooling-off period would help. Wounds don’t feel better when they’re reopened after healing. It’s best to get it over with. Applying the change to Google and Apple Maps while the &lt;a href="https://www.usgs.gov/tools/geographic-names-information-system-gnis"&gt;GNIS&lt;/a&gt; database ink is still wet at least serves to remind &lt;em&gt;who&lt;/em&gt; made this change and why. And whose change it rightfully is to make.&lt;/p&gt;
-&lt;p&gt;This is a bitter pill for some to swallow. What a lot of people want is for Google and Apple to just ignore the U.S. government’s official new names. E.g., to pick just one high-profile pundit, here’s Kara Swisher &lt;a href="https://www.threads.com/@karaswisher/post/Dcq_BjdEQyF"&gt;regarding Google&lt;/a&gt; (“quislings”) &lt;a href="https://www.threads.com/@karaswisher/post/DcwocY9kio6"&gt;and Apple&lt;/a&gt; (“craven”, “pathetic”). But I suspect, quite strongly, that the people who profess to be the most angry at Apple and Google for going along with this change are the same people who would argue most strongly that Goliath tech companies and mega-billionaires wield too much anti-democratic power and influence.&lt;/p&gt;
-&lt;p&gt;It’s not coherent to argue that Google and Apple should decide which names to put on their maps only when &lt;em&gt;you&lt;/em&gt; want them to ignore the names from the official government database. Neither Google nor Apple are going to sell their maps apps, but it’s not outlandish to think that in some alternative universe, one or more of the leading maps app might be owned by, say, Elon Musk or Larry Ellison. Would the people who want Apple and Google to ignore the official names from the GNIS support the same stance if the two leading maps apps were owned by SpaceX and Oracle instead? Obviously they would not.&lt;/p&gt;
-&lt;p&gt;我们想要的是一个通过投票民主决定地理名称的制度。而事实上我们正是这样的制度。特朗普赢了。内政部有权更改这些名称。如果你愤怒于它们在美国的官方名称现在是“美洲湖”和“美洲湾”，那就继续为特朗普赢得2024年大选而愤怒吧。继续为我们的总统不断贬损其职务尊严、令国家蒙羞而愤怒吧。将怒火指向谷歌和苹果，因为它们在反映这一变化，是在责打传信的人。&lt;/p&gt;
-&lt;p&gt;但正因如此，我认为谷歌和苹果将这些荒谬名称强加给世界其他地方——哪怕只是放在括号里——是令人难堪的。这些名称毫无意义，而且这是美国人自己的糟心事，该由美国人自己去处理。&lt;/p&gt;
-&lt;p&gt;中国是另一个拥有荒谬地理教条的国家。中国要求将台湾——一个独立的自由国家——&lt;a href="https://www.rfa.org/english/news/afcl/fact-check-apple-maps-taiwan-03072024174451.html"&gt;虚假标注为中国的一个省份&lt;/a&gt;。苹果地图反映了这一政策——&lt;em&gt;仅限于中国境内&lt;/em&gt;。在中国以外的地图上，它并没有将台湾标注为“（中国的一个省）”。括号里的胡扯依然是胡扯。不太严重但更荒唐的是，中国政府还坚持要求将中日长期领土争端中涉及的偏远钓鱼岛&lt;a href="https://daringfireball.net/2025/02/golfo_del_gringo_loco#:~:text=China%E2%80%99s%20State%20Bureau%20of%20Surveying%20and%20Mapping"&gt;在地图上绘制得比实际更大&lt;/a&gt;。苹果地图忠实地向中国用户显示这些被夸大、失真的岛屿大小，却不会向世界其他任何地方的用户展示——甚至不会以虚线轮廓的形式。中国用户看到的是中国政府教条式的胡扯，其他所有人则看不到。&lt;/p&gt;
-&lt;p&gt;美国政府教条式的胡扯也应该如此处理。把这种胡扯传播到全世界只会让事情更加难堪。&lt;/p&gt;
-&lt;p&gt;谷歌和苹果都没有声称自己是制图编辑领域的权威。我认为我们也不应该希望它们成为这样的权威。其他非政府机构确实声称自己是独立权威。&lt;a href="https://en.wikipedia.org/wiki/Associated_Press_v._Budowich"&gt;美联社坚持了自己的立场&lt;/a&gt;，即使面临因拒绝采用“美洲湾”这一名称而失去白宫新闻团席位的后果。还有维基百科，它的声誉、诚信、人气和独立性&lt;a href="https://gizmodo.com/is-elon-musks-grokipedia-dead-no-longer-updates-articles-2000795280"&gt;令右翼感到困扰&lt;/a&gt;。&lt;a href="https://www.politico.com/news/2026/09/02/tech-lake-ontario-01062631"&gt;来自Politico，上周的报道&lt;/a&gt;：&lt;/p&gt;&lt;blockquote&gt;
-&lt;p&gt;一位高级政府官员周二对Politico表示，其他平台也将很快跟进。“我们已在谷歌地图上把‘美国湖’改了过来，许多其他地图几天后也会更改。维基百科也会改。”这位要求匿名以便直言的官员说道。&lt;/p&gt;
-&lt;p&gt;截至周三，维基百科仍在使用墨西哥湾和安大略湖的原有名称，同时注明特朗普已签署命令将其更名。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;对此，&lt;a href="https://bsky.app/profile/molly.wiki/post/3murrlnufd22w"&gt;莫莉·怀特指出&lt;/a&gt;：&lt;/p&gt;
+&lt;p&gt;我的意思是，看看McKinley吧。它既美观，又显然是一把&lt;a href="https://mastodon.social/@marioguzman/117230477915225971"&gt;严肃的专业工具&lt;/a&gt;。McKinley售价60美元一次性买断，本周限时享受15%的发布折扣（价格降至仅51美元）。多么了不起的1.0版本。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;另见：&lt;/strong&gt; &lt;a href="https://mjtsai.com/blog/2026/09/07/mckinley-1-0/"&gt;Michael Tsai&lt;/a&gt;；&lt;a href="https://mastodon.social/@amyworrall/117229433095095428"&gt;Worrall在Mastodon上&lt;/a&gt;。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/09/07/mckinley" title="Permanent link to ‘McKinley 1.0’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Mon, 07 Sep 2026 20:00:00 +0000</pubDate></item><item><title>Matt Birchler 对可折叠 iPhone 的预测</title><link>https://birchtree.me/blog/my-folding-iphone-predictions/</link><description>&lt;p&gt;Matt Birchler写道：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;一位维基百科编辑说得好：“你几乎想拍拍他们的脑袋说‘是的，当然会改’，就像你哄小孩说圣诞老人会来送礼物一样。”&lt;/p&gt;
+&lt;p&gt;所以，是的，我确实认为，尤其是今年，这款机型的销量将远远落后于18 Pro系列、普通版iPhone 18，可能还会落后于Air 2和18e。我认为明年也会因为类似的原因而落后。我不确定这是否会成为&lt;em&gt;最&lt;/em&gt;受欢迎的iPhone，但我不认为它会失败，而且我认为它在上市的头几年里每年销量都会增长（尤其是如果苹果能在此期间逐步降价的话）。&lt;/p&gt;
+&lt;p&gt;我的依据是折叠屏手机在安卓阵营中不断增长的市场份额，以及我个人使用一款与苹果即将发布的产品非常相似的设备的体验——我也有过自己的“顿悟时刻”，那种真正被击中的感觉。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;hr/&gt;
-&lt;ol&gt;
-&lt;li id="fn1-2026-09-07-maps"&gt;
-&lt;p&gt;而且，我强烈认为，传统名称应该保留可见，放在括号里，即使对美国用户来说，也应当保留一段时间，比如五年。如果一个不关注时事的人（愿上帝保佑他们）去谷歌地图或苹果地图上找安大略湖却找不到，他们会怎么想？ &lt;a href="https://daringfireball.net/#fnr1-2026-09-07-maps" title="跳回正文中脚注1。"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-</description><pubDate>Mon, 07 Sep 2026 16:31:55 +0000</pubDate></item><item><title>Meta AI 现在推出了 Mac 原生应用，看起来还不错</title><link>https://9to5mac.com/2026/08/19/meta-ai-is-now-available-as-a-more-capable-desktop-app-for-mac/</link><description>&lt;p&gt;Zac Hall 于8月19日为9to5Mac撰文写道：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href="https://ai.meta.com/meta-ai/assistant/"&gt;新版Meta AI桌面应用&lt;/a&gt;发布时为1.0测试版，安装后仅有16MB大小。根据初步检查，它原生运行于macOS 15或更高版本的Apple Silicon Mac上，采用AppKit和SwiftUI外壳，并使用WebKit来呈现更丰富的聊天内容。换句话说，这不是Electron应用，也不是重新打包的iPad版本。&lt;/p&gt;
-&lt;p&gt;它包含面向Mac的特定接口，使桌面体验比Meta AI移动应用更加强大。Quick Invoke使用Option-Space快捷键，在你当前正在进行的任何操作上方弹出一个精简的Meta AI输入框。另有一项独立的听写功能，让你按住快捷键说话，然后将识别出的文字输入到任何应用中，从Mail、文档到代码编辑器均可。&lt;/p&gt;
-&lt;p&gt;Meta AI还可以将另一个Mac窗口附加到对话中。在获得“屏幕录制”和“辅助功能”权限后，该应用会读取窗口中的可见文本，并截取屏幕截图以供下一个问题使用。就目前而言，这属于上下文收集，而非计算机控制。&lt;/p&gt;
+&lt;p&gt;Birchler在过去一个月左右的时间里一直在使用三星Galaxy Fold8——这款新机型抢先模仿了折叠屏iPhone的长宽比。所以他对这种大体相同的外形尺寸的第一手体验让我很感兴趣。但我完全不知道他所说的“折叠屏手机在安卓阵营中不断增长的市场份额”是什么意思。对于2025年，&lt;a href="https://counterpointresearch.com/en/insights/Foldable-Smartphone-Market-Set-for-20-percent-Growth-in-2026"&gt;Counterpoint&lt;/a&gt;和&lt;a href="https://www.trendforce.com/presscenter/news/20250722-12649.html"&gt;TrendForce&lt;/a&gt;都认为折叠屏手机只占全球市场的1.6%。就&lt;em&gt;在今天&lt;/em&gt;，&lt;a href="https://counterpointresearch.com/en/insights/global-foldable-shipments-to-hit-100-million-cumulative-milestone-by-end-of-2026"&gt;Counterpoint发布了一份报告&lt;/a&gt;，称“折叠屏手机目前仍只占整个智能手机市场约2%的份额，这一品类还有很大的增长空间。”&lt;/p&gt;
+&lt;p&gt;凭个人经验，我觉得这2%的数字令人难以置信。注意到人们用的是什么手机是我的天性，在我所见的人中，绝不可能每50人里就有1人用折叠屏手机。我甚至觉得每100人里都不到1个。最近一次度假时，我在机场和我们入住的度假酒店里都没看到一部折叠屏手机。显然，我个人的轶事数据可能完全不准，但我认为“2%”这个数字已经很慷慨了——而且，如果这个数字准确的话，估计几乎全部来自美国以外。这就像在iPhone问世之前说“触屏手机”的“市场份额在增长”一样。从0.1%增长到0.2%是翻了一倍，但份额仍然微乎其微。&lt;/p&gt;
+&lt;p&gt;关于命名，Birchler随口提了一个不错的建议：&lt;/p&gt;&lt;blockquote&gt;
+&lt;p&gt;最后，还有名字的问题。似乎所有人都认为它会叫 iPhone Ultra，如果要押注的话，我想我也会押这个名字。&lt;/p&gt;
+&lt;p&gt;但我就是不喜欢。我不喜欢它，是因为它在很多方面都算不上“Ultra”；也不喜欢它，是因为一两年后如果出了更大的版本，你又该叫它什么？Ultra Max？也许你会这么叫……&lt;/p&gt;
+&lt;p&gt;我个人觉得它应该叫 iPhone Folio。我觉得自己有99%的概率会猜错，但嘿，万一我真猜对了，那岂不是很酷？&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;它也通过了“设置窗口”的基本检查——它确实有一个设置窗口。Meta作为一家机构，似乎更青睐原生Mac应用，&lt;a href="https://daringfireball.net/2025/11/meta_whatsapp_windows_shitty_web_app"&gt;而非原生Windows应用&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;更新：&lt;/strong&gt;这款Mac应用&lt;em&gt;并未&lt;/em&gt;在App Store上架。你需要从Meta的网页直接下载，使用&lt;a href="https://daringfireball.net/misc/2026/09/meta-ai-mac-download-link.png"&gt;“下载Mac版（Beta）”链接&lt;/a&gt;。ChatGPT和Claude的Mac应用同样不在Mac App Store中——它们所做的许多事超出了App Store强制性&lt;a href="https://news.ycombinator.com/item?id=16351522"&gt;沙盒&lt;/a&gt;的范围（并且所使用的API在App Store中可能也需要特殊授权）。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/09/06/meta-ai-mac-app" title="Permanent link to ‘Meta AI Has a Native Mac App Now, and It Seems Decent’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sun, 06 Sep 2026 20:44:27 +0000</pubDate></item><item><title>WorkOS：如何赋予Agent任务，而非令牌</title><link>https://workos.com/blog/delegated-access-for-ai-agents?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q32026</link><description>&lt;p&gt;感谢 WorkOS 再次赞助 Daring Fireball。给智能体一个访问令牌，它就会扩散：进入上下文窗口，进入工具调用日志，进入它在步骤之间保存的笔记。每份副本都能在任何地方运行，并且在事后很久依然有效。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://workos.com/docs/pipes/relay?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q32026&amp;amp;utm_content=docs"&gt;Relay&lt;/a&gt; 将凭据保存在 WorkOS。你的智能体指定用户，WorkOS 会附加该令牌、刷新它，并且只将其发放给白名单主机。被劫持的智能体会话就是一个你可以终止的活跃进程。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://workos.com/blog/delegated-access-for-ai-agents?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q32026"&gt;了解其工作原理&lt;/a&gt;，详见 WorkOS 的博客。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/09/06/workos-agent-task" title="Permanent link to ‘WorkOS: How to Give an Agent a Task Instead of a Token’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sun, 06 Sep 2026 19:06:27 +0000</pubDate></item></channel></rss>
+&lt;p&gt;“Folio”这个名字的问题在于，它只是对形态的描述，而没有传达出应有的感觉。我押注“Ultra”，但我&lt;a href="https://daringfireball.net/linked/2026/04/14/name-of-foldable-iphone"&gt;仍然支持“Duo”&lt;/a&gt;，这个名字&lt;a href="https://everymac.com/systems/apple/powerbook_duo/index-powerbook-duo.html"&gt;有一些历史渊源&lt;/a&gt;，&lt;em&gt;而且&lt;/em&gt;听起来和“Neo”是很好的搭配。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/09/07/birchler-folding-iphone-predictions" title="Permanent link to ‘Matt Birchler’s Folding iPhone Predictions’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Mon, 07 Sep 2026 19:59:36 +0000</pubDate></item></channel></rss>
