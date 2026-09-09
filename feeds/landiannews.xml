@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 09 Sep 2026 06:27:06 +0000</lastBuildDate><item><title>[已完成修复] 微信爆出高危漏洞 只需要发起通话(无需接听)即可控制对方账号</title><link>https://www.landian.news/archives/126782.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 09 Sep 2026 13:43:55 +0000</lastBuildDate><item><title>[价格公布] DS V4 Pro将被自动路由到V4.1 Flash模型 性能/费用/速度均超过V4 Pro</title><link>https://www.landian.news/archives/126783.html</link><description>
+&lt;p&gt;#人工智能 DS V4 Pro 将被自动路由到 DS V4.1 Flash 模型，性能 / 费用 / 速度均超过 V4 Pro。价格更便宜、性能提升：深度求索在 DS V4.1 Flash 正式发布后，将 API 平台调用的 DS V4 Pro 自动路由到 DS V4.1 Flash。当 DS 4.1 Pro 发布后，继续调用 DS V4 Pro 的用户将被路由到 DS V4.1 Pro，而不是继续路由到 DS V4.1 Flash。查看全文：https://ourl.co/126783&lt;/p&gt;&lt;p&gt;据深度求索在 DS 控制台挂上的通知，深度求索计划在 9 月 10 日前后正式发布 DS V4.1 Flash 模型，该模型在性能、费用、速度、总用时等各项指标上均全面超越 DS V4 Pro 模型。&lt;/p&gt;
+&lt;p&gt;有鉴于此，深度求索决定在 DS V4.1 Flash 发布后将用户端发出的 V4 Pro 请求全部自动路由到 DS V4.1 Flash，并且价格上也会直接按照 DS V4.1 Flash 进行计费，用户实际使用成本也会更低。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126783U.png" rel="nofollow"&gt;&lt;img alt="[价格公布] DS V4 Pro将被自动路由到V4.1 Flash模型 性能/费用/速度均超过V4 Pro" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126783U.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;DS V4.1 Flash 中间版本目前已经可以在 API 平台调用，用户只需要将模型名称修改为 deepseek-v4.1-flash-expires-on-0910 即可，该版本响应速度快且 token 效率非常高，正式版上线后估计没这么快。&lt;/p&gt;
+&lt;p&gt;深度求索也希望用户在使用过程中提交反馈，DS V4.1 Flash 调用价格为新价格，与DS V4 Pro 不同，具体价格可以参考 DeepSeek API 平台，下面列举的价格仅供参考，随着时间推移可能会不准确。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;闲时缓存命中：0.20 元&lt;/li&gt;
+&lt;li&gt;闲时缓存未命中：1.00 元&lt;/li&gt;
+&lt;li&gt;闲时输出： 4.00 元&lt;/li&gt;
+&lt;li&gt;高峰缓存命中：0.04 元&lt;/li&gt;
+&lt;li&gt;高峰缓存未命中：2.00 元&lt;/li&gt;
+&lt;li&gt;高峰输出：8.00 元&lt;/li&gt;
+&lt;li&gt;高峰时段：工作日 09:00~12:00 / 14:00~18:00 其他时段均为闲时&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 09 Sep 2026 13:43:55 +0000</pubDate></item><item><title>[已完成修复] 微信爆出高危漏洞 只需要发起通话(无需接听)即可控制对方账号</title><link>https://www.landian.news/archives/126782.html</link><description>
 &lt;p&gt;#安全资讯 [已修复] 微信被爆超高危安全漏洞，只需要向你发起视频通话，数秒后即可接管你的账号，不需要你接听。目前腾讯已经修复该漏洞，所以研究人员披露该漏洞的少量细节。漏洞位于 VoIP 通话组件中，研究人员开发了名为 WeWorm 的蠕虫病毒，可以攻击目标后接管受害者微信账号。接下来再读取受害者好友清单，继续发起攻击。该漏洞可以完全接管微信账号并读取和发送消息，但不能直接接管整个设备。如果要接管 Android 或 iOS 并获得系统级权限，那攻击者还需要配合使用其他安全漏洞。查看全文：https://ourl.co/126782&lt;/p&gt;&lt;p&gt;网络安全公司 Calif 日前公布针对微信及微信国际版 WeChat 的安全研究报告，研究人员使用 AI 辅助发现并开发针对微信的零点击攻击链，随后研究人员制作名为 WeWorm 的概念验证蠕虫。攻击者借助漏洞只需要向目标用户发起视频通话，即便对方不接听也可以在数秒内直接接管对方账号。&lt;/p&gt;
 &lt;p&gt;接管对方账号后可以继续向该账号的通讯录继续发起攻击，理论上说这个漏洞可以造成大范围微信劫持问题，不过目前腾讯已经在服务器上修复漏洞因此无法继续发起攻击。研究人员计划在后续安全会议上详细公布漏洞细节。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126782.png" rel="nofollow"&gt;&lt;img alt="[已完成修复] 微信爆出高危漏洞 只需要发起通话(无需接听)即可控制对方账号" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126782.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -127,15 +145,15 @@
 &lt;p&gt;下载更新：&lt;a href="https://www.landian.news/go?url=https://catalog.update.microsoft.com/Search.aspx?q=KB5124008" rel="noopener" target="_blank"&gt;https://catalog.update.microsoft.com/Search.aspx?q=KB5124008&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 </description><pubDate>Wed, 09 Sep 2026 03:17:54 +0000</pubDate></item><item><title>即日起谷歌浏览器改成每两周发布新版本 以快速提供安全更新修复漏洞</title><link>https://www.landian.news/archives/126777.html</link><description>
-&lt;p&gt;#软件资讯 即日起谷歌浏览器改成每两周发布新版本，以快速提供安全更新修复漏洞。今天谷歌推出 Chrome 153 版，也是从今天开始后续每两周谷歌将发布新的正式版。这里的更新指的是大版本而非子版本更新，日常子版本更新谷歌会按照需要继续发布。其他版本例如企业扩展稳定版和测试版保持原有更迭节奏。查看全文：https://ourl.co/126777&lt;/p&gt;&lt;p&gt;此前谷歌已经预告将从 Chrome 153 版开始改成每两周发布新版本，这里的新版本特指大版本更新而非子版本安全更新。调整更迭计划的主要原因是人工智能技术的发展，通过人工智能发现的漏洞越来越多因此需要更快进行修复。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/public/thumb/chrome.png" rel="nofollow"&gt;&lt;img alt="即日起谷歌浏览器改成每两周发布新版本 以快速提供安全更新修复漏洞" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/public/thumb/chrome.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;以前谷歌浏览器稳定版更迭周期为每月更新，扩展稳定版渠道每两个月更新，现在常规稳定版改成每两周更新，这样用户可以更快收到包含安全更新的新版本，当然版本更新也包括功能增强。&lt;/p&gt;
-&lt;p&gt;谷歌称修改更迭周期后可以更快地提供安全更新和功能增强，同时还可以减少单个更新的体积和维护难度，让用户可以更快接收更新使用更安全、性能更好的新版本。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;此次调整仅适用于谷歌浏览器稳定版，而其他版本例如扩展稳定版以及测试版系列都保持原来的更迭节奏。企业用户建议继续使用扩展稳定版渠道，此类版本更迭频率较慢不需要频繁更新，但日常的安全更新还是要继续安装的。&lt;/p&gt;
-&lt;p&gt;今天谷歌已经推出 Chrome 153 正式版，还未收到更新提醒的用户可以点击菜单选项进入关于页面手动更新，更新时需要重启浏览器，重启完成后会自动打开之前的选项卡 (重启前先保存内容)。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;#è½¯ä»¶èµ„è®¯ å�³æ—¥èµ·è°·æ­Œæµ�è§ˆå™¨æ”¹æˆ�æ¯�ä¸¤å‘¨å�‘å¸ƒæ–°ç‰ˆæœ¬ï¼Œä»¥å¿«é€Ÿæ��ä¾›å®‰å…¨æ›´æ–°ä¿®å¤�æ¼�æ´�ã€‚ä»Šå¤©è°·æ­Œæ�¨å‡º Chrome 153 ç‰ˆï¼Œä¹Ÿæ˜¯ä»�ä»Šå¤©å¼€å§‹å��ç»­æ¯�ä¸¤å‘¨è°·æ­Œå°†å�‘å¸ƒæ–°çš„æ­£å¼�ç‰ˆã€‚è¿™é‡Œçš„æ›´æ–°æŒ‡çš„æ˜¯å¤§ç‰ˆæœ¬è€Œé��å­�ç‰ˆæœ¬æ›´æ–°ï¼Œæ—¥å¸¸å­�ç‰ˆæœ¬æ›´æ–°è°·æ­Œä¼šæŒ‰ç…§éœ€è¦�ç»§ç»­å�‘å¸ƒã€‚å…¶ä»–ç‰ˆæœ¬ä¾‹å¦‚ä¼�ä¸šæ‰©å±•ç¨³å®šç‰ˆå’Œæµ‹è¯•ç‰ˆä¿�æŒ�å�Ÿæœ‰æ›´è¿­èŠ‚å¥�ã€‚æŸ¥çœ‹å…¨æ–‡ï¼šhttps://ourl.co/126777&lt;/p&gt;&lt;p&gt;æ­¤å‰�è°·æ­Œå·²ç»�é¢„å‘Šå°†ä»� Chrome 153 ç‰ˆå¼€å§‹æ”¹æˆ�æ¯�ä¸¤å‘¨å�‘å¸ƒæ–°ç‰ˆæœ¬ï¼Œè¿™é‡Œçš„æ–°ç‰ˆæœ¬ç‰¹æŒ‡å¤§ç‰ˆæœ¬æ›´æ–°è€Œé��å­�ç‰ˆæœ¬å®‰å…¨æ›´æ–°ã€‚è°ƒæ•´æ›´è¿­è®¡åˆ’çš„ä¸»è¦�å�Ÿå› æ˜¯äººå·¥æ™ºèƒ½æŠ€æœ¯çš„å�‘å±•ï¼Œé€šè¿‡äººå·¥æ™ºèƒ½å�‘ç�°çš„æ¼�æ´�è¶Šæ�¥è¶Šå¤šå› æ­¤éœ€è¦�æ›´å¿«è¿›è¡Œä¿®å¤�ã€‚&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/public/thumb/chrome.png" rel="nofollow"&gt;&lt;img alt="å�³æ—¥èµ·è°·æ­Œæµ�è§ˆå™¨æ”¹æˆ�æ¯�ä¸¤å‘¨å�‘å¸ƒæ–°ç‰ˆæœ¬ ä»¥å¿«é€Ÿæ��ä¾›å®‰å…¨æ›´æ–°ä¿®å¤�æ¼�æ´�" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/public/thumb/chrome.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; ä¸»è¦�ç›®çš„å°±æ˜¯æ��é«˜æ¼�æ´�ä¿®å¤�é¢‘ç�‡ï¼š&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;ä»¥å‰�è°·æ­Œæµ�è§ˆå™¨ç¨³å®šç‰ˆæ›´è¿­å‘¨æœŸä¸ºæ¯�æœˆæ›´æ–°ï¼Œæ‰©å±•ç¨³å®šç‰ˆæ¸ é�“æ¯�ä¸¤ä¸ªæœˆæ›´æ–°ï¼Œç�°åœ¨å¸¸è§„ç¨³å®šç‰ˆæ”¹æˆ�æ¯�ä¸¤å‘¨æ›´æ–°ï¼Œè¿™æ ·ç”¨æˆ·å�¯ä»¥æ›´å¿«æ”¶åˆ°åŒ…å�«å®‰å…¨æ›´æ–°çš„æ–°ç‰ˆæœ¬ï¼Œå½“ç„¶ç‰ˆæœ¬æ›´æ–°ä¹ŸåŒ…æ‹¬åŠŸèƒ½å¢�å¼ºã€‚&lt;/p&gt;
+&lt;p&gt;è°·æ­Œç§°ä¿®æ”¹æ›´è¿­å‘¨æœŸå��å�¯ä»¥æ›´å¿«åœ°æ��ä¾›å®‰å…¨æ›´æ–°å’ŒåŠŸèƒ½å¢�å¼ºï¼Œå�Œæ—¶è¿˜å�¯ä»¥å‡�å°‘å�•ä¸ªæ›´æ–°çš„ä½“ç§¯å’Œç»´æŠ¤éš¾åº¦ï¼Œè®©ç”¨æˆ·å�¯ä»¥æ›´å¿«æ�¥æ”¶æ›´æ–°ä½¿ç”¨æ›´å®‰å…¨ã€�æ€§èƒ½æ›´å¥½çš„æ–°ç‰ˆæœ¬ã€‚&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; å…¶ä»–ç‰ˆæœ¬ä¿�æŒ�å�Ÿæ›´è¿­èŠ‚å¥�ï¼š&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;æ­¤æ¬¡è°ƒæ•´ä»…é€‚ç”¨äº�è°·æ­Œæµ�è§ˆå™¨ç¨³å®šç‰ˆï¼Œè€Œå…¶ä»–ç‰ˆæœ¬ä¾‹å¦‚æ‰©å±•ç¨³å®šç‰ˆä»¥å�Šæµ‹è¯•ç‰ˆç³»åˆ—éƒ½ä¿�æŒ�å�Ÿæ�¥çš„æ›´è¿­èŠ‚å¥�ã€‚ä¼�ä¸šç”¨æˆ·å»ºè®®ç»§ç»­ä½¿ç”¨æ‰©å±•ç¨³å®šç‰ˆæ¸ é�“ï¼Œæ­¤ç±»ç‰ˆæœ¬æ›´è¿­é¢‘ç�‡è¾ƒæ…¢ä¸�éœ€è¦�é¢‘ç¹�æ›´æ–°ï¼Œä½†æ—¥å¸¸çš„å®‰å…¨æ›´æ–°è¿˜æ˜¯è¦�ç»§ç»­å®‰è£…çš„ã€‚&lt;/p&gt;
+&lt;p&gt;ä»Šå¤©è°·æ­Œå·²ç»�æ�¨å‡º Chrome 153 æ­£å¼�ç‰ˆï¼Œè¿˜æœªæ”¶åˆ°æ›´æ–°æ��é†’çš„ç”¨æˆ·å�¯ä»¥ç‚¹å‡»è�œå�•é€‰é¡¹è¿›å…¥å…³äº�é¡µé�¢æ‰‹åŠ¨æ›´æ–°ï¼Œæ›´æ–°æ—¶éœ€è¦�é‡�å�¯æµ�è§ˆå™¨ï¼Œé‡�å�¯å®Œæˆ�å��ä¼šè‡ªåŠ¨æ‰“å¼€ä¹‹å‰�çš„é€‰é¡¹å�¡ (é‡�å�¯å‰�å…ˆä¿�å­˜å†…å®¹)ã€‚&lt;/p&gt;
+&lt;p aria-label="çƒ­é—¨æ�¨è��"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="ä»…éœ€99å…ƒ/å¹´ï¼Œç¡…è°·CN2GIAæœ�åŠ¡å™¨ï¼Œå�¦æœ‰3å¹´ç‰ˆä»…éœ€528å…ƒï¼Œé™�é‡�é”€å”®ï¼Œå”®å®Œå�³æ­¢"&gt;çƒ­é—¨æ�¨è��ä»…éœ€99å…ƒ/å¹´ï¼Œç¡…è°·CN2GIAæœ�åŠ¡å™¨ï¼Œå�¦æœ‰3å¹´ç‰ˆä»…éœ€528å…ƒï¼Œé™�é‡�é”€å”®ï¼Œå”®å®Œå�³æ­¢&lt;span aria-hidden="true"&gt;ä»…éœ€99å…ƒ/å¹´ï¼Œç¡…è°·CN2GIAæœ�åŠ¡å™¨ï¼Œå�¦æœ‰3å¹´ç‰ˆä»…éœ€528å…ƒï¼Œé™�é‡�é”€å”®ï¼Œå”®å®Œå�³æ­¢&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 </description><pubDate>Wed, 09 Sep 2026 03:03:56 +0000</pubDate></item><item><title>拖延症严重的微软终于准备为 Windows 11 开发深浅色自动切换功能</title><link>https://www.landian.news/archives/126776.html</link><description>
 &lt;p&gt;#系统资讯 拖延症严重的微软终于准备为 Windows 11 开发深浅色自动切换，用户可以编排时间或根据用户所在地日出日落时间自动切换。主流操作系统都提供深浅色模式和自动切换，但 Windows 11 到现在还不能自动切换，用户要么手动切换要么靠第三方软件。现在微软终于准备提供系统级的自动切换功能。查看全文：https://ourl.co/126776&lt;/p&gt;&lt;p&gt;不得不佩服微软，如此简单的功能拖了 N 年终于准备开发：Windows 11 预览版目前出现大量与自动主题切换相关的字符串，其中包括计划自动模式，而其他字符串则表明 Windows 11 将可以根据用户所在地的日出日落时间在浅色和深色模式之间切换。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126776.png" rel="nofollow"&gt;&lt;img alt="拖延症严重的微软终于准备为 Windows 11 开发深浅色自动切换功能" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126776.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -166,15 +184,4 @@
 &lt;p&gt;
 &lt;ins data-ad-client="ca-pub-8597288383599884" data-ad-format="auto" data-ad-slot="1551135873" data-full-width-responsive="true"&gt;&lt;/ins&gt;
 &lt;/p&gt;&lt;popup module-class="point-pay-module" ref="pointPayRef"&gt;&lt;point-pay-popup @close-point-pay-popup="closePointPay"&gt;&lt;/point-pay-popup&gt;&lt;/popup&gt; &lt;/article&gt;
-</description><pubDate>Wed, 09 Sep 2026 02:33:50 +0000</pubDate></item><item><title>Asahi Linux正式支持苹果M3系列设备 多数硬件已经可以使用 但GPU和休眠还未完成</title><link>https://www.landian.news/archives/126774.html</link><description>
-&lt;p&gt;#系统资讯 Asahi Linux 正式支持苹果 M3 系列设备，多数硬件已经可以正常使用，但 GPU 和休眠等功能还未完成。目前最大的问题就是 GPU 和完整的 DCP 显示控制器支持，由于完整的 DCP 支持尚未接入，目前搭载 M3 芯片的设备无法正常休眠。另外配备 HDMI 接口的 MacBook 暂时也无法使用该接口，这些还需要团队继续工作。查看全文：https://ourl.co/126774&lt;/p&gt;&lt;p&gt;Asahi Linux 团队日前宣布，针对苹果 M3 系列芯片的支持目前已经合并到官方安装器，这意味着搭载 M3 系列芯片的设备现在都已经正式进入支持范围。经过长期逆向工程后，目前 M3 设备上大多数此前已经在 M1/M2 设备上可以工作的功能都可以正常使用。&lt;/p&gt;
-&lt;p&gt;需要说明的是 Asahi Linux 本身并非独立的发行版，团队主要负责搭载 M 芯片的设备开发和上游化 Linux 内核、驱动程序以及启动支持。目前普通用户主要可以通过 Fedora Asahi Remix 使用这些成果。Linux Kernel 7.2 也已经合并首批 M3 平台支持，后续代码还会继续进入主线内核。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/08/110428.png" rel="nofollow"&gt;&lt;img alt="Asahi Linux正式支持苹果M3系列设备 多数硬件已经可以使用 但GPU和休眠还未完成" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/08/110428.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;目前已经可以正常工作的包括内置摄像头、麦克风、WiFi、蓝牙以及 USB。其中 USB 目前仅支持 USB 3 10Gbps 速度，视频方面支持硬件加速解码，包括 M3 系列新增支持的 AV1 编解码器。&lt;/p&gt;
-&lt;p&gt;M3 Pro 和 Max 使用新的 ACE3 USB 控制方案，苹果将接口从 I2C 改为 SPMI，因此开发团队此前需要重新逆向相关硬件。随着 SPMI 和 ACE3 驱动完成，M3 系列设备的 USB 3 和 Thunderbolt 支持也已经基本打通。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;目前最大的缺口是 GPU 和完整的 DCP 显示控制器支持，Asahi Linux 团队明确提醒：现阶段不要期待在 M3 上获得高性能或高能效的 3D 加速支持，相关 GPU 方面的工作仍然在继续中。&lt;/p&gt;
-&lt;p&gt;由于完整 DCP 支持尚未接入，搭载 M3 芯片的 Mac 也无法正常休眠，部分配备 HDMI 接口的 MacBook 暂时无法使用该接口。Asahi Linux 团队称，M3 使用的 DCP 固件与前代存在较大变化，目前适配工作已经接近 M1/M2 所使用的旧接口的功能水平。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 09 Sep 2026 02:05:54 +0000</pubDate></item></channel></rss>
+</description><pubDate>Wed, 09 Sep 2026 02:33:50 +0000</pubDate></item></channel></rss>
