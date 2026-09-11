@@ -1,5 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 10 Sep 2026 07:10:44 +0000</lastBuildDate><item><title>智谱联合杭州市政府推出Coding Plan普惠行动 购买年卡享受51%政府补贴</title><link>https://www.landian.news/archives/126793.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Fri, 11 Sep 2026 04:49:27 +0000</lastBuildDate><item><title>6啊！谷歌宣布安卓新增系统级密码管理器迁移 连Passkey通行密钥也可以无损迁移</title><link>https://www.landian.news/archives/126847.html</link><description>
+&lt;p&gt;#系统资讯 6 啊！谷歌基于 FIDO 标准化的凭证交换格式开发安卓系统级密码迁移功能，安卓作为媒介，让用户可以在其他密码管理器之间迁移数据，支持通行密钥迁移。该功能支持 Android 8 及更高版本，具体受 Google Play 服务版本影响。首批适配支持的密码管理器包括谷歌密码管理器、1Password、Bitwarden 和 Dashlane。查看全文：https://ourl.co/126847&lt;/p&gt;&lt;p&gt;此前谷歌已经测试过安卓系统内置密码管理器与其他密码管理器之间迁移数据，对密码管理器而言最麻烦的其实是迁移通行密钥，总不能迁移密码管理器后要求用户重新打开每个网站生成和换绑新的通行密钥，这样实在是太麻烦。&lt;/p&gt;
+&lt;p&gt;所以谷歌现在带来基于安卓系统的密码管理器迁移功能，这套机制使用标准化的 FIDO 凭证交换格式，可以让不同密码管理器之间实现更安全的数据迁移，用户更换密码管理器时将更加简单。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126847-1.png" rel="nofollow"&gt;&lt;img alt="6啊！谷歌宣布安卓新增系统级密码管理器迁移 连Passkey通行密钥也可以无损迁移" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126847-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;新的迁移流程由新密码管理器发起，用户在目标应用中选择导入或复制密码和通行密钥后，安卓系统会自动识别设备上已经安装的其他密码管理器，用户选择来源密码管理器和目标密码管理器即可。&lt;/p&gt;
+&lt;p&gt;之后系统会跳转到原密码管理器，由用户再次查看、确认和授权转移内容，授权后即可导出数据，然后再由两个密码管理器通过安卓系统的凭证交换接口完成数据切换，包括通行密钥都可以安全迁移。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126847-2.png" rel="nofollow"&gt;&lt;img alt="6啊！谷歌宣布安卓新增系统级密码管理器迁移 连Passkey通行密钥也可以无损迁移" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126847-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;谷歌强调，这套迁移流程不会将原始凭证暴露给安卓系统或未经授权的应用，凭证转移接口支持用户名、密码、通行密钥、地址、自定义字段、API 密钥以及银行卡信息等多种数据类型。&lt;/p&gt;
+&lt;p&gt;密码管理器也可以根据自身支持情况决定实际可以转移的内容，由于这套机制本身基于 FIDO 联盟的凭证交换格式，因此全程数据安全，只不过也需要其他密码管理器适配这套格式。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Google Password Manager / 谷歌密码管理器&lt;/li&gt;
+&lt;li&gt;1Password&lt;/li&gt;
+&lt;li&gt;Bitwarden Password Manager&lt;/li&gt;
+&lt;li&gt;Dashlane&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;需要注意的是用户必须升级到最新版，因为这些密码管理器通过新版本适配 FIDO 凭证交换接口，如果使用旧版本会存在兼容性问题。而且不同密码管理器支持的数据字段不同，例如有些可能无法转移安全笔记、附件、银行卡信息和其他自定义项目。&lt;/p&gt;
+&lt;p&gt;这个功能将覆盖 Android 8 及更高版本，不过实际可用性取决于设备是否安装 Google Play 服务、密码管理器版本、OEM 系统定制策略和地区策略影响，这个只能用户自行安装进行测试。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://blog.google/products-and-platforms/platforms/android/switch-password-managers/" rel="noopener" target="_blank"&gt;Google&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 11 Sep 2026 04:49:27 +0000</pubDate></item><item><title>Excel最新安全更新导致复制粘贴和公式拖动受影响 目前建议是直接删除更新恢复使用</title><link>https://www.landian.news/archives/126846.html</link><description>
+&lt;p&gt;#软件资讯 9 月安全更新导致 Excel 多个功能出现异常，影响大量用户的正常办公，目前只能先卸载更新恢复使用。出现问题的是 KB5002914 安全更新，该更新修复远程代码执行和信息泄露问题。不过安装后 Excel 复制粘贴、拖动公式执行计算、单元格移动等多项功能异常。微软当前只确认复制粘贴有问题，其他问题尚未确认。查看全文：https://ourl.co/126846&lt;/p&gt;&lt;p&gt;微软在本周向所有受支持的产品发布最新安全更新，办公软件里 Microsoft 365 各个组件也收到安全更新，不过面向 Excel 提供的安全更新 KB5002914 存在严重问题，安装后会导致 Excel 无法正常复制粘贴和使用公式拖动进行计算。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126846.png" rel="nofollow"&gt;&lt;img alt="Excel最新安全更新导致复制粘贴和公式拖动受影响 目前建议是直接删除更新恢复使用" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126846.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;KB5002914 于 2026 年 9 月 9 日随 Microsoft 365 安全更新发布，主要用于修复 Excel 中的远程代码执行和信息泄露问题。微软官方支持文档称，该更新适用于 Excel 2016，但目前从用户反馈来看所有版本都受影响，包括 Excel 2016/2019/2021/2024 等。&lt;/p&gt;
+&lt;p&gt;微软在更新说明中表示，受影响的用户执行粘贴操作时，源单元格仍然保持选中状态、目标位置则不会出现任何内容，系统也不会弹出任何错误提示或者发出操作提示音。目前微软仅确认复制粘贴有问题，而用户反馈的公式拖动问题还未被确认。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;从社区反馈来看，安装更新后 Excel 中拖动公式进行数据计算、移动单元格等操作也会出现异常。有用户称 Excel 进程在执行粘贴等操作后会发生崩溃并快速自动重启，因此表面上看起来就像是操作没有反应，Excel 前端界面并没有崩溃重启。&lt;/p&gt;
+&lt;p&gt;由于微软当前并未提供临时解决方案，对于办公用户而言当前最简单的修复方法就是卸载更新，卸载更新并重启系统后 Excel 可以正常使用。只不过这类安全更新包含大量漏洞修复，企业 IT 管理员还需要评估潜在的安全风险。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 11 Sep 2026 04:27:35 +0000</pubDate></item><item><title>微软建议用户不要再使用slmgr.vbs激活系统 应该转向现代化的PowerShell</title><link>https://www.landian.news/archives/126845.html</link><description>
+&lt;p&gt;#系统资讯 微软建议用户不要再使用 slmgr.vbs 脚本激活系统，应该转向现代化的 PowerShell。当然这是面向 IT 管理员的，微软称 VBScript 将被逐渐弃用，因此企业现有工作流可能会出现问题。经常激活系统的用户应该都知道网上流传的各类 MAK KEY，这类 KEY 可以直接使用 slmgr 命令安装和在线激活。查看全文：https://ourl.co/126845&lt;/p&gt;&lt;p&gt;微软近日提醒企业 IT 管理员应该重新评估基于 slmgr.vbs 的激活自动化流程，微软的建议是企业应使用 PowerShell 等现代化管理方式。VBScript 目前正在被逐步弃用，因此基于依赖 slmgr.vbs 激活脚本可能影响未来系统中的激活、授权查询和批量部署流程。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126845.png" rel="nofollow"&gt;&lt;img alt="微软建议用户不要再使用slmgr.vbs激活系统 应该转向现代化的PowerShell" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126845.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;经常激活系统的用户都知道网上有时候会出现各类神 K：即包含大量剩余激活次数的 MAK KEY 批量授权密钥，这类密钥使用方法非常简单，不需要下载其他工具、不需要修改系统设置、保持正常联网，然后使用 slmgr /ipk XXXX 安装密钥、再使用 slmgr /ato 激活系统即可，操作完成后再使用 slmgr /dlv 查看当前授权状态。&lt;/p&gt;
+&lt;p&gt;这里使用的激活命令底层就是 slmgr.vbs 脚本，这是微软内置在系统里的许可管理脚本，长期被用于查看激活状态、安装产品密钥、配置 KMS 服务器以及执行在线激活等操作。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;slmgr.vbs 底层依赖 VBScript 脚本引擎，该引擎由于太老且存在安全问题，微软已经将其降级为可选功能不再默认安装，未来某个时候微软会将其彻底从系统里删除。&lt;/p&gt;
+&lt;p&gt;现阶段 IT 管理员仍然可以使用 slmgr.vbs 激活和管理系统，但在 Windows 11 新版本中 VBS 脚本引擎可能是默认没安装的，所以执行激活前还需要先启用可选功能。当未来引擎被删除后，现有的自动化工作流就会直接失效。&lt;/p&gt;
+&lt;p&gt;微软的建议是 IT 管理员应该使用 PowerShell 配合 WMI、CIM 和软件授权相关接口完成激活状态查询和自动化管理，这类工具也会记录详细的日志，方便后续进行审计等。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://techcommunity.microsoft.com/blog/windows-itpro-blog/keep-windows-activation-automation-working-with-powershell/4540459" rel="noopener" target="_blank"&gt;Microsoft&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 11 Sep 2026 04:17:42 +0000</pubDate></item><item><title>Ubuntu 24.04 LTS最终版发布：24.04.5 后续不会再有新维护版本 但可以继续接收安全更新</title><link>https://www.landian.news/archives/126797.html</link><description>
+&lt;p&gt;#系统资讯 Ubuntu 24.04 LTS 最终版发布：24.04.5 版。Ubuntu 发行习惯就是.5 后不再继续发布维护版，所以后续没有.6 版。不过 24.04 的支持周期还很长，标准维护支持到 2029 年 5 月，使用该版本的用户只需要保持日常更新即可。Canonical 也已经发布 24.04.5 的最新安装镜像，准备安装系统的用户可以直接下载新镜像。下载地址：https://ourl.co/126797&lt;/p&gt;&lt;p&gt;操作系统开发商 Canonical 日前发布 Ubuntu 24.04.5 LTS 版并推出最新版安装镜像，按照 Ubuntu 发行版的开发习惯，24.04.5 为最终版本因此后续不会再有 24.04.6 这类维护版本，但用户可以继续使用并接收安全更新。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2024/03/102928-6.jpg" rel="nofollow"&gt;&lt;img alt="Ubuntu 24.04 LTS最终版发布：24.04.5 后续不会再有新维护版本 但可以继续接收安全更新" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2024/03/102928-6.jpg"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Ubuntu 24.04.5 LTS 属于维护版本并集成过去所有的安全更新和硬件支持组件，仍然准备安装 24.04 系列的用户可以直接下载最新版镜像安装，安装后就不需要再更新大批软件包和安全补丁。&lt;/p&gt;
+&lt;p&gt;现有用户也可以通过系统升级指令升级到最新版，系统将只下载安装增量部分，因此保持更新习惯的用户不会下载太多的数据：&lt;code&gt;sudo apt update &amp;amp;&amp;amp; sudo apt full-upgrade&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;有需要下载最新版镜像的用户也可以通过镜像站下载，例如清华大学开源镜像站：&lt;em&gt;&lt;a href="https://www.landian.news/go?url=https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/24.04.5/" rel="noopener" target="_blank"&gt;https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/24.04.5/&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Ubuntu 24.04.5 LTS 主要变化集中在硬件启用堆栈 (HWE)，该版本使用基于 Linux Kernel 7.0 的硬件启用堆栈内核，内核分支则来自 Ubuntu 26.04 LTS 版，重点改善硬件的兼容性，带来更新的显卡、网络、存储和处理器支持。&lt;/p&gt;
+&lt;p&gt;图形堆栈方面，Ubuntu 24.04.5 LTS 更新至 Mesa 26.2 版，同步带来新版开源图形驱动程序。新版本有望改善 Vulkan、OpenGL、视频加速和游戏的兼容性，当然具体还得取决于用户使用的硬件。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; Ubuntu 24.04.5 LTS 支持到 2029 年 5 月：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Ubuntu 24.04 LTS 系列的标准安全维护将持续到 2029 年 5 月 31 日，对于普通用户而言如果不想升级后续版本那也可以继续使用维护版本并安装安全更新，短时间内不升级是没问题的。&lt;/p&gt;
+&lt;p&gt;如果订阅 Ubuntu Pro 则可以将安全维护延长到 2034 年，每名 Canonical 用户可以免费获得 5 台设备支持，所以服务器不多的用户也可以注册账号开通 Ubuntu Pro 免费获得 5 台设备的扩展支持维护。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 11 Sep 2026 03:59:46 +0000</pubDate></item><item><title>谷歌推出Gemini for Windows桌面版 用户可以通过快捷键快速调用AI助手</title><link>https://www.landian.news/archives/126796.html</link><description>
+&lt;p&gt;#软件资讯 谷歌推出 Gemini for Windows 桌面版，可以通过 Alt+Space 快速调用 AI 助手处理内容。Gemini 桌面版可以查看当前窗口或整个屏幕，例如打开网页时调用 Gemini 总结网页内容或撰写内容。桌面版的好处是可以随时调用，不需要像网页版那样先将文件发过去处理再下载到本地。下载地址：https://ourl.co/126796&lt;/p&gt;&lt;p&gt;谷歌已经在 2026 年 4 月推出 Gemini for macOS 桌面版，现在 Gemini for Windows 版也终于发布，也添加快捷键组合让用户可以通过键盘操作快速调用 AI 助手在不同的应用里处理工作。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126796.png" rel="nofollow"&gt;&lt;img alt="谷歌推出Gemini for Windows桌面版 用户可以通过快捷键快速调用AI助手" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126796.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Gemini 桌面版提供 Alt+Space 或 Option+Space 快捷键组合设置，用户在任何界面都可以通过快捷键调用 Gemini。这意味着用户不需要单独打开浏览器或切换网页，就可以直接在文档、浏览器、办公软件或其他软件里调用 Gemini 执行操作。&lt;/p&gt;
+&lt;p&gt;例如用户打开 Excel 处理数据时可以调用 Gemini 填写公式、计算数据、生成精美图表等，这样用户也不用把文件发给 Gemini、处理后再下载到本地，所以最终效果没变化，但操作效率可以大幅度提升。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Gemini 桌面版支持屏幕共享，用户可以让 Gemini 查看当前窗口或整个屏幕内容，然后根据屏幕内容回答问题。例如用户可以要求总结正在阅读的文档、解释表格内容、提炼演示文稿要点，或针对当前应用中的信息提供建议等。&lt;/p&gt;
+&lt;p&gt;谷歌还将 Google Lens 集成到桌面版中，用户可以选择屏幕上的部分区域进行识别和提问。除了分析屏幕内容外，桌面版还可以查找电脑中的应用文件、搜索谷歌云端硬盘中的内容等。&lt;/p&gt;
+&lt;p&gt;有兴趣的用户可以在这里下载 Gemini for Windows：&lt;a href="https://www.landian.news/go?url=https://gemini.google/us/desktop/?hl=en" rel="noopener" target="_blank"&gt;https://gemini.google/us/desktop/?hl=en&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 11 Sep 2026 03:38:26 +0000</pubDate></item><item><title>社交网站X调整搜索API定价 从每1,000次搜索5美元换成每获取1,000条结果收费5美元</title><link>https://www.landian.news/archives/126795.html</link><description>
+&lt;p&gt;#网站应用 SpaceXAI 将在 9 月 21 日调整 X/Twitter 搜索 API 定价模式，从按次收费变成按结果收费，部分使用场景成本可能会显著增加。当前计费模式是每调用 1,000 次搜索工具收费 5 美元，后续将改成调用搜索工具免费，但想要获取搜索结果按照获取帖子数量计费，每 1,000 条 5 美元。查看全文：https://ourl.co/126795&lt;/p&gt;&lt;p&gt;SpaceXAI 宣布从 2026 年 9 月 21 日起调整社交网站 X/Twitter 搜索 API 定价机制，当前搜索 API 定价机制为每 1,000 次搜索收费 5 美元，即每次搜索 0.005 美元，具体账单取决于开发者实际调用的搜索次数。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/public/thumb/X.png" rel="nofollow"&gt;&lt;img alt="社交网站X调整搜索API定价 从每1000次搜索5美元换成每获取1000条结果收费5美元" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/public/thumb/X.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;根据 SpaceXAI 公布的信息，搜索 API 后续将切换收费机制为按结果付费，搜索 API 提供关键词后会返回大量帖子内容，新收费机制按照开发者获取帖子内容的数量来计费，比如获取 1,000 条帖子收费 5 美元。&lt;/p&gt;
+&lt;p&gt;这种收费机制听起来有些奇怪，搜索 API 提供的结果取决于关键词和算法匹配等，有可能返回的结果比较差，或者因开发者提供的关键词匹配度不够高，这种情况下开发者无法从前 10 或者前 100 获取想要的内容。&lt;/p&gt;
+&lt;p&gt;如果想要获得更多匹配内容那就得获取更多搜索结果，X 搜索 API 就是改成这种按照获取结果 (帖子) 数量来计费，对某些使用场景来说这可能会显著增加成本，所以调用搜索 API 的开发者可能需要提前测试和规划用量。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;切换时间：2026 年 9 月 21 日&lt;/li&gt;
+&lt;li&gt;当前定价：每 1,000 次搜索工具调用收费 5 美元，或每次 0.005 美元&lt;/li&gt;
+&lt;li&gt;新版定价：每获取 1,000 条搜索结果帖子收费 5 美元，或每条 0.005 美元&lt;/li&gt;
+&lt;li&gt;新版定价：每获取 1,000 名用户账号主页收费 5 美元，或每名用户 0.005 美元&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 11 Sep 2026 03:22:24 +0000</pubDate></item><item><title>因计算容量不足 OpenAI暂停ChatGPT Pro 20x开通 现有订阅可以继续使用</title><link>https://www.landian.news/archives/126794.html</link><description>
+&lt;p&gt;#人工智能 因计算容量不足，OpenAI 暂停 ChatGPT Pro 20x 版开通，已经开通的用户可以正常使用并续订。目前 ChatGPT 网页版已经无法开通 20x 版，通过 iOS 商店内购还有 20x 选项但不知道能否成功订阅。另外当前大量用户遇到模型过载提示导致无法使用，不知道是真容量不足还是风控问题。查看全文：https://ourl.co/126794&lt;/p&gt;&lt;p&gt;OpenAI 在昨天夜里宣布暂停 ChatGPT Pro 20x 版的开通，也就是现在用户最多只能开通每月 100 美元的 ChatGPT Pro 5x 版。暂停开通的原因是计算容量不足，对于已经开通 20x 版的订阅用户可以继续使用并续订，目前只是无法再开通新订阅。&lt;/p&gt;
+&lt;figure aria-describedby="caption-attachment-126867" id="attachment_126867"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126794.png" rel="nofollow"&gt;&lt;img alt="因计算容量不足 OpenAI暂停ChatGPT Pro 20x开通 现有订阅可以继续使用" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126794.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-126867"&gt;图片来源：btibor91&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;目前在社交网站上有大量用户正常使用时遇到 Selected model is at capacity. Please try a different model 错误提示，有网友称出现这个提示是账号被风控，也有网友称这纯粹就是 OpenAI 系统的问题。&lt;/p&gt;
+&lt;p&gt;还有很多用户抱怨现在 GPT-6 Astra 模型质量下滑严重，不过 Codex 技术经理蒂博称模型并没有被偷偷降智，只不过用户从日常使用体验来感知模型质量，OpenAI 也不可能承认偷偷对模型降智。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;蒂博经常重置用户额度吸引更多开发者，然而现在暂停 20x 订阅也预示着重置狂欢结束，即 OpenAI 计算容量不足那不太可能再频繁提供重置福利，现在用户持有的重置卡对用户而言算是最后的保底。&lt;/p&gt;
+&lt;p&gt;当然重置卡可能也无法满足用户需求，此前就有开发者称 OpenAI 缩减重置卡用量，即正常周用量按 100% 计算，使用重置卡获得的用量大约只有 50%，这听起来也同样是计算容量造成的问题。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;OpenAI 官方的建议就是用户购买额度或使用 API 进行调用，Codex 内购买额度与直接调用 API 的价格基本相同，也就是说基本订阅额度不够用后开发者只能通过按量计费模式继续使用，购买的信用额度和 API 都是按量计费的，实际使用时成本更高。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 11 Sep 2026 03:00:40 +0000</pubDate></item><item><title>智谱联合杭州市政府推出Coding Plan普惠行动 购买年卡享受51%政府补贴</title><link>https://www.landian.news/archives/126793.html</link><description>
 &lt;p&gt;#人工智能 智谱联合杭州市政府推出 Coding Plan 补贴，购买季卡享受 44% 政府补贴，购买年卡享受 51% 补贴。此活动仅限在杭工作或在杭读书的用户，需提交参保证明或学信网在线验证报告。以智谱 Coding Plan Pro 版为例：官方原价 6456 元 / 年，补贴后 3163.44 元 / 年。查看全文：https://ourl.co/126793&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landian.news/go?url=https://docs.bigmodel.cn/cn/coding-plan/hangzhou-rules" rel="noopener" target="_blank"&gt;智谱日前宣布杭州全城 Coding Plan 计划&lt;/a&gt;，该计划是杭州面向人工智能时代推出的城市级 AI 编程普惠行动，旨在通过政府补贴、企业让利和市场参与，降低人工智能编程工具的使用门槛。&lt;/p&gt;
 &lt;p&gt;此次活动面向在杭州市工作的用户和在杭州读书的在校学生，个人用户购买季卡时最高可获得 44% 的折扣，而购买年卡则可以最高获得 51% 的折扣。企业主体仅限于注册在杭州市上城区的企业，仅支持购买年卡。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126793.png" rel="nofollow"&gt;&lt;img alt="智谱联合杭州市政府推出Coding Plan普惠行动 购买年卡享受51%政府补贴" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126793.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -47,98 +145,4 @@
 &lt;p&gt;目前穆伦维格仍然是公司董事会成员且会参与公司运营方向和重要决策，不过日常经营事务都将由首席财务官接管。Automattic 董事会目前也没有就此事发布回应，董事会只确认穆伦维格已经休假和临时 CEO 安排，并未回应所谓的串谋。&lt;/p&gt;
 &lt;p&gt;需要说明的是开源内容管理系统 WordPress 虽然是 Automattic 开发管理的，但 WordPress 属于开源项目并且由社区共治，穆伦维格被强制休假后应该不会对 WordPress 项目产生明显影响。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 10 Sep 2026 06:25:30 +0000</pubDate></item><item><title>打击礼品卡欺诈：苹果实体礼品卡将添加安全芯片 iOS 27可读取礼品卡验证真实性</title><link>https://www.landian.news/archives/126791.html</link><description>
-&lt;p&gt;#行业资讯 打击礼品卡欺诈问题：苹果实体礼品卡将添加安全芯片，iOS 27 设备可以贴靠礼品卡验证其有效性。后续也可以直接兑换礼品卡不需要再手动输入兑换码，不过这里应该还有其他额外验证，例如未拆封只能验证状态，拆封后才能绑定余额。在美国礼品卡欺诈非常猖獗，犯罪团伙通常会伪造大量礼品卡投放到商店，或者掉包商店里销售的正品卡片。查看全文：https://ourl.co/126791&lt;/p&gt;&lt;p&gt;在美国苹果等公司的礼品卡欺诈问题非常猖獗，犯罪团伙通常会伪造大量礼品卡投放到线下商店，或者直接利用伪造的礼品卡掉包原本线下商店中销售的正品礼品卡。用户购买礼品卡后刮开涂层发现兑换码无法使用，这时候还得联系苹果客服说明情况并寻求退款。&lt;/p&gt;
-&lt;figure aria-describedby="caption-attachment-126840" id="attachment_126840"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126791.png" rel="nofollow"&gt;&lt;img alt="打击礼品卡欺诈：苹果实体礼品卡将添加安全芯片 iOS 27可读取礼品卡验证真实性" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126791.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-126840"&gt;图片由 AI 生成，仅做示例&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;iOS 27 发布候选版的代码显示，苹果可能会在未来新发布的实体礼品卡中增加专用的安全芯片，该芯片可以被 iOS 27 + 设备识别。包括直接使用 iPhone 贴近卡片验证礼品卡有效性和直接兑换礼品卡，不需要扫码或手动输入兑换码。&lt;/p&gt;
-&lt;p&gt;带有芯片的实体礼品卡可以被验证当前礼品卡实际状态，例如卡片已被封锁、卡片已取消等，苹果希望通过芯片验证降低伪造礼品卡、重复兑换以及部分礼品卡的欺诈风险。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;实体卡附带的芯片理论上直接贴上 iPhone 就可以验证状态，那在线下商店用户直接贴上礼品卡兑换怎么办呢？所以这里应该还有额外验证，例如在未拆封前可以验证卡片状态，拆封后撕掉某些专门的涂层才能将礼品卡余额添加到账户里。&lt;/p&gt;
-&lt;p&gt;不过具体苹果怎么实现的还不清楚，上面只是蓝点网的猜测，苹果尚未公布关于实体礼品卡添加安全芯片的消息，可能还需要等这类新型礼品卡上线后才会公布消息。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 10 Sep 2026 06:18:55 +0000</pubDate></item><item><title>Brave Search API改为预付费(先充值)机制 不再提供独立免费套餐 但仍然可以免费用</title><link>https://www.landian.news/archives/126786.html</link><description>
-&lt;p&gt;#ç½‘ç«™åº”ç”¨ Brave Search API è°ƒæ•´ä»˜è´¹æ–¹å¼�ï¼šä»�å��ä»˜è´¹å�˜æˆ�é¢„ä»˜è´¹ï¼Œä½†ä»�ç„¶ç»™å…�è´¹ç”¨æˆ·ç™½å«–ï¼Œæ¯�æœˆè°ƒç”¨ 1000 æ¬¡æ�œç´¢ã€‚åœ¨ OpenClaw çˆ†ç�«çš„æ—¶å€™ï¼Œç”±äº�éœ€è¦�è°ƒç”¨ç½‘ç»œæ�œç´¢åŠŸèƒ½ï¼Œå¾ˆå¤šç”¨æˆ·å¼€é€š Brave Search APIã€‚å�ªæ˜¯ç�°åœ¨å¤§å®¶è½¬å�‘ Codex ç­‰æ™ºèƒ½ä½“å��å·²ç»�ä¸�éœ€è¦�è°ƒç”¨ Brave æ�œç´¢ï¼Œæ‰€ä»¥è¿™æ¬¡è°ƒæ•´ä¸�ä¼šç»™ç”¨æˆ·å¸¦æ�¥æ˜�æ˜¾å½±å“�ã€‚ä»�ç„¶ä½¿ç”¨ Brave API çš„ç”¨æˆ·å�ªéœ€è¦�æ�§åˆ¶ç”¨é‡�å�³å�¯ï¼Œè¶…è¿‡ 1000 æ¬¡å…�è´¹é¢�åº¦å��ï¼Œæ�œç´¢ä¼šè¢«å�œç”¨ï¼Œæ‰€ä»¥ä¹Ÿä¸�ä¼šäº§ç”Ÿé¢�å¤–è´¦å�•ã€‚æŸ¥çœ‹å…¨æ–‡ï¼šhttps://ourl.co/126786&lt;/p&gt;&lt;p&gt;ç‹¬ç«‹æµ�è§ˆå™¨å’Œæ�œç´¢å¼•æ“�å¼€å�‘å•† Brave æ—¥å‰�ç¾¤å�‘é‚®ä»¶å®£å¸ƒè°ƒæ•´ Brave Search API ä»˜è´¹æ–¹å¼�ï¼Œæ–°å¼€é€šçš„ API è®¢é˜…å¥—é¤�å°†ä»�å��ä»˜è´¹æŒ‰é‡�è®¡è´¹æœºåˆ¶æ”¹æˆ�é¢„ä»˜è´¹æŒ‰é‡�è®¡è´¹æœºåˆ¶ã€‚å·²ç»�å¼€é€šçš„å��ä»˜è´¹è®¢é˜…ä¸�å�—å½±å“�ï¼Œå�¯ä»¥ç»§ç»­æŒ‰ç…§æŒ‰é‡�è®¡è´¹æ–¹å¼�ä½¿ç”¨ï¼Œä½†å¦‚æ�œå�–æ¶ˆè®¢é˜…é‚£é‡�æ–°å¼€é€šå�ªèƒ½æ�¢æˆ�é¢„ä»˜è´¹ã€‚&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126786.png" rel="nofollow"&gt;&lt;img alt="Brave Search APIæ”¹ä¸ºé¢„ä»˜è´¹(å…ˆå……å€¼)æœºåˆ¶ ä¸�å†�æ��ä¾›ç‹¬ç«‹å…�è´¹å¥—é¤� ä½†ä»�ç„¶å�¯ä»¥å…�è´¹ç”¨" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126786.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; å…�è´¹ç”¨æˆ·ä¹Ÿä¸�éœ€è¦�æ‹…å¿ƒï¼š&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;å¾ˆå¤šç”¨æˆ·ä»¥å‰�å¹¶æœªå�¬è¿‡ Brave Search APIï¼Œä½†åœ¨ä»Šå¹´å¹´åˆ� OpenClaw çˆ†ç�«å��éœ€è¦�ç”³è¯· Brave Search API æ�¥é…�ç½®ç½‘ç»œæ�œç´¢åŠŸèƒ½ï¼Œè¿™è®© Brave API ç”¨æˆ·å¿«é€Ÿå¢�é•¿ï¼Œå½“ç„¶å¢�é•¿çš„ä¸»è¦�éƒ½æ˜¯å…�è´¹ç”¨æˆ·ã€‚&lt;/p&gt;
-&lt;p&gt;å…�è´¹ç”¨æˆ·æ¯�æœˆå¤§æ¦‚å�¯ä»¥ä½¿ç”¨ 2000 æ¬¡æ�œç´¢åŠŸèƒ½ï¼Œè¿™å¯¹å¤§å¤šæ•°ç”¨æˆ·æ�¥è¯´æ˜¯è¶³å¤Ÿçš„ï¼Œè€Œç�°åœ¨ Codex ç­‰ AI æ™ºèƒ½ä½“éƒ½è‡ªå¸¦ç½‘ç»œæ�œç´¢åŠŸèƒ½ï¼Œæ‰€ä»¥ä¹Ÿä¸�éœ€è¦�ç»§ç»­ä½¿ç”¨ Brave Search API äº†ï¼Œä¾‹å¦‚è“�ç‚¹ç½‘çš„ API å·²ç»�å�œç”¨å¾ˆä¹…ã€‚&lt;/p&gt;
-&lt;p&gt;ä¸�è¿‡ Brave è¿™æ¬¡è°ƒæ•´ä¹Ÿæ²¡æœ‰å®Œå…¨æ��æ–­å…�è´¹ä½¿ç”¨é€”å¾„ï¼ŒBrave ä¼šå�‘æ‰€æœ‰ç”¨æˆ·èµ é€� 5 ç¾�å…ƒé¢�åº¦ (æ¯�æœˆéƒ½èµ é€�ã€�ä¸�ç´¯è®¡)ï¼Œè¿™ 5 ç¾�å…ƒé¢�åº¦å�¯ä»¥å…�è´¹è°ƒç”¨ 1000 æ¬¡æ�œç´¢ï¼Œè¿™åº”è¯¥ä¹Ÿå�¯ä»¥æ»¡è¶³ç”¨æˆ·æ­£å¸¸ä½¿ç”¨éœ€æ±‚ã€‚&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; æ–°å¼€è´¦æˆ·ä»�ç„¶è¦�ç»‘å®šä¿¡ç”¨å�¡éªŒè¯�ï¼š&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;ä¸ºé˜²æ­¢å¤§è§„æ¨¡æ³¨å†Œè´¦å�·è¿›è¡Œæ»¥ç”¨ï¼Œæ–°ç‰ˆ Brave Search API ä»�ç„¶è¦�æ±‚ç”¨æˆ·ç»‘å®šä¿¡ç”¨å�¡éªŒè¯�ï¼Œä¿¡ç”¨å�¡å�¯èƒ½ä¼šå‡ºç�° 0 æˆ– 1 ç¾�å…ƒçš„ä¸´æ—¶é¢„æ�ˆæ�ƒï¼ŒéªŒè¯�å��ä¼šè‡ªåŠ¨é€€æ¬¾æˆ–æ’¤é”€é¢„æ�ˆæ�ƒï¼Œä¹‹å��ç”¨æˆ·æ¯�ä¸ªæœˆéƒ½èƒ½è�·å¾— 5 ç¾�å…ƒæ�œç´¢é¢�åº¦ã€‚&lt;/p&gt;
-&lt;p&gt;éœ€è¦�è¯´æ˜�çš„æ˜¯ç”¨æˆ·åœ¨æ³¨å†Œæ—¶å�¯ä»¥å°†é¢„å……å€¼è®¾ç½®ä¸º 0 ç¾�å…ƒå¹¶æ�§åˆ¶ä½¿ç”¨é‡�ï¼Œè¿™æ ·å°±å�¯ä»¥é•¿æœŸç»§ç»­å…�è´¹ä½¿ç”¨ Brave Search APIï¼Œå½“è¶…è¿‡ 1000 æ¬¡æ�œç´¢å��ä¼šè¢«è‡ªåŠ¨å�œç”¨ï¼Œåˆ°æ—¶å€™ç”¨æˆ·æ— æ³•ç»§ç»­æ�œç´¢ï¼Œå› æ­¤ä¹Ÿä¸�ä¼šäº§ç”Ÿè´¦å�•ã€‚&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;æ¶ˆæ�¯æº�ï¼š&lt;a href="https://www.landian.news/go?url=https://api-dashboard.search.brave.com/documentation/resources/help-feedback#faq" rel="noopener" target="_blank"&gt;Brave&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="çƒ­é—¨æ�¨è��"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="ä»…éœ€99å…ƒ/å¹´ï¼Œç¡…è°·CN2GIAæœ�åŠ¡å™¨ï¼Œå�¦æœ‰3å¹´ç‰ˆä»…éœ€528å…ƒï¼Œé™�é‡�é”€å”®ï¼Œå”®å®Œå�³æ­¢"&gt;çƒ­é—¨æ�¨è��ä»…éœ€99å…ƒ/å¹´ï¼Œç¡…è°·CN2GIAæœ�åŠ¡å™¨ï¼Œå�¦æœ‰3å¹´ç‰ˆä»…éœ€528å…ƒï¼Œé™�é‡�é”€å”®ï¼Œå”®å®Œå�³æ­¢&lt;span aria-hidden="true"&gt;ä»…éœ€99å…ƒ/å¹´ï¼Œç¡…è°·CN2GIAæœ�åŠ¡å™¨ï¼Œå�¦æœ‰3å¹´ç‰ˆä»…éœ€528å…ƒï¼Œé™�é‡�é”€å”®ï¼Œå”®å®Œå�³æ­¢&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 10 Sep 2026 05:59:49 +0000</pubDate></item><item><title>国行版iPhone 18 Pro系列支持双SIM+双eSIM组合 但最多仍然是双待而非四待</title><link>https://www.landian.news/archives/126789.html</link><description>
-&lt;p&gt;#手机数码 国行版 iPhone 18 Pro 和 iPhone 18 Pro Max 支持双 SIM + 双 eSIM，但最多仍然是双待而非四待。按苹果所说，用户可以使用双实体 SIM 或 SIM+eSIM 或双 eSIM，机器本身支持双实体 SIM + 双 eSIM，但最多同时激活两张。另外国行版 eSIM 电子围栏仍然存在，国行版机器只有在境外时才能开通境外运营商的 eSIM。查看全文：https://ourl.co/126789&lt;/p&gt;&lt;p&gt;据苹果中国官网公布的 iPhone 18 Pro 和 iPhone 18 Pro Max SIM 卡规格，该系列也带来 eSIM 卡的支持，同时还保留实体 SIM 卡的支持，对用户而言这种实体 SIM+eSIM 卡组合将提供更大的灵活性。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126789-1.png" rel="nofollow"&gt;&lt;img alt="国行版iPhone 18 Pro系列支持双SIM+双eSIM组合 但最多仍然是双待而非四待" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126789-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;苹果的描述是 iPhone 18 Pro 系列支持：双卡，两个 nano-SIM 卡，或一个 nano-SIM 卡和一个 eSIM 卡，或激活两个 eSIM 卡。也就是说机器本身支持两个实体 SIM 卡和两个 eSIM 卡，不过需要注意的是并非支持四待，最多仍然支持双待。&lt;/p&gt;
-&lt;p&gt;国行版 iPhone 18 Pro 对应型号为 A3715，iPhone 18 Pro Max 对应 A3718，中国移动、中国联通、中国电信均支持两款手机的 eSIM 业务。但如果用户暂时不打算使用 eSIM，也可以继续按照传统方式使用实体双 SIM 卡。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126789-2.png" rel="nofollow"&gt;&lt;img alt="国行版iPhone 18 Pro系列支持双SIM+双eSIM组合 但最多仍然是双待而非四待" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126789-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;虽然硬件已经支持 eSIM，但国内开通过程仍然不能完全在线完成。苹果明确说明，用户在中国大陆境内激活中国运营商的 eSIM 时需要前往运营商线下营业厅且由工作人员进行身份证核验并完成激活。&lt;/p&gt;
-&lt;p&gt;这意味着目前无法像部分海外运营商那样直接扫描二维码、通过运营商 App 或使用 iPhone eSIM 快速转移功能完成全部开通过程。删除国内 eSIM 后如需重新激活，同样需要再次前往线下营业厅办理。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;国行版在中国大陆境内无法安装境外运营商提供的 eSIM，用户前往中国大陆以外地区后可以为国行 iPhone 激活当地运营商或旅行 eSIM，但必须开启定位服务。即系统会根据设备所在位置决定是否允许添加境外 eSIM。&lt;/p&gt;
-&lt;p&gt;而非国行版即使硬件支持 eSIM，也不能安装中国大陆运营商提供的 eSIM，这些限制可能会对部分用户造成使用不便，不过具体也得看用户使用场景以及是否经常前往境外出差或旅行。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 10 Sep 2026 04:09:03 +0000</pubDate></item><item><title>遭到用户强烈反对后深度求索推迟DS V4 Pro下线时间 但也只延迟到9月14日</title><link>https://www.landian.news/archives/126790.html</link><description>
-&lt;p&gt;#人工智能 遭到用户强烈反对后深度求索推迟 DS V4 Pro 下线时间，延迟到 9 月 14 日 12:00 再通过路由强制接管。昨天深度求索已经提前发了通知，今天 DS V4.1 Flash 上线后，原 V4 Pro 请求会被自动路由到 V4.1 Flash。但这个做法遭到部分开发者反对，原因是不同模型具有不同的特性，部分工作流基于 V4 Pro 创建的，被强制路由到 Flash 后可能会出现问题。查看全文：https://ourl.co/126790&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/126783.html" rel="noopener" target="_blank"&gt;昨天深度求索已经预告将在今天上线 DS V4.1 Flash 模型&lt;/a&gt;，深度求索经过内部和外部评测后认为 DS V4.1 Flash 能力和响应速度都远超 DS V4 Pro，所以深度求索计划在 DS V4.1 Flash 上线后，直接将现有的 DS V4 Pro 请求全部自动路由到 DS V4.1 Flash。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126790.png" rel="nofollow"&gt;&lt;img alt="遭到用户强烈反对后深度求索推迟DS V4 Pro下线时间 但也只延迟到9月14日" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126790.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;按照深度求索所说，新模型性能好、能力高、价格也更便宜，所以直接路由应该是好事情才对。然而这则消息遭到部分用户的强烈反对，这些用户宁愿继续使用价格更高的 DS V4 Pro 也不愿意使用 DS V4.1 Flash 模型。&lt;/p&gt;
-&lt;p&gt;这里的原因其实很奇怪：不同模型具有不同的特性，部分开发者创建的工作流基于 DS V4 Pro，因此被强制路由到 DS V4.1 Flash 后可能会导致现有的工作流被破坏，所以这些开发者宁愿继续使用更贵的 DS V4 Pro 模型。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;经过反馈后深度求索已经决定暂时推迟 DS V4 Pro 模型的下线时间，原本下线时间是 9 月 10 日，现在深度求索决定将其下线时间推迟到 9 月 14 日 12:00。即后续该模型还是会被自动路由到 DS V4.1 Flash，开发者如果依赖 DS V4 Pro 则必须尽快调整或优化工作流来适配 DS V4.1 Flash。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 10 Sep 2026 03:47:40 +0000</pubDate></item><item><title>谷歌相册(Google Photos)缩短回收站保留时间 从60天缩短到30天 到期永久删除文件</title><link>https://www.landian.news/archives/126785.html</link><description>
-&lt;p&gt;#软件资讯 [iOS / 安卓] 谷歌调整谷歌相册 (Google Photos) 回收站时间，从 60 天缩短到 30 天。好消息是这可以帮助用户更快腾出存储空间，因为回收站中的文件也是占用用户账户级存储空间的。坏消息是后悔药缩短了，超过 30 天的文件将被永久删除，如果用户放到回收站中的文件忘记拉回来，那就真没了。查看全文：https://ourl.co/126785&lt;/p&gt;&lt;p&gt;谷歌正在调整谷歌相册应用的回收站保留规则：按谷歌最新帮助文档，用户删除的照片和视频进入回收站后，以后只保留 30 天，当超过 30 天后文件将会被永久删除且无法通过谷歌恢复数据。&lt;/p&gt;
-&lt;p&gt;此前已经被备份到谷歌相册中的内容可以在回收站里保留 60 天，未备份的内容则保留 30 天。此次调整后其实主要影响的也是已经备份到谷歌相册的回收站内容，即全部变成只保留 30 天给用户恢复数据。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126785.png" rel="nofollow"&gt;&lt;img alt="谷歌相册(Google Photos)缩短回收站保留时间 从60天缩短到30天 到期永久删除文件" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126785.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;目前谷歌并未解释为什么要缩短后悔药时间，但对谷歌来说更快清理回收站文件可以节省更多服务器存储空间。对用户而言也同样如此：谷歌相册回收站的内容并非永久删除，因此还会继续占用用户的账户级存储空间配额。&lt;/p&gt;
-&lt;p&gt;因此更快清理回收站可以帮助用户腾出更多账户存储空间，只不过如果用户本身已经开通会员那其实就没必要了，因为开通 AI 订阅后通常存储空间都非常大，也无所谓那点回收站空间，还不如继续保留 60 天后悔药。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;此次调整只涉及回收站保留时间，并没有改变谷歌相册的备份删除机制。用户从谷歌相册中删除照片后，如果安卓或 iOS 设备已经安装谷歌相册并开启备份，相关内容也会从同步设备中删除，同时还会从谷歌相册、共享相册和部分对话中消失。&lt;/p&gt;
-&lt;p&gt;不过删除谷歌相册中的照片并不会自动删除谷歌云端硬盘、YouTube、Gmail 邮箱中单独保存或使用的副本。如果用户只是暂时希望某些照片不要出现在图库中，不应该使用删除功能，最好使用归档，归档会隐藏图片、不会删除文件、不会触发回收站 30 天永久删除。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 10 Sep 2026 03:26:33 +0000</pubDate></item><item><title>开源媒体服务器Jellyfin 12正式发布 版本好直接跳级且属于破坏性更新 需注意兼容性故障</title><link>https://www.landian.news/archives/126784.html</link><description>
-&lt;p&gt;#软件资讯 开源媒体服务器 Jellyfin v12.0 正式版发布，该版本为破坏性更新，第三方插件必须由开发者重新适配后才能使用。从此版本开始 Jellyfin 版本号改成 v1x.0 系列，不再使用 10.x 这样的版本号。原因在于 10.11 这类版本容易让用户以为这是小更新，但实际上这是大版本更新 (类似 macOS 10.15 变成 v11 然后 macOS 27)。新版本带来诸多更新和改进，升级前必须完整备份所有数据。查看全文：https://ourl.co/126784&lt;/p&gt;&lt;p&gt;开源媒体服务器 Jellyfin 日前推出 v12.0 正式版，该版本相当于旧版本号的 v10.12 版，但项目组已经决定彻底移除长期不变的 10. 前缀，因此从 10.11 后直接进入 12.0 版。不过该版本也存在破坏性更新，由于数据库重构等，升级前用户必须完整备份所有数据，有问题还可以通过备份回滚。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126784.png" rel="nofollow"&gt;&lt;img alt="开源媒体服务器Jellyfin 12正式发布 版本好直接跳级且属于破坏性更新 需注意兼容性故障" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126784.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;项目组也解释为什么要将 10. 这个版本号前缀删除：过去类似 10.11 的编号很容易让用户以为新版本只是小型更新，但实际上每个版本都属于大版本正式更新。以前小版本更新会使用 10.xx.x 这样的子版本，而 10.x 其实是长期不变的，既然长期不变那也没必要保留。&lt;/p&gt;
-&lt;p&gt;从 v12.0 版开始后续大版本都变成 1x.0 版，而小版本例如错误修复和安全更新则变成 v12.x 这样的子版本，这样用户更容易通过版本号知道哪些是大版本更新，带来大量新功能和改进，哪些是小版本只是简单的错误修复。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Jellyfin v12.0 正式版重构底层使用的数据库、移除旧版 /emby/ 和 /mediabrowser/ 地址、默认关闭已经废弃的登录认证方式。重构数据库可能会给旧版本升级带来潜在风险，而移除部分地址和关闭废弃登录方式会让某些长期未更新的客户端无法连接服务器。&lt;/p&gt;
-&lt;p&gt;团队建议用户在升级前停止服务器、完整备份数据库和配置目录，升级后不能直接回滚到旧版本，如需回滚那用户只能靠此前备份的数据进行恢复，这也是为什么必须提前备份的原因。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;第三方客户端和插件：Jellyfin v12.0 已经升级.NET 10 并修改多项插件接口，针对 10.11 编译的插件无法直接加载，必须由开发者重新适配。目前官方插件已经完成更新，不过升级前建议用户先移除第三方插件避免插件问题影响正常升级。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;新版本继续优化 10.11 数据库重构后的性能，大型播放列表、合集、继续观看、下一集和音乐库查询速度都有改善。电视剧现在也支持 1080P、4K 和不同剪辑版本合并管理。&lt;/p&gt;
-&lt;p&gt;图书和漫画支持也得到明显加强，以前很多依赖 Bookshelf 插件的功能已经整合到服务器里，可以直接读取 EPUB、ComicInfo 等元数据并生成封面、页数和章节信息。&lt;/p&gt;
-&lt;p&gt;网页端现在默认启用 Modern 布局，同时更新图书阅读界面、筛选和缓存机制。媒体处理方面，新版本升级 FFmpeg 8.1、改善转码、字幕以及多种客户端的视频兼容性。&lt;/p&gt;
-&lt;p&gt;最后新版本还包含多项服务器和 Web 客户端安全修复，官方建议用户在做好完整数据备份、确认客户端和插件兼容性后尽快升级到新版本，以免相关漏洞被黑客发掘并用于展开攻击。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://jellyfin.org/posts/jellyfin-release-12.0/#tl-dr" rel="noopener" target="_blank"&gt;Jellyfin&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 10 Sep 2026 02:56:24 +0000</pubDate></item><item><title>[价格公布] DS V4 Pro将被自动路由到V4.1 Flash模型 性能/费用/速度均超过V4 Pro</title><link>https://www.landian.news/archives/126783.html</link><description>
-&lt;p&gt;#人工智能 DS V4 Pro 将被自动路由到 DS V4.1 Flash 模型，性能 / 费用 / 速度均超过 V4 Pro。价格更便宜、性能提升：深度求索在 DS V4.1 Flash 正式发布后，将 API 平台调用的 DS V4 Pro 自动路由到 DS V4.1 Flash。当 DS 4.1 Pro 发布后，继续调用 DS V4 Pro 的用户将被路由到 DS V4.1 Pro，而不是继续路由到 DS V4.1 Flash。查看全文：https://ourl.co/126783&lt;/p&gt;&lt;p&gt;据深度求索在 DS 控制台挂上的通知，深度求索计划在 9 月 10 日前后正式发布 DS V4.1 Flash 模型，该模型在性能、费用、速度、总用时等各项指标上均全面超越 DS V4 Pro 模型。&lt;/p&gt;
-&lt;p&gt;有鉴于此，深度求索决定在 DS V4.1 Flash 发布后将用户端发出的 V4 Pro 请求全部自动路由到 DS V4.1 Flash，并且价格上也会直接按照 DS V4.1 Flash 进行计费，用户实际使用成本也会更低。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126783U.png" rel="nofollow"&gt;&lt;img alt="[价格公布] DS V4 Pro将被自动路由到V4.1 Flash模型 性能/费用/速度均超过V4 Pro" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126783U.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;DS V4.1 Flash 中间版本目前已经可以在 API 平台调用，用户只需要将模型名称修改为 deepseek-v4.1-flash-expires-on-0910 即可，该版本响应速度快且 token 效率非常高，正式版上线后估计没这么快。&lt;/p&gt;
-&lt;p&gt;深度求索也希望用户在使用过程中提交反馈，DS V4.1 Flash 调用价格为新价格，与DS V4 Pro 不同，具体价格可以参考 DeepSeek API 平台，下面列举的价格仅供参考，随着时间推移可能会不准确。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;闲时缓存命中：0.20 元&lt;/li&gt;
-&lt;li&gt;闲时缓存未命中：1.00 元&lt;/li&gt;
-&lt;li&gt;闲时输出： 4.00 元&lt;/li&gt;
-&lt;li&gt;高峰缓存命中：0.04 元&lt;/li&gt;
-&lt;li&gt;高峰缓存未命中：2.00 元&lt;/li&gt;
-&lt;li&gt;高峰输出：8.00 元&lt;/li&gt;
-&lt;li&gt;高峰时段：工作日 09:00~12:00 / 14:00~18:00 其他时段均为闲时&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 09 Sep 2026 13:43:55 +0000</pubDate></item></channel></rss>
+</description><pubDate>Thu, 10 Sep 2026 06:25:30 +0000</pubDate></item></channel></rss>
