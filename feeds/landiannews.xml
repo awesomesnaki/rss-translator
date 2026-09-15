@@ -1,5 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 14 Sep 2026 09:05:24 +0000</lastBuildDate><item><title>美国海关与边境保护局口岸信息技术主管被逮捕 拆走多台电脑高价值组件出售获利</title><link>https://www.landian.news/archives/126856.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 15 Sep 2026 02:00:28 +0000</lastBuildDate><item><title>惠普用户可能遇到Windows 11更新后卡在登录界面的问题 需先安装BIOS更新</title><link>https://www.landian.news/archives/126859.html</link><description>
+&lt;p&gt;#硬件设备 部分惠普设备安装 Windows 11 更新后会卡在启动界面，惠普官方已确认出现 BIOS 兼容性故障。惠普已经在 9 月 4 日发布 F.07.Rev.A 固件，用户应当先安装固件更新再安装 Windows 11 更新。此问题从 8 月份就开始出现，因此如果要安装 8 月及之后更新，则都应该先安装 BIOS 更新。查看全文：https://ourl.co/126859&lt;/p&gt;&lt;p&gt;怎么感觉惠普笔记本电脑天天出问题？从 8 月份开始就有惠普笔记本电脑用户反馈 Windows 11 安装 KB5121003 等更新后系统出现异常，这是微软在 8 月份发布的更新，该更新自然也包含在 9 月更新中。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/05/113195.png" rel="nofollow"&gt;&lt;img alt="惠普用户可能遇到Windows 11更新后卡在登录界面的问题 需先安装BIOS更新" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/05/113195.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;从用户反馈的情况来看应该是微软发布的更新提供的修改与惠普 BIOS 固件产生某种兼容性问题，遇到这个问题的用户会注意到安装更新并在重启阶段卡在启动界面，强制关机后系统提示要进行修复，随后系统会自动撤销更新。&lt;/p&gt;
+&lt;p&gt;有不信邪的用户手动下载更新再次安装，结果是完全相同的情况。Windows 11 还会自动下载安装更新，因此有时候用户没有关机的话，可能回来时系统就卡在惠普 LOGO 界面，只能再次强制关机并执行更新卸载流程。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;按照惠普客服提供的方案，遇到卡在启动界面的用户，按照如下步骤进行临时处理：长按电源键强制关机，按电源键后立即按 F10 直到出现 BIOS 设置界面，接着再按 F9 加载 BIOS 设置 (此步骤即重置 BIOS 设置为默认值)，接着按 F10 选择保存并退出，此时重启后系统应该可以正常启动。&lt;/p&gt;
+&lt;p&gt;需要注意的是重置 BIOS 设置后部分用户自定义设置会丢失，如开启硬件虚拟化、fTPM、PXE、修改不同的启动设置等，请在重置后重新进入 BIOS 界面设置这些选项。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;目前惠普已经确认这个问题确实与 Windows 11 更新有关，为此惠普发布 BIOS 固件更新 F.07.Rev.A (sp174502.exe) 修复问题，惠普在更新日志中提到：该固件更新提高运行 Windows 11 更新时的系统稳定性。固件发布时间则是 9 月 4 日，因此使用惠普笔记本电脑的用户建议先更新 BIOS 固件再尝试安装更新。&lt;/p&gt;
+&lt;p&gt;固件下载地址请访问惠普支持网站：&lt;a href="https://www.landian.news/go?url=https://support.hp.com/cn-zh/drivers/laptops" rel="noopener" target="_blank"&gt;https://support.hp.com/cn-zh/drivers/laptops&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 15 Sep 2026 02:00:28 +0000</pubDate></item><item><title>Codex频繁出现所选模型已达容量上限？ OpenAI回应：不用怀疑你就是黑号了</title><link>https://www.landian.news/archives/126858.html</link><description>
+&lt;p&gt;#人工智能 Codex 频繁出现所选模型已达到容量上限？不用怀疑：就是你的账号黑了。OpenAI 员工最新发布的回应称，系统会定时自动评估账户访问权限，会根据账户活动情况暂时限制用户对某些模型或功能的访问。如果导致访问受限的活动停止，那账号在下次评估时可以恢复正常。查看全文：https://ourl.co/126858&lt;/p&gt;&lt;p&gt;近期诸多 Codex 用户在日常使用时频繁遇到所选模型已达容量上限的错误，这个问题并不是用户所选模型当前真的已经达到容量上限，单纯就是 OpenAI 对被标记的账号的处理方式，当频繁看到这个提示时意味着你的账号已经被系统标记。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126858.png" rel="nofollow"&gt;&lt;img alt="Codex频繁出现所选模型已达容量上限？ OpenAI回应：不用怀疑你就是黑号了" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126858.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;当遇到这个问题时切换不同模型和不同的思考程度其实并没什么用，例如使用 GPT-6 Astra 切换到 GPT-5.6 Sol 也同样显示相同的错误提示，而且即便不停地重试也会不停地报错，出现这种情况后几乎无法正常使用。&lt;/p&gt;
+&lt;p&gt;提示内容如下：Selected model is at capacity. Please try a different model. (所选模型已达容量上限，请尝试其他模型) 只要连续看到这个提示说明账号已经黑了。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;OpenAI 系统会根据账户活动情况暂时限制用户对某些模型或功能的访问，OpenAI 不会提供具体的风控原因。同时系统也会定时自动重新评估账号的访问权限，如果导致访问受限的活动停止，那账号就会恢复正常不会再被限制。&lt;/p&gt;
+&lt;p&gt;另外即便用户提交工单也无法解决这个问题，OpenAI 客服不会处理此类问题，除非用户直接以此为理由申请退款 (是否能退款取决于用户申诉和客服的处理态度。如果是通过苹果渠道订阅的，通过苹果进行申诉退款通常是有效的。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;Hey everyone, Thanks for flagging this. Access to certain models or features may be temporarily limited based on account activity, even when a paid subscription is active. We are unable to provide additional details about these checks. Access is automatically reassessed and can return to normal once the activity affecting availability stops.&lt;/p&gt;
+&lt;p&gt;Please review the Terms of Use and the model and feature access troubleshooting guidance.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;&lt;p&gt;大家好，感谢您指出这一问题。即​​便处于付费订阅期内，系统也可能根据账户活动情况暂时限制对某些模型或功能的访问。我们无法提供有关此类检查的更多详情。系统会自动重新评估访问权限；一旦导致访问受限的活动停止，访问权限即可恢复正常。&lt;/p&gt;
+&lt;p&gt;请查阅《使用条款》以及关于模型和功能访问权限问题的排查指南。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://community.openai.com/t/issue-selected-model-is-at-capacity-please-try-a-different-model/1396264/87" rel="noopener" target="_blank"&gt;OpenAI&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 15 Sep 2026 01:15:07 +0000</pubDate></item><item><title>微软似乎在为Windows 11设计新的默认鼠标指针 替换沿用多年的默认样式</title><link>https://www.landian.news/archives/126857.html</link><description>&lt;article&gt;
+&lt;p&gt;#系统资讯 微软似乎在为 Windows 11 设计新的鼠标指针样式，采用现代化几何设计，不再留着长长的尾巴。这个样式与微软在 Microsoft Fluent UI 仓库中提到的光标样式非常类似，待微软测试完毕后有可能后续版本就会默认采用这个新样式。查看全文：https://ourl.co/126857&lt;/p&gt;&lt;p&gt;微软上周发布 Windows 11 未来实验版本 Build 26340.9354 版，在该版本发布日志中微软提供两张演示截图，在演示截图中出现明显不同的鼠标指针样式，新的鼠标指针样式整体轮廓更宽大、圆润和对称，而且后面也不再保留经典鼠标指针的长尾巴。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;早在 6 月份就有爆料称微软正在为 Windows 11 设计新的鼠标指针样式，不过直到现在微软也没有公布这类消息。但从此次的演示截图中似乎可以确认微软正在设计新样式，这个新样式有可能未来会成为默认的鼠标指针样式。&lt;/p&gt;
+&lt;p&gt;有趣的是关于这个鼠标样式其实在 Microsoft Fluent UI 仓库里也可以找到，微软演示中的鼠标样式与仓库中的图标非常类似，都采用更加简洁、更几何化的外形。但近年来微软正在推动 Windows 11 样式现代化，所以有很大概率微软确实会更换默认的鼠标样式。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126857-1.png" rel="nofollow"&gt;&lt;img alt="微软似乎在为Windows 11设计新的默认鼠标指针 替换沿用多年的默认样式" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126857-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126857-2.png" rel="nofollow"&gt;&lt;img alt="微软似乎在为Windows 11设计新的默认鼠标指针 替换沿用多年的默认样式" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126857-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;ins data-ad-client="ca-pub-8597288383599884" data-ad-format="auto" data-ad-slot="1551135873" data-full-width-responsive="true"&gt;&lt;/ins&gt;
+&lt;/p&gt;&lt;popup module-class="point-pay-module" ref="pointPayRef"&gt;&lt;point-pay-popup @close-point-pay-popup="closePointPay"&gt;&lt;/point-pay-popup&gt;&lt;/popup&gt; &lt;/article&gt;
+</description><pubDate>Tue, 15 Sep 2026 00:30:37 +0000</pubDate></item><item><title>美国海关与边境保护局口岸信息技术主管被逮捕 拆走多台电脑高价值组件出售获利</title><link>https://www.landian.news/archives/126856.html</link><description>
 &lt;p&gt;#行业资讯 确实离谱：美国海关与边境保护局缅因州某入境口岸的信息技术主管被逮捕，大半夜抱走办公电脑拆高价值零件拿去转售获利。调查显示这名主管在一年多里将 39 台属于美国国土安全部的电脑抱走替换零件，比如将 CPU 从 i7 换成奔腾系列、拆掉大容量内存和硬盘等。拆下来的零件拿去新蛋网补差价以旧换新，然后再出售新零件。问题是：整个办公室都有监控，整个作案过程都被拍下来了。查看全文：https://ourl.co/126856&lt;/p&gt;&lt;p&gt;美国海关与边境保护局 (CBP) 缅因州某入境口岸的信息技术主管被 FBI 逮捕，逮捕原因竟然是这名主管半夜悄悄拆走办公电脑上的高价值硬件，然后使用自己提前准备的老旧硬件换上。事后这名主管将拆解下来的零件送到新蛋网补差价以旧换新，然后再新硬件转售获利。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/03/112288.png" rel="nofollow"&gt;&lt;img alt="美国海关与边境保护局口岸信息技术主管被逮捕 拆走多台电脑高价值组件出售获利" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/03/112288.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -93,54 +136,4 @@
 &lt;p&gt;ONE Mono 最近的更新还是在 2024 年，从 2025 年开始仓库活动主要集中在 README 文档。由于项目长期缺乏实质性代码变化，加上英特尔正在对不活跃或维护人员离职的开源项目进行清理，ONE Mono 字体仓库被英特尔直接归档。&lt;/p&gt;
 &lt;p&gt;目前尚不清楚发生了什么，但在仓库归档 2 天后英特尔解除仓库归档，这意味着 ONE Mono 可能会被保留并继续维护，只不过英特尔并未解释缘由以及说明是否还会继续进行积极开发和维护。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 14 Sep 2026 03:36:29 +0000</pubDate></item><item><title>Windows 11出现新的跳过登录账号方法：竟然是点击超小的了解更多链接</title><link>https://www.landian.news/archives/126849.html</link><description>
-&lt;p&gt;#æŠ€æœ¯æ•™ç¨‹ Windows 11 å‡ºç�°æ–°çš„è·³è¿‡è´¦å�·ç™»å½•æ–¹æ³•ï¼Œå�ªéœ€è¦�åœ¨ OOBE è¾“å…¥è´¦å�·çš„åœ°æ–¹ï¼Œç‚¹å‡»è¶…å°�çš„äº†è§£æ›´å¤šæŒ‰é’®å°±å�¯ä»¥åˆ›å»ºæœ¬åœ°è´¦æˆ·ã€‚è¿™ä¸ªæ–¹æ³•æ˜¯çˆ±å¥½è€… BobPony å�‘ç�°çš„ï¼Œè¿™å�¯èƒ½æ˜¯å¾®è½¯çš„è®¾ç½®é”™è¯¯ï¼Œæ­£å¸¸æƒ…å†µä¸‹ OOBE è�”ç½‘è�·å�–å†…å®¹ç‚¹å‡»äº†è§£æ›´å¤šåº”è¯¥å‡ºç�°æ–°å†…å®¹å��æ��ä¾›è¿”å›�æŒ‰é’®ã€‚ç›®å‰�å®�é™…æƒ…å†µæ˜¯ç‚¹å‡»äº†è§£æ›´å¤šå��è‡ªåŠ¨è·³è½¬åˆ°åˆ›å»ºæœ¬åœ°è´¦æˆ·çš„ç•Œé�¢ï¼Œå¾®è½¯å��ç»­ä¹Ÿå�¯ä»¥é€šè¿‡ä¿®æ”¹æœ�åŠ¡å™¨è®¾ç½®å¿«é€Ÿå°�å µè¿™ä¸ªè·³è¿‡æ–¹æ³•ã€‚æŸ¥çœ‹å…¨æ–‡ï¼šhttps://ourl.co/126849&lt;/p&gt;&lt;p&gt;çŸ¥å��çˆ±å¥½è€… &lt;a href="https://www.landian.news/go?url=https://x.com/TheBobPony/status/2098825591285776775" rel="noopener" target="_blank"&gt;BobPony&lt;/a&gt; æ—¥å‰�å�‘ç�° Windows 11 å®¶åº­ç‰ˆå­˜åœ¨æ–°çš„ç»•è¿‡è´¦å�·ç™»å½•æ–¹æ³•ï¼Œè¿™ä¸ªæ–¹æ³•ä½¿ç”¨é��å¸¸ç®€å�•ä¸”æ˜¯æœ‰æ•ˆçš„ï¼Œå��ç»­ç”¨æˆ·å®‰è£…ç³»ç»Ÿæ—¶åœ¨ OOBE ç•Œé�¢é�‡åˆ°å¼ºåˆ¶ç™»å½•å¾®è½¯è´¦å�·çš„åœ°æ–¹ï¼Œå�¯ä»¥ä½¿ç”¨è¿™ä¸ªæ–¹æ³•å¿«é€Ÿåˆ›å»ºæœ¬åœ°è´¦æˆ·ã€‚&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126849.png" rel="nofollow"&gt;&lt;img alt="Windows 11å‡ºç�°æ–°çš„è·³è¿‡ç™»å½•è´¦å�·æ–¹æ³•ï¼šç«Ÿç„¶æ˜¯ç‚¹å‡»è¶…å°�çš„äº†è§£æ›´å¤šé“¾æ�¥" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126849.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; ç�°é˜¶æ®µå¸¸è§„æµ�ç¨‹å¿…é¡»ç™»å½•è´¦æˆ·ï¼š&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;ç›®å‰� Windows 11 å®¶åº­ç‰ˆæ˜¯å¼ºåˆ¶è¦�æ±‚æ³¨å†Œå’Œç™»å½•å¾®è½¯è´¦æˆ·çš„ï¼Œå�Ÿæœ¬ç”¨äº�è·³è¿‡è´¦æˆ·ç™»å½•çš„æ–¹æ³•åŒ…æ‹¬ OOBE\BYPASSNROã€�ä¿®æ”¹æ³¨å†Œè¡¨æˆ–ä½¿ç”¨ start ms-cxh:localhost ç­‰æ–¹å¼�éƒ½é™†ç»­è¢«å¾®è½¯åˆ é™¤ï¼Œå¯¼è‡´ç”¨æˆ·æ— æ³•æ­£å¸¸åˆ›å»ºæœ¬åœ°è´¦æˆ·ã€‚&lt;/p&gt;
-&lt;p&gt;è€Œé€šè¿‡è™šå�‡è´¦æˆ·ä¾‹å¦‚ no@thankyou.com ç­‰å°�è¯•ç»•è¿‡ç™»å½•ä¹Ÿæ˜¯æ— æ•ˆçš„ï¼Œå½“ç„¶è¿™äº›éƒ½æ˜¯å¾®è½¯åœ¨ç‰ˆæœ¬æ›´æ–°ä¸­é™†ç»­åˆ é™¤çš„ç»•è¿‡æ–¹æ³•ï¼Œæ‰€ä»¥ç”¨æˆ·æƒ³è¦�ç»•è¿‡è´¦æˆ·ç™»å½•ç›¸å¯¹æ�¥è¯´è¿˜æ˜¯æœ‰äº›éº»çƒ¦çš„ã€‚&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; æ–°çš„ç»•è¿‡æ–¹æ³•é��å¸¸ç®€å�•ï¼š&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;åœ¨ç™»å½•ç•Œé�¢è¾“å…¥è´¦å�·çš„åœ°æ–¹ï¼Œä¸‹é�¢æœ‰å¾®è½¯è®¾ç½®çš„é•¿æ–‡æœ¬ä»‹ç»�ï¼Œé‡Œé�¢æœ‰ä¸ªäº†è§£æ›´å¤šè¶…é“¾æ�¥ (Learn More)ï¼Œç”¨æˆ·å�ªéœ€è¦�ç‚¹å‡»è¯¥é“¾æ�¥å°±ä¼šåŠ è½½è¯¦æƒ…ç„¶å��è‡ªåŠ¨è·³è½¬åˆ°åˆ›å»ºæœ¬åœ°è´¦æˆ·é¡µé�¢ã€‚&lt;/p&gt;
-&lt;p&gt;çœ‹èµ·æ�¥è¿™åº”è¯¥æ˜¯æŸ�ç§�é”™è¯¯ï¼Œæ­£å¸¸æƒ…å†µä¸‹ OOBE æœ¬èº«å°±æ˜¯è�”ç½‘è�·å�–å†…å®¹çš„ï¼Œäº†è§£æ›´å¤šè¶…é“¾æ�¥åº”è¯¥åœ¨å±•ç¤ºæ›´å¤šå†…å®¹å��æ��ä¾›è¿”å›�æŒ‰é’®ï¼Œè€Œå®�é™…æƒ…å†µæ˜¯è¿™é‡Œä¼šç›´æ�¥è·³è½¬åˆ°åˆ›å»ºæœ¬åœ°è´¦æˆ·é¡µé�¢ï¼Œæ‰€ä»¥è¿™åº”è¯¥æ˜¯æŸ�ç§�é”™è¯¯ã€‚&lt;/p&gt;
-&lt;p&gt;å��æ¶ˆæ�¯æ˜¯å¦‚æ�œå¾®è½¯æœ‰æ„�å°�å µè¿™ä¸ªæ–¹æ³•é‚£ä¹Ÿé��å¸¸ç®€å�•ï¼Œå�ªéœ€è¦�ç»§ç»­è°ƒæ•´ OOBE å��ç«¯æœ�åŠ¡å™¨å�³å�¯å¿«é€Ÿå°�å µé“¾æ�¥è·³è½¬é”™è¯¯ï¼Œè¿™æ ·ç”¨æˆ·å°±å�ªèƒ½å†�æ¬¡ç™»å½•å¾®è½¯è´¦æˆ·è€Œæ— æ³•åˆ›å»ºæœ¬åœ°è´¦æˆ·ã€‚&lt;/p&gt;
-&lt;p aria-label="çƒ­é—¨æ�¨è��"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="ä»…éœ€99å…ƒ/å¹´ï¼Œç¡…è°·CN2GIAæœ�åŠ¡å™¨ï¼Œå�¦æœ‰3å¹´ç‰ˆä»…éœ€528å…ƒï¼Œé™�é‡�é”€å”®ï¼Œå”®å®Œå�³æ­¢"&gt;çƒ­é—¨æ�¨è��ä»…éœ€99å…ƒ/å¹´ï¼Œç¡…è°·CN2GIAæœ�åŠ¡å™¨ï¼Œå�¦æœ‰3å¹´ç‰ˆä»…éœ€528å…ƒï¼Œé™�é‡�é”€å”®ï¼Œå”®å®Œå�³æ­¢&lt;span aria-hidden="true"&gt;ä»…éœ€99å…ƒ/å¹´ï¼Œç¡…è°·CN2GIAæœ�åŠ¡å™¨ï¼Œå�¦æœ‰3å¹´ç‰ˆä»…éœ€528å…ƒï¼Œé™�é‡�é”€å”®ï¼Œå”®å®Œå�³æ­¢&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 14 Sep 2026 02:34:25 +0000</pubDate></item><item><title>Windows 11 9月更新引起多项故障：音频、远程桌面、虚拟机、资源管理器等都出现异常</title><link>https://www.landian.news/archives/126848.html</link><description>
-&lt;p&gt;#系统资讯 Windows 11 9 月更新引起系统多项故障：音频、远程桌面、虚拟机、资源管理器等都出现异常。目前微软已经确认 USB 音频设备、远程桌面服务和虚拟机相关功能异常，用户反馈的问题还有资源管理器崩溃、登录后黑屏、文件历史记录无法识别备份磁盘、AMD 显卡出现驱动超时等。查看全文：https://ourl.co/126848&lt;/p&gt;&lt;p&gt;上周微软向所有受支持的产品发布 2026 年 9 月例行更新，其中 Windows 11 24H2/25H2 KB5124008 更新安装后引起设备出现多项功能异常，微软已经确认的问题就包括部分 USB 音频设备无法启动或输出声音、虚拟机和远程桌面等功能也出现异常。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/public/thumb/W11.png" rel="nofollow"&gt;&lt;img alt="Windows 11 9月更新引起多项故障：音频、远程桌面、虚拟机、资源管理器等都出现异常" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/public/thumb/W11.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;微软在支持文档中确认，部分基于 USB Audio Class 1.0 设备在安装更新后可能无法正常启动或播放声音。受影响的设备可能会在设备管理器中显示此设备无法启动 (Code 10)，音量控制也可能失效、声音设置页面甚至可能出现没有响应。&lt;/p&gt;
-&lt;p&gt;部分设备在立体声模式仍然可以工作，但如果切换多声道、8 声道、3D 音频模式后可能无法输出声音。微软建议受影响的用户尝试切换到双声道模式，后续微软将制定修复方案发布更新解决这个问题。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;此次更新还导致部分企业设备上的远程桌面服务不稳定，用户可能会频繁遇到失败、登录异常、长时间停留在正在等待远程桌面配置页面、文件资源管理器和管理控制台没有响应等。&lt;/p&gt;
-&lt;p&gt;对于使用 WSL 子系统或其他基于 HYPER-V 虚拟机的用户，微软也确认基于 Plan9 共享机制的 Linux 虚拟机可能无法访问宿主机文件夹，相关问题会影响部分使用 HCS 管理虚拟机的应用，例如 Claude Work 等。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;除了微软已经确认的这些问题外，还有用户报告 Windows 11 资源管理器崩溃、登录后黑屏、文件历史记录无法识别备份磁盘、AMD 显卡出现驱动程序超时等，这些问题还需要微软确认，不确定这是个例还是普遍性问题。&lt;/p&gt;
-&lt;p&gt;其中文件历史记录功能对部分办公用户来说非常重要，该功能可以自动备份文件产生的修改版本，无法识别备份磁盘会导致备份功能无法工作，建议用户日常工作时做好数据备份，以免出现文件改动或丢失无法找到旧版本的问题。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;KB5124008 属于例行安全更新且修复大量安全问题，对遇到以上问题的用户而言卸载更新即可解决问题，但问题是卸载更新可能导致系统存在安全隐患，对企业用户而言应慎重卸载更新。&lt;/p&gt;
-&lt;p&gt;微软目前正在继续收集用户反馈并制定各类解决方案，对家庭用户而言如果遇到实在影响使用的问题，可以先行卸载 KB5124008 以恢复正常使用。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 14 Sep 2026 02:18:26 +0000</pubDate></item><item><title>6啊！谷歌宣布安卓新增系统级密码管理器迁移 连Passkey通行密钥也可以无损迁移</title><link>https://www.landian.news/archives/126847.html</link><description>
-&lt;p&gt;#系统资讯 6 啊！谷歌基于 FIDO 标准化的凭证交换格式开发安卓系统级密码迁移功能，安卓作为媒介，让用户可以在其他密码管理器之间迁移数据，支持通行密钥迁移。该功能支持 Android 8 及更高版本，具体受 Google Play 服务版本影响。首批适配支持的密码管理器包括谷歌密码管理器、1Password、Bitwarden 和 Dashlane。查看全文：https://ourl.co/126847&lt;/p&gt;&lt;p&gt;此前谷歌已经测试过安卓系统内置密码管理器与其他密码管理器之间迁移数据，对密码管理器而言最麻烦的其实是迁移通行密钥，总不能迁移密码管理器后要求用户重新打开每个网站生成和换绑新的通行密钥，这样实在是太麻烦。&lt;/p&gt;
-&lt;p&gt;所以谷歌现在带来基于安卓系统的密码管理器迁移功能，这套机制使用标准化的 FIDO 凭证交换格式，可以让不同密码管理器之间实现更安全的数据迁移，用户更换密码管理器时将更加简单。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126847-1.png" rel="nofollow"&gt;&lt;img alt="6啊！谷歌宣布安卓新增系统级密码管理器迁移 连Passkey通行密钥也可以无损迁移" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126847-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;新的迁移流程由新密码管理器发起，用户在目标应用中选择导入或复制密码和通行密钥后，安卓系统会自动识别设备上已经安装的其他密码管理器，用户选择来源密码管理器和目标密码管理器即可。&lt;/p&gt;
-&lt;p&gt;之后系统会跳转到原密码管理器，由用户再次查看、确认和授权转移内容，授权后即可导出数据，然后再由两个密码管理器通过安卓系统的凭证交换接口完成数据切换，包括通行密钥都可以安全迁移。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126847-2.png" rel="nofollow"&gt;&lt;img alt="6啊！谷歌宣布安卓新增系统级密码管理器迁移 连Passkey通行密钥也可以无损迁移" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126847-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;谷歌强调，这套迁移流程不会将原始凭证暴露给安卓系统或未经授权的应用，凭证转移接口支持用户名、密码、通行密钥、地址、自定义字段、API 密钥以及银行卡信息等多种数据类型。&lt;/p&gt;
-&lt;p&gt;密码管理器也可以根据自身支持情况决定实际可以转移的内容，由于这套机制本身基于 FIDO 联盟的凭证交换格式，因此全程数据安全，只不过也需要其他密码管理器适配这套格式。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Google Password Manager / 谷歌密码管理器&lt;/li&gt;
-&lt;li&gt;1Password&lt;/li&gt;
-&lt;li&gt;Bitwarden Password Manager&lt;/li&gt;
-&lt;li&gt;Dashlane&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;需要注意的是用户必须升级到最新版，因为这些密码管理器通过新版本适配 FIDO 凭证交换接口，如果使用旧版本会存在兼容性问题。而且不同密码管理器支持的数据字段不同，例如有些可能无法转移安全笔记、附件、银行卡信息和其他自定义项目。&lt;/p&gt;
-&lt;p&gt;这个功能将覆盖 Android 8 及更高版本，不过实际可用性取决于设备是否安装 Google Play 服务、密码管理器版本、OEM 系统定制策略和地区策略影响，这个只能用户自行安装进行测试。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://blog.google/products-and-platforms/platforms/android/switch-password-managers/" rel="noopener" target="_blank"&gt;Google&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 11 Sep 2026 04:49:27 +0000</pubDate></item></channel></rss>
+</description><pubDate>Mon, 14 Sep 2026 03:36:29 +0000</pubDate></item></channel></rss>
