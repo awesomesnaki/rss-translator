@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 15 Sep 2026 19:01:30 +0000</lastBuildDate><item><title>FT：‘史蒂夫·班农与伯尼·桑德斯在人工智能安全呼吁中联手’</title><link>https://www.ft.com/content/bab5c4c5-5377-4dd0-8b46-d8c4ce9a36d5?syn-25a6b1a6=1</link><description>&lt;p&gt;乔·米勒，为《金融时报》报道（&lt;a href="https://politicalwire.com/2026/09/14/steve-bannon-and-bernie-sanders-unite-in-ai-safety-call/"&gt;经Political Wire&lt;/a&gt;）：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Wed, 16 Sep 2026 02:38:24 +0000</lastBuildDate><item><title>‘Apple 参考图像：一种可验证摄影的新方法’</title><link>https://security.apple.com/blog/apple-reference-image/</link><description>&lt;p&gt;Apple 安全研究部门发布了一篇简洁而有说服力的论文，描述了 Apple Reference Image 的工作原理以及他们为何要开发它。非常值得一读。这里仅摘录其中关于隐私的一个引人入胜的细节：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;其他行业解决方案要求摄影师或机构使用自己的凭证为图像担保。我们担心这会让某些摄影师，例如在冲突地区工作的摄影师，陷入困境；不应该为了证明图像真实性而必须放弃匿名性。我们开发 Apple Reference Image，正是为了避免让摄影师使用显式的公开凭证，甚至避免同一传感器拍摄的不同照片之间产生任何隐式的公开关联。最终的参考图像转而由 Apple 的签名服务在经 PCC 验证后进行签名。该签名由 Apple 最强的技术保障作为后盾。&lt;/p&gt;
+&lt;p&gt;我们的实现还保护图像本身的机密性，甚至对 Apple 也保密。仅仅拍摄参考图像，绝不应将实际像素暴露给 Apple 或任何其他人。我们通过 PCC 卓越的隐私特性来实现这一点——节点本身的架构设计使得连 Apple 也无法访问图像数据，正如 Apple 无法看到在 PCC 中为 Apple Intelligence 处理的信息一样。虽然撤销服务必须维护照片 GUID 和相关传感器的私有记录以支持撤销，但它永远无法访问图像数据，也不允许公众访问该记录。而且，由于最终撤销检查使用设备端列表进行，设备永远不会向任何人透露它正在查看哪张照片，以判断其是否仍然有效。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;a href="https://daringfireball.net/linked/2026/09/15/apple-reference-image" title="Permanent link to ‘‘Apple Reference Image: A New Approach for Verified Photography’’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Wed, 16 Sep 2026 02:38:24 +0000</pubDate></item><item><title>FT：‘史蒂夫·班农与伯尼·桑德斯在人工智能安全呼吁中联手’</title><link>https://www.ft.com/content/bab5c4c5-5377-4dd0-8b46-d8c4ce9a36d5?syn-25a6b1a6=1</link><description>&lt;p&gt;乔·米勒，为《金融时报》报道（&lt;a href="https://politicalwire.com/2026/09/14/steve-bannon-and-bernie-sanders-unite-in-ai-safety-call/"&gt;经Political Wire&lt;/a&gt;）：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;资深社会主义者伯尼·桑德斯与右翼活动人士史蒂夫·班农正联手呼吁为人工智能设置更多护栏，尽管唐纳德·特朗普坚称对该技术的担忧是一场骗局，只会帮助中国超越美国。&lt;/p&gt;
 &lt;p&gt;从这一迹象可以看出，围绕人工智能安全的强烈呼声正在如何重塑美国的政治版图：来自政治光谱极右翼和极左翼的演讲者将于周二齐聚华盛顿一场名为“亲人类大会”的活动，敦促立法者采取更多行动来应对人工智能的影响。&lt;/p&gt;
@@ -124,11 +130,11 @@
 &lt;li&gt;&lt;p&gt;电影模式现在可以在拍摄普通视频后应用；在之前的iPhone上，电影模式效果只能通过特定的拍摄模式获得。&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;不过在外行人看来，18 Pro只是换了新颜色而已。这不是抱怨，只是事实。哦，不过Face ID红外摄像头现在位于显示屏像素&lt;em&gt;下方&lt;/em&gt;，所以灵动岛的挖孔变小了。因此灵动岛始终为黑色的区域变小了，但由于旁边现在有更多显示像素，18 Pro的灵动岛现在可以显示三个活跃的实时活动，之前是两个。苹果每年都在越来越接近实现无刘海、无挖孔的显示屏。&lt;/p&gt;
-&lt;h2&gt;AirPods 5&lt;/h2&gt;&lt;p&gt;就像AirPods 4一样，苹果继续在同一名称下推出两款不同的产品。售价130美元的入门级AirPods 5现在配备了主动降噪功能（此前仅限更高价位的AirPods 4才有），包括通透模式和自适应模式。售价150美元的版本则配备无线充电盒（支持MagSafe、Qi或Apple Watch充电器）、可通过在耳机柄上上下滑动来调节音量，&lt;em&gt;并且&lt;/em&gt;拥有更长的电池续航。多花20美元就能获得一款好得多的产品，但苹果在AirPods 4上采用类似的产品分层策略显然效果不错。说实话我看不出有什么理由去买130美元的版本，但肯定有人在买。&lt;/p&gt;
-&lt;p&gt;苹果提供了一副（150美元的版本）给我评测，没有禁发期。我在横跨全国的航班上佩戴了它们，并与自己的AirPods Pro 3进行了降噪对比。直接比较整体音质很难，但仅就在飞机客舱中试图工作时降低噪音而言，我发现开启完整降噪的新款AirPods 5大致相当于通透模式下的AirPods Pro 3。这已经相当不错了，能让飞机上的环境噪音变得舒适许多。但AirPods Pro 3的完整降噪模式带来的降噪效果是质的飞跃，开放式设计的AirPods 5无法匹敌。&lt;/p&gt;
-&lt;p&gt;我为那些讨厌飞机客舱噪音、但耳朵又不适应AirPods Pro这类入耳式耳机的人感到遗憾。但考虑到AirPods 5的开放式设计，它的降噪效果似乎好得令人难以置信。我不觉得AirPods Pro不舒服，但确实觉得普通AirPods更舒适，尤其是在长途飞行等需要连续佩戴数小时的情况下。不过，我还是愿意在舒适度上做一点小妥协，换取AirPods Pro在音质和降噪方面的巨大提升。有了AirPods Pro，如果你用Vision Pro看电影，甚至在黑暗客舱中用MacBook或iPad屏幕观看，你真的可以完全忘记自己在飞机上。&lt;sup id="fnr5-2026-09-15"&gt;&lt;a href="https://daringfireball.net/#fn5-2026-09-15"&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;h2&gt;Apple Watch Series 12和Ultra 4&lt;/h2&gt;
-&lt;p&gt;最大的健康方面的新功能是新一代心率传感器，每5秒读取一次数据——频率是去年Series 11/Ultra 3的60倍。苹果委托了一项研究，将他们的新手表与一系列竞品心率监测设备进行对比，&lt;a href="https://www.apple.com/legal/more-resources/docs/Heart_Rate_Accuracy_Study_2026.pdf"&gt;并发布了一篇包含结果的论文&lt;/a&gt;，声称Apple Watch最为准确。这是苹果委托并发布的研究，所以姑且听之，但在我看来它看起来是可靠的，我也不知道有其他研究得出相反结论。（如果我解读结果无误的话，像Oura那样的戒指是糟糕的心率监测器。）&lt;/p&gt;&lt;p&gt;Ultra 4看起来和Ultra 1–3一样（尽管Ultra 1只有自然钛金属色，没有黑色）。Series 12以一些微调的颜色推出，有哑光铝金属（400美元）和抛光钛金属（700美元），并且自七年前的Series 5以来首次重新推出陶瓷材质，有两种颜色：珍珠白和夜蓝色（900美元）。这些价格是针对较小的42毫米尺寸；较大的46毫米尺寸每款加50美元。正如迄今为止每一款Series型号一样，只有价格更高的材质才配备蓝宝石玻璃表镜；入门级铝金属型号仍然使用Ion-X玻璃。但现在这些玻璃表镜提供了超瓷晶面板2，这种处理在iPhone上&lt;a href="https://daringfireball.net/linked/2026/08/13/ceramic-shield-2-is-the-real-deal"&gt;已被证明对耐刮擦性有巨大帮助&lt;/a&gt;。 &lt;/p&gt;
+&lt;h2&gt;AirPods 5&lt;/h2&gt;&lt;p&gt;就像 AirPods 4 一样，苹果继续在同一名称下推出两款不同的产品。售价 130 美元的入门级 AirPods 5 现在具备主动降噪功能（此前仅限于 AirPods 4 的高价位版本），包括通透模式和自适应模式。售价 150 美元的 AirPods 5 则配备无线充电盒（支持 MagSafe、Qi 或 Apple Watch 充电盘）、通过在耳柄上向上/向下滑动调节音量，&lt;em&gt;以及&lt;/em&gt;更长的电池续航。只需多花 20 美元就能获得好得多的产品，但苹果在 AirPods 4 上采用类似的产品分化策略想必效果不错。我实在想不通为什么会有人买 130 美元的版本，但肯定有人在买。&lt;/p&gt;
+&lt;p&gt;苹果提供了一副（150 美元版本）给我评测，没有禁发期限制。我在横跨全国的返程航班上佩戴了它们，并与我自己的 AirPods Pro 3 进行了降噪对比。直接比较整体音质有些困难，但仅就试图工作时降低机舱噪音而言，我发现新款 AirPods 5 在完全降噪模式下大致相当于 AirPods Pro 3 的自适应模式。这已经相当不错了，能让飞机上的环境噪音水平舒适许多。但 AirPods Pro 3 的完全降噪模式带来的降噪效果是质的飞跃，这是开放式设计的 AirPods 5 无法企及的。&lt;/p&gt;
+&lt;p&gt;我为那些讨厌机舱噪音但耳朵又无法舒适佩戴 AirPods Pro 这类入耳式耳机的人感到遗憾。但考虑到 AirPods 5 的开放式设计，它的降噪效果似乎好得不可思议。我不觉得 AirPods Pro 不舒服，但我确实觉得普通 AirPods 更舒适，尤其是在长达数小时的航班等长时间佩戴场景下。不过，我还是愿意为了 AirPods Pro 在音质和降噪方面的大幅提升而牺牲一点舒适度。有了 AirPods Pro，如果你用 Vision Pro 看电影，甚至在黑暗的机舱里用 MacBook 或 iPad 屏幕观看，你真的可以完全忘记自己在飞机上。&lt;sup id="fnr5-2026-09-15"&gt;&lt;a href="https://daringfireball.net/#fn5-2026-09-15"&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h2&gt;Apple Watch Series 12 和 Ultra 4&lt;/h2&gt;
+&lt;p&gt;最大的健康新功能是新一代心率传感器，每 5 秒读取一次数据——频率是一年前 Series 11 / Ultra 3 的 60 倍。苹果委托了一项研究，将他们的新手表与一系列竞争性心率监测设备进行对比，&lt;a href="https://www.apple.com/legal/more-resources/docs/Heart_Rate_Accuracy_Study_2026.pdf"&gt;并发布了一篇包含结果的论文&lt;/a&gt;，声称 Apple Watch 最为准确。这是苹果委托并发布的研究，所以姑且听之，但在我看来它看起来很可靠，而且我不知道有其他研究得出相反结论。（如果我理解正确的话，像 Oura 这样的戒指是糟糕的心率监测器。）&lt;/p&gt;&lt;p&gt;Ultra 4看起来和Ultra 1–3一样（尽管Ultra 1只有自然钛金属色，没有黑色）。Series 12以一些微调的颜色推出，有哑光铝金属（400美元）和抛光钛金属（700美元），并且自七年前的Series 5以来首次重新推出陶瓷材质，有两种颜色：珍珠白和夜蓝色（900美元）。这些价格是针对较小的42毫米尺寸；较大的46毫米尺寸每款加50美元。正如迄今为止每一款Series型号一样，只有价格更高的材质才配备蓝宝石玻璃表镜；入门级铝金属型号仍然使用Ion-X玻璃。但现在这些玻璃表镜提供了超瓷晶面板2，这种处理在iPhone上&lt;a href="https://daringfireball.net/linked/2026/08/13/ceramic-shield-2-is-the-real-deal"&gt;已被证明对耐刮擦性有巨大帮助&lt;/a&gt;。 &lt;/p&gt;
 &lt;p&gt;为新款手表提供动力的S11芯片启用了&lt;a href="https://support.apple.com/en-us/148354"&gt;两个非常有趣且立即引发争议的Apple Intelligence功能&lt;/a&gt;：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Live Rewind 是一项功能，允许你双击数码表冠，调出周围最近15秒对话的文字记录。苹果声称——有点荒谬地——音频并未被持续录音，但显然它正在被录音。他们的意思是，音频只是持续缓存15秒。你无法设置 Live Rewind 转录超过（或少于）最近15秒的音频。&lt;/p&gt;&lt;/li&gt;
@@ -275,10 +281,4 @@
 &lt;a href="https://daringfireball.net/feeds/sponsors/2026/09/workos_how_sso_works_and_the_f" title="‘WorkOS：SSO 如何运作以及最快的集成方式’的永久链接"&gt; ★ &lt;/a&gt;
 </description><pubDate>Tue, 15 Sep 2026 15:32:24 +0000</pubDate></item><item><title>苹果的 27.0 操作系统更新</title><link>https://scriptingosx.com/2026/09/apple-27-platform-updates-september-2026/</link><description>&lt;p&gt;Scripting OS X 网站的 Armin Briegel 整理了今日所有操作系统更新的发布说明链接（功能、开发者、安全）。除了 27.0 更新之外，苹果还发布了 26.7 更新&lt;em&gt;以及&lt;/em&gt; MacOS 15.8 Sequoia。大日子。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/09/14/apples-270-os-updates" title="Permanent link to ‘Apple’s 27.0 OS Updates’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 14 Sep 2026 19:41:41 +0000</pubDate></item><item><title>垃圾箱之火 – 受猫砂盆启发的Firefox扩展</title><link>https://addons.mozilla.org/en-US/firefox/addon/dumpster-fire/</link><description>&lt;p&gt;迈尔斯·阿博特：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;在弹窗中打开 x.com 链接，这样你就能读完那一条帖子就走。这是 Litterbox Safari 扩展的移植版。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Litterbox 是个更巧妙的名字，但 Dumpster Fire 更好笑。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/09/14/dumpster-fire" title="Permanent link to ‘Dumpster Fire – Litterbox-Inspired Extension for Firefox’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Mon, 14 Sep 2026 14:47:43 +0000</pubDate></item></channel></rss>
+</description><pubDate>Mon, 14 Sep 2026 19:41:41 +0000</pubDate></item></channel></rss>
