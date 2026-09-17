@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Wed, 16 Sep 2026 22:40:41 +0000</lastBuildDate><item><title>Xcode 27.2 已发布，但 27.1 尚未发布，这意味着开发者仍无法开始开发适配 Duo 的应用</title><link>https://developer.apple.com/documentation/xcode-release-notes/xcode-27_2-release-notes</link><description>&lt;p&gt;在Xcode 27.2发布说明顶部，有一条标记为“重要”的注释：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Thu, 17 Sep 2026 14:41:53 +0000</lastBuildDate><item><title>为什么美国版的iPhone 18 Pro Max，且仅限美国版的18 Pro Max，使用高通蜂窝调制解调器，而不是苹果自家更优越的C2调制解调器？</title><link>https://www.macrumors.com/2026/09/12/iphone-18-pro-max-us-model-difference/</link><description>&lt;p&gt;MacRumors 的 Joe Rossignol 上周末写道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Apple 现在表示，iPhone 18 Pro 在全球范围内都配备 C2 调制解调器，而 iPhone 18 Pro Max 除美国外的每个国家都使用该芯片。[...]&lt;/p&gt;
+&lt;p&gt;Apple 尚未就这一调制解调器差异给出解释，所以目前我们只能猜测。2023 年，&lt;a href="https://investor.qualcomm.com/news-events/press-releases/news-details/2023/Qualcomm-Announces-Agreement-with-Apple-for-Chip-Supply-09-11-2023/default.aspx"&gt;高通宣布&lt;/a&gt;将向 Apple 供应智能手机调制解调器直至 2026 年，因此也许 Apple 正在为美国版 iPhone 18 Pro Max 配备高通调制解调器，以便以最低限度履行该协议。&lt;/p&gt;
+&lt;p&gt;Apple 的 C2 调制解调器在美国支持超高速 mmWave 5G，这与其上一代 C1 和 C1X 调制解调器不同。iPhone 12 及更新机型中的高通调制解调器已经在美国支持 mmWave 5G，所以 Apple 在这里正在追赶。Apple 表示，与 C1X 相比，C2 带来“明显更快的上传速度”，同时能耗降低 15%。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我想说，Apple 在这里&lt;em&gt;已经&lt;/em&gt;追赶上，用的是过去式。他们在支持 mmWave 方面追上了。而自从 C1 首次随 &lt;a href="https://daringfireball.net/2025/02/the_iphone_16e"&gt;iPhone 16e 在 2025 年初&lt;/a&gt;出货以来，Apple 在能效方面一直明显&lt;em&gt;领先&lt;/em&gt;于高通。&lt;/p&gt;
+&lt;p&gt;Apple 没有解释为什么美国版 iPhone 18 Pro Max 机型是全球唯一使用高通调制解调器的 18 Pro 机型，但我认为 Rossignol 的解释基本上就是答案：他们需要在&lt;em&gt;某些&lt;/em&gt;机型中使用它，以便最低限度地履行他们与高通在 2023 年签订的合同。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/09/17/iphone-18-pro-c2-vs-qualcomm-modems" title="Permanent link to ‘Why Do U.S. Models of the iPhone 18 Pro Max, and Only U.S. Models of the 18 Pro Max, Use Qualcomm Cellular Modems Instead of Apple’s Own Superior C2 Modem?’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Thu, 17 Sep 2026 14:41:53 +0000</pubDate></item><item><title>Xcode 27.2 已发布，但 27.1 尚未发布，这意味着开发者仍无法开始开发适配 Duo 的应用</title><link>https://developer.apple.com/documentation/xcode-release-notes/xcode-27_2-release-notes</link><description>&lt;p&gt;在Xcode 27.2发布说明顶部，有一条标记为“重要”的注释：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;针对iPhone Duo的iOS SDK和模拟器支持将于本月晚些时候在即将发布的Xcode 27.1中提供。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -28,11 +37,4 @@
 &lt;p&gt;然后，随着之后的 27.2.x 更新，Duo 将加入其他设备，所有平台上所有设备的版本号将在 11 月或 12 月初趋于一致。我相信这就是计划。也许 Duo 的版本汇合会等到 27.3，但我认为会是一次 27.2.x 更新。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://daringfireball.net/2010/06/marble_mystery_solved"&gt;类似的事情在 2010 年也发生过&lt;/a&gt;，当时初代 iPad 于 2010 年 4 月发布，运行的是当时仍称为 iPhone OS 的 3.2 版。iPhone OS 3.2 是 iPad 独占——从未有 iPhone 或 iPod Touch 运行过它。（在 iPad 发布后，那些设备仍停留在 v3.1。）Apple 将操作系统更名为 &lt;a href="https://www.apple.com/newsroom/2010/06/07Apple-Presents-iPhone-4/"&gt;iOS——就在当年 6 月的 WWDC 上&lt;/a&gt;，但 iOS 4.0 &lt;em&gt;和&lt;/em&gt; 4.1 仍为 iPhone 和 iPod Touch 独占。与 iPad 的版本汇合&lt;a href="https://www.apple.com/newsroom/2010/11/22Apples-iOS-4-2-Available-Today-for-iPad-iPhone-iPod-touch/"&gt;直到 11 月下旬的 iOS 4.2 才发生&lt;/a&gt;。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/09/16/272-betas" title="Permanent link to ‘Apple OS 27.2 Betas Are Out; Version 27.1 Is the Duo-Exclusive iOS Fork’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Wed, 16 Sep 2026 18:36:08 +0000</pubDate></item><item><title>AirPods 5 配备无线充电盒，兼容 MagSafe，但不支持磁吸</title><link>https://www.apple.com/airpods-5/specs/</link><description>&lt;p&gt;在&lt;a href="https://daringfireball.net/2026/09/thoughts_and_observations_on_apples_surprise_and_shine_event"&gt;我昨天对上周苹果发布会的长篇评论&lt;/a&gt;中，我写道，当你多付 20 美元购买售价 150 美元的 AirPods 5（配无线充电盒）时，充电盒可兼容感应充电，支持“MagSafe、Qi 或 Apple Watch 充电圆盘”。但苹果 AirPods 5 技术规格页面的兼容性部分并未列出 MagSafe：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;可与 USB‑C 接口、Apple Watch 充电器或 Qi 认证充电器配合使用&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这是因为对苹果而言，真正的 MagSafe 兼容意味着磁吸连接。AirPods 5 充电盒没有 MagSafe 磁铁（充电盒似乎太小了），只有用于 Apple Watch 充电圆盘的磁铁。AirPods Pro 充电盒有磁铁，可吸附到这两种充电圆盘上。所以当你用 MagSafe 给 AirPods Pro 充电时，它会啪地吸附到充电圆盘上。我可以把我的 AirPods Pro 3 充电盒吸附到近乎垂直的 MagSafe 充电器上，比如我放在键盘旁边的 &lt;a href="https://nomadgoods.com/products/stand-one-4th-gen-carbide"&gt;Nomad Stand One&lt;/a&gt;。（很棒的产品——你应该买一个。我有两个；另一个放在我的床头柜上。）我无法在那个支架上给 AirPods 5 充电盒充电，因为它就是会掉下来。&lt;/p&gt;
-&lt;p&gt;但如果我把 AirPods 5 充电盒平放在水平放置的 MagSafe 充电圆盘上，它充电就完全正常。这是因为 MagSafe 充电圆盘本身兼容 Qi。我明白苹果为什么对这一点如此较真——“MagSafe”里的“Mag”含义显而易见——但如果不提及 MagSafe，人们就有理由得出这样的结论：AirPods 5 无线充电盒根本无法与 MagSafe 配合使用。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/09/16/airpods-5-magsafe" title="Permanent link to ‘AirPods 5 With Wireless Charging Case Works With MagSafe, But Not Magnetically’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Wed, 16 Sep 2026 14:35:49 +0000</pubDate></item></channel></rss>
+</description><pubDate>Wed, 16 Sep 2026 18:36:08 +0000</pubDate></item></channel></rss>
