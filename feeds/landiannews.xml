@@ -1,5 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sun, 20 Sep 2026 02:00:00 +0000</lastBuildDate><item><title>[下载] 微软发布更新修复Excel多个版本中的功能异常 包括公式计算异常和无法复制粘贴表格</title><link>https://www.landian.news/archives/126959.html</link><description>&lt;article&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sun, 20 Sep 2026 08:49:39 +0000</lastBuildDate><item><title>微软优化Windows 11云重建功能 现在可以选择删除文件重装或彻底擦除硬盘上的文件</title><link>https://www.landian.news/archives/126964.html</link><description>
+&lt;p&gt;#系统资讯 微软优化 Windows 11 云重建功能，现在可以选择删除文件重装系统或彻底擦除硬盘上的数据避免恢复。云重建功能可以在联网时利用 WinRE 下载镜像并重装系统，该功能保 PC 不保数据，即可以让你 PC 恢复时间，但数据会被删除。新增的选项主要就是擦除数据，微软称如果你准备卖掉 PC 或将其分配给其他人使用，可以使用擦除选项彻底清理数据避免被恢复。查看全文：https://ourl.co/126964&lt;/p&gt;&lt;p&gt;云重建是微软近期在 Windows 11 中添加的新功能，该功能利用 WinRE 恢复环境联网从微软下载最新版安装镜像，然后直接重装系统。整个过程不需要利用其他 PC 下载镜像、刻录到 U 盘、通过 BIOS 修改启动项等，对于发生严重故障的 PC 来说云重建功能非常好用。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126964.png" rel="nofollow"&gt;&lt;img alt="微软优化Windows 11云重建功能 现在可以选择删除文件重装或彻底擦除硬盘上的文件" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126964.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;需要特别说明的是，云重建功能重点是恢复 PC 的正常使用，在重装过程中不支持备份数据，所以如果用户有重要数据那还是得提前准备 U 盘和 PE 系统将数据备份出来 (如果系统盘开启加密可能还需要 BitLocker 解锁密码或恢复密钥)。&lt;/p&gt;
+&lt;p&gt;所以建议各位平时最好准备个 U 盘，4GB 就行，然后安装 WePE 系统作为备用，真出问题后还能通过 PE 系统执行操作。如果有更大的 U 盘那是最好的，例如 16GB U 盘，安装 WePE 后还可以下载 Windows 11 镜像放到 U 盘里，后续要重装也非常方便。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在 Windows 11 最新测试版中，微软为云重建功能带来两项数据清除选项。如果用户准备重装系统继续使用这台 PC，可以使用删除文件，这里的删除文件指的是清理系统盘所有数据并且为快速格式化。&lt;/p&gt;
+&lt;p&gt;如果用户准备将这台 PC 卖掉或分配给其他用户，则可以使用删除并清除文件选项，该选项会利用存储硬件的擦除功能，在重装系统前将硬盘中的数据彻底清除，这样即便使用专业恢复软件也难以恢复数据。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sun, 20 Sep 2026 08:49:39 +0000</pubDate></item><item><title>iOS内核级攻击突然增多：币圈应用FomoPeek内置框架窃取私钥 大量用户资金被盗</title><link>https://www.landian.news/archives/126963.html</link><description>
+&lt;p&gt;#安全资讯 iOS 内核级攻击突然增多且面向普通用户：币圈应用 FomoPeek 靠 KOL 拉新推广吸引大量用户下载安装，但其内置 iOS 内核级攻击框架。该框架大概率也是基于 DarkSword 框架开发 (与此前 NodeSeek 上虚假的领 VPS 活动相同)，能够逃离沙盒并读取 iPhone 中的敏感数据。FomoPeek 通过攻击框架窃取大量用户的加密钱包私钥，如果用户使用旧版 iOS 且安装过该应用，则私钥很可能已经泄露。查看全文：https://ourl.co/126963&lt;/p&gt;&lt;p&gt;据安全公司慢雾科技发布的消息，近期慢雾收到多起用户资产被盗的报告，调查发现受影响案例涉及私钥泄露，而这些用户已安装或曾安装过 FomoPeek 应用。&lt;/p&gt;
+&lt;p&gt;FomoPeek 本身并非加密钱包，而是帮助用户关注和追踪链上资金动向的工具，并在发生可能影响行情的链上信息时向用户发布提醒，但研究发现该应用内置两个与其声明业务无关的功能模块。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;FomoPeek 内置的 iOS 内核级漏洞利用框架具备多种不同的利用方式，该框架可以根据设备型号和实际使用的 iOS 版本自动选择攻击方式。如果成功利用漏洞则攻击程序可能逃逸 iOS 沙盒并访问和解密钥匙串中的数据，也具备读取设备上属于其他应用的文件的权限。&lt;/p&gt;
+&lt;p&gt;这意味着设备上存储的所有敏感数据例如加密钱包私钥、助记词 / 种子短语、登录凭证、聊天记录和文件等都可以被黑客窃取并上传到攻击者控制的服务器。FomoPeek 还可以远程接收攻击者下发的指令。&lt;/p&gt;
+&lt;p&gt;这个内核级漏洞利用框架可以对 iOS 12.0~iOS 18.7 和 iOS 26.0~iOS 26.1 发起攻击，即利用苹果已经修复的安全漏洞发起攻击，如果用户始终使用 iOS 最新版则漏洞会被修复，FomoPeek 也无法继续利用漏洞。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126963.png" rel="nofollow"&gt;&lt;img alt="iOS内核级攻击突然增多：币圈应用FomoPeek内置框架窃取私钥 大量用户资金被盗" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126963.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;FomoPeek 作为新项目难以快速被更多加密货币用户下载使用，因此该应用采取的方式是付费邀请 KOL 宣传和拉新。蓝点网看到的图片显示，KOL 邀请用户使用推荐码下载注册 FomoPeek 应用，随后新用户可以获得 7USDT 的奖励。至于 KOL，可能会获得更高的奖励。&lt;/p&gt;
+&lt;p&gt;通过这种方式 FomoPeek 可以快速接触大量币圈用户并诱导用户下载该应用，随后开始窃取钱包私钥并转移用户资产。对被盗资产的币圈用户来说，这波损失非常惨重，很多用户的钱包都被直接清空，并且资产难以追回。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;从目前情况来看这些内核级攻击大概率使用的也是 DarkSword 系列漏洞利用框架，这是谷歌在 2026 年 3 月份通报的 iOS 高危安全漏洞。在谷歌通报给苹果后，苹果已经在后续发布的新版本中修复漏洞，因此使用最新版的用户不受影响。&lt;/p&gt;
+&lt;p&gt;整体来说 iOS 系统依然安全，前提是用户始终应该使用最新版，应开启自动更新功能，不要因为 iOS 越更新越卡问题就彻底关闭更新。对币圈用户来说使用 iPhone+iOS 最新版的安全系数更高，毕竟涉及资产安全问题，所以安全优先。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.landian.news/archives/126595.html" rel="noopener" target="_blank"&gt;另外早前 NodeSeek 社区就有攻击者发布虚假的免费领 VPS 服务器活动&lt;/a&gt;，该活动同样使用 DarkSword 系列攻击框架，即这类以前少见的内核级攻击已经开始面向普通用户发起攻击，不要下载来历不明的应用、不要打开陌生网站也是防御方式，但无论如何都应该保持 iOS 正常更新。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/126595.html" title="也算是活久见：NS论坛出现的PolarNode免费服务器活动实为钓鱼 利用iOS漏洞发起攻击"&gt;&lt;h3&gt;也算是活久见：NS论坛出现的PolarNode免费服务器活动实为钓鱼 利用iOS漏洞发起攻击&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#安全资讯 也算是活久见：NS 社区出现针对 iOS 用户的内核级攻击，以免费服务器活动吸引用户打开页面。这个活动页面暗藏针对 Safari 漏…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/tech/security"&gt;安全资讯&lt;/a&gt;, &lt;a href="https://www.landian.news/tech"&gt;科技资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2026年9月2日 11:30&lt;/span&gt;&lt;span title="浏览数量"&gt;11.30K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://x.com/SlowMist_Team/status/2101211432541192615" rel="noopener" target="_blank"&gt;SlowMist&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sun, 20 Sep 2026 05:00:01 +0000</pubDate></item><item><title>深度求索补充说明DS API峰谷计费：调休补班周末和法定节假日均按闲时计费</title><link>https://www.landian.news/archives/126962.html</link><description>&lt;article&gt;
+&lt;p&gt;#人工智能 深度求索补充说明 DS API 峰谷计费：所有中国法定节假日和调休补班的周末也全部按闲时计费，即周末哪怕是调休的工作日也按闲时计费。最近的两个调休补班周末是今天 (周日) 和 10 月 10 日 (周六)，对用户而言这也算是深度求索微微让利。另外国外用户调用 DS API 应该也按照这个机制走，即中国法定节假日全部按闲时计费。查看全文：https://ourl.co/126962&lt;/p&gt;&lt;p&gt;今天是 2026 年国庆节的调休补班日 (也是周日)，深度求索特地在 DeepSeek API 平台挂上节假日和调休补班的峰谷计费说明，即所有调休补班的周末以及法定节假日全天都按照闲时计费，对用户而言这也算是深度求索微微让利。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126982-1.png" rel="nofollow"&gt;&lt;img alt="深度求索补充说明DS API峰谷计费：调休补班周末和法定节假日均按闲时计费" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126982-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;按照此前 DS API 的峰谷计费说明，周末正常来说都是全天按照闲时计费的 (最初也是峰谷但后面改成全天闲时)，那像调休补班这种情况怎么算呢？今天确实是工作日但也是周末，之前深度求索并未明确说明节假日和补班的峰谷机制。&lt;/p&gt;
+&lt;p&gt;现在增加补充说明后深度求索确认即便是补班 (工作日) 周末也按闲时计费，而且所有中国法定节假日都按闲时计费，这个政策应该也全球同步，即海外开发者调用时应该也按中国节假日来获得更多闲时计价。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126982-2.png" rel="nofollow"&gt;&lt;img alt="深度求索补充说明DS API峰谷计费：调休补班周末和法定节假日均按闲时计费" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126982-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;ins data-ad-client="ca-pub-8597288383599884" data-ad-format="auto" data-ad-slot="1551135873" data-full-width-responsive="true"&gt;&lt;/ins&gt;
+&lt;/p&gt;&lt;popup module-class="point-pay-module" ref="pointPayRef"&gt;&lt;point-pay-popup @close-point-pay-popup="closePointPay"&gt;&lt;/point-pay-popup&gt;&lt;/popup&gt; &lt;/article&gt;
+</description><pubDate>Sun, 20 Sep 2026 04:15:23 +0000</pubDate></item><item><title>微软发布补丁彻底修复Microsoft Defender错误通知称防病毒软件已关闭的问题</title><link>https://www.landian.news/archives/126961.html</link><description>
+&lt;p&gt;#软件资讯 微软发布补丁彻底解决 Microsoft Defender 错误通知称防病毒软件已关闭的问题。这个问题从 8 月 28 日开始通过微软补丁引入，由于错误声称防病毒软件已关闭，这甚至引起部分用户恐慌，用户以为中毒是恶意软件关闭的 MD。现在用户只需要将 MD 更新到 4.18.26080.4 + 版即可 解决问题，再看到已关闭的通知那就真得检查是不是中毒了。查看全文：https://ourl.co/126961&lt;/p&gt;&lt;p&gt;从 2026 年 8 月 28 日开始，&lt;a href="https://www.landian.news/archives/126539.html" rel="noopener" target="_blank"&gt;Windows 10/11 所有受支持的版本默认运行的 Microsoft Defender 防病毒软件都存在故障&lt;/a&gt;，即明明已经正常工作但时不时弹出通知称防病毒软件已关闭，这甚至导致部分长期使用该软件的用户产生恐慌，以为电脑已经感染病毒是病毒关闭的防病毒软件。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2024/06/104643.png" rel="nofollow"&gt;&lt;img alt="微软发布补丁彻底修复Microsoft Defender错误通知称防病毒软件已关闭的问题" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2024/06/104643.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这个问题实际上是微软通过补丁引入的，而且是所有当前受支持的版本都会弹出错误通知，例如 Windows 11 23H2/24H2/25H2/26H1、Windows 10 21H2/22H2 以及 Windows 10 LTSC/LTSB 系列、Windows Server 2012 开始到 Windows Server 2025。&lt;/p&gt;
+&lt;p&gt;在引起用户恐慌后微软也承认这只是错误通知，实际上 Microsoft Defender 已经在后台正常运行，可以正常自动扫描以及对用户下载的文件进行例行扫描和拦截，所以除了出现错误通知外不影响用户正常使用。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;日前微软发布适用于 Microsoft Defender 的定义更新用来彻底解决问题，这个定义更新主要是用来升级软件核心版本，升级到 4.18.26080.4 或更高版本后，Microsoft Defender 不会再错误发出已关闭通知。&lt;/p&gt;
+&lt;p&gt;但如果用户使用其他方式强行关闭 Microsoft Defender 并且还没有安装其他杀毒软件，那系统还是会弹出关闭通知，这是正常通知不是错误通知，但再看到通知时用户就需要检查情况，确保不是恶意软件关闭的 Microsoft Defender。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/126539.html" title="Microsoft Defender又出问题：可能会频繁弹出防病毒软件已关闭的通知"&gt;&lt;h3&gt;Microsoft Defender又出问题：可能会频繁弹出防病毒软件已关闭的通知&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#系统资讯 Microsoft Defender 又出问题：可能会频繁弹出防病毒软件已关闭的通知。该问题与微软近期推送的更新有关 (防病毒软件更…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/soft"&gt;软件资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2026年8月31日 12:00&lt;/span&gt;&lt;span title="浏览数量"&gt;3.45K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sun, 20 Sep 2026 03:30:03 +0000</pubDate></item><item><title>OpenAI就是毒瘤？微软称OpenAI爬虫造成人类历史上最大规模的劳动力盗窃而且可能造成恶性循环</title><link>https://www.landian.news/archives/126960.html</link><description>
+&lt;p&gt;#人工智能 纽约时报展示的法庭文件显示，微软高管称 OpenAI 爬虫造成人类历史上最大规模的劳动力盗窃，而且可能造成恶性循环。OpenAI 抓取海量内容但不向出版社付费，这会导致出版社没有足够的资金继续撰写高质量内容。ChatGPT 负责人也称抓取行为对出版商构成生存威胁，而 OpenAI 总裁布罗克曼明知道员工使用技术手段绕过付费墙抓取内容，但还采取鼓励的态度。查看全文：https://ourl.co/126960&lt;/p&gt;&lt;p&gt;纽约时报日前发布报道揭示微软对 OpenAI 非法获取内容训练人工智能技术的担忧，微软高管称 OpenAI 的数据爬虫造成人类历史上最大规模的劳动力盗窃，这种行为还可能会引起恶性循环，即出版商 (网站和作家等) 无法获得足够的资金用于继续撰写高质量内容。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2024/09/105878.png" rel="nofollow"&gt;&lt;img alt="OpenAI就是毒瘤？微软称OpenAI爬虫造成人类历史上最大规模的劳动力盗窃而且可能造成恶性循环" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2024/09/105878.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;纽约时报引用的内容并非采访而是微软高管在法庭文件中的说明，这些法庭文件属于纽约时报起诉微软和 OpenAI 的侵权案件。目前仅部分法庭文件内容被公布，暂时没有文件全文以及其他必要的背景信息(&lt;em&gt;即不知道微软高管在什么情况下说出这种话的，考虑到纽约时报的名声，可能得综合文件全文来看微软高管想要表达的意思&lt;/em&gt;)。&lt;/p&gt;
+&lt;p&gt;在法庭文件中微软应用科学总监布伦特・赫克特博士称，OpenAI 抓取数据的工作类似于人类历史上最大规模的劳动力盗窃，这种行为可能会造成恶性循环。而 OpenAI 副总裁兼 ChatGPT 领导尼克・特利则表示，抓取行为对出版商构成生存威胁。&lt;/p&gt;
+&lt;p&gt;纽约时报和其他作者、出版商认为大型科技公司未经许可或支付任何费用就从互联网上抓取海量数据用来训练模型，这违反版权法以及给出版商造成生存危机，因为出版商无法获得足够的资金支持持续运营。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; OpenAI 不知道版权问题？当然知道，还绕过付费墙：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;法庭文件还提到 OpenAI 及其合作伙伴明知道侵权但仍然继续获取数据，例如 OpenAI 使用技术手段绕过网站设置的付费墙并抓取内容，抓取的付费内容还会被清洗包括删除版权声明来构建超大规模的训练数据集。&lt;/p&gt;
+&lt;p&gt;OpenAI 高管不仅知道这是侵权行为，而且对员工绕过付费墙抓取数据采取鼓励措施：格雷格・布罗克曼是 OpenAI 联合创始人兼总裁，有员工发邮件告诉布罗克曼称自己找到新的付费墙攻击方式时，布洛克曼回复称啊不错。&lt;/p&gt;
+&lt;p&gt;另外 OpenAI 也知道在 AI 回答里添加来源链接也没人点击，OpenAI 某软件工程师在 2023 年告诉同事：无论我们如何醒目地展示链接用户都不会点击。尼克・特利则称人工智能产品在很大程度上可以替代新闻业。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sun, 20 Sep 2026 02:45:00 +0000</pubDate></item><item><title>[下载] 微软发布更新修复Excel多个版本中的功能异常 包括公式计算异常和无法复制粘贴表格</title><link>https://www.landian.news/archives/126959.html</link><description>&lt;article&gt;
 &lt;p&gt;#软件资讯 微软向 Excel 多个版本发布修复程序解决公式异常异常和无法复制粘贴单元格问题。最初微软只表示该问题影响 Excel 2016，但从用户反馈来看其他版本也同样受影响。现在微软确认 2016/2019/2021/2024 都受影响，用户需要下载补丁进行修复。下载地址：https://ourl.co/126959&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/126846.html" rel="noopener" target="_blank"&gt;早前微软发布的 2026 年 9 月例行更新导致 Excel 出现多种问题&lt;/a&gt;，对很多办公用户而言 Excel 使用频率极高，而出现的公式计算异常和表格无法复制粘贴会严重影响正常使用。最开始微软只说影响 Excel 2016，但从用户反馈来看其他版本也同样受影响，现在微软也确认更多版本获得修复程序 。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126846.png" rel="nofollow"&gt;&lt;img alt="微软发布更新修复Excel多个版本中的功能异常 包括公式计算异常和无法复制粘贴表格" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126846.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -82,68 +147,4 @@
 &lt;/ul&gt;
 &lt;p&gt;当然现在人工智能编码技术非常强大，对企业而言通过人工智能改造项目应该不是特别难的事情。考虑到微软预留的时间非常充足，企业通过 AI 改造是个非常不错的选择，迁移到基于 Chromium 等引擎的现代化架构后，可以在所有现代浏览器上提供兼容性。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 19 Sep 2026 07:09:11 +0000</pubDate></item><item><title>X/Twitter增加名为「幕后揭秘」的新功能 可以看你的帖子是否在特定国家/地区被限制</title><link>https://www.landian.news/archives/126954.html</link><description>
-&lt;p&gt;#网站应用 X/Twitter 增加名为幕后揭秘的新功能，可以看你的帖子是否在特定国家或地区被限制。这项限制属于 X 在不同国家运营的法律要求，不等于影子屏蔽或账号被降权。被限制的帖子仅在特定国家或地区受影响，例如 NSFW 内容无法被推荐、不会被展示给未成年人和非关注者等。查看全文：https://ourl.co/126954&lt;/p&gt;&lt;p&gt;社交网站 X/Twitter 在开源推荐算法的前提下，继续为用户提供账号类的数据分析，用户可以结合推荐算法来判断自己的账号是否被影子屏蔽。日前该平台增加名为幕后揭秘(Under The hOOD)的新功能，该功能可以导出用户被特定国家或地区屏蔽的帖子 (基于法律要求)。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126954.png" rel="nofollow"&gt;&lt;img alt="X/Twitter增加名为「幕后揭秘」的新功能 可以看你的帖子是否在特定国家/地区被限制" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126954.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;该功能可以导出账号上月帖子的屏蔽或限制展示情况，目前可以导出的是 2026 年 8 月份的数据，前提是用户在 8 月份发布至少 10 个帖子、账号注册时间满 1 年，未达到以上标准的账号暂时不支持使用幕后揭秘功能。&lt;/p&gt;
-&lt;p&gt;基于法律要求，X/Twitter 会在特定国家或地区屏蔽特定内容的帖子，例如部分帖子可能涉及 NSFW，那这个帖子就不会被展示给未成年人、不能在没有登录账号的情况下查看、不会通过算法推荐向没有关注的用户推送等。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;现阶段该功能刚上线因此功能上非常鸡肋，测试显示存在某些帖子被意外标记的情况，X 会显示被标记帖子的数量占比，但暂时无法提供具体是哪个帖子以及具体在哪个 / 哪些国家或地区被限制展示。&lt;/p&gt;
-&lt;p&gt;不过被标记的帖子不等于整个账号被降权或影子屏蔽，所以其他帖子的正常算法推荐是可以工作的，仅被标记的帖子传播受影响，有兴趣的用户可以点击这里导出数据：https://x.com/i/under_the_hood&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 19 Sep 2026 05:47:35 +0000</pubDate></item><item><title>智谱就ZCode上传数据问题发布回应：相关数据会立即销毁 相关问题已经修复</title><link>https://www.landian.news/archives/126953.html</link><description>
-&lt;p&gt;#人工智能 智谱就 ZCode 上传数据问题发布回应：相关数据会被立即销毁，相关问题已经修复。智谱称该功能与代码库索引功能有关，Repo Wiki 在生成页面时可能触发仓库数据上传。该功能在上线初期被默认开启，因此 “部分” 用户受影响。查看全文：https://ourl.co/126953&lt;/p&gt;&lt;p&gt;昨天有开发者发现智谱旗下的编码工具 ZCode 在未经用户授权的情况下，&lt;a href="https://www.landian.news/archives/126950.html" rel="noopener" target="_blank"&gt;擅自将整个工作区数据包括 Git 历史记录全部打包加密上传到阿里云 OSS 存储&lt;/a&gt;。只要登录智谱账号就会触发数据加密压缩和上传流程，而且智谱并未提供选项可以禁用数据上传，此事件严重影响智谱的声誉。&lt;/p&gt;
-&lt;p&gt;在昨天下午智谱也发布官方说明承认存在数据上传问题，智谱的解释是这是增加的 Repo Wiki 功能导致的，该功能被默认开启而且在生成 Wiki 页面时可能触发仓库数据上传，但智谱强调所有上传的数据都会被立即销毁，不会保存。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126953.png" rel="nofollow"&gt;&lt;img alt="" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126953.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;各位 ZCode 用户：&lt;/p&gt;
-&lt;p&gt;今日社区中的相关讨论我们高度重视，第一时间完成自查，先向受影响的用户道歉。现就有关情况说明如下：&lt;/p&gt;
-&lt;p&gt;此次问题源于 ZCode 的 代码库索引”功能。该功能旨在帮助用户在本地生成仓库索引，以支持包括历史版本在内的会话检查点恢复、历史版本回退及 Repo Wiki 等功能。&lt;/p&gt;
-&lt;p&gt;Repo Wiki 功能在生成 Wiki 页面时可能会触发仓库数据上传。Wiki 页面在云端生成后，相关上传数据会立即销毁，不会保存。由于该功能在上线初期默认开启，部分用户因此受到影响，对此我们深感抱歉，目前相关问题已经修复。&lt;/p&gt;
-&lt;p&gt;我们深知任何关于数据的问题都会直接影响用户对产品的信任，我们将于近期开源 ZCode 代码库，在一个更加开放的生态中把产品做的更好，并邀请第三方评估人员对系统运行情况进行审查，并持续公开产品审查进展，以完全透明的方式建立大家的信任。&lt;/p&gt;
-&lt;p&gt;对于此次问题给大家带来的困扰，我们深表歉意。我们将为全体 ZCode 用户额外提供一次周额度重置，额度将于今日发放。&lt;/p&gt;
-&lt;p&gt;再次感谢大家的关注与监督。&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 19 Sep 2026 05:21:47 +0000</pubDate></item><item><title>OAI计算容量似乎有所缓解：可以重新开通Pro 20x版 以及过载情况已经非常少</title><link>https://www.landian.news/archives/126952.html</link><description>
-&lt;p&gt;#人工智能 OAI 计算容量似乎有所缓解：可以重新开通 ChatGPT Pro 20x 版订阅，以及目前出现模型过载的情况已经非常少。需要说明的是，能开通 20x 版的仅限此前开通过 20x 版的用户，即如果用户降级到 5x 版或取消续订，现在可以重新开通。而此前从未开通过 20x 版的用户暂时还是只能开通 5x 版。查看全文：https://ourl.co/126952&lt;/p&gt;&lt;p&gt;从昨天夜里开始就有部分用户可以重新开通 ChatGPT Pro 20x 版订阅，不过目前并非所有用户都可以重新开通或升级，从反馈情况来看如果用户此前开通过 Pro 20x 版且降级或取消订阅，则现在应该可以重新通过网页版开通 Pro 20x 版。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/02/111836.png" rel="nofollow"&gt;&lt;img alt="OAI计算容量似乎有所缓解：可以重新开通Pro 20x版 以及过载情况已经非常少" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/02/111836.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;目前新用户或此前并未开通过 Pro 20x 的用户，无论通过网页版还是苹果内购订阅都无法开通 20x 版，所以新用户目前最多还是只能开通每月 100 美元的 Pro 5x 版，后续如果 OAI 有更多计算容量应该会重新开放 Pro 20x 的开通。&lt;/p&gt;
-&lt;p&gt;与此同时从昨天开始用户使用 Codex 时遇到的模型过载情况也开始明显减少，从国内外用户反馈来看，此前哪怕是使用原生家宽 IP 的国外用户也会遇到频繁模型过载，而现在这种情况基本不再出现，所以这可能不只是风控方面的问题。&lt;/p&gt;
-&lt;p&gt;如果仍然遇到频繁模型过载，&lt;a href="https://www.landian.news/archives/126901.html" rel="noopener" target="_blank"&gt;请进入 ChatGPT 网页版在设置里注销所有会话&lt;/a&gt;，然后至少等待 24 小时再重新登录账号使用。OAI 系统会定时评估账号使用情况，在检测不到违规情况后，账号使用限制会被自动解除。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 19 Sep 2026 05:07:31 +0000</pubDate></item><item><title>iPhone 18 Pro Max独占功能：可将电池容量限制在20Wh 主要用于寄送和维修</title><link>https://www.landian.news/archives/126951.html</link><description>
-&lt;p&gt;#手机数码 iPhone 18 Pro Max 独占功能：可将电池容量限制在 20Wh 以内，主要用于寄送和维修。苹果在发货时已经默认锁定电池容量以便满足运输和空运要求，当用户激活设备时该限制将被自动解除，可以发挥最大电池容量。当用户准备将设备送往售后或寄送给其他人时，可以手动开启准备发货状态。但请不要测试 / 尝试：开启后可能需要 14 天才能关闭，在关闭前都无法使用最大电池容量。查看全文：https://ourl.co/126951&lt;/p&gt;&lt;p&gt;据苹果发布的支持文档，iPhone 18 Pro Max 机型在组装完成交付给客户前，其电池容量会被限制在 20Wh 以内，当客户收货并正常激活设备时电池容量将被自动解除限制，此时电池可以发挥全部充电容量并提供更长时间的续航。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126951.png" rel="nofollow"&gt;&lt;img alt="iPhone 18 Pro Max独占功能：可将电池容量限制在20Wh 主要用于寄送和维修" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126951.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;苹果锁定电池容量主要是出于运输和空运要求，部分航空公司限制或地区法规限制不需要超过特定容量的电池通过空运运输，由于其他机型并未配备超过 20Wh 的单芯电池因此不提供电池容量锁定功能，所以这是 iPhone 18 Pro Max 的独占功能。&lt;/p&gt;
-&lt;p&gt;用户也可以手动在设置里锁定电池容量，但除非必要否则请不要尝试 (哪怕测试也不行)，该功能也被用于售后维修或寄送设备，当开启该功能后可能需要等待 14 天才能重新恢复最大电池容量，在无法关闭前用户只能使用更小的电池容量。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;iPhone 18 Pro Max 可以在设置、通用、传输或重置、准备发货选项里开启该功能，开启此功能时系统会自动消耗电量因此整机温度会更高，而「准备发货」过程也需要时间，期间建议用户暂时不要使用设备直到完成准备发货阶段，完成后系统也会显示准备发货状态。&lt;/p&gt;
-&lt;p&gt;目前尚不清楚快递公司是否也会增加相关规定要求用户先锁定电池容量再安排航空寄送，不过基于运输安全考虑建议用户寄送前手动开启此功能，无论是准备送往售后维修还是准备将设备寄送给其他人。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 19 Sep 2026 04:57:40 +0000</pubDate></item><item><title>智谱Zcode被发现未经用户同意擅自将整个工作区和Git记录上传到服务器保存</title><link>https://www.landian.news/archives/126950.html</link><description>
-&lt;p&gt;#人工智能 智谱 ZCode 被发现未经用户允许静默打包整个工作区包括完整 Git 历史并上传到阿里云 OSS 中保存。只要用户登录智谱账号就会触发打包加密上传流程，而加密密钥只在智谱服务器上保存并未留存在本地，也就是只有服务器才能解密文件。智谱隐私政策里并未提到这方面，ZCode 内置的优化体验功能也不能关闭上传。查看全文：https://ourl.co/126950&lt;/p&gt;&lt;p&gt;开发者 &lt;a href="https://www.landian.news/go?url=https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/" rel="noopener" target="_blank"&gt;@Ferstar&lt;/a&gt; 日前发布详细的分析报告揭露智谱推出的 ZCode 编码工具登录后静默上传整个工作区，工作区包含完整的 Git 历史因此也会被上传到服务器保存，而 ZCode 本地并没有选项可以控制这类上传，对开发者而言这存在严重的安全风险。&lt;/p&gt;
-&lt;p&gt;排查发现只要账号处于登录状态，ZCode 客户端就会在后台将当前工作区整包加密并直传到阿里云 OSS 对象存储中保存。涉及的数据范围不仅是当前源码，还包括完整的 Git 历史、LFS 缓存、reflog 以及跨工作区的全局应用配置等。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/08/114276.png" rel="nofollow"&gt;&lt;img alt="智谱Zcode被发现未经用户同意擅自将整个工作区和Git记录上传到服务器保存" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/08/114276.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;开发者在进行磁盘清理时注意到～/.zcode 文件夹占用超过 700MB 的存储空间，其中 cli/ 占 257MB、computer-use/ 占约 130MB，而真正主角是占 303MB 的 v2/checkpoints/ 文件夹。&lt;/p&gt;
-&lt;p&gt;这个文件夹里有个 313MB 的.enc 文件，状态元数据写明工作区为某商业项目，类型为全量快照，仓库总量约为 10GB，剔除各类依赖后剩余的 345MB 是项目核心资产。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;日志未直接提供上传地址，开发者拆开客户端相关文件还原整个上传链路：先向 zcode.z.ai 请求上传凭证，服务端返回 OSS 表单签名、动态对象 Key、大小限制以及本轮 RSA 公钥后，客户端将在本地打包文件并进行流式加密，随后绕过智谱业务服务器并以 POST 表单将加密后的 enc 文件直传到 OSS，随后 OSS 回调智谱后端进行登记。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;加密为标准信封方案：内容用临时对称密钥走 AES-256-CTR 算法加密，对称密钥再用服务端下发的公钥做 RSA-OAEP-SHA256 包裹，私钥全程都只在云端，开发者尝试用本机全部私钥都未能解开加密后的数据包，也就是说用户不能打开加密后的文件、ZCode 客户端不能解密，只有智谱后端才能解密。&lt;/p&gt;
-&lt;p&gt;开发者认为如果这个功能为断点恢复或跨设备同步功能而设计，那密钥应该留在本地。只有服务端才能解开的加密文件，那目的可能就是确保只有服务端单方面解密并查看文件。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;由于密文无法解开，但客户端打包时留下的明文 Manifest 可以读取，包含 42411 个文件的清单显示：.git/lfs/ 目录约 196.1MB，占比 56.8%，这是历史拉过的全部大文件与二进制资产；.git/objects/ 目录约 102.2MB，占比约 29.6%，即完整的 commit/tree/blob 对象库；.git/logs/ 目录 0.6MB，含本地分支操作和未推送记录；其余源码和文档约 46.2MB，.git 合计占比为 86.6%。&lt;/p&gt;
-&lt;p&gt;当文件上传成功后，云端拿到的不只是当前工作树，还包括仓库自建立以来的全部历史：已经被覆盖删除的敏感配置与历史密钥、尚未推送的分支名、.git/config 中内部 GitLab 域名与仓库路径。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在对照代码后开发者认为 ZCode 客户端设置里的优化体验选项只能控制数据是否用于模型训练，仓库快照索引只能控制服务端是否对已经上传的快照建立索引。捕获 / 上传 sidecar 在启动时无条件实例化、无用户偏好判断，唯一门槛是 tokenProvider 能拿到登录 JWT 凭证。触发点包括每次发 Prompt 前的 captureBeforePrompt，以及任务结束时的 repo-wiki-update，单个活跃会话日志最多出现 62 次捕获。&lt;/p&gt;
-&lt;p&gt;而智谱 ZCode 隐私政策里只写着会收集对话中提交的文本、文件和代码，并未提到会静默打包并上传整个工作区以及完整的 Git 历史记录，官方文档、FAQ 以及更新日志同样没有说明。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;值得注意的是手动删除 pending 包是没用的，因为客户端还会重新抓取生成，开发者研究后给出的临时方案是清空并锁定 ~/.zcode/v2/checkpoints/ 目录，macOS 可以使用chflags uchg、Linux 可以使用 sudo chattr +i。&lt;/p&gt;
-&lt;p&gt;锁定目录后磁盘无法写入因此上传链路会因为无本地产物而终止，但代价是检查点回滚、时间线界面失效，对话、补全与工具执行不受影响。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 18 Sep 2026 07:24:33 +0000</pubDate></item></channel></rss>
+</description><pubDate>Sat, 19 Sep 2026 07:09:11 +0000</pubDate></item></channel></rss>
