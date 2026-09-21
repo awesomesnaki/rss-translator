@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sun, 20 Sep 2026 17:35:31 +0000</lastBuildDate><item><title>WorkOS：SSO 如何运作以及最快的集成方式</title><link>https://workos.com/guide/the-developers-guide-to-sso?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q32026</link><description>&lt;p&gt;感谢 WorkOS 赞助上周——在 DF 这可是大事的一周。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Mon, 21 Sep 2026 00:49:55 +0000</lastBuildDate><item><title>Apple TV 终于将在 2027 年初播出《The Savant》，据说是这样。</title><link>https://deadline.com/2026/09/jessica-chastain-the-savant-new-release-date-apple-tv-1237108228/</link><description>&lt;p&gt;Nellie Andreeva, reporting for Deadline:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The release of &lt;em&gt;The Savant&lt;/em&gt; is back on. A year after Apple TV put
+the thriller starring Jessica Chastain on hold three days before
+it was slated to premiere on Sept. 26, 2025, the streamer has
+rescheduled it for spring, 2027. The exact timing, which is still
+being finalized, will make the series eligible for the 2027
+Emmys, I hear.&lt;/p&gt;
+&lt;p&gt;As Deadline &lt;a href="https://deadline.com/2025/09/the-savant-jessica-chastain-postponed-apple-1236553658/"&gt;reported at the time&lt;/a&gt; of the postponement, &lt;em&gt;The
+Savant&lt;/em&gt;’s last-minute benching was due to its storyline about
+preventing extremist attacks and some imagery, including sniper
+attacks, that were considered potentially triggering two weeks
+after the assassination of right-wing political activist
+Charlie Kirk.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The only people who were potentially “triggered” by this would be whoever answers the phone in Cupertino when the White House calls. &lt;a href="https://variety.com/2026/tv/news/apple-tv-schedules-jessica-chastain-thriller-the-savant-1236560893/"&gt;Variety&lt;/a&gt; and &lt;a href="https://www.darkhorizons.com/the-savant-sets-spring-2027-release/"&gt;Dark Horizons&lt;/a&gt; both echo Deadline’s reporting that Apple TV is finally going to air &lt;em&gt;The Savant&lt;/em&gt; early next year, but &lt;a href="https://www.apple.com/tv-pr/originals/the-savant/"&gt;Apple TV’s own press page&lt;/a&gt; still lists it as “Premiere Date: Coming Soon”.&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/09/20/deadline-the-savant" title="Permanent link to ‘Apple TV to Finally Air ‘The Savant’ in Early 2027, Supposedly’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Mon, 21 Sep 2026 00:49:55 +0000</pubDate></item><item><title>周五，本人将做客CNBC的《Squawk on the Street》节目</title><link>https://youtu.be/WrwY_jVaN-w</link><description>&lt;p&gt;我真的很高兴萨拉·艾森在介绍我时笑了笑，说我写了一篇5000字的iPhone 18 Pro评测。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/09/20/yours-truly-cnbc" title="永久链接到 ‘周五本人做客CNBC《Squawk on the Street》’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Mon, 21 Sep 2026 00:37:18 +0000</pubDate></item><item><title>WorkOS：SSO 如何运作以及最快的集成方式</title><link>https://workos.com/guide/the-developers-guide-to-sso?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q32026</link><description>&lt;p&gt;感谢 WorkOS 赞助上周——在 DF 这可是大事的一周。&lt;/p&gt;
 &lt;p&gt;SSO 是企业级交易的必备条件，但自己把它构建进应用意味着要编写 SAML 控制器、解析 XML 断言，还要为每个提供商处理特定于 IdP 的各种怪癖。了解 SAML 流程如何运作、自建与采购之间的权衡，以及安全、路由和用户体验方面的最佳实践。&lt;/p&gt;
 &lt;p&gt;或者，省去这些麻烦，用 &lt;a href="https://workos.com/?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q22026"&gt;WorkOS&lt;/a&gt; 添加 SSO。阅读&lt;a href="https://workos.com/guide/the-developers-guide-to-sso?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q32026"&gt;他们的开发者指南以了解更多&lt;/a&gt;。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/09/20/workos-sso" title="Permanent link to ‘WorkOS: How SSO Works and the Fastest Way to Add It’"&gt; ★ &lt;/a&gt;
@@ -13,15 +32,4 @@
 </description><pubDate>Sun, 20 Sep 2026 17:30:00 +0000</pubDate></item><item><title>Marques Brownlee的iPhone 18 Pro评测</title><link>https://www.youtube.com/watch?v=ohqxP8EEumo</link><description>&lt;p&gt;他采取了和我一样的“&lt;em&gt;这几乎完全就是苹果过去称之为‘S’年款的做法&lt;/em&gt;”角度，所以不出所料，我认为他的评测非常准确。Brownlee 强调了一点，我本该提到却没有：根据苹果公布的规格，普通版 iPhone 18 Pro 的电池续航比 iPhone 17 Pro Max 更长。这只是一个任何人都能理解的年度同比规格，针对的是每个人都关心的属性。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;顺便说一句，就这一点而言：&lt;/strong&gt; Brownlee 想知道为什么苹果仍然拒绝公布 iPhone 电池的 mAh 容量。当人们拆解新 iPhone 时，我们最终总会知道，那为什么不直接公布这些数字呢？Brownlee 只提到了电池，但我要指出，苹果在 RAM 上也仍然如此。任何 iPhone 的技术规格页面上都没有规格告诉你它有多少 RAM。在某些方面这有点傻，但苹果的思路是，他们只公布他们认为有助于比较的规格。存储容量有助于比较，所以苹果尽职尽责地公布存储容量。事实上，他们正是根据这一规格来为更高配置定价的。电池&lt;em&gt;续航&lt;/em&gt;有助于比较，所以苹果基于多种使用场景将其作为一项规格公布。但电池的 mAh 容量，在苹果看来，并不有助于比较。尤其不是与 Android 手机比较，甚至也不是与其他 iPhone 机型比较。如果他们公布一项规格，说 iPhone A 有 4,000 mAh 电池，而某款三星手机有 5,000 mAh 电池，人们可能会得出结论，三星手机“赢了”。显然，更大的电池会带来更长的续航，但单凭电池容量并不能说明任何设备的续航情况。iPhone Pro 的续航逐年提升如此之大，以至于普通版 iPhone 18 Pro 的续航比 17 Pro Max 更长，主要原因与电池大小无关——而是 A20 Pro SoC 效率的提升（其次可能还有散热系统的改进）。RAM 也是同样的道理。在苹果看来，iPhone 用更少的物理 RAM 也能比 Android 手机表现好得多，所以他们认为 RAM 对 RAM 的比较没有意义。事实上，他们认为看 RAM 会产生误导。所以他们不公布。他们知道我们这些在意的人会去了解这些手机有多少 RAM（12 GB，和去年 17 Pro 机型一样），以及电池的 mAh 容量有多大。但他们只会列出他们认为对比较有用的规格。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/09/20/mkbhd-iphone-18-pro" title="Permanent link to ‘Marques Brownlee’s iPhone 18 Pro Review’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sun, 20 Sep 2026 15:35:55 +0000</pubDate></item><item><title>Tyler Stalman的iPhone 18 Pro相机评测</title><link>https://www.youtube.com/watch?v=m6cDErtCKAc</link><description>&lt;p&gt;精彩视频。很喜欢Stalman用柯达Portra 400胶卷的单反相机并排拍摄照片，以与苹果新的胶片风格摄影风格进行对比。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/09/19/stalman-iphone-18-pro" title="‘Tyler Stalman的iPhone 18 Pro相机评测’永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sat, 19 Sep 2026 16:29:00 +0000</pubDate></item><item><title>Austin Mann 的 iPhone 18 Pro 相机评测，来自科罗拉多州邓顿</title><link>https://www.austinmann.com/trek/iphone-18-pro-camera-review-dunton</link><description>&lt;p&gt;Austin Mann：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我现在在科罗拉多州西南部美丽的&lt;a href="https://www.bydunton.com/destinations/rivercamp"&gt;Dunton River Camp&lt;/a&gt;，过去一周我都在这里测试iPhone 18 Pro上的新相机和各项功能。&lt;/p&gt;
-&lt;p&gt;除了可变光圈和Pro Controls之外，Apple还内置了许多其他新功能，比如带有胶片纹理和颗粒控制的Photographic Styles 3、4K延时摄影和焦点追踪。和往常一样，当我开始实地测试时，我会问一个问题：&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;这项新技术将如何让我们的照片和视频变得更好？&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;出色的示例照片，一段精彩的视频展示了相机应用中一些新“专业控制”功能的工作原理，还有一些Photographic Styles 3的绝佳示例。&lt;/p&gt;
-&lt;p&gt;（我很喜欢Mann每年都带着这些新手机去全球各地充满异域风情的地方，而我则带着它们&lt;a href="https://daringfireball.net/2026/09/the_iphones_18_pro#:~:text=WITH%20FILM%20TEXTURE%20AND%20GRAIN"&gt;去五金店&lt;/a&gt;。）&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/09/19/mann-iphone-18-pro" title="Permanent link to ‘Austin Mann’s iPhone 18 Pro Camera Review, From Dunton, Colorado’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sat, 19 Sep 2026 15:37:39 +0000</pubDate></item></channel></rss>
+</description><pubDate>Sun, 20 Sep 2026 15:35:55 +0000</pubDate></item></channel></rss>
