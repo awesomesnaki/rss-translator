@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AppAddict (中文)</title><link>https://appaddict.app</link><description>我是以高级用户和效率爱好者的身份，强调真实、实用的评测——而非营销人员。我特别喜欢独立Mac生态、注重隐私的软件、开源工具和工作流自动化。我也会涉及自托管、数字化生活的去谷歌化/去苹果化，以及如何通过组合小巧专注的应用来构建高效Mac工作流。文章内容涵盖从单一应用的深度解析到多应用的综合评测、工作流指南和开发者专题。如果你是一名开发者，有希望我体验的应用，请告诉我。</description><language>zh-CN</language><lastBuildDate>Tue, 08 Sep 2026 15:59:41 +0000</lastBuildDate><item><title>McKinley：苹果从未打造的SF Symbols编辑器</title><link>https://appaddict.app/post/mckinley-the-sf-symbols-editor-apple-never-built</link><description>&lt;figure&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AppAddict (中文)</title><link>https://appaddict.app</link><description>我是以高级用户和效率爱好者的身份，强调真实、实用的评测——而非营销人员。我特别喜欢独立Mac生态、注重隐私的软件、开源工具和工作流自动化。我也会涉及自托管、数字化生活的去谷歌化/去苹果化，以及如何通过组合小巧专注的应用来构建高效Mac工作流。文章内容涵盖从单一应用的深度解析到多应用的综合评测、工作流指南和开发者专题。如果你是一名开发者，有希望我体验的应用，请告诉我。</description><language>zh-CN</language><lastBuildDate>Mon, 21 Sep 2026 23:30:50 +0000</lastBuildDate><item><title>六款免费实用工具，零订阅费用</title><link>https://appaddict.app/post/six-free-utilities-zero-subscriptions</link><description>&lt;p&gt;&lt;strong&gt;太长不看：&lt;/strong&gt;本周有五款值得一试的免费 Mac 实用工具：一款修复通知横幅出现在错误显示器上的菜单栏工具、一款拖拽即用的媒体压缩工具、一款键盘背光定时工具、一款异常难以跳过的屏幕休息应用、一款带 AI 智能体提醒的刘海工具，以及一款仅本地运行、还能标注来源的文档搜索工具。&lt;/p&gt;
+&lt;p&gt;我本周试用的这些应用里，有几款出自这样一类人：他们的 Mac 在应该做 Y 的时候却在做 X，于是他们干脆自己写了个应用，让它做自己想做的事。真希望我也有这本事——不过有了 AI，被别人的界面设计选择绑死的日子，已经不像从前那样是道迈不过去的坎了。&lt;/p&gt;
+&lt;h3&gt;让通知横幅出现在你想让它出现的地方&lt;/h3&gt;
+&lt;figure&gt;
+&lt;img referrerpolicy="no-referrer" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNzVUQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--71d2272d734508c71b8489fd2a4282349755d4c9/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hSeVpYTnBlbVZmZEc5ZmJHbHRhWFJiQjJrQ0lBTnBBZ0JBT2dwellYWmxjbnNIT2d4eGRXRnNhWFI1YVZrNkNuTjBjbWx3VkE9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--00ab17d38e9113f93f2815c2fe26b5cf9fd85a5d/readme-banner.jpeg"/&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;a href="https://github.com/KJeon10/BannerHither"&gt;&lt;strong&gt;BannerHither&lt;/strong&gt;&lt;/a&gt; — 免费。这款小巧的菜单栏工具专门解决多显示器用户的一个烦人问题：macOS 总是把通知横幅显示在"主"显示器上，而在许多多显示器配置中，那并不是用户实际正在看的屏幕。BannerHither 会把横幅重定向到当前正在使用的显示器。&lt;/p&gt;
+&lt;h3&gt;拖拽即可压缩文件&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://kompaktapp.com/"&gt;&lt;strong&gt;Kompakt&lt;/strong&gt;&lt;/a&gt; — 免费、开源（MIT 许可）。一款紧凑的 Mac 菜单栏应用，通过拖拽来压缩和转换图片（PNG/JPG/WebP/GIF/SVG）和视频（MP4/MOV/M4V）——没有文件选择器，也没有导出对话框，你一把媒体拖进来它就出现了。通过 GitHub Releases 以签名 DMG 形式分发。&lt;/p&gt;
+&lt;h3&gt;按需关闭键盘背光&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://gabriele-rizzo.github.io/Nocturne"&gt;&lt;strong&gt;Nocturne&lt;/strong&gt;&lt;/a&gt; — 免费，接受捐赠（Buy Me a Coffee）。一款小巧的菜单栏应用，可以在你不需要时关闭内置键盘背光——可全天关闭、按时间表关闭，或根据所在位置从日出到日落关闭——用完后原样恢复，不做多余改动。&lt;/p&gt;
+&lt;h3&gt;一条难以略过的屏幕休息提醒&lt;/h3&gt;&lt;p&gt;&lt;a href="https://screen-break-mac.netlify.app/"&gt;&lt;strong&gt;Screen Break&lt;/strong&gt;&lt;/a&gt; — 免费。一款菜单栏休息提醒应用，每到该离开屏幕休息时，它会在所有显示器上打开全屏引导式休息，并且刻意设计成很难被无意义地关闭：需要输入密码才能提前解锁休息，手动重启和临时退出也受到限制。可配置30–50分钟的工作时段与5分钟休息，智能空闲重置（不会把已经离开电脑的时间计入），以及忙碌自动推迟（检测到媒体播放、通话、演示或全屏工作时会暂缓提醒）。支持七种语言本地化。以直接下载方式分发。&lt;/p&gt;
+&lt;h3&gt;一款面向开发者的免费多功能刘海应用&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/Notchly/Notchly"&gt;&lt;strong&gt;Notchly&lt;/strong&gt;&lt;/a&gt; — 免费、开源（MIT）。一款 macOS 实用工具，把 MacBook 的刘海变成一个可交互的“灵动岛”式空间：音乐控制（Apple Music/Spotify，包括锁屏控制）、电池/充电状态、音量/亮度指示、滑动手势，以及专注模式动画。它最突出的功能是“Codex 提醒”——AI 编程代理通知（Codex，以及由此扩展到 Cursor 之类的工具），通过本地 Stop 钩子直接在刘海中显示审批请求或任务完成提醒，面向那些希望无需切换应用就能被动查看状态的开发者。使用 Swift/SwiftUI 原生构建，已签名并公证，持续积极维护。&lt;/p&gt;
+&lt;h3&gt;搜索本地文档，获取引用来源&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/impel-intelligence/Minna"&gt;&lt;strong&gt;Minna&lt;/strong&gt;&lt;/a&gt; — 免费、开源。一个本地优先的搜索索引，外加一个仅限根据用户 Mac 上已索引的自家文档来回答问题的 AI 助手，并且每一项陈述都会引用到具体文档。开发者将其描述为一名学生自己对“大语言模型会编造内容”这一问题的解答。&lt;/p&gt;
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Six%20Free%20Utilities,%20Zero%20Subscriptions"&gt;✉️ 通过电子邮件回复&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 21 Sep 2026 23:30:50 +0000</pubDate></item><item><title>McKinley：苹果从未打造的SF Symbols编辑器</title><link>https://appaddict.app/post/mckinley-the-sf-symbols-editor-apple-never-built</link><description>&lt;figure&gt;
 &lt;img referrerpolicy="no-referrer" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBM0ZIQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--ed7147e5df79c287beda9a73ea553722ac047615/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFMNEFta0NBRUE2Q25OaGRtVnlld2M2REhGMVlXeHBkSGxwV1RvS2MzUnlhWEJVIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--733cfbdfebb0bb97e2ca1e0ebf27c08733f8f1ed/07_palette-preview.png"/&gt;
 &lt;/figure&gt;
 &lt;p&gt;出现在你文件夹上的苹果风格图形被称为SF Symbols。这类符号有数千个，其设计目的是在多种尺寸和字重下保持清晰可读——从小尺寸一直到大标题尺寸。苹果允许你创建自己的符号，但这个过程如果操作正确的话，其实相当复杂。你需要以三种比例绘制可能多达九种字重（从Ultralight到Black），确保笔画在每一种组合下都保持视觉一致性，确保整个符号从细到粗都能被识别为同一个图形，而且还要以Xcode能够接受的方式完成这一切，不能默默出错。大多数曾在Illustrator或Sketch中手工尝试过这件事的人都会告诉你，这既繁琐又容易出错，而且很难保持一致性。&lt;/p&gt;
@@ -76,28 +92,4 @@
 &lt;img referrerpolicy="no-referrer" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOWtkQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--42b48ca4b8ed800883ba20b177e2a2a973dee8a3/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJZ0Eya0NBRUE2Q25OaGRtVnlld2M2REhGMVlXeHBkSGxwV1RvS2MzUnlhWEJVIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--37d8d3dbe90d8140826321f91028361e49d59cb1/CleanShot%202026-08-19%20at%2004.11.39.jpg"/&gt;
 &lt;/figure&gt;
 &lt;p&gt;当我在2024年撰写并发布第一篇软件评测时，我完全没想到自己能在完成500多篇评测后依然保持强劲势头。感谢所有App爱好者朋友们，也感谢所有持续开发高品质Mac软件的开发者们。&lt;/p&gt;
-&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=AppAddict%20Records%201,000,000th%20View"&gt;✉️ 通过邮件回复&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 19 Aug 2026 08:16:30 +0000</pubDate></item><item><title>五个独特的免费应用</title><link>https://appaddict.app/post/five-unique-free-apps</link><description>&lt;p&gt;这里有五款你很可能从未见过的免费 Mac 应用：一款项目模板/脚手架自动化工具，一款本地音乐播放器，一款批量调整图片大小的工具，一款利用 AirPods 运动传感器的姿势应用，以及一款用于现金流模拟的财务计算器。&lt;/p&gt;
-&lt;figure&gt;
-&lt;img referrerpolicy="no-referrer" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBelVQQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--70c26bd599f4652363abeb20d51e235fb3c359de/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBPZ2h3Ym1jNkZISmxjMmw2WlY5MGIxOXNhVzFwZEZzSGFRSWdBMmtDQUVBNkNuTmhkbVZ5ZXdjNkRIRjFZV3hwZEhscFdUb0tjM1J5YVhCVSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--1b5dd237939cbad6ef157049125f314f884719ee/prefab-8.webp"/&gt;
-&lt;/figure&gt;
-&lt;ul&gt;&lt;li value="1"&gt;
-&lt;a href="https://www.prefabapp.io/"&gt;Prefab&lt;/a&gt; - 将文件夹结构捕获为可重用的“蓝图”，为名称和内容添加变量占位符，然后通过应用、菜单栏或 Finder 右键点击将其部署到任何位置。部署可以串联操作：git init、npm install、在编辑器中打开项目、任意终端命令。为开发者打造，但也面向任何有可重复文件夹设置流程的人：律师、研究人员、创意工作者。&lt;/li&gt;&lt;/ul&gt;
-&lt;figure&gt;
-&lt;img referrerpolicy="no-referrer" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBellQQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b5966ecaed3861bdd2cdda56e00785147c8ad86b/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJZ0Eya0NBRUE2Q25OaGRtVnlld2M2REhGMVlXeHBkSGxwV1RvS2MzUnlhWEJVIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--37d8d3dbe90d8140826321f91028361e49d59cb1/CleanShot%202026-08-17%20at%2002.54.38.jpg"/&gt;
-&lt;/figure&gt;
-&lt;ul&gt;
-&lt;li value="1"&gt;
-&lt;a href="https://playheadapp.com/"&gt;Playhead&lt;/a&gt; - 面向那些保存本地文件而非流媒体的人们的本地优先音乐播放器。其卖点是“波形优先”：它生成并缓存波形数据，让你可以查看和拖动浏览音轨的结构，而不是普通的进度条。两种浏览模式：“资料库”和“文件夹”（保留你现有的结构），面向 DJ、制作人以及杂乱的真实音乐收藏。支持 MP3、FLAC、WAV、AIFF/AIF、M4A、OGG、OPUS、AAC；包含元数据编辑器。&lt;/li&gt;
-&lt;li value="2"&gt;
-&lt;a href="https://daniele.ch/applicazioni.php"&gt;IResize Pro&lt;/a&gt; - 批量图片调整大小工具。设置目标宽度或高度，它会按比例缩放并保留原始文件。输出格式：JPEG/PNG/TIFF/GIF；导入格式：JPG/PNG/GIF/TIFF/HEIC/BMP/WebP。包含批量重命名、可选彩色边框，以及针对尺寸过小图片的放大提示。&lt;/li&gt;
-&lt;/ul&gt;&lt;figure&gt;
-&lt;img referrerpolicy="no-referrer" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBemNQQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--4b50a2afeeced863d3c3e225b60e0bbc7ffd9cd7/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFMWUFta0NBRUE2Q25OaGRtVnlld2M2REhGMVlXeHBkSGxwV1RvS2MzUnlhWEJVIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--7edf106641aae0ea01462202095e89e77c36939f/CleanShot%202026-08-17%20at%2002.55.51.jpg"/&gt;
-&lt;/figure&gt;
-&lt;ul&gt;&lt;li value="1"&gt;
-&lt;a href="https://headjust.app/"&gt;Headjust&lt;/a&gt; - 一款原生Mac应用，利用兼容AirPods/Beats中内置的头部运动传感器，让姿势偏移变得可见，而无需刻意监督。&lt;/li&gt;&lt;/ul&gt;
-&lt;figure&gt;
-&lt;img referrerpolicy="no-referrer" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBemdQQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--651e4b313d78dd8ec12bb42a47a41e2101c62b62/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJZ0Eya0NBRUE2Q25OaGRtVnlld2M2REhGMVlXeHBkSGxwV1RvS2MzUnlhWEJVIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--37d8d3dbe90d8140826321f91028361e49d59cb1/CleanShot%202026-08-17%20at%2002.56.42.jpg"/&gt;
-&lt;/figure&gt;
-&lt;ul&gt;&lt;li value="1"&gt;
-&lt;a href="https://apps.apple.com/us/app/interestthing/id6743959861?mt=12"&gt;InterestThing&lt;/a&gt; - 仅适用于Mac的财务计算器，用于将现金流问题（贷款、租赁、估值、财务规划）建模为离散事件的时间线，而非固定模板。每个事件——流入、流出、未知项、固定本金、仅付利息、利率变化、结算日期——可以是单次或周期性的，固定或梯度金额，并可搭配四种利息类型（单利、资本化单利、美国规则资本化单利、复利）和三种时间间隔方法。&lt;/li&gt;&lt;/ul&gt;
-&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Five%20Unique%20Free%20Apps"&gt;✉️ 通过邮件回复&lt;/a&gt;&lt;/p&gt;</description><pubDate>Mon, 17 Aug 2026 07:13:00 +0000</pubDate></item></channel></rss>
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=AppAddict%20Records%201,000,000th%20View"&gt;✉️ 通过邮件回复&lt;/a&gt;&lt;/p&gt;</description><pubDate>Wed, 19 Aug 2026 08:16:30 +0000</pubDate></item></channel></rss>
