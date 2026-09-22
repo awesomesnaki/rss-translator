@@ -1,5 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 22 Sep 2026 02:00:06 +0000</lastBuildDate><item><title>杀鸡儆猴：X起诉内容农场运营者 通过操纵获得27.8万美元创作者收益</title><link>https://www.landian.news/archives/127019.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 22 Sep 2026 05:30:01 +0000</lastBuildDate><item><title>TRAE上传代码库索引引起开发者担忧 官方未否认上传 但强调数据不会用于训练</title><link>https://www.landian.news/archives/127025.html</link><description>
+&lt;p&gt;#人工智能 TRAE CN 和 TRAE Work 也被发现上传项目代码库索引，与 ZCode 稍微有些不同：TRAE 在使用协议里已经提到上传行为。TRAE 官方的解释是桌面版代码库主要保存在用户本地设备，为完成索引机制，文件可能会被临时上传。TRAE 强调所有数据计算向量后会立即删除，数据不会被用于改进产品或模型训练。问题是经历 Grok Build 和 ZCode 事件后，只要上传就会引起开发者担忧，因此能本地处理的就应该本地处理，不应该将开发者的私有文件上传云端。查看全文：https://ourl.co/127025&lt;/p&gt;&lt;p&gt;日前 TRAE 官方社区有开发者发帖质疑 TRAE CN 和 TRAE Work 代码库索引机制的隐私问题，TRAE 的代码知识图谱服务会将本地项目文件发送到远程服务器用于计算嵌入向量。项目首次打开时可能会触发批量索引，文件发生变化后还会进行增量处理，部分索引任务则会周期性重建。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/127025-1.png" rel="nofollow"&gt;&lt;img alt="TRAE上传代码库索引引起开发者担忧 官方未否认上传 但强调数据不会用于训练" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/127025-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.landian.news/archives/126950.html" rel="noopener" target="_blank"&gt;与智谱 ZCode 被开发者发现悄悄打包本地工作区数据并加密上传到服务器不同&lt;/a&gt;，TRAE 的用户协议和隐私说明里已经明确提到相关服务确实涉及临时上传：桌面版代码库主要保存在用户本地设备，为完成索引，文件可能会被临时上传；网页版和云端智能体则会在云端处理并留存代码库文件。&lt;/p&gt;
+&lt;p&gt;TRAE 也强调无论是否开启隐私模式，TRAE 都不会将开发者的代码库文件用于数据分析、产品优化或模型训练。隐私模式主要控制是否将对话内容用于产品优化，因此即便开启隐私模式也无法解决代码库索引上传问题。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;针对官方回应，开发者也再次发帖质疑 TRAE 采取的技术路线，即客户端二进制中同时存在本地嵌入和远程嵌入两条处理路径，代码中还出现本地嵌入的相关参数。但日志主要记录远程索引分支，本地分支没有实际执行记录。&lt;/p&gt;
+&lt;p&gt;开发者认为 TRAE 并非无法设计本地索引，而是由服务器配置将远程处理作为默认路径。部分任务的索引耗时也主要来自文件上传，某些小规模项目的上传事件甚至占整个初始化过程的大部分，这也会降低 TRAE 的使用体验。&lt;/p&gt;
+&lt;p&gt;当然 TRAE 在本地并未下载部署完整的嵌入模型，相关分析可以证明 TRAE 确实准备不同的处理路径，只不过不清楚本地索引机制是否可以正常工作，TRAE 团队也未就这个问题发布新的回应。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;经历 &lt;a href="https://www.landian.news/archives/113897.html" rel="noopener" target="_blank"&gt;SpaceXAI Grok Build&lt;/a&gt; 和智谱 ZCode 事件后，很多开发者担忧 AI IDE 或编码工具的数据安全问题，最佳做法当然是所有项目代码都只放在本地，但凡涉及到上传云端那就会引起开发者担忧，毕竟没人知道自己的数据是否被用于数据分析和模型训练。&lt;/p&gt;
+&lt;p&gt;TRAE 虽然承诺代码库索引不会被用于改进产品和训练模型，但这种单方面的承诺不能解决开发者的担忧，毕竟开发者无法审计云端服务器的数据行为，所以能本地处理数据就不应该上传云端。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;TRAE 也上传：&lt;a href="https://www.landian.news/go?url=https://forum.trae.cn/t/topic/181833" rel="noopener" target="_blank"&gt;https://forum.trae.cn/t/topic/181833&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;TRAE 团队回应：&lt;a href="https://www.landian.news/go?url=https://forum.trae.cn/t/topic/181833/2" rel="noopener" target="_blank"&gt;https://forum.trae.cn/t/topic/181833/2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;请立即停止上传文件：&lt;a href="https://www.landian.news/go?url=https://forum.trae.cn/t/topic/181978" rel="noopener" target="_blank"&gt;https://forum.trae.cn/t/topic/181978&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 22 Sep 2026 05:30:01 +0000</pubDate></item><item><title>微软确认9月更新导致Windows 10/11文件历史记录功能异常 可能无法正常备份文件</title><link>https://www.landian.news/archives/127024.html</link><description>
+&lt;p&gt;#系统资讯 微软确认 9 月更新导致 Windows 10/11 文件历史记录功能无法工作，该问题此前已经有用户反馈，直到现在微软才确认。文件历史记录功能可以将桌面 / 文档 / 下载等文件夹中的文件按照时间和修改生成多个备份版本，文件被删除或修改后用户还可以通过备份版本恢复。而安装 9 月更新后，备份工作会停止，无法正常生成新的备份文件。查看全文：https://ourl.co/127024&lt;/p&gt;&lt;p&gt;微软发布的 9 月例行更新已经引起诸多问题，其中部分问题已经被用户发现但未被微软确认，例如安装更新后 Windows 10/11 文件历史记录功能就出现异常，该功能实际无法正常备份生成文件的不同版本。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/127024.png" rel="nofollow"&gt;&lt;img alt="微软确认9月更新导致Windows 10/11文件历史记录功能异常 可能无法正常备份文件" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/127024.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;该功能对办公用户来说还是非常好用的，开启文件历史记录后用户配置文件下的文件夹 (桌面 / 下载 / 图片 / 文档等) 会根据时间和修改生成不同的版本，当文件被删除后也可以通过历史记录找回来。&lt;/p&gt;
+&lt;p&gt;蓝点网就长期使用该功能，因为经常需要处理各类文档和表格，有时候可能需要找被删除的原文件或以前的版本，这个时候就可以通过文件历史记录找回来，在某些情况下还是非常有用的。&lt;/p&gt;
+&lt;p&gt;这里需要提醒使用微信的用户：微信默认文件放在文档文件夹下，开启文件历史记录后微信的文件也会被备份和生成多个版本，如果你的微信文件非常多，那随着时间推移占用的空间也会快速增加。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;文件历史记录开启时需要选择备份的目的地，通常我们会将目的地选择为 D 盘等非系统盘或 NAS 等网络存储位置。微软确认 Windows 10/11 安装 9 月更新后无法创建或更新备份，在受影响的设备上即便目的地正常连接，系统也可能错误提示重新连接驱动器。&lt;/p&gt;
+&lt;p&gt;其他症状还包括上次备份时间戳不更新、以前备份的文件没有先前版本等，这个问题广泛影响 Windows 10/11，从微软列出的清单来看，基本能安装 9 月更新的版本都受影响。&lt;/p&gt;
+&lt;p&gt;微软暂时未提供临时解决方案，也就是说依赖该功能的用户要么删除更新，要么等待微软发布 10 月更新修复问题，如果无法删除更新，建议用户平时做好文件备份工作，避免文件误删或损坏后没有备份文件可以恢复。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://admin.cloud.microsoft/Adminportal/Home?source=applauncher#/windowsreleasehealth/:/issue/WI1474330" rel="noopener" target="_blank"&gt;Microsoft Admin&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 22 Sep 2026 05:00:07 +0000</pubDate></item><item><title>亚马逊已禁止用户使用Meta Muse人工智能助手进行购物 沟通无果后直接屏蔽Muse</title><link>https://www.landian.news/archives/127023.html</link><description>
+&lt;p&gt;#行业资讯 亚马逊已禁止 Meta Muse 人工智能助手进行购物，最初亚马逊找 Meta 沟通希望 Muse 不要支持亚马逊但被 Meta 拒绝。沟通无果后亚马逊采用技术手段直接屏蔽 Muse，亚马逊给出的理由是 Muse 会对用户账户历史记录和交易页面构成凭证和安全风险。Meta 则强调智能体都在虚拟机中隔离运行，账号密码也都被安全存储。查看全文：https://ourl.co/127023&lt;/p&gt;&lt;p&gt;亚马逊日前已经部署检测机制识别 Meta Muse 人工智能助手，当检测到该助手尝试代表用户进行购物时，亚马逊将阻断操作并将其页面重定向到专门的屏蔽页面。亚马逊主要禁止 Muse 自动购物和支付，理由是潜在的安全问题。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/127023.png" rel="nofollow"&gt;&lt;img alt="亚马逊已禁止用户使用Meta Muse人工智能助手进行购物 沟通无果后直接屏蔽Muse" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/127023.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;亚马逊最初也尝试与 Meta 沟通要求该公司将亚马逊地址排除在 Muse 自动购物列表外，如果 Meta 同意的话那用户无法使用 Muse 进行自动化购物，不过 Meta 并未同意亚马逊的提议，在谈崩后亚马逊直接屏蔽 Muse 助手。&lt;/p&gt;
+&lt;p&gt;亚马逊给出的理由是，Muse 会对账户历史记录和交易页面构成凭证和安全风险。而 Meta 则强调，Muse 使用虚拟机隔离和 Sentinel 代理监控确保用户密码安全存储，不会泄露用户的账户信息。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;亚马逊平台的广告营收将近 700 亿美元，当用户自行浏览亚马逊就会看到各类广告，但如果用户使用 Muse 等助手检索和购买产品，人工智能助手会直接跳过各类广告而选择非广告、评价更好的产品，对亚马逊来说可不是好事。&lt;/p&gt;
+&lt;p&gt;而亚马逊允许自家的智能体自动浏览和购买商品，亚马逊的智能体与 Muse 稍微有些区别，亚马逊的智能体支持身份识别、允许品牌商退出，即检测到智能体在购物时退出的品牌将不会出现在检索列表里。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 22 Sep 2026 04:00:05 +0000</pubDate></item><item><title>因违反欧盟通用数据保护条例 谷歌被爱尔兰监管机构罚款4.03亿欧元</title><link>https://www.landian.news/archives/127022.html</link><description>
+&lt;p&gt;#行业资讯 因违反欧盟 GDPR 条例，爱尔兰数据保护委员会对谷歌开出 4.03 亿欧元的罚单，谷歌必须在 6 个月内整改。此次处罚涉及谷歌收集用户位置数据的处理方式，谷歌多种产品都会收集位置信息，但谷歌的处理流程存在违规和违反公平性的问题，即便关闭位置历史记录后谷歌仍然会通过其他产品继续收集用户位置数据。查看全文：https://ourl.co/127022&lt;/p&gt;&lt;p&gt;爱尔兰数据保护委员会日前宣布对谷歌公司处以 4.03 亿欧元约 4.63 亿美元的罚款，原因是谷歌处理用户位置数据的方式存在不当行为。此前已经有多个欧洲消费者团体向监管机构投诉谷歌的违规行为，主要涉及网络和应用活动以及位置历史记录的位置数据。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/127022.png" rel="nofollow"&gt;&lt;img alt="因违反欧盟通用数据保护条例 谷歌被爱尔兰监管机构罚款4.03亿欧元" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/127022.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;监管机构审计 2018 年 5 月～2020 年 2 月的位置数据保存，审计发现谷歌的网络和应用活动以及位置历史记录处理的位置数据存在违反合法性和公平性的问题(即便关闭位置历史记录后谷歌仍然会通过其他产品继续收集用户位置数据)。谷歌搜索的位置准确性选项缺乏透明度，这违反谷歌的问责义务，也违反数据保存时间的规则。&lt;/p&gt;
+&lt;p&gt;其中网络和应用活动以及位置历史记录选项位于谷歌账号中心里，用户可以自行转到账号中心查看最近活动，谷歌会将大部分谷歌产品的活动记录全部归集到这里，也包括用户的位置信息。&lt;/p&gt;
+&lt;p&gt;位置准确性选项则位于谷歌搜索中，用户使用谷歌搜索时经常会看到谷歌弹出的获取位置选项，谷歌称精确的定位可以提供更加个性化的搜索结果，当然位置信息实际也会被用于广告业务。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;监管机构根据调查结果和欧盟通用数据保护条例 (GDPR) 决定对谷歌罚款 4.03 亿欧元，谷歌还必须在 6 个月内调整位置数据处理流程，如果谷歌未能在规定期限内完成整改，则监管机构还可以继续实施惩罚性措施。&lt;/p&gt;
+&lt;p&gt;谷歌官方发言人称，此案涉及后来更新的历史政策，谷歌已经从 2019 年开始实施自动删除控制功能，用户可以在账户中心设置数据保留时间，也可以批量删除谷歌产品中的活动记录。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 22 Sep 2026 03:30:04 +0000</pubDate></item><item><title>月之暗面推出Kimi Code桌面版 支持目标和内置浏览器 不过并未开源</title><link>https://www.landian.news/archives/127021.html</link><description>
+&lt;p&gt;#人工智能 月之暗面发布 Kimi Code 桌面版，不过并未开源。Kimi Code 桌面版内置终端、浏览器和 Git，可以通过对话进行代码交付。目前提供 Plan 模式、Goal 模式和 Swarm 模式。还有个额外的实验性多智能体协作模式，方便处理规模较大的工程项目。查看全文：https://ourl.co/127021&lt;/p&gt;&lt;p&gt;月之暗面日前宣布其人工智能编码工具 Kimi Code 现已推出桌面版，作为 Kimi Code CLI 版的官方桌面客户端，新版本将原本以命令行形式提供的 AI 编程能力带到图形界面中。开发者可以通过对话让智能体阅读代码、修改文件、运行命令并持续完成复杂开发任务。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/127021.png" rel="nofollow"&gt;&lt;img alt="月之暗面推出Kimi Code桌面版 支持目标和内置浏览器 不过并未开源" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/127021.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Kimi Code 按照工作区管理项目和会话，开发者新建会话后选择本地项目文件夹即可开始工作。智能体可以分析代码结构、编辑文件、执行构建和测试命令，根据执行结果继续调整方案等。&lt;/p&gt;
+&lt;p&gt;针对不同类型的任务，桌面版提供多种工作模式，Plan 模式会先分析需求并生成执行计划，用户确认后再修改代码；目标模式适合需要多轮推进和持续检查的长期目标；Swarm 模式则可以拆分独立任务，调度多个子智能体并行处理。还有个实验性的多智能体协作模式，方便处理规模较大的工程项目。&lt;/p&gt;
+&lt;p&gt;界面会展示智能体的工具调用、执行进度和文件变更等，开发者可以直接打开聊天中提到的文件、查看代码差异，通过标签页、搜索、置顶和批量管理功能整理多个项目会话。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Kimi Code 桌面版内置终端，支持直接运行项目、执行测试、格式检查和调试命令。右侧面板可以按文件或修改轮次审计差异并将预览 MD、JSON、HTML 等文件。&lt;/p&gt;
+&lt;p&gt;对于前端开发，内置浏览器可以用于预览网页、验证交互和查找资料，用户还可以对网页元素或屏幕区域进行标注，将截图和文字评论直接发送给智能体，帮助智能体定位页面错位、样式问题和错误提示。&lt;/p&gt;
+&lt;p&gt;在 Git 项目中，桌面版可以查看当前分支、领先和落后状态、文件变化以及相关 PR 信息，让代码修改、测试、审阅和合并形成连续流程。&lt;/p&gt;
+&lt;p&gt;Kimi Code CLI 版是开源发布的，不过目前 Kimi Code 桌面版并未开源，月之暗面在发布文章中也没有提到未来是否会开源发布桌面版。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://mp.weixin.qq.com/s/o0OeGjHSIv4XHTamJRKNHQ" rel="noopener" target="_blank"&gt;月之暗面&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 22 Sep 2026 03:00:03 +0000</pubDate></item><item><title>爆料者称RTX 60系显卡可能会被推迟到2028年 英伟达当前只关心高利润的AI业务</title><link>https://www.landian.news/archives/127020.html</link><description>
+&lt;p&gt;#硬件设备 爆料者称 RTX 60 系显卡可能会被推迟到 2028 年，英伟达当前只关心高利润的 AI 业务。按照节奏英伟达应该在明年推出 RTX 60 系显卡，不过知名爆料者 Kopite7kimi 发布消息称，该系列显卡要等到 2028 年。当前英伟达的核心增长动力来自 AI 数据中心而非游戏显卡，所以 RTX 60 系的优先级也被降低。查看全文：https://ourl.co/127020&lt;/p&gt;&lt;p&gt;英伟达 RTX 60 系显卡的发布时间可能会被再次推迟，知名硬件爆料者 Kopite7kimi 发布消息称，采用 Rubin 架构的 RTX 60 系显卡可能要等到 2028 年才会发布。按照正常发布节奏，英伟达应该在明年推出新显卡，不过当前英伟达的重心是高利润的 AI 业务，游戏显卡业务优先级被降低。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/127020.png" rel="nofollow"&gt;&lt;img alt="爆料者称RTX 60系显卡可能会被推迟到2028年 英伟达当前只关心高利润的AI业务" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/127020.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;英伟达目前的核心增长动力来自 AI 数据中心而非游戏显卡，随着生成式 AI 和模型训练需求持续增长，数据中心 GPU 订单规模和利润率要远高于消费级显卡，因此英伟达自然更愿意优先安排适用于数据中心的先进制程、封装和高带宽内存资源。&lt;/p&gt;
+&lt;p&gt;英伟达已经公布 Rubin 数据中心平台的路线图，英伟达也将持续推出面向 AI 计算的处理器和加速器。相比之下消费级产品 RTX 60 系显卡尚未出现在英伟达正式消费级产品规划中，外界因此认为英伟达可能会优先满足云服务商、AI 实验室和大型数据中心客户的需求。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;如果 RTX 60 系显卡确实被推迟到 2028 年，英伟达可能会在较长时间内继续依靠 RTX 50 系显卡维持消费级市场，并通过调整显存配置或推出其他衍生版本来延长产品整体生产周期。&lt;/p&gt;
+&lt;p&gt;当然对游戏显卡来说内存供应也是个很大的问题，AI 数据中心大量采购高带宽内存和先进封装资源，这导致内存价格持续上涨且消费级产品难以获得充足的供应，这也可能是 RTX 60 系显卡延迟发布的原因之一。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 22 Sep 2026 02:30:07 +0000</pubDate></item><item><title>杀鸡儆猴：X起诉内容农场运营者 通过操纵获得27.8万美元创作者收益</title><link>https://www.landian.news/archives/127019.html</link><description>
 &lt;p&gt;#行业资讯 打击欺诈者的嚣张气焰：X 在英格兰和威尔士对内容农场运营者提起法律诉讼，这些运营者通过多个账号制造虚假互动骗取 27.8 万美元的收益。对 X 来说这点直接损失微不足道，但选择起诉就是杀鸡儆猴，打击在 X 上依靠制造虚假数据获得收入的账号。查看全文：https://ourl.co/127019&lt;/p&gt;&lt;p&gt;埃隆马斯克旗下的社交网站 X/Twitter 日前宣布向某个以比特币为中心的内容农场运营者提起法律诉讼，试图追回 27.8 万美元的创作者分成损失，X 称这些收益是运营者通过操纵互动量获得的。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.landian.news/archives/114244.html" rel="noopener" target="_blank"&gt;X 的创作者分成计划目前已经停止并改成原创内容奖励计划&lt;/a&gt;，此前的创作者分成计划以浏览量为指标，因此内容农场运营者很容易通过多账户虚假互动来创造更高的浏览量以获得收益。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/127019.png" rel="nofollow"&gt;&lt;img alt="杀鸡儆猴：X起诉内容农场运营者 通过操纵获得27.8万美元创作者收益" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/127019.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -24,16 +103,16 @@
 &lt;p&gt;当然从另一方面来说，A14 较 2 纳米制程的性能可能提升也不是特别大，先进制程从研发到生产都需要巨大投资，如果 A14 生产工艺更复杂、提供更加突出的性能，估计台积电也会设置更高的定价。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 </description><pubDate>Tue, 22 Sep 2026 01:30:05 +0000</pubDate></item><item><title>软银集团启动110亿美元债券发行计划 为10月投资OpenAI筹集资金</title><link>https://www.landian.news/archives/127017.html</link><description>
-&lt;p&gt;#人工智能 由孙正义领导的日本软银集团启动 110 亿美元债券发行计划，为 10 月投资 OpenAI 筹集资金。根据软银集团此前与 OpenAI 达成的协议，软银集团分三期向 OpenAI 投资 300 亿美元，每期为 100 亿美元。其中第一、第二期已经在 4 月和 7 月完成，第三期将在 10 月完成，为支付这笔投资，软银集团通过发行债券来筹集资金。查看全文：https://ourl.co/127017&lt;/p&gt;&lt;p&gt;由孙正义领导的日本软银集团日前已经启动 110 亿美元的债券发行计划，软银集团筹集这笔资金主要是用于向 OpenAI 投资，根据此前软银集团与 OpenAI 达成的协议，最新的投资金额需要在 2026 年 10 月 1 日支付。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/127017.png" rel="nofollow"&gt;&lt;img alt="软银集团启动110亿美元债券发行计划 为10月投资OpenAI筹集资金" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/127017.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;软银集团已经在 2026 年 2 月宣布，将通过旗下的愿景基金二期向 OpenAI 追加 300 亿美元的投资。这笔投资将分为三期完成，每期金额均为 100 亿美元。其中第一期投资已经在 4 月份完成，第二期已经在 7 月完成，第三期将在 10 月完成。&lt;/p&gt;
-&lt;p&gt;软银集团首席财务官称，公司已经为前两期投资支付 200 亿美元，剩余 100 亿美元将在 10 月支付。而现在软银集团发债筹集资金就是为支付这 100 亿美元的投资，软银集团还将额外发行 10 亿欧元债券，此次筹资规模超过 110 亿美元。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;软银集团此前在 3 月份安排总额为 400 亿美元的过桥贷款用于支持 OpenAI 等大型投资，其中 200 亿美元已经用于前两期 OpenAI 投资，剩余 100 亿美元计划配合 10 月付款继续借入。&lt;/p&gt;
-&lt;p&gt;完成这笔追加投资后，软银集团对 OpenAI 的累计投资将达到 646 亿美元，持股比例约为 13%。这部分投资对应 OpenAI 约 7300 亿美元的投前估值，所获得的优先股将在 OpenAI 未来上市或进行类似交易时自动转换为普通股。&lt;/p&gt;
-&lt;p&gt;至于这笔过桥贷款则会在 2027 年 3 月到期，后续软银集团将通过资产抵押融资、发行债券和出售部分资产等方式进行偿还和再融资。软银希望尽量保留包括 OpenAI 在内的高增长资产，以获得未来上涨空间。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;#äººå·¥æ™ºèƒ½ ç”±å­™æ­£ä¹‰é¢†å¯¼çš„æ—¥æœ¬è½¯é“¶é›†å›¢å�¯åŠ¨ 110 äº¿ç¾�å…ƒå€ºåˆ¸å�‘è¡Œè®¡åˆ’ï¼Œä¸º 10 æœˆæŠ•èµ„ OpenAI ç­¹é›†èµ„é‡‘ã€‚æ ¹æ�®è½¯é“¶é›†å›¢æ­¤å‰�ä¸� OpenAI è¾¾æˆ�çš„å��è®®ï¼Œè½¯é“¶é›†å›¢åˆ†ä¸‰æœŸå�‘ OpenAI æŠ•èµ„ 300 äº¿ç¾�å…ƒï¼Œæ¯�æœŸä¸º 100 äº¿ç¾�å…ƒã€‚å…¶ä¸­ç¬¬ä¸€ã€�ç¬¬äºŒæœŸå·²ç»�åœ¨ 4 æœˆå’Œ 7 æœˆå®Œæˆ�ï¼Œç¬¬ä¸‰æœŸå°†åœ¨ 10 æœˆå®Œæˆ�ï¼Œä¸ºæ”¯ä»˜è¿™ç¬”æŠ•èµ„ï¼Œè½¯é“¶é›†å›¢é€šè¿‡å�‘è¡Œå€ºåˆ¸æ�¥ç­¹é›†èµ„é‡‘ã€‚æŸ¥çœ‹å…¨æ–‡ï¼šhttps://ourl.co/127017&lt;/p&gt;&lt;p&gt;ç”±å­™æ­£ä¹‰é¢†å¯¼çš„æ—¥æœ¬è½¯é“¶é›†å›¢æ—¥å‰�å·²ç»�å�¯åŠ¨ 110 äº¿ç¾�å…ƒçš„å€ºåˆ¸å�‘è¡Œè®¡åˆ’ï¼Œè½¯é“¶é›†å›¢ç­¹é›†è¿™ç¬”èµ„é‡‘ä¸»è¦�æ˜¯ç”¨äº�å�‘ OpenAI æŠ•èµ„ï¼Œæ ¹æ�®æ­¤å‰�è½¯é“¶é›†å›¢ä¸� OpenAI è¾¾æˆ�çš„å��è®®ï¼Œæœ€æ–°çš„æŠ•èµ„é‡‘é¢�éœ€è¦�åœ¨ 2026 å¹´ 10 æœˆ 1 æ—¥æ”¯ä»˜ã€‚&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/127017.png" rel="nofollow"&gt;&lt;img alt="è½¯é“¶é›†å›¢å�¯åŠ¨110äº¿ç¾�å…ƒå€ºåˆ¸å�‘è¡Œè®¡åˆ’ ä¸º10æœˆæŠ•èµ„OpenAIç­¹é›†èµ„é‡‘" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/127017.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 10 æœˆå�‘ OpenAI æ”¯ä»˜ 100 äº¿ç¾�å…ƒï¼š&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;è½¯é“¶é›†å›¢å·²ç»�åœ¨ 2026 å¹´ 2 æœˆå®£å¸ƒï¼Œå°†é€šè¿‡æ——ä¸‹çš„æ„¿æ™¯åŸºé‡‘äºŒæœŸå�‘ OpenAI è¿½åŠ  300 äº¿ç¾�å…ƒçš„æŠ•èµ„ã€‚è¿™ç¬”æŠ•èµ„å°†åˆ†ä¸ºä¸‰æœŸå®Œæˆ�ï¼Œæ¯�æœŸé‡‘é¢�å�‡ä¸º 100 äº¿ç¾�å…ƒã€‚å…¶ä¸­ç¬¬ä¸€æœŸæŠ•èµ„å·²ç»�åœ¨ 4 æœˆä»½å®Œæˆ�ï¼Œç¬¬äºŒæœŸå·²ç»�åœ¨ 7 æœˆå®Œæˆ�ï¼Œç¬¬ä¸‰æœŸå°†åœ¨ 10 æœˆå®Œæˆ�ã€‚&lt;/p&gt;
+&lt;p&gt;è½¯é“¶é›†å›¢é¦–å¸­è´¢åŠ¡å®˜ç§°ï¼Œå…¬å�¸å·²ç»�ä¸ºå‰�ä¸¤æœŸæŠ•èµ„æ”¯ä»˜ 200 äº¿ç¾�å…ƒï¼Œå‰©ä½™ 100 äº¿ç¾�å…ƒå°†åœ¨ 10 æœˆæ”¯ä»˜ã€‚è€Œç�°åœ¨è½¯é“¶é›†å›¢å�‘å€ºç­¹é›†èµ„é‡‘å°±æ˜¯ä¸ºæ”¯ä»˜è¿™ 100 äº¿ç¾�å…ƒçš„æŠ•èµ„ï¼Œè½¯é“¶é›†å›¢è¿˜å°†é¢�å¤–å�‘è¡Œ 10 äº¿æ¬§å…ƒå€ºåˆ¸ï¼Œæ­¤æ¬¡ç­¹èµ„è§„æ¨¡è¶…è¿‡ 110 äº¿ç¾�å…ƒã€‚&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; é€šè¿‡å€ºåŠ¡æ”¾å¤§ AI æŠ¼æ³¨ï¼š&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;è½¯é“¶é›†å›¢æ­¤å‰�åœ¨ 3 æœˆä»½å®‰æ�’æ€»é¢�ä¸º 400 äº¿ç¾�å…ƒçš„è¿‡æ¡¥è´·æ¬¾ç”¨äº�æ”¯æŒ� OpenAI ç­‰å¤§å�‹æŠ•èµ„ï¼Œå…¶ä¸­ 200 äº¿ç¾�å…ƒå·²ç»�ç”¨äº�å‰�ä¸¤æœŸ OpenAI æŠ•èµ„ï¼Œå‰©ä½™ 100 äº¿ç¾�å…ƒè®¡åˆ’é…�å�ˆ 10 æœˆä»˜æ¬¾ç»§ç»­å€Ÿå…¥ã€‚&lt;/p&gt;
+&lt;p&gt;å®Œæˆ�è¿™ç¬”è¿½åŠ æŠ•èµ„å��ï¼Œè½¯é“¶é›†å›¢å¯¹ OpenAI çš„ç´¯è®¡æŠ•èµ„å°†è¾¾åˆ° 646 äº¿ç¾�å…ƒï¼ŒæŒ�è‚¡æ¯”ä¾‹çº¦ä¸º 13%ã€‚è¿™éƒ¨åˆ†æŠ•èµ„å¯¹åº” OpenAI çº¦ 7300 äº¿ç¾�å…ƒçš„æŠ•å‰�ä¼°å€¼ï¼Œæ‰€è�·å¾—çš„ä¼˜å…ˆè‚¡å°†åœ¨ OpenAI æœªæ�¥ä¸Šå¸‚æˆ–è¿›è¡Œç±»ä¼¼äº¤æ˜“æ—¶è‡ªåŠ¨è½¬æ�¢ä¸ºæ™®é€šè‚¡ã€‚&lt;/p&gt;
+&lt;p&gt;è‡³äº�è¿™ç¬”è¿‡æ¡¥è´·æ¬¾åˆ™ä¼šåœ¨ 2027 å¹´ 3 æœˆåˆ°æœŸï¼Œå��ç»­è½¯é“¶é›†å›¢å°†é€šè¿‡èµ„äº§æŠµæŠ¼è��èµ„ã€�å�‘è¡Œå€ºåˆ¸å’Œå‡ºå”®éƒ¨åˆ†èµ„äº§ç­‰æ–¹å¼�è¿›è¡Œå�¿è¿˜å’Œå†�è��èµ„ã€‚è½¯é“¶å¸Œæœ›å°½é‡�ä¿�ç•™åŒ…æ‹¬ OpenAI åœ¨å†…çš„é«˜å¢�é•¿èµ„äº§ï¼Œä»¥è�·å¾—æœªæ�¥ä¸Šæ¶¨ç©ºé—´ã€‚&lt;/p&gt;
+&lt;p aria-label="çƒ­é—¨æ�¨è��"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="ä»…éœ€99å…ƒ/å¹´ï¼Œç¡…è°·CN2GIAæœ�åŠ¡å™¨ï¼Œå�¦æœ‰3å¹´ç‰ˆä»…éœ€528å…ƒï¼Œé™�é‡�é”€å”®ï¼Œå”®å®Œå�³æ­¢"&gt;çƒ­é—¨æ�¨è��ä»…éœ€99å…ƒ/å¹´ï¼Œç¡…è°·CN2GIAæœ�åŠ¡å™¨ï¼Œå�¦æœ‰3å¹´ç‰ˆä»…éœ€528å…ƒï¼Œé™�é‡�é”€å”®ï¼Œå”®å®Œå�³æ­¢&lt;span aria-hidden="true"&gt;ä»…éœ€99å…ƒ/å¹´ï¼Œç¡…è°·CN2GIAæœ�åŠ¡å™¨ï¼Œå�¦æœ‰3å¹´ç‰ˆä»…éœ€528å…ƒï¼Œé™�é‡�é”€å”®ï¼Œå”®å®Œå�³æ­¢&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 </description><pubDate>Tue, 22 Sep 2026 01:00:05 +0000</pubDate></item><item><title>宏碁董事长称内存不至于短缺到2030年 但2027年上半年还会继续上涨</title><link>https://www.landian.news/archives/127016.html</link><description>
 &lt;p&gt;#行业资讯 宏碁董事长陈俊圣称内存不至于短缺到 2030 年，但明年上半年内存将继续上涨，到明年下半年应该会企稳。陈俊圣提到元器件价格会在 26Q4 继续上涨 5%~20%，这也对应着 PC 价格的涨幅，即 OEM 无法自行消化成本上涨，只能提高产品售价将成本转嫁给消费者。查看全文：https://ourl.co/127016&lt;/p&gt;&lt;p&gt;知名电脑制造商宏碁首席执行官兼董事长陈俊圣日前就内存短缺问题发布最新评论，陈俊圣预计个人电脑将在 2026 年 Q4 继续上涨 5%~20%，而到 2027 年个人电脑价格还会继续上涨，直到 2027 年下半年开始趋于稳定 (即不再涨价)。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/127016.png" rel="nofollow"&gt;&lt;img alt="宏碁董事长称内存不至于短缺到2030年 但2027年上半年还会继续上涨" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/127016.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -45,86 +124,4 @@
 &lt;p&gt;对 PC 制造商而言目前难关还没有完全过去，陈俊圣称 26Q4 元器件价格还会继续上涨，预计涨幅在 5%~20% 之间，这个涨幅也基本对应着 PC 的涨幅，毕竟 OEM 无法自行消化元器件和零部件涨幅，所以最终还是要提高产品售价将成本转嫁给消费者。&lt;/p&gt;
 &lt;p&gt;当然问题在于 PC 价格提高会导致销售量大幅度缩减，更多用户选择逐步替换零部件来升级，或者干脆继续使用现有设备而不是直接购买新设备，所以在价格没有回到合理区间前，PC 行业面临的困难还是非常大。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 22 Sep 2026 00:30:02 +0000</pubDate></item><item><title>美国监管机构放松发电站气候监管  为AI数据中心供电可能是重要原因</title><link>https://www.landian.news/archives/127015.html</link><description>
-&lt;p&gt;#行业资讯 美国环境保护署宣布撤销拜登政府时期针对燃煤和燃气发电站的温室气体排放限制，并提出废除电力行业剩余气候排放标准的做法。以上政策调整会放松使用不可再生能源作为燃料的发电站的监管，也就是排放更多温室气体。相关调整与特朗普对 AI 的态度有关，特朗普希望将美国建设为全球 AI 中心，但这需要大量的电力供应。目前美国有不少规划中的 AI 数据中心因无法获得充足的电力供应而被推迟建设。查看全文：https://ourl.co/127015&lt;/p&gt;&lt;p&gt;美国环境保护署近日宣布撤销拜登政府时期针对燃煤和燃气发电站指定的部分温室气体排放限制，并提出废除电力行业剩余气候排放标准的计划。表面上看这是美国能源与环保政策调整，但从美国电力需求变化以及近期特朗普政府的动作来看，调整原因很可能与快速扩展的 AI 数据中心有关。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/127015.png" rel="nofollow"&gt;&lt;img alt="美国监管机构放松发电站气候监管  为AI数据中心供电可能是重要原因" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/127015.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;美国环境保护署称，2024 年碳排放标准要求部分发电站采用尚未充分验证的控制技术，这可能迫使发电站将部分煤电机组提前退役。该机构预计，撤销相关规则会为能源行业节省 3100 亿美元，有助于提高电网可靠性和能源供应能力。&lt;/p&gt;
-&lt;p&gt;美国环境保护署还提出将在未来继续撤销《清洁空气法》下针对发电站温室气体排放的监管依据，这将减少新建燃气发电站和大型发电设施面临的政策阻碍。这可能会让美国新建更多利用不可再生能源作为主要燃料的发电站并排放更多温室气体。&lt;/p&gt;
-&lt;p&gt;环保组织认为所谓的降低成本实际上可能意味着延长高排放煤电和燃气发电站的运行时间，而不是尽早退役这些发电站或机组。也就是会继续排放更多污染物，这种做法与全球碳中和目标相悖。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;近年来美国大型人工智能数据中心快速增加，训练和运行模型需要持续消耗大量电力。数据中心、先进制造业和电动化趋势叠加后，美国部分地区已经出现电网扩容、输电建设和新增发电能力不足的问题。&lt;/p&gt;
-&lt;p&gt;而美国大型科技公司正在准备建设更多人工智能数据中心，但由于电力供应问题这些数据中心建设受阻，在无法获得充足电力供应的情况下，继续新建数据中心会造成持续损失。而不建设更多 AI 数据中心则无法满足使用需求，也会弱化相关公司的竞争力。&lt;/p&gt;
-&lt;p&gt;美国煤电行业组织明确指出，放松排放限制能够帮助电网应对数据中心、人工智能和先进制造业带来的电力需求增长。特朗普政府此前还特地发布政策，要求环保部门简化数据中心和配套发电设施的审批流程，将美国建设为全球 AI 中心作为目标。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 21 Sep 2026 08:00:37 +0000</pubDate></item><item><title>iFixit拆解iPhone 18 Pro：可变光圈结构复杂、拆解时屏幕边框有破裂风险</title><link>https://www.landian.news/archives/127014.html</link><description>
-&lt;p&gt;#拆解报告 iFixit 拆解 iPhone 18 Pro 系列，可变光圈结构比较复杂、屏幕边框存在维修风险、均热板散热能力加强。拆解显示可变光圈由 6 片叶片组成，通过电磁机构进行控制。但受限于传感器面积，iPhone 18 Pro 系列景深和背景虚化效果与专业相机相比还有明显差距。屏幕方面，目前不确定是均热板散热还是设计问题，拆解时屏幕塑料边框很容易破裂 (4 台坏了 3 台)，这会增加维修风险。散热方面，A20 Pro 封装将芯片与存储分开，芯片直接通过均热板散热，可以提供持续性能。查看全文：https://ourl.co/127014&lt;/p&gt;&lt;p&gt;知名维修机构 iFixit 日前发布 iPhone 18 Pro 和 iPhone 18 Pro Max 的拆解报告，重点分析苹果首次使用的主摄可变光圈、重新设计的散热系统、屏下面容识别红外摄像头以及内部维修结构。&lt;/p&gt;
-&lt;p&gt;本次拆解 4 台设备，其中有 3 台设备出现屏幕塑料边框破裂或脱落，这可能影响屏幕重新安装后的贴合度和防水能力。不过目前样本数量还比较少，尚不能确认这是该系列机型的普遍性问题。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/127014-5.png" rel="nofollow"&gt;&lt;img alt="iFixit拆解iPhone 18 Pro：可变光圈结构复杂、拆解时屏幕边框有破裂风险" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/127014-5.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;iPhone 18 Pro 系列搭载 48MP 的 Fusion 主摄并首次支持可变光圈。苹果官方称该镜头使用 6 片激光切割叶片，通过新的转子结构在不同光圈之间切换，可以根据光线和景深需求自动调整，也允许用户在相机应用中手动选择光圈。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/127014-2.gif" rel="nofollow"&gt;&lt;img alt="iFixit拆解iPhone 18 Pro：可变光圈结构复杂、拆解时屏幕边框有破裂风险" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/127014-2.gif"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;拆解发现这 6 片叶片尺寸极小且主要依靠电磁结构驱动，在拆解过程中其中 1 片叶片直接飞出，虽然可以手动装回并让机构继续工作，但整体维修难度剧增。iFixit 认为如果可变光圈卡死或叶片损坏，普通维修人员很难进行零部件级别的修复，最终可能会被迫更换整个主摄模组。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/127014-1.png" rel="nofollow"&gt;&lt;img alt="iFixit拆解iPhone 18 Pro：可变光圈结构复杂、拆解时屏幕边框有破裂风险" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/127014-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;需要说明的是，iPhone 18 Pro 系列提供ƒ/1.48、ƒ/1.8、ƒ/2.8 和 ƒ/4.0 四档光圈，其中ƒ/1.48 光圈相比ƒ/4.0 可以让传感器获得更多进光量，但由于传感器和镜头尺寸较小，实际景深和背景虚化效果与专业相机相比存在明显差距。可变光圈增加拍摄控制能力，同时也带来更多可能发生故障的活动功能部件。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;iPhone 18 Pro 系列延续从屏幕一侧进入内部的维修结构，虽然背板比较容易拆下，但内部几乎没有可直接维修的部件，电池和其他主要组件仍然需要先拆除屏幕。在实际拆解过程中，4 台测试设备中的 3 台出现屏幕白色塑料边框破裂或拉脱，新的边框与屏幕组件是一体结构，重新涂胶无法完全修复损坏部分。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/127014-3.png" rel="nofollow"&gt;&lt;img alt="iFixit拆解iPhone 18 Pro：可变光圈结构复杂、拆解时屏幕边框有破裂风险" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/127014-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;iFixit 推测，iPhone 18 Pro 改进后的散热系统可能会在加热屏幕粘合剂时带走更多热量，这会让屏幕边缘的粘合剂更难被软化、从而增加拆屏风险。不过拆解手法、加热时间、胶水强度以及不同设备之间的材料差异都可能影响结果。由于其他拆解案例尚未普遍出现类似问题，因此目前还不能确定 iPhone 18 Pro 屏幕边框有质量缺陷。&lt;/p&gt;
-&lt;p&gt;电池结构方面，iPhone 18 Pro 使用螺丝固定金属电池托盘，电芯继续电诱导粘合剂脱粘技术 (从 iPhone 16 开始使用)，通电后即可自动释放。拆下托盘后，维修者不需要像过去那样处理大量电池胶，这属于维修设计上的改进。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;A20 Pro 芯片采用类似苹果 M 系列芯片的封装方式，将芯片与内存并排放置而非堆叠，这样芯片可以直接连接到均热板加强散热，苹果也提到新均热板面积是 iPhone 17 Pro 的 3 倍，可以将持续性能提升最高 40%。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/127014-4.png" rel="nofollow"&gt;&lt;img alt="iFixit拆解iPhone 18 Pro：可变光圈结构复杂、拆解时屏幕边框有破裂风险" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/127014-4.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;不过 NAND 存储芯片被放在主板夹层内部，若要进行数据恢复或更换存储芯片，必须将主板层拆开，这会增加维修时间、成本和损坏风险。从目前已有的扩容案例来看，扩容是可以继续扩容的，只不过存储芯片与 iPhone 17 Pro 系列不通用，相关产业链后续可能会研发适配的存储颗粒来作为扩容选择。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://zh.ifixit.com/News/119329/inside-the-tiny-unfixable-eye-iphone-18-pro-and-pro-max-teardown" rel="noopener" target="_blank"&gt;iFixit&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 21 Sep 2026 07:15:37 +0000</pubDate></item><item><title>京东灰度测试支付宝付款 默认折叠起来 展开后可以正常跳转支付宝</title><link>https://www.landian.news/archives/127013.html</link><description>&lt;article&gt;
-&lt;p&gt;#行业资讯 京东商城灰度测试支付宝付款，默认折叠起来，展开后可以选择支付宝并跳转支付宝进行支付。该功能目前主要灰度给部分用户使用和支持自营商品，后续更多用户应该都可以在京东使用支付宝付款。注：目前仅支持京东 App，网页版尚未提供支付宝。查看全文：https://ourl.co/127013&lt;/p&gt;&lt;p&gt;京东商城日前正在面向部分用户灰度测试支付宝支付，被灰度到的用户在支付页面展开被折叠的支付选项后，可以正常选择支付宝并进行跳转，对用户而言也就多个支付方式，与直接使用微信支付或京东支付没有区别。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;目前国内科技公司不同阵营都存在利用支付方式隔离竞争对手的情况，例如以前淘宝不支持使用微信支付 (现在部分用户应该已经可以使用微信支付)、京东长期未支持支付宝。或者通过折叠付款方式来推荐自家支付渠道，毕竟自家支付渠道手续费会更低。&lt;/p&gt;
-&lt;p&gt;不过在当前经济形势下给用户设置门槛确实是不明智的，所以现在京东支持支付宝付款也算是删除门槛，毕竟对京东来说好好卖货才是最重要的。注：目前仅支持京东 App，网页版尚未支持支付宝。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/127013-1.png" rel="nofollow"&gt;&lt;img alt="京东灰度测试支付宝付款 默认折叠起来 展开后可以正常跳转支付宝" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/127013-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/127013-2.png" rel="nofollow"&gt;&lt;img alt="京东灰度测试支付宝付款 默认折叠起来 展开后可以正常跳转支付宝" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/127013-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;ins data-ad-client="ca-pub-8597288383599884" data-ad-format="auto" data-ad-slot="1551135873" data-full-width-responsive="true"&gt;&lt;/ins&gt;
-&lt;/p&gt;&lt;popup module-class="point-pay-module" ref="pointPayRef"&gt;&lt;point-pay-popup @close-point-pay-popup="closePointPay"&gt;&lt;/point-pay-popup&gt;&lt;/popup&gt; &lt;/article&gt;
-</description><pubDate>Mon, 21 Sep 2026 06:30:36 +0000</pubDate></item><item><title>智谱宣布开源ZCode并完成全面整改 将邀请信通院和绿盟开展安全审计</title><link>https://www.landian.news/archives/127012.html</link><description>
-&lt;p&gt;#人工智能 智谱宣布开源 ZCode 并完成全面整改，将邀请中国信息通信研究院和绿盟科技开展安全审计。目前 ZCode 代码已经在 GitHub 上公开，不过智谱并未开放 Issue 接受开发者反馈。至于安全审计，审计重点可能是数据未被智谱读取、转移，而是上传后就被立即销毁，智谱后续可能会提供审计报告。查看全文：https://ourl.co/127012&lt;/p&gt;&lt;p&gt;智谱日前再次就 ZCode 未经用户同意擅自加密上传用户数据发布回应，智谱按照此前的承诺将 &lt;a href="https://www.landian.news/go?url=https://github.com/zai-org/ZCode" rel="noopener" target="_blank"&gt;ZCode&lt;/a&gt; 开源 (但只开源项目代码而关闭 Issue 无法直接提交反馈)。智谱称目前公司也邀请中国信息通信研究院和绿盟科技集团股份有限公司开展安全审计。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/127012.png" rel="nofollow"&gt;&lt;img alt="智谱宣布开源ZCode并完成全面整改 将邀请信通院和绿盟开展安全审计" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/127012.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;此前有开发者分析后发现智谱 ZCode 在未经用户明确授权的情况下，会将整个工作区以及 Git 完整记录打包并加密上传到远程服务器，被发送的数据包含开发者商业项目的敏感数据，无论是泄露还是被用于训练模型都是不可接受的。&lt;/p&gt;
-&lt;p&gt;智谱给出的说法是代码库索引功能会在本地生成仓库索引，以支持包括历史版本在内的会话检查点恢复和生成 Wiki 页面，生成页面时会触发数据上传。当完成 Wiki 页面生成后相关数据会被立即删除，智谱不会保存数据。为此智谱已经修复 ZCode 相关问题并将其开源，开源社区可以监督 ZCode 所有代码和功能，&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;智谱的整改措施还包括邀请中国信息通信研究院和知名安全公司绿盟科技开展安全审计，智谱并未透露审计方面的重点，不过既然是安全审计那应该涉及 ZCode 本体代码以及服务器数据留存问题。&lt;/p&gt;
-&lt;p&gt;审计应当出具 ZCode 问题版本发送的数据路径，然后对留存数据的服务器进行审计，确保所有数据已经被销毁且智谱没有读取或将其转移到其他地方，智谱后续应该会公开审计报告... 吧？&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;最后，智谱将建立常态化产品安全漏洞响应机制，持续接受开发者反馈，根据问题严重程度给予相应的奖励。这与常见的漏洞奖金计划类似，智谱可能要单独新建 SRC 相关页面并公布漏洞奖励细则，吸引更多开发者和安全研究人员积极分析产品代码发掘安全漏洞。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/126950.html" title="智谱Zcode被发现未经用户同意擅自将整个工作区和Git记录上传到服务器保存"&gt;&lt;h3&gt;智谱Zcode被发现未经用户同意擅自将整个工作区和Git记录上传到服务器保存&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#人工智能 智谱 ZCode 被发现未经用户允许静默打包整个工作区包括完整 Git 历史并上传到阿里云 OSS 中保存。只要用户登录智谱账号就会…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/tech/ai"&gt;人工智能&lt;/a&gt;, &lt;a href="https://www.landian.news/tech"&gt;科技资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2026年9月18日 15:24&lt;/span&gt;&lt;span title="浏览数量"&gt;16.85K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 21 Sep 2026 05:45:27 +0000</pubDate></item><item><title>特朗普想给人工智能这个术语更名 提议改成超级智能/极端智能/至高智能</title><link>https://www.landian.news/archives/127011.html</link><description>
-&lt;p&gt;#人工智能 美国总统特朗普认为人工智能这个术语不够准确，应该将其更名为超级智能、极端智能或至高智能。人工智能这个术语最初是约翰麦卡锡在 1955 年提出的，写下这个词主要是与当时已经有的控制论和自动机研究，麦卡锡希望将新研究方向与现有的这些研究方向区分开。查看全文：https://ourl.co/127011&lt;/p&gt;&lt;p&gt;美国总统特朗普日前在社交平台上发文称，人工智能这个名称不够准确也不够优雅，特朗普提议将人工智能更名为超级智能(Superior Intelligence)、极端智能(Extreme Intelligence)或至高智能(Supreme Intelligence)。&lt;/p&gt;
-&lt;p&gt;特朗普还发起投票让网友选择名称，不过特朗普给的选择只有这 3 个新名称而没有原名称人工智能，目前超级智能得票率为 41%。如果选项里有人工智能，毫无疑问肯定是这个术语得票率最高。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/127011.png" rel="nofollow"&gt;&lt;img alt="特朗普想给人工智能这个术语更名 提议改成超级智能/极端智能/至高智能" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/127011.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;人工智能是英语 Artificial Intelligence 的中文译名，这个英语术语最初由约翰・麦卡锡在 1955 年首次明确使用。而且这个术语的诞生也比较有趣，1955 年 8 月 31 日，约翰・麦卡锡与马文・明斯基、纳撒尼尔・罗切斯特、克劳德・香农共同向洛克菲勒基金会提交《达特茅斯人工智能夏季研究项目提案》，提案首次写下人工智能这个词。&lt;/p&gt;
-&lt;p&gt;提案使用人工智能这个术语并设想用两个月、约 10 人研究「学习的每一个方面，或智能的任何其他特征，原则上都可以被精确描述，从而让机器模拟它」。约翰・麦卡锡创造和使用人工智能这个术语的根本原因则是，当时已经有控制论和自动机研究等方向，所以使用人工智能来和控制论等方向进行区分，给新领域起个鲜明和中性标签。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;特朗普长期公开支持扩大人工智能产业规模，特朗普将 AI 称为历史上最伟大的经济发展引擎，认为人工智能的潜力甚至超过石油、黄金、钻石和互联网等。&lt;/p&gt;
-&lt;p&gt;在最新表态中特朗普并没有给出更名的法律或技术方案，特朗普主要从传播和政治角度批评人工智能这个术语。特朗普认为当前 AI 系统已经具备比传统软件更强的内容生成、推理和自动化能力，人工这个词可能无法准确反映其发展方向。&lt;/p&gt;
-&lt;p&gt;不过超级智能或至高智能等都更像是政治口号和品牌化表达，强调系统能力高于传统人类工具，但不能替代现有技术分类。当然这也仅仅是特朗普的提议，是否更名还取决于全行业的态度。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 21 Sep 2026 05:00:20 +0000</pubDate></item><item><title>西班牙封禁网页快照网站Archive.today 理由是保存未经授权的内容</title><link>https://www.landian.news/archives/127010.html</link><description>
-&lt;p&gt;#网站应用 西班牙文化部下令封禁网页快照网站 Archive.today，理由是该网站保存未经授权的内容。Archive.today 确实可以绕过某些网站的付费墙保存内容，因此说是侵权也是事实。不过这类快照网站在新闻调查、学术研究、事实核查等领域非常有用。批评者称西班牙政府应该屏蔽侵权的链接，而不是将整个网站都屏蔽掉。查看全文：https://ourl.co/127010&lt;/p&gt;&lt;p&gt;西班牙文化部下属的知识产权委员会日前发布指令要求当地网络运营商封锁 Archive.today，目前部分运营商已经遵守指令将该网站重定向到西班牙文化部的警告页面，提示访问者正在尝试打开非法网站。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/127010.png" rel="nofollow"&gt;&lt;img alt="西班牙封禁网页快照网站Archive.today 理由是保存未经授权的内容" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/127010.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Archive.today 与互联网档案馆类似可以保存网页快照，而且这个平台还会利用某些机制绕过网站原始的付费墙并抓取完整快照内容，从版权角度来说该平台确实存在侵犯版权的行为，而同类型网站即互联网档案馆通常不会保存有付费墙的内容。&lt;/p&gt;
-&lt;p&gt;基于西班牙文化部的指令，目前西班牙部分运营商开始在网络层面封禁 archive.today、archive.is、archive.ph 和 archive.li 等多个镜像域名。有运营商直接屏蔽这些域名的访问，有些运营商则是将其重定向到西班牙文化部的警告页面。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;新闻调查、学术研究、事实核查等领域依赖这些保存网页快照的网站，因为总有些网页随着时间推移可能出现内容修改或被删除，如果要寻找原始内容或被删除的内容，使用这类快照网站是非常方便的。&lt;/p&gt;
-&lt;p&gt;此次封锁也显示西班牙政府通过行政程序快速扩大网站屏蔽范围，批评者认为西班牙政府应该只屏蔽存在侵权的链接，而不是将整个网站全部屏蔽。只不过对西班牙政府来说，直接屏蔽整个网站是个简单快捷的懒惰做法。&lt;/p&gt;
-&lt;p&gt;另外 Archive.today 网站本身也存在争议，该网站除了保存侵权内容外，此前还被发现利用用户浏览器向特定网站发起 DDoS 攻击，目前该网站已经被维基百科除名，维基百科禁止编辑者引用该网站的来源链接。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 21 Sep 2026 04:15:19 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 22 Sep 2026 00:30:02 +0000</pubDate></item></channel></rss>
