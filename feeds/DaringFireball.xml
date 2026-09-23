@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Wed, 23 Sep 2026 18:38:58 +0000</lastBuildDate><item><title>本周 App Store 骗局：“更新我的手机与应用：指南”，作者 Tair Olzhasev</title><link>https://apps.apple.com/us/app/update-my-phone-apps-guide/id6753936837</link><description>&lt;p&gt;“更新我的手机与应用：指南”是开发者 Tair Olzhasev 推出的一款 iOS 应用。默认情况下，它免费提供的唯一功能就是一个“检查更新”按钮，点击后会启动系统“设置”应用。它甚至不会带你进入“通用”→“软件更新”界面，只是把你带到“设置”的根层级。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Wed, 23 Sep 2026 20:12:16 +0000</lastBuildDate><item><title>“Prepare to Ship”是一项巧妙的软件解决方案，使 iPhone 18 Pro Max 能够搭载一块原本会超出国际运输法规限制的电池发货。</title><link>https://support.apple.com/en-us/127848</link><description>&lt;p&gt;Apple 支持：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;iPhone 18 Pro Max 的电池续航大幅提升，部分原因在于其电池容量增加到超过 20 瓦时（Wh）。在大多数国家和地区，配备超过 20 瓦时单电芯电池的设备有额外的运输要求。为满足这些要求，iPhone 18 Pro Max 采用了一项创新的电池固件解决方案，从制造之时起直到从工厂运输的整个过程中，将电池容量限制在 20 瓦时以下。当你激活 iPhone 时，该限制会被解除，电池的完整充电容量即可使用。&lt;/p&gt;
+&lt;p&gt;激活后，如果你需要寄送 iPhone 18 Pro Max，例如用于维修、以旧换新、退货或作为礼物，请使用设置中的“准备寄送”功能。此功能会将电池放电至 20 瓦时以下，并设置充电限制，以便你的 iPhone 在运输过程中保持低于此限制。此设置可以撤销，你可以在寄送后重置充电限制。&lt;/p&gt;
+&lt;p&gt;iPhone 18 Pro Max 的电池是安全的，包括在运输和航空旅行中。这一过程仅是为了满足运输要求，在旅行期间或其他任何 iPhone 机型上都不需要。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;（&lt;a href="https://www.theverge.com/tech/998144/apple-iphone-18-pro-max-battery-firmware-limit"&gt;来自 The Verge&lt;/a&gt;。）&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/09/23/prepare-to-ship" title="Permanent link to ‘‘Prepare to Ship’ Is a Clever Software Solution That Allows iPhone 18 Pro Max to Ship With a Battery That Would Otherwise Exceed International Shipping Regulations’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Wed, 23 Sep 2026 20:12:16 +0000</pubDate></item><item><title>本周 App Store 骗局：“更新我的手机与应用：指南”，作者 Tair Olzhasev</title><link>https://apps.apple.com/us/app/update-my-phone-apps-guide/id6753936837</link><description>&lt;p&gt;“更新我的手机与应用：指南”是开发者 Tair Olzhasev 推出的一款 iOS 应用。默认情况下，它免费提供的唯一功能就是一个“检查更新”按钮，点击后会启动系统“设置”应用。它甚至不会带你进入“通用”→“软件更新”界面，只是把你带到“设置”的根层级。&lt;/p&gt;
 &lt;p&gt;它声称能做的其他所有事情都需要订阅每周 15 美元的服务。这样一年就是 780 美元。（它确实提供三天免费试用，之后开始按周计费。）这些被“专业版”订阅锁定的其他功能包括：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;ul&gt;
@@ -23,8 +31,8 @@
 &lt;p&gt;我带来了非常好的、非常有趣的消息。在十多年的中断之后，AppZapper回来了，&lt;a href="https://appzapper.com/"&gt;为了长远的未来完美地改名为AppZapper 3000&lt;/a&gt;。它完全夸张到了极点，我爱死它了。&lt;a href="https://appzapper.com/"&gt;看看它吧&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;长期以来，Mac上一直存在着一整个家庭手工业式的“应用卸载器”，算是更大的系统“清理器”类别中的一个子集。其中一些应用是骗局，还有一些是边缘骗局，利用了一种错误的观念，即用户&lt;em&gt;应该&lt;/em&gt;担心已删除应用留下的残渣。许多从Windows转到Mac的人对这种理念感到不适：你通常不需要为应用运行安装程序——你只需将.app包从下载文件夹或磁盘映像复制到应用程序文件夹，就完成了。它已安装。对我来说，这是一个美丽的系统，因为它教会你系统是如何工作的。在Mac上“安装”应用背后不应该有任何隐藏的魔法。&lt;/p&gt;&lt;p&gt;而要卸载一个应用，你只需把它拖到废纸篓。一些用户对此比“拖到应用程序文件夹即安装”更不习惯，因为删除应用的 .app 包并不会删除它可能留下的其他任何东西。比如它的偏好设置，或它在你的 &lt;em&gt;~/Library/&lt;/em&gt; 文件夹的子文件夹中可能留下的任何关联文件。简单的事实是，你真的不必担心那些东西。我有时&lt;em&gt;宁愿&lt;/em&gt;留下已删除应用的偏好设置，以防我以后重新安装该应用。Mac 源自 NeXT 的 &lt;a href="https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/UserDefaults/AboutPreferenceDomains/AboutPreferenceDomains.html"&gt;&lt;code&gt;defaults&lt;/code&gt;&lt;/a&gt; 软件偏好设置系统的设计方式，使其不会被很久以前删除的应用留下的未使用偏好设置拖累。（Windows 注册表给人们留下了永远的创伤。）&lt;/p&gt;
 &lt;p&gt;但有时应用会下载&lt;em&gt;大型&lt;/em&gt;关联文件，并把它们藏在 &lt;em&gt;~/Library/&lt;/em&gt; 中。这些文件不会拖慢你的系统，但它们会占用空间。存储空间从来都不是免费的，而且，在 AI 硬币的一面，&lt;a href="https://daringfireball.net/2026/06/spensive_thoughts"&gt;它已经变得昂贵得多&lt;/a&gt;。在 AI 硬币的另一面，&lt;a href="https://daringfireball.net/linked/2026/06/04/the-ai-driven-resurgence-of-mac-app-development"&gt;如今有更多新的 Mac 应用涌现&lt;/a&gt;。我每周尝试的新应用比 App Store 早期以来的任何时候都多。有时我试驾之后，真的只想把它们的所有痕迹都清除掉。&lt;/p&gt;
-&lt;p&gt;AppZapper 3000 能很好地完成这项工作，而且让它变得极其有趣。你把想要卸载的应用拖到它的主窗口，AppZapper 会列出该应用的所有关联文件（当然，包括应用本身）。然后你“射击”你想删除的那些。被“击中”的文件会安全地移到废纸篓，如果你手滑，AppZapper 本身支持撤销。这非常有趣。甚至还有一个为懒人准备的“全部清除”按钮。它上周一重新推出，但我在那之前几周就一直在测试 AppZapper 300。我的应用程序和资源库文件夹多年来从未如此整洁。&lt;/p&gt;&lt;p&gt;很久很久以前，在 &lt;a href="https://daringfireball.net/linked/2019/12/09/the-grouch"&gt;System 7 的 The Grouch 系统扩展&lt;/a&gt; 时代，有故事说，安装了 The Grouch 的人会让自家小孩玩他们的 Mac，结果发现孩子们删掉了一大堆重要文件和文件夹，就是为了让奥斯卡从废纸篓里弹出来唱他的歌。（奥斯卡只会在你&lt;em&gt;清空&lt;/em&gt;废纸篓时才唱歌。）甚至在初代 AppZapper 还是新玩意的时候，The Grouch 就已经显得很老了。但 AppZapper 3000 把那种乐趣带回来了——同时还确实很实用。而 Mac 在其历史上从未像现在这样需要新的 UI 乐趣。做一个卸载工具，用一把细节精美的 3D 激光枪作为它的 UI，这绝对荒唐且毫无必要吗？太他妈对了。&lt;/p&gt;
-&lt;p&gt;如果你身上还有一点爱玩的细胞，你应该&lt;a href="https://appzapper.com/"&gt;去看看 AppZapper 3000&lt;/a&gt;。它可以免费下载，并有免费试用。许可证价格：单用户 18 美元，5 用户家庭包 29 美元，25 台 Mac 企业许可证 99 美元。一次性购买，不是订阅。Sarner 很贴心地为 DF 读者创建了一个 20% 的折扣码，有效期到下周一：&lt;strong&gt;DARING&lt;/strong&gt;。这不是赞助。我分享这个折扣码（并写这篇文章）纯粹是因为我很高兴看到 Mac 上注入了如此急需的纯粹乐趣。&lt;/p&gt;
+&lt;p&gt;AppZapper 3000 能很好地完成这项工作，而且让它变得极其有趣。你把想要卸载的应用拖到它的主窗口，AppZapper 会列出该应用的所有关联文件（当然，包括应用本身）。然后你“射击”你想删除的那些。被“击中”的文件会安全地移到废纸篓，如果你手滑，AppZapper 本身支持撤销。这非常有趣。甚至还有一个为懒人准备的“全部清除”按钮。它上周一重新推出，但我在那之前几周就一直在测试 AppZapper 300。我的应用程序和资源库文件夹多年来从未如此整洁。&lt;/p&gt;&lt;p&gt;很久很久以前，在 &lt;a href="https://daringfireball.net/linked/2019/12/09/the-grouch"&gt;适用于 System 6 和 7 的 The Grouch 系统扩展&lt;/a&gt;那个年代，有传闻说，装了 The Grouch 的人会让年幼的孩子玩自己的 Mac，结果发现孩子们删掉了大量重要文件和文件夹，只为让 Oscar 从废纸篓里蹦出来唱他的歌。（Oscar 只在你&lt;em&gt;清空&lt;/em&gt;废纸篓时才会唱歌。）甚至在初代 AppZapper 还是新东西的时候，The Grouch 就已经显得老古董了。但 AppZapper 3000 带回了那种乐趣——同时还确实很实用。而 Mac 在其历史上从未像现在这样需要新的界面乐趣。把一款卸载工具做成以极其精细的 3D 激光枪为界面，是不是绝对荒谬又毫无必要？他妈的一点没错。&lt;/p&gt;
+&lt;p&gt;如果你骨子里还有一点爱玩的心，你就应该&lt;a href="https://appzapper.com/"&gt;看看 AppZapper 3000&lt;/a&gt;。它可以免费下载，并提供免费试用。许可证价格为：单用户 18 美元，5 用户家庭包 29 美元，25 台 Mac 企业许可证 99 美元。一次性购买，不是订阅。Sarner 很贴心地为 DF 读者创建了一个八折优惠码，有效期到下周一：&lt;strong&gt;DARING&lt;/strong&gt;。这不是赞助。我分享这个优惠码（并撰写这篇文章），纯粹是因为我很高兴看到 Mac 上注入了如此急需的纯粹乐趣。&lt;/p&gt;
 &lt;hr/&gt;
 &lt;ol&gt;
 &lt;li id="fn1-2026-09-23"&gt;
@@ -53,17 +61,4 @@
 &lt;p&gt;我喜欢&lt;a href="https://daringfireball.net/misc/2026/09/muse.png"&gt;Muse的标志/图标&lt;/a&gt;。它既是一个显而易见的“M”，同时又&lt;em&gt;不是&lt;/em&gt;一个“M”。它友好但不失严肃。&lt;/p&gt;
 &lt;p&gt;而且，正如Meta首席AI官Alexandr Wang今天在X（不是Threads）上指出的，&lt;a href="https://x.com/alexandr_wang/status/2102411467186401411"&gt;它看起来不像菊花&lt;/a&gt;。（然而&lt;a href="https://daringfireball.net/misc/2026/09/meta-ai-logo.png"&gt;Meta AI的标志/图标&lt;/a&gt;&lt;em&gt;确实&lt;/em&gt;有点菊花的感觉。）&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/09/22/meta-muse-hische" title="‘Meta’s Muse Logomark, Designed by Jessica Hische’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Tue, 22 Sep 2026 22:51:09 +0000</pubDate></item><item><title>Meta的新Muse AI代理读取了Jason Aten的消息数据库</title><link>https://www.inc.com/jason-aten/metas-new-muse-ai-agent-read-my-private-messages-i-never-asked-it-to/91408202</link><description>&lt;p&gt;Jason Aten 为 Inc 撰文：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;然后，就在昨天，我正在和我的播客 Primary Technology 的联合主持人 Stephen Robles 聊新款 iPhone。片刻之后，我收到了 Muse 发来的推送通知，暗示我们当时的对话可以写成一篇不错的专栏，并提出帮我整理研究材料供我撰写。它甚至标记出我编辑发来的一条消息，说周一要准备好一篇专栏。&lt;/p&gt;
-&lt;p&gt;我不仅没有要求它做那种事，而且从未允许它读取我的消息。事实上，我记得我明确选择不让它访问我的消息、日历和其他个人信息。&lt;/p&gt;
-&lt;p&gt;更奇怪的是，当我问 Muse 它是怎么知道时，所发生的事。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;就像我&lt;a href="https://www.threads.com/share/JLXMWFkcA/"&gt;在 Threads 上告诉 Aten 的那样&lt;/a&gt;，Muse 有一件事说对了：它确实给了他一个写专栏的好主意。后来，Aten 写道：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我还想明确另一件事：如果你对此的反应是，Meta 当然会这么做——毕竟它就是 Meta——那你只是在放过他们。你在把本不该正常化的行为正常化，而你不应该放过他们。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;我的回应比这要稍微复杂一些。在最高层面，这就是为什么我不在我用于生产/工作的 Mac 上运行任何来源的 AI 代理，而我的所有个人信息和通讯应用都在那些 Mac 上。如果我最终真这么做了，我会极其仔细地审视我授予它们的权限。&lt;/p&gt;
-&lt;p&gt;但在第二个层面，我确实认为“Meta 当然会这么做”。如果今天我要在自己的个人 Mac 上运行 AI 代理，Meta 的会是我最后才会选择的之一。他们就是谚语里的蝎子，而&lt;a href="https://en.wikipedia.org/wiki/The_Scorpion_and_the_Frog"&gt;我们是青蛙&lt;/a&gt;。我确实对 Muse 很好奇，可能很快就会试试它——但我会在一台没有我大部分数据的机器上试。这不是“放过他们”——这是让 Meta 留在钩子上，而他们本就该在那里。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/09/22/aten-muse" title="Permanent link to ‘Meta’s New Muse AI Agent Read Jason Aten’s Messages Database’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Tue, 22 Sep 2026 21:26:24 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 22 Sep 2026 22:51:09 +0000</pubDate></item></channel></rss>
