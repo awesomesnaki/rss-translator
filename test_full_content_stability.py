@@ -99,6 +99,38 @@ def test_content_store_retention():
     assert list(store.to_json()) == ['fresh']
 
 
+class FakeResponse:
+    def __init__(self, raw, content_type='text/html'):
+        self.content = raw
+        self.headers = {'content-type': content_type}
+        self.apparent_encoding = 'Windows-1252'    # charset_normalizer 猜错的那种情况
+
+
+ZH = '<p>#1 DaBingShui：黄道益活络油</p><p>#2 QAQGan：港版红米，好像有 esim 功能</p>'
+
+
+def test_utf8_page_is_not_decoded_as_cp1252():
+    # V2EX 乱码的根因：apparent_encoding 把 UTF-8 页面猜成 Windows-1252
+    assert T.decode_html(FakeResponse(ZH.encode('utf-8'))) == ZH
+    assert T.decode_html(FakeResponse(ZH.encode('gbk'), 'text/html; charset=GBK')) == ZH
+
+
+def test_mojibake_detected():
+    garbled = ZH.encode('utf-8').decode('cp1252', errors='replace')
+    assert T.looks_mojibake(garbled)
+    assert T.looks_mojibake("Anthropicâ€™s platform, Claudeâ€™s prior, Youâ€™ll have")
+    assert not T.looks_mojibake(ZH)
+    assert not T.looks_mojibake('<p>Café, naïve, déjà vu — “smart quotes” and €5 at 20°C.</p>')
+
+
+def test_mojibake_snapshot_is_purged():
+    # 乱码比原文长三倍，不清掉的话正确正文会被当成「明显变短」挡住，乱码锁死在快照里
+    garbled = ZH.encode('utf-8').decode('cp1252', errors='replace')
+    store = T.ContentStore({URL: {'c': garbled, 'i': '', 't': '2099-01-01', 'p': '', 'n': 0}})
+    content, _ = T.stable_full_content(URL, ZH, None, store)
+    assert content == ZH
+
+
 if __name__ == '__main__':
     tests = [v for k, v in sorted(globals().items()) if k.startswith('test_')]
     for t in tests:

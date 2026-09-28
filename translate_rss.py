@@ -130,6 +130,37 @@ FULL_CONTENT_SHRINK_LIMIT = 0.8
 # 完整版和半截版之间来回翻，每翻一次就白翻译一遍。
 FULL_CONTENT_SHRINK_CONFIRMATIONS = 3
 
+# 抓取的网页按错误编码解码（UTF-8 字节被当成 cp1252）会变成「é»„é“ç›Š」「â€™」这种乱码。
+# 以前无条件用 requests 的 apparent_encoding（charset_normalizer 猜编码），它会把一些
+# 明明是 UTF-8 的页面猜成 Windows-1252，V2EX / 蓝点网 / testingcatalog 都中过招。
+# 乱码比原文长得多（一个汉字变三个字符），之后抓到正确正文反而会被 stable_full_content
+# 当成「明显变短 = 抓取降级」挡掉，乱码就被锁死在 content_cache.json 里直到过期。
+_MOJIBAKE_LEAD = bytes(range(0xe0, 0xf0)).decode('cp1252')                    # 三字节 UTF-8 首字节（汉字、中文标点、’ “ ” 等）
+_MOJIBAKE_CONT = bytes(range(0x80, 0xc0)).decode('cp1252', errors='replace')  # 续字节，cp1252 未定义的变成 �
+MOJIBAKE_PATTERN = re.compile(f'[{re.escape(_MOJIBAKE_LEAD)}][{re.escape(_MOJIBAKE_CONT)}]{{2}}')
+# 正常文字里几乎不会出现这种三连（法语等偶尔有「à + 不换行空格 + «」），给点余量
+MOJIBAKE_MIN_HITS = 3
+
+def looks_mojibake(text):
+    return bool(text) and len(MOJIBAKE_PATTERN.findall(text)) >= MOJIBAKE_MIN_HITS
+
+def decode_html(resp):
+    """把响应正文解码成文字。能按 UTF-8 严格解开就是 UTF-8（GBK 等其他编码的中文几乎不可能
+    恰好是合法 UTF-8）；否则信 Content-Type 里声明的 charset；都没有才让 charset_normalizer 猜。"""
+    raw = resp.content
+    try:
+        return raw.decode('utf-8')
+    except UnicodeDecodeError:
+        pass
+    declared = requests.utils.get_encoding_from_headers(resp.headers)
+    # 没写 charset 的 text/* 响应，requests 按 RFC 默认给 ISO-8859-1，这个不算数
+    if declared and 'charset' in resp.headers.get('content-type', '').lower():
+        try:
+            return raw.decode(declared, errors='replace')
+        except LookupError:
+            pass
+    return raw.decode(resp.apparent_encoding or 'utf-8', errors='replace')
+
 class ContentStore:
     """fetch_full_content 抓回来的正文快照，key 为文章链接。
 
@@ -146,6 +177,8 @@ class ContentStore:
         self._store = {}
         for k, v in (data or {}).items():
             if isinstance(v, dict) and 'c' in v:
+                if looks_mojibake(v['c']):
+                    continue    # 历史上按错误编码解码的正文，丢掉让下次重新抓（见 looks_mojibake）
                 self._store[k] = {'c': v['c'], 'i': v.get('i', ''), 't': v.get('t', ''),
                                   'p': v.get('p', ''), 'n': v.get('n', 0)}
 
@@ -641,15 +674,18 @@ def fetch_full_article(url):
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
         })
         resp.raise_for_status()
-        resp.encoding = resp.apparent_encoding
+        html = decode_html(resp)
 
-        if looks_blocked(resp.text):
+        if looks_blocked(html):
             print(f"  抓取被拦截（Cloudflare/WAF），当作抓取失败: {url}")
+            return None, None
+        if looks_mojibake(html):
+            print(f"  页面解码出乱码，当作抓取失败: {url}")
             return None, None
 
         # V2EX 帖子用专用解析，避免 readability 乱排版
         if 'v2ex.com/t/' in url:
-            content = extract_v2ex_content(resp.text)
+            content = extract_v2ex_content(html)
             if content:
                 return content, None
 
@@ -657,13 +693,13 @@ def fetch_full_article(url):
         # 去掉作者卡片/打赏/版权/相关文章等 readability 会抓进来的噪音。
         # 不返回封面图：该博客 og:image 常是站点头像而非正文图，只要正文内容
         if 'blog.zhheo.com' in url:
-            content = extract_zhheo_content(resp.text)
+            content = extract_zhheo_content(html)
             if content:
                 return content, None
 
-        cover = extract_cover_image(resp.text)
+        cover = extract_cover_image(html)
 
-        doc = Document(resp.text)
+        doc = Document(html)
         content = doc.summary()
         if content and content.strip():
             # 确认有真正的文字内容，而不只是空的 HTML 标签壳子
