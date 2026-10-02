@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>V2EX-最热主题</title><link>https://www.v2ex.com/</link><description>V2EX-最热主题 - Powered by RSSHub</description><language>zh-CN</language><lastBuildDate>Fri, 02 Oct 2026 10:03:47 +0000</lastBuildDate><item><title>你更相信门诊医生还是 AI？</title><link>https://www.v2ex.com/t/1246146</link><description>&lt;p&gt;当门诊医生的说法和 AI 的说法不一致时，你更相信谁？&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>V2EX-最热主题</title><link>https://www.v2ex.com/</link><description>V2EX-最热主题 - Powered by RSSHub</description><language>zh-CN</language><lastBuildDate>Fri, 02 Oct 2026 13:42:13 +0000</lastBuildDate><item><title>做了个网盘，同一份文件可以由一万个人分摊存储费</title><link>https://www.v2ex.com/t/1246174</link><description>&lt;p&gt;做了一个网盘 Vorax Cloud ，核心功能是：同一份文件被多人保存时，只存一份，存储费由大家平摊。&lt;/p&gt;
+&lt;p&gt;存一批 1TB 的文件，原本每月存储费是 $15 ，如果有一万个人保存，每个人分摊到的这批文件的存储费就是 $0.0015/月。
+另外也支持 WebDAV ，以及绑定自己的域名公开访问文件。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://voraxcloud.com" rel="nofollow"&gt;https://voraxcloud.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;底层存储用的 S3 ，手上有一些想和朋友一起共享资源的文件可以体验一下。到 &lt;a href="https://www.producthunt.com/products/vorax-cloud?launch=vorax-cloud" rel="nofollow"&gt;https://www.producthunt.com/products/vorax-cloud?launch=vorax-cloud&lt;/a&gt; 可以领免费三个月的 geek 会员。希望大家能免费体验一下&lt;/p&gt;
+&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;#1 abersheeran&lt;/strong&gt;：上一个帖子很多回复，我想了一下应该是我没介绍清楚核心功能，所以重发一个。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#2 choury&lt;/strong&gt;：和 ipfs 区别？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#3 kulove&lt;/strong&gt;：网盘这个品类 很难做 大公司都保证不了持续运营 个人怎么保证呢&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#4 abersheeran&lt;/strong&gt;：@&lt;a href="/member/choury"&gt;choury&lt;/a&gt; ipfs 太专业了，而且需要用的人自己 pin 文件。这个只需要付订阅费和用，剩下的都不需要考虑。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#5 abersheeran&lt;/strong&gt;：@&lt;a href="/member/kulove"&gt;kulove&lt;/a&gt; 大公司不能保证持续运营的原因正是因为长期的低定价建立在赌大部分用户会存相同的文件之上，一旦用户存的私有文件比例超过一个阈值，那么他们就会亏损。而 voraxcloud 定价设计上，只要有用户存了文件，这个服务就能赚钱，唯一亏本的可能就是硬盘持续涨价导致上游 s3 大幅度涨价。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#6 xndeye&lt;/strong&gt;：如果不考虑监管问题的话，可以做成网赚模式鼓励分享也可以裂变推广&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#7 abersheeran&lt;/strong&gt;：@&lt;a href="/member/xndeye"&gt;xndeye&lt;/a&gt; 没有考虑做很大，能服务一批有同样存储需求的用户就可以了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#8 phrack&lt;/strong&gt;：中心化 pt&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#9 Sauryer&lt;/strong&gt;：计费方式有点复杂的样子&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#10 abersheeran&lt;/strong&gt;：@&lt;a href="/member/phrack"&gt;phrack&lt;/a&gt; 是的。类似的概念。有没有兴趣去 producthunt 领三个月会员体验一下？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#11 abersheeran&lt;/strong&gt;：@&lt;a href="/member/Sauryer"&gt;Sauryer&lt;/a&gt; 文件不分享出去，那 15 美金/TB/月。如果分享出去，有多少人和你一起持有这个文件，就多少人一起分担这个价格。其实不太复杂？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#12 FabricPath&lt;/strong&gt;：没看懂和网盘的区别是什么，在超大规模的用户量的情况下，同样约等于每个人都是在为自己那份存储买单，你的方案只是把底层计费方式暴露出来了，用户在使用的时候需要考虑的东西更多了，也许体验还不如网盘月费包干。&lt;br/&gt;通过“用户协议”干掉上传纯私有文件的那部分“刺头”用户就行了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#13 Cabana&lt;/strong&gt;：这个费用要怎么算呢？保存过一次就需要分担么？比如我下载到本地后删掉了云端的呢？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#14 abersheeran&lt;/strong&gt;：@&lt;a href="/member/Cabana"&gt;Cabana&lt;/a&gt; 按天计费的。只从账号里过一下，也需要付最少一天的费用。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#15 prudence&lt;/strong&gt;：你这个有一个前提是很多人使用才会有性价比，但是你这又说没有考虑做的很大，那么就是文件重复率很低 有点矛盾&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#16 prudence&lt;/strong&gt;：不如把各个平台的“对接”了，然后开很多 svip ，然后存储对外下载使用&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#17 abersheeran&lt;/strong&gt;：@&lt;a href="/member/prudence"&gt;prudence&lt;/a&gt; “服务一批有同样存储需求的用户”&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#18 413420&lt;/strong&gt;：这次介绍清晰了不少，不过我还是那个观点“我会在十年之后使用你的服务，如果那时你的网盘还活着的话，目前，我会继续使用百度网盘和 iCloud”&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 02 Oct 2026 13:42:13 +0000</pubDate></item><item><title>你更相信门诊医生还是 AI？</title><link>https://www.v2ex.com/t/1246146</link><description>&lt;p&gt;当门诊医生的说法和 AI 的说法不一致时，你更相信谁？&lt;/p&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 thinkm&lt;/strong&gt;：常见病听 AI ，疑难杂症听专家&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#2 GyroZeppeli13&lt;/strong&gt;：我和楼上看法不一样，常见病可以听 ai 也可以听医生，但是疑难杂症很多时候还是需要自己上心多查资料。因为医生里面真有能力搞定疑难杂症的其实很少，如果自己没辨别能力，大概率就被混过去了。&lt;/p&gt;&lt;hr/&gt;
@@ -36,7 +59,9 @@
 &lt;p&gt;&lt;strong&gt;#33 Lanyangzhi&lt;/strong&gt;：前段时间治 HP 医生给抑酸药下的医嘱是 2 倍量，GPT 说一般不会吃这么多但也不是不行，我继续按医嘱吃，后面药不够我回去补开，他跟我说他搞错了，按照 1 倍量吃。常见病还是 AI 更准方案更新&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#34 kkwa56188&lt;/strong&gt;：治你心理问题 豆包比门诊强&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#35 Rickkkkkkk&lt;/strong&gt;：病都有逻辑的，你可以让医生把逻辑说出来。&lt;br/&gt;&lt;br/&gt;比如最简单的，开个抗生素，那是细菌感染，为什么不是病毒感染？逻辑在哪里，肯定有指标或者症状佐证。&lt;br/&gt;&lt;br/&gt;开个药，这个药通过什么药理起作用，都是很明白的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#36 wesker1999&lt;/strong&gt;：医生和医生之间差距比豆包和 claude 还大&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 02 Oct 2026 10:03:47 +0000</pubDate></item><item><title>戒短视频，碎片时间，可以干啥？</title><link>https://www.v2ex.com/t/1246122</link><description>&lt;p&gt;1 、现在各种 APP ，都把短视频 藏在里面，知乎、小红书、微信 等等，会让人刷短视频上瘾，一会儿这儿刷，一会儿那儿刷，不知不觉，几个小时过去了，刷了很无聊，不刷更无聊，一有空，就是刷短视频&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#36 wesker1999&lt;/strong&gt;：医生和医生之间差距比豆包和 claude 还大&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#37 kid2man&lt;/strong&gt;：@&lt;a href="/member/zhang666"&gt;zhang666&lt;/a&gt; 你这个回复 5 颗爱心，但是看着是对医疗误解最深得回复。&lt;br/&gt;医生系统分析，也得有原始资料去窜连印证啊，不能拿着理论就嗯往你身上比划啊。&lt;br/&gt;一定是症状和检查先行，才有足够诊断依据，而且单一症状是无法做到交叉排除的啊，还有最重要的一点，你认为和医生说了很多症状，其实就一个，例如，你说头晕、视物模糊、入睡困难、记忆力下降，实际就是神经系统改变，你说了一大堆，有效内容只有一点点，有些人连自己何时出现的症状都说不清，平时吃那些药都没数，只知道是止疼的、降压的、治内分泌的。&lt;br/&gt;说白了，系统分析的前提不存在，你提供的东西是你以为可以拿来系统分析的，实际根本素材都不支持。&lt;br/&gt;系统分析一般都只在学习理解、回顾完整病情时候，这种通常是症状+检查+治疗显效，才判定诊断，做系统回顾。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#38 nathandoge&lt;/strong&gt;：数据充足的情况下，听 ai 的&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 02 Oct 2026 10:03:47 +0000</pubDate></item><item><title>戒短视频，碎片时间，可以干啥？</title><link>https://www.v2ex.com/t/1246122</link><description>&lt;p&gt;1 、现在各种 APP ，都把短视频 藏在里面，知乎、小红书、微信 等等，会让人刷短视频上瘾，一会儿这儿刷，一会儿那儿刷，不知不觉，几个小时过去了，刷了很无聊，不刷更无聊，一有空，就是刷短视频&lt;/p&gt;
 &lt;p&gt;2 、有没有啥能代替的方法？ 满足  好奇心、有意思、不枯燥，大脑不排斥，不会上瘾的 替代方案？&lt;/p&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 EJW&lt;/strong&gt;：试试纸质书？&lt;/p&gt;&lt;hr/&gt;
@@ -62,7 +87,11 @@
 &lt;p&gt;&lt;strong&gt;#21 phatzhong24&lt;/strong&gt;：直接卸载，物理切除，微信视频号可以设置隐藏&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#22 kkwa56188&lt;/strong&gt;：戒了视频以后 第一反应不该是连忙找其他事情来替代.&lt;br/&gt;做其他事情应该是果, 不是因&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#23 dfdd1811&lt;/strong&gt;：掌阅，我已经看了好几本书了，一年看了 20 本左右，收藏的还想看的会员书已经达到了 130 本，用书券买的书已经达到了 40 本。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#24 SomeBottle&lt;/strong&gt;：试着恢复注意力，可以从耐下心来看一本书或者看篇幅较长的剧集 / 电影开始。碎片时间的话也可以下个多邻国，学学其他语言的基础语法。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 02 Oct 2026 05:28:15 +0000</pubDate></item><item><title>现在反驳型人格怎么改呀？</title><link>https://www.v2ex.com/t/1246103</link><description>&lt;p&gt;之前自己都没有在意，现在才发现好像别人说什么自己都喜欢反驳。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#24 SomeBottle&lt;/strong&gt;：试着恢复注意力，可以从耐下心来看一本书或者看篇幅较长的剧集 / 电影开始。碎片时间的话也可以下个多邻国，学学其他语言的基础语法。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#25 sculpture&lt;/strong&gt;：调教自己的短视频 APP,遇到英文视频号就点关注，刷到别的就点不感兴趣。慢慢的就能一直听英语了。感觉进步非常快，而且一点痛苦也没有&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#26 karnaugh&lt;/strong&gt;：不用一次到位，先尝试恢复自己的长时间集中注意力的能力&lt;br/&gt;&lt;br/&gt;比如玩一些游戏，一局几十分钟那种&lt;br/&gt;&lt;br/&gt;或者看看剧，给自己一个时间，想象自己在坐飞机，没网，只能找提前下好的喜欢的剧看一看&lt;br/&gt;&lt;br/&gt;或者开个小说，狠狠看一波&lt;br/&gt;&lt;br/&gt;这些做一下你都会发现和刷短视频感觉截然不同的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#27 xingkong06&lt;/strong&gt;：有能力的话，可以给有意义的开源项目做做贡献。&lt;br/&gt;例如这个：&lt;br/&gt;&lt;a href="https://github.com/nvaccess/nvda" rel="nofollow noopener" target="_blank"&gt;https://github.com/nvaccess/nvda&lt;/a&gt;&lt;br/&gt;另外也可以提升一下自己，阅读自己喜欢的书。&lt;br/&gt;还可以参加自己所在地的跑步俱乐部、志愿者协会等。&lt;br/&gt;只要参加有意义的活动，把自己的空余时间和空虚感都填满即可。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#28 chjqpmain&lt;/strong&gt;：@&lt;a href="/member/Tory12138"&gt;Tory12138&lt;/a&gt; 感觉这个很有意思，感谢分享&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 02 Oct 2026 05:28:15 +0000</pubDate></item><item><title>现在反驳型人格怎么改呀？</title><link>https://www.v2ex.com/t/1246103</link><description>&lt;p&gt;之前自己都没有在意，现在才发现好像别人说什么自己都喜欢反驳。&lt;/p&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 swordspoet&lt;/strong&gt;：学会闭嘴。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#2 413420&lt;/strong&gt;：减少人际交往，或者离开当前的圈子（如果你一直想反驳，说明和你交流的人太蠢了）&lt;/p&gt;&lt;hr/&gt;
@@ -139,35 +168,12 @@
 &lt;p&gt;&lt;strong&gt;#73 wesker1999&lt;/strong&gt;：@&lt;a href="/member/xxzhaoming"&gt;xxzhaoming&lt;/a&gt; 只靠闭嘴没用。可以试试每天只要和别人聊各种事儿，你向别人说三次：你说的对&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#74 eventlooped&lt;/strong&gt;：这是好事啊&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#75 bigwhite2&lt;/strong&gt;：最讨厌反驳型人格了，不管你说什么他都以“不是”开头，即便后面说的可能跟你表述的差不多，那为什么非要先否定别人呢？很影响交流体验，问题是这种人不少，也不觉得自己有问题&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#76 xxzhaoming&lt;/strong&gt;：@&lt;a href="/member/eventlooped"&gt;eventlooped&lt;/a&gt; 哈哈哈哈哈哈哈那就行啊&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 02 Oct 2026 03:23:27 +0000</pubDate></item><item><title>我做了一个共享网盘</title><link>https://www.v2ex.com/t/1246099</link><description>&lt;p&gt;&lt;a href="https://voraxcloud.com/" rel="nofollow"&gt;https://voraxcloud.com/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;众所周知，各大网盘都是通过一份文件只存一次来降本增效。但是对于爱存网络资源和只存自己生活照片视频的用户来说，都是收一样的钱。通过剥削只存网络资源的用户来补贴另一类用户，达成整体盈利。&lt;/p&gt;
-&lt;p&gt;所以我做了这样一个价格透明的网盘，让爱存网络资源的用户一个月只需要花 1 美金就能存几 TB 甚至几十 TB 的资源。远比任何网盘或自建 NAS 便宜。&lt;/p&gt;
-&lt;p&gt;而对于需要存自己独有文件的用户来说，200GB 每个月只需要 3 美金（大约 20 人民币），这和 iCloud 等主流网盘 200GB 档位的价格类似。但由于价格透明，这类用户在有 1TB 级别的自有文件要存储的时候，价格略微不如 iCloud 这类主流网盘。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.producthunt.com/products/vorax-cloud?launch=vorax-cloud" rel="nofollow"&gt;https://www.producthunt.com/products/vorax-cloud?launch=vorax-cloud&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;北京时间下午三点在 producthunt 上 launch ，可以领取三个月的 geek 会员优惠券。&lt;/p&gt;
-&lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-10-02 21:26:59 +08:00"&gt;2h 57m ago&lt;/span&gt;
-
-并不是什么黑产存储。正经的 s3 存储存放文件，之所以说 1 美金能存 TB 级别的文件，是建立在一群人共同存储同一批文件的情况下。比如一个珍藏的系统镜像，一万个人都存了它，那么这一万个人只需要为这一份镜像共同付 15 美金 1TB 的存储钱，分摊到每个人身上就是 0.0015 美金 1 TB 。
-
-&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;#1 413420&lt;/strong&gt;：我会在十年之后投入使用，如果那时你的网盘还活着的话，目前，我会继续使用百度网盘、夸克网盘和 icloud&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#2 win8en&lt;/strong&gt;：大公司的网盘都不靠谱，个人的网盘感觉谁都不敢用，何况还要付费&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#3 jemyzhang&lt;/strong&gt;：网络资源虽然只存一份，但贵的是带宽和流量&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#4 V2Try&lt;/strong&gt;：现在存储不是涨价了吗？1 美元能存几 T？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#5 shuiduoduo&lt;/strong&gt;：@&lt;a href="/member/V2Try"&gt;V2Try&lt;/a&gt; 共享资源&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#6 V2Try&lt;/strong&gt;：@&lt;a href="/member/shuiduoduo"&gt;shuiduoduo&lt;/a&gt; 学 123 网盘啊&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#7 xunqin&lt;/strong&gt;：容灾恢复，多节点冗余备份带来的高昂成本 带宽费用&lt;br/&gt;&lt;br/&gt;这不是私人能搞定的 ，还是放弃吧&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#8 jacketma&lt;/strong&gt;：@&lt;a href="/member/V2Try"&gt;V2Try&lt;/a&gt; 123 不是正在跑路么？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#9 Aspx&lt;/strong&gt;：前不久我 iCloud 备份的数据都给丢失了，私人的我更没信心&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#10 june4&lt;/strong&gt;：op 是啥背景这种也敢玩&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#11 wtfwc&lt;/strong&gt;：这种网盘平台要赚钱，就得去各路色 XXX 论坛推广，在 V2 推是不行的&lt;br/&gt;就像曾经跑路的 yunfiledown 网盘，在我精虫上脑、抵抗力最弱的时候，为了下载一些学习资料，被迫充了 2 年 VIP 年费&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#12 MindMindMax&lt;/strong&gt;：你用了 cloudflare ， 然而免费层级的 cf 服务是不允许做资源分享的，违反 TOS 不自知了。所以 OP 误以为带宽成本很低吧。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#13 Tory12138&lt;/strong&gt;：这个点子不错，如果能和 telegram 一些群组结合起来大有可为&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#14 humbass&lt;/strong&gt;：市场上 iCloud 是最便宜的，低于这个价格，应该都是赚了什么空子，随时有倒闭的风险&lt;br/&gt;私人做的网盘，还得有加密的机制，本地没有客户端加密后上传，一般人也不敢随便放东西。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#15 jackOff&lt;/strong&gt;：目前国内靠谱的是百度网盘，毕竟熬死了 360 ，迅雷，国外的选择太多了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#16 abersheeran&lt;/strong&gt;：@&lt;a href="/member/humbass"&gt;humbass&lt;/a&gt; 可能我的表述不准确，这不是我私人做的。而且我列了价格对比，如果只存自己的私人文件其实不比 iCloud 便宜，但如果是一群人共享一批资源，那就会比任何网盘都便宜。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#17 abersheeran&lt;/strong&gt;：@&lt;a href="/member/jackOff"&gt;jackOff&lt;/a&gt; 是的。这也是美国的公司，选择的一种。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 02 Oct 2026 02:56:14 +0000</pubDate></item><item><title>什么样的 Google 账号才能订阅 Gemini？</title><link>https://www.v2ex.com/t/1246097</link><description>&lt;p&gt;想订阅 Gemini ，但一直提示"当前地区不支持"。我已经把账号的国家/地区改成美国了，还是不行。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#76 xxzhaoming&lt;/strong&gt;：@&lt;a href="/member/eventlooped"&gt;eventlooped&lt;/a&gt; 哈哈哈哈哈哈哈那就行啊&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#77 xxzhaoming&lt;/strong&gt;：别说话了 都睡觉吧这么晚了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#78 xxzhaoming&lt;/strong&gt;：@&lt;br/&gt;@&lt;a href="/member/lonely701"&gt;lonely701&lt;/a&gt; 其实你这么说是对的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#79 Planarians&lt;/strong&gt;：一个人经常用一个模式代表这个模式对他有好处 你想改得先知道这个模式带给了你哪些好处和坏处 为什么你会这样 然后才能谈改变的事&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#80 Bapper&lt;/strong&gt;：模仿 ai 说话就行了，上来先肯定，然后“补充”，然后不是而是，然后反问&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#81 shiny&lt;/strong&gt;：能够观照内心其实是个很好的开始&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 02 Oct 2026 03:23:27 +0000</pubDate></item><item><title>什么样的 Google 账号才能订阅 Gemini？</title><link>https://www.v2ex.com/t/1246097</link><description>&lt;p&gt;想订阅 Gemini ，但一直提示"当前地区不支持"。我已经把账号的国家/地区改成美国了，还是不行。&lt;/p&gt;
 &lt;p&gt;请问需要满足什么条件的 Google 账号才能正常订阅？打算在闲鱼上买那种便宜的订阅，想先确认一下自己的账号能不能用。啊啊啊啊啊啊啊啊&lt;/p&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 osilinka&lt;/strong&gt;：估计也需要把支付信息也修改了才能成功&lt;br/&gt;&lt;br/&gt;目前印度应该可以的&lt;/p&gt;&lt;hr/&gt;
@@ -246,7 +252,12 @@ Supplement 1  ·  &lt;span title="2026-10-02 21:26:59 +08:00"&gt;2h 57m ago&lt
 &lt;p&gt;&lt;strong&gt;#28 Just4L&lt;/strong&gt;：太好了，我 5 号重置，正准备用重置卡来着&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#29 XTTX&lt;/strong&gt;：@&lt;a href="/member/1874w"&gt;1874w&lt;/a&gt; 你不会计算吗? 重置=推迟正常的重置日 7 天, 平均一天就是 13%. 如果你 4 天后正常重置, 你还剩 70. 你亏不亏?&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#30 wizChen&lt;/strong&gt;：4 号 5 号的卡都没用。。。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#31 q8515620&lt;/strong&gt;：@&lt;a href="/member/licoycn"&gt;licoycn&lt;/a&gt; 你这时间不对，tibo 说的是 PST ，但实际上应该是 PDT ，所以是凌晨 1 点，不是 2 点&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 02 Oct 2026 02:32:12 +0000</pubDate></item><item><title>看重隐私买什么车好？</title><link>https://www.v2ex.com/t/1246094</link><description>&lt;p&gt;不想买老年机，想买智能机。没必要太智能，稍微智能即可&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#31 q8515620&lt;/strong&gt;：@&lt;a href="/member/licoycn"&gt;licoycn&lt;/a&gt; 你这时间不对，tibo 说的是 PST ，但实际上应该是 PDT ，所以是凌晨 1 点，不是 2 点&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#32 axwz88&lt;/strong&gt;：蹬完了还没重置，天塌了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#33 mx2dream&lt;/strong&gt;：从傍晚 99%蹬到现在 0%，麻了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#34 volvo007&lt;/strong&gt;：凌晨三点了，重置呢😂&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#35 lizhenjia569&lt;/strong&gt;：妈的 到点不重置 白害我熬夜&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#36 nakun233&lt;/strong&gt;：是 4 号凌晨 1 点，被误导了，GROK 和 GEMINI 都答对&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 02 Oct 2026 02:32:12 +0000</pubDate></item><item><title>看重隐私买什么车好？</title><link>https://www.v2ex.com/t/1246094</link><description>&lt;p&gt;不想买老年机，想买智能机。没必要太智能，稍微智能即可&lt;/p&gt;
 &lt;p&gt;但又不行被过多收集隐私信息，更不想被远程控制&lt;/p&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 Perry&lt;/strong&gt;：这还用问么？我们都知道这个问题的答案是不是&lt;/p&gt;&lt;hr/&gt;
@@ -276,7 +287,9 @@ Supplement 1  ·  &lt;span title="2026-10-02 21:26:59 +08:00"&gt;2h 57m ago&lt
 &lt;p&gt;&lt;strong&gt;#25 cameco&lt;/strong&gt;：油车&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#26 so898&lt;/strong&gt;：给楼上无脑特斯拉的一点震撼：在国内销售的新能源汽车必须实时上报车辆位置和行驶状态，特斯拉也不例外。去天津港找关系弄纯美国特斯拉应该没有这个机制，当然数据还是会上报给保障用户隐私，很安全的美国厂商特斯拉的。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#27 CloudMx&lt;/strong&gt;：八手桑塔纳&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#28 iorilu&lt;/strong&gt;：要隐私当然只能油车&lt;br/&gt;&lt;br/&gt;电车那个不是 app 摄像头永久联网控制的&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 02 Oct 2026 02:29:40 +0000</pubDate></item><item><title>电脑价格什么时候能回到冰点？日常轻度使用，现在入手还是再等等？</title><link>https://www.v2ex.com/t/1246090</link><description>&lt;p&gt;最近想换台电脑，但看网上普遍说要到 2027 年底甚至 2028 年价格才会回落，问 AI 也说大概 2028 年才有冰点价。想听听各位的看法。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#28 iorilu&lt;/strong&gt;：要隐私当然只能油车&lt;br/&gt;&lt;br/&gt;电车那个不是 app 摄像头永久联网控制的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#29 toadloading&lt;/strong&gt;：一项研究由 Northeastern University 研究团队与 Consumer Reports 合作完成，题为 《 Automatic Transmission: An Empirical Study of Data Privacy in the Connected Vehicle Ecosystem 》，将发表于 2026 年 ACM Internet Measurement Conference （ IMC ’26 ）。研究团队称，这是首个针对联网汽车生态系统数据隐私进行的大规模实证测量研究。&lt;br/&gt;&lt;br/&gt;研究人员在 2024 年 10 月至 2025 年 8 月期间，对美国市场 19 个品牌的 21 辆较新车型以及与车辆实际配对的 30 款官方配套手机 App 进行了网络流量测试。他们通过 Wi-Fi 流量捕获、受控蜂窝网络实验、法拉第屏蔽环境以及 App 中间人流量分析等方法，研究车辆及 App 向谁发送数据，以及发送哪些个人信息。&lt;br/&gt;&lt;br/&gt;主要发现：&lt;br/&gt;&lt;br/&gt;- **19/21 辆汽车**通过 Wi-Fi 联系了至少一个第三方域名，其中包括已知的广告和追踪服务。&lt;br/&gt;- **7/30 款配套 App**向与广告或追踪相关的第三方发送了敏感标识信息，包括**车辆识别码（ VIN ）、电子邮件地址、电话号码或精确位置**。&lt;br/&gt;- 将车辆与配套 App 结合使用后，车主接触到的广告/追踪公司数量**平均约增加一倍**；部分案例新增了 **20 多个**追踪相关第三方。&lt;br/&gt;- 不同品牌甚至同一制造商的不同车型之间，数据传输行为存在明显差异，使消费者很难判断自己的数据实际流向何处。&lt;br/&gt;- 研究人员认为，**制造商公开披露的隐私信息与实际联网生态中的数据共享情况之间存在明显差距**，消费者对数据离开车辆或 App 后的使用方式缺乏透明度和实际控制。&lt;br/&gt;- 在研究团队向厂商披露发现后，**Honda 修改了相关数据收集做法**，停止向一个与用户追踪有关的第三方发送精确地理位置。&lt;br/&gt;&lt;br/&gt;结论：&lt;br/&gt;&lt;br/&gt;现代联网汽车实际上构成了一个由车辆、手机 App 、汽车制造商、技术供应商以及广告和追踪服务共同组成的数据生态系统。研究指出，仅阅读汽车厂商的隐私政策不足以了解真实的数据流向，因此需要更高的数据透明度、持续的独立测量以及更严格的隐私审查。&lt;br/&gt;&lt;br/&gt;**参考资料：** [Northeastern University – Automatic Transmission 项目主页]( &lt;a href="https://automatictransmission.khoury.northeastern.edu/?utm_source=chatgpt.com)；" rel="nofollow noopener" target="_blank"&gt;https://automatictransmission.khoury.northeastern.edu/?utm_source=chatgpt.com)；&lt;/a&gt;[论文与完整引用信息]( &lt;a href="https://automatictransmission.khoury.northeastern.edu/paper.html?utm_source=chatgpt.com)。论文：Zagson" rel="nofollow noopener" target="_blank"&gt;https://automatictransmission.khoury.northeastern.edu/paper.html?utm_source=chatgpt.com)。论文：Zagson&lt;/a&gt;, N. et al. (2026), *Automatic Transmission: An Empirical Study of Data Privacy in the Connected Vehicle Ecosystem*, IMC ’26, DOI: 10.1145/3777912.3839795 。[Automatic Transmission]( &lt;a href="https://automatictransmission.khoury.northeastern.edu/paper.html" rel="nofollow noopener" target="_blank"&gt;https://automatictransmission.khoury.northeastern.edu/paper.html&lt;/a&gt;)&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#30 toadloading&lt;/strong&gt;：Damn.. V2EX 的回复不支持 markdown ？&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 02 Oct 2026 02:29:40 +0000</pubDate></item><item><title>电脑价格什么时候能回到冰点？日常轻度使用，现在入手还是再等等？</title><link>https://www.v2ex.com/t/1246090</link><description>&lt;p&gt;最近想换台电脑，但看网上普遍说要到 2027 年底甚至 2028 年价格才会回落，问 AI 也说大概 2028 年才有冰点价。想听听各位的看法。&lt;/p&gt;
 &lt;p&gt;我基本不玩游戏，平时主要是看 B 站视频、看直播，偶尔刷刷 YouTube 。需求大概是这些：&lt;/p&gt;
 &lt;p&gt;系统流畅，开 20 多个标签页不卡
 看 4K 视频和直播不卡
@@ -315,7 +328,9 @@ Supplement 1  ·  &lt;span title="2026-10-02 21:26:59 +08:00"&gt;2h 57m ago&lt
 &lt;p&gt;&lt;strong&gt;#30 Acirno&lt;/strong&gt;：4 千多搞台 14400 + ddr4 32G 内存+1T 固态的机子，然后用核显或者整个老显卡先撑着？ 还能内存 16G ，硬盘 512 再省点。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#31 feather12315&lt;/strong&gt;：5 年后吧&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#32 mooyo&lt;/strong&gt;：2031 年&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#33 Rickkkkkkk&lt;/strong&gt;：你这个需求买个 ipad 还能抱在床上用&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 02 Oct 2026 02:05:10 +0000</pubDate></item><item><title>我说一句，中转站降智的都是撒流氓，全网首家主打包不降智的源头中转站，实时监测降智情况，倍率低至 0.1x，主打稳如老狗。</title><link>https://www.v2ex.com/t/1246088</link><description>我说一句，中转站降智的都是撒流氓，不是他们做不好，而是这个成本有点高，技术也复杂。&lt;br/&gt;&lt;br/&gt;降智流口水的模型站不但伤你的钱袋，还会磨光你的好脾气。&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;我们是 &lt;a href="https://www.jiji.cc" rel="nofollow noopener" target="_blank"&gt;https://www.jiji.cc&lt;/a&gt;  全网首家主打包不降智的源头中转站，首家主打 Codex 不降智的中转站。&lt;br/&gt;&lt;br/&gt;针对官方的调控降智机制，我们的焚诀黑科技，能有效的解决各种模型降智，流口水弱智等现象，让天才程序员 100%满血航行无阻。实时保持指哪打哪，满血纯血能打的状态。&lt;br/&gt;&lt;br/&gt;回复赠送测试额度，降智包退。
+&lt;p&gt;&lt;strong&gt;#33 Rickkkkkkk&lt;/strong&gt;：你这个需求买个 ipad 还能抱在床上用&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#34 xxzhaoming&lt;/strong&gt;：@&lt;a href="/member/Rickkkkkkk"&gt;Rickkkkkkk&lt;/a&gt; 晚上也逛了逛闲鱼看看 ipad&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#35 iovekkk&lt;/strong&gt;：真正卖电脑配件的，其实比你更想回到以前的市场，弄懂电脑硬件涨价的逻辑，就好理解了。&lt;br/&gt;现在涨价最厉害的就是内存、固态、显卡。&lt;br/&gt;拿显卡厂商举例吧，华硕/微星/技嘉这些，他们的显卡都是要从英伟达那里先买芯片再拿回来做成显卡。&lt;br/&gt;假设没涨价之前，他们一年卖 10 万张卡，赚回来的利润，足够支付工厂运营、人员工资这类的成本，还有结余。&lt;br/&gt;但是现在英伟达没法给他们足量供应芯片了，现在一年只能给他们 5 万芯片甚至更少。&lt;br/&gt;那么他们一年最多也就只能卖这么多张显卡。但是工厂运营成本，人员工资还是那些。&lt;br/&gt;成本几乎没变，那怎么办呢？只能涨价。原本一张显卡赚 1000 块，一年卖 10 万张，赚一个小目标。&lt;br/&gt;现在只能卖 5 万张卡甚至更少了，但是还想赚一个小目标，那就只能一张卡赚 2000 块才行，于是就涨价了。&lt;br/&gt;这只是一个简单的举例，实际的情况要比这复杂，但是逻辑就是这么个逻辑。&lt;br/&gt;&lt;br/&gt;什么时候英伟达能再次大量供货消费级芯片，那些内存厂商能大量供应消费级内存颗粒，市场就会再次回到从前的状态。&lt;br/&gt;但是什么时候呢？现在几个大国都把 AI 当成了国家战略，生死命脉，AI 泡沫不可能这么快就破的。&lt;br/&gt;2027 年 2028 年我都不觉得能回得去。2030 年之后再说吧。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 02 Oct 2026 02:05:10 +0000</pubDate></item><item><title>我说一句，中转站降智的都是撒流氓，全网首家主打包不降智的源头中转站，实时监测降智情况，倍率低至 0.1x，主打稳如老狗。</title><link>https://www.v2ex.com/t/1246088</link><description>我说一句，中转站降智的都是撒流氓，不是他们做不好，而是这个成本有点高，技术也复杂。&lt;br/&gt;&lt;br/&gt;降智流口水的模型站不但伤你的钱袋，还会磨光你的好脾气。&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;我们是 &lt;a href="https://www.jiji.cc" rel="nofollow noopener" target="_blank"&gt;https://www.jiji.cc&lt;/a&gt;  全网首家主打包不降智的源头中转站，首家主打 Codex 不降智的中转站。&lt;br/&gt;&lt;br/&gt;针对官方的调控降智机制，我们的焚诀黑科技，能有效的解决各种模型降智，流口水弱智等现象，让天才程序员 100%满血航行无阻。实时保持指哪打哪，满血纯血能打的状态。&lt;br/&gt;&lt;br/&gt;回复赠送测试额度，降智包退。
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 darkcloudlab&lt;/strong&gt;：领个鸡蛋谢谢：dark&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#2 RockerXH&lt;/strong&gt;：谢谢老板鸡蛋，ID：5538&lt;/p&gt;&lt;hr/&gt;
@@ -340,4 +355,5 @@ Supplement 1  ·  &lt;span title="2026-10-02 21:26:59 +08:00"&gt;2h 57m ago&lt
 &lt;p&gt;&lt;strong&gt;#21 default996&lt;/strong&gt;：用户名：default996&lt;br/&gt;谢谢老板&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#22 RockerXH&lt;/strong&gt;：用户名：RockerHX&lt;br/&gt;谢谢老板&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#23 timespy&lt;/strong&gt;：领鸡蛋：timespy&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#24 vcc&lt;/strong&gt;：用户名  rrok  感谢老板&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 02 Oct 2026 01:31:23 +0000</pubDate></item></channel></rss>
+&lt;p&gt;&lt;strong&gt;#24 vcc&lt;/strong&gt;：用户名  rrok  感谢老板&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#25 wenjiu&lt;/strong&gt;：用户名 wenjiu19 谢谢老板&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Fri, 02 Oct 2026 01:31:23 +0000</pubDate></item></channel></rss>

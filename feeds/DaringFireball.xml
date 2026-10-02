@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Fri, 02 Oct 2026 00:06:56 +0000</lastBuildDate><item><title>洋基队两场比赛横扫波士顿，总比分18比2</title><link>https://www.nytimes.com/athletic/7648172/2026/09/30/yankees-beat-red-sox-mlb-wild-card-series/</link><description>&lt;p&gt;昨晚第六局，洋基队仅以2比0领先，红袜队一垒手威尔森·康特雷拉斯轰出一支全垒打，将比分追成2比1。康特雷拉斯决定&lt;a href="https://x.com/FoulTerritoryTV/status/2105479146830770481"&gt;&lt;em&gt;漫步&lt;/em&gt;绕垒&lt;/a&gt;。棒球之神对那种蠢行可不会给好脸色。&lt;/p&gt;
-&lt;p&gt;下一局，康特雷拉斯没有集中注意力，他的懒散让一名洋基球员在被暴投三振后仍能上垒。由此掀起的攻势最终造成了比分被彻底拉开。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Fri, 02 Oct 2026 20:40:15 +0000</lastBuildDate><item><title>★ 苹果将进一步收紧MacOS上的完全磁盘访问权限，以应对失控的代理式AI应用</title><link>https://daringfireball.net/2026/10/apple_full_disk_access</link><description>&lt;p&gt;苹果开发者新闻，在一篇题为“&lt;a href="https://developer.apple.com/news/?id=p6zjojqw"&gt;macOS中完全磁盘访问权限的更新&lt;/a&gt;”的文章中表示：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我们为开发者提供强大的API，使他们能够为苹果产品构建出色的应用功能，并辅以一系列旨在保护用户隐私数据的控制措施。完全磁盘访问权限在很大程度上绕过了这些控制，以便备份应用能在Mac上正常运行。一些开发者正在以可能将用户置于风险之中的方式使用完全磁盘访问权限，在用户并不完全知情和理解的情况下，暴露其系统上的一切——包括文件、邮件、信息，甚至浏览历史。对于通讯类应用，这也可能危及与用户通信的人的隐私。&lt;/p&gt;
+&lt;p&gt;今后，我们将引入额外的控制措施，确保真正希望授予某个应用这种特殊级别访问权限的用户，只能通过非常明确的用户操作来实现。解决这一问题至关重要。随着AI代理变得越来越强大和自主，这种级别的访问权限所带来的风险将大幅增加。我们致力于确保用户在授予此类访问权限之前清楚了解这些风险，以便他们能够就自己的数据和隐私做出明智的决定。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;他们没有点名，甚至没有提到“代理式AI”，但显然这是对Meta Muse（参见&lt;a href="https://x.ai/news/introducing-grok-bot"&gt;Jason Aten的倒霉经历&lt;/a&gt;，Muse访问了Aten的iMessages）、&lt;a href="https://x.ai/news/introducing-grok-bot"&gt;Grok Bot&lt;/a&gt;、Claude、Dots以及其他类似产品的回应。这就是为什么我们不能拥有美好的东西。&lt;/p&gt;
+&lt;p&gt;我真的很担心苹果会把完全磁盘访问权限锁得有多严。我在好几个应用中使用它，没有它这些应用就无法正常运行，如果我每次它们执行操作时都需要手动授权，那将受到严重妨碍。&lt;/p&gt;&lt;p&gt;但在我们这些 Mac 高级用户在库比蒂诺暴动之前，我们应该注意到，我们根本不知道有多少不太懂技术的 Mac 用户正在打电话给 Apple，并在零售店的天才吧排队，抱怨 Muse 和其他这些代理在 Mac 上肆意妄为，违背他们的意愿，在说服这些用户授予它们访问权限之后。对于我们当中能力最强的用户来说，Mac 多年来似乎已经“过于封闭”，这是一种合理的挫败感。但现在全球大约有 1.5 亿 Mac 用户。他们中的大多数在技术上都并不精通——其中大多数人尤其如此。他们中的许多人有着无法由那个被称为 iPadOS 的&lt;a href="https://daringfireball.net/2026/07/whats_good_for_the_ios_goose_is_often_not_good_for_the_macos_gander"&gt;婴儿电脑&lt;/a&gt;操作系统满足的技术需求。对他们中的许多人来说，这可能只是运行真正版 Google Chrome 网络浏览器的能力——甚至是桌面版 Safari。因此，有数千万人需要使用 Mac 来做 iPad 上无法完成的事情，但他们完全不明白，比如说，授予 Muse 完全磁盘访问权限意味着什么。然后他们认为，Muse 突然能够读取他们私密的 iMessage 对话，是 &lt;em&gt;Apple 的错&lt;/em&gt;。&lt;/p&gt;
+&lt;p&gt;在 iOS（及其平板变体 iPadOS）上，你可以对 Muse 这类应用请求的每一件事都说“好”，而 Muse 仍然无法读取你的电子邮件或来自 iMessage 或 WhatsApp 的端到端加密消息。没有任何权限级别会授予第三方应用此类权限。（欧盟希望根据 DMA 强制 Apple 允许这样做。）MacOS 不是那样。你仍然需要授予应用此类权限，但如果你对 Muse 这类应用在 Mac 上请求的所有事项都说“好”，你实际上就是授予该应用访问你启动磁盘上几乎所有内容的权限。仍然有一些它看不到的东西，但不多。许多非技术型 Mac 用户不理解这一点，也不能指望他们理解这一点。他们只是错误地认为，Apple 会保护他们，不让他们允许任何真正危险的事情，因为他们的 iPhone（和/或 iPad）就是这样运作的。于是他们只是对 Muse 的每一个访问请求都点击“好”，并假定自己仍然在很大程度上受到保护。&lt;/p&gt;
+&lt;p&gt;希望 Apple 心中有一个针对这种情况的解决方案，既能让懂行的专业用户确认同意一个足够吓人的警告，并将他们的 Mac 置于与我们今天类似的状态。我担心。减轻我最严重恐惧的是，我知道 Apple 内部的每一位技术用户都需要将他们的 Mac 作为它本来所是的强大 Unix 工作站操作系统来使用。我们中的一些人需要危险强大的工具。然而，大多数 Mac 用户并不需要——而且没有意识到他们正在使用一个有着非常友好（&lt;a href="https://basicappleguy.com/basicappleblog/lil-finder-guy"&gt;字面意义上的&lt;/a&gt;）面孔的危险强大 Unix 工作站。&lt;/p&gt;</description><pubDate>Fri, 02 Oct 2026 20:40:15 +0000</pubDate></item><item><title>洋基队两场比赛横扫波士顿，总比分18比2</title><link>https://www.nytimes.com/athletic/7648172/2026/09/30/yankees-beat-red-sox-mlb-wild-card-series/</link><description>&lt;p&gt;昨晚第六局，洋基队仅以2-0领先，红袜队一垒手、彻头彻尾的蠢货威尔森·孔特雷拉斯击出一记本垒打，将比分追至2-1。孔特雷拉斯决定&lt;em&gt;绕垒漫步&lt;/em&gt;。棒球之神对这种招摇好斗的炫耀行为可不会宽容以待。（尤其是当你球队还落后的时候。）孔特雷拉斯在击出本垒打后绕垒而行，活像一只公鸡在向你宣告它刚上了几只母鸡——只不过速度更慢。&lt;/p&gt;
+&lt;p&gt;下一局，孔特雷拉斯注意力不集中，他的懒散让一名洋基球员在挥棒落空三振后因暴投上垒。这引发了一轮攻势，最终导致了那场比分悬殊的惨败。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/10/01/yankees-sweep-sox" title="Permanent link to ‘Yankees Sweep Boston in Two Games, by Combined Score of 18-2’"&gt; ★ &lt;/a&gt;
 </description><pubDate>Fri, 02 Oct 2026 00:06:56 +0000</pubDate></item><item><title>[赞助] WorkOS：SSO 的工作原理及最快实现方式</title><link>https://workos.com/guide/the-developers-guide-to-sso?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q32026</link><description>&lt;p&gt;SSO 是企业级交易的基本门槛，但要在自己的应用中构建它，意味着你需要编写 SAML 控制器、解析 XML 断言，并针对每个提供商处理特定于 IdP 的特殊情况。&lt;/p&gt;
 &lt;p&gt;了解 SAML 流程如何运作、自建与采购之间的权衡，以及安全、路由和用户体验方面的最佳实践。或者省去这些麻烦，通过 &lt;a href="https://workos.com/?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q22026"&gt;WorkOS&lt;/a&gt; 添加 SSO。&lt;/p&gt;
@@ -39,14 +47,4 @@
 &lt;p&gt;亏得越多，赢得越多！&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;a href="https://daringfireball.net/linked/2026/09/30/reuters-anthropic-ipo-prospectus" title="Permanent link to ‘Anthropic’s IPO Prospectus Is a Fucking Doozy’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Wed, 30 Sep 2026 19:23:42 +0000</pubDate></item><item><title>跟进我对苹果十月发布会的初步预测</title><link>https://daringfireball.net/2026/09/spitballing_predictions_for_apples_october</link><description>&lt;p&gt;关于我&lt;a href="https://daringfireball.net/2026/09/spitballing_predictions_for_apples_october"&gt;昨天的文章&lt;/a&gt;，其中推测苹果十月——看起来会是大动作的一个月——可能如何展开，一位朋友问，是否部分或全部新品可能仅通过 Apple Newsroom 公告发布。问得好。我们来过一遍传闻中的新硬件产品：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Apple TV 硬件：我很想说不会，但答案是会。我能预见到它只是以一则带有新规格的简单公告发布。我真的很想看到苹果在这个领域加倍投入，重振它。我认为用 Apple TV 硬件看电视，是市面上远远最好的体验。然而它的市场份额非常低。如今的 Apple TV 之于客厅，正如 90 年代末和 00 年代初的 Mac 之于桌面计算。所有人都觉得它太贵，而且完全不明白为什么有了它自己实际上会更开心。所以我希望苹果把它作为主题演讲/发布会的重要部分，但我不会押注于此。&lt;/li&gt;
-&lt;li&gt;iPad Mini：是的，可能只是一份新闻稿。&lt;/li&gt;
-&lt;li&gt;HomePod Mini：是的，可能只是一份新闻稿。&lt;/li&gt;
-&lt;li&gt;带屏幕的 HomePod 类产品（也许他们干脆叫它“HomePad”？）：绝不可能——如果这个产品要推出，就必须用主题演讲视频和某种带有上手演示的媒体活动来揭晓。而如果他们要为它举办某种活动/发布会，那他们不妨也在那里揭晓上面那些产品。&lt;/li&gt;
-&lt;li&gt;配备 OLED 触控屏的 MacBook 机型：绝不可能仅靠一份新闻稿就发布。&lt;/li&gt;
-&lt;li&gt;M6 iMac 机型：可能只是一份新闻稿，但如果他们要为准触控屏 MacBook 举办某种活动/发布会，何不把这些也放在那场活动的开头？&lt;/li&gt;
-&lt;/ul&gt;
-&lt;a href="https://daringfireball.net/linked/2026/09/29/fu-october-spitball" title="Permanent link to ‘Follow-Up on my Spitballed Predictions for Apple’s October’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Tue, 29 Sep 2026 15:08:19 +0000</pubDate></item></channel></rss>
+</description><pubDate>Wed, 30 Sep 2026 19:23:42 +0000</pubDate></item></channel></rss>
