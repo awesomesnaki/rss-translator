@@ -45,7 +45,9 @@
 &lt;p&gt;&lt;strong&gt;#20 gpg&lt;/strong&gt;：学会管理情绪，放过他人就是放过自己。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#21 shmilypeter&lt;/strong&gt;：你真拘留了他几天，他可能失业掉到斩杀线了，到时候可能会不死不休的来干你。让他赔礼道歉，罚个款得了。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#22 jookr&lt;/strong&gt;：物主不在物品旁边看管的情况下，被第三方非暴力手段拿走，确实算侵占不算偷，他有义务完好无损地还回来，中间他可以要求合理范围内的好处。&lt;br/&gt;如果不肯还，或者还回来有破损，得走诉讼，叔叔确实只能调解。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#23 kkwa56188&lt;/strong&gt;：大大的标题写的是 "插着充电 忘记拿走", &lt;br/&gt;黑黑的正文写 "计划第二天回来取"&lt;br/&gt;到底是说漏嘴了 还是说漏嘴了?&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 03 Oct 2026 13:27:17 +0000</pubDate></item><item><title>历经千辛万苦终于用上了 opus5.5.</title><link>https://www.v2ex.com/t/1246282</link><description>&lt;p&gt;现在想在国内订阅上、并且不封号实在是太难了。
+&lt;p&gt;&lt;strong&gt;#23 kkwa56188&lt;/strong&gt;：大大的标题写的是 "插着充电 忘记拿走", &lt;br/&gt;黑黑的正文写 "计划第二天回来取"&lt;br/&gt;到底是说漏嘴了 还是说漏嘴了?&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#24 zerovoid&lt;/strong&gt;：无法理解，&lt;br/&gt;&lt;br/&gt;东西丢失在公共场所，&lt;br/&gt;被人捡走了，当然不算偷啊，&lt;br/&gt;难道图书馆是你家么，&lt;br/&gt;&lt;br/&gt;所以叫《侵占》没什么问题，&lt;br/&gt;如果捡了不还，那叫非法侵占，也算不上偷。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#25 zerovoid&lt;/strong&gt;：刚才没看底下，还举了个例子，&lt;br/&gt;&lt;br/&gt;这电瓶车停路上，和充电宝放图书馆能一样么，&lt;br/&gt;&lt;br/&gt;电瓶车停路上，应该类比的是充电宝放在商家的充电盒里，&lt;br/&gt;&lt;br/&gt;如果有人从商家的充电盒里非法拿走充电宝，那肯定算偷，&lt;br/&gt;&lt;br/&gt;但是从墙上拿走充电宝，不可能说多插着一根线就叫偷了。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 03 Oct 2026 13:27:17 +0000</pubDate></item><item><title>历经千辛万苦终于用上了 opus5.5.</title><link>https://www.v2ex.com/t/1246282</link><description>&lt;p&gt;现在想在国内订阅上、并且不封号实在是太难了。
 0. 第零步订阅一个好用的 vpn ，最好是家宽，稳定的美国 ip 。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;第一步注册一个 google 账号。&lt;/li&gt;
@@ -186,7 +188,8 @@
 &lt;p&gt;&lt;strong&gt;#15 piku&lt;/strong&gt;：塔式 UPS 正常机柜的底盘撑不住的 会弯掉&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#16 loading&lt;/strong&gt;：@&lt;a href="/member/wskymark"&gt;wskymark&lt;/a&gt; 可以参考这个：&lt;br/&gt;&lt;br/&gt; [ [开源机柜] Dream Machine 无尘免维护-哔哩哔哩]  &lt;a href="https://b23.tv/AyKMTz5" rel="nofollow noopener" target="_blank"&gt;https://b23.tv/AyKMTz5&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#17 WhatTheBridgeSay&lt;/strong&gt;：一共就一个群晖和不超过 24 口网络设备，多余费这劲搞机架，你瞅瞅你画的这个示意图，没觉得非常空旷么&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#18 Voren&lt;/strong&gt;：机房里面的机柜一般从上到下是&lt;br/&gt;PDU 配电单元&lt;br/&gt;网络跳线架&lt;br/&gt;交换机防火墙等网络设备&lt;br/&gt;服务器&lt;br/&gt;SAN 等存储&lt;br/&gt;UPS （但其实很少见机柜 UPS 很难给设备坚持多久，又很占用空间）&lt;br/&gt;&lt;br/&gt;一般就是更重的往下放，网络设备往上放，因为一般机房网络都是在上面走线&lt;br/&gt;&lt;br/&gt;家庭环境我觉得一来没有那么复杂，二来大多都只是单独一个柜子，很多也用不上&lt;br/&gt;&lt;br/&gt;顶部出风我可能建议你试试进风会不会效果更好，机柜内部正压&lt;br/&gt;然后机柜背部，左侧走网线右侧走电源线，也可以根据你实际情况做转变，但是最好就是分开，避免干扰&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 03 Oct 2026 02:11:29 +0000</pubDate></item><item><title>大佬们，如果让你们推荐一本此生必读的书，你们会推荐哪一本？</title><link>https://www.v2ex.com/t/1246209</link><description>&lt;p&gt;随便什么类型的书都可以，没有限制&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#18 Voren&lt;/strong&gt;：机房里面的机柜一般从上到下是&lt;br/&gt;PDU 配电单元&lt;br/&gt;网络跳线架&lt;br/&gt;交换机防火墙等网络设备&lt;br/&gt;服务器&lt;br/&gt;SAN 等存储&lt;br/&gt;UPS （但其实很少见机柜 UPS 很难给设备坚持多久，又很占用空间）&lt;br/&gt;&lt;br/&gt;一般就是更重的往下放，网络设备往上放，因为一般机房网络都是在上面走线&lt;br/&gt;&lt;br/&gt;家庭环境我觉得一来没有那么复杂，二来大多都只是单独一个柜子，很多也用不上&lt;br/&gt;&lt;br/&gt;顶部出风我可能建议你试试进风会不会效果更好，机柜内部正压&lt;br/&gt;然后机柜背部，左侧走网线右侧走电源线，也可以根据你实际情况做转变，但是最好就是分开，避免干扰&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#19 datocp&lt;/strong&gt;：太讲究了，是因为这么多年过去了 unifi 设备依然会烫手？&lt;br/&gt;这些交换机发热这么厉害，用上华为的全然无感。嘿嘿，网络设备中的苹果。。。看不上。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 03 Oct 2026 02:11:29 +0000</pubDate></item><item><title>大佬们，如果让你们推荐一本此生必读的书，你们会推荐哪一本？</title><link>https://www.v2ex.com/t/1246209</link><description>&lt;p&gt;随便什么类型的书都可以，没有限制&lt;/p&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 serviceootdshare&lt;/strong&gt;：毛选&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#2 andykuen959595&lt;/strong&gt;：平凡的世界&lt;/p&gt;&lt;hr/&gt;
@@ -270,7 +273,8 @@
 &lt;p&gt;&lt;strong&gt;#80 FeifeiJin&lt;/strong&gt;：@&lt;a href="/member/gigmrhlc"&gt;gigmrhlc&lt;/a&gt; 感谢纠正。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#81 imsuxp&lt;/strong&gt;：@&lt;a href="/member/ffalex"&gt;ffalex&lt;/a&gt; #11 少妇白洁&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#82 lonely701&lt;/strong&gt;：夏洛的网&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#83 xlxx&lt;/strong&gt;：那么有没有此生必读的变身文学小说？&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 03 Oct 2026 01:27:58 +0000</pubDate></item><item><title>这两年 AI 进步太快了 一年一个新模样</title><link>https://www.v2ex.com/t/1246207</link><description>&lt;p&gt;2024：网页代码补全/问答助手&lt;br/&gt;
+&lt;p&gt;&lt;strong&gt;#83 xlxx&lt;/strong&gt;：那么有没有此生必读的变身文学小说？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#84 junksheng&lt;/strong&gt;：有需要的话你总会读到的，没需要的话你读了也没啥用&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 03 Oct 2026 01:27:58 +0000</pubDate></item><item><title>这两年 AI 进步太快了 一年一个新模样</title><link>https://www.v2ex.com/t/1246207</link><description>&lt;p&gt;2024：网页代码补全/问答助手&lt;br/&gt;
 2025：AI 能认真帮你写代码&lt;br/&gt;
 2026：AI 可以独立负责一整块开发任务  &lt;/p&gt;
 &lt;p&gt;按这速度，估计明年 AI 可以负责整个小型项目的自我迭代，维护，完全不需要人工参与，直接"许愿式开发"&lt;/p&gt;
@@ -302,7 +306,13 @@
 &lt;p&gt;&lt;strong&gt;#25 gigmrhlc&lt;/strong&gt;：福兮祸所倚。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#26 wtfwc&lt;/strong&gt;：我只关心啥时候才能让硅胶娃娃像个真正的人和我互动，AI 说还要等 15-20 年，那时候我 TM 都老了，这发展速度慢死人&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#27 Peek&lt;/strong&gt;：看实体 AI 吧，这东西才关键&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#28 aliipay&lt;/strong&gt;：@&lt;a href="/member/dosomethingcool"&gt;dosomethingcool&lt;/a&gt; 因果关系反了，发展快才吸引钱进入&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 03 Oct 2026 01:01:32 +0000</pubDate></item><item><title>GPT 6.1 秀</title><link>https://www.v2ex.com/t/1246202</link><description>&lt;p&gt;如下这个商业展示网站，完全用 gpt 6.1 生成。
+&lt;p&gt;&lt;strong&gt;#28 aliipay&lt;/strong&gt;：@&lt;a href="/member/dosomethingcool"&gt;dosomethingcool&lt;/a&gt; 因果关系反了，发展快才吸引钱进入&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#29 badrigtpatbas247&lt;/strong&gt;：都吃好喝好迎接失业潮，口嗨&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#30 badrigtpatbas247&lt;/strong&gt;：最怕的就是 Ai 发展没什么瓶颈，大力出奇迹&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#31 xue777hua&lt;/strong&gt;：@&lt;a href="/member/gpt5"&gt;gpt5&lt;/a&gt; 现在依然是成语接龙。&lt;br/&gt;&lt;br/&gt;随便说一个：楼上有人抱怨 过度防御。没办法啊 为了防止接龙接错了，干脆给你都接上，这就叫“稳稳接住你”😋&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#32 413420&lt;/strong&gt;：很快 AI 巨大的破坏力就会显现&lt;br/&gt;&lt;br/&gt;好的剧本有把枪出现在桌上，子弹一定会飞出&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#33 zerovoid&lt;/strong&gt;：我看挺多人都好焦虑的，&lt;br/&gt;其实一个职业消亡了，自然会出现一个新的职业，&lt;br/&gt;毕竟职业是死的，人是活的。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#34 seven777&lt;/strong&gt;：@&lt;a href="/member/extrem"&gt;extrem&lt;/a&gt; #11 我也很奇怪，有什么新姿势？难道是 workbuddy 那样？&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 03 Oct 2026 01:01:32 +0000</pubDate></item><item><title>GPT 6.1 秀</title><link>https://www.v2ex.com/t/1246202</link><description>&lt;p&gt;如下这个商业展示网站，完全用 gpt 6.1 生成。
 &lt;a href="https://dyntu.com/" rel="nofollow"&gt;https://dyntu.com/&lt;/a&gt;
 我感觉挺惊艳。不管是交互，还是内容，都超出我的意料。
 我输入的提示语很少，短短几句话。6.1 大概花了 10 分钟，生成这个网站。&lt;/p&gt;
@@ -338,4 +348,6 @@
 &lt;p&gt;&lt;strong&gt;#29 JadeWei&lt;/strong&gt;：在 UI 眼里，最多就是比原型规整一些。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#30 knowsafe&lt;/strong&gt;：GPT6 除了贵，暂时没缺点，但是你这用的，丝毫没看到它的优势 哈哈哈&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#31 Domado&lt;/strong&gt;：这 AI 味道都溢出屏幕了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#32 zololiu&lt;/strong&gt;：丑。。。。。。。。。。。。。。。。。。。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 03 Oct 2026 00:17:26 +0000</pubDate></item></channel></rss>
+&lt;p&gt;&lt;strong&gt;#32 zololiu&lt;/strong&gt;：丑。。。。。。。。。。。。。。。。。。。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#33 konakona&lt;/strong&gt;：我想说的楼上都说了，我想说现在做东西想有别于 AI 最好的办法就是：Less is more.&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#34 datocp&lt;/strong&gt;：我就看不出来 ai 味。。。&lt;br/&gt;&lt;br/&gt;到底是网页前端后台是 ai 做的，还是里面的内容文字是 ai 做的。这种网站不就是内容才是王道，凭啥 ai 几句话就能造出这一堆内容。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 03 Oct 2026 00:17:26 +0000</pubDate></item></channel></rss>
