@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Fri, 02 Oct 2026 20:40:15 +0000</lastBuildDate><item><title>★ 苹果将进一步收紧MacOS上的完全磁盘访问权限，以应对失控的代理式AI应用</title><link>https://daringfireball.net/2026/10/apple_full_disk_access</link><description>&lt;p&gt;Apple Developer News，在一篇题为“&lt;a href="https://developer.apple.com/news/?id=p6zjojqw"&gt;macOS 中完全磁盘访问权限的更新&lt;/a&gt;”的文章中表示：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sat, 03 Oct 2026 18:21:14 +0000</lastBuildDate><item><title>苹果确认 iPhone 18 Pro Max 存在 AT&amp;T 蜂窝网络问题，受影响设备需更换硬件</title><link>https://9to5mac.com/2026/10/02/apple-confirms-iphone-18-pro-max-att-cellular-issues-affected-devices-require-hardware-replacement/</link><description>&lt;blockquote&gt;
+&lt;p&gt;在给 9to5Mac 的一份声明中，Apple 表示：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我们已经发现一个影响 AT&amp;amp;T 网络上少数 iPhone 18 Pro Max 用户的问题，可能导致设备失去服务并无法拨打电话。我们本周早些时候发布了 iOS 27.0.1，并强烈建议所有 iPhone 18 Pro Max 用户立即更新，同时今天还将发布运营商设置更新。这些更新共同旨在帮助防止此问题发生。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;针对 iPhone 18 Pro Max 的运营商设置更新将在未来 14 天内自动下载。不过，用户可以通过前往“设置”，选择“通用”，然后选择“关于本机”来手动触发下载。&lt;/p&gt;
+&lt;p&gt;Apple 解释说，这些软件更新将有助于防止 AT&amp;amp;T 网络上的 iPhone 18 Pro Max 用户未来遇到问题。软件更新不会为已经失去服务的设备恢复服务。&lt;/p&gt;
+&lt;p&gt;Apple 表示，已经失去服务的 iPhone 18 Pro Max 用户将需要更换硬件。这些用户应联系 Apple 支持或 AT&amp;amp;T，或前往 Apple Store 或 AT&amp;amp;T 门店。&lt;/p&gt;
+&lt;p&gt;正如我们&lt;a href="https://9to5mac.com/2026/10/02/att-claims-ios-27-0-1-fixes-iphone-18-pro-max-cellular-issues-but-users-disagree/"&gt;今早报道的&lt;/a&gt;，iPhone 18 Pro Max 用户&lt;a href="https://redirect.viglink.com/?format=go&amp;amp;jsonp=vglnk_179097440444712&amp;amp;key=c1c7d488bb2df8a8b659d5d41634d304&amp;amp;libId=murfv83l010023dg000ULbaiwgr4z&amp;amp;loc=https%3A%2F%2F9to5mac.com%2F2026%2F10%2F02%2Fatt-claims-ios-27-0-1-fixes-iphone-18-pro-max-cellular-issues-but-users-disagree%2F&amp;amp;ccpaConsent=1---&amp;amp;v=1&amp;amp;out=https%3A%2F%2Fwww.reddit.com%2Fr%2FATT%2Fcomments%2F1wugizd%2F18_pro_max_cellular_issue_more_widespread_than%2F&amp;amp;ref=https%3A%2F%2Fwww.google.com%2F&amp;amp;title=AT%26T%20claims%20iOS%2027.0.1%20fixes%20iPhone%2018%20Pro%20Max%20cellular%20issues%2C%20but%20users%20disagree%20%5BU%5D%20-%209to5Mac&amp;amp;txt=relatively%20widespread"&gt;受此影响&lt;/a&gt;后遇到问题，会&lt;a href="https://www.reddit.com/r/ATT/comments/1wn54ip/anyone_else_getting_sos_on_iphone_18_pro_max_this/"&gt;无法连接&lt;/a&gt;到&lt;a href="https://www.reddit.com/r/iphone/comments/1wlk7st/anyone_else_getting_sos_on_iphone_18_pro_max/"&gt;AT&amp;amp;T 的网络&lt;/a&gt;进行通话、发短信和使用数据。相反，这些用户会在 iPhone 的状态栏中看到“SOS”。该连接问题并未影响 AT&amp;amp;T 网络上的每一位 iPhone 18 Pro Max 用户。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我从少数 DF 读者那里听说了此事，而遇到该问题的读者在过去两周里都在各种论坛上找到了彼此。以下情况似乎都属实：&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;这只是 AT&amp;amp;T 用户的问题。Verizon 或 T-Mobile 上没有此类问题。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;这只是 18 Pro Max，不是普通的 18 Pro。这里的关键事实是，唯一使用高通蜂窝调制解调器而非苹果自家 C2 调制解调器的 iPhone 18 Pro 机型，&lt;a href="https://daringfireball.net/linked/2026/09/17/iphone-18-pro-c2-vs-qualcomm-modems"&gt;是&lt;em&gt;美国境内&lt;/em&gt;的 18 Pro Max 设备&lt;/a&gt;。因此，问题似乎与高通调制解调器和 AT&amp;amp;T 的网络有关。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;这并非 AT&amp;amp;T 网络上的&lt;em&gt;所有&lt;/em&gt; 18 Pro Max 设备都有问题。苹果只肯说“少量”，但从个案来看，显然不是 AT&amp;amp;T 上的&lt;em&gt;大多数&lt;/em&gt; 18 Pro Max 设备。不过它似乎仍然&lt;em&gt;很多&lt;/em&gt;。这并非极其罕见。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;相当不寻常的是，一旦设备受影响并失去服务，该设备就必须更换。然而，27.0.1 iOS 更新包含一个（或多个）修复，应该能帮助尚未失去服务的设备避免失去服务。我很想弄明白，软件更新如何能防止现有设备受影响，但软件更新却无法为已经受影响的现有设备恢复服务。&lt;/p&gt;
+&lt;p&gt;我还好奇的是，这与 AT&amp;amp;T 用户有关，还是与 AT&amp;amp;T 的&lt;em&gt;网络&lt;/em&gt;有关——连接到由 AT&amp;amp;T 提供后端的 MVNO 运营商的 iPhone 18 Pro Max 是否也受到类似影响？例如，使用 &lt;a href="https://www.reddit.com/r/USMobile/comments/1lfly3c/why_us_mobile_is_pushing_dark_star_so_hard_a/"&gt;US Mobile 的“Dark Star”服务&lt;/a&gt;的 US Mobile 用户？我&lt;a href="https://daringfireball.net/contact/"&gt;很想听听&lt;/a&gt;任何知情者的说法。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/10/03/iphone-18-pro-max-att-issues" title="Permanent link to ‘Apple Confirms iPhone 18 Pro Max AT&amp;amp;T Cellular Issues, Affected Devices Require Hardware Replacement’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Sat, 03 Oct 2026 18:21:14 +0000</pubDate></item><item><title>★ 苹果将进一步收紧MacOS上的完全磁盘访问权限，以应对失控的代理式AI应用</title><link>https://daringfireball.net/2026/10/apple_full_disk_access</link><description>&lt;p&gt;Apple Developer News，在一篇题为“&lt;a href="https://developer.apple.com/news/?id=p6zjojqw"&gt;macOS 中完全磁盘访问权限的更新&lt;/a&gt;”的文章中表示：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;我们为开发者提供强大的 API，让他们能够为 Apple 产品上的 App 构建出色的功能，并辅以一系列旨在保护用户私人数据的控制措施。完全磁盘访问权限在很大程度上绕过了这些控制，以便让备份 App 能在 Mac 上正常运行。一些开发者正在以可能将用户置于风险之中的方式使用完全磁盘访问权限，在用户并不完全知情和理解的情况下，暴露其系统上的一切——包括文件、邮件、信息，甚至浏览历史。对于通信 App 而言，这还可能危及与用户通信之人的隐私。&lt;/p&gt;
 &lt;p&gt;今后，我们将引入额外的控制措施，确保真正希望授予某个 App 这种非同寻常访问级别的用户，只能通过非常明确的用户操作来实现。解决这一问题至关重要。随着 AI 智能体能力越来越强、自主性越来越高，与这种访问级别相关的风险将大幅增加。我们致力于确保用户在授予此类访问权限之前清楚理解这些风险，从而能够就自己的数据和隐私做出明智的决定。&lt;/p&gt;
@@ -27,24 +45,4 @@
 &lt;/blockquote&gt;
 &lt;p&gt;鉴于 Apple Watch 被用作解锁 Mac（以及苹果所说的 iPhone Duo）的身份标识，如果它也能与这款设备配合使用，那就说得通了。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/09/30/gurman-october-13-smart-home" title="Permanent link to ‘Gurman Reports Apple Is Launching New ‘Smart Home’ Products on October 13’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Wed, 30 Sep 2026 20:14:31 +0000</pubDate></item><item><title>Anthropic 的 IPO 招股说明书真他妈的绝了</title><link>https://www.reuters.com/business/finance/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-2026-09-28/</link><description>&lt;p&gt;Echo Wang，昨日为路透社报道：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;根据路透社看到的Anthropic的IPO招股说明书，Anthropic正在进行一场巨大的押注，赌AI对全球经济的变革将比工业化、电力和互联网更为深刻。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这是一个有力而清晰的导语，但即便如此，它也未能表达出Anthropic所代表的真正分量。也就是说，并不是作为领域的“AI”将被证明比工业化、电力和互联网更具变革性，而是&lt;em&gt;仅Anthropic自身就会&lt;/em&gt;。如果你把Anthropic视为同行之一，哪怕只是一份简短的名单，把它与（比如说）OpenAI、谷歌和Meta并列，这个IPO就说不通。只有当你相信Anthropic正处于赢得创造神一般超级智能竞赛的边缘，并且第一个神一般的超级智能将接管世界时，这个IPO才说得通。&lt;/p&gt;
-&lt;p&gt;你知道，这完全类似于宗教狂热分子所相信即将到来的“被提”事件。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;但达到那里的代价将是惊人的。根据招股说明书，Anthropic报告2025年净亏损420亿美元，并计划在未来几年在云、计算和基础设施义务上支出5180亿美元。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;如果你相信&lt;a href="https://www.ft.com/content/4564e6a5-69e9-40a6-bf0f-a888f2f4f002?syn-25a6b1a6=1"&gt;他们现在盈利了&lt;/a&gt;，那你和他们一样疯狂。他们会向媒体&lt;a href="https://www.wheresyoured.at/anthropics-profitability-swindle/"&gt;散布消息&lt;/a&gt;说他们现在盈利了，使用他们不愿定义的会计方法（而且对上市公司来说根本通不过审查），但不会以书面形式做出这样的声明。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;招股说明书详细说明了该公司去年如何急剧增长——同时也出现了更大的亏损。根据这些文件（此处首次报道），2025年收入增长了12倍，达到近46亿美元，尽管该公司在运营基础上亏损超过80亿美元，这不包括主要与先前融资相关的各种负债减记。[...]&lt;/p&gt;
-&lt;p&gt;Anthropic表示，去年近四分之一的收入来自两个客户，并且作为其风险因素的一部分，警告称其许多最大客户并未签订长期合同，可能会削减或停止支出。&lt;/p&gt;
-&lt;/blockquote&gt;&lt;p&gt;我不觉得这有多复杂。他们的营收之所以在加速增长，是因为他们在亏本卖算力。去年他们花了130亿美元才赚了50亿美元。没错，他们的营收在快速增长，但成本涨得更快。他们已经背上了五千亿美元的云计算扩张债务，而他们的营收却岌岌可危地依赖着几个大手笔的鲸鱼客户&lt;em&gt;而这些客户并没有签合同&lt;/em&gt;，与此同时，商品化的开源模型正在迅速缩小差距。如果Anthropic现在光是130亿美元的成本就已经亏得血本无归，那他们每年花1000多亿美元又怎么可能实现盈亏平衡？别担心，他们那神一般的AI会想明白的？&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://x.com/garymarcus/status/2104725819524612483"&gt;Gary Marcus&lt;/a&gt;：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Anthropic的拟议估值很容易算，就是负50倍的2025年亏损。&lt;/p&gt;
-&lt;p&gt;亏得越多，赢得越多！&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;a href="https://daringfireball.net/linked/2026/09/30/reuters-anthropic-ipo-prospectus" title="Permanent link to ‘Anthropic’s IPO Prospectus Is a Fucking Doozy’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Wed, 30 Sep 2026 19:23:42 +0000</pubDate></item></channel></rss>
+</description><pubDate>Wed, 30 Sep 2026 20:14:31 +0000</pubDate></item></channel></rss>
