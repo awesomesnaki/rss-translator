@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 29 Sep 2026 07:38:38 +0000</lastBuildDate><item><title>ChatGPT Pro 20x版将在明天恢复订阅 对应API额度缩减50% 但会更耐用</title><link>https://www.landian.news/archives/127158.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sat, 03 Oct 2026 08:06:52 +0000</lastBuildDate><item><title>苹果将收紧macOS完全磁盘访问权限 AI驱动的智能体是重点关注对象</title><link>https://www.landian.news/archives/127173.html</link><description>
+&lt;p&gt;#系统资讯 苹果将收紧 macOS 完全磁盘访问权限，AI 驱动的智能体是重点关注对象，该权限会放大隐私风险。完全磁盘访问最初只用于备份工具、磁盘分析工具和安全软件，但现在很多 AI 应用都在使用这个权限。问题在于，获得该权限后用户的所有文件包括邮件、信息、浏览器记录等同样可能会被访问，所以苹果准备优化该权限避免 AI 应用泄露用户隐私。查看全文：https://ourl.co/127173&lt;/p&gt;&lt;p&gt;苹果日前发布公告宣布将为 macOS 全磁盘访问权限增加额外控制措施，此次变更的原因是部分应用获得完全磁盘访问权限后，可能会让用户的敏感数据暴露在更大的风险中。&lt;/p&gt;
+&lt;p&gt;苹果表示未来只有用户进行非常明确的操作后，应用程序才能获得完全磁盘访问权限，不过苹果暂时还未公布具体的变更内容和实施时间，从公告来看苹果将增加新的 API 用来细化权限控制。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127173.png" rel="nofollow"&gt;&lt;img alt="苹果将收紧macOS完全磁盘访问权限 AI驱动的智能体是重点关注对象" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127173.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;完全磁盘访问是 macOS 的应用隐私权限且不等同于 FileVault 全磁盘加密，苹果的支持文档显示，获得该权限的应用可以访问电脑上的全部文件，包括其他应用保存的邮件、短信、浏览器历史记录和其他数据，甚至包括面向部分所有用户的系统管理设置。&lt;/p&gt;
+&lt;p&gt;该权限最初开发目的主要用于备份软件、磁盘分析工具和安全软件等需要扫描大量文件的应用，苹果开发者文档也指出，备份类应用如果需要读取文件系统中的不同位置，通常需要用户在系统设置→隐私与安全→完全磁盘访问权限中手动授权。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;苹果在公告中特别提到，随着 AI 智能体变得更强大和更加自主，完全磁盘访问权限带来的风险也会明显增加。传统应用通常围绕固定功能运行，而能够持续运行的 AI 智能体可能会读取文件、分析邮件和消息，并根据任务调用其他工具。如果这类工具获得整个磁盘的访问权限，用户未必能清楚知晓哪些数据被读取、处理或传送。&lt;/p&gt;
+&lt;p&gt;苹果还警告称，通信类应用如果不当使用该权限，除了暴露设备所有者信息，也可能影响与其通信的其他人的隐私。苹果并未点名某款应用存在违规行为，而是阐述这类 AI 智能体应用可能带来的安全风险。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;目前苹果只确认会增加更严格的授权控制措施，但并未说明是否会引入按文件夹或数据类型细分的权限、定期重新确认、面向 AI 应用的单独限制，或自动撤销长期未使用的权限。&lt;/p&gt;
+&lt;p&gt;对普通用户而言授予应用完全磁盘访问权限确实存在较高风险，用户应检查完全磁盘访问权限列表，只保留确实有需要且来源可信的应用。开发者则需要关注苹果后续发布的公告，新政策发布后需要及时进行调整，避免因权限问题影响应用程序的正常工作。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://developer.apple.com/news/?id=p6zjojqw" rel="noopener" target="_blank"&gt;苹果开发者公告&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sat, 03 Oct 2026 08:06:52 +0000</pubDate></item><item><title>ChatGPT Pro 20x版将在明天恢复订阅 对应API额度缩减50% 但会更耐用</title><link>https://www.landian.news/archives/127158.html</link><description>
 &lt;p&gt;#人工智能 200 美元的 ChatGPT Pro 20x 版订阅将在明天恢复，但按照 API 消费金额计算额度将缩水 50%。蒂博称虽然消费金额缩水但实际可以完成更多工作，也就是按照工作量计算的话新版更好。OpenAI 希望快速降低 API 价格并提高模型能力，最终就是 200 美元订阅和 200 美元充值 API 效果相同。另外蒂博还强调不希望人为抬高 API 定价让用户看起来订阅额度更高，然后通过变相方式悄悄缩减额度。查看全文：https://ourl.co/127158&lt;/p&gt;&lt;p&gt;Codex 技术经理蒂博刚刚在社交媒体上发布预告，从明天开始 ChatGPT Pro 20x 订阅将会重新面向新用户开放 (已经开通的用户可以正常续订)。同时 Codex 会调整该订阅的用量计算方式，实际算下来对应的 API 消费金额相当于旧版的 50%。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/02/111836.png" rel="nofollow"&gt;&lt;img alt="ChatGPT Pro 20x版将在明天恢复订阅 对应API额度缩减50% 但会更耐用" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/02/111836.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -157,17 +173,4 @@ fsutil 8dot3name set 0
 &lt;hr/&gt;
 &lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://learn.microsoft.com/en-us/windows-insider/release-notes/beta/preview-build-26220-9568" rel="noopener" target="_blank"&gt;Microsoft&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 28 Sep 2026 02:24:06 +0000</pubDate></item><item><title>Office出现小面积掉激活问题：微软确认是最新发布的更新意外删除许可证</title><link>https://www.landian.news/archives/127093.html</link><description>
-&lt;p&gt;#软件资讯 Office 出现小面积掉激活问题：微软最新推送的可选更新意外删除 Office 许可证，用户可能会看到未授权产品和文档无法编辑的问题。问题更新是 KB5002907，该更新原本是用来修复 Microsoft 365 组件无法更新的问题，但存在意外删除 Office 2016/2019 许可证甚至卸载软件包的情况。微软目前已经停止推送问题更新，遇到这个问题的用户需要使用原始许可证重新激活或重新安装。查看全文：https://ourl.co/127093&lt;/p&gt;&lt;p&gt;早前微软发布的 9 月例行更新&lt;a href="https://www.landian.news/archives/126959.html" rel="noopener" target="_blank"&gt;导致 Microsoft Excel 单元格复制粘贴和公式计算出现异常&lt;/a&gt;，之后微软发布 KB5002665 带外更新修复问题。现在微软再次推送可选的预览更新，不过这个新版更新更加离谱：部分用户安装更新后 Office 许可证会被删除，甚至整个 Office 都会被自动卸载。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2024/06/104369.png" rel="nofollow"&gt;&lt;img alt="Office出现小面积掉激活问题：微软确认是最新发布的更新意外删除许可证" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2024/06/104369.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;KB5002907 是微软针对 Office 推出的可选非安全更新，该更新主要面向超过 90 天未更新且使用当前通道 / 月度通道的 Office 版本。微软原本希望通过该更新帮助无法正常更新的 Microsoft 365 组件恢复更新，正常情况下只要没有禁用系统更新就会收到推送，因为这枚更新也通过 Windows Update 推送。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;微软已经确认 Microsoft Office 2016/2019 等版本安装该更新后出现异常，具体表现为安装更新并重启后 Office 提示未授权产品、无法正常编辑文档，少数情况下已经安装的 Office 甚至可能会被自动删除。为此微软已经火速停止推送这枚更新，避免继续推送影响更多用户。&lt;/p&gt;
-&lt;p&gt;目前微软提供的临时解决方案是，如果许可证被意外删除，则用户需要使用原始许可证重新激活产品；如果 Office 被删除，则需要重新安装对应版本的 Office 并使用原始许可证进行激活。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/126846.html" title="Excel最新安全更新导致复制粘贴和公式拖动受影响 目前建议是直接删除更新恢复使用"&gt;&lt;h3&gt;Excel最新安全更新导致复制粘贴和公式拖动受影响 目前建议是直接删除更新恢复使用&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#软件资讯 9 月安全更新导致 Excel 多个功能出现异常，影响大量用户的正常办公，目前只能先卸载更新恢复使用。出现问题的是 KB500291…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/soft"&gt;软件资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2026年9月11日 12:27&lt;/span&gt;&lt;span title="浏览数量"&gt;14.78K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://support.microsoft.com/en-us/servicing/os/microsoft-365/kb5002907-optional-update-for-out-of-date-microsoft-365-apps-installations" rel="noopener" target="_blank"&gt;Microsoft&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sun, 27 Sep 2026 03:34:10 +0000</pubDate></item></channel></rss>
+</description><pubDate>Mon, 28 Sep 2026 02:24:06 +0000</pubDate></item></channel></rss>
