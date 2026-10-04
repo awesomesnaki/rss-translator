@@ -1,5 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sat, 03 Oct 2026 08:06:52 +0000</lastBuildDate><item><title>苹果将收紧macOS完全磁盘访问权限 AI驱动的智能体是重点关注对象</title><link>https://www.landian.news/archives/127173.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sun, 04 Oct 2026 02:36:29 +0000</lastBuildDate><item><title>近期新发布的ChatGPT for macOS版CPU占用率太高？可以临时回滚旧版本</title><link>https://www.landian.news/archives/127160.html</link><description>
+&lt;p&gt;#软件下载 ChatGPT for macOS 版 CPU 占用率太高？可以临时回滚旧版本。蓝点网发现近期发布的 ChatGPT 新版本都存在 CPU 占用率高问题，这种问题以前也经常发生。蓝点网尝试回滚 10 月 1 日、9 月 26 日、9 月 24 日的版本都没有恢复正常，不过回滚到 9 月 23 日发布的 26.917.62051 版后恢复正常。有需要的用户可以从蓝点网文件服务器下载历史版本替换，蓝点网也提供其他平台历史版本例如 Windows 版和 Linux 版。下载地址：https://ourl.co/127160&lt;/p&gt;&lt;p&gt;最近几个版本的 ChatGPT for macOS 版似乎有点性能问题，蓝点网发现启动后哪怕没有任何工作也都会占用很高的 CPU，这导致 Mac 温度过高风扇持续中高速运转。&lt;/p&gt;
+&lt;p&gt;这种情况在以前的版本也经常出现，蓝点网每次的做法都是回滚旧版本，针对近期几个新版本，我们尝试回滚 10 月 1 日、9 月 26 日、9 月 24 日的版本都没有恢复正常，不过回滚到 9 月 23 日发布的 26.917.62051 版后恢复正常。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127160.png" rel="nofollow"&gt;&lt;img alt="近期新发布的ChatGPT for macOS版CPU占用率太高？可以临时回滚旧版本" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127160.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;蓝点网使用的是 MacBook Pro M1 Pro 10 核心版，回滚前 ChatGPT CPU 占用率在 150% 左右，此时 CPU 温度持续在 78 摄氏度，风扇自动中高速运转。&lt;/p&gt;
+&lt;p&gt;回滚旧版本后 ChatGPT CPU 占用率在 30% 左右，CPU 温度下降到 60 摄氏度，风扇自动停转。另外测试，无论是否工作 ChatGPT CPU 占用都没有持续上升的情况，后续 ChatGPT 发布新版本后再升级观察下情况，如果没问题了蓝点网再升级。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;蓝点网文件服务器每日定时转存 ChatGPT 新版本，有需要的用户可以保存书签，遇到问题时直接通过旧版本回滚，提供 macOS 版、Windows 版、Linux 版 (均为桌面版)。&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;a href="https://dl.landian.news/?dir=soft/openai/codex/desktop/macos/" rel="noopener" target="_blank"&gt;https://dl.landian.news/?dir=soft/openai/codex/desktop/macos/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;推荐版本：26.917.62051 (下载后正常打开安装选择替换即可)&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sun, 04 Oct 2026 02:36:29 +0000</pubDate></item><item><title>赛博菩萨：Cloudflare宣布将成为免费公共CA 后续将为所有网站和服务提供免费TLS证书</title><link>https://www.landian.news/archives/127163.html</link><description>
+&lt;p&gt;#行业资讯 赛博菩萨：Cloudflare 宣布将成为免费公共 CA，后续将为所有网站和服务提供免费 TLS 证书。现阶段 Cloudflare 提供的证书由其他 CA 提供，现在 Cloudflare 准备申请自己品牌的 Root CA，后续相关证书将由 Cloudflare 自己签发。Cloudflare 与 GlobalSign 达成协议，将收购该公司已经被广泛信任的 Root CA 密钥材料，这听起来像是要做交叉验证，不过具体细节有待公布。查看全文：https://ourl.co/127163&lt;/p&gt;&lt;p&gt;网络服务提供商 Cloudflare 日前宣布，该公司计划成为面向整个互联网提供服务的公共证书颁发机构 (CA)，帮助任何网站自行签发适用于 HTTPS 加密和身份验证的数字证书。这项计划目前处于根证书申请、基础设施建设和合规审核阶段。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127163.png" rel="nofollow"&gt;&lt;img alt="赛博菩萨：Cloudflare宣布将成为免费公共CA 后续将为所有网站和服务提供免费TLS证书" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127163.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 可能使用 GlobalSign Root CA 进行交叉验证：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;从 2014 年开始 Cloudflare 就帮助大量网站部署通用数字证书，这些数字证书上游由其他 CA 签发，现在 Cloudflare 准备自己成为根级别的证书颁发机构，未来 Cloudflare 可以自己签发中级证书、最终证书，相关品牌标识也将换成 Cloudflare 自己的品牌。&lt;/p&gt;
+&lt;p&gt;根据 Cloudflare 的说明，该公司计划和 GlobalSign 签署协议，收购其已经被广泛信任的根 CA 密钥材料，如此来看 Cloudflare Root CA 可能会使用交叉验证的方式获得信任。不过 Cloudflare 也透露正在申请 Chrome、Apple、Mozilla、Microsoft 根证书计划，如果是交叉验证的话通常不需要额外申请，所以具体细节还有待 Cloudflare 公布(估计是双轨制：旧证书交叉验证+新证书检查)。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Cloudflare 确认新的 CA 将优先支持 ACME 协议，通过自动化完成证书申请和续签，对于已经使用 Let's Encrypt 等自动化服务的网站，理论上只需要切换 ACME 服务目录地址即可，不需要重新设计和部署工具。&lt;/p&gt;
+&lt;p&gt;Cloudflare 还计划强制要求客户端支持 ACME Renewal Information，以便在证书需要提前撤销时，分批触发后台续期，降低大规模证书同时失效的风险。Cloudflare 也承诺公开可复现的软件构建流程、密钥硬件证明和证书签发状态面板等。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://www.cloudflare.com/en-au/press/press-releases/2026/cloudflare-announces-public-certificate-authority-for-the-post-quantum-web/" rel="noopener" target="_blank"&gt;Cloudflare&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sun, 04 Oct 2026 02:21:07 +0000</pubDate></item><item><title>罕见：部分iPhone 18 Pro Max在美国使用AT&amp;T时网络失联 受影响设备需要整体换机</title><link>https://www.landian.news/archives/127161.html</link><description>
+&lt;p&gt;#手机数码 也是非常罕见的情况：美版 iPhone 18 Pro Max 在 AT&amp;amp;T 网络下出现蜂窝连接故障，无法通过软件更新修复，苹果建议用户前往零售店换机。大多数情况下新机出现问题后苹果都是通过软件更新执行修复，此次苹果发布 iOS 27.0.1 版和运营商配置文件只能预防问题发生，已经失联的设备无法通过安装更新恢复蜂窝网络。目前苹果并未说明此次问题的发生原因，不过只能换机说明问题还是挺大的。查看全文：https://ourl.co/127161&lt;/p&gt;&lt;p&gt;苹果日前确认少部分 iPhone 18 Pro Max 用户在美国使用 AT&amp;amp;T 网络时出现蜂窝连接故障，设备可能会突然失去服务并无法拨打电话。此前用户还报告短信和移动数据无法使用，状态栏通常会显示 SOS 紧急求助标识。苹果表示，已经出现失联问题的设备需要进行硬件更换，无法通过软件更新直接恢复。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127161.png" rel="nofollow"&gt;&lt;img alt="罕见：部分iPhone 18 Pro Max在美国使用AT&amp;amp;T时网络失联 受影响设备需要整体换机" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127161.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;为解决这个问题苹果已经发布 iOS 27.0.1 版和运营商配置文件更新进行修复，苹果建议所有 iPhone 18 Pro Max 用户尽快安装 iOS 27.0.1，同时运营商配置文件更新会在 14 天内自动推送下载安装。不过这些更新只能预防问题出现，无法恢复已经失去蜂窝网络服务的设备。&lt;/p&gt;
+&lt;p&gt;根据苹果的说法，如果设备已经无法连接 AT&amp;amp;T 网络，则用户需要联系苹果官方支持或 AT&amp;amp;T，也可以前往苹果零售店或 AT&amp;amp;T 门店处理硬件更换。苹果目前尚未公布具体的故障部件、维修方式和更换政策细节， 从已知情况来看苹果采取的是直接整机更换来解决问题。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;美版 iPhone 18 Pro Max 等机型使用的是高通骁龙系列 5G 基带芯片，苹果在其他市场使用的均为自研 C2 基带芯片，不过现有信息还不能证明基带是故障的主要原因。与此同时遇到问题的似乎也只有 AT&amp;amp;T 网络，美国其他运营商网络并没有出现类似问题。&lt;/p&gt;
+&lt;p&gt;大多数情况下新机出现问题苹果都是通过 iOS 软件更新执行修复，像这种直接更换硬件的情况非常罕见，如果是大面积问题那对苹果来说可能会造成严重损失。现在苹果已经发布软件更新和运营商配置文件更新，应该可以避免更多设备遇到类似问题。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sun, 04 Oct 2026 01:57:46 +0000</pubDate></item><item><title>谷歌飘了？从10月9日起免费用户仅可使用Gemini Flash-Lite模型 高阶模型均需开会员</title><link>https://www.landian.news/archives/127159.html</link><description>
+&lt;p&gt;#人工智能 谷歌飘了？从 10 月 9 日开始 Gemini 仅面向免费用户提供 Flash-Lite 模型，其他中高阶模型均只向付费用户提供。就连 Flash 模型现在都至少需要开通 AI Plus 订阅，而要使用 Pro 模型则需要订阅 AI Pro 或 AI Ultra 套餐。问题是，Gemini 模型俗称美国大豆包，谷歌这是破罐子破摔的节奏？查看全文：https://ourl.co/127159&lt;/p&gt;&lt;p&gt;谷歌正在调整 Gemini 应用的模型访问权限，根据谷歌官方文档所说，从 2026 年 10 月 9 日起，使用个人账号且未开通谷歌 AI 订阅方案的用户，将只能使用 Gemini Flash-Lite 模型，其他模型例如 Gemini Flash 和 Gemini Pro 等模型不再面向免费版用户开放。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127159.png" rel="nofollow"&gt;&lt;img alt="谷歌飘了？从10月9日起免费用户仅可使用Gemini Flash-Lite模型 高阶模型均需开会员" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127159.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;此次调整谷歌按照订阅方案对模型访问权限重新分层，其中谷歌 AI Plus 订阅用户可以使用 Gemini Flash-Lite 和 Gemini Flash 模型，但不能使用 Gemini Pro 系列模型。谷歌 AI Pro 和 AI Ultra 订阅用户可以使用 Gemini Flash-Lite、Flash 和 Pro。AI Plus 的具体生效时间可能因账号而异，谷歌表示相关用户将通过电子邮件收到通知。&lt;/p&gt;
+&lt;p&gt;此次调整意味着 Gemini 的免费版只会提供基本的人工智能服务，而高阶模型将成为付费方案的差异化功能。对于主要进行简单问答、文本改写和日常信息查询的用户，影响可能相对有限，需要更强推理、复杂编程或长内容分析的用户，则可能需要升级方案。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 此次调整仅适用于个人账号 + Gemini 应用：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;需要说明的是，此次调整主要针对个人账号使用的 Gemini 网页版和 Gemini 应用，暂未影响 Gemini API、AI Studio、Google Workspace，使用以上产品的用户未收到谷歌通知说明暂时没有变更，用户可以继续按照之前的节奏使用相关模型。当然本身这些产品都是收费或限量免费，所以可能不会进行大幅度调整。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sun, 04 Oct 2026 01:33:05 +0000</pubDate></item><item><title>苹果将收紧macOS完全磁盘访问权限 AI驱动的智能体是重点关注对象</title><link>https://www.landian.news/archives/127173.html</link><description>
 &lt;p&gt;#系统资讯 苹果将收紧 macOS 完全磁盘访问权限，AI 驱动的智能体是重点关注对象，该权限会放大隐私风险。完全磁盘访问最初只用于备份工具、磁盘分析工具和安全软件，但现在很多 AI 应用都在使用这个权限。问题在于，获得该权限后用户的所有文件包括邮件、信息、浏览器记录等同样可能会被访问，所以苹果准备优化该权限避免 AI 应用泄露用户隐私。查看全文：https://ourl.co/127173&lt;/p&gt;&lt;p&gt;苹果日前发布公告宣布将为 macOS 全磁盘访问权限增加额外控制措施，此次变更的原因是部分应用获得完全磁盘访问权限后，可能会让用户的敏感数据暴露在更大的风险中。&lt;/p&gt;
 &lt;p&gt;苹果表示未来只有用户进行非常明确的操作后，应用程序才能获得完全磁盘访问权限，不过苹果暂时还未公布具体的变更内容和实施时间，从公告来看苹果将增加新的 API 用来细化权限控制。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127173.png" rel="nofollow"&gt;&lt;img alt="苹果将收紧macOS完全磁盘访问权限 AI驱动的智能体是重点关注对象" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127173.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -82,95 +125,4 @@
 &lt;p&gt;这类问题也与智能体能力增强直接相关，当模型能自行拆解任务、操作软件和调用网络服务时，评估重点不能只看任务是否完成，还需要确认模型的整个操作链路是否遵守用户设定的权限边界、是否能如实报告执行结果。&lt;/p&gt;
 &lt;p&gt;目前多数模型发布前都有各类对齐评估，其中达不到安全对齐标准是个比较严重的问题，而模型表现出较高的欺骗性也存在安全隐患，所以 OpenAI 暂缓发布新模型也是非常有必要的，避免发布后再出现严重的安全问题。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 29 Sep 2026 02:24:32 +0000</pubDate></item><item><title>重磅：GitHub已禁止使用Outlook和Hotmail邮箱注册新账号 原因是遭到持续轰炸</title><link>https://www.landian.news/archives/127097.html</link><description>
-&lt;p&gt;#网站应用 重磅消息：GitHub 已禁止使用 Outlook 和 Hotmail 邮箱注册新账号，原因是持续遭到黑灰产团伙利用以上邮箱注册账号和滥用。以前黑灰产团伙都喜欢使用 Outlook 和 Hotmail 注册 GitHub 账号，这些邮箱用户量大且信誉较好因此通常不会被平台拦截。现在 GitHub 都下定决心封禁 Outlook 和 Hotmail，只能说也是受不了了。查看全文：https://ourl.co/127097&lt;/p&gt;&lt;p&gt;微软旗下代码托管网站 GitHub 日前悄悄禁止使用微软的 Outlook 和 Hotmail 邮箱注册新账号，已经注册的账号可以继续使用，但如果用户准备新注册账号的话只能使用其他邮箱，使用 Outlook 和 Hotmail 后缀的邮箱会显示邮箱无法验证。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/127097.png" rel="nofollow"&gt;&lt;img alt="重磅消息：GitHub已禁止使用Outlook和Hotmail邮箱注册新账号 原因是遭到持续轰炸" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/127097.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;GitHub 注册也有比较严格的安全校验，所以部分黑灰产团队会优先使用微软的 Outlook 和 Hotmail 注册账号，因为这些邮箱品牌信誉度更高，通常大部分平台不会拦截 Gmail、Outlook 和 Hotmail 这类邮箱，反而是某些自定义域名邮箱更容易被拦截。&lt;/p&gt;
-&lt;p&gt;所以能让 GitHub 都封禁 Outlook 和 Hotmail 只能说近期黑灰产的行为已经触及 GitHub 的底线，尽管禁用这些邮箱会影响大量用户，但 GitHub 还是选择禁止使用 Outlook 和 Hotmail 注册新账号，目前没有任何恢复时间。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;GitHub 在发现与 Outlook 和 Hotmail 域名相关的持续性、有组织的欺诈和滥用行为后，已暂停使用这两个邮箱地址注册新账号。现有账号不受影响，GitHub 建议使用其他受支持的邮箱注册，GitHub 会继续评估如何在提供安全访问的同时防止滥用行为。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://github.com/orgs/community/discussions/208640" rel="noopener" target="_blank"&gt;GitHub Discussions #208640&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 28 Sep 2026 03:25:19 +0000</pubDate></item><item><title>微软为Excel测试重磅新功能：在单元格里存储多个值 列表和嵌套数组同步加入</title><link>https://www.landian.news/archives/127096.html</link><description>
-&lt;p&gt;#软件资讯 微软为 Excel 带来重磅新功能：可以在一个单元格里存储多个值，并支持后续的函数计算。以上功能名为列表，即通过英文半角分号或逗号将结构化值隔开，Excel 可以识别值而不是将其作为文本字符串处理。配套提供的还包括单元格数组和嵌套数组以及四个配套的新函数。查看全文：https://ourl.co/127096&lt;/p&gt;&lt;p&gt;微软日前正在测试可能改变 Excel 数据处理方式的新功能：单元格可以同时容纳多个结构化值。此次更新包括列表、单元格数组以及嵌套数组，支持该功能的新测试版正在向 Microsoft 365 Beta 用户推送，在测试完毕后该功能将陆续支持正式版用户。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/127096-1.png" rel="nofollow"&gt;&lt;img alt="微软为Excel测试重磅新功能：在单元格里存储多个值 列表和嵌套数组同步加入" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/127096-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;以前用户可能会把多个数据写到单元格文本中，例如在某个单元格里写「张三、车间主任、028」这样的文本，Excel 会将这个单元格里的内容视为单独的字符串，无法直接按照其中的某个成员、职位或工号进行筛选，也难以在计算中分别应用。&lt;/p&gt;
-&lt;p&gt;新的列表功能将这些保存的内容视为同一单元格中的独立项目，用户可以通过插入、列表或快捷键 Ctrl+J 创建列表，然后再输入粘贴以英文半角逗号或分号分隔的多个值。单元格会显示列表图标，点击后可以查看各个项目，也可以通过双击单元格或 F2 添加、删除和修改项目。&lt;/p&gt;
-&lt;p&gt;列表最大的变化在于，Excel 能够识别其中的单独值，筛选数据时可以选择列表中的一个或多个项目，而不是只能对整段文本进行精确匹配。引用列表时，Excel 还可以返回其中的全部值，将结果溢出到相邻单元格中。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/127096-2.png" rel="nofollow"&gt;&lt;img alt="微软为Excel测试重磅新功能：在单元格里存储多个值 列表和嵌套数组同步加入" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/127096-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;列表功能主要面向人工录入的数据，Arrays in Cells 数组功能则改变公式结果的存储方式。传统动态数组公式会将多个结果自动溢出到相邻单元格中保存，新功能允许用户将数组作为一个整体保存在单元格内。&lt;/p&gt;
-&lt;p&gt;这些数组可以是任意大小或形状，也可以由公式生成，对需要保持表格紧凑、但又希望保留多个计算结果的场景，这种方式可以减少辅助列和临时区域。例如一张跑步记录表可以让每一行对应一次跑步，在同一个单元格中保存数量不等的分段成绩，然后在旁边计算总用时、平均配速和最快分段等。&lt;/p&gt;
-&lt;p&gt;嵌套数组允许一个数组内部继续包含其他数组，例如不同项目可以分别拥有数量不同的任务列表。以前相关公式可能只能返回部分结果，或者产生计算错误提示，添加嵌套数组后，支持的公式可以保留完整层级结构并继续参与后续计算。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;FLATTEN：用于展开嵌套结构&lt;/li&gt;
-&lt;li&gt;HAS：检查数组中是否包含指定值&lt;/li&gt;
-&lt;li&gt;HASANY：判断是否包含任意目标值&lt;/li&gt;
-&lt;li&gt;HASALL：判断是否包含全部目标值&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://techcommunity.microsoft.com/blog/excelblog/excel-now-supports-multiple-values-in-a-single-cell/4549756" rel="noopener" target="_blank"&gt;Microsoft TechCommunity&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 28 Sep 2026 03:10:47 +0000</pubDate></item><item><title>Windows 11 8.3短文件名有可能会拖慢海量文件操作 禁用后可以显著提升性能</title><link>https://www.landian.news/archives/127095.html</link><description>
-&lt;p&gt;# 技术教程 有用户发现禁用 Windows 11 8.3 短文件名机制后资源管理器性能明显提升，如果是开发者的话建议禁用试试看。8.3 别名机制是为兼容 MS-DOS 时代的 8 字符文件名 + 3 字符扩展名而存在，即便是 Windows 11 也还保留这种机制。有用户禁用该机制后发现资源管理器平铺、滚动、与安卓互传文件的性能有明显提升。不过前提是目录里含有海量文件，如果文件较少那禁用后也不会明显改善。查看全文：https://ourl.co/127095&lt;/p&gt;&lt;p&gt;Windows NT 沿用源自 MS-DOS 时代的 8.3 短文件名机制，为确保兼容性因此直到 Windows 11 微软都还继续支持 8.3 文件名规则。而出于性能考虑用户可以在系统范围或指定磁盘卷中关闭短名称生成，但有用户实测后发现关闭短文件名机制后可能会导致文件操作性能明显提升。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/127095.png" rel="nofollow"&gt;&lt;img alt="Windows 11 8.3短文件名有可能会拖慢海量文件操作 禁用后可以显著提升性能" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/127095.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这种文件名机制主要是向后兼容旧的 MS-DOS 命名规则而存在，在 8.3 机制中旧版 MS-DOS FAT 文件系统最多支持 8 个字符的基本文件名和 3 个字符的扩展名，合计包含点分隔符后最多 12 个字符 (JPEG 为兼容这种机制也使用 JPG，两种扩展名没有任何区别)。&lt;/p&gt;
-&lt;p&gt;在 NTFS 这类现代文件系统中支持长文件名，但系统仍然可以为长文件名创建额外的短 8.3 别名，例如某个长文件名可能有个包含波浪号～的短别名 (这在 WindowsApps 目录里非常常见)。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;微软在支持文档中明确提到基于性能考虑用户可以禁用 8.3 别名机制，禁用范围可以是整个系统级别的，也可以是特定磁盘卷的，具体取决于用户使用的文件系统 (NTFS、FAT、ReFS 等)。&lt;/p&gt;
-&lt;p&gt;不过有用户在关闭新文件的 8.3 别名生成并清理部分既有别名后，发现 Windows 11 文件资源管理器平铺视图滚动、文件搜索以及与安卓设备之间互传文件的性能都有改善。&lt;/p&gt;
-&lt;p&gt;对普通用户而言建议还是继续保留 8.3 别名生成功能，避免未来执行某些操作时出现兼容性问题，但如果用户遇到文件资源管理器的性能问题，倒是可以试试禁用 8.3 别名机制，如果有问题还可以改回来。&lt;/p&gt;
-&lt;p&gt;注意：如果你是开发者且日常经常操作包含百万级别文件的 NTFS 目录时，才建议禁用 8.3 别名机制，如果文件数量较少那禁用后带来的性能提升也不明显，所以没必要禁用。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;以管理员模式打开命令提示符并执行如下命令进行操作。注意：禁用后不会自动清理当前已有 8.3 别名。&lt;/p&gt;
-&lt;pre&gt;# 查看当前状态 (默认开启)
-
-fsutil 8dot3name query C:
-
-# 按磁盘关闭 8.3 机制 (非系统全局)
-
-fsutil 8dot3name set 2
-
-# 关闭 C 盘新文件的 8.3 别名生成
-
-fsutil 8dot3name set C: 1
-
-# 如果是 D 盘则执行下面的命令
-
-fsutil 8dot3name set D: 1
-
-# 重新开启别名生成
-
-fsutil 8dot3name set C: 0
-
-# 系统级别的禁用 (全局)
-
-fsutil 8dot3name set 1
-
-# 关闭所有磁盘的 8.3 别名生成
-
-fsutil 8dot3name set 0
-
-# 注意：禁用后不会清除现有文件的别名，需使用 strip 清理，清理有可能导致现有软件无法启动，清理前请完整备份&lt;/pre&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://learn.microsoft.com/en-us/windows/win32/fileio/naming-a-file#file-and-directory-names" rel="noopener" target="_blank"&gt;Microsoft&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 28 Sep 2026 02:49:04 +0000</pubDate></item><item><title>Windows 11测试版新增自定义鼠标指针颜色 还可以按Ctrl显示鼠标位置等</title><link>https://www.landian.news/archives/127094.html</link><description>
-&lt;p&gt;#系统资讯 Windows 11 测试版新增自定义鼠标指针颜色功能，还可以按 Ctrl 显示鼠标位置等。这些功能被放在辅助功能里，其中自定义颜色主要用户群是色盲症用户，当然普通用户也可以使用。而指示器功能对高分屏和带鱼屏用户来说可能比较实用，启用功能后只需要按 Ctrl 即可显示向内收缩的黑色大圆环标记鼠标位置。查看全文：https://ourl.co/127094&lt;/p&gt;&lt;p&gt;此前已经有消息称微软将为 Windows 11 鼠标指针带来类似 PowerToys 提供的指示器功能，鼠标指示器主要用于在高分辨率屏幕和带鱼屏上帮助用户快速定位鼠标，现在在最新发布的测试版中该功能已经上线。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/127094.png" rel="nofollow"&gt;&lt;img alt="Windows 11测试版新增自定义鼠标指针颜色 还可以按Ctrl显示鼠标位置等" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/127094.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在 Windows 11 Beta Build 26220.9568 版中，微软在辅助功能里新增自定义鼠标颜色功能，该功能主要目的是帮助视力障碍例如色盲症用户切换不同的颜色增强视觉效果，普通用户也可以根据需要自定义鼠标颜色。&lt;/p&gt;
-&lt;p&gt;除了系统预设的多种颜色外，用户也可以完全自定义颜色，微软提供 RGB 颜色和 HEX 色值选择，满足不同用户对颜色偏好的需求。设置位置：Windows 11 设置、辅助功能、鼠标指针与触控、自定义颜色。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;第二项功能就是鼠标指示器，该功能开启后通过 Ctrl 键触发，当按 Ctrl 键时鼠标周围将显示向内收缩的黑色大光圈，用于在屏幕上快速显示鼠标所在位置，避免带鱼屏或高分辨率屏幕找不到鼠标的问题。&lt;/p&gt;
-&lt;p&gt;目前微软并未提供自定义快捷键触发，所以开启后用户有时候不慎碰到 Ctrl 时就会显示光圈，如果你将 Ctrl 设置为其他用途的快捷键，记得到对应软件里顺手改下，避免不停地触发并显示指示器光圈。&lt;/p&gt;
-&lt;p&gt;该功能位于：Windows 11 设置、辅助功能、鼠标指针与触控、鼠标指示器，开启该选项后按 Ctrl 进行测试，正常情况下会显示黑色大圆环，不过目前这个圆环样式比较丑，可能后面还需要微软进行优化。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://learn.microsoft.com/en-us/windows-insider/release-notes/beta/preview-build-26220-9568" rel="noopener" target="_blank"&gt;Microsoft&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 28 Sep 2026 02:24:06 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 29 Sep 2026 02:24:32 +0000</pubDate></item></channel></rss>
