@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Mon, 05 Oct 2026 19:19:35 +0000</lastBuildDate><item><title>特努斯与库克在史蒂夫·乔布斯逝世15周年之际发表简短悼念推文</title><link>https://x.com/johnternus/status/2107093462118199562</link><description>&lt;p&gt;约翰·特努斯在 X 上发文：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Mon, 05 Oct 2026 23:49:05 +0000</lastBuildDate><item><title>[赞助] Sunnny</title><link>https://sunnny.com/</link><description>&lt;p&gt;B2B软件怎么能这么美味？早期访问10月19日上线。把爱传出去。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/feeds/sponsors/2026/10/sunnny" title="Permanent link to ‘Sunnny’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Mon, 05 Oct 2026 23:49:05 +0000</pubDate></item><item><title>OpenAI宣布其文本水印计划</title><link>https://openai.com/index/eu-text-provenance/</link><description>&lt;p&gt;OpenAI，今天：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;欧盟《人工智能法案》要求生成式 AI 提供者以机器可读的方式使生成的文本可识别。文本水印和检测仍属早期技术，存在重大局限，而关于其益处和负责任使用的观点仍在发展。我们的分阶段做法既反映了欧盟《人工智能法案》的要求，也反映了该技术的局限，并强调对文本水印能告诉人们什么、不能告诉人们什么保持透明：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;从今天起，全球 API 客户将能够为部分模型选择启用文本水印。文本水印在 API 中默认仍将保持关闭。&lt;/li&gt;
+&lt;li&gt;未来几周内，我们将为欧盟境内符合条件的 ChatGPT 和 Codex 文本输出添加不可见水印。&lt;/li&gt;
+&lt;li&gt;我们正在开放申请，以获取我们的文本水印检测器。访问权限最初将仅限于经批准的研究人员和专家组织，他们能帮助我们评估和改进这项技术。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;第一，与 Anthropic 不同，OpenAI 只在欧盟将其强加给用户，因为这是其考虑不周的 2024 年法规所强制要求的。第二，同样与 Anthropic 不同，OpenAI 已通过 API 提供这一功能，因此开发者应该能够实际看到，在真实使用中这是否会掺杂文本输出。&lt;/p&gt;
+&lt;p&gt;第二，这些公司都尚未让其水印检测器公开可用。我仍然高度怀疑它们会在现实世界中如宣传那般有效。我认为这整件事多少有点像一场骗局：声称遵守欧盟《人工智能法案》，却没有真正提供任何人们能以实用方式实际使用的东西。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我们的文本水印技术 textGrain 会向模型的词语选择添加一种不可见的统计信号。我们的检测器会寻找该信号，以评估一段文字是否包含 OpenAI 水印。有关 textGrain 工作原理的更多细节可在我们的 &lt;a href="https://cdn.openai.com/pdf/e9508624-d767-41b6-a26d-e34ca798ada6/textgrain-entropy-calibrated-watermarking-for-language-model-text.pdf"&gt;技术报告&lt;/a&gt;中找到，该报告将在未来几周内更新更多细节。我们还计划将该技术开源，以便其他人能在其基础上继续开发。&lt;/p&gt;
+&lt;p&gt;在我们的评估中，textGrain 达到或超过了我们所测试的其他方法的性能，包括用于文本的 SynthID。即便如此，理想条件下的强劲性能并不能保证在日常使用中可靠检测。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href="https://www.nature.com/articles/s41586-024-08025-4"&gt;SynthID-Text&lt;/a&gt; 是 Google 的算法，Anthropic 称他们也在使用它。&lt;/p&gt;&lt;p&gt;也许我完全错了，但我认为上面引用的最后一句话的意思是，它只在理想条件下、使用简单的提示时才能有效运行，在实际日常使用中将变得不可用，尤其是当用户的提示包含旨在绕过它的指令时。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/10/05/openai-announces-their-text-watermarking-plans" title="Permanent link to ‘OpenAI Announces Their Text Watermarking Plans’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Mon, 05 Oct 2026 22:59:14 +0000</pubDate></item><item><title>特努斯与库克在史蒂夫·乔布斯逝世15周年之际发表简短悼念推文</title><link>https://x.com/johnternus/status/2107093462118199562</link><description>&lt;p&gt;约翰·特努斯在 X 上发文：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;史蒂夫教导我们要关注每一个细节、每一次体验、每一个人，这种方式至今仍指引着我们的工作。永远感恩。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -31,15 +50,4 @@
 &lt;p&gt;相当不寻常的是，一旦设备受到影响并失去服务，就必须更换设备。然而，27.0.1 iOS 更新包含了一个（或多个）修复，应该能帮助尚未失去服务的设备避免失去服务。我很想弄明白，为什么软件更新可以防止现有设备受到影响，但软件更新却无法为已经受到影响的现有设备恢复服务。&lt;/p&gt;
 &lt;p&gt;我还好奇另一件事：这究竟与 AT&amp;amp;T 用户有关，还是与 AT&amp;amp;T 的&lt;em&gt;网络&lt;/em&gt;有关——那些连接到后台由 AT&amp;amp;T 提供的 MVNO 运营商的 iPhone 18 Pro Max 是否也会同样受到影响？例如使用 &lt;a href="https://bestmvno.com/us-mobile/us-mobiles-att-dark-star/"&gt;US Mobile 的“Dark Star”服务&lt;/a&gt;的 US Mobile 用户？我&lt;a href="https://daringfireball.net/contact/"&gt;很想听听&lt;/a&gt;任何了解情况的人的说法。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/10/03/iphone-18-pro-max-att-issues" title="Permanent link to ‘Apple Confirms iPhone 18 Pro Max AT&amp;amp;T Cellular Issues, Affected Devices Require Hardware Replacement’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Sat, 03 Oct 2026 18:21:14 +0000</pubDate></item><item><title>★ 苹果将进一步收紧MacOS上的完全磁盘访问权限，以应对失控的代理式AI应用</title><link>https://daringfireball.net/2026/10/apple_full_disk_access</link><description>&lt;p&gt;Apple Developer News，在一篇题为“&lt;a href="https://developer.apple.com/news/?id=p6zjojqw"&gt;macOS 中完全磁盘访问权限的更新&lt;/a&gt;”的文章中表示：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我们为开发者提供强大的 API，让他们能够为 Apple 产品上的 App 构建出色的功能，并辅以一系列旨在保护用户私人数据的控制措施。完全磁盘访问权限在很大程度上绕过了这些控制，以便让备份 App 能在 Mac 上正常运行。一些开发者正在以可能将用户置于风险之中的方式使用完全磁盘访问权限，在用户并不完全知情和理解的情况下，暴露其系统上的一切——包括文件、邮件、信息，甚至浏览历史。对于通信 App 而言，这还可能危及与用户通信之人的隐私。&lt;/p&gt;
-&lt;p&gt;今后，我们将引入额外的控制措施，确保真正希望授予某个 App 这种非同寻常访问级别的用户，只能通过非常明确的用户操作来实现。解决这一问题至关重要。随着 AI 智能体能力越来越强、自主性越来越高，与这种访问级别相关的风险将大幅增加。我们致力于确保用户在授予此类访问权限之前清楚理解这些风险，从而能够就自己的数据和隐私做出明智的决定。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;他们没有点名，但显然这是对 Meta Muse（参见 &lt;a href="https://daringfireball.net/linked/2026/09/25/aten-muse"&gt;Jason Aten 与 Muse 的不幸遭遇&lt;/a&gt;，当时 Muse 访问了 Aten 的 iMessages）、&lt;a href="https://x.ai/news/introducing-grok-bot"&gt;Grok Bot&lt;/a&gt;、Claude、Dots 以及其他类似产品的回应。这就是我们不能拥有美好事物的原因。&lt;/p&gt;
-&lt;p&gt;我真的很担心 Apple 会把完全磁盘访问权限锁得有多死。我在好几个 App 中使用它，没有它这些 App 就无法正常运行；如果我每次它们执行操作时都需要手动授权，那将受到严重妨碍。&lt;/p&gt;&lt;p&gt;但在我们这些 Mac 高级用户去库比蒂诺抗议之前，我们应该注意到，我们不知道有多少不熟悉技术的 Mac 用户正在打电话给苹果，在零售店的天才吧排队，抱怨 Muse 和其他这些代理在说服这些用户授予它们访问权限后，违背他们的意愿，在他们的 Mac 上胡作非为。对于我们当中能力最强的用户来说，Mac 多年来似乎已经“过于封闭”，这是一种合理的挫败感。但如今全球大约有 1.5 亿 Mac 用户。他们中的大多数在技术上都并不精通——其中大多数人，是极其不精通。他们中的许多人有着 iPadOS 这个&lt;a href="https://daringfireball.net/2026/07/whats_good_for_the_ios_goose_is_often_not_good_for_the_macos_gander"&gt;婴儿电脑&lt;/a&gt;操作系统无法满足的技术需求。对他们中的很多人来说，可能只是能够运行真正的谷歌 Chrome 网络浏览器——甚至是桌面版 Safari。因此，有数千万人需要使用 Mac 来完成 iPad 上做不到的事情，但他们完全不明白，比如说，授予 Muse 完全磁盘访问权限意味着什么。然后他们认为，Muse 突然能够读取他们私密的 iMessage 对话，是&lt;em&gt;苹果的错&lt;/em&gt;。&lt;/p&gt;
-&lt;p&gt;（如果有谁，比如说，在苹果零售店工作，能够确认这是否是一个不断升级的支持问题——无论是不是——&lt;a href="https://daringfireball.net/contact/"&gt;我很想听听你的说法&lt;/a&gt;，会保密。）&lt;/p&gt;
-&lt;p&gt;在 iOS（及其平板版本 iPadOS）上，你可以对 Muse 这类应用请求的每一件事都点“好”，而 Muse 仍然无法读取你的电子邮件或来自 iMessage 或 WhatsApp 的端到端加密消息。没有任何权限级别会授予第三方应用此类权限。（欧盟想根据 DMA 迫使苹果允许那样做。）macOS 不是这样。你仍然需要授予应用此类权限，但如果你对 Muse 这类应用在 Mac 上请求的所有东西都点“好”，你就等于授予了该应用访问你启动磁盘上几乎所有内容的权限。仍然有一些东西它看不到，但不多。许多不懂技术的 Mac 用户不明白这一点，也不能指望他们明白这一点。他们只是错误地认为，苹果保护他们不会允许任何真正危险的事情，因为他们的 iPhone（和/或 iPad）就是这样工作的。所以他们只是对 Muse 的每个访问请求都点“好”，并假定自己仍然大体上受到保护。&lt;/p&gt;&lt;p&gt;希望 Apple 心里已经有针对这种情况的解决方案，仍能让有见识的高级用户确认同意一个足够吓人的警告，并把他们的 Mac 置于类似如今的状态。我很担心。减轻我最深恐惧的，是知道 Apple 自己的每一位技术用户都需要把 Mac 当作它本来就是的强大 Unix 工作站操作系统来使用。我们中的一些人需要强大到危险的工具。然而，大多数 Mac 用户并不需要——也没有意识到他们正在使用一台强大到危险、却有着非常友好（&lt;a href="https://basicappleguy.com/basicappleblog/lil-finder-guy"&gt;字面意义上的&lt;/a&gt;）面孔的 Unix 工作站。&lt;/p&gt;</description><pubDate>Fri, 02 Oct 2026 20:40:15 +0000</pubDate></item><item><title>洋基队两场比赛横扫波士顿，总比分18比2</title><link>https://www.nytimes.com/athletic/7648172/2026/09/30/yankees-beat-red-sox-mlb-wild-card-series/</link><description>&lt;p&gt;昨晚第六局，洋基队仅以2-0领先，红袜队一垒手、彻头彻尾的蠢货威尔森·孔特雷拉斯击出一记本垒打，将比分追至2-1。孔特雷拉斯决定&lt;em&gt;绕垒漫步&lt;/em&gt;。棒球之神对这种招摇好斗的炫耀行为可不会宽容以待。（尤其是当你球队还落后的时候。）孔特雷拉斯在击出本垒打后绕垒而行，活像一只公鸡在向你宣告它刚上了几只母鸡——只不过速度更慢。&lt;/p&gt;
-&lt;p&gt;下一局，孔特雷拉斯注意力不集中，他的懒散让一名洋基球员在挥棒落空三振后因暴投上垒。这引发了一轮攻势，最终导致了那场比分悬殊的惨败。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/10/01/yankees-sweep-sox" title="Permanent link to ‘Yankees Sweep Boston in Two Games, by Combined Score of 18-2’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Fri, 02 Oct 2026 00:06:56 +0000</pubDate></item></channel></rss>
+</description><pubDate>Sat, 03 Oct 2026 18:21:14 +0000</pubDate></item></channel></rss>
