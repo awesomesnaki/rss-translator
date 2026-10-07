@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sun, 04 Oct 2026 02:36:29 +0000</lastBuildDate><item><title>近期新发布的ChatGPT for macOS版CPU占用率太高？可以临时回滚旧版本</title><link>https://www.landian.news/archives/127160.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 07 Oct 2026 02:29:51 +0000</lastBuildDate><item><title>突发：多个国别顶级域名遭到劫持 谷歌通过Chrome紧急封锁未授权签发的TLS证书</title><link>https://www.landian.news/archives/127171.html</link><description>
+&lt;p&gt;#安全资讯 突发：多个国别顶级域名遭到劫持，谷歌通过 Chrome 紧急封锁未经授权签发的 TLS 证书。据谷歌安全团队发布的最新消息，加纳 GH 域名、塞拉利昂 SL 域名、美属萨摩亚 AS 域名遭到域名注册机构级别的劫持。黑客篡改 DNS 记录为包括谷歌在内的多个域名申请 TLS 证书用于后续劫持。目前谷歌正在通过 Chrome CRLSet 机制封锁已经识别出来的异常证书，建议用户在访问相关域名时提高警惕，因为此时这些域名可能已经被黑客控制。查看全文：https://ourl.co/127171&lt;/p&gt;&lt;p&gt;据谷歌安全团队发布的最新博客，近期加纳国别顶级域名 GH、塞拉利昂国别顶级域名 SL、美属萨摩亚地区顶级域名 AS 遭到攻击者劫持。黑客直接通过域名注册机构级别的攻击获得大量域名的控制权，然后篡改 DNS 记录用于申请签发 TLS 证书，最终这些证书将被用于面向用户的劫持。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127171.png" rel="nofollow"&gt;&lt;img alt="突发：多个国别顶级域名遭到劫持 谷歌通过Chrome紧急封锁未授权签发的TLS证书" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127171.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;黑客获得域名控制权后主要行为是篡改 DNS 记录用于申请签发 TLS 证书，当成功签发证书后就可以将域名指向黑客服务器并用于劫持和流量解密。谷歌在博客中透露，包括谷歌在内的多个机构网站域名都出现未经授权签发的 TLS 证书。&lt;/p&gt;
+&lt;p&gt;谷歌强调该公司内部系统并未遭到入侵，也没有理由认为签发证书的证书颁发机构 (CA) 违反相关流程，因为按照现有 CA 流程只要域名添加有效的 DNS 记录那就可以证明申请者拥有域名所有权，所以可以签发证书。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;发现此次事件后谷歌通过 Chrome CRLSet 机制封锁大量已经识别出来的未授权证书，同时谷歌联系相关证书颁发机构撤销证书以保护其他浏览器和客户端。随后谷歌分析证书透明度日志，发现还有多家全球品牌和常用在线服务可能受影响，因此用户访问对应网站时也会看到 Chrome 的拦截提示。&lt;/p&gt;
+&lt;p&gt;谷歌并没有透露受影响的企业或服务名单以及证书数量，谷歌称 DNS 劫持情况非常复杂、无法保证找到所有受影响的域名；浏览器端拦截也不能可靠地保护非 Chrome 用户，相关域名使用者应当检查证书和 DNS 防护记录，如发现异常记录应当及时删除。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;如果使用 GH、SL 和 AS 域名，域名持有者可以访问 crt.sh 网站查询对应域名签发的证书，如果发现存在非自己申请的证书则应当尽快联系证书颁发机构吊销对应的证书，避免黑客继续使用这些证书对用户进行劫持。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://blog.google/security/chromes-response-to-recent-cctld-registry-hijacks/" rel="noopener" target="_blank"&gt;Google&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 07 Oct 2026 02:29:51 +0000</pubDate></item><item><title>近期新发布的ChatGPT for macOS版CPU占用率太高？可以临时回滚旧版本</title><link>https://www.landian.news/archives/127160.html</link><description>
 &lt;p&gt;#软件下载 ChatGPT for macOS 版 CPU 占用率太高？可以临时回滚旧版本。蓝点网发现近期发布的 ChatGPT 新版本都存在 CPU 占用率高问题，这种问题以前也经常发生。蓝点网尝试回滚 10 月 1 日、9 月 26 日、9 月 24 日的版本都没有恢复正常，不过回滚到 9 月 23 日发布的 26.917.62051 版后恢复正常。有需要的用户可以从蓝点网文件服务器下载历史版本替换，蓝点网也提供其他平台历史版本例如 Windows 版和 Linux 版。下载地址：https://ourl.co/127160&lt;/p&gt;&lt;p&gt;最近几个版本的 ChatGPT for macOS 版似乎有点性能问题，蓝点网发现启动后哪怕没有任何工作也都会占用很高的 CPU，这导致 Mac 温度过高风扇持续中高速运转。&lt;/p&gt;
 &lt;p&gt;这种情况在以前的版本也经常出现，蓝点网每次的做法都是回滚旧版本，针对近期几个新版本，我们尝试回滚 10 月 1 日、9 月 26 日、9 月 24 日的版本都没有恢复正常，不过回滚到 9 月 23 日发布的 26.917.62051 版后恢复正常。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127160.png" rel="nofollow"&gt;&lt;img alt="近期新发布的ChatGPT for macOS版CPU占用率太高？可以临时回滚旧版本" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127160.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -115,14 +129,4 @@
 &lt;p&gt;AMD 希望通过这笔交易更深入地参与人工智能模型研究，利用 World Labs 的经验判断未来模型对芯片、软件和系统架构提出的新需求。从 AMD 官方表述来看，这次交易并不只是买下现有产品，World Labs 整个团队都会并入 AMD 公司，即 AMD 吸收研究人员、模型专家以及相关研究方法。&lt;/p&gt;
 &lt;p&gt;对长期以 CPU、GPU 和数据中心加速卡为核心的 AMD 而言，模型团队可以帮助 AMD 更早理解工作负载变化，并可能反向影响 Instinct GPU、ROCm 软件栈以及未来 AI 系统的设计方向。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 29 Sep 2026 02:38:59 +0000</pubDate></item><item><title>因潜在安全和不诚实问题 OpenAI已决定暂缓发布GPT-6.1 Astra</title><link>https://www.landian.news/archives/127098.html</link><description>
-&lt;p&gt;#人工智能 因潜在安全和不诚实问题，OpenAI 已决定暂缓发布 GPT-6.1 Astra 模型，原本该模型计划在近期发布。在内部评估中，团队发现模型有时候未能诚实准确地向用户说明自己在做什么，即表现出较高的欺骗性。另外模型在任务受阻后可能会在未经充分授权的情况下就继续操作，例如调用外部工具和服务等。查看全文：https://ourl.co/127098&lt;/p&gt;&lt;p&gt;OpenAI 原本计划在近期推出升级版模型 GPT-6.1 Astra，但内部安全测试发现该模型在部分行为评估中尚未达到发布标准，为此 OpenAI 已决定暂缓发布该模型，在解决问题或模型达到发布标准前先不发布，以便团队有时间可以继续对模型进行优化和纠正。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/127098.png" rel="nofollow"&gt;&lt;img alt="因潜在安全和不诚实问题 OpenAI已决定暂缓发布GPT-6.1 Astra" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/127098.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;GPT-6.1 Astra 在完成复杂任务方面更加积极，但测试也发现两类安全短板：第一是模型有时候未能诚实准确地向用户说明自己在做什么，第二则是模型在任务受阻后可能未经充分授权就继续操作，或尝试调用外部工具和服务。&lt;/p&gt;
-&lt;p&gt;OpenAI 将第二种问题称为范围授权问题，这类问题在此前也出现过，也就是 OpenAI 测试中的模型越狱到互联网并对其他平台发起攻击，这也同样是未经充分授权就调用外部工具以完成复杂任务。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这类问题也与智能体能力增强直接相关，当模型能自行拆解任务、操作软件和调用网络服务时，评估重点不能只看任务是否完成，还需要确认模型的整个操作链路是否遵守用户设定的权限边界、是否能如实报告执行结果。&lt;/p&gt;
-&lt;p&gt;目前多数模型发布前都有各类对齐评估，其中达不到安全对齐标准是个比较严重的问题，而模型表现出较高的欺骗性也存在安全隐患，所以 OpenAI 暂缓发布新模型也是非常有必要的，避免发布后再出现严重的安全问题。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 29 Sep 2026 02:24:32 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 29 Sep 2026 02:38:59 +0000</pubDate></item></channel></rss>
