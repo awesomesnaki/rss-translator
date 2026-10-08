@@ -1,5 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 07 Oct 2026 02:29:51 +0000</lastBuildDate><item><title>突发：多个国别顶级域名遭到劫持 谷歌通过Chrome紧急封锁未授权签发的TLS证书</title><link>https://www.landian.news/archives/127171.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 08 Oct 2026 02:42:47 +0000</lastBuildDate><item><title>谷歌在Chrome 155版中正式支持JPEG XL格式 支持更高压缩率和渐进式渲染</title><link>https://www.landian.news/archives/127165.html</link><description>
+&lt;p&gt;#软件资讯 Chrome 155 版正式发布，现已默认启用 JPEG XL 图像解码器，至此 JXL 图像格式已经获得所有主流浏览器的支持。JXL 图像格式具备更高的兼容性、HDR、动画、渐进式渲染、有损和无损压缩等。此前谷歌已经实验性支持很长时间，但因为生态问题在 110 版中谷歌放弃支持。后来苹果宣布支持 JXL 后，现在谷歌也重新开始支持这种图像格式。查看全文：https://ourl.co/127165&lt;/p&gt;&lt;p&gt;谷歌日前宣布从 Chrome 155 正式版中默认支持解码 JPEG XL 图片格式，现在浏览器可以直接显示 JXL 图片和动画，不需要安装任何扩展程序或开启实验性功能。此前谷歌已经重新支持 JXL 图片格式并添加解码器，不过相关功能需要开启实验性选项，到 Chrome 155 版 JXL 解码器作为正式功能默认启用。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127165.png" rel="nofollow"&gt;&lt;img alt="谷歌在Chrome 155版中正式支持JPEG XL格式 支持更高压缩率和渐进式渲染" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127165.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;JPEG XL 是基于 ISO/IEC 18181 标准的图像格式，支持有损和无损图像压缩、高动态范围 (HDR)、高位深、动画以及渐进式解码等。其中渐进加载可以先呈现图像概览再逐步补足细节。&lt;/p&gt;
+&lt;p&gt;谷歌称在画质相当时 JPEG XL 相比 JPEG 可以实现约 30%~50% 的压缩收益。这种图像格式还支持对现有 JPEG 进行无损转码，缩小文件的同时保留还原原图的能力，不过实际效果会随着图像内容和压缩参数而变化。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;谷歌浏览器开发团队建议开发者根据素材同时测试 JPEG XL 和 AVIF 图像格式，其中 JPEG XL 更适合高保真和无损压缩的照片，以及需要渐进式加载的场景。较小的图片文件有望降低网站传输的数据量，但网站还需要让图片处理、CDN 分发和上传校验接口支持 JXL 格式。&lt;/p&gt;
+&lt;p&gt;虽然主流浏览器已经陆续支持 JXL 格式，但难免还有非主流浏览器以及旧版浏览器并未支持 JXL 格式，所以网站也需要考虑兼容性问题，即提供例如 JPEG、WebP 或 AVIF 作为无法加载 JXL 时的后备资源，这会占用更多的服务器硬盘空间。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;JPEG XL 格式的发布时间非常早，谷歌浏览器早在 110 版之前就提供支持，但因为相关生态系统发展太缓慢，到 Chrome 110 版发布时谷歌宣布删除 JPEG XL 相关支持和实验。&lt;a href="https://www.landian.news/archives/99005.html" rel="noopener" target="_blank"&gt;不过后来苹果在 iOS 等系统中提供对 JPEG XL 的支持&lt;/a&gt;，这让很多开发者呼吁谷歌重新支持 JPEG XL，所以现在谷歌也确实让 JPEG XL 回归。&lt;/p&gt;
+&lt;p&gt;从 10 月 7 日开始推送的 Chrome 155 所有版本包括 Windows 版、Linux 版、macOS 版和 Android 版均已支持 JXL 图像格式，随着时间的推移接下来使用 JXL 图像格式的网站也会越来越多。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Thu, 08 Oct 2026 02:42:47 +0000</pubDate></item><item><title>谷歌向所有用户开放SynthID检测器 可以检查图片和音视频是否是AI生成</title><link>https://www.landian.news/archives/127167.html</link><description>
+&lt;p&gt;#人工智能 谷歌宣布面向所有用户开放 SynthID 水印检测器，可以识别图片、音频和视频是否是 AI 生成。SynthID 盲水印机制无法通过简单的裁剪、变色和拍照等方式去除，所以可以用来识别图片是否是 AI 生成。目前使用 SynthID 的主要是谷歌、OpenAI、英伟达和 Kakao，如果检测到为 AI 生成那准确率会很高。但如果未检测到 AI 生成，结果不能保证准确，因为水印可能被通过专业工具去除，或其他 AI 生成但并未使用 SynthID 水印。查看全文：https://ourl.co/127167&lt;/p&gt;&lt;p&gt;谷歌日前宣布其 SynthID 检测器面向全球用户开放，这个检测器主要是用来检测图片、音频和视频是否是 AI 生成的，如果以上媒体内容包含 SynthID 数字水印那就可以检测出来。此前该工具仅面向媒体从业者等受邀用户开放，现在则是所有用户都可以使用，不过需要登录谷歌账号后才能使用。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127167.png" rel="nofollow"&gt;&lt;img alt="谷歌向所有用户开放SynthID检测器 可以检查图片和音视频是否是AI生成" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127167.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这种数字水印最初在 2023 年推出，通过在 AI 生成内容里添加肉眼不可见的信号帮助用户识别内容来源。谷歌称 SynthID 机制已经为超过 1800 亿张图片和视频提供水印，为累计时长约 24 万年的音频添加数字水印。&lt;/p&gt;
+&lt;p&gt;此次谷歌推出的 SynthID 检测器支持谷歌、OpenAI、英伟达以及 Kakao 使用的 SynthID 水印，苹果预计稍后也会提供支持，即以上公司生成的 AI 内容都会添加 SynthID 水印，因此也都可以通过 SynthID 机制进行检测和识别。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这种肉眼不可见的盲水印通过简单裁剪、拍照、变色等方式无法去除，因此 AI 生成的内容经过简单处理后还是可以识别。但也有工具可以针对盲水印进行处理，所以能被检测到的图片说明是 AI 生成，未被检测到的图片也不能代表 100% 非 AI 生成。&lt;/p&gt;
+&lt;p&gt;另外如果 AI 生成内容并未采用 SynthID 水印机制那同样无法识别，所以检测结果仅供参考。值得注意的是要登录账号是因为谷歌仅为用户提供每天 10 次左右的检测机会，如果超限只能次日再上传媒体内容进行检测。&lt;/p&gt;
+&lt;p&gt;试试看：&lt;a href="https://www.landian.news/go?url=https://synthid.com/" rel="noopener" target="_blank"&gt;https://synthid.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;示例图片：https://img.lancdn.com/landian/2026/10/127167.png&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Thu, 08 Oct 2026 02:22:19 +0000</pubDate></item><item><title>ChatGPT添加智能界面功能：回答可以变成图表、按钮和交互工具 不只是文字聊天</title><link>https://www.landian.news/archives/127169.html</link><description>
+&lt;p&gt;#人工智能 ChatGPT 推出智能界面，让 ChatGPT 不再只是文字聊天机器人，可以提供交互式回答。ChatGPT 将根据提问自动生成图表、可点击的按钮和交互工具等，例如解释自行车结构时可以点击示意图查看不同的零部件。智能界面即日起开始向付费用户提供，免费用户从明天开始也可以使用这个功能。查看全文：https://ourl.co/127169&lt;/p&gt;&lt;p&gt;OpenAI 日前宣布，随着 GPT-6 进入 ChatGPT 的日常聊天功能，现在为 ChatGPT 用户推出智能界面。用户提问后，ChatGPT 除了生成文字外，还可以根据问题提供图表、可点击按钮、表单以及可以在对话中直接使用小工具。这意味着 ChatGPT 不再只是文字聊天工具，OpenAI 希望通过智能界面为用户提供更多功能。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127169.png" rel="nofollow"&gt;&lt;img alt="ChatGPT添加智能界面功能：回答可以变成图表、按钮和交互工具 不只是文字聊天" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127169.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;智能界面会根据问题自动选择合适的呈现方式，例如解释自行车结构时用户可以点击示意图查看不同的零部件；安排聚餐时采购数量可以随着就餐人数自动调整；讨论储蓄计划时，对话可以直接出现计算器。用户也可以主动要求 ChatGPT 制作分账工具或小游戏。而对于只需要简短说明的问题，回答仍然会保持常规的文字形式。&lt;/p&gt;
+&lt;p&gt;在学习复杂概念时，交互界面还允许用户改变条件、观察结果，而不必每次都重新描述问题。规划行程时，路线和停靠点也可以与地图一同呈现，这让部分回答从读完一段解释变成边看边调整。&lt;/p&gt;
+&lt;p&gt;OpenAI 表示，新功能使用原生界面组件库和编译系统，模型生成回答时系统同步处理布局和交互元素，让界面逐步出现在聊天窗口中。与之同时推出的 GPT-6 还可以在继续思考或检索信息时开始作答，之后再逐步补充后续内容。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;智能界面功能即日起面向 ChatGPT Plus、Pro、Business、Enterprise 用户推送，从明天开始将扩展支持 ChatGPT Go 和免费版用户。不过企业用户能否使用还取决于 IT 管理员对工作区的设置。付费档位的日常聊天使用 GPT-6 Sol，免费版和 Go 订阅将使用 GPT-6 Luna。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Thu, 08 Oct 2026 02:02:45 +0000</pubDate></item><item><title>希捷与东芝争购日本TDK硬盘磁头业务 可能会对机械硬盘市场产生重大影响</title><link>https://www.landian.news/archives/127164.html</link><description>
+&lt;p&gt;#行业资讯 希捷和东芝争购日本 TDK 硬盘磁头业务，可能会对机械硬盘市场产生重大影响。目前 TDK 在磁头市场的份额超过 80%，无论是西部数据、希捷还是东芝硬盘都需要使用 TDK 磁头。西数和希捷有磁头产线但产能较低，东芝则是完全依赖外部供应。相关交易目前还在谈判阶段，如果最终交易达成也可能会触发强烈的反垄断监管。查看全文：https://ourl.co/127164&lt;/p&gt;&lt;p&gt;彭博社援引知情人士消息称，硬盘制造商希捷和东芝都有意收购硬盘磁头制造商日本 TDK，潜在交易金额可能达到数十亿美元。报道称东芝在春季时与 TDK 接触，希捷随后在夏季提出更高的报价。数据中心对大容量机械硬盘需求的持续增长，让磁头供应成为相关制造商关注的焦点。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127164.png" rel="nofollow"&gt;&lt;img alt="希捷与东芝争购日本TDK硬盘磁头业务 可能会对机械硬盘市场产生重大影响" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127164.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;磁头承担硬盘的数据读写任务，其技术进步关系到单盘容量能否继续提高。目前希捷和西部数据都拥有自己的磁头产线，但也会向日本 TDK 公司采购磁头，而东芝则依赖外部供应磁头。&lt;/p&gt;
+&lt;p&gt;日本 TDK 公司是业内唯一独立的硬盘磁头供应商，如果该公司被某家硬盘制造商收购，那其他硬盘制造商获取磁头的方式也可能随之改变，简言之就是可能会造成严重的磁头依赖问题，因此如果真有硬盘厂商尝试收购 TDK 那也势必会引起反垄断调查。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;目前全球机械硬盘市场主要由西部数据、希捷和东芝构成，对东芝而言稳定的外部磁头供应关系到现有产品生产以及后续技术升级。希捷虽然具备自有磁头产线，但收购 TDK 业务可能为其增加产能。TDK 磁头业务的价值不仅在于其现有订单，该公司还掌握着先进的硬盘磁记录技术。&lt;/p&gt;
+&lt;p&gt;TDK 已经量产用于微波磁辅助记录的磁头，该公司计划在两年后量产热辅助磁记录磁头。TDK 此前披露，面向近线硬盘的磁头销量同比增长 14%，TDK 也会继续投资相关设备。TDK 还预计，尽管整体硬盘产量可能下降，但面向数据中心的近线硬盘产量仍将增长 7%。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;针对相关收购传闻，TDK 公司在 10 月 6 日发布声明称相关消息并非公司公告，目前尚未就磁头业务作出任何决定。有趣的是，东芝否认曾与希捷、TDK 举行三方会谈，也否认计划收购硬盘磁头产能。&lt;/p&gt;
+&lt;p&gt;这里的三方会谈指的是彭博社报道还提到东芝、希捷和 TDK 举行会谈，讨论尝试合资企业并收购 TDK 磁头业务的安排，如果由合资企业控制，那 TDK 在磁头业务领域的话语权还会继续上升。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Thu, 08 Oct 2026 01:46:03 +0000</pubDate></item><item><title>突发：多个国别顶级域名遭到劫持 谷歌通过Chrome紧急封锁未授权签发的TLS证书</title><link>https://www.landian.news/archives/127171.html</link><description>
 &lt;p&gt;#安全资讯 突发：多个国别顶级域名遭到劫持，谷歌通过 Chrome 紧急封锁未经授权签发的 TLS 证书。据谷歌安全团队发布的最新消息，加纳 GH 域名、塞拉利昂 SL 域名、美属萨摩亚 AS 域名遭到域名注册机构级别的劫持。黑客篡改 DNS 记录为包括谷歌在内的多个域名申请 TLS 证书用于后续劫持。目前谷歌正在通过 Chrome CRLSet 机制封锁已经识别出来的异常证书，建议用户在访问相关域名时提高警惕，因为此时这些域名可能已经被黑客控制。查看全文：https://ourl.co/127171&lt;/p&gt;&lt;p&gt;据谷歌安全团队发布的最新博客，近期加纳国别顶级域名 GH、塞拉利昂国别顶级域名 SL、美属萨摩亚地区顶级域名 AS 遭到攻击者劫持。黑客直接通过域名注册机构级别的攻击获得大量域名的控制权，然后篡改 DNS 记录用于申请签发 TLS 证书，最终这些证书将被用于面向用户的劫持。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127171.png" rel="nofollow"&gt;&lt;img alt="突发：多个国别顶级域名遭到劫持 谷歌通过Chrome紧急封锁未授权签发的TLS证书" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127171.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -72,61 +120,4 @@
 &lt;hr/&gt;
 &lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://developer.apple.com/news/?id=p6zjojqw" rel="noopener" target="_blank"&gt;苹果开发者公告&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 03 Oct 2026 08:06:52 +0000</pubDate></item><item><title>ChatGPT Pro 20x版将在明天恢复订阅 对应API额度缩减50% 但会更耐用</title><link>https://www.landian.news/archives/127158.html</link><description>
-&lt;p&gt;#人工智能 200 美元的 ChatGPT Pro 20x 版订阅将在明天恢复，但按照 API 消费金额计算额度将缩水 50%。蒂博称虽然消费金额缩水但实际可以完成更多工作，也就是按照工作量计算的话新版更好。OpenAI 希望快速降低 API 价格并提高模型能力，最终就是 200 美元订阅和 200 美元充值 API 效果相同。另外蒂博还强调不希望人为抬高 API 定价让用户看起来订阅额度更高，然后通过变相方式悄悄缩减额度。查看全文：https://ourl.co/127158&lt;/p&gt;&lt;p&gt;Codex 技术经理蒂博刚刚在社交媒体上发布预告，从明天开始 ChatGPT Pro 20x 订阅将会重新面向新用户开放 (已经开通的用户可以正常续订)。同时 Codex 会调整该订阅的用量计算方式，实际算下来对应的 API 消费金额相当于旧版的 50%。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/02/111836.png" rel="nofollow"&gt;&lt;img alt="ChatGPT Pro 20x版将在明天恢复订阅 对应API额度缩减50% 但会更耐用" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/02/111836.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;按 API 消费金额计算，新版额度相当于旧版的 50%&lt;/li&gt;
-&lt;li&gt;虽然额度缩减但用户实际可以完成的工作会更多&lt;/li&gt;
-&lt;li&gt;20x 版不会在未来实施 5 小时限额机制 (这么说 5x 版似乎有点悬)&lt;/li&gt;
-&lt;li&gt;将增加更多不会消耗用量的功能，具体未知&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;蒂博称不希望通过自己人为太高 API 标价让用户看起来自己的订阅可以获得更高额度，然后再通过其他方式变相调整用量进行缩减。OpenAI 希望继续快速降低 API 价格并提高模型能力，从长远来看模型价格会降到足够低的水平，让大多数用户按需购买用量变得更合理，届时订阅与 API 之间按照 1 美元计算获得的价值将不会存在明显差距。&lt;/p&gt;
-&lt;p&gt;按照蒂博所说，虽然按照 API 价格计算的消费金额被砍掉 50%，但用户可以完成更多工作、按照工作量计算的话，新版比旧版更耐用。此前蒂博在回应用户重置时就发出疑问：为什么没额度后不购买额度呢 (Codex 购买额度相当于按 API 定价购买和使用)。&lt;/p&gt;
-&lt;p&gt;对用户而言 API 价格还是太高，无论直接通过 API 使用还是通过 Codex 内购买额度都太贵，而按照蒂博所说未来订阅和 API 价格将会相当，例如购买 200 美元的 ChatGPT Pro 20x 相当于购买 200 美元 API 额度。现在还没法观察实际结果，不知道这是好事还是坏事。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://x.com/thsottiaux/status/2104823812042940713" rel="noopener" target="_blank"&gt;@Tibo&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 29 Sep 2026 07:38:38 +0000</pubDate></item><item><title>123云盘就调整空间规则道歉 但不会放弃专业空间 如果老用户不爽可以退款</title><link>https://www.landian.news/archives/127101.html</link><description>
-&lt;p&gt;#软件资讯 123 云盘就 9 月 24 日调整空间规则致歉，不过不会撤回规则，而是老用户如果不爽的话可以申请部分退款。9 月 24 日 123 云盘调整空间规则，分成标准空间和专业空间，其中海量标准空间只能用来存储与他人共享的重复文件，真正能存储独属文件的只有专业空间。123 云盘希望通过这种方式压低服务器存储量，但这也会影响部分专业用户的使用，例如备份 PC 上的文件都是独属性质的，这些都会占用本来配额就很少的专业空间。查看全文：https://ourl.co/127101&lt;/p&gt;&lt;p&gt;123 云盘日前就 9 月 24 日上线的空间规则调整问题发布致歉声明，该平台承认此次空间规则调整上线仓促、前期测试和灰度验证不充分，导致部分用户遇到程序故障、服务器性能波动和页面提示不清等问题。&lt;/p&gt;
-&lt;p&gt;123 云盘称目前核心问题已经基本修复，不过 123 云盘并未撤回新规则，也就是继续推进专业空间规则。对于已经开通会员的老用户，123 云盘提供退款机制，可见 123 云盘已经铁了心推进这项变更。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/127101.png" rel="nofollow"&gt;&lt;img alt="123云盘就调整空间规则道歉 但不会放弃专业空间 如果老用户不爽可以退款" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/127101.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在 9 月 24 日公告中，123 云盘将原有空间命名为标准空间并新增专业空间，其中专业空间主要用于存放用户独自上传的文件、满 10GB 的文件以及直链、图床和视频转码产生的文件。&lt;/p&gt;
-&lt;p&gt;标准空间则主要适用于存放用户转存他人的文件、被他人转存的文件以及其他可以去重的文件，也就是说标准空间只能存储重复文件，不能存储独属于用户的文件。123 云盘需要通过去重技术来大幅度缩减实际存储量。&lt;/p&gt;
-&lt;p&gt;老用户的历史文件被放到标准空间里不会占用专业空间配额，但后续如果发生相关操作那系统就会按照新规则重新判断文件属性，如果文件被放到专业空间里导致容量超额那用户就需要开会员或购买更高的存储空间。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在公告中 123 云盘承认目前网盘行业主要靠的就是计算文件哈希值和去重技术来减少存储量，例如某个 10GB 的视频文件被多人转存后实际服务器只需要存储 1 份即可，其他用户转存的只是文件标识符，服务器上当然不会真的对重复文件存储多份。&lt;/p&gt;
-&lt;p&gt;而标准空间提供的大量配额就是用来存储标识符的，实际上 123 云盘并未消耗多少空间，真正让 123 云盘头疼的是非共享的单独文件，这也是该平台推出专业空间的原因，问题在于这样做用户权益实际被缩减，这对用户来说是非常不公平的。&lt;/p&gt;
-&lt;p&gt;举个例子：蓝点网使用的 NAS 数据会定期加密、增量备份到云端，这类加密备份都是独属文件不存在与其他用户重复的情况，如果使用 123 云盘那备份 1 次空间就会被塞满，所以即便 123 云盘开会员号称提供 200TB 存储那也是没有意义的。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;需要说明的是此次 123 云盘的道歉侧重于解决前期服务稳定问题而非撤回空间政策，事实上 123 云盘不会撤回专业空间，只不过优化方向还包括适当提高专业空间容量、对老用户适当倾斜，不再简单按照文件大小划分空间。&lt;/p&gt;
-&lt;p&gt;123 云盘对此次调整非常坚定，简单来说就是老用户如果不爽那就申请退款，用户需联系平台客服核对订单和剩余权益后，退还剩余权益部分费用，而对于新开通付费服务的用户则必须接受 123 云盘的最新协议。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 29 Sep 2026 03:26:38 +0000</pubDate></item><item><title>苹果发布iOS 26.7.1版修复图形核心组件高危漏洞 该漏洞已经被黑客用于发起攻击</title><link>https://www.landian.news/archives/127100.html</link><description>
-&lt;p&gt;#系统资讯 苹果发布 iOS 26.7.1 版修复图形组件高危漏洞，该漏洞已经被黑客用于展开攻击，但是否与近期币圈发生的攻击有关还无法确认。CVE-2026-86950 位于 CoreGraphics 组件中，涉及图像、界面和其他视觉内容渲染。近期有恶意应用针对币圈用户发起攻击，因此有人将该漏洞与币圈攻击联系起来，不过从已知情况来看币圈发生的攻击主要应该还是 DarkSword 攻击链，可能与最新修复的漏洞无关。查看全文：https://ourl.co/127100&lt;/p&gt;&lt;p&gt;苹果刚刚推出 iOS 26.7.1 和 iPadOS 26.7.1 版，该版本没有新增功能而是修复重要的安全漏洞。苹果已经收到相关报告称，该漏洞可能被用于针对特定个人的极其复杂的攻击，苹果已通过改进边界检查封堵这枚漏洞。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/127100.png" rel="nofollow"&gt;&lt;img alt="苹果发布iOS 26.7.1版修复图形核心组件高危漏洞 该漏洞已经被黑客用于展开攻击" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/127100.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;CVE-2026-86950 属于越界写入漏洞，简单来说程序在处理特殊构造的数据时可能会将内容写入预先分配区域外从而破坏内存，在满足特定条件时攻击者可能会借此让系统执行恶意代码。&lt;/p&gt;
-&lt;p&gt;CoreGraphics 是负责图形内容处理的重要组件，涉及图像、界面和其他视觉内容渲染。不过苹果并未公开恶意文件的具体格式，也没有说明攻击是通过网页、邮件、即时通讯工具还是其他渠道投递。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.landian.news/archives/126963.html" rel="noopener" target="_blank"&gt;近期有恶意应用在安装后会利用复杂的内核级漏洞窃取加密货币钱包数据&lt;/a&gt;，此次安全事件导致大量用户的加密资产被盗，但其攻击路径是需要用户主动安装恶意应用 (该应用以币圈数据跟踪为宣传点诱导用户主动安装)。&lt;/p&gt;
-&lt;p&gt;不过相关攻击事件主要与 DarkSword 相关利用链有关，目前在社交媒体上有币圈用户将 CVE-2026-86950 与近期发生的攻击联系起来，只是从目前已有证据来看这可能是不相关的，即 DarkSword 主要还是利用已知漏洞，用户在确保始终使用 iOS 最新版的情况下应该不会被攻击。&lt;/p&gt;
-&lt;p&gt;另外近期针对 iOS 系统的攻击正在快速增多，多数都使用 DarkSword 攻击链，例如用户使用 Apple Safari 浏览器打开钓鱼网站时就有可能被感染恶意程序，所以对 iOS 用户而言始终使用最新版是提高安全性的必要手段。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/126963.html" title="iOS内核级攻击突然增多：币圈应用FomoPeek内置框架窃取私钥 大量用户资金被盗"&gt;&lt;h3&gt;iOS内核级攻击突然增多：币圈应用FomoPeek内置框架窃取私钥 大量用户资金被盗&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#安全资讯 iOS 内核级攻击突然增多且面向普通用户：币圈应用 FomoPeek 靠 KOL 拉新推广吸引大量用户下载安装，但其内置 iOS 内…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/tech/security"&gt;安全资讯&lt;/a&gt;, &lt;a href="https://www.landian.news/tech"&gt;科技资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2026年9月20日 13:00&lt;/span&gt;&lt;span title="浏览数量"&gt;7.76K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 29 Sep 2026 03:00:43 +0000</pubDate></item><item><title>AMD以82亿美元收购世界模型公司World Labs 李飞飞教授加盟AMD担任首席科学家</title><link>https://www.landian.news/archives/127099.html</link><description>
-&lt;p&gt;#人工智能 AMD 以 82 亿美元收购空间智能 &amp;amp; 世界模型公司 World Labs，李飞飞教授将加盟 AMD 担任首席科学家兼执行副总裁。World Labs 主要研究能够理解、生成和模拟三维环境的世界模型，其模型可以根据文字、图片或视频生成具有空间连贯性的交互式 3D 世界。AMD 希望通过这次收购帮助 AMD 判断未来模型对芯片、软件和系统架构提出的新需求，这会影响 AMD 的未来设计方向。查看全文：https://ourl.co/127099&lt;/p&gt;&lt;p&gt;芯片制造商 AMD 日前宣布已经与空间智能初创公司 World Labs 签署最终收购协议，此次交易将以全股票方式进行，收购估值为 82 亿美元。预计此次交易将在 2026 年年底前完成，不过相关交易需要报请监管机构审批。完成交易后 World Labs 团队将继续开展人工智能模型研究，而李飞飞教授将担任 AMD 执行副总裁兼首席科学家。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/127099.png" rel="nofollow"&gt;&lt;img alt="AMD以82亿美元收购世界模型公司World Labs 李飞飞教授加盟AMD担任首席科学家" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/127099.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;World Labs 主要研究能够理解、生成和模拟三维环境的世界模型，其模型可以根据文字、图片和视频生成具有空间连贯性的交互式 3D 世界，覆盖机器学习和仿真应用。&lt;/p&gt;
-&lt;p&gt;与主要处理文字、图片和代码的模型相比，世界模型需要理解物体的位置、空间结构、运动轨迹以及动作可能带来的结果，这类能力被视为机器人、自动驾驶、工业仿真和虚拟场景生成的重要技术基础。&lt;/p&gt;
-&lt;p&gt;World Labs 目前已经推出的 Marble 等产品，试图让用户和人工智能系统能够创建、探索并操作持续存在的三维空间。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;AMD 希望通过这笔交易更深入地参与人工智能模型研究，利用 World Labs 的经验判断未来模型对芯片、软件和系统架构提出的新需求。从 AMD 官方表述来看，这次交易并不只是买下现有产品，World Labs 整个团队都会并入 AMD 公司，即 AMD 吸收研究人员、模型专家以及相关研究方法。&lt;/p&gt;
-&lt;p&gt;对长期以 CPU、GPU 和数据中心加速卡为核心的 AMD 而言，模型团队可以帮助 AMD 更早理解工作负载变化，并可能反向影响 Instinct GPU、ROCm 软件栈以及未来 AI 系统的设计方向。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 29 Sep 2026 02:38:59 +0000</pubDate></item></channel></rss>
+</description><pubDate>Sat, 03 Oct 2026 08:06:52 +0000</pubDate></item></channel></rss>
