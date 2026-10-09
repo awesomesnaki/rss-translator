@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>张洪Heo</title><link>https://blog.zhheo.com/</link><description>产品设计师、独立开发者、设计与科技领域自媒体博主</description><language>zh-CN</language><lastBuildDate>Thu, 08 Oct 2026 02:55:52 +0000</lastBuildDate><item><title>Apple Pay 自定义卡面教程：用 AirCard 给交通卡和银行卡换个卡面</title><link>https://blog.zhheo.com/p/v1jevj25.html</link><description>&lt;p&gt;iPhone 的钱包里，Apple Pay 能加国内大多数城市的交通卡，银行卡也能塞进去。可卡面翻来覆去就那几张发卡方给的默认图，看久了确实腻。想换一张自己喜欢的，去钱包商店里翻一圈，不是要钱就是糊得不行。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>张洪Heo</title><link>https://blog.zhheo.com/</link><description>产品设计师、独立开发者、设计与科技领域自媒体博主</description><language>zh-CN</language><lastBuildDate>Fri, 09 Oct 2026 06:09:05 +0000</lastBuildDate><item><title>OpenLogi 上手：高性能低占用的支持多终端的本地无账号罗技驱动</title><link>https://blog.zhheo.com/p/84vx2dp8.html</link><description>&lt;p&gt;罗技的鼠标我用得挺久，MX Master 的手感确实没得说。但配套的 Logi Options+ 一直让我别扭：装完要登账号，后台常驻一个进程，隔三差五提醒你登录、同步、更新。我平时就想调个侧键、改个 DPI，真犯不着把设备信息交到一个账号体系里。&lt;/p&gt;
+&lt;p&gt;后来刷到 OpenLogi，干的就是这件事。本地优先的 Logi Options+ 替代品，用 Rust 写的，走 HID++ 直接跟设备对话，不要账号，也没有遥测。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://openlogi.org/zh" rel="noopener external nofollow" target="_blank"&gt;https://openlogi.org/zh&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="官网截图" referrerpolicy="no-referrer" src="https://p.zhheo.com/2774020261009061344.png!blogimg"/&gt;&lt;/p&gt;
+&lt;h2 id="装起来"&gt;&lt;a href="#装起来" title="装起来"&gt;&lt;/a&gt;装起来&lt;/h2&gt;&lt;p&gt;macOS 上一条命令：&lt;/p&gt;
+&lt;figure&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;pre&gt;1&lt;br/&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;brew install --cask openlogi&lt;br/&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;不想用 Homebrew 就下签名的 .dmg。Linux 有 .deb、.rpm，还有 Arch 的 .pkg.tar.zst；Windows 是新加的 .msi，x86_64 和 arm64 都提供。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://openlogi.org/zh#install" rel="noopener external nofollow" target="_blank"&gt;https://openlogi.org/zh#install&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;装之前先把 Logi Options+ 退出。两个应用会抢 HID++ 的访问权，同一时刻只有一个能占住接收器。Linux 上同理，Solaar 也得先关。&lt;/p&gt;
+&lt;!-- 截图：OpenLogi 主界面 --&gt;
+&lt;h2 id="能干什么"&gt;&lt;a href="#能干什么" title="能干什么"&gt;&lt;/a&gt;能干什么&lt;/h2&gt;&lt;p&gt;功能基本对着 Options+ 来：重映射按键、DPI、SmartShift。&lt;/p&gt;
+&lt;p&gt;按键这块内置了 44 个动作，每个物理按键单独绑一个，也能绑自定义快捷键、应用启动器，甚至脚本。我把拇指轮绑成音量，手势键绑成调度中心，中键留着当原来的中键用。&lt;/p&gt;
+&lt;p&gt;DPI 可以在界面里改，也能自己存几档预设循环切换。SmartShift 是把滚轮在棘轮和自由滚动之间切，也可以让它跟着滚动速度自动切。&lt;/p&gt;
+&lt;p&gt;首页有个设备视图，把已配对的设备做成轮播，在线的会显示电量百分比和充电状态。连接方式覆盖 Bolt、Unifying、Lightspeed 接收器，也支持直连蓝牙和 USB 线。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="内存占用" referrerpolicy="no-referrer" src="https://p.zhheo.com/3655320261009061449.png!blogimg"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="主界面" referrerpolicy="no-referrer" src="https://p.zhheo.com/0880420261009061511.png!blogimg"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="鼠标配置" referrerpolicy="no-referrer" src="https://p.zhheo.com/8618320261009061522.png!blogimg"/&gt;&lt;/p&gt;
+&lt;h2 id="配置就是一个-TOML-文件"&gt;&lt;a href="#配置就是一个-TOML-文件" title="配置就是一个 TOML 文件"&gt;&lt;/a&gt;配置就是一个 TOML 文件&lt;/h2&gt;&lt;p&gt;这是我最喜欢的地方。所有绑定都写在一个纯文本文件里：&lt;/p&gt;
+&lt;figure&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;pre&gt;1&lt;br/&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;~/.config/openlogi/config.toml&lt;br/&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;打开长这样：&lt;/p&gt;
+&lt;figure&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;pre&gt;1&lt;br/&gt;2&lt;br/&gt;3&lt;br/&gt;4&lt;br/&gt;5&lt;br/&gt;6&lt;br/&gt;7&lt;br/&gt;8&lt;br/&gt;9&lt;br/&gt;10&lt;br/&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;schema_version = 4&lt;br/&gt;selected_device = "receiver:aabbccdd:slot:1"&lt;br/&gt;&lt;br/&gt;[devices."receiver:aabbccdd:slot:1".bindings]&lt;br/&gt;MiddleClick = "MissionControl"&lt;br/&gt;DpiToggle = "CycleDpiPresets"&lt;br/&gt;Thumbwheel = "VolumeUp"&lt;br/&gt;Forward = "BrowserForward"&lt;br/&gt;Back = "BrowserBack"&lt;br/&gt;GestureButton = "AppExpose"&lt;br/&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;想改直接编辑文件，想备份、想搬到另一台机器，复制这一个文件就够了。配置认的是设备的物理身份，接收器序列号加插槽，或者设备自己的序列号。同一只鼠标换台电脑，绑定还是原来那套。&lt;/p&gt;
+&lt;p&gt;Options+ 那套账号绑定和云同步，在这里统统没有，也就没有换个电脑要重新登一次的麻烦。&lt;/p&gt;
+&lt;h2 id="几个要注意的地方"&gt;&lt;a href="#几个要注意的地方" title="几个要注意的地方"&gt;&lt;/a&gt;几个要注意的地方&lt;/h2&gt;&lt;p&gt;macOS 第一次打开会要「辅助功能」权限。侧键（后退、前进、中键）走 CGEventTap 重映射，这类事件监听必须拿到辅助功能权限；HID++ 那条路，也就是手势键、拇指轮、DPI、SmartShift，则不需要。&lt;/p&gt;
+&lt;p&gt;配对方面，Bolt 设备能直接在界面里配，Unifying 和 Lightspeed 的配对还在做。在那之前用罗技官方工具或 Solaar 配一次，之后就一直交给 OpenLogi 驱动。&lt;/p&gt;
+&lt;p&gt;想导入 Options+ 的旧设置暂时不行，导入器还在开发。不过绑定本来就是一小段 TOML，重新配一遍也就几分钟的事。&lt;/p&gt;
+&lt;p&gt;更新只在你主动检查的时候才检查，应用内的更新检查默认关着。&lt;/p&gt;
+&lt;p&gt;最后一点，这项目跟罗技没有关系，而且还在活跃开发中，功能和配置都还可能变。&lt;/p&gt;
+</description><pubDate>Fri, 09 Oct 2026 06:09:05 +0000</pubDate></item><item><title>Apple Pay 自定义卡面教程：用 AirCard 给交通卡和银行卡换个卡面</title><link>https://blog.zhheo.com/p/v1jevj25.html</link><description>&lt;p&gt;iPhone 的钱包里，Apple Pay 能加国内大多数城市的交通卡，银行卡也能塞进去。可卡面翻来覆去就那几张发卡方给的默认图，看久了确实腻。想换一张自己喜欢的，去钱包商店里翻一圈，不是要钱就是糊得不行。&lt;/p&gt;
 &lt;p&gt;有个开源工具 AirCard 能改 Apple Pay 的卡面，不用越狱。它蹭的是苹果 AirTraffic 的同步通道，把图片刷进系统缓存。工具只管贴图，图得自己准备。尺寸不对、缺发卡商和卡组织标识，贴上去就不像一张正经卡。&lt;/p&gt;
 &lt;p&gt;所以流程就两步：先用网页工具做一张标准卡面，再用 AirCard 刷进手机。这篇按 B 站这支视频的演示走一遍。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.bilibili.com/video/BV1Wehh6uEWv/" rel="noopener external nofollow" target="_blank"&gt;https://www.bilibili.com/video/BV1Wehh6uEWv/&lt;/a&gt;&lt;/p&gt;
@@ -145,20 +173,4 @@
 &lt;p&gt;比如做一个AI小说的项目，用户只需要被动选择AI提供的几个选项，就可以生成整个故事。&lt;/p&gt;
 &lt;p&gt;我觉得所有需要打字的场景都可以尝试用AI来塑造一遍。&lt;/p&gt;
 &lt;p&gt;如果你也在做AI输出的这类功能，可以试试只给用户选项和简单描述问题的方式，让AI来完成耗时的部分。毕竟人脑思想会很快，而文本加速了慢的打字部分，让整体项目变得更加飞快了～&lt;/p&gt;
-</description><pubDate>Fri, 11 Sep 2026 08:07:52 +0000</pubDate></item><item><title>如何在网页插入 livephoto ？实况照片 PVT 在线生成、动态JPG生成工具与嵌入工具</title><link>https://blog.zhheo.com/p/j5ns9clc.html</link><description>&lt;p&gt;最近在研究livephoto的时候才知道原来还有一个pvt格式，双击直接就可以将live图保存到照片应用，这不就是我最喜欢的单文件动图吗。另外像是小米等手机厂商的live图是插入了视频的jpg，所以我想要不专门做个组件，实现单文件livephoto的插入。（市面上大多都是双文件，即一个图片一个视频，很少有支持和兼容单文件live图的）&lt;/p&gt;
-&lt;p&gt;于是，HeoLivePhoto（洪绘Live图）登场。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://livephoto.zhheo.com/" rel="noopener external nofollow" target="_blank"&gt;https://livephoto.zhheo.com/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="官网" referrerpolicy="no-referrer" src="https://p.zhheo.com/7188320260909085356.png!blogimg"/&gt;&lt;/p&gt;
-&lt;p&gt;在触发器处理上，使用了mac上照片app的处理方式。&lt;/p&gt;
-&lt;p&gt;鼠标悬浮在实况图标上时立即触发播放，离开即停。移动端是长按播放动画。主打的是不打扰用户滚动，只在需要时触发。&lt;/p&gt;
-&lt;p&gt;因为是可以使用img标签，所以可以与fancybox等灯箱配合良好。&lt;/p&gt;
-&lt;p&gt;demo预览：&lt;a href="https://livephoto.zhheo.com/summer.html" rel="noopener external nofollow" target="_blank"&gt;https://livephoto.zhheo.com/summer.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="demo" referrerpolicy="no-referrer" src="https://p.zhheo.com/0014520260909085546.png!blogimg"/&gt;&lt;/p&gt;
-&lt;h2 id="实况照片合成"&gt;&lt;a href="#实况照片合成" title="实况照片合成"&gt;&lt;/a&gt;实况照片合成&lt;/h2&gt;&lt;p&gt;目前支持实况照片合成，支持直接生成pvt文件，或者动态jpg，可以导入到Apple设备或者其他支持动态jpg的安卓设备。这样你从照片app使用原片导出的时候，是视频和heic图像文件，就可以通过此功能合成为一个文件了。（由于pvt在Windows下是一个文件夹，所以点击导出pvt会生成一个zip文件，解压获得pvt。）&lt;/p&gt;
-&lt;p&gt;通过此方式生成的pvt直接双击导入到照片，可以说是最无损的方案之一了。体验也最好。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="合成实况照片" referrerpolicy="no-referrer" src="https://p.zhheo.com/6175220260909090107.png!blogimg"/&gt;&lt;/p&gt;
-&lt;h2 id="实况图导出成图片"&gt;&lt;a href="#实况图导出成图片" title="实况图导出成图片"&gt;&lt;/a&gt;实况图导出成图片&lt;/h2&gt;&lt;p&gt;你还可以打开在线播放页面，然后打开pvt/jpg动图进行导入，然后可以选择性导出你想要的内容。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="实况图中的图片导出" referrerpolicy="no-referrer" src="https://p.zhheo.com/0177620260909090258.png!blogimg"/&gt;&lt;/p&gt;
-&lt;p&gt;洪绘Live图轻松实现从嵌入网页、动图合成与浏览、动图中的信息导出全流程处理。如果你需要Live图处理，不妨试试。&lt;/p&gt;
-&lt;p&gt;对了，所有内容处理全程本地。无需担心隐私风险。&lt;/p&gt;
-</description><pubDate>Wed, 09 Sep 2026 08:27:20 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 11 Sep 2026 08:07:52 +0000</pubDate></item></channel></rss>
