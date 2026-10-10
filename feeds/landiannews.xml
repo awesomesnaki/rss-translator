@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sat, 10 Oct 2026 01:57:56 +0000</lastBuildDate><item><title>供应链消息称苹果已经下调iPhone 18 Pro和iPhone 18 Pro Max零部件订单 因为销量欠佳</title><link>https://www.landian.news/archives/127253.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sat, 10 Oct 2026 02:41:47 +0000</lastBuildDate><item><title>加密硬件钱包Ledger遭黑客攻击 黑客改装硬件窃取助记词 已窃取超过8,000万美元</title><link>https://www.landian.news/archives/127254.html</link><description>
+&lt;p&gt;#加密货币 加密硬件钱包 Ledger 遭黑客攻击，黑客秘密收购东南亚经销商并改装硬件加装微控制器用来窃取助记词。黑客的操作流程大致如下：在 3 月份秘密收购 CryptoBilis 公司获得控制权，并要求原团队对收购事件保密至少 6 个月，随后黑客开始使用定制微电路板改装钱包。黑客在原版 Ledger 屏幕下加装微电路板，电路板上有微控制器、天线和 eSIM 模块，可以通过 SPI 链路监控 Ledger 上显示的助记词。钱包被买家购买并存储加密货币后，黑客可以直接通过助记词远程恢复钱包并盗走所有资产。目前行业统计黑客已经盗取至少 8,000 万美元的加密资产，随着时间的推移估计还有更多用户钱包会被盗。查看全文：https://ourl.co/127254&lt;/p&gt;&lt;p&gt;法国加密货币硬件钱包 Ledger 日前遭遇严重的安全事件，黑客通过改装硬件加装窃取装置盗取用户设置的助记词，目前黑客盗取的加密货币价值超过 8,000 万美元，随着时间的推移可能会有更多用户的加密货币钱包被黑客重置并转走里面的资产。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127254-1.png" rel="nofollow"&gt;&lt;img alt="加密硬件钱包Ledger遭黑客攻击 黑客改装硬件窃取助记词 已窃取超过8000万美元" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127254-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;前门头沟 (Mt.Gox) 负责人马克・卡佩莱斯 (Mark Karpelès) 发布的硬件拆解图是此次事件的导火索，黑客似乎看到马克发布的拆解图后断定改装事件肯定会引起关注，于是选择立即盗取已经成功收集的钱包。如果不是马克发现这件事，估计黑客还会继续潜伏并收集更多钱包数据。&lt;/p&gt;
+&lt;p&gt;马克检查一台来自马来西亚的 Ledger Nano X，设备外包装的热缩膜看起来完好，但打开设备后在原本用于屏幕缓冲的位置发现额外的电路板。这块电路板包含微控制器、LTE 通信模块、天线和 eSIM 等组件，通过内部线路连接到设备显示相关的 SPI 通信链路。&lt;/p&gt;
+&lt;p&gt;其可能的工作方式是监听设备向屏幕发送的字符数据，再利用针对 Ledger 字体训练的识别逻辑来重建屏幕内容。Ledger 设备首次初始化时会在屏幕上显示 24 个助记词，正常情况下助记词由设备内部生成并显示，Ledger 的安全元件负责保存私钥和执行关键操作。&lt;/p&gt;
+&lt;p&gt;如果攻击者能够在屏幕链路旁路读取这些词语，再通过蜂窝网络发送出去，就可能在用户完成初始化后获得完整助记词。在后续流程中黑客不需要接触到钱包，可以通过其他兼容钱包恢复该助记词并控制对应地址中的资产。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;CryptoBilis 是 Ledger 在东南亚区域的授权经销商，很多用户并非从 Ledger 订购设备 (因为要从法国工厂走法国邮政发货，时间很长)。而这家经销商早在 3 月份就已经被秘密收购，而且收购协议还要求对收购事件保密至少 6 个月，显然黑客蓄谋已久。&lt;/p&gt;
+&lt;p&gt;目前猜测是收购 CryptoBilis 的是朝鲜黑客，有能力大规模定制微电路板、微控制器并进行改装的自然也不是普通人，不过行业还在继续调查中，暂时无法确认黑客身份。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sat, 10 Oct 2026 02:41:47 +0000</pubDate></item><item><title>Telegram桌面版出现高危安全漏洞 点击恶意链接账号就可能被黑客劫持</title><link>https://www.landian.news/archives/127269.html</link><description>
+&lt;p&gt;#安全资讯 Telegram Desktop 被爆出高危安全漏洞，极端情况下黑客诱导用户点击链接即可劫持用户账号并窃取 PC 上的文件。研究人员提前通报后 Telegram 已经在 9 月 17 日发布的 7.2.9 版中修复漏洞，用户需升级到最新版。另外建议用户开启 Telegram 本地锁定密码，该功能默认关闭，开启后可以加密会话，提高账号安全性，例如应对此次安全漏洞中的账号会话劫持问题。查看全文：https://ourl.co/127269&lt;/p&gt;&lt;p&gt;日前安全研究员披露即时通讯工具 Telegram Desktop 版出现的高危安全漏洞，该漏洞已经通过漏洞协调机制通报给 Telegram，后者在 9 月 17 日发布 7.2.9 版修复漏洞，目前大多数用户应该已经更新到新版本，所以安全研究员公开披露这个漏洞。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;攻击者可以通过特制链接利用客户端的进程间通信机制，在用户点击链接后控制部分内部操作，向攻击者控制的聊天或频道发送本地文件。若被窃取的是 Telegram 会话数据且用户未设置客户端本地密码，那攻击者还有可能劫持账号。&lt;/p&gt;
+&lt;p&gt;问题主要出现在单实例通信机制中，Telegram 桌面版支持使用 tg:// 链接拉起客户端，当系统中已经运行 Telegram 桌面版时，新启动的进程会通过本地套接字将链接内容传递给正在运行的客户端。&lt;/p&gt;
+&lt;p&gt;问题在于，旧版本没有正确处理通信数据中的特殊分隔符，攻击者可以构造包含异常参数的链接，让客户端将原本应当作为一个链接处理的内容拆分成多个内部指令，从而注入额外的 OPEN 操作。&lt;/p&gt;
+&lt;p&gt;攻击链还可以触及 Telegram 桌面版用于自动处理文件和脚本的内部路径，通过预先准备相关文件，再诱导目标用户点击外部链接，攻击者能够让客户端在不明显提示用户的情况下发送本地文件。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127269-1.png" rel="nofollow"&gt;&lt;img alt="Telegram桌面版出现高危安全漏洞 点击恶意链接账号就可能被黑客劫持" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127269-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127269-2.png" rel="nofollow"&gt;&lt;img alt="Telegram桌面版出现高危安全漏洞 点击恶意链接账号就可能被黑客劫持" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127269-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;针对可能存在的本地会话文件窃取等问题，Telegram 此前已经提供本地锁定密码，不过该功能默认是关闭的。本地锁定密码并非账号登录验证、额外的两步验证密码，本地锁定密码必须单独开启和设置，可以与两步验证密码相同或不同。&lt;/p&gt;
+&lt;p&gt;在启用本地锁定密码后，用户可以随时锁定 Telegram 或设置超时后自动锁定，本地相关会话文件也是加密的，因此对用户而言虽然使用本地锁定密码后日常使用可能会遇到需要额外解锁的情况，但这有助于提高安全性，建议用户都开启本地锁定密码。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://www.opennet.me/opennews/art.shtml?num=66431" rel="noopener" target="_blank"&gt;Opennet&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sat, 10 Oct 2026 02:20:16 +0000</pubDate></item><item><title>供应链消息称苹果已经下调iPhone 18 Pro和iPhone 18 Pro Max零部件订单 因为销量欠佳</title><link>https://www.landian.news/archives/127253.html</link><description>
 &lt;p&gt;#手机数码 日经亚洲援引供应链人士消息称，苹果已经削减 iPhone 18 Pro 和 iPhone 18 Pro Max 零部件订单，即这些机型销量可能不如苹果预期。供应链消息称，10 月订单较最初计划下调至少 15%，部分供应商的订单降幅达到 20%。不过不同供应商的情况也不相同，有些供应商从 11 月或 12 月才会降低产量，部分则是从 10 月开始将减少产量。查看全文：https://ourl.co/127253&lt;/p&gt;&lt;p&gt;日经亚洲援引供应链人士称，苹果已经要求部分供应商减少 iPhone 18 Pro 和 iPhone 18 Pro Max 的零部件生产，10 月订单较最初计划至少下调 15%，部分供应商的订单削减可能达到 20%。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127253.png" rel="nofollow"&gt;&lt;img alt="供应链消息称苹果已经下调iPhone 18 Pro和iPhone 18 Pro Max零部件订单 因为销量欠佳" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127253.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -117,33 +144,4 @@
 &lt;hr/&gt;
 &lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://red.anthropic.com/oss-scanner/" rel="noopener" target="_blank"&gt;Anthropic&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 09 Oct 2026 02:42:58 +0000</pubDate></item><item><title>A社更新Claude使用政策 无端辱骂或虐待Claude都可能会被主动结束会话且无法恢复</title><link>https://www.landian.news/archives/127175.html</link><description>
-&lt;p&gt;#人工智能 A 社发布新版 Claude 使用政策，禁止无端辱骂或虐待 Claude，否则模型有权主动结束会话且不能恢复。A 社称持续且没有必要地虐待或残酷对待模型是明确的禁止行为，这项规定针对的是反复、极端且看不出来正当目的的行为。用户对模型回答表达不满、提出反驳或进行模型测试研究目的不在禁止范围 (当然解释权归 A 社所有)。查看全文：https://ourl.co/127175&lt;/p&gt;&lt;p&gt;A 社日前发布适用于 Claude AI 的新版使用政策，该政策将在 2026 年 11 月 12 日生效。新版政策主要新增禁止无端虐待 Claude 条款，同时适用于选举、武器开发、监控等相关条款也同步变更。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127175.png" rel="nofollow"&gt;&lt;img alt="A社更新Claude使用政策 无端辱骂或虐待Claude都可能会被主动结束会话且无法恢复" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127175.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;A 社称持续且无必要地虐待或残酷对待模型是明确的禁止行为，这项规定针对的是反复、极端且看不出来正当目的的行为，但用户对模型回答表达不满、提出反驳、创作黑暗题材或进行模型测试研究目的不在禁止范围内 (当然解释权归 A 社所有)。&lt;/p&gt;
-&lt;p&gt;对于持续遭受辱骂的对话，Claude 此前已经具备主动结束会话的能力。A 社称这仍然是处理此类行为的主要方式，即被结束的对话无法继续发送消息，但这不会影响用户账号中的其他聊天，当然也不至于封号。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;新版使用政策将有关虚假宣传和操纵行为的限制集中到欺骗性活动条款，涵盖以虚假账号、虚构媒体或网站伪装信息来源、制造虚假声量以及搭建相关工具和基础设施，适用范围同时包括政治和商业活动。&lt;/p&gt;
-&lt;p&gt;选举条款则聚焦于欺骗选民、压制投票或干扰选举，A 社还删除针对个性化投票及竞选定向的限制，但使用欺骗或滥用个人数据进行的相关操作仍然属于禁止行为。&lt;/p&gt;
-&lt;p&gt;武器条款明确禁止使用 Claude AI 开发或操作武器所需的软件与组件、为无人机等平台装配武器，以及提高生物或化学制剂致死性或传播性的活动。&lt;/p&gt;
-&lt;p&gt;监控与执法条款则禁止未经同意追踪个人、让 Claude 决定或建议调查及逮捕对象，或开发监控工具；经当事人同意的追踪、内容审核、新闻报道和法律研究仍然是允许的行为。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 09 Oct 2026 02:27:38 +0000</pubDate></item><item><title>[重要提醒] Let’s Encrypt从明年2月起将证书有效期从90天缩短到64天 最终缩短到45天</title><link>https://www.landian.news/archives/127176.html</link><description>
-&lt;p&gt;#重要提醒 Let’s Encrypt 从明年 2 月 10 日起将证书有效期从 90 天缩短到 64 天，开发者和网站管理员可以从 10 月 14 日开始测试新的证书签发流程。对管理员和开发者来说需要完善自动化流程，否则未来证书有效期继续缩短、靠人工处理出错的概率可能会越来越大。到 2028 年 2 月，Let’s Encrypt 证书有效期将缩短到 45 天，其他 CA 则会在 2029 年将证书有效期缩短到 47 天，这是 CA / 浏览器论坛(尤其是苹果)讨论后的行业要求。查看全文：https://ourl.co/127176&lt;/p&gt;&lt;p&gt;基于行业机构 CA / 浏览器论坛此前的讨论，数字证书颁发机构将逐步缩短证书有效期，短期内证书有效期会被缩短到 60~90 天，最终这些证书有效期会被缩短到 47 天 (根证书除外)，而 Let’s Encrypt 则计划将证书有效期缩短到 45 天，所以未来整个流程都必须依赖自动化机制。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127176.png" rel="nofollow"&gt;&lt;img alt="&amp;lt;b&amp;gt;[重要提醒] Let’s Encrypt从明年2月起将证书有效期从90天缩短到64天 最终缩短到45天&amp;lt;/b&amp;gt;" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127176.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; 从明年 2 月 10 日起有效期缩短到 64 天：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;免费证书颁发机构 Let’s Encrypt 此前已经公布详细的计划，从 2027 年 2 月 10 日起默认经典的 ACME 配置文件签发的数字证书有效期将缩短到 64 天，授权重用期为 10 天。调整适用于新签发或续期的数字证书，已经签发的证书届时不会被提前撤销。&lt;/p&gt;
-&lt;p&gt;按照时间计算最后有效期为 90 天的数字证书将在 2027 年 5 月 11 日到期，到时候开发者继续使用 Let’s Encrypt 签发证书时将看到新证书有效期为 64 天，如果已经部署完善的自动化签发部署流程那倒是没有太大的问题。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Let’s Encrypt 最新发布公告称，&lt;strong&gt;从 2026 年 10 月 14 日起该机构将在测试环境中启用新周期&lt;/strong&gt;，开发者和网站管理员可以提前测试并检查自己的应用程序续期流程是否完善，如果发现问题可以及时调整，以便在明年 2 月 10 日前解决证书自动化申请和部署流程。&lt;/p&gt;
-&lt;p&gt;而到 2028 年 2 月 16 日，Let’s Encrypt 签发的所有证书有效期都将缩短到 45 天。根据 CA / 浏览器论坛制定的方案，从 2027 年 3 月开始公开信任的 TLS 证书最长有效期为 100 天，到 2029 年降低到 47 天，Let’s Encrypt 调整早于行业标准。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;使用 ACME RI 的客户端续期时间可由 Let’s Encrypt 通知客户端安排，通常不需要手动调整。若续期脚本按固定天数运行或依赖人工更换证书，则管理员应该检查定时任务和部署流程。Let’s Encrypt 建议续期时间设置在 2/3 处，例如 64 天有效期的证书应该设置在 43 天开始检查续期。&lt;/p&gt;
-&lt;p&gt;很多复杂的网络服务无法通过 ACME 等机制完成自动证书签发和部署，这类依赖人工申请和更换证书的服务未来可能会遇到巨大阻碍，因为证书有效期缩短后人工处理的频率会提高，如果出现失误忘记续期或部署时出错就可能导致服务无法访问。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/106141.html" title="你不要过来啊！苹果提交表决提案建议将SSL/TLS证书有效期从398天缩短到45天"&gt;&lt;h3&gt;你不要过来啊！苹果提交表决提案建议将SSL/TLS证书有效期从398天缩短到45天&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#安全资讯 你！不！要！过！来！啊！苹果将提交表决草案建议将 SSL/TLS 数字证书有效期从目前的最长 398 天缩短到 45 天。缩短证书有…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/tech/security"&gt;安全资讯&lt;/a&gt;, &lt;a href="https://www.landian.news/tech"&gt;科技资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2024年10月16日 12:41&lt;/span&gt;&lt;span title="浏览数量"&gt;22.75K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息来源：&lt;a href="https://www.landian.news/go?url=https://letsencrypt.org/2026/10/07/64-day-certs" rel="noopener" target="_blank"&gt;Let's Encrypt&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 09 Oct 2026 02:11:48 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 09 Oct 2026 02:42:58 +0000</pubDate></item></channel></rss>
