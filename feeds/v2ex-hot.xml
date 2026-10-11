@@ -26,7 +26,57 @@
 &lt;p&gt;&lt;strong&gt;#23 muntoya&lt;/strong&gt;：@&lt;a href="/member/BlackSas"&gt;BlackSas&lt;/a&gt; #11 这些快餐即使油炸也比绝大部分中餐健康多了，毕竟都是肉。汉堡我比较喜欢炸鸡类的，塔斯汀最常吃的就是炸鸭肉，各种酱都不忌口，炸鸡小食也随套餐点，不妨碍我体脂率 10%。&lt;br/&gt;塔斯汀华莱士都可以用各种 app 买纯食品券，不要饮料，我去的店基本都有无糖饮料。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#24 frayesshi1&lt;/strong&gt;：麦当劳的随心配是不是取消了？感觉那个很便宜啊&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#25 codehermit&lt;/strong&gt;：都是用抖音团购的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#26 hahasong&lt;/strong&gt;：@&lt;a href="/member/Fike"&gt;Fike&lt;/a&gt; #16 外卖用券，只有热门的几个划算&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 11 Oct 2026 11:22:35 +0000</pubDate></item><item><title>3 个月用了 287 亿的 token。。。</title><link>https://www.v2ex.com/t/1247820</link><description>下了个统计 token 的软件，一看用了 287 亿个 token ，发现这订阅真让我用回本了&lt;br/&gt;&lt;br/&gt;我自己是 claude+gpt 200 美元双持&lt;br/&gt;&lt;br/&gt;不过用 claude 更多一些&lt;br/&gt;&lt;br/&gt;claude 给的量真是太大了
+&lt;p&gt;&lt;strong&gt;#26 hahasong&lt;/strong&gt;：@&lt;a href="/member/Fike"&gt;Fike&lt;/a&gt; #16 外卖用券，只有热门的几个划算&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#27 shmilypeter&lt;/strong&gt;：买麦金卡，以及不要点麦当劳的外卖，非麦金卡的原价，以及外卖点麦当劳，都贵得离谱，一下子整个六七十。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#28 yanaraika&lt;/strong&gt;：稍微高端点有汉堡王+抖音团购&lt;br/&gt;低端点就塔斯汀华莱士&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#29 CEBBCAT&lt;/strong&gt;：之前开 OH 麦卡，后来考量去吃的频率，逐渐换成了闲鱼代下的模式，麦辣鸡腿堡甚至有时 8.8 就能单买一个，这个可是官方渠道没有的优势，后面好日子过了几天，再后来，麦当劳出新品又慢（当然，只是尝尝鲜），价格又连番上涨，现在一个鸡腿堡都要 12-13 了吧，OH 麦四件套也要 28 了吧？价格不行，餐厅卫生不行，服务下降，街边一条啊兄弟们，那我干嘛不吃 KFC ？ KFC 薯条现在我又觉得好吃了，蛋挞甜甜的，鸡米花又香，我干嘛不吃 KFC ？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#30 coollex&lt;/strong&gt;：@&lt;a href="/member/CEBBCAT"&gt;CEBBCAT&lt;/a&gt; #29 kfc 小食还可以，问题是汉堡难吃+可乐难喝&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 11 Oct 2026 11:22:35 +0000</pubDate></item><item><title>[开源] 好看，更好用的音乐播放器 NonsPlayer</title><link>https://www.v2ex.com/t/1247825</link><description>&lt;h1&gt;预览&lt;/h1&gt;
+&lt;img alt="pasted-image.png" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://img.cdn1.vip/i/6acb4124217df_1791705380.webp"/&gt;
+&lt;img alt="pasted-image.png" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://img.cdn1.vip/i/6acb412cbbf08_1791705388.webp"/&gt;
+&lt;h2&gt;简介&lt;/h2&gt;
+&lt;p&gt;时隔 3 年，Nons 终于做完了！从 WPF ，到 WinUi3 ，最后痛定思痛决定采用 Tauri 推倒重写……总之，NonsPlayer 终于做完了！&lt;/p&gt;
+&lt;p&gt;来说说特点！&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;多音源适配器，没错，终于可以把种平台塞进去了！&lt;/li&gt;
+&lt;li&gt;完善的插件系统。通过 WebAssembly 技术，我们可以把任何想要的东西都放进 NonsPlayer 里！&lt;/li&gt;
+&lt;li&gt;比较好的用户交互设计。我从个人需求和使用习惯出发，把 NonsPlayer 设计成一个&lt;strong&gt;真正的日常工具&lt;/strong&gt;，而不是一个玩具。&lt;/li&gt;
+&lt;li&gt;低占用。虽然 WebView 的占用依然不可忽视，但是在后台运行时 NonsPlayer 会&lt;strong&gt;主动销毁 WebView 进程，整个程序占用可以达到 10-20MB&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;没什么特殊的花里胡哨的功能，反正就是专门用来听歌的，只要把听歌这件事做好不就够了吗！&lt;/p&gt;
+&lt;p&gt;欢迎大家试用！仓库： &lt;a href="https://github.com/Miaoyww/Nons" rel="nofollow"&gt;https://github.com/Miaoyww/Nons&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;#1 Hubs&lt;/strong&gt;：那么问题来了，音源哪里找&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#2 CCHome&lt;/strong&gt;：感觉不错，支持。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#3 xialaoban&lt;/strong&gt;：音源其实只要适配落雪和 ytb 就基本全网都有了，主要是 metadata 怎么生成.&lt;br/&gt;有个项目可用从 spotify 获取，&lt;a href="https://github.com/team-spotube/spotube" rel="nofollow noopener" target="_blank"&gt;https://github.com/team-spotube/spotube&lt;/a&gt;&lt;br/&gt;&lt;a href="https://github.com/sonic-liberation/spotube-plugin-spotify" rel="nofollow noopener" target="_blank"&gt;https://github.com/sonic-liberation/spotube-plugin-spotify&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#4 ffalex&lt;/strong&gt;：这 ui 一样 yesplayer ，点进主页一看果然&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#5 vexify&lt;/strong&gt;：没有安装包&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#6 woniuge&lt;/strong&gt;：便携版编译出错了&lt;br/&gt;&lt;a href="https://github.com/Miaoyww/Nons/actions/runs/38124330116" rel="nofollow noopener" target="_blank"&gt;https://github.com/Miaoyww/Nons/actions/runs/38124330116&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#7 Miaoyww&lt;/strong&gt;：@&lt;a href="/member/woniuge"&gt;woniuge&lt;/a&gt; 我去我才发现，正在修&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#8 Miaoyww&lt;/strong&gt;：@&lt;a href="/member/ffalex"&gt;ffalex&lt;/a&gt; 是的，我很喜欢 YesPlayer 的 Ui 设计，但是要说真正使用的话，我觉得 YesPlayer 还有很多不足，所以才在 YesPlayer 的 UI 基础上进行了修改&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#9 Miaoyww&lt;/strong&gt;：@&lt;a href="/member/xialaoban"&gt;xialaoban&lt;/a&gt; 好的，我会学习的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#10 Miaoyww&lt;/strong&gt;：@&lt;a href="/member/Hubs"&gt;Hubs&lt;/a&gt; 音源主要有两个来源：一个是主流的流媒体平台，通过适配器主动调用 API ；另一个是一些 NAS 和云盘服务，这个在 3 年前的构想中就预计支持了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#11 Miaoyww&lt;/strong&gt;：@&lt;a href="/member/CCHome"&gt;CCHome&lt;/a&gt; 谢谢~&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#12 Miaoyww&lt;/strong&gt;：@&lt;a href="/member/Hubs"&gt;Hubs&lt;/a&gt; 另外，初期网易云音乐是随包安装的，目前不需要额外操作就能直接使用&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#13 Hubs&lt;/strong&gt;：@&lt;a href="/member/Miaoyww"&gt;Miaoyww&lt;/a&gt; #12 能用 LX 音源吗&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#14 fuchish112&lt;/strong&gt;：&lt;a href="http://readme.md" rel="nofollow noopener" target="_blank"&gt;readme.md&lt;/a&gt; 里面加几张样图啊&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#15 Miaoyww&lt;/strong&gt;：@&lt;a href="/member/fuchish112"&gt;fuchish112&lt;/a&gt; 收到&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#16 Miaoyww&lt;/strong&gt;：@&lt;a href="/member/Hubs"&gt;Hubs&lt;/a&gt; 可以&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#17 Miaoyww&lt;/strong&gt;：我回来研究一下落雪的音源&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#18 Hubs&lt;/strong&gt;：@&lt;a href="/member/Miaoyww"&gt;Miaoyww&lt;/a&gt; #17 那我回头试试看，对了，播放器有深色模式吗&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#19 woniuge&lt;/strong&gt;：@&lt;a href="/member/Miaoyww"&gt;Miaoyww&lt;/a&gt; #17 &lt;br/&gt;不想登陆,如果支持落雪的音源通知一声,谢谢.&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#20 canvascat&lt;/strong&gt;：下一步，界面改为使用 GPUI 构建 &lt;a href="https://i.imgur.com/agAJ0Rd.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/agAJ0Rd.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#21 Miaoyww&lt;/strong&gt;：@&lt;a href="/member/Hubs"&gt;Hubs&lt;/a&gt; 有&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#22 Hubs&lt;/strong&gt;：@&lt;a href="/member/Miaoyww"&gt;Miaoyww&lt;/a&gt; #21 已经再试了，回头给你反馈&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#23 Hubs&lt;/strong&gt;：@&lt;a href="/member/Miaoyww"&gt;Miaoyww&lt;/a&gt; #16 &lt;br/&gt;1. 没发现哪里可以添加 lx 音源；&lt;br/&gt;2. 播放器标题栏三个选项右边空白处按住无法移动播放器，左边可以正常移动；&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#24 phithon&lt;/strong&gt;：点一个。我一直用网页版 youtube music&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#25 phithon&lt;/strong&gt;：下载了，额，只有网易云么现在&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#26 bowencool&lt;/strong&gt;：@&lt;a href="/member/xialaoban"&gt;xialaoban&lt;/a&gt; 还有个 music tag web&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#27 q000q000&lt;/strong&gt;：没搞头，Rust + GPUI 的播放器又不是没有。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#28 Miaoyww&lt;/strong&gt;：@&lt;a href="/member/phithon"&gt;phithon&lt;/a&gt; 对，其它音源过两天会陆续上线发布&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#29 Miaoyww&lt;/strong&gt;：@&lt;a href="/member/Hubs"&gt;Hubs&lt;/a&gt; 音源是需要编写适配器才可以添加的，过两天我会看看落雪那边是怎么实现的，给它加进来&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#30 Miaoyww&lt;/strong&gt;：@&lt;a href="/member/woniuge"&gt;woniuge&lt;/a&gt; 修了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#31 Miaoyww&lt;/strong&gt;：@&lt;a href="/member/bowencool"&gt;bowencool&lt;/a&gt; 已加星标，回来我学习一下&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#32 ClutchBear01&lt;/strong&gt;：我个人的话,&lt;br/&gt;类似 winamp 千千静听这种才叫好看.&lt;br/&gt; &lt;a href="https://i.imgur.com/7LaB5G0.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/7LaB5G0.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 11 Oct 2026 08:05:51 +0000</pubDate></item><item><title>3 个月用了 287 亿的 token。。。</title><link>https://www.v2ex.com/t/1247820</link><description>下了个统计 token 的软件，一看用了 287 亿个 token ，发现这订阅真让我用回本了&lt;br/&gt;&lt;br/&gt;我自己是 claude+gpt 200 美元双持&lt;br/&gt;&lt;br/&gt;不过用 claude 更多一些&lt;br/&gt;&lt;br/&gt;claude 给的量真是太大了
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 sn0wdr1am&lt;/strong&gt;：成果呢？&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#2 mtdlr&lt;/strong&gt;：所以你做出来了什么&lt;/p&gt;&lt;hr/&gt;
@@ -81,7 +131,9 @@
 &lt;p&gt;&lt;strong&gt;#51 bowencool&lt;/strong&gt;：@&lt;a href="/member/idontcare"&gt;idontcare&lt;/a&gt; #31 CC Swtich&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#52 DXpro&lt;/strong&gt;：@&lt;a href="/member/bowencool"&gt;bowencool&lt;/a&gt; 人的创意不是无限的。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#53 chjqpmain&lt;/strong&gt;：@&lt;a href="/member/psyche"&gt;psyche&lt;/a&gt; 这个我感觉前者也不太合适说吧（对接的私活来说）&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#54 khalilgao1337&lt;/strong&gt;：@&lt;a href="/member/runninghipp"&gt;runninghipp&lt;/a&gt; 我从事科研方向，我没想到评论区的攻击力这么强，这本来就是个普通的帖子&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 11 Oct 2026 07:43:33 +0000</pubDate></item><item><title>相亲贴-找对象自救</title><link>https://www.v2ex.com/t/1247811</link><description>&lt;h3&gt;背景&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;#54 khalilgao1337&lt;/strong&gt;：@&lt;a href="/member/runninghipp"&gt;runninghipp&lt;/a&gt; 我从事科研方向，我没想到评论区的攻击力这么强，这本来就是个普通的帖子&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#55 fcten&lt;/strong&gt;：我看了下过去 3 个月我光 codex 就用了 200 多亿。但是我感觉我使用的强度并不算高，一半天数用量都在三四千万。因为很多时候问题卡在“不知道做什么”和“不知道怎么做”上。这些时候的 token 用量一般都很低。&lt;br/&gt;&lt;br/&gt;op 这个用量肯定大部分时间订阅额度都没蹬满，重置卡估计都过期了好几张。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#56 Rorysky&lt;/strong&gt;：16 年前，我一个月就要用掉 1GB 流量，深度参与移动互联网浪潮&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 11 Oct 2026 07:43:33 +0000</pubDate></item><item><title>相亲贴-找对象自救</title><link>https://www.v2ex.com/t/1247811</link><description>&lt;h3&gt;背景&lt;/h3&gt;
 &lt;p&gt;大学毕业两年了，家里也开始催找对象，找人介绍两个，都是高中的漏网之鱼，不是嫌弃学历低，是接触一段时间都不合适，就不了了之了，自己圈子小，也接触不到异性，也在尝试扩大社交圈&lt;/p&gt;
 &lt;h3&gt;感叹&lt;/h3&gt;
 &lt;p&gt;在大学最应该找对象的时候忙着学习和学编程，回头来看就是瞎胡忙，反正自我感觉没有闲着，当时挺羡慕有对象的人的，但是为了学业也对此事较为无感，当时的状态就像写的接口没有对外暴露，谁来也调不通，简单来说就是不主动接触异性，当然我这条件也基本上不会有异性主动的接触我，哈哈哈&lt;/p&gt;
@@ -152,7 +204,7 @@ v 站和 l 站还是佬友多呀，我把知道的渠道都尝试一下，看看
 &lt;p&gt;&lt;strong&gt;#33 coefu&lt;/strong&gt;：你还不如去王婆那里看看情况，😂&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 11 Oct 2026 06:26:06 +0000</pubDate></item><item><title>求助，为什么新申请的招行 visa 信用卡死活绑不了 google play 的支付</title><link>https://www.v2ex.com/t/1247797</link><description>&lt;p&gt;填的内容都没问题，节点也都试过了，手机上也试过，就是过不了。
 &lt;img alt="替代文本" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/q1rFbKh.png" title="11"/&gt;&lt;/p&gt;
 &lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-10-11 14:02:16 +08:00"&gt;10h 2m ago&lt;/span&gt;
+Supplement 1  ·  &lt;span title="2026-10-11 14:02:16 +08:00"&gt;15h 10m ago&lt;/span&gt;
 &lt;p&gt;&lt;img alt="1" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/NV7jJ3b.jpeg" title="1"/&gt;&lt;/p&gt;
 &lt;p&gt;还是不太行，这应该是加在goole play里面了&lt;/p&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
@@ -181,7 +233,9 @@ Supplement 1  ·  &lt;span title="2026-10-11 14:02:16 +08:00"&gt;10h 2m ago&lt
 &lt;p&gt;&lt;strong&gt;#23 xiaocongcong1&lt;/strong&gt;：开个运通卡吧，以前双标的还真是好用，后悔没挂失补办一张，到期了现在只给单标的了，applepay 都绑不上&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#24 sleek7671&lt;/strong&gt;：你会不会限制了境外无卡支付？&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#25 SayHelloHi&lt;/strong&gt;：过一段时间再尝试绑定&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#26 socc&lt;/strong&gt;：应该是风控了，等等吧，直接绑运通。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 11 Oct 2026 04:43:47 +0000</pubDate></item><item><title>发现了新的泡水好喝的东西</title><link>https://www.v2ex.com/t/1247774</link><description>&lt;p&gt;甜叶菊，pdd3 块钱两小瓶，一杯水放 1-2 个叶子就好了，比罗汉果便宜，好泡，喝起来甜甜的，有回甘。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#26 socc&lt;/strong&gt;：应该是风控了，等等吧，直接绑运通。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#27 labay&lt;/strong&gt;：我已经忘了当时怎么操作的，用了国内 visa 卡绑的日本地区了，谷歌账号里有好几个“地址”的概念，账号地区会根据你的信用卡账单地址来决定，不能直接修改，&lt;br/&gt;&lt;br/&gt;如果用国内信用卡+真实的账单地址=中国地区的谷歌账号，限制地区的 app 就不能用了（ titok/muse/gpt 等等），所以我用“假的日本账单地址”+visa 来蒙混过关&lt;br/&gt;&lt;br/&gt;&lt;a href="https://i.imgur.com/Yd4NSbE.jpeg" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/Yd4NSbE.jpeg"/&gt;&lt;/a&gt;&lt;a href="https://i.imgur.com/3H1V1AN.jpeg" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/3H1V1AN.jpeg"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#28 HE1HE&lt;/strong&gt;：我也是招行的信用卡，我选的是 amex 的那个卡型啊&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 11 Oct 2026 04:43:47 +0000</pubDate></item><item><title>发现了新的泡水好喝的东西</title><link>https://www.v2ex.com/t/1247774</link><description>&lt;p&gt;甜叶菊，pdd3 块钱两小瓶，一杯水放 1-2 个叶子就好了，比罗汉果便宜，好泡，喝起来甜甜的，有回甘。&lt;/p&gt;
 &lt;p&gt;比罗汉果好，罗汉果一方面是略微贵一点，便宜的容易买到质量差的，另外一个是不好泡，需要掰开+热水才好泡出味道。&lt;/p&gt;
 &lt;p&gt;甜叶菊这个直接放杯子一两片就能泡好。
 甜叶菊叶子泡水喝起来我觉得比白砂糖水清爽很多，喝完嘴里是甜的，杯子闻着有植物的香气。打算买点种子放阳台种~&lt;/p&gt;
@@ -190,7 +244,7 @@ Supplement 1  ·  &lt;span title="2026-10-11 14:02:16 +08:00"&gt;10h 2m ago&lt
 &lt;p&gt;甜菊糖苷: 200-300 倍&lt;/p&gt;
 &lt;p&gt;罗汉果甜苷: 100-300 倍&lt;/p&gt;
 &lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-10-11 19:15:05 +08:00"&gt;4h 46m ago&lt;/span&gt;
+Supplement 1  ·  &lt;span title="2026-10-11 19:15:05 +08:00"&gt;9h 57m ago&lt;/span&gt;
 
 买的甜菊糖苷粉末收到了，用牙签往杯子里挖了一点，也是很甜+有回甘，味道跟用甜菊叶子泡水差不多，也可以尝试一下！ 少了叶子泡水的那种青草/植物味道，甜得更纯粹一点。
 
@@ -222,7 +276,8 @@ Supplement 1  ·  &lt;span title="2026-10-11 19:15:05 +08:00"&gt;4h 46m ago&lt
 &lt;p&gt;&lt;strong&gt;#25 Donahue&lt;/strong&gt;：@&lt;a href="/member/Hellert"&gt;Hellert&lt;/a&gt; 打算自己阳台种一点。另外买回来的甜菊糖苷兑水我觉得也很好喝，跟原叶味道差别不大，纯甜+回甘，没有原叶的那种植物香味&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#26 Donahue&lt;/strong&gt;：@&lt;a href="/member/sunzhuo"&gt;sunzhuo&lt;/a&gt; 不论功效，我只是从甜味饮料角度说~&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#27 Secular0246&lt;/strong&gt;：弄点茶叶喝吧，没有糖等方面的烦恼，喜欢甜味可以试试红茶&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#28 icyalala&lt;/strong&gt;：我有段时间研究各种代糖&lt;br/&gt;罗汉果甜苷相对风味好一些，没有后苦味，但是有一点点草本味道（但是我吃多了反而嗓子不舒服）&lt;br/&gt;甜菊糖苷清爽一些，但是有后苦味；我买过一个甜菊糖苷 Reb-M 提取的成分，似乎好很多&lt;br/&gt;赤藓糖醇相对接近白糖口感和甜度，一般可以配着上面两个，整体口感会好一些&lt;br/&gt;&lt;br/&gt;但是怎么说呢，就是这些代糖甜味感觉都是轻飘飘的，没有白糖那种厚重感，喝多了就腻了&lt;br/&gt;我一般是泡茶的时候，偶尔揪半片甜叶菊的干叶，再多就像喝糖水了&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 11 Oct 2026 02:37:51 +0000</pubDate></item><item><title>内存越来越贵会不会拉高 Linux 的装机率？</title><link>https://www.v2ex.com/t/1247772</link><description>&lt;p&gt;其实我一直知道 linux 比 windows 省内存。但是没量化感受。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#28 icyalala&lt;/strong&gt;：我有段时间研究各种代糖&lt;br/&gt;罗汉果甜苷相对风味好一些，没有后苦味，但是有一点点草本味道（但是我吃多了反而嗓子不舒服）&lt;br/&gt;甜菊糖苷清爽一些，但是有后苦味；我买过一个甜菊糖苷 Reb-M 提取的成分，似乎好很多&lt;br/&gt;赤藓糖醇相对接近白糖口感和甜度，一般可以配着上面两个，整体口感会好一些&lt;br/&gt;&lt;br/&gt;但是怎么说呢，就是这些代糖甜味感觉都是轻飘飘的，没有白糖那种厚重感，喝多了就腻了&lt;br/&gt;我一般是泡茶的时候，偶尔揪半片甜叶菊的干叶，再多就像喝糖水了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#29 Donahue&lt;/strong&gt;：@&lt;a href="/member/icyalala"&gt;icyalala&lt;/a&gt; 我更喜欢这种轻飘飘的甜，白糖的厚重感我喝起来会觉得黏腻 &lt;a href="https://i.imgur.com/NIvxivj.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/NIvxivj.png"/&gt;&lt;/a&gt; 我也打算买点罗汉果甜苷、三氯蔗糖对比下味道&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sun, 11 Oct 2026 02:37:51 +0000</pubDate></item><item><title>内存越来越贵会不会拉高 Linux 的装机率？</title><link>https://www.v2ex.com/t/1247772</link><description>&lt;p&gt;其实我一直知道 linux 比 windows 省内存。但是没量化感受。&lt;/p&gt;
 &lt;p&gt;10.1 闲来无事，给一台旧笔记本安装了 windows10 和 fedora 双系统。&lt;/p&gt;
 &lt;p&gt;结果发现系统起来杀都不干，windows 就要消耗 9G 内存，linux 消耗 5G,相差甚 4g 。&lt;/p&gt;
 &lt;p&gt;日常干活时，（ wps 、数十个网页、qq 、微信、代理软件这些常用）的，windows 经常在 13-15G&lt;/p&gt;
@@ -417,30 +472,5 @@ Supplement 1  ·  &lt;span title="2026-10-11 19:15:05 +08:00"&gt;4h 46m ago&lt
 &lt;p&gt;&lt;strong&gt;#21 zuokanyunqishi&lt;/strong&gt;：只要是要花时间/成本才能完成的事，就能赚钱.这就是个美丽的谎言,,,,,AI 来没来,这个都成立&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#22 solarwind233&lt;/strong&gt;：让程序员有工作的是需求是业务，不是程序员技术多么强大效率多高（ AI 目前也就提升这方面）。我把我们基础设施的成本压到极限了，降了 60%多，稳定性提上去+AI 答疑，基本不用花时间答疑和维护了。结果就是人被优化了，比较搞笑的是我降的成本是我工资的十倍，我走后就只有一个同事负责 60+服务，包含 APM 、网关、长连接等各类中间件。最近他给我说也在等裁员了，没事干。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#23 kela&lt;/strong&gt;：1929 年的教训告诉我们，当生产力极度富余但社会缺乏有效分配机制时，市场不会自动变好，只会走向旷日持久的内卷与停滞。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#24 cgtx&lt;/strong&gt;：我就是前端开发者，目前我的工作量加了 220%，但是精力消耗程度反而降低 30%，因为人员收缩了，所以工资也加了 25%,也是挺离谱的，反正目前我感觉良好。就是偶尔公司 token 不够用的时，自己会掏一点小钱把活干完&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 10 Oct 2026 23:48:16 +0000</pubDate></item><item><title>codex 下午 15:00~16:00 重置？</title><link>https://www.v2ex.com/t/1247751</link><description>&lt;p&gt;&lt;img alt="" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/Aq4xVN7.png"/&gt;
-EOD == end of day?&lt;/p&gt;
-&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;#1 privateproxies&lt;/strong&gt;：对的 最迟最晚今天下午 3 点（北京时间） &lt;br/&gt;&lt;br/&gt;这里看的比较清楚 tibo 的时间， &lt;br/&gt;&lt;a href="https://codex-reset.com/tibo#sleep-clock" rel="nofollow noopener" target="_blank"&gt;https://codex-reset.com/tibo#sleep-clock&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#2 413420&lt;/strong&gt;：又重置？不要啊&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#3 Veliqo&lt;/strong&gt;：管他呢，已经起来开始猛蹬了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#4 thatlazyman&lt;/strong&gt;：最近又慢又蠢就是因为一直重置导致很多人猛蹬？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#5 Spirei&lt;/strong&gt;：直接重置？还是送重置次数&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#6 gibber&lt;/strong&gt;：@&lt;a href="/member/Spirei"&gt;Spirei&lt;/a&gt; 直接重置&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#7 GLaDOSi&lt;/strong&gt;：&lt;a href="https://i.imgur.com/EvOqv8D.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/EvOqv8D.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#8 JarvisLee&lt;/strong&gt;：@&lt;a href="/member/thatlazyman"&gt;thatlazyman&lt;/a&gt; #4 慢，蠢是因为号被降智了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#9 xiaoz&lt;/strong&gt;：看样子是，不过根据我的经验，实际可能会有出入，然后时间上经常延迟。持续监控中： &lt;a href="https://rss.bz/zh/codex-reset" rel="nofollow noopener" target="_blank"&gt;https://rss.bz/zh/codex-reset&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#10 V2Try&lt;/strong&gt;：太蠢了，怀疑是一直给 luna 当 sol 用，重置也没啥好期待的，大部分时间用 Claude 干活&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#11 fovecifer&lt;/strong&gt;：目前还剩 2%&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#12 cnachen&lt;/strong&gt;：重置了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#13 win8en&lt;/strong&gt;：已经重置。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#14 USEROUYANG&lt;/strong&gt;：还是蹬慢了，还剩百分之五十&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#15 geese1028&lt;/strong&gt;：已经重置了。周末也别休息了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#16 linecode&lt;/strong&gt;：已经重置了，喵得，还剩 90%&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#17 raycloud&lt;/strong&gt;：已重置，还提前了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#18 buptrobin&lt;/strong&gt;：昨晚才用了一个重置机会，亏死了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#19 knightdf&lt;/strong&gt;：天天周末重置，脑子有点问题&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#20 viskem&lt;/strong&gt;：昨晚 2 个账号才用了重置！ Tibo 大数据上一定能感受到。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#21 xyfan&lt;/strong&gt;：已经重置，原来还有 30%呢，一抬头还有 94%&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#22 lambdaX999&lt;/strong&gt;：@&lt;a href="/member/buptrobin"&gt;buptrobin&lt;/a&gt; 一样，昨晚重置，才蹬了 20%，以后周末别用重置卡，操&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#23 zengyuxi&lt;/strong&gt;：卷起来，周末加班还在死命蹬&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#24 unpay&lt;/strong&gt;：最近 chatgpt 已经傻了。。。任何问题没有思考直接输出&lt;br/&gt;codex 暂时没有这个问题&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 10 Oct 2026 22:38:54 +0000</pubDate></item></channel></rss>
+&lt;p&gt;&lt;strong&gt;#24 cgtx&lt;/strong&gt;：我就是前端开发者，目前我的工作量加了 220%，但是精力消耗程度反而降低 30%，因为人员收缩了，所以工资也加了 25%,也是挺离谱的，反正目前我感觉良好。就是偶尔公司 token 不够用的时，自己会掏一点小钱把活干完&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#25 HappyAndSmile&lt;/strong&gt;：@&lt;a href="/member/tommyZZM"&gt;tommyZZM&lt;/a&gt; #6 别人好像没有说过裁员因为 AI 吧&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 10 Oct 2026 23:48:16 +0000</pubDate></item></channel></rss>
