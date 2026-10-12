@@ -1,5 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 12 Oct 2026 02:28:12 +0000</lastBuildDate><item><title>基于安卓17的LineageOS 24.0正式版发布 新增基于浏览器的刷机工具</title><link>https://www.landian.news/archives/127259.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 12 Oct 2026 04:38:38 +0000</lastBuildDate><item><title>[下载]多系统安装工具Ventoy 1.1.18版发布 实验性支持SteamOS并改进Linux体验</title><link>https://www.landian.news/download/127316.html</link><description>&lt;header&gt;
+&lt;h1&gt;
+                    [下载]多系统安装工具Ventoy 1.1.18版发布 实验性支持SteamOS并改进Linux体验                &lt;/h1&gt;
+&lt;p&gt;&lt;span title="发布日期"&gt;2026年10月12日 12:38&lt;/span&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/downloads"&gt;软件下载&lt;/a&gt;&lt;/span&gt;&lt;span title="评论数量"&gt;0&lt;/span&gt;&lt;span title="浏览数量"&gt;1.83K&lt;/span&gt;&lt;/p&gt; &lt;/header&gt;
+&lt;p&gt;#软件下载 多系统安装神器 Ventoy v1.1.18 版发布，实验性支持 SteamOS 恢复镜像并改进 Linux 使用体验。Ventoy 可以同时保存多个不同系统、不同版本的镜像文件，通过 U 盘启动快速安装而不必反复刻录。推荐经常装系统、需要给不同机器装机和经常安装不同版本的用户使用 Ventoy。下载地址：https://ourl.co/127316&lt;/p&gt;&lt;p&gt;多系统安装神器 Ventoy 日前推出 1.1.18 版，在新版本中 Ventoy 可以启动 SteamOS 恢复镜像，方便用户将恢复镜像与其他镜像放到启动盘中备用。不过该功能目前仍处在实验性支持阶段，实际效果可能受 Steam Deck 或其他设备固件、镜像恢复版本的影响。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127316.png" rel="nofollow"&gt;&lt;img alt="[下载]多系统安装工具Ventoy 1.1.18版发布 实验性支持SteamOS并改进Linux体验" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127316.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Ventoy 也属于 U 盘启动工具，但该工具的优势在于，用户将 Ventoy 本体刻录到 U 盘后，可以将其他镜像全部放到 U 盘里，这个过程正常复制进去就行，不需要进行刻录。&lt;/p&gt;
+&lt;p&gt;实际使用时通过 U 盘启动 Ventoy 后即可选择需要的镜像进行安装，因此对于经常安装系统、需要在不同设备安装不同系统、安装系统的不同版本的用户来说 Ventoy 非常方便，因为不需要频繁对 U 盘进行刻录。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Ventoy 1.1.18 版还改进 Linux Remount 功能，让主流 Linux 桌面环境可以更方便地直接访问 Ventoy ISO 分区，同时将设备映射名称固定为 /dev/mapper/VentoyPart。&lt;/p&gt;
+&lt;p&gt;这次更新也修复部分 Linux 桌面侧边栏重复显示 Ventoy 磁盘图标的问题，解决 CloneZilla 中的 ISO 分区默认无法挂载的问题，修复 Ubuntu 桌面版持久化功能偶尔失效的问题等。&lt;/p&gt;
+&lt;p&gt;其他修复还包括解决部分 Windows 和 WinPE 版本安全启动检查失败的问题，修复 Fedora Linux 45 Beta、Grml 2026.09 的启动问题、优化新版 LinuxConsole 的启动流程。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;从蓝点网文件服务器下载：&lt;a href="https://dl.landian.news/?dir=soft/ventoy" rel="noopener" target="_blank"&gt;https://dl.landian.news/?dir=soft/ventoy&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;从 GitHub 下载：&lt;a href="https://www.landian.news/go?url=https://github.com/ventoy/Ventoy/releases/tag/v1.1.18" rel="noopener" target="_blank"&gt;https://github.com/ventoy/Ventoy/releases/tag/v1.1.18&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;访问 Ventoy 官方更新日志：&lt;a href="https://www.landian.news/go?url=https://forums.ventoy.net/showthread.php?tid=3286" rel="noopener" target="_blank"&gt;https://forums.ventoy.net/showthread.php?tid=3286&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 12 Oct 2026 04:38:38 +0000</pubDate></item><item><title>国家互联网应急中心发布风险提示：荐片播放器内置后门 已感染70万台设备</title><link>https://www.landian.news/archives/127263.html</link><description>
+&lt;p&gt;#安全资讯 国家互联网应急中心发布安全风险提示：荐片播放器内置后门程序，已感染超过 70 万台设备。火绒安全分析显示，该播放器内置的后门程序会定时从 C2 服务器获取指令，劫持用户浏览器主页和静默安装推广软件等。安装的软件包括豆包以及 360 的壁纸软件，还会劫持剪贴板、写入内存数据、脚本执行和进程注入等。查看全文：https://ourl.co/127263&lt;/p&gt;&lt;p&gt;CNCERT 国家互联网应急中心日前发布风险提示称，名为荐片播放器的软件内置后门程序，可在用户不知情的情况下收集设备信息、静默安装其他软件以及接收 C2 指令执行任意代码。国家互联网应急中心在 2026 年 9 月 15 日～22 日期间累计检测到境内 700,260 台设备感染，日平均上线的受控终端数量最高达到 251,880 台。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127263.png" rel="nofollow"&gt;&lt;img alt="国家互联网应急中心发布风险提示：荐片播放器内置后门 已感染70万台设备" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127263.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;分析发现荐片播放器会通过注册表实现自启动和系统服务在后台运行，并尝试让用户在任务管理器中禁用自启动的操作失效，相关服务还会以当前登录用户身份重新启动自身，以获得更高的桌面操作权限。&lt;/p&gt;
+&lt;p&gt;程序会定期从 C2 服务器获取配置，按照服务器指令将推广软件下载到临时目录，然后再以管理员权限隐藏运行，下载的软件种类和来源地址均由服务器决定。程序还会读取硬盘序列号和网卡 MAC 地址生成设备指纹，同时记录安装渠道、推广活动编号、来源域名和安装时间等信息。&lt;/p&gt;
+&lt;p&gt;该软件内置两条独立的脚本下发通道，分别以 30 分钟和 20 分钟为周期向服务器发送请求，服务器返回特定格式的数据后，程序会直接交给脚本引擎执行，具备调用 DLL、创建 COM 对象、下载运行文件和向指定内存地址写入数据的能力。结合进程注入、内核驱动加载和内存执行，服务端可持续向受控终端投递其他程序。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;荐片播放器还会监听剪贴板将用户复制的部分 HTTP 或 FTP 链接替换为服务器下发的推广地址，批量修改 36 种媒体格式的默认打开方式。CNCERT 对多个版本进行对比后发现，软件虽然更换通信域名、接口和加密方式，但其自启动、静默安装、终端信息采集、剪贴板劫持、脚本执行和进程注入等主要恶意行为仍然存在。&lt;/p&gt;
+&lt;p&gt;火绒安全实验室披露的关联案例显示，该播放器安装包还可能在后台捆绑其他软件，通过进程注入和浏览器 hook 劫持用户主页，用户重新下载或更新播放器仍然会被劫持。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;CNCERT 建议不要从非正规渠道下载捆绑推广的影视播放器，安装软件时也应该核对数字签名主体，警惕使用个人证书签名的安装程序，也需要留意安装过程中的默认勾选项 (但其实没用，荐片播放器在安装过程中可以取消勾选豆包，但取消后仍然会被安装)。&lt;/p&gt;
+&lt;p&gt;已经安装过该软件的用户应当视设备为受控主机，完成隔离和取证排查后建议重装系统以彻底清理，避免终端数据泄露以及设备成为肉鸡被黑客远程控制。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：CNCERT、&lt;a href="https://www.landian.news/go?url=https://huorong.cn/document/tech/vir_report/2072" rel="noopener" target="_blank"&gt;火绒安全&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 12 Oct 2026 04:24:33 +0000</pubDate></item><item><title>内存短缺冲击全球PC市场 惠普在26Q3出货量暴跌31% 行业整体出货量暴跌20%</title><link>https://www.landian.news/archives/127262.html</link><description>
+&lt;p&gt;#行业资讯 IDC 数据显示 26Q3 全球传统 PC 出货量暴跌 20%，其中惠普出货量同比下降 30.9%。AI 数据中心对内存的需求正在冲击 PC 市场，在内存供应短缺和价格极高的背景下，PC 价格也水涨船高，这导致更多消费者暂缓购买 PC。IDC 分析师预计渠道库存压力可能会形成短期促销，即渠道提供少量折扣价吸引用户购买，但促销价也不太可能回到 2025 年的水平。查看全文：https://ourl.co/127262&lt;/p&gt;&lt;p&gt;IDC 公布的初步数据显示，26Q3 全球传统 PC 出货量同比下降 20.1% 至 6,270 万台，而惠普出货量同比下降 30.9% 至 1,030 万台，惠普的出货量跌幅也是最高的。出货量暴跌的原因有多种，其中最主要的仍然是内存价格太高和供应紧张，这导致零售终端的价格持续上涨。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127262.png" rel="nofollow"&gt;&lt;img alt="内存短缺冲击全球PC市场 惠普在26Q3出货量暴跌31% 行业整体出货量暴跌20%" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127262.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;IDC 统计的传统 PC 包括台式机、笔记本电脑和专业工作站，不包括平板电脑和基于 x86 架构的服务器。数据显示 26Q3 出货量较 26Q2 下降 9.1%，也是连续两个季度同比下降，26Q2 的同比跌幅为 3.8%。&lt;/p&gt;
+&lt;p&gt;主要厂商中联想出货量为 1,490 万台，同比下降 22.6%；惠普出货量为 1,030 万台，同比下降 30.9%；戴尔出货量为 760 万台，同比下降 25.0%。惠普的市场份额也从 2025 年同期的 19.1% 降低到 16.5%。&lt;/p&gt;
+&lt;p&gt;苹果和华硕的出货量分别下降 11.3% 和 8.6%，从数据可以看到联想虽然出货量也有很大幅度的下跌，不过联想出货量仍然占比 23.8%，市场份额超过其他竞争对手。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;IDC 分析师认为 AI 数据中心建设持续增加内存需求，相关厂商和渠道商在上半年已经提前采购产品以应对预期中的内存和其他组件涨价。这种提前备货也透支后续需求，打乱通常由每年 Q3 带动全年出货量的季节性规律。&lt;/p&gt;
+&lt;p&gt;随着内存供应受限，厂商面临更高的生产成本和更高的终端零售价，高价格正在抑制消费者和企业采购，部分渠道还需要消化此前提前备下的库存。&lt;/p&gt;
+&lt;p&gt;IDC 分析师预计渠道库存压力可能会形成短期促销，为消费者带来有限的价格优惠，但显然 PC 销售价格不可能回到 2025 年的水平，最多只是厂商提供折扣优惠吸引部分刚需用户购买产品。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 12 Oct 2026 04:05:45 +0000</pubDate></item><item><title>谷歌浏览器将弃用XSLT的支持 远程桌面Web访问需要尽早迁移到替代方案</title><link>https://www.landian.news/archives/127261.html</link><description>
+&lt;p&gt;#软件资讯 谷歌将在 Chromium 浏览器中弃用 XSLT 客户端支持，将影响 Windows Server 服务器系统的 Web 远程桌面访问。Web 远程桌面访问依赖 XSLT 转换，当浏览器弃用该功能后页面将无法显示。微软建议 IT 管理员尽早迁移，例如部署 HTML5 远程桌面 Web 客户端。临时应对方法则是手动启用 XSLT 支持，这种策略会支持到明年 8 月。查看全文：https://ourl.co/127261&lt;/p&gt;&lt;p&gt;目前谷歌正在计划从 Chromium 浏览器中弃用对客户端 XSLT 的支持，这可能导致 Windows Server 服务器系统中的远程桌面 Web 访问页面无法正常显示。由于该门户依赖浏览器执行 XSLT 转换，IT 管理员需要在浏览器更新前准备好替代方案。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127261.png" rel="nofollow"&gt;&lt;img alt="谷歌浏览器将弃用XSLT的支持 远程桌面Web访问需要尽早迁移到替代方案" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127261.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;RD Web Access 是远程桌面服务的网页版，用户可以通过浏览器登录并访问获得授权的远程桌面和应用。传统门户会在客户端中使用 XSLT 并将服务器返回的 XML 内容转换为网页界面。&lt;/p&gt;
+&lt;p&gt;当浏览器禁用 XSLT 支持后页面可能会显示无法显示 RD Web Access 等错误，用户也无法看到远程资源。微软的支持文档显示，Windows Server 2016/2019/2022/2025 都受影响，问题出现在 XSLT 功能被策略关闭后。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;谷歌表示目前 XSLT 仅出现在约 0.02% 的网页加载中，使用 XSLT 处理指令的比例也低于 0.001%，而 Chromium 使用的 libxslt 属于老旧的 C/C++ 代码库，存在缓冲区溢出等内存安全风险，因此维护成本和安全风险已经不再匹配其使用率。&lt;/p&gt;
+&lt;p&gt;根据谷歌计划，从 11 月 17 日发布的 Chrome 158 版开始谷歌将停止支持 XSLT，企业策略或源试用用户可以暂时继续使用，而到 2027 年 8 月 17 日发布 Chrome 176 版时这些企业策略也会被彻底禁用，所以企业还有 10 个月的时间进行迁移。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;通过组策略或注册表将 Chromium 浏览器的 XSLTEnabled 选项设置为 1 以启用 XSLT 支持&lt;/p&gt;
+&lt;p&gt;部署 HTML5 远程桌面 Web 客户端，用户可以直接在浏览器中启动会话或下载 RDP 文件&lt;/p&gt;
+&lt;p&gt;在 Microsoft Edge 浏览器中使用 IE 模式，将 RD Web Access 地址添加到兼容性列表&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 12 Oct 2026 03:51:11 +0000</pubDate></item><item><title>有开发者尝试在MacBook上安装谷歌铝系统(Aluminium OS) 可以原生运行安卓应用</title><link>https://www.landian.news/archives/127260.html</link><description>
+&lt;p&gt;#系统资讯 有开发者尝试在 MacBook 上安装谷歌 Googlebook OS，即 ChromeOS+Android 的融合系统，可以原生运行安卓应用。GBOS-VM 项目通过 QEMU 虚拟化在 MacBook 上运行，现阶段项目还在起步阶段，功能兼容性和安全性都不足以支持日常使用。不过对于有兴趣的开发者可以通过该项目进行体验和研究。查看全文：https://ourl.co/127260&lt;/p&gt;&lt;p&gt;早前谷歌联合硬件制造商推出多款以人工智能为核心的 Googlebook 设备，这些设备运行的操作系统名为 Googlebook OS，也就是此前代号为 Aluminium OS 的铝系统。该系统融合 ChromeOS 与 Android，为用户提供安卓桌面版使用体验。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127260.png" rel="nofollow"&gt;&lt;img alt="有开发者尝试在MacBook上安装谷歌铝系统(Aluminium OS) 可以原生运行安卓应用" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127260.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;开发者斯凯勒・泰勒 - 巴里克（Skylar Taylor-Barrick）正在尝试将铝系统通过 QEMU 虚拟化后在 MacBook 上运行，目前已经实现的功能包括正常启动、GPU 加速以及运行谷歌浏览器等。这个项目已经通过 GBOS-VM 进行开源，项目以谷歌提供的戴尔官方恢复镜像为基础，再将面向实体硬件的部分组件替换为虚拟设备组件。&lt;/p&gt;
+&lt;p&gt;不过现阶段该项目仅处在起步实验阶段，功能兼容性和安全性都不足以支持日常使用，还有很多硬件支持不充分，例如蓝牙、音频和外设支持不完整，所以仅供有能力的开发者进行部署测试。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;铝系统使用 Vulkan 图形接口，而 macOS 主要依赖 Metal，GBOS-VM 项目通过 MoltenVK 将 Vulkan 调用转换为 Metal，使用 POSIX 共享内存处理 Android 在 OpenGL ES 与 Vulkan 之间共享图形缓冲区的问题。&lt;/p&gt;
+&lt;p&gt;项目还针对 Android 与 Metal 不同的纹理行对齐方式进行调整，让虚拟机可以调用 MacBook GPU，而不是完全依赖 GPU 渲染。这种方案已经可以正常显示系统界面并运行谷歌浏览器，但部分 WebGL 内容可能出现渲染错误，虚拟机显示帧率目前限制为 60FPS。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;项目要求使用基于苹果 M 芯片的 Mac 设备，建议配备至少 16GB 内存和 60GB 的可用存储空间，同时需要安装 Xcode Command Line Tools、Homebrew、JDK 以及 Android SDK 和 NDK。&lt;/p&gt;
+&lt;p&gt;目前蓝牙只能通过安卓模拟器提供虚拟无线电、无法直接配对实体设备。音频表现也不稳定，虚拟机的数据分区、右键操作和长时间运行尚未经过充分测试，开发者也没有为不同型号的 Mac 提供完整兼容性测试。&lt;/p&gt;
+&lt;p&gt;因此开发者明确建议将其用于开发体验而不是日常使用，对于希望研究 Googlebook OS、测试安卓桌面环境或参与虚拟化开发的用户来说，该项目提供验证路径，但与实体 Googlebook 设备体验仍有很大差距。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://github.com/skylartaylor/gbos-vm" rel="noopener" target="_blank"&gt;GBOS-VM&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 12 Oct 2026 03:05:00 +0000</pubDate></item><item><title>基于安卓17的LineageOS 24.0正式版发布 新增基于浏览器的刷机工具</title><link>https://www.landian.news/archives/127259.html</link><description>
 &lt;p&gt;#系统资讯 基于安卓 17 的 LineageOS 24.0 正式版发布，新增基于浏览器 WebUSB 协议的刷机工具。此次更新主要同步安卓安全更新和更新内置应用，同时推出基于浏览器的 Lineage Flash Tools 刷机工具。该刷机工具提供 ADB、Fastboot、三星 Odin 和 Amlogic Burn 四种模式，分别面向不同设备和刷机协议。查看全文：https://ourl.co/127259&lt;/p&gt;&lt;p&gt;LineageOS 项目日前发布第 32 期更新日志，正式公布基于 Android 17 的 LineageOS 24.0 正式版。新版本在完成底层代码迁移的同时，更新多款系统应用、改进系统升级流程，并推出基于 WebUSB 的浏览器刷机工具，降低安装和维护系统的门槛。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127259.png" rel="nofollow"&gt;&lt;img alt="基于安卓17的LineageOS 24.0正式版发布 新增基于浏览器的刷机工具" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127259.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -59,67 +135,4 @@
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Grok Bot 可以代表用户发送邮件或回复消息，但默认情况下需要用户提出要求或批准。在没有获得授权时，Bot 只会展示完整草稿，不会直接发送邮件。邮件正文中的指令也不会自动视为用户授权，系统会将外部邮件当做需要分析的信息，而不是直接执行命令，避免出现通过电子邮件内容进行提示词注入攻击。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 10 Oct 2026 05:43:39 +0000</pubDate></item><item><title>Yandex在俄罗斯的另一座数据中心被无人机袭击 不过这次并未造成严重损伤</title><link>https://www.landian.news/archives/127257.html</link><description>
-&lt;p&gt;#云计算 乌克兰无人机在 48 小时内两次袭击 Yandex 在俄罗斯的数据中心，最新被袭击的数据中心位于卡卢加州。不过这次袭击并未造成严重损失，位于卡卢加州的数据中心仅对象存储服务出现 1 小时的中断，目前已经恢复正常。而梁赞州的数据中心到现在还是全面停电状态，所有服务都无法使用。查看全文：https://ourl.co/127257&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/127170.html" rel="noopener" target="_blank"&gt;早前俄罗斯本土搜索引擎 Yandex 位于梁赞州的大型数据中心遭到无人机袭击&lt;/a&gt;，受损严重，这座数据中心里有数以万计的常规服务器，还有两台被用于训练人工智能模型的超级计算机。现在乌克兰再度出动无人机袭击 Yandex 的数据中心，此次被袭击的数据中心位于卡卢加州。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127257.png" rel="nofollow"&gt;&lt;img alt="Yandex在俄罗斯的另一座数据中心被无人机袭击 不过这次并未造成严重损伤" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127257.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;位于卡卢加州的数据中心是 Yandex 在俄罗斯境内规模最大的数据中心，这座数据中心在 2022 年开工建设并在 2023 年下半年投入运营。该数据中心也属于 Yandex Cloud 云计算平台，为 Yandex 和俄罗斯政企客户提供全面的云服务。&lt;/p&gt;
-&lt;p&gt;当地时间 10 月 9 日，卡卢加州数据中心被无人机袭击，Yandex 确认该数据中心的多个服务器已经完全退出运行，不过具体损失还在评估中。数据中心团队也在评估损失和处理善后，目前尚不清楚具体有多少硬件受损、后续是否能够恢复等。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Yandex Cloud Status 页面日志显示，袭击发生后该数据中心（ru-central1-a/b/d/e 可用区）对象存储服务出现异常，在 1 个小时后数据中心团队似乎就已经解决问题，目前涉及的对象存储服务已经恢复正常。&lt;/p&gt;
-&lt;p&gt;作为对比，梁赞州的 ru-central1-b 可用区当前完全处在停滞的状态，所有服务全部中断，Yandex Cloud 团队正在协助客户迁移数据，将业务迁移到其他数据中心确保业务能够恢复运行。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/127170.html" title="俄罗斯本土搜索引擎Yandex数据中心被无人机袭击 数万台服务器运行受影响"&gt;&lt;h3&gt;俄罗斯本土搜索引擎Yandex数据中心被无人机袭击 数万台服务器运行受影响&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#云计算 俄罗斯本土搜索引擎 Yandex 数据中心被无人机袭击，数万台服务器运行受影响。当地时间 10 月 8 日凌晨，Yandex 位于梁赞…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/tech/cloud"&gt;云计算&lt;/a&gt;, &lt;a href="https://www.landian.news/tech"&gt;科技资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2026年10月9日 11:21&lt;/span&gt;&lt;span title="浏览数量"&gt;5.62K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 10 Oct 2026 05:27:24 +0000</pubDate></item><item><title>[重要提醒] 旧版Windows 10/11更新证书将到期轮换 若长时间停止更新将无法收到更新</title><link>https://www.landian.news/archives/127273.html</link><description>
-&lt;p&gt;#系统资讯 重要提醒：旧版 Windows 10/11 更新证书将到期轮换，若长时间停止更新则后续无法连接微软服务器获取后续更新。适用于设备连接更新服务器的证书组将在 2027 年 5 月 17 日和 6 月 19 日到期，微软提醒用户提前安装必要更新。新版证书已经通过 2026 年 7 月更新推送，用户安装该更新后可以继续暂停更新，不影响后续重启更新。查看全文：https://ourl.co/127273&lt;/p&gt;&lt;p&gt;据微软发布的支持公告，适用于设备连接更新服务器的数字证书将在 2027 年 5 月 17 日和 6 月 19 日到期，目前微软正在轮换这些连接使用的数字证书。正常情况下系统保持更新将可以在证书到期前自动轮换证书，因此可以继续连接微软服务器获取更新。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127273.png" rel="nofollow"&gt;&lt;img alt="[重要提醒] 旧版Windows 10/11更新证书将到期轮换 若长时间停止更新将无法收到更新" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127273.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;需要说明的是本次轮换的是设备与更新服务器之间的证书组，并非 UEFI CA 2023 证书，这组连接使用的新证书目前已经通过月度更新推送给所有设备，因此保持正常更新的系统不受影响，这些设备此时可能已经完成证书轮换。&lt;/p&gt;
-&lt;p&gt;而长期停止更新的设备由于无法接收轮换后的证书，当证书到期后设备将无法正常连接到微软更新服务器，此时系统无法再从微软服务器下载任何更新，用户主动点击检查更新时可能也会报错，除非用户手动下载更新安装并轮换证书。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;微软已经在 2026 年 7 月发布的更新中发布新版数字证书，因此用户至少需要安装 7 月更新，此时证书已经被正确轮换所以即便后续暂时停止更新，也不会在证书过期后导致无法正常下载安装更新。&lt;/p&gt;
-&lt;p&gt;Windows 11 25H2 及后续版本不需要进行额外操作，Windows 11 24H2 版和 Windows Server 2025 等版本则需要安装 2025 年 9 月或之后发布的更新；其他受支持的 Windows 10/11、Windows Server 2016/2019/2022 以及 Windows 10 LTSC 2019 需要安装 2026 年 7 月或之后发布的更新。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 10 Oct 2026 05:03:12 +0000</pubDate></item><item><title>[企业] 微软将从11月开始在Outlook中默认拦截MSIX等安装包类附件 阻断恶意软件包传播</title><link>https://www.landian.news/archives/127272.html</link><description>
-&lt;p&gt;#软件资讯 [仅限企业] 从 11 月开始微软将在 Outlook 网页版和新版 Outlook 客户端中屏蔽 MSIX 和 MSIXBundle 软件包。屏蔽软件是微软注意到很多黑客使用邮件发送恶意软件包进行钓鱼，而企业通过邮件发送 MSIX 软件包的场景并不常见。所以直接屏蔽掉这些格式有助于用户防范钓鱼邮件中附带的恶意软件，有特殊需要的企业也可以手动解封。查看全文：https://ourl.co/127272&lt;/p&gt;&lt;p&gt;据微软发布的支持公告，从 2026 年 11 月开始 Outlook 网页版和新版 Outlook 客户端将默认拦截 MSIX 和 MSIXBundle 附件，这个变化主要面向企业使用的 Microsoft Exchange Online 用户。策略生效后用户将无法通过上述版本发送、接收、下载和打开这类安装包类文件。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127272.png" rel="nofollow"&gt;&lt;img alt="[企业] 微软将从11月开始在Outlook中默认拦截MSIX等安装包类附件 阻断恶意软件包传播" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127272.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;MSIX 是微软推出的现代应用打包格式，主要用于软件安装、更新和分发。MSIXBundle 则可以在单个文件里包含面向不同处理器架构的多个 MSIX 安装包。微软商店、企业软件分发平台以及部分独立软件都在使用这类格式。&lt;/p&gt;
-&lt;p&gt;此次调整微软将这些文件格式添加到 Microsoft Exchange Online BlockedFileTypes 策略列表中，既影响默认 OWA 邮箱策略，也影响企业租户中创建的自定义策略。当然用户仍然可以通过其他渠道下载这类应用文件，具体是否可以安装视企业 IT 管理员设置的策略.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;做出以上决定的原因是，微软威胁情报团队此前已经发现多个由经济利益驱使的攻击组织使用 App Installer 和 ms-appinstaller 协议分发恶意 MSIX 软件包。攻击者通常仿冒 Zoom、TeamViewer 以及 AnyDesk 等常见软件，通过恶意广告、搜索结果投毒和钓鱼消息诱导用户下载所谓的更新程序。&lt;/p&gt;
-&lt;p&gt;而企业通过电子邮件传输 MSIX 软件包的场景并不常见，因此即便屏蔽掉也不会给大多数企业造成影响，部分软件开发类企业有可能通过邮件发送测试用软件包，这种情况下 IT 管理员可以设置例外，允许特定邮箱继续发送和接收 MSIX 软件包。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 10 Oct 2026 03:52:55 +0000</pubDate></item><item><title>哦豁！微软已封堵Win11 OOBE界面跳过登录账号的漏洞 此前点击阅读更多就可以创建本地账户</title><link>https://www.landian.news/archives/127270.html</link><description>&lt;article&gt;
-&lt;header&gt;
-&lt;h1&gt;
-                    哦豁！微软已封堵Win11 OOBE界面跳过登录账号的漏洞 此前点击阅读更多就可以创建本地账户                &lt;/h1&gt;
-&lt;p&gt;&lt;span title="发布日期"&gt;2026年10月10日 11:23&lt;/span&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/os/win"&gt;Windows&lt;/a&gt;, &lt;a href="https://www.landian.news/os"&gt;系统资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="评论数量"&gt;0&lt;/span&gt;&lt;span title="浏览数量"&gt;1.88K&lt;/span&gt;&lt;/p&gt; &lt;/header&gt;
-&lt;p&gt;#系统资讯 哦豁！微软悄悄调整服务端设置，Windows 11 OOBE 界面点击阅读更多创建本地账户的漏洞已经被封堵。此前有开发者发现 OOBE 登录账户的地方，只需要点击阅读更多按钮就会跳转到本地账户创建，可以说是最简单的绕过登录的方法。现在这个选项已经无效，点击后会正常弹出文字说明，无法再直接创建本地账户。查看全文：https://ourl.co/127270&lt;/p&gt;&lt;p&gt;此前有开发者发现 Windows 11 OOBE 界面有个很离谱的问题，长期以来微软都要求用户在安装系统时必须登录微软在线账户，但开发者 BobPony 发现&lt;a href="https://www.landian.news/archives/126849.html" rel="noopener" target="_blank"&gt;只需要点击登录账户底部的文字说明里的阅读更多按钮就会自动跳转到创建本地账户界面&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;很显然这就是微软的某种失误，微软工程师估计做好链接后并未自己点击进行测试，只不过 OOBE 界面本身就是联网控制的，所以微软要想修复的话也非常简单，只需要调整服务器后端设置即可。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/09/126849.png" rel="nofollow"&gt;&lt;img alt="哦豁！微软已封堵Win11 OOBE界面跳过登录账号的漏洞 此前点击阅读更多就可以创建本地账户" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/09/126849.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;经过测试目前微软已经通过调整服务器后端设置修复这个漏洞，现在点击阅读更多按钮可以正常跳出微软的说明，不会再继续跳转到本地账户创建界面。微软始终没有就这件事发布声明，当然现在问题修复后也没有发布任何公告，没人知道微软什么时候调整服务器设置的。&lt;/p&gt;
-&lt;p&gt;对于仍然想要创建本地账户的用户来说，使用 U 盘装机时只需要使用 Rufus 即可，该工具在创建 U 盘镜像时可以选择跳过登录在线账户要求，使用这种预处理的镜像装机时默认就是创建本地账户。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/126849.html" title="Windows 11出现新的跳过登录账号方法：竟然是点击超小的了解更多链接"&gt;&lt;h3&gt;Windows 11出现新的跳过登录账号方法：竟然是点击超小的了解更多链接&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#技术教程 Windows 11 出现新的跳过账号登录方法，只需要在 OOBE 输入账号的地方，点击超小的了解更多按钮就可以创建本地账户。这个方…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/tutorials"&gt;技术教程&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2026年9月14日 10:34&lt;/span&gt;&lt;span title="浏览数量"&gt;11.44K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://x.com/TheBobPony/status/2108367518348066975" rel="noopener" target="_blank"&gt;X@BobPony&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;ins data-ad-client="ca-pub-8597288383599884" data-ad-format="auto" data-ad-slot="1551135873" data-full-width-responsive="true"&gt;&lt;/ins&gt;
-&lt;/p&gt;&lt;popup module-class="point-pay-module" ref="pointPayRef"&gt;&lt;point-pay-popup @close-point-pay-popup="closePointPay"&gt;&lt;/point-pay-popup&gt;&lt;/popup&gt; &lt;/article&gt;
-</description><pubDate>Sat, 10 Oct 2026 03:23:02 +0000</pubDate></item><item><title>加密硬件钱包Ledger遭黑客攻击 黑客改装硬件窃取助记词 已窃取超过8,000万美元</title><link>https://www.landian.news/archives/127254.html</link><description>
-&lt;p&gt;#加密货币 加密硬件钱包 Ledger 遭黑客攻击，黑客秘密收购东南亚经销商并改装硬件加装微控制器用来窃取助记词。黑客的操作流程大致如下：在 3 月份秘密收购 CryptoBilis 公司获得控制权，并要求原团队对收购事件保密至少 6 个月，随后黑客开始使用定制微电路板改装钱包。黑客在原版 Ledger 屏幕下加装微电路板，电路板上有微控制器、天线和 eSIM 模块，可以通过 SPI 链路监控 Ledger 上显示的助记词。钱包被买家购买并存储加密货币后，黑客可以直接通过助记词远程恢复钱包并盗走所有资产。目前行业统计黑客已经盗取至少 8,000 万美元的加密资产，随着时间的推移估计还有更多用户钱包会被盗。查看全文：https://ourl.co/127254&lt;/p&gt;&lt;p&gt;法国加密货币硬件钱包 Ledger 日前遭遇严重的安全事件，黑客通过改装硬件加装窃取装置盗取用户设置的助记词，目前黑客盗取的加密货币价值超过 8,000 万美元，随着时间的推移可能会有更多用户的加密货币钱包被黑客重置并转走里面的资产。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127254-1.png" rel="nofollow"&gt;&lt;img alt="加密硬件钱包Ledger遭黑客攻击 黑客改装硬件窃取助记词 已窃取超过8000万美元" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127254-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;前门头沟 (Mt.Gox) 负责人马克・卡佩莱斯 (Mark Karpelès) 发布的硬件拆解图是此次事件的导火索，黑客似乎看到马克发布的拆解图后断定改装事件肯定会引起关注，于是选择立即盗取已经成功收集的钱包。如果不是马克发现这件事，估计黑客还会继续潜伏并收集更多钱包数据。&lt;/p&gt;
-&lt;p&gt;马克检查一台来自马来西亚的 Ledger Nano X，设备外包装的热缩膜看起来完好，但打开设备后在原本用于屏幕缓冲的位置发现额外的电路板。这块电路板包含微控制器、LTE 通信模块、天线和 eSIM 等组件，通过内部线路连接到设备显示相关的 SPI 通信链路。&lt;/p&gt;
-&lt;p&gt;其可能的工作方式是监听设备向屏幕发送的字符数据，再利用针对 Ledger 字体训练的识别逻辑来重建屏幕内容。Ledger 设备首次初始化时会在屏幕上显示 24 个助记词，正常情况下助记词由设备内部生成并显示，Ledger 的安全元件负责保存私钥和执行关键操作。&lt;/p&gt;
-&lt;p&gt;如果攻击者能够在屏幕链路旁路读取这些词语，再通过蜂窝网络发送出去，就可能在用户完成初始化后获得完整助记词。在后续流程中黑客不需要接触到钱包，可以通过其他兼容钱包恢复该助记词并控制对应地址中的资产。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;CryptoBilis 是 Ledger 在东南亚区域的授权经销商，很多用户并非从 Ledger 订购设备 (因为要从法国工厂走法国邮政发货，时间很长)。而这家经销商早在 3 月份就已经被秘密收购，而且收购协议还要求对收购事件保密至少 6 个月，显然黑客蓄谋已久。&lt;/p&gt;
-&lt;p&gt;目前猜测是收购 CryptoBilis 的是朝鲜黑客，有能力大规模定制微电路板、微控制器并进行改装的自然也不是普通人，不过行业还在继续调查中，暂时无法确认黑客身份。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 10 Oct 2026 02:41:47 +0000</pubDate></item></channel></rss>
+</description><pubDate>Sat, 10 Oct 2026 05:43:39 +0000</pubDate></item></channel></rss>
