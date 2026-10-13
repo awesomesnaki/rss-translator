@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>张洪Heo</title><link>https://blog.zhheo.com/</link><description>产品设计师、独立开发者、设计与科技领域自媒体博主</description><language>zh-CN</language><lastBuildDate>Fri, 09 Oct 2026 06:09:05 +0000</lastBuildDate><item><title>OpenLogi 上手：高性能低占用的支持多终端的本地无账号罗技驱动</title><link>https://blog.zhheo.com/p/84vx2dp8.html</link><description>&lt;p&gt;罗技的鼠标我用得挺久，MX Master 的手感确实没得说。但配套的 Logi Options+ 一直让我别扭：装完要登账号，后台常驻一个进程，隔三差五提醒你登录、同步、更新。我平时就想调个侧键、改个 DPI，真犯不着把设备信息交到一个账号体系里。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>张洪Heo</title><link>https://blog.zhheo.com/</link><description>产品设计师、独立开发者、设计与科技领域自媒体博主</description><language>zh-CN</language><lastBuildDate>Tue, 13 Oct 2026 02:35:14 +0000</lastBuildDate><item><title>OpenCode 网页端新版后台如何获取 API key</title><link>https://blog.zhheo.com/p/id68ti5q.html</link><description>&lt;p&gt;opencode网页端后台UI大改，但是熟悉的API密钥找不到在哪了，一度以为是已经不开放api key获取了，研究半天才找到。&lt;/p&gt;
+&lt;p&gt;进入账户设置。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="账户设置" referrerpolicy="no-referrer" src="https://p.zhheo.com/2433820261013024058.png!blogimg"/&gt;&lt;/p&gt;
+&lt;p&gt;点击添加apikey&lt;/p&gt;
+&lt;p&gt;&lt;img alt="添加apikey" referrerpolicy="no-referrer" src="https://p.zhheo.com/0081520261013024145.png!blogimg"/&gt;&lt;/p&gt;
+</description><pubDate>Tue, 13 Oct 2026 02:35:14 +0000</pubDate></item><item><title>OpenLogi 上手：高性能低占用的支持多终端的本地无账号罗技驱动</title><link>https://blog.zhheo.com/p/84vx2dp8.html</link><description>&lt;p&gt;罗技的鼠标我用得挺久，MX Master 的手感确实没得说。但配套的 Logi Options+ 一直让我别扭：装完要登账号，后台常驻一个进程，隔三差五提醒你登录、同步、更新。我平时就想调个侧键、改个 DPI，真犯不着把设备信息交到一个账号体系里。&lt;/p&gt;
 &lt;p&gt;后来刷到 OpenLogi，干的就是这件事。本地优先的 Logi Options+ 替代品，用 Rust 写的，走 HID++ 直接跟设备对话，不要账号，也没有遥测。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://openlogi.org/zh" rel="noopener external nofollow" target="_blank"&gt;https://openlogi.org/zh&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="官网截图" referrerpolicy="no-referrer" src="https://p.zhheo.com/2774020261009061344.png!blogimg"/&gt;&lt;/p&gt;
@@ -161,16 +166,4 @@
 &lt;li&gt;&lt;a href="/p/f4dwjd0a.html"&gt;iPhone Duo 多屏开发：铰链数据与场景配件怎么用&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="/p/1k6jdkze.html"&gt;iPhone Duo 相机开发：双前摄、方向切换与旋转适配&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description><pubDate>Fri, 11 Sep 2026 08:59:56 +0000</pubDate></item><item><title>看到了淘宝闪购的AI评论，引发了我的思考</title><link>https://blog.zhheo.com/p/0vmg6q9j.html</link><description>&lt;p&gt;很早的时候我的评论就加了AI评论的这个功能了，经过这一段时间的实际来说，效果一般。&lt;/p&gt;
-&lt;p&gt;这多少带了点“为了AI而AI”的感觉了，但是功能既然已经写了，感觉删了也挺可惜，就先留着了。&lt;/p&gt;
-&lt;p&gt;目前的评论的AI审核可以很好的帮我过滤一些早期常见的广告、垃圾评论和一些坏人的评论，表现很不错。但是AI评论和AI润色目前看来确实没什么用。&lt;/p&gt;
-&lt;p&gt;直到我一次偶然的餐后评价的时候，我发现了这个：&lt;/p&gt;
-&lt;p&gt;&lt;img alt="AI帮写" referrerpolicy="no-referrer" src="https://p.zhheo.com/1635820260911081321.png!blogimg"/&gt;&lt;/p&gt;
-&lt;p&gt;不得不说真的牛逼。很多时候你只是需要输出观点，文字只是个表达形式。文字只是思想的载体，只要能够表达意思就行。&lt;/p&gt;
-&lt;p&gt;于是根据这个思想，立即就把我的AI评论给改了。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="AI评论" referrerpolicy="no-referrer" src="https://p.zhheo.com/2560920260911081504.png!blogimg"/&gt;&lt;/p&gt;
-&lt;p&gt;AI确实可以作为一个很好的创作工具，主要就是思想表达。由人类完成快速的思想部分，AI完成创作部分，这就是非常完美的配合了。&lt;/p&gt;
-&lt;p&gt;比如做一个AI小说的项目，用户只需要被动选择AI提供的几个选项，就可以生成整个故事。&lt;/p&gt;
-&lt;p&gt;我觉得所有需要打字的场景都可以尝试用AI来塑造一遍。&lt;/p&gt;
-&lt;p&gt;如果你也在做AI输出的这类功能，可以试试只给用户选项和简单描述问题的方式，让AI来完成耗时的部分。毕竟人脑思想会很快，而文本加速了慢的打字部分，让整体项目变得更加飞快了～&lt;/p&gt;
-</description><pubDate>Fri, 11 Sep 2026 08:07:52 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 11 Sep 2026 08:59:56 +0000</pubDate></item></channel></rss>
