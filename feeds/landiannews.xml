@@ -1,2 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>landiannews</title><link/><description/><language>zh-CN</language><lastBuildDate>Wed, 14 Oct 2026 09:06:40 +0000</lastBuildDate></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 14 Oct 2026 10:15:00 +0000</lastBuildDate><item><title>GitHub为NPM可信发布设置48小时验证期限 阻断仓库名回收漏洞</title><link>https://www.landian.news/archives/127347.html</link><description>
+&lt;p&gt;#安全资讯 GitHub 为 NPM 可信发布设置 48 小时验证期限，用于阻断研究人员发现的仓库名回收漏洞。NPM 可信发布允许使用短期 OIDC 令牌发布软件包，无需在工作流中保存长期访问令牌。研究人员在这个流程中发现漏洞，如果维护者重命名、转移或删除仓库，原仓库名就可能重新开放。此时攻击者可以注册同名仓库获得 NPM 发布凭证，以原软件包名发布恶意版本。查看全文：https://ourl.co/127347&lt;/p&gt;&lt;p&gt;GitHub 日前发布公告宣布调整 NPM Trusted Publishing 规则：新建配置如果在 48 小时内没有完成首次成功发布那就会失败，不能再继续用于发布软件包。此次调整针对研究人员发现的仓库名回收漏洞，该漏洞可能让攻击者绕过包维护者的凭证，向他人名下的 NPM 包推送新版本。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127347.png" rel="nofollow"&gt;&lt;img alt="GitHub为NPM可信发布设置48小时验证期限 阻断仓库名回收漏洞" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127347.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;NPM 可信发布允许 GitHub Actions 使用短期 OIDC 令牌发布软件包，无需在工作流中保存长期访问令牌。但安全研究人员发现，在配置完成首次成功发布前，NPM 主要依据 GitHub 仓库的 &lt;em&gt;所有者/仓库名&lt;/em&gt; 和工作流文件名建立信任，尚未将配置绑定到仓库的不可变身份。&lt;/p&gt;
+&lt;p&gt;如果维护者重命名、转移或删除仓库，原仓库名可能重新开放，攻击者可以注册同名仓库并创建名称匹配的工作流，进而取得 NPM 发布凭据，以原软件包名发布恶意版本。&lt;/p&gt;
+&lt;p&gt;安全研究人员估计有超过 1500 个 NPM 软件包受这个漏洞影响，累计下载量超过 1,000 万次，恶意版本可能沿用原包的名称和用户基础继续传播。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;GitHub 在 10 月 2 日宣布，可信发布配置必须在创建后 48 小时内完成首次成功发布。发布成功后配置将绑定到仓库的不可变身份，不再受此期限限制。若仓库或项目身份发生变化，维护者需要建立新的信任配置并重新完成验证，普通编辑不会重置 48 小时期限。&lt;/p&gt;
+&lt;p&gt;NPM 还开始拒绝由 GitHub Actions issue_comment 事件触发的可信发布令牌，pull_request_target 事件此前已经受到限制，受影响的发布工作流可以改成 push、release、workflow_dispatch 等事件。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://github.blog/changelog/2026-10-02-unvalidated-npm-trusted-publishing-configurations-now-expire/" rel="noopener" target="_blank"&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 14 Oct 2026 10:15:00 +0000</pubDate></item><item><title>从明年1月开始微软将禁止Windows 11连接使用ReFS系统的可移动磁盘(U盘和移动硬盘)</title><link>https://www.landian.news/archives/127346.html</link><description>
+&lt;p&gt;#系统资讯 微软宣布从明年 1 月开始禁止连接基于 ReFS 弹性文件系统的移动硬盘，微软强调将 ReFS 用于移动设备是不受支持的配置。从 10 月更新开始，Windows 11 和 Windows Server 将审计 ReFS 移动介质，但当前仍然可以连接。从明年 1 月开始系统将默认禁止连接 ReFS 移动介质，但微软也预留组策略允许 IT 管理员手动启用支持。查看全文：https://ourl.co/127346&lt;/p&gt;&lt;p&gt;ReFS 弹性文件系统近年来持续获得 Windows 11 和 Windows Server 的功能更新，但微软现在已经明确：将 ReFS 卷用于可移动或外接存储设备不属于受支持的配置。从 2026 年 10 月 13 日发布的月度更新开始，系统将默认审计这类卷，从明年 1 月开始系统将默认阻止挂载 ReFS 卷。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127346.png" rel="nofollow"&gt;&lt;img alt="从明年1月开始微软将禁止Windows 11连接使用ReFS系统的可移动磁盘(U盘和移动硬盘)" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127346.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;当前微软将 ReFS 移动卷设置为审计阶段，Windows 11 仍然可以挂载符合条件的外接 ReFS 设备，同时在系统日志中记录来自 ReFS 的警告事件 ID 524，IT 管理员可以通过该警告事件定位相关设备、应用和工作流。每个受影响卷在每次系统启动时最多记录 1 次，每次启动最多跟踪 32 个受影响的外接卷。&lt;/p&gt;
+&lt;p&gt;而从 2027 年 1 月安全更新开始，默认系统将同时启用审计和阻止，符合条件的 ReFS 卷到时候将无法正常挂载，除非管理员更改对应策略，即手动放行外接 ReFS 移动存储设备。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;微软也提供企业管理策略供 IT 管理员根据实际情况决定是否要放行 ReFS 移动设备，微软建议管理员安装 10 月更新后检查 ID 524 事件，确认哪些设备和工作流依赖外接 ReFS 卷，将所需数据或任务迁移到受支持的配置。&lt;/p&gt;
+&lt;p&gt;启用策略前也应该在受控环境中先测试，外接卷被阻止挂载后，其中的数据无法通过该设备访问，因此需要预先确保重要数据放在受支持的介质上。&lt;/p&gt;
+&lt;p&gt;访问微软支持文档：&lt;a href="https://www.landian.news/go?url=https://support.microsoft.com/en-us/help/5130741" rel="noopener" target="_blank"&gt;https://support.microsoft.com/en-us/help/5130741&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 14 Oct 2026 09:30:00 +0000</pubDate></item><item><title>OpenAI沙特籍工程主管在会议室悄悄安装录音设备收集商业机密 目前已被FBI逮捕</title><link>https://www.landian.news/archives/127345.html</link><description>
+&lt;p&gt;#人工智能 OpenAI 沙特阿拉伯籍产品团队工程主管阿尔福赞在会议室悄悄安装录音设备收集商业机密被 FBI 逮捕。阿尔福赞将 USB 录音设备安装在会议室电视后并使用卫生纸遮掩，不过才安装两天就被其他员工发现。随后 OpenAI 拆解硬件并使用内部模型分析硬件确认是监听设备，之后 OpenAI 将事件报告给 FBI。查看全文：https://ourl.co/127345&lt;/p&gt;&lt;p&gt;美国司法部日前发布起诉书指控 OpenAI 产品团队工程主管阿卜杜勒拉赫曼・阿尔福赞（Abdulrahman Alfozan）涉嫌使用录音设备截取口头通信，这名工程师已经在 10 月 9 日被逮捕。阿尔福赞自 2025 年 7 月在 OpenAI 任职，他也是 OpenAI 唯一一名沙特籍员工。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127345-1.png" rel="nofollow"&gt;&lt;img alt="OpenAI沙特籍工程师在会议室悄悄安装录音设备收集产品规划和商业机密 目前已被FBI逮捕" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127345-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127345-2.png" rel="nofollow"&gt;&lt;img alt="OpenAI沙特籍工程师在会议室悄悄安装录音设备收集产品规划和商业机密 目前已被FBI逮捕" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127345-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;OpenAI 其他员工在 9 月 30 日发现高管会议室内存在录音设备，该设备被插在会议室电视背面的 USB 接口中，外层使用卫生纸遮掩，内部数据经过加密，OpenAI 通过监控系统判断该设备在 9 月 28 日安装。&lt;/p&gt;
+&lt;p&gt;这间会议室经常用于讨论公司研究、产品规划和商业合作等机密信息，监控显示阿尔福赞曾多次出现在会议室附近。10 月 5 日阿尔福赞还被拍到查看电视背面，同时 OpenAI 安保人员还在阿尔福赞的物品中发现其他类似的录音设备。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;调查显示阿尔福赞不仅在公司内部办公软件中频繁检索高管日程与会议室位置，还在 9 月 24 日～30 日期间使用其配偶关联的聊天机器人账号，向 AI 提问如何制作并隐藏连续录音设备、如何添加 WiFi 远程监听、如何加密存储卡，阿尔福赞甚至还把涉案设备的 MAC 和 SSID 信息发送给 AI 进行故障排查。&lt;/p&gt;
+&lt;p&gt;OpenAI 表示发现该设备后，设备被拆解，随后 OpenAI 使用自有分析模型分析设备并追查来源。OpenAI 也将相关事件报告给美国联邦调查局，目前没有迹象表明阿尔福赞访问或导出模型权重、源代码或客户数据。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 14 Oct 2026 08:45:00 +0000</pubDate></item><item><title>微软发布Win11 24H2/25H2/26H2 KB5127648更新 修复黑屏和无法播放AC-3音频问题</title><link>https://www.landian.news/archives/127344.html</link><description>
+&lt;p&gt;#系统资讯 微软发布 Windows 11 24H2/25H2/26H2 KB5127648 月度累积更新，修复登录后黑屏和 AC-3 杜比数字音频播放问题。该更新侧重点依然是修复海量安全漏洞，不过也针对登录后黑屏和杜比数字音频无法播放问题进行修复。遇到以上问题的用户可以尽快安装更新。下载离线安装文件：https://ourl.co/127344&lt;/p&gt;&lt;p&gt;微软日前向 Windows 11 24H2/25H2/26H2 版推送月度累积更新 KB5127648，这类更新最主要的仍然是修复各类安全漏洞，不过也修复部分功能方面的问题，例如登录后黑屏和部分应用无法正常 AC-3 音频的问题。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127344.png" rel="nofollow"&gt;&lt;img alt="微软发布Win11 24H2/25H2/26H2 KB5127648更新 修复黑屏和无法播放AC-3音频问题" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127344.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在此前版本中有用户反馈 AC-3 杜比数字音频解码异常，部分依赖 Windows 11 内置解码功能的旧版应用可能无法启动或意外关闭，目前微软已经通过 KB5127648 更新解决这个问题。&lt;/p&gt;
+&lt;p&gt;黑屏问题主要影响多用户环境部署，例如使用 Microsoft Azure Virtual Desktop 和 FSLogix 等环境，部分设备登录后可能无法启动或资源管理器进程反复崩溃，导致用户持续看到黑屏，这个问题也已经通过更新完成修复。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;KB5127648 更新适用于 Windows 11 24H2、25H2、26H2 版，对应版本分别是 Build 26100.9711、Build 26200.9711 和 Build 26300.9711，用户可以直接通过系统内置更新功能下载更新。&lt;/p&gt;
+&lt;p&gt;需要注意的是 Windows 11 24H2 消费者版今起结束生命周期，KB5127648 已经是最终更新，使用 Windows 11 24H2 家庭版、专业版、专业工作站版、专业教育版的用户请升级后续受支持的版本。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;KB5127648：&lt;a href="https://www.landian.news/go?url=https://www.catalog.update.microsoft.com/Search.aspx?q=KB5127648" rel="noopener" target="_blank"&gt;https://www.catalog.update.microsoft.com/Search.aspx?q=KB5127648&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;若无法通过系统更新安装补丁，也可以直接下载离线安装文件手动安装，安装后需要重启系统，请提前合理安排时间。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 14 Oct 2026 08:00:00 +0000</pubDate></item><item><title>Docker Hub账户转组织流程出现高危漏洞 个人令牌未被正常撤销导致有权操作组织仓库</title><link>https://www.landian.news/archives/127343.html</link><description>
+&lt;p&gt;#安全资讯 Docker Hub 账户转组织流程出现高危安全漏洞，个人访问令牌未被正常撤销权限导致可以访问组织仓库。该漏洞评分达到 9.4 分，自 2024 年 8 月 26 日起就存在，直到 2026 年 9 月 30 日完成修复。该漏洞已经在服务端完成修复，用户不需要执行任何操作。查看全文：https://ourl.co/127343&lt;/p&gt;&lt;p&gt;容器镜像托管平台 Docker Hub 日前披露已经修复的高危安全漏洞，该漏洞位于账户转组织流程中，攻击者可以让自己持有的个人访问令牌改以另一用户身份通过镜像仓库认证，进而在该用户权限范围内获得拉取、推送镜像。&lt;/p&gt;
+&lt;p&gt;该漏洞编号 CVE-2026-105445，漏洞评分为 9.4/10 分，影响时间从 2024 年 8 月 26 日持续到 2026 年 9 月 30 日。目前 Docker 已经在服务端修复漏洞，用户无需执行其他操作。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127343.png" rel="nofollow"&gt;&lt;img alt="Docker Hub账户转组织流程出现高危漏洞 个人令牌未被正常撤销导致有权操作组织仓库" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127343.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Docker Hub 将个人账号转为组织账号时，会把账户名下的 PAT 个人访问令牌重新关联到指定的新组织所有者，没有正确更换或撤销令牌密钥。攻击者仍然持有密钥，令牌会以目标身份访问仓库，权限包括目标用户自己的镜像仓库及可以访问的组织仓库。&lt;/p&gt;
+&lt;p&gt;该漏洞影响镜像仓库操作，但不能用于登录 Docker Hub 网页、修改目标账户密码、邮箱或者多因素认证设置，也不能接管组织或其他成员的账号。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Docker 于 2026 年 9 月 30 日收到研究人员通报的漏洞报告，随后 Docker 确认漏洞并在短短 4 小时内发布更新修复漏洞，此次修复是在服务端执行的，无需用户安装软件更新。&lt;/p&gt;
+&lt;p&gt;Docker 回溯漏洞存在期间的账户转换记录并审查约 30.4 万次相关推送，没有证据表明这个流程漏洞已经被恶意用户用于发布镜像。最后从 10 月 8 日开始 Docker 已经批量停用已经识别出来的转移令牌，这些令牌无法再用于操作组织仓库。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://www.docker.com/blog/docker-hub-security-advisory-cve-2026-105445/" rel="noopener" target="_blank"&gt;Docker&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 14 Oct 2026 07:15:00 +0000</pubDate></item><item><title>微软今起结束Windows 11 24H2家庭版和专业版的生命周期 后续停止发布安全更新</title><link>https://www.landian.news/archives/127342.html</link><description>
+&lt;p&gt;#系统资讯 微软今起结束 Windows 11 24H2 消费者版支持，家庭版 / 专业版 / 工作站版用户需升级后续版本。结束支持的版本无法再收到微软发布的安全更新，24H2 企业版还有额外的 1 年支持，企业还可以继续使用 24H2 版。微软建议用户升级 25H2/26H2 版。查看全文：https://ourl.co/127342&lt;/p&gt;&lt;p&gt;微软宣布自 2026 年 10 月 13 日起结束 Windows 11 24H2 消费者版的生命周期支持，日前微软已经向该版本的消费者版发布最终安全更新，从下个月开始微软不再向此版本提供任何安全更新或错误修复。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127342.png" rel="nofollow"&gt;&lt;img alt="微软今起结束Windows 11 24H2家庭版和专业版的生命周期 后续停止发布安全更新" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127342.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;消费者版包括家庭版、专业版、专业教育版和专业工作站版，消费者版通常支持周期在 18 个月左右，所以新版本发布后微软会陆续停止支持旧版本，目前最新版为 Windows 11 26H2 版。&lt;/p&gt;
+&lt;p&gt;企业版分支包括企业版、企业教育版、企业多会话版等有额外 12 个月的支持周期，企业可以用到 2027 年 10 月 12 日。不过微软向来建议企业提前部署新版本，避免后续急急忙忙升级出现兼容性问题。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 微软建议普通消费者更新到 25H2/26H2 版：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;微软建议正在使用 Windows 11 24H2 消费者版的用户升级到 Windows 11 25H2 或 26H2 版，其中 Windows 11 26H2 版还在分阶段推送，用户暂时可能还收不到更新。&lt;/p&gt;
+&lt;p&gt;不过 Windows 11 24H2/25H2/26H2 共享相同的基础设施，底层兼容性都是类似的，但功能方面有所区别。建议追求稳定性的用户先升级到 Windows 11 25H2 版，待 26H2 版逐渐稳定后再升级。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 14 Oct 2026 06:30:00 +0000</pubDate></item><item><title>苹果推出新款Apple TV 4K 搭载A19芯片并支持无需拿起遥控即可语音对话</title><link>https://www.landian.news/archives/127341.html</link><description>
+&lt;p&gt;#硬件设备 苹果推出新款 Apple TV 4K，采用性能更好的 A19 芯片并支持 AV1 硬件解码。新款内置远场麦克风，用户不需要拿起遥控器也可以通过语音与 Siri 交互。至于 Siri AI 功能，首发仅支持英语和部分地区，个人上下文请求需要配对支持苹果 AI 的 iPhone 或 iPad。注：2021 款 Apple TV 4K 后续也支持 Siri AI 功能。查看全文：https://ourl.co/127341&lt;/p&gt;&lt;p&gt;苹果日前通过新闻稿发布新款 Apple TV 4K，新款 Apple TV 4K 采用苹果 A19 芯片并支持 Siri AI 功能，美版售价 299 美元，即日起开放预购，苹果将在 11 月 13 日正式发售新款 Apple TV 4K。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127341.png" rel="nofollow"&gt;&lt;img alt="苹果推出新款Apple TV 4K 搭载A19芯片并支持无需拿起遥控即可语音对话" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127341.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;新款 Apple TV 4K 内置三颗远场麦克风，用户不需要拿起遥控器即可呼唤 Siri，Siri AI 可以通过全屏界面帮助搜索影视内容，也可以在播放期间回答相关问题。&lt;/p&gt;
+&lt;p&gt;首发支持英语，使用地区包括美国、澳大利亚、加拿大、印度、新西兰、新加坡、南非和英国。个人上下文请求需要配对支持 Apple Intelligence 的 iPhone 或 iPad。苹果称 Siri AI 测试版将支持第二代 (2021 款) 及之后的 Apple TV 4K。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;新款 Apple TV 4K 搭载的 A19 芯片性能较前代提升 50%，GPU 性能最高提升两倍，芯片支持 AV1 硬件解码，因此通过本地播放器播放基于 AV1 编码的视频时更流畅、功耗更低。&lt;/p&gt;
+&lt;p&gt;新款 Siri Remote 遥控器支持查找应用的精准查找功能，内置扬声器可以在用户找不到遥控器时播放声音辅助用户寻找遥控器。新款 Apple TV 4K 也支持与四只 HomePod mini 2 或第二代 HomePod 音箱配合，组成前后成对的四扬声器环绕声系统；设备会根据房间位置自动校准音量和播放时序。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 14 Oct 2026 05:45:00 +0000</pubDate></item><item><title>苹果发布新款HomePod mini 国行版售价1099元 Siri AI相关功能将在后续提供</title><link>https://www.landian.news/archives/127340.html</link><description>
+&lt;p&gt;#手机数码 苹果发布新款 HomePod mini (2)，国行版零售价 1099 元，较前代产品 749 元涨幅较大。新款 HomePod mini 支持 Siri AI 功能，不过首发时不会提供，苹果将通过后续软件更新提供 Siri AI 且首批仅支持英语。新款 HomePod mini 2 支持四扬声器环绕声，用户可以将四只 HomePod mini 2 或 HomePod 2 音箱前后成对摆放并搭配第四代 Apple TV 4K 组成环绕声系统。查看全文：https://ourl.co/127340&lt;/p&gt;&lt;p&gt;苹果日前通过新闻稿发布新款 HomePod mini 智能音箱，这款新设备国行版售价为 1099 元。前代 HomePod mini 国行版发售价 749 元，新款售价 1099 元还是比较贵的，可能各类零部件价格都在上涨所以苹果也直接大幅度提高新款的零售价。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127340-1.png" rel="nofollow"&gt;&lt;img alt="苹果发布新款HomePod mini 国行版售价1099元 Siri AI相关功能将在后续提供" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127340-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;新款 HomePod mini 采用苹果 S10 芯片，提供粉色、绿色、蓝色、白色和午夜色，提供 Siri AI 与新的音频功能。S10 芯片配合计算音频可以实时调整动态范围、响度和声学表现。新功能 Sound Glow 会让音箱顶部的灯光随着音乐节奏变化，根据歌曲封面生成对应色彩。&lt;/p&gt;
+&lt;p&gt;用户可以将四只 HomePod mini 2 或 HomePod 2 音箱前后成对摆放，搭配第四代 Apple TV 4K 组成环绕声系统。系统会根据音箱在房间中的位置自动校准音量与播放时序。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127340-2.png" rel="nofollow"&gt;&lt;img alt="苹果发布新款HomePod mini 国行版售价1099元 Siri AI相关功能将在后续提供" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127340-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;新款 HomePod mini 支持 Siri AI，不过 AI 功能不会随着新品首发开放，苹果称将通过后续的免费软件更新提供 Siri AI。首批支持范围为美国、澳大利亚、加拿大、印度、新西兰、新加坡、南非和英国，首发仅支持英语。&lt;/p&gt;
+&lt;p&gt;调用个人上下文功能还需要家庭所有者配备并启用支持苹果 AI 功能的 iPhone 或 iPad，不过苹果并未提到具体什么时候才能提供 Siri AI，而国行版估计还需要等待很长很长时间。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 14 Oct 2026 05:00:00 +0000</pubDate></item><item><title>造谣Kimi高管和多名员工被带走 两名造谣者已经被属地公安刑事拘留</title><link>https://www.landian.news/archives/127339.html</link><description>&lt;article&gt;
+&lt;p&gt;#人工智能 造谣月之暗面 Kimi 创始人和多名员工被带走调查，两名造谣者已经被属地公安机关刑事拘留。北京警方日前发布通报称，50 岁的郭某和 51 岁的常某因编造某科技公司多人被带走的信息并在网络平台发布，两人已经被属地公安机关依法采取刑事强制措施。警方称两人发布相关信息主要为了博取流量并获得行业关注，信息传播后误导大量网民关注和讨论。查看全文：https://ourl.co/127339&lt;/p&gt;&lt;p&gt;9 月 10 日前后 A 社发布蒸馏相关攻击报告，在报告中 A 社称包括月之暗面在内的多家公司使用多个不同的账号池进行工业级蒸馏，蒸馏时相关用户信息也被泄露。对于蒸馏相关消息，月之暗面并未发布回应，不过随后有人在微信群中称月之暗面创始人和多名员工被带走。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127339.png" rel="nofollow"&gt;&lt;img alt="造谣Kimi高管和多名员工被带走 两名造谣者已经被属地公安刑事拘留" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127339.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;创始人和多名员工被带走的消息引起 AI 社区诸多关注，迫于无奈月之暗面也在官方微博发布公告称相关消息纯属造谣，当时月之暗面称关于创始人和员工被带走的信息纯属虚构、系恶意造谣，公司已经向公安机关报案并追究造谣者的法律责任。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这件事目前已经有后续，据北京警方发布的通报，50 岁的郭某和 51 岁的常某因编造某科技公司多人被带走的信息并在网络平台发布，两人已经被属地公安机关依法采取刑事强制措施。北京警方在通报中并未提到具体公司名称，不过从描述来看此案涉及此前月之暗面创始人及员工被带走调查的传言。&lt;/p&gt;
+&lt;p&gt;警方称郭某和常某发布相关信息主要是为了博取流量并获得行业关注，信息传播后误导大量网民关注和讨论。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;ins data-ad-client="ca-pub-8597288383599884" data-ad-format="auto" data-ad-slot="1551135873" data-full-width-responsive="true"&gt;&lt;/ins&gt;
+&lt;/p&gt;&lt;popup module-class="point-pay-module" ref="pointPayRef"&gt;&lt;point-pay-popup @close-point-pay-popup="closePointPay"&gt;&lt;/point-pay-popup&gt;&lt;/popup&gt; &lt;/article&gt;
+</description><pubDate>Wed, 14 Oct 2026 04:15:00 +0000</pubDate></item><item><title>加钱：博通宣布VMware转向月度安全更新 同时推出HyperArmor付费增值安全服务</title><link>https://www.landian.news/archives/127338.html</link><description>
+&lt;p&gt;#软件资讯 又要加钱：博通宣布 VMware 转向月度安全更新，原因是现在 AI 发掘的漏洞太多太快。同时博通推出付费增值服务 HyperArmor，该服务提供虚拟补丁可以拦截已知漏洞攻击尝试、SSH 登录可以配置多因素认证等。不过 HyperArmor 需要额外购买以及不能替代正常软件更新和测试流程。查看全文：https://ourl.co/127338&lt;/p&gt;&lt;p&gt;博通日前宣布旗下虚拟化产品 VMware 改成按月发布软件安全更新，此次调整的主要原因是人工智能技术辅助发现的产品缺陷越来越多，所以博通需要更快发布软件更新用于修复功能缺陷和安全漏洞。&lt;/p&gt;
+&lt;p&gt;不过更新频率提高也会让用户需要投入更多时间和精力测试安全更新对现有环境的影响，部分需要停机更新的安全更新还有可能导致服务出现更频繁的中断，但基于安全性考虑 IT 管理员也必须及时安装更新。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127338.png" rel="nofollow"&gt;&lt;img alt="加钱：博通宣布VMware转向月度安全更新 同时推出HyperArmor付费增值安全服务" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127338.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 推出需要额外付费的 HyperArmor 增值服务：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;该服务提供虚拟补丁可拦截针对已知漏洞的利用尝试；改变 VMware Cloud Foundation 中的 ESX 虚拟机管理程序，只有管理员批准后才能更新响应策略；ESX 的 SSH 登录可以启用多因素认证功能，除 SSH 凭据外还需要通过绑定到独立身份的动态验证码才能正常连接。&lt;/p&gt;
+&lt;p&gt;该服务将作为 VMware Cloud Foundation 的付费附加产品提供，所以像是 SSH 登录的多因素认证功能也都需要加钱开通增值服务后才能使用。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;VMware Cloud Foundation 产品营销副总裁强调，客户即使使用实时漏洞修复功能也需要时间评估更新对现有环境产生的影响，而 HyperArmor 可以在此期间增加额外的安全防护。不过该服务并非补丁管理工具，因此不意味着购买该服务后就可以跳过软件更新和正常的测试流程。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://investors.broadcom.com/news-releases/news-release-details/broadcom-introduces-vmware-hyperarmor-expanding-hypervisor" rel="noopener" target="_blank"&gt;Broadcom VMware&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 14 Oct 2026 03:30:00 +0000</pubDate></item></channel></rss>
