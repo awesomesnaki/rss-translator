@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Fri, 16 Oct 2026 17:01:22 +0000</lastBuildDate><item><title>Palantir首席技术官Shyam Sankar称AI研究人员开始抽烟，因为他们确信AI（很可能是Claude）将治愈癌症</title><link>https://www.cbsnews.com/news/shyam-sankar-chief-technology-officer-palantir-face-the-nation-transcript-10-11-2026/</link><description>&lt;p&gt;摘自哥伦比亚广播公司周日《面向全国》节目的文字记录：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Fri, 16 Oct 2026 20:53:42 +0000</lastBuildDate><item><title>他们如何在NetNewsWire中获得Duo支持</title><link>https://netnewswire.blog/2026/10/16/how-we-got-duo-support.html</link><description>&lt;p&gt;来自 NetNewsWire 博客：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;NetNewsWire for iOS 的&lt;a href="https://netnewswire.blog/2026/10/16/netnewswire-for-ios-unread-count.html"&gt;最新版本&lt;/a&gt;支持 iPhone Duo，这是一款非常新颖的 iPhone，工具栏沿侧边排列，各种行为方式也别具一格。&lt;/p&gt;
+&lt;p&gt;我们是怎么做到的：我们什么都没做。我们用 Xcode 27.1 和它自带的默认 iOS SDK 构建了这款应用，仅此而已。&lt;/p&gt;
+&lt;p&gt;不过，关键在于：我们一直在使用标准控件——工具栏、导航控制器、分屏视图等等——而且我们一直关注尺寸类之类的概念（而不是仅仅看设备类型）。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;以正确的方式开发你的应用，那么根据应用的具体情况，为 Duo 打造一个出色的版本可能真的完全不需要额外的工作。以错误的方式开发你的应用，则可能要花上好几个月。NetNewsWire 是我最常用的应用之一。我把它放在主屏幕停靠栏里，和“信息”、“备忘录”以及 Safari 放在一起。如果用一个没有适配 Duo 新颖显示尺寸的 NetNewsWire 版本去用 Duo，我会疯掉的。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/10/16/how-they-got-duo-support-in-netnewswire" title="Permanent link to ‘How They Got Duo Support in NetNewsWire’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Fri, 16 Oct 2026 20:53:42 +0000</pubDate></item><item><title>★ 真正的艺术家交付产品，特斯拉版</title><link>https://daringfireball.net/2026/10/real_artists_ship_tesla_edition</link><description>&lt;p&gt;Jonathan Gitlin，&lt;a href="https://arstechnica.com/cars/2026/10/tesla-turns-to-50-year-old-stunt-technology-as-it-tries-to-roadster-again/"&gt;为 Ars Technica 撰文&lt;/a&gt;：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在首次尝试复活 Roadster 九年后，特斯拉显然又要再试一次。CEO 埃隆·马斯克也许已将总部迁至得克萨斯州，但他又一次回到加利福尼亚的演艺圈来兜售产品；上一次 &lt;a href="https://arstechnica.com/cars/2024/10/elon-musk-makes-bold-claims-about-tesla-robotaxi-in-hollywood-backlot/"&gt;是在好莱坞外景地远程遥控演示 Cybercab&lt;/a&gt;，昨晚则是用 &lt;a href="https://www.caranddriver.com/features/g31978859/wildest-car-stunts-in-film-history/"&gt;几十年前的特技技术&lt;/a&gt; 让一辆展车在空中表演特技。[...]&lt;/p&gt;
+&lt;p&gt;马斯克声称 Roadster 将在 2028 年前投产。但这位 CEO 有着长期且辉煌的过度承诺和兑现不足的历史；2017 年，他在上一次发布会上告诉与会者，“我们现在就在制造它。”利用公司的推荐计划，一些人本应获得两辆免费汽车。但那些免费汽车从未出现，人们支付了 5 万美元定金的车也从未出现；去年，&lt;a href="https://arstechnica.com/cars/2025/10/sam-altman-wants-a-refund-for-his-50000-tesla-roadster-deposit/"&gt;萨姆·奥尔特曼发现要拿回那笔钱有多难&lt;/a&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我和其他人一样喜欢精彩的特技表演，而这场表演看起来确实很酷。但如果有人认为这场特技表演会让特斯拉更有可能或更不可能兑现承诺交付 Roadster，那他们就是疯了。&lt;a href="https://www.reuters.com/business/autos-transportation/tesla-set-unveil-next-generation-roadster-sports-ev-after-years-delay-2026-10-15/"&gt;这篇路透社报道&lt;/a&gt; 听起来像是他们认为特斯拉会销售能做这些把戏的汽车。昨晚的特技表演对特斯拉可能或不可能交付的实际量产车的影响，并不比乔治·卢卡斯的 &lt;em&gt;《星球大战》&lt;/em&gt; 电影对 &lt;a href="https://www.history.com/articles/reagan-star-wars-sdi-missile-defense"&gt;罗纳德·里根的“星球大战”导弹防御系统&lt;/a&gt; 的影响更大。&lt;/p&gt;
+&lt;p&gt;特斯拉 Roadster 是画饼。但埃隆·马斯克非常擅长通过兑现特技表演来转移人们对未交付画饼的注意力。两年前，&lt;a href="https://www.theverge.com/2024/10/10/24267225/tesla-robotaxi-optimus-we-robot"&gt;是那些完全造假的机器人&lt;/a&gt;。昨晚的汽车特技涉及真实发生的事，但只是以 &lt;a href="https://www.youtube.com/watch?v=823GNH4Rczg"&gt;大卫·科波菲尔让自由女神像“消失”&lt;/a&gt; 的那种方式。&lt;/p&gt;&lt;p&gt;在 Jalopnik 上，&lt;a href="https://www.jalopnik.com/2288450/tesla-roadster-rereveal-new-design-production-plans-for-flying-car/"&gt;Amber DaSilva 又发表了一篇很不错的评论&lt;/a&gt;，文章最后总结道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;特斯拉长期以来一直在为其汽车编造规格，做出用户无法证实的离谱宣称，如今它又在提出更多令人印象深刻的大话。演示所用的“汽车”很可能不过是外壳，配备了刚好足够让测试完成的设备。0.81 秒的零到 60 英里加速成绩，在活动期间甚至没有用屏幕计时器显示，更不用说经过独立验证了。特斯拉尚未证明新款 Roadster 能在现实世界中正常运作，甚至无法证明它能在我们这些不叫马斯克的人所处的物理法则范围内存在。&lt;/p&gt;
+&lt;p&gt;Roadster 的预订已重新开放，该公司再次接受 50,000 美元的支票，来预订一辆理论上两年后才会制造的汽车。它还没有说明，那些为特斯拉九年前宣布的那款车下了预订的人会怎样，而那款车的外观和功能与如今挂同名的那款完全不同。而且——可以说最令人担忧的是——我们不知道，如果特斯拉靠 Roadster 这个名字赚进更多钱，其中有多少会流向&lt;a href="https://www.jalopnik.com/elon-musks-charitable-foundation-is-the-28th-richest-in-1851327942/"&gt;某个恶意目的&lt;/a&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;而在 Threads 上，Benedict Evans 重申了他长期以来的观点：&lt;a href="https://www.threads.com/@benedictevans/post/DejVAf8DrbQ"&gt;是什么让埃隆·马斯克让这么多人如此困惑&lt;/a&gt;：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;很久以前，我把埃隆·马斯克形容为一个能兑现的胡扯大王。这就是这一点最完美的体现。这辆车十年前首次亮相时伴随着另一场噱头，而它从未交付。现在又有了另一场噱头，以及又一波巨大的公关宣传和赞誉。&lt;/p&gt;
+&lt;p&gt;但与此同时，还有那家实现规模化的汽车公司，以及可自行着陆的火箭！&lt;/p&gt;
+&lt;p&gt;亨利·福特是一位杰出的实业家、一个糟糕的管理者，还是一个种族主义的混蛋。几件事可以同时成立。&lt;/p&gt;
+&lt;/blockquote&gt;&lt;p&gt;如果你认为马斯克要么完全合法可信，要么就是个彻头彻尾的骗子，那你就错了。他带领自己的公司取得了非凡的成就，&lt;em&gt;而且&lt;/em&gt;他也做出过完全基于胡扯的承诺。他是个无耻的胡扯者，但&lt;em&gt;有时候&lt;/em&gt;也能兑现。埃文斯的观点里隐含了&lt;em&gt;有时候&lt;/em&gt;，因为如果他总能兑现，那就没有胡扯了。但我认为把&lt;em&gt;有时候&lt;/em&gt;加进去是值得的，以说明这一点。而且他兑现的一些事情&lt;a href="https://512pixels.net/2016/04/spacex-sticks-the-landing/"&gt;太惊人了&lt;/a&gt;，以至于在宣布时听起来确实像是胡扯。2015年马斯克宣布“太空互联网”时，&lt;a href="https://www.geekwire.com/2015/photos-spacex-founder-elon-musk-unveils-new-10b-space-internet-plan-private-seattle-event/"&gt;听起来完全像是胡扯&lt;/a&gt;，但它在&lt;a href="https://arstechnica.com/information-technology/2021/02/spacex-starlink-now-taking-pre-orders-for-service-in-mid-to-late-2021/"&gt;2020年开始推出&lt;/a&gt;，而今天你只需&lt;a href="https://www.bestbuy.com/product/starlink-standard-4-x-ax-tri-band-wi-fi-system-white/J3R8ZC25G3/sku/6571727"&gt;花350美元就能在百思买买到它&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;特斯拉制造了一些了不起的汽车。他们的自动驾驶技术是消费市场上最好的。（不如Waymo的好，但你买不到Waymo。）所以也许他们会在2028年推出一款很棒的Roadster。如果他们真的做到了，我会关注。但我连一分钱都不会赌他们会做到。我也不会赌他们做不到。&lt;/p&gt;</description><pubDate>Fri, 16 Oct 2026 20:11:23 +0000</pubDate></item><item><title>Palantir首席技术官Shyam Sankar称AI研究人员开始抽烟，因为他们确信AI（很可能是Claude）将治愈癌症</title><link>https://www.cbsnews.com/news/shyam-sankar-chief-technology-officer-palantir-face-the-nation-transcript-10-11-2026/</link><description>&lt;p&gt;摘自哥伦比亚广播公司周日《面向全国》节目的文字记录：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;希亚姆·桑卡尔：&lt;/strong&gt;你知道，我认为——我觉得帕斯卡那句“每个人心中都有一个上帝形状的空洞”的说法蕴含着深刻的真理，而且重要的是要理解，硅谷里许多正在构建这项技术的人，已经用AGI这个机器之神填补了那个空洞。我的意思是，围绕这件事有太多有趣的故事。比如，很多AI研究人员开始抽烟，以此向其他研究人员表明他们有多相信AI。我如此相信——（多人同时说话）&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;玛格丽特·布伦南：&lt;/strong&gt;什么？这根本说不通。你觉得——&lt;/p&gt;
@@ -55,23 +80,4 @@
 &lt;/tbody&gt;
 &lt;/table&gt;&lt;/p&gt;
 &lt;p&gt;本周发布的新款 Apple TV 4K 只提供一个型号，售价 300 美元。为了简洁只提供一个型号固然很好，但上一代售价 130/150 美元时，头号抱怨就是它比 Amazon 和 Roku 的机顶盒和电视棒贵太多。（或者用每台电视都自带的“智能电视”软件这个“免费”选项。）如今，有了新款 Apple TV，价格翻了一倍——而且苹果并没有保留第三代机型作为低价选项。就我个人而言，我仍然觉得它值这个价，但大众消费市场认为旧价格已经太高，我看不出任何新功能会让普通消费者想：“&lt;em&gt;当然，以前那款卖 130 美元时我还怀疑，但这款新机型——看起来完全一样——似乎值 300 美元。&lt;/em&gt;”&lt;/p&gt;&lt;p&gt;HomePod Mini 2 现在售价 150 美元。相比旧款 HomePod Mini 自 6 月 25 日以来 130 美元的新价格，这涨幅不算太大，但相比 &lt;a href="https://www.apple.com/newsroom/2020/10/apple-introduces-homepod-mini-a-powerful-smart-speaker-with-amazing-sound/"&gt;旧款 HomePod Mini 从 2020 年 11 月到今年 6 月 24 日期间 100 美元的价格&lt;/a&gt;，却足足上涨了 50%。我通常会把苹果以“99”结尾的价格向上取整，但值得注意的是，我所说的 100 美元实际上是 99 美元，而价格变成仅两位数 &lt;a href="https://academic.oup.com/restud/article/90/5/2612/6931812?guestAccessKey=76f2de44-e2e1-4921-a3c1-5f9447df53a8&amp;amp;login=false"&gt;确实会对购买行为产生心理影响&lt;/a&gt;。再说一次，我认为 150 美元对 HomePod Mini 2 来说是合理价格，但它不像 99 美元那样让人觉得只是随便买着玩。99 美元多少有点“&lt;em&gt;行，再买一个吧&lt;/em&gt;”的价格；150 美元则更像是“&lt;em&gt;我们真的还需要再买一个吗？&lt;/em&gt;”的价格。&lt;/p&gt;
-&lt;p&gt;按照 6 月前的旧价格，你可以花 350 美元（150 + 100 + 100）买一台 128 GB 的 Apple TV 和一对 HomePod Mini。短短四个月后，用今天的新款产品，同样的组合要花 600 美元（300 + 150 + 150）。这个价格差异比产品中任何新增和改进的功能都更引人注目。&lt;/p&gt;</description><pubDate>Fri, 16 Oct 2026 01:18:29 +0000</pubDate></item><item><title>秘密文件揭露特朗普舞厅3.3亿美元背后的捐赠者——苹果和英伟达以各2500万美元位居榜首</title><link>https://www.washingtonpost.com/investigations/2026/10/15/secret-documents-reveal-donors-behind-330-million-trumps-ballroom/</link><description>&lt;p&gt;乔纳森·奥康奈尔、莎拉·布拉斯基于《华盛顿邮报》报道（&lt;a href="https://apple.news/AblrTEVS5ROWp089jXUp2oQ"&gt;News+链接&lt;/a&gt;；&lt;a href="https://archive.is/20261015145817/https://www.washingtonpost.com/investigations/2026/10/15/secret-documents-reveal-donors-behind-330-million-trumps-ballroom/"&gt;Archive.today链接&lt;/a&gt;）：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;《华盛顿邮报》获得的一份名单揭示了唐纳德·特朗普总统白宫舞厅项目的所有主要捐赠者，其中包括此前未披露的捐助者，这些人曾受益于监管决策、政府合同，其中一人还为其家庭成员获得了赦免。&lt;/p&gt;
-&lt;p&gt;名单显示，科技巨头英伟达和苹果各承诺捐款2500万美元，为最高捐款额度。共和党最大的捐赠家族之一——阿德尔森家族也承诺了同等金额，电信公司Dish Network联合创始人兼董事长、亿万富翁查尔斯·埃尔根同样如此。&lt;/p&gt;
-&lt;p&gt;名单中没有特朗普本人，他曾表示自己在帮助支付该项目费用。“这个项目百分之百由我和我的一些朋友出资，”他&lt;a href="https://www.presidency.ucsb.edu/documents/remarks-prior-meeting-with-secretary-general-mark-rutte-the-north-atlantic-treaty-2"&gt;去年表示&lt;/a&gt;，几天前老东翼的&lt;a href="https://www.whitehouse.gov/briefings-statements/2025/07/the-white-house-announces-white-house-ballroom-construction-to-begin/"&gt;拆除工程&lt;/a&gt;刚刚开始。&lt;/p&gt;
-&lt;p&gt;白宫去年10月公开确认了37名个人、公司和基金会为捐赠者，但未披露各方的具体捐款金额。&lt;/p&gt;
-&lt;p&gt;《华盛顿邮报》获得的这份名单是一份用于追踪筹款活动捐款情况的内部电子表格，其中包含截至上月末记录在案的所有67笔超过1万美元的捐款的来源、日期和金额。名单显示私人捐赠者捐款总额为3.33亿美元，与政府的公开声明一致。其他同样属于筹款活动内部的记录提供了更多捐款细节，并表明至少有7700万美元来自要求匿名的捐赠者。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;除了是可耻的赤裸裸腐败展示之外，这也是对&lt;a href="https://www.nytimes.com/interactive/2026/03/29/upshot/white-house-ballroom.html?unlocked_article_code=1.I1E.hf2j.MJyjcOInOeEA"&gt;糟糕建筑&lt;/a&gt;的可耻支持。这座建筑理应被拆除——在2028年初选中，我不会投票给任何一位不承诺在2029年1月将这堆特朗普垃圾夷为平地的民主党候选人。这是起码要求。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/10/15/trump-ballroom-donor-list" title="Permanent link to ‘Secret Documents Reveal Donors Behind $330 Million for Trump’s Ballroom — Apple and Nvidia Top the List at $25 Million Each’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Thu, 15 Oct 2026 16:11:12 +0000</pubDate></item><item><title>[赞助] WorkOS AuthKit：为你的应用提供认证服务，每月活跃用户高达100万内免费</title><link>https://workos.com/?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q42026</link><description>&lt;p&gt;登录看起来很简单，直到你开始构建密码重置、邮箱验证、多因素认证、社交登录提供商、会话管理，以及上周你的第一个大客户提出的企业级单点登录需求。&lt;/p&gt;
-&lt;p&gt;AuthKit 让你能够：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;提供单点登录、多因素认证、通行密钥、密码、邮箱验证码和社交登录&lt;/li&gt;
-&lt;li&gt;通过 SCIM 配置自动添加和移除用户&lt;/li&gt;
-&lt;li&gt;通过审计日志追踪谁做了什么&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a href="https://workos.com/?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q42026"&gt;试用 AuthKit →&lt;/a&gt;&lt;/p&gt;
-&lt;a href="https://daringfireball.net/feeds/sponsors/2026/10/workos_authkit_auth_for_your_a" title="‘WorkOS AuthKit：为你的应用提供认证，每月活跃用户 100 万以内免费’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Wed, 14 Oct 2026 21:03:43 +0000</pubDate></item></channel></rss>
+&lt;p&gt;按照 6 月前的旧价格，你可以花 350 美元（150 + 100 + 100）买一台 128 GB 的 Apple TV 和一对 HomePod Mini。短短四个月后，用今天的新款产品，同样的组合要花 600 美元（300 + 150 + 150）。这个价格差异比产品中任何新增和改进的功能都更引人注目。&lt;/p&gt;</description><pubDate>Fri, 16 Oct 2026 01:18:29 +0000</pubDate></item></channel></rss>
