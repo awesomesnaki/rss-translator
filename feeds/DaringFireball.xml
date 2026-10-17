@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sat, 17 Oct 2026 01:22:34 +0000</lastBuildDate><item><title>已故的查理·芒格谈埃隆·马斯克和特斯拉</title><link>https://www.cnbc.com/make-it/2020/02/14/charlie-munger-shares-opinion-of-tesla-ceo-elon-musk.html</link><description>&lt;p&gt;关于：我今天的帖子 &lt;a href="https://daringfireball.net/2026/10/real_artists_ship_tesla_edition"&gt;谈仍属空头承诺的 Tesla Roadster&lt;/a&gt;，以及本尼迪克特·埃文斯的格言“埃隆·马斯克是个会兑现承诺的吹牛大王”，一位读者发给我 &lt;a href="https://www.youtube.com/shorts/p5vm2n49qp8"&gt;这段 YouTube 短视频&lt;/a&gt;，内容是查理·芒格在伯克希尔·哈撒韦 2020 年股东大会上回答一个关于特斯拉波动性和马斯克自我推销的问题。芒格说：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Sat, 17 Oct 2026 14:06:18 +0000</lastBuildDate><item><title>Apple TV 价格历史图表</title><link>https://glog.glennf.com/blog/2026/10/17/apple-tv-price-history/</link><description>&lt;p&gt;格伦·弗莱什曼：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我想知道每款Apple TV盒子在推出时的入门级初始价格是多少，从2007年3月的最初代到2026年10月13日宣布的Apple TV 4K（第四代），并根据通货膨胀进行了调整。所以我制作了一张图表。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我想这并不意味着苹果已经放弃了让Apple TV&lt;em&gt;内容&lt;/em&gt;易于获取的努力，但价格上更为亲民的途径，无非是在你那台所谓“智能”电视上运行的劣质系统里使用Apple TV罢了。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/10/17/apple-tv-price-history-charted" title="‘Apple TV价格历史图表’的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Sat, 17 Oct 2026 14:06:18 +0000</pubDate></item><item><title>已故的查理·芒格谈埃隆·马斯克和特斯拉</title><link>https://www.cnbc.com/make-it/2020/02/14/charlie-munger-shares-opinion-of-tesla-ceo-elon-musk.html</link><description>&lt;p&gt;关于：我今天的帖子 &lt;a href="https://daringfireball.net/2026/10/real_artists_ship_tesla_edition"&gt;谈仍属空头承诺的 Tesla Roadster&lt;/a&gt;，以及本尼迪克特·埃文斯的格言“埃隆·马斯克是个会兑现承诺的吹牛大王”，一位读者发给我 &lt;a href="https://www.youtube.com/shorts/p5vm2n49qp8"&gt;这段 YouTube 短视频&lt;/a&gt;，内容是查理·芒格在伯克希尔·哈撒韦 2020 年股东大会上回答一个关于特斯拉波动性和马斯克自我推销的问题。芒格说：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;我的想法有两点。我永远不会买入它，也永远不会做空它。&lt;/p&gt;
 &lt;p&gt;[&lt;em&gt;观众笑。&lt;/em&gt;]&lt;/p&gt;
@@ -42,12 +48,4 @@
 &lt;/blockquote&gt;
 &lt;p&gt;最后，还有亚历克斯·王发布的这个&lt;a href="https://x.com/alexandr_wang/status/2110780784051474666?s=46"&gt;“1984”恶搞&lt;/a&gt;——他是Meta的人工智能及鲻鱼头事务主管——我觉得这个既好笑又令人难受。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/10/16/strange-times-make-for-strange-bedfellows" title="“艰难时世造就奇异盟友”的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Fri, 16 Oct 2026 23:34:03 +0000</pubDate></item><item><title>他们如何在NetNewsWire中获得Duo支持</title><link>https://netnewswire.blog/2026/10/16/how-we-got-duo-support.html</link><description>&lt;p&gt;来自 NetNewsWire 博客：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;NetNewsWire for iOS 的&lt;a href="https://netnewswire.blog/2026/10/16/netnewswire-for-ios-unread-count.html"&gt;最新版本&lt;/a&gt;支持 iPhone Duo，这是一款非常新颖的 iPhone，工具栏沿侧边排列，各种行为方式也别具一格。&lt;/p&gt;
-&lt;p&gt;我们是怎么做到的：我们什么都没做。我们用 Xcode 27.1 和它自带的默认 iOS SDK 构建了这款应用，仅此而已。&lt;/p&gt;
-&lt;p&gt;不过，关键在于：我们一直在使用标准控件——工具栏、导航控制器、分屏视图等等——而且我们一直关注尺寸类之类的概念（而不是仅仅看设备类型）。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;以正确的方式开发你的应用，那么根据应用的具体情况，为 Duo 打造一个出色的版本可能真的完全不需要额外的工作。以错误的方式开发你的应用，则可能要花上好几个月。NetNewsWire 是我最常用的应用之一。我把它放在主屏幕停靠栏里，和“信息”、“备忘录”以及 Safari 放在一起。如果用一个没有适配 Duo 新颖显示尺寸的 NetNewsWire 版本去用 Duo，我会疯掉的。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/10/16/how-they-got-duo-support-in-netnewswire" title="Permanent link to ‘How They Got Duo Support in NetNewsWire’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Fri, 16 Oct 2026 20:53:42 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 16 Oct 2026 23:34:03 +0000</pubDate></item></channel></rss>
