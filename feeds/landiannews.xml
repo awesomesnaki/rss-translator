@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Fri, 16 Oct 2026 07:00:00 +0000</lastBuildDate><item><title>ChatGPT现在可以读取并操作Chrome已经打开的网页 通过浏览器接入工作流</title><link>https://www.landian.news/archives/127420.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 19 Oct 2026 01:58:02 +0000</lastBuildDate><item><title>Windows 11测试加速应用启动功能 从链接/任务栏/开始菜单启动应用时实现更快加载速度</title><link>https://www.landian.news/archives/127421.html</link><description>
+&lt;p&gt;#系统资讯 微软在 Windows 11 预览版中测试加速应用启动的新功能，首批仅支持 Microsoft Edge 浏览器。该功能流程是这样的：传统上从链接 / 任务栏 / 开发菜单点击应用时，系统创建临时进程用于检查应用是否运行，再将请求转发给已有窗口。新流程让应用提前向系统注册接收启动请求窗口，因此可以省去转发的这段过程从而实现启动提速。查看全文：https://ourl.co/127421&lt;/p&gt;&lt;p&gt;微软目前正在 Windows 11 预览版中测试名为加速应用启动的新功能，不过该功能目前仅支持 Microsoft Edge 浏览器，按照微软的说法其他应用程序开发者也可以向微软提交申请，在未来已经申请通过的应用在用户启动时都可以更快加载。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="/wp-content/uploads/2026/10/127421.png" rel="nofollow"&gt;&lt;img alt="Windows 11测试加速应用启动功能 从链接/任务栏/开始菜单启动应用时实现更快加载速度" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="/wp-content/uploads/2026/10/127421.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;传统启动流程会先创建临时进程用于检查 Microsoft Edge 浏览器是否已经运行，然后将请求转发给已经启动的窗口，临时进程随后会自动退出。新的加速启动功能让 Microsoft Edge 浏览器提前向系统注册接收启动请求的窗口从而省去这段转发流程，微软称当设备正在运行多个任务时启动响应会更快。&lt;/p&gt;
+&lt;p&gt;这项改进主要针对的是热启动，并非所有应用都可以提速，如果 Microsoft Edge 并未在后台运行那就不满足加速启动条件。而 Microsoft Edge 浏览器默认还会在关闭浏览器窗口后保留少量后台进程用于驻留，因此当用户再次启动时叠加新启动机制因此响应速度应该会更快。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;微软称后续其他应用也可以采用类似机制，不过 Microsoft Learn 支持文档目前将相关接口列为有限访问功能，开发者需要向微软申请专门的解锁令牌，应用还必须自行处理单实例运行逻辑 (即避免同时启动多个实例导致出现问题)。&lt;/p&gt;
+&lt;p&gt;这个新接口预计也只会支持 Windows 11 26H2/26H1/25H2 版 (因为 Windows 11 24H2 和旧版本已经结束支持)，因此在不支持的旧版本上将无法使用。&lt;a href="https://www.landian.news/go?url=https://learn.microsoft.com/en-us/windows/apps/develop/launch/accelerated-launch" rel="noopener" target="_blank"&gt;有兴趣的开发者可以点击这里访问微软的支持文档&lt;/a&gt;。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 19 Oct 2026 01:58:02 +0000</pubDate></item><item><title>ChatGPT现在可以读取并操作Chrome已经打开的网页 通过浏览器接入工作流</title><link>https://www.landian.news/archives/127420.html</link><description>
 &lt;p&gt;#人工智能 OpenAI 更新 ChatGPT for Chrome 扩展程序，可以读取并操作已经打开的网页，通过浏览器接入工作流。这个功能主要是方便用户复用主力浏览器的数据和登录态，当然方便的同时也需要授予各种权限，包括读取和修改网站数据、管理标签页和下载内容。该功能面向所有用户提供，无论是否开通订阅都可以使用。查看全文：https://ourl.co/127420&lt;/p&gt;&lt;p&gt;OpenAI 今天更新 ChatGPT for Chrome 扩展程序，新版扩展程序允许 ChatGPT 客户端读取 Chrome 浏览器已经打开的网页，即将已经打开的标签页作为对话背景，可以在 ChatGPT Work 模式下操作网页。&lt;/p&gt;
 &lt;p&gt;例如用户可以让 ChatGPT 比较多个页面的信息，或在已有登录状态的页面中填写表单、发送消息、下载文件及整理标签页，该功能完全免费，所有订阅层级的用户都可以使用。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127420.png" rel="nofollow"&gt;&lt;img alt="ChatGPT现在可以读取并操作Chrome已经打开的网页 通过浏览器接入工作流" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127420.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -88,15 +98,4 @@
 &lt;p&gt;美版 AC+ 费用为每月 19.99 美元或每年 199.99 美元或两年 399 美元，购买服务保障后内屏损坏和其他意外损坏每次服务费 99 美元，外屏或后玻璃维修需要 29 美元，保护层更换为 19 美元，电池寿命低于 80% 时可以免费更换。&lt;/p&gt;
 &lt;p&gt;在美国等部分市场苹果还提供失窃与遗失保障计划，该计划也包含在 AC+ 服务中，当设备不慎丢失或被盗后替换服务费为 149 美元，所以准备购买 iPhone Duo 的用户可以考虑购买时就搭配 AC+ 服务。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 16 Oct 2026 01:19:50 +0000</pubDate></item><item><title>OpenAI录音案涉事工程师被捕前已买好全家机票准备跑路到沙特 不过跑路前已经被拦截</title><link>https://www.landian.news/archives/127410.html</link><description>
-&lt;p&gt;#人工智能 OpenAI 录音案涉事工程师被捕前已经提前买好全家机票准备跑路到沙特，不过在跑路前已经被监控。阿尔福赞为自己和家人购买 10 月 12 日经土耳其转机回沙特的单程机票，美国检方已经提前收到相关线索。不过为避免打草惊蛇所以提交给法院的文件被申请保密，之后检方决定在 10 月 9 日逮捕阿尔福赞，避免他提前跑路。查看全文：https://ourl.co/127410&lt;/p&gt;&lt;p&gt;早前 OpenAI 发布消息透露其产品工程主管阿卜杜勒拉赫曼・阿尔福赞 (Abdulrahman Alfozan) &lt;a href="https://www.landian.news/archives/127345.html" rel="noopener" target="_blank"&gt;涉嫌在高管会议上安装录音设备收集信息&lt;/a&gt;，这名工程师来自沙特阿拉伯并在 2025 年 7 月入职 OpenAI。但其安装的录音设备很快被其他同事发现并报告给公司，随后 OpenAI 将此次事件报告给 FBI，阿尔福赞也被 FBI 逮捕。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127345-1.png" rel="nofollow"&gt;&lt;img alt="OpenAI录音案涉事工程师被捕前已买好全家机票准备跑路到沙特 不过跑路前已经被拦截" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127345-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;美国法院目前已经公布部分被暂时封存的刑事控告材料，这些材料由当地检察官办公室提交。在将材料提交给法院时检察官办公室已经申请将材料暂时封存，避免公开后阿尔福赞获得消息后提前跑路。&lt;/p&gt;
-&lt;p&gt;调查显示阿尔福赞已经提前为自己、妻子和其他家庭成员购买经土耳其转机到沙特的单程机票，机票起飞日期为 10 月 12 日，检察官办公室认为阿尔福赞仍然有跑路的风险，经过评估后决定在 10 月 9 日逮捕阿尔福赞。&lt;/p&gt;
-&lt;p&gt;尽管证据确凿不过阿尔福赞还是比较嘴硬的，阿尔福赞称自己对搜查和被逮捕感到意外，至于预订机票只是自家提前安排的出行旅程，只不过这种说法肯定是没人信的。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;由于 OpenAI 并未发现阿尔福赞不当访问模型权重、源代码或客户数据，所以目前美国法院的公开指控主要聚焦于使用或试图使用设备截取口头通信 (即谈话录音)，而非秘密窃取商业机密。&lt;/p&gt;
-&lt;p&gt;如果截取口头通信罪名成立，阿尔福赞最高将面临 5 年的监禁和 25 万美元的罚款，不过从实际情况来看估计应该不会顶格处罚，但释放后阿尔福赞肯定要被驱逐出境的。至于阿尔福赞为谁提供服务还有待调查，如果阿尔福赞透露幕后推手或许有助于达成相关和解条件。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 15 Oct 2026 07:30:09 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 16 Oct 2026 01:19:50 +0000</pubDate></item></channel></rss>
