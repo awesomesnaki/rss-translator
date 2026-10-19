@@ -1,101 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 19 Oct 2026 01:58:02 +0000</lastBuildDate><item><title>Windows 11测试加速应用启动功能 从链接/任务栏/开始菜单启动应用时实现更快加载速度</title><link>https://www.landian.news/archives/127421.html</link><description>
-&lt;p&gt;#系统资讯 微软在 Windows 11 预览版中测试加速应用启动的新功能，首批仅支持 Microsoft Edge 浏览器。该功能流程是这样的：传统上从链接 / 任务栏 / 开发菜单点击应用时，系统创建临时进程用于检查应用是否运行，再将请求转发给已有窗口。新流程让应用提前向系统注册接收启动请求窗口，因此可以省去转发的这段过程从而实现启动提速。查看全文：https://ourl.co/127421&lt;/p&gt;&lt;p&gt;微软目前正在 Windows 11 预览版中测试名为加速应用启动的新功能，不过该功能目前仅支持 Microsoft Edge 浏览器，按照微软的说法其他应用程序开发者也可以向微软提交申请，在未来已经申请通过的应用在用户启动时都可以更快加载。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="/wp-content/uploads/2026/10/127421.png" rel="nofollow"&gt;&lt;img alt="Windows 11测试加速应用启动功能 从链接/任务栏/开始菜单启动应用时实现更快加载速度" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="/wp-content/uploads/2026/10/127421.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 19 Oct 2026 08:00:43 +0000</lastBuildDate><item><title>日本软件销售商Sourcenext泄露2252万条敏感信息 蓝点网曾买过软件也被泄露</title><link>https://www.landian.news/archives/127475.html</link><description>
+&lt;p&gt;#安全资讯 日本软件销售商 Sourcenext 遭到黑客攻击，泄露 22,519,960 条记录，蓝点网曾在上面买过 1Password 3 年版，因此也中招。可能外泄信息包括电子邮箱、密码、姓名及假名、地址、性别、电话号码、传真号码、出生日期、公司名称、职位等。蓝点网怀疑该平台甚至使用明文存储密码，因为事发后 Sourcenext 立即重置所有用户密码，并且在邮件通知中没有提到密码是哈希加盐存储的。正常来说如果是哈希加盐的那应该说明，因为这类密码泄露后问题不是很大。查看全文：https://ourl.co/127475&lt;/p&gt;&lt;p&gt;日本知名软件销售公司 Sourcenext 日前向用户发送电子邮件通知，攻击者滥用会员信息查询 API 接口批量获取用户数据。该公司估计最多有 22,519,960 条记录外泄，涉及用户的注册邮箱、密码、姓名、住址、电话等信息。具体到每位会员，受影响的字段可能不同，基于安全考虑该公司已重置所有用户密码。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127475.png" rel="nofollow"&gt;&lt;img alt="日本软件销售商Sourcenext泄露2252万条敏感信息 蓝点网曾买过软件也被泄露" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127475.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;传统启动流程会先创建临时进程用于检查 Microsoft Edge 浏览器是否已经运行，然后将请求转发给已经启动的窗口，临时进程随后会自动退出。新的加速启动功能让 Microsoft Edge 浏览器提前向系统注册接收启动请求的窗口从而省去这段转发流程，微软称当设备正在运行多个任务时启动响应会更快。&lt;/p&gt;
-&lt;p&gt;这项改进主要针对的是热启动，并非所有应用都可以提速，如果 Microsoft Edge 并未在后台运行那就不满足加速启动条件。而 Microsoft Edge 浏览器默认还会在关闭浏览器窗口后保留少量后台进程用于驻留，因此当用户再次启动时叠加新启动机制因此响应速度应该会更快。&lt;/p&gt;
+&lt;p&gt;Sourcenext 称 10 月 13 日上午 9 时左右发现会员信息管理系统遭到未经授权的访问，当天下午 13 时 36 分 Sourcenext 采取措施阻断攻击 (很奇怪 9 点发现异常为什么到下午 1 点才阻断攻击)。&lt;/p&gt;
+&lt;p&gt;后续调查显示，攻击者早在 10 月 9 日上午 10 时就开始不当调用会员信息获取 API，然后批量匹配获得用户信息。Sourcenext 已经向日本个人信息保护委员会披露此次安全事件，同时聘请外部专业机构进行调查。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;微软称后续其他应用也可以采用类似机制，不过 Microsoft Learn 支持文档目前将相关接口列为有限访问功能，开发者需要向微软申请专门的解锁令牌，应用还必须自行处理单实例运行逻辑 (即避免同时启动多个实例导致出现问题)。&lt;/p&gt;
-&lt;p&gt;这个新接口预计也只会支持 Windows 11 26H2/26H1/25H2 版 (因为 Windows 11 24H2 和旧版本已经结束支持)，因此在不支持的旧版本上将无法使用。&lt;a href="https://www.landian.news/go?url=https://learn.microsoft.com/en-us/windows/apps/develop/launch/accelerated-launch" rel="noopener" target="_blank"&gt;有兴趣的开发者可以点击这里访问微软的支持文档&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;Sourcenext 列出可能泄露的信息包括但不限于：电子邮箱、密码、姓名及假名、地址、性别、电话号码、传真号码、出生日期、公司名称、职位、部门，以及服务加入情况、注册日期和登录日期等系统识别信息。&lt;/p&gt;
+&lt;p&gt;公告还特别提到清单列表是可能涉及的字段，但并非所有用户所有字段信息都泄露，而密码也在可能泄露的范围内。&lt;strong&gt;蓝点网甚至有点怀疑 Sourcenext 采用的是明文存储，因为如果是哈希加盐存储，那肯定会在邮件中说明，哈希加盐密码泄露倒是问题不大，但如果是明文密码那就惨了。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 蓝点网曾在 Sourcenext 买过软件信息也被泄露：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;此前密码管理器 1Password 宣布涨价，但 Sourcenext 提供的 3 年版 1Password 按汇率和折扣价计算还比较划算，于是蓝点网也通过 Sourcenext 注册会员并购买 1Password 3 年版订阅。&lt;/p&gt;
+&lt;p&gt;不过蓝点网使用的都是随机生成的高强度密码，因此哪怕是明文存储也不至于要去轮换其他所有网站密码，但个人信息泄露就很让人头疼，所幸我预留的真实信息不多，除了邮箱外其他信息基本都是假的，但接下来可能会频繁收到垃圾邮件甚至针对性的钓鱼邮件。&lt;/p&gt;
+&lt;p&gt;建议曾在 Sourcenext 购买过软件或注册或会员的用户立即检查使用的密码，如果该密码也曾在其他网站使用，那需要将这些网站的密码也都改掉，如果可以最好使用密码管理器生成随机密码，避免以后再出现类似问题。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 19 Oct 2026 01:58:02 +0000</pubDate></item><item><title>ChatGPT现在可以读取并操作Chrome已经打开的网页 通过浏览器接入工作流</title><link>https://www.landian.news/archives/127420.html</link><description>
-&lt;p&gt;#人工智能 OpenAI 更新 ChatGPT for Chrome 扩展程序，可以读取并操作已经打开的网页，通过浏览器接入工作流。这个功能主要是方便用户复用主力浏览器的数据和登录态，当然方便的同时也需要授予各种权限，包括读取和修改网站数据、管理标签页和下载内容。该功能面向所有用户提供，无论是否开通订阅都可以使用。查看全文：https://ourl.co/127420&lt;/p&gt;&lt;p&gt;OpenAI 今天更新 ChatGPT for Chrome 扩展程序，新版扩展程序允许 ChatGPT 客户端读取 Chrome 浏览器已经打开的网页，即将已经打开的标签页作为对话背景，可以在 ChatGPT Work 模式下操作网页。&lt;/p&gt;
-&lt;p&gt;例如用户可以让 ChatGPT 比较多个页面的信息，或在已有登录状态的页面中填写表单、发送消息、下载文件及整理标签页，该功能完全免费，所有订阅层级的用户都可以使用。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127420.png" rel="nofollow"&gt;&lt;img alt="ChatGPT现在可以读取并操作Chrome已经打开的网页 通过浏览器接入工作流" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127420.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 19 Oct 2026 08:00:43 +0000</pubDate></item><item><title>[指南] 谷歌将手机上的所有号码自动绑定到登录的谷歌账号上 建议关闭自动绑定并删除号码</title><link>https://www.landian.news/archives/127474.html</link><description>
+&lt;p&gt;#指南 谷歌会将安卓设备上的号码自动绑定到所有登录的谷歌账号上，建议关闭自动绑定并删除不需要的号码。该功能可能是 2025 年 7 月上线的，但近期有用户收到谷歌的通知邮件才引起关注。这个功能比较坑的是设备上的所有号码会被自动关联到所有登录的谷歌账号上，无论大号还是小号。建议用户关闭自动绑定，并清理已经绑定的号码，保留主号即可；而谷歌小号如果不需要可以删除所有已经关联的号码。查看全文：https://ourl.co/127474&lt;/p&gt;&lt;p&gt;谷歌官方帮助页面显示，安卓设备上的电话号码验证功能已经被默认开启。当用户设置设备时，谷歌会验证设备上一个或多个手机号码，随后将这些手机号码添加到当前登录的所有谷歌账号。之后若在安卓设备上新增账号或手机号，也会被自动完成关联。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127474.png" rel="nofollow"&gt;&lt;img alt="[指南] 谷歌将手机上的所有号码自动绑定到登录的谷歌账号上 建议关闭自动绑定并删除号码" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127474.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在聊天模式下 ChatGPT 可以利用打开的标签页内容回答问题，例如汇总和比较多个商品页面。工作模式则可以控制浏览器完成各种操作，例如填写信息、发送信息、下载文件和归类标签页。用户也可以在浏览器侧边栏中使用 ChatGPT 并查看对话历史，不需要频繁切换窗口。&lt;/p&gt;
-&lt;p&gt;这项能力通过浏览器扩展程序接入用户现有的浏览器配置，除了 Chrome 外，其他浏览器例如 Microsoft Edge、Brave、Opera、Vivaldi 也受支持，不过 Opera 版没有侧边栏聊天功能。&lt;/p&gt;
+&lt;p&gt;谷歌称手机号码自动验证功能可用于账号登录和找回、紧急定位、查找或远程锁定设备、RCS 富媒体消息、视频通话及快速分享。为确认号码仍然归用户所有，谷歌和运营商还可能会定期重新验证，新增到设备的号码也可能被用于验证。&lt;/p&gt;
+&lt;p&gt;同一设备上的个人、工作或备用谷歌账号都可能保存相同的号码。开启号码验证时，改善谷歌上的分享体验功能也会被默认开启，用于视频通话和消息服务，以及接收其他人发往该号码的照片等内容通知。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;扩展程序允许 ChatGPT 在用户已经登录的网站中工作，例如邮件、销售管理系统或企业内部工具。首次访问网站时，ChatGPT 会请求用户授权，用户可以选择仅本次授权、永久授权，或针对所有网站永久授权等。浏览器历史记录功能也需要权限，用户也可以在设置中管理允许和屏蔽的网站。&lt;/p&gt;
-&lt;p&gt;要实现网页操作功能则需要授予更加广泛的权限，包括读取和修改网站数据、管理标签页及下载内容。扩展程序不会另行保存完整的浏览器内容记录，只有特定对话被纳入上下文处理时，数据才会被发送给 OpenAI。&lt;/p&gt;
+&lt;p&gt;需要说明的是这项变更到最近才被大家关注，对比谷歌帮助文档可以发现默认开启并将号码关联到设备上的所有账号在 2025 年秋季就已经出现，所以这个功能可能是去年秋季已经提前开启。&lt;/p&gt;
+&lt;p&gt;近期引起关注的原因则是谷歌向不少用户发送号码验证邮件，这些用户将邮件分享到社交媒体上因此引起关注，因为这可能存在潜在的隐私问题。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;谷歌在帮助文档中提到，如果用户不希望设备继续自动验证号码，可以在安卓设备中转到设置、Google、所有服务、隐私与安全、手机号码验证、关闭验证电话号码。这项操作只能在设备上操作，不能通过谷歌账号网页版操作。&lt;/p&gt;
+&lt;p&gt;关闭后也只能阻止后续自动关联新号码，对于已经关联的号码必须手动进行删除，用户可以进入对应的谷歌账号的个人信息、电话页面删除不想要保留的号码，建议用户保留一个主要使用的号码即可，以及将谷歌小号绑定的号码删除。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 16 Oct 2026 07:00:00 +0000</pubDate></item><item><title>Windows 11 10月更新导致部分Xbox游戏无法正常登录 报错0x87DD0005</title><link>https://www.landian.news/archives/127419.html</link><description>
-&lt;p&gt;#系统资讯 Windows 11 10 月更新可能导致 Xbox Live 游戏无法登录：有用户安装更新后发现需要调用 Live 登录的游戏都会报错误代码。目前微软还未就这个问题发布回应，但也有网友尝试删除更新后还是没法登录，所以具体情况还需要微软调查。遇到该问题的用户可以尝试将微软账户登录助手服务启动类型切换为自动，在重启服务后或许可以登录游戏。查看全文：https://ourl.co/127419&lt;/p&gt;&lt;p&gt;据微软社区用户发布的帖子，在安装 Windows 11 10 月更新 KB5127648 后，很多依赖 Xbox Live 登录的游戏出现无法登录问题，例如微软纸牌和微软麻将等游戏都出现这类问题。用户登录时出现无法登录 Xbox Live 的提示，同时报错误代码 0x87DD0005。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127419.png" rel="nofollow"&gt;&lt;img alt="Windows 11 10月更新导致部分Xbox游戏无法正常登录 报错0x87DD0005" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127419.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 19 Oct 2026 07:30:44 +0000</pubDate></item><item><title>俄罗斯将从2027年7月开始禁止P2P个人点对点交易加密货币 需通过持牌交易所购买</title><link>https://www.landian.news/archives/127473.html</link><description>
+&lt;p&gt;#加密货币 俄罗斯加密货币新规将在明年 7 月 1 日实施，禁止个人与个人交易加密货币、禁止转账到去中心化钱包。这意味着未来俄罗斯居民购买加密货币都只能放在受监管的中心化托管钱包里，这些钱包有可能会被冻结或控制，甚至用户钱包里的资产可能只是个数字。查看全文：https://ourl.co/127473&lt;/p&gt;&lt;p&gt;俄罗斯中央银行日前发布关于加密货币的监管问答，该监管制度明确说明从 2027 年 7 月 1 日开始俄罗斯个人与个人之间不再允许直接交易加密货币。这种交易方式即所谓的 P2P 个人点对点交易模式，通常通过转账支付法币再通过非托管钱包支付加密货币。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127473.png" rel="nofollow"&gt;&lt;img alt="俄罗斯将从2027年7月开始禁止P2P个人点对点交易加密货币 需通过持牌交易所购买" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127473.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;从用户反馈来看问题不只是影响微软自家的游戏，其他需要通过 Xbox Live 进行身份认证的游戏也会遇到类似问题。有用户尝试重启系统、重装游戏、清理游戏凭证和卸载更新，也仍然无法恢复登录。&lt;/p&gt;
-&lt;p&gt;此次出现错误的时间与微软发布 10 月更新时间接近，所以有用户猜测可能与更新有关，只不过用户也尝试删除更新但游戏仍然报错，因此具体情况可能还需要微软官方发布回应。&lt;/p&gt;
+&lt;p&gt;从 2027 年 7 月 1 日起，俄罗斯居民必须通过数字货币市场组织者进行交易，或直接与组织者进行交易，这些组织者需要先向俄罗斯央行申请证券市场经纪商牌照或申请数字货币交易组织相关许可。&lt;/p&gt;
+&lt;p&gt;如此政策可以确保俄罗斯居民购买加密货币时资金都通过持牌机构流转，这样整个交易体系都是透明的且受监管，如果未来要进行收税的话也非常方便，当然受监管也意味着可以打击非法交易。&lt;/p&gt;
+&lt;p&gt;不过法律规定禁止个人点对点交易，但链上交易本身比较难以追踪，所以现实中可能还会有人继续通过点对点交易以逃避监管，但如果被发现的话可能会面临各类处罚。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在微软社区中有其他网友分享自己测试后可以解决登录报错的办法：将 Microsoft Account Sign-in Assistant (微软账户登录助手) 服务的启动类型切换为自动，随后重启该服务后游戏可以正常登录。&lt;/p&gt;
-&lt;p&gt;具体操作办法：打开任务管理器、切换到服务、打开服务、找到微软账户登录助手，双击该服务将其选项由延迟启动或禁用等状态切换为自动，然后再重启该服务。&lt;/p&gt;
+&lt;p&gt;俄罗斯央行公布的监管制度还设置个人投资者的准入条件，其中非合格投资者通过测试后可以经单一经纪商购买许可范围内的主流数字货币，每年额度不超过 30 万卢布约合人民币 2.4 万元。&lt;/p&gt;
+&lt;p&gt;另外个人不能从数字账户向本人控制的非托管钱包 (例如去中心化的软件或硬件钱包) 转账加密货币，通过数字存托机构管理的地址在个人之间转账也不被允许。&lt;/p&gt;
+&lt;p&gt;所以后续这些加密货币原则上买卖和存储都被监管，这也意味着如果账户存在异常那这些加密货币也能被冻结。这对很多加密货币支持者来说是个坏消息，这些支持者更希望将加密货币存储在自己控制的钱包内。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 16 Oct 2026 06:30:00 +0000</pubDate></item><item><title>欧盟继续与谷歌沟通数字市场法案整改 罚款8.9亿欧元后要审查搜索排序和商店交易问题</title><link>https://www.landian.news/archives/127418.html</link><description>
-&lt;p&gt;#行业资讯 欧盟继续与谷歌就欧盟数字市场法案的 8.9 亿欧元罚款进行沟通，罚款后谷歌需要整改并由欧盟审查搜索排序和商店交易问题。欧盟在 7 月份向谷歌开出合计 8.9 亿欧元的罚单，其中 4.6 亿欧元的罚款针对谷歌搜索优先展示自家购物、酒店、交通和体育服务，而 4.3 亿欧元罚款主要针对 Play Store 限制开发者向用户介绍并引导至应用商店外更便宜的购买渠道。谷歌不仅需要支付罚款，还必须就这些公平性问题进行整改。查看全文：https://ourl.co/127418&lt;/p&gt;&lt;p&gt;欧盟委员会日前发文表示，该委员会正在继续与美国谷歌公司针对 7 月份的数字市场法案 (DMA) 裁决沟通整改措施。欧盟委员会称谷歌已经开始调整搜索结果展示并宣布或部分实施 Google Play Store 费用变更，这些措施是否符合要求还在评估中。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127418.png" rel="nofollow"&gt;&lt;img alt="欧盟继续与谷歌沟通数字市场法案整改 罚款8.9亿欧元后要审查搜索排序和商店交易问题" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127418.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 19 Oct 2026 07:00:41 +0000</pubDate></item><item><title>微软将在12月为Microsoft Edge推出水印保护功能 查看敏感内容时屏幕显示水印</title><link>https://www.landian.news/archives/127472.html</link><description>
+&lt;p&gt;#软件资讯 微软在 Microsoft Edge 浏览器中添加水印保护机制，当 IT 管理员配置后，打开特定内容时会全屏显示水印。该水印为可见水印并非盲水印，水印会显示用户名和时间戳并提醒用户这是机密内容不要分享。目前水印机制正在预览，在 12 月份会推送给所有企业用户。查看全文：https://ourl.co/127472&lt;/p&gt;&lt;p&gt;据微软发布的公告，微软计划从 2026 年 12 月开始向企业用户推出 Microsoft Edge 浏览器水印保护功能，当浏览器打开符合条件的敏感内容时，页面会持续叠加可见的水印并显示查看者用户名、时间戳和保密提示，帮助企业提醒员工谨慎处理资料，也为泄露调查提供线索。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127472.png" rel="nofollow"&gt;&lt;img alt="微软将在12月为Microsoft Edge推出水印保护功能 查看敏感内容时屏幕显示水印" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127472.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;欧盟委员会在 7 月份认定谷歌违反欧盟数字市场法案，分别对谷歌处以 4.6 亿欧元和 4.3 亿欧元的罚款。其中 4.6 亿欧元的罚款针对谷歌搜索优先展示自家购物、酒店、交通和体育服务，而 4.3 亿欧元罚款主要针对 Google Play Store 限制开发者向用户介绍并引导至应用商店外更便宜的购买渠道。&lt;/p&gt;
-&lt;p&gt;裁决要求谷歌以公平、非歧视的方式排列搜索结果、允许开发者自由宣传站外优惠和与用户达成交易。谷歌必须在 60 天内停止相关违规行为，若未按要求整改，欧盟委员会可按照数字市场法案规定施加每日周期性罚款。&lt;/p&gt;
+&lt;p&gt;水印机制由 Microsoft Edge 浏览器原生渲染，用户无法移除水印或修改水印内容，默认提示为「机密 --- 禁止分享」，同时显示查看文档的用户名和时间戳，而且至少初期 IT 管理员也不能自定义水印文本和位置。&lt;/p&gt;
+&lt;p&gt;该功能支持普通标签页、分屏标签页、弹出式窗口和应用窗口，也适用于使用 Microsoft Edge 打开的本地 PDF、MIP 标签 PDF、阅读模式、打印和截图内容。水印本身不会禁止截图和拍照，但会出现在受支持的截图和打印内容中。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;谷歌已经开始改变搜索结果中自家服务的展示方式，也宣布部分落实 Google Play Store 费用调整。欧盟委员会目前正在评估这些变化并与市场企业进行沟通以收集反馈意见，欧盟委员会发言人也强调当前在沟通阶段不会预判后续的处理结果。&lt;/p&gt;
-&lt;p&gt;此前在罚款公布时谷歌全球事务总裁曾表示，谷歌遵守欧盟的要求可能导致谷歌移除酒店和航班价格等实时搜索功能，欧盟委员会则认为谷歌需要证明其调整符合公平排序 (至于功能体验问题也不能违反公平原则)。&lt;/p&gt;
+&lt;p&gt;企业 IT 管理员可以通过 Microsoft Edge Management Service 门户启用功能，微软当前要求至少使用 Microsoft Edge 142 版并配置 Microsoft 365 E3/E5 许可证。水印功能即日起开始预览，IT 管理员可以切换 Targeted Release 通道以及将策略指派给用户范围。&lt;/p&gt;
+&lt;p&gt;另外水印机制只有在内容命中 Microsoft Purview 或其他数据防泄露策略且策略包含实际限制动作时才会显示，例如阻止复制、上传或打印。如果仅添加敏感度标签或只记录活动审计策略，都不会触发显示水印。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 16 Oct 2026 05:45:00 +0000</pubDate></item><item><title>[下载] Ubuntu 26.10正式版发布 搭载Linux Kernel 7.3版内核+GNOME 51桌面</title><link>https://www.landian.news/archives/127417.html</link><description>#系统资讯 Ubuntu 26.10 正式版发布，采用 Linux Kernel 7.3 版内核和 GNOME 51 桌面，提供 9 个月的维护时间。该版本并非 LTS 版因此主要适合桌面版用户滚动更新，以始终获得最新功能和体验，服务器更适合使用 LTS 版。下载地址：https://ourl.co/127417</description><pubDate>Fri, 16 Oct 2026 05:00:00 +0000</pubDate></item><item><title>研究人员揭露通过定向广告投放商业间谍软件的攻击方式 半岛电视台成为以色列攻击目标</title><link>https://www.landian.news/archives/127416.html</link><description>
-&lt;p&gt;#安全资讯 研究人员揭露通过定向广告投放商业间谍软件的攻击方式，以色列对卡塔尔半岛电视台发起攻击。这种攻击被称为 AdFection，攻击者利用广告竞价系统筛选特定设备，在广告展示时加载恶意代码，全程不需要用户点击广告或下载文件。分析显示攻击源来自以色列商业间谍软件公司 Candiru，广告平台则是以色列 Discover-Tech。查看全文：https://ourl.co/127416&lt;/p&gt;&lt;p&gt;多伦多大学公民实验室日前发布报告揭露借助定向广告投放商业间谍软件的攻击方式，公民实验室将这种攻击方式命名为 AdFection。攻击者可以利用广告竞价系统筛选特定设备，在广告展示时加载恶意代码，整个攻击过程不需要用户点击广告或下载文件，而此次攻击的目标是卡塔尔国家媒体半岛电视台。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127416.png" rel="nofollow"&gt;&lt;img alt="研究人员揭露通过定向广告投放商业间谍软件的攻击方式 半岛电视台成为攻击目标" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127416.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 19 Oct 2026 06:30:43 +0000</pubDate></item><item><title>苹果更新应用商店审核规则 严厉打击使用AI制作脱衣或非自愿拍摄的露骨内容</title><link>https://www.landian.news/archives/127471.html</link><description>
+&lt;p&gt;#科技资讯 苹果更新应用商店审核规则，严厉打击使用 AI 制作脱衣或其他非自愿拍摄的露骨内容。此前苹果已经禁止色情内容，能够为真实人物生成色情或露骨图像的应用也不符合商店规则。这次调整也将 AI 生成的非自愿私密影像写入内容审核责任。另外苹果将打击审核后变脸的应用，这类应用通常以普通工具上架，通过特殊方法激活后可以实现其他功能，这种做法被发现会被封禁开发者账号。查看全文：https://ourl.co/127471&lt;/p&gt;&lt;p&gt;苹果日前更新 Apple App Store 应用审核指南，明确要求相关应用主动阻止并移除未经同意的私密影像，其中包括 AI 生成的内容。新条款也针对审核后变脸的应用 (即输入特定字符后可以解锁额外功能)，隐藏或未披露功能可能导致应用被下架、开发者账号也可能会被封禁。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127471.png" rel="nofollow"&gt;&lt;img alt="苹果更新应用商店审核规则 严厉打击使用AI制作脱衣或非自愿拍摄的露骨内容" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127471.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;网站或应用加载广告时，实时竞价系统会向广告平台传递设备和展示信息，其中可能包括广告标识符、Cookie、IP 地址以及应用或网页信息。报告称以色列广告技术公司 Discover-Tech 运营的 Controlium 平台可利用这些信息筛选目标设备，再通过广告中的脚本向特定设备发送后续的 JavaScript 脚本，配合浏览器漏洞展开攻击。&lt;/p&gt;
-&lt;p&gt;这类攻击也被称为零点击，因为用户只需要打开网站或应用让广告加载完成即可触发攻击链，不需要用户主动点击广告或下载恶意软件。不过并非每次广告展示都会下发恶意代码，研究人员称服务器会根据设备标识符等信息决定是否向特定目标返回脚本。&lt;/p&gt;
+&lt;p&gt;审核指南第 1.2 条涉及用户生成内容。更新后非自愿的私密影像被列入应用必须处理的内容类别，AI 生成的影像也在其中。相关应用需要采取措施阻止这类内容的出现，在发现这类内容后将其移除。而未建立充分保护或收到通知后仍未纠正违规内容的开发者，可能会因为违反开发者行为准则导致应用被下架。&lt;/p&gt;
+&lt;p&gt;苹果表示色情内容此前已经被禁止，能够为真实人物生成色情或露骨图像的应用也不符合应用商店规则。这次调整将 AI 生成的非自愿私密影像也明确写入内容审核责任，要求托管用户内容的应用在上线后也继续执行过滤和处置工作。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;公民实验室根据半岛电视台提供的网络日志，追踪到 2024~2025 年针对半岛电视台的攻击。公民实验室将其与 Discover-Tech 广告和商业间谍软件 Candiru (被称为牙签鱼) 以较高置信度关联起来，研究团队称，至少 45 台半岛电视台设备曾被列为攻击目标。&lt;/p&gt;
-&lt;p&gt;研究团队还从某台被感染的设备上提取到恶意软件样本，通过样本中的服务器信息和代码特征归因到间谍软件，该间谍软件来源于以色列特拉维夫商业间谍软件公司 Candiru。&lt;/p&gt;
+&lt;p&gt;新增的第 2.5.19 条禁止应用包含隐藏、休眠或未披露的功能，要求应用实际功能对用户和审核者保持清晰。若开发者在应用通过审核后再添加审核版本中没有的功能，苹果可以将该应用下架并封禁开发者账户。&lt;/p&gt;
+&lt;p&gt;这种变脸做法目前也比较多，部分应用看起来是个笔记本，但通过特殊入口输入特定字符后可以激活某些无关的功能，这类做法也是苹果严厉打击的，新增的规则旨在为苹果提供处理方法，即下架和封号。&lt;/p&gt;
+&lt;p&gt;另外苹果修改指南第 5 部分，包含人口贩运或剥削儿童内容的应用将被下架，也禁止开发者通过其他替代分发渠道发布，即禁止在支持替代商店和直连下载的市场通过公证后绕过苹果的应用商店分发。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 16 Oct 2026 04:00:00 +0000</pubDate></item><item><title>微软改版Windows 11照片应用 增加更多AI修图功能 支持编辑和保存HEIC和WebP图像</title><link>https://www.landian.news/archives/127414.html</link><description>
-&lt;p&gt;#软件资讯 微软宣布改版 Windows 11 照片应用，整合本地 / OneDrive/iCloud 图片，新增更多 AI 修图功能。新版编辑器支持保留 HDR 照片的色彩和对比度、以原图格式编辑和保存 HEIC 和 WebP 图片。另外这次更新后查看器支持 SVG 矢量格式，后续用户不需要再通过浏览器加载 SVG。查看全文：https://ourl.co/127414&lt;/p&gt;&lt;p&gt;微软日前发布博客宣布改版 Windows 11 系统预装的照片应用，此次更新涵盖图库、照片编辑和图片查看器功能。新图库可以集中浏览本地文件、Microsoft OneDrive 和 Apple iCloud 中的照片。编辑器新增改进后的 AI 消除工具，扩展 Relight 光线调整功能等。&lt;/p&gt;
-&lt;p&gt;不过目前改版后的照片应用仅面向 Windows Insider 测试用户推出，按照微软估计，到年底前应该可以推送给所有正式版用户，所以使用正式版的用户请耐心等待。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127414.png" rel="nofollow"&gt;&lt;img alt="" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127414.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; 帮助用户在 Windows 11 上集中管理照片：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;新图库支持按照日期浏览、按人物和存储位置 (非照片拍摄位置) 筛选，也可以通过自然语言描述来搜索照片。用户还可以创建和分享相册、收藏照片、查看来自 OneDrive 自动生成的回忆集合等。&lt;/p&gt;
-&lt;p&gt;使用 OneDrive 照片需要在手机版 OneDrive 中开启相机备份功能，接入 iCloud 则需要安装并设置 iCloud for Windows。用户也可以不登录这些云存储账号，这样可以只查看来自本地的内容。&lt;/p&gt;
+</description><pubDate>Mon, 19 Oct 2026 05:45:03 +0000</pubDate></item><item><title>深度求索宣布从11月1日开始DS搜索与抓取接口收费 每1,000次成功调用收费5元</title><link>https://www.landian.news/archives/127470.html</link><description>
+&lt;p&gt;#人工智能 深度求索公布 DeepSeek 搜索和抓取 API 价格，从 11 月 1 日开始每次成功调用收费 0.005 元或每 1,000 次 5 元。目前在 DSH 等工具内调用免费，直接通过 API 调用已经开始收费，而工具内调用也将从 11 月 1 日开始收费。搜索功能指的是对特定信息进行检索，无论搜索结果有多少都按 1 次计费，抓取则按提示词要求抓取多少个页面，每个抓取按 1 次计费。例如搜索总结某热点信息，可能产生多次搜索和抓取，因此单次操作就可能产生多次计费。另外抓取成功的内容处理按正常 Token 消耗计费，所以计费合计是三个部分。查看全文：https://ourl.co/127470&lt;/p&gt;&lt;p&gt;据深度求索发布的通知，从 10 月 17 日开始 DeepSeek 开放网页搜索与抓取 API，该接口暂时可以免费使用，不过最终收费计划将在 2026 年 11 月 1 日开始，到时候所有成功调用都需要按照次数支付费用，目前价格为每 1,000 次收费 5 元。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127470.png" rel="nofollow"&gt;&lt;img alt="深度求索宣布从11月1日开始DS搜索与抓取接口收费 每1,000次成功调用收费5元" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127470.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;微软重建后的原生编辑器分为裁剪、增强、修复和风格化类别，新的编辑器启动速度提升 25%，用户可以通过圈选或涂抹照片中的物体进行移除，改进后的 AI 模型还可以提升处理速度和结果质量。Relight 可以添加最多 3 个光源，调整颜色、亮度和照射方向等。&lt;/p&gt;
-&lt;p&gt;新版编辑器还支持保留 HDR 照片的色彩和对比度，以原图格式编辑和保存 HEIC 和 WebP 图片。针对很多用户需要的在社交媒体上发送图片，微软也新增社交媒体裁剪模板，可以按平台裁剪为合适的尺寸。&lt;/p&gt;
+&lt;p&gt;搜索功能会根据查询词返回结构化网页数据，抓取 (Fetch) 则用于抓取单个网页并以 MD 格式返回页面内容。搜索与抓取接口均为独立计费，每 1,000 次成功请求均为 5 元，也就是单次成功调用收费 0.005 元。该接口使用 DS API Bearer 鉴权方式。&lt;/p&gt;
+&lt;p&gt;这类接口调用不看 Token 消耗数量或搜索返回的网页条数，搜索接口只有在 HTTP 状态码为 200 且结果列表非空时收费；抓取功能则是在返回网页正文时收费。请求失败、搜索无结果或超时等情况不收费，搜索的计数参数也不会因返回条数增加而提高价格。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;新版照片查看器采用更加简洁的界面，常用的编辑、打印和分享操作更容易找到，新版查看器也改进 HDR 显示和键盘翻页功能，并且还新增矢量格式 SVG 的支持，后续用户不需要再通过浏览器加载 SVG 内容。&lt;/p&gt;
-&lt;p&gt;微软表示，查看器启动速度平均提升 15%，打开 HEIC 格式的图像时最高提升 30%，因此用户后续升级到新版照片后应该很容易看到这次改版优化带来的体验变化。&lt;/p&gt;
+&lt;p&gt;深度求索称其自研的搜索引擎已经用于网页版和 API 端，其中搜索和抓取功能主要面向智能体和 RAG 应用提供实时网页内容，但搜索和抓取功能仅仅只是功能调用，抓取后的内容处理需要按照正常 Token 计费。&lt;/p&gt;
+&lt;p&gt;例如搜索并总结网页内容时会产生三部分费用：第一部分是搜索请求费用，第二部分是抓取网页费用 (总结某个热门信息时可能涉及到抓取多个页面)，第三部分是模型处理内容产生 Token 费用。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;DS 价格页将当前免费范围限定为：用户通过 DSH、Claude Code、Codex 使用 DS API 时，由服务端工具发起的搜索和抓取请求。这部分调用暂时免费，从 2026 年 11 月 1 日 0 时开始转为按次计费，&lt;strong&gt;独立调用的搜索和抓取 API 按公布的成功请求计费&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;免费期结束后，编程助手或智能体在需要查找资料、读取外部网页时，搜索和抓取都可能产生费用，例如一次搜索后抓取 3 个网页，按成功请求计算就是 0.005 元搜索费 + 0.005*3 次抓取费。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 16 Oct 2026 03:06:17 +0000</pubDate></item><item><title>微软发文宣传Windows 11 26H2性能改进 通过消耗更多内存提高系统响应效率</title><link>https://www.landian.news/archives/127413.html</link><description>
-&lt;p&gt;#系统资讯 微软发布博客宣传 Windows 11 26H2 带来的改进：通过消耗更多内存提高系统的响应效率。改进后的内存管理机制会将更多活动数据保留在内存而非硬盘上，这样用户重新打开应用时速度更快，不需要重新从硬盘读取。微软也改进小内存设备的内存占用，小组件只有在点击时才加载内容，大约可以节省 200MB 内存 (额，这怎么好意思提的)。查看全文：https://ourl.co/127413&lt;/p&gt;&lt;p&gt;微软日前发布博客介绍 Windows 11 26H2 版带来的多种性能改进，其中包括调整内存管理和优化硬盘读写，让小内存设备例如仅配备 8GB 内存的设备和仍然采用机械硬盘的设备响应速度更快也流畅。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127413.png" rel="nofollow"&gt;&lt;img alt="微软发文宣传Windows 11 26H2性能改进 通过消耗更多内存提高系统响应效率" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127413.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 19 Oct 2026 05:10:40 +0000</pubDate></item><item><title>强烈建议VPS用户立即备份自己的数据：内核新漏洞危害极高 多家提供商分批打补丁中</title><link>https://www.landian.news/archives/127425.html</link><description>
+&lt;p&gt;#安全资讯 强烈建议所有 VPS 服务器用户立即备份数据：CVE-2026-99999 漏洞影响范围非常广。该漏洞可能导致虚拟机逃逸，目前像是搬瓦工等提供商已经安装补丁重启宿主机，期间用户会发现小鸡短暂失联。但很难保证所有 VPS 提供商都能及时安装补丁，如果未安装补丁就有可能再次出现所有虚拟机被加密勒索的情况。所以对用户来说及时备份自己的数据才是最重要的，如果提供商没发维护公告，可以备份数据后提交工单咨询。查看全文：https://ourl.co/127425&lt;/p&gt;&lt;p&gt;上周末安全公司公布名为 PwnEscape 的新内核漏洞，该漏洞编号 CVE-2026-99999 (还是个靓号)，漏洞位于网络栈并可以实现跨越虚拟机隔离。鉴于漏洞的危害程度极高，多家 VPS 服务器提供商陆续启动紧急维护给宿主机安装补丁并重启物理服务器，所以部分用户会注意到自己的小鸡短暂失联。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127425.png" rel="nofollow"&gt;&lt;img alt="&amp;lt;b&amp;gt;强烈建议VPS用户立即备份自己的数据：内核新漏洞危害极高 多家提供商分批打补丁中&amp;lt;/b&amp;gt;" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127425.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;当电脑内存紧张时系统会将部分数据转移到存储设备并在需要时再度回来，微软称新的内存管理机制可以让更多活动数据留在内存中，用户同时打开更多应用或浏览器标签页时系统更容易保持响应。&lt;/p&gt;
-&lt;p&gt;由于机械硬盘随机读写速度通常远低于固态硬盘，这类调整对仍然使用机械硬盘的电脑来说影响可能更明显，而使用固态硬盘的电脑也将受益于内存和后台资源优化。&lt;/p&gt;
-&lt;p&gt;微软调整小内存设备上的小组件加载方式，内存为 8GB 或更少的内存，只有用户在打开小组件时才会加载相关内容。微软称这项变化可以释放 200MB 以上的内存供其他应用使用。&lt;/p&gt;
+&lt;p&gt;该漏洞位于 Linux Kernel IPv4 网络处理代码，内核处理特定数据包时未充分检查和校验元数据，可能导致已经验证过的网络头部被后续操作改写。攻击者需要先在受影响的宿主机上的虚拟机中运行代码再发送特制网络数据包，红帽和亚马逊的安全说明列出该漏洞可能导致宿主机内存泄露、拒绝服务以及执行任意代码等后果。&lt;/p&gt;
+&lt;p&gt;安全研究员保罗斯伊贝洛在 Vercel Sandbox 挑战赛中发现该漏洞，研究团队称已经在自有的 KVM 测试环境中演示从虚拟机逃逸到宿主机，对使用虚拟化的企业来说该漏洞存在极高的风险，所以及时安装更新非常重要。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;微软表示这些改进可以让 Windows 11 整体响应度提高 20%，该数字来自对搜索、开始菜单、右键菜单、设置、截图工具和文件资源管理器响应时间的测量，测试比较 Build 26300.9550 和 26200.7628。&lt;/p&gt;
-&lt;p&gt;微软的说明还提到，优化涵盖启动后的使用体验，也包括开始菜单、文件资源管理器和搜索等常用组件，不过实际表现还受设备配置和使用情况影响，因此不同用户获得的感受可能不同。&lt;/p&gt;
-&lt;p&gt;目前这些改进正在逐步推送，Windows 11 26H2 版已经向符合条件的设备推送，后续微软会逐渐扩大推送范围，但如果用户着急的话也可以手动下载镜像工具执行升级。&lt;/p&gt;
+&lt;p&gt;用于修复该漏洞的 Linux Kernel 稳定版在 10 月 15 日发布，由于宿主机必须加载新内核和重启，因此很多 VPS 服务器提供商选择分批安装补丁并重启宿主机用于封堵漏洞。&lt;/p&gt;
+&lt;p&gt;目前蓝点网收集的信息显示，BandwagonHost、Hostinger、Contabo、MVPS、FreakHosting 等都已经陆续重启宿主机修复漏洞，由于宿主机重启时在上面运行的虚拟机会短暂离线，所以用户会发现自己的服务器出现短时间失联问题。&lt;/p&gt;
+&lt;p&gt;例如搬瓦工表示会重启所有物理服务器，因此所有虚拟机都会暂停；Contabo 采用分批更新并等待其使用的发行版补丁到位；UpCloud 称大多数用户预计不会受明显影响，但 GPU 服务器需要关机重启，预计中断时间是 30~60 分钟。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;鉴于部分 VPS 提供商的草台行为&lt;/strong&gt;，蓝点网在这里也强烈建议所有 VPS 用户都立即备份自己的虚拟机数据，因为很难保证所有服务器提供商都能及时安装更新，若未及时安装更新就有可能被黑客攻击，到时候所有虚拟机数据被加密将无法恢复。&lt;/p&gt;
+&lt;p&gt;另外这个漏洞影响是在宿主机层面，用户更新自己的虚拟机内核是不能解决问题的，如果用户担心那最好先备份所有数据，然后发工单给 VPS 服务器提供商咨询补丁安装计划。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 16 Oct 2026 02:30:18 +0000</pubDate></item><item><title>法国拟针对部分加密货币兑换稳定币征税 同时脱离法国税务居民也需要缴纳离境税</title><link>https://www.landian.news/archives/127412.html</link><description>
-&lt;p&gt;#加密货币 法国拟针对部分加密货币兑换稳定币征税，同时投资者若准备脱离法国税务居民身份，那要缴纳加密货币离境税。兑换稳定币征税特指将比特币等兑换为美元或欧元稳定币，兑换时产生的收益部分需要缴税，兑换为非法定货币锚定的其他加密稳定币不在此范围内。离境税则要求此前是法国税务居民，但准备脱离该身份前往其他司法管辖区时，要对加密资产产生的收益缴纳离境税。查看全文：https://ourl.co/127412&lt;/p&gt;&lt;p&gt;法国国民议会日前公布 2027 年预算草案中的两项加密货币税法修正案，相关修正案正在由全体议会进行审议。其中第一项为将加密货币兑换为稳定币列为应税交易需要缴纳对应的税费，另一项则是加密货币持有者脱离法国税务居民身份时需要缴纳离境税。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127412.png" rel="nofollow"&gt;&lt;img alt="法国拟针对部分加密货币兑换稳定币征税 同时脱离法国税务居民也需要缴纳离境税" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127412.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 19 Oct 2026 04:20:41 +0000</pubDate></item><item><title>英伟达否认RTX 5090显卡停产 不过英伟达承认该显卡目前供应非常紧张</title><link>https://www.landian.news/archives/127424.html</link><description>
+&lt;p&gt;#硬件设备 英伟达回应 RTX 5090 显卡停产传闻，英伟达个人计算业务高级副总裁费舍尔称该显卡并未停产，英伟达会继续生产和供应该显卡。此前有消息称英伟达停产 RTX 5090/5090D 显卡，GB202 芯片被专供于 RTX PRO 系列显卡。费舍尔称虽然 RTX 5090 并未停产，但供应链容量确实受到限制，英伟达正在努力让该产品继续上市。查看全文：https://ourl.co/127424&lt;/p&gt;&lt;p&gt;早前国内有网友爆料称英伟达将停产 RTX 5090 显卡和中国市场的 RTX 5090D 显卡，后续 GB202 芯片会被转向英伟达的 RTX PRO 系列显卡。相关消息还称英伟达可能会以 24GB 版的 RTX 5080 显卡来填补高端游戏市场的显卡缺口。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/01/107428.png" rel="nofollow"&gt;&lt;img alt="英伟达否认RTX 5090显卡停产 不过英伟达承认该显卡目前供应非常紧张" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/01/107428.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;法国国民议会讨论的修正案 I-CF1826 拟取消加密资产兑换为 MiCA 定义的电子货币代币时的纳税递延。电子货币代币指的是以单一官方货币为锚、维持稳定价值的加密资产，也就是我们常说的稳定币，包括美元稳定币、欧元稳定币等，但只有与法定货币挂钩的稳定币在征收范围内，其他以加密货币为锚点的稳定币不在此范围内。&lt;/p&gt;
-&lt;p&gt;按现行规则，个人投资者之间不含现金补差的加密货币兑换通常可以递延纳税，若提案通过的话，用户将比特币等资产换成符合定义的稳定币时，即便没有将稳定币兑换为法定货币也就是欧元，也可能需要确认这笔兑换产生的收益，其中收益部分需要缴税。&lt;/p&gt;
-&lt;p&gt;31.4% 是法国个人加密资产收益目前适用的默认税率，由 12.8% 的所得税和 18.6% 的社会缴费组成。修正案本身没有另设税率，符合条件的个人也可以选择累进税率，总体来说都是只针对收益部分征税，并非按交易总额征税。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;I-CF1822 修正案拟针对迁出法国时尚未实现的加密货币资产收益征收离境税，适用对象包括迁出前 10 年中至少有 6 年在法国拥有税务住所且家庭持有加密资产总价值超过 80 万欧元的人。&lt;/p&gt;
-&lt;p&gt;资产可以通过服务商持有，也可以通过自己的加密钱包持有，触发条件时持有人准备前往其他国家居住并成为对应司法管辖区的税务居民，此时收益部分需要缴纳离境税，但总资产规模在 80 万欧元以下时不需要征税。&lt;/p&gt;
+&lt;p&gt;英伟达个人计算业务高级副总裁杰夫费舍尔在接受媒体采访时表示，关于 RTX 5090 显卡停产的消息并非事实，英伟达会继续生产和供应该显卡。费舍尔称 RTX 5090 仍然是英伟达产品线的重要组成部分，但供应链容量确实受到限制，英伟达正在努力让产品继续上市。&lt;/p&gt;
+&lt;p&gt;目前英伟达美国在线商城仍然列有 RTX 5090，标价为 1999 美元，不过状态是缺货。在美国其他零售商店也基本没有现货，还有少部分零售商店直接将 RTX 5090 标记为未销售，因为无法获得库存。&lt;/p&gt;
+&lt;p&gt;至于 GB202 芯片，费舍尔在采访中并未披露芯片的具体分配情况，当然也没有透露 RTX 5090 的供货情况或零售补货时间，所以想要继续购买该显卡的用户只能寻找当前有货的商家，价格自然是非常非常高的。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 16 Oct 2026 01:54:37 +0000</pubDate></item><item><title>iPhone Duo保外维修价格最高1499美元 内屏单修要999美元 建议用户购买AC+</title><link>https://www.landian.news/archives/127411.html</link><description>
-&lt;p&gt;#手机数码 iPhone Duo 保外维修价格最高 1499 美元，内屏单修需要 999 美元，建议用户直接购买 AC+ 覆盖保障。iPhone Duo 售价 1999 美元，该机型即将开始预售和上市，苹果也公布了机型维修价格，涵盖内屏、外屏、后玻璃、电池、摄像头等。人为损坏直接维修价格非常高，购买 AC+ 后更划算，例如内屏保外 999 美元，AC+ 后 99 美元。查看全文：https://ourl.co/127411&lt;/p&gt;&lt;p&gt;苹果首款折叠屏设备 iPhone Duo 即将开放预订和上市销售，目前这款折叠屏设备的热度非常高以至于某些电商平台都下场自己当黄牛。苹果也已经公布 iPhone Duo 的保外维修估价，对用户而言购买这款设备最好还是购买 AC+ 服务，否则不慎出现损坏维修费非常惊人。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127411.png" rel="nofollow"&gt;&lt;img alt="iPhone Duo保外维修价格最高1499美元 内屏单修要999美元 建议用户购买AC+" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127411.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; 保外维修价最高 1499 美元、内屏维修 999 美元：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;iPhone Duo 售价为 1999 美元，苹果提供的有限保修覆盖制造缺陷，而用户人为造成的损坏就需要自己支付维修费用。购买 AC+ 服务后每次保外维修需要支付服务费，但价格较低所以比直接维修要划算。&lt;/p&gt;
-&lt;p&gt;据苹果公布的保外维修估价：外屏损坏收费 379 美元、内屏损坏 999 美元、外屏和后玻璃同时损坏 509 美元，更换后玻璃、后置摄像头或电池分别是 199 美元、229 美元和 229 美元，内屏表面的纳米纹理保护层可以单独更换，更换费用为 49 美元。&lt;/p&gt;
-&lt;p&gt;iPhone Duo 的最高维修价格为 1499 美元，对应着其他损坏类别，具体价格需要苹果售后服务中心收到设备后进行评估，最终维修方式和具体收费金额视损坏情况可能有所不同。&lt;/p&gt;
+</description><pubDate>Mon, 19 Oct 2026 03:48:46 +0000</pubDate></item><item><title>Linux Kernel内核开发分支准备取消AI标记要求 祖师爷也认为不应该禁止维护者使用AI</title><link>https://www.landian.news/archives/127423.html</link><description>
+&lt;p&gt;#人工智能 Linux 内核开发分支准备取消 AI 标记要求，祖师爷 Linus Torvalds 也认为不能用规则限制开发者使用 AI。在内核维护大会中，讨论通过废除补丁中的 Assisted-by 标签，因为标签不能准确反映实际情况。Linus Torvalds 认为维护者应该看开发者是否理解自己提交的代码，不能仅凭开发者用什么工具写的代码来判断贡献质量。查看全文：https://ourl.co/127423&lt;/p&gt;&lt;p&gt;Linux 内核维护者大会于 10 月 8 日就废除补丁中的 Assisted-by 标签达成共识，相关文档补丁已经在 10 月 14 日引用到文档开发分支，不过目前内核公开的 AI 辅助开发指南仍然要求维护者保留该标签。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127423.png" rel="nofollow"&gt;&lt;img alt="Linux Kernel内核开发分支准备取消AI标记要求 祖师爷也认为不应该禁止维护者使用AI" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127423.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;美版 AC+ 费用为每月 19.99 美元或每年 199.99 美元或两年 399 美元，购买服务保障后内屏损坏和其他意外损坏每次服务费 99 美元，外屏或后玻璃维修需要 29 美元，保护层更换为 19 美元，电池寿命低于 80% 时可以免费更换。&lt;/p&gt;
-&lt;p&gt;在美国等部分市场苹果还提供失窃与遗失保障计划，该计划也包含在 AC+ 服务中，当设备不慎丢失或被盗后替换服务费为 149 美元，所以准备购买 iPhone Duo 的用户可以考虑购买时就搭配 AC+ 服务。&lt;/p&gt;
+&lt;p&gt;此前内核指南要求使用 AI 工具参与开发的补丁注明 Assisted-by 标签。撤销补丁的说明称，在 Linux 7.3-rc7 之前的 18533 个非合并变更中，约有 10% 带有该标签，而实际使用 AI 的情况更加普遍。&lt;/p&gt;
+&lt;p&gt;维护者认为漏写标签不能说明补丁没有使用 AI 工具辅助开发，对频繁使用 AI 工具的开发者来说，标签本身也难以说明 AI 具体参与了哪些工作。撤销补丁删除相关指南中的标签要求，也移除 checkpatch.pl 对该标签的特殊识别。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;内核关于 AI 生成内容的指南仍然建议提交者在补丁说明或变更记录中交代使用什么工具、哪些内容受影响以及如何测试等，维护者可以要求补充测试、加大审查力度或拒绝补丁。&lt;/p&gt;
+&lt;p&gt;提交者仍然需要自行检查代码、确认许可合规、对提交内容负责，所以取消标签不等于免除人工责任。在围绕删除标签的讨论中，祖师爷 Linus Torvalds 反对以规则禁止开发者使用 AI 工具，强调维护者应该看开发者是否理解自己提交的代码，不能仅凭用什么工具判断贡献质量。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 16 Oct 2026 01:19:50 +0000</pubDate></item></channel></rss>
+</description><pubDate>Mon, 19 Oct 2026 03:08:56 +0000</pubDate></item><item><title>传三星称骁龙8 Elite Extreme Gen 6过热可能不会采用该芯片 高通对此予以否认</title><link>https://www.landian.news/archives/127422.html</link><description>
+&lt;p&gt;#手机数码 网传三星称骁龙 8 Elite Extreme Gen 6 过热要求高通给出解决方案，高通对此予以否认。三星在内部测试中发现该芯片在持续高负载运行时温度超过阈值并出现降频，三星要求高通在 10 月中旬前改善散热问题。高通针对传闻予以否认，高通称相关报道被夸大且是不准确的，Gen 6 没有系统性散热问题。查看全文：https://ourl.co/127422&lt;/p&gt;&lt;p&gt;据韩国首尔经济日报发布的消息，三星在 Galaxy S27 Ultra 内部测试中发现骁龙 8 Elite Extreme Gen 6 芯片持续高负载运行时温度超过预设阈值并出现性能降频。高通随后发布声明称关于该芯片存在散热问题的报道被夸大且不准确，但高通也没有就相关传闻发布详细的回应。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="/wp-content/uploads/2026/10/127422.png" rel="nofollow"&gt;&lt;img alt="传三星称骁龙8 Elite Extreme Gen 6过热可能不会采用该芯片 高通对此予以否认" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="/wp-content/uploads/2026/10/127422.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;首尔经济日报援引知情人士称，三星已经将内部测试情况告知高通，要求高通在 10 月中旬前改善散热问题。若该芯片仍然达不到三星对稳定性和性能的要求，三星可能会考虑使用自研的 Exynos 2700 作为替代方案。&lt;/p&gt;
+&lt;p&gt;若最终采用 Exynos 2700，这将是三星自 Galaxy S22 Ultra 后再次在 Ultra 机型中使用自家处理器。不过这只是媒体报道中猜测的三星备选方案，三星大概率最终还是会继续采用高通芯片。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;高通表示有关骁龙 8 Elite Extreme Gen 6 存在散热问题的报道被夸大且不准确，高通目前正在与手机厂商合作进行调优。高通首席营销官也在自己的社交媒体账号上表示，该芯片不存在系统性散热问题，手机厂商会针对各自产品调校性能和功耗。&lt;/p&gt;
+&lt;p&gt;高通同样没有发布针对这项传闻的温度、功耗或持续性能测试数据，所以具体还需要等待搭载该芯片的机器上市后进行测试，不过高通一直在散热方面饱受诟病，大概率骁龙 8 Elite Extreme Gen 6 就存在很严重的散热问题。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 19 Oct 2026 02:27:53 +0000</pubDate></item></channel></rss>
