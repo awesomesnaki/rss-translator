@@ -1,120 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 20 Oct 2026 01:00:00 +0000</lastBuildDate><item><title>COM域名将在11月1日涨价 建议有需要的用户提前注册或续费多年</title><link>https://www.landian.news/archives/127476.html</link><description>
-&lt;p&gt;#域名资讯 COM 域名将在 11 月 1 日涨价，建议有需要的用户提前注册或续费多年。根据威瑞信的安排，从 11 月 1 日起 COM 域名批发价上涨到 10.97 美元，外加 0.2 美元的 ICANN 交易费。而下游域名注册商还需要收服务费和利润，所以最终 COM 域名每年持有成本可能会达到 14 美元。接下来威瑞信每年还会继续涨价，本轮四年周期结束后预计会涨价到 13.42 美元。查看全文：https://ourl.co/127476&lt;/p&gt;&lt;p&gt;COM 域名注册局美国威瑞信 (Verisign) 公司已经宣布，从 2026 年 11 月 1 日起将 COM 域名注册局批发价从 10.26 美元提高到 10.97 美元，新费率适用于新注册的域名或对现有域名续费。每年增加 0.71 美元、涨幅为 6.9%，这笔费用由注册商向威瑞信支付，但最终肯定要被转嫁给最终用户。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127476.png" rel="nofollow"&gt;&lt;img alt="COM域名将在11月1日涨价 建议有需要的用户提前注册或续费多年" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127476.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 20 Oct 2026 08:30:43 +0000</lastBuildDate><item><title>[开源软件] 在macOS上原生运行安卓应用Mac.apk 通过兼容层转换不需要虚拟机</title><link>https://www.landian.news/download/127552.html</link><description>
+&lt;p&gt;#开源软件 Mac.apk - 可以在 macOS 上原生运行安卓应用程序，通过兼容层转换运行，不需要安装完整的虚拟化环境。Mac.apk 可以将安卓应用包装为独立应用，让应用出现在程序文件夹、Dock 和切换器中。不过这种运行方式也存在安全风险，安卓应用会以当前 macOS 用户权限获得访问权，这意味着安卓应用可以读取和写入用户文件，建议用户仅安装可信应用。查看全文：https://ourl.co/127552&lt;/p&gt;&lt;p&gt;日前有开发者开源发布面向 macOS 系统的 Mac.apk 应用，该应用可以将安卓应用包装为独立的 macOS 应用，让用户可以在 macOS 上直接运行安卓应用程序，不需要安装虚拟机或其他虚拟化环境。&lt;/p&gt;
+&lt;p&gt;Mac.apk 可以将安卓应用包装为独立应用后，让应用出现在应用程序文件夹、Dock 和应用切换器中。理论上说大部分安卓应用应该都可以兼容，不过开发者自测也有部分应用存在兼容性问题。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127552.png" rel="nofollow"&gt;&lt;img alt="[开源软件] 在macOS上原生运行安卓应用Mac.apk 通过兼容层转换不需要虚拟机 " decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127552.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;威瑞信在 4 月 23 日已经公布这项调整，价格变化针对每个注册年限单位，例如注册或续费多年，注册商需要按新的批发价核算相应年限。域名持有人是否会在 11 月 1 日当天看到零售价同步上涨取决于注册商，不同域名注册商的做法可能有些差异。&lt;/p&gt;
-&lt;p&gt;ICANN 另收取每个域名每年 0.2 美元的交易费，因此 11 月 1 日调整后最终 COM 域名的批发价为 11.17 美元，这是下游注册商的纯成本价，注册商还需要计算自己的服务成本和利润，因此最终用户看到的价格可能在 12~13 美元或更高的价格。&lt;/p&gt;
+&lt;p&gt;安卓应用通常将 Java 或 Kotlin 代码编译为 DEX 格式，Mac.apk 会在应用首次启动时需要花费一些时间将 DEX 转换为 Java 字节码，之后交给内置的 OpenJDK 运行环境执行。转换结果会被保留供后续启动使用，因此首次启动时会花费较长时间进行转换。&lt;/p&gt;
+&lt;p&gt;安卓应用通常会调用 Activity、界面布局、存储、输入和通知等系统接口，Mac.apk 自行实现相关安卓框架，再把这些请求接到 macOS 上。图形渲染方面主要通过 OpenGL ES 进行 ANGLE 转换，Vulkan 通过 MoltenVK 衔接，最终由 macOS 的 Metal 图形接口交给 GPU 处理。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.landian.news/archives/105284.html" rel="noopener" target="_blank"&gt;此前蓝点网已经提到过威瑞信与 ICANN 谈判后最终获得逐年涨价权限&lt;/a&gt;，现行规则允许威瑞信在每个 6 年周期的最后 4 年里，每年最多将域名批发价提高 7%。本轮 6 年周期从 2024 年 10 月 26 日开始，第三年从 2026 年 10 月 26 日开始，所以威瑞信选择在 11 月 1 日涨价。&lt;/p&gt;
-&lt;p&gt;如果威瑞信在之后三个年度里也都用满 7% 的调价额度，批发价预计将在本周期结束后涨价到每年 13.42 美元 (不含 ICANN 交易费)。不过威瑞信是否每年都提高或者按 7% 满额涨价还需要观察，毕竟涨价太多虽然赚得多但容易被骂惨。&lt;/p&gt;
+&lt;p&gt;Mac.apk 支持安装 APK、APKM、XAPK、APKS、APKX 等格式的安装包，安装运行环境并设置文件关联后，用户可以双击安装包将其拖入到 Mac.apk，应用会以独立窗口运行。&lt;/p&gt;
+&lt;p&gt;系统要求是必须采用搭载苹果 M 芯片的 Mac 设备，目前不支持基于英特尔 CPU 的 Mac，macOS 版本需要 26.4 或后续版本，Mac.apk 本身已经签名和公证，所以可以直接在 macOS 上安装。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;对于长期持有 COM 域名的用户来说，提前续费是个不错的选择，例如蓝点网此前使用的 landiannews.com 都已经续费到 2029 年，当时谷歌域名注册服务有羊毛可以薅，所以直接拉满续费 10 年。&lt;/p&gt;
-&lt;p&gt;现在域名方面的羊毛已经非常少，所以提前续费算是唯一选择，不过域名续费后通常不能退款，所以除非是必须的域名，不然不要续费太久，否则以后想要将其放生，那就血亏了。&lt;/p&gt;
+&lt;p&gt;Mac.apk 采用 AGPL-3.0 许可证，个人和非商业性使用免费，但如果企业要在闭源产品中打包或提供该软件时，需要申请项目许可。&lt;/p&gt;
+&lt;p&gt;最后还有个安全提醒，Mac.apk 安装的应用以当前 macOS 用户权限运行，没有安卓手机上的应用隔离机制，这意味着安卓应用可以读取或修改属于用户本身的文件，这里存在安装隐患，建议用户只安装可信应用。&lt;/p&gt;
+&lt;p&gt;项目地址：&lt;a href="https://www.landian.news/go?url=https://github.com/kksimp/Mac.apk" rel="noopener" target="_blank"&gt;https://github.com/kksimp/Mac.apk&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 20 Oct 2026 01:00:00 +0000</pubDate></item><item><title>日本软件销售商Sourcenext泄露2252万条敏感信息 蓝点网曾买过软件也被泄露</title><link>https://www.landian.news/archives/127475.html</link><description>
-&lt;p&gt;#安全资讯 日本软件销售商 Sourcenext 遭到黑客攻击，泄露 22,519,960 条记录，蓝点网曾在上面买过 1Password 3 年版，因此也中招。可能外泄信息包括电子邮箱、密码、姓名及假名、地址、性别、电话号码、传真号码、出生日期、公司名称、职位等。蓝点网怀疑该平台甚至使用明文存储密码，因为事发后 Sourcenext 立即重置所有用户密码，并且在邮件通知中没有提到密码是哈希加盐存储的。正常来说如果是哈希加盐的那应该说明，因为这类密码泄露后问题不是很大。查看全文：https://ourl.co/127475&lt;/p&gt;&lt;p&gt;日本知名软件销售公司 Sourcenext 日前向用户发送电子邮件通知，攻击者滥用会员信息查询 API 接口批量获取用户数据。该公司估计最多有 22,519,960 条记录外泄，涉及用户的注册邮箱、密码、姓名、住址、电话等信息。具体到每位会员，受影响的字段可能不同，基于安全考虑该公司已重置所有用户密码。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127475.png" rel="nofollow"&gt;&lt;img alt="日本软件销售商Sourcenext泄露2252万条敏感信息 蓝点网曾买过软件也被泄露" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127475.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 20 Oct 2026 08:30:43 +0000</pubDate></item><item><title>微软为Windows Server 2025服务器也增加快速机器恢复 故障时可以联网查找解决方案</title><link>https://www.landian.news/archives/127489.html</link><description>
+&lt;p&gt;#系统资讯 微软通过 10 月更新为 Windows Server 2025 服务器系统也带来快速机器恢复功能。在发生严重故障无法启动时，WinRE 恢复环境会自动联网查找、应用修复方案、重启服务器。该方案最初在 Windows 11 上应用，现在微软将其带到服务器上。查看全文：https://ourl.co/127489&lt;/p&gt;&lt;p&gt;据微软发布的支持公告，Windows Server 2025 服务器系统在安装 10 月更新后已经支持 QMR 快速计算机恢复功能，该功能最初在 Windows 11 中使用，当系统遇到严重故障时 QMR 可以通过 WinRE 恢复环境连接微软服务器查找并应用针对性的解决方案。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127489.png" rel="nofollow"&gt;&lt;img alt="微软为Windows Server 2025服务器也增加快速机器恢复 故障时可以联网查找解决方案" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127489.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Sourcenext 称 10 月 13 日上午 9 时左右发现会员信息管理系统遭到未经授权的访问，当天下午 13 时 36 分 Sourcenext 采取措施阻断攻击 (很奇怪 9 点发现异常为什么到下午 1 点才阻断攻击)。&lt;/p&gt;
-&lt;p&gt;后续调查显示，攻击者早在 10 月 9 日上午 10 时就开始不当调用会员信息获取 API，然后批量匹配获得用户信息。Sourcenext 已经向日本个人信息保护委员会披露此次安全事件，同时聘请外部专业机构进行调查。&lt;/p&gt;
+&lt;p&gt;当服务器多次启动失败后系统会自动进入 WinRE 恢复环境，恢复环境联网后内置流程会向微软服务器查询适用的修复方案。如果找到修复方案则自动下载、安装和重启服务器以恢复服务器的运行。如果没有找到对应方案则会转为常规恢复流程。&lt;/p&gt;
+&lt;p&gt;这里的针对性方案指的是，当机器发生大规模故障后通常微软或 OEM 会发布解决方案，而 QMR 可以联网自动下载修复方案。&lt;a href="https://www.landian.news/archives/105110.html" rel="noopener" target="_blank"&gt;快速恢复功能与 2025 年 7 月 CrowdStrike 反病毒软件驱动程序引起的大规模故障相关&lt;/a&gt;，当时全球约有 800 万台设备蓝屏死机，之后微软开发 QMR 方案帮助企业快速恢复机器。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Sourcenext 列出可能泄露的信息包括但不限于：电子邮箱、密码、姓名及假名、地址、性别、电话号码、传真号码、出生日期、公司名称、职位、部门，以及服务加入情况、注册日期和登录日期等系统识别信息。&lt;/p&gt;
-&lt;p&gt;公告还特别提到清单列表是可能涉及的字段，但并非所有用户所有字段信息都泄露，而密码也在可能泄露的范围内。&lt;strong&gt;蓝点网甚至有点怀疑 Sourcenext 采用的是明文存储，因为如果是哈希加盐存储，那肯定会在邮件中说明，哈希加盐密码泄露倒是问题不大，但如果是明文密码那就惨了。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; 蓝点网曾在 Sourcenext 买过软件信息也被泄露：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;此前密码管理器 1Password 宣布涨价，但 Sourcenext 提供的 3 年版 1Password 按汇率和折扣价计算还比较划算，于是蓝点网也通过 Sourcenext 注册会员并购买 1Password 3 年版订阅。&lt;/p&gt;
-&lt;p&gt;不过蓝点网使用的都是随机生成的高强度密码，因此哪怕是明文存储也不至于要去轮换其他所有网站密码，但个人信息泄露就很让人头疼，所幸我预留的真实信息不多，除了邮箱外其他信息基本都是假的，但接下来可能会频繁收到垃圾邮件甚至针对性的钓鱼邮件。&lt;/p&gt;
-&lt;p&gt;建议曾在 Sourcenext 购买过软件或注册或会员的用户立即检查使用的密码，如果该密码也曾在其他网站使用，那需要将这些网站的密码也都改掉，如果可以最好使用密码管理器生成随机密码，避免以后再出现类似问题。&lt;/p&gt;
+&lt;p&gt;是否开启快速计算机恢复功能、是否自动扫描和应用修复等全部由 IT 管理员进行控制，IT 管理员可以转到计算机配置、管理模板、系统、快速机器恢复选项中开启云修复、开启自动修复等。&lt;/p&gt;
+&lt;p&gt;其中开启云修复指的是允许 WinRE 恢复环境联网并获取修复方案，而开启自动修复是用来控制启动故障后自动检查修复方案的。IT 管理员还可以设置重试间隔和总等待时间，服务器默认只会尝试 1 次，对于无人值守或无显示器的服务器，可以设置大于 0 的重试间隔，在等待时间内再次检查。&lt;/p&gt;
+&lt;p&gt;微软也提醒 IT 管理员，可以先在小范围服务器上验证策略和恢复环境，如果没有问题的话再逐渐扩大部署范围。通过域组策略统一管理时，应该将策略限定到 Windows Server 2025。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/105110.html" title="导致全球850万台电脑蓝屏死机后 CrowdStrike向合作伙伴赠送10美元外卖券😂"&gt;&lt;h3&gt;导致全球850万台电脑蓝屏死机后 CrowdStrike向合作伙伴赠送10美元外卖券😂&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#科技资讯 导致全球 850 万台电脑蓝屏死机后 CrowdStrike 向合作伙伴赠送 10 美元的外卖券😂这些 Uber Eats 外卖券仅…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/tech"&gt;科技资讯&lt;/a&gt;, &lt;a href="https://www.landian.news/tech/industry"&gt;行业资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2024年7月25日 10:30&lt;/span&gt;&lt;span title="浏览数量"&gt;13.22K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://learn.microsoft.com/en-us/troubleshoot/windows-server/group-policy/configure-quick-machine-recovery-via-group-policy" rel="noopener" target="_blank"&gt;Microsoft&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 19 Oct 2026 08:00:43 +0000</pubDate></item><item><title>[指南] 谷歌将手机上的所有号码自动绑定到登录的谷歌账号上 建议关闭自动绑定并删除号码</title><link>https://www.landian.news/archives/127474.html</link><description>
-&lt;p&gt;#指南 谷歌会将安卓设备上的号码自动绑定到所有登录的谷歌账号上，建议关闭自动绑定并删除不需要的号码。该功能可能是 2025 年 7 月上线的，但近期有用户收到谷歌的通知邮件才引起关注。这个功能比较坑的是设备上的所有号码会被自动关联到所有登录的谷歌账号上，无论大号还是小号。建议用户关闭自动绑定，并清理已经绑定的号码，保留主号即可；而谷歌小号如果不需要可以删除所有已经关联的号码。查看全文：https://ourl.co/127474&lt;/p&gt;&lt;p&gt;谷歌官方帮助页面显示，安卓设备上的电话号码验证功能已经被默认开启。当用户设置设备时，谷歌会验证设备上一个或多个手机号码，随后将这些手机号码添加到当前登录的所有谷歌账号。之后若在安卓设备上新增账号或手机号，也会被自动完成关联。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127474.png" rel="nofollow"&gt;&lt;img alt="[指南] 谷歌将手机上的所有号码自动绑定到登录的谷歌账号上 建议关闭自动绑定并删除号码" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127474.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 20 Oct 2026 08:00:13 +0000</pubDate></item><item><title>微软确认已通过最新更新修复Windows 11 AC-3解码引起的游戏和应用崩溃问题</title><link>https://www.landian.news/archives/127488.html</link><description>
+&lt;p&gt;#系统资讯 微软确认已经通过最新更新修复 Windows 11 AC-3 杜比数字音频格式解码器引起的各种应用和游戏崩溃问题。引发问题的是 9 月预览版更新 KB5124010，安装更新后应用或游戏调用系统内置的解码器就会崩溃。这件事也再次提醒我们没事不要点击检查更新按钮，因为主动点击检查更新按钮会被安装预览版更新 (系统自动更新通常只安装正式版更新)。查看全文：https://ourl.co/127488&lt;/p&gt;&lt;p&gt;微软官方确认已经通过最新更新修复 Windows 11 部分应用和游戏发生的崩溃问题，引发这次问题的是 9 月 22 日发布的可选更新 KB5124010，该更新似乎破坏系统内置的 AC-3 杜比数字音频格式解码器。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127488.png" rel="nofollow"&gt;&lt;img alt="微软确认已通过最新更新修复Windows 11 AC-3解码引起的游戏和应用崩溃问题" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127488.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;谷歌称手机号码自动验证功能可用于账号登录和找回、紧急定位、查找或远程锁定设备、RCS 富媒体消息、视频通话及快速分享。为确认号码仍然归用户所有，谷歌和运营商还可能会定期重新验证，新增到设备的号码也可能被用于验证。&lt;/p&gt;
-&lt;p&gt;同一设备上的个人、工作或备用谷歌账号都可能保存相同的号码。开启号码验证时，改善谷歌上的分享体验功能也会被默认开启，用于视频通话和消息服务，以及接收其他人发往该号码的照片等内容通知。&lt;/p&gt;
+&lt;p&gt;AC-3 是杜比数字音频格式，微软称此次故障主要影响依赖 Windows 内置解码组件的旧版应用。新版应用如果使用自带解码器通常不受影响。受影响的程序表现包括启动失败、运行中突然关闭、打开后在调用特定音频功能时崩溃。&lt;/p&gt;
+&lt;p&gt;以上问题覆盖所有调用内置解码器的应用、媒体播放器和游戏，甚至部分生产力软件也会受影响。不过这次问题主要集中在 KB5124010 预览版更新中，如果用户没有主动安装预览版更新也不会遇到问题。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;需要说明的是这项变更到最近才被大家关注，对比谷歌帮助文档可以发现默认开启并将号码关联到设备上的所有账号在 2025 年秋季就已经出现，所以这个功能可能是去年秋季已经提前开启。&lt;/p&gt;
-&lt;p&gt;近期引起关注的原因则是谷歌向不少用户发送号码验证邮件，这些用户将邮件分享到社交媒体上因此引起关注，因为这可能存在潜在的隐私问题。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;谷歌在帮助文档中提到，如果用户不希望设备继续自动验证号码，可以在安卓设备中转到设置、Google、所有服务、隐私与安全、手机号码验证、关闭验证电话号码。这项操作只能在设备上操作，不能通过谷歌账号网页版操作。&lt;/p&gt;
-&lt;p&gt;关闭后也只能阻止后续自动关联新号码，对于已经关联的号码必须手动进行删除，用户可以进入对应的谷歌账号的个人信息、电话页面删除不想要保留的号码，建议用户保留一个主要使用的号码即可，以及将谷歌小号绑定的号码删除。&lt;/p&gt;
+&lt;p&gt;微软称 10 月更新 KB5127648 已经修复这项故障，该更新适用于 Windows 11 24H2/25H2/26H2 版，遇到这个问题的用户只需要下载安装最新更新即可。至于旧版应用是否要更新已经不重要，因为现在内置解码器已经可以正常工作，不过如有新版本也建议用户升级到对应软件的最新版本以获得最佳体验。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 19 Oct 2026 07:30:44 +0000</pubDate></item><item><title>俄罗斯将从2027年7月开始禁止P2P个人点对点交易加密货币 需通过持牌交易所购买</title><link>https://www.landian.news/archives/127473.html</link><description>
-&lt;p&gt;#加密货币 俄罗斯加密货币新规将在明年 7 月 1 日实施，禁止个人与个人交易加密货币、禁止转账到去中心化钱包。这意味着未来俄罗斯居民购买加密货币都只能放在受监管的中心化托管钱包里，这些钱包有可能会被冻结或控制，甚至用户钱包里的资产可能只是个数字。查看全文：https://ourl.co/127473&lt;/p&gt;&lt;p&gt;俄罗斯中央银行日前发布关于加密货币的监管问答，该监管制度明确说明从 2027 年 7 月 1 日开始俄罗斯个人与个人之间不再允许直接交易加密货币。这种交易方式即所谓的 P2P 个人点对点交易模式，通常通过转账支付法币再通过非托管钱包支付加密货币。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127473.png" rel="nofollow"&gt;&lt;img alt="俄罗斯将从2027年7月开始禁止P2P个人点对点交易加密货币 需通过持牌交易所购买" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127473.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 20 Oct 2026 07:30:59 +0000</pubDate></item><item><title>[教程] 启用Windows 11新版右键菜单 可自定义菜单命令以及缩短响应时间等</title><link>https://www.landian.news/archives/127487.html</link><description>
+&lt;p&gt;# 指南 Windows 11 新版右键菜单已推送到发布预览版，可以自定义显示菜单和提高响应速度，预计很快就会推送到正式版。如果你使用的是 Windows 11 发布预览版，可以通过 ViveTool 开启实验性选项提前体验。使用正式版的用户请耐心等待，没必要为这个功能去安装发布预览版。查看全文：https://ourl.co/127487&lt;/p&gt;&lt;p&gt;微软正在 Windows 11 文件资源管理器测试新版右键菜单，此次更新重点是缩短打开等待时间以及让用户可以自定义决定显示哪些菜单，将不常用的某些鸡肋菜单彻底隐藏以简化。&lt;/p&gt;
+&lt;p&gt;目前新版菜单可以通过 ViveTool 工具开启，适用版本目前为 Windows Insider Release Preview 通道，使用 Windows 11 正式版的用户请耐心等待，预计新版菜单很快就会推送给正式版用户。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127487-2.png" rel="nofollow"&gt;&lt;img alt="[教程] 启用Windows 11新版右键菜单 可自定义菜单命令以及缩短响应时间等" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127487-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127487-3.png" rel="nofollow"&gt;&lt;img alt="[教程] 启用Windows 11新版右键菜单 可自定义菜单命令以及缩短响应时间等" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127487-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127487-4.png" rel="nofollow"&gt;&lt;img alt="[教程] 启用Windows 11新版右键菜单 可自定义菜单命令以及缩短响应时间等" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127487-4.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;从 2027 年 7 月 1 日起，俄罗斯居民必须通过数字货币市场组织者进行交易，或直接与组织者进行交易，这些组织者需要先向俄罗斯央行申请证券市场经纪商牌照或申请数字货币交易组织相关许可。&lt;/p&gt;
-&lt;p&gt;如此政策可以确保俄罗斯居民购买加密货币时资金都通过持牌机构流转，这样整个交易体系都是透明的且受监管，如果未来要进行收税的话也非常方便，当然受监管也意味着可以打击非法交易。&lt;/p&gt;
-&lt;p&gt;不过法律规定禁止个人点对点交易，但链上交易本身比较难以追踪，所以现实中可能还会有人继续通过点对点交易以逃避监管，但如果被发现的话可能会面临各类处罚。&lt;/p&gt;
+&lt;p&gt;新版菜单底部会出现自定义入口，点击后可以转到设置、个性化、上下文菜单位置。用户可以在这里调整诸如发送到、创建快捷方式、打印等命令，也可以选择应用扩展显示在主菜单还是子菜单、或者直接隐藏子菜单。&lt;/p&gt;
+&lt;p&gt;剪切、复制、粘贴、重命名、删除和分享等日常操作也提供新的布局选项，可以将这些命令直接列在菜单中，而不是沿用顶部图标，属性则可以移动到菜单底部。微软希望借此减少默认菜单中的拥挤项目，同时让用户保留熟悉的操作顺序。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127487-5.png" rel="nofollow"&gt;&lt;img alt="[教程] 启用Windows 11新版右键菜单 可自定义菜单命令以及缩短响应时间等" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127487-5.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127487-6.png" rel="nofollow"&gt;&lt;img alt="[教程] 启用Windows 11新版右键菜单 可自定义菜单命令以及缩短响应时间等" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127487-6.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127487-7.png" rel="nofollow"&gt;&lt;img alt="[教程] 启用Windows 11新版右键菜单 可自定义菜单命令以及缩短响应时间等" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127487-7.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;俄罗斯央行公布的监管制度还设置个人投资者的准入条件，其中非合格投资者通过测试后可以经单一经纪商购买许可范围内的主流数字货币，每年额度不超过 30 万卢布约合人民币 2.4 万元。&lt;/p&gt;
-&lt;p&gt;另外个人不能从数字账户向本人控制的非托管钱包 (例如去中心化的软件或硬件钱包) 转账加密货币，通过数字存托机构管理的地址在个人之间转账也不被允许。&lt;/p&gt;
-&lt;p&gt;所以后续这些加密货币原则上买卖和存储都被监管，这也意味着如果账户存在异常那这些加密货币也能被冻结。这对很多加密货币支持者来说是个坏消息，这些支持者更希望将加密货币存储在自己控制的钱包内。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127487-1.png" rel="nofollow"&gt;&lt;img alt="[教程] 启用Windows 11新版右键菜单 可自定义菜单命令以及缩短响应时间等" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127487-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;1. 检查系统版本，确保为 Windows 11 Build 26300.9711 或更高版本 (当前为发布预览版)&lt;/p&gt;
+&lt;p&gt;2. 下载 ViveTool：&lt;a href="https://www.landian.news/archives/94547.html" rel="noopener" target="_blank"&gt;[图文教程] Windows 11 开发版必备神器 ViveTool 到底怎么用？其实很简单 &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;3. 依次执行如下命令，执行后重启系统，如果菜单没有变化，则每条命令执行后都重启 1 次系统&lt;/p&gt;
+&lt;pre&gt;.\vivetool.exe /enable /id:60813048
+
+.\vivetool.exe /enable /id:49453572,60813048
+
+.\vivetool.exe /enable /id:49453572,60813048,61934903&lt;/pre&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 19 Oct 2026 07:00:41 +0000</pubDate></item><item><title>微软将在12月为Microsoft Edge推出水印保护功能 查看敏感内容时屏幕显示水印</title><link>https://www.landian.news/archives/127472.html</link><description>
-&lt;p&gt;#软件资讯 微软在 Microsoft Edge 浏览器中添加水印保护机制，当 IT 管理员配置后，打开特定内容时会全屏显示水印。该水印为可见水印并非盲水印，水印会显示用户名和时间戳并提醒用户这是机密内容不要分享。目前水印机制正在预览，在 12 月份会推送给所有企业用户。查看全文：https://ourl.co/127472&lt;/p&gt;&lt;p&gt;据微软发布的公告，微软计划从 2026 年 12 月开始向企业用户推出 Microsoft Edge 浏览器水印保护功能，当浏览器打开符合条件的敏感内容时，页面会持续叠加可见的水印并显示查看者用户名、时间戳和保密提示，帮助企业提醒员工谨慎处理资料，也为泄露调查提供线索。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127472.png" rel="nofollow"&gt;&lt;img alt="微软将在12月为Microsoft Edge推出水印保护功能 查看敏感内容时屏幕显示水印" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127472.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 20 Oct 2026 07:00:36 +0000</pubDate></item><item><title>TP-Link(联洲国际)签署意向书将在美国本土组装路由器 理论上说可以绕过FCC限制</title><link>https://www.landian.news/archives/127486.html</link><description>
+&lt;p&gt;#行业资讯 TP-Link 联洲国际公司在美国签署组装意向书，将在美国本土投产 WiFi 8 路由器绕过 FCC 限制。此前 FCC 规定外国生产的路由器禁止进入美国市场销售，除非获得美国国防部或国土安全部批准。这个规定其实主要针对的就是普联，普联在美国消费级路由市场份额非常高。没想到普联并未放弃美国市场，而是通过联洲国际与当地制造商合作，不过具体还需要 FCC 批准。查看全文：https://ourl.co/127486&lt;/p&gt;&lt;p&gt;据联洲国际发布的公告，TP-Link 已与美国电子设备制造商 Key Tronic 签署意向书，双方计划在美国密西西比州科林斯市组装路由器。其中 WiFi 8 家用网络产品将成为首批产品，双方预计最早于 2027 年启动组装，不过具体时间还需要等待美国监管机构批准。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127486.png" rel="nofollow"&gt;&lt;img alt="TP-Link(联洲国际)签署意向书将在美国本土组装路由器 理论上说可以绕过FCC限制" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127486.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;水印机制由 Microsoft Edge 浏览器原生渲染，用户无法移除水印或修改水印内容，默认提示为「机密 --- 禁止分享」，同时显示查看文档的用户名和时间戳，而且至少初期 IT 管理员也不能自定义水印文本和位置。&lt;/p&gt;
-&lt;p&gt;该功能支持普通标签页、分屏标签页、弹出式窗口和应用窗口，也适用于使用 Microsoft Edge 打开的本地 PDF、MIP 标签 PDF、阅读模式、打印和截图内容。水印本身不会禁止截图和拍照，但会出现在受支持的截图和打印内容中。&lt;/p&gt;
+&lt;p&gt;目前 TP-Link 在中国大陆市场主要是深圳普联公司，而在国际市场则由联洲国际 (TP-Link System Inc.) 运营。此前美国联邦通信委员会对海外生产的消费级路由器实施新的设备认证限制，除非获得美国国防部或美国国土安全部的批准，海外生产的路由器新型号将无法取得 FCC 认证。&lt;/p&gt;
+&lt;p&gt;联洲国际通过与美国本地产品制造商合作在美国境内组装路由器，理论上说这样可以绕过 FCC 的限制。不过具体情况还需要联洲国际发布后续公告，因为当前 FCC 还未审批，只有审批后才能上市销售。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;企业 IT 管理员可以通过 Microsoft Edge Management Service 门户启用功能，微软当前要求至少使用 Microsoft Edge 142 版并配置 Microsoft 365 E3/E5 许可证。水印功能即日起开始预览，IT 管理员可以切换 Targeted Release 通道以及将策略指派给用户范围。&lt;/p&gt;
-&lt;p&gt;另外水印机制只有在内容命中 Microsoft Purview 或其他数据防泄露策略且策略包含实际限制动作时才会显示，例如阻止复制、上传或打印。如果仅添加敏感度标签或只记录活动审计策略，都不会触发显示水印。&lt;/p&gt;
+&lt;p&gt;FCC 在此前发布的规定中要求消费级路由器必须在美国境内生产，在境外生产的路由器在美国销售时必须提前获得批准。而美国本土路由器制造商网件其实他们的路由器是在越南生产的，按理说网件也必须将产线搬回美国国内才对，但新规发布不久后网件就获得 FCC 批准可以继续销售进口路由器。&lt;/p&gt;
+&lt;p&gt;所以实际上 FCC 的新规就是针对普联的，普联家用路由器在美国的市场份额非常高，但没想到普联并未放弃美国市场，而是通过联洲国际与美国制造商合作，至少从目前情况来看继续在美国销售应该是可以的。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 19 Oct 2026 06:30:43 +0000</pubDate></item><item><title>苹果更新应用商店审核规则 严厉打击使用AI制作脱衣或非自愿拍摄的露骨内容</title><link>https://www.landian.news/archives/127471.html</link><description>
-&lt;p&gt;#科技资讯 苹果更新应用商店审核规则，严厉打击使用 AI 制作脱衣或其他非自愿拍摄的露骨内容。此前苹果已经禁止色情内容，能够为真实人物生成色情或露骨图像的应用也不符合商店规则。这次调整也将 AI 生成的非自愿私密影像写入内容审核责任。另外苹果将打击审核后变脸的应用，这类应用通常以普通工具上架，通过特殊方法激活后可以实现其他功能，这种做法被发现会被封禁开发者账号。查看全文：https://ourl.co/127471&lt;/p&gt;&lt;p&gt;苹果日前更新 Apple App Store 应用审核指南，明确要求相关应用主动阻止并移除未经同意的私密影像，其中包括 AI 生成的内容。新条款也针对审核后变脸的应用 (即输入特定字符后可以解锁额外功能)，隐藏或未披露功能可能导致应用被下架、开发者账号也可能会被封禁。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127471.png" rel="nofollow"&gt;&lt;img alt="苹果更新应用商店审核规则 严厉打击使用AI制作脱衣或非自愿拍摄的露骨内容" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127471.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 20 Oct 2026 06:30:00 +0000</pubDate></item><item><title>微软向更多Windows 11用户推送蓝牙改进 涉及配对、重新连接、通话和稳定性</title><link>https://www.landian.news/archives/127485.html</link><description>
+&lt;p&gt;#系统资讯 微软向更多 Windows 11 用户推送蓝牙改进，涵盖耳机配对、重新连接、通话和音频稳定性方面。微软称改进后苹果 AirPods 耳机配对体验最多可以提速 15 秒；使用耳机实体按键或触摸区域提高音量时，系统也会显示音量调整浮窗。其他改进还包括修复蓝牙音频串流时系统崩溃，提高低功耗蓝牙设备在断线重连后的播放稳定性。查看全文：https://ourl.co/127485&lt;/p&gt;&lt;p&gt;微软正在向更多 Windows 11 设备推送蓝牙更新，此次更新涵盖耳机配对、重新连接、通话和音频稳定性方面。微软称苹果 AirPods 耳机配对体验最多可以提速 15 秒，10 月更新还带来设备状态显示、音量反馈和麦克风兼容性方面的调整。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127485.png" rel="nofollow"&gt;&lt;img alt="微软向更多Windows 11用户推送蓝牙改进 涉及配对、重新连接、通话和稳定性" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127485.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;审核指南第 1.2 条涉及用户生成内容。更新后非自愿的私密影像被列入应用必须处理的内容类别，AI 生成的影像也在其中。相关应用需要采取措施阻止这类内容的出现，在发现这类内容后将其移除。而未建立充分保护或收到通知后仍未纠正违规内容的开发者，可能会因为违反开发者行为准则导致应用被下架。&lt;/p&gt;
-&lt;p&gt;苹果表示色情内容此前已经被禁止，能够为真实人物生成色情或露骨图像的应用也不符合应用商店规则。这次调整将 AI 生成的非自愿私密影像也明确写入内容审核责任，要求托管用户内容的应用在上线后也继续执行过滤和处置工作。&lt;/p&gt;
+&lt;p&gt;微软称蓝牙耳机在 Windows 11 上的配对、重新连接、音频播放和通话在改进后都会更加顺畅，其中苹果 AirPods 耳机配对体验的改进侧重于连接提速，现在 Windows 11 与 AirPods 配对连接时最多可以快 15 秒。&lt;/p&gt;
+&lt;p&gt;这项优化对应的系统版本为 Windows 11 Build 26200.8737 版，而蓝牙改进最初在 6 月份已经在推送测试，当时微软称优化后将帮助 AirPods 更快进入配对模式。在最新发布的公告中，微软称蓝牙改进正在向更多设备推送。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;新增的第 2.5.19 条禁止应用包含隐藏、休眠或未披露的功能，要求应用实际功能对用户和审核者保持清晰。若开发者在应用通过审核后再添加审核版本中没有的功能，苹果可以将该应用下架并封禁开发者账户。&lt;/p&gt;
-&lt;p&gt;这种变脸做法目前也比较多，部分应用看起来是个笔记本，但通过特殊入口输入特定字符后可以激活某些无关的功能，这类做法也是苹果严厉打击的，新增的规则旨在为苹果提供处理方法，即下架和封号。&lt;/p&gt;
-&lt;p&gt;另外苹果修改指南第 5 部分，包含人口贩运或剥削儿童内容的应用将被下架，也禁止开发者通过其他替代分发渠道发布，即禁止在支持替代商店和直连下载的市场通过公证后绕过苹果的应用商店分发。&lt;/p&gt;
+&lt;p&gt;Windows 11 的蓝牙改进还涉及耳机日常使用中的多项细节，9 月 22 日发布的 KB5124010 预览版更新改善蓝牙连接状态的显示：耳机断开后 Windows 11 对设备状态的反馈会更准确；蓝牙设备设置页面也更加稳定；系统设置中蓝牙开关与无线状态不一致的问题也得到修复。&lt;/p&gt;
+&lt;p&gt;通话期间，用户通过蓝牙耳机上的实体按键或触控区域调整音量时，Windows 11 会显示系统音量浮窗提醒用户音量变化。此次更新还改善部分经典蓝牙设备的麦克风兼容性，修复蓝牙音频串流时可能出现的系统崩溃，提高低功耗蓝牙设备在断线重连后的播放稳定性。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 19 Oct 2026 05:45:03 +0000</pubDate></item><item><title>深度求索宣布从11月1日开始DS搜索与抓取接口收费 每1,000次成功调用收费5元</title><link>https://www.landian.news/archives/127470.html</link><description>
-&lt;p&gt;#人工智能 深度求索公布 DeepSeek 搜索和抓取 API 价格，从 11 月 1 日开始每次成功调用收费 0.005 元或每 1,000 次 5 元。目前在 DSH 等工具内调用免费，直接通过 API 调用已经开始收费，而工具内调用也将从 11 月 1 日开始收费。搜索功能指的是对特定信息进行检索，无论搜索结果有多少都按 1 次计费，抓取则按提示词要求抓取多少个页面，每个抓取按 1 次计费。例如搜索总结某热点信息，可能产生多次搜索和抓取，因此单次操作就可能产生多次计费。另外抓取成功的内容处理按正常 Token 消耗计费，所以计费合计是三个部分。查看全文：https://ourl.co/127470&lt;/p&gt;&lt;p&gt;据深度求索发布的通知，从 10 月 17 日开始 DeepSeek 开放网页搜索与抓取 API，该接口暂时可以免费使用，不过最终收费计划将在 2026 年 11 月 1 日开始，到时候所有成功调用都需要按照次数支付费用，目前价格为每 1,000 次收费 5 元。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127470.png" rel="nofollow"&gt;&lt;img alt="深度求索宣布从11月1日开始DS搜索与抓取接口收费 每1,000次成功调用收费5元" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127470.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 20 Oct 2026 06:00:00 +0000</pubDate></item><item><title>傲梅备份被发现在4~7月通过更新服务器投毒 疑似攻击者通过某种方式入侵更新服务器</title><link>https://www.landian.news/archives/127484.html</link><description>
+&lt;p&gt;#安全资讯 傲梅备份工具被发现在 2026 年 4~7 月通过更新服务器投毒，攻击者疑似通过某种方式入侵更新服务器篡改配置文件。傲梅备份工具会通过 HTTPS 获取配置文件，研究发现傲梅没有对配置文件进行签名校验，而下载地址与 MD5 校验值又被放在相同的配置文件中。因此取得服务器修改权限的攻击者可以同时更换下载地址和校验值诱导客户端更新。目前傲梅回应是首席技术官已经在牵头调查，但具体情况暂时还不清楚。查看全文：https://ourl.co/127484&lt;/p&gt;&lt;p&gt;据谷歌威胁情报团队、Mandiant 以及 ManageEngine 发布的安全报告，知名备份工具傲梅备份在 2026 年 4~7 月期间通过更新服务器投毒。调查发现攻击者应该是通过某种方式篡改傲梅备份的更新和通知配置，因此当用户检查更新时会被下载和运行恶意软件。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127484.png" rel="nofollow"&gt;&lt;img alt="傲梅备份被发现在4~7月通过更新服务器投毒 疑似攻击者通过某种方式入侵更新服务器" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127484.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;搜索功能会根据查询词返回结构化网页数据，抓取 (Fetch) 则用于抓取单个网页并以 MD 格式返回页面内容。搜索与抓取接口均为独立计费，每 1,000 次成功请求均为 5 元，也就是单次成功调用收费 0.005 元。该接口使用 DS API Bearer 鉴权方式。&lt;/p&gt;
-&lt;p&gt;这类接口调用不看 Token 消耗数量或搜索返回的网页条数，搜索接口只有在 HTTP 状态码为 200 且结果列表非空时收费；抓取功能则是在返回网页正文时收费。请求失败、搜索无结果或超时等情况不收费，搜索的计数参数也不会因返回条数增加而提高价格。&lt;/p&gt;
+&lt;p&gt;傲梅备份会通过 HTTPS 获取两份远程配置文件，其中 down_html.ini 提供更新包下载地址和 MD5 校验值，而 Notifycfg.ini 则用于控制应用通知及相关内容的运行。研究发现客户端没有对配置文件进行数字签名校验，而下载地址与校验值又写在相同的配置文件中，因此取得服务器修改权限的攻击者可以同时更换下载位置和校验值。&lt;/p&gt;
+&lt;p&gt;攻击者利用傲梅备份内置的推广内容流程，将恶意压缩包下载到程序目录再通过通知机制触发。检查更新的用户只有在服务器配置被篡改的短暂时段内才会收到恶意内容，其他时间服务器返回的都是正常配置文件。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;深度求索称其自研的搜索引擎已经用于网页版和 API 端，其中搜索和抓取功能主要面向智能体和 RAG 应用提供实时网页内容，但搜索和抓取功能仅仅只是功能调用，抓取后的内容处理需要按照正常 Token 计费。&lt;/p&gt;
-&lt;p&gt;例如搜索并总结网页内容时会产生三部分费用：第一部分是搜索请求费用，第二部分是抓取网页费用 (总结某个热门信息时可能涉及到抓取多个页面)，第三部分是模型处理内容产生 Token 费用。&lt;/p&gt;
+&lt;p&gt;谷歌威胁情报团队和 ManageEngine 抓到 3 次配置篡改：5 月 28 日持续 10 分钟、7 月 16 日持续 6 分钟、7 月 20 日持续 5 分钟。研究团队认为受攻击者短时修改文件的方式影响，其他活动窗口可能无法观测到异常。不过谷歌在 11 个国家或地区发现恶意样本，涉及 IT 服务、电信和高等教育领域，但谷歌并未公布受感染设备数量。&lt;/p&gt;
+&lt;p&gt;攻击者投放的下载器名为 CROSSROAD，该下载器会建立计划任务并部署 SHINYROAD 后门程序。攻击链借用正版软件管理软件 Radmin 的组件，通过侧载恶意 DLL 运行后门。7 月 20 日的攻击活动还利用隐藏的 1 像素弹窗连接攻击者控制的 WebDAV 资源，试图诱导系统发送 NTLMv2 认证响应。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;DS 价格页将当前免费范围限定为：用户通过 DSH、Claude Code、Codex 使用 DS API 时，由服务端工具发起的搜索和抓取请求。这部分调用暂时免费，从 2026 年 11 月 1 日 0 时开始转为按次计费，&lt;strong&gt;独立调用的搜索和抓取 API 按公布的成功请求计费&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;免费期结束后，编程助手或智能体在需要查找资料、读取外部网页时，搜索和抓取都可能产生费用，例如一次搜索后抓取 3 个网页，按成功请求计算就是 0.005 元搜索费 + 0.005*3 次抓取费。&lt;/p&gt;
+&lt;p&gt;傲梅在回应谷歌威胁情报团队披露时表示，已经对服务器采取纠正措施。傲梅表示该公司首席技术官正在牵头调查，不过截至本文发布时傲梅尚未发布官方公告，也没有公布具体的调查结果。&lt;/p&gt;
+&lt;p&gt;另外如果此前设备已经被感染恶意软件，那用户必须处置，因为傲梅修复服务器问题并不能远程清除已经部署的后门程序，所以用户可能还是要依赖其他杀毒软件进行全盘扫描，必要时最好直接重装系统。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://cloud.google.com/blog/topics/threat-intelligence/investigating-ephemeral-supply-chain-tampering/" rel="noopener" target="_blank"&gt;谷歌威胁情报团队博客&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 19 Oct 2026 05:10:40 +0000</pubDate></item><item><title>强烈建议VPS用户立即备份自己的数据：内核新漏洞危害极高 多家提供商分批打补丁中</title><link>https://www.landian.news/archives/127425.html</link><description>
-&lt;p&gt;#安全资讯 强烈建议所有 VPS 服务器用户立即备份数据：CVE-2026-99999 漏洞影响范围非常广。该漏洞可能导致虚拟机逃逸，目前像是搬瓦工等提供商已经安装补丁重启宿主机，期间用户会发现小鸡短暂失联。但很难保证所有 VPS 提供商都能及时安装补丁，如果未安装补丁就有可能再次出现所有虚拟机被加密勒索的情况。所以对用户来说及时备份自己的数据才是最重要的，如果提供商没发维护公告，可以备份数据后提交工单咨询。查看全文：https://ourl.co/127425&lt;/p&gt;&lt;p&gt;上周末安全公司公布名为 PwnEscape 的新内核漏洞，该漏洞编号 CVE-2026-99999 (还是个靓号)，漏洞位于网络栈并可以实现跨越虚拟机隔离。鉴于漏洞的危害程度极高，多家 VPS 服务器提供商陆续启动紧急维护给宿主机安装补丁并重启物理服务器，所以部分用户会注意到自己的小鸡短暂失联。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127425.png" rel="nofollow"&gt;&lt;img alt="&amp;lt;b&amp;gt;强烈建议VPS用户立即备份自己的数据：内核新漏洞危害极高 多家提供商分批打补丁中&amp;lt;/b&amp;gt;" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127425.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 20 Oct 2026 05:30:00 +0000</pubDate></item><item><title>苹果在HomePod 27.2 RC版中为HomePod带来锁定控制 用于解决顶部误触导致意外操作</title><link>https://www.landian.news/archives/127483.html</link><description>
+&lt;p&gt;#手机数码 HomePod 27.2 RC 版为 HomePod 新增触控锁定选项，可以避免顶部误触引起的意外操作。如果家中有幼儿、宠物或者经常遇到误触导致意外操作，那可以在下周升级 iOS 27.2 和 HomePod 27.2 然后在家庭应用的配件设置中开启锁定控制选项，避免误触。查看全文：https://ourl.co/127483&lt;/p&gt;&lt;p&gt;苹果将在 iOS 27.2 和 HomePod 27.2 版中增加锁定控制选项，用户可以在家庭应用的 HomePod 设置中关闭顶部触控，减少误碰或设备误触导致的播放、暂停、音量调整等操作。HomePod 是苹果推出的智能音箱，顶部触控面板可以控制播放、音量和 Siri。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127483.png" rel="nofollow"&gt;&lt;img alt="苹果在HomePod 27.2 RC版中为HomePod带来锁定控制 用于解决顶部误触导致意外操作" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127483.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;该漏洞位于 Linux Kernel IPv4 网络处理代码，内核处理特定数据包时未充分检查和校验元数据，可能导致已经验证过的网络头部被后续操作改写。攻击者需要先在受影响的宿主机上的虚拟机中运行代码再发送特制网络数据包，红帽和亚马逊的安全说明列出该漏洞可能导致宿主机内存泄露、拒绝服务以及执行任意代码等后果。&lt;/p&gt;
-&lt;p&gt;安全研究员保罗斯伊贝洛在 Vercel Sandbox 挑战赛中发现该漏洞，研究团队称已经在自有的 KVM 测试环境中演示从虚拟机逃逸到宿主机，对使用虚拟化的企业来说该漏洞存在极高的风险，所以及时安装更新非常重要。&lt;/p&gt;
+&lt;p&gt;启用锁定控制选项后，HomePod 不会因为触碰顶部而播放音频或执行常规操作。对讲、计时器、闹钟、Check In 和 FaceTime 通话等功能仍然保留触控响应。对家中有幼儿、宠物或经常遇到音箱顶部误触的用户来说，这项设置可以避免意外操作。&lt;/p&gt;
+&lt;p&gt;苹果此前已经提供触控调节选项，允许用户设置触摸持续时间、忽略连续触摸或调整滑动识别方式。新增的锁定控制选项则是直接锁定大部分顶部触控操作，用户可以根据自己的实际使用情况决定是否启用该功能。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;用于修复该漏洞的 Linux Kernel 稳定版在 10 月 15 日发布，由于宿主机必须加载新内核和重启，因此很多 VPS 服务器提供商选择分批安装补丁并重启宿主机用于封堵漏洞。&lt;/p&gt;
-&lt;p&gt;目前蓝点网收集的信息显示，BandwagonHost、Hostinger、Contabo、MVPS、FreakHosting 等都已经陆续重启宿主机修复漏洞，由于宿主机重启时在上面运行的虚拟机会短暂离线，所以用户会发现自己的服务器出现短时间失联问题。&lt;/p&gt;
-&lt;p&gt;例如搬瓦工表示会重启所有物理服务器，因此所有虚拟机都会暂停；Contabo 采用分批更新并等待其使用的发行版补丁到位；UpCloud 称大多数用户预计不会受明显影响，但 GPU 服务器需要关机重启，预计中断时间是 30~60 分钟。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;鉴于部分 VPS 提供商的草台行为&lt;/strong&gt;，蓝点网在这里也强烈建议所有 VPS 用户都立即备份自己的虚拟机数据，因为很难保证所有服务器提供商都能及时安装更新，若未及时安装更新就有可能被黑客攻击，到时候所有虚拟机数据被加密将无法恢复。&lt;/p&gt;
-&lt;p&gt;另外这个漏洞影响是在宿主机层面，用户更新自己的虚拟机内核是不能解决问题的，如果用户担心那最好先备份所有数据，然后发工单给 VPS 服务器提供商咨询补丁安装计划。&lt;/p&gt;
+&lt;p&gt;这项设置需要在家庭应用中管理，使用前需将 iPhone 更新至 iOS 27.2 版，目前该版本尚未发布 (已经进入 RC 候选阶段)，HomePod 也需要更新到 27.2 版。另外锁定控制选项适用于所有 HomePod 型号，包括 2018 年发布的初代 HomePod。&lt;/p&gt;
+&lt;p&gt;iOS 27.2 和 HomePod 27.2 版预计将在下周发布，到时候有需要的用户可以升级后自行进入家庭应用、HomePod 配件设置中找到锁定控制选项。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 19 Oct 2026 04:20:41 +0000</pubDate></item><item><title>英伟达否认RTX 5090显卡停产 不过英伟达承认该显卡目前供应非常紧张</title><link>https://www.landian.news/archives/127424.html</link><description>
-&lt;p&gt;#硬件设备 英伟达回应 RTX 5090 显卡停产传闻，英伟达个人计算业务高级副总裁费舍尔称该显卡并未停产，英伟达会继续生产和供应该显卡。此前有消息称英伟达停产 RTX 5090/5090D 显卡，GB202 芯片被专供于 RTX PRO 系列显卡。费舍尔称虽然 RTX 5090 并未停产，但供应链容量确实受到限制，英伟达正在努力让该产品继续上市。查看全文：https://ourl.co/127424&lt;/p&gt;&lt;p&gt;早前国内有网友爆料称英伟达将停产 RTX 5090 显卡和中国市场的 RTX 5090D 显卡，后续 GB202 芯片会被转向英伟达的 RTX PRO 系列显卡。相关消息还称英伟达可能会以 24GB 版的 RTX 5080 显卡来填补高端游戏市场的显卡缺口。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2025/01/107428.png" rel="nofollow"&gt;&lt;img alt="英伟达否认RTX 5090显卡停产 不过英伟达承认该显卡目前供应非常紧张" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2025/01/107428.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 20 Oct 2026 05:00:00 +0000</pubDate></item><item><title>京东安全应急响应中心暂停漏洞测试与提交 任何未经授权的测试都是违规行为</title><link>https://www.landian.news/archives/127482.html</link><description>
+&lt;p&gt;#安全资讯 京东安全应急响应中心宣布暂停漏洞测试与提交，任何未经授权的测试都是违规行为。京东称近期发现多起白帽子使用 AI 工具测试时违规的情况，这对京东生产环境稳定性造成干扰。而双 11 期间访问量大，所以京东决定从 10 月 18 日到 11 月 18 日暂停授权外部测试，现在任何测试行为都没有被授权、也就是违法行为。查看全文：https://ourl.co/127482&lt;/p&gt;&lt;p&gt;据京东安全应急响应中心 JSRC 发布的公告，双 11 活动期间暂停外部授权安全测试和漏洞收录。JSRC 称近期发现多起白帽子使用 AI 工具测试时违规的情况，这对京东生产环境稳定性造成干扰。而双 11 期间业务访问量、营销活动、交易链路和后台作业都处在高峰。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127482.png" rel="nofollow"&gt;&lt;img alt="京东安全应急响应中心暂停漏洞测试与提交 任何未经授权的测试都是违规行为" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127482.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;英伟达个人计算业务高级副总裁杰夫费舍尔在接受媒体采访时表示，关于 RTX 5090 显卡停产的消息并非事实，英伟达会继续生产和供应该显卡。费舍尔称 RTX 5090 仍然是英伟达产品线的重要组成部分，但供应链容量确实受到限制，英伟达正在努力让产品继续上市。&lt;/p&gt;
-&lt;p&gt;目前英伟达美国在线商城仍然列有 RTX 5090，标价为 1999 美元，不过状态是缺货。在美国其他零售商店也基本没有现货，还有少部分零售商店直接将 RTX 5090 标记为未销售，因为无法获得库存。&lt;/p&gt;
-&lt;p&gt;至于 GB202 芯片，费舍尔在采访中并未披露芯片的具体分配情况，当然也没有透露 RTX 5090 的供货情况或零售补货时间，所以想要继续购买该显卡的用户只能寻找当前有货的商家，价格自然是非常非常高的。&lt;/p&gt;
+&lt;p&gt;在官方公告中 JSRC 称，此次暂停期限为 2026 年 10 月 18 日 0 时起至 11 月 18 日 10 时结束，范围覆盖京东所有产品、业务系统及相关资产，暂停期间也不收录相关漏洞报告。虽然公告列出的原因涉及 AI 工具测试违规，但此次暂停覆盖的是全部外部授权测试，并非仅针对 AI 辅助测试。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;JSRC 称暂停期间的任何测试行为都将按照违规测试处置，可能会被采取账号限制或封禁等措施。若测试造成系统异常、服务波动或其他后果，京东保留依法追究法律责任的权利。京东称未经授权的测试可能涉及网络安全法、网络产品安全漏洞管理规定、数据安全法和个人信息保护法等规定。&lt;/p&gt;
+&lt;p&gt;最后暂停期结束后京东将恢复正常漏洞收录，后续白帽子可以重新对京东产品进行授权外部测试并提交漏洞测试报告，所以这段时间先不要对京东产品挖洞以免出现法律问题。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 19 Oct 2026 03:48:46 +0000</pubDate></item><item><title>Linux Kernel内核开发分支准备取消AI标记要求 祖师爷也认为不应该禁止维护者使用AI</title><link>https://www.landian.news/archives/127423.html</link><description>
-&lt;p&gt;#人工智能 Linux 内核开发分支准备取消 AI 标记要求，祖师爷 Linus Torvalds 也认为不能用规则限制开发者使用 AI。在内核维护大会中，讨论通过废除补丁中的 Assisted-by 标签，因为标签不能准确反映实际情况。Linus Torvalds 认为维护者应该看开发者是否理解自己提交的代码，不能仅凭开发者用什么工具写的代码来判断贡献质量。查看全文：https://ourl.co/127423&lt;/p&gt;&lt;p&gt;Linux 内核维护者大会于 10 月 8 日就废除补丁中的 Assisted-by 标签达成共识，相关文档补丁已经在 10 月 14 日引用到文档开发分支，不过目前内核公开的 AI 辅助开发指南仍然要求维护者保留该标签。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127423.png" rel="nofollow"&gt;&lt;img alt="Linux Kernel内核开发分支准备取消AI标记要求 祖师爷也认为不应该禁止维护者使用AI" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127423.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;此前内核指南要求使用 AI 工具参与开发的补丁注明 Assisted-by 标签。撤销补丁的说明称，在 Linux 7.3-rc7 之前的 18533 个非合并变更中，约有 10% 带有该标签，而实际使用 AI 的情况更加普遍。&lt;/p&gt;
-&lt;p&gt;维护者认为漏写标签不能说明补丁没有使用 AI 工具辅助开发，对频繁使用 AI 工具的开发者来说，标签本身也难以说明 AI 具体参与了哪些工作。撤销补丁删除相关指南中的标签要求，也移除 checkpatch.pl 对该标签的特殊识别。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;内核关于 AI 生成内容的指南仍然建议提交者在补丁说明或变更记录中交代使用什么工具、哪些内容受影响以及如何测试等，维护者可以要求补充测试、加大审查力度或拒绝补丁。&lt;/p&gt;
-&lt;p&gt;提交者仍然需要自行检查代码、确认许可合规、对提交内容负责，所以取消标签不等于免除人工责任。在围绕删除标签的讨论中，祖师爷 Linus Torvalds 反对以规则禁止开发者使用 AI 工具，强调维护者应该看开发者是否理解自己提交的代码，不能仅凭用什么工具判断贡献质量。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 19 Oct 2026 03:08:56 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 20 Oct 2026 04:00:00 +0000</pubDate></item><item><title>[壁纸下载] 微软设计团队发布Windows Insider 12周年纪念壁纸 提供5套深浅色版本</title><link>https://www.landian.news/download/127520.html</link><description>#壁纸下载 微软设计团队发布 Windows Insider 12 周年纪念壁纸，分为 5 套深浅色版本合计 10 张高清图片。这些壁纸均为 4000*4000 分辨率，用户也可以根据需要自行裁剪使用。壁纸风格则是来源于 Surface 设计风格，有兴趣的用户可以下载使用。下载地址：https://ourl.co/127520</description><pubDate>Tue, 20 Oct 2026 03:30:39 +0000</pubDate></item></channel></rss>
