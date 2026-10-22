@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 22 Oct 2026 03:23:58 +0000</lastBuildDate><item><title>开发者部署平台Zeabur因频繁出现数据泄露后决定关停 自己过于草台关停也好</title><link>https://www.landian.news/archives/127577.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 22 Oct 2026 14:11:00 +0000</lastBuildDate><item><title>这家印度草台公司宣布退出CA业务 此前8张中级证书被系统和浏览器行业集体封锁</title><link>https://www.landian.news/archives/127579.html</link><description>
+&lt;p&gt;#行业资讯 感谢谷歌，谷歌对这家印度草台公司施压后，eMudhra 决定自己退出 SSL/TLS 证书业务。在 8 张中间证书被撤销后 eMudhra 决定不干这行了，eMudhra 董事会认为证书业务赚钱少现在还造成名誉问题，所以决定不再从事这行。另外谷歌决定从 10 月 27 日开始撤销 emSign ECC Root CA - G3 的信任，对任何 CA 来说根证书被撤销信任都是大事件。可以说谷歌撤销根证书的做法，也是促使 eMudhra 跑路的原因。查看全文：https://ourl.co/127579&lt;/p&gt;&lt;p&gt;印度数字信任服务提供商 eMudhra 在 10 月 22 日宣布，董事会讨论后决定自愿退出全球 SSL/TLS 证书业务。此前该公司的 8 张中间 CA 证书的私钥被发现存在严重弱随机性，浏览器和证书信任项目随后采取封锁措施。eMudhra 称退出将分阶段进行，过渡期间会继续为现有客户提供免费证书更换。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127579.png" rel="nofollow"&gt;&lt;img alt="这家印度草台公司宣布退出CA业务 此前8张中级证书被浏览器行业集体封锁" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127579.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;此前安全研究人员爆出 eMudhra 的 8 张中间证书私钥泄露，后来行业证实并非私钥不慎泄露，而是这家证书颁发机构采用的私钥生成机制存在严重问题，例如某张证书的私钥只有数字 4，这意味着任何人都只需要几百毫秒就可以找到这个私钥。&lt;/p&gt;
+&lt;p&gt;eMudhra 称该问题发生于 2025 年 4 月：当时包裹与解包步骤意外生成多组弱私钥。印度计算机应急响应小组也指出，受影响的 P-384 椭圆曲线私钥随机性不足，可以从对应公钥快速推算。&lt;/p&gt;
+&lt;p&gt;目前受影响的 8 个中间证书都已经被吊销，使用这些中间证书签发的子证书也同样无法获得信任，因此海量使用 eMudhra 证书的网站都无法正常打开，只能更换其他受信任的新证书。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; eMudhra 董事会称证书业务不赚钱还影响名声：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;eMudhra 称其全球证书业务占公司营收的 1%，公司列出的经营因素包括数据主权与合规要求增加、运营复杂度以及成本上升等，因此证书业务潜力和投资回报正在快速降低。&lt;/p&gt;
+&lt;p&gt;这次安全事件也引发全行业的关注，eMudhra 董事会讨论后认为相关舆论关注与该业务在其整体业务中的占比不相称，因此决定退出全球 SSL/TLS 证书业务，但该公司将继续运营其他数字可信业务，包括数字签名证书、eSign 电子签名服务、企业 PKI 平台、电子签名和身份认证产品。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 谷歌即将不信任 eMudhra Root CA 证书：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;让 eMudhra 决定关停证书业务还有个重要原因是谷歌施加的压力，谷歌在 CA 行业的话语权非常高，同时谷歌对 CA 行业的安全要求更高。此前谷歌已经明确表示将在 10 月 27 日从谷歌浏览器里删除对 emSign ECC Root CA - G3 证书的信任。&lt;/p&gt;
+&lt;p&gt;对 eMudhra 来说如果自己的根证书都被撤销信任那造成的后果非常严重，因为重新申请 Root CA 证书需要大量投资和时间，所以撤销中间证书不是问题，但撤销根证书就是很大的问题了。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Thu, 22 Oct 2026 14:11:00 +0000</pubDate></item><item><title>Cloudflare已监测到数百万次针对PHP漏洞的攻击 建议开发者尽快升级</title><link>https://www.landian.news/archives/127578.html</link><description>
+&lt;p&gt;#安全资讯 Cloudflare 已经监测到数百万次针对 PHP 漏洞的攻击尝试，仅靠 WAF 规则还不够，最终还是要升级 PHP。Cloudflare CEO 马修发布消息称，在漏洞披露前 10 小时，观测到数千次攻击尝试，漏洞披露 45 分钟后攻击尝试就达到数万次。现在这些攻击尝试已经超过百万次，对使用 PHP 的网站来说，最终还是要尽快升级到不受影响的版本。查看全文：https://ourl.co/127578&lt;/p&gt;&lt;p&gt;PHP 基金会在昨晚 10 点发布新版本修复 PHP2Shell 漏洞，网络服务提供商 Cloudflare 已经提前获悉漏洞并通过 WAF 规则部署缓解措施，随后 Cloudflare 开始观测到迅速增加的攻击尝试，目前观测到的攻击尝试已经超过百万次。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127578.png" rel="nofollow"&gt;&lt;img alt="Cloudflare已监测到数百万次针对PHP漏洞的攻击 建议开发者尽快升级" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127578.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; Cloudflare 提前部署 WAF 防护规则：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Cloudflare 在 10 月初开始准备规则并在漏洞公开前约 9 小时完成部署，从 10 月 21 日 03:02 UTC 开始，所有启用 Cloudflare WAF 的免费和付费网站都默认获得相关防护。&lt;/p&gt;
+&lt;p&gt;这次防护使用 Cloudflare 新推出的完整事务检测，将 HTTP 请求与服务器响应结合分析，判断请求是否呈现利用特征，以及服务器是否返回异常结果。匹配规则后 WAF 可以在响应送达请求发起者前将其拦截。这个机制能减少仅凭请求特征判断造成的误报，但无法撤销服务器在响应生成前已经执行的操作。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Cloudflare 首席执行官马修普林斯发布推文称，PHP 漏洞公开披露前 10 小时，网络上出现的攻击已经有数千次，这些攻击使用不同的变体组合进行尝试；漏洞披露 45 分钟后这些攻击尝试次数达到数万次，2 小时内达到数十万次，之后攻击尝试已经达到数百万次。&lt;/p&gt;
+&lt;p&gt;不过这只是 Cloudflare 的观测数据，全网攻击尝试可能会远高于百万级别，而且说不好这个时候已经有黑客得手，部分使用旧版 PHP 的站点已经被黑。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;需要特别说明的是即便使用 Cloudflare WAF 也必须升级 PHP，防护规则可以拦截部分攻击尝试，但黑客也在尝试海量的变体组合，所以对使用 PHP 的网站来说当前还是要升级 PHP 版本，升级到不受影响的版本后可以提高安全性，不能仅依靠 WAF 规则。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Thu, 22 Oct 2026 13:06:38 +0000</pubDate></item><item><title>开发者部署平台Zeabur因频繁出现数据泄露后决定关停 自己过于草台关停也好</title><link>https://www.landian.news/archives/127577.html</link><description>
 &lt;p&gt;#安全资讯 开发者部署平台 Zeabur 宣布将在年底关停，过于草台导致连续出现安全事件和泄露数据，关停也好。该平台在 10 月连续出现两次安全事件，Zeabur 相关凭证曾以明文保存在配置仓库中，集群接口对公网开放且凭证长期未轮换。这些事件导致 32.1 万名用户的各类信息被泄露，用户保存在 Zeabur 上的各类敏感数据也被黑客窃取。查看全文：https://ourl.co/127577&lt;/p&gt;&lt;p&gt;开发者部署平台 Zeabur 将在 2026 年 12 月底前停止共享集群和专用服务器服务，停服的主要原因是安全问题，该平台自认为已经无力继续提供良好的服务，毕竟已经连续出现数据泄露事故。&lt;/p&gt;
 &lt;p&gt;早前有攻击者读取存储在 Zeabur 数据库中的 321 万条环境变量记录和 32.18 万个账号数据，Zeabur 称这些安全事件暴露出的安全与运维问题，促使团队决定结束运营。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127676.png" rel="nofollow"&gt;&lt;img alt="开发者部署平台Zeabur因频繁出现数据泄露后决定关停 自己过于草台关停也好" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127676.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -88,28 +114,4 @@
 &lt;p&gt;分析显示恶意版 CLI 工具目标是读取并打包本机文件，随后将这些包含敏感资料的文件发送到黑客控制的服务器。至于敏感资料那就非常多了，本地发现的各类云账号凭据、SSH 密钥、开发工具配置等全部会被黑客窃取。&lt;/p&gt;
 &lt;p&gt;OVH 建议在上述时间段内下载安装过 OVH CLI 工具的用户立即清理，同时应当将本机保存的密钥视为已泄露，需要进行轮换，避免黑客使用窃取的密钥继续搜寻其他数据。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 21 Oct 2026 04:42:08 +0000</pubDate></item><item><title>PHP超高危安全漏洞预警：修复版本将在今晚10点发布</title><link>https://www.landian.news/archives/127492.html</link><description>
-&lt;p&gt;#安全资讯 PHP 发布超高危安全漏洞预警：旧版 PHP 存在远程代码执行漏洞，修复版本将在今晚 10 点发布。目前已知两个漏洞评分均为 9.2 分，涉及远程代码执行问题。建议使用 PHP 的用户关注今晚 10 点的版本更新，若暂时无法更新甚至可以考虑提前停机。查看全文：https://ourl.co/127492&lt;/p&gt;&lt;p&gt;PHP 安全团队刚刚发布紧急安全预警，该团队将在 2026 年 10 月 21 日 22:00 发布紧急安全更新用于修复两个高危安全漏洞。目前官方并未公布漏洞细节，不过从网上流传的消息来看，旧版 PHP 存在远程代码执行漏洞，只需要默认安装配置就可以触发漏洞。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127492.png" rel="nofollow"&gt;&lt;img alt="PHP超高危安全漏洞预警：修复版本将在今晚10点发布" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127492.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;PHP 安全团队中表示，当更新发布后建议所有用户立即升级到最新版本，新版本发布后受影响版本、修复版本和部分细节将会公布。官方同时声明，如果漏洞细节被提前公开或出现野外利用证据，不排除会提前发布修复版本。&lt;/p&gt;
-&lt;p&gt;目前已知漏洞编号为 CVE-2026-109618 和 109619，漏洞评分均为 9.2 分。根据修复计划，PHP 团队仅会为 PHP 8 系列提供安全更新，PHP 5.6 和 7.x 等旧版本将无法获得更新，到时候不知道是否有缓解方案。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;PHP 使用率极高，但很多网站仍然在使用已经停止支持的旧版本。网络空间观测数据显示，在 150 万个暴露的 PHP 主机中，约有 59.4% 使用的是无法获取更新的旧版 PHP。当新版本修复后核心漏洞可能很快就会被黑客挖掘出来并发起攻击。&lt;/p&gt;
-&lt;p&gt;因此接下来可能会有大量网站因为 PHP 漏洞而遭到攻击，这次事件危害性极高，建议使用 PHP 的用户关注晚上 10 点发布的版本更新，如有必要甚至可以提前停机等待更新。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 21 Oct 2026 03:41:01 +0000</pubDate></item><item><title>印度证书颁发机构eMudhra泄露8张证书私钥引起互联网地震 大量软件发布更新吊销证书</title><link>https://www.landian.news/archives/127491.html</link><description>
-&lt;p&gt;#安全资讯 印度证书颁发机构 eMudhra/emSign 泄露 8 张证书私钥引起互联网地震，大量浏览器和框架类软件发布更新封锁问题证书。这些证书使用有缺陷的私钥生成器导致字符不足，其中有张证书甚至只有 4。攻击者也可以通过穷举法获得私钥然后为任意网站签发证书用于中间人劫持，这也是浏览器和操作系统开发商都在发布紧急更新的原因。查看全文：https://ourl.co/127491&lt;/p&gt;&lt;p&gt;印度数字证书颁发机构 eMudhra /emSign 日前被安全研究人员发现泄露 8 张中间证书的私钥，这些中间证书用于签发下级证书，因此拿到私钥的攻击者可以为任意网站或服务签发证书以进行中间人劫持。&lt;/p&gt;
-&lt;p&gt;更离谱的是其中有证书的私钥竟然一个数字，正常来说私钥内容都是非常长的，没人知道这家印度公司怎么会离谱到签发只有数字 4 还没发现问题，然后还用这张中间证书为其他网站和服务签署证书。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127491.png" rel="nofollow"&gt;&lt;img alt="" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127491.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;为防止中间人劫持，目前火狐浏览器、谷歌浏览器、苹果和微软都在紧急发布更新或更新证书封锁清单，将 eMudhra 这些问题证书全部吊销，即任何通过问题证书签署的下级证书目前都不被主流浏览器信任，用户访问时会看到拦截提示。&lt;/p&gt;
-&lt;p&gt;问题在于部分软件没有提供证书吊销机制，因此只能靠发布新版本来拉黑这些证书，目前已经发布软件更新的包括 Go、NSS、Python certifi、Rust、Electron 等，建议使用这些软件的用户立即升级到最新版本。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;从目前已知消息来看这些问题证书的私钥并不是泄露，而是从签发开始就使用有缺陷的私钥生成器。谋智基金会公布的分析显示，8 个受影响的 P-384 椭圆曲线私钥对应的整数全部小于 256，实际值为 4、56、66、115、155、156、230、237。&lt;/p&gt;
-&lt;p&gt;而正常的 P-384 私钥应具有约 384 位的随机性，这些密钥却只有数个位的有效信息，因此可以通过穷举法快速找到真正的密钥。当然即便现在安全研究员没有公布私钥，但其他人也可以通过穷举法找到私钥，所以这些证书已经不具备安全性。&lt;/p&gt;
-&lt;p&gt;基于证书问题建议用户及时更新使用的浏览器，不要长期使用旧版本，部分旧版本可能无法更新吊销列表导致无法封锁旧证书，这可能会给日常访问造成严重的安全性问题。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates/" rel="noopener" target="_blank"&gt;Mozilla&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 21 Oct 2026 01:50:00 +0000</pubDate></item></channel></rss>
+</description><pubDate>Wed, 21 Oct 2026 04:42:08 +0000</pubDate></item></channel></rss>
