@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 21 Oct 2026 07:30:36 +0000</lastBuildDate><item><title>OneDrive for Mac开始预览百万级项目同步 适合开发者备份超大型仓库</title><link>https://www.landian.news/archives/127499.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 22 Oct 2026 03:23:58 +0000</lastBuildDate><item><title>开发者部署平台Zeabur因频繁出现数据泄露后决定关停 自己过于草台关停也好</title><link>https://www.landian.news/archives/127577.html</link><description>
+&lt;p&gt;#安全资讯 开发者部署平台 Zeabur 宣布将在年底关停，过于草台导致连续出现安全事件和泄露数据，关停也好。该平台在 10 月连续出现两次安全事件，Zeabur 相关凭证曾以明文保存在配置仓库中，集群接口对公网开放且凭证长期未轮换。这些事件导致 32.1 万名用户的各类信息被泄露，用户保存在 Zeabur 上的各类敏感数据也被黑客窃取。查看全文：https://ourl.co/127577&lt;/p&gt;&lt;p&gt;开发者部署平台 Zeabur 将在 2026 年 12 月底前停止共享集群和专用服务器服务，停服的主要原因是安全问题，该平台自认为已经无力继续提供良好的服务，毕竟已经连续出现数据泄露事故。&lt;/p&gt;
+&lt;p&gt;早前有攻击者读取存储在 Zeabur 数据库中的 321 万条环境变量记录和 32.18 万个账号数据，Zeabur 称这些安全事件暴露出的安全与运维问题，促使团队决定结束运营。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127676.png" rel="nofollow"&gt;&lt;img alt="开发者部署平台Zeabur因频繁出现数据泄露后决定关停 自己过于草台关停也好" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127676.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Zeabur 的初步调查报告显示，10 月 14 日到 15 日，攻击者使用其内部 AWS 密钥、集群管理令牌和 GCP 密钥，进入共享集群、部分专用服务器及内部系统。&lt;strong&gt;相关凭证曾以明文保存在配置仓库中，集群管理接口对公网开放且令牌长期有效并未轮换过。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;攻击者读取平台数据库中的 321 万条环境变量记录，以及包含电子邮箱、用户名、电话号码等信息的 32.18 万条账户记录。566 个 zSend API 密钥和 11536 个平台访问令牌也在影响范围内。&lt;/p&gt;
+&lt;p&gt;攻击者还以 root 权限登录 101 台由 Zeabur 管理的 GCP 专用服务器，在其中 50 台服务器中添加自己 (黑客的) SSH 公钥；16 份客户服务器磁盘副本被挂载到黑客创建的虚拟机。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这件事也告诉我们不要相信任何平台，很多看起来光鲜亮丽的平台其实背后都是草台班子，像是 Zeabur 这种使用明文凭证且长期不轮换凭证的行为，被黑也只是时间问题。&lt;/p&gt;
+&lt;p&gt;Zeabur 建议使用该平台的用户立即更换存放在平台上的各类 API 密钥、云凭证以及数据库密码等，而 GCP 专用服务器用户应当将主机视为已被入侵，所以需要备份数据后重建服务器。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Thu, 22 Oct 2026 03:23:58 +0000</pubDate></item><item><title>OneDrive for Mac开始预览百万级项目同步 适合开发者备份超大型仓库</title><link>https://www.landian.news/archives/127499.html</link><description>
 &lt;p&gt;#软件资讯 OneDrive for Mac 也开始预览百万级文件同步，适合开发者备份超大型仓库。目前默认双向同步的文件数量是 30 万个，现在微软开始预览 100 万个文件同步。文件数量越多同步时对机器造成的性能影响也越高，所以 OneDrive 还会主动检测机器性能，如果达不到硬件要求则继续按照 30 万上限操作。查看全文：https://ourl.co/127499&lt;/p&gt;&lt;p&gt;微软正在为 OneDrive for Mac 的同步上限从 30 万提升到每台设备、每个同步实例最多 100 万个项目。该功能早在 4 月份已经在 OneDrive for Windows 中进行公共预览，现在这项能力已经开始在 macOS 上预览。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127499.png" rel="nofollow"&gt;&lt;img alt="OneDrive for Mac开始预览百万级项目同步 适合开发者备份超大型仓库" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127499.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -32,7 +44,7 @@
 &lt;p&gt;微软还展示针对选中文字添加批注功能，这个功能适合多人同时编辑 MD 文件进行协作，体验上与大家使用 Word 协作进行批注类似，对经常使用 MD 格式的开发团队来说这也比较有用。&lt;/p&gt;
 &lt;p&gt;最后微软并未说明以上功能具体什么时候开放、支持普通用户还是仅支持企业订阅用户，不过 MD 格式编辑功能此前已经宣布，至少这个功能是支持普通用户的。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 21 Oct 2026 06:30:17 +0000</pubDate></item><item><title>谷歌浏览器现在会监视你的剪切板 发现你复制可以内容时会弹出提醒</title><link>https://www.landian.news/archives/127496.html</link><description>
+</description><pubDate>Wed, 21 Oct 2026 06:30:17 +0000</pubDate></item><item><title>谷歌浏览器现在会监视你的剪切板 发现你复制可疑内容时会弹出提醒</title><link>https://www.landian.news/archives/127496.html</link><description>
 &lt;p&gt;#软件资讯 谷歌浏览器现在可以监视你的剪切板内容，当识别到 ClickFix 等点击复制攻击时会弹出提醒。不过 Chrome 不会持续监控用户剪贴板，只有用户访问可疑网站并出现点击复制动作时，Chrome 才会将剪贴板内容发送到云端进行识别。当云端判断出用户复制的内容为高风险时，浏览器会弹出提醒建议用户不要执行。查看全文：https://ourl.co/127496&lt;/p&gt;&lt;p&gt;谷歌日前公布 Chrome 浏览器增强型安全浏览的新功能，新增功能包括检查可疑的网站弹窗、通过 Gemini AI 云端识别诈骗和针对 ClickFix 命令检测等。该功能面向主动开启增强型保护的用户，覆盖从网页风险提示到用户复制可疑命令的多个环节。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127496.png" rel="nofollow"&gt;&lt;img alt="谷歌浏览器现在会监视你的剪切板 发现你复制可以内容时会弹出提醒" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127496.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -100,19 +112,4 @@
 &lt;hr/&gt;
 &lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates/" rel="noopener" target="_blank"&gt;Mozilla&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 21 Oct 2026 01:50:00 +0000</pubDate></item><item><title>[开源软件] 在macOS上原生运行安卓应用Mac.apk 通过兼容层转换不需要虚拟机</title><link>https://www.landian.news/download/127552.html</link><description>
-&lt;p&gt;#开源软件 Mac.apk - 可以在 macOS 上原生运行安卓应用程序，通过兼容层转换运行，不需要安装完整的虚拟化环境。Mac.apk 可以将安卓应用包装为独立应用，让应用出现在程序文件夹、Dock 和切换器中。不过这种运行方式也存在安全风险，安卓应用会以当前 macOS 用户权限获得访问权，这意味着安卓应用可以读取和写入用户文件，建议用户仅安装可信应用。查看全文：https://ourl.co/127552&lt;/p&gt;&lt;p&gt;日前有开发者开源发布面向 macOS 系统的 Mac.apk 应用，该应用可以将安卓应用包装为独立的 macOS 应用，让用户可以在 macOS 上直接运行安卓应用程序，不需要安装虚拟机或其他虚拟化环境。&lt;/p&gt;
-&lt;p&gt;Mac.apk 可以将安卓应用包装为独立应用后，让应用出现在应用程序文件夹、Dock 和应用切换器中。理论上说大部分安卓应用应该都可以兼容，不过开发者自测也有部分应用存在兼容性问题。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127552.png" rel="nofollow"&gt;&lt;img alt="[开源软件] 在macOS上原生运行安卓应用Mac.apk 通过兼容层转换不需要虚拟机 " decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127552.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;安卓应用通常将 Java 或 Kotlin 代码编译为 DEX 格式，Mac.apk 会在应用首次启动时需要花费一些时间将 DEX 转换为 Java 字节码，之后交给内置的 OpenJDK 运行环境执行。转换结果会被保留供后续启动使用，因此首次启动时会花费较长时间进行转换。&lt;/p&gt;
-&lt;p&gt;安卓应用通常会调用 Activity、界面布局、存储、输入和通知等系统接口，Mac.apk 自行实现相关安卓框架，再把这些请求接到 macOS 上。图形渲染方面主要通过 OpenGL ES 进行 ANGLE 转换，Vulkan 通过 MoltenVK 衔接，最终由 macOS 的 Metal 图形接口交给 GPU 处理。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Mac.apk 支持安装 APK、APKM、XAPK、APKS、APKX 等格式的安装包，安装运行环境并设置文件关联后，用户可以双击安装包将其拖入到 Mac.apk，应用会以独立窗口运行。&lt;/p&gt;
-&lt;p&gt;系统要求是必须采用搭载苹果 M 芯片的 Mac 设备，目前不支持基于英特尔 CPU 的 Mac，macOS 版本需要 26.4 或后续版本，Mac.apk 本身已经签名和公证，所以可以直接在 macOS 上安装。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Mac.apk 采用 AGPL-3.0 许可证，个人和非商业性使用免费，但如果企业要在闭源产品中打包或提供该软件时，需要申请项目许可。&lt;/p&gt;
-&lt;p&gt;最后还有个安全提醒，Mac.apk 安装的应用以当前 macOS 用户权限运行，没有安卓手机上的应用隔离机制，这意味着安卓应用可以读取或修改属于用户本身的文件，这里存在安装隐患，建议用户只安装可信应用。&lt;/p&gt;
-&lt;p&gt;项目地址：&lt;a href="https://www.landian.news/go?url=https://github.com/kksimp/Mac.apk" rel="noopener" target="_blank"&gt;https://github.com/kksimp/Mac.apk&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 20 Oct 2026 08:30:43 +0000</pubDate></item></channel></rss>
+</description><pubDate>Wed, 21 Oct 2026 01:50:00 +0000</pubDate></item></channel></rss>
