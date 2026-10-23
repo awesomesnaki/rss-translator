@@ -1,5 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 22 Oct 2026 14:11:00 +0000</lastBuildDate><item><title>这家印度草台公司宣布退出CA业务 此前8张中级证书被系统和浏览器行业集体封锁</title><link>https://www.landian.news/archives/127579.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Fri, 23 Oct 2026 05:00:48 +0000</lastBuildDate><item><title>亚马逊AWS部署的蜜罐在PHP2Shell漏洞公布前4天就记录到攻击尝试</title><link>https://www.landian.news/archives/127585.html</link><description>
+&lt;p&gt;#安全资讯 亚马逊 AWS 部署的蜜罐在 PHP 漏洞公布前 4 天就记录到攻击尝试，目前无法确认攻击者从哪提前获得漏洞消息的。亚马逊威胁情报团队部署的诱饵服务器在 10 月 17 日记录到针对 PHP2Shell 的攻击尝试，此时距离 PHP 基金会公布漏洞还有 4 天。不过目前有网络专家认为该漏洞利用条件苛刻，真实环境中利用并不容易，但即便如此还是建议用户尽快升级到不受影响的新版本。查看全文：https://ourl.co/127585&lt;/p&gt;&lt;p&gt;亚马逊威胁情报团队发布报告称，旗下云计算服务 AWS 部署的蜜罐系统在 10 月 17 日就记录到针对 PHP2Shell 漏洞的攻击尝试，此时距离 PHP 基金会公开发布修复版本还有 4 天。这个记录来自专门观察攻击行为的诱饵服务器，AWS 无法判断相关请求能否攻破真实网站。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127585.png" rel="nofollow"&gt;&lt;img alt="亚马逊AWS部署的蜜罐在PHP2Shell漏洞公布前4天就记录到攻击尝试 " decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127585.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;亚马逊威胁情报团队称，这次攻击尝试来自商业匿名网络，攻击者为何能在漏洞公开前就获得相关信息仍是个未知数。10 月 21 日补丁发布当天，亚马逊观察到多个概念验证攻击，随后数小时还出现来自其他匿名网络的攻击尝试。&lt;/p&gt;
+&lt;p&gt;在 PHP 基金会公布漏洞并发布补丁后，亚马逊观察到的攻击尝试开始快速增加。Cloudflare 的观测数据也显示针对 PHP2Shell 的攻击尝试已经超过数百万次，当前可能还在快速增加中。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;亚马逊威胁情报团队表示，不同的攻击尝试请求使用不同的载荷和匿名网络，这表明针对漏洞的攻击尝试可能由多个不同的黑客团体参与。目前亚马逊正在进行技术分析，暂时不能确认这些攻击尝试能否在真实环境中成功。&lt;/p&gt;
+&lt;p&gt;而 PHP 基金会也对媒体表示，按照该基金会目前掌握的证据，暂时还没有针对 PHP2Shell 漏洞成功的攻击案例。此外也有部分网络安全专家称，该漏洞的利用条件比较苛刻，想要成功利用漏洞发起攻击并不容易。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;PHP2Shell 涉及 CVE-2026-109618/109619 漏洞，以上均为无需身份验证即可触发的远程代码执行漏洞，漏洞 CVSS 4.0 评分均为 9.2 分 (满分 10 分) 属于严重级别的安全漏洞。&lt;/p&gt;
+&lt;p&gt;PHP 基金会已经发布 PHP 8.5.12 版、8.4.27 版、8.3.36 版和 8.2.35 版修复漏洞，而更早的版本例如 PHP 8.1、PHP 7.x、PHP 5.x 已经停止上游维护因此不会发布安全更新。&lt;/p&gt;
+&lt;p&gt;建议使用 PHP 的用户尽快升级到不受影响的新版本，因为接下来黑客可能会利用人工智能技术辅助开发更多不同的攻击变体，说不好某些攻击变体就可能降低攻击难度形成通用型的攻击方案。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 23 Oct 2026 05:00:48 +0000</pubDate></item><item><title>任天堂Switch 2出现首个公开软件越狱 可运行自制软件/修改游戏/备份存档等</title><link>https://www.landian.news/archives/127584.html</link><description>
+&lt;p&gt;#游戏资讯 任天堂 Switch 2 出现首个公开软件越狱，可以运行自制软件、修改游戏、备份存档、访问多种外设等。这个越狱项目名为 NS2JB，项目在 Codex 协助下完成，目前实现的是软越狱，主机重启后越狱状态丢失。开发者还测试让 Codex 在越狱后为马力欧卡丁车世界添加新游戏角色，整个过程花费 1 天搞定。查看全文：https://ourl.co/127584&lt;/p&gt;&lt;p&gt;研究者萨米哈贾米德日前公布适用于任天堂 Switch 2 游戏掌机的越狱项目 NS2JB，该项目在 Codex 协助下分析主机并开发越狱。项目通过纯软件漏洞链在固件 23.0.1 上实现原生代码执行，可运行自制游戏、修改游戏、备份存档并访问多种外设。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127584.png" rel="nofollow"&gt;&lt;img alt="任天堂Switch 2出现首个公开软件越狱 可运行自制软件/修改游戏/备份存档等" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127584.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;有趣的是 NS2JB 主要利用 Switch 2 运行初代 Switch 游戏的兼容能力，以编程游戏 SmileBASIC 4 作为入口，最终取得系统文件服务模块的代码执行权限。自制软件指的是玩家或开发者自行制作、非官方发行的程序，有这类权限后开发者可以研究游戏、制作修改内容或备份存档等。&lt;/p&gt;
+&lt;p&gt;例如哈贾米德演示在马力欧卡丁车世界中添加非任天堂官方角色，所以越狱后的可玩性还是非常高的，但越狱也有技术门槛，例如需要电脑协助以及安装 SmileBASIC 4。目前任天堂已经从欧美地区商店下架该编程游戏。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;需要说明的是目前哈贾米德实现的并非永久越狱方案，当主机重启后越狱状态会丢失需要重新执行越狱操作，目前哈贾米德还未提供可以保留越狱状态的自定义固件。&lt;/p&gt;
+&lt;p&gt;哈贾米德称自己使用 Codex 协助分析主机并开发越狱，哈贾米德负责搭建测试环境让 Codex 可以向主机发送控制输入、读取画面、在主机崩溃后重新启动，整个过程花费两周。&lt;/p&gt;
+&lt;p&gt;让 Codex 独自通过浏览器漏洞完成破解的尝试没有成功，但在用户要求下马力欧卡丁车世界的角色修改就比较简单了，Codex 自主完成操作并且仅花费 1 天时间。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/" rel="noopener" target="_blank"&gt;NS2JB&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 23 Oct 2026 04:00:03 +0000</pubDate></item><item><title>密码管理器1Password推出AI智能体登录功能 智能体提交申请由用户批准后登录网站</title><link>https://www.landian.news/archives/127583.html</link><description>
+&lt;p&gt;#软件资讯 密码管理器 1Password 推出 AI 智能体登录功能，由智能体发起密码调用申请，用户授权后存储库直接填充。整个过程中智能体无法直接读取账号、密码和存储库的其他数据，该功能适合用户发起、智能体帮忙代办购物或预订等任务。首批支持的智能体包括 Meta Muse、Grok Bot、Claude Duet、ChatGPT Work/Dots 等。查看全文：https://ourl.co/127583&lt;/p&gt;&lt;p&gt;密码管理器 1Password 日前面向 AI 智能体推出名为 1Password for Agents 的新功能，该功能允许智能体在用户授权后登录网站而无需接收或保存用户的密码。这个功能主要面向需要智能体帮忙购物、预订或查询敏感信息的任务，实际登录时 1Password 会将凭证直接填充到网站，用户需要手动批准或拒绝。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127583.png" rel="nofollow"&gt;&lt;img alt="密码管理器1Password推出AI智能体登录功能 智能体提交申请由用户批准后登录网站" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127583.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;根据 1Password 的说明，智能体打开登录页面后会使用专用的数字密钥向 1Password 验证身份并说明需要哪个凭证及用途。随后用户会收到密码调用申请，用户需要逐项批准后 1Password 才会将账号密码或其他验证信息填充到网站。&lt;/p&gt;
+&lt;p&gt;整个过程智能体不能直接读取用户的账号和密码，也不能访问密码存储库，因此在安全性上更好。目前 1Password 首批智能体集成将陆续开放给部分知名的智能体，后续也将支持更多智能体调用。&lt;/p&gt;
+&lt;p&gt;首批支持的智能体包括：Meta Muse、Grok Bot、Claude Duet、ChatGPT Work、ChatGPT Dots，即将支持的智能体包括 Town Townie，其他还在开发集成的包括 Browserbase、Perplexity。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;新的智能体集成功能并非企业版专属功能，因此 1Password 个人和家庭订阅用户也可以使用，但由于某些限制，欧盟和加拿大 1Password 账户暂时不支持，各个智能体具体的开放时间、平台和功能也有所区别。&lt;/p&gt;
+&lt;p&gt;这个功能涉及的账号安全和数据安全问题，所以 1Password 也提醒用户在进行授权时，务必仔细查看任务发起者以及需要的密码和用途，只有确认是自己发起的任务时才能授权。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://1password.com/press/2026/october/1password-for-agents-trust-layer-personal-ai-agents" rel="noopener" target="_blank"&gt;1Password for Agents&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 23 Oct 2026 03:30:04 +0000</pubDate></item><item><title>日本游戏公司卡普空确认数据库泄露 涉及全球1177万条用户记录 包括各种敏感信息</title><link>https://www.landian.news/archives/127582.html</link><description>
+&lt;p&gt;#安全资讯 日本游戏公司卡普空确认数据库泄露，涉及全球 1177 万条用户记录，部分用户记录包含敏感信息。此次泄露的数据主要是账户邮箱、创建时间、登录时间、IP 地址，少量数据涉及用户生日、性别、国家或地区、昵称等。目前卡普空无法确认密码数据是否泄露，不过有 196 个账号的密码被黑客修改，目前卡普空已经主动重置这些密码。查看全文：https://ourl.co/127582&lt;/p&gt;&lt;p&gt;日本游戏公司卡普空日前确认其会员服务 CAPCOM ID 系统遭到未经授权的访问，涉及全球 1177 万条用户记录。泄露内容包括用户的邮箱地址和账户活动信息，少量账户还涉及用户生日和性别等资料。CAPCOM ID 是用于访问卡普空旗下网络服务和部分游戏的凭证。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127582.png" rel="nofollow"&gt;&lt;img alt="日本游戏公司卡普空确认数据库泄露 涉及全球1177万条用户记录 包括各种敏感信息" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127582.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;卡普空初步调查显示，遭到黑客未经授权访问的记录主要包括账户创建时间、最近登录时间、登录次数、最后登录使用的客户端 IP 地址，其中 43 条记录涉及生日、性别、国家或地区、昵称等。&lt;/p&gt;
+&lt;p&gt;卡普空称 196 个账号的登录密码被黑客修改，目前卡普空已经重置这些受影响账号的密码，但目前尚未确认用户自行设置的密码是否泄露，担心的用户可以自行重置密码。另外卡普空强调用户绑定的信用卡等支付信息未被泄露。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;卡普空在 10 月 19 日发现可疑活动并在当天确认出现未经授权的访问，随后卡普空安全团队开始封堵黑客访问。到 10 月 20 日卡普空确认部分用户数据已经被黑客获取，随后在 10 月 21 日将此次安全事件报告给执法机构以及日本个人信息保护委员会。&lt;/p&gt;
+&lt;p&gt;目前 CAPCOM ID 相关服务和游戏仍然可以正常使用，卡普空将分批通过电子邮件联系受影响的用户，卡普空也提醒用户警惕各类冒充行为，即接下来可能会有人冒充卡普空与客户联系要求提供账号密码、在钓鱼网站登录或进行其他恶意活动。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 23 Oct 2026 03:01:20 +0000</pubDate></item><item><title>趋势科技不慎将多个未修复的Linux Kernel漏洞公开 疑似发邮件时出现操作失误</title><link>https://www.landian.news/archives/127581.html</link><description>
+&lt;p&gt;#安全资讯 趋势科技旗下安全团队 ZDI 不慎将多个 Linux Kernel 未修复漏洞公开，疑似是发送邮件时不慎抄送给公开列表。报告中涉及多项内核漏洞，包括两项远程代码执行漏洞，而且漏洞尚未修复或进入主线版本。按照趋势科技原计划，这些漏洞应该在明年 2 月 18 日才公开，结果现在刚提交就公开。查看全文：https://ourl.co/127581&lt;/p&gt;&lt;p&gt;网络安全公司趋势科技旗下的零日漏洞计划 ZDI 团队日前将多份漏洞报告抄送给公开的 Linux Kernel Mailing List，其中有两项远程代码执行漏洞的评分高达 9.0 分。这里面有部分漏洞并未修复因此不应该公开，从邮件头部信息来看应该是报告发送给内核安全团队的同时不慎抄送给公开列表。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127581.png" rel="nofollow"&gt;&lt;img alt="趋势科技不慎将多个未修复的Linux Kernel漏洞公开 疑似发邮件时出现操作失误" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127581.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;公开报告中 ZDI-CAN-33549 描述 SMB Direct 整数下溢问题，该问题可能导致远程代码执行。报告中列出的触发环境需要启用 SMB Direct、RDMA 设备和可共享目录。&lt;/p&gt;
+&lt;p&gt;ZDI-CAN-33774 涉及内核 SMB 服务器 KSMBD 的竞态条件，这个漏洞也可能导致远程代码执行。ZDI-CAN-33549 和 33774 都属于远程代码执行类别的漏洞，CVSS 4.0 评分均为 9.0 (严重级别)。&lt;/p&gt;
+&lt;p&gt;其他报告涉及网络代码中的本地提权、VMware 虚拟显卡驱动的越界写入、NVMe 目标子系统的信息泄露。还有个 ConnMan 缓冲区溢出漏洞，不过这不是内核漏洞。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;ZDI 的待发布通告页将上述内核漏洞报告列为 10 月 21 日通知 Linux 内核团队、计划于 2027 年 2 月 18 日公开发布漏洞细节；ConnMan 报告对应的计划公开日期为 2027 年 2 月 16 日。&lt;/p&gt;
+&lt;p&gt;而目前相关修复尚未合并到 Linux Kernel 主线版本，可以看到这纯粹是操作失误导致漏洞被提前公开，不知道提前公开这些漏洞是否会对 Linux 生态系统造成潜在的危害。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://lore.kernel.org/all/BYAPR01MB3830472B5702C089B0BBB77D80662@BYAPR01MB3830.prod.exchangelabs.com/" rel="noopener" target="_blank"&gt;Lore Linux Kernel&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 23 Oct 2026 02:26:59 +0000</pubDate></item><item><title>浏览器公司宣布Arc浏览器将在2026年12月22日正式关停 用户需将数据迁移到其他浏览器</title><link>https://www.landian.news/archives/127580.html</link><description>
+&lt;p&gt;#软件资讯 浏览器公司宣布 Arc 浏览器将在 12 月 22 日彻底停服停用，使用该浏览器的用户需要尽快将数据导出到其他浏览器。Arc 浏览器此前已经停止更新进入维护阶段，现在浏览器公司设置了最终停运日期，到 12 月 22 日 Arc 浏览器将无法再运行。用户需要将所有数据导出到其他浏览器，到明年 1 月 22 日用户数据也将从服务器删除。查看全文：https://ourl.co/127580&lt;/p&gt;&lt;p&gt;此前浏览器公司 (The Browser Company) 公司已经停止开发 Arc 浏览器，这款浏览器在开发者用户群里非常受欢迎，不过由于整体用户量仍然不够，所以此前浏览器公司决定停止开发并转向名为 Dia 的新浏览器。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127580.png" rel="nofollow"&gt;&lt;img alt="浏览器公司宣布Arc浏览器将在2026年12月22日正式关停 用户需将数据迁移到其他浏览器" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127580.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;据浏览器公司发布的新公告，Arc 浏览器的最终停运日期已经定在 2026 年 12 月 22 日，即到期后该浏览器停止维护并结束运营，该浏览器也将无法继续使用、保存的数据则会被浏览器公司清理。&lt;/p&gt;
+&lt;p&gt;从 10 月 22 日起用户无法创建新的 Arc 浏览器账号，现有账号暂时不受影响；从 11 月 23 日起 iOS 版和安卓版的 Arc 搜索将关闭 Browser for Me 等 AI 功能、停止登录与标签同步，之后 iOS 版仍然可以作为轻量浏览器使用；安卓版会在 12 月 22 日从 Google Play Store 下架并从已经安装的设备上自动删除。&lt;/p&gt;
+&lt;p&gt;12 月 22 日当天开始 Arc 浏览器的 macOS 版和 Windows 版也将停止运行，所有账户会被立即停用，账号个人数据将在 30 天内删除，所以用户需要及时迁移自己的数据。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;浏览器公司推荐用户将数据迁移到姊妹浏览器 Dia，新版 Arc 浏览器已经新增完整数据导出选项并简化导入到 Dia 浏览器的流程。用户可以在 12 月 22 日前将所有数据导出并迁移到 Dia 或其他浏览器。&lt;/p&gt;
+&lt;p&gt;Dia 浏览器由原 Arc 团队开发，是浏览器公司目前重点投资的产品。公司称浏览器安全维护需要持续投资，相关工作在 AI 时代还会增加，因此工程团队和安全团队将集中开发 Dia 浏览器。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://arc.net/" rel="noopener" target="_blank"&gt;浏览器公司&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 23 Oct 2026 02:13:43 +0000</pubDate></item><item><title>这家印度草台公司宣布退出CA业务 此前8张中级证书被系统和浏览器行业集体封锁</title><link>https://www.landian.news/archives/127579.html</link><description>
 &lt;p&gt;#行业资讯 感谢谷歌，谷歌对这家印度草台公司施压后，eMudhra 决定自己退出 SSL/TLS 证书业务。在 8 张中间证书被撤销后 eMudhra 决定不干这行了，eMudhra 董事会认为证书业务赚钱少现在还造成名誉问题，所以决定不再从事这行。另外谷歌决定从 10 月 27 日开始撤销 emSign ECC Root CA - G3 的信任，对任何 CA 来说根证书被撤销信任都是大事件。可以说谷歌撤销根证书的做法，也是促使 eMudhra 跑路的原因。查看全文：https://ourl.co/127579&lt;/p&gt;&lt;p&gt;印度数字信任服务提供商 eMudhra 在 10 月 22 日宣布，董事会讨论后决定自愿退出全球 SSL/TLS 证书业务。此前该公司的 8 张中间 CA 证书的私钥被发现存在严重弱随机性，浏览器和证书信任项目随后采取封锁措施。eMudhra 称退出将分阶段进行，过渡期间会继续为现有客户提供免费证书更换。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127579.png" rel="nofollow"&gt;&lt;img alt="这家印度草台公司宣布退出CA业务 此前8张中级证书被浏览器行业集体封锁" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127579.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -48,70 +124,4 @@
 &lt;p&gt;这个问题还是影响开发者，很多项目自动生成的路径非常长，这在日常使用和同步时都会造成问题。现在微软为企业用户提供缩短路径长度功能，IT 管理员可以自定义文件夹名称来缩短长度，同时文件路径计算方式的更改也会减少同步错误。&lt;/p&gt;
 &lt;p&gt;不过这个功能暂时还未看到 IT 管理员或开发者们实际演示，不知道能否改进 OneDrive 的同步性能，使用 OneDrive for Business 的用户可以联系 IT 管理员咨询这个变更情况。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 21 Oct 2026 07:30:36 +0000</pubDate></item><item><title>依赖单一可用区造成的麻烦：谷歌云欧洲二区出现电力供应问题 多家银行服务受影响</title><link>https://www.landian.news/archives/127498.html</link><description>&lt;article&gt;
-&lt;p&gt;#云计算 依赖单一可用区造成的麻烦：谷歌云欧洲二区可用区 B 发生故障后影响多家银行、企业和公共机构的线上服务。此次故障在伦敦时间 10 月 20 日早 7 点，持续 8 个小时后才恢复正常。谷歌将事件描述为电力供应问题，后续谷歌将发布详细报告。查看全文：https://ourl.co/127498&lt;/p&gt;&lt;p&gt;谷歌旗下云服务 Google Cloud 在伦敦时间 10 月 20 日发生区域性中断，谷歌云欧洲二区 B 可用区受电力事件影响导致多种服务出现异常。谷歌状态页记录的中断持续 7 小时 52 分钟，这次中断导致英国多家银行和企业的线上服务受影响。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127498.png" rel="nofollow"&gt;&lt;img alt="依赖单一可用区造成的麻烦：谷歌云伦敦出现电力供应问题 多家银行服务受影响" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127498.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;故障于伦敦时间 10 月 20 日 07:08 开始并在约 15:00 结束，谷歌状态页列出 38 项服务受影响，包括云服务器、数据库、云存储、网络等多种产品。此次故障主要影响欧洲二区 B 可用区，不过其他可用区的部分服务也出现故障率升高的问题。&lt;/p&gt;
-&lt;p&gt;这次故障影响多个将服务托管在谷歌云的银行、企业和英国公共服务机构，例如汇丰银行、苏格兰银行、英国法院的视频服务都出现中断。这些企业或机构似乎都没有配置冗余，导致单一可用区故障后整个服务陆续中断。&lt;/p&gt;
-&lt;p&gt;谷歌将此次事件的发生原因描述为电力事件，即数据中心的电力供应出现问题，后续完成内部调查后谷歌会公布详细的事故分析。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;ins data-ad-client="ca-pub-8597288383599884" data-ad-format="auto" data-ad-slot="1551135873" data-full-width-responsive="true"&gt;&lt;/ins&gt;
-&lt;/p&gt;&lt;popup module-class="point-pay-module" ref="pointPayRef"&gt;&lt;point-pay-popup @close-point-pay-popup="closePointPay"&gt;&lt;/point-pay-popup&gt;&lt;/popup&gt; &lt;/article&gt;
-</description><pubDate>Wed, 21 Oct 2026 07:00:17 +0000</pubDate></item><item><title>微软演示OneDrive HTML/Markdown原位编辑 页面可以边改边看实时渲染</title><link>https://www.landian.news/archives/127497.html</link><description>
-&lt;p&gt;#软件资讯 微软演示 OneDrive HTML/Markdown 原位编辑功能，可以边看边改，即实时渲染内容。对于 HTML 文件，用户可以直接在渲染后的内容中修改，修改会实时反馈到源代码并重新渲染为修改后的内容。MD 文件不仅提供渲染编辑，还支持批注功能，即多人同时编辑 MD 文件时可以进行批注和协作。查看全文：https://ourl.co/127497&lt;/p&gt;&lt;p&gt;微软日前在举办的 OneDrive 活动中演示通过网页版编辑 HTML 和 Markdown 文件，即微软在网页版里提供实时渲染功能，用户可以修改 HTML 文件的同时直接查看渲染好的页面，不需要先将文件下载到本地再使用专门的编辑器进行修改和预览。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127497.png" rel="nofollow"&gt;&lt;img alt="" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127497.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;用户可以直接修改 HTML 文件渲染后的页面内容，即在 HTML 中编辑内容时 OneDrive 会实时修改 HTML 源代码，同时也可以将修改后的内容实时渲染出来，也支持在编辑时并排查看源代码和实时效果。&lt;/p&gt;
-&lt;p&gt;微软提供全屏查看功能，这个功能也可以用来展示内容，比如将 HTML 当成 PowerPoint 使用，在用户发现问题时也能直接修改内容，不需要编辑源代码，所以对部分用户来说这个新功能可能还是比较方便的。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;MD 是常用于 README、技术文档和 AI 智能体指令的轻量文本格式，OneDrive 的编辑器提供常规富文本工具栏，用户可以通过格式按钮编写内容，保存时仍然使用.md。&lt;/p&gt;
-&lt;p&gt;微软还展示针对选中文字添加批注功能，这个功能适合多人同时编辑 MD 文件进行协作，体验上与大家使用 Word 协作进行批注类似，对经常使用 MD 格式的开发团队来说这也比较有用。&lt;/p&gt;
-&lt;p&gt;最后微软并未说明以上功能具体什么时候开放、支持普通用户还是仅支持企业订阅用户，不过 MD 格式编辑功能此前已经宣布，至少这个功能是支持普通用户的。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 21 Oct 2026 06:30:17 +0000</pubDate></item><item><title>谷歌浏览器现在会监视你的剪切板 发现你复制可疑内容时会弹出提醒</title><link>https://www.landian.news/archives/127496.html</link><description>
-&lt;p&gt;#软件资讯 谷歌浏览器现在可以监视你的剪切板内容，当识别到 ClickFix 等点击复制攻击时会弹出提醒。不过 Chrome 不会持续监控用户剪贴板，只有用户访问可疑网站并出现点击复制动作时，Chrome 才会将剪贴板内容发送到云端进行识别。当云端判断出用户复制的内容为高风险时，浏览器会弹出提醒建议用户不要执行。查看全文：https://ourl.co/127496&lt;/p&gt;&lt;p&gt;谷歌日前公布 Chrome 浏览器增强型安全浏览的新功能，新增功能包括检查可疑的网站弹窗、通过 Gemini AI 云端识别诈骗和针对 ClickFix 命令检测等。该功能面向主动开启增强型保护的用户，覆盖从网页风险提示到用户复制可疑命令的多个环节。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127496.png" rel="nofollow"&gt;&lt;img alt="谷歌浏览器现在会监视你的剪切板 发现你复制可以内容时会弹出提醒" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127496.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;ClickFix 即所谓的点击修复骗局，这类骗局会在钓鱼网站上伪造虚假的验证码或系统故障提示，诱导用户复制可执行命令到 PowerShell 或 CMD 窗口执行。而用户实际复制的内容可能与网页显示的完全不同，由于执行过程被转移到浏览器外，常规网页下载检查流程无法对抗这类攻击。&lt;/p&gt;
-&lt;p&gt;谷歌给出的解决方案是，先识别用户是否访问低信誉度的可疑网站，如果访问可疑网站并点击复制命令，则此时谷歌浏览器会清除剪切板中的个人身份信息，然后将剪切板内容发送到云端安全浏览进行分析。&lt;/p&gt;
-&lt;p&gt;若云端安全浏览机制判定为危险命令则浏览器会弹出警告提醒用户，谷歌强调这个流程不会持续监视用户的剪切板，因此在隐私安全方面基本不需要担忧，如果用户担忧那可以关闭增强型保护。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;谷歌浏览器会根据风险判断显示两种警告，若网页出现钓鱼、恶意软件或诈骗网站的常见特征但判断置信度比较低时，谷歌浏览器会显示可疑网站弹窗。用户可以停止浏览，也可以在确认网站没问题时继续访问。&lt;/p&gt;
-&lt;p&gt;对于已经确认的恶意和高风险网站，谷歌浏览器会继续使用红色的全屏警告中断用户访问，谷歌称分级设计可以让浏览器更好地提醒有风险的网站，同时将严重拦截保留给高置信度威胁。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;此前谷歌浏览器仅支持在部分设备上使用本地 Gemini AI 模型识别诈骗网站，新版本改成云端识别机制，常见的假杀毒软件网站和伪造浏览器更新等都可以被 AI 检测出来并拦截访问。&lt;/p&gt;
-&lt;p&gt;其中安全浏览机制会综合 Gemini AI 对页面文本的分析、域名信誉度和其他安全信号作出判断，谷歌浏览器只会在网页出现较高置信度诈骗特征时才会发送页面文本。谷歌称这部分内容用于临时处理，不记录、不保留、也不会用于模型训练。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 21 Oct 2026 06:00:17 +0000</pubDate></item><item><title>漏洞报告太多精力不足 cURL宣布将低危漏洞报告改成公开处理 高危问题继续保密</title><link>https://www.landian.news/archives/127495.html</link><description>
-&lt;p&gt;#软件资讯 漏洞报告太多精力不足，开源项目 cURL 宣布将中低危漏洞报告转为公开，由社区成员帮忙审查漏洞。简单来说就是以后研究人员发现的中低危漏洞都不再通过付费奖金活动提交，而是直接在 GitHub 里提交公开议题。高危和严重级别的漏洞还可以继续通过 HackerOne 提交并进行保密。这样做的好处是维护团队压力降低，但缺点是攻击者也可以更早接触漏洞并想办法利用。查看全文：https://ourl.co/127495&lt;/p&gt;&lt;p&gt;知名开源项目 cURL 日前发布公告宣布从 2026 年 10 月 26 日开始，低危和中危漏洞报告应该直接提交到公开的 GitHub 仓库，而高危和严重级别的漏洞仍然可以通过 HackerOne 保密提交处理。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127495.png" rel="nofollow"&gt;&lt;img alt="漏洞报告太多精力不足 cURL宣布将低危漏洞报告改成公开处理 高危问题继续保密" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127495.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;cURL 项目开发者丹尼尔表示，安全研究员可以对漏洞进行预先评估，然后按照严重等级分类提交漏洞。如果研究员无法判断漏洞等级则仍然可以通过私下渠道联系，此时开发团队会评估漏洞，若确认漏洞为低危或高危则会将其转为 GitHub 公开议题。&lt;/p&gt;
-&lt;p&gt;cURL 项目使用低危、中危、高危和严重评级，丹尼尔称过去数年收到的报告中，超过 90% 被评为低危或中危漏洞，只有少部分漏洞被评为高危甚至是严重级别的漏洞。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;丹尼尔称随着漏洞报告数量持续增加，项目团队已经面临过重负担，部分 AI 辅助研究会尝试罕见的选项组合，将不太可能出现在真实应用中的异常行为报告为安全问题。这导致项目组需要挨个判断问题是否成立、是否影响现实使用、修复漏洞和发布安全公告。&lt;/p&gt;
-&lt;p&gt;公开处理中低危漏洞报告可以让更多开发者参与复核、完善修复并查找相似问题，也让发行版和用户更早看到相关信息。不过代价是漏洞细节会被提前公开，攻击者可能在修复发布前获得更多利用时间。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 21 Oct 2026 05:30:16 +0000</pubDate></item><item><title>美国政府已经将深度求索的DS模型列入禁用范围 禁止联邦民用机构使用DS模型</title><link>https://www.landian.news/archives/127494.html</link><description>
-&lt;p&gt;#人工智能 美国国土安全部发布命令禁止美国联邦机构使用深度求索的 DS 模型及使用 DS 模型开发的产品。不过理由倒是有点蹩脚，即担心数据安全问题，问题是这些机构调用的 DS 模型都是美国托管商处理的，并不是直接采购深度求索的 API。所以相关数据也都是美国托管商处理，说数据泄露给深度求索多少有些站不住脚。查看全文：https://ourl.co/127494&lt;/p&gt;&lt;p&gt;美国国土安全部 DHS 已经在 2026 年 7 月份命令美国联邦民用机构停止采购基于深度求索 DS 模型的产品，现有产品中若使用 DS 模型也必须移除。该命令也涵盖使用 DS 开发的其他产品和服务，而相关禁令早在 7 月就已经签发，不过直到现在才公开。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127494.png" rel="nofollow"&gt;&lt;img alt="美国政府已经将深度求索的DS模型列入禁用范围 禁止联邦民用机构使用DS模型" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127494.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;美国国土安全部禁用 DS 模型的主要原因就是潜在的安全和数据泄露问题，但是：DS 系列模型本身就是开源的，而美国联邦机构使用的 DS 模型都是美国托管商在自己服务器部署的，并不是直连深度求索服务器。&lt;/p&gt;
-&lt;p&gt;从这个角度来说无论产生哪些数据最终这些数据都由美国托管商处理，这些数据不可能被发送到深度求索，从这个角度来说担心数据安全问题其实是站不住脚的。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;相关禁令依据美国联邦采购供应链安全法发布，仅适用于美国联邦民用行政机构的采购和 IT 系统，相关禁用措施在命令签发后立即执行。不过机构也可以书面申请豁免，如有必要理由继续使用被禁用的产品，在提交书面申请并获得批准后可以继续使用。&lt;/p&gt;
-&lt;p&gt;另外禁令范围也延伸到使用 DS 模型开发的其他产品和服务，不过美国国土安全部并未附上受影响的清单，毕竟在开发阶段使用 DS 模型其实无法识别，除非开发商主动披露，否则美国国土安全部也不知道哪些产品使用 DS 开发。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 21 Oct 2026 04:58:03 +0000</pubDate></item><item><title>OVH CLI工具发布账号被盗 攻击者将其替换为恶意文件用于窃取信息</title><link>https://www.landian.news/archives/127493.html</link><description>
-&lt;p&gt;#安全资讯 OVH CLI 开发者账号被劫持随后发布带毒版本，带毒版本会搜寻开发者本地的各类密钥并发送给黑客。此次事件发生在 10 月 19 日 12:47~14:21 (UTC+0)，如果你在这个时间段内下载过 OVH CLI 工具则应视为中招。建议立即轮换各类密钥和凭据，避免黑客利用这些凭据继续搜寻其他敏感数据。查看全文：https://ourl.co/127493&lt;/p&gt;&lt;p&gt;网络服务供应商 OVH 日前确认其官方命令行工具的部分文件被攻击者替换，攻击者利用被盗的开发者账号在约 90 分钟内向旧版本发布恶意文件。OVH CLI 工具可以通过终端管理 OVH 服务，开发者也会用这个命令行工具自动化云资源操作等。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127493.png" rel="nofollow"&gt;&lt;img alt="OVH CLI工具发布账号被盗 攻击者将其替换为恶意文件用于窃取信息" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127493.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;黑客控制开发者账号后修改 v0.11.0~0.15.0 版的文件，此次事件发生在 10 月 19 日 12:47~14:21 (UTC+0)。OVH 称有开发者发现异常后立即报告，随后 OVH 删除包含恶意文件的版本，期间带毒版本被下载 250 次。&lt;/p&gt;
-&lt;p&gt;攻击者替换的是 GitHub Release 中已经发布的程序文件，并未修改项目源代码或构建流水线。被替换的文件带有本地构建标记，与对应版本标签及正式发布流程不符，所以有开发者下载后发现了异常情况。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;分析显示恶意版 CLI 工具目标是读取并打包本机文件，随后将这些包含敏感资料的文件发送到黑客控制的服务器。至于敏感资料那就非常多了，本地发现的各类云账号凭据、SSH 密钥、开发工具配置等全部会被黑客窃取。&lt;/p&gt;
-&lt;p&gt;OVH 建议在上述时间段内下载安装过 OVH CLI 工具的用户立即清理，同时应当将本机保存的密钥视为已泄露，需要进行轮换，避免黑客使用窃取的密钥继续搜寻其他数据。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 21 Oct 2026 04:42:08 +0000</pubDate></item></channel></rss>
+</description><pubDate>Wed, 21 Oct 2026 07:30:36 +0000</pubDate></item></channel></rss>
