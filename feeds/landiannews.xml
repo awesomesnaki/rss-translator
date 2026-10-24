@@ -1,127 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Fri, 23 Oct 2026 05:00:48 +0000</lastBuildDate><item><title>亚马逊AWS部署的蜜罐在PHP2Shell漏洞公布前4天就记录到攻击尝试</title><link>https://www.landian.news/archives/127585.html</link><description>
-&lt;p&gt;#安全资讯 亚马逊 AWS 部署的蜜罐在 PHP 漏洞公布前 4 天就记录到攻击尝试，目前无法确认攻击者从哪提前获得漏洞消息的。亚马逊威胁情报团队部署的诱饵服务器在 10 月 17 日记录到针对 PHP2Shell 的攻击尝试，此时距离 PHP 基金会公布漏洞还有 4 天。不过目前有网络专家认为该漏洞利用条件苛刻，真实环境中利用并不容易，但即便如此还是建议用户尽快升级到不受影响的新版本。查看全文：https://ourl.co/127585&lt;/p&gt;&lt;p&gt;亚马逊威胁情报团队发布报告称，旗下云计算服务 AWS 部署的蜜罐系统在 10 月 17 日就记录到针对 PHP2Shell 漏洞的攻击尝试，此时距离 PHP 基金会公开发布修复版本还有 4 天。这个记录来自专门观察攻击行为的诱饵服务器，AWS 无法判断相关请求能否攻破真实网站。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127585.png" rel="nofollow"&gt;&lt;img alt="亚马逊AWS部署的蜜罐在PHP2Shell漏洞公布前4天就记录到攻击尝试 " decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127585.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sat, 24 Oct 2026 07:30:42 +0000</lastBuildDate><item><title>苹果推出仅面向iPhone Duo的iOS 27.1版更新 用于为屏幕形态提供适配支持</title><link>https://www.landian.news/archives/127596.html</link><description>
+&lt;p&gt;#手机数码 苹果推出 iOS 27.1 版但仅面向 iPhone Duo 提供，用于为屏幕形态提供适配支持。iPhone Duo 出厂已经预装 iOS 27.1 版，不过在新机设置过程中苹果提供较新的系统构建。在开发者公告中苹果称 27.1 为 iPhone Duo 的屏幕形态提供适配支持，应用可以根据手机展开或折叠的状态调整布局。查看全文：https://ourl.co/127596&lt;/p&gt;&lt;p&gt;苹果今天推出 iOS 27.1 版更新，但这次更新仅面向苹果的折叠屏设备 iPhone Duo。苹果开发者此前表示，iPhone Duo 将预装 iOS 27.1，该版本针对折叠屏设计加入专门支持。其他兼容的 iPhone 目前仍然以 iOS 27.0.1 版为最新正式版。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127596.png" rel="nofollow"&gt;&lt;img alt="苹果推出仅面向iPhone Duo的iOS 27.1版更新 用于为屏幕形态提供适配支持" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127596.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;亚马逊威胁情报团队称，这次攻击尝试来自商业匿名网络，攻击者为何能在漏洞公开前就获得相关信息仍是个未知数。10 月 21 日补丁发布当天，亚马逊观察到多个概念验证攻击，随后数小时还出现来自其他匿名网络的攻击尝试。&lt;/p&gt;
-&lt;p&gt;在 PHP 基金会公布漏洞并发布补丁后，亚马逊观察到的攻击尝试开始快速增加。Cloudflare 的观测数据也显示针对 PHP2Shell 的攻击尝试已经超过数百万次，当前可能还在快速增加中。&lt;/p&gt;
+&lt;p&gt;iPhone Duo 上市时已经提前预装 iOS 27.1 版，不过苹果在新机设置过程中提供较新版本的系统构建，这个新构建版本仅说明修复错误，没有列出具体的功能变化。&lt;/p&gt;
+&lt;p&gt;不过苹果开发者资料中提到，iOS 27.1 版为 iPhone Duo 的屏幕形态提供适配支持，应用可以根据手机展开或折叠的状态调整布局，使用更大的内屏空间。开发者还可以通过 iOS 27.1 SDK 适配工具栏和标签栏等界面元素。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;亚马逊威胁情报团队表示，不同的攻击尝试请求使用不同的载荷和匿名网络，这表明针对漏洞的攻击尝试可能由多个不同的黑客团体参与。目前亚马逊正在进行技术分析，暂时不能确认这些攻击尝试能否在真实环境中成功。&lt;/p&gt;
-&lt;p&gt;而 PHP 基金会也对媒体表示，按照该基金会目前掌握的证据，暂时还没有针对 PHP2Shell 漏洞成功的攻击案例。此外也有部分网络安全专家称，该漏洞的利用条件比较苛刻，想要成功利用漏洞发起攻击并不容易。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;PHP2Shell 涉及 CVE-2026-109618/109619 漏洞，以上均为无需身份验证即可触发的远程代码执行漏洞，漏洞 CVSS 4.0 评分均为 9.2 分 (满分 10 分) 属于严重级别的安全漏洞。&lt;/p&gt;
-&lt;p&gt;PHP 基金会已经发布 PHP 8.5.12 版、8.4.27 版、8.3.36 版和 8.2.35 版修复漏洞，而更早的版本例如 PHP 8.1、PHP 7.x、PHP 5.x 已经停止上游维护因此不会发布安全更新。&lt;/p&gt;
-&lt;p&gt;建议使用 PHP 的用户尽快升级到不受影响的新版本，因为接下来黑客可能会利用人工智能技术辅助开发更多不同的攻击变体，说不好某些攻击变体就可能降低攻击难度形成通用型的攻击方案。&lt;/p&gt;
+&lt;p&gt;苹果安全更新页面将 iOS 27.1 的适配设备列为 iPhone Duo，iPhone 11 及后续机型的最新正式版则是 iOS 27.0.1 版，也就是说这次发布并没有为现有 iPhone 用户开放一个常规的 iOS 27.1 更新。&lt;/p&gt;
+&lt;p&gt;苹果目前已经向开发者提供 iOS 27.2 RC 候选版本，该版本也支持 iPhone Duo 机型，未来苹果发布的新版本应该会让常规机型和 iPhone Duo 使用相同的版本基线。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 23 Oct 2026 05:00:48 +0000</pubDate></item><item><title>任天堂Switch 2出现首个公开软件越狱 可运行自制软件/修改游戏/备份存档等</title><link>https://www.landian.news/archives/127584.html</link><description>
-&lt;p&gt;#游戏资讯 任天堂 Switch 2 出现首个公开软件越狱，可以运行自制软件、修改游戏、备份存档、访问多种外设等。这个越狱项目名为 NS2JB，项目在 Codex 协助下完成，目前实现的是软越狱，主机重启后越狱状态丢失。开发者还测试让 Codex 在越狱后为马力欧卡丁车世界添加新游戏角色，整个过程花费 1 天搞定。查看全文：https://ourl.co/127584&lt;/p&gt;&lt;p&gt;研究者萨米哈贾米德日前公布适用于任天堂 Switch 2 游戏掌机的越狱项目 NS2JB，该项目在 Codex 协助下分析主机并开发越狱。项目通过纯软件漏洞链在固件 23.0.1 上实现原生代码执行，可运行自制游戏、修改游戏、备份存档并访问多种外设。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127584.png" rel="nofollow"&gt;&lt;img alt="任天堂Switch 2出现首个公开软件越狱 可运行自制软件/修改游戏/备份存档等" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127584.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sat, 24 Oct 2026 07:30:42 +0000</pubDate></item><item><title>AV2视频编码开始推进：YouTube计划在2027年初在网页版使用AV2视频编码</title><link>https://www.landian.news/archives/127595.html</link><description>
+&lt;p&gt;#行业资讯 AV2 视频编解码器标准开始推进：YouTube 计划在明年年初通过网页端提供基于 AV2 编码的视频。AV2 编解码标准目标是在相同带宽下提供更好的画质，或以更低的带宽维持相近的画质。YouTube 已经计划从明年年初开始部署 AV2，其他平台还在评估阶段。需要说明的是并非所有硬件都支持 AV2 硬解，在不支持硬解的情况下使用软解功耗会更高。查看全文：https://ourl.co/127595&lt;/p&gt;&lt;p&gt;开放媒体联盟 AOMedia 日前发文称，AV2 视频编解码格式正在从标准制定进入浏览器和流媒体平台的测试阶段。此前谷歌已经展示在谷歌浏览器中播放 AV2 视频的能力，而谷歌旗下视频网站 YouTube 则计划在 2027 年初在网页端提供 AV2 视频。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127595.png" rel="nofollow"&gt;&lt;img alt="AV2视频编码开始推进：YouTube计划在2027年初在网页版使用AV2视频编码" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127595.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;有趣的是 NS2JB 主要利用 Switch 2 运行初代 Switch 游戏的兼容能力，以编程游戏 SmileBASIC 4 作为入口，最终取得系统文件服务模块的代码执行权限。自制软件指的是玩家或开发者自行制作、非官方发行的程序，有这类权限后开发者可以研究游戏、制作修改内容或备份存档等。&lt;/p&gt;
-&lt;p&gt;例如哈贾米德演示在马力欧卡丁车世界中添加非任天堂官方角色，所以越狱后的可玩性还是非常高的，但越狱也有技术门槛，例如需要电脑协助以及安装 SmileBASIC 4。目前任天堂已经从欧美地区商店下架该编程游戏。&lt;/p&gt;
+&lt;p&gt;AV2 是开放媒体联盟制定的开放视频编码标准，也是 AV1 编解码器的后继者。视频编码器负责压缩视频以降低存储和传输所需的数据量，播放设备或软件再通过解码器还原画面。&lt;/p&gt;
+&lt;p&gt;开放媒体联盟称，AV2 的压缩效率较 AV1 提升 30%，这个新编解码器的目标是在相同带宽下提供更好的画质，或者以更低的带宽维持相近的画质。&lt;/p&gt;
+&lt;p&gt;AV2 还支持多路视频和多视觉内容，针对实时通信、沉浸式媒体、高帧率和 HDR 等场景进行扩展。这些功能可以用于多画面直播、视频会议和沉浸式影像，应用规范为不只是视频点播。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; YouTube 已经给出时间目标，其他平台仍在评估中：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;谷歌旗下视频网站 YouTube 已经确认将在 2027 年初在网页端推出基于 AV2 编码的视频，到时候用户使用受支持的浏览器和设备就可以通过 AV2 编码进行播放。&lt;/p&gt;
+&lt;p&gt;需要注意的是并非所有硬件都内置 AV2 硬件解码器(在本文发布时，所有主流消费级硬件都不支持 AV2 硬件解码)，在不支持硬件解码的情况下将使用软件解码，软件解码的性能要明显差于硬件解码，并且整体功耗可能也会增加。&lt;/p&gt;
+&lt;p&gt;其他媒体平台包括奈飞和 Amazon Prime Video 对 AV2 的支持还在评估阶段，这些平台完成评估后可能会陆续在不同的终端提供基于 AV2 编码的视频。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sat, 24 Oct 2026 07:00:41 +0000</pubDate></item><item><title>腾讯云1024程序员节推出服务器秒杀 3年版服务器低至438元</title><link>https://www.landian.news/archives/127597.html</link><description>腾讯云轻量应用服务器团队在 1024 程序员节上推出秒杀活动，此次活动推出多款折扣服务器，包括 3 款 3 年 […]</description><pubDate>Sat, 24 Oct 2026 06:31:24 +0000</pubDate></item><item><title>开源办公软件开发商文档基金会重提微软OOXML争议 指控微软操纵ISO标准化流程</title><link>https://www.landian.news/archives/127594.html</link><description>
+&lt;p&gt;#行业资讯 开源办公软件 LibreOffice 开发商文档基金会重提微软 OOXML 争议，指控微软在 2008 年时操纵 ISO 国际标准流程。文档基金会经常发文批评微软故意使用难以兼容的格式来提高竞争力，即削弱竞争对手的兼容性将用户锁在 Microsoft Office 生态系统内。文档基金会称微软在 OOXML 申请国际化标准时操纵审核流程，最终让 OOXML 成为 ISO/IEC 29500 系列标准。查看全文：https://ourl.co/127594&lt;/p&gt;&lt;p&gt;开源办公软件 LibreOffice 开发商文档基金会日前发文回顾微软 OOXML 格式在 2006~2008 年间申请成为国际标准的过程，指控微软利用快速通道和各国标准委员会的程序推动 OOXML 成为国际化标准。&lt;/p&gt;
+&lt;p&gt;OOXML 最终也确实成为 ISO/IEC 29500 标准，围绕标准申请流程是否受不正当影响，文档基金会提出自己的判断和历史材料，而相关争议在当年也曾引发多方质疑。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127594.png" rel="nofollow"&gt;&lt;img alt="开源办公软件开发商文档基金会重提微软OOXML争议 指控微软操纵ISO标准化流程" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127594.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;需要说明的是目前哈贾米德实现的并非永久越狱方案，当主机重启后越狱状态会丢失需要重新执行越狱操作，目前哈贾米德还未提供可以保留越狱状态的自定义固件。&lt;/p&gt;
-&lt;p&gt;哈贾米德称自己使用 Codex 协助分析主机并开发越狱，哈贾米德负责搭建测试环境让 Codex 可以向主机发送控制输入、读取画面、在主机崩溃后重新启动，整个过程花费两周。&lt;/p&gt;
-&lt;p&gt;让 Codex 独自通过浏览器漏洞完成破解的尝试没有成功，但在用户要求下马力欧卡丁车世界的角色修改就比较简单了，Codex 自主完成操作并且仅花费 1 天时间。&lt;/p&gt;
+&lt;p&gt;开放文档格式 ODF 由 OASIS 推动并在 2006 年成为 ISO/IEC 26300 标准，OOXML 则由微软提出并在 2006 年成为 ECMA-376 标准，随后通过 ISO/IEC JTC 1 的快速通道申请国际标准认证。&lt;/p&gt;
+&lt;p&gt;两种文档格式都用于文字处理、表格和演示文档，其中 ODF 是 LibreOffice 的原生格式，OOXML 则是 Microsoft Office 系列办公软件常用的 DOCX/XLSX/PPTX 文件格式背后的标准。&lt;/p&gt;
+&lt;p&gt;文档基金会指出，OOXML 提交给 ISO 审查的规范约有 6000 页，却采用为已有规范设计的快速流程。2007 年首轮投票并未达到通过门槛，2008 年 2 月来自 33 个国家的代表在日内瓦召开的 5 天投票意见解决会议，处理各国提交的技术意见。&lt;/p&gt;
+&lt;p&gt;ISO 官方记录将会议目标描述为解决意见、协商修改方案，而文档基金会认为会议时限和规范篇幅让各国难以充分审阅全部内容 (毕竟 6000 页想要看完是需要很长时间的)。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;文档基金会列举意大利标准委员会的成员变化：意大利委员会在数月内从 5 人增加到 80 余人，其中包括微软合作伙伴及相关公关和法律机构。同期媒体也报道过意大利委员会人数骤增、挪威等国就代表性和投票程序提出异议。&lt;/p&gt;
+&lt;p&gt;微软当时则强调，OOXML 格式获得广泛支持，ISO 收集的技术意见有助于完善规范；微软也曾将部分反对行动归因于竞争对手 IBM 公司。不过最终 OOXML 在 2008 年通过投票，ISO/IEC 在同年 11 月正式发布 29500 系列标准。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;程序受到质疑与标准最终获批是这段历史中的两个事实，文档基金会将程序受到质疑解读为微软操纵国际标准化流程，这与文档基金会长期批评 Microsoft Office 主要采用包含旧版兼容元素的 Transitional 格式的行为一致。&lt;/p&gt;
+&lt;p&gt;文档基金会认为微软的做法增加第三方软件完整实现和跨软件交换文档的难度，文档基金会经常发文抨击微软故意使用难以兼容的格式来提高竞争力，即削弱竞争对手的兼容性将用户锁在 Microsoft Office 生态系统内。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/113046.html" title="文档基金会(开源LibreOffice开发商)再次发文抨击微软的OOXML专有格式"&gt;&lt;h3&gt;文档基金会(开源LibreOffice开发商)再次发文抨击微软的OOXML专有格式&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#行业资讯 文档基金会 (LibreOffice 开发商) 再次发文抨击微软，称微软的 OOXML 文档格式极其荒谬，Excel 甚至都不能很好…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/tech"&gt;科技资讯&lt;/a&gt;, &lt;a href="https://www.landian.news/tech/industry"&gt;行业资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2026年5月22日 10:00&lt;/span&gt;&lt;span title="浏览数量"&gt;11.25K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
 &lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/" rel="noopener" target="_blank"&gt;NS2JB&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://blog.documentfoundation.org/blog/2026/10/23/the-history-of-ooxml-format/" rel="noopener" target="_blank"&gt;文档基金会 OOXML 标准化过程回顾&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 23 Oct 2026 04:00:03 +0000</pubDate></item><item><title>密码管理器1Password推出AI智能体登录功能 智能体提交申请由用户批准后登录网站</title><link>https://www.landian.news/archives/127583.html</link><description>
-&lt;p&gt;#软件资讯 密码管理器 1Password 推出 AI 智能体登录功能，由智能体发起密码调用申请，用户授权后存储库直接填充。整个过程中智能体无法直接读取账号、密码和存储库的其他数据，该功能适合用户发起、智能体帮忙代办购物或预订等任务。首批支持的智能体包括 Meta Muse、Grok Bot、Claude Duet、ChatGPT Work/Dots 等。查看全文：https://ourl.co/127583&lt;/p&gt;&lt;p&gt;密码管理器 1Password 日前面向 AI 智能体推出名为 1Password for Agents 的新功能，该功能允许智能体在用户授权后登录网站而无需接收或保存用户的密码。这个功能主要面向需要智能体帮忙购物、预订或查询敏感信息的任务，实际登录时 1Password 会将凭证直接填充到网站，用户需要手动批准或拒绝。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127583.png" rel="nofollow"&gt;&lt;img alt="密码管理器1Password推出AI智能体登录功能 智能体提交申请由用户批准后登录网站" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127583.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sat, 24 Oct 2026 06:30:39 +0000</pubDate></item><item><title>Brotli数据压缩格式漏洞波及多种HTTP软件 安全公司称之为HTTP2Shell系列问题</title><link>https://www.landian.news/archives/127592.html</link><description>
+&lt;p&gt;#安全资讯 安全公司报告 Brotli 数据压缩格式中的解码器漏洞，波及多种 HTTP 软件，安全公司将其称为 HTTP2Shell 漏洞。攻击者利用特制数据可以触发解码器异常区块切换，极端情况下可以引起远程代码执行。目前 Node.js、Python、Bun 以及 Brotli 上游都已经发布新版本进行修复。查看全文：https://ourl.co/127592&lt;/p&gt;&lt;p&gt;网络安全公司 Aikido Security 日前发布报告称，原先被称为 Node2Shell 的安全漏洞影响范围已经扩展到更多使用 Brotli 解压的 HTTP 软件，这家安全公司将其称为 HTTP2Shell 问题。&lt;/p&gt;
+&lt;p&gt;需要说明的是这个问题本身仍然是 Brotli 解码器漏洞并非新的 CVE，只是漏洞影响范围非常大，安全公司希望为这个问题设置专门的命名提高行业关注和推动软件更新进行修复。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127592.png" rel="nofollow"&gt;&lt;img alt="Brotli数据压缩格式漏洞波及多种HTTP软件 安全公司称之为HTTP2Shell系列问题" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127592.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;根据 1Password 的说明，智能体打开登录页面后会使用专用的数字密钥向 1Password 验证身份并说明需要哪个凭证及用途。随后用户会收到密码调用申请，用户需要逐项批准后 1Password 才会将账号密码或其他验证信息填充到网站。&lt;/p&gt;
-&lt;p&gt;整个过程智能体不能直接读取用户的账号和密码，也不能访问密码存储库，因此在安全性上更好。目前 1Password 首批智能体集成将陆续开放给部分知名的智能体，后续也将支持更多智能体调用。&lt;/p&gt;
-&lt;p&gt;首批支持的智能体包括：Meta Muse、Grok Bot、Claude Duet、ChatGPT Work、ChatGPT Dots，即将支持的智能体包括 Town Townie，其他还在开发集成的包括 Browserbase、Perplexity。&lt;/p&gt;
+&lt;p&gt;Brotli 是谷歌开发的数据压缩格式并且常用于网页和 API 流量，此次出现的漏洞位于 Brotli 解码器：特制压缩数据可能触发异常的区块切换，让解码器错误处理输入并发生越界写入进而造成进程崩溃、内存信息泄露或在特定条件下执行攻击者代码。&lt;/p&gt;
+&lt;p&gt;因此使用 HTTP 本身不会自动触发漏洞，关键条件是软件运行着含有漏洞的 Brotli 解码器，并且还要对攻击者可以控制的数据进行解压。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;新的智能体集成功能并非企业版专属功能，因此 1Password 个人和家庭订阅用户也可以使用，但由于某些限制，欧盟和加拿大 1Password 账户暂时不支持，各个智能体具体的开放时间、平台和功能也有所区别。&lt;/p&gt;
-&lt;p&gt;这个功能涉及的账号安全和数据安全问题，所以 1Password 也提醒用户在进行授权时，务必仔细查看任务发起者以及需要的密码和用途，只有确认是自己发起的任务时才能授权。&lt;/p&gt;
+&lt;p&gt;Node.js 官方已经为 22.x、24.x 和 26.x 发布修复版本，修复版本分别为 22.23.4、24.22.1 和 26.12.1 版；Bun 在 1.4.4 版中修复相关解码器问题；Python 环境则应该将 Brotli 更新到 1.2.1 版，或将 brotlicffi 更新至 1.2.10 版。谷歌 Brotli 上游还发布 1.0.10、1.1.1 和 1.2.1 等修复版本。&lt;/p&gt;
+&lt;p&gt;这些版本属于不同的软件包和运行环境，安装其中一个更新不会自动修复其他独立安装的解码器。容器、应用依赖和系统软件包也需要分别检查，若软件提供方尚未提供更新，可以暂时关闭对应组件的 Brotli 解压功能。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Imperva 研究团队报告称，该团队在 Node.js 24.22.0 Linux ARM64 构建上，通过特制 Brotli 数据在应用测试中实现代码执行。测试覆盖请求正文解压和 Node.js fetch 解压响应两条路径，不过并非每次都能成功。&lt;/p&gt;
+&lt;p&gt;研究团队也在 Node.js 修复版本 24.22.1 上验证发现攻击已经无法奏效，所以对使用 Brotli 或使用包含 Brotli 环境的开发者来说，也需要尽快更新各类软件修复漏洞。&lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://1password.com/press/2026/october/1password-for-agents-trust-layer-personal-ai-agents" rel="noopener" target="_blank"&gt;1Password for Agents&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://www.imperva.com/blog/node2shell-from-brotli-data-to-remote-code-execution/" rel="noopener" target="_blank"&gt;Imperva&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 23 Oct 2026 03:30:04 +0000</pubDate></item><item><title>日本游戏公司卡普空确认数据库泄露 涉及全球1177万条用户记录 包括各种敏感信息</title><link>https://www.landian.news/archives/127582.html</link><description>
-&lt;p&gt;#安全资讯 日本游戏公司卡普空确认数据库泄露，涉及全球 1177 万条用户记录，部分用户记录包含敏感信息。此次泄露的数据主要是账户邮箱、创建时间、登录时间、IP 地址，少量数据涉及用户生日、性别、国家或地区、昵称等。目前卡普空无法确认密码数据是否泄露，不过有 196 个账号的密码被黑客修改，目前卡普空已经主动重置这些密码。查看全文：https://ourl.co/127582&lt;/p&gt;&lt;p&gt;日本游戏公司卡普空日前确认其会员服务 CAPCOM ID 系统遭到未经授权的访问，涉及全球 1177 万条用户记录。泄露内容包括用户的邮箱地址和账户活动信息，少量账户还涉及用户生日和性别等资料。CAPCOM ID 是用于访问卡普空旗下网络服务和部分游戏的凭证。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127582.png" rel="nofollow"&gt;&lt;img alt="日本游戏公司卡普空确认数据库泄露 涉及全球1177万条用户记录 包括各种敏感信息" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127582.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sat, 24 Oct 2026 06:00:37 +0000</pubDate></item><item><title>PHP基金会披露尚未修复的新漏洞 提供缓解方案但暂时不会发新版本修复</title><link>https://www.landian.news/archives/127591.html</link><description>
+&lt;p&gt;#安全资讯 PHP 基金会公布新漏洞，不过该漏洞触发条件比较少见所以暂时不会发布紧急版本进行修复。新漏洞编号 CVE-2026-115560，该漏洞也存在远程代码执行风险。对于受影响的部署，关闭上传进度显示功能即可，待后续发布新版本彻底修复后再重新开启。查看全文：https://ourl.co/127591&lt;/p&gt;&lt;p&gt;PHP 基金会在 10 月 24 日发布公告披露编号为 CVE-2026-115560 的远程代码执行漏洞风险，不过这个漏洞暂时不会通过发布新版本进行修复，因为漏洞需要特定配置与应用代码组合才可能触发，即危害度相对来说没有那么高。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127591.png" rel="nofollow"&gt;&lt;img alt="" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127591.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;卡普空初步调查显示，遭到黑客未经授权访问的记录主要包括账户创建时间、最近登录时间、登录次数、最后登录使用的客户端 IP 地址，其中 43 条记录涉及生日、性别、国家或地区、昵称等。&lt;/p&gt;
-&lt;p&gt;卡普空称 196 个账号的登录密码被黑客修改，目前卡普空已经重置这些受影响账号的密码，但目前尚未确认用户自行设置的密码是否泄露，担心的用户可以自行重置密码。另外卡普空强调用户绑定的信用卡等支付信息未被泄露。&lt;/p&gt;
+&lt;p&gt;根据目前已知情况，该漏洞需要同时满足多种条件后才能触发：应用配置将 &lt;code&gt;session.serialize_handler&lt;/code&gt; 设置为 &lt;code&gt;php_binary&lt;/code&gt; 或 &lt;code&gt;php_serialize&lt;/code&gt;，随后在运行时通过 &lt;code&gt;ini_set()&lt;/code&gt; 将其切换为 &lt;code&gt;php&lt;/code&gt;，在切换后调用 &lt;code&gt;session_start()&lt;/code&gt;。同时 &lt;code&gt;session.upload_progress.enabled&lt;/code&gt; 还需要处于启用状态。&lt;/p&gt;
+&lt;p&gt;session.serialize_handler 用于控制 PHP 读写会话数据时使用的序列化格式，PHP 称如果应用不在运行时切换到该处理器，可以继续使用上传进度功能。官方将这种配置组合评估为实际应用中比较少见的情况。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;卡普空在 10 月 19 日发现可疑活动并在当天确认出现未经授权的访问，随后卡普空安全团队开始封堵黑客访问。到 10 月 20 日卡普空确认部分用户数据已经被黑客获取，随后在 10 月 21 日将此次安全事件报告给执法机构以及日本个人信息保护委员会。&lt;/p&gt;
-&lt;p&gt;目前 CAPCOM ID 相关服务和游戏仍然可以正常使用，卡普空将分批通过电子邮件联系受影响的用户，卡普空也提醒用户警惕各类冒充行为，即接下来可能会有人冒充卡普空与客户联系要求提供账号密码、在钓鱼网站登录或进行其他恶意活动。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 23 Oct 2026 03:01:20 +0000</pubDate></item><item><title>趋势科技不慎将多个未修复的Linux Kernel漏洞公开 疑似发邮件时出现操作失误</title><link>https://www.landian.news/archives/127581.html</link><description>
-&lt;p&gt;#安全资讯 趋势科技旗下安全团队 ZDI 不慎将多个 Linux Kernel 未修复漏洞公开，疑似是发送邮件时不慎抄送给公开列表。报告中涉及多项内核漏洞，包括两项远程代码执行漏洞，而且漏洞尚未修复或进入主线版本。按照趋势科技原计划，这些漏洞应该在明年 2 月 18 日才公开，结果现在刚提交就公开。查看全文：https://ourl.co/127581&lt;/p&gt;&lt;p&gt;网络安全公司趋势科技旗下的零日漏洞计划 ZDI 团队日前将多份漏洞报告抄送给公开的 Linux Kernel Mailing List，其中有两项远程代码执行漏洞的评分高达 9.0 分。这里面有部分漏洞并未修复因此不应该公开，从邮件头部信息来看应该是报告发送给内核安全团队的同时不慎抄送给公开列表。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127581.png" rel="nofollow"&gt;&lt;img alt="趋势科技不慎将多个未修复的Linux Kernel漏洞公开 疑似发邮件时出现操作失误" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127581.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;公开报告中 ZDI-CAN-33549 描述 SMB Direct 整数下溢问题，该问题可能导致远程代码执行。报告中列出的触发环境需要启用 SMB Direct、RDMA 设备和可共享目录。&lt;/p&gt;
-&lt;p&gt;ZDI-CAN-33774 涉及内核 SMB 服务器 KSMBD 的竞态条件，这个漏洞也可能导致远程代码执行。ZDI-CAN-33549 和 33774 都属于远程代码执行类别的漏洞，CVSS 4.0 评分均为 9.0 (严重级别)。&lt;/p&gt;
-&lt;p&gt;其他报告涉及网络代码中的本地提权、VMware 虚拟显卡驱动的越界写入、NVMe 目标子系统的信息泄露。还有个 ConnMan 缓冲区溢出漏洞，不过这不是内核漏洞。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;ZDI 的待发布通告页将上述内核漏洞报告列为 10 月 21 日通知 Linux 内核团队、计划于 2027 年 2 月 18 日公开发布漏洞细节；ConnMan 报告对应的计划公开日期为 2027 年 2 月 16 日。&lt;/p&gt;
-&lt;p&gt;而目前相关修复尚未合并到 Linux Kernel 主线版本，可以看到这纯粹是操作失误导致漏洞被提前公开，不知道提前公开这些漏洞是否会对 Linux 生态系统造成潜在的危害。&lt;/p&gt;
+&lt;p&gt;最新漏洞与早前 PHP 发布新版本修复的 PHP2Shell 漏洞是不同的，鉴于该漏洞的触发方式比较少见，所以 PHP 基金会暂时提供缓解方案供可能受影响的开发者使用，后续将发布新版本进行彻底修复。&lt;/p&gt;
+&lt;p&gt;PHP 基金会建议受影响的用户将 &lt;code&gt;session.upload_progress.enabled&lt;/code&gt; 设置为 &lt;code&gt;0&lt;/code&gt; 并保持该设置，直到安装包含修复的常规版本，此前已经关闭上传进度功能的环境不需要重复调整。&lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://lore.kernel.org/all/BYAPR01MB3830472B5702C089B0BBB77D80662@BYAPR01MB3830.prod.exchangelabs.com/" rel="noopener" target="_blank"&gt;Lore Linux Kernel&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://www.php.net/archive/2026.php#2026-10-23-1" rel="noopener" target="_blank"&gt;PHP基金会&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 23 Oct 2026 02:26:59 +0000</pubDate></item><item><title>浏览器公司宣布Arc浏览器将在2026年12月22日正式关停 用户需将数据迁移到其他浏览器</title><link>https://www.landian.news/archives/127580.html</link><description>
-&lt;p&gt;#软件资讯 浏览器公司宣布 Arc 浏览器将在 12 月 22 日彻底停服停用，使用该浏览器的用户需要尽快将数据导出到其他浏览器。Arc 浏览器此前已经停止更新进入维护阶段，现在浏览器公司设置了最终停运日期，到 12 月 22 日 Arc 浏览器将无法再运行。用户需要将所有数据导出到其他浏览器，到明年 1 月 22 日用户数据也将从服务器删除。查看全文：https://ourl.co/127580&lt;/p&gt;&lt;p&gt;此前浏览器公司 (The Browser Company) 公司已经停止开发 Arc 浏览器，这款浏览器在开发者用户群里非常受欢迎，不过由于整体用户量仍然不够，所以此前浏览器公司决定停止开发并转向名为 Dia 的新浏览器。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127580.png" rel="nofollow"&gt;&lt;img alt="浏览器公司宣布Arc浏览器将在2026年12月22日正式关停 用户需将数据迁移到其他浏览器" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127580.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sat, 24 Oct 2026 05:30:36 +0000</pubDate></item><item><title>谷歌更新隐私政策宣布可能会根据用户邮件/相册/网盘/日历等数据投放个性化广告</title><link>https://www.landian.news/archives/127590.html</link><description>
+&lt;p&gt;#行业资讯 谷歌更新隐私政策宣布可能会读取用户邮箱、谷歌相册和谷歌云端硬盘等应用中的数据投放个性化广告。需要明确的是，广告主不能直接接触用户的数据，而是用户授权这些应用使用 AI 模式后，AI 模式可能会生成摘要、摘录和推断。谷歌会根据这些摘要等机器生成数据来投放定向广告，用户也可以在账号管理里切断已连接应用不再授权搜索服务。查看全文：https://ourl.co/127590&lt;/p&gt;&lt;p&gt;谷歌在 10 月 16 日生效的隐私政策目前引起社区关注，新版隐私政策中用户可以授权搜索等服务读取 Gmail、谷歌相册和谷歌云端硬盘中的数据用于个性化体验。而搜索服务也可能处理获准访问的信息来个性化内容，包括谷歌的在线广告服务。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127590.png" rel="nofollow"&gt;&lt;img alt="谷歌更新隐私政策宣布可能会根据用户邮件/相册/网盘/日历等数据投放个性化广告" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127590.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;据浏览器公司发布的新公告，Arc 浏览器的最终停运日期已经定在 2026 年 12 月 22 日，即到期后该浏览器停止维护并结束运营，该浏览器也将无法继续使用、保存的数据则会被浏览器公司清理。&lt;/p&gt;
-&lt;p&gt;从 10 月 22 日起用户无法创建新的 Arc 浏览器账号，现有账号暂时不受影响；从 11 月 23 日起 iOS 版和安卓版的 Arc 搜索将关闭 Browser for Me 等 AI 功能、停止登录与标签同步，之后 iOS 版仍然可以作为轻量浏览器使用；安卓版会在 12 月 22 日从 Google Play Store 下架并从已经安装的设备上自动删除。&lt;/p&gt;
-&lt;p&gt;12 月 22 日当天开始 Arc 浏览器的 macOS 版和 Windows 版也将停止运行，所有账户会被立即停用，账号个人数据将在 30 天内删除，所以用户需要及时迁移自己的数据。&lt;/p&gt;
+&lt;p&gt;谷歌的个人智能可以将邮箱、相册和云端硬盘等服务连接到 Gemini AI 或搜索服务，让 AI 模型参考邮件或照片中的信息回答问题。例如当用户咨询旅行建议时，AI 模式可以参考酒店预订邮件提供更贴合行程的推荐等。&lt;/p&gt;
+&lt;p&gt;隐私政策更新为这类跨应用数据使用明确增加广告相关条款，即广告可能会结合用户的搜索问题、AI 回答的内容、兴趣以及连接应用产生的相关信息进行个性化。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;浏览器公司推荐用户将数据迁移到姊妹浏览器 Dia，新版 Arc 浏览器已经新增完整数据导出选项并简化导入到 Dia 浏览器的流程。用户可以在 12 月 22 日前将所有数据导出并迁移到 Dia 或其他浏览器。&lt;/p&gt;
-&lt;p&gt;Dia 浏览器由原 Arc 团队开发，是浏览器公司目前重点投资的产品。公司称浏览器安全维护需要持续投资，相关工作在 AI 时代还会增加，因此工程团队和安全团队将集中开发 Dia 浏览器。&lt;/p&gt;
+&lt;p&gt;谷歌在帮助页面中表示，广告不会直接依据用户的邮件或照片库投放，但用户连接内容应用后，搜索服务可以参考中的摘要、摘录和推断来个性化用户体验，这些信息也可能用于展示广告。&lt;/p&gt;
+&lt;p&gt;广告主无法直接访问用户的邮件和任何照片内容，谷歌也不会依据用户种族、宗教、性取向或健康等敏感信息来投放定向广告。因此政策变化主要涉及用户授权后，个人内容经过搜索服务处理形成的信息可能成为广告个性化依据。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;谷歌将连接应用视为主动授权因此用户可以随时断开，连接 Gmail、日历或谷歌相册等应用后，授权范围可能覆盖多个搜索服务，包括谷歌搜索 AI 模式、谷歌发现、谷歌地图、谷歌购物、谷歌航班、谷歌酒店、谷歌翻译和谷歌新闻。&lt;/p&gt;
+&lt;p&gt;用户可以在谷歌账户的数据与隐私设置中检查个性化设置及搜索服务个性化推荐选项，查看已经连接的内容应用。在这里用户也可以主动断开相关应用的连接，不再授权谷歌使用这些数据。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sat, 24 Oct 2026 05:00:34 +0000</pubDate></item><item><title>OpenAI宣布其前沿模型训练不再连接实时互联网 避免模型再越狱发起攻击</title><link>https://www.landian.news/archives/127589.html</link><description>
+&lt;p&gt;#人工智能 OpenAI 宣布其前沿模型训练不再连接实时互联网，避免模型再利用各类缺陷逃逸到互联网后发起攻击。此次调整源于 9 月 20 日的越狱事件，当时其内部研究模型利用 DNS 配置错误获得有限的实时互联网权限。随后 OpenAI 暂停最强模型的训练与评估，在强化隔离和监控后在 10 月 1 日重新恢复训练。查看全文：https://ourl.co/127589&lt;/p&gt;&lt;p&gt;人工智能公司 OpenAI 日前发布博客宣布后续该公司的前沿模型训练将不再连接实时互联网，训练和评估过程将改用网页缓存及模拟环境。切断实时互联网访问权限的主要原因是，研发阶段的模型尚未完成安全训练，能力增强后也更可能突破限制并影响外部系统。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127589.png" rel="nofollow"&gt;&lt;img alt="OpenAI宣布其前沿模型训练不再连接实时互联网 避免模型再越狱发起攻击" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127589.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;9 月 20 日 OpenAI 内部研究模型利用 DNS 解析器的配置错误，获得有限的实时互联网访问权限。OpenAI 发现问题并在随后暂停最强模型的训练与评估，在强化隔离和监控措施后在 10 月 1 日恢复强化学习训练及内部推理。&lt;/p&gt;
+&lt;p&gt;OpenAI 称训练环境中的模型会接受对抗性测试，可能需要搜索资料、下载软件包和操作网页应用。为继续训练这些能力，OpenAI 在内部建立包含索引和缓存网页内容的离线互联网环境，供模型在不直接访问外部网站的情况下练习浏览和查找信息。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;此前 OpenAI 的模型在内部训练中出现多次安全问题，包括利用内部软件缺陷互相沟通并逃逸到互联网上发起攻击。这些安全事件表明在不受控的情况下模型可能会给真实世界造成安全问题，所以加强模型在训练过程中的安全评估至关重要。&lt;/p&gt;
+&lt;p&gt;OpenAI 希望通过这次调整切断模型实时互联网访问权限降低安全问题的发生概率，不过这仅限于内部评估环境，用户使用的已经发布的模型产品环境与之不同，这些模型可以继续实时访问互联网获取信息。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sat, 24 Oct 2026 04:30:33 +0000</pubDate></item><item><title>苹果公布iPhone Duo官方维修手册 后续将提供零件和维修工具供用户自行维修设备</title><link>https://www.landian.news/archives/127588.html</link><description>
+&lt;p&gt;#手机数码 苹果公布 iPhone Duo 官方维修手册，后续将提供零部件和维修工具供有能力的用户自行维修设备。苹果在维修手册中提到的维修项目包括：内屏、外屏、显示组件、覆盖层、电池、摄像头、主板、USB-C 接口、扬声器、麦克风、震动引擎、外壳和按键等。当然提供维修手册是法律要求，对于普通用户来说想要自行维修难度还是非常大的。查看全文：https://ourl.co/127588&lt;/p&gt;&lt;p&gt;苹果日前为其首款折叠屏设备 iPhone Duo 发布官方维修手册，涵盖多个可更换的零部件、提供电池和碎裂玻璃的安全指南等。手册提供操作步骤、内部结构图及所需的工具，供专业用户自行从苹果购买零件并租用工具进行维修。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127588.png" rel="nofollow"&gt;&lt;img alt="苹果公布iPhone Duo官方维修手册 后续将提供零件和维修工具供用户自行维修设备" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127588.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;苹果在维修手册中提到的维修项目包括：内屏、外屏、显示组件、覆盖层、电池、摄像头、主板、USB-C 接口、扬声器、麦克风、震动引擎、外壳和按键等。苹果提供加热式屏幕拆卸夹具的使用手册，提供排查铰链、指纹识别模块和显示问题的支持文档。&lt;/p&gt;
+&lt;p&gt;折叠屏结构需要拆装多个零部件，电池和屏幕玻璃的维修也有专门的安全要求，苹果建议用户动手前阅读完整的维修手册，确认自己能按照维修手册步骤完成维修工作。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;苹果提供维修手册、维修工具和零部件本质上是因为美国可维修性法律规定，事实上对于智能手机来说维修难度还是比较高的，因此除非用户具有一定的专业素养否则不建议自行进行维修，否则可能在拆机阶段就会翻车。&lt;/p&gt;
+&lt;p&gt;另外苹果暂时只发布维修手册，还未在商店提供适用于 iPhone Duo 的可更换零部件，预计可更换零部件和维修工具很快就会提供。其中零部件需要用户付费购买，维修工具可以找苹果租借，也可以通过第三方租借维修工具。&lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://arc.net/" rel="noopener" target="_blank"&gt;浏览器公司&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://support.apple.com/en-us/127682" rel="noopener" target="_blank"&gt;Apple Support&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 23 Oct 2026 02:13:43 +0000</pubDate></item><item><title>这家印度草台公司宣布退出CA业务 此前8张中级证书被系统和浏览器行业集体封锁</title><link>https://www.landian.news/archives/127579.html</link><description>
-&lt;p&gt;#行业资讯 感谢谷歌，谷歌对这家印度草台公司施压后，eMudhra 决定自己退出 SSL/TLS 证书业务。在 8 张中间证书被撤销后 eMudhra 决定不干这行了，eMudhra 董事会认为证书业务赚钱少现在还造成名誉问题，所以决定不再从事这行。另外谷歌决定从 10 月 27 日开始撤销 emSign ECC Root CA - G3 的信任，对任何 CA 来说根证书被撤销信任都是大事件。可以说谷歌撤销根证书的做法，也是促使 eMudhra 跑路的原因。查看全文：https://ourl.co/127579&lt;/p&gt;&lt;p&gt;印度数字信任服务提供商 eMudhra 在 10 月 22 日宣布，董事会讨论后决定自愿退出全球 SSL/TLS 证书业务。此前该公司的 8 张中间 CA 证书的私钥被发现存在严重弱随机性，浏览器和证书信任项目随后采取封锁措施。eMudhra 称退出将分阶段进行，过渡期间会继续为现有客户提供免费证书更换。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127579.png" rel="nofollow"&gt;&lt;img alt="这家印度草台公司宣布退出CA业务 此前8张中级证书被浏览器行业集体封锁" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127579.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sat, 24 Oct 2026 04:00:31 +0000</pubDate></item><item><title>流媒体音乐平台Spotify正在严厉打击家庭版拼车行为 需成员动态扫码验证</title><link>https://www.landian.news/archives/127587.html</link><description>
+&lt;p&gt;#软件资讯 流媒体音乐平台 Spotify 正在严格打击家庭版拼车行为，需要线下扫码核验家庭版成员身份。Spotify 的核心要求就是不是一家人就不要使用家庭版，核验二维码每隔几秒刷新，阻止通过网络发送二维码进行验证。当然用户也可以通过视频通话进行核验，不过 Spotify 也强调会跟随用户采取的规避机制更新核验方法。另外，逾期未核验用户将被冻结加入家庭版订阅 12 个月，但用户可以加入原家庭，12 个月内不能加入到新家庭。查看全文：https://ourl.co/127587&lt;/p&gt;&lt;p&gt;知名流媒体音乐平台 Spotify 正在加强家庭版的核验，即要求家庭成员套餐用户必须住在一起。这个政策会打击通过网络进行家庭版拼车订阅的用户，不得不说 Spotify 这为了刺激用户自行订阅提高营收也是非常激进的。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127587.png" rel="nofollow"&gt;&lt;img alt="流媒体音乐平台Spotify正在严厉打击家庭版拼车行为 需成员动态扫码验证" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127587.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;此前安全研究人员爆出 eMudhra 的 8 张中间证书私钥泄露，后来行业证实并非私钥不慎泄露，而是这家证书颁发机构采用的私钥生成机制存在严重问题，例如某张证书的私钥只有数字 4，这意味着任何人都只需要几百毫秒就可以找到这个私钥。&lt;/p&gt;
-&lt;p&gt;eMudhra 称该问题发生于 2025 年 4 月：当时包裹与解包步骤意外生成多组弱私钥。印度计算机应急响应小组也指出，受影响的 P-384 椭圆曲线私钥随机性不足，可以从对应公钥快速推算。&lt;/p&gt;
-&lt;p&gt;目前受影响的 8 个中间证书都已经被吊销，使用这些中间证书签发的子证书也同样无法获得信任，因此海量使用 eMudhra 证书的网站都无法正常打开，只能更换其他受信任的新证书。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; eMudhra 董事会称证书业务不赚钱还影响名声：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;eMudhra 称其全球证书业务占公司营收的 1%，公司列出的经营因素包括数据主权与合规要求增加、运营复杂度以及成本上升等，因此证书业务潜力和投资回报正在快速降低。&lt;/p&gt;
-&lt;p&gt;这次安全事件也引发全行业的关注，eMudhra 董事会讨论后认为相关舆论关注与该业务在其整体业务中的占比不相称，因此决定退出全球 SSL/TLS 证书业务，但该公司将继续运营其他数字可信业务，包括数字签名证书、eSign 电子签名服务、企业 PKI 平台、电子签名和身份认证产品。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; 谷歌即将不信任 eMudhra Root CA 证书：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;让 eMudhra 决定关停证书业务还有个重要原因是谷歌施加的压力，谷歌在 CA 行业的话语权非常高，同时谷歌对 CA 行业的安全要求更高。此前谷歌已经明确表示将在 10 月 27 日从谷歌浏览器里删除对 emSign ECC Root CA - G3 证书的信任。&lt;/p&gt;
-&lt;p&gt;对 eMudhra 来说如果自己的根证书都被撤销信任那造成的后果非常严重，因为重新申请 Root CA 证书需要大量投资和时间，所以撤销中间证书不是问题，但撤销根证书就是很大的问题了。&lt;/p&gt;
+&lt;p&gt;目前 Spotify 的政策是部分订阅 Premium Family 家庭版套餐的用户需要动态扫码核验身份。首先二维码是动态刷新的，大约每隔几秒就会刷新；其次家庭成员必须使用自己安装的 Spotify 进行扫码，而二维码仅出现在家庭版套餐管理者的手机上。&lt;/p&gt;
+&lt;p&gt;在这种情况下想要通过网络发送二维码给其他成员进行核验的难度较高，当然其实也可以通过视频通话的方式进行远程核验，所以 Spotify 也表示会对现有核验方式进行持续改进，会随着用户寻找规避方法而调整验证措施。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Spotify 在帮助文档中表示，系统可能会在新成员加入套餐、管理者更改住址或者平台无法确认住址时要求成员进行核验，当弹出成员核验后，成员有 7 天时间扫码完成核验，逾期没有核验的话将失去家庭版套餐资格，此时账户会被自动降级为免费版。&lt;/p&gt;
+&lt;p&gt;值得注意的是，任何逾期未核验的用户都将被临时冻结加入家庭版的资格 (12 个月)，但用户可以重新加入原有家庭版套餐，不能加入其他管理者开通的家庭版套餐，以此打击用户更换不同的家庭进行拼车。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 22 Oct 2026 14:11:00 +0000</pubDate></item><item><title>Cloudflare已监测到数百万次针对PHP漏洞的攻击 建议开发者尽快升级</title><link>https://www.landian.news/archives/127578.html</link><description>
-&lt;p&gt;#安全资讯 Cloudflare 已经监测到数百万次针对 PHP 漏洞的攻击尝试，仅靠 WAF 规则还不够，最终还是要升级 PHP。Cloudflare CEO 马修发布消息称，在漏洞披露前 10 小时，观测到数千次攻击尝试，漏洞披露 45 分钟后攻击尝试就达到数万次。现在这些攻击尝试已经超过百万次，对使用 PHP 的网站来说，最终还是要尽快升级到不受影响的版本。查看全文：https://ourl.co/127578&lt;/p&gt;&lt;p&gt;PHP 基金会在昨晚 10 点发布新版本修复 PHP2Shell 漏洞，网络服务提供商 Cloudflare 已经提前获悉漏洞并通过 WAF 规则部署缓解措施，随后 Cloudflare 开始观测到迅速增加的攻击尝试，目前观测到的攻击尝试已经超过百万次。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127578.png" rel="nofollow"&gt;&lt;img alt="Cloudflare已监测到数百万次针对PHP漏洞的攻击 建议开发者尽快升级" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127578.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; Cloudflare 提前部署 WAF 防护规则：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Cloudflare 在 10 月初开始准备规则并在漏洞公开前约 9 小时完成部署，从 10 月 21 日 03:02 UTC 开始，所有启用 Cloudflare WAF 的免费和付费网站都默认获得相关防护。&lt;/p&gt;
-&lt;p&gt;这次防护使用 Cloudflare 新推出的完整事务检测，将 HTTP 请求与服务器响应结合分析，判断请求是否呈现利用特征，以及服务器是否返回异常结果。匹配规则后 WAF 可以在响应送达请求发起者前将其拦截。这个机制能减少仅凭请求特征判断造成的误报，但无法撤销服务器在响应生成前已经执行的操作。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Cloudflare 首席执行官马修普林斯发布推文称，PHP 漏洞公开披露前 10 小时，网络上出现的攻击已经有数千次，这些攻击使用不同的变体组合进行尝试；漏洞披露 45 分钟后这些攻击尝试次数达到数万次，2 小时内达到数十万次，之后攻击尝试已经达到数百万次。&lt;/p&gt;
-&lt;p&gt;不过这只是 Cloudflare 的观测数据，全网攻击尝试可能会远高于百万级别，而且说不好这个时候已经有黑客得手，部分使用旧版 PHP 的站点已经被黑。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;需要特别说明的是即便使用 Cloudflare WAF 也必须升级 PHP，防护规则可以拦截部分攻击尝试，但黑客也在尝试海量的变体组合，所以对使用 PHP 的网站来说当前还是要升级 PHP 版本，升级到不受影响的版本后可以提高安全性，不能仅依靠 WAF 规则。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 22 Oct 2026 13:06:38 +0000</pubDate></item><item><title>开发者部署平台Zeabur因频繁出现数据泄露后决定关停 自己过于草台关停也好</title><link>https://www.landian.news/archives/127577.html</link><description>
-&lt;p&gt;#安全资讯 开发者部署平台 Zeabur 宣布将在年底关停，过于草台导致连续出现安全事件和泄露数据，关停也好。该平台在 10 月连续出现两次安全事件，Zeabur 相关凭证曾以明文保存在配置仓库中，集群接口对公网开放且凭证长期未轮换。这些事件导致 32.1 万名用户的各类信息被泄露，用户保存在 Zeabur 上的各类敏感数据也被黑客窃取。查看全文：https://ourl.co/127577&lt;/p&gt;&lt;p&gt;开发者部署平台 Zeabur 将在 2026 年 12 月底前停止共享集群和专用服务器服务，停服的主要原因是安全问题，该平台自认为已经无力继续提供良好的服务，毕竟已经连续出现数据泄露事故。&lt;/p&gt;
-&lt;p&gt;早前有攻击者读取存储在 Zeabur 数据库中的 321 万条环境变量记录和 32.18 万个账号数据，Zeabur 称这些安全事件暴露出的安全与运维问题，促使团队决定结束运营。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127676.png" rel="nofollow"&gt;&lt;img alt="开发者部署平台Zeabur因频繁出现数据泄露后决定关停 自己过于草台关停也好" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127676.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Zeabur 的初步调查报告显示，10 月 14 日到 15 日，攻击者使用其内部 AWS 密钥、集群管理令牌和 GCP 密钥，进入共享集群、部分专用服务器及内部系统。&lt;strong&gt;相关凭证曾以明文保存在配置仓库中，集群管理接口对公网开放且令牌长期有效并未轮换过。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;攻击者读取平台数据库中的 321 万条环境变量记录，以及包含电子邮箱、用户名、电话号码等信息的 32.18 万条账户记录。566 个 zSend API 密钥和 11536 个平台访问令牌也在影响范围内。&lt;/p&gt;
-&lt;p&gt;攻击者还以 root 权限登录 101 台由 Zeabur 管理的 GCP 专用服务器，在其中 50 台服务器中添加自己 (黑客的) SSH 公钥；16 份客户服务器磁盘副本被挂载到黑客创建的虚拟机。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这件事也告诉我们不要相信任何平台，很多看起来光鲜亮丽的平台其实背后都是草台班子，像是 Zeabur 这种使用明文凭证且长期不轮换凭证的行为，被黑也只是时间问题。&lt;/p&gt;
-&lt;p&gt;Zeabur 建议使用该平台的用户立即更换存放在平台上的各类 API 密钥、云凭证以及数据库密码等，而 GCP 专用服务器用户应当将主机视为已被入侵，所以需要备份数据后重建服务器。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 22 Oct 2026 03:23:58 +0000</pubDate></item><item><title>OneDrive for Mac开始预览百万级项目同步 适合开发者备份超大型仓库</title><link>https://www.landian.news/archives/127499.html</link><description>
-&lt;p&gt;#软件资讯 OneDrive for Mac 也开始预览百万级文件同步，适合开发者备份超大型仓库。目前默认双向同步的文件数量是 30 万个，现在微软开始预览 100 万个文件同步。文件数量越多同步时对机器造成的性能影响也越高，所以 OneDrive 还会主动检测机器性能，如果达不到硬件要求则继续按照 30 万上限操作。查看全文：https://ourl.co/127499&lt;/p&gt;&lt;p&gt;微软正在为 OneDrive for Mac 的同步上限从 30 万提升到每台设备、每个同步实例最多 100 万个项目。该功能早在 4 月份已经在 OneDrive for Windows 中进行公共预览，现在这项能力已经开始在 macOS 上预览。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127499.png" rel="nofollow"&gt;&lt;img alt="OneDrive for Mac开始预览百万级项目同步 适合开发者备份超大型仓库" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127499.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;目前微软仅面向 OneDrive Insider 预览版用户提供百万级项目同步，即最多可以同步 100 万个文件。但同步海量文件也会影响设备性能，所以 OneDrive 还会判断设备是否满足最低硬件和配置要求，如果达不到要求则最多还是只能同步 30 万个文件。&lt;/p&gt;
-&lt;p&gt;该功能主要面向保存大型仓库的开发者，很多开发者的仓库文件数量非常多，部分仓库文件可能会达到百万级别。微软需要定时检查文件变化并进行双向同步，所以文件数量一直有上限，就是避免太多文件需要处理引起问题。&lt;/p&gt;
-&lt;p&gt;微软的建议是如果用户需要获得最佳同步性能，那最好还是将文件数量控制在 30 万以内，这种情况下双向同步时不会太影响设备性能。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这个问题还是影响开发者，很多项目自动生成的路径非常长，这在日常使用和同步时都会造成问题。现在微软为企业用户提供缩短路径长度功能，IT 管理员可以自定义文件夹名称来缩短长度，同时文件路径计算方式的更改也会减少同步错误。&lt;/p&gt;
-&lt;p&gt;不过这个功能暂时还未看到 IT 管理员或开发者们实际演示，不知道能否改进 OneDrive 的同步性能，使用 OneDrive for Business 的用户可以联系 IT 管理员咨询这个变更情况。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 21 Oct 2026 07:30:36 +0000</pubDate></item></channel></rss>
+</description><pubDate>Sat, 24 Oct 2026 03:30:24 +0000</pubDate></item></channel></rss>
