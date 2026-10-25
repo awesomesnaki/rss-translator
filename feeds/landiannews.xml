@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sat, 24 Oct 2026 07:30:42 +0000</lastBuildDate><item><title>苹果推出仅面向iPhone Duo的iOS 27.1版更新 用于为屏幕形态提供适配支持</title><link>https://www.landian.news/archives/127596.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sun, 25 Oct 2026 09:12:31 +0000</lastBuildDate><item><title>服务器提供商VMISS出现安全问题 独立服务器初始密码泄露需立即更改</title><link>https://www.landian.news/archives/127598.html</link><description>
+&lt;p&gt;#云计算 服务器提供商 VMISS 出现安全问题，独立服务器初始密码泄露需立即修改。10 月 25 日黑客访问 VMISS 用于管理独立服务器的 DCIM 系统并获得用户服务器的 IP 和系统初始密码。如果用户并未需改过密码则服务器可能已经入侵，但如果修改过密码或仅限密钥对登录则不受影响。另外此次问题不影响 VMISS VPS 服务器，仅影响独立服务器。查看全文：https://ourl.co/127598&lt;/p&gt;&lt;p&gt;服务器提供商 VMISS 通过邮件发布新的安全通知，VMISS 独立服务器管理系统 DCIM 遭到黑客的访问，黑客可能获得大量独立服务器的系统初始密码并使用该密码登录服务器执行操作。&lt;/p&gt;
+&lt;p&gt;如果你使用 VMISS 的独立服务器且从未修改过系统生成的默认密码，则需要立即修改密码最好重装系统。此次问题不涉及 VMISS 的虚拟服务器 (VPS)，使用 VMISS VPS 的用户不需要执行操作。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127598.png" rel="nofollow"&gt;&lt;img alt="服务器提供商VMISS出现安全问题 独立服务器初始密码泄露需立即更改" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127598.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;开通 VMISS 独立服务器时系统会生成用于登录的初始密码，这个初始密码对应的账户是 root 因此具有系统最高权限，与此同时黑客也可以获得系统配置信息包括操作系统及版本和 IP 地址等。&lt;/p&gt;
+&lt;p&gt;如果用户通过初始密码登录并且从未修改过初始密码，那黑客可能已经通过初始密码登录服务器，黑客会在服务器中留下 pf.py 脚本，用户需要重点检查 /root 和 /home 目录，若发现其他可疑文件那也最好重装系统。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;如果用户使用密钥登录服务器并且禁用密码登录则不受影响，黑客能获取的主要是系统生成的初始密码，只要修改过密码或配置为仅限密钥对登录那黑客都不能登录。&lt;/p&gt;
+&lt;p&gt;这也再次提醒我们不要使用任何初始密码以及最好在任何服务器上都使用密钥对登录并禁用密码登录，这可以阻止各类密码爆破尝试，可以最大程度地提高安全性。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sun, 25 Oct 2026 09:12:31 +0000</pubDate></item><item><title>苹果推出仅面向iPhone Duo的iOS 27.1版更新 用于为屏幕形态提供适配支持</title><link>https://www.landian.news/archives/127596.html</link><description>
 &lt;p&gt;#手机数码 苹果推出 iOS 27.1 版但仅面向 iPhone Duo 提供，用于为屏幕形态提供适配支持。iPhone Duo 出厂已经预装 iOS 27.1 版，不过在新机设置过程中苹果提供较新的系统构建。在开发者公告中苹果称 27.1 为 iPhone Duo 的屏幕形态提供适配支持，应用可以根据手机展开或折叠的状态调整布局。查看全文：https://ourl.co/127596&lt;/p&gt;&lt;p&gt;苹果今天推出 iOS 27.1 版更新，但这次更新仅面向苹果的折叠屏设备 iPhone Duo。苹果开发者此前表示，iPhone Duo 将预装 iOS 27.1，该版本针对折叠屏设计加入专门支持。其他兼容的 iPhone 目前仍然以 iOS 27.0.1 版为最新正式版。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127596.png" rel="nofollow"&gt;&lt;img alt="苹果推出仅面向iPhone Duo的iOS 27.1版更新 用于为屏幕形态提供适配支持" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127596.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -104,14 +115,4 @@
 &lt;hr/&gt;
 &lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://support.apple.com/en-us/127682" rel="noopener" target="_blank"&gt;Apple Support&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 24 Oct 2026 04:00:31 +0000</pubDate></item><item><title>流媒体音乐平台Spotify正在严厉打击家庭版拼车行为 需成员动态扫码验证</title><link>https://www.landian.news/archives/127587.html</link><description>
-&lt;p&gt;#软件资讯 流媒体音乐平台 Spotify 正在严格打击家庭版拼车行为，需要线下扫码核验家庭版成员身份。Spotify 的核心要求就是不是一家人就不要使用家庭版，核验二维码每隔几秒刷新，阻止通过网络发送二维码进行验证。当然用户也可以通过视频通话进行核验，不过 Spotify 也强调会跟随用户采取的规避机制更新核验方法。另外，逾期未核验用户将被冻结加入家庭版订阅 12 个月，但用户可以加入原家庭，12 个月内不能加入到新家庭。查看全文：https://ourl.co/127587&lt;/p&gt;&lt;p&gt;知名流媒体音乐平台 Spotify 正在加强家庭版的核验，即要求家庭成员套餐用户必须住在一起。这个政策会打击通过网络进行家庭版拼车订阅的用户，不得不说 Spotify 这为了刺激用户自行订阅提高营收也是非常激进的。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127587.png" rel="nofollow"&gt;&lt;img alt="流媒体音乐平台Spotify正在严厉打击家庭版拼车行为 需成员动态扫码验证" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127587.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;目前 Spotify 的政策是部分订阅 Premium Family 家庭版套餐的用户需要动态扫码核验身份。首先二维码是动态刷新的，大约每隔几秒就会刷新；其次家庭成员必须使用自己安装的 Spotify 进行扫码，而二维码仅出现在家庭版套餐管理者的手机上。&lt;/p&gt;
-&lt;p&gt;在这种情况下想要通过网络发送二维码给其他成员进行核验的难度较高，当然其实也可以通过视频通话的方式进行远程核验，所以 Spotify 也表示会对现有核验方式进行持续改进，会随着用户寻找规避方法而调整验证措施。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Spotify 在帮助文档中表示，系统可能会在新成员加入套餐、管理者更改住址或者平台无法确认住址时要求成员进行核验，当弹出成员核验后，成员有 7 天时间扫码完成核验，逾期没有核验的话将失去家庭版套餐资格，此时账户会被自动降级为免费版。&lt;/p&gt;
-&lt;p&gt;值得注意的是，任何逾期未核验的用户都将被临时冻结加入家庭版的资格 (12 个月)，但用户可以重新加入原有家庭版套餐，不能加入其他管理者开通的家庭版套餐，以此打击用户更换不同的家庭进行拼车。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 24 Oct 2026 03:30:24 +0000</pubDate></item></channel></rss>
+</description><pubDate>Sat, 24 Oct 2026 04:00:31 +0000</pubDate></item></channel></rss>
