@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>张洪Heo</title><link>https://blog.zhheo.com/</link><description>产品设计师、独立开发者、设计与科技领域自媒体博主</description><language>zh-CN</language><lastBuildDate>Fri, 23 Oct 2026 08:36:13 +0000</lastBuildDate><item><title>给 AI 编程限个上下文：把窗口砍到 300k 反而更省</title><link>https://blog.zhheo.com/p/rdxftsp4.html</link><description>&lt;p&gt;我一直觉得上下文窗口越大越好。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>张洪Heo</title><link>https://blog.zhheo.com/</link><description>产品设计师、独立开发者、设计与科技领域自媒体博主</description><language>zh-CN</language><lastBuildDate>Mon, 26 Oct 2026 05:10:37 +0000</lastBuildDate><item><title>EncoDeck 上手：Windows 上的多品牌耳机控制中心，不用再为切降噪拿起手机</title><link>https://blog.zhheo.com/p/g10nqrgd.html</link><description>&lt;p&gt;在 Windows 上用无线耳机的人大概都碰过这个场面：想从降噪切到通透，得先摸出手机，解锁，打开欢律，等它连上耳机，点一下，再把手机塞回去。电脑就在眼前，耳机也连着电脑，偏偏这一步非要用手机完成。&lt;/p&gt;
+&lt;p&gt;EncoDeck 干的就是把这一步搬到电脑上。&lt;/p&gt;
+&lt;p&gt;它是个 Windows 应用，用 WinUI 3 写的，Microsoft Store 和 GitHub Releases 都能下。平时只留一个托盘图标，不用一直开着主窗口。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/TIANLI0/EncoDeck" rel="noopener external nofollow" target="_blank"&gt;https://github.com/TIANLI0/EncoDeck&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="主界面" referrerpolicy="no-referrer" src="https://p.zhheo.com/5284520261023105412.png!blogimg"/&gt;&lt;/p&gt;
+&lt;h2 id="能干什么"&gt;&lt;a href="#能干什么" title="能干什么"&gt;&lt;/a&gt;能干什么&lt;/h2&gt;&lt;p&gt;核心是托盘面板。左键点一下，弹出电量和降噪的快捷面板，降噪、通透、关闭、自适应直接切，支持强度档位的型号还能选深度、中度、轻度。设置里可以绑全局快捷键，比如一键在降噪和通透之间来回切，全屏游戏里也能用。&lt;/p&gt;
+&lt;p&gt;手势或者手机那边改了设置，EncoDeck 会读耳机上报的状态把界面同步过来。命令发出去之后等耳机确认再回读，失败不会让按钮卡在错误状态上。&lt;/p&gt;
+&lt;p&gt;音效按型号显示。EQ 预设、自定义 EQ、BassWave 动态低音、空间音频、游戏低延迟都在，能显示多少取决于耳机本身。Enco X4 的自定义 EQ 是三组、每组十段。&lt;/p&gt;
+&lt;p&gt;再往下是耳机端设置：触控手势（左右耳的捏合、长捏、滑动和通话手势分开设）、佩戴检测、入睡暂停、点头接听摇头拒接、查找耳机、贴合度检测、提示音音量、双设备连接。有没有同样是型号说了算。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="托盘快捷面板" referrerpolicy="no-referrer" src="https://p.zhheo.com/0204520261023105425.png!blogimg"/&gt;&lt;/p&gt;
+&lt;h2 id="电量显示"&gt;&lt;a href="#电量显示" title="电量显示"&gt;&lt;/a&gt;电量显示&lt;/h2&gt;&lt;p&gt;真无线显示左耳、右耳、充电盒三组，头戴显示一组。有个细节我觉得做得对：充电盒离开耳机之后一般不再上报电量，EncoDeck 不会拿旧数据当实时电量，而是保留上次读数并标成「上次读取」，电量低的时候提醒你。&lt;/p&gt;
+&lt;h2 id="连接弹窗"&gt;&lt;a href="#连接弹窗" title="连接弹窗"&gt;&lt;/a&gt;连接弹窗&lt;/h2&gt;&lt;p&gt;耳机连上电脑时，任务栏附近会弹一个窗口，显示设备名、电量和该型号的连接动画，全屏时不打扰。这里避开了一个坑：弹窗播动画不会打开音频输出，也不会出现在 Windows 媒体控制里，所以不会因为播个动画就把耳机的音频从手机抢到电脑上。&lt;/p&gt;
+&lt;p&gt;首页按型号显示设备图片或模型，预渲染的可以左右拖，支持 .vfxms 的型号能实时旋转缩放。素材按型号和颜色缓存在本地。&lt;/p&gt;
+&lt;p&gt;Win11 上按 Win + A 打开快速设置时，耳机面板能贴在快速设置卡片上方，不想要可以在设置里关掉。&lt;/p&gt;
+&lt;h2 id="兼容性得单独说"&gt;&lt;a href="#兼容性得单独说" title="兼容性得单独说"&gt;&lt;/a&gt;兼容性得单独说&lt;/h2&gt;&lt;p&gt;这是最需要提前讲清楚的地方。EncoDeck 目前的真机验证基本集中在 OPPO Enco X4 上，电量和部分降噪操作是实际读写过的，不少高级设置能读到，写入还没逐项验。其他型号，包括约 85 款 OPPO / 一加、约 50 款 realme / DIZO 和旧款、43 款 vivo / iQOO、24 款华为，以及按系列识别的小米 Redmi、46 个索尼型号名、几款 AKG 和漫步者，大多是根据欢律配置、官方 APK 或开源协议移植实现的，作者在兼容性表里逐项标了「未真机验证」。&lt;/p&gt;
+&lt;p&gt;代码里有这个型号，不等于这款耳机实测过。买之前先对着兼容性表看看自己的型号在不在、哪些功能标了已验证。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/TIANLI0/EncoDeck/blob/main/docs/COMPATIBILITY.md" rel="noopener external nofollow" target="_blank"&gt;https://github.com/TIANLI0/EncoDeck/blob/main/docs/COMPATIBILITY.md&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="安装和-LHDC"&gt;&lt;a href="#安装和-LHDC" title="安装和 LHDC"&gt;&lt;/a&gt;安装和 LHDC&lt;/h2&gt;&lt;p&gt;系统要求 Windows 10 19041+，推荐 Win11。商店版 x64 和 ARM64 都有，走商店自动更新；GitHub 版是 x64 独立安装包，默认装到用户目录，一般不需要管理员权限，覆盖升级会保留设置和缓存。用之前先在系统蓝牙设置里把耳机连上，部分型号的图片和动画第一次要联网取。&lt;/p&gt;
+&lt;p&gt;非商店的 x64 版可以选装 LHDC-Win，在 Windows 上尝试启用 LHDC。这个得单独提醒：它涉及测试签名驱动、管理员权限和系统音频配置，要求 Win11 22H2+ 和支持 LHDC V5 的耳机，商店版不支持。EncoDeck 不会自己去改 Secure Boot 或系统测试模式，动手之前先读它的 LHDC 说明。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/TIANLI0/EncoDeck/blob/main/docs/LHDC.md" rel="noopener external nofollow" target="_blank"&gt;https://github.com/TIANLI0/EncoDeck/blob/main/docs/LHDC.md&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;仓库里还带一个命令行诊断工具 EncoDeck.Probe，能查蓝牙设备、SDP 服务、读耳机状态和监听协议事件，报 issue 的时候附上它的报告会好定位。诊断信息默认对蓝牙地址脱敏。&lt;/p&gt;
+&lt;h2 id="最后"&gt;&lt;a href="#最后" title="最后"&gt;&lt;/a&gt;最后&lt;/h2&gt;&lt;p&gt;项目是 GPL-3.0，非官方，跟这些耳机品牌没有隶属或合作关系，品牌名只用来标兼容性。Mac 用户作者推荐用 HeyBuds。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/TIANLI0/EncoDeck" rel="noopener external nofollow" target="_blank"&gt;https://github.com/TIANLI0/EncoDeck&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 26 Oct 2026 05:10:37 +0000</pubDate></item><item><title>给 AI 编程限个上下文：把窗口砍到 300k 反而更省</title><link>https://blog.zhheo.com/p/rdxftsp4.html</link><description>&lt;p&gt;我一直觉得上下文窗口越大越好。&lt;/p&gt;
 &lt;p&gt;模型标 1M，我就想把它拉满。反正窗口空着也是空着，多塞点历史，AI 不至于忘事。直到账单出来，我才发现这个想法挺贵的。&lt;/p&gt;
 &lt;p&gt;后来我把 OpenClaw 里所有模型的活动上下文都压到了 30 万 token。同样的活儿，花费明显下来，体验也没变差。巧的是，Codex 官方一直是这么干的。&lt;/p&gt;
 &lt;h2 id="上下文窗口不是硬盘"&gt;&lt;a href="#上下文窗口不是硬盘" title="上下文窗口不是硬盘"&gt;&lt;/a&gt;上下文窗口不是硬盘&lt;/h2&gt;&lt;p&gt;我们习惯把上下文当成内存，越大越能装。其实它更像一张桌子，文件摊得越开，越难一眼找到要的那份。&lt;/p&gt;
@@ -95,9 +118,4 @@
 &lt;p&gt;算下来也没什么好犹豫的。这域名是我的博客主站，只要还在写就会一直用，早续晚续都要续，与其每年赌它涨不涨，不如现在按最低价买断十年。真要哪天不用了，那点钱也不心疼。&lt;/p&gt;
 &lt;p&gt;域名在腾讯云 DNSPod，续费页面会直接算到 2036 年，确认一下金额就完事，没什么坑。&lt;/p&gt;
 &lt;p&gt;如果你手上也有打算长期用的 .com，这两天可以去后台看看续费年限，能拉满就拉满。离 11 月 1 日还有半个多月，动作快一点。&lt;/p&gt;
-</description><pubDate>Wed, 14 Oct 2026 06:47:19 +0000</pubDate></item><item><title>OpenCode 网页端新版后台如何获取 API key</title><link>https://blog.zhheo.com/p/id68ti5q.html</link><description>&lt;p&gt;opencode网页端后台UI大改，但是熟悉的API密钥找不到在哪了，一度以为是已经不开放api key获取了，研究半天才找到。&lt;/p&gt;
-&lt;p&gt;进入账户设置。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="账户设置" referrerpolicy="no-referrer" src="https://p.zhheo.com/2433820261013024058.png!blogimg"/&gt;&lt;/p&gt;
-&lt;p&gt;点击添加apikey&lt;/p&gt;
-&lt;p&gt;&lt;img alt="添加apikey" referrerpolicy="no-referrer" src="https://p.zhheo.com/0081520261013024145.png!blogimg"/&gt;&lt;/p&gt;
-</description><pubDate>Tue, 13 Oct 2026 02:35:14 +0000</pubDate></item></channel></rss>
+</description><pubDate>Wed, 14 Oct 2026 06:47:19 +0000</pubDate></item></channel></rss>

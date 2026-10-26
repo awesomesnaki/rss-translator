@@ -1,132 +1,136 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 26 Oct 2026 01:30:00 +0000</lastBuildDate><item><title>真热闹！爱好者们使用eMudhra泄露证书为谷歌签发10.6万张证书 能通过CA公钥认证</title><link>https://www.landian.news/archives/127600.html</link><description>
-&lt;p&gt;#行业资讯 真热闹！爱好者们使用 eMudhra 泄露的证书为谷歌签发 10.6 万张证书，能通过 CA 公钥认证。目前 CT 日志公开记录的提交达到 10.7 万条 (用泄露证书签发的)，其中适用于 Google.com 域名的为 10.6 万条，占比 99%。这些证书可以通过 CA 公钥认证但由于中间 CA 已经被吊销，所以浏览器访问时会报错。但如果在不检查吊销日志的环境中，那是可以直接访问的。查看全文：https://ourl.co/127600&lt;/p&gt;&lt;p&gt;上周印度草台公司 eMudhra 证书私钥问题引起全行业的关注，该公司签发的 8 张中间 CA 证书均使用弱密钥，其中 EM OV TLS CA – G3C 证书的私钥更是夸张到只有数字 4，因此任何人都可以直接使用这个证书为其他域名签发子证书。&lt;/p&gt;
-&lt;p&gt;不过这些问题证书目前已经被浏览器和操作系统吊销，但某些设备可能不会检查证书吊销列表或无法获得更新，那被吊销的证书仍然被信任，用来签发的子证书也还是可以使用的。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127600.png" rel="nofollow"&gt;&lt;img alt="真热闹！爱好者们使用eMudhra泄露证书为谷歌签发10.6万张证书 能通过CA公钥认证" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127600.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 26 Oct 2026 08:41:27 +0000</lastBuildDate><item><title>微软Xbox首席运营官海伦·蒋上任3个月就离职 消息称离职原因是涉嫌政策违规</title><link>https://www.landian.news/archives/127678.html</link><description>
+&lt;p&gt;#行业资讯 微软 Xbox 部门首席运营官海伦・蒋上任 3 个月后就离职，曾长期负责 Minecraft 游戏相关的业务。海伦・蒋在 2005 年加盟微软，之后很长时间都在负责我的世界游戏业务，2026 年 7 月成为 Xbox 首席运营官。知情人士称海伦・蒋违反公司政策被解雇，不过具体情况暂时还不清楚。查看全文：https://ourl.co/127678&lt;/p&gt;&lt;p&gt;微软 Xbox 首席执行官阿莎夏尔马在 10 月 23 日向员工发送内部备忘录，在备忘录中夏尔马宣布该部门首席运营官海伦・蒋 (Helen Chiang) 离职且当天生效。微软官方发言人称公司不会评论个人雇佣事务，但夏尔马在备忘录里也没有说明海伦・蒋离职原因。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127678.png" rel="nofollow"&gt;&lt;img alt="微软Xbox首席运营官海伦·蒋上任3个月就离职 消息称离职原因是涉嫌政策违规" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127678.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;要测试使用 eMudhra 为任意域名签发证书，首选域名当然是谷歌 (就像国内用户检查是否联网就打开百度)，于是目前 CT 证书透明度日志已经记录到爱好者们为谷歌主域名 Google.com 签发高达 10.6 万张证书。&lt;/p&gt;
-&lt;p&gt;目前证书透明度日志记录到的签发记录达到 10.7 万条，其中 99% 都是以谷歌域名作为测试对象的。这些证书可以通过 CA 公钥认证，但由于中间证书已经被浏览器吊销，因此实际访问时会出现阻断 (除非无法检查吊销记录)。&lt;/p&gt;
+&lt;p&gt;海伦・蒋在微软已经工作很多年，此前海伦・蒋主要负责我的世界游戏，在 2026 年 7 月她成为 Xbox 部门首席运营官，负责内容、硬件、平台和服务业务的整体损益，上级为阿莎夏尔马。&lt;/p&gt;
+&lt;p&gt;当时阿莎夏尔马称设置首席运营官这个职位可以将不同的业务整合起来，推动投资决策和经营责任更加清晰。但让人没想到的是这首任首席运营官上任仅 3 个月就离职，不过 Xbox 部门会继续保留该职位并寻找其他合适的人来担任首席运营官。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;因为证书签发和 CT 日志登记是不同的流程，正常情况下 CA 核验域名控制权后使用中间 CA 私钥签发证书。持有泄露私钥的人则可以在本地制作证书，把任意域名写入到 DNS 名称字段，再使用该私钥进行签名。&lt;/p&gt;
-&lt;p&gt;RFC 9162 规定任何人都可以向 CT 日志提交证书并附上证书链供日志检查，CT 日志负责记录和公开证书供外界审查 CA 签发情况，不负责替 CA 审核域名控制权。所以爱好者们在签发证书时如果向 CT 日志提交那就可以被检查到。&lt;/p&gt;
+&lt;p&gt;阿莎夏尔马没有在内部备忘录中说明海伦・蒋离职的原因，微软官方也没有公布相关的信息。不过有媒体引用熟悉情况的匿名消息源称，海伦・蒋并非主动离职而是被微软解雇，原因涉及违反公司政策，但具体行为暂时还不清楚。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 26 Oct 2026 08:41:27 +0000</pubDate></item><item><title>苹果宣布删除eMudhra G3根证书的信任 但Mac命令行工具还需要等待后续更新</title><link>https://www.landian.news/archives/127677.html</link><description>
+&lt;p&gt;#系统资讯 苹果已经删除 emSign ECC Root CA G3 根证书的信任，不过 macOS 命令行工具暂时还未更新，还需要等待苹果后续更新。谷歌已经决定在 10 月 27 日从 Chrome 中删除 G3 根证书的信任，苹果的删除速度更快，目前已经通过云端配置完成删除和下发操作。macOS 各种命令行工具依赖证书包，目前尚未撤销问题证书的信任，苹果将在后续通过软件更新撤销信任。查看全文：https://ourl.co/127677&lt;/p&gt;&lt;p&gt;苹果目前已经自动封锁印度 eMudhra 公司弱密钥事件涉及的 8 张 TLS 中间证书，后续苹果也将封锁 emSign ECC Root CA - G3 根证书。苹果自家应用例如 Safari 浏览器和邮件等使用苹果网络与安全框架的应用已经通过自动下发的证书配置获得保护，部分 Mac 命令行工具使用独立的系统证书文件，还需要等待后续 macOS 更新进行封锁。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127677.png" rel="nofollow"&gt;&lt;img alt="苹果宣布删除eMudhra G3根证书的信任 但Mac命令行工具还需要等待后续更新" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127677.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/127491.html" title="印度证书颁发机构eMudhra泄露8张证书私钥引起互联网地震 大量软件发布更新吊销证书"&gt;&lt;h3&gt;印度证书颁发机构eMudhra泄露8张证书私钥引起互联网地震 大量软件发布更新吊销证书&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#安全资讯 印度证书颁发机构 eMudhra/emSign 泄露 8 张证书私钥引起互联网地震，大量浏览器和框架类软件发布更新封锁问题证书。这些…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/tech/security"&gt;安全资讯&lt;/a&gt;, &lt;a href="https://www.landian.news/tech"&gt;科技资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2026年10月21日 09:50&lt;/span&gt;&lt;span title="浏览数量"&gt;13.44K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
-&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/127579.html" title="这家印度草台公司宣布退出CA业务 此前8张中级证书被系统和浏览器行业集体封锁"&gt;&lt;h3&gt;这家印度草台公司宣布退出CA业务 此前8张中级证书被系统和浏览器行业集体封锁&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#行业资讯 感谢谷歌，谷歌对这家印度草台公司施压后，eMudhra 决定自己退出 SSL/TLS 证书业务。在 8 张中间证书被撤销后 eMud…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/tech"&gt;科技资讯&lt;/a&gt;, &lt;a href="https://www.landian.news/tech/industry"&gt;行业资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2026年10月22日 22:11&lt;/span&gt;&lt;span title="浏览数量"&gt;11.74K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
-&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/127599.html" title="谷歌指责印度eMudhra延迟发布事故报告 其员工称社交媒体关注让公司难以开展调查"&gt;&lt;h3&gt;谷歌指责印度eMudhra延迟发布事故报告 其员工称社交媒体关注让公司难以开展调查&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#行业资讯 谷歌和谋智基金会指责 eMudhra 延迟发布事故报告，其员工竟然称社交媒体关注让团队难以开展调查。谷歌员工表示，公众关注是这起事故…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/tech"&gt;科技资讯&lt;/a&gt;, &lt;a href="https://www.landian.news/tech/industry"&gt;行业资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2026年10月26日 09:00&lt;/span&gt;&lt;span title="浏览数量"&gt;0.89K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
+&lt;p&gt;此次事件涉及 eMudhra 管理的 8 个中间 CA 私钥，其中 6 个用于签发 TLS 证书，2 个用于签发代码签名证书。苹果支持文件显示，6 个 TLS 中间 CA 各自对应两种证书链：一种由 emSign 根证书签发，另一种由 Sectigo 的 AAA Certificate Services 交叉签名，因此系统实际封锁清单共有 12 张 TLS 中间证书。&lt;/p&gt;
+&lt;p&gt;苹果已经在 10 月 19 日向设备下发自动封锁配置、无需用户安装系统更新。10 月 23 日苹果开始封锁 emSign ECC Root CA - G3 根证书，这个根证书密钥并未泄露，苹果将其拦截主要是扩大安全防护。另外谷歌浏览器和火狐浏览器也将陆续封锁 eMudhra 这份根证书。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;部分 macOS 或 Xcode 命令行工具通过 /etc/ssl/cert.pem 验证证书，苹果称 curl、git、python3、ruby、perl 和 openssl 等工具可能继续信任受影响的证书链，除非用户在使用时通过命令在线检查证书吊销清单。&lt;/p&gt;
+&lt;p&gt;苹果称后续会通过软件更新为这些命令行工具封锁证书，管理员也可以按照苹果支持文件中的步骤，手动从证书包里移除相关根证书。但这个操作存在风险：受影响中间证书存在 Sectigo 交叉信任链，只删除 emSign 根证书不够，而删除 AAA 根证书又可能影响其他依赖这个根证书的合法网站。&lt;/p&gt;
+&lt;p&gt;所以建议普通用户不要手动操作证书库删除相关根证书，等待苹果后续发布的更新即可，专业用户如果有需要可以自行根据苹果支持文件删除根证书。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/127600.html" title="真热闹！爱好者们使用eMudhra泄露证书为谷歌签发10.6万张证书 能通过CA公钥认证"&gt;&lt;h3&gt;真热闹！爱好者们使用eMudhra泄露证书为谷歌签发10.6万张证书 能通过CA公钥认证&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#行业资讯 真热闹！爱好者们使用 eMudhra 泄露的证书为谷歌签发 10.6 万张证书，能通过 CA 公钥认证。目前 CT 日志公开记录的提…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/tech"&gt;科技资讯&lt;/a&gt;, &lt;a href="https://www.landian.news/tech/industry"&gt;行业资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2026年10月26日 09:30&lt;/span&gt;&lt;span title="浏览数量"&gt;4.07K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
+&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/127599.html" title="谷歌指责印度eMudhra延迟发布事故报告 其员工称社交媒体关注让公司难以开展调查"&gt;&lt;h3&gt;谷歌指责印度eMudhra延迟发布事故报告 其员工称社交媒体关注让公司难以开展调查&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#行业资讯 谷歌和谋智基金会指责 eMudhra 延迟发布事故报告，其员工竟然称社交媒体关注让团队难以开展调查。谷歌员工表示，公众关注是这起事故…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/tech"&gt;科技资讯&lt;/a&gt;, &lt;a href="https://www.landian.news/tech/industry"&gt;行业资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2026年10月26日 09:00&lt;/span&gt;&lt;span title="浏览数量"&gt;2.24K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
+&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/127491.html" title="印度证书颁发机构eMudhra泄露8张证书私钥引起互联网地震 大量软件发布更新吊销证书"&gt;&lt;h3&gt;印度证书颁发机构eMudhra泄露8张证书私钥引起互联网地震 大量软件发布更新吊销证书&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#安全资讯 印度证书颁发机构 eMudhra/emSign 泄露 8 张证书私钥引起互联网地震，大量浏览器和框架类软件发布更新封锁问题证书。这些…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/tech/security"&gt;安全资讯&lt;/a&gt;, &lt;a href="https://www.landian.news/tech"&gt;科技资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2026年10月21日 09:50&lt;/span&gt;&lt;span title="浏览数量"&gt;13.70K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
+&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/127579.html" title="这家印度草台公司宣布退出CA业务 此前8张中级证书被系统和浏览器行业集体封锁"&gt;&lt;h3&gt;这家印度草台公司宣布退出CA业务 此前8张中级证书被系统和浏览器行业集体封锁&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#行业资讯 感谢谷歌，谷歌对这家印度草台公司施压后，eMudhra 决定自己退出 SSL/TLS 证书业务。在 8 张中间证书被撤销后 eMud…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/tech"&gt;科技资讯&lt;/a&gt;, &lt;a href="https://www.landian.news/tech/industry"&gt;行业资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2026年10月22日 22:11&lt;/span&gt;&lt;span title="浏览数量"&gt;11.98K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
 &lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://bugzilla.mozilla.org/show_bug.cgi?id=2083449" rel="noopener" target="_blank"&gt;Bugzilla&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://support.apple.com/en-us/149555" rel="noopener" target="_blank"&gt;Apple Support #149555&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 26 Oct 2026 01:30:00 +0000</pubDate></item><item><title>谷歌指责印度eMudhra延迟发布事故报告 其员工称社交媒体关注让公司难以开展调查</title><link>https://www.landian.news/archives/127599.html</link><description>
-&lt;p&gt;#行业资讯 谷歌和谋智基金会指责 eMudhra 延迟发布事故报告，其员工竟然称社交媒体关注让团队难以开展调查。谷歌员工表示，公众关注是这起事故的可预见后果，不能让公众关注成为延迟发布事故调查报告的理由。早前 eMudhra 已经以此次事故影响公司声誉和 CA 业务不赚钱为由退出 CA 行业，可见 eMudhra 关注的从来都不是安全问题。查看全文：https://ourl.co/127599&lt;/p&gt;&lt;p&gt;印度数字认证基础设施公司 eMudhra 日前就证书调查报告问题发布回应，这家草台公司竟然认为社交媒体审视、投资者和客户分析让团队无法开展有意义的调查。这种回应立即引起谷歌员工的不满，谷歌员工和谋智基金会员工均指责 eMudhra 试图推卸责任。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127599.png" rel="nofollow"&gt;&lt;img alt="谷歌指责印度eMudhra延迟发布事故报告 其员工称社交媒体关注让公司难以开展调查" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127599.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 26 Oct 2026 07:00:00 +0000</pubDate></item><item><title>谋智基金会启动重返Firefox活动 以古早表情包吸引曾经的用户回归火狐</title><link>https://www.landian.news/archives/127676.html</link><description>
+&lt;p&gt;#软件资讯 谋智基金会启动重返 Firefox 活动，以古早表情包吸引曾经的用户回归火狐浏览器。新的广告宣传片将在美国、德国、英国、法国播出，侧重点是火狐浏览器的隐私保护与控制。例如火狐浏览器内置跟踪保护、在 iOS 端提供内置的原生广告拦截以及用户可以决定是否使用内置 AI 功能等。查看全文：https://ourl.co/127676&lt;/p&gt;&lt;p&gt;谋智基金会宣布从 10 月 25 日开始推出重返火狐浏览器宣传活动，该活动目标主要是吸引曾经使用但后来转向其他浏览器的用户。活动招来早期网络视频和迷因中的熟面孔借着怀旧主题传达火狐浏览器对隐私、开放网络和用户选择权的主张。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="/wp-content/uploads/2026/10/127676.png" rel="nofollow"&gt;&lt;img alt="谋智基金会启动重返Firefox活动 以古早表情包吸引曾经的用户回归火狐" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="/wp-content/uploads/2026/10/127676.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在 Bugzilla 讨论线程中行业相关人士要求 eMudhra 公司尽快发布事故调查报告，不过 eMudhra 多次推迟发布调查报告，给出的原因竟然是社交媒体和行业的关注让该公司无法开展有意义的调查。&lt;/p&gt;
-&lt;p&gt;随后谷歌根证书项目成员发布评论称，公众关注是这起事故的可预见后果，不能让公众关注成为延迟回应的理由。谋智基金会员工也认同谷歌的关切，要求 eMudhra 公司履行对社区的责任。&lt;/p&gt;
-&lt;p&gt;公众讨论确实可能会给 eMudhra 带来压力，但这不会妨碍该公司继续检查密钥生成脚本、各类记录和硬件安全模块日志。eMudhra 将外界审视与无法调查直接联系起来，容易让人觉得 eMudhra 首先关心的是舆论环境而非尽快拿出可供审查的事故调查报告。&lt;/p&gt;
+&lt;p&gt;谋智基金会首席营销官称，这次活动希望借助火狐浏览器的历史和网络文化记忆吸引老用户，同时让品牌与当前浏览需求产生联系。这支广告宣传片从 10 月 25 日开始在美国市场通过 NBC 播放，之后会扩展到德国、法国和英国。&lt;/p&gt;
+&lt;p&gt;谋智基金会将这次活动称为公司迄今为止规模最大的火狐浏览器宣传活动，有这种广告宣传并不让人奇怪，毕竟现在火狐浏览器的市场份额已经非常低，这对火狐浏览器来说是个非常糟糕的事情。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在讨论线程中谷歌和谋智基金会就此次证书事故提出以下问题：密钥生成流程具体出了什么错、为什么 2025 年发现 CRL 签名与证书不匹配时没有继续追查、此前的事故报告中为什么没有说明存在第二组密钥。&lt;/p&gt;
-&lt;p&gt;这些问题需要脚本、操作记录和时间线来回答，CA 业务是全球互联网安全的基石，eMudhra 这种一走了之的不负责任做法让行业非常不满。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; eMudhra 退出 CA 业务是受声誉问题影响而非关心安全：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;值得注意的是，eMudhra 此前已经宣布退出全球 TLS/SSL 证书业务，不过在退出声明中 eMudhra 强调的是证书业务占公司营收不足 1%、此次安全事故给公司声誉造成严重影响。&lt;/p&gt;
-&lt;p&gt;可以看到这家草台公司真正关心的并不是互联网安全问题，而是能不能赚钱以及现在这种情况怎么弃车保帅。尽管 eMudhra 强调后续会发布详细的调查报告，但考虑到 eMudhra 已经决定跑路，没人知道后面发布的调查报告是否足够详细。&lt;/p&gt;
+&lt;p&gt;火狐浏览器内置跟踪防护技术可以拦截部分广告网络，火狐浏览器也允许用户决定是否启用 AI 功能以及如何使用 AI 功能等，火狐浏览器今年还推出内置 VPN (需要额外订阅)、iOS 端的原生广告拦截功能和 AI 控制面板。&lt;/p&gt;
+&lt;p&gt;从隐私角度来说火狐浏览器自然要远胜于谷歌浏览器，火狐浏览器通常不会收集用户的各类信息用于广告网络，这是很多追求隐私保护的用户继续使用火狐浏览器的亮点之一。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 26 Oct 2026 06:30:00 +0000</pubDate></item><item><title>知名虚拟组网软件Tailscale存在SSH权限缺陷 已获准接入设备可以横向取得root</title><link>https://www.landian.news/archives/127675.html</link><description>
+&lt;p&gt;#安全资讯 知名虚拟组网工具 Tailscale 存在 SSH 权限缺陷，已经获准的设备可以横向取得其他设备的 root 权限。目前 Tailscale 官方正在评估漏洞影响范围，相关修复程序也在密集开发合并中。Tailscale 建议用户先收紧访问与转发权限，对于不需要 SSH 转发的用户直接关闭该功能。查看全文：https://ourl.co/127675&lt;/p&gt;&lt;p&gt;网络安全研究员埃丽卡温迪施日前发布报告称，Tailscale SSH Unix 套接字转发和权限存在多项安全问题。在实验环境中，攻击者先控制已经获准连接目标服务器的设备，再利用转发路径触达最高权限服务，进而取得目标设备的 root 权限。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127675.png" rel="nofollow"&gt;&lt;img alt="知名虚拟组网软件Tailscale存在SSH权限缺陷 已获准接入设备可以横向取得root" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127675.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/127491.html" title="印度证书颁发机构eMudhra泄露8张证书私钥引起互联网地震 大量软件发布更新吊销证书"&gt;&lt;h3&gt;印度证书颁发机构eMudhra泄露8张证书私钥引起互联网地震 大量软件发布更新吊销证书&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#安全资讯 印度证书颁发机构 eMudhra/emSign 泄露 8 张证书私钥引起互联网地震，大量浏览器和框架类软件发布更新封锁问题证书。这些…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/tech/security"&gt;安全资讯&lt;/a&gt;, &lt;a href="https://www.landian.news/tech"&gt;科技资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2026年10月21日 09:50&lt;/span&gt;&lt;span title="浏览数量"&gt;13.44K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
-&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/127579.html" title="这家印度草台公司宣布退出CA业务 此前8张中级证书被系统和浏览器行业集体封锁"&gt;&lt;h3&gt;这家印度草台公司宣布退出CA业务 此前8张中级证书被系统和浏览器行业集体封锁&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#行业资讯 感谢谷歌，谷歌对这家印度草台公司施压后，eMudhra 决定自己退出 SSL/TLS 证书业务。在 8 张中间证书被撤销后 eMud…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/tech"&gt;科技资讯&lt;/a&gt;, &lt;a href="https://www.landian.news/tech/industry"&gt;行业资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2026年10月22日 22:11&lt;/span&gt;&lt;span title="浏览数量"&gt;11.74K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
+&lt;p&gt;Tailscale SSH 是内置的 SSH 服务，由 tailnet 访问策略决定哪些设备可以连接目标主机。该服务与通过 Tailscale 网络连接传统的 OpenSSH 服务不同，授权依据主要是设备身份与访问规则。&lt;/p&gt;
+&lt;p&gt;安全研究员称测试中的普通 SSH 转发会话可以被用于访问 root 专属资源并取得系统级权限，后续链条还曾从目标机器获得新设备注册凭据。在实验环境中，已经获准访问的节点可以沿着策略允许的连接扩散到其他设备。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Tailscale 官方目前已经确认收到安全报告，正在修复 SSH 授权后的 Unix 权限和转发行为并评估受影响的配置范围。Tailscale 称，这类问题通常发生在设备已经获准建立 SSH 会话后，因此实际风险与访问规则的具体配置有关。&lt;/p&gt;
+&lt;p&gt;截至 10 月 26 日 Tailscale 安全公告页尚未列出关于此次安全问题的说明，不过 Tailscale GitHub 已经有相关开发变更，例如 PR #21937 已经合并，这个 PR 为每条连接添加 SSH Monitor 的通信基础，PR #21942 还在审查并未合并，该 PR 计划让 SSH 转发由 SSH Monitor 监控进程处理。Tailscale 将在确认受影响范围后发布安全公告和补丁。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Tailscale 建议用户检查 SSH 访问规则将授权范围缩小到确实有需要的用户、设备和目标主机，不需要转发功能时可以将转发功能关闭。官方给出的临时设置方式包括在 tailscaled 服务环境中设置 &lt;code&gt;TS_SSH_DISABLE_FORWARDING=1&lt;/code&gt; 来关闭 SSH 转发而保留 Tailscale SSH，敏感系统也可以启用 SSH check mode 增加连接前的重新认证步骤。&lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://bugzilla.mozilla.org/show_bug.cgi?id=2083449#c39" rel="noopener" target="_blank"&gt;Bugzilla #2083449&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://www.tailworm.com/" rel="noopener" target="_blank"&gt;安全报告&lt;/a&gt;、&lt;a href="https://www.landian.news/go?url=https://www.reddit.com/r/Tailscale/comments/1xeoj1l/recent_tailscale_vulnerability_reports/" rel="noopener" target="_blank"&gt;Tailscale 回应&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 26 Oct 2026 01:00:00 +0000</pubDate></item><item><title>服务器提供商VMISS出现安全问题 独立服务器初始密码泄露需立即更改</title><link>https://www.landian.news/archives/127598.html</link><description>
-&lt;p&gt;#云计算 服务器提供商 VMISS 出现安全问题，独立服务器初始密码泄露需立即修改。10 月 25 日黑客访问 VMISS 用于管理独立服务器的 DCIM 系统并获得用户服务器的 IP 和系统初始密码。如果用户并未需改过密码则服务器可能已经入侵，但如果修改过密码或仅限密钥对登录则不受影响。另外此次问题不影响 VMISS VPS 服务器，仅影响独立服务器。查看全文：https://ourl.co/127598&lt;/p&gt;&lt;p&gt;服务器提供商 VMISS 通过邮件发布新的安全通知，VMISS 独立服务器管理系统 DCIM 遭到黑客的访问，黑客可能获得大量独立服务器的系统初始密码并使用该密码登录服务器执行操作。&lt;/p&gt;
-&lt;p&gt;如果你使用 VMISS 的独立服务器且从未修改过系统生成的默认密码，则需要立即修改密码最好重装系统。此次问题不涉及 VMISS 的虚拟服务器 (VPS)，使用 VMISS VPS 的用户不需要执行操作。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127598.png" rel="nofollow"&gt;&lt;img alt="服务器提供商VMISS出现安全问题 独立服务器初始密码泄露需立即更改" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127598.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 26 Oct 2026 06:00:00 +0000</pubDate></item><item><title>苹果在零售店部署密封盒iPhone检测设备 退货验机时不需要拆箱即可校验手机</title><link>https://www.landian.news/archives/127674.html</link><description>
+&lt;p&gt;#行业资讯 苹果开始在零售店部署新设备用于检测密封盒 iPhone 的状态，主要用于打击拆封掉包 iPhone 或零件后退货的欺诈行为。新设备可以在不开箱的情况下开启、运行诊断程序，确认商品没问题后再给顾客退货。直到现在苹果都经常遇到开箱掉包和拆机后掉包零件的行为，有新设备检测后这种情况应该更容易被识别出来。查看全文：https://ourl.co/127674&lt;/p&gt;&lt;p&gt;苹果零售店正在陆续启用新的密封盒 iPhone 检测设备，该设备可以扫描密封包装内的 iPhone 并运行诊断程序，帮助零售店员工核验退货手机是否完整。这个新设备其实主要目的就是打击犯罪团伙拆箱掉包设备再重新密封。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127674.png" rel="nofollow"&gt;&lt;img alt="苹果在零售店部署密封盒iPhone检测设备 退货验机时不需要拆箱即可校验手机" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127674.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;开通 VMISS 独立服务器时系统会生成用于登录的初始密码，这个初始密码对应的账户是 root 因此具有系统最高权限，与此同时黑客也可以获得系统配置信息包括操作系统及版本和 IP 地址等。&lt;/p&gt;
-&lt;p&gt;如果用户通过初始密码登录并且从未修改过初始密码，那黑客可能已经通过初始密码登录服务器，黑客会在服务器中留下 pf.py 脚本，用户需要重点检查 /root 和 /home 目录，若发现其他可疑文件那也最好重装系统。&lt;/p&gt;
+&lt;p&gt;苹果零售店遇到的退货欺诈包括顾客取走整部 iPhone、拆下手机内部零件等，然后再将包装盒送到门店进行退货，被取走的 iPhone 或零部件有时候会被转卖。&lt;/p&gt;
+&lt;p&gt;以前苹果零售店员工通常需要打开退货包装、确认手机和配件是否齐全。而即便是正常退货，拆封也会让商品无法直接作为密封新品重新上架，这增加了后续检查和仓储处理工作。&lt;/p&gt;
+&lt;p&gt;苹果部署的新设备可以在包装保持密封的情况下检查盒内的 iPhone 并运行诊断程序确认手机状态，通过检查的退货商品可以保留原包装重新进入可售库存。异常设备则会被检查出来并被拒绝退货，这也可以减少苹果后续被欺诈的风险。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;如果用户使用密钥登录服务器并且禁用密码登录则不受影响，黑客能获取的主要是系统生成的初始密码，只要修改过密码或配置为仅限密钥对登录那黑客都不能登录。&lt;/p&gt;
-&lt;p&gt;这也再次提醒我们不要使用任何初始密码以及最好在任何服务器上都使用密钥对登录并禁用密码登录，这可以阻止各类密码爆破尝试，可以最大程度地提高安全性。&lt;/p&gt;
+&lt;p&gt;彭博社报道称苹果部署的新设备基于苹果的 Presto 技术，Presto 是苹果零售店用于处理盒装 iPhone 的店内系统，该系统能在不拆封的情况下启动手机、安装 iOS 更新再关机。一套机架每次最多可以同时处理 6 台 iPhone，现在苹果将该技术也扩展到验货。&lt;/p&gt;
+&lt;p&gt;对苹果而言密封商品如果通过诊断检查那就可以更快回到库存并减少开箱、重新包装和送仓处理的环节，设备也让员工能针对可疑退货进行核验，同时保留正常退货商品的原包装状态。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sun, 25 Oct 2026 09:12:31 +0000</pubDate></item><item><title>苹果推出仅面向iPhone Duo的iOS 27.1版更新 用于为屏幕形态提供适配支持</title><link>https://www.landian.news/archives/127596.html</link><description>
-&lt;p&gt;#手机数码 苹果推出 iOS 27.1 版但仅面向 iPhone Duo 提供，用于为屏幕形态提供适配支持。iPhone Duo 出厂已经预装 iOS 27.1 版，不过在新机设置过程中苹果提供较新的系统构建。在开发者公告中苹果称 27.1 为 iPhone Duo 的屏幕形态提供适配支持，应用可以根据手机展开或折叠的状态调整布局。查看全文：https://ourl.co/127596&lt;/p&gt;&lt;p&gt;苹果今天推出 iOS 27.1 版更新，但这次更新仅面向苹果的折叠屏设备 iPhone Duo。苹果开发者此前表示，iPhone Duo 将预装 iOS 27.1，该版本针对折叠屏设计加入专门支持。其他兼容的 iPhone 目前仍然以 iOS 27.0.1 版为最新正式版。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127596.png" rel="nofollow"&gt;&lt;img alt="苹果推出仅面向iPhone Duo的iOS 27.1版更新 用于为屏幕形态提供适配支持" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127596.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 26 Oct 2026 05:30:00 +0000</pubDate></item><item><title>Windows 11预览版出现APX高级性能扩展开关 对于受支持的硬件可以提高性能</title><link>https://www.landian.news/archives/127673.html</link><description>
+&lt;p&gt;#系统资讯 Windows 11 预览版出现 APX 高级性能扩展开关，对于受支持的硬件，开启后可以提升整体性能。APX 是英特尔开发的指令集扩展，该技术将通用寄存器数量从 16 个增加到 32 个，编译器可以将更多数据留在处理器内部，不需要在内存之间频繁搬运数据。目前微软正在测试该技术，后续还需要软件适配。查看全文：https://ourl.co/127673&lt;/p&gt;&lt;p&gt;微软日前在 Windows 11 未来平台实验通道测试 Intel APX 高级性能开关，微软预留的描述称开启该功能后可以提升性能。这项功能出现在 Build 29965 的预览构建中，切换后需要重启系统才能生效。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127673.png" rel="nofollow"&gt;&lt;img alt="Windows 11预览版出现APX高级性能扩展开关 对于受支持的硬件可以提高性能" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127673.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;iPhone Duo 上市时已经提前预装 iOS 27.1 版，不过苹果在新机设置过程中提供较新版本的系统构建，这个新构建版本仅说明修复错误，没有列出具体的功能变化。&lt;/p&gt;
-&lt;p&gt;不过苹果开发者资料中提到，iOS 27.1 版为 iPhone Duo 的屏幕形态提供适配支持，应用可以根据手机展开或折叠的状态调整布局，使用更大的内屏空间。开发者还可以通过 iOS 27.1 SDK 适配工具栏和标签栏等界面元素。&lt;/p&gt;
+&lt;p&gt;APX 是面向 x86-64 处理器的指令集扩展，该技术将通用寄存器数量从 16 个增加到 32 个，寄存器是处理器内部的高速存储位置，程序运行时会频繁读取和处理数据。寄存器数量增加后，编译器可以将更多数据留在处理器内部，减少与内存之间的数据搬运。&lt;/p&gt;
+&lt;p&gt;APX 还添加多项指令优化，包括让运算使用独立目标寄存器的三操作数格式、条件加载与存储、减少状态标志更新的 No Flags 机制、用于成对保存和恢复寄存器的 PUSH2/POP2 指令。这些设计都可以让编译器生成更精准的代码，减少部分分支判断带来的处理开销。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;苹果安全更新页面将 iOS 27.1 的适配设备列为 iPhone Duo，iPhone 11 及后续机型的最新正式版则是 iOS 27.0.1 版，也就是说这次发布并没有为现有 iPhone 用户开放一个常规的 iOS 27.1 更新。&lt;/p&gt;
-&lt;p&gt;苹果目前已经向开发者提供 iOS 27.2 RC 候选版本，该版本也支持 iPhone Duo 机型，未来苹果发布的新版本应该会让常规机型和 iPhone Duo 使用相同的版本基线。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 24 Oct 2026 07:30:42 +0000</pubDate></item><item><title>AV2视频编码开始推进：YouTube计划在2027年初在网页版使用AV2视频编码</title><link>https://www.landian.news/archives/127595.html</link><description>
-&lt;p&gt;#行业资讯 AV2 视频编解码器标准开始推进：YouTube 计划在明年年初通过网页端提供基于 AV2 编码的视频。AV2 编解码标准目标是在相同带宽下提供更好的画质，或以更低的带宽维持相近的画质。YouTube 已经计划从明年年初开始部署 AV2，其他平台还在评估阶段。需要说明的是并非所有硬件都支持 AV2 硬解，在不支持硬解的情况下使用软解功耗会更高。查看全文：https://ourl.co/127595&lt;/p&gt;&lt;p&gt;开放媒体联盟 AOMedia 日前发文称，AV2 视频编解码格式正在从标准制定进入浏览器和流媒体平台的测试阶段。此前谷歌已经展示在谷歌浏览器中播放 AV2 视频的能力，而谷歌旗下视频网站 YouTube 则计划在 2027 年初在网页端提供 AV2 视频。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127595.png" rel="nofollow"&gt;&lt;img alt="AV2视频编码开始推进：YouTube计划在2027年初在网页版使用AV2视频编码" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127595.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;英特尔自己在模拟环境中测试得到非常不错的性能提升，例如在 SPEC CPU 2017 Integer 基准测试中，使用 APX 编译的代码比 Intel 64 基线代码减少约 10% 的加载操作、少 20% 的存储操作、指令数量也减少 10%。&lt;/p&gt;
+&lt;p&gt;不过并非所有处理器都支持 APX 技术，实际使用该技术需要处理器支持、系统支持、软件进行适配支持，现阶段微软仅在测试中，后续应该会陆续面向开发者公布具体的部署指南。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;AV2 是开放媒体联盟制定的开放视频编码标准，也是 AV1 编解码器的后继者。视频编码器负责压缩视频以降低存储和传输所需的数据量，播放设备或软件再通过解码器还原画面。&lt;/p&gt;
-&lt;p&gt;开放媒体联盟称，AV2 的压缩效率较 AV1 提升 30%，这个新编解码器的目标是在相同带宽下提供更好的画质，或者以更低的带宽维持相近的画质。&lt;/p&gt;
-&lt;p&gt;AV2 还支持多路视频和多视觉内容，针对实时通信、沉浸式媒体、高帧率和 HDR 等场景进行扩展。这些功能可以用于多画面直播、视频会议和沉浸式影像，应用规范为不只是视频点播。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; YouTube 已经给出时间目标，其他平台仍在评估中：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;谷歌旗下视频网站 YouTube 已经确认将在 2027 年初在网页端推出基于 AV2 编码的视频，到时候用户使用受支持的浏览器和设备就可以通过 AV2 编码进行播放。&lt;/p&gt;
-&lt;p&gt;需要注意的是并非所有硬件都内置 AV2 硬件解码器(在本文发布时，所有主流消费级硬件都不支持 AV2 硬件解码)，在不支持硬件解码的情况下将使用软件解码，软件解码的性能要明显差于硬件解码，并且整体功耗可能也会增加。&lt;/p&gt;
-&lt;p&gt;其他媒体平台包括奈飞和 Amazon Prime Video 对 AV2 的支持还在评估阶段，这些平台完成评估后可能会陆续在不同的终端提供基于 AV2 编码的视频。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 24 Oct 2026 07:00:41 +0000</pubDate></item><item><title>腾讯云1024程序员节推出服务器秒杀 3年版服务器低至438元</title><link>https://www.landian.news/archives/127597.html</link><description>腾讯云轻量应用服务器团队在 1024 程序员节上推出秒杀活动，此次活动推出多款折扣服务器，包括 3 款 3 年 […]</description><pubDate>Sat, 24 Oct 2026 06:31:24 +0000</pubDate></item><item><title>开源办公软件开发商文档基金会重提微软OOXML争议 指控微软操纵ISO标准化流程</title><link>https://www.landian.news/archives/127594.html</link><description>
-&lt;p&gt;#行业资讯 开源办公软件 LibreOffice 开发商文档基金会重提微软 OOXML 争议，指控微软在 2008 年时操纵 ISO 国际标准流程。文档基金会经常发文批评微软故意使用难以兼容的格式来提高竞争力，即削弱竞争对手的兼容性将用户锁在 Microsoft Office 生态系统内。文档基金会称微软在 OOXML 申请国际化标准时操纵审核流程，最终让 OOXML 成为 ISO/IEC 29500 系列标准。查看全文：https://ourl.co/127594&lt;/p&gt;&lt;p&gt;开源办公软件 LibreOffice 开发商文档基金会日前发文回顾微软 OOXML 格式在 2006~2008 年间申请成为国际标准的过程，指控微软利用快速通道和各国标准委员会的程序推动 OOXML 成为国际化标准。&lt;/p&gt;
-&lt;p&gt;OOXML 最终也确实成为 ISO/IEC 29500 标准，围绕标准申请流程是否受不正当影响，文档基金会提出自己的判断和历史材料，而相关争议在当年也曾引发多方质疑。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127594.png" rel="nofollow"&gt;&lt;img alt="开源办公软件开发商文档基金会重提微软OOXML争议 指控微软操纵ISO标准化流程" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127594.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;开放文档格式 ODF 由 OASIS 推动并在 2006 年成为 ISO/IEC 26300 标准，OOXML 则由微软提出并在 2006 年成为 ECMA-376 标准，随后通过 ISO/IEC JTC 1 的快速通道申请国际标准认证。&lt;/p&gt;
-&lt;p&gt;两种文档格式都用于文字处理、表格和演示文档，其中 ODF 是 LibreOffice 的原生格式，OOXML 则是 Microsoft Office 系列办公软件常用的 DOCX/XLSX/PPTX 文件格式背后的标准。&lt;/p&gt;
-&lt;p&gt;文档基金会指出，OOXML 提交给 ISO 审查的规范约有 6000 页，却采用为已有规范设计的快速流程。2007 年首轮投票并未达到通过门槛，2008 年 2 月来自 33 个国家的代表在日内瓦召开的 5 天投票意见解决会议，处理各国提交的技术意见。&lt;/p&gt;
-&lt;p&gt;ISO 官方记录将会议目标描述为解决意见、协商修改方案，而文档基金会认为会议时限和规范篇幅让各国难以充分审阅全部内容 (毕竟 6000 页想要看完是需要很长时间的)。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;文档基金会列举意大利标准委员会的成员变化：意大利委员会在数月内从 5 人增加到 80 余人，其中包括微软合作伙伴及相关公关和法律机构。同期媒体也报道过意大利委员会人数骤增、挪威等国就代表性和投票程序提出异议。&lt;/p&gt;
-&lt;p&gt;微软当时则强调，OOXML 格式获得广泛支持，ISO 收集的技术意见有助于完善规范；微软也曾将部分反对行动归因于竞争对手 IBM 公司。不过最终 OOXML 在 2008 年通过投票，ISO/IEC 在同年 11 月正式发布 29500 系列标准。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;程序受到质疑与标准最终获批是这段历史中的两个事实，文档基金会将程序受到质疑解读为微软操纵国际标准化流程，这与文档基金会长期批评 Microsoft Office 主要采用包含旧版兼容元素的 Transitional 格式的行为一致。&lt;/p&gt;
-&lt;p&gt;文档基金会认为微软的做法增加第三方软件完整实现和跨软件交换文档的难度，文档基金会经常发文抨击微软故意使用难以兼容的格式来提高竞争力，即削弱竞争对手的兼容性将用户锁在 Microsoft Office 生态系统内。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/113046.html" title="文档基金会(开源LibreOffice开发商)再次发文抨击微软的OOXML专有格式"&gt;&lt;h3&gt;文档基金会(开源LibreOffice开发商)再次发文抨击微软的OOXML专有格式&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#行业资讯 文档基金会 (LibreOffice 开发商) 再次发文抨击微软，称微软的 OOXML 文档格式极其荒谬，Excel 甚至都不能很好…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/tech"&gt;科技资讯&lt;/a&gt;, &lt;a href="https://www.landian.news/tech/industry"&gt;行业资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2026年5月22日 10:00&lt;/span&gt;&lt;span title="浏览数量"&gt;11.25K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
+&lt;p&gt;APX 要发挥作用需要处理器具备相应指令 (也就是硬件支持)、Windows 11 能够管理新增寄存器状态，应用程序或运行时 (Runtime) 也需要使用 APX 指令。英特尔的设计将新增寄存器纳入 XSAVE 状态管理机制，便于操作系统在线程切换时保存和恢复处理器状态。&lt;/p&gt;
+&lt;p&gt;软件方面开发者可以通过重新编译应用使用 APX，通常不需要修改源代码。动态语言则需要在底层运行时完成适配，例如 GCC 16 的官方变更说明就已经加入 Nova Lake 处理器目标，启用 APX_F 等指令集扩展。&lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://blog.documentfoundation.org/blog/2026/10/23/the-history-of-ooxml-format/" rel="noopener" target="_blank"&gt;文档基金会 OOXML 标准化过程回顾&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://blogs.windows.com/windows-insider/2026/10/23/announcing-new-builds-for-23-october-2026/" rel="noopener" target="_blank"&gt;Microsoft&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 24 Oct 2026 06:30:39 +0000</pubDate></item><item><title>Brotli数据压缩格式漏洞波及多种HTTP软件 安全公司称之为HTTP2Shell系列问题</title><link>https://www.landian.news/archives/127592.html</link><description>
-&lt;p&gt;#安全资讯 安全公司报告 Brotli 数据压缩格式中的解码器漏洞，波及多种 HTTP 软件，安全公司将其称为 HTTP2Shell 漏洞。攻击者利用特制数据可以触发解码器异常区块切换，极端情况下可以引起远程代码执行。目前 Node.js、Python、Bun 以及 Brotli 上游都已经发布新版本进行修复。查看全文：https://ourl.co/127592&lt;/p&gt;&lt;p&gt;网络安全公司 Aikido Security 日前发布报告称，原先被称为 Node2Shell 的安全漏洞影响范围已经扩展到更多使用 Brotli 解压的 HTTP 软件，这家安全公司将其称为 HTTP2Shell 问题。&lt;/p&gt;
-&lt;p&gt;需要说明的是这个问题本身仍然是 Brotli 解码器漏洞并非新的 CVE，只是漏洞影响范围非常大，安全公司希望为这个问题设置专门的命名提高行业关注和推动软件更新进行修复。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127592.png" rel="nofollow"&gt;&lt;img alt="Brotli数据压缩格式漏洞波及多种HTTP软件 安全公司称之为HTTP2Shell系列问题" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127592.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 26 Oct 2026 05:00:00 +0000</pubDate></item><item><title>开源项目GPU Unlock让RTX 30系显卡AI吞吐提升近60% 可以本地运行量化模型</title><link>https://www.landian.news/archives/127672.html</link><description>
+&lt;p&gt;#开源项目 GPU Unlock 项目：可以让 RTX 30 系显卡 AI 吞吐提升近 60%，结果后本地运行量化模型性能明显提升。使用 RTX 3090 Ti 进行 8192³ 稠密矩阵乘法测试，测试结果如下：FP16 性能从 87.46 提升到 118.39；BF16 从 87.50 提升到 157.41；TF32 从 42.58 提升到 82.61 TFLOPS。项目适用于 RTX 3090、支持部分 3080/3070/3060 显卡。查看全文：https://ourl.co/127672&lt;/p&gt;&lt;p&gt;开发者 @Zagitta 日前发布开源项目 GPU Unlock，该项目可以释放部分英伟达安培架构显卡的算力。项目通过 Linux 内核模块在英伟达驱动接管显卡前调整硬件速度选择器，让特定 FP16/BF16 运算的指令发射速率翻倍。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127672.png" rel="nofollow"&gt;&lt;img alt="开源项目GPU Unlock让RTX 30系显卡AI吞吐提升近60% 可以本地运行量化模型" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127672.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Brotli 是谷歌开发的数据压缩格式并且常用于网页和 API 流量，此次出现的漏洞位于 Brotli 解码器：特制压缩数据可能触发异常的区块切换，让解码器错误处理输入并发生越界写入进而造成进程崩溃、内存信息泄露或在特定条件下执行攻击者代码。&lt;/p&gt;
-&lt;p&gt;因此使用 HTTP 本身不会自动触发漏洞，关键条件是软件运行着含有漏洞的 Brotli 解码器，并且还要对攻击者可以控制的数据进行解压。&lt;/p&gt;
+&lt;p&gt;GPU Unlock 面向 GA102/103/104/106 芯片，覆盖 RTX 3090、部分 RTX 3080/3070 以及 RTX 3060 显卡。项目提高的是 FP16 或 BF16 输入、FP32 累加的 FMA 运算指令发射速率，目标是达到专业卡的水平。&lt;/p&gt;
+&lt;p&gt;项目把内核模块和固件操作放在启动阶段，在英伟达驱动加载前修改 GPU 速度选择器并执行功能级复位，之后由未修改的英伟达驱动正常接管显卡。项目本身不修改驱动程序、不永久刷新显卡 VBIOS、启用需要配置 Linux 内核启动参数。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Node.js 官方已经为 22.x、24.x 和 26.x 发布修复版本，修复版本分别为 22.23.4、24.22.1 和 26.12.1 版；Bun 在 1.4.4 版中修复相关解码器问题；Python 环境则应该将 Brotli 更新到 1.2.1 版，或将 brotlicffi 更新至 1.2.10 版。谷歌 Brotli 上游还发布 1.0.10、1.1.1 和 1.2.1 等修复版本。&lt;/p&gt;
-&lt;p&gt;这些版本属于不同的软件包和运行环境，安装其中一个更新不会自动修复其他独立安装的解码器。容器、应用依赖和系统软件包也需要分别检查，若软件提供方尚未提供更新，可以暂时关闭对应组件的 Brotli 解压功能。&lt;/p&gt;
+&lt;p&gt;项目以功耗上限 450W 的 RTX 3090 Ti 显卡进行 8192³ 稠密矩阵乘法测试，采用五次测试的中位数。其中 FP16 性能从 87.46 提升到 118.39 TFLOPS，性能增加 35%；BF16 从 87.50 提升到 157.41 TFLOPS，性能增加 80%；TF32 从 42.58 提升到 82.61 TFLOPS，性能增加 94%。&lt;/p&gt;
+&lt;p&gt;有 RTX 3090 Ti 用户在 ComfyUI 中测试图像和视频生成，其中 MOSS-Image SFT、Qwen-Image 2.1 Turbo 和 Z-Image Turbo 的 BF16 吞吐量分别提升 58.6%、57.2% 和 56.1%，MOSS 的 INT8 测试只提升 0.3%。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Imperva 研究团队报告称，该团队在 Node.js 24.22.0 Linux ARM64 构建上，通过特制 Brotli 数据在应用测试中实现代码执行。测试覆盖请求正文解压和 Node.js fetch 解压响应两条路径，不过并非每次都能成功。&lt;/p&gt;
-&lt;p&gt;研究团队也在 Node.js 修复版本 24.22.1 上验证发现攻击已经无法奏效，所以对使用 Brotli 或使用包含 Brotli 环境的开发者来说，也需要尽快更新各类软件修复漏洞。&lt;/p&gt;
+&lt;p&gt;GPU Unlock 所说的性能翻倍主要针对特定 Tensor Core 指令发射速率，矩阵乘法基准和部分 BF16 图像生成受益比较明显，但 INT8 任务、受显存带宽限制的 LLM 解码等场景性能提升有限。&lt;/p&gt;
+&lt;p&gt;即便显卡型号在支持列表内，具体提升也会随芯片、功耗上限和工作负载存在区别，例如在测试中 RTX 3080 Ti 20GB 版完成解锁后，BF16 仍然维持原来的速率，并没有显著提升。&lt;/p&gt;
+&lt;p&gt;访问项目：&lt;a href="https://www.landian.news/go?url=https://github.com/Zagitta/gpu-unlock/blob/main/README.md" rel="noopener" target="_blank"&gt;https://github.com/Zagitta/gpu-unlock/blob/main/README.md&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 26 Oct 2026 04:00:00 +0000</pubDate></item><item><title>喜报！微软测试在Windows 11中添加原生网络测速 不需要再跳转到浏览器</title><link>https://www.landian.news/archives/127604.html</link><description>
+&lt;p&gt;#系统资讯 喜报！微软测试在 Windows 11 中添加原生网络测速功能，不需要再打开浏览器跳转到必应搜索测速。之前微软添加的测速就是自动打开必应搜索网页版，然后这个功能被很多用户吐槽。现在微软将其变成 Windows 11 的原生功能，测试结果也都在桌面直接显示。查看全文：https://ourl.co/127604&lt;/p&gt;&lt;p&gt;此前微软已经在 Windows 11 快速设置中添加网络测速选项，不过该选项在推出后引起诸多用户吐槽，因为点击测速后实际会打开必应搜索通过网页进行测速，而非 Windows 11 内置的原生测速功能。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127604-1.png" rel="nofollow"&gt;&lt;img alt="https://img.lancdn.com/landian/2026/10/127604T.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127604-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在 Windows 11 Build 26340.9767 测试版中，微软测试基于系统内置的测速功能，当用户点击测速按钮时将弹出原生对话框进行测速，不再自动打开浏览器和跳转到必应搜索网页版进行测速。&lt;/p&gt;
+&lt;p&gt;新的内置测速功能依然由 Ookla SpeedTest 提供，测速结果页面会显示上传带宽、下载带宽、PING 值方便用户直接观察测速结果，整个流程比之前通过浏览器打开网页测速体验要好很多。&lt;/p&gt;
+&lt;p&gt;入口方面保持不变：用户可以鼠标右键点击任务栏右下角的网络图标选择执行速度测试，或者点击快速操作面板的网络，进入网络二级菜单后选择测速。&lt;/p&gt;
+&lt;p&gt;最后新变更目前仅在实验版中提供，Windows 11 正式版暂时还不能使用内置的测速功能。不过待微软测试完成后应该就会通过累积更新推送给正式版用户，所以使用正式版的用户请耐心等待。&lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://www.imperva.com/blog/node2shell-from-brotli-data-to-remote-code-execution/" rel="noopener" target="_blank"&gt;Imperva&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://www.neowin.net/opinions/microsoft-heard-my-complaints-windows-11-finally-getting-proper-internet-speed-test-tool/" rel="noopener" target="_blank"&gt;NEOWIN&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 24 Oct 2026 06:00:37 +0000</pubDate></item><item><title>PHP基金会披露尚未修复的新漏洞 提供缓解方案但暂时不会发新版本修复</title><link>https://www.landian.news/archives/127591.html</link><description>
-&lt;p&gt;#安全资讯 PHP 基金会公布新漏洞，不过该漏洞触发条件比较少见所以暂时不会发布紧急版本进行修复。新漏洞编号 CVE-2026-115560，该漏洞也存在远程代码执行风险。对于受影响的部署，关闭上传进度显示功能即可，待后续发布新版本彻底修复后再重新开启。查看全文：https://ourl.co/127591&lt;/p&gt;&lt;p&gt;PHP 基金会在 10 月 24 日发布公告披露编号为 CVE-2026-115560 的远程代码执行漏洞风险，不过这个漏洞暂时不会通过发布新版本进行修复，因为漏洞需要特定配置与应用代码组合才可能触发，即危害度相对来说没有那么高。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127591.png" rel="nofollow"&gt;&lt;img alt="" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127591.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 26 Oct 2026 03:30:00 +0000</pubDate></item><item><title>日本GMO旗下云桌面服务遭到攻击 由于各种低级配置失误 黑客已获取所有信息</title><link>https://www.landian.news/archives/127603.html</link><description>
+&lt;p&gt;#安全资讯 日本上市公司 GMO 互联网集团旗下的云桌面服务 お名前.com Desktop Cloud 遭到黑客攻击，黑客直指该系统存在多种低级配置问题。整个系统架构采用微软 AD 管理，可以横向连接到其他服务器。GMO 还使用通用的超级管理员账户来访问客户服务器，访问后超管凭证可能还会泄露给客户机。查看全文：https://ourl.co/127603&lt;/p&gt;&lt;p&gt;日本上市公司 GMO 互联网集团旗下的云桌面服务 (お名前.com Desktop Cloud) 遭到黑客攻击，GMO 集团已经确认客户信息被黑客窃取。该产品主要为 FX 外汇交易等提供服务，因此部分交易账号也收到异常操作报告。&lt;/p&gt;
+&lt;p&gt;根据 GMO 集团最新公布的信息，26739 台服务器全部都在影响范围内，目前 GMO 集团已经停止所有套餐并准备向受影响的用户提供补偿，其中若黑客操作给用户造成损失，GMO 也将按照实际损失金额提供赔偿。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127603.png" rel="nofollow"&gt;&lt;img alt="日本GMO旗下云桌面服务遭到攻击 由于各种低级配置失误 黑客已获取所有信息" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127603.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;根据目前已知情况，该漏洞需要同时满足多种条件后才能触发：应用配置将 &lt;code&gt;session.serialize_handler&lt;/code&gt; 设置为 &lt;code&gt;php_binary&lt;/code&gt; 或 &lt;code&gt;php_serialize&lt;/code&gt;，随后在运行时通过 &lt;code&gt;ini_set()&lt;/code&gt; 将其切换为 &lt;code&gt;php&lt;/code&gt;，在切换后调用 &lt;code&gt;session_start()&lt;/code&gt;。同时 &lt;code&gt;session.upload_progress.enabled&lt;/code&gt; 还需要处于启用状态。&lt;/p&gt;
-&lt;p&gt;session.serialize_handler 用于控制 PHP 读写会话数据时使用的序列化格式，PHP 称如果应用不在运行时切换到该处理器，可以继续使用上传进度功能。官方将这种配置组合评估为实际应用中比较少见的情况。&lt;/p&gt;
+&lt;p&gt;黑客在 10 月 24 日 15 时发布的页面称，这项云服务的 VPS 网络通过 Microsoft Active Directory 管理，存在横向连接到其他服务器的路径，并且还具备广泛管理员权限的账户。若 GMO 支持工程师连接到客户 VPS 服务器，客户就有可能获得相关通用凭证。&lt;/p&gt;
+&lt;p&gt;简单来说就是 GMO 使用某个具有所有服务器管理权限的超级管理员账户来访问客户服务器 (而且超管凭证还可能被留存在客户机上)，这种做法直接让人摸不着头脑，因为任何情况下的不慎泄露都有可能造成严重的安全问题。&lt;/p&gt;
+&lt;p&gt;黑客还指责 GMO 的远程桌面配置也存在低级失误，若本地磁盘重定向默认开启，电脑磁盘会映射到远程桌面会话，攻陷 VPS 服务器后就可以接触到其中的共享文件 (通常是 GMO 云服务的内部文件)。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 黑客已窃取客户数据要求 GMO 支付 100 万美元赎金：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;黑客称 GMO 云服务的相关架构缺陷自 2019 年就存在，通过这些缺陷黑客已经窃取所有服务器的客户数据并植入后门程序。黑客要求 GMO 集团在 10 月 27 日前支付 100 万美元的赎金，否则后续这些客户数据将会被公开发布。&lt;/p&gt;
+&lt;p&gt;GMO 集团已经明确说明拒绝勒索要求，该集团将通信记录交给日本警方，同时联系证券交易公司和外汇公司协助阻止异常交易、切断活跃的会话等，但客户已经被窃取的其他敏感数据可能存在被公开的风险。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;最新漏洞与早前 PHP 发布新版本修复的 PHP2Shell 漏洞是不同的，鉴于该漏洞的触发方式比较少见，所以 PHP 基金会暂时提供缓解方案供可能受影响的开发者使用，后续将发布新版本进行彻底修复。&lt;/p&gt;
-&lt;p&gt;PHP 基金会建议受影响的用户将 &lt;code&gt;session.upload_progress.enabled&lt;/code&gt; 设置为 &lt;code&gt;0&lt;/code&gt; 并保持该设置，直到安装包含修复的常规版本，此前已经关闭上传进度功能的环境不需要重复调整。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://www.php.net/archive/2026.php#2026-10-23-1" rel="noopener" target="_blank"&gt;PHP基金会&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在 10 月 19 日收到客户反馈的异常后，GMO 在 10 月 20 日发现服务器存在恶意程序，从 10 月 21 日凌晨起陆续停服。目前 Desktop Cloud 旧产品底座已经全部停用，GMO 不会按照原样重启系统底座，同时要重建安全架构。&lt;/p&gt;
+&lt;p&gt;另外 GMO 将为所有受影响的客户提供 5000 日元约人民币 212 元的补偿，对于交易账号被窃取导致的损失，GMO 集团也将提供赔付。赔付范围以已实现的交易差损和相关手续费为限，按照这种说法用户应该不会遭受巨大损失。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 24 Oct 2026 05:30:36 +0000</pubDate></item><item><title>谷歌更新隐私政策宣布可能会根据用户邮件/相册/网盘/日历等数据投放个性化广告</title><link>https://www.landian.news/archives/127590.html</link><description>
-&lt;p&gt;#行业资讯 谷歌更新隐私政策宣布可能会读取用户邮箱、谷歌相册和谷歌云端硬盘等应用中的数据投放个性化广告。需要明确的是，广告主不能直接接触用户的数据，而是用户授权这些应用使用 AI 模式后，AI 模式可能会生成摘要、摘录和推断。谷歌会根据这些摘要等机器生成数据来投放定向广告，用户也可以在账号管理里切断已连接应用不再授权搜索服务。查看全文：https://ourl.co/127590&lt;/p&gt;&lt;p&gt;谷歌在 10 月 16 日生效的隐私政策目前引起社区关注，新版隐私政策中用户可以授权搜索等服务读取 Gmail、谷歌相册和谷歌云端硬盘中的数据用于个性化体验。而搜索服务也可能处理获准访问的信息来个性化内容，包括谷歌的在线广告服务。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127590.png" rel="nofollow"&gt;&lt;img alt="谷歌更新隐私政策宣布可能会根据用户邮件/相册/网盘/日历等数据投放个性化广告" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127590.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 26 Oct 2026 03:00:00 +0000</pubDate></item><item><title>警惕扳手攻击：知名硬件钱包Keystone数据泄露 用户姓名/电话/住址等被黑客获取</title><link>https://www.landian.news/archives/127602.html</link><description>
+&lt;p&gt;#加密货币 扳手攻击：知名加密钱包 Keystone 数据泄露，用户姓名、联系电话、住址等被黑客窃取，已经有用户接到诈骗电话。Keystone 自称会在 180 天内删除用户订单信息，但事实似乎是数据被长期保留。而个人信息泄露后用户可能会遭遇扳手攻击，即犯罪团伙根据信息在现实世界中跟踪目标进行绑票强迫用户交出加密货币。查看全文：https://ourl.co/127602&lt;/p&gt;&lt;p&gt;业界知名的加密货币硬件钱包 Keystone 日前发布公告称，其官网在 10 月 20 日遭到未经授权的访问。核对 Shopify API 活动后，该公司确认黑客已经获得客户姓名、联系方式、收货地址、订单详情以及购买的商品和价格等。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127602.png" rel="nofollow"&gt;&lt;img alt="警惕扳手攻击：知名硬件钱包Keystone数据泄露 用户姓名/电话/住址等被黑客获取" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127602.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;谷歌的个人智能可以将邮箱、相册和云端硬盘等服务连接到 Gemini AI 或搜索服务，让 AI 模型参考邮件或照片中的信息回答问题。例如当用户咨询旅行建议时，AI 模式可以参考酒店预订邮件提供更贴合行程的推荐等。&lt;/p&gt;
-&lt;p&gt;隐私政策更新为这类跨应用数据使用明确增加广告相关条款，即广告可能会结合用户的搜索问题、AI 回答的内容、兴趣以及连接应用产生的相关信息进行个性化。&lt;/p&gt;
+&lt;p&gt;Keystone 公开发布声明前，已经有用户在社交媒体上发帖称自己接到伪装为美国蒙特利尔警方的电话。来电者自称是警方并且已经逮捕涉嫌诈骗的犯罪团伙，询问用户是否购买过亚马逊、eBay 或 Keystone 产品。&lt;/p&gt;
+&lt;p&gt;诈骗者向用户提供的 Keystone 购买信息与用户实际订单信息相符，但用户察觉这是诈骗电话，于是在社交媒体上发帖并艾特 Keystone 官方反馈此次安全事件。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;谷歌在帮助页面中表示，广告不会直接依据用户的邮件或照片库投放，但用户连接内容应用后，搜索服务可以参考中的摘要、摘录和推断来个性化用户体验，这些信息也可能用于展示广告。&lt;/p&gt;
-&lt;p&gt;广告主无法直接访问用户的邮件和任何照片内容，谷歌也不会依据用户种族、宗教、性取向或健康等敏感信息来投放定向广告。因此政策变化主要涉及用户授权后，个人内容经过搜索服务处理形成的信息可能成为广告个性化依据。&lt;/p&gt;
+&lt;p&gt;Keystone 当前仅公开确认其订单信息遭到未经授权的访问，但并没有透露此次安全事件的时间范围，即什么时间范围内购买 Keystone 钱包的订单受影响。问题是 Keystone 没有透露时间范围，不得不让人怀疑所有订单信息都被窃取。&lt;/p&gt;
+&lt;p&gt;Keystone 确认用户的支付信息、钱包密钥等信息都是安全的，所以用户在钱包里存储的加密货币不需要转移，只是接下来需要提防各类扳手攻击和社会工程学攻击。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;谷歌将连接应用视为主动授权因此用户可以随时断开，连接 Gmail、日历或谷歌相册等应用后，授权范围可能覆盖多个搜索服务，包括谷歌搜索 AI 模式、谷歌发现、谷歌地图、谷歌购物、谷歌航班、谷歌酒店、谷歌翻译和谷歌新闻。&lt;/p&gt;
-&lt;p&gt;用户可以在谷歌账户的数据与隐私设置中检查个性化设置及搜索服务个性化推荐选项，查看已经连接的内容应用。在这里用户也可以主动断开相关应用的连接，不再授权谷歌使用这些数据。&lt;/p&gt;
+&lt;p&gt;所谓扳手攻击指的是：没有黑客能力的犯罪团伙直接购买价值 5 美元的扳手，然后跟踪目标并采取绑架、殴打、入室抢劫或死亡威胁等现实世界中的物理暴力手段，强迫受害者解锁加密货币钱包、交出私钥或转走数字资产的犯罪行为。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; Keystone 没有按规定在 180 日内删除用户信息：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;值得注意的是，根据 Keystone 隐私承诺页面所述，客户配送信息会在下单 180 天内自动删除。其 2026 年 7 月更新的隐私政策写明：若客户在过去 180 天内没有再次下单，公司会删除其订单信息。&lt;/p&gt;
+&lt;p&gt;而用户提到的是 2024 年的订单，这似乎意味着 Keystone 并没有按照自己的规定在 180 天内删除用户信息，而是将用户信息长期保留，这也给 Keystone 用户造成潜在的扳手攻击风险。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/126851.html" title="扳手攻击：Revolut被钓鱼 向诈骗团伙泄露用户护照和自拍照等多种敏感数据"&gt;&lt;h3&gt;扳手攻击：Revolut被钓鱼 向诈骗团伙泄露用户护照和自拍照等多种敏感数据&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#安全资讯 扳手攻击：金融科技公司 Revolut 遭钓鱼，向诈骗团伙泄露用户护照和自拍照等多种敏感数据。诈骗团伙设法获得某政府机构的域名邮箱，…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/tech/security"&gt;安全资讯&lt;/a&gt;, &lt;a href="https://www.landian.news/tech"&gt;科技资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2026年9月14日 12:02&lt;/span&gt;&lt;span title="浏览数量"&gt;4.32K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 24 Oct 2026 05:00:34 +0000</pubDate></item></channel></rss>
+</description><pubDate>Mon, 26 Oct 2026 02:30:00 +0000</pubDate></item></channel></rss>
