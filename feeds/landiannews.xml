@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sun, 25 Oct 2026 09:12:31 +0000</lastBuildDate><item><title>服务器提供商VMISS出现安全问题 独立服务器初始密码泄露需立即更改</title><link>https://www.landian.news/archives/127598.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 26 Oct 2026 01:30:00 +0000</lastBuildDate><item><title>真热闹！爱好者们使用eMudhra泄露证书为谷歌签发10.6万张证书 能通过CA公钥认证</title><link>https://www.landian.news/archives/127600.html</link><description>
+&lt;p&gt;#行业资讯 真热闹！爱好者们使用 eMudhra 泄露的证书为谷歌签发 10.6 万张证书，能通过 CA 公钥认证。目前 CT 日志公开记录的提交达到 10.7 万条 (用泄露证书签发的)，其中适用于 Google.com 域名的为 10.6 万条，占比 99%。这些证书可以通过 CA 公钥认证但由于中间 CA 已经被吊销，所以浏览器访问时会报错。但如果在不检查吊销日志的环境中，那是可以直接访问的。查看全文：https://ourl.co/127600&lt;/p&gt;&lt;p&gt;上周印度草台公司 eMudhra 证书私钥问题引起全行业的关注，该公司签发的 8 张中间 CA 证书均使用弱密钥，其中 EM OV TLS CA – G3C 证书的私钥更是夸张到只有数字 4，因此任何人都可以直接使用这个证书为其他域名签发子证书。&lt;/p&gt;
+&lt;p&gt;不过这些问题证书目前已经被浏览器和操作系统吊销，但某些设备可能不会检查证书吊销列表或无法获得更新，那被吊销的证书仍然被信任，用来签发的子证书也还是可以使用的。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127600.png" rel="nofollow"&gt;&lt;img alt="真热闹！爱好者们使用eMudhra泄露证书为谷歌签发10.6万张证书 能通过CA公钥认证" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127600.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;要测试使用 eMudhra 为任意域名签发证书，首选域名当然是谷歌 (就像国内用户检查是否联网就打开百度)，于是目前 CT 证书透明度日志已经记录到爱好者们为谷歌主域名 Google.com 签发高达 10.6 万张证书。&lt;/p&gt;
+&lt;p&gt;目前证书透明度日志记录到的签发记录达到 10.7 万条，其中 99% 都是以谷歌域名作为测试对象的。这些证书可以通过 CA 公钥认证，但由于中间证书已经被浏览器吊销，因此实际访问时会出现阻断 (除非无法检查吊销记录)。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;因为证书签发和 CT 日志登记是不同的流程，正常情况下 CA 核验域名控制权后使用中间 CA 私钥签发证书。持有泄露私钥的人则可以在本地制作证书，把任意域名写入到 DNS 名称字段，再使用该私钥进行签名。&lt;/p&gt;
+&lt;p&gt;RFC 9162 规定任何人都可以向 CT 日志提交证书并附上证书链供日志检查，CT 日志负责记录和公开证书供外界审查 CA 签发情况，不负责替 CA 审核域名控制权。所以爱好者们在签发证书时如果向 CT 日志提交那就可以被检查到。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/127491.html" title="印度证书颁发机构eMudhra泄露8张证书私钥引起互联网地震 大量软件发布更新吊销证书"&gt;&lt;h3&gt;印度证书颁发机构eMudhra泄露8张证书私钥引起互联网地震 大量软件发布更新吊销证书&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#安全资讯 印度证书颁发机构 eMudhra/emSign 泄露 8 张证书私钥引起互联网地震，大量浏览器和框架类软件发布更新封锁问题证书。这些…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/tech/security"&gt;安全资讯&lt;/a&gt;, &lt;a href="https://www.landian.news/tech"&gt;科技资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2026年10月21日 09:50&lt;/span&gt;&lt;span title="浏览数量"&gt;13.44K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
+&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/127579.html" title="这家印度草台公司宣布退出CA业务 此前8张中级证书被系统和浏览器行业集体封锁"&gt;&lt;h3&gt;这家印度草台公司宣布退出CA业务 此前8张中级证书被系统和浏览器行业集体封锁&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#行业资讯 感谢谷歌，谷歌对这家印度草台公司施压后，eMudhra 决定自己退出 SSL/TLS 证书业务。在 8 张中间证书被撤销后 eMud…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/tech"&gt;科技资讯&lt;/a&gt;, &lt;a href="https://www.landian.news/tech/industry"&gt;行业资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2026年10月22日 22:11&lt;/span&gt;&lt;span title="浏览数量"&gt;11.74K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
+&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/127599.html" title="谷歌指责印度eMudhra延迟发布事故报告 其员工称社交媒体关注让公司难以开展调查"&gt;&lt;h3&gt;谷歌指责印度eMudhra延迟发布事故报告 其员工称社交媒体关注让公司难以开展调查&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#行业资讯 谷歌和谋智基金会指责 eMudhra 延迟发布事故报告，其员工竟然称社交媒体关注让团队难以开展调查。谷歌员工表示，公众关注是这起事故…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/tech"&gt;科技资讯&lt;/a&gt;, &lt;a href="https://www.landian.news/tech/industry"&gt;行业资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2026年10月26日 09:00&lt;/span&gt;&lt;span title="浏览数量"&gt;0.89K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://bugzilla.mozilla.org/show_bug.cgi?id=2083449" rel="noopener" target="_blank"&gt;Bugzilla&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 26 Oct 2026 01:30:00 +0000</pubDate></item><item><title>谷歌指责印度eMudhra延迟发布事故报告 其员工称社交媒体关注让公司难以开展调查</title><link>https://www.landian.news/archives/127599.html</link><description>
+&lt;p&gt;#行业资讯 谷歌和谋智基金会指责 eMudhra 延迟发布事故报告，其员工竟然称社交媒体关注让团队难以开展调查。谷歌员工表示，公众关注是这起事故的可预见后果，不能让公众关注成为延迟发布事故调查报告的理由。早前 eMudhra 已经以此次事故影响公司声誉和 CA 业务不赚钱为由退出 CA 行业，可见 eMudhra 关注的从来都不是安全问题。查看全文：https://ourl.co/127599&lt;/p&gt;&lt;p&gt;印度数字认证基础设施公司 eMudhra 日前就证书调查报告问题发布回应，这家草台公司竟然认为社交媒体审视、投资者和客户分析让团队无法开展有意义的调查。这种回应立即引起谷歌员工的不满，谷歌员工和谋智基金会员工均指责 eMudhra 试图推卸责任。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127599.png" rel="nofollow"&gt;&lt;img alt="谷歌指责印度eMudhra延迟发布事故报告 其员工称社交媒体关注让公司难以开展调查" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127599.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在 Bugzilla 讨论线程中行业相关人士要求 eMudhra 公司尽快发布事故调查报告，不过 eMudhra 多次推迟发布调查报告，给出的原因竟然是社交媒体和行业的关注让该公司无法开展有意义的调查。&lt;/p&gt;
+&lt;p&gt;随后谷歌根证书项目成员发布评论称，公众关注是这起事故的可预见后果，不能让公众关注成为延迟回应的理由。谋智基金会员工也认同谷歌的关切，要求 eMudhra 公司履行对社区的责任。&lt;/p&gt;
+&lt;p&gt;公众讨论确实可能会给 eMudhra 带来压力，但这不会妨碍该公司继续检查密钥生成脚本、各类记录和硬件安全模块日志。eMudhra 将外界审视与无法调查直接联系起来，容易让人觉得 eMudhra 首先关心的是舆论环境而非尽快拿出可供审查的事故调查报告。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在讨论线程中谷歌和谋智基金会就此次证书事故提出以下问题：密钥生成流程具体出了什么错、为什么 2025 年发现 CRL 签名与证书不匹配时没有继续追查、此前的事故报告中为什么没有说明存在第二组密钥。&lt;/p&gt;
+&lt;p&gt;这些问题需要脚本、操作记录和时间线来回答，CA 业务是全球互联网安全的基石，eMudhra 这种一走了之的不负责任做法让行业非常不满。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; eMudhra 退出 CA 业务是受声誉问题影响而非关心安全：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;值得注意的是，eMudhra 此前已经宣布退出全球 TLS/SSL 证书业务，不过在退出声明中 eMudhra 强调的是证书业务占公司营收不足 1%、此次安全事故给公司声誉造成严重影响。&lt;/p&gt;
+&lt;p&gt;可以看到这家草台公司真正关心的并不是互联网安全问题，而是能不能赚钱以及现在这种情况怎么弃车保帅。尽管 eMudhra 强调后续会发布详细的调查报告，但考虑到 eMudhra 已经决定跑路，没人知道后面发布的调查报告是否足够详细。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/127491.html" title="印度证书颁发机构eMudhra泄露8张证书私钥引起互联网地震 大量软件发布更新吊销证书"&gt;&lt;h3&gt;印度证书颁发机构eMudhra泄露8张证书私钥引起互联网地震 大量软件发布更新吊销证书&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#安全资讯 印度证书颁发机构 eMudhra/emSign 泄露 8 张证书私钥引起互联网地震，大量浏览器和框架类软件发布更新封锁问题证书。这些…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/tech/security"&gt;安全资讯&lt;/a&gt;, &lt;a href="https://www.landian.news/tech"&gt;科技资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2026年10月21日 09:50&lt;/span&gt;&lt;span title="浏览数量"&gt;13.44K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
+&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/127579.html" title="这家印度草台公司宣布退出CA业务 此前8张中级证书被系统和浏览器行业集体封锁"&gt;&lt;h3&gt;这家印度草台公司宣布退出CA业务 此前8张中级证书被系统和浏览器行业集体封锁&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#行业资讯 感谢谷歌，谷歌对这家印度草台公司施压后，eMudhra 决定自己退出 SSL/TLS 证书业务。在 8 张中间证书被撤销后 eMud…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/tech"&gt;科技资讯&lt;/a&gt;, &lt;a href="https://www.landian.news/tech/industry"&gt;行业资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2026年10月22日 22:11&lt;/span&gt;&lt;span title="浏览数量"&gt;11.74K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://bugzilla.mozilla.org/show_bug.cgi?id=2083449#c39" rel="noopener" target="_blank"&gt;Bugzilla #2083449&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 26 Oct 2026 01:00:00 +0000</pubDate></item><item><title>服务器提供商VMISS出现安全问题 独立服务器初始密码泄露需立即更改</title><link>https://www.landian.news/archives/127598.html</link><description>
 &lt;p&gt;#云计算 服务器提供商 VMISS 出现安全问题，独立服务器初始密码泄露需立即修改。10 月 25 日黑客访问 VMISS 用于管理独立服务器的 DCIM 系统并获得用户服务器的 IP 和系统初始密码。如果用户并未需改过密码则服务器可能已经入侵，但如果修改过密码或仅限密钥对登录则不受影响。另外此次问题不影响 VMISS VPS 服务器，仅影响独立服务器。查看全文：https://ourl.co/127598&lt;/p&gt;&lt;p&gt;服务器提供商 VMISS 通过邮件发布新的安全通知，VMISS 独立服务器管理系统 DCIM 遭到黑客的访问，黑客可能获得大量独立服务器的系统初始密码并使用该密码登录服务器执行操作。&lt;/p&gt;
 &lt;p&gt;如果你使用 VMISS 的独立服务器且从未修改过系统生成的默认密码，则需要立即修改密码最好重装系统。此次问题不涉及 VMISS 的虚拟服务器 (VPS)，使用 VMISS VPS 的用户不需要执行操作。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127598.png" rel="nofollow"&gt;&lt;img alt="服务器提供商VMISS出现安全问题 独立服务器初始密码泄露需立即更改" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127598.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -93,26 +129,4 @@
 &lt;p&gt;谷歌将连接应用视为主动授权因此用户可以随时断开，连接 Gmail、日历或谷歌相册等应用后，授权范围可能覆盖多个搜索服务，包括谷歌搜索 AI 模式、谷歌发现、谷歌地图、谷歌购物、谷歌航班、谷歌酒店、谷歌翻译和谷歌新闻。&lt;/p&gt;
 &lt;p&gt;用户可以在谷歌账户的数据与隐私设置中检查个性化设置及搜索服务个性化推荐选项，查看已经连接的内容应用。在这里用户也可以主动断开相关应用的连接，不再授权谷歌使用这些数据。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 24 Oct 2026 05:00:34 +0000</pubDate></item><item><title>OpenAI宣布其前沿模型训练不再连接实时互联网 避免模型再越狱发起攻击</title><link>https://www.landian.news/archives/127589.html</link><description>
-&lt;p&gt;#人工智能 OpenAI 宣布其前沿模型训练不再连接实时互联网，避免模型再利用各类缺陷逃逸到互联网后发起攻击。此次调整源于 9 月 20 日的越狱事件，当时其内部研究模型利用 DNS 配置错误获得有限的实时互联网权限。随后 OpenAI 暂停最强模型的训练与评估，在强化隔离和监控后在 10 月 1 日重新恢复训练。查看全文：https://ourl.co/127589&lt;/p&gt;&lt;p&gt;人工智能公司 OpenAI 日前发布博客宣布后续该公司的前沿模型训练将不再连接实时互联网，训练和评估过程将改用网页缓存及模拟环境。切断实时互联网访问权限的主要原因是，研发阶段的模型尚未完成安全训练，能力增强后也更可能突破限制并影响外部系统。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127589.png" rel="nofollow"&gt;&lt;img alt="OpenAI宣布其前沿模型训练不再连接实时互联网 避免模型再越狱发起攻击" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127589.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;9 月 20 日 OpenAI 内部研究模型利用 DNS 解析器的配置错误，获得有限的实时互联网访问权限。OpenAI 发现问题并在随后暂停最强模型的训练与评估，在强化隔离和监控措施后在 10 月 1 日恢复强化学习训练及内部推理。&lt;/p&gt;
-&lt;p&gt;OpenAI 称训练环境中的模型会接受对抗性测试，可能需要搜索资料、下载软件包和操作网页应用。为继续训练这些能力，OpenAI 在内部建立包含索引和缓存网页内容的离线互联网环境，供模型在不直接访问外部网站的情况下练习浏览和查找信息。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;此前 OpenAI 的模型在内部训练中出现多次安全问题，包括利用内部软件缺陷互相沟通并逃逸到互联网上发起攻击。这些安全事件表明在不受控的情况下模型可能会给真实世界造成安全问题，所以加强模型在训练过程中的安全评估至关重要。&lt;/p&gt;
-&lt;p&gt;OpenAI 希望通过这次调整切断模型实时互联网访问权限降低安全问题的发生概率，不过这仅限于内部评估环境，用户使用的已经发布的模型产品环境与之不同，这些模型可以继续实时访问互联网获取信息。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 24 Oct 2026 04:30:33 +0000</pubDate></item><item><title>苹果公布iPhone Duo官方维修手册 后续将提供零件和维修工具供用户自行维修设备</title><link>https://www.landian.news/archives/127588.html</link><description>
-&lt;p&gt;#手机数码 苹果公布 iPhone Duo 官方维修手册，后续将提供零部件和维修工具供有能力的用户自行维修设备。苹果在维修手册中提到的维修项目包括：内屏、外屏、显示组件、覆盖层、电池、摄像头、主板、USB-C 接口、扬声器、麦克风、震动引擎、外壳和按键等。当然提供维修手册是法律要求，对于普通用户来说想要自行维修难度还是非常大的。查看全文：https://ourl.co/127588&lt;/p&gt;&lt;p&gt;苹果日前为其首款折叠屏设备 iPhone Duo 发布官方维修手册，涵盖多个可更换的零部件、提供电池和碎裂玻璃的安全指南等。手册提供操作步骤、内部结构图及所需的工具，供专业用户自行从苹果购买零件并租用工具进行维修。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127588.png" rel="nofollow"&gt;&lt;img alt="苹果公布iPhone Duo官方维修手册 后续将提供零件和维修工具供用户自行维修设备" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127588.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;苹果在维修手册中提到的维修项目包括：内屏、外屏、显示组件、覆盖层、电池、摄像头、主板、USB-C 接口、扬声器、麦克风、震动引擎、外壳和按键等。苹果提供加热式屏幕拆卸夹具的使用手册，提供排查铰链、指纹识别模块和显示问题的支持文档。&lt;/p&gt;
-&lt;p&gt;折叠屏结构需要拆装多个零部件，电池和屏幕玻璃的维修也有专门的安全要求，苹果建议用户动手前阅读完整的维修手册，确认自己能按照维修手册步骤完成维修工作。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;苹果提供维修手册、维修工具和零部件本质上是因为美国可维修性法律规定，事实上对于智能手机来说维修难度还是比较高的，因此除非用户具有一定的专业素养否则不建议自行进行维修，否则可能在拆机阶段就会翻车。&lt;/p&gt;
-&lt;p&gt;另外苹果暂时只发布维修手册，还未在商店提供适用于 iPhone Duo 的可更换零部件，预计可更换零部件和维修工具很快就会提供。其中零部件需要用户付费购买，维修工具可以找苹果租借，也可以通过第三方租借维修工具。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://support.apple.com/en-us/127682" rel="noopener" target="_blank"&gt;Apple Support&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 24 Oct 2026 04:00:31 +0000</pubDate></item></channel></rss>
+</description><pubDate>Sat, 24 Oct 2026 05:00:34 +0000</pubDate></item></channel></rss>
