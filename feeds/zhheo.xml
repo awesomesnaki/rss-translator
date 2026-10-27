@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>张洪Heo</title><link>https://blog.zhheo.com/</link><description>产品设计师、独立开发者、设计与科技领域自媒体博主</description><language>zh-CN</language><lastBuildDate>Mon, 26 Oct 2026 05:10:37 +0000</lastBuildDate><item><title>EncoDeck 上手：Windows 上的多品牌耳机控制中心，不用再为切降噪拿起手机</title><link>https://blog.zhheo.com/p/g10nqrgd.html</link><description>&lt;p&gt;在 Windows 上用无线耳机的人大概都碰过这个场面：想从降噪切到通透，得先摸出手机，解锁，打开欢律，等它连上耳机，点一下，再把手机塞回去。电脑就在眼前，耳机也连着电脑，偏偏这一步非要用手机完成。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>张洪Heo</title><link>https://blog.zhheo.com/</link><description>产品设计师、独立开发者、设计与科技领域自媒体博主</description><language>zh-CN</language><lastBuildDate>Tue, 27 Oct 2026 02:50:43 +0000</lastBuildDate><item><title>iOS27.2支持禁止应用使用摇一摇广告了，不影响导航软件和视频软件</title><link>https://blog.zhheo.com/p/wwo2eeec.html</link><description>&lt;p&gt;iPhone的限制动作数据的获取，在这里主要是想表达关键的两个情况。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;限制动作数据不影响视频软件的横竖屏自动切换。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;限制动作数据不影响导航软件的陀螺仪。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;首先进入隐私与安全。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="隐私" referrerpolicy="no-referrer" src="https://p.zhheo.com/4242020261027022443.png!blogimg"/&gt;&lt;/p&gt;
+&lt;p&gt;选择运动与健身&lt;/p&gt;
+&lt;p&gt;&lt;img alt="运动" referrerpolicy="no-referrer" src="https://p.zhheo.com/1048720261027022511.png!blogimg"/&gt;&lt;/p&gt;
+&lt;p&gt;选择限制运动数据&lt;/p&gt;
+&lt;p&gt;&lt;img alt="限制运动数据" referrerpolicy="no-referrer" src="https://p.zhheo.com/7717620261027022531.png!blogimg"/&gt;&lt;/p&gt;
+&lt;p&gt;点击右上角的编辑&lt;/p&gt;
+&lt;p&gt;&lt;img alt="编辑" referrerpolicy="no-referrer" src="https://p.zhheo.com/2125120261027022556.png!blogimg"/&gt;&lt;/p&gt;
+&lt;p&gt;将所有应用加入到列表中。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="加入列表" referrerpolicy="no-referrer" src="https://p.zhheo.com/7846920261027022622.png!blogimg"/&gt;&lt;/p&gt;
+&lt;p&gt;建议所有软件都加入列表，遇到不可用的情况再解禁。摇一摇说不定将淡出iOS平台，以后将成为安卓专属了。&lt;/p&gt;
+</description><pubDate>Tue, 27 Oct 2026 02:50:43 +0000</pubDate></item><item><title>EncoDeck 上手：Windows 上的多品牌耳机控制中心，不用再为切降噪拿起手机</title><link>https://blog.zhheo.com/p/g10nqrgd.html</link><description>&lt;p&gt;在 Windows 上用无线耳机的人大概都碰过这个场面：想从降噪切到通透，得先摸出手机，解锁，打开欢律，等它连上耳机，点一下，再把手机塞回去。电脑就在眼前，耳机也连着电脑，偏偏这一步非要用手机完成。&lt;/p&gt;
 &lt;p&gt;EncoDeck 干的就是把这一步搬到电脑上。&lt;/p&gt;
 &lt;p&gt;它是个 Windows 应用，用 WinUI 3 写的，Microsoft Store 和 GitHub Releases 都能下。平时只留一个托盘图标，不用一直开着主窗口。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/TIANLI0/EncoDeck" rel="noopener external nofollow" target="_blank"&gt;https://github.com/TIANLI0/EncoDeck&lt;/a&gt;&lt;/p&gt;
@@ -96,26 +110,4 @@
 &lt;p&gt;有个点要留意：这个应用带自动更新。下次它更新会整体替换 App，可能把签名换回原来那一套，问题重现。真出现了重签一次就行。&lt;/p&gt;
 &lt;h2 id="最后"&gt;&lt;a href="#最后" title="最后"&gt;&lt;/a&gt;最后&lt;/h2&gt;&lt;p&gt;照片搬回来之后我按年份过了一遍，2013 年那些瞬间才算真正落到自己硬盘上。有老 QQ 号的话，趁早也搬一份吧。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://qzonephoto.getgit.one/#download" rel="noopener external nofollow" target="_blank"&gt;https://qzonephoto.getgit.one/#download&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 20 Oct 2026 08:15:23 +0000</pubDate></item><item><title>com 域名 11 月 1 日要涨价，我把续费直接拉满到了 2036 年</title><link>https://blog.zhheo.com/p/hokj3zk6.html</link><description>&lt;p&gt;最近域名圈最大的消息，就是 .com 又要涨价了。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="阿里云涨价官网" referrerpolicy="no-referrer" src="https://p.zhheo.com/6086820261014065340.png!blogimg"/&gt;&lt;/p&gt;
-&lt;p&gt;11 月 1 日生效。注册局 VeriSign 今年 4 月 23 日在一季度财报电话会上就确认了，.com 的批发价从每年 10.26 美元涨到 10.97 美元，涨幅 7%。再加上每次都要交的 0.20 美元 ICANN 费，注册商那边的最低成本就从 10.46 美元变成 11.17 美元。&lt;/p&gt;
-&lt;p&gt;批发价涨 7%，到你手里肯定不止 7%。注册商的零售价是在这个基数上加利润的，不少平台还会叠一层支付通道的手续费。所以各家 .com 的续费价格，接下来大概率会一起往上抬。&lt;/p&gt;
-&lt;p&gt;这已经不是第一次了。翻一下这几年的账：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;2021 年 9 月前，8.03 美元&lt;/li&gt;
-&lt;li&gt;2022 年 9 月，8.57 美元&lt;/li&gt;
-&lt;li&gt;2023 年 9 月，9.77 美元&lt;/li&gt;
-&lt;li&gt;2024 年 9 月，10.44 美元&lt;/li&gt;
-&lt;li&gt;2026 年 11 月，11.17 美元&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;五年，接近 40%。VeriSign 这套涨价是按合同来的：每个六年周期里，最后四个定价年，每年最多能涨 7%，它一次没落下。&lt;/p&gt;
-&lt;p&gt;这次从 9 月挪到 11 月，不是发善心，是合同卡着。定价年从每年 10 月 26 日算到次年 10 月 25 日，新周期的头两个定价年不允许涨价，最早能涨的窗口 2026 年 10 月 26 日才开。所以 9 月它根本涨不了，只能挑 11 月 1 日。&lt;/p&gt;
-&lt;p&gt;后面还有。按同样的节奏，2027 年底大概 11.93 美元，2028 年 12.75，2029 年 13.62。合同 2030 年到期后大概率自动续六年，机制一模一样，到 2030 年代中期批发价破 17 美元不是没可能，零售端一年要 22 到 25 美元以上。&lt;/p&gt;
-&lt;p&gt;看到这儿我就一个想法：能提前锁的赶紧锁。&lt;/p&gt;
-&lt;p&gt;大多数注册商允许一次性续最多 10 年。赶在 11 月 1 日之前续，就把现在的价格钉死好几年。晚一天，每多锁一年至少多花 0.71 美元，涨得越凶差得越多。&lt;/p&gt;
-&lt;p&gt;所以我把 zhheo.com 直接拉满了。它现在的到期时间是 2036 年 6 月 15 日，从 2020 年注册到现在，一口气续到了 10 年的上限。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="域名" referrerpolicy="no-referrer" src="https://p.zhheo.com/5871220261014065259.png!blogimg"/&gt;&lt;/p&gt;
-&lt;p&gt;算下来也没什么好犹豫的。这域名是我的博客主站，只要还在写就会一直用，早续晚续都要续，与其每年赌它涨不涨，不如现在按最低价买断十年。真要哪天不用了，那点钱也不心疼。&lt;/p&gt;
-&lt;p&gt;域名在腾讯云 DNSPod，续费页面会直接算到 2036 年，确认一下金额就完事，没什么坑。&lt;/p&gt;
-&lt;p&gt;如果你手上也有打算长期用的 .com，这两天可以去后台看看续费年限，能拉满就拉满。离 11 月 1 日还有半个多月，动作快一点。&lt;/p&gt;
-</description><pubDate>Wed, 14 Oct 2026 06:47:19 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 20 Oct 2026 08:15:23 +0000</pubDate></item></channel></rss>
