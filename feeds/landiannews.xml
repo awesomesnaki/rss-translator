@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 26 Oct 2026 12:50:49 +0000</lastBuildDate><item><title>ChatGPT网页版现在也可以设置强调色/背景色/前景色 不过可能还是默认的比较好</title><link>https://www.landian.news/archives/127679.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 27 Oct 2026 01:30:00 +0000</lastBuildDate><item><title>微软称清理Windows 11预取文件不会释放多少空间 还可能拖慢应用启动速度</title><link>https://www.landian.news/archives/127681.html</link><description>
+&lt;p&gt;#系统资讯 微软事件响应团队 (安全团队) 介绍 Windows 11 预取文件，这是系统为应用建立的缓存，清理后会拖慢应用启动速度。那为什么这份报告由微软安全团队发布呢？因为预取文件也是调查取证中需要提取的文件。对大多数用户来说不需要主动清理预取文件，但如果用户注重减少本机活动痕迹那可以清理，预取文件会记录程序运行次数、最近运行时间和访问路径等信息。查看全文：https://ourl.co/127681&lt;/p&gt;&lt;p&gt;微软事件响应团队日前在名为预取文件与程序执行的文档中介绍 Windows 11 的预取文件 (Prefetch Files)，该团队称删除系统生成的预取文件并不会让系统变得更快，而且删除后还可能导致相关应用程序的启动速度被拖慢。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127681.png" rel="nofollow"&gt;&lt;img alt="微软称清理Windows 11预取文件不会释放多少空间 还可能拖慢应用启动速度" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127681.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;预取文件位于 C:\Windows\Prefetch\ 目录，其中后缀为 PF 的文件记录应用程序启动时访问的文件和目录，帮助系统在下次启动时更快读取所需内容。微软事件响应团队在文档中表示，预取机制通常在应用启动后的 10 秒内收集相关访问信息。&lt;/p&gt;
+&lt;p&gt;预取文件并不是应用程序副本、也不会被整体放到内存中加载，系统会在启动对应应用时读取匹配的预取记录。长期没有启动过的应用程序，其记录也不会持续占用运行内存。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;清理预取文件会移除已经产生的启动记录，因此在应用程序下次运行时系统需要重新收集访问的文件和目录并再次重建预取文件为后续启动建立缓存。而对用户而言系统产生的预取文件通常不会占用太多的系统空间，用户不需要主动删除系统生成的预取文件。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;微软事件响应团队属于安全领域的团队，那为什么这份关于预取文件的报告由微软安全团队发布呢？答案就是预取文件牵涉到系统记录的隐私，简单来说就是在事件调查取证中，预取文件也是需要提取的。&lt;/p&gt;
+&lt;p&gt;对多数用户而言不需要主动清理预取文件因为会影响应用程序启动速度，但对于追求隐私安全的用户来说删除确实是可以的，因为预取文件还保存着应用程序运行次数、最近运行时间和访问路径等信息。注重减少本机活动痕迹的用户可以将清理视为隐私选择。&lt;/p&gt;
+&lt;p&gt;清理方法：打开 C:\Windows\Prefetch\ 全选所有文件并将其删除即可。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/final/en-us/microsoft-brand/documents/IR-Guidebook-Final.pdf" rel="noopener" target="_blank"&gt;微软事件响应团队-预取文件与程序执行&lt;/a&gt;(英文 PDF)&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 27 Oct 2026 01:30:00 +0000</pubDate></item><item><title>Windows 11通用打印故障已经持续半年 微软确认部分旧打印设备需要重新安装</title><link>https://www.landian.news/archives/127680.html</link><description>
+&lt;p&gt;#系统资讯 微软确认 Windows 11 通用打印服务自 4 月以来就存在故障，目前微软无法直接通过更新修复问题。受影响的主要是使用通用打印服务的企业，对于单台受影响的设备，可以删除打印机重新添加。在企业环境中使用则需要 IT 管理员使用微软提供的脚本批量检测和转换打印队列，之后应该就可以正常使用。查看全文：https://ourl.co/127680&lt;/p&gt;&lt;p&gt;微软日前发布支持公告确认自 2026 年 4 月开始，Windows 11 更新导致通用打印服务 (Universal Print) 发生故障，这项故障直到现在还在影响部分从 Windows 10 升级过来的设备。受影响的设备可能无法正常打印，微软无法直接通过更新修复问题，用户需要删除打印机后重新添加。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127680.png" rel="nofollow"&gt;&lt;img alt="Windows 11通用打印故障已经持续半年 微软确认部分旧打印设备需要重新安装" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127680.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 从 Windows 10 升级后打印机可能无法工作：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;微软指出，若使用通用打印服务部署的打印机最初安装在 Windows 10 设备上，之后安装 KB5083769 更新或升级到 Windows 11，用户可能会遇到打印失败问题。KB5083769 在 2026 年 4 月 14 日发布，目前这个问题已经持续半年，更新到 Windows 11 后续版本也可能触发。&lt;/p&gt;
+&lt;p&gt;典型症状包括：打印对话框出现打印机配置问题并显示错误代码 0x80004005，同时打印按钮变成灰色无法点击。从打印机属性打印测试页面时，出现 0x000003e3 错误，微软称这类受影响队列以系统范围安装方式注册。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;对于单个受影响的设备，可以在设置、蓝牙和设备、打印机和扫描仪中删除受影响的打印机再重新添加。重新安装打印机后，打印机将改为当前用户专用队列。在多人共用电脑或虚拟桌面环境中，管理员需要评估这种安装范围变化。&lt;/p&gt;
+&lt;p&gt;IT 管理员可以使用微软提供的 PowerShell 脚本检测并批量转换受影响的打印队列，可以通过 Microsoft Intune 等管理工具部署。微软建议先在测试设备上验证，手动批量操作需要借助 PsExec 并以 SYSTEM 身份运行，适合 IT 管理员进行处理。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://learn.microsoft.com/en-us/universal-print/fundamentals/universal-print-known-issues" rel="noopener" target="_blank"&gt;微软支持文档&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 27 Oct 2026 01:00:00 +0000</pubDate></item><item><title>ChatGPT网页版现在也可以设置强调色/背景色/前景色 不过可能还是默认的比较好</title><link>https://www.landian.news/archives/127679.html</link><description>
 &lt;p&gt;#人工智能 ChatGPT 网页版现在也可以设置强调色 / 背景色 / 前景色，虽然用户可以直接输入色值调整配色，但可能还是内置的比较好。用户可以在主题里选择 Codex 主题，然后选择 ChatGPT 已经配置好的现成配色方案，包括暖色调和 Xcode 风格等。查看全文：https://ourl.co/127679&lt;/p&gt;&lt;p&gt;据 Codex 技术经理 Tibo 发布的消息，ChatGPT 网页版现在也可以设置强调色，用户只需要在外观设置里调整即可。强调色可以根据用户的喜好进行自定义设置，支持直接输入色值，但相关设置不会同步到 ChatGPT 客户端。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127679-2.png" rel="nofollow"&gt;&lt;img alt="ChatGPT网页版现在也可以设置强调色/背景色/前景色 不过可能还是默认的比较好" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127679-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -98,30 +125,4 @@
 &lt;p&gt;即便显卡型号在支持列表内，具体提升也会随芯片、功耗上限和工作负载存在区别，例如在测试中 RTX 3080 Ti 20GB 版完成解锁后，BF16 仍然维持原来的速率，并没有显著提升。&lt;/p&gt;
 &lt;p&gt;访问项目：&lt;a href="https://www.landian.news/go?url=https://github.com/Zagitta/gpu-unlock/blob/main/README.md" rel="noopener" target="_blank"&gt;https://github.com/Zagitta/gpu-unlock/blob/main/README.md&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 26 Oct 2026 04:00:00 +0000</pubDate></item><item><title>喜报！微软测试在Windows 11中添加原生网络测速 不需要再跳转到浏览器</title><link>https://www.landian.news/archives/127604.html</link><description>
-&lt;p&gt;#系统资讯 喜报！微软测试在 Windows 11 中添加原生网络测速功能，不需要再打开浏览器跳转到必应搜索测速。之前微软添加的测速就是自动打开必应搜索网页版，然后这个功能被很多用户吐槽。现在微软将其变成 Windows 11 的原生功能，测试结果也都在桌面直接显示。查看全文：https://ourl.co/127604&lt;/p&gt;&lt;p&gt;此前微软已经在 Windows 11 快速设置中添加网络测速选项，不过该选项在推出后引起诸多用户吐槽，因为点击测速后实际会打开必应搜索通过网页进行测速，而非 Windows 11 内置的原生测速功能。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127604-1.png" rel="nofollow"&gt;&lt;img alt="https://img.lancdn.com/landian/2026/10/127604T.png" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127604-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在 Windows 11 Build 26340.9767 测试版中，微软测试基于系统内置的测速功能，当用户点击测速按钮时将弹出原生对话框进行测速，不再自动打开浏览器和跳转到必应搜索网页版进行测速。&lt;/p&gt;
-&lt;p&gt;新的内置测速功能依然由 Ookla SpeedTest 提供，测速结果页面会显示上传带宽、下载带宽、PING 值方便用户直接观察测速结果，整个流程比之前通过浏览器打开网页测速体验要好很多。&lt;/p&gt;
-&lt;p&gt;入口方面保持不变：用户可以鼠标右键点击任务栏右下角的网络图标选择执行速度测试，或者点击快速操作面板的网络，进入网络二级菜单后选择测速。&lt;/p&gt;
-&lt;p&gt;最后新变更目前仅在实验版中提供，Windows 11 正式版暂时还不能使用内置的测速功能。不过待微软测试完成后应该就会通过累积更新推送给正式版用户，所以使用正式版的用户请耐心等待。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://www.neowin.net/opinions/microsoft-heard-my-complaints-windows-11-finally-getting-proper-internet-speed-test-tool/" rel="noopener" target="_blank"&gt;NEOWIN&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 26 Oct 2026 03:30:00 +0000</pubDate></item><item><title>日本GMO旗下云桌面服务遭到攻击 由于各种低级配置失误 黑客已获取所有信息</title><link>https://www.landian.news/archives/127603.html</link><description>
-&lt;p&gt;#安全资讯 日本上市公司 GMO 互联网集团旗下的云桌面服务 お名前.com Desktop Cloud 遭到黑客攻击，黑客直指该系统存在多种低级配置问题。整个系统架构采用微软 AD 管理，可以横向连接到其他服务器。GMO 还使用通用的超级管理员账户来访问客户服务器，访问后超管凭证可能还会泄露给客户机。查看全文：https://ourl.co/127603&lt;/p&gt;&lt;p&gt;日本上市公司 GMO 互联网集团旗下的云桌面服务 (お名前.com Desktop Cloud) 遭到黑客攻击，GMO 集团已经确认客户信息被黑客窃取。该产品主要为 FX 外汇交易等提供服务，因此部分交易账号也收到异常操作报告。&lt;/p&gt;
-&lt;p&gt;根据 GMO 集团最新公布的信息，26739 台服务器全部都在影响范围内，目前 GMO 集团已经停止所有套餐并准备向受影响的用户提供补偿，其中若黑客操作给用户造成损失，GMO 也将按照实际损失金额提供赔偿。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127603.png" rel="nofollow"&gt;&lt;img alt="日本GMO旗下云桌面服务遭到攻击 由于各种低级配置失误 黑客已获取所有信息" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127603.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;黑客在 10 月 24 日 15 时发布的页面称，这项云服务的 VPS 网络通过 Microsoft Active Directory 管理，存在横向连接到其他服务器的路径，并且还具备广泛管理员权限的账户。若 GMO 支持工程师连接到客户 VPS 服务器，客户就有可能获得相关通用凭证。&lt;/p&gt;
-&lt;p&gt;简单来说就是 GMO 使用某个具有所有服务器管理权限的超级管理员账户来访问客户服务器 (而且超管凭证还可能被留存在客户机上)，这种做法直接让人摸不着头脑，因为任何情况下的不慎泄露都有可能造成严重的安全问题。&lt;/p&gt;
-&lt;p&gt;黑客还指责 GMO 的远程桌面配置也存在低级失误，若本地磁盘重定向默认开启，电脑磁盘会映射到远程桌面会话，攻陷 VPS 服务器后就可以接触到其中的共享文件 (通常是 GMO 云服务的内部文件)。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; 黑客已窃取客户数据要求 GMO 支付 100 万美元赎金：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;黑客称 GMO 云服务的相关架构缺陷自 2019 年就存在，通过这些缺陷黑客已经窃取所有服务器的客户数据并植入后门程序。黑客要求 GMO 集团在 10 月 27 日前支付 100 万美元的赎金，否则后续这些客户数据将会被公开发布。&lt;/p&gt;
-&lt;p&gt;GMO 集团已经明确说明拒绝勒索要求，该集团将通信记录交给日本警方，同时联系证券交易公司和外汇公司协助阻止异常交易、切断活跃的会话等，但客户已经被窃取的其他敏感数据可能存在被公开的风险。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在 10 月 19 日收到客户反馈的异常后，GMO 在 10 月 20 日发现服务器存在恶意程序，从 10 月 21 日凌晨起陆续停服。目前 Desktop Cloud 旧产品底座已经全部停用，GMO 不会按照原样重启系统底座，同时要重建安全架构。&lt;/p&gt;
-&lt;p&gt;另外 GMO 将为所有受影响的客户提供 5000 日元约人民币 212 元的补偿，对于交易账号被窃取导致的损失，GMO 集团也将提供赔付。赔付范围以已实现的交易差损和相关手续费为限，按照这种说法用户应该不会遭受巨大损失。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 26 Oct 2026 03:00:00 +0000</pubDate></item></channel></rss>
+</description><pubDate>Mon, 26 Oct 2026 04:00:00 +0000</pubDate></item></channel></rss>
