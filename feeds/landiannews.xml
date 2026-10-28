@@ -1,117 +1,138 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 28 Oct 2026 01:30:00 +0000</lastBuildDate><item><title>微软宣布Windows 11 26H2全面开放升级 通过启用包更新实测不到5分钟即可完成升级</title><link>https://www.landian.news/archives/127751.html</link><description>
-&lt;p&gt;#系统资讯 微软宣布 Windows 11 26H2 版全面开放升级，符合条件的设备都可以检查更新并升级到最新版本。该版本以 eKB 启用包的形式发布，因此 24H2/25H2 版用户只需要下载很少的数据并花费 5 分钟即可完成升级。如果用户使用的是 23H2 及更早版本，则可能需要下载更多系统文件并且重启过程也需要花费很长时间。查看全文：https://ourl.co/127751&lt;/p&gt;&lt;p&gt;10 月初微软发布 Windows 11 26H2 正式版，该版本最初仅面向兼容性更好的设备推送，不过现在微软已经全面开放该版本的升级，所有符合条件的设备现在检查更新都可以获取 Windows 11 26H2 版启用包并快速完成升级。&lt;/p&gt;
-&lt;figure aria-describedby="caption-attachment-127792" id="attachment_127792"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127751.png" rel="nofollow"&gt;&lt;img alt="微软宣布Windows 11 26H2全面开放升级 通过启用包更新实测不到5分钟即可完成升级" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127751.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-127792"&gt;图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 28 Oct 2026 09:00:00 +0000</lastBuildDate><item><title>Discord宣布公开服务器消息将可被搜索引擎收录 建议用户立即在隐私设置中关闭</title><link>https://www.landian.news/archives/127765.html</link><description>
+&lt;p&gt;#软件资讯 建议所有 Discord 用户都主动调整隐私设置：从 12 月开始用户在公开服务器中的聊天记录会被公开到网页，可以通过谷歌等搜索引擎找到。Discord 这项调整主要还是为了 SEO 和 GEO，即其他用户可以通过搜索引擎和 AI 找到对应内容，这可能会吸引更多用户使用 Discord。不希望自己聊天记录被公开的用户，可以转到设置、数据与隐私、禁用个人消息内容在网页上展示。查看全文：https://ourl.co/127765&lt;/p&gt;&lt;p&gt;即时通讯工具 Discord 日前宣布，部分大型公开服务器中的频道消息将陆续出现在公开网页上，并且可能会被谷歌等搜索引擎收录、可以在谷歌搜索中找到用户的聊天记录。该功能计划从 2026 年 12 月中旬开始逐步推出，用户和服务器管理员现在可以调整相关设置阻止聊天记录公开。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127765.png" rel="nofollow"&gt;&lt;img alt="Discord宣布公开服务器消息将可被搜索引擎收录 建议用户立即在隐私设置中关闭" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127765.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Windows 11 26H2 版与 24H2/25H2 版共享相同的基础设施，因此实际更新时用户只需要下载微软发布的 eKB 启用包即可升级，通常不需要下载完整的系统镜像文件。&lt;/p&gt;
-&lt;p&gt;如果用户已经使用 Windows 11 24H2/25H2 版那整个升级过程会非常快，但如果用户使用的是 Windows 11 23H2 及更早的旧版本，实际升级时则需要下载完整的系统镜像，随后升级重启过程也需要很长时间才能完成。&lt;/p&gt;
+&lt;p&gt;可发现服务器指的是 Discord 中向公众开放且无需邀请即可加入的社区，申请刚进入发现目录的服务器通常需要至少 1000 名成员、创建至少 8 周并满足平台的活跃度和安全要求。Discord 称目前有 6.3 万个可发现的服务器。&lt;/p&gt;
+&lt;p&gt;此次更新涉及两类网页内容，其中频道讨论摘要从 11 月 16 日开始自动生成但不会显示用户名和头像，而频道原始消息则从 12 月中旬开始，符合条件的公开频道消息可能会以原文形式出现在服务器网页和搜索结果中，但同样不会显示用户名和头像。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Windows 11 26H2 包含的功能理论上也都支持 Windows 11 24H2/25H2 版，不过微软通过新版本刷新支持周期。其中 Windows 11 家庭版和专业版系列可以获得 24 个月的支持，企业版系列则可以获得 36 个月的支持。&lt;/p&gt;
-&lt;p&gt;而 Windows 11 24H2 家庭版系列已经在 10 月 13 日结束支持，因此仍然使用这些旧版本的用户可以尽快升级到新版本，确保后续仍然可以继续收到微软每月发布的安全更新。&lt;/p&gt;
+&lt;p&gt;Discord 选择公开服务器聊天记录其实主要还是为了 SEO 和 GEO，即其他用户可以通过搜索引擎和 AI 找到对应的服务器，这样有助于服务器中提供的游戏攻略和技术问题回答等社区内容被发现，最终吸引更多用户使用 Discord 和加入对应的服务器。&lt;/p&gt;
+&lt;p&gt;Discord 认为如果服务器关注隐私的话那就不应该开放加入，所以如果服务器管理员不希望内容被其他人公开看到，那可以主动设置邀请加入或者设置禁止生成网页版并阻止搜索引擎抓取。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;对于加入公开服务器的用户而言，如果不想自己的聊天记录也被公开，那可以在设置中调整隐私策略将自己的聊天记录排除，排除后服务器仍然会生成聊天记录，不过不会包含已经排除用户的聊天内容。&lt;/p&gt;
+&lt;p&gt;设置方法如下：进入 Discord、转到用户设置、选择数据与隐私选项、关闭在网页上展示来自可发现频道的个人消息内容。建议添加多个大型公开服务器的用户都主动调整设置，将自己排除公开列表。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 28 Oct 2026 01:30:00 +0000</pubDate></item><item><title>Cloudflare Tunnel新版本已删除印度eMudhra证书信任 用于对抗冒用身份伪造服务器</title><link>https://www.landian.news/archives/127750.html</link><description>
-&lt;p&gt;#软件资讯 Cloudflare Tunnel 新版本修复印度 eMudhra 证书劫持风险，官方提醒用户尽快升级实例。在旧版本中，cloudflared 程序仍然会信任 emSign 证书，攻击者可以假冒服务器伪装身份。用户至少需要升级到 2026.10.2 版，容器部署用户需要拉取最新镜像后重新部署，包管理器用户需要升级到最新版重启服务。查看全文：https://ourl.co/127750&lt;/p&gt;&lt;p&gt;网络服务提供商 Cloudflare 日前发布公告提醒用户将 Tunnel cloudflared 升级到 2026.10.2 或更高版本，这个新版本主要针对印度 eMudhra 中间证书私钥泄露事件。旧版 cloudflared 进程仍然信任受影响的证书链，攻击者可能利用伪造证书冒充服务端。&lt;/p&gt;
-&lt;figure aria-describedby="caption-attachment-127790" id="attachment_127790"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127750.png" rel="nofollow"&gt;&lt;img alt="Cloudflare Tunnel新版本已删除印度eMudhra证书信任 用于对抗冒用身份伪造服务器" data-wp-editing="1" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127750.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-127790"&gt;图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
+</description><pubDate>Wed, 28 Oct 2026 09:00:00 +0000</pubDate></item><item><title>ChatGPT现已支持连接iCloud邮件和日历 可以查邮件/回复邮件/创建日程等</title><link>https://www.landian.news/archives/127764.html</link><description>
+&lt;p&gt;#人工智能 ChatGPT 现在可以连接 iCloud 邮箱和日历，帮助用户查询邮件、撰写回复、总结消息、创建或更新日程等。以上功能通过邮件和日历插件实现，该插件由 OpenAI 官方开发，使用苹果的应用专用密码。实际连接时需要就邮件和日历分别授权登录，授权后 ChatGPT 也将拥有 iCloud 联系人的只读权限。查看全文：https://ourl.co/127764&lt;/p&gt;&lt;p&gt;ChatGPT 现已支持连接 iCloud 邮件和日历，帮助用户通过对话搜索邮件、整理收件箱、撰写回复、查询 / 创建 / 更新日历事件等。以上功能通过 iCloud 邮件和日历插件实现，该插件由 OpenAI 官方开发，用户连接自己的苹果账户时，苹果将生成应用专用密码。两款插件需要分别进行授权连接。&lt;/p&gt;
+&lt;p&gt;&lt;video autoplay="" controls="" muted="" playsinline="" preload="auto"&gt;&lt;source src="https://img.lancdn.com/landian/2026/10/127764.mp4" type="video/mp4"/&gt;您的浏览器不支持 HTML5 视频。&lt;/video&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;cloudflared 是运行在服务器或虚拟机上的连接器，主要负责建立 Cloudflare Tunnel 并将内网应用连接到 Cloudflare 网络。该程序连接远端服务时需要校验数字证书来确认对方也就是远端服务器的身份。&lt;/p&gt;
-&lt;p&gt;在本次事件中印度草台公司的 8 张中间证书使用弱密钥导致很容易被爆破出来，持有这些私钥的人都可以伪造相关证书链，让受影响的软件把假冒服务器当成真实服务。Cloudflare 此次发布的更新重点就是解决证书信任，阻止 cloudflared 程序继续信任这些已经受损且被行业吊销的中间证书。&lt;/p&gt;
+&lt;p&gt;邮箱插件可以搜索和读取邮件、整理消息、管理草稿邮件、撰写回复以及发送邮件，例如用户可以要求 ChatGPT 查找某人的来信或总结最近收到的相关邮件。&lt;/p&gt;
+&lt;p&gt;日历插件可以读取日程、查看安排、创建和更新事件，保存到 iCloud 的日历会同步到使用相同账户的苹果日历或其他兼容应用，因此 ChatGPT 完成更新后用户也可以在其他端查看到更新后的日历。&lt;/p&gt;
+&lt;p&gt;同时连接两项服务后用户可以让 ChatGPT 结合邮件和日历处理任务，例如先查找会议确认邮件再检查约定时间是否与现有日程冲突，或者根据邮件中的信息更新日历事件。另外两款插件都可以只读 iCloud 联系人以便查找姓名和信息，但没有修改联系人的权限。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127764-1.png" rel="nofollow"&gt;&lt;img alt="" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127764-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127764-2.png" rel="nofollow"&gt;&lt;img alt="" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127764-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;官方建议用户至少升级到 2026.10.2 版，目前最新版已经是 2026.10.3 版。这项要求适用于本地管理和远程管理的 Cloudflare Tunnel，对于容器部署的用户需要拉取修复后的镜像并重新部署容器。通过系统包管理器安装的用户，应当继续使用系统包管理器升级并重启服务。只更新 Cloudflare 控制面板设置，无法替代运行实例的版本升级。&lt;/p&gt;
-&lt;p&gt;升级也要求重启服务，因此当前的连接可能会中断，单实例部署应安排维护时段，需要维持在线服务的用户，可以通过多个 cloudflared 实例或 Cloudflare Load Balancer 轮换升级。&lt;/p&gt;
+&lt;p&gt;用户可以在 ChatGPT 设置的插件中搜索 iCloud Mail 和 iCloud Calendar，先安装然后分别打开插件跳转到苹果账号页面进行授权。连接邮箱时需要填写 iCloud 邮箱地址，连接日历时可以填写苹果账号的主要邮箱地址 (可以为非 iCloud 邮箱)。&lt;/p&gt;
+&lt;p&gt;用户也可以随时断开 iCloud 连接，断开连接后应用将停止后续访问，如果用户还需要作废用于连接的专用密码，则需要前往苹果账户的设置里单独撤销对应的密码。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 28 Oct 2026 08:30:00 +0000</pubDate></item><item><title>浏览器选择联盟称微软为推广Edge浏览器不择手段 使用10种暗黑模式破坏用户体验</title><link>https://www.landian.news/archives/127763.html</link><description>
+&lt;p&gt;#行业资讯 浏览器选择联盟称微软为推广 Microsoft Edge 浏览器不择手段，使用 10 种暗黑模式破坏用户体验。浏览器选择联盟列出的行为包括：使用必应搜索其他浏览器时顶部突出显示 Edge 宣传内容、用户切换默认浏览器后 PDF 等文件仍然使用 Edge 打开、系统内搜索和多种设置强制使用 Edge 打开等等。多次弹窗、额外的设置步骤和突出显示的推荐叠加后，会增加用户维持原有选择所需的时间和精力，最终导致用户被诱导切换为 Edge 浏览器。查看全文：https://ourl.co/127763&lt;/p&gt;&lt;p&gt;浏览器选择联盟 BCA 日前委托行为洞察团队 (BIT) 发布 46 页报告，指责微软通过搜索提示、系统设置和应用内连接等设计，持续引导用户使用 Microsoft Edge 浏览器。行为洞察团队梳理 10 种相关做法，覆盖安装其他浏览器、日常打开链接以及系统更新等阶段。&lt;/p&gt;
+&lt;p&gt;浏览器选择联盟由谷歌、Opera、Vivaldi 等浏览器开发商联合成立，行为洞察团队依据联盟提供的截图和材料，结合行为科学研究分析这些设计可能给用户带来的影响。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127763.png" rel="nofollow"&gt;&lt;img alt="浏览器选择联盟称微软为推广Edge浏览器不择手段 使用10种暗黑模式破坏用户体验" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127763.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. 搜索竞争浏览器时展示推广横幅：&lt;/strong&gt;用户在 Edge 中使用必应搜索其他浏览器时，微软会在搜索结果上方突出显示 Edge 的宣传内容。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. 默认浏览器设置与文件关联分开：&lt;/strong&gt;用户切换默认浏览器后，PDF 等类型的文件仍然会关联 Edge 浏览器，用户打开这些文件就会启动 Edge 浏览器，用户需要额外切换为其他软件。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3.Windows S 模式限制：&lt;/strong&gt;S 模式限制应用安装来源，也限制默认浏览器选择。不过微软已经在 2025 年 9 月 30 日停止在新生产的设备上提供 S 模式，以前的设备可能仍然使用 S 模式。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4.Windows 搜索结果默认使用 Edge 浏览器打开：&lt;/strong&gt;部分地区的用户即使将其他浏览器设置为默认浏览器，从系统搜索进入网页时仍然会打开 Edge 浏览器。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;5. 小组件和锁屏内容强制使用 Edge 浏览器打开：&lt;/strong&gt;天气和新闻等内容链接在部分地区会直接交给 Edge 浏览器处理。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;6.Windows 10 资讯与兴趣使用 Edge 浏览器打开链接：&lt;/strong&gt;用户从任务栏新闻入口进入网页时，会被带到 Edge 浏览器。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;7.Outlook 和 Teams 有独立的链接设置：&lt;/strong&gt;这两款应用可以将邮件或聊天链接交给 Edge 浏览器处理，用户需要在设置里改回系统默认浏览器。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;8. 限制第三方工具绕过：&lt;/strong&gt;报告提到 EdgeDeflector 等工具尝试把系统链接交给默认浏览器，微软随后阻止相关处理方式。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;9.Edge 浏览器恢复其他浏览器的标签页：&lt;/strong&gt;报告称在部分情况下，Edge 浏览器会在 Windows 登录后启动，并恢复用户之前在其他浏览器中打开的标签页 (这是 Edge 的自动导入功能，默认开启)。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;10. 系统更新后展示浏览器推荐设置：&lt;/strong&gt;报告记录了 Windows 更新完成后出现的浏览器设置提示，使用推荐的浏览器设置选项更加醒目，用户需要主动选择保留现有设置，否则浏览器又会被改成 Edge 浏览器。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;微软遵守欧盟数字市场法案要求，微软已经在欧洲经济区扩大默认浏览器设置覆盖的链接和文件类型，也让 Windows 搜索、小组件和锁屏中的部分网页内容使用用户选择的默认浏览器处理。但 Windows 10 的资讯与兴趣则继续直接使用 Edge 浏览器打开内容。&lt;/p&gt;
+&lt;p&gt;行为洞察团队认为，多次弹窗、额外设置步骤和突出显示的推荐选项叠加后，会增加用户维持原有选择所需的时间和精力。报告列出的不同做法涉及不同版本、应用和地区。而系统更新后的弹窗则让用户一不小心就将浏览器重新切换为 Edge。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/113321.html" title="浏览器选择联盟发布公开信要求微软停止现有的Microsoft Edge恶意推广策略"&gt;&lt;h3&gt;浏览器选择联盟发布公开信要求微软停止现有的Microsoft Edge恶意推广策略&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#行业资讯 浏览器选择联盟再次发布公开信敦促微软停止使用恶意方式推广 Microsoft Edge 浏览器，同时要求微软开放 OEM 预装和设置…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/tech"&gt;科技资讯&lt;/a&gt;, &lt;a href="https://www.landian.news/tech/industry"&gt;行业资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2026年6月6日 13:33&lt;/span&gt;&lt;span title="浏览数量"&gt;8.16K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://browserchoicealliance.org/wp-content/uploads/2026/10/Browser-Choice-Alliance-BIT-Report.pdf" rel="noopener" target="_blank"&gt;浏览器选择联盟 - 浏览器选择架构中的暗黑模式报告&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 28 Oct 2026 08:00:00 +0000</pubDate></item><item><title>苹果新款M6 iMac支持加钱选配2.5GbE以太网接口 接口继续放在电源适配器而非设备背面</title><link>https://www.landian.news/archives/127762.html</link><description>
+&lt;p&gt;#硬件设备 苹果新款 M6 iMac 支持加钱选配 2.5GbE 以太网接口，接口继续放在电源适配器而非设备背面，实现一根线同时供电和联网。国行版新款 iMac 起售价 12499 元，默认为 1GbE 接口，加 200 元可选配 2.5GbE 网口。而 12 核心版 iMac 起售价 13999 元，自带 2.5GbE 网口不需要加钱选配。查看全文：https://ourl.co/127762&lt;/p&gt;&lt;p&gt;苹果最新推出的搭载 M6 芯片的 iMac 已经将以太网接口速率从 1GbE 升级到 2.5GbE，不过这是需要加钱选配的而非默认就是 2.5GbE 以太网。网口仍然放在电源适配器上而非设备背面，其中入门款选购 2.5GbE 网口需要加钱 200 元。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127762.png" rel="nofollow"&gt;&lt;img alt="苹果新款M6 iMac支持加钱选配2.5GbE以太网接口 接口继续放在电源适配器而非设备背面" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127762.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;新款 24 英寸 iMac 延续苹果从 M1 iMac 开始采用的设计：以太网接口位于电源适配器而非放在机器背面，用户将网线连接到电源适配器，再通过连接 iMac 的线缆完成供电和网络连接，这样可以保持一根线连接、确保一体机周围的线缆整洁。&lt;/p&gt;
+&lt;p&gt;这次变化的主要是接口速率变化，前代产品主要提供 1GbE 以太网接口，新款可以选择 2.5GbE 以太网接口，理论链路速率为原来的 2.5 倍，相当于每秒最高可以传输 312.5MB 的数据。&lt;/p&gt;
+&lt;p&gt;需要注意的是，要想获得 2500Mbps 的传输速率还需要其他设备都支持更高的速率，例如路由器需要支持 2.5GbE、网线需要使用超五类 + 线，若连接 NAS 等则 NAS 也必须支持 2.5GbE 以及中途的各类交换机和路由器都必须支持 2.5GbE。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;根据苹果技术规格页面列出的配置：10 核 GPU+10 核 CPU+2 个雷雳 4 端口默认为 1GbE 以太网接口，需要加钱选配 2.5GbE 以太网接口。而 12 核 CPU+12 核 GPU+4 个雷雳 4 端口的机型默认配备 2.5GbE 以太网接口。&lt;/p&gt;
+&lt;p&gt;国行版入门款 M6 iMac 选购 2.5GbE 网口需要加钱 200 元，美国市场的选配费用为 30 美元。起售价方面，M6 iMac 入门款起售价 12499 元，12 核版起售价 13999 元。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 28 Oct 2026 07:30:00 +0000</pubDate></item><item><title>iOS 27.2新增自拍年龄验证功能 苹果使用设备端与PCC私有云估算用户是否成年</title><link>https://www.landian.news/archives/127761.html</link><description>
+&lt;p&gt;#系统资讯 苹果在 iOS 27.2 中添加自拍年龄验证，该功能目前适用于澳大利亚、巴西、新加坡和英国。当用户注册苹果账户、更新软件、调整安全设置、下载 18 + 应用时可能会触发验证。用户可以选择自拍验证，通过采集人脸照片交给模型在本地和云端估算年龄。完成验证后照片会被立即删除，验证结果保存在本地，未来可以重复使用。查看全文：https://ourl.co/127761&lt;/p&gt;&lt;p&gt;苹果已经在最新发布的 iOS 27.2 版中新增基于自拍照片的年龄验证方式，当用户需要证明自己是否年满 18 岁时，可以选择拍摄面部图像。随后模型分别会在设备端和苹果 Private Cloud Compute 环境运行，完成联网估算后最终结果会在设备端完成合并。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127761.png" rel="nofollow"&gt;&lt;img alt="iOS 27.2新增自拍年龄验证功能 苹果使用设备端与PCC私有云估算用户是否成年" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127761.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;苹果发布的地区规则文件显示，自拍验证目前仅适用于澳大利亚、巴西、新加坡和英国，苹果同时列出韩国和美国得克萨斯州存在部分苹果账户年龄确认要求，但自拍验证功能暂时不支持韩国和德州。&lt;/p&gt;
+&lt;p&gt;具体要求取决于当地法律规定以及用户正在使用的服务，用户可能在创建苹果账户、更新设备软件、调整部分安全设置或下载 / 购买年龄分级 18 + 的应用时收到确认提示。当弹出确认提示时，用户必须完成年龄验证且认证结果为成年人时才可以继续执行相关操作，验证结果会被保存到本地，后续无需重复确认。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;按照苹果的说明，收到年龄验证提示并选择自拍后，用户需要将面部放到屏幕取景框中，按照提示缓慢向左、右、上、下转头，采集四个角度的面部图像，系统随后会使用年龄估算模型判断用户是否成年。&lt;/p&gt;
+&lt;p&gt;苹果表示模型会分别在设备端和 PCC 云环境运行，这意味着自拍确认包含云端处理环节。对于照片隐私问题，苹果称图像在设备端和 PCC 处理期间都不会被任何人访问，包括苹果自己。完成验证后自拍图像会被系统自动删除，苹果不会以任何形式保留图像。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;如果自拍验证没有通过成年认证，苹果建议用户检查网络连接后重新拍摄，也可以选择当地支持的年龄验证方式，例如使用本人信用卡、扫描政府签发的法定身份证件或驾驶证。部分地区也支持扫描护照认证，但任何借记卡和礼品卡都不能用于信用卡确认方式。&lt;/p&gt;
+&lt;p&gt;苹果建议用户在光线均匀的环境中拍摄，摘掉遮挡面部口罩、帽子或墨镜，确保画面中只有本人。完成认证后用户可以设置、自己的姓名、个人信息、年龄确认中查看状态。&lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://github.com/cloudflare/cloudflared/releases/tag/2026.10.2" rel="noopener" target="_blank"&gt;Cloudflare&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://support.apple.com/en-us/149095" rel="noopener" target="_blank"&gt;苹果支持文档&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Wed, 28 Oct 2026 01:00:00 +0000</pubDate></item><item><title>A社在IPO注册文件中透露 违规用户贡献7%的营收 蒸馏防护已经封禁数万账号</title><link>https://www.landian.news/archives/127749.html</link><description>
-&lt;p&gt;#人工智能 Anthropic 在 IPO 注册文件中透露，违规用户贡献最高 7% 的营收，蒸馏防护措施已经封禁数万账号。随着持续采取打击措施，违规营收可能会降低，这有可能会给整体营收造成波动。A 社还强调相关防护措施已经让该公司放弃可观的收入和数万亿个付费的 token 流量，而且防护措施有时候也会误伤正常用户。查看全文：https://ourl.co/127749&lt;/p&gt;&lt;p&gt;人工智能公司 Anthropic 在提交的上市注册文件中透露，2026 年 1~9 月，后来被认定违反使用政策或商业条款的客户贡献公司营收金额的 5%~7%。与此同时 A 社称其针对未经授权模型蒸馏的防护措施，已经将相关数据提取量降低 90%~99%。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127749.png" rel="nofollow"&gt;&lt;img alt="A社在IPO注册文件中透露 违规用户贡献7%的营收 蒸馏防护已经封禁数万账号" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127749.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 28 Oct 2026 07:00:00 +0000</pubDate></item><item><title>黑客透露日本GMO攻击细节 有人发现漏洞并上报但始终未得到回应 于是将漏洞报告给黑客</title><link>https://www.landian.news/archives/127760.html</link><description>
+&lt;p&gt;#安全资讯 黑客透露日本 GMO 集团攻击细节，有人发现漏洞并多次上报 GMO 集团但并未收到任何回应，于是将漏洞报告给黑客。黑客最初也不知道这家日本公司的网络安全问题，但收到报告后很快确认漏洞有效并开始窃取数据并部署勒索程序。如果 GMO 及时查看漏洞报告那可以避免此次灾难性的事故，很遗憾没有如果。现在黑客正在陆续公布受害者信息向 GMO 施压，赎金也已经从 5000 万美元降低到 100 万美元。查看全文：https://ourl.co/127760&lt;/p&gt;&lt;p&gt;日本上市公司 GMO 集团旗下的虚拟云桌面服务早前因为低级的配置失误遭到黑客攻击，由于 GMO 集团并未向黑客支付赎金，因此黑客开始在自己的网站上发布攻击细节以及受害者的个人信息。&lt;/p&gt;
+&lt;p&gt;另外黑客也称自己不想将事情做绝，所以将勒索赎金从最开始的 5000 万美元降低到 100 万美元。黑客称不用担心收钱后还继续卖数据，因为这种行为会让自己声誉受损，以后就没人付赎金了。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127760-2.png" rel="nofollow"&gt;&lt;img alt="黑客透露日本GMO攻击细节 有人发现漏洞并上报但始终未得到回应 于是将漏洞报告给黑客" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127760-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在注册文件中 A 社称，公司在向客户提供服务时会确认收费情况，但可能之后才会发现客户违反使用政策或商业条款并限制或终止用户的访问权限。A 社在 8 月和 9 月已经加强相关检测和封禁执行，预计后续违规客户带来的营收占比将会下降，A 社强调封禁措施可能会影响未来的营收和业绩增长。&lt;/p&gt;
-&lt;p&gt;A 社并未详细说明违规客户的类别，例如是工业模型蒸馏还是其他常规的违规行为，也没有透露对应的客户名称。不过 A 社此前多次指责某些人工智能实验室使用海量账号进行工业蒸馏的活动，A 社发现异常后批量封禁大量账号。&lt;/p&gt;
+&lt;p&gt;发起攻击的黑客最初对 GMO VPS 网络上存在的安全漏洞毫不知情，然而黑客收到来自线人分享的漏洞报告。在接到漏洞报告后黑客很快确认这是有效的，随后开始利用 GMO 的低级配置失误展开攻击。&lt;/p&gt;
+&lt;p&gt;线人称自己早已发现漏洞并多次尝试联系 GMO 集团报告发现的问题，线人也希望通过这个漏洞获得 GMO 集团提供的奖金，但由于 GMO 集团始终没有给出任何回应，最终线人选择将漏洞分享给黑客。&lt;/p&gt;
+&lt;figure aria-describedby="caption-attachment-127811" id="attachment_127811"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127760-1.png" rel="nofollow"&gt;&lt;img alt="黑客透露日本GMO攻击细节 有人发现漏洞并上报但始终未得到回应 于是将漏洞报告给黑客" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127760-1.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-127811"&gt;GMO 的漏洞通报窗口&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;A 社在注册文件中透露这些数据的主要原因是，对 A 社来说 7% 的营收贡献已经不算少，但 A 社向来采取措施严厉打击非法行为和工业蒸馏。随着 A 社采取更多措施，接下来这部分违规营收可能会持续下降，因此可能会给公司业绩造成影响。&lt;/p&gt;
-&lt;p&gt;A 社称相关防护措施已经让该公司放弃可观的收入和数万亿个付费的 token 流量，而采取的防护措施有时候也会误伤正常用户，不过误伤比例小于 0.1%(从用户规模来说即便 0.1% 也会影响很多正常用户)。&lt;/p&gt;
+&lt;p&gt;按照大家对日本 IT 行业的刻板印象，可能 GMO 集团有人收到线人提供的安全报告，但由于收件人可能并不是负责安全方面的。&lt;/p&gt;
+&lt;p&gt;如果是你，你怎么选择？A. 将漏洞报告转发给负责安全的同事，如果找不到人就向上级反馈 (过程可能会比较繁琐)；B. 这不是我的工作内容，所以忽略报告。&lt;/p&gt;
+&lt;p&gt;如果你选择 B，恭喜你，你已经是一名合格的日本 IT 员工。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/127687.html" title="A社正式提交IPO注册文件 股票代号ANT 营收快速增长但账面亏损持续扩大"&gt;&lt;h3&gt;A社正式提交IPO注册文件 股票代号ANT 营收快速增长但账面亏损持续扩大&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#人工智能 Anthropic 正式开启 IPO，已向 SEC 提交 S-1 注册文件，但发行股数和价格尚未确定。A 社指定高盛和摩根士丹利为主…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/tech/ai"&gt;人工智能&lt;/a&gt;, &lt;a href="https://www.landian.news/tech"&gt;科技资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2026年10月27日 13:00&lt;/span&gt;&lt;span title="浏览数量"&gt;1.32K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
-&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/127329.html" title="持续封号打击蒸馏：A社称强化防护措施让Claude蒸馏推理数据提取量下降90%~99%"&gt;&lt;h3&gt;持续封号打击蒸馏：A社称强化防护措施让Claude蒸馏推理数据提取量下降90%~99%&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#人工智能 持续封号打击蒸馏：Anthropic 称强化防护措施让 Claude 蒸馏推理数据提取量下降 90%~99%。这段时间 A 社一直在…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/tech/ai"&gt;人工智能&lt;/a&gt;, &lt;a href="https://www.landian.news/tech"&gt;科技资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2026年10月13日 14:00&lt;/span&gt;&lt;span title="浏览数量"&gt;5.88K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
+&lt;p&gt;GMO 集团已经设置漏洞报告窗口，因此按理说 GMO 应该是有安全团队负责接收漏洞报告的 (所以我们在上一段提到的选择题应该不成立，因为收到报告的人应该是负责安全的)。&lt;/p&gt;
+&lt;p&gt;问题是设置漏洞报告窗口不代表 GMO 就真有安全团队来处理这些问题，很有可能安全团队早已离职或者被派到其他团队，所以黑客也搞不清楚为什么 GMO 集团会忽略线人数十次的漏洞报告。&lt;/p&gt;
+&lt;p&gt;有人想问线人是否是 GMO 集团的内部员工，黑客称暂时不清楚线人是否是内部员工，而且黑客也不能透露线人的其他信息，所以也不会询问线人的个人信息。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 27 Oct 2026 09:00:00 +0000</pubDate></item><item><title>欧盟已接受拼多多国际版TEMU的整改计划 此前因违法被罚款2亿欧元约人民币15.79亿元</title><link>https://www.landian.news/archives/127748.html</link><description>
-&lt;p&gt;#行业资讯 欧盟委员会接受拼多多国际版 TEMU 提交的整改计划，此前 TEMU 因违法行为被欧盟罚款 2 亿欧元约合人民币 15.79 亿元(按当时汇率)。欧盟发现的问题包括抽检的多款充电器未能通过基础安全测试、部分婴儿玩具化学物质超标或小部件造成窒息风险，TEMU 的推荐算法也可能造成非法商品的传播等。TEMU 提交的整改方案涉及评估、审核和推荐算法，TEMU 还必须接受外部独立审计，整改落实后向欧委会提交审计报告。查看全文：https://ourl.co/127748&lt;/p&gt;&lt;p&gt;欧盟委员会日前就电商平台 TEMU (即拼多多的国际版) 违法后的整改计划发布新声明，欧盟委员会表示已经接受 TEMU 提交的为期四个月的整改方案。欧盟要求 TEMU 完善对非法商品风险的评估、检查内容审核和推荐算法是否会扩大此类商品的传播等。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127748.png" rel="nofollow"&gt;&lt;img alt="欧盟已接受拼多多国际版TEMU的整改计划 此前因违法被罚款2亿欧元约人民币15.79亿元" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127748.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.landian.news/archives/113154.html" rel="noopener" target="_blank"&gt;此前 TEMU 因违反欧盟数字服务法案被罚款 2 亿欧元约合人民币 15.79 亿元(按当时汇率)&lt;/a&gt;，当时欧盟称 TEMU 长期存在各类非法商品、有害商品且针对投诉处理不够及时，相关推荐算法也可能扩大非法商品的传播。&lt;/p&gt;
+</description><pubDate>Wed, 28 Oct 2026 06:30:00 +0000</pubDate></item><item><title>A社联合创始人再次重申 不会在Claude AI中插入广告 不希望广告影响回答方式</title><link>https://www.landian.news/archives/127759.html</link><description>
+&lt;p&gt;#人工智能 Anthropic 联合创始人再次重申，不会在 Claude AI 中插入广告，不希望广告影响 AI 模型的回答。在 IPO 招股书中 A 社附上创始人信，七名联合创始人再次承诺不会在 Claude 中引入广告。因为一旦广告成为收入目标，产品就可能面临优化用户参与度的压力。A 社称不希望这种压力会影响 Claude 的回答方式，所以对话旁不会出现赞助链接，AI 回答内容也不会受广告商影响。查看全文：https://ourl.co/127759&lt;/p&gt;&lt;p&gt;Anthropic 日前在 IPO 招股文件中附上创始人信，七名联合创始人再次承诺不会在 Claude AI 中引入广告。七名联合创始人表示，广告收入会带来提高用户参与度的压力，而 Claude 的目标是提供有帮助的回答。在 2 月份 Anthropic 已经强调自己的无广告立场。&lt;/p&gt;
+&lt;figure aria-describedby="caption-attachment-127808" id="attachment_127808"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127759.png" rel="nofollow"&gt;&lt;img alt="A社联合创始人再次重申 不会在Claude AI中插入广告 不希望广告影响回答方式" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127759.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-127808"&gt;图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;TEMU 向欧盟提交的整改方案包括五项措施：1. 针对平台自身的设计、运营和使用情况开展风险评估；2. 用可靠指标检验缓解措施是否有效；3. 检查主动内容审核系统的不足及其对推荐商品的影响；4. 分析推荐系统和其他算法是否会放大非法商品的传播；5. 评估卖家或其他用户是否会利用平台功能操纵曝光和扩大违规商品的传播。&lt;/p&gt;
-&lt;p&gt;欧盟委员会表示，TEMU 需要评估自动检测、人工审核、用户反馈机制和资源配置等环节。整改方案关注的不只是单个商品如何被下架，也包括平台如何发现风险和衡量治理效果，以及推荐系统怎样影响消费者看到的商品。&lt;/p&gt;
+&lt;p&gt;创始人信指出，一旦广告成为收入目标，产品就可能面临优化用户参与度的压力，Anthropic 称不希望这种压力影响 Claude 的回答方式。&lt;/p&gt;
+&lt;p&gt;在 2 月份时 Anthropic 已经强调，Claude 对话旁不会出现赞助链接，AI 回答内容不会受广告商影响，也不会擅自加入第三方产品植入。用户主动要求 Claude 查找、比较或购买商品，属于用户主动发起的功能。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;TEMU 在 8 月提交行动计划，欧盟数字服务委员会在 9 月 24 日评估中认为方案部分内容符合要求，但细节不足以完整评估其是否能解决已认定的违规问题。欧盟委员会表示已经根据数字服务委员会的意见实施明确要求，随后接受 TEMU 的整改方案。&lt;/p&gt;
-&lt;p&gt;TEMU 需要在四个月内落实整改方案并提交中期风险评估，覆盖截至 2026 年 11 月 30 日的六个月期间。整改措施还将接受外部独立审计，TEMU 需要在措施落实四个月内向欧盟委员会提交审计报告，若审计提出建议，TEMU 还需要在一个月内向委员会说明后续处理情况。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;欧盟委员会在 5 月 28 日认定，TEMU 提交的 2024 年风险评估过于笼统，让电商行业的一般风险信息未能充分分析 TEMU 平台的风险，也低估欧盟消费者遇到非法商品的可能性。&lt;/p&gt;
-&lt;p&gt;在罚款前欧盟委员会匿名进行购买测试，随后发现抽检的多款充电器未能通过最基础的安全测试，部分婴儿玩具存在化学物质超标或小部件造成窒息风险。欧盟委员会调查后还发现，TEMU 没有充分评估推荐算法和网红推广如何扩大非法商品的传播。&lt;/p&gt;
+&lt;p&gt;创始人信随 S-1 招股文件提交，让 Claude 的无广告定位进入面向潜在投资者的公开材料。Anthropic 目前的收入主要来自按模型使用量计费，以及面向个人和企业的订阅服务。&lt;/p&gt;
+&lt;p&gt;Anthropic 把不同变现方式视为产品设计的一部分：Claude 依靠用户订阅和企业使用获得收入，不会在聊天回答中出售广告位。此前 Anthropic 在超级碗广告中也以 “广告将进入 AI，但不会进入 Claude” 为主题，强调其产品定位与广告型聊天服务的区别。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 27 Oct 2026 08:30:00 +0000</pubDate></item><item><title>微软在Windows 11开始菜单中增加Microsoft 365续费入口 时刻提醒用户续费</title><link>https://www.landian.news/archives/127747.html</link><description>
-&lt;p&gt;#系统资讯 微软在 Windows 11 开始菜单和设置中增加 Microsoft 365 续费入口，时刻提醒用户开启自动扣款或续费功能。需要说明的是这并不是新增的广告位，只是改造现有广告位添加不同的内容。当用户没有开启自动续费时，微软就会提醒用户添加信用卡开启周期性付款。当然如果用户没有订阅 Microsoft 365 也同样会看到广告，只不过广告内容是推荐用户开启 Microsoft 365 订阅。查看全文：https://ourl.co/127747&lt;/p&gt;&lt;p&gt;微软在最新发布的 Windows 11 Build 26340.9767 实验版中测试在系统设置或开始菜单里添加 Microsoft 365 续费入口，微软将其定位为 Microsoft 365 订阅管理入口，用于开启自动续费功能。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127747.png" rel="nofollow"&gt;&lt;img alt="微软在Windows 11开始菜单中增加Microsoft 365续费入口 时刻提醒用户续费" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127747.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 28 Oct 2026 06:00:00 +0000</pubDate></item><item><title>升级iOS 27.2限制百度网盘传感器权限后 百度网盘还是能激活摇一摇跳转广告？</title><link>https://www.landian.news/archives/127758.html</link><description>
+&lt;p&gt;#软件资讯 升级 iOS 27.2 + 国行账号，限制百度网盘运动传感器权限后，百度网盘还是能跳转摇一摇广告？网友实测禁用传感器权限也不能阻止摇一摇广告继续跳转，其他网友猜测百度网盘可能设置了随机延迟时间，到时间后无论是否摇晃手机都会触发跳转。最后网友还是在百度网盘、我的、设置、隐私与个性化设置、个性化管理、广告兴趣管理里，手动关闭了摇一摇广告展开权限。查看全文：https://ourl.co/127758&lt;/p&gt;&lt;p&gt;苹果在最新推出的 iOS 27.2 版中为中国大陆区用户提供专属功能：可以设置应用程序的传感器权限。该功能仅限中国大陆地区的用户使用，若登录的并非国区账号则不可见传感器设置。大家都猜测苹果提供这个功能是打击应用程序的开屏摇一摇广告。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127758.png" rel="nofollow"&gt;&lt;img alt="升级iOS 27.2限制百度网盘传感器权限后 百度网盘还是能激活摇一摇跳转广告？" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127758.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;新入口主要面向现有的 Microsoft 365 订阅用户，如果用户并未开启自动续费则新入口提供开启周期扣款或设置周期扣款操作，订阅者可以在设置主页、账户页面或开始菜单中看到这个入口。&lt;/p&gt;
-&lt;p&gt;在吸引用户付费方面微软还是很积极的，当用户尝试开启续费时弹出的窗口是集成在系统里的，不需要打开浏览器跳转到对应页面。在弹窗里用户可以绑定自己的信用卡开启周期性扣款，后续到期前微软直接自动续费。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;虽然开启自动续费功能是面向现有的 Microsoft 365 订阅用户，但如果用户并未开通 Microsoft 365 订阅也同样会看到相关的广告，包括使用 OneDrive 备份数据、在开始菜单的头像按钮里添加黄点或红点提示等。&lt;/p&gt;
-&lt;p&gt;这些提示本质上都是吸引用户开通 Microsoft 365 订阅的，所以无论是否已经开通 Microsoft 365 订阅，这些广告位不变，只是具体的广告内容视用户是否开通订阅或是否开通自动续费而异。&lt;/p&gt;
+&lt;p&gt;V2EX 网友 @microka 发帖称，升级到 iOS 27.2 并限制百度网盘运动传感器权限后，依然无法阻止百度网盘开屏时的摇一摇跳转广告。既然百度网盘都无法读取运动传感器权限那怎么判断用户是否摇晃手机了呢？&lt;/p&gt;
+&lt;p&gt;在帖子中其他网友认为，百度网盘可能设置的随机延迟时间跳转广告，即无论是否读取到传感器 / 用户是否摇晃手机，在延迟时间到了之后都会自动跳转，这样可以确保广告点击次数最大化。&lt;/p&gt;
+&lt;p&gt;由于蓝点网使用的并非国区账号所以没法测试，不过如果各类应用都采用类似随机延迟后跳转的策略，那无论用户是否限制传感器权限其实都意义不大了，而且苹果提供传感器权限设置后，说不好后面更多应用会采用类似的延迟跳转策略。&lt;/p&gt;
+&lt;p&gt;最后如果你使用百度网盘，可以在我的、设置、隐私与个性化设置、个性化管理、广告兴趣管理里，关闭允许展现开屏摇一摇广告。&lt;/p&gt;
+&lt;p&gt;其他应用程序基本也有类似设置，不过都需要在设置、隐私管理、个性化设置、广告管理等相关位置仔细寻找，这类设置基本都藏得比较深，找到后关闭基本可以解决对应应用的摇一摇广告。&lt;/p&gt;
+&lt;p&gt;via &lt;a href="https://www.landian.news/go?url=https://www.v2ex.com/t/1252079" rel="noopener" target="_blank"&gt;V2EX&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 27 Oct 2026 08:00:00 +0000</pubDate></item><item><title>微软为Windows 11发布带外更新用于更新证书库 大概率是删除印度eMudhra根证书的</title><link>https://www.landian.news/archives/127746.html</link><description>#系统资讯 微软向 Windows 11 发布带外更新用于刷新本地数字证书存储库，虽然微软没说但大概率就是用来删除印度 eMudhra G3 根证书的。这个带外更新主要适用于断网设备和受控环境，这些设备无法在线接收证书库更新所以需要通过额外补丁刷新。普通联网设备会自动收到推送，不需要手动下载更新。查看全文：https://ourl.co/127746</description><pubDate>Tue, 27 Oct 2026 07:30:00 +0000</pubDate></item><item><title>微软面向约6万名员工推出自愿离职方案用于削减人力成本 员工可获得高额补偿</title><link>https://www.landian.news/archives/127691.html</link><description>
-&lt;p&gt;#行业资讯 一切为了 AI：微软面向约 6 万名员工推出自愿离职方案用于削减人力成本，员工可以获得高额经济补偿。微软确认约有 6 万名员工符合申请资格，占员工总数的 27%，内部职级在 70 以下的员工均可申请。对微软来说该方案可以减少员工总数并精简团队提高效率，更重要的是省下更多长期资金用于投资 AI。查看全文：https://ourl.co/127691&lt;/p&gt;&lt;p&gt;微软在 10 月 26 日面向美国、加拿大、英国和印度的团队推出限时自愿离职方案，微软确认约有 6 万名现有员工符合申请条件，相当于微软 22.3 万名员工中的 27%。不过最终有多少员工申请自愿离职方案并获得批准就需要等待后续消息了。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127691.png" rel="nofollow"&gt;&lt;img alt="微软面向约6万名员工推出自愿离职方案用于削减人力成本 员工可获得高额补偿" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127691.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 28 Oct 2026 05:30:00 +0000</pubDate></item><item><title>苹果推出搭载M6芯片的14英寸MacBook Pro 主要更新处理器和无线连接 起售价15999元</title><link>https://www.landian.news/archives/127757.html</link><description>
+&lt;p&gt;#硬件设备 苹果推出搭载 M6 芯片的 14 英寸 MacBook，主要升级处理器和无线连接，机身和其他规格与前代产品相同。M6 采用台积电 2 纳米制程，配备 12 核 CPU+12 核 GPU + 双 16 核神经网络引擎。苹果称其多线程性能提高 20%、图形性能提高 30%、每个 GPU 核心内置神经加速器，可以用于图像生成和本地 AI 模型提示处理等任务。新机起售价 1999 美元，与前代起售价相同，但如果加内存和加硬盘那需要更高的花费。查看全文：https://ourl.co/127757&lt;/p&gt;&lt;p&gt;苹果日前发布搭载 M6 芯片的 14 英寸版 MacBook Pro，这次更新以处理器和无线连接升级为主，机身、Liquid Retina XDR 显示屏、摄像头和接口布局均没有变更。新款起售价 1999 美元(国行版起售价 15999 元)，预购将从 10 月 29 日开始，11 月 7 日正式发售。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127757.png" rel="nofollow"&gt;&lt;img alt="苹果推出搭载M6芯片的14英寸MacBook Pro 主要更新处理器和无线连接 起售价15999元" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127757.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 通过 M6 芯片升级 CPU/GPU/ 本地 AI 性能：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;M6 芯片采用台积电 2 纳米制程，配备 12 核心 CPU、12 核心 GPU、双 16 核心神经网络引擎。相比 M5，CPU 核心数从 10 核心增加到 12 核心，苹果称 M6 芯片的多线程性能最高提升约 20%，图形性能最高提升 30%。每个 GPU 核心内置神经加速器，可以用于图像生成、本地 AI 模型提示处理等任务。&lt;/p&gt;
+&lt;p&gt;苹果还表示，M6 版 14 英寸 MacBook Pro 电池续航时间最高 24 小时，较上代产品最多增加 4 小时。M6 芯片目前只用于入门级 14 英寸机型，14 英寸和 16 英寸高配机型仍然搭载 M5 Pro 或 M5 Max 芯片。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;微软首席人力资源官艾米科尔曼在员工通知中称，方案适用于美国、加拿大、英国和印度参与计划的团队，内部职级在 70 及以下的员工可以申请。符合条件的员工将获得经济支持和职业规划资源，各个团队是否参与则根据业务优先级、客户承诺和人员需求决定。&lt;/p&gt;
-&lt;p&gt;外媒援引知情人士称，参与自愿离职方案的团队包括 AI 体验部门、Copilot、CoreAI、Windows 与设备部门、Xbox 部门、财务部门和人力资源部门；Cloud+AI、Microsoft AI 及部分企业事务、外部事务和法务团队也会参与。&lt;/p&gt;
-&lt;p&gt;微软将该计划称为自愿离职方案而非裁员通知，微软表示员工可以自行决定是否通过领取经济补偿后离开微软，该方案旨在为考虑外部职业发展的员工提供支持，也让参与计划的部门调整人员结构。&lt;/p&gt;
+&lt;p&gt;新款仍然采用 Liquid Retina XDR 显示屏和 12MP Center Stage 摄像头，机身接口包括三组 Thunderbolt 4 接口、MagSafe 3 充电接口、HDMI 显示输出接口、SDXC 卡槽和 3.5 毫米耳机接口。&lt;/p&gt;
+&lt;p&gt;不过新机采用苹果自研的 N1 无线芯片，带来 WiFi 7 和蓝牙 6.0 的支持。上代入门槛产品主要支持 WiFi 6E 和蓝牙 5.3，对于已经采用 WiFi 7 路由器的用户来说，新机的 WiFi 7 也可以用起来了。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;微软今年早些时候已经面向美国员工推出自愿退休计划，约 8750 人符合申请资格，资格与员工年龄和服务年限有关，当时约有 30% 的员工接受该方案最终领取补偿金后提前退休。&lt;/p&gt;
-&lt;p&gt;此次自愿离职方案覆盖更多国家和部门，微软在内部文件中称，申请资格不以年龄、服务年限或绩效为依据，只要员工所在团队参与该计划，职级在 70 以下的员工就有资格申请自愿离职方案。&lt;/p&gt;
-&lt;p&gt;自愿离职方案推出之际，微软仍在大幅投资人工智能基础设施，对微软来说削减人力资源成本可以精简团队并提高团队效率，更重要的是可以省下更多长期资金用于继续投资人工智能业务。&lt;/p&gt;
+&lt;p&gt;目前美国市场的 M6 14 英寸 MacBook Pro 起售价为 1999 美元，默认配置为 16GB 内存和 1TB 存储。与上一代 M5 版上市价格相当，但如果用户要升级内存那就需要支付更高的价格，例如内存升级到 24GB 后售价 2199 美元、升级到 32GB 内存需要 2399 美元。存储方面升级到 2TB 增加 500 美元，升级到 4TB 增加 1500 美元。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 27 Oct 2026 07:00:00 +0000</pubDate></item><item><title>苹果首次回应iPhone Duo铰链处内屏开裂问题 称只有极少数设备受影响 可联系售后换机</title><link>https://www.landian.news/archives/127690.html</link><description>
-&lt;p&gt;#手机数码 苹果首次回应 iPhone Duo 铰链处内屏开裂问题，苹果称只有少数设备受影响，遇到问题的用户可以联系苹果换机。有网友猜测苹果可能会召回，不过对苹果来说召回既影响声誉也会造成较大损失，所以至少目前苹果没有召回的计划。另外有小道消息称苹果早已发现问题，现已要求富士康改进生产流程提高质量，所以后续生产的 iPhone Duo 可靠性可能会更高。查看全文：https://ourl.co/127690&lt;/p&gt;&lt;p&gt;苹果首款折叠屏设备 iPhone Duo 在开售数日后，陆续有用户报告内屏沿铰链折痕开裂并出现亮线或像素异常。目前在社交媒体上有大量用户发布 iPhone Duo 铰链导致的屏幕显示问题，很多人猜测苹果可能会宣布召回，但现在苹果回应称仅少量设备受影响。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127690.png" rel="nofollow"&gt;&lt;img alt="苹果首次回应iPhone Duo铰链处内屏开裂问题 称只有极少数设备受影响 可联系售后换机" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127690.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 28 Oct 2026 05:00:00 +0000</pubDate></item><item><title>苹果在macOS 27.2中调整升级流程 升级时将保留Rosetta兼容层 不再自动删除</title><link>https://www.landian.news/archives/127756.html</link><description>
+&lt;p&gt;#系统资讯 苹果在 macOS 27.2 企业版升级说明中提到，Rosetta 兼容层将在升级时保留，而不是默认删除。在 macOS 27 升级说明中，苹果称升级后不会自动恢复升级前安装的兼容层。不过可能是收到企业的兼容性反馈，现在苹果默认行为改成保留升级前已经安装的兼容层，升级后不再自动删除。查看全文：https://ourl.co/127756&lt;/p&gt;&lt;p&gt;苹果在 macOS 27.2 企业版更新说明中新增兼容性调整：升级到 macOS 27 时系统将不再自动移除已经安装的 Rosetta 兼容层。后者是苹果为 Apple Silicon Mac 提供的兼容层，可以让基于英特尔处理器编译的应用继续运行。&lt;/p&gt;
+&lt;figure aria-describedby="caption-attachment-127802" id="attachment_127802"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127756.png" rel="nofollow"&gt;&lt;img alt="苹果在macOS 27.2中调整升级流程 升级时将保留Rosetta兼容层 不再自动删除" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127756.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-127802"&gt;图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;苹果日前首次针对 iPhone Duo 铰链问题发布官方回应，苹果称该公司已经注意到少量 iPhone Duo 设备的内屏故障，遇到此类问题的用户可以联系苹果更换设备。苹果还强调，受影响设备通常会较早出现故障，大多数 iPhone Duo 不受这个问题的影响。不过苹果并未公布受影响设备的数量或占比。&lt;/p&gt;
-&lt;p&gt;苹果在产品发布时介绍，iPhone Duo 的铰链由 100 多个组件构成，用于控制开合并支撑展开后的屏幕。内屏采用特殊粘合结构让显示层在折叠时相对滑动以缓解弯折应力。用户报告的损坏位置集中在铰链折痕附近，让铰链支撑机构成为关注重点。&lt;/p&gt;
+&lt;p&gt;苹果在此前的 macOS 27 升级说明中写道，升级到 macOS 27 后系统不会自动恢复升级前安装的兼容层，而在 macOS 27.2 的企业版说明中，苹果将默认行为改成升级到 macOS 27 时不再自动移除兼容层。&lt;/p&gt;
+&lt;p&gt;这项变化主要针对的是系统升级流程中的兼容层处理方式，对仍然依赖英特尔应用、插件或管理系统的企业来说，保留现有安装有助于避免升级后应用暂时无法启动。兼容层会在后台把英特尔应用所需的指令转换为 Apple M 可执行的形式，用户通常无需手动启用。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;iPhone Duo 的生产组装全部由富士康郑州工厂完成，目前社交媒体上流传的小道消息称，苹果很早就发现 iPhone Duo 的良品率较低因此稍微放松了品控。在正式发售并出现铰链引起的问题后，苹果也及时分析了原因，随后改进生产流程。&lt;/p&gt;
-&lt;p&gt;对苹果来说大规模召回影响声誉也可能造成较大的损失，所以现在的苹果就是遇到问题就联系售后换机，待后续改进后的版本陆续上市后出现问题的概率会降低，以此完成过渡解决这次 iPhone Duo 首发的质量问题。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 27 Oct 2026 06:30:00 +0000</pubDate></item><item><title>苹果发布iOS 27.2正式版 继续增强Siri AI功能并修复多达160余项安全问题</title><link>https://www.landian.news/archives/127689.html</link><description>
-&lt;p&gt;#系统资讯 苹果发布 iOS 27.2 版更新，Siri AI 增加对话记忆并支持更多语言，Siri Remote 遥控器现在也放在查找应用中显示定位。在本次更新中苹果还修复多达 160 项安全漏洞，涉及 AI、WebKit、内核、媒体处理等多个系统部分。对于不准备升级 iOS 27 的用户，苹果也发布 iOS 26.7.2 版修复相同的漏洞。查看全文：https://ourl.co/127689&lt;/p&gt;&lt;p&gt;苹果日前发布 iOS 27.2 正式版，这是 iOS 27 系列的首个主要功能更新，更新重点包括增强 Siri AI 的个人上下文理解、为 Apple TV Siri Remote 遥控器提供查找定位、修复多达 160 余项安全漏洞等。近期针对 iOS 旧版本发起的攻击非常多，建议用户开启自动更新及时升级到最新版本。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127689.png" rel="nofollow"&gt;&lt;img alt="苹果发布iOS 27.2正式版 继续增强Siri AI功能并修复多达160余项安全问题" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127689.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;更新后 Siri AI 可以回忆此前的对话，用户可以接着询问 Siri AI 推荐过的餐厅等内容。回答时 Siri AI 可以参考信息中的照片附件、日历活动参与者、语音留言以及 Safari 浏览历史和阅读列表。&lt;/p&gt;
-&lt;p&gt;苹果还重新设计排除应用设置，用户可以集中管理 Siri AI、搜索和系统建议能够访问的应用，将不需要被访问的应用添加到排除列表；复制 Siri AI 回答时，也可以精确选择其中一段内容。&lt;/p&gt;
-&lt;p&gt;Siri AI 此次还新增法语、日语、韩语、葡萄牙语、西班牙语的测试支持，在年底前还将支持繁体中文、越南语、挪威语、土耳其语。在 iPhone 上使用 Siri AI 需要 iPhone 15 Pro 或更新机型并启用苹果智能服务。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;更新到 iOS 27.2 和 tvOS 27.2 版后，第二代及更新款 Siri Remote 遥控器可以出现在查找应用中。此前用户主要通过控制中心的 Apple TV Remote 功能，利用近距离提示寻找遥控器。新版本直接将遥控器放到查找应用里，方便用户进行集中管理。&lt;/p&gt;
-&lt;p&gt;第四代 Siri Remote 遥控器还支持精确查找和播放提示音，精确查找需要搭配 iPhone 17 或更新机型、iPhone Air 或 iPhone Duo；遥控器播放提示音则是新款遥控器的功能。苹果公布的兼容范围包括第二代及更新款遥控器，因此既有遥控器也可以使用查找定位。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;苹果在 iOS 27.2 和 iPadOS 27.2 版中合计修复多达 160 项安全漏洞，其中包括 30 余项 WebKit 引擎问题和 15 项内核安全问题。苹果在安全公告中表示，苹果智能中的授权缺陷可能会让远程攻击者访问敏感用户数据；隐藏邮件地址中的逻辑缺陷问题可能会泄露用户真实邮箱地址；WebKit 的修复则涉及恶意网页内容触发的代码执行及沙盒逃逸。&lt;/p&gt;
-&lt;p&gt;其他在本次更新中获得安全修复的组件还包括账户、应用商店、内核、图像和媒体处理等系统部分，建议使用受支持机型的用户尽快转到设置、通用、软件更新里检查升级到 iOS 27.2 版。仍然使用 iOS 26 的用户也获得 iOS 26.7.2 版更新用于修复类似的漏洞。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 27 Oct 2026 06:00:00 +0000</pubDate></item><item><title>苹果发布新款iPad mini 首次采用8.5英寸OLED屏幕 搭载A20 Pro芯片 起售价5499元</title><link>https://www.landian.news/archives/127688.html</link><description>
-&lt;p&gt;#手机数码 苹果发布 iPad mini 8，采用 8.5 英寸的 XDR OLED 显示屏和 A20 Pro 芯片，国行版起售价 5499 元。新款 iPad mini 主要升级就是屏幕和芯片，其中屏幕为 XDR OLED 显示屏，HDR 峰值亮度 1200 尼特。芯片则采用 iPhone 18 Pro 的 A20 Pro，512GB 版为满血 A20 Pro，128GB/256GB 版 GPU 核心和神经网络核心都是缩减版。预购时间：10 月 29 日，上市时间 11 月 6 日。查看全文：https://ourl.co/127688&lt;/p&gt;&lt;p&gt;苹果日前通过新闻稿宣布推出新款 iPad mini (即 iPad mini 8)，苹果首次在该系列中配备 OLED 屏幕。新款 iPad mini 采用 A20 Pro 芯片，这款芯片也在 iPhone 18 Pro Max 上使用，所以 iPad mini 起售价就达到 5499 元。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127688-1.png" rel="nofollow"&gt;&lt;img alt="苹果发布新款iPad mini 首次采用8.5英寸OLED屏幕 搭载A20 Pro芯片 起售价5499元" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127688-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127688-2.png" rel="nofollow"&gt;&lt;img alt="苹果发布新款iPad mini 首次采用8.5英寸OLED屏幕 搭载A20 Pro芯片 起售价5499元" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127688-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127688-3.png" rel="nofollow"&gt;&lt;img alt="苹果发布新款iPad mini 首次采用8.5英寸OLED屏幕 搭载A20 Pro芯片 起售价5499元" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127688-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;新款 iPad mini 采用 8.5 英寸的超视网膜 XDR OLED 显示屏，边框较前代产品窄 24%，屏幕变大但机身维持相近尺寸。屏幕 HDR 峰值亮度最高 1200 尼特，全屏亮度最高 600 尼特，对比度为 200 万比 1。256GB 和 512GB 版均可加钱选配纳米纹理玻璃，可以减少明亮环境下的反光。&lt;/p&gt;
-&lt;p&gt;A20 Pro 芯片采用 2 纳米制程，配备 7 核心 GPU 并在各个 GPU 核心中加入神经网络加速器。苹果称，与前代产品相比，新机 AI 性能最高提升 4.5 倍、图形性能最高提升 2.7 倍、多线程 CPU 性能最高提升 60%。&lt;/p&gt;
-&lt;p&gt;不同存储版本配备的芯片还有区别，其中 128GB 和 256GB 版采用 5 核心 CPU 和 16 核心神经网络引擎，而 512GB 版配备 6 核心 CPU 和双 16 核心神经网络引擎。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127688-4.png" rel="nofollow"&gt;&lt;img alt="苹果发布新款iPad mini 首次采用8.5英寸OLED屏幕 搭载A20 Pro芯片 起售价5499元" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127688-4.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127688-5.png" rel="nofollow"&gt;&lt;img alt="苹果发布新款iPad mini 首次采用8.5英寸OLED屏幕 搭载A20 Pro芯片 起售价5499元" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127688-5.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127688-6.png" rel="nofollow"&gt;&lt;img alt="苹果发布新款iPad mini 首次采用8.5英寸OLED屏幕 搭载A20 Pro芯片 起售价5499元" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127688-6.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;前置摄像头升级为 1200 万像素的 Center Stage 并移动到横向边框，适合视频通话和会议。iPad mini 8 加入 Acoustic Display 音频设计，将低音扬声器与屏幕结合，把高音单元隐藏在玻璃和铝制外壳之间。&lt;/p&gt;
-&lt;p&gt;无线连接方面，iPad mini 8 搭载苹果 N1 芯片，支持 WiFi 7、蓝牙 6 和 Thread。蜂窝版使用苹果自研 C2 基带芯片，支持 5G 和 eSIM。新款也兼容 Apple Pencil Pro 和 Apple Pencil USB-C 款。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;iPad mini 8 提供午夜色和星光色，容量为 128GB、256GB 版、512GB 版。中国大陆 WiFi 版售价分别是 5499 元、6299 元、7999 元。WiFi + 蜂窝版售价分别是 6799 元、7599 元、9299 元。国内用户可以在 10 月 29 日凌晨 1 点 10 分开始预购，产品将在 11 月 6 日正式发售。&lt;/p&gt;
+&lt;p&gt;苹果此前已经说明 macOS 27 是 Rosetta 通用应用支持的最终版本，从 macOS 28 版开始兼容层将保留有限功能以继续支持部分依赖英特尔框架的旧游戏。macOS 26.4 开始，系统也会在启动依赖兼容层的应用时显示提示，提醒用户关注后续兼容性。&lt;/p&gt;
+&lt;p&gt;因此对于仍然依赖兼容层的企业来说，需要尽快联系应用程序开发商提供原生 ARM64 版，否则后续升级系统后这些应用将无法使用，这可能会迫使部分企业停留在 macOS 旧版本，所以企业需要尽早进行迁移。&lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://www.apple.com/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/" rel="noopener" target="_blank"&gt;Apple Newsroom&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://support.apple.com/en-us/148830" rel="noopener" target="_blank"&gt;苹果支持文档&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 27 Oct 2026 05:30:00 +0000</pubDate></item></channel></rss>
+</description><pubDate>Wed, 28 Oct 2026 04:00:00 +0000</pubDate></item></channel></rss>
