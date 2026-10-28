@@ -1,5 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 27 Oct 2026 17:59:47 +0000</lastBuildDate><item><title>“Pro and Tell”周还有什么看点：支持触控的 OLED MacBook</title><link>https://www.macrumors.com/2026/10/27/macbook-pro-with-touchscreen-tomorrow/</link><description>&lt;p&gt;乔·罗西尼奥尔，MacRumors：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Tue, 27 Oct 2026 22:19:39 +0000</lastBuildDate><item><title>Siri AI在OS 27.2中扩展支持更多语言</title><link>https://nr.apple.com/Du9G9W8Nq1</link><description>&lt;p&gt;Apple Newsroom 昨天：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;随着今天发布的 27.2 软件更新，Siri AI——一个全新版本的 Siri，能力大幅提升、更善于对话，也更个性化——正扩展到全球更多人，现已支持法语、日语、韩语、葡萄牙语和西班牙语。[...]&lt;/p&gt;
+&lt;p&gt;Siri AI 目前在欧盟的 iOS、iPadOS 和 watchOS 上不可用。Apple 正与欧盟进行建设性合作，试图找到一条前行之路。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;别抱太大希望。（或者，如果你愿意，&lt;em&gt;N’y comptez pas trop.&lt;/em&gt;）&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/10/27/siri-ai-os-27-2-languages" title="Permanent link to ‘Siri AI Expands to More Languages in OS 27.2’"&gt; ★ &lt;/a&gt;
+</description><pubDate>Tue, 27 Oct 2026 22:19:39 +0000</pubDate></item><item><title>Apple Creator Studio 迎来更新，带来一系列 AI 功能，以及 Keynote 全新的开放 JSON 文件格式</title><link>https://www.apple.com/newsroom/2026/10/apple-creator-studio-adds-powerful-new-ai-features-and-even-more-creative-tools/</link><description>&lt;p&gt;Apple Newsroom 发布了 Apple“Pro and Tell”周的软件新闻：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Apple 今日为 &lt;a href="https://www.apple.com/apple-creator-studio/"&gt;Apple Creator
+Studio&lt;/a&gt; 推出变革性更新，这是一套强大的创意应用集合，旨在将工作室级工具交到 Mac、iPad 和 iPhone 上的现代创作者手中。Mac 版 Final Cut Pro 现已内置 MotionVFX——一个庞大的视觉效果、插件、转场、模板和动态图形工具集合——以及在 Pixelmator Pro 中实现无缝编辑。Apple 精心策划的 Content Hub 现已包含视频素材，并已在 Final Cut Pro 中提供。使用 Mac 版 Logic Pro 的音乐创作者获得了一个测试版的全新智能助手、一个增强的 Stem Splitter（现在可分离鼓声），以及一个重新设计的浏览器，它整合了所有声音，具备音乐理解能力，甚至还有 Splice 库。Pixelmator Pro 推出了 Generate Fill，让创作者可以使用自然语言转换图像的选定区域。Keynote、Pages 和 Numbers 推出了测试版的新 AI 功能，包括能理解文档上下文的助手，以及用于工作流自动化的新模型上下文协议（MCP）支持。它们还在 Content Hub 中添加了库存视频以及新的高级主题和模板。&lt;/p&gt;
+&lt;p&gt;Apple Creator Studio 更新将于今年 11 月在 App Store 上架，现有订阅者可免费更新。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;内容很多。但最后这部分引起了我的注意：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在 Keynote、Pages 和 Numbers 中，Content Hub 扩展至包含 Apple 精心策划的库存视频素材，为创作者提供动态视觉效果，以增强演示文稿、报告和电子表格。订阅者还可获得一组全新专业设计的模板和主题。Keynote 引入了对 Keynote 交换格式（.keyx）的支持，这是一种基于 JSON 的开放捆绑文件格式，旨在可被外部工具、开发者工作流和 AI 代理读取和访问。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Apple 生产力应用工程经理 Jesse Bunch 在 &lt;a href="https://x.com/bunchjesse/status/2115076780285739258"&gt;X&lt;/a&gt; 和 &lt;a href="https://www.linkedin.com/feed/update/urn:li:activity:7520909926655954944/"&gt;LinkedIn&lt;/a&gt; 上表示：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我们新的应用内助手可以帮助你以创纪录的速度完成任务。MCP 允许你根据需要自带代理。还有一个用于 Keynote 的开源格式（以及 Python 库！），这样你就可以在任何平台上以编程方式创建 Keynote 文档。今天对 Creator Studio 来说是重要的一天。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我认为用于新 Keynote 交换格式的 Python 库尚未发布，Creator Studio 应用的更新也尚未发布。非常酷的消息，与 Apple 上个月宣布的 &lt;a href="https://daringfireball.net/linked/2026/09/22/xcode-json-project-files"&gt;Xcode 项目新 JSON 格式&lt;/a&gt;如出一辙。&lt;/p&gt;
+&lt;a href="https://daringfireball.net/linked/2026/10/27/apple-creator-studio-updates" title="指向“Apple Creator Studio 更新，带来大量 AI 功能，以及 Keynote 全新的开放 JSON 文件格式”的永久链接"&gt; ★ &lt;/a&gt;
+</description><pubDate>Tue, 27 Oct 2026 22:00:04 +0000</pubDate></item><item><title>★ 预结构化所见即所得</title><link>https://daringfireball.net/2026/10/prestructured_wysiwyg</link><description>&lt;p&gt;我工作中的许多小乐趣之一，就是别人就一个我一直想写的主题写出了很好的见解。偶尔这会让我有点刺痛，因为那是我自己真正想写的东西。但通常这简直太棒了，因为这是一篇我希望存在的文章，我其实并不想亲自去做写作的苦工，而现在它存在了，我只需链接到它，或许加上一些评论。这就像在地上或在你几个月没穿的外套口袋里捡到钱一样。&lt;/p&gt;
+&lt;p&gt;昨天就发生了这样的事：格伦·弗莱什曼（Glenn Fleishman）的“&lt;a href="https://sixcolors.com/post/2026/10/why-notes-will-never-let-us-edit-markdown/"&gt;为什么Notes永远不会让我们编辑Markdown&lt;/a&gt;”，以及&lt;a href="https://daringfireball.net/linked/2026/10/26/fleishman-apple-notes-markdown"&gt;我对它的链接&lt;/a&gt;。捡到钱了！&lt;/p&gt;
+&lt;p&gt;但我一直拖延写关于Apple Notes及其对Markdown导入/导出和复制/粘贴日益增长的支持的原因之一，是Notes围绕一种文本格式化的理念构建，而据我所知，这种理念并没有真正的名字。而没有名字，就很难谈论它。我打算建议称之为&lt;em&gt;预结构化所见即所得&lt;/em&gt;。&lt;/p&gt;
+&lt;p&gt;像Apple的Messages，尤其是Notes这样的应用，体现了预结构化所见即所得，而我是这个理念的超级粉丝。它低调地是过去15年左右软件设计中最好的理念和趋势之一。Messages允许你应用加粗和斜体等字符样式的所见即所得片段，但你不能选择字体或定义自己的样式。Notes更进一步，增加了行内超链接和预定义块样式，如标题 / 标题 / 副标题、等宽样式（例如用于代码）以及有序和无序列表。但Notes或Messages中没有字体菜单或偏好设置来更改默认字体。Notes中的“Aᴀ”格式化弹出框没有更改字体的控件，只有预设样式，所有这些样式在你的笔记中都是使用Apple的San Francisco系统字体家族呈现的。&lt;sup id="fnr1-2026-10-27"&gt;&lt;a href="https://daringfireball.net/#fn1-2026-10-27"&gt;1&lt;/a&gt;&lt;/sup&gt; 在Mac的早期几十年里（弗莱什曼称之为“Mac不是打字机”时代，指的是&lt;a href="https://www.amazon.com/s?k=robin+williams+mac+is+not+a+typewriter&amp;amp;tag=df-amzn-20"&gt;罗宾·威廉姆斯的开创性著作&lt;/a&gt;），这看起来不仅奇怪，而且完全错误。在那些日子里，文本要么是纯文本（一串字符，完全没有样式，就像打字机），要么是富文本；如果是富文本，你会期望选择任何你想要的字体（和大小）。&lt;/p&gt;&lt;p&gt;那个随心所欲的所见即所得时代带来了无法回避的问题。在技术层面，安装在&lt;em&gt;我&lt;/em&gt;电脑上的字体列表与安装在&lt;em&gt;你&lt;/em&gt;电脑上的字体列表并不相同。每个操作系统都自带一套字体。而最热衷于选择自己字体的人，恰恰也是最有可能安装第三方字体的人。这是一个确实无法解决的技术问题。还有一个审美问题。大多数人一旦能够选择自己的字体，就会做出糟糕的排版选择。&lt;/p&gt;
+&lt;p&gt;预结构化所见即所得同时解决了这两个问题。你能获得粗体、斜体、等宽字体等抽象语义样式的表现力，也能让标题使用更大的字号。但你既避免了“字体缺失”的技术问题，&lt;em&gt;也&lt;/em&gt;避免了“字体糟糕”的设计选择。如果你使用 Apple Notes 或 Messages，那你最好喜欢 Apple 的 San Francisco 系统字体家族，因为你得到的就是它。这对无障碍体验很有好处，因为所有字号都是相对的，而不是绝对的。而这些预设样式在很大程度上能很好地对应 Markdown，而 Markdown 本身并不关心字体选择或具体字号。&lt;/p&gt;
+&lt;p&gt;即便你是一位不错的（或者自认为不错的）设计师，在某些情境下无权决定这件事也是一种解放。记笔记正是这样的情境。电子邮件本该成为另一种情境，但可惜，完整的所见即所得早已在那里站稳脚跟，如今更是根深蒂固。约束有时反而让人自由。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;ol&gt;
+&lt;li id="fn1-2026-10-27"&gt;
+&lt;p&gt;这里有个大大的&lt;em&gt;但&lt;/em&gt;。Notes 在 Mac 上——而且只在 Mac 上——&lt;em&gt;确实&lt;/em&gt;允许你选择任意字体。格式 → 字体 → 显示字体（⌘T）会显示标准的 AppKit 字体面板，你可以用它把 Notes 中的字体改成任何你想要的。我认为这是 Mac 版 Notes 应用&lt;a href="https://www.apple.com/newsroom/2012/07/25Mountain-Lion-Available-Today-From-the-Mac-App-Store/"&gt;早期版本&lt;/a&gt;遗留的历史包袱。又或者 Apple 内部真有一些使用 Mac 版 Notes 的用户确实会用这个功能。在 Mac 上的 Notes 中做出的字体选择，会在 iOS 和 iPadOS 上呈现，前提是所选字体可用。它甚至对第三方字体也有效（这些字体&lt;a href="https://www.typography.com/faq/156"&gt;在 iOS 上安装起来相当复杂&lt;/a&gt;）。这是我&lt;a href="https://daringfireball.net/misc/2026/10/apple-notes-fonts-mac.png"&gt;在 Mac 上制作的一条使用自定义字体的 Notes 截图&lt;/a&gt;，以及&lt;a href="https://daringfireball.net/misc/2026/10/apple-notes-fonts-iphone.png"&gt;同一条 Notes 在 iOS 上的样子&lt;/a&gt;，其中只安装了那些字体中的一部分。但你不能在 iOS 上的 Notes 中更改自定义字体。&lt;/p&gt;
+&lt;p&gt;我不能说 Apple &lt;em&gt;不&lt;/em&gt;鼓励你在 Mac 上的 Notes 里折腾字体。它就在标准的 AppKit 字体面板里。但大多数普通 Mac 用户不知道这个标准 AppKit 字体面板。当他们在 Mail、TextEdit 和 Pages 这类应用里选字体时，都是从窗口里的工具栏操作。所以 Apple 也&lt;em&gt;不&lt;/em&gt;鼓励你在 Mac 上的 Notes 里折腾字体。如果他们想鼓励这么做，Mac 上就会有一个带字体菜单的工具栏，而且 iOS 上也能更改字体。&lt;/p&gt;
+&lt;p&gt;所以我说，最好假装 Apple Notes 不支持自定义字体选择。随它去吧——即使像我一样，Notes 而且只有 Notes 会在 San Francisco 里使用那个&lt;a href="https://daringfireball.net/linked/2025/05/12/that-stupid-apple-notes-a"&gt;看起来幼稚的替代性单层“a”字形&lt;/a&gt;，这一事实让你抓狂。&lt;a href="https://daringfireball.net/#fnr1-2026-10-27" title="Jump back to footnote 1 in the text."&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description><pubDate>Tue, 27 Oct 2026 21:24:20 +0000</pubDate></item><item><title>“Pro and Tell”周还有什么看点：支持触控的 OLED MacBook</title><link>https://www.macrumors.com/2026/10/27/macbook-pro-with-touchscreen-tomorrow/</link><description>&lt;p&gt;乔·罗西尼奥尔，MacRumors：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;据彭博社的马克·古尔曼报道，苹果公司将于周三发布14英寸和16英寸MacBook Pro机型，配备支持触控的OLED显示屏，边框更窄，采用灵动岛取代刘海设计，搭载M5 Pro和M5 Max芯片，并且设计更轻、略薄。&lt;a href="https://www.bloomberg.com/news/articles/2026-10-27/apple-launches-m6-imac-entry-macbook-pro-ahead-of-touch-laptop"&gt;彭博社的马克·古尔曼报道&lt;/a&gt;。苹果将于太平洋时间明天上午10点在洛杉矶举办一场私密的&lt;a href="https://www.macrumors.com/2026/10/19/apple-pro-and-tell/"&gt;“Pro and tell”体验活动&lt;/a&gt;。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -48,39 +85,4 @@ M6 配备 4 个雷雳端口：
 &lt;p&gt;我在上表中为 4 端口、32 GB 内存配置单独列出基础价格，因为当内存达到 32 GB 时，基础存储会从 256 GB 提升到 512 GB。这实际上是捆绑在一起的 400 美元内存升级和 200 美元固态硬盘升级，这也改变了升级到 1 TB 或 2 TB 固态硬盘的价格。&lt;/p&gt;
 &lt;p&gt;纳米纹理玻璃是 200 美元的升级选项，而配备 2 个雷雳端口的机型有&lt;a href="https://www.macrumors.com/2026/10/27/new-imac-2-5-gigabit-ethernet/"&gt;30 美元的 2.5 千兆以太网选项&lt;/a&gt;（默认仅支持 Wi-Fi）。以太网端口位于电源适配器上。4 端口机型则标配带有以太网端口的电源适配器。&lt;/p&gt;
 &lt;a href="https://daringfireball.net/linked/2026/10/27/apple-also-announces-imac-with-m6" title="‘Apple Also Announces iMac With M6’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Tue, 27 Oct 2026 16:44:10 +0000</pubDate></item><item><title>[赞助] WorkOS：让智能体无需浏览器即可注册你的应用</title><link>https://workos.com/auth-md?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q42026</link><description>&lt;p&gt;智能体无法点击为人类构建的注册页面，所以给它提供一些它能读取的内容。发布一个 auth.md 文件，智能体就能自行注册，完全无需接触浏览器登录，用户也始终不会被打断手头正在做的事情。&lt;/p&gt;
-&lt;p&gt;使用 WorkOS auth.md，在仪表板中登记，AuthKit 就会发布该文件。智能体会读取它、完成注册，并获得由你控制的、作用域受限的短期凭证。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://workos.com/auth-md?utm_source=daringfireball&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=q42026"&gt;让你的应用为智能体做好准备 →&lt;/a&gt;&lt;/p&gt;
-&lt;a href="https://daringfireball.net/feeds/sponsors/2026/10/workos_let_agents_sign_up_for" title="Permanent link to ‘WorkOS: Let Agents Sign Up for Your App Without a Browser’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Tue, 27 Oct 2026 16:03:08 +0000</pubDate></item><item><title>苹果推出搭载 M6 的新款基础版 MacBook Pro，仅提供 14 英寸机型</title><link>https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/</link><description>&lt;p&gt;Apple Newsroom 的“Pro and Tell”发布周仍在继续：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Apple 今天发布了全新的 &lt;a href="https://www.apple.com/macbook-pro/"&gt;14 英寸 MacBook Pro（M6）&lt;/a&gt;，为大学生、商务用户、创作者等带来更强劲的性能、强大的设备端 AI 能力以及更快的连接性能。M6 配备先进的 12 核 CPU，拥有全球最快的 CPU 核心，因此从生产力任务到要求更高的专业工作流，一切都快得令人难以置信且响应灵敏。与 M5 相比，12 核 GPU 的图形性能最高提升 30%，AI 工作负载最高提速 25%，让 14 英寸 MacBook Pro（M6）成为需要强劲性能的用户的超值之选。对于从 M1 升级的用户，性能提升更为显著，图形性能最高提升 11 倍，AI 性能最高提升 13 倍。凭借 GPU 中额外的神经网络加速器和双 16 核神经网络引擎，M6 将 MacBook Pro 打造成更强大的 AI 平台——从在各类 App 和 macOS 中充分利用 Siri AI 与 Apple Intelligence 功能，到在本地运行大语言模型，同时全程保护用户隐私。此外，14 英寸 MacBook Pro 配备 Wi-Fi 7 和蓝牙 6，而超高速存储让处理大文件、导出项目和运行高要求的 AI 工作流快如飞。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;我质疑过 Apple 在那里把“superfast”合写成一个词的决定，但我承认我错了——事实上，它确实是一个完全站得住脚的形容词。每天都能学到点新东西。&lt;/p&gt;
-&lt;p&gt;总之，这只是基础款 MacBook Pro，更像是 MacBook Air Plus，而不是搭载 M 系列 Pro 或 Max 芯片的真正专业级笔记本电脑。这一级别的 MacBook Pro 一直只提供较小的 14 英寸尺寸。价格似乎与六月涨价后的 M5 机型保持不变：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;基础价格：     $2000
-
-  内存：  16 GB      +0
-        24 GB    +200
-        32 GB    +400
-
-  固态硬盘：   1 TB      +0
-         2 TB    +500
-         4 TB   +1500
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;提供深空黑色和银色，纳米纹理需额外支付 150 美元。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/10/27/apple-introduces-new-base-macbook-pro-with-m6-14-inch-only" title="Permanent link to ‘Apple Introduces New Base MacBook Pro With M6, 14-Inch-Only’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Tue, 27 Oct 2026 16:00:46 +0000</pubDate></item><item><title>《纽约时报》似乎对玛丽莎·梅耶尔不公</title><link>https://www.nytimes.com/2026/10/25/style/marissa-mayer-ai-assistants-women.html?unlocked_article_code=1.L1E.xBwx.X_EjBGNsRNqr</link><description>&lt;p&gt;亚历山德拉·奥尔特（Alexandra Alter）在《纽约时报》为她撰写的关于玛丽莎·梅耶尔新AI初创公司Dazzle的人物报道所写的导语中（赠阅链接）：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;去年年底，玛丽莎·梅耶尔正为一个感觉不可能完成的任务而苦恼。&lt;/p&gt;
-&lt;p&gt;她的女儿玛丽埃尔（Marielle）快满10岁了，而玛丽埃尔的老师想要三个要点，概括她有什么特别之处。梅耶尔——雅虎前首席执行官、谷歌的开拓者之一，也是谷歌第一位女工程师——喜欢攻克难题。但潜在答案的范围之广、复杂程度之高让她不知所措。&lt;/p&gt;
-&lt;p&gt;于是梅耶尔问她的个人AI助手Dazzle。几秒钟内，Dazzle就给出了答案。&lt;/p&gt;
-&lt;p&gt;“它回来说，你的女儿有同理心、有创造力，还是个动物爱好者，”梅耶尔说。她觉得这很完美。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;那个轶事很残酷。它让人觉得梅耶尔疯了。她在社交媒体上因此被群嘲。我怀疑（也希望）事情不止如此。确实如此。&lt;a href="https://x.com/marissamayer/status/2114784525226229996"&gt;以下是梅耶尔本人在X上的说法&lt;/a&gt;：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;说清楚一点，我用Dazzle并不是因为做一页幻灯片让我不堪重负。我用它，是因为用几个要点来概括自己的孩子，感觉局限得可笑。而且，既然我们团队刚让一个早期原型运行起来，我想看看它能发现哪些更深层的线索。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;她可能只是在吹捧自己的初创公司。但她绝对没有告诉《纽约时报》，她需要AI帮忙才能想起自己的女儿“有同理心、有创造力，还是个动物爱好者”。在那个用例轶事上，她似乎被奥尔特和《纽约时报》坑了。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/10/26/mayer-dazzle" title="Permanent link to ‘The NYT Seemingly Does Marissa Mayer Dirty’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Tue, 27 Oct 2026 00:30:08 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 27 Oct 2026 16:44:10 +0000</pubDate></item></channel></rss>

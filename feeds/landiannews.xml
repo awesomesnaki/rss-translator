@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 27 Oct 2026 09:00:00 +0000</lastBuildDate><item><title>A社在IPO注册文件中透露 违规用户贡献7%的营收 蒸馏防护已经封禁数万账号</title><link>https://www.landian.news/archives/127749.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Wed, 28 Oct 2026 01:30:00 +0000</lastBuildDate><item><title>微软宣布Windows 11 26H2全面开放升级 通过启用包更新实测不到5分钟即可完成升级</title><link>https://www.landian.news/archives/127751.html</link><description>
+&lt;p&gt;#系统资讯 微软宣布 Windows 11 26H2 版全面开放升级，符合条件的设备都可以检查更新并升级到最新版本。该版本以 eKB 启用包的形式发布，因此 24H2/25H2 版用户只需要下载很少的数据并花费 5 分钟即可完成升级。如果用户使用的是 23H2 及更早版本，则可能需要下载更多系统文件并且重启过程也需要花费很长时间。查看全文：https://ourl.co/127751&lt;/p&gt;&lt;p&gt;10 月初微软发布 Windows 11 26H2 正式版，该版本最初仅面向兼容性更好的设备推送，不过现在微软已经全面开放该版本的升级，所有符合条件的设备现在检查更新都可以获取 Windows 11 26H2 版启用包并快速完成升级。&lt;/p&gt;
+&lt;figure aria-describedby="caption-attachment-127792" id="attachment_127792"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127751.png" rel="nofollow"&gt;&lt;img alt="微软宣布Windows 11 26H2全面开放升级 通过启用包更新实测不到5分钟即可完成升级" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127751.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-127792"&gt;图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Windows 11 26H2 版与 24H2/25H2 版共享相同的基础设施，因此实际更新时用户只需要下载微软发布的 eKB 启用包即可升级，通常不需要下载完整的系统镜像文件。&lt;/p&gt;
+&lt;p&gt;如果用户已经使用 Windows 11 24H2/25H2 版那整个升级过程会非常快，但如果用户使用的是 Windows 11 23H2 及更早的旧版本，实际升级时则需要下载完整的系统镜像，随后升级重启过程也需要很长时间才能完成。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Windows 11 26H2 包含的功能理论上也都支持 Windows 11 24H2/25H2 版，不过微软通过新版本刷新支持周期。其中 Windows 11 家庭版和专业版系列可以获得 24 个月的支持，企业版系列则可以获得 36 个月的支持。&lt;/p&gt;
+&lt;p&gt;而 Windows 11 24H2 家庭版系列已经在 10 月 13 日结束支持，因此仍然使用这些旧版本的用户可以尽快升级到新版本，确保后续仍然可以继续收到微软每月发布的安全更新。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 28 Oct 2026 01:30:00 +0000</pubDate></item><item><title>Cloudflare Tunnel新版本已删除印度eMudhra证书信任 用于对抗冒用身份伪造服务器</title><link>https://www.landian.news/archives/127750.html</link><description>
+&lt;p&gt;#软件资讯 Cloudflare Tunnel 新版本修复印度 eMudhra 证书劫持风险，官方提醒用户尽快升级实例。在旧版本中，cloudflared 程序仍然会信任 emSign 证书，攻击者可以假冒服务器伪装身份。用户至少需要升级到 2026.10.2 版，容器部署用户需要拉取最新镜像后重新部署，包管理器用户需要升级到最新版重启服务。查看全文：https://ourl.co/127750&lt;/p&gt;&lt;p&gt;网络服务提供商 Cloudflare 日前发布公告提醒用户将 Tunnel cloudflared 升级到 2026.10.2 或更高版本，这个新版本主要针对印度 eMudhra 中间证书私钥泄露事件。旧版 cloudflared 进程仍然信任受影响的证书链，攻击者可能利用伪造证书冒充服务端。&lt;/p&gt;
+&lt;figure aria-describedby="caption-attachment-127790" id="attachment_127790"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127750.png" rel="nofollow"&gt;&lt;img alt="Cloudflare Tunnel新版本已删除印度eMudhra证书信任 用于对抗冒用身份伪造服务器" data-wp-editing="1" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127750.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-127790"&gt;图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;cloudflared 是运行在服务器或虚拟机上的连接器，主要负责建立 Cloudflare Tunnel 并将内网应用连接到 Cloudflare 网络。该程序连接远端服务时需要校验数字证书来确认对方也就是远端服务器的身份。&lt;/p&gt;
+&lt;p&gt;在本次事件中印度草台公司的 8 张中间证书使用弱密钥导致很容易被爆破出来，持有这些私钥的人都可以伪造相关证书链，让受影响的软件把假冒服务器当成真实服务。Cloudflare 此次发布的更新重点就是解决证书信任，阻止 cloudflared 程序继续信任这些已经受损且被行业吊销的中间证书。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;官方建议用户至少升级到 2026.10.2 版，目前最新版已经是 2026.10.3 版。这项要求适用于本地管理和远程管理的 Cloudflare Tunnel，对于容器部署的用户需要拉取修复后的镜像并重新部署容器。通过系统包管理器安装的用户，应当继续使用系统包管理器升级并重启服务。只更新 Cloudflare 控制面板设置，无法替代运行实例的版本升级。&lt;/p&gt;
+&lt;p&gt;升级也要求重启服务，因此当前的连接可能会中断，单实例部署应安排维护时段，需要维持在线服务的用户，可以通过多个 cloudflared 实例或 Cloudflare Load Balancer 轮换升级。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://github.com/cloudflare/cloudflared/releases/tag/2026.10.2" rel="noopener" target="_blank"&gt;Cloudflare&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Wed, 28 Oct 2026 01:00:00 +0000</pubDate></item><item><title>A社在IPO注册文件中透露 违规用户贡献7%的营收 蒸馏防护已经封禁数万账号</title><link>https://www.landian.news/archives/127749.html</link><description>
 &lt;p&gt;#人工智能 Anthropic 在 IPO 注册文件中透露，违规用户贡献最高 7% 的营收，蒸馏防护措施已经封禁数万账号。随着持续采取打击措施，违规营收可能会降低，这有可能会给整体营收造成波动。A 社还强调相关防护措施已经让该公司放弃可观的收入和数万亿个付费的 token 流量，而且防护措施有时候也会误伤正常用户。查看全文：https://ourl.co/127749&lt;/p&gt;&lt;p&gt;人工智能公司 Anthropic 在提交的上市注册文件中透露，2026 年 1~9 月，后来被认定违反使用政策或商业条款的客户贡献公司营收金额的 5%~7%。与此同时 A 社称其针对未经授权模型蒸馏的防护措施，已经将相关数据提取量降低 90%~99%。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127749.png" rel="nofollow"&gt;&lt;img alt="A社在IPO注册文件中透露 违规用户贡献7%的营收 蒸馏防护已经封禁数万账号" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127749.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -92,29 +114,4 @@
 &lt;hr/&gt;
 &lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://www.apple.com/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/" rel="noopener" target="_blank"&gt;Apple Newsroom&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 27 Oct 2026 05:30:00 +0000</pubDate></item><item><title>A社正式提交IPO注册文件 股票代号ANT 营收快速增长但账面亏损持续扩大</title><link>https://www.landian.news/archives/127687.html</link><description>
-&lt;p&gt;#人工智能 Anthropic 正式开启 IPO，已向 SEC 提交 S-1 注册文件，但发行股数和价格尚未确定。A 社指定高盛和摩根士丹利为主承销商，注册文件需要 SEC 审核，正式发行后还有后续程序。治理方面，A 社属于 PBC 公共利益公司，不过 A 社向七名联合创始人组成的有限责任公司发行 F 类普通股，让该公司拥有 50.1% 的投票权。超过半数的投票权意味着联合创始人拥有公司控制权。查看全文：https://ourl.co/127687&lt;/p&gt;&lt;p&gt;人工智能公司 Anthropic 在 10 月 26 日向美国证券交易委员会提交公开版 S-1 注册文件，正式推进 IPO 即首次公开募股。A 社计划在纳斯达克全球精选市场挂牌，股票代码 ANT，此次文件首次公开发行框架、财务数据和公司治理安排。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127687.png" rel="nofollow"&gt;&lt;img alt="A社正式提交IPO注册文件 股票代号ANT 营收快速增长但账面亏损持续扩大" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127687.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;A 社计划发行 A 类普通股，但 S-1 文件尚未列出发行股数和价格区间，注册文件仍待美国证券交易委员会的审核，正式发行还需要后续程序。A 社称此次公开募股指定高盛和摩根士丹利担任主承销商。&lt;/p&gt;
-&lt;p&gt;美联社称 A 社今年早些时候的私募估值约为 9650 亿美元，市场报道提出的 IPO 估值更高，但最终定价将取决于后续发行文件和市场情况。此次上市也让 A 社成为首批进入公开市场的顶级生成式 AI 公司之一。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;S-1 文件显示 A 社 2026 年上半年营收 162.9 亿美元，远高于 2025 年同期的 12 亿美元。同期净亏损为 807 亿美元，去年同期为 130 亿美元。，其中约 724 亿美元来自可转换票据、衍生负债和未来股权简单协议的公允价值变动，主要受公司估值上升影响。同期营业亏损为 6.93 亿美元。&lt;/p&gt;
-&lt;p&gt;这些数据呈现出 A 社当前的财务特点：Claude 相关业务营收增长非常迅猛，同时估值变化造成的非现金会计项目显著扩大净亏损。A 社当前正在继续扩大 AI 业务投资，IPO 将为 A 社提供进入公开资本市场的渠道。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;A 社属于在美国特拉华州注册的 PBC 公共利益公司，公司章程要求其在经营过程中兼顾股东利益与公共利益。S-1 披露的治理结构包括长期利益信托，该信托持有特殊类别股份，保留选任董事会多数席位的权力。&lt;/p&gt;
-&lt;p&gt;文件还规划在 IPO 完成前向七名联合创始人组成的有限责任公司发行 F 类普通股，这让联合创始人在一般股东表决事项中拥有 50.1% 的投票权 (超过半数投票权意味着控制权)。A 社因此将按照纳斯达克规则被认定为受控公司，这套安排也意味着，公司上市后会有公众股东持有 A 类股票，同时继续保留创始人投票权和信托参与董事会治理的机制。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 27 Oct 2026 05:00:00 +0000</pubDate></item><item><title>Steam个人日历正式成为商店功能 玩家可以打开独立日历查看未来八周的发售安排</title><link>https://www.landian.news/archives/127686.html</link><description>
-&lt;p&gt;#游戏资讯 Steam 个人日历功能结束实验成为 Steam 商店正式功能，玩家打开独立日历可以查看未来八周的新作发售安排。玩家可以在商店首页查看个性化的新游戏推荐，也可以通过日历页面浏览发售安排。V 社希望这个新功能帮助玩家从每天上新的大量游戏中，找到更符合自己兴趣的作品。查看全文：https://ourl.co/127686&lt;/p&gt;&lt;p&gt;V 社已经将 Steam 个人日历从实验项目转为商店正式功能，玩家可以在 Steam 商店首页查看个性化的新游戏推荐，也可以打开独立日历页面浏览未来八周的游戏发售安排。V 社希望这个新功能帮助玩家从 Steam 每天上新的大量游戏中，找到更符合自己兴趣的作品。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127686.png" rel="nofollow"&gt;&lt;img alt="Steam个人日历正式成为商店功能 玩家可以打开独立日历查看未来八周的发售安排" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127686.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;个人日历最初在 2025 年 10 月作为实验项目推出，经过 11 个月的玩家和开发者反馈后，V 社在 10 月 24 日将其正式纳入 Steam 商店。商店首页的日历模块展示本周、两周前和未来两周的游戏，独立页面也按照日期列出未来八周的发售作品。&lt;/p&gt;
-&lt;p&gt;玩家可以逐日浏览并进入游戏的商店页面，Steam 表示日历每天平均为玩家带来超过 2000 款不同游戏的点击，推荐范围包括热门作品和部分比较小众的新作品，让不同玩家都能找到适合自己的新作。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;V 社称个人日历会参考玩家投入时间较多的游戏、寻找游玩习惯相似的其他 Steam 用户，再展示这些用户加入愿望清单或游戏的近期或即将发售的作品。几分钟的短暂试玩对推荐影响较小，长期玩的新游戏则会逐渐影响之后的推荐结果。&lt;/p&gt;
-&lt;p&gt;玩家自己的愿望清单游戏也会按照发售日期出现在日历中，玩家可以选择隐藏这些提醒。日历提供筛选和显示选项，可以按照愿望单、抢先体验以及 DLC 等内容查看。V 社表示，日历由算法自动生成，不出售推荐位、V 社员工也不会手动筛选游戏。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://steamcommunity.com/app/593110/announcements" rel="noopener" target="_blank"&gt;Steam 官方公告&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Tue, 27 Oct 2026 04:00:00 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 27 Oct 2026 05:30:00 +0000</pubDate></item></channel></rss>
