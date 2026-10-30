@@ -1,5 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 29 Oct 2026 09:30:38 +0000</lastBuildDate><item><title>群晖NAS安全预警：部分用户未及时更新系统和软件被勒索软件全盘加密数据</title><link>https://www.landian.news/archives/127833.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Fri, 30 Oct 2026 03:00:00 +0000</lastBuildDate><item><title>新版Claude Code新增「更加危险」控制项 开启后可以关闭关键目录删除操作的确认提示</title><link>https://www.landian.news/archives/127838.html</link><description>
+&lt;p&gt;#人工智能 Claude Code 新版本新增「更加危险」选项，即便生成的命令可能删除用户主目录也可以执行。例如针对用户主目录的 rm 和 rmdir 等命令，在正常模式下需要人工批准或直接拒绝执行。启用新模式后，这类危险命令无需人工批准也可以执行。新选项主要面向希望 Claude Code 在无人值守环境中持续运行的开发者，例如自动化任务或临时测试环境。关闭确认提示后，智能体遇到相关删除命令时可以继续执行，但用户也需要承担误删带来的后果。查看全文：https://ourl.co/127838&lt;/p&gt;&lt;p&gt;Claude Code 2.1.311 版中新增新的环境变量，该环境变量允许用户在跳过权限检查的模式下，关闭针对危险删除命令的确认提示。启用后 Claude Code 执行涉及用户主目录等关键路径的删除操作时，可以直接运行而不是等待用户批准。&lt;/p&gt;
+&lt;figure aria-describedby="caption-attachment-127900" id="attachment_127900"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127838.png" rel="nofollow"&gt;&lt;img alt="新版Claude Code新增「更加危险」控制项 开启后可以关闭关键目录删除操作的确认提示" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127838.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-127900"&gt;图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;新设置名为 CLAUDE_CODE_EVEN_MORE_DANGEROUSLY_SKIP_PERMISSIONS，A 社工程师黛西霍尔曼在介绍该功能时表示，该选项为确实需要关闭这层提示的用户准备的，通常普通用户不需要启用该选项。&lt;/p&gt;
+&lt;p&gt;在旧版本中 Claude Code 原有的跳过权限模式已经可以让多数工具调用跳过权限提示，不过 A 社仍然会为部分明显危险的删除操作保留额外的检查，尤其是执行的命令可能涉及删除用户主目录时，这种情况下需要人工确认或直接拒绝执行。&lt;/p&gt;
+&lt;p&gt;这个新选项主要面向希望 Claude Code 在无人值守环境中持续运行的开发者，例如自动化任务或者临时测试环境。关闭确认提示后，智能体遇到相关删除命令时可以继续执行，但用户需要自行承担误删带来的后果。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在启用更加危险选项后，针对关键路径的 rm 和 rmdir 删除提示可以被关闭，这意味着即便是 Claude Code 生成删除用户主目录的命令，在其他限制允许的情况下，该命令仍然可能会被执行。&lt;/p&gt;
+&lt;p&gt;这项变量需要用户主动设置并配合相应的权限模式，A 社文档说明，变量应该放在启动 Claude Code 的环境中，写入 Claude Code 设置文件的 env 区块不会让变量生效。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://code.claude.com/docs/en/permission-modes" rel="noopener" target="_blank"&gt;Anthropic 帮助文档&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 30 Oct 2026 03:00:00 +0000</pubDate></item><item><title>苹果开放512GB内存Mac Studio选购 从96GB升级到512GB需加钱11.6万 起售价17.2万元</title><link>https://www.landian.news/archives/127837.html</link><description>
+&lt;p&gt;#硬件设备 苹果开放 512GB 内存版 Mac Studio 选购，从 96GB 内存升级到 512GB 需要加钱 11.6 万元，起售价 17.2 万元，最高 22.92 万元。512GB 内存 + 1TB 固态硬盘起售价 17.29 万元，若升级到 16TB 固态硬盘，起售价 22.92 万元。在国行版起售价里，内存升级费用占比约 60%，内存真是金子！查看全文：https://ourl.co/127837&lt;/p&gt;&lt;p&gt;苹果日前已经开放 2026 款 Mac Studio 512GB 内存的选配，这项配置需要搭配最高规格的 M5 Ultra 芯片，国行版从 96GB 内存升级到 512GB 内存需要加价 116,250 元，搭配 1TB 存储的整机起售价为 172,999 元。&lt;/p&gt;
+&lt;figure aria-describedby="caption-attachment-127898" id="attachment_127898"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127837.png" rel="nofollow"&gt;&lt;img alt="苹果开放512GB内存Mac Studio选购 从96GB升级到512GB需加钱11.6万 起售价17.2万元" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127837.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-127898"&gt;图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;512GB 内存仅适用于配备 36 核心 CPU 和 80 核心 GPU 的 M5 Ultra 版，以该芯片搭配 96GB 内存的配置为基准，升级到 512GB 内存的费用如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;96GB 升级到 512GB 内存：国行版加价 116,250 元，美国加价 15,500 美元&lt;/li&gt;
+&lt;li&gt;512GB 内存 + 1TB 固态盘：国行版起售价 172,999 元，美国版 22,299 美元&lt;/li&gt;
+&lt;li&gt;512GB 内存 + 16TB 固态盘：国行版起售价 229,249 元，美国版 29,799 美元&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;也就是说在 512GB 内存版的国行版起售价里，内存升级费用占比约 60%，如果将固态硬盘从 1TB 升级到 16TB，整机价格还会增加 56,250 元。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;对大多数用户而言并不需要如此大的内存，而需要超大内存的用户基本都是用来本地运行 AI 模型。对于运行大型 AI 模型、处理复杂三维场景或高分辨率视频的用户，更大的内存容量可以容纳更庞大的模型和项目数据。&lt;/p&gt;
+&lt;p&gt;M5 Ultra 内存带宽最高为 1.2TB/s，在苹果公布的测试中，该芯片的峰值 AI 计算性能达到 M3 Ultra 的 4.3 倍，使用 LM Studio 处理大型语言模型提示词时，速度最高达到 M3 Ultra 的 4 倍。&lt;/p&gt;
+&lt;p&gt;Mac Studio 还支持通过雷雳 5 和 RDMA 连接多台设备进行协同处理，对于需要在本地部署模型的团队，也可以购买多台 Mac Studio 然后串联起来使用。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 30 Oct 2026 02:30:00 +0000</pubDate></item><item><title>欧盟准备铺设直达格陵兰岛的海底光缆 远期规划还包括经加拿大跨海连接东亚地区</title><link>https://www.landian.news/archives/127836.html</link><description>
+&lt;p&gt;#行业资讯 欧盟准备铺设直达格陵兰岛的海底光缆，再通过加拿大连接东亚和东南亚地区，完全绕过美国。这条被称为泛北极光缆的海底光缆旨在加强欧盟与格陵兰的联系，格陵兰现有的海底光缆经过冰岛，但冰岛并非欧盟成员国。计划中的这条新海底光缆将直接连接欧盟与格陵兰，远期规划包括连接加拿大并从加拿大跨海连接东亚。查看全文：https://ourl.co/127836&lt;/p&gt;&lt;p&gt;欧盟日前更新其北极战略增加有关格陵兰海底光缆的计划，该计划支持建设欧盟直连格陵兰岛的海底通信光缆，这条海底光缆被欧盟称为泛北极光缆。建设目的是加强欧盟与格陵兰岛的数字连接，也用于提高欧洲通信基础设施的安全性和韧性。&lt;/p&gt;
+&lt;figure aria-describedby="caption-attachment-127896" id="attachment_127896"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127836.png" rel="nofollow"&gt;&lt;img alt="欧盟准备铺设直达格陵兰岛的海底光缆 远期规划还包括经加拿大跨海连接东亚地区" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127836.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-127896"&gt;图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;格陵兰岛并非首次接入国际海底光缆，名为格陵兰岛连接的海底光缆已经在 2009 年投入使用，这条海底光缆从加拿大纽芬兰连接格陵兰岛并延伸到冰岛，通过冰岛线路再连接到欧洲大陆。&lt;/p&gt;
+&lt;p&gt;但冰岛并非欧盟成员国，此次欧盟的泛北极光缆旨在从格陵兰岛直连欧洲大陆 (欧盟成员国)，为当地提供更多路由选择。同时当现有线路出现故障或需要维护时，更多独立线路也有助于维持通信服务。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;欧盟在北极战略中表示，将与丹麦和格陵兰合作，支持建设安全可靠的直连海底光缆。在远期规划中，欧盟还考虑将这条海底光缆连接加拿大，随后向日本和韩国等东亚地区延伸。&lt;/p&gt;
+&lt;p&gt;如果达成这种目标，那未来欧盟与东亚、东南亚将有新线路，不必通过苏伊士运河和中东地区，当然也不需要再通过美国连接东亚和东南亚地区。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;泛北极光缆建设也面临特殊环境条件，海冰、冰山和短暂的适航季节会影响海底勘测、铺设与维护，发生故障后维修船只抵达现场也需要更长时间。欧盟因此计划支持建立北极海缆中心，该中心用来监测、保护和维修北大西洋及北极地区的海底通信线路。&lt;/p&gt;
+&lt;p&gt;欧盟委员会表示，泛北极线路的可行性研究目前正在积极推进中，项目的具体路线、融资安排和建设时间等将随着规划进一步明确。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 30 Oct 2026 02:00:00 +0000</pubDate></item><item><title>ChatGPT Dot智能体现已支持通过iMessage和RCS交互 包括主动给你发通知</title><link>https://www.landian.news/archives/127835.html</link><description>
+&lt;p&gt;#人工智能 ChatGPT Dot 智能体新增短信功能，可以使用 iOS iMessage 或安卓 RCS 给用户发消息，用户也可以发短信给 Dot 交办任务等。该功能目前仅面向美国 ChatGPT Pro 订阅用户进行有限测试，后续可能会逐步扩大测试范围。Dot 沿用 ChatGPT 的记忆、上下文和已连接的插件，用户切换沟通方式后也可以继续此前的工作。查看全文：https://ourl.co/127835&lt;/p&gt;&lt;p&gt;ChatGPT Dot 智能体日前开始测试短信功能，获得测试资格的用户可以通过 iOS 的 iMessage 或安卓设备的 RCS 向自己的智能体发送文字、照片和语音消息，用于交办任务或询问进展等。&lt;/p&gt;
+&lt;p&gt;Dot 也可以主动通过短信发送相关任务的更新，这个功能暂时仅进行有限的测试，目前仅面向美国的 ChatGPT Pro 订阅用户提供，并且用户还需要获得内测资格才行。&lt;/p&gt;
+&lt;figure aria-describedby="caption-attachment-127894" id="attachment_127894"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127835.png" rel="nofollow"&gt;&lt;img alt="ChatGPT Dot智能体现已支持通过iMessage和RCS交互 包括主动给你发通知" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127835.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-127894"&gt;图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Dot 是 OpenAI 推出的个人 AI 智能体，拥有独立的云端计算环境，可以结合用户授权连接的应用处理任务，在对话间继续推进工作。用户可以让 Dot 整理资料、研究问题、准备文档或者定期关注某件事等。&lt;/p&gt;
+&lt;p&gt;此次更新让用户多了个 Dot 联系入口，例如用户可以直接发送照片和说明，让 Dot 根据照片整理信息，也可以发送语音消息交代需要持续跟进的事项等。&lt;/p&gt;
+&lt;p&gt;Dot 可以根据对话内容选择联系渠道，用户也可以明确要求 Dot 在需要注意时发送短信用来提醒用户。如果某项操作需要用户批准，Dot 还会发送链接请用户返回 ChatGPT 查看和处理。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;OpenAI 表示，通过短信联系的仍然是用户自己的 Dot，Dot 会沿用用户在 ChatGPT 中的记忆、上下文和已经连接的插件，用户切换沟通方式后可以继续此前的工作。&lt;/p&gt;
+&lt;p&gt;启用短信功能后只有用户本人可以向自己的 Dot 发消息，Dot 也只能向该用户发消息。连接短信功能不会让 Dot 或 OpenAI 获得用户其他短信对话的访问权限，所以用户无需担心潜在的隐私问题。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 30 Oct 2026 01:30:00 +0000</pubDate></item><item><title>消息称惠普/华硕/宏碁已经将部分PC产能迁回中国 零部件上涨促使OEM加强成本控制</title><link>https://www.landian.news/archives/127834.html</link><description>
+&lt;p&gt;#行业资讯 消息称惠普 / 华硕 / 宏碁等 OEM 已经将部分 PC 产能重新迁回中国大陆，零部件价格上涨促使 OEM 加强成本控制。中国拥有集中度较高的 PC 零部件、组装和物流配套体系，对 OEM 来说可以降低整体物料成本并提高效率。分析师称预计中国产笔记本电脑占比将会持续上涨，其他地区的产量占比预计会跌破 20%。查看全文：https://ourl.co/127834&lt;/p&gt;&lt;p&gt;日经亚洲援引供应链消息称，包括惠普、华硕和宏碁等正在将部分个人电脑生产从泰国和越南迁回中国大陆，以应对内存和存储等零部件件价格上涨带来的成本压力，戴尔也在考虑类似的调整。&lt;/p&gt;
+&lt;p&gt;迁回原因主要是 AI 数据中心持续扩大采购推动存储芯片需求增长，面对物料成本持续上涨的局面，OEM 希望借助中国完善的零部件供应链和生产配套，降低采购、制造和物流成本。&lt;/p&gt;
+&lt;figure aria-describedby="caption-attachment-127892" id="attachment_127892"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127834.png" rel="nofollow"&gt;&lt;img alt="消息称惠普/华硕/宏碁已经将部分PC产能迁回中国 零部件上涨促使OEM加强成本控制" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127834.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-127892"&gt;图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;过去几年部分 OEM 出于供应链多元化考虑，曾推动制造商在东南亚等地区扩大产能，例如富士康等就在东南亚和印度等地新建多座工厂用来生产芯片、组装手机和电脑等。&lt;/p&gt;
+&lt;p&gt;而中国大陆拥有集中度较高的 PC 零部件、组装和物流配套体系，对 OEM 而言在生产基地附近采购配件、组织组装和运输等，都有助于缩短供应链，在零部件价格上涨时控制整体成本。&lt;/p&gt;
+&lt;p&gt;报道称 OEM 也在接触更多中国大陆的电脑设计和代工企业，部分代工厂向客户提出，利用本地供应链采购内存芯片；部分代工厂还通过减免初期开发费和模具费等来争取订单。&lt;/p&gt;
+&lt;p&gt;此前惠普、华硕和宏碁等已经被报道在部分面向非美国市场的笔记本电脑中少量使用长鑫内存芯片，戴尔等 OEM 也曾评估过中国内存产品，作为供应紧张时的采购选择。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;集邦咨询发布的报告显示，建议零售价为 900 美元的主流配置笔记本电脑，处理器、内存和固态硬盘在物料成本中的占比已经从 25Q1 的 45% 上涨到 26Q3 的 68%。&lt;/p&gt;
+&lt;p&gt;对 OEM 来说整机物料成本正在持续上涨，而提高产品售价又会导致销量下滑，因此 OEM 正在想尽办法降低物料成本避免设置较高的零售价。但处理器、内存和固态硬盘的采购价格基本难以撼动。&lt;/p&gt;
+&lt;p&gt;能继续降低成本的措施也只有压缩其他零部件的采购价格，这种情况下将订单转移回中国是个明智的选择，因为中国的代工厂可以就近从周边采购各类零部件并完成组装，整体成本更低且效率更高。&lt;/p&gt;
+&lt;p&gt;集邦咨询预计，中国大陆以外地区笔记本电脑产量预计会从 2025 年的 24% 降至 2026 年的 21%，而到 2027 年整体占比可能会低于 20%，也就是最终 80% 的笔记本电脑都将在中国生产。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 30 Oct 2026 01:00:00 +0000</pubDate></item><item><title>群晖NAS安全预警：部分用户未及时更新系统和软件被勒索软件全盘加密数据</title><link>https://www.landian.news/archives/127833.html</link><description>
 &lt;p&gt;#安全资讯 群晖 NAS 安全预警：部分用户未及时更新系统或软件被勒索软件全盘加密数据。360 反勒索团队近日处置多起涉及 C3RB3R 勒索软件的案例，黑客使用的是 9 月群晖已经修复的漏洞。如果用户未及时更新 DSM 且暴露在公网，就有可能被攻击。黑群晖用户通常无法及时更新版本，这种情况下更不应该将 NAS 暴露在公网上。建议使用群晖 NAS 的用户开启 DSM 自动更新，以及如无必要请不要将 NAS 暴露在公网、定时备份数据到云盘或其他位置，避免被一锅端。查看全文：https://ourl.co/127833&lt;/p&gt;&lt;p&gt;近期多名群晖 NAS 用户报告设备遭到勒索软件攻击，照片、文档、代码仓库和备份文件被加密，文件名出现.L0CK3D 后缀。360 反勒索团队称该团队处置的多起事件涉及 C3RB3R 勒索软件，攻击者利用 9 月披露的群晖 DSM 漏洞发起攻击。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127833.png" rel="nofollow"&gt;&lt;img alt="群晖NAS安全预警：部分用户未及时更新系统和软件被勒索软件全盘加密数据" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127833.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -66,86 +135,4 @@
 &lt;hr/&gt;
 &lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://techcommunity.microsoft.com/blog/networkingblog/windows-clat-is-now-generally-available/4566348" rel="noopener" target="_blank"&gt;微软技术博客&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 29 Oct 2026 08:00:19 +0000</pubDate></item><item><title>新版自定义右键菜单到来：Windows 11 25H2/26H2预览更新发布</title><link>https://www.landian.news/archives/127829.html</link><description>#系统资讯 微软向 Windows 11 正式版推送预览更新带来新版右键菜单，可以自定义显示哪些选项和扩展菜单。该更新为 KB5127936，属于带有测试性质的预览更新，测试没问题后微软会在下个月将相关变更推送给正式版用户。下载地址：https://ourl.co/127829</description><pubDate>Thu, 29 Oct 2026 07:30:58 +0000</pubDate></item><item><title>微软终于决定修复Windows 11更新尚未完成就提示重启的BUG 将考虑调整按钮设计</title><link>https://www.landian.news/archives/127828.html</link><description>
-&lt;p&gt;#系统资讯 微软终于决定修复 Windows 11 更新尚未完成就提示重启的 BUG，将考虑调整按钮设计。Windows 11 通常有多种更新，目前的情况是某个更新下载完、其他更新还在下载时，系统也会提示重启。微软员工称当部分更新已经准备完成时，立即重启按钮可以让希望立即安装这些更新的用户尽早重启系统完成安装。蓝点网甚至怀疑微软员工给出的解释就是为了掩盖这个设计错误，即最初设计时压根没考虑提示条时机，现在被关注后才找个理由回应。查看全文：https://ourl.co/127828&lt;/p&gt;&lt;p&gt;使用 Windows 11 的用户都知道在检查下载更新时有时候系统会错误提示立即重启，即存在多个更新时如果某个更新已经下载完成，即便其他更新还在下载中系统也会提示重启，如果真重启就会导致下载中断。&lt;/p&gt;
-&lt;p&gt;例如蓝点网使用 Windows 11 测试版，下载新测试版时通常需要很长时间，此时如果有其他小更新完成下载，哪怕测试版镜像已经下载到 95%，系统也会提示重启，重启后就需要开机后重新下载镜像。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127828.png" rel="nofollow"&gt;&lt;img alt="微软终于决定修复Windows 11更新尚未完成就提示重启的BUG 将考虑调整按钮设计" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127828.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;微软的考虑与用户实际使用的体验站在不同的角度，微软员工称当部分更新已经准备完成时，立即重启按钮可以让希望立即安装这些更新的用户尽早重启系统完成安装。&lt;/p&gt;
-&lt;p&gt;某些用户和测试场景确实需要在特定更新准备好后立即重启，但显然对大多数用户来说这就是个缺陷，所以微软正在考虑调整更新按钮，让有需要立即安装更新或希望等待所有更新都完成安装的用户都能满足自己的需求。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Windows 11 检查下载的更新根据硬件不同可能包括多种，常见的包括 Microsoft Defender 病毒库定义更新 (不需要重启)、驱动程序更新、.NET 更新、其他软件更新、系统更新等等。&lt;/p&gt;
-&lt;p&gt;对正在使用 PC 的用户来说减少重启导致的中断才是最重要的，所以某个更新下载好后就立即重启会打断其他更新的下载与安装，因此用户要想将所有更新都安装可能要重启几次，所以这种体验显然是很差的。&lt;/p&gt;
-&lt;p&gt;蓝点网甚至怀疑微软员工给出的解释就是为了掩盖这个设计错误，可能是最初在设计这个功能时压根没有考虑提示重启的时机，现在被用户关注后才说这是为了满足部分用户的需求。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 29 Oct 2026 07:00:57 +0000</pubDate></item><item><title>苹果推出首款触摸屏MacBook Pro 其他人真的可以对你的屏幕指指点点了</title><link>https://www.landian.news/archives/127827.html</link><description>
-&lt;p&gt;#硬件设备 其他人真可以对你的屏幕指指点点了：苹果推出首款搭载触摸屏的 MacBook Pro，采用 M5 Pro 和 M5 Max 芯片，最高可选配 128GB 内存。新款触摸屏版 MacBook Pro 采用双层串联 OLED 屏幕，苹果将其称为 PROLED XDR 屏幕。其他变化：机壳苹果标志会发光、刘海设计变成灵动岛。新款 MacBook Pro 起售价 22999 元，将在 10 月 30 日上午 9 点开始预购。查看全文：https://ourl.co/127827&lt;/p&gt;&lt;p&gt;苹果日前正式发布配备 PROLED XDR 显示屏的全新 MacBook Pro，提供 14 英寸和 16 英寸版，这也是苹果首款支持屏幕触控的 Mac。新款 MacBook Pro 引入双层串联 OLED 显示屏和灵动岛，机盖上的发光苹果标志也重新回归。&lt;/p&gt;
-&lt;p&gt;新款 MacBook Pro 采用 M5 Pro 和 M5 Max 芯片，国行版起售价 22999 元，将在 10 月 30 日上午 9 点开始预购，苹果将在 11 月 6 日正式发售这款新设备。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127827-1.png" rel="nofollow"&gt;&lt;img alt="苹果推出首款触摸屏MacBook Pro 其他人真的可以对你的屏幕指指点点了" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127827-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127827-2.png" rel="nofollow"&gt;&lt;img alt="苹果推出首款触摸屏MacBook Pro 其他人真的可以对你的屏幕指指点点了" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127827-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;新款 MacBook Pro 保留键盘和触控板，同时允许用户直接操作屏幕。苹果展示的操作包括滑动浏览网页、双指缩放照片、拖动演示文稿、通过触控调整窗口布局等。&lt;/p&gt;
-&lt;p&gt;专业应用也可以利用触控特性操作，例如直接旋转三维模型、在屏幕上绘图或弹奏虚拟乐器。开发者还可以在 MacBook Pro 屏幕上测试 iPhone 和 iPad 应用的触控交互。&lt;/p&gt;
-&lt;p&gt;苹果首席执行官约翰特努斯在接受采访时表示，键盘和触控板仍然是 Mac 的重要输入方式，而触控可以在部分场景下提供便利。约翰特努斯强调，苹果希望加入触控时保持产品的轻薄体验，而 OLED 屏幕可以让这些设计目标得以结合。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; PROLED XDR 带来双层 OLED 和灵动岛：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;新机使用苹果称为 PROLED XDR 的双层串联 OLED 面板，两层自发光像素共同工作来提升亮度和显示效果。14 英寸版实际显示区域为 14.2 英寸，屏幕分辨率为 3024x1986；16 英寸版显示区域为 16.3 英寸，分辨率为 3472x2266。两款屏幕均支持最高 120Hz 的自适应刷新率。&lt;/p&gt;
-&lt;p&gt;根据苹果技术规格文档，屏幕的全屏持续亮度最高为 1000 尼特，HDR 内容峰值亮度最高 2000 尼特，SDR 内容在户外的峰值亮度最高也可以达到 2000 尼特。屏幕支持 P3 和 Adobe RGB 广色域，标称对比度为 1000 万比 1，也可以加钱选配纳米纹理玻璃。&lt;/p&gt;
-&lt;p&gt;屏幕顶部的刘海设计被灵动岛取代，灵动岛可以用于聚焦搜索、实时互动和音乐播放控制等操作。对于海外版，苹果也列出 Siri AI 相关能力，目前国行版尚未支持 Siri AI。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;新款 MacBook Pro 的机盖重新采用发光苹果标志，该设计曾是早期 MacBook 的标志性外观，苹果从 2015 年的 12 英寸 MacBook 开始逐步转向不发光标志。&lt;/p&gt;
-&lt;p&gt;新机同时也采用更加轻薄的机身，例如 M5 Pro 版 14 英寸和 16 英寸版重量分别是 1.38 千克 / 1.82 千克，M5 Max 版为 1.40 千克 / 1.84 千克。新机也配备 1200 万像素的居中人物摄像头并增加视频稳定功能，改善用户触摸屏幕时的视频画面。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;新款 MacBook Pro 提供 M5 Pro 和 M5 Max 芯片，内存最高可以选配 128GB 内存。接口方面基本不变，还是 3 个雷雳接口 (均为雷雳 5)、HDMI 接口、SDXC 卡槽、MagSafe 3 充电接口和 3.5 毫米耳机接口，支持 WiFi 7 和蓝牙 6 协议。&lt;/p&gt;
-&lt;p&gt;国行版起售价如下：14 英寸 M5 Pro 起售价 22999 元、M5 Max 版起售价 36999 元 (内存均为 16GB 起步，下同)，16 英寸版起售价分别是 27999 元和 38999 元。&lt;/p&gt;
-&lt;p&gt;免费领取 1 个月 Apple Music 订阅会员：&lt;a href="https://ourl.co/amsc" rel="noopener" target="_blank"&gt;https://ourl.co/amsc&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 29 Oct 2026 06:30:32 +0000</pubDate></item><item><title>ChatGPT Pro和商业版订阅现在每月可以获得等额API额度 例如200美元版赠送200美元API</title><link>https://www.landian.news/archives/127775.html</link><description>
-&lt;p&gt;#人工智能 OpenAI 宣布向订阅用户赠送新权益：每月赠送订阅费等同的 API 额度。该政策适用于 ChatGPT Pro 和商业版订阅，例如开通 100 美元版订阅可以获得 100 美元 API 额度，不过商业版所有席位最高不超过 500 美元。API 额度不会自动加到 Codex 中，只能通过 OpenAI API 平台调用。查看全文：https://ourl.co/127775&lt;/p&gt;&lt;p&gt;OpenAI 今天发布新的支持文档宣布为 ChatGPT 订阅用户推出新的订阅权益，符合条件的 ChatGPT Pro 和 Business 订阅用户可以领取免费的 OpenAI API 额度，该额度可以通过开发者平台调用 API 开发应用、调用模型或构建智能体。&lt;/p&gt;
-&lt;p&gt;其中 ChatGPT Pro 订阅用户每月完整月度账单周期内可以获得与订阅价格相同金额的 API 额度，最高为每月 500 美元。商业版工作区则根据付费席位类型计算，每月最高总额度为 500 美元。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127775.png" rel="nofollow"&gt;&lt;img alt="ChatGPT Pro和商业版订阅现在每月可以获得等额API额度 例如200美元版赠送200美元API" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127775.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;ChatGPT Pro 5x 版订阅：每月 100 美元，可领取 100 美元额度&lt;/li&gt;
-&lt;li&gt;ChatGPT Pro 10x 版订阅：每月 200 美元，可领取 200 美元额度&lt;/li&gt;
-&lt;li&gt;ChatGPT Pro 25x 版订阅：每月 500 美元，可领取 500 美元额度&lt;/li&gt;
-&lt;li&gt;ChatGPT Business Standard 订阅：每个付费席位每月可以获得 20 美元额度，所有席位最高 500 美元&lt;/li&gt;
-&lt;li&gt;ChatGPT Business Premium 订阅：每个付费席位每月可以获得 100 美元额度，所有席位最高 500 美元&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;商业版订阅席位额度将汇总到组织工作区，每月上限就是 500 美元。例如 5 个标准版订阅 + 3 个高级版订阅席位合计获得 400 美元，如果按席位计算超过 500 美元，那也按照最高 500 美元上限计算。&lt;/p&gt;
-&lt;p&gt;按年预付费的商业版订阅席位额度可以一次性领取全年额度，每个年度账单周期最高可以获得 6000 美元 (即 500 美元 x12 个月)，领取后可以通过 API 调用并在免费额度内使用，超额部分需要额外付费。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;用户首次领取免费 API 额度时按照当前账单的剩余时间折算，例如 ChatGPT Pro 10x 版每月 200 美元，但领取时剩余订阅只有 15 天，那发放的额度也会被减半。但只要用户继续订阅，下次自动发放新额度时将按照满额度发放。&lt;/p&gt;
-&lt;p&gt;免费 API 额度自动发放且会在每月月底过期而不会结转，领取前请前往开发者控制台开通账号以便自动关联 API，Pro 用户必须是订阅所有者和接收额度的 API 所有者。首次开通订阅还需要在 7 天后才能领取 API 额度。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;尽管 Codex 里的信用点充值也是按 API 价格计算，但新增送的免费 API 额度不会自动加到 Codex 中，也就是说开发者必须通过 OpenAI API 进行调用，不能直接在 Codex 中使用。所以如果各位不想浪费的话，可以生成 API 后在其他应用中调用。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://help.openai.com/zh-hans-cn/articles/20001626-api-credits-benefit-for-eligible-chatgpt-subscriptions" rel="noopener" target="_blank"&gt;OpenAI 帮助文档&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 29 Oct 2026 06:00:54 +0000</pubDate></item><item><title>韩国监管机构对谷歌和苹果开出637.1亿韩元罚单 强迫开发者使用自家支付系统</title><link>https://www.landian.news/archives/127774.html</link><description>
-&lt;p&gt;#行业资讯 韩国监管机构对苹果和谷歌开出 637.1 亿韩元约合 4800 万美元的罚单，指控苹果和谷歌故意强迫开发者使用自家支付系统。例如即便开发者使用替代支付系统也必须缴纳最高 26% 的抽成，对使用自家内购系统和替代支付系统的开发者采取区别对待等。韩国要求苹果和谷歌在 3 个月内完成整改，包括调整佣金抽成比例。查看全文：https://ourl.co/127774&lt;/p&gt;&lt;p&gt;韩国广播媒体通信委员会日前发布决定，对美国苹果和谷歌公司合计处以 637.1 亿韩元约合 4800 万美元的罚款。罚款原因是苹果和谷歌都通过各类限制强迫开发者使用自家的支付系统，该委员会要求苹果和谷歌限期整改支付和审核政策。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127774.png" rel="nofollow"&gt;&lt;img alt="韩国监管机构对谷歌和苹果开出637.1亿韩元罚单 强迫开发者使用自家支付系统" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127774.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;韩国在 2021 年修订电信事业法，该法律禁止应用商店运营商强制开发者使用特定的支付方式。韩国监管机构从 2022 年起调查苹果和谷歌的相关政策，此次是该规定实施后的首次处罚。&lt;/p&gt;
-&lt;p&gt;根据调查，苹果和谷歌虽然已经允许开发者使用替代支付系统，但仍然收取最高 26% 交易佣金，而开发者还需要自行承担替代支付系统的费用，因此综合下来整体费用可能还要高于直接使用苹果和谷歌的内购系统。监管机构认为这种收费机制和附加条件让替代支付系统难以形成实际竞争。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;监管机构调查还显示，谷歌限制开发者展示不同支付系统的价格，苹果则要求使用替代支付系统的开发者单独提交应用。两家公司也被认定存在不合理拖延审核的问题，包括未能充分说明延迟原因和预计完成时间。&lt;/p&gt;
-&lt;p&gt;苹果还因为对韩国本土和海外开发者采用不同的佣金计算方式而受到处罚，监管机构称在 2015 年 7 月到 2023 年 1 月期间，苹果对韩国开发者按照包含增值税后的最终消费价格收取 30% 的佣金，对海外开发者则不按增值税的金额计算，这对韩国开发者造成不公平的差别待遇。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;韩国要求苹果和谷歌改善支付政策，让开发者能够在应用中提供前往外部支付页面的链接，而且也要合理调整使用替代支付系统的佣金抽成比例。&lt;/p&gt;
-&lt;p&gt;整改要求包括：谷歌需改善替代支付的用户界面规则、苹果调整开发者接入替代支付系统时需要单独提交应用的要求、两家公司都必须改进审核流程，向开发者说明审核延迟的原因和后续时间安排。&lt;/p&gt;
-&lt;p&gt;谷歌此前已经宣布将调整支付政策，包括允许外部支付和降低部分服务费，韩国监管机构正在评估实际效果，看看谷歌的整改是否满足要求。苹果则发布声明不同意韩国监管机构的处罚决定，正在依据韩国法律评估后续选择。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 29 Oct 2026 05:30:00 +0000</pubDate></item><item><title>ChatGPT Pro 200美元版使用配额即将调整：从10月30日开始额度将20x降低到10x</title><link>https://www.landian.news/archives/127773.html</link><description>
-&lt;p&gt;#人工智能 ChatGPT Pro 200 美元版使用额度即将从 20x 降低到 10x，此次调整将从 10 月 30 日开始，之后用户可能会感觉到消耗明显变快。不过这并非突然的调整，此前 OpenAI 已经提前预告过，以 Plus 为基准，100 美元版为 5x、200 美元版从 20x 降低到 10x，新增的 500 美元版为 25x。查看全文：https://ourl.co/127773&lt;/p&gt;&lt;p&gt;OpenAI 即将调整 ChatGPT Pro 200 美元订阅版的使用额度，根据支持文档说明，从 2026 年 10 月 30 日开始，ChatGPT Work 和 Codex 的套餐用量将 Plus 的 20x 降到 10x，不过每月仍然是 200 美元。符合条件的现有订阅用户可以保留旧额度到 10 月 29 日，之后将会切换到较低的额度。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127773.png" rel="nofollow"&gt;&lt;img alt="ChatGPT Pro 200美元版使用配额即将调整：从10月30日开始额度将20x降低到10x" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127773.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这并不是 OpenAI 突然要调整的，此前 OpenAI 已经预告过将在 10 月 30 日调整 ChatGPT Pro 20x 订阅额度。OpenAI 自称虽然调整额度但用户实际使用时应该会感觉更耐用，不过实际消耗速度取决于模型、上下文长度、推理强度、工具调用和速度模式等因素。&lt;/p&gt;
-&lt;p&gt;需要说明的是，在 9 月 29 日后开通的 ChatGPT Pro 20x 本身就没有保留旧额度，所以开通时获得的额度就是 10x 版而非 20x 版。从 10 月 30 日开始此前订阅的用户使用额度会从 20x 降低到 10x。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;此前 OpenAI 已经新增 ChatGPT Pro 25x 版，该订阅每月 500 美元，提供相当于 Plus 订阅的 25x 额度，支持 Ultrafast 模式。尽管 OpenAI 也推荐部分开发者通过购买信用点的方式提高用量，但信用点本身是按照 API 价格计费的，所以是非常不划算的。&lt;/p&gt;
-&lt;p&gt;另外目前 OpenAI 已经开始通过电子邮件陆续通知受影响的用户，使用 ChatGPT Pro 200 美元订阅的用户请注意检查自己的收件箱，如果收到邮件那说明你的额度即将从 20x 降低到 10x。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers" rel="noopener" target="_blank"&gt;OpenAI 帮助文档&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 29 Oct 2026 05:00:00 +0000</pubDate></item></channel></rss>
+</description><pubDate>Thu, 29 Oct 2026 08:00:19 +0000</pubDate></item><item><title>新版自定义右键菜单到来：Windows 11 25H2/26H2预览更新发布</title><link>https://www.landian.news/archives/127829.html</link><description>#系统资讯 微软向 Windows 11 正式版推送预览更新带来新版右键菜单，可以自定义显示哪些选项和扩展菜单。该更新为 KB5127936，属于带有测试性质的预览更新，测试没问题后微软会在下个月将相关变更推送给正式版用户。下载地址：https://ourl.co/127829</description><pubDate>Thu, 29 Oct 2026 07:30:58 +0000</pubDate></item></channel></rss>
