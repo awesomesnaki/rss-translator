@@ -1,138 +1,186 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Fri, 30 Oct 2026 03:00:00 +0000</lastBuildDate><item><title>新版Claude Code新增「更加危险」控制项 开启后可以关闭关键目录删除操作的确认提示</title><link>https://www.landian.news/archives/127838.html</link><description>
-&lt;p&gt;#人工智能 Claude Code 新版本新增「更加危险」选项，即便生成的命令可能删除用户主目录也可以执行。例如针对用户主目录的 rm 和 rmdir 等命令，在正常模式下需要人工批准或直接拒绝执行。启用新模式后，这类危险命令无需人工批准也可以执行。新选项主要面向希望 Claude Code 在无人值守环境中持续运行的开发者，例如自动化任务或临时测试环境。关闭确认提示后，智能体遇到相关删除命令时可以继续执行，但用户也需要承担误删带来的后果。查看全文：https://ourl.co/127838&lt;/p&gt;&lt;p&gt;Claude Code 2.1.311 版中新增新的环境变量，该环境变量允许用户在跳过权限检查的模式下，关闭针对危险删除命令的确认提示。启用后 Claude Code 执行涉及用户主目录等关键路径的删除操作时，可以直接运行而不是等待用户批准。&lt;/p&gt;
-&lt;figure aria-describedby="caption-attachment-127900" id="attachment_127900"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127838.png" rel="nofollow"&gt;&lt;img alt="新版Claude Code新增「更加危险」控制项 开启后可以关闭关键目录删除操作的确认提示" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127838.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-127900"&gt;图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Fri, 30 Oct 2026 08:30:00 +0000</lastBuildDate><item><title>应对AI抓取和造成的访问量暴跌：知名论坛Reddit宣布将强制登录浏览</title><link>https://www.landian.news/archives/127849.html</link><description>
+&lt;p&gt;#行业资讯 全球规模最大的论坛 Reddit 将逐步开始强制登录账号，应对 AI 抓取造成的访问量快速下滑。强制登录账号后，无论是真人用户还是 AI 都必须登录账号才能查看帖子内容。不过 Reddit 也效仿 X 的策略，即通过分享链接可以直接查看帖子内容，点击其他帖子时则必须登录。Reddit 在 10 月份平均每周访问量减少 100 万次，Q4 全季度日活可能会减少 1300 万。查看全文：https://ourl.co/127849&lt;/p&gt;&lt;p&gt;全球知名社区平台 Reddit 正在调整访问方式，后续该论坛将逐步转向要求用户登录账号，未来用户在平台上浏览大部分内容也都需要登录。在没有登录的情况下可能只能看到帖子标题，当然如果要回复、点赞、投票等也需要登录账号，不过这些功能本身就需要登录。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127849.png" rel="nofollow"&gt;&lt;img alt="应对AI抓取和造成的访问量暴跌：知名论坛Reddit宣布将强制登录浏览" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127849.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;新设置名为 CLAUDE_CODE_EVEN_MORE_DANGEROUSLY_SKIP_PERMISSIONS，A 社工程师黛西霍尔曼在介绍该功能时表示，该选项为确实需要关闭这层提示的用户准备的，通常普通用户不需要启用该选项。&lt;/p&gt;
-&lt;p&gt;在旧版本中 Claude Code 原有的跳过权限模式已经可以让多数工具调用跳过权限提示，不过 A 社仍然会为部分明显危险的删除操作保留额外的检查，尤其是执行的命令可能涉及删除用户主目录时，这种情况下需要人工确认或直接拒绝执行。&lt;/p&gt;
-&lt;p&gt;这个新选项主要面向希望 Claude Code 在无人值守环境中持续运行的开发者，例如自动化任务或者临时测试环境。关闭确认提示后，智能体遇到相关删除命令时可以继续执行，但用户需要自行承担误删带来的后果。&lt;/p&gt;
+&lt;p&gt;Reddit 首席执行官史蒂夫霍夫曼表示，推动登录有助于平台根据用户兴趣推荐社区的帖子，也能让平台获得更多广告投放信号，这项调整有利于 Reddit 的在线广告业务。&lt;/p&gt;
+&lt;p&gt;Reddit 同时希望限制未经授权的抓取，霍夫曼称目前针对 Reddit 的大多数未经授权的抓取发生在公共访问板块，转为强制登录后平台更容易管理外部对数据的访问。&lt;/p&gt;
+&lt;p&gt;最重要的是 Reddit 在 26Q3 来自搜索引擎 (其实主要就是谷歌) 的自然搜索流量明显减少，仅在 10 月份来自搜索的自然流量平均每周就减少超过 100 万次。这会导致 Reddit 广告业务受影响，也不利于 Reddit 获取更多新用户。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在启用更加危险选项后，针对关键路径的 rm 和 rmdir 删除提示可以被关闭，这意味着即便是 Claude Code 生成删除用户主目录的命令，在其他限制允许的情况下，该命令仍然可能会被执行。&lt;/p&gt;
-&lt;p&gt;这项变量需要用户主动设置并配合相应的权限模式，A 社文档说明，变量应该放在启动 Claude Code 的环境中，写入 Claude Code 设置文件的 env 区块不会让变量生效。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://code.claude.com/docs/en/permission-modes" rel="noopener" target="_blank"&gt;Anthropic 帮助文档&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Reddit 计划从 26Q4 开始在美国以外的地区展开强制登录测试，之后再根据测试结果决定后续的推广方式。根据当前的考虑，Reddit 首页将继续保持公开访问，用户通过搜索引擎进入 Reddit 首页后可以看到帖子列表。&lt;/p&gt;
+&lt;p&gt;而具体帖子内容 Reddit 也准备效仿 X，即用户通过直接分享链接进入帖子时无需登录就可以查看全文，但如果想要查看更多帖子就必须登录账号，不过具体策略还需要 Reddit 测试后再评估。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 30 Oct 2026 03:00:00 +0000</pubDate></item><item><title>苹果开放512GB内存Mac Studio选购 从96GB升级到512GB需加钱11.6万 起售价17.2万元</title><link>https://www.landian.news/archives/127837.html</link><description>
-&lt;p&gt;#硬件设备 苹果开放 512GB 内存版 Mac Studio 选购，从 96GB 内存升级到 512GB 需要加钱 11.6 万元，起售价 17.2 万元，最高 22.92 万元。512GB 内存 + 1TB 固态硬盘起售价 17.29 万元，若升级到 16TB 固态硬盘，起售价 22.92 万元。在国行版起售价里，内存升级费用占比约 60%，内存真是金子！查看全文：https://ourl.co/127837&lt;/p&gt;&lt;p&gt;苹果日前已经开放 2026 款 Mac Studio 512GB 内存的选配，这项配置需要搭配最高规格的 M5 Ultra 芯片，国行版从 96GB 内存升级到 512GB 内存需要加价 116,250 元，搭配 1TB 存储的整机起售价为 172,999 元。&lt;/p&gt;
-&lt;figure aria-describedby="caption-attachment-127898" id="attachment_127898"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127837.png" rel="nofollow"&gt;&lt;img alt="苹果开放512GB内存Mac Studio选购 从96GB升级到512GB需加钱11.6万 起售价17.2万元" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127837.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-127898"&gt;图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
+</description><pubDate>Fri, 30 Oct 2026 08:30:00 +0000</pubDate></item><item><title>英特尔股价盘后创纪录的暴跌23% 因为PC卖不动导致消费级CPU业绩极差</title><link>https://www.landian.news/archives/127848.html</link><description>
+&lt;p&gt;#行业资讯 英特尔发布 26Q3 财报后股价创纪录地暴跌 23%，内存价格太高导致英特尔 CPU 也卖不动了。当季英特尔 AI 芯片业务营收暴涨 78%，但消费级 CPU 业务不仅没有增长，同比还下滑 5%。陈立武表示，英特尔面临制造供应短缺、内存供应紧张以及由此带来的 PC 需求疲软。内存价格大涨推高整机成本，OEM 在缩减配置的同时提高零售价，这导致消费者和企业购买新 PC 的意愿大幅度下滑。查看全文：https://ourl.co/127848&lt;/p&gt;&lt;p&gt;英特尔日前公布 26Q3 财报，公布财报的同时英特尔也发布 26Q4 业绩展望，相关信息发布后英特尔股价在盘后创纪录地暴跌 23%。市场关注焦点主要集中在 26Q4 低于预期的业绩展望、芯片供应瓶颈以及不断增加的扩展支出。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127848.png" rel="nofollow"&gt;&lt;img alt="英特尔股价盘后创纪录的暴跌23% 因为PC卖不动导致消费级CPU业绩极差" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127848.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;512GB 内存仅适用于配备 36 核心 CPU 和 80 核心 GPU 的 M5 Ultra 版，以该芯片搭配 96GB 内存的配置为基准，升级到 512GB 内存的费用如下：&lt;/p&gt;
+&lt;p&gt;财报显示英特尔当季数据中心与人工智能部门实现营收 73 亿美元，同比暴涨 78%。业绩超预期的原因主要是受云服务和人工智能基础设施建设带动，服务器处理器的需求量正在持续增长。&lt;/p&gt;
+&lt;p&gt;而包含 PC 业务的客户端计算与实体人工智能部门营收为 81 亿美元，不仅没有增长，还同比下滑 5%。英特尔首席执行官陈立武表示：英特尔面临制造供应短缺、内存供应紧张以及由此带来的 PC 需求疲软。&lt;/p&gt;
+&lt;p&gt;内存价格大幅度上涨会推高整机成本，OEM 在缩减配置的同时也在提高 PC 售价，这导致消费者和企业购买新 PC 的意愿大幅度下滑，因此英特尔的消费级 CPU 业务持续承压。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;英特尔预计 26Q4 营收为 150 亿～160 亿美元，中值为 155 亿美元，而分析师此前预期平均为 170.7 亿美元。利润也同样远低于分析师预期：英特尔预计 26Q4 每股收益 0.25 美元，而分析师预期为 0.43 美元。&lt;/p&gt;
+&lt;p&gt;英特尔还在继续扩大产能以满足服务器芯片的需求，公司预计今年资本支出将达到 200 亿美元，2027 年将采购更多芯片制造设备，因此支出还将大幅度增长。英特尔也预计今年无法实现正向现金流，扩展资金需求受到投资者关注。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;本月英特尔位于以色列的芯片工厂发生爆炸，此次事故导致两名员工死亡，事故也导致芯片工厂停产约两周。这座工厂主要为英特尔生产 10 纳米工艺的数据中心芯片，英特尔计划在本周末前逐步恢复生产，同时评估有多少晶圆报废，有多少晶圆还能继续销售。&lt;/p&gt;
+&lt;p&gt;这次事故预计会让英特尔 Q4 营收减少约 3 亿美元，毛利率下降 2 个百分点，并且 27Q1 业绩可能还会继续受芯片工厂事故影响，大约也会减少 3 亿美元的营收。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 30 Oct 2026 08:00:00 +0000</pubDate></item><item><title>Linux Kernel IPv4 TCP高危漏洞曝光 AI利用漏洞可以远程获得root权限</title><link>https://www.landian.news/archives/127846.html</link><description>
+&lt;p&gt;#安全资讯 Linux Kernel IPv4 TCP 高危漏洞曝光，AI 利用漏洞可以远程获得 root 权限并执行任意代码。不过该漏洞利用起来并不容易，A 社研究人员使用 Claude AI 在具有 MPTCP 监听的服务器上成功发起攻击，但 MPTCP 并非默认启用。当然即便如此用户也需要关注自己使用的 Linux 发行版，及时升级到最新内核修复漏洞。查看全文：https://ourl.co/127846&lt;/p&gt;&lt;p&gt;Linux Kernel 中的新安全漏洞正在受到关注，该漏洞编号为 CVE-2026-98432。日前 A 社研究人员使用 Claude AI 模型编写针对该漏洞的概念验证程序，在特定环境中远程攻击者无需凭据或用户交互即可获得 root 权限并执行任意代码。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127846.png" rel="nofollow"&gt;&lt;img alt="Linux Kernel IPv4 TCP高危漏洞曝光 AI利用漏洞可以远程获得root权限" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127846.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;该漏洞最初在 2026 年 10 月 15 日公布，当时漏洞的具体细节并未被同步发布。目前部分发行版已经推出更新用于修复漏洞，服务器管理员需要根据实际使用的发行版和内核包确认补丁状态。&lt;/p&gt;
+&lt;p&gt;以 Ubuntu 为例：从 16.04 版开始到最新的 26.10 版均受该漏洞的影响，不过目前 Canonical 尚未针对这些版本发布修复程序，相关工作还在进行中，用户需要关注 Canonical 后续发布的更新。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;研究人员确实使用 Claude AI 模型开发概念验证程序，但环境为：在具有 MPTCP 即多路径 TCP 监听服务的 Linux 上才能发起攻击。漏洞细节：正常建立 TCP 连接时内核会处理请求套接字及其中的 IP 选项。在特定并发情况下处理流程读取选项时，其他流程可能已经释放相关内存，造成释放后使用。&lt;/p&gt;
+&lt;p&gt;A 社是在启用 MPTCP 的情况下成功利用漏洞，但 MPTCP 并非多数 Linux 发行版的默认选项，因此至少从当前情况来看想要直接通过漏洞发起攻击还是有些难度的。当然即便如此用户也需要关注发行版的更新，如有更新请立即安装。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 30 Oct 2026 07:30:00 +0000</pubDate></item><item><title>[测试命令] 微软在Win11里调整自适应休眠策略 高电量时更快唤醒 低电量时提前休眠</title><link>https://www.landian.news/archives/127845.html</link><description>
+&lt;p&gt;#系统资讯 微软正在为 Windows 11 改进现代待机模式 (S0)，可以根据笔记本电脑电池电量综合判断是否进入休眠状态。其中：电量大于 80% 将更倾向于维持现代待机模式，以便用户更快唤醒设备；电量低于 10% 时更倾向于进入休眠模式。进入休眠模式后会切断后台活动、断开网络连接，更省电但下次唤醒时更慢。S0 低功耗待机模式需要硬件支持，你可以进入蓝点网查看命令，使用命令测试自己的笔记本支持哪些待机模式。查看全文：https://ourl.co/127845&lt;/p&gt;&lt;p&gt;微软正在通过 Windows 11 25H2/26H2 KB5127936 预览更新 (&lt;a href="https://www.landian.news/go?url=https://www.catalog.update.microsoft.com/Search.aspx?q=kb5127936" rel="noopener" target="_blank"&gt;下载地址&lt;/a&gt;) 改善现代待机体验，此次调整的是自适应休眠策略，微软希望通过这次调整改善笔记本电脑在待机唤醒速度和电池续航之间的平衡。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127845.png" rel="nofollow"&gt;&lt;img alt="[测试命令] 微软在Win11里调整自适应休眠策略 高电量时更快唤醒 低电量时提前休眠" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127845.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;根据微软的说明，当设备电量高于 80% 时系统会减少进入自动休眠的情况，让用户更有机会从现代待机状态快速恢复。当设备电量低于 10% 时，系统会更早进入休眠状态，减少待机期间的电量持续消耗。&lt;/p&gt;
+&lt;p&gt;另外当笔记本已经充满电且用户主动合盖，系统会更倾向于维持快速唤醒体验。如果设备电量已经很低且没有连接电源，此时系统会更积极地转入休眠状态。&lt;/p&gt;
+&lt;p&gt;OEM 在笔记本电脑出厂时也会根据 S0 低功耗待机模式设计调整配置文件，所以不同笔记本电脑的实际执行情况会有区别。微软此次添加的是基于电量的触发时间，而不是单纯看用户多久没操作再进入休眠。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;需要注意的是这项改进仅支持提供现代待机的设备，现代待机属于低功耗待机模式，通常也被称为 S0 低功耗待机。当设备进入该状态时，系统会尽可能降低功耗但也保持快速唤醒能力，期间设备还可以根据配置维持网络连接。&lt;/p&gt;
+&lt;p&gt;现代待机本质上还会维持系统低功耗运行，而转入休眠状态后内存中的数据会被保存到存储设备，然后让笔记本进入更低功耗状态。用户重新启动设备后，系统再从休眠文件恢复之前的工作状态。从这个工作流程也可以看到，休眠模式通常会更加省电，但唤醒时的速度要比现代待机模式唤醒慢得多。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;打开管理员模式的命令提示符或 PowerShell 并运行如下命令：&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;powercfg /a&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;具体视 OEM 配置策略不同，用户可能会看到如下状态：&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;Standby (S0 Low Power Idle) Network Connected
+
+#支持 Modern Standby（S0），且待机时可保持网络连接
+
+Standby (S0 Low Power Idle) Network Disconnected
+
+#支持 Modern Standby（S0），但待机时不允许网络连接
+
+Standby (S3)
+
+#支持传统睡眠（S3），进入后系统几乎完全暂停，功耗极低，唤醒较慢
+
+Hibernate
+
+#支持休眠（将内存内容写入硬盘后关机，唤醒时恢复）
+
+Fast Startup
+
+#支持快速启动（关机时部分使用休眠机制以加快开机）
+
+Hybrid Sleep（较少见）
+
+#支持混合睡眠（同时进入睡眠和休眠状态）&lt;/pre&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 30 Oct 2026 07:00:00 +0000</pubDate></item><item><title>[更新] ChatGPT Pro订阅Codex额度将翻倍 从5x/10x/25x翻倍到10x/20x/50x</title><link>https://www.landian.news/archives/127844.html</link><description>&lt;article&gt;
+&lt;header&gt;
+&lt;h1&gt;
+                    [更新] ChatGPT Pro订阅Codex额度将翻倍 从5x/10x/25x翻倍到10x/20x/50x                &lt;/h1&gt;
+&lt;p&gt;&lt;span title="发布日期"&gt;2026年10月30日 14:30&lt;/span&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/tech/ai"&gt;人工智能&lt;/a&gt;, &lt;a href="https://www.landian.news/tech"&gt;科技资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="评论数量"&gt;0&lt;/span&gt;&lt;span title="浏览数量"&gt;1.60K&lt;/span&gt;&lt;/p&gt; &lt;/header&gt;
+&lt;a href="https://www.landian.news/archives/114184.html" rel="nofollow noopener" target="_blank"&gt;
+&lt;img alt="" referrerpolicy="no-referrer" src="//img.lancdn.com/public/images/view/Tencent_Cloud_Partner_Landian_1600.png"/&gt;
+&lt;/a&gt;
+&lt;p&gt;#人工智能 为平息用户抱怨，OpenAI 宣布将 ChatGPT Pro 订阅 Codex 额度翻倍，从 5x/10x/25x 翻倍到 10x/20x/50x。其中 200 美元版 ChatGPT Pro 相当于配额不变，还是 20x。而 ChatGPT Plus 没有任何调整，不仅继续受 5H 限制，配额还没有任何增加。查看全文：https://ourl.co/127844&lt;/p&gt;&lt;p&gt;OpenAI 宣布即日起将 ChatGPT Pro 和 ChatGPT Business Premium 订阅套餐使用限额全部翻倍。&lt;a href="https://www.landian.news/archives/127773.html" rel="noopener" target="_blank"&gt;此次调整主要是回应原本 OpenAI 计划将 200 美元的 ChatGPT Pro 额度从 20x 削减到 10x&lt;/a&gt;，以及 GPT 各类模型限流、降智、频繁触发模型过载等问题。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127844.png" rel="nofollow"&gt;&lt;img alt="[更新] ChatGPT Pro订阅Codex额度将翻倍 从5x/10x/25x翻倍到10x/20x/50x" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127844.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;96GB 升级到 512GB 内存：国行版加价 116,250 元，美国加价 15,500 美元&lt;/li&gt;
-&lt;li&gt;512GB 内存 + 1TB 固态盘：国行版起售价 172,999 元，美国版 22,299 美元&lt;/li&gt;
-&lt;li&gt;512GB 内存 + 16TB 固态盘：国行版起售价 229,249 元，美国版 29,799 美元&lt;/li&gt;
+&lt;li&gt;100 美元版 ChatGPT Pro：原本使用配额为 5x，调整后翻倍到 10x&lt;/li&gt;
+&lt;li&gt;200 美元版 ChatGPT Pro：原本使用配额为 20x，后准备降低到 10x，翻倍后重新回到 20x&lt;/li&gt;
+&lt;li&gt;500 美元版 ChatGPT Pro：原本使用配额为 25x，调整后翻倍到 50x&lt;/li&gt;
+&lt;li&gt;125 美元版 ChatGPT Business Premium：原本使用配额为 5x，调整后翻倍到 10x&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;也就是说在 512GB 内存版的国行版起售价里，内存升级费用占比约 60%，如果将固态硬盘从 1TB 升级到 16TB，整机价格还会增加 56,250 元。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;对大多数用户而言并不需要如此大的内存，而需要超大内存的用户基本都是用来本地运行 AI 模型。对于运行大型 AI 模型、处理复杂三维场景或高分辨率视频的用户，更大的内存容量可以容纳更庞大的模型和项目数据。&lt;/p&gt;
-&lt;p&gt;M5 Ultra 内存带宽最高为 1.2TB/s，在苹果公布的测试中，该芯片的峰值 AI 计算性能达到 M3 Ultra 的 4.3 倍，使用 LM Studio 处理大型语言模型提示词时，速度最高达到 M3 Ultra 的 4 倍。&lt;/p&gt;
-&lt;p&gt;Mac Studio 还支持通过雷雳 5 和 RDMA 连接多台设备进行协同处理，对于需要在本地部署模型的团队，也可以购买多台 Mac Studio 然后串联起来使用。&lt;/p&gt;
+&lt;p&gt;根据说明现阶段 ChatGPT 个人智能体应用 Dot 将继续获得扩展限额，该限额与 ChatGPT Pro 订阅的限额分离，也就是在 Dot 中使用并不会消耗 ChatGPT Pro 订阅限额。&lt;/p&gt;
+&lt;p&gt;不过此次调整也引起大量 ChatGPT Plus 订阅用户不满，Plus 订阅不仅受 5H 限制，同时额度低还没有翻倍，看起来 OpenAI 就是在逼迫用户开通至少 100 美元版的 ChatGPT Pro 订阅。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/127773.html" title="ChatGPT Pro 200美元版使用配额即将调整：从10月30日开始额度将20x降低到10x"&gt;&lt;h3&gt;ChatGPT Pro 200美元版使用配额即将调整：从10月30日开始额度将20x降低到10x&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#人工智能 ChatGPT Pro 200 美元版使用额度即将从 20x 降低到 10x，此次调整将从 10 月 30 日开始，之后用户可能会感…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/tech/ai"&gt;人工智能&lt;/a&gt;, &lt;a href="https://www.landian.news/tech"&gt;科技资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2026年10月29日 13:00&lt;/span&gt;&lt;span title="浏览数量"&gt;3.46K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 30 Oct 2026 02:30:00 +0000</pubDate></item><item><title>欧盟准备铺设直达格陵兰岛的海底光缆 远期规划还包括经加拿大跨海连接东亚地区</title><link>https://www.landian.news/archives/127836.html</link><description>
-&lt;p&gt;#行业资讯 欧盟准备铺设直达格陵兰岛的海底光缆，再通过加拿大连接东亚和东南亚地区，完全绕过美国。这条被称为泛北极光缆的海底光缆旨在加强欧盟与格陵兰的联系，格陵兰现有的海底光缆经过冰岛，但冰岛并非欧盟成员国。计划中的这条新海底光缆将直接连接欧盟与格陵兰，远期规划包括连接加拿大并从加拿大跨海连接东亚。查看全文：https://ourl.co/127836&lt;/p&gt;&lt;p&gt;欧盟日前更新其北极战略增加有关格陵兰海底光缆的计划，该计划支持建设欧盟直连格陵兰岛的海底通信光缆，这条海底光缆被欧盟称为泛北极光缆。建设目的是加强欧盟与格陵兰岛的数字连接，也用于提高欧洲通信基础设施的安全性和韧性。&lt;/p&gt;
-&lt;figure aria-describedby="caption-attachment-127896" id="attachment_127896"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127836.png" rel="nofollow"&gt;&lt;img alt="欧盟准备铺设直达格陵兰岛的海底光缆 远期规划还包括经加拿大跨海连接东亚地区" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127836.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-127896"&gt;图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;
+&lt;ins data-ad-client="ca-pub-8597288383599884" data-ad-format="auto" data-ad-slot="1551135873" data-full-width-responsive="true"&gt;&lt;/ins&gt;
+&lt;/p&gt;&lt;popup module-class="point-pay-module" ref="pointPayRef"&gt;&lt;point-pay-popup @close-point-pay-popup="closePointPay"&gt;&lt;/point-pay-popup&gt;&lt;/popup&gt; &lt;/article&gt;
+</description><pubDate>Fri, 30 Oct 2026 06:30:00 +0000</pubDate></item><item><title>百度网盘为什么禁用传感器还能跳转摇一摇广告？AI分析显示百度网盘还读取磁力计数据</title><link>https://www.landian.news/archives/127843.html</link><description>
+&lt;p&gt;#软件资讯 开发者使用 AI 分析百度网盘 iOS 版为什么禁用运动传感器权限还能跳转摇一摇广告：因为百度网盘还开发了磁力计框架。百度网盘 iOS 版广告框架里有个名为 NoShake (没有运动) 的变体，该变体会检测苹果 Core Location 框架中的 CLHeading 获取设备方向数据。该数据可以提供设备相对于磁北方向的朝向和用于计算方向的三轴磁场数据。简单来说，手机姿态发生变化时磁力计数据也会随之变化，这样百度网盘还是能判定用户摇晃了手机进而跳转广告。AI 分析报告还提到了零点击自动跳转广告，当特定参数组合满足条件时，等待约 1 秒后即便用户没有点击，SDK 也会自动执行广告点击流程。查看全文：https://ourl.co/127843&lt;/p&gt;&lt;p&gt;本周苹果推出 iOS 27.2 正式版，苹果在该版本中为中国大陆用户带来新权限设置：运动与健身。该权限可以用来控制应用程序能否获得陀螺仪和加速度计参数，部分应用程序开屏摇一摇广告就通过检测传感器实现跳转。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.landian.news/archives/127758.html" rel="noopener" target="_blank"&gt;但百度网盘 iOS 版在被关运动与健身权限后仍然可以继续跳转摇一摇广告&lt;/a&gt;，在此前的讨论中有网友猜测百度网盘可能并不需要检测陀螺仪和加速度计，而是设置随机延迟。只要到延迟时间就判断用户触发摇一摇并自动跳转广告。&lt;/p&gt;
+&lt;figure aria-describedby="caption-attachment-127910" id="attachment_127910"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127843.png" rel="nofollow"&gt;&lt;img alt="百度网盘为什么禁用传感器还能跳转摇一摇广告？AI分析显示百度网盘还读取磁力计数据" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127843.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-127910"&gt;图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;格陵兰岛并非首次接入国际海底光缆，名为格陵兰岛连接的海底光缆已经在 2009 年投入使用，这条海底光缆从加拿大纽芬兰连接格陵兰岛并延伸到冰岛，通过冰岛线路再连接到欧洲大陆。&lt;/p&gt;
-&lt;p&gt;但冰岛并非欧盟成员国，此次欧盟的泛北极光缆旨在从格陵兰岛直连欧洲大陆 (欧盟成员国)，为当地提供更多路由选择。同时当现有线路出现故障或需要维护时，更多独立线路也有助于维持通信服务。&lt;/p&gt;
+&lt;p&gt;开发者 @王晨杰 使用 AI 分析百度网盘的开屏广告跳转逻辑并将最终报告分享给蓝点网。分析发现百度网盘使用的框架里有个专门的没有运动 (NoShake) 变体，这个变体没有依靠常规的 CoreMotion 动作监听，而是使用苹果 Core Location 框架中的 CLHeading 获取设备方向数据。&lt;/p&gt;
+&lt;p&gt;CLHeading 属于磁力计相关的框架，该框架可以提供设备相对于磁北方向的朝向和用于计算方向的三轴磁场数据。简单来说，手机姿态发生变化时磁力计返回的数据也可能随之变化，广告组件可以据此判断用户是否移动或转动了手机。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;欧盟在北极战略中表示，将与丹麦和格陵兰合作，支持建设安全可靠的直连海底光缆。在远期规划中，欧盟还考虑将这条海底光缆连接加拿大，随后向日本和韩国等东亚地区延伸。&lt;/p&gt;
-&lt;p&gt;如果达成这种目标，那未来欧盟与东亚、东南亚将有新线路，不必通过苏伊士运河和中东地区，当然也不需要再通过美国连接东亚和东南亚地区。&lt;/p&gt;
+&lt;p&gt;至少在百度网盘 iOS 版的案例中禁止百度网盘获取陀螺仪和加速度计权限是没用的，百度网盘已经准备好备用方法来检测手机是否移动或晃动。不过可能并非所有应用程序都如百度网盘这样还提前开发好替代框架。&lt;/p&gt;
+&lt;p&gt;iOS 27.2 测试版在 9 月 23 日发布，而此次开发者使用 AI 分析的样本是百度网盘 iOS 版 13.36.0 版，该版本于 10 月 22 日发布。当然这无法判断百度网盘是不是在 iOS 27.2 测试版发布后才新增 NoShake 变体用来应对传感器权限限制。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;泛北极光缆建设也面临特殊环境条件，海冰、冰山和短暂的适航季节会影响海底勘测、铺设与维护，发生故障后维修船只抵达现场也需要更长时间。欧盟因此计划支持建立北极海缆中心，该中心用来监测、保护和维修北大西洋及北极地区的海底通信线路。&lt;/p&gt;
-&lt;p&gt;欧盟委员会表示，泛北极线路的可行性研究目前正在积极推进中，项目的具体路线、融资安排和建设时间等将随着规划进一步明确。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 30 Oct 2026 02:00:00 +0000</pubDate></item><item><title>ChatGPT Dot智能体现已支持通过iMessage和RCS交互 包括主动给你发通知</title><link>https://www.landian.news/archives/127835.html</link><description>
-&lt;p&gt;#人工智能 ChatGPT Dot 智能体新增短信功能，可以使用 iOS iMessage 或安卓 RCS 给用户发消息，用户也可以发短信给 Dot 交办任务等。该功能目前仅面向美国 ChatGPT Pro 订阅用户进行有限测试，后续可能会逐步扩大测试范围。Dot 沿用 ChatGPT 的记忆、上下文和已连接的插件，用户切换沟通方式后也可以继续此前的工作。查看全文：https://ourl.co/127835&lt;/p&gt;&lt;p&gt;ChatGPT Dot 智能体日前开始测试短信功能，获得测试资格的用户可以通过 iOS 的 iMessage 或安卓设备的 RCS 向自己的智能体发送文字、照片和语音消息，用于交办任务或询问进展等。&lt;/p&gt;
-&lt;p&gt;Dot 也可以主动通过短信发送相关任务的更新，这个功能暂时仅进行有限的测试，目前仅面向美国的 ChatGPT Pro 订阅用户提供，并且用户还需要获得内测资格才行。&lt;/p&gt;
-&lt;figure aria-describedby="caption-attachment-127894" id="attachment_127894"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127835.png" rel="nofollow"&gt;&lt;img alt="ChatGPT Dot智能体现已支持通过iMessage和RCS交互 包括主动给你发通知" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127835.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-127894"&gt;图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;报告还提到一种零点击分支：当特定参数组合满足条件时，触发后会等待约 1 秒，如果期间用户没有点击，SDK 便自动执行广告点击流程。其他参数组合也可能在触发后直接进入点击流程。&lt;/p&gt;
+&lt;p&gt;这一机制为此前网友猜测的等待一段时间后自动跳转提供值得关注的线索，不过分析报告并未取得真实的广告响应，所以不能确定线上广告实际使用了哪组参数。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Dot 是 OpenAI 推出的个人 AI 智能体，拥有独立的云端计算环境，可以结合用户授权连接的应用处理任务，在对话间继续推进工作。用户可以让 Dot 整理资料、研究问题、准备文档或者定期关注某件事等。&lt;/p&gt;
-&lt;p&gt;此次更新让用户多了个 Dot 联系入口，例如用户可以直接发送照片和说明，让 Dot 根据照片整理信息，也可以发送语音消息交代需要持续跟进的事项等。&lt;/p&gt;
-&lt;p&gt;Dot 可以根据对话内容选择联系渠道，用户也可以明确要求 Dot 在需要注意时发送短信用来提醒用户。如果某项操作需要用户批准，Dot 还会发送链接请用户返回 ChatGPT 查看和处理。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;OpenAI 表示，通过短信联系的仍然是用户自己的 Dot，Dot 会沿用用户在 ChatGPT 中的记忆、上下文和已经连接的插件，用户切换沟通方式后可以继续此前的工作。&lt;/p&gt;
-&lt;p&gt;启用短信功能后只有用户本人可以向自己的 Dot 发消息，Dot 也只能向该用户发消息。连接短信功能不会让 Dot 或 OpenAI 获得用户其他短信对话的访问权限，所以用户无需担心潜在的隐私问题。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 30 Oct 2026 01:30:00 +0000</pubDate></item><item><title>消息称惠普/华硕/宏碁已经将部分PC产能迁回中国 零部件上涨促使OEM加强成本控制</title><link>https://www.landian.news/archives/127834.html</link><description>
-&lt;p&gt;#行业资讯 消息称惠普 / 华硕 / 宏碁等 OEM 已经将部分 PC 产能重新迁回中国大陆，零部件价格上涨促使 OEM 加强成本控制。中国拥有集中度较高的 PC 零部件、组装和物流配套体系，对 OEM 来说可以降低整体物料成本并提高效率。分析师称预计中国产笔记本电脑占比将会持续上涨，其他地区的产量占比预计会跌破 20%。查看全文：https://ourl.co/127834&lt;/p&gt;&lt;p&gt;日经亚洲援引供应链消息称，包括惠普、华硕和宏碁等正在将部分个人电脑生产从泰国和越南迁回中国大陆，以应对内存和存储等零部件件价格上涨带来的成本压力，戴尔也在考虑类似的调整。&lt;/p&gt;
-&lt;p&gt;迁回原因主要是 AI 数据中心持续扩大采购推动存储芯片需求增长，面对物料成本持续上涨的局面，OEM 希望借助中国完善的零部件供应链和生产配套，降低采购、制造和物流成本。&lt;/p&gt;
-&lt;figure aria-describedby="caption-attachment-127892" id="attachment_127892"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127834.png" rel="nofollow"&gt;&lt;img alt="消息称惠普/华硕/宏碁已经将部分PC产能迁回中国 零部件上涨促使OEM加强成本控制" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127834.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-127892"&gt;图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;过去几年部分 OEM 出于供应链多元化考虑，曾推动制造商在东南亚等地区扩大产能，例如富士康等就在东南亚和印度等地新建多座工厂用来生产芯片、组装手机和电脑等。&lt;/p&gt;
-&lt;p&gt;而中国大陆拥有集中度较高的 PC 零部件、组装和物流配套体系，对 OEM 而言在生产基地附近采购配件、组织组装和运输等，都有助于缩短供应链，在零部件价格上涨时控制整体成本。&lt;/p&gt;
-&lt;p&gt;报道称 OEM 也在接触更多中国大陆的电脑设计和代工企业，部分代工厂向客户提出，利用本地供应链采购内存芯片；部分代工厂还通过减免初期开发费和模具费等来争取订单。&lt;/p&gt;
-&lt;p&gt;此前惠普、华硕和宏碁等已经被报道在部分面向非美国市场的笔记本电脑中少量使用长鑫内存芯片，戴尔等 OEM 也曾评估过中国内存产品，作为供应紧张时的采购选择。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;集邦咨询发布的报告显示，建议零售价为 900 美元的主流配置笔记本电脑，处理器、内存和固态硬盘在物料成本中的占比已经从 25Q1 的 45% 上涨到 26Q3 的 68%。&lt;/p&gt;
-&lt;p&gt;对 OEM 来说整机物料成本正在持续上涨，而提高产品售价又会导致销量下滑，因此 OEM 正在想尽办法降低物料成本避免设置较高的零售价。但处理器、内存和固态硬盘的采购价格基本难以撼动。&lt;/p&gt;
-&lt;p&gt;能继续降低成本的措施也只有压缩其他零部件的采购价格，这种情况下将订单转移回中国是个明智的选择，因为中国的代工厂可以就近从周边采购各类零部件并完成组装，整体成本更低且效率更高。&lt;/p&gt;
-&lt;p&gt;集邦咨询预计，中国大陆以外地区笔记本电脑产量预计会从 2025 年的 24% 降至 2026 年的 21%，而到 2027 年整体占比可能会低于 20%，也就是最终 80% 的笔记本电脑都将在中国生产。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 30 Oct 2026 01:00:00 +0000</pubDate></item><item><title>群晖NAS安全预警：部分用户未及时更新系统和软件被勒索软件全盘加密数据</title><link>https://www.landian.news/archives/127833.html</link><description>
-&lt;p&gt;#安全资讯 群晖 NAS 安全预警：部分用户未及时更新系统或软件被勒索软件全盘加密数据。360 反勒索团队近日处置多起涉及 C3RB3R 勒索软件的案例，黑客使用的是 9 月群晖已经修复的漏洞。如果用户未及时更新 DSM 且暴露在公网，就有可能被攻击。黑群晖用户通常无法及时更新版本，这种情况下更不应该将 NAS 暴露在公网上。建议使用群晖 NAS 的用户开启 DSM 自动更新，以及如无必要请不要将 NAS 暴露在公网、定时备份数据到云盘或其他位置，避免被一锅端。查看全文：https://ourl.co/127833&lt;/p&gt;&lt;p&gt;近期多名群晖 NAS 用户报告设备遭到勒索软件攻击，照片、文档、代码仓库和备份文件被加密，文件名出现.L0CK3D 后缀。360 反勒索团队称该团队处置的多起事件涉及 C3RB3R 勒索软件，攻击者利用 9 月披露的群晖 DSM 漏洞发起攻击。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127833.png" rel="nofollow"&gt;&lt;img alt="群晖NAS安全预警：部分用户未及时更新系统和软件被勒索软件全盘加密数据" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127833.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;360 称本轮攻击黑客使用 CVE-2026-13639 和 CVE-2026-13684 漏洞，群晖已经在 9 月 18 日发布安全公告通报以上漏洞，这些漏洞评分均为 9.8 分，攻击者无需登录即可利用漏洞读取或写入任意文件。&lt;/p&gt;
-&lt;p&gt;群晖为 DSM 7.2.1、7.2.2、7.3、7.4 分支均发布修复版本用于封堵漏洞，用户应当在 DSM 控制面板的更新和还原里检查是否有新版本，最好开启自动更新功能，当群晖发布新版本时可以自动安装。&lt;/p&gt;
-&lt;p&gt;建议用户也开启套件更新功能，即发现新套件时也将其升级到新版本，部分套件也可能出现安全漏洞，因此 NAS 暴露在公网时就有可能遭到黑客攻击。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;目前尚不清楚被勒索的用户有多少是白群晖和黑群晖用户，其中白群晖开启自动更新比较方便，而黑群晖用户通常因为版本适配问题不会及时更新新版本，因此黑群晖用户中招的概率会更大。&lt;/p&gt;
-&lt;p&gt;建议黑群晖用户不要将 NAS 暴露在公网上，通过限制公网访问可以提高安全性，像是蓝点网即便是白群晖也没有开启公网访问，就是担心因为某些未知漏洞造成 NAS 被入侵。&lt;/p&gt;
-&lt;p&gt;另外 Linux.do 上也有网友称自己部署的 Gitlab 实例存在漏洞成为攻击源头，不过这可能不是广泛的攻击用法，更多中招用户应该还是没有及时更新 DSM 系统导致的。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;需要说明的是，在文件已经被加密的情况下想要恢复是不可能的，因此用户只能依靠其他备份来恢复数据。对用户而言 NAS 保存数据也不是万无一失的，也需要定期备份数据到云盘或其他存储位置。&lt;/p&gt;
-&lt;p&gt;蓝点网目前使用 Cloud Sync 套件将重要文件与 OneDrive 双向同步，OneDrive 具有历史文件版本功能，因此即便被加密也可以通过版本进行恢复。所以定期备份到云盘也是非常重要的。&lt;/p&gt;
+&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/127758.html" title="升级iOS 27.2限制百度网盘传感器权限后 百度网盘还是能激活摇一摇跳转广告？"&gt;&lt;h3&gt;升级iOS 27.2限制百度网盘传感器权限后 百度网盘还是能激活摇一摇跳转广告？&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#软件资讯 升级 iOS 27.2 + 国行账号，限制百度网盘运动传感器权限后，百度网盘还是能跳转摇一摇广告？网友实测禁用传感器权限也不能阻止摇…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/soft"&gt;软件资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2026年10月28日 13:30&lt;/span&gt;&lt;span title="浏览数量"&gt;5.32K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
 &lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://www.360.cn/n/13055.html" rel="noopener" target="_blank"&gt;360&lt;/a&gt;、&lt;a href="https://www.landian.news/go?url=https://linux.do/t/topic/3085082" rel="noopener" target="_blank"&gt;Linux.do&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;感谢蓝点网网友 @王晨杰 分享的报告&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 29 Oct 2026 09:30:38 +0000</pubDate></item><item><title>扫描发现码云(Gitee)公开仓库里有2.64万个云服务或AI密钥 都是开发者操作失误导致泄露</title><link>https://www.landian.news/archives/127832.html</link><description>
-&lt;p&gt;#安全资讯 研究人员扫描中国开源仓库托管平台码云 (Gitee)，在 725 万个公开仓库里发现 2.6 万有效的 API 密钥。即开发者操作失误不慎将敏感密钥也公开到仓库里，有些开发者初始提交泄露密钥，虽然后面更新文件删除密钥，但 Git 历史还是可以查到。涉及的平台包括阿里云、AWS、OpenAI、智谱、GitHub 等等。查看全文：https://ourl.co/127832&lt;/p&gt;&lt;p&gt;独立安全研究员本奇莫尔曼对中国本土开源仓库托管平台码云 (Gitee) 进行扫描，扫描目标主要是托管在码云上的公开仓库。扫描结果显示：扫描 725 万个仓库后发现 2.6 万个经过验证仍然有效的私有凭证，涉及阿里云、DeepSeek、OpenAI、智谱等等。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127832.png" rel="nofollow"&gt;&lt;img alt="扫描发现码云(Gitee)公开仓库里有2.64万个云服务或AI密钥 都是开发者操作失误导致泄露" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127832.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 30 Oct 2026 06:00:00 +0000</pubDate></item><item><title>全球规模最大的编程问答网站Stack Overflow每月提问从20万个暴跌到现在不足1000个</title><link>https://www.landian.news/archives/127842.html</link><description>
+&lt;p&gt;#行业资讯 全球规模最大的编程问答网站 Stack Overflow 每月提问从 12 年前的 20 万个跌到现在不足 1000 个，基本上已经被 AI 摧毁。以前开发者遇到问题时经常访问 Stack Overflow 寻找解决方案或交流经验，但 AI 问世后这种情况被迅速改变。很多开发者只需要指挥 AI，不需要在 Stack Overflow 提问或手动寻找解决方案，这导致 Stack Overflow 访问量也暴跌。查看全文：https://ourl.co/127842&lt;/p&gt;&lt;p&gt;全球规模最大的编程问答网站 Stack Overflow 在 AI 工具面世后访问量持续下跌，越来越多的开发者通过 AI 咨询问题和寻找解决方案，这导致 Stack Overflow 上的活跃用户持续降低、用户提问数量也暴跌。&lt;/p&gt;
+&lt;figure aria-describedby="caption-attachment-127908" id="attachment_127908"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127842.png" rel="nofollow"&gt;&lt;img alt="全球规模最大的编程问答网站Stack Overflow每月提问从20万个暴跌到现在不足1000个" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127842.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-127908"&gt;图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;研究人员使用开源工具扫描公开仓库，在扫描时也向相关服务商的接口验证找出来的凭证是否有效，统计结果按照密钥内容进行去重，例如某个密钥在多个仓库里重复出现那也只计算 1 次。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;扫描结果如下：&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;云计算：阿里云 有效的用户平台访问凭证 9473 个&lt;/li&gt;
-&lt;li&gt;云计算：亚马逊 AWS 有效的访问凭证 338 个&lt;/li&gt;
-&lt;li&gt;数据平台：MongoDB 有效的访问凭证 220 个&lt;/li&gt;
-&lt;li&gt;视频网站：YouTube 有效的 YouTube API 访问凭证 3805 个&lt;/li&gt;
-&lt;li&gt;人工智能：深度求索 DS 平台 有效的 API 密钥 3170 个&lt;/li&gt;
-&lt;li&gt;人工智能：智谱 API 平台 有效的 API 密钥 1489 个&lt;/li&gt;
-&lt;li&gt;人工智能：OpenAI 有效的 OpenAI API 密钥 1348 个&lt;/li&gt;
-&lt;li&gt;开发者平台：GitHub 有效的访问凭证 600 个&lt;/li&gt;
+&lt;li&gt;2014 年 3 月：当月提问 20.71 万个&lt;/li&gt;
+&lt;li&gt;2020 年 6 月：当月提问 17.18 万个&lt;/li&gt;
+&lt;li&gt;2022 年 11 月：当月提问 10.91 万个&lt;/li&gt;
+&lt;li&gt;2023 年 10 月：当月提问 5.23 万个&lt;/li&gt;
+&lt;li&gt;2024 年 10 月：当月提问 2.31 万个&lt;/li&gt;
+&lt;li&gt;2025 年 10 月：当月提问 0.52 万个&lt;/li&gt;
+&lt;li&gt;2026 年 9 月：当月提问 961 个&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;报告还提到某家大型企业 AI 平台的组织管理员凭证出现在扫描结果中，此类拥有极高权限的凭证如果被他人获取，可能会给账户管理和各类资源带来安全风险。&lt;/p&gt;
+&lt;p&gt;OpenAI ChatGPT 在 2022 年 11 月底正式上线，当时 Stack Overflow 月均提问还有 10 万个左右，1 年后的 2023 年 10 月，月均提问数量直接暴跌 50%。在这 1 年里除了 ChatGPT 外，各种 AI 聊天机器人如雨后春笋般上线。&lt;/p&gt;
+&lt;p&gt;再往后就是基于人工智能的各种编程智能体，开发者只需要提出需求，剩下架构设计、代码生成、调试、修复问题全部都由智能体自行完成，因此对很多开发者而言已经不需要再到 Stack Overflow 提问或寻求已有解决方案。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Git 会保留历史提交，因此开发者即使后来从当前文件中删除密钥，旧提交中仍然可能保留原始内容。扫描显示 2025 年提交的记录中包含 12242 个验证有效的凭证，占全部有效凭证的 50% 左右。&lt;/p&gt;
-&lt;p&gt;可以看到这些泄露的凭证基本都是开发者操作失误造成的，有些是在初始提交中泄露，更多则是开发者不慎将硬编码的 API 凭证直接写在文件里提交。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;安全研究员表示已经向暴露数量较高的服务商发送报告，提供相关有效凭证和来源仓库信息，帮助这些服务商识别受影响的客户并撤销已经泄露的密钥。&lt;/p&gt;
-&lt;p&gt;不过由于此次泄露规模太大，所以研究人员无法逐个联系受影响的开发者，截至本文发布时相关服务商尚未确认已经撤销泄露的密钥，所以建议开发者自行检查仓库查找是否有泄露情况。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 29 Oct 2026 09:00:13 +0000</pubDate></item><item><title>核心搜索广告业务营收增速持续放缓后 谷歌决定在AI模式中添加更多广告</title><link>https://www.landian.news/archives/127831.html</link><description>
-&lt;p&gt;#行业资讯 财报发布后谷歌股价大幅度下跌，原因是核心搜索广告业务增速持续下滑。为此谷歌决定在更多市场的搜索 AI 模式中添加广告，希望借此提高广告业务营收扭转持续下滑的局面。后续用户使用谷歌搜索 AI 模式时会看到更多广告，包括多轮对话追加的广告等。查看全文：https://ourl.co/127831&lt;/p&gt;&lt;p&gt;谷歌正在将谷歌搜索 AI 模式中的广告扩展到更多市场，同时谷歌还在美国市场推出多轮对话广告，让广告内容有机会出现在用户继续追问时。扩大 AI 广告覆盖范围的原因与谷歌核心搜索广告业务增速放缓有关，这导致谷歌发布财报后股价大幅度下跌。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127831.png" rel="nofollow"&gt;&lt;img alt="核心搜索广告业务营收增速持续放缓后 谷歌决定在AI模式中添加更多广告" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127831.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;谷歌搜索 AI 模式允许用户以对话方式提出较长和较复杂的问题，用户还可以根据回答继续追问。谷歌现在决定将 AI 模式广告覆盖更多市场：澳大利亚、加拿大、印度、肯尼亚、马来西亚、新西兰、尼日利亚、巴基斯坦、菲律宾和新加坡。&lt;/p&gt;
-&lt;p&gt;谷歌计划在 26Q4 将 AI 模式广告扩展到更多地区，包括英国、巴西和墨西哥等。而在美国市场，谷歌正在推出多轮对话广告，将允许广告出现在后续追问中。广告内容会标注赞助标志，帮助用户识别正常内容和广告内容。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;谷歌发布的最新财报显示，26Q3 谷歌搜索及其他广告营收 633.5 亿美元，同比增长 12%，而 26Q1 和 26Q2 的同比增速分别是 19% 和 17%，按照这种趋势谷歌广告业务的营收增速还会继续下滑，这种情况引起投资者的担忧。&lt;/p&gt;
-&lt;p&gt;在线广告是谷歌的核心业务，对谷歌而言如果 AI 正在蚕食传统在线广告营收，那就也在 AI 模式中添加更多广告来弥补这部分差额。如果未来 AI 模式广告覆盖到所有地区，那应该可以扭转谷歌的广告业务增速放缓问题，但前提是用户要持续使用谷歌。&lt;/p&gt;
-&lt;p&gt;现在很多用户遇到问题都是通过 AI 工具查询，而非通过搜索引擎查询内容，因此无论是谷歌还是其他搜索引擎，都要面临用户使用量下降的问题，这种情况下除了增加更多广告饮鸩止渴外也没什么解决办法。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 29 Oct 2026 08:30:19 +0000</pubDate></item><item><title>微软向企业推出CLAT IPv4流量转IPv6客户端 帮助企业通过进行兼容性过渡</title><link>https://www.landian.news/archives/127830.html</link><description>
-&lt;p&gt;#系统资讯 微软宣布 CLAT IPv4 流量转 IPv6 客户端在 Windows 11 25H2 版中正式推出，帮助仍然依赖 IPv4 的应用通过 IPv6 网络连接网络。CLAT 是 464XLAT 转换机制的客户端部分，可以将应用产生的 IPv4 流量转换为 IPv6 流量，数据通过 IPv6 网络传输。网络侧的 PLAT/NAT64 转换器再将流量转为 IPv4 连接目标。这个客户端可以解决部分旧应用不支持 IPv6 协议，帮助企业进行过渡。查看全文：https://ourl.co/127830&lt;/p&gt;&lt;p&gt;微软日前宣布，Windows CLAT 已经在 Windows 11 25H2 Build 26200.9550+ 版正式推出。该功能帮助仍然依赖 IPv4 的应用，在不提供原生 IPv4 连接的 IPv6 网络中访问 IPv4 服务。&lt;/p&gt;
-&lt;p&gt;Windows CLAT 面向正在部署 IPv6 网络的企业和组织，支持 WiFi、以太网等网络接口，该功能默认情况下是关闭的，有需要的企业可以通过命令或组策略主动启用。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127830.png" rel="nofollow"&gt;&lt;img alt="微软向企业推出CLAT IPv4流量转IPv6客户端 帮助企业通过进行兼容性过渡" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127830.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;随着 IPv4 地址日益紧张，部分企业和运营商开始建设仅使用 IPv6 的网络，但部分旧应用程序和服务仍然依赖 IPv4 网络，如果网络直接取消 IPv4 支持则这些软件和服务可能无法正常连接。&lt;/p&gt;
-&lt;p&gt;CLAT 是 464XLAT 转换机制的客户端部分，该客户端可以在 Windows 设备上将应用产生的 IPv4 流量转换为 IPv6，让数据通过 IPv6 网络传输。网络侧的 PLAT/NAT64 转换器再将流量转为 IPv4 连接目标。&lt;/p&gt;
-&lt;p&gt;这个过程可以让企业逐步迁移网络，而不必等到所有旧应用程序都完成 IPv6 改造。微软表示，这可以减少对双栈网络的依赖，也有助于降低 IPv4 地址需求和网络管理复杂度。&lt;/p&gt;
-&lt;p&gt;注意：网络本身需要提供 NAT64 或 PLAT 转换服务，Windows CLAT 负责客户端转换，需要与网络侧设备配合使用，不能单独使用 CLAT 客户端进行网络转换。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;微软表示 CLAT 客户端可以在设备缺少 IPv4 连接时开始发现配置，也能识别网络通过 DHCP Option 108 发出的 IPv6 优先信号。转换所需的前缀可以通过 IPv6 路由器通告中的 PREF64 获取，网络未提供该信息时，也可以通过查询 ipv4only.arpa 进行 DNS 发现，这样 IT 管理员可以根据网络环境选择相应的前缀发布方式。&lt;/p&gt;
-&lt;p&gt;微软还列出当前的部署条件，Windows CLAT 需要使用 SLAAC 进行 IPv6 地址配置，暂时不支持 DHCPv6 前缀委派，也不支持 WSL 子系统。&lt;/p&gt;
+&lt;p&gt;Stack Overflow 多年来积累大量公开问答，开发者可以通过搜索找到历史问题、社区编辑和不同用户提出的解决方案。AI 智能体改变获取这些答案的方式，也改变新经验的传播路径。&lt;/p&gt;
+&lt;p&gt;开发者现在可以在私人 AI 对话中解决问题，但解决过程不会像公开回答那样出现在互联网上供其他人搜索、讨论和修订。对于版本更新频繁的编程语言、框架和开发工具来说，持续补充新问题与答案仍然重要。&lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://techcommunity.microsoft.com/blog/networkingblog/windows-clat-is-now-generally-available/4566348" rel="noopener" target="_blank"&gt;微软技术博客&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://www.llms.blog/posts/stack-overflow-under-1000-questions-reactions" rel="noopener" target="_blank"&gt;LLM Blogs&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 29 Oct 2026 08:00:19 +0000</pubDate></item><item><title>新版自定义右键菜单到来：Windows 11 25H2/26H2预览更新发布</title><link>https://www.landian.news/archives/127829.html</link><description>#系统资讯 微软向 Windows 11 正式版推送预览更新带来新版右键菜单，可以自定义显示哪些选项和扩展菜单。该更新为 KB5127936，属于带有测试性质的预览更新，测试没问题后微软会在下个月将相关变更推送给正式版用户。下载地址：https://ourl.co/127829</description><pubDate>Thu, 29 Oct 2026 07:30:58 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 30 Oct 2026 05:30:00 +0000</pubDate></item><item><title>AI编程活动推动GitHub持续增加硬件资源 已新增400万个CPU核心和160PB高速存储</title><link>https://www.landian.news/archives/127841.html</link><description>
+&lt;p&gt;#网站应用 你用 AI 搞开发快把 GitHub 挤瘫了：GitHub 已新增 400 万个 CPU 核心和 160PB 高速存储应对持续增加的智能体开发。仅 9 月份，GitHub 上的代码提交次数就达到 73.8 亿次，同比增幅高达 500%。目前 GitHub 除了增加硬件和计算容量外，也在重建 Git 基础设施，包括简化底层组件、将存储与计算分离、减少系统之间需要协调的操作等，让平台更容易应对大量的并发读写。查看全文：https://ourl.co/127841&lt;/p&gt;&lt;p&gt;代码托管网站 GitHub 日前发布 2026 年 10 月报告，报告显示随着开发者越来越多地使用 AI 编程智能体，该平台代码活动正在快速增加。仅 2026 年 9 月份，开发者和智能体就在 GitHub 上产生 73.8 亿次代码提交，同比增幅高达 500%。&lt;/p&gt;
+&lt;p&gt;为应对持续增长的工作负载，GitHub 今年以来已经新增 400 万个 CPU 核心、160PB 高速存储和 50Tb/s 网络容量。同时 GitHub 正在着手改造底层 Git 架构以提供更高的性能。&lt;/p&gt;
+&lt;figure aria-describedby="caption-attachment-127906" id="attachment_127906"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127841.png" rel="nofollow"&gt;&lt;img alt="AI编程活动推动GitHub持续增加硬件资源 已新增400万个CPU核心和160PB高速存储" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127841.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-127906"&gt;图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;开发者累计向 GitHub 推送代码 179 亿次，超过此前两个统计年度的总和&lt;/li&gt;
+&lt;li&gt;各类仓库累计产生 343 亿次代码提交&lt;/li&gt;
+&lt;li&gt;GitHub Actions 执行约 454 亿项任务，平均每天高达 1.24 亿项&lt;/li&gt;
+&lt;li&gt;已合并的 Pull Request 达到 13 亿个，平均每天约 350 万个&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;根据 GitHub 的统计数据，到 2026 年 9 月，平台超过 40% 的 PR 以智能体生成的初稿开始，远高于今年 3 月的 17%，9 月由智能体起草的 PR 达到 1.1 亿个。PR 是开发者提交代码变更请求审查、合并的方式，智能体可以根据任务生成初稿，开发者再查看差异、讨论问题并决定如何合并。&lt;/p&gt;
+&lt;p&gt;报告还显示，在今年新建的仓库中，带有智能体配置文件的仓库平均提交次数，约为没有此类配置文件的新仓库的 8 倍，这也体现出采用智能体的项目往往使用更加密集的开发流程。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;代码提交增长会带动更多的配套操作：开发者推送变更后，平台可能需要更新仓库、运行测试、检查安全问题、生成构建结构并通知团队成员。大量智能体并行工作时， 这些请求也会集中出现。&lt;/p&gt;
+&lt;p&gt;GitHub 表示，单纯增加硬件容量还需要配合架构调整，为此 GitHub 正在重建 Git 基础设施，重点包括简化底层组件、将存储与计算分离、减少系统之间需要协调的操作，以此让平台更容易应对大量并发读写。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/" rel="noopener" target="_blank"&gt;GitHub 10 月开发趋势报告&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 30 Oct 2026 05:00:00 +0000</pubDate></item><item><title>最大的安全缺陷永远是人：币安被黑客窃取63亿美元 源头是工程师笔记本被黑</title><link>https://www.landian.news/archives/127847.html</link><description>
+&lt;p&gt;#加密货币 史上最大规模的币圈攻击！币安被黑客窃取高达 63 亿美元的加密货币，源头是工程师笔记本电脑被黑。目前行业已经冻结超过 30 亿美元的资金，但即便如此币安也会出现大约 30 亿美元的损失。这部分损失将由币安自行承担 (毕竟币安也不差钱)，所有用户资金不受影响。然而合约和杠杆用户因为币价暴跌产生巨大损失，这部分交易损失币安肯定不会赔偿，不知道币安是否会提供少量资金作为安慰。查看全文：https://ourl.co/127847&lt;/p&gt;&lt;p&gt;今天凌晨 3 点前后，全球规模最大的加密货币交易所币安遭到黑客攻击，黑客利用币安多个热钱包的签名授权机制问题，转移高达 63 亿美元的加密货币。这起安全事件也是加密货币领域金额最高的攻击事件，目前币安已经通过各方协调冻结约 30 亿美元的链上资金。&lt;/p&gt;
+&lt;p&gt;另外目前行业初步分析认为，攻击的幕后黑手也是朝鲜黑客集团，其攻击手法与朝鲜黑客集团此前针对其他加密货币交易所或 Web3 项目的攻击类似。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127847.png" rel="nofollow"&gt;&lt;img alt="最大的安全缺陷永远是人：币安被黑客窃取63亿美元 源头是工程师笔记本被黑" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127847.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;根据币安的初步调查，此次攻击的源头是币安某位 DevOps 工程师的笔记本电脑，这名工程师的笔记本电脑已经被黑客提前入侵并植入恶意软件。借助相关权限，黑客可以访问币安的某个服务容器并提交未经授权的提款交易。&lt;/p&gt;
+&lt;p&gt;不过有关这名工程师的笔记本电脑如何被攻破暂时还没有明确说明，币安计划在此次事件结束后发布详细的技术事后分析报告，到时候行业应该可以看到币安钱包授权管理的缺陷 (目前多种证据表明币安的钱包授权机制存在缺陷)。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;币安也强调此次事件造成的所有损失将由该公司自己承担，已经被冻结的资金不算损失，这些资金可以退回给币安，但已经被黑客通过跨链桥或借贷等功能转走的加密货币那会造成实际损失。&lt;/p&gt;
+&lt;p&gt;币安将通过 SAFU 基金和币安自有资金承担实际损失，所有用户的资金不会受影响。待修复完成后币安还计划发布更新的资产储备证明，以证明公司资金充足以及用户资金未受影响。&lt;/p&gt;
+&lt;p&gt;然而此次事件造成各大加密货币暴跌，这给合约和杠杆用户造成巨大的损失，这部分交易损失币安肯定不会赔偿，不知道到时候币安是否会酌情提供少量资金作为安慰。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 30 Oct 2026 04:35:46 +0000</pubDate></item><item><title>X/Twitter开始在分享链接里新增追踪参数 可能是用于追踪用户分享活动来源</title><link>https://www.landian.news/archives/127840.html</link><description>
+&lt;p&gt;#网站应用 X/Twitter 开始在分享链接里新增疑似追踪参数，可能是用于追踪用户分享活动来源。当用户点击 X 内置的分享按钮时，生成的链接自动追加 ?a= 相关字符串。这个字符串仅限用户点击 X 内置的分享按钮，如果用户使用浏览器访问，那直接复制地址栏干净的链接即可。目前 X 官方尚未就这个字符串用途给出说明，不过大概率就是追踪用途。更新：埃隆马斯克就字符串问题发布回应，承认新增的字符串用于改进算法推荐和改善广告相关性。查看全文：https://ourl.co/127840&lt;/p&gt;&lt;p&gt;日前有用户发现在 X/Twitter 上点击分享按钮时，生成的分享链接结尾增加 ?a= 开头的字符串，这种变化引起用户对分享链接追踪的关注。用户生成分享链接时也会自动追加不同的追踪参数，不过目前 X 官方尚未解释该参数的具体用途。&lt;/p&gt;
+&lt;figure aria-describedby="caption-attachment-127904" id="attachment_127904"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127840.png" rel="nofollow"&gt;&lt;img alt="X/Twitter开始在分享链接里新增追踪参数 可能是用于追踪用户分享活动来源" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127840.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-127904"&gt;图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;以普通推文为例，当用户点击 X 提供的分享按钮时系统就会生成带有追踪参数的链接，追踪参数在链接结尾。如果用户通过浏览器访问并直接从地址栏复制那不会生成追踪参数，这时候链接结尾通常只有 s=20 参数。&lt;/p&gt;
+&lt;pre&gt;https://x.com/landiantech/status/2115739189950263412?a=B543*******pZM&amp;amp;s=20&lt;/pre&gt;
+&lt;p&gt;其中 landiantech 是对应用户的用户名 (Handle)，/status/ 后面的数字编号用于识别帖子，问号后面的 a= 字符串是新增的追踪参数 (疑似是追踪参数)，最结尾的 s=20 参数一直都有，具体用途不明。&lt;/p&gt;
+&lt;p&gt;更新：埃隆马斯克就字符串问题发布回应，承认新增的字符串用于改进算法推荐和改善广告相关性。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;目前 X 官方并未说明这段新增的字符串的具体用途，不过通常这类字符串都是用于追踪目的。从测试来看用户对相同帖子点击多次分享按钮，每次生成的字符串也都是不同的。&lt;/p&gt;
+&lt;p&gt;从其他平台来看这种字符串大概率是用于追踪用户分享的，例如将带有追踪参数的地址分享给其他人，其他人点击链接打开后 X 就知道用户是通过你分享的链接带来的点击。&lt;/p&gt;
+&lt;p&gt;对于追求隐私的用户来说，可以在粘贴分享链接时手动删除地址后面的追踪参数。也有用户说安装扩展程序实现自动清理，这个其实没必要，毕竟通过浏览器访问的话直接地址栏复制干净的链接即可。&lt;/p&gt;
+&lt;p&gt;目前这个追踪参数只有点击 X 自己的分享按钮时才会生成，例如用户在 X App 内点击分享按钮时复制链接就自带追踪参数，所以还是要靠用户分享时自己删除后面的小尾巴。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 30 Oct 2026 04:00:00 +0000</pubDate></item></channel></rss>
