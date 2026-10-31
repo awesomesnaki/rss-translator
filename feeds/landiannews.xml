@@ -1,5 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Fri, 30 Oct 2026 08:30:00 +0000</lastBuildDate><item><title>应对AI抓取和造成的访问量暴跌：知名论坛Reddit宣布将强制登录浏览</title><link>https://www.landian.news/archives/127849.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sat, 31 Oct 2026 01:30:00 +0000</lastBuildDate><item><title>群晖部分NAS遭勒索软件攻击 黑客利用2024年已修复的漏洞 用户需尽快更新DSM</title><link>https://www.landian.news/archives/127851.html</link><description>
+&lt;p&gt;#安全资讯 群晖官方回应近期出现的 NAS 勒索软件攻击事件：黑客使用 2024 年 12 月已经修复的远程代码执行漏洞发起攻击。群晖建议用户立即升级到 DSM 最新版确保安全，目前没有证据表明 DSM 存在零日漏洞，即未修复但已经被黑客利用的漏洞。对于黑群晖用户，如无法升级版本请立即断开公网连接；白群晖用户如无必要也不要将 NAS 暴露在公网。查看全文：https://ourl.co/127851&lt;/p&gt;&lt;p&gt;近期有大量使用群晖 NAS 的用户发帖称自己的设备遭到勒索软件攻击，被攻击的设备全盘数据都被勒索软件使用现代加密算法加密，想要破解加密算法是不可能的，所以用户只能通过其他备份渠道恢复自己的数据。&lt;/p&gt;
+&lt;p&gt;在用户讨论中有用户自称使用的是 DSM 最新版，不过更多用户使用的是旧版 DSM 且将设备暴露在公网上。这件事也引起群晖官方的关注，群晖安全团队经过分析后发现黑客使用的是群晖已经在 2024 年 12 月修复的安全漏洞。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127851.png" rel="nofollow"&gt;&lt;img alt="群晖部分NAS遭勒索软件攻击 黑客利用2024年已修复的漏洞 用户需尽快更新DSM" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127851.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;群晖在最新公告中表示，攻击者正在针对过时版本的 DSM 系统发起攻击，目的是加密设备内的数据并勒索受害者。公司建议用户参考 Synology-SA-24:20 安全公告并检查系统版本。&lt;/p&gt;
+&lt;p&gt;该安全公告涉及多项安全漏洞，其中最严重的是 CVE-2024-10441 漏洞，该漏洞为远程代码执行漏洞，评分高达 9.8 分。群晖称攻击者可以利用 DSM 系统插件服务中的输出编码问题远程执行任意代码。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 360 团队则认为攻击者使用的是 9 月修复的漏洞：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;360 反勒索团队近期也处置多起涉及群晖 NAS 的勒索软件攻击，不过 360 团队称黑客使用的是群晖在 9 月份修复的 CVE-2026-13639/13684 漏洞。以上漏洞位于 Synology-SA-26:13 公告里，新版本发布时间是 2026 年 9 月 18 日。&lt;/p&gt;
+&lt;p&gt;无论黑客使用的是哪种漏洞，用户都应该立即升级到 DSM 最新版，目前没有任何证据表明群晖 DSM 系统存在零日漏洞 (即尚未修复但已经被黑客利用的漏洞)，所以只要用户更新到最新版那应该就是安全的 (也得使用强密码和多因素认证)。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;DSM 7.4 分支版本：需升级到 7.4-90075 或更高版本&lt;/li&gt;
+&lt;li&gt;DSM 7.3 分支版本：需升级到 7.3.2-86009-4 或更高版本&lt;/li&gt;
+&lt;li&gt;DSM 7.2.2 分支版本：需升级到 7.2.2-72806-9 或更高版本&lt;/li&gt;
+&lt;li&gt;DSM 7.2.1 分支版本：需升级到 7.2.1-69057.12 或更高版本&lt;/li&gt;
+&lt;li&gt;DSM 6.x 系列没有修复版本，请务必升级到还在支持的版本&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;黑群晖用户：&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;请检查提供 DSM 系统的开发者是否已经提供新的适配版本，如有适配版本建议立即升级以封堵漏洞。若没有适配版本则应该立即断开 NAS 的公网连接，不要使用 QC 或 DDNS 将 NAS 暴露到公网、不要开放 SSH 22 端口。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;白群晖用户：&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;确保 DSM 已经开启自动更新功能，建议开启自动更新和自动安装，这样群晖发布新版本后可以立即自动升级。若无必要请勿将 NAS 暴露在公网，不要使用 QC 或 DDNS 映射。如必须在公网连接，请使用高强度用户密码 + MFA 多因素认证，最好可以使用类似 WireGuard 等加密组网工具。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;确保 NAS 有离线备份：&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;无论是群晖 NAS 还是其他品牌的 NAS，都有被黑风险，因此不能将数据只放在 NAS 上存储。对于重要文件，建议定期备份到云端或其他离线目录，例如群晖 Cloud Sync 套件可以连接各大网盘，可以设置重要目录与网盘自动同步，将文件备份到网盘保存 (但需要确保网盘有防勒索攻击或版本恢复机制，OneDrive 就有这类功能)。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sat, 31 Oct 2026 01:30:00 +0000</pubDate></item><item><title>币安已准备63.4亿美元弥补黑客攻击造成的损失 其中50亿美元为受影响币种</title><link>https://www.landian.news/archives/127850.html</link><description>
+&lt;p&gt;#加密货币 币安已经准备 63.4 亿美元弥补黑客攻击造成的损失，其中价值约 50 亿美元的受影响币种为币安自有资产。剩余约 13.4 亿美元差额部分，币安需要通过公开市场和场外交易渠道购买相关加密货币进行补充。相关金库将在下期储备金证明报告中体现，而出于安全原因币安暂时没有公开这些储备金的钱包地址供链上公开查询。查看全文：https://ourl.co/127850&lt;/p&gt;&lt;p&gt;加密货币交易所币安在遭遇黑客攻击事件后，目前已经划拨超过 63.4 亿美元的公司资金和储备用于弥补此次事件造成的损失。其中约 50 亿美元已经以受影响的相同加密货币形式持有，其余资产正在通过市场和场外交易渠道补充。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127850.png" rel="nofollow"&gt;&lt;img alt="币安已准备63.4亿美元弥补黑客攻击造成的损失 其中50亿美元为受影响币种" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127850.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;币安官方发言人表示，公司已经持有约 50 亿美元与受影响资产币种相同的加密货币，而剩余差额部分则需要通过公开市场和场外交易渠道进行收购，这个过程还需要时间因此暂时还未完成。&lt;/p&gt;
+&lt;p&gt;按照目前披露的金额计算，剩余需要补充的资产价值约为 13.4 亿美元，币安称部分代币的流动性和交易结算可能会影响采购进度。币安的做法就是将差额加密货币补足，例如涉及以太坊的资产缺口就需要补充以太坊。&lt;/p&gt;
+&lt;p&gt;需要说明的是这 50 亿美元对应的加密货币目前由币安自行托管，币安计划在下期储备金证明报告中体现这部分金库。而出于安全原因，币安暂时没有公开这些储备金的钱包地址供链上公开查询。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;币安称在区块链合作伙伴的协助下，目前已经有 30 亿美元的受影响资产在链上完成冻结，这部分冻结资产没有计入上述用于弥补损失的 63.4 亿美元公司自有补充资金。&lt;/p&gt;
+&lt;p&gt;冻结意味着相关代币转移受到限制，后续币安仍然需要通过合作伙伴和执法机构处理资产追回事宜。币安称该公司也在继续和合作伙伴以及执法机构追踪其他受影响的资产。&lt;/p&gt;
+&lt;p&gt;现阶段币安已经冻结资金提现但允许继续充值资金，币安称当前正在恢复用户资产，预计提现功能将在 1~2 天内恢复，用户应以币安官方渠道显示的最新服务状态为准。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sat, 31 Oct 2026 01:00:00 +0000</pubDate></item><item><title>应对AI抓取和造成的访问量暴跌：知名论坛Reddit宣布将强制登录浏览</title><link>https://www.landian.news/archives/127849.html</link><description>
 &lt;p&gt;#行业资讯 全球规模最大的论坛 Reddit 将逐步开始强制登录账号，应对 AI 抓取造成的访问量快速下滑。强制登录账号后，无论是真人用户还是 AI 都必须登录账号才能查看帖子内容。不过 Reddit 也效仿 X 的策略，即通过分享链接可以直接查看帖子内容，点击其他帖子时则必须登录。Reddit 在 10 月份平均每周访问量减少 100 万次，Q4 全季度日活可能会减少 1300 万。查看全文：https://ourl.co/127849&lt;/p&gt;&lt;p&gt;全球知名社区平台 Reddit 正在调整访问方式，后续该论坛将逐步转向要求用户登录账号，未来用户在平台上浏览大部分内容也都需要登录。在没有登录的情况下可能只能看到帖子标题，当然如果要回复、点赞、投票等也需要登录账号，不过这些功能本身就需要登录。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127849.png" rel="nofollow"&gt;&lt;img alt="应对AI抓取和造成的访问量暴跌：知名论坛Reddit宣布将强制登录浏览" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127849.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -157,30 +195,4 @@ Hybrid Sleep（较少见）
 &lt;hr/&gt;
 &lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/" rel="noopener" target="_blank"&gt;GitHub 10 月开发趋势报告&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 30 Oct 2026 05:00:00 +0000</pubDate></item><item><title>最大的安全缺陷永远是人：币安被黑客窃取63亿美元 源头是工程师笔记本被黑</title><link>https://www.landian.news/archives/127847.html</link><description>
-&lt;p&gt;#加密货币 史上最大规模的币圈攻击！币安被黑客窃取高达 63 亿美元的加密货币，源头是工程师笔记本电脑被黑。目前行业已经冻结超过 30 亿美元的资金，但即便如此币安也会出现大约 30 亿美元的损失。这部分损失将由币安自行承担 (毕竟币安也不差钱)，所有用户资金不受影响。然而合约和杠杆用户因为币价暴跌产生巨大损失，这部分交易损失币安肯定不会赔偿，不知道币安是否会提供少量资金作为安慰。查看全文：https://ourl.co/127847&lt;/p&gt;&lt;p&gt;今天凌晨 3 点前后，全球规模最大的加密货币交易所币安遭到黑客攻击，黑客利用币安多个热钱包的签名授权机制问题，转移高达 63 亿美元的加密货币。这起安全事件也是加密货币领域金额最高的攻击事件，目前币安已经通过各方协调冻结约 30 亿美元的链上资金。&lt;/p&gt;
-&lt;p&gt;另外目前行业初步分析认为，攻击的幕后黑手也是朝鲜黑客集团，其攻击手法与朝鲜黑客集团此前针对其他加密货币交易所或 Web3 项目的攻击类似。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127847.png" rel="nofollow"&gt;&lt;img alt="最大的安全缺陷永远是人：币安被黑客窃取63亿美元 源头是工程师笔记本被黑" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127847.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;根据币安的初步调查，此次攻击的源头是币安某位 DevOps 工程师的笔记本电脑，这名工程师的笔记本电脑已经被黑客提前入侵并植入恶意软件。借助相关权限，黑客可以访问币安的某个服务容器并提交未经授权的提款交易。&lt;/p&gt;
-&lt;p&gt;不过有关这名工程师的笔记本电脑如何被攻破暂时还没有明确说明，币安计划在此次事件结束后发布详细的技术事后分析报告，到时候行业应该可以看到币安钱包授权管理的缺陷 (目前多种证据表明币安的钱包授权机制存在缺陷)。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;币安也强调此次事件造成的所有损失将由该公司自己承担，已经被冻结的资金不算损失，这些资金可以退回给币安，但已经被黑客通过跨链桥或借贷等功能转走的加密货币那会造成实际损失。&lt;/p&gt;
-&lt;p&gt;币安将通过 SAFU 基金和币安自有资金承担实际损失，所有用户的资金不会受影响。待修复完成后币安还计划发布更新的资产储备证明，以证明公司资金充足以及用户资金未受影响。&lt;/p&gt;
-&lt;p&gt;然而此次事件造成各大加密货币暴跌，这给合约和杠杆用户造成巨大的损失，这部分交易损失币安肯定不会赔偿，不知道到时候币安是否会酌情提供少量资金作为安慰。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 30 Oct 2026 04:35:46 +0000</pubDate></item><item><title>X/Twitter开始在分享链接里新增追踪参数 可能是用于追踪用户分享活动来源</title><link>https://www.landian.news/archives/127840.html</link><description>
-&lt;p&gt;#网站应用 X/Twitter 开始在分享链接里新增疑似追踪参数，可能是用于追踪用户分享活动来源。当用户点击 X 内置的分享按钮时，生成的链接自动追加 ?a= 相关字符串。这个字符串仅限用户点击 X 内置的分享按钮，如果用户使用浏览器访问，那直接复制地址栏干净的链接即可。目前 X 官方尚未就这个字符串用途给出说明，不过大概率就是追踪用途。更新：埃隆马斯克就字符串问题发布回应，承认新增的字符串用于改进算法推荐和改善广告相关性。查看全文：https://ourl.co/127840&lt;/p&gt;&lt;p&gt;日前有用户发现在 X/Twitter 上点击分享按钮时，生成的分享链接结尾增加 ?a= 开头的字符串，这种变化引起用户对分享链接追踪的关注。用户生成分享链接时也会自动追加不同的追踪参数，不过目前 X 官方尚未解释该参数的具体用途。&lt;/p&gt;
-&lt;figure aria-describedby="caption-attachment-127904" id="attachment_127904"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127840.png" rel="nofollow"&gt;&lt;img alt="X/Twitter开始在分享链接里新增追踪参数 可能是用于追踪用户分享活动来源" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127840.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-127904"&gt;图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;以普通推文为例，当用户点击 X 提供的分享按钮时系统就会生成带有追踪参数的链接，追踪参数在链接结尾。如果用户通过浏览器访问并直接从地址栏复制那不会生成追踪参数，这时候链接结尾通常只有 s=20 参数。&lt;/p&gt;
-&lt;pre&gt;https://x.com/landiantech/status/2115739189950263412?a=B543*******pZM&amp;amp;s=20&lt;/pre&gt;
-&lt;p&gt;其中 landiantech 是对应用户的用户名 (Handle)，/status/ 后面的数字编号用于识别帖子，问号后面的 a= 字符串是新增的追踪参数 (疑似是追踪参数)，最结尾的 s=20 参数一直都有，具体用途不明。&lt;/p&gt;
-&lt;p&gt;更新：埃隆马斯克就字符串问题发布回应，承认新增的字符串用于改进算法推荐和改善广告相关性。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;目前 X 官方并未说明这段新增的字符串的具体用途，不过通常这类字符串都是用于追踪目的。从测试来看用户对相同帖子点击多次分享按钮，每次生成的字符串也都是不同的。&lt;/p&gt;
-&lt;p&gt;从其他平台来看这种字符串大概率是用于追踪用户分享的，例如将带有追踪参数的地址分享给其他人，其他人点击链接打开后 X 就知道用户是通过你分享的链接带来的点击。&lt;/p&gt;
-&lt;p&gt;对于追求隐私的用户来说，可以在粘贴分享链接时手动删除地址后面的追踪参数。也有用户说安装扩展程序实现自动清理，这个其实没必要，毕竟通过浏览器访问的话直接地址栏复制干净的链接即可。&lt;/p&gt;
-&lt;p&gt;目前这个追踪参数只有点击 X 自己的分享按钮时才会生成，例如用户在 X App 内点击分享按钮时复制链接就自带追踪参数，所以还是要靠用户分享时自己删除后面的小尾巴。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 30 Oct 2026 04:00:00 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 30 Oct 2026 05:00:00 +0000</pubDate></item></channel></rss>
