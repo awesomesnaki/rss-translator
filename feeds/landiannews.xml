@@ -1,5 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sat, 31 Oct 2026 01:30:00 +0000</lastBuildDate><item><title>群晖部分NAS遭勒索软件攻击 黑客利用2024年已修复的漏洞 用户需尽快更新DSM</title><link>https://www.landian.news/archives/127851.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Sat, 31 Oct 2026 03:00:00 +0000</lastBuildDate><item><title>安全研究员曝光安卓系统的死亡短信漏洞 发送特殊短信可以触发反复崩溃</title><link>https://www.landian.news/archives/127854.html</link><description>
+&lt;p&gt;#系统资讯 安全研究员披露安卓系统死亡短信漏洞：只需要向目标手机号码发送攻击短信，就可以触发反复崩溃到出厂设置。该漏洞位于安卓处理 WAP Push 短信的解析层面，用户看不到攻击短信也不需要点击任何链接。在连续发送 20 条攻击短信的情况下可以触发反复崩溃，并且即便用户恢复出厂后，运营商还会继续投递未接收成功的消息，然后再次触发反复崩溃。查看全文：https://ourl.co/127854&lt;/p&gt;&lt;p&gt;网络安全研究员马克布拉什奇克日前披露名为死亡短信的安卓漏洞，攻击者只需要向受影响设备发送经过特殊构造的短信，就可以让系统电话服务崩溃，在严重情况下甚至可以导致系统反复崩溃无法正常使用。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127854.png" rel="nofollow"&gt;&lt;img alt="安全研究员曝光安卓系统的死亡短信漏洞 发送特殊短信可以触发反复崩溃" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127854.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;该问题涉及安卓系统对 WAP Push 短信的处理机制，WAP Push 是由系统接收和处理的特殊短信形式，可以用于运营商相关服务，例如提示设备获取彩信内容等。&lt;/p&gt;
+&lt;p&gt;研究员发现当安卓解析特定消息中的长度字段时，系统可能会因为数值转换产生异常，这导致负责电话功能的 com.android.phone 进程崩溃。由于异常发生在系统处理消息的阶段，因此用户无需打开短信或点击链接。&lt;/p&gt;
+&lt;p&gt;攻击者只需要向目标设备发送经过特殊构造的 WAP Push 短信即可，因此攻击者首先需要知道目标用户的手机号码，不过当前信息泄露非常严重，想要获得目标的手机号码并不是难事。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 持续发送 20 条攻击短信可触发反复崩溃到恢复出厂设置：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;研究员称问题短信可能留在系统的待处理队列中，电话服务重启后系统会再次处理相同消息并再次引发崩溃。当发送 20 条攻击短信后，设备还可能进入持续崩溃甚至反复重启的状态，用户还可能看到恢复出厂设置的提示。&lt;/p&gt;
+&lt;p&gt;如果运营商网络重新投递尚未确认接收的消息，即使用户重置设备后，当启动后攻击短信还会再次被设备接收，然后继续反复崩溃或重启，进入死循环状态。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;目前关于该漏洞的修复存在很大的争议，研究员称自己在 5 月 5 日向谷歌报告该问题，但谷歌称该问题并非安全问题。最终研究人员在 10 月 29 日公开死亡短信的公开技术分析。&lt;/p&gt;
+&lt;p&gt;与此同时 AOSP 代码记录显示，谷歌工程师在 6 月 15 日准备相关修复，修复后的代码会处理解析异常，清除造成反复崩溃的异常短信，避免系统持续重复处理攻击短信。&lt;/p&gt;
+&lt;p&gt;研究员称相关修复已经进入 Android 14~17 的 2026 年 10 月安全更新，而 GrapheneOS 称谷歌此前已经通过安全预览渠道提供底层修复，正式修复预计要到 11 月份，也就是当前这个漏洞并未修复。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://smsofdeath.com/" rel="noopener" target="_blank"&gt;死亡短信技术分析报告&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sat, 31 Oct 2026 03:00:00 +0000</pubDate></item><item><title>Cursor扩展商店出现恶意版Claude Code(并非A社开发) 约有5000名开发者受影响</title><link>https://www.landian.news/archives/127853.html</link><description>
+&lt;p&gt;#安全资讯 Cursor 扩展程序商店出现假冒的 Claude Code，需要强调的是该扩展并非 A 社官方发布，其他媒体报道时称 A 社官方版 Claude Code 被入侵。目前可以确认 Open VSX 和 NPM 上的 Claude Code 是正常的，仅 Cursor 上的 Claude Code 有问题。恶意扩展分发时间约 11 小时，建议在国内时间 10 月 29 日 17:27~10 月 30 日 04:35 安装或更新 Claude Code 扩展的用户立即检查。查看全文：https://ourl.co/127853&lt;/p&gt;&lt;p&gt;SpaceXAI Cursor 确认其扩展程序商店曾提供某个被恶意修改的 Claude Code 扩展程序，版本号为 2.1.313 版。该扩展程序开发者标注 Anthropic，但实际上该扩展程序并非 A 社开发，而是黑客冒充 A 社开发并提交的。&lt;/p&gt;
+&lt;p&gt;此前有部分安全报道将事件描述为 A 社官方扩展或 Open VSX 遭到攻击，后续调查发现受影响的分发渠道仅为 Cursor 自己的扩展程序商店，Open VSX 和 NPM 发布记录正常，未出现恶意版本。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127853.png" rel="nofollow"&gt;&lt;img alt="Cursor扩展商店出现恶意版Claude Code(并非A社开发) 约有5000名开发者受影响" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127853.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这个恶意扩展程序使用 Anthropic.claude-code 标识且版本号为 2.1.313 版，在商店里的分发时间段为 10 月 29 日 17:27~10 月 30 日 04:35 (这里已换算为国内时间)，持续分发时间为 11 小时。&lt;/p&gt;
+&lt;p&gt;恶意版本保留 Claude Code 官方扩展的多数能力，但在 extension.js 开头插入约 66 行的恶意加载代码。扩展程序加载时恶意代码会先执行，随后正常功能继续启动，开发者难以从界面上发现异常。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;分析显示，这个恶意扩展程序会尝试在用户的 SSH 授权文件中添加攻击者控制的公钥，标记为 svc-telemetry，随后尝试启动本机 SSH 服务并建立反向 SSH 隧道。&lt;/p&gt;
+&lt;p&gt;恶意代码还会持续建立运行机制，例如在 macOS 上创建用户级 LaunchAgent，在 Windows 上尝试创建计划任务，在部分情况下使用启动目录维持开机自动运行等。&lt;/p&gt;
+&lt;p&gt;插件收集的信息包括设备主机名、用户名、操作系统、CPU 架构、工作目录、Git 配置中的邮箱和公网 IP、敏感环境变量名称。但值得注意的是，这段恶意代码本身存在错误，同时启动本机 SSH 服务通常需要管理员权限，因此建立反向 SSH 隧道实际会失败。不过插件仍然可能写入攻击者公钥、创建持久化文件并发送主机信息，因此受影响的用户仍然需要清理和检查设备。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;曾在上述时段内通过 Cursor 扩展商店安装或更新 Claude Code 2.1.313 的开发者，应当先隔离疑似受影响的设备，随后开始检查扩展程序安装记录和 Cursor 公布列出的 IOC。&lt;/p&gt;
+&lt;pre&gt;#macOS 和 Linux 用户可以运行如下命令检查 SSH 授权文件是否出现 svc-telemetry
+
+grep -n 'svc-telemetry' ~/.ssh/authorized_keys
+
+#Windows 用户需检查用户目录下的
+
+.ssh\authorized_keys
+
+C:\ProgramData\ssh\administrators_authorized_keys
+
+#若发现可疑密钥则应结合 Cursor 公告中的完整公钥和指纹核对，清理未经授权添加的条目&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;其他值得检查的痕迹包括：&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;#macOS
+
+~/Library/LaunchAgents/com.apple.sysmond.plist
+
+~/.config/.smt
+
+~/.config/.smtk
+
+#Windows：
+
+检查计划任务是否有名为 SysMon 的条目&lt;/pre&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://prod.cursor.com/pt-BR/blog/claude-code-extension-security-notice" rel="noopener" target="_blank"&gt;Cursor：Claude Code 恶意扩展安全公告、IOC和清理脚本&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sat, 31 Oct 2026 02:30:00 +0000</pubDate></item><item><title>比特币硬件钱包Trezor也出现硬件篡改问题 经销商篡改硬件窃取钱包助记词</title><link>https://www.landian.news/archives/127852.html</link><description>
+&lt;p&gt;#加密货币 比特币硬件钱包 Trezor 也出现篡改问题，经销商同样是东南亚的 CryptoBilis，钱包被植入可疑电路。该电路板放在 Trezor 主板与屏幕之间，上面有蜂窝通信模块和天线。据称该电路板可以窃取屏幕上显示的助记词并发送到黑客控制的服务器。Trezor 建议用户立即转移资产到新钱包并创建新助记词，受影响用户也可以联系 Trezor 申请寄送新钱包。查看全文：https://ourl.co/127852&lt;/p&gt;&lt;p&gt;加密货币硬件钱包 Trezor 日前发布安全警告，有用户从其东南亚经销商 CryptoBilis 购买的 Safe 5 硬件钱包内部被植入额外电路，可能会读取钱包屏幕上的恢复助记词，这些机密信息会通过 4G LTE 模块发送出去。&lt;/p&gt;
+&lt;p&gt;早前法国加密钱包制造商 Ledger 也遇到类似问题，而且同样是 CryptoBilis 经销商。这家经销商在 3 月份已经被秘密收购，收购时要要求原团队对收购事宜保密，而收购方背后疑似也是朝鲜黑客集团。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127852.png" rel="nofollow"&gt;&lt;img alt="比特币硬件钱包Trezor也出现硬件篡改问题 经销商篡改硬件窃取钱包助记词" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127852.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;根据 Trezor 发布的说明，其印尼用户在 2026 年 8 月购买 Trezor Safe 5 硬件钱包，在 10 月 28 日向 Trezor 安全团队报告设备异常。这名用户对钱包拆解发现，钱包里有额外的电路板和蜂窝通信模块。&lt;/p&gt;
+&lt;p&gt;这个额外的电路板被安装在 Trezor 主板与屏幕之间，电路板上有蜂窝通信模块和天线，该电路板据称可以读取屏幕上显示的内容，包括初始化钱包时出现的恢复助记词，在设备接通电源时这些数据会通过移动网络发送数据到黑客控制的服务器。&lt;/p&gt;
+&lt;p&gt;这名用户在发现可疑电路前已经转移钱包里的所有资产，所以并未出现损失。截至本文发布时，Trezor 尚未收到有用户资产被转移的情况，但相关用户也需要尽快转移资产避免黑客提前动手。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Trezor 的安全建议覆盖 2026 年 3 月及之后通过 CryptoBilis 销售或供货的所有 Trezor 型号，包括通过 Tokopedia 等平台购买但实际由 CryptoBilis 发货的硬件钱包。&lt;/p&gt;
+&lt;p&gt;用户应当创建新的安全钱包和设置全新助记词，然后将旧钱包中的所有资产都发送到新钱包。如果暂时没有可信的硬件钱包，可以考虑将资产转移到熟悉的交易所或软件钱包。&lt;/p&gt;
+&lt;p&gt;另外受影响的用户可以保留钱包并联系 Trezor，该公司可以直接向用户寄送新的安全钱包，也可以领取用于购买新钱包的代金券，用户可以使用代金券购买其他型号的钱包。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sat, 31 Oct 2026 02:00:00 +0000</pubDate></item><item><title>群晖部分NAS遭勒索软件攻击 黑客利用2024年已修复的漏洞 用户需尽快更新DSM</title><link>https://www.landian.news/archives/127851.html</link><description>
 &lt;p&gt;#安全资讯 群晖官方回应近期出现的 NAS 勒索软件攻击事件：黑客使用 2024 年 12 月已经修复的远程代码执行漏洞发起攻击。群晖建议用户立即升级到 DSM 最新版确保安全，目前没有证据表明 DSM 存在零日漏洞，即未修复但已经被黑客利用的漏洞。对于黑群晖用户，如无法升级版本请立即断开公网连接；白群晖用户如无必要也不要将 NAS 暴露在公网。查看全文：https://ourl.co/127851&lt;/p&gt;&lt;p&gt;近期有大量使用群晖 NAS 的用户发帖称自己的设备遭到勒索软件攻击，被攻击的设备全盘数据都被勒索软件使用现代加密算法加密，想要破解加密算法是不可能的，所以用户只能通过其他备份渠道恢复自己的数据。&lt;/p&gt;
 &lt;p&gt;在用户讨论中有用户自称使用的是 DSM 最新版，不过更多用户使用的是旧版 DSM 且将设备暴露在公网上。这件事也引起群晖官方的关注，群晖安全团队经过分析后发现黑客使用的是群晖已经在 2024 年 12 月修复的安全漏洞。&lt;/p&gt;
 &lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127851.png" rel="nofollow"&gt;&lt;img alt="群晖部分NAS遭勒索软件攻击 黑客利用2024年已修复的漏洞 用户需尽快更新DSM" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127851.png"/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -136,63 +205,4 @@ Hybrid Sleep（较少见）
 &lt;p&gt;
 &lt;ins data-ad-client="ca-pub-8597288383599884" data-ad-format="auto" data-ad-slot="1551135873" data-full-width-responsive="true"&gt;&lt;/ins&gt;
 &lt;/p&gt;&lt;popup module-class="point-pay-module" ref="pointPayRef"&gt;&lt;point-pay-popup @close-point-pay-popup="closePointPay"&gt;&lt;/point-pay-popup&gt;&lt;/popup&gt; &lt;/article&gt;
-</description><pubDate>Fri, 30 Oct 2026 06:30:00 +0000</pubDate></item><item><title>百度网盘为什么禁用传感器还能跳转摇一摇广告？AI分析显示百度网盘还读取磁力计数据</title><link>https://www.landian.news/archives/127843.html</link><description>
-&lt;p&gt;#软件资讯 开发者使用 AI 分析百度网盘 iOS 版为什么禁用运动传感器权限还能跳转摇一摇广告：因为百度网盘还开发了磁力计框架。百度网盘 iOS 版广告框架里有个名为 NoShake (没有运动) 的变体，该变体会检测苹果 Core Location 框架中的 CLHeading 获取设备方向数据。该数据可以提供设备相对于磁北方向的朝向和用于计算方向的三轴磁场数据。简单来说，手机姿态发生变化时磁力计数据也会随之变化，这样百度网盘还是能判定用户摇晃了手机进而跳转广告。AI 分析报告还提到了零点击自动跳转广告，当特定参数组合满足条件时，等待约 1 秒后即便用户没有点击，SDK 也会自动执行广告点击流程。查看全文：https://ourl.co/127843&lt;/p&gt;&lt;p&gt;本周苹果推出 iOS 27.2 正式版，苹果在该版本中为中国大陆用户带来新权限设置：运动与健身。该权限可以用来控制应用程序能否获得陀螺仪和加速度计参数，部分应用程序开屏摇一摇广告就通过检测传感器实现跳转。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.landian.news/archives/127758.html" rel="noopener" target="_blank"&gt;但百度网盘 iOS 版在被关运动与健身权限后仍然可以继续跳转摇一摇广告&lt;/a&gt;，在此前的讨论中有网友猜测百度网盘可能并不需要检测陀螺仪和加速度计，而是设置随机延迟。只要到延迟时间就判断用户触发摇一摇并自动跳转广告。&lt;/p&gt;
-&lt;figure aria-describedby="caption-attachment-127910" id="attachment_127910"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127843.png" rel="nofollow"&gt;&lt;img alt="百度网盘为什么禁用传感器还能跳转摇一摇广告？AI分析显示百度网盘还读取磁力计数据" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127843.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-127910"&gt;图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;开发者 @王晨杰 使用 AI 分析百度网盘的开屏广告跳转逻辑并将最终报告分享给蓝点网。分析发现百度网盘使用的框架里有个专门的没有运动 (NoShake) 变体，这个变体没有依靠常规的 CoreMotion 动作监听，而是使用苹果 Core Location 框架中的 CLHeading 获取设备方向数据。&lt;/p&gt;
-&lt;p&gt;CLHeading 属于磁力计相关的框架，该框架可以提供设备相对于磁北方向的朝向和用于计算方向的三轴磁场数据。简单来说，手机姿态发生变化时磁力计返回的数据也可能随之变化，广告组件可以据此判断用户是否移动或转动了手机。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;至少在百度网盘 iOS 版的案例中禁止百度网盘获取陀螺仪和加速度计权限是没用的，百度网盘已经准备好备用方法来检测手机是否移动或晃动。不过可能并非所有应用程序都如百度网盘这样还提前开发好替代框架。&lt;/p&gt;
-&lt;p&gt;iOS 27.2 测试版在 9 月 23 日发布，而此次开发者使用 AI 分析的样本是百度网盘 iOS 版 13.36.0 版，该版本于 10 月 22 日发布。当然这无法判断百度网盘是不是在 iOS 27.2 测试版发布后才新增 NoShake 变体用来应对传感器权限限制。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;报告还提到一种零点击分支：当特定参数组合满足条件时，触发后会等待约 1 秒，如果期间用户没有点击，SDK 便自动执行广告点击流程。其他参数组合也可能在触发后直接进入点击流程。&lt;/p&gt;
-&lt;p&gt;这一机制为此前网友猜测的等待一段时间后自动跳转提供值得关注的线索，不过分析报告并未取得真实的广告响应，所以不能确定线上广告实际使用了哪组参数。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/127758.html" title="升级iOS 27.2限制百度网盘传感器权限后 百度网盘还是能激活摇一摇跳转广告？"&gt;&lt;h3&gt;升级iOS 27.2限制百度网盘传感器权限后 百度网盘还是能激活摇一摇跳转广告？&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#软件资讯 升级 iOS 27.2 + 国行账号，限制百度网盘运动传感器权限后，百度网盘还是能跳转摇一摇广告？网友实测禁用传感器权限也不能阻止摇…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/soft"&gt;软件资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2026年10月28日 13:30&lt;/span&gt;&lt;span title="浏览数量"&gt;5.32K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
-&lt;hr/&gt;
-&lt;p&gt;感谢蓝点网网友 @王晨杰 分享的报告&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 30 Oct 2026 06:00:00 +0000</pubDate></item><item><title>全球规模最大的编程问答网站Stack Overflow每月提问从20万个暴跌到现在不足1000个</title><link>https://www.landian.news/archives/127842.html</link><description>
-&lt;p&gt;#行业资讯 全球规模最大的编程问答网站 Stack Overflow 每月提问从 12 年前的 20 万个跌到现在不足 1000 个，基本上已经被 AI 摧毁。以前开发者遇到问题时经常访问 Stack Overflow 寻找解决方案或交流经验，但 AI 问世后这种情况被迅速改变。很多开发者只需要指挥 AI，不需要在 Stack Overflow 提问或手动寻找解决方案，这导致 Stack Overflow 访问量也暴跌。查看全文：https://ourl.co/127842&lt;/p&gt;&lt;p&gt;全球规模最大的编程问答网站 Stack Overflow 在 AI 工具面世后访问量持续下跌，越来越多的开发者通过 AI 咨询问题和寻找解决方案，这导致 Stack Overflow 上的活跃用户持续降低、用户提问数量也暴跌。&lt;/p&gt;
-&lt;figure aria-describedby="caption-attachment-127908" id="attachment_127908"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127842.png" rel="nofollow"&gt;&lt;img alt="全球规模最大的编程问答网站Stack Overflow每月提问从20万个暴跌到现在不足1000个" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127842.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-127908"&gt;图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;2014 年 3 月：当月提问 20.71 万个&lt;/li&gt;
-&lt;li&gt;2020 年 6 月：当月提问 17.18 万个&lt;/li&gt;
-&lt;li&gt;2022 年 11 月：当月提问 10.91 万个&lt;/li&gt;
-&lt;li&gt;2023 年 10 月：当月提问 5.23 万个&lt;/li&gt;
-&lt;li&gt;2024 年 10 月：当月提问 2.31 万个&lt;/li&gt;
-&lt;li&gt;2025 年 10 月：当月提问 0.52 万个&lt;/li&gt;
-&lt;li&gt;2026 年 9 月：当月提问 961 个&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;OpenAI ChatGPT 在 2022 年 11 月底正式上线，当时 Stack Overflow 月均提问还有 10 万个左右，1 年后的 2023 年 10 月，月均提问数量直接暴跌 50%。在这 1 年里除了 ChatGPT 外，各种 AI 聊天机器人如雨后春笋般上线。&lt;/p&gt;
-&lt;p&gt;再往后就是基于人工智能的各种编程智能体，开发者只需要提出需求，剩下架构设计、代码生成、调试、修复问题全部都由智能体自行完成，因此对很多开发者而言已经不需要再到 Stack Overflow 提问或寻求已有解决方案。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Stack Overflow 多年来积累大量公开问答，开发者可以通过搜索找到历史问题、社区编辑和不同用户提出的解决方案。AI 智能体改变获取这些答案的方式，也改变新经验的传播路径。&lt;/p&gt;
-&lt;p&gt;开发者现在可以在私人 AI 对话中解决问题，但解决过程不会像公开回答那样出现在互联网上供其他人搜索、讨论和修订。对于版本更新频繁的编程语言、框架和开发工具来说，持续补充新问题与答案仍然重要。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://www.llms.blog/posts/stack-overflow-under-1000-questions-reactions" rel="noopener" target="_blank"&gt;LLM Blogs&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 30 Oct 2026 05:30:00 +0000</pubDate></item><item><title>AI编程活动推动GitHub持续增加硬件资源 已新增400万个CPU核心和160PB高速存储</title><link>https://www.landian.news/archives/127841.html</link><description>
-&lt;p&gt;#网站应用 你用 AI 搞开发快把 GitHub 挤瘫了：GitHub 已新增 400 万个 CPU 核心和 160PB 高速存储应对持续增加的智能体开发。仅 9 月份，GitHub 上的代码提交次数就达到 73.8 亿次，同比增幅高达 500%。目前 GitHub 除了增加硬件和计算容量外，也在重建 Git 基础设施，包括简化底层组件、将存储与计算分离、减少系统之间需要协调的操作等，让平台更容易应对大量的并发读写。查看全文：https://ourl.co/127841&lt;/p&gt;&lt;p&gt;代码托管网站 GitHub 日前发布 2026 年 10 月报告，报告显示随着开发者越来越多地使用 AI 编程智能体，该平台代码活动正在快速增加。仅 2026 年 9 月份，开发者和智能体就在 GitHub 上产生 73.8 亿次代码提交，同比增幅高达 500%。&lt;/p&gt;
-&lt;p&gt;为应对持续增长的工作负载，GitHub 今年以来已经新增 400 万个 CPU 核心、160PB 高速存储和 50Tb/s 网络容量。同时 GitHub 正在着手改造底层 Git 架构以提供更高的性能。&lt;/p&gt;
-&lt;figure aria-describedby="caption-attachment-127906" id="attachment_127906"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127841.png" rel="nofollow"&gt;&lt;img alt="AI编程活动推动GitHub持续增加硬件资源 已新增400万个CPU核心和160PB高速存储" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127841.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-127906"&gt;图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;开发者累计向 GitHub 推送代码 179 亿次，超过此前两个统计年度的总和&lt;/li&gt;
-&lt;li&gt;各类仓库累计产生 343 亿次代码提交&lt;/li&gt;
-&lt;li&gt;GitHub Actions 执行约 454 亿项任务，平均每天高达 1.24 亿项&lt;/li&gt;
-&lt;li&gt;已合并的 Pull Request 达到 13 亿个，平均每天约 350 万个&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;根据 GitHub 的统计数据，到 2026 年 9 月，平台超过 40% 的 PR 以智能体生成的初稿开始，远高于今年 3 月的 17%，9 月由智能体起草的 PR 达到 1.1 亿个。PR 是开发者提交代码变更请求审查、合并的方式，智能体可以根据任务生成初稿，开发者再查看差异、讨论问题并决定如何合并。&lt;/p&gt;
-&lt;p&gt;报告还显示，在今年新建的仓库中，带有智能体配置文件的仓库平均提交次数，约为没有此类配置文件的新仓库的 8 倍，这也体现出采用智能体的项目往往使用更加密集的开发流程。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;代码提交增长会带动更多的配套操作：开发者推送变更后，平台可能需要更新仓库、运行测试、检查安全问题、生成构建结构并通知团队成员。大量智能体并行工作时， 这些请求也会集中出现。&lt;/p&gt;
-&lt;p&gt;GitHub 表示，单纯增加硬件容量还需要配合架构调整，为此 GitHub 正在重建 Git 基础设施，重点包括简化底层组件、将存储与计算分离、减少系统之间需要协调的操作，以此让平台更容易应对大量并发读写。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/" rel="noopener" target="_blank"&gt;GitHub 10 月开发趋势报告&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 30 Oct 2026 05:00:00 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 30 Oct 2026 06:30:00 +0000</pubDate></item></channel></rss>
