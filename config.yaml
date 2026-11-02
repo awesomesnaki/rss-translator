@@ -62,16 +62,8 @@ feeds:
     url: "https://some.pics/rss"
     summarize_title: true
     max_entries: 10          # 约 10 条/天；只翻标题，加大窗口几乎不增加 token
-  - name: "pixelfed-JessStetson"
-    url: "https://pixelfed.social/users/Jess.Stetson.atom"
-    summarize_title: true
-    images_only: true
   - name: "pixelfed-geraldlanger"
     url: "https://pixelfed.social/users/geraldlanger.atom"
-    summarize_title: true
-    images_only: true
-  - name: "pixelfed-zsnajorrah"
-    url: "https://pixelfed.social/users/zsnajorrah.atom"
     summarize_title: true
     images_only: true
   - name: "zhheo"
