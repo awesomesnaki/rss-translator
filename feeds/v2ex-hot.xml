@@ -224,7 +224,86 @@ Supplement 1  ·  &lt;span title="2026-11-02 16:09:27 +08:00"&gt;3h 32m ago&lt
 &lt;p&gt;&lt;strong&gt;#97 dcdlove&lt;/strong&gt;：@&lt;a href="/member/ssb4"&gt;ssb4&lt;/a&gt; 你不种地不要吃饭?  &lt;a href="/i/juz9xJ84.png" rel="nofollow noopener" target="_blank" title="在新窗口打开图片 juz9xJ84.png"&gt;&lt;img referrerpolicy="no-referrer" src="//i.v2ex.co/juz9xJ84.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#98 ovtfkw&lt;/strong&gt;：@&lt;a href="/member/LessWu"&gt;LessWu&lt;/a&gt; #7 韭菜好多&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#99 IMengXin&lt;/strong&gt;：献血有好处将变成得先挂号，禁止无证抽血&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#100 QingXuJiaZhi&lt;/strong&gt;：据说美国允许卖血，不知道美国有没有因此而导致严重的社会问题。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Mon, 02 Nov 2026 05:56:49 +0000</pubDate></item><item><title>兄弟们这辈子买过的最贵的东西是什么？</title><link>https://www.v2ex.com/t/1253707</link><description>除了房子、看病、养娃，摸得到的实物
+&lt;p&gt;&lt;strong&gt;#100 QingXuJiaZhi&lt;/strong&gt;：据说美国允许卖血，不知道美国有没有因此而导致严重的社会问题。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Mon, 02 Nov 2026 05:56:49 +0000</pubDate></item><item><title>AI 普及之后，应该把所有 Electron 重写为 native</title><link>https://www.v2ex.com/t/1253744</link><description>&lt;p&gt;凡是基于 Electron 开发的，开着时间长，必然内存占用越来越大，界面响应越来越慢&lt;/p&gt;
+&lt;p&gt;以前大家手写不挑你理，既然 AI 让写代码成本降低了&lt;/p&gt;
+&lt;p&gt;感觉第一件事就应该全部迁移为 native&lt;/p&gt;
+&lt;p&gt;大不了 macos/windows 各写一套呗，相同业务逻辑&lt;/p&gt;
+&lt;hr/&gt;
+Supplement 1  ·  &lt;span title="2026-11-02 17:59:28 +08:00"&gt;11h 59m ago&lt;/span&gt;
+
+块经常出这种帖子：一天重构了 CAD&lt;br/&gt;一周用 rust 重写了 typescript 编译器/bun&lt;br/&gt;3 天重构了 simcity&lt;br/&gt;……&lt;br/&gt;&lt;br/&gt;按这个速度，把 electron 重构到 Qt/Rust/Avalonia 最多要半天吧……
+
+&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;#1 dnfQzjPBXtWmML&lt;/strong&gt;：简单组件还行，复杂功能在不同平台用不同的方案就变成地狱模式了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#2 sentinelK&lt;/strong&gt;：electron 的优势主要是在于 UI 和硬件机制的解耦，和移动 app 中的 webview 方案一样。&lt;br/&gt;这样做业务 UI 的和与硬件沟通的可以完全独立。而且 UI 逻辑是通用的。&lt;br/&gt;&lt;br/&gt;相反，如果是 native ，不可能舍弃原生的各种 UI 机制。这样来讲，其实不同系统的软件设计思路就都不同了。带来的结果就不光是代码量翻倍那么简单。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#3 Seamain&lt;/strong&gt;：就算现在有 AI 但还是两倍的维护成本，和之前手写代码的时代没有区别。那企业肯定是不愿意的，尤其现在是降本增效的时代。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#4 gdm&lt;/strong&gt;：可以自己写 native 啊，反正有 ai&lt;br/&gt;我就给自己写了文本编辑器&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#5 Oktfolio&lt;/strong&gt;：我的 SSH 客户端现在是 Flutter GPUI 两个版本并行，GPUI 相较于 Flutter 包体积减少 40%，内存占用大概也降低 40%。Flutter 在包体积和内存占用上也比 Electron 好很多。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#6 homer&lt;/strong&gt;：是的，CPU 、内存占用大幅降低，老电脑还能再战 10 年&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#7 baizheng&lt;/strong&gt;：想想简单， 动手就知道了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#8 gejun123456&lt;/strong&gt;：electron 版本目前有优势，生成的 html 可以方便 ai 测试比如看按钮存不存在，点击是否好用等，弄成 native 不好测试的话效率低很多。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#9 Mageblade&lt;/strong&gt;：极其讨厌浏览器套壳的一切软件！&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#10 calvinHxx&lt;/strong&gt;：来来来。用俺们的组件来整！ &lt;a href="https://github.com/calvinhxx/Fluent-Qt" rel="nofollow noopener" target="_blank"&gt;https://github.com/calvinhxx/Fluent-Qt&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#11 nc&lt;/strong&gt;：现在 PC 性能严重过剩，微软都搞明白的道理，能用 Electron 就用，公司的 Token 可是按量计费的。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#12 crysislinux&lt;/strong&gt;：人家搞 AI 世界最 top 的公司都还在用 electro 呢，其他人慌什么。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#13 zed1018&lt;/strong&gt;：PC 上还有人乐意给你做 app 就偷着乐吧（&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#14 duuu&lt;/strong&gt;：大部分业务软件都没到拼性能的地步。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#15 lujiaosama&lt;/strong&gt;：重构的最大问题是测试成本，跑得好好的东西 你重构除了问题找你背锅你愿意吗.&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#16 irrigate2554&lt;/strong&gt;：现在 web 端前端组件太丰富了，其他技术栈想要达到类似效果得多写很多很多东西&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#17 ano&lt;/strong&gt;：基于现实来说，现在好几家新生代主打 AI 的 AI-IDE 的壳都用的 Electron ，&lt;br/&gt;Electron 还是有优势&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#18 lovedeepl&lt;/strong&gt;：Electron 生态比较成熟丰富&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#19 lovedeepl&lt;/strong&gt;：还好吧，不是特别复杂的应用&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#20 life1st&lt;/strong&gt;：恰恰相反，所有 electron 都应该写成 browser + server 模式，包括 vscode&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#21 Chuckle&lt;/strong&gt;：写代码的成本一直不是大头，管理成本会起飞的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#22 pk78823&lt;/strong&gt;：@&lt;a href="/member/sentinelK"&gt;sentinelK&lt;/a&gt; 同意, 这是抽象出来这层的意义&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#23 layxy&lt;/strong&gt;：等啥时候 claude desktop 和 chatgpt app 使用原生开发再说吧&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#24 Wanex&lt;/strong&gt;：js 这么丰富的生态我不用我给你用 native 重新手搓一遍，你猜我搓不搓&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#25 znedyrk&lt;/strong&gt;：反正我们的 flutter 确实是重写成 kotlin 了&lt;br/&gt;还是完全没做过移动端的人重写的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#26 Vaspike&lt;/strong&gt;：积重难返了已经, 就一个主题切换就难倒英雄汉&lt;br/&gt;不客气地说 js+html 拥有着世界最强的生态&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#27 javalaw2010&lt;/strong&gt;：AI 普及之后，当务之急是 native 尽快兼容 web 的语法&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#28 redbule&lt;/strong&gt;：用 mygo 吧&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#29 XIVN1987&lt;/strong&gt;：站在用户的角度，，我十分赞成楼主的想法。。&lt;br/&gt;&lt;br/&gt;用过一个叫 balenaEtcher 的软件，，是用来往 tf 卡里面写镜像的，，界面非常简单，，只有几个按钮。。但它的 exe 文件竟然有 100 多 MB 。。&lt;br/&gt;&lt;br/&gt;如果改用 windows api 写，，搞不好连 1MB 都不到。。可见 Electron 浪费了多少算力、内存和能源。。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#30 liaohongxing&lt;/strong&gt;：@&lt;a href="/member/XIVN1987"&gt;XIVN1987&lt;/a&gt; 但是 windows api 不跨平台，那软件能跨平台。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#31 dinjufen&lt;/strong&gt;：哈哈，我也是一样的想法，我也会 Qt 和 electron 开发，但那是工作需要。我个人用 claude 自己撸了个仿 IDEA 的 native git 客户端： &lt;a href="https://github.com/dinjufen/idea-git-tool" rel="nofollow noopener" target="_blank"&gt;https://github.com/dinjufen/idea-git-tool&lt;/a&gt; ，欢迎大家体验并给个 star&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#32 magicdawn&lt;/strong&gt;：Codex 2026 年初第一版就是 Electron, 现在合进的 &lt;a href="http://ChatGPT.app" rel="nofollow noopener" target="_blank"&gt;ChatGPT.app&lt;/a&gt; 还是 Electron.&lt;br/&gt;&lt;br/&gt;ChatGPT Classic 貌似是 native 的, 但弃用了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#33 strobber16&lt;/strong&gt;：token 的钱你来出吗&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#34 Vaspike&lt;/strong&gt;：@&lt;a href="/member/magicdawn"&gt;magicdawn&lt;/a&gt; codex 桌面/chatgpt 的性能问题太严重了, electron 功不可没&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#35 XIVN1987&lt;/strong&gt;：@&lt;a href="/member/liaohongxing"&gt;liaohongxing&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;这是开发人员需要考虑的问题，，不是我们用户需要考虑的。。&lt;br/&gt;&lt;br/&gt;我作为用户只需要考虑我的平台上能不能用、好不好用，，谁管它跨不跨平台。。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#36 Atukey&lt;/strong&gt;：@&lt;a href="/member/XIVN1987"&gt;XIVN1987&lt;/a&gt; #29 就这个 der 软件,之前频繁使用,跟你一样的想法,最后换了 rufus,才 1.5MB&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#37 q000q000&lt;/strong&gt;：Rust + GPUI 重写一切 😡&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#38 ahzdc&lt;/strong&gt;：没错&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#39 ttkit&lt;/strong&gt;：。。。怎么感觉你说反了？开发 AI Agent ，Electron 有可能以后变成必选项，codex 和 claude code 全部是基于 Electron 做的。&lt;br/&gt;&lt;br/&gt;如果你做 AI Agent 用 native 只能说呵呵。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#40 leegradyllljjjj&lt;/strong&gt;：我这个软件打完包才 4mb ，内存占用也低，难以想象用 electron 会占多少内存 &lt;a href="https://i.imgur.com/nTkngo1.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/nTkngo1.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#41 ty5yidc&lt;/strong&gt;：@&lt;a href="/member/leegradyllljjjj"&gt;leegradyllljjjj&lt;/a&gt; 你的评论图片怎么发的？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#42 leegradyllljjjj&lt;/strong&gt;：@&lt;a href="/member/ty5yidc"&gt;ty5yidc&lt;/a&gt; chrome 插件 V2EX Polish ，啃臭键+V = 粘贴图片&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#43 chicbian&lt;/strong&gt;：原生的各种版本兼容非常要命，而且很多程序员都是用 mac, 天然的 ai 开发友好，比如 GPUI ，好像没怎么去做过 windows 的桌面应用适配，如果做过，就知道什么是噩梦了,比如 GPUI 在没有独显的 windows 上性能提升跟没有是差不多的，然后 windows 上的各个版本的智障适配，脑子疼，所以套壳 webview2 的方案，会更加的友好。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#44 junie365&lt;/strong&gt;：我怎么感觉以后 AI 会 JS 生态一把梭😂。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#45 thetbw&lt;/strong&gt;：如果把本应该给 AI 用的资源分给消费级 PC ，我不敢想 Electron 会跑多快，Chrome 也不用增加“省内存模式”了，多出来的精力可以优化别的部分，这又何尝不是另一种提效。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#46 vsomeone&lt;/strong&gt;：但是 native app 很难测试诶，尤其是跨平台的 app ，Windows 10 + Windows 11 + macOS 最近三个版本 + Linux 各种发行版。Electron 的好处就在于写一次，在一个平台上测试一遍，在其他平台上基本都会有相近的表现。AI 只降低了开发的成本，测试的成本相对还是比较高的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#47 lolo1&lt;/strong&gt;：立一个 flag 5 年内 electron 会死掉&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#48 Nzelites&lt;/strong&gt;：说反了 应该全部转到 electron ，这样产品直接生 html 能行直接用 光速迭代 谁还管你 native&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#49 msg7086&lt;/strong&gt;：我觉着重写一遍 bun 可比把 electron 重构到 native 简单多了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#50 guin&lt;/strong&gt;：怎么现在越来越多的产品都用 electron 了？ opencode2 不也是改用 electron 写了，还有看网上招聘桌面客户端 wpf 的很多都要求会 electron 了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#51 ylsc633&lt;/strong&gt;：就是不好测试，不然谁不喜欢内存小的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#52 HTravel&lt;/strong&gt;：为什么要用 Electron ，不就是因为涉及用户界面嘛。后端几乎可以用完整测试用例、AI 自动验证来确保转译时的 100%精确。前端是人类自己要用的，AI 要怎么保证 100%UI 效果完全一致？压根不可能，更别说不同操作系统上的提供的 GUI 组件都不等价。像我前几天还只是把简单的知乎 web app(我自己做了一个)做成 PWA 版来隐藏地址栏。就这么极其小的一个变动，iOS 上浏览器免费送的页面切换动画就没了。你慢慢让 AI 模拟去吧，模拟了半天，iOS27 上都不像，更别说返回后有些地方还会一闪，还不是全屏闪，想给 AI 描述都不容易。更别说 iOS15 上现象还不一样。这还没算安卓 PWA 。&lt;br/&gt;&lt;br/&gt;所以只要涉及到 UI 的，转个毛线。除非各大操作系统的源码都给你了、硬件制造工厂也让你当老板，你能全权控制了再说。&lt;br/&gt;&lt;br/&gt;至于 Electron 占用内存大，能大个啥。不瞎几把用的话，那些调用不到的代码/资源，早通过页交换换到 SSD 去了。最终也就是表面看起来占用内存大，实际上压根没影响。除非多个软件来回不停切换用、每个软件还什么功能都用到，导致页面交换一直进进出出打摆子，才会真的影响使用&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#53 SnowyParadise&lt;/strong&gt;：拉倒吧，上一个用 rust 重写 vscode 的坟头草都老高了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#54 Lightbright&lt;/strong&gt;：楼上的说了这么多&lt;br/&gt;到底有哪些软件同时有 Windows + macOS  + Linux 各种发行版这么多端&lt;br/&gt;还能保证 UI 交互 100%一致啊&lt;br/&gt;我看绝大多数哪怕用了 electron 的，很多端也是管杀不管埋&lt;br/&gt;软件八字没一撇呢，已经开始研究究极兼容性了。。。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#55 nullyouraise&lt;/strong&gt;：理想很美好，现实 Electron 只会越来越多&lt;br/&gt;&lt;br/&gt;上半年开始，我用 Rust+GPUI+gpui-kit 做了个 Agent 和终端二合一的 GUI ，想法很简单，就是现在的 Electron 应用已经太多了，我个人也更喜欢原生技术，速度快、二进制体积小，怎么看都有各种优点，实际上迭代了三个月，现在我已经想用 Electron 重写了，主要有几个原因：&lt;br/&gt;&lt;br/&gt;1. 原生应用开发效率远不如 Electron 。Rust 编译慢、Electron 应用大部分时间都能实时预览就不说了，Electron 支持 DevTools ，Agent 可以直接连接上应用进行 UI 调试，这个 Rust 应用开发时为了提升 GUI 调试效率，我还写了套自动化接口给 Agent 用，但是使用 Electron 根本不存在这个问题；&lt;br/&gt;&lt;br/&gt;2. Electron 依托 Web 生态，npm 提供海量现成的解决方案；开源社区里的平台原生解决方案相比 npm 还是太少了。最近我想给 Agent 对话页增加 Mermaid 图渲染功能，GPUI 和 gpui-kit 都不提供，又要手工维护一堆 Rust 代码，这是最近劝退我的最核心原因；&lt;br/&gt;&lt;br/&gt;3. Rust 项目在不调整配置的情况下，target 中间目录占用大量硬盘。虽然 node_modules 是无底洞，但和 Rust 项目比也是小巫见大巫了。编译 Codex 出来就占 110GB ；我这个个人项目本地 target 目录一度高达 500GB ，又是改配置，又是清理，最后才稳定在 50G 以内；&lt;br/&gt;&lt;br/&gt;4. 原生应用跨平台适配麻烦。最开始我只做了 Windows 版，后来有个朋友想用 Mac 版，我抽了一天适配了一下，虽然 AI 只要一天就适配好了，但是总归还是有工作量的。后面再迭代时，每次我都要在 Windows 上测一遍，再到 Mac 上再测一遍，用 Electron 基本没有这个烦恼。&lt;br/&gt;&lt;br/&gt;总结下来，使用 Electron 可以省去开发者很大麻烦，只要专注于你的业务逻辑就可以。原生开发给开发者增加负担不说，收益却未必明显，绝大部分人是完全不关心你的软件是用什么技术写的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#56 XIVN1987&lt;/strong&gt;：没想到，，竟然有这么多人不看好 native ，，原因是 native 太难。。&lt;br/&gt;&lt;br/&gt;看来大家还是对 AI 没信心啊。。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#57 Facilis&lt;/strong&gt;：参考 element 和 nheko&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#58 zy445566&lt;/strong&gt;：&lt;a href="https://github.com/zy445566/xbintsc" rel="nofollow noopener" target="_blank"&gt;https://github.com/zy445566/xbintsc&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;兄弟 我已经做了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#59 zy445566&lt;/strong&gt;：@&lt;a href="/member/baizheng"&gt;baizheng&lt;/a&gt; &lt;br/&gt;&lt;a href="https://github.com/zy445566/xbintsc" rel="nofollow noopener" target="_blank"&gt;https://github.com/zy445566/xbintsc&lt;/a&gt;&lt;br/&gt;我已经实现了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#60 zy445566&lt;/strong&gt;：@&lt;a href="/member/XIVN1987"&gt;XIVN1987&lt;/a&gt; &lt;br/&gt;&lt;a href="https://github.com/zy445566/xbintsc" rel="nofollow noopener" target="_blank"&gt;https://github.com/zy445566/xbintsc&lt;/a&gt;&lt;br/&gt;我已经实现了&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#61 bronyakaka&lt;/strong&gt;：我用 mygo 原生 GPUI 渲染重写了我 wails 做的 agent： &lt;a href="https://github.com/Bronya0/ally-agent" rel="nofollow noopener" target="_blank"&gt;https://github.com/Bronya0/ally-agent&lt;/a&gt;  体验非常棒&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#62 Dk2014&lt;/strong&gt;：@&lt;a href="/member/Atukey"&gt;Atukey&lt;/a&gt; 写开发板的吧😁&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#63 Hikareteku&lt;/strong&gt;：太好了，又能重复造一堆轮子了 \o/&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#64 asuka02&lt;/strong&gt;：@&lt;a href="/member/leegradyllljjjj"&gt;leegradyllljjjj&lt;/a&gt; 你这个用的什么 Native 做的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#65 zackkk&lt;/strong&gt;：@&lt;a href="/member/zy445566"&gt;zy445566&lt;/a&gt; 很好，这个是手写的吗&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#66 nrtEBH&lt;/strong&gt;：不是重写 Electron 应用 是直接重写 Electron 用更 Native 的方式去实现这个框架&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#67 humbass&lt;/strong&gt;：和楼主感觉相反，现在连工厂开发桌面端的，能转 electron 都转过来了。除非是老项目大量依赖 C# 的项目。&lt;br/&gt;下一步 node.js 继续迭代到 直接可以调用调用 C++（像 python 那样），这些写 C# 的都会失业。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#68 nightwitch&lt;/strong&gt;：AI 写 electron 比写 native 快太多，因为 electron 生态太好了，而 native api 各有各的奇葩。&lt;br/&gt;这样发展下去只会产生越来越多的 electron 软件。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#69 zerovoid&lt;/strong&gt;：除非内存白菜价，&lt;br/&gt;不然占用低的应用肯定是有市场的，&lt;br/&gt;&lt;br/&gt;以前开发者重构一个软件成本太高了，&lt;br/&gt;现在重构一个成本大大下降，&lt;br/&gt;&lt;br/&gt;我觉得打着低内存占用的旗号，&lt;br/&gt;重新抢占 PC 软件市场，会是个新赛道。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#70 zerovoid&lt;/strong&gt;：@&lt;a href="/member/humbass"&gt;humbass&lt;/a&gt; 工厂设备的软件有跨平台要求吗，如果没有跨平台需求，用 electron 只能解释为招个会写前端的程序员比较便宜。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Mon, 02 Nov 2026 03:45:29 +0000</pubDate></item><item><title>兄弟们这辈子买过的最贵的东西是什么？</title><link>https://www.v2ex.com/t/1253707</link><description>除了房子、看病、养娃，摸得到的实物
 &lt;hr/&gt;
 Supplement 1  ·  &lt;span title="2026-11-02 11:25:58 +08:00"&gt;8h 17m ago&lt;/span&gt;
 
@@ -556,12 +635,12 @@ Supplement 1  ·  &lt;span title="2026-11-02 14:00:01 +08:00"&gt;5h 43m ago&lt
 &lt;p&gt;&lt;strong&gt;#100 andyskaura&lt;/strong&gt;：钓鱼啊，还用想吗？  &lt;br/&gt;&lt;br/&gt;周末两天，赶两个早口，两个晚口，一晃又要上班了。&lt;a href="https://i.imgur.com/dh8fquj.jpeg" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/dh8fquj.jpeg"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Mon, 02 Nov 2026 02:15:17 +0000</pubDate></item><item><title>[HyperAPI 中转站]的新老用户来领鸡蛋了，评论留 ID，送$10 体验额度</title><link>https://www.v2ex.com/t/1253677</link><description>&lt;p&gt;站点： &lt;a href="https://hyperapi.cc" rel="nofollow"&gt;https://hyperapi.cc&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;QQ 交流群：1095326876&lt;/p&gt;
 &lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-11-02 13:44:10 +08:00"&gt;6h 0m ago&lt;/span&gt;
+Supplement 1  ·  &lt;span title="2026-11-02 13:44:10 +08:00"&gt;16h 10m ago&lt;/span&gt;
 
 $10 体验额度，用 6.1sol 可以用个 100 来次哦
 
 &lt;hr/&gt;
-Supplement 2  ·  &lt;span title="2026-11-02 14:20:07 +08:00"&gt;5h 24m ago&lt;/span&gt;
+Supplement 2  ·  &lt;span title="2026-11-02 14:20:07 +08:00"&gt;15h 34m ago&lt;/span&gt;
 
 我们也有代开 GPT 官方订阅的业务，有需求的话，欢迎了解： &lt;a href="https://shop.hyperapi.cc/" rel="nofollow noopener" target="_blank"&gt;https://shop.hyperapi.cc/&lt;/a&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
@@ -655,7 +734,16 @@ Supplement 2  ·  &lt;span title="2026-11-02 14:20:07 +08:00"&gt;5h 24m ago&lt
 &lt;p&gt;&lt;strong&gt;#88 rateltalk&lt;/strong&gt;：2607&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#89 windorz&lt;/strong&gt;：ID: 2911&lt;br/&gt;谢谢老板&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#90 xiaoyanger&lt;/strong&gt;：id:  2036  谢谢老板&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#91 cst4you&lt;/strong&gt;：老板这家确实稳定, 已经消费不少了, 官号不足的时候用来补充很不错&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Mon, 02 Nov 2026 02:01:43 +0000</pubDate></item><item><title>大家现在每天早餐消费多少钱？</title><link>https://www.v2ex.com/t/1253673</link><description>我是上班时吃一个和善园肉包 2.5 ，周末起不来就不吃了
+&lt;p&gt;&lt;strong&gt;#91 cst4you&lt;/strong&gt;：老板这家确实稳定, 已经消费不少了, 官号不足的时候用来补充很不错&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#92 A1exJ0ker&lt;/strong&gt;：用户 ID 2912 &lt;br/&gt;谢谢老板&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#93 amsterdam&lt;/strong&gt;：2204 谢谢老板、&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#94 QRan&lt;/strong&gt;：id 2913&lt;br/&gt;领赛博鸡蛋了，谢谢老板&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#95 jhgkhjgg&lt;/strong&gt;：2389&lt;br/&gt;谢谢老板&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#96 sebastianwade&lt;/strong&gt;：2597&lt;br/&gt;领鸡蛋了，谢谢老板&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#97 chuanfeng548&lt;/strong&gt;：用户 ID 2914 谢谢老板&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#98 fantasynoff&lt;/strong&gt;：2568&lt;br/&gt;谢谢老板&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#99 shimmying&lt;/strong&gt;：用户 ID 2629 谢谢老板&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#100 sonnetbreeze&lt;/strong&gt;：2915 谢谢老板&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Mon, 02 Nov 2026 02:01:43 +0000</pubDate></item><item><title>大家现在每天早餐消费多少钱？</title><link>https://www.v2ex.com/t/1253673</link><description>我是上班时吃一个和善园肉包 2.5 ，周末起不来就不吃了
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 emSaVya&lt;/strong&gt;：吃食堂呗 不花钱&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#2 wangzhiyu&lt;/strong&gt;：20 以内，赛百味或者麦当劳。&lt;/p&gt;&lt;hr/&gt;
@@ -845,7 +933,10 @@ Supplement 2  ·  &lt;span title="2026-11-02 14:20:07 +08:00"&gt;5h 24m ago&lt
 &lt;p&gt;&lt;strong&gt;#85 pandaaa&lt;/strong&gt;：@&lt;a href="/member/Colderer"&gt;Colderer&lt;/a&gt; 失业得不是时候，上半年还是赚钱的（ doge&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#86 chrysalis&lt;/strong&gt;：看到养猫这个，建议慎重考虑生娃。。有点逆天了&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#87 fly9006&lt;/strong&gt;：大头不应该是买房吗？少了买房的话，生活应该滋润不少，况且养猫能花几个钱，喵星人可不背这个锅。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#88 nolynfeng&lt;/strong&gt;：不理解，这是怎么养的猫啊，&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Mon, 02 Nov 2026 01:19:33 +0000</pubDate></item><item><title>没有人讨论影之刃零吗？</title><link>https://www.v2ex.com/t/1253638</link><description>我周末已经玩到天昏地暗不知时间为何物了，无心上班想请假回去继续打
+&lt;p&gt;&lt;strong&gt;#88 nolynfeng&lt;/strong&gt;：不理解，这是怎么养的猫啊，&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#89 stillwaiting&lt;/strong&gt;：养娃前我养了 8 年猫，这 2 个完全不同物种完全没有可比性，不存在“为养娃打基础”&lt;br/&gt;养猫多久花 2W?我家里猫养了 8 年了，估计也就花到这个钱（吃的不算差，还有自动猫砂盆）&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#90 zerovoid&lt;/strong&gt;：养猫居然需要 2 个 w ，农村人震惊，每天喂点剩饭就行了，几只猫其乐融融。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#91 kkwa56188&lt;/strong&gt;：不儿,  行情冷就冷 可以吐槽, &lt;br/&gt;但是养猫可以学知识为养娃打基础, 这就扯了.&lt;br/&gt;&lt;br/&gt; 感觉行情可能也没有这么冷了&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Mon, 02 Nov 2026 01:19:33 +0000</pubDate></item><item><title>没有人讨论影之刃零吗？</title><link>https://www.v2ex.com/t/1253638</link><description>我周末已经玩到天昏地暗不知时间为何物了，无心上班想请假回去继续打
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 ShiBuYi&lt;/strong&gt;：一样，我已经打到正道大门里面了。。&lt;br/&gt;打那个之前的拨片，7 剑士&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#2 Croow&lt;/strong&gt;：感觉建模很娘炮 &lt;a href="https://i.imgur.com/L62ZP7V.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/L62ZP7V.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
@@ -946,63 +1037,4 @@ Supplement 2  ·  &lt;span title="2026-11-02 14:20:07 +08:00"&gt;5h 24m ago&lt
 &lt;p&gt;&lt;strong&gt;#97 meteora0tkvo&lt;/strong&gt;：@&lt;a href="/member/ybbswc"&gt;ybbswc&lt;/a&gt; #4 我也是，估计是年纪上去了，玩不动这些吃操作的游戏了&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#98 hxtheone&lt;/strong&gt;：@&lt;a href="/member/yxcoder"&gt;yxcoder&lt;/a&gt; 逆天者难度投技太离谱了, 三连抓 0 帧起手差点摔手柄&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#99 Razio&lt;/strong&gt;：开局直接下头了，不知道这第一章得劝退多少人。&lt;br/&gt;&lt;br/&gt;虽然做的很不错，但是越玩越觉得法环是真牛逼，10 分真不是吹的。这游戏就是美术上比黑猴差，细节上不如法环，但整体真的牛皮，国产越来越好。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#100 aroad&lt;/strong&gt;：@&lt;a href="/member/ahci"&gt;ahci&lt;/a&gt; #60 我预购的时候看到实机视频那个马车战都想退款了[喜极而泣]&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Mon, 02 Nov 2026 00:53:26 +0000</pubDate></item><item><title>ESP Mosaico 这种概念的出现，让 AI 彻底攻破了嵌入式应用开发的护城河</title><link>https://www.v2ex.com/t/1253635</link><description>&lt;p&gt;前两天买了个 ESP Mosaico ，我感觉我真的要完了，嵌入式开发也彻底没救了。&lt;/p&gt;
-&lt;p&gt;&amp;lt;&lt;a href="http://mosaico.ai" rel="nofollow"&gt;mosaico.ai&lt;/a&gt;&amp;gt;&lt;/p&gt;
-&lt;p&gt;个人体验，只要把这个模块插上电脑，然后跟 AI 说你想要在上面做什么功能，它就会自己分析 UI 应该怎么画、传感器怎么选配，然后先在上位机仿真，再到下位机 debug （对的，可以直接 debug 下位机）。&lt;/p&gt;
-&lt;p&gt;以下两个小应用，是我花了大概 50% 的 codex 5 小时额度就做出来的。想当年，这种级别的应用，做到完美，几乎要两个人花一两周的时间。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://mosaico.ai/zh-hans/community/nDQ6B8gyH6Fd" rel="nofollow"&gt;反应力测试小游戏&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://mosaico.ai/zh-hans/community/9GbPDgSvXBNJ" rel="nofollow"&gt;Codex 额度显示&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;这东西确实好玩，也确实有点让人感觉绝望。&lt;/p&gt;
-&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;#1 qping&lt;/strong&gt;：web 开发这边早就感到绝望了，早点想想失业后能干什么吧…&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#2 nightlight9&lt;/strong&gt;：这不便宜啊 &lt;a href="https://i.imgur.com/U3hKhrT.png" rel="nofollow noopener" target="_blank"&gt;&lt;img referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/U3hKhrT.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#3 DawnMoon&lt;/strong&gt;：@&lt;a href="/member/nightlight9"&gt;nightlight9&lt;/a&gt; demo 板当然贵一点，如果不要那一堆传感器、电池，只要屏幕，再开个模量产个几万片，就很便宜了，甚至能 50 块钱以内。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#4 liyafe1997&lt;/strong&gt;：这压根用不着 ESP Mosaico...我们去年嵌入式就完整接入 AI 工作流了，不止下位机 debug ，连可调电源，数字万用表，Salae 逻辑分析仪&amp;amp;示波器都全扔给 AI ，让 AI 自己玩去吧🤣甚至还接了两个 USB 摄像头，让 AI 能直接看到灯亮不亮闪不闪之类的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#5 Rehtt&lt;/strong&gt;：之前用的正点原子的 DNESP32S3M ，插上电脑让 ai 搓了应用+ui 框架&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#6 Lockroach&lt;/strong&gt;：能通过数字世界建模和操控的，终将能被 ai 攻破护城河&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#7 HK560&lt;/strong&gt;：看起来是挺好玩的，&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#8 idealhs&lt;/strong&gt;：广告吧，嵌入式比这个玩具能干的多了去了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#9 antik24601&lt;/strong&gt;：早就可以了，跟这个没什么关系啊，只要有手册+质量差不多的 SDK ，再加上可以用 cli 操作的刷写/调试工具就行了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#10 nuk&lt;/strong&gt;：克劳德老师帮我搓了一套模拟器，VM ，UI 库。。满足了我多年前在 esp32 上做应用商店的幻想&lt;br/&gt;&lt;a href="https://chk-jxcn.github.io/minischeme-webrepl/" rel="nofollow noopener" target="_blank"&gt;https://chk-jxcn.github.io/minischeme-webrepl/&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#11 darkengine&lt;/strong&gt;：这个主页动画太多，在电脑上滚动都不跟手了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#12 m1nm13&lt;/strong&gt;：@&lt;a href="/member/liyafe1997"&gt;liyafe1997&lt;/a&gt; 可调电源，示波器也能吗？ 这些有协议控制的接口吗&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#13 DawnMoon&lt;/strong&gt;：@&lt;a href="/member/antik24601"&gt;antik24601&lt;/a&gt; &lt;br/&gt;@&lt;a href="/member/idealhs"&gt;idealhs&lt;/a&gt; &lt;br/&gt;@&lt;a href="/member/liyafe1997"&gt;liyafe1997&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;以前还只局限于企业内部、爱好者之间。现在是对于一个纯外行都能开箱即用了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#14 abc0123xyz&lt;/strong&gt;：转什么都么用，早死晚死的区别。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#15 HeyWeGo&lt;/strong&gt;：硬件的内嵌系统复杂性来自于外部条件的不确定性，论规模可能并没多大。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#16 karmaisbitch&lt;/strong&gt;：上周刚小 x 书上刷到个长方形板的，用来看股票挺好&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#17 hihanley&lt;/strong&gt;：这个看起来不错，就是太贵了，有没有平替&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#18 wupeaking&lt;/strong&gt;：你对嵌入式理解的太窄了，esp 因为生态就很开放而且对纯软件程序员比较好上手所以觉得 AI 好接管，其实很多领域尤其是工业相关的，它不单单是软件，AI 还是很难接管的，或者说至少短期还无法接管。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#19 MuSeCanYang&lt;/strong&gt;：我也想玩，但是我现在脑子空空的，完全不知道买来要做什么......&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#20 DawnMoon&lt;/strong&gt;：@&lt;a href="/member/wupeaking"&gt;wupeaking&lt;/a&gt; 所以我叠了个甲，讲“应用”开发嘛……目前来看，硬件、驱动、协议、算法、设备调试等开发，AI 目前还只能做辅助&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#21 ryd994&lt;/strong&gt;：@&lt;a href="/member/m1nm13"&gt;m1nm13&lt;/a&gt; 肯定可以啊。很早之前就有做自动化测试的系统了。就是用程控电源。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#22 Weixiao0725&lt;/strong&gt;：我觉得这个玩意能不能和 codex 或者 Claude 打通，然后通过它的 speaker 和 AI 聊天或者下达指令是不是挺好的&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#23 BingoXuan&lt;/strong&gt;：@&lt;a href="/member/DawnMoon"&gt;DawnMoon&lt;/a&gt; &lt;br/&gt;目前 ai 都开始涉猎 pcb 设计了。驱动协议算法完全不是问题。设备调试基本上接入标准仪器和 3d 打印 fixture 更容易让 ai 进行调试。因此如果在未来两到三年，Apple 愿意大范围在硬件研发阶段使用 Claude ，国内的消费电子产业链可以说完全没有任何竞争力&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#24 SWBMESSI&lt;/strong&gt;：我是刚开始实验，esp32-S3 ，弄了一堆外设，麦克风 功放 显示屏 摄像头 9g 舵机 一堆各种各样的传感器，减速电机 等等。 用 macos 就能开发，codex 许愿就行了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#25 zouri&lt;/strong&gt;：有意思，但是感觉六七百买个手机这些功能基本都能替代，能力还更强😄&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#26 bluefalconjun&lt;/strong&gt;：不知道是不是单片机开发的影响 一听上位机/下位机 就觉得这不是嵌入式...&lt;br/&gt;&lt;br/&gt;好像从我开始上班一来 就只玩过所有调试都在板子上的嵌入式... 只有用 console 打 log 抓波形...&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#27 Tink&lt;/strong&gt;：还是太贵了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#28 xixi1412&lt;/strong&gt;：挺好的，AI 技术平权。1%的业内人感到绝望，但是 99%的业外人充满希望。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#29 stucom&lt;/strong&gt;：这个太贵了，只买个 esp32-S3 就行了，让 Ai 给你设计一个电路，再画个 PCB 板，让工厂把 PCB 板打印出来，再把元器件焊上去，更加有成就感。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#30 Hooki&lt;/strong&gt;：俺们嵌入式本身就没有护城河捏&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#31 kyomio&lt;/strong&gt;：同入了个 mosaico ，但是暂时没想到可以做啥，吃灰中。思考了一下有需要的场景好像手机都能覆盖了，这 mosaico 的电量也非常捉急。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#32 min&lt;/strong&gt;：那么喜欢填护城河，怎么不找个富一点的城去填啊...&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#33 znedyrk&lt;/strong&gt;：所有白领工作都没有护城河&lt;br/&gt;顺便说一下挂谷定理已经被 ai 推到全维度证明了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#34 deplives&lt;/strong&gt;：多学学吧，你这个只能算是嵌入式的 hello world&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#35 marcong95&lt;/strong&gt;：之前刷到了几个视频看着还行，然而买了大量开发板还是不知道能干吗，当手办买了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#36 blankll&lt;/strong&gt;：嵌入式开发，哪个 agent 比较好？智能化/自动操作能力较强呢？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#37 ffxrqyzby&lt;/strong&gt;：不是, 嵌入式护城河不是你做的这些啊&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#38 zbinlin&lt;/strong&gt;：还是偏贵，100 元以下估计会爆&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#39 Felldeadbird&lt;/strong&gt;：淡定。去年 AI 在 ESP 上支持度已经很好了。今年只会让 AI 更熟练。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#40 Yanickkk&lt;/strong&gt;：不过 380 有点贵，有便宜的推荐先练练手吗&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#41 saaak&lt;/strong&gt;：@&lt;a href="/member/Yanickkk"&gt;Yanickkk&lt;/a&gt; 买个最便宜的 esp32 ，然后买需要的模块就好了，你只要让 ai 告诉你怎么接线，接好后剩下的 ai 都能搞定&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#42 chengxiao&lt;/strong&gt;：说实话,几款网红 ESP32 套件都买齐了 ESP32-Mosaico / StanckChan / 微雪 ESP32-S3-AMOLED&lt;br/&gt;都是买回来新鲜两天,慢慢就吃灰了&lt;br/&gt;这东西要玩的好还是得上电烙铁画板子搞定制....不然做出来的东西要续航没续航要特色没特色&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#43 ShineyWang&lt;/strong&gt;：你这个只能刷它自己的固件?&lt;br/&gt;&lt;br/&gt;可以外接到其它的芯片给其它设备刷固件吗?&lt;br/&gt;&lt;br/&gt;比如我之前买的合宙的 4G 芯片;这个可以用接口给它刷固件吗?&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#44 MindMindMax&lt;/strong&gt;：ESP 开发起来就是简单，基本都是消费级领域的应用。试试工业级的 PLC 呢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#45 DawnMoon&lt;/strong&gt;：@&lt;a href="/member/MindMindMax"&gt;MindMindMax&lt;/a&gt; 工业级 PLC 不是更简单吗。PLC 代码都是极度简化的指令表/梯形图，任何懂点高级语言编程的人都能瞬间学会，更不用说 AI 了。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#46 DawnMoon&lt;/strong&gt;：@&lt;a href="/member/ShineyWang"&gt;ShineyWang&lt;/a&gt; 用他给的固件/bootloader 可以更方便地使用 AI 开发。自定义固件和外设也是完全可行的，原理图都是公开的。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#47 xyfan&lt;/strong&gt;：@&lt;a href="/member/m1nm13"&gt;m1nm13&lt;/a&gt; 稍微贵一点点的都有远程协议，才买了一个可调电源 800 块钱，0-200V ，带远程控制协议。示波器就更不用说了，国产普元、鼎阳入门 2000 出头的款都可以远程&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#48 roykingH&lt;/strong&gt;：嵌入式难的不是功能开发  更多的是跟芯片以及硬件打交道，不合理的功能，性能受限的 mcu ，以及降本选型下的奇怪方案。同一份代码  在 A 厂家的芯片上跑的好好的  在 B 厂家的芯片上跑就会出问题&lt;br/&gt;关键还不是经常出问题，莫名其妙就出问题了 这个时候就不得不抓波形 抓协议 跑老化&lt;br/&gt;如果是代码设计，硬件设计的问题还好说  最怕的就是芯片设计有问题  esp32 很早就出过这样的问题  别说 esp32 这种  就连 arm 芯片都会有  比如 rk356x 系列  最后还得原厂打补丁进行内核修复，操蛋的要死&lt;br/&gt;如果只是把嵌入式开发比作树莓派这种做创客开发  那确实如你所说 有 ai 快很多  就看你怎么用了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#49 ShineyWang&lt;/strong&gt;：@&lt;a href="/member/DawnMoon"&gt;DawnMoon&lt;/a&gt; #46 我的意思是比如我有合宙的 4G 芯片;这个能给它刷固件吗?&lt;br/&gt;我问客服,客服说不行;&lt;br/&gt;&lt;br/&gt;假如只能在它自己的芯片上开发;那功能大大受限&lt;br/&gt;我还以为这个可以通用解决任何芯片固件问题呢&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#50 MindMindMax&lt;/strong&gt;：@&lt;a href="/member/DawnMoon"&gt;DawnMoon&lt;/a&gt; 无线遥测、OTA 升级、低成本量产、或定制控制逻辑 哪个会比 esp32 更简单？&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#51 Morgan2&lt;/strong&gt;：我最近也在折腾 esp32-s3 加些传感器，解决一些个性化需求&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#52 DawnMoon&lt;/strong&gt;：@&lt;a href="/member/MindMindMax"&gt;MindMindMax&lt;/a&gt; 你这话说的……没逻辑啊，你说的这些场景跟 ESP32 根本不是平级的，ESP32 也能实现你说的功能啊&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Mon, 02 Nov 2026 00:38:23 +0000</pubDate></item></channel></rss>
+&lt;p&gt;&lt;strong&gt;#100 aroad&lt;/strong&gt;：@&lt;a href="/member/ahci"&gt;ahci&lt;/a&gt; #60 我预购的时候看到实机视频那个马车战都想退款了[喜极而泣]&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Mon, 02 Nov 2026 00:53:26 +0000</pubDate></item></channel></rss>
