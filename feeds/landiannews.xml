@@ -1,196 +1,179 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 02 Nov 2026 02:50:00 +0000</lastBuildDate><item><title>ChatGPT将加强暴力内容限制 若用户反复出现危险对话则可能会被封号</title><link>https://www.landian.news/archives/127926.html</link><description>
-&lt;p&gt;#人工智能 ChatGPT 将加强暴力内容限制，如果用户持续关注暴力或严重伤害他人的内容时，ChatGPT 可以主动结束对话。如果用户反复咨询此类内容并多次被 ChatGPT 自动结束对话，那用户账号甚至都有可能会被封禁。查看全文：https://ourl.co/127926&lt;/p&gt;&lt;p&gt;OpenAI 日前宣布将在未来几周内加强 ChatGPT 对暴力相关内容的限制，为未成年人用户增加武器和安全系统信息方面的保护。根据新措施，当对话显示用户持续关注暴力或严重伤害他人的想法时，ChatGPT 可以自行结束对话，若多次因此类问题被结束对话，甚至账号都会被封禁。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/127926.png" rel="nofollow"&gt;&lt;img alt="ChatGPT将加强暴力内容限制 若用户反复出现危险对话则可能会被封号" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/127926.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 02 Nov 2026 09:00:12 +0000</lastBuildDate><item><title>Claude使用政策已经更新 将API中转站的登录/转售行为都列入禁止行为</title><link>https://www.landian.news/archives/127938.html</link><description>
+&lt;p&gt;#人工智能 Claude 使用政策已经更新，明确禁止任何未经授权的转售、代理销售或为用户提供访问服务。该政策核心就是将中转站的反代行为列入违规行为，即通过消费级订阅转发请求以及虚假陈述所使用的产品或客户端都是违规行为。A 社检测到违规行为后可能会采取警告、限流、限制访问、暂停或终止账号等措施。查看全文：https://ourl.co/127938&lt;/p&gt;&lt;p&gt;A 社日前更新 Claude 使用政策并增加滥用行为的条款，此次更新明确禁止通过未经授权的转售、代理销售或提供访问服务。新使用政策将在 2026 年 11 月 12 日正式生效，涉及通过消费级订阅转发请求、虚假标识所用产品或客户端等行为。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/127938.png" rel="nofollow"&gt;&lt;img alt="Claude使用政策已经更新 将API中转站的登录/转售行为都列入禁止行为" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/127938.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;ChatGPT 原有政策禁止提供帮助用户策划或实施暴力行为的指导，此次调整将限制模型回答有关「过去大规模袭击事件及实施者」的问题时提供的细节，即模型会从安全层面缩减内容甚至拒绝回答。&lt;/p&gt;
-&lt;p&gt;限制范围包括重现袭击过程中涉及的武器、装备及获取方式，以及限制用户查询可能扩大袭击者知名度的伤害规模详细比较。以上限制适用于所有用户，不区分用户年龄段或提问目的，因此即便是成年用户也会面临相同限制。&lt;/p&gt;
+&lt;p&gt;新条款位于使用政策的「不要滥用我们的平台」部分，A 社称用户不得通过未经授权的方式转售、代理销售或其他方式提供 Claude 访问权限，其中包括通过消费级订阅转发请求以及虚假陈述所使用的产品或客户端。&lt;/p&gt;
+&lt;p&gt;该条款主要与目前数量极多的 API 中转站有关，中转站通常会使用多个 Claude 消费级订阅账号作为上游，再将用户请求转发给 Claude，向下游用户提供访问服务。&lt;/p&gt;
+&lt;p&gt;根据 A 社表述，限制的关键是未经授权的转售或代理销售行为，该政策也同样适用于通过云服务商和授权经销商访问 Claude 的客户。因此是否获得授权以及具体接入方式是判断相关行为是否违规的重要条件。&lt;/p&gt;
+&lt;p&gt;新政策也将盗用、欺诈或未经授权的付款方式列为禁止行为，对于涉嫌违反使用政策的情况，A 社可能会采取警告、限流、限制访问、暂停或终止账号等措施。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;对于被识别为未满 18 周岁的用户，OpenAI 还将限制可能被用于实施暴力的武器和安全系统的实用信息，这项保护也会应用于表面上看起来没有显示暴力意图的问题。OpenAI 表示，青少年仍然可以使用 ChatGPT 寻求帮助，了解如何预防或缓和暴力、与可信赖的成年人取得联系。&lt;/p&gt;
-&lt;p&gt;改进后的年龄预测机制则会结合用户行为等多种信号，持续评估账号是否可能属于未成年人，在适当的情况下系统将自动应用适用于未满 18 周岁用户的相关保护措施。如果用户被误判为未成年人，也可以主动提交身份信息进行验证。&lt;/p&gt;
+&lt;p&gt;A 社也在 Claude Code 文档中区分消费级订阅凭据与 API 密钥的用途。Claude 订阅方案主要面向购买订阅的用户，通过 OAuth 完成认证、用于 Claude Code 和其他 A 社原生应用。&lt;/p&gt;
+&lt;p&gt;开发者为自己的产品或服务接入 Claude 模型时，应当通过 Claude Console 或受支持的云服务商获取 API 密钥，而不是直接将自己的消费级订阅通过反代或其他方式接入到产品中。&lt;/p&gt;
+&lt;p&gt;文档还规定，开发者不得在自己的应用中提供 Claude.ai 登录，或代表用户通过消费级订阅转发请求。开发者也不得收集、保存、处理 Claude.ai 的登录凭据或会话令牌。&lt;/p&gt;
+&lt;p&gt;对于用户自己的开发环境，用户可以管理和配置自己的 API 密钥或第三方云服务凭证供授权用户使用，用户也可以在符合官方要求的环境中使用自己的订阅登录未经修改的 Claude Code 客户端。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 02 Nov 2026 02:50:00 +0000</pubDate></item><item><title>消息称英伟达RTX 5080 24GB版最快12月上市 或接替中国市场现有高端型号</title><link>https://www.landian.news/archives/127858.html</link><description>
-&lt;p&gt;#硬件设备 供应链消息称英伟达正在加快推出 RTX 5080 24GB 版，或接替中国市场的现有高端型号。按照供应链消息所说，这款显卡最快将在 12 月上市，到时候 RTX 5090 D V2 版将停止面向中国市场供应。RTX 5090 D V2 是英伟达专供中国市场的残血版，配备 24GB 显存。原版 RTX 5080 则配备 16GB 显存，英伟达准备加到 24GB 显存后将其替代 RTX 5090 D V2。查看全文：https://ourl.co/127858&lt;/p&gt;&lt;p&gt;据博板堂公众号发布的消息，英伟达正在加快推出 RTX 5080 24GB 版显卡，预计这款显卡最快将在 2026 年 12 月上市，如果遇到问题的话可能会在 2027 年 1 月前后上市。&lt;/p&gt;
-&lt;p&gt;供应链消息还称英伟达计划在中国市场停止供应 RTX 5090 D V2 和 RTX 5080 16GB 版，未来 RTX 5080 24GB 版可能会成为中国市场的高端型号。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/127858.png" rel="nofollow"&gt;&lt;img alt="消息称英伟达RTX 5080 24GB版最快12月上市 或接替中国市场现有高端型号" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/127858.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 02 Nov 2026 09:00:12 +0000</pubDate></item><item><title>美团龙猫发布LongCat-2.5模型 强化视觉理解与长程编程 支持百万窗口</title><link>https://www.landian.news/archives/127937.html</link><description>
+&lt;p&gt;#人工智能 美团龙猫基座团队发布 LongCat 2.5 正式版，强化视觉理解与长程编程，支持百万窗口。此前龙猫 2.5 预览版已经上线，当前上线的为正式版。美团也计划继续保持开源，后续该模型将通过 GitHub 和抱抱脸发布。该模型目前也在 API 平台提供，有兴趣的开发者可以通过 API 将其接入到自己的应用和工作流里。查看全文：https://ourl.co/127937&lt;/p&gt;&lt;p&gt;美团龙猫基座团队日前推出 LongCat-2.5 原生多模态模型，该模型重点提升视觉理解能力与智能体编程能力，面向复杂代码库开发、完整项目构建以及视觉编码等任务。该模型总参数量为 1.6T，采用 MoE 混合专家架构，推理时激活参数为 48B。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/127937.png" rel="nofollow"&gt;&lt;img alt="美团龙猫发布LongCat-2.5模型 强化视觉理解与长程编程 支持百万窗口" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/127937.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;供应链消息称英伟达已经清理 RTX 5080 16GB 相关显卡库存，现有库存预计还能销售两个月左右。按照该说法，RTX 5080 16GB 版的尾货可能在新型号上市后逐步售罄，之后由 24GB 版接替。&lt;/p&gt;
-&lt;p&gt;消息还提到 RTX 5090 D V2 将停止向中国市场供应，这款显卡是英伟达专门面向中国市场推出的 RTX 5090 显卡，配备 24GB 显存。如果这款显卡停止供应，那未来在中国市场英伟达消费级显卡里最高配置就是 RTX 5080 24GB 版。&lt;/p&gt;
+&lt;p&gt;龙猫 2.5 延续前代模型对智能体编程的关注，重点处理需要多轮推理、调用工具和持续执行的复杂任务。在实际开发中，需求往往涉及阅读现有代码、定位相关文件、修改多个模块，再运行测试并根据结果调整代码。龙猫基座团队表示，龙猫 2.5 面向这类复杂代码库和完整项目构建场景，支持通过多步骤推理与工具调用执行任务。&lt;/p&gt;
+&lt;p&gt;为改善长时间执行任务的能力，龙猫团队在训练过程中添加更多长程任务轨迹，采用大规模长程强化学习。团队还将真实智能体运行中的失败轨迹转化为可复现、可验证的训练任务，针对发现的问题补充训练数据。&lt;/p&gt;
+&lt;p&gt;目前龙猫 2.5 已经在美团 API 平台提供调用，开发者可以在 Codex、Claude Code、Hermes 等工具中使用。注：龙猫 2.5 预览版在 9 月 25 日上线，当前发布的是正式版。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;现有的 RTX 5080 主要配备 16GB GDDR7 显存，如果新版本将显存升级到 24GB 那对高端用户来说是个好消息，更大的显存有助于处理高分辨率纹理、大型创作项目和部分本地 AI 工作负载。对于需要加载较大模型的用户来说，24GB 也能提供更充裕的显存空间。&lt;/p&gt;
-&lt;p&gt;另外现有 RTX 5080 16GB 版主要使用 8 颗 2GB 的 GDDR7 显存，24GB 版理论上可以改用 8 颗 3GB 版显存以提高容量，不过具体的显存颗粒配置还需要等待产品发布后才知道。&lt;/p&gt;
-&lt;p&gt;考虑到当前显卡价格极高，RTX 5080 24GB 版的售价应该会明显高于 RTX 5080 16GB 版，但毕竟 RTX 5080 在性能上没法与 RTX 5090 相比，所以最终售价应该要比 RTX 5090 D V2 版便宜。&lt;/p&gt;
+&lt;p&gt;龙猫 2.5 重点将视觉能力与编程结合，模型将视觉信号转换为多层级的离散 Token，使主干模型能够以统一的 Token 形式处理图像和文本信息。这种设计可以用于视觉编码：例如开发者提供界面截图或参考设计，再通过文字描述所需供，让模型结合图像内容生成或修改代码。&lt;/p&gt;
+&lt;p&gt;官方文档显示，龙猫 2.5 的窗口为 104K，涵盖单次请求的输入与输出；单次输出上限为 26.2K。较长的上下文可用于在一次请求中处理更多代码、文档或任务过程信息。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;用户目前可以通过 LongCat Chat 在线体验新模型，开发者则可以通过 LongCat API 平台调用，将其接入到现有应用或智能体工作流里。美团也计划继续保持开源，届时该模型将在 GitHub 和 Hugging Face 上提供。此前美团已经开源龙猫 2.0 模型。&lt;/p&gt;
+&lt;p&gt;在线体验地址：&lt;a href="https://www.landian.news/go?url=https://longcat.ai/chat" rel="noopener" target="_blank"&gt;https://longcat.ai/chat&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;API 调用地址：&lt;a href="https://www.landian.news/go?url=https://longcat.ai/platform/product" rel="noopener" target="_blank"&gt;https://longcat.ai/platform/product&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 02 Nov 2026 02:30:00 +0000</pubDate></item><item><title>消息称AMD计划在11月再次上调显卡套料价格 原因是GDDR6显存成本持续上涨</title><link>https://www.landian.news/archives/127857.html</link><description>
-&lt;p&gt;#硬件设备 消息称 AMD 计划在 11 月再次上调显卡套料价格，原因是 GDDR6 显存成本持续上涨。博板堂网友援引显卡供应链消息称，AMD 有可能接着上涨套料价格，这会继续推高显卡制造商的成本。目前中高端显卡的溢价 (市场销售价格与发布时的建议零售价差额) 越来越高，对玩家来说当前情况非常糟糕。查看全文：https://ourl.co/127857&lt;/p&gt;&lt;p&gt;据博板堂网友援引显卡供应链消息，AMD 可能会在 11 月再次上调面向下游显卡制造商供应的 GPU 芯片和 GDDR6 显存套料价格。值得注意的是在 10 月份 AMD 已经调价，但由于 GDDR6 显存成本持续上涨，AMD 也准备跟着继续涨价。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/127857.png" rel="nofollow"&gt;&lt;img alt="消息称AMD计划在11月再次上调显卡套料价格 原因是GDDR6显存成本持续上涨" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/127857.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 02 Nov 2026 08:30:15 +0000</pubDate></item><item><title>123云盘计划停售长期会员 未来改成按流量计费 用多少流量扣对应余额</title><link>https://www.landian.news/archives/127936.html</link><description>
+&lt;p&gt;#软件资讯 传 123 云盘将停售长期会员，未来改成按用户实际使用流量计费，用多少流量扣对应余额。网友分享的 QQ 群截图显示，因运营成本问题，123 云盘准备改成预充值模式并停售现有套餐。未来用户可能无法再长期免费下载，也就是每次下载都需要为流量付费。不过现有普通和超会套餐只要续费就会提供旧版权益，所以说不好这也是吸引用户尽早开通会员的玩法？查看全文：https://ourl.co/127936&lt;/p&gt;&lt;p&gt;据蓝点网网友分享的 123 云盘 QQ 群截图，123 云盘拟计划在后续停售按年付费的长期会员套餐，未来将改成账户余额预充值模式，然后按照用户实际使用流量进行计费，也就是用多少流量扣多少余额。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/127936-1.png" rel="nofollow"&gt;&lt;img alt="123云盘计划停售长期会员 未来改成按流量计费 用多少流量扣对应余额" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/127936-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;显卡制造商采购 AMD 显卡所需的核心部件时，通常会从 AMD 获得 GPU 芯片和显存组成的套料，接着显卡制造商再配合自行设计的电路板、供电系统、散热器和外壳生成完整的显卡。&lt;/p&gt;
-&lt;p&gt;因此 GPU 芯片或显存供货价格将显著增加显卡制造商的直接成本，尤其是 GPU 芯片和 GDDR 显存在显卡物料成本中占比较高。而显存容量越大，同等单价涨幅带来的绝对成本增加也越明显。&lt;/p&gt;
-&lt;p&gt;本次渠道消息称，AMD 目前会根据 GPU 和显存成本情况按季度调整供货价格。由于 26Q3 GDDR6 显存价格继续上涨，AMD 可能会在 10 月调价后在 11 月继续上调套料价格。&lt;/p&gt;
+&lt;p&gt;123 云盘在国内用户群里口碑还是非常不错的，主要是其他网盘在限速或要求登录下载时，123 云盘允许不登录且不限速下载。但长期如此运营造成成本更高，国内商用网络带宽价格很高，这部分成本甚至要高过硬件。&lt;/p&gt;
+&lt;p&gt;所以后来 123 云盘也陆续调整运营策略，包括免费用户每月流量从 30GB 下调到 10GB，取消不登录下载功能。对用户而言想要下载现有内容就必须登录账号，超额下载就必须付费后才能下载。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;由于显存价格持续上涨，AMD 和显卡制造商所需的成本也在上涨，但羊毛出在羊身上，这部分上涨的成本最终都要转嫁给最终消费者，所以用户购买显卡时可以看到高端显卡存在非常明显的溢价。&lt;/p&gt;
-&lt;p&gt;如果 AMD 在 11 月继续上涨那显卡价格也会跟着上涨，有网站追踪多个国家和地区的显卡价格，数据显示主流消费级显卡的价格在 10 月份持续上涨，目前尚未看到显卡有价格企稳的趋势。&lt;/p&gt;
-&lt;p&gt;另外部分 AMD 显卡的市场售价已经明显高于发布时的建议零售价，如果 AMD 继续涨价也会继续推高市场售价，玩家购买中高端显卡时可能会看到溢价更夸张。&lt;/p&gt;
+&lt;p&gt;QQ 群截图中流传的说法是，新会员方案上线后现有的普通会员和超级会员套餐将全部停售，也就是不再出售 3 年、5 年、10 年这类长周期的买断套餐。之后改成账户预充值模式，用户下载多少数据扣多少余额。123 云盘管理员将其比作水电和算力服务，即按量计费。&lt;/p&gt;
+&lt;p&gt;另外群管还表示现有的会员连续包不中断续费即可按照开通时的旧版权益执行；会员生效优先级改为 SVIP 高于 VIP、连续包高于非连续包、更长时间高于更短时间，这对部分老用户来说其实不太公平。&lt;/p&gt;
+&lt;p&gt;这种策略说到底就是要求用户按使用付费，但国内用户更倾向于免费使用各类服务，所以如果 123 云盘改成按量付费后估计很难留住低频使用用户，毕竟其他网盘可能要注册或登录，甚至是限速，但至少能免费下载。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;需要说明的是现阶段以上消息只是 QQ 群流传的传言并非 123 云盘官方公告，说不好这也只是个营销策略。部分产品的会员双 11 活动都在陆续上线，这种传言可能会吸引不少 123 云盘用户提前购买长期买断会员并保持自动续费。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/127936-2.png" rel="nofollow"&gt;&lt;img alt="123云盘计划停售长期会员 未来改成按流量计费 用多少流量扣对应余额" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/127936-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/127101.html" title="123云盘就调整空间规则道歉 但不会放弃专业空间 如果老用户不爽可以退款"&gt;&lt;h3&gt;123云盘就调整空间规则道歉 但不会放弃专业空间 如果老用户不爽可以退款&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#软件资讯 123 云盘就 9 月 24 日调整空间规则致歉，不过不会撤回规则，而是老用户如果不爽的话可以申请部分退款。9 月 24 日 123…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/soft"&gt;软件资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2026年9月29日 11:26&lt;/span&gt;&lt;span title="浏览数量"&gt;17.86K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
+&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/111234.html" title="123云盘宣布重大更新：免费用户每月流量从30GB下调至10GB 取消不登录下载功能"&gt;&lt;h3&gt;123云盘宣布重大更新：免费用户每月流量从30GB下调至10GB 取消不登录下载功能&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#软件资讯 123 云盘宣布重大政策变更：免费用户每月流量从 30GB 缩减到 10GB，超额后按照每次 0.5 元的价格付费下载，终止不登录下…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/soft"&gt;软件资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2025年11月27日 10:42&lt;/span&gt;&lt;span title="浏览数量"&gt;55.34K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
+&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/113163.html" title="123云盘宣布清理长期未登录用户 超过365天+30天未登录最终数据将被删除"&gt;&lt;h3&gt;123云盘宣布清理长期未登录用户 超过365天+30天未登录最终数据将被删除&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#软件资讯 用户体验友好的 123 云盘宣布清理长期未登录用户，超过 365 天 + 30 天未登录账号将被删除数据。该政策仅限于免费用户，超过…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/soft"&gt;软件资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2026年5月31日 12:12&lt;/span&gt;&lt;span title="浏览数量"&gt;12.44K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 02 Nov 2026 02:14:42 +0000</pubDate></item><item><title>[双11活动] 腾讯云各种服务器资源新购和续费优惠 美国VPS低至99元/年</title><link>https://www.landian.news/archives/127856.html</link><description>
-&lt;p&gt;腾讯云日前已经开启双 11 优惠活动，本轮活动涵盖多种产品包括云服务器、对象存储、云数据库、CDN 流量包和 GPU 等等，同时腾讯云也为个人和企业用户推出代金券礼包，代金券支持用于非活动产品新购、续费、升级时间，最高可以抵扣 36 个订单。&lt;/p&gt;
-&lt;p&gt;活动地址：&lt;a href="https://ourl.co/tcact" rel="noopener" target="_blank"&gt;https://ourl.co/tcact&lt;/a&gt; 准备新购或续费的用户可以先进入活动页查看是否有优惠，通过控制台直接升级或续费通常价格较高没有优惠。&lt;/p&gt;
-&lt;p&gt;拼团提醒：部分活动款拼团可加赠使用时长，但拼团后不支持退款。建议用户谨慎参与拼团，以免购买服务器后测试发现不满足使用要求后无法申请退款。&lt;/p&gt;
+</description><pubDate>Mon, 02 Nov 2026 08:00:00 +0000</pubDate></item><item><title>法国计划对奈飞/YTB等流量进行征税 每GB 0.055欧元 有开发者写脚本故意刷流量</title><link>https://www.landian.news/archives/127935.html</link><description>
+&lt;p&gt;#行业资讯 真是离谱啊！法国拟征收流量税，每 GB 流量收取 0.055 欧元约人民币 0.41 元的税费。征收对象是向法国提供服务的内容提供商，包括视频网站、流媒体音乐、软件下载以及其他常规网站都在征税范围内。有开发者直接写了个脚本用来刷法国社会党的流量 (提案作者来自该党)，在不到 4 小时内就可以产生约 31.68 欧元的税款，如果 1000 个人运行脚本那可以在 5 个月内产生 1600 万欧元税款。查看全文：https://ourl.co/127935&lt;/p&gt;&lt;p&gt;法国国民议会在审议 2027 年财政法案时，通过针对互联网数据流量的修正案：内容提供方案向法国网络用户传输数据时，需要按照每 GB 流量 0.055 欧元约合人民币 0.41 元进行缴税。这项提案在投票中获得 11 票赞成和 10 票反对，提案议员预计该税每年将带来 100 亿欧元的收入。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/127935.png" rel="nofollow"&gt;&lt;img alt="法国计划对奈飞/YTB等流量进行征税 每GB 0.055欧元 有开发者写脚本故意刷流量" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/127935.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;境外免备案：轻量 2 核 2GB 内存 30M 带宽 1000GB 流量 99 元 / 年，可选美国硅谷或韩国首尔等区域，此款不支持同价续费，&lt;a href="https://ourl.co/35fby" rel="noopener" target="_blank"&gt;点我购买&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/127856-1A.png" rel="nofollow"&gt;&lt;img alt="[双11活动] 腾讯云各种服务器资源新购和续费优惠 美国VPS低至99元/年" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/127856-1A.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;境外免备案：轻量 2 核 4GB 内存 30M 带宽 1500GB 流量 199 元 / 年，可选美国硅谷或韩国首尔等区域，支持同价续费，&lt;a href="https://ourl.co/xfzq" rel="noopener" target="_blank"&gt;点我购买&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/127856-2.png" rel="nofollow"&gt;&lt;img alt="[双11活动] 腾讯云各种服务器资源新购和续费优惠 美国VPS低至99元/年" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/127856-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;境内：轻量 2 核 2GB 内存 4M 带宽 300GB 流量 99 元 / 年，可选上海 / 广州 / 成都等区域，支持同价续费，&lt;a href="https://ourl.co/xfzq" rel="noopener" target="_blank"&gt;点我购买&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;境内：轻量 2 核 4GB 内存 5M 带宽 500GB 流量 188 元 / 年，可选上海 / 广州 / 成都等区域，支持同价续费，&lt;a href="https://ourl.co/xfzq" rel="noopener" target="_blank"&gt;点我购买&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;境内：轻量 2 核 4GB 内存 6M 带宽 600GB 流量 199 元 / 年，可选上海 / 广州 / 成都等区域，支持同价续费，&lt;a href="https://ourl.co/xfzq" rel="noopener" target="_blank"&gt;点我购买&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/127856-3.png" rel="nofollow"&gt;&lt;img alt="[双11活动] 腾讯云各种服务器资源新购和续费优惠 美国VPS低至99元/年" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/127856-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;境内：轻量 4 核 4GB 内存 3M 带宽 300GB 流量 109 元 / 年，可选上海 / 广州 / 成都等区域，此款不支持同价续费，&lt;a href="https://ourl.co/yt06r" rel="noopener" target="_blank"&gt;点我购买&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/127856-4.png" rel="nofollow"&gt;&lt;img alt="[双11活动] 腾讯云各种服务器资源新购和续费优惠 美国VPS低至99元/年" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/127856-4.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;境内：CVM 服务器 2 核 2GB 内存 1M 带宽不限流量 199 元 / 年，可选上海 / 广州 / 成都等区域，支持同价续费，&lt;a href="https://ourl.co/xfzq" rel="noopener" target="_blank"&gt;点我购买&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/127856-3.png" rel="nofollow"&gt;&lt;img alt="[双11活动] 腾讯云各种服务器资源新购和续费优惠 美国VPS低至99元/年" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/127856-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;修正案拟设立数字数据生产者税，由向法国互联网用户发送数据的内容提供商缴纳。而全球互联网上流量大户主要是各类视频网站，包括 Netflix、YouTube、TikTok、Amazon Prime、Apple TV 等等，像是流媒体音乐平台 Spotify 也是流量大户。&lt;/p&gt;
+&lt;p&gt;按照拟议税率计算，向法国用户传输 100GB 数据初步税额为 5.5 欧元，传输 1TB 数据初步数额为 55 欧元。提案由设置税额上限：企业在法国营业额的最高 15% 或全球营业额的 2%。&lt;/p&gt;
+&lt;p&gt;修正案还提出流量统计工作由互联网接入服务商负责并向法国税务部门报送相关数据。大部分大型网络服务都采用 CDN 即内容分发网络，使用 CDN 时按照离开 CDN 的数据流量计算税额。&lt;/p&gt;
+&lt;p&gt;提案议员认为，大型国际科技公司占据大量网络流量因此应该对法国财政作出更多贡献，所以很显然这项税法就是针对奈飞和 YouTube 这类大型视频网站的，不过小型网站甚至提供软件下载的网站也受影响，按规定也得缴税。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;境内：2 核心 4GB 内存 6M 带宽 3 年版仅 528 元，此款购买后使用 3 年无需担心每年续费价格较高的问题，&lt;a href="https://ourl.co/m8h8m" rel="noopener" target="_blank"&gt;点我购买&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/127856-5.png" rel="nofollow"&gt;&lt;img alt="[双11活动] 腾讯云各种服务器资源新购和续费优惠 美国VPS低至99元/年" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/127856-5.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;境内：4 核心 8GB 内存 5M 带宽 1 年版仅 450 元，此款为高配轻量服务器，不支持同价续费，&lt;a href="https://ourl.co/m8h8m" rel="noopener" target="_blank"&gt;点我购买&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;新加坡免备案：CVM 服务器蜂驰型 2 核心 2GB 内存起最高 8 核心 32GB，此款未提供公网带宽，需用户自行选配，&lt;a href="https://ourl.co/35fby" rel="noopener" target="_blank"&gt;点我购买&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;新加坡免备案：CVM 服务器标准型 2 核心 2GB 内存起最高 8 核心 32GB，此款未提供公网带宽，需用户自行选配，&lt;a href="https://ourl.co/35fby" rel="noopener" target="_blank"&gt;点我购买&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/127856-6.png" rel="nofollow"&gt;&lt;img alt="[双11活动] 腾讯云各种服务器资源新购和续费优惠 美国VPS低至99元/年" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/127856-6.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;个人用户：满 200-60、满 500-150、满 1500-500、满 3000-1200，代金券可用于新购、续费、升级，&lt;a href="https://ourl.co/eyhza" rel="noopener" target="_blank"&gt;点我领取&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;企业用户：满 400-80、满 1750-300、满 4800-1200、满 10000-3000，代金券可用于新购、续费、升级，&lt;a href="https://ourl.co/eyhza" rel="noopener" target="_blank"&gt;点我领取&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;代金券说明：已经提供活动优惠机型不可使用代金券，但其他常规产品可使用代金券满额抵扣&lt;/p&gt;
+&lt;p&gt;按规定无论大小网站或服务只要向法国民众传输内容就需要缴税，因为现阶段提案并未针对开源软件、免费软件、常规网站和其他非营利组织的豁免条款。提案作者是法国社会党议员洛朗拉尔迪，所以有开发者瞄准法国社会党网站上的文件进行刷流量。&lt;/p&gt;
+&lt;p&gt;该网站有个 44MB 的 PDF 文件，只需要使用脚本反复下载该文件就会产生流量并形成流量税。开发者模拟显示，在不到 4 小时内脚本累计下载 1.3 万次，产生 576GB 的流量，按照税法计算理论金额为 31.68 欧元。&lt;/p&gt;
+&lt;p&gt;开发者据此推算：如果有 1000 人长期以同样速度运行脚本，理论上说可能在不到 5 个月内产生大约 1600 万欧元的税额。可以看到即便有税款上限，但只要有人恶意利用，也可以给内容服务提供者造成恶意浪费。&lt;/p&gt;
+&lt;p&gt;开源播放器 VLC 开发团队也表示，VLC 面向法国用户提供安装包下载和更新服务，按照当前统计 VLC 每年税额可能超过 100 万欧元 (但 VideoLAN 非营利组织每年收入都没这么多)。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sun, 01 Nov 2026 13:14:54 +0000</pubDate></item><item><title>苹果将在iOS 27.3中为国内用户带来AI功能 初期提供部分基础功能 由阿里千问提供支持</title><link>https://www.landian.news/archives/127855.html</link><description>
-&lt;p&gt;#人工智能 苹果宣布将在 11 月 4 日推出的 iOS 27.3 测试版中为中国用户带来 AI 功能，使用苹果自有模型和阿里巴巴集团千问为用户提供支持。千问仅在处理特定请求时进行调用，例如内容创作和视觉智能等功能，其他功能仍然由苹果提供支持。阿里巴巴集团表示，千问可自主开启，发送任何信息前都需要征得用户同意，相关信息也不会被用于千问模型训练。区域和账号要求：中国版 iPhone，或设备定位和苹果账号所在国家都是中国的设备。查看全文：https://ourl.co/127855&lt;/p&gt;&lt;p&gt;苹果日前宣布首批苹果智能 (Apple Intelligence) 功能将在中国大陆市场推出，符合条件的设备从 11 月 4 日开始可以通过 iOS 27.3 开发者测试版体验相关功能。根据现有计划，苹果将在 12 月推出 iOS 27.3 正式版并为中国市场的用户带来 AI 功能。&lt;/p&gt;
-&lt;p&gt;首批功能包括实时翻译、写作工具、照片消除、通知摘要和智绘表情等。苹果也确认与阿里巴巴集团达成合作，将千问联机到苹果 Siri、写作工具和视觉智能，支持文本与图像理解等功能。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127855.png" rel="nofollow"&gt;&lt;img alt="苹果将在iOS 27.3中为国内用户带来AI功能 初期提供部分基础功能 由阿里千问提供支持" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127855.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 02 Nov 2026 07:30:00 +0000</pubDate></item><item><title>LXD和MicroCloud出现满分安全漏洞 攻击者可获得宿主机操作权限</title><link>https://www.landian.news/archives/127934.html</link><description>
+&lt;p&gt;#安全资讯 Canonical 提醒 LXD 和 MicroCloud 用户立即升级：旧版本存在满分安全漏洞，攻击者可获得宿主机操作权限。此次问题出现在远程 API 的双向 TLS 客户端认证逻辑中，旧版本会将客户端发送的整个证书链与服务器信任列表对比。攻击者可以轻松使用任何公开受信证书冒充客户端进行服务器操作，因此可以直接获得宿主机权限。查看全文：https://ourl.co/127934&lt;/p&gt;&lt;p&gt;Ubuntu 开发商 Canonical 日前发布安全公告提醒使用 LXD 和 MicroCloud 的用户立即升级到最新版本。以上产品都存在远程身份验证绕过漏洞，攻击者只要能访问相关 HTTPS API 并获得某个受信任客户端的公开证书，就可能冒充客户端操作服务器。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/127934.png" rel="nofollow"&gt;&lt;img alt="LXD和MicroCloud出现满分安全漏洞 攻击者可获得宿主机操作权限" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/127934.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;苹果表示在用户使用 Siri 处理特定请求时，可以调用阿里巴巴千问获取协助。例如用户可以针对照片提问，也可以就 PDF 文档和演示文稿等文档内容提出问题。千问还支持创作功能，帮助用户从零开始生成原创内容。苹果表示用户可以登录千问账号或使用苹果账号登录千问，在苹果智能中访问千问。&lt;/p&gt;
-&lt;p&gt;视觉智能方面用户可以选择询问千问帮助识别和了解眼前的物体和场景。阿里巴巴集团表示：用户可以通过相机控制、操作按钮或控制中心启用视觉智能，具体操作方式取决于设备支持情况。&lt;/p&gt;
-&lt;p&gt;不过需要注意的是，本次更新不包含 Siri AI 功能，也不包含 WWDC 2026 上宣布的全新苹果智能功能；初期 AI 功能仅支持 iPhone，暂不支持 iPad 和 Mac 等其他苹果设备。&lt;/p&gt;
+&lt;p&gt;Canonical 表示，此次安全问题出在远程 API 的双向 TLS 客户端认证逻辑中。正常情况下客户端连接管理 API 时需要通过证书和对应私钥证明自己的身份，但受影响的版本会将客户端发送的整个证书链与服务器信任列表进行对比，而证书链中只有叶证书会证明连接方持有对应私钥。&lt;/p&gt;
+&lt;p&gt;攻击者可以在证书链中放入目标客户端的受信任公开证书，让受影响服务将连接识别为这个客户端。由于证书本身属于公开信息，攻击者利用条件中不需要取得目标客户端的私钥。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;阿里巴巴集团在官方公众号上表示，用户可以自主决定是否启用千问集成、如何使用和分享哪些信息。启用千问集成后，可以通过苹果登录或使用自己的千问账号登录集成系统。&lt;/p&gt;
-&lt;p&gt;在问题、文档和图片发送给千问前，系统会先征得用户同意。阿里巴巴集团表示，用户请求及生成的回复均不会被用于模型训练。苹果则强调苹果智能的多项体验由苹果构建的生成式模型驱动，千问主要为 Siri、写作工具和视觉智能中的特定请求提供支持。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;基于 Siri 的千问集成&lt;/li&gt;
-&lt;li&gt;实时翻译：在信息、电话和 FaceTime 通话中辅助跨语言交流，搭配 AirPods 可翻译面对面对话&lt;/li&gt;
-&lt;li&gt;写作工具：对文本进行改写、校对和摘要&lt;/li&gt;
-&lt;li&gt;照片工具：移除照片中的干扰对象，通过自然语言搜索照片和视频，根据描述创建回忆影片&lt;/li&gt;
-&lt;li&gt;智绘表情：可以根据用户提供的文字描述生成个性化表情&lt;/li&gt;
-&lt;li&gt;邮件与通知：显示优先邮件、生成邮件摘要和智能回复，对通知进行摘要和排序等&lt;/li&gt;
-&lt;li&gt;音频摘要：为备忘录音频提供文字转录和通话转录生成摘要&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;首批支持的设备包括 iPhone 16 及后续机型、iPhone 15 Pro 和 iPhone 15 Pro Max、iPhone Duo、iPhone Air。语言里需要设置英文和简体中文，具体可用设备以测试版推出后的系统提示为准。&lt;/p&gt;
-&lt;p&gt;区域和账号要求：中国版 iPhone，或设备定位和苹果账号所在国家都是中国的设备。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 31 Oct 2026 03:59:43 +0000</pubDate></item><item><title>安全研究员曝光安卓系统的死亡短信漏洞 发送特殊短信可以触发反复崩溃</title><link>https://www.landian.news/archives/127854.html</link><description>
-&lt;p&gt;#系统资讯 安全研究员披露安卓系统死亡短信漏洞：只需要向目标手机号码发送攻击短信，就可以触发反复崩溃到出厂设置。该漏洞位于安卓处理 WAP Push 短信的解析层面，用户看不到攻击短信也不需要点击任何链接。在连续发送 20 条攻击短信的情况下可以触发反复崩溃，并且即便用户恢复出厂后，运营商还会继续投递未接收成功的消息，然后再次触发反复崩溃。查看全文：https://ourl.co/127854&lt;/p&gt;&lt;p&gt;网络安全研究员马克布拉什奇克日前披露名为死亡短信的安卓漏洞，攻击者只需要向受影响设备发送经过特殊构造的短信，就可以让系统电话服务崩溃，在严重情况下甚至可以导致系统反复崩溃无法正常使用。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127854.png" rel="nofollow"&gt;&lt;img alt="安全研究员曝光安卓系统的死亡短信漏洞 发送特殊短信可以触发反复崩溃" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127854.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;该问题涉及安卓系统对 WAP Push 短信的处理机制，WAP Push 是由系统接收和处理的特殊短信形式，可以用于运营商相关服务，例如提示设备获取彩信内容等。&lt;/p&gt;
-&lt;p&gt;研究员发现当安卓解析特定消息中的长度字段时，系统可能会因为数值转换产生异常，这导致负责电话功能的 com.android.phone 进程崩溃。由于异常发生在系统处理消息的阶段，因此用户无需打开短信或点击链接。&lt;/p&gt;
-&lt;p&gt;攻击者只需要向目标设备发送经过特殊构造的 WAP Push 短信即可，因此攻击者首先需要知道目标用户的手机号码，不过当前信息泄露非常严重，想要获得目标的手机号码并不是难事。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; 持续发送 20 条攻击短信可触发反复崩溃到恢复出厂设置：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;研究员称问题短信可能留在系统的待处理队列中，电话服务重启后系统会再次处理相同消息并再次引发崩溃。当发送 20 条攻击短信后，设备还可能进入持续崩溃甚至反复重启的状态，用户还可能看到恢复出厂设置的提示。&lt;/p&gt;
-&lt;p&gt;如果运营商网络重新投递尚未确认接收的消息，即使用户重置设备后，当启动后攻击短信还会再次被设备接收，然后继续反复崩溃或重启，进入死循环状态。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;目前关于该漏洞的修复存在很大的争议，研究员称自己在 5 月 5 日向谷歌报告该问题，但谷歌称该问题并非安全问题。最终研究人员在 10 月 29 日公开死亡短信的公开技术分析。&lt;/p&gt;
-&lt;p&gt;与此同时 AOSP 代码记录显示，谷歌工程师在 6 月 15 日准备相关修复，修复后的代码会处理解析异常，清除造成反复崩溃的异常短信，避免系统持续重复处理攻击短信。&lt;/p&gt;
-&lt;p&gt;研究员称相关修复已经进入 Android 14~17 的 2026 年 10 月安全更新，而 GrapheneOS 称谷歌此前已经通过安全预览渠道提供底层修复，正式修复预计要到 11 月份，也就是当前这个漏洞并未修复。&lt;/p&gt;
+&lt;p&gt;Canonical 公告列出的修复版 Snap 如下：LXD 6.10.1/5.21.9/5.0.11/4.0.15、MicroCloud 2.1.5/3.4.1。这些修复版本正在逐步从候选通道向稳定版通道推送，建议使用这些应用的用户立即检查升级新版本。&lt;/p&gt;
+&lt;p&gt;管理员还需要检查 API 暴露范围，Canonical 建议除了安装更新外，管理员还应该检查管理 API 的监听地址和访问控制，限制不可信或非内部网络访问 API，避免后续有其他问题导致服务器被利用。&lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://smsofdeath.com/" rel="noopener" target="_blank"&gt;死亡短信技术分析报告&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://discourse.ubuntu.com/t/security-advisory-critical-vulnerability-found-in-canonical-lxd-and-microcloud/90557" rel="noopener" target="_blank"&gt;Canonical 安全公告&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 31 Oct 2026 03:00:00 +0000</pubDate></item><item><title>Cursor扩展商店出现恶意版Claude Code(并非A社开发) 约有5000名开发者受影响</title><link>https://www.landian.news/archives/127853.html</link><description>
-&lt;p&gt;#安全资讯 Cursor 扩展程序商店出现假冒的 Claude Code，需要强调的是该扩展并非 A 社官方发布，其他媒体报道时称 A 社官方版 Claude Code 被入侵。目前可以确认 Open VSX 和 NPM 上的 Claude Code 是正常的，仅 Cursor 上的 Claude Code 有问题。恶意扩展分发时间约 11 小时，建议在国内时间 10 月 29 日 17:27~10 月 30 日 04:35 安装或更新 Claude Code 扩展的用户立即检查。查看全文：https://ourl.co/127853&lt;/p&gt;&lt;p&gt;SpaceXAI Cursor 确认其扩展程序商店曾提供某个被恶意修改的 Claude Code 扩展程序，版本号为 2.1.313 版。该扩展程序开发者标注 Anthropic，但实际上该扩展程序并非 A 社开发，而是黑客冒充 A 社开发并提交的。&lt;/p&gt;
-&lt;p&gt;此前有部分安全报道将事件描述为 A 社官方扩展或 Open VSX 遭到攻击，后续调查发现受影响的分发渠道仅为 Cursor 自己的扩展程序商店，Open VSX 和 NPM 发布记录正常，未出现恶意版本。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127853.png" rel="nofollow"&gt;&lt;img alt="Cursor扩展商店出现恶意版Claude Code(并非A社开发) 约有5000名开发者受影响" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127853.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 02 Nov 2026 07:00:00 +0000</pubDate></item><item><title>内部赛马结束？字节宣布扣子企业版分阶段下线 后续将推出整合产品</title><link>https://www.landian.news/archives/127933.html</link><description>
+&lt;p&gt;#行业资讯 内部赛马结束？字节宣布扣子企业版将分阶段下线，虽然没有明说是产品停服，但从公告来看扣子大概率要被整合。目前字节不少相关产品都被整合到豆包工作，估计最后扣子也是如此。后续扣子将提供数据导出和备份安排，建议使用扣子的用户提前做好迁移准备。查看全文：https://ourl.co/127933&lt;/p&gt;&lt;p&gt;字节跳动旗下 AI 智能体开发平台扣子日前发布公告，宣布当前销售的扣子企业版套餐暂停面向新客户销售，现有套餐也将按计划分阶段逐步下线。字节跳动称此次调整主要是为了推进企业级服务的产品整合与升级，后续企业产品和套餐方案将另行公布。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/127933.png" rel="nofollow"&gt;&lt;img alt="内部赛马结束？字节宣布扣子企业版分阶段下线 后续将推出整合产品" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/127933.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这个恶意扩展程序使用 Anthropic.claude-code 标识且版本号为 2.1.313 版，在商店里的分发时间段为 10 月 29 日 17:27~10 月 30 日 04:35 (这里已换算为国内时间)，持续分发时间为 11 小时。&lt;/p&gt;
-&lt;p&gt;恶意版本保留 Claude Code 官方扩展的多数能力，但在 extension.js 开头插入约 66 行的恶意加载代码。扩展程序加载时恶意代码会先执行，随后正常功能继续启动，开发者难以从界面上发现异常。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;分析显示，这个恶意扩展程序会尝试在用户的 SSH 授权文件中添加攻击者控制的公钥，标记为 svc-telemetry，随后尝试启动本机 SSH 服务并建立反向 SSH 隧道。&lt;/p&gt;
-&lt;p&gt;恶意代码还会持续建立运行机制，例如在 macOS 上创建用户级 LaunchAgent，在 Windows 上尝试创建计划任务，在部分情况下使用启动目录维持开机自动运行等。&lt;/p&gt;
-&lt;p&gt;插件收集的信息包括设备主机名、用户名、操作系统、CPU 架构、工作目录、Git 配置中的邮箱和公网 IP、敏感环境变量名称。但值得注意的是，这段恶意代码本身存在错误，同时启动本机 SSH 服务通常需要管理员权限，因此建立反向 SSH 隧道实际会失败。不过插件仍然可能写入攻击者公钥、创建持久化文件并发送主机信息，因此受影响的用户仍然需要清理和检查设备。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;曾在上述时段内通过 Cursor 扩展商店安装或更新 Claude Code 2.1.313 的开发者，应当先隔离疑似受影响的设备，随后开始检查扩展程序安装记录和 Cursor 公布列出的 IOC。&lt;/p&gt;
-&lt;pre&gt;#macOS 和 Linux 用户可以运行如下命令检查 SSH 授权文件是否出现 svc-telemetry
-
-grep -n 'svc-telemetry' ~/.ssh/authorized_keys
-
-#Windows 用户需检查用户目录下的
-
-.ssh\authorized_keys
-
-C:\ProgramData\ssh\administrators_authorized_keys
-
-#若发现可疑密钥则应结合 Cursor 公告中的完整公钥和指纹核对，清理未经授权添加的条目&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;其他值得检查的痕迹包括：&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;#macOS
-
-~/Library/LaunchAgents/com.apple.sysmond.plist
-
-~/.config/.smt
-
-~/.config/.smtk
-
-#Windows：
-
-检查计划任务是否有名为 SysMon 的条目&lt;/pre&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://prod.cursor.com/pt-BR/blog/claude-code-extension-security-notice" rel="noopener" target="_blank"&gt;Cursor：Claude Code 恶意扩展安全公告、IOC和清理脚本&lt;/a&gt;&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 31 Oct 2026 02:30:00 +0000</pubDate></item><item><title>比特币硬件钱包Trezor也出现硬件篡改问题 经销商篡改硬件窃取钱包助记词</title><link>https://www.landian.news/archives/127852.html</link><description>
-&lt;p&gt;#加密货币 比特币硬件钱包 Trezor 也出现篡改问题，经销商同样是东南亚的 CryptoBilis，钱包被植入可疑电路。该电路板放在 Trezor 主板与屏幕之间，上面有蜂窝通信模块和天线。据称该电路板可以窃取屏幕上显示的助记词并发送到黑客控制的服务器。Trezor 建议用户立即转移资产到新钱包并创建新助记词，受影响用户也可以联系 Trezor 申请寄送新钱包。查看全文：https://ourl.co/127852&lt;/p&gt;&lt;p&gt;加密货币硬件钱包 Trezor 日前发布安全警告，有用户从其东南亚经销商 CryptoBilis 购买的 Safe 5 硬件钱包内部被植入额外电路，可能会读取钱包屏幕上的恢复助记词，这些机密信息会通过 4G LTE 模块发送出去。&lt;/p&gt;
-&lt;p&gt;早前法国加密钱包制造商 Ledger 也遇到类似问题，而且同样是 CryptoBilis 经销商。这家经销商在 3 月份已经被秘密收购，收购时要要求原团队对收购事宜保密，而收购方背后疑似也是朝鲜黑客集团。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127852.png" rel="nofollow"&gt;&lt;img alt="比特币硬件钱包Trezor也出现硬件篡改问题 经销商篡改硬件窃取钱包助记词" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127852.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;根据 Trezor 发布的说明，其印尼用户在 2026 年 8 月购买 Trezor Safe 5 硬件钱包，在 10 月 28 日向 Trezor 安全团队报告设备异常。这名用户对钱包拆解发现，钱包里有额外的电路板和蜂窝通信模块。&lt;/p&gt;
-&lt;p&gt;这个额外的电路板被安装在 Trezor 主板与屏幕之间，电路板上有蜂窝通信模块和天线，该电路板据称可以读取屏幕上显示的内容，包括初始化钱包时出现的恢复助记词，在设备接通电源时这些数据会通过移动网络发送数据到黑客控制的服务器。&lt;/p&gt;
-&lt;p&gt;这名用户在发现可疑电路前已经转移钱包里的所有资产，所以并未出现损失。截至本文发布时，Trezor 尚未收到有用户资产被转移的情况，但相关用户也需要尽快转移资产避免黑客提前动手。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Trezor 的安全建议覆盖 2026 年 3 月及之后通过 CryptoBilis 销售或供货的所有 Trezor 型号，包括通过 Tokopedia 等平台购买但实际由 CryptoBilis 发货的硬件钱包。&lt;/p&gt;
-&lt;p&gt;用户应当创建新的安全钱包和设置全新助记词，然后将旧钱包中的所有资产都发送到新钱包。如果暂时没有可信的硬件钱包，可以考虑将资产转移到熟悉的交易所或软件钱包。&lt;/p&gt;
-&lt;p&gt;另外受影响的用户可以保留钱包并联系 Trezor，该公司可以直接向用户寄送新的安全钱包，也可以领取用于购买新钱包的代金券，用户可以使用代金券购买其他型号的钱包。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 31 Oct 2026 02:00:00 +0000</pubDate></item><item><title>群晖部分NAS遭勒索软件攻击 黑客利用2024年已修复的漏洞 用户需尽快更新DSM</title><link>https://www.landian.news/archives/127851.html</link><description>
-&lt;p&gt;#安全资讯 群晖官方回应近期出现的 NAS 勒索软件攻击事件：黑客使用 2024 年 12 月已经修复的远程代码执行漏洞发起攻击。群晖建议用户立即升级到 DSM 最新版确保安全，目前没有证据表明 DSM 存在零日漏洞，即未修复但已经被黑客利用的漏洞。对于黑群晖用户，如无法升级版本请立即断开公网连接；白群晖用户如无必要也不要将 NAS 暴露在公网。查看全文：https://ourl.co/127851&lt;/p&gt;&lt;p&gt;近期有大量使用群晖 NAS 的用户发帖称自己的设备遭到勒索软件攻击，被攻击的设备全盘数据都被勒索软件使用现代加密算法加密，想要破解加密算法是不可能的，所以用户只能通过其他备份渠道恢复自己的数据。&lt;/p&gt;
-&lt;p&gt;在用户讨论中有用户自称使用的是 DSM 最新版，不过更多用户使用的是旧版 DSM 且将设备暴露在公网上。这件事也引起群晖官方的关注，群晖安全团队经过分析后发现黑客使用的是群晖已经在 2024 年 12 月修复的安全漏洞。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127851.png" rel="nofollow"&gt;&lt;img alt="群晖部分NAS遭勒索软件攻击 黑客利用2024年已修复的漏洞 用户需尽快更新DSM" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127851.png"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;群晖在最新公告中表示，攻击者正在针对过时版本的 DSM 系统发起攻击，目的是加密设备内的数据并勒索受害者。公司建议用户参考 Synology-SA-24:20 安全公告并检查系统版本。&lt;/p&gt;
-&lt;p&gt;该安全公告涉及多项安全漏洞，其中最严重的是 CVE-2024-10441 漏洞，该漏洞为远程代码执行漏洞，评分高达 9.8 分。群晖称攻击者可以利用 DSM 系统插件服务中的输出编码问题远程执行任意代码。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; 360 团队则认为攻击者使用的是 9 月修复的漏洞：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;360 反勒索团队近期也处置多起涉及群晖 NAS 的勒索软件攻击，不过 360 团队称黑客使用的是群晖在 9 月份修复的 CVE-2026-13639/13684 漏洞。以上漏洞位于 Synology-SA-26:13 公告里，新版本发布时间是 2026 年 9 月 18 日。&lt;/p&gt;
-&lt;p&gt;无论黑客使用的是哪种漏洞，用户都应该立即升级到 DSM 最新版，目前没有任何证据表明群晖 DSM 系统存在零日漏洞 (即尚未修复但已经被黑客利用的漏洞)，所以只要用户更新到最新版那应该就是安全的 (也得使用强密码和多因素认证)。&lt;/p&gt;
+&lt;p&gt;这是字节跳动团队推出的 AI 应用与智能体开发平台，用户可以通过可视化方式配置模型、工作流和插件，制作问答机器人或其他 AI 应用，扣子本身也支持个人用户使用。&lt;/p&gt;
+&lt;p&gt;海外版的 Coze 最初在 2023 年年底推出，国内版扣子则在 2024 年 2 月 1 日上线。平台早期主打无需编程即可创建 AI 机器人，随后逐步增加工作流、团队协作、企业管理和 AI 编程等能力。&lt;/p&gt;
+&lt;p&gt;在商业化方面，扣子陆续推出个人、团队和企业套餐。官方文档显示，扣子早期商业化的专业版已经在 2026 年 5 月下线，团队版则在 6 月推出更多套餐档位。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;DSM 7.4 分支版本：需升级到 7.4-90075 或更高版本&lt;/li&gt;
-&lt;li&gt;DSM 7.3 分支版本：需升级到 7.3.2-86009-4 或更高版本&lt;/li&gt;
-&lt;li&gt;DSM 7.2.2 分支版本：需升级到 7.2.2-72806-9 或更高版本&lt;/li&gt;
-&lt;li&gt;DSM 7.2.1 分支版本：需升级到 7.2.1-69057.12 或更高版本&lt;/li&gt;
-&lt;li&gt;DSM 6.x 系列没有修复版本，请务必升级到还在支持的版本&lt;/li&gt;
+&lt;li&gt;2026 年 11 月 30 日起：扣子企业标准版、企业旗舰版将暂停接受新客户购买&lt;/li&gt;
+&lt;li&gt;2026 年 12 月 31 日起：在火山引擎购买的旧个人进阶版、旧团队版和旧企业版全面下线，超期未使用部分将退款&lt;/li&gt;
+&lt;li&gt;2027 年 12 月 31 日起：新版标准版和旗舰版全面下线，新购 / 续费 / 增加席位对应的服务日期不能晚于该日期&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;暂停销售后已购客户在合同有效期内、相应套餐下线前仍然可以继续使用套餐并获得客户服务。现有企业套餐未到期的客户可以继续续费或新增席位，但服务期间最晚只能到 2027 年 12 月 31 日。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在公告中扣子团队解释企业版下线的原因，扣子团队称主要原因是企业级服务产品整合和套餐升级，正在规划后续可供企业客户选择的产品和套餐，具体安排将通过后续公告说明。&lt;/p&gt;
+&lt;p&gt;对于企业用户关心的对话、记忆、文件、编程项目和低代码工作流等资源，扣子表示将另行公布导出与备份安排。已有业务部署的客户可以提前梳理所有套餐、合同期限以及需要备份的资源并关注后续公告。&lt;/p&gt;
+&lt;p&gt;尽管扣子团队在公告中的说法比较隐晦，但其实就是扣子这个产品可能要被整合掉，有很大概率也会被整合到豆包工作里，这说明字节跳动的内部赛马也已经结束，各种 AI 创新产品正在逐步整合加强竞争力。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/127089.html" title="腾讯宣布关停QQ龙虾(QClaw) 用户需尽早申请退款和迁移数据"&gt;&lt;h3&gt;腾讯宣布关停QQ龙虾(QClaw) 用户需尽早申请退款和迁移数据&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#人工智能 腾讯宣布关停 QQ 龙虾 (QClaw)，从发布至今才 6 个月，用户需尽快申请退款和迁移数据。QClaw 基于 OpenClaw …&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/soft"&gt;软件资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2026年9月24日 15:00&lt;/span&gt;&lt;span title="浏览数量"&gt;16.13K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://docs.coze.cn/enterprise-plan-discontinuation-notice" rel="noopener" target="_blank"&gt;扣子企业版下线公告&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 02 Nov 2026 06:30:00 +0000</pubDate></item><item><title>来就是朋友：Grok AI现已支持支付宝开通订阅 也支持自动续费等功能</title><link>https://www.landian.news/archives/127932.html</link><description>
+&lt;p&gt;#人工智能 来就是朋友：Grok AI 现已支持通过支付宝开通订阅，也支持自动续费等功能。通过支付宝开通订阅过程非常顺畅，用户不需要国际信用卡，也不需要持有美元。实际开通时支付宝将自动按照所选货币 (默认是美元) 进行汇率转换，用户使用银行卡或余额都可以支付。早前 Grok 也支持通过银联卡开通订阅，所以对 Grok 代充商家来说优势基本没了，而且用户自己开通还不用担心黑卡问题。查看全文：https://ourl.co/127932&lt;/p&gt;&lt;p&gt;据蓝点网网友分享的消息，埃隆马斯克旗下的 Grok AI 现已支持使用支付宝开通订阅，用户在开通订阅时可以选择支付宝作为支付通道，确认后跳转到支付宝扫码页面，使用手机版支付宝扫码即可支付。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/127932-1.png" rel="nofollow"&gt;&lt;img alt="来就是朋友：Grok AI现已支持支付宝开通订阅 也支持自动续费等功能" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/127932-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;网友测试发现 Grok AI 使用支付宝开通订阅非常便捷，选择支付宝后扫码即可发起支付。在手机版支付宝里按照所选地区不同 (默认为美国 + 美元)，付款时支付宝将根据收款货币进行人民币转换，最终用户只需要支付人民币即可。&lt;/p&gt;
+&lt;p&gt;通过支付宝付款还有个优势就是不需要信用卡，也不需要持有美元等，支付宝将 xAI LLC 当成普通国际商户处理，所以可以直接从绑定的银行卡或支付宝余额里完成付款。&lt;/p&gt;
+&lt;p&gt;默认情况下 Grok AI 开通订阅时已经启用自动支付功能，所以用户付款时也可以看到开通后续自动扣费的选项，开通成功后用户可以转到支付宝、我的、设置、支付设置、自动续费里找到 xAI LLC 商户扣费，在这里关闭自动续费。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/127932-2.png" rel="nofollow"&gt;&lt;img alt="来就是朋友：Grok AI现已支持支付宝开通订阅 也支持自动续费等功能" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/127932-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Grok 目前有个比较吸引用户的产品是 Grok Bot 智能体，当然也有用户使用 Grok Build 进行项目开发。此前用户需要使用 Visa 或 Mastercard 信用卡支付 (实际现在也支持银联卡付款)，或者用户寻找代充商家。&lt;/p&gt;
+&lt;p&gt;现在 Grok 开通订阅支持使用支付宝和银联卡后，代充商家已经没有优势，毕竟对用户来说自己直接订阅价格合适而且步骤非常简单，也不需要担心遇到部分商家存在的使用黑卡订阅问题 (可能会导致封号)。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 02 Nov 2026 06:00:00 +0000</pubDate></item><item><title>微软解释为什么Windows 11任务栏不能直接拖动移动位置：担心用户误操作</title><link>https://www.landian.news/archives/127931.html</link><description>
+&lt;p&gt;#系统资讯 微软解释为什么 Windows 11 不支持直接拖动任务栏调整位置：主要担心用户误操作。微软设计副总裁称，大多数用户不会频繁调整任务栏，而 Windows 11 任务栏没有锁定选项，如果直接能拖动可能会造成误操作。所以在 Windows 11 里用户必须进入设置选择屏幕所在位置，不能直接像 Windows 10 那样按着任务栏拖动位置。查看全文：https://ourl.co/127931&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/112973.html" rel="noopener" target="_blank"&gt;目前 Windows 11 已经重新支持将任务栏调整到屏幕顶部、屏幕左侧或屏幕右侧&lt;/a&gt;，不过如果用户想要调整任务栏位置必须进入设置，不能像 Windows 10 那样直接拖动任务栏放到自己想要的位置。&lt;/p&gt;
+&lt;p&gt;微软设计副总裁日前对这处使用体验进行解释，这名副总裁称禁止直接拖动任务栏是经过研究后作出的设计决定。微软认为若支持直接拖动可能会导致任务栏被意外移动，而用户调整任务栏位置的频率本身就不高。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/127931-1.png" rel="nofollow"&gt;&lt;img alt="微软解释为什么Windows 11任务栏不能直接拖动移动位置：担心用户误操作" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/127931-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在 Windows 10 中任务栏可以设置为锁定状态以禁止拖动位置，用户需要移动时得先取消任务栏锁定，然后鼠标按住任务栏空白区域即可将其拖动到屏幕的其他边缘位置，相关 UI 也会根据位置自动适配。&lt;/p&gt;
+&lt;p&gt;Windows 11 在最初发布时重新设计的任务栏被固定在屏幕底部，经过多年用户反馈后微软终于在今年重新支持选择任务栏位置，允许用户将任务栏放在屏幕的四个边缘。&lt;/p&gt;
+&lt;p&gt;不过微软选择不同的操作方式：微软设计副总裁迭戈巴卡表示，公司研究后发现拖动任务栏可能导致用户意外改变任务栏位置，这也是 Windows 10 提供任务栏锁定选项的原因。&lt;/p&gt;
+&lt;p&gt;迭戈巴卡称大多数用户在选择好自己喜欢的任务栏位置后都不会频繁进行调整，因此微软决定通过右键菜单进入设置后，用户才能选择任务栏显示的位置，这也可以让操作更明确和更容易预测。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/127931-2.png" rel="nofollow"&gt;&lt;img alt="微软解释为什么Windows 11任务栏不能直接拖动移动位置：担心用户误操作" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/127931-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在更新到受支持的 Windows 11 版本后，可以通过以下步骤移动任务栏位置：&lt;/p&gt;
+&lt;p&gt;1. 鼠标右键点击任务栏空白区域，选择任务栏设置，此时会打开个性化设置&lt;/p&gt;
+&lt;p&gt;2. 找到任务栏行为、任务栏位置，在这里可以选择底部、顶部、左侧和右侧&lt;/p&gt;
+&lt;p&gt;3. 用户也可以根据喜好设置是否要小任务栏，小任务栏在屏幕较小的设备上更实用&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/112973.html" title="Windows 11任务栏已经可以放在顶部/左侧/右侧 并且可以默认设置窗口不合并"&gt;&lt;h3&gt;Windows 11任务栏已经可以放在顶部/左侧/右侧 并且可以默认设置窗口不合并&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#系统资讯 Windows 11 任务栏已经可以放在顶部 / 左侧 / 右侧，并且可以设置始终不合并窗口，让用户切换起来更加方便。这些新功能在 …&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/os/win"&gt;Windows&lt;/a&gt;, &lt;a href="https://www.landian.news/os"&gt;系统资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2026年5月18日 08:30&lt;/span&gt;&lt;span title="浏览数量"&gt;7.88K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 02 Nov 2026 05:30:00 +0000</pubDate></item><item><title>Claude AI订阅套餐调整：Max 20x更名为Ultra 且200美元版取消5H限制</title><link>https://www.landian.news/archives/127930.html</link><description>
+&lt;p&gt;#人工智能 Claude AI 调整个人订阅套餐名称，同时将 200 美元版 Claude Ultra 订阅 5 小时额度取消，可以直接在短时间内耗尽整周额度。原 Max 5x 版更名为 Max，原 Max 20x 版更名为 Ultra，后者配额是 Pro 订阅的 10x (周额度的 10x，原 20x 指的是 5H 限制)。不过取消 5H 仅限部分账户，该机制参考用户使用和账单历史，系统将自动为符合条件的用户解除 5H 限制。这项政策显然是打击中转站反代的，中转站账号能在极短时间内耗尽周额度，在 5H 限制下反代账号用量有限，A 社若能快速发现异常并封号就可以减少算力消耗。查看全文：https://ourl.co/127930&lt;/p&gt;&lt;p&gt;日前 A 社调整 Claude AI 个人订阅套餐的名称和使用规则，原来的 Max 5x 更名为 Max，原来的 Max 20x 更名为 Ultra，以上订阅价格不变即还是每月 100 美元和每月 200 美元。&lt;/p&gt;
+&lt;p&gt;但新的 Ultra 套餐取消 5H 限制，这对重度使用的开发者来说是个极好的消息，因为在遇到复杂任务时可以在短时间消耗更多额度完成任务。不过 5H 限制适用于不同用户，只有通过验证的账号不受 5H 限制。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/127930.png" rel="nofollow"&gt;&lt;img alt="Claude AI订阅套餐调整：Max 20x更名为Ultra 且200美元版取消5H限制" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/127930.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Claude Free：免费版，可以提供基础对话使用&lt;/li&gt;
+&lt;li&gt;Claude Pro：每月 20 美元或每年 200 美元，使用配额作为基准 (1x)&lt;/li&gt;
+&lt;li&gt;Claude Max：每月 100 美元，每 5 小时和每周限额均为 Pro 订阅的 5x&lt;/li&gt;
+&lt;li&gt;Claude Ultra：每月 200 美元，每 5 小时和每周配额均为 Pro 订阅的 10x，已验证账号无 5 小时限额&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;黑群晖用户：&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;请检查提供 DSM 系统的开发者是否已经提供新的适配版本，如有适配版本建议立即升级以封堵漏洞。若没有适配版本则应该立即断开 NAS 的公网连接，不要使用 QC 或 DDNS 将 NAS 暴露到公网、不要开放 SSH 22 端口。&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;白群晖用户：&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;确保 DSM 已经开启自动更新功能，建议开启自动更新和自动安装，这样群晖发布新版本后可以立即自动升级。若无必要请勿将 NAS 暴露在公网，不要使用 QC 或 DDNS 映射。如必须在公网连接，请使用高强度用户密码 + MFA 多因素认证，最好可以使用类似 WireGuard 等加密组网工具。&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;确保 NAS 有离线备份：&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;无论是群晖 NAS 还是其他品牌的 NAS，都有被黑风险，因此不能将数据只放在 NAS 上存储。对于重要文件，建议定期备份到云端或其他离线目录，例如群晖 Cloud Sync 套件可以连接各大网盘，可以设置重要目录与网盘自动同步，将文件备份到网盘保存 (但需要确保网盘有防勒索攻击或版本恢复机制，OneDrive 就有这类功能)。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/114184.html" title="仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止"&gt;热门推荐仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;span aria-hidden="true"&gt;仅需99元/年，硅谷CN2GIA服务器，另有3年版仅需528元，限量销售，售完即止&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 31 Oct 2026 01:30:00 +0000</pubDate></item><item><title>币安已准备63.4亿美元弥补黑客攻击造成的损失 其中50亿美元为受影响币种</title><link>https://www.landian.news/archives/127850.html</link><description>
-&lt;p&gt;#加密货币 币安已经准备 63.4 亿美元弥补黑客攻击造成的损失，其中价值约 50 亿美元的受影响币种为币安自有资产。剩余约 13.4 亿美元差额部分，币安需要通过公开市场和场外交易渠道购买相关加密货币进行补充。相关金库将在下期储备金证明报告中体现，而出于安全原因币安暂时没有公开这些储备金的钱包地址供链上公开查询。查看全文：https://ourl.co/127850&lt;/p&gt;&lt;p&gt;加密货币交易所币安在遭遇黑客攻击事件后，目前已经划拨超过 63.4 亿美元的公司资金和储备用于弥补此次事件造成的损失。其中约 50 亿美元已经以受影响的相同加密货币形式持有，其余资产正在通过市场和场外交易渠道补充。&lt;/p&gt;
-&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/10/127850.png" rel="nofollow"&gt;&lt;img alt="币安已准备63.4亿美元弥补黑客攻击造成的损失 其中50亿美元为受影响币种" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/10/127850.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;值得注意的是，现在 A 社也为订阅用户提供每月订阅费等额的 Claude API 额度，不过 Claude Pro 和 ChatGPT Plus 订阅属于相同级别，因此也没有对应的 API 额度。&lt;/p&gt;
+&lt;p&gt;对于 Claude Max 订阅用户，每月可以领取 100 美元的 API 额度；Claude Ultra 用户则可以领取 200 美元的 API 额度。这部分额度需要关联 Claude API 平台账号，后续也只能通过 API 平台调用，不能直接在 Claude Code 中使用 (除非改成 API 配置模式)。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;币安官方发言人表示，公司已经持有约 50 亿美元与受影响资产币种相同的加密货币，而剩余差额部分则需要通过公开市场和场外交易渠道进行收购，这个过程还需要时间因此暂时还未完成。&lt;/p&gt;
-&lt;p&gt;按照目前披露的金额计算，剩余需要补充的资产价值约为 13.4 亿美元，币安称部分代币的流动性和交易结算可能会影响采购进度。币安的做法就是将差额加密货币补足，例如涉及以太坊的资产缺口就需要补充以太坊。&lt;/p&gt;
-&lt;p&gt;需要说明的是这 50 亿美元对应的加密货币目前由币安自行托管，币安计划在下期储备金证明报告中体现这部分金库。而出于安全原因，币安暂时没有公开这些储备金的钱包地址供链上公开查询。&lt;/p&gt;
+&lt;p&gt;旧版 Claude Max 20x 版改成新版 Claude Ultra 后使用配额是 Claude Pro 的 10 倍，从这个角度来说那订阅配额是不是从 20x 缩减到 10x？A 社称只是说法发生变化，用户的每周配额实际保持不变。&lt;/p&gt;
+&lt;p&gt;A 社解释称旧版的 Max 20x 指的是相较于 Pro 订阅的 5 小时配额是 20 倍，而新版的 10x 指的是 Pro 订阅每周额度的 10 倍，所以两种说法对应的时间周期不同，不能认为是每周配额也缩减 10x。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;币安称在区块链合作伙伴的协助下，目前已经有 30 亿美元的受影响资产在链上完成冻结，这部分冻结资产没有计入上述用于弥补损失的 63.4 亿美元公司自有补充资金。&lt;/p&gt;
-&lt;p&gt;冻结意味着相关代币转移受到限制，后续币安仍然需要通过合作伙伴和执法机构处理资产追回事宜。币安称该公司也在继续和合作伙伴以及执法机构追踪其他受影响的资产。&lt;/p&gt;
-&lt;p&gt;现阶段币安已经冻结资金提现但允许继续充值资金，币安称当前正在恢复用户资产，预计提现功能将在 1~2 天内恢复，用户应以币安官方渠道显示的最新服务状态为准。&lt;/p&gt;
+&lt;p&gt;A 社称 Claude Ultra 账号会根据系统自动验证结果取消 5H 限制，验证系统会根据账号使用和付款历史记录，未通过验证的账号将仍然维持 5H 限制，整个验证过程也都是自动化的，用户无法直接干预。&lt;/p&gt;
+&lt;p&gt;很显然这项措施主要就是打击中转站反代 Claude 订阅使用的，这类账号可能会在短时间内快速将账号配额耗尽。在有 5H 限制的情况下，反代账号能使用的配额有限，如果没有 5H 限制那整周额度都能在短时间内耗尽。&lt;/p&gt;
+&lt;p&gt;另外 A 社还强调订阅结账时完成的手机号验证不会直接解除 5H 限制，具体用户可以在使用量里查询，如果里面不再显示 5 小时进度条说明该账号已经通过验证。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Sat, 31 Oct 2026 01:00:00 +0000</pubDate></item></channel></rss>
+</description><pubDate>Mon, 02 Nov 2026 05:00:00 +0000</pubDate></item><item><title>A社/O社/谷歌/微软联合起草拒绝AI训练声明 网站只需要添加声明即可阻止内容用于AI训练</title><link>https://www.landian.news/archives/127929.html</link><description>
+&lt;p&gt;#人工智能 Anthropic、OpenAI、谷歌和微软联合起草网站内容禁止用于 AI 训练标准，添加声明后即可避免内容被用于训练。这个草案的正式名称叫机器可读训练偏好信号草案，网站只需要在 robots.txt 里添加声明即可拒绝上述公司抓取内容后用于模型训练。目前 A 社已经开始实施该声明，谷歌将在明年年初支持，微软将在明年 2 月支持，建议网站现在就添加声明。查看全文：https://ourl.co/127929&lt;/p&gt;&lt;p&gt;谷歌、微软、OpenAI 以及 Anthropic 正在支持新的 AI 训练偏好声明，该声明允许网站通过修改 robots.txt 表明是否允许内容被 AI 公司用于训练模型。按照该草案，网站管理员只需要添加一组规则就可以向多家支持该规则的 AI 公司表达声明。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/127929.png" rel="nofollow"&gt;&lt;img alt="A社/O社/谷歌/微软联合起草拒绝AI训练声明 网站只需要添加声明即可阻止内容用于AI训练" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/127929.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;# 全站禁止规则
+
+User-Agent: __usage_ai-training
+Disallow: /
+
+# 允许特定目录示例
+
+User-Agent: __usage_ai-training
+Allow: /archive/
+
+# 不允许特定目录示例
+
+User-Agent: __usage_ai-training
+disallow: /archive/
+
+# 其中允许特定目录与全站禁止不冲突，即允许 /archive/ 但其他目录全部禁止&lt;/pre&gt;
+&lt;p&gt;在网站 robots.txt 文件中添加这段内容即可声明全站内容禁止用于训练 AI 模型，网站管理员也可以修改允许或不允许的目录，例如部分目录允许被用于 AI 训练，部分内容不允许被用于 AI 训练。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;目前该方案仍然是互联网草案，不过微软已经表示该公司会从 2027 年 2 月 1 日开始遵循该声明，所以不想内容被用于 AI 训练的网站现在就可以修改文件添加相关声明。&lt;/p&gt;
+&lt;p&gt;谷歌的计划是从 2027 年年初开始提供支持，但具体时间还有待后面准备工作完成。OpenAI 表示会在未来几个月内实施该方案，Anthropic 似乎已经开始支持该草案。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;以上声明仅表达的是网站对内容用途的选择，按照草案说明，单独设置上述声明不会直接阻止爬虫访问网页，如果网站要限制特定爬虫抓取内容，还是要通过传统 robots.txt 规则进行配置。&lt;/p&gt;
+&lt;p&gt;训练内容与 AI 回答引用网页也属于不同的用途，微软为自家服务额外提供 AI Grounding 控制，供网站决定内容是否允许 AI 生成回答时引用，这项控制针对具体页面且仅适用于微软服务。&lt;/p&gt;
+&lt;p&gt;谷歌则表示，如果网站使用上述声明拒绝 AI 训练，但没有明确设置 Google-Extended，谷歌计划按网站拒绝 Google-Extended 规则处理。Google-Extended 涉及 Gemini 模型训练，也涉及部分 Gemini 回答的网页参考用途。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 02 Nov 2026 04:00:00 +0000</pubDate></item></channel></rss>
