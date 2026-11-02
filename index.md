@@ -19,9 +19,7 @@
 - macmenubar: https://awesomesnaki.github.io/rss-translator/feeds/macmenubar.xml
 - marco: https://awesomesnaki.github.io/rss-translator/feeds/marco.xml
 - nicenews: https://awesomesnaki.github.io/rss-translator/feeds/nicenews.xml
-- pixelfed-JessStetson: https://awesomesnaki.github.io/rss-translator/feeds/pixelfed-JessStetson.xml
 - pixelfed-geraldlanger: https://awesomesnaki.github.io/rss-translator/feeds/pixelfed-geraldlanger.xml
-- pixelfed-zsnajorrah: https://awesomesnaki.github.io/rss-translator/feeds/pixelfed-zsnajorrah.xml
 - somepics: https://awesomesnaki.github.io/rss-translator/feeds/somepics.xml
 - sspai: https://awesomesnaki.github.io/rss-translator/feeds/sspai.xml
 - testingcatalog: https://awesomesnaki.github.io/rss-translator/feeds/testingcatalog.xml
