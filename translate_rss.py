@@ -14,6 +14,7 @@ from datetime import datetime, timezone, date, timedelta
 from openai import OpenAI
 import requests
 from readability import Document
+from site_sources import build_source_feed
 
 # DeepSeek API 配置（从环境变量读取，不会暴露在代码里）
 client = OpenAI(
@@ -848,9 +849,14 @@ def translate_feed(feed_config, cache, content_store):
     print(f"处理: {feed_config['name']}")
     url = resolve_feed_url(feed_config['url'])
     print(f"  URL: {url}")
-    feed = feedparser.parse(url, request_headers={
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
-    })
+    # 没有 RSS 的站点（如 pubg://）：site_sources 调站点数据接口生成 RSS XML
+    source_xml = build_source_feed(feed_config['url'], feed_config)
+    if source_xml is not None:
+        feed = feedparser.parse(source_xml)
+    else:
+        feed = feedparser.parse(url, request_headers={
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
+        })
 
     should_translate = feed_config.get('translate', True)
 

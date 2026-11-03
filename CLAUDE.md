@@ -13,6 +13,7 @@
 
 - `config.yaml` — Feed 配置（URL、是否翻译、是否抓全文、过滤规则）
 - `translate_rss.py` — 核心脚本，处理所有 feed
+- `site_sources.py` — 没有 RSS 的站点：调站点自己的数据接口生成 RSS，`url` 写 `{scheme}://参数`（如 `pubg://zh-cn`），之后照常走过滤/图片修复/输出流程
 - `cache.json` — 翻译缓存（key 为内容 MD5 hash），避免重复调用 API
 - `content_cache.json` — `fetch_full_content` 抓回来的正文快照（key 为文章链接），保证送去翻译的内容稳定
 - `feeds/*.xml` — 生成的 RSS 文件，通过 GitHub Pages 发布
@@ -25,7 +26,7 @@
 
 ```yaml
 - name: "feed名"           # 输出文件名，也是订阅链接的一部分
-  url: "https://..."        # RSS 源 URL，支持 rsshub:// 协议
+  url: "https://..."        # RSS 源 URL，支持 rsshub:// 协议，以及 site_sources.py 注册的 scheme（如 pubg://zh-cn）
   translate: true           # 默认 true，中文源设为 false
   fetch_full_content: true  # 从原始网页抓取全文（默认 false）
   filter: "blockquote"      # 可选，按内容类型过滤条目
@@ -85,6 +86,7 @@
 - **content_cache.json 保留期只有 7 天** — 存的是整篇 HTML，不能像翻译缓存那样开 30 天，否则文件会涨到几十 MB（`cache.json` 撞过 GitHub 单文件限制）。7 天足够覆盖 feed 窗口内的文章
 - **网页编码：UTF-8 优先，不信 charset_normalizer** — 以前 `fetch_full_article` 无条件 `resp.encoding = resp.apparent_encoding`，charset_normalizer 会把明明是 UTF-8 的页面猜成 Windows-1252，正文变成「é»„é“ç›Š」「â€™」式乱码（V2EX、蓝点网、testingcatalog 都中过；cp1252 未定义的字节变成 �，是有损的，没法反向修复）。现在 `decode_html` 先按 UTF-8 严格解码，失败才用 Content-Type 声明的 charset，最后才让它猜。更阴险的是乱码比原文长三倍，之后抓到的正确正文会被 `stable_full_content` 当成「明显变短 = 抓取降级」挡掉，V2EX 热帖评论一直在涨、凑不齐 3 次相同短正文，乱码就锁死在 `content_cache.json` 里。所以 `looks_mojibake` 两头把关：抓回来的页面有乱码特征就当抓取失败，加载 `content_cache.json` 时有乱码特征的快照直接丢弃重抓
 - **翻译失败绝不写缓存** — 以前 API 出错时 `translate_with_deepseek` 会原样返回英文原文，然后被当成译文永久缓存，一次网络抖动能污染到缓存过期。模型偶尔还会拒答、回一句「请提供需要翻译的内容」，同样会被缓存下来顶掉正文或标题（已移除的 franzgraf 源标题就这样坏了很久）。现在失败和拒答一律返回 `None`，本次运行用原文顶上、不写缓存，下次运行重试；加载缓存时也会顺手清掉历史上被污染的条目
+- **无 RSS 站点走数据接口，不走 CSS 选择器** — PUBG 官网新闻（`pubg://zh-cn`）是 Nuxt 渲染，新闻卡片连 href 都没有，FetchRSS / RSSHub `transform/html` 那种按选择器抓网页的方式拿不到链接。改为直接调官网背后的 Krafton 内容接口 `api-foc.krafton.com/content/post/news`（必须带 `Service-Namespace: PUBG_OFFICIAL` / `Service-Game: pubg` 头，否则 401），详情接口直接给完整正文 HTML，比 readability 抠网页稳定，所以不需要 `fetch_full_content`。接口时间是 UTC。详情获取失败的条目本次跳过而不是回退成摘要（阅读器不会更新已收录条目的正文）。标题命中 `filter_out` 的条目连详情都不请求。以后再加没有 RSS 的站点，先在浏览器开发者工具里找页面背后的 JSON 接口，在 `site_sources.py` 的 `SOURCES` 里注册一个 scheme
 - **RSSHub URL 策略** — `rsshub://` 协议走 CI 本地实例；直接写 `https://rsshub.app/...` 则走官方实例不被改写，适用于本地实例无法抓取的源
 - **豆瓣图片自托管** — wsrv.nl 等代理对 doubanio 返回 404（海外 IP 段被拦），改为 Actions 直接下载海报到 `feeds/images/{name}/`，由 GH Pages 提供，零防盗链。每次运行只保留本期榜单的图，已离榜的自动清理
 - **豆瓣海报下载重试** — `download_image` 每个 URL 重试 3 次（1s/2s backoff），并按 `pic.large` → `pic.normal` → `cover_url` → `pic.small` 顺序 fallback。任一组合成功即可。下载彻底失败的条目从 `name_map` 移除，正文不带图（不回落 doubanio 直链，防盗链拉不到）

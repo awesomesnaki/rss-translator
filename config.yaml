@@ -73,4 +73,9 @@ feeds:
   - name: "testingcatalog"
     url: "https://www.testingcatalog.com/rss/"
     fetch_full_content: true
+  - name: "pubg-news"
+    # 官网没有 RSS，且是 Nuxt 渲染（卡片无 href），直接调官网背后的 Krafton 内容接口，正文就是全文
+    url: "pubg://zh-cn"
+    translate: false
+    filter_out: ["每周违规账号公示"]
   # 按这个格式添加更多源
