@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kaushik Gopal's Website (中文)</title><link>https://kau.sh/</link><description>近期内容 - Kaushik Gopal 的网站</description><language>zh-CN</language><lastBuildDate>Wed, 01 Jul 2026 20:00:00 +0000</lastBuildDate><item><title>成为真正AI原生软件公司意味着什么</title><link>https://kau.sh/blog/ai-native-company/</link><description>&lt;p&gt;每个人都说他们正在以AI原生的方式重建公司。但这意味着什么呢？&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kaushik Gopal's Website (中文)</title><link>https://kau.sh/</link><description>近期内容 - Kaushik Gopal 的网站</description><language>zh-CN</language><lastBuildDate>Fri, 30 Oct 2026 00:00:00 +0000</lastBuildDate><item><title>智能体编程：与行业领袖的圆桌讨论 — Android 开发者峰会</title><link>https://kau.sh/ppt/android-dev-summit-agentic-coding/</link><description>&lt;p&gt;这是 Android Dev Summit 2026 上的一场专题讨论，由 Ben Trengrove 主持，主题是开发者如何使用 AI 辅助编码、智能体和开发者工具。&lt;/p&gt;
+&lt;p&gt;我们讨论了发布速度与生产力、软件生命周期中的瓶颈、代码审查、部署安全、遗留系统现代化、CI 基础设施以及 AI 的成本。&lt;/p&gt;
+</description><pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate></item><item><title>成为真正AI原生软件公司意味着什么</title><link>https://kau.sh/blog/ai-native-company/</link><description>&lt;p&gt;每个人都说他们正在以AI原生的方式重建公司。但这意味着什么呢？&lt;/p&gt;
 &lt;p&gt;大多数公司会观察现有员工的工作内容，然后尝试用AI将其自动化。这并非真正的AI原生。这只是在浅尝辄止。一个真正的AI原生公司会重新思考每一个角色，并打破角色之间的壁垒。&lt;/p&gt;
 &lt;p&gt;没有人能完全预测这一切，但这里是我的草图。这并不详尽，但希望能激发一些灵感：&lt;/p&gt;
 更多 
@@ -471,39 +473,4 @@ kill (procs opencode --only pid --no-header)
 &lt;p&gt;一次性 + TTL + 可撤销的连接链接 &lt;a href="https://kau.sh/feed.xml#fnref:3"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-</description><pubDate>Wed, 03 Jun 2026 16:00:00 +0000</pubDate></item><item><title>AI模型选择 2026-06</title><link>https://kau.sh/blog/ai-model-choices-2026-06/</link><description>&lt;p&gt;我的2026年一月AI工具栈。&lt;/p&gt;
-记住，你使用的第一行是列表标题中显示的内容
-&lt;p&gt;自&lt;a href="https://kau.sh/blog/ai-model-choices/"&gt;我上一篇文章&lt;/a&gt;发布以来已有六个月，整个列表已经彻底更新。&lt;/p&gt;
-&lt;h3 id="models"&gt;
-模型
-&lt;a href="https://kau.sh/feed.xml#models"&gt;###&lt;/a&gt;
-&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Kimi 2.6&lt;/strong&gt;已成为我的主力模型。默认情况下，我现在大部分AI会话都以Kimi 2.6开始。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;GPT 5.5&lt;/strong&gt;仍然是我首选的&lt;em&gt;编码&lt;/em&gt;模型。我详细的规划、创建&lt;a href="https://kau.sh/blog/exec-plans/"&gt;执行计划&lt;/a&gt;&lt;sup id="fnref:1"&gt;&lt;a href="https://kau.sh/feed.xml#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;、代码审查、简化和一次性功能变更，都可靠地依赖GPT 5.5（高优先级）。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Opus 4.8&lt;/strong&gt;用于深度思考、写作和整体困难任务。自发布以来已经过去&lt;a href="https://www.anthropic.com/news/claude-opus-4-8"&gt;四天&lt;/a&gt;，我的看法仍在形成中，但我对Opus 4.8能&lt;em&gt;快速&lt;/em&gt;给出正确解决方案感到着迷，尤其是对稍微复杂的问题。但我仍然只在其他模型遇到困难时才使用它，因为💸🔥&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Gemini&lt;/strong&gt;用于任何图像、视频或音频相关任务。其他模型无法匹敌。它大大缩短了我过去需要花费数小时&lt;sup id="fnref:2"&gt;&lt;a href="https://kau.sh/feed.xml#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;的工作。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="harness"&gt;
-工具集
-&lt;a href="https://kau.sh/feed.xml#harness"&gt;###&lt;/a&gt;
-&lt;/h3&gt;
-&lt;p&gt;我不断尝试多种工具集，但我想我已经坚定地选择了&lt;a href="https://opencode.ai/"&gt;OpenCode&lt;/a&gt;搭配&lt;a href="https://openchamber.dev/"&gt;OpenChamber&lt;/a&gt;作为我的首选工具组合。此后我撰写了我的&lt;a href="https://kau.sh/blog/opencode-power-user-tips/"&gt;OpenCode高级技巧&lt;/a&gt;，但我对这些工具集进行了大量测试，目前对这个组合非常满意。&lt;/p&gt;
-&lt;p&gt;我仍然会频繁地通过OpenCode进入&lt;strong&gt;TUI&lt;/strong&gt;领域，虽然和他人一样，我也曾短暂尝试过cmux，但发现它的性能不佳且会遇到内存问题。所以我回到了裸机Ghostty。另一方面，OpenCode在管理会话方面非常出色，因此我常常发现自己甚至不需要使用tmux。&lt;/p&gt;&lt;p&gt;另外，我平时也用 Hermes，但自从发现了 OpenChamber，我发现不再需要频繁使用它了。同样，如果你好奇的话，这个问题值得单独写一篇长文来讨论。&lt;/p&gt;
-&lt;h3 id="what-surprised-me"&gt;
-让我意外的事
-&lt;a href="https://kau.sh/feed.xml#what-surprised-me"&gt;###&lt;/a&gt;
-&lt;/h3&gt;
-&lt;p&gt;Kimi 2.6 真的让我惊艳。我发现它通常能和 GPT 5.5 的中等推理能力并驾齐驱。有时它的结果甚至能媲美 Opus 4.8（尽管 Opus 通常能一次性得到结果）。我不确定是不是我以某种方式&lt;a href="https://kau.sh/blog/harness-engineers/"&gt;优化了 harness&lt;/a&gt;，让它与 Kimi 配合得更好，但天哪，我真的很喜欢我得到的结果。如果你也想试试，我推荐使用 Opencode 的 &lt;a href="https://opencode.ai/go"&gt;10 美元“Go”套餐&lt;/a&gt;，并全力压榨 Kimi 2.6。&lt;/p&gt;
-&lt;p&gt;我不把任何模型当作治疗师或朋友来聊天，而且我通常会对它与我交流的方式给出非常严格的要求，所以很多人抱怨 Opus 4.8 “粗糙”或者 GPT 5.5 “没有灵魂” 🙄，这些对我来说并不太困扰。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;ol&gt;
-&lt;li id="fn:1"&gt;
-&lt;p&gt;如果我确实采用 &lt;a href="https://kau.sh/blog/exec-plans/"&gt;exec-plans&lt;/a&gt; 路线，我会先用 GPT 5.5 规划，然后交给 Kimi 2.6 执行。 &lt;a href="https://kau.sh/feed.xml#fnref:1"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id="fn:2"&gt;
-&lt;p&gt;如果你好奇，
-&lt;a href="https://buttondown.com/fragmentedcast"&gt;订阅我的开发者播客的通讯&lt;/a&gt;，我会在那里发布一些我正在使用的技巧。 &lt;a href="https://kau.sh/feed.xml#fnref:2"&gt;↩︎&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-</description><pubDate>Mon, 01 Jun 2026 17:00:00 +0000</pubDate></item></channel></rss>
+</description><pubDate>Wed, 03 Jun 2026 16:00:00 +0000</pubDate></item></channel></rss>
