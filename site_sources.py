@@ -8,8 +8,11 @@ Nuxt / Next 前端渲染，列表卡片常常连 href 都没有，靠点击事�
 而页面背后的 JSON 接口直接给出完整正文 HTML，比 readability 从网页里抠正文稳定得多，
 也不需要 fetch_full_content。
 """
+import html as html_lib
+import re
 import time
 from datetime import datetime, timezone
+from urllib.parse import quote
 
 import requests
 from feedgenerator import Rss201rev2Feed
@@ -144,8 +147,214 @@ def pubg_news(lang, feed_config):
     return feed.writeString('utf-8')
 
 
+# ---------------------------------------------------------------------------
+# Workspaces workspaces.xyz（每周六一期的桌面布置访谈）
+#
+# 原来托管在 beehiiv，2026 年 7 月搬到自建的 Astro 站 workspaces.xyz，旧的
+# rss.beehiiv.com feed 停在 #534 不再更新，新站没有 RSS。正文存在 Sanity CMS 里，
+# 数据集公开可读，一条 GROQ 查询就能拿到最近几期的全部结构化字段，不用逐篇请求：
+#   https://{project}.apicdn.sanity.io/v2021-10-21/data/query/{dataset}?query=...
+# setup 文档字段：issueNumber / slug / publishedAt / guestName / guestTitle / guestLocation /
+#   guestBio(Portable Text) / guestLinks[{platform,url}] / photos[{asset._ref,alt,caption}] /
+#   qa[{question,answer(Portable Text)}] / gear[{category,name,description,affiliateUrl}] /
+#   software[{name,description,url}]
+# 不取的字段：censusFacts（站内统计冷知识）、featuredGear（带购买按钮的推广块）、
+#   heroQuote / pullQuote（从问答里摘出来的重复引语）。
+#
+# 正文由 JSON 确定性地拼出来，每次运行输入完全一致，翻译缓存稳定命中。旧 beehiiv 源恰恰
+# 相反：正文 footer 里有个每天变的 `publication_logo=...?v=时间戳`，整篇 hash 天天变，
+# 停更的 5 篇旧文每天被全量重翻。
+# 图片在 cdn.sanity.io，不校验 Referer，不需要自托管。
+# ---------------------------------------------------------------------------
+WORKSPACES_SITE = 'https://workspaces.xyz'
+WORKSPACES_SANITY_PROJECT = 'ui5qde1a'
+WORKSPACES_SANITY_DATASET = 'production'
+WORKSPACES_API = (f'https://{WORKSPACES_SANITY_PROJECT}.apicdn.sanity.io/v2021-10-21'
+                  f'/data/query/{WORKSPACES_SANITY_DATASET}')
+WORKSPACES_LIST_SIZE = 10
+WORKSPACES_IMAGE_WIDTH = 1600
+WORKSPACES_QUERY = (
+    '*[_type == "setup" && defined(slug.current) && publishedAt <= now()]'
+    ' | order(publishedAt desc)[0...%d]'
+    '{issueNumber, publishedAt, "slug": slug.current, guestName, guestTitle, guestLocation,'
+    ' guestBio, guestLinks, photos, qa, gear, software}'
+)
+# Portable Text 的装饰 mark → HTML 标签（未知 mark 直接忽略，只保留文字）
+_PT_MARKS = {'strong': 'strong', 'em': 'em', 'code': 'code', 'underline': 'u',
+             'strike-through': 's', 'highlight': 'strong'}
+
+
+def _esc(s):
+    return html_lib.escape(s or '', quote=True)
+
+
+def _pt_span(span, mark_defs):
+    text = _esc(span.get('text')).replace('\n', '<br/>')
+    if not text:
+        return ''
+    for mark in span.get('marks') or []:
+        d = mark_defs.get(mark)
+        if d is not None:
+            if d.get('_type') == 'link' and d.get('href'):
+                text = f'<a href="{_esc(d["href"])}">{text}</a>'
+        elif mark in _PT_MARKS:
+            tag = _PT_MARKS[mark]
+            text = f'<{tag}>{text}</{tag}>'
+    return text
+
+
+def _pt_html(blocks):
+    """Portable Text → HTML。站点实际只用到普通段落、bullet 列表和 link/strong/em"""
+    if isinstance(blocks, str):
+        # 少数早期条目的 guestBio 是纯文本，空行分段
+        return ''.join(f'<p>{_esc(p.strip())}</p>' for p in re.split(r'\n\s*\n', blocks) if p.strip())
+    out, open_list = [], None
+    for b in blocks or []:
+        if b.get('_type') != 'block':
+            continue
+        defs = {d.get('_key'): d for d in b.get('markDefs') or []}
+        inner = ''.join(_pt_span(c, defs) for c in b.get('children') or [] if c.get('_type') == 'span')
+        if not inner.strip():
+            continue
+        list_tag = {'bullet': 'ul', 'number': 'ol'}.get(b.get('listItem'))
+        if list_tag != open_list:
+            if open_list:
+                out.append(f'</{open_list}>')
+            if list_tag:
+                out.append(f'<{list_tag}>')
+            open_list = list_tag
+        if list_tag:
+            out.append(f'<li>{inner}</li>')
+        else:
+            tag = {'h2': 'h3', 'h3': 'h4', 'h4': 'h4', 'blockquote': 'blockquote'}.get(b.get('style'), 'p')
+            out.append(f'<{tag}>{inner}</{tag}>')
+    if open_list:
+        out.append(f'</{open_list}>')
+    return ''.join(out)
+
+
+def _workspaces_image_url(asset_ref):
+    # image-{id}-{w}x{h}-{ext} → https://cdn.sanity.io/images/{project}/{dataset}/{id}-{w}x{h}.{ext}
+    m = re.fullmatch(r'image-([0-9a-f]+-\d+x\d+)-(\w+)', asset_ref or '')
+    if not m:
+        return None
+    return (f'https://cdn.sanity.io/images/{WORKSPACES_SANITY_PROJECT}/{WORKSPACES_SANITY_DATASET}'
+            f'/{m.group(1)}.{m.group(2)}?w={WORKSPACES_IMAGE_WIDTH}&fit=max&auto=format')
+
+
+def _workspaces_photo(photo):
+    src = _workspaces_image_url((photo.get('asset') or {}).get('_ref'))
+    if not src:
+        return ''
+    caption = (photo.get('caption') or '').strip()
+    figcaption = f'<figcaption>{_esc(caption)}</figcaption>' if caption else ''
+    return f'<figure><img src="{_esc(src)}" alt="{_esc(photo.get("alt"))}"/>{figcaption}</figure>'
+
+
+def _workspaces_link_text(url):
+    return re.sub(r'^https?://(www\.)?', '', url).rstrip('/')
+
+
+def _workspaces_body(setup):
+    """排版照网站：头图 → 头衔/简介/链接 → 每段问答后跟一张照片 → 剩余照片 → 装备 → 软件"""
+    photos = [p for p in (_workspaces_photo(p) for p in setup.get('photos') or []) if p]
+    parts = []
+    if photos:
+        parts.append(photos.pop(0))
+
+    headline = ' · '.join(_esc(x) for x in (setup.get('guestTitle'), setup.get('guestLocation')) if x)
+    if headline:
+        parts.append(f'<p><strong>{headline}</strong></p>')
+    parts.append(_pt_html(setup.get('guestBio')))
+    links = [
+        f'{_esc(l.get("platform") or "Link")} → <a href="{_esc(l["url"])}">{_esc(_workspaces_link_text(l["url"]))}</a>'
+        for l in setup.get('guestLinks') or [] if l.get('url')
+    ]
+    if links:
+        parts.append('<p>' + '<br/>'.join(links) + '</p>')
+
+    for qa in setup.get('qa') or []:
+        question = (qa.get('question') or '').strip()
+        if question:
+            parts.append(f'<h3>{_esc(question)}</h3>')
+        parts.append(_pt_html(qa.get('answer')))
+        if photos:
+            parts.append(photos.pop(0))
+    parts.extend(photos)
+
+    gear = []
+    for g in setup.get('gear') or []:
+        name = _esc(g.get('name'))
+        if not name:
+            continue
+        if g.get('affiliateUrl'):
+            name = f'<a href="{_esc(g["affiliateUrl"])}">{name}</a>'
+        line = f'{_esc(g["category"])}: {name}' if g.get('category') else name
+        if g.get('description'):
+            line += f' — {_esc(g["description"])}'
+        gear.append(f'<li>{line}</li>')
+    if gear:
+        parts.append('<h3>Gear</h3><ul>' + ''.join(gear) + '</ul>')
+
+    software = []
+    for s in setup.get('software') or []:
+        name = _esc(s.get('name'))
+        if not name:
+            continue
+        if s.get('url'):
+            name = f'<a href="{_esc(s["url"])}">{name}</a>'
+        if s.get('description'):
+            name += f' — {_esc(s["description"])}'
+        software.append(f'<li>{name}</li>')
+    if software:
+        parts.append('<h3>Software</h3><ul>' + ''.join(software) + '</ul>')
+    return ''.join(p for p in parts if p)
+
+
+def _iso_time(s):
+    try:
+        return datetime.fromisoformat((s or '').replace('Z', '+00:00'))
+    except ValueError:
+        return None
+
+
+def workspaces_setups(_param, feed_config):
+    query = WORKSPACES_QUERY % WORKSPACES_LIST_SIZE
+    data = _get_json(f'{WORKSPACES_API}?query={quote(query)}', {'User-Agent': UA})
+    setups = data.get('result') or []
+    if not setups:
+        raise RuntimeError('Workspaces Sanity 接口返回空列表')
+
+    feed = Rss201rev2Feed(
+        title='Workspaces',
+        link=f'{WORKSPACES_SITE}/',
+        description='A weekly tour of real desk setups from designers, developers, and founders.',
+        language='en',
+    )
+    for s in setups:
+        link = f'{WORKSPACES_SITE}/p/{s["slug"]}'
+        if not s.get('qa') and not s.get('photos'):
+            print(f'  跳过 {link}（没有问答也没有照片）')
+            continue
+        # 标题保留英文：人名交给翻译会被不稳定地音译甚至瞎猜中文名，
+        # config 里配 translate_title: false；中文头衔/所在地在正文开头
+        name = (s.get('guestName') or s['slug']).strip()
+        title = f'#{s["issueNumber"]} {name}' if s.get('issueNumber') else name
+        if s.get('guestTitle'):
+            title += f' · {s["guestTitle"].strip()}'
+        feed.add_item(
+            title=title,
+            link=link,
+            description=_workspaces_body(s),
+            pubdate=_iso_time(s.get('publishedAt')),
+            unique_id=link,
+        )
+    return feed.writeString('utf-8')
+
+
 SOURCES = {
     'pubg': pubg_news,
+    'workspaces': workspaces_setups,
 }
 
 
