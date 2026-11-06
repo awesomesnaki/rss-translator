@@ -41,6 +41,7 @@ STALE_MAX_DAYS = 60
 STALE_DEFAULT_DAYS = 30
 FAIL_ALERT_HOURS = 24
 REMIND_DAYS = 7
+API_FAIL_RUNS = 2                # 连续几次运行 DeepSeek 调用全部失败才报警
 MAX_ALERT_ITEMS = 30
 SEEN_LIMIT = 200
 NEW_TIMES_LIMIT = 20
@@ -152,7 +153,7 @@ def _esc(s):
     return (s or '').replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
 
 
-def update(state, feeds_config, reports, now):
+def update(state, feeds_config, reports, now, api=None):
     """用本次运行的结果更新健康状态，返回更新后的 state。
 
     reports: {feed名: {'ok': bool, 'error': str, 'links': [...], 'dates': [...]}}
@@ -235,6 +236,9 @@ def update(state, feeds_config, reports, now):
                        f'<p>从 {inc["since"][:16].replace("T", " ")} UTC 开始的处理失败持续了约 '
                        f'{hours:.0f} 小时，现在已恢复正常。</p>', ACTIONS_URL)
 
+    if api:
+        _update_api(state, api, now)
+
     if first_run:
         _alert(state, now, '*', 'enabled', f'✅ Feed 健康检查已启用，正在监控 {len(names)} 个源',
                f'<p>源停更或连续失败超过 {FAIL_ALERT_HOURS} 小时时，这里会出现一条告警；'
@@ -265,15 +269,64 @@ def write_feed(state, path=FEED_FILE):
         feed.write(f, 'utf-8')
 
 
-def run(feeds_config, reports, now=None):
+def _update_api(state, api, now):
+    """DeepSeek 相关：模型版本变化通知；连续 API_FAIL_RUNS 次运行全部调用失败时告警。
+
+    API 失败时 translate_with_deepseek 返回 None，正文用英文原文顶上、源本身照常「成功」，
+    上面按源的检查看不出来；余额用完、key 失效、模型名下线都会这样，而阅读器不会更新已收录
+    的条目，英文原文就永远留在那了，所以比源失败报得更快（不等 24 小时）"""
+    a = state.setdefault('api', {'model_name': None, 'fail_runs': 0, 'fail_since': None, 'incident': None})
+    name = api.get('model_name')
+    if name and a['model_name'] and name != a['model_name']:
+        _alert(state, now, '*', 'model-changed', f"🔄 翻译模型已更新：{a['model_name']} → {name}",
+               f"<p>DeepSeek 把 <code>{_esc(api.get('model'))}</code> 指向了新版本 {_esc(name)}，"
+               f"之后的新文章都由它翻译（已翻译过的命中缓存，不受影响）。</p>"
+               f'<p>新版本的价格可能不同，留意 <a href="https://api-docs.deepseek.com/zh-cn/quick_start/pricing">'
+               f'DeepSeek 价格页</a>；有变化的话改 translate_rss.py 里的 <code>PRICE_PER_M</code>，'
+               f'日志里的费用估算才准。</p>', 'https://api-docs.deepseek.com/zh-cn/quick_start/pricing')
+    if name:
+        a['model_name'] = name
+
+    calls, failures = api.get('calls', 0), api.get('failures', 0)
+    if not calls:
+        return                                   # 全部命中缓存，没有信息
+    if failures < calls:                         # 至少有调用成功：偶发失败不算
+        if a['incident']:
+            _alert(state, now, '*', 'api-recovered', '✅ DeepSeek API 已恢复',
+                   f"<p>从 {a['incident']['since'][:16].replace('T', ' ')} UTC 开始的 API 调用失败已恢复，"
+                   f"新文章恢复翻译。期间进入阅读器的文章是英文原文，阅读器不会自动更新它们。</p>", ACTIONS_URL)
+        a.update(fail_runs=0, fail_since=None, incident=None)
+        return
+    a['fail_runs'] += 1
+    a['fail_since'] = a['fail_since'] or _iso(now)
+    a['last_error'] = api.get('last_error', '')
+    if a['fail_runs'] < API_FAIL_RUNS:
+        return
+    inc = a['incident']
+    if inc and (now - _parse(inc['alerted'])) < timedelta(days=REMIND_DAYS):
+        return
+    n = inc['n'] + 1 if inc else 1
+    _alert(state, now, '*', 'api-failing',
+           f"❌ DeepSeek API 调用全部失败（连续 {a['fail_runs']} 次运行）" + ('' if n == 1 else f'（第 {n} 次提醒）'),
+           f"<p>从 {a['fail_since'][:16].replace('T', ' ')} UTC 开始，每次运行的翻译调用都失败了，"
+           f"这段时间新文章都以英文原文发布（不写缓存，恢复后新文章会正常翻译，但已进入阅读器的不会更新）。</p>"
+           f"<p>最近一次的错误：<code>{_esc(a['last_error'])}</code></p>"
+           f"<p>常见原因：账户余额用完（402）、API key 失效（401）、模型名被下线（400/404）。"
+           f'详细日志见 <a href="{ACTIONS_URL}">GitHub Actions</a>。</p>', ACTIONS_URL)
+    a['incident'] = {'since': a['fail_since'], 'alerted': _iso(now), 'n': n}
+
+
+def run(feeds_config, reports, now=None, api=None):
     """主流程调用入口：更新状态、写 health.json 和 feeds/health.xml，并在 Actions 日志里打出未恢复的问题"""
     if any(fc['name'] == FEED_NAME for fc in feeds_config):
         raise ValueError(f'config.yaml 里的源不能叫 {FEED_NAME}，会和健康检查的输出 feeds/{FEED_NAME}.xml 冲突')
     now = now or datetime.now(timezone.utc).replace(microsecond=0)
-    state = update(load_state(), feeds_config, reports, now)
+    state = update(load_state(), feeds_config, reports, now, api)
     save_state(state)
     write_feed(state)
     for name, kind, inc in open_incidents(state):
         what = '停更' if kind == 'stale' else '连续失败'
         print(f"::warning title=Feed 健康检查::{name} {what}（自 {inc['since'][:10]} 起）")
+    if (state.get('api') or {}).get('incident'):
+        print(f"::warning title=Feed 健康检查::DeepSeek API 调用全部失败（自 {state['api']['incident']['since'][:10]} 起）")
     return state

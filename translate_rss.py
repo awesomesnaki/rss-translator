@@ -7,6 +7,7 @@ import json
 import re
 import difflib
 from concurrent.futures import ThreadPoolExecutor, as_completed
+import threading
 from pathlib import Path
 from bs4 import BeautifulSoup
 from feedgenerator import Rss201rev2Feed
@@ -22,6 +23,129 @@ client = OpenAI(
     api_key=os.environ.get("DEEPSEEK_API_KEY"),
     base_url="https://api.deepseek.com"
 )
+
+# 模型：用不带版本号的 deepseek-flash，DeepSeek 会把它指向当前最新的 Flash 版本（2026-11 是
+# DeepSeek-V4.1-Flash-1017），不用跟着改代码。以前写死的 deepseek-v4-flash 已经下线，只是旧名字
+# 还被接受、转给新模型——哪天不接受了，所有翻译都会失败。每次运行先查 /models（resolve_model），
+# 记下实际在服务的版本名；版本变了会在健康检查 feed 里通知（新版本价格可能不同）。
+DEFAULT_MODEL = 'deepseek-flash'
+MODEL = DEFAULT_MODEL
+MODEL_NAME = None            # /models 返回的显示名，如 DeepSeek-V4.1-Flash
+
+# 思考模式必须显式关掉：flash 模型默认开启思考（官方文档「支持非思考与思考模式（默认）」），
+# 翻译用不着推理，思维链却按输出 token 计费，还和译文共用 max_tokens——标题总结只给 100 个
+# token，思维链先把额度吃光、正文为空，就会退回成整段翻译（somepics 一部分标题是全文译文就是这么来的）
+NO_THINKING = {'thinking': {'type': 'disabled'}}
+
+# 用量估算用的单价（元/百万 tokens，2026-11 官方空闲时段价格，高峰时段翻倍）。只用于日志里的
+# 粗略估算，价格变了改这里
+PRICE_PER_M = {'input_hit': 0.02, 'input_miss': 1.0, 'output': 4.0}
+
+
+def resolve_model():
+    """查 /models 选翻译模型：优先 deepseek-flash，没有就选 id 里带 flash 的；查不到就用默认值"""
+    global MODEL, MODEL_NAME
+    try:
+        models = list(client.models.list().data)
+    except Exception as e:
+        print(f"查询模型列表失败，使用默认模型 {DEFAULT_MODEL}: {e}")
+        return MODEL, MODEL_NAME
+    by_id = {m.id: m for m in models}
+    pick = by_id.get(DEFAULT_MODEL) or next(
+        (m for m in sorted(models, key=lambda m: m.id, reverse=True) if 'flash' in m.id), None)
+    if pick is None:
+        print(f"模型列表里没有 flash 模型（{sorted(by_id)}），使用默认模型 {DEFAULT_MODEL}")
+        return MODEL, MODEL_NAME
+    MODEL = pick.id
+    MODEL_NAME = (getattr(pick, 'model_extra', None) or {}).get('name') or pick.id
+    print(f"翻译模型: {MODEL}（{MODEL_NAME}）")
+    return MODEL, MODEL_NAME
+
+
+class ApiUsage:
+    """统计每个源的 API 调用次数和 token 用量（多线程共用），运行结束打到日志里。
+    以前只能靠逐个 commit 对比 feeds/*.xml 间接估算 token，现在每次运行都有真实数字"""
+
+    FIELDS = ('calls', 'failures', 'prompt', 'cache_hit', 'completion', 'reasoning')
+
+    def __init__(self):
+        self._lock = threading.Lock()
+        self.by_feed = {}
+        self.last_error = ''
+
+    def _row(self, feed):
+        return self.by_feed.setdefault(feed, dict.fromkeys(self.FIELDS, 0))
+
+    def record(self, feed, usage):
+        extra = getattr(usage, 'model_extra', None) or {}
+        details = getattr(usage, 'completion_tokens_details', None)
+        with self._lock:
+            r = self._row(feed)
+            r['calls'] += 1
+            r['prompt'] += getattr(usage, 'prompt_tokens', 0) or 0
+            r['cache_hit'] += extra.get('prompt_cache_hit_tokens') or 0
+            r['completion'] += getattr(usage, 'completion_tokens', 0) or 0
+            r['reasoning'] += (getattr(details, 'reasoning_tokens', 0) or 0) if details else 0
+
+    def fail(self, feed, error):
+        with self._lock:
+            r = self._row(feed)
+            r['calls'] += 1
+            r['failures'] += 1
+            self.last_error = f'{type(error).__name__}: {error}'[:300]
+
+    def totals(self):
+        t = dict.fromkeys(self.FIELDS, 0)
+        for r in self.by_feed.values():
+            for k in self.FIELDS:
+                t[k] += r[k]
+        return t
+
+    @staticmethod
+    def cost(r):
+        miss = r['prompt'] - r['cache_hit']
+        return (r['cache_hit'] * PRICE_PER_M['input_hit'] + miss * PRICE_PER_M['input_miss']
+                + r['completion'] * PRICE_PER_M['output']) / 1e6
+
+    def report(self):
+        t = self.totals()
+        if not t['calls']:
+            print("DeepSeek 用量：本次没有调用 API（全部命中缓存）")
+            return
+        print(f"DeepSeek 用量（{MODEL} / {MODEL_NAME or '未知版本'}）：{t['calls']} 次调用"
+              f"（失败 {t['failures']}），输入 {t['prompt']:,} tokens（缓存命中 {t['cache_hit']:,}），"
+              f"输出 {t['completion']:,} tokens（其中推理 {t['reasoning']:,}），"
+              f"按空闲时段价约 ¥{self.cost(t):.3f}")
+        for feed, r in sorted(self.by_feed.items(), key=lambda kv: -self.cost(kv[1])):
+            print(f"  {feed:24} {r['calls']:3} 次  输入 {r['prompt']:>8,}  输出 {r['completion']:>8,}"
+                  f"  推理 {r['reasoning']:>6,}  ¥{self.cost(r):.4f}"
+                  + (f"  失败 {r['failures']}" if r['failures'] else ''))
+
+
+USAGE = ApiUsage()
+_current = threading.local()          # 当前线程正在处理的源，用量按源归账
+
+
+def chat(system_prompt, user_content, max_tokens):
+    """调用 DeepSeek（非思考模式），记录用量。失败时抛出异常，由调用方决定怎么兜底"""
+    feed = getattr(_current, 'feed', '-')
+    try:
+        response = client.chat.completions.create(
+            model=MODEL,
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_content},
+            ],
+            temperature=0.3,
+            max_tokens=max_tokens,
+            extra_body=NO_THINKING,
+        )
+    except Exception as e:
+        USAGE.fail(feed, e)
+        raise
+    if response.usage is not None:
+        USAGE.record(feed, response.usage)
+    return (response.choices[0].message.content or '').strip()
 
 # GitHub Pages 根地址，self_host_images 自托管图片时拼 URL 用
 GH_PAGES_BASE = 'https://awesomesnaki.github.io/rss-translator'
@@ -282,22 +406,9 @@ def translate_with_deepseek(text):
         return text
     
     try:
-        response = client.chat.completions.create(
-            model="deepseek-v4-flash",
-            messages=[
-                {
-                    "role": "system",
-                    "content": "你是一个专业翻译。请将用户提供的英文内容翻译成流畅自然的中文。\n要求：\n1. 只输出翻译结果\n2. 完整保留所有HTML标签（如<p>、<strong>、<a>、<em>、<figure>等），只翻译标签内的文字\n3. 不要添加任何markdown格式符号（如**、*、#等）\n4. 保留所有链接URL和图片路径不变\n5. 保持原文的语气和风格"
-                },
-                {
-                    "role": "user",
-                    "content": text
-                }
-            ],
-            temperature=0.3,
-            max_tokens=8192
-        )
-        reply = response.choices[0].message.content.strip()
+        reply = chat(
+            "你是一个专业翻译。请将用户提供的英文内容翻译成流畅自然的中文。\n要求：\n1. 只输出翻译结果\n2. 完整保留所有HTML标签（如<p>、<strong>、<a>、<em>、<figure>等），只翻译标签内的文字\n3. 不要添加任何markdown格式符号（如**、*、#等）\n4. 保留所有链接URL和图片路径不变\n5. 保持原文的语气和风格",
+            text, max_tokens=8192)
         if not reply or looks_like_refusal(reply):
             print(f"模型未返回译文（拒答或空回复），本次跳过缓存: {text[:40]!r}")
             return None
@@ -340,22 +451,9 @@ def summarize_title_text(text, cache):
         return cache[cache_key]
 
     try:
-        response = client.chat.completions.create(
-            model="deepseek-v4-flash",
-            messages=[
-                {
-                    "role": "system",
-                    "content": "你是一个标题总结助手。用户会给你一段图片帖子的长文字描述，请将其总结为一个简短的中文标题（一个短语或一句话，不超过15个字）。只输出标题本身，不要加引号或其他格式。"
-                },
-                {
-                    "role": "user",
-                    "content": text
-                }
-            ],
-            temperature=0.3,
-            max_tokens=100
-        )
-        result = response.choices[0].message.content.strip()
+        result = chat(
+            "你是一个标题总结助手。用户会给你一段图片帖子的长文字描述，请将其总结为一个简短的中文标题（一个短语或一句话，不超过15个字）。只输出标题本身，不要加引号或其他格式。",
+            text, max_tokens=100)
         time.sleep(0.3)
         if not result or looks_like_refusal(result):
             return translate_text(text, cache)
@@ -1175,6 +1273,7 @@ def translate_feed(feed_config, cache, content_store, report=None):
 def process_single_feed(feed_config, cache, content_store, output_dir):
     """处理单个 feed（供线程池调用）。返回 (名字, 是否成功, 健康检查报告)"""
     report = {}
+    _current.feed = feed_config['name']
     try:
         translated_feed = translate_feed(feed_config, cache, content_store, report)
 
@@ -1198,6 +1297,7 @@ def main():
         return
 
     config = load_config()
+    resolve_model()
     cache = load_cache()
     content_store = load_content_store()
 
@@ -1222,9 +1322,14 @@ def main():
     save_cache(cache)
     save_content_store(content_store)
 
+    USAGE.report()
+
     # 健康检查：停更 / 连续失败的源写进 feeds/health.xml。它出错不能影响翻译结果的提交
+    totals = USAGE.totals()
+    api = {'model': MODEL, 'model_name': MODEL_NAME, 'calls': totals['calls'],
+           'failures': totals['failures'], 'last_error': USAGE.last_error}
     try:
-        feed_health.run(config['feeds'], reports)
+        feed_health.run(config['feeds'], reports, api=api)
     except Exception as e:
         print(f"健康检查失败: {type(e).__name__}: {e}")
     
