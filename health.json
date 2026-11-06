@@ -40,14 +40,18 @@
    "since": "2026-11-06T11:40:55Z"
   },
   "DaringFireball": {
-   "activity": "2026-11-05T21:31:04Z",
+   "activity": "2026-11-06T19:47:47Z",
    "fail_runs": 0,
    "fail_since": null,
    "incidents": {},
    "last_error": "",
-   "last_new": null,
-   "new_times": [],
+   "last_new": "2026-11-06T19:47:47Z",
+   "new_times": [
+    "2026-11-06T19:47:47Z"
+   ],
    "seen": [
+    "c69c6ccedf60",
+    "14d3ae1132a6",
     "140b259f41f0",
     "143b8f0ef76a",
     "f7a8a140fbc7",
@@ -91,8 +95,6 @@
     "16d320b7e831",
     "53f34e242ce5",
     "2848a4ec587d",
-    "fb7e1abd9a38",
-    "1f3c6a5a3f1f",
     "464ce25070a6",
     "bfa1fff376c2",
     "6bbd877191af"
@@ -100,14 +102,17 @@
    "since": "2026-11-06T11:40:55Z"
   },
   "SimonWillisonQuotes": {
-   "activity": "2026-11-05T17:34:03Z",
+   "activity": "2026-11-06T19:47:47Z",
    "fail_runs": 0,
    "fail_since": null,
    "incidents": {},
    "last_error": "",
-   "last_new": null,
-   "new_times": [],
+   "last_new": "2026-11-06T19:47:47Z",
+   "new_times": [
+    "2026-11-06T19:47:47Z"
+   ],
    "seen": [
+    "0491af650884",
     "47b83a0356ce",
     "0d42c35b898b",
     "54ea90116a50",
@@ -136,8 +141,7 @@
     "823f0823247e",
     "515de6e578fa",
     "7802d95a6ccb",
-    "adc911a27597",
-    "6b4083129b1f"
+    "adc911a27597"
    ],
    "since": "2026-11-06T11:40:55Z"
   },
@@ -201,34 +205,36 @@
    "since": "2026-11-06T11:40:55Z"
   },
   "cnbeta": {
-   "activity": "2026-11-06T10:48:00Z",
+   "activity": "2026-11-06T19:47:47Z",
    "fail_runs": 0,
    "fail_since": null,
    "incidents": {},
    "last_error": "",
-   "last_new": null,
-   "new_times": [],
+   "last_new": "2026-11-06T19:47:47Z",
+   "new_times": [
+    "2026-11-06T19:47:47Z"
+   ],
    "seen": [
-    "4487b4e7e2b6",
-    "9823f8b75ffc",
-    "8c26a1eaadd0",
-    "a73c01f44044",
-    "f21f6b27104d",
-    "ab8764b3fce6",
-    "3ba199ad6e5e",
-    "1dea01b217b9",
-    "8a9e3a3f7606",
-    "d591cb887f0d",
-    "e40f47ab7151",
-    "e2701d921358",
-    "2463c615b37d",
-    "a8fd6874def7",
-    "1a6c2a4e0849",
-    "e55edf6595e3",
-    "fcd957a4e4fb",
-    "e3f14fbb5172",
-    "5a9070fb78cc",
-    "d37e172d0049"
+    "46c7d3ffc261",
+    "b1c5a7b8532a",
+    "df26c81ce108",
+    "38339a11020b",
+    "d5a983fcc845",
+    "7987d8154e60",
+    "9a5160f6ed91",
+    "d416998f931d",
+    "516f29a43cd6",
+    "9bd032ae6853",
+    "9dc89f39edb8",
+    "f5a7a55b4933",
+    "b2e63743d82d",
+    "64f52a5db434",
+    "a881c1043dfc",
+    "529757b7a73b",
+    "6be2bd12ae58",
+    "8c33b34092d9",
+    "3596e4cf6c43",
+    "a80239301129"
    ],
    "since": "2026-11-06T11:40:55Z"
   },
@@ -898,14 +904,24 @@
    "since": "2026-11-06T11:40:55Z"
   },
   "somepics": {
-   "activity": "2026-11-06T11:26:16Z",
+   "activity": "2026-11-06T19:47:47Z",
    "fail_runs": 0,
    "fail_since": null,
    "incidents": {},
    "last_error": "",
-   "last_new": null,
-   "new_times": [],
+   "last_new": "2026-11-06T19:47:47Z",
+   "new_times": [
+    "2026-11-06T19:47:47Z"
+   ],
    "seen": [
+    "0f13f1efce69",
+    "1513fb92bbe1",
+    "71fb6650f9fa",
+    "fe5367004737",
+    "01d1ee9aef1d",
+    "6b1422cdcb16",
+    "bbdccf2e5d5d",
+    "ea73508a8eeb",
     "a5ec004150ee",
     "b734fa419edc",
     "ab7d7138e512",
@@ -981,15 +997,7 @@
     "7a2161cd5c1a",
     "13d7cf7fb1d7",
     "4c4739541d84",
-    "e15c93b53471",
-    "76fcbf68333f",
-    "7d57fd47cc0d",
-    "284deb168d50",
-    "15bd098b2323",
-    "cc72e483435f",
-    "e8a131254fe4",
-    "a6399b77ed9b",
-    "50150a751ea6"
+    "e15c93b53471"
    ],
    "since": "2026-11-06T11:40:55Z"
   },
@@ -1171,13 +1179,11 @@
     "4f166d02cc42",
     "d10cbfc4ed3b",
     "2250da6510fd",
-    "0722bc2df8f8",
     "4ab1cb2df910",
     "5f6ce023f2d0",
     "d00d23fa1148",
     "86479a347ba6",
-    "e936d182389b",
-    "f6434e08bcec"
+    "e936d182389b"
    ],
    "since": "2026-11-06T11:40:55Z"
   },

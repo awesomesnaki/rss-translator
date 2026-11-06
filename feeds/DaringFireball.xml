@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Thu, 05 Nov 2026 21:31:04 +0000</lastBuildDate><item><title>《沙龙》停刊</title><link>https://www.salon.com/2026/11/05/goodbye-from-salon/</link><description>&lt;p&gt;Salon在一篇未署名的告别帖中写道：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daring Fireball (中文)</title><link>https://daringfireball.net/</link><description>作者：约翰·格鲁伯</description><language>zh-CN</language><lastBuildDate>Fri, 06 Nov 2026 15:03:51 +0000</lastBuildDate><item><title>Apple 支持：“关于配备 PROLED XDR 显示屏的 MacBook Pro 上发光的 Apple 标志”</title><link>https://support.apple.com/en-us/149248</link><description>&lt;p&gt;Apple 支持：&lt;/p&gt;&lt;blockquote&gt;
+&lt;p&gt;要在所有光照条件下让 Apple 标志变暗，你可以使用“终端”关闭其照明，终端位于“应用程序”文件夹中的“实用工具”文件夹内。你也可以使用“聚焦”来找到并打开它。&lt;/p&gt;
+&lt;p&gt;在“终端”中键入或粘贴以下命令，然后按下 Return 键：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo defaults write com.apple.CoreBrightness LEBacklightMode -int 0&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;[……]&lt;/p&gt;
+&lt;p&gt;要重新开启标志照明，请在“终端”中输入以下命令：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo defaults delete com.apple.CoreBrightness LEBacklightMode&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;&lt;p&gt;Apple 可能会把它做成图形界面设置，但如果是我的话，我会保持现状。让那些灵魂里没有乐趣的人去用终端命令吧。&lt;/p&gt;&lt;p&gt;（将其保留为 &lt;code&gt;defaults&lt;/code&gt; 设置也有助于强调，关闭它并不能节省任何有意义的电池续航。如果这被暴露为图形界面偏好设置，我能看到它会作为一个愚蠢的“专业提示”传播开来，说是关闭它可以节省电池续航，就像数百万人所持有的那种不可动摇、完全错误的信念——认为他们应该虔诚地在 iOS 上强制退出应用，而事实上，当应用从冷启动重新启动时，这样做反而会消耗&lt;em&gt;更多&lt;/em&gt;能量。）&lt;/p&gt;&lt;a href="https://daringfireball.net/linked/2026/11/06/apple-support-illuminated-apple-logo" title="Permanent link to ‘Apple Support: ‘About the Illuminated Apple Logo on MacBook Pro With PROLED XDR Display’’"&gt; ★ &lt;/a&gt;</description><pubDate>Fri, 06 Nov 2026 15:03:51 +0000</pubDate></item><item><title>总统应对得当</title><link>https://www.wsj.com/politics/policy/trump-signs-proclamation-he-says-will-protect-oval-office-from-major-changes-93f3285b</link><description>&lt;p&gt;《华尔街日报》，“特朗普签署公告，称将保护椭圆形办公室免受重大改动”：&lt;/p&gt;&lt;blockquote&gt;
+&lt;p&gt;特朗普总统周四签署了一项公告，他表示该公告将把白宫的椭圆形办公室和内阁会议室指定为地标，以防止未来的总统对它们进行重大改动。&lt;/p&gt;
+&lt;p&gt;“它们不能被拆除、摧毁、触碰或做任何其他事情，”特朗普对记者说。“实际上，这被称为国家纪念物。它是一个联邦地标，当完成并且当我们把文件完全办妥、具有法律约束力时，它将使任何人永远不可能摧毁这个不可思议的空间。”&lt;/p&gt;
+&lt;/blockquote&gt;&lt;p&gt;哦，老兄，到2029年1月20日上午过半时，那些黄铁矿般的废话全都会被从墙上撬下来扔进垃圾箱。&lt;/p&gt;&lt;p&gt;你知道《低俗小说》里&lt;a href="https://www.youtube.com/watch?v=VO48Vr4KIc8"&gt;那个场景&lt;/a&gt;吗？约翰·特拉沃尔塔饰演的文森特·维加告诉他的毒贩（埃里克·斯托尔兹）他那辆老式雪佛兰Malibu被人划了？“天哪，我真希望能当场抓住他。我愿意付出一切来抓住那个混蛋。哪怕他划了车也值得，只要我能抓住他。还有什么比动一个男人的车更卑鄙的事？”&lt;/p&gt;&lt;p&gt;我对特朗普和接下来两年的感觉差不多就是这样。&lt;/p&gt;&lt;a href="https://daringfireball.net/linked/2026/11/06/the-president-is-coping-well" title="Permanent link to ‘The President is Coping Well’"&gt; ★ &lt;/a&gt;</description><pubDate>Fri, 06 Nov 2026 15:00:22 +0000</pubDate></item><item><title>《沙龙》停刊</title><link>https://www.salon.com/2026/11/05/goodbye-from-salon/</link><description>&lt;p&gt;Salon在一篇未署名的告别帖中写道：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;三十一年是一段非凡的历程，但最重要的是这些年里发生的一切：新闻工作、思想、声音、对话，以及围绕它们成长起来的社群。Salon帮助展示了数字新闻可以是什么样子，以及可以成为什么样子。我们希望这份遗产在今日之后仍将长久地具有重要意义。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -42,25 +52,4 @@
 &lt;p&gt;你可以一直欺骗一部分人，也可以在某些时候欺骗所有人，但你不可能一直欺骗所有人。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;a href="https://daringfireball.net/linked/2026/11/04/this-election-will-not-look-surprising-in-history" title="‘本次选举在历史中不会显得令人惊讶’的永久链接"&gt; ★ &lt;/a&gt;
-</description><pubDate>Wed, 04 Nov 2026 15:15:51 +0000</pubDate></item><item><title>“政治清算粉碎了特朗普对华盛顿的掌控”</title><link>https://www.wsj.com/politics/elections/a-political-reckoning-shatters-trumps-grip-on-washington-bd3c7705?st=xABDit</link><description>&lt;p&gt;亚伦·齐特纳在鲁珀特·默多克旗下的《华尔街日报》报道：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;在美国政治中，很少有总统如此迅速地丢掉如此多的政治支持。&lt;/p&gt;
-&lt;p&gt;共和党人在周二遭受的损失，标志着现代史上对一位总统最具决定性的否定之一。特朗普总统重返白宫时，拥有他在第一任期所缺乏的优势：赢得普选票、一批渴望扩大其权力的助手，以及一种文化影响力，甚至让NFL球员在端区跳起“特朗普舞”。&lt;/p&gt;
-&lt;p&gt;仅仅两年后，他的政治地位已经崩塌，原因完全在于他对自己塑造事件的能力作出了严重误判。对伊朗发动一场主动选择的战争，以及对美国贸易伙伴加征关税，违背了他避免海外纠缠和遏制通胀的承诺。他对本党初选的非常干预，使共和党人得到一批异常弱势的候选人。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;民主党从在华盛顿无权，变成在众议院拥有巨大多数，并显然在参议院拥有55比45甚至56比44的多数。&lt;a href="https://www.nbcnews.com/politics/2026-elections/georgia-governor-results"&gt;凯莎·兰斯·博顿斯当选首位黑人女性州长&lt;/a&gt;，这在历史上尚属首次——在&lt;em&gt;佐治亚州&lt;/em&gt;。以9个百分点的优势。&lt;a href="https://www.nytimes.com/2026/11/04/us/texas-talarico-hinojosa-abbott-paxton.html?unlocked_article_code=1.N1E.-7W3.vGY-dcYSYFiL"&gt;得克萨斯州选出了民主党人&lt;/a&gt;进入参议院和州长官邸。堪萨斯州选出一名民主党参议员&lt;a href="https://www.nytimes.com/2026/11/03/us/kansas-senate-marshall-hamilton.html?unlocked_article_code=1.N1E.6vJy.RMWLyOyKsCLa"&gt;，为94年来首次&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;这场狂热终于彻底消退。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/11/04/political-reckoning" title="Permanent link to ‘‘Political Reckoning Shatters Trump’s Grip on Washington’’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Wed, 04 Nov 2026 14:56:47 +0000</pubDate></item><item><title>苹果开始向开发者开放Siri人工智能</title><link>https://developer.apple.com/news/?id=gdk2umrf</link><description>&lt;p&gt;Apple Developer：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;从今天起，随着 iOS 27.3、iPadOS 27.3、macOS 27.3 和 visionOS 27.3 测试版推出，新的开发者预览版让任何开发者都能将其应用与 Siri AI 集成，为企业与开发者提供接触并服务客户的新方式。[...]&lt;/p&gt;
-&lt;p&gt;这个开发者测试版让开发者抢先一窥 Siri AI App Intents。借助这个早期开发者预览版，你的应用可以直接与 Siri AI 协作，让你率先了解接触并服务客户的新方式。该预览版在几个月后首次向客户发布之前提供早期访问；而随着春季 App Store 提交通道开放，开发者有时间在发布前探索、构建并帮助塑造他们的体验。试用并分享你的反馈。&lt;/p&gt;
-&lt;p&gt;在你早期探索的同时，我们将后续提供更多关于通过 Siri AI 启用的体验的条款和使用政策的细节。很快会分享更多内容。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a href="https://mastodon.social/@agiletortoise/117554110669725591"&gt;Greg Pierce&lt;/a&gt;（&lt;a href="https://getdrafts.com/"&gt;Drafts&lt;/a&gt; 和 &lt;a href="https://agiletortoise.com/"&gt;其他优秀应用&lt;/a&gt;的开发者）：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;这听起来太棒了，我原以为要到下一届 WWDC 才能看到 App Intents 集成到 Siri AI 中。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Siri AI 正逐渐做到少承诺、多兑现，这正是产品应有的状态。2025 年情况&lt;a href="https://daringfireball.net/2025/03/something_is_rotten_in_the_state_of_cupertino"&gt;如此糟糕&lt;/a&gt;，苹果过度承诺，不只是兑现不足，而是什么都没兑现。&lt;/p&gt;
-&lt;a href="https://daringfireball.net/linked/2026/11/03/apple-begins-opening-siri-ai-to-developers" title="Permanent link to ‘Apple Begins Opening Siri AI to Developers’"&gt; ★ &lt;/a&gt;
-</description><pubDate>Tue, 03 Nov 2026 23:58:49 +0000</pubDate></item></channel></rss>
+</description><pubDate>Wed, 04 Nov 2026 15:15:51 +0000</pubDate></item></channel></rss>
