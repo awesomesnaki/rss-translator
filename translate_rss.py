@@ -365,92 +365,213 @@ def summarize_title_text(text, cache):
         return translate_text(text, cache)
 
 
-def translate_html_direct(html_content, cache):
-    """调用 API 翻译一段 HTML，保留标签结构。翻译失败返回 None（不写缓存，留待下次重试）"""
+# ---------------------------------------------------------------------------
+# HTML 翻译：瘦身 + 段落级缓存
+#
+# 以前按「顶层元素凑够 3000 字一组」翻译、按组缓存。问题有两个：
+# 1. 作者在中间插一段、改一个错字，插入点之后所有组的边界都会移位，hash 全变 → 几乎整篇重翻。
+#    basicappleguy 一篇边用边记的长文作者追加了 8 次，每次都整篇重翻，重翻量是新文的 1.8 倍；
+#    DaringFireball 的 Gruber 改稿也是同样的情况。
+# 2. class / id / data-* / <picture><source srcset> 这些标记，模型要读一遍、原样输出一遍，翻译后又被
+#    clean_readability_html 删掉，白花 token（实测约占送翻字符的两成）；而且上游只改了标记、
+#    正文一字没变时（Substack、Squarespace 改模板），hash 也会变 → 整篇重翻。
+#
+# 现在的做法：
+# - 先查整篇缓存（key 是原始 HTML 的 hash，和以前一样），已经翻译过的文章直接命中，
+#   这个改动上线时不会让现有缓存失效。
+# - 没命中就先瘦身（slim_html），再切成段落（split_segments：每个块级元素一段，连续的行内内容
+#   合成一段），每段单独缓存（key = "seg:" + 段落 hash）。只把没命中的段落送去翻译，
+#   相邻的打成一包（不超过 TRANSLATE_BATCH_CHARS），调用次数和以前一样。
+# - 译文用同一个切分器切开，逐段核对标签名能和原文对上，才按段写缓存；对不上（模型合并/拆分了
+#   段落）就整包原样使用、不按段缓存——效果和以前按组缓存完全一样，不会多一次调用。
+#   所以这套机制不依赖模型保留任何特殊标记。
+# - 没有英文字母的段落（纯图片、分隔线、数字）不翻译，原样保留。
+# ---------------------------------------------------------------------------
+TRANSLATE_BATCH_CHARS = 3000
+SEGMENT_CACHE_PREFIX = 'seg:'
+
+# 瘦身时保留的属性：链接、图片说明、表格结构等语义信息。图片/媒体标签原样不动（图片在翻译时
+# 会被换成占位符，属性再长也不花 token；懒加载的 data-src 之后还要靠 fix_image_tags 还原）
+SLIM_KEEP_ATTRS = {'href', 'src', 'alt', 'title', 'colspan', 'rowspan', 'start', 'datetime', 'cite'}
+SLIM_MEDIA_TAGS = {'img', 'iframe', 'video', 'audio', 'source', 'track', 'embed', 'object'}
+_IMAGE_HREF = re.compile(r'\.(jpe?g|png|gif|webp|avif|heic)(\?|$)|/image/', re.I)
+
+BLOCK_TAGS = {
+    'p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'ul', 'ol', 'dl', 'blockquote', 'pre', 'table',
+    'figure', 'hr', 'div', 'section', 'article', 'aside', 'header', 'footer', 'details', 'nav',
+    'main', 'address', 'center', 'form', 'fieldset', 'hgroup', 'iframe', 'video', 'audio', 'img',
+}
+_WRAPPER_TAGS = {'div', 'section', 'article', 'main', 'body', 'html'}
+
+
+def slim_html(html):
+    """去掉翻译用不到的标记，只保留语义。输出效果和翻译后 clean_readability_html 清理的结果一致"""
+    from bs4 import Comment
+    soup = BeautifulSoup(html, 'html.parser')
+    for tag in soup.find_all(['script', 'style', 'noscript', 'head']):
+        tag.decompose()
+    for tag in soup.find_all(['html', 'body']):          # readability 的输出带 <html><body> 外壳
+        tag.unwrap()
+    for comment in soup.find_all(string=lambda s: isinstance(s, Comment)):
+        comment.extract()
+    for picture in soup.find_all('picture'):            # 和 clean_readability_html 一样简化成 <img>
+        img = picture.find('img')
+        if img:
+            img.extract()
+            picture.replace_with(img)
+        else:
+            picture.decompose()
+    for tag in soup.find_all(True):
+        if tag.name in SLIM_MEDIA_TAGS:
+            if tag.name == 'img':
+                tag.attrs.pop('srcset', None)
+                tag.attrs.pop('sizes', None)
+            continue
+        tag.attrs = {k: v for k, v in tag.attrs.items() if k in SLIM_KEEP_ATTRS}
+    for tag in soup.find_all(['span', 'div']):
+        if not tag.attrs:
+            tag.unwrap()
+    # 只包着一张图、指向图片本身的链接（「点击看大图」，Substack 每张图都这样包一层超长 CDN 链接）
+    for a in soup.find_all('a'):
+        if (len(a.find_all('img')) == 1 and not a.get_text(strip=True)
+                and _IMAGE_HREF.search(a.get('href', ''))):
+            a.unwrap()
+    return str(soup)
+
+
+def split_segments(html):
+    """切成段落：每个块级元素一段，相邻的文字/行内元素合成一段，块之间的空白丢掉。
+    包着块级元素的包裹层（<div>/<section>/<article>/<main>）会被展开再切——AnthropicNews 的
+    正文整个包在一个 <article> 里，不展开的话整篇就是一段。返回 [(签名, html)]，签名用于核对译文"""
+    from bs4 import NavigableString, Tag
+
+    def has_blocks(tag):
+        return any(isinstance(c, Tag) and (c.name in BLOCK_TAGS or (c.name in _WRAPPER_TAGS and has_blocks(c)))
+                   for c in tag.children)
+
+    def expand(nodes):
+        for n in nodes:
+            if isinstance(n, Tag) and n.name in _WRAPPER_TAGS and has_blocks(n):
+                yield from expand(list(n.contents))
+            else:
+                yield n
+
+    nodes = list(expand(list(BeautifulSoup(html, 'html.parser').contents)))
+    segments, inline = [], []
+
+    def flush():
+        text = ''.join(str(n) for n in inline)
+        if text.strip():
+            segments.append(('#inline', text.strip()))
+        inline.clear()
+
+    for node in nodes:
+        if isinstance(node, Tag) and node.name in BLOCK_TAGS:
+            flush()
+            segments.append((node.name, str(node)))
+        else:
+            inline.append(node)
+    flush()
+    return segments
+
+
+def _needs_translation(segment_html):
+    text = BeautifulSoup(segment_html, 'html.parser').get_text()
+    return bool(re.search(r'[A-Za-z]', text))
+
+
+_IMG_TAG = re.compile(r'<img\s[^>]*/?>')
+
+
+def _protected_len(segment_html):
+    return len(_IMG_TAG.sub('<!-- IMG_0 -->', segment_html))
+
+
+def translate_html_fragment(html_content):
+    """调用 API 翻译一段 HTML，保留标签结构，不读写缓存。失败返回 None"""
     if not html_content or not html_content.strip():
         return html_content
-
-    content_hash = get_hash(html_content.strip())
-    if content_hash in cache:
-        return cache[content_hash]
-
     # 保护 img 标签不被翻译篡改（LLM 偶尔会改动 URL）
     img_store = {}
     def replace_img(match):
-        idx = len(img_store)
-        placeholder = f'<!-- IMG_{idx} -->'
+        placeholder = f'<!-- IMG_{len(img_store)} -->'
         img_store[placeholder] = match.group(0)
         return placeholder
-    protected = re.sub(r'<img\s[^>]*/?>', replace_img, html_content)
+    protected = _IMG_TAG.sub(replace_img, html_content)
 
     translated = translate_with_deepseek(protected)
     if translated is None:
         return None
-
-    # 还原 img 标签
     for placeholder, original in img_store.items():
         translated = translated.replace(placeholder, original)
-
-    cache[content_hash] = translated
     time.sleep(0.3)
     return translated
 
+
 def translate_html_content(html_content, cache):
-    """
-    整段翻译 HTML 内容，让 LLM 保留标签结构。
-    短内容直接翻译，超长内容按段落分组翻译。
-    """
+    """翻译整篇 HTML 正文（瘦身 + 段落级缓存，见上方说明）"""
     if not html_content or not html_content.strip():
         return html_content
 
-    # 先查整段缓存
-    content_hash = get_hash(html_content.strip())
-    if content_hash in cache:
-        return cache[content_hash]
+    whole_key = get_hash(html_content.strip())
+    if whole_key in cache:
+        return cache[whole_key]
 
-    # 短内容（<=3000字符），直接整段翻译
-    if len(html_content) <= 3000:
-        translated = translate_html_direct(html_content, cache)
-        if translated is None:
-            return html_content
-        cache[content_hash] = translated
-        return translated
-
-    # 长内容：按顶层元素分组，每组不超过 3000 字符
-    soup = BeautifulSoup(html_content, 'html.parser')
-    top_elements = list(soup.children)
-
-    groups = []
-    current = []
-    current_len = 0
-
-    for el in top_elements:
-        el_str = str(el)
-        if current_len + len(el_str) > 3000 and current:
-            groups.append(current)
-            current = [el]
-            current_len = len(el_str)
+    segments = split_segments(slim_html(html_content))
+    out = [None] * len(segments)          # None = 还没有译文，要送翻
+    for i, (_, seg) in enumerate(segments):
+        if not _needs_translation(seg):
+            out[i] = seg
         else:
-            current.append(el)
-            current_len += len(el_str)
+            key = SEGMENT_CACHE_PREFIX + get_hash(seg)
+            if key in cache:
+                out[i] = cache[key]
+    todo = [i for i, o in enumerate(out) if o is None]
+
+    # 把待翻段落按原文顺序打包：同一包必须是连续区间（中间只允许夹不需要翻译的段落），
+    # 这样对不上时可以整包原样放回去，顺序不乱
+    batches, current, size = [], [], 0
+    for i in todo:
+        gap = list(range(current[-1] + 1, i)) if current else []
+        bridgeable = all(not _needs_translation(segments[j][1]) for j in gap)
+        add = sum(_protected_len(segments[j][1]) for j in gap + [i])
+        if current and (not bridgeable or size + add > TRANSLATE_BATCH_CHARS):
+            batches.append(current)
+            current, size = [], 0
+            gap, add = [], _protected_len(segments[i][1])
+        current.extend(gap + [i])
+        size += add
     if current:
-        groups.append(current)
+        batches.append(current)
 
-    # 翻译每个分组
-    translated_parts = []
     any_failed = False
-    for group in groups:
-        group_html = "".join(str(el) for el in group)
-        translated_group = translate_html_direct(group_html, cache)
-        if translated_group is None:
-            any_failed = True
-            translated_group = group_html
-        translated_parts.append(translated_group)
+    for batch in batches:
+        source = ''.join(segments[i][1] for i in batch)
+        translated = translate_html_fragment(source)
+        if translated is None:
+            any_failed = True             # 本次用原文顶上，不写缓存，下次重试
+            for i in batch:
+                out[i] = segments[i][1]
+            continue
+        parts = split_segments(translated) if len(batch) > 1 else [(segments[batch[0]][0], translated)]
+        if len(parts) == len(batch) and all(p[0] == segments[i][0] for p, i in zip(parts, batch)):
+            for (_, part), i in zip(parts, batch):
+                if _needs_translation(segments[i][1]):
+                    out[i] = part
+                    cache[SEGMENT_CACHE_PREFIX + get_hash(segments[i][1])] = part
+                else:
+                    out[i] = segments[i][1]
+        else:
+            # 模型合并/拆分了段落，对不上：整包原样使用，不按段缓存（和以前按组缓存效果相同）
+            print(f"  译文段落对不上（{len(parts)} vs {len(batch)}），这一包不按段缓存")
+            out[batch[0]] = translated
+            for i in batch[1:]:
+                out[i] = ''
 
-    result = "".join(translated_parts)
-    # 有分组翻译失败就不写整段缓存，否则半中半英会被永久缓存下来
+    result = ''.join(out)
+    # 有分包翻译失败就不写整篇缓存，否则半中半英会被永久缓存下来
     if not any_failed:
-        cache[content_hash] = result
+        cache[whole_key] = result
     return result
 
 def fix_image_tags(html_content):

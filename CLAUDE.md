@@ -68,7 +68,8 @@
 
 ## 关键设计决策
 
-- **翻译缓存很重要** — `cache.json` 基于内容 hash。任何在翻译之前改变内容的操作（如 HTML 清理）都会导致缓存失效、全量重新翻译、workflow 超时。所以 HTML 清理必须放在翻译之后
+- **翻译缓存很重要** — `cache.json` 基于内容 hash。`translate_html_content` 先用**原始 HTML** 的 hash 查整篇缓存，所以任何改变「送进 `translate_html_content` 之前的内容」的操作（比如在主流程里提前清理 HTML）仍然会让整篇缓存失效；好在没命中后还有段落级缓存兜底（见下一条），只要段落文字没变就不会真的重翻。`clean_readability_html` 仍然放在翻译之后
+- **翻译前瘦身 + 段落级缓存** — 以前按「顶层元素凑够 3000 字一组」翻译、按组缓存，有两个漏洞：作者在中间插一段或改个错字，插入点之后所有组的边界都会移位 → 几乎整篇重翻（basicappleguy 一篇边用边记的长文作者追加了 8 次，重翻量是新文的 1.8 倍；DF 的 Gruber 经常改稿）；class/id/data-*/`<picture><source>` 这些标记模型要读一遍、原样再输出一遍，翻译后又被删掉，而且上游只改模板、正文一字没变时（Substack、Squarespace）hash 也会变 → 整篇重翻。现在整篇缓存没命中时：`slim_html` 先瘦身（只留 href/src/alt 等语义属性，图片和媒体标签原样不动），`split_segments` 切段（每个块级元素一段，连续的行内内容合成一段，包着块级元素的 div/section/article 和 readability 的 html/body 外壳会被展开），每段单独缓存（key 前缀 `seg:`），只把没命中的段落按连续区间打包送翻（每包 ≤3000 字，调用次数不变）。译文用同一个切分器切回去，逐段核对标签名对得上才按段写缓存；对不上（模型合并/拆分了段落）就整包原样使用，效果等同于以前的按组缓存，不会多花一次调用——所以不依赖模型保留任何特殊标记。没有英文字母的段落（纯图片、分隔线）不送翻。用 14 个源各 5 篇真实文章回放对比旧算法：新文章送翻字符少 19%，中间插一段时重发量少 96%，改一个错字少 90%，只改标记的模板变化从整篇重翻变成零调用；最终输出的图片、链接、段落、表格等结构元素与旧算法逐篇一致。上线时已在 feed 窗口里的文章靠整篇缓存照常命中，不会全量重翻
 - **缓存淘汰** — 缓存只增不减曾涨到 100MB 撞上 GitHub 单文件限制、push 被拒（GH001）。现在缓存格式为 `{key: {"v": 译文, "t": 最后使用日期}}`，每次命中/写入刷新日期，保存时淘汰超过 `CACHE_RETENTION_DAYS`（30 天）未使用的条目。feed 窗口内的条目每次运行都命中所以永远保鲜；旧格式字符串条目加载时视为日期未知，未命中即被清掉（一次性迁移瘦身）。序列化用紧凑格式（无缩进）
 - **3 线程并行** — 使用 ThreadPoolExecutor 同时处理 3 个 feed，显著缩短运行时间
 - **图片修复** — 所有 `<img>` 添加 `referrerpolicy="no-referrer"`（防盗链）；自动将 `data-src` 等懒加载属性还原为 `src`
@@ -110,6 +111,6 @@
 - 图片 CDN 防盗链严格、`no-referrer` 无效的源（如少数派），加 `self_host_images: true` 把图下载到本仓库自托管，代价是仓库体积会随运行增长
 - 开发请在独立分支上进行，通过 PR 合并到 main
 - 改 `translate.yml` 的 cron 时注意别排进 DeepSeek 峰时（UTC 周一至周五 01:00-04:00、06:00-10:00），也别排在峰时开始前一小时内（运行会跨进去）；周末不受限
-- 排查 token 消耗：`git log` 里逐个 commit 对比 `feeds/*.xml`，区分「新 guid」和「同一 guid 正文变了」——后者就是缓存失效在重复翻译，是真正的花钱大户。源站已停更、却每次都有 commit 的 feed 尤其可疑。按条目对比时注意正文里随时间变化的 URL 参数（如 beehiiv 的 `?v=` 时间戳）
+- 排查 token 消耗：`git log` 里逐个 commit 对比 `feeds/*.xml`，区分「新 guid」和「同一 guid 正文变了」——后者就是缓存失效在重复翻译，是真正的花钱大户。Actions 日志里出现「译文段落对不上」说明模型改动了段落结构、那一包没能按段缓存，偶尔出现正常，某个源频繁出现就值得看看它的 HTML 结构。源站已停更、却每次都有 commit 的 feed 尤其可疑。按条目对比时注意正文里随时间变化的 URL 参数（如 beehiiv 的 `?v=` 时间戳）
 - 加新豆瓣榜单：`douban_scraper.py` 顶部 `COLLECTIONS` 列表加一项，slug 即豆瓣 URL `/subject_collection/` 后面那部分
 - 豆瓣订阅地址：`https://awesomesnaki.github.io/rss-translator/feeds/douban-{collection}.xml`，不进 config.yaml 流程
