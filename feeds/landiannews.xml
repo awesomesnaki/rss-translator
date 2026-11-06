@@ -1,150 +1,159 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Fri, 06 Nov 2026 01:00:00 +0000</lastBuildDate><item><title>OpenSSH发布紧急安全更新修复SSH绕过密码认证登录 OpenWrt等系统是重灾区</title><link>https://www.landian.news/archives/128114.html</link><description>
-&lt;p&gt;#安全资讯 OpenSSH 发布紧急安全更新修复 SSH 绕过密码认证漏洞，OpenWrt 和 Alpine Linux 等系统是受影响重灾区。该漏洞仅在使用 musl libc 切禁用 PAM 支持的 Linux 环境中可被利用，像是 Debian 等发行版不受该漏洞影响。临时措施还包括禁用密码认证，改成密钥对连接，这也再次提醒我们最好默认使用密钥认证，不要使用密码。查看全文：https://ourl.co/128114&lt;/p&gt;&lt;p&gt;OpenSSH 项目组日前发布紧急安全更新 10.6P2 版为密码认证绕过问题提供缓解措施。OpenSSH 被各类系统广泛使用，该最新出现的漏洞可以在开启密码登录的情况下，使用错误密码绕过传统认证直接连接 SSH 服务。&lt;/p&gt;
-&lt;p&gt;目前受该问题影响比较严重的系统是 Alpine Linux 和 OpenWrt 等，像是 Debian 等系统由于采用的配置不同因此不受漏洞影响，建议使用相关受影响系统的用户立即检查更新并将 OpenSSH 升级到最新版。&lt;/p&gt;
-&lt;figure aria-describedby="caption-attachment-128173" id="attachment_128173"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128114.png" rel="nofollow"&gt;&lt;img alt="OpenSSH发布紧急安全更新修复SSH绕过密码认证登录 OpenWrt等系统是重灾区" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128114.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-128173"&gt;本图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Fri, 06 Nov 2026 06:30:00 +0000</lastBuildDate><item><title>没有Windows 12：微软正在准备Windows 11 27H2版更新 据称是重大版本更新</title><link>https://www.landian.news/archives/128125.html</link><description>
+&lt;p&gt;#系统资讯 Windows 11 27H2 版侧重点是系统质量和性能，也就是减少各类问题、提升稳定性并优化内存占用等。据称微软还将更换默认壁纸，不再使用沿用多年的 Windows 11 经典壁纸。当前的 25H2/26H2 均以 24H2 版为基础，属于小型更新，而目前传言是 27H2 版将是重大更新。查看全文：https://ourl.co/128125&lt;/p&gt;&lt;p&gt;微软据报道正在准备 Windows 11 27H2 版更新，也就是继续维持 Windows 11 更新而不是推出 Windows 12，目前也没有任何消息表明微软准备 Windows 12，所以可能接下来微软会继续基于 Windows 11 进行年度更新。&lt;/p&gt;
+&lt;figure aria-describedby="caption-attachment-128195" id="attachment_128195"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128125.png" rel="nofollow"&gt;&lt;img alt="没有Windows 12：微软正在准备Windows 11 27H2版更新 据称是重大版本更新" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128125.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-128195"&gt;本图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;SSH 常用于远程登录和管理服务器，服务端程序 sshd 负责处理连接及用户认证，若密码认证环节出现问题，服务器的远程访问安全就会受到影响 (这里也再次提醒我们应当使用密钥认证并禁用密码登录)。&lt;/p&gt;
-&lt;p&gt;OpenSSH 在更新日志中表示，这项问题影响部分使用 musl libc 且禁用 PAM 支持的 Linux 环境，攻击者可以通过 sshd 利用漏洞绕过密码认证，因此攻击者不需要知道正确密码即可直接连接服务器。&lt;/p&gt;
-&lt;p&gt;值得注意的是这个问题的根本原因其实在 sshd 之外，但可以通过调整 sshd 避免受到利用，因此 OpenSSH 发布紧急安全更新用来调整配置帮助用户缓解该漏洞，后续其他更新也会陆续发布。&lt;/p&gt;
+&lt;p&gt;Windows 11 27H2 版可能会是重大版本更新，现有的 Windows 11 25H2/26H2 版均以 24H2 版为基础开发因此不是重大版本更新，不过当前微软新开发的功能都在测试后就推送，所以微软不会特地将各类功能累积到新版本发布时才提供。&lt;/p&gt;
+&lt;p&gt;在这种情况下 27H2 版能提供怎样的更新很让人好奇，传言称 27H2 将侧重系统质量和性能，也就是减少 BUG、提升稳定性和优化内存占用，而且可能更换 Windows 11 使用多年的默认壁纸。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;IT 管理员应优先检查运行 Alpine Linux 等 musl 环境的服务器，确认 OpenSSH 服务端的 PAM 和密码认证配置，随后立即将 OpenSSH 更新到 10.6P2 版以缓解漏洞造成的危害。&lt;/p&gt;
-&lt;p&gt;在完成安全更新前，用户也可以将 SSH 配置中的密码认证设为禁用。请注意：在禁用密码认证前请确保已经配置可以连接的密钥对或可以通过云控制台连接，否则禁用密码认证后你将失去服务器管理权限。&lt;/p&gt;
-&lt;pre&gt;# 编辑如下文件
-
-nano /etc/ssh/sshd_config
-
-# 找到 PasswordAuthentication 项 将其修改为
-
-PasswordAuthentication no
-
-# 再次提醒：修改以上配置前请务必配置密钥认证且先测试密钥能够登录&lt;/pre&gt;
+&lt;p&gt;&lt;a href="https://www.landian.news/archives/127673.html" rel="noopener" target="_blank"&gt;目前比较值得关注的底层变化包括英特尔 APX 高级性能扩展&lt;/a&gt;，该功能已经在 Windows 11 测试版中出现。根据英特尔的技术说明，APX 可以将 x86-64 处理器的通用寄存器数量从 16 个增加到 32 个，同时添加新的指令形式。&lt;/p&gt;
+&lt;p&gt;寄存器可以保存处理器正在使用的数据，寄存器数量增加后，兼容的软件在部分任务中可以减少访问内存的次数。因此软件需要主动适配支持 APX 技术，目前微软也在开发工具中推进 APX 的支持。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/127673.html" title="Windows 11预览版出现APX高级性能扩展开关 对于受支持的硬件可以提高性能"&gt;&lt;h3&gt;Windows 11预览版出现APX高级性能扩展开关 对于受支持的硬件可以提高性能&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#系统资讯 Windows 11 预览版出现 APX 高级性能扩展开关，对于受支持的硬件，开启后可以提升整体性能。APX 是英特尔开发的指令集扩…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/os/win"&gt;Windows&lt;/a&gt;, &lt;a href="https://www.landian.news/os"&gt;系统资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2026年10月26日 13:00&lt;/span&gt;&lt;span title="浏览数量"&gt;5.24K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
 &lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://www.openssh.org/releasenotes.html#10.6p2" rel="noopener" target="_blank"&gt;OpenSSH&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://www.neowin.net/news/windows-11-27h2-could-be-major-upgrade-with-64-bit-performance-boost-new-default-wallpapers/" rel="noopener" target="_blank"&gt;NEOWIN&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Fri, 06 Nov 2026 01:00:00 +0000</pubDate></item><item><title>苹果将检查iCloud公开链接中的有害内容 若用户分享有害内容也可能会被封号</title><link>https://www.landian.news/archives/128113.html</link><description>
-&lt;p&gt;#行业资讯 苹果宣布将检查 iCloud 公开分享内容，若发现恶意内容尤其是儿童色情内容，将采取封号甚至通报执法机构的措施。以上措施将在 iOS 27.3 等版本中上线，重点是扫描通过 iCloud 云盘或相册分享的内容。若用户分享时选择任何获得链接的人都可以访问，那就视为公开分享，公开分享文件将解除端到端加密并接受苹果的扫描。查看全文：https://ourl.co/128113&lt;/p&gt;&lt;p&gt;苹果计划从 iOS 27.3 版开始检查通过 iCloud 任何拥有链接的人选项分享的内容，主要目的是识别分享链接中出现的有害内容。分享功能涉及 iCloud 照片和 iCloud 云盘文件，若苹果检查到有害内容，则链接可能会被删除，甚至可能封号和通报给执法机构。&lt;/p&gt;
-&lt;figure aria-describedby="caption-attachment-128170" id="attachment_128170"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128113.png" rel="nofollow"&gt;&lt;img alt="苹果将检查iCloud公开链接中的有害内容 若用户分享有害内容也可能会被封号" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128113.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-128170"&gt;本图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; 打击通过 iCloud 传播有害内容，尤其是儿童色情内容：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;用户分享保存在 iCloud 中的照片和文件时，可以发送文件副本，也可以创建共享链接。选择创建共享链接后，用户可以指定受邀者访问 (受邀者需要登录)，或者选择任何获得链接的人。&lt;/p&gt;
-&lt;p&gt;苹果表示在选择任何拥有链接的人选项后，任何人获得链接都可以直接访问内容，这其实相当于是公开访问。公开访问的内容有可能涉及有害内容，所以苹果准备从 iOS 27.3 版开始检查链接分享的实际内容。&lt;/p&gt;
-&lt;p&gt;这项政策其实主要是打击通过 iCloud 分享恶意软件、未经同意的露骨内容以及儿童色情内容，当苹果检测到有害内容时可能会采取断开链接、删除文件、封禁账号甚至通报给执法机构。&lt;/p&gt;
+</description><pubDate>Fri, 06 Nov 2026 06:30:00 +0000</pubDate></item><item><title>ChatGPT锁定模式被研究人员绕过：恶意窗口可悄悄带窃取用户聊天内容</title><link>https://www.landian.news/archives/128124.html</link><description>
+&lt;p&gt;#人工智能 [已修复] 安全公司发现 ChatGPT HTML 预览功能沙盒存在漏洞，攻击者可以利用漏洞窃取用户的聊天记录。漏洞发生原因主要是 ChatGPT HTML 预览使用的 iframe 嵌套框架问题，当发生多次嵌套沙盒处理逻辑有问题导致可以执行攻击者控制的代码。该漏洞已经在 9 月完成修复，用户升级到 ChatGPT 客户端最新版即可。查看全文：https://ourl.co/128124&lt;/p&gt;&lt;p&gt;安全公司 Check Point 日前发布报告披露 ChatGPT HTML 预览功能存在的沙盒限制问题，这个安全问题可以绕过用于降低数据泄露风险的锁定模式。安全公司在发现漏洞后已经及时向 OpenAI 通报，后者在 2026 年 9 月修复漏洞，安全公司在复测后确认漏洞已修复后发布安全报告披露该漏洞。&lt;/p&gt;
+&lt;figure aria-describedby="caption-attachment-128193" id="attachment_128193"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128124.png" rel="nofollow"&gt;&lt;img alt="ChatGPT锁定模式被研究人员绕过：恶意窗口可悄悄带窃取用户聊天内容" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128124.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-128193"&gt;本图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;苹果还提到为实现公开分享目的，被公开分享的内容将不再接受 iCloud 端到端加密机制保护，即使文件所有者已经启用 iCloud 高级数据保护功能，被分享的文件也会被自动解密。&lt;/p&gt;
-&lt;p&gt;而解密后苹果以及其他人都可以获得文件的实际内容，如果用户想要加密分享则应该选择受邀者访问，即分享时填写受邀者的邮箱，受邀者需要登录自己的苹果账号后才能访问文件。&lt;/p&gt;
+&lt;p&gt;ChatGPT 支持直接预览代码块中的 HTML 页面，为隔离页面数据，预览内容运行在沙盒中隔离，外部网络访问和弹窗操作也受限制。不过研究发现预览功能使用嵌套的 iframe 加载页面，ChatGPT 会拦截预览页面直接打开新窗口的请求，但底层沙盒配置仍然允许弹窗脱离原有的沙盒限制。&lt;/p&gt;
+&lt;p&gt;研究人员尝试在预览页面内再创建 iframe 嵌套，随后通过嵌套的窗口函数打开弹窗，这样就可以绕过原来预览环境中的拦截。新弹窗可以加载攻击者控制的内容，因此为对外发送数据提供了路径。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在支持文档中苹果表示，若检测到有害内容，该公司保留移动文件、拒绝分享、修改文件或链接、删除内容的权利。苹果还可能对相关苹果账户采取措施，包括但不限于阻止用户继续分享内容、封禁用户账号、阻止使用关联的邮箱地址或电话号码创建新苹果账号。必要时，苹果可能会将相关信息通报给执法机构。&lt;/p&gt;
-&lt;p&gt;iCloud 分享内容审查功能将在 iOS 27.3、iPadOS 27.3、macOS 27.3、visionOS 27.3 版中上线。以上版本预计会在 2026 年 12 月正式发布。&lt;/p&gt;
+&lt;p&gt;研究人员还发现基于 Electron 的 ChatGPT 客户端 (经典版)，相关弹窗操作可以在没有额外点击的情况下触发。在演示中，用户与恶意 GPT 正常对话时，攻击代码利用上述路径将聊天消息发送到攻击者控制的服务器。&lt;/p&gt;
+&lt;p&gt;攻击者还可以控制窗口标题和内容，利用 ChatGPT 应用图标让窗口看起来更像是真实页面。这种窗口可以用来伪造更新提示诱导用户下载恶意软件，以及伪造提示让用户退出然后在钓鱼页面输入账号密码。&lt;/p&gt;
+&lt;p&gt;漏洞通报给 OpenAI 后，后者很快确认漏洞并发布更新进行修复，随后安全公司复测后确认报告中的利用方式已经失效。注重安全性的用户可以在设置中开启锁定模式，该模式可以提高安全性避免对话内容泄露。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 05 Nov 2026 09:00:00 +0000</pubDate></item><item><title>OpenAI利用模型在Linux内核中刚找到948个提权漏洞 已生成补丁提交给维护者</title><link>https://www.landian.news/archives/128112.html</link><description>
-&lt;p&gt;#人工智能 OpenAI 尚未发布的网络安全研究模型在 Linux 内核中找到 948 项本地提权漏洞，目前相关报告已提交给内核维护团队。至于为什么都是本地提权漏洞，因为 OpenAI 担心再次翻车，所以研究目标是隔离环境中的内核，所以只能研究提权或信息泄露类问题。以及 OpenAI 担心生成的补丁也翻车影响名誉，所以最终提交的报告还都经过人工审阅。查看全文：https://ourl.co/128112&lt;/p&gt;&lt;p&gt;OpenAI 日前公布针对 Linux Kernel 的安全研究：该公司利用自动化漏洞研究工作流，在受控环境中分析出 2308 项候选安全问题，动态复现其中 1724 项安全问题，针对其中的本地提权问题生成利用程序和候选补丁。&lt;/p&gt;
-&lt;p&gt;经过变体分析和去重，OpenAI 将其中 948 项计为不同的本地提权漏洞。这些漏洞在研究使用的测试环境中可能让低权限用户提权到 root，整个工作流的 API 费用为 121.3 万美元。&lt;/p&gt;
-&lt;figure aria-describedby="caption-attachment-128168" id="attachment_128168"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128112.png" rel="nofollow"&gt;&lt;img alt="OpenAI利用模型在Linux内核中刚找到948个提权漏洞 已生成补丁提交给维护者" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128112.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-128168"&gt;本图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
+</description><pubDate>Fri, 06 Nov 2026 06:00:00 +0000</pubDate></item><item><title>免费教育福利再缩水：微软将取消 Office 365 A1 学生福利和 100TB 共享存储池</title><link>https://www.landian.news/archives/128123.html</link><description>
+&lt;p&gt;#软件资讯 地主家也没余量系列，微软将取消面向教育机构提供的免费 Microsoft 365 A1 学生订阅，100TB 共享存储池也将取消。后续微软将主要转向付费订阅，包括 A0/A2/A3/A5/A7 等。其中 A0 仍然为学生免费提供，但前提是学校要为全部教职工开通 A2 或更高订阅。至于 OneDrive 存储池，微软将根据付费的学生 / 教职工许可证数量来计算。查看全文：https://ourl.co/128123&lt;/p&gt;&lt;p&gt;微软日前宣布调整 Microsoft 365 教育版产品，微软计划停用 Microsoft Office 365 A1 订阅、学生使用权益和免费的 Microsoft Exchange Online 校友邮箱。教育机构现有的 100TB 免费基础共享存储也将被取消，改为主要依据付费教职工和学生许可证数量计算容量。&lt;/p&gt;
+&lt;p&gt;这些变化将从 2028 年 1 月 1 日起在学校首次续约或延长合同时逐步生效，而在现有协议期内，学校可以继续使用当前的授权和权益，因此不同学校的实际切换时间取决于各自的合同安排。&lt;/p&gt;
+&lt;figure aria-describedby="caption-attachment-128191" id="attachment_128191"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128123.png" rel="nofollow"&gt;&lt;img alt="免费教育福利再缩水：微软将取消 Office 365 A1 学生福利和 100TB 共享存储池" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128123.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-128191"&gt;本图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这项研究使用 OpenAI 即将推出的新款网络安全模型，该模型将工作拆分为漏洞发现、动态验证、利用评估、补丁生成和人工审查等多个不同的阶段。&lt;/p&gt;
-&lt;p&gt;首先负责侦查的 AI 智能体筛选低权限用户能够触及、具有安全研究价值的代码，系统最终选出 5034 个审计目标，涉及 280 万行代码，约占 Linux Kernel 内核代码的 7%。&lt;/p&gt;
-&lt;p&gt;随后分析智能体检查代码并寻找潜在缺陷，系统在约 12 个小时内生成去重后的 2308 项候选问题。验证阶段在隔离的虚拟机中运行，智能体为候选问题编写验证程序、观察程序输出和内核日志，再根据结果调整测试。&lt;/p&gt;
-&lt;p&gt;系统最终在 30 小时内动态复现 1724 项潜在的安全漏洞，接下来研究团队让智能体评估漏洞能否用于信息泄露或本地提权、在启用常见内核保护机制的测试环境中开发利用程序。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这个系统在利用评估阶段生成 1169 个可工作的本地提权利用程序和 291 个信息泄露验证程序，由于不同利用程序可能对应某个漏洞的变体，所以经过去重筛选后团队生成 948 个不同的补丁，也就是对应内核中存在的 948 项独立的本地提权问题。&lt;/p&gt;
-&lt;p&gt;OpenAI 称这次完整的研究合计消耗大约 121.3 万美元的 API 额度，按照去重后的 948 项漏洞计算，平均每项 1279 美元。研究团队还人工验证 166 个利用程序，发现至少 10 种此前从未见过的 Linux 漏洞利用技术。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;此次研究扫描使用的是 2026 年 10 月中旬发布的 Linux Kernel，扫描和人工分析完成时已经有 61 项漏洞在上游被修复，另有 43 项已经有待合并的补丁，约有 299 项被公开报告或讨论。&lt;/p&gt;
-&lt;p&gt;根据内核社区的提议，OpenAI 优先提交数百份涉及高危漏洞的报告和补丁，其他问题正在继续与内核社区或相关合作伙伴沟通，推进这些问题的修复。&lt;/p&gt;
-&lt;p&gt;值得注意的是，OpenAI 可能为了避免使用 AI 分析漏洞最后生成垃圾报告，OpenAI 提交的报告和补丁最终都由安全研究团队检查，检查通过后才被提交给内核维护者。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 05 Nov 2026 08:30:00 +0000</pubDate></item><item><title>在币安发生安全事件后 Coinbase将超过99%的资产转移到离线的冷钱包</title><link>https://www.landian.news/archives/128111.html</link><description>
-&lt;p&gt;#安全资讯 在币安发生安全事件后，Coinbase 称其将超过 99% 的客户资产都转移到离线的冷钱包中存储。Coinbase 联网热钱包仅保留少量余额，只要余额达到某个阈值，超出部分就会被转移到冷钱包。冷钱包的私钥是离线保存的，这意味着远程攻击窃取私钥难度会非常大。查看全文：https://ourl.co/128111&lt;/p&gt;&lt;p&gt;美国加密货币交易所 Coinbase 日前发文介绍该平台的客户资产托管措施，Coinbase 称目前该公司已经将超过 99% 的客户资产存放在离线的冷钱包中。平台会根据用户充值和提现需求，在冷热钱包之间调配资金。&lt;/p&gt;
-&lt;figure aria-describedby="caption-attachment-128166" id="attachment_128166"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128111.png" rel="nofollow"&gt;&lt;img alt="在币安发生安全事件后 Coinbase将超过99%的资产转移到离线的冷钱包" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128111.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-128166"&gt;本图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Coinbase 称目前该公司仅将少量资产留在联网的热钱包中，热钱包资产用于处理客户提现和转账等，其余资产主要存放在离线冷钱包中。公司会结合提现需求调整热钱包余额，当超过某个阈值后多出的资产就会被转移到冷钱包中。&lt;/p&gt;
-&lt;p&gt;冷钱包通常将用于授权交易的私钥保存在离线环境中，适合存放长期持有的资产。热钱包则连接线上系统，可以更快响应用户提现，但也需要更严格地控制在线签名和转账权限。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Coinbase 还介绍资产转移过程中的多层保护措施：冷钱包私钥被拆为多个部分，即使在交易签名过程中，也不需要将完整私钥重新组合。热钱包方面，生产环境中的签名服务由多项权限和人员审批共同管理。&lt;/p&gt;
-&lt;p&gt;在资金调配方面，Coinbase 为冷钱包向热钱包补充资产设置速度限制，如果某个账户、钱包、币种或区块链的提现活动触发警报，钱包运营团队会检查相关情况。&lt;/p&gt;
-&lt;p&gt;针对员工权限，Coinbase 会限制生产系统的长期访问权限，为必要操作提供有时间限制的临时访问，对敏感操作使用多因素认证和多人审批模式，避免某些员工拥有长期权限造成安全问题。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;币安近期发生的 63 亿美元资产被盗事件引起极大的关注，这种大额盗币事件再次引起用户对交易所托管方式的关注，包括热钱包中保留多少资产、谁有权发起或批准转账、异常提现出现时平台能否及时停止签名等。&lt;/p&gt;
-&lt;p&gt;根据币安的初步调查，此次事件源头来自钱包工程师通过搜索引擎下载软件不慎进入钓鱼网站，之后黑客打造人设伪装正规公司对其他工程师进行面试钓鱼，最终成功在币安工程师设备上安装后门程序。之后的操作就是利用后门程序渗透到币安内部环境，最终转移超过 63.4 亿美元的加密货币。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 05 Nov 2026 08:00:00 +0000</pubDate></item><item><title>苹果也开始削减员工AI用量 将每日预算从300美元降低到200美元甚至100美元</title><link>https://www.landian.news/archives/128110.html</link><description>
-&lt;p&gt;#人工智能 彭博社报道称苹果也开始削减员工的每日 AI 预算以降低支出：工程岗位的员工每日预算从 300 美元削减到 200 美元，后续可能会削减到 100 美元。而非工程岗位可能会被削减到每日 25 美元，更多任务还是得靠祖法手工处理。苹果还要求部分团队考虑使用价格更便宜的模型，或在设备本地运行开源模型。查看全文：https://ourl.co/128110&lt;/p&gt;&lt;p&gt;彭博社援引知情人士发布消息称，苹果在 10 月已经削减部分工程师使用 AI 模型的每日预算。最初每日预算为 300 美元，被削减后每日预算降低到 200 美元。苹果还计划继续削减预算，部分工程团队的每日额度可能会被削减到 100 美元。&lt;/p&gt;
-&lt;p&gt;苹果员工可以在工作中使用 Claude Code、Codex 和 Antigravity 等工具，随着越来越多的员工使用 AI 编写代码、调试程序和处理日程任务，模型调用产生的费用也成为苹果需要管理的支出。&lt;/p&gt;
-&lt;figure aria-describedby="caption-attachment-128164" id="attachment_128164"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128110.png" rel="nofollow"&gt;&lt;img alt="苹果也开始削减员工AI用量 将每日预算从300美元降低到200美元甚至100美元" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128110.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-128164"&gt;本图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;苹果目前很多非工程岗位员工的 AI 使用预算为每天 100 美元，苹果正在考虑将其中部分团队的每日额度削减到 25 美元。对于需要更多使用额度的员工，苹果允许员工向上级申请例外以获得更高额度。&lt;/p&gt;
-&lt;p&gt;苹果还要求部分团队考虑使用价格更低的模型，或者在设备本地运行开源模型。对于已经习惯使用 AI 编写代码或处理日常工作的团队来说，削减 AI 额度可能严重影响工作效率。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在 2025 年年初还有很多科技公司鼓励员工拥抱 AI，积极使用 AI 处理工作内容以提高效率。这些公司甚至还在内部发起 token 大赛，即比拼谁消耗更多 token，消耗的 token 越多说明越是积极使用 AI。&lt;/p&gt;
-&lt;p&gt;结果到 2026 年这些公司就已经撑不住了，因为消耗的 token 越多并不意味着工作效率就百分百提高，事实上很多 token 被浪费在无关紧要的任务上，而 AI 支出成为这些公司新的消耗点。&lt;/p&gt;
-&lt;p&gt;所以现在越来越多的公司开始严格管理员工的 AI 预算，例如非工程岗位的员工只有极低的预算甚至没有预算，让员工重新使用祖法手工处理工作内容。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 05 Nov 2026 07:30:00 +0000</pubDate></item><item><title>美国网站托管与域名服务商DreamHost被攻击 涉及多种敏感数据泄露</title><link>https://www.landian.news/archives/128109.html</link><description>
-&lt;p&gt;#安全资讯 美国网站托管与域名服务商 DreamHost 被攻击，涉及多种敏感数据泄露。DreamHost 在 10 月 23 日发现异常才开始调查，调查显示攻击早在 8 月就已经开始。攻击者窃取用户的 FTP/SFTP 账号凭据、用户会话令牌，借着这些凭据黑客可以直接访问服务器获取全部文件。查看全文：https://ourl.co/128109&lt;/p&gt;&lt;p&gt;美国网站托管和域名服务商 DreamHost 确认，攻击者利用其网页文件管理器中的安全漏洞，获取部分客户的 FTP/SFTP 用户名和密码。黑客还访问部分网页邮箱系统并取得部分用户的登录凭证。&lt;/p&gt;
-&lt;p&gt;根据 DreamHost 的初步调查，攻击活动从 2026 年 8 月左右持续到 10 月 23 日。DreamHost 在 10 月 23 日才发现异常并关闭文件管理器展开调查，调查发现攻击情况比预想的还要严重，最重要的是数据泄露。&lt;/p&gt;
-&lt;figure aria-describedby="caption-attachment-128162" id="attachment_128162"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128109.png" rel="nofollow"&gt;&lt;img alt="美国网站托管与域名服务商DreamHost被攻击 涉及多种敏感数据泄露" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128109.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-128162"&gt;本图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;DreamHost 提供的文件管理器是基于网页的文件管理工具，用户可以通过浏览器管理网站文件，该工具本身是 DreamHost 基于其他软件开发的。DreamHost 称攻击者利用软件漏洞访问运行该工具的服务器，取得在攻击期间登录过文件管理器的用户的账号凭据。&lt;/p&gt;
-&lt;p&gt;攻击者还成功窃取用于保持登录状态的会话令牌，这些会话令牌可以绕过账号和密码直接访问用户账户，在获得有效会话令牌后，攻击者可以以用户身份访问 DreamHost 上的相关资源和服务。&lt;/p&gt;
-&lt;p&gt;还有邮箱：DreamHost 确认攻击者获得少量用户的登录凭据，攻击者可以利用这些凭据查看邮箱内容。目前该公司正在联系受影响的用户，提醒用户邮箱内容可能被黑客窃取。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;攻击者借助 FTP/SFTP 账号凭据可以直接连接用户的服务器，例如对于托管网站的用户来说，服务器上可能有网站源文件和数据库配置信息，攻击者可以直接从服务器导出所有文件。&lt;/p&gt;
-&lt;p&gt;由于拥有修改权限，攻击者还可以修改网页源文件添加远程恶意脚本，这样其他用户访问这个网站时也可以发起攻击。而此次攻击持续 3 个月，期间造成的潜在危害难以估量。&lt;/p&gt;
-&lt;p&gt;DreamHost 建议用户立即轮换所有密码并检查网站文件，留意陌生脚本、新增文件和未经授权的修改；检查网页邮箱中转发规则和过滤器，确认邮件没有被转发到陌生地址。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 05 Nov 2026 07:00:00 +0000</pubDate></item><item><title>你甚至可以租用白宫网络作为住宅代理出口 安全研究员称疑似有员工设备被感染</title><link>https://www.landian.news/archives/128108.html</link><description>
-&lt;p&gt;#安全资讯 如果你愿意你甚至可以租用美国白宫的网络作为 IP 出口：研究发现白宫工作人员设备疑似被感染，然后做成了代理出口。安全公司在 30 天里观察到 236 次经过白宫网络的探测连接，涉及 6 个 IP 地址和 28 家住宅代理服务。从目前情况来看有可能是有工作人员设备被悄悄植入恶意软件 / 代理软件，在不知情的情况下设备被用来转发流量。查看全文：https://ourl.co/128108&lt;/p&gt;&lt;p&gt;网络安全公司 Layer3 Intel 发布研究报告称，其住宅代理检测系统在美国总统行政办公室注册的网络中，发现可供商业代理服务使用的出口地址。安全团队在 30 天里记录到大约 236 次经过该网络出口的探测连接，涉及 6 个 IP 地址和 28 家住宅代理服务。&lt;/p&gt;
-&lt;figure aria-describedby="caption-attachment-128160" id="attachment_128160"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128108.png" rel="nofollow"&gt;&lt;img alt="你甚至可以租用白宫网络作为住宅代理出口 安全研究员称疑似有员工设备被感染" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128108.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-128160"&gt;本图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;研究发现在 10 月 5 日到 11 月 3 日期间，安全团队发现其测试流量有 236 次从 AS2650 网络出口访问互联网。AS2650 自治系统注册于美国总统行政办公室，也就是美国白宫的专用网络，主要用于白宫日常网络连接。&lt;/p&gt;
-&lt;p&gt;安全团队通过 28 家不同的住宅代理服务观察到这些出口，住宅代理服务允许用户将网络请求转发至其他设备，再通过该设备访问目标网站或服务。对目标网站而言请求显示的来源是代理出口的 IP 地址，而非用户真实 IP 地址。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;安全团队称按照美国东部时间统计，约有半数观测活动发生在下午 5 点到午夜之间，凌晨时段比较少。根据时间段分布，安全团队推测可能有经常连接网络的个人设备运行代理软件或软件开发工具包，也就是可能被感染恶意软件。&lt;/p&gt;
-&lt;p&gt;而涉及 28 家住宅代理服务提供商，可能表明这些服务提供商有相同的上游供应商，亦或者代理软件 / 恶意软件将出口权限同时出售给多家不同的提供商进行牟利。不过具体情况还需要等待 FBI 调查。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 05 Nov 2026 06:30:00 +0000</pubDate></item><item><title>ChatGPT Images 2.6模型发布 支持生成GIF动态图 可调整播放速度/逐帧查看/编辑等</title><link>https://www.landian.news/archives/128107.html</link><description>
-&lt;p&gt;#人工智能 ChatGPT Images 2.6 图像生成模型发布，支持生成 GIF 动态图，可以调整播放速度、逐帧查看、编辑 GIF 等。该功能目前已经向 ChatGPT 桌面版、网页版和移动端用户提供，用户可以通过文字描述生成动态图，也可以上传照片生成动态图。OpenAI 也提供 API 调用，包括侧重速度的 GPT-Image-2.6 Flare 和侧重质量的 GPT-Image-2.6 Sunburst。查看全文：https://ourl.co/128107&lt;/p&gt;&lt;p&gt;OpenAI 日前推出图像生成模型 ChatGPT Images 2.6，该模型新增 GIF 动态图的生成功能，用户可以输入文字描述或上传照片，让 ChatGPT 制作动画。生成动态图后还可以调整播放速度、逐帧查看和编辑，例如将播放速度调整为 2x 等。目前这个新模型正在向网页版、桌面版和移动端的 ChatGPT 用户推送。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;video autoplay="" controls="" muted="" playsinline="" preload="auto"&gt;&lt;source src="https://img.lancdn.com/landian/2026/11/128107.mp4" type="video/mp4"/&gt;您的浏览器不支持 HTML5 视频。&lt;/video&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;用户可以直接在 ChatGPT 对话中描述想要生成的动画，例如让一只猫跳舞，ChatGPT 生成动态图后，界面会提供播放速度调整和逐帧查看选项。如果某一帧需要调整，可以单独编辑这个帧。&lt;/p&gt;
-&lt;p&gt;用户也可以上传已有照片再描述希望添加的动作，这个功能适合制作聊天表情、社交媒体配图和简单的循环动画。OpenAI 还表示新模型也提高了 ChatGPT 的图像生成速度。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;除了 ChatGPT 内置更新外，OpenAI 还面向开发者推出 API 调用模型：GPT-Image-2.6 Flare，该模型侧重生成速度；GPT-Image-2.6 Sunburst，该模型侧重于生成质量。&lt;/p&gt;
-&lt;p&gt;开发者可以根据自己的使用场景选择模型，例如在需要快速返回结果的交互功能中使用 Flare 模型，在更看重画面质量的场景中使用 Sunburst。以上模型的调用方法和具体价格可以在 OpenAI API 控制台查看。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 05 Nov 2026 06:00:00 +0000</pubDate></item><item><title>Cloudflare推出个人AI智能体访问控制 网站可查看智能体流量并设置限制规则</title><link>https://www.landian.news/archives/128057.html</link><description>
-&lt;p&gt;#网站应用 Cloudflare 为网站推出个人 AI 智能体访问控制，网站可以查看智能体流量并设置限制规则。这里的个人 AI 智能体指的是 Claude Duet、ChatGPT Dots、Grok Bot、Meta Muse 这类可以代表用户发起操作的工具。Cloudflare 允许网站为不同智能体设置不同的策略，比如允许、拦截或在某些页面上拦截等。查看全文：https://ourl.co/128057&lt;/p&gt;&lt;p&gt;网络服务提供商 Cloudflare 日前推出针对个人 AI 智能体的流量分析和访问控制功能，网站管理员可以查看哪些智能体访问了网站、请求了哪些页面，支持为不同的智能体分别设置放行或拦截规则等。&lt;/p&gt;
-&lt;p&gt;这里的个人 AI 智能体指的是代表用户执行操作的智能体，例如 Claude Duet、ChatGPT Dots、Grok Bot、Meta Muse 等，这些智能体都有通用 UA 因此比较容易单独进行识别和统计。&lt;/p&gt;
-&lt;figure aria-describedby="caption-attachment-128155" id="attachment_128155"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128057.png" rel="nofollow"&gt;&lt;img alt="Cloudflare推出个人AI智能体访问控制 网站可查看智能体流量并设置限制规则" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128057.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-128155"&gt;本图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Cloudflare 在安全分析的机器人分析图表中新增个人助手分类，网站管理员可以选择该分类查看个人智能体流量随时间的变化。安全分析页面还增加个人助手统计组件，列出访问网站的智能体以及各自发送的请求量。&lt;/p&gt;
-&lt;p&gt;选择某个智能体后其他统计组件会同步进行筛选，展示这个智能体请求的路径、收到的状态码和来源网络。例如网站可以借此了解某个智能体主要访问商品页面、帮助文档还是结账页面，也可以查看智能体在访问过程中遇到的错误。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Cloudflare 原有的 AI 机器人策略按照搜索、智能体和训练三类行为管理流量，此次更新扩展智能体策略，支持网站管理员为部分个人 AI 智能体分别设置不同的访问规则，例如限制访问或允许访问等。&lt;/p&gt;
-&lt;p&gt;原来的配置 AI 机器人策略也被更名为 AI 爬虫和智能体访问策略，管理员可以在 Cloudflare 控制台中进入：安全、设置、AI 爬虫与智能体访问策略。&lt;strong&gt;Cloudflare 提供的访问策略包括：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Microsoft Office 365 A1 是微软面向教育机构提供的免费产品，学校可以使用该产品为符合条件的师生提供 Microsoft Office 网页应用、邮箱和协作服务。学生使用权益则允许符合授权条件的学校，根据教职工购买的许可证获得学生使用权益。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;根据微软公布的时间表：&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;允许：该策略放行匹配的智能体请求&lt;/li&gt;
-&lt;li&gt;在有广告的页面拦截：拦截访问 Cloudflare 检测到包含广告页面的请求&lt;/li&gt;
-&lt;li&gt;拦截：该策略在整个站点屏蔽该智能体的访问&lt;/li&gt;
+&lt;li&gt;2027 年 5 月 1 日起：Office 365 A1 将停止通过 CSP 和批量许可等合作伙伴渠道销售&lt;/li&gt;
+&lt;li&gt;2028 年 1 月 1 日起：A1、学生使用权益和免费的校友邮箱进入停用阶段&lt;/li&gt;
+&lt;li&gt;续约或延长合同：相关旧授权协议需要转向符合条件的新教育版订阅&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 100TB 免费基础存储也取消，改成按付费许可证计算容量：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;目前教育机构通常拥有 100TB 基础共享存储池，供 Microsoft OneDrive、SharePoint 和 Exchange 等服务共同使用，部分付费授权还会为学校的存储池增加更多容量。&lt;/p&gt;
+&lt;p&gt;按照新方案，学校从 2028 年 1 月 1 日或之后首次续约或延长合同时起，100TB 基础存储额度将被取消，学校可获得的存储容量根据付费教职工和学生许可证数量计算，付费数量越多可获得的存储空间也更大。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;订阅类型、付费学生许可证与教职工许可证贡献的容量如下：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Microsoft 365 A2 订阅：每个学生许可证赠送 4GB 容量，每个教职工许可证赠送 50GB 容量&lt;/li&gt;
+&lt;li&gt;Microsoft 365 A3 订阅：每个学生许可证赠送 8GB 容量，每个教职工许可证赠送 75GB 容量&lt;/li&gt;
+&lt;li&gt;Microsoft 365 A5 订阅：每个学生许可证赠送 12GB 容量，每个教职工许可证赠送 150GB 容量&lt;/li&gt;
+&lt;li&gt;Microsoft 365 A7 订阅：每个学生许可证赠送 12GB 容量，每个教职工许可证赠送 150GB 容量&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;对于内容型网站，访问政策可能影响读者通过 AI 助手查找文章的体验；对于电商网站，智能体访问商品页面、登录账号和结账流程，也可能对应用户实际发起的购物需求，即用户委托智能体帮助自己购物。&lt;/p&gt;
-&lt;p&gt;因此网站需要根据自己的实际业务类型、智能体访问流量、智能体行为和其他风控策略来配置智能体访问策略，即不能直接一刀切，但也需要根据风控拦截部分可能存在行为异常的智能体访问行为。&lt;/p&gt;
+&lt;p&gt;微软将为教育机构提供 A0、A2、A3、A5、A7 等教育版产品，这些产品会区分学生和教职工版本，学校可以根据不同群体的需求进行组合授权，也就是可以同时订阅多个不同的版本。&lt;/p&gt;
+&lt;p&gt;其中 A0 订阅是面向符合条件学生的免费选项，包含 Microsoft Office 桌面和网页应用等基础功能。申请学校需要为全部教职工购买 A2 或更高版本的授权，相当于购买 A2 订阅后赠送 A0 订阅。&lt;/p&gt;
+&lt;p&gt;微软称 A0 订阅功能组合涵盖基础学习和生产工具，若需要邮箱、SharePoint 和 Teams 的学校则需要评估其他付费版本。新的 A2 订阅将在 2026 年 12 月 1 日上市，A7 订阅则面向需要更多 AI、安全和设备管理功能的教育机构。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 05 Nov 2026 05:30:00 +0000</pubDate></item><item><title>用户称Codex重启服务器后擅自修改系统配置 造成超过1万美元的损失</title><link>https://www.landian.news/archives/128056.html</link><description>
-&lt;p&gt;#人工智能 有开发者称 Codex 重启服务器后擅自修改系统配置，造成超过 1 万美元的损失。这名开发者使用 Codex CLI 连接远程服务器，开发者要求 Codex 重启服务器，但没想到服务器重启后 Codex 未经授权继续操作。Codex 接下来执行的操作包括操作服务器挂载、systemd、容器并运行其他脚本，这导致服务器环境被破坏。事后 Codex 自称理解有误，将重启后发现的问题错误理解为已经获得修改配置的许可。查看全文：https://ourl.co/128056&lt;/p&gt;&lt;p&gt;在 Codex 开源仓库中有开发者提交反馈称，自己要求 Codex 重启服务器，但 Codex 在重启服务器后未经用户许可继续执行操作，包括修改挂载配置、处理容器和运行脚本，最终导致服务器环境受损。&lt;/p&gt;
-&lt;figure aria-describedby="caption-attachment-128153" id="attachment_128153"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128056.png" rel="nofollow"&gt;&lt;img alt="用户称Codex重启服务器后擅自修改系统配置 造成超过1万美元的损失" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128056.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-128153"&gt;本图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
+</description><pubDate>Fri, 06 Nov 2026 05:30:00 +0000</pubDate></item><item><title>微软终于开始改造 PowerToys：取色器和文字提取工具换上 WinUI 3</title><link>https://www.landian.news/archives/128122.html</link><description>
+&lt;p&gt;#软件资讯 微软开源的综合高阶工具 PowerToys 将迁移到 WinUI3 原生框架，当前已经完成迁移的包括取色器和文本提取器。当前该工具同时使用 WPF、Windows Forms 和 WinUI 等界面技术，微软则计划在后续全部迁移到 WinUI3。迁移后有助于减少项目维护复杂度，也能让软件视觉风格更加贴近 Windows 11。查看全文：https://ourl.co/128122&lt;/p&gt;&lt;p&gt;微软正在将开源工具 PowerToys 中的部分工具迁移到 WinUI3 框架，在最新推出的 0.102 版中，取色器和文本提取器已经完成迁移。其中取色器还换成新的屏幕取色界面、颜色编辑器和放大镜功能。微软表示，更新后用户原有的快捷键和设置会继续保留。&lt;/p&gt;
+&lt;figure aria-describedby="caption-attachment-128189" id="attachment_128189"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128122.png" rel="nofollow"&gt;&lt;img alt="微软终于开始改造 PowerToys：取色器和文字提取工具换上 WinUI 3" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128122.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-128189"&gt;本图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;用户称自己通过 SSH 使用 Codex CLI 0.166.0 版操作某台 Linux 服务器，使用的模型为 GPT 6 Sol、思考程度为中等。用户仅要求 Codex 重启服务器，但重启完成后 Codex 在未经用户授权的情况下再次连接服务器。随后 Codex 操作服务器挂载、systemd、容器并运行其他脚本，这些操作超出用户要求并导致系统环境出现问题。&lt;/p&gt;
+&lt;p&gt;WinUI3 是微软提供的 Windows 10/11 原生应用界面框架，属于 Windows App SDK 的重要组成部分。该框架提供面向现代 Windows 应用的界面控件和开发能力，也能让软件的视觉风格更加贴近 Windows 11。&lt;/p&gt;
+&lt;p&gt;PowerToys 项目此前同时使用 WPF、Windows Forms 和 WinUI 等界面技术，开发团队在 GitHub 中表示，统一技术栈有助于减少维护复杂度，也能让贡献者更容易理解项目结构。&lt;/p&gt;
+&lt;p&gt;除了取色器和文本提取器外，PowerToys 的图像调整功能、快速重音输入等工具也已经开展 WinUI3 迁移工作，不同工具的改造会根据其功能和兼容需求逐步进行。例如 PowerToys Run 的插件接口依赖 WPF 类型，项目团队在迁移计划中将单独处理 Run 以照顾现有插件生态。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这名用户也贴出 Codex 给出的事后回复，Codex 自称在重启后发现一些问题，随后 Codex 错误理解为自己已经获得修改配置的许可，于是 Codex 直接编辑 /etc/fstab 并重启。&lt;/p&gt;
-&lt;p&gt;/etc/fstab 是 Linux 用来配置文件系统挂载的文件，该文件影响系统启动时如何挂载磁盘及其他文件系统，修改其中的配置可能影响服务器启动和服务访问存储。反馈问题的用户自称 Codex 的擅自操作导致服务器环境受损，最终损失超过 1 万美元。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;使用 Codex 或其他 AI 智能体执行任务时出现问题的情况并不少见，有时候是模型出现幻觉，有时候则是模型的理解有问题，这些问题都可能导致模型越权操作并造成实际损害。&lt;/p&gt;
-&lt;p&gt;很多用户为方便都设置完全操作权限，这意味着智能体在操作时即便遇到危险命令也会自动执行，如果设置自动审批模式情况可能会稍微好些，某些高危命令可能会被拦截。&lt;/p&gt;
-&lt;p&gt;人工审批命令执行安全性自然是最高的，不过靠人工审批过程会非常繁琐，简单的任务可能都需要用户点击多次授权，所以现在的情况就是常在河边走哪有不湿鞋，频繁使用 AI 工具总会在某个时候被背刺。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://github.com/openai/codex/issues/59060" rel="noopener" target="_blank"&gt;Codex Issue #59060&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;取色器和文本提取器的 WinUI3 版已经包含在最新发布的 PowerToys 0.102 版中，用户可以打开 PowerToys 设置检查更新，也可以通过 Microsoft Store 或项目的 GitHub 发布页面获取最新版。&lt;/p&gt;
+&lt;p&gt;更新后用户仍然可以使用自己配置的快捷键启动工具，取色器的新版放大镜和编辑界面会在选取颜色时出现；文本提取器则继续通过选择屏幕区域识别并复制文字。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 05 Nov 2026 05:00:00 +0000</pubDate></item></channel></rss>
+</description><pubDate>Fri, 06 Nov 2026 05:00:00 +0000</pubDate></item><item><title>A社开源FlashProve研究原型：可以验证AI回复来自指定模型 比如你选择Astra结果路由到Luna</title><link>https://www.landian.news/archives/128121.html</link><description>
+&lt;p&gt;#人工智能 A 社开源发布 FlashProve 研究原型，可验证 AI 回复是否来自指定模型，比如你选择 Astra 结果给你路由到 Luna。该技术使用名为 zkSNARK 的零知识证明技术，先对模型权重作出密码学承诺，接着为推理结果生成证明。用户可以检查这证明确认结果对应承诺的模型，问题是这个技术要模型提供商主动介入证明流程，经常悄悄降智的公司肯定不愿意部署。查看全文：https://ourl.co/128121&lt;/p&gt;&lt;p&gt;A 社日前开源发布研究原型 &lt;a href="https://www.landian.news/go?url=https://github.com/anthropics/FlashProve" rel="noopener" target="_blank"&gt;FlashProve&lt;/a&gt;，该原型旨在帮助用户验证 AI 给出的回复是否由服务商承诺的模型生成。该技术被称为可证明推理：模型先对一组模型权重作出密码学承诺，接着为推理结果生成证明。用户可以检查证明确认结果对应承诺的模型，同时模型权重仍然可以保持私有。&lt;/p&gt;
+&lt;figure aria-describedby="caption-attachment-128187" id="attachment_128187"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128121.png" rel="nofollow"&gt;&lt;img alt="A社开源FlashProve研究原型：可以验证AI回复来自指定模型 比如你选择Astra结果路由到Luna" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128121.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-128187"&gt;本图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;用户通过模型服务提供商的 API 或 API 中转站调用模型时，通常只能看到平台上标注的模型名称和最终回复。对于依赖特定模型的开发者来说，验证实际运行大模型有助于确认服务质量和使用成本。&lt;/p&gt;
+&lt;p&gt;比如很多开发者在使用 Codex 时发现，自己明明选择的是 GPT-6 Astra，但模型给出的回复质量不尽人意。OpenAI 经常对被风控的账号进行降智和自动路由，比如自动路由到 GPT-6 Luna 等模型。&lt;/p&gt;
+&lt;p&gt;FlashProve 使用名为 zkSNARK 的零知识证明技术，简单来说，模型提供方可以证明一项计算是按照事先承诺的模型完成的，验证方则可以检查证明，无需获取模型权重。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A 社认为这种验证机制可以用于第三方模型服务、企业内部安全和模型评测，例如企业购买某个模型的 API 服务后，可以验证服务提供方的推理结果是否对应约定的模型。评测机构也可以确认测试对象使用的模型权重。&lt;/p&gt;
+&lt;p&gt;问题是这种验证需要模型提供方接入相应的证明流程、让验证者获得可信的模型权重承诺。证明所对应的模型身份，取决于这一承诺与服务方宣传的模型之间的关联。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A 社通过 Apache 2.0 许可证开源发布 FlashProve 的代码、文档和 Lean 形式化证明，项目包含证明生成程序、C++ 验证程序以及使用 Lean 编写的验证程序和数学证明。&lt;/p&gt;
+&lt;p&gt;A 社表示，Claude 参与了系统优化和协议说明编写，研究团队还使用 Lean 描述并验证关键安全性质，方便研究人员检查证明系统的设计。A 社也希望开发者和研究人员在此基础上继续改进性能并探索模型服务、独立评测和安全审计等用途。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 06 Nov 2026 04:30:00 +0000</pubDate></item><item><title>安全灾难：越来越多的黑客开始利用iOS和安卓旧漏洞发起攻击 用户访问挂马网站就会被感染</title><link>https://www.landian.news/archives/128120.html</link><description>
+&lt;p&gt;#安全资讯 越来越多的黑客开始利用安卓和 iOS 已修复的漏洞发起攻击，用户未更新系统或软件，访问被挂马网站就会被植入后门程序。安全公司 SEKOIA 发布的报告显示，APT29 利用 DarkSword 工具和 Chrome for Android 旧版本漏洞开展广泛攻击。这类攻击并非针对特定用户，而是对数以千计的网站挂马，只要用户访问这些网站就可能中招。但用户将系统和软件升级到最新版就可以免疫攻击，只不过很多用户长期使用旧版本，并未更新。查看全文：https://ourl.co/128120&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/126595.html" rel="noopener" target="_blank"&gt;此前 NS 社区上有黑客冒充某云服务器商要免费赠送服务器&lt;/a&gt;，用户访问黑客发布的网站并填写邮箱即可报名，但该网站暗藏 DarkSword 系列漏洞利用工具，用户使用 iPhone 访问该网站就可能被植入后门程序。&lt;/p&gt;
+&lt;p&gt;相关漏洞早已被苹果修复，但很多用户停留在 iOS 旧版本导致漏洞可以被利用。而以前针对 iOS 设备的攻击通常都是小范围、具有针对性的，DarkSword 系列漏洞利用工具让这类攻击变成广泛撒网。&lt;/p&gt;
+&lt;figure aria-describedby="caption-attachment-128185" id="attachment_128185"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128120.png" rel="nofollow"&gt;&lt;img alt="安全灾难：越来越多的黑客开始利用iOS和安卓旧漏洞发起攻击 用户访问挂马网站就会被感染" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128120.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-128185"&gt;本图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;网络安全公司 SEKOIA 日前发布的报告显示，从 10 月中旬开始代号为 APT29 的黑客组织通过攻击大量知名网站进行挂马，这些网站上暗藏的脚本会向安卓和 iOS 设备投递漏洞利用代码。&lt;/p&gt;
+&lt;p&gt;用户只要访问被挂马的网站就会激活恶意脚本，恶意脚本会在不需要用户交互的情况下向设备植入后门程序，用户全程没有任何感知。接下来后门程序会连接 C2 服务器接收攻击者配置的指令，例如收集设备上的敏感信息。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;研究发现 APT29 的此次攻击没有特定的目标，黑客通过被入侵的网站、钓鱼网站和被篡改的网站统计脚本，向很多用户批量投毒。被挂马的网站包括乌克兰某天然气企业、美国化工行业协会网站、保加利亚军事领域相关的网站。攻击者还建立模仿美国独立 250 周年的钓鱼网站。&lt;/p&gt;
+&lt;p&gt;其中被篡改的网站统计分析脚本来自乌克兰网站分析服务 Plerdy，攻击者在 8 月 27 日到 9 月 3 日期间篡改该服务的统计脚本，这导致数千个使用 Plerdy 统计工具的网站被挂马。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;恶意页面加载后，脚本会收集浏览器和设备信息，随后根据系统版本选择攻击链。用户访问页面后，后续漏洞利用可以自动进行。而受影响的 iOS 版本和此前 NS 钓鱼活动中相同，安全公司也确认攻击者使用的是 DarkSword 漏洞利用工具。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;iOS 16.7 版：攻击代码主要针对浏览器 Cookie&lt;/li&gt;
+&lt;li&gt;iOS 18.5 版：攻击者使用 DarkSword 漏洞利用工具&lt;/li&gt;
+&lt;li&gt;Chrome for Android：涉及 139 到 145 版但排除 143 版&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;恶意脚本在成功向设备植入后门程序后，会收集多种敏感数据，包括但不限于：浏览器 Cookie、登录数据、浏览记录、WiFi 凭证、WhatsApp 和 Telegram 数据库、iOS 钥匙串凭据、设备位置和照片等数据。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;对于 iPhone 用户，即便用户使用的 iPhone 无法升级到 iOS 27.x 版，苹果也在继续向旧版本分支提供维护更新，像是 iOS 16.x 和 iOS 18.x 都有漏洞修复版本，因此用户需要升级到最新修复版本，不要长期使用旧版本。&lt;/p&gt;
+&lt;p&gt;对于 Chrome for Android 那情况就比较简单了，正常来说使用 Google Play 后可以实现浏览器自动更新，若使用其他应用商店也应该及时升级 Chrome，旧版 Chrome 随着时间推移被发掘的漏洞越来越多，相关漏洞被利用也是迟早的事儿。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/126595.html" title="也算是活久见：NS论坛出现的PolarNode免费服务器活动实为钓鱼 利用iOS漏洞发起攻击"&gt;&lt;h3&gt;也算是活久见：NS论坛出现的PolarNode免费服务器活动实为钓鱼 利用iOS漏洞发起攻击&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#安全资讯 也算是活久见：NS 社区出现针对 iOS 用户的内核级攻击，以免费服务器活动吸引用户打开页面。这个活动页面暗藏针对 Safari 漏…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/tech/security"&gt;安全资讯&lt;/a&gt;, &lt;a href="https://www.landian.news/tech"&gt;科技资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2026年9月2日 11:30&lt;/span&gt;&lt;span title="浏览数量"&gt;13.14K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits" rel="noopener" target="_blank"&gt;SEKOIA&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 06 Nov 2026 04:00:00 +0000</pubDate></item><item><title>Vercel率先采用谷歌浏览器的设备会话绑定保护机制 减少Cookie被盗引起的账号信息泄露</title><link>https://www.landian.news/archives/128119.html</link><description>
+&lt;p&gt;#网站应用 知名云开发平台 Vercel 宣布率先采用 Chrome 浏览器 DBSC 设备会话绑定保护机制，即扩展程序盗取 Cookie 后也无法在其他设备登录。该技术已经在 Chrome 中正式上线，Chrome 通过为凭证签发基于设备的密钥进行认证，因此凭证被转移到其他设备时会因为密钥不匹配而无法复用。DBSC 机制需要网站进行适配，目前 Vercel 在 Vercel.com 上率先支持该技术。查看全文：https://ourl.co/128119&lt;/p&gt;&lt;p&gt;业界知名的云开发平台 Vercel 日前宣布将为该平台的登录会话逐步启用设备绑定会话凭证 (DBSC)，该技术将登录会话与用户设备上的密钥关联，旨在限制攻击者盗取 Cookie 后，在其他设备上复用被盗凭证直接访问用户账户。&lt;/p&gt;
+&lt;p&gt;目前 Vercel 已经为 Chrome for Windows 和 macOS 版提供设备绑定会话凭证，该平台还在研究兼容方案为其他浏览器也带来类似的保护，后续 Vercel CLI 也将采用类似的保护机制。&lt;/p&gt;
+&lt;figure aria-describedby="caption-attachment-128183" id="attachment_128183"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128119.png" rel="nofollow"&gt;&lt;img alt="Vercel率先采用谷歌浏览器的设备会话绑定保护机制 减少Cookie被盗引起的账号信息泄露" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128119.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-128183"&gt;本图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;谷歌从很久以前就在测试基于设备的浏览器凭证绑定机制，该机制被称为 DBSC 设备绑定会话凭证，此功能经过测试后已经正式发布，不过这还需要网站适配 DBSC 机制进行凭证绑定，成功适配后用户 Cookie 等凭证即便被盗用，黑客也无法使用凭证直接登录用户账户。&lt;/p&gt;
+&lt;p&gt;该机制将身份验证会话加密绑定到特定设备来防止窃取，其利用硬件支持的安全模块 (例如 Windows TPM 或 macOS 的安全隔离区) 生成独立的密钥对，该加密密钥不能从设备上导出，新会话的 Cookie 签发取决于谷歌浏览器向远程服务器证明拥有对应的私钥，由于攻击者无法窃取私钥，因此任何被窃取的 Cookie 都会失效所以继续窃取也没有意义。&lt;/p&gt;
+&lt;p&gt;这种设计允许网站在后端添加专用的检测和刷新 API 来升级到安全的硬件绑定会话，同时保持与前端的完全兼容性，浏览器在后台处理复杂的加密和 Cookie 轮换机制，所以网站可以像以前那样正常使用标准的 Cookie 进行访问。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; Vercel.com 登录已支持 DBSC 机制：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Vercel 从 11 月 3 日开始逐步部署 DBSC 保护机制，此次保护针对开发者登录 Vercel.com 后管理项目和部署的会话。相关保护措施也将分阶段推送，避免引起 OAuth 应用等场景的兼容问题。&lt;/p&gt;
+&lt;p&gt;非常有趣的是，Vercel 还准备学习 DBSC 保护机制，自行开发名为 DPoP 的新技术，该技术主要用于命令行工具，也就是让命令行工具也能采用类似的会话绑定机制，避免会话凭证泄露引起的盗用问题。&lt;/p&gt;
+&lt;p&gt;不过 Vercel 也提到，对于设备上正在运行的恶意软件，恶意软件仍然可以在本地直接执行恶意操作，即黑客不需要盗用凭证在其他设备上操作，这种情况下保护力度会被削弱。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 06 Nov 2026 03:30:00 +0000</pubDate></item><item><title>任天堂Switch实体游戏卡带重要供应商台湾旺宏将逐步退出ROM业务 后续转向闪存产品</title><link>https://www.landian.news/archives/128118.html</link><description>
+&lt;p&gt;#行业资讯 任天堂 Switch 游戏卡带芯片供应商台湾旺宏电子宣布逐步退出 ROM 业务，后续将资源和产能转向利润更高的 NOR 闪存芯片。旺宏是业界 ROM 芯片的主要供应商之一，但现在 AI 基建热潮让数据中心客户对 NOR 芯片的需求量极高。旺宏也非常诚实的透露要将资源和产能转向需求量更大且利润更高的数据中心产品，所以 ROM 业务只能让步。不过这基本不会给任天堂造成严重影响，初代 Switch 使用 ROM 芯片，Switch 2 都已经改成 NAND 芯片。查看全文：https://ourl.co/128118&lt;/p&gt;&lt;p&gt;业界知名存储芯片供应商台湾旺宏电子 (Macronix) 日前宣布，该公司将逐步退出 ROM 芯片业务，后续将把产品和投资转向利润更高且市场需求更大的 NAND 和 NOR 等闪存产品。&lt;/p&gt;
+&lt;p&gt;旺宏也是任天堂 Switch 游戏卡带所用存储芯片的重要供应商，这项调整可能会影响未来实体游戏卡带的采购成本和供应安排。旺宏董事长在业绩说明会中表示，数据中心客户对 NOR 闪存的需求非常强劲。&lt;/p&gt;
+&lt;figure aria-describedby="caption-attachment-128181" id="attachment_128181"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128118.png" rel="nofollow"&gt;&lt;img alt="任天堂Switch实体游戏卡带重要供应商台湾旺宏将逐步退出ROM业务 后续转向闪存产品" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128118.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-128181"&gt;本图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;ROM 属于用来保存固定数据的存储芯片，这类芯片常被用于游戏卡带等产品，任天堂初代 Switch 的实体游戏卡带长期使用 ROM 等存储技术，而旺宏电子则是任天堂游戏卡带的重要供应商。&lt;/p&gt;
+&lt;p&gt;旺宏日前在业绩说明会上表示，该公司将逐步退出 ROM 业务，今后也不再开发新的 ROM 产品。当前 ROM 业务占旺宏营收的 5%，此前占比还有 26% 左右，至少对旺宏来说继续做 ROM 业务没有前途。&lt;/p&gt;
+&lt;p&gt;需要注意的是，这里的从 26% 下降到 5% 指的是营收占比，ROM 相关芯片的出货量不一定就是暴跌，有可能旺宏的其他业务营收快速增长，这会导致 ROM 业务的营收占比持续下滑。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;旺宏也坦承该公司正在将资源投向需求和利润都更高的闪存产品，现阶段数据中心客户对 NOR 闪存的需求非常强劲，客户都在争取更多产能。因此旺宏同时计划扩大用于 eMMC 和 3D NAND 的产能。&lt;/p&gt;
+&lt;p&gt;旺宏最新的季度净利润达到 109.5 亿元新台币，整体毛利率为 70.5%。随着 AI 基础设施推高存储芯片的需求，像是旺宏这类存储芯片供应商也在积极调整不同产品之间的产能分配，目的都是转向需求和利润都更高的数据中心产品。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;旺宏主要为任天堂初代 Switch 掌机游戏卡带提供 ROM 芯片，旺宏退出该业务并不会给市场带来显著影响，最多只会对任天堂实体游戏供应链造成轻微影响，但任天堂也有多家不同的供应商。&lt;/p&gt;
+&lt;p&gt;而且任天堂 Switch 2 掌机游戏卡已经采用 NAND 闪存芯片，而不是传统的 ROM 芯片。对任天堂来说 NAND 芯片本身就有多个供应商， 旺宏电子也同样提供 NAND 芯片，所以这对任天堂来说影响应该很小。&lt;/p&gt;
+&lt;p&gt;另外现在实体游戏卡带的制造和销售成本都在攀升，越来越多的游戏发行商选择发行数字版。像是索尼就已经决定停产实体游戏光盘，后续游戏都将通过数字版发行，在任天堂这里这也会成为主流。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 06 Nov 2026 03:00:00 +0000</pubDate></item><item><title>萨姆奥尔特曼回应个人电脑内存争议 称自己的发言被断章取义 希望用户想装多少就装多少</title><link>https://www.landian.news/archives/128117.html</link><description>
+&lt;p&gt;#行业资讯 在此前发言中，奥尔特曼称在全球内存供应紧张的情况下，大量内存被安装在个人电脑上是浪费，因为这些内存大部分时间都被闲置。这番话引起诸多用户不满，用户也需要内存玩游戏、处理工作、运行专业软件和本地运行 AI 模型。奥尔特曼回应称自己也希望全球拥有大量内存，自己长期以来都在支持内存扩产。查看全文：https://ourl.co/128117&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/127942.html" rel="noopener" target="_blank"&gt;早前 OpenAI 首席执行官萨姆奥尔特曼在播客中称&lt;/a&gt;，在内存供应紧张的情况下，将大量内存分散安装在个人电脑中，整体利用效率非常低。这番言论立即引起很多网友的嘲讽，现在萨姆奥尔特曼发布回应称自己的发言被断章取义。&lt;/p&gt;
+&lt;figure aria-describedby="caption-attachment-128179" id="attachment_128179"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128117.png" rel="nofollow"&gt;&lt;img alt="萨姆奥尔特曼回应个人电脑内存争议 称自己的发言被断章取义 希望用户想装多少就装多少" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128117.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-128179"&gt;本图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;萨姆奥尔特曼此前接受采访时表示，越来越多的人希望在个人电脑上运行 AI 模型。奥尔特曼认为从全球资源分配角度来说，大量有限的内存被安装在个人电脑中、只有部分时间被使用，会影响整体利用效率。&lt;/p&gt;
+&lt;p&gt;在采访时奥尔特曼称个人电脑中安装的内存只有 5% 的时间被利用，其余时间都是空闲状态，因此奥尔特曼认为在供应紧张时，云端集中使用内存可以提高整体资源利用效率。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;面对批评奥尔特曼在社交网站上回应称，他也希望全球拥有大量内存，用户能够在自己电脑上想安装多少内存就安装多少内存。奥尔特曼还称，自己长期以来都在支持内存扩产。&lt;/p&gt;
+&lt;p&gt;为化解这件事，奥尔特曼甚至将自己的 X/Twitter 账号名称从 Sam Altman 改成 RAM Altman，只是即便奥尔特曼发布回应或澄清，但从描述来看我们并没有看到此前的报道存在断章取义的地方。&lt;/p&gt;
+&lt;p&gt;对消费者而言，内存容量关系到游戏、多任务处理、运行专业软件和使用本地 AI 模型的使用体验，随着更多模型可以在个人设备上运行，本地计算所需的内存配置也成为用户关注的问题。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/127942.html" title="萨姆奥尔特曼称个人电脑配备大量内存是浪费 若集中到云端可以提高资源利用率"&gt;&lt;h3&gt;萨姆奥尔特曼称个人电脑配备大量内存是浪费 若集中到云端可以提高资源利用率&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#行业资讯 萨姆奥尔特曼称个人电脑配备大量内存是浪费，若将内存集中到云端可以提高资源利用率。奥尔特曼称这些内存只有 5% 的时间被使用，也就是大…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/tech"&gt;科技资讯&lt;/a&gt;, &lt;a href="https://www.landian.news/tech/industry"&gt;行业资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2026年11月3日 10:30&lt;/span&gt;&lt;span title="浏览数量"&gt;3.06K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 06 Nov 2026 02:30:00 +0000</pubDate></item><item><title>币安提议区块网络Polygon POS进行协调硬分叉 以转移被盗的680万美元POL代币</title><link>https://www.landian.news/archives/128116.html</link><description>
+&lt;p&gt;#加密货币 币安与 Polymarket 提议 Polygon POS 区块网络进行协调硬分叉，将被盗的约 680 万美元原生 POL 代币从黑客钱包归零。当然这些代币不会消失，黑客钱包归零后，区块将为指定的恢复钱包增加这些 POL 代币，相当于转移。现阶段这只是提议，后续社区将对提议进行投票讨论，以及后续工作还需要验证者、服务商、交易所和节点运营商配合。查看全文：https://ourl.co/128116&lt;/p&gt;&lt;p&gt;加密货币交易所币安和加密预测市场 Polymarket 日前提议 Polygon POS 网络进行协调硬分叉，将两起安全事件中被盗、目前存放在五个钱包地址的 7049 万枚 POL 代币转移到指定的恢复钱包。这批代币按被盗时的价格计算，约为 680 万美元。&lt;/p&gt;
+&lt;p&gt;Polygon 区块生产者此前已经将相关地址加入交易阻止名单，新提案希望通过修改网络状态，将这些地址中的原生 POL 代币转移给币安和 Polymarket，供双方处理后续的资产返还。&lt;/p&gt;
+&lt;figure aria-describedby="caption-attachment-128177" id="attachment_128177"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128116.png" rel="nofollow"&gt;&lt;img alt="币安提议区块网络Polygon POS进行协调硬分叉 以转移被盗的680万美元POL代币" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128116.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-128177"&gt;本图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在币安发生安全事件时，加密预测市场 Polymarket 也同样遭到黑客攻击，后者虽然也会全额补偿用户但要求用户放弃其他权利，尤其是不能在社交媒体上发布不利于该平台的内容，因此部分用户直接拒绝签署协议。&lt;/p&gt;
+&lt;p&gt;实际上除了币安和 Polymarket 外，在之后几天印度和巴西的加密货币交易所也相继发生安全事件，例如印度的加密货币交易所被盗大约 4000 万美元的资产。目前无法确定这些攻击是否都是相同的攻击者。&lt;/p&gt;
+&lt;p&gt;回到币安和 Polymarket 安全事件上，这两起安全事件涉及 Polygon POS 区块网络的有 5 个钱包地址，其中 1 个地址存放 Polymarket 被盗的 2386 万枚 POL 代币，价值约 231 万美元。剩余 4 个地址用于存放币安的被盗资产，约 7049 万枚 POL 代币，价值约 451 万美元。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;按照提案所述，硬分叉将在实现确定的区块高度上生效。届时网络会读取名单上的 5 个地址的钱包余额并将其归零，然后再把等额 POL 代币计入币安和 Polymarket 指定并验证的恢复地址。&lt;/p&gt;
+&lt;p&gt;整个过程将改变指定地址上的链上余额，POL 代币总供应量保持不变。提案还要求两家平台在激活前证明自己控制恢复地址，通过书面确认收款地址，避免因地址问题造成金额丢失。&lt;/p&gt;
+&lt;p&gt;提案也指出，验证者、RPC 服务商、交易所和节点运营者需要在激活区块到来前运行支持该变更的客户端版本，协调升级是硬分叉的重要环节，继续运行旧规则的节点将在激活后与升级节点遵循不同的链规则。&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 06 Nov 2026 02:00:00 +0000</pubDate></item></channel></rss>
