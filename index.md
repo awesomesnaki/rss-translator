@@ -1,6 +1,6 @@
 # RSS 中文翻译源
 
-更新时间: 2026-11-06 06:33 UTC
+更新时间: 2026-11-06 11:40 UTC
 
 ## 订阅链接
 
@@ -30,3 +30,5 @@
 - zhheo: https://awesomesnaki.github.io/rss-translator/feeds/zhheo.xml
 
 点击上面的链接即可获取订阅地址。
+
+健康检查（源停更、连续失败时告警）: https://awesomesnaki.github.io/rss-translator/feeds/health.xml
