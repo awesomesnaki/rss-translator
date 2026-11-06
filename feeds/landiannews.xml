@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Thu, 05 Nov 2026 09:00:00 +0000</lastBuildDate><item><title>苹果将检查iCloud公开链接中的有害内容 若用户分享有害内容也可能会被封号</title><link>https://www.landian.news/archives/128113.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Fri, 06 Nov 2026 01:00:00 +0000</lastBuildDate><item><title>OpenSSH发布紧急安全更新修复SSH绕过密码认证登录 OpenWrt等系统是重灾区</title><link>https://www.landian.news/archives/128114.html</link><description>
+&lt;p&gt;#安全资讯 OpenSSH 发布紧急安全更新修复 SSH 绕过密码认证漏洞，OpenWrt 和 Alpine Linux 等系统是受影响重灾区。该漏洞仅在使用 musl libc 切禁用 PAM 支持的 Linux 环境中可被利用，像是 Debian 等发行版不受该漏洞影响。临时措施还包括禁用密码认证，改成密钥对连接，这也再次提醒我们最好默认使用密钥认证，不要使用密码。查看全文：https://ourl.co/128114&lt;/p&gt;&lt;p&gt;OpenSSH 项目组日前发布紧急安全更新 10.6P2 版为密码认证绕过问题提供缓解措施。OpenSSH 被各类系统广泛使用，该最新出现的漏洞可以在开启密码登录的情况下，使用错误密码绕过传统认证直接连接 SSH 服务。&lt;/p&gt;
+&lt;p&gt;目前受该问题影响比较严重的系统是 Alpine Linux 和 OpenWrt 等，像是 Debian 等系统由于采用的配置不同因此不受漏洞影响，建议使用相关受影响系统的用户立即检查更新并将 OpenSSH 升级到最新版。&lt;/p&gt;
+&lt;figure aria-describedby="caption-attachment-128173" id="attachment_128173"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128114.png" rel="nofollow"&gt;&lt;img alt="OpenSSH发布紧急安全更新修复SSH绕过密码认证登录 OpenWrt等系统是重灾区" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128114.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-128173"&gt;本图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;SSH 常用于远程登录和管理服务器，服务端程序 sshd 负责处理连接及用户认证，若密码认证环节出现问题，服务器的远程访问安全就会受到影响 (这里也再次提醒我们应当使用密钥认证并禁用密码登录)。&lt;/p&gt;
+&lt;p&gt;OpenSSH 在更新日志中表示，这项问题影响部分使用 musl libc 且禁用 PAM 支持的 Linux 环境，攻击者可以通过 sshd 利用漏洞绕过密码认证，因此攻击者不需要知道正确密码即可直接连接服务器。&lt;/p&gt;
+&lt;p&gt;值得注意的是这个问题的根本原因其实在 sshd 之外，但可以通过调整 sshd 避免受到利用，因此 OpenSSH 发布紧急安全更新用来调整配置帮助用户缓解该漏洞，后续其他更新也会陆续发布。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;IT 管理员应优先检查运行 Alpine Linux 等 musl 环境的服务器，确认 OpenSSH 服务端的 PAM 和密码认证配置，随后立即将 OpenSSH 更新到 10.6P2 版以缓解漏洞造成的危害。&lt;/p&gt;
+&lt;p&gt;在完成安全更新前，用户也可以将 SSH 配置中的密码认证设为禁用。请注意：在禁用密码认证前请确保已经配置可以连接的密钥对或可以通过云控制台连接，否则禁用密码认证后你将失去服务器管理权限。&lt;/p&gt;
+&lt;pre&gt;# 编辑如下文件
+
+nano /etc/ssh/sshd_config
+
+# 找到 PasswordAuthentication 项 将其修改为
+
+PasswordAuthentication no
+
+# 再次提醒：修改以上配置前请务必配置密钥认证且先测试密钥能够登录&lt;/pre&gt;
+&lt;hr/&gt;
+&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://www.openssh.org/releasenotes.html#10.6p2" rel="noopener" target="_blank"&gt;OpenSSH&lt;/a&gt;&lt;/p&gt;
+&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 06 Nov 2026 01:00:00 +0000</pubDate></item><item><title>苹果将检查iCloud公开链接中的有害内容 若用户分享有害内容也可能会被封号</title><link>https://www.landian.news/archives/128113.html</link><description>
 &lt;p&gt;#行业资讯 苹果宣布将检查 iCloud 公开分享内容，若发现恶意内容尤其是儿童色情内容，将采取封号甚至通报执法机构的措施。以上措施将在 iOS 27.3 等版本中上线，重点是扫描通过 iCloud 云盘或相册分享的内容。若用户分享时选择任何获得链接的人都可以访问，那就视为公开分享，公开分享文件将解除端到端加密并接受苹果的扫描。查看全文：https://ourl.co/128113&lt;/p&gt;&lt;p&gt;苹果计划从 iOS 27.3 版开始检查通过 iCloud 任何拥有链接的人选项分享的内容，主要目的是识别分享链接中出现的有害内容。分享功能涉及 iCloud 照片和 iCloud 云盘文件，若苹果检查到有害内容，则链接可能会被删除，甚至可能封号和通报给执法机构。&lt;/p&gt;
 &lt;figure aria-describedby="caption-attachment-128170" id="attachment_128170"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128113.png" rel="nofollow"&gt;&lt;img alt="苹果将检查iCloud公开链接中的有害内容 若用户分享有害内容也可能会被封号" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128113.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-128170"&gt;本图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;&lt;strong&gt;&lt;p&gt; 打击通过 iCloud 传播有害内容，尤其是儿童色情内容：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -124,16 +147,4 @@
 &lt;hr/&gt;
 &lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://github.com/openai/codex/issues/59060" rel="noopener" target="_blank"&gt;Codex Issue #59060&lt;/a&gt;&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 05 Nov 2026 05:00:00 +0000</pubDate></item><item><title>华尔街日报称苹果仍然对iPhone存储升级收取300%的费用(机身存储非内存)</title><link>https://www.landian.news/archives/128055.html</link><description>
-&lt;p&gt;#行业资讯 华尔街日报称苹果仍然对 iPhone 存储升级收取 300% 的费用，存储芯片涨价反而让苹果获得更高的利润。华尔街日报称 iPhone 17 Pro 从 256GB 升级到 1TB 需要多花 400 美元，而苹果的增量成本为 42 美元，苹果有 358 美元的利润。到 iPhone 18 Pro，升级价差为 600 美元，苹果增量成本为 192 美元，此时苹果有 408 美元的利润。查看全文：https://ourl.co/128055&lt;/p&gt;&lt;p&gt;苹果近日表示存储芯片价格涨价正在挤压该公司的利润空间，不过华尔街日报综合苹果产品售价和研究机构的成本估算发现，即使存储芯片价格大幅度上涨，iPhone 18 Pro 系列高容量版本仍然有较大的价格空间。&lt;/p&gt;
-&lt;p&gt;以美国市场为例：iPhone 18 Pro 从 256GB 升级到 1TB，消费者需要多支付 600 美元。但相应的存储芯片增量成本估计为 192 美元，也就是苹果能多赚 408 美元，相当于有 300% 的利润。&lt;/p&gt;
-&lt;figure aria-describedby="caption-attachment-128151" id="attachment_128151"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128055.png" rel="nofollow"&gt;&lt;img alt="华尔街日报称苹果仍然对iPhone存储升级收取300%的费用(机身存储非内存)" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128055.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-128151"&gt;本图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;华尔街日报给出的估算显示，iPhone 17 Pro 从 256GB 升级到 1TB 有 400 美元的差价，而存储芯片增量成本为 42 美元，苹果有 358 美元的利润。到 iPhone 18 Pro，苹果的增量成本增加到 192 美元，但消费者购买时需要多支付 600 美元的差价，此时苹果有 408 美元的利润。&lt;/p&gt;
-&lt;p&gt;按照这组数据，iPhone 18 Pro 升级差价约为闪存增量成本的 3.1 倍，iPhone 17 Pro 当时约为 9.5 倍。存储芯片涨价确实提高了苹果的零部件支出，但苹果也提高产品零售价确保自己的利润空间不会减少。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;苹果长期以来都对更大容量的 iPhone、iPad、Mac 收取更高额的差价，随着人工智能企业建设数据中心，NAND 闪存和其他存储芯片需求持续上涨，这导致苹果也面临更高的采购成本。&lt;/p&gt;
-&lt;p&gt;研究机构称苹果今年采购数量大致相近的闪存芯片可能需要花费 250 亿美元，而在 2025 年约为 60 亿美元。闪存芯片供应商如今拥有更多大型数据中心客户，因此议价能力已经显著增强。&lt;/p&gt;
-&lt;p&gt;苹果在最近的财报电话会议中表示，存储成本上涨给公司毛利率带来压力。不过苹果自己给出的数据也显示毛利率可能只会下降 1 个百分点，这与 iPhone 涨幅相比不值一提。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Thu, 05 Nov 2026 04:30:00 +0000</pubDate></item></channel></rss>
+</description><pubDate>Thu, 05 Nov 2026 05:00:00 +0000</pubDate></item></channel></rss>
