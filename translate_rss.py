@@ -15,6 +15,7 @@ from openai import OpenAI
 import requests
 from readability import Document
 from site_sources import build_source_feed
+import feed_health
 
 # DeepSeek API 配置（从环境变量读取，不会暴露在代码里）
 client = OpenAI(
@@ -845,7 +846,8 @@ def apply_entry_filter(entries, filter_type):
         print(f"  警告: 未知的过滤类型 '{filter_type}'，跳过过滤")
         return entries
 
-def translate_feed(feed_config, cache, content_store):
+def translate_feed(feed_config, cache, content_store, report=None):
+    """report 不为 None 时，往里填上游条目的链接和发布时间（供 feed_health 判断停更）"""
     print(f"处理: {feed_config['name']}")
     url = resolve_feed_url(feed_config['url'])
     print(f"  URL: {url}")
@@ -857,6 +859,14 @@ def translate_feed(feed_config, cache, content_store):
         feed = feedparser.parse(url, request_headers={
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
         })
+
+    # 上游一条都没有基本都是出错了（RSSHub 路由报错返回 HTML、源站挂了）。以前这里会照常
+    # 生成一个空 feed，把已经发布的条目全部覆盖掉；现在当成失败处理：保留旧 XML，计入健康检查
+    if not feed.entries:
+        reason = feed.get('bozo_exception') or '上游没有返回任何条目'
+        raise RuntimeError(f"上游 feed 为空: {reason}")
+    if report is not None:
+        report.update(feed_health.entry_report(feed.entries, datetime.now(timezone.utc)))
 
     should_translate = feed_config.get('translate', True)
 
@@ -1042,9 +1052,10 @@ def translate_feed(feed_config, cache, content_store):
     return translated_feed
 
 def process_single_feed(feed_config, cache, content_store, output_dir):
-    """处理单个 feed（供线程池调用）"""
+    """处理单个 feed（供线程池调用）。返回 (名字, 是否成功, 健康检查报告)"""
+    report = {}
     try:
-        translated_feed = translate_feed(feed_config, cache, content_store)
+        translated_feed = translate_feed(feed_config, cache, content_store, report)
 
         # 保存 feed
         output_file = output_dir / f"{feed_config['name']}.xml"
@@ -1052,10 +1063,10 @@ def process_single_feed(feed_config, cache, content_store, output_dir):
             translated_feed.write(f, 'utf-8')
 
         print(f"完成: {feed_config['name']}")
-        return feed_config['name'], True
+        return feed_config['name'], True, {'ok': True, **report}
     except Exception as e:
         print(f"处理 {feed_config['name']} 失败: {e}")
-        return feed_config['name'], False
+        return feed_config['name'], False, {'ok': False, 'error': f'{type(e).__name__}: {e}'}
 
 def main():
     # 检查 API key
@@ -1075,18 +1086,26 @@ def main():
 
     # 并行处理所有 feed（最多 3 个同时）
     completed_feeds = []
+    reports = {}
     with ThreadPoolExecutor(max_workers=3) as executor:
         futures = {
             executor.submit(process_single_feed, fc, cache, content_store, output_dir): fc
             for fc in config['feeds']
         }
         for future in as_completed(futures):
-            name, success = future.result()
+            name, success, report = future.result()
+            reports[name] = report
             if success:
                 completed_feeds.append(name)
 
     save_cache(cache)
     save_content_store(content_store)
+
+    # 健康检查：停更 / 连续失败的源写进 feeds/health.xml。它出错不能影响翻译结果的提交
+    try:
+        feed_health.run(config['feeds'], reports)
+    except Exception as e:
+        print(f"健康检查失败: {type(e).__name__}: {e}")
     
     # 生成索引页
     index_content = f"""# RSS 中文翻译源
@@ -1098,6 +1117,8 @@ def main():
 {chr(10).join(f"- {name}: https://awesomesnaki.github.io/rss-translator/feeds/{name}.xml" for name in sorted(completed_feeds))}
 
 点击上面的链接即可获取订阅地址。
+
+健康检查（源停更、连续失败时告警）: https://awesomesnaki.github.io/rss-translator/feeds/health.xml
 """
     
     with open('index.md', 'w', encoding='utf-8') as f:

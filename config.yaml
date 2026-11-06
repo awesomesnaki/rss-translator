@@ -13,7 +13,9 @@ feeds:
   - name: "thinkingoutloud"
     url: "https://newsletter.jantegze.com/feed"
   - name: "AnthropicNews"
-    url: "https://rsshub.bestblogs.dev/anthropic/news"
+    # 原来用第三方实例 rsshub.bestblogs.dev，它 2026-10-18 起不再刷新（一直返回旧缓存），
+    # 改走 CI 里自己的 RSSHub 实例
+    url: "rsshub://anthropic/news"
   - name: "appaddict"
     url: "https://apps.louplummer.lol/feed.atom"
   - name: "indieapp"
