@@ -24,8 +24,11 @@ feeds:
   - name: "basicappleguy"
     url: "https://basicappleguy.com/basicappleblog?format=rss"
   - name: "workspaces"
-    url: "https://rss.beehiiv.com/feeds/A7QnI2IsJ7.xml"
-    fetch_full_content: true
+    # 2026-07 从 beehiiv 搬到自建站 workspaces.xyz，旧 beehiiv RSS 停更且没有新 RSS，
+    # 改为直接查站点背后的 Sanity 公开接口（见 site_sources.py），正文就是全文
+    url: "workspaces://setups"
+    # 标题是「#期号 人名 · 头衔」，人名交给翻译会被乱音译，保留英文
+    translate_title: false
   - name: "dianying4k"
     url: "rsshub://telegram/channel/dianying4K"
     translate: false

@@ -922,6 +922,8 @@ def translate_feed(feed_config, cache, content_store):
         print(f"  分类过滤: {before} → {len(entries)} 条 (保留: {wanted})")
 
     should_summarize_title = feed_config.get('summarize_title', False)
+    # translate_title: false — 标题保留原文（比如以人名为标题的源，翻译会把人名音译走样）
+    should_translate_title = should_translate and feed_config.get('translate_title', True)
     should_images_only = feed_config.get('images_only', False)
     should_text_only = feed_config.get('text_only', False)
     should_self_host = feed_config.get('self_host_images', False)
@@ -937,7 +939,7 @@ def translate_feed(feed_config, cache, content_store):
 
         if should_summarize_title and should_translate:
             title = summarize_title_text(original_title, cache)
-        elif should_translate:
+        elif should_translate_title:
             title = translate_text(original_title, cache)
         else:
             title = original_title
