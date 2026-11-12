@@ -1,11 +1,12 @@
 # RSS 中文翻译源
 
-更新时间: 2026-11-11 19:55 UTC
+更新时间: 2026-11-12 02:03 UTC
 
 ## 订阅链接
 
 - AnthropicNews: https://awesomesnaki.github.io/rss-translator/feeds/AnthropicNews.xml
 - DaringFireball: https://awesomesnaki.github.io/rss-translator/feeds/DaringFireball.xml
+- SimonWillisonQuotes: https://awesomesnaki.github.io/rss-translator/feeds/SimonWillisonQuotes.xml
 - appaddict: https://awesomesnaki.github.io/rss-translator/feeds/appaddict.xml
 - basicappleguy: https://awesomesnaki.github.io/rss-translator/feeds/basicappleguy.xml
 - cnbeta: https://awesomesnaki.github.io/rss-translator/feeds/cnbeta.xml
