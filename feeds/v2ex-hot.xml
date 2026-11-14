@@ -1,5 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>V2EX-最热主题</title><link>https://www.v2ex.com/</link><description>V2EX-最热主题 - Powered by RSSHub</description><language>zh-CN</language><lastBuildDate>Sat, 14 Nov 2026 06:05:09 +0000</lastBuildDate><item><title>iOS 原生多论坛客户端： V2EX / NGA / Linux .do / Chiphell / 4D4Y 一个 App 刷，抽 10 个半年 Pro</title><link>https://www.v2ex.com/t/1257030</link><description>&lt;p&gt;平时同时逛好几个论坛，一个论坛一个 App 或者一个网页，来回切有点烦。之前一直用论坛助手，支持的论坛多，用着其实也不差，就是我这人比较龟毛，很多地方想按自己的审美和习惯来，索性自己手搓了一个。断断续续做了几个月，前两天终于上架了。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>V2EX-最热主题</title><link>https://www.v2ex.com/</link><description>V2EX-最热主题 - Powered by RSSHub</description><language>zh-CN</language><lastBuildDate>Sat, 14 Nov 2026 14:03:54 +0000</lastBuildDate><item><title>求助: 想在寝室搞一个小主机 有推荐么?</title><link>https://www.v2ex.com/t/1257109</link><description>&lt;p&gt;目前只有一台 8845H 的笔记本 + iPad air(有点想把 pad 出掉... 记笔记屏幕滑的一 看书不如手机随时随地又小巧 拿着舒服)&lt;/p&gt;
+&lt;p&gt;预算 4000 左右&lt;/p&gt;
+&lt;h2&gt;用途&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;挂 agent 跑任务(主要是翻译一些文档 搜集一些资料 完成一些重复小任务 小机器人监控一些任务 有时候有一些想法直接丢给 ai one-shot 先跑三四轮 然后后看一看结果是否收敛 如果有感觉就继续迭代 感觉完成的不好或者是后续投入优化的时间会花费的很大的话就放弃掉) 如果在本机跑的话老是控制不住自己 tmux 切过去看进程 有点难受.  &lt;/li&gt;
+&lt;li&gt;挂 pt&lt;/li&gt;
+&lt;li&gt;喜欢折腾 最近在学运维 docker 想要自己装台机子舒服一下 :)&lt;/li&gt;
+&lt;li&gt;... &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;试过 grok bot 这类的产品 但是我还是更喜欢将一些 prompt 和数据维护在本地
+grok bot 自动压缩和学习有时候会记住一些我不想让他记住的东西 有点难受.
+试过 vps. 但是有一些任务有时候 cpu 太弱要很久. &lt;/p&gt;
+&lt;h2&gt;候选&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;mac mini
+静音 功耗低
+存储贵(外挂硬盘盒?) 多多上蹲不到 24G 内存机子的好价&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;树莓派 5
+性能比较低 没用过
+价格便宜&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;itx 小主机
+现在板 u 都是低价 咸鱼上收个低价内存先撑一下 然后等以后慢慢攒钱拓展&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;老哥们有什么推荐么?&lt;/p&gt;
+&lt;hr/&gt;
+Supplement 1  ·  &lt;span title="2026-11-14 22:57:44 +08:00"&gt;8h 30m ago&lt;/span&gt;
+
+目前的笔记本是 32+2T&lt;br/&gt;然后 pt 是计划要做的 还不是很了解&lt;br/&gt;之前一直用的 bt 都是白天后台挂个电影晚上看 （现在流媒体平台广告是真多 画质是真拉）
+
+&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;#1 hefish&lt;/strong&gt;：这挂 pt 的需求，是不是还是要搞个 nas ？&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#2 yaaaaaak&lt;/strong&gt;：可以考虑咸鱼淘个 32g 内存迷你主机，2000 多。不过这个价以前都能买新的了。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#3 ixixi&lt;/strong&gt;：正八经当生产力工具就自己组个 x86 电脑 ，安装一下 pve ，能受益很久  &lt;br/&gt;就是不知道你们晚上停电不。。。。。。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#4 xukuangdi465&lt;/strong&gt;：@&lt;a href="/member/ixixi"&gt;ixixi&lt;/a&gt; 不停电 所以想搞个小主机&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#5 xukuangdi465&lt;/strong&gt;：@&lt;a href="/member/yaaaaaak"&gt;yaaaaaak&lt;/a&gt; 主要是没淘过 怕踩坑 所以来问问有什么注意的&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#6 HvangStormstout&lt;/strong&gt;：3 。推荐看看 3D 打印的 itx 机箱，性价比比 1 和 2 都高，而且很多都很有创意。&lt;br/&gt;但是内存固态显卡现在都**贵的一批**。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#7 xukuangdi465&lt;/strong&gt;：@&lt;a href="/member/hefish"&gt;hefish&lt;/a&gt; emm 现在 pt 量不是很大 现在硬盘太贵了 还是慢慢攒钱买硬盘吧&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#8 xukuangdi465&lt;/strong&gt;：@&lt;a href="/member/HvangStormstout"&gt;HvangStormstout&lt;/a&gt; 应该把当初买 pad 的钱拿来装机的😭&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#9 Philippa&lt;/strong&gt;：8845s 的小主机 + 128g 内存 + 4T SSD ，很好用&lt;br/&gt;&lt;br/&gt;然而现在内存和储存还是太贵了，怎么推荐都逃不开&lt;br/&gt;&lt;br/&gt;唯一推荐就是买个正经的台式 CPU ，以后有机会扩展到 256g 内存。我的小主机是笔记本内存，但不可能找到兼容 256g 内存的板子了，但内存又太贵，买是不可能买了，导致无法升级 256g 内存&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#10 jacketma&lt;/strong&gt;：再搞一个 8845 的小主机就行可以，U 调成性能模式，这个机器还能打，就是现在加大内存的成本有点高啊😯&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#11 wtsamuel&lt;/strong&gt;：联想，戴尔，惠普有小主机的，买个二手就行&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#12 duanxianze&lt;/strong&gt;：在宿舍折腾 pt?? 额  不太好吧&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#13 xukuangdi465&lt;/strong&gt;：@&lt;a href="/member/duanxianze"&gt;duanxianze&lt;/a&gt; 会封号还是断电对硬件不好？我之前跑 bt 没问题 我不是很了解这个工作原理&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#14 xukuangdi465&lt;/strong&gt;：@&lt;a href="/member/Philippa"&gt;Philippa&lt;/a&gt; 128g 内存吗 orz ！！！&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#15 xukuangdi465&lt;/strong&gt;：@&lt;a href="/member/HvangStormstout"&gt;HvangStormstout&lt;/a&gt; 不打算装显卡 或者搞个弱点的卡 &lt;br/&gt;目前也只学一些简单的机器学习 笔记本上有 4060&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#16 kafkaonsea&lt;/strong&gt;：我有两台戴尔迷你主机出，有意可以聊&lt;br/&gt;&lt;br/&gt;&lt;a href="https://m.tb.cn/h.jQ87rSP?tk=sBia6eiPYwO" rel="nofollow noopener" target="_blank"&gt;https://m.tb.cn/h.jQ87rSP?tk=sBia6eiPYwO&lt;/a&gt;&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#17 MFWT&lt;/strong&gt;：我分享下我的方案吧，一个 i5-6260U 的 NUC ，插 16G DDR4 ，256G SATA （还有个 M2 位，不过旧盘坏了，新盘价格高暂时没买），装 PVE ，开容器开 VM 都方便。不过这个机器性能还是略低了，正经挂点什么还是挂到家里的 PVE 主机上，i5-13600HX （ MoTD ）+32G DDR4 ，两个固态分别作为 PVE 系统盘和 VM 系统盘，外加 4 块机械做 Basic 存储（互相做重点文件的热备）&lt;br/&gt;&lt;br/&gt;树莓派我是不太建议了，除非对功耗有非常极致的要求，否则 ARM 系统的话恐怕会比 x86 略微麻烦一些&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#18 emmo&lt;/strong&gt;：一堆 8845H 或者其他 amd 其他套壳 cpu 的迷你主机。准系统在 1200 左右。配上硬盘和内存就行了。&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;这是最合适的方案。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#19 billlee&lt;/strong&gt;：首先排除树莓派，性价比极低。除非你要用什么对树莓派有特别支持的软件。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#20 mooyo&lt;/strong&gt;：我之前买了个机械革命 mini 的主机 4k 块钱 32+1t amd ai365 的 u ，现在这价根本买不到咯。。&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#21 MYDB&lt;/strong&gt;：mac mini 吧，后面出二手也好出一些，windows 小主机二手价格跳水很厉害&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#22 mangmaimu&lt;/strong&gt;：macmini 就不是一个层次的，能选 macmini 必选 macmini&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 14 Nov 2026 14:03:54 +0000</pubDate></item><item><title>iOS 原生多论坛客户端： V2EX / NGA / Linux .do / Chiphell / 4D4Y 一个 App 刷，抽 10 个半年 Pro</title><link>https://www.v2ex.com/t/1257030</link><description>&lt;p&gt;平时同时逛好几个论坛，一个论坛一个 App 或者一个网页，来回切有点烦。之前一直用论坛助手，支持的论坛多，用着其实也不差，就是我这人比较龟毛，很多地方想按自己的审美和习惯来，索性自己手搓了一个。断断续续做了几个月，前两天终于上架了。&lt;/p&gt;
 &lt;p&gt;App Store 搜「&lt;a href="https://apps.apple.com/app/id6821816100" rel="nofollow"&gt;&lt;strong&gt;Dis 看帖&lt;/strong&gt;&lt;/a&gt;」，需要 iOS 18 以上，iPhone / iPad 都能用，iPhone Duo 也做了初步适配。&lt;/p&gt;
 &lt;p&gt;现在支持 V2EX 、NGA 、Linuxdo 、4D4Y 、Chiphell ，后面会接更多。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="全部视图和聚合搜索" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://i.imgur.com/Wt1fv61.png"/&gt;&lt;/p&gt;
@@ -82,7 +139,8 @@
 &lt;p&gt;&lt;strong&gt;#42 ae&lt;/strong&gt;：@&lt;a href="/member/DieInMemory"&gt;DieInMemory&lt;/a&gt; 方便问一下：你是用账号密码登录，还是点的谷歌登录？卡住的时候页面停在哪儿，是 V2EX 首页（右上角已经有你的头像），还是登录页 / 谷歌的页面？&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#43 ae&lt;/strong&gt;：@&lt;a href="/member/faifaint"&gt;faifaint&lt;/a&gt; @&lt;a href="/member/vicya"&gt;vicya&lt;/a&gt; @&lt;a href="/member/DieInMemory"&gt;DieInMemory&lt;/a&gt; 欢迎尝试&lt;br/&gt;@&lt;a href="/member/0U0"&gt;0U0&lt;/a&gt; 需求收到，先把现有的打磨下，再考虑加入新的&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#44 shilianmlxg&lt;/strong&gt;：希望加入 nodeseek ，超级喜欢这个论坛&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#45 ae&lt;/strong&gt;：@&lt;a href="/member/shilianmlxg"&gt;shilianmlxg&lt;/a&gt; 需求收到&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 14 Nov 2026 06:05:09 +0000</pubDate></item><item><title>睡前安排了一整晚的 agent 全自动任务，一觉醒来被 Windows 自动更新重启杀了</title><link>https://www.v2ex.com/t/1257008</link><description>&lt;p&gt;期待在醒来时看到项目做好上线发布的页面，结果被 Windows 登录页面迎接。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#45 ae&lt;/strong&gt;：@&lt;a href="/member/shilianmlxg"&gt;shilianmlxg&lt;/a&gt; 需求收到&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#46 superpeaser&lt;/strong&gt;：来试试&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 14 Nov 2026 06:05:09 +0000</pubDate></item><item><title>睡前安排了一整晚的 agent 全自动任务，一觉醒来被 Windows 自动更新重启杀了</title><link>https://www.v2ex.com/t/1257008</link><description>&lt;p&gt;期待在醒来时看到项目做好上线发布的页面，结果被 Windows 登录页面迎接。&lt;/p&gt;
 &lt;p&gt;这种设计究竟是怎么期待人用它稳定工作开发的？&lt;/p&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 VoiceEXONE&lt;/strong&gt;：AI 时代 windows 基本就是拦路石 弃了吧&lt;/p&gt;&lt;hr/&gt;
@@ -176,7 +234,7 @@
 &lt;p&gt;&lt;strong&gt;#32 emmo&lt;/strong&gt;：@&lt;a href="/member/Rorysky"&gt;Rorysky&lt;/a&gt; deepseek 4.1 目前看那个所谓的指纹，没有用英伟达芯片。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#33 catwalk&lt;/strong&gt;：@&lt;a href="/member/BigShot404"&gt;BigShot404&lt;/a&gt; ds4.1flash 用官方 API 还是其他订阅?&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 14 Nov 2026 02:05:00 +0000</pubDate></item><item><title>GPT 官 Key 免费用。蹬完即止</title><link>https://www.v2ex.com/t/1256998</link><description>周末没人上班，Token 用不完。送给 V2EX 的大佬免费用。&lt;br/&gt;&lt;br/&gt;&lt;a href="https://pixcook.ai" rel="nofollow noopener" target="_blank"&gt;https://pixcook.ai&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;sk-6810902ebc0f3256989f528a8727f2e658fff1d483c0ef2e801ddd94fe83629e&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;我们是做 AI 出海应用的团队，因为自身开发团队的需要，为了降低成本，所以自己购买一些 ChatGPT 账号搭建了一个中转站。&lt;br/&gt;&lt;br/&gt;自有的反代理技术，可以做到稳定不降智，缓存率长期保持在 97%以上的体验，缓存写入长期个位数或者 3 位数以内。&lt;br/&gt;&lt;br/&gt;V2EX 的大佬，如果注册后，回帖留下站内 ID （右上角账户下来菜单中可以查阅），我将送上 5 刀 余额，数量有限，送完即止。
 &lt;hr/&gt;
-Supplement 1  ·  &lt;span title="2026-11-14 15:09:12 +08:00"&gt;11h 44m ago&lt;/span&gt;
+Supplement 1  ·  &lt;span title="2026-11-14 15:09:12 +08:00"&gt;16h 18m ago&lt;/span&gt;
 
 已补货，可以继续蹬了。
 
@@ -215,7 +273,9 @@ Supplement 1  ·  &lt;span title="2026-11-14 15:09:12 +08:00"&gt;11h 44m ago&l
 &lt;p&gt;&lt;strong&gt;#32 hagandai&lt;/strong&gt;：用户 ID：121&lt;br/&gt;谢谢大佬&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#33 edius&lt;/strong&gt;：只能 QQ 邮箱注册?&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#34 sseven&lt;/strong&gt;：用户 ID：124&lt;br/&gt;谢谢大佬&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#35 Knightcs&lt;/strong&gt;：用户 ID：128&lt;br/&gt;谢谢老哥&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 14 Nov 2026 01:54:25 +0000</pubDate></item><item><title>很多火的东西，理解不了为什么火</title><link>https://www.v2ex.com/t/1256990</link><description>&lt;p&gt;是不是也表示：我自己做出来的产品就不可能火，因为我的品味有问题&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#35 Knightcs&lt;/strong&gt;：用户 ID：128&lt;br/&gt;谢谢老哥&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#36 pmgh10&lt;/strong&gt;：@&lt;a href="/member/gfj"&gt;gfj&lt;/a&gt; #11 iD129，多谢大佬&lt;/p&gt;&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;#37 jintianzhenkaixi&lt;/strong&gt;：用户 ID：130&lt;br/&gt;多谢多谢&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 14 Nov 2026 01:54:25 +0000</pubDate></item><item><title>很多火的东西，理解不了为什么火</title><link>https://www.v2ex.com/t/1256990</link><description>&lt;p&gt;是不是也表示：我自己做出来的产品就不可能火，因为我的品味有问题&lt;/p&gt;
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 strobber16&lt;/strong&gt;：火火火火火&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#2 GyroZeppeli13&lt;/strong&gt;：火不了是正常的，因为很多东西你看起来觉得平平无奇实际上非常要天赋。&lt;br/&gt;&lt;br/&gt;我不知道你是不是硬核电影迷，但是如果你看电影多的话，其实很多大导的商业片你看了之后可能也觉得就这样。但是如果是自己上手拍，哪怕给你足够的时间和资源，最后大概率就是毕志飞那个《逐梦电影圈》的水准。&lt;br/&gt;&lt;br/&gt;再说个得罪人的话，别的不说就 V 站多少搞独立游戏那个生草审美和游戏机制设计，也很难评。但是这种话也不好意思在那些推广帖子下面说，毕竟论能力这些人肯定也是很强的，而且也付出了很多精力。&lt;/p&gt;&lt;hr/&gt;
@@ -280,29 +340,7 @@ Supplement 1  ·  &lt;span title="2026-11-14 15:09:12 +08:00"&gt;11h 44m ago&l
 &lt;p&gt;&lt;strong&gt;#20 aero99&lt;/strong&gt;：感觉有些意思，来给我分析健康和运动指导可以吧&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#21 codelover612&lt;/strong&gt;：@&lt;a href="/member/aero99"&gt;aero99&lt;/a&gt; #20 可以，已经加上健康数据了&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#22 SilverRay&lt;/strong&gt;：@&lt;a href="/member/codelover612"&gt;codelover612&lt;/a&gt; #17 解决了，感谢楼主&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#23 Pending&lt;/strong&gt;：iOS 允许后台长期运行了？&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 14 Nov 2026 00:47:08 +0000</pubDate></item><item><title>家里用 PVE 做软路由，想和同好交流一下，也可远程帮看（长春可上门）</title><link>https://www.v2ex.com/t/1256986</link><description>自己在长春，家里小主机装着 PVE ，上面跑 OpenWrt 旁路由，也用 Unraid 和一些 VPS 。平时安装、组网、虚拟机这些会自己折腾。&lt;br/&gt;&lt;br/&gt;想多认识一些玩软路由、PVE 、NAS 的朋友，有在用类似方案的，欢迎一起聊聊坑。&lt;br/&gt;&lt;br/&gt;如果有人卡在安装、网络配置或者救砖上，也可以找我远程看一下，长春本地能上门。先说情况和报错，能做再谈要不要帮忙，按次算。不卖机器，也不接来路不明的账号和面板。
-&lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;#1 TheNine&lt;/strong&gt;：![]( &lt;a href="https://rustfs.chenlong9.top:6443/images/2026/11/20261114083941891.png" rel="nofollow noopener" target="_blank"&gt;https://rustfs.chenlong9.top:6443/images/2026/11/20261114083941891.png&lt;/a&gt;)&lt;br/&gt;![]( &lt;a href="https://rustfs.chenlong9.top:6443/images/2026/11/20261114084208459.png" rel="nofollow noopener" target="_blank"&gt;https://rustfs.chenlong9.top:6443/images/2026/11/20261114084208459.png&lt;/a&gt;)&lt;br/&gt;&lt;br/&gt;刚从集群换成了 all in one 了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#2 jiejiez&lt;/strong&gt;：unraid 都放到 pve 里了？我是 pve 和 unraid 两台机器。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#3 jiejiez&lt;/strong&gt;：@&lt;a href="/member/TheNine"&gt;TheNine&lt;/a&gt; unraid 都放到 pve 里了？我是 pve 和 unraid 两台机器。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#4 miyuki&lt;/strong&gt;：pve 炸了全部爆炸&lt;br/&gt;openwrt 炸了也访问不了其它服务吧&lt;br/&gt;&lt;br/&gt;我把路由单拿出来了，小主机 esxi 只运行路由以外的服务&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#5 TheNine&lt;/strong&gt;：@&lt;a href="/member/jiejiez"&gt;jiejiez&lt;/a&gt; #2 硬盘阵列直通卡和 u 盘直通给虚拟机就可以了&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#6 jiejiez&lt;/strong&gt;：@&lt;a href="/member/TheNine"&gt;TheNine&lt;/a&gt; all in one 需要经常维护。不过现在有 agent 也简单。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#7 TheNine&lt;/strong&gt;：@&lt;a href="/member/jiejiez"&gt;jiejiez&lt;/a&gt; #6 &lt;br/&gt;基本不怎么需要维护&lt;br/&gt;我之前是分布式集群 pve&lt;br/&gt;openwrt 跑在任一一台 pve 上，故障后自动转移到其他 pve ，恢复是秒级的&lt;br/&gt;，说实话 homelab 没啥必要，增加硬件和电力成本。最后还是回到了 all in one&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#8 jiejiez&lt;/strong&gt;：@&lt;a href="/member/TheNine"&gt;TheNine&lt;/a&gt; 家里本来一台 nas 。我看着台式机太闲了。改 pve ，装 win 。一台 Linux 服务虚拟机。跑跑量化&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#9 jiejiez&lt;/strong&gt;：@&lt;a href="/member/TheNine"&gt;TheNine&lt;/a&gt; 我备用的话，用 N1 。装 istoreos 。routeros 主路由，切换。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#10 ruidoBlanco&lt;/strong&gt;：路由 r2s ，坏了直接插备用 sd 卡，启动就好，因为没有写操作落盘，所以 sd 卡也很难坏。开机自动看配置是否是最新的，不是的话从 nas 下载最新配置。&lt;br/&gt;nas unraid ，单独的机器。&lt;br/&gt;pve nuc ，单独的机器。&lt;br/&gt;&lt;br/&gt;年纪大了 all-in-boom 折腾不起。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#11 aru&lt;/strong&gt;：@&lt;a href="/member/TheNine"&gt;TheNine&lt;/a&gt; &lt;br/&gt;多弄几台 arm 盒子玩耍&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#12 jiejiez&lt;/strong&gt;：@&lt;a href="/member/ruidoBlanco"&gt;ruidoBlanco&lt;/a&gt; 我也喜欢 unraid&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#13 DawnMoon&lt;/strong&gt;：我现在对 vlan 和 防火墙 感兴趣，pve 配置这些方便吗？另外有没有推荐的三层交换机？家用不贵的。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#14 FrankAdler&lt;/strong&gt;：写了个 ansible 动态主机脚本管理 pve ，超级方便，比如&lt;br/&gt;批量更新 批量执行脚本&lt;br/&gt;STATUS=running ansible-playbook -i pve update.yml --limit lxc&lt;br/&gt;STATUS=runn ansible-playbook -i pve on-remote.yml -e 'file=&lt;a href="http://clear-log.sh" rel="nofollow noopener" target="_blank"&gt;clear-log.sh&lt;/a&gt;' --limit vm&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#15 jiejiez&lt;/strong&gt;：@&lt;a href="/member/DawnMoon"&gt;DawnMoon&lt;/a&gt; vlan ？防火墙？还家用？ pve 配置网络都可以玩。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#16 jiejiez&lt;/strong&gt;：@&lt;a href="/member/aru"&gt;aru&lt;/a&gt; arm 盒子一台就够了。多台没有意思。毕竟性能摆在那边，x86 分分钟秒替&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#17 759648397&lt;/strong&gt;：路由和 pve 隔离，鸡蛋不要放一个篮子里&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#18 wtcs&lt;/strong&gt;：all in one 最小得多大的存储才能玩起来？我现在只有 1T 的 sata 固态，内存倒是挺大的，有 64 个 G&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#19 jiejiez&lt;/strong&gt;：@&lt;a href="/member/759648397"&gt;759648397&lt;/a&gt; 我就是主路由 routeros&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#20 feisualio&lt;/strong&gt;：玩了十几年的 homelab ，pve 一直在用，但是主路由我只用单独的设备。openwrt 也不考虑的。&lt;/p&gt;&lt;hr/&gt;
-&lt;p&gt;&lt;strong&gt;#21 jiejiez&lt;/strong&gt;：@&lt;a href="/member/wtcs"&gt;wtcs&lt;/a&gt; 不玩 nas ，这个配置够了。&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 14 Nov 2026 00:34:29 +0000</pubDate></item><item><title>有小孩了,想每年给小孩存一点钱,大家推荐什么</title><link>https://www.v2ex.com/t/1256985</link><description>目前给弄了个 3 年的定期存款&lt;br/&gt;&lt;br/&gt;希望有点收益,不要太大也不要冒险吧
+&lt;p&gt;&lt;strong&gt;#23 Pending&lt;/strong&gt;：iOS 允许后台长期运行了？&lt;/p&gt;&lt;hr/&gt;</description><pubDate>Sat, 14 Nov 2026 00:47:08 +0000</pubDate></item><item><title>有小孩了,想每年给小孩存一点钱,大家推荐什么</title><link>https://www.v2ex.com/t/1256985</link><description>目前给弄了个 3 年的定期存款&lt;br/&gt;&lt;br/&gt;希望有点收益,不要太大也不要冒险吧
 &lt;hr/&gt;&lt;h3&gt;评论&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#1 sir283&lt;/strong&gt;：每年给孩子屯几根金条，比你那些存款靠谱的多。&lt;/p&gt;&lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;#2 slackerman&lt;/strong&gt;：长江电力&lt;/p&gt;&lt;hr/&gt;
