@@ -1,117 +1,145 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Mon, 23 Nov 2026 10:30:00 +0000</lastBuildDate><item><title>微软计划从2027年开始将WiFi驱动移出内核 减少这类驱动导致的黑屏死机问题</title><link>https://www.landian.news/archives/128721.html</link><description>&lt;figure&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128721T.png"/&gt;&lt;/figure&gt;
-&lt;p&gt;#系统资讯 微软计划在明年将 WiFi 驱动从 Windows 11 内核迁出，改成用户模式运行，降低黑屏死机概率。当前 WiFi 驱动在内核中运行，如果驱动不兼容或更新后出错就可能导致整个系统崩溃。迁出到用户模式运行后，即便 WiFi 驱动崩溃也不至于让整个 PC 崩溃。查看全文：https://ourl.co/128721&lt;/p&gt;&lt;p&gt;微软目前正在计划从 2027 年开始将 WiFi 驱动程序移出 Windows 11 内核，即改成用户模式运行。微软的目的是减少 WiFi 驱动程序引起的黑屏死机问题，这项改进预计会在 2027 年发布的 Windows 11 中推出。&lt;/p&gt;
-&lt;figure aria-describedby="caption-attachment-128793" id="attachment_128793"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128721.png" rel="nofollow"&gt;&lt;img alt="微软计划从2027年开始将WiFi驱动移出内核 减少这类驱动导致的黑屏死机问题" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128721.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-128793"&gt;本图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝点网</title><link>https://www.landian.news</link><description>给你感兴趣的内容！</description><language>zh-CN</language><lastBuildDate>Tue, 24 Nov 2026 06:30:00 +0000</lastBuildDate><item><title>为未来做准备：英特尔驱动下载中心切换为SHA-512校验值 不再显示SHA-256</title><link>https://www.landian.news/archives/128802.html</link><description>&lt;figure&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128802T.png"/&gt;&lt;/figure&gt;
+&lt;p&gt;#网站应用 业界领先？英特尔驱动程序下载中心开始切换为 SHA-512 算法，即不再展示 SHA-256 校验值。此次变更是从 10 月下旬开始的，并非全站切换，而是新发布的驱动程序开始提供 SHA-512 值。切换算法主要为提高安全性，SHA-256 当前还未被破解，但未来肯定会被破解，所以英特尔这也算是在为未来做准备。校验方法：https://ourl.co/128802&lt;/p&gt;&lt;p&gt;据蓝点网网友 @hjsuwvm 分享的消息，英特尔正在逐步切换&lt;a href="https://www.landian.news/go?url=https://www.intel.com/content/www/us/en/download/19351/windows-10-and-windows-11-wi-fi-drivers-for-intel-wireless-adapters.html" rel="noopener" target="_blank"&gt;驱动程序下载中心&lt;/a&gt;的校验值，由原先的 SHA-256 校验值切换为 SHA-512 校验值。此次切换正在逐步进行中，像是新发布的 WiFi 和蓝牙驱动程序页面已经显示为 SHA-512 校验值。&lt;/p&gt;
+&lt;figure aria-describedby="caption-attachment-128850" id="attachment_128850"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128802.png" rel="nofollow"&gt;&lt;img alt="为未来做准备：英特尔驱动下载中心切换为SHA-512校验值 不再显示SHA-256" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128802.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-128850"&gt;本图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;目前 WiFi 驱动程序通常运行在内核模式且可以直接访问系统底层资源。这样的架构有助于驱动与网卡硬件通信，但如果驱动不兼容或在更新后出错，故障就可能影响系统本身导致崩溃。&lt;/p&gt;
-&lt;p&gt;迁移至用户模式运行后，WiFi 驱动程序将在与系统核心隔离的环境中运行。微软称用户模式驱动程序发生故障时，系统内核和设备其他部分仍然可以继续运行，这有望降低单个 WiFi 驱动故障演变为整机崩溃。&lt;/p&gt;
+&lt;p&gt;按照最佳安全实践要求，用户下载驱动程序后应当主动校验哈希值并与页面上显示的哈希值对比，这样可以确保用户下载的文件没有遭到篡改或被中间人劫持。&lt;/p&gt;
+&lt;p&gt;当然实际情况是大多数用户可能都不太在意页面显示的哈希值以及每次下载文件后都校验，基于安全考虑建议用户还是校验以免遇到问题。&lt;/p&gt;
+&lt;p&gt;而英特尔将哈希值从 SHA-256 切换到 SHA-512 主要是提高安全性，现阶段 SHA-256 算法尚未被破解，不过展望未来各类早期算法肯定是会被逐渐破解的，英特尔这算是提前为未来做好准备。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;微软在 2026 年 5 月公布的驱动质量计划，把减少内核模式驱动和扩展用户模式驱动列为架构方向，其中 WiFi 驱动程序运行模式调整也属于该计划。微软还在扩展用户模式驱动框架的能力，以 DMA 支持等方式降低性能开销。&lt;/p&gt;
-&lt;p&gt;微软也表示并非所有驱动程序都适合迁出内核变成用户模式运行，对于仍然需要在内核模式的驱动程序，微软正在研究驱动隔离、安全编译选项和 DMA 重映射等措施。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://www.windowslatest.com/2026/11/23/one-broken-wi-fi-driver-can-still-blue-screen-your-entire-windows-11-pc-and-microsoft-is-fixing-it-by-moving-wi-fi-drivers-out-of-windows-core-in-2027/" rel="noopener" target="_blank"&gt;Windows Latest&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;SHA-512 会根据文件内容生成固定长度的哈希值，如果下载不完整或者文件内容发生变化，计算结果也都会跟着变化。用户可以下载文件后使用 PowerShell 命令来计算哈希值，具体操作方法如下。&lt;/p&gt;
+&lt;pre&gt;# 计算命令
+
+Get-FileHash "文件路径" -Algorithm SHA512
+
+# 计算示例
+
+Get-FileHash "C:\Users\蓝点网\Desktop\landian.bin" -Algorithm SHA512&lt;/pre&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 23 Nov 2026 10:30:00 +0000</pubDate></item><item><title>谷歌还是那个谷歌！谷歌再次强调禁止反重力桥接反代 违规可能导致封停服务</title><link>https://www.landian.news/archives/128720.html</link><description>&lt;figure&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128720T.png"/&gt;&lt;/figure&gt;
-&lt;p&gt;#人工智能 谷歌还是那个谷歌！谷歌继续明确禁止反重力桥接反代，违规可能导致封停服务。有开发者展示的截图显示，自己使用 Pi 社区插件通过 OAuth 桥接反重力结果被封停服务。在谷歌官方论坛里也有诸多此类讨论，简单来说谷歌只允许通过 ACP 兼容客户端启动未经修改的反重力 ACP 程序。目前可以合规使用的主要是 T3 Code 和 Zed，其他通过 OAuth 反代使用的被封停概率极高。查看全文：https://ourl.co/128720&lt;/p&gt;&lt;p&gt;最近谷歌连续发布多个表现不错的新模型、谷歌反重力 (Antigravity) 也接连进行重置吸引不少用户。谷歌还开启 AI 订阅的年付半价活动，在黑五期间用户可以 99.99 美元 / 年的价格获得 Google AI Pro 订阅。&lt;/p&gt;
-&lt;p&gt;不过谷歌在桥接反代方面的要求还是那么严格，有开发者通过插件在 Pi 中使用反重力订阅结果报错，在报错提示中谷歌也明确提到：由于违反服务条款，此账号的这项服务已经被停用，请提交申诉以继续使用此产品。&lt;/p&gt;
-&lt;figure aria-describedby="caption-attachment-128791" id="attachment_128791"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128720.png" rel="nofollow"&gt;&lt;img alt="谷歌还是那个谷歌！谷歌再次强调禁止反重力桥接反代 违规可能导致封停服务" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128720.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-128791"&gt;本图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
+</description><pubDate>Tue, 24 Nov 2026 06:30:00 +0000</pubDate></item><item><title>[下载] 终于等到你！开源浏览器Ladybird(瓢虫)开启测试 使用独立开发的浏览器内核</title><link>https://www.landian.news/archives/128801.html</link><description>&lt;figure&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128801-T.png"/&gt;&lt;/figure&gt;
+&lt;p&gt;#软件资讯 终于等到你！Ladybird (瓢虫) 浏览器发布 Alpha 版，该浏览器采用自己独立开发的内核引擎，不使用 Blink 或 WebKit。Ladybird 浏览器目前已经提供基本功能，也内置广告拦截功能，不过暂时还没有扩展程序支持。部分网站可能还存在兼容性问题，团队邀请用户测试并反馈问题。另外暂时仅提供 macOS 版和 Linux 版，Windows 版还未发布。下载地址：https://ourl.co/128801&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/104782.html" rel="noopener" target="_blank"&gt;2024 年 7 月 Ladybird 团队宣布要自己独立开发全新的浏览器内核&lt;/a&gt;，该浏览器将基于自己的开源内核启动，不会使用任何现有的浏览器内核。Ladybird 浏览器也完全依靠赞助维持，不会收集或出售用户的任何信息用于谋利。&lt;/p&gt;
+&lt;p&gt;现在 Ladybird 浏览器推出 macOS 和 Linux 首个测试版，目前 Ladybird 浏览器已经可以满足基本使用，不过在功能和体验上确实还有欠缺，团队还需要更多时间开发和收集用户反馈。&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;a href="https://www.landian.news/go?url=https://ladybird.org/download/" rel="noopener" target="_blank"&gt;https://ladybird.org/download/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128801-1.png" rel="nofollow"&gt;&lt;img alt="终于等到你！开源浏览器Ladybird(瓢虫)开启测试 使用独立开发的浏览器内核" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128801-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128801-2.png" rel="nofollow"&gt;&lt;img alt="终于等到你！开源浏览器Ladybird(瓢虫)开启测试 使用独立开发的浏览器内核" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128801-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128801-3.png" rel="nofollow"&gt;&lt;img alt="终于等到你！开源浏览器Ladybird(瓢虫)开启测试 使用独立开发的浏览器内核" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128801-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128801-4.png" rel="nofollow"&gt;&lt;img alt="终于等到你！开源浏览器Ladybird(瓢虫)开启测试 使用独立开发的浏览器内核" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128801-4.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128801-5.png" rel="nofollow"&gt;&lt;img alt="终于等到你！开源浏览器Ladybird(瓢虫)开启测试 使用独立开发的浏览器内核" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128801-5.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;谷歌官方论坛也有相关讨论，谷歌工作人员回复称单用户交互使用时，ACP 兼容客户端若启动谷歌官方的、未经修改的反重力 ACP 程序，通过其原生登录流程调用订阅内的 Gemini 模型是可以使用的。典型案例就是 T3 Code 和 Zed。&lt;/p&gt;
-&lt;p&gt;而像是 OpenCode 插件这类，如果外层编程智能体向 agy acp 注入系统指令、工具定义、跨模型上下文或者进行自动化循环，即使调用的是官方程序，也不符合消费者账号的使用边界。&lt;/p&gt;
+&lt;p&gt;目前网页浏览器市场被 Blink 和 WebKit 内核把控，前者代表产品就是谷歌 Chromium/Chrome 浏览器，后者代表产品是苹果的 Safari 浏览器，而本身 Blink 内核也是基于 WebKit 衍生而来。至于谋智基金会的 Gecko 内核目前仅有火狐浏览器等少数浏览器使用。&lt;/p&gt;
+&lt;p&gt;Ladybird 浏览器使用自己的独立浏览器内核，该内核不基于 Blink 或 WebKit，而是团队自己重新开发的。Ladybird 浏览器在图像、音频、视频和加密等方面则使用开源库提供支持。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在社区讨论中比较受关注的是 &lt;a href="https://www.landian.news/go?url=https://pi.dev/packages/pi-antigravity" rel="noopener" target="_blank"&gt;Pi-Antigravity&lt;/a&gt; 插件，该插件自行处理 Google OAuth 和模型请求而非调用官方的 agy acp 程序。项目也提示使用这个集成插件可能带来违反服务条款和账号停用的风险。&lt;/p&gt;
-&lt;p&gt;网友展示的封禁提示就是在 Pi 中使用反重力 OAuth 方式连接的，可以看到谷歌对这类违规行为的检测和封禁行为执行得非常严格。建议用户谨慎尝试非官方支持的调用方式，不然被封停后想要申诉解封非常麻烦。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://discuss.ai.google.dev/t/tos-clarification-is-t3-code-official-antigravity-acp-agent-permitted-under-the-antigravity-terms-of-service/192027" rel="noopener" target="_blank"&gt; 谷歌官方论坛 &lt;/a&gt;、&lt;a href="https://www.landian.news/go?url=https://x.com/yuvadm/status/2124606997706248212" rel="noopener" target="_blank"&gt;@Yuvadm&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ladybird 浏览器推出的 Alpha 版主要面向早期用户，提供 macOS 版和 Linux 版。该版本采用滚动更新方式，团队将定期推送自动更新，用户无需再次从源代码编译就能体验到最新改进。&lt;/p&gt;
+&lt;p&gt;早期版本已经提供基础浏览器功能，但功能上有所欠缺 (例如还没有扩展程序支持)，以及在部分网站上可能存在兼容性问题。开发团队希望用户遇到问题时点击右上角的感叹号按钮反馈错误。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Ladybird 浏览器也内置原生广告拦截功能，用户可以直接在设置里选择由 EasyList 提供的社区拦截清单，也可以自行导入拦截规则，无需安装广告拦截扩展程序 (主要现在也没法安装)。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/104782.html" title="&amp;lt;b&amp;gt;浏览器市场终于迎来新参与者：Ladybird正在从头开发新浏览器内核&amp;lt;/b&amp;gt;"&gt;&lt;h3&gt;&lt;b&gt;浏览器市场终于迎来新参与者：Ladybird正在从头开发新浏览器内核&lt;/b&gt;&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#科技资讯 浏览器市场终于迎来了新参与者：Ladybird 团队正在从头开发一款全新的浏览器，不使用 Blink 或 WebKit 或其他任何现…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/tech"&gt;科技资讯&lt;/a&gt;, &lt;a href="https://www.landian.news/tech/industry"&gt;行业资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2024年7月3日 12:50&lt;/span&gt;&lt;span title="浏览数量"&gt;20.76K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 23 Nov 2026 10:00:00 +0000</pubDate></item><item><title>微软首席执行官纳德拉称Claude Code改写开发入口 Visual Studio Code等正在淡出</title><link>https://www.landian.news/archives/128719.html</link><description>&lt;figure&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128719T.png"/&gt;&lt;/figure&gt;
-&lt;p&gt;#人工智能 AI 智能体时代传统 IDE 正在逐渐淡出？微软首席执行官萨蒂亚纳德拉称 Claude Code 已经改写开发入口。纳德拉称 Claude Code 让命令行成为新的开发入口，在短短半年内传统 IDE 好像已经淡出。纳德拉称这种变化未必是永久趋势，IDE 也可以围绕需求说明找到新位置。例如现在 VS Code 已经增加更多智能体相关功能，包括模型路由、操作预览、智能体调度等。查看全文：https://ourl.co/128719&lt;/p&gt;&lt;p&gt;微软首席执行官萨蒂亚纳德拉日前在接受采访时表示，Claude Code 让命令行成为新的开发入口，在短短半年内传统 IDE (集成开发环境) 好像已经淡出。纳德拉称这种变化未必是永久趋势，IDE 也可能围绕需求说明和在 Markdown 找到新位置。&lt;/p&gt;
-&lt;figure aria-describedby="caption-attachment-128789" id="attachment_128789"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128719.png" rel="nofollow"&gt;&lt;img alt="微软首席执行官纳德拉称Claude Code改写开发入口 Visual Studio Code等正在淡出" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128719.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-128789"&gt;本图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
+</description><pubDate>Tue, 24 Nov 2026 06:00:36 +0000</pubDate></item><item><title>谷歌反重力重置配额并带来诸多变更 后续将开发重置卡功能 让用户将重置存起来</title><link>https://www.landian.news/archives/128800.html</link><description>&lt;figure&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128800T.png"/&gt;&lt;/figure&gt;
+&lt;p&gt;#人工智能 谷歌反重力 (Antigravity) 重置配额并正在开发重置卡 / 银行重置功能，让用户可以将额外重置存起来有需要的时候再用。此次全体用户重置配额主要是配合模型层级调整，现在 AI Pro 用户也可以使用碳模型，而氢模型则是面向全体用户包括免费用户开放。另外 AI Pro 的氖配额桶也被取消，该模型将在 11 月 30 日从反重力下线，单独的配额桶取消后用户可以将更多配额用在其他模型上。查看全文：https://ourl.co/128800&lt;/p&gt;&lt;p&gt;11 月 24 日凌晨 4 点 (国内时间)，谷歌反重力 (Antigravity) 团队连续发布多条消息并宣布重置全体用户的 Gemini 配额。此次重置是为配合模型层级升级，现在 AI Pro 用户可以使用 Gemini 4 Carbon (碳)，Hydrogen (氢) 模型则是按此前承诺面向所有用户开放 (包括免费用户)。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128800.png" rel="nofollow"&gt;&lt;img alt="谷歌反重力重置配额并带来诸多变更 后续将开发重置卡功能 让用户将重置存起来" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128800.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;与纳德拉对话的是荷兰软件工程师兼作家格尔盖伊・奥罗什 (Gergely Orosz)，奥罗什称自己和认识的 10 名初创公司开发者近 1 年都不再使用 IDE 写代码，奥罗什将这描述为自己的个人观察。有些开发者还会使用 Visual Studio Code 检查 AI 生成的代码、查看差异和搜索文件。&lt;/p&gt;
-&lt;p&gt;当前越来越多的开发者直接在 AI 智能体里描述任务、让智能体执行任务编写代码、再检查结果和进行测试。客观上这会导致越来越多的开发者降低传统 IDE 的使用频率，微软自然也注意到这种情况。&lt;/p&gt;
+&lt;p&gt;碳模型此前仅限于付费订阅的 Google AI Ultra 用户，或者用户通过 API 调用。现在 Google AI Pro 订阅用户也可以使用碳模型，该模型口碑非常不错所以这也是很多 AI Pro 订阅用户所期待的。&lt;/p&gt;
+&lt;p&gt;而氢模型则按照反重力团队此前承诺，向所有用户包括免费用户开放。按照 API 定价，氢模型是这批模型里速度最快也是最便宜的模型，免费版和 Google AI Plus 订阅用户也能使用。&lt;/p&gt;
+&lt;p&gt;不过氖模型 (Neon) 目前仍然只对 Google AI Ultra 和 AI Pro 订阅用户开放，API 定价为百万输入 3 美元、百万输出 15 美元、窗口为 512K，思考等级增加 Extra。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio Code 近期发布的更新显示，微软正在让开发者在代码编辑器内管理更多智能体工作。例如在 1.146 版中增加智能体收件箱和模型比较；在 1.147 版中增加模型路由、定时发送请求和浏览器操作预览，还支持在 Visual Studio Code 中使用 Claude 和 Codex 等智能体。&lt;/p&gt;
-&lt;p&gt;这种调整倒是与纳德拉谈到的 IDE 新角色相呼应：开发者可能会减少逐行输入代码，将更多时间用于描述目标、调度智能体和审查产出。微软通过扩展 Visual Studio Code 在 AI 开发流程中的作用，可以继续吸引开发者使用。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://newsletter.pragmaticengineer.com/p/software-engineering-after-code-becomes" rel="noopener" target="_blank"&gt;The Pragmatic Engineer&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;此次更新还有值得关注的是，AI Pro 订阅用户原本有个独立的氩模型配额桶，即用户只能在这个有限的配额桶内使用氩模型。这次取消后氩模型的使用直接并入通用的 Gemini 配额桶，这样用户可以综合需求使用更多不同的模型、获得更高的使用配额 (比如将氩模型配额用到氖模型上)。&lt;/p&gt;
+&lt;p&gt;不过需要说明的是氩模型本身也要被下架，根据官方文档，该模型以及 Gemini 3.8 Flash 都会在 11 月 30 日从反重力里下架，到时候用户主力模型还是得靠碳、氢或氖。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;近期反重力已经重置两次，有用户询问反重力团队能不能将重置存起来在有需要的时候主动激活。对于这个提问，反重力团队称目前重置卡 / 银行重置功能正在开发中，团队正在研究怎么设计结构，要确保容量预测不会失真。&lt;/p&gt;
+&lt;p&gt;这里的容量预测指的是如果全体用户同时重置的话，反重力团队可以提前预测容量。要是变成重置卡，不同用户可能在不同的时间内重置，反重力团队就没法提前预测容量曲线了。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 23 Nov 2026 09:30:00 +0000</pubDate></item><item><title>群联开始出货空间计算专用固态硬盘 单盘容量可达128TB 主要用于轨道数据中心节点</title><link>https://www.landian.news/archives/128718.html</link><description>&lt;figure&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128718T.png"/&gt;&lt;/figure&gt;
-&lt;p&gt;#硬件设备 群联推出空间计算固态硬盘产品线，采用 PCIe 5.0 接口，单盘容量最高 128TB。该系列产品将为美国太空数据服务公司 Lonestar 的 StarVault-001 轨道数据中心提供存储，该节点计划于 2027 年上半年发射。群联还提供固件定制、耐久度、数据保留和错误处理等个性化定制服务，以及可以进行必要的辐射环境测试。查看全文：https://ourl.co/128718&lt;/p&gt;&lt;p&gt;固态硬盘主控芯片制造商群联近期发布 Pascari Space 太空存储产品线，将为美国太空数据服务公司 Lonestar 的 StarVault-001 轨道数据中心节点提供存储。该节点计划于 2027 年上半年发布，搭载的存储总容量为 488TB，单块硬盘容量最高 128TB，实际总可用容量为 370TB。&lt;/p&gt;
-&lt;figure aria-describedby="caption-attachment-128783" id="attachment_128783"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128718.png" rel="nofollow"&gt;&lt;img alt="群联开始出货空间计算专用固态硬盘 单盘容量可达128TB 主要用于轨道数据中心节点" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128718.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-128783"&gt;本图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
+</description><pubDate>Tue, 24 Nov 2026 05:30:54 +0000</pubDate></item><item><title>特朗普向英伟达董事会成员施压促使黄仁勋回归 英伟达高管事先未接到董事会通知</title><link>https://www.landian.news/archives/128799.html</link><description>&lt;figure&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128799T.png"/&gt;&lt;/figure&gt;
+&lt;p&gt;#行业资讯 特朗普向英伟达董事会施压促使黄仁勋回归，英伟达高管包括临时 CEO 都不知道黄仁勋要回归。彭博社报道称，这次突然反转的最大推手就是特朗普，早前英伟达董事长哈维琼斯刚表示不会让黄仁勋复职。不过特朗普请万斯亲自向英伟达董事成员游说，最终英伟达董事会不得不同意黄仁勋回归。英伟达董事会此次完全绕过公司高管层，临时 CEO 也未参与讨论，还是在回归消息宣布前才接到通知。查看全文：https://ourl.co/128799&lt;/p&gt;&lt;p&gt;昨天晚间英伟达董事会发布官方消息宣布黄仁勋回归，英伟达董事会的措辞是黄仁勋重新担任公司总裁、首席执行官兼董事。此时距离黄仁勋辞任不到 11 天，早前英伟达董事长哈维琼斯还公开表示，不打算重新任命黄仁勋。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128799.png" rel="nofollow"&gt;&lt;img alt="特朗普向英伟达董事会成员施压促使黄仁勋回归 英伟达高管事先未接到董事会通知" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128799.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;群联 Pascari Space 分为 Flight Critical、Main Storage 和 Orbital Data Center 三类。其中轨道数据中心系列采用 PCIe 5.0 接口，SP-C200 固态硬盘的单盘容量最高为 128TB；另外两类采用 PCIe 4.0 接口，面向航天器关键系统和机载计算。&lt;/p&gt;
+&lt;p&gt;彭博社援引知情人士消息称，这次突然反转的最大推手就是美国总统特朗普。特朗普认为黄仁勋对美国 AI 产业至关重要，因此连续数日推动英伟达董事会要求将黄仁勋复职。特朗普还请副总统万斯亲自向英伟达董事会成员游说。&lt;/p&gt;
+&lt;p&gt;这与 11 月 17 日英伟达董事会的公开表态完全相反，当时哈维琼斯称董事会一致接受黄仁勋的辞职，并且也不打算重新聘请黄仁勋。黄仁勋同日表示，如果董事会认为自己回归符合公司、员工和股东利益，那自己愿意回归。&lt;/p&gt;
+&lt;p&gt;而昨晚英伟达董事会表示，经过与黄仁勋多轮讨论后，一致投票通过复职。公告还称英伟达董事会参考美国政府高级官员提供的意见后，认为黄仁勋复职不会对美国国家安全造成风险。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;群联称客户可以通过 IMAGIN + 服务定制固件、耐久度、数据保留和错误处理等设置，以及进行必要的辐射环境测试。不同系列适用的工作温度也不同：Flight Critical 为零下 40 至 105 摄氏度，Main Storage 为零下 40 至 85 摄氏度，Orbital Data Center 为 0 至 70 摄氏度。&lt;/p&gt;
-&lt;p&gt;目前 Pascari Space 产品线已经是正式发布，当然这类产品群联也不会直接公布价格，不过考虑到这是在极端环境中运行的设备，因此产品售价应该是非常高的。&lt;/p&gt;
+&lt;p&gt;值得注意的是，英伟达董事会就黄仁勋复职问题并未与公司高管层进行商讨，事实上英伟达公司高管直到最后一刻才知道黄仁勋即将回归。英国金融时报报道称，包括英伟达临时首席执行官兼首席财务官柯蕾特・克雷斯也没有参与周末讨论，即对黄仁勋回归并不知情。&lt;/p&gt;
+&lt;p&gt;而柯蕾特・克雷斯被认为是反对黄仁勋回归的高管之一。路透社报道称柯蕾特・克雷斯及销售团队曾在高风险融资安排上与黄仁勋有分歧，在 11 月 18 日的全员会上柯蕾特・克雷斯曾对员工说向前看，这也被认为是柯蕾特・克雷斯不希望黄仁勋回归。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 23 Nov 2026 09:00:00 +0000</pubDate></item><item><title>英伟达发布621.35显卡驱动热修复版解决SSD写盘异常 但更新后仍然存在后台持续写盘</title><link>https://www.landian.news/archives/128717.html</link><description>&lt;figure&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128717T.png"/&gt;&lt;/figure&gt;
-&lt;p&gt;#软件资讯 英伟达发布 621.35 版显卡驱动热修复版解决 SSD 过量写盘问题，但网友测试后发现新版本仍然存在持续写盘问题。根据网友的测试，在闲置 9 小时期间，英伟达相关进程的写入量仍然增加 36GB。不过这个修复版确实稍微减轻了问题，即比 621.24 版的过量写入问题要轻。但这仍然没有彻底解决过量写盘问题，这个问题对固态硬盘寿命有着直接影响。查看全文：https://ourl.co/128717&lt;/p&gt;&lt;p&gt;英伟达日前发布 621.35 版显卡驱动程序热修复版用于解决相关进程在后台过量写入日志问题，&lt;a href="https://www.landian.news/archives/128613.html" rel="noopener" target="_blank"&gt; 这个问题会导致显卡驱动程序进程在后台持续写入日志并消耗固态硬盘寿命 &lt;/a&gt;。不过此次热修复版似乎并未彻底解决问题，仍然有用户注意到进程在空闲时过量写入。&lt;/p&gt;
-&lt;figure aria-describedby="caption-attachment-128781" id="attachment_128781"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128717.png" rel="nofollow"&gt;&lt;img alt="英伟达发布621.35显卡驱动热修复版解决SSD写盘异常 但更新后仍然存在后台持续写盘" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128717.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-128781"&gt;本图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
+</description><pubDate>Tue, 24 Nov 2026 05:00:48 +0000</pubDate></item><item><title>德国虚拟主机提供商netbeat遭到黑客攻击 部分客户登录凭证泄露影响网站数据安全</title><link>https://www.landian.news/archives/128798.html</link><description>&lt;figure&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128798T.png"/&gt;&lt;/figure&gt;
+&lt;p&gt;#安全资讯 德国虚拟主机提供商 netbeat 发生数据泄露事件，部分客户登录凭证泄露影响网站数据安全。黑客可能获取网站登录凭证包括数据库密码等，借助这些信息可以篡改网站或窃取数据。netbeat 建议用户立即轮换网站中使用或保存的各类 API 密钥或其他凭证，以免黑客通过这些凭证继续窃取其他信息。查看全文：https://ourl.co/128798&lt;/p&gt;&lt;p&gt;德国廉价虚拟主机提供商 netbeat 日前向客户发送邮件称，其部分托管基础设施发生未经授权的访问。该公司称个人数据可能受影响，目前涉及客户及账单数据，托管网站的登录凭据也可能受影响，即黑客可能利用登录凭据直接篡改网站内容或提取数据。&lt;/p&gt;
+&lt;figure aria-describedby="caption-attachment-128837" id="attachment_128837"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128798.png" rel="nofollow"&gt;&lt;img alt="德国虚拟主机提供商netbeat遭到黑客攻击 部分客户登录凭证泄露影响网站数据安全" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128798.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-128837"&gt;本图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;有网友测试安装新版热修复驱动程序后，电脑先安静运行 1 小时，随后闲置 9 小时。之后对比固态硬盘的写入量数据，数据显示在闲置的这 9 小时里写入量还是增加 36GB。&lt;/p&gt;
-&lt;p&gt;网友还使用 621.35、621.24 和 621.01 驱动程序版本进行对比测试：其中 621.35 (即最新修复版) 安装后 1 小时英伟达相关进程写入量仅增加约 90.8KB；随后 9 小时待机期间相关进程写入计数增加 40.85GB，平均每秒 1.26MB。&lt;/p&gt;
-&lt;p&gt;相同时段内使用 HWiNFO 记录到的系统写入量约增加 36.9GB，固态硬盘的 S.M.A.R.T. 显示的写入量也增加 36GB。可以看到 621.35 版驱动比 621.24 版过量写盘问题要轻，但并未彻底解决问题。&lt;/p&gt;
+&lt;p&gt;在邮件中 netbeat 称基于安全考虑该公司已经将所有受影响的 Web 服务器暂时下线，技术团队正在加固并恢复系统。该公司计划重置托管网站和客户中心的所有密码，具体情况将在后续另行通知。&lt;/p&gt;
+&lt;p&gt;目前关于此次安全事件的信息非常少，netbeat 只确认存在数据泄露情况，但具体泄露客户的哪些数据、有多少客户受影响、有多少网站受影响等全部没有公布。黑客如何发起的攻击暂时也不清楚。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;英伟达在 621.35 版驱动程序发布日志中表示，该版驱动解决后台对 nvlog.nvlgstg 文件的过量写入。该热修复版驱动以 621.24 版为基础，属于可选的测试版本，测试流程较正式版精简。相关修复程序将在后续 WHQL 正式版中合并。&lt;/p&gt;
-&lt;p&gt;至于网友反馈的仍然存在过量写盘问题，这个可能还需要用户继续在英伟达社区反馈并由英伟达进行调查，毕竟这个问题对固态硬盘寿命有着直接影响。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;article&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/128613.html" title="英伟达显卡驱动也被发现持续写盘：每小时写入30GB 可能会降低固态硬盘寿命"&gt;&lt;h3&gt;英伟达显卡驱动也被发现持续写盘：每小时写入30GB 可能会降低固态硬盘寿命&lt;/h3&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;#软件资讯 英伟达显卡驱动也被发现持续写盘：每小时写入 30GB，可能会降低固态盘寿命。早前 AMD 驱动被发现持续写盘，收到反馈后 AMD 发…&lt;/p&gt;&lt;p&gt;&lt;span title="文章分类"&gt;&lt;a href="https://www.landian.news/soft"&gt;软件资讯&lt;/a&gt;&lt;/span&gt;&lt;span title="发布日期"&gt;2026年11月19日 11:00&lt;/span&gt;&lt;span title="浏览数量"&gt;5.16K&lt;/span&gt;&lt;/p&gt;&lt;/article&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://www.reddit.com/r/nvidia/comments/1y1gw1s/comment/19syx69n42dj4/" rel="noopener" target="_blank"&gt;Reddit&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在邮件中 netbeat 提醒用户称，网站中保存的 API 密钥和外部服务登录凭据也可能受影响，建议用户在相关服务商处轮换 API 密钥和相关登录凭据，避免黑客利用窃取的凭据访问客户其他服务并窃取数据。&lt;/p&gt;
+&lt;p&gt;由于当前情况不明、公告透露的信息太少，这已经引起 netbeat 用户群的恐慌。很多用户担心网站文件或数据库被篡改，但用户自己检查似乎又没发现明显问题，现在完全不知道该怎么办。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 23 Nov 2026 08:30:00 +0000</pubDate></item><item><title>容器平台Docker更换新的品牌形象 由可爱的彩色鲸鱼变成黑色抽象鲸鱼</title><link>https://www.landian.news/archives/128716.html</link><description>&lt;figure&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128716T.png"/&gt;&lt;/figure&gt;
-&lt;p&gt;#软件资讯 知名容器平台 Docker 宣布重塑品牌形象，由可爱的彩色鲸鱼变成黑色抽象鲸鱼。Docker 称新的品牌形象主要面向 AI 智能体时代，重点转向可信软件供应链、智能体运行隔离和企业治理方案。Docker 称容器可以隔离工作负载，这有助于提高运行 AI 智能体平台的安全性。查看全文：https://ourl.co/128716&lt;/p&gt;&lt;p&gt;知名容器平台 Docker 近期发布新的品牌形象并重新设计鲸鱼吉祥物 Moby，该公司称新的品牌形象主要面向 AI 智能体时代，重点转向可信软件供应链、智能体运行隔离和企业治理方案，现有容器产品将继续发展。&lt;/p&gt;
-&lt;figure aria-describedby="caption-attachment-128779" id="attachment_128779"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128716.png" rel="nofollow"&gt;&lt;img alt="容器平台Docker更换新的品牌形象 由可爱的彩色鲸鱼变成黑色抽象鲸鱼" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128716.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-128779"&gt;本图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
+</description><pubDate>Tue, 24 Nov 2026 04:30:00 +0000</pubDate></item><item><title>[激活] Windows Server 2028公测版如何激活？微软已提供评估专用KEY</title><link>https://www.landian.news/archives/128797.html</link><description>&lt;figure&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128797-T.png"/&gt;&lt;/figure&gt;
+&lt;p&gt;#技术教程 [激活] Windows Server 2028 公共预览版如何激活？微软已经公布专用的激活 KEY，支持标准版和数据中心版。目前 Server 2028 公共预览版最新版为 vNext Build 29706.1000 版，安装后需要激活才能使用。微软提供标准版和数据中心版的专用激活密钥，Azure 版仅供 VM 评估不提供密钥。查看密钥：https://ourl.co/128797&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.landian.news/archives/128528.html" rel="noopener" target="_blank"&gt;上周微软宣布 Windows Server 2028 公共预览版&lt;/a&gt;，该版本目前在 Windows Server Insider 项目中进行预览，感兴趣的 IT 管理员都可以下载微软提供的镜像并在虚拟机或测试机中安装部署。&lt;/p&gt;
+&lt;p&gt;虽然是公共预览版但也需要激活，所以微软也提供公共预览版的专用激活密钥，该密钥可以在安装阶段用来区分版本或安装后用于联网激活系统 (此为专用密钥非 KMS GVLK 通用密钥)。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Docker 指出容器可以隔离工作负载，这有助于提高运行 AI 智能体平台的安全性，避免 AI 智能体在某些情况下错误操作影响整个平台 (宿主机)。而 AI 智能体可以自行决定运行什么、访问哪些资源以及修改哪些内容，因此企业还需要管理智能体权限和行为的工具。Docker 希望围绕信任构建这套能力。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows Server 2028 Standard 标准版：MFY9F-XBN2F-TYFMP-CCV49-RMYVH&lt;/li&gt;
+&lt;li&gt;Windows Server 2028 Datacenter 数据中心版：2KNJJ-33Y9H-2GXGX-KMQWH-G6H67&lt;/li&gt;
+&lt;li&gt;Windows Server 2028 Azure Edition 专版：不接受密钥，仅用于 VM 虚拟机评估使用&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Docker 将 Docker Sandboxes 和 Docker AI Governance 作为新方向的产品示例。其中沙箱可以让智能体运行在拥有独立内核的微型虚拟机中，支持本地和云端环境。AI Governance 则提供集中式网络、文件系统和 MCP 工具管理并记录策略决策。&lt;/p&gt;
-&lt;p&gt;Docker 表示，品牌调整不是要离开容器领域。该公司仍然强调开放协作、开发者优先和易用性，只是将品牌叙事扩展到 AI 智能体的安全运行与治理。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;消息源：&lt;a href="https://www.landian.news/go?url=https://www.docker.com/blog/meet-the-new-docker-built-to-run-on-trust/" rel="noopener" target="_blank"&gt;Docker&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Windows Server 2028 目前最新版为 Build 29706.1000 版，在测试中心以 Windows Server vNext 版存在。微软提供简体中文、繁体中文、美式英语等多种语言的镜像文件，可用于虚拟机或物理机安装。&lt;/p&gt;
+&lt;p&gt;实际安装时微软提供服务器核心版和桌面体验，前者不含常规桌面，后者提供传统桌面。安装时用户需要提供密钥进行版本选择，当然也可以点击我没有密钥然后选择标准版或数据中心版，进入桌面后再使用密钥激活。&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128797-1.png" rel="nofollow"&gt;&lt;img alt="[激活] Windows Server 2028公测版如何激活？微软已提供评估专用KEY" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128797-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128797-2.png" rel="nofollow"&gt;&lt;img alt="[激活] Windows Server 2028公测版如何激活？微软已提供评估专用KEY" decoding="async" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128797-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;建议在安装阶段选择我没有密钥，进入桌面后再激活。进入桌面后点击设置、系统、激活，在这里会显示激活出错，点击更改然后粘贴对应版本的密钥即可，激活步骤会联网完成。&lt;/p&gt;
+&lt;p&gt;若上述步骤出现问题，也可以使用 SLMGR 命令进行密钥安装和激活操作，具体使用方法如下：&lt;/p&gt;
+&lt;pre&gt;# 标准版 打开管理员模式的命令提示符
+
+# 安装密钥
+
+slmgr -ipk MFY9F-XBN2F-TYFMP-CCV49-RMYVH
+
+# 执行激活
+
+slmgr -ato
+
+# 数据中心版 打开管理员模式的命令提示符
+
+# 安装密钥
+
+slmgr -ipk 2KNJJ-33Y9H-2GXGX-KMQWH-G6H67
+
+# 执行激活
+
+slmgr -ato&lt;/pre&gt;
+&lt;p&gt;注意：公共预览版都是有有效期的，所以不要指望激活后就可以长期使用。激活后应当转到更新里注册预览计划，这里需要开启可选诊断数据发送以及登录微软账号，登录后注册预览计划后就可以继续接收后续发布的新版本。旧版本随着时间推移会过期无法使用。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 23 Nov 2026 08:00:00 +0000</pubDate></item><item><title>[安全提醒] Bitwarden自托管版受NGINX漏洞影响 早期补丁镜像要再次拉取新镜像</title><link>https://www.landian.news/archives/128715.html</link><description>&lt;figure&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128715T.png"/&gt;&lt;/figure&gt;
-&lt;p&gt;#安全提醒 开源密码管理器 Bitwarden 提醒自托管版用户重新拉取镜像并升级最新版，旧版可能包含有漏洞的 NGINX 组件。Bitwarden 目前服务端是 2026.11.0 版，关键是该版本与 NGINX 修复版都是在 11 月 18 日发布的。当天较早更新的用户使用的 NGINX 可能还是旧版本，所以建议用户重新拉取镜像构建。或手工检查容器内的 NGINX 版本，最新版应为 1.31.9 版，Lite 版为 1.30.7 版。查看全文：https://ourl.co/128715&lt;/p&gt;&lt;p&gt;开源密码管理器 Bitwarden 日前发布提醒称，自托管版默认使用的 NGINX 存在安全漏洞，特制网络请求可能会导致拒绝服务攻击 (DoS)，特定条件下攻击者还可能通过漏洞在容器内执行代码。Bitwarden 已经发布服务端更新 v2026.11.0 版修复，但最早拉取的部分镜像仍然可能包含旧版 NGINX 组件。&lt;/p&gt;
-&lt;figure aria-describedby="caption-attachment-128777" id="attachment_128777"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128715.png" rel="nofollow"&gt;&lt;img alt="[安全提醒] Bitwarden自托管版受NGINX漏洞影响 早期补丁镜像要再次拉取新镜像" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128715.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-128777"&gt;本图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
+</description><pubDate>Tue, 24 Nov 2026 04:00:00 +0000</pubDate></item><item><title>[技巧] Windows 11安装11月可选更新后 如何开启新版搜索框(真的很不错)</title><link>https://www.landian.news/archives/128796.html</link><description>&lt;figure&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128796-T.png"/&gt;&lt;/figure&gt;
+#技术教程 Windows 11 安装 11 月可选更新后，如何开启新版搜索框 (真的很不错)。新版搜索框名义上灰度测试且仅支持英语，不过我们可以通过 ViveTool 强制开启隐藏选项。新版搜索框使用 WinUI3 原生架构提供更好的性能，同时也支持在搜索结果中直接操作，例如切换深色模式，无需再进入设置。查看教程：https://ourl.co/128796</description><pubDate>Tue, 24 Nov 2026 03:30:00 +0000</pubDate></item><item><title>Android 3D Emoji为何要6GB内存和10GB存储空间？谷歌员工称只是下载缓冲</title><link>https://www.landian.news/archives/128727.html</link><description>&lt;figure&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128727T.png"/&gt;&lt;/figure&gt;
+&lt;p&gt;#系统资讯 为什么安卓下载 3D Emoji 表情包要 6GB 内存 + 10GB 存储空间？谷歌员工称这不是真要这么大的内存。谷歌日前正在推送 Noto 3D Emoji 表情包，门槛是 Android 17 + 至少 6GB 内存 + 至少 128GB 存储空间且可用空间 10GB。不过使用这套表情不用 6GB 内存，谷歌员工称实际使用时内存占用很少且时间很短。设置的这个门槛是通过 Google Play 自动推送的，即如果不满足该条件则不会收到谷歌的推送。查看全文：https://ourl.co/128727&lt;/p&gt;&lt;p&gt;谷歌日前就安卓的 3D Emoji 硬件门槛问题作出回应。此前谷歌在官方文档中列出的要求是系统版本至少为 Android 17、OEM 仍然提供系统或 Google Play 更新服务、内存至少为 6GB、总存储空间至少为 128GB 且有 10GB 可用空间。&lt;/p&gt;
+&lt;figure aria-describedby="caption-attachment-128826" id="attachment_128826"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128727.png" rel="nofollow"&gt;&lt;img alt="Android 3D Emoji为何要6GB内存和10GB存储空间？谷歌员工称只是下载缓冲" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128727.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-128826"&gt;本图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Bitwarden 员工在官方论坛里解释称，v2026.11.0 是服务端的版本号，而容器里的 NGINX 版本取决于镜像构建时间。由于修复版的 NGINX 组件与 Bitwarden 更新都是在 11 月 18 日发布，较早拉取的 2026.11.0 镜像仍然可能包含旧版 NGINX 组件。&lt;/p&gt;
-&lt;p&gt;因此用户更新后应当检查容器里实际使用的 NGINX 版本，标准自托管版本的 NGINX 组件当前为 1.31.9 版，Bitwarden Lite 的应该是 1.30.7 版，如果发现版本号不对则应该重新拉取最新版镜像。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;除了 NGINX 漏洞外，Bitwarden 也提醒用户安装 Linux 最新更新，因为近期出现的 Linux 内核漏洞可能会与 NGINX 漏洞被组合起来利用，这会降低服务器安全性，也让运行 Bitwarden 密码管理器的容器存在安全风险。&lt;/p&gt;
+&lt;p&gt;Noto 3D Emoji 使用高分辨率位图字形且文件体积不到 220MB，而旧版 2D 矢量字库约为 3MB。谷歌员工米沙尔拉赫曼表示，安卓不会将整套字体都加载到内存中，而是按需读取和解码屏幕上正在显示的表情，因此实际运行时占用的内存很小而且占用时间也很短暂。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 6GB 内存和 10GB 空间是自动下载的筛选条件：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;拉赫曼称谷歌确实在帮助页面列出 Noto 3D Emoji 的硬件要求，不过这个门槛是针对通过 Google Play 服务自动下载字体且出厂时未预装字体的合格设备。其中 6GB 内存是保守的筛选线，低内存设备会继续使用约 3MB 的 2D 矢量字库。&lt;/p&gt;
+&lt;p&gt;而 10GB 剩余存储空间是 Google Play 后台下载和安装预留的余量，避免存储本来就比较紧张的安卓设备在下载字库时出现空间不足等问题。字体已经预装在系统里的设备不需要这项后台下载。&lt;/p&gt;
+&lt;p&gt;这套 3D Emoji 在实际使用时占用的内存资源非常少因此即便在低配设备上也能使用，只不过谷歌设置门槛是通过 Google Play 自动下载的，用户当然也可以通过其他方式主动下载安装这套 220 MB的字库。&lt;/p&gt;
+&lt;p&gt;另外部分设备或应用程序可能不会适配 Noto 3D Emoji 表情，即具体情况由 OEM 和软件开发商决定。例如三星设备就会继续使用自由表情字体，不会接收 3D Emoji 更新；WhatsApp 等使用自带表情字体的应用程序也不会显示系统中安装的 3D Emoji。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 23 Nov 2026 07:30:00 +0000</pubDate></item><item><title>继续涨价？V社称因为内存成本持续上涨 Steam Machine蒸汽机后续售价无法确定</title><link>https://www.landian.news/archives/128714.html</link><description>&lt;figure&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128714T.png"/&gt;&lt;/figure&gt;
-&lt;p&gt;#游戏资讯 暗示涨价？V 社称因内存和存储成本持续上涨，Steam Machine 蒸汽机后续供货和售价无法确定。V 社直言目前最大的问题就是内存和存储成本持续上涨，而零部件供应受限尤其影响 2TB 版本。V 社暂时没有公布涨价计划，但该公司计划在明年 1 月提供相关信息，也包括额外库存的供货信息。查看全文：https://ourl.co/128714&lt;/p&gt;&lt;p&gt;Valve 日前更新 Steam Machine 蒸汽机的预订和供货情况，该公司称由于内存和存储成本持续上涨，暂时无法确定后续能生产多少台设备、届时能提供什么价格。目前蒸汽机 512GB 版已经清空预订和候补名单，有库存时可以直接购买；而 2TB 版由于候补人数远超可供应数量，目前 V 社已经关闭新的候补报名。&lt;/p&gt;
-&lt;figure aria-describedby="caption-attachment-128775" id="attachment_128775"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128714.png" rel="nofollow"&gt;&lt;img alt="继续涨价？V社称因为内存成本持续上涨 Steam Machine蒸汽机后续售价无法确定" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128714.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-128775"&gt;本图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
+</description><pubDate>Tue, 24 Nov 2026 03:00:00 +0000</pubDate></item><item><title>TikTok在全球范围内推出肖像检测功能 用户可以查找并举报AI冒用内容</title><link>https://www.landian.news/archives/128726.html</link><description>&lt;figure&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128726T.png"/&gt;&lt;/figure&gt;
+&lt;p&gt;#软件资讯 TikTok 在全球范围内向创作者和公众人物推出肖像检测功能，帮助相关人士批量查找并举报未经同意的 AI 肖像伪造。该功能现阶段仅支持 TikTok 平台创作者以及公众人物，进行身份验证后可以批量查找相关 AI 伪造内容并提交给 TikTok 安全团队。TikTok 还推出 AI 检测工具，任何人都可以上传音视频或图片来检测内容是否是 TikTok 旗下 AI 工具生成的。查看全文：https://ourl.co/128726&lt;/p&gt;&lt;p&gt;抖音国际版 TikTok 开始向全球符合条件的创作者和用户分阶段推出肖像检测功能，该功能主要帮助创作者和知名人士发现并举报平台上出现的、未经同意使用本人肖像的 AI 内容。TikTok 还向公众开放 AI 检测工具，该工具可以检测音视频和图像是否是 TikTok 旗下工具生成的。&lt;/p&gt;
+&lt;figure aria-describedby="caption-attachment-128824" id="attachment_128824"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128726.png" rel="nofollow"&gt;&lt;img alt="TikTok在全球范围内推出肖像检测功能 用户可以查找并举报AI冒用内容" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128726.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-128824"&gt;本图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;蒸汽机美国市场的发布价格是 512GB 版 1049 美元，2TB 版 1349 美元，两个版本均不含手柄。两款设备的主要硬件配置是相同的，区别主要就是存储容量也就是固态硬盘。&lt;/p&gt;
-&lt;p&gt;V 社表示公司会继续生产蒸汽机以满足玩家需求，但因为零部件供应受限，尤其影响 2TB 版本。即使后续获得更多零件，2TB 版的产量也可能低于 V 社最初的内部供应计划。&lt;/p&gt;
-&lt;p&gt;另外 V 社也直言目前最大的问题就是内存和存储成本持续上涨，基于此 V 社不能确定后续供货数量和售价，不过 V 社暂时也没有公布新的调价方案，预计相关信息会在明年 1 月提供。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;p&gt; 512GB 版可直接购买无需候补，2TB 版直接关闭候补：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;V 社表示该公司已经向所有持有 2TB 版预订资格的用户发出购买邀请，不过由于候补名单上的玩家仍然超过当前可供应的设备数量，因此商店页面将显示缺货，不再接受新的候补申请。&lt;/p&gt;
-&lt;p&gt;已经进入候补名单的用户会保留原有排队位置，但有候补资格也不代表百分百就能买到设备，具体 V 社也准备在明年 1 月分享有关额外供货的信息。&lt;/p&gt;
-&lt;p&gt;至于 512GB 版，现有的预订都已经处理完毕、候补名单已经清空，在还有库存的销售地区，用户看到有库存可以直接买，不需要进行候补、也不提供候补功能。当 512GB 版也售罄后，后续也会显示为缺货、不再开放候补申请。&lt;/p&gt;
+&lt;p&gt;当前在短视频平台有诸多不法账号通过 AI 伪造名人视频进行带货甚至是诈骗，对相关人士来说想要批量找到这些视频并进行投诉非常困难，因为这类视频非常多且分散在多个不同的账号中。&lt;/p&gt;
+&lt;p&gt;新的肖像检测功能可以在知名人士通过身份验证后，批量查找任何未经授权的 AI 伪造内容，然后向 TikTok 安全团队举报。被举报内容会按照社区准则处理，例如涉嫌诈骗等视频会被删除。&lt;/p&gt;
+&lt;p&gt;目前该功能并不面向所有用户提供，现阶段肖像检测仅面向 TikTok 平台内容创作者和公众人物，包括政府、政治人物以及政党账号等。因涉及身份验证，创作者或公众人物可以自行决定是否使用肖像检测功能。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;TikTok 还新推出面向公众的 &lt;a href="https://www.landian.news/go?url=https://ai-generated-detect.tiktokv-row.com/" rel="noopener" target="_blank"&gt;AI 生成内容检查器&lt;/a&gt;，用户可以上传视频、音频或图片检查该内容是否是 TikTok 旗下 AI 工具生成的。工具会查找 C2PA 内容凭证以及 TikTok 添加的盲水印，该工具主要可以检查 TikTok 以及剪映等工具生成的内容。&lt;/p&gt;
+&lt;p&gt;需要注意的是 C2PA 元数据以及盲水印都可以通过某些技术措施删除，因此被检测到元数据和盲水印的内容可以判定为 AI 生成，没有检测到的内容可能不是 AI 生成，或者可能是其他 AI 工具生成。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 23 Nov 2026 07:00:00 +0000</pubDate></item><item><title>群联展示内置NPU和64GB内存的固态硬盘 可在硬盘上运行AI框架</title><link>https://www.landian.news/archives/128713.html</link><description>&lt;figure&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128713T.png"/&gt;&lt;/figure&gt;
-&lt;p&gt;#硬件设备 啊这？群联展示集成 NPU 计算单元和 64GB 内存的固态硬盘，可以直接在硬盘上运行 AI 负载。传统工作流通常是服务器把硬盘上存储的数据传输到内存中交给处理器计算，群联是尝试让硬盘在数据所在位置直接执行扫描和处理，之后将需要的结果返回服务器。群联称这种方案有望将数据传输量减少 10 到 100 倍，同时可以释放部分服务器 CPU 资源。查看全文：https://ourl.co/128713&lt;/p&gt;&lt;p&gt;固态硬盘主控芯片制造商群联 (Phison) 在 SC26 超算大会上介绍面向企业存储的新设计：在固态硬盘内集成 NPU 计算单元和 64GB 内存，让部分 AI 工作负载直接在固态硬盘上处理。不过这些设计目前还在开发阶段，群联尚未公布具体产品名称或上市时间。&lt;/p&gt;
-&lt;figure aria-describedby="caption-attachment-128773" id="attachment_128773"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128713.png" rel="nofollow"&gt;&lt;img alt="群联展示内置NPU和64GB内存的固态硬盘 可在硬盘上运行AI框架" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128713.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-128773"&gt;本图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
+</description><pubDate>Tue, 24 Nov 2026 02:30:00 +0000</pubDate></item><item><title>美国俄勒冈州和弗吉尼亚州指控Grok AI故意放纵用户生成色情图像来吸引用户使用</title><link>https://www.landian.news/archives/128725.html</link><description>&lt;figure&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128725T.png"/&gt;&lt;/figure&gt;
+&lt;p&gt;#人工智能 美国俄勒冈州和弗吉尼亚州总检察长办公室起诉 Grok AI 运营方，指控 SpaceXSI 故意放纵用户生成色情图片来吸引用户。起诉称，Grok AI 的安全防护薄弱并非单纯疏忽，而是运营方为吸引用户以及推广火辣模式 (可以生成半裸或全裸图像) 等功能主动作出的选择。Grok AI 甚至还会帮助用户规避审核提示词继续生成深度色情伪造图像，诸如脱衣等功能则不会询问画面中是否是真人、用户是否获得当事人同意。查看全文：https://ourl.co/128725&lt;/p&gt;&lt;p&gt;美国俄勒冈州和弗吉尼亚州总检察长办公室日前分别在各自州法院起诉 Grok AI 运营方 SpaceXSI 及其关联方 X 公司，指控 Grok AI 的安全防护不足，导致针对个人的非自愿深度色情伪造图像传播。&lt;/p&gt;
+&lt;figure aria-describedby="caption-attachment-128822" id="attachment_128822"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128725.png" rel="nofollow"&gt;&lt;img alt="美国俄勒冈州和弗吉尼亚州指控Grok AI故意放纵用户生成色情图像来吸引用户使用" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128725.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-128822"&gt;本图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;&lt;p&gt; 指控 SpaceXSI 故意色情图像吸引用户使用：&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;俄勒冈州总检察长办公室在 1 月份已经致函 xAI 公司，要求其处理 Grok AI 生成的非自愿深度色情伪造图像。弗吉尼亚州总检察长办公室则在 10 月向 SpaceXSI 和 X 公司发出拟起诉通知。&lt;/p&gt;
+&lt;p&gt;诉讼书指出，Grok AI 的安全防护薄弱并非单纯疏忽，而是运营方为吸引用户以及推广火辣模式 (可以生成半裸或全裸图像) 等功能主动作出的选择，也就是故意放松安全围栏来吸引用户使用 Grok AI 相关服务。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;群联介绍的计算型存储方案是在固态硬盘中集成 NPU 计算单元和 64GB 内存，内存带宽为 130GB/s。该方案计划支持 PyTorch、vLLM、OpenVINO 和 llama.cpp 等常用的 AI 推理框架，让开发者使用熟悉的工具构建相关应用。&lt;/p&gt;
-&lt;p&gt;传统工作流程中服务器通常需要先把存储数据传输到内存，再交由处理器计算。群联的方案则尝试让固态硬盘在数据所在位置执行扫描或处理，只把需要的结果返回给服务器。群联称在适合这类处理方式的工作负载下，数据传输量有望减少 10 至 100 倍，同时可以释放部分服务器 CPU 资源。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;群联还公布名为混合媒体 (Mixed Media) 的新技术，该技术同样面向数据中心。这项设计将高耐用度的 pSLC 区域和高容量的 QLC 闪存整合到固态硬盘中，由 16 通道控制器进行集中管理。&lt;/p&gt;
-&lt;p&gt;pSLC 通过让闪存芯片以每单元存储较少数据的方式 工作，牺牲部分容量以换取性能和耐用度。群联的思路是让频繁写入的数据使用 pSLC 区域，而需要更大空间的数据放在 QLC 区域里。&lt;/p&gt;
-&lt;p&gt;群联技术负责人介绍称，两部分可以通过不同的 NVMe 命名空间分别管理，在系统中表现为不同的存储区域。群联称该设计基于标准的 NVMe 接口，因此可以兼容现有的基础设施。&lt;/p&gt;
+&lt;p&gt;弗吉尼亚州总检察长办公室在起诉书中还提到，州调查人员测试 Grok AI 时，模型还会解释哪些词会触发过滤并协助用户改写规避审核的提示词，随后执行改写后的提示词继续生成用户请求的内容。&lt;/p&gt;
+&lt;p&gt;Grok AI 也允许用户上传真人图像并进行深度色情伪造 (所谓的脱衣功能)，弗吉尼亚州称 Grok AI 不会询问画面中是否是真人、也没有确认用户是否获得当事人同意就生成深度色情伪造图片。&lt;/p&gt;
 &lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 23 Nov 2026 06:30:00 +0000</pubDate></item><item><title>法国AI公司Mistral在新加坡设立亚太总部 面向政府和企业开发主权AI模型</title><link>https://www.landian.news/archives/128712.html</link><description>&lt;figure&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128712T.png"/&gt;&lt;/figure&gt;
-&lt;p&gt;#行业资讯 法国 AI 公司 Mistral 在新加坡启用亚太地区总部及研究中心，押注政府和企业对主权 AI 的需求。新办公室将开展模型研究及客户部署，帮助政府和企业根据自身需求定制 AI 模型，加强对数据和运行环境的控制等。查看全文：https://ourl.co/128712&lt;/p&gt;&lt;p&gt;法国 AI 公司 Mistral 于 2026 年 11 月 20 日在新加坡正式启用其亚太地区总部，新办公室同时设立 AI 研究中心，计划面向公共服务、高科技制造和机器人等领域开发定制 AI 模型。Mistral 还计划将亚太地区的团队从目前约 100 人扩大到 200 人，大部分新增员工都将位于新加坡办公室。&lt;/p&gt;
-&lt;figure aria-describedby="caption-attachment-128771" id="attachment_128771"&gt;&lt;a data-fancybox="gallery" href="https://img.lancdn.com/landian/2026/11/128712.png" rel="nofollow"&gt;&lt;img alt="法国AI公司Mistral在新加坡设立亚太总部 面向政府和企业开发主权AI模型" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" src="https://img.lancdn.com/landian/2026/11/128712.png"/&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-128771"&gt;本图片由 AI 生成，仅做示意使用&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Mistral 的新加坡办公室既是亚太地区总部也是公司科学研究团队在当地的延伸。根据该公司的介绍，新加坡团队将招聘 AI 研究人员、工程师和科学家，帮助客户开发模型，并将 AI 集成到具体的业务工具和工作流程中。&lt;/p&gt;
-&lt;p&gt;Mistral 联合创始人兼首席执行官阿蒂尔门施表示，公司希望以新加坡为战略据点，帮助亚太地区的政府和企业保有对基础设施及 AI 能力的控制，也就是主权 AI 能力。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Mistral 此次提出的重点是主权 AI，让政府和企业能够根据自身需求定制模型，对模型部署、数据和运行环境保持更多控制。在公共服务领域，Mistral 希望更好地理解新加坡多语言和多文化环境，包括用户在不同语言之间切换的习惯。&lt;/p&gt;
-&lt;p&gt;在高科技制造领域，Mistral 计划研究利用生产线零部件图像识别缺陷；在机器人领域，Mistral 希望模型能够帮助机器人在多楼层、设有安全检查等复杂环境中导航。&lt;/p&gt;
-&lt;p&gt;此前 Mistral 已经与新加坡内政科技局合作开发 Phoenix 多模态模型，用于当地公共安全场景。该公司还与新加坡国防科研机构及企业开展 AI 项目合作。&lt;/p&gt;
-&lt;p aria-label="热门推荐"&gt;&lt;a href="https://www.landian.news/archives/127856.html" title="美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。"&gt;热门推荐美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;span aria-hidden="true"&gt;美国硅谷/韩国首尔VPS服务器，仅需99元/年。另有国内低延迟3年版服务器，仅需528元。库存有限售完即止。&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description><pubDate>Mon, 23 Nov 2026 06:00:00 +0000</pubDate></item></channel></rss>
+</description><pubDate>Tue, 24 Nov 2026 02:00:00 +0000</pubDate></item></channel></rss>
